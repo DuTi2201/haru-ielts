@@ -58,7 +58,7 @@ Listening ≥ 30/40, Reading ≥ 30/40, Writing and Speaking ≥ 6.0 on a calibr
 
 ## What exists
 * `scripts/b1/` — the source of the B1 course (see its README). `build.py` writes
-  `app/seed/lessons/b1-*.json` (42 lessons) and `app/seed/exercises/b1/` (1,237 exercises).
+  `app/seed/lessons/b1-*.json` (42 lessons) and `app/seed/exercises/b1/` (1,236 exercises).
   Every unit ends with its own reading (a short passage, one choice question and two True/False/Not Given),
   a short writing task with a frame, a checklist and a model, a dictation and a speaking task (`scripts/b1/skills.txt`).
   28 grammar units, 85 cards; 14 vocabulary units, 1,056 words and phrases; 104 sittings.
@@ -126,7 +126,7 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
   checked against the book pages; per unit a passage summary (`R2`) and a topic-sentence question
   (`T1`); paragraph frame in every writing task; Part 1/2/3 speaking sets for the 14 vocabulary
   units (`S2`–`S4`); `docs/METHODS.md`; study page rebuilt and opened once in headless Chrome
-  (all 1,237 exercises render, no script errors). `load_all()`: 42 lessons, 1,237 exercises, no
+  (all 1,236 exercises render, no script errors). `load_all()`: 42 lessons, 1,236 exercises, no
   problems. The same 32 Korean-era tests fail before and after this change.
   To merge: `git merge content/b1-methods` into `feature/b1-boot`; only `scripts/b1`, `tools/study_page`,
   `docs` and the generated `app/seed/lessons/b1-*`, `app/seed/exercises/b1/*` change. If the field rename
