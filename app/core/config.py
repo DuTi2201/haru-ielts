@@ -102,21 +102,21 @@ class Settings(BaseSettings):
     # Non-secret tuning: change on Railway to swap the voice or pace without a
     # deploy of code. Changing either also changes the article-audio cache key
     # (see google_tts.spec), so recordings regenerate with the new voice.
-    TTS_CHIRP_VOICE: str = "ko-KR-Chirp3-HD-Iapetus"
+    TTS_CHIRP_VOICE: str = "en-GB-Chirp3-HD-Iapetus"
     TTS_CHIRP_SPEAKING_RATE: float = 0.85
-    # The "Bài giảng tổng hợp" lecture mixes Vietnamese explanation with Korean
+    # The "Bài giảng tổng hợp" lecture mixes Vietnamese explanation with English
     # examples. A Chirp voice belongs to ONE language, so the lecture is voiced
-    # run by run: Hangul with TTS_CHIRP_VOICE (pace above, slowed for
+    # run by run: target language with TTS_CHIRP_VOICE (pace above, slowed for
     # shadowing) and Vietnamese with the voice below. Empty voice = the same
-    # persona as the Korean one in vi-VN (e.g. vi-VN-Chirp3-HD-Iapetus), so
+    # persona as the primary one in vi-VN (e.g. vi-VN-Chirp3-HD-Iapetus), so
     # the lecturer sounds like one person. Both are cache-key inputs.
     TTS_CHIRP_VOICE_VI: str = ""
     TTS_CHIRP_SPEAKING_RATE_VI: float = 0.95
     # The recorded dialogues of a lesson's practice set (listening questions, speaking
     # S4): two people, so two voices — the male is TTS_CHIRP_VOICE above, the female is
     # this one — read at a natural pace (exam audio is not slowed for shadowing). If
-    # Google refuses the female name, a Korean Chirp voice of that gender is picked.
-    TTS_CHIRP_VOICE_FEMALE: str = "ko-KR-Chirp3-HD-Aoede"
+    # Google refuses the female name, a Chirp voice of that gender is picked.
+    TTS_CHIRP_VOICE_FEMALE: str = "en-GB-Chirp3-HD-Aoede"
     TTS_CHIRP_SPEAKING_RATE_EXAM: float = 1.0
     # A lecture is hundreds of short requests (a Korean word, its Vietnamese meaning, ...).
     # They are sent over a few connections at once, but never faster than this many per
@@ -141,7 +141,8 @@ class Settings(BaseSettings):
 
     # The daily reading + dialogue (app.services.daily_reading): a learner's "today" is the
     # calendar day in this zone. Change it if the app is used elsewhere.
-    DAILY_READING_TZ: str = "Asia/Seoul"
+    DAILY_READING_TZ: str = "Asia/Ho_Chi_Minh"
+    BACKUP_GCS_PREFIX: str = "backup"
 
     # Pictures for lessons and exercises (app/services/lesson_image.py). An editor presses
     # "Tạo ảnh" in Studio; every picture is made once and kept in the database. The model is a
@@ -176,13 +177,13 @@ class Settings(BaseSettings):
     WRITING_GRADES_PER_DAY: int = 10
     # AI checks of a paragraph written in a lesson (Bước 4/5, Viết 53/54; app.services.essay_check)
     LESSON_ESSAY_CHECKS_PER_DAY: int = 8
-    # Azure Neural TTS for short Korean texts (app/services/azure_tts.py): when the key and region are
-    # set, every Korean text, word and letter is voiced by Azure (with the NIKL pronunciation table);
-    # empty = Google Chirp as before. Lectures and article read-alongs stay on Chirp.
+    # Azure Neural TTS for short English/target texts (app/services/azure_tts.py): when the key and region are
+    # set, every short text and word is voiced by Azure; empty = Google Chirp as before.
+    # Lectures and article read-alongs stay on Chirp.
     AZURE_SPEECH_KEY: str = ""
     AZURE_SPEECH_REGION: str = ""
-    AZURE_TTS_VOICE: str = "ko-KR-SunHiNeural"
-    AZURE_TTS_VOICE_MALE: str = "ko-KR-InJoonNeural"
+    AZURE_TTS_VOICE: str = "en-GB-SoniaNeural"
+    AZURE_TTS_VOICE_MALE: str = "en-GB-RyanNeural"
     AZURE_TTS_RATE: float = 0.95
     # "Trò chuyện với Haru" (app.services.conversation): the Gemini Live model the browser talks to
     # with a single-use token, its voice (empty = the model's default), how long one session may

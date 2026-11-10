@@ -34,6 +34,8 @@ class Deck:
 
 @lru_cache(maxsize=1)
 def load() -> dict[str, Any]:
+    if not BANK_FILE.is_file():
+        return {"decks": [], "words": []}
     return json.loads(BANK_FILE.read_text(encoding="utf-8"))
 
 
@@ -90,7 +92,7 @@ def row_fields(w: dict[str, Any]) -> dict[str, Any]:
 
 
 def _fingerprint(lesson_words: set[str]) -> str:
-    h = hashlib.sha256(BANK_FILE.read_bytes())
+    h = hashlib.sha256(BANK_FILE.read_bytes() if BANK_FILE.is_file() else b"")
     h.update("\n".join(sorted(lesson_words)).encode("utf-8"))
     return h.hexdigest()
 
@@ -98,6 +100,8 @@ def _fingerprint(lesson_words: set[str]) -> str:
 def sync_bank(db: Any) -> dict[str, int]:
     """Bring the bank's vocab_item rows in line with the file (sync Session). Skipped when neither
     the file nor the set of lesson words changed since the last run."""
+    if not BANK_FILE.is_file():
+        return {}
     from sqlalchemy import delete, select
 
     from app.models import AppConfig, ErrorLog, ItemState, VocabItem, VocabItemAudio

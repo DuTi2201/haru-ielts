@@ -66,7 +66,7 @@ def is_configured() -> bool:
 
 
 def voice_name() -> str:
-    return (settings.TTS_CHIRP_VOICE or "").strip() or "ko-KR-Chirp3-HD-Iapetus"
+    return (settings.TTS_CHIRP_VOICE or "").strip() or "en-GB-Chirp3-HD-Iapetus"
 
 
 def speaking_rate() -> float:
@@ -76,7 +76,7 @@ def speaking_rate() -> float:
 
 def language_code() -> str:
     parts = voice_name().split("-")
-    return "-".join(parts[:2]) if len(parts) >= 2 else "ko-KR"
+    return "-".join(parts[:2]) if len(parts) >= 2 else "en-GB"
 
 
 def _persona(name: str) -> str:
@@ -100,8 +100,8 @@ def vi_speaking_rate() -> float:
 
 
 def female_voice_name() -> str:
-    """The second voice of a recorded dialogue (the first is the Korean voice above)."""
-    return (settings.TTS_CHIRP_VOICE_FEMALE or "").strip() or "ko-KR-Chirp3-HD-Aoede"
+    """The second voice of a recorded dialogue (the first is the primary voice above)."""
+    return (settings.TTS_CHIRP_VOICE_FEMALE or "").strip() or "en-GB-Chirp3-HD-Aoede"
 
 
 def exam_rate() -> float:
@@ -312,7 +312,7 @@ def pick_vi_voice(rejected: str) -> str | None:
     for v in vi:
         if v["name"] != rejected and _persona(v["name"]) == persona:
             return v["name"]
-    ko_gender = next((v["gender"] for v in list_chirp_voices("ko-KR") if v["name"] == voice_name()), "")
+    ko_gender = next((v["gender"] for v in list_chirp_voices(language_code()) if v["name"] == voice_name()), "")
     for v in vi:
         if v["name"] != rejected and ko_gender and v["gender"] == ko_gender:
             return v["name"]
@@ -320,8 +320,8 @@ def pick_vi_voice(rejected: str) -> str | None:
 
 
 def pick_ko_voice(rejected: str, gender: str) -> str | None:
-    """A Korean Chirp 3 HD voice of `gender` ("FEMALE" / "MALE") that Google does
+    """A Chirp 3 HD voice of `gender` ("FEMALE" / "MALE") that Google does
     list, for when the configured one (`rejected`) was refused. None when the list
     cannot be fetched or has none."""
-    voices = [v for v in list_chirp_voices("ko-KR") if v["name"] != rejected and v["gender"] == gender.upper()]
+    voices = [v for v in list_chirp_voices(language_code()) if v["name"] != rejected and v["gender"] == gender.upper()]
     return voices[0]["name"] if voices else None

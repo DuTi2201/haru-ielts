@@ -62,7 +62,7 @@ class Profile(Base):
     )
     display_name: Mapped[str | None] = mapped_column(String(120), nullable=True)
     goal: Mapped[str | None] = mapped_column(
-        Enum("talk", "topik1", "topik4", "topik5", "topik6", name="profile_goal"),
+        Enum("talk", "topik1", "topik4", "topik5", "topik6", "ielts65", "b1", name="profile_goal"),
         nullable=True,
     )
     exam_date: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)

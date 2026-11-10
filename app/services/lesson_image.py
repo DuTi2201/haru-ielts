@@ -86,6 +86,8 @@ class Plan:
 
 @lru_cache(maxsize=1)
 def load_plan() -> Plan:
+    if not PLAN_PATH.is_file():
+        return Plan(style_version="v1", lessons={}, vocab={}, grammar={}, topics={})
     raw = json.loads(PLAN_PATH.read_text(encoding="utf-8"))
     return Plan(
         style_version=str(raw.get("style_version") or "v1"),

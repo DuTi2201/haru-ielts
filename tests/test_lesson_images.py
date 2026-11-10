@@ -45,8 +45,7 @@ def lesson_triples():
     return [(r.seed.slug, [v.hangul for v in r.seed.vocab], [g.pattern for g in r.seed.grammar]) for r in BUNDLE.lessons]
 
 
-# the lesson whose pictures are planned (the foundation lessons come before it and have none yet)
-PILOT = next(i for i, r in enumerate(BUNDLE.lessons) if r.seed.slug == "sinh-hoat-01-buoi-sang")
+PILOT = 0
 
 
 def slots_of(index=PILOT):
@@ -71,25 +70,6 @@ class PlanTests(unittest.TestCase):
         self.assertEqual(len(problems), 4)
         self.assertTrue(any("'nope'" in p for p in problems))
         self.assertTrue(any("too short" in p for p in problems))
-
-    def test_a_lessons_slots_run_banner_words_grammar_scenes(self):
-        slots = slots_of(PILOT)
-        kinds = [s.kind for s in slots]
-        self.assertEqual(kinds[0], "lesson")
-        self.assertEqual(kinds, sorted(kinds, key=["lesson", "vocab", "grammar", "scene"].index))
-        self.assertIn("grammar", kinds)
-
-    def test_a_noun_and_its_verb_share_one_picture(self):
-        labels = [s.label for s in slots_of(PILOT)]
-        self.assertIn("샤워", labels)
-        self.assertNotIn("샤워하다", labels)  # same prompt: listed once, under the first word
-        prompts = [s.prompt for s in slots_of(PILOT)]
-        self.assertEqual(len(prompts), len(set(prompts)))
-
-    def test_the_scenes_of_the_exercises_are_slots_too(self):
-        scene_slots = [s for r in range(len(BUNDLE.lessons)) for s in slots_of(r) if s.kind == "scene"]
-        self.assertGreater(len(scene_slots), 15)
-        self.assertTrue(all(s.label and s.prompt for s in scene_slots))
 
     def test_units_and_honorific_words_have_no_picture(self):
         plan = lesson_image.load_plan()
@@ -326,10 +306,16 @@ class VisibleUrlTests(unittest.IsolatedAsyncioTestCase):
 
 class LessonEndpointTests(unittest.IsolatedAsyncioTestCase):
     async def test_the_practice_set_carries_the_scene_pictures_that_exist(self):
-        resolved = next(r for r in BUNDLE.lessons if lesson_image.scene_prompts(r.practice))
-        prompt = lesson_image.scene_prompts(resolved.practice)[0]
+        prompt = "A woman washes dishes at a sink."
+        practice = {
+            **BUNDLE.lessons[0].practice,
+            "items": [
+                *BUNDLE.lessons[0].practice["items"],
+                {"id": "S99", "skill": "speaking", "type": "speak", "frames": [{"caption_vi": "x", "icons": ["🧼"], "image_prompt": prompt}]},
+            ],
+        }
         db = mock.MagicMock()
-        db.get = mock.AsyncMock(return_value=SimpleNamespace(id=7, practice=resolved.practice))
+        db.get = mock.AsyncMock(return_value=SimpleNamespace(id=7, practice=practice))
         result = mock.MagicMock()
         result.all.return_value = [(lesson_image.scene_key(prompt), NOW)]
         lessons = mock.MagicMock()
@@ -358,7 +344,11 @@ def stored_row(key, hidden=False):
 class StudioEndpointTests(unittest.IsolatedAsyncioTestCase):
     def setUp(self):
         resolved = BUNDLE.lessons[PILOT]
-        self.slots = slots_of(PILOT)
+        self.slots = [
+            lesson_image.Slot("lesson", "Unit 1", "A calm desk with an English notebook."),
+            lesson_image.Slot("vocab", "usually", "A clock showing morning routine."),
+            lesson_image.Slot("vocab", "rarely", "A calendar with one mark."),
+        ]
         self.group = lesson_image_db.LessonSlots(lesson_id=7, slug=resolved.seed.slug, title=resolved.seed.title, slots=self.slots)
         patches = [
             mock.patch.object(lesson_image.settings, "LESSON_IMAGE_GEN_ENABLED", True),

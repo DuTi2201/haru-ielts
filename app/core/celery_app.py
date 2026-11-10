@@ -42,14 +42,6 @@ celery_app.conf.update(
             "task": "app.workers.tasks.backup_database",
             "schedule": crontab(hour=20, minute=0),  # 03:00 in Vietnam; see services/db_backup
         },
-        "reconcile-billing-orders": {
-            "task": "app.workers.tasks.reconcile_billing_orders",
-            "schedule": 300.0,  # a no-op until billing is switched on
-        },
-        "discover-editorial-candidates": {
-            "task": "app.workers.tasks.discover_editorial_candidates",
-            "schedule": 6 * 3600.0,  # every 6h — RSS feeds don't need finer polling than that
-        },
     },
 )
 

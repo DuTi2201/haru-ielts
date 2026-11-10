@@ -15,6 +15,8 @@ from typing import Any
 
 # the last lesson each goal needs (a slug prefix; "" = the whole course)
 GOAL_END = {
+    "ielts65": "",
+    "b1": "b1-u42",
     "topik1": "sinh-hoat-10",
     "talk": "cong-so-08",
     "work": "cong-so-08",
@@ -23,6 +25,8 @@ GOAL_END = {
     "topik6": "",
 }
 GOAL_LABEL = {
+    "ielts65": "IELTS Academic 6.5",
+    "b1": "Destination B1",
     "talk": "giao tiếp hằng ngày",
     "work": "đi làm, công sở",
     "topik1": "TOPIK I",
@@ -30,7 +34,7 @@ GOAL_LABEL = {
     "topik5": "TOPIK II cấp 5–6",
     "topik6": "TOPIK II cấp 5–6",
 }
-SKIP_FOR = {"talk": ("viet-nghi-luan-",), "work": ("viet-nghi-luan-",), "topik1": ()}
+SKIP_FOR = {"talk": ("viet-nghi-luan-",), "work": ("viet-nghi-luan-",), "topik1": (), "ielts65": (), "b1": ()}
 STUDY_DAYS = 6  # a week, one day off
 NEW_SHARE = 0.7  # of the daily minutes, what goes to new lessons (the rest: review)
 HEADLINE_MAX, TIP_MAX, TIPS = 90, 120, 3

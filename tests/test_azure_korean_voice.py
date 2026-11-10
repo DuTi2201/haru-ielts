@@ -1,24 +1,8 @@
-"""The Korean voice: NIKL pronunciation before speech (korean_g2p) and Azure as the voice for
-short Korean texts when configured (azure_tts, tts.synthesize_korean_with_provider)."""
+"""Azure Neural voice for short English/Korean texts when configured (azure_tts, tts.synthesize_korean_with_provider)."""
 import unittest
 from unittest import mock
 
-from app.services import azure_tts, korean_g2p, text_audio, tts
-
-
-class G2PTests(unittest.TestCase):
-    def test_standalone_words_are_said_as_pronounced(self):
-        for written, said in [("학생", "학쌩"), ("한국어", "한구거"), ("같이", "가치"), ("국물", "궁물"), ("신라", "실라"), ("좋다", "조타")]:
-            self.assertEqual(korean_g2p.pronounce(written), said)
-
-    def test_a_word_with_a_particle_is_left_to_the_voice(self):
-        body = korean_g2p.to_ssml_body("학생이 와요. 학생")
-        self.assertIn("학생이", body)
-        self.assertEqual(body.count("<sub"), 1)
-        self.assertIn('<sub alias="학쌩">학생</sub>', body)
-
-    def test_text_is_escaped(self):
-        self.assertNotIn("<b>", korean_g2p.to_ssml_body("<b>안녕</b>"))
+from app.services import azure_tts, text_audio, tts
 
 
 class AzureTests(unittest.TestCase):
@@ -28,14 +12,21 @@ class AzureTests(unittest.TestCase):
         self.addCleanup(p.stop)
 
     def test_voices_and_spec(self):
-        self.assertEqual(azure_tts.voice_for("ko-female-2"), "ko-KR-SunHiNeural")
-        self.assertEqual(azure_tts.voice_for("ko-male-1"), "ko-KR-InJoonNeural")
-        self.assertTrue(azure_tts.spec().startswith("az-sunhi-"))
+        self.assertEqual(azure_tts.voice_for("en-female-1"), "en-GB-SoniaNeural")
+        self.assertEqual(azure_tts.voice_for("en-male-1"), "en-GB-RyanNeural")
+        self.assertEqual(azure_tts.voice_for("ko-female-2"), "en-GB-SoniaNeural")
+        self.assertEqual(azure_tts.voice_for("ko-male-1"), "en-GB-RyanNeural")
+        self.assertTrue(azure_tts.spec().startswith("az-sonia-"))
 
-    def test_ssml_carries_the_pronunciation(self):
-        x = azure_tts.ssml("학생", "ko-female-1")
-        self.assertIn('xml:lang="ko-KR"', x)
-        self.assertIn('<sub alias="학쌩">학생</sub>', x)
+    def test_ssml_skips_korean_g2p_for_english_voices(self):
+        x = azure_tts.ssml("<b>usually</b>", "en-female-1")
+        self.assertIn('xml:lang="en-GB"', x)
+        self.assertNotIn("<sub", x)
+        self.assertNotIn("<b>", x)
+        self.assertIn("usually", x)
+        with mock.patch.multiple(azure_tts.settings, AZURE_TTS_VOICE="en-US-JennyNeural"):
+            us = azure_tts.ssml("schedule", "en-female-1")
+            self.assertIn('xml:lang="en-US"', us)
 
     def test_azure_is_first_and_chirp_is_the_fallback(self):
         with mock.patch.object(azure_tts, "synthesize_pcm", return_value=(b"\0\0" * 2400, 24000)), \

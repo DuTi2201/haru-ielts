@@ -92,7 +92,7 @@ from app.schemas import (
     TopicOut,
     VocabItemOut,
 )
-from app.services import audio_store, competency, topik_bank, feathers, competency_db, corpus_browse, corpus_enrich, daily_reading_db, journey, lesson_image, lesson_image_db, lesson_seed, reading_path, srs, weakness
+from app.services import audio_store, competency, topik_bank, feathers, competency_db, corpus_browse, corpus_enrich, daily_reading_db, journey, lesson_image, lesson_image_db, lesson_seed, placement, reading_path, srs, weakness
 from app.services.corpus_browse import Sentence
 from app.services.exercises import build_cloze
 from app.services.grammar_graph import GraphCard, invert as invert_graph, resolve as resolve_graph
@@ -1971,7 +1971,7 @@ async def get_my_plan(
     taken = (
         await db.execute(select(PlacementAttempt.id).where(PlacementAttempt.learner_id == profile.id).limit(1))
     ).first()
-    if taken is None:
+    if taken is None and placement.DIAGNOSTIC_FILE.is_file():
         task = TodayPlanTask(
             kind="placement",
             title="Tìm bài bắt đầu",

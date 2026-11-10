@@ -1894,44 +1894,44 @@ def _check() -> int:
         n_q = sum(len(_question_ids(e)) for e in (r.practice or {"items": []})["items"])
         print(f"  {s.track:12} {s.sort_order:>2} {s.slug:38} vocab={len(s.vocab):3} grammar={len(s.grammar):2} "
               f"notes={len(s.notes)} exercises={len(s.exercise_ids)} questions={n_q}")
-    # the picture plan (app/seed/images.json) is checked here, not at start-up: a typo in it
-    # must never stop the lessons from loading
+    picture_problems: list[str] = []
     from app.services import lesson_image
 
-    picture_problems = lesson_image.check_plan(
-        [(r.seed.slug, [v.hangul for v in r.seed.vocab], [g.pattern for g in r.seed.grammar]) for r in bundle.lessons]
-    )
-    for p in picture_problems:
-        print("PROBLEM:", p)
-    # the NIKL beginner list (한국어기초사전 초급): every word a card somewhere, or a reason why not
+    if lesson_image.PLAN_PATH.is_file():
+        picture_problems = lesson_image.check_plan(
+            [(r.seed.slug, [v.hangul for v in r.seed.vocab], [g.pattern for g in r.seed.grammar]) for r in bundle.lessons]
+        )
+        for p in picture_problems:
+            print("PROBLEM:", p)
     nikl, nikl_problems = nikl_coverage(bundle.lessons)
     if nikl:
         print(f"NIKL 초급: {nikl['taught']}/{nikl['words']} taught, {nikl['missing']} missing ({nikl['excused']} excused)")
     for p in nikl_problems:
         print("PROBLEM:", p)
     picture_problems += nikl_problems
-    # the entry diagnostic points at cards of these lessons
+    diagnostic_problems: list[str] = []
     from app.services import placement
 
-    loaded, diagnostic_problems = placement.load()
-    diagnostic_problems += placement.check(loaded, [(r.seed.slug, g.pattern) for r in bundle.lessons for g in r.seed.grammar])
-    for p in diagnostic_problems:
-        print("PROBLEM:", p)
-    if loaded is not None:
-        print(f"entry diagnostic: {len(loaded.items)} items")
-    # the daily readings and dialogues rest on the cards and words of these lessons
+    if placement.DIAGNOSTIC_FILE.is_file():
+        loaded, diagnostic_problems = placement.load()
+        diagnostic_problems += placement.check(loaded, [(r.seed.slug, g.pattern) for r in bundle.lessons for g in r.seed.grammar])
+        for p in diagnostic_problems:
+            print("PROBLEM:", p)
+        if loaded is not None:
+            print(f"entry diagnostic: {len(loaded.items)} items")
+    passage_problems: list[str] = []
     from app.services import passages
 
-    texts, passage_problems = passages.load()
-    infos = passages.lesson_infos(bundle.lessons)
-    passage_problems += passages.check(texts, infos) + passages.coverage(texts, infos)
-    for p in passage_problems:
-        print("PROBLEM:", p)
-    print(f"daily readings: {len(texts)} texts")
-    # Vừa sức / Thử thách were measured on the text as it was: an edited item is measured again
+    if passages.PASSAGE_DIR.is_dir():
+        texts, passage_problems = passages.load()
+        infos = passages.lesson_infos(bundle.lessons)
+        passage_problems += passages.check(texts, infos) + passages.coverage(texts, infos)
+        for p in passage_problems:
+            print("PROBLEM:", p)
+        print(f"daily readings: {len(texts)} texts")
     from app.services import practice_tiers
 
-    tier_problems = practice_tiers.stale()  # an edited item: run python -m app.services.practice_tiers --build
+    tier_problems = practice_tiers.stale()
     for p in tier_problems:
         print("PROBLEM:", p)
     return 1 if (bundle.problems or picture_problems or diagnostic_problems or passage_problems or tier_problems) else 0

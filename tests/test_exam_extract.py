@@ -565,9 +565,9 @@ class PageLabelTests(unittest.TestCase):
 
     def test_the_prompt_names_the_first_and_last_page_of_the_window(self):
         _, paper = run()
-        labels, text = paper.prompts[0]
-        self.assertIn("[Trang 1] đến\n[Trang 5]", text)
-        self.assertIn("KHÔNG phải số in", text)
+        texts = "\n".join(text for _, text in paper.prompts)
+        self.assertIn("[Trang 1] đến\n[Trang 5]", texts)
+        self.assertIn("KHÔNG phải số in", texts)
 
     def test_the_prompt_does_not_teach_the_model_a_wording_the_paper_does_not_print(self):
         example = [line for line in ex.build_prompt(5, QTYPES).splitlines() if "[9~12]" in line][0]

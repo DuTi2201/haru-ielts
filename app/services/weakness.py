@@ -43,6 +43,7 @@ ERROR_LABELS: dict[str, str] = {
     "listen_dialogue": "Nghe: hội thoại dài",
     "listen_interview": "Nghe: đối thoại phỏng vấn",
     "read_cloze": "Đọc: điền ngữ pháp vào chỗ trống",
+    "read_passage": "Đọc: đọc hiểu đoạn văn",
     "read_similar": "Đọc: chọn cách diễn đạt tương đương",
     "read_topic": "Đọc: bài viết nói về điều gì",
     "read_match": "Đọc: nội dung trùng khớp",

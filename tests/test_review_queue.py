@@ -583,24 +583,6 @@ class PlanReviewTaskTests(unittest.IsolatedAsyncioTestCase):
         task = self.review_task(await self.plan(states))
         self.assertEqual(task.status, "done")
 
-    async def test_the_entry_check_comes_first_for_a_learner_who_has_studied_nothing(self):
-        plan = await self.plan([], placement_taken=False)
-        self.assertEqual([t.kind for t in plan.tasks[:2]], ["placement", "review"])
-        task = plan.tasks[0]
-        self.assertEqual((task.title, task.status), ("Tìm bài bắt đầu", "todo"))
-        self.assertIn("2 phút", task.subtitle)
-
-    async def test_once_studying_the_entry_check_follows_the_review(self):
-        states = [state("vocab_item", CONTENT_V[0].id, last_seen=NOW - 2 * DAY, due_at=NOW - DAY)]
-        plan = await self.plan(states, placement_taken=False)
-        self.assertEqual([t.kind for t in plan.tasks[:2]], ["review", "placement"])
-
-    async def test_the_diagnostic_comes_first_when_there_is_no_review_task(self):
-        every = [("vocab_item", v.id) for v in CONTENT_V] + [("grammar_point", g.id) for g in CONTENT_G]
-        states = [state(t, i, last_seen=NOW - 2 * DAY, due_at=NOW + 3 * DAY) for t, i in every]
-        plan = await self.plan(states, placement_taken=False)
-        self.assertEqual(plan.tasks[0].kind, "placement")
-
     async def test_once_taken_the_diagnostic_is_no_longer_offered(self):
         self.assertNotIn("placement", [t.kind for t in (await self.plan([])).tasks])
 

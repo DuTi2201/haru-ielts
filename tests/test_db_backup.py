@@ -72,8 +72,11 @@ class RoundTripTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.engine = create_engine(settings.SYNC_DATABASE_URL)
-        with cls.engine.connect() as c:
-            cls.superuser = c.execute(text("SELECT rolsuper FROM pg_roles WHERE rolname = current_user")).scalar()
+        try:
+            with cls.engine.connect() as c:
+                cls.superuser = c.execute(text("SELECT rolsuper FROM pg_roles WHERE rolname = current_user")).scalar()
+        except Exception as exc:
+            raise unittest.SkipTest(f"local test database not reachable: {exc}")
 
     def setUp(self):
         with self.engine.begin() as c:

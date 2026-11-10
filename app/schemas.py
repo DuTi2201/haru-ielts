@@ -100,10 +100,22 @@ class ProblemDetail(BaseModel):
 
 
 # ------------------------------------------------------------------- audio --
+VoiceId = Literal[
+    "en-female-1",
+    "en-female-2",
+    "en-male-1",
+    "en-male-2",
+    "ko-female-1",
+    "ko-female-2",
+    "ko-male-1",
+    "ko-male-2",
+]
+
+
 class LectureAudioRequest(BaseModel):
     lesson_id: str
     text_ko: str
-    voice: str = "ko-female-1"
+    voice: str = "en-female-1"
     prompt_version: str = "v1"
 
 
@@ -114,7 +126,7 @@ class CorpusAudioRequest(BaseModel):
     accepted for older clients and ignored."""
 
     text_ko: str | None = None
-    voice: Literal["ko-female-1", "ko-female-2", "ko-male-1", "ko-male-2"] = "ko-female-1"
+    voice: VoiceId = "en-female-1"
     # Part of the audio cache key, and owned by the server: "v2" = the first generation
     # voiced by Google Chirp 3 HD; clips cached under "v1" (Gemini voice) are not reused.
     prompt_version: Literal["v2"] = "v2"
@@ -127,17 +139,17 @@ class VocabAudioRequest(BaseModel):
     sets for the same reason — a new value would be a new cache entry to pay for."""
 
     text_ko: str | None = None
-    voice: Literal["ko-female-1", "ko-female-2", "ko-male-1", "ko-male-2"] = "ko-female-1"
+    voice: VoiceId = "en-female-1"
     prompt_version: Literal["v1"] = "v1"
 
 
 class TextAudioRequest(BaseModel):
-    """POST /audio/text: read this Korean text aloud. The server checks it (Korean only, a length
+    """POST /audio/text: read this English text aloud. The server checks it (English only, a length
     cap) and files the recording under a hash of what it says, so asking again is free. The voice
     and version are fixed sets, as for a word: a new value would be a new recording to pay for."""
 
     text: str = Field(min_length=1, max_length=4000)
-    voice: Literal["ko-female-1", "ko-female-2", "ko-male-1", "ko-male-2"] = "ko-female-1"
+    voice: VoiceId = "en-female-1"
     prompt_version: Literal["v1"] = "v1"
 
 

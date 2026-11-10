@@ -17,8 +17,7 @@ from app.services import lesson_audio, lesson_seed, progress, srs, tts
 
 NOW = datetime(2026, 10, 5, tzinfo=timezone.utc)
 BUNDLE = lesson_seed.load_all()
-# the first lesson with every skill (the foundation lessons before it have reading and building only)
-LESSON = next(r for r in BUNDLE.lessons if r.seed.slug == "sinh-hoat-01-buoi-sang")
+LESSON = BUNDLE.lessons[0]
 
 
 def fake_lesson(resolved=LESSON, lesson_id=7):
@@ -111,7 +110,7 @@ class AnswerTests(unittest.IsolatedAsyncioTestCase):
 
     def first_question(self):
         # a question with no linked grammar card (those take more queries, tested elsewhere)
-        ex = next(e for e in LESSON.practice["items"] if e["skill"] == "listening" and not e["questions"][0].get("grammar"))
+        ex = next(e for e in LESSON.practice["items"] if e.get("questions") and not e["questions"][0].get("grammar"))
         return ex, ex["questions"][0]
 
     async def answer(self, db, **body):
@@ -131,7 +130,7 @@ class AnswerTests(unittest.IsolatedAsyncioTestCase):
         db = self.db()
         await self.answer(db, exercise_id=ex["id"], question_id=q["id"], correct=False, answer="9")
         log = next(c.args[0] for c in db.add.call_args_list if isinstance(c.args[0], ErrorLog))
-        self.assertEqual((log.skill, log.error_type, log.mode), ("nghe", ex["type"], "exam"))
+        self.assertEqual((log.skill, log.error_type, log.mode), ("đọc", ex["type"], "exam"))
         self.assertEqual(log.detail["question"], q["id"])
         self.assertEqual(log.detail["chosen"], "9")
         self.assertEqual(log.learner_id, self.PROFILE.id)
@@ -194,8 +193,8 @@ class LinkedGrammarTests(unittest.IsolatedAsyncioTestCase):
     PROFILE = SimpleNamespace(id=uuid.UUID(int=5))
 
     def setUp(self):
-        self.resolved = next(r for r in BUNDLE.lessons if r.seed.slug == "sinh-hoat-06-hoc-lam")
-        ex = next(e for e in self.resolved.practice["items"] if e["id"] == "E01a")
+        self.resolved = LESSON
+        ex = next(e for e in self.resolved.practice["items"] if e["id"] == "B1U01Q1")
         self.ex, self.q = ex, ex["questions"][0]
 
     def db(self, *results_):
@@ -212,7 +211,7 @@ class LinkedGrammarTests(unittest.IsolatedAsyncioTestCase):
             exercise_id=ex["id"], question_id=qid or self.q["id"], correct=correct, answer="1"
         )
         self.recorded = mock.AsyncMock()
-        with mock.patch.object(content, "_linked_grammar_ids", mock.AsyncMock(return_value=[(42, "V + -(으)면서")])) as lookup:
+        with mock.patch.object(content, "_linked_grammar_ids", mock.AsyncMock(return_value=[(42, "Present simple: S + V(s/es)")])) as lookup:
             with mock.patch.object(content.competency_db, "record_outcomes", self.recorded):
                 await content.answer_lesson_question(7, body, db, self.PROFILE)
         return lookup
@@ -228,7 +227,7 @@ class LinkedGrammarTests(unittest.IsolatedAsyncioTestCase):
         await self.answer(db, correct=False)
         log = self.added(db, ErrorLog)[0]
         self.assertEqual((log.item_type, log.item_id), ("grammar_point", 42))
-        self.assertEqual(log.detail["grammar"], ["V + -(으)면서"])
+        self.assertEqual(log.detail["grammar"], ["Present simple: S + V(s/es)"])
         state = self.added(db, ItemState)[0]
         self.assertEqual((state.item_type, state.item_id, state.learner_id), ("grammar_point", 42, self.PROFILE.id))
         self.assertEqual((state.lapses, state.reps), (1, 0))
@@ -270,7 +269,7 @@ class LinkedGrammarTests(unittest.IsolatedAsyncioTestCase):
         from app.models import ItemState
 
         previous = SimpleNamespace(
-            correct=False, attempts=1, last_answer="2", updated_at=None, exercise_id="E01a", question_id="E01a"
+            correct=False, attempts=1, last_answer="2", updated_at=None, exercise_id="B1U01Q1", question_id="B1U01Q1"
         )
         db = self.db(previous, [previous])
         await self.answer(db, correct=False)
@@ -281,7 +280,7 @@ class LinkedGrammarTests(unittest.IsolatedAsyncioTestCase):
         from app.models import ItemState
 
         previous = SimpleNamespace(
-            correct=True, attempts=1, last_answer="4", updated_at=None, exercise_id="E01a", question_id="E01a"
+            correct=True, attempts=1, last_answer="4", updated_at=None, exercise_id="B1U01Q1", question_id="B1U01Q1"
         )
         db = self.db(previous, [], [previous])
         await self.answer(db, correct=False)
@@ -301,20 +300,20 @@ class LinkedGrammarTests(unittest.IsolatedAsyncioTestCase):
             await self.answer(db, correct=correct)
             self.recorded.assert_awaited_once()
             args = self.recorded.await_args.args
-            self.assertEqual((args[1], args[2], args[3], args[4]), (self.PROFILE.id, [42], 0, correct))  # E01a is a reading question: rung 0
+            self.assertEqual((args[1], args[2], args[3], args[4]), (self.PROFILE.id, [42], 0, correct))
 
     async def test_the_links_are_looked_up_through_the_lessons_own_cards(self):
         db = mock.MagicMock()
         row = SimpleNamespace(id=42)
         found = mock.MagicMock()
-        found.all.return_value = [(42, "V + -(으)면서", "sinh-hoat-06-hoc-lam")]
+        found.all.return_value = [(42, "Present simple: S + V(s/es)", self.resolved.seed.slug)]
         db.execute = mock.AsyncMock(return_value=found)
         lesson = fake_lesson(self.resolved)
-        got = await content._linked_grammar_ids(db, lesson, self.ex, "E01a")
-        self.assertEqual(got, [(42, "V + -(으)면서")])
+        got = await content._linked_grammar_ids(db, lesson, self.ex, "B1U01Q1")
+        self.assertEqual(got, [(42, "Present simple: S + V(s/es)")])
         # a question with no link costs no query
         db.execute.reset_mock()
-        other = next(e for e in self.resolved.practice["items"] if e["type"] == "listen_dialogue")
+        other = next(e for e in self.resolved.practice["items"] if e["id"] == "B1U01R1")
         self.assertEqual(await content._linked_grammar_ids(db, lesson, other, other["questions"][0]["id"]), [])
         db.execute.assert_not_awaited()
         del row
@@ -323,9 +322,9 @@ class LinkedGrammarTests(unittest.IsolatedAsyncioTestCase):
         db = mock.MagicMock()
         db.get = mock.AsyncMock(return_value=fake_lesson(self.resolved))
         ids = mock.MagicMock()
-        ids.all.return_value = [("sinh-hoat-06-hoc-lam", 66)]
+        ids.all.return_value = [(self.resolved.seed.slug, 66)]
         titled = mock.MagicMock()
-        titled.all.return_value = []  # the lessons named by a hard item's help (tested in test_practice_tiers)
+        titled.all.return_value = []
 
         async def execute(stmt):
             return titled if "content.lesson.title" in str(stmt) else ids
@@ -333,11 +332,11 @@ class LinkedGrammarTests(unittest.IsolatedAsyncioTestCase):
         db.execute = mock.AsyncMock(side_effect=execute)
         with mock.patch.object(content.lesson_image_db, "visible_urls", mock.AsyncMock(return_value={})):
             out = await content.get_lesson_practice(7, SimpleNamespace(headers={}), db)
-        card = out.grammar["V + -(으)면서"]
-        self.assertEqual((card["lesson_id"], card["tier"], card["use_level"]), (66, "extension", "produce"))
+        card = out.grammar["Present simple: S + V(s/es)"]
+        self.assertEqual((card["lesson_id"], card["tier"], card["use_level"]), (66, "core", "produce"))
         self.assertNotIn("lesson_order", card)
-        first = next(e for e in out.items if e["id"] == "E01a")
-        self.assertEqual(first["questions"][0]["grammar"], ["V + -(으)면서"])
+        first = next(e for e in out.items if e["id"] == "B1U01Q1")
+        self.assertEqual(first["questions"][0]["grammar"], ["Present simple: S + V(s/es)"])
 
 
 class LessonAudioRequestTests(unittest.IsolatedAsyncioTestCase):
@@ -393,7 +392,7 @@ class LessonAudioRequestTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual((args[4], args[7]), ("podcast-v2", "story"))
 
     async def test_a_stored_recording_is_replayed_without_a_new_job(self):
-        hit = SimpleNamespace(cache_key="k", opus_path="/o", aac_path="/a", duration_sec=60, script_text="s")
+        hit = SimpleNamespace(cache_key="k", opus_path="/o", aac_path="/a", duration_sec=60, script_text="s", timeline=None)
         with mock.patch.object(tts, "chirp_enabled", return_value=True), mock.patch.object(
             audio.generate_content_podcast, "delay"
         ) as delay:
@@ -438,34 +437,37 @@ class ExerciseAudioRequestTests(unittest.IsolatedAsyncioTestCase):
         return out, delay
 
     async def test_a_listening_exercise_is_recorded_with_its_turns(self):
-        resolved = self.lesson_with("L1")
-        out, delay = await self.ask(fake_lesson(resolved), "L1")
+        resolved = self.lesson_with("B1U01D1")
+        out, delay = await self.ask(fake_lesson(resolved), "B1U01D1")
         job_id, ex_id, turns, key, fallback = delay.call_args.args
-        self.assertEqual(ex_id, "L1")
-        self.assertEqual([t[0] for t in turns], ["F", "M", "F", "M"])
-        self.assertTrue(key.startswith("lex:L1:") and key.endswith(tts.dialogue_spec()))
-        self.assertTrue(fallback.startswith("lex:L1:") and fallback != key)
+        self.assertEqual(ex_id, "B1U01D1")
+        self.assertEqual([t[0] for t in turns], ["F", "M", "F"])
+        self.assertTrue(key.startswith("lex:B1U01D1:") and key.endswith(tts.dialogue_spec()))
+        self.assertTrue(fallback.startswith("lex:B1U01D1:") and fallback != key)
         self.assertEqual(out.status, "queued")
 
     async def test_the_recording_is_stored_once_and_replayed(self):
-        resolved = self.lesson_with("L1")
+        resolved = self.lesson_with("B1U01D1")
         hit = SimpleNamespace(cache_key="k", opus_path="/o", aac_path="/a", duration_sec=9)
-        out, delay = await self.ask(fake_lesson(resolved), "L1", hit=hit)
+        out, delay = await self.ask(fake_lesson(resolved), "B1U01D1", hit=hit)
         delay.assert_not_called()
         self.assertEqual(out.status, "succeeded")
 
     async def test_an_exercise_without_a_recording_is_a_404(self):
-        resolved = self.lesson_with("R1")
+        resolved = self.lesson_with("B1U01Q1")
         with self.assertRaises(HTTPException) as caught:
-            await self.ask(fake_lesson(resolved), "R1")
+            await self.ask(fake_lesson(resolved), "B1U01Q1")
         self.assertEqual(caught.exception.status_code, 404)
         with self.assertRaises(HTTPException) as caught:
-            await self.ask(None, "L1")
+            await self.ask(None, "B1U01D1")
         self.assertEqual(caught.exception.status_code, 404)
 
     async def test_the_speaking_task_with_a_dialogue_has_one_too(self):
-        resolved = self.lesson_with("S4")
-        _out, delay = await self.ask(fake_lesson(resolved), "S4")
+        lesson = fake_lesson(LESSON)
+        lesson.practice = {
+            "items": [{"id": "S4", "type": "speak", "audio": {"kind": "audio", "turns": [{"speaker": "N", "text": "Hello."}]}}]
+        }
+        _out, delay = await self.ask(lesson, "S4")
         delay.assert_called_once()
 
 

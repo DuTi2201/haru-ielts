@@ -19,28 +19,21 @@ class SeedFilesTests(unittest.TestCase):
 
     def test_the_files_load_without_problems(self):
         self.assertEqual(self.bundle.problems, [])
-        self.assertEqual(len(self.bundle.lessons), 83)  # Bảng chữ cái + 16 foundation lessons (5, cut into 16) + 32 topic lessons + one review lesson per topic + the 8 lessons of the Viết 54 course + the lessons of topic 5 + the reading lesson that follows it
+        self.assertEqual(len(self.bundle.lessons), 42)
         by_topic: dict[str, int] = {}
         for r in self.bundle.lessons:
             by_topic[r.seed.topic] = by_topic.get(r.seed.topic, 0) + 1
         self.assertEqual(
             by_topic,
             {
-                "Nhập môn": 17,
-                "Sinh hoạt hàng ngày": 10,
-                "Quan hệ xã hội, Sự kiện & Không gian sống": 12,
-                "Bổ trợ · Nhập cảnh & Thủ tục cư trú": 6,
-                "Đời sống xã hội & Công sở": 8,
-                "Bổ trợ · Viết câu 54 từ con số 0": 8,
-                "Xã hội, Tư tưởng & Chuyên ngành": 21,
-                "Bổ trợ · Đọc hiểu: chủ đề, thái độ, mục đích": 1,
+                "Destination B1 · Lấy gốc": 42,
             },
         )
 
     def test_lessons_come_out_in_curriculum_order(self):
         order = [(r.seed.track, r.seed.sort_order) for r in self.bundle.lessons]
         self.assertEqual(order, sorted(order, key=lambda t: (seed.TRACKS.index(t[0]), t[1])))
-        self.assertEqual(len({r.seed.slug for r in self.bundle.lessons}), 83)
+        self.assertEqual(len({r.seed.slug for r in self.bundle.lessons}), 42)
 
     def test_every_exercise_belongs_to_a_lesson_and_every_question_id_is_unique(self):
         used = {i for r in self.bundle.lessons for i in r.seed.exercise_ids}
@@ -131,105 +124,26 @@ class ExerciseBankTests(unittest.TestCase):
 
     def test_the_banks_load_clean_and_are_named_by_their_folder(self):
         self.assertEqual(self.problems, [])
-        self.assertEqual(set(self.shared), {"", "hangul", "quan-he", "nhap-canh", "cong-so", "viet54", "xa-hoi", "doc-hieu"})
-        self.assertEqual(set(self.bank_of.values()), {"", "hangul", "quan-he", "nhap-canh", "cong-so", "viet54", "xa-hoi", "doc-hieu"})
+        self.assertEqual(set(self.shared), {"", "b1"})
+        self.assertEqual(set(self.bank_of.values()), {"b1"})
         self.assertEqual(set(self.exercises), set(self.bundle.exercises))
 
     def test_a_lesson_only_uses_exercises_of_its_own_bank(self):
         for r in self.bundle.lessons:
+            self.assertEqual(r.seed.bank, "b1", r.seed.slug)
+            self.assertTrue(all(i.startswith("B1U") for i in r.seed.exercise_ids), r.seed.slug)
             for ex_id in r.seed.exercise_ids:
                 self.assertEqual(self.bank_of[ex_id], r.seed.bank, f"{r.seed.slug}: {ex_id}")
-        topic2 = [r for r in self.bundle.lessons if r.seed.topic.startswith("Quan hệ")]
-        self.assertTrue(topic2)
-        for r in topic2:
-            self.assertEqual(r.seed.bank, "quan-he")
-            self.assertTrue(all(i.startswith("Q") for i in r.seed.exercise_ids))
-
-    def test_the_supplementary_topic_comes_last_with_its_own_ids_and_every_skill(self):
-        topic3 = sorted((r for r in self.bundle.lessons if r.seed.bank == "nhap-canh"), key=lambda r: r.seed.sort_order)
-        self.assertEqual([r.seed.sort_order for r in topic3], [40, 41, 42, 43, 44, 45])
-        self.assertEqual([r.seed.kind for r in topic3], ["lesson"] * 5 + ["review"])
-        self.assertLess(max(r.seed.sort_order for r in self.bundle.lessons if r.seed.bank in ("", "quan-he")), 40)
-        for r in topic3:
-            self.assertTrue(all(i.startswith("NC") for i in r.seed.exercise_ids), r.seed.slug)
             by_skill = r.practice["counts"]["by_skill"]
-            for skill in ("listening", "reading", "writing", "speaking"):
-                self.assertTrue(by_skill.get(skill), f"{r.seed.slug}: no {skill}")
-
-    def test_topic_four_follows_with_its_own_ids_and_every_skill(self):
-        topic4 = sorted((r for r in self.bundle.lessons if r.seed.bank == "cong-so"), key=lambda r: r.seed.sort_order)
-        self.assertEqual([r.seed.sort_order for r in topic4], list(range(46, 54)))
-        self.assertEqual([r.seed.kind for r in topic4], ["lesson"] * 7 + ["review"])
-        for r in topic4:
-            self.assertTrue(all(i.startswith("C") for i in r.seed.exercise_ids), r.seed.slug)
-            by_skill = r.practice["counts"]["by_skill"]
-            for skill in ("listening", "reading", "writing", "speaking"):
+            for skill in ("listening", "reading", "build", "writing", "speaking"):
                 self.assertTrue(by_skill.get(skill), f"{r.seed.slug}: no {skill}")
 
     def test_the_practice_set_carries_the_guides_of_its_bank(self):
-        first = next(r for r in self.bundle.lessons if r.seed.bank == "")
-        second = next(r for r in self.bundle.lessons if r.seed.bank == "quan-he")
-        self.assertNotEqual(first.practice["overview"], second.practice["overview"])
-        # the extension items are cards of the lessons themselves now, not a bank-wide list
+        first = self.bundle.lessons[0]
+        self.assertIsNotNone(first.practice["overview"])
         self.assertNotIn("extension", first.practice)
-        self.assertNotIn("extension", second.practice)
-        for skill, guide in second.practice["guides"].items():
-            self.assertEqual(guide, self.shared["quan-he"]["guides"][skill])
-
-    def test_the_second_topic_has_every_skill_and_every_source_item(self):
-        ids = {i for i, b in self.bank_of.items() if b == "quan-he"}
-        want = (
-            {f"QL{n}" for n in range(1, 21)}
-            | {f"QR{n}" for n in range(1, 21)}
-            | {f"QS{n}" for n in range(1, 7)}
-            | {f"QW51{c}" for c in "ABCD"}
-            | {f"QW52{c}" for c in "ABC"}
-            | {f"QW53{c}" for c in "ABCDEF"} | {"QVW53"}
-            | {f"QW54{c}" for c in "ABCDEF"}
-        )
-        # + the practice questions of the 🟣 extension cards (QE<item><a-d>)
-        letters = {1: "abcd", 2: "abcd", 3: "abc", 4: "abc", 5: "abc", 6: "abc", 7: "abcd", 8: "abcd", 9: "abcd", 10: "abc", 11: "abc", 12: "abcd"}
-        want |= {f"QE{n:02d}{c}" for n, cs in letters.items() for c in cs}
-        # + the topic review lesson (4 listening, 16 reading, the Viết 54 and the Nói S6 capstone)
-        want |= {f"QVL{n:02d}" for n in range(1, 5)} | {f"QVR{n:02d}" for n in range(1, 17)} | {"QVW54", "QVS6"}
-        # + 12 review questions for the cards of the foundation round (QVR17–28)
-        want |= {f"QVR{n:02d}" for n in range(17, 29)}
-        # + the review brought up to a TOPIK I paper: 26 more listening (QVLN) and 12 more reading (QVR29–40)
-        want |= {f"QVLN{n:02d}" for n in range(1, 27)} | {f"QVR{n:02d}" for n in range(29, 41)}
-        # + the "Tạo câu" ladder of lessons 1–11 (QBO tiles, QBF frames, QBC joins, QBE paragraphs)
-        want |= {f"QBO{n:02d}" for n in range(1, 71)} | {f"QBF{n:02d}" for n in range(1, 23)}
-        want |= {f"QBC{n:02d}" for n in range(1, 12)} | {f"QBE{n:02d}" for n in range(1, 12)}
-        # + the foundation round woven into the topic: 41 reading questions (QFR), 9 tile orders (QFBO), 5 frames (QFBF)
-        want |= {f"QFR{n:02d}" for n in range(1, 42)} | {f"QFBO{n:02d}" for n in range(1, 10)} | {f"QFBF{n:02d}" for n in range(1, 6)}
-        # + the listening round woven into lessons 1–11 (QLN01–81, about a quarter of every lesson)
-        want |= {f"QLN{n:02d}" for n in range(1, 82)}
-        # + the dictations (QD01–02 of the review lesson, QD03–24: two in each of lessons 1–11; listen, copy down,
-        # listen again, learn the words)
-        want |= {f"QD{n:02d}" for n in range(1, 25)}
-        # + the output contract of Gia đình (QGF…) and Nơi ở (QNH…): a model text to read or hear, the
-        # ladder up to the learner's own text (Bước 5) and speaking on the lesson's own topic
-        want |= {"QGFL1", "QGFR1", "QGFO1", "QGFO2", "QGFF1", "QGFC1", "QGFE1", "QGFS1", "QGFS2"}
-        want |= {"QNHR1", "QNHO1", "QNHO2", "QNHF1", "QNHC1", "QNHE1", "QNHE2", "QNHS1"}
-        # + the same output contract for the other lessons of the topic (QU<sort_order>…: a model text, the
-        # ladder up to Bước 5, speaking on the lesson's topic); every lesson 18–27 except 21 has one
-        contract = {i for i in ids if re.fullmatch(r"QU(\d\d)[A-Z]+\d*", i)}
-        self.assertEqual({int(i[2:4]) for i in contract}, {18, 19, 20, 22, 23, 24, 25, 26, 27})
-        want |= contract
-        # + the beginner grammar that needs -(으)시- / -아/어 주다 (lesson 17): -(으)시겠어요? and -아/어 줄게요/줄까요?
-        want |= {"QGB18a", "QGB18b", "QGB18c", "QGB18d"}
-        # + one reading question for each 🟣 card added from the TOPIK II grammar list (QSUP01–07)
-        want |= {f"QSUP{n:02d}" for n in range(1, 8)}
-        self.assertEqual(ids, want)
-
-    def test_every_54_essay_has_a_model_answer_of_600_to_700_characters(self):
-        # 53-C and 54-D/E/F have a model written by Haru (the source has none); five paragraphs, 한다체
-        for ex_id in ("QW53A", "QW53C", "QW54A", "QW54B", "QW54C", "QW54D", "QW54E", "QW54F"):
-            self.assertTrue(self.exercises[ex_id]["model_answer_ko"], ex_id)
-        for ex_id in ("QW54D", "QW54E", "QW54F"):
-            model = self.exercises[ex_id]["model_answer_ko"]
-            self.assertTrue(600 <= len(model.replace("\n", "")) <= 700, ex_id)
-            self.assertEqual(model.count("\n"), 4, ex_id)
-            self.assertNotIn("요.", model, ex_id)
+        for skill, guide in first.practice["guides"].items():
+            self.assertEqual(guide, self.shared["b1"]["guides"][skill])
 
     def test_an_unknown_bank_or_an_id_of_another_bank_is_a_problem(self):
         import json
@@ -332,56 +246,6 @@ class OutputContractTests(unittest.TestCase):
         self.assertIn("not a card of any lesson", problems[1])
         self.assertIn("later lesson", problems[2])
 
-    def test_the_family_and_home_lessons_promise_a_text_the_learner_can_write(self):
-        bundle = seed.load_all()
-        by_slug = {r.seed.slug: r for r in bundle.lessons}
-        for slug, ids in (("quan-he-01-gia-dinh", {"QGFE1"}), ("quan-he-05-noi-o", {"QNHE1", "QNHE2"})):
-            items = {it["id"]: it for it in by_slug[slug].practice["items"]}
-            self.assertTrue(ids <= set(items), slug)
-            for i in ids:
-                self.assertEqual(items[i]["rung"], 5)
-                self.assertGreaterEqual(len(items[i]["uses"]), 10)
-        # the lesson's speaking is about the lesson's topic: the house, trip, survey and noise items stay in their own lessons
-        family = set(by_slug["quan-he-01-gia-dinh"].seed.exercise_ids)
-        self.assertFalse({"QS1", "QS3", "QS5", "QS6"} & family)
-        self.assertTrue({"QGFS1", "QGFS2"} <= family)
-
-
-class MovedCardsTests(unittest.TestCase):
-    """The migration that moves cards between lessons (keeping vocab_item.id, so learners keep their
-    review schedule) and the seed must agree: otherwise the startup sync deletes the moved rows."""
-
-    def test_the_seed_lists_each_moved_card_in_its_new_lesson_only(self):
-        import importlib.util
-        from pathlib import Path
-
-        path = Path(__file__).resolve().parent.parent / "alembic" / "versions" / "b3d7f1a9c5e2_move_off_topic_family_cards.py"
-        spec = importlib.util.spec_from_file_location("move_cards", path)
-        mod = importlib.util.module_from_spec(spec)
-        with mock.patch.dict("sys.modules", {"alembic": SimpleNamespace(op=None)}):
-            spec.loader.exec_module(mod)
-        vocab = {r.seed.slug: {v.hangul for v in r.seed.vocab} for r in seed.load_all().lessons}
-        for hangul, target in mod.MOVES.items():
-            self.assertIn(hangul, vocab[target], f"{hangul} should be a card of {target}")
-            self.assertNotIn(hangul, vocab[mod.SOURCE], f"{hangul} should have left {mod.SOURCE}")
-
-    def test_the_seed_agrees_with_the_move_into_lessons_1_to_16(self):
-        import importlib.util
-        from pathlib import Path
-
-        path = Path(__file__).resolve().parent.parent / "alembic" / "versions" / "e3b5d7f9a1c4_bring_core_words_earlier.py"
-        spec = importlib.util.spec_from_file_location("move_core_words", path)
-        mod = importlib.util.module_from_spec(spec)
-        with mock.patch.dict("sys.modules", {"alembic": SimpleNamespace(op=None)}):
-            spec.loader.exec_module(mod)
-        # a Nền tảng lesson cut into parts (split_from) counts as one: the word is in one of its parts
-        vocab: dict[str, set[str]] = {}
-        for r in seed.load_all().lessons:
-            vocab.setdefault(r.seed.split_from or r.seed.slug, set()).update(v.hangul for v in r.seed.vocab)
-        for hangul, src, dst in mod.MOVES:
-            self.assertIn(hangul, vocab[dst], f"{hangul} should be a card of {dst}")
-            self.assertNotIn(hangul, vocab[src], f"{hangul} should have left {src}")
-
 
 class HashTests(unittest.TestCase):
     def test_editing_an_exercise_changes_the_lessons_hash(self):
@@ -415,70 +279,14 @@ class SyncTests(unittest.TestCase):
         db.execute.side_effect = execute
         report = seed.sync_lessons(db, bundle)
         self.assertEqual(set(report.values()), {"unchanged"})
-        self.assertEqual(len(report), 83)
+        self.assertEqual(len(report), 42)
         db.add.assert_not_called()
-        # one SELECT a lesson, and one more for each Nền tảng part (is its move done?)
         parts = sum(1 for r in bundle.lessons if r.seed.split_from)
-        self.assertEqual(db.execute.call_count, 83 + parts)
+        self.assertEqual(db.execute.call_count, 42 + parts)
 
 
 if __name__ == "__main__":
     unittest.main()
-
-
-class ExtensionCardTests(unittest.TestCase):
-    """The grammar and words that only the exam banks used ("kiến thức mở rộng") are real
-    cards of the lesson that uses them, with practice questions of their own."""
-
-    TIER = "🟣 Mở rộng · Từ trong bộ đề"
-
-    @classmethod
-    def setUpClass(cls):
-        cls.bundle = seed.load_all()
-        cls.lessons = {r.seed.slug: r for r in cls.bundle.lessons}
-        cls.cards = [(r.seed.slug, g) for r in cls.bundle.lessons for g in r.seed.grammar if (g.source or "").startswith("EXT-")]
-
-    def test_every_extension_grammar_item_is_a_full_card(self):
-        # 11 in the first topic, 12 in the second, 3 in the fourth, + 68 from the TOPIK II grammar list (EXT-SUP-…)
-        self.assertEqual(len(self.cards), 94)
-        self.assertEqual(len({g.source for _, g in self.cards}), 94)
-        for slug, g in self.cards:
-            self.assertTrue(g.usage_context_vi.startswith("🟣 **Kiến thức mở rộng** · "), g.source)
-            self.assertGreaterEqual(len(g.contrasts), 2, g.source)
-            self.assertTrue(g.topik_tip_vi and "**" not in g.topik_tip_vi, g.source)
-            self.assertIn("Biên soạn bổ sung", g.note_vi or "", g.source)
-            self.assertEqual(len((g.example_ko or "").splitlines()), 3, g.source)
-            self.assertEqual(len((g.example_vi or "").splitlines()), 3, g.source)
-
-    def test_the_extension_words_have_a_meaning_and_an_example(self):
-        words = [(r.seed.slug, v) for r in self.bundle.lessons for v in r.seed.vocab if v.family == self.TIER]
-        self.assertEqual(len(words), 90)  # 17 in the first topic, 73 in the second
-        for slug, v in words:
-            self.assertTrue(v.meaning_vi and v.example_ko and v.example_vi, v.hangul)
-            self.assertTrue(v.source.startswith("EXT-V-"), v.hangul)
-
-    def test_a_card_and_its_questions_live_in_the_same_lesson(self):
-        by_item = {g.source[4:]: slug for slug, g in self.cards}  # "T2-01" -> lesson
-        placed = 0
-        for slug, r in self.lessons.items():
-            for ex_id in r.seed.exercise_ids:
-                m = re.fullmatch(r"(Q?)E(\d\d)[a-d]", ex_id)
-                if not m:
-                    continue
-                placed += 1
-                item = f"{'T2' if m.group(1) else 'T1'}-{m.group(2)}"
-                self.assertEqual(by_item[item], slug, ex_id)
-                ex = self.bundle.exercises[ex_id]
-                self.assertTrue(ex["title_vi"].startswith("🟣 Mở rộng · "), ex_id)
-        self.assertEqual(placed, 76)
-
-    def test_the_extension_cards_are_read_aloud_cleanly(self):
-        from app.services import lesson_audio
-
-        for slug, g in self.cards:
-            spoken = lesson_audio.speakable_pattern(g.pattern)
-            self.assertTrue(spoken.strip(), g.source)
-            self.assertNotRegex(spoken, r"[/+·\[\]{}|…]", f"{g.source}: {spoken!r}")
 
 
 class GrammarLinkTests(unittest.TestCase):
@@ -514,46 +322,23 @@ class GrammarLinkTests(unittest.TestCase):
             with tempfile.TemporaryDirectory() as tmp:
                 copy_dir = Path(tmp) / "seed"
                 shutil.copytree(seed.SEED_DIR, copy_dir)
-                path = copy_dir / "exercises" / "grammar_links.json"
+                path = copy_dir / "exercises" / "b1" / "grammar_links.json"
                 data = json.loads(path.read_text(encoding="utf-8"))
                 edit(data["links"])
                 path.write_text(json.dumps(data, ensure_ascii=False), encoding="utf-8")
                 return "\n".join(seed.load_all(copy_dir).problems)
 
         def wrong(links):
-            links["R1"] = ["V + -không-có-thẻ-này"]  # no such card
-            links["NOPE"] = ["V + -느라고"]  # no such question
+            links["B1U01Q1"] = ["V + -không-có-thẻ-này"]  # no such card
+            links["NOPE"] = ["Present simple: S + V(s/es)"]  # no such question
 
         text = problems_with(wrong)
         self.assertIn("is not a grammar card", text)
         self.assertIn("'NOPE' is neither a question nor an exercise", text)
-        self.assertIn("the same card twice", problems_with(lambda links: links.update(R2=["V + -아/어 놓다"] * 2)))
-
-    def test_each_extension_question_is_linked_to_the_card_of_its_set(self):
-        cards = {}
-        for r in self.bundle.lessons:
-            for g in r.seed.grammar:
-                if (g.source or "").startswith("EXT-"):
-                    cards[(r.seed.bank, g.source[4:])] = g.pattern
-        # two listening replies hinge on a word, not on the pattern of the set (a reviewer found the
-        # pattern link would only mislead), so they carry no link on purpose
-        unlinked_on_purpose = {"QE07d", "QE08d"}
-        checked = 0
-        for r in self.bundle.lessons:
-            for ex in r.practice["items"]:
-                m = re.fullmatch(r"(Q?)E(\d\d)[a-d]", ex["id"])
-                if not m:
-                    continue
-                key = ("quan-he" if m.group(1) else "", f"{'T2' if m.group(1) else 'T1'}-{m.group(2)}")
-                targets = [ex] if ex["type"] == "write_fill" else ex["questions"]
-                for q in targets:
-                    qid = q.get("id", ex["id"])
-                    if qid in unlinked_on_purpose:
-                        self.assertFalse(q.get("grammar"), qid)
-                    else:
-                        self.assertEqual(q.get("grammar"), [cards[key]], qid)
-                    checked += 1
-        self.assertEqual(checked, 76)
+        self.assertIn(
+            "the same card twice",
+            problems_with(lambda links: links.update(B1U01Q2=["Present simple: S + V(s/es)"] * 2)),
+        )
 
     def test_a_question_only_offers_cards_the_learner_has_met(self):
         total = 0
@@ -568,54 +353,33 @@ class GrammarLinkTests(unittest.TestCase):
             self.assertEqual(set(cards), {p for _, ps in self.linked(r) for p in ps}, r.seed.slug)
         self.assertGreaterEqual(total, 90)
 
-    def test_the_links_are_only_to_what_the_question_tests(self):
-        # a handful of hand-checked anchors: the pattern the answer actually uses
-        t1 = self.lessons["sinh-hoat-02-viec-nha"]
-        ex = {e["id"]: e for e in t1.practice["items"]}
-        self.assertEqual(ex["R1"]["questions"][0]["grammar"], ["V + -느라고"])
-        self.assertEqual(ex["R4"]["questions"][0]["grammar"], ["V + -느라고", "V + -는 바람에"])
-        t2 = self.lessons["quan-he-05-noi-o"]
-        ex = {e["id"]: e for e in t2.practice["items"]}
-        self.assertEqual(ex["QR1"]["questions"][0]["grammar"], ["V + -(으)려면"])
-        self.assertEqual(ex["QR2"]["questions"][0]["grammar"], ["A/V + -(으)ㄴ/는 데다가 · N + 인 데다가"])
-
-    def test_a_link_to_a_later_lesson_is_dropped_for_the_earlier_one(self):
-        r = self.lessons["quan-he-01-gia-dinh"]
-        ex = {e["id"]: e for e in r.practice["items"]}
-        # QW51A tests -고자 하다 (lesson 2) too, but a learner of lesson 1 has not met it
-        self.assertEqual(ex["QW51A"]["grammar"], ["V + -(으)시기 바랍니다 · V + -(으)십시오"])
-
-
     def test_the_cards_say_what_they_are(self):
         from app.services.grammar_tier import grammar_tier
 
-        ext = [g for r in self.bundle.lessons for g in r.seed.grammar if (g.source or "").startswith("EXT-")]
         core = [g for r in self.bundle.lessons for g in r.seed.grammar if not (g.source or "").startswith("EXT-")]
-        for g in ext:
-            tier, level = grammar_tier(g.usage_context_vi)
-            self.assertEqual(tier, "extension", g.source)
-            self.assertIn(level, ("recognize", "produce"), g.source)
+        self.assertTrue(core)
         for g in core:
             self.assertEqual(grammar_tier(g.usage_context_vi), ("core", None), g.pattern)
 
     def test_the_box_has_what_it_shows(self):
-        r = self.lessons["sinh-hoat-06-hoc-lam"]
-        info = r.practice["grammar"]["V + -(으)면서"]
-        self.assertEqual((info["tier"], info["use_level"]), ("extension", "produce"))
-        self.assertTrue(info["meaning_vi"] and info["contrast"]["diff_vi"] and info["lesson_title"])
+        r = self.lessons["b1-u01-present-simple-present-continuous-stative-verbs"]
+        info = r.practice["grammar"]["Present simple: S + V(s/es)"]
+        self.assertEqual((info["tier"], info["use_level"]), ("core", "produce"))
+        self.assertTrue(info["meaning_vi"] and info["lesson_title"])
 
     def test_question_grammar_reads_both_shapes(self):
-        r = self.lessons["sinh-hoat-06-hoc-lam"]
+        r = self.lessons["b1-u01-present-simple-present-continuous-stative-verbs"]
         ex = {e["id"]: e for e in r.practice["items"]}
-        self.assertEqual(seed.question_grammar(ex["E01a"], "E01a"), ["V + -(으)면서"])
-        self.assertEqual(seed.question_grammar(ex["E01c"], "E01c:㉠"), ["V + -(으)면서"])
-        self.assertEqual(seed.question_grammar(ex["E01a"], "NOPE"), [])
+        self.assertEqual(seed.question_grammar(ex["B1U01Q1"], "B1U01Q1"), ["Present simple: S + V(s/es)"])
+        fill = {"id": "B1U01F1", "type": "write_fill", "grammar": ["Present simple: S + V(s/es)"]}
+        self.assertEqual(seed.question_grammar(fill, "B1U01F1:a"), ["Present simple: S + V(s/es)"])
+        self.assertEqual(seed.question_grammar(ex["B1U01Q1"], "NOPE"), [])
 
     def test_two_lessons_do_not_share_the_tagged_copy_of_an_exercise(self):
-        before = copy.deepcopy(self.bundle.exercises["E01a"])
+        before = copy.deepcopy(self.bundle.exercises["B1U01Q1"])
         seed.load_all()
-        self.assertEqual(self.bundle.exercises["E01a"], before)
-        self.assertNotIn("grammar", self.bundle.exercises["E01a"]["questions"][0])
+        self.assertEqual(self.bundle.exercises["B1U01Q1"], before)
+        self.assertNotIn("grammar", self.bundle.exercises["B1U01Q1"]["questions"][0])
 
 
 class GrammarTextTests(unittest.TestCase):
@@ -625,19 +389,6 @@ class GrammarTextTests(unittest.TestCase):
     def setUpClass(cls):
         cls.bundle = seed.load_all()
         cls.cards = [g for r in cls.bundle.lessons for g in r.seed.grammar]
-
-    def test_every_extension_card_has_the_four_parts_in_order(self):
-        from app.services.grammar_text import usage_sections
-
-        ext = [g for g in self.cards if (g.source or "").startswith("EXT-")]
-        self.assertEqual(len(ext), 94)
-        for g in ext:
-            sections = usage_sections(g.usage_context_vi)
-            self.assertEqual([s.key for s in sections if s.key != "level"], ["form", "when", "why", "lesson"], g.source)
-            for s in sections:
-                self.assertTrue(s.body_vi and s.label, (g.source, s.key))
-                self.assertNotIn("🟣", s.body_vi, g.source)  # the badge line is not a part
-                self.assertFalse(s.body_vi.startswith("**"), (g.source, s.key))
 
     def test_no_text_is_lost_when_a_card_is_cut(self):
         from app.services.grammar_text import usage_sections
@@ -667,13 +418,6 @@ class GrammarTextTests(unittest.TestCase):
     def test_the_source_line_leaves_the_mistakes_box(self):
         from app.services.grammar_text import split_source_note
 
-        ext = [g for g in self.cards if (g.source or "").startswith("EXT-")]
-        for g in ext:
-            note, source = split_source_note(g.note_vi)
-            self.assertTrue(source and "biên soạn" in source.lower(), g.source)
-            self.assertNotIn("Biên soạn bổ sung", note or "", g.source)
-            self.assertTrue((note or "").startswith("**Lỗi người Việt"), g.source)
-        # a note that has no source line is returned as it is
         for g in self.cards:
             if g.note_vi and "Biên soạn bổ sung" not in g.note_vi:
                 self.assertEqual(split_source_note(g.note_vi), (g.note_vi.strip() or None, None), g.pattern)
@@ -683,15 +427,27 @@ class GrammarTextTests(unittest.TestCase):
     def test_the_api_card_serves_the_parts(self):
         from app.schemas import GrammarPointOut
 
-        g = next(g for g in self.cards if (g.source or "").startswith("EXT-"))
         out = GrammarPointOut(
-            id=1, lesson_id=1, pattern=g.pattern, meaning_vi=g.meaning_vi, level=1, example_ko=g.example_ko,
-            note_vi=g.note_vi, usage_context_vi=g.usage_context_vi, topik_tip_vi=g.topik_tip_vi,
+            id=1,
+            lesson_id=1,
+            pattern="Present simple: S + V(s/es)",
+            meaning_vi="Hiện tại đơn",
+            level=1,
+            example_ko="I usually get up at six.",
+            note_vi="**Lỗi người Việt hay gặp:** quên chia -s.\n*Biên soạn bổ sung:* Destination B1",
+            usage_context_vi=(
+                "🟣 **Kiến thức mở rộng** · ✍ **Dùng được**\n"
+                "**Cấu tạo:** S + V(s/es)\n"
+                "**Hoàn cảnh dùng:** thói quen, sự thật\n"
+                "**Vì sao dễ nhầm:** quên chia động từ\n"
+                "**Trong bài này:** Unit 1"
+            ),
+            topik_tip_vi="Dùng ở Speaking Part 1.",
         ).model_dump(mode="json")
         self.assertEqual([s["key"] for s in out["usage_sections"]], ["form", "when", "why", "lesson"])
         self.assertTrue(out["source_note_vi"])
         self.assertNotIn("Biên soạn bổ sung", out["note_vi"])
-        self.assertTrue(out["usage_context_vi"].startswith("🟣"))  # old clients still get the whole text
+        self.assertTrue(out["usage_context_vi"].startswith("🟣"))
 
 
 class UseLevelTests(unittest.TestCase):
@@ -703,7 +459,7 @@ class UseLevelTests(unittest.TestCase):
         cls.cards = [g for r in cls.bundle.lessons for g in r.seed.grammar]
 
     def card(self, **kw):
-        return seed.GrammarSeed(pattern="V + -고", meaning_vi="x", **kw)
+        return seed.GrammarSeed(pattern="Present simple: S + V(s/es)", meaning_vi="x", **kw)
 
     def test_every_served_card_has_a_level(self):
         for r in self.bundle.lessons:
@@ -715,7 +471,7 @@ class UseLevelTests(unittest.TestCase):
 
         self.assertEqual(effective_use_level(None), "produce")
         self.assertEqual(effective_use_level("🟣 **Kiến thức mở rộng** · 👁 **Nhận ra** x"), "recognize")
-        self.assertEqual(effective_use_level("🟣 **Kiến thức mở rộng** · 👁 **Nhận ra** x", "produce"), "produce")  # the card's own word wins
+        self.assertEqual(effective_use_level("🟣 **Kiến thức mở rộng** · 👁 **Nhận ra** x", "produce"), "produce")
 
     def test_a_level_that_contradicts_the_marker_line_is_refused(self):
         with self.assertRaises(ValidationError):
@@ -726,96 +482,13 @@ class UseLevelTests(unittest.TestCase):
         with self.assertRaises(ValidationError):
             self.card(use_level="fluent")
 
-    def test_the_levels_written_into_the_seed_are_served_with_the_card(self):
-        served = {
-            (info["lesson_slug"], pattern): info
-            for r in self.bundle.lessons
-            for pattern, info in (r.practice or {}).get("grammar", {}).items()
-        }
-        explicit = [(r.seed.slug, g) for r in self.bundle.lessons for g in r.seed.grammar if g.use_level]
-        self.assertGreaterEqual(len(explicit), 25)
-        checked = 0
-        for slug, g in explicit:
-            if (slug, g.pattern) in served:  # a card is served once an exercise of its bank links to it
-                self.assertEqual(served[(slug, g.pattern)]["use_level"], g.use_level, (slug, g.pattern))
-                checked += 1
-        self.assertGreater(checked, 0)
-
     def test_the_api_card_serves_the_stored_level(self):
         from app.schemas import GrammarPointOut
 
-        base = dict(id=1, lesson_id=1, pattern="V + -고", meaning_vi="x", level=1, example_ko="x")
+        base = dict(id=1, lesson_id=1, pattern="Present simple: S + V(s/es)", meaning_vi="x", level=1, example_ko="x")
         self.assertEqual(GrammarPointOut(**base).model_dump(mode="json")["use_level"], "produce")
         self.assertEqual(GrammarPointOut(**base, use_level="recognize").model_dump(mode="json")["use_level"], "recognize")
         self.assertNotIn("use_level_set", GrammarPointOut(**base, use_level="recognize").model_dump(mode="json"))
-
-
-class HangulLessonTests(unittest.TestCase):
-    """Bảng chữ cái: Bài 1, five parts whose reading words use only what was taught so far."""
-
-    @classmethod
-    def setUpClass(cls):
-        cls.bundle = seed.load_all()
-        cls.lesson = next(r for r in cls.bundle.lessons if r.seed.kind == "hangul")
-
-    def test_it_comes_first_free_and_with_its_end_check(self):
-        self.assertEqual((self.lesson.seed.sort_order, self.lesson.seed.track), (1, "beginner"))
-        self.assertIs(self.bundle.lessons[0], self.lesson)
-        self.assertEqual(self.lesson.practice["kind"], "hangul")
-        self.assertEqual(self.lesson.practice["counts"]["questions"], 20)
-        self.assertEqual([p["id"] for p in self.lesson.practice["hangul"]["parts"]], ["p1", "p2", "p3", "p4", "p5"])
-
-    def test_every_letter_is_taught_once(self):
-        taught = [l.jamo for p in self.lesson.seed.hangul.parts for g in p.groups for l in g.letters if p.id != "p4"]
-        self.assertEqual(sorted(set(taught) - {"ㅇ"}), sorted(set(seed.JAMO_INITIAL + seed.JAMO_MEDIAL) - {"ㅇ"}))
-        self.assertEqual(len(taught), len(set(taught)))
-
-    def test_a_word_with_a_letter_not_taught_yet_is_refused(self):
-        raw = self.lesson.seed.hangul.model_dump(mode="json")
-        raw["parts"][0]["words"].append({"ko": "가수", "vi": "ca sĩ"})  # ㄱ, ㅅ come in part 2
-        with self.assertRaises(ValidationError):
-            seed.HangulSeed.model_validate(raw)
-        raw = self.lesson.seed.hangul.model_dump(mode="json")
-        raw["parts"][1]["words"].append({"ko": "학생", "vi": "học sinh"})  # a final before part 4
-        with self.assertRaises(ValidationError):
-            seed.HangulSeed.model_validate(raw)
-
-    def test_the_words_come_from_nen_tang_1(self):
-        nt1 = next(r for r in self.bundle.lessons if r.seed.slug == "sinh-hoat-00-nen-tang-1-gioi-thieu")
-        # the NIKL 초급 words added in Phase 2 (source krdict:…) extend the lesson's word list; the
-        # Hangul lesson reads the lesson's own core words, which is what this checks
-        vocab = {h.strip() for v in nt1.seed.vocab if not (v.source or "").startswith("krdict:") for h in v.hangul.split("/")}
-        read = {w.ko for p in self.lesson.seed.hangul.parts for w in p.words}
-        read |= {c.written for p in self.lesson.seed.hangul.parts for r in p.rules for c in r.changes}
-        self.assertEqual(vocab - read, set())  # every word of Nền tảng 1 is read before it
-
-
-class PronunciationTests(unittest.TestCase):
-    """vocab `pron`: the standard reading when it differs from the spelling (Nền tảng 1–5)."""
-
-    def test_the_foundation_words_that_change_say_how_they_are_read(self):
-        from app.services.lesson_seed import load_all
-
-        by_word = {
-            v.hangul: v.pron for r in load_all().lessons if r.seed.slug.startswith("sinh-hoat-00") for v in r.seed.vocab
-        }
-        for word, pron in {
-            "학생": "[학쌩]", "한국어": "[한구거]", "같이": "[가치]", "좋다": "[조타]",
-            "맛없다": "[마덥따]", "짧다": "[짤따]", "월요일": "[워료일]",
-        }.items():
-            self.assertEqual(by_word[word], pron, word)
-        self.assertIsNone(by_word["사람"])  # read as written: nothing to show
-
-    def test_a_pron_must_be_hangul_in_brackets(self):
-        from pydantic import ValidationError
-
-        from app.services.lesson_seed import VocabSeed
-
-        base = {"hangul": "학생", "pos": "N", "meaning_vi": "Học sinh", "priority": "core"}
-        self.assertEqual(VocabSeed.model_validate({**base, "pron": "[학쌩]"}).pron, "[학쌩]")
-        for bad in ("학쌩", "[hak-ssaeng]", "[학쌩"):
-            with self.assertRaises(ValidationError):
-                VocabSeed.model_validate({**base, "pron": bad})
 
 
 class UsageSectionsLevelLineTests(unittest.TestCase):

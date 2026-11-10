@@ -28,7 +28,7 @@ GIVE_AWAYS = [
     (r"tài liệu gốc|trang gốc", "talk about the source document"),
     (r"sổ ngữ pháp", "the author's grammar register"),
     (r"\bnhóm \d", "the author's numbering of topic groups"),
-    (r"học viên|giáo viên|người dạy|phát cho", "written to a teacher, not to the learner"),
+    (r"học viên|giáo viên đọc|người dạy|phát cho", "written to a teacher, not to the learner"),
     (r"biên tập", "talk about the editing"),
     (r"\bMình\b", "the author speaking in the first person"),
     (r"\bmình (?:soạn|đặt)\b|\bdo mình (?:soạn|đặt)\b", "the author speaking in the first person"),
@@ -70,13 +70,12 @@ class EditorNotesTests(unittest.TestCase):
     BUNDLE = seed.load_all()
 
     def test_the_unverified_lists_moved_out_of_the_lessons(self):
-        by_slug = {r.seed.slug: r.seed for r in self.BUNDLE.lessons}
-        for slug in ("quan-he-05-noi-o", "quan-he-06-hang-xom-rac", "quan-he-07-moi-truong"):
-            s = by_slug[slug]
-            self.assertTrue(s.editor_notes, slug)
+        for r in self.BUNDLE.lessons:
+            s = r.seed
+            self.assertTrue(s.editor_notes, s.slug)
             titles = {n.title for n in s.notes}
             for n in s.editor_notes:
-                self.assertNotIn(n.title, titles, slug)
+                self.assertNotIn(n.title, titles, s.slug)
 
     def test_editor_notes_are_not_in_the_stored_text_nor_in_the_lecture(self):
         for r in self.BUNDLE.lessons:

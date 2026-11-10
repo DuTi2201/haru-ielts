@@ -9,19 +9,19 @@ own voice."""
 from __future__ import annotations
 
 LANDING_TEXTS: tuple[str, ...] = (
-    "꾸준히",
-    "일석이조",
-    "천 리 길도 한 걸음부터",
-    "어제 저녁에 뭐 했어요?",
-    "아, 친구를 만났어요? 어디에서 만났어요?",
-    "좋아요! 카페에서 뭐 마셨어요?",
-    "만났어요",
-    "주말에 보통 무엇을 해요? 이유와 예를 들어 말해 보세요.",
-    "저는 주말에 보통 운동을 해요. 왜냐하면 평일에는 너무 바빠서 운동할 시간이 없기 때문이에요. 예를 들어 지난 토요일에는 친구와 공원에서 한 시간 동안 뛰었어요. 운동을 하면 스트레스가 풀리고 기분이 좋아져요.",
-    "회사는 재택근무를 늘려야 한다.",
-    "재택근무를 하면 동료와 소통하기 어려워요. 팀워크가 약해질 수 있어요.",
-    "좋은 지적이에요. 그 부분은 인정해요. 하지만 신입 사원은 누구한테 일을 배워요?",
-    "물론 처음에는 어려울 수 있어요. 하지만 멘토 제도를 만들면 신입 사원도 잘 배울 수 있어요.",
-    "이용하실 수 있습니다",
+    "consistently",
+    "sustainable development",
+    "Every journey begins with a single step.",
+    "What did you do yesterday evening?",
+    "Oh, you met a friend? Where did you meet?",
+    "Great! What did you drink at the cafe?",
+    "met a friend",
+    "What do you usually do on weekends? Give reasons and examples.",
+    "On weekends, I usually exercise because I am too busy during the week. For example, last Saturday I ran in the park with a friend for an hour. Exercising helps me relieve stress and feel refreshed.",
+    "Companies should allow more remote work.",
+    "Working remotely makes it harder to communicate with colleagues, and teamwork may weaken.",
+    "That is a fair point. However, who will train new employees if everyone works from home?",
+    "It can be challenging at first, of course, but a structured mentoring programme can help new staff learn effectively.",
+    "Public transport is widely available.",
 )
-VOICE = "ko-female-1"
+VOICE = "en-female-1"

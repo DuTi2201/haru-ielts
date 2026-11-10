@@ -271,6 +271,8 @@ def build() -> dict[str, Any]:
 def stale() -> list[str]:
     """Items whose Korean text changed (or that are new) since the file was built, and mistakes in
     practice_support.json."""
+    if not TIERS_FILE.is_file():
+        return []
     from app.services.lesson_seed import load_all  # noqa: PLC0415
 
     data = _tiers()["lessons"]

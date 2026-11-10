@@ -36,11 +36,12 @@ from typing import Protocol
 
 from psycopg2 import sql
 
+from app.core.config import settings
 from app.services import audio_store
 
 log = logging.getLogger(__name__)
 
-PREFIX = "backup"
+PREFIX = settings.BACKUP_GCS_PREFIX or "backup-ielts"
 KEEP_DAYS = 14
 # made again on demand; alembic_version is recorded in the manifest instead
 SKIP_TABLES = frozenset(

@@ -150,7 +150,7 @@ _CHAPTER_RULES: tuple[tuple[str, int], ...] = (
     ("cong-so-", 3),
     ("xa-hoi-", 4),
 )
-STATION_AFTER = "quan-he-"  # chapter III's station: every Quan hệ lesson done
+STATION_AFTER = ("quan-he-", "b1-u22-", "b1-u23-", "b1-u24-", "b1-u25-", "b1-u26-", "b1-u27-")
 
 # support topics: (slug prefix, code, constellation, relic)
 _SUPPORT: tuple[tuple[str, str, str, str | None], ...] = (
@@ -165,8 +165,12 @@ def is_support(topic: str | None) -> bool:
 
 
 def chapter_of(slug: str | None, level: int) -> int:
+    s = slug or ""
+    if s.startswith("b1-u") and len(s) >= 6 and s[4:6].isdigit():
+        u = int(s[4:6])
+        return 1 if u <= 11 else 2 if u <= 21 else 3 if u <= 32 else 4
     for prefix, n in _CHAPTER_RULES:
-        if (slug or "").startswith(prefix):
+        if s.startswith(prefix):
             return n
     # a lesson of a new main topic: by its level
     return 1 if level <= 2 else 3 if level <= 4 else 4

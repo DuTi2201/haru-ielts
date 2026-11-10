@@ -20,8 +20,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về nếp sinh hoạt hằng ngày và một việc khác thường bạn đang làm trong tháng này.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about your daily routine and one thing you are doing this month that is different.",
    "framework_vi": [
@@ -47,8 +47,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về một việc hồi nhỏ bạn thường làm và một ngày bạn còn nhớ.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about something you used to do as a child and one day you remember.",
    "framework_vi": [
@@ -74,8 +74,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về một sở thích hoặc môn thể thao. Nói bạn bắt đầu khi nào và vì sao thích.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about a hobby or sport you enjoy. Say when you took it up and why you like it.",
    "framework_vi": [
@@ -101,8 +101,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về việc nơi bạn sống đã thay đổi thế nào. Dùng hiện tại hoàn thành.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about how your town or city has changed. Use the present perfect.",
    "framework_vi": [
@@ -128,8 +128,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về một lần bạn đến muộn. Nói rõ trước đó đã xảy ra chuyện gì.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about a time you were late. Say what had happened before.",
    "framework_vi": [
@@ -155,8 +155,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về một kỹ năng bạn đang học hoặc muốn học, và cách bạn học.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about a skill you are learning or want to learn, and how you study.",
    "framework_vi": [
@@ -182,8 +182,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về kế hoạch cuối tuần tới của bạn.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about your plans for next weekend. Use be going to, will and the present continuous.",
    "framework_vi": [
@@ -209,8 +209,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu tả vị trí và giờ mở cửa của một nơi bạn biết.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences describing where a place you know is and when it is open.",
    "framework_vi": [
@@ -236,8 +236,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về một chuyến đi. Nói bạn đi bằng gì và chuyện gì đã xảy ra.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about a trip you have made. Say how you travelled and what happened.",
    "framework_vi": [
@@ -263,8 +263,8 @@
    "points": 10,
    "instruction_vi": "Tả một quy trình đơn giản bằng 4–5 câu, dùng bị động.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Describe a simple process in 4–5 sentences using the passive (for example, how rice is cooked or how coffee is made).",
    "framework_vi": [
@@ -290,8 +290,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về một công trình đang xây hoặc thay đổi ở khu bạn sống và điều nên làm.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about something that is being built or changed in your area and what should be done.",
    "framework_vi": [
@@ -317,8 +317,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về một người bạn thân: quen nhau thế nào và tính cách ra sao.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about a close friend: how you met and what he or she is like.",
    "framework_vi": [
@@ -344,8 +344,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu khuyên về việc học; dùng đúng danh từ không đếm được.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences giving advice about studying. Use uncountable nouns correctly (advice, information, homework, progress).",
    "framework_vi": [
@@ -371,8 +371,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về một đồ vật hữu ích của bạn. Kiểm tra kỹ a, an, the.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about a useful object you own. Check every a, an and the.",
    "framework_vi": [
@@ -398,8 +398,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về cách bạn tiêu và tiết kiệm tiền.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about how you spend and save money.",
    "framework_vi": [
@@ -425,8 +425,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về những người sống cùng bạn và cách chia việc nhà.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about the people you live with and how you share the work at home.",
    "framework_vi": [
@@ -452,8 +452,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về một người đã giúp bạn. Dùng who, which, where, whose.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about a person who has helped you. Use who, which, where or whose.",
    "framework_vi": [
@@ -479,8 +479,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về một công nghệ đã thay đổi cuộc sống của bạn.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about a piece of technology that has changed your life.",
    "framework_vi": [
@@ -506,8 +506,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu khuyên người muốn học tiếng Anh.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences of advice for someone who wants to learn English. Use should, ought to and can.",
    "framework_vi": [
@@ -533,8 +533,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về nội quy ở một nơi bạn biết.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about the rules in a place you know (your office, a library, a gym).",
    "framework_vi": [
@@ -560,8 +560,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về cách bạn đọc tin tức và liên lạc với mọi người.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about how you get the news and keep in touch with people.",
    "framework_vi": [
@@ -587,8 +587,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về một sai sót nhỏ của bạn.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about a small mistake you made. Use should have, could have or must have.",
    "framework_vi": [
@@ -614,8 +614,8 @@
    "points": 10,
    "instruction_vi": "Viết năm câu hỏi dành cho một đồng nghiệp hoặc bạn học mới; hai câu ở dạng gián tiếp.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write five questions you would ask a new colleague or classmate. Make two of them indirect.",
    "framework_vi": [
@@ -641,8 +641,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về cộng đồng nơi bạn sống: điều tốt và điều nên thay đổi.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about your community: what is good and what should change.",
    "framework_vi": [
@@ -668,8 +668,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về một giai đoạn bận rộn của bạn.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about a busy time in your life. Use so…that, such…that, too and enough.",
    "framework_vi": [
@@ -695,8 +695,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu so sánh hai nơi bạn biết.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences comparing two places you know.",
    "framework_vi": [
@@ -722,8 +722,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về công việc của bạn hoặc công việc bạn muốn.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about your job or the job you want.",
    "framework_vi": [
@@ -749,8 +749,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về một vấn đề ở thành phố của bạn; dùng câu điều kiện loại một và loại hai.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about a problem in your city. Use at least one first and one second conditional.",
    "framework_vi": [
@@ -776,8 +776,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về một lựa chọn của bạn và cuộc sống sẽ khác thế nào nếu chọn khác.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about a choice you made and how life would have been different.",
    "framework_vi": [
@@ -803,8 +803,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về lối sống của bạn và một thay đổi bạn muốn thực hiện.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about your lifestyle and one change you want to make.",
    "framework_vi": [
@@ -830,8 +830,8 @@
    "points": 10,
    "instruction_vi": "Thuật lại một cuộc trò chuyện ngắn trong tuần này bằng 4–5 câu.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Report a short conversation you had this week in 4–5 sentences.",
    "framework_vi": [
@@ -857,8 +857,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu thuật lại những câu hỏi ai đó đã hỏi bạn gần đây.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences reporting questions that someone asked you recently.",
    "framework_vi": [
@@ -884,8 +884,8 @@
    "points": 10,
    "instruction_vi": "Tả một tòa nhà hoặc đồ vật bạn thích bằng 4–5 câu: chất liệu, hình dạng, kiểu dáng.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Describe a building or an object you like in 4–5 sentences: material, shape, style.",
    "framework_vi": [
@@ -911,8 +911,8 @@
    "points": 10,
    "instruction_vi": "Viết tin nhắn ngắn cho bạn; dùng give, send, show, lend, buy với hai tân ngữ.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write a short message (4–5 sentences) to a friend. Use give, send, show, lend or buy with two objects.",
    "framework_vi": [
@@ -938,8 +938,8 @@
    "points": 10,
    "instruction_vi": "Viết ba điều ước và một điều hy vọng của bạn bằng 4–5 câu.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write three wishes of your own and one hope in 4–5 sentences.",
    "framework_vi": [
@@ -965,8 +965,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về một vấn đề môi trường và việc mọi người có thể làm.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about an environmental problem and what people can do.",
    "framework_vi": [
@@ -992,8 +992,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về việc bạn thích làm, việc bạn tránh, và một việc bạn đã quyết định làm.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about things you enjoy doing, things you avoid, and something you have decided to do.",
    "framework_vi": [
@@ -1019,8 +1019,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu so sánh bạn với một người thân hoặc bạn bè.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences comparing yourself with a friend or relative. Use both, neither, so and neither + auxiliary.",
    "framework_vi": [
@@ -1046,8 +1046,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về một lần bạn ngượng, tự hào hoặc rất vui.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about a time you felt embarrassed, proud or very happy.",
    "framework_vi": [
@@ -1073,8 +1073,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu nêu ý kiến về làm việc hoặc học ở nhà.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences giving your opinion on working or studying at home. Use although, however, because and so that.",
    "framework_vi": [
@@ -1100,8 +1100,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về các dịch vụ bạn dùng; dùng have/get something done.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about services you use. Use have/get something done.",
    "framework_vi": [
@@ -1127,8 +1127,8 @@
    "points": 10,
    "instruction_vi": "Viết 4–5 câu về một vấn đề với hàng xóm, đồng nghiệp hoặc dịch vụ và cách giải quyết.",
    "limits": {
-    "min": 150,
-    "max": 600
+    "min": 30,
+    "max": 90
    },
    "prompt_ko": "Write 4–5 sentences about a problem with a neighbour, colleague or service and how it was solved.",
    "framework_vi": [

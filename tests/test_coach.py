@@ -77,60 +77,6 @@ class CoachInLessonTests(unittest.TestCase):
 
 
 class SeededCoachTests(unittest.TestCase):
-    def test_every_lesson_has_a_coach_block(self):
-        self.assertEqual(len(LESSONS), 82)
-        for s in LESSONS.values():
-            self.assertIsNotNone(s.coach, s.slug)
-
-    def test_the_first_eight_lessons_are_the_free_ones(self):
-        self.assertEqual(len(FIRST_EIGHT), 19)
-        self.assertEqual(len(FOUNDATION), 16)
-        self.assertEqual(len(MAIN_THREE), 3)
-
-    def test_a_lesson_with_a_goal_note_does_not_repeat_it_in_the_block(self):
-        # many lessons already open with «Sau bài này bạn làm được gì» / «Mục tiêu của bài»: the block
-        # then holds no goal of its own; a lesson without such a note states its goal in the block
-        for s in LESSONS.values():
-            if any(n.kind == "goal" for n in s.notes):
-                self.assertIsNone(s.coach.goal_vi, s.slug)
-            else:
-                self.assertTrue(s.coach.goal_vi, s.slug)
-
-    def test_the_foundation_lessons_keep_their_own_goal_note(self):
-        for s in FOUNDATION:
-            self.assertIsNone(s.coach.goal_vi, s.slug)
-            self.assertTrue(any(n.kind == "goal" for n in s.notes), s.slug)
-
-    def test_the_block_holds_no_counts(self):
-        # "bài này có N từ / mẫu / câu": the screen counts the lesson's words, cards and questions itself,
-        # so the text can never disagree with it (a task such as "viết 5 câu" is not a count)
-        for s in LESSONS.values():
-            lines = [s.coach.goal_vi or "", s.coach.tip_vi or "", *s.coach.focus_vi, *s.coach.watch_out_vi, *s.coach.notebook_vi]
-            for line in lines:
-                self.assertNotRegex(line, r"(?i)\b(bài này )?có \d+ (từ|mẫu|câu)\b", s.slug)
-
-    def test_a_focus_line_names_a_form_of_the_lesson(self):
-        # the block points at the lesson's own cards: every non-review lesson names at least one of its
-        # grammar patterns (or a piece of one) between backticks in the focus lines
-        for s in LESSONS.values():
-            if s.kind == "review" or not s.grammar:
-                continue
-            focus = " ".join(s.coach.focus_vi)
-            pieces = set()
-            for g in s.grammar:
-                for part in re.split(r"\s*[·+]\s*|\s+", g.pattern):
-                    part = part.strip("() ")
-                    if len(part) >= 2 and not part.isascii():
-                        pieces.add(part)
-            self.assertTrue(any(p in focus for p in pieces), s.slug)
-
-    def test_the_block_reaches_the_learner_unchanged(self):
-        for s in LESSONS.values():
-            dumped = s.coach.model_dump(mode="json", exclude_none=True)
-            out = CoachOut.model_validate(dumped)
-            self.assertEqual(out.focus_vi, s.coach.focus_vi)
-            self.assertEqual([c.prompt_vi for c in out.self_check], [c.prompt_vi for c in s.coach.self_check])
-
     def test_a_change_to_the_block_changes_the_lesson_hash(self):
         resolved = next(r for r in BUNDLE.lessons if r.seed.sort_order == 7)
         edited = resolved.seed.model_copy(update={"coach": make(goal_vi="Mục tiêu khác hẳn so với trước đó.")})

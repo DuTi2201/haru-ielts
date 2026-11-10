@@ -68,7 +68,7 @@ class SettingsTests(unittest.TestCase):
             os.environ.pop("TTS_GG_CHIRP", None)
             s = Settings(_env_file=None)
         self.assertEqual(s.TTS_GG_CHIRP, "")
-        self.assertEqual(s.TTS_CHIRP_VOICE, "ko-KR-Chirp3-HD-Iapetus")
+        self.assertEqual(s.TTS_CHIRP_VOICE, "en-GB-Chirp3-HD-Iapetus")
         self.assertEqual(s.TTS_CHIRP_SPEAKING_RATE, 0.85)
 
 

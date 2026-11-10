@@ -3,7 +3,7 @@ from datetime import datetime, timezone
 from typing import Annotated
 
 from fastapi import APIRouter, Depends, Request, status
-from sqlalchemy import select
+from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.api.deps import _problem, account_disabled, get_current_profile
@@ -18,7 +18,6 @@ from app.core.security import (
 from app.db import get_db
 from app.models import Profile
 from app.services import abuse
-from app.services.billing import settings_db as billing_settings
 from app.schemas import ChangePasswordRequest, LoginRequest, ProfileOut, RefreshRequest, SignupRequest, TokenPair
 
 router = APIRouter(prefix="/auth", tags=["identity"])
@@ -26,23 +25,23 @@ router = APIRouter(prefix="/auth", tags=["identity"])
 
 @router.post("/signup", response_model=TokenPair, status_code=status.HTTP_201_CREATED)
 async def signup(body: SignupRequest, request: Request, db: Annotated[AsyncSession, Depends(get_db)]):
-    existing = await db.execute(select(Profile).where(Profile.email == body.email))
-    if existing.scalar_one_or_none() is not None:
-        raise _problem(status.HTTP_409_CONFLICT, "Email already registered", "email_taken")
-    # throwaway inboxes, a second account on one inbox, too many accounts from one network today
-    await billing_settings.refresh(db)
-    key = await abuse.check_signup(db, body.email, request)
-
+    count = (await db.execute(select(func.count()).select_from(Profile))).scalar_one()
+    if int(count or 0) >= 1:
+        raise _problem(
+            status.HTTP_403_FORBIDDEN,
+            "Đăng ký đã đóng",
+            "registration_closed",
+            "Ứng dụng cá nhân chỉ dành cho một tài khoản duy nhất.",
+        )
+    key = abuse.email_key(body.email)
     profile = Profile(
         email=body.email,
         email_key=key,
         hashed_password=hash_password(body.password),
         display_name=body.display_name,
-        role="learner",
+        role="admin",
     )
     db.add(profile)
-    await db.flush()
-    await abuse.remember(db, profile.id, request)
     await db.commit()
     await db.refresh(profile)
     return TokenPair(
@@ -70,8 +69,6 @@ async def login(body: LoginRequest, request: Request, db: Annotated[AsyncSession
             "temp_password_expired",
             "Nhờ người quản trị đặt lại mật khẩu cho bạn.",
         )
-    await abuse.remember(db, profile.id, request)
-    await db.commit()
     return TokenPair(
         access_token=create_access_token(str(profile.id), profile.role),
         refresh_token=create_refresh_token(str(profile.id), profile.role),
@@ -110,8 +107,6 @@ async def refresh(body: RefreshRequest, request: Request, db: Annotated[AsyncSes
     # a password reset / change ends every older session, refresh tokens included
     if issued_before(claims, profile.tokens_valid_after):
         raise _problem(status.HTTP_401_UNAUTHORIZED, "Invalid or expired token", "invalid_token")
-    await abuse.remember(db, profile.id, request)
-    await db.commit()
     return TokenPair(
         access_token=create_access_token(str(profile.id), profile.role),
         refresh_token=create_refresh_token(str(profile.id), profile.role),

@@ -267,7 +267,7 @@ class CorpusEndpointTests(unittest.IsolatedAsyncioTestCase):
 
         await content.corpus_facets(SpyDB())
         snapshot_sql = next(q for q in seen if "FROM corpus.corpus_item" in q)
-        self.assertIn("naturalness IS DISTINCT FROM", snapshot_sql)  # NULL (not judged yet) stays visible
+        self.assertIn("naturalness IS NULL OR", snapshot_sql)  # NULL (not judged yet) stays visible
 
     def test_a_repeat_with_a_meaning_wins_over_one_still_waiting_for_it(self):
         waiting = sentence(1, "기다려요.", film=1)
