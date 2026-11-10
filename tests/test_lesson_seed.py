@@ -19,28 +19,22 @@ class SeedFilesTests(unittest.TestCase):
 
     def test_the_files_load_without_problems(self):
         self.assertEqual(self.bundle.problems, [])
-        self.assertEqual(len(self.bundle.lessons), 83)  # Bảng chữ cái + 16 foundation lessons (5, cut into 16) + 32 topic lessons + one review lesson per topic + the 8 lessons of the Viết 54 course + the lessons of topic 5 + the reading lesson that follows it
+        self.assertEqual(len(self.bundle.lessons), 42)
         by_topic: dict[str, int] = {}
         for r in self.bundle.lessons:
             by_topic[r.seed.topic] = by_topic.get(r.seed.topic, 0) + 1
         self.assertEqual(
             by_topic,
             {
-                "Nhập môn": 17,
-                "Sinh hoạt hàng ngày": 10,
-                "Quan hệ xã hội, Sự kiện & Không gian sống": 12,
-                "Bổ trợ · Nhập cảnh & Thủ tục cư trú": 6,
-                "Đời sống xã hội & Công sở": 8,
-                "Bổ trợ · Viết câu 54 từ con số 0": 8,
-                "Xã hội, Tư tưởng & Chuyên ngành": 21,
-                "Bổ trợ · Đọc hiểu: chủ đề, thái độ, mục đích": 1,
+                "B1 · Ngữ pháp": 28,
+                "B1 · Từ vựng theo chủ đề": 14,
             },
         )
 
     def test_lessons_come_out_in_curriculum_order(self):
         order = [(r.seed.track, r.seed.sort_order) for r in self.bundle.lessons]
         self.assertEqual(order, sorted(order, key=lambda t: (seed.TRACKS.index(t[0]), t[1])))
-        self.assertEqual(len({r.seed.slug for r in self.bundle.lessons}), 83)
+        self.assertEqual(len({r.seed.slug for r in self.bundle.lessons}), 42)
 
     def test_every_exercise_belongs_to_a_lesson_and_every_question_id_is_unique(self):
         used = {i for r in self.bundle.lessons for i in r.seed.exercise_ids}

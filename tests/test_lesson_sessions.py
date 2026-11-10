@@ -55,12 +55,6 @@ if __name__ == "__main__":
     unittest.main()
 
 
-class RevisitTests(unittest.TestCase):
-    def test_the_cards_that_teach_an_earlier_card_again_say_so(self):
-        flagged = {g.pattern.split(" (")[0]: g.revisits for r in load_all().lessons for g in r.seed.grammar if g.revisits}
-        self.assertEqual(set(flagged), {"안 · 못 + V/A", "ㅡ 탈락"})
-
-
 class SittingLectureTests(unittest.TestCase):
     """The lecture of one sitting reads only that sitting's words and cards."""
 

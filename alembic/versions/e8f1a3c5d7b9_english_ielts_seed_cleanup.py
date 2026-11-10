@@ -56,3 +56,4 @@ def downgrade() -> None:
         + ", ".join(f"'{c[2]}'" for c in _IELTS_QUESTION_TYPES)
         + ")"
     )
+
