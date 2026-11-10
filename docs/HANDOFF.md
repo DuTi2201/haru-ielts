@@ -53,6 +53,7 @@ Listening ≥ 30/40, Reading ≥ 30/40, Writing and Speaking ≥ 6.0 on a calibr
 * **Celery beat schedules disabled in `app/core/celery_app.py`**: `reconcile-billing-orders`, `discover-editorial-candidates` (kept `reset-daily-ai-quota` and `backup-database` with configurable `BACKUP_GCS_PREFIX`).
 * **Writing limits & word count**: `writing_task` in `scripts/b1/build.py` updated to `{"min": 30, "max": 90}` words; `app/services/essay_check.py` switched to English word counting (`count_words`).
 * **Migrations (Commit 2 — `e8f1a3c5d7b9`)**: Added migration `e8f1a3c5d7b9_english_ielts_seed_cleanup.py` on top of `b7d2f9a4c1e6` to delete Korean `editorial.editorial_source`, `billing.product_setting`, and TOPIK `content.question_type` rows, seed IELTS `question_type` rows, and add `ielts65` / `b1` to `profile_goal` enum without modifying old migrations.
+* **Voices (Commit 3)**: Updated `app/core/config.py`, `app/services/azure_tts.py`, `app/services/google_tts.py`, `app/services/text_audio.py`, `app/services/tts.py`, `app/services/landing_audio.py`, and `app/schemas.py` so Azure TTS accepts `en-GB-*Neural` / `en-US-*Neural` (default `en-GB-SoniaNeural` / `en-GB-RyanNeural`) and skips `korean_g2p` for English voices, Google Chirp defaults to `en-GB-Chirp3-HD-Iapetus` / `en-GB-Chirp3-HD-Aoede` (preserving Vietnamese lecture voice), and `text_audio.check_text` validates English text.
 
 ## What exists
 * `scripts/b1/` — the source of the B1 course (see its README). `build.py` writes

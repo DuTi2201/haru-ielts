@@ -41,6 +41,10 @@ from app.services import azure_tts, google_tts, lecture_voice, read_along
 # small indirection layer (SDD §5 "cấu hình thay cho hard-code") so the
 # API contract doesn't have to change if Gemini's voice catalog does.
 VOICE_MAP: dict[str, str] = {
+    "en-female-1": "Kore",
+    "en-female-2": "Leda",
+    "en-male-1": "Charon",
+    "en-male-2": "Orus",
     "ko-female-1": "Kore",
     "ko-female-2": "Leda",
     "ko-male-1": "Charon",

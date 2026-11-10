@@ -26,28 +26,31 @@ from app.services import audio_keys, audio_store, azure_tts, tts
 
 log = logging.getLogger(__name__)
 
-VOICES = ("ko-female-1", "ko-female-2", "ko-male-1", "ko-male-2")
+VOICES = ("en-female-1", "en-female-2", "en-male-1", "en-male-2", "ko-female-1", "ko-female-2", "ko-male-1", "ko-male-2")
 PROMPT_VERSION = "v1"
-_HANGUL = re.compile(r"[가-힣]")
+_ASCII_LETTER = re.compile(r"[A-Za-z]")
+_VIET_DIACRITIC = re.compile(
+    r"[ÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚÝàáâãèéêìíòóôõùúýĂăĐđĨĩŨũƠơƯưẠ-ỹ]"
+)
 _LETTER = re.compile(r"[^\W\d_]", re.UNICODE)
 
 
 class TextNotSpeakable(ValueError):
-    """The text cannot be voiced here (empty, too long, or not Korean)."""
+    """The text cannot be voiced here (empty, too long, or not English)."""
 
 
 def check_text(text: str | None) -> str:
-    """The text to voice: normalised, and only Korean. This door turns text into paid speech, so it
-    voices Korean only (a ko-KR voice cannot read Vietnamese or English) and not at any length."""
+    """The text to voice: normalised, and only English. This door turns text into paid speech, so it
+    voices English only (an en-GB/en-US voice cannot read Vietnamese or Korean) and not at any length."""
     spoken = audio_keys.speakable(text)
     if not spoken:
         raise TextNotSpeakable("Văn bản trống.")
     if len(spoken) > settings.TEXT_AUDIO_MAX_CHARS:
         raise TextNotSpeakable(f"Văn bản dài quá {settings.TEXT_AUDIO_MAX_CHARS} ký tự.")
     letters = _LETTER.findall(spoken)
-    hangul = _HANGUL.findall(spoken)
-    if not hangul or len(hangul) * 2 < len(letters):
-        raise TextNotSpeakable("Chỉ đọc được văn bản tiếng Hàn.")
+    en_letters = _ASCII_LETTER.findall(spoken)
+    if _VIET_DIACRITIC.search(spoken) or not en_letters or len(en_letters) * 2 < len(letters):
+        raise TextNotSpeakable("Chỉ đọc được văn bản tiếng Anh.")
     return spoken
 
 
