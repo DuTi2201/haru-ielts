@@ -85,6 +85,14 @@ own exercises. Do not paste book exercises, reading passages or audio scripts in
 * Checked: `load_all()` of `app.services.lesson_seed` reports 42 lessons and no problems; the
   sitting tests of `tests/test_lesson_sessions.py` pass (≤ 24 core words, ≤ 3 cards per sitting).
 * Checked: the full test suite passes (`1467 passed, 176 skipped, 0 failed, 0 errors, 428 subtests passed`).
+* Checked end-to-end on live `https://ielts.34-9-216-231.sslip.io`:
+  - `/healthz` returns `{"status":"ok","environment":"production"}` on both `https://ielts.34-9-216-231.sslip.io/healthz` and Korean `https://34-9-216-231.sslip.io/healthz`.
+  - Owner account (`vuvanduong802@gmail.com`) logs in with existing credentials; `/api/v1/auth/signup` is closed (`403 registration_closed`).
+  - `/api/v1/lessons` lists all 42 B1 units in order (`sort_order` 1..42).
+  - Unit 1 (`b1-u01-present-simple-present-continuous-stative-verbs`) opens with renamed fields (`headword`, `example_en`, `exam_tip_vi`), MCQ (`B1U01Q1`), sentence-building (`B1U01B1`), fill-in (`B1U01F1`), dictation (`B1U01D1` with English TTS `/api/v1/audio/text`), speaking (`B1U01S1`), reading (`B1U01R1`), and writing (`B1U01W1`, 30–90 words, graded by Gemini at `/api/v1/lessons/1/essays/B1U01W1/checks`).
+  - SRS review (`/api/v1/progress/reviews` + `/api/v1/me/review-queue`) schedules B1 cards for the next day (`interval_days: 1.0`) and offers them when due.
+  - Daily GCS backup (`python -m app.services.db_backup backup`) writes 57 tables (`backup-ielts/2026-11-10/manifest.json`).
+  - Memory after deployment (`free -m`): 3,924 MB total, 1,832 MB used, 2,092 MB available, 49 MB swap (no swap pressure).
 * 42 phrasal verbs / prepositional phrases / word patterns / word families are placed in a unit by
   topic and were not found on the unit's pages by either OCR search (84 before a second, looser
   search confirmed 28 and moved 14): `scripts/b1/unit_assignment.json` → `unverified`. Settling the
