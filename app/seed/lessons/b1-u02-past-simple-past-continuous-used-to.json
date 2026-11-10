@@ -1,0 +1,183 @@
+{
+ "slug": "b1-u02-past-simple-past-continuous-used-to",
+ "title": "Unit 2 · Quá khứ đơn, quá khứ tiếp diễn, used to",
+ "title_ko": "Past simple, past continuous, used to",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 2,
+ "summary": "Kể lại một chuyện đã xảy ra: việc chính dùng quá khứ đơn, bối cảnh dùng quá khứ tiếp diễn, thói quen cũ dùng used to. Ngữ pháp: Past simple: V-ed / irregular; Past continuous: was/were + V-ing; used to + V.",
+ "vocab": [
+  {
+   "hangul": "ago",
+   "pos": "X",
+   "meaning_vi": "cách đây (đứng sau khoảng thời gian)",
+   "example_ko": "I started this job two years ago.",
+   "example_vi": "Tôi bắt đầu công việc này cách đây hai năm.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 2"
+  },
+  {
+   "hangul": "while",
+   "pos": "X",
+   "meaning_vi": "trong khi",
+   "example_ko": "While I was studying, my brother was playing games.",
+   "example_vi": "Trong khi tôi học thì em trai tôi chơi game.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 2"
+  },
+  {
+   "hangul": "suddenly",
+   "pos": "X",
+   "meaning_vi": "đột nhiên",
+   "example_ko": "Suddenly the lights went out.",
+   "example_vi": "Đột nhiên đèn tắt.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 2"
+  },
+  {
+   "hangul": "in those days",
+   "pos": "X",
+   "meaning_vi": "hồi đó",
+   "example_ko": "In those days, few people had a car.",
+   "example_vi": "Hồi đó ít người có ô tô.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 2"
+  },
+  {
+   "hangul": "last",
+   "pos": "A",
+   "meaning_vi": "vừa qua, trước (last week, last year)",
+   "example_ko": "I visited Hue last summer.",
+   "example_vi": "Mùa hè năm ngoái tôi đi Huế.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 2"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "Past simple: V-ed / irregular",
+   "meaning_vi": "Việc đã xong ở một thời điểm xác định trong quá khứ",
+   "usage_context_vi": "Dùng khi biết hoặc nói rõ thời điểm (yesterday, last year, in 2019, two days ago).\nPhủ định: did not + V. Nghi vấn: Did + S + V?\nĐộng từ bất quy tắc phải học thuộc: go → went, buy → bought, see → saw (bảng ở trang 182–183 của sách).",
+   "contrasts": [],
+   "example_ko": "We moved to Da Nang in 2020.\nDid you see the match last night?",
+   "example_vi": "Chúng tôi chuyển đến Đà Nẵng năm 2020.\nTối qua bạn có xem trận đấu không?",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 2, pp. 9-11",
+   "note_vi": "Lỗi người Việt hay mắc: Sau `did` động từ về nguyên mẫu: ~~Did you went~~ → Did you go; ~~I didn't saw~~ → I didn't see. Âm cuối /t/, /d/, /ɪd/ của -ed hay bị nuốt khi nói.",
+   "topik_tip_vi": "Khi mô tả biểu đồ có năm trong quá khứ, toàn bộ động từ chính ở quá khứ đơn: The number rose in 2015."
+  },
+  {
+   "pattern": "Past continuous: was/were + V-ing",
+   "meaning_vi": "Việc đang diễn ra tại một thời điểm trong quá khứ",
+   "usage_context_vi": "Dùng để dựng bối cảnh hoặc nói việc đang dở dang thì việc khác xen vào (when + quá khứ đơn, while + quá khứ tiếp diễn).",
+   "contrasts": [
+    {
+     "pattern": "Past simple: V-ed / irregular",
+     "diff_vi": "Quá khứ đơn là việc trọn vẹn, quá khứ tiếp diễn là việc đang dở: I read the book (đọc xong) / I was reading the book (đang đọc dở)."
+    }
+   ],
+   "example_ko": "I was cooking when the phone rang.\nWhile we were waiting, it started to rain.",
+   "example_vi": "Tôi đang nấu ăn thì điện thoại reo.\nTrong lúc chúng tôi chờ, trời bắt đầu mưa.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 2, pp. 9-11",
+   "note_vi": "Lỗi người Việt hay mắc: Hai việc nối tiếp nhau thì cả hai dùng quá khứ đơn, không dùng tiếp diễn: When I got home, I made dinner (về rồi mới nấu)."
+  },
+  {
+   "pattern": "used to + V",
+   "meaning_vi": "Thói quen hoặc tình trạng trong quá khứ, nay không còn",
+   "usage_context_vi": "Phủ định: did not use to + V. Nghi vấn: Did + S + use to + V? Chỉ dùng cho quá khứ; hiện tại dùng `usually`.",
+   "contrasts": [],
+   "example_ko": "I used to walk to school, but now I cycle.\nDid you use to live here?",
+   "example_vi": "Trước đây tôi đi bộ đến trường, giờ tôi đạp xe.\nTrước đây bạn sống ở đây à?",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 2, pp. 9-11",
+   "note_vi": "Lỗi người Việt hay mắc: Nhầm với `be used to + V-ing` (quen với việc gì): I am used to getting up early = tôi đã quen dậy sớm.",
+   "topik_tip_vi": "Rất hợp với Speaking Part 1 và Part 3 khi so sánh xưa và nay: People used to write letters, but now they send messages."
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Kể lại một chuyện đã xảy ra: việc chính dùng quá khứ đơn, bối cảnh dùng quá khứ tiếp diễn, thói quen cũ dùng used to.\n• 📖 Trong sách: Unit ngữ pháp 2, trang 9–11. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Speaking Part 2 thường yêu cầu kể một trải nghiệm trong quá khứ. Writing Task 1 mô tả số liệu của những năm đã qua bằng quá khứ đơn.",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "Past simple: V-ed / irregular: Việc đã xong ở một thời điểm xác định trong quá khứ",
+   "Past continuous: was/were + V-ing: Việc đang diễn ra tại một thời điểm trong quá khứ",
+   "used to + V: Thói quen hoặc tình trạng trong quá khứ, nay không còn"
+  ],
+  "watch_out_vi": [
+   "Sau `did` động từ về nguyên mẫu: ~~Did you went~~ → Did you go; ~~I didn't saw~~ → I didn't see. Âm cuối /t/, /d/, /ɪd/ của -ed hay bị nuốt khi nói.",
+   "Hai việc nối tiếp nhau thì cả hai dùng quá khứ đơn, không dùng tiếp diễn: When I got home, I made dinner (về rồi mới nấu)."
+  ]
+ },
+ "exercise_ids": [
+  "B1U02Q1",
+  "B1U02Q2",
+  "B1U02Q3",
+  "B1U02Q4",
+  "B1U02Q5",
+  "B1U02Q6",
+  "B1U02B1",
+  "B1U02B2",
+  "B1U02B3",
+  "B1U02F1",
+  "B1U02F2",
+  "B1U02D1",
+  "B1U02S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · Past simple",
+   "can_do_vi": "Sau buổi này bạn dùng được: việc đã xong ở một thời điểm xác định trong quá khứ; việc đang diễn ra tại một thời điểm trong quá khứ; thói quen hoặc tình trạng trong quá khứ, nay không còn.",
+   "use_vi": "Speaking Part 2 thường yêu cầu kể một trải nghiệm trong quá khứ. Writing Task 1 mô tả số liệu của những năm đã qua bằng quá khứ đơn.",
+   "vocab": [
+    "ago",
+    "while",
+    "suddenly",
+    "in those days",
+    "last"
+   ],
+   "grammar": [
+    "Past simple: V-ed / irregular",
+    "Past continuous: was/were + V-ing",
+    "used to + V"
+   ],
+   "check": [
+    "B1U02Q1",
+    "B1U02Q3",
+    "B1U02Q2",
+    "B1U02Q5",
+    "B1U02Q4",
+    "B1U02Q6",
+    "B1U02B1",
+    "B1U02B2",
+    "B1U02B3",
+    "B1U02F1",
+    "B1U02F2",
+    "B1U02D1",
+    "B1U02S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Tiêu đề và số trang theo mục lục Destination B1 (Mann & Taylore-Knowles, Macmillan). Giải thích, ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  }
+ ]
+}

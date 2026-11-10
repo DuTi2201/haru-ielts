@@ -1,0 +1,6212 @@
+{
+ "skill": "build",
+ "guide": [
+  {
+   "title_vi": "Cách làm",
+   "body_vi": "Xếp câu trước, gõ câu sau. Khi gõ sai, đọc phần giải thích rồi tự viết thêm một câu của chính bạn với cùng cấu trúc."
+  }
+ ],
+ "items": [
+  {
+   "id": "B1U01B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 1",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cuối tuần tôi thường thăm ông bà.",
+   "tiles": [
+    "at",
+    "weekends",
+    "usually",
+    "my",
+    "visit",
+    "I",
+    "grandparents"
+   ],
+   "answers": [
+    "I usually visit my grandparents at weekends"
+   ]
+  },
+  {
+   "id": "B1U01B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 1",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Hiện tại anh ấy đang tìm việc mới.",
+   "tiles": [
+    "for",
+    "is",
+    "looking",
+    "a",
+    "new",
+    "job",
+    "now",
+    "He"
+   ],
+   "answers": [
+    "He is looking for a new job now"
+   ]
+  },
+  {
+   "id": "B1U01B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 1",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bạn có hiểu câu hỏi này không?",
+   "tiles": [
+    "question",
+    "this",
+    "you",
+    "understand",
+    "Do"
+   ],
+   "answers": [
+    "Do you understand this question"
+   ]
+  },
+  {
+   "id": "B1U01F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 1",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"She work in a hospital.\" → She ( ㉠ ) in a hospital.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "works"
+     ],
+     "common_errors_vi": "Ngôi thứ ba số ít ở hiện tại đơn thêm -s."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U01F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 1",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"I am wanting a new phone.\" → I ( ㉠ ) a new phone.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "want"
+     ],
+     "common_errors_vi": "\"want\" là động từ trạng thái."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U02B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 2",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Hôm qua tôi không đi làm.",
+   "tiles": [
+    "to",
+    "work",
+    "go",
+    "yesterday",
+    "not",
+    "I",
+    "did"
+   ],
+   "answers": [
+    "I did not go to work yesterday"
+   ]
+  },
+  {
+   "id": "B1U02B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 2",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi đang ngủ thì bạn gọi.",
+   "tiles": [
+    "I",
+    "you",
+    "called",
+    "sleeping",
+    "when",
+    "was"
+   ],
+   "answers": [
+    "I was sleeping when you called"
+   ]
+  },
+  {
+   "id": "B1U02B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 2",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Trước đây chúng tôi sống ở nông thôn.",
+   "tiles": [
+    "the",
+    "to",
+    "live",
+    "in",
+    "used",
+    "We",
+    "countryside"
+   ],
+   "answers": [
+    "We used to live in the countryside"
+   ]
+  },
+  {
+   "id": "B1U02F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 2",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"Did you saw the film?\" → Did you ( ㉠ ) the film?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "see"
+     ],
+     "common_errors_vi": "Sau \"did\" động từ về nguyên mẫu."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U02F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 2",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Hoàn thành: I ( ㉠ ) play football every day when I was ten, but now I do not.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "used to"
+     ],
+     "common_errors_vi": "Thói quen cũ, nay không còn."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U03B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 3",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Anh ấy bắt đầu đi bơi để khỏe hơn.",
+   "tiles": [
+    "took",
+    "swimming",
+    "get",
+    "He",
+    "to",
+    "up",
+    "fit"
+   ],
+   "answers": [
+    "He took up swimming to get fit"
+   ]
+  },
+  {
+   "id": "B1U03B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 3",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Máy bay cất cánh muộn hai tiếng.",
+   "tiles": [
+    "off",
+    "plane",
+    "two",
+    "hours",
+    "late",
+    "took",
+    "The"
+   ],
+   "answers": [
+    "The plane took off two hours late"
+   ]
+  },
+  {
+   "id": "B1U03B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 3",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tối thứ Sáu chúng tôi thường ăn ngoài.",
+   "tiles": [
+    "usually",
+    "out",
+    "evenings",
+    "on",
+    "eat",
+    "We",
+    "Friday"
+   ],
+   "answers": [
+    "We usually eat out on Friday evenings"
+   ]
+  },
+  {
+   "id": "B1U03F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «act» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "action"
+     ],
+     "common_errors_vi": "`act` → `action` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U03F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «athlete» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "athletic"
+     ],
+     "common_errors_vi": "`athlete` → `athletic` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U03F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «child» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "children"
+     ],
+     "common_errors_vi": "`child` → `children` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U03F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «collect» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "collection"
+     ],
+     "common_errors_vi": "`collect` → `collection` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U03F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «entertain» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "entertainment"
+     ],
+     "common_errors_vi": "`entertain` → `entertainment` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U03F6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «hero» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "heroic"
+     ],
+     "common_errors_vi": "`hero` → `heroic` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U03F7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «luck» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "lucky"
+     ],
+     "common_errors_vi": "`luck` → `lucky` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U03F8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «music» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "musical"
+     ],
+     "common_errors_vi": "`music` → `musical` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U04B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 4",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi chưa từng ăn món này.",
+   "tiles": [
+    "never",
+    "have",
+    "I",
+    "eaten",
+    "dish",
+    "this"
+   ],
+   "answers": [
+    "I have never eaten this dish"
+   ]
+  },
+  {
+   "id": "B1U04B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 4",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cô ấy học ở đây từ tháng Chín.",
+   "tiles": [
+    "has",
+    "She",
+    "studied",
+    "September",
+    "here",
+    "since"
+   ],
+   "answers": [
+    "She has studied here since September"
+   ]
+  },
+  {
+   "id": "B1U04B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 4",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bạn chờ bao lâu rồi?",
+   "tiles": [
+    "waiting",
+    "been",
+    "long",
+    "have",
+    "you",
+    "How"
+   ],
+   "answers": [
+    "How long have you been waiting"
+   ]
+  },
+  {
+   "id": "B1U04F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 4",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"I have seen him yesterday.\" → I ( ㉠ ) him yesterday.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "saw"
+     ],
+     "common_errors_vi": "Có \"yesterday\" nên dùng quá khứ đơn."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U04F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 4",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Hoàn thành: They have been married ( ㉠ ) 2015.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "since"
+     ],
+     "common_errors_vi": "2015 là mốc thời gian."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U05B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 5",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Khi tôi đến thì họ đã ăn xong.",
+   "tiles": [
+    "finished",
+    "They",
+    "when",
+    "arrived",
+    "eating",
+    "had",
+    "I"
+   ],
+   "answers": [
+    "They had finished eating when I arrived"
+   ]
+  },
+  {
+   "id": "B1U05B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 5",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Trước đó tôi chưa từng gặp anh ấy.",
+   "tiles": [
+    "I",
+    "had",
+    "met",
+    "never",
+    "him",
+    "before"
+   ],
+   "answers": [
+    "I had never met him before"
+   ]
+  },
+  {
+   "id": "B1U05B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 5",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Trời đã mưa suốt ba ngày.",
+   "tiles": [
+    "days",
+    "three",
+    "had",
+    "been",
+    "It",
+    "for",
+    "raining"
+   ],
+   "answers": [
+    "It had been raining for three days"
+   ]
+  },
+  {
+   "id": "B1U05F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 5",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Hoàn thành: The match ( ㉠ ) when we turned on the TV, so we missed the first goal. (already / start)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "had already started"
+     ],
+     "common_errors_vi": "Trận đấu bắt đầu trước khi bật tivi."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U05F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 5",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Hoàn thành: He was angry because he ( ㉠ ) for two hours. (wait)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "had been waiting"
+     ],
+     "common_errors_vi": "Nhấn quá trình chờ kéo dài trước đó."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U06B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 6",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cứ đọc tiếp trong lúc tôi ra mở cửa.",
+   "tiles": [
+    "answer",
+    "on",
+    "door",
+    "I",
+    "Carry",
+    "reading",
+    "the",
+    "while"
+   ],
+   "answers": [
+    "Carry on reading while I answer the door"
+   ]
+  },
+  {
+   "id": "B1U06B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 6",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Nếu viết sai, cứ gạch đi.",
+   "tiles": [
+    "it",
+    "cross",
+    "If",
+    "make",
+    "mistake,",
+    "out",
+    "a",
+    "just",
+    "you"
+   ],
+   "answers": [
+    "If you make a mistake, just cross it out"
+   ]
+  },
+  {
+   "id": "B1U06B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 6",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cô ấy xé vụn lá thư rồi vứt đi.",
+   "tiles": [
+    "She",
+    "the",
+    "ripped",
+    "away",
+    "up",
+    "letter",
+    "and",
+    "threw",
+    "it"
+   ],
+   "answers": [
+    "She ripped up the letter and threw it away"
+   ]
+  },
+  {
+   "id": "B1U06F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 6",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ chỉ người của «advice» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "adviser"
+     ],
+     "common_errors_vi": "`advice` → `adviser` (danh từ chỉ người)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U06F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 6",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ chỉ người của «begin» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "beginner"
+     ],
+     "common_errors_vi": "`begin` → `beginner` (danh từ chỉ người)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U06F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 6",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «brave» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "bravery"
+     ],
+     "common_errors_vi": "`brave` → `bravery` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U06F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 6",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «correct» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "correction"
+     ],
+     "common_errors_vi": "`correct` → `correction` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U06F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 6",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «divide» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "division"
+     ],
+     "common_errors_vi": "`divide` → `division` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U06F6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 6",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «educate» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "education"
+     ],
+     "common_errors_vi": "`educate` → `education` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U06F7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 6",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «except» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "exception"
+     ],
+     "common_errors_vi": "`except` → `exception` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U06F8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 6",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «instruct» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "instruction"
+     ],
+     "common_errors_vi": "`instruct` → `instruction` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U07B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 7",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi nghĩ cô ấy sẽ đỗ kỳ thi.",
+   "tiles": [
+    "think",
+    "pass",
+    "she",
+    "the",
+    "exam",
+    "I",
+    "will"
+   ],
+   "answers": [
+    "I think she will pass the exam"
+   ]
+  },
+  {
+   "id": "B1U07B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 7",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cuối tuần này chúng tôi định sơn nhà.",
+   "tiles": [
+    "paint",
+    "We",
+    "this",
+    "to",
+    "the",
+    "house",
+    "are",
+    "going",
+    "weekend"
+   ],
+   "answers": [
+    "We are going to paint the house this weekend"
+   ]
+  },
+  {
+   "id": "B1U07B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 7",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi sẽ gọi bạn ngay khi tôi đến nơi.",
+   "tiles": [
+    "will",
+    "as",
+    "soon",
+    "I",
+    "arrive",
+    "as",
+    "I",
+    "you",
+    "call"
+   ],
+   "answers": [
+    "I will call you as soon as I arrive"
+   ]
+  },
+  {
+   "id": "B1U07F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 7",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"When I will finish, I will tell you.\" → When I ( ㉠ ), I will tell you.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "finish"
+     ],
+     "common_errors_vi": "Sau \"when\" dùng hiện tại đơn."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U07F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 7",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Hoàn thành (dự định có sẵn): We ( ㉠ ) visit Hue in July. We booked the tickets last week.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "are going to"
+     ],
+     "common_errors_vi": "Đã đặt vé tức là dự định có từ trước."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U08B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 8",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Chúng tôi gặp nhau lúc tám giờ sáng thứ Bảy.",
+   "tiles": [
+    "morning",
+    "eight",
+    "We",
+    "Saturday",
+    "on",
+    "at",
+    "met"
+   ],
+   "answers": [
+    "We met at eight on Saturday morning"
+   ]
+  },
+  {
+   "id": "B1U08B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 8",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cô ấy sinh năm 1998 ở Hà Nội.",
+   "tiles": [
+    "born",
+    "She",
+    "in",
+    "1998",
+    "in",
+    "Hanoi",
+    "was"
+   ],
+   "answers": [
+    "She was born in Hanoi in 1998"
+   ]
+  },
+  {
+   "id": "B1U08B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 8",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Trạm xe buýt ở trước trường.",
+   "tiles": [
+    "stop",
+    "of",
+    "front",
+    "school",
+    "the",
+    "The",
+    "is",
+    "bus",
+    "in"
+   ],
+   "answers": [
+    "The bus stop is in front of the school"
+   ]
+  },
+  {
+   "id": "B1U08F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 8",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"I will see you in Monday morning.\" → I will see you ( ㉠ ) Monday morning.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "on"
+     ],
+     "common_errors_vi": "Có thứ trong tuần thì dùng on."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U08F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 8",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Hoàn thành: The number of visitors increased ( ㉠ ) 2010 and 2020.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "between"
+     ],
+     "common_errors_vi": "between + hai mốc + and."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U09B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 9",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Nhanh lên kẻo lỡ xe buýt.",
+   "tiles": [
+    "bus",
+    "the",
+    "will",
+    "up,",
+    "Hurry",
+    "miss",
+    "we",
+    "or"
+   ],
+   "answers": [
+    "Hurry up, or we will miss the bus"
+   ]
+  },
+  {
+   "id": "B1U09B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 9",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cuốn sách thứ hai của cô ấy ra mắt tháng trước.",
+   "tiles": [
+    "last",
+    "second",
+    "Her",
+    "out",
+    "month",
+    "book",
+    "came"
+   ],
+   "answers": [
+    "Her second book came out last month"
+   ]
+  },
+  {
+   "id": "B1U09B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 9",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Chúng tôi khởi hành sớm để tránh tắc đường.",
+   "tiles": [
+    "early",
+    "the",
+    "traffic",
+    "set",
+    "avoid",
+    "off",
+    "We",
+    "to"
+   ],
+   "answers": [
+    "We set off early to avoid the traffic"
+   ]
+  },
+  {
+   "id": "B1U09F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 9",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «attract» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "attractive"
+     ],
+     "common_errors_vi": "`attract` → `attractive` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U09F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 9",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng trạng từ của «back» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "backwards"
+     ],
+     "common_errors_vi": "`back` → `backwards` (trạng từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U09F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 9",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «centre» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "central"
+     ],
+     "common_errors_vi": "`centre` → `central` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U09F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 9",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «choose» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "choice"
+     ],
+     "common_errors_vi": "`choose` → `choice` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U09F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 9",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «comfort» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "comfortable"
+     ],
+     "common_errors_vi": "`comfort` → `comfortable` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U09F6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 9",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «depart» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "departure"
+     ],
+     "common_errors_vi": "`depart` → `departure` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U09F7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 9",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «direct» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "direction"
+     ],
+     "common_errors_vi": "`direct` → `direction` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U09F8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 9",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ chỉ người của «drive» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "driver"
+     ],
+     "common_errors_vi": "`drive` → `driver` (danh từ chỉ người)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U10B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 10",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cà phê được trồng ở nhiều tỉnh.",
+   "tiles": [
+    "many",
+    "grown",
+    "provinces",
+    "is",
+    "Coffee",
+    "in"
+   ],
+   "answers": [
+    "Coffee is grown in many provinces"
+   ]
+  },
+  {
+   "id": "B1U10B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 10",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bức thư đã được gửi hôm qua.",
+   "tiles": [
+    "The",
+    "yesterday",
+    "was",
+    "sent",
+    "letter"
+   ],
+   "answers": [
+    "The letter was sent yesterday"
+   ]
+  },
+  {
+   "id": "B1U10B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 10",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bạn sẽ được thông báo kết quả qua email.",
+   "tiles": [
+    "the",
+    "email",
+    "results",
+    "You",
+    "told",
+    "by",
+    "will",
+    "be"
+   ],
+   "answers": [
+    "You will be told the results by email"
+   ]
+  },
+  {
+   "id": "B1U10F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 10",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Chuyển sang bị động: \"They built this school in 2005.\" → This school ( ㉠ ) in 2005.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "was built"
+     ],
+     "common_errors_vi": "Quá khứ đơn bị động."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U10F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 10",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"The number of students was risen.\" → The number of students ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "rose"
+     ],
+     "common_errors_vi": "\"rise\" không có bị động."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U11B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 11",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Vấn đề này có thể được giải quyết dễ dàng.",
+   "tiles": [
+    "This",
+    "can",
+    "solved",
+    "problem",
+    "be",
+    "easily"
+   ],
+   "answers": [
+    "This problem can be solved easily"
+   ]
+  },
+  {
+   "id": "B1U11B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 11",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Một trường học mới đang được xây gần đây.",
+   "tiles": [
+    "new",
+    "here",
+    "is",
+    "school",
+    "being",
+    "A",
+    "built",
+    "near"
+   ],
+   "answers": [
+    "A new school is being built near here"
+   ]
+  },
+  {
+   "id": "B1U11B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 11",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bài hát đó được viết bởi một sinh viên.",
+   "tiles": [
+    "was",
+    "song",
+    "student",
+    "a",
+    "That",
+    "written",
+    "by"
+   ],
+   "answers": [
+    "That song was written by a student"
+   ]
+  },
+  {
+   "id": "B1U11F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 11",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Chuyển sang bị động: \"People should recycle glass.\" → Glass ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "should be recycled"
+     ],
+     "common_errors_vi": "should + be + V3."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U11F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 11",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Hoàn thành: The letter was written ( ㉠ ) a pencil.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "with"
+     ],
+     "common_errors_vi": "Dụng cụ dùng để viết."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U12B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 12",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi lớn lên ở một thị trấn nhỏ gần biển.",
+   "tiles": [
+    "I",
+    "sea",
+    "near",
+    "up",
+    "grew",
+    "town",
+    "the",
+    "in",
+    "a",
+    "small"
+   ],
+   "answers": [
+    "I grew up in a small town near the sea"
+   ]
+  },
+  {
+   "id": "B1U12B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 12",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bố tôi bỏ thuốc lá mười năm trước.",
+   "tiles": [
+    "years",
+    "smoking",
+    "My",
+    "father",
+    "gave",
+    "up",
+    "ten",
+    "ago"
+   ],
+   "answers": [
+    "My father gave up smoking ten years ago"
+   ]
+  },
+  {
+   "id": "B1U12B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 12",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Anh ấy ngã trên băng và bị đau tay.",
+   "tiles": [
+    "and",
+    "He",
+    "his",
+    "fell",
+    "arm",
+    "down",
+    "hurt",
+    "the",
+    "on",
+    "ice"
+   ],
+   "answers": [
+    "He fell down on the ice and hurt his arm"
+   ]
+  },
+  {
+   "id": "B1U12F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 12",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «able» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "ability"
+     ],
+     "common_errors_vi": "`able` → `ability` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U12F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 12",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «admire» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "admiration"
+     ],
+     "common_errors_vi": "`admire` → `admiration` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U12F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 12",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «belief» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "believable"
+     ],
+     "common_errors_vi": "`belief` → `believable` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U12F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 12",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «care» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "careful"
+     ],
+     "common_errors_vi": "`care` → `careful` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U12F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 12",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «forgive» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "forgiveness"
+     ],
+     "common_errors_vi": "`forgive` → `forgiveness` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U12F6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 12",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng dạng trái nghĩa của «honest» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "dishonest"
+     ],
+     "common_errors_vi": "`honest` → `dishonest` (dạng trái nghĩa)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U12F7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 12",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ chỉ người của «lie» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "liar"
+     ],
+     "common_errors_vi": "`lie` → `liar` (danh từ chỉ người)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U12F8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 12",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «person» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "personality"
+     ],
+     "common_errors_vi": "`person` → `personality` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U13B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 13",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bạn có lời khuyên nào cho tôi không?",
+   "tiles": [
+    "advice",
+    "you",
+    "me",
+    "Do",
+    "any",
+    "for",
+    "have"
+   ],
+   "answers": [
+    "Do you have any advice for me"
+   ]
+  },
+  {
+   "id": "B1U13B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 13",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Không có nhiều thông tin về chủ đề này.",
+   "tiles": [
+    "not",
+    "There",
+    "on",
+    "topic",
+    "is",
+    "much",
+    "information",
+    "this"
+   ],
+   "answers": [
+    "There is not much information on this topic"
+   ]
+  },
+  {
+   "id": "B1U13B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 13",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi cần một ít thời gian để suy nghĩ.",
+   "tiles": [
+    "time",
+    "to",
+    "little",
+    "a",
+    "I",
+    "need",
+    "think"
+   ],
+   "answers": [
+    "I need a little time to think"
+   ]
+  },
+  {
+   "id": "B1U13F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 13",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"She gave me many advices.\" → She gave me ( ㉠ ) advice.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "a lot of",
+      "much",
+      "some"
+     ],
+     "common_errors_vi": "\"advice\" không đếm được."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U13F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 13",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Hoàn thành: Very ( ㉠ ) people know the answer, so do not worry if you do not.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "few"
+     ],
+     "common_errors_vi": "few = hầu như không có ai."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U14B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 14",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Anh ấy là sinh viên ở một trường đại học.",
+   "tiles": [
+    "university",
+    "is",
+    "a",
+    "at",
+    "a",
+    "student",
+    "He"
+   ],
+   "answers": [
+    "He is a student at a university"
+   ]
+  },
+  {
+   "id": "B1U14B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 14",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Trẻ em cần ngủ nhiều.",
+   "tiles": [
+    "need",
+    "a",
+    "Children",
+    "of",
+    "sleep",
+    "lot"
+   ],
+   "answers": [
+    "Children need a lot of sleep"
+   ]
+  },
+  {
+   "id": "B1U14B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 14",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Số lượng xe hơi đã tăng.",
+   "tiles": [
+    "cars",
+    "increased",
+    "has",
+    "number",
+    "of",
+    "The"
+   ],
+   "answers": [
+    "The number of cars has increased"
+   ]
+  },
+  {
+   "id": "B1U14F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 14",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"I want to be doctor.\" → I want to be ( ㉠ ) doctor.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "a"
+     ],
+     "common_errors_vi": "Nghề nghiệp cần a/an."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U14F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 14",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"I like the music.\" (nói chung) → I like ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "music"
+     ],
+     "common_errors_vi": "Nói chung thì không dùng mạo từ."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U15B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 15",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bạn cộng giúp tôi mấy con số này được không?",
+   "tiles": [
+    "Can",
+    "add",
+    "me",
+    "numbers",
+    "you",
+    "up",
+    "for",
+    "these"
+   ],
+   "answers": [
+    "Can you add up these numbers for me"
+   ]
+  },
+  {
+   "id": "B1U15B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 15",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cô ấy đang để dành tiền đi Hàn Quốc.",
+   "tiles": [
+    "saving",
+    "for",
+    "to",
+    "Korea",
+    "up",
+    "is",
+    "trip",
+    "a",
+    "She"
+   ],
+   "answers": [
+    "She is saving up for a trip to Korea"
+   ]
+  },
+  {
+   "id": "B1U15B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 15",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cô ấy tặng sách cũ cho một trường học gần nhà.",
+   "tiles": [
+    "a",
+    "local",
+    "books",
+    "She",
+    "school",
+    "her",
+    "to",
+    "away",
+    "old",
+    "gave"
+   ],
+   "answers": [
+    "She gave away her old books to a local school"
+   ]
+  },
+  {
+   "id": "B1U15F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 15",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «add» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "addition"
+     ],
+     "common_errors_vi": "`add` → `addition` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U15F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 15",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «compare» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "comparison"
+     ],
+     "common_errors_vi": "`compare` → `comparison` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U15F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 15",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «decide» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "decision"
+     ],
+     "common_errors_vi": "`decide` → `decision` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U15F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 15",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «expense» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "expensive"
+     ],
+     "common_errors_vi": "`expense` → `expensive` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U15F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 15",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «serve» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "service"
+     ],
+     "common_errors_vi": "`serve` → `service` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U15F6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 15",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «true» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "truth"
+     ],
+     "common_errors_vi": "`true` → `truth` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U15F7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 15",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «value» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "valuable"
+     ],
+     "common_errors_vi": "`value` → `valuable` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U16B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 16",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Đây không phải túi của tôi, là của cô ấy.",
+   "tiles": [
+    "my",
+    "This",
+    "it",
+    "hers",
+    "is",
+    "bag",
+    "not",
+    "is"
+   ],
+   "answers": [
+    "This is not my bag it is hers"
+   ]
+  },
+  {
+   "id": "B1U16B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 16",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Họ tự xây ngôi nhà này.",
+   "tiles": [
+    "house",
+    "themselves",
+    "this",
+    "They",
+    "built"
+   ],
+   "answers": [
+    "They built this house themselves"
+   ]
+  },
+  {
+   "id": "B1U16B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 16",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bố mẹ tôi luôn giúp đỡ chúng tôi.",
+   "tiles": [
+    "My",
+    "us",
+    "always",
+    "help",
+    "parents"
+   ],
+   "answers": [
+    "My parents always help us"
+   ]
+  },
+  {
+   "id": "B1U16F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 16",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"My sister she lives in Hue.\" → My sister ( ㉠ ) in Hue.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "lives"
+     ],
+     "common_errors_vi": "Không lặp chủ ngữ bằng đại từ."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U16F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 16",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Hoàn thành: I taught ( ㉠ ) to cook by watching videos.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "myself"
+     ],
+     "common_errors_vi": "Tự mình làm cho chính mình."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U17B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 17",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Người đàn ông gọi cho bạn là sếp của tôi.",
+   "tiles": [
+    "man",
+    "who",
+    "you",
+    "The",
+    "called",
+    "my",
+    "boss",
+    "is"
+   ],
+   "answers": [
+    "The man who called you is my boss"
+   ]
+  },
+  {
+   "id": "B1U17B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 17",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Đây là ngôi nhà nơi tôi sinh ra.",
+   "tiles": [
+    "was",
+    "born",
+    "I",
+    "is",
+    "house",
+    "This",
+    "where",
+    "the"
+   ],
+   "answers": [
+    "This is the house where I was born"
+   ]
+  },
+  {
+   "id": "B1U17B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 17",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi thích những bộ phim làm tôi cười.",
+   "tiles": [
+    "make",
+    "that",
+    "films",
+    "laugh",
+    "me",
+    "I",
+    "like"
+   ],
+   "answers": [
+    "I like films that make me laugh"
+   ]
+  },
+  {
+   "id": "B1U17F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 17",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Nối hai câu: \"I have a friend. Her mother is a singer.\" → I have a friend ( ㉠ ) mother is a singer.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "whose"
+     ],
+     "common_errors_vi": "Quan hệ sở hữu."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U17F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 17",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"The book that I read it was boring.\" → The book that I ( ㉠ ) was boring.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "read"
+     ],
+     "common_errors_vi": "Không lặp lại tân ngữ \"it\"."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U18B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 18",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bạn vặn to tiếng lên được không?",
+   "tiles": [
+    "volume",
+    "the",
+    "turn",
+    "Could",
+    "up",
+    "you"
+   ],
+   "answers": [
+    "Could you turn up the volume"
+   ]
+  },
+  {
+   "id": "B1U18B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 18",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cậu ấy bịa ra lý do đi muộn.",
+   "tiles": [
+    "made",
+    "He",
+    "late",
+    "being",
+    "excuse",
+    "for",
+    "up",
+    "an"
+   ],
+   "answers": [
+    "He made up an excuse for being late"
+   ]
+  },
+  {
+   "id": "B1U18B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 18",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Gió giật bay một phần mái nhà.",
+   "tiles": [
+    "The",
+    "off",
+    "the",
+    "pulled",
+    "wind",
+    "part",
+    "roof",
+    "of"
+   ],
+   "answers": [
+    "The wind pulled off part of the roof"
+   ]
+  },
+  {
+   "id": "B1U18F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 18",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «boil» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "boiler"
+     ],
+     "common_errors_vi": "`boil` → `boiler` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U18F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 18",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «break» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "breakable"
+     ],
+     "common_errors_vi": "`break` → `breakable` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U18F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 18",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «chemist» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "chemical"
+     ],
+     "common_errors_vi": "`chemist` → `chemical` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U18F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 18",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «conclude» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "conclusion"
+     ],
+     "common_errors_vi": "`conclude` → `conclusion` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U18F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 18",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «examine» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "examination"
+     ],
+     "common_errors_vi": "`examine` → `examination` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U18F6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 18",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «fascinate» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "fascination"
+     ],
+     "common_errors_vi": "`fascinate` → `fascination` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U18F7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 18",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «history» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "historic"
+     ],
+     "common_errors_vi": "`history` → `historic` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U18F8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 18",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «long» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "length"
+     ],
+     "common_errors_vi": "`long` → `length` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U19B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 19",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bạn nên uống nhiều nước hơn.",
+   "tiles": [
+    "should",
+    "drink",
+    "more",
+    "You",
+    "water"
+   ],
+   "answers": [
+    "You should drink more water"
+   ]
+  },
+  {
+   "id": "B1U19B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 19",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi không thể tìm thấy chìa khóa của mình.",
+   "tiles": [
+    "keys",
+    "I",
+    "find",
+    "my",
+    "cannot"
+   ],
+   "answers": [
+    "I cannot find my keys"
+   ]
+  },
+  {
+   "id": "B1U19B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 19",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Chúng tôi đã có thể mua được vé.",
+   "tiles": [
+    "tickets",
+    "were",
+    "to",
+    "buy",
+    "able",
+    "We"
+   ],
+   "answers": [
+    "We were able to buy tickets"
+   ]
+  },
+  {
+   "id": "B1U19F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 19",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"She can to cook very well.\" → She ( ㉠ ) very well.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "can cook"
+     ],
+     "common_errors_vi": "Sau \"can\" là động từ nguyên mẫu không \"to\"."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U19F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 19",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Hoàn thành (lời khuyên): Children ( ㉠ ) spend so much time on screens. (not)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "should not",
+      "shouldn't",
+      "ought not to"
+     ],
+     "common_errors_vi": "Khuyên không nên."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U20B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 20",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bạn không cần mang theo gì cả.",
+   "tiles": [
+    "You",
+    "to",
+    "anything",
+    "have",
+    "bring",
+    "do",
+    "not"
+   ],
+   "answers": [
+    "You do not have to bring anything"
+   ]
+  },
+  {
+   "id": "B1U20B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 20",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Chắc hẳn cô ấy rất mệt.",
+   "tiles": [
+    "very",
+    "must",
+    "tired",
+    "be",
+    "She"
+   ],
+   "answers": [
+    "She must be very tired"
+   ]
+  },
+  {
+   "id": "B1U20B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 20",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Ngày mai trời có thể mưa.",
+   "tiles": [
+    "tomorrow",
+    "It",
+    "rain",
+    "might"
+   ],
+   "answers": [
+    "It might rain tomorrow"
+   ]
+  },
+  {
+   "id": "B1U20F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 20",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Hoàn thành (cấm): Passengers ( ㉠ ) smoke on the plane.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "mustn't",
+      "must not"
+     ],
+     "common_errors_vi": "Điều cấm."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U20F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 20",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"He must to finish the report today.\" → He ( ㉠ ) the report today.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "must finish"
+     ],
+     "common_errors_vi": "Sau \"must\" không có \"to\"."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U21B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 21",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi in vé ở nhà.",
+   "tiles": [
+    "I",
+    "home",
+    "tickets",
+    "the",
+    "out",
+    "at",
+    "printed"
+   ],
+   "answers": [
+    "I printed out the tickets at home"
+   ]
+  },
+  {
+   "id": "B1U21B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 21",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Anh ấy chào rồi cúp máy.",
+   "tiles": [
+    "hung",
+    "said",
+    "the",
+    "up",
+    "goodbye",
+    "He",
+    "phone",
+    "and"
+   ],
+   "answers": [
+    "He said goodbye and hung up the phone"
+   ]
+  },
+  {
+   "id": "B1U21B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 21",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Chờ chút, tôi phải tìm chìa khóa.",
+   "tiles": [
+    "to",
+    "keys",
+    "find",
+    "need",
+    "minute,",
+    "I",
+    "on",
+    "a",
+    "Hang",
+    "my"
+   ],
+   "answers": [
+    "Hang on a minute, I need to find my keys"
+   ]
+  },
+  {
+   "id": "B1U21F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 21",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «certain» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "certainty"
+     ],
+     "common_errors_vi": "`certain` → `certainty` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U21F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 21",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «communicate» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "communication"
+     ],
+     "common_errors_vi": "`communicate` → `communication` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U21F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 21",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «connect» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "connection"
+     ],
+     "common_errors_vi": "`connect` → `connection` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U21F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 21",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «deliver» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "delivery"
+     ],
+     "common_errors_vi": "`deliver` → `delivery` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U21F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 21",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «express» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "expression"
+     ],
+     "common_errors_vi": "`express` → `expression` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U21F6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 21",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «inform» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "informative"
+     ],
+     "common_errors_vi": "`inform` → `informative` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U21F7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 21",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «predict» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "prediction"
+     ],
+     "common_errors_vi": "`predict` → `prediction` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U21F8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 21",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «secret» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "secrecy"
+     ],
+     "common_errors_vi": "`secret` → `secrecy` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U22B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 22",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Lẽ ra tôi nên nghe lời bạn.",
+   "tiles": [
+    "I",
+    "to",
+    "you",
+    "listened",
+    "should",
+    "have"
+   ],
+   "answers": [
+    "I should have listened to you"
+   ]
+  },
+  {
+   "id": "B1U22B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 22",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Chắc hẳn anh ấy đã quên cuộc họp.",
+   "tiles": [
+    "meeting",
+    "the",
+    "must",
+    "He",
+    "forgotten",
+    "have"
+   ],
+   "answers": [
+    "He must have forgotten the meeting"
+   ]
+  },
+  {
+   "id": "B1U22B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 22",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bạn đã có thể hỏi tôi mà.",
+   "tiles": [
+    "You",
+    "have",
+    "could",
+    "me",
+    "asked"
+   ],
+   "answers": [
+    "You could have asked me"
+   ]
+  },
+  {
+   "id": "B1U22F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 22",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Hoàn thành: The lights are off. They ( ㉠ ) to bed. (must / go)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "must have gone"
+     ],
+     "common_errors_vi": "Suy đoán chắc chắn về quá khứ."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U22F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 22",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"I should have go earlier.\" → I should have ( ㉠ ) earlier.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "gone"
+     ],
+     "common_errors_vi": "Sau \"have\" là V3."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U23B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 23",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bạn có biết cô ấy sống ở đâu không?",
+   "tiles": [
+    "lives",
+    "she",
+    "you",
+    "Do",
+    "where",
+    "know"
+   ],
+   "answers": [
+    "Do you know where she lives"
+   ]
+  },
+  {
+   "id": "B1U23B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 23",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Hôm qua bạn về nhà lúc mấy giờ?",
+   "tiles": [
+    "get",
+    "What",
+    "you",
+    "yesterday",
+    "home",
+    "did",
+    "time"
+   ],
+   "answers": [
+    "What time did you get home yesterday"
+   ]
+  },
+  {
+   "id": "B1U23B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 23",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bạn thích cà phê, phải không?",
+   "tiles": [
+    "You",
+    "you",
+    "don't",
+    "like",
+    "coffee"
+   ],
+   "answers": [
+    "You like coffee don't you"
+   ]
+  },
+  {
+   "id": "B1U23F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 23",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"Why you are late?\" → Why ( ㉠ ) late?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "are you"
+     ],
+     "common_errors_vi": "Đảo trợ động từ lên trước chủ ngữ."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U23F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 23",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Chuyển sang gián tiếp: \"Where is the library?\" → Could you tell me where ( ㉠ )?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "the library is"
+     ],
+     "common_errors_vi": "Không đảo trong câu hỏi gián tiếp."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U24B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 24",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Ngày thường tôi dậy lúc sáu giờ.",
+   "tiles": [
+    "get",
+    "on",
+    "up",
+    "at",
+    "I",
+    "weekdays",
+    "six"
+   ],
+   "answers": [
+    "I get up at six on weekdays"
+   ]
+  },
+  {
+   "id": "B1U24B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 24",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi nấu còn em trai tôi rửa bát.",
+   "tiles": [
+    "washes",
+    "and",
+    "cook",
+    "up",
+    "my",
+    "I",
+    "brother"
+   ],
+   "answers": [
+    "I cook and my brother washes up"
+   ]
+  },
+  {
+   "id": "B1U24B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 24",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cất điện thoại đi trong giờ thi.",
+   "tiles": [
+    "during",
+    "Put",
+    "away",
+    "phone",
+    "the",
+    "your",
+    "exam"
+   ],
+   "answers": [
+    "Put your phone away during the exam"
+   ]
+  },
+  {
+   "id": "B1U24F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 24",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «agree» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "agreement"
+     ],
+     "common_errors_vi": "`agree` → `agreement` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U24F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 24",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «courage» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "courageous"
+     ],
+     "common_errors_vi": "`courage` → `courageous` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U24F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 24",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «elect» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "election"
+     ],
+     "common_errors_vi": "`elect` → `election` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U24F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 24",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «equal» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "equality"
+     ],
+     "common_errors_vi": "`equal` → `equality` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U24F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 24",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «free» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "freedom"
+     ],
+     "common_errors_vi": "`free` → `freedom` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U24F6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 24",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «identify» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "identity"
+     ],
+     "common_errors_vi": "`identify` → `identity` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U24F7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 24",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «invade» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "invasion"
+     ],
+     "common_errors_vi": "`invade` → `invasion` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U24F8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 24",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «judge» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "judgement"
+     ],
+     "common_errors_vi": "`judge` → `judgement` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U25B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 25",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Trời nóng đến nỗi chúng tôi ở trong nhà.",
+   "tiles": [
+    "inside",
+    "we",
+    "hot",
+    "that",
+    "It",
+    "stayed",
+    "was",
+    "so"
+   ],
+   "answers": [
+    "It was so hot that we stayed inside"
+   ]
+  },
+  {
+   "id": "B1U25B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 25",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi không đủ tiền để mua nó.",
+   "tiles": [
+    "buy",
+    "do",
+    "to",
+    "enough",
+    "not",
+    "have",
+    "money",
+    "I",
+    "it"
+   ],
+   "answers": [
+    "I do not have enough money to buy it"
+   ]
+  },
+  {
+   "id": "B1U25B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 25",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cà phê này quá đắng không uống được.",
+   "tiles": [
+    "This",
+    "bitter",
+    "to",
+    "is",
+    "too",
+    "coffee",
+    "drink"
+   ],
+   "answers": [
+    "This coffee is too bitter to drink"
+   ]
+  },
+  {
+   "id": "B1U25F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 25",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại bằng \"enough\": \"He is too young to vote.\" → He is not old ( ㉠ ) to vote.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "enough"
+     ],
+     "common_errors_vi": "Tính từ + enough + to V."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U25F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 25",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Hoàn thành: It was ( ㉠ ) a difficult exam that many students failed.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "such"
+     ],
+     "common_errors_vi": "such + a + tính từ + danh từ."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U26B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 26",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Hôm nay lạnh hơn hôm qua.",
+   "tiles": [
+    "is",
+    "Today",
+    "than",
+    "yesterday",
+    "colder"
+   ],
+   "answers": [
+    "Today is colder than yesterday"
+   ]
+  },
+  {
+   "id": "B1U26B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 26",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Đây là nhà hàng tốt nhất trong thành phố.",
+   "tiles": [
+    "best",
+    "is",
+    "in",
+    "town",
+    "restaurant",
+    "This",
+    "the"
+   ],
+   "answers": [
+    "This is the best restaurant in town"
+   ]
+  },
+  {
+   "id": "B1U26B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 26",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Anh ấy không cao bằng em trai.",
+   "tiles": [
+    "as",
+    "brother",
+    "tall",
+    "as",
+    "not",
+    "is",
+    "his",
+    "He"
+   ],
+   "answers": [
+    "He is not as tall as his brother"
+   ]
+  },
+  {
+   "id": "B1U26F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 26",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"This road is more safer.\" → This road is ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "safer"
+     ],
+     "common_errors_vi": "Không dùng \"more\" với dạng -er."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U26F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 26",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại bằng \"as… as\": \"Tea is cheaper than coffee.\" → Coffee is not ( ㉠ ) tea.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "as cheap as"
+     ],
+     "common_errors_vi": "not as + adj + as."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U27B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 27",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Nhanh lên, năm phút nữa phim chiếu rồi!",
+   "tiles": [
+    "in",
+    "five",
+    "the",
+    "starts",
+    "film",
+    "on,",
+    "minutes",
+    "Come"
+   ],
+   "answers": [
+    "Come on, the film starts in five minutes"
+   ]
+  },
+  {
+   "id": "B1U27B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 27",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Chị tôi từ Nhật về vào tuần sau.",
+   "tiles": [
+    "next",
+    "week",
+    "back",
+    "sister",
+    "My",
+    "comes",
+    "from",
+    "Japan"
+   ],
+   "answers": [
+    "My sister comes back from Japan next week"
+   ]
+  },
+  {
+   "id": "B1U27B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 27",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Có kẻ đột nhập vào cửa hàng và lấy máy tính.",
+   "tiles": [
+    "computers",
+    "took",
+    "broke",
+    "shop",
+    "into",
+    "and",
+    "the",
+    "Someone",
+    "the"
+   ],
+   "answers": [
+    "Someone broke into the shop and took the computers"
+   ]
+  },
+  {
+   "id": "B1U27F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 27",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ chỉ người của «assist» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "assistant"
+     ],
+     "common_errors_vi": "`assist` → `assistant` (danh từ chỉ người)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U27F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 27",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ chỉ người của «beg» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "beggar"
+     ],
+     "common_errors_vi": "`beg` → `beggar` (danh từ chỉ người)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U27F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 27",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «employ» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "employment"
+     ],
+     "common_errors_vi": "`employ` → `employment` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U27F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 27",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «occupy» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "occupation"
+     ],
+     "common_errors_vi": "`occupy` → `occupation` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U27F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 27",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ chỉ người của «office» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "officer"
+     ],
+     "common_errors_vi": "`office` → `officer` (danh từ chỉ người)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U27F6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 27",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng dạng trái nghĩa của «safe» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "unsafe"
+     ],
+     "common_errors_vi": "`safe` → `unsafe` (dạng trái nghĩa)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U27F7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 27",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «succeed» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "success"
+     ],
+     "common_errors_vi": "`succeed` → `success` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U28B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 28",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Nếu trời mưa, tôi sẽ ở nhà.",
+   "tiles": [
+    "at",
+    "it",
+    "rains",
+    "stay",
+    "If",
+    "home",
+    "I",
+    "will"
+   ],
+   "answers": [
+    "If it rains I will stay at home"
+   ]
+  },
+  {
+   "id": "B1U28B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 28",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Nếu tôi giàu, tôi sẽ đi du lịch khắp thế giới.",
+   "tiles": [
+    "would",
+    "If",
+    "rich",
+    "I",
+    "the",
+    "travel",
+    "world",
+    "were",
+    "I"
+   ],
+   "answers": [
+    "If I were rich I would travel the world"
+   ]
+  },
+  {
+   "id": "B1U28B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 28",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bạn sẽ không tiến bộ trừ khi bạn luyện tập.",
+   "tiles": [
+    "unless",
+    "not",
+    "will",
+    "practise",
+    "You",
+    "improve",
+    "you"
+   ],
+   "answers": [
+    "You will not improve unless you practise"
+   ]
+  },
+  {
+   "id": "B1U28F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 28",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"If it will rain, we will cancel the trip.\" → If it ( ㉠ ), we will cancel the trip.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "rains"
+     ],
+     "common_errors_vi": "Không dùng \"will\" trong mệnh đề if."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U28F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 28",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Hoàn thành (giả định): If I ( ㉠ ) more free time, I would read more books. (have)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "had"
+     ],
+     "common_errors_vi": "Loại hai dùng quá khứ đơn."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U29B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 29",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Nếu tôi đi sớm hơn thì tôi đã đến nơi rồi.",
+   "tiles": [
+    "had",
+    "earlier",
+    "arrived",
+    "I",
+    "If",
+    "I",
+    "would",
+    "have",
+    "left"
+   ],
+   "answers": [
+    "If I had left earlier I would have arrived"
+   ]
+  },
+  {
+   "id": "B1U29B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 29",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Nếu bạn hỏi thì tôi đã giúp.",
+   "tiles": [
+    "helped",
+    "I",
+    "had",
+    "If",
+    "you",
+    "would",
+    "have",
+    "asked"
+   ],
+   "answers": [
+    "If you had asked I would have helped"
+   ]
+  },
+  {
+   "id": "B1U29B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 29",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Nếu trời không mưa thì chúng tôi đã đi.",
+   "tiles": [
+    "had",
+    "not",
+    "it",
+    "have",
+    "rained",
+    "would",
+    "gone",
+    "we",
+    "If"
+   ],
+   "answers": [
+    "If it had not rained we would have gone"
+   ]
+  },
+  {
+   "id": "B1U29F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 29",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"If I would have seen you, I would have said hello.\" → If I ( ㉠ ) you, I would have said hello.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "had seen"
+     ],
+     "common_errors_vi": "Mệnh đề if dùng had + V3."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U29F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 29",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Hoàn thành: If he had saved more money, he ( ㉠ ) a car. (could / buy)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "could have bought"
+     ],
+     "common_errors_vi": "could have + V3."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U30B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 30",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Mời ngồi xuống và mở sách ra.",
+   "tiles": [
+    "Please",
+    "sit",
+    "and",
+    "down",
+    "your",
+    "books",
+    "open"
+   ],
+   "answers": [
+    "Please sit down and open your books"
+   ]
+  },
+  {
+   "id": "B1U30B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 30",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Họ hoãn cuộc họp đến thứ Hai.",
+   "tiles": [
+    "They",
+    "the",
+    "Monday",
+    "meeting",
+    "off",
+    "put",
+    "until"
+   ],
+   "answers": [
+    "They put off the meeting until Monday"
+   ]
+  },
+  {
+   "id": "B1U30B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 30",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cô ấy mất một tháng mới khỏi cúm.",
+   "tiles": [
+    "took",
+    "get",
+    "It",
+    "over",
+    "month",
+    "the",
+    "to",
+    "a",
+    "flu",
+    "her"
+   ],
+   "answers": [
+    "It took her a month to get over the flu"
+   ]
+  },
+  {
+   "id": "B1U30F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 30",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ chỉ người của «bake» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "baker"
+     ],
+     "common_errors_vi": "`bake` → `baker` (danh từ chỉ người)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U30F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 30",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «bend» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "bent"
+     ],
+     "common_errors_vi": "`bend` → `bent` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U30F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 30",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «cook» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "cooker"
+     ],
+     "common_errors_vi": "`cook` → `cooker` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U30F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 30",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «intend» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "intention"
+     ],
+     "common_errors_vi": "`intend` → `intention` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U30F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 30",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «jog» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "jogging"
+     ],
+     "common_errors_vi": "`jog` → `jogging` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U30F6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 30",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «medicine» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "medical"
+     ],
+     "common_errors_vi": "`medicine` → `medical` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U30F7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 30",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «pain» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "painful"
+     ],
+     "common_errors_vi": "`pain` → `painful` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U30F8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 30",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «reduce» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "reduction"
+     ],
+     "common_errors_vi": "`reduce` → `reduction` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U31B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 31",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Anh ấy nói anh ấy không thích cà phê.",
+   "tiles": [
+    "He",
+    "did",
+    "not",
+    "said",
+    "like",
+    "coffee",
+    "he"
+   ],
+   "answers": [
+    "He said he did not like coffee"
+   ]
+  },
+  {
+   "id": "B1U31B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 31",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cô ấy bảo tôi là cô ấy sẽ đến muộn.",
+   "tiles": [
+    "would",
+    "told",
+    "me",
+    "she",
+    "She",
+    "be",
+    "late"
+   ],
+   "answers": [
+    "She told me she would be late"
+   ]
+  },
+  {
+   "id": "B1U31B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 31",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Họ nói họ đã xem bộ phim đó rồi.",
+   "tiles": [
+    "seen",
+    "had",
+    "that",
+    "they",
+    "film",
+    "said",
+    "They"
+   ],
+   "answers": [
+    "They said they had seen that film"
+   ]
+  },
+  {
+   "id": "B1U31F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 31",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Chuyển sang tường thuật: \"I can swim.\" → He said he ( ㉠ ) swim.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "could"
+     ],
+     "common_errors_vi": "can → could."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U31F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 31",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"She said me that she was ill.\" → She ( ㉠ ) me that she was ill.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "told"
+     ],
+     "common_errors_vi": "tell + người."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U32B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 32",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cô ấy hỏi tôi có biết lái xe không.",
+   "tiles": [
+    "She",
+    "asked",
+    "if",
+    "I",
+    "drive",
+    "could"
+   ],
+   "answers": [
+    "She asked if I could drive"
+   ]
+  },
+  {
+   "id": "B1U32B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 32",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Anh ấy hỏi tôi đến từ đâu.",
+   "tiles": [
+    "where",
+    "from",
+    "asked",
+    "I",
+    "came",
+    "He"
+   ],
+   "answers": [
+    "He asked where I came from"
+   ]
+  },
+  {
+   "id": "B1U32B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 32",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Mẹ tôi dặn tôi đừng về muộn.",
+   "tiles": [
+    "not",
+    "late",
+    "told",
+    "mother",
+    "be",
+    "My",
+    "to",
+    "me"
+   ],
+   "answers": [
+    "My mother told me not to be late"
+   ]
+  },
+  {
+   "id": "B1U32F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 32",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Chuyển sang tường thuật: \"Why are you late?\" → She asked why ( ㉠ ) late.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "I was"
+     ],
+     "common_errors_vi": "Chủ ngữ trước động từ, lùi thì."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U32F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 32",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Chuyển sang tường thuật: \"Please help me.\" → He asked me ( ㉠ ) him.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "to help"
+     ],
+     "common_errors_vi": "ask + người + to V."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U33B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 33",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Ngoài trời lạnh đấy, kéo khóa áo lên.",
+   "tiles": [
+    "do",
+    "up",
+    "is",
+    "outside,",
+    "It",
+    "so",
+    "your",
+    "cold",
+    "jacket"
+   ],
+   "answers": [
+    "It is cold outside, so do up your jacket"
+   ]
+  },
+  {
+   "id": "B1U33B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 33",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Chúng tôi dọn bếp sau bữa tiệc.",
+   "tiles": [
+    "We",
+    "up",
+    "the",
+    "the",
+    "after",
+    "kitchen",
+    "party",
+    "cleared"
+   ],
+   "answers": [
+    "We cleared up the kitchen after the party"
+   ]
+  },
+  {
+   "id": "B1U33B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 33",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi tra từ đó trong từ điển trực tuyến.",
+   "tiles": [
+    "online",
+    "I",
+    "the",
+    "up",
+    "looked",
+    "dictionary",
+    "an",
+    "word",
+    "in"
+   ],
+   "answers": [
+    "I looked up the word in an online dictionary"
+   ]
+  },
+  {
+   "id": "B1U33F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 33",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ chỉ người của «art» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "artist"
+     ],
+     "common_errors_vi": "`art` → `artist` (danh từ chỉ người)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U33F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 33",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «circle» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "circular"
+     ],
+     "common_errors_vi": "`circle` → `circular` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U33F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 33",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «compose» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "composition"
+     ],
+     "common_errors_vi": "`compose` → `composition` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U33F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 33",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «exhibit» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "exhibition"
+     ],
+     "common_errors_vi": "`exhibit` → `exhibition` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U33F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 33",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «hand» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "handful"
+     ],
+     "common_errors_vi": "`hand` → `handful` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U33F6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 33",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «imagine» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "imagination"
+     ],
+     "common_errors_vi": "`imagine` → `imagination` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U33F7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 33",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «perfect» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "perfection"
+     ],
+     "common_errors_vi": "`perfect` → `perfection` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U34B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 34",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Giáo viên cho chúng tôi rất nhiều bài tập.",
+   "tiles": [
+    "teacher",
+    "us",
+    "homework",
+    "gives",
+    "The",
+    "of",
+    "lot",
+    "a"
+   ],
+   "answers": [
+    "The teacher gives us a lot of homework"
+   ]
+  },
+  {
+   "id": "B1U34B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 34",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi đã mua một món quà cho em gái.",
+   "tiles": [
+    "for",
+    "my",
+    "bought",
+    "I",
+    "a",
+    "present",
+    "sister"
+   ],
+   "answers": [
+    "I bought a present for my sister"
+   ]
+  },
+  {
+   "id": "B1U34B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 34",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Hãy cho tôi xem ảnh của bạn.",
+   "tiles": [
+    "photos",
+    "me",
+    "your",
+    "show",
+    "Please"
+   ],
+   "answers": [
+    "Please show me your photos"
+   ]
+  },
+  {
+   "id": "B1U34F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 34",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"He explained me the rules.\" → He explained the rules ( ㉠ ) me.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "to"
+     ],
+     "common_errors_vi": "explain + vật + to + người."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U34F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 34",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại với giới từ: \"She made me a sandwich.\" → She made a sandwich ( ㉠ ) me.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "for"
+     ],
+     "common_errors_vi": "make + vật + for + người."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U35B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 35",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Ước gì tôi sống gần biển.",
+   "tiles": [
+    "I",
+    "wish",
+    "the",
+    "I",
+    "near",
+    "sea",
+    "lived"
+   ],
+   "answers": [
+    "I wish I lived near the sea"
+   ]
+  },
+  {
+   "id": "B1U35B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 35",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Ước gì tôi đã không nói điều đó.",
+   "tiles": [
+    "I",
+    "I",
+    "wish",
+    "not",
+    "said",
+    "that",
+    "had"
+   ],
+   "answers": [
+    "I wish I had not said that"
+   ]
+  },
+  {
+   "id": "B1U35B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 35",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Ước gì bạn nghe tôi nói.",
+   "tiles": [
+    "wish",
+    "listen",
+    "you",
+    "I",
+    "to",
+    "me",
+    "would"
+   ],
+   "answers": [
+    "I wish you would listen to me"
+   ]
+  },
+  {
+   "id": "B1U35F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 35",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"I wish I can sing.\" → I wish I ( ㉠ ) sing.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "could"
+     ],
+     "common_errors_vi": "wish + could."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U35F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 35",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại bằng \"wish\": \"I am sorry I did not go to the party.\" → I wish I ( ㉠ ) to the party.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "had gone"
+     ],
+     "common_errors_vi": "wish + had + V3."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U36B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 36",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Buổi học kéo dài ba tiếng.",
+   "tiles": [
+    "lesson",
+    "three",
+    "The",
+    "on",
+    "went",
+    "for",
+    "hours"
+   ],
+   "answers": [
+    "The lesson went on for three hours"
+   ]
+  },
+  {
+   "id": "B1U36B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 36",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Lính cứu hỏa dập tắt đám cháy trong một giờ.",
+   "tiles": [
+    "the",
+    "in",
+    "fire",
+    "out",
+    "Firefighters",
+    "an",
+    "hour",
+    "put"
+   ],
+   "answers": [
+    "Firefighters put out the fire in an hour"
+   ]
+  },
+  {
+   "id": "B1U36B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 36",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cô ấy đặt túi xuống và ngồi cạnh cửa sổ.",
+   "tiles": [
+    "down",
+    "her",
+    "put",
+    "and",
+    "the",
+    "bag",
+    "She",
+    "sat",
+    "window",
+    "by"
+   ],
+   "answers": [
+    "She put down her bag and sat by the window"
+   ]
+  },
+  {
+   "id": "B1U36F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 36",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «danger» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "dangerous"
+     ],
+     "common_errors_vi": "`danger` → `dangerous` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U36F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 36",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «deep» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "depth"
+     ],
+     "common_errors_vi": "`deep` → `depth` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U36F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 36",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «destroy» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "destruction"
+     ],
+     "common_errors_vi": "`destroy` → `destruction` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U36F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 36",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «fog» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "foggy"
+     ],
+     "common_errors_vi": "`fog` → `foggy` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U36F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 36",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ chỉ người của «garden» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "gardener"
+     ],
+     "common_errors_vi": "`garden` → `gardener` (danh từ chỉ người)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U36F6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 36",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «nature» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "natural"
+     ],
+     "common_errors_vi": "`nature` → `natural` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U36F7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 36",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «pollute» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "pollution"
+     ],
+     "common_errors_vi": "`pollute` → `pollution` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U37B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 37",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi muốn học bơi.",
+   "tiles": [
+    "learn",
+    "to",
+    "to",
+    "want",
+    "I",
+    "swim"
+   ],
+   "answers": [
+    "I want to learn to swim"
+   ]
+  },
+  {
+   "id": "B1U37B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 37",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cô ấy tránh lái xe vào ban đêm.",
+   "tiles": [
+    "driving",
+    "night",
+    "at",
+    "avoids",
+    "She"
+   ],
+   "answers": [
+    "She avoids driving at night"
+   ]
+  },
+  {
+   "id": "B1U37B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 37",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bố mẹ không cho tôi ra ngoài.",
+   "tiles": [
+    "let",
+    "did",
+    "My",
+    "out",
+    "me",
+    "not",
+    "go",
+    "parents"
+   ],
+   "answers": [
+    "My parents did not let me go out"
+   ]
+  },
+  {
+   "id": "B1U37F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 37",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"I enjoy to read.\" → I enjoy ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "reading"
+     ],
+     "common_errors_vi": "enjoy + V-ing."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U37F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 37",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Hoàn thành: My parents want ( ㉠ ) a doctor. (I / become)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "me to become"
+     ],
+     "common_errors_vi": "want + người + to V."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U38B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 38",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cả hai chúng tôi đều thích bóng đá.",
+   "tiles": [
+    "us",
+    "Both",
+    "like",
+    "of",
+    "football"
+   ],
+   "answers": [
+    "Both of us like football"
+   ]
+  },
+  {
+   "id": "B1U38B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 38",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Không ai trong hai người biết câu trả lời.",
+   "tiles": [
+    "the",
+    "answer",
+    "of",
+    "knew",
+    "Neither",
+    "them"
+   ],
+   "answers": [
+    "Neither of them knew the answer"
+   ]
+  },
+  {
+   "id": "B1U38B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 38",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi mệt và em trai tôi cũng vậy.",
+   "tiles": [
+    "tired",
+    "is",
+    "am",
+    "brother",
+    "my",
+    "I",
+    "and",
+    "so"
+   ],
+   "answers": [
+    "I am tired and so is my brother"
+   ]
+  },
+  {
+   "id": "B1U38F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 38",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"Neither of my friends didn't call.\" → Neither of my friends ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "called"
+     ],
+     "common_errors_vi": "Không phủ định hai lần."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U38F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 38",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Tán thành: \"I can speak English.\" \"So ( ㉠ ) I.\"",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "can"
+     ],
+     "common_errors_vi": "Giữ trợ động từ \"can\"."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U39B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 39",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Anh ấy bảo đám con trai ồn ào im đi.",
+   "tiles": [
+    "boys",
+    "noisy",
+    "shut",
+    "up",
+    "the",
+    "told",
+    "to",
+    "He"
+   ],
+   "answers": [
+    "He told the noisy boys to shut up"
+   ]
+  },
+  {
+   "id": "B1U39B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 39",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi hòa hợp với tất cả bạn cùng lớp.",
+   "tiles": [
+    "get",
+    "I",
+    "my",
+    "with",
+    "well",
+    "all",
+    "classmates",
+    "on"
+   ],
+   "answers": [
+    "I get on well with all my classmates"
+   ]
+  },
+  {
+   "id": "B1U39B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 39",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Hít sâu vào và cố bình tĩnh lại.",
+   "tiles": [
+    "to",
+    "Take",
+    "and",
+    "a",
+    "calm",
+    "breath",
+    "down",
+    "try",
+    "deep"
+   ],
+   "answers": [
+    "Take a deep breath and try to calm down"
+   ]
+  },
+  {
+   "id": "B1U39F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 39",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «bore» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "boring"
+     ],
+     "common_errors_vi": "`bore` → `boring` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U39F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 39",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ chỉ người của «comedy» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "comedian"
+     ],
+     "common_errors_vi": "`comedy` → `comedian` (danh từ chỉ người)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U39F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 39",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «confuse» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "confused"
+     ],
+     "common_errors_vi": "`confuse` → `confused` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U39F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 39",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «energy» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "energetic"
+     ],
+     "common_errors_vi": "`energy` → `energetic` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U39F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 39",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «excite» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "excitement"
+     ],
+     "common_errors_vi": "`excite` → `excitement` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U39F6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 39",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «feel» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "feeling"
+     ],
+     "common_errors_vi": "`feel` → `feeling` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U39F7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 39",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng dạng trái nghĩa của «happy» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "unhappy"
+     ],
+     "common_errors_vi": "`happy` → `unhappy` (dạng trái nghĩa)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U39F8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 39",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «hate» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "hatred"
+     ],
+     "common_errors_vi": "`hate` → `hatred` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U40B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 40",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Dù mệt, anh ấy vẫn tiếp tục làm việc.",
+   "tiles": [
+    "working",
+    "he",
+    "he",
+    "tired",
+    "Although",
+    "kept",
+    "was"
+   ],
+   "answers": [
+    "Although he was tired he kept working"
+   ]
+  },
+  {
+   "id": "B1U40B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 40",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi sẽ chờ đến khi bạn quay lại.",
+   "tiles": [
+    "I",
+    "come",
+    "you",
+    "back",
+    "until",
+    "wait",
+    "will"
+   ],
+   "answers": [
+    "I will wait until you come back"
+   ]
+  },
+  {
+   "id": "B1U40B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 40",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bất chấp giá cao, nhiều người vẫn mua.",
+   "tiles": [
+    "high",
+    "price",
+    "the",
+    "Despite",
+    "bought",
+    "it",
+    "many",
+    "people"
+   ],
+   "answers": [
+    "Despite the high price many people bought it"
+   ]
+  },
+  {
+   "id": "B1U40F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 40",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"Although it was late, but we kept walking.\" → Although it was late, ( ㉠ ) kept walking.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "we"
+     ],
+     "common_errors_vi": "Không dùng \"although\" cùng \"but\"."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U40F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 40",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại bằng \"despite\": \"Although she was ill, she went to work.\" → Despite ( ㉠ ) ill, she went to work.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "being"
+     ],
+     "common_errors_vi": "despite + V-ing."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U41B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 41",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi cần mang máy tính đi sửa.",
+   "tiles": [
+    "repaired",
+    "my",
+    "laptop",
+    "need",
+    "to",
+    "have",
+    "I"
+   ],
+   "answers": [
+    "I need to have my laptop repaired"
+   ]
+  },
+  {
+   "id": "B1U41B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 41",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Chúng tôi cho sơn nhà mỗi năm.",
+   "tiles": [
+    "house",
+    "painted",
+    "year",
+    "We",
+    "have",
+    "every",
+    "our"
+   ],
+   "answers": [
+    "We have our house painted every year"
+   ]
+  },
+  {
+   "id": "B1U41B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 41",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cô ấy bị lấy trộm điện thoại.",
+   "tiles": [
+    "She",
+    "stolen",
+    "her",
+    "had",
+    "phone"
+   ],
+   "answers": [
+    "She had her phone stolen"
+   ]
+  },
+  {
+   "id": "B1U41F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 41",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại bằng causative: \"Someone cleaned my shoes.\" → I had my shoes ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "cleaned"
+     ],
+     "common_errors_vi": "have + tân ngữ + V3."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U41F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sửa và hoàn thành câu · Unit 41",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Viết lại cho đúng: \"I had cut my hair at the salon.\" → I had my hair ( ㉠ ) at the salon.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "cut"
+     ],
+     "common_errors_vi": "Tân ngữ đứng trước V3."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U42B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 42",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Coi chừng! Sàn ướt đấy.",
+   "tiles": [
+    "The",
+    "Watch",
+    "floor",
+    "out!",
+    "wet",
+    "is"
+   ],
+   "answers": [
+    "Watch out! The floor is wet"
+   ]
+  },
+  {
+   "id": "B1U42B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 42",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Chúng ta cần giải quyết việc này trước thứ Sáu.",
+   "tiles": [
+    "before",
+    "Friday",
+    "to",
+    "need",
+    "We",
+    "this",
+    "sort",
+    "problem",
+    "out"
+   ],
+   "answers": [
+    "We need to sort out this problem before Friday"
+   ]
+  },
+  {
+   "id": "B1U42B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Unit 42",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Giáo viên chỉ ra hai lỗi trong bài luận của tôi.",
+   "tiles": [
+    "essay",
+    "pointed",
+    "in",
+    "mistakes",
+    "two",
+    "teacher",
+    "my",
+    "The",
+    "out"
+   ],
+   "answers": [
+    "The teacher pointed out two mistakes in my essay"
+   ]
+  },
+  {
+   "id": "B1U42F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 42",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «prefer» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "preference"
+     ],
+     "common_errors_vi": "`prefer` → `preference` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U42F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 42",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «recommend» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "recommendation"
+     ],
+     "common_errors_vi": "`recommend` → `recommendation` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U42F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 42",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «solve» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "solution"
+     ],
+     "common_errors_vi": "`solve` → `solution` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U42F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 42",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «suggest» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "suggestion"
+     ],
+     "common_errors_vi": "`suggest` → `suggestion` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  }
+ ]
+}

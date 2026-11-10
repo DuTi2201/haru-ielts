@@ -1,0 +1,215 @@
+{
+ "slug": "b1-u40-connectives",
+ "title": "Unit 40 · Từ nối: thời gian, tương phản, lý do, mục đích",
+ "title_ko": "Connectives",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 40,
+ "summary": "Nối câu bằng từ nối thời gian, tương phản, lý do và mục đích, đúng cấu trúc sau mỗi từ. Ngữ pháp: Time clauses: when / as soon as / before / after / until / while + present; although / even though + clause · despite / in spite of + noun/-ing; however / on the other hand; because / so / so that / in order to.",
+ "vocab": [
+  {
+   "hangul": "although",
+   "pos": "X",
+   "meaning_vi": "mặc dù (+ mệnh đề)",
+   "example_ko": "Although he is rich, he is not happy.",
+   "example_vi": "Dù giàu, anh ấy không hạnh phúc.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 40"
+  },
+  {
+   "hangul": "despite",
+   "pos": "X",
+   "meaning_vi": "bất chấp (+ danh từ/V-ing)",
+   "example_ko": "Despite the cost, we bought it.",
+   "example_vi": "Dù đắt, chúng tôi vẫn mua.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 40"
+  },
+  {
+   "hangul": "however",
+   "pos": "X",
+   "meaning_vi": "tuy nhiên",
+   "example_ko": "It was cold. However, we enjoyed the trip.",
+   "example_vi": "Trời lạnh. Tuy nhiên, chúng tôi vẫn thích chuyến đi.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 40"
+  },
+  {
+   "hangul": "therefore",
+   "pos": "X",
+   "meaning_vi": "do đó",
+   "example_ko": "He was ill. Therefore, he stayed at home.",
+   "example_vi": "Anh ấy ốm. Do đó anh ấy ở nhà.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 40"
+  },
+  {
+   "hangul": "whereas",
+   "pos": "X",
+   "meaning_vi": "trong khi (đối lập)",
+   "example_ko": "I like tea, whereas my wife likes coffee.",
+   "example_vi": "Tôi thích trà, còn vợ tôi thích cà phê.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 40"
+  },
+  {
+   "hangul": "in order to",
+   "pos": "X",
+   "meaning_vi": "để (mục đích)",
+   "example_ko": "He left early in order to catch the train.",
+   "example_vi": "Anh ấy đi sớm để kịp tàu.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 40"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "Time clauses: when / as soon as / before / after / until / while + present",
+   "meaning_vi": "Mệnh đề thời gian nói về tương lai dùng hiện tại",
+   "usage_context_vi": "Sau các từ nối thời gian không dùng `will`, dù nói về tương lai.",
+   "contrasts": [],
+   "example_ko": "I will call you when I arrive.\nWe will wait until the rain stops.",
+   "example_vi": "Tôi sẽ gọi khi đến nơi.\nChúng tôi sẽ chờ đến khi mưa tạnh.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 40, pp. 166-168",
+   "note_vi": "Lỗi người Việt hay mắc: ~~when I will arrive~~, ~~until you will tell me~~ → when I arrive, until you tell me."
+  },
+  {
+   "pattern": "although / even though + clause · despite / in spite of + noun/-ing",
+   "meaning_vi": "Tương phản: mặc dù",
+   "usage_context_vi": "`although` + chủ ngữ + động từ. `despite` / `in spite of` + danh từ, V-ing, hoặc `the fact that` + mệnh đề.",
+   "contrasts": [],
+   "example_ko": "Although it was raining, we went out.\nDespite the rain, we went out.",
+   "example_vi": "Dù trời mưa, chúng tôi vẫn ra ngoài.\nBất chấp trời mưa, chúng tôi vẫn ra ngoài.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 40, pp. 166-168",
+   "note_vi": "Lỗi người Việt hay mắc: Dùng cả hai từ như tiếng Việt \"mặc dù… nhưng\": ~~Although it rained, but we went~~ → bỏ `but`. ~~Despite it rained~~ → Despite the rain. ~~despite of~~ → despite.",
+   "topik_tip_vi": "Câu nhượng bộ trong Task 2: Although technology has many benefits, it also creates problems."
+  },
+  {
+   "pattern": "however / on the other hand",
+   "meaning_vi": "Tuy nhiên (đứng đầu câu mới, có dấu phẩy)",
+   "usage_context_vi": "`however` nối hai câu riêng: trước nó là dấu chấm hoặc chấm phẩy, sau nó là dấu phẩy. Không dùng như `but` giữa hai mệnh đề bằng dấu phẩy.",
+   "contrasts": [
+    {
+     "pattern": "although / even though + clause · despite / in spite of + noun/-ing",
+     "diff_vi": "`although` nối trong một câu; `however` mở một câu mới."
+    }
+   ],
+   "example_ko": "The flat is small. However, it is very bright.\nCars are convenient; however, they pollute the air.",
+   "example_vi": "Căn hộ nhỏ. Tuy nhiên, nó rất sáng.\nÔ tô tiện lợi; tuy nhiên, chúng gây ô nhiễm không khí.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 40, pp. 166-168",
+   "note_vi": "Lỗi người Việt hay mắc: ~~The flat is small, however it is bright~~ (lỗi nối câu bằng dấu phẩy)."
+  },
+  {
+   "pattern": "because / so / so that / in order to",
+   "meaning_vi": "Lý do, kết quả, mục đích",
+   "usage_context_vi": "`because` + mệnh đề (lý do); `because of` + danh từ; `so` + kết quả; `so that` + mệnh đề và `in order to` / `to` + V (mục đích).",
+   "contrasts": [],
+   "example_ko": "We stayed in because of the storm.\nShe saves money so that she can travel.",
+   "example_vi": "Chúng tôi ở nhà vì bão.\nCô ấy tiết kiệm tiền để có thể đi du lịch.",
+   "importance": "normal",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 40, pp. 166-168",
+   "note_vi": "Lỗi người Việt hay mắc: ~~Because it rained, so we stayed~~ → bỏ `so` (không dùng cặp \"vì… nên\"). ~~because of it rained~~ → because it rained."
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Nối câu bằng từ nối thời gian, tương phản, lý do và mục đích, đúng cấu trúc sau mỗi từ.\n• 📖 Trong sách: Unit ngữ pháp 40, trang 166–168. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Từ nối quyết định một phần tiêu chí Coherence and Cohesion. Dùng sai cấu trúc sau although, despite, however là lỗi rất hay gặp.",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "Time clauses: when / as soon as / before / after / until / while + present: Mệnh đề thời gian nói về tương lai dùng hiện tại",
+   "although / even though + clause · despite / in spite of + noun/-ing: Tương phản: mặc dù",
+   "however / on the other hand: Tuy nhiên (đứng đầu câu mới, có dấu phẩy)"
+  ],
+  "watch_out_vi": [
+   "~~when I will arrive~~, ~~until you will tell me~~ → when I arrive, until you tell me.",
+   "Dùng cả hai từ như tiếng Việt \"mặc dù… nhưng\": ~~Although it rained, but we went~~ → bỏ `but`. ~~Despite it rained~~ → Despite the rain. ~~despite of~~ → despite."
+  ]
+ },
+ "exercise_ids": [
+  "B1U40Q1",
+  "B1U40Q2",
+  "B1U40Q3",
+  "B1U40Q4",
+  "B1U40Q5",
+  "B1U40Q6",
+  "B1U40B1",
+  "B1U40B2",
+  "B1U40B3",
+  "B1U40F1",
+  "B1U40F2",
+  "B1U40D1",
+  "B1U40S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · Time clauses",
+   "can_do_vi": "Sau buổi này bạn dùng được: mệnh đề thời gian nói về tương lai dùng hiện tại; tương phản: mặc dù.",
+   "use_vi": "Từ nối quyết định một phần tiêu chí Coherence and Cohesion. Dùng sai cấu trúc sau although, despite, however là lỗi rất hay gặp.",
+   "vocab": [
+    "although",
+    "despite",
+    "however",
+    "therefore",
+    "whereas",
+    "in order to"
+   ],
+   "grammar": [
+    "Time clauses: when / as soon as / before / after / until / while + present",
+    "although / even though + clause · despite / in spite of + noun/-ing"
+   ],
+   "check": [
+    "B1U40Q1",
+    "B1U40Q2",
+    "B1U40Q3"
+   ]
+  },
+  {
+   "title_vi": "Buổi 2 · however / on the other hand",
+   "can_do_vi": "Sau buổi này bạn dùng được: tuy nhiên (đứng đầu câu mới, có dấu phẩy); lý do, kết quả, mục đích.",
+   "use_vi": "Từ nối quyết định một phần tiêu chí Coherence and Cohesion. Dùng sai cấu trúc sau although, despite, however là lỗi rất hay gặp.",
+   "vocab": [],
+   "grammar": [
+    "however / on the other hand",
+    "because / so / so that / in order to"
+   ],
+   "check": [
+    "B1U40Q4",
+    "B1U40Q5",
+    "B1U40Q6",
+    "B1U40B1",
+    "B1U40B2",
+    "B1U40B3",
+    "B1U40F1",
+    "B1U40F2",
+    "B1U40D1",
+    "B1U40S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Tiêu đề và số trang theo mục lục Destination B1 (Mann & Taylore-Knowles, Macmillan). Giải thích, ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  }
+ ]
+}

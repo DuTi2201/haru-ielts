@@ -1,0 +1,179 @@
+{
+ "slug": "b1-u34-direct-and-indirect-objects",
+ "title": "Unit 34 · Tân ngữ trực tiếp và gián tiếp",
+ "title_ko": "Direct and indirect objects",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 34,
+ "summary": "Đặt đúng thứ tự hai tân ngữ và chọn to hay for. Ngữ pháp: verb + person + thing; verb + thing + to/for + person; explain / describe / suggest / say + thing + to + person.",
+ "vocab": [
+  {
+   "hangul": "offer",
+   "pos": "V",
+   "meaning_vi": "đề nghị, mời",
+   "example_ko": "They offered me a job.",
+   "example_vi": "Họ mời tôi nhận việc.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 34"
+  },
+  {
+   "hangul": "lend",
+   "pos": "V",
+   "meaning_vi": "cho mượn",
+   "example_ko": "Can you lend me your pen?",
+   "example_vi": "Bạn cho tôi mượn bút được không?",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 34"
+  },
+  {
+   "hangul": "owe",
+   "pos": "V",
+   "meaning_vi": "nợ",
+   "example_ko": "I owe you ten dollars.",
+   "example_vi": "Tôi nợ bạn mười đô.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 34"
+  },
+  {
+   "hangul": "provide",
+   "pos": "V",
+   "meaning_vi": "cung cấp (provide sb with sth / provide sth for sb)",
+   "example_ko": "The school provides lunch for students.",
+   "example_vi": "Trường cung cấp bữa trưa cho học sinh.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 34"
+  },
+  {
+   "hangul": "describe",
+   "pos": "V",
+   "meaning_vi": "mô tả",
+   "example_ko": "Describe the picture to your partner.",
+   "example_vi": "Hãy tả bức tranh cho bạn cùng cặp.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 34"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "verb + person + thing",
+   "meaning_vi": "Động từ + người + vật (không có giới từ)",
+   "usage_context_vi": "Dùng với give, send, show, tell, lend, offer, bring, buy, make, teach, pay, owe, cost.",
+   "contrasts": [],
+   "example_ko": "She gave me a book.\nMy uncle bought us dinner.",
+   "example_vi": "Cô ấy cho tôi một cuốn sách.\nChú tôi mời chúng tôi bữa tối.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 34, pp. 142-144",
+   "note_vi": "Lỗi người Việt hay mắc: Thêm giới từ khi người đứng trước: ~~She gave to me a book~~ → She gave me a book."
+  },
+  {
+   "pattern": "verb + thing + to/for + person",
+   "meaning_vi": "Động từ + vật + to/for + người",
+   "usage_context_vi": "`to` cho hướng chuyển giao (give, send, show, lend, tell, offer, pay, teach, sell, write). `for` cho việc làm giúp, làm cho ai (buy, make, cook, get, find, keep, save).\nKhi vật là đại từ (it, them) bắt buộc dùng mẫu này: Give it to me.",
+   "contrasts": [
+    {
+     "pattern": "verb + person + thing",
+     "diff_vi": "Hai cách cùng nghĩa; thông tin mới, quan trọng hơn thường đặt cuối câu."
+    }
+   ],
+   "example_ko": "She gave the book to her brother.\nI made a cake for my mother.",
+   "example_vi": "Cô ấy đưa cuốn sách cho em trai.\nTôi làm một cái bánh cho mẹ.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 34, pp. 142-144",
+   "note_vi": "Lỗi người Việt hay mắc: ~~I bought a gift to her~~ → for her. ~~Give me it~~ → Give it to me."
+  },
+  {
+   "pattern": "explain / describe / suggest / say + thing + to + person",
+   "meaning_vi": "Nhóm động từ chỉ dùng được mẫu có to",
+   "usage_context_vi": "Các động từ này không dùng mẫu \"động từ + người + vật\".",
+   "contrasts": [],
+   "example_ko": "Can you explain the problem to me?\nHe described the house to us.",
+   "example_vi": "Bạn giải thích vấn đề cho tôi được không?\nAnh ấy tả ngôi nhà cho chúng tôi.",
+   "importance": "normal",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 34, pp. 142-144",
+   "note_vi": "Lỗi người Việt hay mắc: ~~Explain me the problem~~, ~~She suggested me a book~~ → Explain the problem to me, She suggested a book to me."
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Đặt đúng thứ tự hai tân ngữ và chọn to hay for.\n• 📖 Trong sách: Unit ngữ pháp 34, trang 142–144. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Các động từ give, offer, provide, send dùng liên tục trong Task 2 (give children more freedom, provide people with jobs).",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "verb + person + thing: Động từ + người + vật (không có giới từ)",
+   "verb + thing + to/for + person: Động từ + vật + to/for + người",
+   "explain / describe / suggest / say + thing + to + person: Nhóm động từ chỉ dùng được mẫu có to"
+  ],
+  "watch_out_vi": [
+   "Thêm giới từ khi người đứng trước: ~~She gave to me a book~~ → She gave me a book.",
+   "~~I bought a gift to her~~ → for her. ~~Give me it~~ → Give it to me."
+  ]
+ },
+ "exercise_ids": [
+  "B1U34Q1",
+  "B1U34Q2",
+  "B1U34Q3",
+  "B1U34Q4",
+  "B1U34Q5",
+  "B1U34B1",
+  "B1U34B2",
+  "B1U34B3",
+  "B1U34F1",
+  "B1U34F2",
+  "B1U34D1",
+  "B1U34S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · verb + person + thing",
+   "can_do_vi": "Sau buổi này bạn dùng được: động từ + người + vật (không có giới từ); động từ + vật + to/for + người; nhóm động từ chỉ dùng được mẫu có to.",
+   "use_vi": "Các động từ give, offer, provide, send dùng liên tục trong Task 2 (give children more freedom, provide people with jobs).",
+   "vocab": [
+    "offer",
+    "lend",
+    "owe",
+    "provide",
+    "describe"
+   ],
+   "grammar": [
+    "verb + person + thing",
+    "verb + thing + to/for + person",
+    "explain / describe / suggest / say + thing + to + person"
+   ],
+   "check": [
+    "B1U34Q1",
+    "B1U34Q2",
+    "B1U34Q3",
+    "B1U34Q5",
+    "B1U34Q4",
+    "B1U34B1",
+    "B1U34B2",
+    "B1U34B3",
+    "B1U34F1",
+    "B1U34F2",
+    "B1U34D1",
+    "B1U34S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Tiêu đề và số trang theo mục lục Destination B1 (Mann & Taylore-Knowles, Macmillan). Giải thích, ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  }
+ ]
+}

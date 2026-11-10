@@ -1,0 +1,2264 @@
+{
+ "skill": "listening",
+ "guide": [
+  {
+   "title_vi": "Cách làm",
+   "body_vi": "Nghe hết một lượt không dừng, lượt hai mới gõ. Sau khi xem đáp án, đọc đuổi theo băng hai lần."
+  }
+ ],
+ "items": [
+  {
+   "id": "B1U01D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 1",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "My sister works for a small company.",
+      "vi": "Chị tôi làm cho một công ty nhỏ."
+     },
+     {
+      "speaker": "M",
+      "text": "I am studying for my exams this month.",
+      "vi": "Tháng này tôi đang ôn thi."
+     },
+     {
+      "speaker": "F",
+      "text": "I know the answer.",
+      "vi": "Tôi biết đáp án."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "usually",
+     "vi": "thường thường"
+    },
+    {
+     "ko": "rarely",
+     "vi": "hiếm khi"
+    },
+    {
+     "ko": "at the moment",
+     "vi": "hiện tại, lúc này"
+    },
+    {
+     "ko": "once a week",
+     "vi": "một lần mỗi tuần"
+    },
+    {
+     "ko": "belong",
+     "vi": "thuộc về"
+    },
+    {
+     "ko": "prefer",
+     "vi": "thích hơn"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U02D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 2",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "We moved to Da Nang in 2020.",
+      "vi": "Chúng tôi chuyển đến Đà Nẵng năm 2020."
+     },
+     {
+      "speaker": "M",
+      "text": "I was cooking when the phone rang.",
+      "vi": "Tôi đang nấu ăn thì điện thoại reo."
+     },
+     {
+      "speaker": "F",
+      "text": "I used to walk to school, but now I cycle.",
+      "vi": "Trước đây tôi đi bộ đến trường, giờ tôi đạp xe."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "ago",
+     "vi": "cách đây (đứng sau khoảng thời gian)"
+    },
+    {
+     "ko": "while",
+     "vi": "trong khi"
+    },
+    {
+     "ko": "suddenly",
+     "vi": "đột nhiên"
+    },
+    {
+     "ko": "in those days",
+     "vi": "hồi đó"
+    },
+    {
+     "ko": "last",
+     "vi": "vừa qua, trước (last week, last year)"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U03D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 3",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "I am bored with this game.",
+      "vi": "Tôi chán trò này rồi."
+     },
+     {
+      "speaker": "M",
+      "text": "My brother is crazy about football.",
+      "vi": "Em trai tôi mê bóng đá."
+     },
+     {
+      "speaker": "F",
+      "text": "I am a big fan of this band.",
+      "vi": "Tôi rất hâm mộ ban nhạc này."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "beat",
+     "vi": "đánh bại, thắng"
+    },
+    {
+     "ko": "board game",
+     "vi": "trò chơi trên bàn cờ"
+    },
+    {
+     "ko": "captain",
+     "vi": "đội trưởng"
+    },
+    {
+     "ko": "challenge",
+     "vi": "thách đấu;  thử thách"
+    },
+    {
+     "ko": "champion",
+     "vi": "nhà vô địch"
+    },
+    {
+     "ko": "cheat",
+     "vi": "gian lận, chơi ăn gian"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U04D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 4",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "I have visited Hue twice.",
+      "vi": "Tôi đã đến Huế hai lần."
+     },
+     {
+      "speaker": "M",
+      "text": "We have known each other for ten years.",
+      "vi": "Chúng tôi quen nhau mười năm rồi."
+     },
+     {
+      "speaker": "F",
+      "text": "I have been learning English for three years.",
+      "vi": "Tôi học tiếng Anh được ba năm rồi."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "already",
+     "vi": "rồi (xong sớm hơn dự kiến)"
+    },
+    {
+     "ko": "yet",
+     "vi": "chưa (trong câu phủ định, câu hỏi)"
+    },
+    {
+     "ko": "just",
+     "vi": "vừa mới"
+    },
+    {
+     "ko": "ever",
+     "vi": "đã từng (trong câu hỏi)"
+    },
+    {
+     "ko": "recently",
+     "vi": "gần đây"
+    },
+    {
+     "ko": "so far",
+     "vi": "cho đến nay"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U05D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 5",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "When we arrived, the film had already started.",
+      "vi": "Khi chúng tôi đến, phim đã bắt đầu rồi."
+     },
+     {
+      "speaker": "M",
+      "text": "She had been waiting for an hour when the bus came.",
+      "vi": "Cô ấy đã chờ một tiếng thì xe buýt mới đến."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "by the time",
+     "vi": "vào lúc, khi mà (thì việc khác đã xong)"
+    },
+    {
+     "ko": "before",
+     "vi": "trước khi"
+    },
+    {
+     "ko": "after",
+     "vi": "sau khi"
+    },
+    {
+     "ko": "as soon as",
+     "vi": "ngay khi"
+    },
+    {
+     "ko": "earlier",
+     "vi": "trước đó"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U06D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 6",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "She is capable of running her own business.",
+      "vi": "Cô ấy đủ khả năng điều hành công việc kinh doanh riêng."
+     },
+     {
+      "speaker": "M",
+      "text": "He cheated in the final exam.",
+      "vi": "Cậu ấy gian lận trong kỳ thi cuối kỳ."
+     },
+     {
+      "speaker": "F",
+      "text": "People often confuse \"affect\" with \"effect\".",
+      "vi": "Mọi người hay nhầm \"affect\" với \"effect\"."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "achieve",
+     "vi": "đạt được"
+    },
+    {
+     "ko": "brain",
+     "vi": "bộ não"
+    },
+    {
+     "ko": "clever",
+     "vi": "thông minh, lanh lợi"
+    },
+    {
+     "ko": "concentrate",
+     "vi": "tập trung"
+    },
+    {
+     "ko": "consider",
+     "vi": "cân nhắc, xem xét"
+    },
+    {
+     "ko": "course",
+     "vi": "khóa học"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U07D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 7",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "I think it will rain tomorrow.",
+      "vi": "Tôi nghĩ mai trời sẽ mưa."
+     },
+     {
+      "speaker": "M",
+      "text": "I am going to study abroad next year.",
+      "vi": "Năm sau tôi định đi du học."
+     },
+     {
+      "speaker": "F",
+      "text": "We are having dinner with my parents on Friday.",
+      "vi": "Thứ Sáu chúng tôi ăn tối với bố mẹ tôi."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "probably",
+     "vi": "có lẽ, nhiều khả năng"
+    },
+    {
+     "ko": "in two days",
+     "vi": "hai ngày nữa"
+    },
+    {
+     "ko": "the day after tomorrow",
+     "vi": "ngày kia"
+    },
+    {
+     "ko": "next",
+     "vi": "tới, sau (next week, next year)"
+    },
+    {
+     "ko": "soon",
+     "vi": "sớm, chẳng bao lâu nữa"
+    },
+    {
+     "ko": "until",
+     "vi": "cho đến khi"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U08D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 8",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "The meeting is at nine on Monday.",
+      "vi": "Cuộc họp lúc chín giờ thứ Hai."
+     },
+     {
+      "speaker": "M",
+      "text": "She lives in a flat on the third floor.",
+      "vi": "Cô ấy sống trong một căn hộ ở tầng ba."
+     },
+     {
+      "speaker": "F",
+      "text": "The bank is opposite the post office.",
+      "vi": "Ngân hàng ở đối diện bưu điện."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "opposite",
+     "vi": "đối diện"
+    },
+    {
+     "ko": "between",
+     "vi": "ở giữa (hai)"
+    },
+    {
+     "ko": "behind",
+     "vi": "phía sau"
+    },
+    {
+     "ko": "during",
+     "vi": "trong suốt (+ danh từ)"
+    },
+    {
+     "ko": "by",
+     "vi": "trước, chậm nhất là (hạn chót)"
+    },
+    {
+     "ko": "above",
+     "vi": "phía trên"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U09D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 9",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "We arrived at the station ten minutes early.",
+      "vi": "Chúng tôi đến ga sớm mười phút."
+     },
+     {
+      "speaker": "M",
+      "text": "They arrived in London on Monday.",
+      "vi": "Họ đến London hôm thứ Hai."
+     },
+     {
+      "speaker": "F",
+      "text": "Our school is close to the river.",
+      "vi": "Trường chúng tôi ở gần sông."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "abroad",
+     "vi": "ở/ra nước ngoài"
+    },
+    {
+     "ko": "accommodation",
+     "vi": "chỗ ở"
+    },
+    {
+     "ko": "book",
+     "vi": "đặt trước"
+    },
+    {
+     "ko": "break",
+     "vi": "kỳ nghỉ ngắn; giờ giải lao"
+    },
+    {
+     "ko": "cancel",
+     "vi": "hủy"
+    },
+    {
+     "ko": "catch",
+     "vi": "bắt"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U10D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 10",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "English is spoken in many countries.",
+      "vi": "Tiếng Anh được nói ở nhiều nước."
+     },
+     {
+      "speaker": "M",
+      "text": "The results will be announced next week.",
+      "vi": "Kết quả sẽ được công bố tuần sau."
+     },
+     {
+      "speaker": "F",
+      "text": "The accident happened at night.",
+      "vi": "Vụ tai nạn xảy ra vào ban đêm."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "produce",
+     "vi": "sản xuất"
+    },
+    {
+     "ko": "deliver",
+     "vi": "giao hàng"
+    },
+    {
+     "ko": "announce",
+     "vi": "công bố"
+    },
+    {
+     "ko": "allow",
+     "vi": "cho phép"
+    },
+    {
+     "ko": "found",
+     "vi": "thành lập (found – founded – founded)"
+    },
+    {
+     "ko": "occur",
+     "vi": "xảy ra (trang trọng; không có bị động)"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U11D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 11",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "A new bridge is being built across the river.",
+      "vi": "Một cây cầu mới đang được xây qua sông."
+     },
+     {
+      "speaker": "M",
+      "text": "This problem can be solved.",
+      "vi": "Vấn đề này có thể được giải quyết."
+     },
+     {
+      "speaker": "F",
+      "text": "The book was written by a doctor.",
+      "vi": "Cuốn sách do một bác sĩ viết."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "repair",
+     "vi": "sửa chữa"
+    },
+    {
+     "ko": "ban",
+     "vi": "cấm"
+    },
+    {
+     "ko": "protect",
+     "vi": "bảo vệ"
+    },
+    {
+     "ko": "reduce",
+     "vi": "giảm"
+    },
+    {
+     "ko": "award",
+     "vi": "trao (giải)"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U12D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 12",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "I admire her for her patience.",
+      "vi": "Tôi ngưỡng mộ sự kiên nhẫn của cô ấy."
+     },
+     {
+      "speaker": "M",
+      "text": "She apologised for being late.",
+      "vi": "Cô ấy xin lỗi vì đến muộn."
+     },
+     {
+      "speaker": "F",
+      "text": "They often argue about money.",
+      "vi": "Họ hay cãi nhau về tiền bạc."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "apologise",
+     "vi": "xin lỗi"
+    },
+    {
+     "ko": "boyfriend",
+     "vi": "bạn trai"
+    },
+    {
+     "ko": "close",
+     "vi": "thân thiết, gần gũi"
+    },
+    {
+     "ko": "confident",
+     "vi": "tự tin"
+    },
+    {
+     "ko": "cool",
+     "vi": "ngầu, hay ho; bình tĩnh"
+    },
+    {
+     "ko": "couple",
+     "vi": "cặp đôi"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U13D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 13",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "The information is on the website.",
+      "vi": "Thông tin có trên trang web."
+     },
+     {
+      "speaker": "M",
+      "text": "There are not many buses at night.",
+      "vi": "Ban đêm không có nhiều xe buýt."
+     },
+     {
+      "speaker": "F",
+      "text": "I bought some fruit.",
+      "vi": "Tôi mua một ít hoa quả."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "advice",
+     "vi": "lời khuyên (không đếm được)"
+    },
+    {
+     "ko": "furniture",
+     "vi": "đồ đạc trong nhà (không đếm được)"
+    },
+    {
+     "ko": "knowledge",
+     "vi": "kiến thức (không đếm được)"
+    },
+    {
+     "ko": "evidence",
+     "vi": "bằng chứng (không đếm được)"
+    },
+    {
+     "ko": "a piece of",
+     "vi": "một (mẩu, lời, món) + danh từ không đếm được"
+    },
+    {
+     "ko": "plenty of",
+     "vi": "nhiều, dư dả"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U14D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 14",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "She is a nurse.",
+      "vi": "Cô ấy là y tá."
+     },
+     {
+      "speaker": "M",
+      "text": "The internet has changed the way we work.",
+      "vi": "Internet đã thay đổi cách chúng ta làm việc."
+     },
+     {
+      "speaker": "F",
+      "text": "Pollution is a serious problem in big cities.",
+      "vi": "Ô nhiễm là vấn đề nghiêm trọng ở các thành phố lớn."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "the environment",
+     "vi": "môi trường (luôn có the)"
+    },
+    {
+     "ko": "the government",
+     "vi": "chính phủ"
+    },
+    {
+     "ko": "society",
+     "vi": "xã hội (nói chung: không có the)"
+    },
+    {
+     "ko": "an hour",
+     "vi": "một giờ (h câm nên dùng an)"
+    },
+    {
+     "ko": "a university",
+     "vi": "một trường đại học (âm /j/ nên dùng a)"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U15D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 15",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "I saw an advertisement for a part-time job.",
+      "vi": "Tôi thấy một quảng cáo tuyển việc bán thời gian."
+     },
+     {
+      "speaker": "M",
+      "text": "This bag belongs to my sister.",
+      "vi": "Cái túi này của chị tôi."
+     },
+     {
+      "speaker": "F",
+      "text": "Can I borrow a pen from you?",
+      "vi": "Tôi mượn bạn cây bút được không?"
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "advertisement",
+     "vi": "quảng cáo"
+    },
+    {
+     "ko": "afford",
+     "vi": "có đủ tiền"
+    },
+    {
+     "ko": "bargain",
+     "vi": "món hời, hàng mua được giá tốt"
+    },
+    {
+     "ko": "brand",
+     "vi": "nhãn hiệu, thương hiệu"
+    },
+    {
+     "ko": "catalogue",
+     "vi": "ca-ta-lô, danh mục hàng"
+    },
+    {
+     "ko": "change",
+     "vi": "tiền lẻ, tiền thối lại"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U16D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 16",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "She told me about them.",
+      "vi": "Cô ấy kể cho tôi về họ."
+     },
+     {
+      "speaker": "M",
+      "text": "This is my book and that one is yours.",
+      "vi": "Đây là sách của tôi còn cuốn kia của bạn."
+     },
+     {
+      "speaker": "F",
+      "text": "He taught himself to play the guitar.",
+      "vi": "Anh ấy tự học chơi ghi-ta."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "each other",
+     "vi": "lẫn nhau"
+    },
+    {
+     "ko": "one another",
+     "vi": "lẫn nhau (trang trọng hơn)"
+    },
+    {
+     "ko": "own",
+     "vi": "của riêng (my own room)"
+    },
+    {
+     "ko": "belong to",
+     "vi": "thuộc về"
+    },
+    {
+     "ko": "themselves",
+     "vi": "chính họ, tự họ"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U17D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 17",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "People who exercise regularly are healthier.",
+      "vi": "Những người tập thể dục đều đặn thì khỏe mạnh hơn."
+     },
+     {
+      "speaker": "M",
+      "text": "I have a friend whose father is a pilot.",
+      "vi": "Tôi có người bạn mà bố là phi công."
+     },
+     {
+      "speaker": "F",
+      "text": "She is the writer whose book I read.",
+      "vi": "Cô ấy là tác giả của cuốn sách tôi đã đọc."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "whose",
+     "vi": "của người mà, của cái mà"
+    },
+    {
+     "ko": "where",
+     "vi": "nơi mà"
+    },
+    {
+     "ko": "reason why",
+     "vi": "lý do vì sao"
+    },
+    {
+     "ko": "the one",
+     "vi": "cái mà, người mà"
+    },
+    {
+     "ko": "regularly",
+     "vi": "đều đặn"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U18D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 18",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "Begin your essay with a clear answer to the question.",
+      "vi": "Hãy mở bài luận bằng một câu trả lời rõ ràng cho đề bài."
+     },
+     {
+      "speaker": "M",
+      "text": "Connect the printer to the computer.",
+      "vi": "Nối máy in với máy tính."
+     },
+     {
+      "speaker": "F",
+      "text": "She filled the room with flowers.",
+      "vi": "Cô ấy bày hoa khắp phòng."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "artificial",
+     "vi": "nhân tạo"
+    },
+    {
+     "ko": "automatic",
+     "vi": "tự động"
+    },
+    {
+     "ko": "complicated",
+     "vi": "phức tạp"
+    },
+    {
+     "ko": "decrease",
+     "vi": "giảm;  sự giảm"
+    },
+    {
+     "ko": "digital",
+     "vi": "kỹ thuật số"
+    },
+    {
+     "ko": "discover",
+     "vi": "phát hiện ra"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U19D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 19",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "She can speak three languages.",
+      "vi": "Cô ấy nói được ba thứ tiếng."
+     },
+     {
+      "speaker": "M",
+      "text": "Could I ask you a question?",
+      "vi": "Tôi hỏi bạn một câu được không?"
+     },
+     {
+      "speaker": "F",
+      "text": "You should see a doctor.",
+      "vi": "Bạn nên đi khám."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "manage to",
+     "vi": "xoay xở làm được"
+    },
+    {
+     "ko": "be able to",
+     "vi": "có thể, có khả năng"
+    },
+    {
+     "ko": "ought to",
+     "vi": "nên"
+    },
+    {
+     "ko": "allow",
+     "vi": "cho phép"
+    },
+    {
+     "ko": "had better",
+     "vi": "tốt hơn là nên (cảnh báo)"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U20D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 20",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "I must call my mother tonight.",
+      "vi": "Tối nay tôi phải gọi cho mẹ."
+     },
+     {
+      "speaker": "M",
+      "text": "You mustn't use your phone in the exam.",
+      "vi": "Bạn không được dùng điện thoại trong phòng thi."
+     },
+     {
+      "speaker": "F",
+      "text": "He has not eaten all day. He must be hungry.",
+      "vi": "Cả ngày anh ấy chưa ăn. Chắc hẳn đói lắm."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "need to",
+     "vi": "cần phải"
+    },
+    {
+     "ko": "needn't",
+     "vi": "không cần"
+    },
+    {
+     "ko": "be likely to",
+     "vi": "nhiều khả năng sẽ"
+    },
+    {
+     "ko": "perhaps",
+     "vi": "có lẽ"
+    },
+    {
+     "ko": "compulsory",
+     "vi": "bắt buộc"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U21D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 21",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "The minister refused to comment on the report.",
+      "vi": "Bộ trưởng từ chối bình luận về bản báo cáo."
+     },
+     {
+      "speaker": "M",
+      "text": "Email makes it easy to communicate with customers.",
+      "vi": "Email giúp giao tiếp với khách hàng dễ dàng."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "accent",
+     "vi": "giọng"
+    },
+    {
+     "ko": "announcement",
+     "vi": "thông báo"
+    },
+    {
+     "ko": "broadcast",
+     "vi": "phát sóng;  chương trình phát sóng"
+    },
+    {
+     "ko": "channel",
+     "vi": "kênh"
+    },
+    {
+     "ko": "clear",
+     "vi": "rõ ràng"
+    },
+    {
+     "ko": "click",
+     "vi": "nhấp chuột"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U22D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 22",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "The ground is wet. It must have rained.",
+      "vi": "Mặt đất ướt. Chắc hẳn trời đã mưa."
+     },
+     {
+      "speaker": "M",
+      "text": "I should have left earlier.",
+      "vi": "Lẽ ra tôi nên đi sớm hơn."
+     },
+     {
+      "speaker": "F",
+      "text": "You could have called me.",
+      "vi": "Bạn đã có thể gọi cho tôi mà."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "obviously",
+     "vi": "rõ ràng là"
+    },
+    {
+     "ko": "by mistake",
+     "vi": "do nhầm lẫn"
+    },
+    {
+     "ko": "regret",
+     "vi": "hối tiếc"
+    },
+    {
+     "ko": "looking back",
+     "vi": "nhìn lại thì"
+    },
+    {
+     "ko": "instead",
+     "vi": "thay vào đó"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U23D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 23",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "How long have you lived here?",
+      "vi": "Bạn sống ở đây bao lâu rồi?"
+     },
+     {
+      "speaker": "M",
+      "text": "It is cold today, isn't it?",
+      "vi": "Hôm nay lạnh nhỉ?"
+     },
+     {
+      "speaker": "F",
+      "text": "Could you tell me where the station is?",
+      "vi": "Bạn chỉ giúp tôi nhà ga ở đâu được không?"
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "whether",
+     "vi": "liệu có… hay không"
+    },
+    {
+     "ko": "how often",
+     "vi": "bao lâu một lần"
+    },
+    {
+     "ko": "how far",
+     "vi": "bao xa"
+    },
+    {
+     "ko": "what kind of",
+     "vi": "loại nào"
+    },
+    {
+     "ko": "I wonder",
+     "vi": "tôi tự hỏi, không biết là"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U24D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 24",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "They blamed the accident on the weather.",
+      "vi": "Họ đổ lỗi vụ tai nạn cho thời tiết."
+     },
+     {
+      "speaker": "M",
+      "text": "Nobody blamed him for the mistake.",
+      "vi": "Không ai trách anh ấy vì sai sót đó."
+     },
+     {
+      "speaker": "F",
+      "text": "Do not forget about the meeting tomorrow.",
+      "vi": "Đừng quên cuộc họp ngày mai."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "admit",
+     "vi": "thừa nhận"
+    },
+    {
+     "ko": "arrest",
+     "vi": "bắt giữ"
+    },
+    {
+     "ko": "charity",
+     "vi": "tổ chức từ thiện; việc từ thiện"
+    },
+    {
+     "ko": "commit",
+     "vi": "phạm : commit a crime"
+    },
+    {
+     "ko": "community",
+     "vi": "cộng đồng"
+    },
+    {
+     "ko": "court",
+     "vi": "tòa án"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U25D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 25",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "The film was so boring that I fell asleep.",
+      "vi": "Phim chán đến nỗi tôi ngủ gật."
+     },
+     {
+      "speaker": "M",
+      "text": "The tea is too hot to drink.",
+      "vi": "Trà nóng quá, không uống được."
+     },
+     {
+      "speaker": "F",
+      "text": "She is old enough to drive.",
+      "vi": "Cô ấy đủ tuổi lái xe."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "such",
+     "vi": "đến thế, như vậy"
+    },
+    {
+     "ko": "enough",
+     "vi": "đủ"
+    },
+    {
+     "ko": "too much",
+     "vi": "quá nhiều (+ không đếm được)"
+    },
+    {
+     "ko": "too many",
+     "vi": "quá nhiều (+ đếm được)"
+    },
+    {
+     "ko": "as a result",
+     "vi": "kết quả là"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U26D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 26",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "Trains are cheaper than planes.",
+      "vi": "Tàu hỏa rẻ hơn máy bay."
+     },
+     {
+      "speaker": "M",
+      "text": "This is the oldest building in the city.",
+      "vi": "Đây là tòa nhà cổ nhất thành phố."
+     },
+     {
+      "speaker": "F",
+      "text": "My flat is not as big as yours.",
+      "vi": "Căn hộ của tôi không rộng bằng của bạn."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "slightly",
+     "vi": "hơi, một chút"
+    },
+    {
+     "ko": "considerably",
+     "vi": "đáng kể"
+    },
+    {
+     "ko": "twice",
+     "vi": "gấp đôi, hai lần"
+    },
+    {
+     "ko": "by far",
+     "vi": "hơn hẳn (+ so sánh nhất)"
+    },
+    {
+     "ko": "the least",
+     "vi": "ít nhất, kém nhất"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U27D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 27",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "He applied for a scholarship in Australia.",
+      "vi": "Anh ấy nộp đơn xin học bổng ở Úc."
+     },
+     {
+      "speaker": "M",
+      "text": "The price depends on the season.",
+      "vi": "Giá cả phụ thuộc vào mùa."
+     },
+     {
+      "speaker": "F",
+      "text": "Maths is difficult for me.",
+      "vi": "Môn toán khó với tôi."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "ambition",
+     "vi": "tham vọng, hoài bão"
+    },
+    {
+     "ko": "application",
+     "vi": "đơn xin"
+    },
+    {
+     "ko": "bank account",
+     "vi": "tài khoản ngân hàng"
+    },
+    {
+     "ko": "boss",
+     "vi": "sếp"
+    },
+    {
+     "ko": "career",
+     "vi": "sự nghiệp"
+    },
+    {
+     "ko": "colleague",
+     "vi": "đồng nghiệp"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U28D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 28",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "If you heat ice, it melts.",
+      "vi": "Nếu làm nóng đá thì nó tan."
+     },
+     {
+      "speaker": "M",
+      "text": "If it rains tomorrow, we will stay at home.",
+      "vi": "Nếu mai mưa, chúng tôi sẽ ở nhà."
+     },
+     {
+      "speaker": "F",
+      "text": "If I had more time, I would learn Japanese.",
+      "vi": "Nếu tôi có nhiều thời gian hơn, tôi sẽ học tiếng Nhật."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "unless",
+     "vi": "trừ khi, nếu không"
+    },
+    {
+     "ko": "as long as",
+     "vi": "miễn là"
+    },
+    {
+     "ko": "provided that",
+     "vi": "với điều kiện là"
+    },
+    {
+     "ko": "in case",
+     "vi": "phòng khi"
+    },
+    {
+     "ko": "otherwise",
+     "vi": "nếu không thì"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U29D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 29",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "If I had studied harder, I would have passed.",
+      "vi": "Nếu tôi học chăm hơn thì tôi đã đỗ."
+     },
+     {
+      "speaker": "M",
+      "text": "If you had asked me, I could have helped.",
+      "vi": "Nếu bạn hỏi thì tôi đã có thể giúp."
+     },
+     {
+      "speaker": "F",
+      "text": "Luckily, nobody was hurt.",
+      "vi": "May thay không ai bị thương."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "luckily",
+     "vi": "may thay"
+    },
+    {
+     "ko": "miss",
+     "vi": "lỡ (tàu, cơ hội)"
+    },
+    {
+     "ko": "realise",
+     "vi": "nhận ra"
+    },
+    {
+     "ko": "opportunity",
+     "vi": "cơ hội"
+    },
+    {
+     "ko": "turn out",
+     "vi": "hóa ra, rốt cuộc là"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U30D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 30",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "Many teenagers are addicted to their phones.",
+      "vi": "Nhiều thanh thiếu niên nghiện điện thoại."
+     },
+     {
+      "speaker": "M",
+      "text": "She is allergic to seafood.",
+      "vi": "Cô ấy dị ứng hải sản."
+     },
+     {
+      "speaker": "F",
+      "text": "She combines work with study.",
+      "vi": "Cô ấy vừa làm vừa học."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "affect",
+     "vi": "ảnh hưởng đến"
+    },
+    {
+     "ko": "balance",
+     "vi": "giữ thăng bằng, cân bằng;  sự cân bằng"
+    },
+    {
+     "ko": "benefit",
+     "vi": "có lợi cho, được lợi;  lợi ích"
+    },
+    {
+     "ko": "breathe",
+     "vi": "thở"
+    },
+    {
+     "ko": "chew",
+     "vi": "nhai"
+    },
+    {
+     "ko": "chop",
+     "vi": "chặt, thái"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U31D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 31",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "\"I am tired.\" → She said (that) she was tired.",
+      "vi": "Cô ấy nói cô ấy mệt."
+     },
+     {
+      "speaker": "M",
+      "text": "She said that she was busy.",
+      "vi": "Cô ấy nói cô ấy bận."
+     },
+     {
+      "speaker": "F",
+      "text": "He claimed that he was innocent.",
+      "vi": "Anh ta khẳng định mình vô tội."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "claim",
+     "vi": "khẳng định (chưa chắc đúng)"
+    },
+    {
+     "ko": "explain",
+     "vi": "giải thích"
+    },
+    {
+     "ko": "mention",
+     "vi": "nhắc đến"
+    },
+    {
+     "ko": "according to",
+     "vi": "theo (nguồn tin)"
+    },
+    {
+     "ko": "the following day",
+     "vi": "ngày hôm sau"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U32D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 32",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "\"Do you like tea?\" → She asked if I liked tea.",
+      "vi": "Cô ấy hỏi tôi có thích trà không."
+     },
+     {
+      "speaker": "M",
+      "text": "\"Where do you live?\" → He asked where I lived.",
+      "vi": "Anh ấy hỏi tôi sống ở đâu."
+     },
+     {
+      "speaker": "F",
+      "text": "I wondered why he was late.",
+      "vi": "Tôi tự hỏi sao anh ấy muộn."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "wonder",
+     "vi": "tự hỏi, muốn biết"
+    },
+    {
+     "ko": "want to know",
+     "vi": "muốn biết"
+    },
+    {
+     "ko": "order",
+     "vi": "ra lệnh"
+    },
+    {
+     "ko": "warn",
+     "vi": "cảnh báo"
+    },
+    {
+     "ko": "remind",
+     "vi": "nhắc"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U33D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 33",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "Visitors describe the town as quiet and friendly.",
+      "vi": "Du khách mô tả thị trấn là yên tĩnh và thân thiện."
+     },
+     {
+      "speaker": "M",
+      "text": "I was disappointed with my exam result.",
+      "vi": "Tôi thất vọng về kết quả thi."
+     },
+     {
+      "speaker": "F",
+      "text": "Can you explain the rule to me?",
+      "vi": "Bạn giải thích quy tắc này cho tôi được không?"
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "ancient",
+     "vi": "cổ xưa, cổ đại"
+    },
+    {
+     "ko": "checked",
+     "vi": "kẻ ca-rô"
+    },
+    {
+     "ko": "cotton",
+     "vi": "vải bông, cô-tông"
+    },
+    {
+     "ko": "create",
+     "vi": "tạo ra, sáng tạo"
+    },
+    {
+     "ko": "design",
+     "vi": "thiết kế;  bản thiết kế, kiểu dáng"
+    },
+    {
+     "ko": "fix",
+     "vi": "sửa chữa; gắn chặt"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U34D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 34",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "She gave me a book.",
+      "vi": "Cô ấy cho tôi một cuốn sách."
+     },
+     {
+      "speaker": "M",
+      "text": "She gave the book to her brother.",
+      "vi": "Cô ấy đưa cuốn sách cho em trai."
+     },
+     {
+      "speaker": "F",
+      "text": "Can you explain the problem to me?",
+      "vi": "Bạn giải thích vấn đề cho tôi được không?"
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "offer",
+     "vi": "đề nghị, mời"
+    },
+    {
+     "ko": "lend",
+     "vi": "cho mượn"
+    },
+    {
+     "ko": "owe",
+     "vi": "nợ"
+    },
+    {
+     "ko": "provide",
+     "vi": "cung cấp (provide sb with sth / provide sth for sb)"
+    },
+    {
+     "ko": "describe",
+     "vi": "mô tả"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U35D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 35",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "I wish I had a bigger flat.",
+      "vi": "Ước gì tôi có căn hộ rộng hơn."
+     },
+     {
+      "speaker": "M",
+      "text": "I wish I had studied harder at school.",
+      "vi": "Ước gì hồi đi học tôi chăm hơn."
+     },
+     {
+      "speaker": "F",
+      "text": "I wish it would stop raining.",
+      "vi": "Ước gì trời tạnh mưa."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "if only",
+     "vi": "giá mà (mạnh hơn wish)"
+    },
+    {
+     "ko": "regret",
+     "vi": "hối tiếc"
+    },
+    {
+     "ko": "hope",
+     "vi": "hy vọng"
+    },
+    {
+     "ko": "would rather",
+     "vi": "thích hơn, thà"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U36D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 36",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "Few people are aware of the problem.",
+      "vi": "Ít người nhận thức được vấn đề này."
+     },
+     {
+      "speaker": "M",
+      "text": "The flood caused serious damage to roads.",
+      "vi": "Trận lũ gây thiệt hại nặng cho đường sá."
+     },
+     {
+      "speaker": "F",
+      "text": "Two animals escaped from the zoo.",
+      "vi": "Hai con vật trốn khỏi sở thú."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "amazing",
+     "vi": "tuyệt vời, đáng kinh ngạc"
+    },
+    {
+     "ko": "climate",
+     "vi": "khí hậu"
+    },
+    {
+     "ko": "countryside",
+     "vi": "vùng nông thôn"
+    },
+    {
+     "ko": "environment",
+     "vi": "môi trường"
+    },
+    {
+     "ko": "extinct",
+     "vi": "tuyệt chủng"
+    },
+    {
+     "ko": "forecast",
+     "vi": "dự báo;  bản dự báo"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U37D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 37",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "I enjoy cooking at weekends.",
+      "vi": "Tôi thích nấu ăn vào cuối tuần."
+     },
+     {
+      "speaker": "M",
+      "text": "We decided to move to the city.",
+      "vi": "Chúng tôi quyết định chuyển lên thành phố."
+     },
+     {
+      "speaker": "F",
+      "text": "He stopped smoking last year.",
+      "vi": "Anh ấy bỏ thuốc năm ngoái."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "avoid",
+     "vi": "tránh"
+    },
+    {
+     "ko": "afford",
+     "vi": "có đủ tiền"
+    },
+    {
+     "ko": "refuse",
+     "vi": "từ chối"
+    },
+    {
+     "ko": "suggest",
+     "vi": "gợi ý"
+    },
+    {
+     "ko": "look forward to",
+     "vi": "mong chờ (+ V-ing)"
+    },
+    {
+     "ko": "be used to",
+     "vi": "quen với (+ V-ing)"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U38D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 38",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "Both my brother and my sister live abroad.",
+      "vi": "Cả anh trai và chị gái tôi đều sống ở nước ngoài."
+     },
+     {
+      "speaker": "M",
+      "text": "Both of my parents work.",
+      "vi": "Cả bố lẫn mẹ tôi đều đi làm."
+     },
+     {
+      "speaker": "F",
+      "text": "\"I love coffee.\" \"So do I.\"",
+      "vi": "\"Tôi thích cà phê.\" \"Tôi cũng vậy.\""
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "both",
+     "vi": "cả hai"
+    },
+    {
+     "ko": "either",
+     "vi": "một trong hai; cũng (không)"
+    },
+    {
+     "ko": "neither",
+     "vi": "không cái nào trong hai"
+    },
+    {
+     "ko": "as well",
+     "vi": "cũng (cuối câu)"
+    },
+    {
+     "ko": "too",
+     "vi": "cũng (cuối câu khẳng định)"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U39D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 39",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "He felt ashamed of his behaviour.",
+      "vi": "Anh ấy thấy xấu hổ vì cách cư xử của mình."
+     },
+     {
+      "speaker": "M",
+      "text": "We congratulated her on passing the exam.",
+      "vi": "Chúng tôi chúc mừng cô ấy thi đỗ."
+     },
+     {
+      "speaker": "F",
+      "text": "He is embarrassed about his accent.",
+      "vi": "Anh ấy ngượng vì giọng nói của mình."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "amusing",
+     "vi": "vui, buồn cười"
+    },
+    {
+     "ko": "annoy",
+     "vi": "làm phiền, làm bực mình"
+    },
+    {
+     "ko": "attitude",
+     "vi": "thái độ"
+    },
+    {
+     "ko": "bad-tempered",
+     "vi": "hay cáu, nóng tính"
+    },
+    {
+     "ko": "behave",
+     "vi": "cư xử"
+    },
+    {
+     "ko": "bully",
+     "vi": "bắt nạt;  kẻ bắt nạt"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U40D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 40",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "I will call you when I arrive.",
+      "vi": "Tôi sẽ gọi khi đến nơi."
+     },
+     {
+      "speaker": "M",
+      "text": "Although it was raining, we went out.",
+      "vi": "Dù trời mưa, chúng tôi vẫn ra ngoài."
+     },
+     {
+      "speaker": "F",
+      "text": "The flat is small. However, it is very bright.",
+      "vi": "Căn hộ nhỏ. Tuy nhiên, nó rất sáng."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "although",
+     "vi": "mặc dù (+ mệnh đề)"
+    },
+    {
+     "ko": "despite",
+     "vi": "bất chấp (+ danh từ/V-ing)"
+    },
+    {
+     "ko": "however",
+     "vi": "tuy nhiên"
+    },
+    {
+     "ko": "therefore",
+     "vi": "do đó"
+    },
+    {
+     "ko": "whereas",
+     "vi": "trong khi (đối lập)"
+    },
+    {
+     "ko": "in order to",
+     "vi": "để (mục đích)"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U41D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 41",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "I had my hair cut yesterday.",
+      "vi": "Hôm qua tôi đi cắt tóc."
+     },
+     {
+      "speaker": "M",
+      "text": "I need to get my phone fixed.",
+      "vi": "Tôi cần mang điện thoại đi sửa."
+     },
+     {
+      "speaker": "F",
+      "text": "She had her bag stolen on the bus.",
+      "vi": "Cô ấy bị móc túi trên xe buýt."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "repair",
+     "vi": "sửa chữa"
+    },
+    {
+     "ko": "deliver",
+     "vi": "giao"
+    },
+    {
+     "ko": "check",
+     "vi": "kiểm tra"
+    },
+    {
+     "ko": "install",
+     "vi": "lắp đặt"
+    },
+    {
+     "ko": "service",
+     "vi": "bảo dưỡng (xe, máy)"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  },
+  {
+   "id": "B1U42D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Unit 42",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "One advantage of living in a city is good public transport.",
+      "vi": "Một ưu điểm của việc sống ở thành phố là giao thông công cộng tốt."
+     },
+     {
+      "speaker": "M",
+      "text": "Doctors advise against eating late at night.",
+      "vi": "Bác sĩ khuyên không nên ăn khuya."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "accident",
+     "vi": "tai nạn; sự tình cờ"
+    },
+    {
+     "ko": "assume",
+     "vi": "cho rằng, mặc định là"
+    },
+    {
+     "ko": "cause",
+     "vi": "gây ra;  nguyên nhân"
+    },
+    {
+     "ko": "claim",
+     "vi": "khẳng định, tuyên bố"
+    },
+    {
+     "ko": "complain",
+     "vi": "phàn nàn"
+    },
+    {
+     "ko": "convince",
+     "vi": "thuyết phục"
+    }
+   ],
+   "tips_vi": [
+    "Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."
+   ]
+  }
+ ]
+}

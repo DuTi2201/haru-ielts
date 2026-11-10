@@ -1,0 +1,536 @@
+"""Build the Destination B1 course (42 lessons + the practice bank "b1") from the source files
+in this folder.
+
+    python3 scripts/b1/build.py            # writes app/seed/lessons/b1-*.json and app/seed/exercises/b1/
+    python3 -m app.services.lesson_seed --check
+
+The source files are the thing to edit; the JSON is generated. What comes from the book is the
+syllabus only: the unit titles, the page numbers and the lists of words (pp. 184-216). The
+explanations, examples, questions and model answers are written for this course, and each lesson
+sends the learner to the book for the book's own exercises.
+
+Field names (`hangul`, `title_ko`, `example_ko`, `prompt_ko`, `model_answer_ko`, `topik_tip_vi`)
+are the Haru schema's, kept until the schema is renamed: here they hold English.
+"""
+from __future__ import annotations
+
+import hashlib
+import json
+import random
+import re
+from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent.parent
+LESSONS = ROOT / "app" / "seed" / "lessons"
+BANK = ROOT / "app" / "seed" / "exercises" / "b1"
+TOPIC = "Destination B1 · Lấy gốc"
+BOOK = "Destination B1 (Mann & Taylore-Knowles, Macmillan)"
+PREPS = ["about", "against", "at", "by", "for", "from", "in", "into", "of", "on", "to", "with", "under", "out", "as", "between", "like"]
+PARTICLES = ["up", "down", "off", "on", "out", "in", "away", "back", "over", "after", "across", "into", "with"]
+LABEL = {"N": "danh từ", "P": "danh từ chỉ người", "A": "tính từ", "D": "trạng từ", "V": "động từ", "X": "dạng trái nghĩa",
+         "2": "quá khứ đơn", "3": "quá khứ phân từ"}
+
+
+def rng(key: str) -> random.Random:
+    return random.Random(int(hashlib.sha256(key.encode()).hexdigest()[:12], 16))
+
+
+def slugify(text: str) -> str:
+    return re.sub(r"-+", "-", re.sub(r"[^a-z0-9]+", "-", text.lower())).strip("-")
+
+
+def lines(name: str) -> list[str]:
+    return [ln.rstrip() for ln in (HERE / name).read_text(encoding="utf-8").splitlines() if ln.strip() and not ln.startswith("# ")]
+
+
+def pair(text: str) -> tuple[str, str]:
+    en, vi = text.split(" = ", 1)
+    return en.strip(), vi.strip()
+
+
+def nl(text: str) -> str:
+    return text.replace("\\n", "\n")
+
+
+# ------------------------------------------------------------------ parsing --
+def parse_grammar() -> dict[int, dict]:
+    units: dict[int, dict] = {}
+    cur: dict | None = None
+    card: dict | None = None
+    for name in ("grammar_a.txt", "grammar_b.txt", "grammar_c.txt", "grammar_d.txt"):
+        for ln in lines(name):
+            if ln.startswith("#U "):
+                n, title, title_vi, pages = [x.strip() for x in ln[3:].split(" | ")]
+                cur = {"n": int(n), "title": title, "title_vi": title_vi, "pages": pages, "cards": [], "words": [], "q": [], "b": [], "f": [], "s": None}
+                units[int(n)] = cur
+                card = None
+            elif ln.startswith("goal: "):
+                cur["goal"] = ln[6:]
+            elif ln.startswith("ielts: "):
+                cur["ielts"] = ln[7:]
+            elif ln.startswith("G: "):
+                pattern, meaning, importance = [x.strip() for x in ln[3:].rsplit(" | ", 2)]
+                card = {"pattern": pattern, "meaning": meaning, "importance": importance, "use": "", "ex": [], "trap": None, "tip": None, "vs": []}
+                cur["cards"].append(card)
+            elif ln.startswith(" use: "):
+                card["use"] = nl(ln[6:])
+            elif ln.startswith(" ex: "):
+                card["ex"].append(pair(ln[5:]))
+            elif ln.startswith(" trap: "):
+                card["trap"] = ln[7:]
+            elif ln.startswith(" tip: "):
+                card["tip"] = ln[6:]
+            elif ln.startswith(" vs: "):
+                other, diff = ln[5:].split(" | ", 1)
+                card["vs"].append({"pattern": other.strip(), "diff_vi": diff.strip()})
+            elif ln.startswith("W: "):
+                head, pos, meaning, ex = [x.strip() for x in ln[3:].split(" | ")]
+                cur["words"].append({"head": head, "pos": pos, "meaning": meaning, "ex": pair(ex)})
+            elif ln.startswith("Q: "):
+                parts = [x.strip() for x in ln[3:].split(" | ")]
+                cur["q"].append({"text": parts[0], "options": parts[1:5], "why": parts[5], "card": int(parts[6]) - 1})
+            elif ln.startswith("B: "):
+                vi, en = ln[3:].split(" | ")
+                cur["b"].append((vi.strip(), en.strip()))
+            elif ln.startswith("F: "):
+                text, accepted, tip = [x.strip() for x in ln[3:].split(" | ")]
+                cur["f"].append({"text": text, "accepted": [a.strip() for a in accepted.split(";")], "tip": tip})
+            elif ln.startswith("S: "):
+                en, vi, model = [x.strip() for x in ln[3:].split(" | ")]
+                cur["s"] = {"en": en, "vi": vi, "model": model}
+            else:
+                raise SystemExit(f"{name}: cannot read {ln[:60]!r}")
+    return units
+
+
+def parse_vocab_units() -> dict[int, dict]:
+    units: dict[int, dict] = {}
+    cur = None
+    for ln in lines("vocab_units.txt"):
+        if ln.startswith("#U "):
+            n, title, title_vi, pages = [x.strip() for x in ln[3:].split(" | ")]
+            cur = {"n": int(n), "title": title, "title_vi": title_vi, "pages": pages}
+            units[int(n)] = cur
+        elif ln.startswith("goal: "):
+            cur["goal"] = ln[6:]
+        elif ln.startswith("ielts: "):
+            cur["ielts"] = ln[7:]
+        elif ln.startswith("S: "):
+            en, vi, model = [x.strip() for x in ln[3:].split(" | ")]
+            cur["s"] = {"en": en, "vi": vi, "model": model}
+    return units
+
+
+def parse_topic_words() -> dict[int, list[dict]]:
+    out: dict[int, list[dict]] = {}
+    unit = 0
+    for ln in lines("topic_vocab.txt"):
+        if ln.startswith("#"):
+            unit = int(ln[1:].split()[0])
+            out[unit] = []
+            continue
+        parts = ln.split("|")
+        out[unit].append({"head": parts[0], "pos": parts[1], "meaning": parts[2], "recognize": len(parts) > 3 and parts[3] == "~"})
+    return out
+
+
+def parse_examples(name: str) -> dict[str, dict]:
+    out = {}
+    for ln in lines(name):
+        head, meaning, ex = ln.split("|")
+        en, vi = pair(ex)
+        out[head.strip()] = {"head": head.strip(), "meaning": meaning.strip(), "en": en, "vi": vi}
+    return out
+
+
+def parse_wf() -> dict[str, dict]:
+    out = {}
+    for ln in lines("word_formation.txt"):
+        base, pos, meaning, forms = ln.split("|")
+        out[base] = {"head": base, "pos": pos, "meaning": meaning, "forms": [tuple(f.strip().split("=")) for f in forms.split(",")]}
+    return out
+
+
+# -------------------------------------------------------------- exercises --
+def mcq(ex_id: str, title: str, cloze: str | None, prompt_vi: str | None, options: list[str], why: str, instruction: str) -> dict:
+    """One multiple-choice exercise; `options[0]` is the right answer, shown in a fixed shuffled order."""
+    order = options[:]
+    rng(ex_id).shuffle(order)
+    q = {
+        "id": ex_id,
+        "options": [{"id": str(i + 1), "text": t} for i, t in enumerate(order)],
+        "answer": str(order.index(options[0]) + 1),
+        "explanation_vi": why,
+        "tags": [],
+    }
+    if prompt_vi:
+        q["prompt_vi"] = prompt_vi
+    out = {"id": ex_id, "skill": "reading", "type": "read_cloze" if cloze else "read_match", "title_vi": title, "instruction_vi": instruction, "questions": [q]}
+    if cloze:
+        out["stimulus"] = {"kind": "cloze", "text": cloze}
+    return out
+
+
+def tiles_of(sentence: str, key: str) -> list[str]:
+    """The words of the sentence, one tile each, in a fixed shuffled order (never the right one)."""
+    words = sentence.split(" ")
+    shuffled = words[:]
+    r = rng(key)
+    for _ in range(50):
+        r.shuffle(shuffled)
+        if shuffled != words:
+            break
+    return shuffled
+
+
+def fits_tiles(sentence: str) -> bool:
+    return 3 <= len(sentence.split(" ")) <= 10
+
+
+def build_order(ex_id: str, title: str, meaning_vi: str, sentence: str) -> dict:
+    return {
+        "id": ex_id, "skill": "build", "type": "build_order", "rung": 1, "title_vi": title,
+        "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+        "meaning_vi": meaning_vi, "tiles": tiles_of(sentence, ex_id), "answers": [sentence],
+    }
+
+
+def write_fill(ex_id: str, title: str, text: str, accepted: list[str], tip: str) -> dict:
+    return {
+        "id": ex_id, "skill": "build", "type": "write_fill", "rung": 2, "number": "Bước 2", "title_vi": title, "points": 3,
+        "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.", "text": text,
+        "blanks": [{"id": "㉠", "points": 3, "accepted": accepted, "common_errors_vi": tip}], "tips_vi": [],
+    }
+
+
+def speak(ex_id: str, title: str, s: dict, patterns: list[str]) -> dict:
+    return {
+        "id": ex_id, "skill": "speaking", "type": "speak", "number": "S1", "title_vi": title, "max_points": 9,
+        "prep_sec": 60, "answer_sec": 60, "prompt_ko": s["en"], "prompt_vi": s["vi"],
+        "plan": [
+            {"when_vi": "1 phút chuẩn bị", "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."},
+            {"when_vi": "0–15 giây", "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."},
+            {"when_vi": "15–45 giây", "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."},
+            {"when_vi": "45–60 giây", "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."},
+        ],
+        "tips_vi": [
+            "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+            "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng.",
+        ],
+        "patterns_vi": patterns[:4], "model_answer_ko": s["model"],
+    }
+
+
+def dictation(ex_id: str, title: str, sentences: list[tuple[str, str]], focus: list[tuple[str, str]]) -> dict | None:
+    picked: list[tuple[str, str]] = []
+    for en, vi in sentences:
+        if len(picked) < 3 and sum(len(e) for e, _ in picked) + len(en) <= 125:
+            picked.append((en, vi))
+    if len(picked) < 2 or len(focus) < 2:
+        return None
+    return {
+        "id": ex_id, "skill": "listening", "type": "listen_dictation", "title_vi": title,
+        "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+        "stimulus": {"kind": "audio", "turns": [{"speaker": "FM"[i % 2], "text": en, "vi": vi} for i, (en, vi) in enumerate(picked)]},
+        "focus": [{"ko": k, "vi": v} for k, v in focus[:6]],
+        "tips_vi": ["Chú ý âm cuối của từ (-s, -ed, -t, -d): đó là chỗ người Việt hay nghe sót và nói sót."],
+    }
+
+
+def alternatives(head: str) -> set[str]:
+    return {w for w in re.split(r"[ /()]", head) if w}
+
+
+def gap(example: str) -> tuple[str, str]:
+    m = re.search(r"\[(.+?)\]", example)
+    return example[: m.start()] + "( )" + example[m.end() :], m.group(1)
+
+
+def plain(example: str) -> str:
+    return re.sub(r"\[(.+?)\]", r"\1", example)
+
+
+# ------------------------------------------------------------------ lessons --
+def goal_note(u: dict, vocab_unit: bool) -> dict:
+    kind = "Unit từ vựng" if vocab_unit else "Unit ngữ pháp"
+    body = (
+        f"• 🎯 {u['goal']}\n"
+        f"• 📖 Trong sách: {kind} {u['n']}, trang {u['pages'].replace('-', '–')}. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n"
+        "• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai."
+    )
+    return {"title": "Mục tiêu của bài", "body": body, "kind": "goal"}
+
+
+def grammar_lesson(u: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]]:
+    n = u["n"]
+    pid = f"B1U{n:02d}"
+    title = f"Luyện · Unit {n}"
+    bank: dict[str, list[dict]] = {"reading": [], "build": [], "speaking": [], "listening": []}
+    links: dict[str, list[str]] = {}
+    patterns = [c["pattern"] for c in u["cards"]]
+
+    by_card: dict[int, list[str]] = {}
+    for i, q in enumerate(u["q"], 1):
+        ex = mcq(f"{pid}Q{i}", f"Chọn dạng đúng · {u['title_vi']}"[:70], q["text"], None, q["options"], q["why"], "Chọn phương án đúng cho chỗ trống.")
+        bank["reading"].append(ex)
+        links[ex["id"]] = [patterns[q["card"]]]
+        by_card.setdefault(q["card"], []).append(ex["id"])
+    for i, (vi, en) in enumerate(u["b"], 1):
+        if not fits_tiles(en):
+            raise SystemExit(f"Unit {n}: build sentence has more than 10 words: {en!r}")
+        bank["build"].append(build_order(f"{pid}B{i}", f"Xếp câu · Unit {n}", vi, en))
+    for i, f in enumerate(u["f"], 1):
+        bank["build"].append(write_fill(f"{pid}F{i}", f"Sửa và hoàn thành câu · Unit {n}", f["text"], f["accepted"], f["tip"]))
+    bank["speaking"].append(speak(f"{pid}S1", f"Nói · {u['title_vi']}"[:70], u["s"], patterns))
+    d = dictation(f"{pid}D1", f"Nghe chép · Unit {n}", [c["ex"][0] for c in u["cards"]] + [w["ex"] for w in u["words"]],
+                  [(w["head"], w["meaning"]) for w in u["words"]])
+    if d:
+        bank["listening"].append(d)
+
+    vocab = [
+        {"hangul": w["head"], "pos": w["pos"], "meaning_vi": w["meaning"], "example_ko": w["ex"][0], "example_vi": w["ex"][1],
+         "family": "Từ khóa của bài", "priority": "core", "source": f"Haru English · B1 Unit {n}"}
+        for w in u["words"]
+    ]
+    grammar = []
+    for c in u["cards"]:
+        g = {"pattern": c["pattern"], "meaning_vi": c["meaning"], "usage_context_vi": c["use"], "contrasts": c["vs"],
+             "example_ko": "\n".join(e for e, _ in c["ex"]), "example_vi": "\n".join(v for _, v in c["ex"]),
+             "importance": c["importance"], "source": f"{BOOK}, Unit {n}, pp. {u['pages']}"}
+        if c["trap"]:
+            g["note_vi"] = "Lỗi người Việt hay mắc: " + c["trap"]
+        if c["tip"]:
+            g["topik_tip_vi"] = c["tip"]
+        grammar.append(g)
+
+    # sittings: at most three cards each; the key words go with the first; each sitting closes with its cards' questions
+    groups = [list(range(len(patterns)))] if len(patterns) <= 3 else [list(range(2)), list(range(2, len(patterns)))]
+    rest = [e["id"] for e in bank["build"]] + [e["id"] for e in bank["listening"]]
+    sessions = []
+    for gi, idx in enumerate(groups):
+        checks = [qid for c in idx for qid in by_card.get(c, [])]
+        if gi == len(groups) - 1:
+            checks += rest + [f"{pid}S1"]
+        sessions.append({
+            "title_vi": (f"Buổi {gi + 1} · " + patterns[idx[0]].split(":")[0])[:70],
+            "can_do_vi": ("Sau buổi này bạn dùng được: " + "; ".join(u["cards"][c]["meaning"].lower() for c in idx) + ".")[:240],
+            "use_vi": u["ielts"][:200],
+            "vocab": [w["head"] for w in u["words"]] if gi == 0 else [],
+            "grammar": [patterns[c] for c in idx],
+            "check": checks,
+        })
+    traps = [c["trap"] for c in u["cards"] if c["trap"] and len(c["trap"]) <= 230 and c["trap"].count("`") % 2 == 0]
+    lesson = {
+        "slug": f"b1-u{n:02d}-{slugify(u['title'])}"[:60].rstrip("-"),
+        "title": f"Unit {n} · {u['title_vi']}", "title_ko": u["title"], "topic": TOPIC, "track": "beginner", "level": 3, "sort_order": n,
+        "summary": f"{u['goal']} Ngữ pháp: {'; '.join(patterns)}.",
+        "vocab": vocab, "grammar": grammar,
+        "notes": [goal_note(u, False), {"title": "Dùng ở đâu trong IELTS", "body": u["ielts"], "kind": "language"}],
+        "bank": "b1",
+        "coach": {"focus_vi": [f"{c['pattern']}: {c['meaning']}"[:230] for c in u["cards"][:3]], "watch_out_vi": traps[:2]},
+        "exercise_ids": [e["id"] for k in ("reading", "build", "listening", "speaking") for e in bank[k]],
+        "sessions": sessions,
+        "editor_notes": [{"title": "Nguồn", "body": f"Tiêu đề và số trang theo mục lục {BOOK}. Giải thích, ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."}],
+    }
+    return lesson, bank, links
+
+
+def vocab_lesson(u: dict, topic: list[dict], trays: dict[str, list[dict]], unverified: list[str]) -> tuple[dict, dict[str, list[dict]]]:
+    n = u["n"]
+    pid = f"B1U{n:02d}"
+    bank: dict[str, list[dict]] = {"reading": [], "build": [], "speaking": [], "listening": []}
+    src = f"{BOOK}, Unit {n}, pp. {u['pages']}"
+    vocab: list[dict] = []
+    seen: dict[str, dict] = {}
+
+    def add(card: dict) -> None:
+        seen[card["hangul"]] = card
+        vocab.append(card)
+
+    for w in topic:
+        add({"hangul": w["head"], "pos": w["pos"], "meaning_vi": w["meaning"], "family": "1 · Topic vocabulary",
+             "priority": "recognize" if w["recognize"] else "core", "source": src + "; word list pp. 184–201"})
+    for kind, fam, pos in (("PV", "2 · Phrasal verbs", "V"), ("PP", "3 · Prepositional phrases", "X"), ("WP", "4 · Word patterns", "X")):
+        for it in trays[kind]:
+            add({"hangul": it["head"], "pos": pos, "meaning_vi": it["meaning"], "example_ko": plain(it["en"]), "example_vi": it["vi"],
+                 "family": fam, "priority": "core", "source": src})
+    wf_cards = []
+    for it in trays["WF"]:
+        forms = ", ".join(f"`{f}` ({LABEL[l]})" for f, l in it["forms"])
+        if it["head"] in seen:  # the base is already a topic word of this unit: its forms go on that card
+            seen[it["head"]]["note_vi"] = "Họ từ: " + forms
+            continue
+        card = {"hangul": it["head"], "pos": it["pos"], "meaning_vi": it["meaning"], "note_vi": "Họ từ: " + forms,
+                "family": "5 · Word formation", "priority": "core", "source": src + "; word formation pp. 212–216"}
+        add(card)
+        wf_cards.append(it)
+
+    # --- exercises
+    heads = [w["head"] for w in topic]
+    r = rng(pid)
+    quiz = r.sample(topic, min(10, len(topic)))
+    meaning_ids: dict[str, str] = {}
+    for i, w in enumerate(quiz, 1):
+        same = [x["head"] for x in topic if x["pos"] == w["pos"] and x["head"] != w["head"]] or [h for h in heads if h != w["head"]]
+        wrong = rng(pid + w["head"]).sample(same, min(3, len(same)))
+        short = re.sub(r"\(.*?\)", "", w["meaning"]).strip(" ;")
+        ex = mcq(f"{pid}M{i}", f"Chọn từ đúng nghĩa · Unit {n}", None, f"Từ nào có nghĩa «{short}»?", [w["head"], *wrong],
+                 f"`{w['head']}`: {w['meaning']}.", "Chọn từ tiếng Anh đúng với nghĩa đã cho.")
+        bank["reading"].append(ex)
+        meaning_ids[w["head"]] = ex["id"]
+    cloze_ids: dict[str, str] = {}
+    k = 0
+    for kind, pool, label in (("PV", PARTICLES, "Cụm động từ"), ("PP", PREPS, "Cụm giới từ"), ("WP", PREPS, "Giới từ theo sau")):
+        for it in trays[kind]:
+            k += 1
+            text, answer = gap(it["en"])
+            avoid = {a.lower() for a in alternatives(it["head"])} | {answer.lower()}
+            wrong = [p for p in rng(pid + it["head"]).sample(pool, len(pool)) if p not in avoid][:3]
+            shown = [w.capitalize() if answer[0].isupper() else w for w in wrong]
+            ex = mcq(f"{pid}C{k}", f"{label} · Unit {n}", text, None, [answer, *shown], f"`{it['head']}`: {it['meaning']}.",
+                     "Chọn từ đúng cho chỗ trống.")
+            bank["reading"].append(ex)
+            cloze_ids[it["head"]] = ex["id"]
+    short_pv = sorted((it for it in trays["PV"] if fits_tiles(plain(it["en"]).rstrip(".!?"))), key=lambda it: len(it["en"]))[:3]
+    for i, it in enumerate(short_pv, 1):
+        bank["build"].append(build_order(f"{pid}B{i}", f"Xếp câu · Unit {n}", it["vi"], plain(it["en"]).rstrip(".!?")))
+    wf_ids: dict[str, str] = {}
+    for i, it in enumerate(wf_cards[:8], 1):
+        form, label = next(((f, l) for f, l in it["forms"] if l in "NPAX"), it["forms"][0])
+        ex = write_fill(f"{pid}F{i}", f"Biến đổi từ loại · Unit {n}", f"Dạng {LABEL[label]} của «{it['head']}» là ( ㉠ ).", [form],
+                        f"`{it['head']}` → `{form}` ({LABEL[label]}).")
+        bank["build"].append(ex)
+        wf_ids[it["head"]] = ex["id"]
+    bank["speaking"].append(speak(f"{pid}S1", f"Nói · {u['title_vi']}"[:70], u["s"], []))
+    d = dictation(f"{pid}D1", f"Nghe chép · Unit {n}", [(plain(it["en"]), it["vi"]) for kind in ("WP", "PV", "PP") for it in trays[kind]],
+                  [(w["head"], re.sub(r"\(.*?\)", "", w["meaning"]).strip(" ;")) for w in topic[:6]])
+    if d:
+        bank["listening"].append(d)
+
+    # --- sittings: at most 16 new items each
+    def chunks(seq: list[str], size: int) -> list[list[str]]:
+        k = max(1, -(-len(seq) // size))
+        per = -(-len(seq) // k)
+        return [seq[i : i + per] for i in range(0, len(seq), per)]
+
+    sessions = []
+    for i, part in enumerate(chunks(heads, 16), 1):
+        sessions.append({
+            "title_vi": f"Từ chủ đề {i} · {u['title_vi']}"[:70],
+            "can_do_vi": f"Sau buổi này bạn nhận ra và dùng được {len(part)} từ chủ đề «{u['title_vi']}», từ «{part[0]}» đến «{part[-1]}».",
+            "vocab": part, "check": [meaning_ids[h] for h in part if h in meaning_ids],
+        })
+    phr = [it["head"] for it in trays["PV"]] + [it["head"] for it in trays["PP"]]
+    for i, part in enumerate(chunks(phr, 16), 1):
+        sessions.append({
+            "title_vi": f"Cụm động từ và cụm giới từ {i}"[:70],
+            "can_do_vi": "Sau buổi này bạn chọn đúng tiểu từ và giới từ trong các cụm cố định của Unit, không dịch từng chữ từ tiếng Việt.",
+            "vocab": part, "check": [cloze_ids[h] for h in part] + ([e["id"] for e in bank["build"] if e["type"] == "build_order"] if i == 1 else []),
+        })
+    wp = [it["head"] for it in trays["WP"]]
+    if wp:
+        sessions.append({
+            "title_vi": "Giới từ theo sau động từ, tính từ, danh từ",
+            "can_do_vi": "Sau buổi này bạn dùng đúng giới từ đi sau các động từ, tính từ và danh từ của Unit: lỗi mất điểm nhiều nhất của người Việt.",
+            "vocab": wp, "check": [cloze_ids[h] for h in wp],
+        })
+    wf = [it["head"] for it in wf_cards]
+    last_checks = list(wf_ids.values()) + [e["id"] for e in bank["listening"]] + [f"{pid}S1"]
+    if wf:
+        sessions.append({
+            "title_vi": "Biến đổi từ loại và phần Nói",
+            "can_do_vi": "Sau buổi này bạn đổi được từ gốc sang danh từ, tính từ hoặc dạng trái nghĩa, và nói được một phút về chủ đề của Unit.",
+            "vocab": wf, "check": last_checks,
+        })
+    else:
+        sessions[-1]["check"] += last_checks
+
+    notes = [goal_note(u, True), {"title": "Dùng ở đâu trong IELTS", "body": u["ielts"], "kind": "language"}]
+    editor = [{"title": "Nguồn", "body": f"Danh sách từ theo {BOOK}, pp. 184–216. Nghĩa tiếng Việt, câu ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."}]
+    if unverified:
+        editor.append({"title": "Cần đối chiếu với sách", "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: " + ", ".join(unverified) + "."})
+    lesson = {
+        "slug": f"b1-u{n:02d}-{slugify(u['title'])}", "title": f"Unit {n} · {u['title_vi']}", "title_ko": u["title"], "topic": TOPIC,
+        "track": "beginner", "level": 3, "sort_order": n,
+        "summary": f"{u['goal']} {len(topic)} từ chủ đề, {len(trays['PV'])} cụm động từ, {len(trays['PP'])} cụm giới từ, {len(trays['WP'])} mẫu giới từ, {len(trays['WF'])} họ từ.",
+        "vocab": vocab, "notes": notes, "bank": "b1",
+        "coach": {
+            "focus_vi": [
+                "Học cụm, không học từ rời: mỗi cụm động từ, cụm giới từ và mẫu giới từ đi kèm một câu ví dụ.",
+                "Từ chủ đề chỉ cần nhận ra khi đọc và nghe; các cụm và mẫu giới từ phải dùng được khi nói và viết.",
+            ],
+            "watch_out_vi": ["Giới từ tiếng Anh không dịch được từ tiếng Việt: học cả cụm như một khối."],
+        },
+        "exercise_ids": [e["id"] for kk in ("reading", "build", "listening", "speaking") for e in bank[kk]],
+        "sessions": sessions, "editor_notes": editor,
+    }
+    return lesson, bank
+
+
+GUIDES = {
+    "reading": [{"title_vi": "Cách làm", "body_vi": "Đọc cả câu trước khi nhìn phương án. Với câu về giới từ, hãy tự nhẩm đáp án rồi mới đối chiếu. Sai câu nào, mở lại thẻ của câu đó."}],
+    "build": [{"title_vi": "Cách làm", "body_vi": "Xếp câu trước, gõ câu sau. Khi gõ sai, đọc phần giải thích rồi tự viết thêm một câu của chính bạn với cùng cấu trúc."}],
+    "listening": [{"title_vi": "Cách làm", "body_vi": "Nghe hết một lượt không dừng, lượt hai mới gõ. Sau khi xem đáp án, đọc đuổi theo băng hai lần."}],
+    "speaking": [{
+        "title_vi": "Bốn mức chuẩn bị",
+        "bullets_vi": [
+            "Mức 1 (mới bắt đầu): viết đủ câu trả lời bằng câu đơn, chủ ngữ dễ (I, it, there), rồi đọc to.",
+            "Mức 2 (có nền): chỉ ghi ý bằng từ khóa và mũi tên, ít nhất ba mũi tên.",
+            "Mức 3 (có phản xạ): đọc câu hỏi rồi nói ngay, không viết.",
+            "Mức 4: nói, ghi âm, nghe lại và tự sửa.",
+        ],
+    }],
+}
+
+
+def main() -> None:
+    assign = json.loads((HERE / "unit_assignment.json").read_text(encoding="utf-8"))
+    grammar = parse_grammar()
+    vocab_units = parse_vocab_units()
+    topic = parse_topic_words()
+    sources = {"PV": parse_examples("phrasal_verbs.txt"), "PP": parse_examples("prep_phrases.txt"), "WP": parse_examples("word_patterns.txt"), "WF": parse_wf()}
+
+    LESSONS.mkdir(parents=True, exist_ok=True)
+    BANK.mkdir(parents=True, exist_ok=True)
+    for old in LESSONS.glob("b1-*.json"):
+        old.unlink()
+    bank: dict[str, list[dict]] = {"reading": [], "build": [], "speaking": [], "listening": []}
+    links: dict[str, list[str]] = {}
+    count = {"lessons": 0, "words": 0, "cards": 0, "exercises": 0, "sittings": 0}
+    for n in range(1, 43):
+        if n in grammar:
+            lesson, b, l = grammar_lesson(grammar[n])
+            links.update(l)
+        else:
+            trays = {k: [sources[k][h] for h, u in assign["by_kind"][k].items() if u == n] for k in sources}
+            flagged = [h for k in sources for h in assign["unverified"].get(k, []) if assign["by_kind"][k][h] == n]
+            lesson, b = vocab_lesson(vocab_units[n], topic[n], trays, flagged)
+        for k in bank:
+            bank[k] += b[k]
+        (LESSONS / f"{lesson['slug']}.json").write_text(json.dumps(lesson, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        count["lessons"] += 1
+        count["words"] += len(lesson["vocab"])
+        count["cards"] += len(lesson.get("grammar", []))
+        count["exercises"] += len(lesson["exercise_ids"])
+        count["sittings"] += len(lesson["sessions"])
+    for k, items in bank.items():
+        (BANK / f"{k}.json").write_text(json.dumps({"skill": k, "guide": GUIDES[k], "items": items}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    (BANK / "grammar_links.json").write_text(json.dumps({"links": links}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    (BANK / "overview.json").write_text(json.dumps({
+        "blocks": [{
+            "title_vi": "Cách học một Unit",
+            "bullets_vi": [
+                "Học thẻ trong app trước: mỗi buổi khoảng 15 phút, kết thúc bằng vài câu kiểm tra.",
+                "Mở sách Destination B1, làm các bài tập của Unit đó và tự chấm bằng đáp án cuối sách.",
+                "Làm phần Nghe chép và phần Nói của Unit; ghi âm và nói lại lần hai.",
+                "Sau mỗi ba Unit, làm bài Review trong sách; sau Unit 21 và Unit 42, làm Progress Test.",
+            ],
+        }],
+        "disclaimer_vi": ["Giải thích, ví dụ và câu hỏi trong app do khóa học tự soạn theo mục lục của sách; bài tập gốc nằm trong sách của bạn."],
+    }, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    print(count)
+
+
+if __name__ == "__main__":
+    main()

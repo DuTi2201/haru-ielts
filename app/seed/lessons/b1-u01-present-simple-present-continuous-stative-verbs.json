@@ -1,0 +1,193 @@
+{
+ "slug": "b1-u01-present-simple-present-continuous-stative-verbs",
+ "title": "Unit 1 · Hiện tại đơn, hiện tại tiếp diễn, động từ trạng thái",
+ "title_ko": "Present simple, present continuous, stative verbs",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 1,
+ "summary": "Nói và viết đúng về thói quen, sự thật và việc đang diễn ra; không chia tiếp diễn với động từ trạng thái. Ngữ pháp: Present simple: S + V(s/es); Present continuous: am/is/are + V-ing; Stative verbs (know, like, want, believe…).",
+ "vocab": [
+  {
+   "hangul": "usually",
+   "pos": "X",
+   "meaning_vi": "thường thường",
+   "example_ko": "I usually have breakfast at seven.",
+   "example_vi": "Tôi thường ăn sáng lúc bảy giờ.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 1"
+  },
+  {
+   "hangul": "rarely",
+   "pos": "X",
+   "meaning_vi": "hiếm khi",
+   "example_ko": "He rarely eats meat.",
+   "example_vi": "Anh ấy hiếm khi ăn thịt.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 1"
+  },
+  {
+   "hangul": "at the moment",
+   "pos": "X",
+   "meaning_vi": "hiện tại, lúc này",
+   "example_ko": "She is working from home at the moment.",
+   "example_vi": "Hiện tại cô ấy làm việc ở nhà.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 1"
+  },
+  {
+   "hangul": "once a week",
+   "pos": "X",
+   "meaning_vi": "một lần mỗi tuần",
+   "example_ko": "I go swimming once a week.",
+   "example_vi": "Tôi đi bơi một lần mỗi tuần.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 1"
+  },
+  {
+   "hangul": "belong",
+   "pos": "V",
+   "meaning_vi": "thuộc về",
+   "example_ko": "This phone belongs to my brother.",
+   "example_vi": "Điện thoại này của em trai tôi.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 1"
+  },
+  {
+   "hangul": "prefer",
+   "pos": "V",
+   "meaning_vi": "thích hơn",
+   "example_ko": "I prefer tea to coffee.",
+   "example_vi": "Tôi thích trà hơn cà phê.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 1"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "Present simple: S + V(s/es)",
+   "meaning_vi": "Thói quen, sự thật, tình trạng lâu dài",
+   "usage_context_vi": "Dùng cho việc lặp lại (every day, usually), sự thật chung và tình trạng lâu dài.\n| Dạng | Cấu trúc | Ví dụ |\n| Khẳng định | I/you/we/they + V · he/she/it + V-s/es | She works in a bank. |\n| Phủ định | do not / does not + V | He does not work on Sundays. |\n| Nghi vấn | Do / Does + S + V? | Does she work here? |\nTrạng từ tần suất (always, usually, often, sometimes, rarely, never) đứng trước động từ thường, sau `be`.",
+   "contrasts": [],
+   "example_ko": "My sister works for a small company.\nI am often late for class.",
+   "example_vi": "Chị tôi làm cho một công ty nhỏ.\nTôi hay đến lớp muộn.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-8",
+   "note_vi": "Lỗi người Việt hay mắc: Tiếng Việt không chia động từ nên rất dễ quên `-s/-es` ở ngôi thứ ba số ít và quên `does` trong câu hỏi: ~~She work~~ → She works; ~~Does she works~~ → Does she work.",
+   "topik_tip_vi": "Lỗi thiếu `-s` lặp lại nhiều lần kéo điểm Grammatical Range and Accuracy xuống rõ rệt, cả khi nói lẫn khi viết."
+  },
+  {
+   "pattern": "Present continuous: am/is/are + V-ing",
+   "meaning_vi": "Việc đang diễn ra hoặc tạm thời",
+   "usage_context_vi": "Dùng cho việc đang xảy ra lúc nói (now, at the moment), tình huống tạm thời (this week) và thói quen gây khó chịu với `always`.\nPhủ định: am not / is not / are not + V-ing. Nghi vấn: Am / Is / Are + S + V-ing?",
+   "contrasts": [
+    {
+     "pattern": "Present simple: S + V(s/es)",
+     "diff_vi": "Hiện tại đơn là việc cố định, lặp lại; hiện tại tiếp diễn là việc tạm thời hoặc đang dở dang: I live in Hanoi (lâu dài) / I am living with my aunt this month (tạm thời)."
+    }
+   ],
+   "example_ko": "I am studying for my exams this month.\nHe is always losing his keys.",
+   "example_vi": "Tháng này tôi đang ôn thi.\nAnh ấy lúc nào cũng làm mất chìa khóa.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-8",
+   "note_vi": "Lỗi người Việt hay mắc: Quên `be`: ~~I studying~~ → I am studying. Dùng tiếp diễn cho thói quen: ~~I am going to school every day~~ → I go to school every day."
+  },
+  {
+   "pattern": "Stative verbs (know, like, want, believe…)",
+   "meaning_vi": "Động từ trạng thái không chia tiếp diễn",
+   "usage_context_vi": "Động từ chỉ trạng thái (suy nghĩ, cảm xúc, sở hữu, giác quan) thường không dùng ở thì tiếp diễn: be, believe, belong, hate, have (có), know, like, love, need, prefer, seem, think (cho rằng), understand, want.\nMột số động từ có hai nghĩa: think = cho rằng (trạng thái) / đang cân nhắc (hành động); have = có (trạng thái) / ăn, trải qua (hành động).",
+   "contrasts": [],
+   "example_ko": "I know the answer.\nWhat do you think about the plan? I am thinking about it now.",
+   "example_vi": "Tôi biết đáp án.\nBạn nghĩ gì về kế hoạch? Tôi đang cân nhắc đây.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-8",
+   "note_vi": "Lỗi người Việt hay mắc: ~~I am knowing~~, ~~I am wanting~~, ~~She is having a car~~ → I know, I want, She has a car."
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Nói và viết đúng về thói quen, sự thật và việc đang diễn ra; không chia tiếp diễn với động từ trạng thái.\n• 📖 Trong sách: Unit ngữ pháp 1, trang 6–8. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Speaking Part 1 hỏi về thói quen và sở thích: gần như mọi câu trả lời bắt đầu bằng hiện tại đơn. Writing Task 2 dùng hiện tại đơn cho nhận định chung.",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "Present simple: S + V(s/es): Thói quen, sự thật, tình trạng lâu dài",
+   "Present continuous: am/is/are + V-ing: Việc đang diễn ra hoặc tạm thời",
+   "Stative verbs (know, like, want, believe…): Động từ trạng thái không chia tiếp diễn"
+  ],
+  "watch_out_vi": [
+   "Tiếng Việt không chia động từ nên rất dễ quên `-s/-es` ở ngôi thứ ba số ít và quên `does` trong câu hỏi: ~~She work~~ → She works; ~~Does she works~~ → Does she work.",
+   "Quên `be`: ~~I studying~~ → I am studying. Dùng tiếp diễn cho thói quen: ~~I am going to school every day~~ → I go to school every day."
+  ]
+ },
+ "exercise_ids": [
+  "B1U01Q1",
+  "B1U01Q2",
+  "B1U01Q3",
+  "B1U01Q4",
+  "B1U01Q5",
+  "B1U01Q6",
+  "B1U01B1",
+  "B1U01B2",
+  "B1U01B3",
+  "B1U01F1",
+  "B1U01F2",
+  "B1U01D1",
+  "B1U01S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · Present simple",
+   "can_do_vi": "Sau buổi này bạn dùng được: thói quen, sự thật, tình trạng lâu dài; việc đang diễn ra hoặc tạm thời; động từ trạng thái không chia tiếp diễn.",
+   "use_vi": "Speaking Part 1 hỏi về thói quen và sở thích: gần như mọi câu trả lời bắt đầu bằng hiện tại đơn. Writing Task 2 dùng hiện tại đơn cho nhận định chung.",
+   "vocab": [
+    "usually",
+    "rarely",
+    "at the moment",
+    "once a week",
+    "belong",
+    "prefer"
+   ],
+   "grammar": [
+    "Present simple: S + V(s/es)",
+    "Present continuous: am/is/are + V-ing",
+    "Stative verbs (know, like, want, believe…)"
+   ],
+   "check": [
+    "B1U01Q1",
+    "B1U01Q4",
+    "B1U01Q2",
+    "B1U01Q5",
+    "B1U01Q3",
+    "B1U01Q6",
+    "B1U01B1",
+    "B1U01B2",
+    "B1U01B3",
+    "B1U01F1",
+    "B1U01F2",
+    "B1U01D1",
+    "B1U01S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Tiêu đề và số trang theo mục lục Destination B1 (Mann & Taylore-Knowles, Macmillan). Giải thích, ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  }
+ ]
+}

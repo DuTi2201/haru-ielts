@@ -1,0 +1,197 @@
+{
+ "slug": "b1-u04-present-perfect-simple-present-perfect-continuous",
+ "title": "Unit 4 · Hiện tại hoàn thành và hiện tại hoàn thành tiếp diễn",
+ "title_ko": "Present perfect simple, present perfect continuous",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 4,
+ "summary": "Nối quá khứ với hiện tại: kinh nghiệm, việc vừa xong, việc kéo dài đến bây giờ. Ngữ pháp: Present perfect simple: have/has + V3; for / since; Present perfect continuous: have/has been + V-ing.",
+ "vocab": [
+  {
+   "hangul": "already",
+   "pos": "X",
+   "meaning_vi": "rồi (xong sớm hơn dự kiến)",
+   "example_ko": "I have already finished my homework.",
+   "example_vi": "Tôi làm xong bài tập rồi.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 4"
+  },
+  {
+   "hangul": "yet",
+   "pos": "X",
+   "meaning_vi": "chưa (trong câu phủ định, câu hỏi)",
+   "example_ko": "Have you eaten yet?",
+   "example_vi": "Bạn ăn chưa?",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 4"
+  },
+  {
+   "hangul": "just",
+   "pos": "X",
+   "meaning_vi": "vừa mới",
+   "example_ko": "She has just left.",
+   "example_vi": "Cô ấy vừa đi.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 4"
+  },
+  {
+   "hangul": "ever",
+   "pos": "X",
+   "meaning_vi": "đã từng (trong câu hỏi)",
+   "example_ko": "Have you ever been abroad?",
+   "example_vi": "Bạn đã từng ra nước ngoài chưa?",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 4"
+  },
+  {
+   "hangul": "recently",
+   "pos": "X",
+   "meaning_vi": "gần đây",
+   "example_ko": "Prices have risen recently.",
+   "example_vi": "Gần đây giá cả đã tăng.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 4"
+  },
+  {
+   "hangul": "so far",
+   "pos": "X",
+   "meaning_vi": "cho đến nay",
+   "example_ko": "We have had three tests so far.",
+   "example_vi": "Đến nay chúng tôi đã làm ba bài kiểm tra.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 4"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "Present perfect simple: have/has + V3",
+   "meaning_vi": "Việc trong quá khứ có liên hệ với hiện tại",
+   "usage_context_vi": "Dùng cho (1) kinh nghiệm đến nay (ever, never), (2) việc vừa xong có kết quả ở hiện tại (just, already, yet), (3) tình trạng bắt đầu từ trước và còn tiếp diễn (for, since).\nKhông đi với thời điểm quá khứ xác định (yesterday, in 2019, last week).",
+   "contrasts": [
+    {
+     "pattern": "Past simple: V-ed / irregular",
+     "diff_vi": "Hiện tại hoàn thành không nói khi nào; quá khứ đơn nói rõ khi nào: I have been to Japan / I went to Japan in 2022."
+    }
+   ],
+   "example_ko": "I have visited Hue twice.\nShe has lived here since 2018.",
+   "example_vi": "Tôi đã đến Huế hai lần.\nCô ấy sống ở đây từ năm 2018.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 4, pp. 18-20",
+   "note_vi": "Lỗi người Việt hay mắc: Tiếng Việt dùng \"đã\" cho cả hai thì nên dễ viết ~~I have seen him yesterday~~ → I saw him yesterday. Có thời điểm xác định thì dùng quá khứ đơn.",
+   "topik_tip_vi": "Câu nêu xu hướng trong mở bài Task 2: In recent years, online shopping has become very popular."
+  },
+  {
+   "pattern": "for / since",
+   "meaning_vi": "for + khoảng thời gian · since + mốc thời gian",
+   "usage_context_vi": "`for two years`, `for a long time` (kéo dài bao lâu); `since 2018`, `since Monday`, `since I was a child` (từ lúc nào).",
+   "contrasts": [],
+   "example_ko": "We have known each other for ten years.\nI have not eaten since breakfast.",
+   "example_vi": "Chúng tôi quen nhau mười năm rồi.\nTôi chưa ăn gì từ bữa sáng.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 4, pp. 18-20",
+   "note_vi": "Lỗi người Việt hay mắc: ~~since two years~~ → for two years. Và ~~I live here for five years~~ → I have lived here for five years (vẫn đang sống)."
+  },
+  {
+   "pattern": "Present perfect continuous: have/has been + V-ing",
+   "meaning_vi": "Nhấn vào quá trình kéo dài đến hiện tại",
+   "usage_context_vi": "Dùng khi muốn nhấn việc đã kéo dài bao lâu hoặc giải thích một tình trạng hiện tại. Không dùng với động từ trạng thái (know, like).",
+   "contrasts": [
+    {
+     "pattern": "Present perfect simple: have/has + V3",
+     "diff_vi": "Dạng đơn nhấn kết quả hoặc số lượng (I have read three chapters); dạng tiếp diễn nhấn quá trình (I have been reading all morning)."
+    }
+   ],
+   "example_ko": "I have been learning English for three years.\nYour eyes are red. Have you been crying?",
+   "example_vi": "Tôi học tiếng Anh được ba năm rồi.\nMắt bạn đỏ kìa. Bạn vừa khóc à?",
+   "importance": "normal",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 4, pp. 18-20"
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Nối quá khứ với hiện tại: kinh nghiệm, việc vừa xong, việc kéo dài đến bây giờ.\n• 📖 Trong sách: Unit ngữ pháp 4, trang 18–20. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Writing Task 2 mở bài thường dùng hiện tại hoàn thành cho xu hướng gần đây (has become, have increased). Speaking Part 1: How long have you…?",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "Present perfect simple: have/has + V3: Việc trong quá khứ có liên hệ với hiện tại",
+   "for / since: for + khoảng thời gian · since + mốc thời gian",
+   "Present perfect continuous: have/has been + V-ing: Nhấn vào quá trình kéo dài đến hiện tại"
+  ],
+  "watch_out_vi": [
+   "Tiếng Việt dùng \"đã\" cho cả hai thì nên dễ viết ~~I have seen him yesterday~~ → I saw him yesterday. Có thời điểm xác định thì dùng quá khứ đơn.",
+   "~~since two years~~ → for two years. Và ~~I live here for five years~~ → I have lived here for five years (vẫn đang sống)."
+  ]
+ },
+ "exercise_ids": [
+  "B1U04Q1",
+  "B1U04Q2",
+  "B1U04Q3",
+  "B1U04Q4",
+  "B1U04Q5",
+  "B1U04Q6",
+  "B1U04B1",
+  "B1U04B2",
+  "B1U04B3",
+  "B1U04F1",
+  "B1U04F2",
+  "B1U04D1",
+  "B1U04S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · Present perfect simple",
+   "can_do_vi": "Sau buổi này bạn dùng được: việc trong quá khứ có liên hệ với hiện tại; for + khoảng thời gian · since + mốc thời gian; nhấn vào quá trình kéo dài đến hiện tại.",
+   "use_vi": "Writing Task 2 mở bài thường dùng hiện tại hoàn thành cho xu hướng gần đây (has become, have increased). Speaking Part 1: How long have you…?",
+   "vocab": [
+    "already",
+    "yet",
+    "just",
+    "ever",
+    "recently",
+    "so far"
+   ],
+   "grammar": [
+    "Present perfect simple: have/has + V3",
+    "for / since",
+    "Present perfect continuous: have/has been + V-ing"
+   ],
+   "check": [
+    "B1U04Q1",
+    "B1U04Q2",
+    "B1U04Q4",
+    "B1U04Q6",
+    "B1U04Q3",
+    "B1U04Q5",
+    "B1U04B1",
+    "B1U04B2",
+    "B1U04B3",
+    "B1U04F1",
+    "B1U04F2",
+    "B1U04D1",
+    "B1U04S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Tiêu đề và số trang theo mục lục Destination B1 (Mann & Taylore-Knowles, Macmillan). Giải thích, ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  }
+ ]
+}

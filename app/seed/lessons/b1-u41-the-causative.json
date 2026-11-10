@@ -1,0 +1,176 @@
+{
+ "slug": "b1-u41-the-causative",
+ "title": "Unit 41 · Thể sai khiến: have/get something done",
+ "title_ko": "The causative",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 41,
+ "summary": "Nói về việc mình nhờ hoặc thuê người khác làm. Ngữ pháp: have + object + V3; get + object + V3; have + object + V3 (something bad happens).",
+ "vocab": [
+  {
+   "hangul": "repair",
+   "pos": "V",
+   "meaning_vi": "sửa chữa",
+   "example_ko": "I had my watch repaired.",
+   "example_vi": "Tôi mang đồng hồ đi sửa.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 41"
+  },
+  {
+   "hangul": "deliver",
+   "pos": "V",
+   "meaning_vi": "giao",
+   "example_ko": "We had a pizza delivered.",
+   "example_vi": "Chúng tôi gọi pizza giao tận nhà.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 41"
+  },
+  {
+   "hangul": "check",
+   "pos": "V",
+   "meaning_vi": "kiểm tra",
+   "example_ko": "You should have your eyes checked.",
+   "example_vi": "Bạn nên đi kiểm tra mắt.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 41"
+  },
+  {
+   "hangul": "install",
+   "pos": "V",
+   "meaning_vi": "lắp đặt",
+   "example_ko": "They had a new kitchen installed.",
+   "example_vi": "Họ cho lắp bếp mới.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 41"
+  },
+  {
+   "hangul": "service",
+   "pos": "V",
+   "meaning_vi": "bảo dưỡng (xe, máy)",
+   "example_ko": "I have my motorbike serviced every six months.",
+   "example_vi": "Sáu tháng tôi cho bảo dưỡng xe máy một lần.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 41"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "have + object + V3",
+   "meaning_vi": "Nhờ, thuê người khác làm việc gì",
+   "usage_context_vi": "Chủ ngữ không tự làm mà sắp xếp cho người khác làm. `have` chia theo thì: I had / am having / will have / have had…",
+   "contrasts": [
+    {
+     "pattern": "be + V3 (present and past simple passive)",
+     "diff_vi": "Bị động nói việc được làm; causative nói rõ ai là người sắp xếp cho việc đó được làm."
+    }
+   ],
+   "example_ko": "I had my hair cut yesterday.\nWe are having the house painted next week.",
+   "example_vi": "Hôm qua tôi đi cắt tóc.\nTuần sau chúng tôi cho sơn nhà.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 41, pp. 169-171",
+   "note_vi": "Lỗi người Việt hay mắc: Tiếng Việt nói \"tôi cắt tóc\" cho cả hai trường hợp nên dễ viết ~~I cut my hair yesterday~~ (nghĩa là tự cắt). Sai trật tự: ~~I had cut my hair~~ (thành quá khứ hoàn thành) → I had my hair cut."
+  },
+  {
+   "pattern": "get + object + V3",
+   "meaning_vi": "Giống have + object + V3, thân mật hơn",
+   "usage_context_vi": "Thường dùng trong văn nói.",
+   "contrasts": [],
+   "example_ko": "I need to get my phone fixed.\nWhere did you get your photos printed?",
+   "example_vi": "Tôi cần mang điện thoại đi sửa.\nBạn in ảnh ở đâu thế?",
+   "importance": "normal",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 41, pp. 169-171"
+  },
+  {
+   "pattern": "have + object + V3 (something bad happens)",
+   "meaning_vi": "Bị ai đó làm điều không mong muốn",
+   "usage_context_vi": "Cùng cấu trúc nhưng chỉ việc xấu xảy ra với mình.",
+   "contrasts": [],
+   "example_ko": "She had her bag stolen on the bus.\nHe had his car damaged in the storm.",
+   "example_vi": "Cô ấy bị móc túi trên xe buýt.\nXe anh ấy bị hư hại trong cơn bão.",
+   "importance": "normal",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 41, pp. 169-171"
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Nói về việc mình nhờ hoặc thuê người khác làm.\n• 📖 Trong sách: Unit ngữ pháp 41, trang 169–171. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Dùng tự nhiên trong Speaking Part 1 và Part 2 khi nói về dịch vụ hằng ngày: have my hair cut, get my phone repaired.",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "have + object + V3: Nhờ, thuê người khác làm việc gì",
+   "get + object + V3: Giống have + object + V3, thân mật hơn",
+   "have + object + V3 (something bad happens): Bị ai đó làm điều không mong muốn"
+  ],
+  "watch_out_vi": [
+   "Tiếng Việt nói \"tôi cắt tóc\" cho cả hai trường hợp nên dễ viết ~~I cut my hair yesterday~~ (nghĩa là tự cắt). Sai trật tự: ~~I had cut my hair~~ (thành quá khứ hoàn thành) → I had my hair cut."
+  ]
+ },
+ "exercise_ids": [
+  "B1U41Q1",
+  "B1U41Q2",
+  "B1U41Q3",
+  "B1U41Q4",
+  "B1U41Q5",
+  "B1U41B1",
+  "B1U41B2",
+  "B1U41B3",
+  "B1U41F1",
+  "B1U41F2",
+  "B1U41D1",
+  "B1U41S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · have + object + V3",
+   "can_do_vi": "Sau buổi này bạn dùng được: nhờ, thuê người khác làm việc gì; giống have + object + v3, thân mật hơn; bị ai đó làm điều không mong muốn.",
+   "use_vi": "Dùng tự nhiên trong Speaking Part 1 và Part 2 khi nói về dịch vụ hằng ngày: have my hair cut, get my phone repaired.",
+   "vocab": [
+    "repair",
+    "deliver",
+    "check",
+    "install",
+    "service"
+   ],
+   "grammar": [
+    "have + object + V3",
+    "get + object + V3",
+    "have + object + V3 (something bad happens)"
+   ],
+   "check": [
+    "B1U41Q1",
+    "B1U41Q2",
+    "B1U41Q3",
+    "B1U41Q5",
+    "B1U41Q4",
+    "B1U41B1",
+    "B1U41B2",
+    "B1U41B3",
+    "B1U41F1",
+    "B1U41F2",
+    "B1U41D1",
+    "B1U41S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Tiêu đề và số trang theo mục lục Destination B1 (Mann & Taylore-Knowles, Macmillan). Giải thích, ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  }
+ ]
+}

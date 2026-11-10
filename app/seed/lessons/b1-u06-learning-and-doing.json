@@ -1,0 +1,856 @@
+{
+ "slug": "b1-u06-learning-and-doing",
+ "title": "Unit 6 · Học tập và kỹ năng",
+ "title_ko": "Learning and doing",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 6,
+ "summary": "Nói về việc học, thi cử và kỹ năng; phân biệt các cặp từ dễ nhầm (pass / take, experience đếm được và không đếm được). 30 từ chủ đề, 6 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 14 họ từ.",
+ "vocab": [
+  {
+   "hangul": "achieve",
+   "pos": "V",
+   "meaning_vi": "đạt được",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "brain",
+   "pos": "N",
+   "meaning_vi": "bộ não",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "clever",
+   "pos": "A",
+   "meaning_vi": "thông minh, lanh lợi",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "concentrate",
+   "pos": "V",
+   "meaning_vi": "tập trung",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "consider",
+   "pos": "V",
+   "meaning_vi": "cân nhắc, xem xét",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "course",
+   "pos": "N",
+   "meaning_vi": "khóa học",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "degree",
+   "pos": "N",
+   "meaning_vi": "bằng đại học; khóa học cấp bằng",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "experience",
+   "pos": "X",
+   "meaning_vi": "(v) trải qua; (n) kinh nghiệm (không đếm được), trải nghiệm (đếm được)",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "expert",
+   "pos": "X",
+   "meaning_vi": "(n) chuyên gia; (adj) thành thạo, chuyên môn cao",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "fail",
+   "pos": "V",
+   "meaning_vi": "trượt, thất bại",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "guess",
+   "pos": "X",
+   "meaning_vi": "(v) đoán; (n) sự phỏng đoán",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "hesitate",
+   "pos": "V",
+   "meaning_vi": "do dự, ngập ngừng",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "instruction",
+   "pos": "N",
+   "meaning_vi": "lời hướng dẫn, chỉ dẫn",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "make progress",
+   "pos": "V",
+   "meaning_vi": "tiến bộ",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "make sure",
+   "pos": "V",
+   "meaning_vi": "đảm bảo, kiểm tra cho chắc",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "mark",
+   "pos": "X",
+   "meaning_vi": "(v) chấm điểm; (n) điểm số",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "mental",
+   "pos": "A",
+   "meaning_vi": "thuộc về trí óc, tinh thần",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "pass",
+   "pos": "V",
+   "meaning_vi": "thi đỗ, vượt qua",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "qualification",
+   "pos": "N",
+   "meaning_vi": "bằng cấp, trình độ chuyên môn",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "remind",
+   "pos": "V",
+   "meaning_vi": "nhắc (ai nhớ làm gì)",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "report",
+   "pos": "N",
+   "meaning_vi": "bản báo cáo",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "revise",
+   "pos": "V",
+   "meaning_vi": "ôn bài (trước kỳ thi)",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "search",
+   "pos": "X",
+   "meaning_vi": "(v) tìm kiếm; (n) cuộc tìm kiếm",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "skill",
+   "pos": "N",
+   "meaning_vi": "kỹ năng",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "smart",
+   "pos": "A",
+   "meaning_vi": "thông minh, sáng dạ",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "subject",
+   "pos": "N",
+   "meaning_vi": "môn học",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "take an exam",
+   "pos": "V",
+   "meaning_vi": "dự thi, làm bài thi",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "talented",
+   "pos": "A",
+   "meaning_vi": "có tài năng",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "term",
+   "pos": "N",
+   "meaning_vi": "học kỳ",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "wonder",
+   "pos": "V",
+   "meaning_vi": "tự hỏi, băn khoăn",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
+  },
+  {
+   "hangul": "carry on",
+   "pos": "V",
+   "meaning_vi": "tiếp tục",
+   "example_ko": "Carry on reading while I answer the door.",
+   "example_vi": "Cứ đọc tiếp trong lúc tôi ra mở cửa.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "cross out",
+   "pos": "V",
+   "meaning_vi": "gạch bỏ",
+   "example_ko": "If you make a mistake, just cross it out.",
+   "example_vi": "Nếu viết sai, cứ gạch đi.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "leave out",
+   "pos": "V",
+   "meaning_vi": "bỏ sót, không tính đến",
+   "example_ko": "You left out an important number in your report.",
+   "example_vi": "Bạn bỏ sót một con số quan trọng trong báo cáo.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "rip up",
+   "pos": "V",
+   "meaning_vi": "xé vụn",
+   "example_ko": "She ripped up the letter and threw it away.",
+   "example_vi": "Cô ấy xé vụn lá thư rồi vứt đi.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "rub out",
+   "pos": "V",
+   "meaning_vi": "tẩy đi",
+   "example_ko": "Use a pencil so you can rub out your mistakes.",
+   "example_vi": "Dùng bút chì để tẩy được chỗ sai.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "find out",
+   "pos": "V",
+   "meaning_vi": "tìm ra, biết được (thông tin)",
+   "example_ko": "I want to find out how much the course costs.",
+   "example_vi": "Tôi muốn biết khóa học giá bao nhiêu.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "in conclusion",
+   "pos": "X",
+   "meaning_vi": "tóm lại, kết luận lại",
+   "example_ko": "In conclusion, online learning has both benefits and problems.",
+   "example_vi": "Tóm lại, học trực tuyến có cả lợi ích lẫn vấn đề.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "in fact",
+   "pos": "X",
+   "meaning_vi": "thực ra",
+   "example_ko": "He looks young, but in fact he is fifty.",
+   "example_vi": "Trông anh ấy trẻ nhưng thực ra đã năm mươi.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "in favour (of)",
+   "pos": "X",
+   "meaning_vi": "ủng hộ",
+   "example_ko": "Most students are in favour of the new rule.",
+   "example_vi": "Phần lớn học sinh ủng hộ quy định mới.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "in general",
+   "pos": "X",
+   "meaning_vi": "nhìn chung",
+   "example_ko": "In general, prices are higher in big cities.",
+   "example_vi": "Nhìn chung giá cả ở thành phố lớn cao hơn.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "by heart",
+   "pos": "X",
+   "meaning_vi": "thuộc lòng",
+   "example_ko": "We had to learn the poem by heart.",
+   "example_vi": "Chúng tôi phải học thuộc lòng bài thơ.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "for instance",
+   "pos": "X",
+   "meaning_vi": "ví dụ như",
+   "example_ko": "Some sports, for instance swimming, are good for your back.",
+   "example_vi": "Một số môn thể thao, ví dụ bơi lội, tốt cho lưng.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "capable of",
+   "pos": "X",
+   "meaning_vi": "có khả năng",
+   "example_ko": "She is capable of running her own business.",
+   "example_vi": "Cô ấy đủ khả năng điều hành công việc kinh doanh riêng.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "cheat at/in",
+   "pos": "X",
+   "meaning_vi": "gian lận trong",
+   "example_ko": "He cheated in the final exam.",
+   "example_vi": "Cậu ấy gian lận trong kỳ thi cuối kỳ.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "confuse sth with",
+   "pos": "X",
+   "meaning_vi": "nhầm cái gì với",
+   "example_ko": "People often confuse \"affect\" with \"effect\".",
+   "example_vi": "Mọi người hay nhầm \"affect\" với \"effect\".",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "cope with",
+   "pos": "X",
+   "meaning_vi": "đối phó, xoay xở với",
+   "example_ko": "It is hard to cope with so much homework.",
+   "example_vi": "Thật khó xoay xở với ngần ấy bài tập.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "learn about",
+   "pos": "X",
+   "meaning_vi": "học về, tìm hiểu về",
+   "example_ko": "We are learning about climate change.",
+   "example_vi": "Chúng tôi đang học về biến đổi khí hậu.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "a question about",
+   "pos": "X",
+   "meaning_vi": "câu hỏi về",
+   "example_ko": "I have a question about the homework.",
+   "example_vi": "Tôi có một câu hỏi về bài tập.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "succeed in",
+   "pos": "X",
+   "meaning_vi": "thành công trong việc",
+   "example_ko": "She succeeded in finding a good job.",
+   "example_vi": "Cô ấy đã tìm được một công việc tốt.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "talented at",
+   "pos": "X",
+   "meaning_vi": "có tài về",
+   "example_ko": "He is talented at drawing.",
+   "example_vi": "Cậu ấy có năng khiếu vẽ.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "ask for",
+   "pos": "X",
+   "meaning_vi": "hỏi xin, yêu cầu",
+   "example_ko": "She asked for a glass of water.",
+   "example_vi": "Cô ấy xin một cốc nước.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "good at",
+   "pos": "X",
+   "meaning_vi": "giỏi về",
+   "example_ko": "She is good at solving problems.",
+   "example_vi": "Cô ấy giỏi giải quyết vấn đề.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "an opinion about/of",
+   "pos": "X",
+   "meaning_vi": "ý kiến về",
+   "example_ko": "What is your opinion of the new law?",
+   "example_vi": "Ý kiến của bạn về luật mới thế nào?",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "a solution to",
+   "pos": "X",
+   "meaning_vi": "giải pháp cho",
+   "example_ko": "There is no easy solution to this problem.",
+   "example_vi": "Không có giải pháp dễ dàng cho vấn đề này.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "advice",
+   "pos": "N",
+   "meaning_vi": "lời khuyên (không đếm được)",
+   "note_vi": "Họ từ: `advise` (động từ), `adviser` (danh từ chỉ người)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word formation pp. 212–216"
+  },
+  {
+   "hangul": "begin",
+   "pos": "V",
+   "meaning_vi": "bắt đầu",
+   "note_vi": "Họ từ: `began` (quá khứ đơn), `begun` (quá khứ phân từ), `beginner` (danh từ chỉ người), `beginning` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word formation pp. 212–216"
+  },
+  {
+   "hangul": "brave",
+   "pos": "A",
+   "meaning_vi": "dũng cảm",
+   "note_vi": "Họ từ: `bravery` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word formation pp. 212–216"
+  },
+  {
+   "hangul": "correct",
+   "pos": "A",
+   "meaning_vi": "đúng",
+   "note_vi": "Họ từ: `correction` (danh từ), `incorrect` (dạng trái nghĩa)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word formation pp. 212–216"
+  },
+  {
+   "hangul": "divide",
+   "pos": "V",
+   "meaning_vi": "chia",
+   "note_vi": "Họ từ: `division` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word formation pp. 212–216"
+  },
+  {
+   "hangul": "educate",
+   "pos": "V",
+   "meaning_vi": "giáo dục",
+   "note_vi": "Họ từ: `education` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word formation pp. 212–216"
+  },
+  {
+   "hangul": "except",
+   "pos": "X",
+   "meaning_vi": "ngoại trừ",
+   "note_vi": "Họ từ: `exception` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word formation pp. 212–216"
+  },
+  {
+   "hangul": "instruct",
+   "pos": "V",
+   "meaning_vi": "hướng dẫn",
+   "note_vi": "Họ từ: `instruction` (danh từ), `instructor` (danh từ chỉ người)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word formation pp. 212–216"
+  },
+  {
+   "hangul": "intelligent",
+   "pos": "A",
+   "meaning_vi": "thông minh",
+   "note_vi": "Họ từ: `intelligence` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word formation pp. 212–216"
+  },
+  {
+   "hangul": "memory",
+   "pos": "N",
+   "meaning_vi": "trí nhớ; ký ức",
+   "note_vi": "Họ từ: `memorise` (động từ), `memorial` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word formation pp. 212–216"
+  },
+  {
+   "hangul": "prepare",
+   "pos": "V",
+   "meaning_vi": "chuẩn bị",
+   "note_vi": "Họ từ: `preparation` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word formation pp. 212–216"
+  },
+  {
+   "hangul": "refer",
+   "pos": "V",
+   "meaning_vi": "nhắc đến, tham chiếu",
+   "note_vi": "Họ từ: `reference` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word formation pp. 212–216"
+  },
+  {
+   "hangul": "silent",
+   "pos": "A",
+   "meaning_vi": "im lặng",
+   "note_vi": "Họ từ: `silence` (danh từ), `silently` (trạng từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word formation pp. 212–216"
+  },
+  {
+   "hangul": "simple",
+   "pos": "A",
+   "meaning_vi": "đơn giản",
+   "note_vi": "Họ từ: `simplify` (động từ), `simplicity` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word formation pp. 212–216"
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Nói về việc học, thi cử và kỹ năng; phân biệt các cặp từ dễ nhầm (pass / take, experience đếm được và không đếm được).\n• 📖 Trong sách: Unit từ vựng 6, trang 24–27. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Giáo dục là chủ đề lớn của Writing Task 2 và Speaking Part 3; Part 1 hỏi về việc học hiện tại của bạn.",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "Học cụm, không học từ rời: mỗi cụm động từ, cụm giới từ và mẫu giới từ đi kèm một câu ví dụ.",
+   "Từ chủ đề chỉ cần nhận ra khi đọc và nghe; các cụm và mẫu giới từ phải dùng được khi nói và viết."
+  ],
+  "watch_out_vi": [
+   "Giới từ tiếng Anh không dịch được từ tiếng Việt: học cả cụm như một khối."
+  ]
+ },
+ "exercise_ids": [
+  "B1U06M1",
+  "B1U06M2",
+  "B1U06M3",
+  "B1U06M4",
+  "B1U06M5",
+  "B1U06M6",
+  "B1U06M7",
+  "B1U06M8",
+  "B1U06M9",
+  "B1U06M10",
+  "B1U06C1",
+  "B1U06C2",
+  "B1U06C3",
+  "B1U06C4",
+  "B1U06C5",
+  "B1U06C6",
+  "B1U06C7",
+  "B1U06C8",
+  "B1U06C9",
+  "B1U06C10",
+  "B1U06C11",
+  "B1U06C12",
+  "B1U06C13",
+  "B1U06C14",
+  "B1U06C15",
+  "B1U06C16",
+  "B1U06C17",
+  "B1U06C18",
+  "B1U06C19",
+  "B1U06C20",
+  "B1U06C21",
+  "B1U06C22",
+  "B1U06C23",
+  "B1U06C24",
+  "B1U06B1",
+  "B1U06B2",
+  "B1U06B3",
+  "B1U06F1",
+  "B1U06F2",
+  "B1U06F3",
+  "B1U06F4",
+  "B1U06F5",
+  "B1U06F6",
+  "B1U06F7",
+  "B1U06F8",
+  "B1U06D1",
+  "B1U06S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Từ chủ đề 1 · Học tập và kỹ năng",
+   "can_do_vi": "Sau buổi này bạn nhận ra và dùng được 15 từ chủ đề «Học tập và kỹ năng», từ «achieve» đến «make sure».",
+   "vocab": [
+    "achieve",
+    "brain",
+    "clever",
+    "concentrate",
+    "consider",
+    "course",
+    "degree",
+    "experience",
+    "expert",
+    "fail",
+    "guess",
+    "hesitate",
+    "instruction",
+    "make progress",
+    "make sure"
+   ],
+   "check": [
+    "B1U06M4",
+    "B1U06M10",
+    "B1U06M6",
+    "B1U06M1",
+    "B1U06M2",
+    "B1U06M8"
+   ]
+  },
+  {
+   "title_vi": "Từ chủ đề 2 · Học tập và kỹ năng",
+   "can_do_vi": "Sau buổi này bạn nhận ra và dùng được 15 từ chủ đề «Học tập và kỹ năng», từ «mark» đến «wonder».",
+   "vocab": [
+    "mark",
+    "mental",
+    "pass",
+    "qualification",
+    "remind",
+    "report",
+    "revise",
+    "search",
+    "skill",
+    "smart",
+    "subject",
+    "take an exam",
+    "talented",
+    "term",
+    "wonder"
+   ],
+   "check": [
+    "B1U06M9",
+    "B1U06M3",
+    "B1U06M7",
+    "B1U06M5"
+   ]
+  },
+  {
+   "title_vi": "Cụm động từ và cụm giới từ 1",
+   "can_do_vi": "Sau buổi này bạn chọn đúng tiểu từ và giới từ trong các cụm cố định của Unit, không dịch từng chữ từ tiếng Việt.",
+   "vocab": [
+    "carry on",
+    "cross out",
+    "leave out",
+    "rip up",
+    "rub out",
+    "find out",
+    "in conclusion",
+    "in fact",
+    "in favour (of)",
+    "in general",
+    "by heart",
+    "for instance"
+   ],
+   "check": [
+    "B1U06C1",
+    "B1U06C2",
+    "B1U06C3",
+    "B1U06C4",
+    "B1U06C5",
+    "B1U06C6",
+    "B1U06C7",
+    "B1U06C8",
+    "B1U06C9",
+    "B1U06C10",
+    "B1U06C11",
+    "B1U06C12",
+    "B1U06B1",
+    "B1U06B2",
+    "B1U06B3"
+   ]
+  },
+  {
+   "title_vi": "Giới từ theo sau động từ, tính từ, danh từ",
+   "can_do_vi": "Sau buổi này bạn dùng đúng giới từ đi sau các động từ, tính từ và danh từ của Unit: lỗi mất điểm nhiều nhất của người Việt.",
+   "vocab": [
+    "capable of",
+    "cheat at/in",
+    "confuse sth with",
+    "cope with",
+    "learn about",
+    "a question about",
+    "succeed in",
+    "talented at",
+    "ask for",
+    "good at",
+    "an opinion about/of",
+    "a solution to"
+   ],
+   "check": [
+    "B1U06C13",
+    "B1U06C14",
+    "B1U06C15",
+    "B1U06C16",
+    "B1U06C17",
+    "B1U06C18",
+    "B1U06C19",
+    "B1U06C20",
+    "B1U06C21",
+    "B1U06C22",
+    "B1U06C23",
+    "B1U06C24"
+   ]
+  },
+  {
+   "title_vi": "Biến đổi từ loại và phần Nói",
+   "can_do_vi": "Sau buổi này bạn đổi được từ gốc sang danh từ, tính từ hoặc dạng trái nghĩa, và nói được một phút về chủ đề của Unit.",
+   "vocab": [
+    "advice",
+    "begin",
+    "brave",
+    "correct",
+    "divide",
+    "educate",
+    "except",
+    "instruct",
+    "intelligent",
+    "memory",
+    "prepare",
+    "refer",
+    "silent",
+    "simple"
+   ],
+   "check": [
+    "B1U06F1",
+    "B1U06F2",
+    "B1U06F3",
+    "B1U06F4",
+    "B1U06F5",
+    "B1U06F6",
+    "B1U06F7",
+    "B1U06F8",
+    "B1U06D1",
+    "B1U06S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Danh sách từ theo Destination B1 (Mann & Taylore-Knowles, Macmillan), pp. 184–216. Nghĩa tiếng Việt, câu ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  },
+  {
+   "title": "Cần đối chiếu với sách",
+   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: carry on, advice, except, intelligent, prepare."
+  }
+ ]
+}

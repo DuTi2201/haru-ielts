@@ -1,0 +1,179 @@
+{
+ "slug": "b1-u28-conditionals-1-zero-first-second",
+ "title": "Unit 28 · Câu điều kiện 1: loại không, loại một, loại hai",
+ "title_ko": "Conditionals 1: (zero, first, second)",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 28,
+ "summary": "Nói về điều luôn đúng, điều có thể xảy ra và điều giả định ở hiện tại. Ngữ pháp: Zero conditional: if + present, present; First conditional: if + present, will + V; Second conditional: if + past simple, would + V.",
+ "vocab": [
+  {
+   "hangul": "unless",
+   "pos": "X",
+   "meaning_vi": "trừ khi, nếu không",
+   "example_ko": "I will not go unless you come.",
+   "example_vi": "Tôi sẽ không đi trừ khi bạn đi cùng.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 28"
+  },
+  {
+   "hangul": "as long as",
+   "pos": "X",
+   "meaning_vi": "miễn là",
+   "example_ko": "You can stay as long as you are quiet.",
+   "example_vi": "Bạn có thể ở lại miễn là giữ yên lặng.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 28"
+  },
+  {
+   "hangul": "provided that",
+   "pos": "X",
+   "meaning_vi": "với điều kiện là",
+   "example_ko": "We will go provided that it is sunny.",
+   "example_vi": "Chúng tôi sẽ đi với điều kiện trời nắng.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 28"
+  },
+  {
+   "hangul": "in case",
+   "pos": "X",
+   "meaning_vi": "phòng khi",
+   "example_ko": "Take an umbrella in case it rains.",
+   "example_vi": "Mang ô đi phòng khi trời mưa.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 28"
+  },
+  {
+   "hangul": "otherwise",
+   "pos": "X",
+   "meaning_vi": "nếu không thì",
+   "example_ko": "Hurry up, otherwise we will be late.",
+   "example_vi": "Nhanh lên, nếu không chúng ta sẽ muộn.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 28"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "Zero conditional: if + present, present",
+   "meaning_vi": "Điều luôn đúng",
+   "usage_context_vi": "Dùng cho sự thật và quy luật. `If` có thể thay bằng `when`.",
+   "contrasts": [],
+   "example_ko": "If you heat ice, it melts.\nIf people do not sleep enough, they feel tired.",
+   "example_vi": "Nếu làm nóng đá thì nó tan.\nNếu không ngủ đủ, người ta thấy mệt.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 28, pp. 118-120"
+  },
+  {
+   "pattern": "First conditional: if + present, will + V",
+   "meaning_vi": "Điều có thể xảy ra ở tương lai",
+   "usage_context_vi": "Mệnh đề `if` dùng hiện tại đơn; mệnh đề chính dùng will / can / may / might + V. `unless` = if… not.",
+   "contrasts": [],
+   "example_ko": "If it rains tomorrow, we will stay at home.\nYou will not pass unless you study.",
+   "example_vi": "Nếu mai mưa, chúng tôi sẽ ở nhà.\nBạn sẽ không đỗ nếu không học.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 28, pp. 118-120",
+   "note_vi": "Lỗi người Việt hay mắc: Dùng `will` trong mệnh đề if: ~~If it will rain~~ → If it rains.",
+   "topik_tip_vi": "Task 2: If the government raises taxes on fuel, fewer people will drive."
+  },
+  {
+   "pattern": "Second conditional: if + past simple, would + V",
+   "meaning_vi": "Điều giả định, không có thật ở hiện tại",
+   "usage_context_vi": "Mệnh đề `if` dùng quá khứ đơn (với `be` thường dùng `were` cho mọi ngôi); mệnh đề chính dùng would / could / might + V.",
+   "contrasts": [
+    {
+     "pattern": "First conditional: if + present, will + V",
+     "diff_vi": "Loại một: người nói thấy có thể xảy ra. Loại hai: người nói thấy khó xảy ra hoặc trái thực tế."
+    }
+   ],
+   "example_ko": "If I had more time, I would learn Japanese.\nIf I were you, I would apologise.",
+   "example_vi": "Nếu tôi có nhiều thời gian hơn, tôi sẽ học tiếng Nhật.\nNếu tôi là bạn, tôi sẽ xin lỗi.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 28, pp. 118-120",
+   "note_vi": "Lỗi người Việt hay mắc: Dùng `would` ở cả hai vế: ~~If I would have money, I would buy~~ → If I had money, I would buy. Quá khứ đơn ở đây không nói về quá khứ."
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Nói về điều luôn đúng, điều có thể xảy ra và điều giả định ở hiện tại.\n• 📖 Trong sách: Unit ngữ pháp 28, trang 118–120. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Câu điều kiện là công cụ chính để nêu hệ quả và giải pháp trong Task 2 và Part 3: If governments invest…, If I were…",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "Zero conditional: if + present, present: Điều luôn đúng",
+   "First conditional: if + present, will + V: Điều có thể xảy ra ở tương lai",
+   "Second conditional: if + past simple, would + V: Điều giả định, không có thật ở hiện tại"
+  ],
+  "watch_out_vi": [
+   "Dùng `will` trong mệnh đề if: ~~If it will rain~~ → If it rains.",
+   "Dùng `would` ở cả hai vế: ~~If I would have money, I would buy~~ → If I had money, I would buy. Quá khứ đơn ở đây không nói về quá khứ."
+  ]
+ },
+ "exercise_ids": [
+  "B1U28Q1",
+  "B1U28Q2",
+  "B1U28Q3",
+  "B1U28Q4",
+  "B1U28Q5",
+  "B1U28B1",
+  "B1U28B2",
+  "B1U28B3",
+  "B1U28F1",
+  "B1U28F2",
+  "B1U28D1",
+  "B1U28S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · Zero conditional",
+   "can_do_vi": "Sau buổi này bạn dùng được: điều luôn đúng; điều có thể xảy ra ở tương lai; điều giả định, không có thật ở hiện tại.",
+   "use_vi": "Câu điều kiện là công cụ chính để nêu hệ quả và giải pháp trong Task 2 và Part 3: If governments invest…, If I were…",
+   "vocab": [
+    "unless",
+    "as long as",
+    "provided that",
+    "in case",
+    "otherwise"
+   ],
+   "grammar": [
+    "Zero conditional: if + present, present",
+    "First conditional: if + present, will + V",
+    "Second conditional: if + past simple, would + V"
+   ],
+   "check": [
+    "B1U28Q1",
+    "B1U28Q2",
+    "B1U28Q4",
+    "B1U28Q3",
+    "B1U28Q5",
+    "B1U28B1",
+    "B1U28B2",
+    "B1U28B3",
+    "B1U28F1",
+    "B1U28F2",
+    "B1U28D1",
+    "B1U28S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Tiêu đề và số trang theo mục lục Destination B1 (Mann & Taylore-Knowles, Macmillan). Giải thích, ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  }
+ ]
+}

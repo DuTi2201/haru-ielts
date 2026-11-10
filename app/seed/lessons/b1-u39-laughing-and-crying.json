@@ -1,0 +1,801 @@
+{
+ "slug": "b1-u39-laughing-and-crying",
+ "title": "Unit 39 · Cảm xúc và tính cách",
+ "title_ko": "Laughing and crying",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 39,
+ "summary": "Nói về cảm xúc và cách cư xử; phân biệt tính từ đuôi -ed và -ing (embarrassed / embarrassing). 30 từ chủ đề, 5 cụm động từ, 5 cụm giới từ, 12 mẫu giới từ, 12 họ từ.",
+ "vocab": [
+  {
+   "hangul": "amusing",
+   "pos": "A",
+   "meaning_vi": "vui, buồn cười",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "annoy",
+   "pos": "V",
+   "meaning_vi": "làm phiền, làm bực mình",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "attitude",
+   "pos": "N",
+   "meaning_vi": "thái độ",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "bad-tempered",
+   "pos": "A",
+   "meaning_vi": "hay cáu, nóng tính",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "behave",
+   "pos": "V",
+   "meaning_vi": "cư xử",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "bully",
+   "pos": "X",
+   "meaning_vi": "(v) bắt nạt; (n) kẻ bắt nạt",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "calm",
+   "pos": "A",
+   "meaning_vi": "bình tĩnh",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "celebrate",
+   "pos": "V",
+   "meaning_vi": "ăn mừng, kỷ niệm",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "character",
+   "pos": "N",
+   "meaning_vi": "tính cách; nhân vật",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "depressed",
+   "pos": "A",
+   "meaning_vi": "chán nản, trầm cảm",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "embarrassing",
+   "pos": "A",
+   "meaning_vi": "đáng xấu hổ, gây ngượng",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "emotion",
+   "pos": "N",
+   "meaning_vi": "cảm xúc",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201",
+   "note_vi": "Họ từ: `emotional` (tính từ)"
+  },
+  {
+   "hangul": "enthusiastic",
+   "pos": "A",
+   "meaning_vi": "nhiệt tình, hào hứng",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "feeling",
+   "pos": "N",
+   "meaning_vi": "cảm giác, cảm xúc",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "glad",
+   "pos": "A",
+   "meaning_vi": "vui mừng",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "hurt",
+   "pos": "X",
+   "meaning_vi": "(v) làm đau, làm tổn thương; (adj) bị tổn thương",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "miserable",
+   "pos": "A",
+   "meaning_vi": "khổ sở, rất buồn",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "naughty",
+   "pos": "A",
+   "meaning_vi": "nghịch ngợm, hư",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "noisy",
+   "pos": "A",
+   "meaning_vi": "ồn ào",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "polite",
+   "pos": "A",
+   "meaning_vi": "lịch sự",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "react",
+   "pos": "V",
+   "meaning_vi": "phản ứng",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "regret",
+   "pos": "X",
+   "meaning_vi": "(v) hối tiếc; (n) sự hối tiếc",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "ridiculous",
+   "pos": "A",
+   "meaning_vi": "lố bịch, nực cười",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "romantic",
+   "pos": "A",
+   "meaning_vi": "lãng mạn",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "rude",
+   "pos": "A",
+   "meaning_vi": "thô lỗ, bất lịch sự",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "sense of humour",
+   "pos": "N",
+   "meaning_vi": "khiếu hài hước",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "shy",
+   "pos": "A",
+   "meaning_vi": "nhút nhát, hay ngại",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "stress",
+   "pos": "N",
+   "meaning_vi": "sự căng thẳng",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "tell a joke",
+   "pos": "V",
+   "meaning_vi": "kể chuyện cười",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "upset",
+   "pos": "X",
+   "meaning_vi": "(v) làm buồn lòng; (adj) buồn bực, phiền muộn",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word list pp. 184–201"
+  },
+  {
+   "hangul": "calm down",
+   "pos": "V",
+   "meaning_vi": "bình tĩnh lại",
+   "example_ko": "Take a deep breath and try to calm down.",
+   "example_vi": "Hít sâu vào và cố bình tĩnh lại.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "cheer up",
+   "pos": "V",
+   "meaning_vi": "vui lên; làm ai vui lên",
+   "example_ko": "A phone call from a friend always cheers me up.",
+   "example_vi": "Một cuộc gọi của bạn bè luôn làm tôi vui lên.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "shut up",
+   "pos": "V",
+   "meaning_vi": "im đi (thô)",
+   "example_ko": "He told the noisy boys to shut up.",
+   "example_vi": "Anh ấy bảo đám con trai ồn ào im đi.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "get on (with)",
+   "pos": "V",
+   "meaning_vi": "hòa hợp với",
+   "example_ko": "I get on well with all my classmates.",
+   "example_vi": "Tôi hòa hợp với tất cả bạn cùng lớp.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "try on",
+   "pos": "V",
+   "meaning_vi": "mặc thử",
+   "example_ko": "Can I try on this jacket in a larger size?",
+   "example_vi": "Tôi thử chiếc áo khoác này cỡ lớn hơn được không?",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "at least",
+   "pos": "X",
+   "meaning_vi": "ít nhất",
+   "example_ko": "You should sleep at least seven hours a night.",
+   "example_vi": "Bạn nên ngủ ít nhất bảy tiếng mỗi đêm.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "in secret",
+   "pos": "X",
+   "meaning_vi": "bí mật",
+   "example_ko": "They met in secret for months.",
+   "example_vi": "Họ bí mật gặp nhau suốt nhiều tháng.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "in spite of",
+   "pos": "X",
+   "meaning_vi": "mặc dù (+ danh từ/V-ing)",
+   "example_ko": "We went out in spite of the rain.",
+   "example_vi": "Chúng tôi vẫn ra ngoài dù trời mưa.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "in tears",
+   "pos": "X",
+   "meaning_vi": "đang khóc",
+   "example_ko": "She left the room in tears.",
+   "example_vi": "Cô ấy rời phòng trong nước mắt.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "at times",
+   "pos": "X",
+   "meaning_vi": "đôi lúc",
+   "example_ko": "Learning a language is hard at times.",
+   "example_vi": "Học ngoại ngữ đôi lúc rất khó.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "ashamed of",
+   "pos": "X",
+   "meaning_vi": "xấu hổ vì",
+   "example_ko": "He felt ashamed of his behaviour.",
+   "example_vi": "Anh ấy thấy xấu hổ vì cách cư xử của mình.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "congratulate sb on",
+   "pos": "X",
+   "meaning_vi": "chúc mừng ai về",
+   "example_ko": "We congratulated her on passing the exam.",
+   "example_vi": "Chúng tôi chúc mừng cô ấy thi đỗ.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "embarrassed about",
+   "pos": "X",
+   "meaning_vi": "ngượng vì",
+   "example_ko": "He is embarrassed about his accent.",
+   "example_vi": "Anh ấy ngượng vì giọng nói của mình.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "frightened of",
+   "pos": "X",
+   "meaning_vi": "sợ hãi",
+   "example_ko": "Many children are frightened of the dark.",
+   "example_vi": "Nhiều trẻ em sợ bóng tối.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "glance at",
+   "pos": "X",
+   "meaning_vi": "liếc nhìn",
+   "example_ko": "He glanced at his watch and stood up.",
+   "example_vi": "Anh ấy liếc đồng hồ rồi đứng dậy.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "a joke about",
+   "pos": "X",
+   "meaning_vi": "chuyện cười về",
+   "example_ko": "He told a joke about a talking parrot.",
+   "example_vi": "Anh ấy kể chuyện cười về một con vẹt biết nói.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "laugh at",
+   "pos": "X",
+   "meaning_vi": "cười (ai, cái gì)",
+   "example_ko": "Nobody laughed at his joke.",
+   "example_vi": "Không ai cười trước câu đùa của anh ấy.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "nervous about",
+   "pos": "X",
+   "meaning_vi": "lo lắng về",
+   "example_ko": "I am nervous about the speaking test.",
+   "example_vi": "Tôi lo về bài thi nói.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "smile at",
+   "pos": "X",
+   "meaning_vi": "mỉm cười với",
+   "example_ko": "The baby smiled at me.",
+   "example_vi": "Em bé mỉm cười với tôi.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "surprised at/by",
+   "pos": "X",
+   "meaning_vi": "ngạc nhiên trước",
+   "example_ko": "I was surprised by the result.",
+   "example_vi": "Tôi ngạc nhiên trước kết quả.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "tired of",
+   "pos": "X",
+   "meaning_vi": "chán, mệt mỏi vì",
+   "example_ko": "I am tired of eating the same food.",
+   "example_vi": "Tôi chán ăn mãi một món.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "scared of",
+   "pos": "X",
+   "meaning_vi": "sợ",
+   "example_ko": "I am scared of heights.",
+   "example_vi": "Tôi sợ độ cao.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "bore",
+   "pos": "V",
+   "meaning_vi": "làm chán",
+   "note_vi": "Họ từ: `boring` (tính từ), `bored` (tính từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word formation pp. 212–216"
+  },
+  {
+   "hangul": "comedy",
+   "pos": "N",
+   "meaning_vi": "hài kịch",
+   "note_vi": "Họ từ: `comedian` (danh từ chỉ người)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word formation pp. 212–216"
+  },
+  {
+   "hangul": "confuse",
+   "pos": "V",
+   "meaning_vi": "làm rối, gây nhầm lẫn",
+   "note_vi": "Họ từ: `confused` (tính từ), `confusion` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word formation pp. 212–216"
+  },
+  {
+   "hangul": "energy",
+   "pos": "N",
+   "meaning_vi": "năng lượng",
+   "note_vi": "Họ từ: `energetic` (tính từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word formation pp. 212–216"
+  },
+  {
+   "hangul": "excite",
+   "pos": "V",
+   "meaning_vi": "làm phấn khích",
+   "note_vi": "Họ từ: `excitement` (danh từ), `exciting` (tính từ), `excited` (tính từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word formation pp. 212–216"
+  },
+  {
+   "hangul": "feel",
+   "pos": "V",
+   "meaning_vi": "cảm thấy",
+   "note_vi": "Họ từ: `felt` (quá khứ đơn), `feeling` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word formation pp. 212–216"
+  },
+  {
+   "hangul": "happy",
+   "pos": "A",
+   "meaning_vi": "hạnh phúc",
+   "note_vi": "Họ từ: `unhappy` (dạng trái nghĩa), `happiness` (danh từ), `unhappiness` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word formation pp. 212–216"
+  },
+  {
+   "hangul": "hate",
+   "pos": "V",
+   "meaning_vi": "ghét",
+   "note_vi": "Họ từ: `hatred` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word formation pp. 212–216"
+  },
+  {
+   "hangul": "help",
+   "pos": "V",
+   "meaning_vi": "giúp đỡ",
+   "note_vi": "Họ từ: `helpful` (tính từ), `unhelpful` (dạng trái nghĩa), `helpless` (tính từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word formation pp. 212–216"
+  },
+  {
+   "hangul": "noise",
+   "pos": "N",
+   "meaning_vi": "tiếng ồn",
+   "note_vi": "Họ từ: `noisy` (tính từ), `noisily` (trạng từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word formation pp. 212–216"
+  },
+  {
+   "hangul": "sympathy",
+   "pos": "N",
+   "meaning_vi": "sự cảm thông",
+   "note_vi": "Họ từ: `sympathise` (động từ), `sympathetic` (tính từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word formation pp. 212–216"
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Nói về cảm xúc và cách cư xử; phân biệt tính từ đuôi -ed và -ing (embarrassed / embarrassing).\n• 📖 Trong sách: Unit từ vựng 39, trang 160–163. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Speaking Part 2 thường hỏi về một trải nghiệm và cảm xúc của bạn; từ chỉ cảm xúc chính xác giúp tiêu chí Lexical Resource.",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "Học cụm, không học từ rời: mỗi cụm động từ, cụm giới từ và mẫu giới từ đi kèm một câu ví dụ.",
+   "Từ chủ đề chỉ cần nhận ra khi đọc và nghe; các cụm và mẫu giới từ phải dùng được khi nói và viết."
+  ],
+  "watch_out_vi": [
+   "Giới từ tiếng Anh không dịch được từ tiếng Việt: học cả cụm như một khối."
+  ]
+ },
+ "exercise_ids": [
+  "B1U39M1",
+  "B1U39M2",
+  "B1U39M3",
+  "B1U39M4",
+  "B1U39M5",
+  "B1U39M6",
+  "B1U39M7",
+  "B1U39M8",
+  "B1U39M9",
+  "B1U39M10",
+  "B1U39C1",
+  "B1U39C2",
+  "B1U39C3",
+  "B1U39C4",
+  "B1U39C5",
+  "B1U39C6",
+  "B1U39C7",
+  "B1U39C8",
+  "B1U39C9",
+  "B1U39C10",
+  "B1U39C11",
+  "B1U39C12",
+  "B1U39C13",
+  "B1U39C14",
+  "B1U39C15",
+  "B1U39C16",
+  "B1U39C17",
+  "B1U39C18",
+  "B1U39C19",
+  "B1U39C20",
+  "B1U39C21",
+  "B1U39C22",
+  "B1U39B1",
+  "B1U39B2",
+  "B1U39B3",
+  "B1U39F1",
+  "B1U39F2",
+  "B1U39F3",
+  "B1U39F4",
+  "B1U39F5",
+  "B1U39F6",
+  "B1U39F7",
+  "B1U39F8",
+  "B1U39D1",
+  "B1U39S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Từ chủ đề 1 · Cảm xúc và tính cách",
+   "can_do_vi": "Sau buổi này bạn nhận ra và dùng được 15 từ chủ đề «Cảm xúc và tính cách», từ «amusing» đến «glad».",
+   "vocab": [
+    "amusing",
+    "annoy",
+    "attitude",
+    "bad-tempered",
+    "behave",
+    "bully",
+    "calm",
+    "celebrate",
+    "character",
+    "depressed",
+    "embarrassing",
+    "emotion",
+    "enthusiastic",
+    "feeling",
+    "glad"
+   ],
+   "check": [
+    "B1U39M5",
+    "B1U39M3",
+    "B1U39M4"
+   ]
+  },
+  {
+   "title_vi": "Từ chủ đề 2 · Cảm xúc và tính cách",
+   "can_do_vi": "Sau buổi này bạn nhận ra và dùng được 15 từ chủ đề «Cảm xúc và tính cách», từ «hurt» đến «upset».",
+   "vocab": [
+    "hurt",
+    "miserable",
+    "naughty",
+    "noisy",
+    "polite",
+    "react",
+    "regret",
+    "ridiculous",
+    "romantic",
+    "rude",
+    "sense of humour",
+    "shy",
+    "stress",
+    "tell a joke",
+    "upset"
+   ],
+   "check": [
+    "B1U39M7",
+    "B1U39M6",
+    "B1U39M10",
+    "B1U39M8",
+    "B1U39M1",
+    "B1U39M2",
+    "B1U39M9"
+   ]
+  },
+  {
+   "title_vi": "Cụm động từ và cụm giới từ 1",
+   "can_do_vi": "Sau buổi này bạn chọn đúng tiểu từ và giới từ trong các cụm cố định của Unit, không dịch từng chữ từ tiếng Việt.",
+   "vocab": [
+    "calm down",
+    "cheer up",
+    "shut up",
+    "get on (with)",
+    "try on",
+    "at least",
+    "in secret",
+    "in spite of",
+    "in tears",
+    "at times"
+   ],
+   "check": [
+    "B1U39C1",
+    "B1U39C2",
+    "B1U39C3",
+    "B1U39C4",
+    "B1U39C5",
+    "B1U39C6",
+    "B1U39C7",
+    "B1U39C8",
+    "B1U39C9",
+    "B1U39C10",
+    "B1U39B1",
+    "B1U39B2",
+    "B1U39B3"
+   ]
+  },
+  {
+   "title_vi": "Giới từ theo sau động từ, tính từ, danh từ",
+   "can_do_vi": "Sau buổi này bạn dùng đúng giới từ đi sau các động từ, tính từ và danh từ của Unit: lỗi mất điểm nhiều nhất của người Việt.",
+   "vocab": [
+    "ashamed of",
+    "congratulate sb on",
+    "embarrassed about",
+    "frightened of",
+    "glance at",
+    "a joke about",
+    "laugh at",
+    "nervous about",
+    "smile at",
+    "surprised at/by",
+    "tired of",
+    "scared of"
+   ],
+   "check": [
+    "B1U39C11",
+    "B1U39C12",
+    "B1U39C13",
+    "B1U39C14",
+    "B1U39C15",
+    "B1U39C16",
+    "B1U39C17",
+    "B1U39C18",
+    "B1U39C19",
+    "B1U39C20",
+    "B1U39C21",
+    "B1U39C22"
+   ]
+  },
+  {
+   "title_vi": "Biến đổi từ loại và phần Nói",
+   "can_do_vi": "Sau buổi này bạn đổi được từ gốc sang danh từ, tính từ hoặc dạng trái nghĩa, và nói được một phút về chủ đề của Unit.",
+   "vocab": [
+    "bore",
+    "comedy",
+    "confuse",
+    "energy",
+    "excite",
+    "feel",
+    "happy",
+    "hate",
+    "help",
+    "noise",
+    "sympathy"
+   ],
+   "check": [
+    "B1U39F1",
+    "B1U39F2",
+    "B1U39F3",
+    "B1U39F4",
+    "B1U39F5",
+    "B1U39F6",
+    "B1U39F7",
+    "B1U39F8",
+    "B1U39D1",
+    "B1U39S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Danh sách từ theo Destination B1 (Mann & Taylore-Knowles, Macmillan), pp. 184–216. Nghĩa tiếng Việt, câu ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  },
+  {
+   "title": "Cần đối chiếu với sách",
+   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: calm down, cheer up, shut up, congratulate sb on, glance at, confuse, help."
+  }
+ ]
+}

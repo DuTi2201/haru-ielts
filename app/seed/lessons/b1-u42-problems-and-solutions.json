@@ -1,0 +1,710 @@
+{
+ "slug": "b1-u42-problems-and-solutions",
+ "title": "Unit 42 · Vấn đề và giải pháp",
+ "title_ko": "Problems and solutions",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 42,
+ "summary": "Nêu vấn đề, nguyên nhân và giải pháp; dùng đúng các động từ tường thuật (claim, deny, warn, encourage). 30 từ chủ đề, 3 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 5 họ từ.",
+ "vocab": [
+  {
+   "hangul": "accident",
+   "pos": "N",
+   "meaning_vi": "tai nạn; sự tình cờ",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "assume",
+   "pos": "V",
+   "meaning_vi": "cho rằng, mặc định là",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "cause",
+   "pos": "X",
+   "meaning_vi": "(v) gây ra; (n) nguyên nhân",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "claim",
+   "pos": "V",
+   "meaning_vi": "khẳng định, tuyên bố (chưa chắc đúng)",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "complain",
+   "pos": "V",
+   "meaning_vi": "phàn nàn",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "convince",
+   "pos": "V",
+   "meaning_vi": "thuyết phục (ai tin điều gì)",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "criticise",
+   "pos": "V",
+   "meaning_vi": "chỉ trích, phê bình",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "deny",
+   "pos": "V",
+   "meaning_vi": "phủ nhận",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "discussion",
+   "pos": "N",
+   "meaning_vi": "cuộc thảo luận",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "doubt",
+   "pos": "X",
+   "meaning_vi": "(v) nghi ngờ; (n) sự nghi ngờ",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "encourage",
+   "pos": "V",
+   "meaning_vi": "khuyến khích, động viên",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "get rid of",
+   "pos": "V",
+   "meaning_vi": "loại bỏ, vứt bỏ",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "gossip",
+   "pos": "X",
+   "meaning_vi": "(v) buôn chuyện; (n) chuyện ngồi lê đôi mách",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "ideal",
+   "pos": "A",
+   "meaning_vi": "lý tưởng",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "insult",
+   "pos": "X",
+   "meaning_vi": "(v) xúc phạm; (n) lời xúc phạm",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "investigate",
+   "pos": "V",
+   "meaning_vi": "điều tra",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "negative",
+   "pos": "A",
+   "meaning_vi": "tiêu cực",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "positive",
+   "pos": "A",
+   "meaning_vi": "tích cực",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "praise",
+   "pos": "X",
+   "meaning_vi": "(v) khen ngợi; (n) lời khen",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "pretend",
+   "pos": "V",
+   "meaning_vi": "giả vờ",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "purpose",
+   "pos": "N",
+   "meaning_vi": "mục đích",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "refuse",
+   "pos": "V",
+   "meaning_vi": "từ chối",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201",
+   "note_vi": "Họ từ: `refusal` (danh từ)"
+  },
+  {
+   "hangul": "result",
+   "pos": "X",
+   "meaning_vi": "(v) dẫn đến (result in); (n) kết quả",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "rumour",
+   "pos": "N",
+   "meaning_vi": "tin đồn",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "sensible",
+   "pos": "A",
+   "meaning_vi": "hợp lý, biết điều (không phải \"nhạy cảm\")",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "serious",
+   "pos": "A",
+   "meaning_vi": "nghiêm trọng; nghiêm túc",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "spare",
+   "pos": "A",
+   "meaning_vi": "dư, dự phòng; rảnh (spare time)",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "theory",
+   "pos": "N",
+   "meaning_vi": "lý thuyết, giả thuyết",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "thought",
+   "pos": "N",
+   "meaning_vi": "ý nghĩ, suy nghĩ",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "warn",
+   "pos": "V",
+   "meaning_vi": "cảnh báo",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word list pp. 184–201"
+  },
+  {
+   "hangul": "point out",
+   "pos": "V",
+   "meaning_vi": "chỉ ra",
+   "example_ko": "The teacher pointed out two mistakes in my essay.",
+   "example_vi": "Giáo viên chỉ ra hai lỗi trong bài luận của tôi.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
+  },
+  {
+   "hangul": "sort out",
+   "pos": "V",
+   "meaning_vi": "giải quyết, sắp xếp ổn thỏa",
+   "example_ko": "We need to sort out this problem before Friday.",
+   "example_vi": "Chúng ta cần giải quyết việc này trước thứ Sáu.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
+  },
+  {
+   "hangul": "watch out",
+   "pos": "V",
+   "meaning_vi": "coi chừng",
+   "example_ko": "Watch out! The floor is wet.",
+   "example_vi": "Coi chừng! Sàn ướt đấy.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
+  },
+  {
+   "hangul": "in danger (of)",
+   "pos": "X",
+   "meaning_vi": "gặp nguy hiểm, có nguy cơ",
+   "example_ko": "Many animals are in danger of disappearing.",
+   "example_vi": "Nhiều loài động vật có nguy cơ biến mất.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
+  },
+  {
+   "hangul": "in a mess",
+   "pos": "X",
+   "meaning_vi": "bừa bộn",
+   "example_ko": "My room is always in a mess during exam week.",
+   "example_vi": "Tuần thi phòng tôi lúc nào cũng bừa bộn.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
+  },
+  {
+   "hangul": "by mistake",
+   "pos": "X",
+   "meaning_vi": "do nhầm lẫn",
+   "example_ko": "I took your umbrella by mistake.",
+   "example_vi": "Tôi cầm nhầm ô của bạn.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
+  },
+  {
+   "hangul": "under pressure",
+   "pos": "X",
+   "meaning_vi": "chịu áp lực",
+   "example_ko": "Many students feel under pressure before exams.",
+   "example_vi": "Nhiều học sinh thấy áp lực trước kỳ thi.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
+  },
+  {
+   "hangul": "in trouble",
+   "pos": "X",
+   "meaning_vi": "gặp rắc rối",
+   "example_ko": "He is in trouble for missing school.",
+   "example_vi": "Cậu ấy gặp rắc rối vì nghỉ học.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
+  },
+  {
+   "hangul": "in my view",
+   "pos": "X",
+   "meaning_vi": "theo quan điểm của tôi",
+   "example_ko": "In my view, public transport should be cheaper.",
+   "example_vi": "Theo quan điểm của tôi, giao thông công cộng nên rẻ hơn.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
+  },
+  {
+   "hangul": "an advantage of",
+   "pos": "X",
+   "meaning_vi": "một ưu điểm của",
+   "example_ko": "One advantage of living in a city is good public transport.",
+   "example_vi": "Một ưu điểm của việc sống ở thành phố là giao thông công cộng tốt.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
+  },
+  {
+   "hangul": "advise against",
+   "pos": "X",
+   "meaning_vi": "khuyên không nên",
+   "example_ko": "Doctors advise against eating late at night.",
+   "example_vi": "Bác sĩ khuyên không nên ăn khuya.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
+  },
+  {
+   "hangul": "approve of",
+   "pos": "X",
+   "meaning_vi": "tán thành",
+   "example_ko": "My parents do not approve of my plan.",
+   "example_vi": "Bố mẹ tôi không tán thành kế hoạch của tôi.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
+  },
+  {
+   "hangul": "complain (to sb) about",
+   "pos": "X",
+   "meaning_vi": "phàn nàn (với ai) về",
+   "example_ko": "Guests complained about the noise.",
+   "example_vi": "Khách phàn nàn về tiếng ồn.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
+  },
+  {
+   "hangul": "deal with",
+   "pos": "X",
+   "meaning_vi": "giải quyết, xử lý",
+   "example_ko": "The government must deal with air pollution.",
+   "example_vi": "Chính phủ phải xử lý ô nhiễm không khí.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
+  },
+  {
+   "hangul": "hide sth from sb",
+   "pos": "X",
+   "meaning_vi": "giấu ai cái gì",
+   "example_ko": "He hid the truth from his parents.",
+   "example_vi": "Cậu ấy giấu bố mẹ sự thật.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
+  },
+  {
+   "hangul": "insist on",
+   "pos": "X",
+   "meaning_vi": "khăng khăng đòi",
+   "example_ko": "She insisted on paying for dinner.",
+   "example_vi": "Cô ấy nhất quyết đòi trả tiền bữa tối.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
+  },
+  {
+   "hangul": "a reason for",
+   "pos": "X",
+   "meaning_vi": "lý do cho",
+   "example_ko": "What was the reason for the delay?",
+   "example_vi": "Lý do của sự chậm trễ là gì?",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
+  },
+  {
+   "hangul": "rely on",
+   "pos": "X",
+   "meaning_vi": "dựa vào, tin cậy",
+   "example_ko": "Many farmers rely on the rain.",
+   "example_vi": "Nhiều nông dân trông cậy vào mưa.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
+  },
+  {
+   "hangul": "feel like",
+   "pos": "X",
+   "meaning_vi": "muốn (làm gì)",
+   "example_ko": "I feel like staying at home tonight.",
+   "example_vi": "Tối nay tôi muốn ở nhà.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
+  },
+  {
+   "hangul": "an increase in",
+   "pos": "X",
+   "meaning_vi": "sự gia tăng về",
+   "example_ko": "There was an increase in the number of tourists.",
+   "example_vi": "Số lượng khách du lịch đã tăng lên.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
+  },
+  {
+   "hangul": "listen to",
+   "pos": "X",
+   "meaning_vi": "nghe",
+   "example_ko": "I listen to podcasts on the bus.",
+   "example_vi": "Tôi nghe podcast trên xe buýt.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
+  },
+  {
+   "hangul": "prefer",
+   "pos": "V",
+   "meaning_vi": "thích hơn",
+   "note_vi": "Họ từ: `preference` (danh từ), `preferable` (tính từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word formation pp. 212–216"
+  },
+  {
+   "hangul": "recommend",
+   "pos": "V",
+   "meaning_vi": "giới thiệu, khuyên dùng",
+   "note_vi": "Họ từ: `recommendation` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word formation pp. 212–216"
+  },
+  {
+   "hangul": "solve",
+   "pos": "V",
+   "meaning_vi": "giải quyết",
+   "note_vi": "Họ từ: `solution` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word formation pp. 212–216"
+  },
+  {
+   "hangul": "suggest",
+   "pos": "V",
+   "meaning_vi": "đề xuất",
+   "note_vi": "Họ từ: `suggestion` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word formation pp. 212–216"
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Nêu vấn đề, nguyên nhân và giải pháp; dùng đúng các động từ tường thuật (claim, deny, warn, encourage).\n• 📖 Trong sách: Unit từ vựng 42, trang 172–175. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Đây là bộ từ của dạng đề Task 2 \"nguyên nhân – giải pháp\" và của mọi câu hỏi Part 3 dạng What can be done about…?",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "Học cụm, không học từ rời: mỗi cụm động từ, cụm giới từ và mẫu giới từ đi kèm một câu ví dụ.",
+   "Từ chủ đề chỉ cần nhận ra khi đọc và nghe; các cụm và mẫu giới từ phải dùng được khi nói và viết."
+  ],
+  "watch_out_vi": [
+   "Giới từ tiếng Anh không dịch được từ tiếng Việt: học cả cụm như một khối."
+  ]
+ },
+ "exercise_ids": [
+  "B1U42M1",
+  "B1U42M2",
+  "B1U42M3",
+  "B1U42M4",
+  "B1U42M5",
+  "B1U42M6",
+  "B1U42M7",
+  "B1U42M8",
+  "B1U42M9",
+  "B1U42M10",
+  "B1U42C1",
+  "B1U42C2",
+  "B1U42C3",
+  "B1U42C4",
+  "B1U42C5",
+  "B1U42C6",
+  "B1U42C7",
+  "B1U42C8",
+  "B1U42C9",
+  "B1U42C10",
+  "B1U42C11",
+  "B1U42C12",
+  "B1U42C13",
+  "B1U42C14",
+  "B1U42C15",
+  "B1U42C16",
+  "B1U42C17",
+  "B1U42C18",
+  "B1U42C19",
+  "B1U42C20",
+  "B1U42C21",
+  "B1U42B1",
+  "B1U42B2",
+  "B1U42B3",
+  "B1U42F1",
+  "B1U42F2",
+  "B1U42F3",
+  "B1U42F4",
+  "B1U42D1",
+  "B1U42S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Từ chủ đề 1 · Vấn đề và giải pháp",
+   "can_do_vi": "Sau buổi này bạn nhận ra và dùng được 15 từ chủ đề «Vấn đề và giải pháp», từ «accident» đến «insult».",
+   "vocab": [
+    "accident",
+    "assume",
+    "cause",
+    "claim",
+    "complain",
+    "convince",
+    "criticise",
+    "deny",
+    "discussion",
+    "doubt",
+    "encourage",
+    "get rid of",
+    "gossip",
+    "ideal",
+    "insult"
+   ],
+   "check": [
+    "B1U42M9",
+    "B1U42M6",
+    "B1U42M4",
+    "B1U42M8",
+    "B1U42M3",
+    "B1U42M1"
+   ]
+  },
+  {
+   "title_vi": "Từ chủ đề 2 · Vấn đề và giải pháp",
+   "can_do_vi": "Sau buổi này bạn nhận ra và dùng được 15 từ chủ đề «Vấn đề và giải pháp», từ «investigate» đến «warn».",
+   "vocab": [
+    "investigate",
+    "negative",
+    "positive",
+    "praise",
+    "pretend",
+    "purpose",
+    "refuse",
+    "result",
+    "rumour",
+    "sensible",
+    "serious",
+    "spare",
+    "theory",
+    "thought",
+    "warn"
+   ],
+   "check": [
+    "B1U42M5",
+    "B1U42M10",
+    "B1U42M7",
+    "B1U42M2"
+   ]
+  },
+  {
+   "title_vi": "Cụm động từ và cụm giới từ 1",
+   "can_do_vi": "Sau buổi này bạn chọn đúng tiểu từ và giới từ trong các cụm cố định của Unit, không dịch từng chữ từ tiếng Việt.",
+   "vocab": [
+    "point out",
+    "sort out",
+    "watch out",
+    "in danger (of)",
+    "in a mess",
+    "by mistake",
+    "under pressure",
+    "in trouble",
+    "in my view"
+   ],
+   "check": [
+    "B1U42C1",
+    "B1U42C2",
+    "B1U42C3",
+    "B1U42C4",
+    "B1U42C5",
+    "B1U42C6",
+    "B1U42C7",
+    "B1U42C8",
+    "B1U42C9",
+    "B1U42B1",
+    "B1U42B2",
+    "B1U42B3"
+   ]
+  },
+  {
+   "title_vi": "Giới từ theo sau động từ, tính từ, danh từ",
+   "can_do_vi": "Sau buổi này bạn dùng đúng giới từ đi sau các động từ, tính từ và danh từ của Unit: lỗi mất điểm nhiều nhất của người Việt.",
+   "vocab": [
+    "an advantage of",
+    "advise against",
+    "approve of",
+    "complain (to sb) about",
+    "deal with",
+    "hide sth from sb",
+    "insist on",
+    "a reason for",
+    "rely on",
+    "feel like",
+    "an increase in",
+    "listen to"
+   ],
+   "check": [
+    "B1U42C10",
+    "B1U42C11",
+    "B1U42C12",
+    "B1U42C13",
+    "B1U42C14",
+    "B1U42C15",
+    "B1U42C16",
+    "B1U42C17",
+    "B1U42C18",
+    "B1U42C19",
+    "B1U42C20",
+    "B1U42C21"
+   ]
+  },
+  {
+   "title_vi": "Biến đổi từ loại và phần Nói",
+   "can_do_vi": "Sau buổi này bạn đổi được từ gốc sang danh từ, tính từ hoặc dạng trái nghĩa, và nói được một phút về chủ đề của Unit.",
+   "vocab": [
+    "prefer",
+    "recommend",
+    "solve",
+    "suggest"
+   ],
+   "check": [
+    "B1U42F1",
+    "B1U42F2",
+    "B1U42F3",
+    "B1U42F4",
+    "B1U42D1",
+    "B1U42S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Danh sách từ theo Destination B1 (Mann & Taylore-Knowles, Macmillan), pp. 184–216. Nghĩa tiếng Việt, câu ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  },
+  {
+   "title": "Cần đối chiếu với sách",
+   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: point out, sort out, watch out, insist on, a reason for, prefer, recommend, refuse, solve, suggest."
+  }
+ ]
+}

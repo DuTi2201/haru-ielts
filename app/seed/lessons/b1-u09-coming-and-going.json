@@ -1,0 +1,891 @@
+{
+ "slug": "b1-u09-coming-and-going",
+ "title": "Unit 9 · Đi lại và du lịch",
+ "title_ko": "Coming and going",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 9,
+ "summary": "Nói về chuyến đi, phương tiện và sự cố khi di chuyển; phân biệt trip, journey, travel. 30 từ chủ đề, 9 cụm động từ, 7 cụm giới từ, 13 mẫu giới từ, 11 họ từ.",
+ "vocab": [
+  {
+   "hangul": "abroad",
+   "pos": "X",
+   "meaning_vi": "ở/ra nước ngoài (trạng từ, không có giới từ: go abroad)",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "accommodation",
+   "pos": "N",
+   "meaning_vi": "chỗ ở (không đếm được)",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "book",
+   "pos": "V",
+   "meaning_vi": "đặt trước (phòng, vé)",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "break",
+   "pos": "N",
+   "meaning_vi": "kỳ nghỉ ngắn; giờ giải lao",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "cancel",
+   "pos": "V",
+   "meaning_vi": "hủy",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "catch",
+   "pos": "V",
+   "meaning_vi": "bắt (xe buýt, tàu, máy bay)",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "coach",
+   "pos": "N",
+   "meaning_vi": "xe khách đường dài",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "convenient",
+   "pos": "A",
+   "meaning_vi": "thuận tiện",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "crash",
+   "pos": "X",
+   "meaning_vi": "(v) đâm, va chạm; (n) vụ tai nạn xe",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "crowded",
+   "pos": "A",
+   "meaning_vi": "đông đúc",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "cruise",
+   "pos": "N",
+   "meaning_vi": "chuyến du thuyền",
+   "family": "1 · Topic vocabulary",
+   "priority": "recognize",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "delay",
+   "pos": "X",
+   "meaning_vi": "(v) trì hoãn, làm chậm; (n) sự chậm trễ",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "destination",
+   "pos": "N",
+   "meaning_vi": "điểm đến",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "ferry",
+   "pos": "N",
+   "meaning_vi": "phà",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "flight",
+   "pos": "N",
+   "meaning_vi": "chuyến bay",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "foreign",
+   "pos": "A",
+   "meaning_vi": "nước ngoài, ngoại quốc",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "harbour",
+   "pos": "N",
+   "meaning_vi": "bến cảng",
+   "family": "1 · Topic vocabulary",
+   "priority": "recognize",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "journey",
+   "pos": "N",
+   "meaning_vi": "chuyến đi, hành trình (thường dài)",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "luggage",
+   "pos": "N",
+   "meaning_vi": "hành lý (không đếm được)",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "nearby",
+   "pos": "X",
+   "meaning_vi": "(adj) gần đó; (adv) ở gần đây",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "pack",
+   "pos": "V",
+   "meaning_vi": "đóng gói, xếp hành lý",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "passport",
+   "pos": "N",
+   "meaning_vi": "hộ chiếu",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "platform",
+   "pos": "N",
+   "meaning_vi": "sân ga",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "public transport",
+   "pos": "N",
+   "meaning_vi": "giao thông công cộng",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "reach",
+   "pos": "V",
+   "meaning_vi": "tới nơi, đến (không có giới từ: reach the hotel)",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "resort",
+   "pos": "N",
+   "meaning_vi": "khu nghỉ dưỡng",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "souvenir",
+   "pos": "N",
+   "meaning_vi": "quà lưu niệm",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "traffic",
+   "pos": "N",
+   "meaning_vi": "giao thông, xe cộ trên đường (không đếm được)",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "trip",
+   "pos": "N",
+   "meaning_vi": "chuyến đi (ngắn, có đi có về)",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "vehicle",
+   "pos": "N",
+   "meaning_vi": "xe cộ, phương tiện",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
+  },
+  {
+   "hangul": "fill up",
+   "pos": "V",
+   "meaning_vi": "đổ đầy, làm đầy",
+   "example_ko": "He filled up the bottle with water before the walk.",
+   "example_vi": "Anh ấy đổ đầy chai nước trước khi đi bộ.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "hurry up",
+   "pos": "V",
+   "meaning_vi": "nhanh lên",
+   "example_ko": "Hurry up, or we will miss the bus.",
+   "example_vi": "Nhanh lên kẻo lỡ xe buýt.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "run away (from)",
+   "pos": "V",
+   "meaning_vi": "chạy trốn",
+   "example_ko": "The dog ran away from home during the storm.",
+   "example_vi": "Con chó bỏ nhà chạy mất trong cơn bão.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "run out (of)",
+   "pos": "V",
+   "meaning_vi": "hết, cạn",
+   "example_ko": "We have run out of rice, so I need to go shopping.",
+   "example_vi": "Nhà hết gạo rồi nên tôi phải đi mua.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "come out",
+   "pos": "V",
+   "meaning_vi": "được xuất bản, ra mắt",
+   "example_ko": "Her second book came out last month.",
+   "example_vi": "Cuốn sách thứ hai của cô ấy ra mắt tháng trước.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "go away",
+   "pos": "V",
+   "meaning_vi": "đi khỏi, rời đi",
+   "example_ko": "The pain went away after I took the medicine.",
+   "example_vi": "Cơn đau hết sau khi tôi uống thuốc.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "go off",
+   "pos": "V",
+   "meaning_vi": "ôi, thiu (đồ ăn)",
+   "example_ko": "Put the milk in the fridge or it will go off.",
+   "example_vi": "Cất sữa vào tủ lạnh kẻo hỏng.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "set off",
+   "pos": "V",
+   "meaning_vi": "khởi hành",
+   "example_ko": "We set off early to avoid the traffic.",
+   "example_vi": "Chúng tôi khởi hành sớm để tránh tắc đường.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "set up",
+   "pos": "V",
+   "meaning_vi": "thành lập",
+   "example_ko": "She set up her own company at the age of 25.",
+   "example_vi": "Cô ấy lập công ty riêng năm 25 tuổi.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "by air/sea/bus/car",
+   "pos": "X",
+   "meaning_vi": "bằng đường hàng không/biển/xe buýt/ô tô",
+   "example_ko": "Most tourists arrive by air.",
+   "example_vi": "Phần lớn khách du lịch đến bằng đường hàng không.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "on board",
+   "pos": "X",
+   "meaning_vi": "trên tàu, trên máy bay",
+   "example_ko": "There were 200 passengers on board.",
+   "example_vi": "Có 200 hành khách trên máy bay.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "on the coast",
+   "pos": "X",
+   "meaning_vi": "ở vùng ven biển",
+   "example_ko": "They live in a small town on the coast.",
+   "example_vi": "Họ sống ở một thị trấn nhỏ ven biển.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "on foot",
+   "pos": "X",
+   "meaning_vi": "đi bộ",
+   "example_ko": "It takes ten minutes on foot.",
+   "example_vi": "Đi bộ mất mười phút.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "on holiday",
+   "pos": "X",
+   "meaning_vi": "đang đi nghỉ",
+   "example_ko": "The office is closed because everyone is on holiday.",
+   "example_vi": "Văn phòng đóng cửa vì mọi người đang đi nghỉ.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "on schedule",
+   "pos": "X",
+   "meaning_vi": "đúng lịch",
+   "example_ko": "The project finished on schedule.",
+   "example_vi": "Dự án hoàn thành đúng lịch.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "in love (with)",
+   "pos": "X",
+   "meaning_vi": "đang yêu",
+   "example_ko": "He is in love with a girl from his class.",
+   "example_vi": "Cậu ấy đang yêu một cô bạn cùng lớp.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "arrive at",
+   "pos": "X",
+   "meaning_vi": "đến (địa điểm nhỏ: sân bay, khách sạn)",
+   "example_ko": "We arrived at the station ten minutes early.",
+   "example_vi": "Chúng tôi đến ga sớm mười phút.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "arrive in",
+   "pos": "X",
+   "meaning_vi": "đến (thành phố, quốc gia)",
+   "example_ko": "They arrived in London on Monday.",
+   "example_vi": "Họ đến London hôm thứ Hai.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "close to",
+   "pos": "X",
+   "meaning_vi": "gần",
+   "example_ko": "Our school is close to the river.",
+   "example_vi": "Trường chúng tôi ở gần sông.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "famous for",
+   "pos": "X",
+   "meaning_vi": "nổi tiếng vì",
+   "example_ko": "Hue is famous for its food.",
+   "example_vi": "Huế nổi tiếng về ẩm thực.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "far from",
+   "pos": "X",
+   "meaning_vi": "xa",
+   "example_ko": "The hotel is not far from the airport.",
+   "example_vi": "Khách sạn không xa sân bay.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "provide sb with",
+   "pos": "X",
+   "meaning_vi": "cung cấp cho ai cái gì",
+   "example_ko": "The school provides students with free books.",
+   "example_vi": "Trường cung cấp sách miễn phí cho học sinh.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "suitable for",
+   "pos": "X",
+   "meaning_vi": "phù hợp với",
+   "example_ko": "This film is not suitable for young children.",
+   "example_vi": "Bộ phim này không phù hợp với trẻ nhỏ.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "amazed at/by",
+   "pos": "X",
+   "meaning_vi": "kinh ngạc trước",
+   "example_ko": "We were amazed at the size of the building.",
+   "example_vi": "Chúng tôi kinh ngạc trước quy mô tòa nhà.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "careful with",
+   "pos": "X",
+   "meaning_vi": "cẩn thận với",
+   "example_ko": "Be careful with that knife.",
+   "example_vi": "Cẩn thận với con dao đó.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "look at",
+   "pos": "X",
+   "meaning_vi": "nhìn vào",
+   "example_ko": "Look at the chart on page ten.",
+   "example_vi": "Hãy nhìn biểu đồ ở trang mười.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "take part in",
+   "pos": "X",
+   "meaning_vi": "tham gia",
+   "example_ko": "Over 500 people took part in the race.",
+   "example_vi": "Hơn 500 người tham gia cuộc đua.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "wait for",
+   "pos": "X",
+   "meaning_vi": "chờ",
+   "example_ko": "We waited for the bus for half an hour.",
+   "example_vi": "Chúng tôi chờ xe buýt nửa tiếng.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "work for",
+   "pos": "X",
+   "meaning_vi": "làm việc cho",
+   "example_ko": "She works for a large bank.",
+   "example_vi": "Cô ấy làm cho một ngân hàng lớn.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
+   "hangul": "attract",
+   "pos": "V",
+   "meaning_vi": "thu hút",
+   "note_vi": "Họ từ: `attractive` (tính từ), `attraction` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word formation pp. 212–216"
+  },
+  {
+   "hangul": "back",
+   "pos": "N",
+   "meaning_vi": "phía sau",
+   "note_vi": "Họ từ: `backwards` (trạng từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word formation pp. 212–216"
+  },
+  {
+   "hangul": "centre",
+   "pos": "N",
+   "meaning_vi": "trung tâm",
+   "note_vi": "Họ từ: `central` (tính từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word formation pp. 212–216"
+  },
+  {
+   "hangul": "choose",
+   "pos": "V",
+   "meaning_vi": "chọn",
+   "note_vi": "Họ từ: `chose` (quá khứ đơn), `chosen` (quá khứ phân từ), `choice` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word formation pp. 212–216"
+  },
+  {
+   "hangul": "comfort",
+   "pos": "N",
+   "meaning_vi": "sự thoải mái",
+   "note_vi": "Họ từ: `comfortable` (tính từ), `uncomfortable` (dạng trái nghĩa)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word formation pp. 212–216"
+  },
+  {
+   "hangul": "depart",
+   "pos": "V",
+   "meaning_vi": "khởi hành",
+   "note_vi": "Họ từ: `departure` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word formation pp. 212–216"
+  },
+  {
+   "hangul": "direct",
+   "pos": "V",
+   "meaning_vi": "chỉ đường; chỉ đạo",
+   "note_vi": "Họ từ: `direction` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word formation pp. 212–216"
+  },
+  {
+   "hangul": "drive",
+   "pos": "V",
+   "meaning_vi": "lái xe",
+   "note_vi": "Họ từ: `drove` (quá khứ đơn), `driven` (quá khứ phân từ), `driver` (danh từ chỉ người)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word formation pp. 212–216"
+  },
+  {
+   "hangul": "fly",
+   "pos": "V",
+   "meaning_vi": "bay",
+   "note_vi": "Họ từ: `flew` (quá khứ đơn), `flown` (quá khứ phân từ), `flight` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word formation pp. 212–216"
+  },
+  {
+   "hangul": "travel",
+   "pos": "V",
+   "meaning_vi": "đi lại, du lịch",
+   "note_vi": "Họ từ: `traveller` (danh từ chỉ người)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word formation pp. 212–216"
+  },
+  {
+   "hangul": "visit",
+   "pos": "V",
+   "meaning_vi": "thăm",
+   "note_vi": "Họ từ: `visitor` (danh từ chỉ người)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word formation pp. 212–216"
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Nói về chuyến đi, phương tiện và sự cố khi di chuyển; phân biệt trip, journey, travel.\n• 📖 Trong sách: Unit từ vựng 9, trang 36–39. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Listening Part 1 thường là đặt phòng, đặt vé, hỏi lịch trình. Speaking Part 2: Describe a trip you remember.",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "Học cụm, không học từ rời: mỗi cụm động từ, cụm giới từ và mẫu giới từ đi kèm một câu ví dụ.",
+   "Từ chủ đề chỉ cần nhận ra khi đọc và nghe; các cụm và mẫu giới từ phải dùng được khi nói và viết."
+  ],
+  "watch_out_vi": [
+   "Giới từ tiếng Anh không dịch được từ tiếng Việt: học cả cụm như một khối."
+  ]
+ },
+ "exercise_ids": [
+  "B1U09M1",
+  "B1U09M2",
+  "B1U09M3",
+  "B1U09M4",
+  "B1U09M5",
+  "B1U09M6",
+  "B1U09M7",
+  "B1U09M8",
+  "B1U09M9",
+  "B1U09M10",
+  "B1U09C1",
+  "B1U09C2",
+  "B1U09C3",
+  "B1U09C4",
+  "B1U09C5",
+  "B1U09C6",
+  "B1U09C7",
+  "B1U09C8",
+  "B1U09C9",
+  "B1U09C10",
+  "B1U09C11",
+  "B1U09C12",
+  "B1U09C13",
+  "B1U09C14",
+  "B1U09C15",
+  "B1U09C16",
+  "B1U09C17",
+  "B1U09C18",
+  "B1U09C19",
+  "B1U09C20",
+  "B1U09C21",
+  "B1U09C22",
+  "B1U09C23",
+  "B1U09C24",
+  "B1U09C25",
+  "B1U09C26",
+  "B1U09C27",
+  "B1U09C28",
+  "B1U09C29",
+  "B1U09B1",
+  "B1U09B2",
+  "B1U09B3",
+  "B1U09F1",
+  "B1U09F2",
+  "B1U09F3",
+  "B1U09F4",
+  "B1U09F5",
+  "B1U09F6",
+  "B1U09F7",
+  "B1U09F8",
+  "B1U09D1",
+  "B1U09S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Từ chủ đề 1 · Đi lại và du lịch",
+   "can_do_vi": "Sau buổi này bạn nhận ra và dùng được 15 từ chủ đề «Đi lại và du lịch», từ «abroad» đến «flight».",
+   "vocab": [
+    "abroad",
+    "accommodation",
+    "book",
+    "break",
+    "cancel",
+    "catch",
+    "coach",
+    "convenient",
+    "crash",
+    "crowded",
+    "cruise",
+    "delay",
+    "destination",
+    "ferry",
+    "flight"
+   ],
+   "check": [
+    "B1U09M8",
+    "B1U09M1",
+    "B1U09M3",
+    "B1U09M10",
+    "B1U09M7",
+    "B1U09M5",
+    "B1U09M6",
+    "B1U09M4"
+   ]
+  },
+  {
+   "title_vi": "Từ chủ đề 2 · Đi lại và du lịch",
+   "can_do_vi": "Sau buổi này bạn nhận ra và dùng được 15 từ chủ đề «Đi lại và du lịch», từ «foreign» đến «vehicle».",
+   "vocab": [
+    "foreign",
+    "harbour",
+    "journey",
+    "luggage",
+    "nearby",
+    "pack",
+    "passport",
+    "platform",
+    "public transport",
+    "reach",
+    "resort",
+    "souvenir",
+    "traffic",
+    "trip",
+    "vehicle"
+   ],
+   "check": [
+    "B1U09M2",
+    "B1U09M9"
+   ]
+  },
+  {
+   "title_vi": "Cụm động từ và cụm giới từ 1",
+   "can_do_vi": "Sau buổi này bạn chọn đúng tiểu từ và giới từ trong các cụm cố định của Unit, không dịch từng chữ từ tiếng Việt.",
+   "vocab": [
+    "fill up",
+    "hurry up",
+    "run away (from)",
+    "run out (of)",
+    "come out",
+    "go away",
+    "go off",
+    "set off",
+    "set up",
+    "by air/sea/bus/car",
+    "on board",
+    "on the coast",
+    "on foot",
+    "on holiday",
+    "on schedule",
+    "in love (with)"
+   ],
+   "check": [
+    "B1U09C1",
+    "B1U09C2",
+    "B1U09C3",
+    "B1U09C4",
+    "B1U09C5",
+    "B1U09C6",
+    "B1U09C7",
+    "B1U09C8",
+    "B1U09C9",
+    "B1U09C10",
+    "B1U09C11",
+    "B1U09C12",
+    "B1U09C13",
+    "B1U09C14",
+    "B1U09C15",
+    "B1U09C16",
+    "B1U09B1",
+    "B1U09B2",
+    "B1U09B3"
+   ]
+  },
+  {
+   "title_vi": "Giới từ theo sau động từ, tính từ, danh từ",
+   "can_do_vi": "Sau buổi này bạn dùng đúng giới từ đi sau các động từ, tính từ và danh từ của Unit: lỗi mất điểm nhiều nhất của người Việt.",
+   "vocab": [
+    "arrive at",
+    "arrive in",
+    "close to",
+    "famous for",
+    "far from",
+    "provide sb with",
+    "suitable for",
+    "amazed at/by",
+    "careful with",
+    "look at",
+    "take part in",
+    "wait for",
+    "work for"
+   ],
+   "check": [
+    "B1U09C17",
+    "B1U09C18",
+    "B1U09C19",
+    "B1U09C20",
+    "B1U09C21",
+    "B1U09C22",
+    "B1U09C23",
+    "B1U09C24",
+    "B1U09C25",
+    "B1U09C26",
+    "B1U09C27",
+    "B1U09C28",
+    "B1U09C29"
+   ]
+  },
+  {
+   "title_vi": "Biến đổi từ loại và phần Nói",
+   "can_do_vi": "Sau buổi này bạn đổi được từ gốc sang danh từ, tính từ hoặc dạng trái nghĩa, và nói được một phút về chủ đề của Unit.",
+   "vocab": [
+    "attract",
+    "back",
+    "centre",
+    "choose",
+    "comfort",
+    "depart",
+    "direct",
+    "drive",
+    "fly",
+    "travel",
+    "visit"
+   ],
+   "check": [
+    "B1U09F1",
+    "B1U09F2",
+    "B1U09F3",
+    "B1U09F4",
+    "B1U09F5",
+    "B1U09F6",
+    "B1U09F7",
+    "B1U09F8",
+    "B1U09D1",
+    "B1U09S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Danh sách từ theo Destination B1 (Mann & Taylore-Knowles, Macmillan), pp. 184–216. Nghĩa tiếng Việt, câu ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  },
+  {
+   "title": "Cần đối chiếu với sách",
+   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: fill up, by air/sea/bus/car, centre."
+  }
+ ]
+}

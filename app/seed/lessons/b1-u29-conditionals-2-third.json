@@ -1,0 +1,164 @@
+{
+ "slug": "b1-u29-conditionals-2-third",
+ "title": "Unit 29 · Câu điều kiện 2: loại ba",
+ "title_ko": "Conditionals 2: (third)",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 29,
+ "summary": "Nói về điều đã không xảy ra trong quá khứ và hệ quả tưởng tượng của nó. Ngữ pháp: Third conditional: if + past perfect, would have + V3; could have / might have in the result clause.",
+ "vocab": [
+  {
+   "hangul": "luckily",
+   "pos": "X",
+   "meaning_vi": "may thay",
+   "example_ko": "Luckily, nobody was hurt.",
+   "example_vi": "May thay không ai bị thương.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 29"
+  },
+  {
+   "hangul": "miss",
+   "pos": "V",
+   "meaning_vi": "lỡ (tàu, cơ hội)",
+   "example_ko": "I missed the last bus.",
+   "example_vi": "Tôi lỡ chuyến xe buýt cuối.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 29"
+  },
+  {
+   "hangul": "realise",
+   "pos": "V",
+   "meaning_vi": "nhận ra",
+   "example_ko": "I did not realise it was so late.",
+   "example_vi": "Tôi không nhận ra đã muộn thế.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 29"
+  },
+  {
+   "hangul": "opportunity",
+   "pos": "N",
+   "meaning_vi": "cơ hội",
+   "example_ko": "It was a great opportunity.",
+   "example_vi": "Đó là một cơ hội tuyệt vời.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 29"
+  },
+  {
+   "hangul": "turn out",
+   "pos": "V",
+   "meaning_vi": "hóa ra, rốt cuộc là",
+   "example_ko": "Everything turned out fine.",
+   "example_vi": "Mọi việc rốt cuộc ổn cả.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 29"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "Third conditional: if + past perfect, would have + V3",
+   "meaning_vi": "Giả định trái với quá khứ",
+   "usage_context_vi": "Cả điều kiện lẫn kết quả đều đã không xảy ra. Mệnh đề chính có thể dùng could have / might have + V3.",
+   "contrasts": [
+    {
+     "pattern": "Second conditional: if + past simple, would + V",
+     "diff_vi": "Loại hai giả định về hiện tại (If I had money now…); loại ba giả định về quá khứ (If I had had money then…)."
+    }
+   ],
+   "example_ko": "If I had studied harder, I would have passed.\nIf we had left earlier, we would not have missed the flight.",
+   "example_vi": "Nếu tôi học chăm hơn thì tôi đã đỗ.\nNếu chúng tôi đi sớm hơn thì đã không lỡ chuyến bay.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 29, pp. 121-123",
+   "note_vi": "Lỗi người Việt hay mắc: Dùng `would have` ở cả hai vế: ~~If I would have known~~ → If I had known. Viết tắt `'d` có thể là had (vế if) hoặc would (vế chính)."
+  },
+  {
+   "pattern": "could have / might have in the result clause",
+   "meaning_vi": "Kết quả có thể đã khác",
+   "usage_context_vi": "`could have + V3` = đã có thể; `might have + V3` = có lẽ đã.",
+   "contrasts": [],
+   "example_ko": "If you had asked me, I could have helped.\nIf it had not rained, more people might have come.",
+   "example_vi": "Nếu bạn hỏi thì tôi đã có thể giúp.\nNếu trời không mưa thì có lẽ nhiều người đã đến hơn.",
+   "importance": "normal",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 29, pp. 121-123"
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Nói về điều đã không xảy ra trong quá khứ và hệ quả tưởng tượng của nó.\n• 📖 Trong sách: Unit ngữ pháp 29, trang 121–123. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Dùng được trong Part 2 khi nhìn lại một trải nghiệm, và thể hiện độ đa dạng cấu trúc ngữ pháp.",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "Third conditional: if + past perfect, would have + V3: Giả định trái với quá khứ",
+   "could have / might have in the result clause: Kết quả có thể đã khác"
+  ],
+  "watch_out_vi": [
+   "Dùng `would have` ở cả hai vế: ~~If I would have known~~ → If I had known. Viết tắt `'d` có thể là had (vế if) hoặc would (vế chính)."
+  ]
+ },
+ "exercise_ids": [
+  "B1U29Q1",
+  "B1U29Q2",
+  "B1U29Q3",
+  "B1U29Q4",
+  "B1U29Q5",
+  "B1U29B1",
+  "B1U29B2",
+  "B1U29B3",
+  "B1U29F1",
+  "B1U29F2",
+  "B1U29D1",
+  "B1U29S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · Third conditional",
+   "can_do_vi": "Sau buổi này bạn dùng được: giả định trái với quá khứ; kết quả có thể đã khác.",
+   "use_vi": "Dùng được trong Part 2 khi nhìn lại một trải nghiệm, và thể hiện độ đa dạng cấu trúc ngữ pháp.",
+   "vocab": [
+    "luckily",
+    "miss",
+    "realise",
+    "opportunity",
+    "turn out"
+   ],
+   "grammar": [
+    "Third conditional: if + past perfect, would have + V3",
+    "could have / might have in the result clause"
+   ],
+   "check": [
+    "B1U29Q1",
+    "B1U29Q2",
+    "B1U29Q3",
+    "B1U29Q5",
+    "B1U29Q4",
+    "B1U29B1",
+    "B1U29B2",
+    "B1U29B3",
+    "B1U29F1",
+    "B1U29F2",
+    "B1U29D1",
+    "B1U29S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Tiêu đề và số trang theo mục lục Destination B1 (Mann & Taylore-Knowles, Macmillan). Giải thích, ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  }
+ ]
+}

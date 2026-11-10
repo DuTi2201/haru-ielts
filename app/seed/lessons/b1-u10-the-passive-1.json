@@ -1,0 +1,188 @@
+{
+ "slug": "b1-u10-the-passive-1",
+ "title": "Unit 10 · Câu bị động 1: các thì cơ bản",
+ "title_ko": "The passive 1",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 10,
+ "summary": "Chuyển câu chủ động sang bị động ở hiện tại, quá khứ, tương lai và hiện tại hoàn thành. Ngữ pháp: be + V3 (present and past simple passive); will be + V3 / have been + V3; Verbs that have no passive (happen, arrive, die, rise…).",
+ "vocab": [
+  {
+   "hangul": "produce",
+   "pos": "V",
+   "meaning_vi": "sản xuất",
+   "example_ko": "Coffee is produced in the highlands.",
+   "example_vi": "Cà phê được sản xuất ở vùng cao nguyên.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 10"
+  },
+  {
+   "hangul": "deliver",
+   "pos": "V",
+   "meaning_vi": "giao hàng",
+   "example_ko": "The parcel was delivered this morning.",
+   "example_vi": "Bưu kiện được giao sáng nay.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 10"
+  },
+  {
+   "hangul": "announce",
+   "pos": "V",
+   "meaning_vi": "công bố",
+   "example_ko": "The winner will be announced tonight.",
+   "example_vi": "Người thắng sẽ được công bố tối nay.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 10"
+  },
+  {
+   "hangul": "allow",
+   "pos": "V",
+   "meaning_vi": "cho phép",
+   "example_ko": "Students are not allowed to use phones.",
+   "example_vi": "Học sinh không được phép dùng điện thoại.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 10"
+  },
+  {
+   "hangul": "found",
+   "pos": "V",
+   "meaning_vi": "thành lập (found – founded – founded)",
+   "example_ko": "The university was founded in 1945.",
+   "example_vi": "Trường đại học được thành lập năm 1945.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 10"
+  },
+  {
+   "hangul": "occur",
+   "pos": "V",
+   "meaning_vi": "xảy ra (trang trọng; không có bị động)",
+   "example_ko": "The problem occurred last week.",
+   "example_vi": "Sự cố xảy ra tuần trước.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 10"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "be + V3 (present and past simple passive)",
+   "meaning_vi": "Bị động ở hiện tại đơn và quá khứ đơn",
+   "usage_context_vi": "Dùng khi việc được làm quan trọng hơn người làm, hoặc không biết ai làm.\n| Thì | Cấu trúc | Ví dụ |\n| Hiện tại đơn | am/is/are + V3 | Rice is grown in Vietnam. |\n| Quá khứ đơn | was/were + V3 | The bridge was built in 1990. |\nPhủ định thêm `not` sau `be`; câu hỏi đảo `be` lên trước.",
+   "contrasts": [],
+   "example_ko": "English is spoken in many countries.\nMy bike was stolen last night.",
+   "example_vi": "Tiếng Anh được nói ở nhiều nước.\nXe đạp của tôi bị lấy trộm tối qua.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 10, pp. 42-44",
+   "note_vi": "Lỗi người Việt hay mắc: Thiếu `be` hoặc dùng V-ing thay V3: ~~The bridge built in 1990~~, ~~Prizes are giving~~ → was built, are given. Tiếng Việt có \"bị/được\" nhưng không biến đổi động từ nên rất dễ quên V3.",
+   "topik_tip_vi": "Task 1 quy trình: mỗi bước một câu bị động hiện tại đơn, nối bằng first, then, after that, finally."
+  },
+  {
+   "pattern": "will be + V3 / have been + V3",
+   "meaning_vi": "Bị động ở tương lai và hiện tại hoàn thành",
+   "usage_context_vi": "Tương lai: will be + V3. Hiện tại hoàn thành: have/has been + V3.",
+   "contrasts": [],
+   "example_ko": "The results will be announced next week.\nThe road has been closed since Monday.",
+   "example_vi": "Kết quả sẽ được công bố tuần sau.\nCon đường đã bị đóng từ thứ Hai.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 10, pp. 42-44",
+   "note_vi": "Lỗi người Việt hay mắc: ~~The results will announce~~ → will be announced. ~~has closed~~ khi con đường là thứ bị tác động → has been closed."
+  },
+  {
+   "pattern": "Verbs that have no passive (happen, arrive, die, rise…)",
+   "meaning_vi": "Nội động từ không có dạng bị động",
+   "usage_context_vi": "Động từ không có tân ngữ không chuyển được sang bị động: happen, occur, arrive, die, exist, rise, fall, increase (khi tự tăng).",
+   "contrasts": [],
+   "example_ko": "The accident happened at night.\nPrices rose by ten per cent.",
+   "example_vi": "Vụ tai nạn xảy ra vào ban đêm.\nGiá tăng mười phần trăm.",
+   "importance": "normal",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 10, pp. 42-44",
+   "note_vi": "Lỗi người Việt hay mắc: ~~The accident was happened~~, ~~Prices were risen~~ → happened, rose. Đây là lỗi rất hay gặp trong Task 1."
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Chuyển câu chủ động sang bị động ở hiện tại, quá khứ, tương lai và hiện tại hoàn thành.\n• 📖 Trong sách: Unit ngữ pháp 10, trang 42–44. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Bị động là xương sống của Writing Task 1 dạng quy trình (The beans are dried and then roasted) và giúp Task 2 khách quan hơn.",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "be + V3 (present and past simple passive): Bị động ở hiện tại đơn và quá khứ đơn",
+   "will be + V3 / have been + V3: Bị động ở tương lai và hiện tại hoàn thành",
+   "Verbs that have no passive (happen, arrive, die, rise…): Nội động từ không có dạng bị động"
+  ],
+  "watch_out_vi": [
+   "Thiếu `be` hoặc dùng V-ing thay V3: ~~The bridge built in 1990~~, ~~Prizes are giving~~ → was built, are given. Tiếng Việt có \"bị/được\" nhưng không biến đổi động từ nên rất dễ quên V3.",
+   "~~The results will announce~~ → will be announced. ~~has closed~~ khi con đường là thứ bị tác động → has been closed."
+  ]
+ },
+ "exercise_ids": [
+  "B1U10Q1",
+  "B1U10Q2",
+  "B1U10Q3",
+  "B1U10Q4",
+  "B1U10Q5",
+  "B1U10Q6",
+  "B1U10B1",
+  "B1U10B2",
+  "B1U10B3",
+  "B1U10F1",
+  "B1U10F2",
+  "B1U10D1",
+  "B1U10S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · be + V3 (present and past simple passive)",
+   "can_do_vi": "Sau buổi này bạn dùng được: bị động ở hiện tại đơn và quá khứ đơn; bị động ở tương lai và hiện tại hoàn thành; nội động từ không có dạng bị động.",
+   "use_vi": "Bị động là xương sống của Writing Task 1 dạng quy trình (The beans are dried and then roasted) và giúp Task 2 khách quan hơn.",
+   "vocab": [
+    "produce",
+    "deliver",
+    "announce",
+    "allow",
+    "found",
+    "occur"
+   ],
+   "grammar": [
+    "be + V3 (present and past simple passive)",
+    "will be + V3 / have been + V3",
+    "Verbs that have no passive (happen, arrive, die, rise…)"
+   ],
+   "check": [
+    "B1U10Q1",
+    "B1U10Q2",
+    "B1U10Q6",
+    "B1U10Q3",
+    "B1U10Q4",
+    "B1U10Q5",
+    "B1U10B1",
+    "B1U10B2",
+    "B1U10B3",
+    "B1U10F1",
+    "B1U10F2",
+    "B1U10D1",
+    "B1U10S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Tiêu đề và số trang theo mục lục Destination B1 (Mann & Taylore-Knowles, Macmillan). Giải thích, ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  }
+ ]
+}

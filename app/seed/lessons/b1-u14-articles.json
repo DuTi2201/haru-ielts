@@ -1,0 +1,179 @@
+{
+ "slug": "b1-u14-articles",
+ "title": "Unit 14 · Mạo từ a/an, the và không mạo từ",
+ "title_ko": "Articles",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 14,
+ "summary": "Chọn đúng a/an, the hoặc bỏ mạo từ trong các trường hợp thường gặp. Ngữ pháp: a / an; the; Zero article.",
+ "vocab": [
+  {
+   "hangul": "the environment",
+   "pos": "N",
+   "meaning_vi": "môi trường (luôn có the)",
+   "example_ko": "We must protect the environment.",
+   "example_vi": "Chúng ta phải bảo vệ môi trường.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 14"
+  },
+  {
+   "hangul": "the government",
+   "pos": "N",
+   "meaning_vi": "chính phủ",
+   "example_ko": "The government has raised taxes.",
+   "example_vi": "Chính phủ đã tăng thuế.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 14"
+  },
+  {
+   "hangul": "society",
+   "pos": "N",
+   "meaning_vi": "xã hội (nói chung: không có the)",
+   "example_ko": "Technology has changed society.",
+   "example_vi": "Công nghệ đã thay đổi xã hội.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 14"
+  },
+  {
+   "hangul": "an hour",
+   "pos": "N",
+   "meaning_vi": "một giờ (h câm nên dùng an)",
+   "example_ko": "I waited for an hour.",
+   "example_vi": "Tôi đã chờ một tiếng.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 14"
+  },
+  {
+   "hangul": "a university",
+   "pos": "N",
+   "meaning_vi": "một trường đại học (âm /j/ nên dùng a)",
+   "example_ko": "He works at a university.",
+   "example_vi": "Anh ấy làm việc ở một trường đại học.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 14"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "a / an",
+   "meaning_vi": "Một cái bất kỳ, nhắc đến lần đầu; nghề nghiệp",
+   "usage_context_vi": "Dùng với danh từ đếm được số ít khi người nghe chưa biết cái nào, và khi nói nghề nghiệp. `an` đứng trước âm nguyên âm (an hour, an umbrella); `a` trước âm phụ âm (a university, a European country).\nDanh từ đếm được số ít không bao giờ đứng một mình: phải có a/an, the, my, this…",
+   "contrasts": [],
+   "example_ko": "She is a nurse.\nI saw a film last night. The film was about a doctor.",
+   "example_vi": "Cô ấy là y tá.\nTối qua tôi xem một bộ phim. Phim kể về một bác sĩ.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 14, pp. 57-59",
+   "note_vi": "Lỗi người Việt hay mắc: Bỏ mạo từ theo thói quen tiếng Việt: ~~She is teacher~~, ~~I have car~~ → She is a teacher, I have a car."
+  },
+  {
+   "pattern": "the",
+   "meaning_vi": "Cái đã xác định: đã nhắc, duy nhất, cả hai cùng biết",
+   "usage_context_vi": "Dùng khi người nghe biết cái nào: đã nhắc trước đó, chỉ có một (the sun, the government), có cụm xác định phía sau (the price of oil), so sánh nhất (the best), nhạc cụ (the piano), sông biển dãy núi (the Mekong, the Pacific), tên nước có dạng số nhiều hoặc có Kingdom/States (the Philippines, the UK).",
+   "contrasts": [],
+   "example_ko": "The internet has changed the way we work.\nCould you close the door, please?",
+   "example_vi": "Internet đã thay đổi cách chúng ta làm việc.\nBạn đóng cửa giúp được không?",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 14, pp. 57-59",
+   "topik_tip_vi": "Task 1: the number of, the percentage of, the highest figure, the period."
+  },
+  {
+   "pattern": "Zero article",
+   "meaning_vi": "Không dùng mạo từ khi nói chung chung",
+   "usage_context_vi": "Không dùng mạo từ với danh từ số nhiều và danh từ không đếm được khi nói chung (Children need love), với tên người, hầu hết tên nước và thành phố, bữa ăn, môn học, ngôn ngữ, môn thể thao, và các cụm go to school / work / bed, at home, by bus.",
+   "contrasts": [
+    {
+     "pattern": "the",
+     "diff_vi": "Dogs are friendly (chó nói chung) / The dogs next door are noisy (mấy con chó nhà bên)."
+    }
+   ],
+   "example_ko": "Pollution is a serious problem in big cities.\nI have lunch at work.",
+   "example_vi": "Ô nhiễm là vấn đề nghiêm trọng ở các thành phố lớn.\nTôi ăn trưa ở chỗ làm.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 14, pp. 57-59",
+   "note_vi": "Lỗi người Việt hay mắc: Thêm `the` khi nói chung: ~~The life is hard~~, ~~I like the music~~ → Life is hard, I like music."
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Chọn đúng a/an, the hoặc bỏ mạo từ trong các trường hợp thường gặp.\n• 📖 Trong sách: Unit ngữ pháp 14, trang 57–59. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Tiếng Việt không có mạo từ, nên đây là nhóm lỗi nhiều nhất trong bài viết của người Việt. Giảm được lỗi này là tăng trực tiếp tỷ lệ câu không lỗi.",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "a / an: Một cái bất kỳ, nhắc đến lần đầu; nghề nghiệp",
+   "the: Cái đã xác định: đã nhắc, duy nhất, cả hai cùng biết",
+   "Zero article: Không dùng mạo từ khi nói chung chung"
+  ],
+  "watch_out_vi": [
+   "Bỏ mạo từ theo thói quen tiếng Việt: ~~She is teacher~~, ~~I have car~~ → She is a teacher, I have a car.",
+   "Thêm `the` khi nói chung: ~~The life is hard~~, ~~I like the music~~ → Life is hard, I like music."
+  ]
+ },
+ "exercise_ids": [
+  "B1U14Q1",
+  "B1U14Q2",
+  "B1U14Q3",
+  "B1U14Q4",
+  "B1U14Q5",
+  "B1U14B1",
+  "B1U14B2",
+  "B1U14B3",
+  "B1U14F1",
+  "B1U14F2",
+  "B1U14D1",
+  "B1U14S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · a / an",
+   "can_do_vi": "Sau buổi này bạn dùng được: một cái bất kỳ, nhắc đến lần đầu; nghề nghiệp; cái đã xác định: đã nhắc, duy nhất, cả hai cùng biết; không dùng mạo từ khi nói chung chung.",
+   "use_vi": "Tiếng Việt không có mạo từ, nên đây là nhóm lỗi nhiều nhất trong bài viết của người Việt. Giảm được lỗi này là tăng trực tiếp tỷ lệ câu không lỗi.",
+   "vocab": [
+    "the environment",
+    "the government",
+    "society",
+    "an hour",
+    "a university"
+   ],
+   "grammar": [
+    "a / an",
+    "the",
+    "Zero article"
+   ],
+   "check": [
+    "B1U14Q1",
+    "B1U14Q2",
+    "B1U14Q4",
+    "B1U14Q5",
+    "B1U14Q3",
+    "B1U14B1",
+    "B1U14B2",
+    "B1U14B3",
+    "B1U14F1",
+    "B1U14F2",
+    "B1U14D1",
+    "B1U14S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Tiêu đề và số trang theo mục lục Destination B1 (Mann & Taylore-Knowles, Macmillan). Giải thích, ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  }
+ ]
+}

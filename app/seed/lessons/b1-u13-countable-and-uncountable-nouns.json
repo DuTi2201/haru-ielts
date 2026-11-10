@@ -1,0 +1,190 @@
+{
+ "slug": "b1-u13-countable-and-uncountable-nouns",
+ "title": "Unit 13 · Danh từ đếm được và không đếm được",
+ "title_ko": "Countable and uncountable nouns",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 13,
+ "summary": "Biết danh từ nào không thêm -s, và chọn đúng từ chỉ lượng đi kèm. Ngữ pháp: Uncountable nouns (information, advice, furniture…); many / much · a few / a little · a lot of; some / any.",
+ "vocab": [
+  {
+   "hangul": "advice",
+   "pos": "N",
+   "meaning_vi": "lời khuyên (không đếm được)",
+   "example_ko": "Can you give me some advice?",
+   "example_vi": "Bạn cho tôi vài lời khuyên được không?",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 13"
+  },
+  {
+   "hangul": "furniture",
+   "pos": "N",
+   "meaning_vi": "đồ đạc trong nhà (không đếm được)",
+   "example_ko": "The furniture is new.",
+   "example_vi": "Đồ đạc còn mới.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 13"
+  },
+  {
+   "hangul": "knowledge",
+   "pos": "N",
+   "meaning_vi": "kiến thức (không đếm được)",
+   "example_ko": "He has a good knowledge of history.",
+   "example_vi": "Anh ấy có kiến thức tốt về lịch sử.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 13"
+  },
+  {
+   "hangul": "evidence",
+   "pos": "N",
+   "meaning_vi": "bằng chứng (không đếm được)",
+   "example_ko": "There is little evidence for this idea.",
+   "example_vi": "Có rất ít bằng chứng cho ý kiến này.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 13"
+  },
+  {
+   "hangul": "a piece of",
+   "pos": "X",
+   "meaning_vi": "một (mẩu, lời, món) + danh từ không đếm được",
+   "example_ko": "That is a useful piece of information.",
+   "example_vi": "Đó là một thông tin hữu ích.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 13"
+  },
+  {
+   "hangul": "plenty of",
+   "pos": "X",
+   "meaning_vi": "nhiều, dư dả",
+   "example_ko": "We have plenty of time.",
+   "example_vi": "Chúng ta còn nhiều thời gian.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 13"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "Uncountable nouns (information, advice, furniture…)",
+   "meaning_vi": "Danh từ không đếm được: không có số nhiều, không đi với a/an",
+   "usage_context_vi": "Động từ chia số ít. Hay gặp: advice, information, furniture, luggage, equipment, homework, knowledge, money, news, research, traffic, work, evidence, pollution, progress, accommodation.\nMuốn đếm thì dùng `a piece of`, `a bit of`: a piece of advice.",
+   "contrasts": [],
+   "example_ko": "The information is on the website.\nShe gave me a piece of advice.",
+   "example_vi": "Thông tin có trên trang web.\nCô ấy cho tôi một lời khuyên.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 13, pp. 54-56",
+   "note_vi": "Lỗi người Việt hay mắc: Tiếng Việt không có số nhiều nên dễ viết ~~informations~~, ~~advices~~, ~~an advice~~, ~~The news are~~ → information, advice, a piece of advice, The news is.",
+   "topik_tip_vi": "Trong Task 2: research shows, a great deal of evidence, much progress. Không bao giờ thêm -s."
+  },
+  {
+   "pattern": "many / much · a few / a little · a lot of",
+   "meaning_vi": "Từ chỉ lượng theo loại danh từ",
+   "usage_context_vi": "| | Đếm được (số nhiều) | Không đếm được |\n| nhiều | many, a lot of | much, a lot of |\n| một ít (đủ dùng) | a few | a little |\n| rất ít (thiếu) | few | little |\n`much` và `many` chủ yếu dùng trong câu phủ định và câu hỏi; câu khẳng định hay dùng `a lot of`.",
+   "contrasts": [
+    {
+     "pattern": "some / any",
+     "diff_vi": "`some` dùng trong câu khẳng định và lời mời; `any` dùng trong câu phủ định và câu hỏi."
+    }
+   ],
+   "example_ko": "There are not many buses at night.\nWe have a little time before the film.",
+   "example_vi": "Ban đêm không có nhiều xe buýt.\nChúng ta còn một ít thời gian trước giờ chiếu phim.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 13, pp. 54-56",
+   "note_vi": "Lỗi người Việt hay mắc: ~~much people~~ → many people. ~~a few money~~ → a little money. `few` (hầu như không) khác `a few` (một vài)."
+  },
+  {
+   "pattern": "some / any",
+   "meaning_vi": "some + khẳng định · any + phủ định, nghi vấn",
+   "usage_context_vi": "Dùng được với cả danh từ đếm được số nhiều và không đếm được. Lời mời và lời đề nghị vẫn dùng `some`: Would you like some tea?",
+   "contrasts": [],
+   "example_ko": "I bought some fruit.\nIs there any milk?",
+   "example_vi": "Tôi mua một ít hoa quả.\nCòn sữa không?",
+   "importance": "normal",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 13, pp. 54-56"
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Biết danh từ nào không thêm -s, và chọn đúng từ chỉ lượng đi kèm.\n• 📖 Trong sách: Unit ngữ pháp 13, trang 54–56. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Lỗi thêm -s vào danh từ không đếm được (informations, researches, equipments) xuất hiện rất nhiều trong bài viết của người Việt và bị tính vào Grammatical Range and Accuracy.",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "Uncountable nouns (information, advice, furniture…): Danh từ không đếm được: không có số nhiều, không đi với a/an",
+   "many / much · a few / a little · a lot of: Từ chỉ lượng theo loại danh từ",
+   "some / any: some + khẳng định · any + phủ định, nghi vấn"
+  ],
+  "watch_out_vi": [
+   "Tiếng Việt không có số nhiều nên dễ viết ~~informations~~, ~~advices~~, ~~an advice~~, ~~The news are~~ → information, advice, a piece of advice, The news is.",
+   "~~much people~~ → many people. ~~a few money~~ → a little money. `few` (hầu như không) khác `a few` (một vài)."
+  ]
+ },
+ "exercise_ids": [
+  "B1U13Q1",
+  "B1U13Q2",
+  "B1U13Q3",
+  "B1U13Q4",
+  "B1U13Q5",
+  "B1U13B1",
+  "B1U13B2",
+  "B1U13B3",
+  "B1U13F1",
+  "B1U13F2",
+  "B1U13D1",
+  "B1U13S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · Uncountable nouns (information, advice, furniture…)",
+   "can_do_vi": "Sau buổi này bạn dùng được: danh từ không đếm được: không có số nhiều, không đi với a/an; từ chỉ lượng theo loại danh từ; some + khẳng định · any + phủ định, nghi vấn.",
+   "use_vi": "Lỗi thêm -s vào danh từ không đếm được (informations, researches, equipments) xuất hiện rất nhiều trong bài viết của người Việt và bị tính vào Grammatical Range and Accuracy.",
+   "vocab": [
+    "advice",
+    "furniture",
+    "knowledge",
+    "evidence",
+    "a piece of",
+    "plenty of"
+   ],
+   "grammar": [
+    "Uncountable nouns (information, advice, furniture…)",
+    "many / much · a few / a little · a lot of",
+    "some / any"
+   ],
+   "check": [
+    "B1U13Q1",
+    "B1U13Q4",
+    "B1U13Q2",
+    "B1U13Q3",
+    "B1U13Q5",
+    "B1U13B1",
+    "B1U13B2",
+    "B1U13B3",
+    "B1U13F1",
+    "B1U13F2",
+    "B1U13D1",
+    "B1U13S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Tiêu đề và số trang theo mục lục Destination B1 (Mann & Taylore-Knowles, Macmillan). Giải thích, ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  }
+ ]
+}

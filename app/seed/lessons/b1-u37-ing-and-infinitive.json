@@ -1,0 +1,209 @@
+{
+ "slug": "b1-u37-ing-and-infinitive",
+ "title": "Unit 37 · V-ing và to V",
+ "title_ko": "-ing and infinitive",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 37,
+ "summary": "Biết động từ nào theo sau là V-ing, động từ nào là to V, và những động từ đổi nghĩa. Ngữ pháp: verb + -ing; verb + to + infinitive; verbs that change meaning (stop, remember, forget, try); make / let + person + V.",
+ "vocab": [
+  {
+   "hangul": "avoid",
+   "pos": "V",
+   "meaning_vi": "tránh",
+   "example_ko": "I avoid eating late.",
+   "example_vi": "Tôi tránh ăn khuya.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 37"
+  },
+  {
+   "hangul": "afford",
+   "pos": "V",
+   "meaning_vi": "có đủ tiền",
+   "example_ko": "We cannot afford to buy a house.",
+   "example_vi": "Chúng tôi không đủ tiền mua nhà.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 37"
+  },
+  {
+   "hangul": "refuse",
+   "pos": "V",
+   "meaning_vi": "từ chối",
+   "example_ko": "He refused to help.",
+   "example_vi": "Anh ấy từ chối giúp.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 37"
+  },
+  {
+   "hangul": "suggest",
+   "pos": "V",
+   "meaning_vi": "gợi ý",
+   "example_ko": "She suggested going by train.",
+   "example_vi": "Cô ấy gợi ý đi tàu.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 37"
+  },
+  {
+   "hangul": "look forward to",
+   "pos": "V",
+   "meaning_vi": "mong chờ (+ V-ing)",
+   "example_ko": "I look forward to hearing from you.",
+   "example_vi": "Tôi mong nhận được hồi âm của bạn.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 37"
+  },
+  {
+   "hangul": "be used to",
+   "pos": "V",
+   "meaning_vi": "quen với (+ V-ing)",
+   "example_ko": "I am used to getting up early.",
+   "example_vi": "Tôi quen dậy sớm rồi.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 37"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "verb + -ing",
+   "meaning_vi": "Động từ + V-ing",
+   "usage_context_vi": "enjoy, finish, avoid, mind, suggest, practise, keep, consider, imagine, miss, risk, give up, feel like, can't stand. Sau giới từ cũng dùng V-ing: interested in learning, good at cooking. V-ing có thể làm chủ ngữ: Swimming is good for you.",
+   "contrasts": [],
+   "example_ko": "I enjoy cooking at weekends.\nShe is good at solving problems.",
+   "example_vi": "Tôi thích nấu ăn vào cuối tuần.\nCô ấy giỏi giải quyết vấn đề.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 37, pp. 154-156",
+   "note_vi": "Lỗi người Việt hay mắc: ~~I enjoy to cook~~, ~~interested to learn~~ → enjoy cooking, interested in learning. Tiếng Việt không đổi dạng động từ nên phải học theo từng động từ.",
+   "topik_tip_vi": "Mở câu Task 2 bằng chủ ngữ V-ing: Learning a language takes time."
+  },
+  {
+   "pattern": "verb + to + infinitive",
+   "meaning_vi": "Động từ + to V",
+   "usage_context_vi": "want, decide, hope, plan, agree, refuse, promise, offer, learn, manage, need, expect, afford, seem, would like. Với tân ngữ: want / ask / tell / advise / allow / encourage + người + to V.",
+   "contrasts": [],
+   "example_ko": "We decided to move to the city.\nMy parents want me to study medicine.",
+   "example_vi": "Chúng tôi quyết định chuyển lên thành phố.\nBố mẹ muốn tôi học y.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 37, pp. 154-156",
+   "note_vi": "Lỗi người Việt hay mắc: ~~want that I study~~ → want me to study. ~~decided moving~~ → decided to move."
+  },
+  {
+   "pattern": "verbs that change meaning (stop, remember, forget, try)",
+   "meaning_vi": "Động từ đổi nghĩa theo dạng theo sau",
+   "usage_context_vi": "stop + V-ing = ngừng việc đang làm / stop + to V = dừng lại để làm việc khác. remember + V-ing = nhớ là đã làm / remember + to V = nhớ phải làm. try + V-ing = thử xem sao / try + to V = cố gắng.",
+   "contrasts": [],
+   "example_ko": "He stopped smoking last year.\nRemember to lock the door.",
+   "example_vi": "Anh ấy bỏ thuốc năm ngoái.\nNhớ khóa cửa nhé.",
+   "importance": "normal",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 37, pp. 154-156"
+  },
+  {
+   "pattern": "make / let + person + V",
+   "meaning_vi": "make / let + người + động từ nguyên mẫu không to",
+   "usage_context_vi": "`make` = bắt, khiến; `let` = cho phép. Ở bị động: be made to V, be allowed to V.",
+   "contrasts": [],
+   "example_ko": "My boss made me work late.\nHer parents let her stay out late.",
+   "example_vi": "Sếp bắt tôi làm muộn.\nBố mẹ cho cô ấy đi chơi về muộn.",
+   "importance": "normal",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 37, pp. 154-156",
+   "note_vi": "Lỗi người Việt hay mắc: ~~made me to work~~, ~~let her to stay~~ → made me work, let her stay."
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Biết động từ nào theo sau là V-ing, động từ nào là to V, và những động từ đổi nghĩa.\n• 📖 Trong sách: Unit ngữ pháp 37, trang 154–156. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Lỗi sau động từ (enjoy to do, want doing) rất dễ bị nghe thấy trong Speaking và làm giảm độ chính xác ngữ pháp.",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "verb + -ing: Động từ + V-ing",
+   "verb + to + infinitive: Động từ + to V",
+   "verbs that change meaning (stop, remember, forget, try): Động từ đổi nghĩa theo dạng theo sau"
+  ],
+  "watch_out_vi": [
+   "~~I enjoy to cook~~, ~~interested to learn~~ → enjoy cooking, interested in learning. Tiếng Việt không đổi dạng động từ nên phải học theo từng động từ.",
+   "~~want that I study~~ → want me to study. ~~decided moving~~ → decided to move."
+  ]
+ },
+ "exercise_ids": [
+  "B1U37Q1",
+  "B1U37Q2",
+  "B1U37Q3",
+  "B1U37Q4",
+  "B1U37Q5",
+  "B1U37Q6",
+  "B1U37B1",
+  "B1U37B2",
+  "B1U37B3",
+  "B1U37F1",
+  "B1U37F2",
+  "B1U37D1",
+  "B1U37S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · verb + -ing",
+   "can_do_vi": "Sau buổi này bạn dùng được: động từ + v-ing; động từ + to v.",
+   "use_vi": "Lỗi sau động từ (enjoy to do, want doing) rất dễ bị nghe thấy trong Speaking và làm giảm độ chính xác ngữ pháp.",
+   "vocab": [
+    "avoid",
+    "afford",
+    "refuse",
+    "suggest",
+    "look forward to",
+    "be used to"
+   ],
+   "grammar": [
+    "verb + -ing",
+    "verb + to + infinitive"
+   ],
+   "check": [
+    "B1U37Q1",
+    "B1U37Q3",
+    "B1U37Q6",
+    "B1U37Q2"
+   ]
+  },
+  {
+   "title_vi": "Buổi 2 · verbs that change meaning (stop, remember, forget, try)",
+   "can_do_vi": "Sau buổi này bạn dùng được: động từ đổi nghĩa theo dạng theo sau; make / let + người + động từ nguyên mẫu không to.",
+   "use_vi": "Lỗi sau động từ (enjoy to do, want doing) rất dễ bị nghe thấy trong Speaking và làm giảm độ chính xác ngữ pháp.",
+   "vocab": [],
+   "grammar": [
+    "verbs that change meaning (stop, remember, forget, try)",
+    "make / let + person + V"
+   ],
+   "check": [
+    "B1U37Q5",
+    "B1U37Q4",
+    "B1U37B1",
+    "B1U37B2",
+    "B1U37B3",
+    "B1U37F1",
+    "B1U37F2",
+    "B1U37D1",
+    "B1U37S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Tiêu đề và số trang theo mục lục Destination B1 (Mann & Taylore-Knowles, Macmillan). Giải thích, ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  }
+ ]
+}

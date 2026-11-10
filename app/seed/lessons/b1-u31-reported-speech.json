@@ -1,0 +1,173 @@
+{
+ "slug": "b1-u31-reported-speech",
+ "title": "Unit 31 · Câu tường thuật",
+ "title_ko": "Reported speech",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 31,
+ "summary": "Thuật lại lời người khác: lùi thì, đổi đại từ và từ chỉ thời gian. Ngữ pháp: say / tell + (that) + clause with backshift; say vs tell; Time and place changes.",
+ "vocab": [
+  {
+   "hangul": "claim",
+   "pos": "V",
+   "meaning_vi": "khẳng định (chưa chắc đúng)",
+   "example_ko": "He claimed that he was innocent.",
+   "example_vi": "Anh ta khẳng định mình vô tội.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 31"
+  },
+  {
+   "hangul": "explain",
+   "pos": "V",
+   "meaning_vi": "giải thích",
+   "example_ko": "She explained that the train was late.",
+   "example_vi": "Cô ấy giải thích là tàu trễ.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 31"
+  },
+  {
+   "hangul": "mention",
+   "pos": "V",
+   "meaning_vi": "nhắc đến",
+   "example_ko": "He mentioned that he was moving.",
+   "example_vi": "Anh ấy có nhắc là sắp chuyển nhà.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 31"
+  },
+  {
+   "hangul": "according to",
+   "pos": "X",
+   "meaning_vi": "theo (nguồn tin)",
+   "example_ko": "According to the report, prices will rise.",
+   "example_vi": "Theo báo cáo, giá sẽ tăng.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 31"
+  },
+  {
+   "hangul": "the following day",
+   "pos": "X",
+   "meaning_vi": "ngày hôm sau",
+   "example_ko": "They left the following day.",
+   "example_vi": "Hôm sau họ rời đi.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 31"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "say / tell + (that) + clause with backshift",
+   "meaning_vi": "Thuật lại câu kể, lùi một thì",
+   "usage_context_vi": "Khi động từ tường thuật ở quá khứ, động từ trong câu được thuật lùi một thì:\n| Trực tiếp | Tường thuật |\n| present simple | past simple |\n| present continuous | past continuous |\n| past simple / present perfect | past perfect |\n| will | would |\n| can | could |\n| must | had to |",
+   "contrasts": [],
+   "example_ko": "\"I am tired.\" → She said (that) she was tired.\n\"I will call you.\" → He said he would call me.",
+   "example_vi": "Cô ấy nói cô ấy mệt.\nAnh ấy nói sẽ gọi cho tôi.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 31, pp. 130-132",
+   "note_vi": "Lỗi người Việt hay mắc: Tiếng Việt không lùi thì nên dễ viết ~~She said she is tired~~. Đại từ cũng phải đổi theo người nói."
+  },
+  {
+   "pattern": "say vs tell",
+   "meaning_vi": "say (something) · tell + người + (something)",
+   "usage_context_vi": "`say` không có tân ngữ chỉ người đi liền sau (say to me that…); `tell` luôn cần người nghe (tell me that…).",
+   "contrasts": [],
+   "example_ko": "She said that she was busy.\nShe told me that she was busy.",
+   "example_vi": "Cô ấy nói cô ấy bận.\nCô ấy bảo tôi là cô ấy bận.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 31, pp. 130-132",
+   "note_vi": "Lỗi người Việt hay mắc: ~~She said me~~, ~~She told that~~ → She told me, She said that."
+  },
+  {
+   "pattern": "Time and place changes",
+   "meaning_vi": "Đổi từ chỉ thời gian, nơi chốn",
+   "usage_context_vi": "now → then · today → that day · yesterday → the day before · tomorrow → the next day · last week → the week before · here → there · this → that.",
+   "contrasts": [],
+   "example_ko": "\"I saw him yesterday.\" → She said she had seen him the day before.\n\"We are leaving tomorrow.\" → They said they were leaving the next day.",
+   "example_vi": "Cô ấy nói đã gặp anh ta hôm trước.\nHọ nói hôm sau sẽ đi.",
+   "importance": "normal",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 31, pp. 130-132"
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Thuật lại lời người khác: lùi thì, đổi đại từ và từ chỉ thời gian.\n• 📖 Trong sách: Unit ngữ pháp 31, trang 130–132. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Reading và Listening liên tục thuật lại ý kiến chuyên gia (Researchers said that…). Trong Task 2 cần mẫu Some people argue that…",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "say / tell + (that) + clause with backshift: Thuật lại câu kể, lùi một thì",
+   "say vs tell: say (something) · tell + người + (something)",
+   "Time and place changes: Đổi từ chỉ thời gian, nơi chốn"
+  ],
+  "watch_out_vi": [
+   "Tiếng Việt không lùi thì nên dễ viết ~~She said she is tired~~. Đại từ cũng phải đổi theo người nói.",
+   "~~She said me~~, ~~She told that~~ → She told me, She said that."
+  ]
+ },
+ "exercise_ids": [
+  "B1U31Q1",
+  "B1U31Q2",
+  "B1U31Q3",
+  "B1U31Q4",
+  "B1U31Q5",
+  "B1U31B1",
+  "B1U31B2",
+  "B1U31B3",
+  "B1U31F1",
+  "B1U31F2",
+  "B1U31D1",
+  "B1U31S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · say / tell + (that) + clause with backshift",
+   "can_do_vi": "Sau buổi này bạn dùng được: thuật lại câu kể, lùi một thì; say (something) · tell + người + (something); đổi từ chỉ thời gian, nơi chốn.",
+   "use_vi": "Reading và Listening liên tục thuật lại ý kiến chuyên gia (Researchers said that…). Trong Task 2 cần mẫu Some people argue that…",
+   "vocab": [
+    "claim",
+    "explain",
+    "mention",
+    "according to",
+    "the following day"
+   ],
+   "grammar": [
+    "say / tell + (that) + clause with backshift",
+    "say vs tell",
+    "Time and place changes"
+   ],
+   "check": [
+    "B1U31Q1",
+    "B1U31Q2",
+    "B1U31Q4",
+    "B1U31Q3",
+    "B1U31Q5",
+    "B1U31B1",
+    "B1U31B2",
+    "B1U31B3",
+    "B1U31F1",
+    "B1U31F2",
+    "B1U31D1",
+    "B1U31S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Tiêu đề và số trang theo mục lục Destination B1 (Mann & Taylore-Knowles, Macmillan). Giải thích, ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  }
+ ]
+}

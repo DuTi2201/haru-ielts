@@ -1,0 +1,174 @@
+{
+ "slug": "b1-u32-reported-questions-orders-requests",
+ "title": "Unit 32 · Tường thuật câu hỏi, mệnh lệnh, lời đề nghị",
+ "title_ko": "Reported questions, orders, requests",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 32,
+ "summary": "Thuật lại câu hỏi và lời yêu cầu của người khác đúng trật tự từ. Ngữ pháp: Reported yes/no questions: asked + if/whether + clause; Reported wh- questions: asked + wh-word + clause; Reported orders and requests: told/asked + người + (not) to V.",
+ "vocab": [
+  {
+   "hangul": "wonder",
+   "pos": "V",
+   "meaning_vi": "tự hỏi, muốn biết",
+   "example_ko": "I wondered why he was late.",
+   "example_vi": "Tôi tự hỏi sao anh ấy muộn.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 32"
+  },
+  {
+   "hangul": "want to know",
+   "pos": "V",
+   "meaning_vi": "muốn biết",
+   "example_ko": "She wanted to know where I worked.",
+   "example_vi": "Cô ấy muốn biết tôi làm ở đâu.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 32"
+  },
+  {
+   "hangul": "order",
+   "pos": "V",
+   "meaning_vi": "ra lệnh",
+   "example_ko": "The officer ordered them to stop.",
+   "example_vi": "Viên sĩ quan ra lệnh cho họ dừng lại.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 32"
+  },
+  {
+   "hangul": "warn",
+   "pos": "V",
+   "meaning_vi": "cảnh báo",
+   "example_ko": "He warned me not to go.",
+   "example_vi": "Anh ấy cảnh báo tôi đừng đi.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 32"
+  },
+  {
+   "hangul": "remind",
+   "pos": "V",
+   "meaning_vi": "nhắc",
+   "example_ko": "She reminded me to call.",
+   "example_vi": "Cô ấy nhắc tôi gọi điện.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 32"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "Reported yes/no questions: asked + if/whether + clause",
+   "meaning_vi": "Thuật lại câu hỏi Yes/No",
+   "usage_context_vi": "Dùng `if` hoặc `whether`, trật tự như câu kể, lùi thì, không có dấu hỏi.",
+   "contrasts": [],
+   "example_ko": "\"Do you like tea?\" → She asked if I liked tea.\n\"Have you eaten?\" → He asked whether I had eaten.",
+   "example_vi": "Cô ấy hỏi tôi có thích trà không.\nAnh ấy hỏi tôi đã ăn chưa.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 32, pp. 133-135",
+   "note_vi": "Lỗi người Việt hay mắc: Giữ trật tự câu hỏi: ~~She asked did I like tea~~ → She asked if I liked tea."
+  },
+  {
+   "pattern": "Reported wh- questions: asked + wh-word + clause",
+   "meaning_vi": "Thuật lại câu hỏi có từ hỏi",
+   "usage_context_vi": "Giữ từ hỏi, sau đó là chủ ngữ + động từ (không đảo), lùi thì.",
+   "contrasts": [],
+   "example_ko": "\"Where do you live?\" → He asked where I lived.\n\"What time is it?\" → She asked what time it was.",
+   "example_vi": "Anh ấy hỏi tôi sống ở đâu.\nCô ấy hỏi mấy giờ rồi.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 32, pp. 133-135",
+   "note_vi": "Lỗi người Việt hay mắc: ~~He asked where did I live~~, ~~She asked what time was it~~ → where I lived, what time it was."
+  },
+  {
+   "pattern": "Reported orders and requests: told/asked + người + (not) to V",
+   "meaning_vi": "Thuật lại mệnh lệnh, lời nhờ",
+   "usage_context_vi": "Mệnh lệnh: tell + người + to V. Lời nhờ: ask + người + to V. Phủ định: not to V.",
+   "contrasts": [],
+   "example_ko": "\"Sit down.\" → The teacher told us to sit down.\n\"Please don't be late.\" → She asked me not to be late.",
+   "example_vi": "Giáo viên bảo chúng tôi ngồi xuống.\nCô ấy dặn tôi đừng đến muộn.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 32, pp. 133-135",
+   "note_vi": "Lỗi người Việt hay mắc: ~~told us sit down~~, ~~asked me to not be late~~ → told us to sit down, asked me not to be late."
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Thuật lại câu hỏi và lời yêu cầu của người khác đúng trật tự từ.\n• 📖 Trong sách: Unit ngữ pháp 32, trang 133–135. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Kể lại một cuộc trò chuyện trong Part 2 cần các mẫu asked me if…, told me to…",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "Reported yes/no questions: asked + if/whether + clause: Thuật lại câu hỏi Yes/No",
+   "Reported wh- questions: asked + wh-word + clause: Thuật lại câu hỏi có từ hỏi",
+   "Reported orders and requests: told/asked + người + (not) to V: Thuật lại mệnh lệnh, lời nhờ"
+  ],
+  "watch_out_vi": [
+   "Giữ trật tự câu hỏi: ~~She asked did I like tea~~ → She asked if I liked tea.",
+   "~~He asked where did I live~~, ~~She asked what time was it~~ → where I lived, what time it was."
+  ]
+ },
+ "exercise_ids": [
+  "B1U32Q1",
+  "B1U32Q2",
+  "B1U32Q3",
+  "B1U32Q4",
+  "B1U32Q5",
+  "B1U32B1",
+  "B1U32B2",
+  "B1U32B3",
+  "B1U32F1",
+  "B1U32F2",
+  "B1U32D1",
+  "B1U32S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · Reported yes/no questions",
+   "can_do_vi": "Sau buổi này bạn dùng được: thuật lại câu hỏi yes/no; thuật lại câu hỏi có từ hỏi; thuật lại mệnh lệnh, lời nhờ.",
+   "use_vi": "Kể lại một cuộc trò chuyện trong Part 2 cần các mẫu asked me if…, told me to…",
+   "vocab": [
+    "wonder",
+    "want to know",
+    "order",
+    "warn",
+    "remind"
+   ],
+   "grammar": [
+    "Reported yes/no questions: asked + if/whether + clause",
+    "Reported wh- questions: asked + wh-word + clause",
+    "Reported orders and requests: told/asked + người + (not) to V"
+   ],
+   "check": [
+    "B1U32Q1",
+    "B1U32Q2",
+    "B1U32Q5",
+    "B1U32Q3",
+    "B1U32Q4",
+    "B1U32B1",
+    "B1U32B2",
+    "B1U32B3",
+    "B1U32F1",
+    "B1U32F2",
+    "B1U32D1",
+    "B1U32S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Tiêu đề và số trang theo mục lục Destination B1 (Mann & Taylore-Knowles, Macmillan). Giải thích, ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  }
+ ]
+}

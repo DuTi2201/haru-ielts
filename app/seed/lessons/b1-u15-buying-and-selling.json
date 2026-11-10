@@ -1,0 +1,772 @@
+{
+ "slug": "b1-u15-buying-and-selling",
+ "title": "Unit 15 · Mua bán và tiền bạc",
+ "title_ko": "Buying and selling",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 15,
+ "summary": "Nói về mua sắm, giá cả và tiền bạc; dùng đúng spend on, pay for, lend to, borrow from. 30 từ chủ đề, 5 cụm động từ, 5 cụm giới từ, 13 mẫu giới từ, 8 họ từ.",
+ "vocab": [
+  {
+   "hangul": "advertisement",
+   "pos": "N",
+   "meaning_vi": "quảng cáo",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "afford",
+   "pos": "V",
+   "meaning_vi": "có đủ tiền (để mua, làm gì)",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201",
+   "note_vi": "Họ từ: `affordable` (tính từ)"
+  },
+  {
+   "hangul": "bargain",
+   "pos": "N",
+   "meaning_vi": "món hời, hàng mua được giá tốt",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "brand",
+   "pos": "N",
+   "meaning_vi": "nhãn hiệu, thương hiệu",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "catalogue",
+   "pos": "N",
+   "meaning_vi": "ca-ta-lô, danh mục hàng",
+   "family": "1 · Topic vocabulary",
+   "priority": "recognize",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "change",
+   "pos": "N",
+   "meaning_vi": "tiền lẻ, tiền thối lại",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "coin",
+   "pos": "N",
+   "meaning_vi": "đồng xu",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "cost",
+   "pos": "X",
+   "meaning_vi": "(v) có giá là; (n) chi phí",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "customer",
+   "pos": "N",
+   "meaning_vi": "khách hàng",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "debt",
+   "pos": "N",
+   "meaning_vi": "khoản nợ",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "demand",
+   "pos": "V",
+   "meaning_vi": "đòi hỏi, yêu cầu",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "export",
+   "pos": "V",
+   "meaning_vi": "xuất khẩu",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "fee",
+   "pos": "N",
+   "meaning_vi": "phí (dịch vụ, học phí)",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "fortune",
+   "pos": "N",
+   "meaning_vi": "gia tài, số tiền rất lớn",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "import",
+   "pos": "V",
+   "meaning_vi": "nhập khẩu",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "invest",
+   "pos": "V",
+   "meaning_vi": "đầu tư",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "obtain",
+   "pos": "V",
+   "meaning_vi": "có được, đạt được (trang trọng)",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "owe",
+   "pos": "V",
+   "meaning_vi": "nợ",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "own",
+   "pos": "V",
+   "meaning_vi": "sở hữu",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "profit",
+   "pos": "N",
+   "meaning_vi": "lợi nhuận",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "property",
+   "pos": "N",
+   "meaning_vi": "tài sản; bất động sản",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "purchase",
+   "pos": "X",
+   "meaning_vi": "(v) mua (trang trọng); (n) món hàng đã mua",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "receipt",
+   "pos": "N",
+   "meaning_vi": "hóa đơn, biên lai",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "require",
+   "pos": "V",
+   "meaning_vi": "cần, đòi hỏi (trang trọng)",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "sale",
+   "pos": "N",
+   "meaning_vi": "đợt giảm giá; việc bán hàng",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "save",
+   "pos": "V",
+   "meaning_vi": "tiết kiệm, để dành",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "select",
+   "pos": "V",
+   "meaning_vi": "lựa chọn",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "supply",
+   "pos": "X",
+   "meaning_vi": "(v) cung cấp; (n) nguồn cung",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "variety",
+   "pos": "N",
+   "meaning_vi": "sự đa dạng; nhiều loại",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "waste",
+   "pos": "X",
+   "meaning_vi": "(v) lãng phí; (n) sự lãng phí, rác thải",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word list pp. 184–201"
+  },
+  {
+   "hangul": "add up",
+   "pos": "V",
+   "meaning_vi": "cộng lại, tính tổng",
+   "example_ko": "Can you add up these numbers for me?",
+   "example_vi": "Bạn cộng giúp tôi mấy con số này được không?",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "give away",
+   "pos": "V",
+   "meaning_vi": "cho đi, tặng miễn phí",
+   "example_ko": "She gave away her old books to a local school.",
+   "example_vi": "Cô ấy tặng sách cũ cho một trường học gần nhà.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "give back",
+   "pos": "V",
+   "meaning_vi": "trả lại",
+   "example_ko": "Remember to give the dictionary back to the library.",
+   "example_vi": "Nhớ trả từ điển cho thư viện.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "pay back",
+   "pos": "V",
+   "meaning_vi": "trả lại tiền",
+   "example_ko": "I will pay you back as soon as I get my salary.",
+   "example_vi": "Nhận lương xong tôi trả lại tiền cho bạn ngay.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "save up (for)",
+   "pos": "V",
+   "meaning_vi": "để dành tiền (mua gì)",
+   "example_ko": "She is saving up for a trip to Korea.",
+   "example_vi": "Cô ấy đang để dành tiền đi Hàn Quốc.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "in cash",
+   "pos": "X",
+   "meaning_vi": "bằng tiền mặt",
+   "example_ko": "Can I pay in cash?",
+   "example_vi": "Tôi trả bằng tiền mặt được không?",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "in good/bad condition",
+   "pos": "X",
+   "meaning_vi": "trong tình trạng tốt/xấu",
+   "example_ko": "The bike is old but in good condition.",
+   "example_vi": "Chiếc xe đạp cũ nhưng còn tốt.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "in debt",
+   "pos": "X",
+   "meaning_vi": "mắc nợ",
+   "example_ko": "He lost his job and was soon in debt.",
+   "example_vi": "Anh ấy mất việc và chẳng bao lâu thì mắc nợ.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "for rent",
+   "pos": "X",
+   "meaning_vi": "cho thuê",
+   "example_ko": "There is a flat for rent near the university.",
+   "example_vi": "Có một căn hộ cho thuê gần trường đại học.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "for sale",
+   "pos": "X",
+   "meaning_vi": "để bán",
+   "example_ko": "Their house is for sale.",
+   "example_vi": "Nhà họ đang rao bán.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "an advertisement for",
+   "pos": "X",
+   "meaning_vi": "quảng cáo cho",
+   "example_ko": "I saw an advertisement for a part-time job.",
+   "example_vi": "Tôi thấy một quảng cáo tuyển việc bán thời gian.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "belong to",
+   "pos": "X",
+   "meaning_vi": "thuộc về",
+   "example_ko": "This bag belongs to my sister.",
+   "example_vi": "Cái túi này của chị tôi.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "borrow sth from",
+   "pos": "X",
+   "meaning_vi": "mượn cái gì từ",
+   "example_ko": "Can I borrow a pen from you?",
+   "example_vi": "Tôi mượn bạn cây bút được không?",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "compare sth to/with",
+   "pos": "X",
+   "meaning_vi": "so sánh cái gì với",
+   "example_ko": "Compare your answers with your partner's.",
+   "example_vi": "Hãy so đáp án của bạn với bạn cùng cặp.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "decide on",
+   "pos": "X",
+   "meaning_vi": "quyết định chọn",
+   "example_ko": "We decided on a small hotel near the beach.",
+   "example_vi": "Chúng tôi quyết định chọn một khách sạn nhỏ gần biển.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "lend sth to",
+   "pos": "X",
+   "meaning_vi": "cho ai mượn cái gì",
+   "example_ko": "I lent my bike to a friend.",
+   "example_vi": "Tôi cho bạn mượn xe đạp.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "pay for",
+   "pos": "X",
+   "meaning_vi": "trả tiền cho",
+   "example_ko": "Who paid for the tickets?",
+   "example_vi": "Ai trả tiền vé thế?",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "buy sth from",
+   "pos": "X",
+   "meaning_vi": "mua cái gì từ",
+   "example_ko": "I bought this phone from an online shop.",
+   "example_vi": "Tôi mua điện thoại này từ một cửa hàng trực tuyến.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "choose between",
+   "pos": "X",
+   "meaning_vi": "chọn giữa",
+   "example_ko": "I had to choose between two good universities.",
+   "example_vi": "Tôi phải chọn giữa hai trường đại học tốt.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "happy about/with",
+   "pos": "X",
+   "meaning_vi": "hài lòng về",
+   "example_ko": "I am happy with my new job.",
+   "example_vi": "Tôi hài lòng với công việc mới.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "popular with",
+   "pos": "X",
+   "meaning_vi": "được ưa chuộng bởi",
+   "example_ko": "The park is popular with families.",
+   "example_vi": "Công viên này được các gia đình ưa thích.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "spend sth on",
+   "pos": "X",
+   "meaning_vi": "tiêu (tiền, thời gian) vào",
+   "example_ko": "He spends a lot of money on books.",
+   "example_vi": "Anh ấy tiêu nhiều tiền vào sách.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "wrong about",
+   "pos": "X",
+   "meaning_vi": "sai về",
+   "example_ko": "I was wrong about the time of the meeting.",
+   "example_vi": "Tôi nhớ nhầm giờ họp.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "add",
+   "pos": "V",
+   "meaning_vi": "thêm vào, cộng",
+   "note_vi": "Họ từ: `addition` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word formation pp. 212–216"
+  },
+  {
+   "hangul": "compare",
+   "pos": "V",
+   "meaning_vi": "so sánh",
+   "note_vi": "Họ từ: `comparison` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word formation pp. 212–216"
+  },
+  {
+   "hangul": "decide",
+   "pos": "V",
+   "meaning_vi": "quyết định",
+   "note_vi": "Họ từ: `decision` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word formation pp. 212–216"
+  },
+  {
+   "hangul": "expense",
+   "pos": "N",
+   "meaning_vi": "chi phí",
+   "note_vi": "Họ từ: `expensive` (tính từ), `inexpensive` (dạng trái nghĩa)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word formation pp. 212–216"
+  },
+  {
+   "hangul": "serve",
+   "pos": "V",
+   "meaning_vi": "phục vụ",
+   "note_vi": "Họ từ: `service` (danh từ), `servant` (danh từ chỉ người)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word formation pp. 212–216"
+  },
+  {
+   "hangul": "true",
+   "pos": "A",
+   "meaning_vi": "đúng, thật",
+   "note_vi": "Họ từ: `truth` (danh từ), `untrue` (dạng trái nghĩa), `truthful` (tính từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word formation pp. 212–216"
+  },
+  {
+   "hangul": "value",
+   "pos": "N",
+   "meaning_vi": "giá trị",
+   "note_vi": "Họ từ: `valuable` (tính từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word formation pp. 212–216"
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Nói về mua sắm, giá cả và tiền bạc; dùng đúng spend on, pay for, lend to, borrow from.\n• 📖 Trong sách: Unit từ vựng 15, trang 60–63. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Mua sắm và quảng cáo xuất hiện ở Speaking Part 1 và trong đề Task 2 về chủ nghĩa tiêu dùng. Listening Part 1 hay có giá tiền.",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "Học cụm, không học từ rời: mỗi cụm động từ, cụm giới từ và mẫu giới từ đi kèm một câu ví dụ.",
+   "Từ chủ đề chỉ cần nhận ra khi đọc và nghe; các cụm và mẫu giới từ phải dùng được khi nói và viết."
+  ],
+  "watch_out_vi": [
+   "Giới từ tiếng Anh không dịch được từ tiếng Việt: học cả cụm như một khối."
+  ]
+ },
+ "exercise_ids": [
+  "B1U15M1",
+  "B1U15M2",
+  "B1U15M3",
+  "B1U15M4",
+  "B1U15M5",
+  "B1U15M6",
+  "B1U15M7",
+  "B1U15M8",
+  "B1U15M9",
+  "B1U15M10",
+  "B1U15C1",
+  "B1U15C2",
+  "B1U15C3",
+  "B1U15C4",
+  "B1U15C5",
+  "B1U15C6",
+  "B1U15C7",
+  "B1U15C8",
+  "B1U15C9",
+  "B1U15C10",
+  "B1U15C11",
+  "B1U15C12",
+  "B1U15C13",
+  "B1U15C14",
+  "B1U15C15",
+  "B1U15C16",
+  "B1U15C17",
+  "B1U15C18",
+  "B1U15C19",
+  "B1U15C20",
+  "B1U15C21",
+  "B1U15C22",
+  "B1U15C23",
+  "B1U15B1",
+  "B1U15B2",
+  "B1U15B3",
+  "B1U15F1",
+  "B1U15F2",
+  "B1U15F3",
+  "B1U15F4",
+  "B1U15F5",
+  "B1U15F6",
+  "B1U15F7",
+  "B1U15D1",
+  "B1U15S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Từ chủ đề 1 · Mua bán và tiền bạc",
+   "can_do_vi": "Sau buổi này bạn nhận ra và dùng được 15 từ chủ đề «Mua bán và tiền bạc», từ «advertisement» đến «import».",
+   "vocab": [
+    "advertisement",
+    "afford",
+    "bargain",
+    "brand",
+    "catalogue",
+    "change",
+    "coin",
+    "cost",
+    "customer",
+    "debt",
+    "demand",
+    "export",
+    "fee",
+    "fortune",
+    "import"
+   ],
+   "check": [
+    "B1U15M2",
+    "B1U15M4",
+    "B1U15M10",
+    "B1U15M6"
+   ]
+  },
+  {
+   "title_vi": "Từ chủ đề 2 · Mua bán và tiền bạc",
+   "can_do_vi": "Sau buổi này bạn nhận ra và dùng được 15 từ chủ đề «Mua bán và tiền bạc», từ «invest» đến «waste».",
+   "vocab": [
+    "invest",
+    "obtain",
+    "owe",
+    "own",
+    "profit",
+    "property",
+    "purchase",
+    "receipt",
+    "require",
+    "sale",
+    "save",
+    "select",
+    "supply",
+    "variety",
+    "waste"
+   ],
+   "check": [
+    "B1U15M3",
+    "B1U15M1",
+    "B1U15M7",
+    "B1U15M9",
+    "B1U15M8",
+    "B1U15M5"
+   ]
+  },
+  {
+   "title_vi": "Cụm động từ và cụm giới từ 1",
+   "can_do_vi": "Sau buổi này bạn chọn đúng tiểu từ và giới từ trong các cụm cố định của Unit, không dịch từng chữ từ tiếng Việt.",
+   "vocab": [
+    "add up",
+    "give away",
+    "give back",
+    "pay back",
+    "save up (for)",
+    "in cash",
+    "in good/bad condition",
+    "in debt",
+    "for rent",
+    "for sale"
+   ],
+   "check": [
+    "B1U15C1",
+    "B1U15C2",
+    "B1U15C3",
+    "B1U15C4",
+    "B1U15C5",
+    "B1U15C6",
+    "B1U15C7",
+    "B1U15C8",
+    "B1U15C9",
+    "B1U15C10",
+    "B1U15B1",
+    "B1U15B2",
+    "B1U15B3"
+   ]
+  },
+  {
+   "title_vi": "Giới từ theo sau động từ, tính từ, danh từ",
+   "can_do_vi": "Sau buổi này bạn dùng đúng giới từ đi sau các động từ, tính từ và danh từ của Unit: lỗi mất điểm nhiều nhất của người Việt.",
+   "vocab": [
+    "an advertisement for",
+    "belong to",
+    "borrow sth from",
+    "compare sth to/with",
+    "decide on",
+    "lend sth to",
+    "pay for",
+    "buy sth from",
+    "choose between",
+    "happy about/with",
+    "popular with",
+    "spend sth on",
+    "wrong about"
+   ],
+   "check": [
+    "B1U15C11",
+    "B1U15C12",
+    "B1U15C13",
+    "B1U15C14",
+    "B1U15C15",
+    "B1U15C16",
+    "B1U15C17",
+    "B1U15C18",
+    "B1U15C19",
+    "B1U15C20",
+    "B1U15C21",
+    "B1U15C22",
+    "B1U15C23"
+   ]
+  },
+  {
+   "title_vi": "Biến đổi từ loại và phần Nói",
+   "can_do_vi": "Sau buổi này bạn đổi được từ gốc sang danh từ, tính từ hoặc dạng trái nghĩa, và nói được một phút về chủ đề của Unit.",
+   "vocab": [
+    "add",
+    "compare",
+    "decide",
+    "expense",
+    "serve",
+    "true",
+    "value"
+   ],
+   "check": [
+    "B1U15F1",
+    "B1U15F2",
+    "B1U15F3",
+    "B1U15F4",
+    "B1U15F5",
+    "B1U15F6",
+    "B1U15F7",
+    "B1U15D1",
+    "B1U15S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Danh sách từ theo Destination B1 (Mann & Taylore-Knowles, Macmillan), pp. 184–216. Nghĩa tiếng Việt, câu ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  },
+  {
+   "title": "Cần đối chiếu với sách",
+   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: add up, give away, give back, pay back, save up (for), borrow sth from, add, expense."
+  }
+ ]
+}

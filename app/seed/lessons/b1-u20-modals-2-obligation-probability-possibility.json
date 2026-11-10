@@ -1,0 +1,179 @@
+{
+ "slug": "b1-u20-modals-2-obligation-probability-possibility",
+ "title": "Unit 20 · Động từ khuyết thiếu 2: bắt buộc, khả năng xảy ra",
+ "title_ko": "Modals 2: obligation, probability, possibility",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 20,
+ "summary": "Nói điều bắt buộc, điều cấm, điều không cần, và mức độ chắc chắn của một phán đoán. Ngữ pháp: must / have to; mustn't / don't have to; must / may / might / could / can't (probability).",
+ "vocab": [
+  {
+   "hangul": "need to",
+   "pos": "V",
+   "meaning_vi": "cần phải",
+   "example_ko": "You need to book in advance.",
+   "example_vi": "Bạn cần đặt trước.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 20"
+  },
+  {
+   "hangul": "needn't",
+   "pos": "V",
+   "meaning_vi": "không cần",
+   "example_ko": "You needn't worry.",
+   "example_vi": "Bạn không cần lo.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 20"
+  },
+  {
+   "hangul": "be likely to",
+   "pos": "V",
+   "meaning_vi": "nhiều khả năng sẽ",
+   "example_ko": "Prices are likely to rise.",
+   "example_vi": "Giá nhiều khả năng sẽ tăng.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 20"
+  },
+  {
+   "hangul": "perhaps",
+   "pos": "X",
+   "meaning_vi": "có lẽ",
+   "example_ko": "Perhaps he forgot.",
+   "example_vi": "Có lẽ anh ấy quên.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 20"
+  },
+  {
+   "hangul": "compulsory",
+   "pos": "A",
+   "meaning_vi": "bắt buộc",
+   "example_ko": "Education is compulsory until the age of 15.",
+   "example_vi": "Giáo dục là bắt buộc đến năm 15 tuổi.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 20"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "must / have to",
+   "meaning_vi": "Bắt buộc",
+   "usage_context_vi": "`must` là bắt buộc do người nói thấy cần; `have to` là bắt buộc do quy định, hoàn cảnh. Quá khứ của cả hai là `had to`; tương lai là `will have to`.",
+   "contrasts": [],
+   "example_ko": "I must call my mother tonight.\nStudents have to wear a uniform.",
+   "example_vi": "Tối nay tôi phải gọi cho mẹ.\nHọc sinh phải mặc đồng phục.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 20, pp. 81-83",
+   "note_vi": "Lỗi người Việt hay mắc: ~~must to go~~ → must go. ~~I must went~~ → I had to go."
+  },
+  {
+   "pattern": "mustn't / don't have to",
+   "meaning_vi": "Cấm / không cần",
+   "usage_context_vi": "`mustn't` = không được phép (cấm). `don't have to` / `needn't` = không cần, làm cũng được.",
+   "contrasts": [
+    {
+     "pattern": "must / have to",
+     "diff_vi": "Ở dạng khẳng định gần nghĩa nhau; ở dạng phủ định thì khác hẳn."
+    }
+   ],
+   "example_ko": "You mustn't use your phone in the exam.\nYou don't have to come if you are busy.",
+   "example_vi": "Bạn không được dùng điện thoại trong phòng thi.\nNếu bận thì bạn không cần đến.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 20, pp. 81-83",
+   "note_vi": "Lỗi người Việt hay mắc: Hai dạng phủ định có nghĩa trái ngược hẳn nhau. \"Không phải làm\" trong tiếng Việt là `don't have to`, không phải `mustn't`."
+  },
+  {
+   "pattern": "must / may / might / could / can't (probability)",
+   "meaning_vi": "Mức độ chắc chắn của phán đoán",
+   "usage_context_vi": "| Mức độ | Dạng | Ví dụ |\n| Chắc chắn đúng | must | She must be at work. |\n| Có thể | may / might / could | It might rain. |\n| Chắc chắn sai | can't | That can't be true. |\nPhủ định của `must` (phán đoán) là `can't`, không phải `mustn't`.",
+   "contrasts": [],
+   "example_ko": "He has not eaten all day. He must be hungry.\nThis may be one reason for the problem.",
+   "example_vi": "Cả ngày anh ấy chưa ăn. Chắc hẳn đói lắm.\nĐây có thể là một nguyên nhân của vấn đề.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 20, pp. 81-83",
+   "topik_tip_vi": "Task 2: This may lead to…, Children might become…, tránh viết This will cause… khi chưa chắc."
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Nói điều bắt buộc, điều cấm, điều không cần, và mức độ chắc chắn của một phán đoán.\n• 📖 Trong sách: Unit ngữ pháp 20, trang 81–83. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Giới hạn mức độ chắc chắn (may, might, could) giúp tránh nhận định tuyệt đối trong Task 2 và Part 3.",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "must / have to: Bắt buộc",
+   "mustn't / don't have to: Cấm / không cần",
+   "must / may / might / could / can't (probability): Mức độ chắc chắn của phán đoán"
+  ],
+  "watch_out_vi": [
+   "~~must to go~~ → must go. ~~I must went~~ → I had to go.",
+   "Hai dạng phủ định có nghĩa trái ngược hẳn nhau. \"Không phải làm\" trong tiếng Việt là `don't have to`, không phải `mustn't`."
+  ]
+ },
+ "exercise_ids": [
+  "B1U20Q1",
+  "B1U20Q2",
+  "B1U20Q3",
+  "B1U20Q4",
+  "B1U20Q5",
+  "B1U20B1",
+  "B1U20B2",
+  "B1U20B3",
+  "B1U20F1",
+  "B1U20F2",
+  "B1U20D1",
+  "B1U20S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · must / have to",
+   "can_do_vi": "Sau buổi này bạn dùng được: bắt buộc; cấm / không cần; mức độ chắc chắn của phán đoán.",
+   "use_vi": "Giới hạn mức độ chắc chắn (may, might, could) giúp tránh nhận định tuyệt đối trong Task 2 và Part 3.",
+   "vocab": [
+    "need to",
+    "needn't",
+    "be likely to",
+    "perhaps",
+    "compulsory"
+   ],
+   "grammar": [
+    "must / have to",
+    "mustn't / don't have to",
+    "must / may / might / could / can't (probability)"
+   ],
+   "check": [
+    "B1U20Q5",
+    "B1U20Q1",
+    "B1U20Q2",
+    "B1U20Q3",
+    "B1U20Q4",
+    "B1U20B1",
+    "B1U20B2",
+    "B1U20B3",
+    "B1U20F1",
+    "B1U20F2",
+    "B1U20D1",
+    "B1U20S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Tiêu đề và số trang theo mục lục Destination B1 (Mann & Taylore-Knowles, Macmillan). Giải thích, ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  }
+ ]
+}

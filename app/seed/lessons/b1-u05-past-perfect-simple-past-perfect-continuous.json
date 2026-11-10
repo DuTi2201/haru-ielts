@@ -1,0 +1,165 @@
+{
+ "slug": "b1-u05-past-perfect-simple-past-perfect-continuous",
+ "title": "Unit 5 · Quá khứ hoàn thành và quá khứ hoàn thành tiếp diễn",
+ "title_ko": "Past perfect simple, past perfect continuous",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 5,
+ "summary": "Kể chuyện có hai mốc quá khứ và chỉ rõ việc nào xảy ra trước. Ngữ pháp: Past perfect simple: had + V3; Past perfect continuous: had been + V-ing.",
+ "vocab": [
+  {
+   "hangul": "by the time",
+   "pos": "X",
+   "meaning_vi": "vào lúc, khi mà (thì việc khác đã xong)",
+   "example_ko": "By the time I woke up, everyone had left.",
+   "example_vi": "Lúc tôi thức dậy thì mọi người đã đi hết.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 5"
+  },
+  {
+   "hangul": "before",
+   "pos": "X",
+   "meaning_vi": "trước khi",
+   "example_ko": "I had finished my work before the meeting started.",
+   "example_vi": "Tôi đã xong việc trước khi cuộc họp bắt đầu.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 5"
+  },
+  {
+   "hangul": "after",
+   "pos": "X",
+   "meaning_vi": "sau khi",
+   "example_ko": "After he had eaten, he went out.",
+   "example_vi": "Sau khi ăn xong, anh ấy ra ngoài.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 5"
+  },
+  {
+   "hangul": "as soon as",
+   "pos": "X",
+   "meaning_vi": "ngay khi",
+   "example_ko": "As soon as she had read the letter, she called me.",
+   "example_vi": "Ngay khi đọc xong thư, cô ấy gọi cho tôi.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 5"
+  },
+  {
+   "hangul": "earlier",
+   "pos": "X",
+   "meaning_vi": "trước đó",
+   "example_ko": "He told me he had met her earlier.",
+   "example_vi": "Anh ấy bảo tôi là đã gặp cô ấy trước đó.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 5"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "Past perfect simple: had + V3",
+   "meaning_vi": "Việc xảy ra trước một việc khác trong quá khứ",
+   "usage_context_vi": "Khi đã đang kể chuyện ở quá khứ và cần lùi về một việc xảy ra trước đó. Thường đi với `when`, `by the time`, `before`, `after`, `already`, `just`.",
+   "contrasts": [
+    {
+     "pattern": "Past simple: V-ed / irregular",
+     "diff_vi": "When I got home, my sister cooked dinner (tôi về rồi chị mới nấu) / When I got home, my sister had cooked dinner (tôi về thì đã nấu xong)."
+    }
+   ],
+   "example_ko": "When we arrived, the film had already started.\nI had never flown before that trip.",
+   "example_vi": "Khi chúng tôi đến, phim đã bắt đầu rồi.\nTrước chuyến đi đó tôi chưa từng đi máy bay.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 5, pp. 21-23",
+   "note_vi": "Lỗi người Việt hay mắc: Không dùng quá khứ hoàn thành cho mọi việc \"đã\" xảy ra. Chỉ dùng khi có hai mốc và cần nói rõ việc nào trước.",
+   "topik_tip_vi": "Trong Task 1, `By + năm quá khứ` đi với quá khứ hoàn thành: By 2015, sales had reached two million."
+  },
+  {
+   "pattern": "Past perfect continuous: had been + V-ing",
+   "meaning_vi": "Quá trình kéo dài cho đến một mốc trong quá khứ",
+   "usage_context_vi": "Nhấn việc đã kéo dài bao lâu trước một mốc quá khứ, hoặc giải thích một tình trạng trong quá khứ.",
+   "contrasts": [],
+   "example_ko": "She had been waiting for an hour when the bus came.\nThe ground was wet because it had been raining.",
+   "example_vi": "Cô ấy đã chờ một tiếng thì xe buýt mới đến.\nMặt đất ướt vì trước đó trời mưa.",
+   "importance": "normal",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 5, pp. 21-23"
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Kể chuyện có hai mốc quá khứ và chỉ rõ việc nào xảy ra trước.\n• 📖 Trong sách: Unit ngữ pháp 5, trang 21–23. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Speaking Part 2 kể chuyện mạch lạc hơn khi dùng quá khứ hoàn thành cho việc xảy ra trước. Writing Task 1: By 2010, the figure had doubled.",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "Past perfect simple: had + V3: Việc xảy ra trước một việc khác trong quá khứ",
+   "Past perfect continuous: had been + V-ing: Quá trình kéo dài cho đến một mốc trong quá khứ"
+  ],
+  "watch_out_vi": [
+   "Không dùng quá khứ hoàn thành cho mọi việc \"đã\" xảy ra. Chỉ dùng khi có hai mốc và cần nói rõ việc nào trước."
+  ]
+ },
+ "exercise_ids": [
+  "B1U05Q1",
+  "B1U05Q2",
+  "B1U05Q3",
+  "B1U05Q4",
+  "B1U05Q5",
+  "B1U05B1",
+  "B1U05B2",
+  "B1U05B3",
+  "B1U05F1",
+  "B1U05F2",
+  "B1U05D1",
+  "B1U05S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · Past perfect simple",
+   "can_do_vi": "Sau buổi này bạn dùng được: việc xảy ra trước một việc khác trong quá khứ; quá trình kéo dài cho đến một mốc trong quá khứ.",
+   "use_vi": "Speaking Part 2 kể chuyện mạch lạc hơn khi dùng quá khứ hoàn thành cho việc xảy ra trước. Writing Task 1: By 2010, the figure had doubled.",
+   "vocab": [
+    "by the time",
+    "before",
+    "after",
+    "as soon as",
+    "earlier"
+   ],
+   "grammar": [
+    "Past perfect simple: had + V3",
+    "Past perfect continuous: had been + V-ing"
+   ],
+   "check": [
+    "B1U05Q1",
+    "B1U05Q2",
+    "B1U05Q4",
+    "B1U05Q5",
+    "B1U05Q3",
+    "B1U05B1",
+    "B1U05B2",
+    "B1U05B3",
+    "B1U05F1",
+    "B1U05F2",
+    "B1U05D1",
+    "B1U05S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Tiêu đề và số trang theo mục lục Destination B1 (Mann & Taylore-Knowles, Macmillan). Giải thích, ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  }
+ ]
+}

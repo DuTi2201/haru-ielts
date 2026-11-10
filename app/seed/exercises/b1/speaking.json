@@ -1,0 +1,1641 @@
+{
+ "skill": "speaking",
+ "guide": [
+  {
+   "title_vi": "Bốn mức chuẩn bị",
+   "bullets_vi": [
+    "Mức 1 (mới bắt đầu): viết đủ câu trả lời bằng câu đơn, chủ ngữ dễ (I, it, there), rồi đọc to.",
+    "Mức 2 (có nền): chỉ ghi ý bằng từ khóa và mũi tên, ít nhất ba mũi tên.",
+    "Mức 3 (có phản xạ): đọc câu hỏi rồi nói ngay, không viết.",
+    "Mức 4: nói, ghi âm, nghe lại và tự sửa."
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "B1U01S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Hiện tại đơn, hiện tại tiếp diễn, động từ trạng thái",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Do you work or are you a student? What do you usually do in the evenings?",
+   "prompt_vi": "Bạn đi làm hay đi học? Buổi tối bạn thường làm gì?",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "Present simple: S + V(s/es)",
+    "Present continuous: am/is/are + V-ing",
+    "Stative verbs (know, like, want, believe…)"
+   ],
+   "model_answer_ko": "I am a student at the moment. I study business at a university in Hanoi. In the evenings I usually do my homework, and then I watch a film or call my friends. This week I am preparing for a test, so I am studying more than usual."
+  },
+  {
+   "id": "B1U02S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Quá khứ đơn, quá khứ tiếp diễn, used to",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Describe a day you remember well from your childhood.",
+   "prompt_vi": "Hãy kể về một ngày thời thơ ấu mà bạn nhớ rõ.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "Past simple: V-ed / irregular",
+    "Past continuous: was/were + V-ing",
+    "used to + V"
+   ],
+   "model_answer_ko": "I remember my first day at primary school. I was six years old and I felt very nervous. My mother was holding my hand while we were walking to the school gate. When I saw the other children, I started to cry. A teacher came and talked to me kindly, and after a few minutes I stopped crying. I used to be very shy, but that day I made my first friend."
+  },
+  {
+   "id": "B1U03S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Vui chơi và thể thao",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Describe a sport or game you enjoy.",
+   "prompt_vi": "Hãy kể về một môn thể thao hoặc trò chơi bạn thích.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [],
+   "model_answer_ko": "I am a big fan of badminton. I took it up three years ago because I wanted to get fit. I am a member of a small club near my house, and we train twice a week. Our coach is very patient. I am not very good at it, but I play for fun, not for competition. Last month our team beat a stronger opponent, and that gave me a lot of pleasure."
+  },
+  {
+   "id": "B1U04S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Hiện tại hoàn thành và hiện tại hoàn thành tiếp diễn",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "How long have you been learning English? Has it been easy for you?",
+   "prompt_vi": "Bạn học tiếng Anh bao lâu rồi? Việc đó có dễ với bạn không?",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "Present perfect simple: have/has + V3",
+    "for / since",
+    "Present perfect continuous: have/has been + V-ing"
+   ],
+   "model_answer_ko": "I have been learning English for about six years. I started at secondary school, but I have only studied it seriously since last year. It has not been easy for me, because I have always found listening difficult. However, I have made some progress recently, and I have already finished one grammar book."
+  },
+  {
+   "id": "B1U05S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Quá khứ hoàn thành và quá khứ hoàn thành tiếp diễn",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Tell me about a time when you arrived late for something.",
+   "prompt_vi": "Hãy kể về một lần bạn đến muộn.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "Past perfect simple: had + V3",
+    "Past perfect continuous: had been + V-ing"
+   ],
+   "model_answer_ko": "Last year I arrived late for a job interview. I had set my alarm, but I had forgotten to charge my phone, so it did not ring. By the time I left home, the bus had already gone. I had been running for ten minutes when I finally found a taxi. When I arrived, the manager had started the next interview, so I had to wait. It was a stressful morning."
+  },
+  {
+   "id": "B1U06S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Học tập và kỹ năng",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Talk about a course or subject you have studied.",
+   "prompt_vi": "Hãy nói về một khóa học hoặc môn học bạn đã học.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [],
+   "model_answer_ko": "Last year I took a short course in computer skills. In the beginning it was difficult to concentrate after work, but the teacher's instructions were clear. I made a lot of progress in three months. At the end of the term we took an exam, and I passed with a good mark. I achieved more than I expected, and the qualification helped me at work."
+  },
+  {
+   "id": "B1U07S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Các cách nói về tương lai",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "What are your plans for next year? How do you think your life will change?",
+   "prompt_vi": "Kế hoạch năm tới của bạn là gì? Bạn nghĩ cuộc sống sẽ thay đổi thế nào?",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "will + V",
+    "be going to + V",
+    "Present continuous / present simple for the future"
+   ],
+   "model_answer_ko": "Next year I am going to take the IELTS test, so I am going to study every day. I am starting a new course in January. I think my life will be quite busy, and I will probably have less free time. If I get a good score, I will apply for a master's course abroad."
+  },
+  {
+   "id": "B1U08S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Giới từ chỉ thời gian và nơi chốn",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Describe where your home is and what is near it.",
+   "prompt_vi": "Hãy mô tả nhà bạn ở đâu và gần đó có gì.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "at / on / in + time",
+    "at / on / in + place",
+    "Other prepositions of place (opposite, between, next to, in front of, behind…)"
+   ],
+   "model_answer_ko": "I live in a small flat on the fourth floor of an old building in Hanoi. The building is on a quiet street near West Lake. There is a market opposite my building and a bus stop in front of it. My office is between the lake and the old town, so I usually leave home at seven in the morning."
+  },
+  {
+   "id": "B1U09S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Đi lại và du lịch",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Describe a journey you remember well.",
+   "prompt_vi": "Hãy kể về một chuyến đi bạn nhớ rõ.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [],
+   "model_answer_ko": "Two years ago I went on a trip to Da Nang with my family. We booked our flight and accommodation online. Our flight was delayed for two hours, so we arrived late at night. The resort was on the coast and was not too crowded. We travelled around on foot and by public transport. I bought some souvenirs for my colleagues before we set off for home."
+  },
+  {
+   "id": "B1U10S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Câu bị động 1: các thì cơ bản",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Describe how a popular dish from your country is made.",
+   "prompt_vi": "Hãy mô tả cách làm một món ăn phổ biến ở nước bạn.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "be + V3 (present and past simple passive)",
+    "will be + V3 / have been + V3",
+    "Verbs that have no passive (happen, arrive, die, rise…)"
+   ],
+   "model_answer_ko": "Pho is eaten all over Vietnam. First, beef bones are boiled for several hours to make the soup. Then spices such as cinnamon are added. Rice noodles are cooked separately and put into a bowl. After that, thin slices of beef are placed on top and the hot soup is poured over them. Finally, the dish is served with herbs and lime."
+  },
+  {
+   "id": "B1U11S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Câu bị động 2: tiếp diễn, động từ khuyết thiếu, by/with",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "What should be done to keep your city clean?",
+   "prompt_vi": "Nên làm gì để giữ cho thành phố của bạn sạch sẽ?",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "am/is/are being + V3 · was/were being + V3",
+    "modal + be + V3 · be going to be + V3",
+    "by + agent · with + instrument"
+   ],
+   "model_answer_ko": "I think more bins should be placed on the streets, and rubbish should be collected every day. In my area, a new park is being built, which is good news. Plastic bags could be banned in supermarkets, and people who drop litter should be fined. If these things are done, the city can be kept much cleaner."
+  },
+  {
+   "id": "B1U12S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Bạn bè và các mối quan hệ",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Describe a person you get on well with.",
+   "prompt_vi": "Hãy kể về một người mà bạn hòa hợp.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [],
+   "model_answer_ko": "I get on very well with my cousin Ha. We grew up in the same neighbourhood, so we are very close. She is generous and patient, and I trust her completely. We have a lot in common: we are both fond of cooking. I respect her because she is independent and confident. We have never fallen out, and I am grateful for her support."
+  },
+  {
+   "id": "B1U13S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Danh từ đếm được và không đếm được",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Do you think people today have too much information?",
+   "prompt_vi": "Bạn có nghĩ ngày nay con người có quá nhiều thông tin không?",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "Uncountable nouns (information, advice, furniture…)",
+    "many / much · a few / a little · a lot of",
+    "some / any"
+   ],
+   "model_answer_ko": "Yes, I think we have a lot of information but very little time to check it. There is so much news on social media, and not much of it is useful. A few websites give good advice, but many do not. In my opinion, people need more knowledge about how to choose information."
+  },
+  {
+   "id": "B1U14S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Mạo từ a/an, the và không mạo từ",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Describe your hometown.",
+   "prompt_vi": "Hãy mô tả quê bạn.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "a / an",
+    "the",
+    "Zero article"
+   ],
+   "model_answer_ko": "I come from a small town in the north of Vietnam. The town is near a river, and the river is very important for local farmers. There is a market in the centre, and the market is busy every morning. Life there is quiet. Most people work in agriculture, but young people often move to Hanoi to find a job."
+  },
+  {
+   "id": "B1U15S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Mua bán và tiền bạc",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Describe something you bought recently.",
+   "prompt_vi": "Hãy kể về một món đồ bạn mua gần đây.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [],
+   "model_answer_ko": "Last month I purchased a new backpack. I saw an advertisement for a well-known brand, and it was in a sale. It cost about forty dollars, which was a real bargain. I paid in cash and kept the receipt. I do not like to waste money, so I usually save up for things I really need. I spend most of my money on books and food."
+  },
+  {
+   "id": "B1U16S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Đại từ và từ sở hữu",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Tell me about a close friend of yours.",
+   "prompt_vi": "Hãy kể về một người bạn thân của bạn.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "Subject and object pronouns (I/me, he/him, they/them…)",
+    "Possessive determiners and pronouns (my/mine, their/theirs…)",
+    "Reflexive pronouns (myself, yourself, themselves…)"
+   ],
+   "model_answer_ko": "I would like to talk about a friend of mine called Minh. I met him at secondary school, and we have known each other for ten years. He is very kind, and his family always welcomes me. He taught himself English, so he often helps me with mine. We enjoy ourselves whenever we meet."
+  },
+  {
+   "id": "B1U17S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Mệnh đề quan hệ",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Describe a teacher who has influenced you.",
+   "prompt_vi": "Hãy kể về một giáo viên đã ảnh hưởng đến bạn.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "Defining relative clauses: who / which / that",
+    "whose / where / when",
+    "Non-defining relative clauses: , who / , which"
+   ],
+   "model_answer_ko": "The teacher who influenced me most was Ms Lan, who taught me English at secondary school. She was a person who always listened to her students. The school where she worked was small, but her lessons, which were full of games, were never boring. She is the reason why I still enjoy learning languages."
+  },
+  {
+   "id": "B1U18S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Phát minh và khám phá",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Describe a piece of technology you use every day.",
+   "prompt_vi": "Hãy kể về một thiết bị công nghệ bạn dùng hằng ngày.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [],
+   "model_answer_ko": "I use my laptop every day for work and study. It is not a complicated machine, but it is very important to me. I run several programs at the same time, and I store everything in digital form. In my opinion, the laptop is one of the most useful inventions of our time. However, it has a negative effect on my eyes, because I look at the screen for too long."
+  },
+  {
+   "id": "B1U19S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Động từ khuyết thiếu 1: khả năng, sự cho phép, lời khuyên",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "What should people do to stay healthy?",
+   "prompt_vi": "Mọi người nên làm gì để giữ sức khỏe?",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "can / could / be able to",
+    "can / could / may (permission and requests)",
+    "should / ought to"
+   ],
+   "model_answer_ko": "I think people should eat more vegetables and they should not eat fast food every day. Everyone ought to exercise, even if they can only walk for twenty minutes. When I was younger I could run five kilometres, but now I cannot. I hope I will be able to start running again next month."
+  },
+  {
+   "id": "B1U20S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Động từ khuyết thiếu 2: bắt buộc, khả năng xảy ra",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "What rules do you have to follow at work or school?",
+   "prompt_vi": "Ở chỗ làm hoặc ở trường bạn phải tuân theo những quy định nào?",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "must / have to",
+    "mustn't / don't have to",
+    "must / may / might / could / can't (probability)"
+   ],
+   "model_answer_ko": "At my office we have to arrive before nine, and we must wear our name cards. We mustn't share customer information. We don't have to wear formal clothes on Fridays, which is nice. My manager might change some rules next year, and I think the new rules may be more flexible."
+  },
+  {
+   "id": "B1U21S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Truyền thông và liên lạc",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "How do you usually keep in touch with friends and family?",
+   "prompt_vi": "Bạn thường giữ liên lạc với bạn bè và gia đình bằng cách nào?",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [],
+   "model_answer_ko": "I usually contact my friends online, because it is free and fast. I ring my parents twice a week, and we talk on the phone for about half an hour. I read the news on the internet rather than on TV. At work I use formal language in emails, but with friends my messages are very informal. I think the media has changed the way we communicate."
+  },
+  {
+   "id": "B1U22S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Động từ khuyết thiếu 3: modal + have + V3",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Talk about a decision you regret.",
+   "prompt_vi": "Hãy nói về một quyết định bạn hối tiếc.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "must have / can't have / might have + V3",
+    "should have / shouldn't have + V3",
+    "could have / would have + V3"
+   ],
+   "model_answer_ko": "When I was at university, I chose a subject I did not like. I should have asked my teachers for advice, but I did not. I could have changed my course in the first year, and I think I would have been happier. My parents must have known I was not enjoying it. Looking back, I shouldn't have been afraid to tell them."
+  },
+  {
+   "id": "B1U23S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Câu hỏi, câu hỏi đuôi, câu hỏi gián tiếp",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Ask me three questions about my job, then answer one yourself.",
+   "prompt_vi": "Hãy hỏi tôi ba câu về công việc của tôi, rồi tự trả lời một câu về bạn.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "Question word order",
+    "Question tags",
+    "Indirect questions"
+   ],
+   "model_answer_ko": "What do you do? How long have you worked there? Could you tell me what you like most about your job? As for me, I work in a bank. I have worked there for two years, and I like it because my colleagues are friendly."
+  },
+  {
+   "id": "B1U24S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Con người và đời sống xã hội",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Describe a tradition or habit in your community.",
+   "prompt_vi": "Hãy kể về một truyền thống hoặc thói quen trong cộng đồng của bạn.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [],
+   "model_answer_ko": "In my neighbourhood there is a tradition of cleaning the street together on the first Sunday of each month. It is a typical habit of the residents here. Most people in the community take part, and nobody complains. I think it makes people feel responsible for the place where they live. It is also a social event, because we chat and have tea afterwards."
+  },
+  {
+   "id": "B1U25S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · so, such, too, enough",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Describe a very busy day you had recently.",
+   "prompt_vi": "Hãy kể về một ngày rất bận rộn gần đây của bạn.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "so + adj/adv (+ that) · such + (a/an) + adj + noun (+ that)",
+    "too + adj/adv (+ to V)",
+    "adj/adv + enough (+ to V) · enough + noun"
+   ],
+   "model_answer_ko": "Last Monday was such a busy day that I did not have lunch. I had so many emails that I could not answer them all. The meeting was too long, and I was too tired to cook when I got home. I did not have enough time to exercise, so I went to bed early."
+  },
+  {
+   "id": "B1U26S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · So sánh hơn và so sánh nhất",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Compare life in a big city with life in the countryside.",
+   "prompt_vi": "Hãy so sánh cuộc sống ở thành phố lớn và ở nông thôn.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "Comparative: adj-er / more + adj + than",
+    "Superlative: the + adj-est / the most + adj",
+    "(not) as + adj/adv + as"
+   ],
+   "model_answer_ko": "I think life in a big city is more convenient than life in the countryside, because there are better hospitals and more jobs. However, the countryside is much quieter and the air is cleaner. Houses are not as expensive as in the city. For me, the best place to live is a small town, which is the most relaxing of all."
+  },
+  {
+   "id": "B1U27S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Công việc và thu nhập",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Describe a job you would like to have.",
+   "prompt_vi": "Hãy kể về một công việc bạn muốn làm.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [],
+   "model_answer_ko": "My ambition is to work as a manager in a large company. I would like a career in the tourism industry. The salary is important, but I also want friendly colleagues and a good boss. I know there is a lot of pressure in this profession. I have filled in two applications, and I have an interview next week. I hope to impress them."
+  },
+  {
+   "id": "B1U28S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Câu điều kiện 1: loại không, loại một, loại hai",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "What would you do if you won a lot of money?",
+   "prompt_vi": "Bạn sẽ làm gì nếu trúng một số tiền lớn?",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "Zero conditional: if + present, present",
+    "First conditional: if + present, will + V",
+    "Second conditional: if + past simple, would + V"
+   ],
+   "model_answer_ko": "If I won a lot of money, I would buy a house for my parents first. I would also travel, because I have never been abroad. If I had enough left, I would start a small business. Of course, if I do not buy a ticket, I will not win anything, so this is only a dream."
+  },
+  {
+   "id": "B1U29S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Câu điều kiện 2: loại ba",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Talk about something you would have done differently at school.",
+   "prompt_vi": "Hãy nói về một điều ở trường mà bạn muốn mình đã làm khác đi.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "Third conditional: if + past perfect, would have + V3",
+    "could have / might have in the result clause"
+   ],
+   "model_answer_ko": "If I had known how useful English would be, I would have studied it more seriously at school. I spent too much time on games. If I had read more books, my vocabulary would have been much bigger. I might have got a better job, too. Luckily, it is not too late, and I am studying hard now."
+  },
+  {
+   "id": "B1U30S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Cơ thể và lối sống",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "What do you do to stay healthy?",
+   "prompt_vi": "Bạn làm gì để giữ sức khỏe?",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [],
+   "model_answer_ko": "I try to have a healthy lifestyle. I exercise three times a week and I eat balanced meals. I have cut down on salty and spicy food. Last year I suffered from a bad infection, and it took me a month to recover. Since then I have not ignored my health. I think regular exercise benefits both the body and the mind."
+  },
+  {
+   "id": "B1U31S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Câu tường thuật",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Tell me about some good advice someone gave you.",
+   "prompt_vi": "Hãy kể về một lời khuyên hay mà ai đó đã cho bạn.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "say / tell + (that) + clause with backshift",
+    "say vs tell",
+    "Time and place changes"
+   ],
+   "model_answer_ko": "My grandfather once told me that I should never stop learning. He said that he had left school at fourteen and had always regretted it. He explained that education would open many doors for me. I told him I would remember his words, and I have. According to my mother, he said the same thing to her."
+  },
+  {
+   "id": "B1U32S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Tường thuật câu hỏi, mệnh lệnh, lời đề nghị",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Describe a job interview or an interview you have had.",
+   "prompt_vi": "Hãy kể về một buổi phỏng vấn bạn từng tham gia.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "Reported yes/no questions: asked + if/whether + clause",
+    "Reported wh- questions: asked + wh-word + clause",
+    "Reported orders and requests: told/asked + người + (not) to V"
+   ],
+   "model_answer_ko": "Last year I had an interview at a bank. The manager asked me why I wanted the job and whether I had any experience. She also asked where I had studied. Then she told me to wait outside for a few minutes. Finally, she asked me to start the following Monday, and she reminded me not to forget my documents."
+  },
+  {
+   "id": "B1U33S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Sáng tạo, thiết kế và chất liệu",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Describe a piece of clothing or an object you like.",
+   "prompt_vi": "Hãy tả một món quần áo hoặc đồ vật bạn thích.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [],
+   "model_answer_ko": "My favourite piece of clothing is a cotton shirt that my sister gave me. It has a simple striped pattern, and the material is very smooth. It is a little loose, which is practical in hot weather. The style suits me, and the colour matches most of my trousers. I noticed a small tear last month, so I had it fixed."
+  },
+  {
+   "id": "B1U34S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Tân ngữ trực tiếp và gián tiếp",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Describe a present you gave someone.",
+   "prompt_vi": "Hãy kể về một món quà bạn đã tặng ai đó.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "verb + person + thing",
+    "verb + thing + to/for + person",
+    "explain / describe / suggest / say + thing + to + person"
+   ],
+   "model_answer_ko": "Last year I gave my mother a scarf for her birthday. I bought it for her at a small shop in the old town. The shop assistant showed me several colours and offered me a discount. I also wrote a card to her. When I gave it to her, she was very happy, and she still wears it."
+  },
+  {
+   "id": "B1U35S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Câu ước với wish",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Is there anything you wish you could change about your daily life?",
+   "prompt_vi": "Có điều gì trong cuộc sống hằng ngày mà bạn ước có thể thay đổi không?",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "wish + past simple",
+    "wish + past perfect",
+    "wish + would + V",
+    "hope + present / will"
+   ],
+   "model_answer_ko": "I wish I had more free time, because I work six days a week. I also wish I lived closer to my office. I wish I had learned to drive when I was younger, and I wish the buses would come on time. I hope I will find a job nearer home next year."
+  },
+  {
+   "id": "B1U36S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Thiên nhiên và môi trường",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Describe a place in nature you have visited.",
+   "prompt_vi": "Hãy kể về một nơi thiên nhiên bạn đã đến.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [],
+   "model_answer_ko": "Last summer I visited a national park in the north. The countryside there is amazing, and the climate is mild. We saw many insects and some wild animals. Our guide told us that several species there are in danger of becoming extinct. I was sad to see litter near the river. In my view, we must preserve places like this and recycle more."
+  },
+  {
+   "id": "B1U37S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · V-ing và to V",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "What do you enjoy doing in your free time? Is there anything you want to learn?",
+   "prompt_vi": "Bạn thích làm gì lúc rảnh? Có điều gì bạn muốn học không?",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "verb + -ing",
+    "verb + to + infinitive",
+    "verbs that change meaning (stop, remember, forget, try)",
+    "make / let + person + V"
+   ],
+   "model_answer_ko": "I enjoy reading and I love cooking for my friends. I avoid watching too much TV because it makes me feel tired. I have decided to learn the guitar this year, and I hope to play a few songs by summer. My sister suggested taking online lessons, so I am looking forward to starting next week."
+  },
+  {
+   "id": "B1U38S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · both, either, neither, so, nor",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Tell me about two people in your family. How are they similar?",
+   "prompt_vi": "Hãy kể về hai người trong gia đình bạn. Họ giống nhau ở điểm nào?",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "both … and / either … or / neither … nor",
+    "both of / either of / neither of + the/these/my + plural noun",
+    "So + auxiliary + subject / Neither (Nor) + auxiliary + subject"
+   ],
+   "model_answer_ko": "I will talk about my mother and my aunt. Both of them are teachers, and both my mother and my aunt love cooking. Neither of them likes spicy food. My mother gets up very early, and so does my aunt. However, neither my mother nor my aunt can swim, and neither can I."
+  },
+  {
+   "id": "B1U39S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Cảm xúc và tính cách",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Describe a time when you felt very happy or very embarrassed.",
+   "prompt_vi": "Hãy kể về một lần bạn rất vui hoặc rất ngượng.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [],
+   "model_answer_ko": "I remember an embarrassing moment at my friend's wedding. I was asked to tell a joke, but nobody laughed. I felt miserable for a few minutes. Luckily, my friend has a good sense of humour, and she reacted in a very calm way. In the end, everyone was in a good mood, and we celebrated until midnight. Now I find the story amusing."
+  },
+  {
+   "id": "B1U40S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Từ nối: thời gian, tương phản, lý do, mục đích",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Do you prefer studying alone or with other people?",
+   "prompt_vi": "Bạn thích học một mình hay học cùng người khác?",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "Time clauses: when / as soon as / before / after / until / while + present",
+    "although / even though + clause · despite / in spite of + noun/-ing",
+    "however / on the other hand",
+    "because / so / so that / in order to"
+   ],
+   "model_answer_ko": "I usually study alone because I can concentrate better. However, I sometimes study with friends before an exam so that we can test each other. Although group study is fun, it can be noisy. Despite this, I think both ways are useful. When I start preparing for IELTS speaking, I will probably find a partner."
+  },
+  {
+   "id": "B1U41S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Thể sai khiến: have/get something done",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "What things do you usually pay other people to do for you?",
+   "prompt_vi": "Bạn thường trả tiền cho người khác làm giúp những việc gì?",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [
+    "have + object + V3",
+    "get + object + V3",
+    "have + object + V3 (something bad happens)"
+   ],
+   "model_answer_ko": "I have my hair cut once a month at a small shop near my house. I also have my motorbike serviced twice a year. Last month I had my phone screen repaired because I dropped it. I do not have my clothes washed, because I do that myself. Next week we are having a new air conditioner installed."
+  },
+  {
+   "id": "B1U42S1",
+   "skill": "speaking",
+   "type": "speak",
+   "number": "S1",
+   "title_vi": "Nói · Vấn đề và giải pháp",
+   "max_points": 9,
+   "prep_sec": 60,
+   "answer_sec": 60,
+   "prompt_ko": "Describe a problem in your city and suggest a solution.",
+   "prompt_vi": "Hãy nêu một vấn đề ở thành phố của bạn và đề xuất giải pháp.",
+   "plan": [
+    {
+     "when_vi": "1 phút chuẩn bị",
+     "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."
+    },
+    {
+     "when_vi": "0–15 giây",
+     "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."
+    },
+    {
+     "when_vi": "15–45 giây",
+     "do_vi": "Nêu lý do hoặc chi tiết, rồi một ví dụ của chính bạn."
+    },
+    {
+     "when_vi": "45–60 giây",
+     "do_vi": "Kết lại bằng một câu về cảm nghĩ hoặc dự định."
+    }
+   ],
+   "tips_vi": [
+    "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
+    "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."
+   ],
+   "patterns_vi": [],
+   "model_answer_ko": "A serious problem in my city is traffic. The main cause is the large number of motorbikes. Some people claim that building more roads is the solution, but I doubt it. In my opinion, the government should encourage people to use public transport and should not ignore the problem. A sensible first step would be cheaper bus tickets. This would have a positive result for everyone."
+  }
+ ]
+}

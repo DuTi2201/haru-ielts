@@ -1,0 +1,188 @@
+{
+ "slug": "b1-u08-prepositions-of-time-and-place",
+ "title": "Unit 8 · Giới từ chỉ thời gian và nơi chốn",
+ "title_ko": "Prepositions of time and place",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 8,
+ "summary": "Dùng đúng at, on, in và các giới từ vị trí cơ bản khi nói về thời gian và nơi chốn. Ngữ pháp: at / on / in + time; at / on / in + place; Other prepositions of place (opposite, between, next to, in front of, behind…).",
+ "vocab": [
+  {
+   "hangul": "opposite",
+   "pos": "X",
+   "meaning_vi": "đối diện",
+   "example_ko": "The cafe is opposite the cinema.",
+   "example_vi": "Quán cà phê ở đối diện rạp chiếu phim.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 8"
+  },
+  {
+   "hangul": "between",
+   "pos": "X",
+   "meaning_vi": "ở giữa (hai)",
+   "example_ko": "The shop is between the bank and the school.",
+   "example_vi": "Cửa hàng nằm giữa ngân hàng và trường học.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 8"
+  },
+  {
+   "hangul": "behind",
+   "pos": "X",
+   "meaning_vi": "phía sau",
+   "example_ko": "There is a garden behind the house.",
+   "example_vi": "Sau nhà có một khu vườn.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 8"
+  },
+  {
+   "hangul": "during",
+   "pos": "X",
+   "meaning_vi": "trong suốt (+ danh từ)",
+   "example_ko": "I fell asleep during the film.",
+   "example_vi": "Tôi ngủ gật trong lúc xem phim.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 8"
+  },
+  {
+   "hangul": "by",
+   "pos": "X",
+   "meaning_vi": "trước, chậm nhất là (hạn chót)",
+   "example_ko": "Please send it by Friday.",
+   "example_vi": "Vui lòng gửi trước thứ Sáu.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 8"
+  },
+  {
+   "hangul": "above",
+   "pos": "X",
+   "meaning_vi": "phía trên",
+   "example_ko": "The temperature stayed above 30 degrees.",
+   "example_vi": "Nhiệt độ luôn trên 30 độ.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 8"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "at / on / in + time",
+   "meaning_vi": "at + giờ, thời điểm · on + ngày, thứ · in + tháng, năm, mùa, buổi",
+   "usage_context_vi": "| Giới từ | Dùng với | Ví dụ |\n| at | giờ; night, the weekend, the moment; at Christmas | at 7.30, at night |\n| on | thứ, ngày, ngày lễ cụ thể | on Monday, on 5 May, on my birthday |\n| in | tháng, năm, mùa, thế kỷ; the morning/afternoon/evening | in July, in 2010, in the morning |\nKhông dùng giới từ trước `last`, `next`, `this`, `every`: I saw her last week.",
+   "contrasts": [],
+   "example_ko": "The meeting is at nine on Monday.\nSales rose sharply in 2015.",
+   "example_vi": "Cuộc họp lúc chín giờ thứ Hai.\nDoanh số tăng mạnh năm 2015.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 8, pp. 33-35",
+   "note_vi": "Lỗi người Việt hay mắc: ~~in Monday morning~~ → on Monday morning (có thứ thì dùng on). ~~at the morning~~ → in the morning. ~~on last week~~ → last week.",
+   "topik_tip_vi": "Task 1: in 2010, between 2000 and 2010, from 2000 to 2010, over the period, at the beginning/end of the period."
+  },
+  {
+   "pattern": "at / on / in + place",
+   "meaning_vi": "at + điểm · on + bề mặt, đường · in + bên trong, vùng",
+   "usage_context_vi": "| Giới từ | Dùng với | Ví dụ |\n| at | một điểm, địa chỉ có số, sự kiện | at the bus stop, at 44 Hai Ba Trung, at a wedding |\n| on | bề mặt, tầng, con đường, hòn đảo nhỏ | on the wall, on the second floor, on Phu Quoc |\n| in | bên trong, thành phố, quốc gia, vùng | in the room, in Paris, in the north |",
+   "contrasts": [],
+   "example_ko": "She lives in a flat on the third floor.\nI will meet you at the station.",
+   "example_vi": "Cô ấy sống trong một căn hộ ở tầng ba.\nTôi sẽ gặp bạn ở nhà ga.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 8, pp. 33-35",
+   "note_vi": "Lỗi người Việt hay mắc: ~~in the bus stop~~ → at the bus stop. `arrive at` (địa điểm nhỏ) / `arrive in` (thành phố, nước); không nói ~~arrive to~~."
+  },
+  {
+   "pattern": "Other prepositions of place (opposite, between, next to, in front of, behind…)",
+   "meaning_vi": "Giới từ chỉ vị trí tương đối",
+   "usage_context_vi": "next to / beside (cạnh), opposite (đối diện), between A and B (giữa hai), among (giữa nhiều), in front of (phía trước), behind (phía sau), above / over (phía trên), below / under (phía dưới), near (gần).",
+   "contrasts": [],
+   "example_ko": "The bank is opposite the post office.\nThe school is between the park and the river.",
+   "example_vi": "Ngân hàng ở đối diện bưu điện.\nTrường nằm giữa công viên và con sông.",
+   "importance": "normal",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 8, pp. 33-35",
+   "topik_tip_vi": "Dạng bản đồ trong Task 1 cần đúng nhóm giới từ này: to the north of, next to, opposite."
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Dùng đúng at, on, in và các giới từ vị trí cơ bản khi nói về thời gian và nơi chốn.\n• 📖 Trong sách: Unit ngữ pháp 8, trang 33–35. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Lỗi giới từ là lỗi phổ biến nhất của người Việt trong Writing Task 1 (in 2010, at the beginning of, between 2000 and 2010) và khi tả vị trí trên bản đồ.",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "at / on / in + time: at + giờ, thời điểm · on + ngày, thứ · in + tháng, năm, mùa, buổi",
+   "at / on / in + place: at + điểm · on + bề mặt, đường · in + bên trong, vùng",
+   "Other prepositions of place (opposite, between, next to, in front of, behind…): Giới từ chỉ vị trí tương đối"
+  ],
+  "watch_out_vi": [
+   "~~in Monday morning~~ → on Monday morning (có thứ thì dùng on). ~~at the morning~~ → in the morning. ~~on last week~~ → last week.",
+   "~~in the bus stop~~ → at the bus stop. `arrive at` (địa điểm nhỏ) / `arrive in` (thành phố, nước); không nói ~~arrive to~~."
+  ]
+ },
+ "exercise_ids": [
+  "B1U08Q1",
+  "B1U08Q2",
+  "B1U08Q3",
+  "B1U08Q4",
+  "B1U08Q5",
+  "B1U08Q6",
+  "B1U08B1",
+  "B1U08B2",
+  "B1U08B3",
+  "B1U08F1",
+  "B1U08F2",
+  "B1U08D1",
+  "B1U08S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · at / on / in + time",
+   "can_do_vi": "Sau buổi này bạn dùng được: at + giờ, thời điểm · on + ngày, thứ · in + tháng, năm, mùa, buổi; at + điểm · on + bề mặt, đường · in + bên trong, vùng; giới từ chỉ vị trí tương đối.",
+   "use_vi": "Lỗi giới từ là lỗi phổ biến nhất của người Việt trong Writing Task 1 (in 2010, at the beginning of, between 2000 and 2010) và khi tả vị trí trên bản đồ.",
+   "vocab": [
+    "opposite",
+    "between",
+    "behind",
+    "during",
+    "by",
+    "above"
+   ],
+   "grammar": [
+    "at / on / in + time",
+    "at / on / in + place",
+    "Other prepositions of place (opposite, between, next to, in front of, behind…)"
+   ],
+   "check": [
+    "B1U08Q1",
+    "B1U08Q2",
+    "B1U08Q3",
+    "B1U08Q4",
+    "B1U08Q5",
+    "B1U08Q6",
+    "B1U08B1",
+    "B1U08B2",
+    "B1U08B3",
+    "B1U08F1",
+    "B1U08F2",
+    "B1U08D1",
+    "B1U08S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Tiêu đề và số trang theo mục lục Destination B1 (Mann & Taylore-Knowles, Macmillan). Giải thích, ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  }
+ ]
+}

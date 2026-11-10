@@ -1,0 +1,188 @@
+{
+ "slug": "b1-u35-wish",
+ "title": "Unit 35 · Câu ước với wish",
+ "title_ko": "wish",
+ "topic": "Destination B1 · Lấy gốc",
+ "track": "beginner",
+ "level": 3,
+ "sort_order": 35,
+ "summary": "Nói điều ước trái với hiện tại, điều tiếc về quá khứ và điều mong người khác thay đổi. Ngữ pháp: wish + past simple; wish + past perfect; wish + would + V; hope + present / will.",
+ "vocab": [
+  {
+   "hangul": "if only",
+   "pos": "X",
+   "meaning_vi": "giá mà (mạnh hơn wish)",
+   "example_ko": "If only I had more time.",
+   "example_vi": "Giá mà tôi có nhiều thời gian hơn.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 35"
+  },
+  {
+   "hangul": "regret",
+   "pos": "V",
+   "meaning_vi": "hối tiếc",
+   "example_ko": "I regret selling my bike.",
+   "example_vi": "Tôi tiếc vì đã bán xe đạp.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 35"
+  },
+  {
+   "hangul": "hope",
+   "pos": "V",
+   "meaning_vi": "hy vọng",
+   "example_ko": "I hope to see you soon.",
+   "example_vi": "Mong sớm gặp lại bạn.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 35"
+  },
+  {
+   "hangul": "would rather",
+   "pos": "V",
+   "meaning_vi": "thích hơn, thà",
+   "example_ko": "I would rather stay at home.",
+   "example_vi": "Tôi thích ở nhà hơn.",
+   "family": "Từ khóa của bài",
+   "priority": "core",
+   "source": "Haru English · B1 Unit 35"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "wish + past simple",
+   "meaning_vi": "Ước điều trái với hiện tại",
+   "usage_context_vi": "Sau `wish` dùng quá khứ đơn để nói về hiện tại (với `be` thường dùng `were`). Với khả năng: wish + could + V.",
+   "contrasts": [
+    {
+     "pattern": "hope + present / will",
+     "diff_vi": "`wish` cho điều không có thật; `hope` cho điều có thể thành sự thật: I hope you pass."
+    }
+   ],
+   "example_ko": "I wish I had a bigger flat.\nI wish I could speak French.",
+   "example_vi": "Ước gì tôi có căn hộ rộng hơn.\nƯớc gì tôi nói được tiếng Pháp.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 35, pp. 145-147",
+   "note_vi": "Lỗi người Việt hay mắc: Dùng hiện tại theo nghĩa tiếng Việt: ~~I wish I have~~, ~~I wish I can~~ → I wish I had, I wish I could."
+  },
+  {
+   "pattern": "wish + past perfect",
+   "meaning_vi": "Tiếc điều đã xảy ra trong quá khứ",
+   "usage_context_vi": "Sau `wish` dùng had + V3. Gần nghĩa với `should have + V3`.",
+   "contrasts": [],
+   "example_ko": "I wish I had studied harder at school.\nShe wishes she had not sold her car.",
+   "example_vi": "Ước gì hồi đi học tôi chăm hơn.\nCô ấy tiếc vì đã bán xe.",
+   "importance": "must",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 35, pp. 145-147",
+   "note_vi": "Lỗi người Việt hay mắc: ~~I wish I studied harder last year~~ → I wish I had studied."
+  },
+  {
+   "pattern": "wish + would + V",
+   "meaning_vi": "Mong người khác hoặc sự việc thay đổi (thường là phàn nàn)",
+   "usage_context_vi": "Chủ ngữ của hai vế khác nhau; không dùng `I wish I would`.",
+   "contrasts": [],
+   "example_ko": "I wish it would stop raining.\nI wish my neighbours would be quieter.",
+   "example_vi": "Ước gì trời tạnh mưa.\nƯớc gì hàng xóm của tôi yên lặng hơn.",
+   "importance": "normal",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 35, pp. 145-147"
+  },
+  {
+   "pattern": "hope + present / will",
+   "meaning_vi": "Hy vọng điều có thể xảy ra",
+   "usage_context_vi": "`hope` + hiện tại đơn hoặc `will` cho tương lai; `hope` + quá khứ cho điều chưa biết kết quả.",
+   "contrasts": [],
+   "example_ko": "I hope you have a good trip.\nI hope she got home safely.",
+   "example_vi": "Chúc bạn có chuyến đi tốt đẹp.\nTôi mong cô ấy đã về nhà an toàn.",
+   "importance": "normal",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 35, pp. 145-147"
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của bài",
+   "body": "• 🎯 Nói điều ước trái với hiện tại, điều tiếc về quá khứ và điều mong người khác thay đổi.\n• 📖 Trong sách: Unit ngữ pháp 35, trang 145–147. Học thẻ ở đây trước, rồi làm các bài tập của Unit trong sách và tự chấm bằng đáp án cuối sách.\n• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai.",
+   "kind": "goal"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Dùng tự nhiên trong Speaking khi nói về điều muốn thay đổi: I wish I had more free time.",
+   "kind": "language"
+  }
+ ],
+ "bank": "b1",
+ "coach": {
+  "focus_vi": [
+   "wish + past simple: Ước điều trái với hiện tại",
+   "wish + past perfect: Tiếc điều đã xảy ra trong quá khứ",
+   "wish + would + V: Mong người khác hoặc sự việc thay đổi (thường là phàn nàn)"
+  ],
+  "watch_out_vi": [
+   "Dùng hiện tại theo nghĩa tiếng Việt: ~~I wish I have~~, ~~I wish I can~~ → I wish I had, I wish I could.",
+   "~~I wish I studied harder last year~~ → I wish I had studied."
+  ]
+ },
+ "exercise_ids": [
+  "B1U35Q1",
+  "B1U35Q2",
+  "B1U35Q3",
+  "B1U35Q4",
+  "B1U35Q5",
+  "B1U35B1",
+  "B1U35B2",
+  "B1U35B3",
+  "B1U35F1",
+  "B1U35F2",
+  "B1U35D1",
+  "B1U35S1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · wish + past simple",
+   "can_do_vi": "Sau buổi này bạn dùng được: ước điều trái với hiện tại; tiếc điều đã xảy ra trong quá khứ.",
+   "use_vi": "Dùng tự nhiên trong Speaking khi nói về điều muốn thay đổi: I wish I had more free time.",
+   "vocab": [
+    "if only",
+    "regret",
+    "hope",
+    "would rather"
+   ],
+   "grammar": [
+    "wish + past simple",
+    "wish + past perfect"
+   ],
+   "check": [
+    "B1U35Q1",
+    "B1U35Q4",
+    "B1U35Q2"
+   ]
+  },
+  {
+   "title_vi": "Buổi 2 · wish + would + V",
+   "can_do_vi": "Sau buổi này bạn dùng được: mong người khác hoặc sự việc thay đổi (thường là phàn nàn); hy vọng điều có thể xảy ra.",
+   "use_vi": "Dùng tự nhiên trong Speaking khi nói về điều muốn thay đổi: I wish I had more free time.",
+   "vocab": [],
+   "grammar": [
+    "wish + would + V",
+    "hope + present / will"
+   ],
+   "check": [
+    "B1U35Q3",
+    "B1U35Q5",
+    "B1U35B1",
+    "B1U35B2",
+    "B1U35B3",
+    "B1U35F1",
+    "B1U35F2",
+    "B1U35D1",
+    "B1U35S1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Tiêu đề và số trang theo mục lục Destination B1 (Mann & Taylore-Knowles, Macmillan). Giải thích, ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
+  }
+ ]
+}
