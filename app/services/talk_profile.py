@@ -72,31 +72,31 @@ BANDS: dict[int, dict[str, str]] = {
 ANSWER_STEPS: dict[int, dict[str, str]] = {
     1: {
         "goal_vi": "trả lời thành một câu trọn (có 저는 … + động từ), không chỉ một từ",
-        "frame_ko": "저는 … 좋아해요 / 해요.",
+        "frame_en": "저는 … 좋아해요 / 해요.",
         "frame_vi": "Nói thành câu: Tôi … thích / làm …",
         "example": "«커피» → «저는 커피를 좋아해요.»",
     },
     2: {
         "goal_vi": "câu trọn + một chi tiết: khi nào, ở đâu hoặc với ai",
-        "frame_ko": "저는 (언제) (어디에서) … 해요.",
+        "frame_en": "저는 (언제) (어디에서) … 해요.",
         "frame_vi": "Thêm khi nào, ở đâu",
         "example": "«커피를 마셔요» → «저는 아침에 집에서 커피를 마셔요.»",
     },
     3: {
         "goal_vi": "câu trọn + lý do (-아서/어서, -기 때문에)",
-        "frame_ko": "… 아서/어서 … 해요.",
+        "frame_en": "… 아서/어서 … 해요.",
         "frame_vi": "Thêm lý do",
         "example": "«아침에 커피를 마셔요» → «아침에 피곤해서 커피를 마셔요.»",
     },
     4: {
         "goal_vi": "ý chính + lý do + ví dụ, 2–3 câu liền",
-        "frame_ko": "저는 … 왜냐하면 … 기 때문이에요. 예를 들어 …",
+        "frame_en": "저는 … 왜냐하면 … 기 때문이에요. 예를 들어 …",
         "frame_vi": "Ý chính, lý do, ví dụ",
         "example": "«저는 커피를 좋아해요. 왜냐하면 집중이 잘 되기 때문이에요. 예를 들어 시험 공부할 때 꼭 마셔요.»",
     },
     5: {
         "goal_vi": "ý kiến + so sánh hoặc giả định + kết luận ngắn",
-        "frame_ko": "제 생각에는 … 보다 … 만약 … 면 … 그래서 …",
+        "frame_en": "제 생각에는 … 보다 … 만약 … 면 … 그래서 …",
         "frame_vi": "Ý kiến, so sánh, kết luận",
         "example": "«제 생각에는 커피보다 차가 더 좋아요. 만약 밤에 마시면 잠을 못 자요. 그래서 저녁에는 차를 마셔요.»",
     },

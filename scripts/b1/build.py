@@ -9,7 +9,7 @@ syllabus only: the unit titles, the page numbers and the lists of words (pp. 184
 explanations, examples, questions and model answers are written for this course, and each lesson
 sends the learner to the book for the book's own exercises.
 
-Field names (`hangul`, `title_ko`, `example_ko`, `prompt_ko`, `model_answer_ko`, `topik_tip_vi`)
+Field names (`headword`, `title_en`, `example_en`, `prompt_en`, `model_answer_en`, `exam_tip_vi`)
 are the Haru schema's, kept until the schema is renamed: here they hold English.
 """
 from __future__ import annotations
@@ -199,7 +199,7 @@ def reading_task(ex_id: str, n: int, sk: dict) -> dict:
         else:
             order = q["options"][:]
             rng(qid).shuffle(order)
-        questions.append({"id": qid, "prompt_ko": q["q"], "options": [{"id": str(j + 1), "text": t} for j, t in enumerate(order)],
+        questions.append({"id": qid, "prompt_en": q["q"], "options": [{"id": str(j + 1), "text": t} for j, t in enumerate(order)],
                           "answer": str(order.index(q["options"][0]) + 1), "explanation_vi": q["why"], "tags": []})
     return {"id": ex_id, "skill": "reading", "type": "read_passage", "title_vi": f"Đọc · Unit {n} · {sk['title']}"[:70],
             "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
@@ -209,9 +209,9 @@ def reading_task(ex_id: str, n: int, sk: dict) -> dict:
 def writing_task(ex_id: str, n: int, sk: dict) -> dict:
     w = sk["w"]
     return {"id": ex_id, "skill": "writing", "type": "write_essay", "number": "W1", "title_vi": f"Viết đoạn ngắn · Unit {n}", "points": 10,
-            "instruction_vi": w["vi"], "limits": {"min": 30, "max": 90}, "prompt_ko": w["en"],
+            "instruction_vi": w["vi"], "limits": {"min": 30, "max": 90}, "prompt_en": w["en"],
             "framework_vi": ["Câu 1: nêu thẳng ý chính (câu chủ đề).", "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.", "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."],
-            "model_answer_ko": w["model"], "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
+            "model_answer_en": w["model"], "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
             "checklist_vi": ["Mỗi câu có đủ chủ ngữ và động từ đã chia.", "Danh từ đếm được số ít có a/an/the; ngôi thứ ba số ít có -s.", "Dùng ít nhất một cấu trúc hoặc ba từ của Unit này.", "Đọc to lại một lần để soát lỗi."]}
 
 
@@ -270,7 +270,7 @@ def write_fill(ex_id: str, title: str, text: str, accepted: list[str], tip: str)
 def speak(ex_id: str, title: str, s: dict, patterns: list[str]) -> dict:
     return {
         "id": ex_id, "skill": "speaking", "type": "speak", "number": "S1", "title_vi": title, "max_points": 9,
-        "prep_sec": 60, "answer_sec": 60, "prompt_ko": s["en"], "prompt_vi": s["vi"],
+        "prep_sec": 60, "answer_sec": 60, "prompt_en": s["en"], "prompt_vi": s["vi"],
         "plan": [
             {"when_vi": "1 phút chuẩn bị", "do_vi": "Ghi ý bằng từ khóa nối nhau bằng mũi tên (ít nhất ba mũi tên), không viết cả câu."},
             {"when_vi": "0–15 giây", "do_vi": "Trả lời thẳng vào câu hỏi bằng một câu."},
@@ -281,7 +281,7 @@ def speak(ex_id: str, title: str, s: dict, patterns: list[str]) -> dict:
             "Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.",
             "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng.",
         ],
-        "patterns_vi": patterns[:4], "model_answer_ko": s["model"],
+        "patterns_vi": patterns[:4], "model_answer_en": s["model"],
     }
 
 
@@ -366,19 +366,19 @@ def grammar_lesson(u: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list
         bank["listening"].append(d)
 
     vocab = [
-        {"hangul": w["head"], "pos": w["pos"], "meaning_vi": w["meaning"], "example_ko": w["ex"][0], "example_vi": w["ex"][1],
+        {"headword": w["head"], "pos": w["pos"], "meaning_vi": w["meaning"], "example_en": w["ex"][0], "example_vi": w["ex"][1],
          "family": "Từ khóa của bài", "priority": "core", "source": f"Haru English · B1 Unit {n}"}
         for w in u["words"]
     ]
     grammar = []
     for c in u["cards"]:
         g = {"pattern": c["pattern"], "meaning_vi": c["meaning"], "usage_context_vi": c["use"], "contrasts": c["vs"],
-             "example_ko": "\n".join(e for e, _ in c["ex"]), "example_vi": "\n".join(v for _, v in c["ex"]),
+             "example_en": "\n".join(e for e, _ in c["ex"]), "example_vi": "\n".join(v for _, v in c["ex"]),
              "importance": c["importance"], "source": f"{BOOK}, Unit {n}, pp. {u['pages']}"}
         if c["trap"]:
             g["note_vi"] = "Lỗi người Việt hay mắc: " + c["trap"]
         if c["tip"]:
-            g["topik_tip_vi"] = c["tip"]
+            g["exam_tip_vi"] = c["tip"]
         grammar.append(g)
 
     # sittings: at most three cards each; the key words go with the first; each sitting closes with its cards' questions
@@ -400,7 +400,7 @@ def grammar_lesson(u: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list
     traps = [c["trap"] for c in u["cards"] if c["trap"] and len(c["trap"]) <= 230 and c["trap"].count("`") % 2 == 0]
     lesson = {
         "slug": f"b1-u{n:02d}-{slugify(u['title'])}"[:60].rstrip("-"),
-        "title": f"Unit {n} · {u['title_vi']}", "title_ko": u["title"], "topic": TOPIC, "track": "beginner", "level": 3, "sort_order": n,
+        "title": f"Unit {n} · {u['title_vi']}", "title_en": u["title"], "topic": TOPIC, "track": "beginner", "level": 3, "sort_order": n,
         "summary": f"{u['goal']} Ngữ pháp: {'; '.join(patterns)}.",
         "vocab": vocab, "grammar": grammar,
         "notes": [goal_note(u, False), {"title": "Dùng ở đâu trong IELTS", "body": u["ielts"], "kind": "language"}],
@@ -422,15 +422,15 @@ def vocab_lesson(u: dict, topic: list[dict], trays: dict[str, list[dict]], unver
     seen: dict[str, dict] = {}
 
     def add(card: dict) -> None:
-        seen[card["hangul"]] = card
+        seen[card["headword"]] = card
         vocab.append(card)
 
     for w in topic:
-        add({"hangul": w["head"], "pos": w["pos"], "meaning_vi": w["meaning"], "family": "1 · Topic vocabulary",
+        add({"headword": w["head"], "pos": w["pos"], "meaning_vi": w["meaning"], "family": "1 · Topic vocabulary",
              "priority": "recognize" if w["recognize"] else "core", "source": src + "; word list pp. 184–201"})
     for kind, fam, pos in (("PV", "2 · Phrasal verbs", "V"), ("PP", "3 · Prepositional phrases", "X"), ("WP", "4 · Word patterns", "X")):
         for it in trays[kind]:
-            add({"hangul": it["head"], "pos": pos, "meaning_vi": it["meaning"], "example_ko": plain(it["en"]), "example_vi": it["vi"],
+            add({"headword": it["head"], "pos": pos, "meaning_vi": it["meaning"], "example_en": plain(it["en"]), "example_vi": it["vi"],
                  "family": fam, "priority": "core", "source": src})
     wf_cards = []
     for it in trays["WF"]:
@@ -438,7 +438,7 @@ def vocab_lesson(u: dict, topic: list[dict], trays: dict[str, list[dict]], unver
         if it["head"] in seen:  # the base is already a topic word of this unit: its forms go on that card
             seen[it["head"]]["note_vi"] = "Họ từ: " + forms
             continue
-        card = {"hangul": it["head"], "pos": it["pos"], "meaning_vi": it["meaning"], "note_vi": "Họ từ: " + forms,
+        card = {"headword": it["head"], "pos": it["pos"], "meaning_vi": it["meaning"], "note_vi": "Họ từ: " + forms,
                 "family": "5 · Word formation", "priority": "core", "source": src + "; word formation pp. 212–216"}
         add(card)
         wf_cards.append(it)
@@ -530,7 +530,7 @@ def vocab_lesson(u: dict, topic: list[dict], trays: dict[str, list[dict]], unver
     if unverified:
         editor.append({"title": "Cần đối chiếu với sách", "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: " + ", ".join(unverified) + "."})
     lesson = {
-        "slug": f"b1-u{n:02d}-{slugify(u['title'])}", "title": f"Unit {n} · {u['title_vi']}", "title_ko": u["title"], "topic": TOPIC,
+        "slug": f"b1-u{n:02d}-{slugify(u['title'])}", "title": f"Unit {n} · {u['title_vi']}", "title_en": u["title"], "topic": TOPIC,
         "track": "beginner", "level": 3, "sort_order": n,
         "summary": f"{u['goal']} {len(topic)} từ chủ đề, {len(trays['PV'])} cụm động từ, {len(trays['PP'])} cụm giới từ, {len(trays['WP'])} mẫu giới từ, {len(trays['WF'])} họ từ.",
         "vocab": vocab, "notes": notes, "bank": "b1",

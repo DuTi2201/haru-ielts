@@ -119,7 +119,7 @@ def save(db: Session, key: str, text: str, voice: str, prompt_version: str, prod
         db.commit()
         return existing
     row = TextAudio(
-        cache_key=key, text_ko=text, voice=voice, prompt_version=prompt_version, provider=provider,
+        cache_key=key, text_en=text, voice=voice, prompt_version=prompt_version, provider=provider,
         duration_sec=duration, opus_bytes=len(opus), aac_bytes=len(aac), **_file_away(key, opus, aac),
     )
     db.add(row)

@@ -67,7 +67,7 @@ class Question(seed._M):
 class PassageSeed(seed._M):
     id: str
     kind: Literal["dialogue", "reading"]
-    title_ko: str = Field(min_length=1, max_length=80)
+    title_en: str = Field(min_length=1, max_length=80)
     title_vi: str = Field(min_length=1, max_length=120)
     scene_vi: str | None = None  # a dialogue: where and who
     speakers: dict[str, str] | None = None  # a dialogue: {"F": name, "M": name}
@@ -96,7 +96,7 @@ class Passage:
     id: str
     lesson: str  # slug
     kind: str
-    title_ko: str
+    title_en: str
     title_vi: str
     scene_vi: str | None
     speakers: dict[str, str]
@@ -107,7 +107,7 @@ class Passage:
     questions: tuple[Question, ...]
 
     @property
-    def text_ko(self) -> str:
+    def text_en(self) -> str:
         """The whole text as one string (what a reading is voiced from)."""
         return " ".join(line.ko.strip() for line in self.lines)
 
@@ -137,7 +137,7 @@ def load(directory: Path = PASSAGE_DIR) -> tuple[list[Passage], list[str]]:
                     id=it.id,
                     lesson=doc.lesson,
                     kind=it.kind,
-                    title_ko=it.title_ko,
+                    title_en=it.title_en,
                     title_vi=it.title_vi,
                     scene_vi=it.scene_vi,
                     speakers=dict(it.speakers or {}),
@@ -228,7 +228,7 @@ def lesson_infos(lessons: Iterable) -> dict[str, LessonInfo]:
             r.seed.slug,
             r.seed.sort_order,
             frozenset(g.pattern for g in r.seed.grammar),
-            frozenset(v.hangul for v in r.seed.vocab),
+            frozenset(v.headword for v in r.seed.vocab),
             r.seed.split_from or r.seed.slug,
         )
         for r in lessons
@@ -269,7 +269,7 @@ def check(passages: Sequence[Passage], infos: Mapping[str, LessonInfo]) -> list[
         allowed = allowed_slugs(p.lesson, infos.keys())
         known_patterns = set().union(*(infos[s].patterns for s in allowed))
         known_vocab = set().union(*(infos[s].vocab for s in allowed))
-        text = p.text_ko
+        text = p.text_en
         flat = _squash(text)
 
         # -- lines
@@ -356,8 +356,8 @@ def check(passages: Sequence[Passage], infos: Mapping[str, LessonInfo]) -> list[
                 problems.append(f"{label} question {n}: two options are the same")
             if not 0 <= q.answer < len(q.options):
                 problems.append(f"{label} question {n}: the answer is not one of the options")
-        if not re.search(r"[가-힣]", p.title_ko):
-            problems.append(f"{label}: title_ko has no Korean")
+        if not re.search(r"[가-힣]", p.title_en):
+            problems.append(f"{label}: title_en has no Korean")
         if not flat:
             problems.append(f"{label}: no text")
     return problems

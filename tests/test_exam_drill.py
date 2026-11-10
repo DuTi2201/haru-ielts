@@ -13,8 +13,8 @@ DAY = timedelta(days=1)
 
 def cand(n, qtype="read_blank", **kw):
     base = dict(
-        item_id=uuid.UUID(int=n), number=n, qtype_code=qtype, stem_ko=f"( ) 문제 {n}", options=["가", "나", "다", "라"],
-        answer=2, answer_source="editor", skill="đọc", passage_kind=None, passage_ko=None,
+        item_id=uuid.UUID(int=n), number=n, qtype_code=qtype, stem_en=f"( ) 문제 {n}", options=["가", "나", "다", "라"],
+        answer=2, answer_source="editor", skill="đọc", passage_kind=None, passage_en=None,
     )
     return Candidate(**{**base, **kw})
 
@@ -48,12 +48,12 @@ class UsableTests(unittest.TestCase):
             self.assertFalse(exam_drill.usable(cand(1, options=bad, answer=1)), bad)
 
     def test_a_blank_stem_is_not_usable(self):
-        self.assertFalse(exam_drill.usable(cand(1, stem_ko="  ")))
+        self.assertFalse(exam_drill.usable(cand(1, stem_en="  ")))
 
     def test_a_passage_question_needs_its_passage_text(self):
         self.assertFalse(exam_drill.usable(cand(1, qtype="read_short_passage")))
-        self.assertFalse(exam_drill.usable(cand(1, qtype="read_chart_info", passage_ko=" ")))
-        self.assertTrue(exam_drill.usable(cand(1, qtype="read_short_passage", passage_ko="글")))
+        self.assertFalse(exam_drill.usable(cand(1, qtype="read_chart_info", passage_en=" ")))
+        self.assertTrue(exam_drill.usable(cand(1, qtype="read_short_passage", passage_en="글")))
 
     def test_clean_options_trims(self):
         self.assertEqual(exam_drill.clean_options([" 가 ", "나"]), ["가", "나"])

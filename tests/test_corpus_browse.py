@@ -30,7 +30,7 @@ def sentence(n: int, text: str, *, film=1, level=2, register="존댓말", topics
     return Sentence(
         id=uuid.UUID(int=n),
         film_id=film,
-        text_ko=text,
+        text_en=text,
         kind="câu",
         level=level,
         register=register,
@@ -237,7 +237,7 @@ class CorpusEndpointTests(unittest.IsolatedAsyncioTestCase):
 
     async def test_browse_filters_and_fills_in_names(self):
         out = await content.browse_corpus(FakeDB(), level=1, register="반말")
-        self.assertEqual([i.text_ko for i in out.items], ["나에겐 계획이 있다."])
+        self.assertEqual([i.text_en for i in out.items], ["나에겐 계획이 있다."])
         self.assertEqual(out.total, 1)
         item = out.items[0]
         self.assertEqual((item.film_title, item.register), ("Phim A", "반말"))
@@ -251,7 +251,7 @@ class CorpusEndpointTests(unittest.IsolatedAsyncioTestCase):
             corpus_row(2, "기다려", register="반말"),  # not enriched yet: both are null, not missing
         ]
         out = await content.browse_corpus(FakeDB(rows=rows), seed="s")
-        by_text = {i.text_ko: i for i in out.items}
+        by_text = {i.text_en: i for i in out.items}
         self.assertEqual(by_text["기다려요."].meaning_vi, "Tôi đợi đây.")
         self.assertEqual(by_text["기다려요."].usage_note_vi, "Lịch sự, dùng với người lớn.")
         self.assertIsNone(by_text["기다려"].meaning_vi)
@@ -280,7 +280,7 @@ class CorpusEndpointTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual((out.total, out.items), (4, []))
 
     async def test_similar_skips_repeats_and_the_sentence_itself(self):
-        target = SimpleNamespace(text_ko="기다려요.", embedding=[0.1, 0.2])
+        target = SimpleNamespace(text_en="기다려요.", embedding=[0.1, 0.2])
         near = [
             (uuid.UUID(int=2), 0.05),  # a stored copy that dedupe removed
             (uuid.UUID(int=3), 0.01),  # the target's own text under another id
@@ -288,11 +288,11 @@ class CorpusEndpointTests(unittest.IsolatedAsyncioTestCase):
             (uuid.UUID(int=4), 0.3),
         ]
         out = await content.similar_corpus_items(uuid.UUID(int=3), FakeDB(similar=near, target=target), limit=2)
-        self.assertEqual([i.text_ko for i in out], ["나에겐 계획이 있다.", "집은 이미 감염되었습니다."])
+        self.assertEqual([i.text_en for i in out], ["나에겐 계획이 있다.", "집은 이미 감염되었습니다."])
         self.assertEqual([i.distance for i in out], [0.2, 0.3])
 
     async def test_similar_without_an_embedding_is_empty_and_unknown_id_is_404(self):
-        no_vec = SimpleNamespace(text_ko="기다려요.", embedding=None)
+        no_vec = SimpleNamespace(text_en="기다려요.", embedding=None)
         self.assertEqual(await content.similar_corpus_items(uuid.UUID(int=3), FakeDB(target=no_vec)), [])
         with self.assertRaises(HTTPException) as ctx:
             await content.similar_corpus_items(uuid.UUID(int=99), FakeDB(target=None))

@@ -54,7 +54,7 @@ class Scenario:
     learner_role_vi: str
     haru_role_vi: str
     learner_goal_vi: str
-    opener_ko: str  # what Haru says first (or the motion / the flawed claim)
+    opener_en: str  # what Haru says first (or the motion / the flawed claim)
     secret: str = ""  # only in Haru's instruction: its limit / the flaw
     flaw_vi: str = ""  # critique: named in the report, not before
     sides: tuple[str, str] = ("찬성", "반대")
@@ -64,7 +64,7 @@ class Scenario:
             "id": self.id, "kind": self.kind, "tier": self.tier, "title_vi": self.title_vi,
             "situation_vi": self.situation_vi, "learner_role_vi": self.learner_role_vi,
             "haru_role_vi": self.haru_role_vi, "learner_goal_vi": self.learner_goal_vi,
-            "opener_ko": self.opener_ko if self.kind != "critique" else "",
+            "opener_en": self.opener_en if self.kind != "critique" else "",
             "sides": list(self.sides) if self.kind == "debate" else [],
         }
 
@@ -234,7 +234,7 @@ class Setup:
     scenario: Scenario
     band: int
     level_rules: str
-    side_ko: str | None = None  # debate: the learner's side
+    side_en: str | None = None  # debate: the learner's side
     known: list[str] = field(default_factory=list)
 
 
@@ -259,10 +259,10 @@ Các mẫu câu học viên đang luyện (khen ngắn khi họ dùng đúng): {
     if s.known:
         common += f"\nNgữ pháp học viên đã học (dùng chủ yếu trong phạm vi này): {', '.join(s.known[:20])}"
     if sc.kind == "debate":
-        side = s.side_ko or "찬성"
+        side = s.side_en or "찬성"
         other = "반대" if side == "찬성" else "찬성"
         role = f"""
-TRANH LUẬN. Chủ đề: «{sc.opener_ko}». Học viên bên {side}; BẠN bên {other}.
+TRANH LUẬN. Chủ đề: «{sc.opener_en}». Học viên bên {side}; BẠN bên {other}.
 - Mở đầu: chào ngắn, nói chủ đề, mời học viên nêu lập trường và lý do trước.
 - Sau đó mỗi lượt: đáp vào ĐÚNG ý học viên vừa nói (công nhận nếu hay, rồi phản bác) và đưa một luận điểm của bên {other}.
 - Khi học viên chỉ nói một câu chung chung: hỏi "왜요?" / "예를 들면요?" / "근거가 뭐예요?" theo mức.
@@ -272,12 +272,12 @@ TRANH LUẬN. Chủ đề: «{sc.opener_ko}». Học viên bên {side}; BẠN b�
 ĐÀM PHÁN NHẬP VAI. Tình huống: {sc.situation_vi}
 Vai của bạn: {sc.haru_role_vi}. Vai của học viên: {sc.learner_role_vi} — mục tiêu của họ: {sc.learner_goal_vi}
 GIỚI HẠN BÍ MẬT CỦA BẠN (không bao giờ nói ra con số hay điều kiện này trực tiếp): {sc.secret}
-- Mở đầu bằng đúng câu: «{sc.opener_ko}»
+- Mở đầu bằng đúng câu: «{sc.opener_en}»
 - Nhượng từng bước nhỏ, chỉ khi có lý do/điều kiện/đổi chác; không vượt giới hạn bí mật.
 - Khi đạt thoả thuận: nhắc lại điều khoản đã chốt bằng một câu rõ ràng rồi cảm ơn. Không đạt thì kết thúc lịch sự."""
     else:
         role = f"""
-PHẢN BIỆN. Bạn đóng vai {sc.haru_role_vi} và bảo vệ khẳng định này: «{sc.opener_ko}»
+PHẢN BIỆN. Bạn đóng vai {sc.haru_role_vi} và bảo vệ khẳng định này: «{sc.opener_en}»
 LỖ HỔNG ĐƯỢC CÀI SẴN (không tự nói ra): {sc.secret}
 - Mở đầu: trình bày khẳng định trên một cách tự tin, rồi hỏi học viên nghĩ sao.
 - Bảo vệ khẳng định bằng lý lẽ yếu nhưng nghe có vẻ hợp lý; khi học viên chỉ ra đúng lỗ hổng thì công nhận rõ ("맞아요, 그 부분은 제가 놓쳤네요") rồi đưa phản bác tiếp theo yếu hơn.
@@ -316,21 +316,21 @@ def report_schema(kind: str) -> dict[str, Any]:
             "score_notes_vi": {"type": "object", "properties": {k: {"type": "string"} for k in keys}, "required": keys},
             "best_move": {
                 "type": "object",
-                "properties": {"said_ko": {"type": "string"}, "why_vi": {"type": "string"}},
-                "required": ["said_ko", "why_vi"],
+                "properties": {"said_en": {"type": "string"}, "why_vi": {"type": "string"}},
+                "required": ["said_en", "why_vi"],
             },
             "missed": {
                 "type": "array",
                 "items": {
                     "type": "object",
                     "properties": {
-                        "haru_said_ko": {"type": "string"},
-                        "you_said_ko": {"type": "string"},
-                        "better_ko": {"type": "string"},
+                        "haru_said_en": {"type": "string"},
+                        "you_said_en": {"type": "string"},
+                        "better_en": {"type": "string"},
                         "better_vi": {"type": "string"},
                         "why_vi": {"type": "string"},
                     },
-                    "required": ["haru_said_ko", "you_said_ko", "better_ko", "better_vi", "why_vi"],
+                    "required": ["haru_said_en", "you_said_en", "better_en", "better_vi", "why_vi"],
                 },
             },
             "phrases_used": {"type": "array", "items": {"type": "string"}},
@@ -357,9 +357,9 @@ def build_report_prompt(s: Setup, turns: list[dict[str, str]]) -> str:
     lines = "\n".join(f"{'Haru' if x['role'] == 'haru' else 'Học viên'}: {x['text']}" for x in turns)
     rubric = "\n".join(f"  {k} ({CRITERIA[sc.kind][k]}) — mức 4 ở bậc này: {RUBRIC[sc.kind][t][k]}" for k in CRITERIA[sc.kind])
     extra = {
-        "debate": f"Học viên bên {s.side_ko or '찬성'} của chủ đề «{sc.opener_ko}».",
+        "debate": f"Học viên bên {s.side_en or '찬성'} của chủ đề «{sc.opener_en}».",
         "negotiate": f"Mục tiêu của học viên: {sc.learner_goal_vi} Giới hạn bí mật của Haru: {sc.secret}",
-        "critique": f"Khẳng định của Haru: «{sc.opener_ko}». Lỗ hổng cài sẵn: {sc.secret}",
+        "critique": f"Khẳng định của Haru: «{sc.opener_en}». Lỗ hổng cài sẵn: {sc.secret}",
     }[sc.kind]
     return f"""Bạn là huấn luyện viên kỹ năng {KINDS[sc.kind].lower()} bằng tiếng Hàn cho người Việt. Đây là bản ghi một buổi nhập vai bằng giọng nói (bản chép tự động, có thể sai chính tả nhỏ).
 {s.level_rules}
@@ -373,8 +373,8 @@ Trả về (mọi lời giải thích bằng tiếng Việt, nói thẳng với 
 - scores: 1–5 theo THANG CỦA BẬC NÀY (đạt đúng mô tả = 4, vượt rõ = 5, thiếu một chút = 3, thiếu nhiều = 2, gần như không có = 1). Không so với người bản xứ.
 {rubric}
 - score_notes_vi: mỗi tiêu chí 1 câu, dẫn chứng từ lời học viên.
-- best_move: câu hay nhất học viên đã nói (said_ko, nguyên văn) và vì sao hay.
-- missed: 2–3 thời điểm QUAN TRỌNG NHẤT học viên có thể đáp tốt hơn: haru_said_ko = câu Haru, you_said_ko = câu học viên đã đáp (nguyên văn, rỗng nếu im lặng), better_ko = câu đáp tốt hơn ĐÚNG TRÌNH ĐỘ (ưu tiên mẫu câu: {', '.join(k for k, _ in _phrases(sc.kind, t))}), better_vi = nghĩa, why_vi = vì sao tốt hơn (kỹ năng gì: phản bác trực tiếp, đưa bằng chứng, đề nghị đổi lại, hỏi căn cứ…).
+- best_move: câu hay nhất học viên đã nói (said_en, nguyên văn) và vì sao hay.
+- missed: 2–3 thời điểm QUAN TRỌNG NHẤT học viên có thể đáp tốt hơn: haru_said_en = câu Haru, you_said_en = câu học viên đã đáp (nguyên văn, rỗng nếu im lặng), better_en = câu đáp tốt hơn ĐÚNG TRÌNH ĐỘ (ưu tiên mẫu câu: {', '.join(k for k, _ in _phrases(sc.kind, t))}), better_vi = nghĩa, why_vi = vì sao tốt hơn (kỹ năng gì: phản bác trực tiếp, đưa bằng chứng, đề nghị đổi lại, hỏi căn cứ…).
 - phrases_used: những mẫu câu ở trên học viên thực sự đã dùng.
 - fixes: tối đa 3 lỗi ngôn ngữ đáng sửa nhất (said, better, why_vi).
 - goal_reached: đàm phán — đạt mục tiêu chưa; loại khác — đặt true nếu học viên giữ được lập trường đến cuối.
@@ -412,10 +412,10 @@ def parse_report(text: str, kind: str) -> dict[str, Any]:
         "scores": scores,
         "score_notes_vi": {k: s(notes.get(k), 300) for k in keys},
         "overall": round(sum(scores.values()) / len(scores), 1),
-        "best_move": {"said_ko": s(best.get("said_ko"), 300), "why_vi": s(best.get("why_vi"), 300)},
+        "best_move": {"said_en": s(best.get("said_en"), 300), "why_vi": s(best.get("why_vi"), 300)},
         "missed": [
-            {k: s(m.get(k), 400) for k in ("haru_said_ko", "you_said_ko", "better_ko", "better_vi", "why_vi")}
-            for m in raw.get("missed") or [] if isinstance(m, dict) and s(m.get("better_ko"))
+            {k: s(m.get(k), 400) for k in ("haru_said_en", "you_said_en", "better_en", "better_vi", "why_vi")}
+            for m in raw.get("missed") or [] if isinstance(m, dict) and s(m.get("better_en"))
         ][:3],
         "phrases_used": [s(p, 80) for p in raw.get("phrases_used") or [] if s(p, 80)][:8],
         "fixes": [

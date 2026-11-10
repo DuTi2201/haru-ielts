@@ -5,8 +5,8 @@ from types import SimpleNamespace
 from app.services.exercises import BLANK, MAX_CHOICES, MIN_CHOICES, build_cloze
 
 
-def card(id, hangul, **kw):
-    base = dict(id=id, hangul=hangul, pos=None, example_ko=None, family=None, node_word=None, distractors=None, lesson_id=1)
+def card(id, headword, **kw):
+    base = dict(id=id, headword=headword, pos=None, example_en=None, family=None, node_word=None, distractors=None, lesson_id=1)
     return SimpleNamespace(**{**base, **kw})
 
 
@@ -22,7 +22,7 @@ ALL = [RAIN, SNOW, WIND, FLOWER, LEAVES]
 class ChunkClozeTests(unittest.TestCase):
     def test_the_node_word_is_blanked_and_is_the_answer(self):
         q = build_cloze(RAIN, ALL, "s")
-        self.assertEqual((q.prompt_ko, q.answer), (f"비가 {BLANK}", "오다"))
+        self.assertEqual((q.prompt_en, q.answer), (f"비가 {BLANK}", "오다"))
         self.assertIn("오다", q.choices)
 
     def test_the_cards_own_distractors_come_first_then_the_familys_other_verbs(self):
@@ -63,13 +63,13 @@ class ChunkClozeTests(unittest.TestCase):
     def test_the_prompt_keeps_the_rest_of_the_phrase(self):
         card_ = card(1, "우산을 가지고 오다", node_word="가지고 오다", distractors=["쓰다", "들다"])
         q = build_cloze(card_, [card_], "s")
-        self.assertEqual(q.prompt_ko, f"우산을 {BLANK}")
+        self.assertEqual(q.prompt_en, f"우산을 {BLANK}")
 
 
 class ExampleClozeTests(unittest.TestCase):
-    NOUN = card(10, "날씨", pos="명사", example_ko="오늘 날씨가 좋아요.")
+    NOUN = card(10, "날씨", pos="명사", example_en="오늘 날씨가 좋아요.")
     OTHERS = [
-        card(11, "기온", pos="명사", example_ko="기온이 높아요."),
+        card(11, "기온", pos="명사", example_en="기온이 높아요."),
         card(12, "하늘", pos="명사"),
         card(13, "바람", pos="명사"),
         card(14, "맑다", pos="형용사"),
@@ -77,7 +77,7 @@ class ExampleClozeTests(unittest.TestCase):
 
     def test_a_word_found_verbatim_in_its_example_is_blanked(self):
         q = build_cloze(self.NOUN, [self.NOUN, *self.OTHERS], "s")
-        self.assertEqual((q.prompt_ko, q.answer), (f"오늘 {BLANK}가 좋아요.", "날씨"))
+        self.assertEqual((q.prompt_en, q.answer), (f"오늘 {BLANK}가 좋아요.", "날씨"))
         self.assertEqual(sorted(q.choices), sorted(["날씨", "기온", "하늘", "바람"]))  # same part of speech only
 
     def test_a_word_of_another_part_of_speech_is_never_offered(self):
@@ -85,18 +85,18 @@ class ExampleClozeTests(unittest.TestCase):
         self.assertNotIn("맑다", q.choices)
 
     def test_without_a_part_of_speech_there_is_no_safe_pool(self):
-        bare = card(10, "날씨", example_ko="오늘 날씨가 좋아요.")
+        bare = card(10, "날씨", example_en="오늘 날씨가 좋아요.")
         self.assertIsNone(build_cloze(bare, [bare, *self.OTHERS], "s"))
 
     def test_a_conjugated_verb_is_matched_by_its_stem_when_the_stem_is_long_enough(self):
-        verb = card(20, "따뜻하다", pos="형용사", example_ko="날씨가 따뜻하고 좋아요.")
+        verb = card(20, "따뜻하다", pos="형용사", example_en="날씨가 따뜻하고 좋아요.")
         mates = [verb, card(21, "선선하다", pos="형용사"), card(22, "쌀쌀하다", pos="형용사"), card(23, "시원하다", pos="형용사")]
         q = build_cloze(verb, mates, "s")
-        self.assertEqual((q.prompt_ko, q.answer), (f"날씨가 {BLANK}고 좋아요.", "따뜻하"))
+        self.assertEqual((q.prompt_en, q.answer), (f"날씨가 {BLANK}고 좋아요.", "따뜻하"))
         self.assertEqual(sorted(q.choices), sorted(["따뜻하", "선선하", "쌀쌀하", "시원하"]))
 
     def test_a_short_stem_is_not_matched_by_accident(self):
-        verb = card(30, "오다", pos="동사", example_ko="비가 와요, 오늘은 오후에 와요.")
+        verb = card(30, "오다", pos="동사", example_en="비가 와요, 오늘은 오후에 와요.")
         mates = [verb, card(31, "가다", pos="동사"), card(32, "먹다", pos="동사"), card(33, "보다", pos="동사")]
         self.assertIsNone(build_cloze(verb, mates, "s"))
 
@@ -105,7 +105,7 @@ class ExampleClozeTests(unittest.TestCase):
         self.assertIsNone(build_cloze(bare, [bare, *self.OTHERS], "s"))
 
     def test_a_mate_already_in_the_sentence_is_not_a_wrong_choice(self):
-        noun = card(50, "날씨", pos="명사", example_ko="날씨가 좋고 기온도 높아요.")
+        noun = card(50, "날씨", pos="명사", example_en="날씨가 좋고 기온도 높아요.")
         mates = [noun, card(51, "기온", pos="명사"), card(52, "하늘", pos="명사"), card(53, "바람", pos="명사")]
         q = build_cloze(noun, mates, "s")
         self.assertNotIn("기온", q.choices)  # it is right there in the sentence

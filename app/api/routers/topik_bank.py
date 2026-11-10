@@ -178,7 +178,7 @@ async def present_bank_deck(
     handoff = presentation.bank_handoff(
         body.kind,
         deck.title_vi,
-        [{"id": v.id, "hangul": v.hangul, "meaning_vi": v.meaning_vi, "example_ko": v.example_ko} for v in words],
+        [{"id": v.id, "headword": v.headword, "meaning_vi": v.meaning_vi, "example_en": v.example_en} for v in words],
     )
     return await presentation_router.create_round(
         db,

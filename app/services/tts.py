@@ -331,7 +331,7 @@ def _tts_models() -> list[str]:
     return models
 
 
-def synthesize_korean_tts(text_ko: str, voice: str = "ko-female-1") -> tuple[bytes, bytes, int]:
+def synthesize_korean_tts(text_en: str, voice: str = "ko-female-1") -> tuple[bytes, bytes, int]:
     """Returns (opus_bytes, aac_bytes, duration_sec). Raises RuntimeError on
     any failure (missing key, empty/blocked response, ffmpeg error) — the
     caller (a Celery task) turns that into a job.failed row, same as every
@@ -346,17 +346,17 @@ def synthesize_korean_tts(text_ko: str, voice: str = "ko-female-1") -> tuple[byt
     synthesize_article_tts instead."""
     if not settings.GEMINI_API_KEY:
         raise RuntimeError("GEMINI_API_KEY is not set")
-    text_ko = text_ko.strip()
-    if not text_ko:
-        raise RuntimeError("empty text_ko")
+    text_en = text_en.strip()
+    if not text_en:
+        raise RuntimeError("empty text_en")
 
     client = _get_client()
     config, voice_name = _tts_config(voice)
     models_to_try = _tts_models()
-    chunks = _split_for_tts(text_ko, _MAX_TTS_CHARS)
+    chunks = _split_for_tts(text_en, _MAX_TTS_CHARS)
     pcm_parts: list[bytes] = []
     sample_rate = 24000
-    print(f"[tts] chars={len(text_ko)} chunks={len(chunks)} voice={voice_name}", flush=True)
+    print(f"[tts] chars={len(text_en)} chunks={len(chunks)} voice={voice_name}", flush=True)
     for chunk in chunks:
         pcm, sample_rate = _synthesize_chunk_pcm(client, chunk, config, models_to_try)
         pcm_parts.append(pcm)
@@ -439,7 +439,7 @@ def synthesize_article_tts(
         raise RuntimeError("GEMINI_API_KEY is not set")
     plan = plan_article_chunks(text)
     if not plan:
-        raise RuntimeError("empty text_ko")
+        raise RuntimeError("empty text_en")
 
     client = _get_client()
     config, voice_name = _tts_config(voice)
@@ -550,7 +550,7 @@ def synthesize_article_chirp(
         raise RuntimeError("TTS_GG_Chirp is not set")
     plan = plan_article_chunks(text, google_tts.CHUNK_CHARS, _CHIRP_ARTICLE_MAX_CHARS)
     if not plan:
-        raise RuntimeError("empty text_ko")
+        raise RuntimeError("empty text_en")
     print(
         f"[tts] article provider=google-chirp spec={google_tts.spec()} chars={len(text)} chunks={len(plan)}",
         flush=True,
@@ -632,7 +632,7 @@ def synthesize_article_chirp_timed(
         cross_paragraph=False,
     )
     if not chunks:
-        raise RuntimeError("empty text_ko")
+        raise RuntimeError("empty text_en")
     print(
         f"[tts] article provider=google-chirp spec={google_tts.spec()} units={len(units)} chunks={len(chunks)} timed=1",
         flush=True,
@@ -666,7 +666,7 @@ def synthesize_article_tts_timed(
         cross_paragraph=True,
     )
     if not chunks:
-        raise RuntimeError("empty text_ko")
+        raise RuntimeError("empty text_en")
     client = _get_client()
     config, voice_name = _tts_config(voice)
     models_to_try = _tts_models()
@@ -1021,14 +1021,14 @@ def _azure_chunk_pcm(text: str, voice: str) -> tuple[bytes, int]:
         raise TransientTTSError(str(exc)) from exc
 
 
-def synthesize_korean_with_provider(text_ko: str, voice: str = "ko-female-1") -> tuple[bytes, bytes, int, str]:
+def synthesize_korean_with_provider(text_en: str, voice: str = "ko-female-1") -> tuple[bytes, bytes, int, str]:
     """Same as `synthesize_korean_tts_chirp_first`, and also says who voiced it: "azure" (when
     configured, the Korean voice with the NIKL pronunciation table), "chirp" or "gemini"
     (the fallback). A caller that files the recording keeps this, so a fallback one is replaced by
     a Chirp one the next time the text is asked for."""
-    text = text_ko.strip()
+    text = text_en.strip()
     if not text:
-        raise RuntimeError("empty text_ko")
+        raise RuntimeError("empty text_en")
     if azure_tts.is_configured():
         try:
             pcm, rate = _retry_transient(lambda t: _azure_chunk_pcm(t, voice), text)
@@ -1049,9 +1049,9 @@ def synthesize_korean_with_provider(text_ko: str, voice: str = "ko-female-1") ->
             raise RuntimeError(f"Giọng đọc gặp lỗi ({reason}); giọng dự phòng cũng lỗi: {gem_exc}") from gem_exc
 
 
-def synthesize_korean_tts_chirp_first(text_ko: str, voice: str = "ko-female-1") -> tuple[bytes, bytes, int]:
+def synthesize_korean_tts_chirp_first(text_en: str, voice: str = "ko-female-1") -> tuple[bytes, bytes, int]:
     """Korean-ONLY text (a lesson passage, one listening sentence, one word):
     Google Chirp 3 HD when configured, Gemini when it is not or when Chirp
     fails. Not for the podcast script — that mixes in Vietnamese, which a
     ko-KR voice cannot read; it uses synthesize_lecture_chirp."""
-    return synthesize_korean_with_provider(text_ko, voice)[:3]
+    return synthesize_korean_with_provider(text_en, voice)[:3]

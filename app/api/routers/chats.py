@@ -25,7 +25,7 @@ router = APIRouter(tags=["chats"])
 
 class ChatSummaryOut(BaseModel):
     id: str
-    title_ko: str
+    title_en: str
     title_vi: str
     scene_vi: str | None = None
     partner: str  # who the learner talks to
@@ -48,7 +48,7 @@ class ChatTurnOut(BaseModel):
 
 class ChatOut(BaseModel):
     id: str
-    title_ko: str
+    title_en: str
     title_vi: str
     scene_vi: str | None = None
     partner: str
@@ -104,7 +104,7 @@ async def list_chats(
                 order or 9999,
                 ChatSummaryOut(
                     id=p.id,
-                    title_ko=p.title_ko,
+                    title_en=p.title_en,
                     title_vi=p.title_vi,
                     scene_vi=p.scene_vi,
                     partner=p.speakers.get("F" if me == "M" else "M", ""),
@@ -136,7 +136,7 @@ async def get_chat(
         lesson_id=lesson[0] if lesson else None,
         lesson_title=lesson[1] if lesson else "",
         id=p.id,
-        title_ko=p.title_ko,
+        title_en=p.title_en,
         title_vi=p.title_vi,
         scene_vi=p.scene_vi,
         partner=p.speakers.get("F" if me == "M" else "M", ""),

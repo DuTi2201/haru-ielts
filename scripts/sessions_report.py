@@ -16,6 +16,6 @@ for r in load_all().lessons:
     print(f"{s.slug[:44]:44} leftover {len(left)} items/{sum(nq(i) for i in left)} q")
     for x in s.sessions:
         cq = sum(nq(items[i]) for i in x.check)
-        core = sum(1 for w in x.vocab if any(v.hangul == w and v.priority == 'core' for v in s.vocab))
+        core = sum(1 for w in x.vocab if any(v.headword == w and v.priority == 'core' for v in s.vocab))
         flag = "  <-- no check" if cq == 0 else ""
         print(f"   {x.title_vi[:46]:46} words {len(x.vocab):2} (core {core:2}) cards {len(x.grammar)} check {cq}q{flag}")

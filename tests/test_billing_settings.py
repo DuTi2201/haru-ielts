@@ -192,12 +192,12 @@ class FeatureTests(SettingsCase):
     async def test_the_presentation_trial_counts_tries_for_life(self):
         learner = await self.new_profile()
         async with self.factory() as db:
-            db.add(PresentationSession(learner_id=learner.id, band=1, topic={"question_ko": "q"},
+            db.add(PresentationSession(learner_id=learner.id, band=1, topic={"question_en": "q"},
                                        attempts=[{"at": (NOW - timedelta(days=40)).isoformat()}] * 2))
             await db.commit()
         self.assertIsNone(await self.ensure(learner, "present"))  # 2 of 3 used, a month ago still counts
         async with self.factory() as db:
-            db.add(PresentationSession(learner_id=learner.id, band=1, topic={"question_ko": "q"}, attempts=[{"at": NOW.isoformat()}]))
+            db.add(PresentationSession(learner_id=learner.id, band=1, topic={"question_en": "q"}, attempts=[{"at": NOW.isoformat()}]))
             await db.commit()
         with self.assertRaises(HTTPException):
             await self.ensure(learner, "present")

@@ -92,18 +92,18 @@ INVENTORY_SCHEMA: dict[str, Any] = {
 
 _VOCAB_ITEM_PROPS: dict[str, Any] = {
     "ref": {"type": "STRING", "description": "Chép y nguyên ref của mục (v1, v2...)"},
-    "hangul": {"type": "STRING"},
+    "headword": {"type": "STRING"},
     "pos": {"type": "STRING", "nullable": True, "description": "từ loại, vd 동사/명사/형용사"},
     "meaning_vi": {"type": "STRING"},
-    "definition_ko": {"type": "STRING", "nullable": True},
+    "definition_en": {"type": "STRING", "nullable": True},
     "level": {"type": "INTEGER"},
     "hanja": {"type": "STRING", "nullable": True},
     "sino_vietnamese": {"type": "STRING", "nullable": True, "description": "âm Hán Việt nếu có"},
-    "example_ko": {"type": "STRING", "nullable": True},
+    "example_en": {"type": "STRING", "nullable": True},
     "node_word": {
         "type": "STRING",
         "nullable": True,
-        "description": "Chỉ với cụm: phần người học dễ chọn sai (thường là động từ/tính từ), chép y nguyên một đoạn của hangul. Từ đơn thì null",
+        "description": "Chỉ với cụm: phần người học dễ chọn sai (thường là động từ/tính từ), chép y nguyên một đoạn của headword. Từ đơn thì null",
     },
     "register": {
         "type": "STRING",
@@ -143,7 +143,7 @@ VOCAB_CARDS_SCHEMA: dict[str, Any] = {
             "items": {
                 "type": "OBJECT",
                 "properties": _VOCAB_ITEM_PROPS,
-                "required": ["ref", "hangul", "meaning_vi", "level", "confidence"],
+                "required": ["ref", "headword", "meaning_vi", "level", "confidence"],
             },
         }
     },
@@ -165,12 +165,12 @@ GRAMMAR_CARDS_SCHEMA: dict[str, Any] = {
                     },
                     "meaning_vi": {"type": "STRING"},
                     "level": {"type": "INTEGER"},
-                    "example_ko": {"type": "STRING", "nullable": True},
+                    "example_en": {"type": "STRING", "nullable": True},
                     "usage_context_vi": {
                         "type": "STRING",
                         "description": "Giải thích bằng tiếng Việt: dùng KHI NÀO, trong HOÀN CẢNH/tình huống nào, với sắc thái gì — không chỉ định nghĩa suông",
                     },
-                    "topik_tip_vi": {
+                    "exam_tip_vi": {
                         "type": "STRING",
                         "nullable": True,
                         "description": "Nhận xét bằng tiếng Việt (câu khẳng định, không phải lời ra lệnh): mẫu này hay xuất hiện ở dạng bài/ngữ cảnh TOPIK nào và dấu hiệu nhận biết là gì",
@@ -258,18 +258,18 @@ và độ tự tin (0-1) dựa trên độ rõ ràng của tài liệu. Trả v�
 _VOCAB_CARD_RULES = """Quy tắc:
 - Trả về ĐÚNG MỘT thẻ cho MỖI mục trong danh sách, mang `ref` của mục đó (chép y
   nguyên). Không bỏ mục nào, không thêm mục nào, không gộp hai mục.
-- hangul: chép đúng mục từ như đã cho.
+- headword: chép đúng mục từ như đã cho.
 - Nghĩa, từ loại, ví dụ: ưu tiên lấy từ tài liệu (nghĩa tiếng Việt có sẵn thì
   dùng lại, đừng dịch khác đi). Nếu tài liệu không ghi thì tự viết bằng kiến thức
   của bạn và đặt confidence không quá 0,7 để biên tập viên kiểm tra.
-- example_ko: chép nguyên câu ví dụ trong tài liệu nếu có. Nếu không có, viết
+- example_en: chép nguyên câu ví dụ trong tài liệu nếu có. Nếu không có, viết
   một câu ngắn, tự nhiên, dùng đúng mục từ.
 - hanja và sino_vietnamese chỉ điền khi là từ Hán Hàn và bạn chắc chắn.
 - level: cấp TOPIK 1-6 ước lượng riêng cho mục này.
 - Đề thi TOPIK kiểm tra TỪ NÀO ĐI VỚI TỪ NÀO, nên với mỗi mục hãy viết thêm:
   * node_word: chỉ với cụm (từ hai thành phần trở lên, như danh từ + trợ từ + động
     từ). Đó là phần người học dễ chọn sai, thường là động từ hoặc tính từ (오다 trong
-    "비가 오다"), và phải là một đoạn chép y nguyên của hangul. Từ đơn thì để null.
+    "비가 오다"), và phải là một đoạn chép y nguyên của headword. Từ đơn thì để null.
   * distractors: chỉ với cụm có node_word. 2-3 từ cùng loại trông có vẻ đúng, nhất
     là những từ người Việt chọn nhầm khi dịch từng chữ, nhưng KHÔNG đi với phần còn
     lại của cụm. Trước khi đưa một từ vào, hãy ghép thử nó với phần còn lại của cụm:
@@ -297,7 +297,7 @@ _GRAMMAR_CARD_RULES = """Quy tắc:
 - QUAN TRỌNG: đừng chỉ ghi công thức như sách giáo khoa. Viết usage_context_vi
   bằng tiếng Việt: dùng khi nào, trong hoàn cảnh nào, với sắc thái hay thái độ gì
   so với các mẫu gần nghĩa (người học cần biết ÁP DỤNG chứ không chỉ nhớ công thức).
-- Nếu mẫu hay gặp trong đề thi TOPIK, thêm topik_tip_vi: viết như MỘT NHẬN XÉT
+- Nếu mẫu hay gặp trong đề thi TOPIK, thêm exam_tip_vi: viết như MỘT NHẬN XÉT
   VỀ NGÔN NGỮ (câu khẳng định: mẫu này hay xuất hiện ở dạng bài hay ngữ cảnh
   nào, dấu hiệu nhận biết là gì), KHÔNG viết như lời ra lệnh hay lời dặn làm bài.
 - Đề TOPIK hay hỏi "chọn câu có nghĩa gần nhất", nên mẫu thuộc một nhóm đối chiếu
@@ -445,14 +445,14 @@ class Contrast(BaseModel):
 
 
 class VocabCard(BaseModel):
-    hangul: str
+    headword: str
     pos: str | None = None
     meaning_vi: str
-    definition_ko: str | None = None
+    definition_en: str | None = None
     level: int = 1
     hanja: str | None = None
     sino_vietnamese: str | None = None
-    example_ko: str | None = None
+    example_en: str | None = None
     # the chunk layers (lesson-v4); all optional, so an old payload still loads
     family: str | None = None  # set by code from the ORGANISE step, never by the card call
     node_word: str | None = None
@@ -467,9 +467,9 @@ class GrammarCard(BaseModel):
     pattern: str
     meaning_vi: str
     level: int = 1
-    example_ko: str | None = None
+    example_en: str | None = None
     usage_context_vi: str | None = None
-    topik_tip_vi: str | None = None
+    exam_tip_vi: str | None = None
     contrast_group: str | None = None  # set by code from the ORGANISE step
     contrasts: list[Contrast] | None = None
     confidence: float = 0.5
@@ -516,9 +516,9 @@ def tidy_vocab(data: dict[str, Any]) -> None:
     to invent, but a node word that is not part of the phrase, an unknown
     register or a distractor equal to the answer would each break a card or an
     exercise built from it, so they are dropped here rather than trusted."""
-    hangul = _text(data.get("hangul")) or ""
+    headword = _text(data.get("headword")) or ""
     node = _text(data.get("node_word"))
-    if node is not None and not (node in hangul and node != hangul):
+    if node is not None and not (node in headword and node != headword):
         node = None
     data["node_word"] = node
     data["family"] = (_text(data.get("family")) or "")[:MAX_LABEL] or None
@@ -528,7 +528,7 @@ def tidy_vocab(data: dict[str, Any]) -> None:
     data["usage_note_vi"] = _text(data.get("usage_note_vi"))
 
     collocations: list[dict[str, str]] = []
-    seen = {term_key(hangul)}
+    seen = {term_key(headword)}
     raw_collocations = data.get("collocations")
     for entry in raw_collocations if isinstance(raw_collocations, list) else []:
         if not isinstance(entry, dict):
@@ -543,7 +543,7 @@ def tidy_vocab(data: dict[str, Any]) -> None:
     data["collocations"] = collocations or None
 
     distractors: list[str] = []
-    seen = {term_key(node or ""), term_key(hangul)}
+    seen = {term_key(node or ""), term_key(headword)}
     raw_distractors = data.get("distractors")
     for entry in raw_distractors if isinstance(raw_distractors, list) and node else []:
         word = _text(entry)
@@ -778,7 +778,7 @@ def _write_cards(
             missing.append(term)
             placeholder = {"meaning_vi": "", "level": level, "confidence": 0.2}
             card = (
-                VocabCard(hangul=term, **placeholder)
+                VocabCard(headword=term, **placeholder)
                 if kind == "vocab"
                 else GrammarCard(pattern=term, usage_context_vi="", **placeholder)
             )

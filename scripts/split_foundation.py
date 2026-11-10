@@ -45,7 +45,7 @@ PARTS: dict[str, list[dict]] = {
         {
             "slug": "sinh-hoat-00-nen-tang-1-gioi-thieu",
             "title": "Nền tảng 1.1 · Tôi là…: 이에요/예요 & 은/는",
-            "title_ko": "기초 1-1: 저는 학생이에요",
+            "title_en": "기초 1-1: 저는 학생이에요",
             "summary": "Câu đầu tiên của tiếng Hàn: «A là B» với '이에요/예요', phủ định '이/가 아니에요', và trợ từ chủ đề '은/는' để nói về mình và người khác.",
             "grammar": [0, 1], "notes": [0, 1],
             "goal": [
@@ -63,7 +63,7 @@ PARTS: dict[str, list[dict]] = {
         {
             "slug": "sinh-hoat-00-nen-tang-1b-chi-dinh-so-huu",
             "title": "Nền tảng 1.2 · Cái này là gì?: 이/가, 이·그·저 & 의",
-            "title_ko": "기초 1-2: 이것은 뭐예요?",
+            "title_en": "기초 1-2: 이것은 뭐예요?",
             "summary": "Chỉ người và đồ vật với '이/그/저', trợ từ chủ ngữ '이/가' (khác '은/는' ở đâu), và sở hữu '의' ('제 책', '친구의 가방').",
             "grammar": [2, 3, 5], "notes": [],
             "goal": [
@@ -81,7 +81,7 @@ PARTS: dict[str, list[dict]] = {
         {
             "slug": "sinh-hoat-00-nen-tang-1c-cau-hoi",
             "title": "Nền tảng 1.3 · Hỏi đáp: từ để hỏi & tên gọi",
-            "title_ko": "기초 1-3: 누구예요? 어디예요?",
+            "title_en": "기초 1-3: 누구예요? 어디예요?",
             "summary": "Mười từ để hỏi ('누구', '뭐', '어디', '언제', '왜', '어떻게', '무슨', '어느', '몇', '얼마') và cách nói tên gọi '(이)라고 하다'; ghép cả bài thành đoạn tự giới thiệu.",
             "grammar": [4, 6], "notes": [],
             "goal": [
@@ -101,7 +101,7 @@ PARTS: dict[str, list[dict]] = {
         {
             "slug": "sinh-hoat-00-nen-tang-2-noi-chon",
             "title": "Nền tảng 2.1 · Làm gì?: chia -아/어요 & 을/를",
-            "title_ko": "기초 2-1: 밥을 먹어요",
+            "title_en": "기초 2-1: 밥을 먹어요",
             "summary": "Cách chia động từ, tính từ sang đuôi lịch sự '-아/어요' (kể cả '하다' và gốc 'ㅡ') và trợ từ tân ngữ '을/를': câu đầu tiên có hành động.",
             "grammar": [0, 1], "notes": [0],
             "goal": [
@@ -118,7 +118,7 @@ PARTS: dict[str, list[dict]] = {
         {
             "slug": "sinh-hoat-00-nen-tang-2b-o-dau",
             "title": "Nền tảng 2.2 · Ở đâu?: 있다/없다, 에 & 에서",
-            "title_ko": "기초 2-2: 어디에 있어요?",
+            "title_en": "기초 2-2: 어디에 있어요?",
             "summary": "Có và không có ('있다', '없다'), nơi tồn tại và đích đến với '에', nơi diễn ra hành động với '에서': hai trợ từ người học hay nhầm nhất.",
             "grammar": [2, 3, 4], "notes": [],
             "goal": [
@@ -136,7 +136,7 @@ PARTS: dict[str, list[dict]] = {
         {
             "slug": "sinh-hoat-00-nen-tang-2c-cung-chi-va",
             "title": "Nền tảng 2.3 · Cũng, chỉ, và: 도, 만 & 와/과",
-            "title_ko": "기초 2-3: 저도 커피만 마셔요",
+            "title_en": "기초 2-3: 저도 커피만 마셔요",
             "summary": "Ba trợ từ thêm ý cho câu: '도' (cũng), '만' (chỉ), '와/과 · 하고 · (이)랑' (và, cùng với); ghép cả Nền tảng 2 thành đoạn kể một ngày.",
             "grammar": [5, 6, 7], "notes": [1],
             "goal": [
@@ -156,7 +156,7 @@ PARTS: dict[str, list[dict]] = {
         {
             "slug": "sinh-hoat-00-nen-tang-3-chia-dong-tu",
             "title": "Nền tảng 3.1 · Quá khứ & trang trọng: -았/었-, -ㅂ/습니다",
-            "title_ko": "기초 3-1: 과거와 합쇼체",
+            "title_en": "기초 3-1: 과거와 합쇼체",
             "summary": "Thì quá khứ '-았/었-' (kể cả '였/이었어요' cho danh từ) và đuôi trang trọng '-ㅂ/습니다', '-ㅂ/습니까?'; ba mức lịch sự và khi nào dùng mức nào.",
             "grammar": [0, 1], "notes": [1],
             "goal": [
@@ -174,7 +174,7 @@ PARTS: dict[str, list[dict]] = {
         {
             "slug": "sinh-hoat-00-nen-tang-3b-phu-dinh",
             "title": "Nền tảng 3.2 · Không, không thể & sẽ: -지 않다, -지 못하다, -겠-",
-            "title_ko": "기초 3-2: 부정과 -겠-",
+            "title_en": "기초 3-2: 부정과 -겠-",
             "summary": "Phủ định dài '-지 않다' (không) và '-지 못하다' (không thể), cùng '-겠-' cho ý chí và các câu lịch sự cố định ('알겠습니다', '잘 먹겠습니다').",
             "grammar": [2, 3], "notes": [],
             "goal": [
@@ -191,7 +191,7 @@ PARTS: dict[str, list[dict]] = {
         {
             "slug": "sinh-hoat-00-nen-tang-3c-bat-quy-tac-1",
             "title": "Nền tảng 3.3 · Bất quy tắc ㄷ, ㄹ & 르",
-            "title_ko": "기초 3-3: ㄷ·ㄹ·르 불규칙",
+            "title_en": "기초 3-3: ㄷ·ㄹ·르 불규칙",
             "summary": "Ba nhóm bất quy tắc đầu: 'ㄷ → ㄹ' (듣다 → 들어요), 'ㄹ' rơi (살다 → 삽니다), '르 → ㄹ라/ㄹ러' (모르다 → 몰라요); kèm những từ trông giống mà KHÔNG bất quy tắc.",
             "grammar": [4, 5, 6], "notes": [0],
             "goal": [
@@ -208,7 +208,7 @@ PARTS: dict[str, list[dict]] = {
         {
             "slug": "sinh-hoat-00-nen-tang-3d-bat-quy-tac-2",
             "title": "Nền tảng 3.4 · Bất quy tắc ㅎ, ㅅ & ㅂ",
-            "title_ko": "기초 3-4: ㅎ·ㅅ·ㅂ 불규칙",
+            "title_en": "기초 3-4: ㅎ·ㅅ·ㅂ 불규칙",
             "summary": "Ba nhóm còn lại: 'ㅎ' rơi (그렇다 → 그래요, 파랗다 → 파래요), 'ㅅ' rơi (낫다 → 나아요), 'ㅂ → 우' (덥다 → 더워요, 돕다 → 도와요); đọc và viết lại cả Nền tảng 3.",
             "grammar": [7, 8, 9], "notes": [],
             "goal": [
@@ -228,7 +228,7 @@ PARTS: dict[str, list[dict]] = {
         {
             "slug": "sinh-hoat-00-nen-tang-4-so-gio-ngay",
             "title": "Nền tảng 4.1 · Số Hán-Hàn: ngày tháng, phút, tiền",
-            "title_ko": "기초 4-1: 일, 이, 삼",
+            "title_en": "기초 4-1: 일, 이, 삼",
             "summary": "Hệ số Hán-Hàn ('일', '이', '삼'…) và các đơn vị đi với nó: năm, tháng, ngày, phút, tiền, tầng, số điện thoại; hai tháng đọc đặc biệt '유월', '시월'.",
             "grammar": [0], "notes": [0],
             "goal": [
@@ -246,7 +246,7 @@ PARTS: dict[str, list[dict]] = {
         {
             "slug": "sinh-hoat-00-nen-tang-4b-so-thuan-han",
             "title": "Nền tảng 4.2 · Số thuần Hàn: giờ, tuổi, đếm đồ vật",
-            "title_ko": "기초 4-2: 하나, 둘, 셋",
+            "title_en": "기초 4-2: 하나, 둘, 셋",
             "summary": "Hệ số thuần Hàn ('하나', '둘', '셋'…), dạng rút gọn trước đơn vị đếm ('한', '두', '세', '네', '스무') và các đơn vị đi với nó: giờ, tuổi, cái, người, ly, quyển, con.",
             "grammar": [1], "notes": [1],
             "goal": [
@@ -263,7 +263,7 @@ PARTS: dict[str, list[dict]] = {
         {
             "slug": "sinh-hoat-00-nen-tang-4c-hoi-dap-so",
             "title": "Nền tảng 4.3 · Mấy giờ, ngày mấy, bao nhiêu?",
-            "title_ko": "기초 4-3: 몇 시예요? 얼마예요?",
+            "title_en": "기초 4-3: 몇 시예요? 얼마예요?",
             "summary": "Hỏi và đáp về số: '몇 시', '며칠', '무슨 요일', '몇 살', '몇 명', '얼마'; thứ trong tuần, mốc thời gian có và không có '에'; nghe và hẹn giờ.",
             "grammar": [2], "notes": [],
             "goal": [
@@ -283,7 +283,7 @@ PARTS: dict[str, list[dict]] = {
         {
             "slug": "sinh-hoat-00-nen-tang-5-dinh-ngu",
             "title": "Nền tảng 5.1 · Người đang đọc sách: -는 & tính từ -(으)ㄴ",
-            "title_ko": "기초 5-1: 책을 읽는 사람",
+            "title_en": "기초 5-1: 책을 읽는 사람",
             "summary": "Gắn một mệnh đề vào TRƯỚC danh từ ở hiện tại: động từ '-는' ('읽는 사람'), tính từ '-(으)ㄴ' ('큰 가방', '작은 방'), '있다/없다' và 'N + 이다' ('맛있는', '학생인').",
             "grammar": [0], "notes": [0],
             "goal": [
@@ -300,7 +300,7 @@ PARTS: dict[str, list[dict]] = {
         {
             "slug": "sinh-hoat-00-nen-tang-5b-dinh-ngu-qua-khu",
             "title": "Nền tảng 5.2 · Phim đã xem, món sẽ ăn: -(으)ㄴ & -(으)ㄹ",
-            "title_ko": "기초 5-2: 어제 본 영화, 내일 먹을 음식",
+            "title_en": "기초 5-2: 어제 본 영화, 내일 먹을 음식",
             "summary": "Định ngữ của động từ theo thời gian: đã xảy ra '-(으)ㄴ' ('어제 본 영화') và sẽ, dự định '-(으)ㄹ' ('내일 먹을 음식'); chọn đúng giữa '-는', '-(으)ㄴ', '-(으)ㄹ'.",
             "grammar": [1, 2], "notes": [],
             "goal": [
@@ -318,7 +318,7 @@ PARTS: dict[str, list[dict]] = {
         {
             "slug": "sinh-hoat-00-nen-tang-5c-danh-tu-hoa",
             "title": "Nền tảng 5.3 · Việc đọc sách: -는 것, -기 & -(으)ㅁ",
-            "title_ko": "기초 5-3: 책을 읽는 것",
+            "title_en": "기초 5-3: 책을 읽는 것",
             "summary": "Biến động từ thành danh từ: '-는 것' (việc…), '-기' (sau '쉽다', '어렵다', tên kỹ năng '듣기', '쓰기') và '-(으)ㅁ' trong văn viết, ghi chú; viết đoạn về sở thích dùng cả Nền tảng 5.",
             "grammar": [3, 4], "notes": [1],
             "goal": [
@@ -364,8 +364,8 @@ def text_of(ex: dict) -> str:
     return json.dumps(ex, ensure_ascii=False)
 
 
-def forms_in(hangul: str) -> set[str]:
-    return {f for f in ls.card_forms(hangul) if len(f) >= 1}
+def forms_in(headword: str) -> set[str]:
+    return {f for f in ls.card_forms(headword) if len(f) >= 1}
 
 
 def uses_word(text: str, forms: set[str]) -> bool:
@@ -399,13 +399,13 @@ def plan(bundle: ls.SeedBundle) -> tuple[list[dict], list[str]]:
         for k, p in enumerate(parts):
             for i in p["grammar"]:
                 g = grammar[i]
-                part_text[k] += " ".join(str(g.get(f) or "") for f in ("example_ko", "usage_context_vi", "note_vi", "pattern"))
+                part_text[k] += " ".join(str(g.get(f) or "") for f in ("example_en", "usage_context_vi", "note_vi", "pattern"))
         for eid, k in item_part.items():
             if k is not None:
                 part_text[k] += text_of(items[eid])
         word_part: list[int | None] = []
         for v in vocab:
-            forms = forms_in(v["hangul"].split("/")[0].strip()) | {v["hangul"]}
+            forms = forms_in(v["headword"].split("/")[0].strip()) | {v["headword"]}
             hit = next((k for k in range(len(parts)) if uses_word(part_text[k], forms)), None)
             word_part.append(hit)
         # a lesson with its own rule for words (Nền tảng 4: which number system a word belongs to)
@@ -435,7 +435,7 @@ def plan(bundle: ls.SeedBundle) -> tuple[list[dict], list[str]]:
             t = text_of(items[eid])
             votes = Counter()
             for v, wk in zip(vocab, word_part):
-                if uses_word(t, forms_in(v["hangul"].split("/")[0].strip()) | {v["hangul"]}):
+                if uses_word(t, forms_in(v["headword"].split("/")[0].strip()) | {v["headword"]}):
                     votes[wk] += 1
             item_part[eid] = max(votes, key=lambda x: (votes[x], x)) if votes else len(parts) - 1
 
@@ -443,7 +443,7 @@ def plan(bundle: ls.SeedBundle) -> tuple[list[dict], list[str]]:
             seed = {
                 "slug": p["slug"],
                 "title": p["title"],
-                "title_ko": p["title_ko"],
+                "title_en": p["title_en"],
                 "topic": raw["topic"],
                 "track": raw["track"],
                 "level": raw["level"],
@@ -502,9 +502,9 @@ def main(write: bool) -> int:
     for k in before:
         for slug, parts in PARTS.items():
             mine = [s for s in new if s["slug"] in {p["slug"] for p in parts}]
-            flat = [x["hangul"] if k == "vocab" else x["pattern"] if k == "grammar" else x for s in mine for x in s[k]]
+            flat = [x["headword"] if k == "vocab" else x["pattern"] if k == "grammar" else x for s in mine for x in s[k]]
             raw = json.loads((LESSONS / f"{slug}.json").read_text(encoding="utf-8"))
-            orig = [x["hangul"] if k == "vocab" else x["pattern"] if k == "grammar" else x for x in raw[k]]
+            orig = [x["headword"] if k == "vocab" else x["pattern"] if k == "grammar" else x for x in raw[k]]
             if sorted(flat) != sorted(orig):
                 problems.append(f"{slug}: {k} differ from the lesson's own")
 
@@ -577,7 +577,7 @@ _SINO = {"영", "공", "일", "이", "삼", "사", "오", "육", "칠", "팔", "
 
 
 def _nt4(v: dict) -> int | None:
-    w = v["hangul"].split("/")[0].strip()
+    w = v["headword"].split("/")[0].strip()
     fam = v.get("family") or ""
     if w in _NATIVE or w in _NATIVE_UNITS:
         return 1

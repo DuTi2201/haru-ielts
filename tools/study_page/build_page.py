@@ -20,9 +20,9 @@ def compact_exercise(e: dict) -> dict:
     t = e["type"]
     if t == "read_passage":
         return {"k": "p", "title": e["title_vi"], "text": e["stimulus"]["text"], "tip": e["instruction_vi"],
-                "qs": [{"q": q["prompt_ko"], "o": [o["text"] for o in q["options"]], "a": int(q["answer"]) - 1, "w": q["explanation_vi"]} for q in e["questions"]]}
+                "qs": [{"q": q["prompt_en"], "o": [o["text"] for o in q["options"]], "a": int(q["answer"]) - 1, "w": q["explanation_vi"]} for q in e["questions"]]}
     if t == "write_essay":
-        return {"k": "w", "en": e["prompt_ko"], "vi": e["instruction_vi"], "frame": e["framework_vi"], "check": e["checklist_vi"], "model": e["model_answer_ko"]}
+        return {"k": "w", "en": e["prompt_en"], "vi": e["instruction_vi"], "frame": e["framework_vi"], "check": e["checklist_vi"], "model": e["model_answer_en"]}
     if t in ("read_cloze", "read_match"):
         q = e["questions"][0]
         return {"k": "m", "q": (e.get("stimulus") or {}).get("text") or q.get("prompt_vi"), "h": q.get("prompt_vi") if e.get("stimulus") else None, "o": [o["text"] for o in q["options"]],
@@ -34,7 +34,7 @@ def compact_exercise(e: dict) -> dict:
         return {"k": "f", "q": e["text"], "acc": b["accepted"], "w": b.get("common_errors_vi") or ""}
     if t == "listen_dictation":
         return {"k": "d", "t": [[x["text"], x["vi"]] for x in e["stimulus"]["turns"]]}
-    return {"k": "s", "en": e["prompt_ko"], "vi": e.get("prompt_vi"), "model": e["model_answer_ko"], "plan": [[p["when_vi"], p["do_vi"]] for p in e["plan"]]}
+    return {"k": "s", "en": e["prompt_en"], "vi": e.get("prompt_vi"), "model": e["model_answer_en"], "plan": [[p["when_vi"], p["do_vi"]] for p in e["plan"]]}
 
 
 def main() -> None:
@@ -47,12 +47,12 @@ def main() -> None:
     for f in sorted((SEED / "lessons").glob("b1-*.json")):
         d = json.loads(f.read_text(encoding="utf-8"))
         lessons.append({
-            "n": d["sort_order"], "t": d["title"], "en": d["title_ko"],
+            "n": d["sort_order"], "t": d["title"], "en": d["title_en"],
             "notes": [[x.get("title"), x["body"]] for x in d["notes"]],
-            "cards": [{"p": g["pattern"], "m": g["meaning_vi"], "u": g.get("usage_context_vi"), "e": g.get("example_ko"), "ev": g.get("example_vi"),
-                       "n": g.get("note_vi"), "tip": g.get("topik_tip_vi"), "vs": [[c["pattern"], c["diff_vi"]] for c in g.get("contrasts", [])]}
+            "cards": [{"p": g["pattern"], "m": g["meaning_vi"], "u": g.get("usage_context_vi"), "e": g.get("example_en"), "ev": g.get("example_vi"),
+                       "n": g.get("note_vi"), "tip": g.get("exam_tip_vi"), "vs": [[c["pattern"], c["diff_vi"]] for c in g.get("contrasts", [])]}
                       for g in d.get("grammar", [])],
-            "words": [{"h": v["hangul"], "m": v["meaning_vi"], "f": v.get("family"), "e": v.get("example_ko"), "ev": v.get("example_vi"), "n": v.get("note_vi")}
+            "words": [{"h": v["headword"], "m": v["meaning_vi"], "f": v.get("family"), "e": v.get("example_en"), "ev": v.get("example_vi"), "n": v.get("note_vi")}
                       for v in d["vocab"]],
             "ses": [{"t": s["title_vi"], "can": s["can_do_vi"], "v": s.get("vocab", []), "g": s.get("grammar", []), "c": s.get("check", [])} for s in d["sessions"]],
             "ex": d["exercise_ids"],

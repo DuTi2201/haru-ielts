@@ -64,7 +64,7 @@ async def start_editorial_import(
     profile: Profile,
     source_url: str,
     source_name: str,
-    title_ko: str | None,
+    title_en: str | None,
     published_date: datetime | None = None,
     *,
     force: bool = False,
@@ -142,7 +142,7 @@ async def start_editorial_import(
             str(batch.id),
             source_url,
             source_name,
-            title_ko,
+            title_en,
             published_date.isoformat() if published_date else None,
         )
 
@@ -167,7 +167,7 @@ async def create_import_batch(
     session_label: Annotated[str | None, Form()] = None,
     source_url: Annotated[str | None, Form()] = None,
     source_name: Annotated[str | None, Form()] = None,
-    title_ko: Annotated[str | None, Form()] = None,
+    title_en: Annotated[str | None, Form()] = None,
     force: Annotated[bool, Form()] = False,
 ):
     """kind="corpus" requires film_title (which film this subtitle file is
@@ -218,7 +218,7 @@ async def create_import_batch(
                 "source_url and source_name are required for kind=editorial_article",
                 "validation_error",
             )
-        return await start_editorial_import(db, profile, source_url, source_name, title_ko, force=force)
+        return await start_editorial_import(db, profile, source_url, source_name, title_en, force=force)
 
     if kind == "exam_paper":
         return await _create_exam_paper_batch(db, profile, files or ([file] if file else []), exam_kind, session_label)
@@ -521,7 +521,7 @@ async def list_hidden_corpus_items(
     listed so an editor can check the filter and restore a good line."""
     rows = (
         await db.execute(
-            select(CorpusItem.id, CorpusItem.film_id, CorpusItem.text_ko)
+            select(CorpusItem.id, CorpusItem.film_id, CorpusItem.text_en)
             .where(CorpusItem.naturalness.in_(corpus_enrich.HIDDEN))
             .order_by(CorpusItem.film_id, CorpusItem.id)
             .limit(limit)
@@ -529,7 +529,7 @@ async def list_hidden_corpus_items(
     ).all()
     film_ids = {r[1] for r in rows}
     films = dict((await db.execute(select(Film.id, Film.title).where(Film.id.in_(film_ids)))).all()) if film_ids else {}
-    return [HiddenCorpusItemOut(id=r[0], film_title=films.get(r[1], ""), text_ko=r[2]) for r in rows]
+    return [HiddenCorpusItemOut(id=r[0], film_title=films.get(r[1], ""), text_en=r[2]) for r in rows]
 
 
 @router.post("/corpus-enrichment/hidden/{item_id}/restore", status_code=status.HTTP_204_NO_CONTENT)

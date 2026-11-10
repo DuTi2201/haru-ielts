@@ -74,7 +74,7 @@ class ApiShapeTests(unittest.TestCase):
     def test_the_card_serves_its_label_and_its_links(self):
         from app.schemas import GrammarPointOut, GrammarRefOut
 
-        base = dict(id=1, lesson_id=2, pattern="V + -고", meaning_vi="x", level=1, example_ko="x")
+        base = dict(id=1, lesson_id=2, pattern="V + -고", meaning_vi="x", level=1, example_en="x")
         ref = GrammarRefOut(pattern="V/A + -아/어요", lesson_id=1, lesson_title="Nền tảng 2")
         out = GrammarPointOut(**base, importance="must", built_from=[ref]).model_dump(mode="json")
         self.assertEqual(out["importance"], "must")

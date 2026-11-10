@@ -138,7 +138,7 @@ class BuildAnswerTests(unittest.IsolatedAsyncioTestCase):
             await content.answer_lesson_question(7, body, db, self.PROFILE)
         log = next(c.args[0] for c in db.add.call_args_list if isinstance(c.args[0], ErrorLog))
         self.assertEqual((log.skill, log.error_type, log.mode), ("viết", "build_order", "writing"))
-        self.assertEqual(log.example_ko, ex["answers"][0])
+        self.assertEqual(log.example_en, ex["answers"][0])
 
     async def test_a_tile_exercise_is_one_question(self):
         r = BUNDLE.lessons[0]

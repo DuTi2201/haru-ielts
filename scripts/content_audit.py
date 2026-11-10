@@ -39,7 +39,7 @@ TOPIK1 = {"listening": 30, "reading": 40}
 def forms(cards) -> set[str]:
     out: set[str] = set()
     for v in cards:
-        out |= ls.card_forms(v.hangul)
+        out |= ls.card_forms(v.headword)
     return out
 
 
@@ -53,15 +53,15 @@ def main() -> int:
     lessons = sorted(b.lessons, key=lambda r: ls.course_position(r.seed))
     add("SEED", not b.problems, f"{len(b.problems)} seed problems")
 
-    dup = [(r.seed.slug, h) for r in lessons for h, n in Counter(v.hangul for v in r.seed.vocab).items() if n > 1]
+    dup = [(r.seed.slug, h) for r in lessons for h, n in Counter(v.headword for v in r.seed.vocab).items() if n > 1]
     add("DB-02 no duplicate card in a lesson", not dup, f"{len(dup)} duplicates {dup[:5]}")
     first: dict[str, str] = {}
     cross = []
     for r in lessons:
         for v in r.seed.vocab:
-            if v.hangul in first:
-                cross.append((v.hangul, first[v.hangul], r.seed.slug))
-            first.setdefault(v.hangul, r.seed.slug)
+            if v.headword in first:
+                cross.append((v.headword, first[v.headword], r.seed.slug))
+            first.setdefault(v.headword, r.seed.slug)
     add("DB-02 no word taught twice across lessons", not cross, f"{len(cross)} repeats {cross[:5]}", hard=False)
 
     orders = sorted(r.seed.sort_order for r in lessons)
@@ -90,15 +90,15 @@ def main() -> int:
     cards = [v for r in lessons for v in r.seed.vocab]
     def share(pred) -> str:
         return f"{sum(1 for v in cards if pred(v)) * 100 // max(1, len(cards))}%"
-    add("CUR-02 meaning + example on every card", all(v.meaning_vi and v.example_ko for v in cards),
-        f"meaning {share(lambda v: v.meaning_vi)}, example {share(lambda v: v.example_ko)}, "
+    add("CUR-02 meaning + example on every card", all(v.meaning_vi and v.example_en for v in cards),
+        f"meaning {share(lambda v: v.meaning_vi)}, example {share(lambda v: v.example_en)}, "
         f"hanja {share(lambda v: v.hanja)}, Hán–Việt {share(lambda v: v.sino_vietnamese)}, "
         f"collocations {share(lambda v: getattr(v, 'collocations', None))}", hard=False)
     gr = [g for r in lessons for g in r.seed.grammar]
     def gshare(attr) -> str:
         return f"{sum(1 for g in gr if getattr(g, attr, None)) * 100 // max(1, len(gr))}%"
-    add("CUR-03 grammar richness", all(g.meaning_vi and g.example_ko for g in gr),
-        ", ".join(f"{a} {gshare(a)}" for a in ("usage_context_vi", "topik_tip_vi", "contrasts", "example_ko", "example_vi")),
+    add("CUR-03 grammar richness", all(g.meaning_vi and g.example_en for g in gr),
+        ", ".join(f"{a} {gshare(a)}" for a in ("usage_context_vi", "exam_tip_vi", "contrasts", "example_en", "example_vi")),
         hard=False)
 
     ex = b.exercises if hasattr(b, "exercises") else {}

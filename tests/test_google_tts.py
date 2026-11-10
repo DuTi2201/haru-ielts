@@ -398,8 +398,8 @@ P1 = "미 국채시장이 불안하다. 10년물 금리가 5%를 넘나들고 �
 
 def article():
     return SimpleNamespace(
-        id=uuid.uuid4(), source_name="경향신문", source_url="https://x/1", title_ko="[정동칼럼]미 국채시장",
-        level_estimate=5, topic_tags=[], body_ko=P1, vocab_ids=[], grammar_ids=[], thinking_guide_text=None,
+        id=uuid.uuid4(), source_name="경향신문", source_url="https://x/1", title_en="[정동칼럼]미 국채시장",
+        level_estimate=5, topic_tags=[], body_en=P1, vocab_ids=[], grammar_ids=[], thinking_guide_text=None,
         created_at=datetime.now(timezone.utc), images=[], images_fetched_at=None, study_pack=None,
         study_status="none", study_updated_at=None,
     )

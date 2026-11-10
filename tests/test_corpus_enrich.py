@@ -205,7 +205,7 @@ class FakeSyncDB:
                 res.all.return_value = [(pattern,) for pattern, _ in self.grammar]
         elif "FROM import_item" in text:
             res.scalars.return_value.all.return_value = self.confirmed
-        elif "corpus_item.text_ko" in text:
+        elif "corpus_item.text_en" in text:
             res.all.return_value = [(t,) for t in self.known]
         return res
 
@@ -265,7 +265,7 @@ class ImportFilterTests(unittest.TestCase):
             )
 
         db, stats, _ = self.run_extraction(generate)
-        staged = {i.payload["text_ko"]: i for i in db.added}
+        staged = {i.payload["text_en"]: i for i in db.added}
         self.assertNotIn("대신 네가 왔어 더 좋은 계약으로.", staged)
         self.assertEqual((stats.staged, stats.unnatural), (3, 1))
         self.assertEqual(stats.unnatural_samples, ["대신 네가 왔어 더 좋은 계약으로."])
@@ -280,7 +280,7 @@ class ImportFilterTests(unittest.TestCase):
             text="기다려요.",
         )
         payload = db.added[0].payload
-        self.assertEqual(payload["text_ko"], "기다려요.")  # the original line, untouched
+        self.assertEqual(payload["text_en"], "기다려요.")  # the original line, untouched
         self.assertEqual(payload["meaning_vi"], "Nghĩa 1")
         self.assertEqual(payload["usage_note_vi"], "Cách dùng 1")
         self.assertEqual(payload["naturalness"], NATURAL)
@@ -326,7 +326,7 @@ class ImportFilterTests(unittest.TestCase):
 class ApplyBatchTests(unittest.TestCase):
     def test_confirmed_lines_are_written_with_their_meaning_and_verdict(self):
         payload = {
-            "text_ko": "기다려요.",
+            "text_en": "기다려요.",
             "source_ref": "line-1",
             "kind": "câu",
             "level": 1,
@@ -338,8 +338,8 @@ class ApplyBatchTests(unittest.TestCase):
             "naturalness": "awkward",
             "enriched_version": corpus_enrich.ENRICH_VERSION,
         }
-        old_style = {k: payload[k] for k in ("text_ko", "source_ref", "kind", "level", "register", "topics", "grammar_patterns")}
-        old_style.update(text_ko="집이 커요.", source_ref="line-2")
+        old_style = {k: payload[k] for k in ("text_en", "source_ref", "kind", "level", "register", "topics", "grammar_patterns")}
+        old_style.update(text_en="집이 커요.", source_ref="line-2")
         db = FakeSyncDB(
             confirmed=[
                 SimpleNamespace(payload=payload, status="confirmed"),
@@ -546,7 +546,7 @@ class StudioEnrichmentEndpointTests(unittest.IsolatedAsyncioTestCase):
 
         db.execute = execute
         out = await ingest.list_hidden_corpus_items(db, mock.MagicMock(), limit=100)
-        self.assertEqual([(o.film_title, o.text_ko) for o in out], [("Phim B", "대신 네가 왔어 더 좋은 계약으로.")])
+        self.assertEqual([(o.film_title, o.text_en) for o in out], [("Phim B", "대신 네가 왔어 더 좋은 계약으로.")])
 
 
 if __name__ == "__main__":

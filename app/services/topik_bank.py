@@ -75,17 +75,17 @@ def row_fields(w: dict[str, Any]) -> dict[str, Any]:
     """The vocab_item columns of one bank word."""
     deck = decks()[w["deck"]]
     return {
-        "hangul": w["w"],
+        "headword": w["w"],
         "pos": POS_LABEL.get(w["pos"], "khác"),
         "meaning_vi": w["meaning_vi"][:255],
-        "definition_ko": w.get("definition_ko"),
+        "definition_en": w.get("definition_en"),
         "level": LEVEL[w["grade"]],
         "hanja": w.get("hanja"),
         "sino_vietnamese": w.get("sino_vietnamese"),
-        "example_ko": w.get("example_ko"),
+        "example_en": w.get("example_en"),
         "example_vi": None,  # the dictionary's examples have no translation
         "usage_note_vi": w.get("note_vi"),
-        "pron_ko": w.get("pron"),
+        "pron_en": w.get("pron"),
         "family": f"TOPIK {deck.grade_vi.lower()} · {deck.title_vi}"[:120],
         "priority": "recognize",
     }
@@ -106,7 +106,7 @@ def sync_bank(db: Any) -> dict[str, int]:
 
     from app.models import AppConfig, ErrorLog, ItemState, VocabItem, VocabItemAudio
 
-    lesson_words = set(db.execute(select(VocabItem.hangul).where(VocabItem.lesson_id.isnot(None))).scalars())
+    lesson_words = set(db.execute(select(VocabItem.headword).where(VocabItem.lesson_id.isnot(None))).scalars())
     stamp = _fingerprint(lesson_words)
     cfg = db.get(AppConfig, (CONFIG_NAME, 1))
     if cfg is not None and (cfg.value or {}).get("fingerprint") == stamp:

@@ -19,8 +19,8 @@ DAY = timedelta(days=1)
 FAMILY = "Động từ đi với thời tiết"
 
 
-def vocab(id, hangul, lesson_id=1, level=1, **kw):
-    return VocabItem(id=id, lesson_id=lesson_id, hangul=hangul, meaning_vi=f"nghĩa {hangul}", level=level, **kw)
+def vocab(id, headword, lesson_id=1, level=1, **kw):
+    return VocabItem(id=id, lesson_id=lesson_id, headword=headword, meaning_vi=f"nghĩa {headword}", level=level, **kw)
 
 
 def grammar(id, pattern, lesson_id=1):
@@ -31,7 +31,7 @@ CONTENT_V = [
     vocab(1, "비가 오다", node_word="오다", family=FAMILY, distractors=["내리다", "떨어지다"]),
     vocab(2, "눈이 오다", node_word="오다", family=FAMILY),
     vocab(3, "바람이 불다", node_word="불다", family=FAMILY),
-    vocab(4, "날씨", pos="명사", example_ko="오늘 날씨가 좋아요."),
+    vocab(4, "날씨", pos="명사", example_en="오늘 날씨가 좋아요."),
     vocab(5, "기온", pos="명사"),
     vocab(6, "하늘", pos="명사"),
     vocab(7, "바람", pos="명사"),
@@ -42,8 +42,8 @@ LESSONS = [(1, "날씨와 계절"), (2, "Bài hai")]
 
 # Words that belong to news articles, not to a lesson (lesson_id None). Levels 3, 4 and 6.
 ARTICLE_V = [
-    vocab(101, "폭염", lesson_id=None, pos="명사", level=3, example_ko="올해는 폭염이 길었어요."),
-    vocab(102, "한파", lesson_id=None, pos="명사", level=4, example_ko="한파가 계속되고 있습니다."),
+    vocab(101, "폭염", lesson_id=None, pos="명사", level=3, example_en="올해는 폭염이 길었어요."),
+    vocab(102, "한파", lesson_id=None, pos="명사", level=4, example_en="한파가 계속되고 있습니다."),
     vocab(103, "기후변화", lesson_id=None, pos="명사", level=6),
     vocab(104, "가뭄", lesson_id=None, pos="명사", level=3),
 ]
@@ -152,7 +152,7 @@ class ReviewQueueTests(unittest.IsolatedAsyncioTestCase):
         self.assertTrue(all(i.is_new and i.mode == "recognize" and i.cloze is None for i in out.items))
         kinds = [i.item_type for i in out.items]
         self.assertEqual(kinds.count("grammar_point"), 2)
-        self.assertEqual([i.vocab.hangul for i in out.items if i.vocab][:3], ["비가 오다", "눈이 오다", "바람이 불다"])
+        self.assertEqual([i.vocab.headword for i in out.items if i.vocab][:3], ["비가 오다", "눈이 오다", "바람이 불다"])
         self.assertTrue(all(i.lesson_title == "날씨와 계절" for i in out.items[:6]))
 
     async def test_new_vocab_cards_carry_their_chunk_layers_to_the_app(self):
@@ -164,7 +164,7 @@ class ReviewQueueTests(unittest.IsolatedAsyncioTestCase):
         out = await queue(FakeDB([state("vocab_item", 1, reps=2)]))
         (due,) = [i for i in out.items if not i.is_new]
         self.assertEqual((due.item_id, due.mode, due.reps), (1, "cloze", 2))
-        self.assertEqual((due.cloze.prompt_ko, due.cloze.answer), ("비가 ____", "오다"))
+        self.assertEqual((due.cloze.prompt_en, due.cloze.answer), ("비가 ____", "오다"))
         self.assertIn("오다", due.cloze.choices)
         self.assertGreaterEqual(len(due.cloze.choices), 3)
 
@@ -257,7 +257,7 @@ class ArticleWordQueueTests(unittest.IsolatedAsyncioTestCase):
         out = await queue(FakeDB([state("vocab_item", 101, reps=1)], articles=ARTICLES))
         (due,) = [i for i in out.items if not i.is_new]
         self.assertEqual((due.item_id, due.mode, due.article_id), (101, "cloze", NEWER))
-        self.assertEqual((due.cloze.prompt_ko, due.cloze.answer), ("올해는 ____이 길었어요.", "폭염"))
+        self.assertEqual((due.cloze.prompt_en, due.cloze.answer), ("올해는 ____이 길었어요.", "폭염"))
         self.assertTrue(set(due.cloze.choices) <= {"폭염", "한파", "기후변화"})  # not 가뭄: that is another article's word
 
     async def test_an_article_word_already_started_stays_scheduled_even_if_the_goal_changed(self):
@@ -382,7 +382,7 @@ class MarkKnownTests(unittest.IsolatedAsyncioTestCase):
             if "item_state" in str(stmt):
                 res.scalar_one_or_none.return_value = existing
             else:
-                res.scalar_one_or_none.return_value = VocabItem(id=1, hangul="비가 오다", meaning_vi="m", level=1) if card else None
+                res.scalar_one_or_none.return_value = VocabItem(id=1, headword="비가 오다", meaning_vi="m", level=1) if card else None
             return res
 
         db.execute = execute
@@ -445,7 +445,7 @@ class RecordReviewScheduleTests(unittest.IsolatedAsyncioTestCase):
             if "item_state" in str(stmt):
                 res.scalar_one_or_none.return_value = existing
             else:
-                res.scalar_one_or_none.return_value = VocabItem(id=1, hangul="비가 오다", meaning_vi="m", level=1)
+                res.scalar_one_or_none.return_value = VocabItem(id=1, headword="비가 오다", meaning_vi="m", level=1)
             return res
 
         db.execute = execute

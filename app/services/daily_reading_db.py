@@ -45,7 +45,7 @@ class Context:
     grammar_index: dict[tuple[str, str], int] = field(default_factory=dict)
     vocab_index: dict[tuple[str, str], int] = field(default_factory=dict)
     grammar_info: dict[int, tuple[str, str, int]] = field(default_factory=dict)  # id -> (pattern, meaning_vi, lesson_id)
-    vocab_info: dict[int, tuple[str, str, int]] = field(default_factory=dict)  # id -> (hangul, meaning_vi, lesson_id)
+    vocab_info: dict[int, tuple[str, str, int]] = field(default_factory=dict)  # id -> (headword, meaning_vi, lesson_id)
 
 
 async def load_context(db: AsyncSession) -> Context:
@@ -65,9 +65,9 @@ async def load_context(db: AsyncSession) -> Context:
         ctx.lesson_ids[slug] = lesson_id
         ctx.grammar_index[(slug, pattern)] = gid
         ctx.grammar_info[gid] = (pattern, meaning, lesson_id)
-    for slug, lesson_id, vid, hangul, meaning in (
+    for slug, lesson_id, vid, headword, meaning in (
         await db.execute(
-            select(Lesson.slug, Lesson.id, VocabItem.id, VocabItem.hangul, VocabItem.meaning_vi).join(
+            select(Lesson.slug, Lesson.id, VocabItem.id, VocabItem.headword, VocabItem.meaning_vi).join(
                 Lesson, Lesson.id == VocabItem.lesson_id
             )
         )
@@ -76,8 +76,8 @@ async def load_context(db: AsyncSession) -> Context:
             continue
         slugs.add(slug)
         ctx.lesson_ids[slug] = lesson_id
-        ctx.vocab_index[(slug, hangul)] = vid
-        ctx.vocab_info[vid] = (hangul, meaning, lesson_id)
+        ctx.vocab_index[(slug, headword)] = vid
+        ctx.vocab_info[vid] = (headword, meaning, lesson_id)
     ctx.slugs = sorted(slugs)
     return ctx
 
@@ -217,12 +217,12 @@ def passage_out(pick: Pick, ctx: Context, cards: dict[Key, Card]) -> DailyPassag
     words = []
     for kw, group in zip(p.keywords, pick.refs.words):
         vid = choose(group, ctx.vocab_info)
-        hangul, meaning, lesson_id = ctx.vocab_info.get(vid, (kw.word, None, None)) if vid else (kw.word, None, None)
+        headword, meaning, lesson_id = ctx.vocab_info.get(vid, (kw.word, None, None)) if vid else (kw.word, None, None)
         words.append(
             DailyWordOut(
                 vocab_item_id=vid,
                 lesson_id=lesson_id,
-                hangul=kw.word,
+                headword=kw.word,
                 meaning_vi=meaning,
                 known=any(k in cards for k in group),
             )
@@ -231,12 +231,12 @@ def passage_out(pick: Pick, ctx: Context, cards: dict[Key, Card]) -> DailyPassag
     return DailyPassageOut(
         id=p.id,
         kind=p.kind,  # type: ignore[arg-type]
-        title_ko=p.title_ko,
+        title_en=p.title_en,
         title_vi=p.title_vi,
         scene_vi=p.scene_vi,
         speakers=p.speakers,
         lines=lines,
-        text_ko=p.text_ko,
+        text_en=p.text_en,
         voice=passages.VOICE_OF["N"],
         glossary=[DailyGlossOut(ko=g.ko, vi=g.vi) for g in p.glossary],
         questions=[DailyQuestionOut(q_vi=q.q_vi, options=list(q.options)) for q in p.questions],

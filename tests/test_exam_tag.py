@@ -12,7 +12,7 @@ from app.services import lesson_seed as seed
 def lesson(**over):
     base = {
         "slug": "sinh-hoat-99-thu", "title": "Thử", "topic": "Thử", "track": "intermediate", "level": 3,
-        "sort_order": 99, "summary": "x", "vocab": [{"hangul": "가", "pos": "N", "meaning_vi": "a", "priority": "core"}],
+        "sort_order": 99, "summary": "x", "vocab": [{"headword": "가", "pos": "N", "meaning_vi": "a", "priority": "core"}],
     }
     base.update(over)
     return base
@@ -22,7 +22,7 @@ class ValidationTests(unittest.TestCase):
     def test_a_stage_tag_is_accepted_on_words_cards_and_notes(self):
         s = seed.LessonSeed.model_validate(
             lesson(
-                vocab=[{"hangul": "가", "pos": "N", "meaning_vi": "a", "priority": "core", "exam": "kiip-3"}],
+                vocab=[{"headword": "가", "pos": "N", "meaning_vi": "a", "priority": "core", "exam": "kiip-3"}],
                 grammar=[{"pattern": "V + -고", "meaning_vi": "và", "exam": "kiip-2"}],
                 notes=[{"title": "t", "body": "b", "kind": "fact", "exam": "kiip-5"}],
             )
@@ -38,13 +38,13 @@ class ValidationTests(unittest.TestCase):
         for bad in ("kiip-6", "kiip-0", "KIIP 3", "kiip3", "topik-4", ""):
             with self.subTest(tag=bad), self.assertRaises(ValidationError):
                 seed.LessonSeed.model_validate(
-                    lesson(vocab=[{"hangul": "가", "pos": "N", "meaning_vi": "a", "priority": "core", "exam": bad}])
+                    lesson(vocab=[{"headword": "가", "pos": "N", "meaning_vi": "a", "priority": "core", "exam": bad}])
                 )
 
     def test_the_tag_is_part_of_the_content_hash(self):
         plain = seed.LessonSeed.model_validate(lesson())
         tagged = seed.LessonSeed.model_validate(
-            lesson(vocab=[{"hangul": "가", "pos": "N", "meaning_vi": "a", "priority": "core", "exam": "kiip-3"}])
+            lesson(vocab=[{"headword": "가", "pos": "N", "meaning_vi": "a", "priority": "core", "exam": "kiip-3"}])
         )
         self.assertNotEqual(seed._lesson_hash(plain, None), seed._lesson_hash(tagged, None))
 

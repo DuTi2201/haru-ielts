@@ -1,7 +1,7 @@
 """Curated editorial articles, kept as JSON in app/seed/editorial/ and loaded by hand.
 
 Two kinds of record (see the files):
-  * NEW      has `source_url` + `body_ko` -> inserted (or refreshed when the url is already there);
+  * NEW      has `source_url` + `body_en` -> inserted (or refreshed when the url is already there);
   * REPAIR   has `article_id_prefix`      -> the vocab / grammar / outline / links / practice of an
              article already in the database are replaced; its body is never touched.
 
@@ -33,11 +33,11 @@ log = logging.getLogger("editorial_seed")
 SEED_DIR = Path(__file__).resolve().parent.parent / "seed" / "editorial"
 
 _VOCAB_COLS = (
-    "hangul", "pos", "meaning_vi", "definition_ko", "level", "hanja", "sino_vietnamese",
-    "example_ko", "example_vi", "usage_note_vi", "register", "exam",
+    "headword", "pos", "meaning_vi", "definition_en", "level", "hanja", "sino_vietnamese",
+    "example_en", "example_vi", "usage_note_vi", "register", "exam",
 )
 _GRAMMAR_COLS = (
-    "pattern", "meaning_vi", "level", "example_ko", "example_vi", "usage_context_vi", "topik_tip_vi",
+    "pattern", "meaning_vi", "level", "example_en", "example_vi", "usage_context_vi", "exam_tip_vi",
     "contrast_group", "contrasts",
 )
 _REGISTER = {"văn viết": "written", "văn nói": "spoken", "written": "written", "spoken": "spoken", "neutral": "neutral"}
@@ -66,7 +66,7 @@ def _grammar_row(card: dict[str, Any]) -> dict[str, Any]:
 
 def _link_or_create(db: Session, kind: str, new: list[dict], reuse: list[str], stats: dict) -> list[int]:
     model = VocabItem if kind == "vocab_item" else GrammarPoint
-    key = "hangul" if kind == "vocab_item" else "pattern"
+    key = "headword" if kind == "vocab_item" else "pattern"
     ids: list[int] = []
 
     def add(row_id: int) -> None:
@@ -134,7 +134,7 @@ def _apply(db: Session, rec: dict[str, Any], article: EditorialArticle, old_voca
         if (lid := db.execute(select(Lesson.id).where(Lesson.slug == slug)).scalar_one_or_none()) is not None
     ]
     if len(ids) != len(rec["related_lesson_slugs"]):
-        stats["missing_lessons"].append(rec.get("title_ko") or rec.get("article_id_prefix"))
+        stats["missing_lessons"].append(rec.get("title_en") or rec.get("article_id_prefix"))
     article.related_lesson_ids = ids
     article.unlock_hint = rec["unlock_hint"]
     article.practice = rec["practice"]
@@ -173,8 +173,8 @@ def load(db: Session) -> dict[str, Any]:
                 old_v, old_g = list(article.vocab_ids or []), list(article.grammar_ids or [])
                 stats["articles_updated"] += 1
             article.source_name = rec["source_name"]
-            article.title_ko = rec["title_ko"]
-            article.body_ko = rec["body_ko"]
+            article.title_en = rec["title_en"]
+            article.body_en = rec["body_en"]
             if rec.get("published_date"):
                 article.published_date = datetime.fromisoformat(rec["published_date"]).replace(tzinfo=timezone.utc)
             _apply(db, rec, article, old_v, old_g, stats)

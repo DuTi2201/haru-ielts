@@ -237,7 +237,7 @@ async def create_round(
         plan["source"] = source
 
     seen = [
-        str((t or {}).get("question_ko") or "")
+        str((t or {}).get("question_en") or "")
         for t in (
             await db.execute(
                 select(PresentationSession.topic)
@@ -279,8 +279,8 @@ async def create_round(
     if mode == "defense":
         if topic is None:
             title = body.title.strip()
-            topic = {"question_ko": title, "question_vi": title, "angle_vi": "", "words": [], "source": "title"}
-    elif topic is None or topic["question_ko"] in seen:
+            topic = {"question_en": title, "question_vi": title, "angle_vi": "", "words": [], "source": "title"}
+    elif topic is None or topic["question_en"] in seen:
         topic = presentation.fallback_topic(band, seen, seed=len(seen))
 
     row = PresentationSession(
@@ -330,7 +330,7 @@ async def list_presentations(
                 id=r.id,
                 created_at=r.created_at,
                 mode=r.mode or "topic",
-                title_ko=str((r.topic or {}).get("question_ko") or r.title or ""),
+                title_en=str((r.topic or {}).get("question_en") or r.title or ""),
                 band=r.band,
                 tries=len(attempts),
                 first_overall=overalls[0],
@@ -416,7 +416,7 @@ async def idea_seeds(
             prompt=presentation.build_ideas_prompt(
                 level_rules=conversation._level_rules(row.level),
                 frame=_frame(row),
-                question_ko=row.topic["question_ko"],
+                question_en=row.topic["question_en"],
                 material=row.material or "",
             ),
             response_schema=presentation.IDEAS_SCHEMA,
@@ -448,7 +448,7 @@ async def make_outline(
             prompt=presentation.build_outline_prompt(
                 level_rules=conversation._level_rules(row.level),
                 frame=frame,
-                question_ko=row.topic["question_ko"],
+                question_en=row.topic["question_en"],
                 notes_vi=body.notes_vi,
                 targets=targets,
                 material=row.material or "",
@@ -529,7 +529,7 @@ async def add_attempt(
     prompt = presentation.build_eval_prompt(
         level_rules=conversation._level_rules(row.level),
         frame=frame,
-        question_ko=row.topic["question_ko"],
+        question_en=row.topic["question_en"],
         measure=measure,
         outline=row.outline,
         previous=attempts[-1] if attempts else None,
@@ -595,8 +595,8 @@ async def answer_follow_up(
                 presentation.build_answer_prompt(
                     level_rules=conversation._level_rules(row.level),
                     band=row.band,
-                    question_ko=questions[q]["q_ko"],
-                    talk_ko=(attempt.get("eval") or {}).get("transcript_ko") or "",
+                    question_en=questions[q]["q_en"],
+                    talk_en=(attempt.get("eval") or {}).get("transcript_en") or "",
                     measure=measure,
                     known=_plan(row).get("known") or [],
                 ),

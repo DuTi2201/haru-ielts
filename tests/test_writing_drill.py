@@ -16,8 +16,8 @@ WORD = SourceCard(4, "날씨", "thời tiết")
 def good_exercise(**over):
     data = {
         "text_type": "공지",
-        "title_ko": "야외 행사 안내",
-        "body_ko": "다음 주 토요일에 야외 행사가 있습니다. ㉠ 행사는 오전 10시에 시작합니다. ㉡",
+        "title_en": "야외 행사 안내",
+        "body_en": "다음 주 토요일에 야외 행사가 있습니다. ㉠ 행사는 오전 10시에 시작합니다. ㉡",
         "register": "합쇼체",
         "blanks": [
             {"label": "㉠", "intent_vi": "Nói rằng nếu trời mưa thì cần mang ô", "model_answer": "비가 오면 우산을 쓰고 오십시오.",
@@ -110,13 +110,13 @@ class ParseGeneratedTests(unittest.TestCase):
         out = wd.parse_generated(good_exercise(), self.TARGETS)
         self.assertEqual([b["label"] for b in out["blanks"]], ["㉠", "㉡"])
         self.assertEqual(out["blanks"][0]["uses"], ["비가 오다", "우산을 쓰다"])
-        self.assertEqual(out["targets"], [{"item_id": 1, "hangul": "비가 오다", "meaning_vi": "trời mưa"},
-                                          {"item_id": 3, "hangul": "우산을 쓰다", "meaning_vi": "che ô"}])
+        self.assertEqual(out["targets"], [{"item_id": 1, "headword": "비가 오다", "meaning_vi": "trời mưa"},
+                                          {"item_id": 3, "headword": "우산을 쓰다", "meaning_vi": "che ô"}])
         self.assertEqual((out["text_type"], out["register"]), ("공지", "합쇼체"))
 
     def test_each_blank_marker_must_appear_exactly_once(self):
-        self.assertIsNone(wd.parse_generated(good_exercise(body_ko="㉠ 안내입니다. ㉠ 감사합니다."), self.TARGETS))
-        self.assertIsNone(wd.parse_generated(good_exercise(body_ko="안내입니다. ㉠ 감사합니다."), self.TARGETS))
+        self.assertIsNone(wd.parse_generated(good_exercise(body_en="㉠ 안내입니다. ㉠ 감사합니다."), self.TARGETS))
+        self.assertIsNone(wd.parse_generated(good_exercise(body_en="안내입니다. ㉠ 감사합니다."), self.TARGETS))
 
     def test_there_must_be_two_distinct_blanks(self):
         one = good_exercise()
@@ -133,7 +133,7 @@ class ParseGeneratedTests(unittest.TestCase):
             self.assertIsNone(wd.parse_generated(data, self.TARGETS), bad)
 
     def test_han_characters_in_the_text_are_rejected(self):
-        self.assertIsNone(wd.parse_generated(good_exercise(body_ko="學校 행사입니다. ㉠ ㉡"), self.TARGETS))
+        self.assertIsNone(wd.parse_generated(good_exercise(body_en="學校 행사입니다. ㉠ ㉡"), self.TARGETS))
 
     def test_a_blank_without_an_intent_is_rejected(self):
         data = good_exercise()
@@ -151,7 +151,7 @@ class ParseGeneratedTests(unittest.TestCase):
         self.assertEqual((out["text_type"], out["register"]), ("안내문", "합쇼체"))  # register read from the text
 
     def test_garbage_is_rejected_not_raised(self):
-        for data in ({}, {"body_ko": 5}, {"body_ko": "㉠㉡", "blanks": "x"}, {"body_ko": "㉠㉡", "blanks": [1, 2]}):
+        for data in ({}, {"body_en": 5}, {"body_en": "㉠㉡", "blanks": "x"}, {"body_en": "㉠㉡", "blanks": [1, 2]}):
             self.assertIsNone(wd.parse_generated(data, self.TARGETS))
 
 
@@ -199,7 +199,7 @@ class BuildExerciseTests(unittest.TestCase):
             self.build(model)
 
     def test_a_rule_breaking_exercise_is_not_even_sent_to_the_checker(self):
-        model = FakeModel(generated=[good_exercise(body_ko="없음"), good_exercise()], verified=[OK_CHECK])
+        model = FakeModel(generated=[good_exercise(body_en="없음"), good_exercise()], verified=[OK_CHECK])
         self.build(model)
         self.assertEqual([c["response_schema"] is wd.VERIFY_SCHEMA for c in model.calls], [False, False, True])
 
@@ -321,7 +321,7 @@ class ErrorRowsTests(unittest.TestCase):
         out = wd.assemble_result(EXERCISE, answers, {"blanks": [ai("㉠", "minor", fixes), ai("㉡")]})
         rows = wd.error_rows(out)
         self.assertEqual(sorted(r["error_type"] for r in rows), ["writing_grammar", "writing_spelling"])
-        self.assertEqual(rows[0]["example_ko"], "비가 오면 우산을 쓰고 오십시오.")
+        self.assertEqual(rows[0]["example_en"], "비가 오면 우산을 쓰고 오십시오.")
         self.assertEqual(rows[0]["detail"]["label"], "㉠")
 
     def test_a_blank_that_is_off_with_no_correction_is_a_content_slip(self):
@@ -334,7 +334,7 @@ class ErrorRowsTests(unittest.TestCase):
     def test_an_empty_blank_is_logged_with_the_model_answer_as_the_example(self):
         out = wd.assemble_result(EXERCISE, {"㉠": "", "㉡": "많은 참석 바랍니다."}, {"blanks": [ai("㉡")]})
         (row,) = wd.error_rows(out)
-        self.assertEqual((row["error_type"], row["example_ko"]), ("writing_content", "비가 오면 우산을 쓰고 오십시오."))
+        self.assertEqual((row["error_type"], row["example_en"]), ("writing_content", "비가 오면 우산을 쓰고 오십시오."))
 
 
 class GradeAnswersTests(unittest.TestCase):

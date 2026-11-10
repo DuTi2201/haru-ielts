@@ -193,7 +193,7 @@ class KnowItem:
     kind: str  # grammar | word | phrase
     ko: str
     vi: str
-    example_ko: str | None
+    example_en: str | None
     level: int
     strength: float | None
     last_correct: bool | None
@@ -247,12 +247,12 @@ def choose_targets(
     out: list[dict[str, Any]] = []
     for kind, n in (("grammar", n_grammar), ("word", n_words)):
         for w, _, it, why in sorted(pool[kind], key=lambda x: (-x[0], x[1]))[:n]:
-            out.append({"key": it.key, "kind": it.kind, "ko": it.ko, "vi": it.vi, "example_ko": it.example_ko or "", "why_vi": why})
+            out.append({"key": it.key, "kind": it.kind, "ko": it.ko, "vi": it.vi, "example_en": it.example_en or "", "why_vi": why})
     if mode == "defense" and b >= 3:
         phrases = [(i, ko, vi) for i, (ko, vi, lv) in enumerate(ACADEMIC_PHRASES) if lv <= b]
         fresh = [p for p in phrases if not mastered(usage, f"p:{p[0]}")] or phrases
         i, ko, vi = fresh[_seed(seed, "phrase") % len(fresh)]
-        out.append({"key": f"p:{i}", "kind": "phrase", "ko": ko, "vi": vi, "example_ko": "",
+        out.append({"key": f"p:{i}", "kind": "phrase", "ko": ko, "vi": vi, "example_en": "",
                     "why_vi": "Mẫu câu thuyết trình học thuật"})
     return out
 

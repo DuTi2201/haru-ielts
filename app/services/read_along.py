@@ -72,7 +72,7 @@ def easy_units(title: str | None, pack: dict[str, Any]) -> list[Unit]:
     if head:
         units.append(Unit(TITLE_PARAGRAPH, 0, head))
     for p, para in enumerate(pack.get("paragraphs", [])):
-        text = (para.get("easy_ko") or "").strip()
+        text = (para.get("easy_en") or "").strip()
         if not text:
             text = " ".join(s["ko"] for s in para.get("sentences", []))
         text = speakable(re.sub(r"\s+", " ", text))

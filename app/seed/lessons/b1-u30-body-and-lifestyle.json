@@ -1,7 +1,7 @@
 {
  "slug": "b1-u30-body-and-lifestyle",
  "title": "Unit 30 · Cơ thể và lối sống",
- "title_ko": "Body and lifestyle",
+ "title_en": "Body and lifestyle",
  "topic": "Destination B1 · Lấy gốc",
  "track": "beginner",
  "level": 3,
@@ -9,7 +9,7 @@
  "summary": "Nói về sức khỏe, ăn uống và lối sống; phân biệt affect và effect, cure và treat. 30 từ chủ đề, 8 cụm động từ, 6 cụm giới từ, 11 mẫu giới từ, 10 họ từ.",
  "vocab": [
   {
-   "hangul": "affect",
+   "headword": "affect",
    "pos": "V",
    "meaning_vi": "ảnh hưởng đến (động từ; danh từ là effect)",
    "family": "1 · Topic vocabulary",
@@ -17,7 +17,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "balance",
+   "headword": "balance",
    "pos": "X",
    "meaning_vi": "(v) giữ thăng bằng, cân bằng; (n) sự cân bằng",
    "family": "1 · Topic vocabulary",
@@ -25,7 +25,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "benefit",
+   "headword": "benefit",
    "pos": "X",
    "meaning_vi": "(v) có lợi cho, được lợi; (n) lợi ích",
    "family": "1 · Topic vocabulary",
@@ -33,7 +33,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "breathe",
+   "headword": "breathe",
    "pos": "V",
    "meaning_vi": "thở",
    "family": "1 · Topic vocabulary",
@@ -41,7 +41,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "chew",
+   "headword": "chew",
    "pos": "V",
    "meaning_vi": "nhai",
    "family": "1 · Topic vocabulary",
@@ -49,7 +49,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "chop",
+   "headword": "chop",
    "pos": "V",
    "meaning_vi": "chặt, thái (thành miếng)",
    "family": "1 · Topic vocabulary",
@@ -57,7 +57,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "contain",
+   "headword": "contain",
    "pos": "V",
    "meaning_vi": "chứa, có chứa",
    "family": "1 · Topic vocabulary",
@@ -65,7 +65,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "cough",
+   "headword": "cough",
    "pos": "X",
    "meaning_vi": "(v) ho; (n) tiếng ho, cơn ho",
    "family": "1 · Topic vocabulary",
@@ -73,7 +73,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "cure",
+   "headword": "cure",
    "pos": "X",
    "meaning_vi": "(v) chữa khỏi; (n) phương thuốc, cách chữa",
    "family": "1 · Topic vocabulary",
@@ -81,7 +81,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "exercise",
+   "headword": "exercise",
    "pos": "X",
    "meaning_vi": "(v) tập thể dục; (n) bài tập, việc tập luyện",
    "family": "1 · Topic vocabulary",
@@ -89,7 +89,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "flu",
+   "headword": "flu",
    "pos": "N",
    "meaning_vi": "bệnh cúm",
    "family": "1 · Topic vocabulary",
@@ -97,7 +97,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "have an operation",
+   "headword": "have an operation",
    "pos": "V",
    "meaning_vi": "được phẫu thuật, đi mổ",
    "family": "1 · Topic vocabulary",
@@ -105,7 +105,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "healthy",
+   "headword": "healthy",
    "pos": "A",
    "meaning_vi": "khỏe mạnh; lành mạnh",
    "family": "1 · Topic vocabulary",
@@ -113,7 +113,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "ignore",
+   "headword": "ignore",
    "pos": "V",
    "meaning_vi": "phớt lờ, bỏ qua",
    "family": "1 · Topic vocabulary",
@@ -121,7 +121,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "infection",
+   "headword": "infection",
    "pos": "N",
    "meaning_vi": "sự nhiễm trùng",
    "family": "1 · Topic vocabulary",
@@ -129,7 +129,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "ingredient",
+   "headword": "ingredient",
    "pos": "N",
    "meaning_vi": "nguyên liệu, thành phần",
    "family": "1 · Topic vocabulary",
@@ -137,7 +137,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "injury",
+   "headword": "injury",
    "pos": "N",
    "meaning_vi": "chấn thương",
    "family": "1 · Topic vocabulary",
@@ -145,7 +145,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "limit",
+   "headword": "limit",
    "pos": "X",
    "meaning_vi": "(v) hạn chế; (n) giới hạn",
    "family": "1 · Topic vocabulary",
@@ -153,7 +153,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "meal",
+   "headword": "meal",
    "pos": "N",
    "meaning_vi": "bữa ăn",
    "family": "1 · Topic vocabulary",
@@ -161,7 +161,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "pill",
+   "headword": "pill",
    "pos": "N",
    "meaning_vi": "viên thuốc",
    "family": "1 · Topic vocabulary",
@@ -169,7 +169,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "recover",
+   "headword": "recover",
    "pos": "V",
    "meaning_vi": "bình phục",
    "family": "1 · Topic vocabulary",
@@ -177,7 +177,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "salty",
+   "headword": "salty",
    "pos": "A",
    "meaning_vi": "mặn",
    "family": "1 · Topic vocabulary",
@@ -185,7 +185,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "slice",
+   "headword": "slice",
    "pos": "X",
    "meaning_vi": "(v) cắt lát; (n) lát mỏng",
    "family": "1 · Topic vocabulary",
@@ -193,7 +193,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "sour",
+   "headword": "sour",
    "pos": "A",
    "meaning_vi": "chua",
    "family": "1 · Topic vocabulary",
@@ -201,7 +201,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "spicy",
+   "headword": "spicy",
    "pos": "A",
    "meaning_vi": "cay",
    "family": "1 · Topic vocabulary",
@@ -209,7 +209,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "stir",
+   "headword": "stir",
    "pos": "V",
    "meaning_vi": "khuấy",
    "family": "1 · Topic vocabulary",
@@ -217,7 +217,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "suffer",
+   "headword": "suffer",
    "pos": "V",
    "meaning_vi": "chịu đựng, mắc (bệnh)",
    "family": "1 · Topic vocabulary",
@@ -225,7 +225,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "taste",
+   "headword": "taste",
    "pos": "X",
    "meaning_vi": "(v) có vị, nếm; (n) vị, khẩu vị",
    "family": "1 · Topic vocabulary",
@@ -233,7 +233,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "treatment",
+   "headword": "treatment",
    "pos": "N",
    "meaning_vi": "sự điều trị",
    "family": "1 · Topic vocabulary",
@@ -241,7 +241,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "vitamin",
+   "headword": "vitamin",
    "pos": "N",
    "meaning_vi": "vi-ta-min",
    "family": "1 · Topic vocabulary",
@@ -249,257 +249,257 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word list pp. 184–201"
   },
   {
-   "hangul": "cut down (on)",
+   "headword": "cut down (on)",
    "pos": "V",
    "meaning_vi": "cắt giảm",
-   "example_ko": "Doctors advise people to cut down on sugar.",
+   "example_en": "Doctors advise people to cut down on sugar.",
    "example_vi": "Bác sĩ khuyên mọi người giảm đường.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "cut off",
+   "headword": "cut off",
    "pos": "V",
    "meaning_vi": "cắt (điện, nước, liên lạc); cắt rời",
-   "example_ko": "The storm cut off the electricity for two days.",
+   "example_en": "The storm cut off the electricity for two days.",
    "example_vi": "Cơn bão làm mất điện hai ngày.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "lie down",
+   "headword": "lie down",
    "pos": "V",
    "meaning_vi": "nằm xuống",
-   "example_ko": "I have a headache, so I am going to lie down.",
+   "example_en": "I have a headache, so I am going to lie down.",
    "example_vi": "Tôi đau đầu nên đi nằm một lát.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "sit down",
+   "headword": "sit down",
    "pos": "V",
    "meaning_vi": "ngồi xuống",
-   "example_ko": "Please sit down and open your books.",
+   "example_en": "Please sit down and open your books.",
    "example_vi": "Mời ngồi xuống và mở sách ra.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "stand up",
+   "headword": "stand up",
    "pos": "V",
    "meaning_vi": "đứng dậy",
-   "example_ko": "Everyone stood up when the judge came in.",
+   "example_en": "Everyone stood up when the judge came in.",
    "example_vi": "Mọi người đứng dậy khi thẩm phán bước vào.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "stay up",
+   "headword": "stay up",
    "pos": "V",
    "meaning_vi": "thức khuya",
-   "example_ko": "I stayed up until midnight to finish my homework.",
+   "example_en": "I stayed up until midnight to finish my homework.",
    "example_vi": "Tôi thức đến nửa đêm để làm xong bài tập.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "get over",
+   "headword": "get over",
    "pos": "V",
    "meaning_vi": "vượt qua, bình phục sau",
-   "example_ko": "It took her a month to get over the flu.",
+   "example_en": "It took her a month to get over the flu.",
    "example_vi": "Cô ấy mất một tháng mới khỏi cúm.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "put off",
+   "headword": "put off",
    "pos": "V",
    "meaning_vi": "hoãn lại",
-   "example_ko": "They put off the meeting until Monday.",
+   "example_en": "They put off the meeting until Monday.",
    "example_vi": "Họ hoãn cuộc họp đến thứ Hai.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "in addition (to)",
+   "headword": "in addition (to)",
    "pos": "X",
    "meaning_vi": "ngoài ra, thêm vào",
-   "example_ko": "In addition to English, she speaks French.",
+   "example_en": "In addition to English, she speaks French.",
    "example_vi": "Ngoài tiếng Anh, cô ấy còn nói tiếng Pháp.",
    "family": "3 · Prepositional phrases",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "in comparison to/with",
+   "headword": "in comparison to/with",
    "pos": "X",
    "meaning_vi": "so với",
-   "example_ko": "The city is quiet in comparison with Hanoi.",
+   "example_en": "The city is quiet in comparison with Hanoi.",
    "example_vi": "Thành phố này yên tĩnh so với Hà Nội.",
    "family": "3 · Prepositional phrases",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "on a diet",
+   "headword": "on a diet",
    "pos": "X",
    "meaning_vi": "đang ăn kiêng",
-   "example_ko": "I am on a diet, so no cake for me.",
+   "example_en": "I am on a diet, so no cake for me.",
    "example_vi": "Tôi đang ăn kiêng nên không ăn bánh đâu.",
    "family": "3 · Prepositional phrases",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "at risk",
+   "headword": "at risk",
    "pos": "X",
    "meaning_vi": "có nguy cơ gặp nguy hiểm",
-   "example_ko": "Old people are more at risk in very hot weather.",
+   "example_en": "Old people are more at risk in very hot weather.",
    "example_vi": "Người già dễ gặp nguy hiểm hơn khi trời rất nóng.",
    "family": "3 · Prepositional phrases",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "in shape",
+   "headword": "in shape",
    "pos": "X",
    "meaning_vi": "có thể lực tốt",
-   "example_ko": "Cycling to work keeps me in shape.",
+   "example_en": "Cycling to work keeps me in shape.",
    "example_vi": "Đạp xe đi làm giúp tôi giữ thể lực.",
    "family": "3 · Prepositional phrases",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "at night",
+   "headword": "at night",
    "pos": "X",
    "meaning_vi": "vào ban đêm",
-   "example_ko": "The streets are very quiet at night.",
+   "example_en": "The streets are very quiet at night.",
    "example_vi": "Ban đêm đường phố rất yên tĩnh.",
    "family": "3 · Prepositional phrases",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "addicted to",
+   "headword": "addicted to",
    "pos": "X",
    "meaning_vi": "nghiện",
-   "example_ko": "Many teenagers are addicted to their phones.",
+   "example_en": "Many teenagers are addicted to their phones.",
    "example_vi": "Nhiều thanh thiếu niên nghiện điện thoại.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "allergic to",
+   "headword": "allergic to",
    "pos": "X",
    "meaning_vi": "dị ứng với",
-   "example_ko": "She is allergic to seafood.",
+   "example_en": "She is allergic to seafood.",
    "example_vi": "Cô ấy dị ứng hải sản.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "combine sth with",
+   "headword": "combine sth with",
    "pos": "X",
    "meaning_vi": "kết hợp cái gì với",
-   "example_ko": "She combines work with study.",
+   "example_en": "She combines work with study.",
    "example_vi": "Cô ấy vừa làm vừa học.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "continue with",
+   "headword": "continue with",
    "pos": "X",
    "meaning_vi": "tiếp tục với",
-   "example_ko": "Please continue with your work.",
+   "example_en": "Please continue with your work.",
    "example_vi": "Mời tiếp tục công việc của bạn.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "covered in/with",
+   "headword": "covered in/with",
    "pos": "X",
    "meaning_vi": "phủ đầy",
-   "example_ko": "The mountains were covered with snow.",
+   "example_en": "The mountains were covered with snow.",
    "example_vi": "Núi phủ đầy tuyết.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "a cure for",
+   "headword": "a cure for",
    "pos": "X",
    "meaning_vi": "cách chữa cho",
-   "example_ko": "Scientists are looking for a cure for the disease.",
+   "example_en": "Scientists are looking for a cure for the disease.",
    "example_vi": "Các nhà khoa học đang tìm cách chữa căn bệnh này.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "die from/of",
+   "headword": "die from/of",
    "pos": "X",
    "meaning_vi": "chết vì",
-   "example_ko": "Fewer people die of this illness today.",
+   "example_en": "Fewer people die of this illness today.",
    "example_vi": "Ngày nay ít người chết vì bệnh này hơn.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "pleased with",
+   "headword": "pleased with",
    "pos": "X",
    "meaning_vi": "hài lòng với",
-   "example_ko": "The teacher was pleased with our progress.",
+   "example_en": "The teacher was pleased with our progress.",
    "example_vi": "Giáo viên hài lòng với sự tiến bộ của chúng tôi.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "a recipe for",
+   "headword": "a recipe for",
    "pos": "X",
    "meaning_vi": "công thức nấu (món gì)",
-   "example_ko": "This is my mother's recipe for chicken soup.",
+   "example_en": "This is my mother's recipe for chicken soup.",
    "example_vi": "Đây là công thức nấu súp gà của mẹ tôi.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "recover from",
+   "headword": "recover from",
    "pos": "X",
    "meaning_vi": "bình phục sau",
-   "example_ko": "He is recovering from an operation.",
+   "example_en": "He is recovering from an operation.",
    "example_vi": "Anh ấy đang hồi phục sau ca mổ.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "smell of",
+   "headword": "smell of",
    "pos": "X",
    "meaning_vi": "có mùi",
-   "example_ko": "The kitchen smells of coffee.",
+   "example_en": "The kitchen smells of coffee.",
    "example_vi": "Bếp thơm mùi cà phê.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "bake",
+   "headword": "bake",
    "pos": "V",
    "meaning_vi": "nướng (bánh)",
    "note_vi": "Họ từ: `baker` (danh từ chỉ người), `bakery` (danh từ)",
@@ -508,7 +508,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word formation pp. 212–216"
   },
   {
-   "hangul": "bend",
+   "headword": "bend",
    "pos": "V",
    "meaning_vi": "uốn cong",
    "note_vi": "Họ từ: `bent` (tính từ)",
@@ -517,7 +517,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word formation pp. 212–216"
   },
   {
-   "hangul": "cook",
+   "headword": "cook",
    "pos": "V",
    "meaning_vi": "nấu ăn",
    "note_vi": "Họ từ: `cooker` (danh từ), `cookery` (danh từ)",
@@ -526,7 +526,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word formation pp. 212–216"
   },
   {
-   "hangul": "intend",
+   "headword": "intend",
    "pos": "V",
    "meaning_vi": "có ý định",
    "note_vi": "Họ từ: `intention` (danh từ), `intentional` (tính từ)",
@@ -535,7 +535,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word formation pp. 212–216"
   },
   {
-   "hangul": "jog",
+   "headword": "jog",
    "pos": "V",
    "meaning_vi": "chạy bộ",
    "note_vi": "Họ từ: `jogging` (danh từ), `jogger` (danh từ chỉ người)",
@@ -544,7 +544,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word formation pp. 212–216"
   },
   {
-   "hangul": "medicine",
+   "headword": "medicine",
    "pos": "N",
    "meaning_vi": "thuốc; y học",
    "note_vi": "Họ từ: `medical` (tính từ)",
@@ -553,7 +553,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word formation pp. 212–216"
   },
   {
-   "hangul": "pain",
+   "headword": "pain",
    "pos": "N",
    "meaning_vi": "cơn đau",
    "note_vi": "Họ từ: `painful` (tính từ), `painless` (dạng trái nghĩa)",
@@ -562,7 +562,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word formation pp. 212–216"
   },
   {
-   "hangul": "reduce",
+   "headword": "reduce",
    "pos": "V",
    "meaning_vi": "giảm",
    "note_vi": "Họ từ: `reduction` (danh từ)",
@@ -571,7 +571,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word formation pp. 212–216"
   },
   {
-   "hangul": "sense",
+   "headword": "sense",
    "pos": "N",
    "meaning_vi": "giác quan; lý trí",
    "note_vi": "Họ từ: `sensible` (tính từ), `sensitive` (tính từ)",
@@ -580,7 +580,7 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127; word formation pp. 212–216"
   },
   {
-   "hangul": "weigh",
+   "headword": "weigh",
    "pos": "V",
    "meaning_vi": "cân nặng",
    "note_vi": "Họ từ: `weight` (danh từ)",

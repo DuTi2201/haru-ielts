@@ -34,7 +34,7 @@ class Sentence:
 
     id: uuid.UUID
     film_id: int
-    text_ko: str
+    text_en: str
     kind: str
     level: int
     register: str
@@ -136,7 +136,7 @@ def effective_register(text: str, stored: str) -> str:
 
 
 def with_effective_register(s: Sentence) -> Sentence:
-    reg = effective_register(s.text_ko, s.register)
+    reg = effective_register(s.text_en, s.register)
     return s if reg == s.register else replace(s, register=reg)
 
 
@@ -149,7 +149,7 @@ def dedupe(sentences: list[Sentence]) -> list[Sentence]:
     hides the copy that has one."""
     seen: dict[str, Sentence] = {}
     for s in sorted(sentences, key=lambda x: (x.meaning_vi is None, x.film_id, str(x.id))):
-        key = normalize_key(s.text_ko)
+        key = normalize_key(s.text_en)
         if key and key not in seen:
             seen[key] = s
     return list(seen.values())

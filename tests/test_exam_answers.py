@@ -17,7 +17,7 @@ def question(n, *, status="pending", answer=None, flags=None, confidence=0.9):
         kind="exam_item",
         status=status,
         confidence=confidence,
-        payload={"number": n, "stem_ko": f"문제 {n}", "options": ["가", "나", "다", "라"], "answer": answer, "answer_from_key": answer is not None, "flags": flags or []},
+        payload={"number": n, "stem_en": f"문제 {n}", "options": ["가", "나", "다", "라"], "answer": answer, "answer_from_key": answer is not None, "flags": flags or []},
     )
 
 
@@ -89,9 +89,9 @@ class AnswerRowsTests(unittest.TestCase):
 
 class StagingTests(unittest.TestCase):
     def draft(self):
-        passage = {"payload": {"local_ref": "P1", "kind": "đọc hiểu", "body_ko": "본문", "withheld": False, "source_page": 3, "flags": []}, "confidence": 0.9, "flags": []}
-        ok = {"payload": {"number": 1, "stem_ko": "가", "options": ["a", "b", "c", "d"], "answer": None, "flags": []}, "confidence": 0.9, "flags": []}
-        bad = {"payload": {"number": 2, "stem_ko": "나", "options": ["a"], "answer": None, "flags": ["withheld"]}, "confidence": 0.9, "flags": ["withheld"]}
+        passage = {"payload": {"local_ref": "P1", "kind": "đọc hiểu", "body_en": "본문", "withheld": False, "source_page": 3, "flags": []}, "confidence": 0.9, "flags": []}
+        ok = {"payload": {"number": 1, "stem_en": "가", "options": ["a", "b", "c", "d"], "answer": None, "flags": []}, "confidence": 0.9, "flags": []}
+        bad = {"payload": {"number": 2, "stem_en": "나", "options": ["a"], "answer": None, "flags": ["withheld"]}, "confidence": 0.9, "flags": ["withheld"]}
         return ex.Draft(passages=[passage], items=[ok, bad], summary={"section": "đọc", "gaps": []}, key={})
 
     def test_each_entry_becomes_an_item_with_its_light_and_a_summary_follows(self):

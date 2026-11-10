@@ -82,7 +82,7 @@ def fake_generate_factory(*, drop_translation_for=None, fail_first_batch=False, 
             paragraphs.append(
                 {
                     "index": idx,
-                    "easy_ko": f"쉬운 문장 {idx}.",
+                    "easy_en": f"쉬운 문장 {idx}.",
                     "sentences": [
                         {
                             "i": int(i),
@@ -123,7 +123,7 @@ class BuildPackTests(unittest.TestCase):
         self.assertEqual(len(pack["paragraphs"]), 3)
         self.assertEqual([len(p["sentences"]) for p in pack["paragraphs"]], [2, 2, 1])
         self.assertEqual(pack["paragraphs"][0]["sentences"][1]["vi"], "dịch 0-1")
-        self.assertEqual(pack["paragraphs"][1]["easy_ko"], "쉬운 문장 1.")
+        self.assertEqual(pack["paragraphs"][1]["easy_en"], "쉬운 문장 1.")
         # sentence ko is the article's own sentence, in order
         self.assertEqual(" ".join(s["ko"] for s in pack["paragraphs"][0]["sentences"]), P1)
         self.assertEqual(calls["overview"], 1)
@@ -189,8 +189,8 @@ class SigAndEasyTests(unittest.TestCase):
     def test_easy_tts_text_uses_simple_paragraphs_and_title(self):
         pack = {
             "paragraphs": [
-                {"easy_ko": "정부가 큰 일을 해요.", "sentences": [{"ko": "원문."}]},
-                {"easy_ko": None, "sentences": [{"ko": "원문 하나입니다."}, {"ko": "원문 둘입니다."}]},
+                {"easy_en": "정부가 큰 일을 해요.", "sentences": [{"ko": "원문."}]},
+                {"easy_en": None, "sentences": [{"ko": "원문 하나입니다."}, {"ko": "원문 둘입니다."}]},
             ]
         }
         text = sp.easy_tts_text("[사설] 여명학교", pack)

@@ -391,13 +391,13 @@ class LoadContextTests(unittest.IsolatedAsyncioTestCase):
             R([(7, 36), (3, 33)]),  # vocab -> lesson
             R([SimpleNamespace(id=2, name="Sinh hoạt hàng ngày")]),  # topic of lesson 36
             R([  # earlier lessons of the topic, newest first; 34 was never touched
-                SimpleNamespace(id=34, title="B4", title_ko=None, summary=None, sort_order=4),
-                SimpleNamespace(id=33, title="B3", title_ko=None, summary=None, sort_order=3),
+                SimpleNamespace(id=34, title="B4", title_en=None, summary=None, sort_order=4),
+                SimpleNamespace(id=33, title="B3", title_en=None, summary=None, sort_order=3),
             ]),
             R([
-                SimpleNamespace(id=7, lesson_id=36, hangul="일어나다", meaning_vi="thức dậy", priority="core"),
-                SimpleNamespace(id=8, lesson_id=36, hangul="낯선", meaning_vi="lạ", priority="recognize"),
-                SimpleNamespace(id=3, lesson_id=33, hangul="시간", meaning_vi="thời gian", priority="core"),
+                SimpleNamespace(id=7, lesson_id=36, headword="일어나다", meaning_vi="thức dậy", priority="core"),
+                SimpleNamespace(id=8, lesson_id=36, headword="낯선", meaning_vi="lạ", priority="recognize"),
+                SimpleNamespace(id=3, lesson_id=33, headword="시간", meaning_vi="thời gian", priority="core"),
             ]),
             R([]),  # grammar
             R([{"kind": "adaptive", "tested": True, "gaps": [{"patterns": ["N에서", "V + -고 싶다"]}]}]),  # entry check
@@ -405,7 +405,7 @@ class LoadContextTests(unittest.IsolatedAsyncioTestCase):
         ]
         db = mock.MagicMock()
         db.execute = mock.AsyncMock(side_effect=answers)
-        db.get = mock.AsyncMock(return_value=SimpleNamespace(id=36, title="B6", title_ko="하루", summary=None, sort_order=6, level=2))
+        db.get = mock.AsyncMock(return_value=SimpleNamespace(id=36, title="B6", title_en="하루", summary=None, sort_order=6, level=2))
         got = await conversation_db.load_context(db, profile(), remember=False, now=NOW)
         db.get.assert_awaited_once()
         self.assertEqual(db.get.call_args.args[1], 36)  # the lesson of the card touched last

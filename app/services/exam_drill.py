@@ -42,14 +42,14 @@ class Candidate:
     item_id: uuid.UUID
     number: int
     qtype_code: str
-    stem_ko: str
+    stem_en: str
     options: object  # the JSON column as stored; usable() checks its shape
     answer: int | None
     answer_source: str | None
     skill: str
     passage_kind: str | None
-    passage_ko: str | None
-    instruction_ko: str = ""  # the group instruction printed above the question
+    passage_en: str | None
+    instruction_en: str = ""  # the group instruction printed above the question
     passage_linked: bool = False  # a passage row exists (its text may be missing: withheld, a chart)
 
 
@@ -73,8 +73,8 @@ def usable(c: Candidate) -> bool:
     options = clean_options(c.options)
     if options is None or not 1 <= c.answer <= len(options):
         return False
-    stem, instruction = c.stem_ko.strip(), (c.instruction_ko or "").strip()
-    passage = (c.passage_ko or "").strip()
+    stem, instruction = c.stem_en.strip(), (c.instruction_en or "").strip()
+    passage = (c.passage_en or "").strip()
     if not (stem or instruction):
         return False
     if c.passage_linked and not passage:

@@ -29,9 +29,9 @@ _KEY_STRIP_RE = re.compile(r"[\s·\-~()（）.,:;!?]")
 
 class Card(Protocol):
     id: int
-    hangul: str
+    headword: str
     pos: str | None
-    example_ko: str | None
+    example_en: str | None
     family: str | None
     node_word: str | None
     distractors: list[str] | None
@@ -40,7 +40,7 @@ class Card(Protocol):
 
 @dataclass(frozen=True)
 class Cloze:
-    prompt_ko: str
+    prompt_en: str
     answer: str
     choices: tuple[str, ...]
 
@@ -78,7 +78,7 @@ def build_cloze(card: Card, mates: Sequence[Card], seed: str) -> Cloze | None:
     others = [m for m in mates if m.id != card.id]
 
     node = card.node_word
-    if node and node in card.hangul and node != card.hangul:
+    if node and node in card.headword and node != card.headword:
         pool = list(card.distractors or [])
         pool += [
             m.node_word
@@ -88,22 +88,22 @@ def build_cloze(card: Card, mates: Sequence[Card], seed: str) -> Cloze | None:
         choices = _pick(node, pool, rng)
         if choices is None:
             return None
-        return Cloze(prompt_ko=card.hangul.replace(node, BLANK, 1), answer=node, choices=choices)
+        return Cloze(prompt_en=card.headword.replace(node, BLANK, 1), answer=node, choices=choices)
 
-    example = card.example_ko or ""
+    example = card.example_en or ""
     if not example or not card.pos:  # without a part of speech the wrong choices could be any word
         return None
-    if card.hangul in example:
-        answer = card.hangul
-        pool = [m.hangul for m in others if m.pos == card.pos and m.hangul not in example]
+    if card.headword in example:
+        answer = card.headword
+        pool = [m.headword for m in others if m.pos == card.pos and m.headword not in example]
     else:
-        stem = _stem(card.hangul)
+        stem = _stem(card.headword)
         if stem is None or len(stem) < 2 or stem not in example:
             return None
         answer = stem
-        pool = [s for m in others if m.pos == card.pos and (s := _stem(m.hangul)) and s not in example]
+        pool = [s for m in others if m.pos == card.pos and (s := _stem(m.headword)) and s not in example]
     rng.shuffle(pool)
     choices = _pick(answer, pool, rng)
     if choices is None:
         return None
-    return Cloze(prompt_ko=example.replace(answer, BLANK, 1), answer=answer, choices=choices)
+    return Cloze(prompt_en=example.replace(answer, BLANK, 1), answer=answer, choices=choices)

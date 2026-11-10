@@ -1,6 +1,6 @@
-"""Builds the word-picture assets from the hand-made maps (scripts/icons/map_*.txt: "<hangul> <emoji>").
+"""Builds the word-picture assets from the hand-made maps (scripts/icons/map_*.txt: "<headword> <emoji>").
 
-  * app/seed/word_icons.json   {hangul: "<codepoint id>"}   read by the lecture slides
+  * app/seed/word_icons.json   {headword: "<codepoint id>"}   read by the lecture slides
   * <frontend>/public/illus/<id>.svg   one small vector picture per id (Noto Emoji, Apache-2.0)
 
 The pictures come from the @svgmoji/noto sprite sheet (npm); pass its all.svg and the frontend folder.

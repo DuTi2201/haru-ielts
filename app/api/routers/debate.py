@@ -115,7 +115,7 @@ async def start_debate(
     side = body.side if sc.kind == "debate" else None
     knowledge = await presentation_db.load_knowledge(db, profile.id)
     setup_in = debate.Setup(
-        scenario=sc, band=band, level_rules=conversation._level_rules(ctx.level), side_ko=side,
+        scenario=sc, band=band, level_rules=conversation._level_rules(ctx.level), side_en=side,
         known=presentation_db.known_patterns(knowledge),
     )
     max_seconds = min(debate.MAX_SECONDS, settings.CONVERSATION_SESSION_SECONDS, left if capped else debate.MAX_SECONDS)
@@ -151,7 +151,7 @@ async def start_debate(
         band=band,
         kind="debate",
         allowed_seconds=max_seconds,
-        scenario={"id": sc.id, "kind": sc.kind, "side": side, "motion": sc.opener_ko if sc.id == "custom" else None,
+        scenario={"id": sc.id, "kind": sc.kind, "side": side, "motion": sc.opener_en if sc.id == "custom" else None,
                   "shift": body.band_shift},
     )
     db.add(row)
@@ -218,7 +218,7 @@ async def finish_debate(
         ctx = await conversation_db.load_context(db, profile, remember=False)
         setup_in = debate.Setup(
             scenario=sc, band=row.band or 1, level_rules=conversation._level_rules(ctx.level),
-            side_ko=(row.scenario or {}).get("side"),
+            side_en=(row.scenario or {}).get("side"),
         )
         try:
             out = await run_in_threadpool(

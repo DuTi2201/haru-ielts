@@ -7,7 +7,7 @@
 - `notes_from_report`: what "Đưa vào ôn tập" keeps from a session — words to learn and the
   sentences Haru corrected (never the learner's own wording) — for the learner's "Sổ trò chuyện" (and, for words that are lesson cards, the review
   queue; see the router).
-- `cards_for_words`: which existing vocabulary card a saved word is (same hangul; a lesson card
+- `cards_for_words`: which existing vocabulary card a saved word is (same headword; a lesson card
   before an article word), so the word is linked to it and enters the review queue. No card is
   ever made up for a word that has none.
 """
@@ -123,14 +123,14 @@ def notes_from_report(report: dict) -> list[dict[str, str]]:
 
 
 def cards_for_words(words: Iterable[str], cards: Iterable[tuple[int, str, int | None]]) -> dict[str, int]:
-    """word -> the vocabulary card it is. `cards` are (id, hangul, lesson_id) rows whose hangul may
+    """word -> the vocabulary card it is. `cards` are (id, headword, lesson_id) rows whose headword may
     match; the match is on the trimmed text. A lesson card wins over a card that belongs to no
     lesson (a news article's word), then the oldest card (lowest id). Words with no card are left
     out: they stay notes only."""
     wanted = {w.strip() for w in words if w and w.strip()}
     best: dict[str, tuple[tuple[bool, int], int]] = {}
-    for card_id, hangul, lesson_id in cards:
-        key = (hangul or "").strip()
+    for card_id, headword, lesson_id in cards:
+        key = (headword or "").strip()
         if key not in wanted:
             continue
         rank = (lesson_id is None, card_id)

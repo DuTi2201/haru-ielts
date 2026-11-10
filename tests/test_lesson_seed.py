@@ -91,7 +91,7 @@ class ValidationTests(unittest.TestCase):
     def lesson(self, **over):
         base = {
             "slug": "sinh-hoat-99-thu", "title": "Thử", "topic": "Thử", "track": "intermediate", "level": 3,
-            "sort_order": 99, "summary": "x", "vocab": [{"hangul": "가", "pos": "N", "meaning_vi": "a", "priority": "core"}],
+            "sort_order": 99, "summary": "x", "vocab": [{"headword": "가", "pos": "N", "meaning_vi": "a", "priority": "core"}],
         }
         base.update(over)
         return base
@@ -101,7 +101,7 @@ class ValidationTests(unittest.TestCase):
 
     def test_duplicates_and_unknown_fields_are_rejected(self):
         with self.assertRaises(ValidationError):
-            seed.LessonSeed.model_validate(self.lesson(vocab=[{"hangul": "가", "pos": "N", "meaning_vi": "a", "priority": "core"}] * 2))
+            seed.LessonSeed.model_validate(self.lesson(vocab=[{"headword": "가", "pos": "N", "meaning_vi": "a", "priority": "core"}] * 2))
         with self.assertRaises(ValidationError):
             seed.LessonSeed.model_validate(self.lesson(surprise=1))
         with self.assertRaises(ValidationError):
@@ -165,7 +165,7 @@ class ExerciseBankTests(unittest.TestCase):
 
             def lesson(slug, order, bank, ids):
                 body = {"slug": slug, "title": "t", "topic": "x", "track": "beginner", "level": 1, "sort_order": order,
-                        "summary": "s", "vocab": [{"hangul": "가", "pos": "N", "meaning_vi": "m", "priority": "core"}],
+                        "summary": "s", "vocab": [{"headword": "가", "pos": "N", "meaning_vi": "m", "priority": "core"}],
                         "bank": bank, "exercise_ids": ids}
                 (root / "lessons" / f"{slug}.json").write_text(json.dumps(body), encoding="utf-8")
 
@@ -207,7 +207,7 @@ class OutputContractTests(unittest.TestCase):
     def essay(self, **over):
         raw = {
             "id": "T5", "skill": "build", "type": "write_essay", "rung": 5, "number": "Bước 5", "title_vi": "t",
-            "points": 10, "limits": {"min": 10, "max": 300}, "model_answer_ko": "저희 가족은 모두 네 명입니다.",
+            "points": 10, "limits": {"min": 10, "max": 300}, "model_answer_en": "저희 가족은 모두 네 명입니다.",
             "uses": [{"form": "저희 가족", "card": "저희"}],
         }
         raw.update(over)
@@ -217,7 +217,7 @@ class OutputContractTests(unittest.TestCase):
         return seed.LessonSeed.model_validate({
             "slug": f"thu-{sort_order:02d}", "title": "Thử", "topic": "Thử", "track": "intermediate", "level": 3,
             "sort_order": sort_order, "summary": "x",
-            "vocab": [{"hangul": h, "pos": "X", "meaning_vi": "a", "priority": "core"} for h in vocab],
+            "vocab": [{"headword": h, "pos": "X", "meaning_vi": "a", "priority": "core"} for h in vocab],
             "grammar": [{"pattern": p, "meaning_vi": "a", "importance": "must"} for p in grammar],
         })
 
@@ -226,7 +226,7 @@ class OutputContractTests(unittest.TestCase):
         with self.assertRaises(ValidationError):
             seed.WriteEssay.model_validate(self.essay(uses=[]))
         with self.assertRaises(ValidationError):
-            seed.WriteEssay.model_validate(self.essay(model_answer_ko=""))
+            seed.WriteEssay.model_validate(self.essay(model_answer_en=""))
         with self.assertRaises(ValidationError):
             seed.WriteEssay.model_validate(self.essay(rung=6))
 
@@ -433,7 +433,7 @@ class GrammarTextTests(unittest.TestCase):
             pattern="Present simple: S + V(s/es)",
             meaning_vi="Hiện tại đơn",
             level=1,
-            example_ko="I usually get up at six.",
+            example_en="I usually get up at six.",
             note_vi="**Lỗi người Việt hay gặp:** quên chia -s.\n*Biên soạn bổ sung:* Destination B1",
             usage_context_vi=(
                 "🟣 **Kiến thức mở rộng** · ✍ **Dùng được**\n"
@@ -442,7 +442,7 @@ class GrammarTextTests(unittest.TestCase):
                 "**Vì sao dễ nhầm:** quên chia động từ\n"
                 "**Trong bài này:** Unit 1"
             ),
-            topik_tip_vi="Dùng ở Speaking Part 1.",
+            exam_tip_vi="Dùng ở Speaking Part 1.",
         ).model_dump(mode="json")
         self.assertEqual([s["key"] for s in out["usage_sections"]], ["form", "when", "why", "lesson"])
         self.assertTrue(out["source_note_vi"])
@@ -485,7 +485,7 @@ class UseLevelTests(unittest.TestCase):
     def test_the_api_card_serves_the_stored_level(self):
         from app.schemas import GrammarPointOut
 
-        base = dict(id=1, lesson_id=1, pattern="Present simple: S + V(s/es)", meaning_vi="x", level=1, example_ko="x")
+        base = dict(id=1, lesson_id=1, pattern="Present simple: S + V(s/es)", meaning_vi="x", level=1, example_en="x")
         self.assertEqual(GrammarPointOut(**base).model_dump(mode="json")["use_level"], "produce")
         self.assertEqual(GrammarPointOut(**base, use_level="recognize").model_dump(mode="json")["use_level"], "recognize")
         self.assertNotIn("use_level_set", GrammarPointOut(**base, use_level="recognize").model_dump(mode="json"))

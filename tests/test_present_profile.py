@@ -30,8 +30,8 @@ def item(key, kind="grammar", level=2, strength=0.9, last_correct=True, introduc
 class RubricAndFluencyTests(unittest.TestCase):
     def test_each_band_has_its_own_bar(self):
         self.assertNotEqual(pp.BAND_RUBRIC[1]["language"], pp.BAND_RUBRIC[5]["language"])
-        p1 = pr.build_eval_prompt(level_rules="L", frame=pr.frame_for(1), question_ko="Q?", measure=MEASURE, outline=None, previous=None)
-        p5 = pr.build_eval_prompt(level_rules="L", frame=pr.frame_for(5), question_ko="Q?", measure=MEASURE, outline=None, previous=None)
+        p1 = pr.build_eval_prompt(level_rules="L", frame=pr.frame_for(1), question_en="Q?", measure=MEASURE, outline=None, previous=None)
+        p5 = pr.build_eval_prompt(level_rules="L", frame=pr.frame_for(5), question_en="Q?", measure=MEASURE, outline=None, previous=None)
         self.assertIn(pp.BAND_RUBRIC[1]["language"], p1)
         self.assertNotIn(pp.BAND_RUBRIC[5]["language"], p1)
         self.assertIn(pp.BAND_RUBRIC[5]["connectives"], p5)
@@ -113,10 +113,10 @@ class ParseTests(unittest.TestCase):
     def test_targets_follow_ups_and_stretch(self):
         targets = [{"key": "g:2", "kind": "grammar", "ko": "-기 때문에", "vi": "vì"}, {"key": "v:1", "kind": "word", "ko": "교통", "vi": "giao thông"}]
         raw = json.loads(eval_json())
-        raw["targets_used"] = [{"key": "g:2", "used": True, "correct": True, "said_ko": "편리하기 때문이에요", "note_vi": "Đúng."},
-                               {"key": "v:1", "used": True, "correct": True, "said_ko": "", "note_vi": ""}]
-        raw["follow_ups"] = [{"q_ko": "왜요?", "q_vi": "Vì sao?", "kind": "why"}, {"q_ko": "예를 들면요?", "q_vi": "", "kind": "example"},
-                             {"q_ko": "다른 의견은요?", "q_vi": "", "kind": "counter"}, {"q_ko": "no hangul", "q_vi": "", "kind": "why"}]
+        raw["targets_used"] = [{"key": "g:2", "used": True, "correct": True, "said_en": "편리하기 때문이에요", "note_vi": "Đúng."},
+                               {"key": "v:1", "used": True, "correct": True, "said_en": "", "note_vi": ""}]
+        raw["follow_ups"] = [{"q_en": "왜요?", "q_vi": "Vì sao?", "kind": "why"}, {"q_en": "예를 들면요?", "q_vi": "", "kind": "example"},
+                             {"q_en": "다른 의견은요?", "q_vi": "", "kind": "counter"}, {"q_en": "no hangul", "q_vi": "", "kind": "why"}]
         raw["stretch"] = [{"ko": "-는 반면에", "vi": "trong khi", "why_vi": "so sánh"}] * 3
         out = pr.parse_eval(json.dumps(raw), pr.frame_for(3), MEASURE, targets)["eval"]
         self.assertEqual([(t["key"], t["used"], t["correct"]) for t in out["targets_used"]], [("g:2", True, True), ("v:1", False, False)])
@@ -133,16 +133,16 @@ class ParseTests(unittest.TestCase):
         self.assertEqual(pr.frame_for(5).max_seconds, 150)
 
     def test_answer(self):
-        a = pr.parse_answer(json.dumps({"transcript_ko": "음 편리하기 때문이에요", "scores": {"directness": 4, "support": 2, "language": 9},
-                                        "note_vi": "x", "better_ko": "y", "better_vi": "z"}), MEASURE)
+        a = pr.parse_answer(json.dumps({"transcript_en": "음 편리하기 때문이에요", "scores": {"directness": 4, "support": 2, "language": 9},
+                                        "note_vi": "x", "better_en": "y", "better_vi": "z"}), MEASURE)
         self.assertEqual((a["scores"]["language"], a["overall"], a["fillers"]), (5, 3.7, 1))
         with self.assertRaises(ValueError):
             pr.parse_answer("{}", MEASURE)
 
     def test_ideas(self):
-        raw = {"seeds": [{"tool_vi": "t", "stance_vi": f"s{i}", "reason_vi": "", "example_vi": "", "hook_ko": "", "hook_vi": ""} for i in range(5)]}
+        raw = {"seeds": [{"tool_vi": "t", "stance_vi": f"s{i}", "reason_vi": "", "example_vi": "", "hook_en": "", "hook_vi": ""} for i in range(5)]}
         self.assertEqual(len(pr.parse_ideas(json.dumps(raw))), 3)
-        self.assertIn("câu hỏi cho người nghe", pr.build_ideas_prompt(level_rules="L", frame=pr.frame_for(4), question_ko="Q"))
+        self.assertIn("câu hỏi cho người nghe", pr.build_ideas_prompt(level_rules="L", frame=pr.frame_for(4), question_en="Q"))
 
 
 # ---------------------------------------------------------------- routes
@@ -165,7 +165,7 @@ class RouteTests(unittest.IsolatedAsyncioTestCase):
             self.addCleanup(p.stop)
 
     async def test_start_is_fitted_to_the_learner(self):
-        made = {"question_ko": "출근할 때 뭐가 더 좋아요?", "question_vi": "", "angle_vi": "", "words": []}
+        made = {"question_en": "출근할 때 뭐가 더 좋아요?", "question_vi": "", "angle_vi": "", "words": []}
         db = db_with(R([]), R(["Bài 6"]), R([]))
         with mock.patch.object(router.gemini_client, "generate_structured", return_value={"text": json.dumps(made)}) as gen:
             out = await router.start_presentation(db, PROFILE, PresentStartRequest(band_shift=1))
@@ -189,10 +189,10 @@ class RouteTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(out.targets[-1].kind, "phrase")  # band 3: an academic phrase to use
 
     async def test_first_try_moves_the_band_and_counts_usage(self):
-        targets = [{"key": "g:7", "kind": "grammar", "ko": "-기 때문에", "vi": "vì", "example_ko": "", "why_vi": ""}]
+        targets = [{"key": "g:7", "kind": "grammar", "ko": "-기 때문에", "vi": "vì", "example_en": "", "why_vi": ""}]
         r = row(plan={"base_band": 3, "shift": 0, "focus": None, "targets": targets, "known": ["-아서/어서"]})
         raw = json.loads(eval_json(scores={k: 5 for k in pr.CRITERIA}))
-        raw["targets_used"] = [{"key": "g:7", "used": True, "correct": True, "said_ko": "편리하기 때문이에요", "note_vi": ""}]
+        raw["targets_used"] = [{"key": "g:7", "used": True, "correct": True, "said_en": "편리하기 때문이에요", "note_vi": ""}]
         db = db_with(R([[]]), R([[]]))
         db.get.return_value = r
         long_wav = base64.b64encode(wav([("voice", 4.0), ("quiet", 0.4)] * 12)).decode()
@@ -217,10 +217,10 @@ class RouteTests(unittest.IsolatedAsyncioTestCase):
 
     async def test_follow_up_answer(self):
         raw = json.loads(eval_json())
-        raw["follow_ups"] = [{"q_ko": "왜요?", "q_vi": "Vì sao?", "kind": "why"}]
+        raw["follow_ups"] = [{"q_en": "왜요?", "q_vi": "Vì sao?", "kind": "why"}]
         marked = pr.parse_eval(json.dumps(raw), pr.frame_for(3), MEASURE)
         r = row(attempts=[{"index": 0, "at": NOW.isoformat(), **marked, "answers": {}}])
-        ans = {"transcript_ko": "교통이 편리하기 때문이에요", "scores": {"directness": 4, "support": 3, "language": 4}, "note_vi": "", "better_ko": "", "better_vi": ""}
+        ans = {"transcript_en": "교통이 편리하기 때문이에요", "scores": {"directness": 4, "support": 3, "language": 4}, "note_vi": "", "better_en": "", "better_vi": ""}
         for expect in (1, 2):
             db = db_with(R([[]]))
             db.get.return_value = r
@@ -256,14 +256,14 @@ class RouteTests(unittest.IsolatedAsyncioTestCase):
 
 class PromptKnowledgeTests(unittest.TestCase):
     def test_eval_prompt_carries_targets_known_and_focus(self):
-        t = [{"key": "g:2", "kind": "grammar", "ko": "-기 때문에", "vi": "vì", "example_ko": "비가 오기 때문에"}]
-        p = pr.build_eval_prompt(level_rules="L", frame=pr.frame_for(3), question_ko="Q?", measure=MEASURE, outline=None,
+        t = [{"key": "g:2", "kind": "grammar", "ko": "-기 때문에", "vi": "vì", "example_en": "비가 오기 때문에"}]
+        p = pr.build_eval_prompt(level_rules="L", frame=pr.frame_for(3), question_en="Q?", measure=MEASURE, outline=None,
                                  previous=None, targets=t, known=["-아서/어서"], focus="connectives")
         self.assertIn("[g:2] -기 때문에", p)
         self.assertIn("-아서/어서", p)
         self.assertIn("TRỌNG TÂM LUYỆN của học viên: Từ nối", p)
         self.assertIn("LỒNG ĐỦ các kiến thức", p)
-        o = pr.parse_outline(json.dumps({"parts": [{"part": "reason", "idea_vi": "", "keywords_ko": [], "starter_ko": "", "suggested": False, "target_keys": ["g:2", "zz"]}]}),
+        o = pr.parse_outline(json.dumps({"parts": [{"part": "reason", "idea_vi": "", "keywords_en": [], "starter_en": "", "suggested": False, "target_keys": ["g:2", "zz"]}]}),
                              pr.frame_for(3), t)
         self.assertEqual(o[1]["targets"], [{"key": "g:2", "ko": "-기 때문에"}])
 
@@ -273,9 +273,9 @@ class EditorialHandoffTests(unittest.TestCase):
 
     TERMS = [{"ko": "폭염", "vi": "nắng nóng"}, {"ko": "냉방", "vi": "điều hòa"}, {"ko": "전력", "vi": "điện"},
              {"ko": "취약계층", "vi": "nhóm yếu thế"}, {"ko": "", "vi": "rỗng"}]
-    GRAMMAR = [{"id": 3, "pattern": "-기 마련이다", "meaning_vi": "ắt sẽ", "example_ko": None},
-               {"id": 4, "pattern": "-(으)ㄹ수록", "meaning_vi": "càng… càng", "example_ko": "x"},
-               {"id": 5, "pattern": "-는 셈이다", "meaning_vi": "coi như", "example_ko": ""}]
+    GRAMMAR = [{"id": 3, "pattern": "-기 마련이다", "meaning_vi": "ắt sẽ", "example_en": None},
+               {"id": 4, "pattern": "-(으)ㄹ수록", "meaning_vi": "càng… càng", "example_en": "x"},
+               {"id": 5, "pattern": "-는 셈이다", "meaning_vi": "coi như", "example_en": ""}]
     OUTLINE = {"phenomenon": "폭염이 길어졌다", "cause": "", "consequence": "전력 수요 급증", "solution": "냉방 지원"}
 
     def test_present_material_has_the_outline_terms_and_grammar(self):

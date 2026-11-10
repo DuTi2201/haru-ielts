@@ -18,7 +18,7 @@ verdict is allowed to do are unit-tested with a fake model.
 
 Safety rules that matter more than the prompt:
 - The model never rewrites the Korean. It only ever returns annotations that
-  are stored NEXT TO `text_ko`.
+  are stored NEXT TO `text_en`.
 - A sentence is hidden from learners ("unnatural") only when the model says
   so with enough confidence; a doubtful verdict degrades to "awkward", which
   stays visible. Hiding is reversible (Studio can restore a line).

@@ -79,7 +79,7 @@ def _lessons_query(lesson_ids: list[int] | None, order: tuple):
 
 def _vocab_query(ids: list[int]):
     return (
-        select(VocabItem.lesson_id, VocabItem.hangul, VocabItem.meaning_vi)
+        select(VocabItem.lesson_id, VocabItem.headword, VocabItem.meaning_vi)
         .where(VocabItem.lesson_id.in_(ids))
         .order_by(VocabItem.id)
     )
@@ -97,10 +97,10 @@ def _collect(vocab_rows, grammar_rows):
     vocab: dict[int, list[str]] = defaultdict(list)
     meanings: dict[int, dict[str, str]] = defaultdict(dict)
     grammar: dict[int, list[str]] = defaultdict(list)
-    for lid, hangul, meaning in vocab_rows:
-        vocab[lid].append(hangul)
+    for lid, headword, meaning in vocab_rows:
+        vocab[lid].append(headword)
         if meaning:
-            meanings[lid].setdefault(hangul, meaning)
+            meanings[lid].setdefault(headword, meaning)
     for lid, pattern in grammar_rows:
         grammar[lid].append(pattern)
     return vocab, grammar, meanings

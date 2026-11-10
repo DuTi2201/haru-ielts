@@ -99,8 +99,8 @@ SCHEMA: dict[str, Any] = {
                 "type": "object",
                 "properties": {
                     "index": {"type": "integer"},
-                    "heard_ko": {"type": "string"},
-                    "target_ko": {"type": "string"},
+                    "heard_en": {"type": "string"},
+                    "target_en": {"type": "string"},
                     "score": {"type": "integer"},
                     "issues": {
                         "type": "array",
@@ -118,7 +118,7 @@ SCHEMA: dict[str, Any] = {
                     },
                     "good_vi": {"type": "string"},
                 },
-                "required": ["index", "heard_ko", "target_ko", "score", "issues", "good_vi"],
+                "required": ["index", "heard_en", "target_en", "score", "issues", "good_vi"],
             },
         },
         "overall_vi": {"type": "string"},
@@ -138,8 +138,8 @@ def build_prompt(clips: list[Clip], level_rules: str) -> str:
 {listed}
 
 Với từng câu (giữ đúng số "index" của câu):
-- heard_ko: viết bằng Hangul ĐÚNG những âm bạn nghe thấy, kể cả âm sai (không tự sửa cho đúng). Bản chép tự động ở trên thường đã bị sửa cho đúng nên đừng tin nó.
-- target_ko: câu tiếng Hàn tự nhiên mà học viên muốn nói, đúng trình độ.
+- heard_en: viết bằng Hangul ĐÚNG những âm bạn nghe thấy, kể cả âm sai (không tự sửa cho đúng). Bản chép tự động ở trên thường đã bị sửa cho đúng nên đừng tin nó.
+- target_en: câu tiếng Hàn tự nhiên mà học viên muốn nói, đúng trình độ.
 - score: 0–100, mức một người Hàn nghe hiểu dễ dàng (100 = rõ như người bản xứ nói chậm; 70 = hiểu được nhưng có vài âm sai; 40 = phải đoán; dưới 30 = khó hiểu). Chấm công bằng, không nương tay cũng không khắt khe.
 - issues: tối đa 3 từ phát âm sai rõ nhất, quan trọng nhất trước. word = từ đúng, heard_as = nghe thành gì, problem_vi = lỗi gì (1 câu), tip_vi = cách sửa cụ thể cho người Việt (vị trí lưỡi/môi, so với âm tiếng Việt gần giống). Các lỗi người Việt hay gặp: bỏ hoặc đọc sai 받침 (ㄱ ㄷ ㅂ ㄹ ㅇ cuối), ㅓ/ㅗ, ㅡ/ㅜ, ㅐ/ㅔ, âm thường/căng/bật hơi (ㄱ ㄲ ㅋ, ㄷ ㄸ ㅌ, ㅂ ㅃ ㅍ, ㅈ ㅉ ㅊ, ㅅ ㅆ), nối âm (연음), biến âm mũi (비음화), ngữ điệu câu hỏi. kind = loại lỗi, một trong: batchim (받침), vowel (nguyên âm), consonant (âm thường/căng/bật hơi), linking (nối âm, biến âm), intonation (ngữ điệu), other. Không có lỗi thì để trống.
 - good_vi: 1 câu khen một điểm làm tốt cụ thể.
@@ -189,8 +189,8 @@ def parse(text: str, clips: list[Clip]) -> dict[str, Any]:
         items.append(
             {
                 "index": c.index,
-                "heard_ko": s(it.get("heard_ko")) or c.heard_live,
-                "target_ko": s(it.get("target_ko")),
+                "heard_en": s(it.get("heard_en")) or c.heard_live,
+                "target_en": s(it.get("target_en")),
                 "score": score,
                 "issues": issues,
                 "good_vi": s(it.get("good_vi")),

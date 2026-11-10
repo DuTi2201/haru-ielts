@@ -74,7 +74,7 @@ def _bank_query():
             QuestionType.name_vi,
             QuestionType.skill,
             ExamPassage.kind,
-            ExamPassage.body_ko,
+            ExamPassage.body_en,
             ExamPaper.session_label,
         )
         .join(QuestionType, QuestionType.id == ExamItem.qtype_id)
@@ -90,19 +90,19 @@ def _bank_query():
 
 
 def _candidate(row) -> exam_drill.Candidate:
-    item, code, _name, skill, passage_kind, passage_ko, _label = row
+    item, code, _name, skill, passage_kind, passage_en, _label = row
     return exam_drill.Candidate(
         item_id=item.id,
         number=item.number,
         qtype_code=code,
-        stem_ko=item.stem_ko,
+        stem_en=item.stem_en,
         options=item.options,
         answer=item.answer,
         answer_source=item.answer_source,
         skill=skill,
         passage_kind=passage_kind,
-        passage_ko=passage_ko,
-        instruction_ko=item.instruction_ko or "",
+        passage_en=passage_en,
+        instruction_en=item.instruction_en or "",
         passage_linked=item.passage_id is not None,
     )
 
@@ -145,10 +145,10 @@ async def get_exam_drill(
                 number=c.number,
                 qtype_code=c.qtype_code,
                 qtype_name_vi=row[2],
-                instruction_ko=c.instruction_ko.strip() or None,
-                stem_ko=c.stem_ko,
+                instruction_en=c.instruction_en.strip() or None,
+                stem_en=c.stem_en,
                 options=exam_drill.clean_options(c.options) or [],
-                passage_ko=(c.passage_ko or "").strip() or None,
+                passage_en=(c.passage_en or "").strip() or None,
                 paper_label=row[6],
             )
         )
@@ -180,7 +180,7 @@ async def answer_exam_drill(
                 learner_id=profile.id,
                 skill=candidate.skill,
                 error_type=candidate.qtype_code,
-                example_ko=candidate.stem_ko[:300],
+                example_en=candidate.stem_en[:300],
                 mode="exam",
                 detail={
                     "exam_item_id": str(body.item_id),
@@ -246,7 +246,7 @@ async def get_weaknesses(
             if kind == "vocab_item" and item_id in vocab:
                 v = vocab[item_id]
                 top_items.append(
-                    WeakItemOut(item_type="vocab_item", item_id=item_id, title=v.hangul, meaning_vi=v.meaning_vi, family=v.family, errors=r.errors)
+                    WeakItemOut(item_type="vocab_item", item_id=item_id, title=v.headword, meaning_vi=v.meaning_vi, family=v.family, errors=r.errors)
                 )
             elif kind == "grammar_point" and item_id in grammar:
                 g = grammar[item_id]
@@ -409,12 +409,12 @@ async def start_writing_drill(
     cards = [
         writing_drill.SourceCard(
             item_id=v.id,
-            hangul=v.hangul,
+            headword=v.headword,
             meaning_vi=v.meaning_vi,
             node_word=v.node_word,
             family=v.family,
             register=v.register,
-            example_ko=v.example_ko,
+            example_en=v.example_en,
             errors=error_counts.get(v.id, 0),
             shaky=v.id in shaky,
         )

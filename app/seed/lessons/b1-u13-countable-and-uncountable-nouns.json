@@ -1,7 +1,7 @@
 {
  "slug": "b1-u13-countable-and-uncountable-nouns",
  "title": "Unit 13 · Danh từ đếm được và không đếm được",
- "title_ko": "Countable and uncountable nouns",
+ "title_en": "Countable and uncountable nouns",
  "topic": "Destination B1 · Lấy gốc",
  "track": "beginner",
  "level": 3,
@@ -9,60 +9,60 @@
  "summary": "Biết danh từ nào không thêm -s, và chọn đúng từ chỉ lượng đi kèm. Ngữ pháp: Uncountable nouns (information, advice, furniture…); many / much · a few / a little · a lot of; some / any.",
  "vocab": [
   {
-   "hangul": "advice",
+   "headword": "advice",
    "pos": "N",
    "meaning_vi": "lời khuyên (không đếm được)",
-   "example_ko": "Can you give me some advice?",
+   "example_en": "Can you give me some advice?",
    "example_vi": "Bạn cho tôi vài lời khuyên được không?",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 13"
   },
   {
-   "hangul": "furniture",
+   "headword": "furniture",
    "pos": "N",
    "meaning_vi": "đồ đạc trong nhà (không đếm được)",
-   "example_ko": "The furniture is new.",
+   "example_en": "The furniture is new.",
    "example_vi": "Đồ đạc còn mới.",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 13"
   },
   {
-   "hangul": "knowledge",
+   "headword": "knowledge",
    "pos": "N",
    "meaning_vi": "kiến thức (không đếm được)",
-   "example_ko": "He has a good knowledge of history.",
+   "example_en": "He has a good knowledge of history.",
    "example_vi": "Anh ấy có kiến thức tốt về lịch sử.",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 13"
   },
   {
-   "hangul": "evidence",
+   "headword": "evidence",
    "pos": "N",
    "meaning_vi": "bằng chứng (không đếm được)",
-   "example_ko": "There is little evidence for this idea.",
+   "example_en": "There is little evidence for this idea.",
    "example_vi": "Có rất ít bằng chứng cho ý kiến này.",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 13"
   },
   {
-   "hangul": "a piece of",
+   "headword": "a piece of",
    "pos": "X",
    "meaning_vi": "một (mẩu, lời, món) + danh từ không đếm được",
-   "example_ko": "That is a useful piece of information.",
+   "example_en": "That is a useful piece of information.",
    "example_vi": "Đó là một thông tin hữu ích.",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 13"
   },
   {
-   "hangul": "plenty of",
+   "headword": "plenty of",
    "pos": "X",
    "meaning_vi": "nhiều, dư dả",
-   "example_ko": "We have plenty of time.",
+   "example_en": "We have plenty of time.",
    "example_vi": "Chúng ta còn nhiều thời gian.",
    "family": "Từ khóa của bài",
    "priority": "core",
@@ -75,12 +75,12 @@
    "meaning_vi": "Danh từ không đếm được: không có số nhiều, không đi với a/an",
    "usage_context_vi": "Động từ chia số ít. Hay gặp: advice, information, furniture, luggage, equipment, homework, knowledge, money, news, research, traffic, work, evidence, pollution, progress, accommodation.\nMuốn đếm thì dùng `a piece of`, `a bit of`: a piece of advice.",
    "contrasts": [],
-   "example_ko": "The information is on the website.\nShe gave me a piece of advice.",
+   "example_en": "The information is on the website.\nShe gave me a piece of advice.",
    "example_vi": "Thông tin có trên trang web.\nCô ấy cho tôi một lời khuyên.",
    "importance": "must",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 13, pp. 54-56",
    "note_vi": "Lỗi người Việt hay mắc: Tiếng Việt không có số nhiều nên dễ viết ~~informations~~, ~~advices~~, ~~an advice~~, ~~The news are~~ → information, advice, a piece of advice, The news is.",
-   "topik_tip_vi": "Trong Task 2: research shows, a great deal of evidence, much progress. Không bao giờ thêm -s."
+   "exam_tip_vi": "Trong Task 2: research shows, a great deal of evidence, much progress. Không bao giờ thêm -s."
   },
   {
    "pattern": "many / much · a few / a little · a lot of",
@@ -92,7 +92,7 @@
      "diff_vi": "`some` dùng trong câu khẳng định và lời mời; `any` dùng trong câu phủ định và câu hỏi."
     }
    ],
-   "example_ko": "There are not many buses at night.\nWe have a little time before the film.",
+   "example_en": "There are not many buses at night.\nWe have a little time before the film.",
    "example_vi": "Ban đêm không có nhiều xe buýt.\nChúng ta còn một ít thời gian trước giờ chiếu phim.",
    "importance": "must",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 13, pp. 54-56",
@@ -103,7 +103,7 @@
    "meaning_vi": "some + khẳng định · any + phủ định, nghi vấn",
    "usage_context_vi": "Dùng được với cả danh từ đếm được số nhiều và không đếm được. Lời mời và lời đề nghị vẫn dùng `some`: Would you like some tea?",
    "contrasts": [],
-   "example_ko": "I bought some fruit.\nIs there any milk?",
+   "example_en": "I bought some fruit.\nIs there any milk?",
    "example_vi": "Tôi mua một ít hoa quả.\nCòn sữa không?",
    "importance": "normal",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 13, pp. 54-56"

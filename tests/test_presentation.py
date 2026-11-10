@@ -38,13 +38,13 @@ def wav(pattern: list[tuple[str, float]]) -> bytes:
 
 def eval_json(**over):
     base = {
-        "transcript_ko": "음 제 생각에는 도시가 좋아요 왜냐하면 편리하기 때문이에요 어 예를 들어서 지하철이 있어요 그래서 저는 도시가 좋아요",
+        "transcript_en": "음 제 생각에는 도시가 좋아요 왜냐하면 편리하기 때문이에요 어 예를 들어서 지하철이 있어요 그래서 저는 도시가 좋아요",
         "off_topic": False,
         "parts": [
-            {"part": "point", "present": True, "said_ko": "제 생각에는 도시가 좋아요", "note_vi": "Rõ."},
-            {"part": "reason", "present": True, "said_ko": "편리하기 때문이에요", "note_vi": "Ổn."},
-            {"part": "example", "present": True, "said_ko": "지하철이 있어요", "note_vi": "Cụ thể hơn."},
-            {"part": "conclusion", "present": True, "said_ko": "그래서 저는 도시가 좋아요", "note_vi": "Tốt."},
+            {"part": "point", "present": True, "said_en": "제 생각에는 도시가 좋아요", "note_vi": "Rõ."},
+            {"part": "reason", "present": True, "said_en": "편리하기 때문이에요", "note_vi": "Ổn."},
+            {"part": "example", "present": True, "said_en": "지하철이 있어요", "note_vi": "Cụ thể hơn."},
+            {"part": "conclusion", "present": True, "said_en": "그래서 저는 도시가 좋아요", "note_vi": "Tốt."},
         ],
         "scores": {"coherence": 4, "development": 4, "connectives": 5, "language": 3, "fluency": 3},
         "score_notes_vi": {k: "x" for k in pr.CRITERIA},
@@ -109,7 +109,7 @@ class ParseTests(unittest.TestCase):
 
     def test_missing_part_caps_development(self):
         parts = json.loads(eval_json())["parts"]
-        parts[2] = {"part": "example", "present": True, "said_ko": "", "note_vi": "Không có ví dụ."}  # claimed but empty
+        parts[2] = {"part": "example", "present": True, "said_en": "", "note_vi": "Không có ví dụ."}  # claimed but empty
         out = pr.parse_eval(eval_json(parts=parts[:3], scores={k: 5 for k in pr.CRITERIA}), pr.frame_for(3), MEASURE)
         ev = out["eval"]
         self.assertEqual([p["present"] for p in ev["parts"]], [True, True, False, False])
@@ -128,29 +128,29 @@ class ParseTests(unittest.TestCase):
 
     def test_outline_keeps_frame_order_and_fills_gaps(self):
         raw = json.dumps({"parts": [
-            {"part": "reason", "idea_vi": "tiện", "keywords_ko": ["편리하다", "지하철", "a", "b", "c"], "starter_ko": "왜냐하면…", "suggested": False},
-            {"part": "point", "idea_vi": "thành phố", "keywords_ko": ["도시"], "starter_ko": "제 생각에는…", "suggested": False},
-            {"part": "other_side", "idea_vi": "x", "keywords_ko": [], "starter_ko": "", "suggested": False},
+            {"part": "reason", "idea_vi": "tiện", "keywords_en": ["편리하다", "지하철", "a", "b", "c"], "starter_en": "왜냐하면…", "suggested": False},
+            {"part": "point", "idea_vi": "thành phố", "keywords_en": ["도시"], "starter_en": "제 생각에는…", "suggested": False},
+            {"part": "other_side", "idea_vi": "x", "keywords_en": [], "starter_en": "", "suggested": False},
         ]})
         out = pr.parse_outline(raw, pr.frame_for(2))
         self.assertEqual([o["part"] for o in out], ["point", "reason", "example"])
-        self.assertEqual(len(out[1]["keywords_ko"]), 4)
+        self.assertEqual(len(out[1]["keywords_en"]), 4)
         self.assertTrue(out[2]["suggested"])
-        self.assertTrue(out[2]["starter_ko"])
+        self.assertTrue(out[2]["starter_en"])
 
     def test_topic(self):
-        self.assertIsNone(pr.parse_topic(json.dumps({"question_ko": "Where?"})))
-        t = pr.parse_topic(json.dumps({"question_ko": "주말에 뭐 해요?", "question_vi": "?", "angle_vi": "", "words": [{"ko": "쉬다", "vi": "nghỉ"}]}))
+        self.assertIsNone(pr.parse_topic(json.dumps({"question_en": "Where?"})))
+        t = pr.parse_topic(json.dumps({"question_en": "주말에 뭐 해요?", "question_vi": "?", "angle_vi": "", "words": [{"ko": "쉬다", "vi": "nghỉ"}]}))
         self.assertEqual(t["words"], [{"ko": "쉬다", "vi": "nghỉ"}])
         fb = pr.fallback_topic(1, seen=[pr.FALLBACK_TOPICS[1][0][0]])
-        self.assertNotEqual(fb["question_ko"], pr.FALLBACK_TOPICS[1][0][0])
+        self.assertNotEqual(fb["question_en"], pr.FALLBACK_TOPICS[1][0][0])
 
     def test_second_try_prompt_carries_the_first(self):
         first = {"index": 0, "metrics": {"pauses": 4, "fillers": 6}, **json.loads(json.dumps({"eval": json.loads(eval_json())}))}
-        p = pr.build_eval_prompt(level_rules="L", frame=pr.frame_for(3), question_ko="Q?", measure=MEASURE, outline=None, previous=first)
+        p = pr.build_eval_prompt(level_rules="L", frame=pr.frame_for(3), question_en="Q?", measure=MEASURE, outline=None, previous=first)
         self.assertIn("LẦN NÓI THỨ 2", p)
         self.assertIn("4 khoảng lặng", p)
-        self.assertNotIn("LẦN NÓI THỨ", pr.build_eval_prompt(level_rules="L", frame=pr.frame_for(3), question_ko="Q?", measure=MEASURE, outline=None, previous=None))
+        self.assertNotIn("LẦN NÓI THỨ", pr.build_eval_prompt(level_rules="L", frame=pr.frame_for(3), question_en="Q?", measure=MEASURE, outline=None, previous=None))
 
 
 # ---------------------------------------------------------------- routes
@@ -179,7 +179,7 @@ def ctx(band=3):
 
 def row(**kw):
     base = dict(id=uuid.uuid4(), learner_id=ME, lesson_id=None, band=3, level=2,
-                topic={"question_ko": "도시와 시골 중에 어디가 좋아요?", "question_vi": "", "angle_vi": "", "words": [], "source": "bank"},
+                topic={"question_en": "도시와 시골 중에 어디가 좋아요?", "question_vi": "", "angle_vi": "", "words": [], "source": "bank"},
                 notes_vi="", outline=None, attempts=[], created_at=datetime.now(timezone.utc),
                 mode="topic", title="", material="", plan=None)
     base.update(kw)
@@ -214,7 +214,7 @@ class RouteTests(unittest.IsolatedAsyncioTestCase):
             self.addCleanup(p.stop)
 
     async def test_start_uses_the_model_topic_and_falls_back_to_the_bank(self):
-        made = {"question_ko": "출근할 때 버스와 지하철 중에 뭐가 더 좋아요?", "question_vi": "Đi làm bằng gì?", "angle_vi": "", "words": []}
+        made = {"question_en": "출근할 때 버스와 지하철 중에 뭐가 더 좋아요?", "question_vi": "Đi làm bằng gì?", "angle_vi": "", "words": []}
         db = db_with(R([]), R(["Bài 6"]), R([]))  # seen topics, lesson title, attempts today
         with mock.patch.object(router.gemini_client, "generate_structured", return_value={"text": json.dumps(made)}):
             out = await router.start_presentation(db, PROFILE)
@@ -233,7 +233,7 @@ class RouteTests(unittest.IsolatedAsyncioTestCase):
         r = row()
         db = db_with(R([]))
         db.get.return_value = r
-        raw = json.dumps({"parts": [{"part": "point", "idea_vi": "thành phố", "keywords_ko": ["도시"], "starter_ko": "제 생각에는…", "suggested": False}]})
+        raw = json.dumps({"parts": [{"part": "point", "idea_vi": "thành phố", "keywords_en": ["도시"], "starter_en": "제 생각에는…", "suggested": False}]})
         with mock.patch.object(router.gemini_client, "generate_structured", return_value={"text": raw}):
             out = await router.make_outline(r.id, PresentOutlineRequest(notes_vi=" thành phố tiện "), db, PROFILE)
         self.assertEqual(r.notes_vi, "thành phố tiện")

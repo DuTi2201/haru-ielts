@@ -57,10 +57,10 @@ class UnitTests(unittest.TestCase):
     def test_easy_units_use_pack_paragraph_numbers_and_fall_back_to_sentences(self):
         pack = {
             "paragraphs": [
-                {"easy_ko": "쉬운 글이다.", "sentences": [{"ko": "어려운 글이다."}]},
-                {"easy_ko": "", "sentences": [{"ko": "첫째 문장이다."}, {"ko": "둘째 문장이다."}]},
-                {"easy_ko": "", "sentences": []},
-                {"easy_ko": "마지막 글이다.", "sentences": []},
+                {"easy_en": "쉬운 글이다.", "sentences": [{"ko": "어려운 글이다."}]},
+                {"easy_en": "", "sentences": [{"ko": "첫째 문장이다."}, {"ko": "둘째 문장이다."}]},
+                {"easy_en": "", "sentences": []},
+                {"easy_en": "마지막 글이다.", "sentences": []},
             ]
         }
         units = ra.easy_units(TITLE, pack)
@@ -263,8 +263,8 @@ class TimedVoiceTests(unittest.TestCase):
 # ---- route: the unit list goes to the worker and cached timings come back ----
 def article(body: str = "\n".join([P1, P2])):
     return SimpleNamespace(
-        id=uuid.uuid4(), source_name="경향신문", source_url="https://x/1", title_ko=TITLE,
-        level_estimate=5, topic_tags=[], body_ko=body, vocab_ids=[], grammar_ids=[], thinking_guide_text=None,
+        id=uuid.uuid4(), source_name="경향신문", source_url="https://x/1", title_en=TITLE,
+        level_estimate=5, topic_tags=[], body_en=body, vocab_ids=[], grammar_ids=[], thinking_guide_text=None,
         created_at=datetime.now(timezone.utc), images=[], images_fetched_at=None, study_pack=None,
         study_status="none", study_updated_at=None,
     )

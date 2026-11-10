@@ -47,8 +47,8 @@ _KO = re.compile("[가-힣]")
 # comes with an item (a model answer, phrases to borrow, extra prompts for more practice)
 _SKIP_KEYS = frozenset(
     {
-        "id", "tags", "plan", "instruction_ko", "grammar", "focus", "answer", "answers", "number", "accepted",
-        "model", "model_answer_ko", "phrases_ko", "practice", "support",
+        "id", "tags", "plan", "instruction_en", "grammar", "focus", "answer", "answers", "number", "accepted",
+        "model", "model_answer_en", "phrases_en", "practice", "support",
     }
 )
 _CONTENT_TAGS = frozenset({"NNG", "NNP", "XR", "MAG", "VV", "VA"})
@@ -221,13 +221,13 @@ def build() -> dict[str, Any]:
     def lesson_words(seed: Any) -> set[str]:
         got: set[str] = set()
         for v in seed.vocab:
-            got.add(v.hangul.strip())
-            got |= set(words(v.hangul))
-            if v.example_ko:
-                got |= set(words(v.example_ko))
+            got.add(v.headword.strip())
+            got |= set(words(v.headword))
+            if v.example_en:
+                got |= set(words(v.example_en))
         for g in seed.grammar:
-            if g.example_ko:
-                got |= set(words(g.example_ko))
+            if g.example_en:
+                got |= set(words(g.example_en))
         return got
 
     bundle = load_all()
@@ -242,7 +242,7 @@ def build() -> dict[str, Any]:
         out: dict[str, Any] = {}
         # a question type is introduced where `apply` can show it: not in the alphabet's own flow,
         # not in a timed review, not on the "Tạo câu" ladder (it has its own steps)
-        introduces = (r.practice or {}).get("kind") not in ("hangul", "review")
+        introduces = (r.practice or {}).get("kind") not in ("headword", "review")
         for it in items:
             if introduces and it["skill"] not in UNTIERED_SKILLS:
                 first_seen.setdefault(it["type"], r.seed.slug)
@@ -281,7 +281,7 @@ def stale() -> list[str]:
     items = {(r.seed.slug, it["id"]): it for r in lessons for it in (r.practice or {}).get("items") or []}
     out += support_problems(items, {r.seed.slug: r.seed.sort_order for r in lessons})
     for r in lessons:
-        if (r.practice or {}).get("kind") in ("hangul", "review"):
+        if (r.practice or {}).get("kind") in ("headword", "review"):
             continue
         for it in (r.practice or {}).get("items") or []:
             m = data.get(r.seed.slug, {}).get(it["id"])

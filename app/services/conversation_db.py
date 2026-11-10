@@ -41,7 +41,7 @@ EARLIER_STRONG_PATTERNS = 4
 
 
 def _brief(lesson: Lesson) -> LessonBrief:
-    return LessonBrief(id=lesson.id, title=lesson.title, title_ko=lesson.title_ko, summary=lesson.summary)
+    return LessonBrief(id=lesson.id, title=lesson.title, title_en=lesson.title_en, summary=lesson.summary)
 
 
 def _take(items: Iterable, n: int) -> list:
@@ -163,11 +163,11 @@ async def load_context(
 
         cur_id = current.id if current else None
         cur_words = [
-            Word(v.hangul, v.meaning_vi, bucket("vocab_item", v.id))
+            Word(v.headword, v.meaning_vi, bucket("vocab_item", v.id))
             for v in vocab
             if v.lesson_id == cur_id and v.priority != "recognize"
         ]
-        old_words = [Word(v.hangul, v.meaning_vi, bucket("vocab_item", v.id)) for v in vocab if v.lesson_id != cur_id]
+        old_words = [Word(v.headword, v.meaning_vi, bucket("vocab_item", v.id)) for v in vocab if v.lesson_id != cur_id]
         words = (
             _take(cur_words, CURRENT_WORDS)
             + _take((w for w in old_words if w.bucket == "weak"), EARLIER_WEAK_WORDS)
@@ -175,7 +175,7 @@ async def load_context(
         )
 
         def pat(g: GrammarPoint) -> Pattern:
-            return Pattern(g.pattern, g.meaning_vi, g.example_ko, bucket("grammar_point", g.id))
+            return Pattern(g.pattern, g.meaning_vi, g.example_en, bucket("grammar_point", g.id))
 
         cur_pats = [pat(g) for g in grammar if g.lesson_id == cur_id]
         old_pats = [pat(g) for g in grammar if g.lesson_id != cur_id]

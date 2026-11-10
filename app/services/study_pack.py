@@ -136,7 +136,7 @@ BATCH_SCHEMA: dict[str, Any] = {
                 "type": "OBJECT",
                 "properties": {
                     "index": {"type": "INTEGER"},
-                    "easy_ko": {"type": "STRING"},
+                    "easy_en": {"type": "STRING"},
                     "sentences": {
                         "type": "ARRAY",
                         "items": {
@@ -163,7 +163,7 @@ BATCH_SCHEMA: dict[str, Any] = {
                         },
                     },
                 },
-                "required": ["index", "easy_ko", "sentences"],
+                "required": ["index", "easy_en", "sentences"],
             },
         }
     },
@@ -188,7 +188,7 @@ class _Sentence(BaseModel):
 
 class _Paragraph(BaseModel):
     index: int
-    easy_ko: str = ""
+    easy_en: str = ""
     sentences: list[_Sentence] = Field(default_factory=list)
 
 
@@ -251,7 +251,7 @@ Tóm tắt (để hiểu ngữ cảnh): {summary_vi or "(chưa có)"}
 
 Dưới đây là một số đoạn của bài, mỗi đoạn đã được tách sẵn thành các câu đánh số.
 Với MỖI đoạn, trả về:
-1. easy_ko: viết lại cả đoạn bằng tiếng Hàn ĐƠN GIẢN cho trình độ TOPIK 1-2 —
+1. easy_en: viết lại cả đoạn bằng tiếng Hàn ĐƠN GIẢN cho trình độ TOPIK 1-2 —
    câu ngắn (mỗi câu một ý, tối đa khoảng 12 từ), từ vựng cơ bản, dạng lịch sự
    -아요/어요 hoặc -ㅂ니다; thay từ Hán-Hàn/từ khó bằng từ dễ hơn hoặc giải
    thích ngắn trong ngoặc. Giữ nguyên số liệu, tên riêng, đúng sự thật; không
@@ -349,8 +349,8 @@ def _assemble_paragraph(sentences: list[str], parsed: _Paragraph | None) -> tupl
                 "grammar_notes_vi": [g.strip() for g in (got.grammar_notes_vi if got else []) if g.strip()][:2],
             }
         )
-    easy = (parsed.easy_ko.strip() if parsed else "") or None
-    return {"easy_ko": easy, "sentences": entries}, translated
+    easy = (parsed.easy_en.strip() if parsed else "") or None
+    return {"easy_en": easy, "sentences": entries}, translated
 
 
 def _loads(text: str) -> dict[str, Any]:
@@ -437,7 +437,7 @@ def build_study_pack(
         "summary_vi": overview.summary_vi.strip(),
         "key_points_vi": [p.strip() for p in overview.key_points_vi if p.strip()][:6],
         "key_terms": [{"ko": t.ko.strip(), "vi": t.vi.strip()} for t in overview.key_terms if t.ko.strip() and t.vi.strip()][:8],
-        "paragraphs": [p if p is not None else {"easy_ko": None, "sentences": []} for p in out_paragraphs],
+        "paragraphs": [p if p is not None else {"easy_en": None, "sentences": []} for p in out_paragraphs],
     }
 
 
@@ -459,7 +459,7 @@ def easy_paragraphs(pack: dict[str, Any]) -> list[str]:
     left without one falls back to its original sentences."""
     out: list[str] = []
     for p in pack.get("paragraphs", []):
-        easy = (p.get("easy_ko") or "").strip()
+        easy = (p.get("easy_en") or "").strip()
         if not easy:
             easy = " ".join(s["ko"] for s in p.get("sentences", []))
         if easy:

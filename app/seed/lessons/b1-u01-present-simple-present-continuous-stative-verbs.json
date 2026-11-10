@@ -1,7 +1,7 @@
 {
  "slug": "b1-u01-present-simple-present-continuous-stative-verbs",
  "title": "Unit 1 · Hiện tại đơn, hiện tại tiếp diễn, động từ trạng thái",
- "title_ko": "Present simple, present continuous, stative verbs",
+ "title_en": "Present simple, present continuous, stative verbs",
  "topic": "Destination B1 · Lấy gốc",
  "track": "beginner",
  "level": 3,
@@ -9,60 +9,60 @@
  "summary": "Nói và viết đúng về thói quen, sự thật và việc đang diễn ra; không chia tiếp diễn với động từ trạng thái. Ngữ pháp: Present simple: S + V(s/es); Present continuous: am/is/are + V-ing; Stative verbs (know, like, want, believe…).",
  "vocab": [
   {
-   "hangul": "usually",
+   "headword": "usually",
    "pos": "X",
    "meaning_vi": "thường thường",
-   "example_ko": "I usually have breakfast at seven.",
+   "example_en": "I usually have breakfast at seven.",
    "example_vi": "Tôi thường ăn sáng lúc bảy giờ.",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 1"
   },
   {
-   "hangul": "rarely",
+   "headword": "rarely",
    "pos": "X",
    "meaning_vi": "hiếm khi",
-   "example_ko": "He rarely eats meat.",
+   "example_en": "He rarely eats meat.",
    "example_vi": "Anh ấy hiếm khi ăn thịt.",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 1"
   },
   {
-   "hangul": "at the moment",
+   "headword": "at the moment",
    "pos": "X",
    "meaning_vi": "hiện tại, lúc này",
-   "example_ko": "She is working from home at the moment.",
+   "example_en": "She is working from home at the moment.",
    "example_vi": "Hiện tại cô ấy làm việc ở nhà.",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 1"
   },
   {
-   "hangul": "once a week",
+   "headword": "once a week",
    "pos": "X",
    "meaning_vi": "một lần mỗi tuần",
-   "example_ko": "I go swimming once a week.",
+   "example_en": "I go swimming once a week.",
    "example_vi": "Tôi đi bơi một lần mỗi tuần.",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 1"
   },
   {
-   "hangul": "belong",
+   "headword": "belong",
    "pos": "V",
    "meaning_vi": "thuộc về",
-   "example_ko": "This phone belongs to my brother.",
+   "example_en": "This phone belongs to my brother.",
    "example_vi": "Điện thoại này của em trai tôi.",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 1"
   },
   {
-   "hangul": "prefer",
+   "headword": "prefer",
    "pos": "V",
    "meaning_vi": "thích hơn",
-   "example_ko": "I prefer tea to coffee.",
+   "example_en": "I prefer tea to coffee.",
    "example_vi": "Tôi thích trà hơn cà phê.",
    "family": "Từ khóa của bài",
    "priority": "core",
@@ -75,12 +75,12 @@
    "meaning_vi": "Thói quen, sự thật, tình trạng lâu dài",
    "usage_context_vi": "Dùng cho việc lặp lại (every day, usually), sự thật chung và tình trạng lâu dài.\n| Dạng | Cấu trúc | Ví dụ |\n| Khẳng định | I/you/we/they + V · he/she/it + V-s/es | She works in a bank. |\n| Phủ định | do not / does not + V | He does not work on Sundays. |\n| Nghi vấn | Do / Does + S + V? | Does she work here? |\nTrạng từ tần suất (always, usually, often, sometimes, rarely, never) đứng trước động từ thường, sau `be`.",
    "contrasts": [],
-   "example_ko": "My sister works for a small company.\nI am often late for class.",
+   "example_en": "My sister works for a small company.\nI am often late for class.",
    "example_vi": "Chị tôi làm cho một công ty nhỏ.\nTôi hay đến lớp muộn.",
    "importance": "must",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-8",
    "note_vi": "Lỗi người Việt hay mắc: Tiếng Việt không chia động từ nên rất dễ quên `-s/-es` ở ngôi thứ ba số ít và quên `does` trong câu hỏi: ~~She work~~ → She works; ~~Does she works~~ → Does she work.",
-   "topik_tip_vi": "Lỗi thiếu `-s` lặp lại nhiều lần kéo điểm Grammatical Range and Accuracy xuống rõ rệt, cả khi nói lẫn khi viết."
+   "exam_tip_vi": "Lỗi thiếu `-s` lặp lại nhiều lần kéo điểm Grammatical Range and Accuracy xuống rõ rệt, cả khi nói lẫn khi viết."
   },
   {
    "pattern": "Present continuous: am/is/are + V-ing",
@@ -92,7 +92,7 @@
      "diff_vi": "Hiện tại đơn là việc cố định, lặp lại; hiện tại tiếp diễn là việc tạm thời hoặc đang dở dang: I live in Hanoi (lâu dài) / I am living with my aunt this month (tạm thời)."
     }
    ],
-   "example_ko": "I am studying for my exams this month.\nHe is always losing his keys.",
+   "example_en": "I am studying for my exams this month.\nHe is always losing his keys.",
    "example_vi": "Tháng này tôi đang ôn thi.\nAnh ấy lúc nào cũng làm mất chìa khóa.",
    "importance": "must",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-8",
@@ -103,7 +103,7 @@
    "meaning_vi": "Động từ trạng thái không chia tiếp diễn",
    "usage_context_vi": "Động từ chỉ trạng thái (suy nghĩ, cảm xúc, sở hữu, giác quan) thường không dùng ở thì tiếp diễn: be, believe, belong, hate, have (có), know, like, love, need, prefer, seem, think (cho rằng), understand, want.\nMột số động từ có hai nghĩa: think = cho rằng (trạng thái) / đang cân nhắc (hành động); have = có (trạng thái) / ăn, trải qua (hành động).",
    "contrasts": [],
-   "example_ko": "I know the answer.\nWhat do you think about the plan? I am thinking about it now.",
+   "example_en": "I know the answer.\nWhat do you think about the plan? I am thinking about it now.",
    "example_vi": "Tôi biết đáp án.\nBạn nghĩ gì về kế hoạch? Tôi đang cân nhắc đây.",
    "importance": "must",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-8",

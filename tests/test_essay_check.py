@@ -64,7 +64,7 @@ class ModelAnswerTests(unittest.TestCase):
             "fixes": [],
             "missing_vi": [],
             "strengths_vi": ["Sử dụng tốt thì hiện tại đơn và hiện tại tiếp diễn."],
-            "corrected_ko": "",
+            "corrected_en": "",
             "summary_vi": "Bài tốt.",
         }
         base.update(over)

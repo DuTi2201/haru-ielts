@@ -132,9 +132,9 @@ class PronParseTests(unittest.TestCase):
             json.dumps(
                 {
                     "items": [
-                        {"index": 7, "heard_ko": "커피 조아해요", "target_ko": "커피를 좋아해요", "score": 140,
+                        {"index": 7, "heard_en": "커피 조아해요", "target_en": "커피를 좋아해요", "score": 140,
                          "issues": [{"word": "좋아해요", "heard_as": "조아해요", "problem_vi": "x", "tip_vi": "y"}] * 5, "good_vi": "tốt"},
-                        {"index": 3, "heard_ko": "", "target_ko": "저는 학생이에요", "score": 60, "issues": [], "good_vi": ""},
+                        {"index": 3, "heard_en": "", "target_en": "저는 학생이에요", "score": 60, "issues": [], "good_vi": ""},
                         {"index": 99, "score": 10},
                         {"index": "x", "score": 10},
                     ],
@@ -146,7 +146,7 @@ class PronParseTests(unittest.TestCase):
         self.assertEqual([i["index"] for i in out["items"]], [3, 7])  # clip order
         self.assertEqual(out["items"][1]["score"], 100)
         self.assertEqual(len(out["items"][1]["issues"]), 3)
-        self.assertEqual(out["items"][0]["heard_ko"], "저는 학생이에요")  # falls back to the live transcript
+        self.assertEqual(out["items"][0]["heard_en"], "저는 학생이에요")  # falls back to the live transcript
         self.assertEqual(out["average"], 80.0)
 
     def test_parse_garbage(self):
@@ -234,7 +234,7 @@ class PronunciationRouteTests(unittest.IsolatedAsyncioTestCase):
         db = fake_db()
         row = SimpleNamespace(id=uuid.uuid4(), learner_id=p.id, pronunciation=None, metrics=None)
         db.get.return_value = row
-        answer = {"items": [{"index": 0, "heard_ko": "저는 학생이에요", "target_ko": "저는 학생이에요", "score": 82, "issues": [], "good_vi": "Rõ."}],
+        answer = {"items": [{"index": 0, "heard_en": "저는 학생이에요", "target_en": "저는 학생이에요", "score": 82, "issues": [], "good_vi": "Rõ."}],
                   "overall_vi": "Tốt."}
         with mock.patch.object(conversation_db, "load_context", mock.AsyncMock(return_value=ctx())), mock.patch.object(
             conversation_db, "get_talk_profile", mock.AsyncMock(return_value=None)
@@ -277,7 +277,7 @@ class PronunciationRouteTests(unittest.IsolatedAsyncioTestCase):
         )
         db.get.return_value = row
         talk = SimpleNamespace(band=3, verdicts=[{"s": "a", "v": 1}, {"s": str(row.id), "v": 1}])
-        answer = {"items": [{"index": 0, "heard_ko": "..", "target_ko": "..", "score": 30, "issues": [], "good_vi": ""}], "overall_vi": ""}
+        answer = {"items": [{"index": 0, "heard_en": "..", "target_en": "..", "score": 30, "issues": [], "good_vi": ""}], "overall_vi": ""}
         with mock.patch.object(conversation_db, "load_context", mock.AsyncMock(return_value=ctx())), mock.patch.object(
             conversation_db, "get_talk_profile", mock.AsyncMock(return_value=talk)
         ), mock.patch.object(gemini_client, "generate_structured", return_value={"text": json.dumps(answer)}):
