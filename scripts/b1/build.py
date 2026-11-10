@@ -209,7 +209,7 @@ def reading_task(ex_id: str, n: int, sk: dict) -> dict:
 def writing_task(ex_id: str, n: int, sk: dict) -> dict:
     w = sk["w"]
     return {"id": ex_id, "skill": "writing", "type": "write_essay", "number": "W1", "title_vi": f"Viết đoạn ngắn · Unit {n}", "points": 10,
-            "instruction_vi": w["vi"], "limits": {"min": 150, "max": 600}, "prompt_ko": w["en"],
+            "instruction_vi": w["vi"], "limits": {"min": 30, "max": 90}, "prompt_ko": w["en"],
             "framework_vi": ["Câu 1: nêu thẳng ý chính (câu chủ đề).", "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.", "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."],
             "model_answer_ko": w["model"], "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
             "checklist_vi": ["Mỗi câu có đủ chủ ngữ và động từ đã chia.", "Danh từ đếm được số ít có a/an/the; ngôi thứ ba số ít có -s.", "Dùng ít nhất một cấu trúc hoặc ba từ của Unit này.", "Đọc to lại một lần để soát lỗi."]}

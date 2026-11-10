@@ -18,10 +18,40 @@ Listening ≥ 30/40, Reading ≥ 30/40, Writing and Speaking ≥ 6.0 on a calibr
 | `DuTi2201/haru-korea`, `haru-korean-journey` | the Korean product, live | do not change from this project |
 
 ## Decisions the owner has made
-* Host: upgrade the existing Haru VM (2 vCPU, 2 GB RAM, already swapping) to 4 GB and run a second
-  api + worker pair with its own database. Not done yet: it needs a VM restart, so ask for a time.
+* Host: upgrade the existing Haru VM (2 vCPU, 2 GB RAM, already swapping) to 4 GB (`e2-medium`, done 2026-11-10 after full DB backup) and run a second
+  api + worker + db + redis stack (`haru-ielts`) with its own database (`haru_ielts`).
+* Hostname & Frontend: `https://ielts.34-9-216-231.sslip.io`, served by Caddy (static build of `haru-ielts-journey` + reverse proxy `/api/*` and `/healthz` to `haru-ielts-api-1`).
+* Credentials & Backups: reuse Gemini / Google TTS / Azure Speech / GCS credentials from the VM's `.env.prod` (never committed), with a separate `JWT_SECRET`, separate `POSTGRES_PASSWORD`, and separate GCS backup prefix (`backup-ielts/`).
+* Single-user access: owner account uses the same admin email as Haru Korean; registration (`/api/v1/auth/signup`) is closed once the owner account exists; billing and paywalls are disabled.
+* Writing length: count words (IELTS standard, e.g. 60–150 words for B1 unit writing tasks) instead of Korean characters.
 * Four-skills course books: use both Mindset for IELTS and Complete IELTS Bands 5–6.5.
 * Deploy all of Destination B1 at once, with listening, speaking, reading and writing tied to each unit.
+
+## Deployment & Adaptation Plan (2026-11-10)
+1. **Item 1 — Boot with the B1 seed (`feature/b1-boot`)**:
+   - Remove Korean seed folders (`nikl`, `exams`, `passages`, `editorial`, `placement`, `images.json`, `practice_support.json`, `practice_tiers.json`, `word_icons.json`).
+   - Switch off Korean-only routers (`topik_bank`, `editorial`, `daily`, `real_exam`, `billing`, `admin_abuse`, `onboarding`) and Korean-only beat tasks.
+   - Adapt `lesson_seed.py`, `roadmap.py`, `journey.py`, and `essay_check.py` (word count instead of character count; B1 lesson limits updated in `scripts/b1/skills.txt` & regenerated via `scripts/b1/build.py`).
+2. **Item 2 — Migrations**:
+   - Add a new Alembic migration on top of `head` that removes seeded Korean rows (`editorial_source`, Korean `app_config` / `site_setting`) without modifying historical migrations.
+3. **Item 3 — Voices**:
+   - Update `azure_tts.py` to accept `en-GB-*Neural` and `en-US-*Neural` voices (default `en-GB-SoniaNeural` / `en-GB-RyanNeural`), bypass `korean_g2p`, and set `xml:lang` from the voice locale.
+   - Update `google_tts.py`, `lecture_voice.py`, `lesson_audio.py`, and `tts.py` to default to English Chirp 3 HD voices (`en-GB-Chirp3-HD-Aoede` / `en-GB-Chirp3-HD-Iapetus`) while keeping Vietnamese (`vi-VN`) for lecture explanations.
+4. **Item 4 — Billing & Abuse Controls**:
+   - Make `ensure_lesson_open` a no-op (all lessons open), disable trials/payments/signup throttling, and close `/api/v1/auth/signup` once at least one account exists.
+5. **Item 5 — Tests**:
+   - Rewrite Korean-specific assertions in `tests/test_lesson_seed.py` and `tests/test_lesson_sessions.py` for the 42 B1 units, remove Hangul/hanja/TOPIK tests, and verify the full suite passes locally.
+6. **VM Stack, Caddy & Frontend**:
+   - Deploy `/opt/haru-ielts` (`haru-ielts` compose project: `api` 400 MB, `worker` 500 MB, `db` 350 MB, `redis` 64 MB) and configure daily GCS backup under `backup-ielts/`.
+   - Build `DuTi2201/haru-ielts-journey` with `VITE_API_BASE_URL=https://ielts.34-9-216-231.sslip.io`, replace Korean/TOPIK UI labels with English/IELTS, hide switched-off screens, and serve via Caddy under `ielts.34-9-216-231.sslip.io`.
+7. **Item 6 — Mechanical Rename**:
+   - Rename `hangul` → `headword`, `*_ko` → `*_en`, `topik_tip_vi` → `exam_tip_vi` across models, schemas, `scripts/b1/build.py`, seeds, a new Alembic migration, and frontend types, then redeploy.
+
+## What was switched off (Commit 1 — `feature/b1-boot`)
+* **Korean seed folders & files removed**: `app/seed/nikl/`, `app/seed/exams/`, `app/seed/passages/`, `app/seed/editorial/`, `app/seed/placement/`, `app/seed/images.json`, `app/seed/practice_support.json`, `app/seed/practice_tiers.json`, `app/seed/practice_type_tips.json`, `app/seed/word_icons.json`.
+* **Routers detached from `app/api/router.py`**: `topik_bank`, `editorial`, `daily`, `chats`, `real_exam`, `billing`, `admin_abuse`, `onboarding`, `audio.corpus_router` (service modules in `app/services/` kept per owner instruction).
+* **Celery beat schedules disabled in `app/core/celery_app.py`**: `reconcile-billing-orders`, `discover-editorial-candidates` (kept `reset-daily-ai-quota` and `backup-database` with configurable `BACKUP_GCS_PREFIX`).
+* **Writing limits & word count**: `writing_task` in `scripts/b1/build.py` updated to `{"min": 30, "max": 90}` words; `app/services/essay_check.py` switched to English word counting (`count_words`).
 
 ## What exists
 * `scripts/b1/` — the source of the B1 course (see its README). `build.py` writes

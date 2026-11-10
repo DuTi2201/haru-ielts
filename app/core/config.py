@@ -141,7 +141,8 @@ class Settings(BaseSettings):
 
     # The daily reading + dialogue (app.services.daily_reading): a learner's "today" is the
     # calendar day in this zone. Change it if the app is used elsewhere.
-    DAILY_READING_TZ: str = "Asia/Seoul"
+    DAILY_READING_TZ: str = "Asia/Ho_Chi_Minh"
+    BACKUP_GCS_PREFIX: str = "backup"
 
     # Pictures for lessons and exercises (app/services/lesson_image.py). An editor presses
     # "Tạo ảnh" in Studio; every picture is made once and kept in the database. The model is a
