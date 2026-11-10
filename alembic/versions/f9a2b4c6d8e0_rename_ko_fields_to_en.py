@@ -39,9 +39,10 @@ def upgrade() -> None:
     for schema, table, old_col, new_col in RENAMES:
         op.execute(f'ALTER TABLE "{schema}"."{table}" RENAME COLUMN "{old_col}" TO "{new_col}"')
     # Force startup sync to re-populate content.lesson.practice JSONB with renamed keys (prompt_en, model_answer_en)
-    op.execute("UPDATE content.lesson SET content_hash = 'renamed:' || content_hash")
+    op.execute("UPDATE content.lesson SET content_hash = 'renamed:' || id::text")
 
 
 def downgrade() -> None:
     for schema, table, old_col, new_col in reversed(RENAMES):
         op.execute(f'ALTER TABLE "{schema}"."{table}" RENAME COLUMN "{new_col}" TO "{old_col}"')
+
