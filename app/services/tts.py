@@ -702,8 +702,38 @@ _LECTURE_SPLIT_GAP_MS = 200  # between two requests of one long run
 
 
 def lecture_spec() -> str:
-    """Id of the two voices + paces a lecture is voiced with (cache keys)."""
-    return google_tts.lecture_spec()
+    """Id of the two voices + paces a lecture is voiced with (cache keys). With Azure configured the
+    English runs are Azure's (`_lecture_azure_request`), so its voice and pace are part of the id."""
+    base = google_tts.lecture_spec()
+    return f"{base}-{azure_tts.spec()}" if azure_tts.is_configured() else base
+
+
+LECTURE_AZURE_VOICE = "en-female-1"  # the voice of the word cards and sentences (AZURE_TTS_VOICE)
+_AZURE_LECTURE_DELAYS_SEC = (2.0, 6.0, 15.0)
+_TRAILING_ELLIPSIS_RE = re.compile(r"\s*(?:\.{2,}|…)\s*$")
+
+
+def _for_azure(text: str) -> str:
+    """The pause to repeat in is real silence added after the run: the voice gets a plain full stop."""
+    return _TRAILING_ELLIPSIS_RE.sub(".", text.strip())
+
+
+def _lecture_azure_request(chirp_one: Callable[[str], tuple[bytes, int]]) -> Callable[[str], tuple[bytes, int]]:
+    """One English run of a lecture voiced by Azure Neural (native pronunciation; Chirp's English
+    voice is the fallback, `chirp_one`). Azure is retried on its own; if it still fails the phrase is
+    voiced by Chirp instead, so one Azure hiccup never costs the whole lecture."""
+
+    def one(text: str) -> tuple[bytes, int]:
+        try:
+            pcm, rate = _retry_transient(lambda t: _azure_chunk_pcm(_for_azure(t), LECTURE_AZURE_VOICE), text, _AZURE_LECTURE_DELAYS_SEC)
+            if rate != azure_tts.SAMPLE_RATE:
+                raise RuntimeError(f"Azure returned {rate} Hz")
+            return pcm, rate
+        except Exception as exc:  # noqa: BLE001 - fall back to Chirp for this phrase
+            print(f"[tts] lecture: azure failed for a phrase ({describe_error(exc)}); using Chirp", flush=True)
+            return chirp_one(text)
+
+    return one
 
 
 def plan_lecture(script: str, max_chars: int = _LECTURE_MAX_CHARS) -> list[tuple[str, str, int]]:
@@ -861,8 +891,10 @@ def synthesize_lecture_chirp(
     phrases = list(dict.fromkeys((lang, text) for lang, text, _pause in plan))  # a repeated phrase is voiced once
     n_ko = sum(1 for lang, _t in phrases if lang == lecture_voice.KO)
     workers = max(1, min(int(settings.TTS_LECTURE_WORKERS), len(phrases)))
+    # English lecture (no Hangul) + Azure configured: the English runs are voiced by Azure
+    use_azure = azure_tts.is_configured() and not any(lecture_voice._is_hangul(ch) for ch in script)
     print(
-        f"[tts] lecture provider=google-chirp spec={google_tts.lecture_spec()} chars={len(script)} "
+        f"[tts] lecture provider=google-chirp{'+azure' if use_azure else ''} spec={lecture_spec()} chars={len(script)} "
         f"requests={len(plan)} distinct={len(phrases)} (ko={n_ko} vi={len(phrases) - n_ko}) "
         f"workers={workers} max_per_minute={settings.TTS_LECTURE_RPM}",
         flush=True,
@@ -878,6 +910,8 @@ def synthesize_lecture_chirp(
     heard: dict[tuple[str, str], tuple[int, int, int]] = {}
     with google_tts.new_client(workers) as client:
         senders = {lang: _lecture_request(lang, voices, client, pacer) for lang in voices}
+        if use_azure:
+            senders[lecture_voice.KO] = _lecture_azure_request(senders[lecture_voice.KO])
 
         def voice_phrase(key: tuple[str, str]) -> tuple[bytes, int]:
             lang, text = key

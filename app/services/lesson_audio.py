@@ -26,7 +26,7 @@ from app.services import podcast_script
 from app.services.grammar_text import split_source_note, usage_sections
 from app.services.grammar_tier import grammar_tier
 
-TEMPLATE_VERSION = "tpl-v2"
+TEMPLATE_VERSION = "tpl-v3"
 STORY_VERSION = "story-v1"
 
 # Gemini writes a part of at most this many vocabulary items / grammar patterns, so one
@@ -143,7 +143,10 @@ def sitting_source(lesson: Any, vocab_rows: Sequence[Any], grammar_rows: Sequenc
     if not vr and not gr:
         return None
     src = source_from_rows(lesson, vr, gr)
-    src = replace(src, title=f"{lesson.title}, buổi {n}: {ses.get('title_vi', '')}".strip(), title_en=None, notes=[], full_notes=())
+    # the sitting's own title usually opens with "Buổi n ·": say "buổi n" once
+    rest = re.sub(r"^\s*buổi\s+\d+\s*[·:\-–—]?\s*", "", ses.get("title_vi", "") or "", flags=re.IGNORECASE).strip()
+    title = f"{lesson.title}, buổi {n}: {rest}" if rest else f"{lesson.title}, buổi {n}"
+    src = replace(src, title=title, title_en=None, notes=[], full_notes=())
     return src, vr, gr
 
 
@@ -179,9 +182,60 @@ def _dedupe_alternatives(text: str) -> str:
     return " hoặc ".join(seen)
 
 
+# ---- English formulas (Haru English). Written for the eye ("S + V(s/es)", "V-ing", "V3",
+# "adj-er", "-s/-es"); said as words before the generic rules below get to them (those would
+# read "V(s/es)" as "động từ chỉ s hoặc es" and "V-ing" as "động từ ing").
+_HANGUL_RE = re.compile(f"[{_HANGUL}ㄱ-ㅎㅏ-ㅣ]")
+_ENGLISH_FORMS = (
+    (re.compile(r"\bV\s*\(\s*s\s*/\s*-?es\s*\)"), "động từ thêm S hoặc ES"),
+    (re.compile(r"\bV-s\s*/\s*-?es\b"), "động từ thêm S hoặc ES"),
+    (re.compile(r"\bV-ing\b"), "động từ thêm ing"),
+    (re.compile(r"\bV-ed\b"), "động từ thêm ed"),
+    (re.compile(r"\bV3\b"), "quá khứ phân từ"),
+    (re.compile(r"\badj-(er|est)\b"), r"tính từ thêm \1"),
+    # a lone ending is spelt (the English voice says "S", "ES"), the longer ones are read
+    (re.compile(r"(?<![\w-])-(s|es|ing|ed|er|est)\b"), lambda m: "đuôi " + (m.group(1).upper() if m.group(1) in ("s", "es") else m.group(1))),
+    (re.compile(r"(?<![A-Za-zÀ-ỹ0-9])v,\s*"), "động từ, "),
+    (re.compile(r"(?<![A-Za-zÀ-ỹ0-9])n,\s*"), "danh từ, "),
+    (re.compile(r"(?<![A-Za-zÀ-ỹ0-9])adj,\s*"), "tính từ, "),
+    (re.compile(r"(?<![A-Za-zÀ-ỹ0-9])adv,\s*"), "trạng từ, "),
+    (re.compile(r"\badj\b"), "tính từ"),
+    (re.compile(r"\badv\b"), "trạng từ"),
+    (re.compile(r"\bsb\b"), "somebody"),
+    (re.compile(r"\bsth\b"), "something"),
+    (re.compile(r"\bS\b(?=\s*\+)|(?<=\+)\s*S\b"), " chủ ngữ"),
+)
+_ASCII_SLASH_RE = re.compile(r"(?<=[A-Za-z'’])\s*/\s*(?:,\s*)?(?=[A-Za-z])")  # am/is/are: one English run, not "hoặc" x2
+
+
+def _english_forms(s: str) -> str:
+    for rx, said in _ENGLISH_FORMS:
+        s = rx.sub(said, s)
+    return s
+
+
+_STRIKE_LIST_RE = re.compile(r"(~~[^~]+~~(?:\s*,\s*~~[^~]+~~)*)\s*(?:→|=>|->)\s*")
+
+
+def _strike_corrections(s: str) -> str:
+    """'~~She work~~ → She works' -> 'không nói She work, mà nói She works' (the B1 notes mark the
+    wrong form with a strikethrough; read flat, the voice said both forms one after the other)."""
+    s = _STRIKE_LIST_RE.sub(lambda m: "không nói " + ", ".join(re.findall(r"~~([^~]+)~~", m.group(1))) + ", mà nói ", s)
+    return re.sub(r"~~([^~]+)~~", r"không nói \1", s)
+
+
 def speakable_pattern(pattern: str) -> str:
     """'V + -(으)ㄹ까요?' -> 'động từ cộng 을까요'."""
     s = pattern.strip()
+    s = re.sub(r"(\d+)\s*[–—]\s*(\d+)", r"\1 đến \2", s)
+    s = s.replace("–", "-").replace("—", "-")
+    s = re.sub(r"\(\s*v\s*\)", "động từ, ", s, flags=re.IGNORECASE)
+    s = re.sub(r"\(\s*n\s*\)", "danh từ, ", s, flags=re.IGNORECASE)
+    s = re.sub(r"\(\s*adj\s*\)", "tính từ, ", s, flags=re.IGNORECASE)
+    s = re.sub(r"\(\s*adv\s*\)", "trạng từ, ", s, flags=re.IGNORECASE)
+    english = not _HANGUL_RE.search(s)
+    if english:
+        s = _english_forms(s)
     for written, spoken in _OPTIONAL_ENDINGS:
         s = s.replace(written, spoken)
     s = s.replace("(ㄴ/는)", "ㄴ/는")  # -(ㄴ/는)다고: the two endings are said side by side, like -ㄴ/는다
@@ -201,10 +255,13 @@ def speakable_pattern(pattern: str) -> str:
     s = re.sub(r"(?<=[A-Za-zÀ-ỹ])-(?=[A-Za-zÀ-ỹ])", " ", s)  # Hán-Hàn: a compound, not a dash to read
     s = re.sub(r"(?<![\w])-(?=[" + _HANGUL + "ㄱ-ㅎㅏ-ㅣ])", "", s)
     s = re.sub(rf"(?<=[{_HANGUL}])-(?![\w])", "", s)  # 으시- , 겠-: the dash of a stem
+    if english:
+        s = _ASCII_SLASH_RE.sub(", ", s)
     s = re.sub(r"\s*/\s*", " hoặc ", s)
     s = _JAMO_RE.sub(lambda m: _JAMO_NAME[m.group(0)], s)
     s = re.sub(r"\s+", " ", s)
     s = re.sub(r"\s*,\s*(,\s*)+", ", ", s)
+    s = re.sub(r"([:;.])\s*,", r"\1", s)  # "clauses: , who" -> "clauses: who"
     s = re.sub(r"\s+,", ",", s).strip(" ,")
     # the Korean pieces glued to a Vietnamese word are split by the language runs later
     return _dedupe_alternatives(s)
@@ -216,6 +273,8 @@ _PARTICLE_IN_BRACKETS_RE = re.compile(rf"(?<=[{_HANGUL}])\(([{_HANGUL}]{{1,2}})\
 
 
 _TAG_WORD_RE = re.compile(r"(?<![A-Za-zÀ-ỹ0-9`])(V/A|V|A|N)(?![A-Za-zÀ-ỹ0-9])")
+# in English text a lone "A" is the article or a placeholder ("A bridge", "both A and B"), not "tính từ"
+_TAG_WORD_EN_RE = re.compile(r"(?<![A-Za-zÀ-ỹ0-9`'’])(V/A|V)(?![A-Za-zÀ-ỹ0-9'’])")
 _TAG_SPOKEN = {"V/A": "động từ hoặc tính từ", "V": "động từ", "A": "tính từ", "N": "danh từ"}
 
 
@@ -226,6 +285,20 @@ def spoken_vi(text: str) -> str:
     s = (text or "").replace("\r\n", "\n")
     s = _MARKDOWN_RE.sub("", s)
     s = _STAR_ITALIC_RE.sub(r"\1", s)
+    s = re.sub(r"(\d+)\s*[–—]\s*(\d+)", r"\1 đến \2", s)
+    s = s.replace("–", "-").replace("—", "-")
+    s = re.sub(r"\(\s*v\s*\)", "động từ, ", s, flags=re.IGNORECASE)
+    s = re.sub(r"\(\s*n\s*\)", "danh từ, ", s, flags=re.IGNORECASE)
+    s = re.sub(r"\(\s*adj\s*\)", "tính từ, ", s, flags=re.IGNORECASE)
+    s = re.sub(r"\(\s*adv\s*\)", "trạng từ, ", s, flags=re.IGNORECASE)
+    english = not _HANGUL_RE.search(s)
+    if english:
+        s = _strike_corrections(s)
+        s = re.sub(r"(?<![\w/])/([^/\s,;]{1,4})/(?![\w/])", r"âm \1", s)  # /t/, /ɪd/: a sound, not a slash
+        s = _english_forms(s)
+        s = re.sub(r"\s*\+\s*", " cộng ", s)  # the cleaner drops a bare "+" and glued the two sides
+        s = re.sub(r"\s*·\s*", ", ", s)
+        s = re.sub(r"\s*(?<![=<>-])=(?![=>])\s*", " nghĩa là ", s)
     s = re.sub(r"\s*[✗✘]\s*(?:→|=>|->)\s*", ", sai, nên nói ", s)  # `*sai` ✗ → `đúng`
     s = re.sub(r"\s*[✗✘]\s*", ", sai, ", s)
     s = re.sub(r"\s*[✓✔]\s*", ", đúng, ", s)
@@ -240,7 +313,9 @@ def spoken_vi(text: str) -> str:
     s = _PARTICLE_IN_BRACKETS_RE.sub("", s)  # 샤워(를) 하다 -> 샤워 하다
     s = re.sub(rf"\(([{_HANGUL}]{{1,2}})\)(?=[{_HANGUL}])", r"\1", s)  # (이)다 -> 이다
     s = re.sub(r"(?<!\d)(\d{1,2})/(\d{1,2})(?!\d)", r"\1 tháng \2", s)
-    s = _TAG_WORD_RE.sub(lambda m: _TAG_SPOKEN[m.group(1)], s)
+    s = (_TAG_WORD_RE if not english else _TAG_WORD_EN_RE).sub(lambda m: _TAG_SPOKEN[m.group(1)], s)
+    if english:
+        s = _ASCII_SLASH_RE.sub(", ", s)
     s = re.sub(r"\s*/\s*", " hoặc ", s)
     s = re.sub(rf"(?<![{_HANGUL}\w])-(?=[{_HANGUL}ㄱ-ㅎㅏ-ㅣ])", "", s)
     s = _JAMO_RE.sub(lambda m: " " + _JAMO_NAME[m.group(0)] + " ", s)
@@ -284,12 +359,14 @@ def _short_by_line(text: str, limit: int) -> str:
 
 
 def _ko_line(text: str, *, shadow: bool) -> str:
-    """A Korean sentence as its own line. `shadow` ends it with an ellipsis, which the
+    """A Korean or English sentence as its own line. `shadow` ends it with an ellipsis, which the
     voice plan turns into a real gap for the learner to repeat it in; otherwise the
     sentence keeps its own ending, so a question is still read as one."""
     text = re.sub(r"\s*/\s*", ", ", text.strip())  # 아침 / 점심 -> two words, not "slash"
     text = re.sub(r"\(\s*[^\w()]+\s*\)", "", text)  # 제곱미터(㎡): a symbol is not read
     text = re.sub(r"\(([^()]*)\)", r"\1", text)  # 배(가) 고프다 -> 배가 고프다
+    text = re.sub(r"\bsb\b", "somebody", text)
+    text = re.sub(r"\bsth\b", "something", text)
     ending = text[-1] if text and text[-1] in ".!?…" else ""
     body = text.rstrip(".!?…").strip()
     if shadow:
