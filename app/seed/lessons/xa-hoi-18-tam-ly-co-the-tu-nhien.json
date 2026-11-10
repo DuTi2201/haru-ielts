@@ -1,0 +1,873 @@
+{
+  "slug": "xa-hoi-18-tam-ly-co-the-tu-nhien",
+  "title": "Tâm lý, cơ thể và tự nhiên",
+  "title_ko": "심리, 신체, 자연",
+  "topic": "Xã hội, Tư tưởng & Chuyên ngành",
+  "track": "advanced",
+  "level": 6,
+  "sort_order": 79,
+  "summary": "46 từ về sinh vật, cơ thể, dinh dưỡng, tâm lý và khoa học đời sống; ba nhóm mẫu của bài đọc dài: xếp vào nhóm · tiến sát mức · sánh với / một mực làm · lao vào làm · làm liên tục / may mà · vừa … là ngay · hễ … là. Có số liệu hộ nuôi thú cưng 2025, khuyến nghị của WHO về đường, vai trò đúng của dopamine, chiến lược Đọc câu 32–50 và 3 câu đề thật.",
+  "vocab": [
+    {
+      "hangul": "동물",
+      "pos": "N",
+      "meaning_vi": "Động vật",
+      "note_vi": "動物. `동물원`, `동물 병원`, `야생 동물`; trái nghĩa `식물`.",
+      "example_ko": "동물원에서 여러 종류의 동물을 구경했다.",
+      "example_vi": "Tôi đã ngắm nhiều loài động vật ở sở thú.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "core",
+      "hanja": "動物",
+      "sino_vietnamese": "động vật",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "식물",
+      "pos": "N",
+      "meaning_vi": "Thực vật",
+      "note_vi": "植物. `식물원`, `식물성` (có nguồn gốc thực vật); cặp `동물`.",
+      "example_ko": "식물은 햇빛과 물이 있어야 자란다.",
+      "example_vi": "Thực vật cần ánh nắng và nước để lớn lên.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "core",
+      "hanja": "植物",
+      "sino_vietnamese": "thực vật",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "기르다",
+      "pos": "V",
+      "meaning_vi": "Nuôi, trồng, rèn luyện",
+      "note_vi": "Nuôi thú, trồng cây, nuôi con, và cả «rèn» thói quen hay năng lực (`습관을 기르다`). Bất quy tắc `르`: `길러요`. Bị động `길러지다`.",
+      "example_ko": "우리 가족은 마당에서 강아지를 기른다.",
+      "example_vi": "Gia đình tôi nuôi một chú chó ở sân.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "core"
+    },
+    {
+      "hangul": "야생",
+      "pos": "N",
+      "meaning_vi": "Hoang dã",
+      "note_vi": "野生. `야생 동물`, `야생화`, `야생에서 살다`; trái nghĩa `사육` (chăn nuôi).",
+      "example_ko": "야생 동물에게 먹이를 주는 것은 오히려 해가 될 수 있다.",
+      "example_vi": "Cho động vật hoang dã ăn lại có thể gây hại.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "recognize",
+      "hanja": "野生",
+      "sino_vietnamese": "dã sinh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "가축",
+      "pos": "N",
+      "meaning_vi": "Gia súc, vật nuôi lấy thịt sữa",
+      "note_vi": "家畜. `가축을 기르다/사육하다`; khác `반려동물` (thú cưng).",
+      "example_ko": "농장에서는 소와 돼지 같은 가축을 키운다.",
+      "example_vi": "Ở nông trại người ta nuôi gia súc như bò và lợn.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "recognize",
+      "hanja": "家畜",
+      "sino_vietnamese": "gia súc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "재배",
+      "pos": "N",
+      "meaning_vi": "Trồng trọt",
+      "note_vi": "栽培. `재배하다`, `유기농 재배`, `재배 면적`.",
+      "example_ko": "이 지역은 기후가 따뜻해서 귤 재배에 알맞다.",
+      "example_vi": "Vùng này khí hậu ấm nên hợp trồng quýt.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "recognize",
+      "hanja": "栽培",
+      "sino_vietnamese": "tài bồi",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "농사",
+      "pos": "N",
+      "meaning_vi": "Việc nhà nông, làm ruộng",
+      "note_vi": "農事. `농사를 짓다` (không dùng `하다`); `농업` là «ngành nông nghiệp».",
+      "example_ko": "그는 시골에서 농사를 지으며 산다.",
+      "example_vi": "Ông ấy sống bằng nghề làm ruộng ở quê.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "recognize",
+      "hanja": "農事",
+      "sino_vietnamese": "nông sự",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "식량",
+      "pos": "N",
+      "meaning_vi": "Lương thực",
+      "note_vi": "食糧. `식량 부족`, `식량 자급률`; khác `식품` (thực phẩm) và `음식` (món ăn).",
+      "example_ko": "기후 변화는 세계의 식량 생산에 영향을 준다.",
+      "example_vi": "Biến đổi khí hậu ảnh hưởng đến sản xuất lương thực thế giới.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "recognize",
+      "hanja": "食糧",
+      "sino_vietnamese": "thực lương",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "생명",
+      "pos": "N",
+      "meaning_vi": "Sinh mệnh, sự sống",
+      "note_vi": "生命. `생명체`, `생명을 구하다`, `생명 과학`; còn nghĩa bóng «sinh mệnh» của tổ chức.",
+      "example_ko": "모든 생명은 소중하다.",
+      "example_vi": "Mọi sinh mệnh đều quý giá.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "core",
+      "hanja": "生命",
+      "sino_vietnamese": "sinh mệnh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "수명",
+      "pos": "N",
+      "meaning_vi": "Tuổi thọ (sinh vật, đồ vật)",
+      "note_vi": "壽命. Dùng cho người, sinh vật và cả đồ vật; với người, thống kê hay dùng `기대수명`.",
+      "example_ko": "이 전지는 수명이 길어서 오래 쓸 수 있다.",
+      "example_vi": "Pin này tuổi thọ dài nên dùng được lâu.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "recognize",
+      "hanja": "壽命",
+      "sino_vietnamese": "thọ mệnh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "진화",
+      "pos": "N",
+      "meaning_vi": "Tiến hoá",
+      "note_vi": "進化. `진화하다`, `진화론`; còn dùng cho công nghệ (`기술이 진화하다`).",
+      "example_ko": "생물은 환경에 적응하면서 오랜 시간에 걸쳐 진화한다.",
+      "example_vi": "Sinh vật tiến hoá qua thời gian dài khi thích nghi với môi trường.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "recognize",
+      "hanja": "進化",
+      "sino_vietnamese": "tiến hóa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "먹이",
+      "pos": "N",
+      "meaning_vi": "Thức ăn của động vật, mồi",
+      "note_vi": "Từ thuần Hàn. `먹이를 주다/찾다`, `먹이 사슬`; dùng cho động vật, còn người thì `음식`.",
+      "example_ko": "새들이 먹이를 찾아 날아다닌다.",
+      "example_vi": "Chim bay đi tìm thức ăn.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "core"
+    },
+    {
+      "hangul": "영양",
+      "pos": "N",
+      "meaning_vi": "Dinh dưỡng",
+      "note_vi": "營養. `영양소`, `영양분`, `영양가`, `영양제`, `영양 상태`.",
+      "example_ko": "아침을 거르면 영양이 부족해질 수 있다.",
+      "example_vi": "Bỏ bữa sáng thì có thể thiếu dinh dưỡng.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "core",
+      "hanja": "營養",
+      "sino_vietnamese": "dinh dưỡng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "단백질",
+      "pos": "N",
+      "meaning_vi": "Chất đạm (protein)",
+      "note_vi": "蛋白質. Ba chất sinh năng lượng: `탄수화물` (tinh bột, đường), `단백질`, `지방`.",
+      "example_ko": "달걀과 두부에는 단백질이 많이 들어 있다.",
+      "example_vi": "Trứng và đậu phụ có nhiều chất đạm.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "recognize",
+      "hanja": "蛋白質",
+      "sino_vietnamese": "đản bạch chất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "설탕",
+      "pos": "N",
+      "meaning_vi": "Đường ăn",
+      "note_vi": "雪糖. `설탕물`, `흑설탕`; trong dinh dưỡng thường nói `당` hay `당류` (nhóm đường).",
+      "example_ko": "설탕을 지나치게 많이 먹으면 건강에 좋지 않다.",
+      "example_vi": "Ăn quá nhiều đường không tốt cho sức khoẻ.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "recognize",
+      "hanja": "雪糖",
+      "sino_vietnamese": "tuyết đường",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "성분",
+      "pos": "N",
+      "meaning_vi": "Thành phần",
+      "note_vi": "成分. `성분표`, `주요 성분`, `유효 성분`; khác `재료` (nguyên liệu nấu ăn, làm đồ).",
+      "example_ko": "화장품은 사기 전에 성분을 확인하는 것이 좋다.",
+      "example_vi": "Mỹ phẩm nên kiểm tra thành phần trước khi mua.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "recognize",
+      "hanja": "成分",
+      "sino_vietnamese": "thành phần",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "섭취",
+      "pos": "N",
+      "meaning_vi": "Hấp thụ vào cơ thể (ăn, uống)",
+      "note_vi": "攝取. `섭취하다`, `섭취량`, `과다 섭취`; văn viết, y tế; nói thường dùng `먹다`.",
+      "example_ko": "나트륨을 지나치게 섭취하면 혈압이 오를 수 있다.",
+      "example_vi": "Ăn quá nhiều natri có thể làm huyết áp tăng.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "recognize",
+      "hanja": "攝取",
+      "sino_vietnamese": "nhiếp thủ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "산소",
+      "pos": "N",
+      "meaning_vi": "Oxy",
+      "note_vi": "酸素. `산소 부족`, `산소 마스크`; cặp `이산화탄소` (CO₂).",
+      "example_ko": "식물은 광합성을 하면서 산소를 내보낸다.",
+      "example_vi": "Thực vật thải ra oxy khi quang hợp.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "recognize",
+      "hanja": "酸素",
+      "sino_vietnamese": "toan tố",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "혈액",
+      "pos": "N",
+      "meaning_vi": "Máu (thuật ngữ)",
+      "note_vi": "血液. `혈액 검사`, `혈액형`, `혈액 순환`; hằng ngày nói `피`.",
+      "example_ko": "혈액은 몸속으로 산소와 영양분을 나른다.",
+      "example_vi": "Máu vận chuyển oxy và chất dinh dưỡng trong cơ thể.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "recognize",
+      "hanja": "血液",
+      "sino_vietnamese": "huyết dịch",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "근육",
+      "pos": "N",
+      "meaning_vi": "Cơ bắp",
+      "note_vi": "筋肉. `근육량`, `근육통` (đau cơ), `근력` (sức cơ).",
+      "example_ko": "운동을 꾸준히 하면 근육이 생긴다.",
+      "example_vi": "Tập luyện đều đặn thì có cơ bắp.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "recognize",
+      "hanja": "筋肉",
+      "sino_vietnamese": "cân nhục",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "신체",
+      "pos": "N",
+      "meaning_vi": "Cơ thể, thân thể (văn viết)",
+      "note_vi": "身體. `신체 활동`, `신체검사`, `신체적`; cặp `정신`; nói thường là `몸`.",
+      "example_ko": "규칙적인 운동은 신체 건강에 도움이 된다.",
+      "example_vi": "Vận động đều đặn có ích cho sức khoẻ cơ thể.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "core",
+      "hanja": "身體",
+      "sino_vietnamese": "thân thể",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "부위",
+      "pos": "N",
+      "meaning_vi": "Bộ phận, vùng (trên cơ thể)",
+      "note_vi": "部位. `신체 부위`, `통증 부위`, `수술 부위`.",
+      "example_ko": "상처가 난 부위를 깨끗이 씻어야 한다.",
+      "example_vi": "Phải rửa sạch vùng bị thương.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "recognize",
+      "hanja": "部位",
+      "sino_vietnamese": "bộ vị",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "수분",
+      "pos": "N",
+      "meaning_vi": "Độ ẩm, lượng nước",
+      "note_vi": "水分. `수분을 섭취하다/보충하다`, `수분 크림`; khác `물` (nước).",
+      "example_ko": "피부에 수분이 부족하면 쉽게 건조해진다.",
+      "example_vi": "Da thiếu nước thì dễ bị khô.",
+      "family": "🟢 Nền · Sinh vật, cơ thể, dinh dưỡng",
+      "priority": "recognize",
+      "hanja": "水分",
+      "sino_vietnamese": "thủy phần",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "심리",
+      "pos": "N",
+      "meaning_vi": "Tâm lý",
+      "note_vi": "心理. `심리학`, `심리적`, `불안 심리`, `군중 심리`.",
+      "example_ko": "소비자의 심리를 이해해야 좋은 광고를 만들 수 있다.",
+      "example_vi": "Phải hiểu tâm lý người tiêu dùng mới làm được quảng cáo tốt.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "core",
+      "hanja": "心理",
+      "sino_vietnamese": "tâm lý",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "정서",
+      "pos": "N",
+      "meaning_vi": "Tình cảm, cảm xúc nền tảng",
+      "note_vi": "情緖. `정서적`, `정서가 안정되다`; chỉ trạng thái cảm xúc bền hơn `감정`.",
+      "example_ko": "독서는 아이들의 정서 발달에 도움이 된다.",
+      "example_vi": "Đọc sách giúp ích cho sự phát triển tình cảm của trẻ.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "recognize",
+      "hanja": "情緖",
+      "sino_vietnamese": "tình tự",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "감정",
+      "pos": "N",
+      "meaning_vi": "Cảm xúc",
+      "note_vi": "感情. `감정을 표현하다/조절하다`, `감정적`; khác `기분` (tâm trạng nhất thời).",
+      "example_ko": "감정을 억누르면 스트레스가 쌓일 수 있다.",
+      "example_vi": "Kìm nén cảm xúc thì căng thẳng có thể tích tụ.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "core",
+      "hanja": "感情",
+      "sino_vietnamese": "cảm tình",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "심정",
+      "pos": "N",
+      "meaning_vi": "Tâm trạng, nỗi lòng",
+      "note_vi": "心情. `심정을 헤아리다`, `착잡한 심정`; thiên về nỗi lòng trong một tình huống.",
+      "example_ko": "자식을 떠나보내는 부모의 심정은 어떨까?",
+      "example_vi": "Nỗi lòng của cha mẹ khi tiễn con đi sẽ ra sao?",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "recognize",
+      "hanja": "心情",
+      "sino_vietnamese": "tâm tình",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "호기심",
+      "pos": "N",
+      "meaning_vi": "Tính tò mò",
+      "note_vi": "好奇心. `호기심이 생기다/강하다`, `호기심을 자극하다`.",
+      "example_ko": "아이들은 호기심이 많아서 모든 것을 만져 보려고 한다.",
+      "example_vi": "Trẻ em tò mò nên muốn sờ vào mọi thứ.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "core",
+      "hanja": "好奇心",
+      "sino_vietnamese": "hiếu kỳ tâm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "도파민",
+      "pos": "N",
+      "meaning_vi": "Dopamine",
+      "note_vi": "Từ mượn (dopamine). Không đơn giản là «chất gây hạnh phúc»; liên quan động lực và học từ phần thưởng. Xem ghi chú.",
+      "example_ko": "도파민은 의욕과 보상에 관련된 신경 전달 물질이다.",
+      "example_vi": "Dopamine là chất dẫn truyền thần kinh liên quan đến động lực và phần thưởng.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "호르몬",
+      "pos": "N",
+      "meaning_vi": "Hormone",
+      "note_vi": "Từ mượn (hormone). `성장 호르몬`, `호르몬 분비`, `호르몬 변화`.",
+      "example_ko": "호르몬은 몸의 여러 기능을 조절하는 물질이다.",
+      "example_vi": "Hormone là chất điều hoà nhiều chức năng của cơ thể.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "분비",
+      "pos": "N",
+      "meaning_vi": "Tiết ra (dịch, hormone)",
+      "note_vi": "分泌. `분비하다`, `분비되다`, `분비물`; chủ thể là tuyến hoặc cơ quan.",
+      "example_ko": "음식을 보면 침이 분비된다.",
+      "example_vi": "Nhìn thấy đồ ăn thì nước bọt tiết ra.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "recognize",
+      "hanja": "分泌",
+      "sino_vietnamese": "phân tiết",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "쾌락",
+      "pos": "N",
+      "meaning_vi": "Khoái lạc",
+      "note_vi": "快樂. `쾌락을 추구하다`; thiên về triết học, sắc thái nặng hơn `즐거움`; `쾌감` là cảm giác dễ chịu.",
+      "example_ko": "순간의 쾌락만 좇으면 오래 행복하기 어렵다.",
+      "example_vi": "Chỉ chạy theo khoái lạc nhất thời thì khó hạnh phúc lâu dài.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "recognize",
+      "hanja": "快樂",
+      "sino_vietnamese": "khoái lạc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "몰입",
+      "pos": "N",
+      "meaning_vi": "Đắm chìm, tập trung hoàn toàn",
+      "note_vi": "沒入. `몰입하다`, `몰입도`, `몰입감`.",
+      "example_ko": "그는 책에 몰입해서 시간이 가는 줄도 몰랐다.",
+      "example_vi": "Anh ấy đắm chìm vào sách đến mức quên cả thời gian.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "recognize",
+      "hanja": "沒入",
+      "sino_vietnamese": "một nhập",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "만족감",
+      "pos": "N",
+      "meaning_vi": "Cảm giác hài lòng",
+      "note_vi": "滿足感. `만족감을 느끼다/주다`; `만족` là sự hài lòng nói chung.",
+      "example_ko": "목표를 이루고 나면 큰 만족감을 느낀다.",
+      "example_vi": "Đạt được mục tiêu thì cảm thấy rất hài lòng.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "recognize",
+      "hanja": "滿足感",
+      "sino_vietnamese": "mãn túc cảm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "충격",
+      "pos": "N",
+      "meaning_vi": "Cú sốc, tác động mạnh",
+      "note_vi": "衝擊. `충격을 받다/주다`, `충격적`, `충격 흡수`; dùng cho cả tâm lý và vật lý.",
+      "example_ko": "그 소식은 큰 충격으로 다가왔다.",
+      "example_vi": "Tin đó đến như một cú sốc lớn.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "recognize",
+      "hanja": "衝擊",
+      "sino_vietnamese": "xung kích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "고통",
+      "pos": "N",
+      "meaning_vi": "Đau đớn, nỗi khổ",
+      "note_vi": "苦痛. `고통을 겪다/느끼다`, `고통스럽다`; `통증` là cơn đau thể xác cụ thể.",
+      "example_ko": "그는 오랜 고통에서 벗어나고 싶어 했다.",
+      "example_vi": "Anh ấy muốn thoát khỏi nỗi đau kéo dài.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "recognize",
+      "hanja": "苦痛",
+      "sino_vietnamese": "khổ thống",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "치매",
+      "pos": "N",
+      "meaning_vi": "Sa sút trí tuệ",
+      "note_vi": "癡呆. `치매 예방`, `치매 환자`; xem số liệu ở bài 65.",
+      "example_ko": "치매는 기억과 판단 능력이 점점 떨어지는 병이다.",
+      "example_vi": "Sa sút trí tuệ là bệnh làm trí nhớ và khả năng phán đoán giảm dần.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "recognize",
+      "hanja": "癡呆",
+      "sino_vietnamese": "si ngai",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "청소년기",
+      "pos": "N",
+      "meaning_vi": "Thời niên thiếu",
+      "note_vi": "靑少年期. `-기` (thời kỳ): `사춘기`, `성인기`, `노년기`, `유아기`.",
+      "example_ko": "청소년기에는 감정이 쉽게 변하기도 한다.",
+      "example_vi": "Ở tuổi thiếu niên cảm xúc cũng dễ thay đổi.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "recognize",
+      "hanja": "靑少年期",
+      "sino_vietnamese": "thanh thiếu niên kỳ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "개성",
+      "pos": "N",
+      "meaning_vi": "Cá tính",
+      "note_vi": "個性. `개성이 강하다`, `개성을 살리다`, `개성적`.",
+      "example_ko": "사람마다 개성이 달라서 생각하는 방식도 다르다.",
+      "example_vi": "Mỗi người một cá tính nên cách nghĩ cũng khác.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "core",
+      "hanja": "個性",
+      "sino_vietnamese": "cá tính",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "특징",
+      "pos": "N",
+      "meaning_vi": "Đặc trưng, nét riêng",
+      "note_vi": "特徵. `특징적`, `특징을 살리다`; khác `특성` (tính chất vốn có) và `특색` (màu sắc riêng).",
+      "example_ko": "이 동물의 가장 큰 특징은 목이 길다는 점이다.",
+      "example_vi": "Đặc trưng lớn nhất của loài vật này là cổ dài.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "core",
+      "hanja": "特徵",
+      "sino_vietnamese": "đặc trưng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "독특하다",
+      "pos": "A",
+      "meaning_vi": "Độc đáo, khác biệt",
+      "note_vi": "獨特--. `독특한 맛/분위기`, `독특하게`; khác `특이하다` (lạ, đặc biệt, có thể hơi lạ lùng).",
+      "example_ko": "이 지역은 독특한 문화로 유명하다.",
+      "example_vi": "Vùng này nổi tiếng với nền văn hoá độc đáo.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "recognize",
+      "hanja": "獨特",
+      "sino_vietnamese": "độc đặc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "구별",
+      "pos": "N",
+      "meaning_vi": "Phân biệt (nhận ra khác nhau)",
+      "note_vi": "區別. `구별하다`, `구별되다`; khác `구분` (chia thành nhóm) và `차별` (đối xử phân biệt).",
+      "example_ko": "진짜와 가짜를 구별하기 어렵다.",
+      "example_vi": "Khó phân biệt đồ thật và đồ giả.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "recognize",
+      "hanja": "區別",
+      "sino_vietnamese": "khu biệt",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "분별",
+      "pos": "N",
+      "meaning_vi": "Phán đoán đúng sai",
+      "note_vi": "分別. `분별력`, `분별하다`, `분별없다` (thiếu suy xét); thiên về năng lực phán đoán.",
+      "example_ko": "어린아이는 옳고 그름을 분별하기 어렵다.",
+      "example_vi": "Trẻ nhỏ khó phân biệt đúng sai.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "recognize",
+      "hanja": "分別",
+      "sino_vietnamese": "phân biệt",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "핵심",
+      "pos": "N",
+      "meaning_vi": "Cốt lõi, trọng tâm",
+      "note_vi": "核心. `핵심 내용/원인`, `핵심적`; từ khoá của dạng ý chính.",
+      "example_ko": "이 글의 핵심은 규칙적인 생활이 중요하다는 것이다.",
+      "example_vi": "Trọng tâm của bài này là lối sống đều đặn quan trọng.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "core",
+      "hanja": "核心",
+      "sino_vietnamese": "hạch tâm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "개념",
+      "pos": "N",
+      "meaning_vi": "Khái niệm",
+      "note_vi": "槪念. `개념을 이해하다/정리하다`, `개념어` (từ chỉ khái niệm).",
+      "example_ko": "경제 개념을 모르면 뉴스를 이해하기 어렵다.",
+      "example_vi": "Không biết khái niệm kinh tế thì khó hiểu tin tức.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "core",
+      "hanja": "槪念",
+      "sino_vietnamese": "khái niệm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "탐구",
+      "pos": "N",
+      "meaning_vi": "Tìm tòi, nghiên cứu sâu",
+      "note_vi": "探究. `탐구하다`, `탐구 활동`, `탐구심`; sâu hơn `조사`.",
+      "example_ko": "과학자는 자연의 원리를 탐구한다.",
+      "example_vi": "Nhà khoa học tìm tòi nguyên lý của tự nhiên.",
+      "family": "🟡 Dạng thi · Tâm lý, hành vi, khoa học đời sống",
+      "priority": "recognize",
+      "hanja": "探究",
+      "sino_vietnamese": "thám cứu",
+      "enrich": "auto"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V/A + -(으)ㄴ/는 축에 들다 · N + 에 육박하다 · N + 에 버금가다",
+      "meaning_vi": "Thuộc nhóm (khá) … · Tiến sát mức … · Chỉ đứng sau / sánh được với …",
+      "usage_context_vi": "**Cấu tạo:** `V/A + -(으)ㄴ/는 축에 들다` (cũng `축에 속하다`, `축에 꼽히다`): xếp đối tượng vào một nhóm có chung đặc điểm, thường là nhóm khá hoặc nổi bật; tính từ dùng `-(으)ㄴ`, động từ dùng `-는` (`큰 축에 든다`, `일찍 일어나는 축에 든다`). `N + 에 육박하다`: số liệu hay tỷ lệ đến sát một mức, gần bằng nhưng chưa chắc vượt. `N + 에 버금가다`: theo từ điển là «đứng ngay sau hạng nhất»; trong báo chí thường dùng với nghĩa «gần sánh được với».\n**Hoàn cảnh dùng:** Báo chí, bài khoa học và nghị luận: `이 동물은 체구가 작은 축에 든다`; `물가 상승률이 10%에 육박했다`; `전문가에 버금가는 실력`.\n**Vì sao chọn nó:** `축에 들다` mang phép so sánh với cả nhóm, còn `에 속하다` chỉ là phân loại khách quan. `에 육박하다` khác `에 달하다` (đã đạt tới) và `에 못 미치다` (chưa tới): nó nói «sát mức đó». `에 버금가다`: cách dùng «ngang bằng» rất phổ biến trong báo chí, nhưng Viện Quốc ngữ coi đây là dùng lệch nghĩa, nên khi cần nói «ngang bằng» hãy dùng `에 맞먹다`.",
+      "contrasts": [
+        {
+          "pattern": "에 속하다",
+          "diff_vi": "Đã học ở bài 65: phân loại khách quan; `축에 들다` thêm ý «nằm trong nhóm khá»."
+        },
+        {
+          "pattern": "에 달하다",
+          "diff_vi": "Đã học ở bài 64: đã đạt tới mức đó; `에 육박하다` là «sát mức đó»."
+        },
+        {
+          "pattern": "에 맞먹다",
+          "diff_vi": "Ngang bằng, tương đương; `에 버금가다` theo từ điển là «ngay sau hạng nhất»."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng sai dạng định từ trước `축에 들다`: ✗ `작는 축에 든다` → ✓ `작은 축에 든다`.\n(2) Dùng `에 육박하다` với mức đã vượt: ✗ `기온이 40도를 넘어 40도에 육박했다` → ✓ `기온이 40도에 육박했다` / `기온이 40도를 넘었다`.\n(3) Dùng `에 버금가다` để nói «hơn hẳn»: ✗ `전문가보다 훨씬 뛰어나서 전문가에 버금간다` → ✓ `전문가에 버금가는 실력을 갖추었다`.",
+      "example_ko": "이 도시는 연평균 기온이 높은 축에 든다.\n올해 물가 상승률이 10%에 육박하면서 서민들의 부담이 커졌다.\n이 제품은 전문가용 장비에 버금가는 성능을 갖추고 있다.\n그는 우리 학교에서 일찍 출근하는 축에 든다.",
+      "example_vi": "Thành phố này thuộc nhóm có nhiệt độ trung bình năm cao.\nNăm nay tỷ lệ tăng giá sát 10% nên gánh nặng của người dân tăng lên.\nSản phẩm này có tính năng sánh được với thiết bị chuyên dụng.\nAnh ấy thuộc nhóm đi làm sớm ở trường chúng tôi.",
+      "topik_tip_vi": "Đọc 32–50: gặp `…에 육박하다` ở câu đối chiếu nội dung, hiểu là «sát mức, chưa tới hẳn»; đáp án nói «đã vượt» hoặc «xa mức đó» là sai.",
+      "importance": "must"
+    },
+    {
+      "pattern": "V + -(으)려고 들다 · V + -고 들다 · V + -아/어 대다",
+      "meaning_vi": "Một mực định … · Lao vào làm (thường để cãi, tranh) · Cứ … liên tục (đáng phiền)",
+      "usage_context_vi": "**Cấu tạo:** `V + -(으)려고 들다` (cũng `-(으)려 들다`, nhấn mạnh `-(으)려고만 들다`): chủ ngữ chủ động và quyết liệt định làm việc gì, thường là khăng khăng, cứng đầu. `V + -고 들다` (`들다` là động từ hỗ trợ): nhập cuộc làm việc một cách tích cực, gay gắt, như `따지고 들다`, `우기고 들다`. `V + -아/어 대다`: làm một việc liên tục hoặc quá mức, thường gây khó chịu; chỉ đi với động từ (`먹어 대다`, `졸라 대다`, `떠들어 대다`).\n**Hoàn cảnh dùng:** Nhận xét thái độ trong bài báo và bình luận: `원인을 남에게서 찾으려고 든다`; `작은 실수까지 따지고 든다`; `밤마다 과자를 먹어 댄다`.\n**Vì sao chọn nó:** Cả ba đều mang đánh giá của người nói rằng hành vi đó là quá mức hoặc cứng đầu, nên dùng khi mô tả thái độ bị phê phán, không dùng cho hành vi bình thường. `-아/어 대다` nghe khẩu ngữ, không hợp văn bản trang trọng. `-고 들다` viết cách, khác với các động từ ghép viết liền như `파고들다`, `달려들다`.",
+      "contrasts": [
+        {
+          "pattern": "-(으)려고 하다",
+          "diff_vi": "Trung tính: định làm; `-(으)려고 들다` thêm ý quyết liệt, khăng khăng."
+        },
+        {
+          "pattern": "-기 일쑤이다",
+          "diff_vi": "Đã học ở bài 55: hay xảy ra điều không hay; `-아/어 대다` nhấn việc đang lặp liên tục, quá mức."
+        },
+        {
+          "pattern": "-고 말다",
+          "diff_vi": "Đã học: rốt cuộc làm xong điều không mong muốn; `-고 들다` nhấn thái độ lao vào làm."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `-아/어 대다` với tính từ: ✗ `예뻐 댄다` → ✓ `자랑해 댄다` (chỉ gắn vào động từ).\n(2) Dùng `-(으)려고 들다` cho dự định trung tính: ✗ `내일 친구를 만나려고 든다` → ✓ `내일 친구를 만나려고 한다`.\n(3) Viết sai giãn cách: ✗ `따지고들다` → ✓ `따지고 들다`; còn `파고들다`, `달려들다` là động từ ghép viết liền.",
+      "example_ko": "사람들은 흔히 문제의 원인을 남에게서 찾으려고 든다.\n그는 회의에서 작은 실수까지 따지고 들어 분위기가 나빠졌다.\n아이가 장난감을 사 달라고 졸라 대서 결국 사 주었다.\n야식을 먹어 대는 습관은 건강을 해칠 수 있다.",
+      "example_vi": "Người ta thường một mực tìm nguyên nhân của vấn đề ở người khác.\nTrong cuộc họp, anh ấy xoáy vào cả lỗi nhỏ nên không khí xấu đi.\nĐứa trẻ nằn nì đòi mua đồ chơi mãi nên cuối cùng tôi mua cho.\nThói quen cứ ăn đêm liên tục có thể hại sức khoẻ.",
+      "topik_tip_vi": "Đọc 32–50: các mẫu này báo hiệu thái độ phê phán của tác giả; Viết 54: dùng để mô tả hành vi không nên có, rồi chuyển sang đề xuất.",
+      "importance": "must"
+    },
+    {
+      "pattern": "V + -기에 망정이지 · V + -기가 무섭게 · V + -는 족족",
+      "meaning_vi": "May mà … (nếu không thì đã …) · Vừa … là ngay · Hễ … là (lần nào cũng)",
+      "usage_context_vi": "**Cấu tạo:** `V + -기에 망정이지` (quá khứ `-았/었기에 망정이지`): nhờ có việc ở vế trước mà tránh được điều xấu; vế sau nêu điều xấu suýt xảy ra, thường là `-(으)ㄹ 뻔했다` hoặc `-았/었을 것이다`. `V + -기가 무섭게`: ngay sau khi việc trước xảy ra thì việc sau xảy ra rất nhanh, chỉ gắn vào động từ. `V + -는 족족`: mỗi lần việc trước xảy ra thì ngay sau đó việc sau xảy ra, thường là điều đáng tiếc hoặc ngoài ý muốn.\n**Hoàn cảnh dùng:** Kể chuyện, bài báo, bình luận: `미리 예약했기에 망정이지 자리가 없을 뻔했다`; `수업이 끝나기가 무섭게 뛰어나갔다`; `버는 족족 써 버린다`.\n**Vì sao chọn nó:** `-기에 망정이지` diễn tả sự nhẹ nhõm dựa trên giả định phản thực; `-기가 무섭게` nhấn tốc độ và sự bất ngờ (gần `-자마자` đã học nhưng gấp hơn); `-는 족족` nhấn tính lặp lại mỗi lần và thường là kết quả đáng tiếc.",
+      "contrasts": [
+        {
+          "pattern": "-자마자",
+          "diff_vi": "Đã học: ngay sau khi, trung tính; `-기가 무섭게` nhấn tốc độ và sự bất ngờ."
+        },
+        {
+          "pattern": "-(으)ㄹ 뻔하다",
+          "diff_vi": "Đã học: suýt nữa; thường làm vế sau của `-기에 망정이지`."
+        },
+        {
+          "pattern": "-는 대로",
+          "diff_vi": "Đã học: hễ … thì làm ngay; `-는 족족` là mỗi lần xảy ra, hay mang sắc thái đáng tiếc."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Vế sau của `-기에 망정이지` thuận chiều: ✗ `일찍 출발했기에 망정이지 일찍 도착했다` → ✓ `일찍 출발했기에 망정이지 늦을 뻔했다`.\n(2) Dùng `-기가 무섭게` với tính từ hay `이다`: ✗ `날씨가 좋기가 무섭게` → ✓ `비가 그치기가 무섭게 사람들이 나왔다`.\n(3) Dùng `-는 족족` cho việc chỉ xảy ra một lần: ✗ `어제 집에 오는 족족 잤다` → ✓ `어제 집에 오자마자 잤다`.",
+      "example_ko": "미리 예약했기에 망정이지 하마터면 식당에 자리가 없을 뻔했다.\n수업이 끝나기가 무섭게 아이들이 운동장으로 뛰어나갔다.\n벌어들이는 족족 써 버리다 보니 저축을 할 수가 없다.\n안전벨트를 매고 있었기에 망정이지 크게 다칠 뻔했다.",
+      "example_vi": "May mà đã đặt trước, không thì suýt nữa nhà hàng đã hết chỗ.\nGiờ học vừa kết thúc là lũ trẻ chạy ngay ra sân.\nHễ kiếm được là tiêu hết nên không tiết kiệm được.\nMay mà đang thắt dây an toàn, không thì suýt bị thương nặng.",
+      "topik_tip_vi": "Đọc 32–50: `-기에 망정이지` thường mở một đoạn kể kinh nghiệm; hãy tìm vế sau `-(으)ㄹ 뻔했다` để biết điều gì suýt xảy ra.",
+      "importance": "must"
+    },
+    {
+      "pattern": "V + -(으)ㄹ라치면",
+      "meaning_vi": "Hễ (định) … là (lại) … — cứ mỗi khi định làm thì xảy ra điều trái ý",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · 👁 **Nhận ra** (đọc/nghe hiểu)\n**Cấu tạo:** gốc động từ + `-(으)ㄹ라치면`: `자다 → 잘라치면`, `먹다 → 먹을라치면`; vế sau là chuyện **lặp lại**, thường không mong muốn.\n**Hoàn cảnh dùng:** Văn nói/văn kể, tả **thói quen bực mình**: `잠을 잘라치면 꼭 전화가 온다.` `공부를 좀 할라치면 친구가 놀자고 한다.`\n**Vì sao chọn nó:** `-(으)려고 하면` là cách nói thường; `-(으)ㄹ라치면` nhấn **tính lặp lại và sự trớ trêu**, giàu cảm xúc. Người học cần nhận ra trong đọc văn học, tùy bút.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Tâm lý, cơ thể và tự nhiên»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V + -(으)려고 하면",
+          "diff_vi": "Cùng nghĩa, trung tính, phổ biến."
+        },
+        {
+          "pattern": "V + -기만 하면",
+          "diff_vi": "«Cứ hễ … là», không nhất thiết là lúc định làm."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Viết sai thành `-(으)ㄹ려치면`: chuẩn là `-(으)ㄹ라치면`.\n(2) Vế sau là sự việc một lần: mẫu này dùng cho **chuyện lặp lại**.\n(3) Dùng trong văn bản trang trọng: thay bằng `-(으)려고 할 때마다`.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "잠을 좀 잘라치면 꼭 전화가 온다.\n공부를 좀 할라치면 동생이 놀아 달라고 한다.\n밖에 나갈라치면 비가 쏟아지곤 했다.",
+      "example_vi": "Hễ định ngủ một chút là y như rằng có điện thoại.\nCứ định học một chút là em lại đòi chơi cùng.\nHễ định ra ngoài là trời lại đổ mưa.",
+      "topik_tip_vi": "Đọc tùy bút/văn học: `-(으)ㄹ라치면` = trớ trêu lặp lại; tâm trạng nhân vật thường «bực bội», «bất lực».",
+      "use_level": "recognize",
+      "source": "EXT-SUP-65"
+    },
+    {
+      "pattern": "여간 + A/V + -지 않다",
+      "meaning_vi": "Không phải … thường đâu, … vô cùng (phủ định kép để nhấn mạnh)",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · 👁 **Nhận ra** (đọc/nghe hiểu)\n**Cấu tạo:** `여간` + `-(으)ㄴ/는 게 아니다` hoặc `-지 않다`: `여간 힘들지 않다`, `여간 힘든 게 아니다`; dạng danh từ `여간 N이 아니다`.\n**Hoàn cảnh dùng:** Nghĩa đen «không phải mức bình thường» → thực chất là **rất, vô cùng**: `혼자 아이를 키우는 것은 여간 힘들지 않다.` (vô cùng vất vả).\n**Vì sao chọn nó:** Phủ định kép nghe **giàu cảm xúc và sâu sắc** hơn `매우/아주`. Người học hay hiểu ngược thành «không vất vả lắm» — chỗ đề Đọc/Nghe hay cài bẫy.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Tâm lý, cơ thể và tự nhiên»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "매우 · 아주 + A",
+          "diff_vi": "Nhấn trực tiếp, không qua phủ định kép."
+        },
+        {
+          "pattern": "A + -기가 이를 데 없다 · 이루 말할 수 없다",
+          "diff_vi": "Mức độ cực điểm, văn viết."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Hiểu theo nghĩa phủ định: `여간 어렵지 않다` = **rất khó**, không phải «không khó lắm».\n(2) Bỏ phủ định: ✗ `여간 힘들다` → ✓ `여간 힘들지 않다`.\n(3) Dùng với ý tích cực nhẹ: mẫu này nhấn mạnh **mức độ cao**, thường về khó khăn, cảm xúc.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "혼자 아이를 키우는 것은 여간 힘들지 않다.\n그 사람은 여간 꼼꼼한 게 아니에요.\n스트레스를 혼자 견디는 것은 여간 어려운 일이 아니다.",
+      "example_vi": "Một mình nuôi con vất vả vô cùng.\nNgười đó tỉ mỉ không ai bằng.\nMột mình chịu đựng căng thẳng là việc vô cùng khó.",
+      "topik_tip_vi": "Đọc/Nghe (nội dung trùng khớp, tâm trạng): `여간 … 지 않다` = rất …; đáp án đúng nói «rất vất vả», đáp án bẫy nói «không vất vả lắm».",
+      "use_level": "recognize",
+      "source": "EXT-SUP-66"
+    },
+    {
+      "pattern": "A + -기가 이를 데 없다 · 이루 말할 수 없다",
+      "meaning_vi": "… không gì sánh được, … không sao tả xiết (mức độ cực điểm, văn viết)",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · 👁 **Nhận ra** (đọc/nghe hiểu)\n**Cấu tạo:** tính từ + `-기(가) 이를 데 없다`: `기쁘다 → 기쁘기가 이를 데 없다`; `이루 말할 수 없다`: `이루 말할 수 없이 기뻤다`, `N은/는 이루 말할 수 없다`.\n**Hoàn cảnh dùng:** Văn viết, diễn văn, văn học: nhấn cảm xúc, trạng thái **ở mức cao nhất**, không lời nào tả hết: `그 소식을 들었을 때의 기쁨은 이루 말할 수 없었다.` `방 안이 지저분하기 이를 데 없었다.`\n**Vì sao chọn nó:** `정말/너무` là văn nói; hai cụm này là cách nhấn **trang trọng, văn chương**. Người học cần nhận ra; có thể dùng trong bài viết cảm nhận.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Tâm lý, cơ thể và tự nhiên»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "여간 + A/V + -지 않다",
+          "diff_vi": "Nhấn mạnh bằng phủ định kép, cả văn nói."
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 정도로",
+          "diff_vi": "Mức độ «đến mức», trung tính."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng với động từ hành động: `-기가 이를 데 없다` chủ yếu đi với **tính từ** cảm xúc/trạng thái.\n(2) Hiểu `이를 데 없다` thành «không có chỗ đến»: đây là thành ngữ «không lời nào tả hết».\n(3) Dùng trong hội thoại thường: nghe phóng đại, sách vở.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "그 소식을 들었을 때의 기쁨은 이루 말할 수 없었다.\n오랜 병 끝에 회복한 그의 모습은 반갑기가 이를 데 없었다.\n전쟁의 참혹함은 이루 말할 수 없을 정도였다.",
+      "example_vi": "Niềm vui khi nghe tin đó không sao tả xiết.\nHình ảnh anh ấy bình phục sau trận ốm dài thật mừng không gì sánh được.\nSự thảm khốc của chiến tranh không lời nào tả hết.",
+      "topik_tip_vi": "Đọc văn học (tâm trạng): hai cụm này đánh dấu cảm xúc cực điểm; chọn đáp án tâm trạng mạnh nhất phù hợp.",
+      "use_level": "recognize",
+      "source": "EXT-SUP-67"
+    },
+    {
+      "pattern": "V + -(으)ㄹ래야 -(으)ㄹ 수가 없다",
+      "meaning_vi": "Muốn … cũng không thể …, có định … cũng chẳng được",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · 👁 **Nhận ra** (đọc/nghe hiểu)\n**Cấu tạo:** gốc động từ + `-(으)ㄹ래야` + cùng động từ + `-(으)ㄹ 수가 없다`: `잊을래야 잊을 수가 없다`, `참을래야 참을 수가 없다`. (`-(으)려야` là dạng chuẩn chính tả; `-(으)ㄹ래야` phổ biến trong văn nói.)\n**Hoàn cảnh dùng:** Nhấn **hoàn toàn không thể** dù muốn: `그날의 기억은 잊을래야 잊을 수가 없다.` `너무 웃겨서 웃음을 참을래야 참을 수가 없었다.`\n**Vì sao chọn nó:** `-(으)ㄹ 수 없다` chỉ nói không thể; lặp động từ với `-(으)ㄹ래야` nhấn **ý muốn có nhưng vô vọng**, giàu cảm xúc.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Tâm lý, cơ thể và tự nhiên»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V + -(으)ㄹ 수 있다/없다",
+          "diff_vi": "Khả năng thường, không nhấn sự cố gắng vô vọng."
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 턱이 없다 · N + 일 턱이 없다",
+          "diff_vi": "Phán đoán «không đời nào», không phải bất lực."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng hai động từ khác nhau: mẫu này **lặp cùng một động từ**.\n(2) Viết trong văn bản trang trọng: chính tả chuẩn là `-(으)려야` (`잊으려야 잊을 수가 없다`).\n(3) Dùng ở thể khẳng định: vế sau luôn là `-(으)ㄹ 수가 없다`.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "그날의 기억은 잊을래야 잊을 수가 없다.\n너무 웃겨서 웃음을 참을래야 참을 수가 없었다.\n이렇게 시끄러우면 잘래야 잘 수가 없다.",
+      "example_vi": "Ký ức ngày hôm đó có muốn quên cũng không quên được.\nBuồn cười quá, có muốn nhịn cũng không nhịn nổi.\nỒn thế này thì có muốn ngủ cũng không ngủ được.",
+      "topik_tip_vi": "Nghe/Đọc (tâm trạng): mẫu này cho thấy cảm xúc rất mạnh, không kiểm soát được.",
+      "use_level": "recognize",
+      "source": "EXT-SUP-68"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài",
+      "body": "Bài 18 của Chủ đề 5, nhóm kiến thức chuyên đề thứ chín, đồng thời là bài chiến lược cho Đọc câu 32–50 (bài đọc dài). Sau bài này bạn:\n① nắm 46 từ về sinh vật, cơ thể, dinh dưỡng, tâm lý và khoa học đời sống;\n② đọc hiểu và dùng `-(으)ㄴ/는 축에 들다 · 에 육박하다 · 에 버금가다`, `-(으)려고 들다 · -고 들다 · -아/어 대다`, `-기에 망정이지 · -기가 무섭게 · -는 족족`;\n③ hiểu đúng một số kiến thức đời sống đã kiểm tra: tỷ lệ hộ nuôi thú cưng 2025, khuyến nghị của WHO về đường, vai trò của dopamine;\n④ có quy trình riêng cho bốn dạng câu đọc dài: đối chiếu nội dung, ý chính, chèn câu, thái độ và mục đích.",
+      "kind": "goal"
+    },
+    {
+      "title": "Kiến thức đời sống đã kiểm tra (tháng 10/2026)",
+      "body": "• **Hộ nuôi thú cưng**: theo `2025년 반려동물 양육현황 조사` của Bộ Nông nghiệp, Thực phẩm và Nông thôn (công bố 18/2/2026, lần đầu là thống kê được nhà nước phê duyệt, phỏng vấn trực tiếp 3.000 hộ), **29,2%** số hộ nuôi thú cưng (867 hộ trong mẫu), sai số ±1,79 điểm phần trăm. Vì phương pháp khác với các khảo sát trước nên không so sánh trực tiếp với số cũ.\n• **Đường (WHO, 2015)**: nên hạn chế đường tự do (`free sugars`) dưới 10% tổng năng lượng hấp thụ ở cả người lớn và trẻ em (khuyến nghị mạnh); giảm xuống dưới 5% (khoảng 25 g, tức 6 thìa cà phê mỗi ngày) sẽ có thêm lợi ích như ít sâu răng (khuyến nghị có điều kiện). Đường tự do gồm đường thêm vào thực phẩm và đường có sẵn trong mật ong, siro, nước ép; không gồm đường trong trái cây tươi, rau và sữa.\n• **Năng lượng của dinh dưỡng**: 1 g tinh bột (`탄수화물`) và 1 g chất đạm (`단백질`) cho khoảng 4 kcal, 1 g chất béo (`지방`) khoảng 9 kcal.\n• **Dopamine**: là chất dẫn truyền thần kinh gắn với động lực, kỳ vọng phần thưởng, học lặp lại hành vi và vận động; gọi nó là «hormone hạnh phúc / khoái lạc» là cách nói quá đơn giản.\nNội dung chỉ để học tiếng Hàn, không thay lời khuyên của bác sĩ hay chuyên gia dinh dưỡng.",
+      "kind": "language"
+    },
+    {
+      "title": "Chiến lược Đọc câu 32–50: bốn dạng",
+      "body": "Ở đề 96 và 102, các câu 32–34 là đối chiếu nội dung, 35–38 là chủ đề hay ý chính, 39–41 là chèn câu, rồi các bài dài từ 44 đến 50 có điền chỗ trống, ý chính, thái độ, mục đích và đối chiếu nội dung. Với 70 phút cho 50 câu, trung bình 84 giây một câu, nên đọc nhanh các câu ngắn để dành thời gian cho bài dài.\n① **Đối chiếu nội dung (32–34)**: đọc đoạn một lượt, gạch **chủ ngữ, thời gian, con số, quan hệ nguyên nhân**, rồi kiểm từng đáp án. Đáp án sai thường đổi chủ ngữ hay mốc thời gian, đảo quan hệ nhân quả hoặc nói quá (`항상`, `전혀`).\n② **Chủ đề, ý chính (35–38)**: tìm câu mở luận điểm sau `그런데`, `하지만`, `따라서`; loại đáp án chỉ lấy một chi tiết, nói ngược, hoặc đưa ra điều bài không nói.\n③ **Chèn câu (39–41)**: câu cho sẵn thường có từ chỉ thị (`이`, `이러한`) hay từ nối (`그러나`, `따라서`). Câu đứng ngay trước phải trả lời cho từ chỉ thị đó, câu đứng ngay sau phải nối tiếp được với câu cho sẵn.\n④ **Bài dài (44–50)**: đọc câu hỏi trước để biết cần tìm gì (chỗ trống, ý chính, thái độ, mục đích); chia bài thành vấn đề, nguyên nhân, ví dụ, kết luận; thái độ và mục đích thường nằm ở câu kết, nhất là sau `따라서`, `-(으)ㄹ 필요가 있다`, `-는 것이 바람직하다`.",
+      "kind": "language"
+    },
+    {
+      "title": "Cặp từ dễ nhầm",
+      "body": "• `신체` (văn viết, khoa học) ≠ `몸` (nói thường) ≠ `부위` (một vùng của cơ thể).\n• `감정` (cảm xúc nhất thời) ≠ `정서` (nền cảm xúc, tình cảm) ≠ `심정` (nỗi lòng trong một hoàn cảnh) ≠ `기분` (tâm trạng).\n• `구별` (nhận ra điểm khác) ≠ `구분` (chia thành nhóm) ≠ `분별` (phán đoán đúng sai).\n• `특징` (nét nổi bật) ≠ `특성` (tính chất vốn có) ≠ `특색` (màu sắc riêng).\n• `영양` (dinh dưỡng nói chung) ≠ `영양소` (chất dinh dưỡng) ≠ `영양가` (giá trị dinh dưỡng).\n• Nhóm chỉ mức: `에 달하다` (đã đạt) ≠ `에 육박하다` (sát mức) ≠ `에 못 미치다` (chưa tới) ≠ `을 웃돌다` (vượt) ≠ `을 밑돌다` (thấp hơn).",
+      "kind": "language"
+    },
+    {
+      "title": "Hormone và dopamine: nói cho đúng",
+      "body": "`호르몬` là chất do tuyến hay cơ quan tiết ra (`분비`) rồi theo máu đi điều hoà chức năng của cơ thể. `도파민` là chất dẫn truyền thần kinh: nó làm tín hiệu giữa các tế bào thần kinh, liên quan nhiều đến việc **muốn làm** (động lực), kỳ vọng phần thưởng và học lặp lại hành vi. Bài báo sức khoẻ năm 2026 mà bài này tham khảo nhấn mạnh rằng gọi nó là «chất hạnh phúc» hay «hormone khoái lạc» là quá đơn giản, và cũng không nên đổ hết lỗi gây nghiện cho riêng dopamine.\nĐề đọc thường chỉ cần bạn hiểu nghĩa từ trong đoạn; đừng suy diễn sinh học ngoài những gì đoạn nói.",
+      "kind": "language"
+    },
+    {
+      "title": "Một đoạn mẫu (nội dung giả định)",
+      "body": "`사람들은 흔히 실수의 원인을 남에게서 찾으려고 든다. 작은 문제까지 따지고 들어 분위기가 나빠진 경험은 누구에게나 있다. 미리 감정을 가라앉혔기에 망정이지 크게 다툴 뻔했다는 이야기도 많다. 마음속 호기심과 감정을 잘 들여다보는 사람은 대화를 이끄는 축에 든다.`\nChú ý: `려고 든다` là thái độ khăng khăng, `고 들어` là lao vào xoáy, `기에 망정이지` luôn kèm vế sau `-(으)ㄹ 뻔했다`.",
+      "kind": "sample"
+    },
+    {
+      "title": "Năm lỗi hay mắc",
+      "body": "① **Chọn đáp án đọc-hiểu theo ấn tượng chung** mà không kiểm chủ ngữ, thời gian, con số.\n② **Chọn đáp án quá hẹp hay quá rộng** ở câu hỏi ý chính.\n③ **Chèn câu mà không xét từ chỉ thị** và câu liền sau.\n④ **Dùng `-아/어 대다` với tính từ**, hay dùng `-(으)려고 들다` cho dự định trung tính.\n⑤ **Nhầm các cặp từ**: `감정/정서`, `구별/구분`, `특징/특성`.",
+      "kind": "pitfall"
+    }
+  ],
+  "bank": "xa-hoi",
+  "coach": {
+    "focus_vi": [
+      "Học 46 từ theo hai nhóm: nhóm sinh vật và cơ thể `동물`, `영양`, `단백질`, `근육` trước, rồi nhóm tâm lý và khoa học `감정`, `호기심`, `호르몬`, `개념`. Mỗi từ chép một câu ví dụ.",
+      "Làm sáu câu điền mẫu: `축에 들다`, `육박하다`, `버금가다`, `려고 들다`, `아/어 대다`, `기에 망정이지`; với mỗi câu ghi ra đây là mô tả khách quan hay thái độ phê phán.",
+      "Với ba câu đề thật, làm đúng quy trình trong ghi chú: gạch chủ ngữ, thời gian, con số rồi mới nhìn đáp án."
+    ],
+    "watch_out_vi": [
+      "`-아/어 대다` chỉ đi với động từ và mang sắc thái quá mức đáng phiền.",
+      "`에 육박하다` là «sát mức», khác hẳn «đã vượt» hay «chưa tới xa»."
+    ],
+    "notebook_vi": [
+      "Đọc to số: `29.2%`, `10%`, `25그램`.",
+      "Ba câu về thói quen của bạn, mỗi câu dùng một mẫu của bài."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "`-기가 무섭게` khác `-자마자` thế nào?",
+        "answer": "Cả hai đều «ngay sau khi». `-자마자` trung tính; `-기가 무섭게` nhấn mạnh việc xảy ra rất nhanh và gây bất ngờ, và chỉ gắn vào động từ."
+      },
+      {
+        "prompt_vi": "`에 버금가다` có thể dùng như «ngang bằng» không?",
+        "answer": "Trong báo chí nó thường được dùng với nghĩa «gần sánh được với». Nghĩa trong từ điển là «đứng ngay sau hạng nhất», nên khi viết bài cần nói «ngang bằng» thì dùng `에 맞먹다` cho chắc."
+      }
+    ]
+  },
+  "exercise_ids": [
+    "X67L1",
+    "X67L2",
+    "X67L3",
+    "X67L4",
+    "X67D1",
+    "X67D2",
+    "X67R1",
+    "X67R2",
+    "X67R3",
+    "X67R4",
+    "X67R5",
+    "X67R6",
+    "X67R7",
+    "X67R8",
+    "X67R9",
+    "X67R10",
+    "X67B1",
+    "X67B2",
+    "X67B3",
+    "X67B4",
+    "X67B5",
+    "X67B6",
+    "X67B7",
+    "X67F1",
+    "X67F2",
+    "X67E1",
+    "RG68",
+    "XSUP65",
+    "XSUP66",
+    "XSUP67",
+    "XSUP68",
+    "SP68"
+  ],
+  "topik2": [
+    {
+      "qid": "96-R-32",
+      "why_vi": "Câu 32–34 đối chiếu nội dung: gạch chủ ngữ, mốc thời gian và quan hệ nguyên nhân rồi kiểm từng đáp án. Ở đây một đáp án đổi mốc thời gian, một đáp án bịa ra thay đổi về lượng ăn, một đáp án đảo kết luận của nhóm nghiên cứu."
+    },
+    {
+      "qid": "96-R-35",
+      "why_vi": "Câu 35–38 chủ đề: câu mở luận điểm đứng sau «그런데», các câu sau là lý do. Loại đáp án nói ngược về tốc độ sinh trưởng, đáp án nêu lợi ích bài không nhắc và đáp án chỉ lấy một chi tiết về chiều cao."
+    },
+    {
+      "qid": "96-R-40",
+      "why_vi": "Câu 39–41 chèn câu: câu cho sẵn kết thúc bằng «-는 것이다» thường giải thích cụ thể cho câu ngay trước. Tìm câu nêu hiện tượng chung, rồi xem câu sau có là phản ứng với chính hiện tượng đó không."
+    }
+  ],
+  "editor_notes": [
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "SP68: S6 về video ngắn và khả năng tập trung, nối với ghi chú đúng về dopamine (kỳ vọng, muốn làm tiếp). Dùng -기가 무섭게, -아/어 대다, -기에 망정이지, -(으)ㄴ 축에 들다 trong lý do và ví dụ. Chủ đề có hai mặt nên phần nhượng bộ nhắc lợi ích (thông tin, tò mò). RG68: năm câu nói cùng chủ đề."
+    }
+  ]
+}

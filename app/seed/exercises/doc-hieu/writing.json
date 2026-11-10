@@ -1,0 +1,133 @@
+{
+  "skill": "writing",
+  "guide": [
+    {
+      "title_vi": "Thời gian & phân bổ",
+      "body_vi": "Phần Viết thi **đúng thời gian thật: 50 phút** cho 4 câu (gợi ý phân bổ: câu 51–52 khoảng 10 phút, câu 53 khoảng 12 phút, câu 54 khoảng 28 phút)."
+    },
+    {
+      "title_vi": "Quy tắc chung",
+      "bullets_vi": [
+        "Câu 51–52 và 53–54 đều viết bằng **văn viết** (thể 한다체 `-ㄴ/는다`, `-다`) ở câu 52, 53, 54. Câu 51 là văn bản thực dụng, giữ **đúng thể của văn bản** (ví dụ thư/thông báo dùng `-ㅂ니다/습니다`). Không trộn 해요체, không dùng khẩu ngữ (근데, 되게, 진짜…).",
+        "Câu 53: **không viết tiêu đề** (đề ghi `글의 제목은 쓰지 마시오`). Câu 54: đề ghi `문제를 그대로 옮겨 쓰지 마시오` nên **không chép lại đề**; đề không yêu cầu tiêu đề, vào thẳng mở bài. Cả hai câu: chia đoạn rõ ràng; viết đủ số chữ (xem số chữ theo quy ước ô giấy thi trong hướng dẫn chính thức; số chữ trong file này là số ký tự đếm bằng phần mềm, gồm cả dấu cách và dấu câu).",
+        "Chưa biết bắt đầu viết câu 54 từ đâu? Học khoá **«Viết 54 từ con số 0»** (nhóm Bổ trợ, 8 bài): đọc đề, tìm ý, viết đoạn, ráp bài."
+      ]
+    },
+    {
+      "title_vi": "Thang tự chấm (quy ước luyện tập)",
+      "body_vi": "**Tổng điểm từng câu** (10/10/30/50) và **tên các tiêu chí** đã được đối chiếu với nguồn. Tỉ trọng chi tiết giữa các tiêu chí dưới đây (câu 53: 7·7·16; câu 54: 12·12·26) là **ước lượng lấy từ sách và trang luyện thi**, chưa xác minh được với bảng chấm chính thức; hãy xem là thang tự định hướng, không phải bảng chấm thật.",
+      "table": {
+        "header": [
+          "Câu",
+          "Nội dung & hoàn thành yêu cầu",
+          "Cấu trúc triển khai",
+          "Sử dụng ngôn ngữ",
+          "Tổng"
+        ],
+        "rows": [
+          [
+            "51, 52 (mỗi chỗ trống)",
+            "3",
+            "–",
+            "2",
+            "5"
+          ],
+          [
+            "53",
+            "7",
+            "7",
+            "16",
+            "30"
+          ],
+          [
+            "54",
+            "12",
+            "12",
+            "26",
+            "50"
+          ]
+        ]
+      }
+    },
+    {
+      "title_vi": "Checklist chấm",
+      "bullets_vi": [
+        "*Nội dung & yêu cầu*: có đủ mọi ý đề bài yêu cầu không (thường 3 gạch đầu dòng, đôi khi 2, ở câu 54; đủ số liệu ở câu 53)? Có đủ số chữ không?",
+        "*Cấu trúc*: có chia đoạn đúng chức năng không? Có từ nối hợp lý (첫째, 그러나, 이를 해결하기 위해서는, 결론적으로) không?",
+        "*Ngôn ngữ*: thể văn nhất quán (한다체) không? Từ vựng, ngữ pháp đa dạng và chính xác không (không lặp một mẫu câu)? Chính tả và 띄어쓰기 đúng không?"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "RG72",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: chỉ đọc tiêu đề bài báo",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn nói ý kiến của mình về thói quen chỉ đọc tiêu đề bài báo.",
+      "text": "말: 저는 기사 제목만 보고 판단하는 게 좀 위험하다고 생각해요. → 글: ( ㉠ )\n말: 제목은 독자의 눈길을 끌기 위해 한쪽으로 치우친 표현을 쓰는 경우가 많거든요. → 글: ( ㉡ )\n말: 근데 본문을 끝까지 읽으면 필자의 진짜 의도가 보여요. → 글: ( ㉢ )\n말: 필자가 뭘 강조하는지는 마지막 부분에 잘 나와 있거든요. → 글: ( ㉣ )\n말: 그래서 학교에서도 학생들한테 기사를 끝까지 읽도록 권해야 돼요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "기사 제목만 보고 판단하는 것은 다소 위험하다.",
+            "기사 제목만 보고 판단하는 것은 위험하다.",
+            "기사 제목만 보고 판단하는 것은 다소 위험하다고 생각한다.",
+            "기사 제목만 보고 판단하는 것이 다소 위험하다고 생각한다."
+          ],
+          "common_errors_vi": "Bỏ `저는 … 생각해요`; `게` → `것은`; `좀` → `다소` hoặc bỏ."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "제목은 독자의 눈길을 끌기 위해 한쪽으로 치우친 표현을 쓰는 경우가 많다.",
+            "제목은 독자의 눈길을 끌기 위해 한쪽으로 치우친 표현을 사용하는 경우가 많다."
+          ],
+          "common_errors_vi": "Bỏ `-거든요`; `많다` giữ nguyên (✗ `많는다`)."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "그런데 본문을 끝까지 읽으면 필자의 실제 의도가 보인다.",
+            "그러나 본문을 끝까지 읽으면 필자의 실제 의도가 보인다.",
+            "그런데 본문을 끝까지 읽으면 필자의 실제 의도가 드러난다.",
+            "그러나 본문을 끝까지 읽으면 필자의 실제 의도가 드러난다."
+          ],
+          "common_errors_vi": "`진짜` → `실제`; `근데` → `그런데/그러나`; động từ `보이다` → `보인다`."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "필자가 무엇을 강조하는지는 마지막 부분에 잘 나와 있다.",
+            "필자가 무엇을 강조하는지는 마지막 부분에 잘 나타나 있다.",
+            "필자가 무엇을 강조하는지는 마지막 부분에 잘 드러나 있다."
+          ],
+          "common_errors_vi": "`뭘` → `무엇을`; bỏ `-거든요`; `있다` giữ nguyên."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "따라서 학교에서도 학생들에게 기사를 끝까지 읽도록 권해야 한다.",
+            "그러므로 학교에서도 학생들에게 기사를 끝까지 읽도록 권해야 한다."
+          ],
+          "common_errors_vi": "`한테` → `에게`; `-아야 돼요` → `-아야 한다`; `그래서` → `따라서/그러므로`."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `저는 … 게 좀 위험하다고 생각해요` → `… 것은 다소 위험하다`.",
+        "말 → 글: bỏ `-거든요`: `많거든요` → `많다`, `나와 있거든요` → `나와 있다`.",
+        "말 → 글: `근데` → `그런데/그러나`; `진짜` → `실제`.",
+        "말 → 글: `뭘` → `무엇을`; `한테` → `에게`.",
+        "말 → 글: `그래서 … 권해야 돼요` → `따라서 … 권해야 한다`."
+      ]
+    }
+  ]
+}

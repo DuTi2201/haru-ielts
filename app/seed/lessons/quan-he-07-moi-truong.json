@@ -1,0 +1,1575 @@
+{
+  "slug": "quan-he-07-moi-truong",
+  "title": "Môi trường: Bụi mịn & Rác thải nhựa",
+  "title_ko": "환경",
+  "topic": "Quan hệ xã hội, Sự kiện & Không gian sống",
+  "track": "intermediate",
+  "level": 3,
+  "sort_order": 34,
+  "summary": "Từ vựng về môi trường: bụi mịn, tiết kiệm năng lượng, đồ dùng một lần và rác thải nhựa, kèm dữ kiện đời sống (có nêu nguồn) về cấp độ bụi mịn. Ngữ pháp: -(으)ㄹ 필요가 있다; có mẫu bài đọc, Viết 52, khung Viết 54 về rác thải nhựa và danh sách lỗi người Việt hay mắc của các bài 05–07. Bài có bước Tạo câu: xếp từ, điền khung, nối câu rồi viết một đoạn về rác thải và đồ dùng một lần.",
+  "vocab": [
+    {
+      "hangul": "환경",
+      "pos": "N",
+      "meaning_vi": "Môi trường",
+      "example_ko": "물을 아껴 쓰고 전기를 아끼면 환경에 도움이 돼요.",
+      "example_vi": "Nếu dùng nước tiết kiệm và tiết kiệm điện thì có ích cho môi trường.",
+      "family": "🟢 Nền · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L685",
+      "exam": "kiip-3",
+      "priority": "core",
+      "hanja": "環境",
+      "sino_vietnamese": "hoàn cảnh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "공기",
+      "pos": "N",
+      "meaning_vi": "Không khí",
+      "family": "🟢 Nền · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L685",
+      "priority": "core",
+      "hanja": "空氣",
+      "sino_vietnamese": "không khí",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "물",
+      "pos": "N",
+      "meaning_vi": "Nước",
+      "family": "🟢 Nền · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L685",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "맑다",
+      "pos": "A",
+      "meaning_vi": "Trong lành",
+      "note_vi": "공기가 맑다/나쁘다",
+      "family": "🟢 Nền · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L686",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "깨끗하다",
+      "pos": "A",
+      "meaning_vi": "Sạch",
+      "family": "🟢 Nền · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L686",
+      "exam": "kiip-2",
+      "priority": "core"
+    },
+    {
+      "hangul": "더럽다",
+      "pos": "A",
+      "meaning_vi": "Bẩn",
+      "family": "🟢 Nền · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L686",
+      "priority": "core"
+    },
+    {
+      "hangul": "나쁘다",
+      "pos": "A",
+      "meaning_vi": "Xấu",
+      "note_vi": "공기가 맑다/나쁘다",
+      "example_ko": "오늘은 공기가 나빠서 마스크를 썼어요.",
+      "example_vi": "Hôm nay không khí xấu nên tôi đã đeo khẩu trang.",
+      "family": "🟢 Nền · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L686",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "마스크를 쓰다",
+      "pos": "V",
+      "meaning_vi": "Đeo khẩu trang",
+      "example_ko": "오늘은 공기가 나빠서 마스크를 썼어요.",
+      "example_vi": "Hôm nay không khí xấu nên tôi đã đeo khẩu trang.",
+      "family": "🟢 Nền · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L687",
+      "exam": "kiip-3",
+      "priority": "core"
+    },
+    {
+      "hangul": "전기",
+      "pos": "N",
+      "meaning_vi": "Điện",
+      "family": "🟢 Nền · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L688",
+      "priority": "core",
+      "hanja": "電氣",
+      "sino_vietnamese": "điện khí",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "에너지",
+      "pos": "N",
+      "meaning_vi": "Năng lượng",
+      "family": "🟢 Nền · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L688",
+      "priority": "core"
+    },
+    {
+      "hangul": "아끼다",
+      "pos": "V",
+      "meaning_vi": "Tiết kiệm",
+      "note_vi": "물을 **아껴** 써요",
+      "example_ko": "물을 아껴 쓰고 전기를 아끼면 환경에 도움이 돼요.",
+      "example_vi": "Nếu dùng nước tiết kiệm và tiết kiệm điện thì có ích cho môi trường.",
+      "family": "🟢 Nền · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L689",
+      "priority": "core"
+    },
+    {
+      "hangul": "줄이다",
+      "pos": "V",
+      "meaning_vi": "Giảm",
+      "family": "🟢 Nền · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L689",
+      "exam": "kiip-3",
+      "priority": "core"
+    },
+    {
+      "hangul": "나무를 심다",
+      "pos": "V",
+      "meaning_vi": "Trồng cây",
+      "family": "🟢 Nền · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L690",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "산",
+      "pos": "N",
+      "meaning_vi": "Núi",
+      "family": "🟢 Nền · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L690",
+      "priority": "core",
+      "hanja": "山",
+      "sino_vietnamese": "sơn",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "강",
+      "pos": "N",
+      "meaning_vi": "Sông",
+      "family": "🟢 Nền · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L690",
+      "priority": "core",
+      "hanja": "江",
+      "sino_vietnamese": "giang",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "바다",
+      "pos": "N",
+      "meaning_vi": "Biển",
+      "family": "🟢 Nền · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L690",
+      "priority": "core"
+    },
+    {
+      "hangul": "쓰레기를 줄이다",
+      "pos": "V",
+      "meaning_vi": "Giảm rác",
+      "family": "🟢 Nền · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L691",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "환경 오염",
+      "pos": "N",
+      "meaning_vi": "Ô nhiễm môi trường",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L703",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "대기 오염",
+      "pos": "N",
+      "meaning_vi": "Ô nhiễm không khí",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L703",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "미세먼지",
+      "pos": "N",
+      "meaning_vi": "Bụi mịn (PM10)",
+      "note_vi": "✔ đã đối chiếu",
+      "example_ko": "미세먼지 농도가 '나쁨'일 때에는 외출을 자제하는 것이 좋다.",
+      "example_vi": "Khi nồng độ bụi mịn ở mức 'xấu' thì nên hạn chế ra ngoài.",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L704",
+      "exam": "kiip-3",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "초미세먼지",
+      "pos": "N",
+      "meaning_vi": "Bụi siêu mịn (PM2.5)",
+      "note_vi": "✔ đã đối chiếu",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L704",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "황사",
+      "pos": "N",
+      "meaning_vi": "Bụi vàng (từ sa mạc)",
+      "note_vi": "khác 미세먼지 (nhiều nguồn); *(đời sống)*",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L705",
+      "priority": "recognize",
+      "hanja": "黃沙",
+      "sino_vietnamese": "hoàng sa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "보건용 마스크",
+      "pos": "N",
+      "meaning_vi": "Khẩu trang y tế phòng bụi",
+      "note_vi": "✔ đã đối chiếu; `KF94` là ký hiệu hay gặp *(đời sống)*",
+      "example_ko": "부득이하게 외출해야 할 때에는 보건용 마스크를 착용해야 하며, 집에 돌아온 후에는 손과 얼굴을 깨끗이 씻는다.",
+      "example_vi": "Khi bất đắc dĩ phải ra ngoài thì phải đeo khẩu trang y tế phòng bụi, và sau khi về nhà thì rửa sạch tay và mặt.",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L706, L738",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "공기청정기",
+      "pos": "N",
+      "meaning_vi": "Máy lọc không khí",
+      "note_vi": "*(đời sống)*",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L707",
+      "exam": "kiip-4",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "환기하다",
+      "pos": "V",
+      "meaning_vi": "Thông gió",
+      "note_vi": "*(đời sống)*",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L707",
+      "priority": "recognize",
+      "hanja": "換氣",
+      "sino_vietnamese": "hoán khí",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "외출을 자제하다",
+      "pos": "V",
+      "meaning_vi": "Hạn chế ra ngoài",
+      "note_vi": "✔ đã đối chiếu",
+      "example_ko": "미세먼지 농도가 '나쁨'일 때에는 외출을 자제하는 것이 좋다.",
+      "example_vi": "Khi nồng độ bụi mịn ở mức 'xấu' thì nên hạn chế ra ngoài.",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L708, L738",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "일회용품",
+      "pos": "N",
+      "meaning_vi": "Đồ dùng một lần",
+      "example_ko": "일회용품은 편리하지만 환경에 큰 부담을 준다.",
+      "example_vi": "Đồ dùng một lần tuy tiện lợi nhưng gây gánh nặng lớn cho môi trường.",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L709, L742",
+      "exam": "kiip-4",
+      "priority": "recognize",
+      "hanja": "一回用品",
+      "sino_vietnamese": "nhất hồi dụng phẩm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "일회용 컵",
+      "pos": "N",
+      "meaning_vi": "Cốc dùng một lần",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L709",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "비닐봉지",
+      "pos": "N",
+      "meaning_vi": "Túi ni lông",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L710",
+      "priority": "recognize",
+      "hanja": "封紙",
+      "sino_vietnamese": "phong chỉ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "장바구니",
+      "pos": "N",
+      "meaning_vi": "Túi đi chợ dùng lại",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L710",
+      "priority": "recognize",
+      "hanja": "場",
+      "sino_vietnamese": "trường",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "텀블러",
+      "pos": "N",
+      "meaning_vi": "Bình giữ nhiệt",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L710",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "재활용",
+      "pos": "N",
+      "meaning_vi": "Tái chế",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L711",
+      "priority": "core",
+      "hanja": "再活用",
+      "sino_vietnamese": "tái hoạt dụng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "재사용",
+      "pos": "N",
+      "meaning_vi": "Tái sử dụng",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L711",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "분해되다",
+      "pos": "V",
+      "meaning_vi": "Bị phân hủy",
+      "note_vi": "오랜 시간이 걸리다",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L712",
+      "priority": "recognize",
+      "hanja": "分解",
+      "sino_vietnamese": "phân giải",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "친환경",
+      "pos": "N",
+      "meaning_vi": "Thân thiện môi trường",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L713",
+      "priority": "recognize",
+      "hanja": "親環境",
+      "sino_vietnamese": "thân hoàn cảnh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "환경 보호",
+      "pos": "N",
+      "meaning_vi": "Bảo vệ môi trường",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L713",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "에너지를 절약하다",
+      "pos": "V",
+      "meaning_vi": "Tiết kiệm năng lượng",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L714",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "대중교통을 이용하다",
+      "pos": "V",
+      "meaning_vi": "Dùng giao thông công cộng",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L714",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "낭비(하다)",
+      "pos": "V",
+      "meaning_vi": "Lãng phí",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L715",
+      "priority": "recognize",
+      "hanja": "浪費",
+      "sino_vietnamese": "lãng phí",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "실천하다",
+      "pos": "V",
+      "meaning_vi": "Thực hành",
+      "family": "🟡 Dạng thi · Môi trường: bụi mịn & rác thải nhựa (5C)",
+      "source": "NOTES L715",
+      "priority": "recognize",
+      "hanja": "實踐",
+      "sino_vietnamese": "thực tiễn",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "플라스틱 쓰레기",
+      "pos": "N",
+      "meaning_vi": "Rác nhựa",
+      "family": "🔴 Nâng cao · Viết 54 (rác thải nhựa và ô nhiễm môi trường)",
+      "source": "NOTES L750",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "일회용품 사용량",
+      "pos": "N",
+      "meaning_vi": "Lượng dùng đồ một lần",
+      "family": "🔴 Nâng cao · Viết 54 (rác thải nhựa và ô nhiễm môi trường)",
+      "source": "NOTES L750",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "미세 플라스틱",
+      "pos": "N",
+      "meaning_vi": "Vi nhựa",
+      "family": "🔴 Nâng cao · Viết 54 (rác thải nhựa và ô nhiễm môi trường)",
+      "source": "NOTES L751",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "해양 오염",
+      "pos": "N",
+      "meaning_vi": "Ô nhiễm biển",
+      "family": "🔴 Nâng cao · Viết 54 (rác thải nhựa và ô nhiễm môi trường)",
+      "source": "NOTES L752",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "해양 생물",
+      "pos": "N",
+      "meaning_vi": "Sinh vật biển",
+      "family": "🔴 Nâng cao · Viết 54 (rác thải nhựa và ô nhiễm môi trường)",
+      "source": "NOTES L752",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "생태계",
+      "pos": "N",
+      "meaning_vi": "Hệ sinh thái",
+      "family": "🔴 Nâng cao · Viết 54 (rác thải nhựa và ô nhiễm môi trường)",
+      "source": "NOTES L753",
+      "priority": "recognize",
+      "hanja": "生態系",
+      "sino_vietnamese": "sinh thái hệ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "먹이 사슬",
+      "pos": "N",
+      "meaning_vi": "Chuỗi thức ăn",
+      "family": "🔴 Nâng cao · Viết 54 (rác thải nhựa và ô nhiễm môi trường)",
+      "source": "NOTES L753",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "소비 습관",
+      "pos": "N",
+      "meaning_vi": "Thói quen tiêu dùng",
+      "family": "🔴 Nâng cao · Viết 54 (rác thải nhựa và ô nhiễm môi trường)",
+      "source": "NOTES L754",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "과대 포장",
+      "pos": "N",
+      "meaning_vi": "Đóng gói quá mức",
+      "family": "🔴 Nâng cao · Viết 54 (rác thải nhựa và ô nhiễm môi trường)",
+      "source": "NOTES L754",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "포장재",
+      "pos": "N",
+      "meaning_vi": "Vật liệu đóng gói",
+      "family": "🔴 Nâng cao · Viết 54 (rác thải nhựa và ô nhiễm môi trường)",
+      "source": "NOTES L754",
+      "priority": "recognize",
+      "hanja": "包裝材",
+      "sino_vietnamese": "bao trang tài",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "소각",
+      "pos": "N",
+      "meaning_vi": "Đốt",
+      "family": "🔴 Nâng cao · Viết 54 (rác thải nhựa và ô nhiễm môi trường)",
+      "source": "NOTES L755",
+      "priority": "recognize",
+      "hanja": "燒却",
+      "sino_vietnamese": "thiêu khước",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "매립",
+      "pos": "N",
+      "meaning_vi": "Chôn lấp",
+      "family": "🔴 Nâng cao · Viết 54 (rác thải nhựa và ô nhiễm môi trường)",
+      "source": "NOTES L755",
+      "priority": "recognize",
+      "hanja": "埋立",
+      "sino_vietnamese": "mai lập",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "재활용률",
+      "pos": "N",
+      "meaning_vi": "Tỉ lệ tái chế",
+      "family": "🔴 Nâng cao · Viết 54 (rác thải nhựa và ô nhiễm môi trường)",
+      "source": "NOTES L756",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "자원 순환",
+      "pos": "N",
+      "meaning_vi": "Tuần hoàn tài nguyên",
+      "family": "🔴 Nâng cao · Viết 54 (rác thải nhựa và ô nhiễm môi trường)",
+      "source": "NOTES L756",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "규제",
+      "pos": "N",
+      "meaning_vi": "Quy định, hạn chế",
+      "family": "🔴 Nâng cao · Viết 54 (rác thải nhựa và ô nhiễm môi trường)",
+      "source": "NOTES L757",
+      "priority": "recognize",
+      "hanja": "規制",
+      "sino_vietnamese": "quy chế",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "제도",
+      "pos": "N",
+      "meaning_vi": "Chế độ, chính sách",
+      "family": "🔴 Nâng cao · Viết 54 (rác thải nhựa và ô nhiễm môi trường)",
+      "source": "NOTES L757",
+      "priority": "recognize",
+      "hanja": "制度",
+      "sino_vietnamese": "chế độ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "환경 의식",
+      "pos": "N",
+      "meaning_vi": "Ý thức môi trường",
+      "family": "🔴 Nâng cao · Viết 54 (rác thải nhựa và ô nhiễm môi trường)",
+      "source": "NOTES L758",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "책임",
+      "pos": "N",
+      "meaning_vi": "Trách nhiệm",
+      "family": "🔴 Nâng cao · Viết 54 (rác thải nhựa và ô nhiễm môi trường)",
+      "source": "NOTES L758",
+      "priority": "recognize",
+      "hanja": "責任",
+      "sino_vietnamese": "trách nhiệm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "탄소 중립",
+      "pos": "N",
+      "meaning_vi": "Trung hòa carbon",
+      "family": "🔴 Nâng cao · Viết 54 (rác thải nhựa và ô nhiễm môi trường)",
+      "source": "NOTES L759",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "일상화되다",
+      "pos": "V",
+      "meaning_vi": "Trở thành thường nhật",
+      "family": "🔴 Nâng cao · Viết 54 (rác thải nhựa và ô nhiễm môi trường)",
+      "source": "NOTES L760",
+      "priority": "recognize",
+      "hanja": "日常化",
+      "sino_vietnamese": "nhật thường hóa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "가볍다",
+      "pos": "A",
+      "meaning_vi": "Nhẹ",
+      "note_vi": "Dùng ở: bài Đọc câu 16 (chèn câu vào đoạn). Bất quy tắc ㅂ: 가볍다 → 가벼워요 / 가벼운; trái nghĩa với 무겁다 (nặng).",
+      "example_ko": "플라스틱은 가볍고 값이 싸서 일상생활에서 많이 쓰인다.",
+      "example_vi": "Nhựa nhẹ và rẻ nên được dùng nhiều trong sinh hoạt hằng ngày.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "core"
+    },
+    {
+      "hangul": "쓰이다",
+      "pos": "V",
+      "meaning_vi": "Được dùng",
+      "note_vi": "Dùng ở: bài Đọc câu 16 (chèn câu vào đoạn), cũng có trong bài mẫu Viết 53-A và 54-A. Dạng bị động của 쓰다 (dùng): 많이 쓰이다 = được dùng nhiều.",
+      "example_ko": "플라스틱은 가볍고 값이 싸서 일상생활에서 많이 쓰인다.",
+      "example_vi": "Nhựa nhẹ và rẻ nên được dùng nhiều trong sinh hoạt hằng ngày.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "행동 요령",
+      "pos": "N",
+      "meaning_vi": "Hướng dẫn cách hành động",
+      "note_vi": "Dùng ở: bài Đọc câu 20 (bài đọc về cách ứng phó khi bụi mịn nặng). 요령 = cách làm, hướng dẫn thực hiện; 행동 요령 = những việc nên làm khi gặp một tình huống.",
+      "example_ko": "이러한 행동 요령을 미리 알아 두면 미세먼지가 심한 날에도 건강을 지킬 수 있다.",
+      "example_vi": "Nếu biết trước những hướng dẫn cách hành động này, ngay cả vào những ngày bụi mịn nặng chúng ta vẫn có thể giữ gìn sức khỏe.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "매장 컵",
+      "pos": "N",
+      "meaning_vi": "Cốc dùng tại quán",
+      "note_vi": "Dùng ở: đề Viết 53-A (khảo sát cốc ở quán cà phê; trong bảng ghi 매장 컵(머그잔)). Đối lại với 일회용 컵 = cốc dùng một lần.",
+      "example_ko": "카페 이용자 500명을 대상으로 컵 사용 실태를 조사한 결과, 2021년에 비해 '일회용 컵'의 사용은 70%에서 55%로, '매장 컵'은 20%에서 17%로 감소하였다.",
+      "example_vi": "Kết quả khảo sát thực trạng sử dụng cốc của 500 khách quán cà phê cho thấy, so với năm 2021, việc dùng 'cốc dùng một lần' giảm từ 70% xuống 55%, còn 'cốc dùng tại quán' giảm từ 20% xuống 17%.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "머그잔",
+      "pos": "N",
+      "meaning_vi": "Cốc có quai (mug), thường bằng sứ/thủy tinh, dùng tại quán",
+      "note_vi": "Dùng ở: đề Viết 53-A (trong bảng ghi 매장 컵(머그잔)). *Câu ví dụ biên soạn thêm.*",
+      "example_ko": "카페에서 마실 때는 일회용 컵 대신 머그잔을 쓰면 좋아요.",
+      "example_vi": "Khi uống ở quán cà phê, dùng cốc mug thay cho cốc dùng một lần thì tốt.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "recognize",
+      "hanja": "盞",
+      "sino_vietnamese": "trản",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "할인",
+      "pos": "N",
+      "meaning_vi": "Giảm giá",
+      "note_vi": "Dùng ở: đề Viết 53-A (lý do dùng cốc cá nhân: 음료 할인을 받을 수 있어서). 할인(을) 받다 = được giảm giá; 할인(을) 하다 = giảm giá.",
+      "example_ko": "개인 컵을 사용하는 이유로는 환경 보호를 위해서라는 응답이 52%로 가장 많았고, 음료 할인을 받을 수 있기 때문이라는 응답(31%)이 그 뒤를 이었다.",
+      "example_vi": "Về lý do dùng cốc cá nhân, câu trả lời 'để bảo vệ môi trường' nhiều nhất với 52%, tiếp theo là câu trả lời 'vì có thể được giảm giá đồ uống' (31%).",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "割引",
+      "sino_vietnamese": "cát dẫn",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "실태",
+      "pos": "N",
+      "meaning_vi": "Thực trạng",
+      "note_vi": "Dùng ở: đề Viết 53-A (tiêu đề '카페 이용자의 컵 사용 실태'). 실태를 조사하다 = điều tra thực trạng.",
+      "example_ko": "카페 이용자 500명을 대상으로 컵 사용 실태를 조사한 결과, 2021년에 비해 '일회용 컵'의 사용은 70%에서 55%로, '매장 컵'은 20%에서 17%로 감소하였다.",
+      "example_vi": "Kết quả khảo sát thực trạng sử dụng cốc của 500 khách quán cà phê cho thấy, so với năm 2021, việc dùng 'cốc dùng một lần' giảm từ 70% xuống 55%, còn 'cốc dùng tại quán' giảm từ 20% xuống 17%.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "recognize",
+      "hanja": "實態",
+      "sino_vietnamese": "thực thái",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "설문 조사",
+      "pos": "N",
+      "meaning_vi": "Khảo sát (bằng phiếu hỏi)",
+      "note_vi": "Dùng ở: đề Viết 53-A (câu dẫn của đề). 설문 조사(를) 하다 = tiến hành khảo sát; 설문 조사 결과 = kết quả khảo sát.",
+      "example_ko": "※ [53] 다음은 '카페 이용자의 컵 사용 실태'에 대한 설문 조사 결과입니다.",
+      "example_vi": "※ [53] Sau đây là kết quả khảo sát về 'thực trạng sử dụng cốc của khách quán cà phê'.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "exam": "kiip-3",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "배달",
+      "pos": "N",
+      "meaning_vi": "Giao hàng",
+      "note_vi": "Dùng ở: đề Viết 54-A (bài mẫu về rác thải nhựa). 배달 음식 = đồ ăn giao tận nơi; 배달(을) 하다 = giao hàng; 배달(을) 시키다 = đặt giao hàng.",
+      "example_ko": "특히 카페나 배달 음식에서 한 번 쓰고 버리는 일회용품을 많이 사용한다.",
+      "example_vi": "Đặc biệt ở quán cà phê hay đồ ăn giao tận nơi, người ta dùng nhiều đồ dùng một lần, dùng xong là vứt.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "recognize",
+      "hanja": "配達",
+      "sino_vietnamese": "phối đạt",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "오염시키다",
+      "pos": "V",
+      "meaning_vi": "Làm ô nhiễm",
+      "note_vi": "Dùng ở: đề Viết 54-A (ngân hàng từ của bài mẫu). N을/를 오염시키다 = làm ô nhiễm N; 오염되다 = bị ô nhiễm.",
+      "example_ko": "플라스틱은 분해되는 데 오랜 시간이 걸리기 때문에 쓰레기가 되면 땅과 바다를 오염시킨다.",
+      "example_vi": "Vì nhựa mất rất lâu mới phân hủy nên khi thành rác sẽ làm ô nhiễm đất và biển.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "recognize",
+      "hanja": "汚染",
+      "sino_vietnamese": "ô nhiễm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "일으키다",
+      "pos": "V",
+      "meaning_vi": "Gây ra",
+      "note_vi": "Dùng ở: đề Viết 54 (gạch đầu dòng ý cần viết của 54-A). 문제를 일으키다 = gây ra vấn đề. (Nghĩa gốc: đỡ dậy, làm cho đứng dậy.)",
+      "example_ko": "플라스틱 쓰레기는 환경에 어떤 문제를 일으키는가?",
+      "example_vi": "Rác thải nhựa gây ra vấn đề gì cho môi trường?",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "결국",
+      "pos": "X",
+      "meaning_vi": "Rốt cuộc, cuối cùng thì",
+      "note_vi": "Dùng ở: bài mẫu Viết, Nói (nhóm trạng từ và từ nối thông dụng bậc trung cấp). Có trong danh sách từ nối gợi ý của bài Nói câu 3. 결국 = nêu kết quả cuối cùng sau một quá trình. *Câu ví dụ biên soạn thêm.*",
+      "example_ko": "비가 계속 와서 결국 소풍을 가지 못했어요.",
+      "example_vi": "Trời mưa mãi nên cuối cùng chúng tôi đã không đi dã ngoại được.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "core",
+      "hanja": "結局",
+      "sino_vietnamese": "kết cục",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "가지고 다니다",
+      "pos": "X",
+      "meaning_vi": "Mang theo (thường xuyên)",
+      "note_vi": "Đồ vật: `가지고 다니다`; người, con vật: `데리고 다니다`. Một lần mang đi: `가져가다`.",
+      "example_ko": "저는 늘 텀블러를 가지고 다녀요.",
+      "example_vi": "Tôi luôn mang theo bình giữ nhiệt.",
+      "family": "🟢 Nền · Kể việc tôi làm để giảm rác nhựa",
+      "priority": "core"
+    },
+    {
+      "hangul": "장을 보다",
+      "pos": "X",
+      "meaning_vi": "Đi chợ, đi mua đồ ăn",
+      "example_ko": "주말에 마트에서 장을 봐요.",
+      "example_vi": "Cuối tuần tôi đi chợ ở siêu thị.",
+      "family": "🟢 Nền · Kể việc tôi làm để giảm rác nhựa",
+      "priority": "core"
+    },
+    {
+      "hangul": "배달 음식을 시키다",
+      "pos": "X",
+      "meaning_vi": "Gọi đồ ăn giao tận nơi",
+      "example_ko": "오늘은 배달 음식을 시킬까요?",
+      "example_vi": "Hôm nay gọi đồ ăn về nhé?",
+      "family": "🟢 Nền · Kể việc tôi làm để giảm rác nhựa",
+      "priority": "core"
+    },
+    {
+      "hangul": "수저",
+      "pos": "N",
+      "meaning_vi": "Thìa và đũa",
+      "note_vi": "`일회용 수저` = thìa đũa dùng một lần; ứng dụng giao đồ ăn có ô `일회용 수저 안 받기`.",
+      "example_ko": "일회용 수저는 빼 주세요.",
+      "example_vi": "Xin bỏ thìa đũa dùng một lần ra.",
+      "family": "🟢 Nền · Kể việc tôi làm để giảm rác nhựa",
+      "priority": "core"
+    },
+    {
+      "hangul": "빼다",
+      "pos": "V",
+      "meaning_vi": "Bỏ ra, bớt ra",
+      "note_vi": "`N을/를 빼 달라고 하다` = nhờ (người bán) bỏ N ra.",
+      "example_ko": "양파는 빼 주세요.",
+      "example_vi": "Xin bỏ hành tây ra.",
+      "family": "🟢 Nền · Kể việc tôi làm để giảm rác nhựa",
+      "priority": "core"
+    },
+    {
+      "hangul": "오랜 시간",
+      "pos": "X",
+      "meaning_vi": "Thời gian dài",
+      "note_vi": "`오랜` chỉ đứng trước danh từ (`오랜 시간`, `오랜 친구`); trước động từ dùng `오래` (`오래 걸리다`). ✗ `오래 시간`.",
+      "example_ko": "플라스틱은 분해되는 데 오랜 시간이 걸려요.",
+      "example_vi": "Nhựa phải mất thời gian dài mới phân hủy.",
+      "family": "🟢 Nền · Kể việc tôi làm để giảm rác nhựa",
+      "priority": "core"
+    },
+    {
+      "hangul": "피해를 주다",
+      "pos": "X",
+      "meaning_vi": "Gây hại, gây thiệt hại",
+      "note_vi": "`N에게 피해를 주다`; với sinh vật, thiên nhiên: `해양 생물에게 피해를 주다`.",
+      "example_ko": "쓰레기는 동물에게도 피해를 줘요.",
+      "example_vi": "Rác gây hại cả cho động vật.",
+      "family": "🟢 Nền · Kể việc tôi làm để giảm rác nhựa",
+      "priority": "core"
+    },
+    {
+      "hangul": "습관이 되다",
+      "pos": "X",
+      "meaning_vi": "Thành thói quen",
+      "pron": "[습꽈니 되다]",
+      "example_ko": "이제는 장바구니를 쓰는 것이 습관이 됐어요.",
+      "example_vi": "Giờ dùng túi đi chợ đã thành thói quen.",
+      "family": "🟢 Nền · Kể việc tôi làm để giảm rác nhựa",
+      "priority": "core"
+    },
+    {
+      "hangul": "일상",
+      "pos": "N",
+      "meaning_vi": "Đời sống hằng ngày",
+      "pron": "[일쌍]",
+      "note_vi": "`일상에서` = trong đời sống hằng ngày; `일상생활`.",
+      "example_ko": "일상에서 쓰레기를 줄일 수 있어요.",
+      "example_vi": "Có thể giảm rác trong đời sống hằng ngày.",
+      "family": "🟢 Nền · Kể việc tôi làm để giảm rác nhựa",
+      "priority": "core",
+      "hanja": "日常",
+      "sino_vietnamese": "nhật thường",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "환경을 지키다",
+      "pos": "X",
+      "meaning_vi": "Bảo vệ môi trường",
+      "note_vi": "Gần nghĩa `환경을 보호하다` (văn viết trang trọng hơn).",
+      "example_ko": "환경을 지키기 위해 텀블러를 써요.",
+      "example_vi": "Tôi dùng bình giữ nhiệt để bảo vệ môi trường.",
+      "family": "🟢 Nền · Kể việc tôi làm để giảm rác nhựa",
+      "priority": "core"
+    },
+    {
+      "hangul": "사용을 줄이다",
+      "pos": "X",
+      "meaning_vi": "Giảm việc sử dụng",
+      "note_vi": "`플라스틱 사용을 줄이다`, `일회용품 사용을 줄이다`.",
+      "example_ko": "종이컵 사용을 줄여야 해요.",
+      "example_vi": "Phải giảm dùng cốc giấy.",
+      "family": "🟢 Nền · Kể việc tôi làm để giảm rác nhựa",
+      "priority": "core"
+    },
+    {
+      "hangul": "용기",
+      "pos": "N",
+      "meaning_vi": "Hộp đựng, đồ chứa",
+      "note_vi": "`배달 용기` = hộp đựng đồ ăn giao tận nơi. Đồng âm với `용기` (dũng khí) ở bài sau.",
+      "example_ko": "배달 용기는 씻어서 버려요.",
+      "example_vi": "Hộp đựng đồ ăn thì rửa rồi mới vứt.",
+      "family": "🟢 Nền · Kể việc tôi làm để giảm rác nhựa",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "강아지",
+      "pos": "N",
+      "meaning_vi": "Chó con, cún",
+      "note_vi": "Ở Hàn hay gọi chung chó cưng là 강아지; chó nói chung là 개.",
+      "example_ko": "우리 집 강아지는 정말 귀여워요.",
+      "example_vi": "Con cún nhà tôi rất dễ thương.",
+      "family": "🟢 Nền · Từ sơ cấp · Động vật",
+      "priority": "core",
+      "source": "krdict:15689",
+      "collocations": [
+        {
+          "ko": "강아지 두 마리",
+          "vi": "hai con cún"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "검정말",
+      "pos": "N",
+      "meaning_vi": "Ngựa ô, ngựa đen",
+      "note_vi": "검정 (màu đen) + 말 (con ngựa).",
+      "example_ko": "검정말 한 마리가 들판을 달려요.",
+      "example_vi": "Một con ngựa ô đang chạy trên cánh đồng.",
+      "family": "🟢 Nền · Từ sơ cấp · Động vật",
+      "priority": "recognize",
+      "source": "krdict:30060",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "겨울나무",
+      "pos": "N",
+      "meaning_vi": "Cây mùa đông (trụi lá)",
+      "example_ko": "겨울나무에 잎이 하나도 없어요.",
+      "example_vi": "Cây mùa đông không còn chiếc lá nào.",
+      "pron": "[겨울라무]",
+      "family": "🟢 Nền · Từ sơ cấp · Cây cối & hoa",
+      "priority": "recognize",
+      "source": "krdict:28471",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "고양이",
+      "pos": "N",
+      "meaning_vi": "Con mèo",
+      "example_ko": "저는 고양이를 두 마리 키워요.",
+      "example_vi": "Tôi nuôi hai con mèo.",
+      "family": "🟢 Nền · Từ sơ cấp · Động vật",
+      "priority": "core",
+      "source": "krdict:18779",
+      "collocations": [
+        {
+          "ko": "고양이 한 마리",
+          "vi": "một con mèo"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "과일나무",
+      "pos": "N",
+      "meaning_vi": "Cây ăn quả",
+      "example_ko": "마당에 과일나무를 심었어요.",
+      "example_vi": "Tôi trồng cây ăn quả ngoài sân.",
+      "pron": "[과일라무]",
+      "family": "🟢 Nền · Từ sơ cấp · Cây cối & hoa",
+      "priority": "recognize",
+      "source": "krdict:18272",
+      "collocations": [
+        {
+          "ko": "과일나무 한 그루",
+          "vi": "một cây ăn quả"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "날다",
+      "pos": "V",
+      "meaning_vi": "Bay",
+      "note_vi": "Bỏ ㄹ: 날다 → 나는 새 (con chim đang bay), 날아요.",
+      "example_ko": "새가 하늘을 날아요.",
+      "example_vi": "Chim bay trên trời.",
+      "family": "🟢 Nền · Từ sơ cấp · Thiên nhiên",
+      "priority": "core",
+      "source": "krdict:61530",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "네발",
+      "pos": "N",
+      "meaning_vi": "Bốn chân",
+      "example_ko": "고양이는 네발로 걸어요.",
+      "example_vi": "Mèo đi bằng bốn chân.",
+      "family": "🟢 Nền · Từ sơ cấp · Động vật",
+      "priority": "recognize",
+      "source": "krdict:20513",
+      "collocations": [
+        {
+          "ko": "네발 동물",
+          "vi": "động vật bốn chân"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "단풍잎",
+      "pos": "N",
+      "meaning_vi": "Lá phong, lá đỏ mùa thu",
+      "example_ko": "가을에 단풍잎을 주웠어요.",
+      "example_vi": "Mùa thu tôi nhặt lá phong.",
+      "pron": "[단풍닙]",
+      "family": "🟢 Nền · Từ sơ cấp · Cây cối & hoa",
+      "priority": "recognize",
+      "source": "krdict:19994",
+      "hanja": "丹楓",
+      "collocations": [
+        {
+          "ko": "단풍잎이 떨어지다",
+          "vi": "lá đỏ rụng"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "đan phong"
+    },
+    {
+      "hangul": "닭",
+      "pos": "N",
+      "meaning_vi": "Con gà",
+      "note_vi": "Thịt gà: 닭고기. 닭이 → [달기], 닭을 → [달글].",
+      "example_ko": "할머니 댁에서 닭을 키워요.",
+      "example_vi": "Nhà bà tôi nuôi gà.",
+      "pron": "[닥]",
+      "family": "🟢 Nền · Từ sơ cấp · Động vật",
+      "priority": "core",
+      "source": "krdict:30202",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "돼지",
+      "pos": "N",
+      "meaning_vi": "Con lợn, con heo",
+      "note_vi": "Thịt lợn: 돼지고기.",
+      "example_ko": "시골에서 돼지를 봤어요.",
+      "example_vi": "Tôi đã thấy con lợn ở quê.",
+      "family": "🟢 Nền · Từ sơ cấp · Động vật",
+      "priority": "core",
+      "source": "krdict:62269",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "모기",
+      "pos": "N",
+      "meaning_vi": "Con muỗi",
+      "note_vi": "Bị muỗi đốt: 모기에 물리다.",
+      "example_ko": "어젯밤에 모기에 많이 물렸어요.",
+      "example_vi": "Tối qua tôi bị muỗi đốt nhiều.",
+      "family": "🟢 Nền · Từ sơ cấp · Động vật",
+      "priority": "core",
+      "source": "krdict:55757",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "무궁화",
+      "pos": "N",
+      "meaning_vi": "Hoa mugung (quốc hoa Hàn Quốc)",
+      "example_ko": "무궁화는 한국의 꽃이에요.",
+      "example_vi": "Hoa mugung là quốc hoa của Hàn Quốc.",
+      "family": "🟢 Nền · Từ sơ cấp · Cây cối & hoa",
+      "priority": "recognize",
+      "source": "krdict:15318",
+      "hanja": "無窮花",
+      "collocations": [
+        {
+          "ko": "무궁화가 피다",
+          "vi": "hoa mugung nở"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "vô cùng hoa"
+    },
+    {
+      "hangul": "문어",
+      "pos": "N",
+      "meaning_vi": "Con bạch tuộc",
+      "note_vi": "Mực là 오징어; bạch tuộc nhỏ là 낙지.",
+      "example_ko": "시장에서 문어를 샀어요.",
+      "example_vi": "Tôi mua bạch tuộc ở chợ.",
+      "pron": "[무너]",
+      "family": "🟢 Nền · Từ sơ cấp · Động vật",
+      "priority": "recognize",
+      "source": "krdict:57091",
+      "hanja": "文魚",
+      "enrich": "auto",
+      "sino_vietnamese": "văn ngư"
+    },
+    {
+      "hangul": "문어발",
+      "pos": "N",
+      "meaning_vi": "Chân bạch tuộc",
+      "example_ko": "마른 문어발을 구워 먹었어요.",
+      "example_vi": "Tôi nướng chân bạch tuộc khô ăn.",
+      "pron": "[무너발]",
+      "family": "🟢 Nền · Từ sơ cấp · Động vật",
+      "priority": "recognize",
+      "source": "krdict:57093",
+      "hanja": "文魚",
+      "collocations": [
+        {
+          "ko": "마른 문어발",
+          "vi": "chân bạch tuộc khô"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "văn ngư"
+    },
+    {
+      "hangul": "물고기",
+      "pos": "N",
+      "meaning_vi": "Cá (con cá sống)",
+      "note_vi": "Cá còn sống là 물고기; cá làm món ăn thường gọi 생선.",
+      "example_ko": "강에 물고기가 많아요.",
+      "example_vi": "Sông có nhiều cá.",
+      "pron": "[물꼬기]",
+      "family": "🟢 Nền · Từ sơ cấp · Động vật",
+      "priority": "core",
+      "source": "krdict:56181",
+      "collocations": [
+        {
+          "ko": "물고기를 잡다",
+          "vi": "bắt cá"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "뱀",
+      "pos": "N",
+      "meaning_vi": "Con rắn",
+      "example_ko": "산에서 뱀을 보고 놀랐어요.",
+      "example_vi": "Tôi giật mình khi thấy rắn trên núi.",
+      "family": "🟢 Nền · Từ sơ cấp · Động vật",
+      "priority": "core",
+      "source": "krdict:58639",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "산토끼",
+      "pos": "N",
+      "meaning_vi": "Thỏ rừng",
+      "example_ko": "산에서 산토끼를 봤어요.",
+      "example_vi": "Tôi thấy thỏ rừng trên núi.",
+      "family": "🟢 Nền · Từ sơ cấp · Động vật",
+      "priority": "recognize",
+      "source": "krdict:61827",
+      "hanja": "山",
+      "enrich": "auto",
+      "sino_vietnamese": "sơn"
+    },
+    {
+      "hangul": "새",
+      "pos": "N",
+      "meaning_vi": "Con chim",
+      "note_vi": "Đồng âm: 새 (mới), như 새 옷 (áo mới).",
+      "example_ko": "아침에 새 소리가 들려요.",
+      "example_vi": "Buổi sáng nghe tiếng chim.",
+      "family": "🟢 Nền · Từ sơ cấp · Động vật",
+      "priority": "core",
+      "source": "krdict:30197",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "소",
+      "pos": "N",
+      "meaning_vi": "Con bò",
+      "note_vi": "Thịt bò: 소고기 (쇠고기).",
+      "example_ko": "농장에 소가 다섯 마리 있어요.",
+      "example_vi": "Trang trại có năm con bò.",
+      "family": "🟢 Nền · Từ sơ cấp · Động vật",
+      "priority": "core",
+      "source": "krdict:64289",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "얼룩말",
+      "pos": "N",
+      "meaning_vi": "Ngựa vằn",
+      "example_ko": "동물원에서 얼룩말을 봤어요.",
+      "example_vi": "Tôi xem ngựa vằn ở sở thú.",
+      "pron": "[얼룽말]",
+      "family": "🟢 Nền · Từ sơ cấp · Động vật",
+      "priority": "recognize",
+      "source": "krdict:67311",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "잎",
+      "pos": "N",
+      "meaning_vi": "Lá (cây)",
+      "note_vi": "Cũng nói 나뭇잎 (lá cây). 잎이 → [이피].",
+      "example_ko": "가을이 되면 잎이 떨어져요.",
+      "example_vi": "Sang thu lá rụng.",
+      "pron": "[입]",
+      "family": "🟢 Nền · Từ sơ cấp · Cây cối & hoa",
+      "priority": "core",
+      "source": "krdict:70793",
+      "collocations": [
+        {
+          "ko": "잎이 떨어지다",
+          "vi": "lá rụng"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "자라다",
+      "pos": "V",
+      "meaning_vi": "Lớn lên, mọc (cao, dài)",
+      "note_vi": "Chủ ngữ là người, vật đang lớn lên (아이가 자라다); làm cho lớn lên thì dùng 키우다.",
+      "example_ko": "나무가 많이 자랐어요.",
+      "example_vi": "Cây đã lớn nhiều.",
+      "family": "🟢 Nền · Từ sơ cấp · Thiên nhiên",
+      "priority": "core",
+      "source": "krdict:66317",
+      "collocations": [
+        {
+          "ko": "나무가 자라다",
+          "vi": "cây lớn lên"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "자연",
+      "pos": "N",
+      "meaning_vi": "Thiên nhiên, tự nhiên",
+      "note_vi": "Trạng từ: 자연스럽게 (một cách tự nhiên).",
+      "example_ko": "자연을 보호해야 해요.",
+      "example_vi": "Chúng ta phải bảo vệ thiên nhiên.",
+      "family": "🟢 Nền · Từ sơ cấp · Thiên nhiên",
+      "priority": "core",
+      "source": "krdict:62392",
+      "hanja": "自然",
+      "enrich": "auto",
+      "sino_vietnamese": "tự nhiên"
+    },
+    {
+      "hangul": "장미",
+      "pos": "N",
+      "meaning_vi": "Hoa hồng",
+      "example_ko": "노란 장미를 꽃병에 꽂았어요.",
+      "example_vi": "Tôi cắm hoa hồng vàng vào bình.",
+      "family": "🟢 Nền · Từ sơ cấp · Cây cối & hoa",
+      "priority": "core",
+      "source": "krdict:31498",
+      "hanja": "薔薇",
+      "collocations": [
+        {
+          "ko": "빨간 장미",
+          "vi": "hoa hồng đỏ"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "tường vi"
+    },
+    {
+      "hangul": "장미꽃",
+      "pos": "N",
+      "meaning_vi": "Hoa hồng (bông hoa)",
+      "example_ko": "생일에 장미꽃을 받았어요.",
+      "example_vi": "Sinh nhật tôi được tặng hoa hồng.",
+      "pron": "[장미꼳]",
+      "family": "🟢 Nền · Từ sơ cấp · Cây cối & hoa",
+      "priority": "recognize",
+      "source": "krdict:600997",
+      "hanja": "薔薇",
+      "collocations": [
+        {
+          "ko": "장미꽃 한 송이",
+          "vi": "một bông hồng"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "tường vi"
+    },
+    {
+      "hangul": "캥거루",
+      "pos": "N",
+      "meaning_vi": "Chuột túi, kangaroo",
+      "example_ko": "호주에서 캥거루를 봤어요.",
+      "example_vi": "Tôi thấy chuột túi ở Úc.",
+      "family": "🟢 Nền · Từ sơ cấp · Động vật",
+      "priority": "recognize",
+      "source": "krdict:83133",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "코끼리",
+      "pos": "N",
+      "meaning_vi": "Con voi",
+      "example_ko": "코끼리는 코가 길어요.",
+      "example_vi": "Voi có cái vòi dài.",
+      "family": "🟢 Nền · Từ sơ cấp · Động vật",
+      "priority": "core",
+      "source": "krdict:28148",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "키우다",
+      "pos": "V",
+      "meaning_vi": "Nuôi, trồng",
+      "note_vi": "Dùng cho cả nuôi con, nuôi thú và trồng cây: 아이를 키우다, 강아지를 키우다.",
+      "example_ko": "베란다에서 꽃을 키워요.",
+      "example_vi": "Tôi trồng hoa ở ban công.",
+      "family": "🟢 Nền · Từ sơ cấp · Thiên nhiên",
+      "priority": "core",
+      "source": "krdict:66587",
+      "collocations": [
+        {
+          "ko": "꽃을 키우다",
+          "vi": "trồng hoa"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "토끼",
+      "pos": "N",
+      "meaning_vi": "Con thỏ",
+      "example_ko": "토끼가 깡충깡충 뛰어요.",
+      "example_vi": "Con thỏ nhảy tung tăng.",
+      "family": "🟢 Nền · Từ sơ cấp · Động vật",
+      "priority": "core",
+      "source": "krdict:89388",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "판다",
+      "pos": "N",
+      "meaning_vi": "Gấu trúc",
+      "example_ko": "동물원에서 판다를 구경했어요.",
+      "example_vi": "Tôi xem gấu trúc ở sở thú.",
+      "family": "🟢 Nền · Từ sơ cấp · Động vật",
+      "priority": "recognize",
+      "source": "krdict:80710",
+      "collocations": [
+        {
+          "ko": "아기 판다",
+          "vi": "gấu trúc con"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "피다",
+      "pos": "V",
+      "meaning_vi": "Nở (hoa)",
+      "example_ko": "봄이 되면 꽃이 피어요.",
+      "example_vi": "Sang xuân hoa nở.",
+      "family": "🟢 Nền · Từ sơ cấp · Cây cối & hoa",
+      "priority": "core",
+      "source": "krdict:73270",
+      "collocations": [
+        {
+          "ko": "꽃이 피다",
+          "vi": "hoa nở"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "피우다",
+      "pos": "V",
+      "meaning_vi": "Làm cho nở (hoa); hút (thuốc)",
+      "note_vi": "Nghĩa hay gặp hằng ngày: 담배를 피우다 (hút thuốc lá).",
+      "example_ko": "나무가 예쁜 꽃을 피웠어요.",
+      "example_vi": "Cây đã nở hoa đẹp.",
+      "family": "🟢 Nền · Từ sơ cấp · Cây cối & hoa",
+      "priority": "core",
+      "source": "krdict:73272",
+      "collocations": [
+        {
+          "ko": "꽃을 피우다",
+          "vi": "nở hoa"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "호랑이",
+      "pos": "N",
+      "meaning_vi": "Con hổ",
+      "example_ko": "호랑이는 무서운 동물이에요.",
+      "example_vi": "Hổ là con vật đáng sợ.",
+      "family": "🟢 Nền · Từ sơ cấp · Động vật",
+      "priority": "core",
+      "source": "krdict:74128",
+      "hanja": "虎狼",
+      "enrich": "auto",
+      "sino_vietnamese": "hổ lang"
+    },
+    {
+      "hangul": "심다",
+      "pos": "V",
+      "meaning_vi": "Trồng (cây, hoa)",
+      "note_vi": "N에 N을/를 심다: 마당에 꽃을 심다.",
+      "example_ko": "마당에 꽃을 심었어요.",
+      "example_vi": "Tôi đã trồng hoa ngoài sân.",
+      "pron": "[심따]",
+      "family": "🟢 Nền · Từ sơ cấp · Cây cối & hoa",
+      "priority": "core",
+      "source": "krdict:64968",
+      "collocations": [
+        {
+          "ko": "나무를 심다",
+          "vi": "trồng cây"
+        }
+      ],
+      "enrich": "auto"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V + -(으)ㄹ 필요가 있다 · V + -(으)ㄹ 필요가 없다",
+      "meaning_vi": "cần (phải) … / không cần … (văn viết)",
+      "usage_context_vi": "**Cấu tạo:** gốc không patchim hoặc `ㄹ` + `-ㄹ 필요가 있다`, có patchim + `-을 필요가 있다`: 줄이다 → `줄일 필요가 있다`, 만들다 → `만들 필요가 있다`, 먹다 → `먹을 필요가 있다`. Phủ định: `-(으)ㄹ 필요가 없다` (không cần). `필요` là danh từ nên viết cách. Chỉ gắn với động từ.\n**Hoàn cảnh dùng:** nêu điều **cần làm** một cách khách quan, trang trọng, đặc biệt ở **câu giải pháp và kết luận** của bài Viết 54: `일회용품 사용을 줄일 필요가 있다`, `쓰레기를 분리해서 버릴 필요가 있다`. Dạng `-(으)ㄹ 필요가 없다`: `지금은 마스크를 쓸 필요가 없다`.\n**Vì sao chọn nó thay vì `-아/어야 하다`:** `-아/어야 하다` là 'phải làm', dùng cả khi nói; `-(으)ㄹ 필요가 있다` mềm và khách quan hơn, hợp văn nghị luận để nêu giải pháp.\n**Mức độ:** KIIP không đưa mẫu này vào mục ngữ pháp chính của bài; giáo trình Yonsei xếp nó ở bậc trung cấp 2 (quyển 4).",
+      "contrasts": [
+        {
+          "pattern": "V + -아/어야 하다",
+          "diff_vi": "Bắt buộc, dùng được cả khi nói; mạnh hơn `필요가 있다`."
+        },
+        {
+          "pattern": "V + -지 않아도 되다",
+          "diff_vi": "Không cần làm (khẩu ngữ); `-(으)ㄹ 필요가 없다` trang trọng hơn."
+        }
+      ],
+      "example_ko": "일회용품 사용을 줄일 필요가 있다.\n지금은 마스크를 쓸 필요가 없다.\n쓰레기를 분리해서 버릴 필요가 있다.",
+      "example_vi": "Cần giảm việc dùng đồ dùng một lần.\nBây giờ không cần đeo khẩu trang.\nCần phân loại rác trước khi vứt.",
+      "source": "G5-7",
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Quên `ㄹ` hoặc `을`: ✗ `줄이 필요가 있다` → `줄일 필요가 있다`; ✗ `먹ㄹ 필요가` → `먹을 필요가`.\n(2) Thêm thì vào vế động từ: ✗ `줄였을 필요가 있다` → `줄일 필요가 있다`.\n(3) Gắn với tính từ: ✗ `조용할 필요가 있다` → `조용히 할 필요가 있다`.\n(4) Viết dính: ✗ `줄일필요가있다`.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Môi trường: Bụi mịn & Rác thải nhựa'.",
+      "topik_tip_vi": "Câu giải pháp ở đoạn kết bài Viết 54 thường kết bằng `…(으)ㄹ 필요가 있다`; dùng đúng một câu như vậy là đủ để thể hiện mẫu này.",
+      "builds_on": [
+        "V + -(으)ㄹ + N (dự định · sắp xảy ra)",
+        "N + 이/가 있다 · 없다 / N + 에 있다 · 없다"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "A/V + -기 때문에 · N + (이)기 때문에",
+      "meaning_vi": "Vì … nên … (nhấn mạnh lý do, văn viết)",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** A/V + `-기 때문에` (gắn thẳng vào gốc từ, không phân biệt patchim: `걸리기 때문에`, `많기 때문에`); nhận được `-았/었-`/`-겠-` (`늘었기 때문에`); danh từ: `N(이)기 때문에` hoặc `N 때문에`. Cuối câu giải thích: `…는 이유는 …기 때문이다`. Vế sau thường là câu trần thuật/hỏi; trong hội thoại và đề thi **thường không** dùng mệnh lệnh `-(으)세요` hay lời rủ `-(으)ㅂ시다`; hai vế có thể khác chủ ngữ.\n**Hoàn cảnh dùng:** Văn viết (bài đọc, bài nghị luận câu 54, thông báo, bản tin) và phát biểu trang trọng: nêu lý do/nguyên nhân rõ ràng, khách quan; mẫu điển hình ở câu 54 là `이유는 …기 때문이다`. Khi nói chuyện thân mật hằng ngày thì `-아/어서` hoặc `-(으)니까` tự nhiên hơn, `-기 때문에` nghe cứng.\n**Vì sao chọn nó thay vì -아/어서:** `-기 때문에` nhấn mạnh lý do, nghe chắc và khách quan nên hợp bài nghị luận; nó nhận `-았/었-`/`-겠-` và dùng thoải mái với hai chủ ngữ khác nhau (`플라스틱은 분해되는 데 오랜 시간이 걸리기 때문에 …`). `-아/어서` mềm hơn, hợp khẩu ngữ, không đi sau `-았/었-` và thường dùng cho lý do hiển nhiên.\n**Trong bài này:** Trong bài Môi trường, câu nêu nguyên nhân (`분해되는 데 오랜 시간이 걸리기 때문에 …`) đứng trước câu kết luận dùng core `V + -(으)ㄹ 필요가 있다` (`일회용품 사용을 줄일 필요가 있다`); với danh từ thì dùng `N(으)로 인한` của bài Hàng xóm, Tiếng ồn & Phân loại rác hoặc `N 때문에`.",
+      "contrasts": [
+        {
+          "pattern": "N + (으)로 인해(서) · N + (으)로 인한 N",
+          "diff_vi": "Mẫu của bài Hàng xóm, Tiếng ồn & Phân loại rác: `(으)로 인해` gắn vào **danh từ** (`쓰레기로 인한 오염`), còn `-기 때문에` gắn vào **mệnh đề** động từ/tính từ; cả hai đều là văn viết."
+        },
+        {
+          "pattern": "-아/어서",
+          "diff_vi": "Mềm, hợp khẩu ngữ, không nhận `-았/었-`; `-기 때문에` rõ ràng, trang trọng, nhận `-았/었-`."
+        },
+        {
+          "pattern": "N + 때문에",
+          "diff_vi": "`때문에` gắn thẳng vào danh từ (`플라스틱 때문에 피해를 입다`), hay mang sắc thái nguyên nhân gây hậu quả xấu; `-기 때문에` gắn vào cụm động từ/tính từ."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n• Dùng mệnh lệnh/lời rủ ở vế sau: `비가 오기 때문에 우산을 가져가세요` thường không tự nhiên trong hội thoại → dùng `-(으)니까` (thông báo trang trọng thì vẫn gặp `…기 때문에 …해 주시기 바랍니다`).\n• Kết thúc câu giải thích bằng `때문에` thay vì `때문이다`: `이유는 값이 싸기 때문에.` sai → `이유는 값이 싸기 때문이다.`\n• Gắn thẳng vào danh từ: `플라스틱기 때문에` sai → `플라스틱이기 때문에` hoặc `플라스틱 때문에`.\n*Biên soạn bổ sung:* ví dụ 1 lấy từ bộ đề, các ví dụ còn lại và phần giải thích là biên soạn thêm.",
+      "topik_tip_vi": "Đọc câu 16 có câu \"…오랜 시간이 걸리기 때문에 …\"; bài mẫu Viết 54-A/54-B cũng dùng \"…기 때문이다/…기 때문에\". Đây là mẫu nêu lý do ở câu 54: dùng thay -아/어서 trong văn 한다체; nên tránh mệnh lệnh/lời rủ ở vế sau.",
+      "example_ko": "그러나 플라스틱은 분해되는 데 오랜 시간이 걸리기 때문에 쓰레기가 되면 환경에 큰 부담을 준다.\n어제는 황사가 심했기 때문에 많은 사람이 마스크를 썼다.\n쓰레기가 늘어나는 이유는 일회용품을 많이 쓰기 때문이다.",
+      "example_vi": "Nhưng vì nhựa phải mất rất lâu mới phân hủy nên khi thành rác nó gây gánh nặng lớn cho môi trường.\nHôm qua cát vàng nghiêm trọng nên nhiều người đã đeo khẩu trang.\nLý do rác thải tăng lên là vì người ta dùng nhiều đồ dùng một lần.",
+      "source": "EXT-T2-10",
+      "exam": "kiip-2",
+      "use_level": "produce",
+      "builds_on": [
+        "N + 때문에 · V/A + -기 때문에"
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài (3 tầng)",
+      "body": "• 🟢 Nói về chất lượng không khí, tiết kiệm năng lượng và đồ dùng một lần ở mức giao tiếp.\n• 🟡 Nghe và đọc hướng dẫn phòng bụi mịn, viết đoạn giải thích (Viết 52), mô tả biểu đồ (Viết 53).\n• 🔴 Viết 54 về rác thải nhựa và ô nhiễm môi trường (đề Viết 54 chính của các bài 05–07).\n• Bảng cấp độ bụi mịn chỉ giúp bạn hiểu bối cảnh, **không cần thuộc số**.\n• 🎯 **Đầu ra:** cuối bài bạn viết được một đoạn 200–350 chữ kể những việc bạn làm để giảm rác nhựa và vì sao (Bước 5), và nói về nó trong 30 giây.",
+      "kind": "goal"
+    },
+    {
+      "title": "Mẫu câu 🟢 và ôn ngữ pháp",
+      "body": "• 오늘은 공기가 나빠서 마스크를 썼어요. — Hôm nay không khí xấu nên tôi đã đeo khẩu trang.\n• 물을 아껴 쓰고 전기를 아끼면 환경에 도움이 돼요. — Nếu dùng nước tiết kiệm và tiết kiệm điện thì có ích cho môi trường.\n(Bản dịch tham khảo.)\n\n**Ôn ngữ pháp:** `-(으)면` (nền 1–2급), `-아/어야 하다` (nền 1–2급), `-(으)ㄹ까요?`.",
+      "kind": "language"
+    },
+    {
+      "title": "Đời sống: cấp độ bụi mịn dự báo (Paju, trung bình ngày, µg/m³)",
+      "body": "• **좋음** — 미세먼지 (PM10) 0–30 · 초미세먼지 (PM2.5) 0–15\n• **보통** — 미세먼지 (PM10) 31–80 · 초미세먼지 (PM2.5) 16–35\n• **나쁨** — 미세먼지 (PM10) 81–150 · 초미세먼지 (PM2.5) 36–75\n• **매우나쁨** — 미세먼지 (PM10) 151 trở lên · 초미세먼지 (PM2.5) 76 trở lên\n\nKhi mức **나쁨**, nguồn khuyến nghị: đeo khẩu trang y tế (có chứng nhận 식약처), hạn chế ra ngoài, giảm vận động, rửa sạch sau khi về.\n*Nguồn: Paju.*\n\n*Lưu ý:* các mức này lấy từ trang của một chính quyền địa phương (Paju), chưa đối chiếu với trang quốc gia (에어코리아); cần mức chính thức thì hãy xem 에어코리아.",
+      "kind": "fact"
+    },
+    {
+      "title": "Ôn ngữ pháp (kết hợp) và mẫu bài đọc: hướng dẫn phòng bụi mịn",
+      "body": "**Ôn ngữ pháp (kết hợp):** `-기 위해(서)` (환경을 보호하기 위해), `-(으)며`, `N(으)로 인해/인한 N`, `-도록` (쓰레기가 늘지 않도록), `-(으)면` (nền).\n\n**Mẫu bài đọc (hướng dẫn phòng bụi mịn, đã đối chiếu với hướng dẫn ✔):**\n미세먼지 농도가 '나쁨'일 때에는 외출을 자제하는 것이 좋다. 부득이하게 외출해야 할 때에는 보건용 마스크를 착용해야 하며, 집에 돌아온 후에는 손과 얼굴을 깨끗이 씻는다.\n\n**Bản dịch tham khảo:** Khi nồng độ bụi mịn ở mức 'xấu' thì nên hạn chế ra ngoài. Khi bất đắc dĩ phải ra ngoài thì phải đeo khẩu trang y tế phòng bụi, và sau khi về nhà thì rửa sạch tay và mặt.",
+      "kind": "sample"
+    },
+    {
+      "title": "Mẫu Viết 52 (đoạn giải thích)",
+      "body": "일회용품은 편리하지만 환경에 큰 부담을 준다. 특히 플라스틱은 **(㉠ 분해되는 데 오랜 시간이 걸리기 때문에 쓰레기가 계속 쌓인다)**. 따라서 우리는 장바구니나 텀블러를 사용하여 **(㉡ 일회용품을 줄이려고 노력해야 한다)**.\n\n*Ghi chú:* `분해되는 데 오랜 시간이 걸리다` dùng `-는 데 걸리다`; `-기 때문에` là nền 1–2급.\n\n**Bản dịch tham khảo:** Đồ dùng một lần tuy tiện lợi nhưng gây gánh nặng lớn cho môi trường. Đặc biệt, nhựa (mất nhiều thời gian để phân hủy nên rác cứ chất đống). Vì vậy, chúng ta sử dụng túi đi chợ hoặc bình giữ nhiệt và (phải cố gắng giảm đồ dùng một lần).",
+      "kind": "writing"
+    },
+    {
+      "title": "🔴 Khung 3–4급 cho Viết 54: rác thải nhựa và ô nhiễm môi trường",
+      "body": "**Khung 3–4급 (bản đơn giản, 3 ý, mỗi đoạn có câu mở sẵn):**\n• **1. Hiện trạng và nguyên nhân** — câu mở gợi ý: 최근 …이/가 빠르게 늘고 있다. 그 이유는 … 때문이다. · ý cần viết: tại sao rác nhựa tăng\n• **2. Vấn đề** — câu mở gợi ý: 이로 인해 … 문제가 생기고 있다. · ý cần viết: tác hại với môi trường, sinh vật\n• **3. Giải pháp** — câu mở gợi ý: 이를 해결하기 위해서는 … 필요가 있다. · ý cần viết: cá nhân, doanh nghiệp, nhà nước\n• **4. Kết** — câu mở gợi ý: 결론적으로 … · ý cần viết: tóm tắt và kỳ vọng",
+      "kind": "writing"
+    },
+    {
+      "title": "🔴 Biểu đạt cho Viết 54",
+      "body": "**Biểu đạt:** `이를 해결하기 위해서는 … 이/가 필요하다` · `…을/를 줄이려면` · `…(으)ㄴ/는 데다가` · `…이/가 늘지 않도록 …` · `…(으)로 인한 …` · `…(으)ㄹ 필요가 있다`.\n**Biểu đạt (mở rộng, 5–6급):** `…는 것이 바람직하다` · `…에 대한 규제를 강화하다` · `…을/를 대체할 수 있는 친환경 소재`.",
+      "kind": "writing"
+    },
+    {
+      "title": "Lưu ý trung thực về dữ kiện",
+      "body": "Các bài mẫu trong gói bài tập **không dùng số liệu thật** về lượng rác nhựa hay tỉ lệ tái chế (chưa đối chiếu nguồn). Mọi số liệu ở dạng biểu đồ là số minh họa.",
+      "kind": "fact"
+    },
+    {
+      "title": "🟢 Khung câu kể việc mình làm vì môi trường",
+      "body": "• **Câu mở:** `저는 N부터 플라스틱 쓰레기를 줄이기 위해 작은 일들을 실천하고 있습니다.`\n• **Việc cụ thể:** `카페에 갈 때는 늘 텀블러를 가지고 다닙니다.` · `장을 볼 때는 비닐봉지를 받지 않고 장바구니를 씁니다.` · `배달 음식을 시킬 때는 일회용 수저를 빼 달라고 합니다.`\n• **Lý do:** `제가 이렇게 하는 이유는 플라스틱이 분해되는 데 오랜 시간이 걸리기 때문입니다.`\n• **Tác hại:** `버린 플라스틱은 바다를 오염시키고 해양 생물에게도 피해를 줍니다.`\n• **Cảm nhận:** `처음에는 조금 귀찮았지만 지금은 습관이 되었습니다.`\n• **Kết:** `작은 일이라도 모두 함께 실천하면 환경을 지킬 수 있습니다.` · `우리 모두 일상에서 플라스틱 사용을 줄일 필요가 있습니다.`",
+      "kind": "language"
+    },
+    {
+      "title": "🟢 Bài mẫu: Việc tôi làm để giảm rác nhựa (đầu ra của bài)",
+      "body": "Đọc to bài mẫu, rồi thay bằng những việc bạn thật sự làm (hoặc muốn bắt đầu làm): đó là bài **Bước 5** ở phần Tạo câu. Mọi từ và mẫu câu trong bài mẫu đều đã học đến bài này.\n\n저는 작년부터 플라스틱 쓰레기를 줄이기 위해 작은 일들을 실천하고 있습니다. 먼저 카페에 갈 때는 늘 텀블러를 가지고 다닙니다. 그리고 장을 볼 때는 비닐봉지를 받지 않고 장바구니를 씁니다. 배달 음식을 시킬 때는 일회용 수저를 빼 달라고 합니다. 제가 이렇게 하는 이유는 플라스틱이 분해되는 데 오랜 시간이 걸리기 때문입니다. 사람들이 버린 플라스틱은 바다를 오염시키고 해양 생물에게도 큰 피해를 줍니다. 처음에는 조금 귀찮았지만 지금은 습관이 되었습니다. 작은 일이라도 모두 함께 실천하면 환경을 지킬 수 있습니다. 그래서 우리 모두 일상에서 플라스틱 사용을 줄일 필요가 있습니다.\n\n*Bản dịch tham khảo:* Từ năm ngoái, tôi làm vài việc nhỏ để giảm rác nhựa. Trước hết, khi đi quán cà phê tôi luôn mang theo bình giữ nhiệt. Khi đi chợ, tôi không lấy túi ni lông mà dùng túi đi chợ. Khi gọi đồ ăn giao tận nơi, tôi nhờ bỏ thìa đũa dùng một lần ra. Lý do tôi làm như vậy là vì nhựa phải mất rất nhiều thời gian mới phân hủy. Nhựa con người vứt đi làm ô nhiễm biển và gây hại lớn cho cả sinh vật biển. Lúc đầu tôi thấy hơi phiền, nhưng bây giờ đã thành thói quen. Dù chỉ là việc nhỏ, nếu mọi người cùng làm thì có thể bảo vệ môi trường. Vì vậy tất cả chúng ta cần giảm dùng đồ nhựa trong đời sống hằng ngày.\n\n**Đoạn văn đi theo 4 bước:** (1) câu mở: từ khi nào, để làm gì → (2) hai ba việc cụ thể, mỗi việc gắn với một tình huống (`… -(으)ㄹ 때는 …`) → (3) lý do và cảm nhận (`이유는 … -기 때문입니다`, `처음에는 … 지금은 …`) → (4) câu kết: lời kêu gọi (`-(으)ㄹ 필요가 있습니다`).",
+      "kind": "sample"
+    },
+    {
+      "title": "Lỗi người Việt hay mắc ở các bài 05–07",
+      "body": "• Dịch **전세** là \"thuê nhà theo năm\"; thực ra là gửi một khoản cọc lớn, không có tiền thuê hằng tháng ✔.\n• Dịch **빌라** là \"biệt thự\".\n• Dùng `-(으)려면` với quá khứ: ✗ 이사했으려면.\n• Viết dính `지` trong `-(으)ㄴ 지 N이 되다`: ✗ 이사 온지 3년 → ✓ 이사 온 **지** 3년.\n• Dùng `-(으)ㄴ/는 데다가` cho hai vế trái hướng: 집이 넓은 데다가 월세가 비싸요 nghe lệch (rộng là ưu, đắt là nhược); ý \"rộng nhưng đắt\" hợp với `-지만`.\n• Dùng `N(으)로 인해` với mệnh lệnh ở vế sau, hoặc gắn thẳng động từ: ✗ 소음으로 인해 조용히 하세요.\n• Dùng `-(으)려고` với khác chủ ngữ trong thông báo: ✗ 소음이 나지 않으려고 주의하십시오 → ✓ **-지 않도록**.\n• Lẫn `-아/어 달라고` với `-(으)라고` khi thuật lại: chọn theo **câu gốc**: `조용히 해 주세요` → `해 달라고 했어요`; `조용히 하세요` → `하라고 했어요`.\n• Nhầm `ㅂ bất quy tắc`: ✗ 가갑어요 → ✓ 가까워요.\n• Cho rằng `분리수거` là từ sai: cả `분리배출` và `분리수거` đều gặp.\n• ✗ `텀블러를 데리고 다녀요` → ✓ `가지고 다녀요`: `데리고` chỉ dùng cho người, con vật.\n• ✗ `오래 시간` → ✓ `오랜 시간` (`오랜` + danh từ; `오래` + động từ: `오래 걸리다`).\n• Kể việc mình làm mà quên lý do: thêm một câu `제가 이렇게 하는 이유는 … -기 때문입니다`.",
+      "kind": "pitfall"
+    }
+  ],
+  "bank": "quan-he",
+  "coach": {
+    "focus_vi": [
+      "`-(으)ㄹ 필요가 있다` / `-(으)ㄹ 필요가 없다`: cần / không cần làm gì (văn viết).",
+      "`-기 때문에` / `N(이)기 때문에`: nêu lý do, nhấn mạnh trong văn viết.",
+      "Ghép với mẫu đã học (`-도록`, `N(으)로 인해`, `-더라도`) để viết đoạn giải thích."
+    ],
+    "watch_out_vi": [
+      "`N(으)로 인해` đi sau danh từ; nguyên nhân là cả một mệnh đề thì dùng `-기 때문에`."
+    ],
+    "notebook_vi": [
+      "3 câu nêu việc cần làm để giảm rác thải nhựa, dùng `-(으)ㄹ 필요가 있다`.",
+      "Từ vựng môi trường: bụi mịn, tái chế, tiết kiệm điện…"
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Viết một câu: cần giảm đồ dùng một lần.",
+        "answer": "일회용품 사용을 줄일 필요가 있다."
+      },
+      {
+        "prompt_vi": "Nói lúc này không cần đeo khẩu trang.",
+        "answer": "지금은 마스크를 쓸 필요가 없다."
+      }
+    ],
+    "tip_vi": "Đọc «Mẫu Viết 52 (đoạn giải thích)» rồi tự viết lại một đoạn tương tự về chủ đề bụi mịn."
+  },
+  "exercise_ids": [
+    "QL18",
+    "QLN47",
+    "QLN48",
+    "QLN49",
+    "QLN50",
+    "QLN51",
+    "QD15",
+    "QD16",
+    "QU23L1",
+    "QR16",
+    "QR20",
+    "QW53A",
+    "QW54A",
+    "QE10a",
+    "QE10b",
+    "QU23R1",
+    "QE10c",
+    "QBO33",
+    "QBO34",
+    "QBO35",
+    "QBO36",
+    "QU23O1",
+    "QU23O2",
+    "QBF13",
+    "QBF14",
+    "QU23F1",
+    "QBC07",
+    "QU23C1",
+    "QBE07",
+    "QU23E1",
+    "QU23S1"
+  ],
+  "editor_notes": [
+    {
+      "title": "Điểm chưa xác minh của bài này (mục 12.2 của ghi chép)",
+      "body": "• **미세먼지:** một trang của chính quyền địa phương (Paju); chưa đối chiếu trang quốc gia (에어코리아).\n• **Kiến thức đời sống không dẫn nguồn** (liên quan bài này): ký hiệu KF94.\n• **Cấp độ từ vựng** (1–2 / 3–4 / 5–6) chưa đối chiếu danh sách của 국립국어원.\n• **Không khẳng định** tần suất xuất hiện của từng đề tài Viết 54 trong đề thật, và **không khẳng định** bám sát một giáo trình cụ thể.\n• Mọi **số liệu trong biểu đồ, bảng và văn bản mẫu** là **số minh họa tự soạn**."
+    },
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "Bỏ QS6 (tiếng ồn giữa các tầng, đề gốc bài 22, vẫn ở 22/26/27) khỏi bài này: bài Môi trường trước đây không có đề Nói đúng chủ đề; thêm QU23S1 (việc tôi làm để giảm rác nhựa, 30 giây). Bài mẫu không dùng số liệu thật về rác nhựa."
+    }
+  ]
+}

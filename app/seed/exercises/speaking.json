@@ -1,0 +1,1772 @@
+{
+  "skill": "speaking",
+  "guide": [
+    {
+      "title_vi": "Nguyên tắc chung",
+      "bullets_vi": [
+        "**Một thể lời nói duy nhất**: Dùng **해요체** từ câu 1 đến câu 6. Không 반말, kể cả khi đoạn hội thoại nghe được rất thân mật (câu 4). Không trộn 해요체 với 합쇼체 trong cùng một câu trả lời.",
+        "**Vào đề ngay**: Câu đầu tiên phải trả lời thẳng câu hỏi (câu 1, 6: nêu lập trường trong 2 câu đầu). Không mở đầu bằng bối cảnh dài.",
+        "**Không đọc thuộc, không đọc nguyên văn**: Ở câu 5, giải thích và so sánh số liệu, đừng đọc lại từng ô của bảng.",
+        "**Không bỏ trống, không đệm dài**: Tránh \"어…\", \"음…\" kéo dài. Thay bằng cụm nối ngắn: *먼저 말씀드리면*, *예를 들어*, *그래서*. Quên từ thì diễn đạt vòng bằng tiếng Hàn, không chen tiếng Việt hay tiếng Anh.",
+        "**Chia thời gian**: Chia sẵn theo mốc giây (xem từng câu). Để dành 5–10 giây cuối cho câu kết. Câu 3 dễ bị hết giờ trước khi kể tới tranh cuối.",
+        "**Luyện có bấm giờ**: Dùng đồng hồ đúng thời gian chuẩn bị/trả lời, ghi âm, nghe lại, rồi tự chấm theo thang ở cuối phần Nói."
+      ]
+    },
+    {
+      "title_vi": "Dung lượng tham khảo",
+      "body_vi": "Ước tính của mình cho người học nói khoảng 3–4 âm tiết/giây, không phải chuẩn chính thức.",
+      "table": {
+        "header": [
+          "Câu",
+          "Thời gian trả lời",
+          "Số âm tiết (≈)"
+        ],
+        "rows": [
+          [
+            "1",
+            "30 giây",
+            "90–120"
+          ],
+          [
+            "2",
+            "40 giây",
+            "120–160"
+          ],
+          [
+            "3, 4",
+            "60 giây",
+            "180–240"
+          ],
+          [
+            "5, 6",
+            "80 giây",
+            "240–320"
+          ]
+        ]
+      }
+    },
+    {
+      "title_vi": "Thang tự chấm phần Nói (quy ước luyện tập)",
+      "body_vi": "Điểm thô tối đa từng câu (9 · 9 · 12 · 12 · 15 · 15) và ba tiêu chí chấm (과제 수행·내용 / 언어 구사력 / 발음·전달력) lấy từ nguồn tham khảo nêu ở phần cấu trúc đề. **Cách chia điểm dưới đây là quy ước luyện tập (ba tiêu chí trọng số bằng nhau)**, không phải bảng chấm chính thức.\n\n**Cách chấm:** mỗi tiêu chí cho **0–4**, rồi tính: `điểm câu = điểm tối đa của câu × (A + B + C) / 12`",
+      "bullets_vi": [
+        "Điểm 1 và 3 dành cho mức giữa các mốc."
+      ],
+      "table": {
+        "header": [
+          "Tiêu chí",
+          "4",
+          "2",
+          "0"
+        ],
+        "rows": [
+          [
+            "**A. 과제 수행·내용**",
+            "Trả lời đúng và đủ mọi vế đề hỏi, có ví dụ/số liệu cụ thể",
+            "Thiếu một vế hoặc ý còn sơ sài",
+            "Lạc đề hoặc không trả lời"
+          ],
+          [
+            "**B. 언어 구사력**",
+            "Giữ nhất quán 해요체; từ vựng, ngữ pháp chính xác, có đa dạng",
+            "Có vài lỗi ngữ pháp hoặc lẫn thể; câu đơn giản lặp lại",
+            "Nhiều lỗi làm khó hiểu, 반말, chuyển ngữ"
+          ],
+          [
+            "**C. 발음·전달력**",
+            "Phát âm rõ, tốc độ ổn định, ngữ điệu tự nhiên",
+            "Có chỗ ngập ngừng/phát âm sai nhưng vẫn hiểu",
+            "Khó nghe, ngắt quãng nhiều"
+          ]
+        ]
+      }
+    },
+    {
+      "title_vi": "Checklist sau khi nghe lại bản ghi âm",
+      "bullets_vi": [
+        "Có trả lời **mọi vế** của đề không?",
+        "Có **vào đề ngay** và **kịp tới câu kết** trước khi hết giờ không?",
+        "Có lẫn **반말** hoặc đổi thể ở chỗ nào không?",
+        "Có từ nối (먼저, 그래서, 하지만, 결국, 첫째/둘째) không?",
+        "Có bỏ đoạn im lặng dài hoặc \"어… 음…\" kéo dài không?"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "S1",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S1",
+      "title_vi": "Nói · Trả lời câu hỏi đời sống",
+      "max_points": 9,
+      "prep_sec": 20,
+      "answer_sec": 30,
+      "instruction_ko": "※ [1] 질문을 잘 듣고 대답하십시오.",
+      "prompt_ko": "아침에 일어나서 집에서 나갈 때까지 보통 무엇을 합니까? 그리고 아침 시간이 바쁠 때는 어떻게 합니까?",
+      "plan": [
+        {
+          "when_vi": "0–5 giây",
+          "do_vi": "Trả lời thẳng vế 1, không mở đầu dài",
+          "phrases_ko": "저는 보통 (일곱) 시에 일어나요."
+        },
+        {
+          "when_vi": "5–20 giây",
+          "do_vi": "2–3 việc theo trình tự, mỗi việc một câu ngắn",
+          "phrases_ko": "먼저 … 그다음에 … · 집에서 나가기 전에 …"
+        },
+        {
+          "when_vi": "20–30 giây",
+          "do_vi": "Trả lời vế 2 (\"khi bận\") bằng một cách làm cụ thể",
+          "phrases_ko": "바쁠 때는 … -아/어 놓아요"
+        }
+      ],
+      "tips_vi": [
+        "Theo nguồn tham khảo, câu 1 chủ yếu xem bạn có trả lời **đủ và đúng câu hỏi** hay không; từ vựng và ngữ pháp cơ bản là đủ. Không cần cố nói đủ 30 giây, nhưng phải trả lời **cả hai vế** của câu hỏi.",
+        "Trong 20 giây chuẩn bị, chỉ chọn **một ví dụ cụ thể** (một buổi sáng quen thuộc), đừng soạn câu dài."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: -기 전에 · -는 데 걸리다 · -아/어 놓다.",
+        "Dùng thêm được: -느라고 (늦게까지 숙제를 하느라고 늦잠을 잤어요) · N부터 N까지."
+      ],
+      "model_answer_ko": "저는 보통 아침 일곱 시에 일어나요. 일어나서 먼저 세수를 하고 간단하게 아침을 먹어요. 집에서 나가기 전에 가방을 한 번 더 확인하고, 학교까지 가는 데 30분쯤 걸려요. 아침 시간이 바쁠 때는 전날 저녁에 옷을 꺼내 놓고 자요. 그러면 아침에 시간을 아낄 수 있어서 좋아요.",
+      "syllables_vi": "≈ 107 âm tiết",
+      "common_errors_vi": [
+        "Rơi vào 반말 (\"일어나.\", \"먹어.\") hoặc lẫn 합쇼체 (\"갑니다\") trong một câu trả lời 해요체.",
+        "Đọc giờ bằng số Hán (\"칠 시\"). Quy tắc: **giờ** dùng số thuần Hàn (일곱 시), **phút** dùng số Hán (삼십 분).",
+        "Nhầm 걸리다/들다: chỉ **thời gian** thì dùng \"가는 데 30분 걸려요\"; **tiền** mới dùng \"들어요\".",
+        "Chỉ trả lời vế 1, bỏ vế \"khi bận\"."
+      ],
+      "pronunciation_vi": [
+        "일곱 시 [일곱씨]",
+        "아침을 [아치믈]",
+        "확인하고 [화긴하고]",
+        "먹어요 [머거요]"
+      ],
+      "practice": [
+        {
+          "id": "S1-B",
+          "label_vi": "Giải trí, cuối tuần",
+          "prompt_ko": "주말 아침에는 보통 무엇을 합니까? 평일 아침과 어떻게 다릅니까?",
+          "hint_vi": "N보다, -(으)ㄹ 수 있다, 늦잠"
+        },
+        {
+          "id": "S1-C",
+          "label_vi": "Đi lại",
+          "prompt_ko": "학교(회사)까지 어떻게 갑니까? 시간이 얼마나 걸립니까?",
+          "hint_vi": "N(으)로, -는 데 걸리다"
+        }
+      ]
+    },
+    {
+      "id": "S2",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S2",
+      "title_vi": "Nói · Tình huống qua tranh",
+      "max_points": 9,
+      "prep_sec": 30,
+      "answer_sec": 40,
+      "instruction_ko": "※ [2] 그림을 보고 질문에 답하십시오.",
+      "prompt_ko": "여러분은 지난주에 산 옷을 바꾸러 가게에 왔습니다. 점원에게 상황을 설명하고 원하는 것을 부탁하십시오.",
+      "frames": [
+        {
+          "caption_vi": "Trong một cửa hàng quần áo. Bạn (khách) đứng trước quầy, tay cầm một chiếc áo sơ mi trong túi mua hàng và tờ hóa đơn. Nhân viên đứng sau quầy, mỉm cười chờ nghe. Trên tường có bảng \"교환·환불 안내\".",
+          "icons": [
+            "shirt",
+            "receipt",
+            "store"
+          ],
+          "image_prompt": "Inside a clothing store, a customer stands at the counter holding a shirt in a shopping bag and a receipt while a smiling clerk waits behind the counter, with a sign about exchanges and refunds on the wall."
+        }
+      ],
+      "plan": [
+        {
+          "when_vi": "0–5 giây",
+          "do_vi": "Chào + vào việc",
+          "phrases_ko": "안녕하세요. 저, 이것 좀 바꾸고 싶은데요."
+        },
+        {
+          "when_vi": "5–15 giây",
+          "do_vi": "Nêu **khi nào, mua gì**",
+          "phrases_ko": "지난주에 이 셔츠를 샀는데요"
+        },
+        {
+          "when_vi": "15–25 giây",
+          "do_vi": "Nêu **vấn đề**",
+          "phrases_ko": "입어 보니까 좀 작아요 / 생각보다 …아/어요"
+        },
+        {
+          "when_vi": "25–35 giây",
+          "do_vi": "**Đề nghị lịch sự** + phương án dự phòng",
+          "phrases_ko": "-(으)ㄹ 수 있을까요? / 없으면 환불해 주셔도 괜찮아요"
+        },
+        {
+          "when_vi": "35–40 giây",
+          "do_vi": "Chốt",
+          "phrases_ko": "부탁드려요. 감사합니다."
+        }
+      ],
+      "tips_vi": [
+        "Hãy nói **như đang nói với người trong tranh**: tự nhiên, lịch sự, đúng quan hệ khách – nhân viên. Dù tình huống thân thiện vẫn giữ 존댓말.",
+        "Một câu trả lời tốt có đủ ba phần: **bối cảnh → lý do → yêu cầu**. Chỉ nói \"바꿔 주세요\" mà không có lý do là thiếu nội dung.",
+        "Dùng cấu trúc đề nghị mềm (-(으)ㄹ 수 있을까요?, -아/어 주시겠어요?) thay cho câu mệnh lệnh."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: -는데요 (mở đầu, chờ phản hồi) · -아/어 보다 (입어 보니까) · -(으)ㄹ까요? (바꿀 수 있을까요?) · N(으)로 (큰 것으로).",
+        "Dùng thêm được: -(으)러 오다/가다 (바꾸러 왔어요) · N보다 (생각보다 작아요)."
+      ],
+      "model_answer_ko": "안녕하세요. 지난주에 이 셔츠를 샀는데요, 집에 가서 입어 보니까 좀 작아요. 색깔과 디자인은 마음에 드는데 사이즈만 맞지 않아요. 그래서 한 사이즈 큰 것으로 바꿀 수 있을까요? 영수증은 여기 있어요. 그리고 같은 색으로 있으면 좋겠어요. 만약 큰 사이즈가 없으면 환불해 주셔도 괜찮아요. 부탁드려요.",
+      "syllables_vi": "≈ 119 âm tiết",
+      "common_errors_vi": [
+        "Dùng 반말 (\"바꿔 줘요?\") hoặc mệnh lệnh trực tiếp (\"바꿔 주세요\" lặp đi lặp lại).",
+        "Quên lý do, hoặc nói lý do mà không nói **muốn gì**.",
+        "Nói quá dài về chuyện không liên quan trong tranh (ví dụ tả nhân viên), làm hết giờ trước khi đưa ra yêu cầu."
+      ],
+      "pronunciation_vi": [
+        "영수증 [영수쯩]",
+        "있을까요 [이쓸까요]",
+        "부탁드려요 [부탁뜨려요]",
+        "작아요 [자가요]"
+      ],
+      "practice": [
+        {
+          "id": "S2-B",
+          "label_vi": "Ăn uống",
+          "prompt_ko": "점원에게 상황을 설명하고 원하는 것을 부탁하십시오.",
+          "frames": [
+            {
+              "caption_vi": "Trong quán ăn, món ra nhầm, bạn gọi 비빔밥 nhưng nhận 불고기.",
+              "icons": [
+                "utensils",
+                "beef"
+              ],
+              "image_prompt": "In a restaurant, the customer ordered bibimbap but the waiter has brought bulgogi by mistake."
+            }
+          ]
+        },
+        {
+          "id": "S2-C",
+          "label_vi": "Đi lại",
+          "prompt_ko": "어떻게 말하겠습니까?",
+          "frames": [
+            {
+              "caption_vi": "Trên xe buýt, bạn muốn xuống ở trạm kế tiếp nhưng hỏi tài xế/người bên cạnh.",
+              "icons": [
+                "bus",
+                "user"
+              ],
+              "image_prompt": "On a bus, a passenger wants to get off at the next stop and turns to ask the driver or the person beside them."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S3",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S3",
+      "title_vi": "Nói · Kể chuyện theo chuỗi tranh",
+      "max_points": 12,
+      "prep_sec": 40,
+      "answer_sec": 60,
+      "instruction_ko": "※ [3] 다음 그림을 보고 이야기를 순서대로 말하십시오.",
+      "prompt_ko": "다음 그림을 보고 이야기를 순서대로 말하십시오.",
+      "frames": [
+        {
+          "caption_vi": "Nửa đêm, đồng hồ treo tường chỉ 12:00. Một người đàn ông ngồi trước laptop, vẻ mệt, đang làm việc.",
+          "icons": [
+            "laptop",
+            "clock"
+          ],
+          "image_prompt": "Late at night, a tired man works at a laptop while the wall clock shows 12:00."
+        },
+        {
+          "caption_vi": "Sáng hôm sau, đồng hồ báo thức chỉ 8:00. Anh ta bật dậy trên giường, mắt tròn vì ngạc nhiên.",
+          "icons": [
+            "bed",
+            "alarm-clock"
+          ],
+          "image_prompt": "The next morning an alarm clock shows 8:00 and the man sits bolt upright in bed with wide, surprised eyes."
+        },
+        {
+          "caption_vi": "Anh ta mặc áo vội, miệng ngậm hoặc tay cầm một lát bánh mì, chạy ra khỏi cửa nhà.",
+          "icons": [
+            "door-open",
+            "sandwich"
+          ],
+          "image_prompt": "The man hurriedly pulls on a jacket and runs out the front door with a slice of bread in his mouth or hand."
+        },
+        {
+          "caption_vi": "Trước cổng công ty, đồng hồ chỉ 9:10, anh ta thở hổn hển, đồng nghiệp nhìn. Ghi chú: giờ làm việc bắt đầu lúc 9:00.",
+          "icons": [
+            "building-2",
+            "clock"
+          ],
+          "image_prompt": "In front of the company gate the clock shows 9:10, the man is out of breath and a colleague looks on."
+        }
+      ],
+      "plan": [
+        {
+          "when_vi": "0–15 giây · Tranh 1",
+          "do_vi": "Ai, lúc nào, làm gì, **vì sao** muộn",
+          "phrases_ko": "어젯밤에 … -느라고"
+        },
+        {
+          "when_vi": "15–30 giây · Tranh 2",
+          "do_vi": "Chuyện gì xảy ra",
+          "phrases_ko": "그런데 / 그래서"
+        },
+        {
+          "when_vi": "30–45 giây · Tranh 3",
+          "do_vi": "Phản ứng, hành động vội",
+          "phrases_ko": "서둘러서 / 시간이 없어서"
+        },
+        {
+          "when_vi": "45–60 giây · Tranh 4",
+          "do_vi": "**Kết quả** (đến muộn mấy phút) + 1 câu cảm nghĩ hoặc quyết tâm",
+          "phrases_ko": "결국 / 앞으로는"
+        }
+      ],
+      "tips_vi": [
+        "Mỗi tranh khoảng 15 giây. Mắc kẹt ở tranh 1–2 là lỗi phổ biến nhất; tranh cuối thường là **kết quả** nên ảnh hưởng điểm nội dung.",
+        "Chọn **một thì duy nhất** (khuyến nghị quá khứ: -았/었어요) và một người kể (ngôi thứ ba: \"남자는 …\").",
+        "Chuẩn bị sẵn 3–4 từ nối trước khi nói: 먼저 / 그런데 / 그래서 / 하지만 / 결국 / 마지막으로.",
+        "Ghi chú: \"-아/어야겠다\" thuộc ngữ pháp **mở rộng**; có thể thay bằng \"일찍 자려고 해요/했어요\" nếu bạn chưa học."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: -느라고 · -아/어 놓다 (준비해 놓고 자다).",
+        "Dùng thêm được: -지 않으면 안 되다 (일찍 일어나지 않으면 안 돼요) · N부터 N까지 (밤 열두 시부터 아침까지) · -는데도 (mở rộng, \"dù … vẫn …\")."
+      ],
+      "model_answer_ko": "남자는 어젯밤 열두 시까지 회사 일을 하느라고 늦게 잤어요. 그런데 알람 소리를 듣지 못해서 다음 날 아침 여덟 시에 겨우 일어났어요. 회사에는 아홉 시까지 가야 해서 시간이 많지 않았어요. 남자는 시계를 보고 깜짝 놀라서 서둘러 옷을 입었어요. 아침을 먹을 시간이 없어서 빵 한 조각만 들고 집을 나갔어요. 하지만 급하게 뛰어갔는데도 결국 회사에 십 분 늦게 도착했어요. 남자는 숨이 차서 말도 잘 하지 못하고 동료들에게 미안한 표정을 지었어요. 앞으로는 전날 밤에 옷과 가방을 준비해 놓고 일찍 자야겠다고 생각했어요.",
+      "syllables_vi": "≈ 207 âm tiết",
+      "common_errors_vi": [
+        "Dừng lâu ở tranh 1–2, không kịp nói tranh 4.",
+        "Chỉ liệt kê hành động rời rạc (\"남자가 일해요. 남자가 일어나요.\") mà không có từ nối và lý do.",
+        "Đổi thì giữa chừng (quá khứ ↔ hiện tại).",
+        "Dùng \"-느라고\" sai: -느라고 phải **cùng chủ ngữ** ở hai vế, vế sau thường là kết quả tiêu cực, và không gắn với -았/었- ở vế trước (✗ 일했느라고).",
+        "Thêm tình tiết **không có trong tranh** quá nhiều (kể bịa dài) khiến mất thời gian."
+      ],
+      "practice": [
+        {
+          "id": "S3-B",
+          "label_vi": "Việc nhà",
+          "frames": [
+            {
+              "caption_vi": "Ăn xong, bát đĩa chất đống",
+              "icons": [
+                "utensils",
+                "soup"
+              ],
+              "image_prompt": "After a meal, dirty dishes are piled up on the table and in the sink."
+            },
+            {
+              "caption_vi": "Vợ chồng cãi nhau",
+              "icons": [
+                "users",
+                "frown"
+              ],
+              "image_prompt": "A married couple argues with each other in the kitchen."
+            },
+            {
+              "caption_vi": "Họ ngồi viết bảng phân công việc nhà",
+              "icons": [
+                "notebook-pen",
+                "file-text"
+              ],
+              "image_prompt": "The couple sit together writing a chore-sharing chart."
+            },
+            {
+              "caption_vi": "Bảng dán trên tủ lạnh, cả hai đang cười và cùng rửa bát",
+              "icons": [
+                "refrigerator",
+                "smile"
+              ],
+              "image_prompt": "The chart is stuck on the fridge door and both of them are smiling as they wash the dishes together."
+            }
+          ]
+        },
+        {
+          "id": "S3-C",
+          "label_vi": "Đi lại",
+          "frames": [
+            {
+              "caption_vi": "Đi tàu điện đông người",
+              "icons": [
+                "train-front",
+                "users"
+              ],
+              "image_prompt": "A crowded subway train full of commuters."
+            },
+            {
+              "caption_vi": "Có chỗ ngồi bị người khác giành",
+              "icons": [
+                "armchair",
+                "users"
+              ],
+              "image_prompt": "A seat has just opened up but another passenger takes it first."
+            },
+            {
+              "caption_vi": "Nhường chỗ cho người lớn tuổi",
+              "icons": [
+                "hand-heart",
+                "user"
+              ],
+              "image_prompt": "A passenger gives up a seat to an elderly person."
+            },
+            {
+              "caption_vi": "Xuống ga và cười",
+              "icons": [
+                "train-front",
+                "smile"
+              ],
+              "image_prompt": "The passenger steps off at the station and smiles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S4",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S4",
+      "title_vi": "Nói · Nghe hội thoại rồi trả lời",
+      "max_points": 12,
+      "prep_sec": 40,
+      "answer_sec": 60,
+      "instruction_ko": "※ [4] 대화를 듣고 질문에 답하십시오.",
+      "prompt_ko": "두 사람이 정한 내용을 정리해서 말하십시오. 그리고 여러분이 두 사람의 친구라면 어떤 조언을 해 주고 싶은지 말하십시오.",
+      "audio": {
+        "kind": "audio",
+        "turns": [
+          {
+            "speaker": "F",
+            "text": "민수 씨, 요즘 퇴근이 너무 늦어서 집에 오면 집안일을 할 힘이 없어요."
+          },
+          {
+            "speaker": "M",
+            "text": "저도 그래요. 우리 집안일을 나눠서 하는 게 어때요?"
+          },
+          {
+            "speaker": "F",
+            "text": "좋아요. 그럼 저는 요리와 빨래를 할게요. 민수 씨는 청소와 설거지를 해 줄 수 있어요?"
+          },
+          {
+            "speaker": "M",
+            "text": "설거지는 괜찮은데, 저는 주말에 회사 일이 있을 때가 많아서 청소가 좀 걱정이에요."
+          },
+          {
+            "speaker": "F",
+            "text": "그럼 평일 저녁에 조금씩 하면 어때요? 로봇 청소기를 사는 것도 좋은 방법이고요."
+          },
+          {
+            "speaker": "M",
+            "text": "좋은 생각이에요. 그럼 이번 주 토요일에 같이 로봇 청소기를 사러 갑시다."
+          }
+        ]
+      },
+      "plan": [
+        {
+          "when_vi": "Khi nghe (40 giây)",
+          "do_vi": "Ghi **từ khóa**: ai – việc gì – lý do – quyết định",
+          "phrases_ko": "여: 요리·빨래 / 남: 설거지·청소(평일 저녁) / 토: 청소기"
+        },
+        {
+          "when_vi": "0–25 giây",
+          "do_vi": "**Tóm tắt** bằng ngôi thứ ba",
+          "phrases_ko": "여자는 … 고 말했어요. 그래서 두 사람은 … -기로 했어요."
+        },
+        {
+          "when_vi": "25–50 giây",
+          "do_vi": "**Lời khuyên** với vai người bạn, kèm lý do",
+          "phrases_ko": "저라면 … -(으)라고 말해 주고 싶어요. 그러면 …"
+        },
+        {
+          "when_vi": "50–60 giây",
+          "do_vi": "Chốt bằng 1 câu",
+          "phrases_ko": "그렇게 하면 두 사람 모두 덜 피곤할 것 같아요."
+        }
+      ],
+      "tips_vi": [
+        "Khi tóm tắt phải đổi sang **ngôi thứ ba** (\"남자는 설거지를 하기로 했어요\"), không bắt chước lời thoại (\"제가 설거지를 할게요\").",
+        "Giữ **해요체** dù hội thoại gốc thân mật. Đây là lỗi hay gặp nhất ở dạng câu này.",
+        "Nếu bỏ lỡ một chi tiết, hãy tiếp tục bằng những gì đã nghe được, không dừng lại.",
+        "Câu hỏi có **hai vế** (tóm tắt + lời khuyên): phải trả lời đủ cả hai."
+      ],
+      "patterns_vi": [
+        "-(으)ㅂ시다 · -(으)러 가다 (kịch bản nghe) · -아/어 놓다 · -아/어 보다 (bài mẫu).",
+        "Mở rộng: -기로 하다 · -(으)라고 하다/말하다 (lời khuyên gián tiếp) · 로봇 청소기."
+      ],
+      "model_answer_ko": "여자는 퇴근이 늦어서 집에 오면 집안일을 할 힘이 없다고 말했어요. 그래서 두 사람은 집안일을 나누어 하기로 했어요. 여자는 요리와 빨래를 하고, 남자는 설거지와 청소를 하기로 했어요. 청소는 남자가 주말에 일이 있을 때가 많아서 평일 저녁에 조금씩 하기로 했어요. 그리고 이번 주 토요일에 같이 로봇 청소기를 사러 가기로 했어요.\n제가 두 사람의 친구라면 집안일 목록을 만들어서 냉장고에 붙여 놓으라고 말해 주고 싶어요. 그러면 누가 무엇을 해야 하는지 쉽게 알 수 있어요. 그리고 한 달 후에 힘든 점이 없는지 서로 이야기해 보라고 하고 싶어요.",
+      "syllables_vi": "≈ 217 âm tiết",
+      "common_errors_vi": [
+        "Trượt sang 반말 hoặc lẫn lộn vì hội thoại gốc thân mật.",
+        "Trả lời **một vế** (chỉ tóm tắt hoặc chỉ khuyên).",
+        "Nhầm ai làm gì vì không ghi chú; kể lại bằng ngôi thứ nhất.",
+        "Lời khuyên chung chung (\"서로 사랑하면 돼요\") không bám nội dung hội thoại."
+      ],
+      "practice": [
+        {
+          "id": "S4-B",
+          "label_vi": "Đổi câu hỏi, cùng kịch bản",
+          "prompt_ko": "여러분이라면 가족이나 룸메이트와 집안일을 어떻게 나누고 싶습니까? 이유와 함께 말하십시오."
+        },
+        {
+          "id": "S4-C",
+          "label_vi": "Mua sắm",
+          "prompt_vi": "Tự soạn hội thoại 6 câu giữa hai người chọn quà sinh nhật, rồi hỏi:",
+          "prompt_ko": "두 사람은 무엇을 사기로 했습니까? 여러분이라면 무엇을 사겠습니까?"
+        }
+      ]
+    },
+    {
+      "id": "S5",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S5",
+      "title_vi": "Nói · Đọc số liệu và diễn giải",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [5] 다음 자료를 보고 질문에 답하십시오.",
+      "prompt_ko": "조사 결과를 설명하고, 이런 변화가 생긴 이유와 앞으로의 모습에 대해 이야기하십시오.",
+      "data": [
+        {
+          "title_vi": "(가) 하루 평균 집안일 시간",
+          "note_vi": "Số liệu minh họa (không phải số liệu thật).",
+          "chart": {
+            "type": "bar",
+            "unit": "분",
+            "categories": [
+              "남성",
+              "여성"
+            ],
+            "series": [
+              {
+                "name": "2016년",
+                "values": [
+                  40,
+                  150
+                ]
+              },
+              {
+                "name": "2026년",
+                "values": [
+                  65,
+                  120
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "title_vi": "(나) 맞벌이 부부 비율",
+          "table": {
+            "header": [
+              "구분",
+              "2016년",
+              "2026년"
+            ],
+            "rows": [
+              [
+                "맞벌이 부부 비율",
+                "45%",
+                "58%"
+              ]
+            ]
+          }
+        }
+      ],
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "Gạch **2 con số then chốt** + 1 so sánh + 1 lý do. Tự tính chênh lệch và tỉ lệ ngay trong lúc chuẩn bị.",
+          "phrases_ko": "150 − 40 = 110, 120 − 65 = 55 → chênh lệch giảm một nửa"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "Giới thiệu tài liệu cho biết gì",
+          "phrases_ko": "이 자료는 … 을/를 조사한 결과예요."
+        },
+        {
+          "when_vi": "10–40 giây",
+          "do_vi": "**Xu hướng + số liệu**: nhóm tăng, nhóm giảm",
+          "phrases_ko": "N에서 N(으)로 늘었어요/줄었어요 · 반면에 · 약 … 배"
+        },
+        {
+          "when_vi": "40–65 giây",
+          "do_vi": "**Lý do** dựa vào (나)",
+          "phrases_ko": "이렇게 달라진 것은 … 때문이에요"
+        },
+        {
+          "when_vi": "65–80 giây",
+          "do_vi": "**Dự báo/ý nghĩa** + chốt",
+          "phrases_ko": "앞으로도 … 것 같아요"
+        }
+      ],
+      "tips_vi": [
+        "Theo nguồn tham khảo, giám khảo xem bạn **phân tích và diễn giải** chứ không xem bạn có đọc được số hay không. Đọc nguyên từng ô sẽ mất điểm nội dung.",
+        "Mẹo: gom thành một \"câu chuyện\": *nam tăng – nữ giảm – chênh lệch thu hẹp – nhưng nữ vẫn nhiều hơn – lý do là đôi vợ chồng đều đi làm tăng*.",
+        "**Đọc số**: năm, phút, % dùng số Hán — 2016년 = 이천십육 년 · 40분 = 사십 분 · 65분 = 육십오 분 · 45% = 사십오 퍼센트 · 1.6배 = 일 점 육 배.",
+        "Kiểm tra số học: 150−40 = 110; 120−65 = 55; 55 là một nửa của 110; 120/65 ≈ 1,85 nên \"두 배 가까이\" là hợp lý."
+      ],
+      "patterns_vi": [
+        "N보다 (남성보다 …) · -게 되다 (변화: 나누어 하게 되었어요).",
+        "Biểu đạt số liệu (mở rộng): N에서 N(으)로 늘다/줄다 · 약 … 배 · 두 배 가까이 · 절반이 되다."
+      ],
+      "model_answer_ko": "이 자료는 남성과 여성이 하루에 집안일을 하는 시간을 2016년과 2026년으로 나누어 조사한 결과예요. 남성은 2016년에 하루 평균 40분이었는데 2026년에는 65분으로 늘었어요. 반대로 여성은 150분에서 120분으로 30분 줄었어요. 그래서 남성과 여성의 시간 차이는 110분에서 55분으로 절반이 되었어요. 하지만 아직도 여성이 남성보다 집안일을 두 배 가까이 더 많이 하고 있어요. 이렇게 달라진 것은 맞벌이 부부가 45%에서 58%로 늘어서 집안일을 나누어 하는 가정이 많아졌기 때문이라고 생각해요. 앞으로도 이런 변화가 계속되면 남성과 여성의 집안일 시간이 더 비슷해질 것 같아요.",
+      "syllables_vi": "≈ 256 âm tiết",
+      "common_errors_vi": [
+        "Đọc từng ô như đọc bảng (\"남성 2016년 40분, 남성 2026년 65분 …\"): thiếu so sánh và diễn giải.",
+        "Bỏ phần **lý do** hoặc **dự báo** dù đề hỏi (đề có ba vế: kết quả, lý do, tương lai).",
+        "Đọc sai số (dùng số thuần Hàn cho phút/năm), hoặc nhầm 늘다/줄다 (늘었어요 = tăng, 줄었어요 = giảm).",
+        "Nêu lý do ngoài dữ liệu như thể là sự thật; nên dùng \"…라고 생각해요\" / \"… 때문인 것 같아요\"."
+      ],
+      "practice": [
+        {
+          "id": "S5-B",
+          "label_vi": "Giải trí",
+          "prompt_vi": "Dùng lại bảng (가) của câu viết 53 (\"직장인의 주말 여가 활동\")",
+          "prompt_ko": "조사 결과를 설명하고 변화의 이유를 말하십시오.",
+          "data": [
+            {
+              "title_vi": "(가) 주말 여가 활동 (단위: %)",
+              "note_vi": "조사 대상: 직장인 500명",
+              "chart": {
+                "type": "bar",
+                "unit": "%",
+                "categories": [
+                  "집에서 쉬기",
+                  "운동",
+                  "영화·공연 관람",
+                  "친구 만나기"
+                ],
+                "series": [
+                  {
+                    "name": "2016년",
+                    "values": [
+                      38,
+                      20,
+                      25,
+                      17
+                    ]
+                  },
+                  {
+                    "name": "2026년",
+                    "values": [
+                      45,
+                      30,
+                      15,
+                      10
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "S5-C",
+          "label_vi": "Đi lại",
+          "prompt_ko": "조사 결과를 설명하고 앞으로의 변화를 예상해서 말하십시오.",
+          "data": [
+            {
+              "title_vi": "Tỉ lệ phương tiện đi làm 2016 vs 2026",
+              "chart": {
+                "type": "bar",
+                "unit": "%",
+                "categories": [
+                  "지하철",
+                  "버스",
+                  "자가용",
+                  "걷기·자전거"
+                ],
+                "series": [
+                  {
+                    "name": "2016년",
+                    "values": [
+                      35,
+                      30,
+                      25,
+                      10
+                    ]
+                  },
+                  {
+                    "name": "2026년",
+                    "values": [
+                      40,
+                      25,
+                      25,
+                      10
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S6",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Trình bày ý kiến",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "요즘 집에서 직접 요리해서 먹는 사람도 있고 밖에서 사 먹는 사람도 많습니다. 여러분은 어느 쪽이 더 좋다고 생각합니까? 이유를 들어 말하십시오.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "**Chọn một phe ngay.** Ghi 2 lý do + 1 ví dụ mỗi lý do + 1 phản biện",
+          "phrases_ko": "입장 / 이유 ① / 이유 ② / 반론"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** trong 1–2 câu đầu",
+          "phrases_ko": "저는 … 이/가 더 좋다고 생각해요."
+        },
+        {
+          "when_vi": "10–30 giây",
+          "do_vi": "Lý do 1 + ví dụ",
+          "phrases_ko": "첫째, … 예를 들어 …"
+        },
+        {
+          "when_vi": "30–50 giây",
+          "do_vi": "Lý do 2 + ví dụ",
+          "phrases_ko": "둘째, … 그래서 …"
+        },
+        {
+          "when_vi": "50–70 giây",
+          "do_vi": "**Nhượng bộ + phản bác**",
+          "phrases_ko": "물론 … 수 있어요. 하지만 …"
+        },
+        {
+          "when_vi": "70–80 giây",
+          "do_vi": "Kết luận lặp lại lập trường",
+          "phrases_ko": "그래서 저는 … 고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Theo nguồn tham khảo, giám khảo muốn nghe **lập trường rõ trong hai câu đầu**, lý do logic và cách tổ chức. Không chọn \"ý kiến ở giữa\" trong 80 giây.",
+        "Mỗi lý do ngắn và cụ thể (kèm con số, ví dụ đời thường), không lan man.",
+        "Vẫn là **해요체**; từ nối đánh dấu cấu trúc: 첫째/둘째, 예를 들어, 그래서, 물론, 하지만."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: -는 데 들다 (chi phí) · -아/어 놓다 (미리 만들어 놓다).",
+        "Dùng thêm được: N보다 (밖에서 사 먹는 것보다) · -지 않으면 안 되다 · -게 되다 · -기 전에."
+      ],
+      "model_answer_ko": "저는 집에서 요리해서 먹는 것이 더 좋다고 생각해요. 첫째, 집에서 먹으면 돈이 적게 들어요. 밖에서 한 끼를 사 먹는 데 만 원쯤 드는데, 집에서 만들면 반값으로도 먹을 수 있어요. 한 달 동안 계산해 보면 차이가 아주 커요. 둘째, 재료와 양을 제가 직접 정할 수 있어서 더 건강하게 먹을 수 있어요. 예를 들어 밖에서 파는 음식은 짜고 기름진 경우가 많은데, 집에서는 채소를 더 많이 넣어서 만들 수 있어요. 물론 퇴근이 늦거나 피곤한 날에는 요리하는 것이 힘들 수 있어요. 하지만 주말에 반찬을 미리 만들어 놓으면 평일에도 쉽게 먹을 수 있어요. 그래서 저는 가능하면 집에서 해 먹는 습관을 가지는 것이 좋다고 생각해요.",
+      "syllables_vi": "≈ 240 âm tiết",
+      "common_errors_vi": [
+        "Giải thích bối cảnh quá lâu rồi mới nêu lập trường (đến câu thứ ba mới thấy ý kiến).",
+        "Hai lý do mơ hồ, không có ví dụ; hoặc hai lý do thực ra chỉ là một.",
+        "Hết giờ giữa chừng vì không dành 10 giây cho phần kết.",
+        "Chen từ tiếng Anh/Việt khi quên từ, hoặc ngập ngừng kéo dài.",
+        "Nói \"저는 둘 다 좋아요\" (không chọn phe) khiến nội dung nhạt."
+      ],
+      "practice": [
+        {
+          "id": "S6-B",
+          "label_vi": "Đi lại",
+          "prompt_ko": "출퇴근할 때 대중교통과 자가용 중에서 어느 쪽이 더 좋다고 생각합니까?"
+        },
+        {
+          "id": "S6-C",
+          "label_vi": "Ăn uống, sức khỏe",
+          "prompt_ko": "아침 식사는 꼭 해야 한다고 생각합니까?"
+        },
+        {
+          "id": "S6-D",
+          "label_vi": "Việc nhà",
+          "prompt_ko": "집안일은 가족이 똑같이 나누어야 한다고 생각합니까?"
+        }
+      ]
+    },
+    {
+      "id": "VS6",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Tổng hợp chủ đề (S6): tập thể dục đều đặn",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "바쁜 일상 속에서 건강을 지키기 위해 규칙적으로 운동하는 것과 시간이 날 때 가끔 운동하는 것 중에서 어느 쪽이 더 좋다고 생각합니까? 이유를 들어 말하십시오.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "**Chọn một phe ngay.** Ghi 2 lý do + 1 ví dụ cá nhân + 1 phản biện",
+          "phrases_ko": "입장 / 이유 ① / 이유 ② / 반론"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** trong 1–2 câu đầu",
+          "phrases_ko": "저는 … 이/가 더 좋다고 생각해요."
+        },
+        {
+          "when_vi": "10–55 giây",
+          "do_vi": "Hai lý do, mỗi lý do kèm ví dụ; dùng -다 보면, -고 나면, -기로 했는데",
+          "phrases_ko": "첫째, … 하다 보면 … / 둘째, … 하고 나면 …"
+        },
+        {
+          "when_vi": "55–80 giây",
+          "do_vi": "**Nhượng bộ + phản bác**, rồi kết luận lặp lại lập trường",
+          "phrases_ko": "물론 … 수 있어요. 하지만 … 그래서 저는 …고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Nêu **lập trường rõ trong hai câu đầu**, không chọn \"ý kiến ở giữa\" trong 80 giây.",
+        "Mỗi lý do ngắn và cụ thể, kèm một ví dụ đời thường của chính bạn. Không đưa số liệu mình không chắc.",
+        "Vẫn là **해요체**; từ nối nói được: 첫째/둘째, 물론, 하지만, 그래서. Các từ nối văn viết như 그러나, 결론적으로 nghe cứng khi nói."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: -다 보면 (하다 보면 …) · -고 나면 (운동을 하고 나면 …) · -기로 하다 (걷기로 했는데) · -(으)면서 (들으면서 걷다) · -는데도 (피곤한데도) · -기 전에 (퇴근하기 전에) · -게 되다 (운동하러 가게 돼요).",
+        "Dùng thêm được: -아/어 놓다 (미리 계획을 세워 놓다) · -는 바람에 (바쁜 일이 생기는 바람에 …) · -(으)ㄹ까요?."
+      ],
+      "model_answer_ko": "저는 시간이 날 때 가끔 하는 것보다 규칙적으로 운동하는 것이 더 좋다고 생각해요. 첫째, 정해진 시간에 운동하면 몸에 익숙해져서 점점 쉬워져요. 처음에는 힘들어도 하다 보면 어느새 운동하지 않는 날이 이상하게 느껴져요. 둘째, 운동을 하고 나면 기분이 좋아지고 스트레스도 풀려요. 저도 지난달부터 친구와 아침마다 삼십 분씩 걷기로 했는데, 걷고 나면 하루를 활기차게 시작할 수 있어요. 퇴근하기 전에 운동 계획을 세워 두면 피곤한데도 운동하러 가게 돼요. 물론 일이 너무 바쁜 날에는 규칙을 지키기 어려울 수 있어요. 하지만 그런 날에도 음악을 들으면서 가볍게 걷기만 해도 괜찮아요. 그래서 저는 규칙적으로 운동하는 습관이 중요하다고 생각해요.",
+      "syllables_vi": "≈ 260 âm tiết",
+      "common_errors_vi": [
+        "Giải thích bối cảnh quá lâu rồi mới nêu lập trường (đến câu thứ ba mới thấy ý kiến).",
+        "Hai lý do mơ hồ, không có ví dụ; hoặc hai lý do thực ra chỉ là một.",
+        "Gắn -았/었- vào trước -고 나면 / -다 보면 (✗ 했고 나면, 했다 보면).",
+        "Hết giờ giữa chừng vì không dành 10 giây cho phần kết.",
+        "Nói \"저는 둘 다 좋아요\" (không chọn phe) khiến nội dung nhạt."
+      ],
+      "pronunciation_vi": [
+        "규칙적으로 [규칙쩌그로]",
+        "습관 [습꽌]",
+        "걷고 나면 [걷꼬 나면]",
+        "좋아지고 [조아지고]",
+        "않는 [안는]",
+        "걷기만 [걷끼만]"
+      ],
+      "practice": []
+    },
+    {
+      "id": "U07S1",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S1",
+      "title_vi": "Nói · Buổi sáng ngày thường và cuối tuần",
+      "max_points": 9,
+      "prep_sec": 20,
+      "answer_sec": 30,
+      "instruction_ko": "※ [1] 질문을 잘 듣고 대답하십시오.",
+      "prompt_ko": "평일 아침과 주말 아침에 보통 무엇을 합니까? 어떻게 다릅니까?",
+      "plan": [
+        {
+          "when_vi": "0–12 giây",
+          "do_vi": "Ngày thường: dậy lúc mấy giờ, làm gì",
+          "phrases_ko": "평일에는 보통 … 시에 일어나요. … -고 …"
+        },
+        {
+          "when_vi": "12–22 giây",
+          "do_vi": "Cuối tuần khác thế nào",
+          "phrases_ko": "하지만 주말에는 …"
+        },
+        {
+          "when_vi": "22–30 giây",
+          "do_vi": "Câu chốt so sánh",
+          "phrases_ko": "평일 아침은 바쁘지만 주말 아침은 … 그래서 …"
+        }
+      ],
+      "tips_vi": [
+        "Trả lời **cả hai vế**: ngày thường và cuối tuần, rồi so sánh.",
+        "Câu ngắn, mỗi câu một việc; nối bằng `-고`, đối chiếu bằng `하지만` / `-지만`."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: N에 · -고 · -지만 · 하지만 · 그래서."
+      ],
+      "model_answer_ko": "저는 평일에는 보통 여섯 시 반에 일어나요. 샤워를 하고 아침을 간단히 먹고 일곱 시 반쯤 집에서 나가요. 하지만 주말에는 알람을 맞추지 않고 늦잠을 자요. 평일 아침은 바쁘지만 주말 아침은 바쁘지 않아요. 그래서 저는 주말 아침이 좋아요.",
+      "syllables_vi": "≈ 90 âm tiết",
+      "common_errors_vi": [
+        "✗ `늦잠을 해요` → ✓ `늦잠을 자요`.",
+        "✗ `알람을 놓지 않아요` (dịch «đặt») → ✓ `알람을 맞추지 않아요`.",
+        "Kể thói quen mà chia quá khứ (✗ `여섯 시에 일어났어요`): thói quen dùng hiện tại."
+      ],
+      "pronunciation_vi": [
+        "일어나요 [이러나요]",
+        "먹고 [먹꼬]",
+        "맞추지 않고 [맏추지 안코]",
+        "늦잠을 [늗짜믈]",
+        "좋아요 [조아요]"
+      ],
+      "uses": [
+        {
+          "form": "평일에는",
+          "card": "평일"
+        },
+        {
+          "form": "보통",
+          "card": "보통"
+        },
+        {
+          "form": "일어나요",
+          "card": "일어나다"
+        },
+        {
+          "form": "샤워를 하고",
+          "card": "샤워"
+        },
+        {
+          "form": "간단히",
+          "card": "간단히"
+        },
+        {
+          "form": "반쯤",
+          "card": "쯤"
+        },
+        {
+          "form": "집에서 나가요",
+          "card": "집에서 나가다"
+        },
+        {
+          "form": "하지만",
+          "card": "하지만"
+        },
+        {
+          "form": "알람을 맞추지 않고",
+          "card": "알람을 맞추다"
+        },
+        {
+          "form": "늦잠",
+          "card": "늦잠"
+        },
+        {
+          "form": "주말",
+          "card": "주말"
+        },
+        {
+          "form": "바쁘지만",
+          "card": "V/A + -지만"
+        },
+        {
+          "form": "그래서",
+          "card": "그래서"
+        }
+      ]
+    },
+    {
+      "id": "U08S1",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S1",
+      "title_vi": "Nói · Ai làm việc nhà ở nhà bạn?",
+      "max_points": 9,
+      "prep_sec": 20,
+      "answer_sec": 30,
+      "instruction_ko": "※ [1] 질문을 잘 듣고 대답하십시오.",
+      "prompt_ko": "여러분 집에서는 누가 무슨 집안일을 합니까? 여러분은 무슨 집안일을 좋아하고 무슨 집안일을 싫어합니까?",
+      "plan": [
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "Ai làm việc gì trong nhà",
+          "phrases_ko": "우리 집에서는 N이/가 …을/를 하고 …"
+        },
+        {
+          "when_vi": "10–22 giây",
+          "do_vi": "Bạn làm gì, thích việc nào và vì sao",
+          "phrases_ko": "저는 …을/를 해요. 저는 …을/를 좋아해요."
+        },
+        {
+          "when_vi": "22–30 giây",
+          "do_vi": "Việc bạn ghét và bạn làm thế nào cho đỡ",
+          "phrases_ko": "하지만 …은/는 너무 귀찮아요. 그래서 …"
+        }
+      ],
+      "tips_vi": [
+        "Trả lời **cả hai vế**: ai làm gì, và việc bạn thích, việc bạn ghét.",
+        "Mỗi câu một người hoặc một việc; câu ngắn là đủ."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: N이/가 … -고 · 좋아해요 / 싫어해요 · 너무 귀찮아요 · -(으)ㄹ 때."
+      ],
+      "model_answer_ko": "우리 집에서는 엄마가 요리를 하고 아빠가 설거지를 해요. 저는 청소하고 분리수거를 해요. 저는 청소를 좋아해요. 깨끗한 방이 좋아요. 하지만 분리수거는 너무 귀찮아요. 그래서 분리수거를 할 때는 음악을 들어요.",
+      "syllables_vi": "≈ 75 âm tiết",
+      "common_errors_vi": [
+        "✗ `엄마는 요리를 해 주어요` (dịch «nấu cho») — ở mức bài này chỉ cần `엄마가 요리를 해요`.",
+        "✗ `분리수거가 싫어해요` → ✓ `분리수거를 싫어해요` / `분리수거는 귀찮아요`.",
+        "Quên `하고` (và) giữa hai danh từ: `청소하고 분리수거를 해요`."
+      ],
+      "pronunciation_vi": [
+        "설거지 [설거지]",
+        "분리수거 [불리수거]",
+        "깨끗한 [깨끄탄]",
+        "좋아해요 [조아해요]",
+        "귀찮아요 [귀차나요]"
+      ],
+      "uses": [
+        {
+          "form": "우리 집",
+          "card": "우리 집"
+        },
+        {
+          "form": "엄마",
+          "card": "엄마"
+        },
+        {
+          "form": "요리를 하고",
+          "card": "요리하다"
+        },
+        {
+          "form": "하고 아빠가",
+          "card": "V + -고"
+        },
+        {
+          "form": "아빠",
+          "card": "아빠"
+        },
+        {
+          "form": "설거지",
+          "card": "설거지"
+        },
+        {
+          "form": "청소하고",
+          "card": "청소"
+        },
+        {
+          "form": "분리수거",
+          "card": "분리수거"
+        },
+        {
+          "form": "좋아해요",
+          "card": "좋아하다"
+        },
+        {
+          "form": "깨끗한 방",
+          "card": "깨끗하다"
+        },
+        {
+          "form": "하지만",
+          "card": "하지만"
+        },
+        {
+          "form": "너무",
+          "card": "너무"
+        },
+        {
+          "form": "귀찮아요",
+          "card": "귀찮다"
+        },
+        {
+          "form": "그래서",
+          "card": "그래서"
+        },
+        {
+          "form": "할 때는",
+          "card": "V/A + -(으)ㄹ 때"
+        },
+        {
+          "form": "음악을 들어요",
+          "card": "음악"
+        }
+      ]
+    },
+    {
+      "id": "U09S1",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S1",
+      "title_vi": "Nói · Món Hàn bạn thích nhất",
+      "max_points": 9,
+      "prep_sec": 20,
+      "answer_sec": 30,
+      "instruction_ko": "※ [1] 질문을 잘 듣고 대답하십시오.",
+      "prompt_ko": "여러분이 제일 좋아하는 한국 음식은 무엇입니까? 그 음식은 맛이 어떻습니까? 왜 좋아합니까?",
+      "plan": [
+        {
+          "when_vi": "0–5 giây",
+          "do_vi": "Trả lời thẳng: món gì",
+          "phrases_ko": "제가 제일 좋아하는 한국 음식은 N이에요/예요."
+        },
+        {
+          "when_vi": "5–20 giây",
+          "do_vi": "Vị và cách ăn",
+          "phrases_ko": "… -고 … · N하고 같이 먹어요."
+        },
+        {
+          "when_vi": "20–30 giây",
+          "do_vi": "Vì sao thích, điều muốn làm",
+          "phrases_ko": "… 도 좋아해요. … -아/어 보고 싶어요."
+        }
+      ],
+      "tips_vi": [
+        "Trả lời **cả ba ý**: món gì, vị thế nào, vì sao thích.",
+        "Một hai từ tả vị cụ thể hay hơn chỉ nói `맛있어요`."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: 제일 · -는 N · -고 · -지 못하는 N · -아/어 보고 싶다."
+      ],
+      "model_answer_ko": "제가 제일 좋아하는 한국 음식은 불고기예요. 불고기는 달고 짭짤해요. 그리고 고기가 부드러워요. 저는 불고기를 밥하고 같이 먹어요. 매운 음식을 먹지 못하는 친구도 불고기는 좋아해요. 주말에 집에서 불고기를 만들어 보고 싶어요.",
+      "syllables_vi": "≈ 85 âm tiết",
+      "common_errors_vi": [
+        "✗ `불고기이에요` → ✓ `불고기예요`.",
+        "✗ `달아요 그리고 짭짤해요` (nối trong câu bằng `그리고`) → ✓ `달고 짭짤해요`.",
+        "Quên dạng định ngữ: ✗ `매운 음식을 먹지 못해 친구` → ✓ `먹지 못하는 친구`."
+      ],
+      "pronunciation_vi": [
+        "좋아하는 [조아하는]",
+        "짭짤해요 [짭짤해요]",
+        "먹지 못하는 [먹찌 모타는]",
+        "만들어 [만드러]",
+        "같이 [가치]"
+      ],
+      "uses": [
+        {
+          "form": "제일",
+          "card": "제일"
+        },
+        {
+          "form": "좋아하는 한국 음식",
+          "card": "V + -는 + N · A + -(으)ㄴ + N (hiện tại)"
+        },
+        {
+          "form": "불고기",
+          "card": "불고기"
+        },
+        {
+          "form": "달고",
+          "card": "달다"
+        },
+        {
+          "form": "짭짤해요",
+          "card": "짭짤하다"
+        },
+        {
+          "form": "그리고",
+          "card": "그리고"
+        },
+        {
+          "form": "고기가",
+          "card": "고기"
+        },
+        {
+          "form": "부드러워요",
+          "card": "부드럽다"
+        },
+        {
+          "form": "밥하고 같이",
+          "card": "밥"
+        },
+        {
+          "form": "매운 음식",
+          "card": "맵다"
+        },
+        {
+          "form": "먹지 못하는",
+          "card": "V/A + -지 않다 · V + -지 못하다"
+        },
+        {
+          "form": "친구",
+          "card": "친구"
+        },
+        {
+          "form": "만들어 보고 싶어요",
+          "card": "V + -아/어 보다"
+        },
+        {
+          "form": "보고 싶어요",
+          "card": "V + -고 싶다"
+        }
+      ]
+    },
+    {
+      "id": "U10S1",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S1",
+      "title_vi": "Nói · Món đồ bạn mới mua",
+      "max_points": 9,
+      "prep_sec": 20,
+      "answer_sec": 30,
+      "instruction_ko": "※ [1] 질문을 잘 듣고 대답하십시오.",
+      "prompt_ko": "여러분이 요즘 산 물건 하나에 대해 이야기하십시오. 어디에서 얼마에 샀습니까? 왜 그 물건을 샀습니까?",
+      "plan": [
+        {
+          "when_vi": "0–8 giây",
+          "do_vi": "Mua gì, ở đâu, khi nào",
+          "phrases_ko": "저는 지난주에 …에서 …을/를 샀어요."
+        },
+        {
+          "when_vi": "8–20 giây",
+          "do_vi": "Giá và lý do mua",
+          "phrases_ko": "… 원이었어요. N보다 … -아/어서 샀어요."
+        },
+        {
+          "when_vi": "20–30 giây",
+          "do_vi": "Bạn dùng nó thế nào, cảm nghĩ",
+          "phrases_ko": "… 마음에 들어요. 저는 이 …을/를 …"
+        }
+      ],
+      "tips_vi": [
+        "Trả lời **cả ba ý**: ở đâu, giá bao nhiêu, vì sao mua.",
+        "Nói giá bằng số Hán Hàn và nhớ `원`: `이만 원`."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: -아/어서 · N보다 · 마음에 들다 · 가지고 가다 · -아/어 보고 싶다."
+      ],
+      "model_answer_ko": "저는 지난주에 시장에서 가방을 하나 샀어요. 가방은 이만 원이었어요. 백화점보다 많이 싸서 샀어요. 색깔이 예쁘고 커서 마음에 들어요. 저는 이 가방을 매일 학교에 가지고 가요. 주말에 시장에서 신발도 사 보고 싶어요.",
+      "syllables_vi": "≈ 85 âm tiết",
+      "common_errors_vi": [
+        "✗ `이 가방을 마음에 들어요` → ✓ `이 가방이 마음에 들어요`.",
+        "✗ `싸서요 샀어요`: `-아/어서` nối thẳng vào câu sau, không thêm `요`.",
+        "Đọc giá bằng số thuần Hàn (✗ `두만 원`) → ✓ `이만 원`."
+      ],
+      "pronunciation_vi": [
+        "샀어요 [사써요]",
+        "이만 원 [이마 눤]",
+        "많이 [마니]",
+        "마음에 들어요 [마으메 드러요]",
+        "가지고 [가지고]"
+      ],
+      "uses": [
+        {
+          "form": "지난주에",
+          "card": "지난주"
+        },
+        {
+          "form": "시장",
+          "card": "시장"
+        },
+        {
+          "form": "가방",
+          "card": "가방"
+        },
+        {
+          "form": "이만 원",
+          "card": "원"
+        },
+        {
+          "form": "백화점보다",
+          "card": "N + 보다"
+        },
+        {
+          "form": "싸서",
+          "card": "싸다"
+        },
+        {
+          "form": "싸서",
+          "card": "V/A + -아/어서"
+        },
+        {
+          "form": "색깔이",
+          "card": "색깔"
+        },
+        {
+          "form": "커서",
+          "card": "크다"
+        },
+        {
+          "form": "마음에 들어요",
+          "card": "마음에 들다"
+        },
+        {
+          "form": "매일",
+          "card": "매일"
+        },
+        {
+          "form": "가지고 가요",
+          "card": "N을/를 가지고 가다"
+        },
+        {
+          "form": "신발",
+          "card": "신발"
+        },
+        {
+          "form": "사 보고 싶어요",
+          "card": "V + -아/어 보다"
+        },
+        {
+          "form": "주말에",
+          "card": "주말"
+        }
+      ]
+    },
+    {
+      "id": "U11S1",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S1",
+      "title_vi": "Nói · Bạn đi học, đi làm bằng gì?",
+      "max_points": 9,
+      "prep_sec": 20,
+      "answer_sec": 30,
+      "instruction_ko": "※ [1] 질문을 잘 듣고 대답하십시오.",
+      "prompt_ko": "여러분은 학교나 회사에 어떻게 갑니까? 시간은 얼마나 걸립니까?",
+      "plan": [
+        {
+          "when_vi": "0–8 giây",
+          "do_vi": "Đi bằng gì",
+          "phrases_ko": "저는 학교에 N(으)로 가요."
+        },
+        {
+          "when_vi": "8–22 giây",
+          "do_vi": "Từng chặng và thời gian",
+          "phrases_ko": "집에서 …까지 걸어서 … 분이에요. … -는 데 … 분쯤 걸려요."
+        },
+        {
+          "when_vi": "22–30 giây",
+          "do_vi": "Một lời dặn hoặc thói quen",
+          "phrases_ko": "… -(으)니까 … -아/어야 해요."
+        }
+      ],
+      "tips_vi": [
+        "Trả lời **cả hai vế**: đi bằng gì và mất bao lâu.",
+        "Nói số xe, số phút bằng số Hán Hàn: `칠 번 버스`, `이십 분`."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: N(으)로 · 에서 … 까지 · -는 데 걸리다 · 마다 · -(으)니까 · -아/어야 하다."
+      ],
+      "model_answer_ko": "저는 학교에 버스로 가요. 집에서 정류장까지 걸어서 삼 분이에요. 거기에서 7번 버스를 타요. 학교까지 가는 데 이십 분쯤 걸려요. 버스는 십 분마다 와요. 아침에는 길이 막히니까 조금 일찍 나가야 해요.",
+      "syllables_vi": "≈ 75 âm tiết",
+      "common_errors_vi": [
+        "✗ `버스를 가요` → ✓ `버스로 가요` / `버스를 타요`.",
+        "✗ `일곱 번 버스` → ✓ `칠 번 버스` (số hiệu xe đọc số Hán Hàn).",
+        "✗ `길이 막혀서 일찍 나가야 해요` cũng hiểu được, nhưng với lời khuyên, dặn dò thì `-(으)니까` tự nhiên hơn."
+      ],
+      "pronunciation_vi": [
+        "정류장 [정뉴장]",
+        "걸어서 [거러서]",
+        "7번 [칠 번]",
+        "막히니까 [마키니까]",
+        "일찍 [일찍]"
+      ],
+      "uses": [
+        {
+          "form": "버스로",
+          "card": "N + (으)로"
+        },
+        {
+          "form": "집에서 정류장까지",
+          "card": "N1에서 N2까지 (nơi chốn)"
+        },
+        {
+          "form": "정류장",
+          "card": "정류장"
+        },
+        {
+          "form": "걸어서",
+          "card": "걸어서"
+        },
+        {
+          "form": "거기에서",
+          "card": "여기 / 거기 / 저기"
+        },
+        {
+          "form": "7번 버스",
+          "card": "N번 버스"
+        },
+        {
+          "form": "타요",
+          "card": "타다"
+        },
+        {
+          "form": "가는 데 이십 분쯤 걸려요",
+          "card": "V + -는 데 걸리다/들다"
+        },
+        {
+          "form": "십 분마다",
+          "card": "N + 마다"
+        },
+        {
+          "form": "길이 막히니까",
+          "card": "길이 막히다"
+        },
+        {
+          "form": "막히니까",
+          "card": "V/A + -(으)니까"
+        },
+        {
+          "form": "조금",
+          "card": "조금"
+        },
+        {
+          "form": "일찍",
+          "card": "일찍"
+        },
+        {
+          "form": "나가야 해요",
+          "card": "V + -아/어야 하다/되다"
+        }
+      ]
+    },
+    {
+      "id": "U12S1",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S1",
+      "title_vi": "Nói · Việc học hoặc công việc của tôi",
+      "max_points": 9,
+      "prep_sec": 20,
+      "answer_sec": 30,
+      "instruction_ko": "※ [1] 질문을 잘 듣고 대답하십시오.",
+      "prompt_ko": "지금 무엇을 공부하거나 무슨 일을 합니까? 앞으로 무엇을 하려고 합니까?",
+      "plan": [
+        {
+          "when_vi": "0–8 giây",
+          "do_vi": "Bạn học gì hoặc làm gì",
+          "phrases_ko": "저는 N에서 N을/를 전공하고 있어요. / N에서 일하고 있어요."
+        },
+        {
+          "when_vi": "8–20 giây",
+          "do_vi": "Một việc sau giờ học/làm và cảm nghĩ của bạn",
+          "phrases_ko": "저녁에는 … · N은/는 피곤해도 … -아/어서 좋아요."
+        },
+        {
+          "when_vi": "20–30 giây",
+          "do_vi": "Vế 2: kế hoạch",
+          "phrases_ko": "졸업하기 전에 …-(으)려고 해요. 졸업하면 …-고 싶어요."
+        }
+      ],
+      "tips_vi": [
+        "Trả lời **cả hai vế**: bây giờ (học/làm gì) và sắp tới (định làm gì).",
+        "Nói về chính bạn; nếu đã đi làm, thay `전공하고 있어요` bằng `N에서 일하고 있어요`."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: -고 있다 · -아/어도 · -아/어서 · -기 전에 · -(으)려고 하다 · -고 싶다."
+      ],
+      "model_answer_ko": "저는 대학교에서 한국어를 전공하고 있어요. 저녁에는 한국 식당에서 아르바이트를 해요. 일은 피곤해도 한국어를 연습할 수 있어서 좋아요. 졸업하기 전에 토픽 5급을 받으려고 해요. 졸업하면 한국 회사에 취직하고 싶어요.",
+      "syllables_vi": "≈ 95 âm tiết",
+      "common_errors_vi": [
+        "✗ `졸업했기 전에` → ✓ `졸업하기 전에`.",
+        "✗ `한국 회사에서 취직하고 싶어요` → ✓ `한국 회사에 취직하고 싶어요` (`취직하다` đi với `에`).",
+        "Nói `-(으)려고 해요` thiếu `해요`: ✗ `받으려고.`"
+      ],
+      "pronunciation_vi": [
+        "졸업하기 [조러파기]",
+        "받으려고 [바드려고]",
+        "연습할 수 [연스팔 쑤]",
+        "싶어요 [시퍼요]",
+        "5급을 [오그블]"
+      ],
+      "uses": [
+        {
+          "form": "한국어를 전공하고",
+          "card": "전공하다"
+        },
+        {
+          "form": "대학교",
+          "card": "대학교"
+        },
+        {
+          "form": "아르바이트",
+          "card": "아르바이트"
+        },
+        {
+          "form": "피곤해도",
+          "card": "V/A + -아/어도"
+        },
+        {
+          "form": "연습할 수 있어서",
+          "card": "연습하다"
+        },
+        {
+          "form": "졸업하기 전에",
+          "card": "V + -기 전에"
+        },
+        {
+          "form": "토픽 5급",
+          "card": "토픽"
+        },
+        {
+          "form": "받으려고 해요",
+          "card": "V + -(으)려고 하다"
+        },
+        {
+          "form": "취직하고 싶어요",
+          "card": "취직하다"
+        }
+      ]
+    },
+    {
+      "id": "U13S1",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S1",
+      "title_vi": "Nói · Sở thích và cuối tuần trước",
+      "max_points": 9,
+      "prep_sec": 20,
+      "answer_sec": 30,
+      "instruction_ko": "※ [1] 질문을 잘 듣고 대답하십시오.",
+      "prompt_ko": "여러분의 취미는 무엇입니까? 지난 주말에는 무엇을 했습니까?",
+      "plan": [
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "Sở thích, khi nào làm, vì sao thích",
+          "phrases_ko": "제 취미는 …이에요. 시간이 날 때 … -(으)면 스트레스가 풀려요."
+        },
+        {
+          "when_vi": "10–22 giây",
+          "do_vi": "Vế 2: cuối tuần trước làm gì, thấy thế nào",
+          "phrases_ko": "지난 주말에는 … -(으)러 갔는데 생각보다 …"
+        },
+        {
+          "when_vi": "22–30 giây",
+          "do_vi": "Câu chốt: hẹn cuối tuần sau",
+          "phrases_ko": "다음 주말에는 … -기로 했어요."
+        }
+      ],
+      "tips_vi": [
+        "Trả lời **cả hai vế**: sở thích (hiện tại) và cuối tuần trước (quá khứ).",
+        "Một chi tiết thật (môn gì, ở đâu, với ai) đáng giá hơn nhiều câu chung chung."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: -(으)러 가다 · -는데 · 생각보다 · -기로 하다 · 치다/하다/타다."
+      ],
+      "model_answer_ko": "제 취미는 운동이에요. 시간이 날 때 공원에서 농구를 해요. 운동을 하면 스트레스가 풀려요. 지난 주말에는 친구들과 같이 영화를 보러 갔는데 영화가 생각보다 재미있었어요. 다음 주말에는 같이 탁구를 치러 가기로 했어요.",
+      "syllables_vi": "≈ 90 âm tiết",
+      "common_errors_vi": [
+        "✗ `탁구를 하러 가기로 했어요` → ✓ `탁구를 치러` (탁구 đi với `치다`).",
+        "Nói cuối tuần trước bằng thì hiện tại: ✗ `지난 주말에 영화를 보러 가요`.",
+        "✗ `제 취미는 농구를 해요` → ✓ `제 취미는 농구예요` / `농구를 하는 거예요`."
+      ],
+      "pronunciation_vi": [
+        "취미는 [취미는]",
+        "갔는데 [간는데]",
+        "재미있었어요 [재미이써써요]",
+        "했어요 [해써요]",
+        "풀려요 [풀려요]"
+      ],
+      "uses": [
+        {
+          "form": "취미",
+          "card": "취미"
+        },
+        {
+          "form": "시간이 날 때",
+          "card": "시간이 나다"
+        },
+        {
+          "form": "농구",
+          "card": "농구"
+        },
+        {
+          "form": "스트레스가 풀려요",
+          "card": "스트레스가 풀리다"
+        },
+        {
+          "form": "지난 주말",
+          "card": "지난 주말 · 이번 주말 · 다음 주말"
+        },
+        {
+          "form": "보러 갔는데",
+          "card": "V + -(으)러 가다/오다"
+        },
+        {
+          "form": "갔는데",
+          "card": "V/A + -는데/은데/ㄴ데"
+        },
+        {
+          "form": "생각보다",
+          "card": "생각보다"
+        },
+        {
+          "form": "탁구를 치러",
+          "card": "(탁구를) 치다"
+        },
+        {
+          "form": "가기로 했어요",
+          "card": "V + -기로 하다"
+        }
+      ]
+    },
+    {
+      "id": "U14S1",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S1",
+      "title_vi": "Nói · Một lần đi khám bệnh",
+      "max_points": 9,
+      "prep_sec": 20,
+      "answer_sec": 30,
+      "instruction_ko": "※ [1] 질문을 잘 듣고 대답하십시오.",
+      "prompt_ko": "아파서 병원에 간 적이 있어요? 어디가 아팠고 의사가 뭐라고 했어요?",
+      "plan": [
+        {
+          "when_vi": "0–8 giây",
+          "do_vi": "Khi nào, đau ở đâu, đi đâu",
+          "phrases_ko": "저는 지난주에 … 아프고 열이 나서 병원에 갔어요."
+        },
+        {
+          "when_vi": "8–24 giây",
+          "do_vi": "Vế 2: bác sĩ nói gì, dặn gì",
+          "phrases_ko": "의사가 N(이)라고 했어요. … -(으)라고 했어요. -지 말라고도 했어요."
+        },
+        {
+          "when_vi": "24–30 giây",
+          "do_vi": "Bây giờ thế nào",
+          "phrases_ko": "지금은 다 나았어요."
+        }
+      ],
+      "tips_vi": [
+        "Trả lời **cả hai vế**: đau ở đâu và bác sĩ nói gì.",
+        "Lời bác sĩ: tên bệnh `N(이)라고 했어요`, lời dặn `-(으)라고 했어요`."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: -아/어서 · N(이)라고 하다 · -(으)라고 하다 · -지 말라고 · 낫다 → 나았어요."
+      ],
+      "model_answer_ko": "저는 지난주에 머리가 아프고 열이 나서 병원에 갔어요. 의사가 감기라고 했어요. 하루에 세 번 약을 먹고 물을 많이 마시라고 했어요. 밤늦게까지 공부하지 말라고도 했어요. 지금은 다 나았어요.",
+      "syllables_vi": "≈ 90 âm tiết",
+      "common_errors_vi": [
+        "✗ `의사가 감기예요라고 했어요` → ✓ `의사가 감기라고 했어요`.",
+        "✗ `낫았어요` → ✓ `나았어요`.",
+        "✗ `공부하지 마라고 했어요` → ✓ `공부하지 말라고 했어요`."
+      ],
+      "pronunciation_vi": [
+        "열이 [여리]",
+        "갔어요 [가써요]",
+        "감기라고 [감기라고]",
+        "밤늦게까지 [밤늗께까지]",
+        "나았어요 [나아써요]"
+      ],
+      "uses": [
+        {
+          "form": "지난주",
+          "card": "지난주"
+        },
+        {
+          "form": "머리가 아프고",
+          "card": "머리가 아프다"
+        },
+        {
+          "form": "열이 나서",
+          "card": "열이 나다"
+        },
+        {
+          "form": "나서",
+          "card": "V/A + -아/어서"
+        },
+        {
+          "form": "병원",
+          "card": "병원"
+        },
+        {
+          "form": "의사",
+          "card": "의사"
+        },
+        {
+          "form": "감기라고 했어요",
+          "card": "N + (이)라고 하다"
+        },
+        {
+          "form": "하루에 세 번",
+          "card": "하루에 세 번"
+        },
+        {
+          "form": "마시라고 했어요",
+          "card": "V + -(으)라고 하다/말하다"
+        },
+        {
+          "form": "공부하지 말라고도",
+          "card": "V + -지 마세요"
+        },
+        {
+          "form": "나았어요",
+          "card": "낫다"
+        }
+      ]
+    },
+    {
+      "id": "U15S1",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S1",
+      "title_vi": "Nói · Một ngày đáng nhớ",
+      "max_points": 9,
+      "prep_sec": 20,
+      "answer_sec": 30,
+      "instruction_ko": "※ [1] 질문을 잘 듣고 대답하십시오.",
+      "prompt_ko": "최근에 기억에 남는 날이 있어요? 그날 무슨 일이 있었어요?",
+      "plan": [
+        {
+          "when_vi": "0–6 giây",
+          "do_vi": "Ngày nào đáng nhớ",
+          "phrases_ko": "저는 … -(으)ㄴ 날이 기억에 남아요."
+        },
+        {
+          "when_vi": "6–24 giây",
+          "do_vi": "Vế 2: chuyện gì đã xảy ra, theo thứ tự",
+          "phrases_ko": "아침부터 … · -지만 … · -고 나서 …"
+        },
+        {
+          "when_vi": "24–30 giây",
+          "do_vi": "Câu chốt",
+          "phrases_ko": "힘들었지만 보람찬 하루였어요."
+        }
+      ],
+      "tips_vi": [
+        "Khi **nói**, dùng 해요체 (`-았/었어요`), không dùng thể nhật ký `-다`.",
+        "Chọn một ngày thật và một chi tiết bất ngờ (`생각보다 …`)."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: 기억에 남다 · -지만 · -아/어서 · -고 나서 · -(으)러 가다."
+      ],
+      "model_answer_ko": "저는 지난달에 토픽 시험을 본 날이 기억에 남아요. 아침부터 많이 긴장했어요. 듣기는 생각보다 쉬웠지만 쓰기는 시간이 부족해서 다 못 썼어요. 시험이 끝나고 나서 친구들과 불고기를 먹으러 갔어요. 힘들었지만 보람찬 하루였어요.",
+      "syllables_vi": "≈ 95 âm tiết",
+      "common_errors_vi": [
+        "Nói bằng thể nhật ký: ✗ `긴장했다` → ✓ `긴장했어요` (nói với người khác).",
+        "✗ `기억해요 날` → ✓ `… 날이 기억에 남아요`.",
+        "✗ `끝났고 나서` → ✓ `끝나고 나서`."
+      ],
+      "pronunciation_vi": [
+        "기억에 남아요 [기어게 나마요]",
+        "긴장했어요 [긴장해써요]",
+        "쉬웠지만 [쉬웓찌만]",
+        "못 썼어요 [몯 써써요]",
+        "보람찬 [보람찬]"
+      ],
+      "uses": [
+        {
+          "form": "토픽 시험을 본",
+          "card": "시험을 보다"
+        },
+        {
+          "form": "본 날",
+          "card": "V + -(으)ㄴ + N (quá khứ)"
+        },
+        {
+          "form": "기억에 남아요",
+          "card": "기억에 남다"
+        },
+        {
+          "form": "긴장했어요",
+          "card": "긴장하다"
+        },
+        {
+          "form": "듣기",
+          "card": "듣기 · 말하기 · 읽기 · 쓰기"
+        },
+        {
+          "form": "생각보다",
+          "card": "생각보다"
+        },
+        {
+          "form": "쉬웠지만",
+          "card": "V/A + -지만"
+        },
+        {
+          "form": "시간이 부족해서",
+          "card": "시간이 부족하다"
+        },
+        {
+          "form": "끝나고 나서",
+          "card": "V + -고 나서 · V + -(으)ㄴ 후에"
+        },
+        {
+          "form": "먹으러 갔어요",
+          "card": "V + -(으)러 가다/오다"
+        },
+        {
+          "form": "보람찬 하루",
+          "card": "보람차다"
+        }
+      ]
+    }
+  ]
+}

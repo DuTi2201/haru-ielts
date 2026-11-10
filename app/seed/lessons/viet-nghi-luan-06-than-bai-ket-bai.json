@@ -1,0 +1,568 @@
+{
+  "slug": "viet-nghi-luan-06-than-bai-ket-bai",
+  "title": "Viết 54 · Bài 6: Thân bài và kết bài theo loại câu hỏi",
+  "title_ko": "쓰기 54번 ⑥: 본론과 결론",
+  "topic": "Bổ trợ · Viết câu 54 từ con số 0",
+  "track": "intermediate",
+  "level": 4,
+  "sort_order": 59,
+  "summary": "Bài thứ sáu của khoá «Viết câu 54 từ con số 0»: viết từng đoạn thân bài theo loại câu hỏi (ưu điểm, vấn đề, nguyên nhân, ảnh hưởng, giải pháp, tán thành/phản đối, hình thái đúng đắn) và đoạn kết 3 câu: Tóm tắt – Kiến nghị – Kỳ vọng. Học `-다는 점이다`, `에 영향을 미치다`, `-아/어야 한다 · -(으)ㄹ 필요가 있다`, `-(으)ㄹ 것으로 기대된다`.",
+  "vocab": [
+    {
+      "hangul": "효율적",
+      "pos": "N",
+      "meaning_vi": "Hiệu quả (tiết kiệm công sức)",
+      "note_vi": "`효율적` nói về tiết kiệm công sức, thời gian; `효과적` nói về đạt kết quả.",
+      "example_ko": "효율적인 방법을 찾아야 한다.",
+      "example_vi": "Phải tìm phương pháp hiệu quả.",
+      "family": "🟢 Nền · Ưu điểm, vấn đề, nguyên nhân, ảnh hưởng",
+      "priority": "core",
+      "hanja": "效率的",
+      "sino_vietnamese": "hiệu suất đích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "효과적",
+      "pos": "N",
+      "meaning_vi": "Có hiệu quả",
+      "example_ko": "효과적인 해결책이 필요하다.",
+      "example_vi": "Cần một giải pháp hiệu quả.",
+      "family": "🟢 Nền · Ưu điểm, vấn đề, nguyên nhân, ảnh hưởng",
+      "priority": "core",
+      "hanja": "效果的",
+      "sino_vietnamese": "hiệu quả đích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "편리함",
+      "pos": "N",
+      "meaning_vi": "Sự tiện lợi",
+      "example_ko": "편리함의 이면에는 문제도 있다.",
+      "example_vi": "Phía sau sự tiện lợi cũng có vấn đề.",
+      "family": "🟢 Nền · Ưu điểm, vấn đề, nguyên nhân, ảnh hưởng",
+      "priority": "core"
+    },
+    {
+      "hangul": "부작용",
+      "pos": "N",
+      "meaning_vi": "Tác dụng phụ",
+      "example_ko": "새로운 제도에는 부작용이 생길 수 있다.",
+      "example_vi": "Chế độ mới có thể phát sinh tác dụng phụ.",
+      "family": "🟢 Nền · Ưu điểm, vấn đề, nguyên nhân, ảnh hưởng",
+      "priority": "core",
+      "hanja": "副作用",
+      "sino_vietnamese": "phó tác dụng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "한계",
+      "pos": "N",
+      "meaning_vi": "Hạn chế, giới hạn",
+      "note_vi": "`한계가 있다`, `한계를 느끼다`.",
+      "example_ko": "이 방법에는 한계가 있다.",
+      "example_vi": "Phương pháp này có hạn chế.",
+      "family": "🟢 Nền · Ưu điểm, vấn đề, nguyên nhân, ảnh hưởng",
+      "priority": "core",
+      "hanja": "限界",
+      "sino_vietnamese": "hạn giới",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "피해",
+      "pos": "N",
+      "meaning_vi": "Thiệt hại",
+      "note_vi": "`피해를 입다` (chịu), `피해를 주다` (gây).",
+      "example_ko": "많은 사람이 피해를 입었다.",
+      "example_vi": "Nhiều người chịu thiệt hại.",
+      "family": "🟢 Nền · Ưu điểm, vấn đề, nguyên nhân, ảnh hưởng",
+      "priority": "core",
+      "hanja": "被害",
+      "sino_vietnamese": "bị hại",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "악영향",
+      "pos": "N",
+      "meaning_vi": "Ảnh hưởng xấu",
+      "note_vi": "`악영향을 끼치다/미치다`.",
+      "example_ko": "과도한 게임은 건강에 악영향을 끼친다.",
+      "example_vi": "Chơi game quá mức gây ảnh hưởng xấu đến sức khoẻ.",
+      "family": "🟢 Nền · Ưu điểm, vấn đề, nguyên nhân, ảnh hưởng",
+      "priority": "recognize",
+      "hanja": "惡影響",
+      "sino_vietnamese": "ác ảnh hưởng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "영향을 미치다",
+      "pos": "V",
+      "meaning_vi": "Gây ảnh hưởng",
+      "note_vi": "`N에 영향을 미치다`; `영향을 주다` cũng đúng.",
+      "example_ko": "수면 부족은 학습에 영향을 미친다.",
+      "example_vi": "Thiếu ngủ ảnh hưởng đến việc học.",
+      "family": "🟢 Nền · Ưu điểm, vấn đề, nguyên nhân, ảnh hưởng",
+      "priority": "core"
+    },
+    {
+      "hangul": "초래하다",
+      "pos": "V",
+      "meaning_vi": "Gây ra, dẫn tới",
+      "note_vi": "Thường đi với kết quả xấu.",
+      "example_ko": "잘못된 습관은 건강 문제를 초래한다.",
+      "example_vi": "Thói quen sai gây ra vấn đề sức khoẻ.",
+      "family": "🟢 Nền · Ưu điểm, vấn đề, nguyên nhân, ảnh hưởng",
+      "priority": "recognize",
+      "hanja": "招來",
+      "sino_vietnamese": "chiêu lai",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "유발하다",
+      "pos": "V",
+      "meaning_vi": "Gây nên, làm phát sinh",
+      "example_ko": "소음은 스트레스를 유발한다.",
+      "example_vi": "Tiếng ồn gây ra căng thẳng.",
+      "family": "🟢 Nền · Ưu điểm, vấn đề, nguyên nhân, ảnh hưởng",
+      "priority": "recognize",
+      "hanja": "誘發",
+      "sino_vietnamese": "dụ phát",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "근본적",
+      "pos": "N",
+      "meaning_vi": "Căn bản, gốc rễ",
+      "example_ko": "근본적인 원인을 찾아야 한다.",
+      "example_vi": "Phải tìm nguyên nhân gốc rễ.",
+      "family": "🟢 Nền · Ưu điểm, vấn đề, nguyên nhân, ảnh hưởng",
+      "priority": "core",
+      "hanja": "根本的",
+      "sino_vietnamese": "căn bản đích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "장기적",
+      "pos": "N",
+      "meaning_vi": "Dài hạn",
+      "example_ko": "장기적인 계획이 필요하다.",
+      "example_vi": "Cần kế hoạch dài hạn.",
+      "family": "🟢 Nền · Ưu điểm, vấn đề, nguyên nhân, ảnh hưởng",
+      "priority": "recognize",
+      "hanja": "長期的",
+      "sino_vietnamese": "trường kỳ đích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "단기적",
+      "pos": "N",
+      "meaning_vi": "Ngắn hạn",
+      "example_ko": "단기적인 효과만 기대할 수 있다.",
+      "example_vi": "Chỉ có thể kỳ vọng hiệu quả ngắn hạn.",
+      "family": "🟢 Nền · Ưu điểm, vấn đề, nguyên nhân, ảnh hưởng",
+      "priority": "recognize",
+      "hanja": "短期的",
+      "sino_vietnamese": "đoản kỳ đích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "차원",
+      "pos": "N",
+      "meaning_vi": "Góc độ, cấp độ",
+      "note_vi": "`개인적 차원`, `사회적 차원`, `국가적 차원`.",
+      "example_ko": "개인적 차원에서 노력할 필요가 있다.",
+      "example_vi": "Cần nỗ lực ở cấp độ cá nhân.",
+      "family": "🟢 Nền · Ưu điểm, vấn đề, nguyên nhân, ảnh hưởng",
+      "priority": "core",
+      "hanja": "次元",
+      "sino_vietnamese": "thứ nguyên",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "마련하다",
+      "pos": "V",
+      "meaning_vi": "Chuẩn bị, đưa ra (biện pháp)",
+      "example_ko": "정부는 대책을 마련해야 한다.",
+      "example_vi": "Chính phủ phải đưa ra đối sách.",
+      "family": "🟡 Dạng thi · Giải pháp và kết luận",
+      "priority": "core"
+    },
+    {
+      "hangul": "도입하다",
+      "pos": "V",
+      "meaning_vi": "Đưa vào áp dụng",
+      "example_ko": "새로운 제도를 도입하다",
+      "example_vi": "Áp dụng chế độ mới",
+      "family": "🟡 Dạng thi · Giải pháp và kết luận",
+      "priority": "recognize",
+      "hanja": "導入",
+      "sino_vietnamese": "đạo nhập",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "강화하다",
+      "pos": "V",
+      "meaning_vi": "Tăng cường",
+      "example_ko": "교육을 강화할 필요가 있다.",
+      "example_vi": "Cần tăng cường giáo dục.",
+      "family": "🟡 Dạng thi · Giải pháp và kết luận",
+      "priority": "core",
+      "hanja": "強化",
+      "sino_vietnamese": "cường hóa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "확대하다",
+      "pos": "V",
+      "meaning_vi": "Mở rộng",
+      "example_ko": "지원을 확대해야 한다.",
+      "example_vi": "Phải mở rộng hỗ trợ.",
+      "family": "🟡 Dạng thi · Giải pháp và kết luận",
+      "priority": "core",
+      "hanja": "擴大",
+      "sino_vietnamese": "khuếch đại",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "제공하다",
+      "pos": "V",
+      "meaning_vi": "Cung cấp",
+      "example_ko": "기업은 정확한 정보를 제공해야 한다.",
+      "example_vi": "Doanh nghiệp phải cung cấp thông tin chính xác.",
+      "family": "🟡 Dạng thi · Giải pháp và kết luận",
+      "priority": "core",
+      "hanja": "提供",
+      "sino_vietnamese": "đề cung",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "제도",
+      "pos": "N",
+      "meaning_vi": "Chế độ, thể chế",
+      "example_ko": "새로운 제도가 필요하다.",
+      "example_vi": "Cần một chế độ mới.",
+      "family": "🟡 Dạng thi · Giải pháp và kết luận",
+      "priority": "recognize",
+      "hanja": "制度",
+      "sino_vietnamese": "chế độ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "인식",
+      "pos": "N",
+      "meaning_vi": "Nhận thức",
+      "note_vi": "`인식을 바꾸다/높이다`, `인식이 부족하다`.",
+      "example_ko": "시민의 인식이 바뀌어야 한다.",
+      "example_vi": "Nhận thức của người dân phải thay đổi.",
+      "family": "🟡 Dạng thi · Giải pháp và kết luận",
+      "priority": "core",
+      "hanja": "認識",
+      "sino_vietnamese": "nhận thức",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "책임",
+      "pos": "N",
+      "meaning_vi": "Trách nhiệm",
+      "note_vi": "`책임을 지다`.",
+      "example_ko": "기업도 책임을 져야 한다.",
+      "example_vi": "Doanh nghiệp cũng phải chịu trách nhiệm.",
+      "family": "🟡 Dạng thi · Giải pháp và kết luận",
+      "priority": "recognize",
+      "hanja": "責任",
+      "sino_vietnamese": "trách nhiệm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "바람직하다",
+      "pos": "A",
+      "meaning_vi": "Đáng mong muốn, nên",
+      "note_vi": "`-는 것이 바람직하다`.",
+      "example_ko": "사용을 줄이는 것이 바람직하다.",
+      "example_vi": "Nên giảm bớt việc sử dụng.",
+      "family": "🟡 Dạng thi · Giải pháp và kết luận",
+      "priority": "core"
+    },
+    {
+      "hangul": "기대되다",
+      "pos": "V",
+      "meaning_vi": "Được kỳ vọng",
+      "example_ko": "좋은 효과가 기대된다.",
+      "example_vi": "Kỳ vọng sẽ có hiệu quả tốt.",
+      "family": "🟡 Dạng thi · Giải pháp và kết luận",
+      "priority": "core",
+      "hanja": "期待企待",
+      "sino_vietnamese": "kỳ đãi xí đãi",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "전망",
+      "pos": "N",
+      "meaning_vi": "Triển vọng, dự báo",
+      "example_ko": "앞으로의 전망이 밝다.",
+      "example_vi": "Triển vọng phía trước sáng sủa.",
+      "family": "🟡 Dạng thi · Giải pháp và kết luận",
+      "priority": "recognize",
+      "hanja": "展望",
+      "sino_vietnamese": "triển vọng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "예상되다",
+      "pos": "V",
+      "meaning_vi": "Được dự đoán",
+      "example_ko": "이용자가 증가할 것으로 예상된다.",
+      "example_vi": "Dự đoán số người dùng sẽ tăng.",
+      "family": "🟡 Dạng thi · Giải pháp và kết luận",
+      "priority": "recognize",
+      "hanja": "豫想",
+      "sino_vietnamese": "dự tưởng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "궁극적으로",
+      "pos": "X",
+      "meaning_vi": "Xét đến cùng",
+      "example_ko": "궁극적으로 사회 전체에 도움이 된다.",
+      "example_vi": "Xét đến cùng có ích cho toàn xã hội.",
+      "family": "🟡 Dạng thi · Giải pháp và kết luận",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "지속적으로",
+      "pos": "X",
+      "meaning_vi": "Một cách liên tục",
+      "example_ko": "지속적으로 노력해야 한다.",
+      "example_vi": "Phải nỗ lực liên tục.",
+      "family": "🟡 Dạng thi · Giải pháp và kết luận",
+      "priority": "core"
+    },
+    {
+      "hangul": "적극적으로",
+      "pos": "X",
+      "meaning_vi": "Một cách chủ động, tích cực",
+      "example_ko": "적극적으로 참여하는 태도가 필요하다.",
+      "example_vi": "Cần thái độ tích cực tham gia.",
+      "family": "🟡 Dạng thi · Giải pháp và kết luận",
+      "priority": "core"
+    },
+    {
+      "hangul": "체계적",
+      "pos": "N",
+      "meaning_vi": "Có hệ thống",
+      "example_ko": "체계적인 교육이 필요하다.",
+      "example_vi": "Cần giáo dục có hệ thống.",
+      "family": "🟡 Dạng thi · Giải pháp và kết luận",
+      "priority": "recognize",
+      "hanja": "體系的",
+      "sino_vietnamese": "thể hệ đích",
+      "enrich": "auto"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V/A + -다는 점이다 · V/A + -(으)ㄴ/는 점에서",
+      "meaning_vi": "Điểm là …; ở điểm …",
+      "usage_context_vi": "**Cấu tạo:** Mệnh đề dạng tận `-다` + `는 점이다`: 절약할 수 있다 → `절약할 수 있다는 점이다`; 비싸다 → `비싸다는 점이다`. Động từ thì phải ở dạng `-ㄴ/는다` trước `다는`: 줄어든다는 점이다. Danh từ: `N(이)라는 점이다` (편리함이라는 점이다). Dạng khác: `-(으)ㄴ/는 점에서` = «xét về điểm …» (`시간을 절약하는 점에서`).\n**Hoàn cảnh dùng:** Câu 1 của đoạn **ưu điểm** hoặc **vấn đề**: `가장 큰 장점은 …다는 점이다.` / `문제는 …다는 점이다.`\n**Vì sao chọn nó:** Mẫu này đóng gói cả một mệnh đề vào sau `장점은/문제는` và kết bằng `점이다`; câu hoàn chỉnh, trang trọng và dùng được cho cả lợi lẫn hại.",
+      "contrasts": [
+        {
+          "pattern": "-다는 것이다",
+          "diff_vi": "`것이다` cũng đúng nhưng chung chung hơn; `점이다` nhấn «điểm đáng chú ý», rất hợp với ưu điểm và vấn đề."
+        },
+        {
+          "pattern": "-기 때문이다",
+          "diff_vi": "`때문이다` giải thích **lý do**; `점이다` nêu **nội dung của điểm** được hỏi."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Tính từ + `ㄴ다는`: ✗ `비싼다는 점이다` → ✓ `비싸다는 점이다`.\n(2) Danh từ: ✗ `편리함다는 점이다` → ✓ `편리함이라는 점이다`.\n(3) Dùng `점이다` cho lý do: ✗ `이유는 … 점에서다`.",
+      "example_ko": "가장 큰 장점은 시간을 절약할 수 있다는 점이다.\n문제는 배달비가 비싸다는 점이다.\n이 제도의 한계는 모든 사람에게 적용되지 않는다는 점이다.",
+      "example_vi": "Ưu điểm lớn nhất là có thể tiết kiệm thời gian.\nVấn đề là phí giao hàng đắt.\nHạn chế của chế độ này là không áp dụng cho tất cả mọi người.",
+      "topik_tip_vi": "Khung: `[N]의 가장 큰 [장점/문제점]은 [mệnh đề]-다는 점이다.` Mệnh đề chỉ cần một ý, ngắn.",
+      "importance": "must"
+    },
+    {
+      "pattern": "N + 에 영향을 미치다 · N + 에 악영향을 끼치다",
+      "meaning_vi": "Gây ảnh hưởng đến N",
+      "usage_context_vi": "**Cấu tạo:** `N에 영향을 미치다` (= `N에 영향을 주다`). Tốt: `N에 긍정적인 영향을 미치다`; xấu: `N에 부정적인 영향을 미치다`, `N에 악영향을 끼치다`. Hướng ngược lại: `N의 영향을 받다` = chịu ảnh hưởng của N. Trợ từ đi trước `영향` luôn là **`에`**.\n**Hoàn cảnh dùng:** Đoạn trả lời `어떤 영향을 미치는가?` hoặc câu **hậu quả** trong đoạn vấn đề.\n**Vì sao chọn nó:** Nêu ảnh hưởng bằng cụm cố định giúp câu đúng, trang trọng và tránh lặp `문제가 생긴다`. Chọn `긍정적/부정적` để cho người đọc biết chiều của ảnh hưởng.",
+      "contrasts": [
+        {
+          "pattern": "에 영향을 주다",
+          "diff_vi": "Gần nghĩa nhưng hơi đời thường; `미치다/끼치다` trang trọng hơn."
+        },
+        {
+          "pattern": "의 영향을 받다",
+          "diff_vi": "Đảo chủ thể: A **chịu** ảnh hưởng của B (`청소년은 친구의 영향을 받는다`)."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Sai trợ từ: ✗ `건강을 영향을 미친다` → ✓ `건강에 영향을 미친다`.\n(2) Nhầm hướng: ✗ `청소년은 친구에 영향을 미친다` (đảo nghĩa) → ✓ `친구의 영향을 받는다`.\n(3) Quên chiều: chỉ viết `영향을 미친다` mà không nói tốt hay xấu.",
+      "example_ko": "수면 부족은 학습 능력에 부정적인 영향을 미친다.\n과도한 스마트폰 사용은 청소년의 건강에 악영향을 끼칠 수 있다.\n청소년은 친구의 영향을 많이 받는다.",
+      "example_vi": "Thiếu ngủ gây ảnh hưởng tiêu cực đến khả năng học tập.\nDùng điện thoại quá mức có thể gây ảnh hưởng xấu đến sức khoẻ thanh thiếu niên.\nThanh thiếu niên chịu nhiều ảnh hưởng của bạn bè.",
+      "topik_tip_vi": "Câu ảnh hưởng nhanh: `[nguyên nhân] 은/는 [đối tượng]에 [긍정적/부정적]인 영향을 미친다.` Rồi thêm `-(으)ㄹ 수 있다` nếu chưa chắc chắn.",
+      "importance": "must"
+    },
+    {
+      "pattern": "V + -아/어야 한다 · V + -(으)ㄹ 필요가 있다 · V + -는 것이 바람직하다",
+      "meaning_vi": "Phải …, cần …, nên …",
+      "usage_context_vi": "**Cấu tạo:** `-아/어야 한다` (bắt buộc): 마련해야 한다. `-(으)ㄹ 필요가 있다` (cần thiết): 마련할 필요가 있다. `-는 것이 바람직하다` (nên, đáng mong muốn): 줄이는 것이 바람직하다. Phủ định: `-지 않아야 한다`, `-(으)ㄹ 필요가 없다`. Mệnh đề đi trước phải chỉ rõ **ai** làm (chủ ngữ).\n**Hoàn cảnh dùng:** Câu **kiến nghị** trong đoạn giải pháp và trong kết bài: `정부는 … 마련해야 한다.`\n**Vì sao chọn nó:** Ba mức mạnh – vừa – nhẹ giúp bạn không lặp một khuôn qua nhiều câu. Dùng `해야 한다` cho điều cấp thiết, `필요가 있다` cho đề xuất, `바람직하다` cho lời khuyên.",
+      "contrasts": [
+        {
+          "pattern": "-아/어야 되다",
+          "diff_vi": "Khẩu ngữ; trong bài viết dùng `-아/어야 한다`."
+        },
+        {
+          "pattern": "-(으)면 좋겠다",
+          "diff_vi": "Mong muốn cá nhân, nghe như lời nói; không dùng trong văn nghị luận."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng liên tiếp bốn câu `해야 한다`; hãy đổi sang `필요가 있다`, `바람직하다`.\n(2) Không rõ ai làm: ✗ `노력해야 한다` (ai?) → ✓ `정부와 기업이 함께 노력해야 한다`.\n(3) Dùng thể nói: ✗ `해야 합니다`, `해야 돼요`.",
+      "example_ko": "정부는 지원 제도를 마련해야 한다.\n개인적 차원에서 일회용품 사용을 줄일 필요가 있다.\n소비자도 책임 있는 태도를 갖는 것이 바람직하다.",
+      "example_vi": "Chính phủ phải đưa ra chế độ hỗ trợ.\nỞ cấp độ cá nhân cần giảm dùng đồ dùng một lần.\nNgười tiêu dùng cũng nên có thái độ có trách nhiệm.",
+      "topik_tip_vi": "Luôn viết `[ai] + [biện pháp] + [해야 한다 / 필요가 있다 / 바람직하다]`. Nếu đoạn giải pháp có hai tầng thì mỗi tầng dùng một khuôn khác nhau.",
+      "importance": "must"
+    },
+    {
+      "pattern": "V/A + -(으)ㄹ 것으로 기대된다 · -(으)ㄹ 것으로 예상된다",
+      "meaning_vi": "Được kỳ vọng / dự đoán là sẽ …",
+      "usage_context_vi": "**Cấu tạo:** Động từ/tính từ + `-(으)ㄹ 것으로 기대된다` (kỳ vọng tốt), `-(으)ㄹ 것으로 예상된다` (dự đoán trung tính), `-(으)ㄹ 것으로 전망된다` (dự báo). Thêm vế điều kiện `-(으)ㄴ다면` ở trước thì câu chặt chẽ: `이러한 노력이 이어진다면 문제가 줄어들 것으로 기대된다.`\n**Hoàn cảnh dùng:** Câu **cuối cùng** của kết bài: nêu kết quả tốt nếu giải pháp được thực hiện.\n**Vì sao chọn nó:** `기대된다` là dạng bị động nên nghe khách quan, nhẹ nhàng hơn `나는 기대한다`; đây là cách kết bài rất quen thuộc.",
+      "contrasts": [
+        {
+          "pattern": "-(으)ㄹ 것이다",
+          "diff_vi": "Dự đoán đơn giản; `-(으)ㄹ 것으로 기대된다` nhấn **kỳ vọng**, hợp kết bài hơn."
+        },
+        {
+          "pattern": "-기를 바란다",
+          "diff_vi": "`바란다` là người viết mong; `기대된다` mang sắc thái khách quan."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Chia sai thể: ✗ `기대된 것이다` → ✓ `기대된다`.\n(2) Thiếu `것으로`: ✗ `줄어들 기대된다` → ✓ `줄어들 것으로 기대된다`.\n(3) Kết bài bằng câu hỏi hoặc ý mới thay vì kỳ vọng.",
+      "example_ko": "이러한 노력이 이어진다면 문제가 크게 줄어들 것으로 기대된다.\n앞으로 이용자는 더 늘어날 것으로 예상된다.\n이 제도가 자리를 잡는다면 효과가 클 것으로 기대된다.",
+      "example_vi": "Nếu những nỗ lực này tiếp tục thì kỳ vọng vấn đề sẽ giảm nhiều.\nDự đoán người dùng sẽ còn tăng.\nNếu chế độ này đi vào nền nếp thì kỳ vọng hiệu quả sẽ lớn.",
+      "topik_tip_vi": "Câu kết bài cuối: `이러한 노력이 [이어진다면 / 함께 이루어진다면] [kết quả tốt] -(으)ㄹ 것으로 기대된다.`",
+      "importance": "normal"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài",
+      "body": "Sau bài này bạn làm được năm việc:\n① nhìn câu hỏi của đề và chọn **khung 5 câu** đúng loại (ưu điểm, vấn đề, nguyên nhân, ảnh hưởng, giải pháp);\n② viết **đoạn giải pháp hai tầng**: cá nhân và xã hội, nói rõ ai làm gì;\n③ viết **đoạn kết 3 câu**: tóm tắt – kiến nghị – kỳ vọng;\n④ dùng bốn khuôn: `-다는 점이다`, `에 영향을 미치다`, `-아/어야 한다`, `-(으)ㄹ 것으로 기대된다`.\n⑤ trả lời gạch hỏi **hình thái đúng đắn** (`바람직한 …`) bằng khung 5 câu: tiêu chuẩn – hai điều kiện – vai trò của nhà trường/xã hội – chốt.\nỞ bài 4 bạn đã có công thức 5 câu cho **một ý**. Bài này chỉ đổi câu 1 và nội dung cho hợp từng loại câu hỏi.",
+      "kind": "goal"
+    },
+    {
+      "title": "Chọn câu 1 theo loại câu hỏi",
+      "body": "Câu 2 – 5 vẫn theo công thức bài 4 (Vì sao – Ví dụ – Kết quả – Nối). Chỉ câu 1 đổi:\nƯu điểm: `…의 가장 큰 장점은 …다는 점이다.`\nVấn đề: `…이 늘면서 가장 크게 대두되는 문제는 …다는 점이다.` hoặc `…에는 …(이)라는 문제가 있다.`\nNguyên nhân: `…의 가장 큰 원인은 …에 있다.` / `…기 때문이다`\nẢnh hưởng: `…은/는 …에 부정적인 영향을 미친다.`\nGiải pháp: `이를 해결하기 위해서는 …이/가 필요하다.`\nHình thái đúng đắn (`바람직한 …은 무엇인가?`): `바람직한 …(이)란 …는 것이다.`\nChọn đúng khuôn câu 1 là chọn đúng đoạn; phần còn lại là điền nội dung.",
+      "kind": "language"
+    },
+    {
+      "title": "Đoạn mẫu: ưu điểm và vấn đề (tự soạn)",
+      "body": "[Vấn đề] ① 배달 앱 이용이 늘면서 가장 크게 대두되는 문제는 쓰레기가 많아진다는 점이다. ② 이는 음식과 함께 일회용 용기와 수저가 많이 사용되기 때문이다. ③ 예를 들어 한 끼를 주문할 때마다 플라스틱 용기가 여러 개 나온다. ④ 이러한 쓰레기는 분리배출이 어려워 환경에 악영향을 끼칠 수 있다. ⑤ 이처럼 편리함의 이면에는 환경에 대한 부담이 있다.\n[Ưu điểm] ① 배달 앱 이용의 가장 큰 장점은 시간을 절약할 수 있다는 점이다. ② 이는 음식을 사러 가거나 직접 요리할 필요가 없기 때문이다. ③ 예를 들어 퇴근이 늦은 직장인의 경우 앱으로 주문하면 집에서 바로 식사할 수 있다. ④ 그 결과 쉬거나 가족과 대화하는 시간이 늘어난다. ⑤ 이처럼 배달 앱은 바쁜 현대인에게 여유를 준다.",
+      "kind": "language"
+    },
+    {
+      "title": "Đoạn mẫu: nguyên nhân và ảnh hưởng (tự soạn)",
+      "body": "[Nguyên nhân] ① 청소년의 수면 시간이 부족한 가장 큰 원인은 늦은 시간까지 스마트폰을 사용하는 습관이다. ② 이는 잠자리에 누워서도 영상이나 메시지를 계속 확인하기 때문이다. ③ 예를 들어 시험을 준비하는 학생의 경우 밤늦게까지 휴대폰을 보다가 새벽에 잠드는 일이 많다. ④ 그 결과 아침에 일어나기 어려워지고 하루 종일 피곤함을 느낀다.\n[Ảnh hưởng] ① 수면 부족은 학습 능력과 건강에 부정적인 영향을 미친다. ② 이는 잠이 부족하면 집중력이 떨어지기 때문이다. ③ 예를 들어 수업 시간에 졸면 중요한 내용을 놓치기 쉽다. ④ 그 결과 성적이 떨어지고 스트레스까지 커질 수 있다. ⑤ 이처럼 수면은 공부와 건강의 바탕이 된다.",
+      "kind": "language"
+    },
+    {
+      "title": "Đoạn giải pháp hai tầng: cá nhân và xã hội (tự soạn)",
+      "body": "① 이러한 문제를 해결하기 위해서는 개인적 차원과 사회적 차원의 노력이 모두 필요하다.\n② 개인적 차원에서는 일회용 수저를 받지 않는 등 작은 습관부터 바꿀 필요가 있다.\n③ 사회적 차원에서는 정부가 재활용 시스템을 마련하고 기업은 포장재를 줄여야 한다.\n④ 이러한 노력이 함께 이루어질 때 쓰레기 문제는 효과적으로 줄어들 것이다.\nCấu trúc: câu 1 nêu hai tầng; câu 2 là tầng cá nhân (`필요가 있다`); câu 3 là tầng xã hội (`마련해야 한다`); câu 4 tóm kết. Mỗi tầng dùng một khuôn khác nhau để không lặp. Nói rõ **ai làm gì** (소비자, 정부, 기업) thay vì `노력해야 한다` chung chung.",
+      "kind": "language"
+    },
+    {
+      "title": "Kết bài 3 câu: Tóm tắt – Kiến nghị – Kỳ vọng (tự soạn)",
+      "body": "① **Tóm tắt**: nhắc lại cả hai mặt của vấn đề bằng từ khác. ② **Kiến nghị**: nhắc lại giải pháp trong một câu. ③ **Kỳ vọng**: kết quả tốt, bằng `-(으)ㄹ 것으로 기대된다`.\nMẫu:\n배달 앱은 시간을 절약해 주는 편리한 서비스이지만 쓰레기 문제라는 한계도 있다. 이를 해결하기 위해서는 소비자가 일회용품 사용을 줄이고 기업과 정부도 제도를 마련할 필요가 있다. 이러한 노력이 이어진다면 배달 앱이 환경을 해치지 않는 서비스로 발전할 것으로 기대된다.\nQuy tắc: không đưa ý mới vào kết bài; không chép lại câu mở bài; không dùng `저는 …라고 생각한다` nếu cả bài chưa dùng ngôi thứ nhất.",
+      "kind": "language"
+    },
+    {
+      "title": "Đề tán thành / phản đối (Dạng D)",
+      "body": "Khung 5 câu cho đoạn lập trường:\n① **Lập trường**: `나는 …에 찬성한다.` hoặc `나는 …에 반대한다.`\n② **Căn cứ 1**: `첫째, …기 때문이다.`\n③ **Căn cứ 2**: `둘째, …다는 점이다.`\n④ **Nhượng bộ rồi phản bác**: `물론 …는 의견도 있다. 그러나 …`\n⑤ **Kết**: `따라서 …(으)ㄹ 필요가 있다.`\nChọn một lập trường và giữ nó đến hết bài. Mỗi căn cứ phải có lý do chứ không chỉ nói `좋기 때문이다`.",
+      "kind": "language"
+    },
+    {
+      "title": "Gạch cuối hỏi hình thái đúng đắn (biến thể của Dạng A)",
+      "body": "Có đề không hỏi «cách giải quyết» ở gạch cuối mà hỏi **hình thái đúng đắn**: `바람직한 …은 무엇인가?` hoặc `바람직한 … 방법은 무엇인가?`. Gạch 1–2 vẫn là ưu điểm và vấn đề; chỉ gạch 3 đổi. Câu này không bảo bạn chữa một vấn đề cụ thể mà bảo bạn nêu **tiêu chuẩn** và **điều kiện** của một hình thái tốt.\nKhung 5 câu:\n① **Tiêu chuẩn chung**: `바람직한 …(이)란 …는 것이다.`\n② **Điều kiện 1**: `이를 위해서는 첫째, …아/어야 한다.`\n③ **Điều kiện 2**: `둘째, …(으)ㄹ 필요가 있다.`\n④ **Vai trò của nhà trường / xã hội**: `학교와 사회는 …을/를 마련해야 한다.`\n⑤ **Chốt**: `이러한 조건이 갖추어질 때 …(으)ㄹ 것으로 기대된다.`\nKhác đoạn giải pháp: câu 1 là **định nghĩa** chứ không phải «để giải quyết thì cần…»; hai điều kiện là đặc điểm của hình thái tốt (quy tắc, thái độ của người thực hiện), không phải biện pháp chữa trị của nhà nước.",
+      "kind": "language"
+    },
+    {
+      "title": "Đoạn mẫu: hình thái đúng đắn (tự soạn)",
+      "body": "[Văn hoá sử dụng mạng đúng đắn] ① 바람직한 온라인 소통 문화란 자유롭게 의견을 나누면서도 상대방에 대한 존중을 잃지 않는 것이다. ② 이를 위해서는 첫째, 글을 올리기 전에 내용이 사실인지 확인하고 상대에게 상처가 될 표현을 쓰지 않아야 한다. ③ 둘째, 의견이 다르더라도 근거를 들어 차분하게 토론하는 태도를 갖출 필요가 있다. ④ 학교와 사회는 올바른 사용 방법을 가르치는 교육을 늘리고 악성 댓글에 책임을 묻는 제도를 마련해야 한다. ⑤ 이러한 조건이 갖추어질 때 온라인 공간이 서로를 이해하는 소통의 장으로 자리 잡을 것으로 기대된다.\nCấu trúc: câu 1 định nghĩa bằng hai vế (tự do + tôn trọng); câu 2–3 là hai điều kiện, mỗi câu một hành vi cụ thể; câu 4 nêu việc nhà trường và xã hội làm; câu 5 chốt bằng `-(으)ㄹ 것으로 기대된다`.\nTừ cần nhớ: `악성 댓글` (bình luận ác ý), `갖추다` (có đủ), `자리 잡다` (ổn định, thành nếp).",
+      "kind": "sample"
+    },
+    {
+      "title": "Năm lỗi hay gặp ở thân bài và kết bài",
+      "body": "① Lặp `해야 한다` bốn câu liền nhau (hãy đổi `필요가 있다`, `바람직하다`).\n② Giải pháp chung chung `노력해야 한다` mà không nói ai làm gì.\n③ Nhầm trợ từ của `영향`: ✗ `건강을 영향을 미친다` → ✓ `건강에 영향을 미친다`.\n④ Kết bài mở ý mới hoặc chép lại mở bài.\n⑤ Chia chữ sai: mở bài 200 chữ, thân bài 100 chữ. Mục tiêu gần đúng: mở bài 110–150, mỗi thân bài 130–175, kết bài 80–105.",
+      "kind": "pitfall"
+    }
+  ],
+  "bank": "viet54",
+  "coach": {
+    "focus_vi": [
+      "Thuộc 5 câu 1 theo loại câu hỏi: ưu điểm `-다는 점이다`, ảnh hưởng `에 영향을 미치다`, giải pháp `-아/어야 한다`, kết bài `-(으)ㄹ 것으로 기대된다`.",
+      "Viết một đoạn giải pháp hai tầng (cá nhân – xã hội) với hai khuôn khác nhau, nói rõ ai làm gì.",
+      "Viết kết bài 3 câu cho đề mà bạn đã viết mở bài ở Bài 5."
+    ],
+    "watch_out_vi": [
+      "Không lặp `해야 한다` quá hai lần trong một đoạn.",
+      "`영향` đi với `에`, không phải `을/를`."
+    ],
+    "notebook_vi": [
+      "Sáu khuôn câu 1 theo loại câu hỏi.",
+      "Một đoạn giải pháp hai tầng đã chép tay."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Kết bài gồm mấy câu và làm gì?",
+        "answer": "Ba câu: tóm tắt hai mặt, nhắc lại giải pháp, nêu kỳ vọng."
+      },
+      {
+        "prompt_vi": "Đoạn giải pháp tốt cần nói rõ điều gì?",
+        "answer": "Ai làm gì: cá nhân và xã hội (chính phủ, doanh nghiệp) mỗi bên một biện pháp."
+      },
+      {
+        "prompt_vi": "Gạch 3 hỏi `바람직한 …` thì đoạn trả lời gồm những gì?",
+        "answer": "Tiêu chuẩn chung → điều kiện 1 → điều kiện 2 → vai trò của nhà trường/xã hội → câu chốt kỳ vọng."
+      }
+    ]
+  },
+  "exercise_ids": [
+    "V47L1",
+    "V47D1",
+    "V47D2",
+    "V47R1",
+    "V47R2",
+    "V47R3",
+    "V47R4",
+    "V47R5",
+    "V47R6",
+    "V47R7",
+    "V47R8",
+    "V47R9",
+    "V47R10",
+    "V47R11",
+    "V47R12",
+    "V47R13",
+    "V47B1",
+    "V47B2",
+    "V47B3",
+    "V47B4",
+    "V47B5",
+    "V47B6",
+    "V47B7",
+    "V47B8",
+    "V47B9",
+    "V47B10",
+    "V47F1",
+    "V47F2",
+    "V47F3",
+    "V47F4",
+    "V47E1",
+    "V47E2",
+    "V47E3",
+    "RG48",
+    "SP48"
+  ],
+  "editor_notes": [
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "Topic = the lesson's own 'hình thái đúng đắn' sample (바람직한 온라인 소통 문화 / 악성 댓글), which lets the model rehearse the two-tier solution paragraph and the 기대된다 closing — the two things lesson 48 adds. The other practice topics (재택근무, 청소년 스마트폰) are used by lessons 45 and 50. Free speech is mentioned only as the concession, with an answer on both sides kept short; no laws or institutions named (사이트/학교 only)."
+    }
+  ]
+}

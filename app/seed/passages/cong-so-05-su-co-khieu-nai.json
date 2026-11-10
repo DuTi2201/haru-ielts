@@ -1,0 +1,245 @@
+{
+  "lesson": "cong-so-05-su-co-khieu-nai",
+  "items": [
+    {
+      "id": "cong-so-05-d1",
+      "kind": "dialogue",
+      "title_ko": "청소기 부품이 빠졌어요",
+      "title_vi": "Máy hút bụi thiếu linh kiện",
+      "scene_vi": "Một khách hàng gọi điện cho trung tâm chăm sóc khách hàng của cửa hàng online.",
+      "speakers": {
+        "F": "유나",
+        "M": "상담원"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "여보세요? 어제 주문한 청소기 때문에 전화했어요.",
+          "vi": "Alô? Tôi gọi về chiếc máy hút bụi đặt hôm qua."
+        },
+        {
+          "who": "M",
+          "ko": "네, 고객님. 어떤 문제가 있으신가요?",
+          "vi": "Vâng, thưa quý khách. Quý khách gặp vấn đề gì ạ?"
+        },
+        {
+          "who": "F",
+          "ko": "포장을 열었더니 부품이 하나 빠져 있었어요.",
+          "vi": "Mở bao bì ra thì thấy thiếu một linh kiện."
+        },
+        {
+          "who": "M",
+          "ko": "불편을 드려 죄송합니다. 포장 과정의 부주의 탓에 생긴 문제 같습니다.",
+          "vi": "Xin lỗi vì sự bất tiện. Có vẻ là vấn đề do bất cẩn khi đóng gói."
+        },
+        {
+          "who": "F",
+          "ko": "처음에는 화가 난 나머지 후기부터 쓰려고 했어요.",
+          "vi": "Lúc đầu tôi giận quá nên định viết đánh giá trước."
+        },
+        {
+          "who": "M",
+          "ko": "정말 죄송합니다. 부품만 다시 보내 드리거나 새 제품으로 교환해 드릴 수 있습니다.",
+          "vi": "Thật sự xin lỗi. Chúng tôi có thể gửi lại linh kiện hoặc đổi sang sản phẩm mới."
+        },
+        {
+          "who": "F",
+          "ko": "사과는커녕 설명도 안 해 줄까 봐 걱정했는데 다행이네요. 새 제품으로 교환해 주세요.",
+          "vi": "Tôi lo xin lỗi thì khỏi nói, đến giải thích cũng không có, may quá. Xin đổi sang sản phẩm mới giúp tôi."
+        },
+        {
+          "who": "M",
+          "ko": "알겠습니다. 접수 번호를 안내해 드리겠습니다. 내일까지 담당자가 연락드릴 거예요.",
+          "vi": "Tôi hiểu rồi. Tôi xin cung cấp mã tiếp nhận. Người phụ trách sẽ liên lạc trước ngày mai."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -았/었더니",
+          "regex": "열었더니"
+        },
+        {
+          "pattern": "N + 탓에 · V/A + -(으)ㄴ/는 탓에",
+          "regex": "부주의 탓에"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ 나머지",
+          "regex": "난 나머지"
+        },
+        {
+          "pattern": "N + 은/는커녕",
+          "regex": "사과는커녕"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "불편",
+          "seen": "불편을"
+        },
+        {
+          "word": "부주의",
+          "seen": "부주의"
+        },
+        {
+          "word": "담당자",
+          "seen": "담당자가"
+        },
+        {
+          "word": "교환",
+          "seen": "교환해"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "부품",
+          "vi": "linh kiện, bộ phận",
+          "seen": "부품이"
+        },
+        {
+          "ko": "후기",
+          "vi": "bài đánh giá sau khi dùng",
+          "seen": "후기부터"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Vì sao khách gọi điện?",
+          "options": [
+            "Máy hút bụi thiếu một linh kiện",
+            "Giao hàng bị chậm",
+            "Muốn hủy đơn hàng",
+            "Máy bị hỏng sau khi dùng"
+          ],
+          "answer": 0,
+          "explain_vi": "Khách nói «포장을 열었더니 부품이 하나 빠져 있었어요»."
+        },
+        {
+          "q_vi": "Cuối cùng khách yêu cầu điều gì?",
+          "options": [
+            "Đổi sang sản phẩm mới",
+            "Chỉ nhận lại tiền",
+            "Chỉ gửi lại linh kiện",
+            "Viết đánh giá"
+          ],
+          "answer": 0,
+          "explain_vi": "Khách nói «새 제품으로 교환해 주세요»."
+        }
+      ]
+    },
+    {
+      "id": "cong-so-05-r1",
+      "kind": "reading",
+      "title_ko": "아파트 정전 사고",
+      "title_vi": "Sự cố mất điện ở chung cư",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "지난주 목요일 저녁, 우리 아파트에 갑자기 정전이 되었다.",
+          "vi": "Tối thứ Năm tuần trước, chung cư chúng tôi bỗng mất điện."
+        },
+        {
+          "who": "N",
+          "ko": "엘리베이터가 멈춘 탓에 주민들은 계단으로 걸어 올라가야 했다.",
+          "vi": "Vì thang máy dừng nên cư dân phải đi bộ lên bằng cầu thang."
+        },
+        {
+          "who": "N",
+          "ko": "관리사무소에 전화했더니 전기 설비 점검이 늦어진 것이 원인이라고 했다.",
+          "vi": "Gọi đến ban quản lý thì được biết nguyên nhân là việc kiểm tra thiết bị điện bị chậm."
+        },
+        {
+          "who": "N",
+          "ko": "사과는커녕 설명도 없어서 화가 난 나머지 항의하러 간 주민도 있었다.",
+          "vi": "Xin lỗi thì khỏi nói, đến giải thích cũng không có nên có cư dân giận quá đã đến phản đối."
+        },
+        {
+          "who": "N",
+          "ko": "우리가 주민 회의를 열어 대책을 요구했더니 관리사무소가 설비를 매달 점검하기로 했다.",
+          "vi": "Chúng tôi họp cư dân yêu cầu đối sách thì ban quản lý quyết định kiểm tra thiết bị hằng tháng."
+        },
+        {
+          "who": "N",
+          "ko": "다음 날 관리사무소는 사과문을 붙였고 재발 방지 대책도 발표했다.",
+          "vi": "Hôm sau ban quản lý dán thông báo xin lỗi và công bố cả đối sách ngăn tái diễn."
+        },
+        {
+          "who": "N",
+          "ko": "이번 일을 통해 신속한 대응이 신뢰를 지키는 길이라는 것을 알게 되었다.",
+          "vi": "Qua việc này tôi biết ứng phó nhanh chính là cách giữ lòng tin."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "N + 탓에 · V/A + -(으)ㄴ/는 탓에",
+          "regex": "멈춘 탓에"
+        },
+        {
+          "pattern": "V + -았/었더니",
+          "regex": "전화했더니"
+        },
+        {
+          "pattern": "N + 은/는커녕",
+          "regex": "사과는커녕"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ 나머지",
+          "regex": "난 나머지"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "재발",
+          "seen": "재발"
+        },
+        {
+          "word": "대책",
+          "seen": "대책을"
+        },
+        {
+          "word": "점검하다",
+          "seen": "점검이"
+        },
+        {
+          "word": "신속하다",
+          "seen": "신속한"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "정전",
+          "vi": "mất điện",
+          "seen": "정전이"
+        },
+        {
+          "ko": "설비",
+          "vi": "thiết bị, cơ sở vật chất",
+          "seen": "설비"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Vì sao cư dân phải đi bộ bằng cầu thang?",
+          "options": [
+            "Thang máy dừng vì mất điện",
+            "Thang máy đang được thay mới",
+            "Ban quản lý yêu cầu đi bộ",
+            "Cư dân thích đi bộ"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 2: «엘리베이터가 멈춘 탓에 …계단으로 걸어 올라가야 했다»."
+        },
+        {
+          "q_vi": "Sau cuộc họp cư dân, ban quản lý quyết định gì?",
+          "options": [
+            "Kiểm tra thiết bị điện hằng tháng",
+            "Thay toàn bộ thang máy",
+            "Miễn phí quản lý một tháng",
+            "Không làm gì cả"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 5: «설비를 매달 점검하기로 했다»."
+        }
+      ]
+    }
+  ]
+}

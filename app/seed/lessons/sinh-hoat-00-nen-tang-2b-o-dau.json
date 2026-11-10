@@ -1,0 +1,521 @@
+{
+  "slug": "sinh-hoat-00-nen-tang-2b-o-dau",
+  "title": "Nền tảng 2.2 · Ở đâu?: 있다/없다, 에 & 에서",
+  "title_ko": "기초 2-2: 어디에 있어요?",
+  "topic": "Nhập môn",
+  "track": "beginner",
+  "level": 1,
+  "summary": "Có và không có ('있다', '없다'), nơi tồn tại và đích đến với '에', nơi diễn ra hành động với '에서': hai trợ từ người học hay nhầm nhất.",
+  "vocab": [
+    {
+      "hangul": "사다",
+      "pos": "V",
+      "meaning_vi": "Mua",
+      "example_ko": "빵을 사요.",
+      "example_vi": "Tôi mua bánh mì.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "있다",
+      "pron": "[읻따]",
+      "pos": "V",
+      "meaning_vi": "Có · ở",
+      "example_ko": "방에 책상이 있어요.",
+      "example_vi": "Trong phòng có cái bàn.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "없다",
+      "pron": "[업따]",
+      "pos": "V",
+      "meaning_vi": "Không có · không ở",
+      "example_ko": "오늘은 시간이 없어요.",
+      "example_vi": "Hôm nay tôi không có thời gian.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "집",
+      "pos": "N",
+      "meaning_vi": "Nhà",
+      "example_ko": "집에 있어요.",
+      "example_vi": "Tôi ở nhà.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "輯",
+      "sino_vietnamese": "tập",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "회사",
+      "pos": "N",
+      "meaning_vi": "Công ty",
+      "example_ko": "회사에서 일해요.",
+      "example_vi": "Tôi làm việc ở công ty.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "會社",
+      "sino_vietnamese": "hội xã",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "동생",
+      "pos": "N",
+      "meaning_vi": "Em (trai, gái)",
+      "example_ko": "저는 동생이 있어요.",
+      "example_vi": "Tôi có em.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "위",
+      "pos": "N",
+      "meaning_vi": "Trên",
+      "note_vi": "N + 에 + 있다",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core"
+    },
+    {
+      "hangul": "아래",
+      "pos": "N",
+      "meaning_vi": "Dưới",
+      "note_vi": "N + 에 + 있다",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core"
+    },
+    {
+      "hangul": "앞",
+      "pos": "N",
+      "meaning_vi": "Trước",
+      "note_vi": "N + 에 + 있다",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core",
+      "pron": "[압]"
+    },
+    {
+      "hangul": "뒤",
+      "pos": "N",
+      "meaning_vi": "Sau",
+      "note_vi": "N + 에 + 있다",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core"
+    },
+    {
+      "hangul": "옆",
+      "pos": "N",
+      "meaning_vi": "Cạnh",
+      "note_vi": "N + 에 + 있다",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core",
+      "pron": "[엽]"
+    },
+    {
+      "hangul": "안",
+      "pos": "N",
+      "meaning_vi": "Trong",
+      "note_vi": "N + 에 + 있다",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core",
+      "hanja": "案",
+      "sino_vietnamese": "án",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "사이",
+      "pos": "N",
+      "meaning_vi": "Giữa",
+      "note_vi": "N + 에 + 있다",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core"
+    },
+    {
+      "hangul": "오른쪽",
+      "pos": "N",
+      "meaning_vi": "Bên phải",
+      "family": "🟢 Nền · Từ vựng",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "왼쪽",
+      "pos": "N",
+      "meaning_vi": "Bên trái",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Sau bài này bạn làm được gì",
+      "kind": "goal",
+      "body": "• Nói cái gì có ở đâu: `가방에 책이 있어요`.\n• Nói đi đâu (`학교에 가요`) và làm gì ở đâu (`도서관에서 공부해요`).\n• Chọn đúng `에` hay `에서` cho từng câu."
+    }
+  ],
+  "coach": {
+    "focus_vi": [
+      "`N이/가 있다·없다` và `N에 있다·없다`.",
+      "Phân biệt `에` với `에서`."
+    ],
+    "watch_out_vi": [
+      "`에` chỉ đích đến hoặc nơi tồn tại (với `있다/없다`); `에서` chỉ nơi hành động diễn ra hoặc điểm xuất phát."
+    ],
+    "notebook_vi": [
+      "5 câu về nơi bạn hay đến, dùng `에` và `에서`."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Kể 3 việc bạn làm hôm nay ở 3 nơi khác nhau, và 1 thứ có trong túi bạn."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "pattern": "N + 이/가 있다 · 없다 / N + 에 있다 · 없다",
+      "meaning_vi": "Có · không có (sở hữu, tồn tại) · ở · không ở (vị trí)",
+      "usage_context_vi": "**Cấu tạo:** (1) `N이/가 있어요/없어요`: có / không có N. (2) `N에 N이/가 있어요`: ở N có N. (3) `N은/는 N에 있어요`: N ở N. Phủ định chỉ dùng `없다`, không dùng `안 있다`. Kính ngữ: **ở** → `계시다` (`할아버지는 집에 계세요`); **có** (sở hữu) → `있으시다` (`시간이 있으세요?`). `맛있다/맛없다`, `재미있다/재미없다` là từ ghép.\n**Hoàn cảnh dùng:** (1) Sở hữu: `저는 동생이 있어요`, `오늘은 시간이 없어요`. (2) Nói trong một nơi có gì: `방에 책상이 있어요`. (3) Hỏi và đáp vị trí: `책은 어디에 있어요? — 가방에 있어요.` Thứ tự: nơi + `에` + vật + `이/가` + `있어요` (giới thiệu cái có trong nơi đó), hoặc vật + `은/는` + nơi + `에` + `있어요` (đã biết vật, nói nó ở đâu).\n**Vì sao chọn nó thay vì `이다`:** `이다` là 'là' (A là B), nối hai danh từ. `있다` là 'có' hoặc 'ở'. Hỏi vị trí: `어디에 있어요?`; hỏi 'đó là cái gì': `뭐예요?`. Nói `집에 책상이에요` sai nghĩa ('nhà là cái bàn').",
+      "contrasts": [
+        {
+          "pattern": "N + 이에요/예요",
+          "diff_vi": "'Là' (định danh), không dùng cho 'có/ở'."
+        },
+        {
+          "pattern": "계시다",
+          "diff_vi": "Dạng kính ngữ của `있다` khi nói 'ở' về người cần tôn trọng."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `이에요` thay `있어요`: ✗ `방에 책상이에요` → `방에 책상이 있어요`.\n(2) Phủ định bằng `안`: ✗ `안 있어요` → `없어요`.\n(3) Dùng `에서` cho vị trí: ✗ `집에서 있어요` → `집에 있어요`.\n(4) Gắn `을/를` vào vật được 'có': ✗ `동생을 있어요` → `동생이 있어요`.\n(5) Nói về người lớn bằng `있어요`: ✗ `할머니는 집에 있어요` (kém lịch sự) → `계세요`.\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc và nhãn kỳ thi đối chiếu với KIIP 초급1 2과 · New Yonsei Korean 1-1 (이/가 있습니다, 에 있습니다).",
+      "topik_tip_vi": "Bài đọc và nghe mô tả tranh hay hỏi 'vật nằm ở đâu / có gì ở đâu'. Nghe `N에 N이/가 있다` để xác định vị trí; chú ý `없다` (không có) vì dễ nghe nhầm thành `있다`.",
+      "example_ko": "저는 동생이 있어요.\n방에 책상이 있어요.\n책은 가방에 있어요.\n오늘은 시간이 없어요.\n할아버지는 집에 계세요.\n민수 씨는 어디에 있어요? — 도서관에 있어요.",
+      "example_vi": "Tôi có em.\nTrong phòng có cái bàn.\nSách ở trong cặp.\nHôm nay tôi không có thời gian.\nÔng tôi đang ở nhà.\nMinsu ở đâu vậy? — Anh ấy ở thư viện.",
+      "source": "KIIP 초급1 2과 · New Yonsei Korean 1-1 (이/가 있습니다, 에 있습니다)",
+      "exam": "kiip-1",
+      "importance": "must"
+    },
+    {
+      "pattern": "N(Nơi chốn) + 에",
+      "meaning_vi": "Trợ từ chỉ đích đến và nơi tồn tại: đến N, ở N",
+      "usage_context_vi": "**Cấu tạo:** Danh từ nơi chốn + `에` (không đổi theo patchim): `학교에`, `집에`, `회사에`, `한국에`. Hỏi: `어디에 가요?`, `어디에 살아요?`.\nĐi với các động từ:\n- **Đích đến:** `가다`, `오다`, `다니다`, `도착하다`\n- **Nơi ở, nơi tồn tại:** `있다`, `없다`, `살다`\n**Hoàn cảnh dùng:** (1) Đích đến của chuyển động: `학교에 가요`, `한국에 와요`. (2) Nơi tồn tại: `집에 있어요`, `서울에 살아요`. (3) Gắn vào cả danh từ chỉ vị trí: `책상 위에 책이 있어요`.\n**Vì sao chọn nó thay vì `에서`:** `에` là ĐIỂM ĐẾN hay NƠI TỒN TẠI (trạng thái tĩnh); `에서` là NƠI DIỄN RA hành động. 'Ở nhà' là `집에 있어요`, còn 'học ở nhà' là `집에서 공부해요`.",
+      "contrasts": [
+        {
+          "pattern": "N + 에서",
+          "diff_vi": "Nơi diễn ra hành động hoặc điểm xuất phát."
+        },
+        {
+          "pattern": "N + (으)로",
+          "diff_vi": "Hướng đi hoặc phương tiện: `학교로 가요` (đi về phía trường)."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `을/를` cho đích đến: ✗ `학교를 가요` → `학교에 가요`.\n(2) Dùng `에서` cho đích đến: ✗ `학교에서 가요` (nghĩa 'đi từ trường') → `학교에 가요`.\n(3) Dùng `에서` với `있다`: ✗ `집에서 있어요` → `집에 있어요`.\n(4) Gắn `에` vào `오늘`, `어제`, `내일`: ✗ `내일에 가요` → `내일 가요` (xem bài Buổi sáng).\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc và nhãn kỳ thi đối chiếu với KIIP 초급1 4과 · New Yonsei Korean 1-1 (에 가다).",
+      "topik_tip_vi": "Điền trợ từ vào chỗ trống với `가다/오다/있다/살다` → `에`. Câu có hành động diễn ra tại một nơi (học, ăn, làm việc) → `에서`.",
+      "example_ko": "학교에 가요.\n한국에 와요.\n서울에 살아요.\n집에 있어요.\n어디에 가요?",
+      "example_vi": "Tôi đến trường.\nTôi đến Hàn Quốc.\nTôi sống ở Seoul.\nTôi ở nhà.\nBạn đi đâu?",
+      "source": "KIIP 초급1 4과 · New Yonsei Korean 1-1 (에 가다)",
+      "exam": "kiip-1",
+      "importance": "must"
+    },
+    {
+      "pattern": "N + 에서",
+      "meaning_vi": "Ở, tại N (nơi diễn ra hành động) · từ N (điểm xuất phát)",
+      "usage_context_vi": "**Cấu tạo:** Danh từ nơi chốn + `에서`: `학교에서`, `도서관에서`, `집에서`. Đi với động từ hành động (học, ăn, làm việc, gặp, mua…). Khi nói 'từ nơi nào đến': `베트남에서 왔어요`.\n**Hoàn cảnh dùng:** (1) Nơi diễn ra hành động: `도서관에서 공부해요`, `식당에서 점심을 먹어요`. (2) Điểm xuất phát: `집에서 회사까지 30분 걸려요`, `베트남에서 왔어요`. Hỏi: `어디에서 일해요?`.\n**Vì sao chọn nó thay vì `에`:** Hành động (học, ăn, làm việc) cần một nơi để DIỄN RA nên dùng `에서`. `에` chỉ nơi bạn đến hoặc nơi đồ vật/người ở. Với `있다` bạn dùng `에`; `살다` dùng được cả `에` lẫn `에서` (`서울에 살아요` · `서울에서 살아요`), nên ở trình độ này cứ chọn `에`. Với động từ hành động thì dùng `에서`.",
+      "contrasts": [
+        {
+          "pattern": "N + 에",
+          "diff_vi": "Đích đến, nơi tồn tại."
+        },
+        {
+          "pattern": "N + 에게서/한테서",
+          "diff_vi": "'Từ' một NGƯỜI (nhận, mượn từ ai); `에서` là 'từ' một nơi chốn."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `에` cho nơi diễn ra hành động: ✗ `도서관에 공부해요` → `도서관에서 공부해요`.\n(2) Dùng `에서` với `있다`: ✗ `집에서 있어요` → `집에 있어요`.\n(3) Dùng `에서` cho đích đến: ✗ `학교에서 와요` (nghĩa 'đến từ trường').\n(4) Dịch 'ở' lúc nào cũng thành `에`: tiếng Việt chỉ có một chữ 'ở' cho cả hai nghĩa, nhưng tiếng Hàn tách `에` (đang ở) và `에서` (làm ở).\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc và nhãn kỳ thi đối chiếu với KIIP 초급1 4과 · New Yonsei Korean 1-1 (에서).",
+      "topik_tip_vi": "Bài chọn trợ từ thường gài `에` và `에서` bằng cách đặt chúng cạnh nhau. Nhìn động từ: `가다/오다/있다/살다` → `에`; `공부하다/먹다/일하다/만나다` → `에서`.",
+      "example_ko": "도서관에서 공부해요.\n식당에서 점심을 먹어요.\n베트남에서 왔어요.\n어디에서 일해요?\n집에서 커피를 마셔요.",
+      "example_vi": "Tôi học ở thư viện.\nTôi ăn trưa ở quán ăn.\nTôi đến từ Việt Nam.\nBạn làm việc ở đâu?\nTôi uống cà phê ở nhà.",
+      "source": "KIIP 초급1 4과 · New Yonsei Korean 1-1 (에서)",
+      "exam": "kiip-1",
+      "importance": "must"
+    }
+  ],
+  "editor_notes": [],
+  "exercise_ids": [
+    "FLN13",
+    "FLN16",
+    "FLN17",
+    "FLN19",
+    "FLN20",
+    "FLN24",
+    "FR31",
+    "FR32",
+    "FR33",
+    "FR34",
+    "FR40",
+    "FR41",
+    "FR42",
+    "FR43",
+    "FBO06",
+    "FBO07",
+    "FBO08",
+    "FBF07"
+  ],
+  "sort_order": 6,
+  "split_from": "sinh-hoat-00-nen-tang-2-noi-chon",
+  "sessions": [
+    {
+      "title_vi": "Có hay không có? (있다/없다)",
+      "can_do_vi": "Nói «có / không có» và «ở / không ở»: «동생이 있어요», «집에 없어요».",
+      "use_vi": "Hỏi còn phòng không, có người nhà không; trả lời điện thoại «Ba tôi không có nhà».",
+      "topik_vi": "Giống dạng nghe chọn nội dung trùng khớp và dạng điền 있다/없다 ở phần Đọc TOPIK I.",
+      "vocab": [
+        "있다",
+        "없다",
+        "동생",
+        "집",
+        "회사"
+      ],
+      "grammar": [
+        "N + 이/가 있다 · 없다 / N + 에 있다 · 없다"
+      ],
+      "check": [
+        "FLN20",
+        "FR40",
+        "FR42",
+        "FR43"
+      ],
+      "situation": {
+        "scene_vi": "Hai người hỏi nhau về người thân và nơi ở.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "동생이 있어요?",
+            "vi": "Bạn có em không?"
+          },
+          {
+            "who": "B",
+            "ko": "네, 동생이 있어요.",
+            "vi": "Vâng, tôi có em."
+          },
+          {
+            "who": "A",
+            "ko": "지금 집에 있어요?",
+            "vi": "Bây giờ em ở nhà à?"
+          },
+          {
+            "who": "B",
+            "ko": "아니요, 회사에 있어요.",
+            "vi": "Không, em ở công ty."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "지금 집에 있어요?",
+          "prompt_vi": "Bây giờ bạn ở nhà không? (bạn đang ở công ty)",
+          "options": [
+            {
+              "ko": "아니요, 회사에 있어요.",
+              "vi": "Không, tôi ở công ty.",
+              "ok": true,
+              "why_vi": "«아니요» khớp với vế sau nói ở nơi khác."
+            },
+            {
+              "ko": "아니요, 집에 있어요.",
+              "vi": "Không, tôi ở nhà.",
+              "ok": false,
+              "why_vi": "«Không» rồi lại nói «ở nhà» là mâu thuẫn."
+            },
+            {
+              "ko": "네, 없어요.",
+              "vi": "Vâng, không có.",
+              "ok": false,
+              "why_vi": "«Vâng» xác nhận ở nhà nhưng «không có» thì phủ định."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «Tôi không có em». Cách nào đúng?",
+          "a": {
+            "ko": "동생이 없어요.",
+            "vi": "Tôi không có em."
+          },
+          "b": {
+            "ko": "동생이 아니에요.",
+            "vi": "(Đó) không phải là em."
+          },
+          "better": "a",
+          "why_vi": "없다 là phủ định của 있다 (có/ở). 아니다 chỉ dùng để phủ định «là»."
+        }
+      }
+    },
+    {
+      "title_vi": "Ở đâu? Từ chỉ vị trí và 에",
+      "can_do_vi": "Nói một vật ở đâu: «책이 가방 안에 있어요», «은행은 학교 옆에 있어요», và nói đi đến đâu bằng 에.",
+      "use_vi": "Hỏi và chỉ đường ngắn: bên trái, bên phải, phía trước, phía sau.",
+      "topik_vi": "Giống dạng nghe hỏi địa điểm và dạng điền trợ từ (에) ở phần TOPIK I; đề hay hỏi «ở đâu».",
+      "vocab": [
+        "위",
+        "아래",
+        "앞",
+        "뒤",
+        "옆",
+        "안",
+        "사이",
+        "오른쪽",
+        "왼쪽"
+      ],
+      "grammar": [
+        "N(Nơi chốn) + 에"
+      ],
+      "check": [
+        "FLN13",
+        "FR33",
+        "FBO08",
+        "FLN17",
+        "FR41"
+      ],
+      "situation": {
+        "scene_vi": "Hai người tìm đồ vật.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "책이 어디에 있어요?",
+            "vi": "Sách ở đâu?"
+          },
+          {
+            "who": "B",
+            "ko": "가방 안에 있어요.",
+            "vi": "Ở trong túi."
+          },
+          {
+            "who": "A",
+            "ko": "가방은요?",
+            "vi": "Còn túi?"
+          },
+          {
+            "who": "B",
+            "ko": "집 앞에 있어요.",
+            "vi": "Ở trước nhà."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "책이 어디에 있어요?",
+          "prompt_vi": "Sách ở đâu?",
+          "options": [
+            {
+              "ko": "가방 안에 있어요.",
+              "vi": "Ở trong túi.",
+              "ok": true,
+              "why_vi": "Vị trí gắn với 에 trước 있다: 안에 있어요."
+            },
+            {
+              "ko": "가방 안이 있어요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Thiếu 에. Nói vị trí tồn tại phải có 에."
+            },
+            {
+              "ko": "네, 있어요.",
+              "vi": "Vâng, có.",
+              "ok": false,
+              "why_vi": "«어디» hỏi nơi chốn, không trả lời «có/không»."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «Ở phía trước nhà». Cách nào đúng?",
+          "a": {
+            "ko": "집 앞에 있어요.",
+            "vi": "Ở trước nhà."
+          },
+          "b": {
+            "ko": "집 앞을 있어요.",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "Vị trí tồn tại gắn 에, không gắn 을/를."
+        }
+      }
+    },
+    {
+      "title_vi": "Làm ở đâu? (에서)",
+      "can_do_vi": "Nói hành động diễn ra ở đâu: «도서관에서 공부해요», «식당에서 밥을 먹어요», và phân biệt 에서 (làm ở) với 에 (ở / đến).",
+      "use_vi": "Kể mình làm gì ở đâu; mua đồ ở cửa hàng nào.",
+      "topik_vi": "Giống dạng điền 에 hay 에서 vào chỗ trống ở phần Đọc TOPIK I, một dạng rất hay ra.",
+      "vocab": [
+        "사다"
+      ],
+      "grammar": [
+        "N + 에서"
+      ],
+      "check": [
+        "FLN19",
+        "FR31",
+        "FBO06",
+        "FLN24",
+        "FR32",
+        "FBO07"
+      ],
+      "situation": {
+        "scene_vi": "Hai người hỏi nhau làm việc gì ở đâu.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "어디에서 공부해요?",
+            "vi": "Bạn học ở đâu?"
+          },
+          {
+            "who": "B",
+            "ko": "도서관에서 공부해요.",
+            "vi": "Tôi học ở thư viện."
+          },
+          {
+            "who": "A",
+            "ko": "어디에서 밥을 먹어요?",
+            "vi": "Bạn ăn cơm ở đâu?"
+          },
+          {
+            "who": "B",
+            "ko": "식당에서 먹어요.",
+            "vi": "Tôi ăn ở nhà hàng."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "어디에서 커피를 마셔요?",
+          "prompt_vi": "Bạn uống cà phê ở đâu?",
+          "options": [
+            {
+              "ko": "식당에서 마셔요.",
+              "vi": "Tôi uống ở nhà hàng.",
+              "ok": true,
+              "why_vi": "Hành động diễn ra ở một nơi dùng 에서."
+            },
+            {
+              "ko": "식당에 마셔요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "에 dùng với 있다/가다/오다 (tồn tại, di chuyển), không dùng cho hành động như uống."
+            },
+            {
+              "ko": "식당이 마셔요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "이/가 làm «nhà hàng» thành chủ thể uống."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «Ở nhà có sách». Cách nào đúng?",
+          "a": {
+            "ko": "집에 책이 있어요.",
+            "vi": "Ở nhà có sách."
+          },
+          "b": {
+            "ko": "집에서 책이 있어요.",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "있다 chỉ sự tồn tại, đi với 에. 에서 chỉ nơi diễn ra hành động."
+        }
+      }
+    }
+  ]
+}

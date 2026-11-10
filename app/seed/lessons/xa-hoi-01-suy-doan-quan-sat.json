@@ -1,0 +1,652 @@
+{
+  "slug": "xa-hoi-01-suy-doan-quan-sat",
+  "title": "Dự đoán, suy luận, quan sát, nhắc lại: -(으)ㄹ 테니까 · -ㄴ 모양이다 · -던데 · -잖아요",
+  "title_ko": "추측과 근거로 말하기",
+  "topic": "Xã hội, Tư tưởng & Chuyên ngành",
+  "track": "advanced",
+  "level": 5,
+  "sort_order": 62,
+  "summary": "Bài đầu của Chủ đề 5 (cấp 5–6). Bốn mẫu cho bốn «nguồn thông tin» của người nói: điều mình dự đoán hay định làm (-(으)ㄹ 테니까/텐데), điều vừa nhìn thấy (-(으)ㄴ 모양이다, -나 보다), điều mình từng tự thấy (-던데요), điều hai bên đã biết (-잖아요). Kèm 31 từ trừu tượng hay gặp ở Đọc 28–50 (기존, 특정, 근거, 예측, 판단…) và các cặp câu Đọc 3–4.",
+  "vocab": [
+    {
+      "hangul": "근거",
+      "pos": "N",
+      "meaning_vi": "Căn cứ, cơ sở",
+      "note_vi": "`근거를 대다/제시하다`; `~을/를 근거로`.",
+      "example_ko": "주장에는 반드시 근거가 있어야 한다.",
+      "example_vi": "Lập luận nhất thiết phải có căn cứ.",
+      "family": "🟢 Nền · Căn cứ, dấu hiệu, suy luận",
+      "priority": "core",
+      "hanja": "根據",
+      "sino_vietnamese": "căn cứ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "신호",
+      "pos": "N",
+      "meaning_vi": "Tín hiệu",
+      "note_vi": "`신호를 보내다/받다`; `신호등` là đèn giao thông.",
+      "example_ko": "몸이 보내는 신호를 무시하면 안 된다.",
+      "example_vi": "Không được phớt lờ tín hiệu mà cơ thể gửi.",
+      "family": "🟢 Nền · Căn cứ, dấu hiệu, suy luận",
+      "priority": "core",
+      "hanja": "信號",
+      "sino_vietnamese": "tín hiệu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "징후",
+      "pos": "N",
+      "meaning_vi": "Dấu hiệu báo trước",
+      "note_vi": "Văn báo chí; gần nghĩa `조짐`. `~의 징후가 나타나다/보이다`.",
+      "example_ko": "경기가 회복되는 징후가 보이기 시작했다.",
+      "example_vi": "Bắt đầu thấy dấu hiệu kinh tế phục hồi.",
+      "family": "🟢 Nền · Căn cứ, dấu hiệu, suy luận",
+      "priority": "recognize",
+      "hanja": "徵候",
+      "sino_vietnamese": "trưng hậu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "움직임",
+      "pos": "N",
+      "meaning_vi": "Sự chuyển động; động thái",
+      "note_vi": "Gốc `움직이다`. Nghĩa bóng: động thái, phong trào (`개혁 움직임`).",
+      "example_ko": "물가를 안정시키려는 정부의 움직임이 빨라지고 있다.",
+      "example_vi": "Động thái muốn ổn định giá cả của chính phủ đang nhanh hơn.",
+      "family": "🟢 Nền · Căn cứ, dấu hiệu, suy luận",
+      "priority": "core"
+    },
+    {
+      "hangul": "의도",
+      "pos": "N",
+      "meaning_vi": "Ý đồ, chủ ý",
+      "note_vi": "`의도하다`, `의도적(으로)`; `무슨 의도로` = với ý đồ gì.",
+      "example_ko": "그의 말에는 다른 의도가 없는 모양이다.",
+      "example_vi": "Có vẻ lời anh ấy không có ý đồ nào khác.",
+      "family": "🟢 Nền · Căn cứ, dấu hiệu, suy luận",
+      "priority": "core",
+      "hanja": "意圖",
+      "sino_vietnamese": "ý đồ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "추측",
+      "pos": "N",
+      "meaning_vi": "Sự phỏng đoán",
+      "note_vi": "`추측하다`; gần `짐작`, `예상`.",
+      "example_ko": "확실한 근거 없이 추측으로 말하면 안 된다.",
+      "example_vi": "Không được nói bằng suy đoán khi không có căn cứ chắc chắn.",
+      "family": "🟢 Nền · Căn cứ, dấu hiệu, suy luận",
+      "priority": "recognize",
+      "hanja": "推測",
+      "sino_vietnamese": "suy trắc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "짐작",
+      "pos": "N",
+      "meaning_vi": "Sự đoán chừng",
+      "note_vi": "`짐작이 가다/하다`. Gốc Hán 斟酌 nhưng nghĩa Hàn là «đoán», **không phải** «châm chước» (khoan dung) như tiếng Việt.",
+      "example_ko": "표정만 봐도 무슨 일이 있었는지 짐작이 간다.",
+      "example_vi": "Chỉ nhìn nét mặt cũng đoán được đã có chuyện gì.",
+      "family": "🟢 Nền · Căn cứ, dấu hiệu, suy luận",
+      "priority": "recognize",
+      "hanja": "斟酌",
+      "sino_vietnamese": "châm chước",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "예측",
+      "pos": "N",
+      "meaning_vi": "Dự báo, dự đoán",
+      "note_vi": "`예측하다/예측되다`, `예측할 수 없다`. `예측` thiên về tính toán; `예상` là dự kiến chung.",
+      "example_ko": "전문가들은 내년 성장률을 낮게 예측했다.",
+      "example_vi": "Các chuyên gia dự báo mức tăng trưởng năm sau thấp.",
+      "family": "🟢 Nền · Căn cứ, dấu hiệu, suy luận",
+      "priority": "core",
+      "hanja": "豫測",
+      "sino_vietnamese": "dự trắc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "판단",
+      "pos": "N",
+      "meaning_vi": "Phán đoán, nhận định",
+      "note_vi": "`판단하다`; `판단력` = khả năng phán đoán.",
+      "example_ko": "정확한 판단을 하려면 먼저 정보를 모아야 한다.",
+      "example_vi": "Muốn phán đoán chính xác thì trước hết phải thu thập thông tin.",
+      "family": "🟢 Nền · Căn cứ, dấu hiệu, suy luận",
+      "priority": "core",
+      "hanja": "判斷",
+      "sino_vietnamese": "phán đoạn",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "확신",
+      "pos": "N",
+      "meaning_vi": "Sự tin chắc",
+      "note_vi": "`확신하다`. `확실하다` nói về sự thật chắc chắn, `확신` là niềm tin của người nói.",
+      "example_ko": "그는 자신의 계획이 성공할 것이라고 확신했다.",
+      "example_vi": "Anh ấy tin chắc kế hoạch của mình sẽ thành công.",
+      "family": "🟢 Nền · Căn cứ, dấu hiệu, suy luận",
+      "priority": "recognize",
+      "hanja": "確信",
+      "sino_vietnamese": "xác tín",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "관찰",
+      "pos": "N",
+      "meaning_vi": "Sự quan sát",
+      "note_vi": "`관찰하다`; `관찰력`.",
+      "example_ko": "아이의 행동을 관찰하면 성격을 알 수 있다.",
+      "example_vi": "Quan sát hành vi của trẻ thì có thể biết tính cách.",
+      "family": "🟢 Nền · Căn cứ, dấu hiệu, suy luận",
+      "priority": "recognize",
+      "hanja": "觀察",
+      "sino_vietnamese": "quan sát",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "알아채다",
+      "pos": "V",
+      "meaning_vi": "Nhận ra, phát hiện ra",
+      "note_vi": "Gần `눈치채다`.",
+      "example_ko": "그는 분위기가 이상한 것을 금방 알아챘다.",
+      "example_vi": "Anh ấy nhanh chóng nhận ra không khí lạ.",
+      "family": "🟢 Nền · Căn cứ, dấu hiệu, suy luận",
+      "priority": "core"
+    },
+    {
+      "hangul": "드러나다",
+      "pos": "V",
+      "meaning_vi": "Lộ ra, hiện rõ",
+      "note_vi": "Tự động từ. Tha động từ: `드러내다` (để lộ): `감정을 드러내다`.",
+      "example_ko": "조사 결과 사고의 원인이 드러났다.",
+      "example_vi": "Kết quả điều tra làm lộ ra nguyên nhân tai nạn.",
+      "family": "🟢 Nền · Căn cứ, dấu hiệu, suy luận",
+      "priority": "core"
+    },
+    {
+      "hangul": "지켜보다",
+      "pos": "V",
+      "meaning_vi": "Theo dõi, quan sát chờ diễn biến",
+      "note_vi": "Nhìn chăm chú để xem việc sẽ ra sao.",
+      "example_ko": "정부는 시장의 반응을 지켜보고 있다.",
+      "example_vi": "Chính phủ đang theo dõi phản ứng của thị trường.",
+      "family": "🟢 Nền · Căn cứ, dấu hiệu, suy luận",
+      "priority": "core"
+    },
+    {
+      "hangul": "바라보다",
+      "pos": "V",
+      "meaning_vi": "Nhìn về; nhìn nhận",
+      "note_vi": "Nghĩa đen «nhìn về phía»; nghĩa bóng «nhìn nhận».",
+      "example_ko": "세상을 긍정적으로 바라보는 태도가 중요하다.",
+      "example_vi": "Thái độ nhìn thế giới một cách tích cực là quan trọng.",
+      "family": "🟢 Nền · Căn cứ, dấu hiệu, suy luận",
+      "priority": "core"
+    },
+    {
+      "hangul": "존재",
+      "pos": "N",
+      "meaning_vi": "Sự tồn tại; người/vật tồn tại",
+      "note_vi": "`존재하다`. `없어서는 안 될 존재` = người/vật không thể thiếu.",
+      "example_ko": "그에게 가족은 없어서는 안 될 존재이다.",
+      "example_vi": "Với anh ấy, gia đình là một sự tồn tại không thể thiếu.",
+      "family": "🟢 Nền · Căn cứ, dấu hiệu, suy luận",
+      "priority": "core",
+      "hanja": "存在",
+      "sino_vietnamese": "tồn tại",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "요소",
+      "pos": "N",
+      "meaning_vi": "Yếu tố",
+      "note_vi": "`중요한 요소`, `핵심 요소`.",
+      "example_ko": "건강에 영향을 주는 요소는 여러 가지이다.",
+      "example_vi": "Có nhiều yếu tố ảnh hưởng đến sức khoẻ.",
+      "family": "🟢 Nền · Căn cứ, dấu hiệu, suy luận",
+      "priority": "core",
+      "hanja": "要素",
+      "sino_vietnamese": "yếu tố",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "특정",
+      "pos": "N",
+      "meaning_vi": "Nhất định, cụ thể",
+      "note_vi": "Đứng trước danh từ: `특정 + N`, `특정한 + N`. Đối: `불특정 다수` (số đông không xác định).",
+      "example_ko": "특정 나이대에서만 유행하는 말도 있다.",
+      "example_vi": "Cũng có những từ chỉ thịnh hành ở một độ tuổi nhất định.",
+      "family": "🟡 Dạng thi · Thời điểm, mức độ, cách nhìn nhận",
+      "priority": "core",
+      "hanja": "特定",
+      "sino_vietnamese": "đặc định",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "기존",
+      "pos": "N",
+      "meaning_vi": "Cái vốn có, hiện hành",
+      "note_vi": "`기존 + N` (기존 고객, 기존 제품). Đối với `신규` (mới).",
+      "example_ko": "기존 방식으로는 이 문제를 해결하기 어렵다.",
+      "example_vi": "Với cách làm hiện có thì khó giải quyết vấn đề này.",
+      "family": "🟡 Dạng thi · Thời điểm, mức độ, cách nhìn nhận",
+      "priority": "core",
+      "hanja": "旣存",
+      "sino_vietnamese": "ký tồn",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "평소",
+      "pos": "N",
+      "meaning_vi": "Ngày thường, lúc bình thường",
+      "note_vi": "`평소에`, `평소와 달리`, `평소처럼`.",
+      "example_ko": "그는 평소와 달리 오늘은 말이 없다.",
+      "example_vi": "Hôm nay anh ấy không nói gì, khác ngày thường.",
+      "family": "🟡 Dạng thi · Thời điểm, mức độ, cách nhìn nhận",
+      "priority": "core",
+      "hanja": "平素",
+      "sino_vietnamese": "bình tố",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "당시",
+      "pos": "N",
+      "meaning_vi": "Hồi đó, lúc đó",
+      "note_vi": "Chỉ thời điểm đã nhắc ở trước; thường đi với quá khứ.",
+      "example_ko": "당시에는 스마트폰이 지금처럼 흔하지 않았다.",
+      "example_vi": "Hồi đó điện thoại thông minh không phổ biến như bây giờ.",
+      "family": "🟡 Dạng thi · Thời điểm, mức độ, cách nhìn nhận",
+      "priority": "core",
+      "hanja": "當時",
+      "sino_vietnamese": "đương thời",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "순간",
+      "pos": "N",
+      "meaning_vi": "Khoảnh khắc",
+      "note_vi": "`-는 순간` / `-(으)ㄴ 순간` = ngay lúc ….",
+      "example_ko": "문이 열리는 순간 모든 사람이 조용해졌다.",
+      "example_vi": "Khoảnh khắc cửa mở ra, mọi người đều im lặng.",
+      "family": "🟡 Dạng thi · Thời điểm, mức độ, cách nhìn nhận",
+      "priority": "core",
+      "hanja": "瞬間",
+      "sino_vietnamese": "thuấn gian",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "제대로",
+      "pos": "X",
+      "meaning_vi": "Đúng cách, cho ra hồn",
+      "note_vi": "Hay đi với `못하다/않다`: `제대로 못 하다`.",
+      "example_ko": "잠을 제대로 자지 못하면 집중력이 떨어진다.",
+      "example_vi": "Nếu không ngủ cho tử tế thì sức tập trung giảm.",
+      "family": "🟡 Dạng thi · Thời điểm, mức độ, cách nhìn nhận",
+      "priority": "core"
+    },
+    {
+      "hangul": "흔하다",
+      "pos": "A",
+      "meaning_vi": "Phổ biến, thường gặp",
+      "note_vi": "Trái nghĩa: `드물다`. Phó từ `흔히`.",
+      "example_ko": "요즘은 혼자 사는 사람이 흔하다.",
+      "example_vi": "Dạo này người sống một mình rất phổ biến.",
+      "family": "🟡 Dạng thi · Thời điểm, mức độ, cách nhìn nhận",
+      "priority": "core"
+    },
+    {
+      "hangul": "실제로",
+      "pos": "X",
+      "meaning_vi": "Trên thực tế",
+      "note_vi": "`실제` (N) = thực tế.",
+      "example_ko": "실제로 해 보니 생각보다 어렵지 않았다.",
+      "example_vi": "Thực tế làm thử thì không khó như nghĩ.",
+      "family": "🟡 Dạng thi · Thời điểm, mức độ, cách nhìn nhận",
+      "priority": "core",
+      "hanja": "實際",
+      "sino_vietnamese": "thực tế",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "비교적",
+      "pos": "X",
+      "meaning_vi": "Tương đối, khá",
+      "note_vi": "Phó từ làm nhẹ mức độ.",
+      "example_ko": "이 지역은 비교적 물가가 낮은 편이다.",
+      "example_vi": "Khu vực này giá cả tương đối thấp.",
+      "family": "🟡 Dạng thi · Thời điểm, mức độ, cách nhìn nhận",
+      "priority": "recognize",
+      "hanja": "比較的",
+      "sino_vietnamese": "tỷ giảo đích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "무려",
+      "pos": "X",
+      "meaning_vi": "Tới tận (nhấn mạnh con số lớn)",
+      "note_vi": "Đứng trước số lượng, báo hiệu «nhiều hơn dự tính».",
+      "example_ko": "이 책은 출간 첫 달에 무려 십만 부가 팔렸다.",
+      "example_vi": "Cuốn sách này tháng đầu phát hành đã bán tới tận mười vạn bản.",
+      "family": "🟡 Dạng thi · Thời điểm, mức độ, cách nhìn nhận",
+      "priority": "recognize",
+      "hanja": "無慮",
+      "sino_vietnamese": "vô lự",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "단순히",
+      "pos": "X",
+      "meaning_vi": "Chỉ đơn thuần",
+      "note_vi": "Thường đi với phủ định để nói «không chỉ vậy».",
+      "example_ko": "이 문제는 단순히 개인의 잘못이 아니다.",
+      "example_vi": "Vấn đề này không chỉ đơn thuần là lỗi của cá nhân.",
+      "family": "🟡 Dạng thi · Thời điểm, mức độ, cách nhìn nhận",
+      "priority": "recognize",
+      "hanja": "單純",
+      "sino_vietnamese": "đơn thuần",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "비록",
+      "pos": "X",
+      "meaning_vi": "Dù (là)",
+      "note_vi": "`비록 -지만 / -아/어도`: nhượng bộ trang trọng.",
+      "example_ko": "비록 작은 일이지만 끝까지 책임을 져야 한다.",
+      "example_vi": "Dù là việc nhỏ nhưng phải chịu trách nhiệm đến cùng.",
+      "family": "🟡 Dạng thi · Thời điểm, mức độ, cách nhìn nhận",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "드디어",
+      "pos": "X",
+      "meaning_vi": "Cuối cùng thì (sau chờ đợi)",
+      "note_vi": "Dùng cho việc mong đợi; `결국` là «rốt cuộc», không nhất thiết mong đợi.",
+      "example_ko": "오랜 준비 끝에 드디어 새 정책이 발표되었다.",
+      "example_vi": "Sau thời gian dài chuẩn bị, cuối cùng chính sách mới đã được công bố.",
+      "family": "🟡 Dạng thi · Thời điểm, mức độ, cách nhìn nhận",
+      "priority": "recognize"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V/A + -(으)ㄹ 테니까 · V/A + -(으)ㄹ 텐데",
+      "meaning_vi": "Vì (tôi định / chắc là) … nên … · Chắc là … vậy mà …",
+      "usage_context_vi": "**Cấu tạo:** `-(으)ㄹ 터이다` rút gọn: `-(으)ㄹ 테니(까)` và `-(으)ㄹ 텐데`. Gốc có patchim `-을 테니까` (먹을 테니까), không patchim hoặc gốc ㄹ `-ㄹ 테니까` (갈 테니까, 만들 테니까). Quá khứ: `-았/었을 테니까/텐데`. Danh từ: `N일 테니까`. `테` là danh từ phụ thuộc nên **viết cách**.\n**Hoàn cảnh dùng:** (1) `-(으)ㄹ 테니까` nêu **ý định của người nói** hoặc **dự đoán** làm lý do, rồi vế sau là lời khuyên, đề nghị, mệnh lệnh: `제가 준비할 테니까 쉬세요.` (2) `-(으)ㄹ 텐데` nêu dự đoán làm **bối cảnh**, vế sau là lời nhờ, lời cảm ơn, điều trái với dự đoán hoặc sự tiếc nuối: `바쁘실 텐데 감사합니다.`\n**Vì sao chọn nó:** `-(으)니까` chỉ lý do đã thấy/đã xảy ra. Khi lý do là điều **chưa xảy ra** (dự đoán, ý định) thì `-(으)ㄹ 테니까` là cách nói tự nhiên và gọn hơn `-(으)ㄹ 것이니까`. `텐데` có thêm sắc thái thông cảm hay lo cho người nghe, nên rất hay có mặt trong lời cảm ơn, xin lỗi, nhờ vả.",
+      "contrasts": [
+        {
+          "pattern": "V/A + -(으)니까",
+          "diff_vi": "`-(으)니까` nêu lý do có thật (đã thấy, đã xảy ra); `-(으)ㄹ 테니까` nêu lý do là dự đoán hoặc ý định."
+        },
+        {
+          "pattern": "V + -(으)ㄹ게요",
+          "diff_vi": "`-(으)ㄹ게요` chỉ hứa/định làm một việc; `-(으)ㄹ 테니까` gắn ý định đó thành **lý do** cho lời đề nghị tiếp theo."
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는데",
+          "diff_vi": "`-(으)ㄴ/는데` nêu bối cảnh **có thật**; `-(으)ㄹ 텐데` nêu bối cảnh **dự đoán**."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Viết liền: ✗ `갈테니까` → ✓ `갈 테니까`.\n(2) Dùng cho lý do đã xảy ra: ✗ `어제 늦게 잔 테니까 오늘 피곤해요` → ✓ `어제 늦게 자서 오늘 피곤해요`.\n(3) Sau `-(으)ㄹ 테니까` lại kể bằng quá khứ: ✗ `제가 갈 테니까 쉬었어요` → ✓ `제가 갈 테니까 쉬세요`.",
+      "example_ko": "제가 먼저 가서 자리를 맡아 놓을 테니까 천천히 오세요.\n내일은 기온이 많이 떨어질 테니까 두꺼운 옷을 입고 나가세요.\n바쁘실 텐데 시간을 내 주셔서 감사합니다.\n일찍 출발했으면 늦지 않았을 텐데 아쉽다.",
+      "example_vi": "Tôi sẽ đến trước giữ chỗ nên anh cứ thong thả đến.\nNgày mai chắc nhiệt độ sẽ giảm nhiều, hãy mặc áo dày ra ngoài.\nChắc anh rất bận mà vẫn dành thời gian cho tôi, cảm ơn.\nGiá mà xuất phát sớm thì đã không muộn, tiếc thật.",
+      "topik_tip_vi": "Trong đề, `-(으)ㄹ 테니까` gần như luôn đứng trước một lời đề nghị hoặc khuyên (`-(으)세요`, `-(으)ㅂ시다`). Thấy vế sau là lời đề nghị và vế trước là điều chưa xảy ra thì chọn nó.",
+      "importance": "must"
+    },
+    {
+      "pattern": "V/A + -(으)ㄴ/는 모양이다 · V + -나 보다 · A + -(으)ㄴ가 보다",
+      "meaning_vi": "Có vẻ như … (suy ra từ điều vừa thấy)",
+      "usage_context_vi": "**Cấu tạo:** Động từ hiện tại `-는 모양이다` (오는 모양이다), động từ quá khứ và tính từ `-(으)ㄴ 모양이다` (온 모양이다, 바쁜 모양이다), danh từ `N인 모양이다`. Hai dạng khẩu ngữ: động từ và `있다/없다` + `-나 보다` (비가 오나 보다, 없나 보다), tính từ và `이다` + `-(으)ㄴ가 보다` (바쁜가 보다, 학생인가 보다). Quá khứ: `-았/었나 보다`. Dấu hiệu đi cùng: `-는 걸 보니(까)`.\n**Hoàn cảnh dùng:** Người nói **nhìn hay nghe thấy một dấu hiệu** rồi suy ra tình trạng hiện tại hoặc việc đã xảy ra: `불이 꺼져 있는 걸 보니 아무도 없나 봐요.` Hay dùng để nói về **người khác** hoặc sự việc xung quanh.\n**Vì sao chọn nó:** Khác với `-(으)ㄹ 것 같다` (đoán chung, cả khi chỉ là cảm giác), mẫu này **luôn cần căn cứ nhìn thấy**; vì vậy câu hay có `-는 걸 보니`. `-(으)ㄴ 모양이다` dùng được cả trong văn viết, còn `-나 보다` thiên về nói.",
+      "contrasts": [
+        {
+          "pattern": "V/A + -(으)ㄴ/는/(으)ㄹ 것 같다",
+          "diff_vi": "`-것 같다` đoán dựa trên bất cứ điều gì, kể cả linh cảm; `-모양이다`/`-나 보다` cần dấu hiệu cụ thể."
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 듯하다 · N + 인 듯하다",
+          "diff_vi": "`-듯하다` trang trọng, hay gặp trong văn viết; `-나 보다` thân mật."
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ지도 모르다",
+          "diff_vi": "`-(으)ㄹ지도 모르다` nói **khả năng** có thể xảy ra, không dựa vào dấu hiệu đang thấy."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Nói về dự đoán tương lai không có dấu hiệu: ✗ `내일 시험이 어려운 모양이에요` (chưa có gì để thấy) → ✓ `어려울 것 같아요`.\n(2) Sai thì: ✗ `길이 젖어 있어서 밤새 비가 오는 모양이다` → ✓ `…비가 온 모양이다` (việc đã xảy ra).\n(3) Bỏ căn cứ rồi suy đoán lung tung: câu `-모양이다` nên đi sau một căn cứ rõ như `-는 걸 보니`.",
+      "example_ko": "사람들이 우산을 쓰고 있는 걸 보니 비가 오는 모양이다.\n불이 꺼진 걸 보니 아직 돌아오지 않은 모양이에요.\n동생이 계속 하품을 하는 걸 보니 어제 잠을 못 잤나 봐요.\n가게 문이 닫혀 있네요. 오늘은 쉬는 날인가 봐요.",
+      "example_vi": "Thấy mọi người che ô thì có vẻ trời đang mưa.\nThấy đèn tắt thì có vẻ anh ấy chưa về.\nThấy em cứ ngáp suốt, chắc hôm qua em không ngủ được.\nCửa tiệm đóng này. Chắc hôm nay là ngày nghỉ.",
+      "topik_tip_vi": "Câu 3–4 Đọc thường cho cặp `-(으)ㄴ 모양이다` ≈ `-나 보다`: nghĩa như nhau (suy ra từ dấu hiệu). Hãy chọn đáp án giữ nguyên **thì** (hiện tại / quá khứ) của câu gạch chân.",
+      "importance": "must"
+    },
+    {
+      "pattern": "V/A + -던데(요)",
+      "meaning_vi": "(Hồi nãy/hôm qua) tôi thấy … đấy (nên …)",
+      "usage_context_vi": "**Cấu tạo:** Gốc V/A + `-던데`; quá khứ `-았/었던데`; danh từ `N(이)던데`. Ở cuối câu thêm `요`: `-던데요`. Là `-던` (hồi tưởng) + `-(으)ㄴ데` (bối cảnh).\n**Hoàn cảnh dùng:** Chia sẻ điều **chính mình đã trực tiếp thấy/nghe/trải qua** trước đây để làm bối cảnh cho lời gợi ý, câu hỏi, hay để nhẹ nhàng nêu điều khác với người nghe: `어제 가 보니까 사람이 많던데요.` Chủ ngữ thường là người khác hoặc sự vật.\n**Vì sao chọn nó:** Nếu chỉ muốn thông báo điều mới phát hiện thì dùng `-더라고요`; `-던데요` thì **bỏ lửng**, chờ người nghe phản ứng (đồng ý, cân nhắc, hỏi lại). Do đó nó rất hợp khi cần gợi ý nhẹ.",
+      "contrasts": [
+        {
+          "pattern": "V/A + -더라고요",
+          "diff_vi": "`-더라고요` kể điều mình vừa nhận ra; `-던데요` kể điều mình thấy làm nền để người nghe phản hồi."
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는데",
+          "diff_vi": "`-(으)ㄴ/는데` nói bối cảnh hiện tại hay có thật; `-던데` bối cảnh **đã thấy trong quá khứ**."
+        },
+        {
+          "pattern": "V/A + -(ㄴ/는)다고 하다",
+          "diff_vi": "Nghe kể lại thì dùng `-대요/-다고 해요`; `-던데요` chỉ khi mình đã tự thấy."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng cho điều nghe người khác kể: ✗ `(chưa từng đến) 그 식당 맛있던데요` → ✓ `그 식당이 맛있대요`.\n(2) Dùng cho việc mình tự làm và hoàn toàn biết rõ: ✗ `저는 어제 집에 있던데요` → ✓ `저는 어제 집에 있었어요`.\n(3) Quên bỏ lửng: câu `-던데요` thường theo sau là lời gợi ý, không dừng đột ngột khi người nghe cần kết luận.",
+      "example_ko": "어제 그 식당에 가 봤는데 사람이 정말 많던데요.\n아까 보니까 민수 씨가 회의실에 있던데 한번 가 보세요.\n이 영화는 평이 좋던데 같이 볼까요?\n어제는 바람이 불고 꽤 춥던데 오늘은 따뜻하네요.",
+      "example_vi": "Hôm qua tôi thử đến nhà hàng đó, đông người lắm đấy.\nLúc nãy tôi thấy anh Minsu ở phòng họp, anh thử qua xem.\nPhim này đánh giá tốt đấy, mình xem cùng nhé?\nHôm qua gió thổi và khá lạnh, hôm nay thì ấm nhỉ.",
+      "topik_tip_vi": "Trong bài nghe, `-던데요` báo hiệu «tôi đã thấy tận mắt». Câu tiếp theo thường là gợi ý (`가 보세요`, `같이 볼까요?`).",
+      "importance": "normal"
+    },
+    {
+      "pattern": "V/A + -잖아(요) · N + (이)잖아(요)",
+      "meaning_vi": "… mà, chẳng phải … sao? (nhắc điều hai bên đã biết)",
+      "usage_context_vi": "**Cấu tạo:** `-지 않아(요)?` rút gọn thành `-잖아(요)`. V/A + `-잖아요`; quá khứ `-았/었잖아요`; danh từ `N(이)잖아요` (일요일이잖아요). Câu nói (khẩu ngữ).\n**Hoàn cảnh dùng:** Nhắc điều **người nghe cũng biết hoặc nên biết**, để nêu lý do, động viên hay trách nhẹ: `오늘은 일요일이잖아요.` / `평소에 잘하잖아요.` Dùng trong hội thoại, không dùng trong văn viết 한다체.\n**Vì sao chọn nó:** Với điều người nghe có thể chưa biết, dùng `-거든요` (đưa thêm lý do mới). Với điều cả hai đã biết, `-잖아요` làm câu tự nhiên và thân hơn việc giải thích lại từ đầu.",
+      "contrasts": [
+        {
+          "pattern": "V/A + -거든요",
+          "diff_vi": "`-거든요` đưa lý do người nghe **chưa biết**; `-잖아요` nhắc điều người nghe **đã biết**."
+        },
+        {
+          "pattern": "V/A + -지요? (-죠?)",
+          "diff_vi": "`-지요?` hỏi xác nhận nhẹ; `-잖아요` mang sắc thái «sao lại quên?» hoặc «đã nói rồi mà»."
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는데요",
+          "diff_vi": "`-(으)ㄴ/는데요` nêu bối cảnh; `-잖아요` nhắc lại."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng khi người nghe chưa hề biết: ✗ (nói với người mới gặp) `저는 어제 한국에 왔잖아요` → ✓ `어제 한국에 왔어요`.\n(2) Dùng với người trên bằng giọng trách: nghe thiếu lịch sự; hãy nói nhẹ hơn hoặc dùng `-(으)ㅂ니다`.\n(3) Dùng trong bài viết 한다체: ✗ `…잖아요`. Văn viết dùng `-다시피` hoặc `알려진 바와 같이`.",
+      "example_ko": "오늘은 일요일이잖아요. 은행이 문을 닫았을 거예요.\n내가 아까 말했잖아. 회의는 세 시에 시작한다고.\n그 사람은 우리 회사 사장님이잖아요.\n어제 같이 갔잖아요. 기억 안 나세요?",
+      "example_vi": "Hôm nay là chủ nhật mà. Chắc ngân hàng đóng cửa.\nLúc nãy tôi đã nói rồi mà. Họp bắt đầu lúc ba giờ.\nNgười đó là giám đốc công ty mình mà.\nHôm qua mình đi cùng nhau mà. Anh không nhớ à?",
+      "topik_tip_vi": "Trong nghe, hãy nghe giọng: `평소에 잘하잖아요` (giọng ấm) là **động viên**; `아까 말했잖아요` (giọng nhấn) là **trách nhẹ**. Cùng một mẫu, hai thái độ.",
+      "importance": "normal"
+    },
+    {
+      "pattern": "V/A + -(으)ㄴ/는 듯이 · N + (이)듯이",
+      "meaning_vi": "Như thể …, giống như … (so sánh hành động, trạng thái với một hình ảnh)",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** động từ `-는 듯이` (hiện tại), `-(으)ㄴ 듯이` (quá khứ), `-(으)ㄹ 듯이` (sắp); tính từ `-(으)ㄴ 듯이`; danh từ `(이)듯이`. Dạng `-듯(이)` gắn thẳng gốc dùng trong thành ngữ: `물 쓰듯 돈을 쓰다`.\n**Hoàn cảnh dùng:** Tả **cách thức** của hành động bằng một hình ảnh so sánh, rất hay trong văn kể, báo chí: `그는 아무 일도 없었다는 듯이 웃었다`, `비가 쏟아질 듯이 하늘이 어두워졌다`.\n**Vì sao chọn nó:** `-는 것처럼` là cách nói thường ngày; `-는 듯이` trang trọng, văn chương hơn. `-(으)ㄴ/는 듯하다` ở cuối câu là **phỏng đoán**, còn `-듯이` giữa câu là **so sánh cách thức**.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Dự đoán, suy luận, quan sát, nhắc lại: -(으)ㄹ 테니까 · -ㄴ 모양이다 · -던데 · -잖아요»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V/A + -(으)ㄴ/는 것처럼",
+          "diff_vi": "Cùng nghĩa, văn nói, ít văn chương hơn."
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 듯하다 · N + 인 듯하다",
+          "diff_vi": "Cuối câu: phỏng đoán «hình như»; không phải so sánh cách thức."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Chọn sai định ngữ theo thì: ✗ `잠을 못 잔 듯이 피곤해 보인다` vẫn đúng; nhưng ✗ `쏟아진 듯이 어두워졌다` (khi muốn nói «sắp đổ») → ✓ `쏟아질 듯이`.\n(2) Nhầm với `-듯하다`: ✗ `비가 올 듯이.` (dừng câu) → cuối câu dùng `비가 올 듯하다`.\n(3) Danh từ: ✗ `꿈인 듯이` (được nhưng nặng) — thành ngữ thường `꿈같이`, `꿈처럼`; dùng `(이)듯이` chủ yếu trong văn viết.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "그는 아무 일도 없었다는 듯이 웃으며 인사했다.\n곧 비가 쏟아질 듯이 하늘이 어두워졌다.\n사람마다 얼굴이 다르듯이 생각도 다르다.",
+      "example_vi": "Anh ta cười chào như thể chưa từng có chuyện gì.\nTrời tối sầm lại như thể sắp đổ mưa.\nMỗi người một khuôn mặt, suy nghĩ cũng khác nhau như vậy.",
+      "topik_tip_vi": "Đọc 19–20 và đọc văn học 42–43: `-듯이` tả thái độ, cảm xúc nhân vật; câu hỏi tâm trạng/thái độ dựa vào hình ảnh so sánh này.",
+      "use_level": "produce",
+      "source": "EXT-SUP-32"
+    },
+    {
+      "pattern": "V/A + -(느)ㄴ다는 듯이 · N + (이)라는 듯이",
+      "meaning_vi": "Như thể muốn nói là … — thái độ, cử chỉ thể hiện một ý mà không nói ra",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** lời tường thuật + `듯이`: `-(느)ㄴ다는 듯이` (`안다는 듯이`), `-았/었다는 듯이`, `N(이)라는 듯이`, `-자는 듯이`, `-(으)라는 듯이`.\n**Hoàn cảnh dùng:** Tả **cử chỉ, nét mặt** như đang nói một câu: `그녀는 다 안다는 듯이 고개를 끄덕였다.` `빨리 하라는 듯이 시계를 쳐다봤다.` Đặc trưng của văn kể, đọc văn học.\n**Vì sao chọn nó:** `-는 듯이` so sánh với **trạng thái**; `-다는 듯이` so sánh với **một lời nói ngầm** (như thể nói rằng …). Đọc được dạng này giúp đoán thái độ nhân vật.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Dự đoán, suy luận, quan sát, nhắc lại: -(으)ㄹ 테니까 · -ㄴ 모양이다 · -던데 · -잖아요»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V/A + -(으)ㄴ/는 듯이 · N + (이)듯이",
+          "diff_vi": "So sánh cách thức, không qua «lời nói ngầm»."
+        },
+        {
+          "pattern": "V/A + -(ㄴ/는)다고 하다 · -다는 + N",
+          "diff_vi": "Tường thuật lời nói thật sự; `-다는 듯이` là lời **không nói ra**, chỉ thể hiện qua cử chỉ."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Bỏ phần tường thuật: ✗ `안 듯이 고개를 끄덕였다` (thành «như thể đã ôm») → ✓ `안다는 듯이`.\n(2) Chọn sai loại câu: thúc giục → `-(으)라는 듯이`, rủ rê → `-자는 듯이`.\n(3) Dùng ở cuối câu: dạng này luôn đi trước một động từ tả cử chỉ.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "그녀는 다 안다는 듯이 고개를 끄덕였다.\n팀장은 빨리 끝내라는 듯이 시계를 자꾸 쳐다봤다.\n아이는 자기 잘못이 아니라는 듯이 어깨를 으쓱했다.",
+      "example_vi": "Cô ấy gật đầu như thể muốn nói mình biết hết rồi.\nTrưởng nhóm cứ nhìn đồng hồ như muốn bảo hãy làm nhanh lên.\nĐứa bé nhún vai như thể bảo không phải lỗi của nó.",
+      "topik_tip_vi": "Đọc văn học (42–43): câu hỏi «tâm trạng/thái độ của nhân vật» thường dựa vào câu `-다는 듯이`.",
+      "use_level": "produce",
+      "source": "EXT-SUP-33"
+    },
+    {
+      "pattern": "V/A + -(으)ㄹ 게 뻔하다 · -(으)ㄹ 것이 뻔하다",
+      "meaning_vi": "Chắc chắn là sẽ …, rõ ràng là … (dự đoán, thường điều không hay)",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** gốc + `-(으)ㄹ 게 뻔하다` (văn nói) / `-(으)ㄹ 것이 뻔하다` (văn viết): `늦다 → 늦을 게 뻔하다`; quá khứ `-았/었을 게 뻔하다`. Định ngữ: `뻔한 결과`.\n**Hoàn cảnh dùng:** Người nói **chắc chắn** về kết quả dựa vào kinh nghiệm, thường là điều tiêu cực: `지금 출발하면 늦을 게 뻔해요.` `준비 없이 시작하면 실패할 것이 뻔하다.`\n**Vì sao chọn nó:** `-(으)ㄹ 것이다` là dự đoán thường; `-(으)ㄹ 게 뻔하다` mạnh hơn, mang sắc thái **«ai cũng thấy trước, chẳng cần đoán»**, đôi khi chê trách.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Dự đoán, suy luận, quan sát, nhắc lại: -(으)ㄹ 테니까 · -ㄴ 모양이다 · -던데 · -잖아요»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V + -(으)ㄹ 뻔하다",
+          "diff_vi": "«Suýt nữa thì …» (việc đã không xảy ra) — khác hẳn nghĩa."
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 것이다",
+          "diff_vi": "Dự đoán trung tính."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Nhầm với `-(으)ㄹ 뻔하다`: ✗ `늦을 뻔해요` (sắp suýt trễ?) khi muốn nói «chắc chắn trễ» → ✓ `늦을 게 뻔해요`.\n(2) Thiếu `게/것이`: ✗ `늦을 뻔하다` (suýt trễ) ≠ `늦을 게 뻔하다`.\n(3) Dùng cho mong ước tích cực của mình: nghe lạ; mẫu này hợp với dự đoán chắc chắn, thường là xấu.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "지금 출발하면 회의에 늦을 게 뻔해요.\n준비 없이 사업을 시작하면 실패할 것이 뻔하다.\n그 사람은 이번에도 핑계를 댈 게 뻔해.",
+      "example_vi": "Giờ mới đi thì chắc chắn trễ họp.\nBắt đầu kinh doanh mà không chuẩn bị thì rõ là thất bại.\nNgười đó lần này chắc chắn lại viện cớ.",
+      "topik_tip_vi": "Đọc (thái độ người viết): `-(으)ㄹ 것이 뻔하다` cho thấy người viết chắc chắn, phê phán; đáp án thái độ «lo ngại», «hoài nghi».",
+      "use_level": "produce",
+      "source": "EXT-SUP-34"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài",
+      "body": "Đây là bài đầu của Chủ đề 5 (mức 5–6). Sau bài này bạn làm được bốn việc:\n① chọn đúng giữa **bốn mẫu theo nguồn thông tin của người nói**: dự đoán/ý định (`-(으)ㄹ 테니까`), dấu hiệu vừa thấy (`-(으)ㄴ 모양이다`, `-나 보다`), điều mình đã tự thấy (`-던데요`), điều hai bên đã biết (`-잖아요`);\n② nghe câu 17–30 và đoán **thái độ** của người nói (động viên, lo lắng, nhắc nhở);\n③ làm cặp câu Đọc 3–4: `-(으)ㄴ 모양이다` ≈ `-나 보다`, `-(으)ㄹ 테니` ≈ `-(으)ㄹ 것이니`;\n④ biết 31 từ trừu tượng hay gặp ở Đọc 28–50: `기존`, `특정`, `근거`, `예측`, `판단`…\nMẫu nào cũng được dạy bằng một câu hỏi: **người nói biết điều này từ đâu?**",
+      "kind": "goal"
+    },
+    {
+      "title": "Bốn mẫu, bốn nguồn thông tin",
+      "body": "Trước khi chọn mẫu hãy hỏi: **người nói biết điều đó từ đâu?**\n🧠 **Trong đầu mình** (dự đoán, ý định) → `-(으)ㄹ 테니까 · -(으)ㄹ 텐데`\n👀 **Vừa nhìn/nghe thấy ngay lúc này** → `-(으)ㄴ/는 모양이다 · -나 보다`\n🕘 **Chính người nói đã tự thấy trước đây** → `-던데(요)`\n🤝 **Hai bên đều biết** → `-잖아(요)`\nCùng một chuyện trời mưa:\n`비가 올 테니까 우산을 챙기세요.` (dự đoán)\n`사람들이 우산을 쓴 걸 보니 비가 오는 모양이에요.` (dấu hiệu)\n`아까 나가 보니 비가 오던데요.` (mình đã thấy)\n`일기 예보에서 비가 온다고 했잖아요.` (hai bên đã biết)",
+      "kind": "language"
+    },
+    {
+      "title": "Cặp câu Đọc 3–4: ba cặp của bài này",
+      "body": "Câu 3–4 cho một câu có phần gạch chân và bạn chọn câu có nghĩa gần nhất. Ba cặp cần nhớ:\n① `-(으)ㄴ 모양이다` ≈ `-나 보다` ≈ `-(으)ㄴ/는 듯하다`: đều là suy ra từ dấu hiệu. `기침을 하는 걸 보니 감기에 걸린 모양이다` ≈ `…감기에 걸렸나 보다`.\n② `-(으)ㄹ 테니(까)` ≈ `-(으)ㄹ 것이니(까)`: `늦지 않을 테니 걱정 마세요` ≈ `늦지 않을 것이니 걱정 마세요`.\n③ `-(으)ㄹ 텐데` ≈ `-(으)ㄹ 것인데`: cùng nghĩa dự đoán; chỉ `텐데` mang thêm sắc thái thông cảm hay lo cho người nghe.\nMẹo: bỏ qua khác biệt nhỏ về sắc thái. Hãy giữ nguyên **thì** (hiện tại hay quá khứ) và **chủ thể** của câu gạch chân.",
+      "kind": "language"
+    },
+    {
+      "title": "Nghe câu 17–30: đoán thái độ qua đuôi câu",
+      "body": "Đề nghe hay hỏi «thái độ/ý định của người nói». Đuôi câu cho gợi ý (là mẹo, không phải quy tắc tuyệt đối):\n• `-(으)ㄹ 텐데` + lời mời, nhờ, cảm ơn: **quan tâm, thông cảm** (`바쁘실 텐데…`).\n• `-잖아요`: nhắc điều đối phương biết; giọng ấm là **động viên**, giọng nhấn là **trách nhẹ**.\n• `-나 봐요 / -(으)ㄴ 모양이에요`: người nói **đang đoán**, chưa chắc; câu sau hay là chờ xem, hỏi lại.\n• `-던데요`: người nói **chia sẻ điều mình thấy** để gợi ý hay phản bác nhẹ.\nLuôn đối chiếu với nội dung cả đoạn, đừng chỉ dựa vào đuôi câu.",
+      "kind": "language"
+    },
+    {
+      "title": "Mẹo Hán–Việt cho 31 từ của bài",
+      "body": "Nhiều từ có âm Hán–Việt gần với tiếng Việt, giúp nhớ nhanh: `판단` (phán đoán), `근거` (căn cứ), `존재` (tồn tại), `요소` (yếu tố), `의도` (ý đồ), `신호` (tín hiệu), `관찰` (quan sát), `확신` (xác tín), `추측` (suy trắc), `당시` (đương thời), `순간` (thuấn gian).\nNhưng đừng đoán mù: `짐작` (斟酌) trong tiếng Hàn là «đoán chừng», còn «châm chước» của tiếng Việt lại có nghĩa khoan dung. `예측` thiên về dự báo có tính toán, `예상` là dự kiến chung. Luôn đối chiếu nghĩa trong ví dụ.",
+      "kind": "language"
+    },
+    {
+      "title": "Một cuộc nói chuyện dùng đủ bốn mẫu",
+      "body": "Hai đồng nghiệp nói về một người chưa đến:\n• `평소에는 제일 먼저 오는데 오늘은 연락도 없어요.`\n• `길이 막히나 봐요. 아침부터 비가 왔잖아요.`\n• `제가 자료를 준비해 놓을 테니까 걱정하지 마세요.`\n• `어제 전화를 오래 받던데 많이 피곤한 모양이에요.`\nBạn thấy: đoán từ dấu hiệu (`나 봐요`, `모양이에요`), nhắc điều ai cũng biết (`왔잖아요`), hứa và trấn an (`테니까`), kể điều mình thấy (`받던데`).",
+      "kind": "sample"
+    },
+    {
+      "title": "Bốn lỗi hay mắc",
+      "body": "① **Viết liền `테`**: `갈테니까` ✗ → `갈 테니까` ✓. `테` là danh từ phụ thuộc.\n② **Dùng `-던데` cho điều nghe kể**: chỉ dùng khi tự mình đã thấy. Nghe kể lại thì `-대요 / -다고 해요`.\n③ **Dùng `-잖아요` trong bài viết**: 한다체 không có `-잖아요`. Muốn nhắc điều ai cũng biết, bài sau dạy `-다시피`.\n④ **`-모양이다` không có căn cứ**: thiếu dấu hiệu nhìn thấy thì dùng `-(으)ㄹ 것 같다`.",
+      "kind": "pitfall"
+    }
+  ],
+  "bank": "xa-hoi",
+  "coach": {
+    "focus_vi": [
+      "Thuộc «bốn nguồn thông tin» và đọc to bốn câu về trời mưa trong ghi chú đến khi trôi chảy.",
+      "Làm hết cặp Đọc 3–4: `-(으)ㄴ 모양이다` ≈ `-나 보다`, `-(으)ㄹ 테니` ≈ `-(으)ㄹ 것이니`.",
+      "Chép 31 từ vào sổ theo hai nhóm: căn cứ & suy luận, thời điểm & mức độ."
+    ],
+    "watch_out_vi": [
+      "`테` luôn viết cách: `갈 테니까`.",
+      "`-던데` chỉ dùng cho điều mình đã tự thấy."
+    ],
+    "notebook_vi": [
+      "Mỗi mẫu một câu nói về chính bạn.",
+      "Cặp dễ lẫn `-잖아요` / `-거든요` kèm một ví dụ."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Một người nói «…는 걸 보니 …모양이에요». Căn cứ của họ nằm ở đâu?",
+        "answer": "Ở phần `-는 걸 보니`: đó là điều họ nhìn thấy ngay lúc nói."
+      },
+      {
+        "prompt_vi": "Vì sao «Hôm qua tôi đến thì quán đông» phải dùng -던데 mà không dùng -(으)ㄹ 테니까?",
+        "answer": "Vì đó là điều đã tự thấy trong quá khứ; `-(으)ㄹ 테니까` chỉ dự đoán hay ý định chưa xảy ra."
+      }
+    ]
+  },
+  "exercise_ids": [
+    "X50L1",
+    "X50L2",
+    "X50L3",
+    "X50L4",
+    "X50D1",
+    "X50D2",
+    "X50R1",
+    "X50R2",
+    "X50R3",
+    "X50R4",
+    "X50R5",
+    "X50R6",
+    "X50R7",
+    "X50R8",
+    "X50R9",
+    "X50R10",
+    "X50B1",
+    "X50B2",
+    "X50B3",
+    "X50B4",
+    "X50B5",
+    "X50B6",
+    "X50B7",
+    "X50F1",
+    "X50F2",
+    "X50E1",
+    "RG51",
+    "XSUP32",
+    "XSUP33",
+    "XSUP34",
+    "SP51"
+  ],
+  "topik2": [
+    {
+      "qid": "102-L-7",
+      "why_vi": "Hội thoại ngắn mức 4급: người nam nhắc điều đã nghe bằng `-다던데` (= `-다고 하던데`) rồi hỏi tiếp. Chọn câu đáp lại đúng câu hỏi cuối."
+    },
+    {
+      "qid": "102-L-23",
+      "why_vi": "Cuộc gọi hỏi cơ quan về việc thuê dụng cụ; người gọi nêu điều mình từng nghe thấy bằng `-던데` rồi mới hỏi. Dạng «người nói đang làm gì» ở mức 5급."
+    },
+    {
+      "qid": "96-L-20",
+      "why_vi": "Một cuộc phỏng vấn ngắn: người trả lời dùng `-잖아요` để nhắc một thực tế ai cũng biết làm tiền đề, rồi nói điều mong muốn. Chọn ý chính của người nói."
+    }
+  ],
+  "editor_notes": [
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "Lesson 51 is a grammar lesson (four 'source of information' endings) with abstract reading vocab, not an essay topic. The speaking topic is taken from its own reading X50R9 (reading people from 표정/몸짓, 신호), where all four endings are natural in a spoken argument; the model uses each once. 짐작° is an optional card but a card, so it is listed. RG targets the lesson's pitfall that -잖아요/-던데요 do not exist in 한다체; -다시피 (taught next lessons) is avoided."
+    }
+  ]
+}

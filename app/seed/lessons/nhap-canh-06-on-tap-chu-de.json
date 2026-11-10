@@ -1,0 +1,394 @@
+{
+  "slug": "nhap-canh-06-on-tap-chu-de",
+  "title": "Ôn tập chủ đề: Nhập cảnh & Thủ tục cư trú",
+  "title_ko": "주제 복습: 입국·체류·이동",
+  "topic": "Bổ trợ · Nhập cảnh & Thủ tục cư trú",
+  "track": "intermediate",
+  "level": 3,
+  "sort_order": 45,
+  "kind": "review",
+  "bank": "nhap-canh",
+  "summary": "Bản đồ 20 mẫu ngữ pháp của chủ đề theo 5 chức năng (khi nào dùng cái nào), bộ 20 câu thi thử tính giờ (4 nghe + 16 đọc) và bài tổng hợp gồm một bài Viết 54 và một câu Nói S6.",
+  "coach": {
+    "goal_vi": "Ôn lại chủ đề Nhập cảnh & Thủ tục cư trú: biết khi nào dùng mẫu nào, thi thử có tính giờ rồi viết và nói một bài tổng hợp.",
+    "focus_vi": [
+      "Bản đồ chức năng: tìm theo việc muốn nói (thông báo, mục đích – lý do, nghĩa vụ – cho phép, hỏi đường…) rồi xem các mẫu ở đó.",
+      "Thi thử có tính giờ: làm một mạch, xong mới xem đáp án và các câu sai.",
+      "Bài tổng hợp: viết một đoạn hướng dẫn thủ tục và nói một câu, dùng đủ số mẫu bắt buộc."
+    ],
+    "watch_out_vi": [
+      "Các cặp dễ lẫn: `-(으)려면` và `-(으)면`, `-(으)면 되다` và `-아/어도 되다`, `-아/어 두다` và `-아/어 있다`."
+    ],
+    "notebook_vi": [
+      "Mỗi cặp dễ lẫn: 1 câu đúng, 1 câu sai (✗) và lý do."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Nói 3 câu hướng dẫn một bạn mới sang Hàn cách làm thẻ cư trú, dùng ít nhất 3 mẫu khác nhau."
+      }
+    ],
+    "tip_vi": "Sau thi thử, chép các câu sai vào Sổ lỗi sai kèm mẫu đúng để ôn lại."
+  },
+  "exercise_ids": [
+    "NCVL01",
+    "NCVL02",
+    "NCVL03",
+    "NCVL04",
+    "NCVLN01",
+    "NCVLN02",
+    "NCVLN03",
+    "NCVLN04",
+    "NCVLN05",
+    "NCVLN06",
+    "NCD01",
+    "NCVR01",
+    "NCVR02",
+    "NCVR03",
+    "NCVR04",
+    "NCVR05",
+    "NCVR06",
+    "NCVR07",
+    "NCVR08",
+    "NCVR09",
+    "NCVR10",
+    "NCVR11",
+    "NCVR12",
+    "NCVR13",
+    "NCVR14",
+    "NCVR15",
+    "NCVR16",
+    "NCVW54",
+    "NCVS6"
+  ],
+  "review": {
+    "functions": [
+      {
+        "id": "thong-bao-ke-hoach",
+        "title_vi": "Thông báo, ý định & kế hoạch",
+        "summary_vi": "Nghe và viết thông báo trên máy bay, xe buýt, ga tàu: việc sắp làm, lịch đã định, lời yêu cầu lịch sự và mốc 'cho đến khi'.",
+        "patterns": [
+          "V + -겠-",
+          "V + -(으)ㄹ 예정이다 · N + 예정이다",
+          "V + -아/어 주시기 바랍니다 · V + -지 마시기 바랍니다",
+          "V + -(으)ㄹ 때까지"
+        ],
+        "rules": [
+          {
+            "when_vi": "Người phục vụ báo trước việc sắp làm ngay (máy bay sắp hạ cánh): `잠시 후 착륙하( )`",
+            "use": [
+              "V + -겠-"
+            ],
+            "note_vi": "`-겠습니다` là lời báo trước của người nói về việc sắp xảy ra, hay đi với `잠시 후`; không dùng thì quá khứ trong trường hợp này."
+          },
+          {
+            "when_vi": "Lịch đã định của xe, tàu, công trình: `버스는 잠시 후 도착할 ( )`",
+            "use": [
+              "V + -(으)ㄹ 예정이다 · N + 예정이다",
+              "V + -겠-"
+            ],
+            "note_vi": "`-(으)ㄹ 예정이다` nói việc đã có lịch và chủ ngữ có thể là vật (`N + 예정이다`: `공사 예정`); `-겠-` là lời báo trước của chính người nói."
+          },
+          {
+            "when_vi": "Thông báo yêu cầu hoặc cấm lịch sự bằng 합쇼체: `안전벨트를 매 주( )`, `일어나지 마( )`",
+            "use": [
+              "V + -아/어 주시기 바랍니다 · V + -지 마시기 바랍니다"
+            ],
+            "note_vi": "Yêu cầu: `-아/어 주시기 바랍니다`; cấm: `-지 마시기 바랍니다`. `-세요` hay `-지 마세요` chỉ là lời nói thường ngày, kém trang trọng hơn trong thông báo."
+          },
+          {
+            "when_vi": "Giữ nguyên một việc cho đến khi có dấu hiệu kết thúc: `이름을 부를 ( ) 기다리다`",
+            "use": [
+              "V + -(으)ㄹ 때까지"
+            ],
+            "note_vi": "`-(으)ㄹ 때까지` = cho đến khi, đi với việc kéo dài (`기다리다`, `앉아 있다`) hoặc lời cấm; khác `-(으)ㄹ 때` (khi)."
+          }
+        ],
+        "pitfalls_vi": [
+          "Dùng thì quá khứ trong thông báo trước (✗ 잠시 후 착륙했습니다 → ✓ 착륙하겠습니다).",
+          "Viết `-지 마세요` trong biển báo trang trọng thay vì `-지 마시기 바랍니다`.",
+          "Nhầm `-(으)ㄹ 때까지` (cho đến khi) với `-(으)ㄹ 때마다` (mỗi lần)."
+        ]
+      },
+      {
+        "id": "muc-dich-ly-do",
+        "title_vi": "Mục đích & lý do",
+        "summary_vi": "Nói đến nơi để làm gì, làm việc gì để đạt mục tiêu, vì sao chọn cách đó, và điều cần làm nếu muốn đạt mục tiêu.",
+        "patterns": [
+          "V + -(으)러 가다/오다/다니다",
+          "V + -(으)려고",
+          "V/A + -아/어서 · N + (이)라서",
+          "V + -(으)려면"
+        ],
+        "rules": [
+          {
+            "when_vi": "Đi/đến nơi để làm gì (vế sau là 가다/오다/다니다): `외국인등록증을 만들( ) 사무소에 갔어요`",
+            "use": [
+              "V + -(으)러 가다/오다/다니다",
+              "V + -(으)려고"
+            ],
+            "note_vi": "`-(으)러` chỉ đi với `가다/오다/다니다`, không gắn `-았/었-` hay `-겠-` trước nó; vế sau là động từ khác thì dùng `-(으)려고`."
+          },
+          {
+            "when_vi": "Nêu mục đích của hành động (vế sau là động từ thường): `한국어를 배우( ) 한국에 왔어요`",
+            "use": [
+              "V + -(으)려고",
+              "V + -(으)러 가다/오다/다니다"
+            ],
+            "note_vi": "`-(으)려고` đi với mọi động từ ở vế sau nhưng vế sau không là mệnh lệnh hay rủ rê; khi cần mệnh lệnh/rủ rê hãy dùng `-(으)려면`."
+          },
+          {
+            "when_vi": "Giải thích lý do của việc đã làm: `길이 막히지 않( ) 공항철도를 탔어요`",
+            "use": [
+              "V/A + -아/어서 · N + (이)라서"
+            ],
+            "note_vi": "`-아/어서` nêu lý do (danh từ: `N(이)라서`); không gắn `-았/었-` hay `-겠-` trước nó, và vế sau không là mệnh lệnh hay rủ rê."
+          },
+          {
+            "when_vi": "Điều cần làm nếu muốn đạt mục tiêu (lời chỉ dẫn): `학교에 가( ) 서울역에서 갈아타세요`",
+            "use": [
+              "V + -(으)려면"
+            ],
+            "note_vi": "`-(으)려면` = nếu muốn …; vế sau là việc cần làm (mệnh lệnh, `-아/어야 하다`, `-(으)면 되다`), không phải câu miêu tả."
+          }
+        ],
+        "pitfalls_vi": [
+          "Gắn `-(으)러` với động từ khác `가다/오다/다니다` (✗ 만들러 샀어요).",
+          "Dùng `-(으)려고` rồi kết bằng mệnh lệnh (✗ 가려고 타세요 → ✓ 가려면 타세요).",
+          "Đưa `-았/었-` vào trước `-아/어서` (✗ 막혔어서 → ✓ 막혀서)."
+        ]
+      },
+      {
+        "id": "nghia-vu-cho-phep",
+        "title_vi": "Nghĩa vụ, cho phép & chuẩn bị",
+        "summary_vi": "Việc bắt buộc theo quy định, việc được phép hay bị cấm, việc chỉ cần làm là đủ và việc làm sẵn để dùng về sau.",
+        "patterns": [
+          "V + -아/어야 하다 · V + -아/어야 되다",
+          "V + -아/어도 되다 · V + -(으)면 안 되다",
+          "V + -(으)면 되다",
+          "V + -아/어 두다 · V + -아/어 놓다"
+        ],
+        "rules": [
+          {
+            "when_vi": "Việc bắt buộc theo quy định: `90일 안에 외국인등록을 해( )`",
+            "use": [
+              "V + -아/어야 하다 · V + -아/어야 되다"
+            ],
+            "note_vi": "`-아/어야 하다/되다` = phải làm; 'không cần' là `-지 않아도 되다`. Đừng dùng `-(으)면 되다` cho việc bắt buộc."
+          },
+          {
+            "when_vi": "Hỏi, cho phép hoặc cấm: `여기에서 사진을 찍어( )?`, `금연 구역에서 담배를 피우면 ( )`",
+            "use": [
+              "V + -아/어도 되다 · V + -(으)면 안 되다"
+            ],
+            "note_vi": "Cho phép: `-아/어도 되다`; cấm: `-(으)면 안 되다`. Hai cấu trúc đối lập, không đổi chỗ cho nhau."
+          },
+          {
+            "when_vi": "Hướng dẫn thủ tục, chỉ cần làm việc đó là đủ: `서류는 학교에서 받으( )`",
+            "use": [
+              "V + -(으)면 되다",
+              "V + -아/어야 하다 · V + -아/어야 되다"
+            ],
+            "note_vi": "`-(으)면 되다` = chỉ cần … là được; khác `-아/어도 되다` (được phép) và `-아/어야 하다` (bắt buộc)."
+          },
+          {
+            "when_vi": "Làm sẵn một việc để dùng về sau: `재학증명서를 미리 뽑아 ( )`",
+            "use": [
+              "V + -아/어 두다 · V + -아/어 놓다"
+            ],
+            "note_vi": "`-아/어 두다/놓다` = làm xong và để nguyên kết quả cho về sau, hay đi với `미리`; không dùng cho việc đang diễn ra."
+          }
+        ],
+        "pitfalls_vi": [
+          "Dùng `-(으)면 되다` cho nghĩa vụ (✗ 90일 안에 등록하면 돼요 khi muốn nói 'phải' → ✓ 등록해야 해요).",
+          "Nhầm `-아/어도 되다` (được phép) với `-(으)면 되다` (chỉ cần).",
+          "Dùng `-아/어 두다` cho việc không cần giữ kết quả (✗ 지금 밥을 먹어 두고 있어요)."
+        ]
+      },
+      {
+        "id": "dieu-kien-kinh-nghiem",
+        "title_vi": "Điều kiện, trình tự & kinh nghiệm",
+        "summary_vi": "Nêu trường hợp đặc biệt, kinh nghiệm đã từng, hai lựa chọn và thứ tự trước-sau của các việc khi làm thủ tục.",
+        "patterns": [
+          "V/A + -(으)ㄴ/는 경우(에) · N + 인 경우(에)",
+          "V + -(으)ㄴ 적이 있다/없다",
+          "V + -거나 · N + (이)나",
+          "V + -기 전에 · V + -(으)ㄴ 후에"
+        ],
+        "rules": [
+          {
+            "when_vi": "Nêu trường hợp cần xử lý riêng: `신고할 물건이 있( ) '신고 있음' 통로로 가요`",
+            "use": [
+              "V/A + -(으)ㄴ/는 경우(에) · N + 인 경우(에)"
+            ],
+            "note_vi": "`-(으)ㄴ/는 경우(에)`: động từ quá khứ `-(으)ㄴ`, hiện tại `-는`; tính từ `-(으)ㄴ`; danh từ `N인 경우`."
+          },
+          {
+            "when_vi": "Hỏi hoặc nói về trải nghiệm đã từng: `한국에 와 본 ( ) 있어요?`",
+            "use": [
+              "V + -(으)ㄴ 적이 있다/없다"
+            ],
+            "note_vi": "`-(으)ㄴ 적이 있다/없다` nói kinh nghiệm đã từng; không đi với mốc thời gian cụ thể (✗ 어제 간 적이 있어요)."
+          },
+          {
+            "when_vi": "Đưa ra hai cách để chọn một: `공항철도를 타( ) 공항버스를 타세요`",
+            "use": [
+              "V + -거나 · N + (이)나"
+            ],
+            "note_vi": "`-거나` nối hai hành động; `N(이)나` nối hai danh từ. Muốn nói làm cả hai thì dùng `-고`."
+          },
+          {
+            "when_vi": "Sắp xếp trình tự trước-sau: `출발하( ) 서류를 준비해요`, `도착한 ( ) 등록해요`",
+            "use": [
+              "V + -기 전에 · V + -(으)ㄴ 후에"
+            ],
+            "note_vi": "`-기 전에` gắn thẳng vào gốc động từ, không chia thì; `-(으)ㄴ 후에` nói việc sau xảy ra khi việc trước đã xong."
+          }
+        ],
+        "pitfalls_vi": [
+          "Viết `-기 전에` với thì quá khứ (✗ 출발했기 전에 → ✓ 출발하기 전에).",
+          "Dùng `-(으)ㄴ 적이 있다` với mốc thời gian cụ thể hoặc cho việc mới xảy ra hôm qua.",
+          "Dùng `-고` khi muốn nói 'một trong hai' (✗ 가고 오세요 khi ý là 'hoặc')."
+        ]
+      },
+      {
+        "id": "hoi-duong-goi-y",
+        "title_vi": "Hỏi đường, thời gian & lời khuyên",
+        "summary_vi": "Hỏi mất bao lâu, mất bao nhiêu tiền, mở đầu bằng bối cảnh, hỏi xem người kia có biết không và khuyên nên chọn cách nào.",
+        "patterns": [
+          "V + -는 데 시간이 걸리다 · V + -는 데 돈이 들다",
+          "V/A + -(으)ㄴ/는데 · N + 인데",
+          "V + -는 게 좋다 · V + -는 게 낫다",
+          "V/A + -(으)ㄴ/는지 알다/모르다 · N + 인지"
+        ],
+        "rules": [
+          {
+            "when_vi": "Hỏi hoặc nói về thời gian/tiền tốn cho một việc: `학교까지 가는 데 얼마나 걸( )?`",
+            "use": [
+              "V + -는 데 시간이 걸리다 · V + -는 데 돈이 들다"
+            ],
+            "note_vi": "Thời gian đi với `걸리다`, tiền đi với `들다`; `-는 데` luôn ở dạng hiện tại, kể cả khi việc đã xảy ra."
+          },
+          {
+            "when_vi": "Mở bối cảnh trước khi hỏi/nhờ hoặc nói ý tương phản nhẹ: `공항버스는 싼( ) 오래 걸려요`",
+            "use": [
+              "V/A + -(으)ㄴ/는데 · N + 인데"
+            ],
+            "note_vi": "Nghĩa phụ thuộc vế sau: bối cảnh (rồi hỏi, nhờ), tương phản (≈ `-지만`) hoặc lý do nhẹ cho lời đề nghị."
+          },
+          {
+            "when_vi": "Khuyên nên chọn cách nào: `짐이 많으면 공항버스를 타( )`",
+            "use": [
+              "V + -는 게 좋다 · V + -는 게 낫다"
+            ],
+            "note_vi": "`-는 게 좋다` = nên …; `-는 게 낫다` = … thì tốt hơn (so sánh). Cả hai dùng dạng hiện tại `-는`."
+          },
+          {
+            "when_vi": "Hỏi hoặc nói mình có biết hay không về một điều: `승차장이 어디인( ) 알아요?`",
+            "use": [
+              "V/A + -(으)ㄴ/는지 알다/모르다 · N + 인지"
+            ],
+            "note_vi": "`-(으)ㄴ/는지` biến câu hỏi thành mệnh đề trong câu lớn: động từ `-는지`, tính từ `-(으)ㄴ지`, danh từ `인지`; vế sau là `알다/모르다`."
+          }
+        ],
+        "pitfalls_vi": [
+          "Dùng `걸리다` cho tiền hoặc `들다` cho thời gian.",
+          "Chia `-는 데` ở quá khứ (✗ 갔는 데 → ✓ 가는 데 시간이 걸렸어요).",
+          "Đặt `-(으)ㄴ/는지` mà không có `알다/모르다` hay động từ tương ứng ở vế sau."
+        ]
+      },
+      {
+        "id": "mo-rong-bo-sung",
+        "title_vi": "Mẫu mở rộng bổ sung (TOPIK II)",
+        "summary_vi": "Các mẫu 🟣 bổ sung theo danh mục ngữ pháp TOPIK II: nhận ra khi đọc, nghe và dùng khi viết, nói.",
+        "patterns": [
+          "아무 + (이)나 · 아무 + 도",
+          "V/A + -아/어야 (phải … thì mới …)"
+        ],
+        "rules": [
+          {
+            "when_vi": "Bất cứ ai / cái gì / nơi nào (khẳng định) · Không ai / không gì / không đâu (phủ định)",
+            "use": [
+              "아무 + (이)나 · 아무 + 도"
+            ],
+            "note_vi": "«Ai cũng / lúc nào cũng / đâu cũng» — bao trùm, nghĩa tích cực."
+          },
+          {
+            "when_vi": "Phải … thì mới … — vế trước là điều kiện bắt buộc cho vế sau",
+            "use": [
+              "V/A + -아/어야 (phải … thì mới …)"
+            ],
+            "note_vi": "Điều kiện thường, không nhấn «bắt buộc»."
+          }
+        ],
+        "pitfalls_vi": []
+      }
+    ],
+    "mock": {
+      "minutes": 33,
+      "bands": [
+        {
+          "label_vi": "Dưới ngưỡng 3급",
+          "min_correct": 0
+        },
+        {
+          "label_vi": "Ngưỡng 3급 (40%)",
+          "min_correct": 10
+        },
+        {
+          "label_vi": "Ngưỡng 4급 (50%)",
+          "min_correct": 13
+        },
+        {
+          "label_vi": "Ngưỡng 5급 (63%)",
+          "min_correct": 16
+        },
+        {
+          "label_vi": "Ngưỡng 6급 (77%)",
+          "min_correct": 20
+        }
+      ]
+    },
+    "capstone": {
+      "essay_id": "NCVW54",
+      "speak_id": "NCVS6",
+      "min_required": 3,
+      "required": [
+        {
+          "pattern": "V + -(으)려면",
+          "regex": "려면",
+          "label_vi": "-(으)려면"
+        },
+        {
+          "pattern": "V + -기 전에 · V + -(으)ㄴ 후에",
+          "regex": "기\\s*전에",
+          "label_vi": "-기 전에"
+        },
+        {
+          "pattern": "V + -아/어 두다 · V + -아/어 놓다",
+          "regex": "[아어해여]\\s(두|놓)([었았는면어고기시십세겠]|$)",
+          "label_vi": "-아/어 두다"
+        },
+        {
+          "pattern": "V + -(으)면 되다",
+          "regex": "면\\s*(됩니다|된다|돼요|되는|되지|돼서|됐)",
+          "label_vi": "-(으)면 되다"
+        },
+        {
+          "pattern": "V + -는 게 좋다 · V + -는 게 낫다",
+          "regex": "는\\s*(게|것이)\\s*(좋|낫)",
+          "label_vi": "-는 게 좋다 / -는 게 낫다"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 경우(에) · N + 인 경우(에)",
+          "regex": "경우",
+          "label_vi": "-(으)ㄴ/는 경우(에)"
+        },
+        {
+          "pattern": "V + -거나 · N + (이)나",
+          "regex": "거나",
+          "label_vi": "-거나"
+        }
+      ]
+    }
+  }
+}

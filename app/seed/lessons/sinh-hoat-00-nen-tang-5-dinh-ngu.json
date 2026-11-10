@@ -1,0 +1,753 @@
+{
+  "slug": "sinh-hoat-00-nen-tang-5-dinh-ngu",
+  "title": "Nền tảng 5.1 · Người đang đọc sách: -는 & tính từ -(으)ㄴ",
+  "title_ko": "기초 5-1: 책을 읽는 사람",
+  "topic": "Nhập môn",
+  "track": "beginner",
+  "level": 1,
+  "summary": "Gắn một mệnh đề vào TRƯỚC danh từ ở hiện tại: động từ '-는' ('읽는 사람'), tính từ '-(으)ㄴ' ('큰 가방', '작은 방'), '있다/없다' và 'N + 이다' ('맛있는', '학생인').",
+  "vocab": [
+    {
+      "hangul": "것",
+      "pron": "[걷]",
+      "pos": "N",
+      "meaning_vi": "Cái, điều, việc (danh từ phụ thuộc)",
+      "note_vi": "Phải có định ngữ đứng trước và viết cách chữ: 먹는 것. Khẩu ngữ: 거 (것), 게 (것이), 걸 (것을).",
+      "example_ko": "먹을 것이 없어요.",
+      "example_vi": "Không có gì để ăn.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "일",
+      "pos": "N",
+      "meaning_vi": "Việc, công việc",
+      "note_vi": "Cùng chữ với 일 'ngày' (십 일) và 일 'một' (Hán-Hàn).",
+      "example_ko": "오늘 할 일이 많아요.",
+      "example_vi": "Hôm nay có nhiều việc phải làm.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "요리하다",
+      "pos": "V",
+      "meaning_vi": "Nấu ăn",
+      "example_ko": "저는 요리하는 것을 좋아해요.",
+      "example_vi": "Tôi thích nấu ăn.",
+      "family": "~하다",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "料理",
+      "sino_vietnamese": "liệu lý",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "조용하다",
+      "pos": "A",
+      "meaning_vi": "Yên tĩnh",
+      "example_ko": "조용한 도서관에서 공부해요.",
+      "example_vi": "Tôi học trong thư viện yên tĩnh.",
+      "family": "~하다",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "재미있다",
+      "pron": "[재미읻따]",
+      "pos": "A",
+      "meaning_vi": "Thú vị, hay",
+      "note_vi": "-는: 재미있는.",
+      "example_ko": "재미있는 영화를 봐요.",
+      "example_vi": "Tôi xem phim hay.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "재미없다",
+      "pron": "[재미업따]",
+      "pos": "A",
+      "meaning_vi": "Chán, không thú vị",
+      "note_vi": "-는: 재미없는.",
+      "example_ko": "재미없는 영화는 안 봐요.",
+      "example_vi": "Tôi không xem phim chán.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "작다",
+      "pron": "[작따]",
+      "pos": "A",
+      "meaning_vi": "Nhỏ",
+      "example_ko": "작은 가방을 샀어요.",
+      "example_vi": "Tôi đã mua cái túi nhỏ.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "예쁘다",
+      "pos": "A",
+      "meaning_vi": "Đẹp, xinh",
+      "note_vi": "Bỏ ㅡ khi đuôi bắt đầu bằng nguyên âm; với -ㄴ chỉ thêm ㄴ: 예쁜.",
+      "example_ko": "예쁜 옷을 샀어요.",
+      "example_vi": "Tôi đã mua bộ đồ đẹp.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "싸다",
+      "pos": "A",
+      "meaning_vi": "Rẻ",
+      "example_ko": "싼 옷이 많아요.",
+      "example_vi": "Có nhiều quần áo rẻ.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "길다",
+      "pos": "A",
+      "meaning_vi": "Dài",
+      "note_vi": "ㄹ 탈락: 긴, 길어요.",
+      "example_ko": "머리가 긴 사람이에요.",
+      "example_vi": "Là người tóc dài.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "가득",
+      "pos": "X",
+      "meaning_vi": "Đầy, đầy ắp",
+      "note_vi": "가득 차다 «chật kín», 가득하다 «đầy». Vd: 사람이 가득해요.",
+      "example_ko": "컵에 물을 가득 담았어요.",
+      "example_vi": "Tôi rót nước đầy cốc.",
+      "family": "🟢 Nền · Từ sơ cấp · Số lượng",
+      "priority": "core",
+      "source": "krdict:62661",
+      "collocations": [
+        {
+          "ko": "가득 담다",
+          "vi": "Đựng đầy"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "나머지",
+      "pos": "N",
+      "meaning_vi": "Phần còn lại",
+      "example_ko": "나머지는 내일 할게요.",
+      "example_vi": "Phần còn lại mai tôi làm nhé.",
+      "family": "🟢 Nền · Từ sơ cấp · Số lượng",
+      "priority": "core",
+      "source": "krdict:59230",
+      "collocations": [
+        {
+          "ko": "나머지 돈",
+          "vi": "Số tiền còn lại"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "남기다",
+      "pos": "V",
+      "meaning_vi": "Để lại, để thừa",
+      "note_vi": "N을/를 남기다 (chủ động). Còn N이/가 남다 «còn lại».",
+      "example_ko": "음식을 남기지 마세요.",
+      "example_vi": "Đừng để thừa thức ăn.",
+      "family": "🟢 Nền · Từ sơ cấp · Số lượng",
+      "priority": "core",
+      "source": "krdict:64371",
+      "collocations": [
+        {
+          "ko": "음식을 남기다",
+          "vi": "Để thừa thức ăn"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "남다",
+      "pos": "V",
+      "meaning_vi": "Còn lại, thừa",
+      "note_vi": "N이/가 남다: 시간이 남았어요. Dạng hay gặp: 남은 + N.",
+      "example_ko": "시간이 십 분 남았어요.",
+      "example_vi": "Còn mười phút nữa.",
+      "pron": "[남따]",
+      "family": "🟢 Nền · Từ sơ cấp · Số lượng",
+      "priority": "core",
+      "source": "krdict:64552",
+      "collocations": [
+        {
+          "ko": "남은 시간",
+          "vi": "Thời gian còn lại"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "늘다",
+      "pos": "V",
+      "meaning_vi": "Tăng lên, dài ra, nở ra",
+      "note_vi": "Bất quy tắc ㄹ: 늘어요, 느는. Trái nghĩa: 줄다. Vd: 한국어 실력이 늘다.",
+      "example_ko": "한국어 실력이 많이 늘었어요.",
+      "example_vi": "Trình tiếng Hàn của bạn tiến bộ nhiều rồi.",
+      "family": "🟢 Nền · Từ sơ cấp · Số lượng",
+      "priority": "core",
+      "source": "krdict:64492",
+      "collocations": [
+        {
+          "ko": "길이가 늘다",
+          "vi": "Dài ra"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "다",
+      "pos": "N",
+      "meaning_vi": "Tất cả, hết",
+      "note_vi": "Hay dùng như trạng từ: 다 먹었어요 «ăn hết rồi», 다 왔어요 «đến nơi rồi».",
+      "example_ko": "숙제를 다 했어요.",
+      "example_vi": "Tôi làm hết bài tập rồi.",
+      "family": "🟢 Nền · Từ sơ cấp · Số lượng",
+      "priority": "core",
+      "source": "krdict:58175",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "또",
+      "pos": "X",
+      "meaning_vi": "Lại, nữa",
+      "example_ko": "또 만나요!",
+      "example_vi": "Hẹn gặp lại!",
+      "family": "🟢 Nền · Từ sơ cấp · Tần suất",
+      "priority": "core",
+      "source": "krdict:51887",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "모자라다",
+      "pos": "V",
+      "meaning_vi": "Thiếu, không đủ",
+      "note_vi": "N이/가 모자라다: 돈이 모자라요. Gần nghĩa 부족하다.",
+      "example_ko": "돈이 조금 모자라요.",
+      "example_vi": "Tôi thiếu một chút tiền.",
+      "family": "🟢 Nền · Từ sơ cấp · Số lượng",
+      "priority": "core",
+      "source": "krdict:46143",
+      "collocations": [
+        {
+          "ko": "잠이 모자라다",
+          "vi": "Thiếu ngủ"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "부분",
+      "pos": "N",
+      "meaning_vi": "Phần, bộ phận",
+      "example_ko": "이 부분을 다시 읽어 보세요.",
+      "example_vi": "Hãy đọc lại phần này.",
+      "family": "🟢 Nền · Từ sơ cấp · Số lượng",
+      "priority": "core",
+      "source": "krdict:65853",
+      "hanja": "部分",
+      "collocations": [
+        {
+          "ko": "배운 부분",
+          "vi": "Phần đã học"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "bộ phận"
+    },
+    {
+      "hangul": "부족",
+      "pos": "N",
+      "meaning_vi": "Sự thiếu, thiếu hụt",
+      "note_vi": "Hay đứng sau danh từ: 수면 부족 «thiếu ngủ». Tính từ: 부족하다.",
+      "example_ko": "요즘 운동 부족이에요.",
+      "example_vi": "Dạo này tôi thiếu vận động.",
+      "family": "🟢 Nền · Từ sơ cấp · Số lượng",
+      "priority": "core",
+      "source": "krdict:59843",
+      "hanja": "不足",
+      "collocations": [
+        {
+          "ko": "수면 부족",
+          "vi": "Thiếu ngủ"
+        },
+        {
+          "ko": "시간 부족",
+          "vi": "Thiếu thời gian"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "bất túc"
+    },
+    {
+      "hangul": "비다",
+      "pos": "V",
+      "meaning_vi": "Trống, rỗng",
+      "note_vi": "Dạng hay dùng: 빈 + N (빈자리, 빈 방), 비어 있다 «đang trống».",
+      "example_ko": "이 자리 비어 있어요?",
+      "example_vi": "Chỗ này còn trống không?",
+      "family": "🟢 Nền · Từ sơ cấp · Số lượng",
+      "priority": "core",
+      "source": "krdict:15680",
+      "collocations": [
+        {
+          "ko": "자리가 비다",
+          "vi": "Chỗ trống"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "약간",
+      "pos": "N",
+      "meaning_vi": "Một chút, hơi",
+      "note_vi": "Cũng dùng như trạng từ: 약간 짜요 «hơi mặn».",
+      "example_ko": "국이 약간 짜요.",
+      "example_vi": "Canh hơi mặn.",
+      "pron": "[약깐]",
+      "family": "🟢 Nền · Từ sơ cấp · Số lượng",
+      "priority": "core",
+      "source": "krdict:90069",
+      "hanja": "若干",
+      "collocations": [
+        {
+          "ko": "약간의 차이",
+          "vi": "Chút khác biệt"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "nhược can"
+    },
+    {
+      "hangul": "얼마나",
+      "pos": "X",
+      "meaning_vi": "Bao nhiêu, biết bao",
+      "note_vi": "Hỏi mức độ: 얼마나 걸려요? Cảm thán: 얼마나 예쁜지 몰라요 «đẹp biết bao».",
+      "example_ko": "여기에서 얼마나 걸려요?",
+      "example_vi": "Từ đây mất bao lâu?",
+      "family": "🟢 Nền · Từ sơ cấp · Số lượng",
+      "priority": "core",
+      "source": "krdict:67316",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "전부",
+      "pos": "N",
+      "meaning_vi": "Toàn bộ, tất cả",
+      "note_vi": "Cũng dùng như trạng từ: 전부 얼마예요? «Tất cả bao nhiêu tiền?».",
+      "example_ko": "전부 얼마예요?",
+      "example_vi": "Tất cả bao nhiêu tiền?",
+      "family": "🟢 Nền · Từ sơ cấp · Số lượng",
+      "priority": "core",
+      "source": "krdict:19468",
+      "hanja": "全部",
+      "enrich": "auto",
+      "sino_vietnamese": "toàn bộ"
+    },
+    {
+      "hangul": "조금씩",
+      "pos": "X",
+      "meaning_vi": "Từng chút một",
+      "example_ko": "매일 조금씩 공부해요.",
+      "example_vi": "Mỗi ngày tôi học từng chút một.",
+      "family": "🟢 Nền · Từ sơ cấp · Số lượng",
+      "priority": "core",
+      "source": "krdict:91751",
+      "collocations": [
+        {
+          "ko": "조금씩 먹다",
+          "vi": "Ăn từng chút"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "줄다",
+      "pos": "V",
+      "meaning_vi": "Giảm, co lại",
+      "note_vi": "Bất quy tắc ㄹ: 줄어요, 주는. Trái nghĩa: 늘다.",
+      "example_ko": "옷을 빨았는데 크기가 줄었어요.",
+      "example_vi": "Giặt xong cái áo bị co lại.",
+      "family": "🟢 Nền · Từ sơ cấp · Số lượng",
+      "priority": "core",
+      "source": "krdict:82138",
+      "collocations": [
+        {
+          "ko": "몸무게가 줄다",
+          "vi": "Giảm cân"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "충분하다",
+      "pos": "A",
+      "meaning_vi": "Đủ, đầy đủ",
+      "example_ko": "시간은 충분해요.",
+      "example_vi": "Thời gian thì đủ.",
+      "family": "🟢 Nền · Từ sơ cấp · Số lượng",
+      "priority": "core",
+      "source": "krdict:72147",
+      "hanja": "充分",
+      "collocations": [
+        {
+          "ko": "충분한 대화",
+          "vi": "Trò chuyện đầy đủ"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "sung phân"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Sau bài này bạn làm được gì",
+      "kind": "goal",
+      "body": "• Nói «người đang…», «thứ…» bằng `-는`: `커피를 마시는 사람`.\n• Tả người, vật bằng tính từ đứng trước danh từ: `큰 가방`, `예쁜 옷`, `맛있는 음식`."
+    },
+    {
+      "title": "Bảng nhìn nhanh: -는 · -(으)ㄴ · -(으)ㄹ",
+      "kind": "language",
+      "body": "• **Động từ:** hiện tại `-는` (먹는) · quá khứ `-(으)ㄴ` (먹은) · tương lai/dự định `-(으)ㄹ` (먹을).\n• **Tính từ:** hiện tại `-(으)ㄴ` (큰, 작은) · quá khứ `-았/었던` (컸던) · tương lai `-(으)ㄹ` (hiếm).\n• **있다 / 없다** (kể cả 맛있다, 재미없다): hiện tại `-는` (있는, 맛있는) · quá khứ `-았/었던` · `-을`.\n• **N + 이다:** hiện tại `인` (학생인 친구) · quá khứ `이었던/였던` · `일`.\n• **Gốc ㄹ** bỏ ㄹ trước `-는`/`-(으)ㄴ` (사는, 산; 긴), giữ ㄹ trước `-(으)ㄹ` (살, 만들).\n• **Quy tắc luôn đúng:** mệnh đề bổ nghĩa đứng trước danh từ, danh từ ở cuối cụm (tiếng Việt thì ngược lại)."
+    }
+  ],
+  "coach": {
+    "focus_vi": [
+      "`V + -는 + N` · `A + -(으)ㄴ + N`."
+    ],
+    "watch_out_vi": [
+      "Nhìn từ loại trước: động từ hiện tại dùng `-는`, tính từ hiện tại dùng `-(으)ㄴ`; `있다/없다` dùng `-는` (맛있는).",
+      "Gốc `ㄹ` bỏ `ㄹ`: `사는`, `긴`."
+    ],
+    "notebook_vi": [
+      "5 cụm «tính từ + danh từ» tả đồ vật trong phòng bạn."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Gộp hai câu thành một: `사람이 책을 읽어요` + `그 사람은 제 친구예요`.",
+        "answer": "책을 읽는 사람은 제 친구예요"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "pattern": "V + -는 + N · A + -(으)ㄴ + N (hiện tại)",
+      "meaning_vi": "Mệnh đề bổ nghĩa danh từ đứng sau (hiện tại): người đang đọc, món ngon, túi to",
+      "usage_context_vi": "**Cấu tạo:** Mệnh đề hiện tại đứng trước danh từ để bổ nghĩa: **động từ** + `-는`, **tính từ** + `-(으)ㄴ`.\nVới **động từ**:\n- Gốc + `-는`: `읽다` → `읽는`, `가다` → `가는`, `공부하다` → `공부하는`, `듣다` → `듣는`\n- Gốc `ㄹ` bỏ `ㄹ`: `살다` → `사는`, `만들다` → `만드는`, `알다` → `아는`, `놀다` → `노는`\n- `있다`/`없다` (cả `맛있다`, `재미없다`) cũng + `-는`: `있는`, `맛있는`, `재미없는`\nVới **tính từ**:\n- Gốc nguyên âm + `-ㄴ`: `크다` → `큰`, `예쁘다` → `예쁜`, `싸다` → `싼`\n- Gốc có patchim + `-은`: `작다` → `작은`, `좋다` → `좋은`, `많다` → `많은`\n- Gốc `ㄹ` bỏ `ㄹ`: `길다` → `긴`\n- `ㅂ` bất quy tắc: `맵다` → `매운`, `춥다` → `추운`\n- `ㅎ` bất quy tắc: `파랗다` → `파란`, `그렇다` → `그런`, `어떻다` → `어떤`\n- `~하다`: `조용하다` → `조용한`\nDanh từ + `이다`: `학생인 친구`\n**Hoàn cảnh dùng:** Gắn mô tả trước danh từ: 'người đang đọc sách' = `책을 읽는 사람`, 'món ăn ngon' = `맛있는 음식`, 'túi to' = `큰 가방`. Khi tính từ làm vị ngữ ở cuối câu thì chia như bình thường (`가방이 커요`); chỉ khi nó đứng TRƯỚC danh từ mới đổi sang `-(으)ㄴ`.\n**Vì sao động từ dùng `-는`, tính từ dùng `-(으)ㄴ`:** Với động từ, `-는` mang nghĩa 'đang / thường xuyên', còn với tính từ chỉ có nghĩa 'có tính chất đó' nên dạng `-(으)ㄴ` không mang nghĩa quá khứ. `있다/없다` có hình thức tính từ nhưng chia như động từ (`있는`, `없는`), nên cũng như `맛있는`, `재미없는`. Cùng một đuôi `-(으)ㄴ` gắn vào ĐỘNG TỪ lại mang nghĩa quá khứ (xem thẻ sau).",
+      "contrasts": [
+        {
+          "pattern": "A + -은/ㄴ (bài Mua sắm)",
+          "diff_vi": "Cùng dạng của tính từ; thẻ này gộp với động từ `-는` để so sánh cả bộ."
+        },
+        {
+          "pattern": "V/A + -아/어요",
+          "diff_vi": "Dạng vị ngữ cuối câu; không đứng trước danh từ."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Để vị ngữ đứng trước danh từ: ✗ `읽어요 사람`, `커요 가방` → `읽는 사람`, `큰 가방`.\n(2) Dùng `-(으)ㄴ` cho động từ hiện tại: ✗ `먹은 음식` (nghĩa đã ăn) khi muốn 'món đang ăn' → `먹는 음식`.\n(3) Không bỏ `ㄹ`: ✗ `살는`, `만들는`, `긴은` → `사는`, `만드는`, `긴`.\n(4) Dùng `-(으)ㄴ` cho `있다/없다`: ✗ `맛있은`, `재미없은` → `맛있는`, `재미없는`.\n(5) Nối hai danh từ bằng `이/가` thay vì `인`: ✗ `학생이 친구` → `학생인 친구` (người bạn là sinh viên).\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc và nhãn kỳ thi đối chiếu với KIIP 초급1 1과 · 초급2 1·9과 (A-ㄴ/은, V-는) · 표준국어대사전 (관형사형 어미).",
+      "topik_tip_vi": "Phần Đọc TOPIK hay đặt cụm danh từ dài: tìm danh từ cuối cụm, mọi thứ đứng trước nó kết thúc bằng `-는`, `-(으)ㄴ`, `-(으)ㄹ` đều bổ nghĩa cho nó. Gặp `-는` ngay trước danh từ là dấu hiệu động từ hiện tại hoặc `있다/없다`.",
+      "example_ko": "지금 도서관에서 책을 읽는 사람은 제 친구예요.\n한국에서 사는 친구가 저를 도와요.\n맛있는 음식을 먹어요.\n저는 큰 가방을 샀어요.\n매운 음식을 좋아해요?\n조용한 도서관에서 공부해요.",
+      "example_vi": "Người đang đọc sách trong thư viện là bạn tôi.\nNgười bạn sống ở Hàn Quốc giúp tôi.\nTôi ăn món ngon.\nTôi đã mua cái túi to.\nBạn có thích món cay không?\nTôi học trong thư viện yên tĩnh.",
+      "source": "KIIP 초급1 1과 · 초급2 1·9과 (A-ㄴ/은, V-는) · 표준국어대사전 (관형사형 어미)",
+      "exam": "kiip-2",
+      "importance": "must"
+    }
+  ],
+  "editor_notes": [],
+  "exercise_ids": [
+    "FLN61",
+    "FLN62",
+    "FLN64",
+    "FLN68",
+    "FLN69",
+    "FR118",
+    "FR119",
+    "FR120",
+    "FR121",
+    "FR122",
+    "FR123",
+    "FR124",
+    "FR125",
+    "FR126",
+    "FR127",
+    "FBO24",
+    "FBO27",
+    "FBF20",
+    "FBF21",
+    "FS09",
+    "FS10",
+    "FS11"
+  ],
+  "sort_order": 15,
+  "sessions": [
+    {
+      "title_vi": "Người đang làm gì: động từ + -는 + danh từ",
+      "can_do_vi": "Nối một việc đang làm vào trước danh từ: «책을 읽는 사람» (người đang đọc sách), «요리하는 것»; nhớ 있다/없다 cũng thành -는 («맛있는 음식»).",
+      "use_vi": "Chỉ một người hay một vật bằng hành động: «người đang đứng ở kia», «món mẹ nấu mỗi ngày».",
+      "topik_vi": "Giống dạng điền dạng bổ nghĩa danh từ vào chỗ trống ở phần Đọc TOPIK I và dạng nghe chọn nội dung trùng khớp.",
+      "vocab": [
+        "것",
+        "일",
+        "요리하다",
+        "또"
+      ],
+      "grammar": [
+        "V + -는 + N · A + -(으)ㄴ + N (hiện tại)"
+      ],
+      "check": [
+        "FLN64",
+        "FR118",
+        "FR120",
+        "FR121",
+        "FBO24"
+      ],
+      "situation": {
+        "scene_vi": "Hai người nhận xét về người xung quanh.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "저 책을 읽는 사람이 누구예요?",
+            "vi": "Người đang đọc sách kia là ai?"
+          },
+          {
+            "who": "B",
+            "ko": "제 친구예요.",
+            "vi": "Là bạn tôi."
+          },
+          {
+            "who": "A",
+            "ko": "요리하는 사람은요?",
+            "vi": "Còn người đang nấu ăn?"
+          },
+          {
+            "who": "B",
+            "ko": "선생님이에요.",
+            "vi": "Là giáo viên."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "저 사람은 누구예요? (người đang đọc sách)",
+          "prompt_vi": "Người kia là ai?",
+          "options": [
+            {
+              "ko": "책을 읽는 사람이에요.",
+              "vi": "Là người đang đọc sách.",
+              "ok": true,
+              "why_vi": "V + -는 + N: động từ đứng trước danh từ dùng đuôi -는."
+            },
+            {
+              "ko": "책을 읽어요 사람이에요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Không đặt dạng -어요 trực tiếp trước danh từ."
+            },
+            {
+              "ko": "책을 읽다 사람이에요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Dạng từ điển không đứng trước danh từ."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «người đang học». Cách nào đúng?",
+          "a": {
+            "ko": "공부하는 사람",
+            "vi": "Người đang học"
+          },
+          "b": {
+            "ko": "공부해요 사람",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "Muốn bổ nghĩa cho danh từ, đổi động từ sang -는 + danh từ."
+        }
+      }
+    },
+    {
+      "title_vi": "Mô tả đồ vật: tính từ + -(으)ㄴ + danh từ",
+      "can_do_vi": "Mô tả danh từ bằng tính từ: «큰 가방» (túi to), «조용한 도서관», «싼 책», «재미있는 영화».",
+      "use_vi": "Nói mình thích món gì, muốn mua loại nào: «매운 음식», «예쁜 옷».",
+      "topik_vi": "Giống dạng điền dạng tính từ bổ nghĩa ở phần Đọc TOPIK I: bất quy tắc ㅂ, ㅎ hay bị hỏi.",
+      "vocab": [
+        "재미있다",
+        "재미없다",
+        "작다",
+        "예쁘다",
+        "싸다",
+        "길다",
+        "조용하다"
+      ],
+      "grammar": [],
+      "check": [
+        "FLN62",
+        "FLN68",
+        "FR119",
+        "FR122",
+        "FR123",
+        "FR126"
+      ],
+      "situation": {
+        "scene_vi": "Hai người mô tả đồ vật.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "이 책은 어때요?",
+            "vi": "Quyển sách này thế nào?"
+          },
+          {
+            "who": "B",
+            "ko": "재미있는 책이에요.",
+            "vi": "Là quyển sách thú vị."
+          },
+          {
+            "who": "A",
+            "ko": "저 가방은요?",
+            "vi": "Còn cái túi kia?"
+          },
+          {
+            "who": "B",
+            "ko": "작은 가방이에요.",
+            "vi": "Là cái túi nhỏ."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "어떤 집이에요?",
+          "prompt_vi": "Là ngôi nhà thế nào? (to)",
+          "options": [
+            {
+              "ko": "큰 집이에요.",
+              "vi": "Là ngôi nhà to.",
+              "ok": true,
+              "why_vi": "Tính từ kết thúc bằng nguyên âm + ㄴ: 크 + ㄴ = 큰."
+            },
+            {
+              "ko": "크는 집이에요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "-는 dành cho động từ, tính từ dùng -(으)ㄴ."
+            },
+            {
+              "ko": "크 집이에요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Thiếu -ㄴ, tính từ phải đổi dạng khi đứng trước danh từ."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «cái túi đẹp». Cách nào đúng?",
+          "a": {
+            "ko": "예쁜 가방",
+            "vi": "Cái túi đẹp"
+          },
+          "b": {
+            "ko": "예쁘는 가방",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "Tính từ + -(으)ㄴ + danh từ: 예쁘다 → 예쁜."
+        }
+      }
+    },
+    {
+      "title_vi": "Số lượng: đầy, thiếu, đủ, còn lại",
+      "can_do_vi": "Nói về số lượng: 가득 (đầy), 모자라다 (thiếu), 충분하다 (đủ), 남다 (còn lại), 전부 (tất cả), 약간 (một chút).",
+      "use_vi": "Gọi thêm cơm khi thiếu, nói «đủ rồi», hỏi còn lại bao nhiêu khi đi chợ.",
+      "topik_vi": "Giống dạng điền từ vào chỗ trống ở phần Đọc TOPIK I (chọn từ hợp ngữ cảnh).",
+      "vocab": [
+        "가득",
+        "나머지",
+        "남기다",
+        "남다",
+        "늘다",
+        "다",
+        "모자라다",
+        "부분",
+        "부족",
+        "비다",
+        "약간",
+        "얼마나",
+        "전부",
+        "조금씩",
+        "줄다",
+        "충분하다"
+      ],
+      "grammar": [],
+      "check": [
+        "FS09",
+        "FS10",
+        "FS11"
+      ],
+      "situation": {
+        "scene_vi": "Hai người nói về còn thừa hoặc thiếu.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "물이 남았어요?",
+            "vi": "Nước còn không?"
+          },
+          {
+            "who": "B",
+            "ko": "네, 조금 남았어요.",
+            "vi": "Vâng, còn một chút."
+          },
+          {
+            "who": "A",
+            "ko": "돈은요?",
+            "vi": "Còn tiền thì sao?"
+          },
+          {
+            "who": "B",
+            "ko": "돈은 모자라요.",
+            "vi": "Tiền thì thiếu."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "커피가 충분해요?",
+          "prompt_vi": "Cà phê đủ không?",
+          "options": [
+            {
+              "ko": "아니요, 모자라요.",
+              "vi": "Không, thiếu.",
+              "ok": true,
+              "why_vi": "모자라다 = thiếu, phủ định của 충분하다."
+            },
+            {
+              "ko": "네, 모자라요.",
+              "vi": "Vâng, thiếu.",
+              "ok": false,
+              "why_vi": "«네» (đủ) mâu thuẫn với «thiếu»."
+            },
+            {
+              "ko": "아니요, 가득 있어요.",
+              "vi": "Không, đầy.",
+              "ok": false,
+              "why_vi": "«Không» (không đủ) mâu thuẫn với «đầy»."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Nước còn lại. Cách nào đúng?",
+          "a": {
+            "ko": "물이 남았어요.",
+            "vi": "Nước còn lại."
+          },
+          "b": {
+            "ko": "물이 모자라요.",
+            "vi": "Nước thiếu."
+          },
+          "better": "a",
+          "why_vi": "남다 = còn lại, 모자라다 = thiếu. Hai từ ngược ý."
+        }
+      }
+    }
+  ]
+}

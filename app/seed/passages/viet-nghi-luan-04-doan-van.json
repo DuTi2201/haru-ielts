@@ -1,0 +1,198 @@
+{
+  "lesson": "viet-nghi-luan-04-doan-van",
+  "items": [
+    {
+      "id": "viet-nghi-luan-04-d1",
+      "kind": "dialogue",
+      "title_ko": "다섯 문장이면 돼요",
+      "title_vi": "Chỉ cần năm câu là đủ",
+      "scene_vi": "Hai bạn học tiếng Hàn ở thư viện, một người chỉ cách viết một đoạn thân bài cho người kia.",
+      "speakers": {
+        "F": "유나",
+        "M": "태민"
+      },
+      "lines": [
+        {
+          "who": "M",
+          "ko": "유나 씨, 저는 한 단락을 쓰는 게 제일 어려워요. 문장이 금방 끝나요.",
+          "vi": "Yuna, với tôi viết một đoạn là khó nhất. Câu nào cũng hết rất nhanh."
+        },
+        {
+          "who": "F",
+          "ko": "다섯 문장으로 나누어 보세요. 첫 문장은 중심 생각이에요.",
+          "vi": "Hãy chia thành năm câu. Câu đầu là ý chính."
+        },
+        {
+          "who": "M",
+          "ko": "그다음에는요?",
+          "vi": "Rồi sau đó thì sao?"
+        },
+        {
+          "who": "F",
+          "ko": "‘이는 …기 때문이다’로 이유를 쓰고, 예를 들어 학생이나 직장인의 경우를 하나 쓰세요.",
+          "vi": "Viết lý do bằng mẫu «Điều này là vì …» (cuối câu có «기 때문»), rồi nêu một trường hợp như học sinh hay người đi làm."
+        },
+        {
+          "who": "M",
+          "ko": "그 결과는 어떻게 써요?",
+          "vi": "Còn kết quả thì viết thế nào?"
+        },
+        {
+          "who": "F",
+          "ko": "‘그 결과’로 시작하세요. 마지막은 ‘이처럼’으로 정리하면 돼요.",
+          "vi": "Hãy bắt đầu bằng «그 결과». Câu cuối tóm lại bằng «이처럼»."
+        },
+        {
+          "who": "M",
+          "ko": "아, 그러면 이유, 예, 결과, 정리 순서네요. 훨씬 쉽겠어요.",
+          "vi": "À, vậy là thứ tự lý do, ví dụ, kết quả, tóm tắt. Dễ hơn nhiều."
+        },
+        {
+          "who": "F",
+          "ko": "맞아요. 같은 접속어를 두 번 쓰지 않도록 조심하세요.",
+          "vi": "Đúng. Nhớ cẩn thận đừng dùng cùng một từ nối hai lần."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V/A + -기 때문이다 · N + 때문이다",
+          "regex": "기 때문이다"
+        },
+        {
+          "pattern": "N + 의 경우 · V + -는 경우",
+          "regex": "의 경우"
+        },
+        {
+          "pattern": "그 결과 · V + -(으)ㄴ 결과",
+          "regex": "그 결과"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "경우",
+          "seen": "경우를"
+        },
+        {
+          "word": "그 결과",
+          "seen": "그 결과"
+        },
+        {
+          "word": "이처럼",
+          "seen": "이처럼"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "접속어",
+          "vi": "từ nối (từ chuyên môn)"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Câu đầu của đoạn nên viết gì?",
+          "options": [
+            "Ý chính",
+            "Ví dụ",
+            "Kết quả"
+          ],
+          "answer": 0,
+          "explain_vi": "Yuna nói câu đầu là ý chính (중심 생각)."
+        },
+        {
+          "q_vi": "Yuna dặn tránh điều gì?",
+          "options": [
+            "Dùng cùng một từ nối hai lần",
+            "Viết quá ngắn",
+            "Dùng từ khó"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu cuối: đừng dùng cùng một từ nối hai lần."
+        }
+      ]
+    },
+    {
+      "id": "viet-nghi-luan-04-r1",
+      "kind": "reading",
+      "title_ko": "배달 앱과 쓰레기",
+      "title_vi": "Ứng dụng giao đồ ăn và rác",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "배달 앱 이용이 늘면서 쓰레기 문제가 심각해지고 있다.",
+          "vi": "Khi việc dùng ứng dụng giao đồ ăn tăng lên, vấn đề rác trở nên nghiêm trọng."
+        },
+        {
+          "who": "N",
+          "ko": "이는 음식과 함께 일회용 용기와 수저가 많이 사용되기 때문이다.",
+          "vi": "Điều này là vì cùng với đồ ăn, hộp và đũa muỗng dùng một lần được dùng nhiều."
+        },
+        {
+          "who": "N",
+          "ko": "예를 들어 한 끼를 주문할 때마다 플라스틱 용기가 여러 개 나온다.",
+          "vi": "Ví dụ, mỗi lần gọi một bữa lại có nhiều hộp nhựa."
+        },
+        {
+          "who": "N",
+          "ko": "그 결과 분리배출하기 어려운 쓰레기가 빠르게 쌓이고 있다.",
+          "vi": "Kết quả là rác khó phân loại đang chất đống nhanh."
+        },
+        {
+          "who": "N",
+          "ko": "이처럼 편리함의 이면에는 환경에 대한 부담이 있다.",
+          "vi": "Như vậy, đằng sau sự tiện lợi là gánh nặng đối với môi trường."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V/A + -기 때문이다 · N + 때문이다",
+          "regex": "기 때문이다"
+        },
+        {
+          "pattern": "그 결과 · V + -(으)ㄴ 결과",
+          "regex": "그 결과"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "쓰레기",
+          "seen": "쓰레기"
+        },
+        {
+          "word": "예를 들어",
+          "seen": "예를 들어"
+        },
+        {
+          "word": "그 결과",
+          "seen": "그 결과"
+        },
+        {
+          "word": "이처럼",
+          "seen": "이처럼"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Theo bài, vì sao rác nhiều lên?",
+          "options": [
+            "Vì dùng nhiều hộp và đũa muỗng dùng một lần",
+            "Vì người dùng ít đi",
+            "Vì phí giao hàng giảm"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 2: «일회용 용기와 수저가 많이 사용되기 때문이다»."
+        },
+        {
+          "q_vi": "Câu cuối của đoạn làm gì?",
+          "options": [
+            "Rút ra ý nghĩa",
+            "Nêu ví dụ mới",
+            "Hỏi người đọc"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu cuối bắt đầu bằng «이처럼» để tóm lại ý."
+        }
+      ]
+    }
+  ]
+}

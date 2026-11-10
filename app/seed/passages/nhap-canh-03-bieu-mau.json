@@ -1,0 +1,281 @@
+{
+  "lesson": "nhap-canh-03-bieu-mau",
+  "items": [
+    {
+      "id": "nhap-canh-03-d1",
+      "kind": "dialogue",
+      "title_ko": "입국신고서 쓰기",
+      "title_vi": "Điền tờ khai nhập cảnh",
+      "scene_vi": "Ở sảnh nhập cảnh, một hành khách nam (M) hỏi nhân viên hướng dẫn nữ (F) cách điền tờ khai nhập cảnh.",
+      "speakers": {
+        "F": "안내 직원",
+        "M": "승객"
+      },
+      "lines": [
+        {
+          "who": "M",
+          "ko": "저기요, 입국신고서를 어떻게 작성해야 해요?",
+          "vi": "Xin lỗi, tờ khai nhập cảnh thì điền như thế nào ạ?"
+        },
+        {
+          "who": "F",
+          "ko": "성명, 생년월일, 국적, 여권 번호를 영어나 한글로 쓰세요.",
+          "vi": "Hãy ghi họ tên, ngày sinh, quốc tịch, số hộ chiếu bằng tiếng Anh hoặc Hangeul."
+        },
+        {
+          "who": "M",
+          "ko": "체류 예정지는 어떻게 써요? 아직 숙소를 못 정했어요.",
+          "vi": "Mục nơi lưu trú dự kiến thì viết thế nào? Tôi vẫn chưa chọn được chỗ ở."
+        },
+        {
+          "who": "F",
+          "ko": "숙소를 못 정한 경우에는 친구 집이나 학교 주소를 쓰세요.",
+          "vi": "Trường hợp chưa chọn được chỗ ở thì hãy ghi địa chỉ nhà bạn hoặc trường học."
+        },
+        {
+          "who": "M",
+          "ko": "알겠어요. 저는 한국에 온 적이 없어요. 그래도 써야 돼요?",
+          "vi": "Tôi hiểu rồi. Tôi chưa từng đến Hàn Quốc. Dù vậy cũng phải điền sao?"
+        },
+        {
+          "who": "F",
+          "ko": "네, 모든 사람이 작성해야 해요. 다 쓰면 서명하고 입국 심사 때 제출하세요.",
+          "vi": "Vâng, mọi người đều phải điền. Điền xong thì ký tên rồi nộp lúc kiểm tra nhập cảnh."
+        },
+        {
+          "who": "M",
+          "ko": "건강 질문서도 있어요? 열이 나거나 기침을 하면 어떻게 해요?",
+          "vi": "Có cả phiếu hỏi về sức khỏe không ạ? Nếu bị sốt hoặc ho thì làm sao?"
+        },
+        {
+          "who": "F",
+          "ko": "증상이 있는 경우에는 검역관에게 말해야 해요.",
+          "vi": "Trường hợp có triệu chứng thì phải nói với nhân viên kiểm dịch."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -아/어야 하다 · V + -아/어야 되다",
+          "regex": "작성해야 해요|써야 돼요"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 경우(에) · N + 인 경우(에)",
+          "regex": "정한 경우에는|있는 경우에는"
+        },
+        {
+          "pattern": "V + -(으)ㄴ 적이 있다/없다",
+          "regex": "온 적이 없어요"
+        },
+        {
+          "pattern": "V + -거나 · N + (이)나",
+          "regex": "영어나 한글|집이나|나거나"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "입국신고서",
+          "seen": "입국신고서를"
+        },
+        {
+          "word": "작성하다",
+          "seen": "작성해야"
+        },
+        {
+          "word": "성명",
+          "seen": "성명"
+        },
+        {
+          "word": "생년월일",
+          "seen": "생년월일"
+        },
+        {
+          "word": "국적",
+          "seen": "국적"
+        },
+        {
+          "word": "체류 예정지",
+          "seen": "체류 예정지는"
+        },
+        {
+          "word": "서명하다",
+          "seen": "서명하고"
+        },
+        {
+          "word": "제출하다",
+          "seen": "제출하세요"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "정하다",
+          "vi": "chọn, quyết định",
+          "seen": "정했어요"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Nếu chưa chọn được chỗ ở thì ghi gì ở mục nơi lưu trú?",
+          "options": [
+            "Để trống",
+            "Địa chỉ nhà bạn hoặc trường học",
+            "Địa chỉ sân bay"
+          ],
+          "answer": 1,
+          "explain_vi": "“숙소를 못 정한 경우에는 친구 집이나 학교 주소를 쓰세요”: ghi địa chỉ nhà bạn hoặc trường học."
+        },
+        {
+          "q_vi": "Người chưa từng đến Hàn Quốc có phải điền tờ khai không?",
+          "options": [
+            "Không cần",
+            "Có, mọi người đều phải điền",
+            "Chỉ cần ký tên"
+          ],
+          "answer": 1,
+          "explain_vi": "“모든 사람이 작성해야 해요”: mọi người đều phải điền tờ khai."
+        },
+        {
+          "q_vi": "Nếu có triệu chứng bệnh thì phải làm gì?",
+          "options": [
+            "Chờ về đến nhà rồi đi khám",
+            "Nói với nhân viên kiểm dịch",
+            "Không cần nói gì"
+          ],
+          "answer": 1,
+          "explain_vi": "“증상이 있는 경우에는 검역관에게 말해야 해요”: có triệu chứng thì phải nói với nhân viên kiểm dịch."
+        }
+      ]
+    },
+    {
+      "id": "nhap-canh-03-r1",
+      "kind": "reading",
+      "title_ko": "휴대품 신고 안내",
+      "title_vi": "Hướng dẫn khai báo hành lý mang theo",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "한국에 들어올 때 여행자 휴대품 신고서를 작성해야 합니다.",
+          "vi": "Khi nhập cảnh vào Hàn Quốc, bạn phải điền tờ khai hành lý mang theo của du khách."
+        },
+        {
+          "who": "N",
+          "ko": "술이나 담배, 향수를 가지고 온 경우에는 신고해야 합니다.",
+          "vi": "Trường hợp mang theo rượu, thuốc lá hoặc nước hoa thì phải khai báo."
+        },
+        {
+          "who": "N",
+          "ko": "면세점에서 산 물건의 값이 한도를 초과하는 경우에도 세관에 신고해야 합니다.",
+          "vi": "Trường hợp giá trị hàng mua ở cửa hàng miễn thuế vượt hạn mức cũng phải khai báo với hải quan."
+        },
+        {
+          "who": "N",
+          "ko": "모든 휴대품을 합산해서 총합계를 확인합니다.",
+          "vi": "Toàn bộ hành lý mang theo được cộng lại để xác nhận tổng giá trị."
+        },
+        {
+          "who": "N",
+          "ko": "한국에 와 본 적이 없는 사람도 반드시 작성해야 합니다.",
+          "vi": "Người chưa từng đến Hàn Quốc cũng nhất định phải điền."
+        },
+        {
+          "who": "N",
+          "ko": "신고서를 쓰지 않거나 허위로 쓰면 처벌을 받을 수 있습니다.",
+          "vi": "Nếu không điền tờ khai hoặc khai gian dối thì có thể bị xử phạt."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -아/어야 하다 · V + -아/어야 되다",
+          "regex": "작성해야 합니다|신고해야 합니다"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 경우(에) · N + 인 경우(에)",
+          "regex": "온 경우에는|초과하는 경우에도"
+        },
+        {
+          "pattern": "V + -(으)ㄴ 적이 있다/없다",
+          "regex": "본 적이 없는"
+        },
+        {
+          "pattern": "V + -거나 · N + (이)나",
+          "regex": "술이나 담배|쓰지 않거나"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "여행자 휴대품 신고서",
+          "seen": "여행자 휴대품 신고서를"
+        },
+        {
+          "word": "작성하다",
+          "seen": "작성해야"
+        },
+        {
+          "word": "술",
+          "seen": "술이나"
+        },
+        {
+          "word": "담배",
+          "seen": "담배"
+        },
+        {
+          "word": "향수",
+          "seen": "향수를"
+        },
+        {
+          "word": "면세점",
+          "seen": "면세점에서"
+        },
+        {
+          "word": "한도",
+          "seen": "한도를"
+        },
+        {
+          "word": "초과하다",
+          "seen": "초과하는"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "값",
+          "vi": "giá, giá trị"
+        },
+        {
+          "ko": "반드시",
+          "vi": "nhất định, bắt buộc"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Trường hợp nào phải khai báo với hải quan?",
+          "options": [
+            "Mua đồ trong hạn mức",
+            "Giá trị hàng mua ở cửa hàng miễn thuế vượt hạn mức",
+            "Chỉ khi mang rượu"
+          ],
+          "answer": 1,
+          "explain_vi": "“면세점에서 산 물건의 값이 한도를 초과하는 경우에도 세관에 신고해야 합니다”."
+        },
+        {
+          "q_vi": "Ai phải điền tờ khai hành lý mang theo?",
+          "options": [
+            "Chỉ người từng đến Hàn Quốc",
+            "Cả người chưa từng đến Hàn Quốc",
+            "Chỉ người mang rượu"
+          ],
+          "answer": 1,
+          "explain_vi": "“한국에 와 본 적이 없는 사람도 반드시 작성해야 합니다”: người chưa từng đến cũng phải điền."
+        },
+        {
+          "q_vi": "Khai gian dối thì có thể bị gì?",
+          "options": [
+            "Bị xử phạt",
+            "Được miễn thuế",
+            "Phải nộp lại hộ chiếu"
+          ],
+          "answer": 0,
+          "explain_vi": "“허위로 쓰면 처벌을 받을 수 있습니다”."
+        }
+      ]
+    }
+  ]
+}

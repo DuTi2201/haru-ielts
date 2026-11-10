@@ -1,0 +1,960 @@
+{
+  "slug": "cong-so-06-truyen-thong-thong-tin",
+  "title": "Truyền thông & Thông tin",
+  "title_ko": "매체·정보",
+  "topic": "Đời sống xã hội & Công sở",
+  "track": "intermediate",
+  "level": 4,
+  "sort_order": 51,
+  "summary": "Từ vựng báo chí, mạng xã hội, tin giả và bảo vệ thông tin cá nhân; bốn mẫu câu (-다고 하다 · -다는 N, -ㄴ 것으로 나타나다, N을/를 비롯해, N(이)야말로); nghe bản tin và tin đồn công sở, đọc thông báo bảo mật và tiêu đề tin, viết bài mô tả biểu đồ cột hai năm theo nhóm tuổi (Viết 53).",
+  "vocab": [
+    {
+      "hangul": "매체",
+      "pos": "N",
+      "meaning_vi": "Phương tiện truyền thông",
+      "note_vi": "대중 매체 = truyền thông đại chúng.",
+      "example_ko": "전통 매체보다 온라인 매체를 이용하는 사람이 늘었어요.",
+      "example_vi": "Số người dùng phương tiện trực tuyến nhiều hơn phương tiện truyền thống đã tăng.",
+      "family": "🟢 Nền · Báo chí, mạng xã hội & nội dung số",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "媒體",
+      "sino_vietnamese": "môi thể",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "언론",
+      "pos": "N",
+      "meaning_vi": "Báo chí, giới truyền thông",
+      "note_vi": "언론사 = cơ quan báo chí.",
+      "example_ko": "언론은 사실을 정확하게 전달해야 해요.",
+      "example_vi": "Báo chí phải truyền đạt sự thật một cách chính xác.",
+      "family": "🟢 Nền · Báo chí, mạng xã hội & nội dung số",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "言論",
+      "sino_vietnamese": "ngôn luận",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "기사",
+      "pos": "N",
+      "meaning_vi": "Bài báo",
+      "note_vi": "기사를 쓰다 / 읽다.",
+      "example_ko": "이 기사는 어제 신문에 실렸어요.",
+      "example_vi": "Bài báo này đăng trên báo hôm qua.",
+      "family": "🟢 Nền · Báo chí, mạng xã hội & nội dung số",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "記事",
+      "sino_vietnamese": "ký sự",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "보도하다",
+      "pos": "V",
+      "meaning_vi": "Đưa tin",
+      "note_vi": "보도 = bản tin, việc đưa tin.",
+      "example_ko": "방송사는 사고 소식을 긴급하게 보도했습니다.",
+      "example_vi": "Đài truyền hình đã đưa tin khẩn về vụ tai nạn.",
+      "family": "🟢 Nền · Báo chí, mạng xã hội & nội dung số",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "報道",
+      "sino_vietnamese": "báo đạo",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "기자",
+      "pos": "N",
+      "meaning_vi": "Phóng viên, nhà báo",
+      "example_ko": "기자가 현장에서 사고 상황을 전했어요.",
+      "example_vi": "Phóng viên đã truyền đạt tình hình tai nạn tại hiện trường.",
+      "family": "🟢 Nền · Báo chí, mạng xã hội & nội dung số",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "記者",
+      "sino_vietnamese": "ký giả",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "댓글",
+      "pos": "N",
+      "meaning_vi": "Bình luận (dưới bài viết)",
+      "note_vi": "댓글을 달다 = viết bình luận.",
+      "example_ko": "기사에 댓글을 쓰기 전에 한 번 더 생각해 보세요.",
+      "example_vi": "Trước khi viết bình luận dưới bài báo, hãy nghĩ thêm một lần.",
+      "family": "🟢 Nền · Báo chí, mạng xã hội & nội dung số",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "對",
+      "sino_vietnamese": "đối",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "게시물",
+      "pos": "N",
+      "meaning_vi": "Bài đăng",
+      "note_vi": "게시하다 = đăng bài.",
+      "example_ko": "친구의 게시물에 좋아요를 눌렀어요.",
+      "example_vi": "Tôi đã bấm thích bài đăng của bạn.",
+      "family": "🟢 Nền · Báo chí, mạng xã hội & nội dung số",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "揭示物",
+      "sino_vietnamese": "yết thị vật",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "게시하다",
+      "pos": "V",
+      "meaning_vi": "Đăng tải",
+      "example_ko": "공지를 홈페이지에 게시했습니다.",
+      "example_vi": "Chúng tôi đã đăng thông báo lên trang chủ.",
+      "family": "🟢 Nền · Báo chí, mạng xã hội & nội dung số",
+      "priority": "recognize",
+      "hanja": "揭示",
+      "sino_vietnamese": "yết thị",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "구독하다",
+      "pos": "V",
+      "meaning_vi": "Đăng ký theo dõi, đặt mua dài hạn",
+      "note_vi": "구독자 = người theo dõi.",
+      "example_ko": "좋아하는 채널을 구독하고 있어요.",
+      "example_vi": "Tôi đang đăng ký theo dõi kênh yêu thích.",
+      "family": "🟢 Nền · Báo chí, mạng xã hội & nội dung số",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "購讀",
+      "sino_vietnamese": "cấu độc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "공유하다",
+      "pos": "V",
+      "meaning_vi": "Chia sẻ",
+      "note_vi": "정보를 공유하다 / 공유 폴더.",
+      "example_ko": "사진을 가족과 공유했어요.",
+      "example_vi": "Tôi đã chia sẻ ảnh với gia đình.",
+      "family": "🟢 Nền · Báo chí, mạng xã hội & nội dung số",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "共有",
+      "sino_vietnamese": "cộng hữu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "광고",
+      "pos": "N",
+      "meaning_vi": "Quảng cáo",
+      "note_vi": "광고를 보다 / 내다.",
+      "example_ko": "영상을 보기 전에 광고가 나와요.",
+      "example_vi": "Trước khi xem video có quảng cáo hiện ra.",
+      "family": "🟢 Nền · Báo chí, mạng xã hội & nội dung số",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "廣告",
+      "sino_vietnamese": "quảng cáo",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "홍보하다",
+      "pos": "V",
+      "meaning_vi": "Quảng bá, giới thiệu",
+      "note_vi": "홍보 = việc quảng bá; 광고 là quảng cáo trả phí.",
+      "example_ko": "새 제품을 SNS에서 홍보하고 있어요.",
+      "example_vi": "Họ đang quảng bá sản phẩm mới trên SNS.",
+      "family": "🟢 Nền · Báo chí, mạng xã hội & nội dung số",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "弘報",
+      "sino_vietnamese": "hoằng báo",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이용자",
+      "pos": "N",
+      "meaning_vi": "Người sử dụng",
+      "note_vi": "사용자 cũng dùng; 이용자 trang trọng hơn.",
+      "example_ko": "서비스 이용자가 해마다 늘고 있어요.",
+      "example_vi": "Số người dùng dịch vụ tăng mỗi năm.",
+      "family": "🟢 Nền · Báo chí, mạng xã hội & nội dung số",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "利用者",
+      "sino_vietnamese": "lợi dụng giả",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "콘텐츠",
+      "pos": "N",
+      "meaning_vi": "Nội dung (số)",
+      "note_vi": "영상 콘텐츠 / 콘텐츠 제작.",
+      "example_ko": "다양한 콘텐츠를 무료로 볼 수 있어요.",
+      "example_vi": "Có thể xem nhiều nội dung đa dạng miễn phí.",
+      "family": "🟢 Nền · Báo chí, mạng xã hội & nội dung số",
+      "exam": "kiip-4",
+      "priority": "core"
+    },
+    {
+      "hangul": "검색하다",
+      "pos": "V",
+      "meaning_vi": "Tìm kiếm (trên mạng)",
+      "note_vi": "검색어 = từ khóa.",
+      "example_ko": "인터넷에서 맛집을 검색했어요.",
+      "example_vi": "Tôi đã tìm quán ngon trên mạng.",
+      "family": "🟢 Nền · Báo chí, mạng xã hội & nội dung số",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "檢索",
+      "sino_vietnamese": "kiểm sách",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "접속하다",
+      "pos": "V",
+      "meaning_vi": "Truy cập, kết nối",
+      "note_vi": "접속 오류 = lỗi truy cập.",
+      "example_ko": "사이트에 접속이 안 돼요.",
+      "example_vi": "Không truy cập được trang web.",
+      "family": "🟢 Nền · Báo chí, mạng xã hội & nội dung số",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "接續",
+      "sino_vietnamese": "tiếp tục",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "소식",
+      "pos": "N",
+      "meaning_vi": "Tin tức, tin",
+      "note_vi": "소식을 전하다 / 듣다.",
+      "example_ko": "친구에게서 좋은 소식을 들었어요.",
+      "example_vi": "Tôi nghe tin vui từ bạn.",
+      "family": "🟢 Nền · Báo chí, mạng xã hội & nội dung số",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "消息",
+      "sino_vietnamese": "tiêu tức",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "시청하다",
+      "pos": "V",
+      "meaning_vi": "Xem (truyền hình, video)",
+      "note_vi": "시청자 / 시청률.",
+      "example_ko": "많은 사람이 이 방송을 시청했습니다.",
+      "example_vi": "Rất nhiều người đã xem chương trình này.",
+      "family": "🟢 Nền · Báo chí, mạng xã hội & nội dung số",
+      "priority": "recognize",
+      "hanja": "視聽",
+      "sino_vietnamese": "thị thính",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "가짜 뉴스",
+      "pos": "N",
+      "meaning_vi": "Tin giả",
+      "note_vi": "허위 정보 cũng được dùng.",
+      "example_ko": "가짜 뉴스는 빠르게 퍼지기 때문에 조심해야 해요.",
+      "example_vi": "Tin giả lan rất nhanh nên phải cẩn thận.",
+      "family": "🟡 Dạng thi · Tin giả, thông tin cá nhân & dư luận",
+      "exam": "kiip-4",
+      "priority": "core"
+    },
+    {
+      "hangul": "출처",
+      "pos": "N",
+      "meaning_vi": "Nguồn gốc, nguồn tin",
+      "note_vi": "출처가 불분명하다 = nguồn không rõ.",
+      "example_ko": "정보의 출처를 꼭 확인하세요.",
+      "example_vi": "Hãy nhớ kiểm tra nguồn của thông tin.",
+      "family": "🟡 Dạng thi · Tin giả, thông tin cá nhân & dư luận",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "出處",
+      "sino_vietnamese": "xuất xứ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "정확하다",
+      "pos": "A",
+      "meaning_vi": "Chính xác",
+      "note_vi": "정확히 / 부정확하다.",
+      "example_ko": "정확한 정보만 전달해야 해요.",
+      "example_vi": "Chỉ nên truyền đạt thông tin chính xác.",
+      "family": "🟡 Dạng thi · Tin giả, thông tin cá nhân & dư luận",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "正確",
+      "sino_vietnamese": "chính xác",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "객관적",
+      "pos": "N",
+      "meaning_vi": "Tính khách quan",
+      "note_vi": "Đối lập: 주관적 (chủ quan).",
+      "example_ko": "기사는 객관적으로 써야 해요.",
+      "example_vi": "Bài báo phải viết một cách khách quan.",
+      "family": "🟡 Dạng thi · Tin giả, thông tin cá nhân & dư luận",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "客觀的",
+      "sino_vietnamese": "khách quan đích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "편향",
+      "pos": "N",
+      "meaning_vi": "Sự thiên lệch",
+      "note_vi": "편향되다 = bị thiên lệch.",
+      "example_ko": "편향된 기사만 읽으면 생각이 한쪽으로 치우쳐요.",
+      "example_vi": "Chỉ đọc bài thiên lệch thì suy nghĩ sẽ nghiêng về một phía.",
+      "family": "🟡 Dạng thi · Tin giả, thông tin cá nhân & dư luận",
+      "priority": "recognize",
+      "hanja": "偏向",
+      "sino_vietnamese": "thiên hướng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "논란",
+      "pos": "N",
+      "meaning_vi": "Tranh cãi, ồn ào",
+      "note_vi": "논란이 되다 / 일다.",
+      "example_ko": "이 발언은 큰 논란이 되었어요.",
+      "example_vi": "Phát ngôn này đã gây tranh cãi lớn.",
+      "family": "🟡 Dạng thi · Tin giả, thông tin cá nhân & dư luận",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "論難",
+      "sino_vietnamese": "luận nan",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "확산되다",
+      "pos": "V",
+      "meaning_vi": "Lan rộng",
+      "note_vi": "확산 = sự lan rộng.",
+      "example_ko": "소문이 SNS를 통해 빠르게 확산되었어요.",
+      "example_vi": "Tin đồn lan nhanh qua SNS.",
+      "family": "🟡 Dạng thi · Tin giả, thông tin cá nhân & dư luận",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "擴散",
+      "sino_vietnamese": "khuếch tản",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "영향",
+      "pos": "N",
+      "meaning_vi": "Ảnh hưởng",
+      "note_vi": "영향을 미치다 / 주다 / 받다.",
+      "example_ko": "언론은 여론에 큰 영향을 미쳐요.",
+      "example_vi": "Báo chí có ảnh hưởng lớn đến dư luận.",
+      "family": "🟡 Dạng thi · Tin giả, thông tin cá nhân & dư luận",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "影響",
+      "sino_vietnamese": "ảnh hưởng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "미치다",
+      "pos": "V",
+      "meaning_vi": "Gây ra, tác động đến",
+      "note_vi": "Nghĩa này đi với 영향; 미치다 còn nghĩa «điên».",
+      "example_ko": "수면 부족은 건강에 나쁜 영향을 미쳐요.",
+      "example_vi": "Thiếu ngủ tác động xấu đến sức khỏe.",
+      "family": "🟡 Dạng thi · Tin giả, thông tin cá nhân & dư luận",
+      "exam": "kiip-4",
+      "priority": "core"
+    },
+    {
+      "hangul": "중독",
+      "pos": "N",
+      "meaning_vi": "Sự nghiện",
+      "note_vi": "중독되다 = bị nghiện.",
+      "example_ko": "스마트폰 중독을 줄이려고 노력하고 있어요.",
+      "example_vi": "Tôi đang cố giảm nghiện điện thoại.",
+      "family": "🟡 Dạng thi · Tin giả, thông tin cá nhân & dư luận",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "中毒",
+      "sino_vietnamese": "trung độc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "의존하다",
+      "pos": "V",
+      "meaning_vi": "Phụ thuộc",
+      "note_vi": "의존 = sự phụ thuộc.",
+      "example_ko": "요즘은 검색에만 의존하는 사람이 많아요.",
+      "example_vi": "Dạo này nhiều người chỉ phụ thuộc vào tìm kiếm.",
+      "family": "🟡 Dạng thi · Tin giả, thông tin cá nhân & dư luận",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "依存",
+      "sino_vietnamese": "y tồn",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "개인 정보",
+      "pos": "N",
+      "meaning_vi": "Thông tin cá nhân",
+      "note_vi": "개인정보 viết liền cũng gặp.",
+      "example_ko": "개인 정보가 유출되지 않도록 주의하세요.",
+      "example_vi": "Hãy chú ý để thông tin cá nhân không bị lộ.",
+      "family": "🟡 Dạng thi · Tin giả, thông tin cá nhân & dư luận",
+      "exam": "kiip-4",
+      "priority": "core"
+    },
+    {
+      "hangul": "유출",
+      "pos": "N",
+      "meaning_vi": "Sự rò rỉ, bị lộ",
+      "note_vi": "유출되다 / 유출하다.",
+      "example_ko": "고객 정보 유출 사고가 발생했어요.",
+      "example_vi": "Đã xảy ra sự cố lộ thông tin khách hàng.",
+      "family": "🟡 Dạng thi · Tin giả, thông tin cá nhân & dư luận",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "流出",
+      "sino_vietnamese": "lưu xuất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "보호하다",
+      "pos": "V",
+      "meaning_vi": "Bảo vệ",
+      "note_vi": "보호 = sự bảo vệ.",
+      "example_ko": "법으로 소비자의 권리를 보호합니다.",
+      "example_vi": "Pháp luật bảo vệ quyền lợi người tiêu dùng.",
+      "family": "🟡 Dạng thi · Tin giả, thông tin cá nhân & dư luận",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "保護",
+      "sino_vietnamese": "bảo hộ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "사생활",
+      "pos": "N",
+      "meaning_vi": "Đời tư",
+      "note_vi": "사생활 침해 = xâm phạm đời tư.",
+      "example_ko": "남의 사생활을 함부로 공개하면 안 돼요.",
+      "example_vi": "Không được tùy tiện tiết lộ đời tư của người khác.",
+      "family": "🟡 Dạng thi · Tin giả, thông tin cá nhân & dư luận",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "私生活",
+      "sino_vietnamese": "tư sinh hoạt",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "침해",
+      "pos": "N",
+      "meaning_vi": "Sự xâm phạm",
+      "note_vi": "침해하다 / 침해당하다.",
+      "example_ko": "사생활 침해로 신고하는 사례가 늘었어요.",
+      "example_vi": "Số vụ tố cáo xâm phạm đời tư đã tăng.",
+      "family": "🟡 Dạng thi · Tin giả, thông tin cá nhân & dư luận",
+      "priority": "recognize",
+      "hanja": "侵害",
+      "sino_vietnamese": "xâm hại",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "악성 댓글",
+      "pos": "N",
+      "meaning_vi": "Bình luận ác ý",
+      "note_vi": "Viết tắt: 악플.",
+      "example_ko": "악성 댓글 때문에 힘들어하는 사람이 많아요.",
+      "example_vi": "Nhiều người khổ sở vì bình luận ác ý.",
+      "family": "🟡 Dạng thi · Tin giả, thông tin cá nhân & dư luận",
+      "exam": "kiip-4",
+      "priority": "core"
+    },
+    {
+      "hangul": "여론",
+      "pos": "N",
+      "meaning_vi": "Dư luận",
+      "note_vi": "여론 조사 = thăm dò dư luận.",
+      "example_ko": "정부는 여론을 살펴본 뒤에 결정했어요.",
+      "example_vi": "Chính phủ quyết định sau khi xem xét dư luận.",
+      "family": "🟡 Dạng thi · Tin giả, thông tin cá nhân & dư luận",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "輿論",
+      "sino_vietnamese": "dư luận",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "알고리즘",
+      "pos": "N",
+      "meaning_vi": "Thuật toán",
+      "example_ko": "추천 알고리즘이 내 취향을 알아요.",
+      "example_vi": "Thuật toán đề xuất biết sở thích của tôi.",
+      "family": "🟡 Dạng thi · Tin giả, thông tin cá nhân & dư luận",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "SNS",
+      "pos": "N",
+      "meaning_vi": "Mạng xã hội",
+      "pron": "[에스엔에스]",
+      "note_vi": "Người Hàn đọc từng chữ cái: [에스엔에스]. `SNS를 통해` = qua mạng xã hội.",
+      "example_ko": "요즘은 SNS로 뉴스를 보는 사람이 많다.",
+      "example_vi": "Dạo này nhiều người xem tin tức qua mạng xã hội.",
+      "family": "🟢 Nền · Tóm tắt tin và nêu ý kiến",
+      "priority": "core"
+    },
+    {
+      "hangul": "전문가",
+      "pos": "N",
+      "meaning_vi": "Chuyên gia",
+      "note_vi": "Tóm tắt tin hay có câu `전문가들은 …다고 말했다` (thuật lại ý kiến chuyên gia).",
+      "example_ko": "전문가들은 수면 시간이 중요하다고 말했다.",
+      "example_vi": "Các chuyên gia nói rằng thời gian ngủ rất quan trọng.",
+      "family": "🟢 Nền · Tóm tắt tin và nêu ý kiến",
+      "priority": "core",
+      "hanja": "專門家",
+      "sino_vietnamese": "chuyên môn gia",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "정보",
+      "pos": "N",
+      "meaning_vi": "Thông tin",
+      "note_vi": "`정보를 얻다` (có được thông tin), `정보를 공유하다` (chia sẻ thông tin); `개인 정보` là thông tin cá nhân.",
+      "example_ko": "인터넷에는 정보가 많다.",
+      "example_vi": "Trên mạng có nhiều thông tin.",
+      "family": "🟢 Nền · Tóm tắt tin và nêu ý kiến",
+      "priority": "core",
+      "hanja": "情報",
+      "sino_vietnamese": "tình báo",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "중요하다",
+      "pos": "A",
+      "meaning_vi": "Quan trọng",
+      "note_vi": "Nêu ý kiến: `…이/가 가장 중요하다고 생각한다`.",
+      "example_ko": "출처를 확인하는 것이 중요하다.",
+      "example_vi": "Kiểm tra nguồn là điều quan trọng.",
+      "family": "🟢 Nền · Tóm tắt tin và nêu ý kiến",
+      "priority": "core",
+      "hanja": "重要",
+      "sino_vietnamese": "trọng yếu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "습관",
+      "pos": "N",
+      "meaning_vi": "Thói quen",
+      "note_vi": "`습관이 있다`, `습관을 기르다` (tập thói quen), `소비 습관` (thói quen tiêu dùng).",
+      "example_ko": "기사를 읽기 전에 출처를 보는 습관이 있다.",
+      "example_vi": "Tôi có thói quen xem nguồn trước khi đọc bài báo.",
+      "family": "🟢 Nền · Tóm tắt tin và nêu ý kiến",
+      "priority": "core",
+      "hanja": "習慣",
+      "sino_vietnamese": "tập quán",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "다른",
+      "pos": "X",
+      "meaning_vi": "Khác (đứng trước danh từ)",
+      "note_vi": "Định ngữ của `다르다`: `다른 사람`, `다른 기사`.",
+      "example_ko": "다른 언론의 기사도 읽어 보았다.",
+      "example_vi": "Tôi cũng đọc thử bài của báo khác.",
+      "family": "🟢 Nền · Tóm tắt tin và nêu ý kiến",
+      "priority": "core"
+    },
+    {
+      "hangul": "포털 사이트",
+      "pos": "N",
+      "meaning_vi": "Cổng thông tin điện tử (Naver, Daum…)",
+      "example_ko": "포털 사이트에서 뉴스를 본다.",
+      "example_vi": "Tôi xem tin trên cổng thông tin.",
+      "family": "🟢 Nền · Tóm tắt tin và nêu ý kiến",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "연예 기사",
+      "pos": "N",
+      "meaning_vi": "Tin giải trí, tin về giới nghệ sĩ",
+      "example_ko": "연예 기사에는 댓글이 많다.",
+      "example_vi": "Tin giải trí có nhiều bình luận.",
+      "family": "🟢 Nền · Tóm tắt tin và nêu ý kiến",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "상처를 받다 · 상처를 주다",
+      "pos": "X",
+      "meaning_vi": "Bị tổn thương · làm tổn thương (người khác)",
+      "example_ko": "악성 댓글 때문에 상처를 받는 사람이 많다.",
+      "example_vi": "Nhiều người bị tổn thương vì bình luận ác ý.",
+      "family": "🟢 Nền · Tóm tắt tin và nêu ý kiến",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "비밀번호",
+      "pos": "N",
+      "meaning_vi": "Mật khẩu",
+      "example_ko": "비밀번호를 자주 바꾸는 것이 좋다.",
+      "example_vi": "Nên đổi mật khẩu thường xuyên.",
+      "family": "🟢 Nền · Tóm tắt tin và nêu ý kiến",
+      "priority": "recognize",
+      "hanja": "秘密番號",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "인터넷 쇼핑몰",
+      "pos": "N",
+      "meaning_vi": "Trang mua sắm trực tuyến",
+      "example_ko": "인터넷 쇼핑몰에서 옷을 샀다.",
+      "example_vi": "Tôi đã mua quần áo trên trang mua sắm trực tuyến.",
+      "family": "🟢 Nền · Tóm tắt tin và nêu ý kiến",
+      "priority": "recognize"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V/A + -(ㄴ/는)다고 하다 · -다는 + N",
+      "meaning_vi": "Nghe nói …, (ai) nói rằng … · cái N mà nói rằng …",
+      "usage_context_vi": "**Cấu tạo:** (1) **Thuật lại câu trần thuật:** động từ `V + -ㄴ/는다고 하다` (`간다고 한다`, `먹는다고 한다`); tính từ `A + -다고 하다` (`크다고 한다`); quá khứ `-았/었다고 하다`; tương lai `-(으)ㄹ 것이라고 하다`; danh từ `N(이)라고 하다`. Rút gọn khi nói: `-대요` (= `-다고 해요`). (2) **Bổ nghĩa danh từ:** `-다는 + N` (`비가 온다는 소식`, `문을 닫는다는 소문`).\n**Hoàn cảnh dùng:** chuyển lời **tin tức, thông tin từ nguồn thứ ba** hoặc lời người khác: `뉴스에서 …다고 한다`; `-다는 소식/소문/보도/주장` để nêu nội dung tin ngay trước danh từ.\n**Vì sao chọn nó:** `(이)라고 하다` chỉ gọi tên; `-다고 하다` thuật lại **cả câu**; `-다는 N` bổ nghĩa danh từ bằng nội dung của tin.",
+      "contrasts": [
+        {
+          "pattern": "N + (이)라고 하다",
+          "diff_vi": "Gọi tên, định danh («được gọi là …»); `-다고 하다` thuật lại cả câu."
+        },
+        {
+          "pattern": "V + -(으)라고 하다/말하다",
+          "diff_vi": "Thuật lại **mệnh lệnh**; `-다고 하다` thuật lại **câu trần thuật**."
+        },
+        {
+          "pattern": "N + (이)라는 + N",
+          "diff_vi": "Dạng bổ nghĩa cho danh từ riêng/danh từ; `-다는 N` mở rộng cho động từ, tính từ."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Chia sai: ✗ `가다고 한다` → ✓ `간다고 한다`; ✗ `먹다고 한다` → ✓ `먹는다고 한다`.\n(2) Muốn thuật mệnh lệnh mà dùng `-다고`: ✗ `가다고 했어요` (nghĩa «nói rằng đi») → ✓ `가라고 했어요`.\n(3) Dùng `-다는` với danh từ thông thường: ✗ `먹는다는 사람` → ✓ `먹는 사람`; `-다는 N` chỉ đi với `소식, 소문, 보도, 주장, 이야기, 생각`…\n(4) Quên đổi thì khi thuật lại việc đã xảy ra: dùng `-았/었다고 하다`, không phải `-ㄴ/는다고 하다`.",
+      "example_ko": "뉴스에서 내일부터 비가 온다고 해요.\n그 회사의 제품이 인기가 많다고 합니다.\n이번 사고는 운전자의 부주의 때문이라고 한다.\n회사가 다음 달에 문을 닫는다는 소문이 돌고 있어요.",
+      "example_vi": "Bản tin nói từ mai trời sẽ mưa.\nNghe nói sản phẩm của công ty đó rất được ưa chuộng.\nNghe nói tai nạn lần này do sự bất cẩn của tài xế.\nĐang có tin đồn công ty sẽ đóng cửa vào tháng sau.",
+      "topik_tip_vi": "Bài đọc dạng tin tức dùng `-다고 한다/밝혔다` để dẫn nguồn; câu hỏi «nội dung giống» thường xoay quanh phần đứng trước `-다고`. Nhận ra `-다는 + N` (tin đồn, tin tức) giúp bạn xác định đúng cụm danh từ.",
+      "exam": "kiip-4",
+      "builds_on": [
+        "N + (이)라고 하다",
+        "N + (이)라는 + N"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V/A + -(으)ㄴ/는 것으로 나타나다 · 알려지다 · 조사되다",
+      "meaning_vi": "(Kết quả) cho thấy là …, được biết là …",
+      "usage_context_vi": "**Cấu tạo:** `V + -는 것으로 나타났다`, `A + -(으)ㄴ 것으로 나타났다`, `N인 것으로 나타났다`; quá khứ `-(으)ㄴ 것으로`. Ba động từ cuối chỉ nguồn: **`나타나다`** (kết quả hiện ra từ số liệu), **`알려지다`** (thông tin được biết, tin đồn), **`조사되다`** (kết quả điều tra). Hay ở **quá khứ** trong bài viết khách quan.\n**Hoàn cảnh dùng:** báo cáo **kết quả khảo sát, số liệu** hoặc thông tin đã được công bố bằng giọng khách quan của tin tức: `조사 결과 응답자의 60%가 …한 것으로 나타났다`.\n**Vì sao chọn nó:** `-다` chỉ nêu sự thật; `-(으)ㄴ 것으로 나타났다` thêm sắc thái **«kết quả cho thấy»**, rất hợp Viết 53 và tin tức; `-ㄹ 것으로 전망된다` là dự báo tương lai.",
+      "contrasts": [
+        {
+          "pattern": "-겠- (bản tin nói, 합쇼체) · -(으)ㄹ 것으로 예상되다/보이다/전망이다 (bản tin viết)",
+          "diff_vi": "Dự báo **tương lai**; `나타났다` mô tả kết quả đã có."
+        },
+        {
+          "pattern": "V/A + -(ㄴ/는)다고 하다 · -다는 + N",
+          "diff_vi": "Thuật lại lời ai đó; `것으로 나타나다` dựa vào số liệu, kết quả."
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는/(으)ㄹ 것 같다",
+          "diff_vi": "Phỏng đoán chủ quan; `것으로 나타나다` khách quan, có dữ liệu."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dự báo mà dùng `나타났다`: ✗ `2030년에 늘어날 것으로 나타났다` → ✓ `늘어날 것으로 전망된다`.\n(2) Dùng cho ý kiến cá nhân: ✗ `제 생각에는 좋은 것으로 나타났다` → chỉ dùng khi có số liệu hay nguồn.\n(3) Quên `것`: ✗ `늘어난으로 나타났다` → ✓ `늘어난 것으로 나타났다`.\n(4) Dùng thì hiện tại cho kết quả đã có: ✗ `나타난다` → bài viết dùng `나타났다`.",
+      "example_ko": "조사 결과 응답자의 70%가 뉴스를 온라인으로 보는 것으로 나타났다.\n10대의 SNS 이용 시간이 가장 많이 늘어난 것으로 조사되었다.\n이 가수가 올해 안에 새 앨범을 낼 것으로 알려졌다.\n가짜 뉴스를 한 번 이상 본 사람이 절반이 넘는 것으로 나타났다.",
+      "example_vi": "Kết quả khảo sát cho thấy 70% người trả lời xem tin tức trực tuyến.\nĐiều tra cho thấy thời gian dùng SNS của tuổi teen tăng nhiều nhất.\nĐược biết ca sĩ này sẽ ra album mới trong năm nay.\nKết quả cho thấy hơn một nửa số người từng thấy tin giả ít nhất một lần.",
+      "topik_tip_vi": "Đây là cặp mở bài và kết bài của Viết 53: mở bằng `조사 결과 …(으)ㄴ/는 것으로 나타났다`, kết bằng `…(으)ㄹ 것으로 전망된다`. Nắm cặp này là nắm khung của câu 53.",
+      "exam": "kiip-4",
+      "builds_on": [
+        "-겠- (bản tin nói, 합쇼체) · -(으)ㄹ 것으로 예상되다/보이다/전망이다 (bản tin viết)"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "N + 을/를 비롯해(서) · N + 을/를 비롯한 N",
+      "meaning_vi": "Bắt đầu từ …, kể cả … (và nhiều thứ khác)",
+      "usage_context_vi": "**Cấu tạo:** `N + 을/를 비롯해(서)` + vị ngữ: `서울을 비롯해 전국에서`; định ngữ `N + 을/를 비롯한 + N`: `한국어를 비롯한 외국어`. `N` là ví dụ tiêu biểu, đứng đầu danh sách. Văn viết: `을/를 비롯하여`.\n**Hoàn cảnh dùng:** nêu **một ví dụ tiêu biểu rồi mở rộng sang nhiều thứ cùng loại**; thường gặp trong tin tức, thông báo: `유튜브를 비롯한 영상 플랫폼`.\n**Vì sao chọn nó:** `와/과` liệt kê ngang hàng; `을/를 비롯해` đưa **một cái làm đại diện** và ngầm có thêm nhiều cái khác.",
+      "contrasts": [
+        {
+          "pattern": "N + 와/과 · 하고 · (이)랑",
+          "diff_vi": "Liệt kê ngang hàng, đầy đủ; `비롯해` chỉ nêu vài cái tiêu biểu."
+        },
+        {
+          "pattern": "N + 을/를 포함해",
+          "diff_vi": "Bao gồm cả …; `비롯해` nhấn cái đầu tiên/tiêu biểu."
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 뿐만 아니라",
+          "diff_vi": "«Không chỉ … mà còn»; `비롯해` chỉ mở rộng danh sách."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Nhầm trợ từ: ✗ `서울이 비롯해` → ✓ `서울을 비롯해`.\n(2) Dùng khi chỉ có một danh từ, không có «những thứ khác»: ✗ `서울을 비롯해 서울에서`.\n(3) Chọn ví dụ nhỏ làm đại diện: nên chọn danh từ **lớn nhất, tiêu biểu nhất**.\n(4) Quên `한` ở dạng định ngữ: ✗ `유튜브를 비롯 플랫폼` → ✓ `유튜브를 비롯한 플랫폼`.",
+      "example_ko": "유튜브를 비롯한 영상 플랫폼의 이용자가 늘고 있다.\n서울을 비롯해 전국 주요 도시에서 행사가 열렸다.\n신문을 비롯한 전통 매체의 영향력이 줄어들고 있다.\n김 대리를 비롯해 팀원 모두가 이 계획에 찬성했다.",
+      "example_vi": "Số người dùng các nền tảng video, tiêu biểu là YouTube, đang tăng.\nSự kiện được tổ chức ở các thành phố lớn trên cả nước, bắt đầu từ Seoul.\nẢnh hưởng của các phương tiện truyền thống, trong đó có báo giấy, đang giảm.\nMọi thành viên trong nhóm, kể cả trợ lý Kim, đều tán thành kế hoạch này.",
+      "topik_tip_vi": "Hay gặp trong tin tức và thông báo dài. Khi đọc thấy «A를 비롯해», hãy hiểu A chỉ là ví dụ đầu tiên; câu hỏi nội dung thường hỏi về phạm vi rộng hơn A.",
+      "exam": "kiip-4",
+      "builds_on": [
+        "N + 와/과 · 하고 · (이)랑"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "N + (이)야말로",
+      "meaning_vi": "Chính … mới là …, … mới thật sự là …",
+      "usage_context_vi": "**Cấu tạo:** `N + 이야말로` (có patchim) / `N + 야말로` (không patchim): `건강이야말로`, `신뢰야말로`. Đứng thay cho `은/는`, `이/가` ở chủ đề được nhấn mạnh; vị ngữ thường khẳng định.\n**Hoàn cảnh dùng:** nhấn mạnh danh từ là **đối tượng tiêu biểu hay đúng nhất** cho điều được nói; hay ở bài nghị luận, câu kết, tiêu đề: `정확한 정보야말로 …`.\n**Vì sao chọn nó:** `은/는` chỉ nêu chủ đề; `(이)야말로` **khẳng định** chính cái đó chứ không phải cái khác.",
+      "contrasts": [
+        {
+          "pattern": "N + 은/는",
+          "diff_vi": "Chủ đề đơn thuần; `야말로` mang sắc thái khẳng định nhấn mạnh."
+        },
+        {
+          "pattern": "N + (이)라도",
+          "diff_vi": "«Dù chỉ là N» (lựa chọn tối thiểu); `야말로` là «chính N»."
+        },
+        {
+          "pattern": "N + 만",
+          "diff_vi": "«Chỉ N» (loại trừ cái khác); `야말로` khẳng định N là tiêu biểu nhất."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Chia sai: ✗ `정보이야말로` → ✓ `정보야말로`; ✗ `건강야말로` → ✓ `건강이야말로`.\n(2) Thêm trợ từ thừa: ✗ `건강이야말로는`, `건강이야말로가`.\n(3) Dùng cho chuyện bình thường, không cần nhấn: ✗ `오늘야말로 비가 와요`.\n(4) Dùng với vị ngữ phủ định để khen: ✗ `건강이야말로 중요하지 않다` thường không tự nhiên; vị ngữ thường khẳng định.",
+      "example_ko": "신뢰야말로 언론의 가장 중요한 가치이다.\n지금이야말로 개인 정보를 보호해야 할 때예요.\n정확한 출처야말로 믿을 수 있는 정보의 조건이다.\n이 영화야말로 올해 최고의 작품이라고 생각해요.",
+      "example_vi": "Lòng tin chính là giá trị quan trọng nhất của báo chí.\nChính bây giờ là lúc phải bảo vệ thông tin cá nhân.\nNguồn chính xác mới là điều kiện của thông tin đáng tin.\nTôi nghĩ chính bộ phim này là tác phẩm hay nhất năm nay.",
+      "topik_tip_vi": "Trong đoạn nghị luận, `(이)야말로` thường đứng ở câu chủ đề hoặc câu kết: danh từ đứng trước nó là **ý chính** của người viết. Khi hỏi «ý chính», đây là dấu hiệu để chốt đáp án.",
+      "exam": "kiip-4",
+      "builds_on": [
+        "N + 은/는"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V/A + -(ㄴ/는)다면서(요)? · N + (이)라면서(요)?",
+      "meaning_vi": "Nghe nói … phải không? — hỏi lại để xác nhận điều đã nghe từ nơi khác",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** dạng tường thuật + `-면서(요)?`: `-(ㄴ/는)다면서요?` (`간다면서요?`), `-(느)냐면서요?`, `-자면서요?`, `-(으)라면서요?`, `N(이)라면서요?`. Văn nói, rút gọn `-다며?`.\n**Hoàn cảnh dùng:** Người nói **đã nghe** tin (từ người khác, báo, mạng) và **hỏi lại người nghe để xác nhận**: `회사가 이사한다면서요?` Cũng dùng để **trách** khi lời trước không đúng: `금방 온다면서요?` (anh nói sắp đến mà).\n**Vì sao chọn nó:** `-대요` chỉ thuật lại tin; `-다면서요?` vừa thuật vừa **hỏi xác nhận** người đối diện, rất hay gặp ở câu mở đầu hội thoại trong đề Nghe.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Truyền thông & Thông tin»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V/A + -(ㄴ/는)대요",
+          "diff_vi": "Thuật lại thông tin (nghe nói …), không hỏi."
+        },
+        {
+          "pattern": "V/A + -다고요? · …",
+          "diff_vi": "Hỏi lại câu **vừa** nghe trong cuộc nói chuyện."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Nhầm với `-(으)면서` (vừa … vừa): ✗ hiểu `간다면서요?` là «vừa đi vừa…».\n(2) Dùng cho điều người nghe không thể biết: `-다면서요?` hỏi người nghe nên họ phải liên quan hoặc biết tin đó.\n(3) Thiếu tường thuật: ✗ `회사가 이사하면서요?` → ✓ `이사한다면서요?`.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "다음 달에 회사가 강남으로 이사한다면서요?\n어제 뉴스에서 봤는데 그 앱 사용자가 천만 명이 넘었다면서요?\n금방 온다면서요? 벌써 한 시간이나 기다렸어요.",
+      "example_vi": "Nghe nói tháng sau công ty chuyển về Gangnam phải không?\nHôm qua xem tin thấy bảo app đó vượt 10 triệu người dùng, đúng không?\nAnh bảo sắp đến mà? Tôi chờ những một tiếng rồi.",
+      "topik_tip_vi": "Nghe 21–22: câu mở đầu `-다면서요?` cho biết chủ đề hội thoại; câu «nội dung trùng khớp» thường lấy chính tin này.",
+      "use_level": "produce",
+      "source": "EXT-SUP-25"
+    },
+    {
+      "pattern": "V/A + -(ㄴ/는)다고 하던데(요) · -(ㄴ/는)다던데(요)",
+      "meaning_vi": "Nghe nói … (mà/nên) … — dẫn tin nghe được làm bối cảnh cho lời mình",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** tường thuật + `하던데(요)`: `-(ㄴ/는)다고 하던데`, rút gọn `-(ㄴ/는)다던데`; tương tự `-(느)냐고/자고/(으)라고 하던데`, `N(이)라고 하던데` (`-(이)라던데`).\n**Hoàn cảnh dùng:** Dẫn một **tin đã nghe** để mở ra lời khuyên, câu hỏi hay ý kiến: `내일 비가 온다고 하던데 우산 챙기세요.` Rất hay gặp trong hội thoại công sở và Nghe.\n**Vì sao chọn nó:** `-대요` kết thúc ở việc thuật lại; `-다고 하던데` dùng tin đó làm **nền** cho câu tiếp theo (khuyên, hỏi, phản đối).\n**Trong bài này:** mẫu bổ sung cho chủ đề «Truyền thông & Thông tin»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V/A + -(ㄴ/는)대요",
+          "diff_vi": "Chỉ thuật lại tin, kết thúc câu."
+        },
+        {
+          "pattern": "V/A + -던데(요)",
+          "diff_vi": "Bối cảnh từ điều **chính mình thấy**, không phải nghe người khác nói."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Nhầm với `-던데`: tin nghe từ người khác → `-다고 하던데`; điều mình tận mắt thấy → `-던데`.\n(2) Chia thì sai trong phần tường thuật: ✗ `비가 와다고 하던데` → ✓ `비가 온다고 하던데`.\n(3) Bỏ vế sau khi dùng ở giữa câu: `-다던데` giữa câu cần vế sau là lời khuyên/hỏi.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "내일 비가 온다고 하던데 우산 챙기세요.\n그 기사는 오보라던데 확인해 보셨어요?\n신제품 반응이 좋다던데 판매량은 어때요?",
+      "example_vi": "Nghe nói mai mưa, anh nhớ mang ô nhé.\nNghe nói bài báo đó đưa tin sai, anh đã kiểm tra chưa?\nNghe nói sản phẩm mới được đón nhận tốt, doanh số thế nào?",
+      "topik_tip_vi": "Nghe: phần `-다고 하던데` là thông tin nền, vế sau mới là ý đồ người nói (khuyên, hỏi) — câu «ý đồ» chọn vế sau.",
+      "use_level": "produce",
+      "source": "EXT-SUP-26"
+    },
+    {
+      "pattern": "V/A + -데(요) (hồi tưởng điều đã thấy)",
+      "meaning_vi": "(Tôi thấy) … đấy — kể lại điều chính người nói đã trải nghiệm, quan sát (khẩu ngữ)",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** gốc + `-데(요)`: `좋다 → 좋데요`, `맛있다 → 맛있데요`; danh từ `N(이)데요`. Nghĩa gần `-더라고요`. Câu hỏi `-데요?` hỏi về điều người nghe đã thấy.\n**Hoàn cảnh dùng:** Kể **trải nghiệm trực tiếp** trong quá khứ một cách ngắn gọn: `그 식당 가 봤는데 분위기가 정말 좋데요.` Chủ yếu trong văn nói; văn viết dùng `-더라`/`-더라고요`.\n**Vì sao chọn nó:** `-데요` (e) = **tôi đã thấy**; `-대요` (ae) = **nghe người khác nói** (`-다고 해요`). Đây là chỗ người học hay nghe nhầm trong đề Nghe.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Truyền thông & Thông tin»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V/A + -(ㄴ/는)대요",
+          "diff_vi": "Thuật lại lời người khác (nghe nói), khác hẳn nguồn thông tin."
+        },
+        {
+          "pattern": "V/A + -더라고요",
+          "diff_vi": "Cùng nghĩa, phổ biến hơn, dùng được trong cả văn nói trang trọng hơn."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Nhầm `-데요` với `-대요`: `좋데요` = tôi thấy tốt; `좋대요` = nghe nói tốt.\n(2) Nhầm với `-(으)ㄴ/는데요` (kết câu mềm): `좋은데요` là nhận xét hiện tại, `좋데요` là hồi tưởng.\n(3) Dùng cho cảm xúc của chính mình: ✗ `저는 기쁘데요` → ✓ `저는 기뻤어요`.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "그 식당에 가 봤는데 분위기가 정말 좋데요.\n새로 온 팀장님 말씀을 들어 보니까 꽤 꼼꼼하시데요.\n어제 전시회에 갔는데 사람이 정말 많데요.",
+      "example_vi": "Tôi đã đến quán đó, không khí tốt lắm.\nNghe trưởng nhóm mới nói thì thấy khá tỉ mỉ đấy.\nHôm qua đi triển lãm, người đông lắm.",
+      "topik_tip_vi": "Nghe: `-데요` = người nói tự thấy; `-대요` = nghe người khác. Câu hỏi về nguồn tin hoặc «người đàn ông đã làm gì» dựa vào chỗ này.",
+      "use_level": "produce",
+      "source": "EXT-SUP-27"
+    },
+    {
+      "pattern": "Bị động: V + -이/히/리/기- · N + -되다/-받다/-당하다 · V + -아/어지다",
+      "meaning_vi": "Câu bị động — chủ ngữ là người/vật chịu tác động (tin tức, thông báo, bài viết)",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** (1) Bị động từ vựng: `보다 → 보이다`, `닫다 → 닫히다`, `열다 → 열리다`, `안다 → 안기다`. (2) Danh từ Hán Hàn: `발표하다 → 발표되다`, `존경하다 → 존경받다`, `사기 → 사기당하다`. (3) Cú pháp: gốc + `-아/어지다` (`만들어지다`, `알려지다`).\n**Hoàn cảnh dùng:** Tin tức, thông báo, văn viết thích bị động vì **không cần nói ai làm** hoặc nhấn vào sự việc: `새 정책이 발표되었다.` `그 소식은 SNS를 통해 빠르게 알려졌다.` `-받다` dùng cho điều tốt hoặc trung tính, `-당하다` cho điều **bất lợi** (`해킹을 당하다`).\n**Vì sao chọn nó:** Chủ động `정부가 정책을 발표했다` nhấn ai làm; bị động `정책이 발표되었다` nhấn **sự việc**. Không phải động từ nào cũng có dạng `-이/히/리/기-`; khi không có thì dùng `-아/어지다` hoặc `-되다`.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Truyền thông & Thông tin»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "Động từ sai khiến 사동 · V + -이/히/리/기/우/추-",
+          "diff_vi": "Cùng hình thức `-이/히/리/기-` nhưng nghĩa **làm cho** (`먹이다`), khác bị động (`보이다` = được thấy)."
+        },
+        {
+          "pattern": "A + -아/어지다",
+          "diff_vi": "Với tính từ là **trở nên** (`추워지다`), không phải bị động."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Bị động kép: ✗ `보여지다`, `잊혀지다` (thừa) → ✓ `보이다`, `잊히다` trong văn viết chuẩn.\n(2) Dùng `-당하다` cho điều tốt: ✗ `칭찬당하다` → ✓ `칭찬받다`.\n(3) Giữ tân ngữ: ✗ `문을 닫혔어요` → ✓ `문이 닫혔어요` (bị động không có `을/를`).\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "새로운 교통 정책이 오늘 발표되었다.\n그 소식은 SNS를 통해 빠르게 알려졌다.\n개인 정보가 유출되어 피해를 당한 사람이 많다.",
+      "example_vi": "Chính sách giao thông mới đã được công bố hôm nay.\nTin đó nhanh chóng được biết đến qua mạng xã hội.\nNhiều người bị thiệt hại vì thông tin cá nhân bị rò rỉ.",
+      "topik_tip_vi": "Đọc tin tức (tiêu đề báo 25–27, đọc dài): tiêu đề hay dùng danh từ + bị động lược (`발표`, `확산`); hiểu chủ thể bị tác động là chìa khóa.",
+      "use_level": "produce",
+      "source": "EXT-SUP-28"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài (truyền thông và thông tin)",
+      "body": "**Bài 39:** 🟢 nói và viết về tin tức, mạng xã hội, quảng cáo · 🟡 nghe bản tin và chuyện tin đồn ở công ty, đọc thông báo bảo mật, tiêu đề tin và bài nghị luận về tin giả · 🔴 viết bài mô tả **biểu đồ cột hai năm theo nhóm tuổi** (Viết 53): nêu nhóm tăng mạnh nhất, bội số, nguyên nhân và dự báo.\n**Ngữ pháp:** `-다고 하다 · -다는 N`, `-ㄴ 것으로 나타나다`, `N을/를 비롯해`, `N(이)야말로`.\n• 🎯 **Đầu ra:** cuối bài bạn viết được bài hai đoạn tóm tắt một tin tức và nêu ý kiến của mình (200–400 chữ, thể `-다`, Bước 5) và kể lại tin đó kèm ý kiến trong một phút.",
+      "kind": "goal"
+    },
+    {
+      "title": "Phân biệt các cặp từ dễ nhầm",
+      "body": "• **기사 / 뉴스 / 보도:** `기사` là bài báo; `뉴스` là bản tin; `보도` là việc đưa tin.\n• **언론 / 매체:** `언론` là giới báo chí; `매체` là phương tiện (báo giấy, tivi, mạng).\n• **광고 / 홍보:** `광고` là quảng cáo (thường trả tiền); `홍보` là quảng bá, giới thiệu rộng hơn.\n• **영향을 미치다 / 주다 / 받다:** `미치다` và `주다` là gây ảnh hưởng (`에게/에`), `받다` là chịu ảnh hưởng (`의/에서`).\n• **접속 / 검색 / 이용:** `접속` là kết nối vào; `검색` là tìm kiếm; `이용` là sử dụng dịch vụ.\n• **사실 / 진실:** `사실` là sự việc đã xảy ra; `진실` là sự thật sâu xa.\n• **의견 / 주장:** `의견` là ý kiến thông thường; `주장` là quan điểm khẳng định mạnh.",
+      "kind": "language"
+    },
+    {
+      "title": "Đời sống: đọc tin tức và nhận biết tin giả",
+      "body": "• Nhiều người Hàn đọc tin qua cổng thông tin (như **네이버**, **다음**) và nhắn tin qua **카카오톡**; chuỗi tin chuyển tiếp dễ chứa tin sai.\n• Trước khi chia sẻ: kiểm tra **nguồn** (`출처`), **ngày đăng**, và xem **cùng một tin** có trên ít nhất hai cơ quan báo chí khác nhau không.\n• Cảnh giác với tiêu đề gây sốc, bài không ghi tên người viết, ảnh cũ bị gắn vào sự việc mới.\n• Hãy phân biệt **sự kiện** (`사실`) và **ý kiến** (`의견`) trong cùng một bài.\n• Với tin liên quan đến visa, bảo hiểm, thuế: đối chiếu trang chính thức của cơ quan nhà nước (như gov.kr, hikorea.go.kr).\n*Thông tin tham khảo; dịch vụ và địa chỉ có thể thay đổi.*",
+      "kind": "fact",
+      "exam": "kiip-4"
+    },
+    {
+      "title": "Đời sống: thông tin cá nhân, đời tư và bình luận ác ý",
+      "body": "• Luật bảo vệ thông tin cá nhân (`개인정보 보호법`) yêu cầu nơi thu thập dữ liệu phải giải thích rõ mục đích sử dụng.\n• Nếu nghi ngờ **bị lộ thông tin cá nhân**, đổi mật khẩu ngay và báo trung tâm hỗ trợ; có thể hỏi số **118** (trung tâm hỗ trợ về xâm phạm thông tin của KISA).\n• **Bình luận ác ý** (`악성 댓글`) hay phát tán ảnh của người khác không được phép có thể bị xử lý theo luật; chụp lại màn hình làm bằng chứng và báo cảnh sát (hệ thống báo tội phạm mạng của Cảnh sát).\n• Đừng đăng ảnh có thông tin nhạy cảm (số điện thoại, địa chỉ, thẻ ngoại kiều) lên mạng xã hội.\n*Thông tin tham khảo, đối chiếu kisa.or.kr và trang của Cảnh sát trước khi áp dụng; không thay cho tư vấn pháp lý.*",
+      "kind": "fact",
+      "exam": "kiip-4"
+    },
+    {
+      "title": "Mẫu thông báo đính chính trên trang cửa hàng (합쇼체)",
+      "body": "정정 안내드립니다. 어제 게시한 '신제품 출시 안내' 글에서 출시일을 3월 5일로 잘못 적었습니다. 정확한 출시일은 3월 15일입니다. 혼란을 드려 죄송합니다. 앞으로는 게시하기 전에 내용을 더 꼼꼼히 확인하겠습니다.\n*Bản dịch tham khảo:* Xin thông báo đính chính. Trong bài đăng «Thông báo ra mắt sản phẩm mới» hôm qua, chúng tôi đã ghi nhầm ngày ra mắt là 5/3. Ngày ra mắt chính xác là 15/3. Xin lỗi vì sự nhầm lẫn. Từ nay trước khi đăng bài, chúng tôi sẽ kiểm tra nội dung kỹ hơn.\n*Gợi ý:* đính chính → sai ở đâu → đúng là gì → xin lỗi → cam kết.",
+      "kind": "sample"
+    },
+    {
+      "title": "Viết 53: biểu đồ cột hai năm theo nhóm tuổi",
+      "body": "**Biểu đồ cột hai năm** so sánh các nhóm (tuổi, vùng…) ở hai thời điểm. Cách viết:\n• **T:** cơ quan + đối tượng.\n• **O + P:** nhóm tăng **mạnh nhất** nêu số liệu hai năm và bội số (`40분에서 120분으로 3배`); nhóm thứ hai dùng `도` hay `반면에`; nhóm chỉ tăng nhẹ dùng `소폭 증가하는 데 그쳤다`. Mở bằng `조사 결과 …(으)ㄴ 것으로 나타났다`.\n• **I:** ghép **hai** nguyên nhân.\n• **K:** `이러한 추세라면 앞으로 … -(으)ㄹ 것으로 전망된다`.\n**Mẹo:** không kể hết mọi cột; chọn nhóm tăng nhất, nhóm tăng ít nhất, rồi gộp phần còn lại.",
+      "kind": "writing"
+    },
+    {
+      "title": "🟢 Bài mẫu: Tóm tắt một tin tức và ý kiến của tôi (đầu ra của bài)",
+      "kind": "sample",
+      "body": "Đọc to bài mẫu, rồi thay bằng một tin thật bạn vừa đọc: đó là bài **Bước 5** ở phần Tạo câu. Tin trong bài mẫu là tin tự soạn để minh họa.\n\n오늘 가짜 뉴스가 SNS를 통해 빠르게 확산되고 있다는 기사를 읽었다. 기사에 따르면 한 설문 조사에서 응답자의 60%가 가짜 뉴스를 본 적이 있는 것으로 나타났다. 또 가짜 뉴스를 본 사람의 절반은 출처를 확인하지 않고 그 뉴스를 다른 사람과 공유했다고 한다. 전문가들은 가짜 뉴스가 여론에 큰 영향을 미칠 수 있다고 말했다.\n\n이 기사를 읽고 나도 조심해야겠다고 생각했다. 나도 전에 SNS에서 본 소식을 확인하지 않고 친구들에게 보낸 적이 있기 때문이다. 정보가 많은 요즘에는 출처를 확인하는 습관이야말로 가장 중요하다고 생각한다. 앞으로는 뉴스를 공유하기 전에 다른 언론의 기사도 확인해 보려고 한다.\n\n*Bản dịch tham khảo:* Hôm nay tôi đọc một bài báo nói rằng tin giả đang lan nhanh qua mạng xã hội. Theo bài báo, trong một cuộc khảo sát, 60% người trả lời cho biết đã từng xem tin giả. Ngoài ra, một nửa số người đã xem tin giả chia sẻ tin đó cho người khác mà không kiểm tra nguồn. Các chuyên gia nói tin giả có thể ảnh hưởng lớn đến dư luận. / Đọc bài báo xong, tôi nghĩ mình cũng phải cẩn thận, vì trước đây tôi cũng từng gửi cho bạn bè một tin thấy trên mạng xã hội mà không kiểm tra. Ngày nay thông tin nhiều như vậy, tôi cho rằng thói quen kiểm tra nguồn mới là điều quan trọng nhất. Từ nay, trước khi chia sẻ tin, tôi định đọc thêm bài của các báo khác.\n\n**Bài đi theo 2 đoạn:** (1) tóm tắt: tin gì (`-다는 기사`) → nội dung chính có nguồn (`N에 따르면 … 것으로 나타났다`) → chi tiết thêm (`-다고 한다`) → lời chuyên gia → (2) ý kiến: cảm nghĩ → lý do từ trải nghiệm của bạn (`-기 때문이다`) → ý chính (`N(이)야말로`) → câu kết: việc bạn sẽ làm (`앞으로는 … -(으)려고 한다`)."
+    },
+    {
+      "title": "🟢 Khung câu: thuật lại tin và nêu ý kiến",
+      "kind": "language",
+      "body": "**Thuật lại (đoạn tóm tắt):**\n• **Tin gì:** `오늘 …-다는 기사를 읽었다.` · `…-다는 뉴스를 봤다.`\n• **Nguồn + số liệu:** `기사에 따르면 응답자의 ○%가 …-(으)ㄴ/는 것으로 나타났다.`\n• **Liệt kê:** `N을/를 비롯해 N과 N까지 …`\n• **Chi tiết khác:** `또 …-았/었다고 한다.` · `전문가들은 …-(으)ㄹ 수 있다고 말했다.`\n**Ý kiến:**\n• `이 기사를 읽고 …-아/어야겠다고 생각했다.` · `…-기 때문이다.`\n• `N(이)야말로 가장 중요하다고 생각한다.`\n• `앞으로는 …-기 전에 …-(으)려고 한다.`\n**Chia `-다고`:** động từ `-(느)ㄴ다고` (`확산된다고`, `읽는다고`), tính từ `-다고` (`중요하다고`), quá khứ `-았/었다고` (`공유했다고`), danh từ `(이)라고` (`가짜 뉴스라고`)."
+    },
+    {
+      "title": "Lỗi người Việt hay mắc trong bài này",
+      "body": "• Chia `-다고 하다` sai (`가다고 한다`) hoặc dùng `-다고` khi muốn thuật mệnh lệnh.\n• Dùng `것으로 나타났다` cho dự báo tương lai thay vì `전망된다`.\n• `N을/를 비롯해` chỉ với một đối tượng duy nhất, hoặc nhầm trợ từ `이/가`.\n• `N이야말로` dùng sai patchim (`정보이야말로`).\n• Ở Viết 53: kể hết từng cột thay vì tóm tắt nhóm tăng nhất; thêm ý kiến riêng.\n• Chia sẻ tin trước khi kiểm tra nguồn.\n• Tóm tắt tin mà chen ý kiến của mình vào câu thuật lại (✗ `가짜 뉴스는 나쁘다는 기사를 읽었다`): tóm tắt trước, ý kiến để sang đoạn sau.\n• Thuật lại số liệu mà quên nguồn (`기사에 따르면`, `것으로 나타났다`): câu nghe như chính bạn khẳng định.",
+      "kind": "pitfall"
+    }
+  ],
+  "bank": "cong-so",
+  "coach": {
+    "focus_vi": [
+      "`-다고 하다` thuật câu trần thuật; `-다는 + N` đưa nội dung tin vào trước danh từ.",
+      "`조사 결과 …(으)ㄴ 것으로 나타났다` và `…(으)ㄹ 것으로 전망된다` là cặp mở và kết của Viết 53.",
+      "`N을/를 비롯해` nêu ví dụ tiêu biểu; `N(이)야말로` nhấn mạnh «chính là»."
+    ],
+    "watch_out_vi": [
+      "Không dùng `나타났다` cho dự báo tương lai.",
+      "`이야말로` sau danh từ có patchim, `야말로` sau danh từ không patchim."
+    ],
+    "notebook_vi": [
+      "Bốn câu tự đặt: một với mỗi mẫu bài này, về một tin bạn đọc hôm nay.",
+      "Một câu mở bài 53 và một câu kết bài 53 của riêng bạn."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Nói: nghe nói công ty sẽ chuyển văn phòng.",
+        "answer": "회사가 사무실을 옮긴다고 해요."
+      },
+      {
+        "prompt_vi": "Nói: kết quả khảo sát cho thấy 60% xem tin trực tuyến.",
+        "answer": "조사 결과 60%가 뉴스를 온라인으로 보는 것으로 나타났다."
+      }
+    ],
+    "tip_vi": "Trước khi chia sẻ một tin, kiểm tra nguồn và ngày đăng; đọc ghi chú «Đời sống: đọc tin tức và nhận biết tin giả»."
+  },
+  "exercise_ids": [
+    "C39L1",
+    "C39L2",
+    "C39L3",
+    "C39L4",
+    "C39D1",
+    "C39D2",
+    "CU40L1",
+    "C39R1",
+    "C39R2",
+    "C39R3",
+    "C39R4",
+    "C39R5",
+    "C39R6",
+    "C39R7",
+    "C39R8",
+    "C39R9",
+    "C39R10",
+    "C39R11",
+    "C39R12",
+    "CU40R1",
+    "CSUP25",
+    "CSUP26",
+    "CSUP27",
+    "CSUP28",
+    "C39B1",
+    "C39B2",
+    "C39B3",
+    "C39B4",
+    "CU40O1",
+    "CU40O2",
+    "CU40F1",
+    "C39F1",
+    "CU40C1",
+    "CU40E1",
+    "C39W52",
+    "C39W53L",
+    "C39W53",
+    "C39S1",
+    "CU40S1"
+  ],
+  "topik2": [
+    {
+      "qid": "102-R-25",
+      "why_vi": "Tiêu đề tin về chương trình truyền hình giúp thu hút khách du lịch tới một thành phố; luyện đọc hiểu tiêu đề báo (bỏ trợ từ, từ ghép) như bài 39."
+    },
+    {
+      "qid": "102-R-27",
+      "why_vi": "Tiêu đề nói về bình luận ác ý và mức xử phạt còn nhẹ; từ vựng `악성 댓글` và cách đọc tiêu đề trùng với bài. Câu hỏi hiểu ý chính của tiêu đề."
+    },
+    {
+      "qid": "96-R-28",
+      "why_vi": "Đoạn tin về kênh phát sóng trực tiếp trên mạng được ưa chuộng; điền cụm từ vào chỗ trống dựa vào ý của đoạn, như dạng bài tin trực tuyến của bài."
+    }
+  ],
+  "editor_notes": [
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "Gói đầu ra bài 40 (O1, O2, F1, C1, E1, R1, L1, S1). Thẻ mới 13 (8 core, 5 recognize). Bài mẫu Bước 5 viết thể `-다` (như Viết 53/54 của bài này); nói ở 해요체. Tin trong bài mẫu, bài đọc (10만 명) và số 60% là tin tự soạn, ghi rõ trong ghi chú bài mẫu. Bài nghe về việc cổng thông tin bỏ bình luận tin giải trí khớp với sự việc có thật ở Hàn Quốc (Daum 2019, Naver 2020) nhưng không nêu tên hay năm. `중요하다`, `요즘`, `다른`, `정보` trước đây không là thẻ ở đâu."
+    }
+  ]
+}

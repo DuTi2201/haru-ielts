@@ -1,0 +1,3211 @@
+{
+  "skill": "build",
+  "guide": [
+    {
+      "title_vi": "Cách tạo câu",
+      "bullets_vi": [
+        "Tìm **vị ngữ** và mẫu ngữ pháp trước, rồi xếp chủ ngữ, trạng ngữ và tân ngữ vào đúng chỗ.",
+        "Mảnh thừa là **dạng sai** (chia sai, trợ từ sai) hoặc mẫu gần nghĩa nhưng không hợp ngữ cảnh; đừng dùng chúng.",
+        "Khi mẫu cần đúng dạng (`-(으)ㄹ 테니까`, `-던데요`), đọc to cả câu và kiểm tra patchim trước khi nộp."
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "X50B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Dự đoán làm lý do",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Chắc là sẽ mưa nên hãy mang ô theo.",
+      "tiles": [
+        "비가",
+        "올",
+        "테니까",
+        "우산을",
+        "가져가세요.",
+        "텐데",
+        "때문에"
+      ],
+      "answers": [
+        "비가 올 테니까 우산을 가져가세요."
+      ],
+      "explain_vi": "`비가 올 테니까` + lời khuyên `-(으)세요`. `텐데` và `때문에` là mảnh thừa vì không dẫn tới lời khuyên đúng khuôn."
+    },
+    {
+      "id": "X50B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Lời cảm ơn",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Chắc anh bận lắm mà vẫn đến, cảm ơn anh.",
+      "tiles": [
+        "바쁘실",
+        "텐데",
+        "와",
+        "주셔서",
+        "감사합니다.",
+        "테니까",
+        "주시니까"
+      ],
+      "answers": [
+        "바쁘실 텐데 와 주셔서 감사합니다."
+      ],
+      "explain_vi": "`-(으)ㄹ 텐데` mở đầu lời cảm ơn thông cảm. `테니까` và `주시니까` sai logic (không thể «vì anh bận nên cảm ơn»)."
+    },
+    {
+      "id": "X50B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Suy ra từ dấu hiệu (quá khứ)",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Thấy đường ướt thì có vẻ trời đã mưa.",
+      "tiles": [
+        "길이",
+        "젖어",
+        "있는",
+        "걸",
+        "보니",
+        "비가",
+        "온",
+        "모양이다.",
+        "오는"
+      ],
+      "answers": [
+        "길이 젖어 있는 걸 보니 비가 온 모양이다."
+      ],
+      "explain_vi": "Việc đã xảy ra → `온 모양이다`. `오는` (đang mưa) là mảnh thừa."
+    },
+    {
+      "id": "X50B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -나 보다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Thấy đèn tắt thì có vẻ không có ai.",
+      "tiles": [
+        "불이",
+        "꺼진",
+        "걸",
+        "보니",
+        "아무도",
+        "없나",
+        "봐요.",
+        "없는데"
+      ],
+      "answers": [
+        "불이 꺼진 걸 보니 아무도 없나 봐요."
+      ],
+      "explain_vi": "`없다` + `-나 봐요`. `없는데` là mảnh thừa vì chỉ làm bối cảnh, không thành mẫu suy đoán."
+    },
+    {
+      "id": "X50B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Điều mình đã thấy",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Hôm qua tôi đến thử thì quán đó đông người đấy.",
+      "tiles": [
+        "어제",
+        "가",
+        "보니",
+        "그",
+        "식당은",
+        "사람이",
+        "많던데요.",
+        "많은데요."
+      ],
+      "answers": [
+        "어제 가 보니 그 식당은 사람이 많던데요."
+      ],
+      "explain_vi": "Điều mình đã thấy ở quá khứ → `많던데요`. `많은데요` nói bối cảnh hiện tại nên không khớp với «어제 가 보니»."
+    },
+    {
+      "id": "X50B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Nhắc điều đã nói",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Lúc nãy tôi đã nói rõ rồi mà!",
+      "tiles": [
+        "아까",
+        "분명히",
+        "말했잖아요.",
+        "말했거든요.",
+        "말했던데요."
+      ],
+      "answers": [
+        "아까 분명히 말했잖아요."
+      ],
+      "explain_vi": "Nhắc điều người nghe đã biết (tôi đã nói) → `말했잖아요`. `거든요` đưa lý do mới; `던데요` dùng cho điều mình thấy, không phải việc mình đã nói.",
+      "situation_vi": "Bạn đã nhắc việc này rồi nhưng người kia lại quên."
+    },
+    {
+      "id": "X50B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 단순히 + 모양이다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Có vẻ vụ tai nạn này không chỉ đơn thuần là lỗi của tài xế.",
+      "tiles": [
+        "이번",
+        "사고는",
+        "단순히",
+        "운전자의",
+        "실수가",
+        "아닌",
+        "모양이다.",
+        "아닌다",
+        "실수를"
+      ],
+      "answers": [
+        "이번 사고는 단순히 운전자의 실수가 아닌 모양이다."
+      ],
+      "explain_vi": "`N이/가 아니다` → `실수가 아닌 모양이다` (`아니다` + `-(으)ㄴ 모양이다`). `실수를` sai trợ từ; `아닌다` chia sai."
+    },
+    {
+      "id": "X51B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 말고도",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Ngoài tiếng Hàn, tôi còn nói được tiếng Anh.",
+      "tiles": [
+        "저는",
+        "한국어",
+        "말고도",
+        "영어도",
+        "할",
+        "수",
+        "있어요.",
+        "말고",
+        "외에는"
+      ],
+      "answers": [
+        "저는 한국어 말고도 영어도 할 수 있어요."
+      ],
+      "explain_vi": "`N 말고도 N도 …` = ngoài … còn …. `말고` (không có `도`) mang nghĩa loại trừ; `외에는` đi với phủ định."
+    },
+    {
+      "id": "X51B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 외에도",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Bệnh viện này ngoài khoa nội còn có khoa da liễu.",
+      "tiles": [
+        "이",
+        "병원에는",
+        "내과",
+        "외에도",
+        "피부과가",
+        "있다.",
+        "외에는",
+        "없다."
+      ],
+      "answers": [
+        "이 병원에는 내과 외에도 피부과가 있다."
+      ],
+      "explain_vi": "`내과 외에도 피부과가 있다`: thêm một mục. `외에는` đi với phủ định nên là mảnh thừa."
+    },
+    {
+      "id": "X51B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 은/는 물론",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Người lớn đã đành, trẻ em cũng dùng điện thoại thông minh.",
+      "tiles": [
+        "어른은",
+        "물론",
+        "아이들도",
+        "스마트폰을",
+        "사용한다.",
+        "어른은커녕",
+        "사용하지"
+      ],
+      "answers": [
+        "어른은 물론 아이들도 스마트폰을 사용한다."
+      ],
+      "explain_vi": "`N은 물론 N도` + vế khẳng định. `은/는커녕` bắt buộc đi với phủ định (`사용하지 않는다`), nên `어른은커녕` và `사용하지` là mảnh thừa."
+    },
+    {
+      "id": "X51B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 만으로는",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Chỉ bằng lời nói thì khó thuyết phục người ta.",
+      "tiles": [
+        "말만으로는",
+        "사람을",
+        "설득하기",
+        "어렵다.",
+        "말만큼",
+        "설득해"
+      ],
+      "answers": [
+        "말만으로는 사람을 설득하기 어렵다."
+      ],
+      "explain_vi": "`N만으로는` + `어렵다` (chưa đủ). `말만큼` là «bằng cỡ lời nói», sai nghĩa; `설득해` không nối được với `어렵다`."
+    },
+    {
+      "id": "X51B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 것만으로도",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Chỉ ở bên gia đình thôi cũng có thêm sức.",
+      "tiles": [
+        "가족과",
+        "함께",
+        "있는",
+        "것만으로도",
+        "힘이",
+        "난다.",
+        "것만으로는",
+        "나지"
+      ],
+      "answers": [
+        "가족과 함께 있는 것만으로도 힘이 난다."
+      ],
+      "explain_vi": "Kết quả tích cực («có thêm sức») → `-ㄴ 것만으로도`. `것만으로는` đi với phủ định, nên cùng `나지` là mảnh thừa."
+    },
+    {
+      "id": "X51B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄹ 뿐이다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Tôi chỉ làm việc của mình thôi.",
+      "tiles": [
+        "저는",
+        "제",
+        "일을",
+        "했을",
+        "뿐입니다.",
+        "했을뿐",
+        "했는"
+      ],
+      "answers": [
+        "저는 제 일을 했을 뿐입니다."
+      ],
+      "explain_vi": "`-았/었을 뿐이다` có dấu cách trước `뿐`. `했을뿐` viết liền sai chính tả; `했는` chia sai."
+    },
+    {
+      "id": "X51B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · N일 뿐이다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Đó chỉ là một sai sót nhỏ.",
+      "tiles": [
+        "그것은",
+        "작은",
+        "실수일",
+        "뿐이다.",
+        "실수를",
+        "뿐만"
+      ],
+      "answers": [
+        "그것은 작은 실수일 뿐이다."
+      ],
+      "explain_vi": "`N일 뿐이다` = chỉ là N. `실수를` sai trợ từ; `뿐만` phải đi với `아니라`."
+    },
+    {
+      "id": "X52B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 달려 있다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Thành công hay không là tuỳ vào việc nỗ lực đến đâu.",
+      "tiles": [
+        "성공",
+        "여부는",
+        "얼마나",
+        "노력하는지에",
+        "달려",
+        "있다.",
+        "노력하는지",
+        "나름이다."
+      ],
+      "answers": [
+        "성공 여부는 얼마나 노력하는지에 달려 있다."
+      ],
+      "explain_vi": "`-는지에 달려 있다`: `에` gắn vào `노력하는지`. `노력하는지` (thiếu `에`) và `나름이다` (cần `-기`) là mảnh thừa."
+    },
+    {
+      "id": "X52B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -기 나름이다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Hạnh phúc là tuỳ cách nghĩ.",
+      "tiles": [
+        "행복은",
+        "생각하기",
+        "나름이다.",
+        "생각하는",
+        "나름을"
+      ],
+      "answers": [
+        "행복은 생각하기 나름이다."
+      ],
+      "explain_vi": "`V + 기 + 나름이다`. `생각하는` sai dạng; `나름을` sai trợ từ."
+    },
+    {
+      "id": "X52B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -아/어야만",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Phải đỗ kỳ thi này mới nhận được học bổng.",
+      "tiles": [
+        "이",
+        "시험에",
+        "합격해야만",
+        "장학금을",
+        "받을",
+        "수",
+        "있다.",
+        "합격하야만",
+        "받아야만"
+      ],
+      "answers": [
+        "이 시험에 합격해야만 장학금을 받을 수 있다."
+      ],
+      "explain_vi": "`합격해야만 … 받을 수 있다`: điều kiện cần. `합격하야만` chia sai (phải là `합격해야만`)."
+    },
+    {
+      "id": "X52B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)나 마나",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Anh ấy cứng đầu nên nói cũng vô ích.",
+      "tiles": [
+        "그",
+        "사람은",
+        "고집이",
+        "세서",
+        "말하나",
+        "마나",
+        "소용없다.",
+        "말해야",
+        "말하면"
+      ],
+      "answers": [
+        "그 사람은 고집이 세서 말하나 마나 소용없다."
+      ],
+      "explain_vi": "`말하나 마나 소용없다`. `말해야` và `말하면` không nối với `마나` được."
+    },
+    {
+      "id": "X52B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄴ 이상",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Đã hứa thì nhất định phải giữ.",
+      "tiles": [
+        "약속한",
+        "이상",
+        "반드시",
+        "지켜야",
+        "한다.",
+        "약속한데",
+        "지켰다."
+      ],
+      "answers": [
+        "약속한 이상 반드시 지켜야 한다."
+      ],
+      "explain_vi": "`약속한 이상 … 지켜야 한다`: sự thật đã có → nghĩa vụ. `약속한데` sai nghĩa; `지켰다` là quá khứ, không hợp với nghĩa vụ."
+    },
+    {
+      "id": "X52B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · N인 이상",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Đã là học sinh thì không được xem nhẹ việc học.",
+      "tiles": [
+        "학생인",
+        "이상",
+        "공부를",
+        "소홀히",
+        "해서는",
+        "안",
+        "된다.",
+        "학생이던",
+        "않는다."
+      ],
+      "answers": [
+        "학생인 이상 공부를 소홀히 해서는 안 된다."
+      ],
+      "explain_vi": "`N인 이상` + nghĩa vụ (`-아/어서는 안 된다`). `학생이던` là hồi tưởng; `않는다` làm sai cấu trúc."
+    },
+    {
+      "id": "X52B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Từ vựng 초래",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Ăn kiêng quá mức có thể gây ra vấn đề sức khoẻ.",
+      "tiles": [
+        "무리한",
+        "다이어트는",
+        "건강",
+        "문제를",
+        "초래할",
+        "수",
+        "있다.",
+        "초래를",
+        "초래해"
+      ],
+      "answers": [
+        "무리한 다이어트는 건강 문제를 초래할 수 있다."
+      ],
+      "explain_vi": "`초래하다` là động từ: `초래할 수 있다`. `초래를` và `초래해` không tạo được `-ㄹ 수 있다`."
+    },
+    {
+      "id": "X53B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -고서",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Hãy rửa tay rồi mới bắt đầu bữa ăn.",
+      "tiles": [
+        "손을",
+        "씻고서",
+        "식사를",
+        "시작하세요.",
+        "씻는데",
+        "시작한"
+      ],
+      "answers": [
+        "손을 씻고서 식사를 시작하세요."
+      ],
+      "explain_vi": "`씻고서 … 시작하세요`: trình tự có liên hệ. `씻는데` và `시작한` làm câu sai ngữ pháp."
+    },
+    {
+      "id": "X53B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -고는",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Nghe tin đó, tôi không thể đứng yên.",
+      "tiles": [
+        "그",
+        "소식을",
+        "듣고는",
+        "가만히",
+        "있을",
+        "수",
+        "없었다.",
+        "듣지만",
+        "있어서"
+      ],
+      "answers": [
+        "그 소식을 듣고는 가만히 있을 수 없었다."
+      ],
+      "explain_vi": "`듣고는` + `-ㄹ 수 없었다`. `듣지만` và `있어서` làm nghĩa sai."
+    },
+    {
+      "id": "X53B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -고도",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Anh ấy biết sự thật mà vẫn giả vờ không biết.",
+      "tiles": [
+        "그는",
+        "사실을",
+        "알고도",
+        "모른",
+        "척했다.",
+        "알려고",
+        "모르는"
+      ],
+      "answers": [
+        "그는 사실을 알고도 모른 척했다."
+      ],
+      "explain_vi": "`알고도 모른 척했다`: nhượng bộ ngược kỳ vọng. `알려고` và `모르는` sai dạng."
+    },
+    {
+      "id": "X53B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -다 보니",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Nói chuyện mới biết người đó cũng cùng quê.",
+      "tiles": [
+        "이야기를",
+        "하다",
+        "보니",
+        "그",
+        "사람도",
+        "같은",
+        "고향이었다.",
+        "하다가",
+        "보면"
+      ],
+      "answers": [
+        "이야기를 하다 보니 그 사람도 같은 고향이었다."
+      ],
+      "explain_vi": "`하다 보니` + quá khứ `고향이었다`. `하다가` và `보면` không tạo được câu đúng với vế sau quá khứ."
+    },
+    {
+      "id": "X53B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -든지",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Dù mưa hay tuyết, trận đấu vẫn diễn ra.",
+      "tiles": [
+        "비가",
+        "오든지",
+        "눈이",
+        "내리든지",
+        "경기는",
+        "열린다.",
+        "내리는데",
+        "열렸다."
+      ],
+      "answers": [
+        "비가 오든지 눈이 내리든지 경기는 열린다."
+      ],
+      "explain_vi": "`-든지 -든지` + vế chung. `내리는데` và `열렸다` làm sai cấu trúc."
+    },
+    {
+      "id": "X53B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -다고 해서",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Đắt không có nghĩa là sản phẩm nào cũng tốt.",
+      "tiles": [
+        "비싸다고",
+        "해서",
+        "모두",
+        "좋은",
+        "제품은",
+        "아니다.",
+        "비싼다고",
+        "좋다"
+      ],
+      "answers": [
+        "비싸다고 해서 모두 좋은 제품은 아니다."
+      ],
+      "explain_vi": "`비싸다고 해서 … 제품은 아니다`: tính từ + `-다고`. `비싼다고` chia sai."
+    },
+    {
+      "id": "X53B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Từ vựng 유일",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Đây là phương pháp duy nhất chúng ta có thể chọn.",
+      "tiles": [
+        "이것이",
+        "우리가",
+        "선택할",
+        "수",
+        "있는",
+        "유일한",
+        "방법이다.",
+        "유일을",
+        "선택한"
+      ],
+      "answers": [
+        "이것이 우리가 선택할 수 있는 유일한 방법이다."
+      ],
+      "explain_vi": "`유일한 + 방법`. `유일을` sai dạng; `선택한` sai thì."
+    },
+    {
+      "id": "X54B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄴ 바 있다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Chính phủ đã từng cho biết sẽ sửa luật trong năm nay.",
+      "tiles": [
+        "정부는",
+        "올해",
+        "안에",
+        "법을",
+        "고치겠다고",
+        "밝힌",
+        "바",
+        "있다.",
+        "밝히는",
+        "적이"
+      ],
+      "answers": [
+        "정부는 올해 안에 법을 고치겠다고 밝힌 바 있다."
+      ],
+      "explain_vi": "`밝힌 바 있다`: quá khứ + `바 있다`. `밝히는` sai thì; `적이` thuộc mẫu `적이 있다`, không cần ở đây."
+    },
+    {
+      "id": "X54B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄴ 바와 같이",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Như đã nói ở trên, thói quen không dễ thay đổi.",
+      "tiles": [
+        "앞에서",
+        "말한",
+        "바와",
+        "같이",
+        "습관은",
+        "쉽게",
+        "바뀌지",
+        "않는다.",
+        "말했던데",
+        "바뀐다"
+      ],
+      "answers": [
+        "앞에서 말한 바와 같이 습관은 쉽게 바뀌지 않는다."
+      ],
+      "explain_vi": "`말한 바와 같이` + vế phủ định `바뀌지 않는다`. `말했던데` và `바뀐다` làm sai cấu trúc."
+    },
+    {
+      "id": "X54B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -다시피",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Như quý khách thấy, cửa hàng này không đông khách.",
+      "tiles": [
+        "보시다시피",
+        "이",
+        "가게는",
+        "손님이",
+        "많지",
+        "않습니다.",
+        "많다시피",
+        "않으니다"
+      ],
+      "answers": [
+        "보시다시피 이 가게는 손님이 많지 않습니다."
+      ],
+      "explain_vi": "`보시다시피` mở đầu thông báo lịch sự. `많다시피` và `않으니다` sai ngữ pháp."
+    },
+    {
+      "id": "X54B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · N이자 N",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Vua Sejong vừa là vua Joseon vừa là học giả xuất sắc.",
+      "tiles": [
+        "세종대왕은",
+        "조선의",
+        "임금이자",
+        "뛰어난",
+        "학자였다.",
+        "임금이고서",
+        "학자였는데"
+      ],
+      "answers": [
+        "세종대왕은 조선의 임금이자 뛰어난 학자였다."
+      ],
+      "explain_vi": "`임금이자 학자`: hai tư cách của cùng một người. `임금이고서` và `학자였는데` sai quan hệ."
+    },
+    {
+      "id": "X54B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄴ 한편",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Việc này vất vả nhưng mặt khác cũng rất đáng giá.",
+      "tiles": [
+        "이",
+        "일은",
+        "힘든",
+        "한편",
+        "보람도",
+        "크다.",
+        "힘들고",
+        "한편이"
+      ],
+      "answers": [
+        "이 일은 힘든 한편 보람도 크다."
+      ],
+      "explain_vi": "Tính từ + `-(으)ㄴ 한편`: `힘든 한편`. `힘들고` và `한편이` làm sai cấu trúc."
+    },
+    {
+      "id": "X54B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄴ 만큼",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Vì là vấn đề quan trọng nên phải quyết định thận trọng.",
+      "tiles": [
+        "중요한",
+        "문제인",
+        "만큼",
+        "신중하게",
+        "결정해야",
+        "한다.",
+        "중요한만큼",
+        "문제를"
+      ],
+      "answers": [
+        "중요한 문제인 만큼 신중하게 결정해야 한다."
+      ],
+      "explain_vi": "`문제인 만큼` + nghĩa vụ `결정해야 한다`. `중요한만큼` viết liền sai chính tả; `문제를` sai trợ từ."
+    },
+    {
+      "id": "X54B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 계기로",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Sau vụ tai nạn đó, quy định an toàn được củng cố.",
+      "tiles": [
+        "그",
+        "사고를",
+        "계기로",
+        "안전",
+        "규정이",
+        "강화되었다.",
+        "계기가",
+        "사고에"
+      ],
+      "answers": [
+        "그 사고를 계기로 안전 규정이 강화되었다."
+      ],
+      "explain_vi": "`N을/를 계기로` = nhân dịp, từ đó. `계기가` và `사고에` sai trợ từ."
+    },
+    {
+      "id": "X55B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -게 하다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Bố mẹ cho con ngủ sớm.",
+      "tiles": [
+        "부모님은",
+        "아이가",
+        "일찍",
+        "자게",
+        "하셨다.",
+        "자기",
+        "잘"
+      ],
+      "answers": [
+        "부모님은 아이가 일찍 자게 하셨다."
+      ],
+      "explain_vi": "`아이가 일찍 자게 하셨다`: `-게 하다` (kính ngữ `하셨다`). `자기` và `잘` làm sai cấu trúc."
+    },
+    {
+      "id": "X55B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -기에는",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Căn phòng này quá rộng để ở một mình.",
+      "tiles": [
+        "이",
+        "방은",
+        "혼자",
+        "살기에는",
+        "너무",
+        "넓다.",
+        "살려고",
+        "넓은"
+      ],
+      "answers": [
+        "이 방은 혼자 살기에는 너무 넓다."
+      ],
+      "explain_vi": "`살기에는 너무 넓다`: đánh giá mức độ. `살려고` (ý định) và `넓은` (định ngữ) không khớp."
+    },
+    {
+      "id": "X55B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -기 십상이다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Vội như thế thì rất dễ mắc lỗi.",
+      "tiles": [
+        "그렇게",
+        "서두르면",
+        "실수하기",
+        "십상이다.",
+        "실수해서",
+        "십상은"
+      ],
+      "answers": [
+        "그렇게 서두르면 실수하기 십상이다."
+      ],
+      "explain_vi": "`-(으)면 … -기 십상이다`: dự đoán rủi ro. `실수해서` và `십상은` sai cấu trúc."
+    },
+    {
+      "id": "X55B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -기 일쑤이다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Em tôi sáng nào cũng hay đi muộn.",
+      "tiles": [
+        "동생은",
+        "아침마다",
+        "지각하기",
+        "일쑤이다.",
+        "지각해도",
+        "일쑤가"
+      ],
+      "answers": [
+        "동생은 아침마다 지각하기 일쑤이다."
+      ],
+      "explain_vi": "`아침마다` báo hiệu thói quen → `-기 일쑤이다`. `지각해도` và `일쑤가` sai."
+    },
+    {
+      "id": "X55B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -아/어야지",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Từ mai tôi phải dậy sớm mới được.",
+      "tiles": [
+        "내일부터는",
+        "일찍",
+        "일어나야지.",
+        "일어나서",
+        "일어나면"
+      ],
+      "answers": [
+        "내일부터는 일찍 일어나야지."
+      ],
+      "explain_vi": "Tự nhủ quyết tâm → `일어나야지`. `일어나서` và `일어나면` không kết thúc câu."
+    },
+    {
+      "id": "X55B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 설마",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Chắc anh không quên cuộc hẹn chứ?",
+      "tiles": [
+        "설마",
+        "약속을",
+        "잊은",
+        "건",
+        "아니겠지요?",
+        "잊고",
+        "아니라서"
+      ],
+      "answers": [
+        "설마 약속을 잊은 건 아니겠지요?"
+      ],
+      "explain_vi": "`설마 … -(으)ㄴ 건 아니겠지요?`. `잊고` và `아니라서` làm sai cấu trúc."
+    },
+    {
+      "id": "X55B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 이나 다름없다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Người ấy đối với tôi chẳng khác gì gia đình.",
+      "tiles": [
+        "그",
+        "사람은",
+        "나에게",
+        "가족이나",
+        "다름없다.",
+        "가족만",
+        "다르다."
+      ],
+      "answers": [
+        "그 사람은 나에게 가족이나 다름없다."
+      ],
+      "explain_vi": "`가족이나 다름없다`: chẳng khác gì. `가족만` sai trợ từ; `다르다` là «khác»."
+    },
+    {
+      "id": "X56B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 눈에 띄다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Anh diễn viên ấy ở đâu cũng nổi bật.",
+      "tiles": [
+        "그",
+        "배우는",
+        "어디서나",
+        "눈에",
+        "띈다.",
+        "눈이",
+        "띠다"
+      ],
+      "answers": [
+        "그 배우는 어디서나 눈에 띈다."
+      ],
+      "explain_vi": "`눈에 띈다`: tự động từ + trợ từ `에`. `눈이` và `띠다` làm sai."
+    },
+    {
+      "id": "X56B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 눈길을 끌다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Thiết kế mới đã thu hút ánh nhìn của người tiêu dùng.",
+      "tiles": [
+        "새",
+        "디자인이",
+        "소비자의",
+        "눈길을",
+        "끌었다.",
+        "눈길이",
+        "끌어서"
+      ],
+      "answers": [
+        "새 디자인이 소비자의 눈길을 끌었다."
+      ],
+      "explain_vi": "`소비자의 눈길을 끌었다`: tân ngữ `눈길을`. `눈길이` và `끌어서` sai cấu trúc."
+    },
+    {
+      "id": "X56B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 귀를 기울이다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Phải lắng nghe tiếng nói của người dân.",
+      "tiles": [
+        "시민의",
+        "목소리에",
+        "귀를",
+        "기울여야",
+        "한다.",
+        "귀가",
+        "기울이면"
+      ],
+      "answers": [
+        "시민의 목소리에 귀를 기울여야 한다."
+      ],
+      "explain_vi": "`목소리에 귀를 기울이다` + `-아/어야 한다`. `귀가` và `기울이면` làm sai nghĩa."
+    },
+    {
+      "id": "X56B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 입이 무겁다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Anh ấy kín miệng nên giữ bí mật tốt.",
+      "tiles": [
+        "그는",
+        "입이",
+        "무거워서",
+        "비밀을",
+        "지킨다.",
+        "입을",
+        "무겁게"
+      ],
+      "answers": [
+        "그는 입이 무거워서 비밀을 지킨다."
+      ],
+      "explain_vi": "`입이 무거워서` làm vế nguyên nhân. `입을` và `무겁게` sai."
+    },
+    {
+      "id": "X56B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 머리를 맞대다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Nhân viên chụm đầu tìm giải pháp.",
+      "tiles": [
+        "직원들이",
+        "머리를",
+        "맞대고",
+        "해결책을",
+        "찾았다.",
+        "머리가",
+        "맞대서"
+      ],
+      "answers": [
+        "직원들이 머리를 맞대고 해결책을 찾았다."
+      ],
+      "explain_vi": "`머리를 맞대고` + động từ. `머리가` và `맞대서` sai."
+    },
+    {
+      "id": "X56B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 목이 빠지게",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Bọn trẻ ngóng kỳ nghỉ mòn mỏi.",
+      "tiles": [
+        "아이들은",
+        "방학을",
+        "목이",
+        "빠지게",
+        "기다렸다.",
+        "빠져서",
+        "목을"
+      ],
+      "answers": [
+        "아이들은 방학을 목이 빠지게 기다렸다."
+      ],
+      "explain_vi": "`목이 빠지게 기다렸다`. `빠져서` và `목을` sai."
+    },
+    {
+      "id": "X56B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 어깨가 무겁다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Làm trưởng nhóm rồi thấy vai nặng trĩu.",
+      "tiles": [
+        "팀장이",
+        "되고",
+        "나니",
+        "어깨가",
+        "무겁다.",
+        "어깨를",
+        "무거워서"
+      ],
+      "answers": [
+        "팀장이 되고 나니 어깨가 무겁다."
+      ],
+      "explain_vi": "`-고 나니` + `어깨가 무겁다`. `어깨를` và `무거워서` sai."
+    },
+    {
+      "id": "X57B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 발이 넓다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Anh ấy quen biết rộng nên không ai là không biết.",
+      "tiles": [
+        "그는",
+        "발이",
+        "넓어서",
+        "모르는",
+        "사람이",
+        "없다.",
+        "발을",
+        "넓게"
+      ],
+      "answers": [
+        "그는 발이 넓어서 모르는 사람이 없다."
+      ],
+      "explain_vi": "`발이 넓어서` làm vế nguyên nhân. `발을` và `넓게` sai cấu trúc."
+    },
+    {
+      "id": "X57B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 손을 쓰다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Phải ra tay xử lý trước khi vấn đề lớn thêm.",
+      "tiles": [
+        "문제가",
+        "커지기",
+        "전에",
+        "손을",
+        "써야",
+        "한다.",
+        "손이",
+        "쓰면"
+      ],
+      "answers": [
+        "문제가 커지기 전에 손을 써야 한다."
+      ],
+      "explain_vi": "`커지기 전에 손을 써야 한다`: cảnh báo hành động. `손이` và `쓰면` sai."
+    },
+    {
+      "id": "X57B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 손에 땀을 쥐다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Trận đấu kéo dài đến cuối nên tôi hồi hộp theo dõi.",
+      "tiles": [
+        "경기가",
+        "끝까지",
+        "이어져",
+        "손에",
+        "땀을",
+        "쥐고",
+        "지켜봤다.",
+        "땀이",
+        "쥐어서"
+      ],
+      "answers": [
+        "경기가 끝까지 이어져 손에 땀을 쥐고 지켜봤다."
+      ],
+      "explain_vi": "`손에 땀을 쥐고 지켜보다`. `땀이` và `쥐어서` làm sai nghĩa."
+    },
+    {
+      "id": "X57B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 다리를 놓다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Người bạn đã làm cầu nối giữa hai công ty.",
+      "tiles": [
+        "친구가",
+        "두",
+        "회사",
+        "사이에",
+        "다리를",
+        "놓아",
+        "주었다.",
+        "다리가",
+        "놓아서"
+      ],
+      "answers": [
+        "친구가 두 회사 사이에 다리를 놓아 주었다."
+      ],
+      "explain_vi": "`사이에 다리를 놓아 주다`: làm cầu nối. `다리가` và `놓아서` sai."
+    },
+    {
+      "id": "X57B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 가슴이 뭉클하다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Đọc thư của mẹ tôi xúc động nghẹn lòng.",
+      "tiles": [
+        "어머니의",
+        "편지를",
+        "읽고",
+        "가슴이",
+        "뭉클했다.",
+        "가슴을",
+        "뭉클하게"
+      ],
+      "answers": [
+        "어머니의 편지를 읽고 가슴이 뭉클했다."
+      ],
+      "explain_vi": "`가슴이 뭉클했다`: cảm xúc. `가슴을` và `뭉클하게` sai."
+    },
+    {
+      "id": "X57B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 마음에 걸리다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Lời nói với anh ấy cứ cấn cấn trong lòng.",
+      "tiles": [
+        "그에게",
+        "한",
+        "말이",
+        "계속",
+        "마음에",
+        "걸린다.",
+        "마음을",
+        "걸어서"
+      ],
+      "answers": [
+        "그에게 한 말이 계속 마음에 걸린다."
+      ],
+      "explain_vi": "`말이 마음에 걸린다`: chủ ngữ là lời nói. `마음을` và `걸어서` sai."
+    },
+    {
+      "id": "X57B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 한숨을 돌리다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Xong việc rồi nên giờ tôi mới thở phào.",
+      "tiles": [
+        "일이",
+        "끝나서",
+        "이제야",
+        "한숨",
+        "돌렸다.",
+        "한숨이",
+        "돌려서"
+      ],
+      "answers": [
+        "일이 끝나서 이제야 한숨 돌렸다."
+      ],
+      "explain_vi": "`한숨 돌렸다`: thở phào. `한숨이` và `돌려서` sai."
+    },
+    {
+      "id": "X58B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 바가지를 쓰다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Ở khu du lịch tôi bị chặt chém nên trả gấp đôi bình thường.",
+      "tiles": [
+        "관광지에서",
+        "바가지를",
+        "써서",
+        "평소보다",
+        "두",
+        "배를",
+        "냈다.",
+        "바가지가",
+        "씌워서"
+      ],
+      "answers": [
+        "관광지에서 바가지를 써서 평소보다 두 배를 냈다."
+      ],
+      "explain_vi": "`바가지를 써서` là người mua bị chặt chém. `바가지가` và `씌워서` làm sai nghĩa."
+    },
+    {
+      "id": "X58B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 시치미를 떼다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Việc chính anh ấy làm mà vẫn giả vờ không biết.",
+      "tiles": [
+        "그는",
+        "자기가",
+        "한",
+        "일인데도",
+        "시치미를",
+        "떼고",
+        "모르는",
+        "척했다.",
+        "시치미가",
+        "떼서"
+      ],
+      "answers": [
+        "그는 자기가 한 일인데도 시치미를 떼고 모르는 척했다."
+      ],
+      "explain_vi": "`일인데도` nối hai vế đối lập. `시치미가` và `떼서` sai."
+    },
+    {
+      "id": "X58B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 소 잃고 외양간 고친다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Bây giờ mới kiểm tra thì giống mất bò mới lo làm chuồng.",
+      "tiles": [
+        "지금",
+        "점검하는",
+        "것은",
+        "소",
+        "잃고",
+        "외양간",
+        "고치는",
+        "일이다.",
+        "소가",
+        "고쳐서"
+      ],
+      "answers": [
+        "지금 점검하는 것은 소 잃고 외양간 고치는 일이다."
+      ],
+      "explain_vi": "`소 잃고 외양간 고치는 일이다`: cụm tục ngữ làm vị ngữ. `소가` và `고쳐서` sai."
+    },
+    {
+      "id": "X58B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 티끌 모아 태산",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Đúng là góp nhỏ thành lớn, số tiền đã để dành giờ thành mười triệu won.",
+      "tiles": [
+        "티끌",
+        "모아",
+        "태산이라더니",
+        "모은",
+        "돈이",
+        "벌써",
+        "천만",
+        "원이",
+        "되었다.",
+        "태산이라고"
+      ],
+      "answers": [
+        "티끌 모아 태산이라더니 모은 돈이 벌써 천만 원이 되었다."
+      ],
+      "explain_vi": "`태산이라더니` mang ý «đúng như người ta nói», sau đó là kết quả đã thấy. `태산이라고` không diễn đạt ý xác nhận này."
+    },
+    {
+      "id": "X58B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 백지장도 맞들면 낫다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Cùng làm thì việc dễ đi nhiều.",
+      "tiles": [
+        "백지장도",
+        "맞들면",
+        "낫다고",
+        "함께",
+        "하니",
+        "일이",
+        "훨씬",
+        "쉬워졌다.",
+        "낫아서"
+      ],
+      "answers": [
+        "백지장도 맞들면 낫다고 함께 하니 일이 훨씬 쉬워졌다."
+      ],
+      "explain_vi": "`낫다고 …하니`: trích dẫn rồi nêu kết quả. `낫아서` sai chia."
+    },
+    {
+      "id": "X58B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 설상가상",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Trời mưa, đã thế xe còn hỏng.",
+      "tiles": [
+        "비가",
+        "오는데",
+        "설상가상으로",
+        "차까지",
+        "고장이",
+        "났다.",
+        "설상가상이",
+        "고장을"
+      ],
+      "answers": [
+        "비가 오는데 설상가상으로 차까지 고장이 났다."
+      ],
+      "explain_vi": "`설상가상으로` làm trạng từ đứng trước vế sau. `설상가상이` và `고장을` sai."
+    },
+    {
+      "id": "X58B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 역지사지",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Hãy đặt mình vào vị trí đối phương mà nghĩ.",
+      "tiles": [
+        "역지사지의",
+        "자세로",
+        "상대방의",
+        "입장에서",
+        "생각해",
+        "보자.",
+        "입장을",
+        "자세가"
+      ],
+      "answers": [
+        "역지사지의 자세로 상대방의 입장에서 생각해 보자."
+      ],
+      "explain_vi": "`역지사지의 자세로` là cụm danh từ làm trạng ngữ. `입장을` và `자세가` sai."
+    },
+    {
+      "id": "X59B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄹ 전망이다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Xuất khẩu năm nay dự báo tăng so với năm ngoái.",
+      "tiles": [
+        "올해",
+        "수출은",
+        "지난해보다",
+        "늘어날",
+        "전망이다.",
+        "늘어나는",
+        "실정이다."
+      ],
+      "answers": [
+        "올해 수출은 지난해보다 늘어날 전망이다."
+      ],
+      "explain_vi": "`늘어날 전망이다`: dự báo tương lai. `늘어나는` và `실정이다` làm sai dạng."
+    },
+    {
+      "id": "X59B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -는 실정이다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Thực trạng thất nghiệp thanh niên cao.",
+      "tiles": [
+        "청년",
+        "실업률이",
+        "높은",
+        "실정이다.",
+        "높을",
+        "전망이다."
+      ],
+      "answers": [
+        "청년 실업률이 높은 실정이다."
+      ],
+      "explain_vi": "`높은 실정이다`: tính từ + `-(으)ㄴ 실정이다`. `높을 전망이다` đổi nghĩa thành dự báo."
+    },
+    {
+      "id": "X59B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -는 데 그치다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Đối sách lần này chỉ dừng ở việc kìm giá tạm thời.",
+      "tiles": [
+        "이번",
+        "대책은",
+        "물가를",
+        "잠시",
+        "누르는",
+        "데",
+        "그쳤다.",
+        "누르면",
+        "데도"
+      ],
+      "answers": [
+        "이번 대책은 물가를 잠시 누르는 데 그쳤다.",
+        "이번 대책은 잠시 물가를 누르는 데 그쳤다."
+      ],
+      "explain_vi": "`누르는 데 그쳤다`: chỉ dừng ở việc. `누르면` và `데도` sai."
+    },
+    {
+      "id": "X59B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -느니",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Thà không mua còn hơn vay nợ để mua.",
+      "tiles": [
+        "빚을",
+        "내서",
+        "사느니",
+        "차라리",
+        "안",
+        "사는",
+        "편이",
+        "낫다.",
+        "사니까"
+      ],
+      "answers": [
+        "빚을 내서 사느니 차라리 안 사는 편이 낫다.",
+        "차라리 빚을 내서 사느니 안 사는 편이 낫다."
+      ],
+      "explain_vi": "`사느니 차라리 … 편이 낫다`: thà … còn hơn. `사니까` đổi nghĩa thành nguyên nhân."
+    },
+    {
+      "id": "X59B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄹ 바에는",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Đằng nào cũng làm thì làm cho ra hồn.",
+      "tiles": [
+        "어차피",
+        "일을",
+        "할",
+        "바에는",
+        "제대로",
+        "하자.",
+        "하는",
+        "바에서"
+      ],
+      "answers": [
+        "어차피 일을 할 바에는 제대로 하자."
+      ],
+      "explain_vi": "`할 바에는`: đằng nào cũng làm thì. `하는` và `바에서` sai."
+    },
+    {
+      "id": "X59B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 에 불과하다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Người tán thành chỉ là thiểu số.",
+      "tiles": [
+        "찬성하는",
+        "사람은",
+        "소수에",
+        "불과하다.",
+        "소수가",
+        "불과해서"
+      ],
+      "answers": [
+        "찬성하는 사람은 소수에 불과하다."
+      ],
+      "explain_vi": "`소수에 불과하다`: chỉ là thiểu số. `소수가` và `불과해서` sai."
+    },
+    {
+      "id": "X59B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄹ 따름이다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Tôi chỉ biết dốc hết sức cho việc được giao.",
+      "tiles": [
+        "저는",
+        "맡은",
+        "일에",
+        "최선을",
+        "다할",
+        "따름입니다.",
+        "다하는",
+        "따름이에서"
+      ],
+      "answers": [
+        "저는 맡은 일에 최선을 다할 따름입니다."
+      ],
+      "explain_vi": "`다할 따름입니다`: trang trọng, khiêm nhường. `다하는` và `따름이에서` sai."
+    },
+    {
+      "id": "X60B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 을/를 둘러싸고",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Ý kiến đang chia rẽ xoay quanh dự luật mới.",
+      "tiles": [
+        "새",
+        "법안을",
+        "둘러싸고",
+        "의견이",
+        "엇갈리고",
+        "있다.",
+        "둘러싼"
+      ],
+      "answers": [
+        "새 법안을 둘러싸고 의견이 엇갈리고 있다.",
+        "의견이 새 법안을 둘러싸고 엇갈리고 있다."
+      ],
+      "explain_vi": "`법안을 둘러싸고`: xoay quanh dự luật. `둘러싼` là dạng định ngữ nên không nối được với `엇갈리고`."
+    },
+    {
+      "id": "X60B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 을/를 계기로",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Nhân vụ tai nạn này, quy định an toàn được tăng cường.",
+      "tiles": [
+        "이번",
+        "사고를",
+        "계기로",
+        "안전",
+        "규정이",
+        "강화되었다.",
+        "계기가"
+      ],
+      "answers": [
+        "이번 사고를 계기로 안전 규정이 강화되었다."
+      ],
+      "explain_vi": "`사고를 계기로`: lấy sự cố làm bước ngoặt. `계기가` sai trợ từ."
+    },
+    {
+      "id": "X60B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 에 맞서",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Người dân quyết định đấu tranh chống tham nhũng.",
+      "tiles": [
+        "시민들은",
+        "부패에",
+        "맞서",
+        "싸우기로",
+        "했다.",
+        "맞춰"
+      ],
+      "answers": [
+        "시민들은 부패에 맞서 싸우기로 했다.",
+        "부패에 맞서 시민들은 싸우기로 했다."
+      ],
+      "explain_vi": "`부패에 맞서`: đối đầu với tham nhũng. `맞춰` nghĩa là điều chỉnh cho khớp."
+    },
+    {
+      "id": "X60B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄹ 것을 촉구하다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Tổ chức công dân thúc giục chính phủ xây dựng đối sách.",
+      "tiles": [
+        "시민",
+        "단체는",
+        "정부에",
+        "대책을",
+        "마련할",
+        "것을",
+        "촉구했다.",
+        "것이"
+      ],
+      "answers": [
+        "시민 단체는 정부에 대책을 마련할 것을 촉구했다.",
+        "시민 단체는 대책을 마련할 것을 정부에 촉구했다."
+      ],
+      "explain_vi": "`마련할 것을 촉구했다`: thúc giục làm việc. `것이` không đi với `촉구했다`."
+    },
+    {
+      "id": "X60B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 에 의해(서)",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Dự luật này đã được quốc hội thông qua.",
+      "tiles": [
+        "이",
+        "법안은",
+        "국회에",
+        "의해",
+        "통과되었다.",
+        "따라"
+      ],
+      "answers": [
+        "이 법안은 국회에 의해 통과되었다.",
+        "국회에 의해 이 법안은 통과되었다."
+      ],
+      "explain_vi": "`국회에 의해`: bởi quốc hội. `따라` mang nghĩa tuỳ theo."
+    },
+    {
+      "id": "X60B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄴ/는 가운데",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Trong lúc tranh cãi vẫn tiếp diễn, dự luật đã được thông qua.",
+      "tiles": [
+        "논란이",
+        "계속되는",
+        "가운데",
+        "법안이",
+        "통과되었다.",
+        "계속되고"
+      ],
+      "answers": [
+        "논란이 계속되는 가운데 법안이 통과되었다."
+      ],
+      "explain_vi": "`계속되는 가운데`: bối cảnh đang diễn ra. `계속되고 가운데` sai dạng."
+    },
+    {
+      "id": "X60B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄴ 끝에",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Sau cuộc tranh luận dài, hai đảng đã đạt thoả thuận.",
+      "tiles": [
+        "오랜",
+        "토론",
+        "끝에",
+        "두",
+        "당이",
+        "합의에",
+        "이르렀다.",
+        "토론하고"
+      ],
+      "answers": [
+        "오랜 토론 끝에 두 당이 합의에 이르렀다."
+      ],
+      "explain_vi": "`토론 끝에`: sau cuộc tranh luận dài. `토론하고 끝에` sai dạng."
+    },
+    {
+      "id": "X61B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㅁ으로써",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Nhóm nghiên cứu giảm chi phí bằng cách phát triển vật liệu mới.",
+      "tiles": [
+        "연구진은",
+        "새",
+        "소재를",
+        "개발함으로써",
+        "비용을",
+        "줄였다.",
+        "개발하므로"
+      ],
+      "answers": [
+        "연구진은 새 소재를 개발함으로써 비용을 줄였다.",
+        "새 소재를 개발함으로써 연구진은 비용을 줄였다."
+      ],
+      "explain_vi": "`개발함으로써`: bằng cách phát triển. `개발하므로` nghĩa là «vì phát triển»."
+    },
+    {
+      "id": "X61B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · (으)로써",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Chúng ta có thể giải quyết xung đột bằng đối thoại.",
+      "tiles": [
+        "우리는",
+        "대화로써",
+        "갈등을",
+        "풀",
+        "수",
+        "있다.",
+        "대화로서"
+      ],
+      "answers": [
+        "우리는 대화로써 갈등을 풀 수 있다."
+      ],
+      "explain_vi": "`대화로써`: bằng đối thoại (phương tiện). `대화로서` nghĩa là «với tư cách đối thoại»."
+    },
+    {
+      "id": "X61B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 에 힘입어",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Nhờ tiến bộ công nghệ, thị trường xe điện lớn nhanh.",
+      "tiles": [
+        "기술",
+        "발전에",
+        "힘입어",
+        "전기차",
+        "시장이",
+        "빠르게",
+        "커졌다.",
+        "힘이"
+      ],
+      "answers": [
+        "기술 발전에 힘입어 전기차 시장이 빠르게 커졌다."
+      ],
+      "explain_vi": "`발전에 힘입어`: nhờ tiến bộ. `힘이` làm sai cấu trúc."
+    },
+    {
+      "id": "X61B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 것으로 나타나다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Kết quả điều tra cho thấy thời gian ngủ của thanh thiếu niên đã giảm.",
+      "tiles": [
+        "조사",
+        "결과",
+        "청소년의",
+        "수면",
+        "시간이",
+        "줄어든",
+        "것으로",
+        "나타났다.",
+        "나타냈다."
+      ],
+      "answers": [
+        "조사 결과 청소년의 수면 시간이 줄어든 것으로 나타났다.",
+        "청소년의 수면 시간이 줄어든 것으로 조사 결과 나타났다."
+      ],
+      "explain_vi": "`줄어든 것으로 나타났다`: kết quả làm chủ ngữ. `나타냈다.` cần chủ ngữ là người và tân ngữ."
+    },
+    {
+      "id": "X61B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 것으로 밝혀지다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Hoá thạch này được xác định là của năm mươi triệu năm trước.",
+      "tiles": [
+        "이",
+        "화석은",
+        "오천만",
+        "년",
+        "전의",
+        "것으로",
+        "밝혀졌다.",
+        "밝혔다."
+      ],
+      "answers": [
+        "이 화석은 오천만 년 전의 것으로 밝혀졌다."
+      ],
+      "explain_vi": "`것으로 밝혀졌다`: được làm sáng tỏ. `밝혔다.` cần chủ ngữ là người."
+    },
+    {
+      "id": "X61B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · (이)란",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Trí tuệ nhân tạo là công nghệ hiện thực hoá trí tuệ con người.",
+      "tiles": [
+        "인공지능이란",
+        "사람의",
+        "지능을",
+        "구현한",
+        "기술을",
+        "말한다.",
+        "인공지능이라"
+      ],
+      "answers": [
+        "인공지능이란 사람의 지능을 구현한 기술을 말한다."
+      ],
+      "explain_vi": "`인공지능이란 … 말한다`: định nghĩa. `인공지능이라` thiếu `-ㄴ`."
+    },
+    {
+      "id": "X61B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · (으)로 나뉘다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Học thuật được chia thành nhân văn, khoa học xã hội và khoa học tự nhiên.",
+      "tiles": [
+        "학문은",
+        "크게",
+        "인문학,",
+        "사회과학,",
+        "자연과학으로",
+        "나뉜다.",
+        "나눈다."
+      ],
+      "answers": [
+        "학문은 크게 인문학, 사회과학, 자연과학으로 나뉜다."
+      ],
+      "explain_vi": "`자연과학으로 나뉜다`: bị động. `나눈다.` cần tân ngữ."
+    },
+    {
+      "id": "X62B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄹ지라도",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Dù bị chỉ trích, vẫn phải nói sự thật.",
+      "tiles": [
+        "비난을",
+        "받을지라도",
+        "진실을",
+        "말해야",
+        "한다.",
+        "받는데도"
+      ],
+      "answers": [
+        "비난을 받을지라도 진실을 말해야 한다."
+      ],
+      "explain_vi": "`받을지라도`: dù bị. `받는데도` đổi nghĩa sang «mặc dù đang bị»."
+    },
+    {
+      "id": "X62B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄹ망정",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Ông ấy thà chịu đói chứ không nhận sự giúp đỡ của người khác.",
+      "tiles": [
+        "그는",
+        "굶을망정",
+        "남의",
+        "도움은",
+        "받지",
+        "않았다.",
+        "굶으니까"
+      ],
+      "answers": [
+        "그는 굶을망정 남의 도움은 받지 않았다."
+      ],
+      "explain_vi": "`굶을망정`: thà đói chứ không. `굶으니까` nghĩa là «vì đói»."
+    },
+    {
+      "id": "X62B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -는 한이 있더라도",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Dù có phải thức trắng đêm, tôi sẽ xong việc này.",
+      "tiles": [
+        "밤을",
+        "새우는",
+        "한이",
+        "있더라도",
+        "이",
+        "일을",
+        "끝내겠다.",
+        "새우는데"
+      ],
+      "answers": [
+        "밤을 새우는 한이 있더라도 이 일을 끝내겠다.",
+        "이 일을 밤을 새우는 한이 있더라도 끝내겠다."
+      ],
+      "explain_vi": "`새우는 한이 있더라도`: dù có phải thức đêm. `새우는데` làm sai cấu trúc."
+    },
+    {
+      "id": "X62B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -다고 볼 수 있다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Chế độ này có thể xem là thành công.",
+      "tiles": [
+        "이",
+        "제도는",
+        "성공했다고",
+        "볼",
+        "수",
+        "있다.",
+        "보고"
+      ],
+      "answers": [
+        "이 제도는 성공했다고 볼 수 있다."
+      ],
+      "explain_vi": "`성공했다고 볼 수 있다`: nhận định thận trọng. `보고` làm sai cấu trúc."
+    },
+    {
+      "id": "X62B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -다기보다는",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Anh ấy thuộc dạng thẳng thắn hơn là nóng tính.",
+      "tiles": [
+        "그는",
+        "성격이",
+        "급하다기보다는",
+        "솔직한",
+        "편이다.",
+        "급하다고"
+      ],
+      "answers": [
+        "그는 성격이 급하다기보다는 솔직한 편이다."
+      ],
+      "explain_vi": "`급하다기보다는 솔직한`: nói «thẳng» đúng hơn «nóng». `급하다고` sai dạng."
+    },
+    {
+      "id": "X62B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄴ들",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Giờ có hối hận cũng vô ích.",
+      "tiles": [
+        "지금",
+        "후회한들",
+        "소용이",
+        "없다.",
+        "후회하고"
+      ],
+      "answers": [
+        "지금 후회한들 소용이 없다."
+      ],
+      "explain_vi": "`후회한들 소용이 없다`: dù hối hận cũng vô ích. `후회하고` sai dạng."
+    },
+    {
+      "id": "X62B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -아/어 봤자",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Bây giờ có đi cũng thấy cửa đã đóng.",
+      "tiles": [
+        "지금",
+        "가",
+        "봤자",
+        "문이",
+        "닫혀",
+        "있을",
+        "것이다.",
+        "가고"
+      ],
+      "answers": [
+        "지금 가 봤자 문이 닫혀 있을 것이다."
+      ],
+      "explain_vi": "`가 봤자`: dù có đi cũng. `가고` làm sai cấu trúc."
+    },
+    {
+      "id": "X63B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · N에 걸쳐",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Tòa thành này được xây dựng trong một thời gian dài.",
+      "tiles": [
+        "이",
+        "성곽은",
+        "오랜",
+        "기간에",
+        "걸쳐",
+        "만들어졌다.",
+        "걸려서"
+      ],
+      "answers": [
+        "이 성곽은 오랜 기간에 걸쳐 만들어졌다.",
+        "오랜 기간에 걸쳐 이 성곽은 만들어졌다."
+      ],
+      "explain_vi": "`기간에 걸쳐`: trải dài suốt thời gian. `걸려서` làm sai nghĩa."
+    },
+    {
+      "id": "X63B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · N에 이르기까지",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Từ thời Tam Quốc cho đến thời Joseon, nhiều ngôi tháp đã được dựng lên.",
+      "tiles": [
+        "삼국",
+        "시대부터",
+        "조선",
+        "시대에",
+        "이르기까지",
+        "많은",
+        "탑이",
+        "세워졌다.",
+        "이르러서"
+      ],
+      "answers": [
+        "삼국 시대부터 조선 시대에 이르기까지 많은 탑이 세워졌다.",
+        "많은 탑이 삼국 시대부터 조선 시대에 이르기까지 세워졌다."
+      ],
+      "explain_vi": "`시대에 이르기까지`: cho đến tận thời Joseon. `이르러서` đổi cấu trúc."
+    },
+    {
+      "id": "X63B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · N이래(로)",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Kể từ ngày quang phục, xã hội ta đã phát triển mạnh.",
+      "tiles": [
+        "광복",
+        "이래로",
+        "우리",
+        "사회는",
+        "크게",
+        "발전했다.",
+        "이래서"
+      ],
+      "answers": [
+        "광복 이래로 우리 사회는 크게 발전했다.",
+        "우리 사회는 광복 이래로 크게 발전했다."
+      ],
+      "explain_vi": "`광복 이래로`: kể từ quang phục. `이래서` sai dạng."
+    },
+    {
+      "id": "X63B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · (으)로 말미암아",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Nhiều di vật đã biến mất do chiến tranh.",
+      "tiles": [
+        "전쟁으로",
+        "말미암아",
+        "많은",
+        "유물이",
+        "사라졌다.",
+        "말미암은"
+      ],
+      "answers": [
+        "전쟁으로 말미암아 많은 유물이 사라졌다.",
+        "많은 유물이 전쟁으로 말미암아 사라졌다."
+      ],
+      "explain_vi": "`전쟁으로 말미암아`: do chiến tranh. `말미암은` là dạng định ngữ nên sai."
+    },
+    {
+      "id": "X63B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 에 비추어",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Phải tìm phương pháp mới dựa trên kinh nghiệm quá khứ.",
+      "tiles": [
+        "과거의",
+        "경험에",
+        "비추어",
+        "새로운",
+        "방법을",
+        "찾아야",
+        "한다.",
+        "비추고"
+      ],
+      "answers": [
+        "과거의 경험에 비추어 새로운 방법을 찾아야 한다.",
+        "새로운 방법을 과거의 경험에 비추어 찾아야 한다."
+      ],
+      "explain_vi": "`경험에 비추어`: đối chiếu kinh nghiệm. `비추고` sai dạng."
+    },
+    {
+      "id": "X63B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄴ 것으로 추정되다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Ngôi tháp này được phỏng đoán là dựng vào thời Silla.",
+      "tiles": [
+        "이",
+        "탑은",
+        "신라",
+        "시대에",
+        "세워진",
+        "것으로",
+        "추정된다.",
+        "추정한다."
+      ],
+      "answers": [
+        "이 탑은 신라 시대에 세워진 것으로 추정된다."
+      ],
+      "explain_vi": "`세워진 것으로 추정된다`: bị động vì chủ ngữ là vật. `추정한다` sai chủ thể."
+    },
+    {
+      "id": "X63B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · (으)로 일컬어지다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Vua Sejong được gọi là vị vua đã tạo ra Hangeul.",
+      "tiles": [
+        "세종은",
+        "한글을",
+        "만든",
+        "왕으로",
+        "일컬어진다.",
+        "일컫는다."
+      ],
+      "answers": [
+        "세종은 한글을 만든 왕으로 일컬어진다.",
+        "한글을 만든 왕으로 세종은 일컬어진다."
+      ],
+      "explain_vi": "`왕으로 일컬어진다`: được gọi là vua. `일컫는다` là thể chủ động nên sai."
+    },
+    {
+      "id": "X64B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · N에 달하다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Năm nay khách du lịch đến khu vực này đạt một triệu người.",
+      "tiles": [
+        "올해",
+        "이",
+        "지역을",
+        "찾은",
+        "관광객은",
+        "백만",
+        "명에",
+        "달했다.",
+        "달렸다."
+      ],
+      "answers": [
+        "올해 이 지역을 찾은 관광객은 백만 명에 달했다.",
+        "이 지역을 찾은 관광객은 올해 백만 명에 달했다."
+      ],
+      "explain_vi": "`명에 달했다`: đạt tới số người. `달렸다` sai nghĩa."
+    },
+    {
+      "id": "X64B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · N을/를 웃돌다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Nhiệt độ trung bình năm nay cao hơn mức trung bình năm ngoái.",
+      "tiles": [
+        "올해",
+        "평균",
+        "기온은",
+        "지난해",
+        "평균을",
+        "웃돌았다.",
+        "웃돌아서"
+      ],
+      "answers": [
+        "올해 평균 기온은 지난해 평균을 웃돌았다."
+      ],
+      "explain_vi": "`평균을 웃돌았다`: vượt trên mức trung bình. `웃돌아서` không kết câu."
+    },
+    {
+      "id": "X64B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · N을/를 밑돌다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Doanh số tháng này thấp hơn mức dự kiến.",
+      "tiles": [
+        "이번",
+        "달",
+        "판매량은",
+        "예상치를",
+        "밑돌았다.",
+        "밑돌고"
+      ],
+      "answers": [
+        "이번 달 판매량은 예상치를 밑돌았다."
+      ],
+      "explain_vi": "`예상치를 밑돌았다`: thấp hơn dự kiến. `밑돌고` không kết câu."
+    },
+    {
+      "id": "X64B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · N에 못 미치다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Số trường có số tân sinh viên chưa tới chỉ tiêu đang tăng.",
+      "tiles": [
+        "신입생",
+        "수가",
+        "정원에",
+        "못",
+        "미치는",
+        "학교가",
+        "늘고",
+        "있다.",
+        "미치게"
+      ],
+      "answers": [
+        "신입생 수가 정원에 못 미치는 학교가 늘고 있다."
+      ],
+      "explain_vi": "`정원에 못 미치는 학교`: trường chưa đủ chỉ tiêu. `미치게` đổi cấu trúc."
+    },
+    {
+      "id": "X64B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄴ/는 데 반해",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Trong khi dân số thành thị tăng thì nông thôn giảm.",
+      "tiles": [
+        "도시의",
+        "인구는",
+        "늘어난",
+        "데",
+        "반해",
+        "농촌은",
+        "줄었다.",
+        "반하는"
+      ],
+      "answers": [
+        "도시의 인구는 늘어난 데 반해 농촌은 줄었다."
+      ],
+      "explain_vi": "`늘어난 데 반해`: trong khi tăng. `반하는` sai dạng."
+    },
+    {
+      "id": "X64B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄹ 지경이다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Bận đến mức không có cả thời gian nghỉ.",
+      "tiles": [
+        "너무",
+        "바빠서",
+        "쉴",
+        "시간도",
+        "없을",
+        "지경이다.",
+        "편이다."
+      ],
+      "answers": [
+        "너무 바빠서 쉴 시간도 없을 지경이다."
+      ],
+      "explain_vi": "`없을 지경이다`: đến mức không có. `편이다` không đi với `-ㄹ`."
+    },
+    {
+      "id": "X64B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -는 경향이 있다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Thanh thiếu niên có xu hướng theo ý kiến của bạn bè cùng tuổi.",
+      "tiles": [
+        "청소년은",
+        "또래의",
+        "의견을",
+        "따르는",
+        "경향이",
+        "있다.",
+        "경향을"
+      ],
+      "answers": [
+        "청소년은 또래의 의견을 따르는 경향이 있다."
+      ],
+      "explain_vi": "`따르는 경향이 있다`: có xu hướng theo. `경향을` làm sai cấu trúc."
+    },
+    {
+      "id": "X65B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · N을/를 -시키다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Thói quen ngủ muộn có thể làm suy yếu sức đề kháng.",
+      "tiles": [
+        "늦게",
+        "자는",
+        "습관은",
+        "면역력을",
+        "약화시킬",
+        "수",
+        "있다.",
+        "약화될"
+      ],
+      "answers": [
+        "늦게 자는 습관은 면역력을 약화시킬 수 있다."
+      ],
+      "explain_vi": "`면역력을 약화시킬 수 있다`: có tân ngữ nên dùng `-시키다`. `약화될` không đi với `을`."
+    },
+    {
+      "id": "X65B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · N이/가 -되다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Sau khi điều trị, triệu chứng của bệnh nhân đã tốt lên.",
+      "tiles": [
+        "치료를",
+        "받은",
+        "뒤",
+        "환자의",
+        "증상이",
+        "호전되었다.",
+        "호전시켰다."
+      ],
+      "answers": [
+        "치료를 받은 뒤 환자의 증상이 호전되었다.",
+        "환자의 증상이 치료를 받은 뒤 호전되었다."
+      ],
+      "explain_vi": "`증상이 호전되었다`: chủ ngữ là thứ thay đổi. `호전시켰다` cần tân ngữ."
+    },
+    {
+      "id": "X65B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · N을/를 -하다 (완화)",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Thuốc này làm giảm đau cho bệnh nhân.",
+      "tiles": [
+        "이",
+        "약은",
+        "환자의",
+        "통증을",
+        "완화한다.",
+        "완화된다."
+      ],
+      "answers": [
+        "이 약은 환자의 통증을 완화한다."
+      ],
+      "explain_vi": "`통증을 완화한다`: tân ngữ + dạng ngoại động. `완화된다` không đi với `을`."
+    },
+    {
+      "id": "X65B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · N에 해당하다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Người thuộc tiêu chí này là đối tượng khám sức khoẻ.",
+      "tiles": [
+        "이",
+        "기준에",
+        "해당하는",
+        "사람은",
+        "건강",
+        "검진",
+        "대상이다.",
+        "상당하는"
+      ],
+      "answers": [
+        "이 기준에 해당하는 사람은 건강 검진 대상이다."
+      ],
+      "explain_vi": "`기준에 해당하는 사람`: người thoả tiêu chí. `상당하는` có nghĩa «tương đương», không hợp."
+    },
+    {
+      "id": "X65B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · N에 속하다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Cá voi không phải cá mà thuộc lớp thú.",
+      "tiles": [
+        "고래는",
+        "어류가",
+        "아니라",
+        "포유류에",
+        "속한다.",
+        "속하는"
+      ],
+      "answers": [
+        "고래는 어류가 아니라 포유류에 속한다."
+      ],
+      "explain_vi": "`포유류에 속한다`: thuộc một nhóm phân loại. `속하는` không kết thúc câu."
+    },
+    {
+      "id": "X65B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄹ 법하다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Sau mổ chắc hẳn rất đau, vậy mà bệnh nhân vẫn đang cười.",
+      "tiles": [
+        "수술",
+        "후에",
+        "많이",
+        "아플",
+        "법한데",
+        "환자는",
+        "웃고",
+        "있다.",
+        "법해서"
+      ],
+      "answers": [
+        "수술 후에 많이 아플 법한데 환자는 웃고 있다.",
+        "환자는 수술 후에 많이 아플 법한데 웃고 있다."
+      ],
+      "explain_vi": "`아플 법한데`: nêu điều hợp lý rồi vế sau tương phản. `법해서` chỉ nguyên nhân nên không hợp."
+    },
+    {
+      "id": "X65B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄹ뿐더러",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Thuốc này không những ít tác dụng phụ mà giá cũng rẻ.",
+      "tiles": [
+        "이",
+        "약은",
+        "부작용이",
+        "적을뿐더러",
+        "값도",
+        "싸다.",
+        "많을뿐더러"
+      ],
+      "answers": [
+        "이 약은 부작용이 적을뿐더러 값도 싸다."
+      ],
+      "explain_vi": "`적을뿐더러`: hai vế cùng chiều tích cực. `많을뿐더러` khiến hai vế trái chiều."
+    },
+    {
+      "id": "X66B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -건만",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Dù doanh nghiệp đã hướng dẫn nhiều lần, ý kiến phàn nàn của người tiêu dùng vẫn không giảm.",
+      "tiles": [
+        "업체가",
+        "여러",
+        "번",
+        "안내했건만",
+        "소비자의",
+        "불만은",
+        "줄지",
+        "않았다.",
+        "안내했으니"
+      ],
+      "answers": [
+        "업체가 여러 번 안내했건만 소비자의 불만은 줄지 않았다."
+      ],
+      "explain_vi": "`안내했건만`: dù đã hướng dẫn nhưng kết quả ngược lại. `안내했으니` biến thành lý do nên sai nghĩa."
+    },
+    {
+      "id": "X66B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)련만",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Giá mà hôm nay hàng đến thì tốt, nhưng vẫn đang giao.",
+      "tiles": [
+        "택배가",
+        "오늘",
+        "도착하면",
+        "좋으련만",
+        "아직",
+        "배송",
+        "중이다.",
+        "좋으니만큼"
+      ],
+      "answers": [
+        "택배가 오늘 도착하면 좋으련만 아직 배송 중이다."
+      ],
+      "explain_vi": "`좋으련만`: mong điều lẽ ra có thể, thực tế khác. `좋으니만큼` là lý do, không hợp."
+    },
+    {
+      "id": "X66B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)면 몰라도",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Hàng có vấn đề thì còn được, chứ hàng đã dùng rồi thì hoàn tiền rất khó.",
+      "tiles": [
+        "상품에",
+        "문제가",
+        "있으면",
+        "몰라도",
+        "사용한",
+        "상품은",
+        "환불이",
+        "어렵다.",
+        "몰랐어도"
+      ],
+      "answers": [
+        "상품에 문제가 있으면 몰라도 사용한 상품은 환불이 어렵다."
+      ],
+      "explain_vi": "`있으면 몰라도`: nêu ngoại lệ rồi phủ định. `몰랐어도` không tạo mẫu."
+    },
+    {
+      "id": "X66B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -는 날에는",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Một khi đặt mật khẩu dễ thì thông tin cá nhân có thể bị lộ.",
+      "tiles": [
+        "비밀번호를",
+        "쉽게",
+        "정하는",
+        "날에는",
+        "개인정보가",
+        "유출될",
+        "수",
+        "있다.",
+        "날부터"
+      ],
+      "answers": [
+        "비밀번호를 쉽게 정하는 날에는 개인정보가 유출될 수 있다."
+      ],
+      "explain_vi": "`정하는 날에는`: nếu việc đó xảy ra thì có hậu quả. `날부터` nghĩa «kể từ ngày», không hợp."
+    },
+    {
+      "id": "X66B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)니만큼",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Vì là giao dịch quan trọng nên phải đọc kỹ điều khoản.",
+      "tiles": [
+        "중요한",
+        "거래이니만큼",
+        "약관을",
+        "꼼꼼히",
+        "읽어야",
+        "한다.",
+        "거래이건만"
+      ],
+      "answers": [
+        "중요한 거래이니만큼 약관을 꼼꼼히 읽어야 한다."
+      ],
+      "explain_vi": "`거래이니만큼`: vì là … nên phải … tương xứng. `거래이건만` là đối lập nên không hợp ý."
+    },
+    {
+      "id": "X66B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄴ/는답시고",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Lấy cớ tiết kiệm, chỉ chọn món rẻ nhất rồi cuối cùng bị thiệt.",
+      "tiles": [
+        "절약한답시고",
+        "가장",
+        "싼",
+        "제품만",
+        "고르다가",
+        "손해를",
+        "보았다.",
+        "절약하노라면"
+      ],
+      "answers": [
+        "절약한답시고 가장 싼 제품만 고르다가 손해를 보았다."
+      ],
+      "explain_vi": "`절약한답시고`: nói là để …, kết quả xấu. `절약하노라면` nêu điều tự đến nên không hợp."
+    },
+    {
+      "id": "X66B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -겠거니 하고",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Cứ nghĩ chắc sắp đến nên tôi chờ, nhưng đơn hàng đã bị hủy.",
+      "tiles": [
+        "곧",
+        "도착하겠거니",
+        "하고",
+        "기다렸는데",
+        "주문이",
+        "취소되어",
+        "있었다.",
+        "도착했거니"
+      ],
+      "answers": [
+        "곧 도착하겠거니 하고 기다렸는데 주문이 취소되어 있었다."
+      ],
+      "explain_vi": "`도착하겠거니 하고`: giả định sắp tới nơi. `도착했거니` sai thì vì đã xong thì không cần chờ."
+    },
+    {
+      "id": "X67B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄴ/는 축에 들다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Thành phố này thuộc nhóm có nhiệt độ trung bình năm cao.",
+      "tiles": [
+        "이",
+        "도시는",
+        "연평균",
+        "기온이",
+        "높은",
+        "축에",
+        "든다.",
+        "높는"
+      ],
+      "answers": [
+        "이 도시는 연평균 기온이 높은 축에 든다."
+      ],
+      "explain_vi": "`높은 축에 든다`: tính từ dùng `-(으)ㄴ`. `높는` là dạng sai nên không ghép được."
+    },
+    {
+      "id": "X67B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 에 육박하다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Năm nay tỷ lệ tăng giá sát 10% nên gánh nặng của người dân tăng lên.",
+      "tiles": [
+        "올해",
+        "물가",
+        "상승률이",
+        "10%에",
+        "육박하면서",
+        "서민들의",
+        "부담이",
+        "커졌다.",
+        "불과하면서"
+      ],
+      "answers": [
+        "올해 물가 상승률이 10%에 육박하면서 서민들의 부담이 커졌다.",
+        "물가 상승률이 올해 10%에 육박하면서 서민들의 부담이 커졌다."
+      ],
+      "explain_vi": "`10%에 육박하면서`: sát mức 10%. `불과하면서` nghĩa «chỉ ở mức»  nên mâu thuẫn với «부담이 커졌다»."
+    },
+    {
+      "id": "X67B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 에 버금가다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Sản phẩm này có tính năng sánh được với thiết bị chuyên dụng.",
+      "tiles": [
+        "이",
+        "제품은",
+        "전문가용",
+        "장비에",
+        "버금가는",
+        "성능을",
+        "갖추고",
+        "있다.",
+        "버금가서"
+      ],
+      "answers": [
+        "이 제품은 전문가용 장비에 버금가는 성능을 갖추고 있다."
+      ],
+      "explain_vi": "`장비에 버금가는 성능`: định từ bổ nghĩa cho `성능`. `버금가서` làm câu mất danh từ trung tâm."
+    },
+    {
+      "id": "X67B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)려고 들다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Người ta thường một mực tìm nguyên nhân của vấn đề ở người khác.",
+      "tiles": [
+        "사람들은",
+        "문제의",
+        "원인을",
+        "남에게서",
+        "찾으려고",
+        "든다.",
+        "찾으려면"
+      ],
+      "answers": [
+        "사람들은 문제의 원인을 남에게서 찾으려고 든다.",
+        "사람들은 남에게서 문제의 원인을 찾으려고 든다."
+      ],
+      "explain_vi": "`찾으려고 든다`: khăng khăng làm. `찾으려면` là điều kiện nên không đi với `든다`."
+    },
+    {
+      "id": "X67B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -고 들다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Anh ấy hễ gặp là xoáy vào lỗi của đối phương trước.",
+      "tiles": [
+        "그는",
+        "상대의",
+        "잘못부터",
+        "따지고",
+        "든다.",
+        "따지러"
+      ],
+      "answers": [
+        "그는 상대의 잘못부터 따지고 든다.",
+        "상대의 잘못부터 그는 따지고 든다."
+      ],
+      "explain_vi": "`따지고 든다`: lao vào xoáy hỏi. `따지러` là mục đích nên không đi với `든다`."
+    },
+    {
+      "id": "X67B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -아/어 대다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Em tôi đêm nào cũng ăn bánh quy liên tục nên đã tăng cân.",
+      "tiles": [
+        "동생은",
+        "밤마다",
+        "과자를",
+        "먹어",
+        "대서",
+        "살이",
+        "쪘다.",
+        "먹을"
+      ],
+      "answers": [
+        "동생은 밤마다 과자를 먹어 대서 살이 쪘다.",
+        "동생은 과자를 밤마다 먹어 대서 살이 쪘다.",
+        "밤마다 동생은 과자를 먹어 대서 살이 쪘다."
+      ],
+      "explain_vi": "`먹어 대서`: ăn liên tục, quá mức nên hệ quả xấu (`살이 쪘다`). `먹을` không ghép với `대서`."
+    },
+    {
+      "id": "X67B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -기에 망정이지",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "May mà đã đặt trước, không thì suýt nữa đã hết chỗ.",
+      "tiles": [
+        "미리",
+        "예약했기에",
+        "망정이지",
+        "하마터면",
+        "자리가",
+        "없을",
+        "뻔했다.",
+        "예약한"
+      ],
+      "answers": [
+        "미리 예약했기에 망정이지 하마터면 자리가 없을 뻔했다.",
+        "미리 예약했기에 망정이지 자리가 하마터면 없을 뻔했다."
+      ],
+      "explain_vi": "`예약했기에 망정이지`: nhờ việc ở vế trước mà tránh được; vế sau `-(으)ㄹ 뻔했다`. `예약한` là định từ nên không nối được với `망정이지`."
+    },
+    {
+      "id": "X68B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -는 도중에 (N + 도중에)",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Giữa buổi họp bỗng mất điện.",
+      "tiles": [
+        "회의",
+        "도중에",
+        "갑자기",
+        "정전이",
+        "되었다.",
+        "도중이"
+      ],
+      "answers": [
+        "회의 도중에 갑자기 정전이 되었다.",
+        "갑자기 회의 도중에 정전이 되었다."
+      ],
+      "explain_vi": "`회의 도중에`: danh từ có diễn tiến + `도중에`. `도중이` làm câu sai ngữ pháp."
+    },
+    {
+      "id": "X68B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -는 와중에도",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Dù kinh tế khó khăn, lợi nhuận của ngành này vẫn tăng.",
+      "tiles": [
+        "경제가",
+        "어려운",
+        "와중에도",
+        "이",
+        "업계의",
+        "수익은",
+        "늘었다.",
+        "도중에도"
+      ],
+      "answers": [
+        "경제가 어려운 와중에도 이 업계의 수익은 늘었다.",
+        "이 업계의 수익은 경제가 어려운 와중에도 늘었다."
+      ],
+      "explain_vi": "`어려운 와중에도`: tính từ dùng `-(으)ㄴ` trước `와중에도`. `도중에도` không đi với tính từ trạng thái."
+    },
+    {
+      "id": "X68B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -고서야",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Mãi đến khi lính cứu hoả tới, mọi người mới yên tâm sơ tán.",
+      "tiles": [
+        "소방관이",
+        "도착하고서야",
+        "사람들은",
+        "안심하고",
+        "대피했다.",
+        "도착하려고"
+      ],
+      "answers": [
+        "소방관이 도착하고서야 사람들은 안심하고 대피했다.",
+        "사람들은 소방관이 도착하고서야 안심하고 대피했다."
+      ],
+      "explain_vi": "`도착하고서야`: mãi đến khi xong việc trước mới có việc sau. `도착하려고` là mục đích nên không hợp với `안심하고`."
+    },
+    {
+      "id": "X68B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -고 나서야 비로소",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Phải trải qua tai nạn tôi mới nhận ra tầm quan trọng của an toàn.",
+      "tiles": [
+        "사고를",
+        "겪고",
+        "나서야",
+        "비로소",
+        "안전의",
+        "중요성을",
+        "깨달았다.",
+        "이미"
+      ],
+      "answers": [
+        "사고를 겪고 나서야 비로소 안전의 중요성을 깨달았다."
+      ],
+      "explain_vi": "`겪고 나서야 비로소`: nhấn «đến lúc đó mới». `이미` (đã) mâu thuẫn với ý «mãi mới»."
+    },
+    {
+      "id": "X68B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · N + 치고(는)",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Xét là người mới lái, anh ấy lái xe bình tĩnh và khá giỏi.",
+      "tiles": [
+        "초보",
+        "운전자치고는",
+        "침착하게",
+        "운전을",
+        "잘한다.",
+        "해도"
+      ],
+      "answers": [
+        "초보 운전자치고는 침착하게 운전을 잘한다."
+      ],
+      "explain_vi": "`운전자치고는`: so với chuẩn của loại «người mới lái». `해도` đứng riêng không tạo thành câu đúng."
+    },
+    {
+      "id": "X68B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · N + 치고 (khái quát)",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Hầu như không có người lái xe nào không để ý đến việc kiểm soát tốc độ.",
+      "tiles": [
+        "운전자치고",
+        "과속",
+        "단속을",
+        "신경",
+        "쓰지",
+        "않는",
+        "사람은",
+        "없다.",
+        "있다."
+      ],
+      "answers": [
+        "운전자치고 과속 단속을 신경 쓰지 않는 사람은 없다."
+      ],
+      "explain_vi": "`운전자치고 … 않는 사람은 없다`: khái quát cả loại, vế sau phủ định. `있다` làm vế sau mất ý khái quát."
+    },
+    {
+      "id": "X68B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · N + 만 해도",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Mới mười năm trước thôi, xe điện còn khó thấy trên đường.",
+      "tiles": [
+        "십",
+        "년",
+        "전만",
+        "해도",
+        "전기차는",
+        "거리에서",
+        "보기",
+        "어려웠다.",
+        "전만도"
+      ],
+      "answers": [
+        "십 년 전만 해도 전기차는 거리에서 보기 어려웠다.",
+        "십 년 전만 해도 거리에서 전기차는 보기 어려웠다.",
+        "전기차는 십 년 전만 해도 거리에서 보기 어려웠다."
+      ],
+      "explain_vi": "`전만 해도`: «mới thời điểm đó thôi mà …», báo hiệu thay đổi lớn. `전만도` không phải dạng đúng."
+    },
+    {
+      "id": "X69B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · N + 대비",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Doanh thu năm nay tăng 5% so với năm trước.",
+      "tiles": [
+        "올해",
+        "매출은",
+        "전년",
+        "대비",
+        "5퍼센트",
+        "늘었다.",
+        "대비를"
+      ],
+      "answers": [
+        "올해 매출은 전년 대비 5퍼센트 늘었다.",
+        "전년 대비 올해 매출은 5퍼센트 늘었다."
+      ],
+      "explain_vi": "`전년 대비 5퍼센트`: mốc so sánh trước, phần trăm sau. `대비를` làm câu sai ngữ pháp."
+    },
+    {
+      "id": "X69B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 을/를 차지하다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Lứa tuổi 20 chiếm một nửa tổng số người dùng.",
+      "tiles": [
+        "20대가",
+        "전체",
+        "이용자의",
+        "절반을",
+        "차지했다.",
+        "기록했다."
+      ],
+      "answers": [
+        "20대가 전체 이용자의 절반을 차지했다.",
+        "전체 이용자의 절반을 20대가 차지했다."
+      ],
+      "explain_vi": "`절반을 차지했다`: phần chiếm trong tổng thể. `기록했다` dành cho mức đạt của một chỉ số."
+    },
+    {
+      "id": "X69B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 을/를 기록하다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Tỷ lệ thất nghiệp của thành phố này năm nay đạt mức thấp nhất.",
+      "tiles": [
+        "이",
+        "도시의",
+        "실업률은",
+        "올해",
+        "최저치를",
+        "기록했다.",
+        "차지했다."
+      ],
+      "answers": [
+        "이 도시의 실업률은 올해 최저치를 기록했다.",
+        "올해 이 도시의 실업률은 최저치를 기록했다."
+      ],
+      "explain_vi": "`최저치를 기록했다`: một chỉ số đạt mức nào đó. `차지했다` không ghép với `최저치`."
+    },
+    {
+      "id": "X69B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 을/를 막론하고",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Bất kể già trẻ trai gái, ai cũng có thể dùng cơ sở này.",
+      "tiles": [
+        "남녀노소를",
+        "막론하고",
+        "누구나",
+        "이",
+        "시설을",
+        "이용할",
+        "수",
+        "있다.",
+        "비롯하고"
+      ],
+      "answers": [
+        "남녀노소를 막론하고 누구나 이 시설을 이용할 수 있다."
+      ],
+      "explain_vi": "`남녀노소를 막론하고`: bao gồm tất cả các nhóm. `비롯하고` không tạo nghĩa «bất kể»."
+    },
+    {
+      "id": "X69B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · 에 국한되지 않고",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Vấn đề này không chỉ giới hạn ở một khu vực mà xuất hiện trên toàn quốc.",
+      "tiles": [
+        "이",
+        "문제는",
+        "특정",
+        "지역에",
+        "국한되지",
+        "않고",
+        "전국에서",
+        "나타난다.",
+        "국한되고"
+      ],
+      "answers": [
+        "이 문제는 특정 지역에 국한되지 않고 전국에서 나타난다."
+      ],
+      "explain_vi": "`지역에 국한되지 않고`: phủ định để mở rộng. `국한되고` mâu thuẫn với `전국에서`."
+    },
+    {
+      "id": "X69B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)ㄴ/는 동시에",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Ứng dụng này vừa dễ dùng vừa có bảo mật tốt.",
+      "tiles": [
+        "이",
+        "앱은",
+        "사용이",
+        "쉬운",
+        "동시에",
+        "보안도",
+        "뛰어나다.",
+        "쉽는"
+      ],
+      "answers": [
+        "이 앱은 사용이 쉬운 동시에 보안도 뛰어나다."
+      ],
+      "explain_vi": "`쉬운 동시에`: tính từ dùng `-(으)ㄴ` trước `동시에`. `쉽는` là dạng sai nên không ghép được."
+    },
+    {
+      "id": "X69B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · -(으)면서도",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Cách này đơn giản mà hiệu quả lớn.",
+      "tiles": [
+        "이",
+        "방법은",
+        "간단하면서도",
+        "효과가",
+        "크다.",
+        "간단하면서"
+      ],
+      "answers": [
+        "이 방법은 간단하면서도 효과가 크다."
+      ],
+      "explain_vi": "`간단하면서도`: hai đặc điểm cùng có ở một đối tượng. `간단하면서` thiếu `도` nên không tạo ý «mà vẫn»."
+    }
+  ]
+}

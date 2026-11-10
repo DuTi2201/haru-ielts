@@ -1,0 +1,205 @@
+{
+  "lesson": "viet-nghi-luan-03-tim-y",
+  "items": [
+    {
+      "id": "viet-nghi-luan-03-d1",
+      "kind": "dialogue",
+      "title_ko": "재택근무 장점이 뭘까?",
+      "title_vi": "Ưu điểm của làm việc tại nhà là gì?",
+      "scene_vi": "Hai bạn học tiếng Hàn tìm ý cho một đề viết về làm việc tại nhà, trong phòng tự học.",
+      "speakers": {
+        "F": "하나",
+        "M": "준호"
+      },
+      "lines": [
+        {
+          "who": "M",
+          "ko": "하나 씨, 재택근무의 장점을 쓰라는데 아무 생각이 안 나요.",
+          "vi": "Hana, đề bảo viết ưu điểm của làm việc tại nhà mà tôi không nghĩ ra gì."
+        },
+        {
+          "who": "F",
+          "ko": "서랍을 하나씩 열어 보세요. 먼저 시간은 어때요?",
+          "vi": "Bạn hãy mở từng ngăn kéo. Trước hết, về thời gian thì sao?"
+        },
+        {
+          "who": "M",
+          "ko": "출퇴근 시간을 아낄 수 있어요. 재택근무는 시간을 절약하는 데 도움이 돼요.",
+          "vi": "Có thể tiết kiệm thời gian đi làm. Làm việc tại nhà có ích cho việc tiết kiệm thời gian."
+        },
+        {
+          "who": "F",
+          "ko": "좋아요. 그럼 비용은요?",
+          "vi": "Tốt. Vậy còn chi phí?"
+        },
+        {
+          "who": "M",
+          "ko": "교통비와 점심값도 줄일 수 있어요. 그런데 단점도 있지요?",
+          "vi": "Cũng giảm được tiền đi lại và tiền cơm trưa. Nhưng cũng có nhược điểm chứ?"
+        },
+        {
+          "who": "F",
+          "ko": "네. 동료와 소통하기가 어려워서 갈등이 생길 우려가 있어요.",
+          "vi": "Vâng. Khó trao đổi với đồng nghiệp nên có nguy cơ nảy sinh mâu thuẫn."
+        },
+        {
+          "who": "M",
+          "ko": "아, 관계 서랍이군요. 효과도 사람에 따라 다를 수 있겠네요.",
+          "vi": "À, ngăn kéo quan hệ nhỉ. Hiệu quả chắc cũng khác nhau tuỳ người."
+        },
+        {
+          "who": "F",
+          "ko": "맞아요. 이제 두 가지씩 정리해서 쓰면 돼요.",
+          "vi": "Đúng vậy. Giờ ghi lại mỗi bên hai ý rồi viết là được."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -는 데 (도움이 되다 · 시간이 걸리다 · 비용이 들다)",
+          "regex": "절약하는 데 도움이"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 우려가 있다 · V/A + -(으)ㄹ 가능성이 있다",
+          "regex": "갈등이 생길 우려가"
+        },
+        {
+          "pattern": "N + 에 따라 다르다 · N + 에 따라 달라지다",
+          "regex": "사람에 따라 다를"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "절약하다",
+          "seen": "절약하는"
+        },
+        {
+          "word": "비용",
+          "seen": "비용은요"
+        },
+        {
+          "word": "소통",
+          "seen": "소통하기가"
+        },
+        {
+          "word": "갈등",
+          "seen": "갈등이"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Hana khuyên Junho làm gì để tìm ý?",
+          "options": [
+            "Mở từng ngăn kéo ý tưởng",
+            "Chép lại câu hỏi",
+            "Đọc báo"
+          ],
+          "answer": 0,
+          "explain_vi": "Cô nói «서랍을 하나씩 열어 보세요»."
+        },
+        {
+          "q_vi": "Theo Junho, nhược điểm của làm việc tại nhà thuộc ngăn nào?",
+          "options": [
+            "Thời gian",
+            "Quan hệ",
+            "Môi trường"
+          ],
+          "answer": 1,
+          "explain_vi": "Anh nói «관계 서랍이군요» sau khi Hana nhắc khó trao đổi với đồng nghiệp."
+        }
+      ]
+    },
+    {
+      "id": "viet-nghi-luan-03-r1",
+      "kind": "reading",
+      "title_ko": "재택근무의 장점과 문제점",
+      "title_vi": "Ưu điểm và vấn đề của làm việc tại nhà",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "재택근무는 출퇴근 시간을 절약하는 데 도움이 된다.",
+          "vi": "Làm việc tại nhà có ích cho việc tiết kiệm thời gian đi làm."
+        },
+        {
+          "who": "N",
+          "ko": "교통비 같은 생활 비용 부담도 줄일 수 있다.",
+          "vi": "Cũng có thể giảm gánh nặng chi phí sinh hoạt như tiền đi lại."
+        },
+        {
+          "who": "N",
+          "ko": "그러나 직접 만나지 않으면 동료와 소통하기 어려울 수 있다.",
+          "vi": "Tuy nhiên nếu không gặp trực tiếp thì có thể khó trao đổi với đồng nghiệp."
+        },
+        {
+          "who": "N",
+          "ko": "이 때문에 갈등이 생길 우려도 있다.",
+          "vi": "Vì vậy cũng có nguy cơ nảy sinh mâu thuẫn."
+        },
+        {
+          "who": "N",
+          "ko": "재택근무의 효과는 사람에 따라 다를 수 있다.",
+          "vi": "Hiệu quả của làm việc tại nhà có thể khác nhau tuỳ người."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "N + 에 도움이 되다 · N + 에 부담이 되다",
+          "regex": "도움이 된다"
+        },
+        {
+          "pattern": "V + -는 데 (도움이 되다 · 시간이 걸리다 · 비용이 들다)",
+          "regex": "절약하는 데"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 우려가 있다 · V/A + -(으)ㄹ 가능성이 있다",
+          "regex": "우려도 있다"
+        },
+        {
+          "pattern": "N + 에 따라 다르다 · N + 에 따라 달라지다",
+          "regex": "사람에 따라 다를"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "절약하다",
+          "seen": "절약하는"
+        },
+        {
+          "word": "비용",
+          "seen": "비용"
+        },
+        {
+          "word": "소통",
+          "seen": "소통하기"
+        },
+        {
+          "word": "갈등",
+          "seen": "갈등이"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Theo bài, làm việc tại nhà có ích ở điểm nào?",
+          "options": [
+            "Tiết kiệm thời gian đi làm",
+            "Tăng lương",
+            "Gặp đồng nghiệp nhiều hơn"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu đầu: «출퇴근 시간을 절약하는 데 도움이 된다»."
+        },
+        {
+          "q_vi": "Nhược điểm được nêu là gì?",
+          "options": [
+            "Khó trao đổi với đồng nghiệp",
+            "Tốn nhiều tiền đi lại",
+            "Không có thời gian rảnh"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 3: «동료와 소통하기 어려울 수 있다»."
+        }
+      ]
+    }
+  ]
+}

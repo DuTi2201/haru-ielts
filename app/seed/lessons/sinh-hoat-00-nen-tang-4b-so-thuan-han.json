@@ -1,0 +1,1475 @@
+{
+  "slug": "sinh-hoat-00-nen-tang-4b-so-thuan-han",
+  "title": "Nền tảng 4.2 · Số thuần Hàn: giờ, tuổi, đếm đồ vật",
+  "title_ko": "기초 4-2: 하나, 둘, 셋",
+  "topic": "Nhập môn",
+  "track": "beginner",
+  "level": 1,
+  "summary": "Hệ số thuần Hàn ('하나', '둘', '셋'…), dạng rút gọn trước đơn vị đếm ('한', '두', '세', '네', '스무') và các đơn vị đi với nó: giờ, tuổi, cái, người, ly, quyển, con.",
+  "vocab": [
+    {
+      "hangul": "하나",
+      "pos": "N",
+      "meaning_vi": "Một (số thuần Hàn)",
+      "note_vi": "Trước đơn vị đếm đổi thành 한: 한 개, 한 시.",
+      "example_ko": "사과가 하나 있어요.",
+      "example_vi": "Có một quả táo.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "둘",
+      "pos": "N",
+      "meaning_vi": "Hai (thuần Hàn)",
+      "note_vi": "Trước đơn vị đếm đổi thành 두: 두 명, 두 시.",
+      "example_ko": "친구가 둘 있어요.",
+      "example_vi": "Tôi có hai người bạn.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "셋",
+      "pron": "[섿]",
+      "pos": "N",
+      "meaning_vi": "Ba (thuần Hàn)",
+      "note_vi": "Trước đơn vị đếm đổi thành 세: 세 개, 세 시.",
+      "example_ko": "우리는 셋이에요.",
+      "example_vi": "Chúng tôi có ba người.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "넷",
+      "pron": "[넫]",
+      "pos": "N",
+      "meaning_vi": "Bốn (thuần Hàn)",
+      "note_vi": "Trước đơn vị đếm đổi thành 네: 네 개, 네 시.",
+      "example_ko": "넷이 같이 먹어요.",
+      "example_vi": "Bốn người cùng ăn.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "다섯",
+      "pron": "[다섣]",
+      "pos": "N",
+      "meaning_vi": "Năm (thuần Hàn)",
+      "example_ko": "다섯 시예요.",
+      "example_vi": "Năm giờ rồi.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "여섯",
+      "pron": "[여섣]",
+      "pos": "N",
+      "meaning_vi": "Sáu (thuần Hàn)",
+      "example_ko": "여섯 명이 와요.",
+      "example_vi": "Sáu người đến.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "일곱",
+      "pos": "N",
+      "meaning_vi": "Bảy (thuần Hàn)",
+      "example_ko": "일곱 시에 일어나요.",
+      "example_vi": "Tôi dậy lúc 7 giờ.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "여덟",
+      "pron": "[여덜]",
+      "pos": "N",
+      "meaning_vi": "Tám (thuần Hàn)",
+      "example_ko": "여덟 시에 학교에 가요.",
+      "example_vi": "Tôi đến trường lúc 8 giờ.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "아홉",
+      "pos": "N",
+      "meaning_vi": "Chín (thuần Hàn)",
+      "example_ko": "아홉 시에 수업이 있어요.",
+      "example_vi": "Có tiết học lúc 9 giờ.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "열",
+      "pos": "N",
+      "meaning_vi": "Mười (thuần Hàn)",
+      "note_vi": "11 = 열하나 (열한 + đơn vị), 12 = 열둘 (열두 + đơn vị).",
+      "example_ko": "열 시에 자요.",
+      "example_vi": "Tôi ngủ lúc 10 giờ.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "스물",
+      "pos": "N",
+      "meaning_vi": "Hai mươi (thuần Hàn)",
+      "note_vi": "Trước đơn vị đếm: 스무 (스무 살, 스무 개). Nhưng 스물한 살, 스물두 개 (chỉ chữ số cuối đổi).",
+      "example_ko": "스물한 살이에요.",
+      "example_vi": "Tôi 21 tuổi.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "서른",
+      "pos": "N",
+      "meaning_vi": "Ba mươi (thuần Hàn)",
+      "note_vi": "40 마흔 · 50 쉰 · 60 예순 · 70 일흔 · 80 여든 · 90 아흔.",
+      "example_ko": "서른 살이에요.",
+      "example_vi": "Tôi 30 tuổi.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "개",
+      "pos": "N",
+      "meaning_vi": "Cái (đơn vị đếm đồ vật)",
+      "note_vi": "Đi với số thuần Hàn: 한 개, 두 개…",
+      "example_ko": "사과 두 개를 샀어요.",
+      "example_vi": "Tôi đã mua hai quả táo.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "個",
+      "sino_vietnamese": "cá",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "명",
+      "pos": "N",
+      "meaning_vi": "Người (đơn vị đếm)",
+      "note_vi": "Đi với số thuần Hàn: 한 명, 두 명. Kính ngữ: 분 (세 분).",
+      "example_ko": "친구 세 명이 와요.",
+      "example_vi": "Ba người bạn đến.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "名",
+      "sino_vietnamese": "danh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "살",
+      "pos": "N",
+      "meaning_vi": "Tuổi (đơn vị đếm)",
+      "note_vi": "Số thuần Hàn + 살; trang trọng: số Hán-Hàn + 세 (이십칠 세).",
+      "example_ko": "저는 스물일곱 살이에요.",
+      "example_vi": "Tôi 27 tuổi.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "잔",
+      "pos": "N",
+      "meaning_vi": "Ly, cốc, chén (đơn vị đếm)",
+      "example_ko": "커피 한 잔 마셔요.",
+      "example_vi": "Tôi uống một ly cà phê.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "盞",
+      "sino_vietnamese": "trản",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "권",
+      "pos": "N",
+      "meaning_vi": "Quyển (đơn vị đếm sách)",
+      "example_ko": "책 세 권을 읽어요.",
+      "example_vi": "Tôi đọc ba quyển sách.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "卷",
+      "sino_vietnamese": "quyển",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "병",
+      "pos": "N",
+      "meaning_vi": "Chai, lọ (đơn vị đếm)",
+      "example_ko": "물 두 병 주세요.",
+      "example_vi": "Cho tôi hai chai nước.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "甁",
+      "sino_vietnamese": "bình",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "마리",
+      "pos": "N",
+      "meaning_vi": "Con (đơn vị đếm động vật)",
+      "example_ko": "강아지가 두 마리 있어요.",
+      "example_vi": "Tôi có hai con chó.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "번",
+      "pos": "N",
+      "meaning_vi": "Lần; số (thứ tự)",
+      "note_vi": "'Lần' đi với số thuần Hàn (한 번); 'số' đi với số Hán-Hàn (삼 번 버스 = xe buýt số 3).",
+      "example_ko": "일주일에 한 번 만나요.",
+      "example_vi": "Một tuần gặp một lần.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "番",
+      "sino_vietnamese": "phiên",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "시",
+      "pos": "N",
+      "meaning_vi": "Giờ (thời điểm)",
+      "note_vi": "Số thuần Hàn + 시. Khoảng thời gian 'tiếng' là 시간: 두 시간 = 2 tiếng.",
+      "example_ko": "지금 세 시예요.",
+      "example_vi": "Bây giờ là 3 giờ.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "時",
+      "sino_vietnamese": "thời",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "반",
+      "pos": "N",
+      "meaning_vi": "Một nửa; 30 phút",
+      "example_ko": "두 시 반에 만나요.",
+      "example_vi": "Gặp lúc 2 giờ rưỡi.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "半",
+      "sino_vietnamese": "bán",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "오전",
+      "pos": "N",
+      "meaning_vi": "Buổi sáng (trước 12 giờ trưa)",
+      "example_ko": "오전 아홉 시예요.",
+      "example_vi": "9 giờ sáng.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "午前",
+      "sino_vietnamese": "ngọ tiền",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "오후",
+      "pos": "N",
+      "meaning_vi": "Buổi chiều (sau 12 giờ trưa)",
+      "example_ko": "오후 세 시예요.",
+      "example_vi": "3 giờ chiều.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "午後",
+      "sino_vietnamese": "ngọ hậu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "내일",
+      "pos": "N",
+      "meaning_vi": "Ngày mai",
+      "note_vi": "Không gắn 에: ✗ 내일에.",
+      "example_ko": "내일 만나요.",
+      "example_vi": "Mai gặp nhé.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "來日",
+      "sino_vietnamese": "lai nhật",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "아침",
+      "pos": "N",
+      "meaning_vi": "Buổi sáng; bữa sáng",
+      "example_ko": "아침 일곱 시에 일어나요.",
+      "example_vi": "Sáng 7 giờ tôi thức dậy.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "점심",
+      "pos": "N",
+      "meaning_vi": "Buổi trưa; bữa trưa",
+      "example_ko": "점심에 친구를 만나요.",
+      "example_vi": "Buổi trưa tôi gặp bạn.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "點心",
+      "sino_vietnamese": "điểm tâm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "각각",
+      "pos": "N",
+      "meaning_vi": "Từng cái, mỗi (người, vật)",
+      "note_vi": "Cũng dùng như trạng từ: 각각 다르다 «mỗi cái mỗi khác».",
+      "example_ko": "우리는 각각 다른 음식을 시켰어요.",
+      "example_vi": "Mỗi người chúng tôi gọi một món khác nhau.",
+      "pron": "[각깍]",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:29229",
+      "hanja": "各各",
+      "collocations": [
+        {
+          "ko": "각각의 생각",
+          "vi": "Suy nghĩ của mỗi người"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "các các"
+    },
+    {
+      "hangul": "그다음",
+      "pos": "N",
+      "meaning_vi": "Tiếp theo, sau đó",
+      "example_ko": "먼저 밥을 먹고 그다음에 커피를 마셔요.",
+      "example_vi": "Ăn cơm trước, sau đó uống cà phê.",
+      "family": "🟢 Nền · Từ sơ cấp · Thứ tự",
+      "priority": "core",
+      "source": "krdict:36250",
+      "collocations": [
+        {
+          "ko": "그다음 날",
+          "vi": "Ngày hôm sau"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "그담",
+      "pos": "N",
+      "meaning_vi": "Sau đó (văn nói)",
+      "note_vi": "Dạng nói rút gọn của 그다음.",
+      "example_ko": "그담에 뭐 해요?",
+      "example_vi": "Sau đó làm gì?",
+      "family": "🟢 Nền · Từ sơ cấp · Thứ tự",
+      "priority": "recognize",
+      "source": "krdict:36253",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "그루",
+      "pos": "N",
+      "meaning_vi": "Cây, gốc (đơn vị đếm cây)",
+      "example_ko": "마당에 나무 두 그루가 있어요.",
+      "example_vi": "Trong sân có hai cây.",
+      "family": "🟢 Nền · Từ sơ cấp · Đơn vị đếm",
+      "priority": "recognize",
+      "source": "krdict:36296",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "나중",
+      "pos": "N",
+      "meaning_vi": "Sau này, lát sau",
+      "note_vi": "Hay dùng 나중에: 나중에 전화할게요.",
+      "example_ko": "나중에 다시 전화할게요.",
+      "example_vi": "Lát nữa tôi sẽ gọi lại.",
+      "family": "🟢 Nền · Từ sơ cấp · Thứ tự",
+      "priority": "core",
+      "source": "krdict:62275",
+      "collocations": [
+        {
+          "ko": "나중에 만나다",
+          "vi": "Gặp sau"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "네다섯",
+      "pos": "N",
+      "meaning_vi": "Bốn năm (khoảng 4–5)",
+      "example_ko": "사과가 네다섯 개 있어요.",
+      "example_vi": "Có khoảng bốn năm quả táo.",
+      "pron": "[네다섣]",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "recognize",
+      "source": "krdict:87362",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "넷째",
+      "pos": "N",
+      "meaning_vi": "Thứ tư (thứ tự), lần thứ tư",
+      "note_vi": "둘째, 셋째, 넷째…: số thứ tự thuần Hàn. 넷째 주 «tuần thứ tư».",
+      "example_ko": "매달 넷째 주에 모임이 있어요.",
+      "example_vi": "Tuần thứ tư mỗi tháng có buổi họp mặt.",
+      "pron": "[넫째]",
+      "family": "🟢 Nền · Từ sơ cấp · Thứ tự",
+      "priority": "recognize",
+      "source": "krdict:90892",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "다섯째",
+      "pos": "N",
+      "meaning_vi": "Thứ năm (thứ tự), lần thứ năm",
+      "example_ko": "오늘 커피를 다섯째 마셔요.",
+      "example_vi": "Hôm nay tôi uống cà phê lần thứ năm rồi.",
+      "pron": "[다섣째]",
+      "family": "🟢 Nền · Từ sơ cấp · Thứ tự",
+      "priority": "recognize",
+      "source": "krdict:90895",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "다시",
+      "pos": "X",
+      "meaning_vi": "Lại, lần nữa",
+      "example_ko": "다시 한 번 말해 주세요.",
+      "example_vi": "Xin nói lại một lần nữa.",
+      "family": "🟢 Nền · Từ sơ cấp · Thứ tự",
+      "priority": "core",
+      "source": "krdict:62539",
+      "collocations": [
+        {
+          "ko": "다시 한 번",
+          "vi": "Một lần nữa"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "다음",
+      "pos": "N",
+      "meaning_vi": "Sau, tiếp theo, lần sau",
+      "note_vi": "다음 주 «tuần sau», 다음 달 «tháng sau», 다음에 «lần sau».",
+      "example_ko": "다음 주에 만나요.",
+      "example_vi": "Tuần sau gặp nhé.",
+      "family": "🟢 Nền · Từ sơ cấp · Thứ tự",
+      "priority": "core",
+      "source": "krdict:64531",
+      "collocations": [
+        {
+          "ko": "다음 날",
+          "vi": "Ngày hôm sau"
+        },
+        {
+          "ko": "다음 달",
+          "vi": "Tháng sau"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "대",
+      "pos": "N",
+      "meaning_vi": "Chiếc (đếm xe, máy móc)",
+      "note_vi": "Đếm xe, máy bay, máy tính, điện thoại: 차 한 대.",
+      "example_ko": "우리 집에는 차가 두 대 있어요.",
+      "example_vi": "Nhà tôi có hai chiếc ô tô.",
+      "family": "🟢 Nền · Từ sơ cấp · Đơn vị đếm",
+      "priority": "core",
+      "source": "krdict:40639",
+      "hanja": "臺",
+      "collocations": [
+        {
+          "ko": "버스 한 대",
+          "vi": "Một chiếc xe buýt"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "đài"
+    },
+    {
+      "hangul": "두",
+      "pos": "X",
+      "meaning_vi": "Hai (trước danh từ, đơn vị đếm)",
+      "note_vi": "둘 đứng trước đơn vị đếm thành 두: 두 개, 두 명, 두 시.",
+      "example_ko": "커피 두 잔 주세요.",
+      "example_vi": "Cho tôi hai cốc cà phê.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:71458",
+      "collocations": [
+        {
+          "ko": "두 사람",
+          "vi": "Hai người"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "두세",
+      "pos": "X",
+      "meaning_vi": "Hai ba (khoảng 2–3)",
+      "note_vi": "Đứng trước đơn vị đếm: 두세 개, 두세 시간.",
+      "example_ko": "두세 명이 더 와요.",
+      "example_vi": "Sẽ có thêm hai ba người đến.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:71459",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "두셋",
+      "pos": "N",
+      "meaning_vi": "Hai ba (khoảng 2–3 cái, người)",
+      "example_ko": "친구 두셋이 왔어요.",
+      "example_vi": "Hai ba người bạn đã đến.",
+      "pron": "[두섿]",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "recognize",
+      "source": "krdict:46805",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "둘째",
+      "pos": "N",
+      "meaning_vi": "Thứ hai (thứ tự); con thứ hai",
+      "note_vi": "Cũng chỉ người con thứ hai: 둘째 아들. 첫째 → 둘째 → 셋째.",
+      "example_ko": "저는 둘째 딸이에요.",
+      "example_vi": "Tôi là con gái thứ hai.",
+      "family": "🟢 Nền · Từ sơ cấp · Thứ tự",
+      "priority": "core",
+      "source": "krdict:90911",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "마지막",
+      "pos": "N",
+      "meaning_vi": "Cuối cùng, sau cùng",
+      "example_ko": "오늘이 마지막 수업이에요.",
+      "example_vi": "Hôm nay là buổi học cuối cùng.",
+      "family": "🟢 Nền · Từ sơ cấp · Thứ tự",
+      "priority": "core",
+      "source": "krdict:28843",
+      "collocations": [
+        {
+          "ko": "마지막 날",
+          "vi": "Ngày cuối cùng"
+        },
+        {
+          "ko": "마지막 기회",
+          "vi": "Cơ hội cuối cùng"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "마흔",
+      "pos": "N",
+      "meaning_vi": "Bốn mươi (số thuần Hàn)",
+      "note_vi": "Số thuần Hàn: 스물, 서른, 마흔, 쉰… Dùng khi nói tuổi: 마흔 살.",
+      "example_ko": "아버지는 올해 마흔이에요.",
+      "example_vi": "Bố tôi năm nay bốn mươi tuổi.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:87909",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "모든",
+      "pos": "X",
+      "meaning_vi": "Tất cả, mọi",
+      "note_vi": "Luôn đứng trước danh từ: 모든 사람 «mọi người».",
+      "example_ko": "모든 사람이 그 노래를 알아요.",
+      "example_vi": "Mọi người đều biết bài hát đó.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:70813",
+      "collocations": [
+        {
+          "ko": "모든 것",
+          "vi": "Tất cả mọi thứ"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "번째",
+      "pos": "N",
+      "meaning_vi": "Thứ … (lần thứ, cái thứ)",
+      "note_vi": "Số thuần Hàn + 번째: 첫 번째, 두 번째, 세 번째.",
+      "example_ko": "한국에 두 번째 왔어요.",
+      "example_vi": "Đây là lần thứ hai tôi đến Hàn Quốc.",
+      "family": "🟢 Nền · Từ sơ cấp · Đơn vị đếm",
+      "priority": "core",
+      "source": "krdict:59074",
+      "hanja": "番",
+      "collocations": [
+        {
+          "ko": "몇 번째",
+          "vi": "Thứ mấy"
+        },
+        {
+          "ko": "세 번째",
+          "vi": "Thứ ba"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "phiên"
+    },
+    {
+      "hangul": "상자",
+      "pos": "N",
+      "meaning_vi": "Hộp, thùng",
+      "note_vi": "Cũng làm đơn vị đếm: 사과 한 상자 «một thùng táo».",
+      "example_ko": "사과 한 상자를 샀어요.",
+      "example_vi": "Tôi đã mua một thùng táo.",
+      "family": "🟢 Nền · Từ sơ cấp · Đơn vị đếm",
+      "priority": "core",
+      "source": "krdict:62801",
+      "hanja": "箱子",
+      "collocations": [
+        {
+          "ko": "종이 상자",
+          "vi": "Thùng giấy"
+        },
+        {
+          "ko": "상자를 열다",
+          "vi": "Mở hộp"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "tương tử"
+    },
+    {
+      "hangul": "서너",
+      "pos": "X",
+      "meaning_vi": "Ba bốn (khoảng 3–4)",
+      "note_vi": "Đứng trước đơn vị đếm: 서너 개, 서너 명.",
+      "example_ko": "서너 시간쯤 걸려요.",
+      "example_vi": "Mất khoảng ba bốn tiếng.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:44821",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "서넛",
+      "pos": "N",
+      "meaning_vi": "Ba bốn (khoảng 3–4 cái, người)",
+      "example_ko": "손님이 서넛 있어요.",
+      "example_vi": "Có ba bốn vị khách.",
+      "pron": "[서넏]",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "recognize",
+      "source": "krdict:62670",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "세",
+      "pos": "X",
+      "meaning_vi": "Ba (trước danh từ, đơn vị đếm)",
+      "note_vi": "셋 đứng trước đơn vị đếm thành 세: 세 개, 세 시, 세 살.",
+      "example_ko": "우리 아이는 세 살이에요.",
+      "example_vi": "Con tôi ba tuổi.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:17194",
+      "collocations": [
+        {
+          "ko": "세 사람",
+          "vi": "Ba người"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "셋째",
+      "pos": "N",
+      "meaning_vi": "Thứ ba (thứ tự); con thứ ba",
+      "example_ko": "셋째 날에 바다에 갔어요.",
+      "example_vi": "Ngày thứ ba chúng tôi đi biển.",
+      "pron": "[섿째]",
+      "family": "🟢 Nền · Từ sơ cấp · Thứ tự",
+      "priority": "core",
+      "source": "krdict:71140",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "쉰",
+      "pos": "N",
+      "meaning_vi": "Năm mươi (số thuần Hàn)",
+      "example_ko": "어머니는 올해 쉰이세요.",
+      "example_vi": "Mẹ tôi năm nay năm mươi tuổi.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:93500",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "스무",
+      "pos": "X",
+      "meaning_vi": "Hai mươi (trước đơn vị đếm)",
+      "note_vi": "스물 đứng trước đơn vị đếm thành 스무: 스무 살, 스무 명.",
+      "example_ko": "저는 스무 살이에요.",
+      "example_vi": "Tôi hai mươi tuổi.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:17822",
+      "collocations": [
+        {
+          "ko": "스무 명",
+          "vi": "Hai mươi người"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "시작",
+      "pos": "N",
+      "meaning_vi": "Sự bắt đầu, khởi đầu",
+      "example_ko": "시작이 반이에요.",
+      "example_vi": "Bắt đầu là đã xong một nửa.",
+      "family": "🟢 Nền · Từ sơ cấp · Thứ tự",
+      "priority": "core",
+      "source": "krdict:36687",
+      "hanja": "始作",
+      "collocations": [
+        {
+          "ko": "수업 시작",
+          "vi": "Giờ vào học"
+        },
+        {
+          "ko": "새로운 시작",
+          "vi": "Khởi đầu mới"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "thủy tác"
+    },
+    {
+      "hangul": "시작되다",
+      "pos": "V",
+      "meaning_vi": "Được bắt đầu, bắt đầu",
+      "note_vi": "N이/가 시작되다 (tự bắt đầu). Còn N을/를 시작하다 là người chủ động bắt đầu.",
+      "example_ko": "수업이 아홉 시에 시작돼요.",
+      "example_vi": "Lớp học bắt đầu lúc chín giờ.",
+      "pron": "[시작뙤다]",
+      "family": "🟢 Nền · Từ sơ cấp · Thứ tự",
+      "priority": "recognize",
+      "source": "krdict:66566",
+      "hanja": "始作",
+      "collocations": [
+        {
+          "ko": "수업이 시작되다",
+          "vi": "Lớp học bắt đầu"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "thủy tác"
+    },
+    {
+      "hangul": "시작하다",
+      "pos": "V",
+      "meaning_vi": "Bắt đầu",
+      "note_vi": "N을/를 시작하다; V-기 시작하다 «bắt đầu làm V».",
+      "example_ko": "작년부터 한국어를 시작했어요.",
+      "example_vi": "Tôi bắt đầu học tiếng Hàn từ năm ngoái.",
+      "pron": "[시자카다]",
+      "family": "🟢 Nền · Từ sơ cấp · Thứ tự",
+      "priority": "core",
+      "source": "krdict:66567",
+      "hanja": "始作",
+      "enrich": "auto",
+      "sino_vietnamese": "thủy tác"
+    },
+    {
+      "hangul": "아흔",
+      "pos": "N",
+      "meaning_vi": "Chín mươi (số thuần Hàn)",
+      "example_ko": "할머니는 아흔이 넘으셨어요.",
+      "example_vi": "Bà tôi đã ngoài chín mươi.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "recognize",
+      "source": "krdict:93507",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "여든",
+      "pos": "N",
+      "meaning_vi": "Tám mươi (số thuần Hàn)",
+      "example_ko": "할아버지는 여든이세요.",
+      "example_vi": "Ông tôi tám mươi tuổi.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "recognize",
+      "source": "krdict:93503",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "여러",
+      "pos": "X",
+      "meaning_vi": "Nhiều, các",
+      "note_vi": "Đứng trước danh từ: 여러 가지 «nhiều loại», 여러 번 «nhiều lần».",
+      "example_ko": "여러 나라에서 친구들이 왔어요.",
+      "example_vi": "Bạn bè đến từ nhiều nước.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:17300",
+      "collocations": [
+        {
+          "ko": "여러 가지",
+          "vi": "Nhiều loại"
+        },
+        {
+          "ko": "여러 곳",
+          "vi": "Nhiều nơi"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "예순",
+      "pos": "N",
+      "meaning_vi": "Sáu mươi (số thuần Hàn)",
+      "example_ko": "아버지는 예순이 되셨어요.",
+      "example_vi": "Bố tôi đã sáu mươi tuổi.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "recognize",
+      "source": "krdict:87910",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "우선하다",
+      "pos": "V",
+      "meaning_vi": "Được ưu tiên, đặt lên trước",
+      "note_vi": "Trạng từ 우선 «trước hết» dùng nhiều hơn: 우선 밥부터 먹어요.",
+      "example_ko": "안전이 무엇보다 우선해요.",
+      "example_vi": "An toàn được đặt lên trên hết.",
+      "family": "🟢 Nền · Từ sơ cấp · Thứ tự",
+      "priority": "recognize",
+      "source": "krdict:69475",
+      "hanja": "優先",
+      "enrich": "auto",
+      "sino_vietnamese": "ưu tiên"
+    },
+    {
+      "hangul": "이전",
+      "pos": "N",
+      "meaning_vi": "Trước đây, trước kia",
+      "note_vi": "N 이전: 열 시 이전 «trước mười giờ». Trái nghĩa: 이후.",
+      "example_ko": "이전에 여기에 와 봤어요.",
+      "example_vi": "Trước đây tôi đã từng đến đây.",
+      "family": "🟢 Nền · Từ sơ cấp · Thứ tự",
+      "priority": "core",
+      "source": "krdict:70752",
+      "hanja": "以前",
+      "collocations": [
+        {
+          "ko": "이전에 만나다",
+          "vi": "Đã gặp trước đây"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "dĩ tiền"
+    },
+    {
+      "hangul": "일흔",
+      "pos": "N",
+      "meaning_vi": "Bảy mươi (số thuần Hàn)",
+      "example_ko": "할머니는 일흔이세요.",
+      "example_vi": "Bà tôi bảy mươi tuổi.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "recognize",
+      "source": "krdict:68745",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "주일",
+      "pos": "N",
+      "meaning_vi": "Tuần (đơn vị)",
+      "note_vi": "Đứng sau số: 이 주일 «hai tuần». Thường nói 일주일, 주.",
+      "example_ko": "두 주일 동안 휴가예요.",
+      "example_vi": "Tôi được nghỉ phép hai tuần.",
+      "family": "🟢 Nền · Từ sơ cấp · Đơn vị đếm",
+      "priority": "recognize",
+      "source": "krdict:90850",
+      "hanja": "週日",
+      "enrich": "auto",
+      "sino_vietnamese": "chu nhật"
+    },
+    {
+      "hangul": "짝",
+      "pos": "N",
+      "meaning_vi": "Đôi, cặp; chiếc (trong một đôi)",
+      "note_vi": "Cũng là «bạn cùng cặp, bạn ngồi cùng bàn».",
+      "example_ko": "양말 한 짝이 없어요.",
+      "example_vi": "Mất một chiếc tất rồi.",
+      "family": "🟢 Nền · Từ sơ cấp · Đơn vị đếm",
+      "priority": "recognize",
+      "source": "krdict:37141",
+      "collocations": [
+        {
+          "ko": "짝을 맞추다",
+          "vi": "Ghép đôi"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "첫",
+      "pos": "X",
+      "meaning_vi": "Đầu tiên, thứ nhất",
+      "note_vi": "Đứng trước danh từ: 첫 만남 «lần gặp đầu», 첫눈 «tuyết đầu mùa».",
+      "example_ko": "오늘 첫 출근을 했어요.",
+      "example_vi": "Hôm nay là ngày đi làm đầu tiên.",
+      "pron": "[첟]",
+      "family": "🟢 Nền · Từ sơ cấp · Thứ tự",
+      "priority": "core",
+      "source": "krdict:77610",
+      "collocations": [
+        {
+          "ko": "첫 만남",
+          "vi": "Lần gặp đầu tiên"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "첫째",
+      "pos": "N",
+      "meaning_vi": "Thứ nhất; con đầu",
+      "example_ko": "첫째, 매일 단어를 외우세요.",
+      "example_vi": "Thứ nhất, hãy học thuộc từ mỗi ngày.",
+      "pron": "[첟째]",
+      "family": "🟢 Nền · Từ sơ cấp · Thứ tự",
+      "priority": "core",
+      "source": "krdict:17313",
+      "collocations": [
+        {
+          "ko": "첫째로 중요하다",
+          "vi": "Quan trọng hàng đầu"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "통",
+      "pos": "N",
+      "meaning_vi": "Quả, cây (đếm dưa, bắp cải)",
+      "note_vi": "Đếm nguyên quả, nguyên cây: 수박 한 통, 배추 두 통.",
+      "example_ko": "수박 한 통에 얼마예요?",
+      "example_vi": "Một quả dưa hấu bao nhiêu tiền?",
+      "family": "🟢 Nền · Từ sơ cấp · Đơn vị đếm",
+      "priority": "recognize",
+      "source": "krdict:81468",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "한",
+      "pos": "X",
+      "meaning_vi": "Một (trước danh từ, đơn vị đếm)",
+      "note_vi": "하나 đứng trước đơn vị đếm thành 한: 한 개, 한 시, 한 명.",
+      "example_ko": "물 한 잔 주세요.",
+      "example_vi": "Cho tôi một cốc nước.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:73278",
+      "collocations": [
+        {
+          "ko": "한 사람",
+          "vi": "Một người"
+        },
+        {
+          "ko": "밥 한 그릇",
+          "vi": "Một bát cơm"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "한두",
+      "pos": "X",
+      "meaning_vi": "Một hai (vài)",
+      "note_vi": "Đứng trước đơn vị đếm: 한두 개, 한두 번.",
+      "example_ko": "한두 시간만 기다리세요.",
+      "example_vi": "Hãy chờ một hai tiếng thôi.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:72433",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "한둘",
+      "pos": "N",
+      "meaning_vi": "Một hai (vài cái, vài người)",
+      "example_ko": "아는 사람이 한둘 있어요.",
+      "example_vi": "Có một hai người quen.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "recognize",
+      "source": "krdict:72435",
+      "enrich": "auto"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Sau bài này bạn làm được gì",
+      "kind": "goal",
+      "body": "• Đếm đồ vật, người, tuổi bằng số thuần Hàn: `커피 두 잔`, `스무 살`.\n• Nói giờ với cả hai hệ số: `세 시 십오 분`, `세 시 반`."
+    },
+    {
+      "title": "Giờ, ngày, tháng, thứ",
+      "kind": "language",
+      "body": "• **Giờ:** thuần Hàn + `시`, phút Hán-Hàn + `분`: `세 시 십오 분` (3:15). `반` là 30 phút: `세 시 반`. `오전` (đến trưa) / `오후` (từ trưa): `오후 세 시`.\n• **Giờ khác tiếng:** `두 시` = 2 giờ (thời điểm), `두 시간` = 2 tiếng (khoảng thời gian). Hỏi: `몇 시예요?` (mấy giờ) / `몇 시간 걸려요?` (mất mấy tiếng).\n• **Ngày tháng:** thứ tự LỚN → NHỎ: `2026년 10월 10일` = `이천이십육 년 시월 십 일`, khác tiếng Việt (ngày/tháng/năm). Hỏi: `몇 월 며칠이에요?`.\n• **Thứ:** 월 화 수 목 금 토 일 + `요일` = thứ hai đến chủ nhật. Hỏi: `무슨 요일이에요?` (không dùng 몇 요일).\n• **Mốc thời gian** nhận `에` khi cụ thể (`세 시에`, `월요일에`, `시월에`), không nhận `에` khi tính từ hôm nay (`오늘`, `어제`, `내일`, `지금`, `매일`)."
+    }
+  ],
+  "coach": {
+    "focus_vi": [
+      "Số thuần Hàn + `시 · 개 · 명 · 살 · 잔 · 권 · 마리 · 번`."
+    ],
+    "watch_out_vi": [
+      "Trước đơn vị: `하나 → 한`, `둘 → 두`, `셋 → 세`, `넷 → 네`, `스물 → 스무`.",
+      "Một giờ dùng cả hai hệ: `3시 10분` đọc là `세 시 십 분`; `두 시` là 2 giờ, `두 시간` là 2 tiếng."
+    ],
+    "notebook_vi": [
+      "Bảng đơn vị đếm → hệ số đi kèm (tự điền)."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Đọc to giờ bây giờ, tuổi của bạn và số người trong nhà."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "pattern": "Số thuần Hàn (하나 · 둘 · 셋) + 시 · 개 · 명 · 살 · 잔 · 권 · 마리 · 번",
+      "meaning_vi": "Số thuần Hàn: giờ, tuổi, đếm người và đồ vật (đổi 한, 두, 세, 네, 스무 trước đơn vị)",
+      "usage_context_vi": "**Cấu tạo:** Số thuần Hàn có chữ số riêng cho từng số từ 1 đến 10 và cho các số tròn chục. Ghép từ 11: `열하나`, `열둘`, `스물다섯`.\n- **1 – 5:** 1 `하나` · 2 `둘` · 3 `셋` · 4 `넷` · 5 `다섯`\n- **6 – 10:** 6 `여섯` · 7 `일곱` · 8 `여덟` · 9 `아홉` · 10 `열`\n- **Số tròn chục:** 20 `스물` · 30 `서른` · 40 `마흔` · 50 `쉰`\n**Trước đơn vị đếm**, năm số đổi dạng:\n- `하나` → `한`: `한 잔` (một ly)\n- `둘` → `두`: `두 명` (hai người)\n- `셋` → `세`: `세 시` (ba giờ)\n- `넷` → `네`: `네 개` (bốn cái)\n- `스물` → `스무`: `스무 살` (20 tuổi)\nChỉ đổi khi là chữ số cuối: `스물한 살`, `열두 명`, `서른세 개`. Các số khác giữ nguyên: `다섯 시`, `열 개`, `서른 살`.\nTrật tự câu: danh từ + (tiểu từ) + số + đơn vị: `커피를 두 잔 마셔요`, `학생이 세 명 있어요`.\n**Hoàn cảnh dùng:** (1) GIỜ: `한 시`, `두 시`… `열두 시` (phút dùng Hán-Hàn: `세 시 십오 분`). (2) ĐẾM VẬT, NGƯỜI, LY, SÁCH, CON VẬT: `개`, `명`, `잔`, `권`, `병`, `마리`. (3) TUỔI nói: `스물일곱 살`. (4) SỐ LẦN: `한 번`, `두 번`. Hỏi bằng `몇` + đơn vị: `몇 시`, `몇 명`, `몇 개`, `몇 살`.\n**Vì sao phải đổi 하나 → 한, 둘 → 두…:** Năm số này đổi dạng khi đứng ngay trước đơn vị đếm (cách nói đã cố định trong tiếng Hàn chuẩn). Đứng một mình (khi đếm số) vẫn là `하나, 둘, 셋, 넷, 스물`. Nhớ nhanh bằng câu 'một ly = 한 잔, hai người = 두 명, ba giờ = 세 시, bốn cái = 네 개, 20 tuổi = 스무 살'.",
+      "contrasts": [
+        {
+          "pattern": "Số Hán-Hàn + 분 · 월 · 원",
+          "diff_vi": "Phút, tháng, tiền luôn là Hán-Hàn (`십오 분`, `삼 월`, `오천 원`)."
+        },
+        {
+          "pattern": "개월 và 달",
+          "diff_vi": "Cùng nghĩa 'tháng (khoảng thời gian)': `삼 개월` (Hán-Hàn) = `세 달` (thuần Hàn)."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng số Hán-Hàn cho đơn vị đếm vật/người: ✗ `일 개`, `이 명`, `삼 시` → `한 개`, `두 명`, `세 시`.\n(2) Không đổi dạng trước đơn vị: ✗ `하나 개`, `둘 명`, `셋 잔` → `한 개`, `두 명`, `세 잔`.\n(3) Nhầm `스물` và `스무`: ✗ `스물 살`, `스물 개` → `스무 살`, `스무 개`; nhưng `스물한 살` đúng.\n(4) Đặt số trước danh từ như tiếng Việt: ✗ `두 커피를 마셔요` → `커피를 두 잔 마셔요`.\n(5) Dùng `넷`, `셋` trước đơn vị: ✗ `넷 시`, `셋 개` → `네 시`, `세 개`.\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc và nhãn kỳ thi đối chiếu với KIIP 초급1 5·8과 (날짜·요일·가격) · New Yonsei Korean 1-1 (6과 숫자·시간, 8과 요일·날짜) · 표준국어대사전 (스무).",
+      "topik_tip_vi": "Phần Đọc và Nghe TOPIK I hay cho 'giờ + số người + số lượng'. Phân biệt `두 시` (2 giờ) và `두 시간` (2 tiếng), `한 시` (1 giờ) và `한 시간` (1 tiếng); một chữ `간` làm đổi nghĩa.",
+      "example_ko": "저는 커피를 두 잔 마셔요.\n방에 사람이 열두 명 있어요.\n저는 스물일곱 살이에요.\n사과 한 개하고 책 세 권을 샀어요.\n강아지가 두 마리 있어요.\n지금 일곱 시예요.",
+      "example_vi": "Tôi uống hai ly cà phê.\nTrong phòng có mười hai người.\nTôi 27 tuổi.\nTôi đã mua một quả táo và ba quyển sách.\nTôi có hai con chó.\nBây giờ là 7 giờ.",
+      "source": "KIIP 초급1 5·8과 (날짜·요일·가격) · New Yonsei Korean 1-1 (6과 숫자·시간, 8과 요일·날짜) · 표준국어대사전 (스무)",
+      "exam": "kiip-1",
+      "importance": "must"
+    }
+  ],
+  "editor_notes": [],
+  "exercise_ids": [
+    "FLN46",
+    "FLN47",
+    "FLN50",
+    "FLN52",
+    "FLN53",
+    "FR92",
+    "FR93",
+    "FR94",
+    "FR95",
+    "FR96",
+    "FR97",
+    "FR98",
+    "FR99",
+    "FR100",
+    "FR109",
+    "FBO18",
+    "FBO19",
+    "FBO22",
+    "FBO23",
+    "FBF16",
+    "FBF18",
+    "FBF19",
+    "FBE04",
+    "FS07",
+    "FS08",
+    "FSL05"
+  ],
+  "sort_order": 13,
+  "split_from": "sinh-hoat-00-nen-tang-4-so-gio-ngay",
+  "sessions": [
+    {
+      "title_vi": "Đếm và nói tuổi (하나, 둘, 셋… 살)",
+      "can_do_vi": "Đếm một đến mười, hai mươi và các chục (서른, 마흔…), biết 하나, 둘, 셋, 넷, 스물 đổi thành 한, 두, 세, 네, 스무 trước đơn vị đếm; nói tuổi: «스물다섯 살이에요».",
+      "use_vi": "Nói và hỏi tuổi; đếm trên đầu ngón tay như người Hàn.",
+      "topik_vi": "Giống dạng nghe số ở phần Nghe TOPIK I (tuổi, số lượng) và dạng điền dạng rút gọn (두, 세, 스무) ở phần Đọc.",
+      "vocab": [
+        "하나",
+        "둘",
+        "셋",
+        "넷",
+        "다섯",
+        "여섯",
+        "일곱",
+        "여덟",
+        "아홉",
+        "열",
+        "스물",
+        "서른",
+        "살",
+        "한",
+        "두",
+        "세",
+        "스무",
+        "마흔",
+        "쉰",
+        "예순",
+        "일흔",
+        "여든",
+        "아흔"
+      ],
+      "grammar": [
+        "Số thuần Hàn (하나 · 둘 · 셋) + 시 · 개 · 명 · 살 · 잔 · 권 · 마리 · 번"
+      ],
+      "check": [
+        "FLN47",
+        "FLN53",
+        "FR96",
+        "FBO22"
+      ],
+      "situation": {
+        "scene_vi": "Hai người hỏi tuổi nhau.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "몇 살이에요?",
+            "vi": "Bạn bao nhiêu tuổi?"
+          },
+          {
+            "who": "B",
+            "ko": "스물다섯 살이에요.",
+            "vi": "Tôi 25 tuổi."
+          },
+          {
+            "who": "A",
+            "ko": "저는 서른 살이에요.",
+            "vi": "Tôi 30 tuổi."
+          },
+          {
+            "who": "B",
+            "ko": "아, 그렇군요.",
+            "vi": "À, ra vậy."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "몇 살이에요? (22 tuổi)",
+          "prompt_vi": "Bạn bao nhiêu tuổi?",
+          "options": [
+            {
+              "ko": "스물두 살이에요.",
+              "vi": "Tôi 22 tuổi.",
+              "ok": true,
+              "why_vi": "Tuổi dùng số thuần Hàn: 스물 + 두 = 스물두."
+            },
+            {
+              "ko": "이십이 살이에요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Tuổi (살) đi với số thuần Hàn, không dùng 이십이."
+            },
+            {
+              "ko": "스물이 두 살이에요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Số ghép liền, không thêm 이/가 ở giữa."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn 20 tuổi. Cách nào đúng?",
+          "a": {
+            "ko": "스무 살",
+            "vi": "20 tuổi"
+          },
+          "b": {
+            "ko": "스물 살",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "Khi đứng trước đơn vị đếm, 스물 đổi thành 스무."
+        }
+      }
+    },
+    {
+      "title_vi": "Đếm người và đồ vật (명, 개, 잔, 권…)",
+      "can_do_vi": "Đếm người, vật theo đơn vị: «학생이 한 명», «커피 두 잔», «책 네 권», «사과 열한 개», và nói số lượng ước chừng («두세 개»).",
+      "use_vi": "Gọi món («커피 두 잔 주세요»), mua đồ, nói số người khi đặt bàn.",
+      "topik_vi": "Giống dạng nghe chọn nội dung trùng khớp ở phần Nghe TOPIK I và dạng điền đơn vị đếm ở phần Đọc.",
+      "vocab": [
+        "개",
+        "명",
+        "잔",
+        "권",
+        "병",
+        "마리",
+        "번",
+        "그루",
+        "대",
+        "번째",
+        "상자",
+        "주일",
+        "짝",
+        "통",
+        "두세",
+        "두셋",
+        "서너",
+        "서넛",
+        "한두",
+        "한둘",
+        "네다섯",
+        "모든",
+        "여러",
+        "각각"
+      ],
+      "grammar": [],
+      "check": [
+        "FR92",
+        "FR95",
+        "FR97",
+        "FR98",
+        "FLN52",
+        "FBO19",
+        "FBO23"
+      ],
+      "situation": {
+        "scene_vi": "Hai người đếm đồ ăn thức uống.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "커피를 몇 잔 마셔요?",
+            "vi": "Bạn uống mấy cốc cà phê?"
+          },
+          {
+            "who": "B",
+            "ko": "두 잔 마셔요.",
+            "vi": "Tôi uống 2 cốc."
+          },
+          {
+            "who": "A",
+            "ko": "책은 몇 권 있어요?",
+            "vi": "Bạn có mấy quyển sách?"
+          },
+          {
+            "who": "B",
+            "ko": "세 권 있어요.",
+            "vi": "Tôi có 3 quyển."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "학생이 몇 명 있어요?",
+          "prompt_vi": "Có mấy học sinh? (3 người)",
+          "options": [
+            {
+              "ko": "세 명 있어요.",
+              "vi": "Có 3 người.",
+              "ok": true,
+              "why_vi": "Đếm người dùng 명 với số thuần Hàn, 셋 đổi thành 세."
+            },
+            {
+              "ko": "삼 명 있어요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Đếm người dùng số thuần Hàn, không dùng 삼."
+            },
+            {
+              "ko": "세 개 있어요.",
+              "vi": "Có 3 cái.",
+              "ok": false,
+              "why_vi": "개 đếm vật. Người đếm bằng 명."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «2 cốc cà phê». Cách nào đúng?",
+          "a": {
+            "ko": "커피 두 잔",
+            "vi": "Hai cốc cà phê"
+          },
+          "b": {
+            "ko": "커피 이 잔",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "Đơn vị đếm như 잔 đi với số thuần Hàn: 한, 두, 세…"
+        }
+      }
+    },
+    {
+      "title_vi": "Giờ giấc (시, 반, 오전, 오후)",
+      "can_do_vi": "Nói giờ: «세 시 십오 분», «세 시 반», «오전 아홉 시»; kết hợp số thuần Hàn cho giờ và số Hán-Hàn cho phút.",
+      "use_vi": "Hẹn giờ, đọc thời khóa biểu, hỏi giờ tàu xe.",
+      "topik_vi": "Giống dạng nghe giờ ở phần Nghe TOPIK I (rất hay ra) và dạng điền vào chỗ trống chọn «시 hay 분».",
+      "vocab": [
+        "시",
+        "반",
+        "오전",
+        "오후",
+        "내일",
+        "아침",
+        "점심"
+      ],
+      "grammar": [],
+      "check": [
+        "FR93",
+        "FR94",
+        "FLN46",
+        "FLN50",
+        "FR109",
+        "FBO18"
+      ],
+      "situation": {
+        "scene_vi": "Hai người hẹn giờ.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "지금 몇 시예요?",
+            "vi": "Bây giờ mấy giờ?"
+          },
+          {
+            "who": "B",
+            "ko": "오후 세 시 반이에요.",
+            "vi": "3 giờ rưỡi chiều."
+          },
+          {
+            "who": "A",
+            "ko": "몇 시에 점심을 먹어요?",
+            "vi": "Mấy giờ bạn ăn trưa?"
+          },
+          {
+            "who": "B",
+            "ko": "열두 시 반에 먹어요.",
+            "vi": "Tôi ăn lúc 12 giờ rưỡi."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "몇 시에 만나요?",
+          "prompt_vi": "Mấy giờ mình gặp nhau? (2 giờ)",
+          "options": [
+            {
+              "ko": "두 시에 만나요.",
+              "vi": "Gặp lúc 2 giờ.",
+              "ok": true,
+              "why_vi": "Giờ (시) dùng số thuần Hàn: 두 시."
+            },
+            {
+              "ko": "이 시에 만나요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Giờ dùng số thuần Hàn, không dùng 이."
+            },
+            {
+              "ko": "두 분에 만나요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "분 là phút, giờ phải dùng 시."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «3 giờ rưỡi chiều». Cách nào đúng?",
+          "a": {
+            "ko": "오후 세 시 반",
+            "vi": "3 giờ rưỡi chiều"
+          },
+          "b": {
+            "ko": "오후 삼 시 반",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "Giờ dùng số thuần Hàn: 세 시. Phút dùng số Hán-Hàn."
+        }
+      }
+    },
+    {
+      "title_vi": "Thứ tự: đầu tiên, tiếp theo, cuối cùng",
+      "can_do_vi": "Nói thứ tự và trình tự: 첫째, 둘째, 첫 번째, 다음, 마지막, 이전, 그다음, và nói «bắt đầu» (시작하다).",
+      "use_vi": "Chỉ thứ tự trong hướng dẫn («đầu tiên… tiếp theo… cuối cùng»), nói «lần đầu tiên» khi tự giới thiệu.",
+      "vocab": [
+        "그다음",
+        "그담",
+        "나중",
+        "넷째",
+        "다섯째",
+        "다시",
+        "다음",
+        "둘째",
+        "마지막",
+        "셋째",
+        "시작",
+        "시작되다",
+        "시작하다",
+        "우선하다",
+        "이전",
+        "첫",
+        "첫째"
+      ],
+      "grammar": [],
+      "check": [
+        "FS07",
+        "FS08",
+        "FSL05",
+        "FR100"
+      ],
+      "situation": {
+        "scene_vi": "Hai người kể trình tự việc làm.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "먼저 뭐 해요?",
+            "vi": "Trước tiên bạn làm gì?"
+          },
+          {
+            "who": "B",
+            "ko": "먼저 밥을 먹어요.",
+            "vi": "Trước tiên tôi ăn cơm."
+          },
+          {
+            "who": "A",
+            "ko": "그다음에는요?",
+            "vi": "Sau đó thì sao?"
+          },
+          {
+            "who": "B",
+            "ko": "그다음에 공부해요. 마지막에 자요.",
+            "vi": "Sau đó tôi học. Cuối cùng tôi ngủ."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "먼저 뭐 해요?",
+          "prompt_vi": "Trước tiên bạn làm gì?",
+          "options": [
+            {
+              "ko": "먼저 밥을 먹어요.",
+              "vi": "Trước tiên tôi ăn cơm.",
+              "ok": true,
+              "why_vi": "먼저 = «trước tiên», mở đầu thứ tự."
+            },
+            {
+              "ko": "마지막으로 밥을 먹어요.",
+              "vi": "Cuối cùng tôi ăn cơm.",
+              "ok": false,
+              "why_vi": "마지막 là «cuối cùng», không khớp «trước tiên»."
+            },
+            {
+              "ko": "마지막 밥을 먹어요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Thiếu trợ từ phù hợp, câu không tự nhiên."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «thứ nhất, thứ hai». Cách nào đúng?",
+          "a": {
+            "ko": "첫째, 둘째",
+            "vi": "Thứ nhất, thứ hai"
+          },
+          "b": {
+            "ko": "하나째, 두째",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "Thứ tự dùng 첫째, 둘째, 셋째 (không dùng 하나째)."
+        }
+      }
+    }
+  ]
+}

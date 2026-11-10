@@ -1,0 +1,491 @@
+{
+  "slug": "viet-nghi-luan-04-doan-van",
+  "title": "Viết 54 · Bài 4: Từ một ý thành đoạn văn 5 câu",
+  "title_ko": "쓰기 54번 ④: 한 단락 쓰기",
+  "topic": "Bổ trợ · Viết câu 54 từ con số 0",
+  "track": "intermediate",
+  "level": 4,
+  "sort_order": 57,
+  "summary": "Bài thứ tư của khoá «Viết câu 54 từ con số 0»: biến MỘT ý thành một đoạn thân bài khoảng 150 chữ bằng công thức 5 câu Ý – Vì sao – Ví dụ – Kết quả – Nối. Học các từ nối theo chức năng, `-기 때문이다`, `(으)로 인해`, `N의 경우` và `그 결과`.",
+  "vocab": [
+    {
+      "hangul": "먼저",
+      "pos": "X",
+      "meaning_vi": "Trước hết",
+      "note_vi": "Mở đoạn thân bài thứ nhất.",
+      "example_ko": "먼저 시간 면에서 장점이 있다.",
+      "example_vi": "Trước hết, về mặt thời gian có ưu điểm.",
+      "family": "🟢 Nền · Từ nối theo chức năng",
+      "priority": "core"
+    },
+    {
+      "hangul": "또한",
+      "pos": "X",
+      "meaning_vi": "Ngoài ra, cũng",
+      "note_vi": "Thêm một ý cùng chiều.",
+      "example_ko": "또한 비용 부담도 줄일 수 있다.",
+      "example_vi": "Ngoài ra cũng giảm được gánh nặng chi phí.",
+      "family": "🟢 Nền · Từ nối theo chức năng",
+      "priority": "core"
+    },
+    {
+      "hangul": "게다가",
+      "pos": "X",
+      "meaning_vi": "Hơn nữa",
+      "note_vi": "Mạnh hơn `또한`; ý sau thường nặng hơn ý trước.",
+      "example_ko": "게다가 이동 시간도 필요하지 않다.",
+      "example_vi": "Hơn nữa không cần cả thời gian di chuyển.",
+      "family": "🟢 Nền · Từ nối theo chức năng",
+      "priority": "core"
+    },
+    {
+      "hangul": "특히",
+      "pos": "X",
+      "meaning_vi": "Đặc biệt là",
+      "example_ko": "특히 혼자 사는 사람에게 도움이 된다.",
+      "example_vi": "Đặc biệt có ích cho người sống một mình.",
+      "family": "🟢 Nền · Từ nối theo chức năng",
+      "priority": "core",
+      "hanja": "特",
+      "sino_vietnamese": "đặc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "예를 들어",
+      "pos": "X",
+      "meaning_vi": "Ví dụ",
+      "note_vi": "Đứng đầu câu ví dụ, theo sau là dấu phẩy hoặc đi liền chủ ngữ.",
+      "example_ko": "예를 들어 학생의 경우 집에서 수업을 들을 수 있다.",
+      "example_vi": "Ví dụ, trường hợp học sinh có thể học ở nhà.",
+      "family": "🟢 Nền · Từ nối theo chức năng",
+      "priority": "core"
+    },
+    {
+      "hangul": "그 결과",
+      "pos": "X",
+      "meaning_vi": "Kết quả là",
+      "note_vi": "Nối câu kết quả với câu nguyên nhân hoặc ví dụ trước.",
+      "example_ko": "그 결과 쓰레기가 빠르게 늘고 있다.",
+      "example_vi": "Kết quả là rác tăng nhanh.",
+      "family": "🟢 Nền · Từ nối theo chức năng",
+      "priority": "core"
+    },
+    {
+      "hangul": "따라서",
+      "pos": "X",
+      "meaning_vi": "Vì vậy, do đó",
+      "note_vi": "Trang trọng hơn `그래서`.",
+      "example_ko": "따라서 이 문제를 해결해야 한다.",
+      "example_vi": "Vì vậy phải giải quyết vấn đề này.",
+      "family": "🟢 Nền · Từ nối theo chức năng",
+      "priority": "core"
+    },
+    {
+      "hangul": "이 때문에",
+      "pos": "X",
+      "meaning_vi": "Vì lẽ đó",
+      "example_ko": "이 때문에 소비자의 부담이 커지고 있다.",
+      "example_vi": "Vì lẽ đó gánh nặng của người tiêu dùng đang tăng.",
+      "family": "🟢 Nền · Từ nối theo chức năng",
+      "priority": "core"
+    },
+    {
+      "hangul": "반면에",
+      "pos": "X",
+      "meaning_vi": "Ngược lại, trong khi đó",
+      "note_vi": "Đối lập hai đối tượng hoặc hai mặt.",
+      "example_ko": "반면에 노인에게는 어려울 수 있다.",
+      "example_vi": "Ngược lại, có thể khó với người già.",
+      "family": "🟢 Nền · Từ nối theo chức năng",
+      "priority": "core"
+    },
+    {
+      "hangul": "한편",
+      "pos": "X",
+      "meaning_vi": "Mặt khác",
+      "note_vi": "Chuyển sang một phương diện khác, chưa chắc đối lập.",
+      "example_ko": "한편 개인의 노력도 필요하다.",
+      "example_vi": "Mặt khác nỗ lực của cá nhân cũng cần.",
+      "family": "🟢 Nền · Từ nối theo chức năng",
+      "priority": "recognize",
+      "hanja": "便",
+      "sino_vietnamese": "tiện",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이처럼",
+      "pos": "X",
+      "meaning_vi": "Như vậy",
+      "note_vi": "Mở câu tóm tắt cuối đoạn.",
+      "example_ko": "이처럼 작은 노력이 큰 변화를 만든다.",
+      "example_vi": "Như vậy, nỗ lực nhỏ tạo nên thay đổi lớn.",
+      "family": "🟢 Nền · Từ nối theo chức năng",
+      "priority": "core"
+    },
+    {
+      "hangul": "결국",
+      "pos": "X",
+      "meaning_vi": "Rốt cuộc",
+      "example_ko": "결국 문제의 해결은 우리의 선택에 달려 있다.",
+      "example_vi": "Rốt cuộc, việc giải quyết vấn đề phụ thuộc vào lựa chọn của chúng ta.",
+      "family": "🟢 Nền · Từ nối theo chức năng",
+      "priority": "core",
+      "hanja": "結局",
+      "sino_vietnamese": "kết cục",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "즉",
+      "pos": "X",
+      "meaning_vi": "Tức là",
+      "note_vi": "Giải thích lại ý trước bằng lời khác.",
+      "example_ko": "즉 비용이 늘어난다는 뜻이다.",
+      "example_vi": "Tức là có nghĩa chi phí tăng.",
+      "family": "🟢 Nền · Từ nối theo chức năng",
+      "priority": "recognize",
+      "hanja": "卽",
+      "sino_vietnamese": "tức",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "물론",
+      "pos": "X",
+      "meaning_vi": "Tất nhiên",
+      "note_vi": "`물론 … 그러나 …` nhận cái đúng của phía kia rồi bác lại.",
+      "example_ko": "물론 장점도 있다. 그러나 문제도 있다.",
+      "example_vi": "Tất nhiên có ưu điểm. Nhưng cũng có vấn đề.",
+      "family": "🟢 Nền · Từ nối theo chức năng",
+      "priority": "core",
+      "hanja": "勿論",
+      "sino_vietnamese": "vật luận",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "우선",
+      "pos": "X",
+      "meaning_vi": "Trước tiên",
+      "note_vi": "Gần nghĩa `먼저`.",
+      "example_ko": "우선 시간 문제부터 살펴보자.",
+      "example_vi": "Trước tiên hãy xem vấn đề thời gian.",
+      "family": "🟢 Nền · Từ nối theo chức năng",
+      "priority": "recognize",
+      "hanja": "于先",
+      "sino_vietnamese": "vu tiên",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "경우",
+      "pos": "N",
+      "meaning_vi": "Trường hợp",
+      "example_ko": "학생의 경우 시간이 더 중요하다.",
+      "example_vi": "Trong trường hợp học sinh, thời gian quan trọng hơn.",
+      "family": "🟡 Dạng thi · Từ đi với lý do và ví dụ",
+      "priority": "core",
+      "hanja": "境遇",
+      "sino_vietnamese": "cảnh ngộ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "상황",
+      "pos": "N",
+      "meaning_vi": "Tình huống, hoàn cảnh",
+      "example_ko": "어려운 상황에서도 노력해야 한다.",
+      "example_vi": "Cả trong hoàn cảnh khó khăn cũng phải nỗ lực.",
+      "family": "🟡 Dạng thi · Từ đi với lý do và ví dụ",
+      "priority": "core",
+      "hanja": "狀況",
+      "sino_vietnamese": "trạng huống",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "현실",
+      "pos": "N",
+      "meaning_vi": "Thực tế",
+      "example_ko": "현실에서는 이용하기 어려운 사람도 많다.",
+      "example_vi": "Trong thực tế có nhiều người khó sử dụng.",
+      "family": "🟡 Dạng thi · Từ đi với lý do và ví dụ",
+      "priority": "core",
+      "hanja": "現實",
+      "sino_vietnamese": "hiện thực",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "대표적",
+      "pos": "N",
+      "meaning_vi": "Tiêu biểu",
+      "note_vi": "`대표적인 + N`; cụm: `예로 들 수 있다`.",
+      "example_ko": "대표적인 예로 배달 앱을 들 수 있다.",
+      "example_vi": "Ví dụ tiêu biểu là ứng dụng giao đồ ăn.",
+      "family": "🟡 Dạng thi · Từ đi với lý do và ví dụ",
+      "priority": "recognize",
+      "hanja": "代表的",
+      "sino_vietnamese": "đại biểu đích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "구체적",
+      "pos": "N",
+      "meaning_vi": "Cụ thể",
+      "example_ko": "구체적인 방법을 제시해야 한다.",
+      "example_vi": "Phải nêu phương pháp cụ thể.",
+      "family": "🟡 Dạng thi · Từ đi với lý do và ví dụ",
+      "priority": "recognize",
+      "hanja": "具體的",
+      "sino_vietnamese": "cụ thể đích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "일반적",
+      "pos": "N",
+      "meaning_vi": "Nói chung, phổ biến",
+      "note_vi": "`일반적으로` mở câu khái quát.",
+      "example_ko": "일반적으로 젊은 층이 많이 이용한다.",
+      "example_vi": "Nói chung giới trẻ dùng nhiều.",
+      "family": "🟡 Dạng thi · Từ đi với lý do và ví dụ",
+      "priority": "recognize",
+      "hanja": "一般的",
+      "sino_vietnamese": "nhất ban đích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "주로",
+      "pos": "X",
+      "meaning_vi": "Chủ yếu",
+      "example_ko": "이 앱은 주로 젊은 층이 이용한다.",
+      "example_vi": "Ứng dụng này chủ yếu do giới trẻ dùng.",
+      "family": "🟡 Dạng thi · Từ đi với lý do và ví dụ",
+      "priority": "core",
+      "hanja": "主",
+      "sino_vietnamese": "chủ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "흔히",
+      "pos": "X",
+      "meaning_vi": "Thường gặp",
+      "example_ko": "흔히 볼 수 있는 문제이다.",
+      "example_vi": "Là vấn đề thường thấy.",
+      "family": "🟡 Dạng thi · Từ đi với lý do và ví dụ",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "이로 인해",
+      "pos": "X",
+      "meaning_vi": "Vì thế, do đó",
+      "note_vi": "Dạng viết tắt của `이것으로 인해`.",
+      "example_ko": "이로 인해 소음 문제가 생겼다.",
+      "example_vi": "Do đó nảy sinh vấn đề tiếng ồn.",
+      "family": "🟡 Dạng thi · Từ đi với lý do và ví dụ",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "이는",
+      "pos": "X",
+      "meaning_vi": "Điều này (mở câu lý do)",
+      "note_vi": "`이는 … -기 때문이다` là cặp mở – đóng của câu lý do.",
+      "example_ko": "이는 비용이 많이 들기 때문이다.",
+      "example_vi": "Điều này là vì tốn nhiều chi phí.",
+      "family": "🟡 Dạng thi · Từ đi với lý do và ví dụ",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "들다",
+      "pos": "V",
+      "meaning_vi": "Tốn (chi phí, thời gian)",
+      "note_vi": "`비용이 들다`, `시간이 들다`; khác `들다` (cầm).",
+      "example_ko": "시간이 많이 드는 일이다.",
+      "example_vi": "Là việc tốn nhiều thời gian.",
+      "family": "🟡 Dạng thi · Từ đi với lý do và ví dụ",
+      "priority": "core"
+    },
+    {
+      "hangul": "달려 있다",
+      "pos": "V",
+      "meaning_vi": "Phụ thuộc vào",
+      "note_vi": "`N에 달려 있다` = tuỳ thuộc vào N.",
+      "example_ko": "성공은 노력에 달려 있다.",
+      "example_vi": "Thành công phụ thuộc vào nỗ lực.",
+      "family": "🟡 Dạng thi · Từ đi với lý do và ví dụ",
+      "priority": "recognize"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V/A + -기 때문이다 · N + 때문이다",
+      "meaning_vi": "Là vì … (câu giải thích lý do)",
+      "usage_context_vi": "**Cấu tạo:** Gốc động từ/tính từ + `-기 때문이다`: 비싸다 → `비싸기 때문이다`. Quá khứ: `-았/었기 때문이다`. Danh từ + `때문이다`: `비용 때문이다`. Nối mệnh đề giữa câu: `-기 때문에`. Cặp thường dùng: `이는 …-기 때문이다` hoặc `왜냐하면 …-기 때문이다`.\n**Hoàn cảnh dùng:** Câu thứ hai của đoạn: sau câu ý chính, nêu **vì sao** bằng một câu riêng.\n**Vì sao chọn nó:** Câu 1 nêu kết luận, câu 2 nêu lý do và **kết thúc bằng `때문이다`** để người chấm thấy ngay mối nối logic. Nó đơn giản nhưng đúng văn viết hơn `-아/어서` (hay đứng giữa câu).",
+      "contrasts": [
+        {
+          "pattern": "-기 때문에",
+          "diff_vi": "Đứng **giữa câu**: `비싸기 때문에 부담이 된다`. Cuối câu dùng `-기 때문이다`; không viết `때문에.` rồi chấm câu."
+        },
+        {
+          "pattern": "-아/어서",
+          "diff_vi": "Lý do ở vế đầu; không đứng cuối câu như một câu giải thích độc lập."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Chấm câu sau `때문에`: ✗ `비싸기 때문에.` → ✓ `비싸기 때문이다.`\n(2) Dùng `-기 때문이다` rồi thêm mệnh lệnh/đề nghị ở vế trước: sai logic.\n(3) `왜냐하면` mà vế sau không kết bằng `-기 때문이다`: ✗ `왜냐하면 비싸서 부담이 된다`.\n(4) Quên `-었-` khi lý do thuộc quá khứ: `갑자기 늘었기 때문이다`.",
+      "example_ko": "이는 시간을 절약할 수 있기 때문이다.\n배달비가 비싼 이유는 배달 기사의 수가 적기 때문이다.\n이용자가 늘었기 때문이다.\n이 문제는 비용 때문이다.",
+      "example_vi": "Điều này là vì có thể tiết kiệm thời gian.\nPhí giao hàng đắt là vì số lượng người giao hàng ít.\nLà vì số người dùng đã tăng.\nVấn đề này là do chi phí.",
+      "topik_tip_vi": "Cặp 2 câu dùng mãi: `[ý chính]. 이는 [lý do]-기 때문이다.` Lý do chỉ cần một vế, không cần giải thích dài.",
+      "importance": "must"
+    },
+    {
+      "pattern": "N + (으)로 인해(서) · N + (으)로 인한 N",
+      "meaning_vi": "Do …, vì …, bởi …",
+      "usage_context_vi": "**Cấu tạo:** Danh từ + `(으)로 인해(서)`: danh từ không patchim hoặc ㄹ dùng `로 인해`, có patchim dùng `으로 인해`. Bổ nghĩa danh từ: `N(으)로 인한 N` (`소음으로 인한 갈등`). Đầu câu hay gặp `이로 인해` (= `이것으로 인해`, «do điều này») và `이 때문에`.\n**Hoàn cảnh dùng:** Nêu **nguyên nhân là một danh từ** (hiện tượng, việc xảy ra) rồi nói hậu quả: `이용자의 증가로 인해 쓰레기가 늘었다.`\n**Vì sao chọn nó:** `N(으)로 인해` gói nguyên nhân vào một danh từ, câu gọn và trang trọng hơn `-기 때문에`. Hay đi với hậu quả tiêu cực (`문제`, `갈등`, `피해`).",
+      "contrasts": [
+        {
+          "pattern": "N + 때문에",
+          "diff_vi": "`때문에` dùng được cả khi nói; `인해` chủ yếu gặp trong văn viết và phát biểu trang trọng."
+        },
+        {
+          "pattern": "N + 덕분에",
+          "diff_vi": "`덕분에` chỉ nguyên nhân dẫn tới **kết quả tốt**; `(으)로 인해` trung tính, hay dùng cho điều xấu."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Chọn sai `로/으로`: ✗ `소음로 인해` → ✓ `소음으로 인해`; `스트레스로 인해` đúng vì không patchim.\n(2) Gắn vào động từ: ✗ `늘어나로 인해` → ✓ `늘어난 것으로 인해` hoặc đổi sang danh từ `증가로 인해`.\n(3) Viết `인해서도` rồi để thiếu hậu quả.",
+      "example_ko": "스트레스로 인해 수면 시간이 줄었다.\n이용자의 증가로 인해 쓰레기가 늘고 있다.\n소음으로 인한 갈등이 늘고 있다.",
+      "example_vi": "Do căng thẳng, thời gian ngủ giảm.\nDo số người dùng tăng, rác đang tăng.\nMâu thuẫn do tiếng ồn đang tăng.",
+      "topik_tip_vi": "Khi muốn một câu nguyên nhân – hậu quả ngắn: `[danh từ] (으)로 인해 [hậu quả]-았/었다/고 있다.` Hãy kiểm tra patchim của danh từ trước.",
+      "importance": "normal"
+    },
+    {
+      "pattern": "N + 의 경우 · V + -는 경우",
+      "meaning_vi": "Trong trường hợp …, đối với …",
+      "usage_context_vi": "**Cấu tạo:** Danh từ + `의 경우`: 학생의 경우, 노인의 경우. Mệnh đề: gốc động từ + `-는 경우` (tính từ `-(으)ㄴ 경우`; quá khứ `-(으)ㄴ 경우`): 늦게 퇴근하는 경우. Hay đi sau `예를 들어`.\n**Hoàn cảnh dùng:** Mở một **ví dụ** hoặc nêu ngoại lệ: `예를 들어 직장인의 경우 …`; `비용이 부담되는 경우에는 …`.\n**Vì sao chọn nó:** `N의 경우` cho phép bạn nêu ví dụ bằng *một nhóm người* (học sinh, người già, người đi làm) mà không phải bịa chi tiết hay số liệu.",
+      "contrasts": [
+        {
+          "pattern": "N + 은/는",
+          "diff_vi": "`은/는` chỉ nêu chủ đề; `의 경우` nhấn «xét riêng trường hợp này»."
+        },
+        {
+          "pattern": "N + 에게는",
+          "diff_vi": "`에게는` nhấn đối tượng nhận; `의 경우` nói trường hợp của nhóm đó."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Quên `의`: ✗ `학생 경우` → ✓ `학생의 경우`.\n(2) Dùng `-는 경우` với tính từ: ✗ `많는 경우` → ✓ `많은 경우`.\n(3) Nhồi `의 경우` vào mọi câu; chỉ cần một ví dụ cho mỗi đoạn.",
+      "example_ko": "예를 들어 학생의 경우 집에서 수업을 들을 수 있다.\n노인의 경우 새로운 기기를 사용하기 어렵다.\n퇴근이 늦는 경우에는 배달 앱이 도움이 된다.",
+      "example_vi": "Ví dụ, trường hợp học sinh có thể học ở nhà.\nVới người già, khó dùng thiết bị mới.\nTrong trường hợp tan làm muộn, ứng dụng giao đồ ăn có ích.",
+      "topik_tip_vi": "Một ví dụ tốt chỉ cần: nhóm người + hành động cụ thể + kết quả nhỏ. `학생의 경우 …`, `직장인의 경우 …`, `노인의 경우 …` là ba nhóm dùng được cho hầu hết đề.",
+      "importance": "must"
+    },
+    {
+      "pattern": "그 결과 · V + -(으)ㄴ 결과",
+      "meaning_vi": "Kết quả là … · Sau khi … thì (kết quả)",
+      "usage_context_vi": "**Cấu tạo:** `그 결과` đứng đầu câu, nối với câu nguyên nhân/ví dụ trước. Mệnh đề: động từ + `-(으)ㄴ 결과` (조사한 결과, 노력한 결과); danh từ + `의 결과`. Vế sau là kết quả đã thấy hoặc được suy ra.\n**Hoàn cảnh dùng:** Câu thứ tư của đoạn: nêu **kết quả** của ý ở câu 1–3. Cũng dùng trong Viết 53: `조사한 결과 …(으)로 나타났다`.\n**Vì sao chọn nó:** Một đoạn có lý do và ví dụ nhưng thiếu kết quả sẽ «treo». `그 결과` đóng vòng nguyên nhân – hệ quả và tăng cả chữ lẫn logic.",
+      "contrasts": [
+        {
+          "pattern": "따라서",
+          "diff_vi": "`따라서` là kết luận/hệ quả suy ra bằng lý lẽ; `그 결과` là kết quả thực tế đã xảy ra."
+        },
+        {
+          "pattern": "이 때문에",
+          "diff_vi": "`이 때문에` nhấn **nguyên nhân là điều vừa nêu**; `그 결과` nhấn **kết quả sau đó**."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `그 결과` để mở ý mới không liên quan.\n(2) Viết `-ㄴ 결과` với tính từ: ✗ `비싼 결과` → ✓ `비싸진 결과` hoặc đổi sang `그 결과 … 비싸졌다`.\n(3) Lặp `그 결과` ở hai câu liền nhau.",
+      "example_ko": "그 결과 쓰레기가 빠르게 늘고 있다.\n조사한 결과 많은 사람이 이 제도에 찬성했다.\n노력한 결과 성적이 올랐다.",
+      "example_vi": "Kết quả là rác đang tăng nhanh.\nKết quả khảo sát cho thấy nhiều người tán thành chế độ này.\nNhờ nỗ lực mà điểm số tăng lên.",
+      "topik_tip_vi": "Cặp cuối đoạn: câu 4 `그 결과 …`, câu 5 `이처럼 …`. Câu 4 kể điều xảy ra, câu 5 rút ra ý nghĩa.",
+      "importance": "normal"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài",
+      "body": "Sau bài này bạn làm được bốn việc:\n① nhớ công thức **5 câu: Ý – Vì sao – Ví dụ – Kết quả – Nối**;\n② viết từng câu bằng khuôn cho sẵn (`-기 때문이다`, `의 경우`, `그 결과`, `이처럼`);\n③ dùng từ nối đúng chức năng, không lặp một từ nối;\n④ từ **một ý** của bài 3 viết thành một đoạn khoảng 130–170 chữ.\nMột đoạn thân bài chỉ là năm câu ngắn. Bạn không cần câu dài hay từ khó.",
+      "kind": "goal"
+    },
+    {
+      "title": "Công thức 5 câu: Ý – Vì sao – Ví dụ – Kết quả – Nối",
+      "body": "① **Ý** (주장): câu trả lời đầu đoạn học ở bài 1 và bài 3. `…의 첫 번째 장점은 …다는 점이다.`\n② **Vì sao** (이유): `이는 …기 때문이다.`\n③ **Ví dụ** (예시): `예를 들어 …의 경우 …`\n④ **Kết quả** (결과): `그 결과 …`\n⑤ **Nối** (정리): `이처럼 …`, nói lại ý bằng lời khác, hoặc chuyển sang đoạn sau bằng `한편`, `그러나`.\nMỗi câu 25–35 chữ. Năm câu cho khoảng 140–170 chữ. Ba đoạn thân bài như vậy đã là hơn 400 chữ.",
+      "kind": "language"
+    },
+    {
+      "title": "Đoạn mẫu 1: ưu điểm (tự soạn, dùng ngăn ⏱)",
+      "body": "① 배달 앱 이용의 첫 번째 장점은 시간을 절약할 수 있다는 점이다.\n② 이는 음식을 사러 가거나 만드는 데 드는 시간을 줄일 수 있기 때문이다.\n③ 예를 들어 퇴근이 늦은 직장인의 경우 앱으로 주문하면 집에 도착하자마자 식사를 할 수 있다.\n④ 그 결과 쉬거나 가족과 대화하는 시간이 늘어난다.\n⑤ 이처럼 배달 앱은 바쁜 현대인의 생활에 여유를 준다.\nNhìn vai trò từng câu: ① kết luận, ② vì sao, ③ ví dụ về một nhóm người, ④ điều xảy ra tiếp theo, ⑤ rút ý nghĩa.",
+      "kind": "language"
+    },
+    {
+      "title": "Đoạn mẫu 2: vấn đề (tự soạn, dùng ngăn 🌱)",
+      "body": "① 배달 앱 이용이 늘면서 쓰레기 문제가 심각해지고 있다.\n② 이는 음식과 함께 일회용 용기와 수저가 많이 사용되기 때문이다.\n③ 예를 들어 한 끼를 주문할 때마다 플라스틱 용기가 여러 개 나온다.\n④ 그 결과 분리배출하기 어려운 쓰레기가 빠르게 쌓이고 있다.\n⑤ 이처럼 편리함의 이면에는 환경에 대한 부담이 있다.\nCùng một công thức, chỉ đổi nội dung: đoạn lợi và đoạn hại có cùng khung.",
+      "kind": "language"
+    },
+    {
+      "title": "Từ nối theo chức năng (chọn một từ cho mỗi câu)",
+      "body": "Thêm ý: `또한`, `게다가`, `특히`\nTương phản: `그러나`, `하지만`, `반면에`, `한편`\nLý do: `이는 … -기 때문이다`, `왜냐하면 … -기 때문이다`\nVí dụ: `예를 들어`, `N의 경우`, `실제로`\nKết quả: `그 결과`, `따라서`, `이 때문에`, `이로 인해`\nTóm lại: `이처럼`, `결국`, `즉`\nQuy tắc: ① không dùng cùng một từ nối ở hai câu liền nhau; ② không mở đoạn bằng `그리고`, `그래서`, `근데` (nghe như lời nói); ③ một đoạn 5 câu cần 3–4 từ nối khác nhau.",
+      "kind": "language"
+    },
+    {
+      "title": "Chữ nào ở câu nào?",
+      "body": "Không cần đếm từng chữ ngay. Hãy nhớ: câu Ý và câu Vì sao ngắn nhất (25–30 chữ), câu Ví dụ dài nhất (35–45 chữ vì có chi tiết), câu Kết quả và Nối khoảng 25–35 chữ. Nếu đoạn dưới 130 chữ, hãy thêm chi tiết vào câu ví dụ hoặc thêm một câu `또한 …`; nếu trên 180 chữ, hãy bỏ chi tiết ở câu ví dụ.",
+      "kind": "language"
+    },
+    {
+      "title": "Năm lỗi hay gặp khi viết đoạn",
+      "body": "① Câu 2 lặp lại câu 1 bằng lời khác chứ không nêu **vì sao**.\n② Ví dụ quá chung (`많은 사람이 좋아한다`): hãy nêu một nhóm người và một hành động.\n③ Câu kết quả không liên quan đến câu trước.\n④ `때문에.` thay vì `때문이다.` ở cuối câu lý do.\n⑤ Ba câu liền nhau mở bằng `또한`.",
+      "kind": "pitfall"
+    }
+  ],
+  "bank": "viet54",
+  "coach": {
+    "focus_vi": [
+      "Thuộc 5 câu Ý – Vì sao – Ví dụ – Kết quả – Nối và chữ mở đầu của từng câu: `이는 …기 때문이다`, `예를 들어 … 의 경우`, `그 결과`, `이처럼`.",
+      "Đọc to hai đoạn mẫu rồi tự gạch dưới từ nối và nói câu nào đóng vai gì.",
+      "Chọn một ý đã tìm ở bài 3 và viết thành đoạn 5 câu theo công thức, mỗi câu một dòng."
+    ],
+    "watch_out_vi": [
+      "`이는 …-기 때문이다.` — cuối câu lý do là `때문이다`, không phải `때문에`.",
+      "Không mở hai câu liền nhau bằng cùng một từ nối."
+    ],
+    "notebook_vi": [
+      "Công thức 5 câu và một từ nối cho mỗi câu.",
+      "Một đoạn mẫu chép tay (lợi) và một đoạn tự viết (hại)."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Năm câu của một đoạn thân bài là gì?",
+        "answer": "Ý chính, lý do, ví dụ, kết quả, câu nối/tóm tắt."
+      },
+      {
+        "prompt_vi": "Khác nhau giữa `-기 때문에` và `-기 때문이다`?",
+        "answer": "`-기 때문에` nằm giữa câu; `-기 때문이다` kết thúc một câu riêng giải thích lý do."
+      }
+    ]
+  },
+  "exercise_ids": [
+    "V45L1",
+    "V45D1",
+    "V45D2",
+    "V45R1",
+    "V45R2",
+    "V45R3",
+    "V45R4",
+    "V45R5",
+    "V45R6",
+    "V45R7",
+    "V45R8",
+    "V45R9",
+    "V45B1",
+    "V45B2",
+    "V45B3",
+    "V45B4",
+    "V45B5",
+    "V45B6",
+    "V45B7",
+    "V45B8",
+    "V45F1",
+    "V45F2",
+    "V45F3",
+    "V45E1",
+    "RG46",
+    "SP46"
+  ],
+  "editor_notes": [
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "Topic = the lesson's own sample paragraphs (배달 앱: 장점 시간 / 문제 쓰레기). V45E1 is online classes, but lesson 43 already speaks on that, so 46 takes the 배달 앱 sample the lesson builds its 5-sentence formula on. Model takes the 'problem is bigger' side (the other lessons mostly argue for something) and the first reason is spoken as Ý–Vì sao–Ví dụ–Kết quả. RG's five lines are exactly one 5-sentence paragraph. 편리함 (lesson 48) avoided in the model: used 편리하다 instead."
+    }
+  ]
+}

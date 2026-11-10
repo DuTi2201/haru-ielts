@@ -1,0 +1,876 @@
+{
+  "slug": "sinh-hoat-00-nen-tang-1b-chi-dinh-so-huu",
+  "title": "Nền tảng 1.2 · Cái này là gì?: 이/가, 이·그·저 & 의",
+  "title_ko": "기초 1-2: 이것은 뭐예요?",
+  "topic": "Nhập môn",
+  "track": "beginner",
+  "level": 1,
+  "summary": "Chỉ người và đồ vật với '이/그/저', trợ từ chủ ngữ '이/가' (khác '은/는' ở đâu), và sở hữu '의' ('제 책', '친구의 가방').",
+  "vocab": [
+    {
+      "hangul": "저것",
+      "pron": "[저걷]",
+      "pos": "N",
+      "meaning_vi": "Cái kia (xa cả hai người)",
+      "note_vi": "Khẩu ngữ: 저거, 저건, 저게, 저걸.",
+      "example_ko": "저것은 학교예요.",
+      "example_vi": "Kia là trường học.",
+      "priority": "core"
+    },
+    {
+      "hangul": "누구",
+      "pos": "X",
+      "meaning_vi": "Ai",
+      "note_vi": "Làm chủ ngữ: 누가 (✗ 누구가).",
+      "example_ko": "누구예요?",
+      "example_vi": "Là ai?",
+      "family": "Từ để hỏi",
+      "priority": "core"
+    },
+    {
+      "hangul": "어디",
+      "pos": "X",
+      "meaning_vi": "Ở đâu",
+      "example_ko": "어디예요?",
+      "example_vi": "Ở đâu vậy?",
+      "family": "Từ để hỏi",
+      "priority": "core"
+    },
+    {
+      "hangul": "어느",
+      "pos": "X",
+      "meaning_vi": "… nào (chọn trong nhóm)",
+      "example_ko": "어느 나라 사람이에요?",
+      "example_vi": "Bạn là người nước nào?",
+      "family": "Từ để hỏi",
+      "priority": "core"
+    },
+    {
+      "hangul": "얼마",
+      "pos": "X",
+      "meaning_vi": "Bao nhiêu (giá, số lượng)",
+      "example_ko": "이 가방은 얼마예요?",
+      "example_vi": "Cái cặp này bao nhiêu tiền?",
+      "family": "Từ để hỏi",
+      "priority": "core"
+    },
+    {
+      "hangul": "거",
+      "pos": "N",
+      "meaning_vi": "Cái, thứ, đồ",
+      "note_vi": "Dạng nói của 것: 제 거예요 «của tôi đấy», 먹을 거 «đồ ăn». Luôn đứng sau từ bổ nghĩa.",
+      "example_ko": "이 가방은 제 거예요.",
+      "example_vi": "Cái túi này là của tôi.",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "core",
+      "source": "krdict:62331",
+      "collocations": [
+        {
+          "ko": "먹을 거",
+          "vi": "Đồ ăn"
+        },
+        {
+          "ko": "새 거",
+          "vi": "Đồ mới"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "그거",
+      "pos": "N",
+      "meaning_vi": "Cái đó",
+      "note_vi": "Dạng nói của 그것. 그거 + 이/가 → 그게.",
+      "example_ko": "그거 뭐예요?",
+      "example_vi": "Cái đó là gì vậy?",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "core",
+      "source": "krdict:62251",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "그곳",
+      "pos": "N",
+      "meaning_vi": "Nơi đó, chỗ đó",
+      "note_vi": "Trang trọng hơn 거기; văn nói hay dùng 거기.",
+      "example_ko": "그곳은 경치가 정말 좋아요.",
+      "example_vi": "Nơi đó phong cảnh đẹp lắm.",
+      "pron": "[그곧]",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "recognize",
+      "source": "krdict:17207",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "그런",
+      "pos": "X",
+      "meaning_vi": "Như vậy, như thế",
+      "note_vi": "Đứng trước danh từ: 그런 사람 «người như vậy». Cùng nhóm 이런 / 저런.",
+      "example_ko": "그런 말은 하지 마세요.",
+      "example_vi": "Đừng nói những lời như vậy.",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "core",
+      "source": "krdict:60341",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "그분",
+      "pos": "N",
+      "meaning_vi": "Vị đó, người đó (kính trọng)",
+      "note_vi": "Kính ngữ của 그 사람. Cùng nhóm 이분 / 저분.",
+      "example_ko": "그분은 우리 선생님이세요.",
+      "example_vi": "Vị đó là thầy giáo của chúng tôi.",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "core",
+      "source": "krdict:60635",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "그쪽",
+      "pos": "N",
+      "meaning_vi": "Phía đó, hướng đó",
+      "note_vi": "Cũng dùng để gọi người nghe một cách lịch sự khi chưa biết tên: 그쪽은요?",
+      "example_ko": "화장실은 그쪽에 있어요.",
+      "example_vi": "Nhà vệ sinh ở phía đó.",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "core",
+      "source": "krdict:17206",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "너",
+      "pos": "N",
+      "meaning_vi": "Bạn, cậu, mày",
+      "note_vi": "Chỉ dùng với bạn thân hoặc người nhỏ tuổi hơn; với người lạ hãy gọi tên + 씨.",
+      "example_ko": "너 지금 어디야?",
+      "example_vi": "Cậu đang ở đâu đấy?",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "core",
+      "source": "krdict:64390",
+      "collocations": [
+        {
+          "ko": "너와 나",
+          "vi": "Cậu và tớ"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "너희",
+      "pos": "N",
+      "meaning_vi": "Các bạn, các cậu, bọn mày",
+      "note_vi": "Số nhiều của 너, chỉ dùng với bạn bè hoặc người nhỏ tuổi hơn.",
+      "example_ko": "너희 어디 가?",
+      "example_vi": "Các cậu đi đâu đấy?",
+      "pron": "[너히]",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "core",
+      "source": "krdict:61180",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "넌",
+      "pos": "X",
+      "meaning_vi": "Cậu thì, mày thì",
+      "note_vi": "Rút gọn của 너는, văn nói thân mật.",
+      "example_ko": "넌 이름이 뭐야?",
+      "example_vi": "Cậu tên là gì?",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "recognize",
+      "source": "krdict:86216",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "널",
+      "pos": "X",
+      "meaning_vi": "Cậu, mày (tân ngữ)",
+      "note_vi": "Rút gọn của 너를, văn nói thân mật.",
+      "example_ko": "난 널 정말 좋아해.",
+      "example_vi": "Tớ thật sự thích cậu.",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "recognize",
+      "source": "krdict:86062",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "아주머니",
+      "pos": "N",
+      "meaning_vi": "Cô, bác gái (phụ nữ trung niên)",
+      "note_vi": "Lịch sự hơn 아줌마.",
+      "example_ko": "옆집 아주머니가 정말 친절해요.",
+      "example_vi": "Cô hàng xóm nhà bên rất tốt bụng.",
+      "family": "🟢 Nền · Từ sơ cấp · Con người",
+      "priority": "core",
+      "source": "krdict:89820",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "안내인",
+      "pos": "N",
+      "meaning_vi": "Người hướng dẫn",
+      "example_ko": "안내인의 설명을 들었어요.",
+      "example_vi": "Chúng tôi đã nghe người hướng dẫn giải thích.",
+      "family": "🟢 Nền · Từ sơ cấp · Con người",
+      "priority": "recognize",
+      "source": "krdict:66386",
+      "hanja": "案內人",
+      "enrich": "auto",
+      "sino_vietnamese": "án nội nhân"
+    },
+    {
+      "hangul": "어린아이",
+      "pos": "N",
+      "meaning_vi": "Trẻ nhỏ, đứa bé",
+      "example_ko": "어린아이들이 놀이터에서 놀아요.",
+      "example_vi": "Lũ trẻ nhỏ chơi ở sân chơi.",
+      "pron": "[어리나이]",
+      "family": "🟢 Nền · Từ sơ cấp · Con người",
+      "priority": "recognize",
+      "source": "krdict:70503",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "여러분",
+      "pos": "N",
+      "meaning_vi": "Các bạn, quý vị",
+      "note_vi": "Gọi lịch sự một nhóm người nghe: 여러분, 안녕하세요?",
+      "example_ko": "여러분, 안녕하세요?",
+      "example_vi": "Xin chào các bạn!",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "core",
+      "source": "krdict:28028",
+      "collocations": [
+        {
+          "ko": "승객 여러분",
+          "vi": "Quý hành khách"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "여자",
+      "pos": "N",
+      "meaning_vi": "Con gái, nữ, phụ nữ",
+      "example_ko": "제 여자 친구는 베트남 사람이에요.",
+      "example_vi": "Bạn gái tôi là người Việt Nam.",
+      "family": "🟢 Nền · Từ sơ cấp · Con người",
+      "priority": "core",
+      "source": "krdict:27369",
+      "hanja": "女子",
+      "collocations": [
+        {
+          "ko": "여자 친구",
+          "vi": "Bạn gái"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "nữ tử"
+    },
+    {
+      "hangul": "우",
+      "pos": "X",
+      "meaning_vi": "Ê!, Ứ! (chê, la ó)",
+      "note_vi": "Tiếng la ó, chê bai (kéo dài: 우~).",
+      "example_ko": "관객들이 \"우!\" 소리를 질렀어요.",
+      "example_vi": "Khán giả la ó «Ê!».",
+      "family": "🟢 Nền · Từ sơ cấp · Thán từ",
+      "priority": "recognize",
+      "source": "krdict:70048",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이거",
+      "pos": "N",
+      "meaning_vi": "Cái này",
+      "note_vi": "Dạng nói của 이것. 이거 + 이/가 → 이게: 이게 뭐예요?",
+      "example_ko": "이거 얼마예요?",
+      "example_vi": "Cái này bao nhiêu tiền?",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "core",
+      "source": "krdict:71128",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이곳",
+      "pos": "N",
+      "meaning_vi": "Nơi này, chỗ này",
+      "note_vi": "Trang trọng hơn 여기.",
+      "example_ko": "이곳은 제 고향이에요.",
+      "example_vi": "Nơi này là quê tôi.",
+      "pron": "[이곧]",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "core",
+      "source": "krdict:71130",
+      "collocations": [
+        {
+          "ko": "이곳 날씨",
+          "vi": "Thời tiết ở đây"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이런",
+      "pos": "X",
+      "meaning_vi": "Như thế này",
+      "note_vi": "Đứng trước danh từ: 이런 날씨 «thời tiết thế này». Cùng nhóm 그런 / 저런.",
+      "example_ko": "이런 날씨에는 집에 있고 싶어요.",
+      "example_vi": "Thời tiết thế này tôi chỉ muốn ở nhà.",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "core",
+      "source": "krdict:17869",
+      "collocations": [
+        {
+          "ko": "이런 일",
+          "vi": "Chuyện như thế này"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이렇다",
+      "pos": "A",
+      "meaning_vi": "Như thế này",
+      "note_vi": "Bất quy tắc ㅎ: 이래요, 이런, 이렇게. Hay dùng 이렇게 «như thế này».",
+      "example_ko": "이렇게 하면 돼요.",
+      "example_vi": "Làm như thế này là được.",
+      "pron": "[이러타]",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "core",
+      "source": "krdict:71157",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이리되다",
+      "pos": "V",
+      "meaning_vi": "Thành ra thế này",
+      "example_ko": "일이 왜 이리됐어요?",
+      "example_vi": "Sao mọi chuyện lại thành ra thế này?",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "recognize",
+      "source": "krdict:89757",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이분",
+      "pos": "N",
+      "meaning_vi": "Vị này, người này (kính trọng)",
+      "note_vi": "Kính ngữ của 이 사람, dùng khi giới thiệu người trên: 이분은 …",
+      "example_ko": "이분은 김 선생님이세요.",
+      "example_vi": "Vị này là thầy Kim.",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "core",
+      "source": "krdict:71152",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "자신",
+      "pos": "N",
+      "meaning_vi": "Bản thân, chính mình",
+      "note_vi": "Đứng sau danh từ, đại từ: 저 자신, 그 자신. Khác 자신 (自信) «sự tự tin».",
+      "example_ko": "자신을 사랑하세요.",
+      "example_vi": "Hãy yêu bản thân bạn.",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "core",
+      "source": "krdict:62096",
+      "hanja": "自身",
+      "collocations": [
+        {
+          "ko": "자신의 노력",
+          "vi": "Nỗ lực của bản thân"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "tự thân"
+    },
+    {
+      "hangul": "저거",
+      "pos": "N",
+      "meaning_vi": "Cái kia",
+      "note_vi": "Dạng nói của 저것. 저거 + 이/가 → 저게.",
+      "example_ko": "저거 좀 보여 주세요.",
+      "example_vi": "Cho tôi xem cái kia với.",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "core",
+      "source": "krdict:29739",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "저곳",
+      "pos": "N",
+      "meaning_vi": "Nơi kia, chỗ kia",
+      "note_vi": "Trang trọng hơn 저기.",
+      "example_ko": "저곳이 우리 학교예요.",
+      "example_vi": "Chỗ kia là trường của chúng tôi.",
+      "pron": "[저곧]",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "recognize",
+      "source": "krdict:71217",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "저런",
+      "pos": "X",
+      "meaning_vi": "Như thế kia",
+      "note_vi": "Đứng trước danh từ, chỉ cái ở xa cả hai người. Cùng nhóm 이런 / 그런.",
+      "example_ko": "저런 옷을 사고 싶어요.",
+      "example_vi": "Tôi muốn mua bộ đồ như thế kia.",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "core",
+      "source": "krdict:71222",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "저렇다",
+      "pos": "A",
+      "meaning_vi": "Như thế kia",
+      "note_vi": "Bất quy tắc ㅎ: 저래요, 저런, 저렇게.",
+      "example_ko": "저 사람은 왜 저렇게 빨라요?",
+      "example_vi": "Sao người kia nhanh thế kia?",
+      "pron": "[저러타]",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "recognize",
+      "source": "krdict:71226",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "저분",
+      "pos": "N",
+      "meaning_vi": "Vị kia, người kia (kính trọng)",
+      "note_vi": "Kính ngữ của 저 사람.",
+      "example_ko": "저분이 누구세요?",
+      "example_vi": "Vị kia là ai vậy ạ?",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "core",
+      "source": "krdict:74869",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "저쪽",
+      "pos": "N",
+      "meaning_vi": "Phía kia, đằng kia",
+      "example_ko": "출구는 저쪽이에요.",
+      "example_vi": "Lối ra ở phía kia.",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "core",
+      "source": "krdict:75761",
+      "collocations": [
+        {
+          "ko": "저쪽 끝",
+          "vi": "Đầu đằng kia"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "절",
+      "pos": "X",
+      "meaning_vi": "Tôi (tân ngữ, rút gọn của 저를)",
+      "note_vi": "Rút gọn văn nói của 저를: 절 도와주세요.",
+      "example_ko": "절 기억하세요?",
+      "example_vi": "Bạn có nhớ tôi không?",
+      "family": "🟢 Nền · Từ sơ cấp · Đại từ & chỉ định",
+      "priority": "recognize",
+      "source": "krdict:83534",
+      "enrich": "auto",
+      "hanja": "節",
+      "sino_vietnamese": "tiết"
+    },
+    {
+      "hangul": "아니다",
+      "pos": "A",
+      "meaning_vi": "Không phải (là)",
+      "note_vi": "N이/가 아니다: 저는 의사가 아니에요. Phủ định của N이다.",
+      "example_ko": "이건 제 가방이 아니에요.",
+      "example_vi": "Cái này không phải là túi của tôi.",
+      "family": "🟢 Nền · Từ sơ cấp · Phủ định",
+      "priority": "core",
+      "source": "krdict:26878",
+      "enrich": "auto"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Sau bài này bạn làm được gì",
+      "kind": "goal",
+      "body": "• Hỏi và đáp về đồ vật: `이게 뭐예요?` — `그것은 제 책이에요.`\n• Chọn `이/그/저` theo khoảng cách tới người nói và người nghe.\n• Phân biệt `은/는` với `이/가`, nói «của ai» bằng `의` và `제`."
+    }
+  ],
+  "coach": {
+    "focus_vi": [
+      "`이/그/저 + N`, `이것/그것/저것`, `여기/거기/저기`.",
+      "`N + 이/가` và `N + 의`."
+    ],
+    "watch_out_vi": [
+      "`은/는` nêu chủ đề hoặc đối chiếu; `이/가` đưa ra thông tin hoặc chủ ngữ mới.",
+      "«Của tôi» là `제` (= `저의`), «của bạn ấy» là `친구의`; khi nói `의` thường đọc [에]."
+    ],
+    "notebook_vi": [
+      "Vẽ 3 đồ vật ở gần, giữa, xa; ghi `이것/그것/저것` dưới mỗi cái."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Chỉ 3 đồ vật quanh bạn, hỏi `이게 뭐예요?` rồi tự trả lời, có một câu dùng `제`."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "pattern": "N + 이/가",
+      "meaning_vi": "Trợ từ chủ ngữ: chủ ngữ mới · câu trả lời cho 누가/뭐가 · đi với 있다, 아니다, 되다, 좋다",
+      "usage_context_vi": "**Cấu tạo:** Danh từ **có patchim** + `이`, **không patchim** + `가`: `책이`, `학생이`, `친구가`, `비가`. Đại từ đổi dạng: `저 → 제가`, `나 → 내가`, `너 → 네가`, `누구 → 누가`. Với người cần kính trọng: `께서` (xem bài Gia đình).\n**Hoàn cảnh dùng:** (1) Chủ ngữ mới hay điều vừa nhìn thấy, nghe thấy: `비가 와요`, `저기 사람이 있어요`. (2) Trả lời 'ai/cái gì': `누가 왔어요? — 민수가 왔어요`. (3) Đứng trước vài vị ngữ đặc biệt: `있다/없다`, `아니다`, `되다`, `좋다/싫다`, `필요하다`: `시간이 없어요`, `저는 커피가 좋아요`.\n**Phân biệt `이/가` và `을/를`:** `이/가` đánh dấu CHỦ NGỮ, `을/를` đánh dấu TÂN NGỮ. Tiếng Việt không có trợ từ nên dễ thấy hai danh từ đứng trước động từ đều như nhau; hãy tự hỏi 'ai làm' (`이/가`) và 'làm gì' (`을/를`).",
+      "contrasts": [
+        {
+          "pattern": "N + 은/는",
+          "diff_vi": "Chủ đề hoặc đối chiếu; `이/가` đưa ra thông tin mới."
+        },
+        {
+          "pattern": "N + 께서(는)",
+          "diff_vi": "Dạng kính ngữ của `이/가`/`은/는` cho người cần tôn trọng."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Quên đổi đại từ: ✗ `저가 갔어요`, `나가 갔어요` → `제가`, `내가`.\n(2) Dùng `이/가` cho tân ngữ: ✗ `밥이 먹어요` → `밥을 먹어요`. (`밥이 맛있어요` thì đúng, vì 'cơm' là chủ ngữ của `맛있다`.)\n(3) Dịch 'tôi thích cà phê' thành `저는 커피를 좋아요`: `좋다` là tính từ nên vật được thích nhận `이/가` (`커피가 좋아요`); động từ `좋아하다` mới nhận `을/를` (`커피를 좋아해요`).\n(4) Thêm `누구가`: ✗ → `누가`.\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc và nhãn kỳ thi đối chiếu với KIIP 초급1 2과 · đối chiếu New Yonsei Korean 1-1 (이/가).",
+      "topik_tip_vi": "`있다/없다/아니다/되다/좋다` thường đi với `이/가`. Câu hỏi bắt đầu bằng `누가/뭐가` thì đáp án chứa `이/가`. Với đại từ `저/나/너`, đáp án đúng là `제가/내가/네가`.",
+      "example_ko": "비가 와요.\n누가 왔어요? — 민수가 왔어요.\n저는 커피가 좋아요.\n제 가방이 없어요.\n이것은 제 책이 아니에요.",
+      "example_vi": "Trời mưa.\nAi đến vậy? — Minsu đến.\nTôi thích cà phê.\nCặp của tôi không có ở đây.\nĐây không phải là sách của tôi.",
+      "source": "KIIP 초급1 2과 · đối chiếu New Yonsei Korean 1-1 (이/가)",
+      "exam": "kiip-1",
+      "importance": "must"
+    },
+    {
+      "pattern": "이/그/저 + N · 이것/그것/저것 · 여기/거기/저기",
+      "meaning_vi": "Này / đó / kia · cái này / cái đó / cái kia · ở đây / ở đó / ở kia",
+      "usage_context_vi": "**Cấu tạo:** Ba từ chỉ định theo khoảng cách: `이` (gần người nói), `그` (gần người nghe, hoặc vừa được nhắc tới), `저` (xa cả hai). Đứng trước danh từ và cách một chữ: `이 책`, `그 사람`, `저 건물`.\n- **Đại từ (vật):** `이것/그것/저것` (khẩu ngữ `이거/그거/저거`; khi gắn trợ từ: `이건/그건/저건`, `이게/그게/저게`, `이걸/그걸/저걸`)\n- **Nơi chốn:** `여기/거기/저기`\n- **Hướng:** `이쪽/그쪽/저쪽`\n- **Người (kính):** `이분/그분/저분`\n**Hoàn cảnh dùng:** Chỉ người, vật, nơi chốn theo khoảng cách: `이 책은 제 책이에요`, `저기가 학교예요`. Hỏi: `이게 뭐예요?`, `거기가 어디예요?`. `그` còn chỉ điều vừa nói: `민수 씨를 만났어요. 그 사람은 의사예요.`\n**Phân biệt `그` và `저`:** Tiếng Việt có 'này / đó / kia' nhưng `그` không đơn giản là 'đó xa vừa': `그` là thứ gần NGƯỜI NGHE hoặc đã được nhắc; `저` là thứ xa cả hai người. Cái cặp nằm cạnh người đối diện: bạn hỏi `그 가방은 누구 거예요?`; cái cặp ở xa cả hai thì `저 가방`.",
+      "contrasts": [
+        {
+          "pattern": "이쪽/그쪽/저쪽",
+          "diff_vi": "Chỉ HƯỚNG hoặc người một cách lịch sự: `이쪽으로 오세요`."
+        },
+        {
+          "pattern": "이분/그분/저분",
+          "diff_vi": "Chỉ NGƯỜI cần kính trọng; chỉ người ngang hàng dùng `이 사람`."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Viết liền `이 + danh từ`: ✗ `이책` → `이 책` (cách một chữ). Còn `이것`, `여기` viết liền thành một từ.\n(2) Dùng `그것` cho vật ở xa như tiếng Việt 'đó/kia': vật xa cả hai là `저것`; `그것` chỉ vật gần người nghe hoặc vừa được nhắc.\n(3) Dùng `이/그/저` đứng một mình trước trợ từ: ✗ `이는 책이에요` → `이것은` / `이건 책이에요`.\n(4) Dùng `여기/거기/저기` để chỉ NGƯỜI: ✗ `여기는 제 친구예요` → `이 사람은 제 친구예요` (`여기/거기/저기` chỉ nơi chốn).\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc và nhãn kỳ thi đối chiếu với KIIP 초급1 2과 · đối chiếu New Yonsei Korean 1-1 (이/그/저).",
+      "topik_tip_vi": "Bài nghe tranh: `이/그/저` cho biết vị trí của vật so với hai người nói, nên nghe kỹ từ chỉ định để chọn đúng tranh. Dạng rút gọn `이게/그게/저게` và `이건/그건/저건` xuất hiện dày đặc trong hội thoại.",
+      "example_ko": "이 책은 제 책이에요.\n그것은 뭐예요?\n저기가 학교예요.\n이게 얼마예요?\n저 사람은 제 친구예요.",
+      "example_vi": "Cuốn sách này là sách của tôi.\nCái đó là gì vậy?\nChỗ kia là trường học.\nCái này bao nhiêu tiền?\nNgười kia là bạn tôi.",
+      "source": "KIIP 초급1 2과 · đối chiếu New Yonsei Korean 1-1 (이/그/저)",
+      "exam": "kiip-1",
+      "importance": "must"
+    },
+    {
+      "pattern": "N + 의",
+      "meaning_vi": "Của (sở hữu, thuộc về): N1 + 의 + N2 = N2 của N1",
+      "usage_context_vi": "**Cấu tạo:** `N1 + 의 + N2`: người/vật SỞ HỮU đứng **trước**, vật được sở hữu đứng sau (ngược với tiếng Việt 'cặp của tôi'). `의` làm trợ từ có thể đọc là [에] và có thể lược trong khẩu ngữ: `친구 책`, `선생님 이름`. Đại từ rút gọn: `저의 → 제`, `나의 → 내`, `너의 → 네`. Dùng `우리` cho gia đình, nhà, trường, công ty: `우리 어머니`, `우리 집`.\n**Hoàn cảnh dùng:** Nói sở hữu và quan hệ: `제 가방`, `민수 씨의 어머니`, `한국의 음식`. Viết trang trọng, tiêu đề, danh từ trừu tượng thường giữ `의` (`한국의 문화`, `회사의 규칙`); hội thoại với người, đại từ thì hay lược.\n**Thứ tự khác tiếng Việt:** Tiếng Việt đặt người sở hữu SAU danh từ chính ('cặp của tôi'); tiếng Hàn đặt TRƯỚC ('tôi của cặp' = `제 가방`). Cứ nghĩ 'ai → của ai → cái gì' là đúng thứ tự.",
+      "contrasts": [
+        {
+          "pattern": "우리",
+          "diff_vi": "'Của chúng tôi' nhưng cũng dùng khi nói về 'mẹ tôi/nhà tôi': `우리 어머니`, `우리 집`. `제 어머니` không sai nhưng ít tự nhiên."
+        },
+        {
+          "pattern": "N의 N / N N",
+          "diff_vi": "Trước người và đại từ lược `의` thoải mái; trước nơi chốn, danh từ trừu tượng thì giữ."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Đảo thứ tự như tiếng Việt: ✗ `가방 저`, `책 친구` → `제 가방`, `친구 책` (hoặc `친구의 책`).\n(2) Dùng `저의`/`나의` ở mọi nơi: đúng ngữ pháp nhưng nặng nề; nói và viết tự nhiên là `제`, `내` (`제 가방`).\n(3) Nhầm `의` với `에`: ✗ `한국에 음식` → `한국의 음식` (`에` chỉ nơi chốn, `의` chỉ sở hữu).\n(4) Dùng `제` thay `우리` cho gia đình, trường, công ty: nghe không sai nhưng người Hàn nói `우리 집`, `우리 학교`, `우리 회사`.\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc đối chiếu với Nền tảng sơ cấp · New Yonsei Korean 1-1 (제, 의).",
+      "topik_tip_vi": "Trong bài Đọc, `N의 N` thường nằm trong tiêu đề hay thông báo (`한국의 명절`, `학교의 규칙`). Trong bài Nghe, `의` được đọc là [에], nên dễ nghe nhầm với `에`: dựa vào nghĩa của câu.",
+      "example_ko": "이것은 제 가방이에요.\n이 분은 민수 씨의 어머니예요.\n한국의 음식은 맛있어요.\n우리 집은 커요.\n선생님의 이름은 김민수예요.",
+      "example_vi": "Đây là cặp của tôi.\nVị này là mẹ của anh Minsu.\nMón ăn Hàn Quốc rất ngon.\nNhà chúng tôi rộng.\nTên của thầy là Kim Minsu.",
+      "source": "Nền tảng sơ cấp · New Yonsei Korean 1-1 (제, 의)",
+      "importance": "must"
+    }
+  ],
+  "editor_notes": [],
+  "exercise_ids": [
+    "FLN01",
+    "FLN11",
+    "FR06",
+    "FR07",
+    "FR08",
+    "FR09",
+    "FR10",
+    "FR11",
+    "FR12",
+    "FR18",
+    "FBO02",
+    "FBF03"
+  ],
+  "sort_order": 3,
+  "split_from": "sinh-hoat-00-nen-tang-1-gioi-thieu",
+  "sessions": [
+    {
+      "title_vi": "Này, đó, kia (chỉ vật, nơi, loại)",
+      "can_do_vi": "Chỉ đúng vật hoặc nơi gần – xa bằng 이/그/저 (이거, 그거, 저거; 이곳, 그곳, 저곳) và nói «loại như thế này / thế kia» (이런, 저런).",
+      "use_vi": "Chỉ đồ vật khi mua sắm, chỉ chỗ ngồi hay đường đi: «Cái kia», «Ở đằng kia».",
+      "topik_vi": "Giống dạng điền vào chỗ trống ở phần Đọc TOPIK I: chọn 이/그/저 theo vị trí người nói và người nghe.",
+      "vocab": [
+        "저것",
+        "이거",
+        "그거",
+        "저거",
+        "거",
+        "이곳",
+        "그곳",
+        "저곳",
+        "그쪽",
+        "저쪽",
+        "이런",
+        "그런",
+        "저런",
+        "이렇다",
+        "저렇다",
+        "이리되다"
+      ],
+      "grammar": [
+        "이/그/저 + N · 이것/그것/저것 · 여기/거기/저기"
+      ],
+      "check": [
+        "FR10",
+        "FR11",
+        "FR12"
+      ],
+      "situation": {
+        "scene_vi": "Hai người chỉ vào đồ vật ở các khoảng cách khác nhau.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "이 책은 한국어 책이에요.",
+            "vi": "Quyển sách này là sách tiếng Hàn."
+          },
+          {
+            "who": "B",
+            "ko": "그 책은 뭐예요?",
+            "vi": "Quyển sách đó là gì?"
+          },
+          {
+            "who": "A",
+            "ko": "저 책은 친구 책이에요.",
+            "vi": "Quyển sách kia là sách của bạn tôi."
+          },
+          {
+            "who": "B",
+            "ko": "저기가 회사예요?",
+            "vi": "Đằng kia là công ty à?"
+          }
+        ],
+        "reply": {
+          "prompt_ko": "저것은 뭐예요? (vật ở xa cả hai)",
+          "prompt_vi": "Cái kia là gì?",
+          "options": [
+            {
+              "ko": "저것은 가방이에요.",
+              "vi": "Cái kia là cái túi.",
+              "ok": true,
+              "why_vi": "Vật xa cả hai người thì gọi là 저것."
+            },
+            {
+              "ko": "이것은 가방이에요.",
+              "vi": "Cái này là cái túi.",
+              "ok": false,
+              "why_vi": "이것 chỉ vật ở gần người nói."
+            },
+            {
+              "ko": "여기는 가방이에요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "여기 chỉ nơi chốn («ở đây»), không chỉ vật."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn chỉ vào một chỗ xa cả hai người. Dùng từ nào?",
+          "a": {
+            "ko": "저기",
+            "vi": "Chỗ kia"
+          },
+          "b": {
+            "ko": "여기",
+            "vi": "Chỗ này"
+          },
+          "better": "a",
+          "why_vi": "저기 chỉ nơi xa cả người nói và người nghe. 여기 là nơi gần người nói."
+        }
+      }
+    },
+    {
+      "title_vi": "Ai, ở đâu, cái nào, bao nhiêu (chủ ngữ 이/가)",
+      "can_do_vi": "Hỏi «Ai? Ở đâu? Cái nào? Bao nhiêu?» và trả lời bằng chủ ngữ mới với 이/가; phân biệt khi nào dùng 이/가, khi nào dùng 은/는.",
+      "use_vi": "Hỏi giá («얼마예요?»), hỏi vị trí, và đáp «Ai là…? – Mai là…» khi người ta hỏi về một người cụ thể.",
+      "topik_vi": "Giống dạng điền 이/가 hay 은/는 ở phần Đọc TOPIK I; dạng này thi rất thường xuyên.",
+      "vocab": [
+        "누구",
+        "어디",
+        "어느",
+        "얼마",
+        "아니다"
+      ],
+      "grammar": [
+        "N + 이/가"
+      ],
+      "check": [
+        "FR06",
+        "FR07",
+        "FR08",
+        "FR09",
+        "FBF03"
+      ],
+      "situation": {
+        "scene_vi": "Hai người hỏi về nơi chốn, quốc tịch và giá.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "어느 나라 사람이에요?",
+            "vi": "Bạn là người nước nào?"
+          },
+          {
+            "who": "B",
+            "ko": "한국 사람이에요.",
+            "vi": "Tôi là người Hàn."
+          },
+          {
+            "who": "A",
+            "ko": "이름이 뭐예요?",
+            "vi": "Tên bạn là gì?"
+          },
+          {
+            "who": "B",
+            "ko": "민수예요.",
+            "vi": "Minsu."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "회사가 어디예요?",
+          "prompt_vi": "Công ty ở đâu?",
+          "options": [
+            {
+              "ko": "회사는 저기예요.",
+              "vi": "Công ty ở đằng kia.",
+              "ok": true,
+              "why_vi": "어디 hỏi nơi chốn, trả lời bằng từ chỉ nơi như 저기."
+            },
+            {
+              "ko": "회사는 누구예요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "누구 là «ai», không dùng để chỉ nơi chốn."
+            },
+            {
+              "ko": "회사는 얼마예요.",
+              "vi": "Công ty giá bao nhiêu.",
+              "ok": false,
+              "why_vi": "얼마 hỏi giá, không hợp với câu hỏi về nơi chốn."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn hỏi giá của món đồ. Cách nào đúng?",
+          "a": {
+            "ko": "이거 얼마예요?",
+            "vi": "Cái này bao nhiêu tiền?"
+          },
+          "b": {
+            "ko": "이거 어디예요?",
+            "vi": "Cái này ở đâu?"
+          },
+          "better": "a",
+          "why_vi": "얼마 dùng để hỏi giá. 어디 hỏi nơi chốn."
+        }
+      }
+    },
+    {
+      "title_vi": "Của ai? và gọi người cho đúng mức",
+      "can_do_vi": "Nói «của» bằng 의 («제 책», «친구의 가방») và gọi người đúng mức: 너 (thân), 이분/그분/저분 (kính trọng), 여러분 (nhiều người).",
+      "use_vi": "Nói đồ vật là của ai khi hỏi đồ thất lạc; giới thiệu người khác một cách lịch sự.",
+      "topik_vi": "Giống dạng nghe chọn nội dung trùng khớp ở phần Nghe TOPIK I, nơi hay hỏi «của ai».",
+      "vocab": [
+        "너",
+        "너희",
+        "넌",
+        "널",
+        "절",
+        "자신",
+        "여러분",
+        "이분",
+        "그분",
+        "저분",
+        "아주머니",
+        "여자",
+        "안내인",
+        "어린아이",
+        "우"
+      ],
+      "grammar": [
+        "N + 의"
+      ],
+      "check": [
+        "FR18",
+        "FLN01",
+        "FLN11",
+        "FBO02"
+      ],
+      "situation": {
+        "scene_vi": "Bạn hỏi về chủ sở hữu và giới thiệu người một cách lịch sự.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "이분은 누구예요?",
+            "vi": "Vị này là ai?"
+          },
+          {
+            "who": "B",
+            "ko": "안나 씨의 선생님이에요.",
+            "vi": "Là thầy giáo của Anna."
+          },
+          {
+            "who": "A",
+            "ko": "저분은요?",
+            "vi": "Còn vị kia?"
+          },
+          {
+            "who": "B",
+            "ko": "저분은 제 친구예요.",
+            "vi": "Vị kia là bạn của tôi."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "이것은 누구의 가방이에요?",
+          "prompt_vi": "Cái này là túi của ai?",
+          "options": [
+            {
+              "ko": "제 가방이에요.",
+              "vi": "Là túi của tôi.",
+              "ok": true,
+              "why_vi": "N + 의 chỉ sở hữu: 저의 → 제, nghĩa là «của tôi»."
+            },
+            {
+              "ko": "저는 가방이에요.",
+              "vi": "Tôi là cái túi.",
+              "ok": false,
+              "why_vi": "Nghĩa là «tôi là cái túi». Cần dùng 제 để chỉ sở hữu."
+            },
+            {
+              "ko": "누구의 가방이에요.",
+              "vi": "Là túi của ai.",
+              "ok": false,
+              "why_vi": "Lặp lại câu hỏi chứ không trả lời."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn giới thiệu thầy giáo với sự tôn trọng. Cách nào hợp hơn?",
+          "a": {
+            "ko": "이분은 선생님이에요.",
+            "vi": "Vị này là thầy giáo."
+          },
+          "b": {
+            "ko": "이 사람은 선생님이에요.",
+            "vi": "Người này là thầy giáo."
+          },
+          "better": "a",
+          "why_vi": "이분 là cách nói tôn kính của «người này». 이 사람 trung tính, kém trang trọng hơn."
+        }
+      }
+    }
+  ]
+}

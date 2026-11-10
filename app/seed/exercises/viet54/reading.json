@@ -1,0 +1,3070 @@
+{
+  "skill": "reading",
+  "guide": [
+    {
+      "title_vi": "Đọc trong khoá Viết 54: đọc để viết tốt hơn",
+      "body_vi": "Các câu trắc nghiệm ở đây **không phải đề Đọc của TOPIK**. Chúng là bài tập nhận diện: nhận ra loại câu hỏi, chọn câu trả lời đầu đoạn, chọn từ nối, tìm câu lạc đề… để bạn quen mắt với khung bài 54 trước khi tự viết.",
+      "bullets_vi": [
+        "Đọc **câu hỏi trước**, đọc lựa chọn sau; rồi đọc phần giải thích kể cả khi đã đúng. Giải thích nói *vì sao* các lựa chọn kia không hợp.",
+        "Câu nào sai hai lần thì mở lại ghi chú của bài và viết **một câu mẫu bằng tay** vào sổ.",
+        "Mọi đoạn văn, tình huống, số liệu và tên riêng trong bộ này đều **tự soạn**, không phải đề thật."
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "V42R1",
+      "skill": "reading",
+      "type": "read_answer_frame",
+      "title_vi": "Đọc · Chọn câu trả lời đầu đoạn đúng cho câu hỏi của đề",
+      "instruction_ko": "다음 질문에 대한 답문장으로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn câu trả lời đầu đoạn đúng (đúng nội dung, đúng thể văn viết, không chép câu hỏi)",
+      "stimulus": {
+        "kind": "notice",
+        "title": "문제",
+        "lines": [
+          "배달 앱 이용의 장점은 무엇인가?"
+        ]
+      },
+      "questions": [
+        {
+          "id": "V42R1",
+          "options": [
+            {
+              "id": "1",
+              "text": "배달 앱 이용의 장점은 크게 두 가지예요."
+            },
+            {
+              "id": "2",
+              "text": "배달 앱 이용의 장점은 무엇입니까?"
+            },
+            {
+              "id": "3",
+              "text": "배달 앱 이용의 문제점은 크게 두 가지이다."
+            },
+            {
+              "id": "4",
+              "text": "배달 앱 이용의 장점은 크게 두 가지이다."
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Câu hỏi về **ưu điểm** nên câu trả lời mở bằng `장점은 … 이다`, đuôi 한다체. ② vẫn là câu hỏi; ③ trả lời nhầm sang *vấn đề*; ① dùng đuôi nói `-예요`.",
+          "tags": [
+            "V/A + -(으)ㄴ/는가? · N + (이)ㄴ가?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V42R2",
+      "skill": "reading",
+      "type": "read_answer_frame",
+      "title_vi": "Đọc · Chọn câu trả lời đầu đoạn đúng cho câu hỏi của đề",
+      "instruction_ko": "다음 질문에 대한 답문장으로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn câu trả lời đầu đoạn đúng (đúng nội dung, đúng thể văn viết, không chép câu hỏi)",
+      "stimulus": {
+        "kind": "notice",
+        "title": "문제",
+        "lines": [
+          "배달 앱 이용이 늘면서 어떤 문제가 생기는가?"
+        ]
+      },
+      "questions": [
+        {
+          "id": "V42R2",
+          "options": [
+            {
+              "id": "1",
+              "text": "배달 앱 이용이 늘면서 좋은 점이 많이 생기고 있다."
+            },
+            {
+              "id": "2",
+              "text": "배달 앱 이용이 늘면서 어떤 문제가 생기는가?"
+            },
+            {
+              "id": "3",
+              "text": "배달 앱 이용이 늘면서 여러 가지 문제가 생기고 있다."
+            },
+            {
+              "id": "4",
+              "text": "배달 앱 이용이 늘면서 여러 가지 문제가 생겨요."
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Đổi `어떤 문제가 생기는가?` thành `여러 가지 문제가 생기고 있다`: giữ chủ đề, thay từ hỏi bằng câu khẳng định. ③ chép nguyên câu hỏi; ① nói về *điểm tốt* (sai nội dung); ④ đuôi nói.",
+          "tags": [
+            "V/A + -(으)ㄴ/는가? · N + (이)ㄴ가?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V42R3",
+      "skill": "reading",
+      "type": "read_answer_frame",
+      "title_vi": "Đọc · Chọn câu trả lời đầu đoạn đúng cho câu hỏi của đề",
+      "instruction_ko": "다음 질문에 대한 답문장으로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn câu trả lời đầu đoạn đúng (đúng nội dung, đúng thể văn viết, không chép câu hỏi)",
+      "stimulus": {
+        "kind": "notice",
+        "title": "문제",
+        "lines": [
+          "그 문제를 줄이기 위해 소비자와 사회는 어떤 노력을 해야 하는가?"
+        ]
+      },
+      "questions": [
+        {
+          "id": "V42R3",
+          "options": [
+            {
+              "id": "1",
+              "text": "그 문제가 줄어들었기 때문에 소비자와 사회가 노력했다."
+            },
+            {
+              "id": "2",
+              "text": "그 문제를 줄이기 위해서 소비자와 사회가 어떤 노력을 해야 하는가?"
+            },
+            {
+              "id": "3",
+              "text": "그 문제를 줄이기 위해서는 소비자와 사회가 함께 노력해야 한다."
+            },
+            {
+              "id": "4",
+              "text": "소비자와 사회는 노력하지 않아도 된다."
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Câu hỏi về **cách làm** nên trả lời bằng `-기 위해서는 … 아/어야 한다`. ③ chép lại câu hỏi; ① nói về quá khứ và sai logic; ④ trái hẳn nội dung câu hỏi.",
+          "tags": [
+            "V + -기 위해(서) · V + -기 위한 N",
+            "V/A + -(으)ㄴ/는가? · N + (이)ㄴ가?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V42R4",
+      "skill": "reading",
+      "type": "read_answer_frame",
+      "title_vi": "Đọc · Chọn câu trả lời đầu đoạn đúng cho câu hỏi của đề",
+      "instruction_ko": "다음 질문에 대한 답문장으로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn câu trả lời đầu đoạn đúng (đúng nội dung, đúng thể văn viết, không chép câu hỏi)",
+      "stimulus": {
+        "kind": "notice",
+        "title": "문제",
+        "lines": [
+          "중고 거래 앱 이용이 늘어난 원인은 무엇인가?"
+        ]
+      },
+      "questions": [
+        {
+          "id": "V42R4",
+          "options": [
+            {
+              "id": "1",
+              "text": "중고 거래 앱의 장점은 값이 싸다는 것이다."
+            },
+            {
+              "id": "2",
+              "text": "중고 거래 앱에는 다음과 같은 문제점이 있다."
+            },
+            {
+              "id": "3",
+              "text": "중고 거래 앱 이용이 늘어난 원인은 크게 두 가지이다."
+            },
+            {
+              "id": "4",
+              "text": "중고 거래 앱을 이용하기 위해서는 노력이 필요하다."
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Câu hỏi về **nguyên nhân** nên câu trả lời mở bằng `원인은 … 이다`. ② trả lời *vấn đề*, ① trả lời *ưu điểm*, ④ trả lời *giải pháp*: đều lạc sang loại câu hỏi khác.",
+          "tags": [
+            "V/A + -(으)ㄴ/는가? · N + (이)ㄴ가?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V42R5",
+      "skill": "reading",
+      "type": "read_question_type",
+      "title_vi": "Đọc · Nhận ra loại câu hỏi",
+      "instruction_ko": "다음 질문은 무엇을 묻고 있습니까?",
+      "instruction_vi": "Câu hỏi sau hỏi về điều gì?",
+      "stimulus": {
+        "kind": "notice",
+        "title": "문제",
+        "lines": [
+          "독서 습관을 기르려면 어떻게 해야 하는가?"
+        ]
+      },
+      "questions": [
+        {
+          "id": "V42R5",
+          "options": [
+            {
+              "id": "1",
+              "text": "장점"
+            },
+            {
+              "id": "2",
+              "text": "해결 방법"
+            },
+            {
+              "id": "3",
+              "text": "원인"
+            },
+            {
+              "id": "4",
+              "text": "영향"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "`어떻게 해야 하는가?` hỏi **cách làm**, tức giải pháp. Khuôn trả lời: `독서 습관을 기르기 위해서는 … 이/가 필요하다.`",
+          "tags": [
+            "V/A + -(으)ㄴ/는가? · N + (이)ㄴ가?",
+            "V + -기 위해(서) · V + -기 위한 N"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V42R6",
+      "skill": "reading",
+      "type": "read_question_type",
+      "title_vi": "Đọc · Nhận ra loại câu hỏi",
+      "instruction_ko": "다음 질문은 무엇을 묻고 있습니까?",
+      "instruction_vi": "Câu hỏi sau hỏi về điều gì?",
+      "stimulus": {
+        "kind": "notice",
+        "title": "문제",
+        "lines": [
+          "청소년의 수면 부족은 학업에 어떤 영향을 미치는가?"
+        ]
+      },
+      "questions": [
+        {
+          "id": "V42R6",
+          "options": [
+            {
+              "id": "1",
+              "text": "해결 방법"
+            },
+            {
+              "id": "2",
+              "text": "영향"
+            },
+            {
+              "id": "3",
+              "text": "찬성 이유"
+            },
+            {
+              "id": "4",
+              "text": "원인"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "`어떤 영향을 미치는가?` hỏi **ảnh hưởng**. Khuôn: `수면 부족은 학업에 … 영향을 미친다.` Đừng viết nguyên nhân hay giải pháp ở đây.",
+          "tags": [
+            "V/A + -(으)ㄴ/는가? · N + (이)ㄴ가?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V42R7",
+      "skill": "reading",
+      "type": "read_question_type",
+      "title_vi": "Đọc · Nhận ra loại câu hỏi",
+      "instruction_ko": "다음 질문은 무엇을 묻고 있습니까?",
+      "instruction_vi": "Câu hỏi sau hỏi về điều gì?",
+      "stimulus": {
+        "kind": "notice",
+        "title": "문제",
+        "lines": [
+          "학교에서 휴대 전화 사용을 금지하는 것에 찬성하는가, 반대하는가? 그 이유를 쓰시오."
+        ]
+      },
+      "questions": [
+        {
+          "id": "V42R7",
+          "options": [
+            {
+              "id": "1",
+              "text": "정의와 설명"
+            },
+            {
+              "id": "2",
+              "text": "문제점과 해결 방안"
+            },
+            {
+              "id": "3",
+              "text": "과거와 현재의 비교"
+            },
+            {
+              "id": "4",
+              "text": "입장과 그 이유"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Câu hỏi bắt bạn **chọn lập trường và nêu lý do**. Khuôn: `…에 찬성한다. 그 이유는 …기 때문이다.`",
+          "tags": [
+            "V/A + -(으)ㄴ/는가? · N + (이)ㄴ가?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V42R8",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền từ vào câu trả lời",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "마트에서 일회용 비닐봉지를 줄이기 ( ) 장바구니를 사용하는 사람이 늘고 있다."
+      },
+      "questions": [
+        {
+          "id": "V42R8",
+          "options": [
+            {
+              "id": "1",
+              "text": "때문에"
+            },
+            {
+              "id": "2",
+              "text": "때문이다"
+            },
+            {
+              "id": "3",
+              "text": "위한"
+            },
+            {
+              "id": "4",
+              "text": "위해"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "`-기 위해` = để: `줄이기 위해`. `위한` cần danh từ đứng sau; `때문에` chỉ nguyên nhân chứ không chỉ mục đích.",
+          "tags": [
+            "V + -기 위해(서) · V + -기 위한 N"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V43R1",
+      "skill": "reading",
+      "type": "read_register",
+      "title_vi": "Đọc · Đuôi câu 한다체 (hiện tượng)",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn đuôi câu đúng của văn viết",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "최근 건강을 위해 운동하는 사람이 ( )."
+      },
+      "questions": [
+        {
+          "id": "V43R1",
+          "options": [
+            {
+              "id": "1",
+              "text": "늘고 있는다"
+            },
+            {
+              "id": "2",
+              "text": "늘고 있어요"
+            },
+            {
+              "id": "3",
+              "text": "늘고 있습니다"
+            },
+            {
+              "id": "4",
+              "text": "늘고 있다"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Văn viết dùng `-다`: `늘고 있다`. ② là đuôi nói (`-어요`), ③ là đuôi lịch sự khi nói/viết thư, ① gắn `-는다` sai vào `있다`.",
+          "tags": [
+            "V + -ㄴ/는다 · A + -다 · N + (이)다",
+            "V + -고 있다 · A + -아/어지다 · V + -게 되다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V43R2",
+      "skill": "reading",
+      "type": "read_register",
+      "title_vi": "Đọc · Động từ gốc ㄹ",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng của động từ gốc ㄹ",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "이 도시에는 많은 사람이 ( )."
+      },
+      "questions": [
+        {
+          "id": "V43R2",
+          "options": [
+            {
+              "id": "1",
+              "text": "살는다"
+            },
+            {
+              "id": "2",
+              "text": "산다"
+            },
+            {
+              "id": "3",
+              "text": "사는다"
+            },
+            {
+              "id": "4",
+              "text": "살다"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Gốc ㄹ bỏ ㄹ rồi thêm `-ㄴ다`: `살다 → 산다`. ① quên bỏ ㄹ; ③ không bỏ ㄹ nhưng thêm `-는다`; ④ là dạng từ điển.",
+          "tags": [
+            "V + -ㄴ/는다 · A + -다 · N + (이)다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V43R3",
+      "skill": "reading",
+      "type": "read_register",
+      "title_vi": "Đọc · Tính từ",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng của tính từ",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "이 문제는 매우 ( )."
+      },
+      "questions": [
+        {
+          "id": "V43R3",
+          "options": [
+            {
+              "id": "1",
+              "text": "심각하는다"
+            },
+            {
+              "id": "2",
+              "text": "심각한다"
+            },
+            {
+              "id": "3",
+              "text": "심각해요"
+            },
+            {
+              "id": "4",
+              "text": "심각하다"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Tính từ giữ dạng từ điển: `심각하다`. ② và ① gắn `-ㄴ/는다` của động từ vào tính từ; ③ là đuôi nói.",
+          "tags": [
+            "V + -ㄴ/는다 · A + -다 · N + (이)다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V43R4",
+      "skill": "reading",
+      "type": "read_register",
+      "title_vi": "Đọc · 있다/없다",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng của 있다",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "이 방법에는 장점도 단점도 ( )."
+      },
+      "questions": [
+        {
+          "id": "V43R4",
+          "options": [
+            {
+              "id": "1",
+              "text": "있다"
+            },
+            {
+              "id": "2",
+              "text": "있는다"
+            },
+            {
+              "id": "3",
+              "text": "있어요"
+            },
+            {
+              "id": "4",
+              "text": "있습니다"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`있다/없다` giữ nguyên trong 한다체. ② sai dạng; ③ và ④ là đuôi nói/lịch sự.",
+          "tags": [
+            "V + -ㄴ/는다 · A + -다 · N + (이)다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V43R5",
+      "skill": "reading",
+      "type": "read_register",
+      "title_vi": "Đọc · Phủ định",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn cách phủ định của văn viết",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "많은 사람이 이 사실을 잘 ( )."
+      },
+      "questions": [
+        {
+          "id": "V43R5",
+          "options": [
+            {
+              "id": "1",
+              "text": "알지 못한다"
+            },
+            {
+              "id": "2",
+              "text": "안 안다"
+            },
+            {
+              "id": "3",
+              "text": "몰라요"
+            },
+            {
+              "id": "4",
+              "text": "알지 못해요"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Văn viết dùng dạng dài `-지 못한다`. ② `안 + V` là dạng ngắn của lời nói; ③ `몰라요` và ④ `-어요` là đuôi nói.",
+          "tags": [
+            "V + -지 않는다 · A + -지 않다 · V + -지 못한다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V43R6",
+      "skill": "reading",
+      "type": "read_register",
+      "title_vi": "Đọc · Quá khứ",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng của thì quá khứ",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "과거에는 편지로 소식을 ( ). 그러나 오늘날에는 메신저로 전한다."
+      },
+      "questions": [
+        {
+          "id": "V43R6",
+          "options": [
+            {
+              "id": "1",
+              "text": "전한다"
+            },
+            {
+              "id": "2",
+              "text": "전했다"
+            },
+            {
+              "id": "3",
+              "text": "전할 것이다"
+            },
+            {
+              "id": "4",
+              "text": "전하고 있다"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "`과거에는` báo hiệu quá khứ: `전했다`. ① hiện tại, ③ tương lai, ④ đang diễn ra; không khớp với `과거에는`.",
+          "tags": [
+            "V/A + -았/었다 · V/A + -(으)ㄹ 것이다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V43R7",
+      "skill": "reading",
+      "type": "read_register",
+      "title_vi": "Đọc · Xu hướng",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng chỉ xu hướng",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "출산율이 해마다 ( )."
+      },
+      "questions": [
+        {
+          "id": "V43R7",
+          "options": [
+            {
+              "id": "1",
+              "text": "낮아지고 있다"
+            },
+            {
+              "id": "2",
+              "text": "낮아지고 있는다"
+            },
+            {
+              "id": "3",
+              "text": "낮아지게 한다"
+            },
+            {
+              "id": "4",
+              "text": "낮아져요"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Tính từ `낮다` + `-아/어지다` + `-고 있다` = `낮아지고 있다`. ② `있는다` sai; ③ `-게 하다` là «làm cho», đổi nghĩa; ④ đuôi nói.",
+          "tags": [
+            "V + -고 있다 · A + -아/어지다 · V + -게 되다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V43R8",
+      "skill": "reading",
+      "type": "read_register",
+      "title_vi": "Đọc · Chọn câu đúng giọng văn viết",
+      "instruction_ko": "다음 중 글에 쓰기에 알맞은 문장을 고르십시오.",
+      "instruction_vi": "Chọn câu phù hợp với bài viết",
+      "stimulus": {
+        "kind": "notice",
+        "title": "문장",
+        "lines": [
+          "스마트폰을 사용하는 사람이 매우 많다.",
+          "저는 스마트폰을 정말 많이 써요.",
+          "스마트폰 쓰는 사람 진짜 많네요.",
+          "스마트폰 사용자가 되게 많습니다."
+        ]
+      },
+      "questions": [
+        {
+          "id": "V43R8",
+          "options": [
+            {
+              "id": "1",
+              "text": "스마트폰을 사용하는 사람이 매우 많다."
+            },
+            {
+              "id": "2",
+              "text": "저는 스마트폰을 정말 많이 써요."
+            },
+            {
+              "id": "3",
+              "text": "스마트폰 쓰는 사람 진짜 많네요."
+            },
+            {
+              "id": "4",
+              "text": "스마트폰 사용자가 되게 많습니다."
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "① dùng `매우` và đuôi `-다`. ② có `저는`, `정말`, `-요`; ③ có `진짜`, `-네요`; ④ có `되게` và `-습니다`.",
+          "tags": [
+            "V + -ㄴ/는다 · A + -다 · N + (이)다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V43R9",
+      "skill": "reading",
+      "type": "read_register",
+      "title_vi": "Đọc · Từ nối của văn viết",
+      "instruction_ko": "밑줄 친 부분을 글에 알맞은 말로 바꾼 것을 고르십시오.",
+      "instruction_vi": "Chọn từ nối phù hợp với văn viết",
+      "stimulus": {
+        "kind": "underline",
+        "text": "배달 앱은 편리하다. 【근데】 배달비가 비싸서 부담이 된다."
+      },
+      "questions": [
+        {
+          "id": "V43R9",
+          "options": [
+            {
+              "id": "1",
+              "text": "그러나"
+            },
+            {
+              "id": "2",
+              "text": "그래서"
+            },
+            {
+              "id": "3",
+              "text": "그리고"
+            },
+            {
+              "id": "4",
+              "text": "그러면"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`근데` là dạng nói của `그런데`; đối lập ý thì viết `그러나` hoặc `하지만`. ② chỉ kết quả, ③ thêm ý, ④ điều kiện.",
+          "tags": [
+            "V + -ㄴ/는다 · A + -다 · N + (이)다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V44R1",
+      "skill": "reading",
+      "type": "read_idea_drawer",
+      "title_vi": "Đọc · Ý này thuộc ngăn kéo nào?",
+      "instruction_ko": "다음 문장이 가리키는 내용으로 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn ngăn kéo (thời gian, chi phí, sức khoẻ, quan hệ…) mà ý này thuộc về",
+      "stimulus": {
+        "kind": "notice",
+        "title": "문장",
+        "lines": [
+          "배달 앱을 쓰면 장을 보러 가는 시간을 아낄 수 있다."
+        ]
+      },
+      "questions": [
+        {
+          "id": "V44R1",
+          "options": [
+            {
+              "id": "1",
+              "text": "관계"
+            },
+            {
+              "id": "2",
+              "text": "비용"
+            },
+            {
+              "id": "3",
+              "text": "건강"
+            },
+            {
+              "id": "4",
+              "text": "시간"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "`시간을 아끼다` thuộc ngăn **시간**. Dù tiết kiệm được cả tiền, câu chỉ nói về thời gian.",
+          "tags": [
+            "N + 에 도움이 되다 · N + 에 부담이 되다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V44R2",
+      "skill": "reading",
+      "type": "read_idea_drawer",
+      "title_vi": "Đọc · Ý này thuộc ngăn kéo nào?",
+      "instruction_ko": "다음 문장이 가리키는 내용으로 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn ngăn kéo (thời gian, chi phí, sức khoẻ, quan hệ…) mà ý này thuộc về",
+      "stimulus": {
+        "kind": "notice",
+        "title": "문장",
+        "lines": [
+          "배달 음식을 자주 시키면 일회용 용기 쓰레기가 늘어난다."
+        ]
+      },
+      "questions": [
+        {
+          "id": "V44R2",
+          "options": [
+            {
+              "id": "1",
+              "text": "비용"
+            },
+            {
+              "id": "2",
+              "text": "시간"
+            },
+            {
+              "id": "3",
+              "text": "환경"
+            },
+            {
+              "id": "4",
+              "text": "정보"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "`쓰레기가 늘어나다` thuộc ngăn **안전·환경**.",
+          "tags": [
+            "N + 에 도움이 되다 · N + 에 부담이 되다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V44R3",
+      "skill": "reading",
+      "type": "read_idea_drawer",
+      "title_vi": "Đọc · Ý này thuộc ngăn kéo nào?",
+      "instruction_ko": "다음 문장이 가리키는 내용으로 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn ngăn kéo (thời gian, chi phí, sức khoẻ, quan hệ…) mà ý này thuộc về",
+      "stimulus": {
+        "kind": "notice",
+        "title": "문장",
+        "lines": [
+          "혼자 일하면 동료와 대화할 기회가 줄어들어 소통이 어려울 수 있다."
+        ]
+      },
+      "questions": [
+        {
+          "id": "V44R3",
+          "options": [
+            {
+              "id": "1",
+              "text": "환경"
+            },
+            {
+              "id": "2",
+              "text": "건강"
+            },
+            {
+              "id": "3",
+              "text": "비용"
+            },
+            {
+              "id": "4",
+              "text": "관계"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "`동료와 대화/소통` thuộc ngăn **관계**.",
+          "tags": [
+            "N + 에 도움이 되다 · N + 에 부담이 되다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V44R4",
+      "skill": "reading",
+      "type": "read_idea_drawer",
+      "title_vi": "Đọc · Ý này thuộc ngăn kéo nào?",
+      "instruction_ko": "다음 문장이 가리키는 내용으로 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn ngăn kéo (thời gian, chi phí, sức khoẻ, quan hệ…) mà ý này thuộc về",
+      "stimulus": {
+        "kind": "notice",
+        "title": "문장",
+        "lines": [
+          "야식을 자주 먹으면 체중이 늘고 건강을 해칠 수 있다."
+        ]
+      },
+      "questions": [
+        {
+          "id": "V44R4",
+          "options": [
+            {
+              "id": "1",
+              "text": "정보"
+            },
+            {
+              "id": "2",
+              "text": "시간"
+            },
+            {
+              "id": "3",
+              "text": "관계"
+            },
+            {
+              "id": "4",
+              "text": "건강"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "`건강을 해치다` thuộc ngăn **건강**.",
+          "tags": [
+            "N + 에 도움이 되다 · N + 에 부담이 되다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V44R5",
+      "skill": "reading",
+      "type": "read_idea_drawer",
+      "title_vi": "Đọc · Ý này thuộc ngăn kéo nào?",
+      "instruction_ko": "다음 문장이 가리키는 내용으로 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn ngăn kéo (thời gian, chi phí, sức khoẻ, quan hệ…) mà ý này thuộc về",
+      "stimulus": {
+        "kind": "notice",
+        "title": "문장",
+        "lines": [
+          "개인 정보가 유출되면 큰 피해를 입을 수 있다."
+        ]
+      },
+      "questions": [
+        {
+          "id": "V44R5",
+          "options": [
+            {
+              "id": "1",
+              "text": "시간"
+            },
+            {
+              "id": "2",
+              "text": "정보·기술"
+            },
+            {
+              "id": "3",
+              "text": "건강"
+            },
+            {
+              "id": "4",
+              "text": "관계"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "`개인 정보가 유출되다` thuộc ngăn **정보·기술**.",
+          "tags": [
+            "N + 에 도움이 되다 · N + 에 부담이 되다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V44R6",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền -는 데",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "온라인 수업은 이동 시간을 절약하는 ( ) 도움이 된다."
+      },
+      "questions": [
+        {
+          "id": "V44R6",
+          "options": [
+            {
+              "id": "1",
+              "text": "기"
+            },
+            {
+              "id": "2",
+              "text": "수"
+            },
+            {
+              "id": "3",
+              "text": "때"
+            },
+            {
+              "id": "4",
+              "text": "데"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "`-는 데 도움이 되다`: `데` là danh từ phụ thuộc, viết cách với `-는`. `-는 수`, `-는 때`, `-는 기` không đi với `도움이 되다`.",
+          "tags": [
+            "V + -는 데 (도움이 되다 · 시간이 걸리다 · 비용이 들다)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V44R7",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền -(으)ㄹ 우려",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "개인 정보가 유출될 ( ) 있다."
+      },
+      "questions": [
+        {
+          "id": "V44R7",
+          "options": [
+            {
+              "id": "1",
+              "text": "우려가"
+            },
+            {
+              "id": "2",
+              "text": "우려를"
+            },
+            {
+              "id": "3",
+              "text": "수가"
+            },
+            {
+              "id": "4",
+              "text": "것이"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`-(으)ㄹ 우려가 있다`: nguy cơ (xấu). `우려를` hay `수가` không đứng được trước `있다` trong khuôn này.",
+          "tags": [
+            "V/A + -(으)ㄹ 우려가 있다 · V/A + -(으)ㄹ 가능성이 있다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V44R8",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền 부담이 되다",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "배달비는 소비자에게 큰 ( )이 된다."
+      },
+      "questions": [
+        {
+          "id": "V44R8",
+          "options": [
+            {
+              "id": "1",
+              "text": "절약"
+            },
+            {
+              "id": "2",
+              "text": "도움"
+            },
+            {
+              "id": "3",
+              "text": "부담"
+            },
+            {
+              "id": "4",
+              "text": "여유"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "`부담이 되다` = trở thành gánh nặng. `도움이 되다` có ích, nhưng phí giao hàng không phải «ích lợi» cho người mua; `절약`, `여유` không đi với `이 된다`.",
+          "tags": [
+            "N + 에 도움이 되다 · N + 에 부담이 되다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V44R9",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền 에 따라",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "이 제도의 효과는 사람에 ( ) 다를 수 있다."
+      },
+      "questions": [
+        {
+          "id": "V44R9",
+          "options": [
+            {
+              "id": "1",
+              "text": "따라"
+            },
+            {
+              "id": "2",
+              "text": "대해"
+            },
+            {
+              "id": "3",
+              "text": "위해"
+            },
+            {
+              "id": "4",
+              "text": "비해"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`N에 따라 다르다` = khác nhau tuỳ N. `에 대해` (về), `을 위해` (vì), `에 비해` (so với) không tạo nghĩa này.",
+          "tags": [
+            "N + 에 따라 다르다 · N + 에 따라 달라지다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V45R1",
+      "skill": "reading",
+      "type": "read_para_role",
+      "title_vi": "Đọc · Vai trò của câu trong đoạn",
+      "instruction_ko": "밑줄 친 문장은 단락에서 어떤 역할을 합니까?",
+      "instruction_vi": "Câu được gạch chân đóng vai gì trong đoạn?",
+      "stimulus": {
+        "kind": "underline",
+        "text": "온라인 수업의 첫 번째 장점은 시간을 절약할 수 있다는 점이다. 【이는 학교까지 오가는 시간이 필요하지 않기 때문이다.】 예를 들어 학교가 먼 학생의 경우 하루에 많은 시간을 아낄 수 있다. 그 결과 학생은 남는 시간에 복습을 할 수 있다."
+      },
+      "questions": [
+        {
+          "id": "V45R1",
+          "options": [
+            {
+              "id": "1",
+              "text": "이유를 설명한다."
+            },
+            {
+              "id": "2",
+              "text": "예를 보여 준다."
+            },
+            {
+              "id": "3",
+              "text": "결과를 말한다."
+            },
+            {
+              "id": "4",
+              "text": "다른 주제로 넘어간다."
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`이는 … 때문이다` là câu **lý do**, giải thích vì sao ý chính ở câu 1 đúng.",
+          "tags": [
+            "V/A + -기 때문이다 · N + 때문이다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V45R2",
+      "skill": "reading",
+      "type": "read_para_role",
+      "title_vi": "Đọc · Vai trò của câu trong đoạn",
+      "instruction_ko": "밑줄 친 문장은 단락에서 어떤 역할을 합니까?",
+      "instruction_vi": "Câu được gạch chân đóng vai gì trong đoạn?",
+      "stimulus": {
+        "kind": "underline",
+        "text": "온라인 수업의 첫 번째 장점은 시간을 절약할 수 있다는 점이다. 이는 학교까지 오가는 시간이 필요하지 않기 때문이다. 【예를 들어 학교가 먼 학생의 경우 하루에 많은 시간을 아낄 수 있다.】 그 결과 학생은 남는 시간에 복습을 할 수 있다."
+      },
+      "questions": [
+        {
+          "id": "V45R2",
+          "options": [
+            {
+              "id": "1",
+              "text": "이유를 설명한다."
+            },
+            {
+              "id": "2",
+              "text": "예를 보여 준다."
+            },
+            {
+              "id": "3",
+              "text": "주장을 말한다."
+            },
+            {
+              "id": "4",
+              "text": "결과를 말한다."
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "`예를 들어 … 학생의 경우` là câu **ví dụ**, nêu một nhóm người cụ thể.",
+          "tags": [
+            "N + 의 경우 · V + -는 경우"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V45R3",
+      "skill": "reading",
+      "type": "read_para_role",
+      "title_vi": "Đọc · Vai trò của câu trong đoạn",
+      "instruction_ko": "밑줄 친 문장은 단락에서 어떤 역할을 합니까?",
+      "instruction_vi": "Câu được gạch chân đóng vai gì trong đoạn?",
+      "stimulus": {
+        "kind": "underline",
+        "text": "온라인 수업의 첫 번째 장점은 시간을 절약할 수 있다는 점이다. 이는 학교까지 오가는 시간이 필요하지 않기 때문이다. 예를 들어 학교가 먼 학생의 경우 하루에 많은 시간을 아낄 수 있다. 【그 결과 학생은 남는 시간에 복습을 할 수 있다.】"
+      },
+      "questions": [
+        {
+          "id": "V45R3",
+          "options": [
+            {
+              "id": "1",
+              "text": "주장을 말한다."
+            },
+            {
+              "id": "2",
+              "text": "이유를 설명한다."
+            },
+            {
+              "id": "3",
+              "text": "결과를 말한다."
+            },
+            {
+              "id": "4",
+              "text": "예를 보여 준다."
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "`그 결과 …` là câu **kết quả**, nói điều xảy ra sau khi đã có ví dụ.",
+          "tags": [
+            "그 결과 · V + -(으)ㄴ 결과"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V45R4",
+      "skill": "reading",
+      "type": "read_para_role",
+      "title_vi": "Đọc · Vai trò của câu trong đoạn",
+      "instruction_ko": "밑줄 친 문장은 단락에서 어떤 역할을 합니까?",
+      "instruction_vi": "Câu được gạch chân đóng vai gì trong đoạn?",
+      "stimulus": {
+        "kind": "underline",
+        "text": "【온라인 수업의 첫 번째 장점은 시간을 절약할 수 있다는 점이다.】 이는 학교까지 오가는 시간이 필요하지 않기 때문이다. 예를 들어 학교가 먼 학생의 경우 하루에 많은 시간을 아낄 수 있다. 그 결과 학생은 남는 시간에 복습을 할 수 있다."
+      },
+      "questions": [
+        {
+          "id": "V45R4",
+          "options": [
+            {
+              "id": "1",
+              "text": "이유를 설명한다."
+            },
+            {
+              "id": "2",
+              "text": "예를 보여 준다."
+            },
+            {
+              "id": "3",
+              "text": "결과를 말한다."
+            },
+            {
+              "id": "4",
+              "text": "중심 생각을 말한다."
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Câu đầu đoạn nêu **ý chính** (장점은 …점이다); các câu sau giải thích và minh hoạ.",
+          "tags": [
+            "V/A + -기 때문이다 · N + 때문이다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V45R5",
+      "skill": "reading",
+      "type": "read_connector",
+      "title_vi": "Đọc · Chọn từ nối (tương phản)",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn từ nối đúng",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "배달 앱은 매우 편리하다. ( ) 쓰레기가 늘어난다는 문제가 있다."
+      },
+      "questions": [
+        {
+          "id": "V45R5",
+          "options": [
+            {
+              "id": "1",
+              "text": "따라서"
+            },
+            {
+              "id": "2",
+              "text": "그러나"
+            },
+            {
+              "id": "3",
+              "text": "예를 들어"
+            },
+            {
+              "id": "4",
+              "text": "이처럼"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Câu sau nêu **mặt trái** nên dùng từ nối tương phản `그러나`. ① kết luận, ③ ví dụ, ④ tóm lại: đều không hợp.",
+          "tags": [
+            "그 결과 · V + -(으)ㄴ 결과"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V45R6",
+      "skill": "reading",
+      "type": "read_connector",
+      "title_vi": "Đọc · Chọn từ nối (ví dụ)",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn từ nối đúng",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "혼자 사는 사람이 늘고 있다. ( ) 대도시에서는 다섯 가구 중 한 가구가 1인 가구이다."
+      },
+      "questions": [
+        {
+          "id": "V45R6",
+          "options": [
+            {
+              "id": "1",
+              "text": "결국"
+            },
+            {
+              "id": "2",
+              "text": "그러나"
+            },
+            {
+              "id": "3",
+              "text": "예를 들어"
+            },
+            {
+              "id": "4",
+              "text": "따라서"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Câu sau là **ví dụ cụ thể** cho câu trước nên dùng `예를 들어`.",
+          "tags": [
+            "N + 의 경우 · V + -는 경우"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V45R7",
+      "skill": "reading",
+      "type": "read_connector",
+      "title_vi": "Đọc · Chọn từ nối (kết quả)",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn từ nối đúng",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "배달비가 크게 올랐다. ( ) 이용 횟수를 줄이는 사람이 늘고 있다."
+      },
+      "questions": [
+        {
+          "id": "V45R7",
+          "options": [
+            {
+              "id": "1",
+              "text": "그 결과"
+            },
+            {
+              "id": "2",
+              "text": "반면에"
+            },
+            {
+              "id": "3",
+              "text": "예를 들어"
+            },
+            {
+              "id": "4",
+              "text": "한편"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Câu sau là **hậu quả** của câu trước nên dùng `그 결과`. `반면에`, `한편` đối lập hoặc chuyển ý; `예를 들어` là ví dụ.",
+          "tags": [
+            "그 결과 · V + -(으)ㄴ 결과"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V45R8",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền -기 때문이다",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "배달비가 비싼 것은 배달 기사의 수가 부족하( ) 때문이다."
+      },
+      "questions": [
+        {
+          "id": "V45R8",
+          "options": [
+            {
+              "id": "1",
+              "text": "기"
+            },
+            {
+              "id": "2",
+              "text": "게"
+            },
+            {
+              "id": "3",
+              "text": "는"
+            },
+            {
+              "id": "4",
+              "text": "다"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`-기 때문이다`: gốc + `기`. `부족하기 때문이다` = vì thiếu.",
+          "tags": [
+            "V/A + -기 때문이다 · N + 때문이다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V45R9",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền (으)로 인해",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "소음( ) 인한 갈등이 늘고 있다."
+      },
+      "questions": [
+        {
+          "id": "V45R9",
+          "options": [
+            {
+              "id": "1",
+              "text": "으로"
+            },
+            {
+              "id": "2",
+              "text": "로"
+            },
+            {
+              "id": "3",
+              "text": "에"
+            },
+            {
+              "id": "4",
+              "text": "이"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`소음` có patchim ㅁ nên dùng `으로 인한`. `스트레스` (không patchim) mới dùng `로`.",
+          "tags": [
+            "N + (으)로 인해(서) · N + (으)로 인한 N"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V46R1",
+      "skill": "reading",
+      "type": "read_paraphrase",
+      "title_vi": "Đọc · Chọn câu diễn đạt lại (1)",
+      "stimulus": {
+        "kind": "passage",
+        "text": "최근 혼자 사는 사람이 늘고 있다."
+      },
+      "questions": [
+        {
+          "id": "V46R1",
+          "prompt_ko": "위 문장을 다른 말로 바꾸어 쓴 것으로 가장 알맞은 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "오늘날 가족과 함께 사는 사람이 증가하는 추세이다."
+            },
+            {
+              "id": "2",
+              "text": "최근 혼자 사는 사람이 늘고 있다."
+            },
+            {
+              "id": "3",
+              "text": "오늘날 1인 가구가 줄어드는 추세이다."
+            },
+            {
+              "id": "4",
+              "text": "오늘날 1인 가구가 증가하는 추세이다."
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Câu đúng đổi **thời gian** (최근 → 오늘날), **danh từ** (혼자 사는 사람 → 1인 가구), **động từ** (늘고 있다 → 증가하는 추세이다) mà giữ nghĩa. ② chép nguyên đề; ③ nghĩa ngược; ① đổi sang đối tượng khác.",
+          "tags": [
+            "V + -는 추세이다 · V + -고 있는 추세이다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V46R2",
+      "skill": "reading",
+      "type": "read_paraphrase",
+      "title_vi": "Đọc · Chọn câu diễn đạt lại (2)",
+      "stimulus": {
+        "kind": "passage",
+        "text": "스마트폰을 사용하는 청소년이 많아지고 있다."
+      },
+      "questions": [
+        {
+          "id": "V46R2",
+          "prompt_ko": "위 문장을 다른 말로 바꾸어 쓴 것으로 가장 알맞은 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "스마트폰을 사용하는 청소년이 많아지고 있다."
+            },
+            {
+              "id": "2",
+              "text": "스마트폰 사용이 청소년 사이에서 일상화되고 있다."
+            },
+            {
+              "id": "3",
+              "text": "스마트폰 사용이 청소년 사이에서 줄어들고 있다."
+            },
+            {
+              "id": "4",
+              "text": "스마트폰 사용이 어른 사이에서 일상화되고 있다."
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Câu đúng danh từ hoá (`사용`) và đổi cách nói chỉ xu hướng (`일상화되다`) mà giữ đối tượng là thanh thiếu niên. ① chép nguyên đề; ③ nghĩa ngược; ④ đổi đối tượng sang người lớn.",
+          "tags": [
+            "N + (으)로 떠오르다 · N + 이/가 주목받다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V46R3",
+      "skill": "reading",
+      "type": "read_paraphrase",
+      "title_vi": "Đọc · Gọi lại hai gạch của đề",
+      "stimulus": {
+        "kind": "passage",
+        "text": "스마트폰 사용의 장점과 문제점"
+      },
+      "questions": [
+        {
+          "id": "V46R3",
+          "prompt_ko": "위 표현을 다르게 나타낸 것으로 가장 알맞은 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "스마트폰 사용의 역사와 미래"
+            },
+            {
+              "id": "2",
+              "text": "스마트폰 사용의 원인과 결과"
+            },
+            {
+              "id": "3",
+              "text": "스마트폰 사용의 긍정적인 측면과 부정적인 측면"
+            },
+            {
+              "id": "4",
+              "text": "스마트폰 사용의 가격과 종류"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "`장점` = `긍정적인 측면`, `문제점` = `부정적인 측면`. Các lựa chọn khác nói về những nội dung khác (nguyên nhân – kết quả, lịch sử, giá cả).",
+          "tags": [
+            "V + -고자 한다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V46R4",
+      "skill": "reading",
+      "type": "read_opening_role",
+      "title_vi": "Đọc · Vai trò của câu trong mở bài",
+      "instruction_ko": "밑줄 친 문장은 도입 단락에서 어떤 역할을 합니까?",
+      "instruction_vi": "Câu được gạch chân đóng vai gì trong mở bài?",
+      "stimulus": {
+        "kind": "underline",
+        "text": "【최근 집에서 일하는 직장인이 늘어나는 추세이다.】 이러한 근무 방식은 사회적 문제로 떠오르고 있다. 이에 본 글에서는 재택근무의 장점과 문제점, 그리고 해결 방안을 살펴보고자 한다."
+      },
+      "questions": [
+        {
+          "id": "V46R4",
+          "options": [
+            {
+              "id": "1",
+              "text": "결과를 정리한다."
+            },
+            {
+              "id": "2",
+              "text": "자신의 의견을 강하게 말한다."
+            },
+            {
+              "id": "3",
+              "text": "배경을 소개한다."
+            },
+            {
+              "id": "4",
+              "text": "예를 보여 준다."
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Câu đầu nêu **bối cảnh**: một hiện tượng đang tăng (`늘어나는 추세이다`).",
+          "tags": [
+            "V + -는 추세이다 · V + -고 있는 추세이다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V46R5",
+      "skill": "reading",
+      "type": "read_opening_role",
+      "title_vi": "Đọc · Vai trò của câu trong mở bài",
+      "instruction_ko": "밑줄 친 문장은 도입 단락에서 어떤 역할을 합니까?",
+      "instruction_vi": "Câu được gạch chân đóng vai gì trong mở bài?",
+      "stimulus": {
+        "kind": "underline",
+        "text": "최근 집에서 일하는 직장인이 늘어나는 추세이다. 【이러한 근무 방식은 사회적 문제로 떠오르고 있다.】 이에 본 글에서는 재택근무의 장점과 문제점, 그리고 해결 방안을 살펴보고자 한다."
+      },
+      "questions": [
+        {
+          "id": "V46R5",
+          "options": [
+            {
+              "id": "1",
+              "text": "예를 보여 준다."
+            },
+            {
+              "id": "2",
+              "text": "자신의 의견을 강하게 말한다."
+            },
+            {
+              "id": "3",
+              "text": "결과를 정리한다."
+            },
+            {
+              "id": "4",
+              "text": "이 문제가 왜 주목받는지 말한다."
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Câu thứ hai (`사회적 문제로 떠오르고 있다`) cho thấy chủ đề **đáng được bàn**, chưa nêu ý kiến riêng.",
+          "tags": [
+            "N + (으)로 떠오르다 · N + 이/가 주목받다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V46R6",
+      "skill": "reading",
+      "type": "read_opening_role",
+      "title_vi": "Đọc · Vai trò của câu trong mở bài",
+      "instruction_ko": "밑줄 친 문장은 도입 단락에서 어떤 역할을 합니까?",
+      "instruction_vi": "Câu được gạch chân đóng vai gì trong mở bài?",
+      "stimulus": {
+        "kind": "underline",
+        "text": "최근 집에서 일하는 직장인이 늘어나는 추세이다. 이러한 근무 방식은 사회적 문제로 떠오르고 있다. 【이에 본 글에서는 재택근무의 장점과 문제점, 그리고 해결 방안을 살펴보고자 한다.】"
+      },
+      "questions": [
+        {
+          "id": "V46R6",
+          "options": [
+            {
+              "id": "1",
+              "text": "앞으로 쓸 내용을 알린다."
+            },
+            {
+              "id": "2",
+              "text": "배경을 소개한다."
+            },
+            {
+              "id": "3",
+              "text": "예를 보여 준다."
+            },
+            {
+              "id": "4",
+              "text": "결과를 정리한다."
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Câu cuối (`이에 본 글에서는 … 살펴보고자 한다`) **báo trước** những gì bài sẽ viết, theo thứ tự ba gạch.",
+          "tags": [
+            "V + -고자 한다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V46R7",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền -는 추세이다",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "집에서 일하는 직장인이 늘어나( ) 추세이다."
+      },
+      "questions": [
+        {
+          "id": "V46R7",
+          "options": [
+            {
+              "id": "1",
+              "text": "던"
+            },
+            {
+              "id": "2",
+              "text": "은"
+            },
+            {
+              "id": "3",
+              "text": "는"
+            },
+            {
+              "id": "4",
+              "text": "을"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "`-는 추세이다`: động từ + `는`. `늘어나는 추세이다` = đang có xu hướng tăng.",
+          "tags": [
+            "V + -는 추세이다 · V + -고 있는 추세이다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V46R8",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền -(으)면서",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "온라인 수업이 확산되( ) 학습 방식이 크게 달라지고 있다."
+      },
+      "questions": [
+        {
+          "id": "V46R8",
+          "options": [
+            {
+              "id": "1",
+              "text": "는데도"
+            },
+            {
+              "id": "2",
+              "text": "려고"
+            },
+            {
+              "id": "3",
+              "text": "거나"
+            },
+            {
+              "id": "4",
+              "text": "면서"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Hai thay đổi cùng diễn ra nên dùng `-(으)면서`. ② là mục đích; ③ là lựa chọn; ① là nhượng bộ, đều không hợp.",
+          "tags": [
+            "V/A + -(으)면서 (hai thay đổi cùng lúc)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V46R9",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền -고자 한다",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "이에 본 글에서는 문제의 원인을 살펴보( ) 한다."
+      },
+      "questions": [
+        {
+          "id": "V46R9",
+          "options": [
+            {
+              "id": "1",
+              "text": "더니"
+            },
+            {
+              "id": "2",
+              "text": "도록"
+            },
+            {
+              "id": "3",
+              "text": "는데"
+            },
+            {
+              "id": "4",
+              "text": "고자"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "`살펴보고자 한다` = (sẽ) xem xét. ② `-도록` = để cho; ③ `-는데` nối vế; ① `-더니` là hồi tưởng, đều không kết với `한다` theo nghĩa này.",
+          "tags": [
+            "V + -고자 한다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V47R1",
+      "skill": "reading",
+      "type": "read_off_topic",
+      "title_vi": "Đọc · Câu lạc đề trong đoạn ưu điểm",
+      "stimulus": {
+        "kind": "passage",
+        "text": "① 배달 앱 이용의 가장 큰 장점은 시간을 절약할 수 있다는 점이다. ② 이는 음식을 사러 가는 시간이 필요하지 않기 때문이다. ③ 배달 앱 때문에 일회용 쓰레기가 빠르게 늘고 있다. ④ 그 결과 쉬는 시간이 늘어난다."
+      },
+      "questions": [
+        {
+          "id": "V47R1",
+          "prompt_ko": "다음 글의 흐름에 맞지 않는 문장을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "①"
+            },
+            {
+              "id": "2",
+              "text": "②"
+            },
+            {
+              "id": "3",
+              "text": "③"
+            },
+            {
+              "id": "4",
+              "text": "④"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Đoạn nói về **ưu điểm** (tiết kiệm thời gian). Câu ③ nói về **vấn đề rác**, lạc chủ đề.",
+          "tags": [
+            "V/A + -다는 점이다 · V/A + -(으)ㄴ/는 점에서"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V47R2",
+      "skill": "reading",
+      "type": "read_off_topic",
+      "title_vi": "Đọc · Câu lạc đề trong đoạn vấn đề",
+      "stimulus": {
+        "kind": "passage",
+        "text": "① 배달 앱 이용이 늘면서 가장 크게 대두되는 문제는 쓰레기가 많아진다는 점이다. ② 이는 일회용 용기가 많이 사용되기 때문이다. ③ 또한 시간을 절약할 수 있어서 직장인에게 편리하다. ④ 이러한 쓰레기는 환경에 악영향을 끼칠 수 있다."
+      },
+      "questions": [
+        {
+          "id": "V47R2",
+          "prompt_ko": "다음 글의 흐름에 맞지 않는 문장을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "①"
+            },
+            {
+              "id": "2",
+              "text": "②"
+            },
+            {
+              "id": "3",
+              "text": "③"
+            },
+            {
+              "id": "4",
+              "text": "④"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Đoạn nói về **vấn đề rác**. Câu ③ chuyển sang ưu điểm (tiết kiệm thời gian) nên không hợp.",
+          "tags": [
+            "N + 에 영향을 미치다 · N + 에 악영향을 끼치다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V47R3",
+      "skill": "reading",
+      "type": "read_off_topic",
+      "title_vi": "Đọc · Câu lạc đề trong đoạn giải pháp",
+      "stimulus": {
+        "kind": "passage",
+        "text": "① 쓰레기를 줄이기 위해서는 개인적 차원과 사회적 차원의 노력이 필요하다. ② 개인적 차원에서는 일회용 수저를 받지 않을 필요가 있다. ③ 이는 배달 앱 이용자가 해마다 늘고 있기 때문이다. ④ 사회적 차원에서는 정부가 재활용 제도를 마련해야 한다."
+      },
+      "questions": [
+        {
+          "id": "V47R3",
+          "prompt_ko": "다음 글의 흐름에 맞지 않는 문장을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "①"
+            },
+            {
+              "id": "2",
+              "text": "②"
+            },
+            {
+              "id": "3",
+              "text": "③"
+            },
+            {
+              "id": "4",
+              "text": "④"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Đoạn đang đưa **biện pháp** ở hai tầng. Câu ③ giải thích nguyên nhân dùng nhiều ứng dụng, không phải biện pháp.",
+          "tags": [
+            "V + -아/어야 한다 · V + -(으)ㄹ 필요가 있다 · V + -는 것이 바람직하다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V47R4",
+      "skill": "reading",
+      "type": "read_closing_role",
+      "title_vi": "Đọc · Vai trò của câu trong kết bài",
+      "instruction_ko": "밑줄 친 문장은 결론 단락에서 어떤 역할을 합니까?",
+      "instruction_vi": "Câu được gạch chân đóng vai gì trong kết bài?",
+      "stimulus": {
+        "kind": "underline",
+        "text": "【배달 앱은 시간을 절약해 주는 편리한 서비스이지만 쓰레기 문제라는 한계도 있다.】 이를 해결하기 위해서는 소비자가 일회용품 사용을 줄이고 기업과 정부도 제도를 마련할 필요가 있다. 이러한 노력이 이어진다면 배달 앱이 환경을 해치지 않는 서비스로 발전할 것으로 기대된다."
+      },
+      "questions": [
+        {
+          "id": "V47R4",
+          "options": [
+            {
+              "id": "1",
+              "text": "새로운 주제를 소개한다."
+            },
+            {
+              "id": "2",
+              "text": "내용을 정리한다."
+            },
+            {
+              "id": "3",
+              "text": "기대하는 결과를 말한다."
+            },
+            {
+              "id": "4",
+              "text": "예를 보여 준다."
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Câu đầu của kết bài **tóm tắt** hai mặt của vấn đề (tiện lợi và rác).",
+          "tags": [
+            "V/A + -다는 점이다 · V/A + -(으)ㄴ/는 점에서"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V47R5",
+      "skill": "reading",
+      "type": "read_closing_role",
+      "title_vi": "Đọc · Vai trò của câu trong kết bài",
+      "instruction_ko": "밑줄 친 문장은 결론 단락에서 어떤 역할을 합니까?",
+      "instruction_vi": "Câu được gạch chân đóng vai gì trong kết bài?",
+      "stimulus": {
+        "kind": "underline",
+        "text": "배달 앱은 시간을 절약해 주는 편리한 서비스이지만 쓰레기 문제라는 한계도 있다. 이를 해결하기 위해서는 소비자가 일회용품 사용을 줄이고 기업과 정부도 제도를 마련할 필요가 있다. 【이러한 노력이 이어진다면 배달 앱이 환경을 해치지 않는 서비스로 발전할 것으로 기대된다.】"
+      },
+      "questions": [
+        {
+          "id": "V47R5",
+          "options": [
+            {
+              "id": "1",
+              "text": "예를 보여 준다."
+            },
+            {
+              "id": "2",
+              "text": "내용을 정리한다."
+            },
+            {
+              "id": "3",
+              "text": "새로운 주제를 소개한다."
+            },
+            {
+              "id": "4",
+              "text": "기대하는 결과를 말한다."
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Câu cuối (`-(으)ㄹ 것으로 기대된다`) nêu **kết quả mong đợi** nếu giải pháp được thực hiện.",
+          "tags": [
+            "V/A + -(으)ㄹ 것으로 기대된다 · -(으)ㄹ 것으로 예상된다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V47R6",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền -다는 점이다",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "배달 앱의 가장 큰 문제는 배달비가 비싸( ) 점이다."
+      },
+      "questions": [
+        {
+          "id": "V47R6",
+          "options": [
+            {
+              "id": "1",
+              "text": "려고"
+            },
+            {
+              "id": "2",
+              "text": "면서"
+            },
+            {
+              "id": "3",
+              "text": "다는"
+            },
+            {
+              "id": "4",
+              "text": "도록"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "`문제는 … 점이다` đi với mệnh đề kết bằng `-다는`. ② nối vế; ① chỉ mục đích; ④ chỉ kết quả mong muốn, đều không hợp.",
+          "tags": [
+            "V/A + -다는 점이다 · V/A + -(으)ㄴ/는 점에서"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V47R7",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền trợ từ của 영향",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "과도한 스마트폰 사용은 건강( ) 악영향을 끼칠 수 있다."
+      },
+      "questions": [
+        {
+          "id": "V47R7",
+          "options": [
+            {
+              "id": "1",
+              "text": "에"
+            },
+            {
+              "id": "2",
+              "text": "을"
+            },
+            {
+              "id": "3",
+              "text": "와"
+            },
+            {
+              "id": "4",
+              "text": "이"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`건강에 악영향을 끼치다`: đối tượng chịu ảnh hưởng đi với `에`.",
+          "tags": [
+            "N + 에 영향을 미치다 · N + 에 악영향을 끼치다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V47R8",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền -아/어야 한다",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "정부는 새로운 제도를 마련( ) 한다."
+      },
+      "questions": [
+        {
+          "id": "V47R8",
+          "options": [
+            {
+              "id": "1",
+              "text": "해서"
+            },
+            {
+              "id": "2",
+              "text": "해야"
+            },
+            {
+              "id": "3",
+              "text": "하면서"
+            },
+            {
+              "id": "4",
+              "text": "하지만"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Câu kiến nghị dùng `-아/어야 한다`: `마련해야 한다`. Các lựa chọn khác không kết hợp với `한다` theo nghĩa «phải».",
+          "tags": [
+            "V + -아/어야 한다 · V + -(으)ㄹ 필요가 있다 · V + -는 것이 바람직하다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V47R9",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền -(으)ㄹ 것으로 기대된다",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "이러한 노력이 이어진다면 문제가 줄어들 것( ) 기대된다."
+      },
+      "questions": [
+        {
+          "id": "V47R9",
+          "options": [
+            {
+              "id": "1",
+              "text": "으로"
+            },
+            {
+              "id": "2",
+              "text": "이"
+            },
+            {
+              "id": "3",
+              "text": "을"
+            },
+            {
+              "id": "4",
+              "text": "에서"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Mẫu cố định `-(으)ㄹ 것으로 기대된다`.",
+          "tags": [
+            "V/A + -(으)ㄹ 것으로 기대된다 · -(으)ㄹ 것으로 예상된다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V47R10",
+      "skill": "reading",
+      "type": "read_question_type",
+      "title_vi": "Đọc · Nhận ra câu hỏi «hình thái đúng đắn»",
+      "instruction_ko": "다음 질문은 무엇을 묻고 있습니까?",
+      "instruction_vi": "Câu hỏi sau hỏi về điều gì?",
+      "stimulus": {
+        "kind": "notice",
+        "title": "문제",
+        "lines": [
+          "청소년에게 바람직한 스마트폰 사용 습관은 무엇인가?"
+        ]
+      },
+      "questions": [
+        {
+          "id": "V47R10",
+          "options": [
+            {
+              "id": "1",
+              "text": "원인"
+            },
+            {
+              "id": "2",
+              "text": "해결 방법"
+            },
+            {
+              "id": "3",
+              "text": "바람직한 모습의 기준과 조건"
+            },
+            {
+              "id": "4",
+              "text": "영향"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "`바람직한 … 은 무엇인가?` hỏi **tiêu chuẩn và điều kiện** của một thói quen tốt, không hỏi cách chữa một vấn đề đang có (②: câu kiểu `어떻게 해야 하는가?`). Khuôn trả lời: `바람직한 … 이란 …는 것이다.` rồi nêu điều kiện.",
+          "tags": [
+            "V/A + -(으)ㄴ/는가? · N + (이)ㄴ가?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V47R11",
+      "skill": "reading",
+      "type": "read_answer_frame",
+      "title_vi": "Đọc · Chọn câu 1 cho câu hỏi «hình thái đúng đắn»",
+      "instruction_ko": "다음 질문에 대한 답문장으로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn câu trả lời đầu đoạn đúng (đúng loại câu hỏi, đúng thể văn viết, không chép câu hỏi)",
+      "stimulus": {
+        "kind": "notice",
+        "title": "문제",
+        "lines": [
+          "청소년에게 바람직한 독서 습관은 무엇인가?"
+        ]
+      },
+      "questions": [
+        {
+          "id": "V47R11",
+          "options": [
+            {
+              "id": "1",
+              "text": "바람직한 독서 습관이란 책을 꾸준히 읽고 그 내용을 스스로 생각해 보는 것이다."
+            },
+            {
+              "id": "2",
+              "text": "독서 습관의 가장 큰 장점은 지식을 쌓을 수 있다는 점이다."
+            },
+            {
+              "id": "3",
+              "text": "독서 습관의 가장 큰 문제점은 시간이 부족하다는 점이다."
+            },
+            {
+              "id": "4",
+              "text": "바람직한 독서 습관이란 무엇인가?"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Câu hỏi về **hình thái đúng đắn** nên câu 1 định nghĩa tiêu chuẩn bằng `바람직한 … 이란 …는 것이다` (①). ② dùng khuôn *ưu điểm*, ③ dùng khuôn *vấn đề*: sai loại câu hỏi. ④ chép lại câu hỏi chứ chưa trả lời.",
+          "tags": [
+            "V + -아/어야 한다 · V + -(으)ㄹ 필요가 있다 · V + -는 것이 바람직하다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V47R12",
+      "skill": "reading",
+      "type": "read_para_role",
+      "title_vi": "Đọc · Vai trò của câu trong đoạn «hình thái đúng đắn»",
+      "instruction_ko": "밑줄 친 문장은 단락에서 어떤 역할을 합니까?",
+      "instruction_vi": "Câu được gạch chân đóng vai gì trong đoạn?",
+      "stimulus": {
+        "kind": "underline",
+        "text": "바람직한 독서 습관이란 책을 꾸준히 읽고 그 내용을 스스로 생각해 보는 것이다. 이를 위해서는 첫째, 매일 정해진 시간에 조금씩이라도 읽어야 한다. 둘째, 읽은 뒤에 느낀 점을 짧게 적어 보는 태도를 갖출 필요가 있다. 【학교와 사회는 독서 시간을 보장하고 쉽게 책을 빌릴 수 있는 공간을 마련해야 한다.】 이러한 조건이 갖추어질 때 청소년이 책을 즐겨 읽는 습관을 기를 수 있을 것으로 기대된다."
+      },
+      "questions": [
+        {
+          "id": "V47R12",
+          "options": [
+            {
+              "id": "1",
+              "text": "바람직한 모습의 기준을 정의한다."
+            },
+            {
+              "id": "2",
+              "text": "개인이 지킬 첫 번째 조건을 말한다."
+            },
+            {
+              "id": "3",
+              "text": "기대하는 결과를 말한다."
+            },
+            {
+              "id": "4",
+              "text": "학교와 사회가 맡을 역할을 말한다."
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Câu gạch chân có chủ ngữ `학교와 사회는` và `마련해야 한다`: nói nhà trường và xã hội cần làm gì → ④. ① là câu 1 (`바람직한 … 이란`); ② là câu `첫째`; ③ là câu cuối (`기대된다`).",
+          "tags": [
+            "V + -아/어야 한다 · V + -(으)ㄹ 필요가 있다 · V + -는 것이 바람직하다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V47R13",
+      "skill": "reading",
+      "type": "read_order",
+      "title_vi": "Đọc · Xếp các câu của đoạn «hình thái đúng đắn»",
+      "instruction_ko": "다음 문장 뒤에 이어질 글의 순서로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Sắp xếp câu: câu tiêu chuẩn đã cho ở trên, hãy xếp bốn câu còn lại",
+      "stimulus": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "가",
+            "text": "이를 위해서는 첫째, 물건을 사기 전에 꼭 필요한지 따져 보아야 한다."
+          },
+          {
+            "id": "나",
+            "text": "학교와 사회는 올바른 소비 방법을 가르치는 교육을 늘려야 한다."
+          },
+          {
+            "id": "다",
+            "text": "이러한 조건이 갖추어질 때 합리적인 소비 문화가 자리 잡을 것으로 기대된다."
+          },
+          {
+            "id": "라",
+            "text": "둘째, 산 물건을 끝까지 쓰고 버릴 때도 환경을 생각하는 태도를 갖출 필요가 있다."
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "V47R13",
+          "prompt_ko": "바람직한 소비 습관이란 필요한 물건을 계획해서 사고 그 결과까지 책임지는 것이다.",
+          "options": [
+            {
+              "id": "1",
+              "text": "(가)-(나)-(라)-(다)"
+            },
+            {
+              "id": "2",
+              "text": "(가)-(라)-(나)-(다)"
+            },
+            {
+              "id": "3",
+              "text": "(가)-(라)-(다)-(나)"
+            },
+            {
+              "id": "4",
+              "text": "(나)-(가)-(라)-(다)"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Thứ tự (가)-(라)-(나)-(다): (가) có `이를 위해서는 첫째` nối ngay sau câu tiêu chuẩn; (라) `둘째` đi tiếp; (나) nêu vai trò của nhà trường và xã hội; (다) `이러한 조건이` gom các điều kiện đã nêu nên phải ở cuối. Các đáp án khác để `둘째` sau câu vai trò, để câu chốt ở giữa hoặc để vai trò trước điều kiện.",
+          "tags": [
+            "V/A + -(으)ㄹ 것으로 기대된다 · -(으)ㄹ 것으로 예상된다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V48R1",
+      "skill": "reading",
+      "type": "read_order",
+      "title_vi": "Đọc · Xếp câu trong đoạn ưu điểm",
+      "stimulus": {
+        "kind": "passage",
+        "text": "배달 앱 이용의 가장 큰 장점은 시간을 절약할 수 있다는 점이다. (가) 그 결과 쉬거나 가족과 대화하는 시간이 늘어난다. (나) 이는 음식을 사러 갈 필요가 없기 때문이다. (다) 예를 들어 퇴근이 늦은 직장인은 앱으로 주문해 집에서 바로 식사할 수 있다."
+      },
+      "questions": [
+        {
+          "id": "V48R1",
+          "prompt_ko": "(가)~(다)를 순서에 맞게 배열한 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "(가)-(나)-(다)"
+            },
+            {
+              "id": "2",
+              "text": "(나)-(가)-(다)"
+            },
+            {
+              "id": "3",
+              "text": "(나)-(다)-(가)"
+            },
+            {
+              "id": "4",
+              "text": "(다)-(나)-(가)"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Thứ tự của đoạn: ý chính → lý do (나) → ví dụ (다) → kết quả (가).",
+          "tags": [
+            "V/A + -(으)ㄹ 뿐만 아니라 · N + 뿐만 아니라"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V48R2",
+      "skill": "reading",
+      "type": "read_order",
+      "title_vi": "Đọc · Xếp câu trong đoạn vấn đề",
+      "stimulus": {
+        "kind": "passage",
+        "text": "배달 앱의 문제는 배달비가 비싸다는 점이다. (가) 이는 배달 기사의 수가 부족하기 때문이다. (나) 그 결과 소비자의 부담이 커지고 있다. (다) 예를 들어 비 오는 날에는 기사를 구하기 어려워 배달비가 크게 오르기도 한다."
+      },
+      "questions": [
+        {
+          "id": "V48R2",
+          "prompt_ko": "(가)~(다)를 순서에 맞게 배열한 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "(가)-(나)-(다)"
+            },
+            {
+              "id": "2",
+              "text": "(가)-(다)-(나)"
+            },
+            {
+              "id": "3",
+              "text": "(나)-(가)-(다)"
+            },
+            {
+              "id": "4",
+              "text": "(다)-(가)-(나)"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Thứ tự: ý chính → lý do (가) → ví dụ (다) → kết quả (나).",
+          "tags": [
+            "V/A + -(으)ㄴ/는 반면(에) · V/A + -지만"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V48R3",
+      "skill": "reading",
+      "type": "read_order",
+      "title_vi": "Đọc · Xếp câu trong đoạn ảnh hưởng",
+      "stimulus": {
+        "kind": "passage",
+        "text": "수면 부족은 학습 능력에 부정적인 영향을 미친다. (가) 예를 들어 수업 시간에 졸면 중요한 내용을 놓치기 쉽다. (나) 그 결과 성적이 떨어질 수 있다. (다) 이는 잠이 부족하면 집중력이 떨어지기 때문이다."
+      },
+      "questions": [
+        {
+          "id": "V48R3",
+          "prompt_ko": "(가)~(다)를 순서에 맞게 배열한 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "(가)-(나)-(다)"
+            },
+            {
+              "id": "2",
+              "text": "(가)-(다)-(나)"
+            },
+            {
+              "id": "3",
+              "text": "(나)-(가)-(다)"
+            },
+            {
+              "id": "4",
+              "text": "(다)-(가)-(나)"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Thứ tự: ý chính → lý do (다) → ví dụ (가) → kết quả (나).",
+          "tags": [
+            "N + 에도 불구하고 · V/A + -(으)ㄴ/는데도 불구하고"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V48R4",
+      "skill": "reading",
+      "type": "read_error_find",
+      "title_vi": "Đọc · Tìm chỗ sai (1)",
+      "stimulus": {
+        "kind": "passage",
+        "text": "배달 앱은 ㉠편리한 반면 ㉡쓰레기가 많이 나온다. 이는 ㉢일회용품이 많이 사용되기 때문에. ㉣그 결과 환경에 부담이 커지고 있다."
+      },
+      "questions": [
+        {
+          "id": "V48R4",
+          "prompt_ko": "㉠~㉣ 중 문법적으로 맞지 않는 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "㉠"
+            },
+            {
+              "id": "2",
+              "text": "㉡"
+            },
+            {
+              "id": "3",
+              "text": "㉢"
+            },
+            {
+              "id": "4",
+              "text": "㉣"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Câu lý do phải kết bằng `-기 때문이다`, không phải `때문에.` Vậy ㉢ sai.",
+          "tags": [
+            "V/A + -(으)ㄴ/는 반면(에) · V/A + -지만"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V48R5",
+      "skill": "reading",
+      "type": "read_error_find",
+      "title_vi": "Đọc · Tìm chỗ sai (2)",
+      "stimulus": {
+        "kind": "passage",
+        "text": "수면 부족은 ㉠학습 능력에 ㉡부정적인 영향을 ㉢미친다. 또한 ㉣건강을 악영향을 끼칠 수 있다."
+      },
+      "questions": [
+        {
+          "id": "V48R5",
+          "prompt_ko": "㉠~㉣ 중 문법적으로 맞지 않는 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "㉠"
+            },
+            {
+              "id": "2",
+              "text": "㉡"
+            },
+            {
+              "id": "3",
+              "text": "㉢"
+            },
+            {
+              "id": "4",
+              "text": "㉣"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Đối tượng chịu ảnh hưởng đi với `에`: `건강에 악영향을 끼치다`. ㉣ sai.",
+          "tags": [
+            "N + 을/를 통해(서) · N + 을/를 통한 N"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V48R6",
+      "skill": "reading",
+      "type": "read_error_find",
+      "title_vi": "Đọc · Tìm chỗ sai (3)",
+      "stimulus": {
+        "kind": "passage",
+        "text": "스트레스㉠으로 인해 ㉡수면 시간이 줄었다. 소음㉢으로 인한 ㉣갈등도 늘고 있다."
+      },
+      "questions": [
+        {
+          "id": "V48R6",
+          "prompt_ko": "㉠~㉣ 중 문법적으로 맞지 않는 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "㉠"
+            },
+            {
+              "id": "2",
+              "text": "㉡"
+            },
+            {
+              "id": "3",
+              "text": "㉢"
+            },
+            {
+              "id": "4",
+              "text": "㉣"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`스트레스` không có patchim nên là `스트레스로 인해`. `소음으로` (có patchim) đúng. Vậy ㉠ sai.",
+          "tags": [
+            "N + 에도 불구하고 · V/A + -(으)ㄴ/는데도 불구하고"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V48R7",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền -(으)ㄴ 반면",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "배달 앱은 편리한 ( ) 쓰레기가 많이 나온다."
+      },
+      "questions": [
+        {
+          "id": "V48R7",
+          "options": [
+            {
+              "id": "1",
+              "text": "경우"
+            },
+            {
+              "id": "2",
+              "text": "반면"
+            },
+            {
+              "id": "3",
+              "text": "결과"
+            },
+            {
+              "id": "4",
+              "text": "동안"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Hai mặt đối lập (tiện lợi / nhiều rác) nên dùng `반면`. Các từ còn lại không tạo nghĩa đối lập.",
+          "tags": [
+            "V/A + -(으)ㄴ/는 반면(에) · V/A + -지만"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V48R8",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền 에도 불구하고",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "비용 부담에( ) 불구하고 많은 사람이 이용한다."
+      },
+      "questions": [
+        {
+          "id": "V48R8",
+          "options": [
+            {
+              "id": "1",
+              "text": "를"
+            },
+            {
+              "id": "2",
+              "text": "은"
+            },
+            {
+              "id": "3",
+              "text": "만"
+            },
+            {
+              "id": "4",
+              "text": "도"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Mẫu cố định là `N에도 불구하고`.",
+          "tags": [
+            "N + 에도 불구하고 · V/A + -(으)ㄴ/는데도 불구하고"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V48R9",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền 을/를 통해",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "교육( ) 시민의 인식을 높일 수 있다."
+      },
+      "questions": [
+        {
+          "id": "V48R9",
+          "options": [
+            {
+              "id": "1",
+              "text": "을 통해"
+            },
+            {
+              "id": "2",
+              "text": "을 위해"
+            },
+            {
+              "id": "3",
+              "text": "에 대해"
+            },
+            {
+              "id": "4",
+              "text": "에 관해"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "«Bằng giáo dục» → `교육을 통해`. `을 위해` = vì; `에 대해/에 관해` = về.",
+          "tags": [
+            "N + 을/를 통해(서) · N + 을/를 통한 N"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V49R1",
+      "skill": "reading",
+      "type": "read_question_type",
+      "title_vi": "Đọc · Nhận ra dạng đề (1)",
+      "stimulus": {
+        "kind": "passage",
+        "text": "최근 층간 소음 때문에 이웃 사이에 갈등이 늘고 있다. ① 층간 소음 갈등은 어떤 문제를 일으키는가? ② 층간 소음 갈등의 원인은 무엇인가? ③ 갈등을 줄이기 위한 방법은 무엇인가?"
+      },
+      "questions": [
+        {
+          "id": "V49R1",
+          "prompt_ko": "이 문제의 유형은 무엇입니까?",
+          "options": [
+            {
+              "id": "1",
+              "text": "장점 – 문제점 – 해결 방안"
+            },
+            {
+              "id": "2",
+              "text": "문제 – 원인 – 해결 방안"
+            },
+            {
+              "id": "3",
+              "text": "현황 – 문제 – 해결 방안"
+            },
+            {
+              "id": "4",
+              "text": "찬성/반대 – 이유 – 반대 의견에 대한 답"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Ba gạch hỏi lần lượt về **vấn đề đang xảy ra**, **nguyên nhân** và **cách giải quyết**: đó là dạng vấn đề – nguyên nhân – giải pháp.",
+          "tags": [
+            "V/A + -(으)ㄴ/는 것으로 보인다 · -(으)ㄹ 것으로 보인다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V49R2",
+      "skill": "reading",
+      "type": "read_question_type",
+      "title_vi": "Đọc · Nhận ra dạng đề (2)",
+      "stimulus": {
+        "kind": "passage",
+        "text": "최근 대중교통을 무료로 하자는 의견이 나오고 있다. ① 대중교통 무료화에 찬성하는가, 반대하는가? ② 그렇게 생각하는 이유는 무엇인가? ③ 반대 의견에는 어떻게 답할 수 있는가?"
+      },
+      "questions": [
+        {
+          "id": "V49R2",
+          "prompt_ko": "이 문제의 유형은 무엇입니까?",
+          "options": [
+            {
+              "id": "1",
+              "text": "장점 – 문제점 – 해결 방안"
+            },
+            {
+              "id": "2",
+              "text": "찬성/반대 – 이유 – 반대 의견에 대한 답"
+            },
+            {
+              "id": "3",
+              "text": "현황 – 문제 – 해결 방안"
+            },
+            {
+              "id": "4",
+              "text": "문제 – 원인 – 해결 방안"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Gạch 1 hỏi lập trường, gạch 2 hỏi lý do, gạch 3 hỏi cách đáp lại ý kiến đối lập: đó là dạng tán thành hoặc phản đối.",
+          "tags": [
+            "N + 에 찬성하다/반대하다 · V + -는 입장이다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V49R3",
+      "skill": "reading",
+      "type": "read_answer_frame",
+      "title_vi": "Đọc · Câu 1 của đoạn nguyên nhân",
+      "stimulus": {
+        "kind": "passage",
+        "text": "층간 소음 갈등의 원인은 무엇인가?"
+      },
+      "questions": [
+        {
+          "id": "V49R3",
+          "prompt_ko": "이 질문에 대한 답으로 단락의 첫 문장에 가장 알맞은 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "층간 소음 갈등을 줄이기 위해서는 노력이 필요하다."
+            },
+            {
+              "id": "2",
+              "text": "층간 소음 갈등의 장점은 크게 두 가지이다."
+            },
+            {
+              "id": "3",
+              "text": "층간 소음 갈등의 원인은 크게 두 가지이다."
+            },
+            {
+              "id": "4",
+              "text": "층간 소음 갈등에 찬성한다."
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Câu hỏi hỏi **nguyên nhân**, nên câu 1 trả lời bằng `원인은 …이다`. ② nói về ưu điểm; ① là giải pháp; ④ là lập trường.",
+          "tags": [
+            "V/A + -(으)ㄴ/는 것으로 보인다 · -(으)ㄹ 것으로 보인다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V49R4",
+      "skill": "reading",
+      "type": "read_connector",
+      "title_vi": "Đọc · Chọn từ nối (phản bác)",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn từ nối đúng",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "스마트폰을 제한하면 긴급한 연락이 어려워진다는 의견이 있다. ( ) 이는 교무실을 통해 해결할 수 있다."
+      },
+      "questions": [
+        {
+          "id": "V49R4",
+          "options": [
+            {
+              "id": "1",
+              "text": "그러나"
+            },
+            {
+              "id": "2",
+              "text": "그리고"
+            },
+            {
+              "id": "3",
+              "text": "그래서"
+            },
+            {
+              "id": "4",
+              "text": "예를 들어"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Câu sau **bác lại** ý kiến đối lập nên dùng từ nối tương phản `그러나`.",
+          "tags": [
+            "V/A + -(으)ㄴ/는 것은 아니다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V49R5",
+      "skill": "reading",
+      "type": "read_connector",
+      "title_vi": "Đọc · Chọn từ nối (kết luận)",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn từ nối đúng",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "( ) 스마트폰 사용 제한은 학생의 자유를 막기 위한 것이 아니라 학습을 지키기 위한 것이다."
+      },
+      "questions": [
+        {
+          "id": "V49R5",
+          "options": [
+            {
+              "id": "1",
+              "text": "그러나"
+            },
+            {
+              "id": "2",
+              "text": "결국"
+            },
+            {
+              "id": "3",
+              "text": "예를 들어"
+            },
+            {
+              "id": "4",
+              "text": "반면에"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Câu mở đầu đoạn kết **rút ra kết luận** nên dùng `결국` (hoặc `결론적으로`).",
+          "tags": [
+            "N + 에 찬성하다/반대하다 · V + -는 입장이다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V49R6",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền -(으)ㄹ 수밖에 없다",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "안전 장비를 갖추지 않고 달리면 사고가 날 ( ) 없다."
+      },
+      "questions": [
+        {
+          "id": "V49R6",
+          "options": [
+            {
+              "id": "1",
+              "text": "것밖에"
+            },
+            {
+              "id": "2",
+              "text": "수만"
+            },
+            {
+              "id": "3",
+              "text": "수밖에"
+            },
+            {
+              "id": "4",
+              "text": "뿐만"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Mẫu cố định là `-(으)ㄹ 수밖에 없다` (tất yếu). Các lựa chọn còn lại không kết hợp với `없다` theo nghĩa này.",
+          "tags": [
+            "V/A + -(으)ㄹ 수밖에 없다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V49R7",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền -(으)ㄹ 것으로 보인다",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "저출산 문제는 갈수록 심각해질 것( ) 보인다."
+      },
+      "questions": [
+        {
+          "id": "V49R7",
+          "options": [
+            {
+              "id": "1",
+              "text": "이"
+            },
+            {
+              "id": "2",
+              "text": "으로"
+            },
+            {
+              "id": "3",
+              "text": "을"
+            },
+            {
+              "id": "4",
+              "text": "에"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Mẫu cố định `-(으)ㄹ 것으로 보인다`.",
+          "tags": [
+            "V/A + -(으)ㄴ/는 것으로 보인다 · -(으)ㄹ 것으로 보인다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V49R8",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền trợ từ của 찬성",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "나는 학교의 스마트폰 사용 제한( ) 찬성한다."
+      },
+      "questions": [
+        {
+          "id": "V49R8",
+          "options": [
+            {
+              "id": "1",
+              "text": "을"
+            },
+            {
+              "id": "2",
+              "text": "에"
+            },
+            {
+              "id": "3",
+              "text": "와"
+            },
+            {
+              "id": "4",
+              "text": "이"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "`제한에 찬성한다`: `찬성하다` đi với trợ từ `에`, không phải `을/를`.",
+          "tags": [
+            "N + 에 찬성하다/반대하다 · V + -는 입장이다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "V49R9",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền -는 것은 아니다",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "이는 모든 사용을 막는 것( ) 아니다."
+      },
+      "questions": [
+        {
+          "id": "V49R9",
+          "options": [
+            {
+              "id": "1",
+              "text": "은"
+            },
+            {
+              "id": "2",
+              "text": "에서"
+            },
+            {
+              "id": "3",
+              "text": "으로"
+            },
+            {
+              "id": "4",
+              "text": "와"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`-는 것은 아니다` = không hẳn là. Các lựa chọn khác không tạo thành mẫu này.",
+          "tags": [
+            "V/A + -(으)ㄴ/는 것은 아니다"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "lesson": "nhap-canh-01-san-bay-may-bay",
+  "items": [
+    {
+      "id": "nhap-canh-01-d1",
+      "kind": "dialogue",
+      "title_ko": "이륙 전에",
+      "title_vi": "Trước khi cất cánh",
+      "scene_vi": "Trên máy bay sắp cất cánh. 승무원 (F) nhắc một hành khách nam (M) về những việc cần làm.",
+      "speakers": {
+        "F": "승무원",
+        "M": "승객"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "손님, 잠시 후 비행기가 이륙하겠습니다. 좌석에 앉아 안전벨트를 매 주시기 바랍니다.",
+          "vi": "Thưa quý khách, lát nữa máy bay sẽ cất cánh. Xin hãy ngồi vào ghế và thắt dây an toàn."
+        },
+        {
+          "who": "M",
+          "ko": "네, 알겠습니다. 승무원님, 등받이는 어떻게 할까요?",
+          "vi": "Vâng, tôi hiểu rồi. Cô tiếp viên ơi, còn lưng ghế thì nên làm thế nào?"
+        },
+        {
+          "who": "F",
+          "ko": "이륙할 때까지 등받이를 세워 주시기 바랍니다. 선반 위의 짐도 제자리에 두세요.",
+          "vi": "Xin hãy dựng thẳng lưng ghế cho đến khi máy bay cất cánh. Hành lý trên giá cũng xin để yên đúng chỗ."
+        },
+        {
+          "who": "M",
+          "ko": "네. 저는 휴대폰을 비행기 모드로 바꿀 거예요. 언제까지 사용할 수 있어요?",
+          "vi": "Vâng. Tôi sẽ chuyển điện thoại sang chế độ máy bay. Dùng được đến khi nào ạ?"
+        },
+        {
+          "who": "F",
+          "ko": "비행기 모드로 바꾸면 기내에서도 사용할 수 있습니다. 하지만 안내 방송이 나올 때는 사용하지 마시기 바랍니다.",
+          "vi": "Nếu chuyển sang chế độ máy bay thì trong cabin vẫn dùng được. Nhưng khi có thông báo phát thanh thì xin đừng sử dụng."
+        },
+        {
+          "who": "M",
+          "ko": "알겠습니다. 기내식은 언제 나옵니까?",
+          "vi": "Tôi hiểu rồi. Khi nào thì có bữa ăn trên máy bay?"
+        },
+        {
+          "who": "F",
+          "ko": "이륙하고 한 시간쯤 후에 나올 예정입니다. 식사 때까지 편히 쉬세요.",
+          "vi": "Khoảng một giờ sau khi cất cánh sẽ có bữa ăn. Cho đến lúc đó quý khách cứ nghỉ ngơi thoải mái."
+        },
+        {
+          "who": "M",
+          "ko": "감사합니다.",
+          "vi": "Cảm ơn cô."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -겠-",
+          "regex": "이륙하겠습니다"
+        },
+        {
+          "pattern": "V + -아/어 주시기 바랍니다 · V + -지 마시기 바랍니다",
+          "regex": "매 주시기 바랍니다|사용하지 마시기 바랍니다"
+        },
+        {
+          "pattern": "V + -(으)ㄹ 때까지",
+          "regex": "이륙할 때까지|식사 때까지"
+        },
+        {
+          "pattern": "V + -(으)ㄹ 예정이다 · N + 예정이다",
+          "regex": "나올 예정입니다"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "안전벨트",
+          "seen": "안전벨트를"
+        },
+        {
+          "word": "이륙하다",
+          "seen": "이륙하겠습니다"
+        },
+        {
+          "word": "등받이",
+          "seen": "등받이는"
+        },
+        {
+          "word": "선반",
+          "seen": "선반 위의"
+        },
+        {
+          "word": "제자리",
+          "seen": "제자리에"
+        },
+        {
+          "word": "비행기 모드",
+          "seen": "비행기 모드로"
+        },
+        {
+          "word": "기내식",
+          "seen": "기내식은"
+        },
+        {
+          "word": "안내 방송",
+          "seen": "안내 방송이"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "편히",
+          "vi": "thoải mái, yên ổn"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Trước khi máy bay cất cánh, hành khách được nhắc làm gì?",
+          "options": [
+            "Thắt dây an toàn và dựng thẳng lưng ghế",
+            "Mở điện thoại gọi điện",
+            "Đứng dậy cất hành lý"
+          ],
+          "answer": 0,
+          "explain_vi": "승무원 nhắc “안전벨트를 매 주시기 바랍니다” và “등받이를 세워 주시기 바랍니다”: thắt dây an toàn và dựng thẳng lưng ghế."
+        },
+        {
+          "q_vi": "Khi nào thì xin đừng dùng điện thoại, dù đã chuyển sang chế độ máy bay?",
+          "options": [
+            "Khi ăn cơm",
+            "Khi có thông báo phát thanh",
+            "Khi máy bay đã cất cánh"
+          ],
+          "answer": 1,
+          "explain_vi": "“안내 방송이 나올 때는 사용하지 마시기 바랍니다”: khi có thông báo phát thanh thì không sử dụng."
+        },
+        {
+          "q_vi": "Bữa ăn trên máy bay sẽ được phát khi nào?",
+          "options": [
+            "Ngay khi lên máy bay",
+            "Khoảng một giờ sau khi cất cánh",
+            "Sau khi hạ cánh"
+          ],
+          "answer": 1,
+          "explain_vi": "승무원 nói “이륙하고 한 시간쯤 후에 나올 예정입니다”."
+        }
+      ]
+    },
+    {
+      "id": "nhap-canh-01-r1",
+      "kind": "reading",
+      "title_ko": "착륙 안내 방송",
+      "title_vi": "Thông báo trước khi hạ cánh",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "안녕하십니까? 기장입니다.",
+          "vi": "Kính chào quý khách. Tôi là cơ trưởng."
+        },
+        {
+          "who": "N",
+          "ko": "이 비행기는 잠시 후 인천 공항에 착륙하겠습니다.",
+          "vi": "Lát nữa chiếc máy bay này sẽ hạ cánh xuống sân bay Incheon."
+        },
+        {
+          "who": "N",
+          "ko": "현지 시각은 오후 세 시 십 분입니다.",
+          "vi": "Giờ địa phương hiện là ba giờ mười phút chiều."
+        },
+        {
+          "who": "N",
+          "ko": "승객 여러분은 비행기가 완전히 멈출 때까지 자리에서 일어나지 마시기 바랍니다.",
+          "vi": "Xin quý hành khách đừng đứng dậy khỏi chỗ cho đến khi máy bay dừng hẳn."
+        },
+        {
+          "who": "N",
+          "ko": "짐을 내릴 때는 조심해 주시기 바랍니다.",
+          "vi": "Khi lấy hành lý xuống, xin hãy cẩn thận."
+        },
+        {
+          "who": "N",
+          "ko": "입국 심사를 받고 수하물 수취대로 가 주시기 바랍니다.",
+          "vi": "Sau khi làm thủ tục kiểm tra nhập cảnh, xin hãy đến khu băng chuyền hành lý."
+        },
+        {
+          "who": "N",
+          "ko": "감사합니다.",
+          "vi": "Xin cảm ơn."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -겠-",
+          "regex": "착륙하겠습니다"
+        },
+        {
+          "pattern": "V + -(으)ㄹ 때까지",
+          "regex": "멈출 때까지"
+        },
+        {
+          "pattern": "V + -아/어 주시기 바랍니다 · V + -지 마시기 바랍니다",
+          "regex": "일어나지 마시기 바랍니다|조심해 주시기 바랍니다|가 주시기 바랍니다"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "기장",
+          "seen": "기장입니다"
+        },
+        {
+          "word": "착륙하다",
+          "seen": "착륙하겠습니다"
+        },
+        {
+          "word": "현지 시각",
+          "seen": "현지 시각은"
+        },
+        {
+          "word": "완전히",
+          "seen": "완전히"
+        },
+        {
+          "word": "멈추다",
+          "seen": "멈출"
+        },
+        {
+          "word": "입국 심사",
+          "seen": "입국 심사를"
+        },
+        {
+          "word": "수하물 수취대",
+          "seen": "수하물 수취대로"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "승객",
+          "vi": "hành khách"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Khi nào hành khách có thể đứng dậy khỏi chỗ?",
+          "options": [
+            "Khi máy bay dừng hẳn",
+            "Ngay khi máy bay hạ cánh",
+            "Khi đèn thắt dây an toàn tắt"
+          ],
+          "answer": 0,
+          "explain_vi": "“비행기가 완전히 멈출 때까지 자리에서 일어나지 마시기 바랍니다”: đừng đứng dậy cho đến khi máy bay dừng hẳn."
+        },
+        {
+          "q_vi": "Sau khi làm thủ tục kiểm tra nhập cảnh, hành khách đi đến đâu?",
+          "options": [
+            "Quầy đổi tiền",
+            "Khu băng chuyền hành lý",
+            "Cửa lên máy bay"
+          ],
+          "answer": 1,
+          "explain_vi": "“입국 심사를 받고 수하물 수취대로 가 주시기 바랍니다”: sau kiểm tra nhập cảnh hãy đến khu băng chuyền hành lý."
+        }
+      ]
+    }
+  ]
+}

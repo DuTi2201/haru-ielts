@@ -1,0 +1,1376 @@
+{
+  "slug": "sinh-hoat-00-nen-tang-5c-danh-tu-hoa",
+  "title": "Nền tảng 5.3 · Việc đọc sách: -는 것, -기 & -(으)ㅁ",
+  "title_ko": "기초 5-3: 책을 읽는 것",
+  "topic": "Nhập môn",
+  "track": "beginner",
+  "level": 1,
+  "summary": "Biến động từ thành danh từ: '-는 것' (việc…), '-기' (sau '쉽다', '어렵다', tên kỹ năng '듣기', '쓰기') và '-(으)ㅁ' trong văn viết, ghi chú; viết đoạn về sở thích dùng cả Nền tảng 5.",
+  "vocab": [
+    {
+      "hangul": "취미",
+      "pos": "N",
+      "meaning_vi": "Sở thích",
+      "example_ko": "제 취미는 음악을 듣는 것이에요.",
+      "example_vi": "Sở thích của tôi là nghe nhạc.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "趣味",
+      "sino_vietnamese": "thú vị",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "건강",
+      "pos": "N",
+      "meaning_vi": "Sức khỏe",
+      "example_ko": "건강이 제일 중요해요.",
+      "example_vi": "Sức khỏe là quan trọng nhất.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "健康",
+      "sino_vietnamese": "kiện khang",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "자다",
+      "pos": "V",
+      "meaning_vi": "Ngủ",
+      "note_vi": "Danh từ: 잠 (giấc ngủ).",
+      "example_ko": "어제 열한 시에 잤어요.",
+      "example_vi": "Hôm qua tôi ngủ lúc 11 giờ.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "잠",
+      "pos": "N",
+      "meaning_vi": "Giấc ngủ",
+      "note_vi": "Từ cố định (자다 + -ㅁ). Hay gặp: 잠을 자다 (ngủ), 잠이 오다 (buồn ngủ).",
+      "example_ko": "잠이 와요.",
+      "example_vi": "Tôi buồn ngủ.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "꿈",
+      "pos": "N",
+      "meaning_vi": "Giấc mơ; ước mơ",
+      "note_vi": "Từ 꾸다 + -ㅁ: 꿈을 꾸다 (mơ).",
+      "example_ko": "꿈이 있어요.",
+      "example_vi": "Tôi có ước mơ.",
+      "exam": "kiip-2",
+      "priority": "core"
+    },
+    {
+      "hangul": "웃음",
+      "pron": "[우슴]",
+      "pos": "N",
+      "meaning_vi": "Nụ cười, tiếng cười",
+      "note_vi": "웃다 + -음.",
+      "example_ko": "웃음은 건강에 좋아요.",
+      "example_vi": "Cười tốt cho sức khỏe.",
+      "exam": "kiip-2",
+      "priority": "core"
+    },
+    {
+      "hangul": "기쁨",
+      "pos": "N",
+      "meaning_vi": "Niềm vui",
+      "note_vi": "기쁘다 + -ㅁ.",
+      "example_ko": "기쁨이 커요.",
+      "example_vi": "Niềm vui rất lớn.",
+      "exam": "kiip-2",
+      "priority": "core"
+    },
+    {
+      "hangul": "만남",
+      "pos": "N",
+      "meaning_vi": "Cuộc gặp, sự gặp gỡ",
+      "note_vi": "만나다 + -ㅁ.",
+      "example_ko": "오늘 만남이 즐거웠어요.",
+      "example_vi": "Cuộc gặp hôm nay thật vui.",
+      "exam": "kiip-2",
+      "priority": "core"
+    },
+    {
+      "hangul": "삶",
+      "pron": "[삼]",
+      "pos": "N",
+      "meaning_vi": "Cuộc sống, cuộc đời",
+      "note_vi": "살다 + -ㅁ → 삶 (ㄹ giữ lại làm patchim ㄻ).",
+      "example_ko": "삶이 즐거워요.",
+      "example_vi": "Cuộc sống thật vui.",
+      "exam": "kiip-2",
+      "priority": "core"
+    },
+    {
+      "hangul": "가벼워지다",
+      "pos": "V",
+      "meaning_vi": "Trở nên nhẹ, nhẹ nhõm",
+      "example_ko": "이야기하니까 마음이 가벼워졌어요.",
+      "example_vi": "Nói ra rồi lòng tôi thấy nhẹ nhõm.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "recognize",
+      "source": "krdict:91176",
+      "collocations": [
+        {
+          "ko": "마음이 가벼워지다",
+          "vi": "Lòng nhẹ nhõm"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "간단하다",
+      "pos": "A",
+      "meaning_vi": "Đơn giản, ngắn gọn",
+      "example_ko": "점심은 간단하게 먹었어요.",
+      "example_vi": "Bữa trưa tôi ăn đơn giản.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:70702",
+      "hanja": "簡單",
+      "collocations": [
+        {
+          "ko": "간단한 설명",
+          "vi": "Giải thích ngắn gọn"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "giản đơn"
+    },
+    {
+      "hangul": "강하다",
+      "pos": "A",
+      "meaning_vi": "Cứng, chắc; mạnh",
+      "note_vi": "Trái nghĩa: 약하다. Vd: 바람이 강하다 «gió mạnh».",
+      "example_ko": "이 상자는 아주 강해요.",
+      "example_vi": "Cái thùng này rất chắc chắn.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "recognize",
+      "source": "krdict:22718",
+      "hanja": "剛",
+      "enrich": "auto",
+      "sino_vietnamese": "cương"
+    },
+    {
+      "hangul": "그대로",
+      "pos": "N",
+      "meaning_vi": "Như cũ, y nguyên",
+      "note_vi": "Cũng dùng như trạng từ: 그대로 두세요 «cứ để nguyên».",
+      "example_ko": "제 방은 옛날 그대로예요.",
+      "example_vi": "Phòng tôi vẫn y như ngày xưa.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:93615",
+      "collocations": [
+        {
+          "ko": "있는 그대로의 모습",
+          "vi": "Dáng vẻ vốn có"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "깊이",
+      "pos": "X",
+      "meaning_vi": "Sâu, sâu sắc",
+      "note_vi": "Trạng từ. Đồng âm danh từ 깊이 «độ sâu».",
+      "example_ko": "깊이 생각해 보세요.",
+      "example_vi": "Hãy suy nghĩ thật kỹ.",
+      "pron": "[기피]",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "recognize",
+      "source": "krdict:45169",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "깜짝",
+      "pos": "X",
+      "meaning_vi": "Giật mình, hết hồn",
+      "note_vi": "Hay dùng 깜짝 놀라다 «giật cả mình».",
+      "example_ko": "소리가 커서 깜짝 놀랐어요.",
+      "example_vi": "Tiếng to quá nên tôi giật mình.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:37744",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "단순",
+      "pos": "N",
+      "meaning_vi": "Sự đơn giản, đơn thuần",
+      "note_vi": "Đứng trước danh từ: 단순 실수 «lỗi đơn thuần». Tính từ: 단순하다.",
+      "example_ko": "그건 단순 실수예요.",
+      "example_vi": "Đó chỉ là lỗi đơn thuần.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "recognize",
+      "source": "krdict:28372",
+      "hanja": "單純",
+      "collocations": [
+        {
+          "ko": "단순 반복",
+          "vi": "Lặp lại đơn thuần"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "đơn thuần"
+    },
+    {
+      "hangul": "단순하다",
+      "pos": "A",
+      "meaning_vi": "Đơn giản, đơn thuần",
+      "example_ko": "이 게임은 규칙이 단순해요.",
+      "example_vi": "Trò chơi này có luật đơn giản.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:42213",
+      "hanja": "單純",
+      "collocations": [
+        {
+          "ko": "단순한 방법",
+          "vi": "Cách đơn giản"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "đơn thuần"
+    },
+    {
+      "hangul": "멋있다",
+      "pos": "A",
+      "meaning_vi": "Đẹp, ngầu, tuyệt",
+      "note_vi": "Khen người, vật có phong cách: 멋있는 남자. Trái nghĩa: 멋없다.",
+      "example_ko": "그 배우는 정말 멋있어요.",
+      "example_vi": "Diễn viên đó ngầu thật.",
+      "pron": "[머딛따]",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:15989",
+      "collocations": [
+        {
+          "ko": "멋있는 목소리",
+          "vi": "Giọng nói hay"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "무겁다",
+      "pos": "A",
+      "meaning_vi": "Nặng",
+      "note_vi": "Bất quy tắc ㅂ: 무거워요. Trái nghĩa: 가볍다.",
+      "example_ko": "가방이 너무 무거워요.",
+      "example_vi": "Cái túi nặng quá.",
+      "pron": "[무겁따]",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:58159",
+      "collocations": [
+        {
+          "ko": "무거운 짐",
+          "vi": "Hành lý nặng"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "반대되다",
+      "pos": "V",
+      "meaning_vi": "Trái ngược, đối lập",
+      "example_ko": "두 사람은 성격이 반대돼요.",
+      "example_vi": "Hai người có tính cách trái ngược nhau.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "recognize",
+      "source": "krdict:90169",
+      "hanja": "反對",
+      "collocations": [
+        {
+          "ko": "반대되는 모양",
+          "vi": "Hình dạng trái ngược"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "phản đối"
+    },
+    {
+      "hangul": "별로",
+      "pos": "X",
+      "meaning_vi": "(Không) … lắm",
+      "note_vi": "Đi với phủ định: 별로 안 비싸요 «không đắt lắm». 별로예요 «không ra gì, không hay».",
+      "example_ko": "오늘은 별로 안 추워요.",
+      "example_vi": "Hôm nay không lạnh lắm.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:58301",
+      "hanja": "別",
+      "collocations": [
+        {
+          "ko": "별로 좋지 않다",
+          "vi": "Không tốt lắm"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "biệt"
+    },
+    {
+      "hangul": "분명하다",
+      "pos": "A",
+      "meaning_vi": "Rõ ràng",
+      "example_ko": "발음이 아주 분명해요.",
+      "example_vi": "Phát âm rất rõ ràng.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:21098",
+      "hanja": "分明",
+      "collocations": [
+        {
+          "ko": "발음이 분명하다",
+          "vi": "Phát âm rõ ràng"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "phân minh"
+    },
+    {
+      "hangul": "새것",
+      "pos": "N",
+      "meaning_vi": "Đồ mới, cái mới",
+      "example_ko": "이 가방은 새것이에요.",
+      "example_vi": "Cái túi này là đồ mới.",
+      "pron": "[새걷]",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:83551",
+      "collocations": [
+        {
+          "ko": "새것으로 교환하다",
+          "vi": "Đổi lấy cái mới"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "새롭다",
+      "pos": "A",
+      "meaning_vi": "Mới, mới mẻ",
+      "note_vi": "Bất quy tắc ㅂ: 새로워요, 새로운. Trước danh từ cũng dùng 새: 새 옷.",
+      "example_ko": "새로운 친구를 만났어요.",
+      "example_vi": "Tôi đã gặp một người bạn mới.",
+      "pron": "[새롭따]",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:29029",
+      "collocations": [
+        {
+          "ko": "새로운 사실",
+          "vi": "Sự thật mới"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "신선도",
+      "pos": "N",
+      "meaning_vi": "Độ tươi",
+      "example_ko": "생선은 신선도가 중요해요.",
+      "example_vi": "Cá thì độ tươi rất quan trọng.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "recognize",
+      "source": "krdict:601738",
+      "hanja": "新鮮度",
+      "collocations": [
+        {
+          "ko": "신선도가 떨어지다",
+          "vi": "Kém tươi"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "tân tiên độ"
+    },
+    {
+      "hangul": "신선하다",
+      "pos": "A",
+      "meaning_vi": "Tươi, trong lành",
+      "example_ko": "이 가게는 과일이 신선해요.",
+      "example_vi": "Cửa hàng này trái cây tươi.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:65343",
+      "hanja": "新鮮",
+      "collocations": [
+        {
+          "ko": "신선한 바람",
+          "vi": "Làn gió trong lành"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "tân tiên"
+    },
+    {
+      "hangul": "심하다",
+      "pos": "A",
+      "meaning_vi": "Nặng, nghiêm trọng, quá mức",
+      "example_ko": "감기가 심해서 병원에 갔어요.",
+      "example_vi": "Cảm nặng quá nên tôi đi bệnh viện.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:65046",
+      "hanja": "甚",
+      "collocations": [
+        {
+          "ko": "심한 감기",
+          "vi": "Cảm nặng"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "thậm"
+    },
+    {
+      "hangul": "아름다움",
+      "pos": "N",
+      "meaning_vi": "Vẻ đẹp, cái đẹp",
+      "note_vi": "Danh từ hóa của 아름답다 bằng -(으)ㅁ.",
+      "example_ko": "자연의 아름다움을 느꼈어요.",
+      "example_vi": "Tôi cảm nhận được vẻ đẹp của thiên nhiên.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "recognize",
+      "source": "krdict:66822",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "아마",
+      "pos": "X",
+      "meaning_vi": "Có lẽ, chắc là",
+      "note_vi": "Hay đi với -(으)ㄹ 거예요: 아마 비가 올 거예요.",
+      "example_ko": "아마 내일 비가 올 거예요.",
+      "example_vi": "Có lẽ ngày mai trời sẽ mưa.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:71248",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "아무리",
+      "pos": "X",
+      "meaning_vi": "Dù … đến mấy",
+      "note_vi": "Đi với -아/어도: 아무리 바빠도 «dù bận đến mấy».",
+      "example_ko": "아무리 바빠도 밥은 먹어요.",
+      "example_vi": "Dù bận đến mấy tôi vẫn ăn cơm.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:71338",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "안전하다",
+      "pos": "A",
+      "meaning_vi": "An toàn",
+      "example_ko": "여기는 밤에도 안전해요.",
+      "example_vi": "Ở đây ban đêm cũng an toàn.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:71374",
+      "hanja": "安全",
+      "collocations": [
+        {
+          "ko": "안전한 곳",
+          "vi": "Nơi an toàn"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "an toàn"
+    },
+    {
+      "hangul": "알맞다",
+      "pos": "A",
+      "meaning_vi": "Vừa, phù hợp",
+      "note_vi": "Tính từ: 알맞은 (không phải 알맞는).",
+      "example_ko": "알맞은 말을 고르세요.",
+      "example_vi": "Hãy chọn từ phù hợp.",
+      "pron": "[알맏따]",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:71501",
+      "collocations": [
+        {
+          "ko": "알맞은 단어",
+          "vi": "Từ phù hợp"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "열리다",
+      "pos": "V",
+      "meaning_vi": "Được mở, mở ra",
+      "note_vi": "N이/가 열리다 (tự mở). Còn N을/를 열다 là người mở.",
+      "example_ko": "바람에 문이 열렸어요.",
+      "example_vi": "Cửa bị gió thổi mở ra.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:74352",
+      "collocations": [
+        {
+          "ko": "문이 열리다",
+          "vi": "Cửa mở"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "오르다",
+      "pos": "V",
+      "meaning_vi": "Leo lên, lên; tăng (giá)",
+      "note_vi": "Bất quy tắc 르: 올라요. N에 오르다 / N을/를 오르다. Vd: 물가가 오르다.",
+      "example_ko": "주말에 산에 올랐어요.",
+      "example_vi": "Cuối tuần tôi đã leo núi.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:69518",
+      "collocations": [
+        {
+          "ko": "계단을 오르다",
+          "vi": "Leo cầu thang"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "위험하다",
+      "pos": "A",
+      "meaning_vi": "Nguy hiểm",
+      "example_ko": "밤에 혼자 다니면 위험해요.",
+      "example_vi": "Đi một mình ban đêm thì nguy hiểm.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:69909",
+      "hanja": "危險",
+      "collocations": [
+        {
+          "ko": "위험한 물건",
+          "vi": "Đồ vật nguy hiểm"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "nguy hiểm"
+    },
+    {
+      "hangul": "유명",
+      "pos": "N",
+      "meaning_vi": "Sự nổi tiếng",
+      "note_vi": "Đứng trước danh từ: 유명 가수. Thường dùng tính từ 유명하다.",
+      "example_ko": "유명 가수가 우리 학교에 왔어요.",
+      "example_vi": "Một ca sĩ nổi tiếng đã đến trường tôi.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "recognize",
+      "source": "krdict:70383",
+      "hanja": "有名",
+      "collocations": [
+        {
+          "ko": "유명 관광지",
+          "vi": "Điểm du lịch nổi tiếng"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "hữu danh"
+    },
+    {
+      "hangul": "이상",
+      "pos": "N",
+      "meaning_vi": "Sự bất thường, trục trặc",
+      "note_vi": "Đồng âm 이상 (以上) «trở lên»: 열 명 이상.",
+      "example_ko": "차에 이상이 생겼어요.",
+      "example_vi": "Xe bị trục trặc rồi.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "recognize",
+      "source": "krdict:71168",
+      "hanja": "異常",
+      "collocations": [
+        {
+          "ko": "이상이 나타나다",
+          "vi": "Có dấu hiệu bất thường"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "dị thường"
+    },
+    {
+      "hangul": "이상하다",
+      "pos": "A",
+      "meaning_vi": "Lạ, kỳ lạ",
+      "example_ko": "우유 냄새가 이상해요.",
+      "example_vi": "Sữa có mùi lạ.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:71167",
+      "hanja": "異常",
+      "collocations": [
+        {
+          "ko": "냄새가 이상하다",
+          "vi": "Có mùi lạ"
+        },
+        {
+          "ko": "몸이 이상하다",
+          "vi": "Người thấy khó chịu"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "dị thường"
+    },
+    {
+      "hangul": "자세히",
+      "pos": "X",
+      "meaning_vi": "Kỹ, chi tiết",
+      "example_ko": "자세히 설명해 주세요.",
+      "example_vi": "Xin giải thích chi tiết giúp tôi.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:71196",
+      "hanja": "仔細",
+      "collocations": [
+        {
+          "ko": "자세히 보다",
+          "vi": "Xem kỹ"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "tử tế"
+    },
+    {
+      "hangul": "잘",
+      "pos": "X",
+      "meaning_vi": "Tốt, giỏi; kỹ",
+      "note_vi": "잘하다 «giỏi», 잘 먹겠습니다 «xin phép ăn ạ». Trái nghĩa: 못.",
+      "example_ko": "한국어를 잘 몰라요.",
+      "example_vi": "Tôi không rành tiếng Hàn lắm.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:58939",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "적다",
+      "pos": "V",
+      "meaning_vi": "Ghi, chép",
+      "note_vi": "N을/를 적다 = 쓰다. Đồng âm tính từ 적다 «ít».",
+      "example_ko": "여기에 이름을 적어 주세요.",
+      "example_vi": "Xin ghi tên vào đây.",
+      "pron": "[적따]",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:71234",
+      "collocations": [
+        {
+          "ko": "연락처를 적다",
+          "vi": "Ghi số liên lạc"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "적당하다",
+      "pos": "A",
+      "meaning_vi": "Vừa phải, thích hợp",
+      "example_ko": "가격이 적당해요.",
+      "example_vi": "Giá cả vừa phải.",
+      "pron": "[적땅하다]",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:70823",
+      "hanja": "適當",
+      "collocations": [
+        {
+          "ko": "적당한 가격",
+          "vi": "Giá phải chăng"
+        },
+        {
+          "ko": "적당한 장소",
+          "vi": "Địa điểm thích hợp"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "thích đương"
+    },
+    {
+      "hangul": "정도",
+      "pos": "N",
+      "meaning_vi": "Mức độ, khoảng",
+      "note_vi": "Sau số lượng = «khoảng»: 한 시간 정도.",
+      "example_ko": "한 시간 정도 걸려요.",
+      "example_vi": "Mất khoảng một tiếng.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:70876",
+      "hanja": "程度",
+      "collocations": [
+        {
+          "ko": "어느 정도",
+          "vi": "Ở mức nào đó"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "trình độ"
+    },
+    {
+      "hangul": "정확",
+      "pos": "N",
+      "meaning_vi": "Sự chính xác",
+      "note_vi": "Thường dùng 정확하다, 정확히.",
+      "example_ko": "우리 회사는 신속과 정확을 보장해요.",
+      "example_vi": "Công ty chúng tôi đảm bảo nhanh chóng và chính xác.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "recognize",
+      "source": "krdict:75452",
+      "hanja": "正確",
+      "enrich": "auto",
+      "sino_vietnamese": "chính xác"
+    },
+    {
+      "hangul": "좀",
+      "pos": "X",
+      "meaning_vi": "Một chút, hơi; làm ơn",
+      "note_vi": "Rút gọn của 조금. Còn làm mềm lời nhờ: 좀 도와주세요.",
+      "example_ko": "좀 비싸요.",
+      "example_vi": "Hơi đắt.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:75798",
+      "collocations": [
+        {
+          "ko": "좀 비싸다",
+          "vi": "Hơi đắt"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "중요",
+      "pos": "N",
+      "meaning_vi": "Sự quan trọng",
+      "note_vi": "Đứng trước danh từ: 중요 내용. Thường dùng tính từ 중요하다.",
+      "example_ko": "중요 내용에 밑줄을 그으세요.",
+      "example_vi": "Hãy gạch chân nội dung quan trọng.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "recognize",
+      "source": "krdict:91872",
+      "hanja": "重要",
+      "collocations": [
+        {
+          "ko": "중요 내용",
+          "vi": "Nội dung quan trọng"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "trọng yếu"
+    },
+    {
+      "hangul": "진짜",
+      "pos": "N",
+      "meaning_vi": "Đồ thật; thật sự",
+      "note_vi": "Văn nói hay dùng như trạng từ: 진짜 맛있어요 «ngon thật sự». Trái nghĩa: 가짜.",
+      "example_ko": "이거 진짜 금이에요?",
+      "example_vi": "Đây là vàng thật à?",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:71538",
+      "hanja": "眞",
+      "collocations": [
+        {
+          "ko": "진짜 돈",
+          "vi": "Tiền thật"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "chân"
+    },
+    {
+      "hangul": "진하다",
+      "pos": "A",
+      "meaning_vi": "Đậm, đặc",
+      "note_vi": "Trái nghĩa: 연하다 «nhạt».",
+      "example_ko": "커피가 너무 진해요.",
+      "example_vi": "Cà phê đậm quá.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:71356",
+      "hanja": "津",
+      "collocations": [
+        {
+          "ko": "진한 국물",
+          "vi": "Nước dùng đậm đà"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "tân"
+    },
+    {
+      "hangul": "최고",
+      "pos": "N",
+      "meaning_vi": "Cao nhất, tuyệt nhất",
+      "note_vi": "Văn nói: 최고예요! «Tuyệt nhất!».",
+      "example_ko": "이 식당 음식은 최고예요!",
+      "example_vi": "Đồ ăn quán này là nhất!",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:47976",
+      "hanja": "最高",
+      "collocations": [
+        {
+          "ko": "최고 기온",
+          "vi": "Nhiệt độ cao nhất"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "tối cao"
+    },
+    {
+      "hangul": "최저",
+      "pos": "N",
+      "meaning_vi": "Thấp nhất",
+      "example_ko": "오늘 최저 기온은 영하 오 도예요.",
+      "example_vi": "Nhiệt độ thấp nhất hôm nay là âm năm độ.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:27783",
+      "hanja": "最低",
+      "collocations": [
+        {
+          "ko": "최저 가격",
+          "vi": "Giá thấp nhất"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "tối đê"
+    },
+    {
+      "hangul": "푹",
+      "pos": "X",
+      "meaning_vi": "(Ngủ) say, (nghỉ) thật thoải mái",
+      "note_vi": "Hay dùng: 푹 자다, 푹 쉬다.",
+      "example_ko": "주말에 푹 쉬세요.",
+      "example_vi": "Cuối tuần hãy nghỉ ngơi thật thoải mái.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:83605",
+      "collocations": [
+        {
+          "ko": "푹 자다",
+          "vi": "Ngủ say"
+        },
+        {
+          "ko": "푹 쉬다",
+          "vi": "Nghỉ ngơi thoải mái"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "필요하다",
+      "pos": "A",
+      "meaning_vi": "Cần, cần thiết",
+      "note_vi": "N이/가 필요하다: 돈이 필요해요 (không dùng 을/를).",
+      "example_ko": "저는 도움이 필요해요.",
+      "example_vi": "Tôi cần được giúp đỡ.",
+      "pron": "[피료하다]",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:46945",
+      "hanja": "必要",
+      "collocations": [
+        {
+          "ko": "필요한 것",
+          "vi": "Thứ cần thiết"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "tất yếu"
+    },
+    {
+      "hangul": "화려하다",
+      "pos": "A",
+      "meaning_vi": "Lộng lẫy, sặc sỡ",
+      "example_ko": "그 옷은 너무 화려해요.",
+      "example_vi": "Bộ đồ đó lòe loẹt quá.",
+      "family": "🟢 Nền · Từ sơ cấp · Tính chất & mức độ",
+      "priority": "core",
+      "source": "krdict:73229",
+      "hanja": "華麗",
+      "collocations": [
+        {
+          "ko": "화려한 장식",
+          "vi": "Trang trí lộng lẫy"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "hoa lệ"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Sau bài này bạn làm được gì",
+      "kind": "goal",
+      "body": "• Nói sở thích, việc mình làm bằng `-는 것`: `제 취미는 음악을 듣는 것이에요`.\n• Dùng `-기` sau `쉽다`, `어렵다`, `좋다` và trong tên kỹ năng.\n• Nhận ra `-(으)ㅁ` trong ghi chú, thông báo và danh từ cố định (`웃음`, `만남`)."
+    },
+    {
+      "title": "Danh từ hoá: chọn -는 것, -기 hay -(으)ㅁ",
+      "kind": "language",
+      "body": "• `-는 것` (hay `-는 게/걸` khi nói): 'việc ...', dùng với `알다`, `보다`, `듣다`, `좋아하다`, và các vị ngữ như `중요하다`, `재미있다`, `필요하다`.\n• `-기`: dùng sau `쉽다`, `어렵다`, `편하다`, `힘들다`, `좋다` (kiểu 'dễ đọc', 'khó nói', 'tiện sống'), trong `-기 전에`, `-기 때문에`, `-기로 하다`, và tên các kỹ năng: `듣기`, `읽기`, `쓰기`, `말하기`.\n• `-(으)ㅁ`: văn viết, ghi chú ngắn, thông báo (`내일 시험 있음`) và nhiều danh từ cố định (`웃음`, `기쁨`, `만남`, `삶`).\n• Trong khẩu ngữ hằng ngày, `-는 것` là lựa chọn an toàn nhất."
+    }
+  ],
+  "coach": {
+    "focus_vi": [
+      "`V + -는 것` · `V + -기` · `V/A + -(으)ㅁ`."
+    ],
+    "watch_out_vi": [
+      "Khi nói, `-는 것이` thường thành `-는 게`, `-는 것을` thành `-는 걸`.",
+      "Không chắc thì dùng `-는 것`: an toàn nhất trong khẩu ngữ."
+    ],
+    "notebook_vi": [
+      "Đoạn 4–5 câu về sở thích của bạn, dùng `-는 것` và `-기`."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Nói sở thích của bạn và một việc «dễ làm», một việc «khó làm» bằng `-기`."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "pattern": "V + -는 것 · V + -기 (danh từ hoá)",
+      "meaning_vi": "Biến động từ thành danh từ: 'việc …' (-는 것) · 'sự …' (-기)",
+      "usage_context_vi": "**Cấu tạo:** Hai cách biến động từ thành danh từ: gốc + `-는 것` hoặc gốc + `-기`.\n| Dạng | Cách thêm | Ví dụ |\n| **-는 것** (hiện tại) | gốc + `-는 것` | `먹는 것`, `읽는 것`, `공부하는 것` |\n| **-(으)ㄴ 것** (quá khứ) | gốc + `-(으)ㄴ 것` | `먹은 것` |\n| **-(으)ㄹ 것** (tương lai) | gốc + `-(으)ㄹ 것` | `먹을 것` |\n| **-기** | gốc + `-기` | `먹기`, `읽기`, `쓰기`, `말하기`, `듣기` |\nKhẩu ngữ: `것` → `거`, `것이` → `게`, `것을` → `걸`: `먹는 게`, `공부하는 걸`\nTiểu từ theo patchim: `것` có patchim `ㅅ` nên `것이/것을/것은`; `-기` không patchim nên `-기가/-기를/-기는`.\nGốc `ㄹ`: bỏ `ㄹ` trước `-는 것` (`사는 것`, `만드는 것`) nhưng giữ trước `-기` (`살기`, `만들기`).\n**Hoàn cảnh dùng:** `-는 것` nói 'việc làm ...' làm chủ ngữ hoặc tân ngữ: `한국어를 공부하는 것이 재미있어요`, `저는 음악을 듣는 것을 좋아해요`. `-기` đi với `쉽다/어렵다/편하다/힘들다/좋다` và trong các cụm cố định: `읽기 쉬워요`, `살기 편해요`, `먹기 전에`, `-기 때문에`. Cũng là tên bốn kỹ năng thi: `듣기`, `읽기`, `쓰기`, `말하기`.\n**Vì sao có hai dạng `-는 것` và `-기`:** Hai dạng đều tạo danh từ từ động từ. `-는 것` nói về 'việc/sự việc cụ thể đang diễn ra hay tồn tại' nên hợp với `알다`, `보다`, `듣다`, `좋아하다` và vị ngữ đánh giá (`중요하다`, `재미있다`). `-기` nói về 'hành động như một khái niệm hoặc mức độ làm được' nên hợp với `쉽다/어렵다/편하다/좋다` và các mẫu cố định (`-기 전에`, `-기 때문에`). Trong khẩu ngữ, `-는 것` là lựa chọn an toàn nhất.",
+      "contrasts": [
+        {
+          "pattern": "V + -기 전에 (bài Học tập)",
+          "diff_vi": "Cụm cố định; ✗ `먹는 것 전에`."
+        },
+        {
+          "pattern": "V + -는 게 좋다 (bài Sức khỏe)",
+          "diff_vi": "Rút gọn của `-는 것이 좋다`: khuyên nhủ."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Bỏ danh từ hoá: ✗ `한국어를 공부해요가 재미있어요` → `한국어를 공부하는 것이 재미있어요`.\n(2) Viết liền `것`: ✗ `먹는것`, `먹을것이` → `먹는 것`, `먹을 것이` (phải cách chữ).\n(3) Dùng `-는 것` với `전에`: ✗ `먹는 것 전에` → `먹기 전에`.\n(4) Chọn sai tiểu từ theo patchim: ✗ `먹는 것가`, `읽기이` → `먹는 것이`, `읽기가`.\n(5) Dùng `-기` ở chỗ cần `-는 것` với `중요하다`: `한국어를 공부하는 것이 중요해요` tự nhiên hơn `공부하기가 중요해요`.\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc và nhãn kỳ thi đối chiếu với KIIP 초급1 16과 (V-는 것) · 초급2 8과 (-기 전에, -기로 하다) · 표준국어대사전 (-기 · 것).",
+      "topik_tip_vi": "Bài thi hay đặt `-는 것` làm chủ ngữ/tân ngữ và `-기` trước `전에`, `때문에`, `쉽다/어렵다`. Dấu hiệu: nếu sau chỗ trống là `전에/때문에/쉽다/어렵다/좋다` thì thử `-기` trước; nếu là `이/을/은 + vị ngữ đánh giá` thì thử `-는 것`.",
+      "example_ko": "한국어를 공부하는 것이 재미있어요.\n저는 음악을 듣는 것을 좋아해요.\n한국어 말하기가 어려워요.\n이 책은 읽기 쉬워요.\n요리하는 게 재미있어요.\n집에 먹을 것이 없어요.",
+      "example_vi": "Học tiếng Hàn rất thú vị.\nTôi thích nghe nhạc.\nNói tiếng Hàn khó.\nQuyển sách này dễ đọc.\nNấu ăn thật vui.\nỞ nhà không có gì để ăn.",
+      "source": "KIIP 초급1 16과 (V-는 것) · 초급2 8과 (-기 전에, -기로 하다) · 표준국어대사전 (-기 · 것)",
+      "exam": "kiip-1",
+      "importance": "must"
+    },
+    {
+      "pattern": "V/A + -(으)ㅁ (danh từ hoá văn viết)",
+      "meaning_vi": "Biến động từ/tính từ thành danh từ: dạng ghi chú, thông báo và danh từ cố định",
+      "usage_context_vi": "**Cấu tạo:** Gốc + `-(으)ㅁ` biến động từ hoặc tính từ thành danh từ.\n- Gốc nguyên âm + `-ㅁ`: `자다` → `잠`, `꾸다` → `꿈`, `기쁘다` → `기쁨`, `슬프다` → `슬픔`, `만나다` → `만남`, `하다` → `함`\n- Gốc có patchim + `-음`: `웃다` → `웃음`, `믿다` → `믿음`, `먹다` → `먹음`\n- Gốc `ㄹ` giữ `ㄹ`: `살다` → `삶`, `알다` → `앎`, `만들다` → `만듦`\n- `ㄷ` bất quy tắc: `걷다` → `걸음`\nQuá khứ: `-았/었음` (`먹었음`)\n**Hoàn cảnh dùng:** (1) Danh từ đã cố định trong từ vựng: `웃음`, `기쁨`, `만남`, `삶`, `꿈`, `잠`, `걸음`. (2) Văn viết ngắn: ghi chú, thông báo, biên bản: `내일 시험 있음`, `문 닫음`, `회의 취소함`. (3) Tiêu đề, khẩu hiệu. Trong lời nói thường ngày hầu như không dùng.\n**Vì sao chỉ cần nhận ra, chưa cần tự tạo:** Ở trình độ này, `-(으)ㅁ` quan trọng ở chỗ ĐỌC hiểu các danh từ cố định và dòng ghi chú; tự tạo danh từ mới từ mọi động từ thường nghe gượng (✗ `먹음을 좋아해요` → `먹는 것을 좋아해요`). Với lời nói và bài viết thường dùng `-는 것` hoặc `-기`.",
+      "contrasts": [
+        {
+          "pattern": "V + -는 것 · V + -기",
+          "diff_vi": "Dạng danh từ hoá dùng được với mọi động từ, tự nhiên trong lời nói."
+        },
+        {
+          "pattern": "Danh từ có sẵn",
+          "diff_vi": "Nhiều từ `-(으)ㅁ` đã là từ riêng (`웃음`, `삶`); học theo từng từ."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Bỏ `ㄹ` của gốc ㄹ: ✗ `사음`, `아음`, `만드음` → `삶`, `앎`, `만듦`.\n(2) Dùng `-ㅁ` cho gốc có patchim: ✗ `웃ㅁ`, `믿ㅁ` → `웃음`, `믿음`.\n(3) Tự tạo danh từ cho mọi động từ trong lời nói: ✗ `먹음을 좋아해요` → `먹는 것을 좋아해요`.\n(4) Coi mọi từ có đuôi `-ㅁ` là dạng ngữ pháp: `그림` (tranh) và `춤` (điệu nhảy) là từ riêng, học theo từng từ.\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc và nhãn kỳ thi đối chiếu với KIIP 초급2 16과 (V-음) · 표준국어대사전 (명사형 어미 -(으)ㅁ).",
+      "topik_tip_vi": "Gặp dòng ghi chú kết thúc bằng `-음`, `-ㅁ` (thông báo, biên bản) thì hiểu là danh từ hoá, tương đương câu kể. Phần Đọc có thể dùng dạng này ở thông báo, bảng tin.",
+      "example_ko": "웃음은 건강에 좋아요.\n저는 삶이 즐거워요.\n오늘 만남이 즐거웠어요.\n꿈을 꿔요.\n내일 시험 있음\n기쁨이 커요.",
+      "example_vi": "Tiếng cười tốt cho sức khỏe.\nCuộc sống của tôi thật vui.\nCuộc gặp hôm nay thật vui.\nTôi nằm mơ.\n(Ghi chú) Ngày mai có kiểm tra.\nNiềm vui rất lớn.",
+      "source": "KIIP 초급2 16과 (V-음) · 표준국어대사전 (명사형 어미 -(으)ㅁ)",
+      "exam": "kiip-2",
+      "use_level": "recognize",
+      "importance": "normal"
+    }
+  ],
+  "editor_notes": [],
+  "exercise_ids": [
+    "FLN63",
+    "FLN67",
+    "FLN72",
+    "FLN73",
+    "FLN74",
+    "FR140",
+    "FR141",
+    "FR142",
+    "FR143",
+    "FR144",
+    "FR145",
+    "FR146",
+    "FR147",
+    "FR148",
+    "FBO28",
+    "FBO29",
+    "FBF24",
+    "FBE05",
+    "FS13",
+    "FS14",
+    "FS15",
+    "FS16"
+  ],
+  "sort_order": 18,
+  "split_from": "sinh-hoat-00-nen-tang-5-dinh-ngu",
+  "sessions": [
+    {
+      "title_vi": "Biến việc làm thành danh từ: -는 것, -기",
+      "can_do_vi": "Nói «việc …» bằng -는 것 («한국어를 공부하는 것이 재미있어요») và nói «dễ / khó làm …» bằng -기 («이 책은 읽기 쉬워요»).",
+      "use_vi": "Nói sở thích («제 취미는 요리하는 것이에요») và nhận xét một việc là dễ hay khó.",
+      "topik_vi": "Giống dạng điền -는 것 / -기 vào chỗ trống ở phần Đọc TOPIK I và dạng nghe hỏi «sở thích là gì».",
+      "vocab": [
+        "취미",
+        "건강",
+        "자다",
+        "잠"
+      ],
+      "grammar": [
+        "V + -는 것 · V + -기 (danh từ hoá)"
+      ],
+      "check": [
+        "FLN67",
+        "FLN72",
+        "FR140",
+        "FR141",
+        "FR144",
+        "FBO28"
+      ],
+      "situation": {
+        "scene_vi": "Hai người nói về sở thích.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "취미가 뭐예요?",
+            "vi": "Sở thích của bạn là gì?"
+          },
+          {
+            "who": "B",
+            "ko": "저는 책 읽기를 좋아해요.",
+            "vi": "Tôi thích đọc sách."
+          },
+          {
+            "who": "A",
+            "ko": "저는 자는 것을 좋아해요.",
+            "vi": "Tôi thích ngủ."
+          },
+          {
+            "who": "B",
+            "ko": "자는 것도 취미예요?",
+            "vi": "Ngủ cũng là sở thích à?"
+          }
+        ],
+        "reply": {
+          "prompt_ko": "취미가 뭐예요?",
+          "prompt_vi": "Sở thích của bạn là gì?",
+          "options": [
+            {
+              "ko": "책 읽는 것이에요.",
+              "vi": "Là việc đọc sách.",
+              "ok": true,
+              "why_vi": "V + -는 것 biến hành động thành danh từ."
+            },
+            {
+              "ko": "책 읽어요가 취미예요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Không dùng dạng -어요 để làm danh từ."
+            },
+            {
+              "ko": "책 읽은 취미예요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Cấu trúc sai, chưa danh từ hóa."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «Tôi thích ăn». Cách nào đúng?",
+          "a": {
+            "ko": "먹는 것을 좋아해요.",
+            "vi": "Tôi thích ăn."
+          },
+          "b": {
+            "ko": "먹어요 것을 좋아해요.",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "Muốn thành danh từ, dùng -는 것 hoặc -기, không dùng -어요."
+        }
+      }
+    },
+    {
+      "title_vi": "Danh từ viết sẵn: 웃음, 기쁨, 삶 (-(으)ㅁ)",
+      "can_do_vi": "Nhận ra các danh từ lập từ động từ ở dạng -(으)ㅁ trong văn viết: 웃음 (nụ cười), 기쁨 (niềm vui), 삶 (cuộc sống), 만남, 꿈.",
+      "use_vi": "Đọc tiêu đề báo, khẩu hiệu và thơ văn ngắn.",
+      "topik_vi": "Giống dạng điền danh từ dạng -(으)ㅁ vào chỗ trống ở phần Đọc TOPIK I (chỉ cần nhận ra).",
+      "vocab": [
+        "꿈",
+        "웃음",
+        "기쁨",
+        "만남",
+        "삶"
+      ],
+      "grammar": [
+        "V/A + -(으)ㅁ (danh từ hoá văn viết)"
+      ],
+      "check": [
+        "FLN74",
+        "FR146",
+        "FR147",
+        "FR148"
+      ],
+      "situation": {
+        "scene_vi": "Hai người học danh từ hóa kiểu văn viết.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "«기쁨»은 뭐예요?",
+            "vi": "«기쁨» là gì?"
+          },
+          {
+            "who": "B",
+            "ko": "기쁘다의 명사예요.",
+            "vi": "Là danh từ của 기쁘다."
+          },
+          {
+            "who": "A",
+            "ko": "«삶»은요?",
+            "vi": "Còn «삶»?"
+          },
+          {
+            "who": "B",
+            "ko": "살다의 명사예요.",
+            "vi": "Là danh từ của 살다."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "기쁘다를 명사로 바꾸면 뭐예요?",
+          "prompt_vi": "Đổi 기쁘다 thành danh từ là gì?",
+          "options": [
+            {
+              "ko": "기쁨이에요.",
+              "vi": "Là 기쁨.",
+              "ok": true,
+              "why_vi": "Gốc kết thúc bằng nguyên âm + ㅁ: 기쁘 + ㅁ = 기쁨."
+            },
+            {
+              "ko": "기쁠이에요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Không dùng -ㄹ để tạo danh từ."
+            },
+            {
+              "ko": "기쁜이에요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "-ㄴ tạo dạng bổ nghĩa danh từ, không tạo danh từ."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn danh từ của 살다. Cách nào đúng?",
+          "a": {
+            "ko": "삶이에요.",
+            "vi": "Là «cuộc sống»."
+          },
+          "b": {
+            "ko": "살음이에요.",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "살다 có patchim ㄹ: ghép thêm ㅁ thành patchim kép ㄻ, viết là 삶, không thêm 음."
+        }
+      }
+    },
+    {
+      "title_vi": "Mô tả tính chất: nhẹ nặng, mới cũ, an toàn",
+      "can_do_vi": "Mô tả tính chất của đồ vật và sự việc: 무겁다 (nặng), 새롭다 (mới), 안전하다 / 위험하다 (an toàn / nguy hiểm), 간단하다 (đơn giản), 중요하다 (quan trọng).",
+      "use_vi": "Nhận xét đồ vật, giải thích vì sao thích hay không thích.",
+      "topik_vi": "Giống dạng điền tính từ hợp nghĩa vào chỗ trống ở phần Đọc TOPIK I.",
+      "vocab": [
+        "가벼워지다",
+        "간단하다",
+        "강하다",
+        "단순",
+        "단순하다",
+        "멋있다",
+        "무겁다",
+        "반대되다",
+        "분명하다",
+        "새것",
+        "새롭다",
+        "신선도",
+        "신선하다",
+        "심하다",
+        "아름다움",
+        "안전하다",
+        "알맞다",
+        "위험하다",
+        "유명",
+        "이상하다",
+        "적다",
+        "적당하다",
+        "정확",
+        "중요",
+        "진하다",
+        "필요하다",
+        "화려하다"
+      ],
+      "grammar": [],
+      "check": [
+        "FS13",
+        "FS14"
+      ],
+      "situation": {
+        "scene_vi": "Hai người nói về tính chất của đồ vật.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "이 가방은 가벼워요?",
+            "vi": "Cái túi này nhẹ không?"
+          },
+          {
+            "who": "B",
+            "ko": "네, 아주 가벼워요.",
+            "vi": "Vâng, rất nhẹ."
+          },
+          {
+            "who": "A",
+            "ko": "새것이에요?",
+            "vi": "Còn mới chứ?"
+          },
+          {
+            "who": "B",
+            "ko": "아니요, 오래됐어요.",
+            "vi": "Không, đã cũ rồi."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "가방이 무거워요?",
+          "prompt_vi": "Túi nặng không? (túi nhẹ)",
+          "options": [
+            {
+              "ko": "아니요, 가벼워요.",
+              "vi": "Không, nhẹ.",
+              "ok": true,
+              "why_vi": "무겁다 và 가볍다 trái nghĩa nhau."
+            },
+            {
+              "ko": "네, 가벼워요.",
+              "vi": "Vâng, nhẹ.",
+              "ok": false,
+              "why_vi": "«네» (nặng) mâu thuẫn với «nhẹ»."
+            },
+            {
+              "ko": "아니요, 무거웠어요.",
+              "vi": "Không, đã nặng.",
+              "ok": false,
+              "why_vi": "Dùng quá khứ, không đúng thời điểm hỏi."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn khen đồ vật an toàn. Cách nào đúng?",
+          "a": {
+            "ko": "안전해요.",
+            "vi": "An toàn."
+          },
+          "b": {
+            "ko": "위험해요.",
+            "vi": "Nguy hiểm."
+          },
+          "better": "a",
+          "why_vi": "안전하다 = an toàn, 위험하다 = nguy hiểm, ngược nghĩa nhau."
+        }
+      }
+    },
+    {
+      "title_vi": "Mức độ và nhấn mạnh: 별로, 진짜, 아마, 푹",
+      "can_do_vi": "Dùng phó từ chỉ mức độ cho đúng: 진짜 (thật sự), 별로 + phủ định (không … lắm), 아마 (có lẽ), 아무리 (dù … thế nào), 푹 (say, nhừ), 좀 (một chút).",
+      "use_vi": "Nhấn mạnh hoặc giảm nhẹ khi nói: «진짜 맛있어요!», «별로 안 맛있어요».",
+      "topik_vi": "Giống dạng điền phó từ vào chỗ trống ở phần Đọc TOPIK I: nhớ 별로 luôn đi với phủ định.",
+      "vocab": [
+        "그대로",
+        "깊이",
+        "깜짝",
+        "별로",
+        "아마",
+        "아무리",
+        "열리다",
+        "오르다",
+        "이상",
+        "자세히",
+        "잘",
+        "정도",
+        "좀",
+        "진짜",
+        "최고",
+        "최저",
+        "푹"
+      ],
+      "grammar": [],
+      "check": [
+        "FS15",
+        "FS16"
+      ],
+      "situation": {
+        "scene_vi": "Hai người nói về mức độ.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "한국어가 어때요?",
+            "vi": "Tiếng Hàn thế nào?"
+          },
+          {
+            "who": "B",
+            "ko": "진짜 어려워요.",
+            "vi": "Thật sự khó."
+          },
+          {
+            "who": "A",
+            "ko": "별로 재미없어요?",
+            "vi": "Không thú vị lắm à?"
+          },
+          {
+            "who": "B",
+            "ko": "아니요, 아주 재미있어요.",
+            "vi": "Không, rất thú vị."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "한국 음식이 맛있어요?",
+          "prompt_vi": "Món Hàn ngon không?",
+          "options": [
+            {
+              "ko": "별로 맛있지 않아요.",
+              "vi": "Không ngon lắm.",
+              "ok": true,
+              "why_vi": "별로 đi với phủ định: «không… lắm»."
+            },
+            {
+              "ko": "별로 맛있어요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "별로 cần câu phủ định."
+            },
+            {
+              "ko": "네, 별로 맛있지 않아요.",
+              "vi": "Vâng, không ngon lắm.",
+              "ok": false,
+              "why_vi": "«네» và phủ định mâu thuẫn."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «Ngủ thật say». Cách nào đúng?",
+          "a": {
+            "ko": "푹 자요.",
+            "vi": "Ngủ say."
+          },
+          "b": {
+            "ko": "별로 자요.",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "푹 nhấn việc nghỉ hoặc ngủ thật sâu. 별로 phải đi với phủ định."
+        }
+      }
+    }
+  ]
+}

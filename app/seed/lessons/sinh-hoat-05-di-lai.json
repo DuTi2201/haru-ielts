@@ -1,0 +1,1574 @@
+{
+  "slug": "sinh-hoat-05-di-lai",
+  "title": "Đi lại & Giao thông",
+  "title_ko": "교통 / 이동",
+  "topic": "Sinh hoạt hàng ngày",
+  "track": "intermediate",
+  "level": 2,
+  "sort_order": 22,
+  "summary": "Từ vựng về phương tiện giao thông, địa điểm, đường đi và các động từ như lên xe, xuống xe, đổi chuyến, mất thời gian. Ngữ pháp gồm N + (으)로, V + -는 길에 và V + -는 데 걸리다/들다. Bài còn có hai mẫu nền (-아/어야 하다, -(으)니까) và bước Tạo câu: xếp từ, điền khung, nối câu rồi viết một đoạn ngắn về cách bạn đi lại.",
+  "vocab": [
+    {
+      "hangul": "교통",
+      "pos": "N",
+      "meaning_vi": "Giao thông",
+      "source": "[hanka.edu.vn] 1.2 Yonsei Listening_Reading, Bài 16",
+      "exam": "kiip-2",
+      "priority": "core",
+      "hanja": "交通",
+      "sino_vietnamese": "giao thông",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "버스",
+      "pos": "N",
+      "meaning_vi": "Xe buýt",
+      "exam": "kiip-1",
+      "source": "[hanka.edu.vn] 1.2 Yonsei Listening_Reading, Bài 16; [Tailieuvui.com]_ngu-phap-tieng-han-thong-dung-so-cap, p. 102",
+      "priority": "core"
+    },
+    {
+      "hangul": "지하철",
+      "pos": "N",
+      "meaning_vi": "Tàu điện ngầm",
+      "exam": "kiip-1",
+      "source": "[hanka.edu.vn] 1.2 Yonsei Listening_Reading, Bài 16; [Tailieuvui.com]_ngu-phap-tieng-han-thong-dung-so-cap, p. 102",
+      "priority": "core",
+      "hanja": "地下鐵",
+      "sino_vietnamese": "địa hạ thiết",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "택시",
+      "pos": "N",
+      "meaning_vi": "Taxi",
+      "exam": "kiip-1",
+      "source": "[hanka.edu.vn] 1.2 Yonsei Listening_Reading, Bài 16; [Tailieuvui.com]_ngu-phap-tieng-han-thong-dung-so-cap, p. 102",
+      "priority": "core"
+    },
+    {
+      "hangul": "기차",
+      "pos": "N",
+      "meaning_vi": "Tàu hỏa",
+      "source": "[hanka.edu.vn] 1.2 Yonsei Listening_Reading, Bài 16; [Tailieuvui.com]_ngu-phap-tieng-han-thong-dung-so-cap, p. 102",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "汽車",
+      "sino_vietnamese": "khí xa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "비행기",
+      "pos": "N",
+      "meaning_vi": "Máy bay",
+      "source": "[hanka.edu.vn] 1.2 Yonsei Listening_Reading, Bài 16; [Tailieuvui.com]_ngu-phap-tieng-han-thong-dung-so-cap, p. 102",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "飛行機",
+      "sino_vietnamese": "phi hành cơ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "자전거",
+      "pos": "N",
+      "meaning_vi": "Xe đạp",
+      "exam": "kiip-1",
+      "source": "[hanka.edu.vn] 1.2 Yonsei Listening_Reading, Bài 16; [Tailieuvui.com]_ngu-phap-tieng-han-thong-dung-so-cap, p. 102",
+      "priority": "core",
+      "hanja": "自轉車",
+      "sino_vietnamese": "tự chuyển xa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "정류장",
+      "pos": "N",
+      "meaning_vi": "Trạm xe buýt",
+      "source": "[hanka.edu.vn] 1.2 Yonsei Listening_Reading, Bài 16",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "停留場",
+      "sino_vietnamese": "đình lưu trường",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "지하철역",
+      "pos": "N",
+      "meaning_vi": "Ga tàu điện ngầm",
+      "source": "[hanka.edu.vn] 1.2 Yonsei Listening_Reading, Bài 16",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "地下鐵驛",
+      "sino_vietnamese": "địa hạ thiết dịch",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "공항",
+      "pos": "N",
+      "meaning_vi": "Sân bay",
+      "source": "[hanka.edu.vn] 1.2 Yonsei Listening_Reading, Bài 16",
+      "priority": "core",
+      "hanja": "空港",
+      "sino_vietnamese": "không cảng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "사거리",
+      "pos": "N",
+      "meaning_vi": "Ngã tư",
+      "source": "[hanka.edu.vn] 1.2 Yonsei Vocabulary_Grammar, Bài 17, p. 186",
+      "exam": "kiip-2",
+      "priority": "core",
+      "hanja": "四",
+      "sino_vietnamese": "tứ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "횡단보도",
+      "pos": "N",
+      "meaning_vi": "Vạch sang đường",
+      "source": "[hanka.edu.vn] 1.2 Yonsei Vocabulary_Grammar, Bài 17, p. 186",
+      "exam": "kiip-2",
+      "priority": "core",
+      "hanja": "橫斷步道",
+      "sino_vietnamese": "hoành đoạn bộ đạo",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "출구",
+      "pos": "N",
+      "meaning_vi": "Cửa ra",
+      "source": "[hanka.edu.vn] 1.2 Yonsei Vocabulary_Grammar, Bài 17, p. 186",
+      "priority": "core",
+      "hanja": "出口",
+      "sino_vietnamese": "xuất khẩu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "시간 / 분",
+      "pos": "N",
+      "meaning_vi": "Tiếng / Phút",
+      "source": "[hanka.edu.vn] 1.2 Yonsei Listening_Reading, Bài 16",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "時間",
+      "sino_vietnamese": "thời gian",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "타다",
+      "pos": "V",
+      "meaning_vi": "Lên/Đi xe",
+      "source": "[hanka.edu.vn] 1.2 Yonsei Listening_Reading, Bài 16",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "내리다",
+      "pos": "V",
+      "meaning_vi": "Xuống xe",
+      "source": "[hanka.edu.vn] 1.2 Yonsei Vocabulary_Grammar, Bài 17, p. 186",
+      "exam": "kiip-2",
+      "priority": "core"
+    },
+    {
+      "hangul": "갈아타다",
+      "pos": "V",
+      "meaning_vi": "Đổi chuyến",
+      "source": "쏙쏙 한국어 어휘왕 TOPIK I, 1일차, p. 5",
+      "priority": "core"
+    },
+    {
+      "hangul": "건너다",
+      "pos": "V",
+      "meaning_vi": "Băng qua đường",
+      "source": "[hanka.edu.vn] 1.2 Yonsei Vocabulary_Grammar, Bài 17, p. 186",
+      "priority": "core"
+    },
+    {
+      "hangul": "걸어가다 / 걸어오다",
+      "pos": "V",
+      "meaning_vi": "Đi bộ đi / đi bộ đến",
+      "exam": "kiip-1",
+      "source": "[Tailieuvui.com]_ngu-phap-tieng-han-thong-dung-so-cap, p. 334",
+      "priority": "core"
+    },
+    {
+      "hangul": "걸리다",
+      "pos": "V",
+      "meaning_vi": "Mất/Tốn thời gian",
+      "example_ko": "명동까지 택시로 얼마나 걸려요?",
+      "example_vi": "Đến Myeongdong bằng taxi mất bao lâu?",
+      "source": "[hanka.edu.vn] 1.2 Yonsei Listening_Reading, Bài 16",
+      "priority": "core"
+    },
+    {
+      "hangul": "빠르다",
+      "pos": "A",
+      "meaning_vi": "Nhanh",
+      "source": "쏙쏙 한국어 어휘왕 TOPIK I, 26일차",
+      "priority": "core"
+    },
+    {
+      "hangul": "느리다",
+      "pos": "A",
+      "meaning_vi": "Chậm",
+      "source": "쏙쏙 한국어 어휘왕 TOPIK I, 26일차",
+      "priority": "core"
+    },
+    {
+      "hangul": "복잡하다",
+      "pos": "A",
+      "meaning_vi": "Phức tạp; đông đúc, chen chúc",
+      "source": "[hanka.edu.vn] 1.2 Yonsei Vocabulary_Grammar, Bài 16",
+      "exam": "kiip-2",
+      "priority": "core",
+      "hanja": "複雜",
+      "sino_vietnamese": "phức tạp",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "편하다",
+      "pos": "A",
+      "meaning_vi": "Thoải mái/Tiện lợi",
+      "source": "[hanka.edu.vn] 1.2 Yonsei Vocabulary_Grammar, Bài 16",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "便",
+      "sino_vietnamese": "tiện",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "출근",
+      "pos": "N",
+      "meaning_vi": "Đi làm (đến nơi làm việc)",
+      "note_vi": "Dùng ở: Đọc R8 (biểu đồ cách đi làm), Đọc R12 (tiêu đề báo), Nghe L14-15, Viết 52-B. 출근(을) 하다 = đi làm; 출근길 = trên đường đi làm; trái nghĩa: 퇴근.",
+      "example_ko": "자전거를 타고 출근하는 사람이 늘고 지하철 승객은 늘지 않고 있다.",
+      "example_vi": "Số người đạp xe đi làm đang tăng, còn hành khách tàu điện ngầm thì không tăng.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T1",
+      "priority": "core",
+      "hanja": "出勤",
+      "sino_vietnamese": "xuất cần",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "대중교통",
+      "pos": "N",
+      "meaning_vi": "Giao thông công cộng",
+      "note_vi": "`대중교통을 이용하다` (sử dụng phương tiện công cộng). Gồm 버스, 지하철, 택시 (taxi thường tính riêng).",
+      "example_ko": "서울은 대중교통이 편리해서 차가 없어도 괜찮아요.",
+      "example_vi": "Seoul có giao thông công cộng tiện lợi nên không có xe cũng không sao.",
+      "exam": "kiip-1",
+      "source": "Biên soạn bổ sung · đối chiếu bảng KIIP do người dùng cung cấp",
+      "priority": "core",
+      "hanja": "大衆交通",
+      "sino_vietnamese": "đại chúng giao thông",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "교통카드",
+      "pos": "N",
+      "meaning_vi": "Thẻ giao thông (chạm thẻ để đi bus, tàu điện)",
+      "note_vi": "Phổ biến ở Hàn: T-money, 캐시비. Chạm cả khi lên và khi xuống để được tính tiền đúng và giảm giá chuyển tuyến (`환승 할인`). Xem ghi chú 'Đời sống'.",
+      "example_ko": "버스를 탈 때 교통카드를 찍어요.",
+      "example_vi": "Khi lên xe buýt, tôi chạm thẻ giao thông.",
+      "exam": "kiip-1",
+      "source": "Biên soạn bổ sung · đối chiếu bảng KIIP do người dùng cung cấp",
+      "priority": "core"
+    },
+    {
+      "hangul": "걸어서",
+      "pos": "X",
+      "meaning_vi": "Đi bộ, bằng chân",
+      "note_vi": "Dạng nối của `걷다` (`ㄷ` → `ㄹ`: `걸어요`, `걸어서`). Thường đứng trước 가다/오다 hoặc khoảng thời gian: `걸어서 10분`.",
+      "example_ko": "집에서 학교까지 걸어서 15분 걸려요.",
+      "example_vi": "Từ nhà đến trường đi bộ mất 15 phút.",
+      "exam": "kiip-1",
+      "source": "Biên soạn bổ sung · đối chiếu bảng KIIP do người dùng cung cấp",
+      "priority": "core"
+    },
+    {
+      "hangul": "호선",
+      "pos": "N",
+      "meaning_vi": "Tuyến (tàu điện ngầm)",
+      "note_vi": "Đọc bằng số Hán Hàn: `2호선` [이호선] = tuyến số 2, `1호선` [일호선].",
+      "example_ko": "2호선을 타고 시청역에서 내려요.",
+      "example_vi": "Tôi đi tuyến số 2 rồi xuống ở ga Tòa thị chính.",
+      "family": "🟢 Nền · Kể đường đi học, đi làm",
+      "priority": "core",
+      "hanja": "號線",
+      "sino_vietnamese": "hiệu tuyến",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "N에서 N(으)로 갈아타다",
+      "pos": "X",
+      "meaning_vi": "Đổi (xe, tàu) ở … sang …",
+      "note_vi": "Nơi đổi dùng `에서`, tuyến hoặc phương tiện mới dùng `(으)로`: `시청역에서 1호선으로 갈아타요` · `서울역에서 버스로 갈아타요`.",
+      "example_ko": "시청역에서 1호선으로 갈아타야 해요.",
+      "example_vi": "Phải đổi sang tuyến số 1 ở ga Tòa thị chính.",
+      "family": "🟢 Nền · Kể đường đi học, đi làm",
+      "priority": "core"
+    },
+    {
+      "hangul": "N번 버스",
+      "pos": "X",
+      "meaning_vi": "Xe buýt số N",
+      "note_vi": "Đọc số Hán Hàn: `7번 버스` [칠 번 버스], `152번 버스` [백오십이 번 버스].",
+      "example_ko": "정류장에서 7번 버스를 타요.",
+      "example_vi": "Tôi bắt xe buýt số 7 ở bến.",
+      "family": "🟢 Nền · Kể đường đi học, đi làm",
+      "priority": "core"
+    },
+    {
+      "hangul": "출근 시간",
+      "pos": "X",
+      "meaning_vi": "Giờ đi làm (giờ cao điểm buổi sáng)",
+      "note_vi": "Buổi chiều: `퇴근 시간`. `출근 시간에는 길이 막혀요`.",
+      "example_ko": "출근 시간에는 지하철에 사람이 많아요.",
+      "example_vi": "Giờ đi làm tàu điện ngầm đông người.",
+      "family": "🟢 Nền · Kể đường đi học, đi làm",
+      "priority": "core"
+    },
+    {
+      "hangul": "길이 막히다",
+      "pron": "[기리 마키다]",
+      "pos": "X",
+      "meaning_vi": "Tắc đường",
+      "note_vi": "Không tắc: `길이 막히지 않다` / `안 막히다`.",
+      "example_ko": "아침에는 길이 많이 막혀요.",
+      "example_vi": "Buổi sáng đường tắc lắm.",
+      "family": "🟢 Nền · Kể đường đi học, đi làm",
+      "priority": "core"
+    },
+    {
+      "hangul": "편의점",
+      "pron": "[펴니점]",
+      "pos": "N",
+      "meaning_vi": "Cửa hàng tiện lợi",
+      "example_ko": "학교에 가는 길에 편의점에서 우유를 사요.",
+      "example_vi": "Trên đường đi học tôi mua sữa ở cửa hàng tiện lợi.",
+      "family": "🟢 Nền · Kể đường đi học, đi làm",
+      "priority": "core",
+      "hanja": "便宜店",
+      "sino_vietnamese": "tiện nghi điếm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "한 달",
+      "pos": "N",
+      "meaning_vi": "Một tháng",
+      "note_vi": "`한 달에` = mỗi tháng (đơn vị + `에`): `한 달에 육만 원쯤 들어요`.",
+      "example_ko": "교통비는 한 달에 오만 원쯤 들어요.",
+      "example_vi": "Tiền đi lại mỗi tháng khoảng 50.000 won.",
+      "family": "🟢 Nền · Kể đường đi học, đi làm",
+      "priority": "core"
+    },
+    {
+      "hangul": "얼마나 걸려요?",
+      "pos": "X",
+      "meaning_vi": "Mất bao lâu?",
+      "note_vi": "`얼마나` hỏi mức độ, thời gian; hỏi giá thì `얼마예요?`. Trả lời: `… 분쯤 걸려요`.",
+      "example_ko": "집에서 학교까지 얼마나 걸려요?",
+      "example_vi": "Từ nhà đến trường mất bao lâu?",
+      "family": "🟢 Nền · Kể đường đi học, đi làm",
+      "priority": "core"
+    },
+    {
+      "hangul": "교통비",
+      "pos": "N",
+      "meaning_vi": "Tiền đi lại",
+      "example_ko": "자전거는 교통비가 들지 않아요.",
+      "example_vi": "Đi xe đạp thì không tốn tiền đi lại.",
+      "family": "🟢 Nền · Kể đường đi học, đi làm",
+      "priority": "recognize",
+      "hanja": "交通費",
+      "sino_vietnamese": "giao thông phí",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "비가 오다",
+      "pos": "X",
+      "meaning_vi": "Trời mưa",
+      "note_vi": "Tiếng Hàn nói «mưa đến»: `비가 와요`. `비가 내리다` cũng đúng, hay gặp trong văn viết và bản tin thời tiết.",
+      "example_ko": "비가 오면 지하철을 타요.",
+      "example_vi": "Trời mưa thì tôi đi tàu điện ngầm.",
+      "family": "🟢 Nền · Kể đường đi học, đi làm",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "건너가다",
+      "pos": "V",
+      "meaning_vi": "Đi sang, băng qua",
+      "note_vi": "N을/를 건너가다: 길을 건너가다.",
+      "example_ko": "다리를 건너가면 시장이 있어요.",
+      "example_vi": "Đi qua cầu là có chợ.",
+      "family": "🟢 Nền · Từ sơ cấp · Giao thông",
+      "priority": "core",
+      "source": "krdict:60092",
+      "collocations": [
+        {
+          "ko": "길을 건너가다",
+          "vi": "Băng qua đường"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "고속버스",
+      "pos": "N",
+      "meaning_vi": "Xe buýt cao tốc (liên tỉnh)",
+      "example_ko": "고속버스를 타고 부산에 가요.",
+      "example_vi": "Tôi đi Busan bằng xe buýt cao tốc.",
+      "family": "🟢 Nền · Từ sơ cấp · Giao thông",
+      "priority": "core",
+      "source": "krdict:17987",
+      "hanja": "高速",
+      "collocations": [
+        {
+          "ko": "고속버스 터미널",
+          "vi": "Bến xe buýt cao tốc"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "cao tốc"
+    },
+    {
+      "hangul": "교통사고",
+      "pos": "N",
+      "meaning_vi": "Tai nạn giao thông",
+      "example_ko": "어제 교통사고가 났어요.",
+      "example_vi": "Hôm qua đã xảy ra tai nạn giao thông.",
+      "family": "🟢 Nền · Từ sơ cấp · Giao thông",
+      "priority": "core",
+      "source": "krdict:35968",
+      "hanja": "交通事故",
+      "collocations": [
+        {
+          "ko": "교통사고가 일어나다",
+          "vi": "Xảy ra tai nạn giao thông"
+        },
+        {
+          "ko": "교통사고를 당하다",
+          "vi": "Bị tai nạn giao thông"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "giao thông sự cố"
+    },
+    {
+      "hangul": "길",
+      "pos": "N",
+      "meaning_vi": "Đường, con đường",
+      "note_vi": "길을 건너다 «qua đường», 길을 잃다 «lạc đường».",
+      "example_ko": "길을 건널 때 조심하세요.",
+      "example_vi": "Khi qua đường hãy cẩn thận.",
+      "family": "🟢 Nền · Từ sơ cấp · Giao thông",
+      "priority": "core",
+      "source": "krdict:59251",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "네거리",
+      "pos": "N",
+      "meaning_vi": "Ngã tư",
+      "note_vi": "Cùng nghĩa với 사거리.",
+      "example_ko": "네거리에서 오른쪽으로 가세요.",
+      "example_vi": "Đến ngã tư thì rẽ phải.",
+      "family": "🟢 Nền · Từ sơ cấp · Giao thông",
+      "priority": "recognize",
+      "source": "krdict:41416",
+      "collocations": [
+        {
+          "ko": "네거리를 건너다",
+          "vi": "Qua ngã tư"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "녹색등",
+      "pos": "N",
+      "meaning_vi": "Đèn xanh (giao thông)",
+      "note_vi": "Văn nói hay dùng 초록불, 파란불.",
+      "example_ko": "녹색등이 켜지면 건너세요.",
+      "example_vi": "Khi đèn xanh bật thì hãy qua đường.",
+      "pron": "[녹쌕뜽]",
+      "family": "🟢 Nền · Từ sơ cấp · Giao thông",
+      "priority": "recognize",
+      "source": "krdict:24239",
+      "hanja": "綠色燈",
+      "collocations": [
+        {
+          "ko": "녹색등이 켜지다",
+          "vi": "Đèn xanh bật"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "lục sắc đăng"
+    },
+    {
+      "hangul": "도착",
+      "pos": "N",
+      "meaning_vi": "Sự đến nơi",
+      "note_vi": "Động từ: 도착하다 «đến nơi». Trái nghĩa: 출발.",
+      "example_ko": "도착 시간이 몇 시예요?",
+      "example_vi": "Mấy giờ đến nơi?",
+      "family": "🟢 Nền · Từ sơ cấp · Giao thông",
+      "priority": "core",
+      "source": "krdict:64543",
+      "hanja": "到着",
+      "collocations": [
+        {
+          "ko": "도착 시간",
+          "vi": "Giờ đến"
+        },
+        {
+          "ko": "도착 예정",
+          "vi": "Dự kiến đến"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "đáo trước"
+    },
+    {
+      "hangul": "스포츠카",
+      "pos": "N",
+      "meaning_vi": "Xe thể thao",
+      "example_ko": "빨간 스포츠카를 사고 싶어요.",
+      "example_vi": "Tôi muốn mua một chiếc xe thể thao màu đỏ.",
+      "family": "🟢 Nền · Từ sơ cấp · Giao thông",
+      "priority": "recognize",
+      "source": "krdict:65281",
+      "collocations": [
+        {
+          "ko": "빨간 스포츠카",
+          "vi": "Xe thể thao màu đỏ"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "열차",
+      "pos": "N",
+      "meaning_vi": "Tàu hỏa, đoàn tàu",
+      "note_vi": "Gần nghĩa 기차; hay gặp trong thông báo ở ga.",
+      "example_ko": "열차가 곧 도착합니다.",
+      "example_vi": "Tàu sắp vào ga.",
+      "family": "🟢 Nền · Từ sơ cấp · Giao thông",
+      "priority": "core",
+      "source": "krdict:67586",
+      "hanja": "列車",
+      "collocations": [
+        {
+          "ko": "열차 시간표",
+          "vi": "Lịch tàu chạy"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "liệt xa"
+    },
+    {
+      "hangul": "오거리",
+      "pos": "N",
+      "meaning_vi": "Ngã năm",
+      "example_ko": "오거리에서 길을 잃었어요.",
+      "example_vi": "Tôi bị lạc ở ngã năm.",
+      "family": "🟢 Nền · Từ sơ cấp · Giao thông",
+      "priority": "recognize",
+      "source": "krdict:70149",
+      "hanja": "五",
+      "enrich": "auto",
+      "sino_vietnamese": "ngũ"
+    },
+    {
+      "hangul": "운전하다",
+      "pos": "V",
+      "meaning_vi": "Lái (xe)",
+      "note_vi": "N을/를 운전하다. Bằng lái xe: 운전면허.",
+      "example_ko": "저는 운전할 줄 몰라요.",
+      "example_vi": "Tôi không biết lái xe.",
+      "family": "🟢 Nền · Từ sơ cấp · Giao thông",
+      "priority": "core",
+      "source": "krdict:69313",
+      "hanja": "運轉",
+      "collocations": [
+        {
+          "ko": "자동차를 운전하다",
+          "vi": "Lái ô tô"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "vận chuyển"
+    },
+    {
+      "hangul": "전철",
+      "pos": "N",
+      "meaning_vi": "Tàu điện",
+      "note_vi": "Văn nói dùng gần như 지하철.",
+      "example_ko": "전철로 회사에 가요.",
+      "example_vi": "Tôi đi làm bằng tàu điện.",
+      "family": "🟢 Nền · Từ sơ cấp · Giao thông",
+      "priority": "core",
+      "source": "krdict:70836",
+      "hanja": "電鐵",
+      "collocations": [
+        {
+          "ko": "전철 노선",
+          "vi": "Tuyến tàu điện"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "điện thiết"
+    },
+    {
+      "hangul": "정거장",
+      "pos": "N",
+      "meaning_vi": "Trạm, bến (xe, tàu)",
+      "note_vi": "Cùng nghĩa với 정류장. Đếm số trạm: 두 정거장.",
+      "example_ko": "두 정거장 후에 내리세요.",
+      "example_vi": "Qua hai trạm nữa thì xuống.",
+      "family": "🟢 Nền · Từ sơ cấp · Giao thông",
+      "priority": "recognize",
+      "source": "krdict:31739",
+      "hanja": "停車場",
+      "collocations": [
+        {
+          "ko": "버스 정거장",
+          "vi": "Trạm xe buýt"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "đình xa trường"
+    },
+    {
+      "hangul": "정류소",
+      "pos": "N",
+      "meaning_vi": "Trạm dừng (xe buýt)",
+      "note_vi": "Cùng nghĩa với 정류장.",
+      "example_ko": "버스 정류소가 어디에 있어요?",
+      "example_vi": "Trạm xe buýt ở đâu vậy?",
+      "pron": "[정뉴소]",
+      "family": "🟢 Nền · Từ sơ cấp · Giao thông",
+      "priority": "recognize",
+      "source": "krdict:76286",
+      "hanja": "停留所",
+      "collocations": [
+        {
+          "ko": "버스 정류소",
+          "vi": "Trạm xe buýt"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "đình lưu sở"
+    },
+    {
+      "hangul": "주차장",
+      "pos": "N",
+      "meaning_vi": "Bãi đỗ xe",
+      "example_ko": "주차장이 어디예요?",
+      "example_vi": "Bãi đỗ xe ở đâu vậy?",
+      "family": "🟢 Nền · Từ sơ cấp · Giao thông",
+      "priority": "core",
+      "source": "krdict:91772",
+      "hanja": "駐車場",
+      "collocations": [
+        {
+          "ko": "무료 주차장",
+          "vi": "Bãi đỗ xe miễn phí"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "trú xa trường"
+    },
+    {
+      "hangul": "출발",
+      "pos": "N",
+      "meaning_vi": "Sự khởi hành, xuất phát",
+      "note_vi": "Động từ: 출발하다. Trái nghĩa: 도착.",
+      "example_ko": "출발 시간은 아홉 시예요.",
+      "example_vi": "Giờ khởi hành là chín giờ.",
+      "family": "🟢 Nền · Từ sơ cấp · Giao thông",
+      "priority": "core",
+      "source": "krdict:72140",
+      "hanja": "出發",
+      "collocations": [
+        {
+          "ko": "출발 시간",
+          "vi": "Giờ khởi hành"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "xuất phát"
+    },
+    {
+      "hangul": "출발되다",
+      "pos": "V",
+      "meaning_vi": "Được khởi hành",
+      "note_vi": "Thường dùng 출발하다: 버스가 출발해요.",
+      "example_ko": "버스가 정시에 출발됐어요.",
+      "example_vi": "Xe buýt đã khởi hành đúng giờ.",
+      "family": "🟢 Nền · Từ sơ cấp · Giao thông",
+      "priority": "recognize",
+      "source": "krdict:79135",
+      "hanja": "出發",
+      "collocations": [
+        {
+          "ko": "버스가 출발되다",
+          "vi": "Xe buýt khởi hành"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "xuất phát"
+    },
+    {
+      "hangul": "트럭",
+      "pos": "N",
+      "meaning_vi": "Xe tải",
+      "example_ko": "큰 트럭이 지나가요.",
+      "example_vi": "Một chiếc xe tải lớn đi qua.",
+      "family": "🟢 Nền · Từ sơ cấp · Giao thông",
+      "priority": "recognize",
+      "source": "krdict:82436",
+      "collocations": [
+        {
+          "ko": "트럭 한 대",
+          "vi": "Một chiếc xe tải"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "항공",
+      "pos": "N",
+      "meaning_vi": "Hàng không",
+      "note_vi": "Hay gặp trong từ ghép: 항공권 «vé máy bay», 항공사 «hãng bay».",
+      "example_ko": "항공 우편으로 보내 주세요.",
+      "example_vi": "Hãy gửi bằng đường hàng không.",
+      "family": "🟢 Nền · Từ sơ cấp · Giao thông",
+      "priority": "recognize",
+      "source": "krdict:84806",
+      "hanja": "航空",
+      "enrich": "auto",
+      "sino_vietnamese": "hàng không"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V + -아/어야 하다/되다",
+      "meaning_vi": "Phải làm gì (bắt buộc, cần thiết)",
+      "usage_context_vi": "**Cấu tạo:** Gốc từ có nguyên âm cuối `ㅏ`/`ㅗ` + `-아야 하다`, còn lại + `-어야 하다`; `하다` → `해야 하다`.\n| Gốc từ | Thêm | Ví dụ |\n| **Nguyên âm cuối** `ㅏ`/`ㅗ` | `-아야 하다` | `타다` → `타야 해요`, `갈아타다` → `갈아타야 해요` |\n| **Còn lại** | `-어야 하다` | `내리다` → `내려야 해요`, `먹다` → `먹어야 해요` |\n- `-아/어야 되다` dùng như `-아/어야 하다`, thân mật hơn\n- Thì chia ở cuối: `타야 했어요` (đã phải), `타야 할 거예요` (sẽ phải)\n- Gắn được với động từ và cả tính từ (`조용해야 해요`)\n**Hoàn cảnh dùng:** nói điều bắt buộc hoặc cần thiết phải làm: `다음 역에서 갈아타야 해요`, `사거리에서 내려야 돼요`, `내일은 일찍 일어나야 해요`. Thường gặp trong chỉ dẫn, thông báo và khi kể về một việc bắt buộc.\n**Vì sao chọn nó thay vì `-(으)세요`:** `-(으)세요` là lời bảo trực tiếp với người nghe; `-아/어야 하다` nêu **nghĩa vụ hay điều kiện cần** (không làm thì không được hoặc không đến nơi), dùng được cho cả bản thân (`저는 …야 해요`).",
+      "contrasts": [
+        {
+          "pattern": "V + -(으)면 안 되다",
+          "diff_vi": "Nghĩa cấm: `여기서 내리면 안 돼요` (không được xuống ở đây). Đừng nhầm với `내려야 해요` (phải xuống)."
+        },
+        {
+          "pattern": "V + -지 않아도 되다",
+          "diff_vi": "Nghĩa 'không cần': `갈아타지 않아도 돼요`. Đây là phủ định của sự bắt buộc, không phải `안 갈아타야 해요`."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Quên `하다/되다` ở cuối: ✗ `갈아타야요` → `갈아타야 해요`.\n(2) Dịch 'không phải …' (không cần) thành `안 …야 해요`: ✗ `안 갈아타야 해요` → `갈아타지 않아도 돼요`.\n(3) Nhầm hai dạng quá khứ: `타야 했어요` = đã phải đi; `탔어야 했어요` = lẽ ra đã phải đi (tiếc nuối).\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Đi lại & Giao thông'.",
+      "example_ko": "다음 역에서 갈아타야 해요.\n사거리에서 버스를 타야 돼요.\n내일은 일찍 일어나서 출근해야 돼요.",
+      "example_vi": "Tôi phải đổi tàu ở ga tiếp theo.\nTôi phải lên xe buýt ở ngã tư.\nNgày mai tôi phải dậy sớm để đi làm.",
+      "source": "KIIP 2단계 · ngữ pháp nền, biên soạn bổ sung",
+      "topik_tip_vi": "Trong bài nghe, thông báo kiểu 'phải đổi tàu/phải xuống ở ga …' dùng `-아/어야 하다`. Câu hỏi hay xoáy vào cặp `-아/어야 하다` (phải) và `-지 않아도 되다` (không cần).",
+      "exam": "kiip-2",
+      "builds_on": [
+        "V/A + -아/어요"
+      ],
+      "importance": "must"
+    },
+    {
+      "pattern": "V/A + -(으)니까",
+      "meaning_vi": "Vì … nên … (lý do, vế sau là đề nghị hoặc mệnh lệnh) · … thì thấy … (phát hiện)",
+      "usage_context_vi": "**Cấu tạo:** Gốc kết thúc bằng nguyên âm + `-니까`, kết thúc bằng patchim + `-으니까`.\n| Gốc từ | Thêm | Ví dụ |\n| **Nguyên âm** | `-니까` | `가다` → `가니까`, `막히다` → `막히니까` |\n| **Patchim** | `-으니까` | `먹다` → `먹으니까` |\n| **Gốc** `ㄹ` | bỏ `ㄹ` | `멀다` → `머니까`, `살다` → `사니까` |\n| **Gốc** `ㅂ` | đổi thành `우` | `춥다` → `추우니까`, `덥다` → `더우니까` |\n| **Danh từ** | `(이)니까` | `주말이니까` |\nCó thể chia quá khứ trước: `-았/었으니까` (`늦었으니까`). Gắn với cả động từ và tính từ.\n**Hoàn cảnh dùng:** (1) nêu lý do rồi **đề nghị, ra lệnh hoặc rủ**: `길이 막히니까 지하철을 타세요`, `늦었으니까 택시를 탑시다`; (2) nói điều vừa phát hiện khi làm việc ở vế trước: `역에 도착하니까 비가 오고 있었어요` (đến ga thì thấy trời đang mưa).\n**Vì sao chọn nó thay vì `-아/어서`:** Vế sau là đề nghị, mệnh lệnh hay lời rủ thì `-아/어서` không dùng được (✗ `길이 막혀서 지하철을 타세요`); phải dùng `-(으)니까`. `-(으)니까` cũng nhấn lý do mà người nghe dễ nhận ra.",
+      "contrasts": [
+        {
+          "pattern": "V/A + -아/어서",
+          "diff_vi": "Kể lý do như một sự việc, vế sau là việc đã xảy ra hoặc cảm nhận; không đi với mệnh lệnh, lời rủ."
+        },
+        {
+          "pattern": "N + 때문에",
+          "diff_vi": "Lý do là một danh từ, thiên về văn viết hoặc nói trang trọng: `길 때문에 늦었어요`."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `-아/어서` khi vế sau là mệnh lệnh hay lời rủ: ✗ `막혀서 타세요` → `막히니까 타세요`.\n(2) Chia sai gốc `ㅂ`: ✗ `추워니까`, `춥으니까` → `추우니까`.\n(3) Quên `이` sau danh từ có patchim: ✗ `주말니까` → `주말이니까`.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Đi lại & Giao thông'.",
+      "example_ko": "길이 막히니까 지하철을 타세요.\n늦었으니까 택시를 탑시다.\n역에 도착하니까 비가 오고 있었어요.",
+      "example_vi": "Đường đang tắc nên hãy đi tàu điện ngầm.\nMuộn rồi nên chúng ta đi taxi nhé.\nĐến ga thì trời đang mưa.",
+      "source": "KIIP 2단계 · ngữ pháp nền, biên soạn bổ sung",
+      "topik_tip_vi": "Thấy vế sau là `-(으)세요`, `-(으)ㅂ시다`, `-(으)ㄹ까요?` thì lý do ở vế trước thường là `-(으)니까`. Nghĩa 'phát hiện' hay gặp trong bài đọc: 'đến nơi thì thấy …'.",
+      "exam": "kiip-2",
+      "importance": "must"
+    },
+    {
+      "pattern": "N + (으)로",
+      "meaning_vi": "Phương tiện / Hướng di chuyển",
+      "usage_context_vi": "**Cấu tạo:** danh từ không có patchim hoặc có patchim `ㄹ` + `로` (`버스로`, `지하철로`, `기차로`); danh từ có patchim khác + `으로` (`손으로`, `오른쪽으로`, `왼쪽으로`).\n**Hoàn cảnh dùng:** (1) phương tiện, công cụ: `버스로 가요`, `카드로 계산해요`; (2) hướng đi: `오른쪽으로 가세요`, `3번 출구로 나오세요`. Hỏi phương tiện: `뭘로 가요?` (đi bằng gì?).\n**Vì sao chọn nó thay vì `N + 에`:** `에` chỉ đích đến (`학교에 가요`). `(으)로` chỉ phương tiện hoặc hướng đi; nói 'đi bằng xe buýt' bắt buộc dùng `버스로`, không dùng `버스에 가요`.",
+      "contrasts": [
+        {
+          "pattern": "N + 에",
+          "diff_vi": "Đích đến cụ thể: `학교에 가요`. `학교로 가요` nhấn hướng về phía trường."
+        },
+        {
+          "pattern": "N + 에서",
+          "diff_vi": "Nơi xảy ra việc hoặc nơi xuất phát: `서울에서 출발해요`; không chỉ phương tiện."
+        }
+      ],
+      "example_ko": "서울에서 부산까지 기차로 가요.\n저는 지하철로 학교에 가요.\n오른쪽으로 가세요.",
+      "example_vi": "Từ Seoul đến Busan tôi đi bằng tàu hỏa.\nTôi đi học bằng tàu điện ngầm.\nXin hãy đi về phía bên phải.",
+      "exam": "kiip-1",
+      "source": "[Tailieuvui.com]_ngu-phap-tieng-han-thong-dung-so-cap, p. 102",
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `에` cho phương tiện: ✗ `버스에 가요` → `버스로 가요`.\n(2) Thêm `으` sau patchim `ㄹ`: ✗ `지하철으로` → `지하철로`.\n(3) Dịch 'đi xe buýt' thành `버스를 가요`: ✗; nói `버스로 가요` hoặc `버스를 타고 가요`.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Đi lại & Giao thông'.",
+      "topik_tip_vi": "Câu hỏi 'đi bằng gì' và 'đi hướng nào' đều tìm `N(으)로`; đáp án đúng thường là danh từ ngay trước `(으)로`.",
+      "importance": "must"
+    },
+    {
+      "pattern": "V + -는 길에",
+      "meaning_vi": "Trên đường đang đi đâu",
+      "usage_context_vi": "**Cấu tạo:** động từ chuyển động (`가다`, `오다`, `나가다`, `돌아오다`, `다니다`) + `-는 길에`: `가는 길에`, `오는 길에`, `돌아오는 길에`. Vế trước **luôn ở hiện tại** `-는`, thì chỉ chia ở vế sau. Hai vế cùng chủ ngữ.\n**Hoàn cảnh dùng:** nói việc ghé làm thêm trong lúc đang đi đến hoặc trở về từ một nơi: `집에 오는 길에 시장에서 꽃을 샀어요`, `학교에 가는 길에 우체국에 들렀어요`. Việc ở vế sau là việc tiện thể, không phải mục đích của chuyến đi.\n**Vì sao chọn nó thay vì `-(으)면서`:** `-(으)면서` là hai việc diễn ra **cùng lúc** (vừa đi vừa nghe nhạc). `-는 길에` là ghé làm một việc khác chen vào quãng đường đi/về.",
+      "contrasts": [
+        {
+          "pattern": "V + -(으)면서",
+          "diff_vi": "Hai hành động đồng thời (`걸으면서 전화해요`); `-는 길에` luôn gắn với một chuyến đi có đích."
+        },
+        {
+          "pattern": "V + -(으)러 가다/오다",
+          "diff_vi": "Mục đích chính của chuyến đi (`사러 가요`); `-는 길에` là việc tiện thể trên đường."
+        }
+      ],
+      "example_ko": "집에 오는 길에 시장에서 꽃을 샀어요.\n학교에 가는 길에 우체국에 들렀어요.\n퇴근하고 돌아오는 길에 친구를 만났어요.",
+      "example_vi": "Trên đường về nhà tôi đã mua hoa ở chợ.\nTrên đường đến trường tôi đã ghé bưu điện.\nTrên đường tan làm về tôi đã gặp bạn.",
+      "source": "NGỮ PHÁP TIẾNG HÀN THÔNG DỤNG TRUNG CẤP, Bài 13, p. 212",
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Vế trước không phải động từ chuyển động: ✗ `먹는 길에` → vế trước phải là `가다/오다/돌아오다`.\n(2) Chia quá khứ ở vế trước: ✗ `온 길에` → `오는 길에` (thì chỉ ở vế sau).\n(3) Hai vế khác chủ ngữ: `-는 길에` đòi cùng chủ ngữ.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Đi lại & Giao thông'.",
+      "topik_tip_vi": "`가는 길에` / `오는 길에` trong bài đọc báo hiệu một việc ghé làm thêm; vế sau thường là mua, gửi, gặp ai đó.",
+      "builds_on": [
+        "V + -는 + N · A + -(으)ㄴ + N (hiện tại)",
+        "N(Nơi chốn) + 에"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V + -는 데 걸리다/들다",
+      "meaning_vi": "Mất thời gian / tốn chi phí để làm việc gì",
+      "usage_context_vi": "**Cấu tạo:** động từ + `-는 데` (`데` là danh từ phụ thuộc nên viết **cách**) + `걸리다` (thời gian) hoặc `들다` (tiền, công sức): `가는 데 30분 걸려요`, `사는 데 십만 원 들었어요`. Gốc `ㄹ` bỏ `ㄹ` (`만드는 데`). Lượng thời gian hay tiền đứng ngay trước `걸리다/들다`; thời gian dùng số Hán Hàn + `분`, số thuần Hàn + `시간`.\n**Hoàn cảnh dùng:** nói hoặc hỏi một việc cụ thể tốn bao nhiêu thời gian hay tiền: `학교까지 가는 데 얼마나 걸려요?`, `지하철로 가는 데 40분쯤 걸려요`, `이 일을 하는 데 이틀 걸렸어요`.\n**Vì sao chọn nó thay vì `N + 걸려요` (không có `-는 데`):** Chỉ nói về quãng đường thì `집에서 학교까지 30분 걸려요` là đủ. Thêm `-는 데` khi muốn nêu rõ **việc làm** tốn thời gian hay tiền (`가는 데`, `사는 데`).",
+      "contrasts": [
+        {
+          "pattern": "V + -느라고",
+          "diff_vi": "Lý do khiến việc khác không làm được (`숙제하느라고 못 갔어요`); `-는 데 걸리다` chỉ đo lượng thời gian hoặc tiền tốn."
+        },
+        {
+          "pattern": "V + -는데",
+          "diff_vi": "`-는데` viết liền là 'nhưng / dựng bối cảnh'; `-는 데` viết cách là 'việc …'."
+        }
+      ],
+      "example_ko": "학교에 가는 데 30분쯤 걸려요.\n이 가방을 사는 데 십만 원 들었어요.\n집에서 학교까지 지하철로 가는 데 40분쯤 걸려요.",
+      "example_vi": "Đến trường mất khoảng 30 phút.\nMua chiếc túi này tốn 100.000 won.\nTừ nhà đến trường đi tàu điện ngầm mất khoảng 40 phút.",
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Viết liền `데`: ✗ `가는데 30분 걸려요` (thành nghĩa khác) → `가는 데 30분 걸려요`.\n(2) Dùng `걸리다` cho tiền: ✗ `사는 데 십만 원 걸렸어요` → `들었어요`.\n(3) Dùng với tính từ: `-는 데` chỉ gắn với động từ.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Đi lại & Giao thông'.",
+      "topik_tip_vi": "Câu hỏi nghe 'mất bao lâu' → `얼마나 걸려요?`; chú ý đơn vị `분` hay `시간`, và phương tiện đi kèm (`지하철로 40분`).",
+      "builds_on": [
+        "V + -는 + N · A + -(으)ㄴ + N (hiện tại)"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V/A + -는데도/-(으)ㄴ데도",
+      "meaning_vi": "Dù … vẫn …: vế sau trái với điều mong đợi từ vế trước",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** Là `-는데/-(으)ㄴ데` + `도`. Viết liền, không cách.\n| Loại từ | Thêm | Ví dụ |\n| **Động từ**, `있다/없다` | `-는데도` | `가다` → `가는데도` |\n| **Tính từ** | `-(으)ㄴ데도` | `비싸다` → `비싼데도`, `작다` → `작은데도`, `멀다` → `먼데도` |\n| **이다** | `-(이)ㄴ데도` | `주말인데도` |\n| **Quá khứ** | `-았/었는데도` | `탔는데도` |\n**Hoàn cảnh dùng:** Dùng được cả nói và viết, mọi mức lịch sự, khi muốn nói \"đáng lẽ phải A mà lại B\" kèm chút ngạc nhiên, tiếc hoặc bực: `택시를 탔는데도 늦었어요`, `주말인데도 사람이 많아요`. Rất hợp khi kể chuyện, như ở tranh cuối của đề Nói S3 (đã cố mà vẫn muộn). Vế sau thường là câu kể hoặc câu hỏi, khó đặt mệnh lệnh/rủ rê.\n*Mức độ:* KIIP không đưa mẫu này vào mục ngữ pháp chính của bài; giáo trình Yonsei xếp nó ở bậc trung cấp 1 (quyển 3).\n**Vì sao chọn nó thay vì -지만:** `-지만` chỉ đặt hai ý đối lập cạnh nhau (`비싸지만 맛있어요`), hai vế có thể ngang hàng. `-는데도` nói rằng vế sau xảy ra **trái với điều đáng lẽ phải có** từ vế trước (đã cố gắng, đã có điều kiện mà vẫn …), nên nhấn mạnh sự bất ngờ hơn.\n**Trong bài này:** Bài \"Đi lại & Giao thông\" dạy `N + (으)로`, `V + -는 길에` và `V + -는 데 걸리다/들다`. `-는데도` dễ lẫn với `-는 데` (danh từ phụ thuộc, có cách và đi với `걸리다/들다`), còn `-는데도` viết liền và mang nghĩa \"dù … vẫn\". Mẫu `-는데/-(으)ㄴ데` (nêu bối cảnh) là mẫu cốt lõi của bài \"Giải trí, Cuối tuần & Sở thích\" cùng chủ đề; ở đây chỉ cần nhận ra thêm `도` biến nó thành \"dù … vẫn\".",
+      "contrasts": [
+        {
+          "pattern": "-는 데 걸리다/들다",
+          "diff_vi": "Viết cách `-는 데`, đi với `걸리다/들다`, nói về thời gian/tiền (`학교에 가는 데 30분 걸려요`). `-는데도` viết liền, nghĩa \"dù … vẫn\" (`버스로 가는데도 30분이나 걸려요` = dù đi xe buýt vẫn mất tới 30 phút)."
+        },
+        {
+          "pattern": "-지만",
+          "diff_vi": "Đối lập đơn giản giữa hai ý (`멀지만 편해요`). `-는데도` nhấn mạnh vế sau trái với kỳ vọng từ vế trước và thường kèm cảm xúc bất ngờ."
+        },
+        {
+          "pattern": "-는데/은데/ㄴ데",
+          "diff_vi": "Chỉ nêu bối cảnh hoặc đối lập nhẹ (`심심한데 영화 볼까요?`). Thêm `도` mới thành \"dù … vẫn\", nhấn mạnh kết quả trái mong đợi."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n• Đặt mệnh lệnh/rủ rê ở vế sau: `*비가 오는데도 나가세요` / `*나갑시다` ✗.\n• Dùng sai dạng theo từ loại: `*비싸는데도` ✗ → `비싼데도`; `*주말는데도` ✗ → `주말인데도`.\n• Dịch \"mặc dù … nhưng …\" rồi chêm `그러나/하지만` vào giữa câu: `*택시를 탔는데도 그러나 늦었어요` ✗, vì `-는데도` đã mang nghĩa đối lập (khác với `하지만` mở đầu câu nối với câu trước, như ở ví dụ 1).\n*Biên soạn bổ sung:* ví dụ 1 lấy từ bộ đề, các ví dụ còn lại và phần giải thích là biên soạn thêm.",
+      "topik_tip_vi": "Bài Nói S3 (kể chuyện theo 4 tranh): bài mẫu ở tranh cuối viết \"급하게 뛰어갔는데도 결국 회사에 십 분 늦게 도착했어요\", và mục \"dùng thêm được\" ghi -는데도. Dùng được khi nói: ở tranh 4 dùng \"dù … vẫn\" để nhấn mạnh kết quả trái mong đợi, thay vì -지만.",
+      "example_ko": "하지만 급하게 뛰어갔는데도 결국 회사에 십 분 늦게 도착했어요.\n택시를 탔는데도 길이 막혀서 약속에 늦었어요.\n주말인데도 지하철에 사람이 정말 많아요.",
+      "example_vi": "Nhưng dù đã chạy vội, rốt cuộc tôi vẫn đến công ty muộn 10 phút.\nDù đã đi taxi nhưng đường tắc nên tôi vẫn trễ hẹn.\nDù là cuối tuần mà tàu điện ngầm vẫn rất đông.",
+      "source": "EXT-T1-06",
+      "use_level": "produce",
+      "builds_on": [
+        "N + 도"
+      ]
+    },
+    {
+      "pattern": "N1에서 N2까지 (nơi chốn)",
+      "meaning_vi": "Từ N1 đến N2 (đoạn đường, khoảng cách, tuyến đi)",
+      "usage_context_vi": "**Cấu tạo:** `N1(nơi xuất phát)에서 N2(nơi đến)까지`; `에서` ở đây nghĩa là 'từ' (điểm khởi hành), không phải 'ở'. Nối với: `얼마나 걸려요?` (mất bao lâu), `멀어요/가까워요` (xa/gần), phương tiện `N(으)로` hoặc `걸어서`. Chỉ nói điểm đến thì chỉ cần `N2까지`: `역까지 걸어서 가요`.\n**Hoàn cảnh dùng:** Hỏi và đáp khoảng cách, thời gian đi lại: `집에서 학교까지 얼마나 걸려요?`, `서울에서 부산까지 KTX로 두 시간 반 걸려요`, `회사에서 집까지 멀어요?`. Dùng khi hỏi đường, giới thiệu nơi ở, kể thời gian đi làm.\n**Vì sao chọn nó thay vì `부터~까지`:** Với THỜI GIAN, cặp chuẩn là `N부터 N까지` (9시부터 6시까지). Với NƠI CHỐN, cặp tự nhiên là `N에서 N까지`. Cả hai đều có `까지` ở điểm cuối; điểm đầu quyết định là thời gian (`부터`) hay nơi chốn (`에서`).",
+      "contrasts": [
+        {
+          "pattern": "N1(Thời gian)부터 N2(Thời gian)까지",
+          "diff_vi": "Cặp chỉ mốc thời gian, xem mẫu ở bài Học tập & làm việc."
+        },
+        {
+          "pattern": "N + (으)로",
+          "diff_vi": "Chỉ phương tiện hoặc hướng đi: `지하철로 가요`; `에서~까지` chỉ điểm đầu và điểm cuối."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `에서` cho mốc thời gian: ✗ `9시에서 6시까지 일해요` → `9시부터 6시까지 일해요`.\n(2) Bỏ `에서`, dùng `에` cho 'từ': ✗ `집에 학교까지 20분 걸려요` → `집에서 학교까지 20분 걸려요`.\n(3) Dịch 'mất 20 phút' bằng `하다`: ✗ `20분을 해요` → `20분 걸려요` (thời gian đi lại luôn đi với `걸리다`).\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc đối chiếu với Tóm tắt ngữ pháp New Yonsei 1-2 (người dùng cung cấp) · KIIP 초급1 6과 (부터~까지) · 표준국어대사전 (에서, 까지).",
+      "topik_tip_vi": "Đề nghe hỏi 'từ A đến B mất bao lâu' thường trả lời bằng `số + 분/시간 + 걸려요` (có thể kèm phương tiện). Đề đọc: thấy `~에서 ~까지` đi với địa danh là nghĩ ngay đến khoảng cách và thời gian.",
+      "example_ko": "집에서 학교까지 얼마나 걸려요?\n집에서 학교까지 버스로 이십 분 걸려요.\n여기에서 지하철역까지 걸어서 십 분이에요.\n서울에서 부산까지 KTX로 두 시간 반 걸려요.\n공항에서 집까지 택시로 가요.\n회사에서 집까지 멀어요?",
+      "example_vi": "Từ nhà đến trường mất bao lâu?\nTừ nhà đến trường đi xe buýt mất 20 phút.\nTừ đây đến ga tàu điện ngầm đi bộ mất 10 phút.\nTừ Seoul đến Busan đi KTX mất hai tiếng rưỡi.\nTôi đi taxi từ sân bay về nhà.\nTừ công ty đến nhà có xa không?",
+      "source": "Tóm tắt ngữ pháp New Yonsei 1-2 (người dùng cung cấp) · KIIP 초급1 6과 (부터~까지) · 표준국어대사전 (에서, 까지)",
+      "builds_on": [
+        "N + 에서"
+      ],
+      "importance": "must"
+    },
+    {
+      "pattern": "N + 마다",
+      "meaning_vi": "Mỗi …, cứ mỗi … (lặp lại đều đặn · mỗi cái một khác)",
+      "usage_context_vi": "**Cấu tạo:** Danh từ + `마다`, không đổi theo patchim và viết liền: 아침마다, 주말마다, 날마다, 해마다, 십 분마다, 사람마다, 나라마다, 집집마다. Gần nghĩa với `매-`: 매일 = 날마다, 매주 = 주마다, 매년 = 해마다. `매` đứng TRƯỚC danh từ, `마다` đứng SAU danh từ.\n**Hoàn cảnh dùng:** (1) Thói quen, chu kỳ lặp lại: `아침마다 커피를 마셔요`, `이 버스는 십 분마다 와요`. (2) 'Mỗi … một khác': `사람마다 생각이 달라요`, `나라마다 문화가 달라요`. Hay dùng để hỏi tần suất tàu xe: `몇 분마다 와요?`.\n**Vì sao chọn nó thay vì `매-` hay `에`:** `매일/매주` chỉ dùng được với vài đơn vị cố định, còn `마다` gắn được vào khoảng thời gian bất kỳ (`십 분마다`, `이틀마다`) và vào danh từ người, vật, nơi chốn (`사람마다`). `에` chỉ tần suất trong một khoảng (`일주일에 두 번`), còn `마다` nói 'mỗi lần/mỗi đơn vị'.",
+      "contrasts": [
+        {
+          "pattern": "매 + N (매일 · 매주 · 매달)",
+          "diff_vi": "Dạng cố định, đứng trước danh từ; nghĩa tương đương `날마다/주마다/달마다`."
+        },
+        {
+          "pattern": "N + 에 + số lần (일주일에 두 번)",
+          "diff_vi": "Tần suất trong một khoảng thời gian; `마다` nhấn mạnh mỗi lần/mỗi đơn vị đều như vậy."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Tách `마다` ra khỏi danh từ: ✗ `주말 마다` → `주말마다`.\n(2) Dùng `도` hoặc `는` thay `마다` khi muốn nói 'mỗi người một ý': ✗ `사람도 생각이 달라요` (nghĩa 'người cũng khác nhau') → `사람마다 생각이 달라요`.\n(3) Nhầm `마다` (mỗi) với `만` (chỉ): ✗ `아침만 커피를 마셔요` (chỉ buổi sáng mới uống) → `아침마다 커피를 마셔요` (sáng nào cũng uống).\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc đối chiếu với Tóm tắt ngữ pháp New Yonsei 1-2 (người dùng cung cấp) · 표준국어대사전 (마다, 매).",
+      "topik_tip_vi": "Chỗ trống ở câu kiểu '___ 문화가 달라요 / ___ 와요' thường là `마다`. Câu nghe 'cứ 10 phút một chuyến' = `십 분마다`.",
+      "example_ko": "저는 아침마다 커피를 마셔요.\n주말마다 친구를 만나요.\n이 버스는 십 분마다 와요.\n지하철은 몇 분마다 와요?\n사람마다 생각이 달라요.\n나라마다 문화가 달라요.",
+      "example_vi": "Sáng nào tôi cũng uống cà phê.\nCuối tuần nào tôi cũng gặp bạn.\nXe buýt này cứ 10 phút một chuyến.\nTàu điện ngầm cứ mấy phút một chuyến?\nMỗi người một suy nghĩ.\nMỗi nước một nền văn hoá khác nhau.",
+      "source": "Tóm tắt ngữ pháp New Yonsei 1-2 (người dùng cung cấp) · 표준국어대사전 (마다, 매)",
+      "importance": "normal"
+    },
+    {
+      "pattern": "V + -나요? · A + -(으)ㄴ가요?",
+      "meaning_vi": "Hỏi nhẹ nhàng, lịch sự: … không ạ? … vậy ạ?",
+      "usage_context_vi": "**Cấu tạo:** động từ và `있다/없다` + `-나요?`: 가다 → `가나요?`, 갈아타다 → `갈아타나요?`, 있다 → `있나요?`; quá khứ: `-았/었나요?` (`도착했나요?`). Tính từ: không patchim + `-ㄴ가요?`, có patchim + `-은가요?`: 빠르다 → `빠른가요?`, 복잡하다 → `복잡한가요?`, 좋다 → `좋은가요?`. Danh từ: `N인가요?` (`몇 호선인가요?`).\n**Hoàn cảnh dùng:** hỏi người lạ, nhân viên, người trên một cách mềm mỏng: `이 버스가 공항에 가나요?`, `어디에서 갈아타나요?`, `지하철이 더 빠른가요?`. Nghe nhẹ và lịch sự hơn `-아/어요?`, nhưng không trang trọng như `-ㅂ/습니까?`.\n**Vì sao chọn nó thay vì `-아/어요?`:** cả hai đều đúng; `-나요?` làm câu hỏi bớt thẳng, hợp khi hỏi đường, hỏi xe.",
+      "contrasts": [
+        {
+          "pattern": "V/A + -아/어요",
+          "diff_vi": "Câu hỏi bình thường (`가요?`), thẳng hơn."
+        },
+        {
+          "pattern": "V/A + -ㅂ/습니까?",
+          "diff_vi": "Trang trọng (phát biểu, phỏng vấn, thông báo). `-나요?` mềm và gần gũi hơn."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `-(으)ㄴ가요?` cho động từ: ✗ `공항에 간가요?` → `가나요?`.\n(2) Bỏ `이` sau danh từ: ✗ `몇 호선가요?` → `몇 호선인가요?`.\n(3) Trong lời nói, người Hàn cũng hay nói `빠르나요?` với tính từ; khi viết và khi thi, dùng dạng chuẩn `빠른가요?`.",
+      "topik_tip_vi": "Trong bài Nghe, `-나요?` thường là lời hỏi của khách với nhân viên (ở ga, bến xe, cửa hàng); câu tiếp theo hợp lý là câu trả lời thông tin.",
+      "example_ko": "저, 이 버스가 공항에 가나요?\n어디에서 2호선으로 갈아타나요?\n버스보다 지하철이 더 빠른가요?",
+      "example_vi": "Xin lỗi, xe buýt này có đi sân bay không ạ?\nĐổi sang tuyến số 2 ở đâu ạ?\nTàu điện ngầm có nhanh hơn xe buýt không ạ?",
+      "source": "Korean Grammar in Use (Beginner) · ví dụ tự soạn",
+      "builds_on": [
+        "V/A + -아/어요",
+        "A + -은/ㄴ"
+      ],
+      "importance": "normal"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài",
+      "body": "Sau bài này bạn làm được bốn việc:\n① nói đi bằng phương tiện gì và đổi tuyến ở đâu (`지하철로`, `N에서 N(으)로 갈아타다`);\n② nói từ đâu đến đâu, mất bao lâu, tốn bao nhiêu (`N에서 N까지`, `-는 데 걸리다/들다`) và bao lâu một chuyến (`N마다`);\n③ khuyên người khác và nói việc phải làm khi đi lại (`-(으)니까`, `-아/어야 하다`), kể việc ghé ngang trên đường (`-는 길에`);\n④ hỏi đường, hỏi xe lịch sự với người lạ (`이 버스가 공항에 가나요?`, `지하철이 더 빠른가요?`).\n• 🎯 **Đầu ra:** cuối bài bạn viết được một đoạn 150–300 chữ kể đường từ nhà đến trường hoặc chỗ làm: phương tiện, đổi tuyến ở đâu, mất bao lâu, tốn bao nhiêu (Bước 5), và nói về đường đi học hoặc đi làm trong 30 giây.",
+      "kind": "goal"
+    },
+    {
+      "title": "Phân biệt (으)로 và 에",
+      "body": "`학교에 가요` nhấn mạnh điểm đến là trường học; `학교로 가요` nhấn mạnh phương hướng di chuyển về phía trường học.",
+      "kind": "language"
+    },
+    {
+      "title": "Đời sống: Thẻ giao thông và chuyển tuyến",
+      "body": "• **교통카드:** thẻ giao thông (T-money, 캐시비…) mua ở cửa hàng tiện lợi; nạp tiền (`충전`) ở cửa hàng tiện lợi hoặc ga tàu điện.\n• **Chạm khi lên VÀ khi xuống:** trên xe buýt và ở cổng ga, chạm thẻ cả lúc lên lẫn lúc xuống để hệ thống tính tiền đúng và áp dụng **환승 할인** (giảm giá khi chuyển tuyến). Quên chạm lúc xuống có thể mất ưu đãi.\n• **Quy tắc chuyển tuyến** (số lần, thời gian giữa hai chuyến) khác nhau theo vùng và thời điểm; xem thông báo trên xe hoặc ứng dụng bản đồ.\n• **Phép lịch sự:** để người xuống xe trước rồi mới lên; ghế ưu tiên (`노약자석`, `임산부 배려석`) dành cho người cao tuổi, người khuyết tật, phụ nữ mang thai.\n\n*Lưu ý:* mức giá và ưu đãi thay đổi theo thời gian, bài này không ghi số cụ thể.",
+      "kind": "fact",
+      "exam": "kiip-1"
+    },
+    {
+      "title": "🟢 Khung câu kể đường đi học, đi làm",
+      "kind": "language",
+      "body": "• **Câu mở (cả quãng đường):** `우리 집에서 회사까지는 지하철로 사십 분쯤 걸려요.`\n• **Đoạn đầu:** `집에서 지하철역까지는 걸어서 오 분이에요.` · `집에서 정류장까지 걸어서 삼 분이에요.`\n• **Lên xe, đổi tuyến:** `2호선을 타고 시청역에서 1호선으로 갈아타야 해요.` · `거기에서 7번 버스를 타요.`\n• **Xe bao lâu một chuyến:** `지하철은 오 분마다 와서 편해요.`\n• **Trên đường:** `회사에 가는 길에 편의점에서 커피를 사요.`\n• **Chi phí:** `지하철을 타는 데 한 달에 육만 원쯤 들어요.`\n• **Câu kết (vì sao chọn cách này):** `… 복잡하지만 길이 막히지 않으니까 저는 버스보다 지하철이 좋아요.`\n**Ba tiểu từ của đường đi:** điểm đi `에서` – điểm đến `까지` – phương tiện `(으)로`. Đi bộ là `걸어서` (✗ `발로`).\n**Lỗi người Việt hay mắc:** ✗ `지하철을 사십 분 걸려요` → ✓ `지하철로 사십 분 걸려요` · ✗ `시청역에 갈아타요` → ✓ `시청역에서 갈아타요` · ✗ `2호선` đọc [두 호선] → ✓ [이호선]."
+    },
+    {
+      "title": "🟢 Bài mẫu: Đường đi làm của tôi (đầu ra của bài)",
+      "kind": "sample",
+      "body": "🎯 Học xong bài này, bạn viết được một đoạn kể đường từ nhà đến trường hoặc chỗ làm (phương tiện, đổi tuyến, thời gian, chi phí) và nói về nó trong 30 giây. Đọc to bài mẫu, rồi thay bằng đường đi thật của bạn: đó là bài **Bước 5** ở phần Tạo câu.\n\n우리 집에서 회사까지는 지하철로 사십 분쯤 걸려요. 저는 보통 일곱 시 반에 집에서 나가요. 집에서 지하철역까지는 걸어서 오 분이에요. 2호선을 타고 시청역에서 1호선으로 갈아타야 해요. 지하철은 오 분마다 와서 편해요. 회사에 가는 길에 편의점에서 커피를 한 잔 사요. 지하철을 타는 데 한 달에 육만 원쯤 들어요. 출근 시간에는 사람이 많아서 복잡하지만 길이 막히지 않으니까 저는 버스보다 지하철이 좋아요.\n\n*Bản dịch tham khảo:* Từ nhà tôi đến công ty đi tàu điện ngầm mất khoảng bốn mươi phút. Tôi thường ra khỏi nhà lúc bảy giờ rưỡi. Từ nhà đến ga tàu điện đi bộ năm phút. Tôi đi tuyến số 2 rồi phải đổi sang tuyến số 1 ở ga Tòa thị chính. Tàu năm phút có một chuyến nên rất tiện. Trên đường đến công ty, tôi mua một cốc cà phê ở cửa hàng tiện lợi. Đi tàu điện mỗi tháng tốn khoảng 60.000 won. Giờ đi làm đông người nên chật chội, nhưng vì không tắc đường nên tôi thích tàu điện hơn xe buýt.\n\n**Đoạn văn đi theo 3 bước:** (1) câu mở: cả quãng đường, phương tiện, mất bao lâu (`에서 … 까지 … (으)로 … 걸려요`) → (2) từng chặng theo thứ tự: ra khỏi nhà, đi bộ, lên xe, đổi tuyến, việc trên đường, chi phí → (3) câu kết: vì sao bạn chọn cách đi này (`-지만 … -(으)니까 …`)."
+    }
+  ],
+  "coach": {
+    "focus_vi": [
+      "`N + (으)로`: phương tiện hoặc hướng đi (`지하철로`, `오른쪽으로`).",
+      "`N1에서 N2까지` và `V + -는 데 걸리다`: quãng đường và thời gian cần.",
+      "`V/A + -(으)니까`: nêu lý do rồi khuyên hoặc rủ."
+    ],
+    "watch_out_vi": [
+      "Đọc mục «Phân biệt (으)로 và 에»: `에` nhấn điểm đến, `(으)로` nhấn phương hướng di chuyển.",
+      "`-(으)니까` đi được với đề nghị, mệnh lệnh (`지하철을 타세요`); `-아/어서` thì không."
+    ],
+    "notebook_vi": [
+      "Đường đi từ nhà đến nơi bạn học hoặc làm: phương tiện, nơi đổi tuyến, thời gian.",
+      "3 câu nói việc bạn phải làm khi đi lại, dùng `-아/어야 하다`."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Nói bạn đến trường bằng gì và mất bao lâu.",
+        "answer": "저는 지하철로 학교에 가요. · 학교에 가는 데 30분쯤 걸려요."
+      },
+      {
+        "prompt_vi": "Khuyên một người đi tàu điện ngầm vì đường tắc, dùng `-(으)니까`.",
+        "answer": "길이 막히니까 지하철을 타세요."
+      }
+    ],
+    "tip_vi": "Đọc ghi chú về thẻ giao thông và chuyển tuyến; đó là việc bạn làm mỗi ngày khi sống ở Hàn."
+  },
+  "exercise_ids": [
+    "L5",
+    "L10",
+    "LN34",
+    "LN35",
+    "LN36",
+    "LN37",
+    "LN38",
+    "LN39",
+    "LN40",
+    "LN41",
+    "LN42",
+    "LN43",
+    "D12",
+    "D13",
+    "U11L1",
+    "R3",
+    "R8",
+    "R12",
+    "W52B",
+    "S3",
+    "U11S1",
+    "E06a",
+    "E06b",
+    "E06c",
+    "KR04",
+    "FR161",
+    "FR162",
+    "FR163",
+    "FR164",
+    "FR165",
+    "FR166",
+    "FR167",
+    "FR168",
+    "FR169",
+    "U11R1",
+    "GB11a",
+    "BO21",
+    "BO22",
+    "BO23",
+    "BO24",
+    "BO25",
+    "FBO33",
+    "FBO34",
+    "U11O1",
+    "U11O2",
+    "BF14",
+    "BF15",
+    "BF16",
+    "FBF26",
+    "U11F1",
+    "GB11b",
+    "BC08",
+    "BC09",
+    "U11C1",
+    "BE05",
+    "U11E1",
+    "FS40",
+    "FS41",
+    "FS42",
+    "FSL17",
+    "FSL18"
+  ],
+  "editor_notes": [
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "Gói đầu ra bài 11 (U11*), dựa trên thẻ của gói bài 7 (보통, 쯤, 집에서 나가다, 일찍, 그래서, 그리고), bài 8 (우리 집) và bài 9 (조금). Bài 11 không có ghi chú `goal` và `pitfall`; `goal_extra` không được ghép, lời hứa 🎯 nằm ở ghi chú bài mẫu. `호선` (thẻ bài 33), `편의점` (thẻ bài 20) và `길이 막히다` (thẻ `막히다` bài 33) được dạy sớm hơn ở đây vì bài mẫu cần. Đề S3 (chuỗi tranh đi làm muộn) vẫn ở bài 11, không bỏ: có `-는데도` của bài này. Mục mới cần chạy lại practice_tiers --build."
+    }
+  ],
+  "sessions": [
+    {
+      "title_vi": "Đi bằng gì, đến đâu: phương tiện và N(으)로",
+      "can_do_vi": "Nói đi bằng phương tiện nào: «버스로 가요», «지하철로 출근해요», «고속버스로 부산에 갔어요»; gọi tên phương tiện, bến xe, ga tàu, sân bay, bãi đỗ xe.",
+      "use_vi": "Trả lời «Bạn đi làm bằng gì?», hỏi bến xe buýt, ga tàu ở đâu.",
+      "topik_vi": "Giống dạng nghe chọn phương tiện / địa điểm và dạng đọc biển chỉ dẫn giao thông ở phần TOPIK I.",
+      "vocab": [
+        "교통",
+        "버스",
+        "지하철",
+        "택시",
+        "기차",
+        "비행기",
+        "자전거",
+        "대중교통",
+        "교통카드",
+        "고속버스",
+        "열차",
+        "전철",
+        "트럭",
+        "스포츠카",
+        "항공",
+        "정류장",
+        "지하철역",
+        "공항",
+        "정류소",
+        "정거장",
+        "주차장"
+      ],
+      "grammar": [
+        "N + (으)로"
+      ],
+      "check": [
+        "LN34",
+        "BO23",
+        "FS40",
+        "FSL17"
+      ],
+      "situation": {
+        "scene_vi": "Hai đồng nghiệp hỏi nhau đi lại bằng gì.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "회사에 어떻게 가요?",
+            "vi": "Bạn đến công ty bằng cách nào?"
+          },
+          {
+            "who": "B",
+            "ko": "지하철로 가요.",
+            "vi": "Tôi đi bằng tàu điện ngầm."
+          },
+          {
+            "who": "A",
+            "ko": "공항에는 어떻게 가요?",
+            "vi": "Còn ra sân bay thì sao?"
+          },
+          {
+            "who": "B",
+            "ko": "버스로 가요. 택시로도 가요.",
+            "vi": "Tôi đi xe buýt. Cũng có khi đi taxi."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "서울에 어떻게 가요?",
+          "prompt_vi": "Bạn đi đến Seoul bằng gì?",
+          "options": [
+            {
+              "ko": "기차로 가요.",
+              "vi": "Tôi đi bằng tàu hỏa.",
+              "ok": true,
+              "why_vi": "Phương tiện đi với (으)로: 기차로 = bằng tàu."
+            },
+            {
+              "ko": "기차에서 가요.",
+              "vi": "Tôi đi ở tàu hỏa.",
+              "ok": false,
+              "why_vi": "에서 chỉ nơi chốn diễn ra việc. Phương tiện phải dùng (으)로."
+            },
+            {
+              "ko": "기차가 가요.",
+              "vi": "Tàu hỏa đi.",
+              "ok": false,
+              "why_vi": "Câu này chủ ngữ là tàu, không nói bạn đi bằng gì."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «Tôi đi bằng xe đạp». Cách nào đúng?",
+          "a": {
+            "ko": "자전거로 가요.",
+            "vi": "Tôi đi bằng xe đạp."
+          },
+          "b": {
+            "ko": "자전거에서 가요.",
+            "vi": "Tôi đi ở xe đạp."
+          },
+          "better": "a",
+          "why_vi": "(으)로 chỉ phương tiện hoặc cách thức. 에서 chỉ nơi diễn ra hành động."
+        }
+      }
+    },
+    {
+      "title_vi": "Từ đâu đến đâu, mất bao lâu: N1에서 N2까지, -는 데 걸리다, N마다",
+      "can_do_vi": "Nói tuyến đường và thời gian: «집에서 회사까지 한 시간 걸려요», «버스는 10분마다 와요»; hỏi «얼마나 걸려요?»; nói nhanh / chậm, giờ xuất phát / đến nơi.",
+      "use_vi": "Hỏi thời gian đi lại, giải thích đi làm mất bao lâu, đọc lịch tàu xe.",
+      "topik_vi": "Giống dạng nghe số (thời gian, số phút) và dạng điền (에서 – 까지, 마다) ở phần TOPIK I.",
+      "vocab": [
+        "시간 / 분",
+        "걸리다",
+        "빠르다",
+        "느리다",
+        "걸어서",
+        "출발",
+        "출발되다",
+        "도착",
+        "출근",
+        "출근 시간",
+        "한 달",
+        "얼마나 걸려요?"
+      ],
+      "grammar": [
+        "N1에서 N2까지 (nơi chốn)",
+        "V + -는 데 걸리다/들다",
+        "N + 마다"
+      ],
+      "check": [
+        "LN39",
+        "LN41",
+        "LN42",
+        "FR161",
+        "FR162",
+        "FR166",
+        "FR167",
+        "FBO33",
+        "FBO34",
+        "BO25",
+        "FBF26"
+      ],
+      "situation": {
+        "scene_vi": "Bạn hỏi đồng nghiệp về quãng đường đi làm.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "집에서 회사까지 얼마나 걸려요?",
+            "vi": "Từ nhà đến công ty mất bao lâu?"
+          },
+          {
+            "who": "B",
+            "ko": "지하철로 한 시간쯤 걸려요.",
+            "vi": "Đi tàu điện ngầm mất khoảng một tiếng."
+          },
+          {
+            "who": "A",
+            "ko": "지하철은 몇 분마다 와요?",
+            "vi": "Tàu cứ mấy phút một chuyến?"
+          },
+          {
+            "who": "B",
+            "ko": "오 분마다 와요.",
+            "vi": "Cứ 5 phút một chuyến."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "서울에서 부산까지 얼마나 걸려요?",
+          "prompt_vi": "Từ Seoul đến Busan mất bao lâu?",
+          "options": [
+            {
+              "ko": "기차로 세 시간쯤 걸려요.",
+              "vi": "Đi tàu mất khoảng ba tiếng.",
+              "ok": true,
+              "why_vi": "걸리다 nói thời gian mất. Trả lời bằng «số + 시간»."
+            },
+            {
+              "ko": "기차로 삼천 원 걸려요.",
+              "vi": "Đi tàu mất 3.000 won.",
+              "ok": false,
+              "why_vi": "걸리다 chỉ dùng cho thời gian, không dùng cho tiền."
+            },
+            {
+              "ko": "세 시간마다 걸려요.",
+              "vi": "Cứ mỗi ba tiếng thì mất.",
+              "ok": false,
+              "why_vi": "마다 = mỗi, cứ. Câu hỏi hỏi tổng thời gian, không hỏi tần suất."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Xe buýt cứ 10 phút có một chuyến. Cách nào đúng?",
+          "a": {
+            "ko": "버스는 십 분마다 와요.",
+            "vi": "Xe buýt cứ 10 phút một chuyến."
+          },
+          "b": {
+            "ko": "버스는 십 분에 와요.",
+            "vi": "Xe buýt đến lúc 10 phút."
+          },
+          "better": "a",
+          "why_vi": "N마다 = «mỗi, cứ». 에 chỉ một mốc thời gian, nên không diễn đạt được «cứ mỗi 10 phút»."
+        }
+      }
+    },
+    {
+      "title_vi": "Hỏi đường lịch sự: ngã tư, vạch sang đường, -나요?",
+      "can_do_vi": "Hỏi đường và hiểu chỉ dẫn: «사거리에서 횡단보도를 건너세요», «출구가 어디예요?»; hỏi nhẹ nhàng: «이 버스가 시청에 가나요?».",
+      "use_vi": "Hỏi người đi đường, hỏi nhân viên ga tàu, hiểu chỉ dẫn «đi thẳng, băng qua».",
+      "topik_vi": "Giống dạng nghe hỏi đường (chọn địa điểm) và dạng điền đuôi hỏi lịch sự ở phần TOPIK I.",
+      "vocab": [
+        "사거리",
+        "횡단보도",
+        "출구",
+        "건너다",
+        "건너가다",
+        "걸어가다 / 걸어오다",
+        "길",
+        "네거리",
+        "오거리",
+        "녹색등"
+      ],
+      "grammar": [
+        "V + -나요? · A + -(으)ㄴ가요?"
+      ],
+      "check": [
+        "GB11a",
+        "GB11b",
+        "FS41",
+        "FSL18"
+      ],
+      "situation": {
+        "scene_vi": "Bạn hỏi đường một người lạ ở gần ga tàu.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "실례합니다. 지하철역이 어디에 있나요?",
+            "vi": "Xin lỗi. Ga tàu điện ngầm ở đâu ạ?"
+          },
+          {
+            "who": "B",
+            "ko": "사거리에서 오른쪽으로 가세요.",
+            "vi": "Đến ngã tư rồi rẽ phải."
+          },
+          {
+            "who": "A",
+            "ko": "횡단보도를 건너나요?",
+            "vi": "Tôi có phải băng qua vạch sang đường không?"
+          },
+          {
+            "who": "B",
+            "ko": "네, 건너세요. 그럼 출구가 있어요.",
+            "vi": "Có, hãy băng qua. Rồi sẽ thấy lối ra."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "이 버스는 공항에 가나요?",
+          "prompt_vi": "Xe buýt này có đến sân bay không?",
+          "options": [
+            {
+              "ko": "네, 가요. 이 버스를 타세요.",
+              "vi": "Có, xe này đi. Hãy lên xe này.",
+              "ok": true,
+              "why_vi": "-나요 là dạng HỎI. Người đáp dùng dạng bình thường «가요» rồi chỉ dẫn thêm."
+            },
+            {
+              "ko": "네, 가나요.",
+              "vi": "Có, có đi không?",
+              "ok": false,
+              "why_vi": "Đây lại là dạng hỏi. Khi trả lời phải dùng 가요."
+            },
+            {
+              "ko": "아니요, 공항이에요.",
+              "vi": "Không, là sân bay.",
+              "ok": false,
+              "why_vi": "Câu trả lời không nói xe có đến sân bay hay không, chỉ nói «đó là sân bay»."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn hỏi đường người lạ và muốn nói nhẹ nhàng. Cách nào mềm hơn?",
+          "a": {
+            "ko": "지하철역이 어디에 있나요?",
+            "vi": "Ga tàu điện ngầm ở đâu ạ?"
+          },
+          "b": {
+            "ko": "지하철역이 어디예요?",
+            "vi": "Ga tàu điện ngầm ở đâu?"
+          },
+          "better": "a",
+          "why_vi": "-나요?/-(으)ㄴ가요? hỏi thông tin một cách mềm, nghe như đang nhờ chỉ giúp. Cả hai đều lịch sự nhưng A nghe nhẹ nhàng hơn."
+        }
+      }
+    },
+    {
+      "title_vi": "Lên xe, đổi tuyến và những điều phải làm: -아/어야 하다, -(으)니까",
+      "can_do_vi": "Nói phải làm gì và lý do: «2호선으로 갈아타야 해요», «길이 복잡하니까 지하철로 가세요»; dùng 타다 / 내리다 / 갈아타다 đúng chỗ, nói tuyến 호선 và số xe buýt.",
+      "use_vi": "Hướng dẫn bạn đi tàu, báo phải xuống ga nào, khuyên chọn phương tiện thuận tiện.",
+      "topik_vi": "Giống dạng nghe chọn việc phải làm tiếp theo và dạng điền (-아/어야 하다, -(으)니까) ở phần TOPIK I.",
+      "vocab": [
+        "타다",
+        "내리다",
+        "갈아타다",
+        "호선",
+        "N에서 N(으)로 갈아타다",
+        "N번 버스",
+        "복잡하다",
+        "편하다",
+        "운전하다",
+        "교통사고"
+      ],
+      "grammar": [
+        "V + -아/어야 하다/되다",
+        "V/A + -(으)니까"
+      ],
+      "check": [
+        "LN36",
+        "LN37",
+        "LN43",
+        "BO21",
+        "BO22",
+        "BF14",
+        "BF15",
+        "BC09",
+        "FS42",
+        "D12",
+        "D13"
+      ],
+      "situation": {
+        "scene_vi": "Hai người bạn bàn cách đi làm vào giờ cao điểm.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "2호선에서 갈아타야 해요?",
+            "vi": "Mình có phải đổi tuyến ở đường 2 không?"
+          },
+          {
+            "who": "B",
+            "ko": "네, 사당역에서 4호선으로 갈아타야 해요.",
+            "vi": "Vâng, phải đổi sang đường 4 ở ga Sadang."
+          },
+          {
+            "who": "A",
+            "ko": "출근 시간이니까 복잡해요?",
+            "vi": "Vì là giờ đi làm nên đông à?"
+          },
+          {
+            "who": "B",
+            "ko": "네, 복잡하니까 일찍 나가세요.",
+            "vi": "Vâng, vì đông nên hãy ra khỏi nhà sớm."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "버스가 복잡해요. 어떻게 할까요?",
+          "prompt_vi": "Xe buýt đông. Mình làm sao nhỉ?",
+          "options": [
+            {
+              "ko": "복잡하니까 지하철을 타요.",
+              "vi": "Vì đông nên mình đi tàu điện ngầm.",
+              "ok": true,
+              "why_vi": "-(으)니까 nêu lý do và đi được với lời đề nghị ở vế sau."
+            },
+            {
+              "ko": "복잡해서 지하철을 타세요.",
+              "vi": "Vì đông, hãy đi tàu điện ngầm.",
+              "ok": false,
+              "why_vi": "-아/어서 không đi với mệnh lệnh hay đề nghị ở vế sau. Phải dùng -(으)니까."
+            },
+            {
+              "ko": "네, 복잡해요.",
+              "vi": "Vâng, đông.",
+              "ok": false,
+              "why_vi": "Người hỏi hỏi «mình làm sao», cần một cách giải quyết, không phải xác nhận."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn nhắc bạn: «Đường tắc nên hãy đi sớm». Cách nào đúng?",
+          "a": {
+            "ko": "길이 막히니까 일찍 가세요.",
+            "vi": "Vì đường tắc nên hãy đi sớm."
+          },
+          "b": {
+            "ko": "길이 막혀서 일찍 가세요.",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "Vế sau là lời yêu cầu (가세요) nên cần -(으)니까. -아/어서 không dùng được với mệnh lệnh."
+        }
+      }
+    },
+    {
+      "title_vi": "Kể việc trên đường đi làm: -는 길에, -는데도",
+      "can_do_vi": "Kể trên đường đi làm: «출근하는 길에 편의점에 들렀어요»; nói «dù… vẫn…»: «길이 막히는데도 버스로 가요»; nói chi phí đi lại (교통비).",
+      "use_vi": "Kể một buổi đi làm, giải thích vì sao đến muộn, nói về tiền đi lại hằng tháng.",
+      "topik_vi": "Giống dạng đọc đoạn ngắn kể chuyện đi làm rồi chọn câu có nghĩa giống ở phần Đọc TOPIK I.",
+      "vocab": [
+        "길이 막히다",
+        "편의점",
+        "교통비",
+        "비가 오다"
+      ],
+      "grammar": [
+        "V + -는 길에",
+        "V/A + -는데도/-(으)ㄴ데도"
+      ],
+      "check": [
+        "LN38",
+        "LN40",
+        "R3",
+        "E06a",
+        "E06b",
+        "E06c",
+        "BO24",
+        "BF16",
+        "BC08",
+        "U11F1"
+      ],
+      "situation": {
+        "scene_vi": "Một đồng nghiệp hỏi vì sao bạn đến muộn.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "오늘 왜 지각했어요?",
+            "vi": "Hôm nay sao bạn đến muộn?"
+          },
+          {
+            "who": "B",
+            "ko": "길이 막혔어요. 그래서 걸어서 왔어요.",
+            "vi": "Đường tắc. Nên tôi đi bộ đến."
+          },
+          {
+            "who": "A",
+            "ko": "비가 오는데도요?",
+            "vi": "Dù trời mưa à?"
+          },
+          {
+            "who": "B",
+            "ko": "네, 비가 오는데도 걸었어요. 오는 길에 편의점에도 들렀어요.",
+            "vi": "Vâng, dù trời mưa tôi vẫn đi bộ. Trên đường tôi còn ghé cửa hàng tiện lợi."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "회사에 오는 길에 뭐 했어요?",
+          "prompt_vi": "Trên đường đến công ty bạn đã làm gì?",
+          "options": [
+            {
+              "ko": "오는 길에 커피를 샀어요.",
+              "vi": "Trên đường đến tôi đã mua cà phê.",
+              "ok": true,
+              "why_vi": "-는 길에 = «trên đường (đi, đến)». Dùng sau động từ chuyển động."
+            },
+            {
+              "ko": "오는 길을 커피를 샀어요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Cấu trúc đúng là 오는 길에, không dùng 을 và không có hai tân ngữ liền nhau."
+            },
+            {
+              "ko": "오는데도 커피를 샀어요.",
+              "vi": "Dù đến, tôi mua cà phê.",
+              "ok": false,
+              "why_vi": "-는데도 nghĩa «mặc dù», không có nghĩa «trên đường»."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «Trên đường về nhà tôi ghé siêu thị». Cách nào đúng?",
+          "a": {
+            "ko": "집에 가는 길에 슈퍼에 들렀어요.",
+            "vi": "Trên đường về nhà tôi ghé siêu thị."
+          },
+          "b": {
+            "ko": "집에 가는데도 슈퍼에 들렀어요.",
+            "vi": "Dù về nhà, tôi ghé siêu thị."
+          },
+          "better": "a",
+          "why_vi": "-는 길에 = «trên đường làm việc gì». -는데도 = «mặc dù», nên câu B có nghĩa lạ."
+        }
+      }
+    }
+  ]
+}

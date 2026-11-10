@@ -1,0 +1,740 @@
+{
+  "slug": "xa-hoi-17-tieu-dung-xa-hoi-so",
+  "title": "Tiêu dùng và xã hội số",
+  "title_ko": "소비와 디지털 사회",
+  "topic": "Xã hội, Tư tưởng & Chuyên ngành",
+  "track": "advanced",
+  "level": 6,
+  "sort_order": 78,
+  "summary": "46 từ về mua sắm, thương mại điện tử, bảo mật và xu hướng truyền thông; ba nhóm mẫu của văn nghị luận có tầng ý: dù … nhưng trái kỳ vọng · nếu … thì còn được / một khi … thì · vì là … nên / làm cho là … mà / cứ tưởng. Có số liệu mua sắm 2025 đã kiểm tra, quyền hoàn đơn, hạn dùng thực phẩm, chiến lược Đọc câu 16–31 và 3 câu đề thật.",
+  "vocab": [
+    {
+      "hangul": "구매",
+      "pos": "N",
+      "meaning_vi": "Mua (văn thương mại)",
+      "note_vi": "購買. `구매하다`, `구매력`, `구매 후기`; văn viết, trang web dùng `구매`, nói thường dùng `사다`.",
+      "example_ko": "2025년 해외 직구 구매액은 약 8조 5천억 원이었다.",
+      "example_vi": "Năm 2025 số tiền mua hàng trực tiếp từ nước ngoài khoảng 8,5 nghìn tỷ won.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "core",
+      "hanja": "購買",
+      "sino_vietnamese": "cấu mãi",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "판매",
+      "pos": "N",
+      "meaning_vi": "Bán hàng",
+      "note_vi": "販賣. `판매하다`, `판매량`, `판매원`; cặp `구매 ↔ 판매`.",
+      "example_ko": "이 가게는 직접 만든 제품만 판매한다.",
+      "example_vi": "Cửa hàng này chỉ bán sản phẩm tự làm.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "core",
+      "hanja": "販賣",
+      "sino_vietnamese": "phán mại",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "거래",
+      "pos": "N",
+      "meaning_vi": "Giao dịch",
+      "note_vi": "去來. `거래하다`, `거래액`, `거래처` (đối tác); `온라인 거래`.",
+      "example_ko": "온라인 거래에서는 판매자의 신뢰도를 확인하는 것이 중요하다.",
+      "example_vi": "Trong giao dịch trực tuyến, điều quan trọng là kiểm tra độ tin cậy của người bán.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "core",
+      "hanja": "去來",
+      "sino_vietnamese": "khứ lai",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "주문",
+      "pos": "N",
+      "meaning_vi": "Đặt hàng",
+      "note_vi": "注文. `주문하다`, `주문서`, `주문이 취소되다`.",
+      "example_ko": "어제 주문한 상품이 오늘 도착했다.",
+      "example_vi": "Hàng đặt hôm qua đã đến hôm nay.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "core",
+      "hanja": "注文",
+      "sino_vietnamese": "chú văn",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "배송",
+      "pos": "N",
+      "meaning_vi": "Giao hàng",
+      "note_vi": "配送. `배송하다`, `배송비`, `배송 지연`, `택배` (chuyển phát).",
+      "example_ko": "배송 조회를 하면 상품이 어디쯤 왔는지 알 수 있다.",
+      "example_vi": "Tra cứu giao hàng sẽ biết hàng đang ở đâu.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "core",
+      "hanja": "配送",
+      "sino_vietnamese": "phối tống",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "결제",
+      "pos": "N",
+      "meaning_vi": "Thanh toán",
+      "note_vi": "決濟. `결제하다`, `카드 결제`, `자동 결제`; khác `납부` (nộp theo thông báo).",
+      "example_ko": "카드로 결제하면 결제 내용이 문자로 온다.",
+      "example_vi": "Thanh toán bằng thẻ thì nội dung thanh toán gửi về bằng tin nhắn.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "core",
+      "hanja": "決濟",
+      "sino_vietnamese": "quyết tế",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "할부",
+      "pos": "N",
+      "meaning_vi": "Trả góp",
+      "note_vi": "割賦. `할부로 사다`, `무이자 할부`; trái nghĩa `일시불` (trả một lần).",
+      "example_ko": "비싼 물건은 카드 할부로 나누어 낼 수 있다.",
+      "example_vi": "Đồ đắt có thể chia ra trả bằng thẻ trả góp.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "recognize",
+      "hanja": "割賦",
+      "sino_vietnamese": "cát phú",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "상품",
+      "pos": "N",
+      "meaning_vi": "Hàng hoá (để bán)",
+      "note_vi": "商品. Nhìn từ phía mua bán; `상품권` (phiếu quà), `상품 설명`.",
+      "example_ko": "이 쇼핑몰은 상품의 종류가 다양하다.",
+      "example_vi": "Trang mua sắm này có nhiều loại hàng.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "core",
+      "hanja": "商品",
+      "sino_vietnamese": "thương phẩm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "제품",
+      "pos": "N",
+      "meaning_vi": "Sản phẩm (được chế tạo)",
+      "note_vi": "製品. Nhìn từ phía sản xuất; `신제품`, `제품 설명서`. So `상품`: hàng để bán.",
+      "example_ko": "이 회사는 친환경 제품을 만들어 판매한다.",
+      "example_vi": "Công ty này sản xuất và bán sản phẩm thân thiện môi trường.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "core",
+      "hanja": "製品",
+      "sino_vietnamese": "chế phẩm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "브랜드",
+      "pos": "N",
+      "meaning_vi": "Thương hiệu",
+      "note_vi": "Từ mượn (brand). `브랜드 가치`, `명품 브랜드`.",
+      "example_ko": "유명 브랜드의 제품은 가격이 높은 편이다.",
+      "example_vi": "Sản phẩm của thương hiệu nổi tiếng thường có giá cao.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "유통",
+      "pos": "N",
+      "meaning_vi": "Lưu thông, phân phối",
+      "note_vi": "流通. `유통하다`, `유통 과정`, `유통업체`; sau `생산` và trước `소비`.",
+      "example_ko": "신선식품은 유통 과정이 짧을수록 신선하다.",
+      "example_vi": "Thực phẩm tươi càng ít khâu phân phối thì càng tươi.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "recognize",
+      "hanja": "流通",
+      "sino_vietnamese": "lưu thông",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "재고",
+      "pos": "N",
+      "meaning_vi": "Hàng tồn kho",
+      "note_vi": "在庫. `재고가 없다/떨어지다`, `재고 정리`.",
+      "example_ko": "인기 있는 상품은 재고가 금방 떨어진다.",
+      "example_vi": "Hàng được ưa chuộng thì nhanh hết hàng tồn.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "recognize",
+      "hanja": "在庫",
+      "sino_vietnamese": "tại khố",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "직구",
+      "pos": "N",
+      "meaning_vi": "Mua trực tiếp từ nước ngoài",
+      "note_vi": "直購. Viết tắt của `직접 구매`; `해외 직구`, `역직구` (người nước ngoài mua hàng Hàn).",
+      "example_ko": "해외 직구는 외국 쇼핑몰에서 직접 물건을 사는 방식이다.",
+      "example_vi": "Mua trực tiếp từ nước ngoài là cách mua hàng từ trang bán hàng nước ngoài.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "core",
+      "hanja": "直購",
+      "sino_vietnamese": "trực cấu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "후기",
+      "pos": "N",
+      "meaning_vi": "Bài đánh giá sau khi dùng",
+      "note_vi": "後記. `구매 후기`, `사용 후기`; đồng âm `후기` 後期 (giai đoạn sau).",
+      "example_ko": "구매 후기를 읽어 보고 구입할지 결정했다.",
+      "example_vi": "Tôi đọc đánh giá của người đã mua rồi mới quyết định có mua không.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "core",
+      "hanja": "後記",
+      "sino_vietnamese": "hậu ký",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "포장",
+      "pos": "N",
+      "meaning_vi": "Đóng gói",
+      "note_vi": "包裝. `포장하다`, `포장지`, `과대 포장`; `포장 이사`; ở quán ăn `포장해 가다` = mua mang đi.",
+      "example_ko": "깨지기 쉬운 물건은 포장을 꼼꼼히 해야 한다.",
+      "example_vi": "Đồ dễ vỡ phải đóng gói thật kỹ.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "recognize",
+      "hanja": "包裝",
+      "sino_vietnamese": "bao trang",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "품질",
+      "pos": "N",
+      "meaning_vi": "Chất lượng (hàng hoá)",
+      "note_vi": "品質. `품질이 좋다/떨어지다`, `품질 관리`, `품질 보증`.",
+      "example_ko": "가격이 조금 비싸도 품질이 좋은 제품을 고르는 사람이 많다.",
+      "example_vi": "Nhiều người chọn sản phẩm chất lượng tốt dù giá hơi đắt.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "core",
+      "hanja": "品質",
+      "sino_vietnamese": "phẩm chất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "가성비",
+      "pos": "N",
+      "meaning_vi": "Hiệu năng trên giá",
+      "note_vi": "價性比. Từ phổ biến trong đời sống; `가성비가 좋다/떨어지다`.",
+      "example_ko": "가격에 비해 성능이 좋은 제품을 가성비가 좋다고 한다.",
+      "example_vi": "Sản phẩm có tính năng tốt so với giá gọi là có hiệu năng trên giá tốt.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "명품",
+      "pos": "N",
+      "meaning_vi": "Hàng hiệu, tác phẩm xuất sắc",
+      "note_vi": "名品. `명품 가방`, `명품 소비`; còn nghĩa «tác phẩm danh tiếng» (`명품 연기`).",
+      "example_ko": "명품은 가격이 비싸지만 찾는 사람이 많다.",
+      "example_vi": "Hàng hiệu giá đắt nhưng nhiều người tìm mua.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "recognize",
+      "hanja": "名品",
+      "sino_vietnamese": "danh phẩm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "과소비",
+      "pos": "N",
+      "meaning_vi": "Tiêu dùng quá mức",
+      "note_vi": "過消費. `과소비하다`; thường đi với `충동구매`, `낭비`; trái nghĩa `절약`.",
+      "example_ko": "충동적인 구매는 과소비로 이어질 수 있다.",
+      "example_vi": "Mua theo cảm hứng có thể dẫn đến tiêu dùng quá mức.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "recognize",
+      "hanja": "過消費",
+      "sino_vietnamese": "quá tiêu phí",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "청약철회",
+      "pos": "N",
+      "meaning_vi": "Rút lại đơn đặt mua",
+      "note_vi": "請約撤回. Thuật ngữ pháp lý; thường kèm `7일 이내`; xem ghi chú về quyền hoàn đơn.",
+      "example_ko": "온라인으로 산 상품은 일정한 기간 안에 청약철회를 할 수 있다.",
+      "example_vi": "Hàng mua trực tuyến có thể rút lại đơn trong một thời hạn nhất định.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "약관",
+      "pos": "N",
+      "meaning_vi": "Điều khoản (sử dụng/hợp đồng)",
+      "note_vi": "約款. `이용 약관`, `약관 동의`, `약관을 읽다`.",
+      "example_ko": "서비스에 가입하기 전에 약관을 꼼꼼히 읽어 보아야 한다.",
+      "example_vi": "Trước khi đăng ký dịch vụ phải đọc kỹ điều khoản.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "recognize",
+      "hanja": "約款",
+      "sino_vietnamese": "ước khoản",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "원산지",
+      "pos": "N",
+      "meaning_vi": "Nơi sản xuất, xuất xứ",
+      "note_vi": "原産地. `원산지 표시`, `원산지가 다르다`.",
+      "example_ko": "식품을 살 때는 원산지 표시를 확인한다.",
+      "example_vi": "Khi mua thực phẩm tôi kiểm tra nhãn xuất xứ.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "recognize",
+      "hanja": "原産地",
+      "sino_vietnamese": "nguyên sản địa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "유통기한",
+      "pos": "N",
+      "meaning_vi": "Hạn lưu thông, hạn bán",
+      "note_vi": "流通期限. Từ 1/1/2023 thực phẩm chuyển sang ghi `소비기한` (hạn tiêu dùng); `유통기한` vẫn gặp trong tài liệu và đề cũ.",
+      "example_ko": "식품의 유통기한이 지났는지 확인한 뒤 샀다.",
+      "example_vi": "Tôi kiểm tra hạn lưu thông của thực phẩm rồi mới mua.",
+      "family": "🟢 Nền · Mua sắm, tiêu dùng, thương mại điện tử",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "화폐",
+      "pos": "N",
+      "meaning_vi": "Tiền tệ",
+      "note_vi": "貨幣. `지폐` (tiền giấy), `동전` (tiền xu), `전자 화폐`; `화폐 가치`.",
+      "example_ko": "화폐는 물건을 사고팔 때 쓰는 수단이다.",
+      "example_vi": "Tiền tệ là phương tiện dùng khi mua bán hàng hoá.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "recognize",
+      "hanja": "貨幣",
+      "sino_vietnamese": "hóa tệ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "전자상거래",
+      "pos": "N",
+      "meaning_vi": "Thương mại điện tử",
+      "note_vi": "電子商去來. `전자상거래법` là luật điều chỉnh mua bán qua mạng; viết liền hoặc `전자 상거래`.",
+      "example_ko": "전자상거래는 인터넷을 통해 물건을 사고파는 거래이다.",
+      "example_vi": "Thương mại điện tử là giao dịch mua bán hàng qua internet.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "간편결제",
+      "pos": "N",
+      "meaning_vi": "Thanh toán nhanh gọn (qua ứng dụng)",
+      "note_vi": "簡便決濟. Thanh toán nhanh qua ứng dụng, mã QR hoặc tài khoản đã lưu.",
+      "example_ko": "휴대폰으로 간편결제를 하면 카드를 꺼내지 않아도 된다.",
+      "example_vi": "Thanh toán nhanh bằng điện thoại thì không cần lấy thẻ ra.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "피싱",
+      "pos": "N",
+      "meaning_vi": "Lừa đảo chiếm thông tin (phishing)",
+      "note_vi": "Từ mượn (phishing). `보이스피싱` (lừa đảo qua điện thoại), `스미싱` (qua tin nhắn).",
+      "example_ko": "피싱은 가짜 문자나 사이트로 개인정보를 빼내는 범죄이다.",
+      "example_vi": "Phishing là tội phạm lấy thông tin cá nhân bằng tin nhắn hoặc trang giả.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "해킹",
+      "pos": "N",
+      "meaning_vi": "Xâm nhập hệ thống trái phép",
+      "note_vi": "Từ mượn (hacking). `해킹하다`, `해킹을 당하다`; cặp `보안`.",
+      "example_ko": "해킹으로 회원들의 정보가 밖으로 빠져나갔다.",
+      "example_vi": "Thông tin của hội viên đã bị lộ ra ngoài do bị xâm nhập.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "도용",
+      "pos": "N",
+      "meaning_vi": "Đánh cắp để dùng",
+      "note_vi": "盜用. `도용하다/도용당하다`, `명의 도용`, `계정 도용`.",
+      "example_ko": "다른 사람의 이름을 도용하는 것은 범죄이다.",
+      "example_vi": "Dùng trộm tên của người khác là tội phạm.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "recognize",
+      "hanja": "盜用",
+      "sino_vietnamese": "đạo dụng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "인증",
+      "pos": "N",
+      "meaning_vi": "Xác thực, chứng nhận",
+      "note_vi": "認證. `본인 인증`, `인증번호`, `인증서`; còn nghĩa «chứng nhận chất lượng».",
+      "example_ko": "본인 인증을 한 뒤에야 로그인할 수 있다.",
+      "example_vi": "Chỉ sau khi xác thực bản thân mới đăng nhập được.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "recognize",
+      "hanja": "認證",
+      "sino_vietnamese": "nhận chứng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "개인정보",
+      "pos": "N",
+      "meaning_vi": "Thông tin cá nhân",
+      "note_vi": "個人情報. `개인정보 유출`, `개인정보 보호`; luật `개인정보 보호법`.",
+      "example_ko": "개인정보는 안전하게 관리해야 한다.",
+      "example_vi": "Thông tin cá nhân phải được quản lý an toàn.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "core"
+    },
+    {
+      "hangul": "보안",
+      "pos": "N",
+      "meaning_vi": "An ninh, bảo mật",
+      "note_vi": "保安. `보안이 강하다/약하다`, `보안 프로그램`; trong ngữ cảnh khác còn là «bảo vệ an ninh».",
+      "example_ko": "보안이 약한 비밀번호는 쉽게 도용될 수 있다.",
+      "example_vi": "Mật khẩu có tính bảo mật yếu có thể dễ bị đánh cắp.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "recognize",
+      "hanja": "保安",
+      "sino_vietnamese": "bảo an",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "사이버",
+      "pos": "N",
+      "meaning_vi": "Không gian mạng",
+      "note_vi": "Từ mượn (cyber). `사이버 범죄`, `사이버 폭력`, `사이버 공간`.",
+      "example_ko": "사이버 공간에서도 서로 예의를 지켜야 한다.",
+      "example_vi": "Trên không gian mạng cũng phải giữ lễ độ với nhau.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "인플루언서",
+      "pos": "N",
+      "meaning_vi": "Người có sức ảnh hưởng trên mạng",
+      "note_vi": "Từ mượn (influencer). `인플루언서 마케팅`; cặp `협찬`, `광고 표시`.",
+      "example_ko": "인플루언서의 추천을 보고 물건을 사는 사람도 있다.",
+      "example_vi": "Cũng có người mua hàng sau khi xem lời giới thiệu của người có sức ảnh hưởng.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "유행",
+      "pos": "N",
+      "meaning_vi": "Mốt, thịnh hành",
+      "note_vi": "流行. `유행하다`, `유행을 타다`, `유행이 지나다`; còn nghĩa «lan truyền dịch bệnh».",
+      "example_ko": "올해는 짧은 머리가 유행이다.",
+      "example_vi": "Năm nay tóc ngắn đang thịnh hành.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "core",
+      "hanja": "流行",
+      "sino_vietnamese": "lưu hành",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "모방",
+      "pos": "N",
+      "meaning_vi": "Bắt chước, mô phỏng",
+      "note_vi": "模倣. `모방하다`, `모방 소비`; khác `창조` (sáng tạo).",
+      "example_ko": "남의 디자인을 모방한 제품은 문제가 될 수 있다.",
+      "example_vi": "Sản phẩm bắt chước thiết kế của người khác có thể gây vấn đề.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "recognize",
+      "hanja": "模倣",
+      "sino_vietnamese": "mô phỏng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "팬덤",
+      "pos": "N",
+      "meaning_vi": "Cộng đồng người hâm mộ",
+      "note_vi": "Từ mượn (fandom). `팬덤 문화`, `팬덤 경제`; `팬` = người hâm mộ.",
+      "example_ko": "팬덤은 특정한 가수나 작품을 좋아하는 사람들의 집단이다.",
+      "example_vi": "Fandom là nhóm người yêu thích một ca sĩ hoặc tác phẩm nhất định.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "디자인",
+      "pos": "N",
+      "meaning_vi": "Thiết kế, kiểu dáng",
+      "note_vi": "Từ mượn (design). `디자인하다`, `디자이너`, `제품 디자인`.",
+      "example_ko": "디자인이 예뻐서 이 제품을 샀다.",
+      "example_vi": "Tôi mua sản phẩm này vì kiểu dáng đẹp.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "core"
+    },
+    {
+      "hangul": "마케팅",
+      "pos": "N",
+      "meaning_vi": "Tiếp thị",
+      "note_vi": "Từ mượn (marketing). `마케팅 전략`, `온라인 마케팅`; nghĩa gần `홍보`.",
+      "example_ko": "회사는 신제품의 마케팅에 많은 비용을 들였다.",
+      "example_vi": "Công ty đã tốn nhiều chi phí vào tiếp thị sản phẩm mới.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "간접",
+      "pos": "N",
+      "meaning_vi": "Gián tiếp",
+      "note_vi": "間接. Trái nghĩa `직접`; `간접 광고` (PPL), `간접 경험`, `간접적`.",
+      "example_ko": "간접 광고는 드라마 속에서 제품을 자연스럽게 보여 주는 광고이다.",
+      "example_vi": "Quảng cáo gián tiếp là quảng cáo cho thấy sản phẩm một cách tự nhiên trong phim.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "recognize",
+      "hanja": "間接",
+      "sino_vietnamese": "gián tiếp",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "과대광고",
+      "pos": "N",
+      "meaning_vi": "Quảng cáo phóng đại",
+      "note_vi": "誇大廣告. Cặp với `허위 광고` (quảng cáo sai sự thật); `광고 규제`.",
+      "example_ko": "효과를 지나치게 부풀리는 과대광고는 소비자를 속일 수 있다.",
+      "example_vi": "Quảng cáo phóng đại hiệu quả có thể đánh lừa người tiêu dùng.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "협찬",
+      "pos": "N",
+      "meaning_vi": "Tài trợ (bằng hàng hoá, kinh phí)",
+      "note_vi": "協贊. `협찬하다`, `협찬사`, `협찬을 받다`; khác `후원` (ủng hộ, bảo trợ).",
+      "example_ko": "드라마 속 옷은 의류 회사의 협찬을 받은 것이었다.",
+      "example_vi": "Quần áo trong phim là do công ty may mặc tài trợ.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "recognize",
+      "hanja": "協贊",
+      "sino_vietnamese": "hiệp tán",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "홈페이지",
+      "pos": "N",
+      "meaning_vi": "Trang chủ, website",
+      "note_vi": "Từ mượn (homepage). Dùng cho website của một tổ chức; `홈페이지에 접속하다`.",
+      "example_ko": "자세한 내용은 회사 홈페이지에서 확인할 수 있다.",
+      "example_vi": "Có thể xem chi tiết trên trang chủ của công ty.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "core"
+    },
+    {
+      "hangul": "스트리밍",
+      "pos": "N",
+      "meaning_vi": "Phát trực tuyến (streaming)",
+      "note_vi": "Từ mượn (streaming). `스트리밍 서비스`, `실시간 스트리밍`; cặp `다운로드` (tải về).",
+      "example_ko": "스트리밍으로 영화를 보면 따로 내려받지 않아도 된다.",
+      "example_vi": "Xem phim bằng phát trực tuyến thì không cần tải xuống riêng.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "악플",
+      "pos": "N",
+      "meaning_vi": "Bình luận ác ý",
+      "note_vi": "惡+reply. Từ khẩu ngữ; `악플러`; trái nghĩa `선플` (bình luận thiện chí).",
+      "example_ko": "악플은 인터넷에서 남을 비난하는 나쁜 댓글을 말한다.",
+      "example_vi": "Bình luận ác ý là những bình luận xấu chê trách người khác trên mạng.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "누리꾼",
+      "pos": "N",
+      "meaning_vi": "Cư dân mạng",
+      "note_vi": "Từ thuần Hàn (nuri + kkun), nghĩa là người dùng internet; thường gặp trong bản tin; cũng nói `네티즌`.",
+      "example_ko": "누리꾼들은 댓글로 자기 의견을 나누었다.",
+      "example_vi": "Cư dân mạng đã chia sẻ ý kiến của mình bằng bình luận.",
+      "family": "🟡 Dạng thi · Thị trường số, bảo mật, truyền thông, xu hướng",
+      "priority": "recognize"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V/A + -건만 · V/A + -(으)련만",
+      "meaning_vi": "Dù … nhưng (trái kỳ vọng) · Lẽ ra … nhưng (thực tế không)",
+      "usage_context_vi": "**Cấu tạo:** `V/A + -건만` (dạng đầy đủ `-건마는`; quá khứ `-았/었건만`): nối hai vế đối lập, vế sau là kết quả trái với điều lẽ ra phải xảy ra. Giống `-지만` nhưng trang trọng, thiên về văn viết, có sắc thái tiếc nuối hoặc bất ngờ. `V/A + -(으)련만` (quá khứ `-았/었으련만`): người nói phỏng đoán hoặc mong điều lẽ ra có thể xảy ra, rồi vế sau cho thấy thực tế khác.\n**Hoàn cảnh dùng:** Bài báo, nghị luận, truyện và bài đọc trang trọng: `여러 번 안내했건만 불만은 줄지 않았다`; `도착하면 좋으련만 아직 준비 중이다`.\n**Vì sao chọn nó:** `-건만` và `-(으)련만` là đuôi liên kết trang trọng, chủ yếu xuất hiện trong văn viết; trong nói người ta dùng `-지만` hoặc `-는데도`. Vế sau luôn là điều ngược với vế trước hoặc ngược với mong đợi; nếu vế sau thuận chiều thì không dùng.",
+      "contrasts": [
+        {
+          "pattern": "-지만",
+          "diff_vi": "Trung tính, dùng được trong cả nói và viết; `-건만` mang sắc thái trái kỳ vọng và trang trọng."
+        },
+        {
+          "pattern": "-(으)ㄴ/는데도",
+          "diff_vi": "Cũng là «dù … vẫn …», phổ biến trong cả nói và viết."
+        },
+        {
+          "pattern": "-(으)ㄹ 법하다",
+          "diff_vi": "Đã học ở bài 65: nêu kỳ vọng hợp lý; `-건만` đi liền với kết quả ngược lại với kỳ vọng ấy."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `-건만` khi vế sau thuận chiều: ✗ `열심히 공부했건만 합격했다` → ✓ `열심히 공부했건만 떨어졌다`.\n(2) Dùng `-(으)련만` khi thực tế trùng với phỏng đoán: ✗ `비가 오면 좋으련만 비가 왔다` → ✓ `비가 오면 좋으련만 날씨가 계속 맑다`.\n(3) Dùng `-건만` trong hội thoại thường ngày: nghe cứng, nên dùng `-지만` hoặc `-는데도`.",
+      "example_ko": "업체가 여러 번 안내했건만 소비자의 불만은 줄지 않았다.\n택배가 오늘 도착하면 좋으련만 배송 조회에는 아직 ‘준비 중’이라고 나온다.\n수십 년 동안 같은 일을 해 왔건만 그는 새로운 방식이 아직도 낯설다고 말한다.\n가격이 내리면 판매량이 늘어나련만 이 상품은 오히려 판매량이 줄었다.",
+      "example_vi": "Dù doanh nghiệp đã hướng dẫn nhiều lần, ý kiến phàn nàn của người tiêu dùng vẫn không giảm.\nGiá mà hôm nay hàng đến thì tốt, nhưng mục tra cứu giao hàng vẫn ghi «đang chuẩn bị».\nDù đã làm cùng một việc suốt mấy chục năm, ông ấy vẫn nói cách làm mới còn xa lạ.\nGiá giảm thì lẽ ra doanh số tăng, vậy mà hàng này doanh số lại giảm.",
+      "topik_tip_vi": "Đọc 16–31: thấy vế trước nêu việc đã làm hay điều mong muốn mà vế sau là kết quả ngược lại, hãy chọn mẫu đối lập (`-건만`, `-(으)련만`, `반면`), rồi kiểm tra chiều.",
+      "importance": "must"
+    },
+    {
+      "pattern": "V + -(으)면 몰라도 · V + -는 날에는 · V + -노라면",
+      "meaning_vi": "Nếu … thì còn được, nhưng · Một khi … thì (rắc rối) · Cứ … mãi thì rồi",
+      "usage_context_vi": "**Cấu tạo:** `V/A + -(으)면 몰라도` (cũng `-(ㄴ/는)다면 몰라도`): nếu điều kiện đặc biệt ở vế trước đúng thì còn có thể chấp nhận, còn bình thường thì vế sau không thể hoặc không nên. `V + -는 날에는` (rút gọn `-는 날엔`): «đến ngày mà …»; nếu điều đó xảy ra thì hậu quả không hay. `V + -노라면`: nếu cứ làm một việc trong một thời gian thì kết quả tự nhiên đến (ví dụ `사노라면`).\n**Hoàn cảnh dùng:** Nghị luận, bản tin và truyện: `상품에 문제가 있으면 몰라도 이미 쓴 상품은 환불이 어렵다`; `정보가 유출되는 날에는 큰 피해가 생긴다`; `책을 읽노라면 시간 가는 줄 모른다`.\n**Vì sao chọn nó:** Ba mẫu cùng nằm trong «câu điều kiện» nhưng khác tác dụng: `몰라도` nêu ngoại lệ rồi phủ định quy tắc chung; `날에는` cảnh báo hậu quả; `노라면` nói điều tự đến theo thời gian, sắc thái văn chương, trong nói hằng ngày dùng `-다 보면`.",
+      "contrasts": [
+        {
+          "pattern": "-(으)면",
+          "diff_vi": "Điều kiện thông thường; không kèm ý «nhưng nếu không thì không»."
+        },
+        {
+          "pattern": "-다 보면",
+          "diff_vi": "Cứ làm một thời gian thì tự thấy; dùng nhiều trong nói, `-노라면` là dạng văn chương."
+        },
+        {
+          "pattern": "-더라도",
+          "diff_vi": "Đã học: «dù có … đi nữa»; `-(으)면 몰라도` nêu một trường hợp ngoại lệ mới được chấp nhận."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Vế sau của `-(으)면 몰라도` không phủ định hoặc giới hạn: ✗ `선물을 주면 몰라도 기뻐하겠다` → ✓ `선물을 주면 몰라도 이유 없이 받기는 어렵다`.\n(2) `-는 날에는` chỉ gắn sau động từ và thường kèm lời cảnh báo ở vế sau.\n(3) Dùng `-노라면` trong hội thoại thường ngày: nghe cổ, nên dùng `-다 보면`.",
+      "example_ko": "상품에 문제가 있으면 몰라도 이미 사용한 상품은 환불이 어렵다.\n비밀번호를 쉽게 정하는 날에는 개인정보가 유출되기 쉽다.\n후기를 하나씩 읽노라면 어느새 사고 싶은 마음이 사라진다.\n값이 싸면 몰라도 이 품질에 이 가격은 너무 비싸다.",
+      "example_vi": "Hàng có vấn đề thì còn được, chứ hàng đã dùng rồi thì khó hoàn tiền.\nMột khi đặt mật khẩu dễ thì thông tin cá nhân dễ bị lộ.\nCứ đọc từng bài đánh giá thì chẳng mấy chốc ý muốn mua biến mất.\nNếu rẻ thì còn được, chứ chất lượng này mà giá này thì quá đắt.",
+      "topik_tip_vi": "Q54: `-(으)면 몰라도` giúp nêu ngoại lệ rồi khẳng định nguyên tắc ở vế sau; `-는 날에는` dùng cảnh báo hậu quả trong phần kết luận.",
+      "importance": "must"
+    },
+    {
+      "pattern": "V/A + -(으)니만큼 · V + -(으)ㄴ/는답시고 · V/A + -겠거니 하고",
+      "meaning_vi": "Vì là … nên (tương xứng) · Lấy cớ … mà (kết quả xấu) · Cứ nghĩ … nên",
+      "usage_context_vi": "**Cấu tạo:** `V/A + -(으)니만큼` (danh từ `N이니만큼`, động từ `-느니만큼`, quá khứ `-았/었으니만큼`): vì sự việc như vậy nên vế sau là phản ứng, thái độ hay mức độ tương xứng. `V + -(으)ㄴ/는답시고` (danh từ `-(이)랍시고`): lấy cớ hoặc nói là để làm việc gì, nhưng kết quả không như ý, hàm ý mỉa mai hoặc tự trách. `V/A + -겠거니 하고`: cứ cho rằng như thế mà hành động, thường rồi thực tế khác.\n**Hoàn cảnh dùng:** Nghị luận, báo chí, hội thoại có tính cảm xúc: `중요한 계약이니만큼 신중해야 한다`; `절약한답시고 싼 것만 샀다`; `별일 없겠거니 하고 넘겼다`.\n**Vì sao chọn nó:** `-(으)니만큼` khác `-(으)니까`: nó nhấn mạnh «đã là … thì phải …», vế sau là phản ứng xứng với tính chất của vế trước. `-는답시고` chỉ dùng khi người nói đánh giá kết quả là không tốt. `-겠거니 하고` gần `-(으)ㄹ 줄 알았다` nhưng đi kèm hành động dựa trên giả định đó.",
+      "contrasts": [
+        {
+          "pattern": "-(으)니까",
+          "diff_vi": "Lý do thông thường, dùng được với mệnh lệnh; `-(으)니만큼` trang trọng và vế sau là hệ quả tương xứng."
+        },
+        {
+          "pattern": "-는다고",
+          "diff_vi": "Trích dẫn «nói rằng làm»; `-는답시고` thêm sắc thái mỉa mai hoặc tự trách."
+        },
+        {
+          "pattern": "-(으)ㄹ 줄 알았다",
+          "diff_vi": "Chỉ nói «tưởng là»; `-겠거니 하고` đi kèm hành động dựa trên giả định đó."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `-(으)니만큼` cho lý do vặt, không có phản ứng tương xứng: ✗ `비가 오니만큼 버스가 왔다` → ✓ `중요한 계약이니만큼 신중히 검토해야 한다`.\n(2) Dùng `-는답시고` với kết quả tốt: ✗ `청소를 한답시고 집이 깨끗해졌다` → ✓ `청소를 한답시고 오히려 물건을 어질러 놓았다`.\n(3) `-겠거니` thường đi với `하고`, `했다`, `싶다`; vế sau cho thấy hành động hoặc kết quả dựa trên giả định.",
+      "example_ko": "중요한 거래이니만큼 약관을 꼼꼼히 읽어 보아야 한다.\n절약한답시고 가장 싼 제품만 고르다가 수리비가 더 든 경우도 있다.\n별일 없겠거니 하고 후기를 읽지 않고 샀는데 품질이 기대에 못 미쳤다.\n개인정보가 걸린 일이니만큼 비밀번호는 정기적으로 바꾸는 것이 좋다.",
+      "example_vi": "Vì là giao dịch quan trọng nên phải đọc kỹ điều khoản.\nCó trường hợp lấy cớ tiết kiệm, chỉ chọn món rẻ nhất, rồi tốn tiền sửa nhiều hơn.\nCứ nghĩ chắc không sao nên tôi mua mà không đọc đánh giá, vậy mà chất lượng chưa tới kỳ vọng.\nVì liên quan thông tin cá nhân nên nên đổi mật khẩu định kỳ.",
+      "topik_tip_vi": "Đọc 16–31: mẫu `-(으)니만큼` mở ra vế «vì là … nên phải …», `-겠거니 하고` đứng trước kết quả ngược; hãy kiểm tra vế sau có đúng quan hệ không.",
+      "importance": "must"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài",
+      "body": "Bài 17 của Chủ đề 5, nhóm kiến thức chuyên đề thứ tám, đồng thời là bài chiến lược cho Đọc câu 16–31. Sau bài này bạn:\n① nắm 46 từ về mua sắm, thương mại điện tử, bảo mật và xu hướng truyền thông;\n② đọc hiểu và dùng `-건만/-(으)련만`, `-(으)면 몰라도/-는 날에는/-노라면`, `-(으)니만큼/-는답시고/-겠거니 하고`;\n③ biết số liệu mua sắm 2025 đã kiểm tra, quyền hoàn đơn trực tuyến và quy định ghi hạn dùng thực phẩm;\n④ có quy trình năm bước cho câu điền chỗ trống ở Đọc 16–31.",
+      "kind": "goal"
+    },
+    {
+      "title": "Số liệu và quy định đã kiểm tra (tháng 10/2026)",
+      "body": "• **Mua sắm trực tuyến 2025** (`국가데이터처`, công bố 2/2/2026, số liệu tạm thời): tổng 272 nghìn tỷ won (`272조 398억 원`), tăng 4,9% so với năm trước (`259조 4,319억 원`); mua sắm qua điện thoại `211조 1,448억 원` (+6,5%), chiếm khoảng 77,6% (tự tính).\n• **Mua trực tiếp từ nước ngoài (`해외 직구`) 2025**: khoảng 8,5 nghìn tỷ won (`8조 5,080억 원`, +5,2%); hàng từ Trung Quốc chiếm 65,5%, năm 2024 là 60%.\n• **Hoàn đơn mua trực tuyến (`청약철회`)**: nói chung trong 7 ngày kể từ ngày nhận hàng, không cần nêu lý do. Người bán chỉ được hạn chế trong vài trường hợp, như hàng hư hỏng do lỗi người mua hoặc giá trị giảm nhiều vì đã dùng, và phải ghi rõ điều kiện đó. Hãy đọc điều khoản của từng nơi bán.\n• **Hạn dùng thực phẩm**: từ 1/1/2023 Hàn Quốc áp dụng `소비기한` (hạn tiêu dùng: thời hạn ăn vẫn an toàn nếu bảo quản đúng cách) thay cho `유통기한` (hạn được phép bán). Năm 2023 là năm hướng dẫn; sữa bảo quản lạnh áp dụng muộn hơn, từ 1/1/2031.\nSố liệu đổi theo từng năm; đề thi luôn cho sẵn số liệu nên bạn chỉ cần hiểu bức tranh chung.",
+      "kind": "language"
+    },
+    {
+      "title": "Chiến lược Đọc câu 16–31: năm bước",
+      "body": "Phần này gồm điền chỗ trống và từ nối (16–19, 28–31), ý chính (20), thành ngữ (21), câu đối chiếu nội dung hoặc thái độ (22–24) và tiêu đề báo (25–27). Mỗi bài thi Đọc có 70 phút cho 50 câu, trung bình 84 giây một câu.\n① Xác định loại chỗ trống: từ nối (`그러나`, `또한`, `반면`), cụm vị ngữ, hay cả mệnh đề nguyên nhân.\n② Đọc câu **ngay trước và ngay sau** chỗ trống để tìm quan hệ: bổ sung, đối lập, nguyên nhân, ví dụ.\n③ Tự nói trước chỗ trống cần ý gì (nói bằng tiếng Việt cũng được) rồi mới nhìn đáp án.\n④ Loại đáp án sai chiều (tăng thành giảm), quá cực đoan (`반드시`, `전혀`, `모든`) hoặc nói điều đoạn văn không nhắc.\n⑤ Đọc lại cả câu với đáp án đã chọn, kiểm tra trợ từ và dạng từ.",
+      "kind": "language"
+    },
+    {
+      "title": "Bản đồ từ nối và mẫu liên kết",
+      "body": "• **Bổ sung**: `또한`, `게다가`, `-(으)ㄹ 뿐만 아니라`, `-(으)ㄹ뿐더러`.\n• **Đối lập**: `그러나`, `하지만`, `반면에`, `-건만`, `-(으)ㄴ/는 데 반해`.\n• **Nguyên nhân – kết quả**: `그래서`, `따라서`, `-(으)니만큼`, `-기 때문에`.\n• **Ví dụ**: `예를 들어`, `이를테면`.\n• **Điều kiện, nhượng bộ**: `-(으)면 몰라도`, `-더라도`, `-(으)ㄹ지라도`.\nĐừng chọn từ nối theo thói quen; hãy gọi tên quan hệ giữa hai câu trước rồi mới chọn.",
+      "kind": "language"
+    },
+    {
+      "title": "Cặp từ dễ nhầm",
+      "body": "• `제품` (nhìn từ phía sản xuất) ≠ `상품` (hàng để bán) ≠ `물건` (đồ vật nói chung).\n• Trình tự mua trực tuyến: `주문` (đặt) → `결제` (thanh toán) → `배송` (giao) → `후기` (đánh giá).\n• `협찬` (tài trợ bằng hàng hoặc kinh phí cho nội dung) ≠ `후원` (ủng hộ, bảo trợ).\n• `피싱` (lừa để lấy thông tin) ≠ `해킹` (xâm nhập hệ thống) ≠ `도용` (dùng trộm thông tin đã có).\n• `유통기한` (hạn được bán) ≠ `소비기한` (hạn ăn vẫn an toàn).",
+      "kind": "language"
+    },
+    {
+      "title": "Một đoạn mẫu (nội dung giả định)",
+      "body": "`온라인 쇼핑이 일상이 된 만큼 편리함 뒤에 숨은 위험도 커졌다. 업체가 여러 번 주의를 안내했건만 가짜 문자에 속아 개인정보를 넘기는 피해는 줄지 않고 있다. 특별한 이유가 있으면 몰라도 출처를 알 수 없는 링크는 누르지 않는 것이 좋다. 중요한 정보가 걸린 일이니만큼 결제 전에 판매자와 약관을 한 번 더 확인해야 한다.`\nChú ý: `건만` nêu điều trái kỳ vọng, `몰라도` nêu ngoại lệ, `니만큼` dẫn đến lời khuyên tương xứng.",
+      "kind": "sample"
+    },
+    {
+      "title": "Năm lỗi hay mắc",
+      "body": "① **Chọn từ nối theo thói quen** thay vì theo quan hệ giữa hai câu.\n② **Dùng `-건만` hay `-(으)련만` khi vế sau thuận chiều**.\n③ **Vế sau của `-(으)면 몰라도` không phủ định hay giới hạn**.\n④ **Dùng `-는답시고` với kết quả tốt**.\n⑤ **Nhầm các cặp từ**: `제품/상품`, `유통기한/소비기한`, `피싱/해킹`.",
+      "kind": "pitfall"
+    }
+  ],
+  "bank": "xa-hoi",
+  "coach": {
+    "focus_vi": [
+      "Học 46 từ theo hai nhóm: nhóm mua bán `구매`, `주문`, `결제`, `배송`, `후기` trước, rồi nhóm bảo mật và xu hướng `개인정보`, `피싱`, `협찬`, `유행`. Mỗi từ chép một câu ví dụ.",
+      "Làm sáu câu điền mẫu: `-건만`, `-(으)련만`, `-(으)면 몰라도`, `-는 날에는`, `-(으)니만큼`, `-겠거니 하고`; với mỗi câu ghi ra vế sau cùng chiều hay trái chiều.",
+      "Với ba câu đề thật, trước khi chọn đáp án hãy ghi quan hệ giữa câu trước và câu sau chỗ trống (bổ sung, đối lập, nguyên nhân)."
+    ],
+    "watch_out_vi": [
+      "`-건만` cần vế sau trái kỳ vọng; `-는답시고` cần kết quả không như ý.",
+      "Chọn từ nối theo quan hệ logic, không theo cảm giác quen thuộc."
+    ],
+    "notebook_vi": [
+      "Đọc to số: `272조 398억 원`, `211조 1,448억 원`, `8조 5,080억 원`.",
+      "Ba câu về một trải nghiệm mua sắm trực tuyến, mỗi câu dùng một mẫu của bài."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "`-건만` và `-지만` khác nhau thế nào?",
+        "answer": "Cả hai nối hai vế đối lập. `-지만` trung tính, dùng được trong nói; `-건만` trang trọng, mang sắc thái trái kỳ vọng và hay gặp trong văn viết."
+      },
+      {
+        "prompt_vi": "Mẫu nào nên dùng khi viết?",
+        "answer": "Trong bài viết, ưu tiên `-(으)니만큼` và `-(으)면 몰라도`; còn `-노라면`, `-(으)련만` có sắc thái văn chương nên chỉ cần nhận ra nghĩa khi đọc."
+      }
+    ]
+  },
+  "exercise_ids": [
+    "X66L1",
+    "X66L2",
+    "X66L3",
+    "X66L4",
+    "X66D1",
+    "X66D2",
+    "X66R1",
+    "X66R2",
+    "X66R3",
+    "X66R4",
+    "X66R5",
+    "X66R6",
+    "X66R7",
+    "X66R8",
+    "X66R9",
+    "X66R10",
+    "X66B1",
+    "X66B2",
+    "X66B3",
+    "X66B4",
+    "X66B5",
+    "X66B6",
+    "X66B7",
+    "X66F1",
+    "X66F2",
+    "X66E1",
+    "RG67",
+    "SP67"
+  ],
+  "topik2": [
+    {
+      "qid": "96-R-19",
+      "why_vi": "Điền từ nối: câu trước nêu cách hỏi mơ hồ khiến khó có câu trả lời, câu sau nêu cách hỏi cụ thể cho câu trả lời hữu ích. Hai câu đối lập nhau, nên chọn từ nối chỉ sự tương phản; loại các từ nhấn mạnh hay nhượng bộ."
+    },
+    {
+      "qid": "102-R-19",
+      "why_vi": "Điền từ nối: câu trước nêu lợi ích thứ nhất của vật liệu lát mới, câu sau nêu lợi ích thứ hai. Hai ý cùng chiều nên chọn từ nối chỉ sự thêm ý. Gọi tên quan hệ giữa hai câu trước khi nhìn đáp án."
+    },
+    {
+      "qid": "96-R-30",
+      "why_vi": "Sau «게다가» (hơn nữa) là lý do thứ hai vì sao dầu vẫn dính tay dù đeo găng. Lý do đầu là chất liệu dễ thấm dầu; lý do thứ hai phải nói đến độ mỏng của găng và đường đi của dầu. Chọn đáp án khớp với lý do đó."
+    }
+  ],
+  "editor_notes": [
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "SP67: S6 về thanh toán nhanh và tiêu dùng quá mức; dùng -겠거니 하고, -는 날에는, -(으)니만큼. Bỏ -노라면, -건만, -(으)련만 khỏi bài nói mẫu vì nghe quá văn chương ở 해요체; chỉ nhắc trong patterns. `충동구매`, `한도` không có thẻ nên không ghi vào uses. RG67: năm câu cùng chủ đề."
+    }
+  ]
+}

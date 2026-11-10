@@ -1,0 +1,249 @@
+{
+  "lesson": "quan-he-06-hang-xom-rac",
+  "items": [
+    {
+      "id": "quan-he-06-d1",
+      "kind": "dialogue",
+      "title_ko": "층간 소음",
+      "title_vi": "Tiếng ồn giữa các tầng",
+      "scene_vi": "Người hàng xóm tầng dưới là 수진 đến gõ cửa nhà tầng trên của 정우 vì tiếng ồn ban đêm.",
+      "speakers": {
+        "F": "수진",
+        "M": "정우"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "안녕하세요. 아랫집에 사는 이수진이에요. 잠깐 말씀드려도 될까요?",
+          "vi": "Xin chào. Tôi là Lee Sujin ở tầng dưới. Tôi nói chuyện một chút được không?"
+        },
+        {
+          "who": "M",
+          "ko": "네, 안녕하세요. 무슨 일이세요?",
+          "vi": "Vâng, xin chào. Có chuyện gì vậy ạ?"
+        },
+        {
+          "who": "F",
+          "ko": "요즘 밤에 발소리 때문에 잠을 잘 수 없어요.",
+          "vi": "Dạo này ban đêm vì tiếng bước chân mà tôi không ngủ được."
+        },
+        {
+          "who": "M",
+          "ko": "정말 죄송합니다. 앞으로는 아이가 밤에 뛰지 않도록 조심하겠습니다.",
+          "vi": "Thật sự xin lỗi chị. Từ nay tôi sẽ chú ý để con không chạy nhảy vào ban đêm."
+        },
+        {
+          "who": "F",
+          "ko": "감사합니다. 그리고 의자를 끌 때도 소리가 크게 나요. 의자 밑에 천을 붙여 달라고 하고 싶었어요.",
+          "vi": "Cảm ơn anh. Còn khi kéo ghế thì tiếng cũng rất to. Tôi định nhờ anh dán miếng vải dưới chân ghế."
+        },
+        {
+          "who": "M",
+          "ko": "알겠어요. 오늘 바로 붙일게요. 혹시 다른 불편한 점이 있더라도 말씀해 주세요.",
+          "vi": "Tôi biết rồi. Hôm nay tôi sẽ dán ngay. Nếu còn điều gì bất tiện khác, chị cứ nói nhé."
+        },
+        {
+          "who": "F",
+          "ko": "네, 이웃이라면 서로 이해하는 게 좋지요.",
+          "vi": "Vâng, đã là hàng xóm thì nên thông cảm cho nhau."
+        },
+        {
+          "who": "M",
+          "ko": "맞아요. 앞으로 인사도 자주 해요!",
+          "vi": "Đúng vậy. Từ nay mình chào hỏi nhau thường xuyên nhé!"
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -도록 · V + -지 않도록 · V + -도록 하다",
+          "regex": "뛰지 않도록"
+        },
+        {
+          "pattern": "V + -아/어 달라고 하다 · V + -(으)라고 하다 · V + -지 말라고 하다",
+          "regex": "붙여 달라고"
+        },
+        {
+          "pattern": "V/A + -더라도 · N + (이)더라도",
+          "regex": "있더라도"
+        },
+        {
+          "pattern": "N + -(이)라면",
+          "regex": "이웃이라면"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "아랫집",
+          "seen": "아랫집에"
+        },
+        {
+          "word": "발소리",
+          "seen": "발소리"
+        },
+        {
+          "word": "뛰다",
+          "seen": "뛰지"
+        },
+        {
+          "word": "조심하다",
+          "seen": "조심하겠습니다"
+        },
+        {
+          "word": "의자를 끌다",
+          "seen": "의자를 끌"
+        },
+        {
+          "word": "이웃",
+          "seen": "이웃이라면"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Vì sao 수진 đến gặp hàng xóm tầng trên?",
+          "options": [
+            "Vì rác thải",
+            "Vì tiếng bước chân ban đêm",
+            "Vì tiếng chó sủa"
+          ],
+          "answer": 1,
+          "explain_vi": "수진 nói “밤에 발소리 때문에 잠을 잘 수 없어요”."
+        },
+        {
+          "q_vi": "정우 hứa sẽ làm gì ngay hôm nay?",
+          "options": [
+            "Mua thảm trải sàn",
+            "Chuyển nhà",
+            "Dán vải dưới chân ghế"
+          ],
+          "answer": 2,
+          "explain_vi": "정우 nói “오늘 바로 붙일게요”: dán miếng vải dưới chân ghế ngay hôm nay."
+        }
+      ]
+    },
+    {
+      "id": "quan-he-06-r1",
+      "kind": "reading",
+      "title_ko": "분리배출 안내문",
+      "title_vi": "Thông báo phân loại rác",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "이웃 여러분께 알립니다.",
+          "vi": "Xin thông báo đến các cư dân."
+        },
+        {
+          "who": "N",
+          "ko": "쓰레기 배출 요일을 지켜 주시기 바랍니다.",
+          "vi": "Kính mong mọi người tuân thủ ngày đổ rác."
+        },
+        {
+          "who": "N",
+          "ko": "비닐은 안에 음식이 남은 채로 버리지 마세요.",
+          "vi": "Đừng vứt túi nylon khi bên trong vẫn còn thức ăn."
+        },
+        {
+          "who": "N",
+          "ko": "플라스틱과 캔은 뚜껑을 분리한 후에 재활용통에 넣어 주세요.",
+          "vi": "Nhựa và lon hãy tháo nắp rồi bỏ vào thùng tái chế."
+        },
+        {
+          "who": "N",
+          "ko": "관리사무소에서 음식물 쓰레기는 따로 버리라고 했습니다.",
+          "vi": "Ban quản lý đã yêu cầu rác thực phẩm phải bỏ riêng."
+        },
+        {
+          "who": "N",
+          "ko": "잘못된 배출로 인한 소음과 냄새가 이웃에게 불편을 줄 수 있습니다.",
+          "vi": "Tiếng ồn và mùi do đổ rác sai cách có thể gây bất tiện cho hàng xóm."
+        },
+        {
+          "who": "N",
+          "ko": "서로 불편하지 않도록 함께 노력합시다.",
+          "vi": "Chúng ta cùng cố gắng để không gây bất tiện cho nhau."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -(으)ㄴ 채로",
+          "regex": "남은 채로"
+        },
+        {
+          "pattern": "V + -아/어 달라고 하다 · V + -(으)라고 하다 · V + -지 말라고 하다",
+          "regex": "버리라고 했습니다"
+        },
+        {
+          "pattern": "N + (으)로 인해(서) · N + (으)로 인한 N",
+          "regex": "배출로 인한"
+        },
+        {
+          "pattern": "V + -도록 · V + -지 않도록 · V + -도록 하다",
+          "regex": "불편하지 않도록"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "이웃",
+          "seen": "이웃"
+        },
+        {
+          "word": "배출 요일",
+          "seen": "배출 요일을"
+        },
+        {
+          "word": "비닐",
+          "seen": "비닐은"
+        },
+        {
+          "word": "플라스틱",
+          "seen": "플라스틱과"
+        },
+        {
+          "word": "캔",
+          "seen": "캔은"
+        },
+        {
+          "word": "뚜껑을 분리하다",
+          "seen": "뚜껑을 분리한"
+        },
+        {
+          "word": "관리사무소",
+          "seen": "관리사무소에서"
+        },
+        {
+          "word": "소음",
+          "seen": "소음과"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "노력하다",
+          "vi": "nỗ lực, cố gắng",
+          "seen": "노력합시다"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Phải làm gì với nắp của chai nhựa?",
+          "options": [
+            "Giữ nguyên nắp",
+            "Tháo nắp ra rồi bỏ vào thùng tái chế",
+            "Bỏ vào thùng rác thường"
+          ],
+          "answer": 1,
+          "explain_vi": "Thông báo ghi “뚜껑을 분리한 후에 재활용통에 넣어 주세요”."
+        },
+        {
+          "q_vi": "Rác thực phẩm phải xử lý thế nào?",
+          "options": [
+            "Bỏ chung với giấy",
+            "Đốt tại nhà",
+            "Bỏ riêng ra"
+          ],
+          "answer": 2,
+          "explain_vi": "Ban quản lý “음식물 쓰레기는 따로 버리라고 했습니다”: rác thực phẩm phải bỏ riêng."
+        }
+      ]
+    }
+  ]
+}

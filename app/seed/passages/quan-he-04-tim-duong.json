@@ -1,0 +1,248 @@
+{
+  "lesson": "quan-he-04-tim-duong",
+  "items": [
+    {
+      "id": "quan-he-04-d1",
+      "kind": "dialogue",
+      "title_ko": "우체국이 어디예요?",
+      "title_vi": "Bưu điện ở đâu?",
+      "scene_vi": "Trên phố, một người nước ngoài hỏi một chị đi đường về đường đến bưu điện.",
+      "speakers": {
+        "F": "행인",
+        "M": "여행자"
+      },
+      "lines": [
+        {
+          "who": "M",
+          "ko": "실례합니다. 이 근처에 우체국이 있어요?",
+          "vi": "Xin lỗi chị. Gần đây có bưu điện không ạ?"
+        },
+        {
+          "who": "F",
+          "ko": "네, 있어요. 이 길로 쭉 가시다가 사거리에서 오른쪽으로 도세요.",
+          "vi": "Có. Anh đi thẳng con đường này, đến ngã tư thì rẽ phải."
+        },
+        {
+          "who": "M",
+          "ko": "오른쪽이요? 그다음에는 어떻게 가요?",
+          "vi": "Rẽ phải ạ? Sau đó đi thế nào?"
+        },
+        {
+          "who": "F",
+          "ko": "횡단보도를 건넌 다음에 조금만 더 가시면 돼요.",
+          "vi": "Anh qua vạch đi bộ rồi đi thêm một chút nữa là tới."
+        },
+        {
+          "who": "M",
+          "ko": "우체국이 은행 옆에 있어요?",
+          "vi": "Bưu điện nằm cạnh ngân hàng ạ?"
+        },
+        {
+          "who": "F",
+          "ko": "아니요, 은행 맞은편에 있어요. 편의점이 보이면 거의 다 온 거예요.",
+          "vi": "Không, nó ở đối diện ngân hàng. Thấy cửa hàng tiện lợi là gần tới rồi."
+        },
+        {
+          "who": "M",
+          "ko": "알겠습니다. 가다가 길을 잃으면 다시 여쭤 볼게요.",
+          "vi": "Em hiểu rồi. Nếu đi giữa đường bị lạc thì em sẽ hỏi lại."
+        },
+        {
+          "who": "F",
+          "ko": "네, 지도 앱을 보면서 가셔도 돼요.",
+          "vi": "Vâng, anh có thể vừa xem ứng dụng bản đồ vừa đi cũng được."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -다가",
+          "regex": "가시다가|가다가"
+        },
+        {
+          "pattern": "V + -(으)면 되다 · -(으)시면 되다",
+          "regex": "가시면 돼요"
+        },
+        {
+          "pattern": "V + -(으)ㄴ 다음에 / -(으)ㄴ 후에",
+          "regex": "건넌 다음에"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "근처",
+          "seen": "근처에"
+        },
+        {
+          "word": "우체국",
+          "seen": "우체국이"
+        },
+        {
+          "word": "쭉",
+          "seen": "쭉"
+        },
+        {
+          "word": "사거리",
+          "seen": "사거리에서"
+        },
+        {
+          "word": "오른쪽",
+          "seen": "오른쪽으로"
+        },
+        {
+          "word": "횡단보도",
+          "seen": "횡단보도를"
+        },
+        {
+          "word": "맞은편",
+          "seen": "맞은편에"
+        },
+        {
+          "word": "길을 잃다",
+          "seen": "길을 잃으면"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "실례합니다",
+          "vi": "xin lỗi (khi nhờ ai, hỏi ai)"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Phải rẽ phải ở đâu?",
+          "options": [
+            "Ở ngân hàng",
+            "Ở ngã tư",
+            "Ở ga tàu điện ngầm"
+          ],
+          "answer": 1,
+          "explain_vi": "Chị chỉ đường “사거리에서 오른쪽으로 도세요”: đến ngã tư thì rẽ phải."
+        },
+        {
+          "q_vi": "Bưu điện nằm ở đâu?",
+          "options": [
+            "Cạnh ngân hàng",
+            "Sau cửa hàng tiện lợi",
+            "Đối diện ngân hàng"
+          ],
+          "answer": 2,
+          "explain_vi": "“은행 맞은편에 있어요”: bưu điện ở đối diện ngân hàng."
+        }
+      ]
+    },
+    {
+      "id": "quan-he-04-r1",
+      "kind": "reading",
+      "title_ko": "행사장 오시는 길",
+      "title_vi": "Đường đến địa điểm sự kiện",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "행사장은 서울역 근처에 있습니다.",
+          "vi": "Địa điểm sự kiện nằm gần ga Seoul."
+        },
+        {
+          "who": "N",
+          "ko": "지하철 1호선 서울역에서 내린 다음에 3번 출구로 나오시면 됩니다.",
+          "vi": "Sau khi xuống tàu điện ngầm tuyến 1 ở ga Seoul, quý vị ra bằng cửa số 3 là được."
+        },
+        {
+          "who": "N",
+          "ko": "출구로 나와서 횡단보도를 건너고 왼쪽으로 가시다가 은행 앞에서 오른쪽으로 도세요.",
+          "vi": "Ra khỏi cửa, qua vạch đi bộ, đi về bên trái, đến trước ngân hàng thì rẽ phải."
+        },
+        {
+          "who": "N",
+          "ko": "편의점 옆 골목으로 들어가면 큰 건물이 보입니다.",
+          "vi": "Đi vào con hẻm cạnh cửa hàng tiện lợi sẽ thấy một tòa nhà lớn."
+        },
+        {
+          "who": "N",
+          "ko": "그 건물 이 층이 행사장입니다. 입구에 안내판이 있습니다.",
+          "vi": "Tầng hai của tòa nhà đó là nơi tổ chức. Ở lối vào có bảng chỉ dẫn."
+        },
+        {
+          "who": "N",
+          "ko": "길을 잃으면 근처 가게에서 물어보셔도 됩니다.",
+          "vi": "Nếu bị lạc, quý vị có thể hỏi ở cửa hàng gần đó."
+        },
+        {
+          "who": "N",
+          "ko": "도보로 약 십 분 걸립니다.",
+          "vi": "Đi bộ mất khoảng mười phút."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -(으)ㄴ 다음에 / -(으)ㄴ 후에",
+          "regex": "내린 다음에"
+        },
+        {
+          "pattern": "V + -(으)면 되다 · -(으)시면 되다",
+          "regex": "나오시면 됩니다"
+        },
+        {
+          "pattern": "V + -다가",
+          "regex": "가시다가"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "행사장",
+          "seen": "행사장은"
+        },
+        {
+          "word": "역",
+          "seen": "서울역"
+        },
+        {
+          "word": "출구",
+          "seen": "출구로"
+        },
+        {
+          "word": "횡단보도",
+          "seen": "횡단보도를"
+        },
+        {
+          "word": "골목",
+          "seen": "골목으로"
+        },
+        {
+          "word": "입구",
+          "seen": "입구에"
+        },
+        {
+          "word": "안내판",
+          "seen": "안내판이"
+        },
+        {
+          "word": "도보",
+          "seen": "도보로"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Ra khỏi ga bằng cửa số mấy?",
+          "options": [
+            "Cửa số 1",
+            "Cửa số 3",
+            "Cửa số 5"
+          ],
+          "answer": 1,
+          "explain_vi": "“3번 출구로 나오시면 됩니다”: ra bằng cửa số 3."
+        },
+        {
+          "q_vi": "Sự kiện được tổ chức ở đâu?",
+          "options": [
+            "Trong ga tàu",
+            "Tầng một của tòa nhà",
+            "Tầng hai của tòa nhà trong hẻm"
+          ],
+          "answer": 2,
+          "explain_vi": "Đi vào hẻm sẽ thấy tòa nhà lớn: “그 건물 이 층이 행사장입니다”."
+        }
+      ]
+    }
+  ]
+}

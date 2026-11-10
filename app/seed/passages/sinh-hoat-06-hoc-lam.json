@@ -1,0 +1,284 @@
+{
+  "lesson": "sinh-hoat-06-hoc-lam",
+  "items": [
+    {
+      "id": "sinh-hoat-06-d1",
+      "kind": "dialogue",
+      "title_ko": "도서관에서",
+      "title_vi": "Ở thư viện",
+      "scene_vi": "Thư viện trường trước kỳ thi. 유나 và 태민 là hai sinh viên cùng lớp.",
+      "speakers": {
+        "F": "유나",
+        "M": "태민"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "태민 씨, 시험 공부 많이 했어요?",
+          "vi": "Taemin, anh đã học thi nhiều chưa?"
+        },
+        {
+          "who": "M",
+          "ko": "아니요, 아직이에요. 내일부터 금요일까지 도서관에서 공부하려고 해요.",
+          "vi": "Chưa đâu. Từ ngày mai đến thứ Sáu tôi định học ở thư viện."
+        },
+        {
+          "who": "F",
+          "ko": "저도요. 시험을 보기 전에 숙제를 끝내야 해요.",
+          "vi": "Tôi cũng vậy. Trước khi thi tôi phải làm xong bài tập."
+        },
+        {
+          "who": "M",
+          "ko": "저는 음악을 들으면서 공부하면 집중이 잘 돼요.",
+          "vi": "Tôi vừa nghe nhạc vừa học thì tập trung tốt."
+        },
+        {
+          "who": "F",
+          "ko": "저는 조용한 곳이 좋아요. 수업이 재미없어도 열심히 들어야 해요.",
+          "vi": "Tôi thì thích chỗ yên tĩnh. Dù buổi học không thú vị tôi vẫn phải nghe chăm chỉ."
+        },
+        {
+          "who": "M",
+          "ko": "맞아요. 계속 공부하다 보면 이해가 돼요.",
+          "vi": "Đúng vậy. Cứ học liên tục rồi sẽ hiểu."
+        },
+        {
+          "who": "F",
+          "ko": "우리 같이 공부해요. 오늘 두 시부터 여섯 시까지 어때요?",
+          "vi": "Chúng ta học cùng nhau nhé. Hôm nay từ hai giờ đến sáu giờ thì sao?"
+        },
+        {
+          "who": "M",
+          "ko": "좋아요. 아르바이트가 있지만 두 시에는 도서관에 갈 수 있어요.",
+          "vi": "Được. Tôi có việc làm thêm nhưng hai giờ thì đến thư viện được."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -(으)려고 하다",
+          "regex": "공부하려고 해요"
+        },
+        {
+          "pattern": "V + -기 전에",
+          "regex": "보기 전에"
+        },
+        {
+          "pattern": "V + -(으)면서",
+          "regex": "들으면서"
+        },
+        {
+          "pattern": "V/A + -아/어도",
+          "regex": "재미없어도"
+        },
+        {
+          "pattern": "V + -다 보면",
+          "regex": "공부하다 보면"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "시험",
+          "seen": "시험"
+        },
+        {
+          "word": "공부",
+          "seen": "공부"
+        },
+        {
+          "word": "도서관",
+          "seen": "도서관에서"
+        },
+        {
+          "word": "숙제",
+          "seen": "숙제를"
+        },
+        {
+          "word": "수업",
+          "seen": "수업이"
+        },
+        {
+          "word": "재미없다",
+          "seen": "재미없어도"
+        },
+        {
+          "word": "아르바이트",
+          "seen": "아르바이트가"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "집중",
+          "vi": "sự tập trung"
+        },
+        {
+          "ko": "이해",
+          "vi": "sự hiểu"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "태민 định học ở thư viện vào lúc nào?",
+          "options": [
+            "Chỉ vào cuối tuần",
+            "Từ thứ Sáu trở đi",
+            "Từ ngày mai đến thứ Sáu"
+          ],
+          "answer": 2,
+          "explain_vi": "태민 nói “내일부터 금요일까지 도서관에서 공부하려고 해요”: từ ngày mai đến thứ Sáu."
+        },
+        {
+          "q_vi": "Hai người hẹn học cùng nhau vào giờ nào?",
+          "options": [
+            "Từ sáng đến trưa",
+            "Từ hai giờ đến sáu giờ",
+            "Từ sáu giờ tối"
+          ],
+          "answer": 1,
+          "explain_vi": "유나 đề nghị “두 시부터 여섯 시까지” và 태민 đồng ý: từ hai giờ đến sáu giờ."
+        }
+      ]
+    },
+    {
+      "id": "sinh-hoat-06-r1",
+      "kind": "reading",
+      "title_ko": "대학생의 하루",
+      "title_vi": "Một ngày của sinh viên",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "저는 대학생이에요. 이번 학기에 수업이 다섯 개 있어요.",
+          "vi": "Tôi là sinh viên đại học. Học kỳ này tôi có năm môn."
+        },
+        {
+          "who": "N",
+          "ko": "월요일부터 금요일까지 학교에 가요.",
+          "vi": "Từ thứ Hai đến thứ Sáu tôi đến trường."
+        },
+        {
+          "who": "N",
+          "ko": "수업을 듣기 전에 도서관에서 숙제를 해요.",
+          "vi": "Trước khi vào học, tôi làm bài tập ở thư viện."
+        },
+        {
+          "who": "N",
+          "ko": "시험 공부가 힘들어도 포기하지 않으려고 해요.",
+          "vi": "Dù ôn thi vất vả, tôi cũng không định bỏ cuộc."
+        },
+        {
+          "who": "N",
+          "ko": "저는 커피를 마시면서 공부해요.",
+          "vi": "Tôi vừa uống cà phê vừa học."
+        },
+        {
+          "who": "N",
+          "ko": "오후에는 아르바이트를 해요. 일이 끝나면 밤 아홉 시예요.",
+          "vi": "Buổi chiều tôi đi làm thêm. Khi xong việc thì đã chín giờ tối."
+        },
+        {
+          "who": "N",
+          "ko": "열심히 공부하다 보면 방학이 올 거예요.",
+          "vi": "Cứ chăm chỉ học thì kỳ nghỉ sẽ đến thôi."
+        },
+        {
+          "who": "N",
+          "ko": "방학에는 여행을 가고 싶어요.",
+          "vi": "Vào kỳ nghỉ tôi muốn đi du lịch."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -기 전에",
+          "regex": "듣기 전에"
+        },
+        {
+          "pattern": "V/A + -아/어도",
+          "regex": "힘들어도"
+        },
+        {
+          "pattern": "V + -(으)려고 하다",
+          "regex": "않으려고 해요"
+        },
+        {
+          "pattern": "V + -(으)면서",
+          "regex": "마시면서"
+        },
+        {
+          "pattern": "V + -다 보면",
+          "regex": "공부하다 보면"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "학기",
+          "seen": "학기에"
+        },
+        {
+          "word": "수업",
+          "seen": "수업이"
+        },
+        {
+          "word": "도서관",
+          "seen": "도서관에서"
+        },
+        {
+          "word": "숙제",
+          "seen": "숙제를"
+        },
+        {
+          "word": "시험",
+          "seen": "시험"
+        },
+        {
+          "word": "아르바이트",
+          "seen": "아르바이트를"
+        },
+        {
+          "word": "일(이) 끝나다",
+          "seen": "일이 끝나면"
+        },
+        {
+          "word": "방학",
+          "seen": "방학"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "대학생",
+          "vi": "sinh viên đại học"
+        },
+        {
+          "ko": "포기하다",
+          "vi": "bỏ cuộc, từ bỏ",
+          "seen": "포기하지"
+        },
+        {
+          "ko": "힘들다",
+          "vi": "mệt, vất vả",
+          "seen": "힘들어도"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Người viết làm gì trước khi vào học?",
+          "options": [
+            "Đi làm thêm",
+            "Uống cà phê ở quán",
+            "Làm bài tập ở thư viện"
+          ],
+          "answer": 2,
+          "explain_vi": "“수업을 듣기 전에 도서관에서 숙제를 해요”: làm bài tập ở thư viện trước giờ học."
+        },
+        {
+          "q_vi": "Người viết muốn làm gì vào kỳ nghỉ?",
+          "options": [
+            "Đi du lịch",
+            "Làm thêm",
+            "Học thêm"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu cuối “방학에는 여행을 가고 싶어요” cho biết muốn đi du lịch trong kỳ nghỉ."
+        }
+      ]
+    }
+  ]
+}

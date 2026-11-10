@@ -1,0 +1,289 @@
+{
+  "lesson": "quan-he-10-du-lich",
+  "items": [
+    {
+      "id": "quan-he-10-d1",
+      "kind": "dialogue",
+      "title_ko": "여행사에서",
+      "title_vi": "Ở công ty du lịch",
+      "scene_vi": "Một khách nam đến công ty du lịch để đặt vé máy bay đi đảo Jeju. 직원 là nhân viên nữ.",
+      "speakers": {
+        "F": "직원",
+        "M": "고객"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "안녕하세요? 어떻게 오셨어요?",
+          "vi": "Xin chào. Quý khách cần gì ạ?"
+        },
+        {
+          "who": "M",
+          "ko": "이번 가을에 제주도로 2박 3일 여행을 갈 계획이에요. 항공권을 예약하고 싶어요.",
+          "vi": "Mùa thu này tôi định đi du lịch đảo Jeju 3 ngày 2 đêm. Tôi muốn đặt vé máy bay."
+        },
+        {
+          "who": "F",
+          "ko": "언제 출발하실 예정이세요?",
+          "vi": "Quý khách dự định khởi hành khi nào ạ?"
+        },
+        {
+          "who": "M",
+          "ko": "금요일에 출발하고 일요일에 돌아올 예정이에요.",
+          "vi": "Tôi dự định đi vào thứ Sáu và về vào Chủ nhật."
+        },
+        {
+          "who": "F",
+          "ko": "그 주는 성수기예요. 그래서 항공권이 비쌀 수밖에 없어요.",
+          "vi": "Tuần đó là mùa cao điểm. Vì vậy vé máy bay không thể không đắt ạ."
+        },
+        {
+          "who": "M",
+          "ko": "직항 항공권이 더 비싸지요?",
+          "vi": "Vé bay thẳng đắt hơn đúng không?"
+        },
+        {
+          "who": "F",
+          "ko": "네, 요금은 직항과 경유에 따라 달라요.",
+          "vi": "Vâng, giá vé khác nhau tùy bay thẳng hay quá cảnh."
+        },
+        {
+          "who": "M",
+          "ko": "그럼 결항될 경우에는 어떻게 해요?",
+          "vi": "Vậy trong trường hợp chuyến bay bị hủy thì sao?"
+        },
+        {
+          "who": "F",
+          "ko": "결항될 경우에는 환불 규정에 따라 전액 환불해 드려요. 걱정 마세요.",
+          "vi": "Trong trường hợp chuyến bay bị hủy, chúng tôi sẽ hoàn lại toàn bộ tiền theo quy định hoàn tiền. Quý khách đừng lo ạ."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -(으)ㄹ 계획이다 · V + -(으)ㄹ 예정이다",
+          "regex": "갈 계획이에요|예정이세요|예정이에요"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 수밖에 없다",
+          "regex": "비쌀 수밖에 없어요"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 경우(에) · N + 의 경우",
+          "regex": "경우에는"
+        },
+        {
+          "pattern": "N + 에 따라(서) · N + 에 따른 N",
+          "regex": "경유에 따라|규정에 따라"
+        },
+        {
+          "pattern": "V + -아/어 드리다",
+          "regex": "환불해 드려요"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "2박 3일",
+          "seen": "2박 3일"
+        },
+        {
+          "word": "항공권",
+          "seen": "항공권을"
+        },
+        {
+          "word": "예약하다",
+          "seen": "예약하고"
+        },
+        {
+          "word": "출발하다",
+          "seen": "출발하실"
+        },
+        {
+          "word": "성수기",
+          "seen": "성수기예요"
+        },
+        {
+          "word": "직항",
+          "seen": "직항"
+        },
+        {
+          "word": "결항",
+          "seen": "결항될"
+        },
+        {
+          "word": "환불 규정",
+          "seen": "환불 규정에"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "전액",
+          "vi": "toàn bộ số tiền"
+        },
+        {
+          "ko": "요금",
+          "vi": "giá, cước phí"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Khách định đi du lịch Jeju bao lâu?",
+          "options": [
+            "2 ngày 1 đêm",
+            "3 ngày 2 đêm",
+            "4 ngày 3 đêm"
+          ],
+          "answer": 1,
+          "explain_vi": "Khách nói “2박 3일 여행을 갈 계획이에요”: đi 3 ngày 2 đêm."
+        },
+        {
+          "q_vi": "Vì sao vé máy bay đắt?",
+          "options": [
+            "Vì tuần đó là mùa cao điểm",
+            "Vì bay vào ban đêm",
+            "Vì khách đặt quá muộn"
+          ],
+          "answer": 0,
+          "explain_vi": "직원 nói “그 주는 성수기예요. 그래서 항공권이 비쌀 수밖에 없어요”: tuần đó là mùa cao điểm nên vé không thể không đắt."
+        },
+        {
+          "q_vi": "Nếu chuyến bay bị hủy thì sẽ thế nào?",
+          "options": [
+            "Không được hoàn tiền",
+            "Được hoàn toàn bộ tiền theo quy định",
+            "Phải trả thêm phí"
+          ],
+          "answer": 1,
+          "explain_vi": "“결항될 경우에는 환불 규정에 따라 전액 환불해 드려요”: bị hủy chuyến thì được hoàn toàn bộ tiền theo quy định hoàn tiền."
+        }
+      ]
+    },
+    {
+      "id": "quan-he-10-r1",
+      "kind": "reading",
+      "title_ko": "제주도 여행 계획",
+      "title_vi": "Kế hoạch đi Jeju",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "저는 다음 달에 제주도로 2박 3일 여행을 갈 계획이에요.",
+          "vi": "Tháng sau tôi định đi du lịch đảo Jeju 3 ngày 2 đêm."
+        },
+        {
+          "who": "N",
+          "ko": "비수기에는 숙박비와 비행기 표가 싸기 때문에 다음 달에 가기로 했어요.",
+          "vi": "Vì vào mùa thấp điểm tiền ở và vé máy bay rẻ nên tôi quyết định đi vào tháng sau."
+        },
+        {
+          "who": "N",
+          "ko": "예약은 벌써 끝냈지만 취소할 경우에는 취소 수수료를 내야 해요.",
+          "vi": "Tôi đã đặt xong rồi, nhưng nếu hủy thì phải trả phí hủy."
+        },
+        {
+          "who": "N",
+          "ko": "숙소는 바다 근처에 있는 작은 게스트하우스로 정했어요.",
+          "vi": "Chỗ ở tôi đã chọn là một nhà khách nhỏ gần biển."
+        },
+        {
+          "who": "N",
+          "ko": "날씨에 따라 계획이 바뀔 수 있지만 비가 오는 날에는 박물관에 갈 예정이에요.",
+          "vi": "Kế hoạch có thể thay đổi tùy thời tiết, nhưng vào ngày mưa tôi định đến bảo tàng."
+        },
+        {
+          "who": "N",
+          "ko": "감기에 걸리면 숙소에서 쉴 수밖에 없지만 그래도 기대돼요.",
+          "vi": "Nếu bị cảm thì đành phải nghỉ ở chỗ ở, nhưng dù vậy tôi vẫn rất mong chờ."
+        },
+        {
+          "who": "N",
+          "ko": "여행에서 돌아오면 사진을 많이 보여 줄 거예요.",
+          "vi": "Khi trở về từ chuyến đi, tôi sẽ cho mọi người xem nhiều ảnh."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -(으)ㄹ 계획이다 · V + -(으)ㄹ 예정이다",
+          "regex": "갈 계획이에요|갈 예정이에요"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 경우(에) · N + 의 경우",
+          "regex": "취소할 경우에는"
+        },
+        {
+          "pattern": "N + 에 따라(서) · N + 에 따른 N",
+          "regex": "날씨에 따라"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 수밖에 없다",
+          "regex": "쉴 수밖에 없지만"
+        },
+        {
+          "pattern": "A/V + -기 때문에 · N + (이)기 때문에",
+          "regex": "싸기 때문에"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "여행",
+          "seen": "여행을"
+        },
+        {
+          "word": "2박 3일",
+          "seen": "2박 3일"
+        },
+        {
+          "word": "비수기",
+          "seen": "비수기에는"
+        },
+        {
+          "word": "숙박비",
+          "seen": "숙박비와"
+        },
+        {
+          "word": "비행기 표",
+          "seen": "비행기 표가"
+        },
+        {
+          "word": "취소 수수료",
+          "seen": "취소 수수료를"
+        },
+        {
+          "word": "숙소",
+          "seen": "숙소는"
+        },
+        {
+          "word": "박물관",
+          "seen": "박물관에"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "기대되다",
+          "vi": "mong chờ, kỳ vọng",
+          "seen": "기대돼요"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Vì sao người viết quyết định đi vào tháng sau?",
+          "options": [
+            "Vì mùa thấp điểm nên vé và chỗ ở rẻ",
+            "Vì tháng sau có lễ hội",
+            "Vì bạn bè chỉ rảnh tháng sau"
+          ],
+          "answer": 0,
+          "explain_vi": "“비수기에는 숙박비와 비행기 표가 싸기 때문에 다음 달에 가기로 했어요”: vì mùa thấp điểm tiền ở và vé rẻ nên chọn đi tháng sau."
+        },
+        {
+          "q_vi": "Nếu hủy đặt chỗ thì phải làm gì?",
+          "options": [
+            "Không phải trả gì",
+            "Trả phí hủy",
+            "Đi vào tuần sau"
+          ],
+          "answer": 1,
+          "explain_vi": "“취소할 경우에는 취소 수수료를 내야 해요”: nếu hủy thì phải trả phí hủy."
+        }
+      ]
+    }
+  ]
+}

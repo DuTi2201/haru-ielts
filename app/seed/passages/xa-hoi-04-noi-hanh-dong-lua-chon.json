@@ -1,0 +1,226 @@
+{
+  "lesson": "xa-hoi-04-noi-hanh-dong-lua-chon",
+  "items": [
+    {
+      "id": "xa-hoi-04-d1",
+      "kind": "dialogue",
+      "title_ko": "한국어 공부 비결",
+      "title_vi": "Bí quyết học tiếng Hàn",
+      "scene_vi": "Hai bạn học nói về cách học tiếng Hàn hiệu quả.",
+      "speakers": {
+        "F": "민아",
+        "M": "준호"
+      },
+      "lines": [
+        {
+          "who": "M",
+          "ko": "민아 씨, 한국어 실력이 정말 많이 늘었네요. 비결이 뭐예요?",
+          "vi": "Chị Mina, tiếng Hàn của chị tiến bộ nhiều quá. Bí quyết là gì vậy?"
+        },
+        {
+          "who": "F",
+          "ko": "특별한 방법은 없어요. 매일 한국 드라마를 보다 보니 저절로 늘었어요.",
+          "vi": "Cũng không có cách đặc biệt. Ngày nào cũng xem phim Hàn nên tự nhiên khá lên."
+        },
+        {
+          "who": "M",
+          "ko": "저는 책을 읽고서도 내용이 잘 기억나지 않아요.",
+          "vi": "Còn tôi đọc sách xong mà vẫn không nhớ nội dung."
+        },
+        {
+          "who": "F",
+          "ko": "읽고서 바로 덮지 말고 소리 내어 요약해 보세요. 누구든지 그렇게 하면 기억에 오래 남아요.",
+          "vi": "Đọc xong đừng gấp sách ngay mà hãy tóm tắt thành tiếng. Ai làm vậy cũng nhớ lâu."
+        },
+        {
+          "who": "M",
+          "ko": "문법 문제를 많이 푼다고 해서 말을 잘하게 되는 것은 아니겠지요?",
+          "vi": "Làm nhiều bài ngữ pháp cũng không có nghĩa là sẽ nói giỏi nhỉ?"
+        },
+        {
+          "who": "F",
+          "ko": "그럼요. 문법은 책에서 배우지만 말하기는 직접 말해 봐야 늘어요.",
+          "vi": "Dĩ nhiên. Ngữ pháp học từ sách nhưng nói thì phải tự nói mới tiến bộ."
+        },
+        {
+          "who": "M",
+          "ko": "그렇군요. 앞으로는 문법책을 덮고는 바로 대화 연습을 할게요.",
+          "vi": "Ra vậy. Từ giờ tôi sẽ gấp sách ngữ pháp rồi luyện hội thoại ngay."
+        },
+        {
+          "who": "F",
+          "ko": "좋은 생각이에요. 우리 같이 노력해 봐요.",
+          "vi": "Ý hay đấy. Hai ta cùng cố gắng nhé."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -다 보니(까) · V + -다가 보니(까)",
+          "regex": "보다 보니"
+        },
+        {
+          "pattern": "V + -고서 · V + -고는 · V/A + -고도",
+          "regex": "읽고서도"
+        },
+        {
+          "pattern": "N + (이)든지 · V/A + -든지 -든지 · V/A + -건 -건",
+          "regex": "누구든지"
+        },
+        {
+          "pattern": "V/A + -(ㄴ/는)다고 해서 · N + (이)라고 해서",
+          "regex": "푼다고 해서"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "방법",
+          "seen": "방법은"
+        },
+        {
+          "word": "요약",
+          "seen": "요약해"
+        },
+        {
+          "word": "노력",
+          "seen": "노력해"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Mina nói bí quyết của cô là gì?",
+          "options": [
+            "Học thuộc nhiều từ",
+            "Ngày nào cũng xem phim Hàn",
+            "Đi học thêm"
+          ],
+          "answer": 1,
+          "explain_vi": "Cô nói «매일 한국 드라마를 보다 보니 저절로 늘었어요»."
+        },
+        {
+          "q_vi": "Cô khuyên Junho làm gì sau khi đọc sách?",
+          "options": [
+            "Gấp sách ngay",
+            "Tóm tắt thành tiếng",
+            "Đọc lại ngay lập tức"
+          ],
+          "answer": 1,
+          "explain_vi": "Cô nói «소리 내어 요약해 보세요»."
+        },
+        {
+          "q_vi": "Theo Mina, nói giỏi cần điều gì?",
+          "options": [
+            "Làm thật nhiều bài ngữ pháp",
+            "Tự nói thật nhiều",
+            "Đọc thật nhiều sách"
+          ],
+          "answer": 1,
+          "explain_vi": "Cô nói «말하기는 직접 말해 봐야 늘어요»."
+        }
+      ]
+    },
+    {
+      "id": "xa-hoi-04-r1",
+      "kind": "reading",
+      "title_ko": "도전하는 사람들",
+      "title_vi": "Những người dám thử thách",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "재능이 있다고 해서 모두가 성공하는 것은 아니다.",
+          "vi": "Có tài năng không có nghĩa ai cũng thành công."
+        },
+        {
+          "who": "N",
+          "ko": "처음에는 서툴러도 한 가지 일에 도전하다 보니 전문가가 된 사람이 많다.",
+          "vi": "Có nhiều người ban đầu còn vụng nhưng cứ thử sức với một việc nên đã thành chuyên gia."
+        },
+        {
+          "who": "N",
+          "ko": "그들은 어려움을 만나고도 포기하지 않았다.",
+          "vi": "Họ gặp khó khăn mà vẫn không bỏ cuộc."
+        },
+        {
+          "who": "N",
+          "ko": "누구든지 새로운 분야에 도전할 수 있지만 끝까지 해내는 사람은 많지 않다.",
+          "vi": "Ai cũng có thể thử sức ở lĩnh vực mới nhưng người làm đến cùng thì không nhiều."
+        },
+        {
+          "who": "N",
+          "ko": "실패한 경험을 되돌아보고서 다시 도전하는 태도가 필요하다.",
+          "vi": "Cần thái độ nhìn lại thất bại rồi thử lại."
+        },
+        {
+          "who": "N",
+          "ko": "결국 평생 배우려는 자세가 성공의 열쇠이다.",
+          "vi": "Rốt cuộc, tinh thần học suốt đời là chìa khoá của thành công."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V/A + -(ㄴ/는)다고 해서 · N + (이)라고 해서",
+          "regex": "있다고 해서"
+        },
+        {
+          "pattern": "V + -다 보니(까) · V + -다가 보니(까)",
+          "regex": "도전하다 보니"
+        },
+        {
+          "pattern": "V + -고서 · V + -고는 · V/A + -고도",
+          "regex": "만나고도"
+        },
+        {
+          "pattern": "N + (이)든지 · V/A + -든지 -든지 · V/A + -건 -건",
+          "regex": "누구든지"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "재능",
+          "seen": "재능이"
+        },
+        {
+          "word": "도전",
+          "seen": "도전하다"
+        },
+        {
+          "word": "평생",
+          "seen": "평생"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Theo bài, tài năng có đủ để thành công không?",
+          "options": [
+            "Có, đủ",
+            "Không, chưa chắc",
+            "Bài không đề cập"
+          ],
+          "answer": 1,
+          "explain_vi": "Câu 1: «재능이 있다고 해서 모두가 성공하는 것은 아니다»."
+        },
+        {
+          "q_vi": "Những người thành chuyên gia có điểm chung nào?",
+          "options": [
+            "Họ không gặp khó khăn",
+            "Họ không bỏ cuộc khi gặp khó khăn",
+            "Họ có nhiều tiền"
+          ],
+          "answer": 1,
+          "explain_vi": "Câu 3: «어려움을 만나고도 포기하지 않았다»."
+        },
+        {
+          "q_vi": "Chìa khoá thành công theo tác giả là gì?",
+          "options": [
+            "Tinh thần học suốt đời",
+            "Một tài năng đặc biệt",
+            "May mắn"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu cuối: «평생 배우려는 자세가 성공의 열쇠이다»."
+        }
+      ]
+    }
+  ]
+}

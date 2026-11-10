@@ -1,0 +1,91 @@
+{
+  "blocks": [
+    {
+      "title_vi": "Khoá «Viết câu 54 từ con số 0»: đi qua 8 bài",
+      "body_vi": "Dành cho người **chưa biết bắt đầu từ đâu**: chưa biết tìm ý, chưa biết kéo một câu thành đoạn, chưa biết ghép đoạn thành bài. Mỗi bài chỉ dạy **một việc** và có sản phẩm đầu ra cụ thể; ví dụ xuyên suốt là đề về ứng dụng giao đồ ăn (배달 앱).",
+      "table": {
+        "header": [
+          "Bài",
+          "Việc duy nhất của bài",
+          "Mẫu chính",
+          "Sản phẩm đầu ra"
+        ],
+        "rows": [
+          [
+            "1",
+            "Đọc đề và biến 3 câu hỏi thành 3 câu trả lời",
+            "-(으)ㄴ/는가? · 을/를 중심으로 · 에 대한 · -기 위해",
+            "3 câu đầu đoạn"
+          ],
+          [
+            "2",
+            "Giữ một thể văn viết 한다체",
+            "-ㄴ/는다 · -았/었다 · -지 않는다 · -고 있다",
+            "Đoạn nói → đoạn viết"
+          ],
+          [
+            "3",
+            "Tìm ý bằng 6 ngăn kéo",
+            "에 도움이 되다 · -는 데 · -(으)ㄹ 우려가 있다 · 에 따라 다르다",
+            "4 ý cho một đề"
+          ],
+          [
+            "4",
+            "Một ý → đoạn 5 câu",
+            "-기 때문이다 · (으)로 인해 · 의 경우 · 그 결과",
+            "1 đoạn thân bài ≈ 150 chữ"
+          ],
+          [
+            "5",
+            "Mở bài: diễn đạt lại, không chép đề",
+            "-는 추세이다 · (으)로 떠오르다 · -(으)면서 · -고자 한다",
+            "Mở bài 3 câu"
+          ],
+          [
+            "6",
+            "Thân bài và kết bài theo loại câu hỏi",
+            "-다는 점이다 · 에 영향을 미치다 · -아/어야 한다 · -(으)ㄹ 것으로 기대된다",
+            "Đoạn thân + kết bài"
+          ],
+          [
+            "7",
+            "Ráp bài, đếm chữ, tự sửa",
+            "-(으)ㄴ/는 반면 · 에도 불구하고 · 을/를 통해 · 뿐만 아니라",
+            "Bài hoàn chỉnh 620–700 chữ"
+          ],
+          [
+            "8",
+            "Luyện đề với giàn giáo giảm dần",
+            "-(으)ㄹ 수밖에 없다 · -것으로 보인다 · 에 찬성/반대하다 · -는 것은 아니다",
+            "4 bài mẫu + 12 đề tự luyện"
+          ]
+        ]
+      }
+    },
+    {
+      "title_vi": "Nên học theo thứ tự nào",
+      "bullets_vi": [
+        "Mỗi bài khoảng 60–90 phút (Haru ước lượng): đọc ghi chú → luyện nhận diện → xếp từ → điền câu → tự viết → so với bài mẫu. **Làm theo thứ tự Bài 1 → Bài 8**, vì mỗi bài dùng kết quả của bài trước.",
+        "Người học sơ cấp vẫn học được khoá này: mọi khuôn câu có **công thức sao chép được**, mọi từ mới có nghĩa tiếng Việt và ví dụ, và mỗi đoạn mẫu đều ngắn, chia nhỏ từng câu.",
+        "Học xong Bài 8, hãy tự viết ít nhất **hai bài đầy đủ** ở mức D, mỗi bài cách nhau một ngày, rồi mới chuyển sang các đề Viết 54 ở những chủ đề khác.",
+        "Mục tiêu của khoá là *bố cục đúng, ý đủ, câu đúng*; chưa phải văn phong cầu kỳ. Văn phong cao cấp sẽ nằm ở Chủ đề 5."
+      ]
+    },
+    {
+      "title_vi": "Đối chiếu với đề thật (đã làm)",
+      "bullets_vi": [
+        "Dòng lệnh, điểm, số chữ của câu 54 đối chiếu với đề thật đợt 96 và 102 và với hướng dẫn luyện thi (KAIST, giáo trình).",
+        "Haru **đã sửa** một sai sót cũ: trước đây một số đề 54 trong bộ ghi `글의 제목은 쓰지 마십시오` (chỉ câu 53 mới có dòng đó). Đề 54 thật ghi `단, 문제를 그대로 옮겨 쓰지 마시오`.",
+        "Đề 54 thường có **ba** gạch nhưng cũng có đề hai gạch; hướng dẫn cũ ghi «luôn ba gạch» đã được sửa.",
+        "Những điều **chưa xác minh được** (xem phần lưu ý bên dưới): tỉ trọng điểm từng nhóm tiêu chí, cách đếm số chữ chính thức và quy tắc viết số trên 원고지."
+      ]
+    }
+  ],
+  "disclaimer_vi": [
+    "Tỉ trọng điểm chi tiết giữa ba nhóm tiêu chí của câu 53 và 54 (7·7·16 và 12·12·26) lấy từ sách và trang luyện thi, **chưa xác minh với bảng chấm chính thức**; chỉ dùng để tự định hướng luyện tập.",
+    "Cách đếm số chữ (tính cả dấu cách và dấu câu, không tính xuống dòng) là quy ước an toàn của Haru; văn bản chính thức chưa đọc được, chỉ có dấu hiệu ủng hộ là hai bài mẫu đề thật 96 và 102 đều 675 ký tự theo cách đếm này. Hãy xem hướng dẫn trên phiếu thi bạn đăng ký và nhắm 640–690 chữ để có dư.",
+    "Quy tắc 원고지 (chữ số, chữ Latin) giữa các nguồn không thống nhất; cách an toàn là tránh dùng số và theo hướng dẫn in trên phiếu thi.",
+    "Mọi đề, đoạn văn, bài mẫu trong khoá là **tự soạn** (không lấy từ đề thi thật hay tài liệu có bản quyền). Số chữ do phần mềm đếm và câu văn được rà bằng công cụ phân tích hình thái tiếng Hàn, nhưng bài mẫu **chưa được người bản ngữ chấm**.",
+    "Ước lượng thời gian học và thời gian làm bài là gợi ý của Haru, không phải quy định của kỳ thi."
+  ]
+}

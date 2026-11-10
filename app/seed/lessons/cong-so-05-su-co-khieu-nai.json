@@ -1,0 +1,1026 @@
+{
+  "slug": "cong-so-05-su-co-khieu-nai",
+  "title": "Sự cố, Khiếu nại & Xử lý",
+  "title_ko": "사고·민원",
+  "topic": "Đời sống xã hội & Công sở",
+  "track": "intermediate",
+  "level": 4,
+  "sort_order": 50,
+  "summary": "Từ vựng khiếu nại, đổi trả hàng, sự cố, nguyên nhân và cách ứng phó; bốn mẫu câu (N 탓에, -(으)ㄴ 나머지, -았/었더니, N은/는커녕); nghe cuộc gọi chăm sóc khách hàng và thông báo bảo trì, đọc thông báo đổi trả và bài về cách ứng xử khi có sự cố, viết bài mô tả biểu đồ đường có đảo thứ hạng (Viết 53).",
+  "vocab": [
+    {
+      "hangul": "불만",
+      "pos": "N",
+      "meaning_vi": "Sự bất mãn, lời phàn nàn",
+      "note_vi": "불만을 제기하다 / 불만이 쌓이다.",
+      "example_ko": "고객의 불만을 먼저 들어 주세요.",
+      "example_vi": "Hãy lắng nghe sự phàn nàn của khách hàng trước.",
+      "family": "🟢 Nền · Khiếu nại, đổi trả & dịch vụ khách hàng",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "不滿",
+      "sino_vietnamese": "bất mãn",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "불편",
+      "pos": "N",
+      "meaning_vi": "Sự bất tiện, khó chịu",
+      "note_vi": "불편을 드리다 = gây bất tiện (dùng khi xin lỗi); 불편하다 = bất tiện.",
+      "example_ko": "이용하시는 데 불편은 없으셨어요?",
+      "example_vi": "Quý khách dùng có gì bất tiện không ạ?",
+      "family": "🟢 Nền · Khiếu nại, đổi trả & dịch vụ khách hàng",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "不便",
+      "sino_vietnamese": "bất tiện",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "불량",
+      "pos": "N",
+      "meaning_vi": "Hàng lỗi, chất lượng kém",
+      "note_vi": "불량품 = hàng lỗi.",
+      "example_ko": "불량 제품을 받아서 교환을 요청했어요.",
+      "example_vi": "Tôi nhận phải hàng lỗi nên đã yêu cầu đổi.",
+      "family": "🟢 Nền · Khiếu nại, đổi trả & dịch vụ khách hàng",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "不良",
+      "sino_vietnamese": "bất lương",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "결함",
+      "pos": "N",
+      "meaning_vi": "Khuyết điểm, lỗi của sản phẩm",
+      "note_vi": "결함이 있다 / 결함이 발견되다.",
+      "example_ko": "제품에 결함이 발견되어 무료로 수리해 드립니다.",
+      "example_vi": "Phát hiện sản phẩm có lỗi nên chúng tôi sửa miễn phí.",
+      "family": "🟢 Nền · Khiếu nại, đổi trả & dịch vụ khách hàng",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "缺陷",
+      "sino_vietnamese": "khuyết hãm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "고장",
+      "pos": "N",
+      "meaning_vi": "Sự hỏng hóc",
+      "note_vi": "고장 나다 = bị hỏng (viết rời).",
+      "example_ko": "세탁기가 고장 나서 서비스 센터에 전화했어요.",
+      "example_vi": "Máy giặt hỏng nên tôi gọi trung tâm bảo hành.",
+      "family": "🟢 Nền · Khiếu nại, đổi trả & dịch vụ khách hàng",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "故障",
+      "sino_vietnamese": "cố chướng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "수리하다",
+      "pos": "V",
+      "meaning_vi": "Sửa chữa",
+      "note_vi": "수리비 = phí sửa chữa.",
+      "example_ko": "전자 제품을 수리하는 데 일주일쯤 걸려요.",
+      "example_vi": "Sửa đồ điện tử mất khoảng một tuần.",
+      "family": "🟢 Nền · Khiếu nại, đổi trả & dịch vụ khách hàng",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "修理",
+      "sino_vietnamese": "tu lý",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "요청하다",
+      "pos": "V",
+      "meaning_vi": "Yêu cầu, đề nghị",
+      "note_vi": "Trang trọng hơn 부탁하다.",
+      "example_ko": "담당자에게 환불을 요청했습니다.",
+      "example_vi": "Tôi đã yêu cầu người phụ trách hoàn tiền.",
+      "family": "🟢 Nền · Khiếu nại, đổi trả & dịch vụ khách hàng",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "要請",
+      "sino_vietnamese": "yêu thỉnh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "반품하다",
+      "pos": "V",
+      "meaning_vi": "Trả lại hàng",
+      "note_vi": "반품 비용 = phí trả hàng.",
+      "example_ko": "받은 지 7일 안에 반품할 수 있어요.",
+      "example_vi": "Trong vòng 7 ngày kể từ khi nhận có thể trả hàng.",
+      "family": "🟢 Nền · Khiếu nại, đổi trả & dịch vụ khách hàng",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "返品",
+      "sino_vietnamese": "phản phẩm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "보상하다",
+      "pos": "V",
+      "meaning_vi": "Đền bù",
+      "note_vi": "보상 = đền bù bằng tiền hay hàng hóa; 배상 là bồi thường mang tính pháp lý.",
+      "example_ko": "회사에서 피해를 보상해 주기로 했어요.",
+      "example_vi": "Công ty quyết định đền bù thiệt hại.",
+      "family": "🟢 Nền · Khiếu nại, đổi trả & dịch vụ khách hàng",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "補償",
+      "sino_vietnamese": "bổ thường",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "배상하다",
+      "pos": "V",
+      "meaning_vi": "Bồi thường thiệt hại",
+      "note_vi": "배상 책임 = trách nhiệm bồi thường.",
+      "example_ko": "잘못이 있으면 손해를 배상해야 해요.",
+      "example_vi": "Nếu có lỗi thì phải bồi thường thiệt hại.",
+      "family": "🟢 Nền · Khiếu nại, đổi trả & dịch vụ khách hàng",
+      "priority": "recognize",
+      "hanja": "賠償",
+      "sino_vietnamese": "bồi thường",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "응대하다",
+      "pos": "V",
+      "meaning_vi": "Tiếp đón, ứng xử với khách",
+      "note_vi": "고객 응대 = chăm sóc khách hàng.",
+      "example_ko": "직원이 손님을 친절하게 응대했어요.",
+      "example_vi": "Nhân viên tiếp đón khách rất thân thiện.",
+      "family": "🟢 Nền · Khiếu nại, đổi trả & dịch vụ khách hàng",
+      "priority": "recognize",
+      "hanja": "應對",
+      "sino_vietnamese": "ứng đối",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "담당자",
+      "pos": "N",
+      "meaning_vi": "Người phụ trách",
+      "note_vi": "담당 부서 = bộ phận phụ trách.",
+      "example_ko": "담당자가 확인한 후에 연락드리겠습니다.",
+      "example_vi": "Người phụ trách sẽ liên lạc sau khi xác nhận.",
+      "family": "🟢 Nền · Khiếu nại, đổi trả & dịch vụ khách hàng",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "擔當者",
+      "sino_vietnamese": "đảm đương giả",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "처리하다",
+      "pos": "V",
+      "meaning_vi": "Xử lý, giải quyết",
+      "note_vi": "Bị động: 처리되다.",
+      "example_ko": "접수된 민원은 3일 안에 처리됩니다.",
+      "example_vi": "Khiếu nại đã tiếp nhận được xử lý trong 3 ngày.",
+      "family": "🟢 Nền · Khiếu nại, đổi trả & dịch vụ khách hàng",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "處理",
+      "sino_vietnamese": "xử lý",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "조치",
+      "pos": "N",
+      "meaning_vi": "Biện pháp xử lý",
+      "note_vi": "조치를 취하다 / 조치하다.",
+      "example_ko": "문제가 생기면 즉시 조치를 취해야 해요.",
+      "example_vi": "Khi có vấn đề phải lập tức có biện pháp xử lý.",
+      "family": "🟢 Nền · Khiếu nại, đổi trả & dịch vụ khách hàng",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "措置",
+      "sino_vietnamese": "thố trí",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "누락",
+      "pos": "N",
+      "meaning_vi": "Sự bỏ sót, thiếu sót",
+      "note_vi": "누락되다 = bị bỏ sót.",
+      "example_ko": "주문 내용에 누락이 있어서 다시 확인했어요.",
+      "example_vi": "Nội dung đơn hàng bị sót nên tôi đã kiểm tra lại.",
+      "family": "🟢 Nền · Khiếu nại, đổi trả & dịch vụ khách hàng",
+      "priority": "recognize",
+      "hanja": "漏落",
+      "sino_vietnamese": "lậu lạc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "오류",
+      "pos": "N",
+      "meaning_vi": "Lỗi (của hệ thống, phép tính)",
+      "note_vi": "오류가 발생하다 / 오류를 수정하다.",
+      "example_ko": "결제 오류가 생겨서 주문이 안 돼요.",
+      "example_vi": "Thanh toán bị lỗi nên không đặt hàng được.",
+      "family": "🟢 Nền · Khiếu nại, đổi trả & dịch vụ khách hàng",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "誤謬",
+      "sino_vietnamese": "ngộ mậu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "소비자",
+      "pos": "N",
+      "meaning_vi": "Người tiêu dùng",
+      "note_vi": "Đối lập: 판매자.",
+      "example_ko": "소비자의 권리를 보호하는 법이 있어요.",
+      "example_vi": "Có luật bảo vệ quyền lợi người tiêu dùng.",
+      "family": "🟢 Nền · Khiếu nại, đổi trả & dịch vụ khách hàng",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "消費者",
+      "sino_vietnamese": "tiêu phí giả",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "민원",
+      "pos": "N",
+      "meaning_vi": "Khiếu nại, kiến nghị (gửi cơ quan)",
+      "note_vi": "민원을 제기하다 / 접수하다 / 처리하다.",
+      "example_ko": "주민 민원이 많아서 시청에서 조사를 시작했어요.",
+      "example_vi": "Có nhiều kiến nghị của dân nên UBND thành phố bắt đầu điều tra.",
+      "family": "🟢 Nền · Khiếu nại, đổi trả & dịch vụ khách hàng",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "民願",
+      "sino_vietnamese": "dân nguyện",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "사고",
+      "pos": "N",
+      "meaning_vi": "Tai nạn, sự cố",
+      "note_vi": "사고가 나다 / 사고를 내다.",
+      "example_ko": "공사장에서 안전사고가 발생했어요.",
+      "example_vi": "Tại công trường đã xảy ra tai nạn an toàn.",
+      "family": "🟡 Dạng thi · Sự cố, nguyên nhân & ứng phó",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "事故",
+      "sino_vietnamese": "sự cố",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "원인",
+      "pos": "N",
+      "meaning_vi": "Nguyên nhân",
+      "note_vi": "Đối lập: 결과.",
+      "example_ko": "사고의 원인을 조사하고 있습니다.",
+      "example_vi": "Chúng tôi đang điều tra nguyên nhân tai nạn.",
+      "family": "🟡 Dạng thi · Sự cố, nguyên nhân & ứng phó",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "原因",
+      "sino_vietnamese": "nguyên nhân",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "피해",
+      "pos": "N",
+      "meaning_vi": "Thiệt hại, nạn nhân bị ảnh hưởng",
+      "note_vi": "피해를 입다 / 보다 / 주다.",
+      "example_ko": "태풍으로 큰 피해가 생겼어요.",
+      "example_vi": "Bão gây ra thiệt hại lớn.",
+      "family": "🟡 Dạng thi · Sự cố, nguyên nhân & ứng phó",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "被害",
+      "sino_vietnamese": "bị hại",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "복구하다",
+      "pos": "V",
+      "meaning_vi": "Khôi phục",
+      "note_vi": "복구 작업 = công việc khôi phục.",
+      "example_ko": "정전된 지역의 전기를 모두 복구했습니다.",
+      "example_vi": "Điện của khu vực bị mất đã được khôi phục hoàn toàn.",
+      "family": "🟡 Dạng thi · Sự cố, nguyên nhân & ứng phó",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "復舊",
+      "sino_vietnamese": "phục cựu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "점검하다",
+      "pos": "V",
+      "meaning_vi": "Kiểm tra (kỹ thuật, định kỳ)",
+      "note_vi": "점검 = việc kiểm tra; 안전 점검.",
+      "example_ko": "엘리베이터를 매달 점검해요.",
+      "example_vi": "Thang máy được kiểm tra hằng tháng.",
+      "family": "🟡 Dạng thi · Sự cố, nguyên nhân & ứng phó",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "點檢",
+      "sino_vietnamese": "điểm kiểm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "재발",
+      "pos": "N",
+      "meaning_vi": "Sự tái phát, lặp lại",
+      "note_vi": "재발하다 / 재발 방지.",
+      "example_ko": "같은 사고가 재발하지 않도록 노력하겠습니다.",
+      "example_vi": "Chúng tôi sẽ cố gắng để sự cố tương tự không lặp lại.",
+      "family": "🟡 Dạng thi · Sự cố, nguyên nhân & ứng phó",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "再發",
+      "sino_vietnamese": "tái phát",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "방지하다",
+      "pos": "V",
+      "meaning_vi": "Ngăn ngừa",
+      "note_vi": "방지 = sự ngăn ngừa.",
+      "example_ko": "사고를 방지하기 위해 교육을 합니다.",
+      "example_vi": "Chúng tôi tổ chức đào tạo để ngăn ngừa tai nạn.",
+      "family": "🟡 Dạng thi · Sự cố, nguyên nhân & ứng phó",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "防止",
+      "sino_vietnamese": "phòng chỉ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "대책",
+      "pos": "N",
+      "meaning_vi": "Đối sách, biện pháp đối phó",
+      "note_vi": "대책을 세우다 / 마련하다.",
+      "example_ko": "정부가 새로운 대책을 발표했어요.",
+      "example_vi": "Chính phủ đã công bố đối sách mới.",
+      "family": "🟡 Dạng thi · Sự cố, nguyên nhân & ứng phó",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "對策",
+      "sino_vietnamese": "đối sách",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "마련하다",
+      "pos": "V",
+      "meaning_vi": "Chuẩn bị, thiết lập",
+      "note_vi": "Dùng cho quy định, đối sách, chỗ ở, tiền.",
+      "example_ko": "회사는 안전 규정을 마련했어요.",
+      "example_vi": "Công ty đã thiết lập quy định an toàn.",
+      "family": "🟡 Dạng thi · Sự cố, nguyên nhân & ứng phó",
+      "exam": "kiip-4",
+      "priority": "core"
+    },
+    {
+      "hangul": "대응하다",
+      "pos": "V",
+      "meaning_vi": "Ứng phó, đối ứng",
+      "note_vi": "대응 = sự ứng phó.",
+      "example_ko": "문제가 생기면 빠르게 대응해야 해요.",
+      "example_vi": "Khi có vấn đề phải ứng phó nhanh.",
+      "family": "🟡 Dạng thi · Sự cố, nguyên nhân & ứng phó",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "對應",
+      "sino_vietnamese": "đối ứng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "개선하다",
+      "pos": "V",
+      "meaning_vi": "Cải thiện",
+      "note_vi": "개선 = sự cải thiện.",
+      "example_ko": "서비스를 개선하겠습니다.",
+      "example_vi": "Chúng tôi sẽ cải thiện dịch vụ.",
+      "family": "🟡 Dạng thi · Sự cố, nguyên nhân & ứng phó",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "改善",
+      "sino_vietnamese": "cải thiện",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "중단되다",
+      "pos": "V",
+      "meaning_vi": "Bị ngừng, bị gián đoạn",
+      "note_vi": "중단하다 = dừng lại (chủ động).",
+      "example_ko": "공사가 갑자기 중단되었어요.",
+      "example_vi": "Công trình đột ngột bị ngừng.",
+      "family": "🟡 Dạng thi · Sự cố, nguyên nhân & ứng phó",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "中斷",
+      "sino_vietnamese": "trung đoạn",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "부주의",
+      "pos": "N",
+      "meaning_vi": "Sự bất cẩn",
+      "note_vi": "부주의하다 = bất cẩn.",
+      "example_ko": "운전자의 부주의로 사고가 났어요.",
+      "example_vi": "Tai nạn xảy ra do sự bất cẩn của tài xế.",
+      "family": "🟡 Dạng thi · Sự cố, nguyên nhân & ứng phó",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "不注意",
+      "sino_vietnamese": "bất chú ý",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "과실",
+      "pos": "N",
+      "meaning_vi": "Lỗi (do bất cẩn)",
+      "note_vi": "과실 비율 = tỉ lệ lỗi.",
+      "example_ko": "이 사고는 상대방의 과실로 발생했어요.",
+      "example_vi": "Tai nạn này xảy ra do lỗi của phía bên kia.",
+      "family": "🟡 Dạng thi · Sự cố, nguyên nhân & ứng phó",
+      "priority": "recognize",
+      "hanja": "過失",
+      "sino_vietnamese": "quá thất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "철저하다",
+      "pos": "A",
+      "meaning_vi": "Kỹ lưỡng, triệt để",
+      "note_vi": "철저히 = một cách triệt để.",
+      "example_ko": "안전 점검을 철저하게 해야 해요.",
+      "example_vi": "Phải kiểm tra an toàn thật kỹ lưỡng.",
+      "family": "🟡 Dạng thi · Sự cố, nguyên nhân & ứng phó",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "徹底",
+      "sino_vietnamese": "triệt để",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "신속하다",
+      "pos": "A",
+      "meaning_vi": "Nhanh chóng, mau lẹ",
+      "note_vi": "신속히 / 신속하게.",
+      "example_ko": "신속한 대응 덕분에 피해가 줄었어요.",
+      "example_vi": "Nhờ ứng phó nhanh nên thiệt hại giảm.",
+      "family": "🟡 Dạng thi · Sự cố, nguyên nhân & ứng phó",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "迅速",
+      "sino_vietnamese": "tấn tốc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "재해",
+      "pos": "N",
+      "meaning_vi": "Thiên tai, thảm họa",
+      "note_vi": "자연재해 = thiên tai.",
+      "example_ko": "재해가 일어났을 때의 행동 요령을 배웠어요.",
+      "example_vi": "Tôi đã học cách hành động khi có thảm họa.",
+      "family": "🟡 Dạng thi · Sự cố, nguyên nhân & ứng phó",
+      "priority": "recognize",
+      "hanja": "災害",
+      "sino_vietnamese": "tai hại",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "긴급",
+      "pos": "N",
+      "meaning_vi": "Khẩn cấp",
+      "note_vi": "긴급 연락처 = số liên lạc khẩn cấp.",
+      "example_ko": "긴급 상황에서는 119에 전화하세요.",
+      "example_vi": "Trong tình huống khẩn cấp hãy gọi 119.",
+      "family": "🟡 Dạng thi · Sự cố, nguyên nhân & ứng phó",
+      "priority": "recognize",
+      "hanja": "緊急",
+      "sino_vietnamese": "khẩn cấp",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "제품",
+      "pos": "N",
+      "meaning_vi": "Sản phẩm (hàng do công ty làm ra)",
+      "note_vi": "Trong email khiếu nại hay viết `제품`; `상품` là hàng hóa đem bán (`상품을 주문하다`).",
+      "example_ko": "제품에 결함이 있는 것 같아요.",
+      "example_vi": "Hình như sản phẩm có lỗi.",
+      "family": "🟢 Nền · Viết email khiếu nại",
+      "priority": "core",
+      "hanja": "製品",
+      "sino_vietnamese": "chế phẩm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "주문 번호",
+      "pos": "N",
+      "meaning_vi": "Mã đơn hàng, số đơn hàng",
+      "note_vi": "Câu thứ hai hay thứ ba của email khiếu nại: `주문 번호는 …입니다`.",
+      "example_ko": "주문 번호는 1103-0457입니다.",
+      "example_vi": "Mã đơn hàng là 1103-0457.",
+      "family": "🟢 Nền · Viết email khiếu nại",
+      "priority": "core"
+    },
+    {
+      "hangul": "전기 주전자",
+      "pos": "N",
+      "meaning_vi": "Ấm đun nước điện",
+      "example_ko": "전기 주전자로 물을 끓여요.",
+      "example_vi": "Tôi đun nước bằng ấm điện.",
+      "family": "🟢 Nền · Viết email khiếu nại",
+      "priority": "core"
+    },
+    {
+      "hangul": "포장을 열다",
+      "pos": "X",
+      "meaning_vi": "Mở bao bì, mở gói hàng",
+      "note_vi": "Kể lúc phát hiện lỗi: `포장을 열어 보았더니 …`.",
+      "example_ko": "포장을 열어 보았더니 부품이 하나 없었어요.",
+      "example_vi": "Mở bao bì ra thì thấy thiếu một linh kiện.",
+      "family": "🟢 Nền · Viết email khiếu nại",
+      "priority": "core"
+    },
+    {
+      "hangul": "깨지다",
+      "pos": "V",
+      "meaning_vi": "Bị vỡ, bị nứt vỡ",
+      "note_vi": "Đồ vỡ sẵn khi nhận: `깨진 상태였습니다` (định ngữ quá khứ + `상태`).",
+      "example_ko": "접시가 깨졌어요.",
+      "example_vi": "Cái đĩa bị vỡ rồi.",
+      "family": "🟢 Nền · Viết email khiếu nại",
+      "priority": "core"
+    },
+    {
+      "hangul": "상태",
+      "pos": "N",
+      "meaning_vi": "Tình trạng, trạng thái",
+      "note_vi": "`V-(으)ㄴ 상태이다` tả tình trạng lúc nhận hàng; `이 상태로는 … 수 없습니다` = với tình trạng này thì không … được.",
+      "example_ko": "뚜껑이 깨진 상태였습니다.\n이 상태로는 사용할 수 없습니다.",
+      "example_vi": "Nắp ở tình trạng bị vỡ.\nVới tình trạng này thì không dùng được.",
+      "family": "🟢 Nền · Viết email khiếu nại",
+      "priority": "core",
+      "hanja": "狀態",
+      "sino_vietnamese": "trạng thái",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "사용하다",
+      "pos": "V",
+      "meaning_vi": "Sử dụng, dùng",
+      "note_vi": "Văn viết, email: `사용하다`; nói hằng ngày hay dùng `쓰다`.",
+      "example_ko": "이 제품은 사용하기 쉬워요.",
+      "example_vi": "Sản phẩm này dễ dùng.",
+      "family": "🟢 Nền · Viết email khiếu nại",
+      "priority": "core",
+      "hanja": "使用",
+      "sino_vietnamese": "sử dụng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "연결이 되다",
+      "pos": "X",
+      "meaning_vi": "Kết nối được, gọi được (điện thoại)",
+      "pron": "[연겨리 되다]",
+      "note_vi": "Phủ định: `연결이 되지 않다` hay `연결이 안 되다`.",
+      "example_ko": "고객센터에 전화했지만 연결이 되지 않았습니다.",
+      "example_vi": "Tôi gọi tổng đài nhưng không kết nối được.",
+      "family": "🟢 Nền · Viết email khiếu nại",
+      "priority": "core"
+    },
+    {
+      "hangul": "여러 번",
+      "pos": "X",
+      "meaning_vi": "Nhiều lần",
+      "example_ko": "여러 번 전화했어요.",
+      "example_vi": "Tôi đã gọi nhiều lần.",
+      "family": "🟢 Nền · Viết email khiếu nại",
+      "priority": "core"
+    },
+    {
+      "hangul": "사진을 첨부하다",
+      "pos": "X",
+      "meaning_vi": "Đính kèm ảnh",
+      "note_vi": "`첨부하다` dùng cho email, hồ sơ: `파일을 첨부하다`, `서류를 첨부하다`.",
+      "example_ko": "깨진 부분을 찍은 사진을 첨부합니다.",
+      "example_vi": "Tôi đính kèm ảnh chụp chỗ bị vỡ.",
+      "family": "🟢 Nền · Viết email khiếu nại",
+      "priority": "core"
+    },
+    {
+      "hangul": "새 제품으로 교환하다",
+      "pos": "X",
+      "meaning_vi": "Đổi sang sản phẩm mới",
+      "note_vi": "Đổi **sang** cái gì dùng `(으)로`: `새 제품으로` (✗ `새 제품에`, ✗ `새 제품을`).",
+      "example_ko": "새 제품으로 교환해 주시기 바랍니다.",
+      "example_vi": "Mong quý công ty đổi cho tôi sản phẩm mới.",
+      "family": "🟢 Nền · Viết email khiếu nại",
+      "priority": "core"
+    },
+    {
+      "hangul": "연락 부탁드립니다",
+      "pos": "X",
+      "meaning_vi": "Xin hãy liên lạc lại (câu kết email)",
+      "pron": "[열락 부탁뜨림니다]",
+      "note_vi": "Câu kết email lịch sự; tương tự `답변 부탁드립니다`. Nói điện thoại: `연락 부탁드려요`.",
+      "example_ko": "확인하시는 대로 연락 부탁드립니다.",
+      "example_vi": "Xin hãy liên lạc ngay khi quý vị kiểm tra xong.",
+      "family": "🟢 Nền · Viết email khiếu nại",
+      "priority": "core"
+    },
+    {
+      "hangul": "배송",
+      "pos": "N",
+      "meaning_vi": "Việc giao hàng, vận chuyển",
+      "note_vi": "`배송비` phí giao hàng, `배송 과정` quá trình giao hàng.",
+      "example_ko": "배송이 하루 늦었어요.",
+      "example_vi": "Giao hàng trễ một ngày.",
+      "family": "🟢 Nền · Viết email khiếu nại",
+      "priority": "core",
+      "hanja": "配送",
+      "sino_vietnamese": "phối tống",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "배송이 늦어지다",
+      "pos": "X",
+      "meaning_vi": "Giao hàng bị chậm",
+      "pron": "[배송이 느저지다]",
+      "note_vi": "Kết quả xấu nên hay đi với `탓에`: `배송이 늦어진 탓에 …`.",
+      "example_ko": "배송이 늦어진 탓에 선물을 주지 못했어요.",
+      "example_vi": "Vì giao hàng chậm nên tôi không kịp tặng quà.",
+      "family": "🟢 Nền · Viết email khiếu nại",
+      "priority": "core"
+    },
+    {
+      "hangul": "불편을 드려 죄송합니다",
+      "pos": "X",
+      "meaning_vi": "Xin lỗi vì đã gây bất tiện (câu xin lỗi khách)",
+      "pron": "[불펴늘 드려 죄송함니다]",
+      "note_vi": "Câu đầu tiên khi bên bán trả lời khiếu nại; sau đó nêu cách xử lý: `새 제품으로 보내 드리겠습니다`.",
+      "example_ko": "고객님, 불편을 드려 정말 죄송합니다.",
+      "example_vi": "Thưa quý khách, thành thật xin lỗi vì đã gây bất tiện.",
+      "family": "🟢 Nền · Viết email khiếu nại",
+      "priority": "core"
+    },
+    {
+      "hangul": "고객님",
+      "pos": "N",
+      "meaning_vi": "Quý khách (nhân viên gọi khách)",
+      "example_ko": "고객님, 주문 번호를 말씀해 주시겠습니까?",
+      "example_vi": "Thưa quý khách, quý khách vui lòng cho biết mã đơn hàng được không ạ?",
+      "family": "🟢 Nền · Viết email khiếu nại",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "접시",
+      "pos": "N",
+      "meaning_vi": "Cái đĩa",
+      "example_ko": "접시 하나가 깨졌어요.",
+      "example_vi": "Một cái đĩa bị vỡ.",
+      "family": "🟢 Nền · Viết email khiếu nại",
+      "priority": "recognize"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "N + 탓에 · V/A + -(으)ㄴ/는 탓에",
+      "meaning_vi": "Tại …, vì … (nguyên nhân dẫn đến kết quả xấu)",
+      "usage_context_vi": "**Cấu tạo:** `N 탓에` (`비 탓에`, `부주의 탓에`); động từ hiện tại `V + -는 탓에` (`늦는 탓에`), quá khứ `V + -(으)ㄴ 탓에` (`준비하지 못한 탓에`); tính từ `A + -(으)ㄴ 탓에` (`좁은 탓에`). Có thể đứng cuối câu: `N 탓이다`, `-는 탓이다`. Động từ `탓하다` = đổ lỗi.\n**Hoàn cảnh dùng:** nêu **nguyên nhân dẫn đến kết quả xấu, không mong muốn**, hay dùng khi giải thích sự cố, thất bại hay phàn nàn: `폭우 탓에 배송이 늦어졌습니다`.\n**Vì sao chọn nó:** `때문에` trung tính; `덕분에` dùng cho kết quả tốt; `탓에` mang sắc thái **đổ lỗi, tiếc nuối**.",
+      "contrasts": [
+        {
+          "pattern": "N + 때문에 · V/A + -기 때문에",
+          "diff_vi": "Nguyên nhân trung tính, dùng cho cả tốt và xấu; `탓에` chỉ cho kết quả xấu."
+        },
+        {
+          "pattern": "N + 덕분에 · V + -(으)ㄴ/는 덕분에",
+          "diff_vi": "Nguyên nhân dẫn đến kết quả **tốt** (có ý cảm ơn); ngược với `탓에`."
+        },
+        {
+          "pattern": "V + -는 바람에",
+          "diff_vi": "Một sự việc **bất ngờ** gây kết quả xấu (thường ở quá khứ); `탓에` rộng hơn, cũng nói nguyên nhân kéo dài."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng cho kết quả tốt: ✗ `선생님 탓에 합격했어요` → ✓ `선생님 덕분에 합격했어요`.\n(2) Vế sau là mệnh lệnh hay rủ rê: ✗ `비 탓에 집에 가세요`.\n(3) Chia sai: động từ hiện tại `-는 탓에`, quá khứ `-(으)ㄴ 탓에`, tính từ luôn `-(으)ㄴ 탓에`: ✗ `좁는 탓에` → ✓ `좁은 탓에`.\n(4) Dùng `탓에` để giải thích kết quả trung tính: ✗ `시간이 지난 탓에 봄이 왔다`.",
+      "example_ko": "폭우 탓에 배송이 하루 늦어졌습니다.\n직원의 부주의 탓에 제품에 흠집이 생겼어요.\n준비를 충분히 하지 못한 탓에 발표를 망쳤다.\n방이 좁은 탓에 책상을 놓을 수 없어요.",
+      "example_vi": "Vì mưa lớn nên việc giao hàng bị chậm một ngày.\nVì sự bất cẩn của nhân viên nên sản phẩm bị trầy.\nVì chuẩn bị chưa đủ nên bài thuyết trình bị hỏng.\nVì phòng chật nên không đặt được bàn.",
+      "topik_tip_vi": "Trong bài nghe và bài đọc, `탓에` báo hiệu sự cố hoặc kết quả xấu; đáp án về nguyên nhân thường là chi tiết ngay trước `탓에`. Phân biệt với `덕분에` (tốt) là cách loại đáp án nhanh.",
+      "exam": "kiip-4",
+      "builds_on": [
+        "N + 덕분에 · V + -(으)ㄴ/는 덕분에"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V/A + -(으)ㄴ 나머지",
+      "meaning_vi": "Vì quá …, nên (làm việc ngoài dự tính)",
+      "usage_context_vi": "**Cấu tạo:** `V/A + -(으)ㄴ 나머지`: `놀라다 → 놀란 나머지`, `기쁘다 → 기쁜 나머지`, `화가 나다 → 화가 난 나머지`. Với `있다/없다` dùng `-는 나머지`. Chú ý danh từ `나머지` còn có nghĩa **phần còn lại** (`나머지 시간`), đó là từ khác.\n**Hoàn cảnh dùng:** nói một trạng thái hay cảm xúc **quá mức**, và vì thế **làm một việc ngoài dự tính** ở vế sau (thường ở **quá khứ**): `너무 화가 난 나머지 소리를 질렀다`.\n**Vì sao chọn nó:** `-아/어서` nêu lý do thông thường; `-(으)ㄴ 나머지` nhấn **mức độ cực đoan** và kết quả khác thường; `-느라고` là vì đang bận làm một việc.",
+      "contrasts": [
+        {
+          "pattern": "V/A + -아/어서 · N + (이)라서",
+          "diff_vi": "Lý do thông thường, vế sau tự do; `나머지` đòi mức độ quá đáng và kết quả bất thường."
+        },
+        {
+          "pattern": "V + -느라고",
+          "diff_vi": "Vì đang làm việc A nên B (thường xấu), hai vế cùng chủ ngữ; `나머지` đi với cảm xúc hay trạng thái quá mức."
+        },
+        {
+          "pattern": "V + -는 바람에",
+          "diff_vi": "Một sự việc bất ngờ gây kết quả xấu; `나머지` nhấn việc **bị cuốn theo cảm xúc**."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng với mệnh lệnh hay rủ rê: ✗ `너무 피곤한 나머지 쉬세요`.\n(2) Dùng cho mức độ bình thường: ✗ `조금 피곤한 나머지 일찍 잤어요` → dùng `-아/어서`.\n(3) Chia hiện tại khi kể việc đã xảy ra: ✗ `놀라는 나머지 소리를 질렀다` → ✓ `놀란 나머지 소리를 질렀다`.\n(4) Nhầm với danh từ `나머지` (phần còn lại): `나머지` ở đây chỉ làm phần cuối của mẫu câu.",
+      "example_ko": "너무 놀란 나머지 아무 말도 못 했어요.\n화가 난 나머지 고객은 환불을 요구하며 소리를 질렀다.\n기쁜 나머지 동료들에게 한턱을 냈어요.\n걱정한 나머지 밤새 잠을 이루지 못했다.",
+      "example_vi": "Quá ngạc nhiên nên tôi chẳng nói được lời nào.\nQuá tức giận, vị khách vừa hét lên vừa đòi hoàn tiền.\nVui quá nên tôi đã khao đồng nghiệp.\nLo lắng quá nên cả đêm không ngủ được.",
+      "topik_tip_vi": "Bài đọc dùng `나머지` để kể một phản ứng quá mức (thường là cảm xúc mạnh) dẫn tới hành động bất thường. Hỏi «vì sao nhân vật làm vậy?» thì tìm cảm xúc ngay trước `나머지`.",
+      "exam": "kiip-4",
+      "builds_on": [
+        "V + -느라고"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V + -았/었더니",
+      "meaning_vi": "Làm … xong thì (thấy kết quả) …",
+      "usage_context_vi": "**Cấu tạo:** `V + -았/었더니`: `먹다 → 먹었더니`, `일하다 → 일했더니`, `열다 → 열었더니`. Chủ ngữ vế trước thường là **người nói** (`제가`, hay lược bỏ), vế sau là **kết quả người nói quan sát được** (một trạng thái, cảm giác, phản ứng của người khác). Khi kể về người khác thì dùng `-더니`.\n**Hoàn cảnh dùng:** kể **hành động của mình rồi thấy ngay kết quả hay phát hiện**: `약을 먹었더니 열이 내렸어요`, `전화를 했더니 담당자가 바로 받았어요`.\n**Vì sao chọn nó:** `-(으)니까` cũng nêu phát hiện, nhưng còn dùng được cho lý do với mệnh lệnh; `-았/었더니` chỉ kể **trải nghiệm đã qua của người nói**.",
+      "contrasts": [
+        {
+          "pattern": "V + -(으)니까 (보니까)",
+          "diff_vi": "Cũng nêu phát hiện; nhưng đi được với mệnh lệnh/rủ rê, còn `-았/었더니` thì không."
+        },
+        {
+          "pattern": "V + -다가",
+          "diff_vi": "Hành động đang làm thì bị gián đoạn và chuyển sang việc khác; `-았/었더니` là làm xong rồi mới thấy kết quả."
+        },
+        {
+          "pattern": "V/A + -아/어서 · N + (이)라서",
+          "diff_vi": "Nêu lý do hay trình tự chung; `-았/었더니` thiên về **kết quả mình quan sát**."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Vế sau là mệnh lệnh hay rủ rê: ✗ `약을 먹었더니 쉬세요`.\n(2) Vế sau là ý định của người nói: ✗ `일찍 갔더니 일하겠어요` (vế sau phải là kết quả đã xảy ra).\n(3) Nhầm với `-더니` khi chủ thể là chính mình: ✗ `제가 먹더니 배가 불렀어요` → ✓ `먹었더니`.\n(4) Dùng với sự việc không liên quan nhau: hai vế phải có quan hệ làm → thấy kết quả.",
+      "example_ko": "약을 먹었더니 열이 내렸어요.\n어제 늦게까지 일했더니 오늘 너무 피곤해요.\n고객센터에 전화했더니 담당자가 바로 연락을 줬어요.\n포장을 열었더니 부품이 하나 빠져 있었다.",
+      "example_vi": "Uống thuốc xong thì hết sốt.\nHôm qua làm việc đến khuya nên hôm nay mệt quá.\nGọi trung tâm chăm sóc khách hàng thì người phụ trách liên lạc ngay.\nMở bao bì ra thì thấy thiếu một linh kiện.",
+      "topik_tip_vi": "Đáp án đúng thường là kết quả **mà người nói thấy**: trong bài đọc, câu có `-았/었더니` hay mở ra một phát hiện (thiếu hàng, lỗi sản phẩm). Ở bài cloze, thấy vế sau là kết quả đã quan sát được thì chọn `-았/었더니`, không chọn `-(으)려고`.",
+      "exam": "kiip-4",
+      "builds_on": [
+        "V + -(으)니까 (보니까)",
+        "V + -다가"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "N + 은/는커녕",
+      "meaning_vi": "Khỏi nói đến …, đến … cũng không",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · 👁 **Nhận ra** (đọc/nghe hiểu)\n**Cấu tạo:** `N + 은/는커녕` + vị ngữ **phủ định**: có patchim `은커녕`, không patchim `는커녕`; viết liền. Hay đi với `도/조차/마저` ở vế sau: `N1은/는커녕 N2도 …`.\n**Hoàn cảnh dùng:** N1 là điều **lớn hơn, đáng mong đợi**; N2 là điều **nhỏ hơn**. Câu nói đến N2 cũng không có thì N1 càng không: `월급은커녕 교통비도 받지 못했다`. Thường diễn tả thất vọng, bức xúc.\n**Vì sao chọn nó:** `N도 없다` chỉ nói thiếu; `은/는커녕` **nhấn mức độ**: thứ đáng lẽ phải có còn không có, huống hồ thứ lớn hơn.\n*Mức độ:* Chủ yếu gặp ở bài đọc và nghe; cần nhận ra nghĩa «A thì khỏi nói, đến B cũng không».\n**Trong bài này:** Trong bài 38, `은/는커녕` nằm trong các lời phàn nàn của thư khiếu nại, cạnh core `탓에` và `-(으)ㄴ 나머지`: «A thì khỏi nói, đến B cũng không» nhấn rằng dịch vụ tệ đến mức nào.",
+      "contrasts": [
+        {
+          "pattern": "N + 마저 · N + 조차",
+          "diff_vi": "`조차` cũng đi với phủ định nhưng chỉ nhấn «đến cả N»; `은/는커녕` nêu thêm điều **lớn hơn** đã bị loại bỏ."
+        },
+        {
+          "pattern": "N + 밖에 + 부정 (없다 · 안 · 못 · -지 않다)",
+          "diff_vi": "Chỉ có …; `은/는커녕` nói không đạt cả mức thấp nhất."
+        },
+        {
+          "pattern": "N + 은/는 고사하고",
+          "diff_vi": "Nghĩa gần giống («chưa nói đến»), trang trọng hơn."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Vị ngữ khẳng định: ✗ `월급은커녕 교통비도 받았어요` → vị ngữ phải phủ định: `받지 못했어요`.\n(2) Đảo lớn nhỏ: ✗ `교통비는커녕 월급도 못 받았어요` → vế đầu phải là điều lớn hơn.\n(3) Dùng `이/가`: ✗ `월급이커녕` → ✓ `월급은커녕`.\n(4) Viết rời: ✗ `은 커녕` → ✓ `은커녕`.\n*Biên soạn bổ sung:* các ví dụ và phần giải thích do Haru tự biên soạn.",
+      "example_ko": "사과는커녕 설명조차 하지 않았어요.\n월급은커녕 교통비도 받지 못했습니다.\n환불은커녕 교환도 해 주지 않았다.",
+      "example_vi": "Xin lỗi thì khỏi nói, đến giải thích cũng không có.\nLương thì khỏi nói, đến tiền đi lại cũng không nhận được.\nHoàn tiền thì khỏi nói, đến đổi hàng cũng không làm cho.",
+      "topik_tip_vi": "Hay xuất hiện trong bài đọc phàn nàn: «A는커녕 B도 …» báo hiệu dịch vụ rất tệ hoặc kết quả ngoài mong đợi. Nhớ vị ngữ phải phủ định; khi viết dùng vừa phải để nhấn sự thất vọng.",
+      "exam": "kiip-4",
+      "builds_on": [
+        "N + 마저 · N + 조차"
+      ],
+      "use_level": "recognize",
+      "source": "EXT-T4-03"
+    },
+    {
+      "pattern": "V + -고 보니(까)",
+      "meaning_vi": "Làm xong … rồi mới thấy/nhận ra … — điều nhận ra sau khi làm",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** gốc động từ + `-고 보니(까)`: `받다 → 받고 보니`, `열다 → 열고 보니까`.\n**Hoàn cảnh dùng:** Sau khi **làm xong A**, người nói mới **phát hiện** điều bất ngờ B: `택배를 받고 보니 다른 사람 물건이었어요.` Hay dùng khi kể sự cố, khiếu nại.\n**Vì sao chọn nó:** `-다(가) 보니(까)` là «làm đi làm lại/làm một thời gian thì …» (quá trình); `-고 보니` là **xong một lần rồi mới thấy**. `-았/었더니` cũng là «làm rồi thấy», nhưng kể như một kết quả tiếp theo.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Sự cố, Khiếu nại & Xử lý»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V + -다 보니(까) · V + -다가 보니(까)",
+          "diff_vi": "Quá trình lặp lại/kéo dài dẫn đến kết quả."
+        },
+        {
+          "pattern": "V + -았/었더니",
+          "diff_vi": "Kể việc mình làm rồi kết quả/phản ứng tiếp theo."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Nhầm với `-다 보니`: ✗ `택배를 받다 보니 다른 사람 물건이었어요` → ✓ `받고 보니`.\n(2) Vế sau là ý định/mệnh lệnh: vế sau phải là **điều phát hiện ra** (thường ở quá khứ).\n(3) Chia thì ở vế trước: ✗ `받았고 보니` → ✓ `받고 보니`.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "택배를 받고 보니 다른 사람 물건이었어요.\n포장을 열고 보니 부품 하나가 빠져 있었어요.\n이야기를 듣고 보니 그 사람 입장도 이해가 돼요.",
+      "example_vi": "Nhận bưu kiện xong mới thấy là đồ của người khác.\nMở bao bì ra mới thấy thiếu một linh kiện.\nNghe chuyện xong mới thấy hiểu được lập trường của người đó.",
+      "topik_tip_vi": "Đọc email khiếu nại: câu `-고 보니` chứa sự cố chính; câu hỏi «vì sao viết email» chọn đúng nội dung sau `보니`.",
+      "use_level": "produce",
+      "source": "EXT-SUP-21"
+    },
+    {
+      "pattern": "V/A + -더니",
+      "meaning_vi": "(Trước đây tôi thấy) … mà giờ / nên … — đối chiếu hoặc kết quả của điều người nói từng quan sát",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** gốc + `-더니`: `흐리다 → 흐리더니`, `열심히 하다 → 열심히 하더니`. Chủ ngữ vế trước thường là **người khác/sự vật** người nói đã chứng kiến.\n**Hoàn cảnh dùng:** (1) **Thay đổi/đối lập**: `아침에는 흐리더니 오후에는 맑아졌어요.` (2) **Kết quả**: `민수 씨가 열심히 공부하더니 시험에 합격했어요.` Người nói kể dựa trên điều chính mình đã thấy.\n**Vì sao chọn nó:** `-았/었더니` dùng khi **chính người nói làm** rồi thấy kết quả (`약을 먹었더니 나았어요`); `-더니` dùng cho **người/vật khác** mà người nói quan sát. `-지만` chỉ đối lập, không có sắc thái «đã chứng kiến».\n**Trong bài này:** mẫu bổ sung cho chủ đề «Sự cố, Khiếu nại & Xử lý»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V + -았/었더니",
+          "diff_vi": "Chủ ngữ là chính người nói (ngôi 1)."
+        },
+        {
+          "pattern": "V/A + -지만",
+          "diff_vi": "Đối lập trung tính, không gắn với điều đã chứng kiến."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng cho chính mình: ✗ `제가 열심히 공부하더니 합격했어요` → ✓ `제가 열심히 공부했더니 합격했어요`.\n(2) Vế sau là mệnh lệnh/tương lai: vế sau là sự việc **đã xảy ra** hoặc hiện tại.\n(3) Nhầm `-더니` với `-다니`: `-다니` là ngạc nhiên về lời nghe được.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "아침에는 흐리더니 오후에는 날씨가 맑아졌어요.\n민수 씨가 매일 연습하더니 발표를 아주 잘하더라고요.\n그 회사는 지난달까지 배송이 빠르더니 요즘은 자꾸 늦어요.",
+      "example_vi": "Sáng thì âm u mà chiều trời lại quang.\nAnh Minsu ngày nào cũng luyện, nên thuyết trình rất giỏi.\nCông ty đó tháng trước giao hàng nhanh mà dạo này cứ trễ.",
+      "topik_tip_vi": "Đọc (19–24, 42–43): `-더니` nối trước/sau; câu «nội dung trùng khớp» thường hỏi đúng sự thay đổi này.",
+      "use_level": "produce",
+      "source": "EXT-SUP-22"
+    },
+    {
+      "pattern": "V + -다가는 (-다간)",
+      "meaning_vi": "Nếu cứ (tiếp tục) … như thế thì e rằng … — cảnh báo hậu quả xấu",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** gốc động từ + `-다가는`, rút gọn `-다간`: `미루다 → 미루다가는`; hay đi với `이렇게`, `계속`, `자꾸`. Vế sau: `-(으)ㄹ 거예요`, `-겠어요`, `큰일 나다`, `-기 쉽다`.\n**Hoàn cảnh dùng:** Cảnh báo: nếu hành động ở vế trước cứ tiếp diễn thì sẽ có hậu quả xấu: `이렇게 배송이 계속 늦다가는 고객을 다 잃겠어요.`\n**Vì sao chọn nó:** `-(으)면` trung tính; `-다 보면` là «cứ làm thì (thường) sẽ …» (thường tích cực); `-다가는` **chỉ dùng để cảnh báo** điều tiêu cực.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Sự cố, Khiếu nại & Xử lý»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V + -다 보면",
+          "diff_vi": "Cứ làm đều thì sẽ …, thường mang nghĩa tốt."
+        },
+        {
+          "pattern": "V/A + -(으)면",
+          "diff_vi": "Điều kiện chung, không có sắc thái cảnh báo."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Vế sau tích cực: ✗ `열심히 공부하다가는 합격할 거예요` → ✓ `열심히 공부하다 보면 합격할 거예요`.\n(2) Vế sau ở quá khứ khẳng định: vế sau là **dự đoán/cảnh báo** (`-(으)ㄹ 거예요`, `-겠다`).\n(3) Viết liền sai: ✗ `미루다가 는` → ✓ `미루다가는` / `미루다간`.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "이렇게 배송이 계속 늦다가는 고객을 다 잃겠어요.\n확인하지 않고 보내다가는 큰 실수를 할 수 있어요.\n일을 자꾸 미루다간 마감을 못 지킬 거예요.",
+      "example_vi": "Cứ giao hàng trễ thế này thì sẽ mất hết khách.\nCứ gửi mà không kiểm tra thì có thể mắc lỗi lớn.\nCứ trì hoãn mãi thì sẽ không kịp hạn chót.",
+      "topik_tip_vi": "Đọc/Nghe (ý đồ người nói): `-다가는` = cảnh báo, lo ngại; đáp án thái độ «lo lắng», «cảnh báo».",
+      "use_level": "produce",
+      "source": "EXT-SUP-23"
+    },
+    {
+      "pattern": "V/A + -았/었더라면 · N + (이)었더라면",
+      "meaning_vi": "Giá mà (lúc đó) đã … thì … — giả định trái với việc đã xảy ra",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** gốc + `-았/었더라면`: `확인하다 → 확인했더라면`; danh từ `N(이)었더라면`. Vế sau: `-았/었을 거예요`, `-았/었을 텐데`, `-(으)ㄹ 뻔했어요`.\n**Hoàn cảnh dùng:** Nhìn lại **quá khứ** và giả định điều ngược lại: `주문하기 전에 사이즈를 확인했더라면 반품할 필요가 없었을 거예요.` Diễn tả hối tiếc hoặc nhẹ nhõm.\n**Vì sao chọn nó:** `-았/었으면` cũng giả định nhưng còn nghĩa mong ước; `-았/었더라면` **chỉ** dùng cho điều trái với quá khứ, nghe rõ ràng và trang trọng hơn.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Sự cố, Khiếu nại & Xử lý»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V/A + -았/었으면",
+          "diff_vi": "Có thể là mong ước (`-았/었으면 좋겠다`) hay giả định nhẹ."
+        },
+        {
+          "pattern": "V + -(느)ㄴ다면 · A + -다면 · N + (이)라면",
+          "diff_vi": "Giả định về hiện tại/tương lai."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Vế sau ở hiện tại đơn: ✗ `확인했더라면 반품하지 않아요` → ✓ `반품하지 않았을 거예요`.\n(2) Dùng cho tương lai: ✗ `내일 비가 왔더라면` → tương lai dùng `-(느)ㄴ다면`.\n(3) Thiếu quá khứ: ✗ `확인하더라면` → ✓ `확인했더라면`.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "주문하기 전에 사이즈를 확인했더라면 반품할 필요가 없었을 거예요.\n조금만 늦게 출발했더라면 비행기를 놓칠 뻔했어요.\n그때 고객의 말을 끝까지 들었더라면 오해가 생기지 않았을 텐데요.",
+      "example_vi": "Giá mà kiểm tra cỡ trước khi đặt thì đã không phải trả hàng.\nGiá mà xuất phát muộn chút nữa thì suýt lỡ máy bay.\nGiá như lúc đó nghe khách nói hết thì đã không có hiểu lầm.",
+      "topik_tip_vi": "Đọc/Nghe: `-았/었더라면` = thực tế đã không làm; câu nội dung trùng khớp hay cài đáp án sai «người này đã kiểm tra».",
+      "use_level": "produce",
+      "source": "EXT-SUP-24"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài (sự cố, khiếu nại và xử lý)",
+      "body": "**Bài 38:** 🟢 nói và viết khi khiếu nại, đổi trả, hỏi về sự cố · 🟡 nghe chăm sóc khách hàng và thông báo bảo trì; đọc thông báo đổi trả, tin tiêu đề và bài nghị luận về cách ứng xử khi có sự cố · 🔴 viết bài mô tả **biểu đồ đường có hai đường cắt nhau** (Viết 53): nêu mốc đảo thứ hạng, tỉ số, nguyên nhân và dự báo.\n**Ngữ pháp:** `N 탓에`, `-(으)ㄴ 나머지`, `-았/었더니`, `N은/는커녕`.\n• 🎯 **Đầu ra:** cuối bài bạn viết được một email khiếu nại đơn hàng lỗi (150–320 chữ, Bước 5): đơn nào, lỗi gì, muốn đổi hay hoàn tiền, xin phản hồi lịch sự; và gọi điện khiếu nại trong một phút.",
+      "kind": "goal"
+    },
+    {
+      "title": "Phân biệt các cặp từ dễ nhầm",
+      "body": "• **불만 / 불평 / 항의:** `불만` là cảm giác bất mãn; `불평` là lời than phiền nói ra; `항의` là phản đối chính thức.\n• **반품 / 환불 / 교환:** `반품` trả hàng; `환불` hoàn tiền; `교환` đổi sang hàng khác.\n• **고장 / 오류 / 결함:** `고장` máy hỏng khi dùng; `오류` lỗi của hệ thống hay phép tính; `결함` lỗi từ khâu sản xuất.\n• **보상 / 배상:** `보상` đền bù (tiền hay hàng); `배상` bồi thường thiệt hại do lỗi của mình.\n• **원인 / 이유:** `원인` là nguyên nhân khách quan của sự cố; `이유` là lý do mà người nói đưa ra.\n• **피해 / 손해:** `피해` là thiệt hại do tai nạn hay sự cố; `손해` là thiệt hại về tiền bạc, lợi ích.\n• **점검 / 조사:** `점검` kiểm tra kỹ thuật định kỳ; `조사` điều tra để tìm ra sự thật.",
+      "kind": "language"
+    },
+    {
+      "title": "Đời sống: quyền lợi người tiêu dùng khi mua hàng",
+      "body": "• **1372** là số tư vấn người tiêu dùng của Cơ quan Người tiêu dùng Hàn Quốc (`소비자상담센터`); có thể hỏi về đổi trả và hòa giải tranh chấp.\n• Mua hàng qua mạng thường có thể **hủy đơn hay trả hàng trong 7 ngày** (`청약철회`) kể từ khi nhận hàng; có ngoại lệ như hàng đã dùng làm giảm giá trị, hàng đặt làm riêng, thực phẩm đã mở.\n• Hàng lỗi hay giao sai thì phí gửi trả thường do bên bán chịu; **đổi ý** (`단순 변심`) thì thường do khách chịu.\n• Nên giữ **biên lai** (`영수증`), ảnh chụp lỗi, tin nhắn trao đổi và số đơn hàng.\n• Khi khiếu nại, nêu rõ thời gian mua, sản phẩm, vấn đề và **yêu cầu cụ thể** (đổi, hoàn tiền hay sửa).\n*Thông tin tham khảo, đối chiếu trang chính thức của Cơ quan Người tiêu dùng (kca.go.kr, consumer.go.kr) trước khi áp dụng.*",
+      "kind": "fact",
+      "exam": "kiip-4"
+    },
+    {
+      "title": "Đời sống: khi có sự cố và nơi nộp khiếu nại hành chính",
+      "body": "• **119** là số cứu hỏa và cấp cứu; **112** là cảnh sát. Chỉ gọi khi khẩn cấp thật sự.\n• **110** là tổng đài hướng dẫn khiếu nại hành chính; cổng **국민신문고** (epeople.go.kr) nhận `민원` gửi đến cơ quan nhà nước.\n• Ở chung cư hay nhà thuê, sự cố nước hay điện cần báo ngay `관리사무소`; ghi lại thời gian và chụp ảnh.\n• Tai nạn khi làm việc: báo người phụ trách (`담당자`), không tự ý xử lý; có thể được bảo hiểm tai nạn lao động (`산재보험`) và tư vấn qua **1350**.\n*Thông tin tham khảo, đối chiếu moel.go.kr và gov.kr trước khi áp dụng; không thay cho tư vấn pháp lý.*",
+      "kind": "fact",
+      "exam": "kiip-4"
+    },
+    {
+      "title": "Mẫu thư khiếu nại sản phẩm thiếu linh kiện (합쇼체)",
+      "body": "안녕하십니까. 지난 10일에 주문한 청소기를 받았는데 포장을 열었더니 부품이 하나 빠져 있었습니다. 제품을 사용할 수 없어서 불편이 큽니다. 부품을 다시 보내 주시거나 새 제품으로 교환해 주시기 바랍니다. 확인하시는 대로 답변 부탁드립니다. 감사합니다.\n*Bản dịch tham khảo:* Xin chào. Tôi đã nhận chiếc máy hút bụi đặt ngày 10, mở bao bì ra thì thiếu một linh kiện. Tôi không dùng được nên rất bất tiện. Mong quý công ty gửi lại linh kiện hoặc đổi sang sản phẩm mới. Xin hãy trả lời ngay khi xác nhận. Xin cảm ơn.\n*Gợi ý:* chào → nêu sự việc kèm thời gian → hậu quả → yêu cầu cụ thể → xin phản hồi.",
+      "kind": "sample"
+    },
+    {
+      "title": "Viết 53: biểu đồ đường có hai đường cắt nhau",
+      "body": "**Biểu đồ đường** thường có hai đường (hai nhóm) và 3–4 mốc năm. Cách viết:\n• **T:** cơ quan + đối tượng (`…에 대해 조사하였다`).\n• **O + P:** đường **tăng** nêu mốc đầu → mốc cuối và bội số (`1만 5천 건에서 6만 건으로 4배 늘어났다`); đường **giảm** dùng `줄어들었다` với mức giảm (`3만 건에서 2만 4천 건으로`); nếu hai đường cắt nhau, nêu **năm đảo thứ hạng** (`2023년에는 온라인이 오프라인을 넘어섰다`).\n• **I:** ghép **hai** nguyên nhân từ ô.\n• **K:** `이러한 추세라면 2030년에는 … 넘을 것으로 전망된다`.\n**Số lớn:** `15천 건` đọc là `1만 5천 건`, `60천 건` là `6만 건`; đổi kiểu viết cho khớp tiếng Hàn.",
+      "kind": "writing"
+    },
+    {
+      "title": "🟢 Bài mẫu: Email khiếu nại đơn hàng (đầu ra của bài)",
+      "kind": "sample",
+      "body": "Đọc to bài mẫu, rồi thay từng chi tiết bằng một món hàng thật bạn từng mua: đó là bài **Bước 5** ở phần Tạo câu.\n\n안녕하십니까. 저는 지난 3일에 전기 주전자를 주문한 응우옌 란입니다. 주문 번호는 1103-0457입니다. 제품은 어제 받았는데, 포장을 열어 보았더니 주전자 뚜껑이 깨진 상태였습니다. 이 상태로는 제품을 사용할 수 없습니다. 고객센터에 여러 번 전화했지만 연결이 되지 않아서 이렇게 메일을 드립니다. 깨진 뚜껑을 찍은 사진도 첨부합니다. 새 제품으로 교환해 주시거나 환불해 주시기 바랍니다. 확인하시는 대로 연락 부탁드립니다. 감사합니다.\n\n*Bản dịch tham khảo:* Xin chào. Tôi là Nguyễn Lan, người đã đặt một chiếc ấm đun nước điện hôm mùng 3. Mã đơn hàng là 1103-0457. Tôi nhận hàng hôm qua, mở bao bì ra thì thấy nắp ấm đã bị vỡ. Với tình trạng này tôi không thể dùng sản phẩm. Tôi đã gọi tổng đài nhiều lần nhưng không kết nối được, vì vậy tôi viết email này. Tôi xin gửi kèm ảnh chụp chiếc nắp bị vỡ. Mong quý công ty đổi cho tôi sản phẩm mới hoặc hoàn tiền. Xin hãy liên lạc ngay khi kiểm tra xong. Xin cảm ơn.\n\n**Email đi theo 4 bước:** (1) câu mở: chào, bạn là ai, đơn hàng nào (ngày đặt, mã đơn) → (2) sự việc: lỗi bạn phát hiện (`-았/었더니`) và hậu quả → (3) vì sao viết email, bằng chứng đính kèm → (4) câu kết: một yêu cầu cụ thể, xin phản hồi, cảm ơn."
+    },
+    {
+      "title": "🟢 Khung câu: khiếu nại và xin lỗi khách",
+      "kind": "language",
+      "body": "**Khi bạn là khách (khiếu nại):**\n• **Đơn hàng:** `저는 지난 ○일에 N을/를 주문한 ○○○입니다.` · `주문 번호는 …입니다.`\n• **Lỗi:** `포장을 열어 보았더니 N이/가 깨진 상태였습니다.` · `배송이 늦어진 탓에 …지 못했습니다.`\n• **Hậu quả:** `이 상태로는 제품을 사용할 수 없습니다.`\n• **Vì sao viết:** `고객센터에 여러 번 전화했지만 연결이 되지 않아서 이렇게 메일을 드립니다.`\n• **Yêu cầu:** `새 제품으로 교환해 주시거나 환불해 주시기 바랍니다.`\n• **Kết:** `확인하시는 대로 연락 부탁드립니다. 감사합니다.`\n\n**Khi bạn là nhân viên (xin lỗi khách):**\n• **Xin lỗi trước:** `고객님, 불편을 드려 정말 죄송합니다.`\n• **Nguyên nhân (nếu biết):** `배송하는 동안 깨진 것 같습니다.` · `직원의 부주의 탓에 …`\n• **Cách xử lý:** `새 제품은 오늘 바로 보내 드리겠습니다.` · `깨진 제품은 다시 보내지 않으셔도 됩니다.`\nLời xin lỗi của bên bán dùng `-아/어 드리겠습니다` (khiêm nhường, hứa làm cho khách); `탓에` chỉ dùng cho nguyên nhân phía mình, không đổ lỗi cho khách."
+    },
+    {
+      "title": "Lỗi người Việt hay mắc trong bài này",
+      "body": "• Dùng `탓에` cho kết quả tốt hoặc trung tính (phải là `덕분에` hay `때문에`).\n• Dùng `-(으)ㄴ 나머지` cho mức độ nhẹ hoặc với mệnh lệnh.\n• Dùng `-았/었더니` khi vế sau là ý định, hay khi người nói không chứng kiến kết quả.\n• `N은/는커녕` với vị ngữ khẳng định, hoặc đảo vế lớn và nhỏ.\n• Ở Viết 53: viết nhầm số lớn (`15천 건`), quên mốc đảo thứ hạng, dự báo ở quá khứ.\n• Khi khiếu nại, nói cảm xúc mà không nêu yêu cầu cụ thể.\n• Email khiếu nại mở bằng cảm xúc (✗ `너무 화가 납니다`) mà quên mã đơn hàng và yêu cầu: người đọc tìm ngay **đơn nào, lỗi gì, bạn muốn gì**.\n• Yêu cầu bằng câu mệnh lệnh trống (✗ `빨리 환불하세요`): trong email dùng `-아/어 주시기 바랍니다`, `연락 부탁드립니다`.\n• Đổi **sang** hàng mới: ✗ `새 제품에 교환` → ✓ `새 제품으로 교환`.",
+      "kind": "pitfall"
+    }
+  ],
+  "bank": "cong-so",
+  "coach": {
+    "focus_vi": [
+      "`N 탓에` chỉ nguyên nhân xấu, `덕분에` chỉ nguyên nhân tốt, `때문에` trung tính.",
+      "`-(으)ㄴ 나머지` là vì quá … nên làm việc ngoài dự tính; `-았/었더니` kể kết quả mình quan sát.",
+      "`N은/는커녕 … 도 …` đi với vị ngữ phủ định và nêu cả điều lớn lẫn điều nhỏ."
+    ],
+    "watch_out_vi": [
+      "Không dùng `탓에` cho kết quả tốt.",
+      "`N은/는커녕` luôn cần vị ngữ phủ định."
+    ],
+    "notebook_vi": [
+      "Ba cột «tốt, xấu, trung tính» với `덕분에`, `탓에`, `때문에`, mỗi cột một câu của riêng bạn.",
+      "Mẫu thư khiếu nại: viết lại bằng một chuyện thật của bạn."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Nói: vì mưa lớn nên giao hàng bị chậm.",
+        "answer": "폭우 탓에 배송이 늦어졌습니다."
+      },
+      {
+        "prompt_vi": "Nói: mở bao bì ra thì thấy thiếu một linh kiện.",
+        "answer": "포장을 열었더니 부품이 하나 빠져 있었어요."
+      }
+    ],
+    "tip_vi": "Đọc ghi chú «Đời sống: quyền lợi người tiêu dùng khi mua hàng» trước khi gọi trung tâm chăm sóc khách hàng ở Hàn Quốc."
+  },
+  "exercise_ids": [
+    "C38L1",
+    "C38L2",
+    "C38L3",
+    "C38L4",
+    "C38D1",
+    "C38D2",
+    "CU39L1",
+    "C38R1",
+    "C38R2",
+    "C38R3",
+    "C38R4",
+    "C38R5",
+    "C38R6",
+    "C38R7",
+    "C38R8",
+    "C38R9",
+    "C38R10",
+    "C38R11",
+    "C38R12",
+    "CU39R1",
+    "CSUP21",
+    "CSUP22",
+    "CSUP23",
+    "CSUP24",
+    "C38B1",
+    "C38B2",
+    "C38B3",
+    "C38B4",
+    "CU39O1",
+    "CU39O2",
+    "CU39F1",
+    "C38F1",
+    "CU39C1",
+    "CU39E1",
+    "C38W52",
+    "C38W53L",
+    "C38W53",
+    "C38S1",
+    "CU39S1"
+  ],
+  "topik2": [
+    {
+      "qid": "96-L-23",
+      "why_vi": "Khách báo với nhân viên bảo tàng rằng phần giải thích có chỗ sai; luyện nghe mục đích của người nói trong một lời phàn nàn lịch sự, cùng tình huống khiếu nại như bài này."
+    },
+    {
+      "qid": "102-L-11",
+      "why_vi": "Máy photo hỏng nên hai bạn tìm nguyên nhân (hết giấy). Câu hỏi hành động tiếp theo; từ `고장 나다` trùng với bài."
+    },
+    {
+      "qid": "102-R-15",
+      "why_vi": "Sắp xếp bốn câu về việc mua nội thất online và phí hoàn trả cao. Cùng chủ đề trả hàng, quyền lợi người tiêu dùng; luyện nhận ra «그런데», «따라서»."
+    }
+  ],
+  "editor_notes": [
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "Gói đầu ra bài 39 (O1, O2, F1, C1, E1, R1, L1, S1). Thẻ mới 18 (16 core, 2 recognize). `제품`, `배송` vốn chỉ là thẻ bài 67, nay dạy lần đầu ở đây; `포장` (bài 67) dạy ở đây qua cụm `포장을 열다`. Mã đơn hàng, tên người, ngày tháng trong bài mẫu/đọc/nghe là chi tiết tự soạn. C38S1 (đổi hàng tại cửa hàng) vẫn giữ; CU39S1 là phiên bản gọi điện của Bước 5. Bài mẫu tránh `-아/어 있다` (chưa là thẻ ngữ pháp ở đâu) bằng `깨진 상태였습니다`."
+    }
+  ]
+}

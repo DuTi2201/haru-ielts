@@ -1,0 +1,282 @@
+{
+  "lesson": "nhap-canh-02-nhap-canh-hai-quan",
+  "items": [
+    {
+      "id": "nhap-canh-02-d1",
+      "kind": "dialogue",
+      "title_ko": "입국 심사대에서",
+      "title_vi": "Ở quầy kiểm tra nhập cảnh",
+      "scene_vi": "Một du học sinh (F) lần đầu đến Hàn Quốc, đang làm thủ tục ở quầy kiểm tra nhập cảnh. 심사관 (M) hỏi một vài câu.",
+      "speakers": {
+        "F": "유학생",
+        "M": "심사관"
+      },
+      "lines": [
+        {
+          "who": "M",
+          "ko": "여권을 주세요. 한국에는 무슨 일로 오셨어요?",
+          "vi": "Xin cho xem hộ chiếu. Chị đến Hàn Quốc vì việc gì?"
+        },
+        {
+          "who": "F",
+          "ko": "한국어를 배우러 왔어요. 어학연수를 받으려고 해요.",
+          "vi": "Tôi đến để học tiếng Hàn. Tôi định tham gia một khóa học ngôn ngữ."
+        },
+        {
+          "who": "M",
+          "ko": "입학허가서가 있어요?",
+          "vi": "Chị có thư chấp nhận nhập học không?"
+        },
+        {
+          "who": "F",
+          "ko": "네, 여기 있어요. 기숙사에서 지낼 거예요.",
+          "vi": "Có, đây ạ. Tôi sẽ ở ký túc xá."
+        },
+        {
+          "who": "M",
+          "ko": "지문을 찍겠습니다. 여기에 손가락을 올려 주세요.",
+          "vi": "Tôi sẽ lấy dấu vân tay. Xin đặt ngón tay lên đây."
+        },
+        {
+          "who": "F",
+          "ko": "네. 사진도 찍어요?",
+          "vi": "Vâng. Chụp ảnh nữa phải không ạ?"
+        },
+        {
+          "who": "M",
+          "ko": "네, 카메라를 보세요. 입국 심사가 끝났습니다.",
+          "vi": "Vâng, xin nhìn vào máy ảnh. Thủ tục kiểm tra nhập cảnh đã xong."
+        },
+        {
+          "who": "F",
+          "ko": "한국은 처음이라서 잘 몰라요. 짐을 찾으러 가도 돼요?",
+          "vi": "Vì lần đầu đến Hàn Quốc nên tôi chưa rành lắm. Tôi đi lấy hành lý được chưa ạ?"
+        },
+        {
+          "who": "M",
+          "ko": "네, 수하물 수취대로 가세요. 여권은 잘 보관하세요. 잃어버리면 안 돼요.",
+          "vi": "Vâng, chị đến khu băng chuyền hành lý nhé. Hãy giữ hộ chiếu cẩn thận. Không được làm mất đâu."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -(으)러 가다/오다/다니다",
+          "regex": "배우러 왔어요|찾으러 가도"
+        },
+        {
+          "pattern": "V + -(으)려고",
+          "regex": "받으려고"
+        },
+        {
+          "pattern": "V/A + -아/어서 · N + (이)라서",
+          "regex": "처음이라서"
+        },
+        {
+          "pattern": "V + -아/어도 되다 · V + -(으)면 안 되다",
+          "regex": "가도 돼요|잃어버리면 안 돼요"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "여권",
+          "seen": "여권을"
+        },
+        {
+          "word": "어학연수",
+          "seen": "어학연수를"
+        },
+        {
+          "word": "입학허가서",
+          "seen": "입학허가서가"
+        },
+        {
+          "word": "기숙사",
+          "seen": "기숙사에서"
+        },
+        {
+          "word": "지내다",
+          "seen": "지낼"
+        },
+        {
+          "word": "지문",
+          "seen": "지문을"
+        },
+        {
+          "word": "찍다",
+          "seen": "찍겠습니다"
+        },
+        {
+          "word": "수하물 수취대",
+          "seen": "수하물 수취대로"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "보관하다",
+          "vi": "giữ gìn, cất giữ",
+          "seen": "보관하세요"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Bạn du học sinh đến Hàn Quốc để làm gì?",
+          "options": [
+            "Đi du lịch",
+            "Học tiếng Hàn",
+            "Đi làm"
+          ],
+          "answer": 1,
+          "explain_vi": "Cô nói “한국어를 배우러 왔어요. 어학연수를 받으려고 해요”: đến để học tiếng Hàn."
+        },
+        {
+          "q_vi": "Sau khi xong thủ tục, cô được phép làm gì?",
+          "options": [
+            "Đi lấy hành lý",
+            "Đổi tiền ngay",
+            "Về ký túc xá luôn"
+          ],
+          "answer": 0,
+          "explain_vi": "Cô hỏi “짐을 찾으러 가도 돼요?” và 심사관 trả lời “네, 수하물 수취대로 가세요”."
+        },
+        {
+          "q_vi": "심사관 dặn cô điều gì về hộ chiếu?",
+          "options": [
+            "Gửi lại cho trường",
+            "Giữ cẩn thận, không được làm mất",
+            "Photo mười bản"
+          ],
+          "answer": 1,
+          "explain_vi": "“여권은 잘 보관하세요. 잃어버리면 안 돼요”: giữ hộ chiếu cẩn thận, không được làm mất."
+        }
+      ]
+    },
+    {
+      "id": "nhap-canh-02-r1",
+      "kind": "reading",
+      "title_ko": "입국 심사 안내",
+      "title_vi": "Hướng dẫn kiểm tra nhập cảnh",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "한국에 오면 먼저 입국 심사를 받습니다.",
+          "vi": "Khi đến Hàn Quốc, trước hết bạn sẽ làm thủ tục kiểm tra nhập cảnh."
+        },
+        {
+          "who": "N",
+          "ko": "여권과 입학허가서를 보여 주고 지문을 찍습니다.",
+          "vi": "Bạn đưa hộ chiếu và thư nhập học để xem, rồi lấy dấu vân tay."
+        },
+        {
+          "who": "N",
+          "ko": "유학하러 온 학생은 입학허가서를 꼭 준비하세요.",
+          "vi": "Sinh viên đến để du học nhất định hãy chuẩn bị thư chấp nhận nhập học."
+        },
+        {
+          "who": "N",
+          "ko": "입국 목적이 유학이라서 비자가 필요합니다.",
+          "vi": "Vì mục đích nhập cảnh là du học nên cần có thị thực."
+        },
+        {
+          "who": "N",
+          "ko": "심사관은 체류 자격과 체류 기간을 확인합니다.",
+          "vi": "Nhân viên kiểm tra sẽ xác nhận tư cách lưu trú và thời hạn lưu trú."
+        },
+        {
+          "who": "N",
+          "ko": "심사 중에는 휴대폰으로 통화하면 안 됩니다.",
+          "vi": "Trong lúc kiểm tra, không được nói chuyện điện thoại."
+        },
+        {
+          "who": "N",
+          "ko": "심사가 끝나면 짐을 찾으러 가도 됩니다.",
+          "vi": "Kiểm tra xong thì bạn có thể đi lấy hành lý."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -(으)러 가다/오다/다니다",
+          "regex": "유학하러 온|찾으러 가도"
+        },
+        {
+          "pattern": "V/A + -아/어서 · N + (이)라서",
+          "regex": "유학이라서"
+        },
+        {
+          "pattern": "V + -아/어도 되다 · V + -(으)면 안 되다",
+          "regex": "통화하면 안 됩니다|가도 됩니다"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "입국 심사",
+          "seen": "입국 심사를"
+        },
+        {
+          "word": "여권",
+          "seen": "여권과"
+        },
+        {
+          "word": "입학허가서",
+          "seen": "입학허가서"
+        },
+        {
+          "word": "지문",
+          "seen": "지문을"
+        },
+        {
+          "word": "입국 목적",
+          "seen": "입국 목적이"
+        },
+        {
+          "word": "비자",
+          "seen": "비자가"
+        },
+        {
+          "word": "체류 자격",
+          "seen": "체류 자격과"
+        },
+        {
+          "word": "체류 기간",
+          "seen": "체류 기간을"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "심사관",
+          "vi": "nhân viên kiểm tra, thẩm tra viên"
+        },
+        {
+          "ko": "통화하다",
+          "vi": "nói chuyện điện thoại",
+          "seen": "통화하면"
+        },
+        {
+          "ko": "심사",
+          "vi": "việc kiểm tra, thẩm tra"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Sau khi kiểm tra nhập cảnh xong thì bạn được phép làm gì?",
+          "options": [
+            "Đi lấy hành lý",
+            "Gọi điện thoại cho trường",
+            "Cất hộ chiếu vào hành lý ký gửi"
+          ],
+          "answer": 0,
+          "explain_vi": "“심사가 끝나면 짐을 찾으러 가도 됩니다”: kiểm tra xong thì được đi lấy hành lý."
+        },
+        {
+          "q_vi": "Trong lúc đang kiểm tra nhập cảnh, điều nào không được làm?",
+          "options": [
+            "Đưa hộ chiếu",
+            "Nói chuyện điện thoại",
+            "Lấy dấu vân tay"
+          ],
+          "answer": 1,
+          "explain_vi": "“휴대폰으로 통화하면 안 됩니다”: không được nói chuyện điện thoại trong lúc kiểm tra."
+        }
+      ]
+    }
+  ]
+}

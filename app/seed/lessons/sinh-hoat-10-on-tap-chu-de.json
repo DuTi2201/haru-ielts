@@ -1,0 +1,1187 @@
+{
+  "slug": "sinh-hoat-10-on-tap-chu-de",
+  "title": "Ôn tập chủ đề: Sinh hoạt hàng ngày",
+  "title_ko": "주제 복습: 일상생활",
+  "topic": "Sinh hoạt hàng ngày",
+  "track": "intermediate",
+  "level": 2,
+  "sort_order": 27,
+  "kind": "review",
+  "bank": "",
+  "summary": "Bản đồ 102 mẫu ngữ pháp của chủ đề Sinh hoạt hàng ngày theo 15 chức năng (khi nào dùng cái nào), bộ thi thử 44 câu trộn lẫn các bài, và bài tổng hợp Viết 54 + Nói S6.",
+  "coach": {
+    "goal_vi": "Nhìn lại cả chủ đề Sinh hoạt hàng ngày: chọn đúng mẫu ngữ pháp cho việc muốn nói, rồi tự kiểm tra bằng thi thử.",
+    "focus_vi": [
+      "Bản đồ chức năng: tìm theo việc muốn nói (lý do, trình tự, rủ rê…) rồi xem các mẫu ở đó.",
+      "Bộ thi thử: làm một lượt như thi thật, xong mới xem đáp án và các câu sai.",
+      "Bài tổng hợp cuối: viết một đoạn và nói một đoạn, dùng đủ số mẫu bắt buộc."
+    ],
+    "watch_out_vi": [
+      "Các cặp gần nghĩa hay nhầm: `-아/어서` và `-(으)니까`, `-고 나서` và `-고 나면`; mở phần so sánh trong thẻ ngữ pháp."
+    ],
+    "notebook_vi": [
+      "Mỗi mẫu bạn hay nhầm: 1 câu đúng, 1 câu sai (✗) và lý do."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Chọn một chức năng (ví dụ nguyên nhân – kết quả) và nói 3 câu, mỗi câu dùng một mẫu khác nhau."
+      }
+    ],
+    "tip_vi": "Làm thi thử một mạch không dừng, rồi mới xem lại; chép các câu sai vào Sổ lỗi sai để ôn sau."
+  },
+  "exercise_ids": [
+    "VL01",
+    "VL02",
+    "VL03",
+    "VL04",
+    "VLN01",
+    "VLN02",
+    "VLN03",
+    "VLN04",
+    "VLN05",
+    "VLN06",
+    "VLN07",
+    "VLN08",
+    "VLN09",
+    "VLN10",
+    "VLN11",
+    "VLN12",
+    "VLN13",
+    "VLN14",
+    "VLN15",
+    "VLN16",
+    "VLN17",
+    "VLN18",
+    "VLN19",
+    "VLN20",
+    "VLN21",
+    "VLN22",
+    "VLN23",
+    "VLN24",
+    "VLN25",
+    "VLN26",
+    "D01",
+    "D02",
+    "D03",
+    "VR01",
+    "VR02",
+    "VR03",
+    "VR04",
+    "VR05",
+    "VR06",
+    "VR07",
+    "VR08",
+    "VR09",
+    "VR10",
+    "VR11",
+    "VR12",
+    "VR13",
+    "VR14",
+    "VR15",
+    "VR16",
+    "VR17",
+    "VR18",
+    "VR19",
+    "VR20",
+    "VR21",
+    "VR22",
+    "VR23",
+    "VR24",
+    "VR25",
+    "VR26",
+    "VR27",
+    "VR28",
+    "VR29",
+    "VR30",
+    "VR31",
+    "VR32",
+    "VR33",
+    "VR34",
+    "VR35",
+    "VR36",
+    "VR37",
+    "VR38",
+    "VR39",
+    "VR40",
+    "VW54",
+    "VS6"
+  ],
+  "review": {
+    "functions": [
+      {
+        "id": "co-ban-la-chu-de",
+        "title_vi": "Cơ bản · 'là', chủ đề, chủ ngữ & câu hỏi",
+        "summary_vi": "Giới thiệu A là B, chỉ vật gần hay xa, gắn tiểu từ chủ đề hay chủ ngữ cho đúng, hỏi thông tin, nói 'của' và dẫn tên gọi.",
+        "patterns": [
+          "N + 이에요/예요 · N + 이/가 아니에요",
+          "N + 은/는",
+          "N + 이/가",
+          "이/그/저 + N · 이것/그것/저것 · 여기/거기/저기",
+          "Từ để hỏi: 누구 · 뭐 · 어디 · 언제 · 왜 · 어떻게 · 무슨 · 어느 · 몇 · 얼마",
+          "N + 의",
+          "N + (이)라고 하다",
+          "V + -나요? · A + -(으)ㄴ가요?"
+        ],
+        "rules": [
+          {
+            "when_vi": "Nói 'A là B' hoặc 'A không phải B': `저는 의사( )`",
+            "use": [
+              "N + 이에요/예요 · N + 이/가 아니에요"
+            ],
+            "note_vi": "Danh từ có patchim + `이에요`, không patchim + `예요`. Phủ định là `N이/가 아니에요`, và danh từ bị phủ định nhận `이/가`: `저는 학생이 아니에요`."
+          },
+          {
+            "when_vi": "Chọn tiểu từ cho CHỦ ĐỀ (điều đang nói tới, đối chiếu) hay cho CHỦ NGỮ MỚI (trả lời `누가`)",
+            "use": [
+              "N + 은/는",
+              "N + 이/가"
+            ],
+            "note_vi": "`은/는` đặt đối tượng làm chủ đề hoặc để đối chiếu. `이/가` chỉ chủ thể mới xuất hiện, hoặc chủ thể được hỏi: `누가 왔어요? — 민수 씨가 왔어요.`"
+          },
+          {
+            "when_vi": "Chỉ vật, người, nơi chốn gần hay xa: `( ) 책`, `( )에 있어요`",
+            "use": [
+              "이/그/저 + N · 이것/그것/저것 · 여기/거기/저기"
+            ],
+            "note_vi": "`이` gần người nói, `그` gần người nghe hoặc vừa được nhắc tới, `저` xa cả hai. Đứng trước danh từ thì dùng `이 책`; đứng một mình thì `이것`."
+          },
+          {
+            "when_vi": "Hỏi người, vật, nơi chốn, thời gian, lý do, số lượng, giá",
+            "use": [
+              "Từ để hỏi: 누구 · 뭐 · 어디 · 언제 · 왜 · 어떻게 · 무슨 · 어느 · 몇 · 얼마"
+            ],
+            "note_vi": "Từ để hỏi đứng đúng vị trí của thông tin cần biết, và câu trả lời thay đúng chỗ đó."
+          },
+          {
+            "when_vi": "Nói 'của' (sở hữu) hoặc dẫn tên gọi: 'tên tôi là …', 'gọi là …'",
+            "use": [
+              "N + 의",
+              "N + (이)라고 하다"
+            ],
+            "note_vi": "`의` nối hai danh từ (lời nói hay rút `저의` → `제`, `나의` → `내`). `(이)라고 하다` dẫn tên hoặc cách gọi: `이름은 민수라고 해요`."
+          }
+        ],
+        "pitfalls_vi": [
+          "Chọn sai biến thể: ✗ `학생예요`, `의사이에요` → `학생이에요`, `의사예요`.",
+          "Dùng `은/는` cho chủ ngữ mới khi bị hỏi `누가`: ✗ `민수 씨는 왔어요` → `민수 씨가 왔어요`.",
+          "Nhầm `이 + N` với `이것`: ✗ `이것 책` → `이 책`, hoặc `이것은 책이에요`."
+        ]
+      },
+      {
+        "id": "co-ban-hanh-dong-noi-chon",
+        "title_vi": "Cơ bản · hành động, nơi chốn & tiểu từ",
+        "summary_vi": "Kể việc làm bằng đuôi `-아/어요`, gắn tân ngữ, nơi chốn và sự tồn tại, thêm ý 'cũng' hay 'chỉ', rồi nối danh từ bằng 'và' hoặc 'hoặc'.",
+        "patterns": [
+          "V/A + -아/어요",
+          "N + 을/를",
+          "N + 이/가 있다 · 없다 / N + 에 있다 · 없다",
+          "N(Nơi chốn) + 에",
+          "N + 에서",
+          "N + 도",
+          "N + 만",
+          "N + 와/과 · 하고 · (이)랑",
+          "N + (이)나 (hoặc · tận)"
+        ],
+        "rules": [
+          {
+            "when_vi": "Chia đuôi lịch sự để kể, hỏi và trả lời việc hằng ngày",
+            "use": [
+              "V/A + -아/어요"
+            ],
+            "note_vi": "Nguyên âm cuối của gốc là `ㅏ/ㅗ` + `-아요`, còn lại + `-어요`; `하다` → `해요`; gộp nguyên âm: 가다 → `가요`, 오다 → `와요`."
+          },
+          {
+            "when_vi": "Nêu đối tượng của hành động: ăn gì, xem gì, gặp ai",
+            "use": [
+              "N + 을/를"
+            ],
+            "note_vi": "`을` sau patchim, `를` sau nguyên âm. `가다/오다` đi với nơi đến thì dùng `에`, không dùng `을/를`."
+          },
+          {
+            "when_vi": "Nói ở đâu có gì, ai ở đâu, đi đến đâu và làm việc ở đâu",
+            "use": [
+              "N + 이/가 있다 · 없다 / N + 에 있다 · 없다",
+              "N(Nơi chốn) + 에",
+              "N + 에서"
+            ],
+            "note_vi": "`에` chỉ đích đến hoặc vị trí tồn tại (`학교에 가요`, `집에 있어요`). `에서` chỉ nơi diễn ra hành động (`도서관에서 공부해요`)."
+          },
+          {
+            "when_vi": "Thêm ý 'cũng' hoặc giới hạn 'chỉ'",
+            "use": [
+              "N + 도",
+              "N + 만"
+            ],
+            "note_vi": "`도` thay cho `이/가`, `은/는`, `을/를`; `만` nhấn 'chỉ'. Với nơi chốn có thể ghép: `집에서도`, `집에서만`."
+          },
+          {
+            "when_vi": "Nối hai danh từ: 'và/cùng' hay 'hoặc, tận'",
+            "use": [
+              "N + 와/과 · 하고 · (이)랑",
+              "N + (이)나 (hoặc · tận)"
+            ],
+            "note_vi": "`하고/와/과/(이)랑` nối cả hai (và, cùng). `(이)나` chọn MỘT trong hai (hoặc) hay nhấn 'tận' sau số lượng: `커피나 차`, `세 잔이나`."
+          }
+        ],
+        "pitfalls_vi": [
+          "Dùng `에` cho nơi diễn ra hành động: ✗ `도서관에 공부해요` → `도서관에서 공부해요`.",
+          "Gắn `을/를` cho nơi đến: ✗ `학교를 가요` (chuẩn mực viết và thi) → `학교에 가요`.",
+          "Dùng `하고` khi muốn nói 'hoặc': ✗ `커피하고 차를 마실까요?` → `커피나 차를 마실까요?`."
+        ]
+      },
+      {
+        "id": "co-ban-chia-dong-tu",
+        "title_vi": "Cơ bản · chia động từ: thì, trang trọng, phủ định & bất quy tắc",
+        "summary_vi": "Quá khứ, lối nói trang trọng, phủ định (không làm / không làm được), quyết tâm hay phỏng đoán với `-겠-`, và sáu nhóm bất quy tắc phải thuộc ngay từ đầu.",
+        "patterns": [
+          "V/A + -았/었- · N + 였/이었어요",
+          "V/A + -ㅂ/습니다 · -ㅂ/습니까?",
+          "V/A + -지 않다 · V + -지 못하다",
+          "V/A + -겠-",
+          "ㄷ bất quy tắc (듣다 · 걷다 · 묻다)",
+          "ㄹ 탈락 (살다 · 알다 · 만들다 · 놀다)",
+          "르 bất quy tắc (모르다 · 부르다 · 다르다 · 빠르다)",
+          "ㅎ bất quy tắc (그렇다 · 어떻다 · 파랗다 · 하얗다)",
+          "ㅅ bất quy tắc (낫다 · 짓다)",
+          "ㅂ bất quy tắc (덥다 · 춥다 · 맵다 · 어렵다 · 돕다)",
+          "ㅡ 탈락 (크다 · 쓰다 · 바쁘다 · 예쁘다)"
+        ],
+        "rules": [
+          {
+            "when_vi": "Kể việc đã xảy ra hay trạng thái trong quá khứ",
+            "use": [
+              "V/A + -았/었- · N + 였/이었어요"
+            ],
+            "note_vi": "Thêm `-았/었-` trước đuôi, bắt buộc kể cả khi đã có `어제`. Danh từ: `의사였어요`, `학생이었어요`."
+          },
+          {
+            "when_vi": "Nói trang trọng: giới thiệu, thông báo, phỏng vấn, phát biểu",
+            "use": [
+              "V/A + -ㅂ/습니다 · -ㅂ/습니까?",
+              "V/A + -았/었- · N + 였/이었어요"
+            ],
+            "note_vi": "Gốc không patchim (hoặc ㄹ) + `-ㅂ니다`, có patchim + `-습니다`; hỏi `-ㅂ/습니까?`; quá khứ `-았/었습니다`."
+          },
+          {
+            "when_vi": "Nói KHÔNG làm hoặc KHÔNG làm được",
+            "use": [
+              "V/A + -지 않다 · V + -지 못하다"
+            ],
+            "note_vi": "`안` / `-지 않다`: không làm hay không có tính chất đó. `못` / `-지 못하다`: muốn làm nhưng không được; chỉ đi với động từ."
+          },
+          {
+            "when_vi": "Nói quyết tâm của mình, phỏng đoán điều vừa thấy, hay lịch sự trong phục vụ",
+            "use": [
+              "V/A + -겠-"
+            ],
+            "note_vi": "`-겠-` đứng sau gốc, trước đuôi: `제가 하겠습니다` (quyết tâm), `맛있겠어요` (phỏng đoán), `알겠습니다` (lịch sự: tôi đã hiểu)."
+          },
+          {
+            "when_vi": "Gốc kết thúc bằng ㄷ, ㅅ hoặc ㅂ gặp nguyên âm",
+            "use": [
+              "ㄷ bất quy tắc (듣다 · 걷다 · 묻다)",
+              "ㅅ bất quy tắc (낫다 · 짓다)",
+              "ㅂ bất quy tắc (덥다 · 춥다 · 맵다 · 어렵다 · 돕다)"
+            ],
+            "note_vi": "ㄷ → ㄹ (`들어요`), ㅅ rụng (`나아요`), ㅂ → `우/와` (`더워요`, `도와요`). Trước phụ âm thì giữ nguyên: `듣고`, `덥고`."
+          },
+          {
+            "when_vi": "Gốc là ㄹ, 르 hoặc ㅎ",
+            "use": [
+              "ㄹ 탈락 (살다 · 알다 · 만들다 · 놀다)",
+              "르 bất quy tắc (모르다 · 부르다 · 다르다 · 빠르다)",
+              "ㅎ bất quy tắc (그렇다 · 어떻다 · 파랗다 · 하얗다)"
+            ],
+            "note_vi": "ㄹ bỏ trước `ㄴ/ㅂ/ㅅ/오` (`삽니다`, `사는`). `르` + `-아/어` → `ㄹ라/ㄹ러` (`몰라요`). ㅎ rụng và đổi nguyên âm (`그래요`, `파래요`)."
+          }
+        ],
+        "pitfalls_vi": [
+          "Chia bất quy tắc như thường: ✗ `듣어요`, `덥어요`, `낫아요` → `들어요`, `더워요`, `나아요`.",
+          "Đổi nhầm những từ vốn chia bình thường: `받다 → 받아요`, `닫다 → 닫아요`, `입다 → 입어요`, `좁다 → 좁아요` KHÔNG biến đổi.",
+          "Chọn sai đuôi trang trọng: ✗ `가습니다`, `먹읍니다` → `갑니다`, `먹습니다`.",
+          "Dùng `못` với tính từ: ✗ `못 예뻐요` → `안 예뻐요` hoặc `예쁘지 않아요`."
+        ]
+      },
+      {
+        "id": "co-ban-so-gio-ngay",
+        "title_vi": "Cơ bản · số đếm, giờ, ngày & tiền",
+        "summary_vi": "Chọn đúng hệ số (thuần Hàn hay Hán-Hàn) cho từng đơn vị đếm, rồi hỏi và đáp về giờ, ngày, tuổi, số người, giá.",
+        "patterns": [
+          "Số Hán-Hàn (일 · 이 · 삼) + 년 · 월 · 일 · 분 · 원 · 층 · 번",
+          "Số thuần Hàn (하나 · 둘 · 셋) + 시 · 개 · 명 · 살 · 잔 · 권 · 마리 · 번",
+          "Hỏi & đáp về số: 몇 시 · 며칠 · 무슨 요일 · 몇 살 · 몇 명 · 얼마"
+        ],
+        "rules": [
+          {
+            "when_vi": "Đếm người, vật, tuổi, số lần và nói GIỜ",
+            "use": [
+              "Số thuần Hàn (하나 · 둘 · 셋) + 시 · 개 · 명 · 살 · 잔 · 권 · 마리 · 번"
+            ],
+            "note_vi": "`한, 두, 세, 네, 스무` đứng trước đơn vị đếm. Giờ dùng số thuần Hàn (`세 시`), nhưng phút lại dùng Hán-Hàn (`십 분`)."
+          },
+          {
+            "when_vi": "Nói năm, tháng, ngày, phút, tiền, tầng, số điện thoại",
+            "use": [
+              "Số Hán-Hàn (일 · 이 · 삼) + 년 · 월 · 일 · 분 · 원 · 층 · 번"
+            ],
+            "note_vi": "Tháng 6 và tháng 10 viết `유월`, `시월`. Tiền: `오천 원`, `만 이천 원`."
+          },
+          {
+            "when_vi": "Hỏi mấy giờ, ngày mấy, thứ mấy, bao nhiêu tuổi, mấy người, bao nhiêu tiền",
+            "use": [
+              "Hỏi & đáp về số: 몇 시 · 며칠 · 무슨 요일 · 몇 살 · 몇 명 · 얼마",
+              "Số thuần Hàn (하나 · 둘 · 셋) + 시 · 개 · 명 · 살 · 잔 · 권 · 마리 · 번"
+            ],
+            "note_vi": "Từ để hỏi quyết định hệ số của câu đáp: `몇 시` → số thuần Hàn + `시`, `며칠`/`얼마` → Hán-Hàn."
+          }
+        ],
+        "pitfalls_vi": [
+          "Trộn hai hệ số: ✗ `삼 시`, `세 분 이십` → `세 시`, `삼 분`.",
+          "Không rút gọn số thuần Hàn trước đơn vị: ✗ `하나 명`, `둘 개`, `스물 살` → `한 명`, `두 개`, `스무 살`.",
+          "Đọc sai tháng 6 và 10: ✗ `육월`, `십월` → `유월`, `시월`."
+        ]
+      },
+      {
+        "id": "co-ban-bo-nghia-danh-tu-hoa",
+        "title_vi": "Cơ bản · bổ nghĩa danh từ, danh từ hoá & phó từ",
+        "summary_vi": "Biến động từ, tính từ thành định ngữ trước danh từ, biến cả vế câu thành danh từ, và dùng `-게` để bổ nghĩa cho động từ.",
+        "patterns": [
+          "V + -는 + N · A + -(으)ㄴ + N (hiện tại)",
+          "V + -(으)ㄴ + N (quá khứ)",
+          "V + -(으)ㄹ + N (dự định · sắp xảy ra)",
+          "V + -는 것 · V + -기 (danh từ hoá)",
+          "V/A + -(으)ㅁ (danh từ hoá văn viết)",
+          "A + -게 (phó từ hoá)"
+        ],
+        "rules": [
+          {
+            "when_vi": "Bổ nghĩa cho danh từ bằng việc đang làm, thói quen hay tính chất: `먹는 음식`, `예쁜 옷`",
+            "use": [
+              "V + -는 + N · A + -(으)ㄴ + N (hiện tại)"
+            ],
+            "note_vi": "Động từ + `-는`; tính từ + `-(으)ㄴ`. Gốc ㄹ bỏ ㄹ: `사는 집`, `긴 머리`."
+          },
+          {
+            "when_vi": "Bổ nghĩa bằng việc ĐÃ xảy ra hoặc SẮP xảy ra: `어제 먹은 음식`, `내일 만날 사람`",
+            "use": [
+              "V + -(으)ㄴ + N (quá khứ)",
+              "V + -(으)ㄹ + N (dự định · sắp xảy ra)"
+            ],
+            "note_vi": "Quá khứ dùng `-(으)ㄴ`, dự định dùng `-(으)ㄹ`. Cùng một hình `-(으)ㄴ` nhưng tính từ thì nghĩa hiện tại."
+          },
+          {
+            "when_vi": "Biến cả vế câu thành danh từ để làm chủ ngữ hoặc tân ngữ: `운동하는 것을 좋아해요`",
+            "use": [
+              "V + -는 것 · V + -기 (danh từ hoá)",
+              "V/A + -(으)ㅁ (danh từ hoá văn viết)"
+            ],
+            "note_vi": "`-는 것` dùng được rộng rãi trong lời nói; `-기` đi với một số vị ngữ (`쉽다`, `어렵다`, `좋다`) và nhiều mẫu cố định (`-기 전에`); `-(으)ㅁ` chủ yếu ở văn viết và thông báo."
+          },
+          {
+            "when_vi": "Bổ nghĩa cho ĐỘNG TỪ để nói cách làm: `맛있게 먹어요`",
+            "use": [
+              "A + -게 (phó từ hoá)"
+            ],
+            "note_vi": "`-게` gắn vào tính từ, không đổi theo patchim, giữ nguyên ㅂ: `맵게`, `춥게`."
+          }
+        ],
+        "pitfalls_vi": [
+          "Dùng dạng hiện tại cho việc đã xảy ra: ✗ `어제 먹는 음식` → `어제 먹은 음식`.",
+          "Dùng `-게` trước danh từ: ✗ `맛있게 음식` → `맛있는 음식` (`-게` chỉ bổ nghĩa cho động từ).",
+          "Gắn `-는` sau tính từ: ✗ `예쁜는 옷`, `좋는 사람` → `예쁜 옷`, `좋은 사람`."
+        ]
+      },
+      {
+        "id": "thoi-diem-trinh-tu",
+        "title_vi": "Thời điểm & trình tự",
+        "summary_vi": "Nói khi nào làm (mốc giờ, khoảng thời gian), làm trước hay sau, nối tiếp hay đồng thời, và hệ quả khi làm xong hoặc làm liên tục.",
+        "patterns": [
+          "N(Thời gian) + 에",
+          "N1(Thời gian)부터 N2(Thời gian)까지",
+          "V + -기 전에",
+          "V + -고",
+          "V + -고 나면",
+          "V + -(으)면서",
+          "V + -다 보면",
+          "V + -아/어 가지고",
+          "V/A + -(으)ㄹ 때",
+          "V + -는 동안",
+          "V + -고 나서 · V + -(으)ㄴ 후에",
+          "N + 마다",
+          "N + 쯤"
+        ],
+        "rules": [
+          {
+            "when_vi": "Nói mốc giờ xảy ra việc (`6시`) hay khoảng thời gian 'từ … đến …' (`9시 ~ 1시`)",
+            "use": [
+              "N(Thời gian) + 에",
+              "N1(Thời gian)부터 N2(Thời gian)까지"
+            ],
+            "note_vi": "`N(Thời gian) + 에` chỉ MỘT mốc thời điểm (`6시에`); có điểm bắt đầu và kết thúc thì dùng `N1부터 N2까지` (`9시부터 1시까지`)."
+          },
+          {
+            "when_vi": "Kể hai việc nối tiếp (A rồi B), hay nhấn mạnh B làm TRƯỚC khi A: `출근하( )단어를 외워요`",
+            "use": [
+              "V + -기 전에",
+              "V + -고"
+            ],
+            "note_vi": "`-고` nối hai việc đúng thứ tự thời gian (A rồi B); `-기 전에` gắn vào việc xảy ra SAU: `출근하기 전에 단어를 외워요` = học từ trước rồi mới đi làm, hai việc không trùng nhau."
+          },
+          {
+            "when_vi": "Hai việc xảy ra ĐỒNG THỜI và cùng chủ ngữ: 'vừa … vừa …'",
+            "use": [
+              "V + -(으)면서",
+              "V + -고"
+            ],
+            "note_vi": "`-(으)면서` là hai việc cùng lúc, bắt buộc cùng chủ ngữ, chỉ chia thì ở vế sau. `-고` dễ bị hiểu là 'làm xong A rồi mới B'. Khác chủ ngữ thì dùng `-는 동안`."
+          },
+          {
+            "when_vi": "Vế sau là kết quả/cảm giác sẽ đến: sau khi XONG hẳn việc A, hay khi CỨ làm A liên tục",
+            "use": [
+              "V + -고 나면",
+              "V + -다 보면"
+            ],
+            "note_vi": "`-고 나면`: việc đã hoàn tất rồi mới có kết quả (`운동을 하고 나면 기분이 좋아져요`). `-다 보면`: việc lặp lại/kéo dài rồi kết quả đến dần. Chỉ gắn động từ, không gắn `-았/었-`."
+          },
+          {
+            "when_vi": "Làm A rồi MANG kết quả theo để làm B (mua rồi mang về, đổi rồi mang về): `우유를 사( )집에 갔어요`",
+            "use": [
+              "V + -아/어 가지고",
+              "V + -고"
+            ],
+            "note_vi": "`-아/어 가지고` nhấn việc cầm/mang kết quả đi tiếp, thiên về khẩu ngữ; `-고` chỉ nối hai việc độc lập. Không chia thì trước nó (✗ `샀어 가지고`). Trong bài viết trang trọng nên dùng `-아/어서`."
+          },
+          {
+            "when_vi": "Nói 'khi' làm gì: một lúc cụ thể, hay suốt quãng thời gian một việc đang diễn ra",
+            "use": [
+              "V/A + -(으)ㄹ 때",
+              "V + -는 동안"
+            ],
+            "note_vi": "`-(으)ㄹ 때` chỉ một thời điểm (`피곤할 때`, `출근할 때`); việc đã xong thì `-았/었을 때`. `-는 동안` là suốt quãng thời gian một việc đang diễn ra, hai chủ ngữ có thể khác nhau (`엄마가 요리하는 동안 저는 청소했어요`)."
+          },
+          {
+            "when_vi": "Việc A xong hẳn rồi mới đến việc B",
+            "use": [
+              "V + -고 나서 · V + -(으)ㄴ 후에",
+              "V + -고",
+              "V + -고 나면"
+            ],
+            "note_vi": "`-고 나서` / `-(으)ㄴ 후에` nhấn việc trước đã kết thúc rồi mới đến việc sau và đều kể việc có thật. `-고` chỉ nối; `-고 나면` nói điều sẽ xảy ra sau khi xong. Hai dạng này không thêm `-았/었-` ở vế trước."
+          },
+          {
+            "when_vi": "Nói 'mỗi', 'cứ mỗi …': thói quen đều đặn hay chu kỳ lặp lại (`아침마다`, `십 분마다`)",
+            "use": [
+              "N + 마다",
+              "N(Thời gian) + 에"
+            ],
+            "note_vi": "`마다` = mỗi lần, mỗi đơn vị đều như vậy; `에` chỉ MỘT mốc. `아침마다` = sáng nào cũng, `아침에` = vào buổi sáng."
+          }
+        ],
+        "pitfalls_vi": [
+          "Thêm `-았/었-` vào trước `-고 나면`, `-다 보면` hoặc vào vế trước của `-(으)면서` khi nói 'vừa … vừa …' (✗ 먹었으면서, 했다 보면): thì chỉ chia ở vế sau hoặc ở cuối câu.",
+          "Dịch 'vừa … vừa …' thành `-고`: `밥을 먹고 TV를 봐요` nghĩa là ăn xong rồi mới xem TV.",
+          "Dùng `-고 나면`/`-다 보면` cho việc đã xảy ra một lần trong quá khứ (✗ 어제 일하다 보면 늦었다): chuyện đã qua dùng `-고 나서`, `-다 보니(까)`.",
+          "Dùng `-아/어 가지고` nghĩa nguyên nhân rồi đặt mệnh lệnh hoặc rủ rê ở vế sau (✗ `비가 와 가지고 우산을 가져가세요`); hoặc chia quá khứ trước nó (✗ `샀어 가지고`).",
+          "Gắn `-았/었-` vào `-는 동안` (✗ `먹었는 동안`), hoặc dùng `-(으)면서` khi hai việc do hai người khác nhau làm: phải dùng `-는 동안`."
+        ]
+      },
+      {
+        "id": "di-chuyen-thoi-gian-chi-phi",
+        "title_vi": "Di chuyển, thời gian & chi phí",
+        "summary_vi": "Nói đi bằng gì hay về hướng nào, đi để làm gì, làm thêm việc dọc đường, và mất bao nhiêu thời gian hay tiền để làm một việc.",
+        "patterns": [
+          "N + (으)로",
+          "V + -는 길에",
+          "V + -는 데 걸리다/들다",
+          "V + -(으)러 가다/오다",
+          "N1에서 N2까지 (nơi chốn)"
+        ],
+        "rules": [
+          {
+            "when_vi": "Nêu phương tiện ('bằng …') hoặc hướng đi ('về phía …'): `서울에서 부산까지 기차( )`",
+            "use": [
+              "N + (으)로"
+            ],
+            "note_vi": "`N + (으)로`: có patchim (trừ ㄹ) dùng `으로`, không patchim hoặc ㄹ dùng `로` (`기차로`, `지하철로`). `-는 길에`, `-(으)러` gắn vào động từ chứ không gắn vào danh từ."
+          },
+          {
+            "when_vi": "Đi/đến đâu ĐỂ làm gì (mục đích): `농구를 하( )가요`",
+            "use": [
+              "V + -(으)러 가다/오다"
+            ],
+            "note_vi": "`-(으)러 가다/오다` nêu mục đích của chuyến đi, sau đó là `가다/오다`. Việc phụ làm dọc đường không phải mục đích → `-는 길에`."
+          },
+          {
+            "when_vi": "Làm thêm một việc TRÊN ĐƯỜNG đi hoặc về: `집에 오( )시장에서 꽃을 샀어요`",
+            "use": [
+              "V + -는 길에",
+              "V + -(으)러 가다/오다"
+            ],
+            "note_vi": "`-는 길에` = 'trên đường đi/về', việc phụ xảy ra dọc đường. Với `-(으)러` thì việc đó chính là lý do của chuyến đi."
+          },
+          {
+            "when_vi": "Đo thời gian hay tiền để hoàn thành việc: `학교에 가( )30분 걸려요`",
+            "use": [
+              "V + -는 데 걸리다/들다"
+            ],
+            "note_vi": "`-는 데 걸리다` cho thời gian, `-는 데 들다` cho tiền bạc/công sức; `데` là danh từ phụ thuộc nên viết cách. Viết liền `-는데도` lại là 'dù … vẫn'."
+          },
+          {
+            "when_vi": "Nói đi TỪ đâu ĐẾN đâu và mất bao lâu: `집에서 학교까지 20분 걸려요`",
+            "use": [
+              "N1에서 N2까지 (nơi chốn)",
+              "N1(Thời gian)부터 N2(Thời gian)까지",
+              "V + -는 데 걸리다/들다"
+            ],
+            "note_vi": "Nơi chốn dùng `에서~까지`, thời gian dùng `부터~까지`. `V + -는 데 걸리다` đo thời gian để làm một việc, còn `N에서 N까지 걸리다` đo cả đoạn đường."
+          }
+        ],
+        "pitfalls_vi": [
+          "Viết dính `-는데` khi muốn nói 'để làm … thì mất …': `데` là danh từ phụ thuộc nên phải viết cách `-는 데`.",
+          "Dùng `걸리다` cho tiền bạc (✗ `돈이 걸려요`): tiền và công sức đi với `들다` (`돈이 들어요`); còn thời gian đi lại quen dùng `걸리다`.",
+          "Dùng `-는 길에` cho chuyến đi có mục đích chính là làm việc đó: mục đích phải dùng `-(으)러 가다/오다`."
+        ]
+      },
+      {
+        "id": "nguyen-nhan-ket-qua",
+        "title_vi": "Nguyên nhân & kết quả ngoài mong đợi",
+        "summary_vi": "Giải thích vì sao việc không thành hoặc xấu đi (vì mải làm, vì việc bất ngờ), nói 'dù … vẫn …' khi kết quả trái với điều đáng có, và nói một thứ tốt hay hại cho sức khỏe.",
+        "patterns": [
+          "V + -느라고",
+          "V + -는 바람에",
+          "V/A + -는데도/-(으)ㄴ데도",
+          "N + 에 좋다 · N + 에 나쁘다",
+          "V/A + -아/어서",
+          "V + -아/어서 (nối tiếp)",
+          "V/A + -(으)니까",
+          "N + 때문에 · V/A + -기 때문에",
+          "V/A + -거든요"
+        ],
+        "rules": [
+          {
+            "when_vi": "Chính chủ ngữ MẢI LÀM việc A nên không làm được B (cùng chủ ngữ): `청소하( )전화를 못 받았어요`",
+            "use": [
+              "V + -느라고",
+              "V + -는 바람에"
+            ],
+            "note_vi": "`-느라고`: hai vế cùng chủ ngữ, vế trước là việc mình mải làm, không chia `-았/었-`; vế sau thường tiêu cực. Khác chủ ngữ thì không dùng được."
+          },
+          {
+            "when_vi": "Nguyên nhân là việc BẤT NGỜ hoặc do người/vật khác gây ra (mưa, xe tắc, em làm vỡ cốc), kết quả xấu",
+            "use": [
+              "V + -는 바람에",
+              "V + -느라고"
+            ],
+            "note_vi": "`-는 바람에`: khác chủ ngữ được, hàm ý ngoài ý muốn, vế sau thường ở quá khứ. Chỉ gắn động từ, không gắn `-았/었-`. Kết quả tốt hay tính từ → `-아/어서`."
+          },
+          {
+            "when_vi": "'Dù đã … mà vẫn …': vế sau TRÁI với điều đáng lẽ phải có (đã cố gắng mà vẫn trễ)",
+            "use": [
+              "V/A + -는데도/-(으)ㄴ데도"
+            ],
+            "note_vi": "`-는데도` (V, 있다/없다), `-(으)ㄴ데도` (A), `-(이)ㄴ데도` (이다), quá khứ `-았/었는데도`, viết liền. Nhấn sự bất ngờ hơn `-지만`; vế sau không đặt mệnh lệnh/rủ rê."
+          },
+          {
+            "when_vi": "Nói một thứ TỐT hay HẠI cho sức khỏe, cơ thể: `운동은 건강( )좋아요`",
+            "use": [
+              "N + 에 좋다 · N + 에 나쁘다"
+            ],
+            "note_vi": "Đối tượng là vật hoặc khái niệm dùng `에` (건강에, 눈에, 위에), không dùng `에게`. Trước danh từ: `건강에 좋은 음식`. Mạnh và trang trọng hơn: `에 해롭다`; có ích: `에 도움이 되다`."
+          },
+          {
+            "when_vi": "Kể lý do như một sự việc, hoặc hai việc liền mạch cùng chủ ngữ",
+            "use": [
+              "V/A + -아/어서",
+              "V + -아/어서 (nối tiếp)",
+              "V + -고"
+            ],
+            "note_vi": "`-아/어서` cho thấy việc trước là lý do hoặc bước dẫn đến việc sau (`비싸서 안 샀어요`, `시장에 가서 샀어요`); thì chỉ chia ở vế sau. `-고` chỉ nối hai việc, không nêu lý do."
+          },
+          {
+            "when_vi": "Nêu lý do rồi đề nghị, ra lệnh hoặc rủ",
+            "use": [
+              "V/A + -(으)니까",
+              "V/A + -아/어서"
+            ],
+            "note_vi": "Vế sau là `-(으)세요`, `-(으)ㅂ시다`, `-(으)ㄹ까요?` thì dùng `-(으)니까`; `-아/어서` chỉ kể lý do cho một sự việc hoặc cảm nhận."
+          },
+          {
+            "when_vi": "Nêu nguyên nhân bằng danh từ hay bằng vế câu (nhấn mạnh lý do)",
+            "use": [
+              "N + 때문에 · V/A + -기 때문에",
+              "V/A + -아/어서",
+              "V/A + -(으)니까"
+            ],
+            "note_vi": "Lý do là danh từ → `N 때문에`; là cả vế câu → `-기 때문에` (ở cuối câu: `-기 때문이다`). `-기 때문에` đi được với `-았/었-` nhưng vế sau không được là mệnh lệnh hay lời rủ; khi đó dùng `-(으)니까`."
+          },
+          {
+            "when_vi": "Bổ sung lý do như tin mới ở cuối câu, hoặc nêu bối cảnh trước khi nhờ: `일찍 가야 해요. 약속이 있거든요.`",
+            "use": [
+              "V/A + -거든요",
+              "V/A + -아/어서",
+              "V/A + -(으)니까"
+            ],
+            "note_vi": "`-거든요` luôn kết thúc câu và đứng SAU điều cần giải thích. Muốn nối lý do và kết quả trong một câu thì dùng `-아/어서` hoặc `-(으)니까`."
+          }
+        ],
+        "pitfalls_vi": [
+          "Dùng `-느라고` khi hai vế khác chủ ngữ: ✗ `동생이 소리를 지르느라고 제가 잠을 못 잤어요` → `지르는 바람에`.",
+          "Dùng `-는 바람에` cho kết quả tốt hoặc với tính từ (✗ `비가 오는 바람에 시원해졌어요`, ✗ `바쁘는 바람에`) → dùng `-아/어서`.",
+          "Chia `-는데도` sai theo từ loại: ✗ `비싸는데도`, ✗ `주말는데도` → `비싼데도`, `주말인데도`.",
+          "Dùng `에게` cho vật hoặc khái niệm: ✗ `건강에게 좋아요` → `건강에 좋아요`."
+        ]
+      },
+      {
+        "id": "y-chi-quyet-dinh-nghia-vu",
+        "title_vi": "Ý chí, quyết định & nghĩa vụ",
+        "summary_vi": "Nói quyết tâm vừa nảy ra, việc đã quyết hoặc đã hẹn, việc xảy ra ngoài ý muốn và điều bắt buộc phải làm.",
+        "patterns": [
+          "V + -아/어야겠다",
+          "V + -기로 하다",
+          "V + -게 되다",
+          "V + -지 않으면 안 되다",
+          "V + -아/어야 하다/되다",
+          "V + -(으)려고 하다",
+          "V + -아/어도 되다 · V + -(으)면 안 되다",
+          "V/A + -지 않아도 되다 · 안 V/A + -아/어도 되다"
+        ],
+        "rules": [
+          {
+            "when_vi": "Tự nhủ ngay khi nhận ra vấn đề: 'phải … mới được' (`또 늦잠을 잤네. 내일부터는 일찍 자( )`)",
+            "use": [
+              "V + -아/어야겠다"
+            ],
+            "note_vi": "`-아/어야겠다`: quyết tâm vừa nảy ra của người nói, chủ yếu ngôi 1; kể về người khác thêm `-고 생각하다`. Mạnh và giàu cảm xúc hơn `-(으)려고 하다`."
+          },
+          {
+            "when_vi": "Việc ĐÃ QUYẾT hay đã hẹn/thống nhất với người khác; tóm tắt hội thoại ở ngôi 3",
+            "use": [
+              "V + -기로 하다"
+            ],
+            "note_vi": "`-기로 했어요` = đã chốt/đã hứa, thường có người khác liên quan; `-기로 해요` chỉ là đề nghị 'mình quyết thế nhé'. Không thêm `-(으)ㄹ`: `가기로`, không phải `갈기로`."
+          },
+          {
+            "when_vi": "Rơi vào tình huống/chuyển biến NGOÀI Ý CHÍ (tai nạn phải nhập viện, bị chuyển công tác)",
+            "use": [
+              "V + -게 되다",
+              "V + -기로 하다"
+            ],
+            "note_vi": "`-게 되다` nhấn việc xảy ra do hoàn cảnh, không phải do mình chọn. Việc mình chủ động quyết hoặc đã hẹn thì dùng `-기로 하다`."
+          },
+          {
+            "when_vi": "Bắt buộc phải làm (để giữ sức khỏe, theo quy định), dùng cho mọi ngôi: 'nếu không … thì không được'",
+            "use": [
+              "V + -지 않으면 안 되다",
+              "V + -아/어야겠다"
+            ],
+            "note_vi": "`-지 않으면 안 되다` nêu tính bắt buộc khách quan (`약은 시간에 맞춰 먹지 않으면 안 돼요`); `-아/어야겠다` chỉ là quyết tâm cá nhân của người nói."
+          },
+          {
+            "when_vi": "Việc bắt buộc, cần thiết: 'phải …'",
+            "use": [
+              "V + -아/어야 하다/되다",
+              "V + -지 않으면 안 되다"
+            ],
+            "note_vi": "`-아/어야 하다` là 'phải' nói thường; `-지 않으면 안 되다` nhấn mạnh hơn (không làm thì không được). Cấm làm là `-(으)면 안 되다`, không cần làm là `-지 않아도 되다`."
+          },
+          {
+            "when_vi": "Nói dự định của mình",
+            "use": [
+              "V + -(으)려고 하다",
+              "V + -기로 하다",
+              "V + -(으)ㄹ 거예요"
+            ],
+            "note_vi": "`-(으)려고 하다` mới ở mức 'định'; `-기로 하다` là đã quyết; `-(으)ㄹ 거예요` là kế hoạch hay dự đoán dứt khoát. Chỉ mong muốn thì dùng `-고 싶다`."
+          },
+          {
+            "when_vi": "Được phép, bị cấm hay bắt buộc",
+            "use": [
+              "V + -아/어도 되다 · V + -(으)면 안 되다",
+              "V + -아/어야 하다/되다",
+              "V + -지 않으면 안 되다"
+            ],
+            "note_vi": "`-아/어도 되다` là được phép; `-(으)면 안 되다` là cấm; `-아/어야 하다` và `-지 않으면 안 되다` là bắt buộc. `먹으면 안 돼요` (không được ăn) trái nghĩa với `먹지 않으면 안 돼요` (phải ăn)."
+          }
+        ],
+        "pitfalls_vi": [
+          "`-아/어야겠다` chủ yếu là quyết tâm của chính người nói; đừng dùng cho nghĩa vụ chung hay người khác: ✗ `동생이 일찍 자야겠어요` → `동생은 일찍 자야 해요` hoặc `자야겠다고 생각했어요`.",
+          "Dùng `-기로 해요` để nói việc đã chốt (phải là `-기로 했어요`), hoặc thêm `-(으)ㄹ` trước `-기로` (✗ `갈기로`).",
+          "Dùng `-게 되다` cho việc mình tự chọn, hoặc `-기로 하다` cho việc bị hoàn cảnh đẩy tới."
+        ]
+      },
+      {
+        "id": "ru-re-de-nghi-thu",
+        "title_vi": "Rủ rê, đề nghị & thử",
+        "summary_vi": "Rủ rê, đề nghị, thử làm điều gì, và khuyên 'đáng thử' một món hay một nơi.",
+        "patterns": [
+          "V + -(으)ㄹ까요?",
+          "V + -(으)ㅂ시다",
+          "V + -아/어 보다",
+          "V/A + -는데/은데/ㄴ데",
+          "V + -(으)ㄹ 만하다",
+          "V + -(으)ㄴ 적이 있다/없다",
+          "V + -(으)ㄹ게요 · -(으)ㄹ래요",
+          "V + -는 게 좋다",
+          "V + -는 게 어때요?",
+          "V/A + -(으)ㄴ/는데요 (kết câu mềm)"
+        ],
+        "rules": [
+          {
+            "when_vi": "Hỏi ý người nghe hoặc đề xuất cùng làm: `오늘 점심에 같이 떡볶이를 먹( )?`",
+            "use": [
+              "V + -(으)ㄹ까요?"
+            ],
+            "note_vi": "`-(으)ㄹ까요?` để tham khảo ý kiến người nghe hoặc đề xuất cùng làm, nghe mềm hơn câu rủ thẳng `-(으)ㅂ시다`."
+          },
+          {
+            "when_vi": "Rủ chốt cùng làm với người NGANG HÀNG hoặc người dưới: `그럼 피자를 먹고 콜라를 마( )`",
+            "use": [
+              "V + -(으)ㅂ시다",
+              "V + -(으)ㄹ까요?"
+            ],
+            "note_vi": "`-(으)ㅂ시다` là câu rủ 'cứng', không dùng với người trên (dùng `-(으)실래요?`/`-(으)시겠어요?`). Chia: 마시다 → 마십시다, 먹다 → 먹읍시다."
+          },
+          {
+            "when_vi": "Thử làm/thử ăn, hoặc mời người ta thử: `한국 음식을 먹어( )`",
+            "use": [
+              "V + -아/어 보다"
+            ],
+            "note_vi": "`-아/어 보다` = thử, trải nghiệm; `-아/어 보세요` = hãy thử xem; `-아/어 볼까요?` = rủ nhau thử."
+          },
+          {
+            "when_vi": "Nêu bối cảnh/tình trạng của mình TRƯỚC lời rủ: `심심( )놀이공원에 갈까요?`",
+            "use": [
+              "V/A + -는데/은데/ㄴ데",
+              "V + -(으)ㄹ까요?"
+            ],
+            "note_vi": "`-는데/은데/ㄴ데` đặt bối cảnh rồi mới đề nghị: V `-는데`, A có patchim `-은데`, không patchim `-ㄴ데`. Chỉ nêu bối cảnh; thêm `도` (`-는데도`) mới thành 'dù … vẫn'."
+          },
+          {
+            "when_vi": "Khuyên hoặc nhận xét một món, một nơi, một đồ vật là ĐÁNG thử, đáng xem: `이 영화는 볼 ( )`",
+            "use": [
+              "V + -(으)ㄹ 만하다",
+              "V + -아/어 보다"
+            ],
+            "note_vi": "`-(으)ㄹ 만하다` đánh giá 'đáng làm' và chỉ gắn với động từ; trước danh từ dùng `-(으)ㄹ 만한 N` (가 볼 만한 곳). Đừng nhầm với `-(으)ㄹ 수 있다` (chỉ khả năng)."
+          },
+          {
+            "when_vi": "Hỏi hoặc nói về kinh nghiệm: 'đã từng … chưa?'",
+            "use": [
+              "V + -(으)ㄴ 적이 있다/없다",
+              "V + -아/어 보다"
+            ],
+            "note_vi": "`-(으)ㄴ 적이 있다/없다` nói về việc có từng xảy ra trong đời hay không; `-아/어 본 적이 있다` là từng thử. `-았/었-` chỉ nói việc đã xảy ra, không hỏi kinh nghiệm."
+          },
+          {
+            "when_vi": "Tự quyết định / hứa làm, hoặc hỏi ý người nghe",
+            "use": [
+              "V + -(으)ㄹ게요 · -(으)ㄹ래요",
+              "V + -(으)ㄹ까요?",
+              "V + -(으)ㅂ시다"
+            ],
+            "note_vi": "`-(으)ㄹ게요` chỉ dùng cho việc của người nói; `-(으)ㄹ래요?` hỏi ý người nghe thân mật; `-(으)ㄹ까요?` đề nghị cùng làm; `-(으)ㅂ시다` là lời chốt."
+          },
+          {
+            "when_vi": "Đưa lời khuyên: 'nên …'",
+            "use": [
+              "V + -는 게 좋다",
+              "V + -(으)세요",
+              "V + -아/어야 하다/되다"
+            ],
+            "note_vi": "`-는 게 좋다` là lời khuyên mềm; `-(으)세요` là lời bảo trực tiếp; `-아/어야 하다` là bắt buộc."
+          },
+          {
+            "when_vi": "Gợi ý để người nghe tự cân nhắc: `약을 먹는 게 어때요?` (… thì sao?)",
+            "use": [
+              "V + -는 게 어때요?",
+              "V + -는 게 좋다",
+              "V + -(으)ㄹ까요?"
+            ],
+            "note_vi": "`-는 게 어때요?` là câu hỏi mềm, nhường quyết định cho người nghe. `-는 게 좋다` khẳng định 'nên'. `-(으)ㄹ까요?` rủ cùng làm."
+          }
+        ],
+        "pitfalls_vi": [
+          "Dùng `-(으)ㅂ시다` rủ người trên (cấp trên, người lớn tuổi): phải dùng `-(으)실래요?`/`-(으)시겠어요?`.",
+          "Chia sai `-(으)ㅂ시다`: ✗ `먹ㅂ시다` → `먹읍시다` (có patchim); `마십시다` (không patchim).",
+          "Gắn `-는데` vào tính từ: ✗ `심심는데` → `심심한데`.",
+          "Gắn `-(으)ㄹ 만하다` với tính từ (✗ `예쁠 만하다`) hoặc nhầm với `-(으)ㄹ 수 있다`: 'đáng xem' là `볼 만해요`, còn `볼 수 있어요` chỉ là 'xem được'."
+        ]
+      },
+      {
+        "id": "chuan-bi-thuat-lai",
+        "title_vi": "Chuẩn bị sẵn & thuật lại lời bảo",
+        "summary_vi": "Nói việc đã làm sẵn và kết quả còn giữ nguyên, việc tác động lên người hoặc vật (cho ăn, đun sôi, làm chín…), và kể lại lời bảo, lời dặn, yêu cầu hay câu hỏi của người khác.",
+        "patterns": [
+          "V + -아/어 놓다",
+          "V + -(으)라고 하다/말하다",
+          "Động từ sai khiến 사동 · V + -이/히/리/기/우/추-",
+          "V/A + -(느)냐고 하다/묻다",
+          "V + -아/어 있다",
+          "V/A + -(ㄴ/는)대요 · V + -(으)래요"
+        ],
+        "rules": [
+          {
+            "when_vi": "Việc ĐÃ xong và kết quả được giữ lại để dùng sau (làm sẵn, dọn sẵn): `방을 정리해( )`",
+            "use": [
+              "V + -아/어 놓다"
+            ],
+            "note_vi": "`-아/어 놓다` nhấn kết quả được duy trì; `-아/어 두다` nhấn giữ sẵn cho việc về sau, đa phần thay thế được. `-기로 하다` thì ngược lại: việc CHƯA làm, mới quyết định sẽ làm."
+          },
+          {
+            "when_vi": "Kể lại lời bảo/dặn/yêu cầu 'hãy làm' của người khác (mẹ, bác sĩ, sếp): `청소하기 전에 창문부터 열( )했어요`",
+            "use": [
+              "V + -(으)라고 하다/말하다"
+            ],
+            "note_vi": "`-(으)라고 하다/말하다` thuật lại mệnh lệnh, dặn dò; phủ định `-지 말라고 하다`. Gợi ý nhẹ → `-는 게 좋겠다고 하다`; rủ cùng làm → `-자고 하다`."
+          },
+          {
+            "when_vi": "Kể lại lời bảo làm sẵn một việc: `냉장고에 붙여( )고 말해 주고 싶어요`",
+            "use": [
+              "V + -(으)라고 하다/말하다",
+              "V + -아/어 놓다"
+            ],
+            "note_vi": "Ghép hai mẫu: `놓다` đứng trước `-(으)라고` thành `놓으라고` ('bảo hãy dán sẵn'). Đừng nhầm với `붙여 놓았다고 하다` (kể rằng đã dán sẵn)."
+          },
+          {
+            "when_vi": "Bạn TÁC ĐỘNG lên người hoặc vật để họ ăn, ngủ, chín, sôi…: `아기에게 우유를 ( )`, `물을 ( )`",
+            "use": [
+              "Động từ sai khiến 사동 · V + -이/히/리/기/우/추-"
+            ],
+            "note_vi": "Tìm cặp tự động từ/tha động từ: 끓다→끓이다, 익다→익히다, 먹다→먹이다, 자다→재우다. Có `을/를` trước chỗ trống thì chọn dạng sai khiến; chưa có từ sẵn hoặc muốn nói 'để cho, bắt' → `-게 하다`."
+          },
+          {
+            "when_vi": "Kể lại CÂU HỎI của người khác: `친구가 주말에 뭐 하( )물었어요`",
+            "use": [
+              "V/A + -(느)냐고 하다/묻다",
+              "V + -(으)라고 하다/말하다"
+            ],
+            "note_vi": "Chọn đuôi theo loại câu gốc: hỏi → `-(느)냐고`, mệnh lệnh → `-(으)라고`, câu kể → `-다고`, rủ rê → `-자고`. Tính từ và danh từ không thêm `느`: `비싸냐고`, `학생이냐고`."
+          }
+        ],
+        "pitfalls_vi": [
+          "Dùng `-(으)라고 하다` với tính từ hoặc `이다`: ✗ `깨끗하라고 했어요`; chỉ động từ mới có mệnh lệnh.",
+          "Phủ định sai: ✗ `먹지 마라고 했어요` → `먹지 말라고 했어요`.",
+          "Nhầm ai bảo ai: `동생에게 청소하라고 했어요` (tôi bảo em) khác `동생이 청소하라고 했어요` (em bảo ai đó dọn).",
+          "Nói 'đun sôi nước' là `물이 끓여요`: ✗ → `물을 끓여요` (có người tác động) hoặc `물이 끓어요` (nước tự sôi).",
+          "Thêm `느` cho tính từ hoặc danh từ khi tường thuật câu hỏi: ✗ `비싸느냐고`, ✗ `학생느냐고` → `비싸냐고`, `학생이냐고`."
+        ]
+      },
+      {
+        "id": "mo-ta-so-sanh-so-lieu",
+        "title_vi": "Mô tả, so sánh & số liệu",
+        "summary_vi": "Miêu tả đồ vật, so sánh hai thứ, nêu giá theo đơn vị; trong văn viết thì mở bài khảo sát và tả số liệu tăng giảm giữa hai mốc.",
+        "patterns": [
+          "A + -은/ㄴ",
+          "N + 보다",
+          "N(Đơn vị) + 에",
+          "N에서 N(으)로 늘다/줄다 · 약 … 배 · 두 배 가까이 · 절반",
+          "N + 에 비해 · V + -(으)ㄴ 결과",
+          "N + 밖에 + 부정 (없다 · 안 · 못 · -지 않다)",
+          "N + 처럼",
+          "A + -아/어하다"
+        ],
+        "rules": [
+          {
+            "when_vi": "Miêu tả đặc điểm của danh từ bằng tính từ: `이것보다 ( ) 가방` (to hơn)",
+            "use": [
+              "A + -은/ㄴ"
+            ],
+            "note_vi": "`A + -은/ㄴ` đứng ngay trước danh từ: có patchim `-은` (`작은`), không patchim `-ㄴ` (`큰`)."
+          },
+          {
+            "when_vi": "So sánh hai thứ ở cùng thời điểm trong lời nói: `짧은 바지가 긴 바지( )더 예뻐요`",
+            "use": [
+              "N + 보다",
+              "N + 에 비해 · V + -(으)ㄴ 결과"
+            ],
+            "note_vi": "`N + 보다` = 'hơn N', hay đi với `더/훨씬`, dùng được cả nói lẫn viết. Báo cáo trang trọng hay dùng `N에 비해` (không cần `더`)."
+          },
+          {
+            "when_vi": "Hỏi/nêu giá theo MỘT đơn vị: `이 사과 한 개( )얼마예요?`",
+            "use": [
+              "N(Đơn vị) + 에"
+            ],
+            "note_vi": "`N(Đơn vị) + 에` = giá trên mỗi đơn vị (`한 개에 천 원`). Đừng nhầm với `N(Thời gian) + 에` chỉ mốc thời điểm."
+          },
+          {
+            "when_vi": "Viết khảo sát/biểu đồ: mở bài, đối chiếu mốc, tả tăng giảm (`38%에서 45%로`, `두 배 가까이`)",
+            "use": [
+              "N + 에 비해 · V + -(으)ㄴ 결과",
+              "N에서 N(으)로 늘다/줄다 · 약 … 배 · 두 배 가까이 · 절반"
+            ],
+            "note_vi": "Mở bài `… 조사한 결과, 2016년에 비해 …`, rồi nêu hai mốc `A에서 B(으)로 늘다/줄다`, mức `두 배 가까이` (≠ `두 배 이상`), `절반`. Viết 한다체."
+          },
+          {
+            "when_vi": "Nhấn ÍT hoặc THIẾU, kèm cảm giác chưa đủ: `지갑에 천 원( )없어요`",
+            "use": [
+              "N + 밖에 + 부정 (없다 · 안 · 못 · -지 않다)"
+            ],
+            "note_vi": "`N밖에` bắt buộc đi với vị ngữ phủ định (없다, 안, 못, -지 않다). Trung tính hơn là `N만`; ngược cảm xúc là `N(이)나` (nhiều hơn dự đoán: `세 시간이나`)."
+          }
+        ],
+        "pitfalls_vi": [
+          "Đảo hướng `늘다`/`줄다`, hoặc nhầm `두 배 가까이` (chưa tới gấp đôi) với `두 배 이상` (từ gấp đôi trở lên).",
+          "Gắn sai trợ từ hoặc thì: ✗ `2016년을 비해`, ✗ `조사하는 결과` → `2016년에 비해`, `조사한 결과`.",
+          "Chỉ viết `많아졌어요` mà thiếu hai mốc số; hoặc dùng `늘었어요` (해요체) trong bài Viết 53 thay vì 한다체.",
+          "Dùng `밖에` với vị ngữ khẳng định (✗ `천 원밖에 있어요`), hoặc nhầm với `밖` nghĩa 'bên ngoài' (`밖에 나가다`)."
+        ]
+      },
+      {
+        "id": "van-viet",
+        "title_vi": "Văn viết: thể trần thuật & từ nối",
+        "summary_vi": "Viết nhật ký hay bài nghị luận bằng 서술체 (-는다/-ㄴ다/-다) và dùng từ nối đúng chức năng của từng đoạn.",
+        "patterns": [
+          "Thể trần thuật (서술체: -(느)ㄴ다 / -다)",
+          "Từ nối + 반면에 · 그러나 · 첫째 · 이를 해결하기 위해서는 · 결론적으로"
+        ],
+        "rules": [
+          {
+            "when_vi": "Viết nhật ký/văn viết: chia đuôi câu hiện tại của động từ, tính từ, `있다/없다`, `이다`",
+            "use": [
+              "Thể trần thuật (서술체: -(느)ㄴ다 / -다)"
+            ],
+            "note_vi": "Động từ: có patchim `-는다` (먹는다), không patchim hoặc ㄹ `-ㄴ다` (간다, 산다). Tính từ và `있다/없다/맛있다` giữ `-다`. Quá khứ `-았/었다`; `이다` → `(이)다`."
+          },
+          {
+            "when_vi": "Đối lập hai nhóm/hai mặt có thật: `A는 늘었다.( ) B는 줄었다`",
+            "use": [
+              "Từ nối + 반면에 · 그러나 · 첫째 · 이를 해결하기 위해서는 · 결론적으로",
+              "Thể trần thuật (서술체: -(느)ㄴ다 / -다)"
+            ],
+            "note_vi": "`반면에` = 'trong khi đó, ngược lại', cần hai vế đối lập thật (muốn thêm ý thì dùng `또한`); nối được trong câu: `늘어난 반면에`."
+          },
+          {
+            "when_vi": "Phân vai các đoạn bài nghị luận: khó khăn, lý do, giải pháp, kết luận",
+            "use": [
+              "Từ nối + 반면에 · 그러나 · 첫째 · 이를 해결하기 위해서는 · 결론적으로",
+              "Thể trần thuật (서술체: -(느)ㄴ다 / -다)"
+            ],
+            "note_vi": "`그러나` đảo chiều ý; `첫째,` liệt kê lý do; `이를 해결하기 위해서는 … 필요하다` sau khi đã nêu vấn đề; `결론적으로` chỉ ở đoạn cuối. Đuôi câu 한다체."
+          }
+        ],
+        "pitfalls_vi": [
+          "Dùng từ nối khẩu ngữ (`근데`) hoặc đuôi 해요체 trong Viết 53–54; dùng `그런데`/`그래서` cho mọi chỗ thay vì từ nối đúng chức năng của đoạn; hoặc lặp mãi `그리고`.",
+          "Chia nhầm `있다/없다`: ✗ `맛있는다` → `맛있다`; tính từ không thêm `-ㄴ다`.",
+          "Đặt `이를 해결하기 위해서는` khi chưa nêu vấn đề, hoặc `결론적으로` giữa bài."
+        ]
+      },
+      {
+        "id": "nen-tang-cau-co-ban",
+        "title_vi": "Nền tảng: thì, đang làm, khả năng & mong muốn",
+        "summary_vi": "Những mẫu nền để đặt câu: việc đã hoặc sẽ xảy ra, việc đang làm, có thể, muốn, mời và cấm.",
+        "patterns": [
+          "V/A + -았/었-",
+          "V + -(으)ㄹ 거예요",
+          "V + -고 있다",
+          "V + -(으)ㄹ 수 있다/없다",
+          "V + -고 싶다",
+          "V + -(으)세요",
+          "V + -지 마세요",
+          "안 · 못 + V/A (phủ định)",
+          "V/A + -(으)면 좋겠다",
+          "V + -(으)ㄹ 줄 알다/모르다",
+          "V/A + -았/었었-"
+        ],
+        "rules": [
+          {
+            "when_vi": "Kể việc ĐÃ xảy ra hoặc SẼ xảy ra",
+            "use": [
+              "V/A + -았/었-",
+              "V + -(으)ㄹ 거예요"
+            ],
+            "note_vi": "Có `어제`, `지난주` thì bắt buộc đánh dấu quá khứ bằng `-았/었-`. Có `내일`, `다음 주` thì dùng `-(으)ㄹ 거예요` (kế hoạch hoặc dự đoán)."
+          },
+          {
+            "when_vi": "Việc đang diễn ra NGAY LÚC NÓI, kể cả đang mặc hay đang đeo",
+            "use": [
+              "V + -고 있다"
+            ],
+            "note_vi": "`지금 청소하고 있어요` (đang làm) khác `청소해요` (thói quen). Chỉ gắn với động từ; người cần kính trọng thì `-고 계시다`."
+          },
+          {
+            "when_vi": "Nói mình CÓ THỂ làm hay MUỐN làm",
+            "use": [
+              "V + -(으)ㄹ 수 있다/없다",
+              "V + -고 싶다"
+            ],
+            "note_vi": "`-(으)ㄹ 수 있다` nói khả năng hoặc điều kiện cho phép; `-고 싶다` nói mong muốn của người nói (người thứ ba: `-고 싶어 하다`)."
+          },
+          {
+            "when_vi": "Mời, chỉ dẫn hoặc yêu cầu người nghe làm / đừng làm gì",
+            "use": [
+              "V + -(으)세요",
+              "V + -지 마세요"
+            ],
+            "note_vi": "`-(으)세요` mời hoặc chỉ dẫn lịch sự (nhờ làm giúp thì `-아/어 주세요`). Lời cấm phải là `-지 마세요`, không dùng `안`: `안 가세요` không có nghĩa 'đừng đi'."
+          },
+          {
+            "when_vi": "Nói KHÔNG làm hoặc KHÔNG làm được",
+            "use": [
+              "안 · 못 + V/A (phủ định)",
+              "V + -(으)ㄹ 수 있다/없다"
+            ],
+            "note_vi": "`안` là tự không làm hoặc không phải; `못` là muốn làm mà không được. Với `danh từ + 하다`, `안/못` đứng trước `하다` (`쇼핑 안 해요`). `못` không đi với tính từ."
+          },
+          {
+            "when_vi": "Nói điều MONG xảy ra: sức khỏe, thời tiết, hoàn cảnh hoặc việc người khác làm",
+            "use": [
+              "V/A + -(으)면 좋겠다",
+              "V + -고 싶다"
+            ],
+            "note_vi": "`-고 싶다` là chính chủ ngữ muốn TỰ làm (chỉ dùng cho người). `-(으)면 좋겠다` là mong điều gì xảy ra, dùng được cho thời tiết, bệnh tật hay hành động của người khác."
+          }
+        ],
+        "pitfalls_vi": [
+          "Quên chia quá khứ khi có `어제` (✗ `어제 가요`).",
+          "Dùng `-고 있다` với tính từ (✗ `예쁘고 있어요`) hoặc dùng `-고 싶다` cho người thứ ba (✗ `동생이 먹고 싶어요`).",
+          "Viết liền `-ㄹ거예요`, `-ㄹ수 있다`: `거` và `수` là từ riêng nên phải cách."
+        ]
+      },
+      {
+        "id": "dieu-kien-doi-lap-phong-doan",
+        "title_vi": "Điều kiện, đối lập & phỏng đoán",
+        "summary_vi": "Nói 'nếu', 'nhưng' và 'hình như'.",
+        "patterns": [
+          "V/A + -(으)면",
+          "V/A + -지만",
+          "V/A + -(으)ㄴ/는/(으)ㄹ 것 같다",
+          "V/A + -아/어도",
+          "A + -아/어 보이다"
+        ],
+        "rules": [
+          {
+            "when_vi": "Điều kiện, giả định ('nếu … thì …') hoặc quy luật ('hễ … là …')",
+            "use": [
+              "V/A + -(으)면",
+              "V/A + -(으)ㄹ 때"
+            ],
+            "note_vi": "`-(으)면` là 'nếu', không dùng để kể một việc đã xảy ra một lần (✗ `어제 집에 가면 비가 왔어요`); chuyện đã qua dùng `-았/었을 때`."
+          },
+          {
+            "when_vi": "Hai vế trái nhau: 'tuy … nhưng …'",
+            "use": [
+              "V/A + -지만",
+              "V/A + -는데/은데/ㄴ데"
+            ],
+            "note_vi": "`-지만` nói thẳng sự đối lập; `-는데/은데/ㄴ데` thường chỉ dựng bối cảnh nên đối lập nhẹ hơn."
+          },
+          {
+            "when_vi": "Đoán điều gì đó hoặc nói giảm ý kiến của mình: 'hình như', 'có vẻ'",
+            "use": [
+              "V/A + -(으)ㄴ/는/(으)ㄹ 것 같다",
+              "V + -(으)ㄹ 거예요"
+            ],
+            "note_vi": "`것 같다` là phỏng đoán mềm; dạng đứng trước `것` theo thời gian (`-는` đang, `-(으)ㄴ` đã, `-(으)ㄹ` sẽ). `-(으)ㄹ 거예요` là kế hoạch hoặc dự đoán dứt khoát."
+          },
+          {
+            "when_vi": "Dù thế nào … vẫn …",
+            "use": [
+              "V/A + -아/어도",
+              "V/A + -지만"
+            ],
+            "note_vi": "`-지만` nối hai sự thật trái nhau; `-아/어도` là 'dù … vẫn …' và hay đi với `아무리`."
+          },
+          {
+            "when_vi": "Đoán từ VẺ NGOÀI nhìn thấy: 'trông có vẻ …'",
+            "use": [
+              "A + -아/어 보이다",
+              "V/A + -(으)ㄴ/는/(으)ㄹ 것 같다"
+            ],
+            "note_vi": "`-아/어 보이다` dựa vào điều mắt thấy (món ăn, gương mặt, đồ vật). `-(으)ㄴ 것 같다` phỏng đoán chung từ nhiều căn cứ, nên rộng hơn."
+          }
+        ],
+        "pitfalls_vi": [
+          "Nối hai việc nối tiếp bằng `-지만` (phải là `-고`).",
+          "Chia `-는 것 같다` cho tính từ (✗ `짜는 것 같아요` → `짠 것 같아요`).",
+          "Gắn `-았/었-` vào `-(으)면` làm câu thành giả định hoặc mong ước (`비가 왔으면 좋겠어요`)."
+        ]
+      }
+    ],
+    "mock": {
+      "minutes": 100,
+      "bands": [
+        {
+          "label_vi": "Dưới mốc 1급 (dưới 80/200)",
+          "min_correct": 0
+        },
+        {
+          "label_vi": "Khoảng 1급 (từ 80/200)",
+          "min_correct": 28
+        },
+        {
+          "label_vi": "Khoảng 2급 (từ 140/200)",
+          "min_correct": 49
+        },
+        {
+          "label_vi": "Vững ở mức 2급 — có thể thử đề TOPIK II (từ 170/200)",
+          "min_correct": 60
+        }
+      ],
+      "score": {
+        "listening": 30,
+        "reading": 40,
+        "bands": [
+          {
+            "label_vi": "Dưới mốc 1급 (dưới 80/200)",
+            "min_score": 0
+          },
+          {
+            "label_vi": "Khoảng 1급 (từ 80/200)",
+            "min_score": 80
+          },
+          {
+            "label_vi": "Khoảng 2급 (từ 140/200)",
+            "min_score": 140
+          },
+          {
+            "label_vi": "Vững ở mức 2급 — có thể thử đề TOPIK II (từ 170/200)",
+            "min_score": 170
+          }
+        ],
+        "note_vi": "Cách tính: điểm nghe = số câu nghe đúng / 30 × 100, điểm đọc = số câu đọc đúng / 40 × 100. Ở đề TOPIK I thật mỗi câu được 2–4 điểm tùy độ khó, và mốc 1급 là 80, 2급 là 140 trên 200 — nên đây chỉ là con số ước lượng để biết mình đang ở đâu. Mốc 170 do Haru đặt để gợi ý lúc nào nên chuyển sang đề TOPIK II. Bộ câu hỏi này do Haru soạn theo dạng TOPIK I; các đề thật có sẵn trong ứng dụng là đề TOPIK II."
+      }
+    },
+    "capstone": {
+      "essay_id": "VW54",
+      "speak_id": "VS6",
+      "min_required": 3,
+      "required": [
+        {
+          "pattern": "V + -(으)면서",
+          "regex": "[^다라]면서",
+          "label_vi": "-(으)면서 (vừa … vừa)"
+        },
+        {
+          "pattern": "V + -다 보면",
+          "regex": "다\\s*보면",
+          "label_vi": "-다 보면 (cứ … thì rồi sẽ)"
+        },
+        {
+          "pattern": "V + -고 나면",
+          "regex": "고\\s*나면",
+          "label_vi": "-고 나면 (xong rồi thì)"
+        },
+        {
+          "pattern": "V + -기로 하다",
+          "regex": "(^|[^여거저])기로\\s*(했|하|한|합|해|결|정|약)",
+          "label_vi": "-기로 하다 (đã quyết/đã hẹn)"
+        },
+        {
+          "pattern": "V/A + -는데도/-(으)ㄴ데도",
+          "regex": "[^\\s]데도",
+          "label_vi": "-는데도 (dù … vẫn)"
+        },
+        {
+          "pattern": "Từ nối + 반면에 · 그러나 · 첫째 · 이를 해결하기 위해서는 · 결론적으로",
+          "regex": "반면에?|결론적으로|이를\\s*해결하기\\s*위해서는|첫째|그러나",
+          "label_vi": "Từ nối: 반면에 · 그러나 · 첫째 · 이를 해결하기 위해서는 · 결론적으로"
+        },
+        {
+          "pattern": "V + -기 전에",
+          "regex": "기\\s*전에",
+          "label_vi": "-기 전에 (trước khi)"
+        }
+      ]
+    }
+  }
+}

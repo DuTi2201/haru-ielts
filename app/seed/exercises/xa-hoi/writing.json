@@ -1,0 +1,5489 @@
+{
+  "skill": "writing",
+  "guide": [
+    {
+      "title_vi": "Viết mức 5–6: bốn điều giữ điểm",
+      "bullets_vi": [
+        "**Giữ một thể văn.** Bài 53, 54 viết bằng 한다체 từ đầu đến cuối; tin nhắn bạn bè (câu 51) thì dùng 해요체.",
+        "**Từ nối văn viết** thay cho khẩu ngữ: `그리고` → `또한`, `아울러`; `그래서` → `따라서`, `이에 따라`; `하지만` → `그러나`, `반면`. Chọn theo quan hệ ý, không rải cho nhiều.",
+        "**Xưng hô**: tránh `저는`, `제가`, `저희` trong bài 54. Nếu cần chủ thể thì dùng `나`, `우리` hoặc lược bỏ chủ ngữ.",
+        "**Một ý một câu có căn cứ**: ý chính → lý do → ví dụ. Bài mẫu đi kèm mỗi bài là bài **Haru tự soạn** để bạn tham khảo cấu trúc, không phải đề thật."
+      ]
+    },
+    {
+      "title_vi": "Sau khi viết",
+      "bullets_vi": [
+        "Đối chiếu bài mẫu bằng danh sách kiểm: đủ ý? đủ mẫu? đúng thể văn?",
+        "Dùng bộ đếm chữ của Haru; câu 54 nhắm 640–690 chữ (đếm cả dấu cách và dấu câu)."
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "X50F1",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51",
+      "title_vi": "Viết 51 · Tin nhắn đổi địa điểm",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền mẫu thích hợp vào hai chỗ trống (tin nhắn thân mật).",
+      "context_vi": "Tin nhắn cho đồng nghiệp",
+      "text": "수진 씨, 내일 모임 장소가 바뀌었어요. 일기 예보를 보니까 비가 많이 올 ( ㉠ ) 실내로 옮겼어요. 지난번에 비가 오면 실내에서 하기로 했( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "테니까",
+            "텐데"
+          ],
+          "common_errors_vi": "Dự đoán thời tiết làm lý do chuyển địa điểm → `올 테니까` (`올 텐데` cũng chấp nhận được)."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "잖아요",
+            "잖아"
+          ],
+          "common_errors_vi": "Nhắc điều hai bên đã thống nhất từ trước → `했잖아요`. `거든요` đưa lý do mới nên không hợp ở đây."
+        }
+      ],
+      "tips_vi": [
+        "Chỗ trống ㉠: bạn đang dự đoán thời tiết và dùng nó làm lý do.",
+        "Chỗ trống ㉡: nhắc điều người kia đã biết."
+      ]
+    },
+    {
+      "id": "X50F2",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52",
+      "title_vi": "Viết 52 · Hai câu chia sẻ điều quan sát",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền mẫu suy đoán từ dấu hiệu và mẫu kể điều đã thấy.",
+      "context_vi": "Hội thoại nhắn tin",
+      "text": "① 길이 젖어 있는 걸 보니 밤사이에 비가 ( ㉠ ).\n② 어제 가 보니 그 식당은 사람이 많( ㉡ ). 점심시간에는 일찍 가세요.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "온 모양이다",
+            "온 모양이에요",
+            "왔나 보다",
+            "왔나 봐요"
+          ],
+          "common_errors_vi": "Có căn cứ (đường ướt) và việc đã xảy ra → `온 모양이다` hoặc `왔나 보다`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "던데",
+            "던데요"
+          ],
+          "common_errors_vi": "Điều đã tự thấy hôm qua, rồi theo sau là lời gợi ý → `-던데(요)`."
+        }
+      ],
+      "tips_vi": [
+        "㉠ có thể có nhiều cách đúng; chọn một.",
+        "㉡ kết thúc bằng `-던데(요)`."
+      ]
+    },
+    {
+      "id": "X50E1",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "51-B",
+      "title_vi": "Viết · Tin nhắn cho bạn, dùng 3 trong 4 mẫu",
+      "points": 20,
+      "instruction_ko": "※ 다음 상황에 맞게 친구에게 보내는 문자를 쓰시오.",
+      "instruction_vi": "Viết tin nhắn 4 câu (해요체) cho bạn, dùng ít nhất **ba trong bốn mẫu** của bài: `-(으)ㄹ 테니까/텐데`, `-(으)ㄴ 모양이다/-나 보다`, `-던데(요)`, `-잖아(요)`.",
+      "limits": {
+        "min": 60,
+        "max": 220
+      },
+      "prompt_ko": "친구와 주말에 시장에 가기로 했습니다. 어제 시장에 가 본 경험과 오늘 날씨를 이야기하며 친구에게 문자를 쓰십시오.",
+      "framework_vi": [
+        "Câu 1: kể điều bạn đã thấy ở chợ hôm qua → `-던데요`.",
+        "Câu 2: dự đoán cuối tuần → `-(으)ㄹ 테니까`.",
+        "Câu 3: nhìn trời → `-(으)ㄴ 모양이에요 / -나 봐요`.",
+        "Câu 4: nhắc điều hai bạn đều biết → `-잖아요`."
+      ],
+      "patterns_vi": [
+        "`-던데요`",
+        "`-(으)ㄹ 테니까`",
+        "`-(으)ㄴ 모양이에요 / -나 봐요`",
+        "`-잖아요`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Điều đã thấy",
+          "chars": "20–35 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Dự đoán và đề nghị",
+          "chars": "20–35 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Suy ra từ trời",
+          "chars": "20–35 chữ"
+        },
+        {
+          "part_vi": "Câu 4",
+          "content_vi": "Nhắc điều đã biết",
+          "chars": "15–30 chữ"
+        }
+      ],
+      "model_answer_ko": "어제 시장에 가 봤는데 사람이 정말 많던데요. 주말에는 더 많을 테니까 우리 일찍 가요. 오늘 하늘을 보니 비가 올 모양이에요. 우산도 챙기는 게 좋겠어요, 지난주에도 갑자기 비가 왔잖아요.",
+      "model_note_vi": "Bài mẫu dùng cả bốn mẫu. Bạn chỉ cần ba. Vì là tin nhắn bạn bè nên dùng 해요체; 한다체 không dùng ở đây.",
+      "common_errors_vi": [
+        "Viết `갈테니까` liền.",
+        "Dùng `-던데` cho điều nghe kể.",
+        "Viết `-잖아요` mà người kia không hề biết chuyện đó."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Dùng đúng ít nhất 3 mẫu",
+          "max": 9
+        },
+        {
+          "criterion_vi": "Đúng nguồn thông tin của từng mẫu",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Đúng 해요체, câu tự nhiên",
+          "max": 5
+        }
+      ],
+      "checklist_vi": [
+        "Có đủ 3 trong 4 mẫu?",
+        "`테` viết cách chưa?",
+        "Câu `-던데요` có thật là điều mình đã thấy?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V/A + -(으)ㄹ 테니까 · V/A + -(으)ㄹ 텐데",
+          "regex": "테니까|텐데",
+          "label_vi": "Có -(으)ㄹ 테니까/텐데"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 모양이다 · V + -나 보다 · A + -(으)ㄴ가 보다",
+          "regex": "모양이|나 봐|나 보|ㄴ가 봐|ㄴ가 보",
+          "label_vi": "Có -모양이다/-나 보다"
+        },
+        {
+          "pattern": "V/A + -던데(요)",
+          "regex": "던데",
+          "label_vi": "Có -던데(요)"
+        },
+        {
+          "pattern": "V/A + -잖아(요) · N + (이)잖아(요)",
+          "regex": "잖아",
+          "label_vi": "Có -잖아(요)"
+        }
+      ]
+    },
+    {
+      "id": "X51F1",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51",
+      "title_vi": "Viết 51 · Thông báo của thư viện",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền mẫu thích hợp vào hai chỗ trống (thông báo trang trọng).",
+      "context_vi": "Thông báo của thư viện",
+      "text": "[안내] 시립 도서관 문화 행사\n이번 달에는 독서 모임 ( ㉠ ) 어린이 연극과 음악회도 열립니다. 행사에 참가하려면 신청서와 함께 신분증이 필요합니다. 신청서( ㉡ ) 참가하실 수 없으니 신분증도 꼭 가져오시기 바랍니다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "외에도",
+            "말고도",
+            "이외에도"
+          ],
+          "common_errors_vi": "Thêm các hoạt động khác ngoài buổi đọc sách → `독서 모임 외에도` (trang trọng) hoặc `말고도`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "만으로는"
+          ],
+          "common_errors_vi": "Chỉ riêng đơn đăng ký thì chưa đủ để tham gia → `신청서만으로는` (đi với «không thể»)."
+        }
+      ],
+      "tips_vi": [
+        "㉠: thêm một mục nữa vào điều đã nêu.",
+        "㉡: «chỉ riêng … thì chưa đủ»."
+      ]
+    },
+    {
+      "id": "X51F2",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52",
+      "title_vi": "Viết 52 · Hai câu giải thích",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền mẫu thêm vào và mẫu giới hạn vào văn bản 한다체.",
+      "context_vi": "Đoạn văn giải thích",
+      "text": "많은 사람이 새로운 기술을 배우는 데 어려움을 느낀다. 이는 나이가 많은 사람( ㉠ ) 젊은 사람들에게도 나타나는 현상이다. 처음 접하는 기술은 설명서를 읽는 것( ㉡ ) 사용법을 이해하기 어렵기 때문이다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "은 물론",
+            "은 물론이고"
+          ],
+          "common_errors_vi": "Người lớn tuổi là điều hiển nhiên, rồi thêm người trẻ → `은 물론(이고)`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "만으로는"
+          ],
+          "common_errors_vi": "Chỉ đọc hướng dẫn thì khó hiểu → `것만으로는`; câu kết là «어렵다»."
+        }
+      ],
+      "tips_vi": [
+        "Văn viết 한다체.",
+        "㉡ đi với vế sau phủ định/khó."
+      ]
+    },
+    {
+      "id": "X51E1",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-mini",
+      "title_vi": "Viết · Đoạn ngắn về đọc sách, dùng 3 trong 4 mẫu",
+      "points": 20,
+      "instruction_ko": "※ 다음 주제로 짧은 글을 쓰시오.",
+      "instruction_vi": "Viết đoạn 4 câu (한다체) về lợi ích của việc đọc sách, dùng ít nhất **ba trong bốn mẫu** của bài: `N 외에도`, `N은/는 물론`, `N만으로는`, `-(으)ㄹ 뿐이다`.",
+      "limits": {
+        "min": 80,
+        "max": 220
+      },
+      "prompt_ko": "독서의 장점에 대해 4문장으로 쓰십시오.",
+      "framework_vi": [
+        "Câu 1: lợi ích thứ nhất + lợi ích thứ hai → `외에도`.",
+        "Câu 2: hai nhóm người cùng được lợi → `은/는 물론`.",
+        "Câu 3: mua sách mà không đọc thì chưa đủ → `만으로는`.",
+        "Câu 4: kết luận ngắn → `일 뿐이다`."
+      ],
+      "patterns_vi": [
+        "`N 외에도`",
+        "`N은/는 물론`",
+        "`N만으로는`",
+        "`-(으)ㄹ 뿐이다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Lợi ích",
+          "chars": "30–50 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Ai được lợi",
+          "chars": "30–50 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Điều kiện cần",
+          "chars": "30–50 chữ"
+        },
+        {
+          "part_vi": "Câu 4",
+          "content_vi": "Kết luận",
+          "chars": "20–40 chữ"
+        }
+      ],
+      "model_answer_ko": "독서는 지식을 얻는 방법 외에도 마음을 안정시키는 역할을 한다. 어른은 물론 아이들도 책을 읽는 시간을 가지면 집중력이 높아진다. 그러나 책을 사 두는 것만으로는 효과를 얻을 수 없다. 읽지 않는 책은 장식일 뿐이다.",
+      "model_note_vi": "Bài mẫu dùng cả bốn mẫu; bạn chỉ cần ba. Viết bằng 한다체, không dùng `-잖아요` hay `저는`.",
+      "common_errors_vi": [
+        "Viết `말고` thay cho `외에도` làm nghĩa đổi.",
+        "Dùng `만으로는` ở cuối câu khẳng định.",
+        "Dùng 해요체 lẫn 한다체."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Dùng đúng ít nhất 3 mẫu",
+          "max": 9
+        },
+        {
+          "criterion_vi": "Đúng nghĩa thêm vào / giới hạn",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Đúng 한다체, câu tự nhiên",
+          "max": 5
+        }
+      ],
+      "checklist_vi": [
+        "Có đủ 3 trong 4 mẫu?",
+        "`뿐`, `외` viết đúng khoảng cách chưa?",
+        "Có dùng 한다체 từ đầu đến cuối?"
+      ],
+      "detectors": [
+        {
+          "pattern": "N + 말고(도) · N + 외에(도) · N + 이외에(도)",
+          "regex": "외에도|말고도",
+          "label_vi": "Có N 외에도"
+        },
+        {
+          "pattern": "N + 은/는 물론(이고)",
+          "regex": "은 물론|는 물론",
+          "label_vi": "Có N은/는 물론"
+        },
+        {
+          "pattern": "N + 만으로(는) · V + -는 것만으로(도)",
+          "regex": "만으로",
+          "label_vi": "Có N만으로(는)"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 뿐이다 · N + 일 뿐이다",
+          "regex": "뿐이다|뿐입니다",
+          "label_vi": "Có -(으)ㄹ 뿐이다"
+        }
+      ]
+    },
+    {
+      "id": "X52F1",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51",
+      "title_vi": "Viết 51 · Thông báo hiến máu",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오. (㉡은 '-는 이상'을 쓰시오.)",
+      "instruction_vi": "Điền mẫu thích hợp vào hai chỗ trống (㉡ dùng `-는 이상`).",
+      "context_vi": "Thông báo",
+      "text": "[안내] 헌혈 행사\n헌혈은 건강한 사람( ㉠ ) 할 수 있습니다. 헌혈을 하려면 신분증이 필요합니다. 신분증이 ( ㉡ ) 헌혈하실 수 없으니 꼭 가져오시기 바랍니다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "이어야만",
+            "이라야"
+          ],
+          "common_errors_vi": "Hiến máu có điều kiện bắt buộc là khoẻ mạnh → `건강한 사람이어야만`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "없는 이상",
+            "없는 이상은"
+          ],
+          "common_errors_vi": "Đã không có giấy tờ thì không thể hiến → `-는 이상` + «할 수 없으니»."
+        }
+      ],
+      "tips_vi": [
+        "㉠: `사람` + `이어야만`.",
+        "㉡: động từ/tính từ + `-는 이상`."
+      ]
+    },
+    {
+      "id": "X52F2",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52",
+      "title_vi": "Viết 52 · Hai câu lập luận",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền mẫu «tuỳ vào» và mẫu «đã … thì» vào văn bản 한다체.",
+      "context_vi": "Đoạn văn lập luận",
+      "text": "사람들은 흔히 성공이 재능에 달려 있다고 생각한다. 그러나 같은 재능을 가진 사람이라도 결과는 노력하기 ( ㉠ ). 목표를 세운 ( ㉡ ) 끝까지 해내려는 자세가 필요하다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "나름이다",
+            "에 달려 있다"
+          ],
+          "common_errors_vi": "Kết quả do nỗ lực quyết định → `노력하기 나름이다` hoặc `노력하기에 달려 있다`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "이상",
+            "이상은"
+          ],
+          "common_errors_vi": "Đã đặt mục tiêu rồi thì phải theo đến cùng → `세운 이상`."
+        }
+      ],
+      "tips_vi": [
+        "㉠ có hai cách đúng.",
+        "㉡ giữ nguyên `세운`, chỉ điền một từ."
+      ]
+    },
+    {
+      "id": "X52E1",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-mini",
+      "title_vi": "Viết · Đoạn ngắn «Thành công do đâu?», dùng 3 trong 4 mẫu",
+      "points": 20,
+      "instruction_ko": "※ 다음 주제로 짧은 글을 쓰시오.",
+      "instruction_vi": "Viết đoạn 4 câu (한다체) về điều quyết định thành công, dùng ít nhất **ba trong bốn mẫu**: `-기에 달려 있다/-기 나름이다`, `-아/어야만`, `-(으)나 마나`, `-(으)ㄴ 이상`.",
+      "limits": {
+        "min": 80,
+        "max": 220
+      },
+      "prompt_ko": "성공을 결정하는 것은 무엇인지 4문장으로 쓰십시오.",
+      "framework_vi": [
+        "Câu 1: nêu điều quyết định → `달려 있다/나름이다`.",
+        "Câu 2: đã đặt mục tiêu → `-(으)ㄴ 이상`.",
+        "Câu 3: chỉ lập kế hoạch mà không làm → `-(으)나 마나`.",
+        "Câu 4: điều kiện cần → `-아/어야만`."
+      ],
+      "patterns_vi": [
+        "`-기에 달려 있다 / -기 나름이다`",
+        "`-(으)ㄴ 이상`",
+        "`-(으)나 마나`",
+        "`-아/어야만`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Điều quyết định",
+          "chars": "25–45 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Đã đặt mục tiêu",
+          "chars": "25–45 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Làm cũng như không",
+          "chars": "25–45 chữ"
+        },
+        {
+          "part_vi": "Câu 4",
+          "content_vi": "Điều kiện cần",
+          "chars": "25–45 chữ"
+        }
+      ],
+      "model_answer_ko": "성공은 환경보다 노력하기에 달려 있다. 목표를 세운 이상 끝까지 해내려는 자세가 필요하다. 계획만 세우고 실천하지 않으면 그 계획은 세우나 마나이다. 결국 꾸준히 노력해야만 원하는 결과를 얻을 수 있다.",
+      "model_note_vi": "Bài mẫu dùng cả bốn mẫu; bạn chỉ cần ba. Viết 한다체, không dùng `-잖아요` hay `저는`.",
+      "common_errors_vi": [
+        "Viết `-는 나름이다` thay vì `-기 나름이다`.",
+        "Viết `N이야만`.",
+        "Dùng `-(으)나 마나` với tính từ."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Dùng đúng ít nhất 3 mẫu",
+          "max": 9
+        },
+        {
+          "criterion_vi": "Đúng nghĩa của từng mẫu",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Đúng 한다체, câu tự nhiên",
+          "max": 5
+        }
+      ],
+      "checklist_vi": [
+        "Có đủ 3 trong 4 mẫu?",
+        "`나름`, `마나`, `이상` viết cách chưa?",
+        "Có dùng 한다체 từ đầu đến cuối?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V + -기 나름이다 · V + -기에 달려 있다 · N + 에 달려 있다",
+          "regex": "달려 있|나름이",
+          "label_vi": "Có 달려 있다/나름이다"
+        },
+        {
+          "pattern": "V/A + -아/어야만 하다 · N + (이)라야",
+          "regex": "야만",
+          "label_vi": "Có -아/어야만"
+        },
+        {
+          "pattern": "V + -(으)나 마나",
+          "regex": "나 마나",
+          "label_vi": "Có -(으)나 마나"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 이상(은) · N + 인 이상",
+          "regex": "[가-힣] 이상",
+          "label_vi": "Có -(으)ㄴ 이상"
+        }
+      ]
+    },
+    {
+      "id": "X53F1",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51",
+      "title_vi": "Viết 51 · Thông báo tuyển thành viên",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền mẫu thích hợp vào hai chỗ trống (thông báo trang trọng).",
+      "context_vi": "Thông báo tuyển thành viên",
+      "text": "[공지] 사진 동호회 신입 회원 모집\n사진을 좋아하는 사람이라면 ( ㉠ ) 가입할 수 있습니다. 경험이 없다( ㉡ ) 걱정하지 않으셔도 됩니다. 처음에는 선배들이 도와드립니다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "누구든지",
+            "누구든"
+          ],
+          "common_errors_vi": "Ai cũng có thể tham gia → `누구든지`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "고 해서"
+          ],
+          "common_errors_vi": "Không có kinh nghiệm không có nghĩa là phải lo → `없다고 해서`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: một từ để hỏi + `(이)든지`.",
+        "㉡: `-다고 해서`, bạn chỉ điền phần sau `없다`."
+      ]
+    },
+    {
+      "id": "X53F2",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52",
+      "title_vi": "Viết 52 · Hai câu lập luận",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền mẫu thích hợp (so sánh `-다 보면` và `-다고 해서`).",
+      "context_vi": "Đoạn văn lập luận",
+      "text": "사람들은 한 가지 일을 오래 하( ㉠ ) 전문가가 된다고 생각한다. 그러나 오래 했다( ㉡ ) 반드시 실력이 늘어나는 것은 아니다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "다 보면",
+            "다가 보면"
+          ],
+          "common_errors_vi": "Vế sau là điều sẽ xảy ra (`전문가가 된다`) → `-다 보면`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "고 해서"
+          ],
+          "common_errors_vi": "Phản bác một quan niệm phổ biến: «làm lâu» ≠ «tiến bộ» → `했다고 해서`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: `하` + mẫu «cứ làm thì sẽ».",
+        "㉡: `했다` + mẫu phản bác."
+      ]
+    },
+    {
+      "id": "X53E1",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-mini",
+      "title_vi": "Viết · Đoạn ngắn về học ngoại ngữ, dùng 3 trong 4 mẫu",
+      "points": 20,
+      "instruction_ko": "※ 다음 주제로 짧은 글을 쓰시오.",
+      "instruction_vi": "Viết đoạn 4 câu (한다체) về cách học ngoại ngữ, dùng ít nhất **ba trong bốn mẫu**: `-고서/-고는/-고도`, `-다 보니`, `-(이)든지`, `-(ㄴ/는)다고 해서`.",
+      "limits": {
+        "min": 80,
+        "max": 220
+      },
+      "prompt_ko": "외국어를 잘하려면 무엇이 필요한지 4문장으로 쓰십시오.",
+      "framework_vi": [
+        "Câu 1: kể quá trình luyện tập → `-다 보니`.",
+        "Câu 2: bác bỏ quan niệm phổ biến → `-다고 해서 … -는 것은 아니다`.",
+        "Câu 3: ai cũng có thể → `누구든지`.",
+        "Câu 4: biết nhưng không dùng được → `-고도`."
+      ],
+      "patterns_vi": [
+        "`-다 보니`",
+        "`-다고 해서`",
+        "`누구든지`",
+        "`-고도`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Quá trình",
+          "chars": "25–45 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Phản bác",
+          "chars": "25–45 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Ai cũng có thể",
+          "chars": "25–45 chữ"
+        },
+        {
+          "part_vi": "Câu 4",
+          "content_vi": "Nhượng bộ",
+          "chars": "25–45 chữ"
+        }
+      ],
+      "model_answer_ko": "외국어는 매일 조금씩 공부하다 보니 어느새 실력이 늘어 있었다. 시험 점수가 높다고 해서 말을 잘하는 것은 아니다. 누구든지 틀리는 것을 두려워하지 않고 말해 보면 빨리 배울 수 있다. 문법을 알고도 말하지 못하는 사람이 많기 때문이다.",
+      "model_note_vi": "Bài mẫu dùng cả bốn mẫu; bạn chỉ cần ba. Viết 한다체, không dùng `-잖아요` hay `저는`.",
+      "common_errors_vi": [
+        "`-다 보니` + vế sau ở tương lai.",
+        "`-다고 해서` + khẳng định tuyệt đối.",
+        "Trộn 해요체 vào bài 한다체."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Dùng đúng ít nhất 3 mẫu",
+          "max": 9
+        },
+        {
+          "criterion_vi": "Đúng nghĩa của từng mẫu",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Đúng 한다체, câu tự nhiên",
+          "max": 5
+        }
+      ],
+      "checklist_vi": [
+        "Có đủ 3 trong 4 mẫu?",
+        "`-다 보니` có vế sau ở quá khứ?",
+        "`-다고 해서` có vế sau phủ định một phần?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V + -고서 · V + -고는 · V/A + -고도",
+          "regex": "고서|고는|고도",
+          "label_vi": "Có -고서/-고는/-고도"
+        },
+        {
+          "pattern": "V + -다 보니(까) · V + -다가 보니(까)",
+          "regex": "다 보니",
+          "label_vi": "Có -다 보니"
+        },
+        {
+          "pattern": "N + (이)든지 · V/A + -든지 -든지 · V/A + -건 -건",
+          "regex": "든지|건 ",
+          "label_vi": "Có -(이)든지"
+        },
+        {
+          "pattern": "V/A + -(ㄴ/는)다고 해서 · N + (이)라고 해서",
+          "regex": "다고 해서|라고 해서",
+          "label_vi": "Có -다고 해서"
+        }
+      ]
+    },
+    {
+      "id": "X54F1",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51",
+      "title_vi": "Viết 51 · Thông báo về buổi giảng",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền mẫu thích hợp vào hai chỗ trống (thông báo trang trọng).",
+      "context_vi": "Thông báo",
+      "text": "[안내] 기후 변화 특강\n이번 특강에서는 지구 온난화의 원인 ( ㉠ ) 대책도 함께 다룹니다. 앞서 안내해 드린 ( ㉡ ) 참가 신청은 이번 주 금요일까지입니다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "외에도",
+            "말고도",
+            "이외에도"
+          ],
+          "common_errors_vi": "Thêm một mục nữa ngoài nguyên nhân → `원인 외에도`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "바와 같이"
+          ],
+          "common_errors_vi": "Nhắc điều đã thông báo trước → `안내해 드린 바와 같이`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: bài 51.",
+        "㉡: nhắc điều đã thông báo."
+      ]
+    },
+    {
+      "id": "X54F2",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52",
+      "title_vi": "Viết 52 · Hai câu lập luận",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền mẫu thích hợp vào đoạn văn 한다체.",
+      "context_vi": "Đoạn văn mô tả",
+      "text": "이 도시는 한국의 대표적인 항구 도시( ㉠ ) 관광지로도 유명하다. 그러나 관광객이 늘어나는 한편 주민들의 불편도 커지고 있다. 편의와 환경을 함께 생각해야 하는 ( ㉡ ) 도시 전체의 계획이 필요하다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "이자",
+            "이며"
+          ],
+          "common_errors_vi": "Hai tư cách của cùng một đối tượng (cảng và điểm du lịch) → `항구 도시이자`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "만큼"
+          ],
+          "common_errors_vi": "Nghĩa «vì … nên» (tầm quan trọng) → `생각해야 하는 만큼`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: `N + 이자`.",
+        "㉡: `만큼` viết cách sau `-는`."
+      ]
+    },
+    {
+      "id": "X54E1",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-mini",
+      "title_vi": "Viết · Đoạn ngắn về điện thoại thông minh, dùng 3 trong 4 mẫu",
+      "points": 20,
+      "instruction_ko": "※ 다음 주제로 짧은 글을 쓰시오.",
+      "instruction_vi": "Viết đoạn 4 câu (한다체) về điện thoại thông minh, dùng ít nhất **ba trong bốn mẫu**: `-(으)ㄴ 바 있다`, `N이자/이며`, `-(으)ㄴ/는 한편`, `-(으)ㄴ/는 만큼`.",
+      "limits": {
+        "min": 80,
+        "max": 220
+      },
+      "prompt_ko": "스마트폰이 생활에 주는 영향에 대해 4문장으로 쓰십시오.",
+      "framework_vi": [
+        "Câu 1: hai vai trò → `N이자 N`.",
+        "Câu 2: điều nghiên cứu đã chỉ ra → `-(으)ㄴ 바 있다`.",
+        "Câu 3: tiện lợi tương xứng với trách nhiệm → `-(으)ㄴ 만큼`.",
+        "Câu 4: hai bên cùng làm → `-는 한편`."
+      ],
+      "patterns_vi": [
+        "`N이자 N`",
+        "`-(으)ㄴ 바 있다`",
+        "`-(으)ㄴ 만큼`",
+        "`-는 한편`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Hai vai trò",
+          "chars": "25–45 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Nghiên cứu chỉ ra",
+          "chars": "30–50 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Tiện lợi và trách nhiệm",
+          "chars": "25–45 chữ"
+        },
+        {
+          "part_vi": "Câu 4",
+          "content_vi": "Hai bên cùng làm",
+          "chars": "30–50 chữ"
+        }
+      ],
+      "model_answer_ko": "스마트폰은 연락 수단이자 정보를 얻는 도구이다. 그러나 지나치게 의존하면 집중력이 떨어진다는 점은 여러 연구가 지적한 바 있다. 편리한 만큼 사용 시간을 스스로 조절하는 노력이 필요하다. 개인이 노력하는 한편 학교와 사회도 올바른 사용 방법을 가르쳐야 한다.",
+      "model_note_vi": "Bài mẫu dùng cả bốn mẫu; bạn chỉ cần ba. Viết 한다체, không dùng `-잖아요` hay `저는`.",
+      "common_errors_vi": [
+        "Dùng `바 있다` cho chuyện đời thường.",
+        "Viết liền `바` hoặc `만큼` sau V/A.",
+        "Nhầm `한편` với `대신에`."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Dùng đúng ít nhất 3 mẫu",
+          "max": 9
+        },
+        {
+          "criterion_vi": "Đúng nghĩa và giọng trang trọng",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Đúng 한다체, câu tự nhiên",
+          "max": 5
+        }
+      ],
+      "checklist_vi": [
+        "Có đủ 3 trong 4 mẫu?",
+        "`바`, `만큼` viết cách đúng chưa?",
+        "Có dùng 한다체 từ đầu đến cuối?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V + -(으)ㄴ 바 있다 · V + -(으)ㄴ/는 바와 같이",
+          "regex": "바 있|바와 같이",
+          "label_vi": "Có -(으)ㄴ 바 있다"
+        },
+        {
+          "pattern": "N + 이며 · N + 이자",
+          "regex": "이자|이며",
+          "label_vi": "Có N이자/이며"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 한편 · N + 인 한편",
+          "regex": "한편",
+          "label_vi": "Có -는 한편"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 만큼 · V + -(으)ㄹ 만큼 · N + 만큼",
+          "regex": "만큼",
+          "label_vi": "Có -(으)ㄴ/는 만큼"
+        }
+      ]
+    },
+    {
+      "id": "X55F1",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51",
+      "title_vi": "Viết 51 · Thư hỏi về giáo trình",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền mẫu thích hợp vào hai chỗ trống (thư công việc).",
+      "context_vi": "Thư điện tử",
+      "text": "[이메일]\n제목: 학습 자료 문의\n안녕하세요. 이번 학기 교재로 쓰는 문제집은 초급 학습자가 혼자 풀( ㉠ ) 조금 어려운 것 같습니다. 그래서 학생들이 스스로 문제를 풀어 볼 수 있( ㉡ ) 해설집도 함께 받을 수 있을까요?",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "기에는",
+            "기엔",
+            "기에"
+          ],
+          "common_errors_vi": "Đánh giá mức độ «hơi khó để tự giải» → `풀기에는 조금 어렵다`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "게 하는",
+            "도록 하는",
+            "게 해 주는",
+            "도록 해 주는",
+            "게 도와주는"
+          ],
+          "common_errors_vi": "Khiến học sinh tự giải → `풀어 볼 수 있게 하는`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: đánh giá mức độ.",
+        "㉡: bắt/cho ai làm → `-게 하다`."
+      ]
+    },
+    {
+      "id": "X55F2",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52",
+      "title_vi": "Viết 52 · Hai câu lập luận",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền mẫu thích hợp vào đoạn văn 한다체.",
+      "context_vi": "Đoạn văn lập luận",
+      "text": "스마트폰을 오래 사용하다 보면 눈이 피로해( ㉠ ). 따라서 사용 시간을 스스로 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "지기 십상이다",
+            "지기 쉽다",
+            "지기 마련이다",
+            "지게 된다"
+          ],
+          "common_errors_vi": "Dự đoán điều xấu → `피로해지기 십상이다`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "자제할 필요가 있다",
+            "조절할 필요가 있다",
+            "자제해야 한다",
+            "조절해야 한다"
+          ],
+          "common_errors_vi": "Kết luận cần làm → `자제할 필요가 있다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: `-기 십상이다`.",
+        "㉡: `자제` hoặc `조절`."
+      ]
+    },
+    {
+      "id": "X55E1",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-mini",
+      "title_vi": "Viết · Đoạn ngắn về thói quen, dùng 3 trong 4 mẫu",
+      "points": 20,
+      "instruction_ko": "※ 다음 주제로 짧은 글을 쓰시오.",
+      "instruction_vi": "Viết đoạn 4 câu (한다체) về thói quen xấu và cách sửa, dùng ít nhất **ba trong bốn mẫu**: `-기 십상이다`, `N이나 다름없다`, `-기에는`, `-게 하다`.",
+      "limits": {
+        "min": 80,
+        "max": 220
+      },
+      "prompt_ko": "나쁜 습관이 생활에 주는 영향과 이를 고치는 방법을 4문장으로 쓰십시오.",
+      "framework_vi": [
+        "Câu 1: ảnh hưởng xấu → `-기 십상이다`.",
+        "Câu 2: nguyên nhân chính → `N이나 다름없다`.",
+        "Câu 3: giới hạn của việc đổi nhanh → `-기에는`.",
+        "Câu 4: giải pháp khiến người ta thực hiện → `-게 하다`."
+      ],
+      "patterns_vi": [
+        "`-기 십상이다`",
+        "`N이나 다름없다`",
+        "`-기에는`",
+        "`-게 하다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Ảnh hưởng xấu",
+          "chars": "25–50 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Nguyên nhân",
+          "chars": "25–50 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Giới hạn",
+          "chars": "25–50 chữ"
+        },
+        {
+          "part_vi": "Câu 4",
+          "content_vi": "Giải pháp",
+          "chars": "25–50 chữ"
+        }
+      ],
+      "model_answer_ko": "나쁜 습관은 무심코 반복하다 보면 건강을 해치기 십상이다. 특히 늦게 자는 버릇은 집중력이 떨어지는 가장 큰 원인이나 다름없다. 그러나 오랜 습관을 하루아침에 바꾸기에는 한계가 있으므로 작은 목표부터 세우는 것이 좋다. 작은 성공의 경험이 의욕을 높여 계속 실천하게 하기 때문이다.",
+      "model_note_vi": "Bài mẫu dùng cả bốn mẫu; bạn chỉ cần ba. Viết 한다체, không dùng `-잖아요` hay `저는`.",
+      "common_errors_vi": [
+        "Dùng `십상` cho điều tốt.",
+        "Vế sau `-기에는` là hành động.",
+        "Nhầm `-게 하다` với `-게 되다`."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Dùng đúng ít nhất 3 mẫu",
+          "max": 9
+        },
+        {
+          "criterion_vi": "Đúng nghĩa và logic giữa các câu",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Đúng 한다체, câu tự nhiên",
+          "max": 5
+        }
+      ],
+      "checklist_vi": [
+        "Có đủ 3 trong 4 mẫu?",
+        "Vế sau `-기에는` là đánh giá?",
+        "Có dùng 한다체 từ đầu đến cuối?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V + -기 십상이다 · V + -기 일쑤이다",
+          "regex": "십상|일쑤",
+          "label_vi": "Có -기 십상이다 / -기 일쑤이다"
+        },
+        {
+          "pattern": "N + (이)나 다름없다 · N + (이)나 마찬가지이다",
+          "regex": "다름없|마찬가지",
+          "label_vi": "Có N이나 다름없다"
+        },
+        {
+          "pattern": "V + -기에는 + A/V",
+          "regex": "기에는|기엔",
+          "label_vi": "Có -기에는"
+        },
+        {
+          "pattern": "V/A + -게 하다 · V/A + -게 만들다",
+          "regex": "게 (하|만들)",
+          "label_vi": "Có -게 하다 / -게 만들다"
+        }
+      ]
+    },
+    {
+      "id": "X56F1",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51",
+      "title_vi": "Viết 51 · Thông báo sản phẩm mới",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền quán ngữ thích hợp vào hai chỗ trống (thông báo).",
+      "context_vi": "Thông báo",
+      "text": "[안내] 신제품 발표회\n이번에 출시되는 신제품은 디자인이 독특해서 소비자의 ( ㉠ ) 것으로 기대됩니다. 발표회에서는 전문가들이 ( ㉡ ) 제품의 장점을 설명할 예정입니다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "눈길을 끌",
+            "눈길을 끌 수 있을",
+            "눈길을 끌게 될"
+          ],
+          "common_errors_vi": "Thiết kế độc đáo → `소비자의 눈길을 끌 것으로`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "입을 모아",
+            "입을 모으고"
+          ],
+          "common_errors_vi": "Nhiều chuyên gia cùng nói một ý → `입을 모아`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: thu hút ánh nhìn.",
+        "㉡: đồng thanh."
+      ]
+    },
+    {
+      "id": "X56F2",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52",
+      "title_vi": "Viết 52 · Hai câu mô tả",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền quán ngữ thích hợp vào đoạn văn 한다체.",
+      "context_vi": "Đoạn văn mô tả",
+      "text": "방학이 되기를 아이들이 ( ㉠ ) 기다렸다. 그러나 막상 방학이 되자 부모는 아이를 돌보느라 ( ㉡ ) 바빴다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "목이 빠지게"
+          ],
+          "common_errors_vi": "Ngóng mòn mỏi → `목이 빠지게 기다렸다`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "눈코 뜰 새 없이"
+          ],
+          "common_errors_vi": "Bận tối mắt tối mũi → `눈코 뜰 새 없이 바빴다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: `기다리다` đi với quán ngữ về cổ.",
+        "㉡: bận."
+      ]
+    },
+    {
+      "id": "X56E1",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-mini",
+      "title_vi": "Viết · Đoạn ngắn về ứng xử nơi công cộng, dùng 3 quán ngữ",
+      "points": 20,
+      "instruction_ko": "※ 다음 주제로 짧은 글을 쓰시오.",
+      "instruction_vi": "Viết đoạn 4 câu (한다체) về cách ứng xử nơi công cộng, dùng ít nhất **ba trong bốn quán ngữ**: `눈살을 찌푸리다`, `눈에 띄다`, `입을 모으다`, `귀를 기울이다`.",
+      "limits": {
+        "min": 80,
+        "max": 220
+      },
+      "prompt_ko": "공공장소에서 지켜야 할 예절에 대해 4문장으로 쓰십시오.",
+      "framework_vi": [
+        "Câu 1: hành vi gây khó chịu → `눈살을 찌푸리다`.",
+        "Câu 2: hành vi dễ bị chú ý → `눈에 띄다`.",
+        "Câu 3: chuyên gia → `입을 모으다`.",
+        "Câu 4: kết luận → `귀를 기울이다`."
+      ],
+      "patterns_vi": [
+        "`눈살을 찌푸리다`",
+        "`눈에 띄다`",
+        "`입을 모으다`",
+        "`귀를 기울이다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Hành vi khó chịu",
+          "chars": "25–50 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Hành vi bị chú ý",
+          "chars": "25–50 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Chuyên gia nói",
+          "chars": "25–50 chữ"
+        },
+        {
+          "part_vi": "Câu 4",
+          "content_vi": "Kết luận",
+          "chars": "25–50 chữ"
+        }
+      ],
+      "model_answer_ko": "공공장소에서 큰 소리로 통화하면 주변 사람들이 눈살을 찌푸리기 마련이다. 이런 행동은 남들의 눈에 띄지 않는 것 같아도 다른 사람에게 불편을 준다. 전문가들은 입을 모아 예절 교육이 필요하다고 말한다. 그러므로 우리 모두 다른 사람의 입장에 귀를 기울이는 태도를 가져야 한다.",
+      "model_note_vi": "Bài mẫu dùng cả bốn quán ngữ; bạn chỉ cần ba. Viết 한다체, không dùng `-잖아요` hay `저는`.",
+      "common_errors_vi": [
+        "Viết `눈에 띠다`.",
+        "Dùng `입을 모으다` cho một người.",
+        "Thêm trợ từ thừa: `눈살이 찌푸리다`."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Dùng đúng ít nhất 3 quán ngữ",
+          "max": 9
+        },
+        {
+          "criterion_vi": "Đúng nghĩa và logic giữa các câu",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Đúng 한다체, câu tự nhiên",
+          "max": 5
+        }
+      ],
+      "checklist_vi": [
+        "Có đủ 3 trong 4 quán ngữ?",
+        "Chia động từ đúng chưa?",
+        "Có dùng 한다체 từ đầu đến cuối?"
+      ],
+      "detectors": [
+        {
+          "pattern": "눈 ②: 눈살을 찌푸리다 · 눈 밖에 나다 · 한눈을 팔다 · 눈코 뜰 새 없다 · 눈을 붙이다 · 눈을 딱 감다",
+          "regex": "눈살을 찌푸",
+          "label_vi": "Có 눈살을 찌푸리다"
+        },
+        {
+          "pattern": "눈 ①: 눈에 띄다 · 눈길을 끌다 · 눈이 높다",
+          "regex": "눈에 띄|눈에 띈|눈길을 끌",
+          "label_vi": "Có 눈에 띄다 / 눈길을 끌다"
+        },
+        {
+          "pattern": "귀·입: 귀를 기울이다 · 귀가 얇다 · 입이 짧다 · 입이 무겁다 · 입을 다물다 · 입을 모으다",
+          "regex": "입을 모|귀를 기울",
+          "label_vi": "Có 입을 모으다 / 귀를 기울이다"
+        }
+      ]
+    },
+    {
+      "id": "X57F1",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51",
+      "title_vi": "Viết 51 · Thư cảm ơn",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền quán ngữ thích hợp vào hai chỗ trống (thư điện tử).",
+      "context_vi": "Thư điện tử",
+      "text": "[이메일]\n제목: 감사 인사\n지난번 이사하실 때 이웃 분들이 ( ㉠ ) 도와주셔서 큰 힘이 되었습니다. 덕분에 일이 빨리 끝나 이제야 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "발 벗고 나서서",
+            "발 벗고 나서"
+          ],
+          "common_errors_vi": "Hăng hái giúp đỡ → `발 벗고 나서서`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "한숨 돌렸습니다",
+            "한숨을 돌렸습니다",
+            "한숨 돌렸어요"
+          ],
+          "common_errors_vi": "Xong việc, thở phào → `한숨 돌렸습니다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: hăng hái giúp.",
+        "㉡: thở phào."
+      ]
+    },
+    {
+      "id": "X57F2",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52",
+      "title_vi": "Viết 52 · Hai câu mô tả",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền quán ngữ thích hợp vào đoạn văn 한다체.",
+      "context_vi": "Đoạn văn mô tả",
+      "text": "시험이 내일인데도 그는 아직 책을 펴지 않았다. 이제 ( ㉠ ) 모양이다. 마음이 급하니 아무 일도 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "발등에 불이 떨어진"
+          ],
+          "common_errors_vi": "Việc gấp đến nơi → `발등에 불이 떨어진 모양이다`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "손에 잡히지 않는다"
+          ],
+          "common_errors_vi": "Không tập trung làm gì → `손에 잡히지 않는다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: định ngữ trước `모양이다`.",
+        "㉡: chủ ngữ là việc."
+      ]
+    },
+    {
+      "id": "X57E1",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-mini",
+      "title_vi": "Viết · Đoạn ngắn về làm việc nhóm, dùng 3 quán ngữ",
+      "points": 20,
+      "instruction_ko": "※ 다음 주제로 짧은 글을 쓰시오.",
+      "instruction_vi": "Viết đoạn 4 câu (한다체) về một lần làm việc nhóm, dùng ít nhất **ba trong bốn quán ngữ**: `손발이 맞다`, `발 벗고 나서다`, `이를 악물다`, `가슴에 새기다`.",
+      "limits": {
+        "min": 80,
+        "max": 220
+      },
+      "prompt_ko": "함께 일한 경험에서 배운 점을 4문장으로 쓰십시오.",
+      "framework_vi": [
+        "Câu 1: phối hợp ăn ý → `손발이 맞다`.",
+        "Câu 2: mọi người vào cuộc → `발 벗고 나서다`.",
+        "Câu 3: cố chịu → `이를 악물다`.",
+        "Câu 4: bài học → `가슴에 새기다`."
+      ],
+      "patterns_vi": [
+        "`손발이 맞다`",
+        "`발 벗고 나서다`",
+        "`이를 악물다`",
+        "`가슴에 새기다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Phối hợp",
+          "chars": "25–50 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Giải quyết vấn đề",
+          "chars": "25–50 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Cố chịu",
+          "chars": "25–50 chữ"
+        },
+        {
+          "part_vi": "Câu 4",
+          "content_vi": "Bài học",
+          "chars": "25–50 chữ"
+        }
+      ],
+      "model_answer_ko": "지난 학기에 팀 과제를 하면서 동료들과 손발이 잘 맞아 일이 빨리 진행되었다. 중간에 문제가 생겼을 때에도 모두 발 벗고 나서서 해결책을 찾았다. 힘든 순간마다 이를 악물고 끝까지 해낸 경험은 지금도 가슴에 새겨져 있다. 앞으로도 협력의 중요성을 잊지 않고 싶다.",
+      "model_note_vi": "Bài mẫu dùng cả bốn quán ngữ; bạn chỉ cần ba. Viết 한다체, không dùng `-잖아요` hay `저는`.",
+      "common_errors_vi": [
+        "Dùng nghĩa đen của quán ngữ.",
+        "Thiếu giới từ: `N에서 손을 떼다`.",
+        "Nhầm cảm xúc `철렁하다` với `뭉클하다`."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Dùng đúng ít nhất 3 quán ngữ",
+          "max": 9
+        },
+        {
+          "criterion_vi": "Đúng nghĩa và logic giữa các câu",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Đúng 한다체, câu tự nhiên",
+          "max": 5
+        }
+      ],
+      "checklist_vi": [
+        "Có đủ 3 trong 4 quán ngữ?",
+        "Chia động từ đúng chưa?",
+        "Có dùng 한다체 từ đầu đến cuối?"
+      ],
+      "detectors": [
+        {
+          "pattern": "발·다리·허리: 발이 넓다 · 발등에 불이 떨어지다 · 발 벗고 나서다 · 발목을 잡다 · 손발이 맞다 · 다리를 놓다 · 허리띠를 졸라매다",
+          "regex": "손발이 맞|손발이 잘 맞|발 벗고 나",
+          "label_vi": "Có 손발이 맞다 / 발 벗고 나서다"
+        },
+        {
+          "pattern": "버티기·관계: 이를 악물다 · 담을 쌓다 · 꼬리를 물다 · 한숨을 돌리다",
+          "regex": "이를 악물",
+          "label_vi": "Có 이를 악물다"
+        },
+        {
+          "pattern": "가슴: 가슴을 쓸어내리다 · 가슴에 새기다 · 가슴이 뭉클하다 · 가슴이 철렁하다",
+          "regex": "가슴에 새",
+          "label_vi": "Có 가슴에 새기다"
+        }
+      ]
+    },
+    {
+      "id": "X58F1",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51",
+      "title_vi": "Viết 51 · Thư phàn nàn",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền cụm thích hợp vào hai chỗ trống (thư điện tử).",
+      "context_vi": "Thư điện tử",
+      "text": "[이메일]\n제목: 가격 문의\n지난주에 이 매장에서 물건을 샀는데 다른 곳보다 값이 훨씬 비쌌습니다. 아무래도 제가 ( ㉠ ) 것 같습니다. 다음에는 가격을 꼼꼼히 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "바가지를 쓴"
+          ],
+          "common_errors_vi": "Mua đắt hơn thật → `바가지를 쓴`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "비교해 보고 사겠습니다",
+            "비교하고 사겠습니다",
+            "비교해 보겠습니다",
+            "비교해 보고 사려고 합니다"
+          ],
+          "common_errors_vi": "Nêu kế hoạch lần sau → `비교해 보고 사겠습니다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: định ngữ trước `것 같습니다`.",
+        "㉡: kế hoạch lần sau."
+      ]
+    },
+    {
+      "id": "X58F2",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52",
+      "title_vi": "Viết 52 · Hai câu có tục ngữ",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền tục ngữ vào ㉠ và câu kết vào ㉡ (한다체).",
+      "context_vi": "Đoạn văn mô tả",
+      "text": "사고가 난 뒤에야 안전 점검을 시작했다. ( ㉠ )고 하더니 뒤늦게 후회하는 것이다. 앞으로는 사고가 나기 전에 미리 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "소 잃고 외양간 고친다"
+          ],
+          "common_errors_vi": "Mất bò mới lo chuồng → `소 잃고 외양간 고친다고 하더니`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "대비해야 한다",
+            "대비해야겠다",
+            "준비해야 한다"
+          ],
+          "common_errors_vi": "Rút ra bài học → `대비해야 한다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: tục ngữ nguyên văn, đã có sẵn `고`.",
+        "㉡: kết bằng 한다체."
+      ]
+    },
+    {
+      "id": "X58E1",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-mini",
+      "title_vi": "Viết · Đoạn kết có tục ngữ và 사자성어",
+      "points": 20,
+      "instruction_ko": "※ 다음 주제로 짧은 글을 쓰시오.",
+      "instruction_vi": "Viết đoạn 4 câu (한다체) kết bài về «cách vượt qua khó khăn», dùng ít nhất **hai trong các mục**: `티끌 모아 태산`, `백지장도 맞들면 낫다`, `고생 끝에 낙이 온다`, `역지사지`, `유비무환`, `고진감래`.",
+      "limits": {
+        "min": 80,
+        "max": 220
+      },
+      "prompt_ko": "어려움을 이겨 내는 방법에 대해 4문장으로 쓰십시오.",
+      "framework_vi": [
+        "Câu 1: nêu khó khăn.",
+        "Câu 2: nhấn việc cố gắng nhỏ lâu dài → `티끌 모아 태산`.",
+        "Câu 3: nhấn hợp tác → `백지장도 맞들면 낫다`.",
+        "Câu 4: chốt thái độ → `역지사지` hoặc `유비무환`."
+      ],
+      "patterns_vi": [
+        "`티끌 모아 태산`",
+        "`백지장도 맞들면 낫다`",
+        "`역지사지`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Khó khăn",
+          "chars": "25–50 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Cố gắng từng chút",
+          "chars": "25–50 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Hợp tác",
+          "chars": "25–50 chữ"
+        },
+        {
+          "part_vi": "Câu 4",
+          "content_vi": "Thái độ",
+          "chars": "25–50 chữ"
+        }
+      ],
+      "model_answer_ko": "누구나 살면서 어려운 일을 만난다. 그럴 때에는 티끌 모아 태산이라는 말처럼 작은 노력을 꾸준히 쌓아 가는 것이 중요하다. 또한 백지장도 맞들면 낫다는 말이 있듯이 주변 사람과 힘을 합치면 부담이 줄어든다. 무엇보다 역지사지의 자세로 서로를 이해한다면 어떤 어려움도 함께 이겨 낼 수 있을 것이다.",
+      "model_note_vi": "Bài mẫu dùng ba mục; bạn chỉ cần hai. Viết 한다체, tục ngữ chen bằng `…(이)라는 말처럼`.",
+      "common_errors_vi": [
+        "Cắt tục ngữ giữa chừng.",
+        "Dùng quá nhiều tục ngữ (chỉ nên 1–2).",
+        "Dùng khẩu ngữ như `오지랖`, `바가지` trong bài viết trang trọng."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Dùng đúng ít nhất 2 tục ngữ / 사자성어",
+          "max": 9
+        },
+        {
+          "criterion_vi": "Câu liên kết tự nhiên với ý chính",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Đúng 한다체, không khẩu ngữ",
+          "max": 5
+        }
+      ],
+      "checklist_vi": [
+        "Có ít nhất 2 mục đã học?",
+        "Có chen tục ngữ bằng `…(이)라는 말처럼` hay `…(이)라는 말이 있듯이`?",
+        "Có dùng 한다체 từ đầu đến cuối?"
+      ],
+      "detectors": [
+        {
+          "pattern": "속담 ③: 노력·협력·시야: 티끌 모아 태산 · 백지장도 맞들면 낫다 · 고생 끝에 낙이 온다 · 우물 안 개구리",
+          "regex": "티끌 모아 태산|백지장도 맞들면|고생 끝에 낙",
+          "label_vi": "Có tục ngữ nhóm ③"
+        },
+        {
+          "pattern": "사자성어 ②: 교훈: 역지사지 · 유비무환 · 아전인수 · 새옹지마 · 고진감래",
+          "regex": "역지사지|유비무환|고진감래|새옹지마",
+          "label_vi": "Có 사자성어 nhóm ②"
+        }
+      ]
+    },
+    {
+      "id": "X59F1",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51",
+      "title_vi": "Viết 51 · Thông báo tăng giá",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền từ thích hợp vào hai chỗ trống của thông báo.",
+      "context_vi": "Thông báo",
+      "text": "[공지]\n제품 가격 안내\n원자재 가격이 크게 ( ㉠ ) 다음 달부터 일부 제품의 가격을 ( ㉡ ) 되었습니다. 이해해 주시기 바랍니다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "올라서",
+            "올라",
+            "상승하여",
+            "상승해서"
+          ],
+          "common_errors_vi": "Nguyên liệu tăng giá → `올라서` (nguyên nhân)."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "인상하게",
+            "올리게"
+          ],
+          "common_errors_vi": "Quyết định tăng giá → `인상하게 되었습니다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: nguyên nhân (-아/어서).",
+        "㉡: `-게 되다` + từ chỉ tăng."
+      ]
+    },
+    {
+      "id": "X59F2",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52",
+      "title_vi": "Viết 52 · Hai câu tin kinh tế",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền vào đoạn tin (한다체).",
+      "context_vi": "Đoạn tin kinh tế",
+      "text": "올해 우리나라의 경제 성장률은 1%대에 ( ㉠ ) 전망이다. 소비가 줄고 있어서 기업의 투자도 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "그칠"
+          ],
+          "common_errors_vi": "Kết quả thấp → `1%대에 그칠 전망이다`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "줄어들 것으로 예상된다",
+            "줄어들 것으로 전망된다",
+            "줄어들 전망이다",
+            "감소할 것으로 예상된다",
+            "감소할 전망이다"
+          ],
+          "common_errors_vi": "Dự báo → `줄어들 것으로 예상된다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: định ngữ trước `전망이다`.",
+        "㉡: dự báo bằng một mẫu khác `전망이다`."
+      ]
+    },
+    {
+      "id": "X59E1",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-mini",
+      "title_vi": "Viết · Mô tả bảng số liệu (kinh tế)",
+      "points": 20,
+      "instruction_ko": "※ 다음 표를 보고 글을 쓰시오.",
+      "instruction_vi": "Viết đoạn 3–4 câu (한다체) mô tả bảng, dùng `전년 대비` và ít nhất một mẫu: `에 그치다` hoặc `에 불과하다`.",
+      "limits": {
+        "min": 80,
+        "max": 220
+      },
+      "data": [
+        {
+          "title_vi": "X사의 연도별 매출액 (자료는 가상)",
+          "note_vi": "자료는 가상 = số liệu giả định, tự soạn để luyện viết.",
+          "table": {
+            "header": [
+              "연도",
+              "2023년",
+              "2024년",
+              "2025년"
+            ],
+            "rows": [
+              [
+                "매출액(억 원)",
+                "100",
+                "130",
+                "135"
+              ]
+            ]
+          }
+        }
+      ],
+      "prompt_ko": "표의 내용을 설명하는 글을 쓰십시오.",
+      "framework_vi": [
+        "Câu 1: nêu đối tượng và thời gian.",
+        "Câu 2: 2023→2024 tăng mạnh, nêu mức `전년 대비`.",
+        "Câu 3: 2024→2025 chỉ tăng nhẹ → `에 그치다` / `에 불과하다`."
+      ],
+      "patterns_vi": [
+        "`N에 그치다`",
+        "`N에 불과하다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Giới thiệu",
+          "chars": "25–45 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Tăng mạnh",
+          "chars": "25–50 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Tăng nhẹ",
+          "chars": "25–50 chữ"
+        }
+      ],
+      "model_answer_ko": "X사의 매출액은 2023년 100억 원에서 2024년 130억 원으로 전년 대비 30% 증가하였다. 그러나 2025년에는 135억 원으로 전년 대비 증가 폭이 5억 원에 그쳤다. 이는 2024년의 증가분과 비교하면 크게 줄어든 수준이다.",
+      "model_note_vi": "Con số trong bài là giả định. Dùng `-았/었다` hoặc `-하였다` nhất quán. 30% = (130−100)/100.",
+      "common_errors_vi": [
+        "Không nêu mức tăng cụ thể.",
+        "Dùng `에 불과하다` cho số lớn.",
+        "Trộn 한다체 và 해요체."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Mô tả đúng số liệu",
+          "max": 8
+        },
+        {
+          "criterion_vi": "Dùng đúng mẫu `에 그치다`/`에 불과하다`",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Đúng 한다체, câu tự nhiên",
+          "max": 6
+        }
+      ],
+      "checklist_vi": [
+        "Có `전년 대비`?",
+        "Có `에 그치다` hoặc `에 불과하다`?",
+        "Con số đúng với bảng?"
+      ],
+      "detectors": [
+        {
+          "pattern": "N + 에 그치다 · V + -는 데 그치다 · N + 에 불과하다 · V + -(으)ㄹ 따름이다",
+          "regex": "에 그[치쳤]|에 불과|따름",
+          "label_vi": "Có mẫu 에 그치다 / 에 불과하다"
+        }
+      ]
+    },
+    {
+      "id": "X60F1",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51",
+      "title_vi": "Viết 51 · Thông báo bỏ phiếu sớm",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền từ thích hợp vào hai chỗ trống của thông báo.",
+      "context_vi": "Thông báo",
+      "text": "[공지]\n사전투표 안내\n사전투표는 선거일 전 5일부터 이틀 동안 ( ㉠ ). 투표에 ( ㉡ ) 신분증을 확인하니 꼭 가지고 오시기 바랍니다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "실시됩니다",
+            "진행됩니다",
+            "할 수 있습니다",
+            "가능합니다"
+          ],
+          "common_errors_vi": "Thông báo trang trọng → `실시됩니다` (được tiến hành)."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "앞서"
+          ],
+          "common_errors_vi": "`투표에 앞서`: trước khi bỏ phiếu, văn thông báo."
+        }
+      ],
+      "tips_vi": [
+        "㉠: câu thông báo -ㅂ니다.",
+        "㉡: `N에 앞서` = trước khi."
+      ]
+    },
+    {
+      "id": "X60F2",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52",
+      "title_vi": "Viết 52 · Hai câu về đi bầu",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền vào đoạn văn (한다체).",
+      "context_vi": "Đoạn văn ngắn",
+      "text": "청년들의 정치 관심이 낮아지는 ( ㉠ ) 투표율도 떨어지고 있다. 따라서 청년이 선거에 참여할 수 있도록 다양한 정책을 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "가운데"
+          ],
+          "common_errors_vi": "Bối cảnh → `낮아지는 가운데`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "마련해야 한다",
+            "만들어야 한다",
+            "추진해야 한다",
+            "세워야 한다",
+            "마련할 필요가 있다"
+          ],
+          "common_errors_vi": "Kết luận 한다체 → `마련해야 한다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: định ngữ `-는` + danh từ chỉ bối cảnh.",
+        "㉡: văn viết kết thúc bằng `-아/어야 한다`."
+      ]
+    },
+    {
+      "id": "X60E1",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-mini",
+      "title_vi": "Viết · Mô tả bảng khảo sát (chính trị)",
+      "points": 20,
+      "instruction_ko": "※ 다음 표를 보고 글을 쓰시오.",
+      "instruction_vi": "Viết đoạn 3–4 câu (한다체) mô tả bảng, dùng ít nhất một mẫu: `-(으)ㄴ/는 가운데` hoặc `-(으)ㄴ 끝에`.",
+      "limits": {
+        "min": 80,
+        "max": 220
+      },
+      "data": [
+        {
+          "title_vi": "투표하지 않은 이유 (자료는 가상)",
+          "note_vi": "자료는 가상 = số liệu giả định, tự soạn để luyện viết.",
+          "table": {
+            "header": [
+              "이유",
+              "응답 비율(%)"
+            ],
+            "rows": [
+              [
+                "정치에 관심이 없어서",
+                "40"
+              ],
+              [
+                "후보를 잘 몰라서",
+                "30"
+              ],
+              [
+                "시간이 없어서",
+                "20"
+              ],
+              [
+                "기타",
+                "10"
+              ]
+            ]
+          }
+        }
+      ],
+      "prompt_ko": "표의 내용을 설명하는 글을 쓰십시오.",
+      "framework_vi": [
+        "Câu 1: nêu đề tài khảo sát và lý do cao nhất.",
+        "Câu 2: lý do thứ hai, dùng `-는 가운데`.",
+        "Câu 3: so sánh với lý do thấp hơn."
+      ],
+      "patterns_vi": [
+        "`-(으)ㄴ/는 가운데`",
+        "`N에 그치다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Lý do cao nhất",
+          "chars": "25–50 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Lý do thứ hai",
+          "chars": "25–55 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Lý do thấp hơn",
+          "chars": "20–50 chữ"
+        }
+      ],
+      "model_answer_ko": "투표하지 않은 이유를 조사한 결과 ‘정치에 관심이 없어서’가 40%로 가장 많았다. 10명 중 4명이 이렇게 답한 가운데 ‘후보를 잘 몰라서’라는 응답도 30%를 차지하였다. 반면 ‘시간이 없어서’는 20%에 그쳤고 기타 의견은 10%였다.",
+      "model_note_vi": "Con số trong bài là giả định. `10명 중 4명` = 40%. Dùng `-았/었다` hoặc `-하였다` nhất quán.",
+      "common_errors_vi": [
+        "Không nêu con số cụ thể.",
+        "Dùng `-는 가운데` nối hai việc không liên quan.",
+        "Trộn 한다체 và 해요체."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Mô tả đúng số liệu",
+          "max": 8
+        },
+        {
+          "criterion_vi": "Dùng đúng `-(으)ㄴ/는 가운데` hoặc `-(으)ㄴ 끝에`",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Đúng 한다체, câu tự nhiên",
+          "max": 6
+        }
+      ],
+      "checklist_vi": [
+        "Có con số cụ thể?",
+        "Có `가운데` hoặc `끝에`?",
+        "Số liệu đúng với bảng?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V/A + -(으)ㄴ/는 가운데 · N + 에 앞서 · V + -(으)ㄴ 끝에",
+          "regex": "가운데|끝에|에 앞서",
+          "label_vi": "Có mẫu -는 가운데 / -(으)ㄴ 끝에 / 에 앞서"
+        }
+      ]
+    },
+    {
+      "id": "X61F1",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51",
+      "title_vi": "Viết 51 · Thông cáo về pin mới",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền từ thích hợp vào hai chỗ trống của thông cáo.",
+      "context_vi": "Thông cáo báo chí",
+      "text": "[보도 자료]\n신제품 배터리 출시\n저희 연구소는 정부의 지원에 ( ㉠ ) 새로운 배터리를 개발했습니다. 이 배터리는 충전 시간을 절반으로 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "힘입어"
+          ],
+          "common_errors_vi": "Nhờ sự hỗ trợ của chính phủ → `지원에 힘입어`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "줄였습니다",
+            "줄일 수 있습니다",
+            "단축했습니다",
+            "단축할 수 있습니다"
+          ],
+          "common_errors_vi": "Kết quả → `줄였습니다` hoặc `줄일 수 있습니다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: `N에 힘입어` = nhờ.",
+        "㉡: kết thúc trang trọng -ㅂ니다."
+      ]
+    },
+    {
+      "id": "X61F2",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52",
+      "title_vi": "Viết 52 · Hai câu về giấc ngủ",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền vào đoạn văn (한다체).",
+      "context_vi": "Đoạn văn ngắn",
+      "text": "연구진이 조사한 결과 청소년의 수면 시간이 해마다 ( ㉠ ) 나타났다. 수면이 부족하면 집중력이 떨어지므로 충분히 자는 습관이 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "줄어든 것으로",
+            "줄어드는 것으로",
+            "감소한 것으로",
+            "감소하는 것으로"
+          ],
+          "common_errors_vi": "Kết quả điều tra → `줄어든 것으로 나타났다`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "필요하다",
+            "중요하다",
+            "필요하다고 한다"
+          ],
+          "common_errors_vi": "Kết luận 한다체 → `필요하다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: định ngữ + `것으로`.",
+        "㉡: tính từ kết thúc 한다체."
+      ]
+    },
+    {
+      "id": "X61E1",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-mini",
+      "title_vi": "Viết · So sánh hai sản phẩm theo bảng (khoa học – công nghệ)",
+      "points": 20,
+      "instruction_ko": "※ 다음 표를 보고 글을 쓰시오.",
+      "instruction_vi": "Viết đoạn 3–4 câu (한다체) so sánh pin mới và pin cũ, dùng `-(으)ㄴ 결과 … 것으로 나타났다` hoặc `것으로 밝혀졌다`.",
+      "limits": {
+        "min": 80,
+        "max": 220
+      },
+      "data": [
+        {
+          "title_vi": "기존 배터리와 신제품 배터리 비교 (자료는 가상)",
+          "note_vi": "자료는 가상 = số liệu giả định, tự soạn để luyện viết.",
+          "table": {
+            "header": [
+              "구분",
+              "기존 배터리",
+              "신제품 배터리"
+            ],
+            "rows": [
+              [
+                "충전 시간(분)",
+                "60",
+                "30"
+              ],
+              [
+                "사용 시간(시간)",
+                "10",
+                "14"
+              ],
+              [
+                "가격(만 원)",
+                "20",
+                "25"
+              ]
+            ]
+          }
+        }
+      ],
+      "prompt_ko": "표의 내용을 설명하는 글을 쓰십시오.",
+      "framework_vi": [
+        "Câu 1: so sánh thời gian sạc, dùng `비교한 결과 … 것으로 나타났다`.",
+        "Câu 2: thời gian dùng và giá, dùng `-(으)ㄴ 반면` hoặc `에 비해`.",
+        "Câu 3: kết luận ngắn."
+      ],
+      "patterns_vi": [
+        "`-(으)ㄴ/는 것으로 나타나다`",
+        "`-(으)ㄴ 결과`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Thời gian sạc",
+          "chars": "35–60 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Thời gian dùng và giá",
+          "chars": "35–70 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Kết luận",
+          "chars": "20–50 chữ"
+        }
+      ],
+      "model_answer_ko": "신제품 배터리와 기존 배터리를 비교한 결과 신제품의 충전 시간은 30분으로 기존 제품의 절반인 것으로 나타났다. 사용 시간은 10시간에서 14시간으로 늘어난 반면 가격은 20만 원에서 25만 원으로 올랐다. 따라서 신제품은 성능이 좋아졌지만 가격 부담도 커졌다.",
+      "model_note_vi": "Con số trong bài là giả định. 60분 → 30분 là giảm một nửa. Dùng 한다체 nhất quán.",
+      "common_errors_vi": [
+        "Dùng chủ ngữ là người với `나타나다`.",
+        "Không nêu con số cụ thể.",
+        "Trộn 한다체 và 해요체."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Mô tả đúng số liệu",
+          "max": 8
+        },
+        {
+          "criterion_vi": "Dùng đúng `것으로 나타났다`/`밝혀졌다`",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Đúng 한다체, câu tự nhiên",
+          "max": 6
+        }
+      ],
+      "checklist_vi": [
+        "Có `비교한 결과` hoặc `조사 결과`?",
+        "Có `것으로 나타났다`?",
+        "Con số đúng với bảng?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V/A + -(으)ㄴ/는 것으로 나타나다 · V + -(으)ㄴ 것으로 밝혀지다 · V + -(으)ㄴ/는 것으로 알려져 있다",
+          "regex": "것으로 (나타|밝혀|알려)",
+          "label_vi": "Có mẫu 것으로 나타났다 / 밝혀졌다 / 알려져 있다"
+        }
+      ]
+    },
+    {
+      "id": "X62F1",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51",
+      "title_vi": "Viết 51 · Thư xin tài liệu bài giảng",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền từ thích hợp vào hai chỗ trống của thư điện tử.",
+      "context_vi": "Thư điện tử",
+      "text": "[메일]\n제목: 특강 자료 요청\n안녕하세요. 다음 주 윤리 특강에 꼭 ( ㉠ ) 급한 일이 생겨서 참석하지 못할 것 같습니다. 직접 참석하지 못( ㉡ ) 자료는 받고 싶으니 보내 주시면 감사하겠습니다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "참석하려고 했는데",
+            "참석하고 싶었는데",
+            "가려고 했는데",
+            "가고 싶었는데",
+            "참석하려고 했지만"
+          ],
+          "common_errors_vi": "Ý định bị cản trở → `참석하려고 했는데`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "할지라도",
+            "하더라도",
+            "한다 해도"
+          ],
+          "common_errors_vi": "Nhượng bộ → `참석하지 못할지라도`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: ý định + `-는데` (nêu bối cảnh).",
+        "㉡: mẫu nhượng bộ mạnh `-(으)ㄹ지라도`."
+      ]
+    },
+    {
+      "id": "X62F2",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52",
+      "title_vi": "Viết 52 · Hai câu nhận định",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền vào đoạn văn (한다체).",
+      "context_vi": "Đoạn văn ngắn",
+      "text": "이 정책은 많은 사람이 이용한다는 점에서 성공했다고 ( ㉠ ). 그러나 비용이 늘어나는 문제는 앞으로 해결해야 할 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "볼 수 있다",
+            "할 수 있다",
+            "볼 수도 있다"
+          ],
+          "common_errors_vi": "Nhận định → `성공했다고 볼 수 있다`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "과제이다",
+            "문제이다",
+            "숙제이다",
+            "과제로 남아 있다"
+          ],
+          "common_errors_vi": "Chốt vấn đề còn lại → `과제이다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: mẫu nhận định có `수`.",
+        "㉡: danh từ kết thúc 한다체."
+      ]
+    },
+    {
+      "id": "X62E1",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-mini",
+      "title_vi": "Viết · Mô tả khảo sát và nêu nhận định (đạo đức)",
+      "points": 20,
+      "instruction_ko": "※ 다음 표를 보고 글을 쓰시오.",
+      "instruction_vi": "Viết đoạn 3–4 câu (한다체) mô tả kết quả khảo sát và kết luận bằng `-다고 볼 수 있다` hoặc `-다기보다`.",
+      "limits": {
+        "min": 80,
+        "max": 220
+      },
+      "data": [
+        {
+          "title_vi": "정직과 이익이 충돌할 때의 선택 (자료는 가상)",
+          "note_vi": "자료는 가상 = số liệu giả định, tự soạn để luyện viết.",
+          "table": {
+            "header": [
+              "응답",
+              "비율(%)"
+            ],
+            "rows": [
+              [
+                "이익이 줄어도 정직해야 한다",
+                "60"
+              ],
+              [
+                "상황에 따라 다르다",
+                "30"
+              ],
+              [
+                "이익을 우선해야 한다",
+                "10"
+              ]
+            ]
+          }
+        }
+      ],
+      "prompt_ko": "표의 내용을 설명하고 결론을 쓰십시오.",
+      "framework_vi": [
+        "Câu 1: nêu đề tài và lựa chọn cao nhất.",
+        "Câu 2: lựa chọn thứ hai và thứ ba, dùng `에 불과하다` hoặc `에 그치다` cho số nhỏ.",
+        "Câu 3: kết luận bằng `-다고 볼 수 있다`."
+      ],
+      "patterns_vi": [
+        "`-다고 볼 수 있다`",
+        "`N에 불과하다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Lựa chọn cao nhất",
+          "chars": "35–60 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Hai lựa chọn còn lại",
+          "chars": "30–60 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Kết luận",
+          "chars": "25–50 chữ"
+        }
+      ],
+      "model_answer_ko": "정직과 이익이 충돌할 때 어떻게 해야 하는지 묻는 설문에서 ‘이익이 줄어도 정직해야 한다’는 응답이 60%로 가장 많았다. ‘상황에 따라 다르다’는 응답은 30%였고 ‘이익을 우선해야 한다’는 응답은 10%에 불과하였다. 이를 보면 대부분의 사람이 정직을 이익보다 중요하게 생각한다고 볼 수 있다.",
+      "model_note_vi": "Con số trong bài là giả định. Kết luận phải khớp số liệu (60% chọn chính trực). Dùng 한다체 nhất quán.",
+      "common_errors_vi": [
+        "Kết luận không dựa trên số liệu.",
+        "Dùng `-다고 볼 수 있다` sai thì.",
+        "Trộn 한다체 và 해요체."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Mô tả đúng số liệu",
+          "max": 8
+        },
+        {
+          "criterion_vi": "Dùng đúng `-다고 볼 수 있다` / `-다기보다`",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Đúng 한다체, câu tự nhiên",
+          "max": 6
+        }
+      ],
+      "checklist_vi": [
+        "Có con số cụ thể?",
+        "Có `볼 수 있다` ở câu kết?",
+        "Kết luận khớp với bảng?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V/A + -다고 볼 수 있다 · V/A + -다고도 할 수 있다 · V/A + -(ㄴ/는)다기보다(는)",
+          "regex": "다고 볼 수 있|다고도 할 수 있|다기보다|라기보다",
+          "label_vi": "Có mẫu -다고 볼 수 있다 / -다고도 할 수 있다 / -다기보다"
+        }
+      ]
+    },
+    {
+      "id": "X63F1",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51",
+      "title_vi": "Viết 51 · Thông báo chương trình thuyết minh di sản",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền từ thích hợp vào hai chỗ trống của thông báo.",
+      "context_vi": "Thông báo",
+      "text": "[안내문]\n제목: 문화유산 해설 프로그램 안내\n우리 박물관에서는 다음 달부터 석 달에 ( ㉠ ) 문화유산 해설 프로그램을 운영합니다. 참가를 원하시는 분은 이번 주 금요일까지 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "걸쳐",
+            "걸쳐서"
+          ],
+          "common_errors_vi": "Khoảng thời gian dài + chương trình → `석 달에 걸쳐`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "신청하시기 바랍니다",
+            "신청해 주시기 바랍니다",
+            "신청해 주십시오",
+            "신청하십시오"
+          ],
+          "common_errors_vi": "Thông báo trang trọng yêu cầu → `신청하시기 바랍니다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: mẫu chỉ thời gian kéo dài.",
+        "㉡: kết thúc thông báo bằng `-기 바랍니다`."
+      ]
+    },
+    {
+      "id": "X63F2",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52",
+      "title_vi": "Viết 52 · Hai câu mô tả di tích",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền vào đoạn văn (한다체).",
+      "context_vi": "Đoạn văn ngắn",
+      "text": "이 탑은 신라 시대에 만들어진 것으로 ( ㉠ ). 그러나 정확한 제작 시기를 알려 주는 기록은 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "추정된다",
+            "전해진다",
+            "보인다"
+          ],
+          "common_errors_vi": "Phỏng đoán thời kỳ → `추정된다`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "남아 있지 않다",
+            "없다",
+            "발견되지 않았다",
+            "전해지지 않는다"
+          ],
+          "common_errors_vi": "Nêu điều còn thiếu → `남아 있지 않다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: thể bị động chỉ phỏng đoán.",
+        "㉡: vế sau của `그러나`, thường phủ định."
+      ]
+    },
+    {
+      "id": "X63E1",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-mini",
+      "title_vi": "Viết · Mô tả biểu đồ khách tham quan bảo tàng",
+      "points": 20,
+      "instruction_ko": "※ 다음 그래프를 보고 글을 쓰시오.",
+      "instruction_vi": "Viết đoạn 3–4 câu (한다체) mô tả sự thay đổi của lượng khách và kết luận bằng `-다고 볼 수 있다`; dùng `에 걸쳐` khi nói khoảng thời gian.",
+      "limits": {
+        "min": 80,
+        "max": 220
+      },
+      "data": [
+        {
+          "title_vi": "A 박물관 관람객 수 (자료는 가상)",
+          "note_vi": "자료는 가상 = số liệu giả định, tự soạn để luyện viết.",
+          "chart": {
+            "type": "bar",
+            "categories": [
+              "2021년",
+              "2022년",
+              "2023년",
+              "2024년"
+            ],
+            "series": [
+              {
+                "name": "관람객 수",
+                "values": [
+                  8,
+                  12,
+                  18,
+                  26
+                ]
+              }
+            ],
+            "unit": "만 명"
+          }
+        }
+      ],
+      "prompt_ko": "그래프의 내용을 설명하고 결론을 쓰십시오.",
+      "framework_vi": [
+        "Câu 1: nêu đối tượng và thay đổi từ năm đầu đến năm cuối, dùng `에 걸쳐`.",
+        "Câu 2: nêu năm tăng nhiều nhất và mức tăng.",
+        "Câu 3: kết luận bằng `-다고 볼 수 있다`."
+      ],
+      "patterns_vi": [
+        "`N에 걸쳐`",
+        "`-다고 볼 수 있다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Thay đổi tổng thể",
+          "chars": "35–60 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Năm tăng mạnh nhất",
+          "chars": "30–60 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Kết luận",
+          "chars": "25–50 chữ"
+        }
+      ],
+      "model_answer_ko": "A 박물관의 관람객 수는 2021년 8만 명에서 2024년 26만 명으로 3년에 걸쳐 꾸준히 늘었다. 특히 2024년에는 전년보다 8만 명이 늘어 증가 폭이 가장 컸다. 이를 보면 문화유산에 대한 관심이 높아지고 있다고 볼 수 있다.",
+      "model_note_vi": "Số liệu giả định. Tăng từ 8 lên 26 (vạn người); mức tăng năm 2024 là 26−18 = 8. Dùng 한다체 nhất quán.",
+      "common_errors_vi": [
+        "Mức tăng tính sai.",
+        "Dùng `걸쳐` với một thời điểm.",
+        "Trộn 한다체 và 해요체."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Mô tả đúng số liệu",
+          "max": 8
+        },
+        {
+          "criterion_vi": "Dùng đúng `에 걸쳐` và `-다고 볼 수 있다`",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Đúng 한다체, câu tự nhiên",
+          "max": 6
+        }
+      ],
+      "checklist_vi": [
+        "Có số cụ thể năm đầu và năm cuối?",
+        "Có `에 걸쳐` với khoảng thời gian?",
+        "Kết luận khớp với biểu đồ?"
+      ],
+      "detectors": [
+        {
+          "pattern": "N + 에 걸쳐 · N + 에 이르기까지 · N + 이래(로)",
+          "regex": "에 걸쳐|에 이르기까지|이래",
+          "label_vi": "Có mẫu 에 걸쳐 / 에 이르기까지 / 이래"
+        }
+      ]
+    },
+    {
+      "id": "X64F1",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51",
+      "title_vi": "Viết 51 · Thông báo tuyển người dùng dịch vụ chăm sóc",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền từ thích hợp vào hai chỗ trống của thông báo.",
+      "context_vi": "Thông báo",
+      "text": "[안내문]\n우리 복지관에서는 노인 돌봄 서비스를 이용할 분을 모집합니다. 신청자가 정원에 ( ㉠ ) 다음 달에 한 번 더 모집할 예정입니다. 신청을 원하시는 분은 이번 주 금요일까지 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "못 미치면",
+            "미치지 못하면",
+            "모자라면"
+          ],
+          "common_errors_vi": "Chưa đủ chỉ tiêu → `정원에 못 미치면`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "신청하시기 바랍니다",
+            "신청해 주시기 바랍니다",
+            "접수하시기 바랍니다",
+            "신청하십시오"
+          ],
+          "common_errors_vi": "Thông báo trang trọng → `신청하시기 바랍니다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: mẫu `에` + động từ «chưa tới» và nối bằng `-(으)면`.",
+        "㉡: kết thúc bằng `-기 바랍니다`."
+      ]
+    },
+    {
+      "id": "X64F2",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52",
+      "title_vi": "Viết 52 · Hai câu nhận định về xã hội",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền vào đoạn văn (한다체).",
+      "context_vi": "Đoạn văn ngắn",
+      "text": "경제가 어려워지면 사람들은 소비를 줄이는 경향이 ( ㉠ ). 따라서 정부는 소비를 살릴 수 있는 정책을 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "있다",
+            "나타난다",
+            "보인다"
+          ],
+          "common_errors_vi": "Cấu trúc cố định → `경향이 있다`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "마련해야 한다",
+            "세워야 한다",
+            "추진해야 한다",
+            "펼쳐야 한다"
+          ],
+          "common_errors_vi": "Kết luận đề xuất → `마련해야 한다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: hoàn thành mẫu `-는 경향이 있다`.",
+        "㉡: vế sau của `따라서`, thường là đề xuất `-아/어야 한다`."
+      ]
+    },
+    {
+      "id": "X64E1",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-mini",
+      "title_vi": "Viết · Mô tả biểu đồ cơ cấu dân số",
+      "points": 20,
+      "instruction_ko": "※ 다음 그래프를 보고 글을 쓰시오.",
+      "instruction_vi": "Viết đoạn 3–4 câu (한다체) mô tả hai nhóm tuổi thay đổi trái chiều bằng `-(으)ㄴ/는 데 반해` và kết luận bằng `경향` hoặc `-다고 볼 수 있다`.",
+      "limits": {
+        "min": 80,
+        "max": 220
+      },
+      "data": [
+        {
+          "title_vi": "A시 인구 구조의 변화 (자료는 가상)",
+          "note_vi": "자료는 가상 = số liệu giả định, tự soạn để luyện viết.",
+          "chart": {
+            "type": "line",
+            "categories": [
+              "2000년",
+              "2010년",
+              "2020년"
+            ],
+            "series": [
+              {
+                "name": "65세 이상",
+                "values": [
+                  8,
+                  12,
+                  18
+                ]
+              },
+              {
+                "name": "0~14세",
+                "values": [
+                  20,
+                  16,
+                  12
+                ]
+              }
+            ],
+            "unit": "%"
+          }
+        }
+      ],
+      "prompt_ko": "그래프의 내용을 설명하고 결론을 쓰십시오.",
+      "framework_vi": [
+        "Câu 1: nêu hai nhóm tuổi và chiều thay đổi từ năm đầu đến năm cuối, nối bằng `데 반해`.",
+        "Câu 2: nêu khoảng thời gian và tính chất thay đổi (đều đặn).",
+        "Câu 3: kết luận về xu hướng của thành phố."
+      ],
+      "patterns_vi": [
+        "`-(으)ㄴ/는 데 반해`",
+        "`-는 경향이 있다` hoặc `-다고 볼 수 있다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Hai nhóm tuổi trái chiều",
+          "chars": "40–70 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Thời gian và tính chất",
+          "chars": "25–50 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Kết luận",
+          "chars": "25–50 chữ"
+        }
+      ],
+      "model_answer_ko": "A시의 65세 이상 인구 비율은 2000년 8%에서 2020년 18%로 10%포인트 늘어난 데 반해 0~14세 비율은 20%에서 12%로 8%포인트 줄었다. 이러한 변화는 20년 동안 꾸준히 이어졌다. 이를 보면 A시는 점점 나이 들어 가는 지역이라고 볼 수 있다.",
+      "model_note_vi": "Số liệu giả định. 65+ tăng 18 − 8 = 10 điểm phần trăm; 0–14 giảm 20 − 12 = 8 điểm phần trăm. Dùng 한다체 nhất quán.",
+      "common_errors_vi": [
+        "Tính sai mức chênh.",
+        "Dùng `데 반해` khi hai vế không đối lập.",
+        "Trộn 한다체 và 해요체."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Mô tả đúng số liệu",
+          "max": 8
+        },
+        {
+          "criterion_vi": "Dùng đúng `데 반해` và mẫu kết luận",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Đúng 한다체, câu tự nhiên",
+          "max": 6
+        }
+      ],
+      "checklist_vi": [
+        "Có số cụ thể năm đầu và năm cuối?",
+        "Hai nhóm tuổi có thật sự trái chiều?",
+        "Kết luận khớp với biểu đồ?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V/A + -(으)ㄴ/는 데 반해 · V/A + -(으)ㄴ/는 데 비해(서) · N + 에 반해(서)",
+          "regex": "데 반해|데 비해|에 반해|에 반하여",
+          "label_vi": "Có mẫu -(으)ㄴ/는 데 반해 / 데 비해 / 에 반해"
+        }
+      ]
+    },
+    {
+      "id": "X65F1",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51",
+      "title_vi": "Viết 51 · Thông báo khám sức khoẻ miễn phí",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền từ thích hợp vào hai chỗ trống của thông báo.",
+      "context_vi": "Thông báo",
+      "text": "[안내문]\n우리 병원에서는 무료 건강 검진을 실시합니다. 다음 기준에 ( ㉠ ) 분은 신분증을 가지고 방문해 주시기 바랍니다. 예약 없이 오시면 오래 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "해당하는",
+            "해당되는"
+          ],
+          "common_errors_vi": "Thuộc tiêu chí → `기준에 해당하는`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "기다리셔야 할 수도 있습니다",
+            "기다려야 할 수도 있습니다",
+            "기다리셔야 합니다",
+            "기다리실 수 있습니다",
+            "기다려야 합니다"
+          ],
+          "common_errors_vi": "Thông báo trang trọng → `기다리셔야 할 수도 있습니다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: danh từ `기준` đi với `에`; chia ở dạng định ngữ trước `분`.",
+        "㉡: kết thúc bằng đuôi trang trọng `-ㅂ/습니다`."
+      ]
+    },
+    {
+      "id": "X65F2",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52",
+      "title_vi": "Viết 52 · Hai câu giải thích về giấc ngủ",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền vào đoạn văn (한다체).",
+      "context_vi": "Đoạn văn ngắn",
+      "text": "잠이 부족하면 면역력이 ( ㉠ ). 따라서 건강을 지키려면 잠을 충분히 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "약화된다",
+            "약해진다",
+            "떨어진다",
+            "약화될 수 있다",
+            "약해질 수 있다",
+            "떨어질 수 있다"
+          ],
+          "common_errors_vi": "Chủ ngữ `면역력이` → `약화된다` (dạng `-되다`)."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "자야 한다",
+            "자는 것이 좋다",
+            "자는 것이 바람직하다",
+            "잘 필요가 있다"
+          ],
+          "common_errors_vi": "Kết luận đề xuất → `자야 한다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: danh từ đi với `이/가` nên chọn `-되다`/`-아/어지다`.",
+        "㉡: vế sau `따라서`, đề xuất bằng `-아/어야 한다`."
+      ]
+    },
+    {
+      "id": "X65E1",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-mini",
+      "title_vi": "Viết · Mô tả biểu đồ khám sức khoẻ và biến chứng",
+      "points": 20,
+      "instruction_ko": "※ 다음 그래프를 보고 글을 쓰시오.",
+      "instruction_vi": "Viết đoạn 3–4 câu (한다체) mô tả hai đường thay đổi trái chiều, rồi kết luận bằng một dạng `-되다/-시키다/-화하다` (ví dụ `악화되다`).",
+      "limits": {
+        "min": 80,
+        "max": 220
+      },
+      "data": [
+        {
+          "title_vi": "B시의 건강 검진 수검률과 합병증 발생률 (자료는 가상)",
+          "note_vi": "자료는 가상 = số liệu giả định, tự soạn để luyện viết.",
+          "chart": {
+            "type": "line",
+            "categories": [
+              "2005년",
+              "2015년",
+              "2025년"
+            ],
+            "series": [
+              {
+                "name": "검진 수검률",
+                "values": [
+                  45,
+                  58,
+                  72
+                ]
+              },
+              {
+                "name": "고혈압 환자의 합병증 발생률",
+                "values": [
+                  30,
+                  22,
+                  14
+                ]
+              }
+            ],
+            "unit": "%"
+          }
+        }
+      ],
+      "prompt_ko": "그래프의 내용을 설명하고 결론을 쓰십시오.",
+      "framework_vi": [
+        "Câu 1: nêu hai chỉ số, số của năm đầu và năm cuối, cùng mức chênh theo điểm phần trăm.",
+        "Câu 2: nhận định mối liên hệ, dùng `-다고 볼 수 있다` và một dạng `악화되다/완화되다`.",
+        "Câu 3: đề xuất."
+      ],
+      "patterns_vi": [
+        "`-(으)ㄴ/는 데 반해` hoặc câu nối hai chỉ số",
+        "`악화되다`, `완화하다`, `강화하다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Số liệu và mức chênh",
+          "chars": "50–80 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Nhận định và mối liên hệ",
+          "chars": "40–70 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Đề xuất",
+          "chars": "20–40 chữ"
+        }
+      ],
+      "model_answer_ko": "B시의 건강 검진 수검률은 2005년 45%에서 2025년 72%로 27%포인트 높아졌고, 같은 기간 고혈압 환자의 합병증 발생률은 30%에서 14%로 16%포인트 낮아졌다. 이는 검진을 받는 사람이 늘면서 질환을 일찍 발견해 증상이 악화되는 것을 막았기 때문이라고 볼 수 있다. 앞으로도 검진 참여를 높이는 노력이 필요하다.",
+      "model_note_vi": "Số liệu giả định. 72 − 45 = 27 điểm phần trăm; 30 − 14 = 16 điểm phần trăm. Nêu mối liên hệ bằng cách nói thận trọng (`볼 수 있다`), không khẳng định tuyệt đối.",
+      "common_errors_vi": [
+        "Tính sai mức chênh.",
+        "Khẳng định nhân quả tuyệt đối khi đề chỉ cho hai con số.",
+        "Trộn 한다체 và 해요체."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Mô tả đúng số liệu và mức chênh",
+          "max": 8
+        },
+        {
+          "criterion_vi": "Dùng đúng dạng `-되다/-시키다/-화하다` và cách nhận định",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Đúng 한다체, câu tự nhiên",
+          "max": 6
+        }
+      ],
+      "checklist_vi": [
+        "Có số năm đầu, năm cuối và mức chênh?",
+        "Hai chỉ số có thật sự trái chiều?",
+        "Kết luận có dùng cách nói thận trọng?"
+      ],
+      "detectors": [
+        {
+          "pattern": "N + 을/를 -시키다 · N + 을/를 -화하다 · N + 이/가 -화되다",
+          "regex": "악화|약화|완화|강화|호전|활성화|안정화|시키",
+          "label_vi": "Có dạng -시키다 / -화하다 / -화되다 (악화되다, 완화하다 ...)"
+        }
+      ]
+    },
+    {
+      "id": "X66F1",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51",
+      "title_vi": "Viết 51 · Thông báo chính sách hoàn hàng",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền từ thích hợp vào hai chỗ trống của thông báo.",
+      "context_vi": "Thông báo",
+      "text": "[안내문]\n저희 쇼핑몰은 상품을 받으신 날부터 7일 이내에 ( ㉠ ). 다만 포장을 뜯어 이미 사용한 상품은 가치가 크게 줄어들었으니만큼 환불이 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "환불을 신청하실 수 있습니다",
+            "교환이나 환불을 신청하실 수 있습니다",
+            "환불을 받으실 수 있습니다",
+            "반품하실 수 있습니다",
+            "반품을 신청하실 수 있습니다"
+          ],
+          "common_errors_vi": "Thông báo trang trọng → `환불을 신청하실 수 있습니다`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "어려울 수 있습니다",
+            "어렵습니다",
+            "어려울 수도 있습니다",
+            "안 될 수 있습니다",
+            "불가능할 수 있습니다"
+          ],
+          "common_errors_vi": "Sau `-(으)니만큼` là hệ quả tương xứng → `어려울 수 있습니다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: kính ngữ trang trọng `-(으)실 수 있습니다`.",
+        "㉡: vế sau của `-(으)니만큼` là hệ quả nhẹ nhàng, ví dụ `-(으)ㄹ 수 있습니다`."
+      ]
+    },
+    {
+      "id": "X66F2",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52",
+      "title_vi": "Viết 52 · Hai câu nhận định về mua sắm",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền vào đoạn văn (한다체).",
+      "context_vi": "Đoạn văn ngắn",
+      "text": "편리한 결제 방식에 익숙해지( ㉠ ) 필요하지 않은 물건까지 사게 되기 쉽다. 따라서 물건을 사기 전에 정말 필요한지 한 번 더 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "다 보면",
+            "노라면",
+            "면",
+            "게 되면"
+          ],
+          "common_errors_vi": "Cứ quen dần thì … → `익숙해지다 보면` hoặc `익숙해지노라면`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "생각해 보아야 한다",
+            "생각해 보는 것이 좋다",
+            "따져 보아야 한다",
+            "확인해야 한다",
+            "따져 볼 필요가 있다",
+            "생각해 볼 필요가 있다"
+          ],
+          "common_errors_vi": "Kết luận đề xuất → `생각해 보아야 한다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: mẫu «cứ làm thì rồi» như `-다 보면`, `-노라면`.",
+        "㉡: vế sau `따라서`, thường là đề xuất `-아/어야 한다`."
+      ]
+    },
+    {
+      "id": "X66E1",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-mini",
+      "title_vi": "Viết · Mô tả biểu đồ cách mua sắm",
+      "points": 20,
+      "instruction_ko": "※ 다음 그래프를 보고 글을 쓰시오.",
+      "instruction_vi": "Viết đoạn 3–4 câu (한다체) mô tả hai đường thay đổi trái chiều, rồi kết luận bằng `-(으)니만큼` hoặc `-(으)면 몰라도`.",
+      "limits": {
+        "min": 80,
+        "max": 220
+      },
+      "data": [
+        {
+          "title_vi": "C시의 쇼핑 방식별 이용률 (자료는 가상)",
+          "note_vi": "자료는 가상 = số liệu giả định, tự soạn để luyện viết.",
+          "chart": {
+            "type": "line",
+            "categories": [
+              "2015년",
+              "2020년",
+              "2025년"
+            ],
+            "series": [
+              {
+                "name": "온라인 쇼핑",
+                "values": [
+                  48,
+                  65,
+                  82
+                ]
+              },
+              {
+                "name": "대형 마트",
+                "values": [
+                  70,
+                  58,
+                  41
+                ]
+              }
+            ],
+            "unit": "%"
+          }
+        }
+      ],
+      "prompt_ko": "그래프의 내용을 설명하고 결론을 쓰십시오.",
+      "framework_vi": [
+        "Câu 1: nêu hai cách mua sắm, số năm đầu và năm cuối, mức chênh theo điểm phần trăm, nối bằng `반면`.",
+        "Câu 2: nêu khoảng thời gian và tính chất thay đổi (đều đặn).",
+        "Câu 3: kết luận bằng `-(으)니만큼` và đề xuất."
+      ],
+      "patterns_vi": [
+        "`-(으)ㄴ/는 반면`",
+        "`-(으)니만큼` hoặc `-(으)면 몰라도`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Hai cách mua sắm trái chiều",
+          "chars": "50–80 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Thời gian và tính chất",
+          "chars": "20–40 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Kết luận và đề xuất",
+          "chars": "30–60 chữ"
+        }
+      ],
+      "model_answer_ko": "C시의 온라인 쇼핑 이용률은 2015년 48%에서 2025년 82%로 34%포인트 높아진 반면 대형 마트 이용률은 70%에서 41%로 29%포인트 낮아졌다. 이러한 변화는 10년 동안 꾸준히 이어졌다. 온라인 쇼핑이 생활의 중심이 되었으니만큼 소비자를 보호하는 제도를 마련할 필요가 있다.",
+      "model_note_vi": "Số liệu giả định. 82 − 48 = 34 điểm phần trăm; 70 − 41 = 29 điểm phần trăm. Câu kết dùng `-(으)니만큼` rồi đề xuất bằng `-(으)ㄹ 필요가 있다`.",
+      "common_errors_vi": [
+        "Tính sai mức chênh.",
+        "Dùng `-(으)니만큼` mà vế sau không phải hệ quả tương xứng.",
+        "Trộn 한다체 và 해요체."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Mô tả đúng số liệu và mức chênh",
+          "max": 8
+        },
+        {
+          "criterion_vi": "Dùng đúng `-(으)니만큼` hoặc mẫu của bài",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Đúng 한다체, câu tự nhiên",
+          "max": 6
+        }
+      ],
+      "checklist_vi": [
+        "Có số năm đầu, năm cuối và mức chênh?",
+        "Hai đường có thật sự trái chiều?",
+        "Vế sau `-(으)니만큼` có tương xứng với vế trước?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V/A + -(으)니만큼 · V + -(으)ㄴ/는답시고 · V/A + -겠거니 하고",
+          "regex": "니만큼|건만|련만|몰라도|날에는|날엔|노라면|답시고|겠거니",
+          "label_vi": "Có một trong các mẫu của bài (-(으)니만큼, -건만, -(으)면 몰라도 ...)"
+        }
+      ]
+    },
+    {
+      "id": "X67F1",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51",
+      "title_vi": "Viết 51 · Thông báo công viên cho thú cưng",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền từ thích hợp vào hai chỗ trống của thông báo.",
+      "context_vi": "Thông báo",
+      "text": "[안내문]\n저희 공원에서는 반려견과 함께 산책하실 수 ( ㉠ ). 다만 목줄을 하지 않은 반려견은 다른 이용객에게 위험할 수 있으므로 입장이 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "있습니다",
+            "있도록 하고 있습니다"
+          ],
+          "common_errors_vi": "Thông báo trang trọng → `산책하실 수 있습니다`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "제한됩니다",
+            "어렵습니다",
+            "금지됩니다",
+            "되지 않습니다",
+            "불가능합니다",
+            "안 됩니다"
+          ],
+          "common_errors_vi": "Điều kiện có hạn chế → `입장이 제한됩니다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: kính ngữ trang trọng `-(으)실 수 있습니다`.",
+        "㉡: vế sau `-(으)므로` là hệ quả nhẹ nhàng, ví dụ `제한됩니다`."
+      ]
+    },
+    {
+      "id": "X67F2",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52",
+      "title_vi": "Viết 52 · Hai câu nhận định về thói quen",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền vào đoạn văn (한다체).",
+      "context_vi": "Đoạn văn ngắn",
+      "text": "수업이 끝나( ㉠ ) 운동장으로 달려 나가는 아이들이 많다. 하루 종일 같은 자세로 앉아 있었으니 몸을 움직이는 것은 건강에 도움이 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "기가 무섭게",
+            "기 무섭게",
+            "자마자",
+            "는 대로"
+          ],
+          "common_errors_vi": "Vừa kết thúc là ngay → `끝나기가 무섭게` (hoặc `끝나자마자`)."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "된다",
+            "될 수 있다",
+            "될 것이다",
+            "되는 일이다"
+          ],
+          "common_errors_vi": "Câu 한다체 → `도움이 된다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: mẫu «vừa … là ngay» như `-기가 무섭게`, `-자마자`.",
+        "㉡: viết câu 한다체, đừng dùng `-ㅂ니다`."
+      ]
+    },
+    {
+      "id": "X67E1",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-mini",
+      "title_vi": "Viết · Mô tả biểu đồ về thú cưng",
+      "points": 20,
+      "instruction_ko": "※ 다음 그래프를 보고 글을 쓰시오.",
+      "instruction_vi": "Viết đoạn 3–4 câu (한다체) mô tả hai đường cùng tăng, dùng `-에 육박하다`, rồi kết luận bằng `-(으)ㄴ/는 만큼 … -(으)ㄹ 필요가 있다`.",
+      "limits": {
+        "min": 80,
+        "max": 220
+      },
+      "data": [
+        {
+          "title_vi": "A시의 반려동물 현황 (자료는 가상)",
+          "note_vi": "자료는 가상 = số liệu giả định, tự soạn để luyện viết.",
+          "chart": {
+            "type": "line",
+            "categories": [
+              "2015년",
+              "2020년",
+              "2025년"
+            ],
+            "series": [
+              {
+                "name": "반려동물 양육 가구",
+                "values": [
+                  15,
+                  24,
+                  33
+                ]
+              },
+              {
+                "name": "반려동물 보험 가입",
+                "values": [
+                  3,
+                  8,
+                  17
+                ]
+              }
+            ],
+            "unit": "%"
+          }
+        }
+      ],
+      "prompt_ko": "그래프의 내용을 설명하고 결론을 쓰십시오.",
+      "framework_vi": [
+        "Câu 1: nêu hộ nuôi thú cưng năm đầu và năm cuối, mức tăng theo điểm phần trăm, và mức sát một phần ba bằng `에 육박하다`.",
+        "Câu 2: nêu tỷ lệ mua bảo hiểm và mức tăng.",
+        "Câu 3: kết luận bằng `-(으)ㄴ/는 만큼` và đề xuất."
+      ],
+      "patterns_vi": [
+        "`에 육박하다`",
+        "`-(으)ㄴ/는 만큼 … -(으)ㄹ 필요가 있다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Hộ nuôi thú cưng tăng và sát một phần ba",
+          "chars": "50–80 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Tỷ lệ mua bảo hiểm tăng",
+          "chars": "20–40 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Kết luận và đề xuất",
+          "chars": "30–60 chữ"
+        }
+      ],
+      "model_answer_ko": "A시의 반려동물 양육 가구 비율은 2015년 15%에서 2025년 33%로 18%포인트 높아져 전체 가구의 3분의 1에 육박했다. 같은 기간 반려동물 보험 가입 비율도 3%에서 17%로 14%포인트 높아졌다. 반려동물을 기르는 가구가 늘어난 만큼 이와 관련한 제도와 서비스를 갖출 필요가 있다.",
+      "model_note_vi": "Số liệu giả định. 33 − 15 = 18 điểm phần trăm; 17 − 3 = 14 điểm phần trăm; 33% gần bằng một phần ba (33,3%) nên dùng `에 육박했다`.",
+      "common_errors_vi": [
+        "Tính sai mức chênh.",
+        "Dùng `에 육박하다` cho mức đã vượt rõ.",
+        "Trộn 한다체 và 해요체."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Mô tả đúng số liệu và mức chênh",
+          "max": 8
+        },
+        {
+          "criterion_vi": "Dùng đúng `에 육박하다` hoặc mẫu của bài",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Đúng 한다체, câu tự nhiên",
+          "max": 6
+        }
+      ],
+      "checklist_vi": [
+        "Có số năm đầu, năm cuối và mức chênh?",
+        "`에 육박하다` đi với mức có sát thật không?",
+        "Có kết luận tương xứng với số liệu?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V/A + -(으)ㄴ/는 축에 들다 · N + 에 육박하다 · N + 에 버금가다",
+          "regex": "육박|버금|축에",
+          "label_vi": "Có một trong các mẫu của bài (에 육박하다, 에 버금가다, 축에 들다)"
+        }
+      ]
+    },
+    {
+      "id": "X68F1",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51",
+      "title_vi": "Viết 51 · Thông báo khoá học an toàn lái xe",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền từ thích hợp vào hai chỗ trống của thông báo.",
+      "context_vi": "Thông báo",
+      "text": "[안내문]\n저희 센터에서는 다음 달부터 안전 운전 교육 수강생을 모집합니다. 수강을 원하시는 분은 이번 주 금요일까지 신청서를 ( ㉠ ). 교육 도중에 자리를 비우시면 수료증을 받으실 수 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "제출해 주시기 바랍니다",
+            "제출해 주십시오",
+            "제출해 주세요",
+            "제출하시기 바랍니다",
+            "내 주시기 바랍니다",
+            "내 주십시오",
+            "내 주세요",
+            "보내 주시기 바랍니다",
+            "보내 주십시오"
+          ],
+          "common_errors_vi": "Thông báo trang trọng → `제출해 주시기 바랍니다`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "없습니다",
+            "없게 됩니다",
+            "없을 수 있습니다",
+            "없을 수도 있습니다"
+          ],
+          "common_errors_vi": "Điều kiện bị mất quyền → `받으실 수 없습니다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: lời đề nghị trang trọng `-아/어 주시기 바랍니다`.",
+        "㉡: vế trước nêu điều kiện bỏ dở giữa chừng, vế sau là hệ quả `수 없습니다`."
+      ]
+    },
+    {
+      "id": "X68F2",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52",
+      "title_vi": "Viết 52 · Hai câu nhận định về xe điện",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền vào đoạn văn (한다체).",
+      "context_vi": "Đoạn văn ngắn",
+      "text": "십 년 전( ㉠ ) 전기차를 거리에서 보기 어려웠다. 그러나 지금은 전기차가 빠르게 늘어난 만큼 충전 시설도 더 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "만 해도",
+            "만해도"
+          ],
+          "common_errors_vi": "Mốc thời gian + tương phản với hiện tại → `십 년 전만 해도`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "늘려야 한다",
+            "늘릴 필요가 있다",
+            "늘려야 할 것이다",
+            "확충해야 한다",
+            "갖추어야 한다",
+            "갖춰야 한다",
+            "늘어나야 한다"
+          ],
+          "common_errors_vi": "Câu 한다체 nêu việc cần làm → `늘려야 한다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: mẫu «mới thời điểm đó thôi mà …» → `전만 해도`.",
+        "㉡: viết 한다체, ví dụ `-아/어야 한다` hay `-(으)ㄹ 필요가 있다`."
+      ]
+    },
+    {
+      "id": "X68E1",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-mini",
+      "title_vi": "Viết · Mô tả biểu đồ về xe điện",
+      "points": 20,
+      "instruction_ko": "※ 다음 그래프를 보고 글을 쓰시오.",
+      "instruction_vi": "Viết đoạn 3–4 câu (한다체) so sánh hai đường, dùng `N + 만 해도`, rồi kết luận bằng `-(으)ㄹ 필요가 있다`.",
+      "limits": {
+        "min": 80,
+        "max": 220
+      },
+      "data": [
+        {
+          "title_vi": "B시의 전기차와 충전기 현황 (자료는 가상)",
+          "note_vi": "자료는 가상 = số liệu giả định, tự soạn để luyện viết. Đơn vị: nghìn.",
+          "chart": {
+            "type": "bar",
+            "categories": [
+              "2015년",
+              "2020년",
+              "2025년"
+            ],
+            "series": [
+              {
+                "name": "전기차 등록 대수(천 대)",
+                "values": [
+                  2,
+                  15,
+                  60
+                ]
+              },
+              {
+                "name": "충전기 수(천 개)",
+                "values": [
+                  1,
+                  5,
+                  12
+                ]
+              }
+            ],
+            "unit": "천"
+          }
+        }
+      ],
+      "prompt_ko": "그래프의 내용을 설명하고 결론을 쓰십시오.",
+      "framework_vi": [
+        "Câu 1: nêu số xe điện năm đầu và năm cuối, mức tăng gấp bao nhiêu lần.",
+        "Câu 2: nêu số trạm sạc và mức tăng, so sánh với xe điện.",
+        "Câu 3: tính số xe điện trên một trạm sạc, dùng `2015년만 해도`, rồi kết luận bằng `-(으)ㄹ 필요가 있다`."
+      ],
+      "patterns_vi": [
+        "`N + 만 해도`",
+        "`-(으)ㄹ 필요가 있다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Số xe điện tăng gấp 30 lần",
+          "chars": "40–70 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Số trạm sạc tăng chậm hơn",
+          "chars": "30–60 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Số xe trên một trạm sạc tăng và đề xuất",
+          "chars": "40–80 chữ"
+        }
+      ],
+      "model_answer_ko": "B시의 전기차 등록 대수는 2015년 2천 대에서 2025년 6만 대로 30배 늘었다. 같은 기간 충전기 수는 1천 개에서 1만 2천 개로 12배 느는 데 그쳤다. 2015년만 해도 충전기 한 대당 전기차가 2대였지만 2025년에는 5대로 많아졌다. 따라서 충전 시설을 더 늘릴 필요가 있다.",
+      "model_note_vi": "Số liệu giả định. 60 ÷ 2 = 30 lần; 12 ÷ 1 = 12 lần; 2 ÷ 1 = 2 xe trên một trạm sạc (2015); 60 ÷ 12 = 5 xe trên một trạm sạc (2025).",
+      "common_errors_vi": [
+        "Tính sai số lần hoặc số xe trên một trạm sạc.",
+        "Dùng `만 해도` mà vế sau không đối lập với hiện tại.",
+        "Trộn 한다체 và 해요체."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Mô tả đúng số liệu và phép so sánh",
+          "max": 8
+        },
+        {
+          "criterion_vi": "Dùng đúng `만 해도` hoặc mẫu của bài",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Đúng 한다체, câu tự nhiên",
+          "max": 6
+        }
+      ],
+      "checklist_vi": [
+        "Có số năm đầu, năm cuối và mức tăng?",
+        "`만 해도` có vế sau đối lập với hiện tại?",
+        "Kết luận có tương xứng với số liệu?"
+      ],
+      "detectors": [
+        {
+          "pattern": "N + 치고(는) · N + 만 해도",
+          "regex": "만 해도|치고",
+          "label_vi": "Có một trong các mẫu của bài (N + 만 해도, N + 치고)"
+        }
+      ]
+    },
+    {
+      "id": "X69F1",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51",
+      "title_vi": "Viết 51 · Thông báo của thư viện",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền từ thích hợp vào hai chỗ trống của thông báo.",
+      "context_vi": "Thông báo",
+      "text": "[안내문]\n저희 도서관은 나이에 ( ㉠ ) 누구나 이용하실 수 있습니다. 다만 회원증이 없으시면 도서를 대출하실 수 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "관계없이",
+            "관계 없이",
+            "상관없이",
+            "상관 없이",
+            "구애받지 않고",
+            "제한 없이",
+            "제한없이"
+          ],
+          "common_errors_vi": "Bất kể điều kiện nào → `나이에 관계없이`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "없습니다",
+            "없게 됩니다",
+            "없을 수 있습니다",
+            "없을 수도 있습니다"
+          ],
+          "common_errors_vi": "Điều kiện chưa đủ nên không được → `대출하실 수 없습니다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: danh từ + `에 관계없이` (không dùng `을/를` ở đây).",
+        "㉡: văn thông báo dùng `-ㅂ/습니다`, vế trước nêu điều kiện, vế sau là hệ quả `수 없습니다`."
+      ]
+    },
+    {
+      "id": "X69F2",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52",
+      "title_vi": "Viết 52 · Hai câu về số liệu xuất khẩu",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền vào đoạn văn (한다체).",
+      "context_vi": "Đoạn văn ngắn",
+      "text": "올해 수출은 전년 ( ㉠ ) 10퍼센트 늘었다. 그러나 무역 수지는 크게 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "대비",
+            "대비해서"
+          ],
+          "common_errors_vi": "Lấy năm trước làm mốc → `전년 대비`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "개선되지 않았다",
+            "좋아지지 않았다",
+            "나아지지 않았다",
+            "개선되지 못했다",
+            "좋아지지 못했다",
+            "나아지지 못했다"
+          ],
+          "common_errors_vi": "Câu 한다체, vế sau đối lập với «늘었다» → `개선되지 않았다`."
+        }
+      ],
+      "tips_vi": [
+        "㉠: mốc so sánh + `대비` + phần trăm.",
+        "㉡: viết 한다체 và phủ định ở thì quá khứ, ví dụ `-지 않았다`."
+      ]
+    },
+    {
+      "id": "X69E1",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53",
+      "title_vi": "Viết 53 · Mô tả dịch vụ cho thuê xe đạp điện (4 ý)",
+      "points": 30,
+      "instruction_ko": "※ [53] 다음은 'E시 전기자전거 대여 서비스'에 대한 자료입니다. 이를 200~300자의 글로 쓰십시오. 단, 글의 제목은 쓰지 마십시오. (30점)",
+      "instruction_vi": "Hãy viết bài 200–300 chữ, 한다체, đủ bốn ý: tổng quan thay đổi · thay đổi cơ cấu · nguyên nhân · nhận xét chung. Không viết tiêu đề. (30 điểm)",
+      "limits": {
+        "min": 200,
+        "max": 300
+      },
+      "data": [
+        {
+          "title_vi": "E시 전기자전거 대여 이용 건수 (자료는 가상)",
+          "note_vi": "자료는 가상 = số liệu giả định, tự soạn để luyện viết. Đơn vị: 만 건.",
+          "chart": {
+            "type": "bar",
+            "categories": [
+              "2020년",
+              "2025년"
+            ],
+            "series": [
+              {
+                "name": "이용 건수(만 건)",
+                "values": [
+                  20,
+                  90
+                ]
+              }
+            ],
+            "unit": "만 건"
+          }
+        },
+        {
+          "title_vi": "연령대별 이용자 비중 (자료는 가상)",
+          "note_vi": "자료는 가상 = số liệu giả định. Đơn vị: %.",
+          "table": {
+            "header": [
+              "구분",
+              "10대",
+              "20~30대",
+              "40대 이상"
+            ],
+            "rows": [
+              [
+                "2020년",
+                "5",
+                "50",
+                "45"
+              ],
+              [
+                "2025년",
+                "10",
+                "35",
+                "55"
+              ]
+            ]
+          }
+        }
+      ],
+      "prompt_ko": "※ 이용이 늘어난 원인은 다음과 같습니다.",
+      "bullets_ko": [
+        "자전거 도로 확대",
+        "대중교통 환승 요금 할인"
+      ],
+      "framework_vi": [
+        "**Bước 1 · Đọc đề (2 phút, chưa viết):** gạch dưới đối tượng (dịch vụ cho thuê xe đạp điện của thành phố E), mốc 2020 và 2025, số then chốt (20만 → 90만; 20~30대 50 → 35; 40대 이상 45 → 55) và hai nguyên nhân ở ô gợi ý.",
+        "**Bước 2 · Chọn bốn ý:** ① tổng quan: số lần thuê tăng gấp mấy lần · ② cơ cấu: nhóm nào giảm, nhóm nào tăng, tính bằng `%p` · ③ nguyên nhân từ ô gợi ý · ④ nhận xét chung gắn với `국한되지 않고` hoặc `관계없이`.",
+        "**Bước 3 · Viết theo dàn ý:** mỗi ý một câu, dùng 한다체; câu ② dùng `차지하다` cho phần chiếm trong tổng.",
+        "**Bước 4 · Kiểm (2 phút):** phép chia 90 ÷ 20 · hiệu số `%p` · không thêm ý kiến cá nhân · đếm 200–300 chữ (tính cả dấu cách và dấu câu)."
+      ],
+      "patterns_vi": [
+        "`N + 대비`",
+        "`N + 을/를 차지하다`",
+        "`N + 에 국한되지 않고` / `N + 에 관계없이`",
+        "`-(으)ㄴ/는 것으로 나타났다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1 · Tổng quan",
+          "content_vi": "Số lần thuê tăng từ mốc đầu lên mốc cuối, ghi gấp mấy lần: `2020년 대비 N배`",
+          "chars": "50–75 chữ"
+        },
+        {
+          "part_vi": "Câu 2 · Cơ cấu",
+          "content_vi": "Nhóm chiếm nhiều nhất lúc đầu và mức giảm `%p`, rồi nhóm tăng",
+          "chars": "65–95 chữ"
+        },
+        {
+          "part_vi": "Câu 3 · Nguyên nhân",
+          "content_vi": "Hai nguyên nhân ở ô gợi ý, nối bằng `-고` rồi `-기 때문이다`",
+          "chars": "35–55 chữ"
+        },
+        {
+          "part_vi": "Câu 4 · Nhận xét",
+          "content_vi": "Kết luận: không giới hạn ở một nhóm tuổi, `-(으)ㄴ 것으로 나타났다`",
+          "chars": "35–55 chữ"
+        }
+      ],
+      "model_answer_ko": "E시의 전기자전거 대여 이용 건수는 2020년 20만 건에서 2025년 90만 건으로 늘어 2020년 대비 4.5배가 되었다. 연령대별로 보면 2020년에는 20~30대가 50%로 가장 큰 비중을 차지하였으나 2025년에는 35%로 15%p 감소하였다. 반면에 40대 이상은 45%에서 55%로 10%p 증가하여 전체의 절반 이상을 차지하였다. 이는 자전거 도로가 확대되고 대중교통 환승 요금이 할인되었기 때문이다. 이처럼 이 서비스는 특정 연령대에 국한되지 않고 나이에 관계없이 이용하는 사람이 늘어난 것으로 나타났다.",
+      "model_note_vi": "Số liệu giả định. 90 ÷ 20 = 4,5 lần; 50 − 35 = 15%p; 55 − 45 = 10%p; 55% > 50% nên viết «절반 이상». Lưu ý: tỷ lệ phần trăm trừ nhau cho ra `%p`, còn gấp mấy lần là phép chia.",
+      "common_errors_vi": [
+        "Viết «15%» thay vì `15%p` khi lấy hiệu số hai tỷ lệ.",
+        "Viết «4.5배 늘었다» rồi lại thêm «90만 건 늘었다» khiến người đọc hiểu nhầm lượng tăng.",
+        "Dùng `막론하고` mà quên `을/를` (đúng là `N을/를 막론하고`; `관계없이` đi với `에`).",
+        "Thêm ý kiến cá nhân («tôi nghĩ nên mở rộng thêm») — Q53 chỉ mô tả."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Số liệu và phép tính đúng (4,5배, `%p`)",
+          "max": 10,
+          "note_vi": "Sai một con số lớn trừ nhiều hơn sai cách diễn đạt."
+        },
+        {
+          "criterion_vi": "Đủ bốn ý và dùng đúng mẫu của bài",
+          "max": 10,
+          "note_vi": "Ít nhất hai mẫu trong ba nhóm: 대비/차지하다, 관계없이/국한되지 않고."
+        },
+        {
+          "criterion_vi": "Văn viết 한다체 nhất quán, 200–300 chữ",
+          "max": 10
+        }
+      ],
+      "checklist_vi": [
+        "Có đủ bốn ý theo thứ tự tổng quan → cơ cấu → nguyên nhân → nhận xét?",
+        "`%p` dùng cho hiệu số và `배` dùng cho phép chia?",
+        "Không có câu 해요체 hoặc ý kiến riêng?",
+        "Đếm đủ 200–300 chữ?"
+      ],
+      "detectors": [
+        {
+          "pattern": "N + 대비 · N + 을/를 차지하다 · N + 을/를 기록하다",
+          "regex": "대비|차지|기록",
+          "label_vi": "Có một trong các mẫu của nhóm đầu (대비, 차지하다, 기록하다)"
+        },
+        {
+          "pattern": "N + 을/를 막론하고 · N + 에 관계없이 · N + 에 국한되지 않고",
+          "regex": "막론하고|관계없이|국한되지",
+          "label_vi": "Có một trong các mẫu của nhóm thứ hai (막론하고, 관계없이, 국한되지 않고)"
+        }
+      ]
+    },
+    {
+      "id": "X70W51",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51",
+      "title_vi": "Viết 51 · Thông cáo của thành phố",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền từ thích hợp vào hai chỗ trống của thông cáo.",
+      "context_vi": "Thông cáo báo chí",
+      "text": "[보도 자료]\n시는 올해 말까지 시내버스 노선을 개편하겠다고 이미 ( ㉠ ) 바 있습니다. 새 노선은 시민 의견 수렴을 ( ㉡ ) 확정할 예정입니다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "밝힌",
+            "발표한",
+            "알린",
+            "공개한",
+            "말씀드린",
+            "언급한",
+            "말한"
+          ],
+          "common_errors_vi": "Nhắc lại điều đã công bố → `밝힌 바 있다`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "거쳐",
+            "거쳐서",
+            "거친 뒤에",
+            "거친 후에"
+          ],
+          "common_errors_vi": "Trải qua một giai đoạn → `을/를 거쳐`; đừng nhầm với `걸쳐` (trải dài)."
+        }
+      ],
+      "tips_vi": [
+        "㉠: động từ + `-(으)ㄴ 바 있다`; chọn động từ nghĩa «công bố, nói ra» ở dạng quá khứ định từ.",
+        "㉡: danh từ chỉ giai đoạn (`의견 수렴`) + `을/를 거쳐`; văn thông cáo dùng `-ㅂ/습니다`."
+      ]
+    },
+    {
+      "id": "X70W52",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52",
+      "title_vi": "Viết 52 · Hai câu về tăng trưởng kinh tế",
+      "points": 10,
+      "instruction_ko": "※ ㉠과 ㉡에 들어갈 말을 각각 쓰시오.",
+      "instruction_vi": "Điền vào đoạn văn (한다체).",
+      "context_vi": "Đoạn văn ngắn",
+      "text": "경기 침체가 계속되는 ( ㉠ ) 올해 경제 성장률은 1퍼센트에 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "가운데",
+            "가운데에",
+            "가운데서"
+          ],
+          "common_errors_vi": "Bối cảnh đang diễn ra → `-는 가운데`."
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "그쳤다",
+            "그칠 전망이다",
+            "그칠 것이다",
+            "그칠 것으로 전망된다",
+            "그칠 것으로 예상된다",
+            "불과했다",
+            "불과하다"
+          ],
+          "common_errors_vi": "Kết quả thấp hơn mong đợi, 한다체 → `에 그치다` (`그쳤다`, `그칠 전망이다`)."
+        }
+      ],
+      "tips_vi": [
+        "㉠: vế trước đã chia sẵn `계속되는`, chỉ cần danh từ phụ thuộc đứng sau.",
+        "㉡: cả câu viết 한다체; `에 그치다` hợp với số liệu thấp, có thể ở quá khứ hoặc dạng dự báo."
+      ]
+    },
+    {
+      "id": "X70W53",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53",
+      "title_vi": "Viết 53 · Mô tả số liệu hộ một người (4 ý)",
+      "points": 30,
+      "instruction_ko": "※ [53] 다음은 'H시의 1인 가구'에 대한 자료입니다. 이를 200~300자의 글로 쓰십시오. 단, 글의 제목은 쓰지 마십시오. (30점)",
+      "instruction_vi": "Hãy viết bài 200–300 chữ, 한다체, đủ bốn ý: tổng quan · cơ cấu theo độ tuổi · nguyên nhân · triển vọng. Không viết tiêu đề. (30 điểm)",
+      "limits": {
+        "min": 200,
+        "max": 300
+      },
+      "data": [
+        {
+          "title_vi": "H시의 1인 가구 비율 (자료는 가상)",
+          "note_vi": "자료는 가상 = số liệu giả định, tự soạn để luyện viết. Đơn vị: %.",
+          "chart": {
+            "type": "bar",
+            "categories": [
+              "2010년",
+              "2025년"
+            ],
+            "series": [
+              {
+                "name": "1인 가구 비율(%)",
+                "values": [
+                  18,
+                  36
+                ]
+              }
+            ],
+            "unit": "%"
+          }
+        },
+        {
+          "title_vi": "1인 가구의 연령대별 비중 (자료는 가상)",
+          "note_vi": "자료는 가상 = số liệu giả định. Đơn vị: %.",
+          "table": {
+            "header": [
+              "구분",
+              "20~30대",
+              "40~50대",
+              "60대 이상"
+            ],
+            "rows": [
+              [
+                "2010년",
+                "52",
+                "30",
+                "18"
+              ],
+              [
+                "2025년",
+                "38",
+                "29",
+                "33"
+              ]
+            ]
+          }
+        }
+      ],
+      "prompt_ko": "※ 이러한 변화의 원인은 다음과 같습니다.",
+      "bullets_ko": [
+        "결혼 시기가 늦어짐",
+        "고령 인구의 증가"
+      ],
+      "framework_vi": [
+        "**Bước 1 · Đọc đề (2 phút, chưa viết):** gạch dưới đối tượng (hộ một người của thành phố H), hai mốc 2010 và 2025, số then chốt (18 → 36; 20~30대 52 → 38; 60대 이상 18 → 33) và hai nguyên nhân ở ô gợi ý.",
+        "**Bước 2 · Chọn bốn ý:** ① tổng quan: tỷ lệ tăng gấp mấy lần · ② cơ cấu: nhóm nào chiếm nhiều nhất lúc đầu, nhóm nào giảm, nhóm nào tăng (tính bằng `%p`) · ③ nguyên nhân từ ô gợi ý · ④ triển vọng bằng `-(으)ㄹ 것으로 전망된다`.",
+        "**Bước 3 · Viết theo dàn ý:** mỗi ý một đến hai câu, 한다체; hai xu hướng trái chiều nối bằng `-(으)ㄴ/는 데 반해`.",
+        "**Bước 4 · Kiểm (2 phút):** phép chia 36 ÷ 18 · hiệu số `%p` (52 − 38, 33 − 18, 38 − 33) · không thêm ý kiến cá nhân · đếm 200–300 chữ (tính cả dấu cách và dấu câu)."
+      ],
+      "patterns_vi": [
+        "`N + 을/를 차지하다`",
+        "`V/A + -(으)ㄴ/는 데 반해`",
+        "`V + -(으)ㄹ 것으로 전망되다`",
+        "`N + 대비` (nếu muốn nêu mức tăng so với mốc)"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1 · Tổng quan",
+          "content_vi": "Tỷ lệ ở mốc đầu và mốc cuối, ghi gấp mấy lần",
+          "chars": "35–55"
+        },
+        {
+          "part_vi": "Câu 2–4 · Cơ cấu",
+          "content_vi": "Nhóm chiếm nhiều nhất lúc đầu, rồi hai nhóm đổi ngược chiều bằng `데 반해`, kèm mức `%p`",
+          "chars": "130–185"
+        },
+        {
+          "part_vi": "Câu 5 · Nguyên nhân",
+          "content_vi": "Hai nguyên nhân ở ô gợi ý, nối bằng `-고` rồi `-기 때문이다`",
+          "chars": "25–40"
+        },
+        {
+          "part_vi": "Câu 6 · Triển vọng",
+          "content_vi": "Dự báo ngắn gọn: `-(으)ㄹ 것으로 전망된다`",
+          "chars": "20–35"
+        }
+      ],
+      "model_answer_ko": "H시의 1인 가구 비율은 2010년 18%에서 2025년 36%로 두 배가 되었다. 연령대별로 보면 2010년에는 20~30대가 52%로 가장 큰 비중을 차지하였다. 그러나 2025년에는 20~30대가 38%로 14%p 감소한 데 반해 60대 이상은 18%에서 33%로 15%p 증가하여 둘의 격차가 5%p로 줄었다. 40~50대는 30%에서 29%로 큰 변화가 없었다. 이는 결혼 시기가 늦어지고 고령 인구가 늘었기 때문이다. 앞으로도 1인 가구는 계속 늘어날 것으로 전망된다.",
+      "model_note_vi": "Số liệu giả định. 36 ÷ 18 = 2 lần; 52 − 38 = 14%p; 33 − 18 = 15%p; 38 − 33 = 5%p. Nhóm 40~50대 gần như không đổi nên chỉ nhắc một câu ngắn. Tỷ lệ trừ nhau cho ra `%p`, còn gấp mấy lần là phép chia.",
+      "common_errors_vi": [
+        "Viết «14%» thay vì `14%p` khi lấy hiệu số hai tỷ lệ.",
+        "Nhầm hiệu số với phép chia: 36 ÷ 18 là «두 배», không phải «18% 늘었다».",
+        "Dùng `데 반해` cho hai vế cùng chiều (phải là hai xu hướng trái ngược).",
+        "Thêm ý kiến cá nhân («tôi nghĩ chính phủ nên …») — Q53 chỉ mô tả."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Số liệu và phép tính đúng (2 lần, `%p`)",
+          "max": 10,
+          "note_vi": "Sai một con số lớn trừ nhiều hơn sai cách diễn đạt."
+        },
+        {
+          "criterion_vi": "Đủ bốn ý và dùng đúng mẫu của chủ đề",
+          "max": 10,
+          "note_vi": "Ít nhất hai trong ba mẫu: 차지하다, 데 반해, 전망된다."
+        },
+        {
+          "criterion_vi": "Văn viết 한다체 nhất quán, 200–300 chữ",
+          "max": 10
+        }
+      ],
+      "checklist_vi": [
+        "Có đủ bốn ý theo thứ tự tổng quan → cơ cấu → nguyên nhân → triển vọng?",
+        "`%p` dùng cho hiệu số và `배` dùng cho phép chia?",
+        "Không có câu 해요체 hoặc ý kiến riêng?",
+        "Đếm đủ 200–300 chữ?"
+      ],
+      "detectors": [
+        {
+          "pattern": "N + 대비 · N + 을/를 차지하다 · N + 을/를 기록하다",
+          "regex": "대비|차지|기록",
+          "label_vi": "Có một trong các mẫu của 대비 · 차지하다 · 기록하다"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 데 반해 · V/A + -(으)ㄴ/는 데 비해(서) · N + 에 반해(서)",
+          "regex": "데\\s*(반해|비해)|에\\s*반해",
+          "label_vi": "Có -(으)ㄴ/는 데 반해 (hoặc 데 비해)"
+        },
+        {
+          "pattern": "V + -(으)ㄹ 전망이다 · V/A + -는 실정이다 · V/A + -(으)ㄹ 것으로 전망되다/예상되다",
+          "regex": "전망|예상",
+          "label_vi": "Có dự báo -(으)ㄹ 것으로 전망되다/예상되다"
+        }
+      ]
+    },
+    {
+      "id": "X70W54",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "54",
+      "title_vi": "Viết 54 · Công nghệ trí tuệ nhân tạo và xã hội (tổng hợp Chủ đề 5)",
+      "points": 50,
+      "instruction_ko": "※ [54] 다음을 참고하여 600~700자로 글을 쓰시오. 단, 문제를 그대로 옮겨 쓰지 마시오. (50점)",
+      "instruction_vi": "Hãy viết bài 600–700 chữ, 한다체, năm đoạn: mở bài · gạch 1 · gạch 2 · gạch 3 kèm phản bác · kết bài. Không chép lại đề. (50 điểm)",
+      "limits": {
+        "min": 600,
+        "max": 700
+      },
+      "prompt_ko": "최근 여러 분야에서 인공지능 기술의 활용이 빠르게 확대되고 있다. 아래의 내용을 중심으로 ‘인공지능 기술의 확대’에 대한 자신의 생각을 쓰라.",
+      "bullets_ko": [
+        "인공지능 기술이 확대되면서 생기는 긍정적인 변화는 무엇인가?",
+        "이에 따라 나타날 수 있는 문제점은 무엇인가?",
+        "이 기술을 바람직하게 활용하기 위한 방안은 무엇인가?"
+      ],
+      "framework_vi": [
+        "**Bước 1 · Đọc đề (3 phút):** ba gạch = ba đoạn thân bài. Ghi mỗi gạch một từ khoá (lợi ích · vấn đề · biện pháp) và chọn trước một ví dụ cho mỗi đoạn.",
+        "**Bước 2 · Dàn ý «ngăn kéo»:** mở bài (bối cảnh + báo trước ba nội dung, không chép đề) → gạch 1 → gạch 2 → gạch 3 kèm một ý phản bác và cách đáp → kết bài (tóm tắt + kỳ vọng, không ý mới).",
+        "**Bước 3 · Viết từng đoạn bằng khuôn câu:** nêu luận điểm → lý do `-기 때문이다` → ví dụ cụ thể; đoạn phản bác theo mẫu «có ý kiến cho rằng … nhưng … không phải là …».",
+        "**Bước 4 · Kiểm (5 phút):** 600–700 chữ (nhắm 640–690) · 한다체 từ đầu đến cuối · mở bài không chép đề · dùng ít nhất ba mẫu của chủ đề (vd. 막론하고, 동시에, 다고 해서) · kết bài không có ý mới."
+      ],
+      "patterns_vi": [
+        "`N + 을/를 막론하고` · `N + 에 관계없이`",
+        "`V/A + -(으)ㄴ/는 동시에` · `N + 이자 N`",
+        "`V + -(으)ㅁ으로써`",
+        "`V/A + -(ㄴ/는)다고 해서 … -는 것은 아니다`",
+        "`V/A + -다고 볼 수 있다`",
+        "`V/A + -(으)ㄴ/는 가운데`",
+        "`N + 은/는 물론`"
+      ],
+      "outline": [
+        {
+          "part_vi": "1. Mở bài",
+          "content_vi": "Bối cảnh – Vấn đề được chú ý – Báo trước ba nội dung",
+          "chars": "115–160"
+        },
+        {
+          "part_vi": "2. Thân bài 1",
+          "content_vi": "Gạch 1: lợi ích, mỗi lợi ích kèm một ví dụ",
+          "chars": "105–150"
+        },
+        {
+          "part_vi": "3. Thân bài 2",
+          "content_vi": "Gạch 2: vấn đề, dùng `-ㄹ 수 있다` để không khẳng định quá mức",
+          "chars": "130–180"
+        },
+        {
+          "part_vi": "4. Thân bài 3",
+          "content_vi": "Gạch 3: biện pháp + một ý phản bác và cách đáp",
+          "chars": "130–185"
+        },
+        {
+          "part_vi": "5. Kết bài",
+          "content_vi": "Tóm tắt luận điểm – Kỳ vọng, không ý mới",
+          "chars": "90–125"
+        }
+      ],
+      "model_answer_ko": "인공지능은 이제 의료와 교육, 금융을 비롯하여 우리 생활 곳곳에서 쓰이고 있다. 이러한 변화는 생활을 편리하게 만드는 동시에 새로운 사회적 논란을 낳고 있다. 이에 본 글에서는 긍정적 변화와 문제점, 그리고 바람직한 활용 방안을 살펴보고자 한다.\n먼저 인공지능은 업무의 정확성과 효율을 높인다. 의료 분야에서는 영상을 분석함으로써 이상 징후를 찾는 데 도움을 주고, 교육 분야에서는 학생의 수준에 맞는 자료를 제공하여 지역에 관계없이 누구나 좋은 교육을 받을 수 있게 한다.\n그러나 이 기술에 지나치게 의존하는 것은 문제가 될 수 있다. 인공지능이 학습한 자료에 편견이 담겨 있으면 판단 결과가 특정 집단에 불리하게 나타날 수 있다. 또한 단순 업무가 줄어들 것으로 전망되는 가운데 기술을 다루는 사람과 그렇지 못한 사람 사이의 격차도 커지고 있다.\n문제를 줄이려면 먼저 인공지능의 결정을 사람이 다시 확인하는 제도를 마련해야 한다. 아울러 나이와 직업을 막론하고 누구나 활용 능력을 기를 수 있도록 교육 기회를 늘려야 한다. 일부에서는 규제가 기술 발전을 막는다고 주장하지만 안전 기준을 마련한다고 해서 발전이 멈추는 것은 아니다.\n결국 인공지능은 삶을 풍요롭게 하는 도구이자 신중하게 다루어야 할 책임이라고 볼 수 있다. 개인은 물론 기업과 정부가 함께 노력한다면 인공지능을 이로운 방향으로 쓸 수 있을 것으로 기대된다.",
+      "model_note_vi": "Bài mẫu tự soạn, không trích đề thật. Lập trường «công nghệ có ích nhưng cần quản lý» chỉ là một lựa chọn; bạn có thể chọn lập trường khác và giữ nhất quán. Các câu chỉ dùng khẳng định chung, không đưa số liệu không có trong đề.",
+      "common_errors_vi": [
+        "Chép nguyên câu nền của đề ở mở bài.",
+        "Bỏ sót một trong ba gạch, hoặc gộp hai gạch vào một đoạn.",
+        "Ba đoạn thân bài mất cân đối (một đoạn dài gấp đôi đoạn khác).",
+        "Lẫn thể nói (`-요`, `-ㅂ니다`) với 한다체.",
+        "Đưa số liệu tự bịa như thể là sự thật (đề không cho số liệu).",
+        "Kết bài đưa ra ý mới thay vì tóm tắt."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Nội dung & hoàn thành yêu cầu (đủ ba gạch, đúng chủ đề)",
+          "max": 12,
+          "note_vi": "Ước lượng luyện tập, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Cấu trúc triển khai (5 đoạn, từ nối, logic)",
+          "max": 12,
+          "note_vi": "Ước lượng luyện tập, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Sử dụng ngôn ngữ (từ vựng, ngữ pháp, 한다체)",
+          "max": 26,
+          "note_vi": "Ước lượng luyện tập, chưa xác minh với bảng chấm chính thức"
+        }
+      ],
+      "checklist_vi": [
+        "Đủ 600–700 chữ (nhắm 640–690)?",
+        "Có đủ ba gạch, mỗi gạch một đoạn?",
+        "Mở bài không chép đề?",
+        "Mọi câu kết bằng 한다체?",
+        "Có ít nhất ba mẫu của chủ đề được dùng đúng?",
+        "Kết bài không có ý mới?"
+      ],
+      "detectors": [
+        {
+          "pattern": "N + 을/를 막론하고 · N + 에 관계없이 · N + 에 국한되지 않고",
+          "regex": "막론하고|관계없이|국한되지",
+          "label_vi": "Có một trong 막론하고 · 관계없이 · 국한되지 않고"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 동시에 · V/A + -(으)면서도 · N + 이자 N",
+          "regex": "동시에|면서도|이자",
+          "label_vi": "Có một trong 동시에 · -(으)면서도 · 이자"
+        },
+        {
+          "pattern": "V + -(으)ㅁ으로써 · N + (으)로써 · N + 에 힘입어",
+          "regex": "함으로써|로써|힘입어",
+          "label_vi": "Có -(으)ㅁ으로써 hoặc 에 힘입어"
+        },
+        {
+          "pattern": "V/A + -(ㄴ/는)다고 해서 · N + (이)라고 해서",
+          "regex": "다고\\s*해서",
+          "label_vi": "Có -(ㄴ/는)다고 해서 … -는 것은 아니다"
+        },
+        {
+          "pattern": "V/A + -다고 볼 수 있다 · V/A + -다고도 할 수 있다 · V/A + -(ㄴ/는)다기보다(는)",
+          "regex": "[다라]고\\s*(볼|도\\s*할)\\s*수|다기보다",
+          "label_vi": "Có -다고 볼 수 있다"
+        }
+      ]
+    },
+    {
+      "id": "RG51",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: đoán lòng người qua dấu hiệu",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn kể về chuyện đoán ý người khác qua nét mặt; lời bạn ấy dùng đủ các đuôi «nguồn tin» của lời nói. Bạn chuyển thành câu văn viết.",
+      "text": "말: 사람들은 보통 웃는 얼굴을 보면 기분이 좋은 줄 알잖아요. → 글: ( ㉠ )\n말: 근데 그게 진짜 마음이랑 다를 때도 많거든요. → 글: ( ㉡ )\n말: 자꾸 시계를 보는 걸 보니까 지루한 모양이에요. → 글: ( ㉢ )\n말: 제가 지켜보니까 말이 없는 사람도 평소에는 잘 웃던데요. → 글: ( ㉣ )\n말: 그러니까 신호 하나만 보고 판단하면 오해가 생길 텐데요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "사람들은 흔히 웃는 얼굴을 보면 기분이 좋다고 생각한다.",
+            "사람들은 일반적으로 웃는 얼굴을 보면 기분이 좋다고 판단한다.",
+            "사람들은 흔히 웃는 얼굴을 기분이 좋다는 신호로 받아들인다."
+          ],
+          "common_errors_vi": "`-잖아요` không có trong 한다체: viết khẳng định; `보통` → `흔히`/`일반적으로`; `-(으)ㄴ 줄 알다` → `-다고 생각하다`."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "그러나 그것이 실제 마음과 다른 경우도 많다.",
+            "그러나 이러한 표정이 실제 감정과 다른 경우도 많다.",
+            "하지만 그것이 실제 마음과 다를 때도 많다."
+          ],
+          "common_errors_vi": "`그게` → `그것이`; `진짜 마음` → `실제 마음`; `이랑` → `과`; `-거든요` → `-다`."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "시계를 자주 보는 것으로 보아 지루한 것으로 보인다.",
+            "자꾸 시계를 보는 것을 보면 지루한 모양이다.",
+            "시계를 자주 보는 것을 보면 지루한 것으로 보인다."
+          ],
+          "common_errors_vi": "`보는 걸 보니까` → `보는 것을 보면`/`보는 것으로 보아`; `모양이에요` → `모양이다` hoặc `것으로 보인다`."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "실제로 지켜보면 말이 없는 사람도 평소에는 잘 웃는다.",
+            "실제로 말이 없는 사람도 평소에는 잘 웃는 경우가 많다.",
+            "실제로 지켜보면 말이 없는 사람도 평소에는 잘 웃는 경우가 많다."
+          ],
+          "common_errors_vi": "`-던데요` là trải nghiệm riêng của người nói; văn viết bỏ `제가` và nói thành sự thật chung: `실제로 … -ㄴ다`."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "따라서 신호 하나만 보고 판단하면 오해가 생길 수 있다.",
+            "그러므로 신호 하나만 보고 판단하면 오해가 생길 우려가 있다.",
+            "따라서 하나의 신호만으로 판단하면 오해가 생길 수 있다."
+          ],
+          "common_errors_vi": "`그러니까` → `따라서`/`그러므로`; `-(으)ㄹ 텐데요` (dự đoán bỏ lửng) → `-(으)ㄹ 수 있다` hoặc `-(으)ㄹ 우려가 있다`."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `-잖아요` → bỏ, viết khẳng định + `흔히` (`좋은 줄 알잖아요` → `흔히 좋다고 생각한다`)",
+        "말 → 글: `-던데요` → `실제로 … -ㄴ/는다` (bỏ `제가`)",
+        "말 → 글: `-(으)ㄴ 모양이에요` → `-(으)ㄴ 모양이다` / `-(으)ㄴ 것으로 보인다`",
+        "말 → 글: `-(으)ㄹ 텐데요` → `-(으)ㄹ 수 있다` / `-(으)ㄹ 우려가 있다`",
+        "말 → 글: `근데`, `그러니까` → `그러나`, `따라서`",
+        "말 → 글: `그게`, `이랑`, `걸` → `그것이`, `과`, `것을`"
+      ]
+    },
+    {
+      "id": "RG52",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: kiến thức và vận dụng",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn nói về chuyện học mà không dùng thì cũng như không; bạn chuyển lời bạn ấy thành câu văn viết, giữ đúng mẫu «thêm vào» và «giới hạn».",
+      "text": "말: 요즘은 책 말고도 인터넷으로 지식을 엄청 쉽게 얻을 수 있어요. → 글: ( ㉠ )\n말: 근데 많이 아는 것만으론 좀 부족해요. → 글: ( ㉡ )\n말: 배운 걸 직접 써 봐야 진짜 자기 지식이 되거든요. → 글: ( ㉢ )\n말: 쓰지 않는 지식은 그냥 책 속의 글자일 뿐이에요. → 글: ( ㉣ )\n말: 그래서 학생들은 물론이고 어른들도 배운 걸 많이 써 봐야 돼요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "오늘날에는 책 외에도 인터넷을 통해 지식을 매우 쉽게 얻을 수 있다.",
+            "최근에는 책 이외에도 인터넷을 통해 지식을 매우 쉽게 얻을 수 있다.",
+            "오늘날에는 책 외에도 인터넷으로 지식을 매우 쉽게 얻을 수 있다."
+          ],
+          "common_errors_vi": "`말고도` là giọng nói → `외에도`/`이외에도`; `엄청` → `매우`; `요즘은` → `오늘날에는`."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "그러나 많이 아는 것만으로는 다소 부족하다.",
+            "하지만 많이 아는 것만으로는 충분하지 않다.",
+            "그러나 지식이 많은 것만으로는 다소 부족하다."
+          ],
+          "common_errors_vi": "`만으론` (rút gọn) → `만으로는`; `좀` → `다소`; `근데` → `그러나`."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "배운 것을 직접 활용해 보아야 진정한 자신의 지식이 된다.",
+            "배운 것을 직접 활용해야 자신의 지식이 된다.",
+            "배운 지식은 직접 활용해 보아야 자신의 것이 된다."
+          ],
+          "common_errors_vi": "`걸` → `것을`; `써 보다` → `활용하다`; `진짜` → `진정한` hoặc bỏ; `자기` → `자신의`; `-거든요` → `-ㄴ다`."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "활용하지 않는 지식은 책 속의 글자일 뿐이다.",
+            "사용하지 않는 지식은 단지 책 속의 글자일 뿐이다.",
+            "활용하지 않는 지식은 책 속의 글자에 불과하다."
+          ],
+          "common_errors_vi": "`그냥` là khẩu ngữ → bỏ hoặc `단지`; `일 뿐이에요` → `일 뿐이다` (hoặc `에 불과하다`)."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "따라서 학생은 물론 성인도 배운 것을 적극적으로 활용해야 한다.",
+            "따라서 학생들은 물론 어른들도 배운 것을 많이 활용해 보아야 한다.",
+            "그러므로 학생은 물론 성인도 배운 지식을 적극적으로 활용할 필요가 있다."
+          ],
+          "common_errors_vi": "`그래서` → `따라서`; `물론이고` gọn lại thành `물론`; `써 봐야 돼요` → `활용해야 한다`."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `말고도` → `외에도`/`이외에도`",
+        "말 → 글: `만으론`, `걸` → `만으로는`, `것을` (không rút gọn)",
+        "말 → 글: `엄청`, `좀`, `그냥`, `진짜` → `매우`, `다소`, `단지`/bỏ",
+        "말 → 글: `일 뿐이에요` → `일 뿐이다` / `에 불과하다`",
+        "말 → 글: `써 봐야 돼요` → `활용해야 한다`",
+        "말 → 글: `근데`, `그래서`, `물론이고` → `그러나`, `따라서`, `은/는 물론`"
+      ]
+    },
+    {
+      "id": "RG53",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: Điều gì quyết định thành công",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn nói ý kiến về điều quyết định thành công; bạn viết lại thành câu của bài luận.",
+      "text": "말: 저는 성공은 진짜 노력하기 나름이라고 생각해요. → 글: ( ㉠ )\n말: 근데 계획만 세우고 실천 안 하면 세우나 마나예요. → 글: ( ㉡ )\n말: 목표를 세운 이상 끝까지 해야 되잖아요. → 글: ( ㉢ )\n말: 환경이 너무 나쁘면 노력만으로는 좀 힘들 수도 있어요. → 글: ( ㉣ )\n말: 그래서 결국 결과는 노력에 달려 있는 거예요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "성공은 노력하기 나름이다.",
+            "성공은 무엇보다 노력하기 나름이다.",
+            "성공은 결국 노력하기 나름이다.",
+            "성공은 노력하기에 달려 있다."
+          ],
+          "common_errors_vi": "Giữ `저는 … 라고 생각해요` và `진짜`: văn nghị luận nêu thẳng nhận định, bỏ ngôi «tôi» và từ khẩu ngữ."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "그러나 계획만 세우고 실천하지 않으면 세우나 마나이다.",
+            "하지만 계획만 세우고 실천하지 않으면 세우나 마나이다.",
+            "그러나 계획만 세우고 실천하지 않는다면 세우나 마나이다.",
+            "하지만 계획만 세우고 실천하지 않는다면 세우나 마나이다."
+          ],
+          "common_errors_vi": "Giữ `근데` (dạng nói của `그런데`) và phủ định ngắn `실천 안 하면`: văn viết dùng `그러나/하지만` + `실천하지 않으면`."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "목표를 세운 이상 끝까지 해야 한다.",
+            "목표를 세운 이상 끝까지 노력해야 한다.",
+            "목표를 세운 이상은 끝까지 해야 한다."
+          ],
+          "common_errors_vi": "`-잖아요` là đuôi nói chuyện, `-아/어야 되다` cũng là khẩu ngữ: viết `-아/어야 한다`."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "환경이 매우 나쁘면 노력만으로는 어려울 수도 있다.",
+            "환경이 지나치게 나쁘면 노력만으로는 어려울 수도 있다.",
+            "환경이 매우 나쁘면 노력만으로는 힘들 수도 있다.",
+            "환경이 지나치게 나쁘면 노력만으로는 힘들 수도 있다."
+          ],
+          "common_errors_vi": "Giữ `너무` và `좀`: văn viết dùng `매우/지나치게` và bỏ `좀`."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "따라서 결국 결과는 노력에 달려 있는 것이다.",
+            "그러므로 결국 결과는 노력에 달려 있는 것이다.",
+            "따라서 결과는 노력에 달려 있다.",
+            "그러므로 결과는 노력에 달려 있다."
+          ],
+          "common_errors_vi": "Câu kết luận: `그래서` → `따라서/그러므로`; `-는 거예요` → `-는 것이다`."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `저는 … 라고 생각해요` → bỏ, nêu thẳng: `성공은 노력하기 나름이다.`",
+        "말 → 글: `근데` → `그러나/하지만`; `그래서` → `따라서/그러므로`",
+        "말 → 글: `진짜`, `좀` → bỏ; `너무` → `매우/지나치게`",
+        "말 → 글: `실천 안 하면` → `실천하지 않으면`",
+        "말 → 글: `-아/어야 되잖아요` → `-아/어야 한다`",
+        "말 → 글: `-는 거예요` → `-는 것이다`"
+      ]
+    },
+    {
+      "id": "RG54",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: Điểm thi và khả năng nói ngoại ngữ",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn nói về điểm thi và khả năng nói ngoại ngữ; bạn viết lại thành câu của bài luận.",
+      "text": "말: 저는 점수가 높다고 해서 꼭 말을 잘하는 건 아니라고 생각해요. → 글: ( ㉠ )\n말: 문법을 엄청 많이 알고도 말을 못 하는 사람이 많거든요. → 글: ( ㉡ )\n말: 근데 친구들이랑 매일 얘기하다 보니까 실력이 늘었어요. → 글: ( ㉢ )\n말: 외국어든지 운동이든지 매일 조금씩 하는 게 진짜 중요해요. → 글: ( ㉣ )\n말: 그래서 저는 점수보다 실제로 쓰는 게 더 중요하다고 봐요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "점수가 높다고 해서 반드시 말을 잘하는 것은 아니다.",
+            "점수가 높다고 해서 말을 잘하는 것은 아니다.",
+            "점수가 높다고 해서 항상 말을 잘하는 것은 아니다."
+          ],
+          "common_errors_vi": "Giữ `저는 … 라고 생각해요` và `건`: bỏ ngôi «tôi», `건` → `것은`; `꼭` trong văn viết nên là `반드시`."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "문법을 매우 많이 알고도 말을 하지 못하는 사람이 많기 때문이다.",
+            "문법을 많이 알고도 말을 하지 못하는 사람이 많기 때문이다.",
+            "문법을 매우 많이 알고도 말을 하지 못하는 사람이 많다.",
+            "문법을 많이 알고도 말을 하지 못하는 사람이 많다."
+          ],
+          "common_errors_vi": "`엄청` là khẩu ngữ (→ `매우` hoặc bỏ); `못 하는` → `하지 못하는`; `-거든요` → `-기 때문이다` hoặc `-다`."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "그런데 친구들과 매일 이야기하다 보니 실력이 늘었다.",
+            "그러나 친구들과 매일 이야기하다 보니 실력이 늘었다.",
+            "그런데 친구들과 매일 이야기하다 보니까 실력이 늘었다.",
+            "그런데 친구들과 매일 대화하다 보니 실력이 늘었다."
+          ],
+          "common_errors_vi": "Ba chỗ khẩu ngữ: `근데` → `그런데`, `이랑` → `과/와`, `얘기` → `이야기`. Giữ `-다 보니` và thì quá khứ `늘었다`."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "외국어든지 운동이든지 매일 조금씩 하는 것이 매우 중요하다.",
+            "외국어든지 운동이든지 매일 조금씩 하는 것이 무엇보다 중요하다.",
+            "외국어든지 운동이든지 매일 조금씩 하는 것이 중요하다."
+          ],
+          "common_errors_vi": "`게` → `것이`; `진짜` → `매우`/`무엇보다` hoặc bỏ. `-든지 -든지` dùng được cả trong văn viết."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "따라서 점수보다 실제로 쓰는 것이 더 중요하다.",
+            "그러므로 점수보다 실제로 쓰는 것이 더 중요하다.",
+            "따라서 점수보다 실제로 사용하는 것이 더 중요하다.",
+            "그러므로 점수보다 실제로 사용하는 것이 더 중요하다."
+          ],
+          "common_errors_vi": "Câu kết luận: `그래서` → `따라서/그러므로`; bỏ `저는 … 다고 봐요`; `게` → `것이`."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `저는 … 다고 생각해요/봐요` → bỏ, viết thẳng nhận định",
+        "말 → 글: `-는 건/게` → `-는 것은/것이`",
+        "말 → 글: `근데` → `그런데/그러나`; `그래서` → `따라서/그러므로`",
+        "말 → 글: `이랑` → `과/와`; `얘기` → `이야기`",
+        "말 → 글: `엄청`, `진짜` → `매우` hoặc bỏ; `꼭` → `반드시`",
+        "말 → 글: `못 하다` → `하지 못하다`; `-거든요` → `-기 때문이다`"
+      ]
+    },
+    {
+      "id": "RG55",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: Điện thoại thông minh trong đời sống",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn nói về điện thoại thông minh trong đời sống; bạn viết lại thành câu văn trang trọng của bài luận.",
+      "text": "말: 다들 아는 것처럼 스마트폰은 생활을 엄청 편리하게 만들었어요. → 글: ( ㉠ )\n말: 저는 스마트폰이 연락 수단이고 정보를 얻는 도구라고 생각해요. → 글: ( ㉡ )\n말: 근데 전문가들도 스마트폰 중독 문제를 지적한 적이 있어요. → 글: ( ㉢ )\n말: 편리하니까 그만큼 사용 시간을 좀 스스로 조절해야 돼요. → 글: ( ㉣ )\n말: 그래서 개인도 노력하고 학교도 사용법을 가르쳐야 해요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "알다시피 스마트폰은 생활을 매우 편리하게 만들었다.",
+            "누구나 알다시피 스마트폰은 생활을 매우 편리하게 만들었다.",
+            "알려진 바와 같이 스마트폰은 생활을 매우 편리하게 만들었다."
+          ],
+          "common_errors_vi": "`다들 아는 것처럼` → `알다시피`/`알려진 바와 같이`; `엄청` → `매우`."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "스마트폰은 연락 수단이자 정보를 얻는 도구이다.",
+            "스마트폰은 연락 수단이며 정보를 얻는 도구이다.",
+            "스마트폰은 연락 수단이자 정보를 얻는 도구이기도 하다."
+          ],
+          "common_errors_vi": "Bỏ `저는 … 생각해요`; gộp `…이고 …(이)다` bằng `이자`/`이며`; câu định nghĩa dùng `은/는`."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "그러나 전문가들도 스마트폰 중독 문제를 지적한 바 있다.",
+            "하지만 전문가들도 스마트폰 중독 문제를 지적한 바 있다.",
+            "그러나 전문가들도 스마트폰 중독 문제를 지적한 바가 있다.",
+            "그러나 전문가들도 스마트폰 중독 문제를 지적한 적이 있다."
+          ],
+          "common_errors_vi": "`근데` → `그러나/하지만`; giọng trang trọng dùng `-(으)ㄴ 바 있다` thay cho `-(으)ㄴ 적이 있다`."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "편리한 만큼 사용 시간을 스스로 조절해야 한다.",
+            "편리한 만큼 스스로 사용 시간을 조절해야 한다.",
+            "편리한 만큼 사용 시간을 스스로 조절할 필요가 있다.",
+            "스마트폰이 편리한 만큼 사용 시간을 스스로 조절해야 한다."
+          ],
+          "common_errors_vi": "`-니까 그만큼` → `-(으)ㄴ 만큼`; bỏ `좀`; `-아/어야 돼요` → `-아/어야 한다`."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "따라서 개인이 노력하는 한편 학교도 사용법을 가르쳐야 한다.",
+            "그러므로 개인이 노력하는 한편 학교도 사용법을 가르쳐야 한다.",
+            "따라서 개인도 노력하는 한편 학교도 사용법을 가르쳐야 한다.",
+            "따라서 개인도 노력하고 학교도 사용법을 가르쳐야 한다."
+          ],
+          "common_errors_vi": "`그래서` → `따라서/그러므로`; hai việc song song `A도 하고 B도` viết gọn bằng `-는 한편`."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `다들 아는 것처럼`, `-잖아요` → `알다시피` / `알려진 바와 같이`",
+        "말 → 글: `-(으)ㄴ 적이 있어요` → `-(으)ㄴ 바 있다`",
+        "말 → 글: `…이고 …(이)에요` → `…이자/이며 …이다`",
+        "말 → 글: `-(으)니까 그만큼` → `-(으)ㄴ 만큼`",
+        "말 → 글: `A도 하고 B도 …` → `A-는 한편 B도 …`",
+        "말 → 글: `근데` → `그러나`; `그래서` → `따라서`; `엄청`, `좀` → `매우` hoặc bỏ"
+      ]
+    },
+    {
+      "id": "RG56",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: Thói quen xấu và cách bỏ",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn nói về thói quen xấu và cách bỏ; bạn viết lại thành câu của bài luận.",
+      "text": "말: 나쁜 버릇은 그냥 두면 건강을 해치기 십상이에요. → 글: ( ㉠ )\n말: 근데 오래된 습관을 하루 만에 바꾸기에는 좀 무리예요. → 글: ( ㉡ )\n말: 밤에 침대에서 휴대폰을 보는 건 그냥 잠을 포기하는 거나 다름없어요. → 글: ( ㉢ )\n말: 작은 성공을 경험하면 의욕이 생겨서 계속하게 되거든요. → 글: ( ㉣ )\n말: 그래서 작은 것부터 조금씩 바꿔 나가야지요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "나쁜 버릇은 그대로 두면 건강을 해치기 십상이다.",
+            "나쁜 버릇은 고치지 않으면 건강을 해치기 십상이다.",
+            "나쁜 버릇을 그대로 두면 건강을 해치기 십상이다."
+          ],
+          "common_errors_vi": "`그냥` là khẩu ngữ → `그대로`; giữ `-기 십상이다` (dùng được trong văn viết)."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "그러나 오래된 습관을 하루 만에 바꾸기에는 무리가 있다.",
+            "하지만 오래된 습관을 하루 만에 바꾸기에는 무리가 있다.",
+            "그러나 오래된 습관을 하루 만에 바꾸기에는 무리이다.",
+            "그러나 오래된 습관을 하루아침에 바꾸기에는 무리가 있다."
+          ],
+          "common_errors_vi": "`근데` → `그러나/하지만`; bỏ `좀`; `무리예요` → `무리가 있다`."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "밤에 침대에서 휴대폰을 보는 것은 잠을 포기하는 것이나 다름없다.",
+            "밤에 침대에서 휴대폰을 보는 것은 잠을 포기하는 것이나 마찬가지이다.",
+            "밤에 침대에서 휴대폰을 보는 것은 사실상 잠을 포기하는 것이나 다름없다."
+          ],
+          "common_errors_vi": "`건` → `것은`, `거나` → `것이나`; `그냥` bỏ (hoặc `사실상`)."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "작은 성공을 경험하면 의욕이 생겨 계속하게 되기 때문이다.",
+            "작은 성공을 경험하면 의욕이 생겨서 계속하게 되기 때문이다.",
+            "작은 성공을 경험하면 의욕이 생겨 계속하게 된다.",
+            "작은 성공을 경험하면 의욕이 생겨서 계속하게 된다."
+          ],
+          "common_errors_vi": "`-거든요` (giải thích lý do kiểu nói chuyện) → `-기 때문이다` hoặc `-ㄴ다`."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "따라서 작은 것부터 조금씩 바꾸어 나가야 한다.",
+            "그러므로 작은 것부터 조금씩 바꾸어 나가야 한다.",
+            "따라서 작은 것부터 조금씩 바꿔 나가야 한다.",
+            "그러므로 작은 것부터 조금씩 바꿔 나가야 한다."
+          ],
+          "common_errors_vi": "`-아/어야지요` là lời tự nhủ, khẩu ngữ → `-아/어야 한다`; `그래서` → `따라서/그러므로`."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `그냥` → `그대로` hoặc bỏ",
+        "말 → 글: `근데` → `그러나`; `그래서` → `따라서`",
+        "말 → 글: `-는 건`, `-는 거나` → `-는 것은`, `-는 것이나`",
+        "말 → 글: `무리예요` → `무리가 있다`; bỏ `좀`",
+        "말 → 글: `-거든요` → `-기 때문이다`",
+        "말 → 글: `-아/어야지요` → `-아/어야 한다`"
+      ]
+    },
+    {
+      "id": "RG57",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: Người quản lý mới ở chỗ làm thêm",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn kể về người quản lý mới ở chỗ làm thêm; bạn viết lại thành câu văn viết, giữ nguyên quán ngữ.",
+      "text": "말: 새로 온 점장님은 손님들 말에 진짜 귀를 잘 기울여요. → 글: ( ㉠ )\n말: 그리고 입이 되게 무거워서 직원들이 고민을 편하게 얘기해요. → 글: ( ㉡ )\n말: 근데 주말에는 눈코 뜰 새 없이 바빠서 좀 힘들어 보여요. → 글: ( ㉢ )\n말: 그래서 직원들이 막 머리를 맞대고 일하는 방법을 바꿨어요. → 글: ( ㉣ )\n말: 그랬더니 가게 분위기가 진짜 눈에 띄게 좋아졌어요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "새로 온 점장은 손님들의 말에 귀를 잘 기울인다.",
+            "새로 온 점장은 손님들의 말에 귀를 기울인다.",
+            "새로 온 점장은 손님들의 말에 늘 귀를 기울인다."
+          ],
+          "common_errors_vi": "Văn viết không dùng `-님` cho người được kể; thêm `의` (`손님들의 말`); bỏ `진짜`."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "또한 입이 매우 무거워서 직원들이 고민을 편하게 이야기한다.",
+            "또한 입이 무거워서 직원들이 고민을 편하게 이야기한다.",
+            "또한 입이 매우 무거워 직원들이 고민을 편하게 이야기한다.",
+            "그리고 입이 매우 무거워서 직원들이 고민을 편하게 이야기한다."
+          ],
+          "common_errors_vi": "`되게` → `매우` hoặc bỏ; `얘기하다` → `이야기하다`; đầu câu nên là `또한`."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "그러나 주말에는 눈코 뜰 새 없이 바빠서 힘들어 보인다.",
+            "하지만 주말에는 눈코 뜰 새 없이 바빠서 힘들어 보인다.",
+            "그러나 주말에는 눈코 뜰 새 없이 바빠 힘들어 보인다.",
+            "하지만 주말에는 눈코 뜰 새 없이 바빠 힘들어 보인다."
+          ],
+          "common_errors_vi": "`근데` → `그러나/하지만`; bỏ `좀`; `보여요` → `보인다`."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "그래서 직원들이 머리를 맞대고 일하는 방법을 바꾸었다.",
+            "그러자 직원들이 머리를 맞대고 일하는 방법을 바꾸었다.",
+            "이에 직원들이 머리를 맞대고 일하는 방법을 바꾸었다.",
+            "그래서 직원들이 머리를 맞대고 일하는 방법을 바꿨다."
+          ],
+          "common_errors_vi": "Bỏ `막`; giữ nguyên `머리를 맞대고`. Câu kể nối bằng `그러자/이에`; `따라서` chỉ dành cho kết luận lập luận."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "그 결과 가게 분위기가 눈에 띄게 좋아졌다.",
+            "그러자 가게 분위기가 눈에 띄게 좋아졌다.",
+            "그 결과 가게의 분위기가 눈에 띄게 좋아졌다."
+          ],
+          "common_errors_vi": "`그랬더니` → `그 결과/그러자`; bỏ `진짜`; viết đúng `띄게` (không phải `띠게`)."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `점장님` → `점장` (không dùng `-님` cho người được kể)",
+        "말 → 글: `손님들 말` → `손님들의 말`",
+        "말 → 글: `진짜`, `막`, `좀` → bỏ; `되게` → `매우`",
+        "말 → 글: `얘기하다` → `이야기하다`",
+        "말 → 글: `근데` → `그러나`; `그리고` → `또한`; `그랬더니` → `그 결과`",
+        "말 → 글: quán ngữ giữ nguyên, chỉ đổi đuôi: `눈에 띄게 좋아졌어요` → `눈에 띄게 좋아졌다`"
+      ]
+    },
+    {
+      "id": "RG58",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: Chuẩn bị lễ hội của câu lạc bộ",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn kể chuyện chuẩn bị lễ hội của câu lạc bộ; bạn viết lại thành câu văn viết, giữ nguyên quán ngữ.",
+      "text": "말: 축제 전날 발등에 불이 떨어져서 진짜 속이 탔어요. → 글: ( ㉠ )\n말: 근데 발이 넓은 선배가 막 사람들을 데려와서 도와줬어요. → 글: ( ㉡ )\n말: 다들 손발이 되게 잘 맞아서 일이 금방 끝났거든요. → 글: ( ㉢ )\n말: 행사가 무사히 끝나서 진짜 다 같이 가슴을 쓸어내렸어요. → 글: ( ㉣ )\n말: 그래서 함께 일할 때는 서로 신경을 좀 써 주는 게 중요해요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "축제 전날 발등에 불이 떨어져서 속이 탔다.",
+            "축제 전날 발등에 불이 떨어져 속이 탔다.",
+            "축제 전날 발등에 불이 떨어져서 속이 몹시 탔다.",
+            "축제 전날 발등에 불이 떨어져 속이 몹시 탔다."
+          ],
+          "common_errors_vi": "Bỏ `진짜` (hoặc đổi thành `몹시`); quán ngữ giữ nguyên, chỉ đổi `탔어요` → `탔다`."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "그런데 발이 넓은 선배가 사람들을 데려와서 도와주었다.",
+            "그런데 발이 넓은 선배가 사람들을 데려와 도와주었다.",
+            "그때 발이 넓은 선배가 사람들을 데려와 도와주었다.",
+            "그런데 발이 넓은 선배가 사람들을 데려와서 도와줬다."
+          ],
+          "common_errors_vi": "`근데` là dạng nói của `그런데`; bỏ `막`."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "모두 손발이 잘 맞아서 일이 빨리 끝났다.",
+            "모두 손발이 잘 맞아 일이 빨리 끝났다.",
+            "모두 손발이 매우 잘 맞아서 일이 빨리 끝났다.",
+            "모두 손발이 매우 잘 맞아 일이 빨리 끝났다."
+          ],
+          "common_errors_vi": "`다들` → `모두`; `되게` → `매우`/bỏ; `금방` → `빨리`; `-거든요` → `-다`."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "행사가 무사히 끝나서 모두 가슴을 쓸어내렸다.",
+            "행사가 무사히 끝나 모두 가슴을 쓸어내렸다.",
+            "행사가 무사히 끝나서 모두가 가슴을 쓸어내렸다.",
+            "행사가 무사히 끝나 모두가 가슴을 쓸어내렸다."
+          ],
+          "common_errors_vi": "Bỏ `진짜`; `다 같이` → `모두`."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "따라서 함께 일할 때는 서로 신경을 써 주는 것이 중요하다.",
+            "그러므로 함께 일할 때는 서로 신경을 써 주는 것이 중요하다.",
+            "따라서 함께 일할 때에는 서로 신경을 써 주는 것이 중요하다.",
+            "따라서 함께 일할 때는 서로 신경을 써 주는 것이 매우 중요하다."
+          ],
+          "common_errors_vi": "Câu kết luận: `그래서` → `따라서/그러므로`; bỏ `좀`; `게` → `것이`."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `진짜`, `막`, `좀` → bỏ; `되게` → `매우`",
+        "말 → 글: `다들`, `다 같이` → `모두`",
+        "말 → 글: `금방` → `빨리`",
+        "말 → 글: `근데` → `그런데`; câu kết luận `그래서` → `따라서`",
+        "말 → 글: `-거든요` → `-다`; `-는 게` → `-는 것이`",
+        "말 → 글: quán ngữ giữ nguyên: `발등에 불이 떨어져 속이 탔다`"
+      ]
+    },
+    {
+      "id": "RG59",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: Chuẩn bị trước và vượt qua thất bại",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn nói về việc chuẩn bị trước và cách đối mặt với thất bại; bạn viết lại thành câu của bài luận.",
+      "text": "말: 저는 어려운 일이 생기기 전에 미리 준비하는 게 제일 중요하다고 생각해요. → 글: ( ㉠ )\n말: 문제가 터진 다음에 막 고치면 이미 늦은 경우가 많아요. → 글: ( ㉡ )\n말: 준비를 안 하면 시험에서 미역국을 먹기 십상이에요. → 글: ( ㉢ )\n말: 근데 실패했다고 해서 너무 실망할 필요는 없어요. → 글: ( ㉣ )\n말: 고생 끝에 낙이 온다잖아요, 그러니까 좀 힘들어도 포기하면 안 돼요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "어려운 일이 생기기 전에 미리 준비하는 것이 가장 중요하다.",
+            "어려운 일이 발생하기 전에 미리 준비하는 것이 가장 중요하다.",
+            "어려운 일이 생기기 전에 미리 대비하는 것이 가장 중요하다."
+          ],
+          "common_errors_vi": "Bỏ `저는 … 생각해요`; `게` → `것이`; `제일` → `가장`."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "문제가 발생한 뒤에 고치면 이미 늦은 경우가 많다.",
+            "문제가 생긴 뒤에 고치면 이미 늦은 경우가 많다.",
+            "문제가 발생한 후에 고치면 이미 늦은 경우가 많다.",
+            "문제가 생긴 후에 고치면 이미 늦은 경우가 많다."
+          ],
+          "common_errors_vi": "`터지다` (khẩu ngữ) → `생기다/발생하다`; `다음에` → `뒤에/후에`; bỏ `막`."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "준비를 하지 않으면 시험에서 떨어지기 십상이다.",
+            "준비하지 않으면 시험에서 떨어지기 십상이다.",
+            "준비를 하지 않으면 시험에 떨어지기 십상이다.",
+            "준비하지 않으면 시험에 떨어지기 십상이다."
+          ],
+          "common_errors_vi": "`미역국을 먹다` là quán ngữ khẩu ngữ, bài viết 54 nên dùng `떨어지다`; `안 하면` → `하지 않으면`."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "그러나 실패했다고 해서 지나치게 실망할 필요는 없다.",
+            "하지만 실패했다고 해서 지나치게 실망할 필요는 없다.",
+            "그러나 실패했다고 해서 크게 실망할 필요는 없다.",
+            "하지만 실패했다고 해서 크게 실망할 필요는 없다."
+          ],
+          "common_errors_vi": "`근데` → `그러나/하지만`; `너무` → `지나치게`."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "고생 끝에 낙이 온다는 말처럼 힘들더라도 포기해서는 안 된다.",
+            "고생 끝에 낙이 온다는 말처럼 힘들어도 포기해서는 안 된다.",
+            "고생 끝에 낙이 온다는 말이 있듯이 힘들더라도 포기해서는 안 된다.",
+            "고생 끝에 낙이 온다는 말처럼 힘들더라도 포기하면 안 된다."
+          ],
+          "common_errors_vi": "`…다잖아요, 그러니까` → `…다는 말처럼`/`…다는 말이 있듯이`; bỏ `좀`; `포기하면 안 돼요` → `포기해서는 안 된다`. Giữ trọn câu tục ngữ."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `…다잖아요` → `…다는 말처럼` / `…다는 말이 있듯이`",
+        "말 → 글: `미역국을 먹다`, `터지다` → `시험에 떨어지다`, `발생하다`",
+        "말 → 글: `제일` → `가장`; `너무` → `지나치게`; `막`, `좀` → bỏ",
+        "말 → 글: `안 하면` → `하지 않으면`; `-면 안 돼요` → `-아/어서는 안 된다`",
+        "말 → 글: `근데` → `그러나`; `다음에` → `뒤에/후에`"
+      ]
+    },
+    {
+      "id": "RG60",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: Giá cả, tiền lương và tăng trưởng",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn nói về tình hình giá cả và tiền lương; bạn viết lại thành câu văn của bài luận theo giọng tin kinh tế.",
+      "text": "말: 요즘 물가가 너무 많이 올라서 가계 부담이 커지고 있어요. → 글: ( ㉠ )\n말: 근데 월급은 거의 그대로라서 생활이 좀 어려운 상황이에요. → 글: ( ㉡ )\n말: 그래서 올해 성장률은 1%쯤밖에 안 될 거래요. → 글: ( ㉢ )\n말: 금리만 올린다고 물가가 막 잡히는 건 아니에요. → 글: ( ㉣ )\n말: 저는 대출을 받아서 투자했다가 손해를 볼 바에는 차라리 예금을 하는 게 낫다고 생각해요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "최근 물가가 크게 올라 가계 부담이 커지고 있다.",
+            "최근 물가가 크게 올라서 가계 부담이 커지고 있다.",
+            "최근 물가가 큰 폭으로 올라 가계 부담이 커지고 있다.",
+            "최근 물가가 큰 폭으로 상승하여 가계 부담이 커지고 있다."
+          ],
+          "common_errors_vi": "`요즘` → `최근`; `너무 많이` → `크게`/`큰 폭으로`."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "그러나 임금은 거의 그대로여서 생활이 어려운 실정이다.",
+            "하지만 임금은 거의 그대로여서 생활이 어려운 실정이다.",
+            "그러나 임금은 거의 그대로여서 생활이 어려운 상황이다.",
+            "그러나 임금은 거의 오르지 않아 생활이 어려운 실정이다."
+          ],
+          "common_errors_vi": "`월급` (đời thường) → `임금`; `근데` → `그러나`; bỏ `좀`; mô tả thực trạng bằng `-ㄴ 실정이다`."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "따라서 올해 성장률은 1% 정도에 그칠 전망이다.",
+            "따라서 올해 성장률은 1%대에 그칠 전망이다.",
+            "따라서 올해 성장률은 1% 정도에 그칠 것으로 전망된다.",
+            "따라서 올해 성장률은 1% 정도에 그칠 것으로 예상된다."
+          ],
+          "common_errors_vi": "`-ㄹ 거래요` (nghe nói sẽ) → `-ㄹ 전망이다`/`-ㄹ 것으로 전망된다`; `…쯤밖에 안 되다` → `…정도에 그치다`; `그래서` → `따라서`."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "금리만 올린다고 해서 물가가 잡히는 것은 아니다.",
+            "금리를 올린다고 해서 물가가 잡히는 것은 아니다.",
+            "금리 인상만으로 물가가 잡히는 것은 아니다.",
+            "금리만 인상한다고 해서 물가가 잡히는 것은 아니다."
+          ],
+          "common_errors_vi": "Bỏ `막`; `건` → `것은`; `-ㄴ다고` (rút gọn khi nói) → `-ㄴ다고 해서`."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "대출을 받아 투자했다가 손실을 볼 바에는 차라리 예금을 하는 것이 낫다.",
+            "대출을 받아서 투자했다가 손실을 볼 바에는 차라리 예금을 하는 것이 낫다.",
+            "대출을 받아 투자했다가 손해를 볼 바에는 차라리 예금을 하는 것이 낫다.",
+            "대출을 받아서 투자했다가 손해를 볼 바에는 차라리 예금을 하는 것이 낫다."
+          ],
+          "common_errors_vi": "Bỏ `저는 … 생각해요`; `게` → `것이`; giữ `-(으)ㄹ 바에는 차라리`."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `요즘` → `최근`; `월급` → `임금`",
+        "말 → 글: `너무 많이` → `크게` / `큰 폭으로`",
+        "말 → 글: `-ㄹ 거래요` → `-ㄹ 전망이다`",
+        "말 → 글: `…밖에 안 되다` → `…에 그치다`; `상황이에요` → `실정이다`",
+        "말 → 글: `근데` → `그러나`; `그래서` → `따라서`",
+        "말 → 글: `막`, `좀` → bỏ; `-는 건/게` → `-는 것은/것이`"
+      ]
+    },
+    {
+      "id": "RG61",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: Tranh luận về bắt buộc đi bầu",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn kể về cuộc tranh luận có nên bắt buộc đi bầu; bạn viết lại thành câu văn của bài luận, nêu cả hai phía.",
+      "text": "말: 요즘 투표율이 너무 낮아서 걱정하는 사람이 많아요. → 글: ( ㉠ )\n말: 투표를 의무로 하는 문제 때문에 의견이 엄청 갈려요. → 글: ( ㉡ )\n말: 찬성하는 사람들은 투표율을 올려야 된다고 막 요구하고 있어요. → 글: ( ㉢ )\n말: 근데 반대하는 사람들은 투표는 권리니까 강요하면 안 된다고 그래요. → 글: ( ㉣ )\n말: 그래서 법을 바꾸기 전에 충분히 토론하는 게 진짜 중요해요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "최근 투표율이 매우 낮아 걱정하는 사람이 많다.",
+            "최근 투표율이 매우 낮아서 걱정하는 사람이 많다.",
+            "최근 투표율이 지나치게 낮아 걱정하는 사람이 많다.",
+            "최근 투표율이 지나치게 낮아서 걱정하는 사람이 많다."
+          ],
+          "common_errors_vi": "`요즘` → `최근`; `너무` → `매우/지나치게`."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "투표를 의무로 하는 문제를 둘러싸고 의견이 크게 갈린다.",
+            "투표를 의무로 하는 문제를 둘러싸고 의견이 크게 갈리고 있다.",
+            "투표 의무화를 둘러싸고 의견이 크게 갈리고 있다.",
+            "투표를 의무로 하는 문제를 둘러싸고 의견이 크게 엇갈리고 있다."
+          ],
+          "common_errors_vi": "Vấn đề gây tranh cãi → `N을/를 둘러싸고` (không dùng `때문에`); `엄청` → `크게`."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "찬성하는 사람들은 투표율을 높일 것을 요구하고 있다.",
+            "찬성하는 사람들은 투표율을 올릴 것을 요구하고 있다.",
+            "찬성하는 측은 투표율을 높일 것을 요구하고 있다.",
+            "찬성하는 쪽은 투표율을 높일 것을 요구하고 있다."
+          ],
+          "common_errors_vi": "`-아/어야 된다고 요구하다` → `-(으)ㄹ 것을 요구하다`; bỏ `막`."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "그러나 반대하는 사람들은 투표가 권리이므로 강요해서는 안 된다고 주장한다.",
+            "그러나 반대하는 사람들은 투표는 권리이므로 강요해서는 안 된다고 주장한다.",
+            "반면 반대하는 사람들은 투표가 권리이므로 강요해서는 안 된다고 주장한다.",
+            "하지만 반대하는 사람들은 투표는 권리이기 때문에 강요해서는 안 된다고 주장한다."
+          ],
+          "common_errors_vi": "`근데` → `그러나/반면`; `-니까` → `-(으)므로`/`-기 때문에`; `-면 안 된다고 그래요` → `-아/어서는 안 된다고 주장한다`."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "따라서 법을 바꾸기에 앞서 충분히 토론하는 것이 중요하다.",
+            "그러므로 법을 바꾸기에 앞서 충분히 토론하는 것이 중요하다.",
+            "따라서 법을 개정하기에 앞서 충분히 토론하는 것이 중요하다.",
+            "따라서 법을 바꾸기 전에 충분히 토론하는 것이 중요하다."
+          ],
+          "common_errors_vi": "`그래서` → `따라서`; `-기 전에` có thể nâng thành `-기에 앞서` (trang trọng); `게` → `것이`; bỏ `진짜`."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `요즘` → `최근`; `너무`, `엄청` → `매우`, `크게`",
+        "말 → 글: tranh cãi về N → `N을/를 둘러싸고`",
+        "말 → 글: `-아/어야 된다고 요구하다` → `-(으)ㄹ 것을 요구하다`",
+        "말 → 글: `-다고 그래요` → `-다고 주장한다`; `-니까` → `-(으)므로`",
+        "말 → 글: `-기 전에` → `-기에 앞서`",
+        "말 → 글: `근데` → `그러나/반면`; `그래서` → `따라서`; `막`, `진짜` → bỏ"
+      ]
+    },
+    {
+      "id": "RG62",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: Biến đổi khí hậu và vai trò của khoa học",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn nói về biến đổi khí hậu và vai trò của khoa học; bạn viết lại thành câu văn của bài luận.",
+      "text": "말: 요즘 지구 온난화가 진짜 심해지고 있잖아요. → 글: ( ㉠ )\n말: 이건 주로 화석 연료를 많이 써서 그래요. → 글: ( ㉡ )\n말: 연구해 보니까 재생 에너지를 쓰면 탄소 배출이 엄청 줄어든대요. → 글: ( ㉢ )\n말: 이렇게 기술을 개발해서 기후 문제를 좀 해결할 수 있을 거예요. → 글: ( ㉣ )\n말: 그래서 저는 정부가 연구에 투자를 더 많이 해야 된다고 생각해요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "최근 지구 온난화가 심해지고 있다.",
+            "최근 지구 온난화가 점점 심해지고 있다.",
+            "최근 지구 온난화가 빠르게 심해지고 있다.",
+            "최근 지구 온난화가 심각해지고 있다."
+          ],
+          "common_errors_vi": "`요즘` → `최근`; bỏ `진짜`; `-잖아요` → `-다`."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "이는 주로 화석 연료를 많이 사용하기 때문이다.",
+            "이는 주로 화석 연료의 과도한 사용에 기인한다.",
+            "이는 주로 화석 연료를 많이 사용한 데 기인한다.",
+            "이는 주로 화석 연료를 지나치게 많이 사용하기 때문이다."
+          ],
+          "common_errors_vi": "`이건` → `이는`; `-아서 그래요` → `-기 때문이다` hoặc `N에 기인한다`; `쓰다` → `사용하다`."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "연구 결과 재생 에너지를 사용하면 탄소 배출이 크게 줄어드는 것으로 나타났다.",
+            "연구 결과 재생 에너지를 사용하면 탄소 배출이 크게 감소하는 것으로 나타났다.",
+            "연구 결과 재생 에너지를 쓰면 탄소 배출이 크게 줄어드는 것으로 나타났다.",
+            "연구에 따르면 재생 에너지를 사용하면 탄소 배출이 크게 줄어든다고 한다."
+          ],
+          "common_errors_vi": "`연구해 보니까 … -대요` → `연구 결과 … -는 것으로 나타났다`; `엄청` → `크게`."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "이처럼 기술을 개발함으로써 기후 문제를 해결할 수 있을 것이다.",
+            "이와 같이 기술을 개발함으로써 기후 문제를 해결할 수 있을 것이다.",
+            "기술을 개발함으로써 기후 문제를 해결할 수 있을 것이다.",
+            "이처럼 기술을 개발함으로써 기후 문제를 어느 정도 해결할 수 있을 것이다."
+          ],
+          "common_errors_vi": "`이렇게` → `이처럼`; phương tiện `-아서` → `-(으)ㅁ으로써`; bỏ `좀` (hoặc `어느 정도`); `거예요` → `것이다`."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "따라서 정부가 연구에 투자를 더 많이 해야 한다.",
+            "그러므로 정부가 연구에 투자를 더 많이 해야 한다.",
+            "따라서 정부는 연구에 투자를 더 많이 해야 한다.",
+            "따라서 정부가 연구에 더 많이 투자해야 한다."
+          ],
+          "common_errors_vi": "Bỏ `저는 … 생각해요`; `그래서` → `따라서`; `-아/어야 된다` → `-아/어야 한다`."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `요즘` → `최근`; `이건` → `이는`; `이렇게` → `이처럼`",
+        "말 → 글: `-아서 그래요` → `-기 때문이다` / `N에 기인한다`",
+        "말 → 글: `연구해 보니까 … -대요` → `연구 결과 … -는 것으로 나타났다`",
+        "말 → 글: phương tiện `-아/어서` → `-(으)ㅁ으로써`",
+        "말 → 글: `진짜`, `좀` → bỏ; `엄청` → `크게`",
+        "말 → 글: `그래서 저는 … 생각해요` → `따라서 …`"
+      ]
+    },
+    {
+      "id": "RG63",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: nói thật dù bị thiệt",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn nói ý kiến của mình về việc có nên nói thật khi bị thiệt hay không.",
+      "text": "말: 저는 손해를 보더라도 진실을 말해야 한다고 생각해요. → 글: ( ㉠ )\n말: 근데 자기 이익만 추구하는 사람이 너무 많잖아요. → 글: ( ㉡ )\n말: 사람들이 서로를 못 믿는 건 정직하지 않은 사람이 많아서 그래요. → 글: ( ㉢ )\n말: 거짓말로 위기를 넘겨 봤자 양심이 불편하면 소용없거든요. → 글: ( ㉣ )\n말: 그래서 중요한 건 남한테 상처를 주지 않는 방식으로 말하는 거예요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "손해를 보더라도 진실을 말해야 한다.",
+            "손해를 볼지라도 진실을 말해야 한다.",
+            "손해를 보더라도 진실을 말해야 한다고 생각한다.",
+            "손해를 볼지라도 진실을 말해야 한다고 생각한다."
+          ],
+          "common_errors_vi": "Giữ `저는 … 생각해요`: văn nghị luận bỏ chủ ngữ ngôi thứ nhất và nêu thẳng nhận định `말해야 한다`."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "그런데 자기 이익만 추구하는 사람이 매우 많다.",
+            "그러나 자기 이익만 추구하는 사람이 매우 많다.",
+            "그런데 자기 이익만 추구하는 사람이 상당히 많다.",
+            "그러나 자기 이익만 추구하는 사람이 상당히 많다."
+          ],
+          "common_errors_vi": "Ba chỗ: `근데` → `그런데/그러나`; giữ `너무` là sai, văn viết dùng `매우/상당히`; bỏ `-잖아요`. Tính từ giữ nguyên `많다` (✗ `많는다`)."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "사람들이 서로를 믿지 못하는 것은 정직하지 않은 사람이 많기 때문이다.",
+            "사람들이 서로를 신뢰하지 못하는 것은 정직하지 않은 사람이 많기 때문이다."
+          ],
+          "common_errors_vi": "`-아서 그래요` → `-기 때문이다`; `건` → `것은`; phủ định ngắn `못 믿는` → `믿지 못하는`."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "거짓말로 위기를 넘긴들 양심이 불편하면 소용이 없다.",
+            "거짓말로 위기를 넘기더라도 양심이 불편하면 소용이 없다.",
+            "거짓말로 위기를 넘긴들 양심이 불편하면 소용없다.",
+            "거짓말로 위기를 넘기더라도 양심이 불편하면 소용없다."
+          ],
+          "common_errors_vi": "`-아/어 봤자` mang giọng nói; văn viết dùng `-(으)ㄴ들` hoặc `-더라도`. Bỏ `-거든요`."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "따라서 중요한 것은 남에게 상처를 주지 않는 방식으로 말하는 것이다.",
+            "그러므로 중요한 것은 남에게 상처를 주지 않는 방식으로 말하는 것이다.",
+            "따라서 중요한 것은 타인에게 상처를 주지 않는 방식으로 말하는 것이다.",
+            "그러므로 중요한 것은 타인에게 상처를 주지 않는 방식으로 말하는 것이다."
+          ],
+          "common_errors_vi": "Bốn chỗ: `그래서` → `따라서/그러므로`; `건` → `것은`; `한테` → `에게`; `거예요` → `것이다`."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `저는 … 해야 한다고 생각해요` → `… 해야 한다` (bỏ ngôi thứ nhất).",
+        "말 → 글: `근데` → `그런데/그러나`; `그래서` → `따라서/그러므로`.",
+        "말 → 글: `너무 많잖아요` → `매우 많다` (đổi từ nhấn, bỏ `-잖아요`).",
+        "말 → 글: `많아서 그래요` → `많기 때문이다`; `건` → `것은`; `한테` → `에게`.",
+        "말 → 글: `못 믿는` → `믿지 못하는` (phủ định dài).",
+        "말 → 글: `넘겨 봤자` → `넘긴들` hoặc `넘기더라도`."
+      ]
+    },
+    {
+      "id": "RG64",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: bảo tồn di sản",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn nói ý kiến của mình về việc phục dựng di tích bị hư hại.",
+      "text": "말: 저는 문화유산을 다음 세대에 꼭 물려줘야 한다고 생각해요. → 글: ( ㉠ )\n말: 근데 전쟁으로 사라진 유적이 엄청 많잖아요. → 글: ( ㉡ )\n말: 그래서 옛 모습을 알기가 좀 어려워요. → 글: ( ㉢ )\n말: 옛 기록을 보고 복원하면 원형에 가깝게 되살릴 수 있거든요. → 글: ( ㉣ )\n말: 이렇게 복원된 유적은 역사를 배우는 데 되게 큰 도움이 돼요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "문화유산을 다음 세대에 반드시 물려주어야 한다.",
+            "문화유산을 다음 세대에 반드시 물려줘야 한다.",
+            "문화유산을 다음 세대에 반드시 물려주어야 한다고 생각한다."
+          ],
+          "common_errors_vi": "Giữ `저는 … 생각해요` và `꼭`: văn viết bỏ ngôi thứ nhất và dùng `반드시`."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "그런데 전쟁으로 사라진 유적이 매우 많다.",
+            "그러나 전쟁으로 사라진 유적이 매우 많다.",
+            "그런데 전쟁으로 사라진 유적이 상당히 많다.",
+            "그러나 전쟁으로 사라진 유적이 상당히 많다."
+          ],
+          "common_errors_vi": "`엄청` là từ nhấn của lời nói → `매우/상당히`; `근데` → `그런데/그러나`; bỏ `-잖아요`."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "따라서 옛 모습을 알기가 다소 어렵다.",
+            "그러므로 옛 모습을 알기가 다소 어렵다.",
+            "따라서 옛 모습을 알기가 어렵다.",
+            "그러므로 옛 모습을 알기가 어렵다."
+          ],
+          "common_errors_vi": "`좀` → `다소` hoặc bỏ; `어려워요` → `어렵다` (tính từ, không viết `어려운다`)."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "옛 기록에 비추어 복원하면 원형에 가깝게 되살릴 수 있다.",
+            "옛 기록을 보고 복원하면 원형에 가깝게 되살릴 수 있다.",
+            "옛 기록을 바탕으로 복원하면 원형에 가깝게 되살릴 수 있다."
+          ],
+          "common_errors_vi": "Bỏ `-거든요` (lời giải thích của văn nói); `있다` giữ nguyên (✗ `있는다`). Có thể nâng `기록을 보고` thành `기록에 비추어`."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "이와 같이 복원된 유적은 역사를 배우는 데 매우 큰 도움이 된다.",
+            "이처럼 복원된 유적은 역사를 배우는 데 매우 큰 도움이 된다.",
+            "이와 같이 복원된 유적은 역사를 배우는 데 큰 도움이 된다.",
+            "이처럼 복원된 유적은 역사를 배우는 데 큰 도움이 된다."
+          ],
+          "common_errors_vi": "`이렇게` → `이와 같이/이처럼`; `되게` → `매우` hoặc bỏ; `돼요` → `된다` (✗ `됀다`, ✗ `돼다`)."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `저는 … 생각해요` → bỏ ngôi thứ nhất; `꼭` → `반드시`.",
+        "말 → 글: `근데` → `그런데/그러나`; `그래서` → `따라서/그러므로`.",
+        "말 → 글: `엄청`, `되게` → `매우/상당히`; `좀` → `다소`.",
+        "말 → 글: bỏ `-잖아요`, `-거든요`: `있거든요` → `있다`.",
+        "말 → 글: `이렇게` → `이와 같이/이처럼`; `돼요` → `된다`."
+      ]
+    },
+    {
+      "id": "RG65",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: già hoá dân số và chăm sóc",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn nói ý kiến của mình về việc người cao tuổi sống một mình ngày càng nhiều.",
+      "text": "말: 혼자 사는 노인이 엄청 늘었잖아요. → 글: ( ㉠ )\n말: 근데 돌봄 인력은 아직 좀 부족해요. → 글: ( ㉡ )\n말: 젊은 사람들도 노후 준비를 안 하는 경향이 있거든요. → 글: ( ㉢ )\n말: 그래서 사회가 돌봄 재원을 더 마련해야 된다고 생각해요. → 글: ( ㉣ )\n말: 안 그러면 앞으로 가족의 돌봄 부담이 진짜 커질 거예요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "혼자 사는 노인이 크게 늘었다.",
+            "혼자 사는 노인이 상당히 늘었다.",
+            "혼자 사는 노인이 급격히 늘었다.",
+            "혼자 사는 노인이 크게 늘어났다."
+          ],
+          "common_errors_vi": "`엄청` → `크게/상당히/급격히`; bỏ `-잖아요`; động từ ở quá khứ: `늘었다`."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "그런데 돌봄 인력은 아직 다소 부족하다.",
+            "그러나 돌봄 인력은 아직 다소 부족하다.",
+            "그런데 돌봄 인력은 아직 부족하다.",
+            "그러나 돌봄 인력은 아직 부족하다."
+          ],
+          "common_errors_vi": "`좀` → `다소` hoặc bỏ; `근데` → `그런데/그러나`; tính từ `부족하다` giữ nguyên (✗ `부족한다`)."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "젊은 사람들도 노후 준비를 하지 않는 경향이 있다.",
+            "젊은 층도 노후 준비를 하지 않는 경향이 있다.",
+            "청년들도 노후 준비를 하지 않는 경향이 있다."
+          ],
+          "common_errors_vi": "Phủ định ngắn `안 하는` → `하지 않는`; bỏ `-거든요`; `있다` giữ nguyên."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "따라서 사회가 돌봄 재원을 더 마련해야 한다.",
+            "그러므로 사회가 돌봄 재원을 더 마련해야 한다.",
+            "따라서 사회가 돌봄 재원을 더 마련해야 한다고 생각한다.",
+            "그러므로 사회가 돌봄 재원을 더 마련해야 한다고 생각한다."
+          ],
+          "common_errors_vi": "`-아야 되다` là lời nói → `-아야 하다`; `그래서` → `따라서/그러므로`."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "그렇지 않으면 앞으로 가족의 돌봄 부담이 매우 커질 것이다.",
+            "그렇지 않으면 앞으로 가족의 돌봄 부담이 상당히 커질 것이다.",
+            "그렇지 않으면 앞으로 가족의 돌봄 부담이 더욱 커질 것이다."
+          ],
+          "common_errors_vi": "`안 그러면` → `그렇지 않으면`; `진짜` → `매우/상당히`; `커질 거예요` → `커질 것이다`."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `엄청 늘었잖아요` → `크게 늘었다`.",
+        "말 → 글: `좀 부족해요` → `다소 부족하다`; `근데` → `그런데/그러나`.",
+        "말 → 글: `안 하는` → `하지 않는`; `안 그러면` → `그렇지 않으면`.",
+        "말 → 글: `-아야 된다고 생각해요` → `-아야 한다`.",
+        "말 → 글: `진짜 커질 거예요` → `매우 커질 것이다`."
+      ]
+    },
+    {
+      "id": "RG66",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: khám sức khoẻ định kỳ",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn nói ý kiến của mình về việc khám sức khoẻ định kỳ.",
+      "text": "말: 저는 건강 검진을 정기적으로 받는 게 중요하다고 생각해요. → 글: ( ㉠ )\n말: 근데 바빠서 검진을 안 받는 사람이 많잖아요. → 글: ( ㉡ )\n말: 고혈압 같은 만성 질환은 증상이 거의 없어서 그래요. → 글: ( ㉢ )\n말: 이렇게 방치하면 병이 되게 빨리 악화될 수 있어요. → 글: ( ㉣ )\n말: 그래서 일찍 발견하면 치료 효과가 훨씬 높아져요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "건강 검진을 정기적으로 받는 것이 중요하다.",
+            "정기적으로 건강 검진을 받는 것이 중요하다.",
+            "건강 검진을 정기적으로 받는 것이 중요하다고 생각한다."
+          ],
+          "common_errors_vi": "Bỏ `저는 … 생각해요`; `게` (rút gọn của `것이`) → `것이`."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "그런데 바빠서 검진을 받지 않는 사람이 많다.",
+            "그러나 바빠서 검진을 받지 않는 사람이 많다.",
+            "그런데 바쁘다는 이유로 검진을 받지 않는 사람이 많다.",
+            "그러나 바쁘다는 이유로 검진을 받지 않는 사람이 많다."
+          ],
+          "common_errors_vi": "`근데` → `그런데/그러나`; `안 받는` → `받지 않는`; bỏ `-잖아요`."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "고혈압 같은 만성 질환은 증상이 거의 없기 때문이다.",
+            "고혈압과 같은 만성 질환은 증상이 거의 없기 때문이다."
+          ],
+          "common_errors_vi": "Câu giải thích lý do `-아서 그래요` → `-기 때문이다` (✗ `없어서 그렇다`)."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "이와 같이 방치하면 병이 매우 빠르게 악화될 수 있다.",
+            "이처럼 방치하면 병이 매우 빠르게 악화될 수 있다.",
+            "이와 같이 방치하면 병이 매우 빨리 악화될 수 있다.",
+            "이처럼 방치하면 병이 매우 빨리 악화될 수 있다."
+          ],
+          "common_errors_vi": "`되게` → `매우`; `이렇게` → `이와 같이/이처럼`; `병이 악화되다` giữ dạng bị động (✗ `병이 악화시킬`)."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "따라서 일찍 발견하면 치료 효과가 훨씬 높아진다.",
+            "그러므로 일찍 발견하면 치료 효과가 훨씬 높아진다.",
+            "따라서 조기에 발견하면 치료 효과가 훨씬 높아진다.",
+            "그러므로 조기에 발견하면 치료 효과가 훨씬 높아진다."
+          ],
+          "common_errors_vi": "`-아/어지다` là động từ nên `높아져요` → `높아진다` (✗ `높아지다`); `그래서` → `따라서/그러므로`."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `받는 게 중요하다고 생각해요` → `받는 것이 중요하다`.",
+        "말 → 글: `근데` → `그런데/그러나`; `그래서` → `따라서/그러므로`.",
+        "말 → 글: `안 받는` → `받지 않는`; bỏ `-잖아요`.",
+        "말 → 글: `없어서 그래요` → `없기 때문이다`.",
+        "말 → 글: `이렇게 … 되게 빨리` → `이와 같이 … 매우 빠르게`.",
+        "말 → 글: `높아져요` → `높아진다` (động từ `-아/어지다` + `-ㄴ다`)."
+      ]
+    },
+    {
+      "id": "RG67",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: thanh toán nhanh và chi tiêu",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn nói ý kiến của mình về thanh toán nhanh bằng điện thoại.",
+      "text": "말: 저는 간편결제가 진짜 편리하다고 생각해요. → 글: ( ㉠ )\n말: 근데 사람들이 돈을 막 쓰게 돼요. → 글: ( ㉡ )\n말: 돈을 쓴다는 느낌이 별로 안 들거든요. → 글: ( ㉢ )\n말: 그리고 휴대폰을 잃어버리는 날에는 엄청 큰 피해를 입을 수 있어요. → 글: ( ㉣ )\n말: 그래서 개인정보가 걸린 일이니만큼 좀 더 신중해야 돼요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "간편결제는 매우 편리하다.",
+            "간편결제는 대단히 편리하다.",
+            "간편결제는 매우 편리하다고 생각한다."
+          ],
+          "common_errors_vi": "Bỏ `저는 … 생각해요`; `진짜` → `매우`; khi nêu nhận định chung, chủ ngữ đổi `이/가` → `은/는`."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "그런데 사람들이 돈을 함부로 쓰게 된다.",
+            "그러나 사람들이 돈을 함부로 쓰게 된다.",
+            "그런데 사람들이 돈을 무분별하게 쓰게 된다.",
+            "그러나 사람들이 돈을 무분별하게 쓰게 된다."
+          ],
+          "common_errors_vi": "`막` (bừa) là khẩu ngữ → `함부로/무분별하게`; `돼요` → `된다`."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "돈을 쓴다는 느낌이 거의 들지 않기 때문이다.",
+            "돈을 쓴다는 느낌이 별로 들지 않기 때문이다.",
+            "돈을 쓴다는 느낌이 거의 들지 않는다."
+          ],
+          "common_errors_vi": "`-거든요` ở đây là lý do → `-기 때문이다`; `안 들다` → `들지 않다`."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "또한 휴대폰을 잃어버리는 날에는 매우 큰 피해를 입을 수 있다.",
+            "또한 휴대폰을 잃어버리는 날에는 막대한 피해를 입을 수 있다.",
+            "게다가 휴대폰을 잃어버리는 날에는 매우 큰 피해를 입을 수 있다."
+          ],
+          "common_errors_vi": "`그리고` đầu câu → `또한/게다가`; `엄청` → `매우`."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "따라서 개인정보가 걸린 일이니만큼 더욱 신중해야 한다.",
+            "그러므로 개인정보가 걸린 일이니만큼 더욱 신중해야 한다.",
+            "따라서 개인정보가 걸린 일이니만큼 보다 신중해야 한다.",
+            "그러므로 개인정보가 걸린 일이니만큼 보다 신중해야 한다."
+          ],
+          "common_errors_vi": "`좀 더` → `더욱/보다`; `-아야 돼요` → `-아야 한다`; `그래서` → `따라서/그러므로`."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `진짜 편리하다고 생각해요` → `매우 편리하다`.",
+        "말 → 글: `막 쓰게 돼요` → `함부로 쓰게 된다`.",
+        "말 → 글: `안 들거든요` → `들지 않기 때문이다`.",
+        "말 → 글: `그리고` → `또한`; `엄청` → `매우`.",
+        "말 → 글: `좀 더 신중해야 돼요` → `더욱 신중해야 한다`."
+      ]
+    },
+    {
+      "id": "RG68",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: video ngắn và sự tập trung",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn nói ý kiến của mình về thói quen xem video ngắn của thanh thiếu niên.",
+      "text": "말: 저는 짧은 영상을 너무 많이 보면 집중력이 떨어진다고 생각해요. → 글: ( ㉠ )\n말: 영상 하나가 끝나기가 무섭게 다음 영상이 막 나오잖아요. → 글: ( ㉡ )\n말: 계속 보게 되는 건 도파민이 다음 영상을 기대하게 만들어서 그래요. → 글: ( ㉢ )\n말: 근데 청소년기에는 스스로 조절하는 힘이 좀 약해요. → 글: ( ㉣ )\n말: 그래서 어른들이 사용 시간을 정해 주는 게 진짜 필요해요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "짧은 영상을 지나치게 많이 보면 집중력이 떨어진다.",
+            "짧은 영상을 지나치게 많이 보면 집중력이 떨어진다고 생각한다.",
+            "짧은 영상을 과도하게 보면 집중력이 떨어진다."
+          ],
+          "common_errors_vi": "Bỏ `저는 … 생각해요`; `너무` → `지나치게` (nói mức «quá»)."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "영상 하나가 끝나기가 무섭게 다음 영상이 바로 나온다.",
+            "영상 하나가 끝나기가 무섭게 다음 영상이 곧바로 나온다.",
+            "영상 하나가 끝나기가 무섭게 다음 영상이 이어서 나온다."
+          ],
+          "common_errors_vi": "`막` → `바로/곧바로` hoặc `이어서`; bỏ `-잖아요`; `나와요` → `나온다`."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "계속 보게 되는 것은 도파민이 다음 영상을 기대하게 만들기 때문이다.",
+            "계속 보게 되는 것은 도파민이 다음 영상을 기대하도록 만들기 때문이다."
+          ],
+          "common_errors_vi": "`건` → `것은`; `-아서 그래요` → `-기 때문이다`."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "그런데 청소년기에는 스스로 조절하는 힘이 다소 약하다.",
+            "그러나 청소년기에는 스스로 조절하는 힘이 다소 약하다.",
+            "그런데 청소년기에는 스스로 조절하는 힘이 약하다.",
+            "그러나 청소년기에는 스스로 조절하는 힘이 약하다."
+          ],
+          "common_errors_vi": "`좀` → `다소` hoặc bỏ; `근데` → `그런데/그러나`; tính từ `약하다` giữ nguyên (✗ `약한다`)."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "따라서 어른들이 사용 시간을 정해 주는 것이 반드시 필요하다.",
+            "그러므로 어른들이 사용 시간을 정해 주는 것이 반드시 필요하다.",
+            "따라서 어른들이 사용 시간을 정해 주는 것이 매우 필요하다.",
+            "그러므로 어른들이 사용 시간을 정해 주는 것이 매우 필요하다."
+          ],
+          "common_errors_vi": "`진짜` → `반드시/매우`; `게` → `것이`; `그래서` → `따라서/그러므로`."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `저는 … 너무 많이 … 생각해요` → `… 지나치게 많이 … 떨어진다`.",
+        "말 → 글: `막 나오잖아요` → `바로 나온다`.",
+        "말 → 글: `보게 되는 건 … 만들어서 그래요` → `보게 되는 것은 … 만들기 때문이다`.",
+        "말 → 글: `근데 … 좀 약해요` → `그러나 … 다소 약하다`.",
+        "말 → 글: `그래서 … 게 진짜 필요해요` → `따라서 … 것이 반드시 필요하다`."
+      ]
+    },
+    {
+      "id": "RG69",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: dùng điện thoại khi lái xe",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn nói ý kiến của mình về việc vừa lái xe vừa xem điện thoại.",
+      "text": "말: 저는 운전하면서 휴대폰을 보는 게 진짜 위험하다고 생각해요. → 글: ( ㉠ )\n말: 근데 신호를 기다리는 도중에도 휴대폰을 보는 사람이 많잖아요. → 글: ( ㉡ )\n말: 사람들은 사고를 직접 겪고 나서야 그 위험을 깨닫거든요. → 글: ( ㉢ )\n말: 운전자치고 이런 위험한 순간을 안 겪어 본 사람은 거의 없을 거예요. → 글: ( ㉣ )\n말: 그래서 단속을 좀 더 강화해야 된다고 생각해요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "운전하면서 휴대폰을 보는 것은 매우 위험하다.",
+            "운전하는 도중에 휴대폰을 보는 것은 매우 위험하다.",
+            "운전하면서 휴대폰을 보는 것은 매우 위험하다고 생각한다.",
+            "운전하면서 휴대폰을 보는 것이 매우 위험하다고 생각한다."
+          ],
+          "common_errors_vi": "Bỏ `저는 … 생각해요`; `게` → `것은`; `진짜` → `매우`."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "그런데 신호를 기다리는 도중에도 휴대폰을 보는 사람이 많다.",
+            "그러나 신호를 기다리는 도중에도 휴대폰을 보는 사람이 많다."
+          ],
+          "common_errors_vi": "`근데` → `그런데/그러나`; bỏ `-잖아요`; `많다` giữ nguyên."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "사람들은 사고를 직접 겪고 나서야 그 위험을 깨닫는다.",
+            "사람들은 사고를 직접 겪고 나서야 비로소 그 위험을 깨닫는다."
+          ],
+          "common_errors_vi": "Bỏ `-거든요`; `깨닫다` + `-는다` → `깨닫는다` (giữ `ㄷ` trước phụ âm, ✗ `깨달는다`)."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "운전자치고 이런 위험한 순간을 겪어 보지 않은 사람은 거의 없을 것이다.",
+            "운전자치고 이러한 위험한 순간을 겪어 보지 않은 사람은 거의 없을 것이다."
+          ],
+          "common_errors_vi": "`안 겪어 본` → `겪어 보지 않은`; `없을 거예요` → `없을 것이다`."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "따라서 단속을 더욱 강화해야 한다.",
+            "그러므로 단속을 더욱 강화해야 한다.",
+            "따라서 단속을 보다 강화해야 한다.",
+            "그러므로 단속을 보다 강화해야 한다."
+          ],
+          "common_errors_vi": "`좀 더` → `더욱/보다`; `-아야 된다고 생각해요` → `-아야 한다`; `그래서` → `따라서/그러므로`."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `보는 게 진짜 위험하다고 생각해요` → `보는 것은 매우 위험하다`.",
+        "말 → 글: `근데` → `그런데/그러나`; `그래서` → `따라서/그러므로`.",
+        "말 → 글: bỏ `-잖아요`, `-거든요`: `깨닫거든요` → `깨닫는다`.",
+        "말 → 글: `안 겪어 본` → `겪어 보지 않은`; `거예요` → `것이다`.",
+        "말 → 글: `좀 더 … 해야 돼요` → `더욱 … 해야 한다`."
+      ]
+    },
+    {
+      "id": "RG70",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: dùng từ mới (신조어)",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn nói ý kiến của mình về việc dùng từ mới trong đời sống.",
+      "text": "말: 신조어를 쓰는 사람이 엄청 많아요. → 글: ( ㉠ )\n말: 근데 신조어를 모르면 대화에서 좀 소외될 수 있잖아요. → 글: ( ㉡ )\n말: 그래서 나이에 관계없이 신조어를 배우려는 사람이 많아요. → 글: ( ㉢ )\n말: 신조어는 새로운 현상을 짧게 보여 주는 거울이거든요. → 글: ( ㉣ )\n말: 물론 공적인 자리에서는 표준어를 쓰는 게 좋다고 생각해요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "신조어를 쓰는 사람이 매우 많다.",
+            "신조어를 사용하는 사람이 매우 많다.",
+            "신조어를 쓰는 사람이 상당히 많다.",
+            "신조어를 사용하는 사람이 상당히 많다."
+          ],
+          "common_errors_vi": "`엄청` → `매우/상당히`; `많아요` → `많다` (tính từ, ✗ `많는다`)."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "그런데 신조어를 모르면 대화에서 다소 소외될 수 있다.",
+            "그러나 신조어를 모르면 대화에서 다소 소외될 수 있다.",
+            "그런데 신조어를 모르면 대화에서 소외될 수 있다.",
+            "그러나 신조어를 모르면 대화에서 소외될 수 있다."
+          ],
+          "common_errors_vi": "`근데` → `그런데/그러나`; `좀` → `다소` hoặc bỏ; bỏ `-잖아요`."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "따라서 나이에 관계없이 신조어를 배우려는 사람이 많다.",
+            "그러므로 나이에 관계없이 신조어를 배우려는 사람이 많다.",
+            "따라서 연령에 관계없이 신조어를 배우려는 사람이 많다.",
+            "그러므로 연령에 관계없이 신조어를 배우려는 사람이 많다."
+          ],
+          "common_errors_vi": "`그래서` → `따라서/그러므로`; có thể nâng `나이` → `연령` (từ văn viết)."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "신조어는 새로운 현상을 짧게 보여 주는 거울이다.",
+            "신조어는 새로운 현상을 간결하게 보여 주는 거울이다."
+          ],
+          "common_errors_vi": "Bỏ `-거든요`; danh từ + `이다`: `거울이에요` → `거울이다`."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "물론 공적인 자리에서는 표준어를 쓰는 것이 좋다.",
+            "물론 공적인 자리에서는 표준어를 사용하는 것이 좋다.",
+            "물론 공적인 자리에서는 표준어를 쓰는 것이 바람직하다.",
+            "물론 공적인 자리에서는 표준어를 사용하는 것이 바람직하다."
+          ],
+          "common_errors_vi": "`게` → `것이`; `좋다고 생각해요` → `좋다` hoặc `바람직하다` (từ văn nghị luận)."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `엄청 많아요` → `매우 많다`.",
+        "말 → 글: `근데` → `그런데/그러나`; `그래서` → `따라서/그러므로`.",
+        "말 → 글: `좀` → `다소`; bỏ `-잖아요`, `-거든요`.",
+        "말 → 글: `거울이에요` → `거울이다` (danh từ + `이다`).",
+        "말 → 글: `쓰는 게 좋다고 생각해요` → `쓰는 것이 바람직하다`."
+      ]
+    },
+    {
+      "id": "RG71",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "54-R",
+      "title_vi": "Viết · Chuyển văn nói sang văn viết: trí tuệ nhân tạo và xã hội",
+      "points": 10,
+      "instruction_vi": "Viết lại mỗi câu nói thành câu văn viết nghị luận (한다체). Giữ nguyên ý; đổi đuôi câu, từ nối và từ khẩu ngữ.",
+      "context_vi": "Một người bạn nói ý kiến của mình về việc trí tuệ nhân tạo được dùng ngày càng nhiều.",
+      "text": "말: 저는 인공지능이 우리 생활을 되게 편리하게 만들었다고 생각해요. → 글: ( ㉠ )\n말: 근데 일자리가 줄어들까 봐 걱정하는 사람도 많잖아요. → 글: ( ㉡ )\n말: 그리고 개인정보가 유출될 위험도 엄청 커요. → 글: ( ㉢ )\n말: 하지만 걱정해 봤자 기술 발전을 멈출 수는 없거든요. → 글: ( ㉣ )\n말: 그러니까 중요한 건 기술 자체라기보다는 쓰는 방식이에요. → 글: ( ㉤ )",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "인공지능은 우리 생활을 매우 편리하게 만들었다.",
+            "인공지능이 우리 생활을 매우 편리하게 만들었다.",
+            "인공지능은 우리 생활을 대단히 편리하게 만들었다.",
+            "인공지능은 우리 생활을 매우 편리하게 만들었다고 생각한다."
+          ],
+          "common_errors_vi": "Bỏ `저는 … 생각해요`; `되게` → `매우`; quá khứ `만들었다`."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "그런데 일자리가 줄어들까 봐 걱정하는 사람도 많다.",
+            "그러나 일자리가 줄어들까 봐 걱정하는 사람도 많다.",
+            "그런데 일자리가 줄어들 것을 우려하는 사람도 많다.",
+            "그러나 일자리가 줄어들 것을 우려하는 사람도 많다."
+          ],
+          "common_errors_vi": "`근데` → `그런데/그러나`; bỏ `-잖아요`; có thể nâng `-(으)ㄹ까 봐 걱정하다` → `-(으)ㄹ 것을 우려하다`."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "또한 개인정보가 유출될 위험도 매우 크다.",
+            "또한 개인정보가 유출될 위험도 상당히 크다.",
+            "게다가 개인정보가 유출될 위험도 매우 크다.",
+            "게다가 개인정보가 유출될 위험도 상당히 크다."
+          ],
+          "common_errors_vi": "`그리고` đầu câu → `또한/게다가`; `엄청` → `매우/상당히`; `커요` → `크다` (✗ `큰다`)."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "그러나 걱정한들 기술 발전을 멈출 수는 없다.",
+            "그러나 우려한들 기술 발전을 멈출 수는 없다.",
+            "그러나 걱정하더라도 기술 발전을 멈출 수는 없다.",
+            "그러나 우려하더라도 기술 발전을 멈출 수는 없다."
+          ],
+          "common_errors_vi": "`하지만` → `그러나`; `-아/어 봤자` → `-(으)ㄴ들/-더라도`; bỏ `-거든요`."
+        },
+        {
+          "id": "㉤",
+          "points": 2,
+          "accepted": [
+            "따라서 중요한 것은 기술 자체라기보다는 쓰는 방식이다.",
+            "그러므로 중요한 것은 기술 자체라기보다는 쓰는 방식이다.",
+            "따라서 중요한 것은 기술 자체라기보다는 사용하는 방식이다.",
+            "그러므로 중요한 것은 기술 자체라기보다는 사용하는 방식이다."
+          ],
+          "common_errors_vi": "`그러니까` → `따라서/그러므로`; `건` → `것은`; `방식이에요` → `방식이다`."
+        }
+      ],
+      "tips_vi": [
+        "말 → 글: `저는 … 되게 … 생각해요` → bỏ ngôi thứ nhất, `되게` → `매우`.",
+        "말 → 글: `근데` → `그런데/그러나`; `하지만` → `그러나`; `그러니까` → `따라서`.",
+        "말 → 글: `그리고` → `또한/게다가`; `엄청` → `매우`.",
+        "말 → 글: `걱정해 봤자 … 없거든요` → `걱정한들 … 없다`.",
+        "말 → 글: `중요한 건 … 방식이에요` → `중요한 것은 … 방식이다`."
+      ]
+    }
+  ]
+}

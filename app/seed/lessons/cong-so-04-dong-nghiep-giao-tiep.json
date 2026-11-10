@@ -1,0 +1,929 @@
+{
+  "slug": "cong-so-04-dong-nghiep-giao-tiep",
+  "title": "Đồng nghiệp, Giao tiếp & Văn hóa công sở",
+  "title_ko": "동료·소통",
+  "topic": "Đời sống xã hội & Công sở",
+  "track": "intermediate",
+  "level": 4,
+  "sort_order": 49,
+  "summary": "Từ vựng quan hệ đồng nghiệp, khen chê, từ chối, hòa giải và quấy rối nơi làm việc; bốn mẫu câu (-기 마련이다, -(으)ㄹ 리가 없다, -(으)ㄹ걸 그랬다, N마저 · N조차); nghe chuyện liên hoan công ty và an ủi đàn em, đọc thông báo tư vấn nội bộ và bài về khen ngợi, viết bài mô tả bảng số liệu tỉ lệ (Viết 53).",
+  "vocab": [
+    {
+      "hangul": "동료",
+      "pos": "N",
+      "meaning_vi": "Đồng nghiệp",
+      "note_vi": "Bạn bè trong cùng công ty thường gọi là 직장 동료.",
+      "example_ko": "동료들과 점심을 같이 먹어요.",
+      "example_vi": "Tôi ăn trưa cùng các đồng nghiệp.",
+      "family": "🟢 Nền · Quan hệ đồng nghiệp & giao tiếp",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "同僚",
+      "sino_vietnamese": "đồng liêu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "선배",
+      "pos": "N",
+      "meaning_vi": "Tiền bối, người đi trước",
+      "note_vi": "Đối lập: 후배.",
+      "example_ko": "회사 선배가 일을 많이 가르쳐 줬어요.",
+      "example_vi": "Tiền bối ở công ty đã dạy tôi nhiều việc.",
+      "family": "🟢 Nền · Quan hệ đồng nghiệp & giao tiếp",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "先輩",
+      "sino_vietnamese": "tiên bối",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "소통하다",
+      "pos": "V",
+      "meaning_vi": "Giao tiếp, trao đổi thông suốt",
+      "note_vi": "소통 = sự giao tiếp, thông suốt ý kiến.",
+      "example_ko": "팀원들과 자주 소통하는 것이 중요해요.",
+      "example_vi": "Việc thường xuyên trao đổi với các thành viên trong nhóm là quan trọng.",
+      "family": "🟢 Nền · Quan hệ đồng nghiệp & giao tiếp",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "疏通",
+      "sino_vietnamese": "sơ thông",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "배려하다",
+      "pos": "V",
+      "meaning_vi": "Quan tâm, nghĩ cho người khác",
+      "note_vi": "배려 = sự quan tâm, chu đáo.",
+      "example_ko": "상대방을 배려하는 말투가 필요해요.",
+      "example_vi": "Cần có cách nói biết nghĩ cho người đối diện.",
+      "family": "🟢 Nền · Quan hệ đồng nghiệp & giao tiếp",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "配慮",
+      "sino_vietnamese": "phối lự",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "존중하다",
+      "pos": "V",
+      "meaning_vi": "Tôn trọng",
+      "example_ko": "서로의 의견을 존중해야 해요.",
+      "example_vi": "Chúng ta phải tôn trọng ý kiến của nhau.",
+      "family": "🟢 Nền · Quan hệ đồng nghiệp & giao tiếp",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "尊重",
+      "sino_vietnamese": "tôn trọng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "예의",
+      "pos": "N",
+      "meaning_vi": "Phép lịch sự, lễ phép",
+      "note_vi": "예의가 바르다 / 없다; 예의를 지키다.",
+      "example_ko": "어른에게는 예의를 지켜야 해요.",
+      "example_vi": "Với người lớn phải giữ lễ phép.",
+      "family": "🟢 Nền · Quan hệ đồng nghiệp & giao tiếp",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "禮儀",
+      "sino_vietnamese": "lễ nghi",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "칭찬하다",
+      "pos": "V",
+      "meaning_vi": "Khen",
+      "example_ko": "팀장님이 제 보고서를 칭찬해 주셨어요.",
+      "example_vi": "Trưởng nhóm đã khen báo cáo của tôi.",
+      "family": "🟢 Nền · Quan hệ đồng nghiệp & giao tiếp",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "稱讚",
+      "sino_vietnamese": "xưng tán",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "비판하다",
+      "pos": "V",
+      "meaning_vi": "Phê bình, chỉ trích",
+      "note_vi": "Nhẹ hơn: 지적하다 (chỉ ra lỗi).",
+      "example_ko": "다른 사람을 비판하기 전에 먼저 이해해 보세요.",
+      "example_vi": "Trước khi phê bình người khác, hãy thử hiểu họ trước.",
+      "family": "🟢 Nền · Quan hệ đồng nghiệp & giao tiếp",
+      "priority": "recognize",
+      "hanja": "批判",
+      "sino_vietnamese": "phê phán",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "오해하다",
+      "pos": "V",
+      "meaning_vi": "Hiểu lầm",
+      "note_vi": "오해가 생기다 / 풀다 (gỡ hiểu lầm).",
+      "example_ko": "제 말을 오해하지 않으셨으면 좋겠어요.",
+      "example_vi": "Tôi mong anh/chị đừng hiểu lầm lời tôi.",
+      "family": "🟢 Nền · Quan hệ đồng nghiệp & giao tiếp",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "誤解",
+      "sino_vietnamese": "ngộ giải",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "조언하다",
+      "pos": "V",
+      "meaning_vi": "Cho lời khuyên",
+      "note_vi": "충고 = lời khuyên mang sắc thái nhắc nhở nặng hơn.",
+      "example_ko": "선배가 이직에 대해 조언해 줬어요.",
+      "example_vi": "Tiền bối đã cho tôi lời khuyên về việc chuyển việc.",
+      "family": "🟢 Nền · Quan hệ đồng nghiệp & giao tiếp",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "助言",
+      "sino_vietnamese": "trợ ngôn",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "부탁하다",
+      "pos": "V",
+      "meaning_vi": "Nhờ vả",
+      "example_ko": "동료에게 자료 정리를 부탁했어요.",
+      "example_vi": "Tôi đã nhờ đồng nghiệp sắp xếp tài liệu.",
+      "family": "🟢 Nền · Quan hệ đồng nghiệp & giao tiếp",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "付託",
+      "sino_vietnamese": "phó thác",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "거절하다",
+      "pos": "V",
+      "meaning_vi": "Từ chối",
+      "example_ko": "부탁을 거절하기가 어려울 때가 있어요.",
+      "example_vi": "Có lúc rất khó từ chối lời nhờ vả.",
+      "family": "🟢 Nền · Quan hệ đồng nghiệp & giao tiếp",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "拒絕",
+      "sino_vietnamese": "cự tuyệt",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "분위기",
+      "pos": "N",
+      "meaning_vi": "Không khí, bầu không khí",
+      "example_ko": "팀 분위기가 좋아서 일하기 편해요.",
+      "example_vi": "Không khí nhóm tốt nên làm việc thoải mái.",
+      "family": "🟢 Nền · Quan hệ đồng nghiệp & giao tiếp",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "雰圍氣",
+      "sino_vietnamese": "phân vi khí",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "눈치",
+      "pos": "N",
+      "meaning_vi": "Sự tinh ý, đọc không khí",
+      "note_vi": "눈치를 보다 = nhìn sắc mặt; 눈치가 없다 = vô ý.",
+      "example_ko": "눈치가 빨라서 상사의 기분을 금방 알아요.",
+      "example_vi": "Anh ấy tinh ý nên nhanh nhận ra tâm trạng cấp trên.",
+      "family": "🟢 Nền · Quan hệ đồng nghiệp & giao tiếp",
+      "exam": "kiip-4",
+      "priority": "core"
+    },
+    {
+      "hangul": "험담하다",
+      "pos": "V",
+      "meaning_vi": "Nói xấu sau lưng",
+      "example_ko": "동료를 험담하는 것은 좋지 않아요.",
+      "example_vi": "Nói xấu đồng nghiệp là không tốt.",
+      "family": "🟢 Nền · Quan hệ đồng nghiệp & giao tiếp",
+      "priority": "recognize",
+      "hanja": "險談",
+      "sino_vietnamese": "hiểm đàm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "신뢰",
+      "pos": "N",
+      "meaning_vi": "Sự tin cậy",
+      "note_vi": "신뢰하다 / 신뢰를 쌓다.",
+      "example_ko": "신뢰는 작은 약속을 지키는 데서 시작돼요.",
+      "example_vi": "Sự tin cậy bắt đầu từ việc giữ những lời hứa nhỏ.",
+      "family": "🟢 Nền · Quan hệ đồng nghiệp & giao tiếp",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "信賴",
+      "sino_vietnamese": "tín lại",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "호감",
+      "pos": "N",
+      "meaning_vi": "Cảm tình, thiện cảm",
+      "note_vi": "호감이 가다 / 호감을 주다.",
+      "example_ko": "그 직원은 모두에게 호감을 줘요.",
+      "example_vi": "Nhân viên đó gây thiện cảm với mọi người.",
+      "family": "🟢 Nền · Quan hệ đồng nghiệp & giao tiếp",
+      "priority": "recognize",
+      "hanja": "好感",
+      "sino_vietnamese": "hảo cảm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "충돌하다",
+      "pos": "V",
+      "meaning_vi": "Va chạm, xung đột",
+      "note_vi": "Gần nghĩa với 갈등 (bài trước): 충돌 là va chạm cụ thể.",
+      "example_ko": "두 부서의 의견이 충돌했어요.",
+      "example_vi": "Ý kiến của hai bộ phận đã xung đột.",
+      "family": "🟡 Dạng thi · Mâu thuẫn, hòa giải & quyền lợi",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "衝突",
+      "sino_vietnamese": "xung đột",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "양보하다",
+      "pos": "V",
+      "meaning_vi": "Nhường nhịn",
+      "example_ko": "회의에서 서로 조금씩 양보했어요.",
+      "example_vi": "Trong cuộc họp, mỗi bên đều nhường một chút.",
+      "family": "🟡 Dạng thi · Mâu thuẫn, hòa giải & quyền lợi",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "讓步",
+      "sino_vietnamese": "nhượng bộ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "타협하다",
+      "pos": "V",
+      "meaning_vi": "Thỏa hiệp",
+      "example_ko": "두 회사는 가격에 대해 타협했습니다.",
+      "example_vi": "Hai công ty đã thỏa hiệp về giá.",
+      "family": "🟡 Dạng thi · Mâu thuẫn, hòa giải & quyền lợi",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "妥協",
+      "sino_vietnamese": "thỏa hiệp",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "화해하다",
+      "pos": "V",
+      "meaning_vi": "Làm hòa",
+      "example_ko": "싸운 친구와 화해했어요.",
+      "example_vi": "Tôi đã làm hòa với người bạn từng cãi nhau.",
+      "family": "🟡 Dạng thi · Mâu thuẫn, hòa giải & quyền lợi",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "和解",
+      "sino_vietnamese": "hòa giải",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "중재하다",
+      "pos": "V",
+      "meaning_vi": "Hòa giải, đứng giữa dàn xếp",
+      "example_ko": "팀장님이 두 사람 사이를 중재했어요.",
+      "example_vi": "Trưởng nhóm đã hòa giải giữa hai người.",
+      "family": "🟡 Dạng thi · Mâu thuẫn, hòa giải & quyền lợi",
+      "priority": "recognize",
+      "hanja": "仲裁",
+      "sino_vietnamese": "trọng tài",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "경청하다",
+      "pos": "V",
+      "meaning_vi": "Lắng nghe chăm chú",
+      "example_ko": "상대의 말을 경청하는 태도가 필요해요.",
+      "example_vi": "Cần thái độ lắng nghe chăm chú lời của đối phương.",
+      "family": "🟡 Dạng thi · Mâu thuẫn, hòa giải & quyền lợi",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "傾聽",
+      "sino_vietnamese": "khuynh thính",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "공감하다",
+      "pos": "V",
+      "meaning_vi": "Đồng cảm",
+      "example_ko": "그의 이야기에 많이 공감했어요.",
+      "example_vi": "Tôi rất đồng cảm với câu chuyện của anh ấy.",
+      "family": "🟡 Dạng thi · Mâu thuẫn, hòa giải & quyền lợi",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "共感",
+      "sino_vietnamese": "cộng cảm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "책임지다",
+      "pos": "V",
+      "meaning_vi": "Chịu trách nhiệm",
+      "note_vi": "책임을 지다 cũng được; 책임을 묻다 = quy trách nhiệm.",
+      "example_ko": "실수는 제가 책임지겠습니다.",
+      "example_vi": "Lỗi sai tôi sẽ chịu trách nhiệm.",
+      "family": "🟡 Dạng thi · Mâu thuẫn, hòa giải & quyền lợi",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "責任",
+      "sino_vietnamese": "trách nhiệm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "괴롭힘",
+      "pos": "N",
+      "meaning_vi": "Sự quấy rối, bắt nạt",
+      "note_vi": "괴롭히다 = làm khổ, bắt nạt.",
+      "example_ko": "직장 내 괴롭힘은 법으로 금지되어 있습니다.",
+      "example_vi": "Quấy rối nơi làm việc bị pháp luật cấm.",
+      "family": "🟡 Dạng thi · Mâu thuẫn, hòa giải & quyền lợi",
+      "exam": "kiip-4",
+      "priority": "core"
+    },
+    {
+      "hangul": "따돌림",
+      "pos": "N",
+      "meaning_vi": "Sự cô lập, tẩy chay",
+      "note_vi": "따돌림을 당하다.",
+      "example_ko": "새로 온 직원이 따돌림을 당해서 힘들어했어요.",
+      "example_vi": "Nhân viên mới bị cô lập nên rất vất vả.",
+      "family": "🟡 Dạng thi · Mâu thuẫn, hòa giải & quyền lợi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "차별",
+      "pos": "N",
+      "meaning_vi": "Sự phân biệt đối xử",
+      "note_vi": "차별하다 / 차별을 받다.",
+      "example_ko": "성별이나 나이에 따른 차별은 안 됩니다.",
+      "example_vi": "Không được phân biệt đối xử theo giới tính hay tuổi.",
+      "family": "🟡 Dạng thi · Mâu thuẫn, hòa giải & quyền lợi",
+      "priority": "recognize",
+      "hanja": "差別",
+      "sino_vietnamese": "sai biệt",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "불이익",
+      "pos": "N",
+      "meaning_vi": "Điều bất lợi, thiệt thòi",
+      "note_vi": "불이익을 받다 / 주다.",
+      "example_ko": "신고했다고 해서 불이익을 받으면 안 돼요.",
+      "example_vi": "Không được chịu thiệt thòi vì đã báo cáo.",
+      "family": "🟡 Dạng thi · Mâu thuẫn, hòa giải & quyền lợi",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "不利益",
+      "sino_vietnamese": "bất lợi ích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "고충",
+      "pos": "N",
+      "meaning_vi": "Nỗi khổ, khó khăn",
+      "example_ko": "직원의 고충을 듣는 상담 창구가 있어요.",
+      "example_vi": "Có quầy tư vấn lắng nghe khó khăn của nhân viên.",
+      "family": "🟡 Dạng thi · Mâu thuẫn, hòa giải & quyền lợi",
+      "priority": "recognize",
+      "hanja": "苦衷",
+      "sino_vietnamese": "khổ trung",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "수평적",
+      "pos": "N",
+      "meaning_vi": "Mang tính ngang hàng",
+      "note_vi": "Đối lập: 수직적 (theo chiều dọc, thứ bậc).",
+      "example_ko": "수평적인 조직 문화에서는 의견을 말하기 쉬워요.",
+      "example_vi": "Trong văn hóa tổ chức ngang hàng, dễ nêu ý kiến hơn.",
+      "family": "🟡 Dạng thi · Mâu thuẫn, hòa giải & quyền lợi",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "水平的",
+      "sino_vietnamese": "thủy bình đích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "수직적",
+      "pos": "N",
+      "meaning_vi": "Mang tính thứ bậc",
+      "example_ko": "수직적인 분위기에서는 상사에게 질문하기 어려워요.",
+      "example_vi": "Trong không khí thứ bậc, khó đặt câu hỏi với cấp trên.",
+      "family": "🟡 Dạng thi · Mâu thuẫn, hòa giải & quyền lợi",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "垂直的",
+      "sino_vietnamese": "thùy trực đích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "위계질서",
+      "pos": "N",
+      "meaning_vi": "Trật tự thứ bậc",
+      "example_ko": "위계질서가 강한 회사도 있어요.",
+      "example_vi": "Cũng có công ty trật tự thứ bậc rất mạnh.",
+      "family": "🟡 Dạng thi · Mâu thuẫn, hòa giải & quyền lợi",
+      "priority": "recognize",
+      "hanja": "位階秩序",
+      "sino_vietnamese": "vị giai trật tự",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "세대 차이",
+      "pos": "N",
+      "meaning_vi": "Khoảng cách thế hệ",
+      "example_ko": "세대 차이 때문에 말이 잘 안 통할 때가 있어요.",
+      "example_vi": "Có lúc nói chuyện không hợp vì khoảng cách thế hệ.",
+      "family": "🟡 Dạng thi · Mâu thuẫn, hòa giải & quyền lợi",
+      "exam": "kiip-4",
+      "priority": "core"
+    },
+    {
+      "hangul": "팀워크",
+      "pos": "N",
+      "meaning_vi": "Tinh thần đồng đội",
+      "example_ko": "우리 팀은 팀워크가 좋아요.",
+      "example_vi": "Nhóm chúng tôi có tinh thần đồng đội tốt.",
+      "family": "🟡 Dạng thi · Mâu thuẫn, hòa giải & quyền lợi",
+      "exam": "kiip-4",
+      "priority": "core"
+    },
+    {
+      "hangul": "징계",
+      "pos": "N",
+      "meaning_vi": "Kỷ luật",
+      "example_ko": "규정을 어기면 징계를 받을 수 있어요.",
+      "example_vi": "Nếu vi phạm quy định thì có thể bị kỷ luật.",
+      "family": "🟡 Dạng thi · Mâu thuẫn, hòa giải & quyền lợi",
+      "priority": "recognize",
+      "hanja": "懲戒",
+      "sino_vietnamese": "trừng giới",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "죄송하지만",
+      "pos": "X",
+      "meaning_vi": "Xin lỗi nhưng … (mở lời từ chối)",
+      "note_vi": "Từ chối người trên luôn mở bằng `죄송하지만` rồi mới nói ý chính, và có thể xin lỗi lần nữa ở cuối. Trang trọng hơn `미안합니다` (với bạn bè, người dưới).",
+      "example_ko": "죄송하지만 이번에는 참석하기 어려울 것 같습니다.",
+      "example_vi": "Xin lỗi anh/chị, lần này có lẽ tôi khó tham dự được.",
+      "family": "🟢 Nền · Từ chối khéo lời mời",
+      "priority": "core"
+    },
+    {
+      "hangul": "그날",
+      "pos": "N",
+      "meaning_vi": "Hôm đó, ngày đó",
+      "note_vi": "Chỉ lại một ngày vừa nói đến: `토요일요? 그날은 약속이 있어요`.",
+      "example_ko": "그날은 가족 모임이 있습니다.",
+      "example_vi": "Hôm đó tôi có buổi họp mặt gia đình.",
+      "family": "🟢 Nền · Từ chối khéo lời mời",
+      "priority": "core"
+    },
+    {
+      "hangul": "빠지다",
+      "pos": "V",
+      "meaning_vi": "Vắng mặt, không tham gia (một buổi)",
+      "note_vi": "`회식에 빠지다`, `모임에서 빠지다`. Nghĩa khác: rơi, rụng (`단추가 빠지다`), chìm (`물에 빠지다`).",
+      "example_ko": "이번 회식에는 빠지게 되었습니다.",
+      "example_vi": "Buổi liên hoan lần này tôi phải vắng mặt.",
+      "family": "🟢 Nền · Từ chối khéo lời mời",
+      "priority": "core"
+    },
+    {
+      "hangul": "다음에",
+      "pos": "X",
+      "meaning_vi": "Lần sau",
+      "note_vi": "Hẹn lần sau khi từ chối: `다음에 기회가 있으면 꼭 …`, `다음에는 꼭 참석하겠습니다`.",
+      "example_ko": "다음에 꼭 같이 가요.",
+      "example_vi": "Lần sau nhất định đi cùng nhé.",
+      "family": "🟢 Nền · Từ chối khéo lời mời",
+      "priority": "core"
+    },
+    {
+      "hangul": "기회",
+      "pos": "N",
+      "meaning_vi": "Cơ hội, dịp",
+      "note_vi": "`기회가 있다/없다`, `기회가 되면`, `좋은 기회`.",
+      "example_ko": "다음에 기회가 있으면 꼭 찾아뵙겠습니다.",
+      "example_vi": "Lần sau có dịp nhất định tôi sẽ đến thăm.",
+      "family": "🟢 Nền · Từ chối khéo lời mời",
+      "priority": "core",
+      "hanja": "機會",
+      "sino_vietnamese": "cơ hội",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "시간을 보내다",
+      "pos": "X",
+      "meaning_vi": "Trải qua thời gian, dành thời gian",
+      "note_vi": "Lời chúc khi mình không đến được: `즐거운 시간 보내십시오` (trang trọng) / `즐거운 시간 보내세요`.",
+      "example_ko": "주말에 가족과 즐거운 시간을 보냈습니다.",
+      "example_vi": "Cuối tuần tôi đã có thời gian vui vẻ bên gia đình.",
+      "family": "🟢 Nền · Từ chối khéo lời mời",
+      "priority": "core"
+    },
+    {
+      "hangul": "결혼식",
+      "pron": "[결혼식]",
+      "pos": "N",
+      "meaning_vi": "Lễ cưới",
+      "note_vi": "`결혼식에 가다/참석하다`, `친구 결혼식`. Lý do từ chối được chấp nhận rộng rãi.",
+      "example_ko": "그날 친구 결혼식이 있습니다.",
+      "example_vi": "Hôm đó tôi có lễ cưới của bạn.",
+      "family": "🟢 Nền · Từ chối khéo lời mời",
+      "priority": "core",
+      "hanja": "結婚式",
+      "sino_vietnamese": "kết hôn thức",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "마음이 넓다",
+      "pron": "[마으미 널따]",
+      "pos": "X",
+      "meaning_vi": "Rộng lượng, bao dung",
+      "note_vi": "Ngược nghĩa: `마음이 좁다` (hẹp hòi). Với người trên: `마음이 넓으시다`.",
+      "example_ko": "팀장님은 마음이 넓으세요.",
+      "example_vi": "Trưởng nhóm rất rộng lượng.",
+      "family": "🟢 Nền · Từ chối khéo lời mời",
+      "priority": "core"
+    },
+    {
+      "hangul": "화를 내다",
+      "pos": "X",
+      "meaning_vi": "Nổi giận, nổi cáu",
+      "note_vi": "`N에게 화를 내다`. Trạng thái giận: `화가 나다`. Với người trên: `화를 내시다`.",
+      "example_ko": "그 일로 화를 내실 리가 없어요.",
+      "example_vi": "Không thể nào vì chuyện đó mà anh ấy nổi giận đâu.",
+      "family": "🟢 Nền · Từ chối khéo lời mời",
+      "priority": "core"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V/A + -기 마련이다",
+      "meaning_vi": "Đương nhiên là sẽ … / Thường thì vẫn …",
+      "usage_context_vi": "**Cấu tạo:** động từ/tính từ + `-기 마련이다`: `실수하다 → 실수하기 마련이다`, `어렵다 → 어렵기 마련이다`, `생기다 → 생기기 마련이다`. Gắn `-기` vào gốc rồi thêm `마련이다`; hay chia `-기 마련이에요 / 마련입니다`. Danh từ: `N이기 마련이다` (hiếm).\n**Hoàn cảnh dùng:** nói một **quy luật tự nhiên, điều ai cũng thấy là thường xảy ra**: `사람은 누구나 실수하기 마련이다`, `의견이 다르면 갈등이 생기기 마련이다`. Dùng để an ủi, giải thích hay rút ra nhận xét chung.\n**Vì sao chọn nó:** `-(으)ㄹ 수밖에 없다` nhấn **không còn cách nào khác** (bị ép); `-기 마련이다` nhấn **đó là lẽ thường, tự nhiên**.",
+      "contrasts": [
+        {
+          "pattern": "V/A + -(으)ㄹ 수밖에 없다",
+          "diff_vi": "«Chỉ còn cách …» (không có lựa chọn); `마련이다` nói điều tất nhiên, không có sắc thái bị ép."
+        },
+        {
+          "pattern": "V/A + -는 법이다",
+          "diff_vi": "Cũng nói lẽ thường (kiểu châm ngôn, gần `마련이다`); `마련이다` dùng linh hoạt hơn."
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 편이다",
+          "diff_vi": "Chỉ khuynh hướng chung của một người/vật; `마련이다` nói quy luật chung của mọi người."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng cho sự việc cá biệt: ✗ `어제 그가 늦기 마련이었다` → chỉ dùng cho điều **thường xảy ra**.\n(2) Quên `-기`: ✗ `실수하는 마련이다` → ✓ `실수하기 마련이다`.\n(3) Dùng với mệnh lệnh hay rủ rê: ✗ `실수하기 마련이니 가세요` (vế sau được, nhưng bản thân `마련이다` không đi với mệnh lệnh).\n(4) Nhầm với `-(으)ㄹ 수밖에 없다`: «tất nhiên» khác «chẳng còn cách nào».",
+      "example_ko": "사람은 누구나 실수하기 마련이에요.\n오래 함께 일하면 정이 들기 마련입니다.\n처음에는 어렵기 마련이니까 너무 걱정하지 마세요.\n의견이 다르면 갈등이 생기기 마련이다.",
+      "example_vi": "Con người ai cũng có lúc mắc lỗi thôi.\nLàm việc cùng nhau lâu thì tình cảm tự nhiên nảy sinh.\nLúc đầu khó là điều tất nhiên nên đừng quá lo.\nKhi ý kiến khác nhau thì mâu thuẫn tất yếu sẽ nảy sinh.",
+      "topik_tip_vi": "Mẫu rất hay gặp trong bài đọc nghị luận (câu nêu quy luật rồi chuyển sang lời khuyên với `그러므로`/`따라서`) và trong bài nghe an ủi. Nhận ra nó giúp bạn đoán đoạn tiếp theo là lời khuyên hay cách giải quyết.",
+      "exam": "kiip-4",
+      "builds_on": [
+        "V/A + -(으)ㄹ 수밖에 없다"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V/A + -(으)ㄹ 리가 없다",
+      "meaning_vi": "Không thể nào …, làm gì có chuyện …",
+      "usage_context_vi": "**Cấu tạo:** động từ/tính từ + `-(으)ㄹ 리가 없다`: có patchim `-을 리가 없다` (`있을 리가 없다`), không patchim hoặc `ㄹ` `-ㄹ 리가 없다` (`그럴 리가 없다`, `잊을 리가 없다`); quá khứ `-았/었을 리가 없다`; danh từ `N일 리가 없다`. Câu hỏi tu từ: `-(으)ㄹ 리가 있어요?`. `리가` viết liền.\n**Hoàn cảnh dùng:** **phản bác mạnh** một điều người ta nói hay nghĩ, vì người nói thấy nó không hợp lý: `팀장님이 그런 말씀을 하셨을 리가 없어요`. Dùng khi tin vào tính cách, khả năng hay logic của sự việc.\n**Vì sao chọn nó:** `-(으)ㄹ 수 없다` nói không thể (khả năng); `-(으)ㄹ 리가 없다` nói **không có lý do nào để điều đó xảy ra**, với niềm tin chắc của người nói.",
+      "contrasts": [
+        {
+          "pattern": "V/A + -(으)ㄹ 수 없다",
+          "diff_vi": "Không thể làm được (khả năng, điều kiện); `리가 없다` là phán đoán «không thể có chuyện đó»."
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ지도 모르다 · N + 일지도 모르다",
+          "diff_vi": "Trái ngược: «có thể»; `리가 없다` phủ nhận khả năng."
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 것 같지 않다",
+          "diff_vi": "Phủ nhận nhẹ («có vẻ không»); `리가 없다` mạnh và chắc hơn."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng với mệnh lệnh/rủ rê: ✗ `그럴 리가 없으니 가세요` (vế sau được, nhưng `리가 없다` không đứng sau lời mời).\n(2) Nhầm `-(으)ㄹ 수 없다` (không đủ khả năng) với `-(으)ㄹ 리가 없다` (không có lý do): ✗ `이 일은 할 리가 없다` khi muốn nói «không làm được».\n(3) Viết rời: ✗ `리 가` → ✓ `리가`.\n(4) Chia sai thì: sự việc đã qua dùng `-았/었을 리가 없다` (`잊었을 리가 없다`), không dùng `-는 리가`.",
+      "example_ko": "성실한 민수 씨가 약속을 잊었을 리가 없어요.\n그렇게 열심히 준비했는데 떨어질 리가 없지요.\n팀장님이 그런 말씀을 하셨을 리가 없습니다.\n이 시간에 사무실에 사람이 있을 리가 없어요.",
+      "example_vi": "Anh Minsu chăm chỉ như vậy thì không thể nào quên cuộc hẹn.\nChuẩn bị chăm chỉ như thế thì làm gì có chuyện trượt.\nTrưởng nhóm không thể nào nói lời như vậy.\nGiờ này không thể có ai trong văn phòng.",
+      "topik_tip_vi": "Hội thoại hay dùng `-(으)ㄹ 리가 없다` khi một người không tin lời đồn hay lời trách; đáp án của câu hỏi ý chính thường là **người nói tin tưởng người bị nói đến**. Ở bài đọc, nó làm mạnh lập luận phản bác.",
+      "exam": "kiip-4",
+      "importance": "normal"
+    },
+    {
+      "pattern": "V + -(으)ㄹ걸 (그랬다) · -(으)ㄹ걸요",
+      "meaning_vi": "Biết thế đã … / Đáng lẽ nên … (hối tiếc)",
+      "usage_context_vi": "**Cấu tạo:** (1) **Hối tiếc**: `V + -(으)ㄹ걸 그랬다` (tiếc việc **không làm**: `인사할걸 그랬다`), `V + -지 말걸 그랬다` (tiếc việc **đã làm**: `말하지 말걸 그랬다`). Gắn thẳng vào gốc, `-(으)ㄹ걸` viết liền, `그랬다` cách. (2) **Suy đoán nhẹ**: `V/A + -(으)ㄹ걸요` («chắc là … đấy»): `지금쯤 끝났을걸요`.\n**Hoàn cảnh dùng:** (1) Nói về điều mình tiếc: lẽ ra phải làm khác đi; hay dùng với `그냥`, `미리`, `먼저`. (2) Trong hội thoại thân mật, đoán một việc **chắc đã/sẽ xảy ra**, thường khi sửa lại ý người nghe.\n**Vì sao chọn nó:** `-았/었으면 좋겠다` nói điều **mong muốn** (hướng về tương lai); `-(으)ㄹ걸 그랬다` nói điều **hối tiếc** về quá khứ.",
+      "contrasts": [
+        {
+          "pattern": "V + -았/었으면 좋겠다",
+          "diff_vi": "Mong ước («giá mà …»), không nhất thiết là hối tiếc."
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ지도 모르다 · N + 일지도 모르다",
+          "diff_vi": "Suy đoán có thể xảy ra; `-(으)ㄹ걸요` là đoán khá chắc."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Chia thì sai: ✗ `사과했을걸 그랬다` → ✓ `사과할걸 그랬다` (tiếc việc không làm).\n(2) Nhầm hướng: tiếc việc đã làm phải là `-지 말걸 그랬다`, không phải `-(으)ㄹ걸 그랬다`.\n(3) Viết dính: ✗ `인사할걸그랬다` → ✓ `인사할걸 그랬다`.\n(4) Dùng với ngôi thứ ba: mẫu này nói về mình hay người đối thoại; với người khác hãy dùng `-았/었어야 했는데`.",
+      "example_ko": "선배에게 먼저 인사할걸 그랬어요.\n그 말을 하지 말걸 그랬어요.\n일찍 출발할걸 그랬다. 길이 이렇게 막힐 줄 몰랐다.\n지금쯤 회의가 끝났을걸요.",
+      "example_vi": "Biết thế tôi đã chào tiền bối trước.\nBiết thế tôi đã không nói câu đó.\nBiết thế đã đi sớm. Không ngờ đường lại tắc thế này.\nGiờ này chắc cuộc họp xong rồi đấy.",
+      "topik_tip_vi": "Hội thoại hay dùng `-(으)ㄹ걸 그랬다` để thể hiện hối tiếc rồi người kia an ủi; câu hỏi «người nữ cảm thấy thế nào?» có đáp án là **hối hận**. Đừng nhầm với `-았/었으면 좋겠다`.",
+      "exam": "kiip-4",
+      "builds_on": [
+        "V + -았/었으면 좋겠다"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "N + 마저 · N + 조차",
+      "meaning_vi": "Đến cả …, ngay cả … (cũng)",
+      "usage_context_vi": "**Cấu tạo:** (1) `N + 마저`: nhấn **thêm một thứ nữa, thường là điều cuối cùng**, hay đi với việc không như mong muốn: `친구마저 떠났다`. Vị ngữ có thể khẳng định hoặc phủ định. (2) `N + 조차`: nhấn điều **lẽ ra phải có/biết** mà cũng không: luôn đi với vị ngữ **phủ định hay khó khăn**: `이름조차 모르다`, `시간조차 없다`. Cả hai gắn trực tiếp vào danh từ, thay cho `이/가, 을/를, 도`.\n**Hoàn cảnh dùng:** nói sự việc đã tệ tới mức **ngay cả** điều cuối cùng/điều cơ bản cũng không còn hay không có. `마저` tiếc nuối hay bất ngờ; `조차` mạnh hơn, thường kèm `못`, `안`, `없다`.\n**Vì sao chọn nó:** `N도` chỉ «cũng»; `N까지` chỉ «thậm chí cả»; `N마저` có thêm sắc thái **«đến cả cái cuối cùng»** và tiếc nuối; `N조차` bắt buộc đi với phủ định.",
+      "contrasts": [
+        {
+          "pattern": "N + 도",
+          "diff_vi": "«Cũng»; không có sắc thái cuối cùng hay tiếc nuối."
+        },
+        {
+          "pattern": "N + 까지",
+          "diff_vi": "«Thậm chí cả»; trung tính hơn, có thể dùng vui hay buồn."
+        },
+        {
+          "pattern": "N + 뿐",
+          "diff_vi": "«Chỉ có»; ngược nghĩa «đến cả»."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) `조차` với vị ngữ khẳng định: ✗ `이름조차 알아요` → ✓ `이름조차 몰라요`.\n(2) Dùng `마저` cho chuyện vui bình thường: ✗ `생일 선물마저 받아서 기뻤다` → dùng `N도`/`N까지`.\n(3) Thêm trợ từ thừa: ✗ `이름이조차`, `동료도마저` → gắn thẳng vào danh từ: `이름조차`, `동료마저`.\n(4) Hiểu `마저` là «cũng»: nó mang sắc thái «đến cả điều cuối cùng».",
+      "example_ko": "믿었던 동료마저 나를 이해해 주지 않았다.\n마지막 남은 팀원마저 회사를 그만두었다.\n바빠서 점심 먹을 시간조차 없었어요.\n같은 팀 동료의 이름조차 기억하지 못했다.",
+      "example_vi": "Đến cả người đồng nghiệp tôi từng tin cũng không hiểu cho tôi.\nĐến cả thành viên cuối cùng còn lại cũng đã nghỉ việc.\nBận đến mức ngay cả thời gian ăn trưa cũng không có.\nĐến tên đồng nghiệp cùng nhóm tôi cũng không nhớ nổi.",
+      "topik_tip_vi": "Câu cloze cho cả `마저` lẫn `조차` làm đáp án: nhìn vị ngữ. Vị ngữ **khẳng định** → `마저`; vị ngữ **phủ định** mà nghĩa vẫn thông thì có thể cả hai, nhưng đề sẽ chỉ để một đáp án đúng.",
+      "exam": "kiip-4",
+      "builds_on": [
+        "N + 도"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V + -기(가) 어렵다 · V + -기 어려울 것 같습니다",
+      "meaning_vi": "Khó mà … / (lịch sự) e là khó …: cách từ chối mềm, không nói thẳng «không được»",
+      "usage_context_vi": "**Cấu tạo:** gốc động từ + `-기(가) 어렵다`: `참석하다 → 참석하기 어렵다`, `가다 → 가기 어렵다`, `끝내다 → 끝내기 어렵다`. Khi từ chối người trên, thêm phỏng đoán `-(으)ㄹ 것 같다` cho mềm: `참석하기 어려울 것 같습니다`. Phủ định kép lịch sự: `-기 어렵지 않다` (không khó …).\n**Hoàn cảnh dùng:** (1) nói một việc **khó thực hiện**: `혼자서 다 끝내기 어려워요`; (2) **từ chối lịch sự** lời mời, lời nhờ của người trên, khách hàng: `죄송하지만 이번 주까지는 끝내기 어려울 것 같습니다`. Người Hàn hầu như không nói `못 갑니다` với cấp trên; họ nói «e là khó».\n**Vì sao chọn nó thay vì `못 + V` và `-(으)ㄹ 수 없다`:** `못 가요`, `갈 수 없어요` đúng ngữ pháp nhưng nghe dứt khoát, dễ thành phũ. `-기 어려울 것 같습니다` vừa báo «không làm được», vừa để lại khoảng mềm, nên là câu chuẩn trong email, tin nhắn công sở.",
+      "contrasts": [
+        {
+          "pattern": "못 + V · V + -(으)ㄹ 수 없다",
+          "diff_vi": "Nói thẳng là không làm được; với người trên nghe cứng."
+        },
+        {
+          "pattern": "V + -기(가) 쉽다",
+          "diff_vi": "Cặp nghĩa ngược: dễ …; cùng khung `-기(가) + tính từ`."
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는/(으)ㄹ 것 같다",
+          "diff_vi": "Chỉ là phỏng đoán; ghép sau `-기 어렵다` để làm mềm lời từ chối."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Quên `-기`: ✗ `참석 어려울 것 같습니다` (văn nói rút gọn, không dùng trong email) → ✓ `참석하기 어려울 것 같습니다`.\n(2) Gắn thì vào gốc: ✗ `참석했기 어려웠어요` → ✓ `참석하기 어려웠어요`.\n(3) Từ chối trước, cảm ơn sau: người Hàn **cảm ơn lời mời trước**, rồi `그런데 죄송하지만 … -기 어려울 것 같습니다`.\n(4) Kết thúc bằng lời từ chối trống trơn: thêm một lý do ngắn và một lời hẹn (`다음에 기회가 있으면 꼭 …`).",
+      "example_ko": "죄송하지만 이번 회식에는 참석하기 어려울 것 같습니다.\n이 일은 혼자서 오늘까지 끝내기 어려워요.\n말씀하신 날짜는 시간을 내기 어려울 것 같습니다.\n처음에는 회사 분위기에 적응하기 어려웠어요.",
+      "example_vi": "Xin lỗi nhưng lần liên hoan này e là tôi khó tham dự được.\nViệc này một mình làm xong trong hôm nay thì khó lắm.\nNgày anh/chị nói e là tôi khó sắp xếp thời gian được.\nLúc đầu tôi thấy khó thích nghi với không khí công ty.",
+      "topik_tip_vi": "Trong Nghe/Đọc, câu `-기 어려울 것 같습니다` là tín hiệu **từ chối**: câu hỏi «người này sẽ làm gì tiếp» hay «nội dung trùng khớp» thường xoay quanh việc người nói không tham gia. Trong Viết 51 (email, tin nhắn), đây là đáp án chuẩn cho ô từ chối.",
+      "exam": "kiip-4",
+      "builds_on": [
+        "V/A + -(으)ㄴ/는/(으)ㄹ 것 같다"
+      ],
+      "importance": "must"
+    },
+    {
+      "pattern": "V/A + -다고요? · -(느)냐고요? · -자고요? · -(으)라고요? · N(이)라고요?",
+      "meaning_vi": "… á? / Anh nói là … à? — hỏi lại để xác nhận hoặc tỏ ra ngạc nhiên",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** dạng tường thuật gián tiếp + `요?`: trần thuật `-(ㄴ/는)다고요?`, câu hỏi `-(느)냐고요?`, rủ rê `-자고요?`, mệnh lệnh `-(으)라고요?`, danh từ `N(이)라고요?`.\n**Hoàn cảnh dùng:** Người nghe **lặp lại lời người kia** để xác nhận vì nghe không rõ hoặc **ngạc nhiên**: `A: 내일 회의가 취소됐어요. — B: 취소됐다고요?` Ngữ điệu lên cuối câu.\n**Vì sao chọn nó:** `-다고요?` ngắn gọn hơn câu hỏi đầy đủ (`정말 취소됐어요?`) và cho thấy **mình đang phản ứng với chính lời vừa nghe** — rất hay dùng trong hội thoại công sở.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Đồng nghiệp, Giao tiếp & Văn hóa công sở»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V/A + -다니요? · -(느)냐니요? · …",
+          "diff_vi": "Ngạc nhiên mạnh hơn, thường kèm ý **không đồng tình**."
+        },
+        {
+          "pattern": "V/A + -(ㄴ/는)다고 하다 · -다는 + N",
+          "diff_vi": "Tường thuật bình thường, không phải câu hỏi lại."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Chọn sai dạng theo loại câu gốc: lời rủ `같이 가요` → ✓ `같이 가자고요?`, không phải `같이 간다고요?`.\n(2) Quên đổi chủ thể: `제가 할게요` → người nghe hỏi lại `직접 하신다고요?`.\n(3) Xuống giọng cuối câu: `-다고요.` (xuống) lại là **nhấn mạnh lời mình** («tôi đã nói là …!»).\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "A: 내일 회의가 취소됐어요. / B: 취소됐다고요? 왜요?\nA: 이번 주까지 보고서를 다시 쓰래요. / B: 다시 쓰라고요?\nA: 회식은 다음 주에 하재요. / B: 다음 주에 하자고요?",
+      "example_vi": "A: Cuộc họp ngày mai bị hủy rồi. / B: Hủy á? Sao vậy?\nA: Nghe nói phải viết lại báo cáo trước tuần này. / B: Viết lại á?\nA: Nghe nói liên hoan để tuần sau. / B: Tuần sau á?",
+      "topik_tip_vi": "Nghe 1–3: câu đáp `-다고요?` là phản ứng ngạc nhiên/xác nhận; đáp án đúng phải lặp đúng nội dung người kia vừa nói.",
+      "use_level": "produce",
+      "source": "EXT-SUP-17"
+    },
+    {
+      "pattern": "V/A + -다니(요)? · -(느)냐니(요)? · -자니(요)? · -(으)라니(요)? · N(이)라니(요)?",
+      "meaning_vi": "… sao? / Lại … ư? — ngạc nhiên, khó tin hoặc không đồng tình với điều vừa nghe",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** dạng tường thuật + `-니(요)`: `-(ㄴ/는)다니요?`, `-(느)냐니요?`, `-자니요?`, `-(으)라니요?`, `N(이)라니요?`. Đầu câu cảm thán: `-다니!` (`벌써 끝났다니!`).\n**Hoàn cảnh dùng:** Người nói **sửng sốt, khó tin, hoặc phản đối** điều vừa nghe: `A: 내일까지 다 끝내래요. — B: 내일까지라니요? 말도 안 돼요.` Hay theo sau là câu phản bác.\n**Vì sao chọn nó:** `-다고요?` chủ yếu hỏi lại để xác nhận; `-다니요?` mang cảm xúc **mạnh hơn**, thường ngụ ý «không thể nào / không chấp nhận được».\n**Trong bài này:** mẫu bổ sung cho chủ đề «Đồng nghiệp, Giao tiếp & Văn hóa công sở»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V/A + -다고요? · -(느)냐고요? · …",
+          "diff_vi": "Hỏi lại để xác nhận, ít cảm xúc hơn."
+        },
+        {
+          "pattern": "V/A + -다니 (nối câu)",
+          "diff_vi": "`-다니` giữa câu: «… thật là …» (`이렇게 늦게 오다니 너무하네요`)."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng với người trên một cách gay gắt: `-다니요?` có thể nghe như **phản bác**; với cấp trên nên mềm: `오늘까지요? 조금 어려울 것 같습니다.`\n(2) Nhầm dạng theo câu gốc: lời mời `같이 가요` → ✓ `같이 가자니요?`.\n(3) Nhầm với đuôi lý do `-니까`: ✗ `늦었다니까요?` (tôi đã nói là trễ rồi mà!) khác hẳn `늦었다니요?` (trễ á?).\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "A: 내일까지 기획서를 다 끝내래요. / B: 내일까지라니요? 말도 안 돼요.\nA: 민수 씨가 회사를 그만둔대요. / B: 그만둔다니요? 어제까지 아무 말도 없었는데요.\n이렇게 중요한 회의에 늦다니 정말 실망이에요.",
+      "example_vi": "A: Bảo phải xong bản kế hoạch trước mai. / B: Trước mai sao? Vô lý quá.\nA: Nghe nói anh Minsu nghỉ việc. / B: Nghỉ việc ư? Hôm qua còn chẳng nói gì.\nĐến muộn cuộc họp quan trọng thế này, thật thất vọng.",
+      "topik_tip_vi": "Nghe (thái độ người nói): `-다니요?` = ngạc nhiên/không đồng tình; đáp án thái độ thường là «bất ngờ», «khó chấp nhận».",
+      "use_level": "produce",
+      "source": "EXT-SUP-18"
+    },
+    {
+      "pattern": "V + -지 그래요? · V + -지 그랬어요?",
+      "meaning_vi": "Sao không … đi? (khuyên) · Phải chi đã … (tiếc thay cho người khác)",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** gốc động từ + `-지 그래요?` (khuyên việc hiện tại/tương lai) / `-지 그랬어요?` (việc đã qua). Thân mật: `-지 그래?`, `-지 그랬어?`.\n**Hoàn cảnh dùng:** `-지 그래요?` = **lời khuyên nhẹ**: `피곤하면 좀 쉬지 그래요?`; `-지 그랬어요?` = **tiếc thay / trách nhẹ** người kia vì đã không làm: `미리 말하지 그랬어요?`\n**Vì sao chọn nó:** `-는 게 어때요?` khuyên trung tính, lịch sự; `-지 그래요?` thân mật hơn, hơi có ý «làm thế là được mà». `-지 그랬어요?` gần nghĩa `-았/었으면 좋았을 텐데요`.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Đồng nghiệp, Giao tiếp & Văn hóa công sở»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V + -는 게 어때요?",
+          "diff_vi": "Khuyên lịch sự, trung tính."
+        },
+        {
+          "pattern": "V + -(으)ㄹ걸 (그랬다) · -(으)ㄹ걸요",
+          "diff_vi": "Tiếc cho **chính mình** (`미리 말할걸 그랬어요`); `-지 그랬어요?` tiếc cho **người khác**."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng với cấp trên: `-지 그래요?` có thể nghe như dạy đời; với người trên dùng `-시는 게 어떠세요?`.\n(2) Nhầm chủ thể: ✗ `제가 미리 말하지 그랬어요` → về mình dùng `미리 말할걸 그랬어요`.\n(3) Quên `-지`: ✗ `쉬 그래요?` → ✓ `쉬지 그래요?`.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "피곤하면 오늘은 일찍 들어가지 그래요?\n힘들면 미리 말하지 그랬어요? 제가 도와드렸을 텐데요.\n모르는 게 있으면 선배한테 물어보지 그래요?",
+      "example_vi": "Mệt thì hôm nay về sớm đi?\nVất vả thì phải chi nói trước? Tôi đã giúp rồi.\nCó gì không biết thì sao không hỏi anh chị khóa trên?",
+      "topik_tip_vi": "Nghe (câu đáp, ý đồ): `-지 그래요?` = khuyên; `-지 그랬어요?` = tiếc/trách nhẹ — câu hỏi «người phụ nữ muốn gì» chọn đúng việc khuyên.",
+      "use_level": "produce",
+      "source": "EXT-SUP-19"
+    },
+    {
+      "pattern": "V/A + -았/었어야 했는데 · -았/었어야지(요)",
+      "meaning_vi": "Lẽ ra phải … (mà đã không …) — hối tiếc hoặc trách vì một việc không làm",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** gốc + `-았/었어야 했는데`: `준비하다 → 준비했어야 했는데`; khẩu ngữ `-았/었어야지(요)` (trách người khác).\n**Hoàn cảnh dùng:** Nói về việc **lẽ ra phải làm trong quá khứ nhưng đã không làm**: `회의 전에 자료를 미리 준비했어야 했는데 시간이 없었어요.` Với người khác: `미리 연락했어야지요.`\n**Vì sao chọn nó:** `-(으)ㄹ걸 (그랬다)` nhẹ, như tự nhủ; `-았/었어야 했는데` nặng hơn, nói rõ **trách nhiệm** («lẽ ra phải»), hợp khi xin lỗi trong công việc.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Đồng nghiệp, Giao tiếp & Văn hóa công sở»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V + -(으)ㄹ걸 (그랬다) · -(으)ㄹ걸요",
+          "diff_vi": "Tiếc nhẹ, tự nhủ."
+        },
+        {
+          "pattern": "V + -아/어야 하다/되다",
+          "diff_vi": "«Phải …» ở hiện tại/tương lai, chưa có ý hối tiếc."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Thiếu quá khứ ở vế đầu: ✗ `준비해야 했는데` (nghe như «đã phải chuẩn bị») khi muốn nói «lẽ ra phải chuẩn bị» → ✓ `준비했어야 했는데`.\n(2) Dùng `-았/었어야지요` với cấp trên: nghe như trách; với người trên dùng `제가 미리 확인했어야 했는데 죄송합니다`.\n(3) Không nói phần thực tế: câu thường có vế sau với `-는데` hoặc câu tiếp theo nói điều đã xảy ra.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "회의 전에 자료를 미리 준비했어야 했는데 시간이 없었어요.\n제가 고객에게 먼저 연락했어야 했는데 정말 죄송합니다.\n늦을 것 같으면 미리 전화했어야지요.",
+      "example_vi": "Lẽ ra phải chuẩn bị tài liệu trước cuộc họp nhưng đã không có thời gian.\nLẽ ra tôi phải liên lạc với khách trước, thật xin lỗi.\nThấy sắp trễ thì lẽ ra phải gọi trước chứ.",
+      "topik_tip_vi": "Đọc/Nghe (thái độ, tâm trạng): `-았/었어야 했는데` = hối hận; đáp án tâm trạng thường là «hối tiếc», «áy náy».",
+      "use_level": "produce",
+      "source": "EXT-SUP-20"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài (quan hệ đồng nghiệp và giao tiếp)",
+      "body": "**Bài 37:** 🟢 nói và viết về đồng nghiệp, khen chê, nhờ và từ chối · 🟡 nghe chuyện liên hoan công ty, an ủi đàn em; đọc thông báo tư vấn nội bộ và bài nghị luận về khen ngợi, xưng hô · 🔴 viết bài mô tả **bảng số liệu tỉ lệ** (Viết 53), dùng `%p`, bội số và `반면에`.\n**Ngữ pháp:** `-기 마련이다`, `-(으)ㄹ 리가 없다`, `-(으)ㄹ걸 그랬다`, `N마저 · N조차`.\n• 🎯 **Đầu ra:** cuối bài bạn viết được một tin nhắn/email 160–350 chữ từ chối khéo lời mời của cấp trên, đúng nhịp lịch sự công sở Hàn (cảm ơn → từ chối mềm → lý do → bù đắp → hẹn lần sau) (Bước 5), và nói lời từ chối khéo trong 30 giây.",
+      "kind": "goal"
+    },
+    {
+      "title": "Phân biệt các cặp từ dễ nhầm",
+      "body": "• **칭찬 / 아부:** `칭찬` là khen thật lòng; `아부` là nịnh để lấy lòng.\n• **조언 / 충고 / 잔소리:** `조언` khuyên nhẹ nhàng; `충고` nhắc nhở thẳng; `잔소리` là cằn nhằn lặp lại.\n• **거절 / 사양:** `거절` từ chối thẳng; `사양` từ chối khéo vì khách sáo (`괜찮습니다, 사양하겠습니다`).\n• **배려 / 양보:** `배려` nghĩ cho người khác; `양보` nhường phần của mình.\n• **오해 / 착각:** `오해` hiểu sai ý người khác; `착각` tự nhầm (`내가 착각했나 봐요`).\n• **화해 / 타협:** `화해` làm hòa sau khi cãi nhau; `타협` đôi bên cùng nhượng bộ để đạt thỏa thuận.\n• **눈치 / 센스:** `눈치` tinh ý đọc không khí; `센스` (sense) là sự khéo léo, tinh tế.",
+      "kind": "language"
+    },
+    {
+      "title": "Đời sống: 회식, xưng hô và phép lịch sự khi ăn uống",
+      "body": "• **회식:** buổi ăn tối của cả nhóm, thường `1차` (quán ăn) rồi `2차` (quán nhậu/quán cà phê). Văn hóa này đang thay đổi: nhiều công ty chuyển sang liên hoan buổi trưa hay hoạt động văn hóa.\n• **Từ chối khéo:** nên nói trước, nêu lý do ngắn gọn và hẹn lần sau (`오늘은 약속이 있어서요. 다음에는 꼭 참석할게요`). `술을 못 마셔서요` là lý do được chấp nhận.\n• **Rượu:** nhận ly bằng **hai tay**; khi uống với người trên thì nghiêng người, quay đầu sang bên một chút. Đồ uống thay thế: `사이다`, `주스`.\n• **Xưng hô:** `팀장님`, `김 대리님`; với tiền bối cùng tuổi gọi `선배님`. Không gọi tên trống không.\n• **Ép uống rượu hay ép tham dự** có thể bị coi là quấy rối nơi làm việc.\n*Thói quen khác nhau theo công ty và theo thế hệ.*",
+      "kind": "fact",
+      "exam": "kiip-4"
+    },
+    {
+      "title": "Đời sống: quấy rối nơi làm việc và nơi nhờ giúp đỡ",
+      "body": "• **Luật cấm quấy rối nơi làm việc (직장 내 괴롭힘 금지)** có hiệu lực từ năm 2019: không được dùng địa vị hay quan hệ ưu thế để gây đau khổ về thể chất hay tinh thần cho người khác ngoài phạm vi công việc hợp lý.\n• **Nếu bị:** ghi lại ngày giờ, nội dung, người chứng kiến; báo với phòng nhân sự hoặc quầy tư vấn của công ty; có thể gọi **1350** (Bộ Lao động) hoặc nộp đơn đến cơ quan lao động địa phương (`지방고용노동관서`).\n• **Bảo vệ người báo cáo:** công ty không được trả đũa hay đối xử bất lợi (`불이익`) với người đã báo cáo.\n• **Quấy rối tình dục (`성희롱`)** có quy định riêng; công ty phải tổ chức đào tạo phòng ngừa hằng năm.\n*Thông tin tham khảo, đối chiếu moel.go.kr trước khi áp dụng; không thay cho tư vấn pháp lý.*",
+      "kind": "fact",
+      "exam": "kiip-4"
+    },
+    {
+      "title": "Mẫu tin nhắn từ chối khéo lời mời 회식 (합쇼체)",
+      "body": "팀장님, 죄송하지만 오늘 회식은 개인 일정이 있어서 참석하기 어려울 것 같습니다. 미리 말씀드릴걸 그랬는데 죄송합니다. 다음 회식에는 꼭 참석하겠습니다. 즐거운 시간 보내십시오.\n*Bản dịch tham khảo:* Trưởng nhóm ơi, xin lỗi anh, buổi liên hoan hôm nay tôi có lịch riêng nên có lẽ khó tham dự. Biết thế tôi đã báo trước, xin lỗi anh. Lần liên hoan sau tôi nhất định sẽ tham dự. Chúc anh và mọi người có buổi vui vẻ.\n*Gợi ý:* xin lỗi → nêu lý do ngắn → hẹn lần sau → lời chúc.",
+      "kind": "sample"
+    },
+    {
+      "title": "Viết 53: bảng số liệu tỉ lệ, %p và bội số",
+      "body": "**Bảng số liệu** thường có hai cột năm; mỗi hàng là một mục. Cách viết:\n• **T:** cơ quan + đối tượng.\n• **O + P:** mục **giảm mạnh nhất** dùng `%p` (`60%에서 25%로 35%p 감소하였다`); mục **tăng** dùng bội số khi chia hết (`10%에서 30%로 3배 늘어났다`) hay `%p`; chỉ ra **mục nào lên đầu** (`반면에 … 가장 높은 비율을 차지하였다`).\n• **I:** hai nguyên nhân trong ô (`…가 퍼졌고 …가 시행되었기 때문이다`).\n• **K:** `이러한 추세라면 앞으로 … -(으)ㄹ 것으로 전망된다`.\n**%p** là hiệu hai tỉ lệ (60 − 25 = 35%p); **배** chỉ tỉ số (30 ÷ 10 = 3배). Đừng viết «giảm 35%» khi muốn nói 35%p.",
+      "kind": "writing",
+      "exam": "kiip-4"
+    },
+    {
+      "title": "🟢 Khung câu từ chối khéo với người trên",
+      "kind": "language",
+      "body": "• **Cảm ơn trước:** `N에 초대해 주셔서 정말 감사합니다.` · `불러 주셔서 감사합니다.`\n• **Từ chối mềm:** `그런데 죄송하지만 이번에는 참석하기 어려울 것 같습니다.` (không nói `못 갑니다`)\n• **Lý do ngắn:** `그날 … -아/어서 … -아/어야 합니다.` · `갑자기 일이 생겨서 …`\n• **Tiếc vì báo muộn:** `미리 말씀드릴걸 그랬습니다.`\n• **Áy náy:** `… 많은데 저마저 빠지게 되어 정말 죄송합니다.`\n• **Bù đắp:** `선물은 따로 준비해서 … 드리겠습니다.`\n• **Hẹn lần sau:** `다음에 기회가 있으면 꼭 찾아뵙겠습니다 / 참석하겠습니다.`\n• **Lời chúc + ký tên:** `즐거운 시간 보내십시오.` + `○○○ 드림`\n**Vì sao nói vòng:** với người trên, `-기 어려울 것 같습니다` cho người nghe biết câu trả lời mà vẫn giữ thể diện cho cả hai. Nói với tiền bối, đồng nghiệp: cùng khung nhưng ở 해요체 (`어려울 것 같아요`, `다음에는 꼭 갈게요`)."
+    },
+    {
+      "title": "🟢 Bài mẫu: Từ chối khéo lời mời của cấp trên (đầu ra của bài)",
+      "kind": "sample",
+      "body": "Đọc to bài mẫu, rồi thay lời mời, lý do và việc bù đắp bằng tình huống thật của bạn: đó là bài **Bước 5** ở phần Tạo câu.\n\n팀장님, 안녕하십니까? 응우옌 란입니다.\n이번 토요일 팀장님 댁 집들이에 초대해 주셔서 정말 감사합니다. 그런데 죄송하지만 이번에는 참석하기 어려울 것 같습니다. 그날 베트남에서 부모님이 오셔서 공항에 마중을 나가야 합니다. 어제 부모님 일정을 알게 되었을 때 바로 말씀드릴걸 그랬습니다. 이번 주에 출장을 가신 분들도 많은데 저마저 빠지게 되어 정말 죄송합니다. 집들이 선물은 따로 준비해서 월요일에 드리겠습니다. 다음에 기회가 있으면 꼭 찾아뵙겠습니다. 즐거운 시간 보내십시오.\n응우옌 란 드림\n\n*Bản dịch tham khảo:* Thưa trưởng nhóm, tôi là Nguyễn Lan. Cảm ơn anh/chị rất nhiều vì đã mời tôi đến tiệc tân gia nhà anh/chị thứ Bảy này. Nhưng tôi xin lỗi, lần này có lẽ tôi khó tham dự được. Hôm đó bố mẹ tôi từ Việt Nam sang nên tôi phải ra sân bay đón. Biết thế hôm qua khi biết lịch của bố mẹ, tôi đã báo anh/chị ngay. Tuần này nhiều người đi công tác, đến cả tôi cũng vắng mặt, tôi thật sự xin lỗi. Quà tân gia tôi sẽ chuẩn bị riêng và gửi anh/chị vào thứ Hai. Lần sau có dịp, nhất định tôi sẽ đến thăm. Chúc anh/chị và mọi người có thời gian vui vẻ. Nguyễn Lan kính thư.\n\n**Tin nhắn đi theo 5 bước:** (1) chào, tên, cảm ơn lời mời → (2) từ chối mềm (`죄송하지만 … 어려울 것 같습니다`) → (3) một lý do ngắn → (4) xin lỗi, tiếc, bù đắp → (5) hẹn lần sau, lời chúc, ký tên."
+    },
+    {
+      "title": "Lỗi người Việt hay mắc trong bài này",
+      "body": "• Dùng `-기 마련이다` cho sự việc cá biệt thay vì quy luật chung.\n• Dùng `-(으)ㄹ 수 없다` (không đủ khả năng) thay cho `-(으)ㄹ 리가 없다` (không có lý do, tin chắc).\n• Viết `-(으)ㄹ걸그랬다` dính, hoặc dùng `-(으)ㄹ걸 그랬다` cho việc tiếc đã làm (phải là `-지 말걸 그랬다`).\n• `N조차` đi với vị ngữ khẳng định; `N마저` cho chuyện vui.\n• Ở Viết 53: viết `35%` thay vì `35%p`, hoặc quên nêu mục đứng đầu mới.\n• Ép uống rượu hay từ chối lời mời mà không nêu lý do và hẹn lần sau.\n• Từ chối người trên bằng câu phủ định thẳng (✗ `못 갑니다.`): làm mềm bằng `죄송하지만 … 참석하기 어려울 것 같습니다`.\n• Từ chối trước rồi mới cảm ơn, hoặc kể lý do quá dài: thứ tự là cảm ơn → từ chối mềm → lý do ngắn → bù đắp, hẹn lần sau → lời chúc.\n• Kết tin nhắn gửi cấp trên bằng `수고하세요`: với lời mời, kết bằng `즐거운 시간 보내십시오`.",
+      "kind": "pitfall"
+    }
+  ],
+  "bank": "cong-so",
+  "coach": {
+    "focus_vi": [
+      "Phân biệt `-기 마련이다` (lẽ thường), `-(으)ㄹ 리가 없다` (không thể nào), `-(으)ㄹ걸 그랬다` (hối tiếc việc không làm).",
+      "`N마저` (đến cả điều cuối cùng) và `N조차` (luôn đi với phủ định) đều nhấn «đến cả».",
+      "Viết 53 bảng số liệu: `%p` cho hiệu số tỉ lệ, `배` cho bội số, nêu mục đứng đầu mới, nguyên nhân, dự báo."
+    ],
+    "watch_out_vi": [
+      "`N조차` phải đi với vị ngữ phủ định hoặc khó khăn.",
+      "Tiếc việc đã làm: `-지 말걸 그랬다`, không phải `-(으)ㄹ걸 그랬다`."
+    ],
+    "notebook_vi": [
+      "Một cột «cách an ủi» với mỗi câu một mẫu bài này.",
+      "Hai câu tự đặt về chuyện ở công ty: một với `-(으)ㄹ걸 그랬다`, một với `N마저`."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Nói: ai cũng có lúc mắc lỗi.",
+        "answer": "사람은 누구나 실수하기 마련이에요."
+      },
+      {
+        "prompt_vi": "Nói: anh ấy không thể nào quên cuộc hẹn.",
+        "answer": "그 사람이 약속을 잊었을 리가 없어요."
+      }
+    ],
+    "tip_vi": "Đọc ghi chú «Đời sống: 회식, xưng hô và phép lịch sự khi ăn uống» trước khi đi liên hoan lần đầu."
+  },
+  "exercise_ids": [
+    "C37L1",
+    "C37L2",
+    "C37L3",
+    "C37L4",
+    "C37D1",
+    "C37D2",
+    "CU38L1",
+    "C37R1",
+    "C37R2",
+    "C37R3",
+    "C37R4",
+    "C37R5",
+    "C37R6",
+    "C37R7",
+    "C37R8",
+    "C37R9",
+    "C37R10",
+    "C37R11",
+    "C37R12",
+    "CU38R1",
+    "CSUP17",
+    "CSUP18",
+    "CSUP19",
+    "CSUP20",
+    "C37B1",
+    "C37B2",
+    "C37B3",
+    "C37B4",
+    "CU38O1",
+    "CU38O2",
+    "CU38F1",
+    "C37F1",
+    "CU38C1",
+    "CU38E1",
+    "C37W52",
+    "C37W53L",
+    "C37W53",
+    "C37S1",
+    "CU38S1"
+  ],
+  "topik2": [
+    {
+      "qid": "96-L-18",
+      "why_vi": "Hai người nói về việc chưa xin lỗi một người bạn và lời khuyên nên xin lỗi sớm vì hiểu lầm sẽ lớn dần. Cùng chủ đề hòa giải, hiểu lầm của bài."
+    },
+    {
+      "qid": "h1-R-34",
+      "why_vi": "Bài đọc về mâu thuẫn trong cộng đồng và quy ước chung; có `-기 마련이다` như bài này. Đây là đề thi thử (không phải đề thật)."
+    },
+    {
+      "qid": "h1-L-20",
+      "why_vi": "Cuộc phỏng vấn về quan hệ qua internet với học sinh nhút nhát; ý chính nằm ở lời kết của người nói. Đề thi thử (không phải đề thật), mức khó hơn."
+    }
+  ],
+  "editor_notes": [
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "Đầu ra bài 38: tin nhắn/email từ chối khéo lời mời tân gia của trưởng nhóm (합쇼체, ký `드림`), CU38E1, kèm CU38R1 (từ chối leo núi), CU38L1 (từ chối liên hoan, 해요체), thang CU38O1–O2–F1–C1 (C1 luyện `-(으)ㄹ 리가 없다`, `-기 마련이다`), CU38S1 (khác C37S1: người mời là trưởng nhóm, lời mời leo núi). Bài mẫu dùng `-(으)ㄹ걸 그랬다` và `N마저`. Thẻ mới gồm cụm lịch sự (죄송하지만 · 죄송합니다, 말씀드리다, 찾아뵙다, 시간을 보내다) và từ chưa có thẻ ở đâu."
+    }
+  ]
+}

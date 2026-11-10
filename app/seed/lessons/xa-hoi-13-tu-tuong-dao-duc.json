@@ -1,0 +1,855 @@
+{
+  "slug": "xa-hoi-13-tu-tuong-dao-duc",
+  "title": "Tư tưởng, đạo đức và cách lập luận",
+  "title_ko": "사상과 윤리",
+  "topic": "Xã hội, Tư tưởng & Chuyên ngành",
+  "track": "advanced",
+  "level": 6,
+  "sort_order": 74,
+  "summary": "46 từ về tư tưởng, giá trị, đạo đức và thái độ lập luận (kèm Nho giáo, Thực học, Đông học); ba nhóm mẫu của văn nghị luận: nhượng bộ mạnh · nhận định thận trọng · phủ định, hạ thấp. Có các mốc tư tưởng Hàn Quốc đã kiểm tra, cách đọc và nghe câu hỏi «thái độ» và 3 câu đề thật.",
+  "vocab": [
+    {
+      "hangul": "사상",
+      "pos": "N",
+      "meaning_vi": "Tư tưởng",
+      "note_vi": "思想. `사상가` (nhà tư tưởng), `사상적` (mang tính tư tưởng).",
+      "example_ko": "그의 사상은 후대에 큰 영향을 주었다.",
+      "example_vi": "Tư tưởng của ông ảnh hưởng lớn đến đời sau.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "core",
+      "hanja": "思想",
+      "sino_vietnamese": "tư tưởng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "철학",
+      "pos": "N",
+      "meaning_vi": "Triết học, triết lý",
+      "note_vi": "哲學. `삶의 철학` (triết lý sống), `철학자`.",
+      "example_ko": "그는 대학에서 철학을 공부했다.",
+      "example_vi": "Anh ấy học triết ở đại học.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "core",
+      "hanja": "哲學",
+      "sino_vietnamese": "triết học",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이념",
+      "pos": "N",
+      "meaning_vi": "Lý niệm, hệ tư tưởng",
+      "note_vi": "理念. `이념 갈등` (xung đột hệ tư tưởng).",
+      "example_ko": "두 정당은 이념이 서로 다르다.",
+      "example_vi": "Hai chính đảng có hệ tư tưởng khác nhau.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "recognize",
+      "hanja": "理念",
+      "sino_vietnamese": "lý niệm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "가치관",
+      "pos": "N",
+      "meaning_vi": "Giá trị quan",
+      "note_vi": "價値觀. `가치` (giá trị) đã học ở bài trước.",
+      "example_ko": "사람마다 가치관이 달라서 의견이 갈린다.",
+      "example_vi": "Mỗi người có giá trị quan khác nhau nên ý kiến chia rẽ.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "core",
+      "hanja": "價値觀",
+      "sino_vietnamese": "giá trị quan",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "윤리",
+      "pos": "N",
+      "meaning_vi": "Luân lý, đạo đức nghề nghiệp",
+      "note_vi": "倫理. `직업 윤리`, `생명 윤리`, `윤리적`.",
+      "example_ko": "의사에게는 높은 수준의 윤리가 요구된다.",
+      "example_vi": "Bác sĩ được đòi hỏi mức luân lý cao.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "core",
+      "hanja": "倫理",
+      "sino_vietnamese": "luân lý",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "도덕",
+      "pos": "N",
+      "meaning_vi": "Đạo đức",
+      "note_vi": "道德. `도덕적`. `윤리` và `도덕` gần nghĩa; `윤리` hay đi với nghề nghiệp, lĩnh vực.",
+      "example_ko": "거짓말을 하지 않는 것은 기본적인 도덕이다.",
+      "example_vi": "Không nói dối là đạo đức cơ bản.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "core",
+      "hanja": "道德",
+      "sino_vietnamese": "đạo đức",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "양심",
+      "pos": "N",
+      "meaning_vi": "Lương tâm",
+      "note_vi": "良心. `양심에 따르다/어긋나다`, `양심적` (lương thiện).",
+      "example_ko": "양심에 어긋나는 일은 하지 않겠다.",
+      "example_vi": "Tôi sẽ không làm việc trái với lương tâm.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "core",
+      "hanja": "良心",
+      "sino_vietnamese": "lương tâm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "정의",
+      "pos": "N",
+      "meaning_vi": "Chính nghĩa, công lý",
+      "note_vi": "正義. Đồng âm `정의` (定義, định nghĩa).",
+      "example_ko": "정의는 모든 사람에게 공정해야 한다.",
+      "example_vi": "Công lý phải công bằng với mọi người.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "core",
+      "hanja": "正義",
+      "sino_vietnamese": "chính nghĩa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "자유",
+      "pos": "N",
+      "meaning_vi": "Tự do",
+      "note_vi": "自由. `자유롭다`, `자유로이`.",
+      "example_ko": "자유는 책임과 함께 주어진다.",
+      "example_vi": "Tự do đi cùng với trách nhiệm.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "core",
+      "hanja": "自由",
+      "sino_vietnamese": "tự do",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "신념",
+      "pos": "N",
+      "meaning_vi": "Niềm tin, tín niệm",
+      "note_vi": "信念. `신념을 지키다/굽히다`.",
+      "example_ko": "그는 자신의 신념을 끝까지 지켰다.",
+      "example_vi": "Ông giữ vững niềm tin của mình đến cùng.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "core",
+      "hanja": "信念",
+      "sino_vietnamese": "tín niệm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "존엄",
+      "pos": "N",
+      "meaning_vi": "Phẩm giá",
+      "note_vi": "尊嚴. `인간의 존엄`, `존엄성`, `존엄하다`.",
+      "example_ko": "모든 인간은 존엄하다.",
+      "example_vi": "Mọi con người đều có phẩm giá.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "recognize",
+      "hanja": "尊嚴",
+      "sino_vietnamese": "tôn nghiêm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "인간",
+      "pos": "N",
+      "meaning_vi": "Con người",
+      "note_vi": "人間. Trang trọng hơn `사람`; `인간적` (có tính người).",
+      "example_ko": "인간은 생각하고 말하는 존재이다.",
+      "example_vi": "Con người là sinh vật biết nghĩ và nói.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "core",
+      "hanja": "人間",
+      "sino_vietnamese": "nhân gian",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "인격",
+      "pos": "N",
+      "meaning_vi": "Nhân cách",
+      "note_vi": "人格. `인격을 존중하다`, `인격적`.",
+      "example_ko": "그는 학문뿐 아니라 인격도 훌륭하다.",
+      "example_vi": "Ông ấy không chỉ học vấn mà nhân cách cũng tuyệt vời.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "recognize",
+      "hanja": "人格",
+      "sino_vietnamese": "nhân cách",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이성",
+      "pos": "N",
+      "meaning_vi": "Lý tính",
+      "note_vi": "理性. Đồng âm `이성` (異性, người khác giới). Đối lập `감정`.",
+      "example_ko": "감정에 휩쓸리지 말고 이성적으로 판단해야 한다.",
+      "example_vi": "Đừng để cảm xúc cuốn đi, cần phán đoán bằng lý tính.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "recognize",
+      "hanja": "理性",
+      "sino_vietnamese": "lý tính",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "본성",
+      "pos": "N",
+      "meaning_vi": "Bản tính",
+      "note_vi": "本性. Thiện hay ác là một tranh luận lâu đời trong triết học phương Đông.",
+      "example_ko": "사람의 본성이 선한지 악한지는 오래 논의되어 왔다.",
+      "example_vi": "Việc bản tính con người là thiện hay ác đã được bàn luận từ lâu.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "recognize",
+      "hanja": "本性",
+      "sino_vietnamese": "bản tính",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "행복",
+      "pos": "N",
+      "meaning_vi": "Hạnh phúc",
+      "note_vi": "幸福. `행복하다`.",
+      "example_ko": "행복은 마음가짐에 달려 있다.",
+      "example_vi": "Hạnh phúc tuỳ thuộc vào tâm thế.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "core",
+      "hanja": "幸福",
+      "sino_vietnamese": "hạnh phúc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "욕망",
+      "pos": "N",
+      "meaning_vi": "Ham muốn, dục vọng",
+      "note_vi": "慾望. `욕망을 억누르다/채우다`.",
+      "example_ko": "끝없는 욕망은 사람을 불행하게 만들 수 있다.",
+      "example_vi": "Ham muốn vô hạn có thể khiến con người bất hạnh.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "recognize",
+      "hanja": "欲望",
+      "sino_vietnamese": "dục vọng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "의지",
+      "pos": "N",
+      "meaning_vi": "Ý chí",
+      "note_vi": "意志. Đồng âm `의지` (依支, dựa vào): `의지하다`.",
+      "example_ko": "그는 강한 의지로 어려움을 이겨 냈다.",
+      "example_vi": "Anh ấy vượt qua khó khăn bằng ý chí mạnh mẽ.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "core",
+      "hanja": "意志",
+      "sino_vietnamese": "ý chí",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "진리",
+      "pos": "N",
+      "meaning_vi": "Chân lý",
+      "note_vi": "眞理.",
+      "example_ko": "과학은 진리를 찾는 활동이라고 할 수 있다.",
+      "example_vi": "Khoa học có thể nói là hoạt động tìm chân lý.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "recognize",
+      "hanja": "眞理",
+      "sino_vietnamese": "chân lý",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "진실",
+      "pos": "N",
+      "meaning_vi": "Sự thật, tính chân thực",
+      "note_vi": "眞實. `진실하다`; khác `사실` (事實, sự việc có thật).",
+      "example_ko": "그는 끝까지 진실을 말했다.",
+      "example_vi": "Ông ấy nói sự thật đến cùng.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "core",
+      "hanja": "眞實",
+      "sino_vietnamese": "chân thực",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "본질",
+      "pos": "N",
+      "meaning_vi": "Bản chất",
+      "note_vi": "本質. `본질적`.",
+      "example_ko": "문제의 본질을 정확히 이해해야 한다.",
+      "example_vi": "Cần hiểu chính xác bản chất của vấn đề.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "core",
+      "hanja": "本質",
+      "sino_vietnamese": "bản chất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "덕",
+      "pos": "N",
+      "meaning_vi": "Đức",
+      "note_vi": "德. Cũng có trong `덕분에` (nhờ ơn).",
+      "example_ko": "덕이 있는 사람은 남을 먼저 생각한다.",
+      "example_vi": "Người có đức nghĩ đến người khác trước.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "recognize",
+      "hanja": "德",
+      "sino_vietnamese": "đức",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "미덕",
+      "pos": "N",
+      "meaning_vi": "Đức tính tốt",
+      "note_vi": "美德. `미덕으로 여기다`.",
+      "example_ko": "겸손은 오래전부터 미덕으로 여겨졌다.",
+      "example_vi": "Khiêm tốn từ lâu được coi là đức tính tốt.",
+      "family": "🟢 Nền · Tư tưởng, giá trị, đạo đức",
+      "priority": "recognize",
+      "hanja": "美德",
+      "sino_vietnamese": "mỹ đức",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "관습",
+      "pos": "N",
+      "meaning_vi": "Tập quán, tục lệ",
+      "note_vi": "慣習. `관습법` (luật tập quán).",
+      "example_ko": "오래된 관습이 법처럼 지켜지는 곳도 있다.",
+      "example_vi": "Có nơi những tập quán lâu đời được giữ như luật.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "core",
+      "hanja": "慣習",
+      "sino_vietnamese": "quán tập",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "규범",
+      "pos": "N",
+      "meaning_vi": "Chuẩn mực",
+      "note_vi": "規範. `사회 규범`, `행동 규범`.",
+      "example_ko": "사회 규범을 어기면 비난을 받을 수 있다.",
+      "example_vi": "Vi phạm chuẩn mực xã hội có thể bị chỉ trích.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "core",
+      "hanja": "規範",
+      "sino_vietnamese": "quy phạm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "개인주의",
+      "pos": "N",
+      "meaning_vi": "Chủ nghĩa cá nhân",
+      "note_vi": "個人主義. Khác `이기주의`.",
+      "example_ko": "개인주의가 강해지면서 공동체 의식이 약해졌다는 지적이 있다.",
+      "example_vi": "Có ý kiến chỉ ra rằng chủ nghĩa cá nhân mạnh lên khiến ý thức cộng đồng yếu đi.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "recognize",
+      "hanja": "個人主義",
+      "sino_vietnamese": "cá nhân chủ nghĩa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이기주의",
+      "pos": "N",
+      "meaning_vi": "Chủ nghĩa vị kỷ",
+      "note_vi": "利己主義. Trái nghĩa `이타주의` (利他主義). `개인주의` không nhất thiết là xấu.",
+      "example_ko": "자신의 이익만 생각하는 태도를 이기주의라고 한다.",
+      "example_vi": "Thái độ chỉ nghĩ đến lợi ích của mình gọi là chủ nghĩa vị kỷ.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "recognize",
+      "hanja": "利己主義",
+      "sino_vietnamese": "lợi kỷ chủ nghĩa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "공동체",
+      "pos": "N",
+      "meaning_vi": "Cộng đồng",
+      "note_vi": "共同體. `공동체 의식`, `지역 공동체`.",
+      "example_ko": "건강한 공동체는 서로를 배려한다.",
+      "example_vi": "Một cộng đồng lành mạnh biết quan tâm lẫn nhau.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "core",
+      "hanja": "共同體",
+      "sino_vietnamese": "cộng đồng thể",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "희생",
+      "pos": "N",
+      "meaning_vi": "Hy sinh",
+      "note_vi": "犧牲. `희생하다`, `희생자` (nạn nhân).",
+      "example_ko": "그는 가족을 위해 많은 것을 희생했다.",
+      "example_vi": "Ông đã hy sinh nhiều thứ vì gia đình.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "core",
+      "hanja": "犧牲",
+      "sino_vietnamese": "hy sinh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "다양성",
+      "pos": "N",
+      "meaning_vi": "Tính đa dạng",
+      "note_vi": "多樣性. `다양하다`.",
+      "example_ko": "문화의 다양성을 존중하는 태도가 필요하다.",
+      "example_vi": "Cần thái độ tôn trọng sự đa dạng văn hoá.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "recognize",
+      "hanja": "多樣性",
+      "sino_vietnamese": "đa dạng tính",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "관용",
+      "pos": "N",
+      "meaning_vi": "Khoan dung",
+      "note_vi": "寬容. Đồng âm `관용` (慣用, quen dùng): `관용어` (thành ngữ).",
+      "example_ko": "서로 다른 의견에 대한 관용이 민주주의를 지킨다.",
+      "example_vi": "Khoan dung với ý kiến khác nhau giữ gìn nền dân chủ.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "recognize",
+      "hanja": "寬容",
+      "sino_vietnamese": "khoan dung",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "성찰",
+      "pos": "N",
+      "meaning_vi": "Tự soi xét, chiêm nghiệm",
+      "note_vi": "省察. `성찰하다`, `자기 성찰`.",
+      "example_ko": "자신의 행동을 성찰하는 시간이 필요하다.",
+      "example_vi": "Cần thời gian chiêm nghiệm hành động của mình.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "recognize",
+      "hanja": "省察",
+      "sino_vietnamese": "tỉnh sát",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "모순",
+      "pos": "N",
+      "meaning_vi": "Mâu thuẫn",
+      "note_vi": "矛盾. `모순되다`. Gốc điển tích «giáo và khiên» (矛 giáo, 盾 khiên).",
+      "example_ko": "그의 말과 행동에는 모순이 있다.",
+      "example_vi": "Trong lời nói và hành động của anh ấy có mâu thuẫn.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "core",
+      "hanja": "矛盾",
+      "sino_vietnamese": "mâu thuẫn",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "추구",
+      "pos": "N",
+      "meaning_vi": "Theo đuổi",
+      "note_vi": "追求. `추구하다`; `이윤 추구`.",
+      "example_ko": "그는 평생 진리를 추구하며 살았다.",
+      "example_vi": "Ông sống cả đời theo đuổi chân lý.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "core",
+      "hanja": "追求",
+      "sino_vietnamese": "truy cầu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "지향",
+      "pos": "N",
+      "meaning_vi": "Hướng tới",
+      "note_vi": "志向. `지향하다`, `지향점` (điểm hướng tới).",
+      "example_ko": "이 단체는 평등한 사회를 지향한다.",
+      "example_vi": "Tổ chức này hướng tới xã hội bình đẳng.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "recognize",
+      "hanja": "指向",
+      "sino_vietnamese": "chỉ hướng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "옹호",
+      "pos": "N",
+      "meaning_vi": "Bênh vực, ủng hộ",
+      "note_vi": "擁護. `옹호하다`; trái nghĩa `비판하다`.",
+      "example_ko": "그는 약자의 권리를 옹호하는 글을 썼다.",
+      "example_vi": "Anh ấy viết bài bênh vực quyền của người yếu thế.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "recognize",
+      "hanja": "擁護",
+      "sino_vietnamese": "ủng hộ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "경계",
+      "pos": "N",
+      "meaning_vi": "Cảnh giác, đề phòng",
+      "note_vi": "警戒. `경계하다`; đồng âm `경계` (境界, ranh giới).",
+      "example_ko": "지나친 의존을 경계해야 한다.",
+      "example_vi": "Cần cảnh giác với sự phụ thuộc quá mức.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "core",
+      "hanja": "警戒",
+      "sino_vietnamese": "cảnh giới",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "낙관",
+      "pos": "N",
+      "meaning_vi": "Lạc quan (về triển vọng)",
+      "note_vi": "樂觀. `낙관하다`, `낙관적`.",
+      "example_ko": "전문가들은 경기 회복을 낙관하지 않았다.",
+      "example_vi": "Các chuyên gia không lạc quan về việc kinh tế phục hồi.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "recognize",
+      "hanja": "樂觀",
+      "sino_vietnamese": "lạc quan",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "비관",
+      "pos": "N",
+      "meaning_vi": "Bi quan",
+      "note_vi": "悲觀. `비관하다`, `비관적`.",
+      "example_ko": "미래를 지나치게 비관할 필요는 없다.",
+      "example_vi": "Không cần quá bi quan về tương lai.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "recognize",
+      "hanja": "悲觀",
+      "sino_vietnamese": "bi quan",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "역설",
+      "pos": "N",
+      "meaning_vi": "Nhấn mạnh (力說); nghịch lý (逆說)",
+      "note_vi": "力說 là khẳng định mạnh, khác `역설` 逆說 (nghịch lý). Câu hỏi «thái độ» thường dùng 力說.",
+      "example_ko": "그는 환경 보호의 필요성을 역설했다.",
+      "example_vi": "Ông nhấn mạnh sự cần thiết của bảo vệ môi trường.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "유교",
+      "pos": "N",
+      "meaning_vi": "Nho giáo",
+      "note_vi": "儒敎. `유교 문화`, `유교적`.",
+      "example_ko": "조선 시대에는 유교가 사회 질서의 바탕이었다.",
+      "example_vi": "Thời Joseon Nho giáo là nền tảng của trật tự xã hội.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "core",
+      "hanja": "儒敎",
+      "sino_vietnamese": "nho giáo",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "불교",
+      "pos": "N",
+      "meaning_vi": "Phật giáo",
+      "note_vi": "佛敎. `불교 신자`, `사찰` (chùa).",
+      "example_ko": "한국의 많은 문화재는 불교와 관련이 있다.",
+      "example_vi": "Nhiều di sản văn hoá của Hàn Quốc liên quan đến Phật giáo.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "core",
+      "hanja": "佛敎",
+      "sino_vietnamese": "phật giáo",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "성리학",
+      "pos": "N",
+      "meaning_vi": "Tân Nho giáo (Chu Tử học)",
+      "note_vi": "性理學. Còn gọi `주자학`. Đại biểu: 이황, 이이.",
+      "example_ko": "조선은 성리학을 나라의 중심 사상으로 삼았다.",
+      "example_vi": "Joseon lấy Tân Nho giáo làm tư tưởng trung tâm.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "recognize",
+      "hanja": "性理學",
+      "sino_vietnamese": "tính lý học",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "실학",
+      "pos": "N",
+      "meaning_vi": "Thực học",
+      "note_vi": "實學. Xuất hiện ở Joseon hậu kỳ; đại biểu `정약용`.",
+      "example_ko": "실학은 현실의 문제를 해결하려는 학문이었다.",
+      "example_vi": "Thực học là học vấn nhằm giải quyết vấn đề thực tế.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "recognize",
+      "hanja": "實學",
+      "sino_vietnamese": "thực học",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "효",
+      "pos": "N",
+      "meaning_vi": "Hiếu",
+      "note_vi": "孝. `효도` (đạo hiếu): `효도하다`.",
+      "example_ko": "효는 유교에서 중요하게 여기는 덕목이다.",
+      "example_vi": "Hiếu là đức mục được Nho giáo coi trọng.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "recognize",
+      "hanja": "孝",
+      "sino_vietnamese": "hiếu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "선비",
+      "pos": "N",
+      "meaning_vi": "Sĩ phu, nho sinh",
+      "note_vi": "Người trí thức thời Joseon. `선비 정신` (tinh thần seonbi).",
+      "example_ko": "선비는 학문과 인격을 함께 닦는 사람이었다.",
+      "example_vi": "Seonbi là người rèn luyện cả học vấn lẫn nhân cách.",
+      "family": "🟡 Dạng thi · Lập luận, thái độ, truyền thống tư tưởng",
+      "priority": "recognize",
+      "hanja": "先妣",
+      "sino_vietnamese": "tiên tỷ",
+      "enrich": "auto"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V/A + -(으)ㄹ지라도 · V + -(으)ㄹ망정 · V + -는 한이 있더라도",
+      "meaning_vi": "Dù … đi nữa · Thà … chứ không · Dù có phải … (hy sinh)",
+      "usage_context_vi": "**Cấu tạo:** `V/A + -(으)ㄹ지라도`: dù … đi nữa, vế sau khẳng định lập trường. `V + -(으)ㄹ망정`: thà chịu … chứ không …; vế sau là điều không làm hoặc không bị ảnh hưởng. `V + -는 한이 있더라도`: dù có phải chịu thiệt thòi … vẫn …, thể hiện quyết tâm.\n**Hoàn cảnh dùng:** Diễn thuyết, nghị luận: `비난을 받을지라도 진실을 말해야 한다`; `굶어 죽을망정 남의 도움은 받지 않겠다`; `밤을 새우는 한이 있더라도 오늘 끝내겠다`.\n**Vì sao chọn nó:** Cả ba mạnh hơn `-아/어도`, `-더라도` (đã học). `-(으)ㄹ지라도` trang trọng, dùng cho giả định có thể xảy ra (quá khứ: `-았/었을지라도`). `-(으)ㄹ망정`: vế trước là điều **bị coi là xấu mà vẫn chấp nhận**, vế sau là điều **tuyệt đối không làm**. `-는 한이 있더라도`: vế trước là hy sinh, thiệt thòi cụ thể.",
+      "contrasts": [
+        {
+          "pattern": "-아/어도 · -더라도",
+          "diff_vi": "Mức nhượng bộ thông thường; ba mẫu mới nhượng bộ mạnh và thể hiện lập trường."
+        },
+        {
+          "pattern": "-(으)ㄹ지라도 · -(으)ㄹ망정",
+          "diff_vi": "`지라도` chỉ nhượng bộ; `망정` còn mang ý «thà … chứ không»."
+        },
+        {
+          "pattern": "-는 한이 있어도",
+          "diff_vi": "Cùng nghĩa `-는 한이 있더라도`; `더라도` trang trọng hơn."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `-(으)ㄹ망정` với vế sau khẳng định bình thường: ✗ `굶을망정 밥을 먹는다`.\n(2) Quên `-ㄹ` trước `지라도`: ✗ `받는지라도` → ✓ `받을지라도`.\n(3) Dùng `-는 한이 있더라도` khi vế trước không phải thiệt thòi hay hy sinh.",
+      "example_ko": "비난을 받을지라도 진실을 말해야 한다.\n그는 굶어 죽을망정 남의 도움은 받지 않겠다고 했다.\n밤을 새우는 한이 있더라도 이 일은 오늘 끝내겠다.\n실패했을지라도 도전한 경험은 가치가 있다.",
+      "example_vi": "Dù bị chỉ trích, vẫn phải nói sự thật.\nÔng ấy nói thà chết đói chứ không nhận sự giúp đỡ của người khác.\nDù có phải thức trắng đêm, tôi sẽ xong việc này hôm nay.\nDù có thất bại, trải nghiệm thử thách vẫn có giá trị.",
+      "topik_tip_vi": "Đọc 5–6: sau «-(으)ㄹ지라도» thường là lập trường của người viết, chú ý «-아/어야 한다».",
+      "importance": "must"
+    },
+    {
+      "pattern": "V/A + -다고 볼 수 있다 · V/A + -다고도 할 수 있다 · V/A + -(ㄴ/는)다기보다(는)",
+      "meaning_vi": "Có thể xem là … · Cũng có thể nói là … · Đúng hơn là … (hơn là nói rằng …)",
+      "usage_context_vi": "**Cấu tạo:** `V/A + -다고 볼 수 있다`: có thể xem là…, nhận định thận trọng. `V/A + -다고도 할 수 있다`: cũng có thể nói là…. `V/A + -(ㄴ/는)다기보다(는)`: thay vì nói A thì đúng hơn nên nói B. Chia: tính từ `-다고`, động từ `-ㄴ/는다고`, danh từ `(이)라고`; quá khứ `-았/었다고`.\n**Hoàn cảnh dùng:** Kết luận nghị luận, nhận định học thuật, Q54: `이 제도는 성공했다고 볼 수 있다`; `성격이 급하다기보다는 솔직한 편이다`.\n**Vì sao chọn nó:** `-다고 볼 수 있다` là nhận định có căn cứ của người viết, mềm hơn `-이다`. `-다고도 할 수 있다` thêm một cách nhìn bên cạnh (nhờ trợ từ `도`). `-다기보다는` so sánh hai cách diễn đạt; vế sau là cách đúng hơn, hay kết thúc bằng `-ㄴ 편이다`, `-ㄴ 것이다`.",
+      "contrasts": [
+        {
+          "pattern": "-ㄴ/는 셈이다",
+          "diff_vi": "`셈이다` = coi như, gần như; `볼 수 있다` = nhận định có lý lẽ."
+        },
+        {
+          "pattern": "-다고 생각한다",
+          "diff_vi": "`생각한다` là ý kiến cá nhân; `볼 수 있다` khách quan hơn."
+        },
+        {
+          "pattern": "-기보다(는)",
+          "diff_vi": "`-기보다` so sánh hành động; `-다기보다` so sánh cách nhận định."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Chia sai thì: ✗ `성공한다고 볼 수 있다` cho việc đã xảy ra → ✓ `성공했다고 볼 수 있다`.\n(2) Dùng `-다기보다는` mà vế sau không nêu cách nói thay thế: câu thiếu ý.\n(3) Dùng `-다고 볼 수 있다` cho sự thật hiển nhiên: mẫu này chỉ dành cho nhận định.",
+      "example_ko": "이 제도는 사회 구성원의 합의를 이끌어 냈다는 점에서 성공했다고 볼 수 있다.\n이 결과는 노력의 대가라고도 할 수 있다.\n그는 성격이 급하다기보다는 솔직한 편이다.\n이 문제는 개인의 실수라기보다는 구조의 문제이다.",
+      "example_vi": "Chế độ này có thể xem là thành công ở chỗ dẫn tới sự đồng thuận của các thành viên xã hội.\nKết quả này cũng có thể nói là cái giá của sự nỗ lực.\nAnh ấy thuộc dạng thẳng thắn hơn là nóng tính.\nVấn đề này là vấn đề cơ cấu hơn là lỗi của cá nhân.",
+      "topik_tip_vi": "Q54: câu kết thân bài hay có «-다고 볼 수 있다». Dùng «-다기보다는» để sửa một cách nghĩ phổ biến.",
+      "importance": "must"
+    },
+    {
+      "pattern": "V/A + -(으)ㄴ들 · V + -아/어 봤자 · N + 은/는 고사하고",
+      "meaning_vi": "Dù … thì cũng (vô ích) · Đừng nói đến N, ngay cả … cũng không",
+      "usage_context_vi": "**Cấu tạo:** `V/A + -(으)ㄴ들`: dù có … thì cũng …; vế sau hay là phủ định hoặc câu hỏi tu từ. `V + -아/어 봤자`: dù có thử … cũng vô ích. `N + 은/는 고사하고`: nói gì đến N, ngay cả … cũng không (vế sau phủ định).\n**Hoàn cảnh dùng:** `이제 와서 후회한들 소용이 없다`; `지금 가 봤자 문이 닫혀 있을 것이다`; `밥은 고사하고 물도 못 마셨다`.\n**Vì sao chọn nó:** Cả ba mang ý «vô ích» hoặc «không đạt được». `-(으)ㄴ들` là văn viết, sắc thái tu từ (không đổi theo thì: `후회한들`, `좋은들`). `-아/어 봤자` đời thường hơn, vế sau hay là `소용없다`, `-ㄹ 것이다`. `은/는 고사하고` đứng sau danh từ; danh từ trước là điều lớn hơn, vế sau là điều nhỏ hơn mà cũng không có.",
+      "contrasts": [
+        {
+          "pattern": "-아/어도",
+          "diff_vi": "`-아/어도` chỉ nhượng bộ; `-아/어 봤자` thêm ý «vô ích»."
+        },
+        {
+          "pattern": "N은/는커녕",
+          "diff_vi": "Gần nghĩa `고사하고`; `은/는커녕` thân mật hơn."
+        },
+        {
+          "pattern": "-아/어 보았자",
+          "diff_vi": "Dạng đầy đủ của `-아/어 봤자`."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Vế sau khẳng định tích cực: ✗ `후회한들 도움이 된다`, ✗ `밥은 고사하고 물도 마셨다`.\n(2) Đảo thứ tự: ✗ `물은 고사하고 밥도 못 먹었다` (điều lớn hơn phải đứng trước).\n(3) Dùng `-(으)ㄴ들` trong hội thoại thân mật: nghe cứng, hợp với văn viết hơn.",
+      "example_ko": "이제 와서 후회한들 소용이 없다.\n지금 가 봤자 문이 닫혀 있을 것이다.\n그는 밥은 고사하고 물도 못 마시고 일했다.\n혼자 걱정한들 문제가 해결되지는 않는다.",
+      "example_vi": "Giờ có hối hận cũng vô ích.\nBây giờ có đi cũng thấy cửa đã đóng.\nAnh ấy làm việc, đừng nói cơm, nước cũng không uống được.\nMột mình lo lắng thì vấn đề cũng không được giải quyết.",
+      "topik_tip_vi": "Gặp «-(으)ㄴ들», «-아/어 봤자», «고사하고»: vế sau hầu như luôn có phủ định hoặc ý vô ích; dùng làm manh mối khi chọn đáp án.",
+      "importance": "normal"
+    },
+    {
+      "pattern": "V/A + -기로서니 · N + (이)기로서니",
+      "meaning_vi": "Dù cho … đi nữa thì cũng (không thể) … — không chấp nhận lý do đó",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · 👁 **Nhận ra** (đọc/nghe hiểu)\n**Cấu tạo:** gốc + `-기로서니`, quá khứ `-았/었기로서니`; danh từ `N이기로서니`. Vế sau thường là câu hỏi tu từ hoặc phủ định: `-(으)ㄹ 수 있어요?`, `-(으)면 안 되지요`.\n**Hoàn cảnh dùng:** Người nói **thừa nhận lý do** của người kia nhưng cho rằng **không đủ để biện minh**: `아무리 바쁘기로서니 연락 한 번 못 해요?` Giọng trách móc, bình luận đạo đức.\n**Vì sao chọn nó:** `-더라도` là nhượng bộ trung tính; `-기로서니` mạnh, **trách móc**, thường kèm `아무리`. `-다고 해서` cũng phản bác lý do nhưng nhẹ hơn.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Tư tưởng, đạo đức và cách lập luận»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V/A + -더라도 · N + (이)더라도",
+          "diff_vi": "Nhượng bộ trung tính."
+        },
+        {
+          "pattern": "V/A + -(ㄴ/는)다고 해서 · N + (이)라고 해서",
+          "diff_vi": "«Không phải cứ vì … mà …», nhẹ hơn."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Vế sau là điều đồng tình: `-기로서니` luôn dẫn tới **phản bác/trách móc**.\n(2) Dùng với người trên: nghe như trách, cần tránh.\n(3) Thiếu `아무리` khiến câu kém tự nhiên; mẫu hay đi với `아무리 … -기로서니`.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "아무리 바쁘기로서니 연락 한 번 못 해요?\n아무리 화가 났기로서니 그런 말을 하면 안 되지요.\n어리기로서니 잘못한 것은 잘못한 것이다.",
+      "example_vi": "Bận đến mấy đi nữa thì gọi một cuộc cũng không được sao?\nDù có giận đến đâu cũng không được nói những lời như thế.\nDù còn nhỏ thì sai vẫn là sai.",
+      "topik_tip_vi": "Đọc (thái độ, đạo đức): `-기로서니` = không chấp nhận lời biện minh; ý chính của đoạn nằm ở vế sau.",
+      "use_level": "recognize",
+      "source": "EXT-SUP-58"
+    },
+    {
+      "pattern": "V/A + -거니와",
+      "meaning_vi": "Không những … mà còn … (thừa nhận vế trước và thêm vào vế sau, văn viết)",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · 👁 **Nhận ra** (đọc/nghe hiểu)\n**Cấu tạo:** gốc + `-거니와`: `좋다 → 좋거니와`, `하다 → 하거니와`; quá khứ `-았/었거니와`; danh từ `N이거니와`.\n**Hoàn cảnh dùng:** Văn viết, diễn văn: **thừa nhận** một ý rồi **thêm** ý cùng chiều mạnh hơn: `그는 실력도 뛰어나거니와 인품도 훌륭하다.` Cũng dùng `다시 말하거니와` (nhắc lại lần nữa).\n**Vì sao chọn nó:** `-(으)ㄹ 뿐만 아니라` là cách nói thông dụng; `-거니와` trang trọng, văn chương, hay trong đọc hiểu tư tưởng, đạo đức.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Tư tưởng, đạo đức và cách lập luận»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V/A + -(으)ㄹ 뿐만 아니라 · N + 뿐만 아니라",
+          "diff_vi": "Cùng nghĩa, phổ biến hơn."
+        },
+        {
+          "pattern": "A/V + -(으)ㄴ/는 데다가 · N + 인 데다가",
+          "diff_vi": "Thêm vào, văn nói."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Vế sau ngược chiều: `-거니와` thường nối hai ý **cùng chiều** (cùng tốt hoặc cùng xấu).\n(2) Dùng trong hội thoại: nghe cổ, cứng.\n(3) Nhầm với `-거나` (hoặc): `-거니와` là «không những … mà còn».\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "그는 실력도 뛰어나거니와 인품도 훌륭하다.\n이 방법은 비용도 적게 들거니와 시간도 절약할 수 있다.\n다시 말하거니와 안전이 가장 중요합니다.",
+      "example_vi": "Anh ấy không những giỏi mà nhân cách cũng tuyệt vời.\nCách này không những ít tốn kém mà còn tiết kiệm thời gian.\nXin nhắc lại một lần nữa, an toàn là quan trọng nhất.",
+      "topik_tip_vi": "Đọc tư tưởng/đạo đức: `-거니와` = thêm luận cứ cùng chiều; câu «chọn cách nói tương đương» đổi sang `-(으)ㄹ 뿐만 아니라`.",
+      "use_level": "recognize",
+      "source": "EXT-SUP-59"
+    },
+    {
+      "pattern": "V/A + -느니 -느니 하다",
+      "meaning_vi": "Nào là … nào là … (thuật lại nhiều lời bàn tán, ý kiến lặp đi lặp lại, thường chê)",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · 👁 **Nhận ra** (đọc/nghe hiểu)\n**Cấu tạo:** gốc + `-(느)니 … -(느)니 하다`: động từ `-느니`, tính từ `-(으)니` (`좋으니 나쁘니`); dạng tường thuật `-다느니 -다느니 하다`.\n**Hoàn cảnh dùng:** Thuật lại **nhiều ý kiến trái ngược, lời bàn ra tán vào**, thường với giọng **chán nản, phê phán**: `잘했느니 못했느니 말이 많다.` `비싸다느니 맛없다느니 불평만 했다.`\n**Vì sao chọn nó:** `-(이)라든가` chỉ liệt kê ví dụ; `-느니 -느니 하다` nhấn **lắm lời, cãi qua cãi lại**, mang sắc thái tiêu cực.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Tư tưởng, đạo đức và cách lập luận»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V + -느니 (차라리) · V + -(으)ㄹ 바에는 (-(으)ㄹ 바에야)",
+          "diff_vi": "`-느니` một lần = «thà … còn hơn», khác nghĩa."
+        },
+        {
+          "pattern": "V + -는 둥 마는 둥 (하다)",
+          "diff_vi": "Làm qua loa, không phải liệt kê lời nói."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng một lần: mẫu này cần **hai vế** `-느니 … -느니`.\n(2) Nhầm với `-느니 차라리` (thà): `가느니 안 가느니` (đi hay không đi, bàn tán) ≠ `가느니 차라리` (thà … còn hơn đi).\n(3) Dùng cho ý kiến tích cực, trang trọng: mẫu này thường **chê, chán nản**.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "그 정책을 두고 잘했느니 못했느니 말이 많다.\n음식이 비싸다느니 맛없다느니 불평만 늘어놓았다.\n간다느니 안 간다느니 하더니 결국 안 왔다.",
+      "example_vi": "Quanh chính sách đó, nào là hay nào là dở, bàn tán đủ điều.\nNào là đắt nào là dở, chỉ toàn phàn nàn.\nNào là đi nào là không đi, rốt cuộc chẳng đến.",
+      "topik_tip_vi": "Đọc/Nghe (thái độ): `-느니 -느니` cho thấy người nói chán ngán tranh cãi; đáp án «phê phán việc bàn tán».",
+      "use_level": "recognize",
+      "source": "EXT-SUP-60"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài",
+      "body": "Bài 13 của Chủ đề 5, nhóm kiến thức chuyên đề thứ tư. Sau bài này bạn:\n① nắm 46 từ về tư tưởng, giá trị, đạo đức và lập luận, cùng vài khái niệm của Nho giáo, Thực học, Đông học;\n② đọc hiểu và dùng `-(으)ㄹ지라도`, `-다고 볼 수 있다`, `-(으)ㄴ들` trong văn nghị luận;\n③ biết các mốc tư tưởng Hàn Quốc đã được kiểm tra;\n④ làm câu hỏi «thái độ của tác giả / người nói» (đọc và nghe) bằng cách nhận từ báo hiệu.",
+      "kind": "goal"
+    },
+    {
+      "title": "Mốc tư tưởng Hàn Quốc (đã kiểm tra, tháng 10/2026)",
+      "body": "• **Tân Nho giáo** (`성리학`) là tư tưởng trung tâm của Joseon. `이황` (1501–1570) tranh luận với `기대승` về `사단칠정` (`사칠논변`) và nêu `리기호발설`. `이이` (1536–1584) nêu `기발이승일도설`, viết `성학집요` (1575) và `격몽요결` (1577, sách vỡ lòng). Hai người hay được so sánh: Lý Hoàng nghiêng về tu dưỡng qua học vấn, Lý Nhĩ chú trọng cải thiện thực tế.\n• **Thực học** (`실학`, Joseon hậu kỳ): `정약용` (1762–1836) được xem là người tổng hợp tư tưởng Thực học thế kỷ 18, tác giả `목민심서`; ông bị lưu đày 18 năm.\n• **Đông học** (`동학`) do `최제우` sáng lập năm 1860: `시천주` (mỗi người thờ Hanulnim trong thân mình) → `사인여천` (thờ người như Trời, thời `최시형`). Cụm `인내천` (人乃天) do `손병희` nêu làm tông chỉ từ năm 1905 khi lập `천도교`; không xuất hiện trong văn của 최제우 và 최시형. Phong trào nông dân Đông học diễn ra năm 1894.\n• **Ngũ luân** (`오륜`): `부자유친`, `군신유의`, `부부유별`, `장유유서`, `붕우유신`.\n• Bên cạnh Nho giáo, `불교` cũng ảnh hưởng sâu sắc đến văn hoá Hàn Quốc.",
+      "kind": "language"
+    },
+    {
+      "title": "Câu hỏi «thái độ» khi đọc và nghe (mức 5–6)",
+      "body": "① Tìm từ báo hiệu: `우려하다` (lo ngại), `경계하다` (cảnh giác), `촉구하다` (thúc giục), `옹호하다` (bênh vực), `비판하다` (phê phán), `반박하다` (phản bác), `낙관하다` ↔ `비관하다`, `역설하다` (nhấn mạnh mạnh), `당부하다` (dặn dò), `호소하다` (kêu gọi).\n② Bài nghe tranh luận: xem người được hỏi phản ứng thế nào sau lời đối phương: giữ nguyên lập trường, nhượng bộ một phần hay đưa ví dụ để phản bác.\n③ Đáp án cực đoan (`무조건`, `전혀`, `반드시 ~ 해야 한다고 역설`) thường sai nếu bài không nói mạnh như vậy.\n④ Xác định tác giả **công nhận** điều gì và **không chấp nhận** điều gì: thái độ đúng thường nằm giữa hai điều đó.",
+      "kind": "language"
+    },
+    {
+      "title": "Đồng âm dễ nhầm",
+      "body": "• `정의` 正義 (công lý) ≠ 定義 (định nghĩa).\n• `이성` 理性 (lý tính) ≠ 異性 (người khác giới).\n• `경계` 警戒 (cảnh giác) ≠ 境界 (ranh giới).\n• `역설` 力說 (nhấn mạnh) ≠ 逆說 (nghịch lý).\n• `의지` 意志 (ý chí) ≠ 依支 (dựa vào).\n• `관용` 寬容 (khoan dung) ≠ 慣用 (quen dùng, `관용어`).",
+      "kind": "language"
+    },
+    {
+      "title": "Một đoạn nghị luận mẫu (nội dung giả định)",
+      "body": "`윤리는 규칙을 외우는 일이라기보다는 스스로 판단하는 힘을 기르는 일이라고 볼 수 있다. 손해를 볼지라도 옳은 일을 선택하는 사람이 많아질 때 공동체는 건강해진다. 이제 와서 규범이 약해졌다고 한탄한들 달라지는 것은 없다.`\nChú ý: `-다기보다는` sửa một cách nghĩ, `-(으)ㄹ지라도` nêu lập trường, `-(으)ㄴ들` chốt ý vô ích.",
+      "kind": "sample"
+    },
+    {
+      "title": "Năm lỗi hay mắc",
+      "body": "① **Dùng `-(으)ㄹ망정` với vế sau khẳng định bình thường**: vế sau phải là điều không làm hoặc không bị ảnh hưởng.\n② **Bỏ `-ㄹ` trong `-(으)ㄹ지라도`**.\n③ **Chia sai thì** trong `-다고 볼 수 있다`: việc đã xảy ra thì `-았/었다고`.\n④ **Dùng vế sau tích cực** với `-(으)ㄴ들`, `-아/어 봤자`, `고사하고`.\n⑤ **Chọn đáp án cực đoan** trong câu hỏi thái độ: bài nói «nhấn mạnh» chưa chắc là «phản đối tuyệt đối».",
+      "kind": "pitfall"
+    }
+  ],
+  "bank": "xa-hoi",
+  "coach": {
+    "focus_vi": [
+      "Học 46 từ theo hai nhóm: `양심`, `신념`, `도덕`, `윤리` trước, rồi các từ thái độ `우려`, `경계`, `옹호`. Mỗi từ chép một câu ví dụ.",
+      "Làm sáu câu điền mẫu: `-(으)ㄹ지라도`, `-(으)ㄹ망정`, `-는 한이 있더라도`, `-다기보다는`, `-다고 볼 수 있다`, `-(으)ㄴ들`; sửa lại đáp án sai bằng lời giải thích.",
+      "Với ba câu đề thật, trước khi chọn đáp án hãy ghi: người nói là ai, mở đầu bằng từ nào, kết bằng câu nào."
+    ],
+    "watch_out_vi": [
+      "`-(으)ㄹ지라도`: đừng quên `-ㄹ`; vế sau là lập trường.",
+      "`-다고 볼 수 있다`: việc đã xảy ra phải dùng `-았/었다고`."
+    ],
+    "notebook_vi": [
+      "Bảng đồng âm: 정의, 이성, 경계, 역설, 의지, 관용.",
+      "Ba câu nghị luận có `-다고 볼 수 있다` về đề tài bạn quan tâm."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "`-(으)ㄹ지라도` khác `-더라도` thế nào?",
+        "answer": "Cùng là nhượng bộ. `-(으)ㄹ지라도` trang trọng và hay dùng để nêu lập trường mạnh trong văn nghị luận."
+      },
+      {
+        "prompt_vi": "Làm sao biết đáp án thái độ đúng?",
+        "answer": "Tìm từ báo hiệu (lo ngại, thúc giục, phản bác…), loại đáp án cực đoan và so từng đáp án với lời của người nói."
+      }
+    ]
+  },
+  "exercise_ids": [
+    "X62L1",
+    "X62L2",
+    "X62L3",
+    "X62L4",
+    "X62D1",
+    "X62D2",
+    "X62R1",
+    "X62R2",
+    "X62R3",
+    "X62R4",
+    "X62R5",
+    "X62R6",
+    "X62R7",
+    "X62R8",
+    "X62R9",
+    "X62R10",
+    "X62B1",
+    "X62B2",
+    "X62B3",
+    "X62B4",
+    "X62B5",
+    "X62B6",
+    "X62B7",
+    "X62F1",
+    "X62F2",
+    "X62E1",
+    "RG63",
+    "XSUP58",
+    "XSUP59",
+    "XSUP60",
+    "SP63"
+  ],
+  "topik2": [
+    {
+      "qid": "96-L-32",
+      "why_vi": "Câu hỏi thái độ của người nam trong cuộc tranh luận đã nghe ở bài 60. Người nam có giữ nguyên lập trường, nhượng bộ hay đòi căn cứ? Nhớ ai mở đầu bằng từ phản bác và ai chốt bằng câu tổng kết."
+    },
+    {
+      "qid": "102-L-48",
+      "why_vi": "Bài trình bày về một cuộc cải cách chế độ ở mức 5–6급. Câu hỏi thái độ của người nam: lạc quan, phê phán, thúc giục hay dặn dò? Chú ý các câu kết bài nêu dự đoán và cách nam nói về kết quả."
+    },
+    {
+      "qid": "h1-R-50",
+      "why_vi": "Đề thi thử của Haru (không phải đề thật): đoạn văn về nguy cơ đi kèm khoa học kỹ thuật. Câu hỏi thái độ của tác giả với phần gạch chân. Loại các đáp án cực đoan và so với điều tác giả công nhận."
+    }
+  ],
+  "editor_notes": [
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "SP63: S6 về nói thật dù bị thiệt, để -(으)ㄹ지라도/-(으)ㄹ망정, -(으)ㄴ들, -다고 볼 수 있다, -(이)라기보다는 xuất hiện tự nhiên ở lập trường, lý do và phản bác. Ví dụ cá nhân là chuyện làm thêm (không có số liệu). RG63: năm câu nói của bạn về chủ đề này; mỗi câu ít nhất một chỗ khẩu ngữ ngoài đuôi câu; accepted giới hạn ở 2–4 biến thể."
+    }
+  ]
+}

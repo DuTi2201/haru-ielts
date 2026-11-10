@@ -1,0 +1,214 @@
+{
+  "blocks": [
+    {
+      "title_vi": "Cấu trúc và thang điểm TOPIK II (đã đối chiếu nguồn)",
+      "bullets_vi": [
+        "Buổi 1: Nghe + Viết. Buổi 2: Đọc. Tổng **300 điểm**.",
+        "Cấp độ chỉ tính theo **tổng điểm**: 3급 120–149 · 4급 150–189 · 5급 190–229 · 6급 230–300. Dưới 120 không được cấp chứng chỉ. Không có điểm sàn riêng cho từng phần.",
+        "Tỉ lệ đúng tham khảo để đạt từng cấp (tính trên tổng 300): 3급 ≈ 40% · 4급 = 50% · 5급 ≈ 63% · 6급 ≈ 77%.",
+        "**Điểm từng câu Viết**: câu 51 = 10, câu 52 = 10, câu 53 = 30, câu 54 = 50.",
+        "51–52 (điền chỗ trống): chấm theo *내용 및 과제 수행* (nội dung, hoàn thành yêu cầu) và *언어 사용* (dùng từ, ngữ pháp chính xác).",
+        "53–54 (viết đoạn/bài): chấm theo *내용 및 과제 수행*, *글의 전개 구조* (cấu trúc triển khai), *언어 사용*.",
+        "Câu 53: 200–300 chữ (mô tả biểu đồ, bảng số liệu). Câu 54: 600–700 chữ (bài nghị luận).",
+        "Điểm từng câu Nghe, Đọc: các đề mẫu thường ghi 2 điểm/câu, nhưng **chưa xác minh được bảng điểm chi tiết từng câu**. Vì vậy mini-set bên dưới quy đổi theo **tỉ lệ % câu đúng** (xem khối \"Quy đổi điểm\" bên dưới)."
+      ],
+      "table": {
+        "header": [
+          "Phần",
+          "Số câu",
+          "Thời gian",
+          "Điểm",
+          "Hình thức"
+        ],
+        "rows": [
+          [
+            "듣기 (Nghe)",
+            "50",
+            "60 phút",
+            "100",
+            "Trắc nghiệm 4 đáp án"
+          ],
+          [
+            "쓰기 (Viết)",
+            "4 (câu 51–54)",
+            "50 phút",
+            "100",
+            "Tự luận"
+          ],
+          [
+            "읽기 (Đọc)",
+            "50",
+            "70 phút",
+            "100",
+            "Trắc nghiệm 4 đáp án"
+          ]
+        ]
+      }
+    },
+    {
+      "title_vi": "TOPIK II giấy không có bài thi Nói",
+      "body_vi": "Kỹ năng Nói được thi ở một kỳ thi riêng là **TOPIK Speaking (말하기)**: thi trên máy (IBT), 6 câu, 30 phút, hiện chỉ tổ chức tại Hàn Quốc. Điểm thô 72 được quy đổi (theo lý thuyết ứng đáp câu hỏi IRT) sang thang 0–200.",
+      "bullets_vi": [
+        "Tiêu chí chấm: **과제 수행·내용** (hoàn thành yêu cầu, đủ ý), **언어 구사력** (từ vựng, ngữ pháp, đúng cấp độ lời nói), **발음·전달력** (phát âm, nhịp điệu, dễ hiểu).",
+        "Thang cấp độ (điểm quy đổi 0–200): dưới 20 không có cấp · 1급 20–49 · 2급 50–89 · 3급 90–109 · 4급 110–129 · 5급 130–159 · 6급 160–200.",
+        "Nguồn của phần Nói là bài tổng hợp của bên thứ ba (dựa trên NIIED), không phải trang chính thức của kỳ thi. Hãy đối chiếu trên topik.go.kr trước khi dựa vào các con số này cho kỳ thi thật."
+      ],
+      "table": {
+        "header": [
+          "Câu",
+          "Dạng",
+          "Chuẩn bị",
+          "Trả lời",
+          "Điểm thô"
+        ],
+        "rows": [
+          [
+            "1",
+            "Trả lời câu hỏi đời sống hằng ngày",
+            "20 giây",
+            "30 giây",
+            "9"
+          ],
+          [
+            "2",
+            "Xem ảnh tình huống xã hội, trả lời câu hỏi",
+            "30 giây",
+            "40 giây",
+            "9"
+          ],
+          [
+            "3",
+            "Kể chuyện theo chuỗi ảnh",
+            "40 giây",
+            "60 giây",
+            "12"
+          ],
+          [
+            "4",
+            "Nghe hội thoại, trả lời câu hỏi tiếp theo",
+            "40 giây",
+            "60 giây",
+            "12"
+          ],
+          [
+            "5",
+            "Đọc thông tin/số liệu và diễn giải",
+            "70 giây",
+            "80 giây",
+            "15"
+          ],
+          [
+            "6",
+            "Trình bày ý kiến về một chủ đề",
+            "70 giây",
+            "80 giây",
+            "15"
+          ]
+        ]
+      }
+    },
+    {
+      "title_vi": "Cách dùng bộ bài tập",
+      "bullets_vi": [
+        "**Thời lượng gợi ý**: Nghe 17 câu ≈ 25 phút · Đọc 16 câu ≈ 25 phút · Viết 51–54 = 50 phút (đúng thời gian thi thật) · Nói 6 câu ≈ 15 phút kèm ghi âm.",
+        "**Nghe**: âm thanh là giọng đọc tổng hợp (TTS) với tốc độ tự nhiên. Luyện kiểu thi thật: nghe **một lần** rồi chọn đáp án (bật \"Nghe một lần như thi thật\"); chỉ nghe lại ở bước chữa bài.",
+        "Đề dạng tranh (L1–L2) và biểu đồ (L3): phần mô tả hình/số liệu đặt trong ngoặc `[...]`.",
+        "Mục nào dùng ngữ pháp **ngoài các mẫu của bài** sẽ được đánh dấu *(mở rộng)* ở phần giải thích."
+      ]
+    },
+    {
+      "title_vi": "Quy đổi điểm",
+      "body_vi": "Thang này giúp bạn **theo dõi tiến bộ giữa các lần luyện**. Các đề ở đây là mini-set một chủ đề, nên kết quả không thể thay cho điểm thi thật.\n\nĐiểm quy đổi mỗi phần: **số câu đúng ÷ tổng số câu × 100**. Cách này là xấp xỉ, vì chưa xác minh được điểm chính thức của từng câu (xem khối \"Cấu trúc và thang điểm TOPIK II\").\n\nSố câu đúng tối thiểu để đạt tỉ lệ tham khảo của từng cấp (làm tròn lên; tỉ lệ lấy từ ngưỡng điểm tổng 120/150/190/230 trên 300):",
+      "bullets_vi": [
+        "*Lưu ý:* ngưỡng thật tính trên **tổng ba kỹ năng**, không có điểm sàn từng phần. Bảng chỉ cho biết bạn đang ở \"vùng\" nào so với mốc.",
+        "Điểm Viết (/100) = câu 51 (/10) + câu 52 (/10) + câu 53 (/30) + câu 54 (/50), chấm theo thang quy ước của phần Viết.",
+        "Viết tự chấm thường lệch, nên nhờ **một người thứ hai** (thầy cô hoặc bạn học) chấm lại ít nhất câu 53 và 54."
+      ],
+      "table": {
+        "header": [
+          "Phần",
+          "3급 (≈ 40%)",
+          "4급 (50%)",
+          "5급 (≈ 63%)",
+          "6급 (≈ 77%)"
+        ],
+        "rows": [
+          [
+            "Nghe (17 câu)",
+            "7",
+            "9",
+            "11",
+            "14"
+          ],
+          [
+            "Đọc (16 câu)",
+            "7",
+            "8",
+            "11",
+            "13"
+          ]
+        ]
+      }
+    },
+    {
+      "title_vi": "Tổng hợp thử (xấp xỉ /300)",
+      "body_vi": "`Tổng ≈ (Nghe quy đổi) + (Đọc quy đổi) + (Viết tự chấm)`",
+      "bullets_vi": [
+        "**Ví dụ:** Nghe 13/17 → 76 · Đọc 12/16 → 75 · Viết 60 → tổng ≈ 211 → vùng 5급."
+      ],
+      "table": {
+        "header": [
+          "Tổng ước tính",
+          "Mức tham khảo"
+        ],
+        "rows": [
+          [
+            "dưới 120",
+            "chưa đạt 3급"
+          ],
+          [
+            "120–149",
+            "3급"
+          ],
+          [
+            "150–189",
+            "4급"
+          ],
+          [
+            "190–229",
+            "5급"
+          ],
+          [
+            "230–300",
+            "6급"
+          ]
+        ]
+      }
+    },
+    {
+      "title_vi": "Quy đổi phần Nói",
+      "body_vi": "Điểm thô tối đa 72 (9 + 9 + 12 + 12 + 15 + 15), chấm bằng thang tự chấm của phần Nói. Điểm thật được quy đổi bằng phương pháp IRT sang thang 0–200, nên **không có công thức tuyến tính** để suy ra cấp độ từ điểm thô. Hãy dùng **tỉ lệ = điểm thô ÷ 72** để so sánh giữa các lần luyện của chính bạn, và dùng bài mẫu chính thức trên topik.go.kr (nếu có) để làm quen giao diện."
+    },
+    {
+      "title_vi": "Nguồn tham khảo",
+      "bullets_vi": [
+        "KAIST Language Center: Guidance on TOPIK — https://lang.kaist.ac.kr/pages/view/lang_03_02?lang=en",
+        "HKEAA: TOPIK II briefing — https://www.hkeaa.edu.hk/DocLibrary/HKDSE/HKDSE_Category_C_Briefing_Korean.pdf",
+        "Kowork: TOPIK guide 2025 (điểm câu 51–54 và tiêu chí chấm Viết) — https://kowork.kr/blog/topik-%ED%95%9C%EA%B5%AD%EC%96%B4%EB%8A%A5%EB%A0%A5%EC%8B%9C%ED%97%98-%EA%B0%80%EC%9D%B4%EB%93%9C-2025",
+        "TOPIK Guide: Writing (điểm 10/10/30/50) — https://www.topikguide.com/?p=47969",
+        "SKKU, giáo trình luyện TOPIK II (vị trí một số dạng câu Đọc) — https://skb.skku.edu/_res/winter/etc/IWS3018.pdf",
+        "Seoulstart: hướng dẫn TOPIK Speaking (bài tổng hợp bên thứ ba, trích dẫn NIIED) — https://seoulstart.com/ko/guides/topik-speaking-test-guide",
+        "topik.go.kr: giao diện mẫu của bài thi Nói (được nhắc trong bài Seoulstart; chưa mở trực tiếp) — https://www.topik.go.kr/asset/speakingTest/view/question/question.html"
+      ]
+    }
+  ],
+  "disclaimer_vi": [
+    "Các đề là **đề tự soạn (mini-set)**, không phải đề thi thật.",
+    "Điểm chi tiết từng câu Nghe và Đọc; mini-set quy đổi theo % câu đúng.",
+    "Tỉ trọng chi tiết giữa ba tiêu chí chấm Viết câu 53 và 54 (7·7·16 cho câu 53 và 12·12·26 cho câu 54 lấy từ sách và trang luyện thi, chưa xác minh với bảng chấm chính thức).",
+    "Bảng chấm chi tiết phần Nói (thang 0–4 và trọng số bằng nhau là quy ước luyện tập). Thông tin cấu trúc phần Nói đến từ bài tổng hợp bên thứ ba, cần đối chiếu topik.go.kr.",
+    "Vị trí chính xác từng dạng câu Đọc ngoài các mục đã ghi nguồn (một số vị trí được ghi là \"thường gặp ở\").",
+    "Mọi đề trong file này là **đề tự soạn**, số liệu trong các biểu đồ, bảng là số liệu minh họa.",
+    "Âm thanh phần Nghe là giọng đọc tổng hợp (TTS), nên nhịp và ngữ điệu có thể khác người thật."
+  ]
+}

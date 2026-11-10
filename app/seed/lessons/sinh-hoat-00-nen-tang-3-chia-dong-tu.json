@@ -1,0 +1,311 @@
+{
+  "slug": "sinh-hoat-00-nen-tang-3-chia-dong-tu",
+  "title": "Nền tảng 3.1 · Quá khứ & trang trọng: -았/었-, -ㅂ/습니다",
+  "title_ko": "기초 3-1: 과거와 합쇼체",
+  "topic": "Nhập môn",
+  "track": "beginner",
+  "level": 1,
+  "summary": "Thì quá khứ '-았/었-' (kể cả '였/이었어요' cho danh từ) và đuôi trang trọng '-ㅂ/습니다', '-ㅂ/습니까?'; ba mức lịch sự và khi nào dùng mức nào.",
+  "vocab": [
+    {
+      "hangul": "알다",
+      "pos": "V",
+      "meaning_vi": "Biết",
+      "note_vi": "ㄹ 탈락: 압니다, 아세요, 아는; 알아요.",
+      "example_ko": "그 사람을 아세요?",
+      "example_vi": "Anh có biết người đó không?",
+      "priority": "core"
+    },
+    {
+      "hangul": "만들다",
+      "pos": "V",
+      "meaning_vi": "Làm, chế tạo",
+      "note_vi": "ㄹ 탈락: 만듭니다, 만드세요, 만드는; 만들어요.",
+      "example_ko": "어머니가 김치를 만드세요.",
+      "example_vi": "Mẹ tôi làm kim chi.",
+      "priority": "core"
+    },
+    {
+      "hangul": "음식",
+      "pos": "N",
+      "meaning_vi": "Món ăn, đồ ăn",
+      "example_ko": "한국 음식을 좋아합니다.",
+      "example_vi": "Tôi thích món ăn Hàn Quốc.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "飮食",
+      "sino_vietnamese": "ẩm thực",
+      "enrich": "auto"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Sau bài này bạn làm được gì",
+      "kind": "goal",
+      "body": "• Kể việc đã làm: `어제 영화를 봤어요`, `학생이었어요`.\n• Nói và viết câu trang trọng: `감사합니다`, `회사원입니다`, `어디에 갑니까?`.\n• Giữ một mức lịch sự xuyên suốt một đoạn."
+    },
+    {
+      "title": "Ba mức lịch sự",
+      "kind": "language",
+      "body": "• **합쇼체** `-ㅂ/습니다`: trang trọng. Bản tin, thuyết trình, phỏng vấn, phục vụ khách.\n• **해요체** `-아/어요`: lịch sự thân mật. Hầu hết hội thoại hằng ngày với người lạ, đồng nghiệp, người lớn tuổi.\n• **반말** `-아/어`: thân. Chỉ với bạn bè thân và người nhỏ tuổi hơn.\nTrong một đoạn văn, hãy giữ MỘT mức xuyên suốt."
+    }
+  ],
+  "coach": {
+    "focus_vi": [
+      "`V/A + -았/었-`, `N + 였/이었어요`.",
+      "`V/A + -ㅂ/습니다 · -ㅂ/습니까?`."
+    ],
+    "watch_out_vi": [
+      "Quá khứ chia theo cùng quy tắc nguyên âm như `-아/어요`: `가 → 갔어요`, `마시 → 마셨어요`, `하 → 했어요`.",
+      "Gốc có patchim → `-습니다` (먹습니다), không patchim → `-ㅂ니다` (갑니다); gốc `ㄹ` bỏ `ㄹ`: `삽니다`."
+    ],
+    "notebook_vi": [
+      "Bảng 5 động từ: hiện tại `-아/어요` · quá khứ · trang trọng."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Kể 3 việc bạn đã làm hôm qua, rồi nói lại một câu ở dạng `-ㅂ/습니다`."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "pattern": "V/A + -았/었- · N + 였/이었어요",
+      "meaning_vi": "Thì quá khứ: đã làm, đã xảy ra, đã từng là",
+      "usage_context_vi": "**Cấu tạo:** Gốc có nguyên âm cuối `ㅏ`/`ㅗ` + `-았-`, còn lại + `-었-`, rồi thêm đuôi: `-았/었어요` (해요체), `-았/었습니다` (합쇼체). Nguyên âm gộp như khi chia `-아/어요`.\n| Gốc từ | Thêm | Ví dụ |\n| **Nguyên âm cuối** `ㅏ` / `ㅗ` | `-았-` | `가다` → `갔어요`, `오다` → `왔어요`, `보다` → `봤어요`, `좋다` → `좋았어요` |\n| **Còn lại** | `-었-` | `먹다` → `먹었어요`, `마시다` → `마셨어요`, `배우다` → `배웠어요`, `쓰다` → `썼어요`, `바쁘다` → `바빴어요` |\n| **하다** | `-했-` | `공부하다` → `공부했어요` |\n| **Danh từ không patchim** | `였어요` | `의사였어요` |\n| **Danh từ có patchim** | `이었어요` | `학생이었어요` |\nPhủ định quá khứ: `안 갔어요`, `가지 않았어요`, `못 갔어요`.\n**Hoàn cảnh dùng:** Kể việc đã xảy ra hoặc trạng thái trong quá khứ: bữa ăn hôm qua, chuyến đi cuối tuần trước, nghề nghiệp ngày trước. Thường đi với `어제`, `지난주`, `작년`, `아까`, `어렸을 때`.\n**Vì sao phải chia thì dù đã có từ chỉ thời gian:** Tiếng Việt có thể nói 'hôm qua tôi đi học' không cần 'đã', còn tiếng Hàn bắt buộc chia thì ở vị ngữ: `어제 학교에 가요` nghe như 'ngày mai/thường xuyên', chỉ `갔어요` mới là 'đã đi'. `어제` bổ trợ cho thì, không thay thế được thì.",
+      "contrasts": [
+        {
+          "pattern": "V/A + -아/어요",
+          "diff_vi": "Hiện tại và thói quen; không nói việc đã xong."
+        },
+        {
+          "pattern": "V + -(으)ㄹ 거예요",
+          "diff_vi": "Tương lai hoặc dự đoán; thì khác."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Bỏ thì khi đã có `어제`: ✗ `어제 학교에 가요` → `어제 학교에 갔어요`.\n(2) Chọn sai `았/었`: ✗ `먹았어요`, `좋었어요` → `먹었어요`, `좋았어요` (xét nguyên âm cuối của gốc: `ㅏ/ㅗ` → `았`, còn lại → `었`).\n(3) Không gộp nguyên âm: ✗ `가았어요`, `마시었어요` (khẩu ngữ) → `갔어요`, `마셨어요`.\n(4) Chia thì cho danh từ không đúng: ✗ `학생였어요` → `학생이었어요`; `의사였어요` đúng.\n(5) Nhầm đuôi kết thúc câu với dạng bổ nghĩa danh từ: `먹었어요` (đã ăn, cuối câu) khác `먹은 음식` (món đã ăn, đứng trước danh từ; xem Nền tảng 5).\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc và nhãn kỳ thi đối chiếu với KIIP 초급1 9과 · New Yonsei Korean 1-1 (-었어요).",
+      "topik_tip_vi": "Trong bài nghe TOPIK I, nghe `-았/었어요` cho biết việc đã xảy ra, nên thường ghép với `어제`, `지난주`, `아침에`. Quá khứ của bất quy tắc xem các thẻ ㄷ, ㅂ, 르, ㅎ, ㅅ cuối bài.",
+      "example_ko": "어제 학교에 갔어요.\n점심에 비빔밥을 먹었어요.\n지난 주말에 친구를 만났어요.\n어제는 정말 바빴어요.\n저는 작년에 학생이었어요.\n어제 한국어를 공부했어요.",
+      "example_vi": "Hôm qua tôi đã đến trường.\nBuổi trưa tôi đã ăn bibimbap.\nCuối tuần trước tôi đã gặp bạn.\nHôm qua tôi đã rất bận.\nNăm ngoái tôi còn là sinh viên.\nHôm qua tôi đã học tiếng Hàn.",
+      "source": "KIIP 초급1 9과 · New Yonsei Korean 1-1 (-었어요)",
+      "exam": "kiip-1",
+      "importance": "must"
+    },
+    {
+      "pattern": "V/A + -ㅂ/습니다 · -ㅂ/습니까?",
+      "meaning_vi": "Đuôi trang trọng (합쇼체): câu kể -ㅂ/습니다 · câu hỏi -ㅂ/습니까?",
+      "usage_context_vi": "**Cấu tạo:** Đuôi trang trọng (합쇼체) chọn theo **patchim** của gốc: không patchim + `-ㅂ니다`, có patchim + `-습니다`. Câu hỏi: `-ㅂ/습니까?`.\n| Gốc từ | Cách thêm | Ví dụ |\n| **Không patchim** | `-ㅂ니다` (hỏi: `-ㅂ니까?`) | `가다` → `갑니다`, `마시다` → `마십니다`, `공부하다` → `공부합니다`; hỏi: `갑니까?` |\n| **Có patchim** | `-습니다` (hỏi: `-습니까?`) | `먹다` → `먹습니다`, `읽다` → `읽습니다`, `좋다` → `좋습니다`; hỏi: `먹습니까?` |\n| **Gốc kết thúc** `ㄹ` | **bỏ** `ㄹ` rồi thêm `-ㅂ니다` | `살다` → `삽니다`, `알다` → `압니다`, `만들다` → `만듭니다` |\n| **이다** | `입니다` / `입니까?` | phủ định: `아닙니다` |\nKết hợp với các đuôi khác:\n- Quá khứ: `-았/었습니다`\n- Kính ngữ: `-(으)십니다`\n- Ý chí: `-겠습니다`\nCâu đáp: `네, 그렇습니다` · `아니요, 그렇지 않습니다`\n**Hoàn cảnh dùng:** Bản tin, thông báo, thuyết trình, họp, phỏng vấn, phục vụ khách hàng, thư từ công việc; các lời chào trang trọng (`감사합니다`, `죄송합니다`, `안녕하십니까?`). Khi nói với người lạ trong hội thoại đời thường, `-아/어요` tự nhiên hơn.\n**Vì sao chọn nó thay vì `-아/어요`:** `-ㅂ/습니다` (합쇼체) cứng, mang tính công vụ, dùng khi nói với đám đông hay người cần giữ khoảng cách. `-아/어요` (해요체) mềm, dùng hằng ngày. Cả hai đều lịch sự, nên khác biệt nằm ở hoàn cảnh chứ không phải đúng sai.",
+      "contrasts": [
+        {
+          "pattern": "V/A + -아/어요",
+          "diff_vi": "Mềm, thân mật; hội thoại hằng ngày."
+        },
+        {
+          "pattern": "Thể trần thuật -(느)ㄴ다/-다",
+          "diff_vi": "Văn viết kiểu bài luận, nhật ký; không dùng `-ㅂ니다` trong bài luận."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Chọn sai theo patchim: ✗ `가습니다`, `먹ㅂ니다` → `갑니다`, `먹습니다`.\n(2) Không bỏ `ㄹ` của gốc: ✗ `살습니다`, `만들습니다` → `삽니다`, `만듭니다`.\n(3) Câu hỏi kết thúc bằng `다`: ✗ `갑니다?` → `갑니까?`.\n(4) Dùng `-ㅂ/습니다` cho mọi câu nói hằng ngày: nghe như đọc bản tin; với bạn bè và đồng nghiệp thân dùng `-아/어요`.\n(5) Đọc đúng chữ viết: `갑니다` đọc là [감니다], `먹습니다` đọc là [먹씀니다].\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc và nhãn kỳ thi đối chiếu với KIIP 초급1 8과 · New Yonsei Korean 1-1 (-ㅂ/습니다) · 국립국어원 새국어소식 2004.12 (ㄹ탈락).",
+      "topik_tip_vi": "Bài nghe thông báo, bản tin dùng `-ㅂ/습니다`. Bài Viết 51–52: giữ MỘT mức lịch sự cho cả đoạn, không trộn `-ㅂ/습니다` với `-아/어요`.",
+      "example_ko": "저는 학생입니다.\n저는 매일 학교에 갑니다.\n점심에 밥을 먹습니다.\n한국어 책을 읽습니까?\n저는 서울에 삽니다.\n감사합니다.",
+      "example_vi": "Tôi là sinh viên.\nNgày nào tôi cũng đến trường.\nBuổi trưa tôi ăn cơm.\nBạn có đọc sách tiếng Hàn không?\nTôi sống ở Seoul.\nXin cảm ơn.",
+      "source": "KIIP 초급1 8과 · New Yonsei Korean 1-1 (-ㅂ/습니다) · 국립국어원 새국어소식 2004.12 (ㄹ탈락)",
+      "exam": "kiip-1",
+      "importance": "must"
+    }
+  ],
+  "editor_notes": [],
+  "exercise_ids": [
+    "FLN25",
+    "FLN28",
+    "FLN31",
+    "FLN33",
+    "FLN34",
+    "FLN35",
+    "FLN36",
+    "FR44",
+    "FR45",
+    "FR46",
+    "FR47",
+    "FR48",
+    "FR49",
+    "FR50",
+    "FR51",
+    "FR52",
+    "FR53",
+    "FR54",
+    "FR55",
+    "FR56",
+    "FBO11",
+    "FBO17",
+    "FBF09"
+  ],
+  "sort_order": 8,
+  "sessions": [
+    {
+      "title_vi": "Việc đã xảy ra (-았/었-)",
+      "can_do_vi": "Kể việc đã xảy ra hôm qua: «음식을 만들었어요», «학교에 갔어요», «학생이었어요».",
+      "use_vi": "Kể lại ngày hôm qua, kể chuyện đã làm với bạn.",
+      "topik_vi": "Giống dạng nghe chọn việc đã làm và dạng điền vào chỗ trống chia quá khứ ở phần TOPIK I.",
+      "vocab": [
+        "만들다",
+        "음식"
+      ],
+      "grammar": [
+        "V/A + -았/었- · N + 였/이었어요"
+      ],
+      "check": [
+        "FLN25",
+        "FR44",
+        "FBO11",
+        "FLN33",
+        "FR45",
+        "FLN34"
+      ],
+      "situation": {
+        "scene_vi": "Hai người kể chuyện ngày hôm qua.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "어제 뭐 했어요?",
+            "vi": "Hôm qua bạn làm gì?"
+          },
+          {
+            "who": "B",
+            "ko": "음식을 만들었어요.",
+            "vi": "Tôi nấu ăn."
+          },
+          {
+            "who": "A",
+            "ko": "친구를 만났어요?",
+            "vi": "Bạn có gặp bạn không?"
+          },
+          {
+            "who": "B",
+            "ko": "네, 만났어요.",
+            "vi": "Vâng, tôi đã gặp."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "어제 뭐 했어요?",
+          "prompt_vi": "Hôm qua bạn làm gì?",
+          "options": [
+            {
+              "ko": "음식을 만들었어요.",
+              "vi": "Tôi đã nấu ăn.",
+              "ok": true,
+              "why_vi": "Việc đã xảy ra dùng -았/었-. 만들다 + 었어요."
+            },
+            {
+              "ko": "음식을 만들어요.",
+              "vi": "Tôi nấu ăn.",
+              "ok": false,
+              "why_vi": "Hiện tại. Câu hỏi hỏi chuyện hôm qua."
+            },
+            {
+              "ko": "음식이 만들었어요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "이 làm «món ăn» thành chủ thể nấu. Phải dùng 을."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «Tôi đã đi». Cách nào đúng?",
+          "a": {
+            "ko": "갔어요.",
+            "vi": "Tôi đã đi."
+          },
+          "b": {
+            "ko": "가았어요.",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "가다 + 았어요 rút gọn thành 갔어요, vì gốc kết thúc bằng nguyên âm ㅏ thì lược bớt."
+        }
+      }
+    },
+    {
+      "title_vi": "Nói trang trọng (-ㅂ/습니다)",
+      "can_do_vi": "Nói và hỏi bằng đuôi trang trọng: «감사합니다», «알겠습니다», «먹습니까?» — dùng khi phát biểu, phỏng vấn và nơi công cộng.",
+      "use_vi": "Giới thiệu bản thân trong lớp, buổi phỏng vấn và thông báo nơi công cộng.",
+      "topik_vi": "Giống dạng nghe thông báo ở phần Nghe TOPIK I (thông báo đều dùng -ㅂ/습니다).",
+      "vocab": [
+        "알다"
+      ],
+      "grammar": [
+        "V/A + -ㅂ/습니다 · -ㅂ/습니까?"
+      ],
+      "check": [
+        "FLN31",
+        "FR52",
+        "FBO17",
+        "FLN35",
+        "FR53",
+        "FLN36"
+      ],
+      "situation": {
+        "scene_vi": "Một cuộc hội thoại trang trọng.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "안녕하십니까? 학생입니까?",
+            "vi": "Xin chào. Bạn là sinh viên phải không ạ?"
+          },
+          {
+            "who": "B",
+            "ko": "네, 학생입니다.",
+            "vi": "Vâng, tôi là sinh viên."
+          },
+          {
+            "who": "A",
+            "ko": "한국어를 공부합니까?",
+            "vi": "Bạn học tiếng Hàn phải không ạ?"
+          },
+          {
+            "who": "B",
+            "ko": "네, 공부합니다.",
+            "vi": "Vâng, tôi học."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "한국 사람입니까?",
+          "prompt_vi": "Bạn là người Hàn phải không ạ? (bạn là người Việt)",
+          "options": [
+            {
+              "ko": "아니요, 베트남 사람입니다.",
+              "vi": "Không, tôi là người Việt.",
+              "ok": true,
+              "why_vi": "Câu trần thuật trang trọng kết thúc bằng -ㅂ니다."
+            },
+            {
+              "ko": "아니요, 베트남 사람입니까.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "-ㅂ니까 là đuôi hỏi, không dùng để trả lời."
+            },
+            {
+              "ko": "네, 베트남 사람입니다.",
+              "vi": "Vâng, tôi là người Việt.",
+              "ok": false,
+              "why_vi": "«네» (đồng ý bạn là người Hàn) mâu thuẫn với vế sau."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói trang trọng «Tôi ăn». Cách nào đúng?",
+          "a": {
+            "ko": "먹습니다.",
+            "vi": "Tôi ăn."
+          },
+          "b": {
+            "ko": "먹ㅂ니다.",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "Gốc kết thúc bằng phụ âm (먹) dùng -습니다. Gốc kết thúc bằng nguyên âm dùng -ㅂ니다."
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1976 @@
+{
+  "slug": "quan-he-05-noi-o",
+  "title": "Nơi ở, Thuê & Chuyển nhà",
+  "title_ko": "주거·이사",
+  "topic": "Quan hệ xã hội, Sự kiện & Không gian sống",
+  "track": "intermediate",
+  "level": 3,
+  "sort_order": 32,
+  "summary": "Từ vựng về nơi ở, thuê nhà (전세, 월세, 보증금…) và chuyển nhà, kèm dữ kiện đời sống (có nêu nguồn) về loại nhà, 전세/월세, 전입신고 và 확정일자. Ngữ pháp: -(으)려면, -(으)ㄴ/는 데다가, -(으)ㄴ 지; có mẫu hội thoại đi xem nhà và mẫu thông tin cho thuê. Bài có bước Tạo câu: xếp từ, điền khung, nối câu rồi viết một đoạn giới thiệu nơi ở của bạn.",
+  "vocab": [
+    {
+      "hangul": "집",
+      "pos": "N",
+      "meaning_vi": "Nhà",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L502",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "輯",
+      "sino_vietnamese": "tập",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "아파트",
+      "pos": "N",
+      "meaning_vi": "Chung cư",
+      "example_ko": "지난주에 새 아파트로 이사했어요.",
+      "example_vi": "Tuần trước tôi đã chuyển đến một căn chung cư mới.",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L502",
+      "exam": "kiip-3",
+      "priority": "core"
+    },
+    {
+      "hangul": "빌라",
+      "pos": "N",
+      "meaning_vi": "Nhà nhiều hộ thấp tầng",
+      "note_vi": "**빌라 không phải \"villa\" biệt thự**; 원룸 là kiểu bố trí ✔",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L502",
+      "exam": "kiip-3",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "원룸",
+      "pos": "N",
+      "meaning_vi": "Phòng kiểu studio",
+      "note_vi": "**빌라 không phải \"villa\" biệt thự**; 원룸 là kiểu bố trí ✔",
+      "example_ko": "저는 학교 근처 원룸에 살아요.",
+      "example_vi": "Tôi sống ở một phòng studio gần trường.",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L502",
+      "exam": "kiip-3",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "기숙사",
+      "pos": "N",
+      "meaning_vi": "Ký túc xá",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L503",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "寄宿舍",
+      "sino_vietnamese": "ký túc xá",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "하숙집",
+      "pos": "N",
+      "meaning_vi": "Nhà trọ có bữa ăn",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L503",
+      "priority": "recognize",
+      "hanja": "下宿",
+      "sino_vietnamese": "hạ túc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "자취(하다)",
+      "pos": "V",
+      "meaning_vi": "Ở riêng, tự lo",
+      "note_vi": "자취하다 = sống một mình và tự nấu ăn, giặt giũ",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L503",
+      "priority": "recognize",
+      "hanja": "自炊",
+      "sino_vietnamese": "tự xuy",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "방",
+      "pos": "N",
+      "meaning_vi": "Phòng",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L504",
+      "priority": "core",
+      "hanja": "房",
+      "sino_vietnamese": "phòng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "거실",
+      "pos": "N",
+      "meaning_vi": "Phòng khách",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L504",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "居室",
+      "sino_vietnamese": "cư thất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "부엌",
+      "pos": "N",
+      "meaning_vi": "Bếp",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L504",
+      "priority": "core"
+    },
+    {
+      "hangul": "화장실",
+      "pos": "N",
+      "meaning_vi": "Nhà vệ sinh",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L504",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "化粧室",
+      "sino_vietnamese": "hóa trang thất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "욕실",
+      "pos": "N",
+      "meaning_vi": "Phòng tắm",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L504",
+      "priority": "core",
+      "hanja": "浴室",
+      "sino_vietnamese": "dục thất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "베란다",
+      "pos": "N",
+      "meaning_vi": "Ban công",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L505",
+      "priority": "core"
+    },
+    {
+      "hangul": "현관",
+      "pos": "N",
+      "meaning_vi": "Cửa vào (chỗ cởi giày)",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L505",
+      "priority": "core",
+      "hanja": "玄關",
+      "sino_vietnamese": "huyền quan",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "창문",
+      "pos": "N",
+      "meaning_vi": "Cửa sổ",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L505",
+      "priority": "core",
+      "hanja": "窓門",
+      "sino_vietnamese": "song môn",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "계단",
+      "pos": "N",
+      "meaning_vi": "Cầu thang",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L505",
+      "priority": "core",
+      "hanja": "階段",
+      "sino_vietnamese": "giai đoạn",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "엘리베이터",
+      "pos": "N",
+      "meaning_vi": "Thang máy",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L506",
+      "priority": "core"
+    },
+    {
+      "hangul": "층",
+      "pos": "X",
+      "meaning_vi": "Tầng",
+      "note_vi": "3층, 지하 1층 (số Hán Hàn + 층)",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L506",
+      "priority": "core",
+      "hanja": "層",
+      "sino_vietnamese": "tầng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "지하",
+      "pos": "N",
+      "meaning_vi": "Tầng hầm",
+      "note_vi": "3층, 지하 1층 (số Hán Hàn + 층)",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L506",
+      "priority": "core",
+      "hanja": "地下",
+      "sino_vietnamese": "địa hạ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "옥상",
+      "pos": "N",
+      "meaning_vi": "Sân thượng",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L506",
+      "priority": "core",
+      "hanja": "屋上",
+      "sino_vietnamese": "ốc thượng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이사(하다)",
+      "pos": "V",
+      "meaning_vi": "Chuyển nhà",
+      "example_ko": "지난주에 새 아파트로 이사했어요.",
+      "example_vi": "Tuần trước tôi đã chuyển đến một căn chung cư mới.",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L507",
+      "priority": "core",
+      "hanja": "移徙",
+      "sino_vietnamese": "di tỉ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이사(를) 가다",
+      "pos": "V",
+      "meaning_vi": "Chuyển đi",
+      "note_vi": "서울**로** 이사 가요 (điểm đến dùng `(으)로`)",
+      "example_ko": "서울로 이사 가요",
+      "example_vi": "Tôi chuyển nhà đến Seoul.",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L507",
+      "priority": "core"
+    },
+    {
+      "hangul": "이사(를) 오다",
+      "pos": "V",
+      "meaning_vi": "Chuyển đến",
+      "example_ko": "이사 온 지 3년이 됐어요.",
+      "example_vi": "Tôi chuyển đến đây đã được 3 năm.",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L507",
+      "priority": "core"
+    },
+    {
+      "hangul": "이삿짐",
+      "pos": "N",
+      "meaning_vi": "Đồ chuyển nhà",
+      "example_ko": "이삿짐은 어제 다 싸 놓았어요.",
+      "example_vi": "Đồ chuyển nhà thì hôm qua tôi đã đóng xong hết rồi.",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L508",
+      "priority": "recognize",
+      "hanja": "移徙",
+      "sino_vietnamese": "di tỉ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "짐을 싸다",
+      "pos": "V",
+      "meaning_vi": "Đóng đồ",
+      "example_ko": "이삿짐은 어제 다 싸 놓았어요.",
+      "example_vi": "Đồ chuyển nhà thì hôm qua tôi đã đóng xong hết rồi.",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L508",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "짐을 풀다",
+      "pos": "V",
+      "meaning_vi": "Dỡ đồ",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L508",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "새집",
+      "pos": "N",
+      "meaning_vi": "Nhà mới",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L509",
+      "priority": "core"
+    },
+    {
+      "hangul": "집을 구하다",
+      "pos": "V",
+      "meaning_vi": "Tìm nhà",
+      "example_ko": "이사하려면 먼저 집을 구해야 해요.",
+      "example_vi": "Nếu muốn chuyển nhà thì trước hết phải tìm nhà.",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L509",
+      "priority": "core"
+    },
+    {
+      "hangul": "살다",
+      "pos": "V",
+      "meaning_vi": "Sống",
+      "note_vi": "`살다` là **ㄹ lược**: 사는, 삽니다, 사세요",
+      "example_ko": "저는 학교 근처 원룸에 살아요.",
+      "example_vi": "Tôi sống ở một phòng studio gần trường.",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L510",
+      "priority": "core"
+    },
+    {
+      "hangul": "지내다",
+      "pos": "V",
+      "meaning_vi": "Sinh hoạt, ở",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L510",
+      "priority": "core"
+    },
+    {
+      "hangul": "넓다",
+      "pos": "A",
+      "meaning_vi": "Rộng",
+      "example_ko": "방이 넓고 밝아서 마음에 들어요.",
+      "example_vi": "Phòng rộng và sáng nên tôi thích.",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L511",
+      "priority": "core"
+    },
+    {
+      "hangul": "좁다",
+      "pos": "A",
+      "meaning_vi": "Hẹp",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L511",
+      "priority": "core"
+    },
+    {
+      "hangul": "밝다",
+      "pos": "A",
+      "meaning_vi": "Sáng",
+      "example_ko": "방이 넓고 밝아서 마음에 들어요.",
+      "example_vi": "Phòng rộng và sáng nên tôi thích.",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L512",
+      "priority": "core"
+    },
+    {
+      "hangul": "어둡다",
+      "pos": "A",
+      "meaning_vi": "Tối",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L512",
+      "priority": "core"
+    },
+    {
+      "hangul": "깨끗하다",
+      "pos": "A",
+      "meaning_vi": "Sạch",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L513",
+      "exam": "kiip-2",
+      "priority": "core"
+    },
+    {
+      "hangul": "조용하다",
+      "pos": "A",
+      "meaning_vi": "Yên tĩnh",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L513",
+      "exam": "kiip-2",
+      "priority": "core"
+    },
+    {
+      "hangul": "시끄럽다",
+      "pos": "A",
+      "meaning_vi": "Ồn ào",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L513",
+      "exam": "kiip-3",
+      "priority": "core"
+    },
+    {
+      "hangul": "편리하다",
+      "pos": "A",
+      "meaning_vi": "Tiện lợi",
+      "example_ko": "지하철역에서 가까워서 편리해요.",
+      "example_vi": "Gần ga tàu điện ngầm nên tiện lợi.",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L513",
+      "exam": "kiip-2",
+      "priority": "core",
+      "hanja": "便利",
+      "sino_vietnamese": "tiện lợi",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "가깝다",
+      "pos": "A",
+      "meaning_vi": "Gần",
+      "note_vi": "`가깝다` là **ㅂ bất quy tắc**: 가까워요, 가까운",
+      "example_ko": "지하철역에서 가까워서 편리해요.",
+      "example_vi": "Gần ga tàu điện ngầm nên tiện lợi.",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L514",
+      "priority": "core"
+    },
+    {
+      "hangul": "멀다",
+      "pos": "A",
+      "meaning_vi": "Xa",
+      "family": "🟢 Nền · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L514",
+      "priority": "core"
+    },
+    {
+      "hangul": "주택",
+      "pos": "N",
+      "meaning_vi": "Nhà ở nói chung",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L529",
+      "exam": "kiip-3",
+      "priority": "core",
+      "hanja": "住宅",
+      "sino_vietnamese": "trú trạch",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "단독주택",
+      "pos": "N",
+      "meaning_vi": "Nhà riêng",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L529",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "공동주택",
+      "pos": "N",
+      "meaning_vi": "Nhà ở tập thể",
+      "note_vi": "아파트, 빌라 thuộc 공동주택",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L529",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "아파트 단지",
+      "pos": "N",
+      "meaning_vi": "Khu chung cư",
+      "note_vi": "✔ đã đối chiếu",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L530",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "오피스텔",
+      "pos": "N",
+      "meaning_vi": "Officetel",
+      "note_vi": "✔ đã đối chiếu",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L530",
+      "exam": "kiip-3",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "고시원",
+      "pos": "N",
+      "meaning_vi": "Phòng nhỏ kiểu gosiwon",
+      "note_vi": "✔ đã đối chiếu",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L530",
+      "priority": "recognize",
+      "hanja": "考試院",
+      "sino_vietnamese": "khảo thí viện",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "전세",
+      "pos": "N",
+      "meaning_vi": "Thuê bằng tiền cọc lớn",
+      "note_vi": "✔ đã đối chiếu · **전세 ≠ \"thuê theo năm\"**: không có tiền thuê hằng tháng",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L531",
+      "exam": "kiip-3",
+      "priority": "recognize",
+      "hanja": "傳貰",
+      "sino_vietnamese": "truyền thế",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "월세",
+      "pos": "N",
+      "meaning_vi": "Thuê trả tiền hằng tháng",
+      "note_vi": "✔ đã đối chiếu",
+      "example_ko": "이 집은 역에서 가까운 데다가 월세도 싸요.",
+      "example_vi": "Căn nhà này vừa gần ga lại còn tiền thuê hằng tháng rẻ.",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L531",
+      "priority": "recognize",
+      "hanja": "月貰",
+      "sino_vietnamese": "nguyệt thế",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "반전세",
+      "pos": "N",
+      "meaning_vi": "Thuê lai: cọc vừa phải + tiền thuê hằng tháng",
+      "note_vi": "✔ đã đối chiếu: lai giữa hai kiểu, không phải loại pháp lý riêng",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L531",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "보증금",
+      "pos": "N",
+      "meaning_vi": "Tiền cọc",
+      "example_ko": "보증금은 많이 낼 수 없어요.",
+      "example_vi": "Tôi không thể trả nhiều tiền cọc.",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L532",
+      "priority": "recognize",
+      "hanja": "保證金",
+      "sino_vietnamese": "bảo chứng kim",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "집세",
+      "pos": "N",
+      "meaning_vi": "Tiền thuê nhà",
+      "note_vi": "`월세 50만 원`",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L532",
+      "priority": "recognize",
+      "hanja": "貰",
+      "sino_vietnamese": "thế",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "관리비",
+      "pos": "N",
+      "meaning_vi": "Phí quản lý",
+      "note_vi": "`관리비 별도`",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L532",
+      "priority": "recognize",
+      "hanja": "管理費",
+      "sino_vietnamese": "quản lý phí",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "계약(하다)",
+      "pos": "V",
+      "meaning_vi": "Ký hợp đồng",
+      "note_vi": "계약이 끝나다 = hết hợp đồng",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L533",
+      "priority": "recognize",
+      "hanja": "契約",
+      "sino_vietnamese": "khế ước",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "계약서",
+      "pos": "N",
+      "meaning_vi": "Hợp đồng",
+      "example_ko": "보증금을 돌려받으려면 계약서를 잘 보관하세요.",
+      "example_vi": "Nếu muốn nhận lại tiền cọc thì hãy giữ kỹ hợp đồng.",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L533",
+      "priority": "recognize",
+      "hanja": "契約書",
+      "sino_vietnamese": "khế ước thư",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "계약 기간",
+      "pos": "N",
+      "meaning_vi": "Thời hạn hợp đồng",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L533",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "집주인",
+      "pos": "N",
+      "meaning_vi": "Chủ nhà",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L534",
+      "priority": "recognize",
+      "hanja": "主人",
+      "sino_vietnamese": "chủ nhân",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "세입자",
+      "pos": "N",
+      "meaning_vi": "Người thuê",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L534",
+      "priority": "recognize",
+      "hanja": "貰入者",
+      "sino_vietnamese": "thế nhập giả",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "부동산",
+      "pos": "N",
+      "meaning_vi": "Văn phòng môi giới nhà đất",
+      "note_vi": "부동산 còn nghĩa \"bất động sản\" *(đời sống)*",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L535",
+      "exam": "kiip-4",
+      "priority": "recognize",
+      "hanja": "不動産",
+      "sino_vietnamese": "bất động sản",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "공인중개사",
+      "pos": "N",
+      "meaning_vi": "Người môi giới có chứng chỉ",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L535",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "집을 알아보다",
+      "pos": "V",
+      "meaning_vi": "Tìm hiểu nhà",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L536",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "집을 보러 가다",
+      "pos": "V",
+      "meaning_vi": "Đi xem nhà",
+      "example_ko": "집을 보러 가요.",
+      "example_vi": "Tôi đi xem nhà.",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L536",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "입주(하다)",
+      "pos": "V",
+      "meaning_vi": "Dọn vào ở",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L537",
+      "priority": "recognize",
+      "hanja": "入住",
+      "sino_vietnamese": "nhập trú",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "입주민",
+      "pos": "N",
+      "meaning_vi": "Cư dân",
+      "note_vi": "`입주민` thường gặp trong 안내문",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L537",
+      "priority": "recognize",
+      "hanja": "入住民",
+      "sino_vietnamese": "nhập trú dân",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "입주 가능",
+      "pos": "X",
+      "meaning_vi": "Có thể dọn vào",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L537",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "이삿날",
+      "pos": "N",
+      "meaning_vi": "Ngày chuyển nhà",
+      "note_vi": "*(đời sống)*",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L538",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "포장 이사",
+      "pos": "N",
+      "meaning_vi": "Chuyển nhà trọn gói",
+      "note_vi": "*(đời sống)*",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L538",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "이삿짐센터",
+      "pos": "N",
+      "meaning_vi": "Công ty chuyển nhà",
+      "note_vi": "*(đời sống)*",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L538",
+      "priority": "recognize",
+      "hanja": "移徙",
+      "sino_vietnamese": "di tỉ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "전입신고",
+      "pos": "N",
+      "meaning_vi": "Khai báo chuyển nơi cư trú",
+      "note_vi": "✔ đã đối chiếu *(đời sống)*",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L539",
+      "exam": "kiip-3",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "확정일자",
+      "pos": "N",
+      "meaning_vi": "Ngày xác định trên hợp đồng",
+      "note_vi": "✔ đã đối chiếu *(đời sống)*",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L539",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "채광",
+      "pos": "N",
+      "meaning_vi": "Ánh sáng tự nhiên",
+      "note_vi": "채광이 좋다",
+      "example_ko": "창문이 커서 채광이 좋아요.",
+      "example_vi": "Cửa sổ lớn nên ánh sáng tự nhiên tốt.",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L540",
+      "priority": "recognize",
+      "hanja": "採光",
+      "sino_vietnamese": "thái quang",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "방음",
+      "pos": "N",
+      "meaning_vi": "Cách âm",
+      "note_vi": "방음이 잘되다",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L540",
+      "priority": "recognize",
+      "hanja": "防音",
+      "sino_vietnamese": "phòng âm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "난방",
+      "pos": "N",
+      "meaning_vi": "Sưởi",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L540",
+      "priority": "recognize",
+      "hanja": "暖房",
+      "sino_vietnamese": "noãn phòng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "역세권",
+      "pos": "N",
+      "meaning_vi": "Khu vực gần ga",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L541",
+      "priority": "recognize",
+      "hanja": "驛勢圈",
+      "sino_vietnamese": "dịch thế quyển",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "주변 환경",
+      "pos": "N",
+      "meaning_vi": "Môi trường xung quanh",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L541",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "교통이 편리하다",
+      "pos": "A",
+      "meaning_vi": "Giao thông thuận tiện",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L542",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "도보",
+      "pos": "N",
+      "meaning_vi": "Đi bộ",
+      "note_vi": "도보 5분 (bài 04)",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L542",
+      "exam": "kiip-3",
+      "priority": "recognize",
+      "hanja": "徒步",
+      "sino_vietnamese": "đồ bộ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "별도",
+      "pos": "N",
+      "meaning_vi": "Riêng/cộng thêm",
+      "note_vi": "*(mở rộng)*: 반려동물 불가, 관리비 별도",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L543",
+      "exam": "kiip-2",
+      "priority": "recognize",
+      "hanja": "別途",
+      "sino_vietnamese": "biệt đồ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "불가",
+      "pos": "N",
+      "meaning_vi": "Không được",
+      "note_vi": "*(mở rộng)*: 반려동물 불가, 관리비 별도",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L543",
+      "priority": "recognize",
+      "hanja": "不可",
+      "sino_vietnamese": "bất khả",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "가능",
+      "pos": "N",
+      "meaning_vi": "Có thể",
+      "note_vi": "*(mở rộng)*: 반려동물 불가, 관리비 별도",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L543",
+      "priority": "core",
+      "hanja": "可能",
+      "sino_vietnamese": "khả năng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "반려동물",
+      "pos": "N",
+      "meaning_vi": "Thú cưng",
+      "note_vi": "*(mở rộng)*",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L544",
+      "priority": "recognize",
+      "hanja": "伴侶動物",
+      "sino_vietnamese": "bạn lữ động vật",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "집들이",
+      "pos": "N",
+      "meaning_vi": "Tiệc tân gia",
+      "note_vi": "xem bài 03",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L545",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "집들이 선물",
+      "pos": "N",
+      "meaning_vi": "Quà tân gia",
+      "note_vi": "xem bài 03",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L545",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "평",
+      "pos": "X",
+      "meaning_vi": "Pyeong (≈ 3,3㎡)",
+      "note_vi": "*(đời sống)* 평 hay nghe nói; văn bản chính thức thường ghi ㎡",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L546",
+      "priority": "recognize",
+      "hanja": "坪",
+      "sino_vietnamese": "bình",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "제곱미터(㎡)",
+      "pos": "N",
+      "meaning_vi": "Mét vuông",
+      "note_vi": "*(đời sống)* 평 hay nghe nói; văn bản chính thức thường ghi ㎡",
+      "family": "🟡 Dạng thi · Nơi ở & chuyển nhà (5A)",
+      "source": "NOTES L546",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "주민센터",
+      "pos": "N",
+      "meaning_vi": "Trung tâm hành chính phường/xã",
+      "note_vi": "Dùng ở: bài Nghe câu 9 (hành động tiếp theo của người nữ). Nhiều nơi gọi chính thức là 행정복지센터.",
+      "example_ko": "주민센터에 신분증을 가지고 가면 돼요.",
+      "example_vi": "Cứ mang giấy tờ tùy thân đến trung tâm hành chính phường là được.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "신분증",
+      "pos": "N",
+      "meaning_vi": "Giấy tờ tùy thân",
+      "note_vi": "Dùng ở: bài Nghe câu 9 (hành động tiếp theo của người nữ). 신분증을 가지고 가다 = mang theo giấy tờ tùy thân.",
+      "example_ko": "주민센터에 신분증을 가지고 가면 돼요.",
+      "example_vi": "Cứ mang giấy tờ tùy thân đến trung tâm hành chính phường là được.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "core",
+      "hanja": "身分證",
+      "sino_vietnamese": "thân phận chứng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "침실",
+      "pos": "N",
+      "meaning_vi": "Phòng ngủ",
+      "note_vi": "Trong lời nói hằng ngày hay nói `방`; khi tả bố cục nhà: `거실과 침실 두 개`.",
+      "example_ko": "저희 집에는 침실이 두 개 있어요.",
+      "example_vi": "Nhà tôi có hai phòng ngủ.",
+      "family": "🟢 Nền · Tả ngôi nhà của tôi",
+      "priority": "core",
+      "hanja": "寢室",
+      "sino_vietnamese": "tẩm thất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "정원",
+      "pos": "N",
+      "meaning_vi": "Khu vườn (trước/sau nhà)",
+      "note_vi": "Đồng âm với `정원` (chỉ tiêu tuyển sinh) ở bài sau: đoán theo ngữ cảnh.",
+      "example_ko": "집 앞에 작은 정원이 있어요.",
+      "example_vi": "Trước nhà có một khu vườn nhỏ.",
+      "family": "🟢 Nền · Tả ngôi nhà của tôi",
+      "priority": "core",
+      "hanja": "庭園",
+      "sino_vietnamese": "đình viên",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "나무",
+      "pos": "N",
+      "meaning_vi": "Cây",
+      "example_ko": "정원에 나무가 많아요.",
+      "example_vi": "Trong vườn có nhiều cây.",
+      "family": "🟢 Nền · Tả ngôi nhà của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "꽃",
+      "pron": "[꼳]",
+      "pos": "N",
+      "meaning_vi": "Hoa",
+      "example_ko": "어머니는 꽃을 좋아하세요.",
+      "example_vi": "Mẹ tôi thích hoa.",
+      "family": "🟢 Nền · Tả ngôi nhà của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "햇빛이 잘 들다",
+      "pron": "[해삐치 잘 들다]",
+      "pos": "X",
+      "meaning_vi": "Nắng chiếu vào nhiều, nhà sáng",
+      "note_vi": "`들다` bỏ `ㄹ`: `햇빛이 잘 들어요 / 듭니다`, định ngữ `햇빛이 잘 드는 방`.",
+      "example_ko": "제 방은 햇빛이 잘 들어요.",
+      "example_vi": "Phòng tôi nắng vào nhiều.",
+      "family": "🟢 Nền · Tả ngôi nhà của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "아늑하다",
+      "pron": "[아느카다]",
+      "pos": "A",
+      "meaning_vi": "Ấm cúng",
+      "note_vi": "Nhà nhỏ mà dễ chịu, ấm áp: `작지만 아늑한 집`.",
+      "example_ko": "제 방은 작지만 아늑해요.",
+      "example_vi": "Phòng tôi nhỏ nhưng ấm cúng.",
+      "family": "🟢 Nền · Tả ngôi nhà của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "편안하다",
+      "pos": "A",
+      "meaning_vi": "Thoải mái, yên lòng",
+      "note_vi": "`편하다` (tiện, thoải mái) nói về đồ vật, việc; `편안하다` nghiêng về cảm giác trong lòng: `마음이 편안하다`.",
+      "example_ko": "집에 오면 마음이 편안해요.",
+      "example_vi": "Về đến nhà là thấy lòng thoải mái.",
+      "family": "🟢 Nền · Tả ngôi nhà của tôi",
+      "priority": "core",
+      "hanja": "便安",
+      "sino_vietnamese": "tiện an",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "무척",
+      "pos": "X",
+      "meaning_vi": "Rất, vô cùng",
+      "note_vi": "Gần nghĩa `아주`, `정말`; hay dùng trong bài viết kể về mình.",
+      "example_ko": "저희 집은 무척 조용해요.",
+      "example_vi": "Nhà tôi vô cùng yên tĩnh.",
+      "family": "🟢 Nền · Tả ngôi nhà của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "함께",
+      "pos": "X",
+      "meaning_vi": "Cùng, cùng với",
+      "note_vi": "`N과/와 함께` = `N하고 같이`, trang trọng hơn một chút.",
+      "example_ko": "저는 부모님과 함께 살아요.",
+      "example_vi": "Tôi sống cùng bố mẹ.",
+      "family": "🟢 Nền · Tả ngôi nhà của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "모이다",
+      "pos": "V",
+      "meaning_vi": "Tụ họp, tập trung lại",
+      "example_ko": "저녁마다 가족들이 거실에 모여요.",
+      "example_vi": "Tối nào cả nhà cũng tụ lại ở phòng khách.",
+      "family": "🟢 Nền · Tả ngôi nhà của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "이야기를 나누다",
+      "pos": "X",
+      "meaning_vi": "Trò chuyện, chia sẻ (với nhau)",
+      "example_ko": "가족들과 이야기를 나눠요.",
+      "example_vi": "Tôi trò chuyện với gia đình.",
+      "family": "🟢 Nền · Tả ngôi nhà của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "소중하다",
+      "pos": "A",
+      "meaning_vi": "Quý giá, quan trọng (với mình)",
+      "note_vi": "`N을/를 소중하게 생각하다` = trân trọng N.",
+      "example_ko": "가족은 저에게 정말 소중해요.",
+      "example_vi": "Gia đình thật sự quý giá với tôi.",
+      "family": "🟢 Nền · Tả ngôi nhà của tôi",
+      "priority": "core",
+      "hanja": "所重",
+      "sino_vietnamese": "sở trọng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "생각하다",
+      "pos": "V",
+      "meaning_vi": "Nghĩ, cho là",
+      "example_ko": "저는 우리 집을 소중하게 생각해요.",
+      "example_vi": "Tôi trân trọng ngôi nhà của mình.",
+      "family": "🟢 Nền · Tả ngôi nhà của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "마음",
+      "pos": "N",
+      "meaning_vi": "Lòng, tâm trạng",
+      "note_vi": "`마음이 편안하다` (thấy yên lòng), `마음에 들다` (ưng ý).",
+      "example_ko": "집에 있으면 마음이 편안해요.",
+      "example_vi": "Ở nhà thì lòng thấy thoải mái.",
+      "family": "🟢 Nền · Tả ngôi nhà của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "가전",
+      "pos": "N",
+      "meaning_vi": "Đồ điện gia dụng",
+      "note_vi": "Hay gặp: 가전제품 (đồ điện gia dụng). 家電 = gia điện.",
+      "example_ko": "이사하면서 가전제품을 새로 샀어요.",
+      "example_vi": "Khi chuyển nhà tôi đã mua đồ điện mới.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ điện gia dụng",
+      "priority": "recognize",
+      "source": "krdict:25829",
+      "hanja": "家電",
+      "enrich": "auto",
+      "sino_vietnamese": "gia điện"
+    },
+    {
+      "hangul": "거울",
+      "pos": "N",
+      "meaning_vi": "Gương",
+      "note_vi": "거울을 보다: soi gương.",
+      "example_ko": "현관에 큰 거울이 있어요.",
+      "example_vi": "Ở lối vào có một tấm gương lớn.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "core",
+      "source": "krdict:59325",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "꽃병",
+      "pos": "N",
+      "meaning_vi": "Bình hoa, lọ hoa",
+      "note_vi": "꽃 + 병 (bình). Phát âm [꼳뼝].",
+      "example_ko": "식탁 위에 꽃병을 놓았어요.",
+      "example_vi": "Tôi đặt lọ hoa lên bàn ăn.",
+      "pron": "[꼳뼝]",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "recognize",
+      "source": "krdict:38260",
+      "hanja": "甁",
+      "enrich": "auto",
+      "sino_vietnamese": "bình"
+    },
+    {
+      "hangul": "냉장고",
+      "pos": "N",
+      "meaning_vi": "Tủ lạnh",
+      "note_vi": "N을/를 냉장고에 넣다.",
+      "example_ko": "우유는 냉장고에 넣어 주세요.",
+      "example_vi": "Hãy cho sữa vào tủ lạnh.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ điện gia dụng",
+      "priority": "core",
+      "source": "krdict:31524",
+      "hanja": "冷藏庫",
+      "enrich": "auto",
+      "sino_vietnamese": "lãnh tàng khố"
+    },
+    {
+      "hangul": "동문",
+      "pos": "N",
+      "meaning_vi": "Cổng phía đông",
+      "note_vi": "동 (đông) + 문 (cổng). Cũng có 동문 khác nghĩa: bạn cùng trường.",
+      "example_ko": "공원 동문에서 만나요.",
+      "example_vi": "Gặp nhau ở cổng đông của công viên nhé.",
+      "family": "🟢 Nền · Từ sơ cấp · Các phần của ngôi nhà",
+      "priority": "recognize",
+      "source": "krdict:47162",
+      "hanja": "東門",
+      "enrich": "auto",
+      "sino_vietnamese": "đông môn"
+    },
+    {
+      "hangul": "라디오",
+      "pos": "N",
+      "meaning_vi": "Đài, radio",
+      "note_vi": "라디오를 듣다/켜다.",
+      "example_ko": "운전할 때 라디오를 들어요.",
+      "example_vi": "Khi lái xe tôi nghe radio.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ điện gia dụng",
+      "priority": "core",
+      "source": "krdict:66029",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "로비",
+      "pos": "N",
+      "meaning_vi": "Sảnh (tòa nhà, khách sạn)",
+      "note_vi": "Sảnh chung cư, khách sạn, công ty.",
+      "example_ko": "1층 로비에서 기다릴게요.",
+      "example_vi": "Tôi sẽ đợi ở sảnh tầng 1.",
+      "family": "🟢 Nền · Từ sơ cấp · Các phần của ngôi nhà",
+      "priority": "recognize",
+      "source": "krdict:52520",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "마당",
+      "pos": "N",
+      "meaning_vi": "Sân (nhà)",
+      "note_vi": "Sân trước nhà; nhà riêng (주택) thường có 마당.",
+      "example_ko": "마당에서 아이들이 놀아요.",
+      "example_vi": "Lũ trẻ chơi ngoài sân.",
+      "family": "🟢 Nền · Từ sơ cấp · Các phần của ngôi nhà",
+      "priority": "core",
+      "source": "krdict:15687",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "목욕탕",
+      "pos": "N",
+      "meaning_vi": "Nhà tắm công cộng; phòng tắm",
+      "note_vi": "Ở Hàn, 목욕탕 thường chỉ nhà tắm công cộng. Phát âm [모굑탕].",
+      "example_ko": "주말에 동네 목욕탕에 갔어요.",
+      "example_vi": "Cuối tuần tôi đi nhà tắm công cộng trong khu.",
+      "pron": "[모굑탕]",
+      "family": "🟢 Nền · Từ sơ cấp · Các phần của ngôi nhà",
+      "priority": "core",
+      "source": "krdict:55877",
+      "hanja": "沐浴湯",
+      "enrich": "auto",
+      "sino_vietnamese": "mộc dục thang"
+    },
+    {
+      "hangul": "문",
+      "pos": "N",
+      "meaning_vi": "Cửa",
+      "note_vi": "문을 열다/닫다; 문이 잠기다: cửa bị khóa.",
+      "example_ko": "문 좀 닫아 주세요.",
+      "example_vi": "Làm ơn đóng cửa giúp tôi.",
+      "family": "🟢 Nền · Từ sơ cấp · Các phần của ngôi nhà",
+      "priority": "core",
+      "source": "krdict:43832",
+      "hanja": "門",
+      "collocations": [
+        {
+          "ko": "문이 열리다",
+          "vi": "cửa mở"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "môn"
+    },
+    {
+      "hangul": "물통",
+      "pos": "N",
+      "meaning_vi": "Bình nước, thùng nước",
+      "note_vi": "물 + 통 (thùng).",
+      "example_ko": "등산할 때 물통을 꼭 가져가요.",
+      "example_vi": "Khi leo núi tôi luôn mang bình nước.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "recognize",
+      "source": "krdict:56148",
+      "hanja": "桶",
+      "enrich": "auto",
+      "sino_vietnamese": "dũng"
+    },
+    {
+      "hangul": "바닥",
+      "pos": "N",
+      "meaning_vi": "Sàn (nhà); đáy",
+      "note_vi": "방바닥: sàn phòng. 바닥에 앉다: ngồi dưới sàn.",
+      "example_ko": "한국에서는 바닥에 앉아서 밥을 먹기도 해요.",
+      "example_vi": "Ở Hàn người ta cũng ngồi dưới sàn ăn cơm.",
+      "family": "🟢 Nền · Từ sơ cấp · Các phần của ngôi nhà",
+      "priority": "core",
+      "source": "krdict:62696",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "샤워실",
+      "pos": "N",
+      "meaning_vi": "Phòng tắm vòi sen",
+      "note_vi": "샤워 + 실 (phòng).",
+      "example_ko": "헬스장 샤워실은 깨끗해요.",
+      "example_vi": "Phòng tắm ở phòng gym sạch sẽ.",
+      "family": "🟢 Nền · Từ sơ cấp · Các phần của ngôi nhà",
+      "priority": "recognize",
+      "source": "krdict:62298",
+      "hanja": "室",
+      "enrich": "auto",
+      "sino_vietnamese": "thất"
+    },
+    {
+      "hangul": "서랍",
+      "pos": "N",
+      "meaning_vi": "Ngăn kéo",
+      "note_vi": "서랍을 열다/닫다; 책상 서랍.",
+      "example_ko": "열쇠는 책상 서랍에 있어요.",
+      "example_vi": "Chìa khóa ở trong ngăn kéo bàn.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "core",
+      "source": "krdict:62675",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "선풍기",
+      "pos": "N",
+      "meaning_vi": "Quạt máy",
+      "note_vi": "선풍기를 켜다/끄다/틀다.",
+      "example_ko": "더워서 선풍기를 켰어요.",
+      "example_vi": "Trời nóng nên tôi bật quạt.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ điện gia dụng",
+      "priority": "core",
+      "source": "krdict:44917",
+      "hanja": "扇風機",
+      "enrich": "auto",
+      "sino_vietnamese": "phiến phong cơ"
+    },
+    {
+      "hangul": "소파",
+      "pos": "N",
+      "meaning_vi": "Ghế sofa",
+      "note_vi": "소파에 앉다/눕다.",
+      "example_ko": "거실 소파에서 텔레비전을 봐요.",
+      "example_vi": "Tôi xem tivi trên ghế sofa phòng khách.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "core",
+      "source": "krdict:62508",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "손거울",
+      "pos": "N",
+      "meaning_vi": "Gương cầm tay",
+      "note_vi": "손 + 거울. Phát âm [손꺼울].",
+      "example_ko": "가방에 늘 손거울이 있어요.",
+      "example_vi": "Trong túi tôi luôn có một chiếc gương nhỏ.",
+      "pron": "[손꺼울]",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "recognize",
+      "source": "krdict:63914",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "시계",
+      "pos": "N",
+      "meaning_vi": "Đồng hồ",
+      "note_vi": "손목시계: đồng hồ đeo tay. 시계를 보다: xem giờ.",
+      "example_ko": "벽에 시계가 걸려 있어요.",
+      "example_vi": "Trên tường có treo đồng hồ.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "core",
+      "source": "krdict:30190",
+      "hanja": "時計",
+      "enrich": "auto",
+      "sino_vietnamese": "thời kế"
+    },
+    {
+      "hangul": "식탁",
+      "pos": "N",
+      "meaning_vi": "Bàn ăn",
+      "note_vi": "식탁에 앉다; 식탁을 차리다: dọn bàn ăn.",
+      "example_ko": "가족이 식탁에 모여 앉았어요.",
+      "example_vi": "Cả nhà quây quần bên bàn ăn.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "core",
+      "source": "krdict:26869",
+      "hanja": "食卓",
+      "enrich": "auto",
+      "sino_vietnamese": "thực trác"
+    },
+    {
+      "hangul": "신발장",
+      "pos": "N",
+      "meaning_vi": "Tủ giày",
+      "note_vi": "Thường đặt ở 현관. Phát âm [신발짱].",
+      "example_ko": "신발은 신발장에 넣어 주세요.",
+      "example_vi": "Hãy cất giày vào tủ giày.",
+      "pron": "[신발짱]",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "recognize",
+      "source": "krdict:65877",
+      "hanja": "欌",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "싱크대",
+      "pos": "N",
+      "meaning_vi": "Bồn rửa bát, kệ bếp",
+      "note_vi": "Cả khối tủ bếp có bồn rửa.",
+      "example_ko": "싱크대에 그릇이 많이 있어요.",
+      "example_vi": "Trong bồn rửa có nhiều bát đĩa.",
+      "family": "🟢 Nền · Từ sơ cấp · Các phần của ngôi nhà",
+      "priority": "core",
+      "source": "krdict:66094",
+      "hanja": "臺",
+      "enrich": "auto",
+      "sino_vietnamese": "đài"
+    },
+    {
+      "hangul": "열쇠",
+      "pos": "N",
+      "meaning_vi": "Chìa khóa",
+      "note_vi": "열쇠로 문을 열다. Phát âm [열쐬]. Khóa số: 비밀번호.",
+      "example_ko": "열쇠를 잃어버렸어요.",
+      "example_vi": "Tôi làm mất chìa khóa rồi.",
+      "pron": "[열쐬]",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "core",
+      "source": "krdict:26888",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "옆방",
+      "pos": "N",
+      "meaning_vi": "Phòng bên cạnh",
+      "note_vi": "옆 + 방. Phát âm [엽빵].",
+      "example_ko": "옆방에서 음악 소리가 들려요.",
+      "example_vi": "Có tiếng nhạc từ phòng bên.",
+      "pron": "[엽빵]",
+      "family": "🟢 Nền · Từ sơ cấp · Các phần của ngôi nhà",
+      "priority": "core",
+      "source": "krdict:14125",
+      "hanja": "房",
+      "enrich": "auto",
+      "sino_vietnamese": "phòng"
+    },
+    {
+      "hangul": "옷걸이",
+      "pos": "N",
+      "meaning_vi": "Móc áo",
+      "note_vi": "옷을 옷걸이에 걸다. Phát âm [옫꺼리].",
+      "example_ko": "코트를 옷걸이에 걸었어요.",
+      "example_vi": "Tôi treo áo khoác lên móc.",
+      "pron": "[옫꺼리]",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "core",
+      "source": "krdict:68485",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "옷장",
+      "pos": "N",
+      "meaning_vi": "Tủ quần áo",
+      "note_vi": "Phát âm [옫짱].",
+      "example_ko": "옷장에 옷이 너무 많아요.",
+      "example_vi": "Trong tủ có quá nhiều quần áo.",
+      "pron": "[옫짱]",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "core",
+      "source": "krdict:68496",
+      "hanja": "欌",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "우유병",
+      "pos": "N",
+      "meaning_vi": "Chai sữa",
+      "note_vi": "우유 + 병. Phát âm [우유뼝].",
+      "example_ko": "빈 우유병을 씻어서 버렸어요.",
+      "example_vi": "Tôi rửa chai sữa rỗng rồi bỏ đi.",
+      "pron": "[우유뼝]",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "recognize",
+      "source": "krdict:69369",
+      "hanja": "牛乳甁",
+      "enrich": "auto",
+      "sino_vietnamese": "ngưu nhũ bình"
+    },
+    {
+      "hangul": "의자",
+      "pos": "N",
+      "meaning_vi": "Ghế",
+      "note_vi": "의자에 앉다.",
+      "example_ko": "이 의자에 앉으세요.",
+      "example_vi": "Mời ngồi ghế này.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "core",
+      "source": "krdict:71121",
+      "hanja": "椅子",
+      "enrich": "auto",
+      "sino_vietnamese": "ỷ tử"
+    },
+    {
+      "hangul": "이불",
+      "pos": "N",
+      "meaning_vi": "Chăn",
+      "note_vi": "이불을 덮다: đắp chăn. 이불을 개다: gấp chăn.",
+      "example_ko": "추워서 두꺼운 이불을 덮었어요.",
+      "example_vi": "Lạnh nên tôi đắp chăn dày.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "core",
+      "source": "krdict:69531",
+      "collocations": [
+        {
+          "ko": "이불을 덮다",
+          "vi": "đắp chăn"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "작은방",
+      "pos": "N",
+      "meaning_vi": "Phòng nhỏ",
+      "note_vi": "Đối với 큰방 (phòng lớn, thường của bố mẹ). Phát âm [자근방].",
+      "example_ko": "저는 작은방을 써요.",
+      "example_vi": "Tôi dùng phòng nhỏ.",
+      "pron": "[자근방]",
+      "family": "🟢 Nền · Từ sơ cấp · Các phần của ngôi nhà",
+      "priority": "recognize",
+      "source": "krdict:76100",
+      "hanja": "房",
+      "enrich": "auto",
+      "sino_vietnamese": "phòng"
+    },
+    {
+      "hangul": "전화기",
+      "pos": "N",
+      "meaning_vi": "Máy điện thoại",
+      "note_vi": "Máy để bàn; di động là 핸드폰/휴대폰.",
+      "example_ko": "사무실 전화기가 울려요.",
+      "example_vi": "Điện thoại ở văn phòng đang reo.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ điện gia dụng",
+      "priority": "recognize",
+      "source": "krdict:70846",
+      "hanja": "電話機",
+      "enrich": "auto",
+      "sino_vietnamese": "điện thoại cơ"
+    },
+    {
+      "hangul": "줄",
+      "pos": "N",
+      "meaning_vi": "Dây; hàng",
+      "note_vi": "줄을 서다: xếp hàng. 줄을 묶다: buộc dây.",
+      "example_ko": "빨래를 줄에 널었어요.",
+      "example_vi": "Tôi phơi quần áo lên dây.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "core",
+      "source": "krdict:64702",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "책상",
+      "pos": "N",
+      "meaning_vi": "Bàn học, bàn làm việc",
+      "note_vi": "Phát âm [책쌍].",
+      "example_ko": "책상 위에 컴퓨터가 있어요.",
+      "example_vi": "Trên bàn có máy tính.",
+      "pron": "[책쌍]",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "core",
+      "source": "krdict:72039",
+      "hanja": "冊床",
+      "enrich": "auto",
+      "sino_vietnamese": "sách sàng"
+    },
+    {
+      "hangul": "책장",
+      "pos": "N",
+      "meaning_vi": "Tủ sách, giá sách",
+      "note_vi": "Phát âm [책짱].",
+      "example_ko": "책장에 책이 가득해요.",
+      "example_vi": "Tủ sách đầy sách.",
+      "pron": "[책짱]",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "core",
+      "source": "krdict:78697",
+      "hanja": "冊欌",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "촛불",
+      "pos": "N",
+      "meaning_vi": "Ánh nến, ngọn nến",
+      "note_vi": "초 (nến) + 불. 촛불을 켜다/끄다. Phát âm [초뿔].",
+      "example_ko": "케이크에 촛불을 켰어요.",
+      "example_vi": "Tôi thắp nến trên bánh kem.",
+      "pron": "[초뿔]",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "recognize",
+      "source": "krdict:25513",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "침대",
+      "pos": "N",
+      "meaning_vi": "Giường",
+      "note_vi": "침대에 눕다; 침대 방: phòng có giường.",
+      "example_ko": "방에 침대와 책상이 있어요.",
+      "example_vi": "Trong phòng có giường và bàn.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "core",
+      "source": "krdict:36702",
+      "hanja": "寢臺",
+      "enrich": "auto",
+      "sino_vietnamese": "tẩm đài"
+    },
+    {
+      "hangul": "카메라",
+      "pos": "N",
+      "meaning_vi": "Máy ảnh",
+      "note_vi": "카메라로 사진을 찍다.",
+      "example_ko": "새 카메라로 사진을 찍었어요.",
+      "example_vi": "Tôi chụp ảnh bằng máy ảnh mới.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ điện gia dụng",
+      "priority": "core",
+      "source": "krdict:57332",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "쿠션",
+      "pos": "N",
+      "meaning_vi": "Gối tựa, đệm (ghế)",
+      "note_vi": "Gối ôm trang trí trên sofa cũng gọi là 쿠션.",
+      "example_ko": "소파에 쿠션이 두 개 있어요.",
+      "example_vi": "Trên sofa có hai cái gối tựa.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "recognize",
+      "source": "krdict:81147",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "테이블",
+      "pos": "N",
+      "meaning_vi": "Bàn",
+      "note_vi": "Bàn nói chung, bàn ở quán. Bàn ăn trong nhà: 식탁.",
+      "example_ko": "테이블 위에 컵을 놓으세요.",
+      "example_vi": "Đặt cốc lên bàn nhé.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "core",
+      "source": "krdict:72186",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "텔레비전",
+      "pos": "N",
+      "meaning_vi": "Tivi",
+      "note_vi": "Dạng ngắn: 티브이, 티비. 텔레비전을 보다/켜다.",
+      "example_ko": "저녁마다 텔레비전을 봐요.",
+      "example_vi": "Tối nào tôi cũng xem tivi.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ điện gia dụng",
+      "priority": "core",
+      "source": "krdict:27373",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "티브이",
+      "pos": "N",
+      "meaning_vi": "Tivi (TV)",
+      "note_vi": "Cách nói ngắn của 텔레비전; văn nói hay viết 티비.",
+      "example_ko": "티브이 소리 좀 줄여 주세요.",
+      "example_vi": "Vặn nhỏ tiếng tivi giúp tôi.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ điện gia dụng",
+      "priority": "recognize",
+      "source": "krdict:71302",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "휴지",
+      "pos": "N",
+      "meaning_vi": "Giấy vệ sinh, khăn giấy; giấy vụn",
+      "note_vi": "Trong đời sống hay chỉ giấy vệ sinh, khăn giấy. 휴지를 버리다: vứt giấy rác.",
+      "example_ko": "화장실에 휴지가 없어요.",
+      "example_vi": "Trong nhà vệ sinh hết giấy rồi.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "core",
+      "source": "krdict:44797",
+      "hanja": "休紙",
+      "enrich": "auto",
+      "sino_vietnamese": "hưu chỉ"
+    },
+    {
+      "hangul": "휴지통",
+      "pos": "N",
+      "meaning_vi": "Thùng rác",
+      "note_vi": "Thùng rác nhỏ trong nhà. Rác nói chung: 쓰레기.",
+      "example_ko": "쓰레기는 휴지통에 버리세요.",
+      "example_vi": "Hãy bỏ rác vào thùng rác.",
+      "family": "🟢 Nền · Từ sơ cấp · Đồ dùng trong nhà",
+      "priority": "core",
+      "source": "krdict:31509",
+      "hanja": "休紙桶",
+      "enrich": "auto",
+      "sino_vietnamese": "hưu chỉ dũng"
+    },
+    {
+      "hangul": "하숙비",
+      "pos": "N",
+      "meaning_vi": "Tiền ở trọ (gồm cả ăn)",
+      "note_vi": "하숙: ở trọ nhà người khác, có chủ nhà nấu cơm cho.",
+      "example_ko": "이번 달 하숙비를 냈어요.",
+      "example_vi": "Tôi đã trả tiền trọ tháng này.",
+      "pron": "[하숙삐]",
+      "family": "🟢 Nền · Từ sơ cấp · Thuê nhà & chi phí",
+      "priority": "recognize",
+      "source": "krdict:83964",
+      "collocations": [
+        {
+          "ko": "하숙비를 내다",
+          "vi": "trả tiền trọ"
+        }
+      ],
+      "hanja": "下宿費",
+      "enrich": "auto",
+      "sino_vietnamese": "hạ túc phí"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V + -(으)려면",
+      "meaning_vi": "nếu muốn làm V thì (vế sau nêu điều kiện cần làm)",
+      "usage_context_vi": "**Cấu tạo:** gốc không patchim hoặc `ㄹ` + `-려면`, có patchim + `-으려면`: 이사하다 → `이사하려면`, 만들다 → `만들려면`, 돌려받다 → `돌려받으려면`. Chỉ gắn với động từ; không thêm `-았/었-`.\n**Hoàn cảnh dùng:** nêu **điều cần làm để đạt mục đích**: vế trước là việc muốn làm, vế sau là việc phải hay nên làm. `이사하려면 먼저 집을 구해야 해요`, `보증금을 돌려받으려면 계약서를 잘 보관하세요`. Vế sau thường là `-아/어야 하다`, `-는 게 좋다`, `-(으)세요`.\n**Vì sao chọn nó thay vì `-(으)면`:** `-(으)면` là điều kiện hay giả định thuần; `-(으)려면` có sẵn ý định (muốn làm V) ở vế trước nên vế sau là cách để đạt được điều đó.",
+      "contrasts": [
+        {
+          "pattern": "V/A + -(으)면",
+          "diff_vi": "Điều kiện thuần: `비가 오면 …`, không hàm ý người nói muốn làm gì."
+        },
+        {
+          "pattern": "V + -(으)려고 하다",
+          "diff_vi": "Chỉ nói ý định; không đòi hỏi vế sau là điều kiện cần."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng quá khứ ở vế trước: ✗ `이사했으려면` → `이사하려면`.\n(2) Vế sau là câu kể đã xảy ra: ✗ `이사하려면 집을 구했어요` — vế sau phải là điều cần làm.\n(3) Gắn với tính từ: ✗ `예쁘려면` → `예뻐지려면`.\n(4) Chia sai gốc `ㄹ`: ✗ `만들으려면` → `만들려면`.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Nơi ở, Thuê & Chuyển nhà'.",
+      "example_ko": "이사하려면 먼저 집을 구해야 해요.\n보증금을 돌려받으려면 계약서를 잘 보관하세요.\n새집을 계약하려면 신분증이 필요해요.",
+      "example_vi": "Muốn chuyển nhà thì trước hết phải tìm nhà.\nMuốn nhận lại tiền đặt cọc thì hãy giữ hợp đồng cẩn thận.\nMuốn ký hợp đồng nhà mới thì cần giấy tờ tùy thân.",
+      "source": "G5-1",
+      "exam": "kiip-2",
+      "topik_tip_vi": "Bài đọc hướng dẫn thủ tục thường mở bằng `-(으)려면`, các bước cần làm nằm ở vế sau; hãy đọc kỹ vế sau.",
+      "builds_on": [
+        "V + -(으)려고 하다",
+        "V/A + -(으)면"
+      ],
+      "importance": "must"
+    },
+    {
+      "pattern": "A/V + -(으)ㄴ/는 데다가 · N + 인 데다가",
+      "meaning_vi": "không những … mà còn …",
+      "usage_context_vi": "**Cấu tạo:** tính từ + `-(ㅇ)ㄴ 데다가` (좁다 → `좁은 데다가`, 크다 → `큰 데다가`); động từ hiện tại + `-는 데다가` (오다 → `오는 데다가`); `있다/없다` + `-는 데다가`; danh từ + `인 데다가`. `데` là danh từ phụ thuộc nên viết cách.\n**Hoàn cảnh dùng:** **thêm một đặc điểm cùng chiều** vào điều vừa nêu: `이 집은 역에서 가까운 데다가 월세도 싸요`, `방이 좁은 데다가 어두워요`, `어제는 비가 오는 데다가 바람도 불었어요`. Vế sau thường có `도`.\n**Vì sao chọn nó thay vì `-고` và `-지만`:** `-고` liệt kê trung tính; `-(으)ㄴ/는 데다가` nhấn 'lại còn' và hai vế cùng chiều (cùng ưu điểm hoặc cùng nhược điểm); hai vế đối lập thì dùng `-지만`.",
+      "contrasts": [
+        {
+          "pattern": "V/A + -지만",
+          "diff_vi": "Hai vế đối lập: `넓지만 비싸요`."
+        },
+        {
+          "pattern": "V/A + -고",
+          "diff_vi": "Liệt kê trung tính, không nhấn 'lại còn'."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Hai vế trái chiều: `집이 넓은 데다가 월세가 비싸요` nghe lệch (rộng là ưu, đắt là nhược); ý 'rộng nhưng đắt' dùng `-지만`.\n(2) Chia sai dạng định ngữ: ✗ `좁는 데다가` → `좁은 데다가`; ✗ `오은 데다가` → `오는 데다가`.\n(3) Viết dính: ✗ `좁은데다가` → `좁은 데다가`.\n(4) Nhầm với `-(으)ㄴ데` (nền): `좁은데` chỉ nêu bối cảnh, không có nghĩa 'lại còn'.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Nơi ở, Thuê & Chuyển nhà'.",
+      "example_ko": "이 집은 역에서 가까운 데다가 월세도 싸요.\n방이 좁은 데다가 어두워요.\n어제는 비가 오는 데다가 바람도 불었어요.",
+      "example_vi": "Nhà này gần ga mà tiền thuê tháng cũng rẻ.\nPhòng vừa chật lại tối.\nHôm qua trời đã mưa lại còn có gió.",
+      "source": "G5-2",
+      "exam": "kiip-3",
+      "topik_tip_vi": "Bài đọc quảng cáo nhà thường liệt kê ưu điểm bằng `-(으)ㄴ 데다가`; đề hỏi 'ưu điểm' thường nằm ở hai vế này.",
+      "builds_on": [
+        "V + -는 + N · A + -(으)ㄴ + N (hiện tại)",
+        "V + -(으)ㄴ + N (quá khứ)"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V + -(으)ㄴ 지 + (thời gian) + 되다/지나다/넘다",
+      "meaning_vi": "đã … được bao lâu kể từ khi V",
+      "usage_context_vi": "**Cấu tạo:** động từ + `-(으)ㄴ 지` + khoảng thời gian + `되다 / 지나다 / 넘다`: 이사 오다 → `이사 온 지 3년이 됐어요`, 살다 → `산 지 일 년이 넘었어요` (bỏ `ㄹ`), 배우다 → `배운 지 오래됐어요`. Có patchim `-은 지`, không patchim `-ㄴ 지`. `지` và khoảng thời gian viết cách.\n**Hoàn cảnh dùng:** nói **đã bao lâu kể từ khi** một việc xảy ra cho đến nay: `이사 온 지 3년이 됐어요`, `이 집에 산 지 일 년이 넘었어요`. Hỏi: `한국에 온 지 얼마나 됐어요?`.\n**Vì sao chọn nó thay vì `-(으)ㄴ 후에`:** `-(으)ㄴ 후에` kể trình tự hai việc; `-(으)ㄴ 지` đo khoảng thời gian trôi qua tính đến hiện tại.",
+      "contrasts": [
+        {
+          "pattern": "V + -(으)ㄴ 다음에 / -(으)ㄴ 후에",
+          "diff_vi": "Kể thứ tự hai việc, không đo thời gian tới nay."
+        },
+        {
+          "pattern": "N + 동안",
+          "diff_vi": "Một việc diễn ra trong bao lâu: `3년 동안 살았어요`; không nói 'kể từ lúc đó đến nay'."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Đặt thời gian trước: ✗ `3년 이사 온 지` → `이사 온 지 3년`.\n(2) Thêm quá khứ: ✗ `이사했은 지` → `이사한 지`.\n(3) Viết dính `지`: ✗ `온지` — khác với `-(으)ㄴ지` viết liền nghĩa là 'có … hay không' (`어디에 있는지 몰라요`).\n(4) Gắn với tính từ: ✗ `좁은 지 3년이 됐어요`.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Nơi ở, Thuê & Chuyển nhà'.",
+      "example_ko": "이사 온 지 3년이 됐어요.\n이 집에 산 지 일 년이 넘었어요.\n한국어를 배운 지 얼마나 됐어요?",
+      "example_vi": "Tôi chuyển đến đây được 3 năm rồi.\nTôi sống ở nhà này hơn một năm rồi.\nBạn học tiếng Hàn được bao lâu rồi?",
+      "source": "G5-3",
+      "topik_tip_vi": "Trong bài nghe hỏi 'đã bao lâu', hãy tìm khoảng thời gian đứng sau `지` và trước `됐어요 / 넘었어요`.",
+      "builds_on": [
+        "V + -(으)ㄴ + N (quá khứ)"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V + -자마자",
+      "meaning_vi": "Ngay khi V thì …: việc sau xảy ra liền sau việc trước, không có khoảng cách",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · 👁 **Nhận ra** (đọc/nghe hiểu)\n**Cấu tạo:** gốc động từ + `-자마자` (không đổi theo patchim): 이사하다 → `이사하자마자`, 먹다 → `먹자마자`. Chỉ gắn với **động từ**; **không** gắn `-았/었-` hay `-겠-` (✗ 이사했자마자); `-(으)시-` thì gắn được (✓ 도착하시자마자 연락 주세요); thì đặt ở vế sau. Hai vế có thể khác chủ ngữ; vế sau dùng được cả mệnh lệnh, đề nghị (`도착하자마자 연락 주세요`).\n**Hoàn cảnh dùng:** hội thoại và văn viết hằng ngày: kể hai việc xảy ra liên tiếp (`퇴근하자마자 집에 갔어요`), dặn người khác làm ngay (`도착하자마자 전화하세요`), hoặc diễn tả việc bất ngờ ngay sau đó (`이사하자마자 비가 왔어요`).\n**Vì sao chọn nó thay vì `-(으)ㄴ 다음에`:** `-(으)ㄴ 다음에` chỉ **thứ tự** (xong A rồi mới B, có thể cách một lúc, rất hay dùng cho quy trình: `라벨을 뗀 다음에 버리세요`). `-자마자` nhấn mạnh **không có khoảng nghỉ**: vừa A xong là B ngay, nên hợp với sự việc diễn ra liền nhau, cảm giác vội hoặc bất ngờ.\n**Trong bài này:** đề Đọc R1 đặt `이사하자마자` làm đáp án nhiễu cạnh đáp án đúng `이사하려면` (lõi của bài: nếu muốn chuyển nhà thì trước hết phải …); `-자마자` (ngay sau khi) cũng khác `-(으)ㄴ 지 + thời gian` (đã bao lâu từ khi) của bài này.",
+      "contrasts": [
+        {
+          "pattern": "-(으)려면",
+          "diff_vi": "(lõi của bài) \"nếu muốn làm V thì\": ý định ở vế trước và vế sau là việc cần làm; `-자마자` là hai việc xảy ra **liền nhau**, không có ý định hay điều kiện."
+        },
+        {
+          "pattern": "-(으)ㄴ 다음에",
+          "diff_vi": "Chỉ thứ tự (xong A thì B, có thể cách một lúc); `-자마자` nhấn mạnh B xảy ra **ngay** sau A."
+        },
+        {
+          "pattern": "-(으)ㄴ 지 + (thời gian) + 되다",
+          "diff_vi": "(lõi của bài) đo **thời gian đã trôi qua** từ khi A (`이사 온 지 3년`); `-자마자` không đo thời gian, chỉ nói \"vừa xong là\"."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n• Gắn thì vào vế trước: ✗ 이사했자마자 → ✓ 이사하자마자 (thì đặt ở vế sau: `전화했어요`). Kính ngữ thì gắn được: ✓ 도착하시자마자.\n• Gắn với tính từ/ danh từ: ✗ 피곤하자마자 → chỉ dùng với **động từ** (`피곤해지자마자` mới được).\n• Dịch \"ngay khi\" bằng `-(으)ㄴ 다음에`: `집에 온 다음에 바로 잠이 들었어요` vẫn đúng ngữ pháp nhưng nghe như thứ tự \"sau khi về nhà\"; muốn nhấn \"vừa … là\" thì dùng ✓ 집에 오자마자 잠이 들었어요.\n*Biên soạn bổ sung:* bộ đề chỉ có `이사하자마자` ở đáp án nhiễu (không có câu nào dùng đúng `-자마자`), nên ví dụ 1 là câu gốc của đề R1 với đáp án đúng `-(으)려면` để đối chiếu, các ví dụ còn lại và phần giải thích là biên soạn thêm.",
+      "topik_tip_vi": "Đọc R1: `이사하자마자` (ngay khi chuyển nhà) là đáp án nhiễu cạnh đáp án đúng `이사하려면`. Chỉ cần nhận ra nghĩa \"ngay khi\" để loại; chỗ trống đi với `먼저 … 해야 해요` (việc cần làm trước) thì chọn `-(으)려면`.",
+      "example_ko": "새집으로 이사하려면 먼저 이삿짐센터를 알아봐야 해요.\n이사하자마자 전입신고를 하러 갔어요.\n집을 보자마자 계약하지 말고 여러 곳을 비교해 보세요.",
+      "example_vi": "Nếu muốn chuyển đến nhà mới thì trước hết phải tìm công ty chuyển nhà (câu gốc của đề, dùng `-(으)려면` để đối chiếu).\nVừa chuyển nhà xong, tôi đã đi làm thủ tục đăng ký chuyển nơi cư trú ngay.\nĐừng ký hợp đồng ngay khi vừa xem nhà, hãy so sánh nhiều nơi.",
+      "source": "EXT-T2-05",
+      "exam": "kiip-3",
+      "use_level": "recognize"
+    },
+    {
+      "pattern": "N + (이)라서",
+      "meaning_vi": "Vì là N nên …",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · 👁 **Nhận ra** (đọc/nghe hiểu)\n**Cấu tạo:** N có patchim + `이라서` (`원룸이라서`), không patchim + `라서` (`단지라서`); phủ định `N이/가 아니라서`. Thực chất là `N이다 + -아/어서` (`N이어서/N여서`) rút gọn trong khẩu ngữ. Không thêm `-았/었-` vào trước nó; vế sau là câu trần thuật/hỏi, không phải mệnh lệnh hay lời rủ.\n**Hoàn cảnh dùng:** Chủ yếu là khẩu ngữ hằng ngày: nêu lý do từ **tư cách/loại/thời điểm** của danh từ — `주말이라서 사람이 많아요`, `외국인이라서 잘 몰라요`, `원룸이라서 좁아요`. Trong văn viết trang trọng thường đổi thành `N이어서` hoặc `N(이)기 때문에`.\n*Mức độ:* KIIP không đưa mẫu này vào mục ngữ pháp chính của bài; giáo trình Yonsei xếp nó ở bậc trung cấp 1 (quyển 3).\n**Vì sao chọn nó thay vì -아/어서:** `-아/어서` thông thường chỉ gắn vào động từ/tính từ; muốn nêu lý do bằng một danh từ phải đi qua `이다`, và dạng nói tự nhiên của `N이어서/N여서` chính là `N(이)라서`. Nó cho phép gắn thẳng danh từ làm lý do (`원룸이라서`) mà không cần đổi sang động từ/tính từ.\n**Trong bài này:** Trong bài Nơi ở, `원룸이라서 좁은 데다가 베란다도 없어요` ghép `N(이)라서` (lý do) với core `A/V + -(으)ㄴ/는 데다가`; đừng nhầm với `N + 인 데다가` (\"không những là N mà còn …\", cộng thêm chứ không nêu lý do).",
+      "contrasts": [
+        {
+          "pattern": "A/V + -(으)ㄴ/는 데다가 · N + 인 데다가",
+          "diff_vi": "`N + 인 데다가` là \"không những là N mà còn …\" (cộng thêm ý cùng hướng); `N(이)라서` là \"vì là N nên …\" (lý do → kết quả)."
+        },
+        {
+          "pattern": "-아/어서",
+          "diff_vi": "Gắn vào động từ/tính từ; với danh từ phải qua `이다` thành `N이어서/N여서`, dạng nói của nó là `N(이)라서`."
+        },
+        {
+          "pattern": "N(이)기 때문에",
+          "diff_vi": "Cùng nghĩa \"vì là N\" nhưng cứng, thiên về văn viết; `N(이)라서` tự nhiên hơn trong hội thoại."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n• Gắn thiếu `이` sau danh từ có patchim: `원룸라서` sai → `원룸이라서`; danh từ không patchim thì dùng `라서` (`단지라서`).\n• Dùng mệnh lệnh/lời rủ ở vế sau: `주말이라서 같이 가세요` sai → đổi sang `주말이니까 같이 가세요`.\n• Thêm `-았/었-` trước `-(이)라서` (`학생이었라서`) → không có dạng này; muốn nói quá khứ dùng `학생이었기 때문에`, hoặc dùng `학생이어서` và để thì ở vế sau.\n*Biên soạn bổ sung:* ví dụ 1 lấy từ bộ đề, các ví dụ còn lại và phần giải thích là biên soạn thêm.",
+      "topik_tip_vi": "Nghe câu 2 (kịch bản): người nữ nói \"원룸이라서 좁은 데다가 베란다도 없어요\" → lý do (nhà là phòng đơn) rồi tới các nhược điểm cùng hướng (hẹp, không có ban công). Chỉ cần nhận ra \"vì là N\" để chọn đúng tranh/chi tiết; khi nói, dùng N(이)라서 cho lý do.",
+      "example_ko": "원룸이라서 좁은 데다가 베란다도 없어요.\n이곳은 새 아파트 단지라서 주변이 조용하고 깨끗해요.\n저는 집주인이 아니라서 월세를 마음대로 정할 수 없어요.",
+      "example_vi": "Vì là phòng đơn nên vừa hẹp lại còn không có ban công.\nVì đây là khu chung cư mới nên xung quanh vừa yên tĩnh vừa sạch sẽ.\nVì tôi không phải chủ nhà nên không thể tự ý quyết định tiền thuê.",
+      "source": "EXT-T2-08",
+      "use_level": "recognize",
+      "builds_on": [
+        "N + 이에요/예요 · N + 이/가 아니에요",
+        "V/A + -아/어서"
+      ]
+    },
+    {
+      "pattern": "V/A + -거든 (nếu … thì hãy …)",
+      "meaning_vi": "Nếu … thì (hãy / tôi sẽ) … — điều kiện cho một lời đề nghị, mệnh lệnh hay ý định",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** gốc + `-거든`, không đổi theo patchim: `있다 → 있거든`, `오다 → 오거든`; quá khứ `-았/었거든` (`도착했거든`).\n**Hoàn cảnh dùng:** Vế sau **phải là** lời khuyên, mệnh lệnh, rủ rê, lời hứa hay ý định của người nói (`-(으)세요`, `-(으)ㄹ게요`, `-(으)려고 해요`, `-(으)ㄹ 거예요`): `마음에 드는 집이 있거든 연락하세요.` Thường dùng trong văn nói.\n**Vì sao chọn nó:** `-(으)면` dùng được với mọi vế sau, kể cả sự thật chung (`봄이 오면 꽃이 핀다`). `-거든` chỉ dùng khi vế sau là **điều người nói muốn ai làm hoặc mình sẽ làm**; nghe thân mật, gần gũi hơn.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Nơi ở, Thuê & Chuyển nhà»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V/A + -(으)면",
+          "diff_vi": "Điều kiện chung; vế sau có thể là sự thật, nhận xét."
+        },
+        {
+          "pattern": "V/A + -거든요",
+          "diff_vi": "Đuôi câu nêu lý do («vì … mà»), đứng cuối câu, khác hẳn `-거든` nối câu."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Vế sau là sự thật: ✗ `비가 오거든 길이 미끄러워요` → ✓ `비가 오면 길이 미끄러워요`.\n(2) Nhầm với `-거든요`: ✗ `집을 찾거든요, 연락하세요` → ✓ `집을 찾거든 연락하세요`.\n(3) Dùng trong văn viết trang trọng (bài 54): ở đó dùng `-(으)면` hoặc `-(으)ㄹ 경우`.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "이사할 집을 찾거든 저한테도 알려 주세요.\n시간이 있거든 우리 집에 한번 놀러 오세요.\n방이 마음에 들지 않거든 다른 집을 더 보세요.",
+      "example_vi": "Nếu tìm được nhà để chuyển thì báo cho tôi với nhé.\nNếu có thời gian thì đến nhà tôi chơi một lần nhé.\nNếu không ưng phòng thì xem thêm nhà khác đi.",
+      "topik_tip_vi": "Đọc/Nghe: câu có `-거든` + `-(으)세요` là lời dặn; câu hỏi về ý định người nói thường lấy đúng vế sau.",
+      "use_level": "produce",
+      "source": "EXT-SUP-02"
+    },
+    {
+      "pattern": "N(thời gian) + 만에",
+      "meaning_vi": "Sau (một khoảng thời gian) mới …; chỉ mất (bao lâu) là …",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** danh từ chỉ **khoảng** thời gian + `만에`, viết cách: `3년 만에`, `한 달 만에`, `이틀 만에`; riêng `오랜만에` viết liền. Hay đi với `-(으)ㄴ 지 … 만에`.\n**Hoàn cảnh dùng:** (1) Một việc **lặp lại sau một quãng dài**: `5년 만에 고향에 갔어요` (5 năm rồi mới về quê). (2) Việc **xong trong** bao lâu: `일주일 만에 다 끝냈어요` (chỉ một tuần là xong).\n**Vì sao chọn nó:** `N 후에` chỉ mốc «sau đó»; `N 만에` nhấn **quãng thời gian đã trôi qua** (lâu hoặc nhanh hơn mong đợi). `N 동안` là «trong suốt» khoảng đó.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Nơi ở, Thuê & Chuyển nhà»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "N + 후에 · 뒤에",
+          "diff_vi": "Chỉ mốc thời gian phía sau, không nhấn cảm giác «lâu rồi mới» hay «nhanh vậy»."
+        },
+        {
+          "pattern": "N + 동안",
+          "diff_vi": "Suốt khoảng thời gian (`3년 동안 살았어요`), không phải «sau 3 năm mới»."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng với mốc giờ: ✗ `세 시 만에` → `만에` đi với khoảng thời gian (`세 시간 만에`).\n(2) Viết liền: ✗ `3년만에` → ✓ `3년 만에` (`만` là danh từ phụ thuộc); chỉ `오랜만에` viết liền.\n(3) Nhầm với `동안`: ✗ `1년 동안 친구를 만났어요` (gặp suốt 1 năm) khi muốn nói «1 năm rồi mới gặp» → ✓ `1년 만에`.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "고향을 떠난 지 5년 만에 부모님을 뵈었어요.\n이사한 지 한 달 만에 집 정리가 끝났어요.\n이 일을 일주일 만에 다 끝냈어요.",
+      "example_vi": "Rời quê 5 năm rồi tôi mới được gặp lại bố mẹ.\nChuyển nhà được một tháng thì mới dọn dẹp xong.\nTôi làm xong việc này chỉ trong một tuần.",
+      "topik_tip_vi": "Nghe 1–20: `오랜만이에요`, `몇 년 만에 만났어요` cho biết hai người lâu rồi mới gặp: đáp án nội dung trùng khớp thường nói «đã lâu không gặp».",
+      "use_level": "produce",
+      "source": "EXT-SUP-03"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài (và cách chia ba bài 05–07)",
+      "body": "**Mục tiêu:** 🟢 nói về nhà ở, chuyển nhà, hàng xóm và rác thải ở mức giao tiếp · 🟡 đọc quảng cáo cho thuê, thông báo cư dân, hướng dẫn phân loại rác, nghe hội thoại với hàng xóm, viết thông báo (Viết 51–52) và mô tả khảo sát (Viết 53) · 🔴 Viết 54 về rác thải nhựa và ô nhiễm môi trường.\nChủ đề 주거·이웃·환경 gồm **ba đề tài lớn** (nhà ở, hàng xóm và rác, môi trường) nên được chia thành **3 bài nhỏ**: bài này là **Nơi ở & chuyển nhà (주거·이사)** (hai tầng 🟢 Nền và 🟡 Dạng thi); hàng xóm, tiếng ồn và phân loại rác ở bài 06; môi trường ở bài 07.\n• 🎯 **Đầu ra:** cuối bài bạn viết được bài hai đoạn «Gia đình và ngôi nhà của tôi» (280–450 chữ, Bước 5) và nói về nó trong một phút.",
+      "kind": "goal"
+    },
+    {
+      "title": "Đời sống: nhà ở và thủ tục chuyển nơi cư trú",
+      "body": "• **Loại nhà** — 아파트, 오피스텔 (`준주택`, cần kiểm tra có đăng ký làm nhà ở không), 빌라 (thường là 다가구/다세대 주택), 고시원. **원룸 là cách mô tả kiểu bố trí, không phải loại nhà theo luật**. *Nguồn: Seoulstart*\n• **전세** — một khoản tiền cọc lớn, **không có tiền thuê hằng tháng**, chủ nhà trả lại khi hết hợp đồng. *Nguồn: Seoulstart*\n• **월세 · 반전세** — 월세 = cọc tương đối nhỏ + tiền hằng tháng; 반전세 = lai giữa hai kiểu, không phải loại pháp lý riêng. *Nguồn: Seoulstart*\n• **전입신고** — trong **14 ngày** sau khi chuyển (công dân); **15 ngày** với người nước ngoài theo cùng hướng dẫn. Hãy đối chiếu 정부24 hoặc hikorea.go.kr trước khi làm thủ tục thật. *Nguồn: Seoulstart*\n• **확정일자** — lệ phí **600 won** theo hướng dẫn (có thể thay đổi); khi làm cùng 전입신고 thì có quyền ưu tiên nhận lại tiền cọc khi xảy ra xử lý tài sản. *Nguồn: Seoulstart*\n\n*Lưu ý:* số ngày (15 ngày với người nước ngoài) và lệ phí 600 won lấy từ một hướng dẫn của bên thứ ba và có thể thay đổi.\n\nCác dữ kiện đời sống còn lại của cụm bài này nằm ở bài 06 (tiêu chuẩn 층간 소음, 이웃사이센터, 분리배출) và bài 07 (미세먼지).",
+      "kind": "fact"
+    },
+    {
+      "title": "Mẫu câu 🟢 và ôn ngữ pháp",
+      "body": "• 저는 학교 근처 원룸에 살아요. — Tôi sống ở một phòng studio gần trường.\n• 방이 넓고 밝아서 마음에 들어요. — Phòng rộng và sáng nên tôi thích.\n• 지난주에 새 아파트로 이사했어요. — Tuần trước tôi đã chuyển đến một căn chung cư mới.\n• 이삿짐은 어제 다 싸 놓았어요. — Đồ chuyển nhà thì hôm qua tôi đã đóng xong hết rồi.\n• 지하철역에서 가까워서 편리해요. — Gần ga tàu điện ngầm nên tiện lợi.\n(Bản dịch tham khảo.)\n\n**Ôn ngữ pháp:** `-아/어 놓다` (가구를 미리 사 **놓았어요** — Tôi đã mua sẵn đồ nội thất), `-(으)ㄹ까요?`, `-는 데 걸리다`, `-(으)러 가다` (집을 보러 가요 — Tôi đi xem nhà), `-아/어서` (lý do, nền 1–2급).",
+      "kind": "language"
+    },
+    {
+      "title": "Mẫu hội thoại (đi xem nhà)",
+      "body": "가: 안녕하세요? 학교 근처에서 원룸을 구하고 있는데요.\n나: 월세로 보세요, 전세로 보세요?\n가: 월세로 구하려고 해요. 보증금은 많이 낼 수 없어요.\n나: 그럼 이 집은 어떠세요? 역에서 가까운 데다가 월세도 싸요.\n가: 방이 좀 좁은 것 같은데 햇빛은 잘 들어와요?\n나: 네, 창문이 커서 채광이 좋아요.\n\n**Bản dịch tham khảo:**\n가: Xin chào. Tôi đang tìm một phòng studio gần trường.\n나: Anh/chị xem nhà theo hình thức 월세 hay 전세?\n가: Tôi định thuê theo tháng. Tôi không thể trả nhiều tiền cọc.\n나: Vậy căn này thì sao? Vừa gần ga lại còn tiền thuê hằng tháng rẻ.\n가: Phòng hình như hơi hẹp, ánh nắng có chiếu vào tốt không?\n나: Vâng, cửa sổ lớn nên ánh sáng tự nhiên tốt.",
+      "kind": "sample"
+    },
+    {
+      "title": "Mẫu thông tin cho thuê (dạng đề Đọc, số liệu là minh họa)",
+      "body": "**[원룸 월세 안내]**\n위치: ○○역 도보 5분 · 구조: 원룸 (약 20㎡) · 보증금 1,000만 원 / 월세 50만 원 (관리비 5만 원 별도) · 입주 가능일: 11월 1일 · 반려동물 불가\n\n**Bản dịch tham khảo (số liệu minh họa):** [Thông tin phòng studio cho thuê theo tháng] Vị trí: đi bộ 5 phút từ ga ○○ · Kết cấu: phòng studio (khoảng 20㎡) · Tiền cọc 10 triệu won / tiền thuê 500 nghìn won mỗi tháng (chưa gồm phí quản lý 50 nghìn won) · Ngày có thể dọn vào: 1/11 · Không nuôi thú cưng.",
+      "kind": "sample"
+    },
+    {
+      "title": "Văn viết hữu ích",
+      "body": "`…에 위치해 있다` (bài 04) · `…을/를 이용하실 수 있습니다` · `입주 가능` · `…은/는 별도입니다`.",
+      "kind": "language"
+    },
+    {
+      "title": "Viết 53 nhập môn: đọc biểu đồ nhà ở (đề 53-D)",
+      "kind": "writing",
+      "body": "Viết 53 là một đoạn 200–300 chữ mô tả biểu đồ. Ở bài này bạn làm quen bằng đề **53-D** (hình thức thuê nhà của người trẻ):\n• **Mở bài:** `…에서 …에 대해 조사하였다.` (ai điều tra, về điều gì)\n• **Số liệu chính:** `N년 N%에서 N년 N%로 늘어난 것으로 나타났다` (tăng) hoặc `줄어든` (giảm). Biểu đồ đường: nêu mốc đầu và mốc cuối.\n• **Tương phản:** `반면에` nối nhóm tăng và nhóm giảm.\n• **Nguyên nhân và dự báo** lấy từ ô cho sẵn: `이러한 변화의 원인은 …기 때문이다.` · `앞으로 … 것으로 전망된다.`\nKhông ghi ý kiến cá nhân, không viết tiêu đề. Khung đầy đủ **T·O·P·I·K** được giải thích ở bài 09."
+    },
+    {
+      "title": "🟢 Bài mẫu: Gia đình và ngôi nhà của tôi (đầu ra của bài)",
+      "body": "Đây là bài **Bước 5 · Hai đoạn** ở phần Tạo câu: đoạn 1 lấy từ bài Gia đình, đoạn 2 dùng từ của bài này. Mọi từ và mẫu câu trong bài mẫu đều đã học đến bài này.\n\n저희 가족은 부모님과 누나, 그리고 저까지 모두 네 명입니다. 부모님은 두 분 다 성실하고 다정하십니다. 아버지는 유머 감각이 있으셔서 재미있는 이야기를 자주 해 주시고, 어머니는 요리 솜씨가 좋으셔서 만드시는 음식마다 맛있습니다. 누나는 이미 결혼해서 따로 살지만, 성격이 밝고 다정해서 지금도 저와 자주 연락합니다.\n\n저희 집은 크지는 않지만 무척 아늑합니다. 집 안에는 거실과 침실 두 개, 부엌, 욕실이 있고, 집 앞에는 나무가 많은 작은 정원이 있습니다. 저는 저희 가족과 집을 정말 소중하게 생각합니다. 힘들 때 집에 오면 늘 마음이 편안하기 때문입니다.\n\n*Bản dịch tham khảo:* Gia đình tôi có bố mẹ, chị gái và tôi, tất cả bốn người. Bố mẹ tôi cả hai đều chăm chỉ và tình cảm. Bố có khiếu hài hước nên hay kể chuyện vui, còn mẹ nấu ăn khéo nên món nào mẹ làm cũng ngon. Chị tôi đã lập gia đình và ở riêng, nhưng tính chị vui vẻ, tình cảm nên đến giờ vẫn hay liên lạc với tôi. / Nhà tôi không lớn nhưng rất ấm cúng. Trong nhà có phòng khách, hai phòng ngủ, bếp và phòng tắm; trước nhà có một khu vườn nhỏ nhiều cây. Tôi rất trân trọng gia đình và ngôi nhà của mình, vì những lúc mệt mỏi, cứ về nhà là lòng lại thấy bình yên.\n\n**Vì sao viết `크지는 않지만` mà không viết `비록 규모는 작지만`:** `규모` dùng cho công ty, sự kiện; nói về nhà mình, người Hàn nói `크지는 않지만` hoặc `작지만`. Tương tự, «sống ở nhà» là `집에 살다`, không cần `거주하다` (từ của giấy tờ: `서울에 거주하는 외국인`).",
+      "kind": "sample"
+    },
+    {
+      "title": "🟡 Khi học tiếp: cùng ý, câu nâng dần",
+      "body": "Đoạn văn của bạn sẽ lớn lên theo bài học. Cùng một ý, câu sẽ nâng dần như sau:\n• Bây giờ: `부모님은 두 분 다 성실하고 다정하십니다.` → sau bài Thời tiết 1 (`-(으)ㄴ 편이다`): `부모님은 두 분 다 온화하고 성실하신 편입니다.`\n• Bây giờ: `아버지는 유머 감각이 있으시고 어머니는 요리 솜씨가 좋으십니다.` → kiểu văn viết với `-(으)며` (đã học ở bài Sinh nhật & Lễ tết): `아버지는 유머 감각이 있으시며 어머니는 요리 솜씨가 좋으십니다.`\n• Bây giờ: `힘들 때 집에 오면 늘 마음이 편안하기 때문입니다.` → sau bài Truyền thông (`N(이)야말로`): `가족과 함께하는 우리 집이야말로 저에게 가장 편안한 곳입니다.`\nCâu nâng cấp không «hay» hơn nếu dùng sai chỗ: một đoạn tự giới thiệu ngắn, tự nhiên, đúng kính ngữ luôn được đánh giá cao hơn một đoạn chồng từ khó.",
+      "kind": "language"
+    }
+  ],
+  "bank": "quan-he",
+  "coach": {
+    "focus_vi": [
+      "`-(으)려면` nêu việc muốn làm rồi nói điều cần làm; `-자마자`: vừa … là ngay.",
+      "`-(으)ㄴ/는 데다가`: không những … mà còn …; `N(이)라서`: vì là N nên …",
+      "`V + -(으)ㄴ 지 + thời gian + 되다/지나다/넘다`: đã … được bao lâu."
+    ],
+    "watch_out_vi": [
+      "`-(으)ㄴ 지` viết rời: `이사 온 지 3년` (✗ `이사 온지`); `-(으)려면` không đi với quá khứ (✗ `이사했으려면`).",
+      "`-(으)ㄴ/는 데다가` nối hai ý cùng hướng; hai ý trái hướng (rộng nhưng đắt) thì dùng `-지만`."
+    ],
+    "notebook_vi": [
+      "Mô tả nhà hoặc phòng bạn đang ở bằng 3 câu, dùng `-(으)ㄴ/는 데다가`.",
+      "Từ vựng phòng ốc và các bước chuyển nhà bạn cần khi đi tìm nhà."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Nói bạn sống ở nhà này được bao lâu.",
+        "answer": "이사 온 지 3년이 됐어요."
+      },
+      {
+        "prompt_vi": "Nói một căn nhà vừa gần ga vừa thuê rẻ.",
+        "answer": "이 집은 역에서 가까운 데다가 월세도 싸요."
+      }
+    ],
+    "tip_vi": "Đọc ghi chú «Đời sống: nhà ở và thủ tục chuyển nơi cư trú»: `전세` là gửi một khoản cọc lớn, không có tiền thuê hằng tháng."
+  },
+  "exercise_ids": [
+    "QL2",
+    "QL9",
+    "QR1",
+    "QR2",
+    "QR6",
+    "QR15",
+    "QNHR1",
+    "QSUP02",
+    "QSUP03",
+    "QS1",
+    "QNHS1",
+    "QE05a",
+    "QE05b",
+    "QE05c",
+    "QE08a",
+    "QE08b",
+    "QE08c",
+    "QE08d",
+    "QLN33",
+    "QLN34",
+    "QLN35",
+    "QLN36",
+    "QLN37",
+    "QLN38",
+    "QD11",
+    "QD12",
+    "QBO22",
+    "QBO23",
+    "QBO24",
+    "QBO25",
+    "QBO26",
+    "QNHO1",
+    "QNHO2",
+    "QBF09",
+    "QBF10",
+    "QNHF1",
+    "QBC05",
+    "QNHC1",
+    "QBE05",
+    "QNHE1",
+    "QNHE2",
+    "QW53D"
+  ],
+  "topik2": [
+    {
+      "qid": "102-R-1",
+      "why_vi": "Câu về chuyện đã chuyển đến khu phố này được một năm. Đúng chủ đề chuyển nhà, và mẫu `-(으)ㄴ 지 …이/가 되다` (đã bao lâu rồi) được giải thích trước."
+    }
+  ],
+  "editor_notes": [
+    {
+      "title": "Điểm chưa xác minh của bài này (mục 12.2 của ghi chép)",
+      "body": "• **전입신고 cho người nước ngoài (15 ngày)** và **lệ phí 확정일자 (600 won)**: lấy từ một hướng dẫn của bên thứ ba, quy định có thể đổi; cần đối chiếu 정부24 hoặc hikorea.go.kr trước khi tư vấn.\n• **Kiến thức đời sống không dẫn nguồn** (liên quan bài này): đơn vị `평`, phong tục tặng quà tân gia.\n• **Cấp độ từ vựng** (1–2 / 3–4 / 5–6) chưa đối chiếu danh sách của 국립국어원.\n• Mọi **số liệu trong bảng và văn bản mẫu** (ví dụ thông tin cho thuê) là **số minh họa tự soạn**."
+    }
+  ]
+}

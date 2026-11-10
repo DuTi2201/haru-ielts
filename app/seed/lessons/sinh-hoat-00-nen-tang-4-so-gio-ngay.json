@@ -1,0 +1,1267 @@
+{
+  "slug": "sinh-hoat-00-nen-tang-4-so-gio-ngay",
+  "title": "Nền tảng 4.1 · Số Hán-Hàn: ngày tháng, phút, tiền",
+  "title_ko": "기초 4-1: 일, 이, 삼",
+  "topic": "Nhập môn",
+  "track": "beginner",
+  "level": 1,
+  "summary": "Hệ số Hán-Hàn ('일', '이', '삼'…) và các đơn vị đi với nó: năm, tháng, ngày, phút, tiền, tầng, số điện thoại; hai tháng đọc đặc biệt '유월', '시월'.",
+  "vocab": [
+    {
+      "hangul": "영",
+      "pos": "N",
+      "meaning_vi": "Số không (Hán-Hàn)",
+      "note_vi": "Trong số điện thoại thường đọc 공: 공일공.",
+      "example_ko": "영 점 오",
+      "example_vi": "Không phẩy năm",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "零",
+      "sino_vietnamese": "linh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "일",
+      "pos": "N",
+      "meaning_vi": "Một (Hán-Hàn); ngày (trong tháng)",
+      "note_vi": "Cùng chữ 일 còn là 'việc' (일하다) và 'ngày' (10일 = 십 일).",
+      "example_ko": "오늘은 십 일이에요.",
+      "example_vi": "Hôm nay là ngày 10.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "이",
+      "pos": "N",
+      "meaning_vi": "Hai (Hán-Hàn)",
+      "note_vi": "Đừng nhầm với 이 'này' (이 책).",
+      "example_ko": "이 층에 식당이 있어요.",
+      "example_vi": "Ở tầng hai có nhà hàng.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "二",
+      "sino_vietnamese": "nhị",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "삼",
+      "pos": "N",
+      "meaning_vi": "Ba (Hán-Hàn)",
+      "example_ko": "삼 월에 학교에 가요.",
+      "example_vi": "Tháng ba tôi đến trường.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "三",
+      "sino_vietnamese": "tam",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "사",
+      "pos": "N",
+      "meaning_vi": "Bốn (Hán-Hàn)",
+      "example_ko": "사 층에 있어요.",
+      "example_vi": "Ở tầng 4.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "四",
+      "sino_vietnamese": "tứ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "오",
+      "pos": "N",
+      "meaning_vi": "Năm (Hán-Hàn)",
+      "example_ko": "오 분 후에 만나요.",
+      "example_vi": "Năm phút nữa gặp nhé.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "五",
+      "sino_vietnamese": "ngũ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "육",
+      "pos": "N",
+      "meaning_vi": "Sáu (Hán-Hàn)",
+      "note_vi": "6월 = 유월 (không đọc 육월). 16 đọc là [심뉵].",
+      "example_ko": "육 층이에요.",
+      "example_vi": "Ở tầng 6.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "六",
+      "sino_vietnamese": "lục",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "칠",
+      "pos": "N",
+      "meaning_vi": "Bảy (Hán-Hàn)",
+      "example_ko": "칠 월은 더워요.",
+      "example_vi": "Tháng bảy nóng.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "七",
+      "sino_vietnamese": "thất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "팔",
+      "pos": "N",
+      "meaning_vi": "Tám (Hán-Hàn)",
+      "example_ko": "팔 월에 여행해요.",
+      "example_vi": "Tháng tám tôi đi du lịch.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "八",
+      "sino_vietnamese": "bát",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "구",
+      "pos": "N",
+      "meaning_vi": "Chín (Hán-Hàn)",
+      "example_ko": "구 월에 학교에 가요.",
+      "example_vi": "Tháng chín tôi đến trường.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "九",
+      "sino_vietnamese": "cửu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "십",
+      "pos": "N",
+      "meaning_vi": "Mười (Hán-Hàn)",
+      "note_vi": "10월 = 시월 (không đọc 십월).",
+      "example_ko": "십 분 후에 만나요.",
+      "example_vi": "Mười phút nữa gặp nhé.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "十",
+      "sino_vietnamese": "thập",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "백",
+      "pos": "N",
+      "meaning_vi": "Trăm",
+      "note_vi": "Đọc 100 là 백, không nói 일백.",
+      "example_ko": "백 원이에요.",
+      "example_vi": "Một trăm won.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "百",
+      "sino_vietnamese": "bách",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "천",
+      "pos": "N",
+      "meaning_vi": "Nghìn",
+      "note_vi": "Đọc 1.000 là 천, không nói 일천.",
+      "example_ko": "천 원이에요.",
+      "example_vi": "Một nghìn won.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "千",
+      "sino_vietnamese": "thiên",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "만",
+      "pos": "N",
+      "meaning_vi": "Mười nghìn (vạn)",
+      "note_vi": "10.000 = 만; 35.000 = 삼만 오천. Hàng triệu: 백만, hàng chục triệu: 천만.",
+      "example_ko": "만 원이에요.",
+      "example_vi": "Mười nghìn won.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "灣",
+      "sino_vietnamese": "loan",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "분",
+      "pos": "N",
+      "meaning_vi": "Phút",
+      "note_vi": "Số Hán-Hàn + 분. 30 phút còn gọi là 반 (nửa): 세 시 반.",
+      "example_ko": "세 시 십오 분이에요.",
+      "example_vi": "3 giờ 15 phút.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "分",
+      "sino_vietnamese": "phân",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "월",
+      "pos": "N",
+      "meaning_vi": "Tháng",
+      "note_vi": "Số Hán-Hàn + 월. 6월 = 유월, 10월 = 시월.",
+      "example_ko": "몇 월이에요?",
+      "example_vi": "Tháng mấy?",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "月",
+      "sino_vietnamese": "nguyệt",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "년",
+      "pos": "N",
+      "meaning_vi": "Năm",
+      "note_vi": "Số Hán-Hàn + 년: 2026년 = 이천이십육 년.",
+      "example_ko": "이천이십육 년이에요.",
+      "example_vi": "Là năm 2026.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "年",
+      "sino_vietnamese": "niên",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "원",
+      "pos": "N",
+      "meaning_vi": "Won (tiền Hàn Quốc)",
+      "note_vi": "Số Hán-Hàn + 원.",
+      "example_ko": "삼천 원이에요.",
+      "example_vi": "3.000 won.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "층",
+      "pos": "N",
+      "meaning_vi": "Tầng",
+      "note_vi": "Số Hán-Hàn + 층.",
+      "example_ko": "삼 층에 있어요.",
+      "example_vi": "Ở tầng 3.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "層",
+      "sino_vietnamese": "tầng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "오늘",
+      "pos": "N",
+      "meaning_vi": "Hôm nay",
+      "note_vi": "Không gắn 에: ✗ 오늘에.",
+      "example_ko": "오늘은 토요일이에요.",
+      "example_vi": "Hôm nay là thứ bảy.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "지금",
+      "pos": "N",
+      "meaning_vi": "Bây giờ",
+      "example_ko": "지금 몇 시예요?",
+      "example_vi": "Bây giờ là mấy giờ?",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "只今",
+      "sino_vietnamese": "chỉ kim",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "매일",
+      "pos": "N",
+      "meaning_vi": "Mỗi ngày",
+      "example_ko": "매일 음악을 들어요.",
+      "example_vi": "Ngày nào tôi cũng nghe nhạc.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "每日",
+      "sino_vietnamese": "mỗi nhật",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "저녁",
+      "pos": "N",
+      "meaning_vi": "Buổi tối; bữa tối",
+      "example_ko": "저녁 여섯 시에 먹어요.",
+      "example_vi": "Tôi ăn tối lúc 6 giờ.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "밤",
+      "pos": "N",
+      "meaning_vi": "Đêm",
+      "example_ko": "밤 열두 시에 자요.",
+      "example_vi": "Nửa đêm tôi ngủ.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "주말",
+      "pos": "N",
+      "meaning_vi": "Cuối tuần",
+      "example_ko": "주말에 쉬어요.",
+      "example_vi": "Cuối tuần tôi nghỉ.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "週末",
+      "sino_vietnamese": "chu mạt",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "구십",
+      "pos": "N",
+      "meaning_vi": "Chín mươi (90)",
+      "example_ko": "이 책은 구십 쪽이에요.",
+      "example_vi": "Cuốn sách này dày chín mươi trang.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:28637",
+      "hanja": "九十",
+      "enrich": "auto",
+      "sino_vietnamese": "cửu thập"
+    },
+    {
+      "hangul": "구월",
+      "pos": "N",
+      "meaning_vi": "Tháng chín",
+      "note_vi": "Tên tháng: số Hán–Hàn + 월. Hỏi: 몇 월이에요?",
+      "example_ko": "구월에 학교가 시작해요.",
+      "example_vi": "Tháng chín trường học bắt đầu.",
+      "family": "🟢 Nền · Từ sơ cấp · Thời gian",
+      "priority": "core",
+      "source": "krdict:20190",
+      "hanja": "九月",
+      "enrich": "auto",
+      "sino_vietnamese": "cửu nguyệt"
+    },
+    {
+      "hangul": "그램",
+      "pos": "N",
+      "meaning_vi": "Gam (g)",
+      "example_ko": "고기 오백 그램 주세요.",
+      "example_vi": "Cho tôi năm trăm gam thịt.",
+      "family": "🟢 Nền · Từ sơ cấp · Đơn vị đếm",
+      "priority": "core",
+      "source": "krdict:36267",
+      "collocations": [
+        {
+          "ko": "백 그램",
+          "vi": "Một trăm gam"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "돌",
+      "pos": "N",
+      "meaning_vi": "Năm tuổi (của em bé); thôi nôi",
+      "note_vi": "Đếm năm tuổi của em bé: 두 돌. Sinh nhật đầu tiên cũng gọi là 돌 (돌잔치).",
+      "example_ko": "우리 아기가 내일 첫 돌이에요.",
+      "example_vi": "Mai là thôi nôi của bé nhà tôi.",
+      "family": "🟢 Nền · Từ sơ cấp · Đơn vị đếm",
+      "priority": "recognize",
+      "source": "krdict:48616",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "반년",
+      "pos": "N",
+      "meaning_vi": "Nửa năm",
+      "example_ko": "한국에 온 지 반년이 됐어요.",
+      "example_vi": "Tôi đến Hàn Quốc được nửa năm rồi.",
+      "family": "🟢 Nền · Từ sơ cấp · Thời gian",
+      "priority": "recognize",
+      "source": "krdict:56765",
+      "hanja": "半年",
+      "enrich": "auto",
+      "sino_vietnamese": "bán niên"
+    },
+    {
+      "hangul": "반달",
+      "pos": "N",
+      "meaning_vi": "Nửa tháng",
+      "note_vi": "Đồng âm: 반달 cũng là «trăng bán nguyệt».",
+      "example_ko": "반달 동안 여행을 했어요.",
+      "example_vi": "Tôi đã đi du lịch nửa tháng.",
+      "family": "🟢 Nền · Từ sơ cấp · Thời gian",
+      "priority": "recognize",
+      "source": "krdict:56769",
+      "hanja": "半",
+      "enrich": "auto",
+      "sino_vietnamese": "bán"
+    },
+    {
+      "hangul": "백만",
+      "pos": "N",
+      "meaning_vi": "Một triệu",
+      "note_vi": "Đếm từ 만 (vạn = 10.000): 십만 = 100.000, 백만 = 1.000.000.",
+      "example_ko": "이 집은 한 달에 백만 원이에요.",
+      "example_vi": "Căn nhà này một tháng một triệu won.",
+      "pron": "[뱅만]",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:58719",
+      "hanja": "百萬",
+      "enrich": "auto",
+      "sino_vietnamese": "bách vạn"
+    },
+    {
+      "hangul": "사십",
+      "pos": "N",
+      "meaning_vi": "Bốn mươi (40)",
+      "example_ko": "사십 번 버스를 타세요.",
+      "example_vi": "Hãy đi xe buýt số bốn mươi.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:58123",
+      "hanja": "四十",
+      "enrich": "auto",
+      "sino_vietnamese": "tứ thập"
+    },
+    {
+      "hangul": "사월",
+      "pos": "N",
+      "meaning_vi": "Tháng tư",
+      "example_ko": "사월에 벚꽃이 피어요.",
+      "example_vi": "Tháng tư hoa anh đào nở.",
+      "family": "🟢 Nền · Từ sơ cấp · Thời gian",
+      "priority": "core",
+      "source": "krdict:20228",
+      "hanja": "四月",
+      "enrich": "auto",
+      "sino_vietnamese": "tứ nguyệt"
+    },
+    {
+      "hangul": "삼십",
+      "pos": "N",
+      "meaning_vi": "Ba mươi (30)",
+      "example_ko": "오늘은 삼십 도예요.",
+      "example_vi": "Hôm nay ba mươi độ.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:61994",
+      "hanja": "三十",
+      "enrich": "auto",
+      "sino_vietnamese": "tam thập"
+    },
+    {
+      "hangul": "삼월",
+      "pos": "N",
+      "meaning_vi": "Tháng ba",
+      "example_ko": "한국 학교는 삼월에 시작해요.",
+      "example_vi": "Trường học ở Hàn bắt đầu vào tháng ba.",
+      "pron": "[사뭘]",
+      "family": "🟢 Nền · Từ sơ cấp · Thời gian",
+      "priority": "core",
+      "source": "krdict:61884",
+      "hanja": "三月",
+      "enrich": "auto",
+      "sino_vietnamese": "tam nguyệt"
+    },
+    {
+      "hangul": "센티",
+      "pos": "N",
+      "meaning_vi": "Xen-ti-mét (văn nói)",
+      "note_vi": "Rút gọn văn nói của 센티미터.",
+      "example_ko": "키가 10센티 컸어요.",
+      "example_vi": "Bé cao thêm 10 phân.",
+      "family": "🟢 Nền · Từ sơ cấp · Đơn vị đếm",
+      "priority": "recognize",
+      "source": "krdict:74828",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "센티미터",
+      "pos": "N",
+      "meaning_vi": "Xen-ti-mét (cm)",
+      "example_ko": "제 키는 백육십 센티미터예요.",
+      "example_vi": "Tôi cao một mét sáu mươi.",
+      "family": "🟢 Nền · Từ sơ cấp · Đơn vị đếm",
+      "priority": "core",
+      "source": "krdict:65101",
+      "collocations": [
+        {
+          "ko": "십 센티미터",
+          "vi": "Mười xen-ti-mét"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "숫자",
+      "pos": "N",
+      "meaning_vi": "Con số, chữ số",
+      "example_ko": "이 숫자를 한국어로 읽어 보세요.",
+      "example_vi": "Hãy đọc con số này bằng tiếng Hàn.",
+      "pron": "[수짜]",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:65425",
+      "hanja": "數字",
+      "collocations": [
+        {
+          "ko": "숫자를 세다",
+          "vi": "Đếm số"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "số tự"
+    },
+    {
+      "hangul": "시월",
+      "pos": "N",
+      "meaning_vi": "Tháng mười",
+      "note_vi": "Viết và đọc 시월, không phải 십월.",
+      "example_ko": "시월에는 날씨가 좋아요.",
+      "example_vi": "Tháng mười thời tiết đẹp.",
+      "family": "🟢 Nền · Từ sơ cấp · Thời gian",
+      "priority": "core",
+      "source": "krdict:65299",
+      "hanja": "十月",
+      "enrich": "auto",
+      "sino_vietnamese": "thập nguyệt"
+    },
+    {
+      "hangul": "십만",
+      "pos": "N",
+      "meaning_vi": "Một trăm nghìn",
+      "example_ko": "이 신발은 십만 원이에요.",
+      "example_vi": "Đôi giày này giá một trăm nghìn won.",
+      "pron": "[심만]",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:93501",
+      "hanja": "十萬",
+      "enrich": "auto",
+      "sino_vietnamese": "thập vạn"
+    },
+    {
+      "hangul": "십이월",
+      "pos": "N",
+      "meaning_vi": "Tháng mười hai",
+      "example_ko": "십이월에는 눈이 와요.",
+      "example_vi": "Tháng mười hai có tuyết rơi.",
+      "pron": "[시비월]",
+      "family": "🟢 Nền · Từ sơ cấp · Thời gian",
+      "priority": "core",
+      "source": "krdict:27764",
+      "hanja": "十二月",
+      "enrich": "auto",
+      "sino_vietnamese": "thập nhị nguyệt"
+    },
+    {
+      "hangul": "십일월",
+      "pos": "N",
+      "meaning_vi": "Tháng mười một",
+      "example_ko": "제 생일은 십일월이에요.",
+      "example_vi": "Sinh nhật tôi vào tháng mười một.",
+      "pron": "[시비뤌]",
+      "family": "🟢 Nền · Từ sơ cấp · Thời gian",
+      "priority": "core",
+      "source": "krdict:57272",
+      "hanja": "十一月",
+      "enrich": "auto",
+      "sino_vietnamese": "thập nhất nguyệt"
+    },
+    {
+      "hangul": "억",
+      "pos": "N",
+      "meaning_vi": "Một trăm triệu",
+      "note_vi": "1억 = 100.000.000. Chục triệu: 천만.",
+      "example_ko": "그 집은 오억 원이에요.",
+      "example_vi": "Căn nhà đó giá năm trăm triệu won.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:67175",
+      "hanja": "億",
+      "enrich": "auto",
+      "sino_vietnamese": "ức"
+    },
+    {
+      "hangul": "오십",
+      "pos": "N",
+      "meaning_vi": "Năm mươi (50)",
+      "example_ko": "오십 쪽을 펴세요.",
+      "example_vi": "Hãy mở trang năm mươi.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:26889",
+      "hanja": "五十",
+      "enrich": "auto",
+      "sino_vietnamese": "ngũ thập"
+    },
+    {
+      "hangul": "오월",
+      "pos": "N",
+      "meaning_vi": "Tháng năm",
+      "example_ko": "오월 오 일은 어린이날이에요.",
+      "example_vi": "Ngày 5 tháng 5 là Ngày Thiếu nhi.",
+      "family": "🟢 Nền · Từ sơ cấp · Thời gian",
+      "priority": "core",
+      "source": "krdict:62516",
+      "hanja": "五月",
+      "enrich": "auto",
+      "sino_vietnamese": "ngũ nguyệt"
+    },
+    {
+      "hangul": "유월",
+      "pos": "N",
+      "meaning_vi": "Tháng sáu",
+      "note_vi": "Viết và đọc 유월, không phải 육월.",
+      "example_ko": "유월부터 더워요.",
+      "example_vi": "Từ tháng sáu trời nóng.",
+      "family": "🟢 Nền · Từ sơ cấp · Thời gian",
+      "priority": "core",
+      "source": "krdict:70633",
+      "hanja": "六月",
+      "enrich": "auto",
+      "sino_vietnamese": "lục nguyệt"
+    },
+    {
+      "hangul": "육십",
+      "pos": "N",
+      "meaning_vi": "Sáu mươi (60)",
+      "example_ko": "한 시간은 육십 분이에요.",
+      "example_vi": "Một giờ là sáu mươi phút.",
+      "pron": "[육씹]",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:71104",
+      "hanja": "六十",
+      "enrich": "auto",
+      "sino_vietnamese": "lục thập"
+    },
+    {
+      "hangul": "이십",
+      "pos": "N",
+      "meaning_vi": "Hai mươi (20)",
+      "example_ko": "이십 분 후에 만나요.",
+      "example_vi": "Hai mươi phút nữa gặp nhé.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:31648",
+      "hanja": "二十",
+      "enrich": "auto",
+      "sino_vietnamese": "nhị thập"
+    },
+    {
+      "hangul": "이월",
+      "pos": "N",
+      "meaning_vi": "Tháng hai",
+      "example_ko": "이월은 아직 추워요.",
+      "example_vi": "Tháng hai trời vẫn còn lạnh.",
+      "family": "🟢 Nền · Từ sơ cấp · Thời gian",
+      "priority": "core",
+      "source": "krdict:26893",
+      "hanja": "二月",
+      "enrich": "auto",
+      "sino_vietnamese": "nhị nguyệt"
+    },
+    {
+      "hangul": "인분",
+      "pos": "N",
+      "meaning_vi": "Suất, phần (ăn)",
+      "note_vi": "Gọi món theo người: 삼겹살 이 인분 «hai suất ba chỉ».",
+      "example_ko": "불고기 이 인분 주세요.",
+      "example_vi": "Cho tôi hai suất bulgogi.",
+      "family": "🟢 Nền · Từ sơ cấp · Đơn vị đếm",
+      "priority": "core",
+      "source": "krdict:70759",
+      "hanja": "人分",
+      "collocations": [
+        {
+          "ko": "몇 인분",
+          "vi": "Mấy suất"
+        },
+        {
+          "ko": "떡볶이 일 인분",
+          "vi": "Một suất tteokbokki"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "nhân phân"
+    },
+    {
+      "hangul": "일월",
+      "pos": "N",
+      "meaning_vi": "Tháng một, tháng giêng",
+      "example_ko": "일월 일 일은 새해 첫날이에요.",
+      "example_vi": "Ngày 1 tháng 1 là ngày đầu năm mới.",
+      "pron": "[이뤌]",
+      "family": "🟢 Nền · Từ sơ cấp · Thời gian",
+      "priority": "core",
+      "source": "krdict:26894",
+      "hanja": "一月",
+      "enrich": "auto",
+      "sino_vietnamese": "nhất nguyệt"
+    },
+    {
+      "hangul": "천만",
+      "pos": "N",
+      "meaning_vi": "Rất nhiều, muôn vàn",
+      "note_vi": "Cũng là con số mười triệu. 천만에요 «Không có gì đâu ạ» (đáp lời cảm ơn).",
+      "example_ko": "도와주셔서 감사합니다. 천만에요.",
+      "example_vi": "Cảm ơn bạn đã giúp. Không có gì đâu ạ.",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "recognize",
+      "source": "krdict:77554",
+      "hanja": "千萬",
+      "enrich": "auto",
+      "sino_vietnamese": "thiên vạn"
+    },
+    {
+      "hangul": "칠십",
+      "pos": "N",
+      "meaning_vi": "Bảy mươi (70)",
+      "example_ko": "칠십 번 버스가 와요.",
+      "example_vi": "Xe buýt số bảy mươi đến rồi.",
+      "pron": "[칠씹]",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:35087",
+      "hanja": "七十",
+      "enrich": "auto",
+      "sino_vietnamese": "thất thập"
+    },
+    {
+      "hangul": "칠월",
+      "pos": "N",
+      "meaning_vi": "Tháng bảy",
+      "example_ko": "칠월에 방학을 해요.",
+      "example_vi": "Tháng bảy được nghỉ hè.",
+      "pron": "[치뤌]",
+      "family": "🟢 Nền · Từ sơ cấp · Thời gian",
+      "priority": "core",
+      "source": "krdict:30186",
+      "hanja": "七月",
+      "enrich": "auto",
+      "sino_vietnamese": "thất nguyệt"
+    },
+    {
+      "hangul": "킬로",
+      "pos": "N",
+      "meaning_vi": "Ki-lô (kg, km, văn nói)",
+      "note_vi": "Rút gọn của 킬로그램 hoặc 킬로미터, tùy ngữ cảnh.",
+      "example_ko": "쌀 십 킬로를 샀어요.",
+      "example_vi": "Tôi đã mua mười ký gạo.",
+      "family": "🟢 Nền · Từ sơ cấp · Đơn vị đếm",
+      "priority": "core",
+      "source": "krdict:72175",
+      "collocations": [
+        {
+          "ko": "몇 킬로",
+          "vi": "Mấy ký, mấy cây số"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "킬로그램",
+      "pos": "N",
+      "meaning_vi": "Ki-lô-gam (kg)",
+      "example_ko": "가방이 이십 킬로그램이 넘어요.",
+      "example_vi": "Va li nặng hơn hai mươi ki-lô-gam.",
+      "family": "🟢 Nền · Từ sơ cấp · Đơn vị đếm",
+      "priority": "core",
+      "source": "krdict:72176",
+      "collocations": [
+        {
+          "ko": "오십 킬로그램이 넘다",
+          "vi": "Nặng hơn năm mươi ký"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "킬로미터",
+      "pos": "N",
+      "meaning_vi": "Ki-lô-mét (km)",
+      "example_ko": "학교까지 삼 킬로미터예요.",
+      "example_vi": "Đến trường là ba ki-lô-mét.",
+      "family": "🟢 Nền · Từ sơ cấp · Đơn vị đếm",
+      "priority": "core",
+      "source": "krdict:72177",
+      "collocations": [
+        {
+          "ko": "사 킬로미터를 걷다",
+          "vi": "Đi bộ bốn cây số"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "팔십",
+      "pos": "N",
+      "meaning_vi": "Tám mươi (80)",
+      "example_ko": "시험에서 팔십 점을 받았어요.",
+      "example_vi": "Tôi được tám mươi điểm trong kỳ thi.",
+      "pron": "[팔씹]",
+      "family": "🟢 Nền · Từ sơ cấp · Số đếm",
+      "priority": "core",
+      "source": "krdict:26908",
+      "hanja": "八十",
+      "enrich": "auto",
+      "sino_vietnamese": "bát thập"
+    },
+    {
+      "hangul": "팔월",
+      "pos": "N",
+      "meaning_vi": "Tháng tám",
+      "example_ko": "팔월은 제일 더워요.",
+      "example_vi": "Tháng tám nóng nhất.",
+      "pron": "[파뤌]",
+      "family": "🟢 Nền · Từ sơ cấp · Thời gian",
+      "priority": "core",
+      "source": "krdict:30188",
+      "hanja": "八月",
+      "enrich": "auto",
+      "sino_vietnamese": "bát nguyệt"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Sau bài này bạn làm được gì",
+      "kind": "goal",
+      "body": "• Đếm và đọc số Hán-Hàn đến hàng chục nghìn: `만 오천 원`.\n• Đọc ngày tháng theo thứ tự lớn → nhỏ: `이천이십육 년 시월 십 일`.\n• Nói số điện thoại, số tầng, số phút."
+    },
+    {
+      "title": "Bảng số: nhìn nhanh",
+      "kind": "language",
+      "body": "• **Thuần Hàn:** 1 하나(한) · 2 둘(두) · 3 셋(세) · 4 넷(네) · 5 다섯 · 6 여섯 · 7 일곱 · 8 여덟 · 9 아홉 · 10 열 · 20 스물(스무) · 30 서른 · 40 마흔 · 50 쉰 · 60 예순 · 70 일흔 · 80 여든 · 90 아흔. Từ 11 trở đi ghép: 열하나, 열둘, 스물다섯.\n• **Hán-Hàn:** 0 영/공 · 1 일 · 2 이 · 3 삼 · 4 사 · 5 오 · 6 육 · 7 칠 · 8 팔 · 9 구 · 10 십 · 100 백 · 1.000 천 · 10.000 만. Ghép như tiếng Việt: 11 십일, 25 이십오, 100 백, 15.000 만 오천.\n• **Thuần Hàn chỉ dùng đến 99.** Từ 100 trở lên luôn là Hán-Hàn (nên 100 người = 백 명).\n• **Đặc biệt phải nhớ:** 6월 = `유월` (không phải 육월), 10월 = `시월` (không phải 십월). `십육` đọc [심뉵].\n• **Chọn hệ nào:** nếu là 'đếm từng cái' (người, vật, ly, tuổi nói) và GIỜ → thuần Hàn. Nếu là 'số hiệu, thứ tự, tiền, ngày tháng, đo lường, số điện thoại' và PHÚT → Hán-Hàn."
+    }
+  ],
+  "coach": {
+    "focus_vi": [
+      "Số Hán-Hàn + `년 · 월 · 일 · 분 · 원 · 층 · 번`."
+    ],
+    "watch_out_vi": [
+      "6월 = `유월`, 10월 = `시월`; `십육` đọc [심뉵].",
+      "Tiền luôn dùng Hán-Hàn: không nói `다섯 원`."
+    ],
+    "notebook_vi": [
+      "Ngày sinh, số điện thoại và giá 3 món đồ, viết bằng chữ Hán-Hàn."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Đọc to ngày hôm nay và giá một ly cà phê."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "pattern": "Số Hán-Hàn (일 · 이 · 삼) + 년 · 월 · 일 · 분 · 원 · 층 · 번",
+      "meaning_vi": "Số Hán-Hàn: năm, tháng, ngày, phút, tiền, tầng, số hiệu, số điện thoại",
+      "usage_context_vi": "**Cấu tạo:** Số Hán-Hàn gồm các chữ số cơ bản và các số tròn `십`, `백`, `천`, `만`. Ghép từ lớn đến nhỏ như tiếng Việt.\n- **0 – 4:** 0 `영`/`공` · 1 `일` · 2 `이` · 3 `삼` · 4 `사`\n- **5 – 9:** 5 `오` · 6 `육` · 7 `칠` · 8 `팔` · 9 `구`\n- **Số tròn:** 10 `십` · 100 `백` · 1.000 `천` · 10.000 `만`\nGhép số:\n- 11 → `십일` · 25 → `이십오` · 36 → `삼십육`\n- 100 → `백` · 1.000 → `천`\n- 35.000 → `삼만 오천` · 2026 → `이천이십육`\nGắn đơn vị sau số:\n- `년` (năm) · `월` (tháng) · `일` (ngày) · `분` (phút)\n- `원` (tiền) · `층` (tầng) · `번` (số thứ tự) · `호` (số phòng)\nSố điện thoại: đọc từng chữ số, `0` là `공`, dấu gạch ngang đọc `에`: 010-2345-6789 = `공일공에 이삼사오에 육칠팔구`.\n**Hoàn cảnh dùng:** Nói và hỏi NGÀY THÁNG: `시월 십 일이에요`. GIÁ TIỀN: `삼천 원`, `만 오천 원`. PHÚT: `십오 분`, `삼십 분`. TẦNG, SỐ PHÒNG, SỐ XE BUÝT, SỐ ĐIỆN THOẠI: `삼 층`, `삼백일 호`, `오 번 버스`. Hỏi: `몇 월 며칠이에요?`, `얼마예요?`.\n**Vì sao có hai hệ số và cách chọn:** Tiếng Hàn có hệ thuần Hàn (từ gốc Hàn) và hệ Hán-Hàn (gốc Hán). Không có quy tắc suy ra từ nghĩa, nhưng quy luật thực dụng là: Hán-Hàn cho cái được ĐO, GHI, ĐÁNH SỐ (ngày tháng, tiền, phút, tầng, số hiệu), thuần Hàn cho cái được ĐẾM từng cái (người, vật, ly) và GIỜ. Học thuộc một lần theo cặp 'đơn vị + hệ số' thay vì suy luận.",
+      "contrasts": [
+        {
+          "pattern": "Số thuần Hàn + 시 · 개 · 명 · 살 · 잔",
+          "diff_vi": "Giờ và đếm từng cái; đổi dạng 한, 두, 세, 네, 스무 trước đơn vị."
+        },
+        {
+          "pattern": "Tiền: thuần Hàn không dùng",
+          "diff_vi": "Không nói 다섯 원; luôn dùng Hán-Hàn: 오 원, 오백 원."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Đọc sai hai tháng đặc biệt: ✗ `육월`, `십월` → `유월`, `시월`.\n(2) Thêm `일` trước `백`/`천`: ✗ `일백 원`, `일천 원` → `백 원`, `천 원`.\n(3) Dùng số thuần Hàn cho tiền, tầng, phút: ✗ `다섯 원`, `세 층`, `열 분` → `오 원`, `삼 층`, `십 분`.\n(4) Đọc năm theo từng chữ số: ✗ `이영이육 년` → `이천이십육 년` (trừ số điện thoại, đọc từng chữ số).\n(5) Đọc ngày tháng theo thứ tự tiếng Việt: ✗ `십 일 시월` → `시월 십 일` (tháng trước, ngày sau; năm đứng đầu).\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc và nhãn kỳ thi đối chiếu với KIIP 초급1 5·8과 (날짜·요일·가격) · New Yonsei Korean 1-1 (6과 숫자·시간, 8과 요일·날짜) · 표준국어대사전 (유월, 시월).",
+      "topik_tip_vi": "Bài nghe TOPIK I và KIIP có phần hỏi số điện thoại, giá tiền, ngày tháng, số phòng. Nghe đúng HỆ SỐ giúp phán đoán nhanh: có `원`, `월`, `일`, `분`, `층`, `번` → Hán-Hàn; có `개`, `명`, `시`, `살`, `잔` → thuần Hàn.",
+      "example_ko": "오늘은 이천이십육 년 시월 십 일이에요.\n제 생일은 유월 이십오 일이에요.\n이 가방은 삼만 오천 원이에요.\n지금 세 시 십오 분이에요.\n제 방은 삼 층 삼백일 호예요.\n제 전화번호는 공일공에 이삼사오에 칠팔구일이에요.",
+      "example_vi": "Hôm nay là ngày 10 tháng 10 năm 2026.\nSinh nhật tôi là ngày 25 tháng 6.\nChiếc túi này giá 35.000 won.\nBây giờ là 3 giờ 15 phút.\nPhòng tôi ở tầng 3, số 301.\nSố điện thoại của tôi là 010-2345-7891.",
+      "source": "KIIP 초급1 5·8과 (날짜·요일·가격) · New Yonsei Korean 1-1 (6과 숫자·시간, 8과 요일·날짜) · 표준국어대사전 (유월, 시월)",
+      "exam": "kiip-1",
+      "importance": "must"
+    }
+  ],
+  "editor_notes": [],
+  "exercise_ids": [
+    "FLN48",
+    "FLN49",
+    "FLN51",
+    "FLN60",
+    "FR101",
+    "FR102",
+    "FR103",
+    "FR104",
+    "FR105",
+    "FR106",
+    "FR107",
+    "FR108",
+    "FBO20",
+    "FBO21",
+    "FBF17",
+    "FS17",
+    "FS18"
+  ],
+  "sort_order": 12,
+  "sessions": [
+    {
+      "title_vi": "Số Hán-Hàn 0–99 và số điện thoại",
+      "can_do_vi": "Đọc số từ 0 đến 99 bằng số Hán-Hàn (일, 이, 삼… 십, 이십…) và đọc một số điện thoại.",
+      "use_vi": "Đọc số điện thoại, số phòng, số nhà; ghi lại số người Hàn đọc cho mình.",
+      "topik_vi": "Giống dạng nghe số ở phần Nghe TOPIK I: nghe số điện thoại, số nhà rồi chọn đáp án.",
+      "vocab": [
+        "영",
+        "일",
+        "이",
+        "삼",
+        "사",
+        "오",
+        "육",
+        "칠",
+        "팔",
+        "구",
+        "십",
+        "구십",
+        "사십",
+        "삼십",
+        "숫자",
+        "오십",
+        "육십",
+        "이십",
+        "칠십",
+        "팔십"
+      ],
+      "grammar": [
+        "Số Hán-Hàn (일 · 이 · 삼) + 년 · 월 · 일 · 분 · 원 · 층 · 번"
+      ],
+      "check": [
+        "FS17",
+        "FS18",
+        "FR106"
+      ],
+      "situation": {
+        "scene_vi": "Hai người trao đổi số điện thoại.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "전화번호가 몇 번이에요?",
+            "vi": "Số điện thoại của bạn là bao nhiêu?"
+          },
+          {
+            "who": "B",
+            "ko": "공일공, 이삼사오, 육칠팔구예요.",
+            "vi": "010, 2345, 6789."
+          },
+          {
+            "who": "A",
+            "ko": "공일공, 이삼사오, 육칠팔구요?",
+            "vi": "010, 2345, 6789 phải không?"
+          },
+          {
+            "who": "B",
+            "ko": "네, 맞아요.",
+            "vi": "Vâng, đúng rồi."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "몇 층이에요?",
+          "prompt_vi": "Tầng mấy? (tầng 15)",
+          "options": [
+            {
+              "ko": "십오 층이에요.",
+              "vi": "Tầng 15.",
+              "ok": true,
+              "why_vi": "Tầng (층) dùng số Hán-Hàn: 십오."
+            },
+            {
+              "ko": "열다섯 층이에요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Số thuần Hàn dùng cho giờ, tuổi, đếm vật. 층 đi với số Hán-Hàn."
+            },
+            {
+              "ko": "십오 시예요.",
+              "vi": "15 giờ.",
+              "ok": false,
+              "why_vi": "시 là giờ, không phải tầng."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «ngày 12 tháng 5». Cách nào đúng?",
+          "a": {
+            "ko": "오월 십이일",
+            "vi": "Ngày 12 tháng 5"
+          },
+          "b": {
+            "ko": "다섯월 열두일",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "Tháng và ngày dùng số Hán-Hàn: 오월, 십이일."
+        }
+      }
+    },
+    {
+      "title_vi": "Ngày, tháng, năm",
+      "can_do_vi": "Nói ngày tháng: «Hôm nay là ngày 10 tháng 10» (시월 십 일), «sinh nhật tôi 25 tháng 6» (유월 이십오 일) — nhớ hai tháng đọc đặc biệt 유월, 시월.",
+      "use_vi": "Nói sinh nhật, ngày hẹn, ngày nhập học; đọc lịch.",
+      "topik_vi": "Giống dạng nghe chọn đáp án có ngày tháng ở phần Nghe TOPIK I và dạng điền số vào chỗ trống ở phần Đọc.",
+      "vocab": [
+        "월",
+        "년",
+        "오늘",
+        "지금",
+        "매일",
+        "저녁",
+        "밤",
+        "주말",
+        "구월",
+        "반년",
+        "반달",
+        "사월",
+        "삼월",
+        "시월",
+        "십이월",
+        "십일월",
+        "오월",
+        "유월",
+        "이월",
+        "일월",
+        "칠월",
+        "팔월"
+      ],
+      "grammar": [],
+      "check": [
+        "FLN48",
+        "FLN51",
+        "FR103",
+        "FR104",
+        "FBO21"
+      ],
+      "situation": {
+        "scene_vi": "Hai người hỏi nhau về ngày tháng.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "오늘이 며칠이에요?",
+            "vi": "Hôm nay là ngày mấy?"
+          },
+          {
+            "who": "B",
+            "ko": "오늘은 시월 이십일이에요.",
+            "vi": "Hôm nay là ngày 20 tháng 10."
+          },
+          {
+            "who": "A",
+            "ko": "내일은요?",
+            "vi": "Còn ngày mai?"
+          },
+          {
+            "who": "B",
+            "ko": "내일은 시월 이십일일이에요.",
+            "vi": "Ngày mai là ngày 21 tháng 10."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "오늘이 몇 월 며칠이에요?",
+          "prompt_vi": "Hôm nay là tháng mấy, ngày mấy? (6/10)",
+          "options": [
+            {
+              "ko": "유월 십일이에요.",
+              "vi": "Ngày 10 tháng 6.",
+              "ok": true,
+              "why_vi": "Tháng 6 đọc là 유월, tháng 10 đọc là 시월, hai tháng này đọc bất quy tắc."
+            },
+            {
+              "ko": "육월 십일이에요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Tháng 6 không đọc 육월 mà là 유월."
+            },
+            {
+              "ko": "여섯월 십일이에요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Tháng dùng số Hán-Hàn, không dùng số thuần Hàn."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «tháng 10». Cách nào đúng?",
+          "a": {
+            "ko": "시월",
+            "vi": "Tháng 10"
+          },
+          "b": {
+            "ko": "십월",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "Tháng 10 là 시월, tháng 6 là 유월. Không đọc 십월, 육월."
+        }
+      }
+    },
+    {
+      "title_vi": "Số lớn và tiền (만, 천, 원)",
+      "can_do_vi": "Đọc giá tiền và số lớn: «삼만 오천 원» (35.000 won), «이천이십육 년» (năm 2026).",
+      "use_vi": "Hỏi giá ở cửa hàng, đọc hóa đơn, nói năm sinh.",
+      "topik_vi": "Giống dạng nghe giá tiền ở phần Nghe TOPIK I (đáp án hay đổi chữ số) và dạng điền số vào chỗ trống ở phần Đọc.",
+      "vocab": [
+        "백",
+        "천",
+        "만",
+        "원",
+        "십만",
+        "백만",
+        "천만",
+        "억"
+      ],
+      "grammar": [],
+      "check": [
+        "FLN49",
+        "FR101",
+        "FR102",
+        "FR107",
+        "FBO20"
+      ],
+      "situation": {
+        "scene_vi": "Hai người hỏi giá một món đồ.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "이거 얼마예요?",
+            "vi": "Cái này bao nhiêu tiền?"
+          },
+          {
+            "who": "B",
+            "ko": "삼만 오천 원이에요.",
+            "vi": "35.000 won."
+          },
+          {
+            "who": "A",
+            "ko": "이만 원이에요?",
+            "vi": "20.000 won à?"
+          },
+          {
+            "who": "B",
+            "ko": "아니요, 삼만 오천 원이에요.",
+            "vi": "Không, 35.000 won."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "얼마예요? (15.000 won)",
+          "prompt_vi": "Bao nhiêu tiền?",
+          "options": [
+            {
+              "ko": "만 오천 원이에요.",
+              "vi": "15.000 won.",
+              "ok": true,
+              "why_vi": "Đọc 10.000 là 만, 5.000 là 오천: 만 오천."
+            },
+            {
+              "ko": "백오십 원이에요.",
+              "vi": "150 won.",
+              "ok": false,
+              "why_vi": "150 là 백오십, nhỏ hơn rất nhiều."
+            },
+            {
+              "ko": "오천십 원이에요.",
+              "vi": "5.010 won.",
+              "ok": false,
+              "why_vi": "Số này là 5.010, không phải 15.000."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «10.000 won». Cách nào tự nhiên hơn?",
+          "a": {
+            "ko": "만 원",
+            "vi": "10.000 won"
+          },
+          "b": {
+            "ko": "일만 원",
+            "vi": "10.000 won (nghe lạ tai)"
+          },
+          "better": "a",
+          "why_vi": "Người Hàn thường không đọc 일 trước 만 khi nói tròn 10.000: nói 만 원."
+        }
+      }
+    },
+    {
+      "title_vi": "Phút, tầng, số xe và đo lường",
+      "can_do_vi": "Nói phút («삼십 분»), tầng («삼 층»), số xe buýt («삼 번 버스»), thời gian học («육 개월») và đơn vị cân đo (킬로, 센티미터).",
+      "use_vi": "Hỏi tầng trong tòa nhà, lên đúng xe buýt, nói cân nặng và chiều cao khi khám bệnh.",
+      "topik_vi": "Giống dạng nghe chọn nội dung trùng khớp ở phần Nghe TOPIK I (tầng, số xe) và dạng điền vào chỗ trống ở phần Đọc.",
+      "vocab": [
+        "분",
+        "층",
+        "그램",
+        "돌",
+        "센티",
+        "센티미터",
+        "인분",
+        "킬로",
+        "킬로그램",
+        "킬로미터"
+      ],
+      "grammar": [],
+      "check": [
+        "FLN60",
+        "FR105",
+        "FR108",
+        "FBF17"
+      ],
+      "situation": {
+        "scene_vi": "Hai người nói về số xe, phút và cân nặng.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "이 버스는 몇 번이에요?",
+            "vi": "Xe buýt này số mấy?"
+          },
+          {
+            "who": "B",
+            "ko": "이백삼십 번이에요.",
+            "vi": "Số 230."
+          },
+          {
+            "who": "A",
+            "ko": "이 가방은 몇 킬로그램이에요?",
+            "vi": "Cái túi này nặng mấy ký?"
+          },
+          {
+            "who": "B",
+            "ko": "이 킬로그램이에요.",
+            "vi": "2 ký."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "몇 층에 살아요?",
+          "prompt_vi": "Bạn sống ở tầng mấy? (tầng 20)",
+          "options": [
+            {
+              "ko": "이십 층에 살아요.",
+              "vi": "Tôi sống ở tầng 20.",
+              "ok": true,
+              "why_vi": "층 đi với số Hán-Hàn: 이십 층."
+            },
+            {
+              "ko": "스무 층에 살아요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "스무 là số thuần Hàn, dùng đếm người/vật, tuổi. 층 dùng số Hán-Hàn."
+            },
+            {
+              "ko": "이십 시에 살아요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "시 là đơn vị giờ."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «5 phút». Cách nào đúng?",
+          "a": {
+            "ko": "오 분",
+            "vi": "5 phút"
+          },
+          "b": {
+            "ko": "다섯 분",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "분 (phút) đi với số Hán-Hàn. Giờ (시) mới đi với số thuần Hàn."
+        }
+      }
+    }
+  ]
+}

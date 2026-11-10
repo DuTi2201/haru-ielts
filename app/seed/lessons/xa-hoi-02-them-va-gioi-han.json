@@ -1,0 +1,612 @@
+{
+  "slug": "xa-hoi-02-them-va-gioi-han",
+  "title": "Thêm vào và giới hạn: 말고도/외에도 · 은/는 물론 · 만으로(는) · -(으)ㄹ 뿐이다",
+  "title_ko": "더하기와 한정하기",
+  "topic": "Xã hội, Tư tưởng & Chuyên ngành",
+  "track": "advanced",
+  "level": 5,
+  "sort_order": 63,
+  "summary": "Bốn mẫu hay ra ở Đọc 3–4 và các bài đọc dài: hai mẫu «thêm vào» (N 말고도/외에도, N은/는 물론) và hai mẫu «giới hạn» (N만으로(는), -(으)ㄹ 뿐이다). Kèm 27 từ nền về tri thức, giá trị, đóng góp, quản lý và đánh giá (지식, 기여, 제시, 통제, 우려, 의존…).",
+  "vocab": [
+    {
+      "hangul": "지식",
+      "pos": "N",
+      "meaning_vi": "Tri thức, kiến thức",
+      "note_vi": "`지식을 쌓다/얻다/나누다`; `지식인` = người trí thức.",
+      "example_ko": "독서는 지식을 쌓는 가장 좋은 방법이다.",
+      "example_vi": "Đọc sách là cách tốt nhất để tích luỹ tri thức.",
+      "family": "🟢 Nền · Tri thức, giá trị, đóng góp",
+      "priority": "core",
+      "hanja": "知識",
+      "sino_vietnamese": "tri thức",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "인류",
+      "pos": "N",
+      "meaning_vi": "Nhân loại",
+      "note_vi": "`인류의 역사/미래`. `인간` là con người nói chung, `인류` là loài người cả tập thể.",
+      "example_ko": "인류는 불을 사용하면서 크게 발전했다.",
+      "example_vi": "Nhân loại phát triển lớn nhờ biết dùng lửa.",
+      "family": "🟢 Nền · Tri thức, giá trị, đóng góp",
+      "priority": "core",
+      "hanja": "人類",
+      "sino_vietnamese": "nhân loại",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "올바르다",
+      "pos": "A",
+      "meaning_vi": "Đúng đắn, chuẩn mực",
+      "note_vi": "Hay đi với `판단, 습관, 자세, 사용`; `올바르게 + V`.",
+      "example_ko": "올바른 습관은 어릴 때부터 길러야 한다.",
+      "example_vi": "Thói quen đúng đắn phải được rèn từ nhỏ.",
+      "family": "🟢 Nền · Tri thức, giá trị, đóng góp",
+      "priority": "core"
+    },
+    {
+      "hangul": "기여",
+      "pos": "N",
+      "meaning_vi": "Sự đóng góp",
+      "note_vi": "`N에 기여하다`; `기여도`. Cũng dùng `공헌` (nghĩa gần).",
+      "example_ko": "그는 사회 발전에 크게 기여했다.",
+      "example_vi": "Ông ấy đã đóng góp lớn cho sự phát triển xã hội.",
+      "family": "🟢 Nền · Tri thức, giá trị, đóng góp",
+      "priority": "core",
+      "hanja": "寄與",
+      "sino_vietnamese": "ký dữ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "제시",
+      "pos": "N",
+      "meaning_vi": "Sự đưa ra, trình bày",
+      "note_vi": "`제시하다/제시되다`; `근거/의견/기준을 제시하다`.",
+      "example_ko": "전문가들은 여러 가지 해결 방법을 제시했다.",
+      "example_vi": "Các chuyên gia đã đưa ra nhiều cách giải quyết.",
+      "family": "🟢 Nền · Tri thức, giá trị, đóng góp",
+      "priority": "core",
+      "hanja": "提示",
+      "sino_vietnamese": "đề thị",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "산업",
+      "pos": "N",
+      "meaning_vi": "Ngành, công nghiệp",
+      "note_vi": "`관광 산업`, `산업 구조`; `공업` hẹp hơn (chế tạo).",
+      "example_ko": "반도체는 우리나라의 중요한 산업이다.",
+      "example_vi": "Chất bán dẫn là một ngành quan trọng của nước ta.",
+      "family": "🟢 Nền · Tri thức, giá trị, đóng góp",
+      "priority": "core",
+      "hanja": "産業",
+      "sino_vietnamese": "sản nghiệp",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "아동",
+      "pos": "N",
+      "meaning_vi": "Trẻ em (văn bản chính thức)",
+      "note_vi": "`어린이` thân mật; `아동` dùng trong luật, chính sách: `아동 학대`, `아동 수당`.",
+      "example_ko": "아동 복지 시설을 더 늘려야 한다.",
+      "example_vi": "Cần tăng thêm cơ sở phúc lợi trẻ em.",
+      "family": "🟢 Nền · Tri thức, giá trị, đóng góp",
+      "priority": "core",
+      "hanja": "兒童",
+      "sino_vietnamese": "nhi đồng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "업적",
+      "pos": "N",
+      "meaning_vi": "Thành tựu, công trạng",
+      "note_vi": "`업적을 남기다/이루다/세우다`.",
+      "example_ko": "세종대왕의 가장 큰 업적은 한글 창제이다.",
+      "example_vi": "Thành tựu lớn nhất của vua Sejong là sáng tạo Hangeul.",
+      "family": "🟢 Nền · Tri thức, giá trị, đóng góp",
+      "priority": "recognize",
+      "hanja": "業績",
+      "sino_vietnamese": "nghiệp tích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "인재",
+      "pos": "N",
+      "meaning_vi": "Nhân tài",
+      "note_vi": "`인재를 키우다/양성하다/영입하다`.",
+      "example_ko": "기업은 창의적인 인재를 원한다.",
+      "example_vi": "Doanh nghiệp muốn những nhân tài sáng tạo.",
+      "family": "🟢 Nền · Tri thức, giá trị, đóng góp",
+      "priority": "recognize",
+      "hanja": "人材",
+      "sino_vietnamese": "nhân tài",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "혜택",
+      "pos": "N",
+      "meaning_vi": "Ưu đãi, lợi ích được hưởng",
+      "note_vi": "`혜택을 받다/주다/누리다`.",
+      "example_ko": "이 카드를 쓰면 다양한 혜택을 받을 수 있다.",
+      "example_vi": "Dùng thẻ này sẽ nhận được nhiều ưu đãi.",
+      "family": "🟢 Nền · Tri thức, giá trị, đóng góp",
+      "priority": "core",
+      "hanja": "惠澤",
+      "sino_vietnamese": "huệ trạch",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "보장",
+      "pos": "N",
+      "meaning_vi": "Sự bảo đảm",
+      "note_vi": "`보장하다/보장되다`; `사회 보장`, `최소한의 보장`.",
+      "example_ko": "헌법은 국민의 기본권을 보장한다.",
+      "example_vi": "Hiến pháp bảo đảm các quyền cơ bản của công dân.",
+      "family": "🟢 Nền · Tri thức, giá trị, đóng góp",
+      "priority": "core",
+      "hanja": "保障",
+      "sino_vietnamese": "bảo chướng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "발전",
+      "pos": "N",
+      "meaning_vi": "Sự phát triển",
+      "note_vi": "`발전하다` (tự động), `발전시키다` (làm cho phát triển). `발전소` = nhà máy điện, cùng âm khác nghĩa.",
+      "example_ko": "과학 기술의 발전으로 생활이 편리해졌다.",
+      "example_vi": "Nhờ sự phát triển của khoa học kỹ thuật, cuộc sống tiện lợi hơn.",
+      "family": "🟢 Nền · Tri thức, giá trị, đóng góp",
+      "priority": "core",
+      "hanja": "發展",
+      "sino_vietnamese": "phát triển",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "누리다",
+      "pos": "V",
+      "meaning_vi": "Hưởng, được hưởng",
+      "note_vi": "`자유/행복/인기/혜택을 누리다`: thường là điều tốt.",
+      "example_ko": "모든 국민은 자유를 누릴 권리가 있다.",
+      "example_vi": "Mọi công dân có quyền được hưởng tự do.",
+      "family": "🟢 Nền · Tri thức, giá trị, đóng góp",
+      "priority": "core"
+    },
+    {
+      "hangul": "주목",
+      "pos": "N",
+      "meaning_vi": "Sự chú ý, đổ dồn ánh nhìn",
+      "note_vi": "`주목을 받다/끌다`; `주목하다`. Gần `관심` nhưng mạnh hơn.",
+      "example_ko": "이 연구는 학계의 주목을 받고 있다.",
+      "example_vi": "Nghiên cứu này đang được giới học thuật chú ý.",
+      "family": "🟢 Nền · Tri thức, giá trị, đóng góp",
+      "priority": "core",
+      "hanja": "注目",
+      "sino_vietnamese": "chú mục",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "통제",
+      "pos": "N",
+      "meaning_vi": "Sự kiểm soát",
+      "note_vi": "`통제하다/통제되다`; `통제 불능` = ngoài tầm kiểm soát. `관리` là quản lý thường ngày.",
+      "example_ko": "정부는 물가를 통제하려고 한다.",
+      "example_vi": "Chính phủ định kiểm soát giá cả.",
+      "family": "🟡 Dạng thi · Quản lý, đánh giá, cảnh báo",
+      "priority": "core",
+      "hanja": "統制",
+      "sino_vietnamese": "thống chế",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "촉구",
+      "pos": "N",
+      "meaning_vi": "Sự thúc giục, kêu gọi",
+      "note_vi": "`N을/를 촉구하다`; hay gặp trong bản tin.",
+      "example_ko": "시민 단체는 정부에 대책 마련을 촉구했다.",
+      "example_vi": "Tổ chức dân sự đã kêu gọi chính phủ đưa ra biện pháp.",
+      "family": "🟡 Dạng thi · Quản lý, đánh giá, cảnh báo",
+      "priority": "core",
+      "hanja": "促求",
+      "sino_vietnamese": "xúc cầu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "염려",
+      "pos": "N",
+      "meaning_vi": "Sự lo ngại",
+      "note_vi": "`염려하다/염려되다`; `염려 마세요` = đừng lo.",
+      "example_ko": "건강이 염려되어 병원에 갔다.",
+      "example_vi": "Lo cho sức khoẻ nên tôi đã đến bệnh viện.",
+      "family": "🟡 Dạng thi · Quản lý, đánh giá, cảnh báo",
+      "priority": "core",
+      "hanja": "念慮",
+      "sino_vietnamese": "niệm lự",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "우려",
+      "pos": "N",
+      "meaning_vi": "Mối lo ngại",
+      "note_vi": "`우려가 크다/커지다`, `우려하다`. Trang trọng hơn `걱정`; gặp trong `-(으)ㄹ 우려가 있다`.",
+      "example_ko": "경제 위기에 대한 우려가 커지고 있다.",
+      "example_vi": "Mối lo về khủng hoảng kinh tế đang lớn dần.",
+      "family": "🟡 Dạng thi · Quản lý, đánh giá, cảnh báo",
+      "priority": "core",
+      "hanja": "憂慮",
+      "sino_vietnamese": "ưu lự",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "저렴하다",
+      "pos": "A",
+      "meaning_vi": "Rẻ, giá phải chăng",
+      "note_vi": "`싸다` khẩu ngữ; `저렴하다` trang trọng, hàm ý hợp lý. Trái nghĩa: `비싸다`.",
+      "example_ko": "이 가게는 품질이 좋고 값이 저렴하다.",
+      "example_vi": "Cửa hàng này chất lượng tốt mà giá lại phải chăng.",
+      "family": "🟡 Dạng thi · Quản lý, đánh giá, cảnh báo",
+      "priority": "core",
+      "hanja": "低廉",
+      "sino_vietnamese": "đê liêm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "지급",
+      "pos": "N",
+      "meaning_vi": "Sự chi trả, cấp phát",
+      "note_vi": "`지급하다/지급되다`; bên trả chủ động đưa tiền, vật chất.",
+      "example_ko": "회사는 직원에게 성과급을 지급했다.",
+      "example_vi": "Công ty đã chi thưởng hiệu suất cho nhân viên.",
+      "family": "🟡 Dạng thi · Quản lý, đánh giá, cảnh báo",
+      "priority": "core",
+      "hanja": "支給",
+      "sino_vietnamese": "chi cấp",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "효율",
+      "pos": "N",
+      "meaning_vi": "Hiệu suất",
+      "note_vi": "`효율적(인)`, `효율성`; `효율을 높이다`.",
+      "example_ko": "일의 효율을 높이려면 계획이 필요하다.",
+      "example_vi": "Muốn nâng cao hiệu suất công việc thì cần có kế hoạch.",
+      "family": "🟡 Dạng thi · Quản lý, đánh giá, cảnh báo",
+      "priority": "core",
+      "hanja": "效率",
+      "sino_vietnamese": "hiệu suất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "비판",
+      "pos": "N",
+      "meaning_vi": "Sự phê phán",
+      "note_vi": "`비판하다/비판을 받다`. `비난` là chê trách, mang cảm xúc mạnh hơn.",
+      "example_ko": "그의 주장은 많은 비판을 받았다.",
+      "example_vi": "Lập luận của ông ấy bị nhiều phê phán.",
+      "family": "🟡 Dạng thi · Quản lý, đánh giá, cảnh báo",
+      "priority": "core",
+      "hanja": "批判",
+      "sino_vietnamese": "phê phán",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "활용",
+      "pos": "N",
+      "meaning_vi": "Sự tận dụng, vận dụng",
+      "note_vi": "`활용하다/활용되다`; `활용도`.",
+      "example_ko": "버려지는 자원을 활용하는 방법을 찾고 있다.",
+      "example_vi": "Đang tìm cách tận dụng nguồn tài nguyên bị bỏ phí.",
+      "family": "🟡 Dạng thi · Quản lý, đánh giá, cảnh báo",
+      "priority": "core",
+      "hanja": "活用",
+      "sino_vietnamese": "hoạt dụng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "공유",
+      "pos": "N",
+      "meaning_vi": "Sự chia sẻ, dùng chung",
+      "note_vi": "`공유하다`; dùng cho thông tin, tệp, tài nguyên.",
+      "example_ko": "정보를 공유하면 일이 빨라진다.",
+      "example_vi": "Nếu chia sẻ thông tin thì công việc nhanh hơn.",
+      "family": "🟡 Dạng thi · Quản lý, đánh giá, cảnh báo",
+      "priority": "core",
+      "hanja": "共有",
+      "sino_vietnamese": "cộng hữu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "형성",
+      "pos": "N",
+      "meaning_vi": "Sự hình thành",
+      "note_vi": "`형성하다/형성되다`; `가치관/습관을 형성하다`.",
+      "example_ko": "어릴 때의 경험은 성격 형성에 영향을 준다.",
+      "example_vi": "Trải nghiệm thuở nhỏ ảnh hưởng đến sự hình thành tính cách.",
+      "family": "🟡 Dạng thi · Quản lý, đánh giá, cảnh báo",
+      "priority": "core",
+      "hanja": "形成",
+      "sino_vietnamese": "hình thành",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "선호",
+      "pos": "N",
+      "meaning_vi": "Sự ưa chuộng",
+      "note_vi": "`선호하다`; `선호도` = mức độ ưa chuộng.",
+      "example_ko": "젊은 세대는 모바일 결제를 선호한다.",
+      "example_vi": "Thế hệ trẻ ưa chuộng thanh toán qua điện thoại.",
+      "family": "🟡 Dạng thi · Quản lý, đánh giá, cảnh báo",
+      "priority": "core",
+      "hanja": "選好",
+      "sino_vietnamese": "tuyển hiếu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "의존",
+      "pos": "N",
+      "meaning_vi": "Sự dựa vào, lệ thuộc",
+      "note_vi": "`N에 의존하다`; `의존도`. Mang sắc thái tiêu cực nhẹ khi quá mức.",
+      "example_ko": "스마트폰에 너무 의존하면 집중력이 떨어진다.",
+      "example_vi": "Nếu quá phụ thuộc vào điện thoại thông minh thì khả năng tập trung giảm.",
+      "family": "🟡 Dạng thi · Quản lý, đánh giá, cảnh báo",
+      "priority": "core",
+      "hanja": "依存",
+      "sino_vietnamese": "y tồn",
+      "enrich": "auto"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "N + 말고(도) · N + 외에(도) · N + 이외에(도)",
+      "meaning_vi": "Ngoài N ra (còn …) · Ngoài N ra thì không …",
+      "usage_context_vi": "**Cấu tạo:** `N 말고도` (khẩu ngữ), `N 외에도`, `N 이외에도` (trang trọng, văn viết). Vế sau thường có `도` (cũng) hoặc `또` (còn). `외` là danh từ phụ thuộc nên **viết cách** với danh từ trước: `한국어 외에도`; còn `이외` là một từ (以外). Biến thể loại trừ: `N 말고는 / 외에는 / 이외에는 + phủ định` = «ngoài N ra thì không …».\n**Hoàn cảnh dùng:** Thêm một hay vài điều nữa vào điều đã nêu: `내과 외에도 피부과가 있다.` Hoặc loại trừ: `그 사람 말고는 아무도 몰랐다.` Với danh từ nối vào danh từ.\n**Vì sao chọn nó:** `뿐만 아니라` nối **hai vế động từ/tính từ** hoặc hai danh từ; `N 외에도` nhấn «N đã biết, rồi thêm cái khác». Văn viết (Đọc 28–50, Viết 53–54) chọn `외에도/이외에도`; khi nói chuyện `말고도` tự nhiên hơn.",
+      "contrasts": [
+        {
+          "pattern": "V/A + -(으)ㄹ 뿐만 아니라",
+          "diff_vi": "`-(으)ㄹ 뿐만 아니라` nối hai vế (V/A); `N 외에도` đi sau danh từ để thêm một mục nữa."
+        },
+        {
+          "pattern": "N + 밖에 + phủ định",
+          "diff_vi": "`N밖에 없다` = chỉ có N (không còn gì khác); `N 외에도 있다` = ngoài N còn có cái khác. Hai mẫu nói về «còn hay hết» theo hai chiều ngược nhau."
+        },
+        {
+          "pattern": "N + 은/는 물론",
+          "diff_vi": "`은/는 물론` coi N là điều hiển nhiên rồi nêu thêm điều ở mức cao hơn; `외에도` chỉ liệt kê thêm."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Bỏ `도` thì nghĩa khác hẳn: `커피 말고 차를 마셨어요` = «uống trà chứ **không** uống cà phê»; `커피 말고도 차를 마셨어요` = «ngoài cà phê còn uống trà».\n(2) Viết liền: ✗ `한국어외에도` → ✓ `한국어 외에도`.\n(3) `N 외에는/말고는` mà vế sau khẳng định: ✗ `그 사람 외에는 알았다` → ✓ `그 사람 외에는 아무도 몰랐다`.",
+      "example_ko": "한국어 말고도 영어와 일본어를 할 수 있어요.\n이 병원에는 내과 외에도 피부과와 치과가 있다.\n그 사람 말고는 아무도 그 사실을 몰랐다.\n커피 말고 차를 마셨어요.",
+      "example_vi": "Ngoài tiếng Hàn, tôi còn nói được tiếng Anh và tiếng Nhật.\nBệnh viện này ngoài khoa nội còn có khoa da liễu và nha khoa.\nNgoài người đó ra, không ai biết sự thật ấy.\nTôi uống trà chứ không uống cà phê (đối chiếu: không có 도).",
+      "topik_tip_vi": "Đọc 3–4: `N 말고도` ≈ `N 외에도` ≈ `N 이외에도`. Gạch chân khẩu ngữ `말고도` thì đáp án thường là văn viết `외에도`, nghĩa không đổi.",
+      "importance": "must"
+    },
+    {
+      "pattern": "N + 은/는 물론(이고)",
+      "meaning_vi": "N thì khỏi phải nói, mà còn … · Không chỉ N mà cả …",
+      "usage_context_vi": "**Cấu tạo:** `N은/는 물론(이고) N도 …`. Danh từ + `은/는 물론`; có thể thêm `이고`. Vế sau thường có `도`, `까지`, `조차`. Danh từ trước `물론` là điều **hiển nhiên**, danh từ sau là điều **mở rộng hơn**. `물론` đứng riêng cũng là phó từ «đương nhiên».\n**Hoàn cảnh dùng:** Gộp hai nhóm vào một câu ngắn: `학생들은 물론 선생님도 참가했다.` Dùng được cả khi nói và khi viết; trong bài viết trang trọng hay gặp `은/는 물론이고`.\n**Vì sao chọn nó:** Một câu gói được hai đối tượng nên ngắn hơn hai câu rời. Điều đã hiển nhiên đứng trước, điều bất ngờ hơn đứng sau, nên vế sau thường mang `도/까지`.",
+      "contrasts": [
+        {
+          "pattern": "N + 은/는커녕",
+          "diff_vi": "`은/는커녕` bắt buộc đi với phủ định: «chưa nói gì N, đến N cũng không». `은/는 물론` dùng với khẳng định (và cả phủ định) để nói «N thì đương nhiên»."
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 뿐만 아니라",
+          "diff_vi": "`뿐만 아니라` nối hai vế bình đẳng; `물론` nói rõ vế trước là điều hiển nhiên."
+        },
+        {
+          "pattern": "N + 마저 · N + 조차",
+          "diff_vi": "`마저/조차` nhấn «ngay cả N cũng» (thường tiêu cực, bất ngờ); `은/는 물론` là «thêm vào», không buồn không bất ngờ."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Đảo thứ tự: ✗ `일본어도 영어는 물론 잘해요` → ✓ `영어는 물론 일본어도 잘해요` (điều hiển nhiên đứng trước).\n(2) Viết liền: ✗ `학생들은물론` → ✓ `학생들은 물론`.\n(3) Nhầm với `은/는커녕`: ✗ `밥은커녕 물도 마셨다` → ✓ `밥은커녕 물도 못 마셨다`.",
+      "example_ko": "이 식당은 한국 사람은 물론 외국인에게도 인기가 많다.\n그는 영어는 물론이고 중국어도 유창하게 한다.\n이번 사고로 재산 피해는 물론 인명 피해도 컸다.\n요즘은 어른은 물론 아이들도 스마트폰을 사용한다.",
+      "example_vi": "Quán này đông khách Hàn đã đành, người nước ngoài cũng rất thích.\nAnh ấy nói tiếng Anh thì khỏi nói, tiếng Trung cũng lưu loát.\nVụ tai nạn này, thiệt hại tài sản đã đành, thiệt hại về người cũng lớn.\nDạo này người lớn đã đành, trẻ em cũng dùng điện thoại thông minh.",
+      "topik_tip_vi": "Gặp `N은/는 물론` thì nhìn vế sau: thường có `도/까지/조차`. Câu hỏi hay yêu cầu chọn «nội dung bao gồm cả …».",
+      "importance": "normal"
+    },
+    {
+      "pattern": "N + 만으로(는) · V + -는 것만으로(도)",
+      "meaning_vi": "Chỉ riêng N (thì) … · Chỉ bằng việc … (thì cũng)",
+      "usage_context_vi": "**Cấu tạo:** `N만으로(는)` và `V + -는 것만으로(도)`; quá khứ `-(으)ㄴ 것만으로(도)`. `만` (chỉ) + `으로` (bằng) + trợ từ `는` hoặc `도`. Dính liền với danh từ: `말만으로는`. Kết thúc bằng `는` thì vế sau thường **phủ định / thiếu / khó**; kết thúc bằng `도` thì vế sau nói **chỉ thế cũng đủ**.\n**Hoàn cảnh dùng:** Nêu điều kiện **đơn lẻ**: `말만으로는 믿을 수 없다.` (chỉ lời nói thì chưa tin được) / `웃는 것만으로도 기분이 좋아진다.` (chỉ cần cười cũng vui lên).\n**Vì sao chọn nó:** `N으로` chỉ phương tiện. Thêm `만` để giới hạn «chỉ bằng N». Trợ từ `는` đặt N đối lập với «còn cần thêm gì khác» (→ chưa đủ), trợ từ `도` nhấn «chỉ vậy cũng» (→ đủ). Vì vậy cùng gốc `만으로` mà câu kết khác nhau.",
+      "contrasts": [
+        {
+          "pattern": "N + 만",
+          "diff_vi": "`N만` chọn N trong nhóm; `N만으로(는)` nói về **đủ hay không đủ** khi dùng riêng N."
+        },
+        {
+          "pattern": "N + (으)로",
+          "diff_vi": "`N으로` chỉ nêu phương tiện, trung tính; `만으로` thêm đánh giá «chỉ vậy»."
+        },
+        {
+          "pattern": "V + -기만 해도",
+          "diff_vi": "Gần nghĩa `-는 것만으로도` (chỉ làm … cũng đã), thiên về khẩu ngữ."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) `만으로는` mà vế sau khẳng định đầy đủ: ✗ `이 약만으로는 낫는다` → ✓ `이 약만으로는 낫지 않는다` hoặc `이 약만으로도 낫는다`.\n(2) Viết cách: ✗ `말 만으로는` → ✓ `말만으로는`.\n(3) Dùng `만으로도` với vế phủ định hoàn toàn: ✗ `돈만으로도 행복하지 않다` → ✓ `돈만으로는 행복하지 않다`.",
+      "example_ko": "말만으로는 사람을 설득하기 어렵다.\n이 월급만으로는 생활하기가 힘들다.\n가족과 함께 있는 것만으로도 힘이 난다.\n겉모습만으로 사람을 판단해서는 안 된다.",
+      "example_vi": "Chỉ bằng lời nói thì khó thuyết phục người ta.\nChỉ với mức lương này thì sinh hoạt rất vất vả.\nChỉ ở bên gia đình thôi cũng có thêm sức.\nKhông được phán đoán người chỉ qua vẻ bề ngoài.",
+      "topik_tip_vi": "Câu đề hay dùng `N만으로는 + 부족하다/어렵다/-ㄹ 수 없다`. Thấy cụm này hãy nghĩ ngay: «chưa đủ, cần thêm điều kiện khác».",
+      "importance": "must"
+    },
+    {
+      "pattern": "V/A + -(으)ㄹ 뿐이다 · N + 일 뿐이다",
+      "meaning_vi": "Chỉ là …, chỉ có thế thôi",
+      "usage_context_vi": "**Cấu tạo:** Động từ/tính từ: `-(으)ㄹ 뿐이다` (갈 뿐이다, 예쁠 뿐이다); quá khứ `-았/었을 뿐이다`. Danh từ: `N일 뿐이다` hoặc `N뿐이다`. `-(으)ㄹ 뿐 -지 않다/없다` = chỉ … chứ không …. Sau `-(으)ㄹ`, `뿐` là danh từ phụ thuộc nên **viết cách**; sau danh từ thì **dính**: `학생뿐이다`.\n**Hoàn cảnh dùng:** Hạ thấp, giới hạn: nói «không hơn thế» để giải thích hay thanh minh: `저는 제 일을 했을 뿐입니다.` Dùng cả nói và viết.\n**Vì sao chọn nó:** `뿐` = «chỉ». `뿐이다` chốt ở mức đó; `뿐만 아니라` mở rộng sang điều khác. Học cả hai cùng lúc để không nhầm chiều «dừng lại» và «thêm vào».",
+      "contrasts": [
+        {
+          "pattern": "V/A + -(으)ㄹ 뿐만 아니라",
+          "diff_vi": "`뿐이다` giới hạn (chỉ thế); `뿐만 아니라` thêm vào (không chỉ thế mà còn)."
+        },
+        {
+          "pattern": "N + 밖에 + phủ định",
+          "diff_vi": "`N밖에 없다` mang sắc thái «thiếu, ít»; `N뿐이다` trung tính, chỉ ra phạm vi. Hai mẫu thường là cặp đồng nghĩa ở Đọc 3–4."
+        },
+        {
+          "pattern": "N + 에 불과하다",
+          "diff_vi": "`에 불과하다` = «chẳng qua chỉ là» (nhỏ hơn mong đợi), văn viết hơn."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Viết liền: ✗ `갈뿐이다` → ✓ `갈 뿐이다`; nhưng sau danh từ: ✓ `이틀뿐이다`.\n(2) Dùng với tính từ sai dạng: ✗ `예쁜 뿐이다` → ✓ `예쁠 뿐이다`.\n(3) Dùng thay `뿐만 아니라`: ✗ `그는 똑똑할 뿐이고 성실하다` → ✓ `그는 똑똑할 뿐만 아니라 성실하다`.",
+      "example_ko": "저는 제 일을 했을 뿐입니다.\n그것은 작은 실수일 뿐이다.\n사람들은 지켜볼 뿐 아무것도 하지 않았다.\n남은 시간은 이틀뿐이다.",
+      "example_vi": "Tôi chỉ làm việc của mình thôi.\nĐó chỉ là một sai sót nhỏ.\nMọi người chỉ đứng nhìn chứ chẳng làm gì.\nThời gian còn lại chỉ có hai ngày.",
+      "topik_tip_vi": "Đọc 3–4: `N뿐이다` ≈ `N밖에 없다`; `-(으)ㄹ 뿐이다` ≈ `-(으)ㄹ 따름이다` ≈ `-에 불과하다`. Gặp `일 뿐이다` thì chọn đáp án mang nghĩa «chẳng qua là».",
+      "importance": "normal"
+    },
+    {
+      "pattern": "N1 + 은/는 N1 + 대로 · N2 + 은/는 N2 + 대로",
+      "meaning_vi": "Cái nào ra cái nấy, ai làm phần nấy — mỗi bên riêng một kiểu, tách biệt",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** lặp lại danh từ: `N은/는 N대로`: `나는 나대로`, `일은 일대로`, `큰 것은 큰 것대로`.\n**Hoàn cảnh dùng:** Nhấn **mỗi đối tượng có cách/việc/vấn đề riêng**, xử lý riêng rẽ: `나는 나대로 바쁘고 동생은 동생대로 바빠서 같이 밥 먹을 시간이 없다.` `장점은 장점대로, 단점은 단점대로 정리해 보자.`\n**Vì sao chọn nó:** `각자` hay `따로` chỉ nói tách riêng; `N은 N대로` nhấn **mỗi bên đều có lý do/hoàn cảnh riêng của nó**, rất hay trong văn nghị luận khi cân nhắc hai mặt.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Thêm vào và giới hạn: 말고도/외에도 · 은/는 물론 · 만으로(는) · -(으)ㄹ 뿐이다»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V + -는 대로 · N + 대로",
+          "diff_vi": "«Theo như …» (`계획대로`), một danh từ, không lặp."
+        },
+        {
+          "pattern": "각자 · 따로",
+          "diff_vi": "Phó từ «mỗi người / riêng», không hàm ý «bên nào cũng có chuyện của bên đó»."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Không lặp danh từ: ✗ `나는 대로 바빠요` → ✓ `나는 나대로 바빠요`.\n(2) Viết cách `대로`: ✗ `나 대로` → ✓ `나대로` (`대로` là tiểu từ, viết liền).\n(3) Dùng khi hai bên không đối xứng: mẫu này hợp khi **cả hai** bên đều có cái riêng.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "나는 나대로 바쁘고 동생은 동생대로 바빠서 같이 밥 먹을 시간이 없다.\n장점은 장점대로, 단점은 단점대로 정리해 보자.\n도시는 도시대로 시골은 시골대로 고민이 있다.",
+      "example_vi": "Tôi bận việc tôi, em bận việc em nên không có thời gian ăn cùng.\nHãy sắp xếp ưu điểm riêng, nhược điểm riêng.\nThành phố có nỗi lo của thành phố, nông thôn có nỗi lo của nông thôn.",
+      "topik_tip_vi": "Viết 54 và Đọc nghị luận: `N은 N대로` giúp cân nhắc hai mặt một cách tự nhiên; câu kết luận hay đi sau đó với `그러므로`.",
+      "use_level": "produce",
+      "source": "EXT-SUP-35"
+    },
+    {
+      "pattern": "V/A + -기는커녕",
+      "meaning_vi": "Đừng nói là … (ngay cả việc tối thiểu cũng không), mà trái lại còn …",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** gốc + `-기는커녕`; vế sau thường có `오히려`, `도리어` hoặc `-조차/-도 + phủ định`. Danh từ dùng `N은/는커녕` (đã học ở bài 39).\n**Hoàn cảnh dùng:** Điều người ta **mong đợi (vế trước) không xảy ra**, thực tế còn **tệ hơn/ngược lại**: `사과하기는커녕 오히려 화를 냈다.` `돈을 모으기는커녕 빚만 늘었다.`\n**Vì sao chọn nó:** `-지 않고` chỉ nói không làm; `-기는커녕` nhấn **khoảng cách giữa kỳ vọng và thực tế** — thực tế còn ngược hẳn. Mẫu thể hiện sự bực bội, thất vọng của người nói.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Thêm vào và giới hạn: 말고도/외에도 · 은/는 물론 · 만으로(는) · -(으)ㄹ 뿐이다»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "N + 은/는커녕",
+          "diff_vi": "Cùng nghĩa, đi sau **danh từ**."
+        },
+        {
+          "pattern": "V + -기는 고사하고",
+          "diff_vi": "Văn viết trang trọng, cùng nghĩa."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Vế sau cùng chiều với kỳ vọng: ✗ `사과하기는커녕 정중하게 사과했다` → vế sau phải **ngược** hoặc **thấp hơn** kỳ vọng.\n(2) Quên `-기`: ✗ `사과는커녕` (được với danh từ) nhưng ✗ `사과하는커녕` → ✓ `사과하기는커녕`.\n(3) Thiếu `오히려/도` ở vế sau khiến câu kém rõ: thêm `오히려` hoặc `-조차 못하다`.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "거짓말이 들통났는데도 사과하기는커녕 오히려 화를 냈다.\n돈을 모으기는커녕 빚만 늘었다.\n쉬기는커녕 밥 먹을 시간조차 없었다.",
+      "example_vi": "Lời nói dối bị lộ, vậy mà chẳng những không xin lỗi lại còn nổi giận.\nĐừng nói là để dành, nợ còn tăng thêm.\nNghỉ ngơi gì chứ, đến thời gian ăn cơm còn không có.",
+      "topik_tip_vi": "Đọc/Nghe (thái độ): `-기는커녕` báo hiệu thất vọng, phê phán; câu điền vào chỗ trống hay cho sẵn `오히려` ở vế sau.",
+      "use_level": "produce",
+      "source": "EXT-SUP-36"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài",
+      "body": "Bài 2 của Chủ đề 5. Sau bài này bạn làm được bốn việc:\n① phân biệt **hai mẫu thêm vào** (`N 말고도/외에도`, `N은/는 물론`) với **hai mẫu giới hạn** (`N만으로(는)`, `-(으)ㄹ 뿐이다`);\n② làm các cặp Đọc 3–4: `말고도` ≈ `외에도`, `N밖에 없다` ≈ `N뿐이다`;\n③ đọc văn bản dài hiểu đúng ý khi gặp `만으로는 부족하다` (chưa đủ) và `물론 … 도` (cả hai);\n④ biết 27 từ nền về tri thức, giá trị, quản lý và đánh giá hay gặp ở Đọc 28–50.\nCâu hỏi dẫn đường: **điều này được thêm vào, hay bị giới hạn lại?**",
+      "kind": "goal"
+    },
+    {
+      "title": "Hai trục: thêm vào và giới hạn",
+      "body": "➕ **Thêm vào** (mở rộng):\n• `N 말고도 / 외에도` — ngoài N còn có cái khác.\n• `N은/는 물론` — N là đương nhiên, còn thêm điều khác nữa.\n➖ **Giới hạn** (thu hẹp):\n• `N만으로(는)` — chỉ riêng N (thường là chưa đủ).\n• `-(으)ㄹ 뿐이다` — chỉ có thế.\nMột câu: `한국어 외에도(thêm) 영어를 할 수 있지만 말만으로는(giới hạn) 소통하기 어렵고, 해 본 것은 짧은 여행뿐이다(giới hạn).`",
+      "kind": "language"
+    },
+    {
+      "title": "Cặp câu Đọc 3–4: bốn cặp của bài này",
+      "body": "① `N 말고도` ≈ `N 외에도` ≈ `N 이외에도`.\n② `N밖에 없다` ≈ `N뿐이다`: `그 방법밖에 없다` = `그 방법뿐이다`.\n③ `N은/는 물론 N도` ≈ `N뿐만 아니라 N도`.\n④ `-(으)ㄹ 뿐이다` ≈ `-(으)ㄹ 따름이다` ≈ `-에 불과하다`.\nMẹo: bỏ qua khác biệt giữa văn nói và văn viết, giữ nguyên **nghĩa chính** (thêm hay giới hạn) và **thì** của câu.",
+      "kind": "language"
+    },
+    {
+      "title": "Hai mẫu mở rộng: 이나 다름없다 và 에 불과하다",
+      "body": "Hai mẫu này không có thẻ riêng nhưng hay xuất hiện trong bài đọc:\n• `N이나 다름없다`: «chẳng khác gì N»: `그 사람은 가족이나 다름없다` (như người nhà). Nhấn sự **giống nhau**.\n• `N에 불과하다`: «chẳng qua chỉ là N»: `그 돈은 전체 예산의 일부에 불과하다` (chỉ là một phần nhỏ). Nhấn sự **ít, nhỏ**.\nĐừng nhầm: một bên nói «giống», bên kia nói «chỉ bấy nhiêu».",
+      "kind": "language"
+    },
+    {
+      "title": "Mẹo Hán–Việt cho 27 từ của bài",
+      "body": "Âm Hán–Việt giúp nhớ nhanh: `지식` (tri thức), `인류` (nhân loại), `산업` (sản nghiệp), `아동` (nhi đồng), `인재` (nhân tài), `발전` (phát triển), `주목` (chú mục), `통제` (thống chế), `염려` (niệm lự), `우려` (ưu lự), `효율` (hiệu suất), `비판` (phê phán), `활용` (hoạt dụng), `공유` (cộng hữu), `형성` (hình thành), `의존` (y tồn).\nCẩn thận hai cặp: `염려` và `우려` đều là «lo ngại» nhưng `우려` trang trọng hơn và hay đi với `-(으)ㄹ 우려가 있다`; `발전` (phát triển) khác `발전소` (nhà máy điện) dù cùng âm.",
+      "kind": "language"
+    },
+    {
+      "title": "Một đoạn dùng cả bốn mẫu",
+      "body": "`독서는 지식을 얻는 방법 외에도 마음을 안정시키는 역할을 한다. 어른은 물론 아이들도 책을 읽으면 집중력이 높아진다. 그러나 책을 사 두는 것만으로는 효과를 얻을 수 없다. 읽지 않는 책은 장식일 뿐이다.`\nBạn thấy: thêm (`외에도`, `은 물론`), giới hạn (`것만으로는`, `일 뿐이다`). Đây là giọng 한다체 trong văn viết.",
+      "kind": "sample"
+    },
+    {
+      "title": "Năm lỗi hay mắc",
+      "body": "① **`말고` ≠ `말고도`**: `커피 말고 차` = trà chứ không phải cà phê; thêm `도` mới là «ngoài … còn».\n② **`은/는커녕` cần phủ định**, còn `은/는 물론` thì không.\n③ **`만으로는` + khẳng định**: sai nghĩa. `만으로는` đi với «không đủ», `만으로도` đi với «đủ».\n④ **Cách ghi `뿐`**: `-(으)ㄹ 뿐` có dấu cách, `N뿐` thì dính.\n⑤ **Cách ghi `외`**: `N 외에도` có dấu cách; `이외에도` viết liền.",
+      "kind": "pitfall"
+    }
+  ],
+  "bank": "xa-hoi",
+  "coach": {
+    "focus_vi": [
+      "Học thuộc hai trục: thêm vào (`외에도`, `은/는 물론`) và giới hạn (`만으로는`, `뿐이다`).",
+      "Làm hết bốn cặp Đọc 3–4: `말고도` ≈ `외에도`, `밖에 없다` ≈ `뿐이다`…",
+      "Chép 27 từ theo hai nhóm: tri thức & giá trị, quản lý & đánh giá."
+    ],
+    "watch_out_vi": [
+      "`말고` ≠ `말고도`.",
+      "`만으로는` đi với «không đủ», `만으로도` đi với «đủ»."
+    ],
+    "notebook_vi": [
+      "Mỗi mẫu một câu nói về chính bạn.",
+      "Cặp dễ lẫn `뿐이다` / `뿐만 아니라` kèm một ví dụ."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Vì sao `커피 말고 차를 마셨어요` và `커피 말고도 차를 마셨어요` có nghĩa khác nhau?",
+        "answer": "`말고` loại N ra (trà chứ không phải cà phê); `말고도` thêm vào (cà phê và còn trà)."
+      },
+      {
+        "prompt_vi": "`이 월급만으로는 생활하기 힘들다` hàm ý gì?",
+        "answer": "Chỉ riêng lương này chưa đủ để sinh hoạt; cần thêm nguồn khác."
+      }
+    ]
+  },
+  "exercise_ids": [
+    "X51L1",
+    "X51L2",
+    "X51L3",
+    "X51L4",
+    "X51D1",
+    "X51D2",
+    "X51R1",
+    "X51R2",
+    "X51R3",
+    "X51R4",
+    "X51R5",
+    "X51R6",
+    "X51R7",
+    "X51R8",
+    "X51R9",
+    "X51R10",
+    "X51B1",
+    "X51B2",
+    "X51B3",
+    "X51B4",
+    "X51B5",
+    "X51B6",
+    "X51B7",
+    "X51F1",
+    "X51F2",
+    "X51E1",
+    "RG52",
+    "XSUP35",
+    "XSUP36",
+    "SP52"
+  ],
+  "topik2": [
+    {
+      "qid": "102-R-46",
+      "why_vi": "Đoạn văn lập luận về một vấn đề xã hội; câu chủ chốt dùng `N만으로(는)` để nói «chưa đủ». Đọc để xác định thái độ của tác giả."
+    },
+    {
+      "qid": "96-L-47",
+      "why_vi": "Bài nghe dài có cụm `N 이외에(도)`: người nói liệt kê thêm ngoài mục đã nêu. Dạng chọn nội dung trùng khớp mức 5급."
+    },
+    {
+      "qid": "96-R-37",
+      "why_vi": "Bài đọc dùng `N은/는 물론` để gói hai đối tượng trong một câu. Tìm ý chính ở câu kết luận."
+    }
+  ],
+  "editor_notes": [
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "Lesson 52 is a grammar lesson (adding vs limiting) whose vocab and reading X51R9 are about 지식/활용. Speaking topic = knowledge alone vs using it, which makes 만으로는, 말고도, 은/는 물론 and -(으)ㄹ 뿐이다 natural in one argument. Wrote my own 'letters in a book' image in RG instead of the reading's '장식일 뿐이다'. 협력 is not a card (kept: plain word, also gives a 비음화 example)."
+    }
+  ]
+}

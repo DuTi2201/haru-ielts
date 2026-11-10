@@ -1,0 +1,184 @@
+{
+  "lesson": "viet-nghi-luan-06-than-bai-ket-bai",
+  "items": [
+    {
+      "id": "viet-nghi-luan-06-d1",
+      "kind": "dialogue",
+      "title_ko": "해야 한다만 계속 나와요",
+      "title_vi": "Cứ lặp mãi một mẫu",
+      "scene_vi": "Hai bạn học tiếng Hàn ôn đoạn giải pháp và đoạn kết trong thư viện.",
+      "speakers": {
+        "F": "유나",
+        "M": "태민"
+      },
+      "lines": [
+        {
+          "who": "M",
+          "ko": "해결 방안 단락을 썼는데 ‘해야 한다’만 계속 나와요.",
+          "vi": "Tôi viết đoạn giải pháp mà cứ lặp mãi mẫu «해야 한다»."
+        },
+        {
+          "who": "F",
+          "ko": "그럴 때는 ‘필요가 있다’로 바꿔 보세요.",
+          "vi": "Lúc đó thử đổi sang «필요가 있다»."
+        },
+        {
+          "who": "M",
+          "ko": "그리고 누가 노력해야 하는지도 써야 하죠?",
+          "vi": "Và phải viết cả ai cần nỗ lực nữa, đúng không?"
+        },
+        {
+          "who": "F",
+          "ko": "네, ‘개인적 차원’과 ‘사회적 차원’으로 나누면 쉬워요.",
+          "vi": "Ừ, chia thành cấp độ cá nhân và cấp độ xã hội thì dễ."
+        },
+        {
+          "who": "M",
+          "ko": "마지막 단락에는 무엇을 써요?",
+          "vi": "Đoạn cuối thì viết gì?"
+        },
+        {
+          "who": "F",
+          "ko": "내용을 정리하고, 해결 방안을 한 번 더 말하고, 기대하는 결과를 쓰세요.",
+          "vi": "Tóm tắt nội dung, nhắc lại giải pháp một lần nữa, rồi viết kết quả mong đợi."
+        },
+        {
+          "who": "M",
+          "ko": "마지막 문장은 ‘기대된다’로 끝내면 되겠네요.",
+          "vi": "Vậy câu cuối kết bằng «기대» là được nhỉ."
+        },
+        {
+          "who": "F",
+          "ko": "맞아요. 새로운 내용은 쓰지 마세요.",
+          "vi": "Đúng. Đừng đưa nội dung mới vào."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -아/어야 한다 · V + -(으)ㄹ 필요가 있다 · V + -는 것이 바람직하다",
+          "regex": "필요가 있다"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 것으로 기대된다 · -(으)ㄹ 것으로 예상된다",
+          "regex": "기대된다"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "차원",
+          "seen": "차원"
+        },
+        {
+          "word": "기대되다",
+          "seen": "기대된다"
+        },
+        {
+          "word": "방안",
+          "seen": "방안"
+        },
+        {
+          "word": "노력",
+          "seen": "노력해야"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Yuna khuyên đổi mẫu nào để đỡ lặp?",
+          "options": [
+            "Bỏ hẳn giải pháp",
+            "Dùng «필요가 있다»",
+            "Viết câu hỏi"
+          ],
+          "answer": 1,
+          "explain_vi": "Yuna gợi ý đổi «해야 한다» sang «필요가 있다»."
+        },
+        {
+          "q_vi": "Câu cuối của kết bài nên làm gì?",
+          "options": [
+            "Nêu kết quả mong đợi, không thêm ý mới",
+            "Mở một chủ đề mới",
+            "Hỏi người đọc"
+          ],
+          "answer": 0,
+          "explain_vi": "Yuna dặn viết kết quả mong đợi và không thêm nội dung mới."
+        }
+      ]
+    },
+    {
+      "id": "viet-nghi-luan-06-r1",
+      "kind": "reading",
+      "title_ko": "쓰레기를 줄이는 방법",
+      "title_vi": "Cách giảm rác",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "쓰레기를 줄이기 위해서는 개인적 차원과 사회적 차원의 노력이 모두 필요하다.",
+          "vi": "Để giảm rác, cần nỗ lực ở cả cấp độ cá nhân lẫn cấp độ xã hội."
+        },
+        {
+          "who": "N",
+          "ko": "개인적 차원에서는 일회용 수저를 받지 않는 등 작은 습관부터 바꿀 필요가 있다.",
+          "vi": "Ở cấp độ cá nhân, cần đổi những thói quen nhỏ như không nhận đũa muỗng dùng một lần."
+        },
+        {
+          "who": "N",
+          "ko": "사회적 차원에서는 정부가 재활용 시스템을 마련하고 기업은 포장재를 줄여야 한다.",
+          "vi": "Ở cấp độ xã hội, chính phủ phải lập hệ thống tái chế và doanh nghiệp phải giảm vật liệu đóng gói."
+        },
+        {
+          "who": "N",
+          "ko": "이러한 노력이 함께 이루어진다면 쓰레기 문제가 크게 줄어들 것으로 기대된다.",
+          "vi": "Nếu những nỗ lực này diễn ra cùng nhau, kỳ vọng vấn đề rác sẽ giảm nhiều."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -아/어야 한다 · V + -(으)ㄹ 필요가 있다 · V + -는 것이 바람직하다",
+          "regex": "필요가 있다|야 한다"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 것으로 기대된다 · -(으)ㄹ 것으로 예상된다",
+          "regex": "것으로 기대된다"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "차원",
+          "seen": "차원에서는"
+        },
+        {
+          "word": "마련하다",
+          "seen": "마련하고"
+        },
+        {
+          "word": "기대되다",
+          "seen": "기대된다"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Ở cấp độ cá nhân, bài đề nghị làm gì?",
+          "options": [
+            "Đổi thói quen nhỏ như không nhận đồ dùng một lần",
+            "Lập hệ thống tái chế",
+            "Giảm vật liệu đóng gói"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 2: cá nhân cần đổi thói quen nhỏ, ví dụ không nhận đũa muỗng dùng một lần."
+        },
+        {
+          "q_vi": "Câu cuối của đoạn làm gì?",
+          "options": [
+            "Nêu kết quả mong đợi",
+            "Đưa ví dụ mới",
+            "Hỏi người đọc"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu cuối dùng «것으로 기대된다» để nêu kết quả mong đợi."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,550 @@
+{
+  "title_vi": "Kiểm tra đầu vào",
+  "intro_vi": "16 câu ngắn về các mẫu câu nền của sơ cấp, khoảng 10–15 phút. Không tính điểm thi: kết quả chỉ giúp ẩn những thẻ nền bạn đã dùng được và chọn nơi bắt đầu. Chưa biết thì bấm “Chưa biết” — đừng đoán.",
+  "minutes": 12,
+  "items": [
+    {
+      "card": {
+        "lesson": "sinh-hoat-01-buoi-sang",
+        "pattern": "V/A + -(으)ㄹ 때"
+      },
+      "exercise": {
+        "id": "D01",
+        "skill": "reading",
+        "type": "read_cloze",
+        "title_vi": "Chọn đáp án",
+        "instruction_vi": "Chọn một đáp án.",
+        "questions": [
+          {
+            "id": "D01",
+            "options": [
+              {
+                "id": "1",
+                "text": "때"
+              },
+              {
+                "id": "2",
+                "text": "동안"
+              },
+              {
+                "id": "3",
+                "text": "후에"
+              },
+              {
+                "id": "4",
+                "text": "전에"
+              }
+            ],
+            "answer": "1",
+            "explanation_vi": "`갈 때` = “khi đi”. `동안` đi với `-는` (`가는 동안`), `후에` đi với `-(으)ㄴ` (`간 후에`), `전에` đi với `-기` (`가기 전에`)."
+          }
+        ],
+        "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+        "stimulus": {
+          "kind": "cloze",
+          "text": "학교에 갈 ( ) 버스를 타요."
+        }
+      }
+    },
+    {
+      "card": {
+        "lesson": "sinh-hoat-03-an-uong",
+        "pattern": "V + -는 동안"
+      },
+      "exercise": {
+        "id": "D02",
+        "skill": "reading",
+        "type": "read_cloze",
+        "title_vi": "Chọn đáp án",
+        "instruction_vi": "Chọn một đáp án.",
+        "questions": [
+          {
+            "id": "D02",
+            "options": [
+              {
+                "id": "1",
+                "text": "하는"
+              },
+              {
+                "id": "2",
+                "text": "한"
+              },
+              {
+                "id": "3",
+                "text": "할"
+              },
+              {
+                "id": "4",
+                "text": "하고"
+              }
+            ],
+            "answer": "1",
+            "explanation_vi": "`-는 동안` = “trong lúc đang …”: `샤워를 하는 동안`. Hai việc xảy ra cùng lúc nên dùng dạng hiện tại `-는`."
+          }
+        ],
+        "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+        "stimulus": {
+          "kind": "cloze",
+          "text": "제가 샤워를 ( ) 동안 동생은 숙제를 했어요."
+        }
+      }
+    },
+    {
+      "card": {
+        "lesson": "sinh-hoat-01-buoi-sang",
+        "pattern": "V + -(으)ㄹ 거예요"
+      },
+      "exercise": {
+        "id": "D03",
+        "skill": "reading",
+        "type": "read_meaning",
+        "title_vi": "Chọn đáp án",
+        "instruction_vi": "Chọn một đáp án.",
+        "questions": [
+          {
+            "id": "D03",
+            "prompt_vi": "Chọn câu có nghĩa: “Ngày mai tôi sẽ đi chợ.”",
+            "options": [
+              {
+                "id": "1",
+                "text": "어제 시장에 갔어요."
+              },
+              {
+                "id": "2",
+                "text": "내일 시장에 갈 거예요."
+              },
+              {
+                "id": "3",
+                "text": "지금 시장에 가고 있어요."
+              },
+              {
+                "id": "4",
+                "text": "시장에 가지 마세요."
+              }
+            ],
+            "answer": "2",
+            "explanation_vi": "`갈 거예요` = “sẽ đi” (kế hoạch, dự định). ① `갔어요` là quá khứ, ③ `가고 있어요` là đang đi, ④ `가지 마세요` là “đừng đi”."
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "lesson": "sinh-hoat-03-an-uong",
+        "pattern": "V/A + -(으)ㄴ/는/(으)ㄹ 것 같다"
+      },
+      "exercise": {
+        "id": "D04",
+        "skill": "reading",
+        "type": "read_meaning",
+        "title_vi": "Chọn đáp án",
+        "instruction_vi": "Chọn một đáp án.",
+        "questions": [
+          {
+            "id": "D04",
+            "prompt_vi": "Chọn câu có nghĩa: “Hình như trời sẽ mưa.”",
+            "options": [
+              {
+                "id": "1",
+                "text": "비가 와요."
+              },
+              {
+                "id": "2",
+                "text": "비가 올 것 같아요."
+              },
+              {
+                "id": "3",
+                "text": "비가 왔어요."
+              },
+              {
+                "id": "4",
+                "text": "비가 오고 있어요."
+              }
+            ],
+            "answer": "2",
+            "explanation_vi": "`올 것 같아요` = “hình như sẽ mưa” (phỏng đoán). ① mưa (nói chắc), ③ đã mưa, ④ đang mưa."
+          }
+        ]
+      }
+    },
+    {
+      "card": {
+        "lesson": "nhap-canh-02-nhap-canh-hai-quan",
+        "pattern": "V/A + -아/어서 · N + (이)라서"
+      },
+      "exercise": {
+        "id": "D05",
+        "skill": "reading",
+        "type": "read_cloze",
+        "title_vi": "Chọn đáp án",
+        "instruction_vi": "Chọn một đáp án.",
+        "questions": [
+          {
+            "id": "D05",
+            "options": [
+              {
+                "id": "1",
+                "text": "아파서"
+              },
+              {
+                "id": "2",
+                "text": "아프지만"
+              },
+              {
+                "id": "3",
+                "text": "아프면"
+              },
+              {
+                "id": "4",
+                "text": "아프려고"
+              }
+            ],
+            "answer": "1",
+            "explanation_vi": "`-아/어서` nêu lý do: “vì đau đầu nên không đi học được”. `-지만` = nhưng, `-(으)면` = nếu, `-(으)려고` = để (định làm gì) — đều sai nghĩa."
+          }
+        ],
+        "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+        "stimulus": {
+          "kind": "cloze",
+          "text": "머리가 ( ) 학교에 못 갔어요."
+        }
+      }
+    },
+    {
+      "card": {
+        "lesson": "nhap-canh-05-ve-truong",
+        "pattern": "V/A + -(으)ㄴ/는데 · N + 인데"
+      },
+      "exercise": {
+        "id": "D06",
+        "skill": "reading",
+        "type": "read_cloze",
+        "title_vi": "Chọn đáp án",
+        "instruction_vi": "Chọn một đáp án.",
+        "questions": [
+          {
+            "id": "D06",
+            "options": [
+              {
+                "id": "1",
+                "text": "가는데"
+              },
+              {
+                "id": "2",
+                "text": "가지만"
+              },
+              {
+                "id": "3",
+                "text": "가려고"
+              },
+              {
+                "id": "4",
+                "text": "갔는데"
+              }
+            ],
+            "answer": "1",
+            "explanation_vi": "`-는데` nêu bối cảnh rồi mới rủ hoặc hỏi: “Tôi đang đi chợ, bạn đi cùng không?”. `-지만` là “nhưng”, `갔는데` là chuyện đã qua trong khi câu có `지금`."
+          }
+        ],
+        "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+        "stimulus": {
+          "kind": "cloze",
+          "text": "저는 지금 시장에 ( ) 같이 갈래요?"
+        }
+      }
+    },
+    {
+      "card": {
+        "lesson": "sinh-hoat-03-an-uong",
+        "pattern": "V + -고 싶다"
+      },
+      "exercise": {
+        "id": "D07",
+        "skill": "build",
+        "type": "build_order",
+        "rung": 1,
+        "title_vi": "Xếp câu",
+        "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa mà bạn không cần dùng.",
+        "meaning_vi": "Tôi muốn uống cà phê.",
+        "tiles": [
+          "커피를",
+          "마시고",
+          "마셔요.",
+          "저는",
+          "싶어요."
+        ],
+        "answers": [
+          "저는 커피를 마시고 싶어요."
+        ],
+        "explain_vi": "`마시다` + `-고 싶다` → `마시고 싶어요` (muốn uống). Động từ đứng cuối câu."
+      }
+    },
+    {
+      "card": {
+        "lesson": "sinh-hoat-02-viec-nha",
+        "pattern": "V + -(으)ㄹ 수 있다/없다"
+      },
+      "exercise": {
+        "id": "D08",
+        "skill": "build",
+        "type": "build_order",
+        "rung": 1,
+        "title_vi": "Xếp câu",
+        "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa mà bạn không cần dùng.",
+        "meaning_vi": "Tôi không biết bơi.",
+        "tiles": [
+          "수영을",
+          "할",
+          "저는",
+          "없어요.",
+          "수",
+          "있어요."
+        ],
+        "answers": [
+          "저는 수영을 할 수 없어요."
+        ],
+        "explain_vi": "`할 수 없어요` = không thể / không biết làm. `-(으)ㄹ 수` đứng trước `있어요` hoặc `없어요`."
+      }
+    },
+    {
+      "card": {
+        "lesson": "sinh-hoat-02-viec-nha",
+        "pattern": "V + -고 있다"
+      },
+      "exercise": {
+        "id": "D09",
+        "skill": "build",
+        "type": "build_order",
+        "rung": 1,
+        "title_vi": "Xếp câu",
+        "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa mà bạn không cần dùng.",
+        "meaning_vi": "Bây giờ tôi đang học tiếng Hàn.",
+        "tiles": [
+          "공부하고",
+          "한국어를",
+          "지금",
+          "있어요.",
+          "저는",
+          "공부했어요."
+        ],
+        "answers": [
+          "지금 저는 한국어를 공부하고 있어요.",
+          "저는 지금 한국어를 공부하고 있어요."
+        ],
+        "explain_vi": "`공부하고 있어요` = đang học. `공부했어요` là đã học, không hợp với `지금`."
+      }
+    },
+    {
+      "card": {
+        "lesson": "sinh-hoat-02-viec-nha",
+        "pattern": "V/A + -(으)면"
+      },
+      "exercise": {
+        "id": "D10",
+        "skill": "build",
+        "type": "build_order",
+        "rung": 1,
+        "title_vi": "Xếp câu",
+        "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa mà bạn không cần dùng.",
+        "meaning_vi": "Nếu trời mưa thì tôi ở nhà.",
+        "tiles": [
+          "집에",
+          "비가",
+          "있어요.",
+          "와서",
+          "오면"
+        ],
+        "answers": [
+          "비가 오면 집에 있어요."
+        ],
+        "explain_vi": "`오면` = nếu đến / nếu mưa (`비가 오면`). `와서` là “đến rồi …”, không mang nghĩa “nếu”."
+      }
+    },
+    {
+      "card": {
+        "lesson": "nhap-canh-02-nhap-canh-hai-quan",
+        "pattern": "V + -(으)려고"
+      },
+      "exercise": {
+        "id": "D11",
+        "skill": "build",
+        "type": "build_order",
+        "rung": 1,
+        "title_vi": "Xếp câu",
+        "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa mà bạn không cần dùng.",
+        "meaning_vi": "Tôi đến Hàn Quốc để học tiếng Hàn.",
+        "tiles": [
+          "한국에",
+          "왔어요.",
+          "저는",
+          "배우고",
+          "한국어를",
+          "배우려고"
+        ],
+        "answers": [
+          "저는 한국어를 배우려고 한국에 왔어요.",
+          "저는 한국에 한국어를 배우려고 왔어요."
+        ],
+        "explain_vi": "`배우려고` = “để học” (mục đích của hành động đứng sau). Mảnh `배우고` chỉ nối hai việc, không nói mục đích."
+      }
+    },
+    {
+      "card": {
+        "lesson": "sinh-hoat-01-buoi-sang",
+        "pattern": "V/A + -지만"
+      },
+      "exercise": {
+        "id": "D12",
+        "skill": "build",
+        "type": "write_fill",
+        "rung": 2,
+        "number": "Chẩn đoán",
+        "title_vi": "Điền vào chỗ trống",
+        "points": 1,
+        "instruction_vi": "Điền dạng đúng của từ trong ngoặc vuông để nối hai ý trái nhau: “… nhưng …”.",
+        "text": "이 가방은 [예쁘다] ( ㉠ ) 비싸요.",
+        "blanks": [
+          {
+            "id": "㉠",
+            "points": 1,
+            "accepted": [
+              "예쁘지만"
+            ],
+            "common_errors_vi": "Dùng `-아/어서` (`예뻐서`) là nói lý do, không phải “nhưng”."
+          }
+        ],
+        "tips_vi": [
+          "Gốc từ + `-지만`, không đổi gốc, không phân biệt có patchim hay không."
+        ]
+      }
+    },
+    {
+      "card": {
+        "lesson": "sinh-hoat-03-an-uong",
+        "pattern": "V + -(으)세요"
+      },
+      "exercise": {
+        "id": "D13",
+        "skill": "build",
+        "type": "write_fill",
+        "rung": 2,
+        "number": "Chẩn đoán",
+        "title_vi": "Điền vào chỗ trống",
+        "points": 1,
+        "instruction_vi": "Mời một người lớn tuổi làm việc đó: điền dạng lịch sự, kính trọng.",
+        "text": "할머니, 여기 [앉다] ( ㉠ ).",
+        "blanks": [
+          {
+            "id": "㉠",
+            "points": 1,
+            "accepted": [
+              "앉으세요",
+              "앉으십시오"
+            ],
+            "common_errors_vi": "`앉아요` chỉ là câu kể (“tôi ngồi”), chưa phải lời mời."
+          }
+        ],
+        "tips_vi": [
+          "Gốc có patchim + `-으세요`; gốc không có patchim + `-세요`."
+        ]
+      }
+    },
+    {
+      "card": {
+        "lesson": "sinh-hoat-01-buoi-sang",
+        "pattern": "V/A + -았/었-"
+      },
+      "exercise": {
+        "id": "D14",
+        "skill": "build",
+        "type": "write_fill",
+        "rung": 2,
+        "number": "Chẩn đoán",
+        "title_vi": "Điền vào chỗ trống",
+        "points": 1,
+        "instruction_vi": "Việc này đã xảy ra rồi: điền thể quá khứ lịch sự.",
+        "text": "어제 저녁에 친구하고 영화를 [보다] ( ㉠ ).",
+        "blanks": [
+          {
+            "id": "㉠",
+            "points": 1,
+            "accepted": [
+              "봤어요",
+              "보았어요",
+              "봤습니다",
+              "보았습니다"
+            ],
+            "common_errors_vi": "Quên chia quá khứ (`봐요`)."
+          }
+        ],
+        "tips_vi": [
+          "`보다` có `ㅗ` nên dùng `-았-`: `보 + 았어요` → `봤어요`."
+        ]
+      }
+    },
+    {
+      "card": {
+        "lesson": "sinh-hoat-02-viec-nha",
+        "pattern": "V + -지 마세요"
+      },
+      "exercise": {
+        "id": "D15",
+        "skill": "build",
+        "type": "write_fill",
+        "rung": 2,
+        "number": "Chẩn đoán",
+        "title_vi": "Điền vào chỗ trống",
+        "points": 1,
+        "instruction_vi": "Nhắc người khác lịch sự: “Xin đừng …”.",
+        "text": "도서관에서는 크게 [이야기하다] ( ㉠ ).",
+        "blanks": [
+          {
+            "id": "㉠",
+            "points": 1,
+            "accepted": [
+              "이야기하지 마세요",
+              "이야기하지 마십시오"
+            ],
+            "common_errors_vi": "`이야기 안 하세요` chỉ là “không nói”, chưa phải lời nhắc “đừng”."
+          }
+        ],
+        "tips_vi": [
+          "Gốc động từ + `-지 마세요`, không dùng `안`."
+        ]
+      }
+    },
+    {
+      "card": {
+        "lesson": "nhap-canh-03-bieu-mau",
+        "pattern": "V + -아/어야 하다 · V + -아/어야 되다"
+      },
+      "exercise": {
+        "id": "D16",
+        "skill": "build",
+        "type": "write_fill",
+        "rung": 2,
+        "number": "Chẩn đoán",
+        "title_vi": "Điền vào chỗ trống",
+        "points": 1,
+        "instruction_vi": "Diễn đạt sự cần thiết: “phải …”.",
+        "text": "내일 시험이 있어요. 오늘 공부를 [하다] ( ㉠ ).",
+        "blanks": [
+          {
+            "id": "㉠",
+            "points": 1,
+            "accepted": [
+              "해야 해요",
+              "해야 돼요",
+              "해야 합니다",
+              "해야 됩니다"
+            ],
+            "common_errors_vi": "`하면 돼요` nghĩa là “chỉ cần làm là được”, không phải “phải làm”."
+          }
+        ],
+        "tips_vi": [
+          "`하다` → `해` rồi thêm `야 해요`: `해야 해요`."
+        ]
+      }
+    }
+  ]
+}

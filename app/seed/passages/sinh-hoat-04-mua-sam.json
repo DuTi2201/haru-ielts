@@ -1,0 +1,279 @@
+{
+  "lesson": "sinh-hoat-04-mua-sam",
+  "items": [
+    {
+      "id": "sinh-hoat-04-d1",
+      "kind": "dialogue",
+      "title_ko": "옷 가게에서",
+      "title_vi": "Ở cửa hàng quần áo",
+      "scene_vi": "Một cửa hàng quần áo. Khách hàng đang hỏi nhân viên bán hàng về một cái áo thun.",
+      "speakers": {
+        "F": "점원",
+        "M": "손님"
+      },
+      "lines": [
+        {
+          "who": "M",
+          "ko": "저기요, 이 티셔츠는 사이즈가 작아서 입을 수 없어요. 더 큰 사이즈가 있어요?",
+          "vi": "Chị ơi, cái áo thun này size nhỏ quá nên tôi không mặc được. Có size lớn hơn không?"
+        },
+        {
+          "who": "F",
+          "ko": "네, 있어요. 이것은 한 벌에 이만 원이에요. 그런데 이 색상은 한 벌밖에 없어요.",
+          "vi": "Có ạ. Cái này hai vạn won một chiếc. Nhưng màu này chỉ còn đúng một chiếc."
+        },
+        {
+          "who": "M",
+          "ko": "좀 입어 볼 수 있어요?",
+          "vi": "Tôi mặc thử được không?"
+        },
+        {
+          "who": "F",
+          "ko": "그럼요. 저쪽 탈의실에서 입어 보세요.",
+          "vi": "Được chứ ạ. Anh mặc thử ở phòng thử đồ bên kia nhé."
+        },
+        {
+          "who": "M",
+          "ko": "이 티셔츠는 지난번에 산 것보다 커서 편해요.",
+          "vi": "Cái áo này rộng hơn cái tôi mua lần trước nên mặc thoải mái."
+        },
+        {
+          "who": "F",
+          "ko": "색상도 잘 어울려요. 이 가격이면 살 만해요.",
+          "vi": "Màu cũng rất hợp ạ. Giá này thì đáng mua đấy."
+        },
+        {
+          "who": "M",
+          "ko": "그럼 이걸 사 가지고 가요. 영수증도 주세요.",
+          "vi": "Vậy tôi mua cái này mang đi. Cho tôi xin cả hóa đơn."
+        },
+        {
+          "who": "F",
+          "ko": "감사합니다. 영수증 여기 있어요. 교환은 일주일 안에 할 수 있어요.",
+          "vi": "Cảm ơn anh. Hóa đơn đây ạ. Đổi hàng trong vòng một tuần là được."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V/A + -아/어서",
+          "regex": "작아서|커서"
+        },
+        {
+          "pattern": "N + 보다",
+          "regex": "것보다"
+        },
+        {
+          "pattern": "N(Đơn vị) + 에",
+          "regex": "한 벌에"
+        },
+        {
+          "pattern": "V + -(으)ㄹ 만하다",
+          "regex": "살 만해요"
+        },
+        {
+          "pattern": "N + 밖에 + 부정 (없다 · 안 · 못 · -지 않다)",
+          "regex": "한 벌밖에 없어요"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "티셔츠",
+          "seen": "티셔츠"
+        },
+        {
+          "word": "사이즈",
+          "seen": "사이즈가"
+        },
+        {
+          "word": "벌",
+          "seen": "한 벌에"
+        },
+        {
+          "word": "색상",
+          "seen": "색상은"
+        },
+        {
+          "word": "값 / 가격",
+          "seen": "가격이면"
+        },
+        {
+          "word": "영수증",
+          "seen": "영수증도"
+        },
+        {
+          "word": "교환",
+          "seen": "교환은"
+        },
+        {
+          "word": "크다",
+          "seen": "큰"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "저기요",
+          "vi": "xin lỗi (gọi người khác); chị/anh ơi"
+        },
+        {
+          "ko": "탈의실",
+          "vi": "phòng thử đồ"
+        },
+        {
+          "ko": "어울리다",
+          "vi": "hợp, vừa với",
+          "seen": "어울려요"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Vì sao người khách muốn một size lớn hơn?",
+          "options": [
+            "Vì màu không hợp",
+            "Vì giá quá đắt",
+            "Vì size này quá nhỏ, không mặc được"
+          ],
+          "answer": 2,
+          "explain_vi": "Khách nói “사이즈가 작아서 입을 수 없어요”: size nhỏ nên mặc không được."
+        },
+        {
+          "q_vi": "Cuối cùng người khách quyết định gì?",
+          "options": [
+            "Mua cái áo thun",
+            "Đổi sang màu khác",
+            "Không mua"
+          ],
+          "answer": 0,
+          "explain_vi": "Khách nói “이걸 사 가지고 가요”: mua cái áo này mang đi."
+        }
+      ]
+    },
+    {
+      "id": "sinh-hoat-04-r1",
+      "kind": "reading",
+      "title_ko": "시장과 백화점",
+      "title_vi": "Chợ và trung tâm thương mại",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "저는 쇼핑을 좋아하지만 돈이 오만 원밖에 없어요.",
+          "vi": "Tôi thích mua sắm nhưng trong người chỉ có năm vạn won."
+        },
+        {
+          "who": "N",
+          "ko": "그래서 백화점보다 시장에 자주 가요.",
+          "vi": "Vì vậy tôi hay đến chợ hơn là trung tâm thương mại."
+        },
+        {
+          "who": "N",
+          "ko": "시장에서 양말 세 켤레를 오천 원에 샀어요.",
+          "vi": "Ở chợ tôi đã mua ba đôi tất với giá năm nghìn won."
+        },
+        {
+          "who": "N",
+          "ko": "백화점에서는 양말이 한 켤레에 오천 원이에요.",
+          "vi": "Ở trung tâm thương mại, tất giá năm nghìn won một đôi."
+        },
+        {
+          "who": "N",
+          "ko": "값이 싸서 저는 시장이 좋아요.",
+          "vi": "Giá rẻ nên tôi thích chợ."
+        },
+        {
+          "who": "N",
+          "ko": "어제는 운동화를 사 가지고 왔지만 너무 커서 신을 수 없었어요.",
+          "vi": "Hôm qua tôi mua giày thể thao mang về nhưng to quá nên không đi được."
+        },
+        {
+          "who": "N",
+          "ko": "그래서 오늘은 영수증을 가지고 가게에 가요. 교환하고 싶어요.",
+          "vi": "Vì thế hôm nay tôi cầm hóa đơn đến cửa hàng. Tôi muốn đổi."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "N + 밖에 + 부정 (없다 · 안 · 못 · -지 않다)",
+          "regex": "오만 원밖에 없어요"
+        },
+        {
+          "pattern": "N + 보다",
+          "regex": "백화점보다"
+        },
+        {
+          "pattern": "N(Đơn vị) + 에",
+          "regex": "한 켤레에 오천 원"
+        },
+        {
+          "pattern": "V/A + -아/어서",
+          "regex": "싸서|커서"
+        },
+        {
+          "pattern": "V + -아/어 가지고",
+          "regex": "사 가지고"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "쇼핑",
+          "seen": "쇼핑을"
+        },
+        {
+          "word": "시장",
+          "seen": "시장에"
+        },
+        {
+          "word": "백화점",
+          "seen": "백화점보다"
+        },
+        {
+          "word": "켤레",
+          "seen": "켤레를"
+        },
+        {
+          "word": "싸다",
+          "seen": "싸서"
+        },
+        {
+          "word": "운동화",
+          "seen": "운동화를"
+        },
+        {
+          "word": "영수증",
+          "seen": "영수증을"
+        },
+        {
+          "word": "교환하다",
+          "seen": "교환하고"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "가지다",
+          "vi": "cầm, mang theo",
+          "seen": "가지고"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Vì sao người viết thích chợ hơn?",
+          "options": [
+            "Hàng đẹp hơn",
+            "Giá rẻ hơn",
+            "Gần nhà hơn"
+          ],
+          "answer": 1,
+          "explain_vi": "“값이 싸서 저는 시장이 좋아요”: chợ giá rẻ nên người viết thích chợ."
+        },
+        {
+          "q_vi": "Hôm nay người viết đến cửa hàng để làm gì?",
+          "options": [
+            "Mua thêm tất",
+            "Đổi đôi giày đã mua",
+            "Hỏi giá áo"
+          ],
+          "answer": 1,
+          "explain_vi": "Giày mua hôm qua quá to, nên hôm nay cầm hóa đơn đi đổi: “교환하고 싶어요”."
+        }
+      ]
+    }
+  ]
+}

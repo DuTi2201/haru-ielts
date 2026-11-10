@@ -1,0 +1,3187 @@
+{
+  "skill": "build",
+  "guide": [
+    {
+      "title_vi": "Xếp từ, điền câu, viết cả bài: thang ba nấc",
+      "body_vi": "Phần này đi từ dễ đến khó: **xếp từ thành câu** (chỉ cần ráp), **điền câu vào chỗ trống** (tự nghĩ nhưng có khung), **viết đoạn hoặc cả bài** (tự viết, có bài mẫu và bảng kiểm).",
+      "bullets_vi": [
+        "Xếp từ: đặt **động từ cuối cùng** trước, rồi ráp chủ ngữ và các bổ ngữ. Sau khi xếp, **đọc to cả câu**; câu xuôi tai thường là câu đúng.",
+        "Điền câu: đọc cả đoạn, xác định chỗ trống là câu *ý chính*, *ví dụ* hay *kết quả*, rồi mới viết. Đáp án ghi là *dạng chấp nhận được*, không phải đáp án duy nhất.",
+        "Viết cả bài: dùng bảng kiểm của bài mẫu, không chỉ so với bài mẫu. Đếm chữ trong màn hình; mục tiêu 640–690.",
+        "Mọi bài mẫu đều **tự soạn**, số chữ do phần mềm đếm và câu văn đã được rà bằng công cụ phân tích hình thái tiếng Hàn; chúng **chưa được người bản ngữ chấm**. Nếu có cơ hội, hãy nhờ người Hàn đọc lại bài của bạn."
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "V42B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Hai ưu điểm",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Ưu điểm của việc dùng ứng dụng giao đồ ăn có hai loại chính.",
+      "tiles": [
+        "크게",
+        "이용의",
+        "가지예요.",
+        "두",
+        "배달",
+        "장점은",
+        "가지이다.",
+        "앱"
+      ],
+      "answers": [
+        "배달 앱 이용의 장점은 크게 두 가지이다."
+      ],
+      "explain_vi": "Chủ đề của câu hỏi (`배달 앱 이용의 장점`) làm chủ ngữ, kết bằng `-이다` (한다체). `가지예요` là đuôi nói nên là mảnh thừa."
+    },
+    {
+      "id": "V42B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Có vấn đề sau đây",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Ứng dụng mua bán đồ cũ có những vấn đề như sau.",
+      "tiles": [
+        "문제점이",
+        "있다.",
+        "다음과",
+        "중고",
+        "같은",
+        "문제점을",
+        "앱에는",
+        "거래"
+      ],
+      "answers": [
+        "중고 거래 앱에는 다음과 같은 문제점이 있다."
+      ],
+      "explain_vi": "`N에는 다음과 같은 문제점이 있다` là câu mở đoạn **vấn đề**. Vật có vấn đề là chủ ngữ nên dùng `문제점이` (không phải `을`)."
+    },
+    {
+      "id": "V42B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Để … thì cần …",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Để rèn thói quen đọc sách thì cần nỗ lực bền bỉ.",
+      "tiles": [
+        "필요하다.",
+        "습관을",
+        "독서",
+        "기르기",
+        "꾸준한",
+        "노력이",
+        "위해서는",
+        "기르는"
+      ],
+      "answers": [
+        "독서 습관을 기르기 위해서는 꾸준한 노력이 필요하다."
+      ],
+      "explain_vi": "`-기 위해서는` đi với động từ gốc: `기르기`. `기르는` là dạng bổ nghĩa nên không nối được với `위해서는`."
+    },
+    {
+      "id": "V42B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Ảnh hưởng",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Dùng điện thoại thông minh ảnh hưởng xấu đến giấc ngủ của thanh thiếu niên.",
+      "tiles": [
+        "영향을",
+        "나쁜",
+        "수면에",
+        "스마트폰",
+        "미친다.",
+        "청소년의",
+        "사용은",
+        "영향이"
+      ],
+      "answers": [
+        "스마트폰 사용은 청소년의 수면에 나쁜 영향을 미친다."
+      ],
+      "explain_vi": "`영향을 미치다` là một cụm cố định: tân ngữ `영향을` + động từ `미치다`. `영향이` làm câu sai kết cấu."
+    },
+    {
+      "id": "V42B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Nguyên nhân",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Nguyên nhân gây ra tiếng ồn giữa các tầng có ba loại chính.",
+      "tiles": [
+        "크게",
+        "원인은",
+        "소음이",
+        "층간",
+        "세",
+        "가지이다.",
+        "생기는",
+        "원인이"
+      ],
+      "answers": [
+        "층간 소음이 생기는 원인은 크게 세 가지이다."
+      ],
+      "explain_vi": "Chủ đề câu hỏi `층간 소음이 생기는 원인` làm chủ ngữ; số đếm `세` (3) đi với `가지`."
+    },
+    {
+      "id": "V42B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Cả hai bên",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Muốn giải quyết vấn đề này thì cả cá nhân lẫn xã hội đều phải nỗ lực.",
+      "tiles": [
+        "필요한가?",
+        "개인과",
+        "모두",
+        "해결하려면",
+        "이",
+        "필요하다.",
+        "문제를",
+        "노력이",
+        "사회의"
+      ],
+      "answers": [
+        "이 문제를 해결하려면 개인과 사회의 노력이 모두 필요하다."
+      ],
+      "explain_vi": "Kết thúc bằng `-다`, không phải đuôi hỏi `-ㄴ가?`. `모두` đứng trước vị ngữ."
+    },
+    {
+      "id": "V42B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Ưu điểm lớn nhất",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Ưu điểm lớn nhất của học trực tuyến là ít bị hạn chế về thời gian và địa điểm.",
+      "tiles": [
+        "적다는",
+        "수업의",
+        "장점은",
+        "시간과",
+        "점이다.",
+        "큰",
+        "가장",
+        "제약이",
+        "장소의",
+        "온라인"
+      ],
+      "answers": [
+        "온라인 수업의 가장 큰 장점은 시간과 장소의 제약이 적다는 점이다."
+      ],
+      "explain_vi": "`-다는 점이다` = «điều là …»; dùng để gói một mệnh đề thành danh từ khi nêu ưu hoặc nhược điểm."
+    },
+    {
+      "id": "V42B8",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Hai phía",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Có người tán thành mà người phản đối cũng không ít.",
+      "tiles": [
+        "사람도",
+        "있지만",
+        "않다.",
+        "반대하는",
+        "적지",
+        "찬성하는",
+        "사람도"
+      ],
+      "answers": [
+        "찬성하는 사람도 있지만 반대하는 사람도 적지 않다."
+      ],
+      "explain_vi": "`A도 있지만 B도 적지 않다` giúp hai lập trường cân bằng: vế đầu nêu phía thứ nhất, vế sau nhấn mạnh phía thứ hai cũng đông (`적지 않다` = không ít)."
+    },
+    {
+      "id": "V42F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Biến câu hỏi thành câu trả lời (1)",
+      "points": 6,
+      "instruction_vi": "Điền vào chỗ trống để đổi câu hỏi thành câu trả lời (한다체).",
+      "context_vi": "Đổi câu hỏi thành trả lời",
+      "text": "① 배달 앱 이용의 장점은 무엇인가?\n→ 배달 앱 이용의 장점은 크게 ( ㉠ ).\n② 배달 앱 이용이 늘면서 어떤 문제가 생기는가?\n→ 배달 앱 이용이 늘면서 여러 가지 문제가 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "두 가지이다",
+            "두 가지가 있다",
+            "세 가지이다",
+            "세 가지가 있다"
+          ],
+          "common_errors_vi": "Dùng danh từ chỉ số lượng + `이다`/`가 있다`: `두 가지이다`. Đừng dùng đuôi hỏi."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "생기고 있다",
+            "생긴다",
+            "발생하고 있다",
+            "나타나고 있다"
+          ],
+          "common_errors_vi": "Đổi `생기는가?` thành khẳng định 한다체: `생기고 있다` (hoặc `생긴다`). Không dùng `-요`."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V42F2",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Biến câu hỏi thành câu trả lời (2)",
+      "points": 9,
+      "instruction_vi": "Điền vào chỗ trống để đổi câu hỏi thành câu trả lời (한다체).",
+      "context_vi": "Đổi câu hỏi thành trả lời",
+      "text": "③ 독서 습관을 기르려면 어떻게 해야 하는가?\n→ 독서 습관을 기르기 ( ㉠ ) 꾸준한 노력이 ( ㉡ ).\n④ 층간 소음은 이웃에게 어떤 영향을 미치는가?\n→ 층간 소음은 이웃에게 나쁜 영향을 ( ㉢ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "위해서는",
+            "위해서",
+            "위해"
+          ],
+          "common_errors_vi": "`-기 위해(서)는` = để …. Câu hỏi hỏi cách làm nên dùng mẫu mục đích."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "필요하다"
+          ],
+          "common_errors_vi": "Kết bằng `필요하다` (한다체). `필요해요` là đuôi nói; `필요한가?` là đuôi hỏi."
+        },
+        {
+          "id": "㉢",
+          "points": 3,
+          "accepted": [
+            "미친다",
+            "미칠 수 있다",
+            "끼친다"
+          ],
+          "common_errors_vi": "`영향을 미치다` (hoặc `끼치다`): `미친다`. Đừng viết `영향을 있다`."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V42F3",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Lập trường và lý do",
+      "points": 6,
+      "instruction_vi": "Chọn lập trường, rồi điền đuôi lý do `-기 때문이다`.",
+      "context_vi": "Tán thành hay phản đối",
+      "text": "⑤ 학교에서 휴대 전화 사용을 금지하는 것에 찬성하는가, 반대하는가?\n→ 학교에서 휴대 전화 사용을 금지하는 것에 ( ㉠ ). 그 이유는 수업에 집중하기 어렵( ㉡ ) 때문이다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "찬성한다",
+            "반대한다"
+          ],
+          "common_errors_vi": "Chọn một lập trường và dùng 한다체: `찬성한다` hoặc `반대한다`. Cả hai đều được chấp nhận ở đây."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "기"
+          ],
+          "common_errors_vi": "`-기 때문이다` = «vì …»: gốc từ + `기` → `어렵기 때문이다`."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V42E1",
+      "skill": "build",
+      "type": "write_essay",
+      "rung": 4,
+      "number": "Bước 4",
+      "title_vi": "Tạo câu · Viết ba câu mở đoạn cho một đề 54",
+      "points": 10,
+      "instruction_ko": "※ 아래 세 질문에 대한 답문장을 한 문장씩 쓰십시오.",
+      "instruction_vi": "Chủ đề «học trực tuyến». Viết ba câu mở đoạn, mỗi câu trả lời một câu hỏi (한다체).",
+      "limits": {
+        "min": 60,
+        "max": 220
+      },
+      "prompt_ko": "최근 온라인 수업을 선택하는 학생이 늘고 있다. ‘온라인 수업’에 대한 자신의 생각을 쓰시오.",
+      "bullets_ko": [
+        "온라인 수업의 장점은 무엇인가?",
+        "온라인 수업에는 어떤 문제점이 있는가?",
+        "그 문제점을 줄이기 위해 어떤 노력이 필요한가?"
+      ],
+      "framework_vi": [
+        "Câu 1: `…의 장점은 크게 두 가지이다.`",
+        "Câu 2: `…에는 다음과 같은 문제점이 있다.`",
+        "Câu 3: `이러한 문제점을 줄이기 위해서는 … 이/가 필요하다.`"
+      ],
+      "patterns_vi": [
+        "`N의 장점은 크게 두 가지이다`",
+        "`N에는 다음과 같은 문제점이 있다`",
+        "`-기 위해서는 … 필요하다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Trả lời gạch 1 (ưu điểm)",
+          "chars": "25–45 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Trả lời gạch 2 (vấn đề)",
+          "chars": "25–45 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Trả lời gạch 3 (giải pháp)",
+          "chars": "35–60 chữ"
+        }
+      ],
+      "model_answer_ko": "온라인 수업의 장점은 크게 두 가지이다. 온라인 수업에는 다음과 같은 문제점이 있다. 이러한 문제점을 줄이기 위해서는 학생과 학교가 함께 노력해야 한다.",
+      "model_note_vi": "Ba câu mở đoạn của một đề ba gạch. Chưa cần nội dung bên trong: bài 3 và bài 4 sẽ dạy mở rộng từng câu.",
+      "common_errors_vi": [
+        "Chép nguyên câu hỏi vào bài.",
+        "Dùng đuôi nói (`-요`, `-습니다`).",
+        "Trả lời nhầm gạch (viết lợi ở chỗ vấn đề)."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Mỗi câu trả lời đúng gạch của đề",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Đúng thể 한다체",
+          "max": 2
+        },
+        {
+          "criterion_vi": "Không chép lại câu hỏi",
+          "max": 2
+        }
+      ],
+      "checklist_vi": [
+        "Có đủ 3 câu, mỗi câu một gạch?",
+        "Cuối câu là `-다`, không phải `-ㄴ가?` hay `-요`?",
+        "Câu 3 có `-기 위해서는`?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V + -기 위해(서) · V + -기 위한 N",
+          "regex": "기 위해",
+          "label_vi": "Có dùng -기 위해(서)는"
+        }
+      ]
+    },
+    {
+      "id": "V43B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Động từ có patchim",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Mọi người tìm thông tin bằng điện thoại thông minh mỗi ngày.",
+      "tiles": [
+        "찾아요.",
+        "사람들은",
+        "정보를",
+        "매일",
+        "스마트폰으로",
+        "찾는다."
+      ],
+      "answers": [
+        "사람들은 매일 스마트폰으로 정보를 찾는다."
+      ],
+      "explain_vi": "`찾다` có patchim nên thêm `-는다`: `찾는다`. `찾아요` là đuôi nói nên là mảnh thừa."
+    },
+    {
+      "id": "V43B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Gốc ㄹ",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Nhiều người sống ở đô thị.",
+      "tiles": [
+        "산다.",
+        "도시에",
+        "사는다.",
+        "많은",
+        "사람이"
+      ],
+      "answers": [
+        "많은 사람이 도시에 산다."
+      ],
+      "explain_vi": "`살다` là gốc ㄹ: bỏ ㄹ rồi thêm `-ㄴ다` thành `산다`. `사는다` là dạng sai thường gặp."
+    },
+    {
+      "id": "V43B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Tính từ",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Vấn đề này rất nghiêm trọng.",
+      "tiles": [
+        "심각한다.",
+        "문제는",
+        "이",
+        "심각하다.",
+        "매우"
+      ],
+      "answers": [
+        "이 문제는 매우 심각하다."
+      ],
+      "explain_vi": "Tính từ giữ dạng từ điển. Đừng gắn `-ㄴ다` của động từ vào `심각하다`."
+    },
+    {
+      "id": "V43B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Không phải ai cũng …",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Không phải ai cũng thích cách này.",
+      "tiles": [
+        "않다.",
+        "모든",
+        "좋아하지는",
+        "사람이",
+        "이",
+        "않는다.",
+        "방법을"
+      ],
+      "answers": [
+        "모든 사람이 이 방법을 좋아하지는 않는다."
+      ],
+      "explain_vi": "`좋아하다` là động từ nên đi với `않는다`. `않다` dành cho tính từ."
+    },
+    {
+      "id": "V43B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Đang tăng",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Số người sống một mình đang tăng lên qua từng năm.",
+      "tiles": [
+        "혼자",
+        "있는다.",
+        "해마다",
+        "사는",
+        "늘고",
+        "있다.",
+        "사람이"
+      ],
+      "answers": [
+        "혼자 사는 사람이 해마다 늘고 있다.",
+        "해마다 혼자 사는 사람이 늘고 있다."
+      ],
+      "explain_vi": "Thứ tự `V + -고 있다`: `늘고 있다`. `있는다` không tồn tại. Hai cách xếp đều đúng vì chỉ đổi chỗ trạng ngữ thời gian."
+    },
+    {
+      "id": "V43B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Quá khứ",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Ngày xưa người ta báo tin bằng thư.",
+      "tiles": [
+        "전하겠다.",
+        "소식을",
+        "과거에는",
+        "편지로",
+        "전했다."
+      ],
+      "answers": [
+        "과거에는 편지로 소식을 전했다."
+      ],
+      "explain_vi": "`과거에는` đi với quá khứ `-았/었다`: `전했다`. `-겠다` là ý chí hoặc suy đoán của người nói."
+    },
+    {
+      "id": "V43B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Dự đoán",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Vấn đề này sau này sẽ còn lớn hơn.",
+      "tiles": [
+        "커질까?",
+        "이",
+        "더",
+        "문제는",
+        "앞으로",
+        "것이다.",
+        "커질"
+      ],
+      "answers": [
+        "이 문제는 앞으로 더 커질 것이다."
+      ],
+      "explain_vi": "Dự đoán dùng `-(으)ㄹ 것이다`: `커질 것이다`. Đuôi hỏi `-ㄹ까?` không hợp câu khẳng định."
+    },
+    {
+      "id": "V43B8",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Giọng văn viết",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Gần đây số người mua đồ trực tuyến rất nhiều.",
+      "tiles": [
+        "최근",
+        "물건을",
+        "온라인으로",
+        "사는",
+        "사람이",
+        "매우",
+        "많다.",
+        "많네요."
+      ],
+      "answers": [
+        "최근 온라인으로 물건을 사는 사람이 매우 많다.",
+        "최근 물건을 온라인으로 사는 사람이 매우 많다."
+      ],
+      "explain_vi": "Kết bằng `많다.` (tính từ, 한다체) và dùng `매우`. `많네요` có `-네요` của lời nói."
+    },
+    {
+      "id": "V43F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Đổi đuôi và từ nhấn",
+      "points": 6,
+      "instruction_vi": "Đổi câu nói bên trái thành câu viết bên phải: điền đuôi câu hoặc từ nhấn.",
+      "context_vi": "Lời nói → lời viết",
+      "text": "① 저는 매일 아침 운동을 해요. → 사람들은 매일 아침 운동을 ( ㉠ ).\n② 이 문제는 아주 심각해요. → 이 문제는 ( ㉡ ) 심각하다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "한다"
+          ],
+          "common_errors_vi": "`하다` không patchim nên `하다 → 한다`. Đừng viết `해요` hay `합니다`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "매우",
+            "상당히"
+          ],
+          "common_errors_vi": "Văn viết dùng `매우` hoặc `상당히` thay cho `아주`, `정말`."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V43F2",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Đổi từ nối",
+      "points": 9,
+      "instruction_vi": "Chọn từ nối của văn viết thay cho lời nói.",
+      "context_vi": "Lời nói → lời viết",
+      "text": "저는 배달 앱을 자주 써요. 근데 배달비가 비싸요. 그래서 줄이려고 해요.\n→ ( ㉠ ) 배달 앱을 자주 이용하는 사람이 많다. ( ㉡ ) 배달비가 비싸서 부담이 된다. ( ㉢ ) 이용 횟수를 줄이는 사람도 있다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "최근",
+            "요즘",
+            "오늘날"
+          ],
+          "common_errors_vi": "Mở bài bằng từ chỉ thời gian: `최근`, `오늘날`. Bỏ `저는`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "그러나",
+            "하지만"
+          ],
+          "common_errors_vi": "`근데` là dạng nói; đối lập ý thì dùng `그러나` hoặc `하지만`."
+        },
+        {
+          "id": "㉢",
+          "points": 3,
+          "accepted": [
+            "따라서",
+            "그러므로",
+            "이에 따라"
+          ],
+          "common_errors_vi": "Kết quả dùng `따라서` hoặc `그러므로` (trang trọng hơn `그래서`)."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V43F3",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Xu hướng và phủ định",
+      "points": 6,
+      "instruction_vi": "Điền đuôi câu 한다체 đúng cho động từ và tính từ.",
+      "context_vi": "Xu hướng, phủ định",
+      "text": "혼자 사는 사람이 해마다 ( ㉠ ). 그러나 이들을 위한 지원은 아직 충분하지 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "늘고 있다",
+            "늘어나고 있다",
+            "증가하고 있다"
+          ],
+          "common_errors_vi": "Hiện tượng đang diễn ra: `-고 있다`; không dùng `-요` hay `-ㅂ니다`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "않다"
+          ],
+          "common_errors_vi": "`충분하다` là tính từ nên đi với `않다` (không phải `않는다`)."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V43E1",
+      "skill": "build",
+      "type": "write_essay",
+      "rung": 4,
+      "number": "Bước 4",
+      "title_vi": "Tạo câu · Đổi một đoạn nói thành đoạn viết",
+      "points": 10,
+      "instruction_ko": "※ 다음 말을 글에 알맞게 바꿔 쓰십시오.",
+      "instruction_vi": "Đổi đoạn lời nói sau thành 4 câu văn viết 한다체, giữ nguyên nội dung.",
+      "limits": {
+        "min": 70,
+        "max": 220
+      },
+      "prompt_ko": "저는 요즘 온라인 수업을 자주 들어요. 근데 집에서는 집중하기가 좀 어려워요. 그래서 도서관에 가서 공부하는 친구도 많아요. 제 생각에는 온라인 수업이 정말 편하지만 스스로 계획을 세워야 해요.",
+      "framework_vi": [
+        "Câu 1: bỏ `저는`, mở bằng `최근 …`.",
+        "Câu 2: `근데` → `그러나`; `좀`, `-기가` rút gọn thành `-기`.",
+        "Câu 3: `그래서` → `이 때문에`; `친구` → `학생`.",
+        "Câu 4: bỏ `제 생각에는`; `정말` → `매우`."
+      ],
+      "patterns_vi": [
+        "`-ㄴ/는다 · -다 · -이다`",
+        "`-지 않다`",
+        "`-아/어야 하다` → `해야 한다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Hiện tượng",
+          "chars": "20–35 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Khó khăn",
+          "chars": "25–40 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Hệ quả",
+          "chars": "25–40 chữ"
+        },
+        {
+          "part_vi": "Câu 4",
+          "content_vi": "Nhận xét",
+          "chars": "30–45 chữ"
+        }
+      ],
+      "model_answer_ko": "최근 온라인 수업을 듣는 학생이 많다. 그러나 집에서는 집중하기 어렵다는 학생도 있다. 이 때문에 도서관에서 공부하는 학생도 적지 않다. 온라인 수업은 매우 편리하지만 학생이 스스로 계획을 세워야 한다.",
+      "model_note_vi": "Giữ nguyên nội dung, đổi giọng: bỏ xưng hô, đổi từ nối và từ nhấn, kết câu bằng `-다`. Bài khác vẫn đúng nếu cùng ý và cùng thể.",
+      "common_errors_vi": [
+        "Còn `-요` hoặc `-습니다` ở cuối câu.",
+        "Giữ `근데`, `그래서`, `정말`.",
+        "Giữ `저는` ở đầu câu."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Mọi câu kết bằng 한다체",
+          "max": 4
+        },
+        {
+          "criterion_vi": "Từ nối và từ nhấn văn viết",
+          "max": 3
+        },
+        {
+          "criterion_vi": "Giữ đúng nội dung",
+          "max": 3
+        }
+      ],
+      "checklist_vi": [
+        "Cuối mỗi câu là `-다`?",
+        "Không còn `저는`, `근데`, `그래서`, `정말`, `좀`?",
+        "Có ít nhất một từ nối văn viết (`그러나`, `이 때문에`)?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V + -ㄴ/는다 · A + -다 · N + (이)다",
+          "regex": "[가-힣]다\\.",
+          "label_vi": "Có câu kết thúc bằng -다"
+        },
+        {
+          "pattern": "V + -지 않는다 · A + -지 않다 · V + -지 못한다",
+          "regex": "지 않",
+          "label_vi": "Có dùng -지 않다"
+        }
+      ]
+    },
+    {
+      "id": "V44B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Tiết kiệm thời gian",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Học trực tuyến có ích cho việc tiết kiệm thời gian.",
+      "tiles": [
+        "절약하는데",
+        "온라인",
+        "도움이",
+        "수업은",
+        "데",
+        "시간을",
+        "된다.",
+        "절약하는"
+      ],
+      "answers": [
+        "온라인 수업은 시간을 절약하는 데 도움이 된다."
+      ],
+      "explain_vi": "`절약하는 데` viết cách: `데` là danh từ phụ thuộc. `절약하는데` liền nhau là đuôi nối nên là mảnh thừa."
+    },
+    {
+      "id": "V44B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Nguy cơ rác tăng",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Nếu việc dùng ứng dụng giao đồ ăn tăng lên thì có nguy cơ rác nhiều thêm.",
+      "tiles": [
+        "많아지는",
+        "쓰레기가",
+        "있다.",
+        "늘면",
+        "배달",
+        "우려가",
+        "앱",
+        "이용이",
+        "많아질"
+      ],
+      "answers": [
+        "배달 앱 이용이 늘면 쓰레기가 많아질 우려가 있다."
+      ],
+      "explain_vi": "`-(으)ㄹ 우려가 있다`: `많아지다` → `많아질`. `많아지는` là dạng bổ nghĩa hiện tại nên không ghép với `우려`."
+    },
+    {
+      "id": "V44B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Gánh nặng",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Phí giao hàng là gánh nặng lớn với người tiêu dùng.",
+      "tiles": [
+        "부담을",
+        "큰",
+        "소비자에게",
+        "배달비는",
+        "된다.",
+        "부담이"
+      ],
+      "answers": [
+        "배달비는 소비자에게 큰 부담이 된다."
+      ],
+      "explain_vi": "`부담이 되다`: chủ ngữ của `되다` là `부담`, nên dùng `이`. `부담을` làm câu sai khuôn."
+    },
+    {
+      "id": "V44B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Tuỳ từng người",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Hiệu quả của chế độ này có thể khác nhau tuỳ từng người.",
+      "tiles": [
+        "대해",
+        "다를",
+        "이",
+        "사람에",
+        "효과는",
+        "제도의",
+        "따라",
+        "있다.",
+        "수"
+      ],
+      "answers": [
+        "이 제도의 효과는 사람에 따라 다를 수 있다."
+      ],
+      "explain_vi": "`N에 따라 다를 수 있다`: tuỳ N mà khác. `에 대해` nghĩa là «về», không dùng ở đây."
+    },
+    {
+      "id": "V44B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Có được thông tin",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Điện thoại thông minh có ích cho việc dễ dàng có được thông tin.",
+      "tiles": [
+        "얻는데",
+        "스마트폰은",
+        "정보를",
+        "쉽게",
+        "얻는",
+        "데",
+        "도움이",
+        "된다."
+      ],
+      "answers": [
+        "스마트폰은 정보를 쉽게 얻는 데 도움이 된다."
+      ],
+      "explain_vi": "`얻다` + `-는 데`: `얻는 데`. Phó từ `쉽게` đứng trước động từ."
+    },
+    {
+      "id": "V44B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Lộ thông tin",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Có khả năng thông tin cá nhân bị lộ.",
+      "tiles": [
+        "유출되는",
+        "정보가",
+        "있다.",
+        "가능성이",
+        "개인",
+        "유출될"
+      ],
+      "answers": [
+        "개인 정보가 유출될 가능성이 있다."
+      ],
+      "explain_vi": "`-(으)ㄹ 가능성이 있다`: `유출되다` → `유출될`. `유출되는` là dạng hiện tại, không đi với `가능성`."
+    },
+    {
+      "id": "V44B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Mất ngủ",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Dùng quá mức có nguy cơ làm giảm thời gian ngủ.",
+      "tiles": [
+        "줄이는",
+        "지나친",
+        "수면",
+        "사용은",
+        "줄일",
+        "시간을",
+        "우려가",
+        "있다."
+      ],
+      "answers": [
+        "지나친 사용은 수면 시간을 줄일 우려가 있다."
+      ],
+      "explain_vi": "`지나친` bổ nghĩa cho `사용`; `줄일 우려가 있다` là nguy cơ xấu. `줄이는` không ghép với `우려`."
+    },
+    {
+      "id": "V44B8",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Đi làm tại nhà",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Làm việc tại nhà có ích cho việc tiết kiệm thời gian đi làm.",
+      "tiles": [
+        "도움을",
+        "재택근무는",
+        "출퇴근",
+        "시간을",
+        "아끼는",
+        "데",
+        "도움이",
+        "된다."
+      ],
+      "answers": [
+        "재택근무는 출퇴근 시간을 아끼는 데 도움이 된다."
+      ],
+      "explain_vi": "`도움이 되다`, không phải `도움을 되다`. `아끼다` đi với `시간을`."
+    },
+    {
+      "id": "V44F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Lợi và hại",
+      "points": 6,
+      "instruction_vi": "Điền vào chỗ trống để hoàn thành câu lợi và câu hại.",
+      "context_vi": "Ngăn thời gian và chi phí",
+      "text": "① 배달 앱은 식사를 준비하는 ( ㉠ ) 걸리는 시간을 줄여 준다.\n② 배달비는 소비자에게 ( ㉡ )이/가 될 수 있다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "데"
+          ],
+          "common_errors_vi": "`-는 데`: danh từ phụ thuộc, viết cách. Không điền `대` hay `에`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "부담"
+          ],
+          "common_errors_vi": "`부담이 되다` = trở thành gánh nặng."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V44F2",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Nguy cơ và khả năng",
+      "points": 6,
+      "instruction_vi": "Điền đuôi hoặc danh từ đúng cho khuôn «có nguy cơ».",
+      "context_vi": "Ngăn sức khoẻ và thông tin",
+      "text": "① 개인 정보가 유출( ㉠ ) 우려가 있다.\n② 지나친 사용은 건강을 해칠 ( ㉡ )이/가 있다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "될"
+          ],
+          "common_errors_vi": "`유출되다` → `유출될`: gốc + `-ㄹ` (không patchim)."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "우려",
+            "가능성"
+          ],
+          "common_errors_vi": "Điều xấu: `우려` hoặc `가능성` đều được. Đừng điền `수` hay `것`."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V44F3",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Tuỳ từng người",
+      "points": 6,
+      "instruction_vi": "Điền để hoàn thành câu «tuỳ từng người».",
+      "context_vi": "Giảm tính tuyệt đối",
+      "text": "이 제도의 효과는 사람( ㉠ ) 따라 ( ㉡ ) 수 있다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "에"
+          ],
+          "common_errors_vi": "`N에 따라`: trợ từ `에` đứng sau danh từ."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "다를",
+            "달라질"
+          ],
+          "common_errors_vi": "`다르다 → 다를`, `달라지다 → 달라질`: bổ nghĩa cho `수 있다`."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V44E1",
+      "skill": "build",
+      "type": "write_essay",
+      "rung": 4,
+      "number": "Bước 4",
+      "title_vi": "Tạo câu · Hai ưu điểm từ hai ngăn kéo",
+      "points": 10,
+      "instruction_ko": "※ 다음 질문에 대한 답을 두 문장으로 쓰십시오.",
+      "instruction_vi": "Chọn hai ngăn kéo hợp nhất và viết hai câu ý chính cho gạch «ưu điểm» (한다체).",
+      "limits": {
+        "min": 50,
+        "max": 180
+      },
+      "prompt_ko": "재택근무의 장점은 무엇인가?",
+      "framework_vi": [
+        "Câu 1: ngăn ⏱ hoặc 💰 với `-는 데 도움이 된다`.",
+        "Câu 2: một ngăn khác (ví dụ 💰 hoặc 👪) với `-(으)ㄹ 수 있다`.",
+        "Dùng `또한` để nối câu 2."
+      ],
+      "patterns_vi": [
+        "`N에 도움이 된다`",
+        "`V + -는 데`",
+        "`-(으)ㄹ 수 있다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Ưu điểm thứ nhất (ngăn kéo A)",
+          "chars": "25–45 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Ưu điểm thứ hai (ngăn kéo B)",
+          "chars": "25–45 chữ"
+        }
+      ],
+      "model_answer_ko": "재택근무는 출퇴근 시간을 절약하는 데 도움이 된다. 또한 교통비와 점심값 같은 생활 비용 부담도 줄일 수 있다.",
+      "model_note_vi": "Hai ý khác ngăn kéo (thời gian, chi phí) nên không lặp nhau. Bạn có thể chọn ngăn khác (ví dụ 👪: có thể dành thời gian cho gia đình) và vẫn đúng.",
+      "common_errors_vi": [
+        "Hai câu cùng nói một ý (cùng ngăn kéo).",
+        "Viết `-는데` liền.",
+        "Chỉ viết `좋다` mà không nêu lý do."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Hai ý khác ngăn kéo, đúng gạch «ưu điểm»",
+          "max": 5
+        },
+        {
+          "criterion_vi": "Dùng đúng khuôn của bài",
+          "max": 3
+        },
+        {
+          "criterion_vi": "Đúng 한다체",
+          "max": 2
+        }
+      ],
+      "checklist_vi": [
+        "Hai ý có thuộc hai ngăn kéo khác nhau không?",
+        "Có `-는 데` (viết cách) hoặc `에 도움이 된다` không?",
+        "Cuối câu là `-다` chưa?"
+      ],
+      "detectors": [
+        {
+          "pattern": "N + 에 도움이 되다 · N + 에 부담이 되다",
+          "regex": "도움이 (?:된다|되었다|됐다)",
+          "label_vi": "Có dùng 도움이 되다"
+        },
+        {
+          "pattern": "V + -는 데 (도움이 되다 · 시간이 걸리다 · 비용이 들다)",
+          "regex": "[가-힣] 데 ",
+          "label_vi": "Có dùng -는 데"
+        }
+      ]
+    },
+    {
+      "id": "V45B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Câu lý do",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Điều này là vì có thể tiết kiệm thời gian.",
+      "tiles": [
+        "절약할",
+        "있기",
+        "이는",
+        "때문에.",
+        "수",
+        "시간을",
+        "때문이다."
+      ],
+      "answers": [
+        "이는 시간을 절약할 수 있기 때문이다."
+      ],
+      "explain_vi": "Câu lý do kết bằng `-기 때문이다`. `때문에.` không đứng cuối một câu độc lập."
+    },
+    {
+      "id": "V45B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Lý do là chi phí",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Điều này là vì tốn nhiều chi phí.",
+      "tiles": [
+        "많이",
+        "때문이다.",
+        "들기",
+        "이는",
+        "비용이",
+        "들어서"
+      ],
+      "answers": [
+        "이는 비용이 많이 들기 때문이다."
+      ],
+      "explain_vi": "`비용이 들다` + `-기 때문이다` = `비용이 많이 들기 때문이다`. `들어서` là dạng khác của lý do (đuôi nối), không kết câu."
+    },
+    {
+      "id": "V45B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Câu ví dụ",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Ví dụ, trường hợp học sinh có thể học ở nhà.",
+      "tiles": [
+        "예를",
+        "학생의",
+        "수업을",
+        "들어",
+        "경우",
+        "집에서",
+        "들을",
+        "수",
+        "있다."
+      ],
+      "answers": [
+        "예를 들어 학생의 경우 집에서 수업을 들을 수 있다."
+      ],
+      "explain_vi": "`예를 들어` đứng đầu câu ví dụ, rồi `N의 경우`. Tất cả mảnh đều dùng; chỉ cần đúng thứ tự."
+    },
+    {
+      "id": "V45B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Câu kết quả",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Kết quả là rác đang tăng nhanh.",
+      "tiles": [
+        "늘어서",
+        "그",
+        "쓰레기가",
+        "있다.",
+        "결과",
+        "빠르게",
+        "늘고"
+      ],
+      "answers": [
+        "그 결과 쓰레기가 빠르게 늘고 있다."
+      ],
+      "explain_vi": "`그 결과` mở câu, `늘고 있다` kết câu. `늘어서` là đuôi nối nên là mảnh thừa."
+    },
+    {
+      "id": "V45B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Do danh từ",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Do căng thẳng, thời gian ngủ giảm.",
+      "tiles": [
+        "스트레스을",
+        "스트레스로",
+        "인해",
+        "수면",
+        "줄었다.",
+        "시간이"
+      ],
+      "answers": [
+        "스트레스로 인해 수면 시간이 줄었다."
+      ],
+      "explain_vi": "`스트레스` không có patchim nên dùng `로 인해`. `스트레스을` sai trợ từ."
+    },
+    {
+      "id": "V45B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Câu tóm tắt",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Như vậy, nỗ lực nhỏ tạo nên thay đổi lớn.",
+      "tiles": [
+        "이처럼",
+        "작은",
+        "노력이",
+        "큰",
+        "만들는다.",
+        "변화를",
+        "만든다."
+      ],
+      "answers": [
+        "이처럼 작은 노력이 큰 변화를 만든다."
+      ],
+      "explain_vi": "`만들다` là gốc ㄹ: `만든다`. `만들는다` là lỗi quên bỏ ㄹ."
+    },
+    {
+      "id": "V45B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Danh từ + 으로 인한",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Mâu thuẫn do tiếng ồn đang tăng.",
+      "tiles": [
+        "인해",
+        "소음으로",
+        "인한",
+        "갈등이",
+        "늘고",
+        "있다."
+      ],
+      "answers": [
+        "소음으로 인한 갈등이 늘고 있다."
+      ],
+      "explain_vi": "`N(으)로 인한 N`: `소음으로 인한 갈등`. `인해` là dạng đứng trước vị ngữ, không bổ nghĩa danh từ."
+    },
+    {
+      "id": "V45B8",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Vì lẽ đó",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Vì lẽ đó gánh nặng của người tiêu dùng đang tăng.",
+      "tiles": [
+        "때문이다.",
+        "이",
+        "때문에",
+        "소비자의",
+        "부담이",
+        "커지고",
+        "있다."
+      ],
+      "answers": [
+        "이 때문에 소비자의 부담이 커지고 있다."
+      ],
+      "explain_vi": "`이 때문에` mở câu kết quả. `때문이다.` là kiểu kết thúc, không dùng ở đây."
+    },
+    {
+      "id": "V45F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Chọn từ nối",
+      "points": 9,
+      "instruction_vi": "Điền từ nối đúng chức năng vào mỗi chỗ trống.",
+      "context_vi": "Từ nối theo chức năng",
+      "text": "배달 앱은 편리하다. ( ㉠ ) 쓰레기가 늘어난다는 문제가 있다. ( ㉡ ) 한 끼를 주문할 때마다 일회용 용기가 여러 개 나온다. ( ㉢ ) 환경에 대한 부담이 커지고 있다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "그러나",
+            "하지만"
+          ],
+          "common_errors_vi": "Câu sau nêu mặt trái nên cần từ nối **tương phản**."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "예를 들어",
+            "실제로"
+          ],
+          "common_errors_vi": "Câu sau là **ví dụ** nên dùng `예를 들어` (hoặc `실제로`)."
+        },
+        {
+          "id": "㉢",
+          "points": 3,
+          "accepted": [
+            "그 결과",
+            "이 때문에",
+            "따라서"
+          ],
+          "common_errors_vi": "Câu sau là **kết quả** của việc rác nhiều."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V45F2",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Câu lý do",
+      "points": 9,
+      "instruction_vi": "Điền cụm lý do vào các chỗ trống.",
+      "context_vi": "Câu lý do",
+      "text": "배달비가 비싼 이유는 배달 기사의 수가 부족하( ㉠ ) ( ㉡ ). 비용 ( ㉢ ) 이용을 줄이는 사람도 있다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "기"
+          ],
+          "common_errors_vi": "`-기 때문이다`: gốc + `기`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "때문이다"
+          ],
+          "common_errors_vi": "Cuối câu lý do là `때문이다`, không phải `때문에`."
+        },
+        {
+          "id": "㉢",
+          "points": 3,
+          "accepted": [
+            "때문에"
+          ],
+          "common_errors_vi": "Danh từ + `때문에` đứng giữa câu: `비용 때문에 …`."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V45F3",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Nguyên nhân và ví dụ",
+      "points": 6,
+      "instruction_vi": "Điền trợ từ cho đúng.",
+      "context_vi": "(으)로 인한, N의 경우",
+      "text": "① 소음( ㉠ ) 인한 갈등이 늘고 있다.\n② 학생( ㉡ ) 경우 집에서 수업을 들을 수 있다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "으로"
+          ],
+          "common_errors_vi": "`소음` có patchim ㅁ nên dùng `으로 인한`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "의"
+          ],
+          "common_errors_vi": "`N의 경우`: trợ từ sở hữu `의` đứng giữa danh từ và `경우`."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V45E1",
+      "skill": "build",
+      "type": "write_essay",
+      "rung": 4,
+      "number": "Bước 4",
+      "title_vi": "Tạo câu · Một đoạn thân bài 5 câu",
+      "points": 20,
+      "instruction_ko": "※ 다음 질문에 대한 답을 다섯 문장으로 쓰십시오.",
+      "instruction_vi": "Viết một đoạn thân bài 5 câu theo công thức Ý – Vì sao – Ví dụ – Kết quả – Nối (한다체).",
+      "limits": {
+        "min": 110,
+        "max": 260
+      },
+      "prompt_ko": "온라인 수업의 장점은 무엇인가?",
+      "framework_vi": [
+        "Câu 1 (Ý): `온라인 수업의 첫 번째 장점은 시간을 절약할 수 있다는 점이다.`",
+        "Câu 2 (Vì sao): `이는 … 기 때문이다.`",
+        "Câu 3 (Ví dụ): `예를 들어 … 의 경우 …`",
+        "Câu 4 (Kết quả): `그 결과 …`",
+        "Câu 5 (Nối): `이처럼 …`"
+      ],
+      "patterns_vi": [
+        "`-기 때문이다`",
+        "`N의 경우`",
+        "`그 결과`",
+        "`이처럼`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Ý chính (ngăn kéo thời gian)",
+          "chars": "25–35 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Vì sao",
+          "chars": "25–35 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Ví dụ về một nhóm người",
+          "chars": "30–45 chữ"
+        },
+        {
+          "part_vi": "Câu 4",
+          "content_vi": "Kết quả",
+          "chars": "25–35 chữ"
+        },
+        {
+          "part_vi": "Câu 5",
+          "content_vi": "Nối, rút ý nghĩa",
+          "chars": "25–35 chữ"
+        }
+      ],
+      "model_answer_ko": "온라인 수업의 첫 번째 장점은 시간을 절약할 수 있다는 점이다. 이는 학교까지 오가는 시간이 필요하지 않기 때문이다. 예를 들어 학교가 먼 학생의 경우 하루에 많은 시간을 아낄 수 있다. 그 결과 학생은 남는 시간에 복습을 하거나 쉴 수 있다. 이처럼 온라인 수업은 학생에게 시간적 여유를 준다.",
+      "model_note_vi": "Bài mẫu dùng ngăn ⏱ (thời gian). Bạn có thể chọn ngăn khác (💰 chi phí, 🌱 môi trường…) và vẫn đúng công thức.",
+      "common_errors_vi": [
+        "Câu 2 chỉ lặp lại câu 1.",
+        "Ví dụ quá chung, không có nhóm người.",
+        "Cuối câu lý do viết `때문에.`",
+        "Mở hai câu liền nhau bằng cùng một từ nối."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Đủ 5 câu đúng vai trò",
+          "max": 8
+        },
+        {
+          "criterion_vi": "Từ nối và khuôn của bài",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Đúng 한다체 và ngữ pháp",
+          "max": 6
+        }
+      ],
+      "checklist_vi": [
+        "Có đủ 5 vai trò: Ý, Vì sao, Ví dụ, Kết quả, Nối?",
+        "Câu 2 kết bằng `-기 때문이다`?",
+        "Câu 3 có `예를 들어` và một nhóm người?",
+        "Từ nối ở các câu khác nhau chưa?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V/A + -기 때문이다 · N + 때문이다",
+          "regex": "기 때문이다",
+          "label_vi": "Có -기 때문이다"
+        },
+        {
+          "pattern": "N + 의 경우 · V + -는 경우",
+          "regex": "의 경우",
+          "label_vi": "Có N의 경우"
+        },
+        {
+          "pattern": "그 결과 · V + -(으)ㄴ 결과",
+          "regex": "그 결과",
+          "label_vi": "Có 그 결과"
+        }
+      ]
+    },
+    {
+      "id": "V46B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Câu bối cảnh",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Gần đây số nhân viên làm việc ở nhà đang tăng.",
+      "tiles": [
+        "직장인이",
+        "최근",
+        "일하는",
+        "늘고",
+        "집에서",
+        "있다.",
+        "일한"
+      ],
+      "answers": [
+        "최근 집에서 일하는 직장인이 늘고 있다."
+      ],
+      "explain_vi": "`일하는 직장인`: động từ hiện tại + `는` bổ nghĩa danh từ. `일한` là quá khứ nên làm đổi nghĩa."
+    },
+    {
+      "id": "V46B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Đổi sang -는 추세이다",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Ngày nay hộ một người đang có xu hướng tăng.",
+      "tiles": [
+        "1인",
+        "추세이다.",
+        "가구가",
+        "증가하는",
+        "오늘날",
+        "증가한",
+        "가구는"
+      ],
+      "answers": [
+        "오늘날 1인 가구가 증가하는 추세이다."
+      ],
+      "explain_vi": "`-는 추세이다`: động từ + `는`. `증가한 추세이다` không tự nhiên; `가구는` thay đổi trợ từ chủ ngữ."
+    },
+    {
+      "id": "V46B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Danh từ hoá",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Việc dùng điện thoại thông minh đang trở thành chuyện thường ngày.",
+      "tiles": [
+        "스마트폰",
+        "사용이",
+        "일상화되고",
+        "있다.",
+        "일상화하고",
+        "일상이"
+      ],
+      "answers": [
+        "스마트폰 사용이 일상화되고 있다."
+      ],
+      "explain_vi": "`일상화되다` là tự động (sự việc tự trở nên thường ngày) nên đi với `사용이`. `일상화하다` (làm cho thường ngày) cần tân ngữ."
+    },
+    {
+      "id": "V46B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Nổi lên thành vấn đề",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Hiện tượng này đang nổi lên thành vấn đề xã hội.",
+      "tiles": [
+        "현상은",
+        "이러한",
+        "사회적",
+        "문제로",
+        "떠오르고",
+        "있다.",
+        "떠올리고",
+        "문제를"
+      ],
+      "answers": [
+        "이러한 현상은 사회적 문제로 떠오르고 있다."
+      ],
+      "explain_vi": "`N(으)로 떠오르다`: `문제로 떠오르고 있다`. `떠올리다` là nhớ/nghĩ tới và cần tân ngữ `-을/를`."
+    },
+    {
+      "id": "V46B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Gộp bằng -(으)면서",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Khi việc dùng ứng dụng giao đồ ăn tăng lên, vấn đề rác cũng trở nên nghiêm trọng.",
+      "tiles": [
+        "배달",
+        "앱",
+        "이용이",
+        "늘면서",
+        "쓰레기",
+        "문제도",
+        "심각해지고",
+        "있다.",
+        "늘으면서"
+      ],
+      "answers": [
+        "배달 앱 이용이 늘면서 쓰레기 문제도 심각해지고 있다."
+      ],
+      "explain_vi": "`늘다` có patchim ㄹ nên là `늘면서`, không phải `늘으면서`. `-고 있다` đứng cuối câu để chia thì."
+    },
+    {
+      "id": "V46B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Câu báo trước",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Vì vậy, trong bài này sẽ xem xét ưu nhược điểm của làm việc tại nhà.",
+      "tiles": [
+        "이에",
+        "본",
+        "글에서는",
+        "재택근무의",
+        "장단점을",
+        "살펴보고자",
+        "한다.",
+        "살펴봅니다."
+      ],
+      "answers": [
+        "이에 본 글에서는 재택근무의 장단점을 살펴보고자 한다."
+      ],
+      "explain_vi": "`-고자 한다` kết câu báo trước trong 한다체. `살펴봅니다` là thể nói trang trọng nên không dùng trong bài này."
+    },
+    {
+      "id": "V46B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Tăng sự quan tâm",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Sự quan tâm đến vấn đề này đang tăng lên.",
+      "tiles": [
+        "이",
+        "문제에",
+        "대한",
+        "관심이",
+        "높아지고",
+        "있다.",
+        "높이고"
+      ],
+      "answers": [
+        "이 문제에 대한 관심이 높아지고 있다."
+      ],
+      "explain_vi": "`높아지다` là tự động (`관심이 높아지다`). `높이다` là làm cho cao hơn và cần tân ngữ."
+    },
+    {
+      "id": "V46B8",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Được chú ý như …",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Làm việc tại nhà đang được chú ý như một cách làm việc mới.",
+      "tiles": [
+        "재택근무가",
+        "새로운",
+        "근무",
+        "방식으로",
+        "주목받고",
+        "있다.",
+        "방식을",
+        "주목하고"
+      ],
+      "answers": [
+        "재택근무가 새로운 근무 방식으로 주목받고 있다."
+      ],
+      "explain_vi": "`N(으)로 주목받다` = được chú ý như N. `주목하고` là chủ động (người viết chú ý) nên đổi nghĩa."
+    },
+    {
+      "id": "V46F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Ba khuôn mở bài",
+      "points": 9,
+      "instruction_vi": "Điền đuôi hoặc trợ từ cho đúng.",
+      "context_vi": "-는 추세이다, -(으)면서, (으)로 떠오르다",
+      "text": "오늘날 1인 가구가 증가하( ㉠ ) 추세이다. 1인 가구가 늘( ㉡ ) 작은 집의 수요도 커지고 있다. 이러한 변화는 새로운 사회 문제( ㉢ ) 떠오르고 있다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "는"
+          ],
+          "common_errors_vi": "`-는 추세이다`: động từ + `는`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "면서"
+          ],
+          "common_errors_vi": "`늘다` patchim ㄹ nên là `늘면서`, không phải `늘으면서`."
+        },
+        {
+          "id": "㉢",
+          "points": 3,
+          "accepted": [
+            "로"
+          ],
+          "common_errors_vi": "`문제` không có patchim nên là `문제로 떠오르다`."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V46F2",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Gọi lại ba gạch của đề",
+      "points": 9,
+      "instruction_vi": "Điền từ để gọi lại ba gạch của đề bằng cách khác.",
+      "context_vi": "Mẹo 5: gọi lại ba gạch",
+      "text": "① 스마트폰의 장점 → 스마트폰의 ( ㉠ )인 측면\n② 스마트폰의 문제점 → 스마트폰의 ( ㉡ )인 측면\n③ 이에 본 글에서는 두 측면을 ( ㉢ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "긍정적"
+          ],
+          "common_errors_vi": "`장점` ↔ `긍정적인 측면`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "부정적"
+          ],
+          "common_errors_vi": "`문제점` ↔ `부정적인 측면`."
+        },
+        {
+          "id": "㉢",
+          "points": 3,
+          "accepted": [
+            "살펴보고자 한다",
+            "알아보고자 한다"
+          ],
+          "common_errors_vi": "Câu báo trước kết bằng `-고자 한다`."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V46F3",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 3,
+      "number": "Bước 3",
+      "title_vi": "Tạo câu · Viết lại cho khác đề",
+      "points": 12,
+      "instruction_vi": "Viết lại câu để không giống câu của đề. Dùng từ đã học.",
+      "context_vi": "Mẹo 1, 2, 3",
+      "text": "① 최근 배달 앱 이용이 늘고 있다. → ( ㉠ ) 배달 앱 이용이 ( ㉡ ).\n② 혼자 사는 사람이 늘고 있다. → ( ㉢ )가 ( ㉣ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "오늘날",
+            "현대 사회에서는"
+          ],
+          "common_errors_vi": "Đổi `최근` thành `오늘날` hoặc `현대 사회에서는`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "늘어나는 추세이다",
+            "증가하는 추세이다"
+          ],
+          "common_errors_vi": "Đổi `늘고 있다` thành `늘어나는/증가하는 추세이다`."
+        },
+        {
+          "id": "㉢",
+          "points": 3,
+          "accepted": [
+            "1인 가구"
+          ],
+          "common_errors_vi": "`혼자 사는 사람` → `1인 가구`."
+        },
+        {
+          "id": "㉣",
+          "points": 3,
+          "accepted": [
+            "증가하는 추세이다",
+            "늘어나는 추세이다",
+            "급증하고 있다",
+            "증가하고 있다"
+          ],
+          "common_errors_vi": "Đổi `늘고 있다` sang cách nói khác: `증가하는 추세이다`, `급증하고 있다`..."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V46E1",
+      "skill": "build",
+      "type": "write_essay",
+      "rung": 4,
+      "number": "Bước 4",
+      "title_vi": "Tạo câu · Viết mở bài 3 câu",
+      "points": 20,
+      "instruction_ko": "※ 다음을 읽고 도입 단락을 세 문장으로 쓰십시오. 단, 문제를 그대로 옮겨 쓰지 마십시오.",
+      "instruction_vi": "Viết mở bài 3 câu (Bối cảnh – Được chú ý – Báo trước) cho đề dưới đây, không chép đề (한다체).",
+      "limits": {
+        "min": 60,
+        "max": 170
+      },
+      "prompt_ko": "최근 재택근무를 하는 직장인이 늘고 있다. ‘재택근무’에 대한 자신의 생각을 쓰시오.",
+      "bullets_ko": [
+        "재택근무의 장점은 무엇인가?",
+        "재택근무의 문제점은 무엇인가?",
+        "문제점을 해결하기 위해 어떤 노력이 필요한가?"
+      ],
+      "framework_vi": [
+        "Câu 1 (Bối cảnh): `오늘날 … 이/가 … 늘어나는 추세이다.`",
+        "Câu 2 (Được chú ý): `이러한 … 은/는 사회적 문제로 떠오르고 있다.`",
+        "Câu 3 (Báo trước): `이에 본 글에서는 …, …, 그리고 … 을/를 살펴보고자 한다.`"
+      ],
+      "patterns_vi": [
+        "`-는 추세이다`",
+        "`(으)로 떠오르다` / `주목받다`",
+        "`-고자 한다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Bối cảnh (đổi từ thời gian, động từ, danh từ)",
+          "chars": "25–40 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Chủ đề đáng được bàn",
+          "chars": "25–40 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Báo trước ba nội dung theo thứ tự ba gạch",
+          "chars": "35–55 chữ"
+        }
+      ],
+      "model_answer_ko": "오늘날 집에서 일하는 직장인이 늘어나는 추세이다. 이러한 근무 방식은 직장 생활의 모습을 크게 바꾸며 사회적으로 주목받고 있다. 이에 본 글에서는 재택근무의 장점과 문제점, 그리고 이를 해결하기 위한 방안을 살펴보고자 한다.",
+      "model_note_vi": "Bài mẫu đổi `최근` → `오늘날`, `재택근무를 하는` → `집에서 일하는`, `늘고 있다` → `늘어나는 추세이다`, và gọi lại gạch 3 bằng `해결하기 위한 방안`. Bạn có thể dùng cách đổi khác.",
+      "common_errors_vi": [
+        "Chép nguyên câu của đề.",
+        "Mở bằng ý kiến cá nhân `저는 …고 생각한다`.",
+        "Câu báo trước thiếu một gạch hoặc sai thứ tự.",
+        "Kết bằng `-ㅂ니다` hoặc `-요`."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Đủ ba vai: bối cảnh, được chú ý, báo trước",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Không chép đề (đổi ít nhất hai thứ mỗi câu)",
+          "max": 6
+        },
+        {
+          "criterion_vi": "Khuôn của bài và 한다체",
+          "max": 8
+        }
+      ],
+      "checklist_vi": [
+        "Có đủ 3 câu đúng vai?",
+        "Câu 1 khác câu của đề ở ít nhất hai chỗ?",
+        "Câu 3 có đủ ba nội dung đúng thứ tự và kết bằng `-고자 한다`?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V + -는 추세이다 · V + -고 있는 추세이다",
+          "regex": "추세이다",
+          "label_vi": "Có -는 추세이다"
+        },
+        {
+          "pattern": "N + (으)로 떠오르다 · N + 이/가 주목받다",
+          "regex": "떠오르|주목받|관심이 높아",
+          "label_vi": "Có 떠오르다 / 주목받다"
+        },
+        {
+          "pattern": "V + -고자 한다",
+          "regex": "고자 한다",
+          "label_vi": "Có -고자 한다"
+        }
+      ]
+    },
+    {
+      "id": "V47B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Ưu điểm lớn nhất",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Ưu điểm lớn nhất là có thể tiết kiệm thời gian.",
+      "tiles": [
+        "장점은",
+        "가장",
+        "큰",
+        "시간을",
+        "절약할",
+        "수",
+        "있다는",
+        "점이다.",
+        "있는"
+      ],
+      "answers": [
+        "가장 큰 장점은 시간을 절약할 수 있다는 점이다."
+      ],
+      "explain_vi": "`장점은 … 있다는 점이다`: mệnh đề kết bằng `-다는` rồi `점이다`. `있는` làm câu thiếu `다는`."
+    },
+    {
+      "id": "V47B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Vấn đề là …",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Vấn đề là phí giao hàng đắt.",
+      "tiles": [
+        "문제는",
+        "배달비가",
+        "비싸다는",
+        "점이다.",
+        "비싼다는"
+      ],
+      "answers": [
+        "문제는 배달비가 비싸다는 점이다."
+      ],
+      "explain_vi": "Tính từ giữ nguyên dạng tận `비싸다` + `는 점이다`. `비싼다는` sai vì thêm ㄴ vào tính từ."
+    },
+    {
+      "id": "V47B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Ảnh hưởng",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Thiếu ngủ gây ảnh hưởng tiêu cực đến khả năng học tập.",
+      "tiles": [
+        "수면",
+        "부족은",
+        "학습",
+        "능력에",
+        "부정적인",
+        "영향을",
+        "미친다.",
+        "능력을",
+        "영향이"
+      ],
+      "answers": [
+        "수면 부족은 학습 능력에 부정적인 영향을 미친다."
+      ],
+      "explain_vi": "`N에 영향을 미치다`: đối tượng chịu ảnh hưởng đi với `에` (`능력에`), còn `영향을` là tân ngữ của `미치다`."
+    },
+    {
+      "id": "V47B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Ảnh hưởng xấu",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Dùng điện thoại quá mức có thể gây ảnh hưởng xấu đến sức khoẻ.",
+      "tiles": [
+        "과도한",
+        "스마트폰",
+        "사용은",
+        "건강에",
+        "악영향을",
+        "끼칠",
+        "수",
+        "있다.",
+        "건강을"
+      ],
+      "answers": [
+        "과도한 스마트폰 사용은 건강에 악영향을 끼칠 수 있다."
+      ],
+      "explain_vi": "`건강에 악영향을 끼치다`. `건강을` làm câu có hai tân ngữ nên sai."
+    },
+    {
+      "id": "V47B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Kiến nghị",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Chính phủ phải đưa ra chế độ hỗ trợ.",
+      "tiles": [
+        "정부는",
+        "지원",
+        "제도를",
+        "마련해야",
+        "한다.",
+        "마련하야",
+        "제도가"
+      ],
+      "answers": [
+        "정부는 지원 제도를 마련해야 한다."
+      ],
+      "explain_vi": "`마련하다` + `-아/어야 한다` = `마련해야 한다`. `마련하야` chia sai (phải là `해`)."
+    },
+    {
+      "id": "V47B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Cấp độ cá nhân",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Để giảm rác, cần nỗ lực ở cấp độ cá nhân.",
+      "tiles": [
+        "쓰레기를",
+        "줄이기",
+        "위해",
+        "개인적",
+        "차원에서",
+        "노력할",
+        "필요가",
+        "있다.",
+        "노력하는"
+      ],
+      "answers": [
+        "쓰레기를 줄이기 위해 개인적 차원에서 노력할 필요가 있다.",
+        "개인적 차원에서 쓰레기를 줄이기 위해 노력할 필요가 있다."
+      ],
+      "explain_vi": "`-(으)ㄹ 필요가 있다` cần dạng `-(으)ㄹ`: `노력할`. `노력하는` làm câu sai khuôn. Hai thứ tự `-기 위해` và `차원에서` đều chấp nhận."
+    },
+    {
+      "id": "V47B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Kỳ vọng",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Nếu những nỗ lực này tiếp tục thì kỳ vọng vấn đề sẽ giảm.",
+      "tiles": [
+        "이러한",
+        "노력이",
+        "이어진다면",
+        "문제가",
+        "줄어들",
+        "것으로",
+        "기대된다.",
+        "기대한다."
+      ],
+      "answers": [
+        "이러한 노력이 이어진다면 문제가 줄어들 것으로 기대된다."
+      ],
+      "explain_vi": "`-(으)ㄹ 것으로 기대된다` là dạng bị động cố định. `기대한다` là chủ động nên không đi với `것으로`."
+    },
+    {
+      "id": "V47B8",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Nên giảm bớt",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Nên giảm bớt vấn đề này.",
+      "tiles": [
+        "이",
+        "문제를",
+        "줄이는",
+        "것이",
+        "바람직하다.",
+        "줄인",
+        "것은"
+      ],
+      "answers": [
+        "이 문제를 줄이는 것이 바람직하다."
+      ],
+      "explain_vi": "`-는 것이 바람직하다`: động từ + `는 것이`. `줄인` là quá khứ nên không hợp với lời khuyên."
+    },
+    {
+      "id": "V47B9",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Tiêu chuẩn chung",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Thói quen đọc sách đúng đắn là đọc sách đều đặn.",
+      "tiles": [
+        "책을",
+        "것이다.",
+        "바람직한",
+        "읽는다",
+        "꾸준히",
+        "독서",
+        "읽는",
+        "습관이란"
+      ],
+      "answers": [
+        "바람직한 독서 습관이란 책을 꾸준히 읽는 것이다.",
+        "바람직한 독서 습관이란 꾸준히 책을 읽는 것이다."
+      ],
+      "explain_vi": "`바람직한 N이란 …는 것이다`: trước `것이다` động từ ở dạng định ngữ `읽는`; `읽는다` là đuôi câu nên không đứng ở đây."
+    },
+    {
+      "id": "V47B10",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Câu chốt kỳ vọng",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Khi các điều kiện được đáp ứng, văn hoá tiêu dùng được kỳ vọng sẽ ổn định.",
+      "tiles": [
+        "자리",
+        "기대한다.",
+        "때",
+        "소비",
+        "조건이",
+        "잡을",
+        "갖추어질",
+        "것으로",
+        "문화가",
+        "기대된다."
+      ],
+      "answers": [
+        "조건이 갖추어질 때 소비 문화가 자리 잡을 것으로 기대된다."
+      ],
+      "explain_vi": "Câu chốt dùng `-(으)ㄹ 것으로 기대된다` (bị động, khách quan). `기대한다` là «tôi mong», không hợp giọng văn nghị luận."
+    },
+    {
+      "id": "V47F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Ba khuôn của thân bài",
+      "points": 9,
+      "instruction_vi": "Điền đuôi hoặc trợ từ cho đúng.",
+      "context_vi": "-다는 점이다, 에 영향, -아/어야 한다",
+      "text": "가장 큰 장점은 시간을 절약할 수 ( ㉠ ) 점이다. 과도한 사용은 건강( ㉡ ) 악영향을 끼칠 수 있다. 정부는 제도를 마련( ㉢ ) 한다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "있다는"
+          ],
+          "common_errors_vi": "`-다는 점이다`: mệnh đề kết bằng `있다는`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "에"
+          ],
+          "common_errors_vi": "`건강에 악영향을 끼치다`."
+        },
+        {
+          "id": "㉢",
+          "points": 3,
+          "accepted": [
+            "해야"
+          ],
+          "common_errors_vi": "Kiến nghị: `마련해야 한다`."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V47F2",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Cấp độ, cần, kỳ vọng",
+      "points": 9,
+      "instruction_vi": "Điền từ còn thiếu của các mẫu câu.",
+      "context_vi": "차원, 필요가 있다, 것으로 기대된다",
+      "text": "개인적 ( ㉠ )에서는 작은 습관부터 바꿀 ( ㉡ )가 있다. 이러한 노력이 이어진다면 문제가 줄어들 ( ㉢ ) 기대된다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "차원"
+          ],
+          "common_errors_vi": "`개인적 차원에서는` = ở cấp độ cá nhân."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "필요"
+          ],
+          "common_errors_vi": "`-(으)ㄹ 필요가 있다` = cần …."
+        },
+        {
+          "id": "㉢",
+          "points": 3,
+          "accepted": [
+            "것으로"
+          ],
+          "common_errors_vi": "`-(으)ㄹ 것으로 기대된다`."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V47F3",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 3,
+      "number": "Bước 3",
+      "title_vi": "Tạo câu · Chọn động từ đúng",
+      "points": 9,
+      "instruction_vi": "Chọn động từ phù hợp và chia đúng dạng.",
+      "context_vi": "Động từ của giải pháp",
+      "text": "① 과도한 경쟁은 스트레스를 ( ㉠ ) 수 있다.\n② 정부는 새로운 제도를 ( ㉡ ) 한다.\n③ 지원을 ( ㉢ ) 필요가 있다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "초래할",
+            "유발할"
+          ],
+          "common_errors_vi": "`스트레스를 초래하다/유발하다` = gây ra căng thẳng."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "마련해야",
+            "도입해야"
+          ],
+          "common_errors_vi": "`제도를 마련하다/도입하다` + `-아/어야 한다`."
+        },
+        {
+          "id": "㉢",
+          "points": 3,
+          "accepted": [
+            "확대할",
+            "강화할",
+            "마련할"
+          ],
+          "common_errors_vi": "`지원을 확대하다/강화하다/마련하다` + `-(으)ㄹ 필요가 있다`."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V47F4",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Ba khuôn của đoạn «hình thái đúng đắn»",
+      "points": 9,
+      "instruction_vi": "Điền đuôi hoặc trợ từ cho đúng.",
+      "context_vi": "-(이)란 …는 것이다, -아/어야 한다, -(으)ㄹ 필요가 있다",
+      "text": "바람직한 독서 습관( ㉠ ) 책을 꾸준히 읽는 것이다. 이를 위해서는 첫째, 매일 정해진 시간에 읽( ㉡ ) 한다. 학교는 독서 시간을 보장( ㉢ ) 필요가 있다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "이란"
+          ],
+          "common_errors_vi": "Định nghĩa tiêu chuẩn: `습관이란` (danh từ kết thúc bằng phụ âm + `이란`)."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "어야"
+          ],
+          "common_errors_vi": "Điều kiện bắt buộc: `읽어야 한다`."
+        },
+        {
+          "id": "㉢",
+          "points": 3,
+          "accepted": [
+            "할"
+          ],
+          "common_errors_vi": "`보장할 필요가 있다`: động từ + `-(으)ㄹ` trước `필요가 있다`."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V47E1",
+      "skill": "build",
+      "type": "write_essay",
+      "rung": 4,
+      "number": "Bước 4",
+      "title_vi": "Tạo câu · Một đoạn thân bài: vấn đề",
+      "points": 25,
+      "instruction_ko": "※ 다음 질문에 대한 답을 다섯 문장으로 쓰십시오.",
+      "instruction_vi": "Viết đoạn thân bài 5 câu trả lời câu hỏi dưới đây (Ý – Vì sao – Ví dụ – Kết quả – Nối), dùng `-다는 점이다` ở câu 1 (한다체).",
+      "limits": {
+        "min": 110,
+        "max": 260
+      },
+      "prompt_ko": "재택근무의 문제점은 무엇인가?",
+      "framework_vi": [
+        "Câu 1 (Ý): `재택근무의 가장 큰 문제점은 …다는 점이다.`",
+        "Câu 2 (Vì sao): `이는 … 기 때문이다.`",
+        "Câu 3 (Ví dụ): `예를 들어 … 의 경우 …`",
+        "Câu 4 (Kết quả): `그 결과 …`",
+        "Câu 5 (Nối): `이처럼 …`"
+      ],
+      "patterns_vi": [
+        "`-다는 점이다`",
+        "`-기 때문이다`",
+        "`N의 경우`",
+        "`그 결과`",
+        "`이처럼`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Ý chính (vấn đề lớn nhất)",
+          "chars": "30–40 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Vì sao",
+          "chars": "25–35 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Ví dụ về một nhóm người",
+          "chars": "35–45 chữ"
+        },
+        {
+          "part_vi": "Câu 4",
+          "content_vi": "Kết quả",
+          "chars": "25–35 chữ"
+        },
+        {
+          "part_vi": "Câu 5",
+          "content_vi": "Nối",
+          "chars": "25–35 chữ"
+        }
+      ],
+      "model_answer_ko": "재택근무의 가장 큰 문제점은 동료와 소통하기 어렵다는 점이다. 이는 대화가 주로 메신저나 화상 회의로 이루어지기 때문이다. 예를 들어 새로 입사한 직원의 경우 모르는 것이 있어도 바로 물어보기 어렵다. 그 결과 업무에서 실수가 늘어나고 팀의 협력도 약해질 수 있다. 이처럼 재택근무는 편리하지만 소통이라는 측면에서 한계가 있다.",
+      "model_note_vi": "Bài mẫu dùng khuôn vấn đề: `…다는 점이다` rồi lý do, ví dụ, kết quả, nối. Bạn có thể chọn vấn đề khác (chi phí, sức khoẻ, an ninh thông tin…).",
+      "common_errors_vi": [
+        "Câu 2 chỉ lặp lại câu 1.",
+        "Ví dụ không có nhóm người.",
+        "Dùng `-ㄴ다는 점이다` với tính từ.",
+        "Cuối câu lý do viết `때문에.`"
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Đủ 5 câu đúng vai trò",
+          "max": 9
+        },
+        {
+          "criterion_vi": "Khuôn của bài (`-다는 점이다`, `-기 때문이다`, `의 경우`, `그 결과`)",
+          "max": 8
+        },
+        {
+          "criterion_vi": "Đúng 한다체 và ngữ pháp",
+          "max": 8
+        }
+      ],
+      "checklist_vi": [
+        "Câu 1 có `-다는 점이다`?",
+        "Câu 2 kết bằng `-기 때문이다`?",
+        "Câu 3 có `예를 들어` và một nhóm người?",
+        "Từ nối ở các câu khác nhau?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V/A + -다는 점이다 · V/A + -(으)ㄴ/는 점에서",
+          "regex": "다는 점이다",
+          "label_vi": "Có -다는 점이다"
+        },
+        {
+          "pattern": "V/A + -기 때문이다 · N + 때문이다",
+          "regex": "기 때문이다",
+          "label_vi": "Có -기 때문이다"
+        },
+        {
+          "pattern": "그 결과 · V + -(으)ㄴ 결과",
+          "regex": "그 결과",
+          "label_vi": "Có 그 결과"
+        }
+      ]
+    },
+    {
+      "id": "V47E2",
+      "skill": "build",
+      "type": "write_essay",
+      "rung": 4,
+      "number": "Bước 4",
+      "title_vi": "Tạo câu · Kết bài 3 câu",
+      "points": 20,
+      "instruction_ko": "※ 다음 글의 결론 단락을 세 문장으로 쓰십시오.",
+      "instruction_vi": "Viết kết bài 3 câu: Tóm tắt – Kiến nghị – Kỳ vọng, cho chủ đề làm việc tại nhà (한다체).",
+      "limits": {
+        "min": 70,
+        "max": 230
+      },
+      "prompt_ko": "재택근무는 시간과 장소의 제약을 줄여 주지만 소통의 어려움이 있다. 소통 문제를 줄이기 위해 기업과 직원은 어떤 노력을 해야 하는가?",
+      "framework_vi": [
+        "Câu 1 (Tóm tắt): `… 은/는 … 지만 … 이라는 한계도 있다.`",
+        "Câu 2 (Kiến nghị): `이를 해결하기 위해서는 … 필요가 있다.`",
+        "Câu 3 (Kỳ vọng): `이러한 노력이 이어진다면 … 것으로 기대된다.`"
+      ],
+      "patterns_vi": [
+        "`-지만`",
+        "`-(으)ㄹ 필요가 있다`",
+        "`-(으)ㄹ 것으로 기대된다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Tóm tắt hai mặt",
+          "chars": "30–45 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Nhắc lại giải pháp, ai làm gì",
+          "chars": "40–60 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Kết quả mong đợi",
+          "chars": "35–55 chữ"
+        }
+      ],
+      "model_answer_ko": "재택근무는 시간과 장소의 제약을 줄여 주지만 소통이 어렵다는 한계도 있다. 이를 해결하기 위해서는 기업이 정기적인 화상 회의를 마련하고 직원도 적극적으로 의견을 나눌 필요가 있다. 이러한 노력이 이어진다면 재택근무가 더욱 효율적인 근무 방식으로 발전할 것으로 기대된다.",
+      "model_note_vi": "Kết bài không đưa ý mới: câu 1 tóm tắt, câu 2 nhắc lại giải pháp có chủ ngữ (기업, 직원), câu 3 kỳ vọng.",
+      "common_errors_vi": [
+        "Đưa ý mới vào kết bài.",
+        "Chép lại câu mở bài.",
+        "Câu 2 chung chung, không nói ai làm gì.",
+        "Kết bằng `-ㅂ니다` hoặc câu hỏi."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Đủ ba vai: tóm tắt, kiến nghị, kỳ vọng",
+          "max": 9
+        },
+        {
+          "criterion_vi": "Nói rõ ai làm gì",
+          "max": 5
+        },
+        {
+          "criterion_vi": "Khuôn của bài và 한다체",
+          "max": 6
+        }
+      ],
+      "checklist_vi": [
+        "Câu 1 nhắc cả hai mặt (lợi và hại)?",
+        "Câu 2 có chủ ngữ cụ thể và `필요가 있다` hoặc `해야 한다`?",
+        "Câu 3 kết bằng `-(으)ㄹ 것으로 기대된다`?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V + -아/어야 한다 · V + -(으)ㄹ 필요가 있다 · V + -는 것이 바람직하다",
+          "regex": "필요가 있다|해야 한다|바람직하다",
+          "label_vi": "Có khuôn kiến nghị"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 것으로 기대된다 · -(으)ㄹ 것으로 예상된다",
+          "regex": "것으로 (기대|예상|전망)",
+          "label_vi": "Có -(으)ㄹ 것으로 기대된다"
+        }
+      ]
+    },
+    {
+      "id": "V47E3",
+      "skill": "build",
+      "type": "write_essay",
+      "rung": 4,
+      "number": "Bước 4",
+      "title_vi": "Tạo câu · Một đoạn «hình thái đúng đắn»",
+      "points": 25,
+      "instruction_ko": "※ 다음 질문에 대한 답을 다섯 문장으로 쓰십시오.",
+      "instruction_vi": "Viết đoạn 5 câu trả lời câu hỏi «hình thái đúng đắn» dưới đây: tiêu chuẩn – điều kiện 1 – điều kiện 2 – vai trò của nhà trường/xã hội – chốt (한다체).",
+      "limits": {
+        "min": 150,
+        "max": 340
+      },
+      "prompt_ko": "청소년에게 바람직한 스마트폰 사용 습관은 무엇인가?",
+      "framework_vi": [
+        "Câu 1 (Tiêu chuẩn): `바람직한 … 이란 …는 것이다.`",
+        "Câu 2 (Điều kiện 1): `이를 위해서는 첫째, … 아/어야 한다.`",
+        "Câu 3 (Điều kiện 2): `둘째, … (으)ㄹ 필요가 있다.`",
+        "Câu 4 (Vai trò): `학교와 … 는 … 을/를 마련해야 한다.`",
+        "Câu 5 (Chốt): `이러한 조건이 갖추어질 때 … (으)ㄹ 것으로 기대된다.`"
+      ],
+      "patterns_vi": [
+        "`-(이)란 …는 것이다`",
+        "`-아/어야 한다`",
+        "`-(으)ㄹ 필요가 있다`",
+        "`-(으)ㄹ 것으로 기대된다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu 1",
+          "content_vi": "Tiêu chuẩn chung của thói quen tốt",
+          "chars": "35–50 chữ"
+        },
+        {
+          "part_vi": "Câu 2",
+          "content_vi": "Điều kiện 1: một quy tắc cụ thể",
+          "chars": "40–55 chữ"
+        },
+        {
+          "part_vi": "Câu 3",
+          "content_vi": "Điều kiện 2: một thái độ cụ thể",
+          "chars": "40–55 chữ"
+        },
+        {
+          "part_vi": "Câu 4",
+          "content_vi": "Ai hỗ trợ (nhà trường, gia đình, xã hội) và bằng gì",
+          "chars": "35–50 chữ"
+        },
+        {
+          "part_vi": "Câu 5",
+          "content_vi": "Kết quả mong đợi khi đủ điều kiện",
+          "chars": "40–55 chữ"
+        }
+      ],
+      "model_answer_ko": "바람직한 스마트폰 사용 습관이란 필요한 정보를 얻고 소통하면서도 스스로 사용 시간을 조절하는 것이다. 이를 위해서는 첫째, 잠자기 전이나 식사 중에는 스마트폰을 쓰지 않는 규칙을 정해 지켜야 한다. 둘째, 사용 시간을 정기적으로 확인하고 필요하지 않은 앱을 줄이는 태도를 갖출 필요가 있다. 학교와 가정은 사용 방법을 함께 정하는 교육과 대화의 기회를 마련해야 한다. 이러한 조건이 갖추어질 때 청소년이 스마트폰을 유익한 도구로 활용할 수 있을 것으로 기대된다.",
+      "model_note_vi": "Bài mẫu: câu 1 định nghĩa bằng hai vế («dùng được» và «tự điều chỉnh»); câu 2–3 là hai điều kiện thuộc về người dùng; câu 4 là phần hỗ trợ của nhà trường và gia đình; câu 5 chốt. Bạn có thể chọn hai điều kiện khác miễn là cụ thể.",
+      "common_errors_vi": [
+        "Câu 1 chép lại câu hỏi hoặc viết như câu hỏi.",
+        "Điều kiện là biện pháp của nhà nước thay vì thái độ hay quy tắc của người dùng.",
+        "Hai điều kiện trùng ý nhau.",
+        "Bỏ phần vai trò của nhà trường/xã hội."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Đủ 5 câu đúng vai trò",
+          "max": 9
+        },
+        {
+          "criterion_vi": "Khuôn của bài (`-(이)란 …는 것이다`, `-아/어야 한다`, `-(으)ㄹ 필요가 있다`, `-(으)ㄹ 것으로 기대된다`)",
+          "max": 8
+        },
+        {
+          "criterion_vi": "Đúng 한다체 và ngữ pháp",
+          "max": 8
+        }
+      ],
+      "checklist_vi": [
+        "Câu 1 là định nghĩa `바람직한 … 이란 …는 것이다`, không phải câu hỏi?",
+        "Câu 2 mở bằng `이를 위해서는 첫째` và câu 3 bằng `둘째` với hai điều kiện khác nhau?",
+        "Câu 4 có chủ ngữ cụ thể (학교, 가정, 사회) và `마련해야 한다`?",
+        "Câu 5 kết bằng `-(으)ㄹ 것으로 기대된다`?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V + -아/어야 한다 · V + -(으)ㄹ 필요가 있다 · V + -는 것이 바람직하다",
+          "regex": "해야 한다|필요가 있다|바람직하다",
+          "label_vi": "Có khuôn điều kiện/kiến nghị"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 것으로 기대된다 · -(으)ㄹ 것으로 예상된다",
+          "regex": "것으로 (기대|예상)",
+          "label_vi": "Có -(으)ㄹ 것으로 기대된다"
+        }
+      ]
+    },
+    {
+      "id": "V48B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Tiện lợi nhưng …",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Ứng dụng giao đồ ăn tiện lợi nhưng lại sinh nhiều rác.",
+      "tiles": [
+        "배달",
+        "앱은",
+        "편리한",
+        "반면",
+        "쓰레기가",
+        "많이",
+        "나온다.",
+        "편리하는"
+      ],
+      "answers": [
+        "배달 앱은 편리한 반면 쓰레기가 많이 나온다."
+      ],
+      "explain_vi": "Tính từ + `-(으)ㄴ 반면`: `편리한 반면`. `편리하는` chia sai vì `편리하다` là tính từ."
+    },
+    {
+      "id": "V48B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Tăng – thiếu",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Người dùng tăng trong khi người giao hàng thiếu.",
+      "tiles": [
+        "이용자는",
+        "늘어나는",
+        "반면",
+        "배달",
+        "기사는",
+        "부족하다.",
+        "늘어난"
+      ],
+      "answers": [
+        "이용자는 늘어나는 반면 배달 기사는 부족하다."
+      ],
+      "explain_vi": "Động từ + `-는 반면`: `늘어나는 반면`. `늘어난` là quá khứ nên không diễn tả xu hướng đang diễn ra."
+    },
+    {
+      "id": "V48B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Dù … vẫn …",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Dù gánh nặng chi phí, nhiều người vẫn dùng.",
+      "tiles": [
+        "비용",
+        "부담에도",
+        "불구하고",
+        "이용하는",
+        "사람이",
+        "많다.",
+        "부담에"
+      ],
+      "answers": [
+        "비용 부담에도 불구하고 이용하는 사람이 많다."
+      ],
+      "explain_vi": "Mẫu cố định `N에도 불구하고`. `부담에` thiếu `도` nên mất nghĩa nhượng bộ."
+    },
+    {
+      "id": "V48B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Dù đã nỗ lực",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Dù đã nỗ lực, vấn đề vẫn chưa được giải quyết.",
+      "tiles": [
+        "노력에도",
+        "불구하고",
+        "문제는",
+        "해결되지",
+        "않았다.",
+        "노력에",
+        "않는다."
+      ],
+      "answers": [
+        "노력에도 불구하고 문제는 해결되지 않았다."
+      ],
+      "explain_vi": "`노력에도 불구하고` + kết quả đã xảy ra (`않았다`). `않는다` là hiện tại nên không khớp việc đã nỗ lực."
+    },
+    {
+      "id": "V48B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Thông qua giáo dục",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Có thể nâng nhận thức của người dân thông qua giáo dục.",
+      "tiles": [
+        "교육을",
+        "통해",
+        "시민의",
+        "인식을",
+        "높일",
+        "수",
+        "있다.",
+        "교육이"
+      ],
+      "answers": [
+        "교육을 통해 시민의 인식을 높일 수 있다."
+      ],
+      "explain_vi": "`N을/를 통해`: `교육을 통해`. `교육이` sai trợ từ vì `교육` ở đây là phương tiện chứ không phải chủ ngữ."
+    },
+    {
+      "id": "V48B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · N을/를 통한 N",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Cần cải thiện nhận thức thông qua tuyên truyền.",
+      "tiles": [
+        "홍보를",
+        "통한",
+        "인식",
+        "개선이",
+        "필요하다.",
+        "통해",
+        "홍보가"
+      ],
+      "answers": [
+        "홍보를 통한 인식 개선이 필요하다."
+      ],
+      "explain_vi": "Bổ nghĩa danh từ dùng `통한`: `홍보를 통한 인식 개선`. `통해` đứng trước vị ngữ, không bổ nghĩa danh từ."
+    },
+    {
+      "id": "V48B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Không chỉ … mà còn …",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Không chỉ tiết kiệm thời gian mà còn giảm được chi phí.",
+      "tiles": [
+        "시간을",
+        "절약할",
+        "뿐만",
+        "아니라",
+        "비용도",
+        "줄일",
+        "수",
+        "있다.",
+        "절약하는"
+      ],
+      "answers": [
+        "시간을 절약할 뿐만 아니라 비용도 줄일 수 있다."
+      ],
+      "explain_vi": "`-(으)ㄹ 뿐만 아니라`: `절약할 뿐만 아니라`. `절약하는` là định ngữ nên không dùng với `뿐만 아니라`."
+    },
+    {
+      "id": "V48B8",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Tiện lợi và rẻ",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Không chỉ tiện lợi mà giá cũng rẻ.",
+      "tiles": [
+        "편리할",
+        "뿐만",
+        "아니라",
+        "가격도",
+        "저렴하다.",
+        "편리한",
+        "가격을"
+      ],
+      "answers": [
+        "편리할 뿐만 아니라 가격도 저렴하다."
+      ],
+      "explain_vi": "Tính từ + `-(으)ㄹ 뿐만 아니라`: `편리할`. Vế sau có `도`: `가격도`."
+    },
+    {
+      "id": "V48F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Ba khuôn nối ý",
+      "points": 9,
+      "instruction_vi": "Điền từ cho đúng khuôn.",
+      "context_vi": "-(으)ㄴ 반면, 에도 불구하고, 을/를 통해",
+      "text": "배달 앱은 편리한 ( ㉠ ) 쓰레기가 많이 나온다. 비용 부담에( ㉡ ) 불구하고 이용하는 사람이 많다. 교육을 ( ㉢ ) 인식을 높일 수 있다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "반면",
+            "반면에"
+          ],
+          "common_errors_vi": "Hai mặt đối lập nên dùng `반면`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "도"
+          ],
+          "common_errors_vi": "Mẫu `N에도 불구하고`."
+        },
+        {
+          "id": "㉢",
+          "points": 3,
+          "accepted": [
+            "통해",
+            "통해서"
+          ],
+          "common_errors_vi": "`교육을 통해`: bằng giáo dục."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V48F2",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Không chỉ … mà còn",
+      "points": 9,
+      "instruction_vi": "Điền từ cho đúng khuôn.",
+      "context_vi": "뿐만 아니라, N을/를 통한 N, -는 반면",
+      "text": "시간을 절약할 ( ㉠ ) 아니라 비용도 줄일 수 있다. 홍보를 ( ㉡ ) 인식 개선이 필요하다. 이용자는 늘어나는 ( ㉢ ) 배달 기사는 부족하다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "뿐만"
+          ],
+          "common_errors_vi": "`-(으)ㄹ 뿐만 아니라`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "통한"
+          ],
+          "common_errors_vi": "Bổ nghĩa danh từ `인식 개선`: dùng `통한`."
+        },
+        {
+          "id": "㉢",
+          "points": 3,
+          "accepted": [
+            "반면",
+            "반면에"
+          ],
+          "common_errors_vi": "`-는 반면`: hai đối tượng đối lập."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V48F3",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 3,
+      "number": "Bước 3",
+      "title_vi": "Tạo câu · Gộp hai câu thành một",
+      "points": 12,
+      "instruction_vi": "Gộp hai câu thành một câu bằng khuôn đã học.",
+      "context_vi": "Gộp câu",
+      "text": "① 배달 앱은 편리하다. 쓰레기가 많이 나온다. → 배달 앱은 ( ㉠ ) 쓰레기가 많이 나온다.\n② 시간을 절약할 수 있다. 비용도 줄일 수 있다. → 시간을 절약할 수 있을 ( ㉡ ) 비용도 줄일 수 있다.\n③ 노력했다. 문제는 해결되지 않았다. → 노력( ㉢ ) 문제는 해결되지 않았다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 4,
+          "accepted": [
+            "편리한 반면",
+            "편리한 반면에",
+            "편리하지만"
+          ],
+          "common_errors_vi": "Gộp hai mặt đối lập: `편리한 반면` hoặc `편리하지만`."
+        },
+        {
+          "id": "㉡",
+          "points": 4,
+          "accepted": [
+            "뿐만 아니라"
+          ],
+          "common_errors_vi": "Thêm ý thứ hai: `-(으)ㄹ 뿐만 아니라`."
+        },
+        {
+          "id": "㉢",
+          "points": 4,
+          "accepted": [
+            "에도 불구하고"
+          ],
+          "common_errors_vi": "Kết quả ngược kỳ vọng: `N에도 불구하고`."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V49B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Hậu quả tất yếu",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Nếu không có trang bị an toàn thì tai nạn tất yếu sẽ xảy ra.",
+      "tiles": [
+        "안전",
+        "장비를",
+        "갖추지",
+        "않으면",
+        "사고가",
+        "날",
+        "수밖에",
+        "없다.",
+        "있다."
+      ],
+      "answers": [
+        "안전 장비를 갖추지 않으면 사고가 날 수밖에 없다."
+      ],
+      "explain_vi": "`-(으)면 … -(으)ㄹ 수밖에 없다`: điều kiện rồi hệ quả tất yếu. `있다` không tạo mẫu này."
+    },
+    {
+      "id": "V49B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Dự báo",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Vấn đề tỷ lệ sinh thấp có vẻ sẽ ngày càng nghiêm trọng.",
+      "tiles": [
+        "저출산",
+        "문제는",
+        "갈수록",
+        "심각해질",
+        "것으로",
+        "보인다.",
+        "심각한",
+        "것을"
+      ],
+      "answers": [
+        "저출산 문제는 갈수록 심각해질 것으로 보인다."
+      ],
+      "explain_vi": "`-(으)ㄹ 것으로 보인다`: `심각해질` (dự đoán). `심각한` là hiện tại nên không hợp với `갈수록`."
+    },
+    {
+      "id": "V49B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Nguyên nhân",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Gánh nặng chi phí có vẻ là nguyên nhân lớn nhất.",
+      "tiles": [
+        "비용",
+        "부담이",
+        "가장",
+        "큰",
+        "원인으로",
+        "보인다.",
+        "원인이",
+        "보이다."
+      ],
+      "answers": [
+        "비용 부담이 가장 큰 원인으로 보인다."
+      ],
+      "explain_vi": "`N으로 보이다`: `원인으로 보인다`. `보이다.` là dạng gốc chưa chia nên không kết câu được."
+    },
+    {
+      "id": "V49B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Lập trường",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Tôi tán thành việc hạn chế dùng điện thoại ở trường.",
+      "tiles": [
+        "나는",
+        "학교의",
+        "스마트폰",
+        "사용",
+        "제한에",
+        "찬성한다.",
+        "제한을",
+        "찬성하는"
+      ],
+      "answers": [
+        "나는 학교의 스마트폰 사용 제한에 찬성한다."
+      ],
+      "explain_vi": "`제한에 찬성한다`: `찬성하다` đi với `에`. `제한을` sai trợ từ; `찬성하는` là định ngữ nên không kết câu."
+    },
+    {
+      "id": "V49B5",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Không hẳn là",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Điều này không có nghĩa là cấm mọi cách sử dụng.",
+      "tiles": [
+        "이는",
+        "모든",
+        "사용을",
+        "막는",
+        "것은",
+        "아니다.",
+        "막은",
+        "않다."
+      ],
+      "answers": [
+        "이는 모든 사용을 막는 것은 아니다."
+      ],
+      "explain_vi": "`-는 것은 아니다`: `막는 것은 아니다`. `막은` là quá khứ nên không hợp; `않다.` không đứng độc lập."
+    },
+    {
+      "id": "V49B6",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Nhượng bộ",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Tất nhiên cũng có ý kiến cho rằng liên lạc khẩn cấp sẽ khó khăn.",
+      "tiles": [
+        "물론",
+        "긴급한",
+        "연락이",
+        "어려워진다는",
+        "의견도",
+        "있다.",
+        "어려워지는",
+        "의견은"
+      ],
+      "answers": [
+        "물론 긴급한 연락이 어려워진다는 의견도 있다."
+      ],
+      "explain_vi": "`-다는 의견도 있다`: mệnh đề + `어려워진다는`. `어려워지는` + `의견` không tạo nghĩa «có ý kiến rằng»."
+    },
+    {
+      "id": "V49B7",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Kiến nghị cho người dùng",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Người dùng cần trả lại ở nơi quy định.",
+      "tiles": [
+        "이용자는",
+        "정해진",
+        "곳에",
+        "반납할",
+        "필요가",
+        "있다.",
+        "반납하는",
+        "곳을"
+      ],
+      "answers": [
+        "이용자는 정해진 곳에 반납할 필요가 있다."
+      ],
+      "explain_vi": "`-(으)ㄹ 필요가 있다`: `반납할 필요가 있다`. `곳에` chỉ nơi trả lại; `곳을` sai trợ từ."
+    },
+    {
+      "id": "V49B8",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Kiến nghị cho chính phủ",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Chính phủ phải mở rộng cơ sở giữ trẻ.",
+      "tiles": [
+        "정부는",
+        "보육",
+        "시설을",
+        "확대해야",
+        "한다.",
+        "확대하야",
+        "시설이"
+      ],
+      "answers": [
+        "정부는 보육 시설을 확대해야 한다."
+      ],
+      "explain_vi": "`확대하다` + `-아/어야 한다` = `확대해야 한다`. `확대하야` chia sai."
+    },
+    {
+      "id": "V49F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Ba khuôn mới",
+      "points": 9,
+      "instruction_vi": "Điền từ hoặc trợ từ cho đúng.",
+      "context_vi": "수밖에 없다, 으로 보인다, 에 찬성하다",
+      "text": "안전 장비를 갖추지 않으면 사고가 날 ( ㉠ ) 없다. 비용 부담이 가장 큰 원인( ㉡ ) 보인다. 나는 제한( ㉢ ) 찬성한다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "수밖에"
+          ],
+          "common_errors_vi": "`-(으)ㄹ 수밖에 없다`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "으로"
+          ],
+          "common_errors_vi": "`원인으로 보이다`: `원인` có patchim ㄴ nên dùng `으로`."
+        },
+        {
+          "id": "㉢",
+          "points": 3,
+          "accepted": [
+            "에"
+          ],
+          "common_errors_vi": "`제한에 찬성한다`."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V49F2",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Nhượng bộ rồi phản bác",
+      "points": 9,
+      "instruction_vi": "Điền từ nối hoặc đuôi câu cho đúng.",
+      "context_vi": "물론 … 그러나 …",
+      "text": "물론 반대 의견도 있다. ( ㉠ ) 이는 모든 사용을 막는 것( ㉡ ) 아니다. 규칙을 정하면 충분히 해결할 수 ( ㉢ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "그러나",
+            "하지만"
+          ],
+          "common_errors_vi": "Phản bác ý kiến đối lập: từ nối tương phản."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "은",
+            "이"
+          ],
+          "common_errors_vi": "`것은 아니다` (hoặc `것이 아니다`) đều đúng; bài này dạy `것은 아니다`."
+        },
+        {
+          "id": "㉢",
+          "points": 3,
+          "accepted": [
+            "있다"
+          ],
+          "common_errors_vi": "`-(으)ㄹ 수 있다`: có thể giải quyết."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "V49F3",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 3,
+      "number": "Bước 3",
+      "title_vi": "Tạo câu · Một đoạn nguyên nhân",
+      "points": 9,
+      "instruction_vi": "Hoàn thành đoạn bằng các khuôn đã học.",
+      "context_vi": "-다는 점이다, -기 때문이다, 필요하다",
+      "text": "출산율이 낮아지는 가장 큰 원인은 아이를 키우는 데 드는 비용이 부담스럽다( ㉠ ) 점이다. 이는 교육비가 계속 오르( ㉡ ) 때문이다. 이러한 문제를 해결하기 위해서는 정부의 노력이 ( ㉢ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "는"
+          ],
+          "common_errors_vi": "`-다는 점이다`: `부담스럽다` + `는 점이다`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "기"
+          ],
+          "common_errors_vi": "`-기 때문이다`."
+        },
+        {
+          "id": "㉢",
+          "points": 3,
+          "accepted": [
+            "필요하다"
+          ],
+          "common_errors_vi": "Kiến nghị: `정부의 노력이 필요하다`."
+        }
+      ],
+      "tips_vi": []
+    }
+  ]
+}

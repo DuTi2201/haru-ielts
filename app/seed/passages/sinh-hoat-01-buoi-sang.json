@@ -1,0 +1,264 @@
+{
+  "lesson": "sinh-hoat-01-buoi-sang",
+  "items": [
+    {
+      "id": "sinh-hoat-01-d1",
+      "kind": "dialogue",
+      "title_ko": "월요일 아침",
+      "title_vi": "Sáng thứ Hai",
+      "scene_vi": "Sáng thứ Hai ở văn phòng. Hai đồng nghiệp là 수진 và 민수 gặp nhau ở cửa.",
+      "speakers": {
+        "F": "수진",
+        "M": "민수"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "민수 씨, 안녕하세요? 오늘 많이 피곤해요?",
+          "vi": "Anh Minsu, chào anh. Hôm nay anh mệt lắm à?"
+        },
+        {
+          "who": "M",
+          "ko": "네, 어젯밤에 늦게 잤어요. 그래서 오늘 늦잠을 잤어요.",
+          "vi": "Vâng, tối qua tôi ngủ muộn. Nên hôm nay tôi dậy muộn."
+        },
+        {
+          "who": "F",
+          "ko": "그래요? 저는 일곱 시에 일어났어요. 그리고 샤워를 하고 아침을 먹었어요.",
+          "vi": "Vậy ạ? Tôi dậy lúc bảy giờ. Rồi tắm xong thì ăn sáng."
+        },
+        {
+          "who": "M",
+          "ko": "저도 아침에는 바쁘지만 보통 아침을 먹어요. 오늘은 시간이 없었어요.",
+          "vi": "Buổi sáng tôi cũng bận, nhưng thường vẫn ăn sáng. Hôm nay tôi không có thời gian."
+        },
+        {
+          "who": "F",
+          "ko": "점심에 같이 커피 마셔요. 피곤할 때는 커피가 좋아요.",
+          "vi": "Bữa trưa mình cùng uống cà phê nhé. Lúc mệt thì cà phê rất hợp."
+        },
+        {
+          "who": "M",
+          "ko": "좋아요. 내일은 일찍 자야겠어요. 그리고 알람도 바꿀 거예요.",
+          "vi": "Hay quá. Ngày mai chắc tôi phải ngủ sớm mới được. Tôi cũng sẽ đổi báo thức."
+        },
+        {
+          "who": "F",
+          "ko": "네, 그럼 점심에 봐요.",
+          "vi": "Vâng, vậy hẹn trưa gặp."
+        },
+        {
+          "who": "M",
+          "ko": "네, 이따 봐요!",
+          "vi": "Vâng, lát nữa gặp nhé!"
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V/A + -았/었-",
+          "regex": "일어났어요|잤어요|먹었어요|없었어요"
+        },
+        {
+          "pattern": "V/A + -지만",
+          "regex": "바쁘지만"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 때",
+          "regex": "피곤할 때"
+        },
+        {
+          "pattern": "V + -고",
+          "regex": "샤워를 하고"
+        },
+        {
+          "pattern": "V + -아/어야겠다",
+          "regex": "자야겠어요"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "피곤하다",
+          "seen": "피곤해요"
+        },
+        {
+          "word": "늦잠",
+          "seen": "늦잠"
+        },
+        {
+          "word": "일어나다",
+          "seen": "일어났어요"
+        },
+        {
+          "word": "샤워",
+          "seen": "샤워"
+        },
+        {
+          "word": "아침을 먹다",
+          "seen": "아침을 먹었어요"
+        },
+        {
+          "word": "바쁘다",
+          "seen": "바쁘지만"
+        },
+        {
+          "word": "알람",
+          "seen": "알람"
+        },
+        {
+          "word": "바꾸다",
+          "seen": "바꿀"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "이따",
+          "vi": "lát nữa"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Vì sao 민수 thấy mệt?",
+          "options": [
+            "Tối qua anh ấy ngủ muộn",
+            "Sáng nay anh ấy dậy lúc bảy giờ",
+            "Anh ấy không ăn tối"
+          ],
+          "answer": 0,
+          "explain_vi": "민수 nói “어젯밤에 늦게 잤어요” (tối qua tôi ngủ muộn), vì vậy sáng nay dậy muộn và mệt."
+        },
+        {
+          "q_vi": "Hai người hẹn làm gì?",
+          "options": [
+            "Cùng đi làm",
+            "Uống cà phê vào bữa trưa",
+            "Ăn sáng ở nhà 수진"
+          ],
+          "answer": 1,
+          "explain_vi": "수진 rủ “점심에 같이 커피 마셔요” (bữa trưa mình cùng uống cà phê), và cuối bài hai người hẹn gặp ở bữa trưa."
+        }
+      ]
+    },
+    {
+      "id": "sinh-hoat-01-r1",
+      "kind": "reading",
+      "title_ko": "나의 아침",
+      "title_vi": "Buổi sáng của tôi",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "저는 매일 아침 여섯 시 반에 일어나요.",
+          "vi": "Mỗi sáng tôi dậy lúc sáu giờ rưỡi."
+        },
+        {
+          "who": "N",
+          "ko": "알람을 맞췄지만 가끔 늦잠을 자요.",
+          "vi": "Tôi có cài báo thức, nhưng thỉnh thoảng vẫn ngủ quên."
+        },
+        {
+          "who": "N",
+          "ko": "먼저 세수를 하고 이를 닦아요. 피곤할 때는 샤워도 해요.",
+          "vi": "Trước hết tôi rửa mặt rồi đánh răng. Lúc mệt thì tôi tắm luôn."
+        },
+        {
+          "who": "N",
+          "ko": "아침에는 항상 바빠요. 그래서 간단하게 아침을 먹어요.",
+          "vi": "Buổi sáng lúc nào tôi cũng bận. Nên tôi ăn sáng đơn giản."
+        },
+        {
+          "who": "N",
+          "ko": "어제는 도시락을 들고 출근했어요.",
+          "vi": "Hôm qua tôi cầm theo cơm hộp đi làm."
+        },
+        {
+          "who": "N",
+          "ko": "내일은 알람을 하나 더 맞출 거예요.",
+          "vi": "Ngày mai tôi sẽ cài thêm một báo thức nữa."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V/A + -았/었-",
+          "regex": "맞췄지만|출근했어요"
+        },
+        {
+          "pattern": "V/A + -지만",
+          "regex": "맞췄지만"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 때",
+          "regex": "피곤할 때"
+        },
+        {
+          "pattern": "V + -고",
+          "regex": "세수를 하고"
+        },
+        {
+          "pattern": "N(Thời gian) + 에",
+          "regex": "여섯 시 반에"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "알람",
+          "seen": "알람"
+        },
+        {
+          "word": "늦잠",
+          "seen": "늦잠"
+        },
+        {
+          "word": "세수",
+          "seen": "세수"
+        },
+        {
+          "word": "이를 닦다",
+          "seen": "이를 닦아요"
+        },
+        {
+          "word": "피곤하다",
+          "seen": "피곤할"
+        },
+        {
+          "word": "바쁘다",
+          "seen": "바빠요"
+        },
+        {
+          "word": "도시락",
+          "seen": "도시락"
+        },
+        {
+          "word": "출근하다",
+          "seen": "출근했어요"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "항상",
+          "vi": "luôn luôn"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Khi nào người viết tắm vòi sen vào buổi sáng?",
+          "options": [
+            "Khi thấy mệt",
+            "Mỗi sáng sau khi dậy",
+            "Sau khi ăn sáng"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu “피곤할 때는 샤워도 해요” nghĩa là lúc mệt thì tắm luôn; không phải ngày nào cũng tắm vào buổi sáng."
+        },
+        {
+          "q_vi": "Ngày mai người viết sẽ làm gì?",
+          "options": [
+            "Mang cơm hộp đi làm",
+            "Cài thêm một báo thức",
+            "Dậy lúc bảy giờ"
+          ],
+          "answer": 1,
+          "explain_vi": "Câu cuối “알람을 하나 더 맞출 거예요” là sẽ cài thêm một báo thức. Cơm hộp là chuyện của hôm qua."
+        }
+      ]
+    }
+  ]
+}

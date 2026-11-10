@@ -1,0 +1,787 @@
+{
+  "slug": "xa-hoi-12-khoa-hoc-cong-nghe",
+  "title": "Khoa học, công nghệ và khí hậu",
+  "title_ko": "과학과 기술",
+  "topic": "Xã hội, Tư tưởng & Chuyên ngành",
+  "track": "advanced",
+  "level": 6,
+  "sort_order": 73,
+  "summary": "46 từ về nghiên cứu, công nghệ, khí hậu và y sinh; ba nhóm mẫu của văn bản khoa học (bằng cách · nhờ có; kết quả cho thấy · được biết là; định nghĩa · phân loại · bắt nguồn từ). Có dữ kiện thực tế đã kiểm tra (tên lửa Nuri, luật cơ bản về AI, mục tiêu khí hậu), biểu đồ giả định và 3 câu nghe đề thật.",
+  "vocab": [
+    {
+      "hangul": "과학",
+      "pos": "N",
+      "meaning_vi": "Khoa học",
+      "note_vi": "科學. `과학자`, `과학적` (mang tính khoa học).",
+      "example_ko": "과학이 발전하면서 생활이 편리해졌다.",
+      "example_vi": "Khoa học phát triển nên đời sống tiện lợi hơn.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "core",
+      "hanja": "科學",
+      "sino_vietnamese": "khoa học",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "기술",
+      "pos": "N",
+      "meaning_vi": "Kỹ thuật, công nghệ",
+      "note_vi": "技術. `첨단 기술`, `기술 개발`; `기술자` (kỹ thuật viên).",
+      "example_ko": "새로운 기술이 산업을 바꾸고 있다.",
+      "example_vi": "Công nghệ mới đang thay đổi ngành công nghiệp.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "core",
+      "hanja": "技術",
+      "sino_vietnamese": "kỹ thuật",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "연구",
+      "pos": "N",
+      "meaning_vi": "Nghiên cứu",
+      "note_vi": "硏究. `연구하다`, `연구원` (nhà nghiên cứu).",
+      "example_ko": "연구를 통해 새로운 사실이 밝혀졌다.",
+      "example_vi": "Qua nghiên cứu, sự thật mới đã được làm sáng tỏ.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "core",
+      "hanja": "硏究",
+      "sino_vietnamese": "nghiên cứu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "연구진",
+      "pos": "N",
+      "meaning_vi": "Nhóm nghiên cứu",
+      "note_vi": "硏究陣. Hậu tố `-진` = «nhóm, đội» (`의료진`, `취재진`).",
+      "example_ko": "연구진은 새로운 소재를 개발했다고 발표했다.",
+      "example_vi": "Nhóm nghiên cứu công bố đã phát triển vật liệu mới.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "core",
+      "hanja": "硏究陣",
+      "sino_vietnamese": "nghiên cứu trận",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "연구소",
+      "pos": "N",
+      "meaning_vi": "Viện nghiên cứu",
+      "note_vi": "硏究所.",
+      "example_ko": "그는 대학 연구소에서 일하고 있다.",
+      "example_vi": "Anh ấy đang làm việc ở viện nghiên cứu của trường đại học.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "core",
+      "hanja": "硏究所",
+      "sino_vietnamese": "nghiên cứu sở",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "실험",
+      "pos": "N",
+      "meaning_vi": "Thí nghiệm",
+      "note_vi": "實驗. `실험하다`, `실험 결과`.",
+      "example_ko": "연구진은 같은 조건에서 실험을 여러 번 반복했다.",
+      "example_vi": "Nhóm nghiên cứu lặp lại thí nghiệm nhiều lần trong cùng điều kiện.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "core",
+      "hanja": "實驗",
+      "sino_vietnamese": "thực nghiệm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "관측",
+      "pos": "N",
+      "meaning_vi": "Quan trắc",
+      "note_vi": "觀測. `관측하다`; dùng cho thiên văn, thời tiết.",
+      "example_ko": "천문학자들이 망원경으로 별을 관측했다.",
+      "example_vi": "Các nhà thiên văn quan trắc các ngôi sao bằng kính thiên văn.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "recognize",
+      "hanja": "觀測",
+      "sino_vietnamese": "quan trắc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "측정",
+      "pos": "N",
+      "meaning_vi": "Đo lường",
+      "note_vi": "測定. `측정하다`, `측정값`.",
+      "example_ko": "온도를 정확하게 측정하는 장치가 필요하다.",
+      "example_vi": "Cần thiết bị đo chính xác nhiệt độ.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "core",
+      "hanja": "測定",
+      "sino_vietnamese": "trắc định",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "가설",
+      "pos": "N",
+      "meaning_vi": "Giả thuyết",
+      "note_vi": "假說. `가설을 세우다/검증하다`.",
+      "example_ko": "연구진은 먼저 가설을 세웠다.",
+      "example_vi": "Nhóm nghiên cứu trước hết đặt ra giả thuyết.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "core",
+      "hanja": "假說",
+      "sino_vietnamese": "giả thuyết",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이론",
+      "pos": "N",
+      "meaning_vi": "Lý thuyết",
+      "note_vi": "理論. `이론과 실제` (lý thuyết và thực tế).",
+      "example_ko": "이 이론은 여러 실험으로 확인되었다.",
+      "example_vi": "Lý thuyết này đã được xác nhận bằng nhiều thí nghiệm.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "core",
+      "hanja": "理論",
+      "sino_vietnamese": "lý luận",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "증명",
+      "pos": "N",
+      "meaning_vi": "Chứng minh",
+      "note_vi": "證明. `증명하다`. `입증하다` (đã học) thiên về chứng minh bằng bằng chứng; `증명` còn dùng cho toán, giấy xác nhận.",
+      "example_ko": "그는 실험으로 자신의 가설을 증명했다.",
+      "example_vi": "Anh ấy chứng minh giả thuyết của mình bằng thí nghiệm.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "core",
+      "hanja": "證明",
+      "sino_vietnamese": "chứng minh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "발견",
+      "pos": "N",
+      "meaning_vi": "Phát hiện (cái đã có sẵn)",
+      "note_vi": "發見. `발견하다`, `발견되다`. Khác `발명`.",
+      "example_ko": "연구진이 새로운 별을 발견했다.",
+      "example_vi": "Nhóm nghiên cứu phát hiện một ngôi sao mới.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "core",
+      "hanja": "發見",
+      "sino_vietnamese": "phát kiến",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "발명",
+      "pos": "N",
+      "meaning_vi": "Phát minh (làm ra cái mới)",
+      "note_vi": "發明. `발명하다`, `발명품`. `발견` = tìm ra cái đã tồn tại; `발명` = tạo ra cái chưa có.",
+      "example_ko": "인쇄술의 발명은 지식이 퍼지는 데 큰 영향을 주었다.",
+      "example_vi": "Việc phát minh ra kỹ thuật in có ảnh hưởng lớn đến sự lan truyền tri thức.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "core",
+      "hanja": "發明",
+      "sino_vietnamese": "phát minh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "개발",
+      "pos": "N",
+      "meaning_vi": "Phát triển, nghiên cứu chế tạo",
+      "note_vi": "開發. `개발하다`, `개발되다`; còn là «khai phát» đất đai (`택지 개발`).",
+      "example_ko": "회사는 새로운 소프트웨어를 개발했다.",
+      "example_vi": "Công ty đã phát triển phần mềm mới.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "core",
+      "hanja": "開發",
+      "sino_vietnamese": "khai phát",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "혁신",
+      "pos": "N",
+      "meaning_vi": "Đổi mới (có tính đột phá)",
+      "note_vi": "革新. `혁신적` (mang tính đột phá), `혁신하다`.",
+      "example_ko": "기술 혁신은 산업의 구조를 바꾼다.",
+      "example_vi": "Đổi mới công nghệ làm thay đổi cấu trúc của ngành.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "core",
+      "hanja": "革新",
+      "sino_vietnamese": "cách tân",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "논문",
+      "pos": "N",
+      "meaning_vi": "Luận văn, bài báo khoa học",
+      "note_vi": "論文. `논문을 쓰다/발표하다`.",
+      "example_ko": "연구 결과를 논문으로 발표했다.",
+      "example_vi": "Đã công bố kết quả nghiên cứu thành bài báo khoa học.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "core",
+      "hanja": "論文",
+      "sino_vietnamese": "luận văn",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "학계",
+      "pos": "N",
+      "meaning_vi": "Giới học thuật",
+      "note_vi": "學界. `경제학계`, `의학계`.",
+      "example_ko": "이 연구는 학계의 큰 관심을 끌었다.",
+      "example_vi": "Nghiên cứu này thu hút sự quan tâm lớn của giới học thuật.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "recognize",
+      "hanja": "學界",
+      "sino_vietnamese": "học giới",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "응용",
+      "pos": "N",
+      "meaning_vi": "Ứng dụng (đưa lý thuyết vào thực tế)",
+      "note_vi": "應用. `응용하다`, `응용 분야`. Gần `적용`, `활용` (đã học).",
+      "example_ko": "이 이론은 여러 분야에 응용될 수 있다.",
+      "example_vi": "Lý thuyết này có thể được ứng dụng vào nhiều lĩnh vực.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "core",
+      "hanja": "應用",
+      "sino_vietnamese": "ứng dụng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "상용화",
+      "pos": "N",
+      "meaning_vi": "Thương mại hoá, đưa vào dùng rộng rãi",
+      "note_vi": "商用化. `상용화되다`, `상용화하다`.",
+      "example_ko": "이 기술은 내년에 상용화될 예정이다.",
+      "example_vi": "Công nghệ này dự kiến được thương mại hoá vào năm sau.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "recognize",
+      "hanja": "常用化",
+      "sino_vietnamese": "thường dụng hóa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "특허",
+      "pos": "N",
+      "meaning_vi": "Bằng sáng chế",
+      "note_vi": "特許. `특허를 내다/받다`.",
+      "example_ko": "회사는 새로운 기술에 대한 특허를 얻었다.",
+      "example_vi": "Công ty đã có bằng sáng chế cho công nghệ mới.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "recognize",
+      "hanja": "特許",
+      "sino_vietnamese": "đặc hứa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "첨단",
+      "pos": "N",
+      "meaning_vi": "Tiên tiến, hàng đầu",
+      "note_vi": "尖端. `첨단 산업`, `첨단 기술`.",
+      "example_ko": "첨단 기술을 이용한 의료 장비가 늘고 있다.",
+      "example_vi": "Thiết bị y tế dùng công nghệ tiên tiến đang tăng.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "recognize",
+      "hanja": "尖端",
+      "sino_vietnamese": "tiêm đoan",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "데이터",
+      "pos": "N",
+      "meaning_vi": "Dữ liệu",
+      "note_vi": "Từ mượn `data`. Đề thi cũng dùng `자료`.",
+      "example_ko": "연구진은 많은 데이터를 모아 분석했다.",
+      "example_vi": "Nhóm nghiên cứu thu thập nhiều dữ liệu rồi phân tích.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "core"
+    },
+    {
+      "hangul": "디지털",
+      "pos": "N",
+      "meaning_vi": "Kỹ thuật số",
+      "note_vi": "Từ mượn `digital`. `디지털화` (số hoá).",
+      "example_ko": "디지털 기술이 생활 곳곳에 쓰이고 있다.",
+      "example_vi": "Công nghệ số đang được dùng ở khắp nơi trong đời sống.",
+      "family": "🟢 Nền · Nghiên cứu, thí nghiệm, kết quả",
+      "priority": "core"
+    },
+    {
+      "hangul": "인공지능",
+      "pos": "N",
+      "meaning_vi": "Trí tuệ nhân tạo (AI)",
+      "note_vi": "人工知能. Viết tắt `AI`.",
+      "example_ko": "인공지능은 사람의 말을 이해하고 글을 쓸 수 있다.",
+      "example_vi": "Trí tuệ nhân tạo có thể hiểu lời nói của con người và viết văn bản.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "core"
+    },
+    {
+      "hangul": "로봇",
+      "pos": "N",
+      "meaning_vi": "Robot",
+      "note_vi": "Từ mượn `robot`.",
+      "example_ko": "공장에서는 로봇이 반복 작업을 맡고 있다.",
+      "example_vi": "Ở nhà máy, robot đảm nhận công việc lặp đi lặp lại.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "core"
+    },
+    {
+      "hangul": "자동화",
+      "pos": "N",
+      "meaning_vi": "Tự động hoá",
+      "note_vi": "自動化. `자동화하다`, `자동화되다`.",
+      "example_ko": "생산 과정이 자동화되면서 필요한 사람 수가 줄었다.",
+      "example_vi": "Quy trình sản xuất được tự động hoá nên số người cần thiết giảm.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "core",
+      "hanja": "自動化",
+      "sino_vietnamese": "tự động hóa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "반도체",
+      "pos": "N",
+      "meaning_vi": "Chất bán dẫn, chip",
+      "note_vi": "半導體.",
+      "example_ko": "반도체는 전자 제품의 핵심 부품이다.",
+      "example_vi": "Chất bán dẫn là linh kiện cốt lõi của sản phẩm điện tử.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "core",
+      "hanja": "半導體",
+      "sino_vietnamese": "bán đạo thể",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "배터리",
+      "pos": "N",
+      "meaning_vi": "Pin, ắc quy",
+      "note_vi": "Từ mượn `battery`. `충전` (sạc).",
+      "example_ko": "전기차의 성능은 배터리에 크게 좌우된다.",
+      "example_vi": "Hiệu năng của xe điện phụ thuộc nhiều vào pin.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "core"
+    },
+    {
+      "hangul": "전기차",
+      "pos": "N",
+      "meaning_vi": "Xe điện",
+      "note_vi": "電氣車. Dạng đầy đủ `전기 자동차`.",
+      "example_ko": "전기차 판매가 해마다 늘고 있다.",
+      "example_vi": "Doanh số xe điện đang tăng hằng năm.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "core"
+    },
+    {
+      "hangul": "자율주행",
+      "pos": "N",
+      "meaning_vi": "Lái xe tự động",
+      "note_vi": "自律走行. `자율주행차`.",
+      "example_ko": "자율주행 기술이 빠르게 발전하고 있다.",
+      "example_vi": "Công nghệ lái xe tự động đang phát triển nhanh.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "기후",
+      "pos": "N",
+      "meaning_vi": "Khí hậu",
+      "note_vi": "氣候. `기후 변화`, `이상 기후` (khí hậu bất thường).",
+      "example_ko": "기후 변화로 폭염이 잦아지고 있다.",
+      "example_vi": "Biến đổi khí hậu làm nắng nóng xuất hiện thường xuyên hơn.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "core",
+      "hanja": "氣候",
+      "sino_vietnamese": "khí hậu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "온난화",
+      "pos": "N",
+      "meaning_vi": "Sự nóng lên",
+      "note_vi": "溫暖化. `지구 온난화` (nóng lên toàn cầu).",
+      "example_ko": "지구 온난화로 빙하가 녹고 있다.",
+      "example_vi": "Trái đất nóng lên làm băng hà tan chảy.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "core",
+      "hanja": "溫暖化",
+      "sino_vietnamese": "ôn noãn hóa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "탄소",
+      "pos": "N",
+      "meaning_vi": "Carbon",
+      "note_vi": "炭素. `탄소 중립` (trung hoà carbon).",
+      "example_ko": "정부는 탄소 배출을 줄이기로 했다.",
+      "example_vi": "Chính phủ quyết định giảm phát thải carbon.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "core",
+      "hanja": "炭素",
+      "sino_vietnamese": "thán tố",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "재생",
+      "pos": "N",
+      "meaning_vi": "Tái tạo, tái sinh",
+      "note_vi": "再生. `재생 에너지`; còn nghĩa «phát lại» (video, nhạc).",
+      "example_ko": "태양광은 재생 에너지의 하나이다.",
+      "example_vi": "Điện mặt trời là một dạng năng lượng tái tạo.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "core",
+      "hanja": "再生",
+      "sino_vietnamese": "tái sinh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "원자력",
+      "pos": "N",
+      "meaning_vi": "Năng lượng hạt nhân",
+      "note_vi": "原子力. `원자력 발전소`.",
+      "example_ko": "원자력은 전기를 만드는 방법 가운데 하나이다.",
+      "example_vi": "Năng lượng hạt nhân là một trong những cách tạo ra điện.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "recognize",
+      "hanja": "原子力",
+      "sino_vietnamese": "nguyên tử lực",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "화석",
+      "pos": "N",
+      "meaning_vi": "Hoá thạch",
+      "note_vi": "化石. `화석 연료` (nhiên liệu hoá thạch).",
+      "example_ko": "이 화석은 수천만 년 전 생물의 흔적이다.",
+      "example_vi": "Hoá thạch này là dấu vết sinh vật cách đây hàng chục triệu năm.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "core",
+      "hanja": "化石",
+      "sino_vietnamese": "hóa thạch",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "연료",
+      "pos": "N",
+      "meaning_vi": "Nhiên liệu",
+      "note_vi": "燃料. `연료비` (chi phí nhiên liệu).",
+      "example_ko": "화석 연료를 태우면 이산화탄소가 나온다.",
+      "example_vi": "Đốt nhiên liệu hoá thạch thì sinh ra khí carbon dioxide.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "core",
+      "hanja": "燃料",
+      "sino_vietnamese": "nhiên liệu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "멸종",
+      "pos": "N",
+      "meaning_vi": "Tuyệt chủng",
+      "note_vi": "滅種. `멸종 위기`, `멸종되다`.",
+      "example_ko": "기후 변화로 멸종 위기에 놓인 동물이 늘고 있다.",
+      "example_vi": "Số động vật đứng trước nguy cơ tuyệt chủng do biến đổi khí hậu đang tăng.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "core",
+      "hanja": "滅種",
+      "sino_vietnamese": "diệt chủng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "유전자",
+      "pos": "N",
+      "meaning_vi": "Gen",
+      "note_vi": "遺傳子. `유전` (di truyền).",
+      "example_ko": "연구진은 병과 관련된 유전자를 찾아냈다.",
+      "example_vi": "Nhóm nghiên cứu tìm ra gen liên quan đến bệnh.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "core",
+      "hanja": "遺傳子",
+      "sino_vietnamese": "di truyền tử",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "세포",
+      "pos": "N",
+      "meaning_vi": "Tế bào",
+      "note_vi": "細胞.",
+      "example_ko": "사람의 몸은 수많은 세포로 이루어져 있다.",
+      "example_vi": "Cơ thể con người gồm vô số tế bào.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "core",
+      "hanja": "細胞",
+      "sino_vietnamese": "tế bào",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "바이러스",
+      "pos": "N",
+      "meaning_vi": "Virus",
+      "note_vi": "Từ mượn `virus`.",
+      "example_ko": "독감 바이러스는 겨울에 더 활발해진다.",
+      "example_vi": "Virus cúm hoạt động mạnh hơn vào mùa đông.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "core"
+    },
+    {
+      "hangul": "백신",
+      "pos": "N",
+      "meaning_vi": "Vắc-xin",
+      "note_vi": "Từ mượn `vaccine`. `백신을 맞다` (tiêm vắc-xin).",
+      "example_ko": "백신은 병에 걸리기 전에 예방하는 데 쓰인다.",
+      "example_vi": "Vắc-xin được dùng để phòng bệnh trước khi mắc.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "core"
+    },
+    {
+      "hangul": "신약",
+      "pos": "N",
+      "meaning_vi": "Thuốc mới",
+      "note_vi": "新藥. `신약 개발`.",
+      "example_ko": "신약을 개발하는 데에는 오랜 시간이 걸린다.",
+      "example_vi": "Phát triển thuốc mới mất nhiều thời gian.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "recognize",
+      "hanja": "新藥",
+      "sino_vietnamese": "tân dược",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "임상",
+      "pos": "N",
+      "meaning_vi": "Lâm sàng",
+      "note_vi": "臨床. `임상 시험` (thử nghiệm lâm sàng).",
+      "example_ko": "신약은 임상 시험을 거쳐야 판매할 수 있다.",
+      "example_vi": "Thuốc mới phải trải qua thử nghiệm lâm sàng mới được bán.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "recognize",
+      "hanja": "臨床",
+      "sino_vietnamese": "lâm sàng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "우주",
+      "pos": "N",
+      "meaning_vi": "Vũ trụ",
+      "note_vi": "宇宙. `우주선` (tàu vũ trụ).",
+      "example_ko": "우주 탐사 기술이 빠르게 발전하고 있다.",
+      "example_vi": "Công nghệ thám hiểm vũ trụ đang phát triển nhanh.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "core",
+      "hanja": "宇宙",
+      "sino_vietnamese": "vũ trụ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "위성",
+      "pos": "N",
+      "meaning_vi": "Vệ tinh",
+      "note_vi": "衛星. `인공위성` (vệ tinh nhân tạo).",
+      "example_ko": "인공위성이 지구의 날씨를 관측한다.",
+      "example_vi": "Vệ tinh nhân tạo quan trắc thời tiết của Trái Đất.",
+      "family": "🟡 Dạng thi · Công nghệ, khí hậu, y sinh, vũ trụ",
+      "priority": "core",
+      "hanja": "衛星",
+      "sino_vietnamese": "vệ tinh",
+      "enrich": "auto"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V + -(으)ㅁ으로써 · N + (으)로써 · N + 에 힘입어",
+      "meaning_vi": "Bằng cách (phương tiện) · Nhờ có (đà phát triển, sự hỗ trợ)",
+      "usage_context_vi": "**Cấu tạo:** `V + -(으)ㅁ으로써`: bằng việc V (cách thức), vế sau là kết quả. `N + (으)로써`: bằng N (công cụ, phương tiện). `N + 에 힘입어`: nhờ có sức đẩy, sự hỗ trợ của N, kết quả tích cực.\n**Hoàn cảnh dùng:** Văn nghiên cứu, báo chí: `새 소재를 개발함으로써 비용을 줄였다`; `대화로써 갈등을 풀다`; `정부의 지원에 힘입어 산업이 성장했다`.\n**Vì sao chọn nó:** `-(으)ㅁ으로써` = `-(으)ㅁ` (danh từ hoá) + `(으)로써` (bằng). Hai vế thường cùng chủ ngữ. Dễ nhầm với `-(으)므로` (vì): **`함으로써` là phương tiện, `하므로` là nguyên nhân**. Với danh từ: `(으)로써` (bằng) khác `(으)로서` (tư cách: `학생으로서`). `에 힘입어` chỉ đi với kết quả tốt.",
+      "contrasts": [
+        {
+          "pattern": "-(으)므로",
+          "diff_vi": "`므로` = vì (nguyên nhân); `-(으)ㅁ으로써` = bằng cách (phương tiện)."
+        },
+        {
+          "pattern": "N(으)로서",
+          "diff_vi": "`학생으로서` = với tư cách là; `도구로써` = bằng công cụ."
+        },
+        {
+          "pattern": "N 덕분에",
+          "diff_vi": "`덕분에` đời thường, mang ý biết ơn; `에 힘입어` văn viết, nói về đà phát triển."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Viết `함으로서` thay vì `함으로써` khi nói về phương tiện.\n(2) Dùng `에 힘입어` cho kết quả xấu: ✗ `불황에 힘입어 매출이 줄었다`.\n(3) Nhầm `하므로` với `함으로써`: `하므로` giải thích vì sao, `함으로써` giải thích bằng cách nào.",
+      "example_ko": "연구진은 새로운 소재를 개발함으로써 배터리의 무게를 줄였다.\n우리는 대화로써 갈등을 풀 수 있다.\n기술 발전에 힘입어 전기차 시장이 빠르게 커졌다.\n정부의 지원에 힘입어 중소기업의 수출이 늘었다.",
+      "example_vi": "Nhóm nghiên cứu giảm trọng lượng pin bằng cách phát triển vật liệu mới.\nChúng ta có thể giải quyết xung đột bằng đối thoại.\nNhờ tiến bộ công nghệ, thị trường xe điện lớn nhanh.\nNhờ sự hỗ trợ của chính phủ, xuất khẩu của doanh nghiệp vừa và nhỏ tăng.",
+      "topik_tip_vi": "Đọc 5–6: «-(으)ㅁ으로써» luôn đi cùng một hành động cụ thể, kết quả nằm ở vế sau. «에 힘입어» hay đứng đầu câu.",
+      "importance": "must"
+    },
+    {
+      "pattern": "V/A + -(으)ㄴ/는 것으로 나타나다 · V + -(으)ㄴ 것으로 밝혀지다 · V + -(으)ㄴ/는 것으로 알려져 있다",
+      "meaning_vi": "Kết quả cho thấy … · Đã được làm sáng tỏ … · Được biết là …",
+      "usage_context_vi": "**Cấu tạo:** Dùng để nêu điều rút ra từ điều tra, nghiên cứu. `-(으)ㄴ/는 것으로 나타나다`: (kết quả) cho thấy rằng…; `-(으)ㄴ 것으로 밝혀지다`: được làm sáng tỏ rằng…; `-(으)ㄴ/는 것으로 알려져 있다`: được biết là…, người ta cho rằng…. Chia: V hiện tại `-는`, V quá khứ `-(으)ㄴ`, A `-(으)ㄴ`, tương lai `-(으)ㄹ`, + `것으로`.\n**Hoàn cảnh dùng:** Sau `조사 결과`, `연구 결과`, `분석 결과`: `조사한 결과 … 것으로 나타났다`. Kết luận về sự thật mới: `…의 것으로 밝혀졌다`. Kiến thức đã phổ biến: `…인 것으로 알려져 있다`.\n**Vì sao chọn nó:** Đây là cách viết **khách quan**: chủ ngữ là kết quả, số liệu, không phải người. `밝혀지다` nhấn mạnh sự thật vừa được làm rõ; `알려져 있다` là điều đã được biết rộng rãi, không nhất thiết có số liệu mới. `-(으)ㄴ/는 것으로 보인다` (đã học) là phán đoán của người viết; `-(으)ㄹ 것으로 전망되다` (bài kinh tế) hướng về tương lai.",
+      "contrasts": [
+        {
+          "pattern": "-(으)ㄴ/는 것으로 보인다",
+          "diff_vi": "`보인다` là suy đoán của người viết; `나타났다` dựa trên kết quả đo, khảo sát."
+        },
+        {
+          "pattern": "-(으)ㄹ 것으로 전망되다",
+          "diff_vi": "`전망되다` hướng về tương lai; `나타나다` nói kết quả đã có."
+        },
+        {
+          "pattern": "-다고 한다",
+          "diff_vi": "`다고 한다` = nghe nói (truyền đạt); `것으로 알려져 있다` = kiến thức đã phổ biến."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng động từ chủ động với chủ ngữ là người: ✗ `연구진이 ~ 것으로 나타냈다` → ✓ `~ 것으로 나타났다` hoặc `연구진은 ~ 것으로 밝혔다`.\n(2) Chia sai thì: kết quả đã có thì dùng `나타났다`, không dùng `나타난다`.\n(3) Bỏ `것으로`: `높게 나타났다` vẫn đúng nhưng chỉ là «biểu hiện ở mức cao»; `높은 것으로 나타났다` là kết luận rút từ kết quả.",
+      "example_ko": "조사 결과 청소년의 수면 시간이 줄어든 것으로 나타났다.\n이 화석은 약 오천만 년 전의 것으로 밝혀졌다.\n독감 바이러스는 겨울에 더 활발해지는 것으로 알려져 있다.\n실험 결과 새 배터리는 오래 쓸 수 있는 것으로 나타났다.",
+      "example_vi": "Kết quả điều tra cho thấy thời gian ngủ của thanh thiếu niên đã giảm.\nHoá thạch này được xác định là của khoảng năm mươi triệu năm trước.\nVirus cúm được biết là hoạt động mạnh hơn vào mùa đông.\nKết quả thí nghiệm cho thấy pin mới dùng được lâu.",
+      "topik_tip_vi": "Đọc 5–6: sau «조사/연구/분석 결과» hầu như luôn có «~ 것으로 나타났다/밝혀졌다». Phần đứng trước đó là kết luận chính.",
+      "importance": "must"
+    },
+    {
+      "pattern": "N + (이)란 · N + (으)로 나뉘다/분류되다 · N + 에 기인하다",
+      "meaning_vi": "Định nghĩa «X là …» · Được chia / phân loại thành · Bắt nguồn từ (nguyên nhân)",
+      "usage_context_vi": "**Cấu tạo:** `N + (이)란 … 말한다/이다`: định nghĩa khái niệm N. `N + (으)로 나뉘다/분류되다`: được chia, phân loại thành N. `N + 에 기인하다`: có nguyên nhân từ N (văn viết).\n**Hoàn cảnh dùng:** Đầu đoạn giải thích: `인공지능이란 … 기술을 말한다`; liệt kê loại: `학문은 크게 세 가지로 나뉜다`; giải thích nguyên nhân: `이 현상은 기온 상승에 기인한다`.\n**Vì sao chọn nó:** `(이)란` là dạng rút gọn của `(이)라는 것은`, dùng để mở đầu một định nghĩa; vế sau thường là `-을/를 말한다`, `-는 것이다`, `-(이)다`. `나뉘다` là bị động của `나누다`; `분류되다` là xếp theo tiêu chuẩn. `에 기인하다` khá cứng, đi với danh từ chỉ nguyên nhân; gần nghĩa `에서 비롯되다`.",
+      "contrasts": [
+        {
+          "pattern": "N은/는",
+          "diff_vi": "`은/는` là chủ đề thông thường; `(이)란` mở đầu định nghĩa, nhấn vào khái niệm."
+        },
+        {
+          "pattern": "N(으)로 인해",
+          "diff_vi": "`로 인해` = vì (nguyên nhân trung tính); `에 기인하다` = bắt nguồn từ (văn viết cứng)."
+        },
+        {
+          "pattern": "N에서 비롯되다",
+          "diff_vi": "Gần nghĩa `기인하다`; `비롯되다` còn dùng cho điểm khởi đầu của sự việc."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `(이)란` để nêu ví dụ cụ thể, không phải khái niệm: khi đó dùng `은/는`.\n(2) Chia sai `기인하다`: ✗ `기인된다` → ✓ `기인한다`, `기인하는`.\n(3) Thêm tân ngữ cho `나뉘다`: ✗ `세포를 두 종류로 나뉜다` → ✓ `세포는 두 종류로 나뉜다`.",
+      "example_ko": "인공지능이란 사람의 지능을 컴퓨터로 구현한 기술을 말한다.\n학문은 크게 인문학, 사회과학, 자연과학으로 나뉜다.\n이 병은 크게 두 종류로 분류된다.\n이 현상은 기온 상승에 기인하는 것으로 알려져 있다.",
+      "example_vi": "Trí tuệ nhân tạo là công nghệ hiện thực hoá trí tuệ con người bằng máy tính.\nHọc thuật được chia thành nhân văn, khoa học xã hội và khoa học tự nhiên.\nBệnh này được phân loại thành hai loại lớn.\nHiện tượng này được biết là bắt nguồn từ việc nhiệt độ tăng.",
+      "topik_tip_vi": "Đọc 5–6: câu đầu «X란 … 말한다» thường nêu chủ đề; tìm các nhóm sau «(으)로 나뉜다» để thấy cấu trúc đoạn.",
+      "importance": "must"
+    },
+    {
+      "pattern": "V + -(으)ㄴ/는 양 · A + -(으)ㄴ 양",
+      "meaning_vi": "Làm như thể …, ra vẻ như … (giả vờ, văn viết)",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · 👁 **Nhận ra** (đọc/nghe hiểu)\n**Cấu tạo:** định ngữ + `양 (하다)`: `-는 양`, `-(으)ㄴ 양`; thường `-(으)ㄴ/는 양하다` hoặc `-(으)ㄴ/는 양` + động từ.\n**Hoàn cảnh dùng:** Văn viết, văn chương: tả ai **làm ra vẻ** điều không đúng sự thật: `그는 모든 것을 아는 양 말했다.` `새로운 기술인 양 홍보했지만 이미 있는 기술이었다.`\n**Vì sao chọn nó:** `-(으)ㄴ/는 척하다` là cách nói thông dụng; `-(으)ㄴ/는 양` cùng nghĩa nhưng **văn viết, sách vở**, hay gặp trong bài báo phê phán, văn học.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Khoa học, công nghệ và khí hậu»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V/A + -(으)ㄴ/는 척하다 (-(으)ㄴ/는 체하다)",
+          "diff_vi": "Cùng nghĩa, phổ biến trong văn nói."
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 듯이 · N + (이)듯이",
+          "diff_vi": "So sánh «như thể», không nhất thiết là giả vờ."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng trong hội thoại: nghe sách vở; nói chuyện dùng `-는 척하다`.\n(2) Nhầm với `양` (lượng): `양이 많다` (lượng nhiều) không liên quan.\n(3) Chọn sai định ngữ: điều **đã xảy ra** dùng `-(으)ㄴ 양`.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "그는 모든 것을 아는 양 자신 있게 말했다.\n업체는 그 제품이 새로운 기술인 양 홍보했다.\n아무 일도 없었던 양 웃고 있었다.",
+      "example_vi": "Anh ta nói đầy tự tin như thể biết hết mọi thứ.\nDoanh nghiệp quảng bá sản phẩm như thể đó là công nghệ mới.\nAnh ấy cười như thể chưa từng có chuyện gì.",
+      "topik_tip_vi": "Đọc bài phê phán quảng cáo công nghệ: `-인 양 홍보하다` = quảng cáo sai sự thật; câu thái độ người viết chọn «phê phán».",
+      "use_level": "recognize",
+      "source": "EXT-SUP-57"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài",
+      "body": "Bài 12 của Chủ đề 5, nhóm kiến thức chuyên đề thứ ba. Sau bài này bạn:\n① nắm 46 từ về nghiên cứu, công nghệ, khí hậu, y sinh và vũ trụ;\n② đọc hiểu văn khoa học có `-(으)ㅁ으로써`, `-것으로 나타나다/밝혀지다`, `(이)란`, `(으)로 나뉘다`;\n③ biết các dữ kiện khoa học – công nghệ Hàn Quốc đã được kiểm tra;\n④ nghe được bài trình bày ngắn (3 câu đề thật mức 5–6급) và chọn đáp án khớp với từng bước trong bài.",
+      "kind": "goal"
+    },
+    {
+      "title": "Dữ kiện khoa học – công nghệ đã kiểm tra (tháng 10/2026)",
+      "body": "• **Tên lửa Nuri**: lần phóng thứ 4 ngày 27/11/2025 (1h13 sáng) từ Trung tâm Vũ trụ Naro, thành công; đưa vệ tinh trung hình thế hệ mới số 3 và 12 vệ tinh cube lên quỹ đạo khoảng 600 km. Doanh nghiệp Hanwha Aerospace chủ trì chế tạo và lắp ráp, cùng Viện Nghiên cứu Hàng không Vũ trụ (`한국항공우주연구원`). Chính phủ cho biết sẽ phóng thêm 2 lần đến năm 2027.\n• **Luật cơ bản về AI** (`인공지능 발전과 신뢰 기반 조성 등에 관한 기본법`): có hiệu lực từ 22/1/2026. Dịch vụ dùng AI tạo sinh hoặc AI «tác động cao» phải báo trước cho người dùng; sản phẩm tạo ra cần có dấu hiệu nhận biết. Bộ Khoa học và ICT cho biết sẽ có thời gian ân hạn ít nhất một năm để quy định đi vào nề nếp.\n• **Khí hậu**: mục tiêu giảm phát thải năm 2030 là 40% so với 2018; mục tiêu 2035 là 53–61% (ủy ban `2050 탄소중립녹색성장위원회` thông qua ngày 10/11/2025). Mục tiêu dài hạn là `탄소중립` (trung hoà carbon) vào năm 2050.\nNhững con số này có thể thay đổi: hãy xem là kiến thức nền, đừng học thuộc.",
+      "kind": "language"
+    },
+    {
+      "title": "Cấu trúc một đoạn giải thích khoa học (đọc 5–6)",
+      "body": "Đoạn văn khoa học thường đi theo năm bước:\n① **Định nghĩa**: `X란 … 을/를 말한다`.\n② **Phân loại**: `크게 두 가지로 나뉜다`.\n③ **Nguyên nhân, cơ chế**: `… 에 기인한다`, `… 기 때문이다`.\n④ **Kết quả nghiên cứu**: `조사한 결과 … 것으로 나타났다`.\n⑤ **Hạn chế hoặc triển vọng**: `한계가 있다`, `-(으)ㄹ 전망이다`.\nMẹo: ở dạng «chọn câu điền vào chỗ trống» hay «đặt câu vào vị trí thích hợp», hãy xác định chỗ trống thuộc bước nào.",
+      "kind": "language"
+    },
+    {
+      "title": "Cặp từ dễ nhầm",
+      "body": "• `발견` (tìm ra cái đã có) ≠ `발명` (làm ra cái mới).\n• `개발` (nghiên cứu chế tạo) ≠ `발전` (phát triển, tiến bộ).\n• `함으로써` (bằng cách) ≠ `하므로` (vì).\n• `(으)로써` (bằng, phương tiện) ≠ `(으)로서` (với tư cách).\n• `재생` có hai nghĩa: tái tạo (`재생 에너지`) và phát lại (`동영상 재생`).\n• `온난화` (nóng lên) ≠ `기후 변화` (biến đổi khí hậu nói chung).",
+      "kind": "language"
+    },
+    {
+      "title": "Một đoạn tin khoa học mẫu (nội dung giả định)",
+      "body": "`연구진이 새로운 소재를 개발함으로써 배터리의 충전 시간을 절반으로 줄였다. 실험 결과 이 배터리는 기존 제품보다 오래 쓸 수 있는 것으로 나타났다. 이 기술은 전기차 산업의 발전에 힘입어 내년에 상용화될 전망이다.`\nChú ý: văn 한다체; `함으로써` nêu cách làm, `것으로 나타났다` nêu kết quả đo, `에 힘입어` nêu bối cảnh thuận lợi.",
+      "kind": "sample"
+    },
+    {
+      "title": "Năm lỗi hay mắc",
+      "body": "① **Viết `함으로서`** thay vì `함으로써` khi nói về phương tiện.\n② **Dùng chủ ngữ là người** với `나타나다`: phải là `~ 것으로 나타났다` (kết quả làm chủ ngữ).\n③ **Dùng `에 힘입어`** cho kết quả xấu.\n④ **Nhầm `발견` và `발명`**.\n⑤ **Bỏ qua bước trong bài nghe**: đáp án sai hay đảo vai trò của hai thiết bị hoặc đảo nguyên nhân – kết quả.",
+      "kind": "pitfall"
+    }
+  ],
+  "bank": "xa-hoi",
+  "coach": {
+    "focus_vi": [
+      "Học 46 từ theo hai nhóm: `연구`, `실험`, `가설`, `증명` trước, rồi `기후`, `탄소`, `백신`. Mỗi từ chép một câu ví dụ.",
+      "Làm sáu câu điền mẫu: `함으로써`, `힘입어`, `것으로 나타났다`, `것으로 밝혀졌다`, `(이)란`, `나뉜다`; sửa lại đáp án sai bằng lời giải thích.",
+      "Nghe lại ba câu đề thật: ghi từng bước của bài (ai làm gì, bước nào trước) rồi mới chọn đáp án."
+    ],
+    "watch_out_vi": [
+      "`함으로써` là phương tiện, `하므로` là nguyên nhân.",
+      "`~ 것으로 나타났다`: chủ ngữ là kết quả, không phải người."
+    ],
+    "notebook_vi": [
+      "Bảng cặp từ: 발견–발명, 개발–발전, 로써–로서.",
+      "Ba câu tin khoa học có `~ 것으로 나타났다` về đề tài bạn quan tâm."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "`(으)로써` khác `(으)로서` thế nào?",
+        "answer": "`(으)로써` nghĩa là bằng (phương tiện, cách thức). `(으)로서` nghĩa là với tư cách (vai trò)."
+      },
+      {
+        "prompt_vi": "Khi nghe bài trình bày, nên ghi gì?",
+        "answer": "Ghi từng bước (thiết bị, hành động, kết quả). Đáp án đúng khớp với đúng một bước và không đảo vai trò."
+      }
+    ]
+  },
+  "exercise_ids": [
+    "X61L1",
+    "X61L2",
+    "X61L3",
+    "X61L4",
+    "X61D1",
+    "X61D2",
+    "X61R1",
+    "X61R2",
+    "X61R3",
+    "X61R4",
+    "X61R5",
+    "X61R6",
+    "X61R7",
+    "X61R8",
+    "X61R9",
+    "X61R10",
+    "X61B1",
+    "X61B2",
+    "X61B3",
+    "X61B4",
+    "X61B5",
+    "X61B6",
+    "X61B7",
+    "X61F1",
+    "X61F2",
+    "X61E1",
+    "RG62",
+    "XSUP57",
+    "SP62"
+  ],
+  "topik2": [
+    {
+      "qid": "96-L-49",
+      "why_vi": "Bài nói ngắn mức 5–6급 giải thích vì sao phải tính giờ phóng tên lửa chính xác đến từng phút. Nghe tuần tự: thiết bị trên vệ tinh, nhu cầu điện, quỹ đạo. Bẫy: đáp án đảo chi tiết về pin mặt trời hoặc lượng điện."
+    },
+    {
+      "qid": "102-L-45",
+      "why_vi": "Bài trình bày về công nghệ thăm dò tài nguyên dưới lòng đất. Theo dõi từng bước: máy đo, truyền dữ liệu, phân tích, rồi chọn đáp án khớp đúng bước. Bẫy: đáp án đảo vai trò của máy đo hoặc của AI."
+    },
+    {
+      "qid": "96-L-29",
+      "why_vi": "Hội thoại phỏng vấn một nhà nghiên cứu mức 5–6급. Dựa vào cách người dẫn xưng hô, nội dung nghiên cứu và phần trả lời để xác định nghề. Bẫy: đáp án nghe liên quan đến biển nhưng không phải nghề nghiên cứu."
+    }
+  ],
+  "editor_notes": [
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "SP62: đề AI lợi hay hại, S6 (bài có biểu đồ nhưng trọng tâm là văn khoa học); bài mẫu dùng (이)란, -(으)ㅁ으로써, -는 것으로 알려져 있다, 에 힘입어 (kết quả tốt). Không dùng dữ kiện thật nào (Nuri, luật AI). RG62 chuyển sang chủ đề khí hậu để dùng 에 기인하다 và -는 것으로 나타났다, khác đoạn mẫu của bài (pin)."
+    }
+  ]
+}

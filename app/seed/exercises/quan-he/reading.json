@@ -1,0 +1,6454 @@
+{
+  "skill": "reading",
+  "guide": [
+    {
+      "title_vi": "Chiến lược chung",
+      "bullets_vi": [
+        "Đọc câu hỏi và đáp án trước",
+        "Với câu sắp xếp, tìm **từ nối và từ chỉ thị** (그래서, 이러한, 이날…)",
+        "Với câu \"nội dung trùng khớp\", gạch từng đáp án và tìm chi tiết sai (số, thứ, hướng)",
+        "Làm theo thứ tự dễ → khó, không dừng quá 1 phút 20 giây cho mỗi câu (50 câu trong 70 phút)."
+      ]
+    },
+    {
+      "title_vi": "Lưu ý về số câu và về đề tự soạn",
+      "body_vi": "Số câu ghi trong ngoặc là vị trí **thường gặp** của dạng đó trong đề thật, chỉ để tham khảo. Mọi văn bản, số liệu, tên đơn vị trong phần này là **tự soạn, mang tính minh họa**.\n\nPhần nằm trong 【 】 là phần được gạch chân trong đề thật."
+    }
+  ],
+  "items": [
+    {
+      "id": "QR1",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền ngữ pháp",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền ngữ pháp, thường gặp ở câu 1–2",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "새집으로 ( ) 먼저 이삿짐센터를 알아봐야 해요."
+      },
+      "questions": [
+        {
+          "id": "QR1",
+          "options": [
+            {
+              "id": "1",
+              "text": "이사하자마자"
+            },
+            {
+              "id": "2",
+              "text": "이사하거나"
+            },
+            {
+              "id": "3",
+              "text": "이사해도"
+            },
+            {
+              "id": "4",
+              "text": "이사하려면"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "\"Nếu muốn chuyển nhà thì trước hết phải tìm công ty chuyển nhà\": ý định ở vế trước, vế sau là việc cần làm. ② \"hoặc\", ③ \"dù\", ① \"ngay khi chuyển\" đều sai logic.",
+          "tags": [
+            "-(으)려면"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QR2",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền ngữ pháp",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền ngữ pháp, thường gặp ở câu 1–2",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "이 방은 햇빛이 잘 들어오는 ( ) 월세도 싸서 인기가 많아요."
+      },
+      "questions": [
+        {
+          "id": "QR2",
+          "options": [
+            {
+              "id": "1",
+              "text": "반면에"
+            },
+            {
+              "id": "2",
+              "text": "대신에"
+            },
+            {
+              "id": "3",
+              "text": "데다가"
+            },
+            {
+              "id": "4",
+              "text": "바람에"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Hai vế cùng ưu điểm (nắng tốt, thuê rẻ) → `-(으)ㄴ/는 데다가`. ① `반면에` nối hai vế trái ngược; ② `대신에` là \"thay vào đó\"; ④ `-는 바람에` chỉ kết quả xấu ngoài ý muốn.",
+          "tags": [
+            "-(으)ㄴ/는 데다가"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QR3",
+      "skill": "reading",
+      "type": "read_similar",
+      "title_vi": "Đọc · Chọn cách diễn đạt tương đương",
+      "instruction_ko": "밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+      "instruction_vi": "Chọn cách diễn đạt tương đương, thường gặp ở câu 3–4",
+      "stimulus": {
+        "kind": "underline",
+        "text": "이번 달에는 일주일에 대여섯 번씩 도서관에 가니까 거의 매일 【가는 셈이에요】."
+      },
+      "questions": [
+        {
+          "id": "QR3",
+          "options": [
+            {
+              "id": "1",
+              "text": "가기로 했어요"
+            },
+            {
+              "id": "2",
+              "text": "가는 것과 같아요"
+            },
+            {
+              "id": "3",
+              "text": "갈 수가 없어요"
+            },
+            {
+              "id": "4",
+              "text": "가려고 해요"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "`-는 셈이다` = \"coi như là\": 일주일에 대여섯 번 ≈ gần như mỗi ngày. ① là quyết định; ③ \"không thể\"; ④ ý định.",
+          "tags": [
+            "-(으)ㄴ/는 셈이다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QR4",
+      "skill": "reading",
+      "type": "read_similar",
+      "title_vi": "Đọc · Chọn cách diễn đạt tương đương",
+      "instruction_ko": "밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+      "instruction_vi": "Chọn cách diễn đạt tương đương, thường gặp ở câu 3–4",
+      "stimulus": {
+        "kind": "underline",
+        "text": "눈이 많이 와서 출발을 【미룰 수밖에 없었다】."
+      },
+      "questions": [
+        {
+          "id": "QR4",
+          "options": [
+            {
+              "id": "1",
+              "text": "미루고 싶었다"
+            },
+            {
+              "id": "2",
+              "text": "미루기로 약속했다"
+            },
+            {
+              "id": "3",
+              "text": "미루지 않아도 되었다"
+            },
+            {
+              "id": "4",
+              "text": "어쩔 수 없이 미루었다"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "`-(으)ㄹ 수밖에 없다` = không còn cách nào khác, tức \"đành phải hoãn\". ① \"muốn hoãn\" mất sắc thái ép buộc; ③ ngược nghĩa; ② \"hứa hoãn\" không có trong câu. `어쩔 수 없이` là từ *(mở rộng)*.",
+          "tags": [
+            "-(으)ㄹ 수밖에 없다",
+            "어쩔 수 없이 (mở rộng)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QR5",
+      "skill": "reading",
+      "type": "read_topic",
+      "title_vi": "Đọc · Lý do viết bài",
+      "instruction_ko": "다음 글을 쓴 이유로 알맞은 것을 고르십시오.",
+      "instruction_vi": "Lý do viết bài. Thường gặp ở câu 5–8",
+      "stimulus": {
+        "kind": "notice",
+        "lines": [
+          "김 선생님께,",
+          "다음 주 화요일에 상담을 받기로 했는데 갑자기 수업이 생기는 바람에 시간을 지키지 못하게 되었습니다. 죄송합니다만 수요일 오후로 변경할 수 있겠습니까? 연락 기다리겠습니다."
+        ]
+      },
+      "questions": [
+        {
+          "id": "QR5",
+          "options": [
+            {
+              "id": "1",
+              "text": "상담 일정을 변경하고 싶어서"
+            },
+            {
+              "id": "2",
+              "text": "상담 결과를 알리려고"
+            },
+            {
+              "id": "3",
+              "text": "수업 시간표를 물어보려고"
+            },
+            {
+              "id": "4",
+              "text": "선생님께 감사 인사를 하려고"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Người viết nói không giữ được giờ và xin đổi sang thứ Tư. ② ③ ④ không có trong thư. Chú ý `-ㅂ니다` xuyên suốt và `-(으)ㄹ 수 있겠습니까?` là câu hỏi lịch sự.",
+          "tags": [
+            "-기로 하다",
+            "-는 바람에"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QR6",
+      "skill": "reading",
+      "type": "read_topic",
+      "title_vi": "Đọc · Bài viết nói về điều gì",
+      "instruction_ko": "다음은 무엇에 대한 글입니까?",
+      "instruction_vi": "Bài viết nói về điều gì? Thường gặp ở câu 5–8",
+      "stimulus": {
+        "kind": "notice",
+        "title": "[원룸 월세 안내]",
+        "lines": [
+          "위치: ○○역 도보 5분",
+          "보증금 1,000만 원 / 월세 50만 원 (관리비 5만 원 별도)",
+          "입주 가능일: 11월 1일 · 반려동물 불가"
+        ]
+      },
+      "questions": [
+        {
+          "id": "QR6",
+          "options": [
+            {
+              "id": "1",
+              "text": "이삿짐센터 광고"
+            },
+            {
+              "id": "2",
+              "text": "월세 방 안내"
+            },
+            {
+              "id": "3",
+              "text": "아파트 매매 안내"
+            },
+            {
+              "id": "4",
+              "text": "기숙사 이용 규칙"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Từ khóa: 월세, 보증금, 관리비 별도, 입주 가능일. ① ③ ④ không có thông tin nào về thuê phòng.",
+          "tags": [
+            "월세",
+            "보증금",
+            "관리비 별도",
+            "입주 가능일"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QR7",
+      "skill": "reading",
+      "type": "read_match",
+      "title_vi": "Đọc · Nội dung trùng khớp (thông báo)",
+      "instruction_ko": "다음 글 또는 도표의 내용과 같은 것을 고르십시오.",
+      "instruction_vi": "Nội dung trùng khớp, thường gặp ở câu 9–12",
+      "stimulus": {
+        "kind": "notice",
+        "title": "[한국어 말하기 대회 안내]",
+        "lines": [
+          "■ 일시: 10월 25일 오후 2시",
+          "■ 장소: 한빛문화센터 3층 대강당",
+          "■ 오시는 길: 지하철 2호선 한빛역 3번 출구로 나오셔서 우체국 방향으로 쭉 가시다가 사거리에서 왼쪽으로 돌아 주십시오. 횡단보도를 건넌 다음에 오른쪽 건물이 한빛문화센터입니다.",
+          "※ 주차 공간이 없으니 대중교통을 이용해 주시기 바랍니다."
+        ]
+      },
+      "questions": [
+        {
+          "id": "QR7",
+          "options": [
+            {
+              "id": "1",
+              "text": "행사는 오전 10시에 시작한다."
+            },
+            {
+              "id": "2",
+              "text": "지하철 3호선을 타고 와야 한다."
+            },
+            {
+              "id": "3",
+              "text": "횡단보도를 건넌 다음에 오른쪽에 건물이 있다."
+            },
+            {
+              "id": "4",
+              "text": "자동차를 가지고 오는 사람은 주차장을 이용할 수 있다."
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Khớp \"횡단보도를 건넌 다음에 오른쪽 건물\". ① giờ là 2 giờ chiều; ② tuyến 2호선; ④ \"주차 공간이 없다\".",
+          "tags": [
+            "-다가",
+            "-(으)ㄴ 다음에",
+            "-(으)시기 바랍니다, -(으)십시오"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QR8",
+      "skill": "reading",
+      "type": "read_match",
+      "title_vi": "Đọc · Nội dung trùng khớp (thông báo)",
+      "instruction_ko": "다음 글 또는 도표의 내용과 같은 것을 고르십시오.",
+      "instruction_vi": "Nội dung trùng khớp, thường gặp ở câu 9–12",
+      "stimulus": {
+        "kind": "notice",
+        "title": "[재활용품 배출 안내]",
+        "lines": [
+          "1. 배출 시간: 수요일 저녁 7시 ~ 목요일 아침 7시",
+          "2. 배출 장소: 단지 안 분리배출장",
+          "3. 페트병은 내용물을 비우고 라벨을 뗀 다음에 뚜껑을 분리하여 배출해 주시기 바랍니다.",
+          "4. 음식물이 묻어 씻기 어려운 비닐은 종량제 봉투에 버려 주시기 바랍니다."
+        ]
+      },
+      "questions": [
+        {
+          "id": "QR8",
+          "options": [
+            {
+              "id": "1",
+              "text": "배출은 하루 종일 할 수 있다."
+            },
+            {
+              "id": "2",
+              "text": "페트병은 뚜껑을 닫은 채로 배출한다."
+            },
+            {
+              "id": "3",
+              "text": "배출 장소는 각 집 현관 앞이다."
+            },
+            {
+              "id": "4",
+              "text": "씻기 어려운 비닐은 종량제 봉투에 버린다."
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Khớp hướng dẫn phân loại rác (vinyl khó rửa → 종량제 봉투). ① có khung giờ (thứ Tư 19h – thứ Năm 7h); ② phải tách nắp; ③ nơi bỏ là 분리배출장 của khu nhà.",
+          "tags": [
+            "-(으)시기 바랍니다, -(으)십시오",
+            "-(으)ㄴ 다음에"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QR9",
+      "skill": "reading",
+      "type": "read_match",
+      "title_vi": "Đọc · Nội dung trùng khớp (bảng số liệu)",
+      "instruction_ko": "다음 글 또는 도표의 내용과 같은 것을 고르십시오.",
+      "instruction_vi": "Nội dung trùng khớp, thường gặp ở câu 9–12",
+      "stimulus": {
+        "kind": "chart",
+        "block": {
+          "title_vi": "A시의 월별 평균 기온과 강수량 (자료는 가상)",
+          "note_vi": "자료는 가상 = số liệu giả định (số liệu minh họa, tự soạn).",
+          "table": {
+            "header": [
+              "월",
+              "1월",
+              "4월",
+              "7월",
+              "10월"
+            ],
+            "rows": [
+              [
+                "평균 기온(℃)",
+                "-2",
+                "12",
+                "26",
+                "14"
+              ],
+              [
+                "강수량(mm)",
+                "25",
+                "70",
+                "330",
+                "50"
+              ]
+            ]
+          }
+        }
+      },
+      "questions": [
+        {
+          "id": "QR9",
+          "options": [
+            {
+              "id": "1",
+              "text": "강수량이 가장 많은 달은 7월이다."
+            },
+            {
+              "id": "2",
+              "text": "기온이 가장 높은 달은 4월이다."
+            },
+            {
+              "id": "3",
+              "text": "10월은 4월에 비해 기온이 낮다."
+            },
+            {
+              "id": "4",
+              "text": "1월에는 비가 가장 많이 온다."
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Lượng mưa lớn nhất là 7월 (330 mm). ② nhiệt độ cao nhất là 7월 (26℃); ③ 10월 (14℃) cao hơn 4월 (12℃) nên `낮다` sai; ④ tháng 1 chỉ 25 mm. Mẹo: với bảng số, tính trước điều cần so sánh.",
+          "tags": [
+            "N에 비해(서)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QR10",
+      "skill": "reading",
+      "type": "read_match",
+      "title_vi": "Đọc · Nội dung trùng khớp (quy định)",
+      "instruction_ko": "다음 글 또는 도표의 내용과 같은 것을 고르십시오.",
+      "instruction_vi": "Nội dung trùng khớp, thường gặp ở câu 9–12",
+      "stimulus": {
+        "kind": "notice",
+        "title": "[취소 및 환불 규정]",
+        "lines": [
+          "· 출발 7일 전까지 취소할 경우: 전액 환불",
+          "· 출발 6일 전 ~ 3일 전에 취소할 경우: 요금의 30%를 취소 수수료로 부과",
+          "· 출발 2일 전 ~ 당일에 취소할 경우: 요금의 50%를 취소 수수료로 부과",
+          "· 규정에 따라 환불은 결제한 방법으로 처리됩니다."
+        ]
+      },
+      "questions": [
+        {
+          "id": "QR10",
+          "options": [
+            {
+              "id": "1",
+              "text": "출발 8일 전에 취소하면 수수료를 내야 한다."
+            },
+            {
+              "id": "2",
+              "text": "출발 1일 전에 취소하면 전액 환불된다."
+            },
+            {
+              "id": "3",
+              "text": "출발 5일 전에 취소하면 요금의 30%를 수수료로 낸다."
+            },
+            {
+              "id": "4",
+              "text": "환불은 현금으로만 받을 수 있다."
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "5일 전 nằm trong khoảng \"6일 ~ 3일 전\" → 30%. ① 8일 trước (trong hạn \"7일 전까지\") thì không mất phí; ② 1일 trước thuộc mức 50%; ④ văn bản chỉ nói hoàn theo phương thức đã thanh toán.",
+          "tags": [
+            "-(으)ㄹ 경우(에)",
+            "N에 따라(서)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QR11",
+      "skill": "reading",
+      "type": "read_order",
+      "title_vi": "Đọc · Sắp xếp câu",
+      "instruction_ko": "다음을 순서에 맞게 배열한 것을 고르십시오.",
+      "instruction_vi": "Sắp xếp câu, thường gặp ở câu 13–15",
+      "stimulus": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "가",
+            "text": "이날 가족들은 함께 송편을 빚고 보름달을 보며 소원을 빌곤 한다."
+          },
+          {
+            "id": "나",
+            "text": "추석은 한국의 대표적인 명절 중 하나이다."
+          },
+          {
+            "id": "다",
+            "text": "이 명절에는 사람들이 고향을 찾아 조상께 차례를 지낸다."
+          },
+          {
+            "id": "라",
+            "text": "이러한 모습은 추석이 가족이 함께 감사하는 마음을 나누는 시간임을 보여 준다."
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "QR11",
+          "options": [
+            {
+              "id": "1",
+              "text": "(가)-(나)-(다)-(라)"
+            },
+            {
+              "id": "2",
+              "text": "(나)-(다)-(가)-(라)"
+            },
+            {
+              "id": "3",
+              "text": "(다)-(나)-(라)-(가)"
+            },
+            {
+              "id": "4",
+              "text": "(나)-(가)-(라)-(다)"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "(나) giới thiệu 추석 → (다) \"이 명절\" → (가) \"이날\" tả hoạt động → (라) \"이러한 모습\" kết luận. ① (가) \"이날\" chưa có tiền đề; ③ (다) \"이 명절\" chưa có tiền đề; ④ (라) kết luận không thể đứng trước (다).",
+          "tags": [
+            "-곤 하다",
+            "-(으)며"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QR12",
+      "skill": "reading",
+      "type": "read_order",
+      "title_vi": "Đọc · Sắp xếp câu",
+      "instruction_ko": "다음을 순서에 맞게 배열한 것을 고르십시오.",
+      "instruction_vi": "Sắp xếp câu, thường gặp ở câu 13–15",
+      "stimulus": {
+        "kind": "order",
+        "items": [
+          {
+            "id": "가",
+            "text": "그래서 여름철에는 물을 충분히 마시고 한낮의 외출을 줄이는 것이 좋다."
+          },
+          {
+            "id": "나",
+            "text": "최근 몇 년 사이 여름 폭염이 길어지고 있다."
+          },
+          {
+            "id": "다",
+            "text": "폭염이 계속되면 열대야 때문에 잠을 못 자는 사람도 늘어난다."
+          },
+          {
+            "id": "라",
+            "text": "이처럼 더위가 심해질수록 건강에 문제가 생길 가능성도 커진다."
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "QR12",
+          "options": [
+            {
+              "id": "1",
+              "text": "(나)-(다)-(라)-(가)"
+            },
+            {
+              "id": "2",
+              "text": "(다)-(나)-(가)-(라)"
+            },
+            {
+              "id": "3",
+              "text": "(나)-(라)-(다)-(가)"
+            },
+            {
+              "id": "4",
+              "text": "(라)-(나)-(다)-(가)"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "(나) nêu hiện tượng → (다) \"폭염이 계속되면\" → (라) \"이처럼\" tóm hệ quả → (가) \"그래서\" lời khuyên. ③ (라) \"이처럼\" đứng trước (다) thì chưa có gì để tóm; ② (다) cần (나) đi trước; ④ (라) không thể mở đầu.",
+          "tags": [
+            "-아/어지다",
+            "-(으)ㄹ수록"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QR13",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền chỗ trống trong đoạn văn",
+      "instruction_ko": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống, thường gặp ở câu 16–18 và 31–33",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "아파트에서는 위층의 작은 소리도 아래층에는 크게 들릴 수 있다. 그래서 늦은 밤에는 소리가 ( ) 조심하는 것이 좋다. 또한 층간 소음으로 불편을 겪고 있다면 직접 항의하기 전에 관리사무소나 이웃사이센터에 도움을 요청해 볼 수 있다."
+      },
+      "questions": [
+        {
+          "id": "QR13",
+          "options": [
+            {
+              "id": "1",
+              "text": "나더라도"
+            },
+            {
+              "id": "2",
+              "text": "나기 위해서"
+            },
+            {
+              "id": "3",
+              "text": "나는 바람에"
+            },
+            {
+              "id": "4",
+              "text": "나지 않도록"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "`-지 않도록` (để không xảy ra) hợp với lời khuyên \"조심하다\". ② `-기 위해서` là mục đích cùng chủ ngữ, không nối với \"소리가 나다\"; ③ `-는 바람에` là kết quả xấu đã xảy ra; ① `-더라도` là \"dù\".",
+          "tags": [
+            "-도록",
+            "이웃사이센터"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QR14",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền chỗ trống trong đoạn văn",
+      "instruction_ko": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống, thường gặp ở câu 16–18 và 31–33",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "한 조사( ) 대학생의 절반 가까이가 방학에 여행을 가고 싶다고 답한 것으로 나타났다."
+      },
+      "questions": [
+        {
+          "id": "QR14",
+          "options": [
+            {
+              "id": "1",
+              "text": "에 따르면"
+            },
+            {
+              "id": "2",
+              "text": "에 따라"
+            },
+            {
+              "id": "3",
+              "text": "에 비해"
+            },
+            {
+              "id": "4",
+              "text": "(으)로 인해"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`N에 따르면` + `-(으)ㄴ 것으로 나타났다` (dẫn nguồn). ② `에 따라` là \"tùy theo\"; ③ `에 비해` là so sánh; ④ `(으)로 인해` chỉ nguyên nhân; cả ba không dùng để dẫn nguồn.",
+          "tags": [
+            "N에 따르면"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QR15",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Đọc · Điền chỗ trống trong đoạn văn",
+      "instruction_ko": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống, thường gặp ở câu 16–18 và 31–33",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "도시 생활은 편리한 ( ) 소음이 많고 월세가 비싸다."
+      },
+      "questions": [
+        {
+          "id": "QR15",
+          "options": [
+            {
+              "id": "1",
+              "text": "때문에"
+            },
+            {
+              "id": "2",
+              "text": "덕분에"
+            },
+            {
+              "id": "3",
+              "text": "반면"
+            },
+            {
+              "id": "4",
+              "text": "다음에"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "`-(으)ㄴ 반면` nêu **hai mặt trái ngược** của đô thị (tiện lợi / ồn ào). ② `덕분에` chỉ kết quả tốt; ① `때문에` không nối hợp lý với `편리한`; ④ `다음에` chỉ thứ tự.",
+          "tags": [
+            "-(으)ㄴ/는 반면(에)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QR16",
+      "skill": "reading",
+      "type": "read_insert",
+      "title_vi": "Đọc · Chèn câu vào đoạn",
+      "instruction_ko": "주어진 문장이 들어갈 곳으로 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chèn câu, thường gặp ở câu 39–41",
+      "stimulus": {
+        "kind": "insert",
+        "given": "그래서 한 번 쓰고 버리는 일회용품도 크게 늘었다.",
+        "text": "플라스틱은 가볍고 값이 싸서 일상생활에서 많이 쓰인다. (㉠) 그러나 플라스틱은 분해되는 데 오랜 시간이 걸리기 때문에 쓰레기가 되면 환경에 큰 부담을 준다. (㉡) 특히 플라스틱 쓰레기로 인한 해양 오염이 심각해지고 있다. (㉢) 따라서 일회용품 사용을 줄일 필요가 있다. (㉣)"
+      },
+      "questions": [
+        {
+          "id": "QR16",
+          "options": [
+            {
+              "id": "1",
+              "text": "㉠"
+            },
+            {
+              "id": "2",
+              "text": "㉡"
+            },
+            {
+              "id": "3",
+              "text": "㉢"
+            },
+            {
+              "id": "4",
+              "text": "㉣"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Câu cần chèn là hệ quả của \"nhẹ, rẻ nên dùng nhiều\" → ㉠. Sau ㉠ có \"그러나\" chuyển sang mặt tiêu cực, nên chèn ở ㉡ sẽ phá mạch. Lựa chọn là vị trí ㉠–㉣ nên **không xáo trộn**.",
+          "tags": [
+            "N(으)로 인해/인한 N",
+            "-(으)ㄹ 필요가 있다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QR17",
+      "skill": "reading",
+      "type": "read_insert",
+      "title_vi": "Đọc · Chèn câu vào đoạn",
+      "instruction_ko": "주어진 문장이 들어갈 곳으로 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chèn câu, thường gặp ở câu 39–41",
+      "stimulus": {
+        "kind": "insert",
+        "given": "이처럼 혼자 사는 사람이 늘면서 주거와 복지에 대한 관심도 높아지고 있다.",
+        "text": "한국의 가족 형태가 달라지고 있다. (㉠) 예전에는 여러 세대가 함께 사는 대가족이 많았지만 지금은 부부와 자녀로 이루어진 핵가족이 늘었다. (㉡) 최근에는 혼자 사는 1인 가구도 빠르게 증가하고 있다. (㉢) 정부와 지역 사회는 이러한 변화에 맞는 정책을 마련해야 한다. (㉣)"
+      },
+      "questions": [
+        {
+          "id": "QR17",
+          "options": [
+            {
+              "id": "1",
+              "text": "㉠"
+            },
+            {
+              "id": "2",
+              "text": "㉡"
+            },
+            {
+              "id": "3",
+              "text": "㉢"
+            },
+            {
+              "id": "4",
+              "text": "㉣"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "\"이처럼 혼자 사는 사람이 늘면서\" quay lại câu về 1인 가구, nên đặt ngay sau câu đó (㉢). Lựa chọn là vị trí ㉠–㉣ nên **không xáo trộn**.",
+          "tags": [
+            "대가족",
+            "핵가족",
+            "1인 가구"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QR18",
+      "skill": "reading",
+      "type": "read_main_idea",
+      "title_vi": "Đọc · Chủ đề, ý chính",
+      "instruction_ko": "다음 글을 읽고 물음에 답하십시오.",
+      "instruction_vi": "Ý chính, thái độ, nội dung trùng khớp, thường gặp ở câu 21–50",
+      "stimulus": {
+        "kind": "passage",
+        "text": "지난 방학에 '한복 체험'이라는 프로그램에 참가했어요. 처음에는 한복이 불편할 것 같았는데 막상 입어 보니까 편하더라고요. 한국 친구들 덕분에 한복 입는 방법도 배우고 전통 문화를 더 가깝게 느낄 수 있었어요. 책으로만 배울 때보다 훨씬 재미있었어요."
+      },
+      "questions": [
+        {
+          "id": "QR18",
+          "prompt_ko": "이 글의 중심 내용으로 알맞은 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "한복은 입기에 불편한 옷이다."
+            },
+            {
+              "id": "2",
+              "text": "직접 체험하면 한국 문화를 더 가깝게 느끼고 즐길 수 있다."
+            },
+            {
+              "id": "3",
+              "text": "한국 친구들은 한복을 자주 입는다."
+            },
+            {
+              "id": "4",
+              "text": "책으로 공부하는 것이 체험보다 재미있다."
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Ý chính ở câu cuối: trải nghiệm trực tiếp thú vị hơn học qua sách và cảm nhận gần hơn với văn hóa. ① ngược (\"편하더라고요\"); ③ không được nói; ④ ngược.",
+          "tags": [
+            "-더라고요",
+            "덕분에",
+            "N(이)라는 N"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QR19",
+      "skill": "reading",
+      "type": "read_main_idea",
+      "title_vi": "Đọc · Thái độ của người viết",
+      "instruction_ko": "다음 글을 읽고 물음에 답하십시오.",
+      "instruction_vi": "Ý chính, thái độ, nội dung trùng khớp, thường gặp ở câu 21–50",
+      "stimulus": {
+        "kind": "passage",
+        "text": "명절에 차례상을 차리느라 가족 모두가 지치는 경우가 많다. 그러나 차례의 의미는 음식의 가짓수가 아니라 조상께 감사하는 마음에 있다. 따라서 음식을 간소하게 준비하더라도 마음을 다한다면 충분하다."
+      },
+      "questions": [
+        {
+          "id": "QR19",
+          "prompt_ko": "이 글을 쓴 사람의 태도로 알맞은 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "전통 방식을 그대로 지켜야 한다고 주장하고 있다."
+            },
+            {
+              "id": "2",
+              "text": "명절을 없애야 한다고 비판하고 있다."
+            },
+            {
+              "id": "3",
+              "text": "차례 음식을 더 많이 준비하라고 권하고 있다."
+            },
+            {
+              "id": "4",
+              "text": "차례의 형식보다 마음이 중요하다고 보고 있다."
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "\"의미는 … 마음에 있다\", \"간소하게 … 마음을 다한다면 충분\" → hình thức không quan trọng bằng tấm lòng. ① ③ ngược; ② quá đà (\"없애야 한다\" không có). `간소하다` là từ *(mở rộng)* (cùng gốc 간소화).`-느라고`",
+          "tags": [
+            "-느라고",
+            "간소하다 (mở rộng)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QR20",
+      "skill": "reading",
+      "type": "read_match",
+      "title_vi": "Đọc · Nội dung trùng khớp",
+      "instruction_ko": "다음 글을 읽고 물음에 답하십시오.",
+      "instruction_vi": "Ý chính, thái độ, nội dung trùng khớp, thường gặp ở câu 21–50",
+      "stimulus": {
+        "kind": "passage",
+        "text": "미세먼지 농도는 '좋음', '보통', '나쁨', '매우 나쁨'의 네 단계로 나누어 알려 준다. 농도가 '나쁨'일 때에는 외출을 자제하는 것이 좋다. 부득이하게 외출해야 할 때에는 보건용 마스크를 쓰고, 집에 돌아온 후에는 손과 얼굴을 깨끗이 씻어야 한다. 이러한 행동 요령을 미리 알아 두면 미세먼지가 심한 날에도 건강을 지킬 수 있다."
+      },
+      "questions": [
+        {
+          "id": "QR20",
+          "prompt_ko": "다음 글의 내용과 같은 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "미세먼지 농도는 세 단계로 나뉜다."
+            },
+            {
+              "id": "2",
+              "text": "'나쁨'일 때에는 가능하면 외출을 줄이는 것이 좋다."
+            },
+            {
+              "id": "3",
+              "text": "집에 돌아온 후에는 마스크만 벗으면 된다."
+            },
+            {
+              "id": "4",
+              "text": "'매우 나쁨'일 때에는 보건용 마스크가 필요 없다."
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Khớp câu 2 (\"외출을 자제하는 것이 좋다\"). ① có **bốn** cấp; ③ còn phải rửa tay và mặt; ④ \"매우 나쁨\" không hề nói không cần khẩu trang. Cấp độ và cách phòng khớp hướng dẫn ✔.",
+          "tags": [
+            "미세먼지",
+            "보건용 마스크",
+            "외출을 자제하다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE01a",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "🟣 Mở rộng · Điền ngữ pháp: -(으)ㄴ 채로",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "캔은 음료를 ( ) 버리면 재활용할 수 없습니다. 안을 비우고 물로 헹군 다음에 배출해 주십시오."
+      },
+      "questions": [
+        {
+          "id": "QE01a",
+          "options": [
+            {
+              "id": "1",
+              "text": "남기도록"
+            },
+            {
+              "id": "2",
+              "text": "남긴 채로"
+            },
+            {
+              "id": "3",
+              "text": "남기는 바람에"
+            },
+            {
+              "id": "4",
+              "text": "남기려고"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "\"Vứt lon khi vẫn còn nước bên trong thì không tái chế được\": trạng thái \"còn nước\" được giữ nguyên lúc vứt = `-(으)ㄴ 채로`. ① `-도록` là mục đích/ kết quả mong muốn, \"để cho nước còn lại\" vô nghĩa; ③ `-는 바람에` là kết quả xấu đã xảy ra, không đi với `버리면`; ④ `-(으)려고` là ý định làm việc đó, trái nghĩa với lời nhắc. (mở rộng)",
+          "tags": [
+            "-(으)ㄴ 채로",
+            "남기다",
+            "분리배출"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE01b",
+      "skill": "reading",
+      "type": "read_similar",
+      "title_vi": "🟣 Mở rộng · Cách nói tương đương: -(으)ㄴ 채로",
+      "instruction_ko": "밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+      "instruction_vi": "Chọn cách diễn đạt có nghĩa tương tự phần gạch chân (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "underline",
+        "text": "그는 재활용품을 【분리하지 않은 채로】 버렸다."
+      },
+      "questions": [
+        {
+          "id": "QE01b",
+          "options": [
+            {
+              "id": "1",
+              "text": "분리하지 않도록"
+            },
+            {
+              "id": "2",
+              "text": "분리한 다음에"
+            },
+            {
+              "id": "3",
+              "text": "분리하려고"
+            },
+            {
+              "id": "4",
+              "text": "분리하지 않은 상태로"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "`-지 않은 채로` = \"trong khi vẫn chưa phân loại\" ≈ `-지 않은 상태로`. ① `-지 않도록` là \"để không phân loại\" (mục đích); ② `-(으)ㄴ 다음에` là \"sau khi đã phân loại\" (ngược nghĩa); ③ `-(으)려고` là \"định phân loại\" (ngược nghĩa). (mở rộng)",
+          "tags": [
+            "-(으)ㄴ 채로",
+            "-(으)ㄴ 상태로",
+            "재활용품"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE02a",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "🟣 Mở rộng · Điền ngữ pháp: -(으)ㄴ 적이 있다",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "가: 중요한 약속을 ( ) 있어요? 나: 네, 한 번 있어요. 그때 친구가 많이 화를 냈어요."
+      },
+      "questions": [
+        {
+          "id": "QE02a",
+          "options": [
+            {
+              "id": "1",
+              "text": "미루려던 참이"
+            },
+            {
+              "id": "2",
+              "text": "미루기로 한"
+            },
+            {
+              "id": "3",
+              "text": "미룬 적이"
+            },
+            {
+              "id": "4",
+              "text": "미루는 바람에"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Câu hỏi \"Bạn đã từng hoãn cuộc hẹn quan trọng chưa?\" và câu trả lời `한 번 있어요` cho thấy đang hỏi **kinh nghiệm**: `미룬 적이 있어요?`. ① `-(으)려던 참이다` là \"đang định\", đi với `이다` chứ không đi với `있다`; ② `-기로 한` thiếu danh từ (`적이`/`것이`) để nối với `있어요`; ④ `-는 바람에` là mệnh đề nguyên nhân, không đứng trước `있어요?`. (mở rộng)",
+          "tags": [
+            "-(으)ㄴ 적이 있다",
+            "약속을 미루다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE02b",
+      "skill": "reading",
+      "type": "read_similar",
+      "title_vi": "🟣 Mở rộng · Cách nói tương đương: -(으)ㄴ 적이 없다",
+      "instruction_ko": "밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+      "instruction_vi": "Chọn cách diễn đạt có nghĩa tương tự phần gạch chân (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "underline",
+        "text": "저는 아직 해외에서 【일한 적이 없어요】."
+      },
+      "questions": [
+        {
+          "id": "QE02b",
+          "options": [
+            {
+              "id": "1",
+              "text": "일해 본 경험이 없어요"
+            },
+            {
+              "id": "2",
+              "text": "일하고 있는 중이에요"
+            },
+            {
+              "id": "3",
+              "text": "일하기로 했어요"
+            },
+            {
+              "id": "4",
+              "text": "일하려던 참이었어요"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`일한 적이 없다` = \"chưa từng làm\" ≈ `일해 본 경험이 없다` (chưa có kinh nghiệm làm). ② `-고 있는 중이다` là đang làm, trái với `아직 … 없다`; ③ `-기로 하다` là quyết định sẽ làm; ④ `-(으)려던 참이다` là vừa định làm ngay lúc đó. (mở rộng)",
+          "tags": [
+            "-(으)ㄴ 적이 없다",
+            "경험"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE03a",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "🟣 Mở rộng · Điền ngữ pháp: -(이)라면",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "저는 위층에 살지만, 만약 제가 아래층 이웃( ) 밤늦게 뛰는 소리 때문에 정말 화가 났을 거예요."
+      },
+      "questions": [
+        {
+          "id": "QE03a",
+          "options": [
+            {
+              "id": "1",
+              "text": "이니까"
+            },
+            {
+              "id": "2",
+              "text": "이기 위해"
+            },
+            {
+              "id": "3",
+              "text": "이려면"
+            },
+            {
+              "id": "4",
+              "text": "이라면"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "`만약 제가 아래층 이웃이라면 … 화가 났을 거예요`: giả định đặt mình vào vai hàng xóm tầng dưới (thực tế người nói ở tầng trên). ① `-(으)니까` nêu lý do thật, xung đột với `만약`; ② `N이기 위해` (để trở thành N) là mục đích, vô nghĩa với `화가 났을 거예요`; ③ `N이려면` là \"nếu muốn trở thành N\", cần vế sau là việc phải làm chứ không phải suy đoán `-았/었을 거예요`. (mở rộng)",
+          "tags": [
+            "-(이)라면",
+            "아래층",
+            "층간 소음"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE03b",
+      "skill": "reading",
+      "type": "read_similar",
+      "title_vi": "🟣 Mở rộng · Cách nói tương đương: -(이)라면",
+      "instruction_ko": "밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+      "instruction_vi": "Chọn cách diễn đạt có nghĩa tương tự phần gạch chân (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "underline",
+        "text": "【제가 위층 이웃이라면】 밤에는 아이들이 뛰지 않도록 매트를 깔 것 같아요."
+      },
+      "questions": [
+        {
+          "id": "QE03b",
+          "options": [
+            {
+              "id": "1",
+              "text": "제가 위층 이웃이어서"
+            },
+            {
+              "id": "2",
+              "text": "제가 위층 이웃이면"
+            },
+            {
+              "id": "3",
+              "text": "제가 위층 이웃이지만"
+            },
+            {
+              "id": "4",
+              "text": "제가 위층 이웃이 아니면"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "`-(이)라면` (giả sử là) ≈ `-(이)면` trong nghĩa giả định. ① `-아/어서` là \"vì là\" (lý do thật); ③ `-지만` là \"nhưng\" (đối lập); ④ `이 아니면` là \"nếu không phải\" (điều kiện ngược). (mở rộng)",
+          "tags": [
+            "-(이)라면",
+            "-(으)면"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE04a",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "🟣 Mở rộng · Điền ngữ pháp: -더라도",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "아무리 급한 일이 ( ) 쓰레기를 아무 데나 버리면 안 됩니다."
+      },
+      "questions": [
+        {
+          "id": "QE04a",
+          "options": [
+            {
+              "id": "1",
+              "text": "생기도록"
+            },
+            {
+              "id": "2",
+              "text": "생기는 바람에"
+            },
+            {
+              "id": "3",
+              "text": "생기더라도"
+            },
+            {
+              "id": "4",
+              "text": "생기기 위해서"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "`아무리 …` đòi vế nhượng bộ: \"dù có việc gấp (xảy ra) cũng không được vứt rác bừa\" = `-더라도`. ① `-도록` là mục đích/ kết quả mong muốn, không đi với `아무리`; ② `-는 바람에` là kết quả xấu đã xảy ra, không đi với `안 됩니다`; ④ `-기 위해서` là mục đích (cùng chủ ngữ), vô nghĩa ở đây. (mở rộng)",
+          "tags": [
+            "-더라도",
+            "-도록",
+            "아무리",
+            "쓰레기를 버리다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE04b",
+      "skill": "reading",
+      "type": "read_similar",
+      "title_vi": "🟣 Mở rộng · Cách nói tương đương: -더라도",
+      "instruction_ko": "밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+      "instruction_vi": "Chọn cách diễn đạt có nghĩa tương tự phần gạch chân (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "underline",
+        "text": "밤늦게 【손님이 오더라도】 큰 소리로 이야기하지 마세요."
+      },
+      "questions": [
+        {
+          "id": "QE04b",
+          "options": [
+            {
+              "id": "1",
+              "text": "손님이 와도"
+            },
+            {
+              "id": "2",
+              "text": "손님이 오도록"
+            },
+            {
+              "id": "3",
+              "text": "손님이 온 바람에"
+            },
+            {
+              "id": "4",
+              "text": "손님이 오려면"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`-더라도` (dù) ≈ `-아/어도`: \"dù khách có đến cũng đừng nói chuyện to\". ② `-도록` là \"để cho khách đến\" (mục đích); ③ `-는 바람에` là \"vì khách đến nên (xảy ra chuyện xấu)\", không đi với câu cấm; ④ `-(으)려면` là \"nếu muốn đến\" (ý định của khách). (mở rộng)",
+          "tags": [
+            "-더라도",
+            "-아/어도"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE05a",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "🟣 Mở rộng · Điền ngữ pháp: -자마자",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "이삿짐센터 직원들이 ( ) 갑자기 비가 오기 시작해서 서둘러 짐을 옮겼어요."
+      },
+      "questions": [
+        {
+          "id": "QE05a",
+          "options": [
+            {
+              "id": "1",
+              "text": "도착한 지"
+            },
+            {
+              "id": "2",
+              "text": "도착하자마자"
+            },
+            {
+              "id": "3",
+              "text": "도착하려면"
+            },
+            {
+              "id": "4",
+              "text": "도착하기 때문에"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "\"Nhân viên vừa đến nơi thì trời đổ mưa\": hai việc liền nhau, khác chủ ngữ = `-자마자`. ① `-(으)ㄴ 지` phải đi với thời gian (`도착한 지 10분`) và `되다/지나다`; ③ `-(으)려면` là \"nếu muốn đến\", không hợp thì quá khứ ở vế sau; ④ `-기 때문에` là lý do, mưa không thể là kết quả của việc họ đến. (mở rộng)",
+          "tags": [
+            "-자마자",
+            "-(으)ㄴ 지",
+            "-(으)려면",
+            "이삿짐센터"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE05b",
+      "skill": "reading",
+      "type": "read_similar",
+      "title_vi": "🟣 Mở rộng · Cách nói tương đương: -자마자",
+      "instruction_ko": "밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+      "instruction_vi": "Chọn cách diễn đạt có nghĩa tương tự phần gạch chân (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "underline",
+        "text": "저는 【계약서를 받자마자】 내용을 꼼꼼히 확인했어요."
+      },
+      "questions": [
+        {
+          "id": "QE05b",
+          "options": [
+            {
+              "id": "1",
+              "text": "계약서를 받기 전에"
+            },
+            {
+              "id": "2",
+              "text": "계약서를 받은 지"
+            },
+            {
+              "id": "3",
+              "text": "계약서를 받으려면"
+            },
+            {
+              "id": "4",
+              "text": "계약서를 받은 다음에 바로"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "`받자마자` (vừa nhận là) ≈ `받은 다음에 바로` (sau khi nhận thì ngay lập tức). ① `-기 전에` là \"trước khi nhận\" (ngược thứ tự); ② `-(으)ㄴ 지` đo thời gian đã qua, thiếu `되다`; ③ `-(으)려면` là \"nếu muốn nhận\" (điều kiện). (mở rộng)",
+          "tags": [
+            "-자마자",
+            "-(으)ㄴ 다음에",
+            "계약서"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE06a",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "🟣 Mở rộng · Điền ngữ pháp: -기에 + tính từ đánh giá",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "이 한옥은 가족과 함께 하룻밤 ( ) 아주 좋아요."
+      },
+      "questions": [
+        {
+          "id": "QE06a",
+          "options": [
+            {
+              "id": "1",
+              "text": "지내기에"
+            },
+            {
+              "id": "2",
+              "text": "지내더라고요"
+            },
+            {
+              "id": "3",
+              "text": "지내는 반면"
+            },
+            {
+              "id": "4",
+              "text": "지내려면"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "\"Căn hanok này rất thích hợp để cả nhà ở một đêm\": `-기에` + tính từ đánh giá `좋아요`. ② `-더라고요` là kết thúc câu, không đứng giữa câu trước `아주 좋아요`; ③ `-는 반면` là \"trái lại\" nên cần hai vế đối lập; ④ `-(으)려면` là \"nếu muốn\", đòi vế sau là việc cần làm, không phải nhận xét `좋아요`. (mở rộng)",
+          "tags": [
+            "-기에",
+            "한옥",
+            "-더라고요"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE06b",
+      "skill": "reading",
+      "type": "read_similar",
+      "title_vi": "🟣 Mở rộng · Cách nói tương đương: -기에 + tính từ",
+      "instruction_ko": "밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+      "instruction_vi": "Chọn cách diễn đạt có nghĩa tương tự phần gạch chân (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "underline",
+        "text": "저는 한복보다 【걷기에 편한】 옷을 입고 싶어요."
+      },
+      "questions": [
+        {
+          "id": "QE06b",
+          "options": [
+            {
+              "id": "1",
+              "text": "걷기 전에 편한"
+            },
+            {
+              "id": "2",
+              "text": "걷지 않아서 편한"
+            },
+            {
+              "id": "3",
+              "text": "걷는 데 편한"
+            },
+            {
+              "id": "4",
+              "text": "걸은 다음에 편한"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "`걷기에 편한` (thoải mái để đi bộ) ≈ `걷는 데 편한`. ① `-기 전에` là \"trước khi đi\"; ② `-지 않아서` là \"vì không đi\"; ④ `-(으)ㄴ 다음에` là \"sau khi đã đi\": đều không phải \"thích hợp để đi\". (mở rộng)",
+          "tags": [
+            "-기에",
+            "-는 데",
+            "한복"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE07a",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "🟣 Mở rộng · Điền ngữ pháp: -(으)니까 (phát hiện)",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "아침에 창문을 열어 ( ) 밖에 눈이 오고 있었어요."
+      },
+      "questions": [
+        {
+          "id": "QE07a",
+          "options": [
+            {
+              "id": "1",
+              "text": "보니까"
+            },
+            {
+              "id": "2",
+              "text": "봐서"
+            },
+            {
+              "id": "3",
+              "text": "볼지도 몰라서"
+            },
+            {
+              "id": "4",
+              "text": "보는 편이라서"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Mở cửa sổ ra thì (mới) thấy bên ngoài đang có tuyết: `-(으)니까` (phát hiện) = làm V xong thì thấy/biết. ② `-아/어서` chỉ nguyên nhân: mở cửa sổ không là lý do khiến tuyết rơi; ③ `-(으)ㄹ지도 모르다` là khả năng chưa chắc, không hợp với vế sau đã xảy ra; ④ `-는 편이다` nói khuynh hướng/thói quen, không hợp với một lần mở cửa sổ. (mở rộng)",
+          "tags": [
+            "-(으)니까 (보니까)",
+            "-아/어서",
+            "-(으)ㄹ지도 모르다",
+            "-(으)ㄴ 편이다",
+            "창문",
+            "눈이 오다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE07b",
+      "skill": "reading",
+      "type": "read_similar",
+      "title_vi": "🟣 Mở rộng · Cách diễn đạt tương đương: -(으)니까 (phát hiện)",
+      "instruction_ko": "밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+      "instruction_vi": "Chọn cách diễn đạt tương đương (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "underline",
+        "text": "집에 【돌아왔더니】 택배가 와 있었어요."
+      },
+      "questions": [
+        {
+          "id": "QE07b",
+          "options": [
+            {
+              "id": "1",
+              "text": "돌아와서"
+            },
+            {
+              "id": "2",
+              "text": "돌아오려면"
+            },
+            {
+              "id": "3",
+              "text": "돌아와 보니까"
+            },
+            {
+              "id": "4",
+              "text": "돌아올지도 몰라서"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "`-았/었더니` (tự mình làm rồi phát hiện) ≈ `-아/어 보니까` (phát hiện). ① `-아/어서` nối hai hành động cùng chủ ngữ, mà \"tôi về\" và \"bưu kiện đến\" là hai chủ ngữ khác nhau; ② `-(으)려면` là \"nếu muốn\", không hợp vế sau đã xảy ra; ④ `-(으)ㄹ지도 모르다` là khả năng, mâu thuẫn với việc đã xảy ra. (mở rộng)",
+          "tags": [
+            "-(으)니까 (보니까)",
+            "-았/었더니",
+            "-(으)ㄹ지도 모르다",
+            "택배"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE08a",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "🟣 Mở rộng · Điền ngữ pháp: N + (이)라서",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "이 방은 ( ) 겨울에도 햇빛이 잘 들어와요."
+      },
+      "questions": [
+        {
+          "id": "QE08a",
+          "options": [
+            {
+              "id": "1",
+              "text": "남향이려면"
+            },
+            {
+              "id": "2",
+              "text": "남향이지만"
+            },
+            {
+              "id": "3",
+              "text": "남향이라도"
+            },
+            {
+              "id": "4",
+              "text": "남향이라서"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Lý do: \"vì là phòng hướng nam nên mùa đông nắng vẫn vào tốt\" → `N + (이)라서` (남향 có patchim nên là `이라서`). ① `-(으)려면` là \"nếu muốn\" (ý định), không hợp với vế sau là một sự thật; ② `-지만` là tương phản (\"nhưng\"); ③ `-(이)라도` là \"dù là\" — cả hai đều chỉ sự đối lập, trái logic (hướng nam thì nắng vào là điều đương nhiên, không có gì để đối lập). Lưu ý `N + 인 데다가` cũng không nêu lý do mà chỉ cộng thêm một ý. (mở rộng)",
+          "tags": [
+            "-(이)라서",
+            "-(으)려면",
+            "-지만",
+            "-(으)ㄴ/는 데다가",
+            "남향",
+            "햇빛"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE08b",
+      "skill": "reading",
+      "type": "read_similar",
+      "title_vi": "🟣 Mở rộng · Cách diễn đạt tương đương: N + (이)라서",
+      "instruction_ko": "밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+      "instruction_vi": "Chọn cách diễn đạt tương đương (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "underline",
+        "text": "오늘은 【휴일이라서】 은행이 문을 열지 않아요."
+      },
+      "questions": [
+        {
+          "id": "QE08b",
+          "options": [
+            {
+              "id": "1",
+              "text": "휴일인 데다가"
+            },
+            {
+              "id": "2",
+              "text": "휴일이어서"
+            },
+            {
+              "id": "3",
+              "text": "휴일이지만"
+            },
+            {
+              "id": "4",
+              "text": "휴일이어도"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "`N(이)라서` là dạng nói của `N이어서` (`이다 + -아/어서`) → \"vì là ngày nghỉ\". ① `N인 데다가` là \"không những là … mà còn …\", không nêu lý do; ③ `-(이)지만` là \"tuy là … nhưng\" (đối lập); ④ `-(이)어도` là \"dù là\", nghĩa ngược với việc ngân hàng đóng cửa vì nghỉ. (mở rộng)",
+          "tags": [
+            "-(이)라서",
+            "-(이)어서",
+            "-(으)ㄴ/는 데다가",
+            "휴일",
+            "은행"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE09a",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "🟣 Mở rộng · Điền ngữ pháp: -게라도",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "일이 바빠서 부모님을 자주 찾아뵙지 못하면 ( ) 안부 전화를 드리세요."
+      },
+      "questions": [
+        {
+          "id": "QE09a",
+          "options": [
+            {
+              "id": "1",
+              "text": "짧아서"
+            },
+            {
+              "id": "2",
+              "text": "짧으시면"
+            },
+            {
+              "id": "3",
+              "text": "짧게라도"
+            },
+            {
+              "id": "4",
+              "text": "짧은 데다가"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Ý \"ít nhất gọi ngắn thôi cũng được\" → `A + -게라도` (짧게라도). ① `-아/어서` không đi với mệnh lệnh `-(으)세요`; ② `-(으)시-` chỉ gắn khi chủ ngữ là người được kính trọng, còn \"cuộc gọi\" không phải; ④ `-(으)ㄴ 데다가` là \"đã … lại còn\", không hợp với lời khuyên này. (mở rộng)",
+          "tags": [
+            "-(이)라도",
+            "-게라도",
+            "-(으)시-",
+            "-아/어서",
+            "안부 전화"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE09b",
+      "skill": "reading",
+      "type": "read_similar",
+      "title_vi": "🟣 Mở rộng · Cách diễn đạt tương đương: (이)라도",
+      "instruction_ko": "밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+      "instruction_vi": "Chọn cách diễn đạt tương đương (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "underline",
+        "text": "시간이 없으면 【문자만이라도】 보내 주세요."
+      },
+      "questions": [
+        {
+          "id": "QE09b",
+          "options": [
+            {
+              "id": "1",
+              "text": "문자가 아니라"
+            },
+            {
+              "id": "2",
+              "text": "문자 말고도"
+            },
+            {
+              "id": "3",
+              "text": "문자마저"
+            },
+            {
+              "id": "4",
+              "text": "문자라도"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "`N만이라도` (\"chỉ N thôi cũng\") ≈ `N(이)라도` (\"dù chỉ N cũng\"). ① `이/가 아니라` là phủ định \"không phải tin nhắn mà\"; ② `말고도` là \"ngoài … ra còn\" (thêm vào); ③ `마저` là \"đến cả …\" (thường dùng cho điều mất mát), không hợp lời nhờ. (mở rộng)",
+          "tags": [
+            "-(이)라도",
+            "N만이라도",
+            "문자"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE10a",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "🟣 Mở rộng · Điền ngữ pháp: -기 때문이다",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "쓰레기가 늘어나는 이유는 일회용품을 너무 많이 ( )."
+      },
+      "questions": [
+        {
+          "id": "QE10a",
+          "options": [
+            {
+              "id": "1",
+              "text": "쓰기 때문이다"
+            },
+            {
+              "id": "2",
+              "text": "쓰기 때문에"
+            },
+            {
+              "id": "3",
+              "text": "쓰도록 한다"
+            },
+            {
+              "id": "4",
+              "text": "쓸 필요가 있다"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Câu giải thích \"lý do là …\" (văn viết 한다체) kết thúc bằng `-기 때문이다`: `이유는 … 쓰기 때문이다`. ② `-기 때문에` là dạng nối câu, đứng cuối thì câu \"이유는 …\" bị bỏ dở; ③ `-도록 하다` là \"cố gắng/hãy làm cho …\" (khuyên bảo), không nêu nguyên nhân; ④ `-(으)ㄹ 필요가 있다` là \"cần phải\", không phải nguyên nhân. (mở rộng)",
+          "tags": [
+            "-기 때문이다",
+            "-기 때문에",
+            "-도록 하다",
+            "-(으)ㄹ 필요가 있다",
+            "일회용품",
+            "쓰레기"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE10b",
+      "skill": "reading",
+      "type": "read_similar",
+      "title_vi": "🟣 Mở rộng · Cách diễn đạt tương đương: -기 때문에",
+      "instruction_ko": "밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+      "instruction_vi": "Chọn cách diễn đạt tương đương (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "underline",
+        "text": "일회용품 사용량이 【많아서】 쓰레기가 빠르게 늘고 있다."
+      },
+      "questions": [
+        {
+          "id": "QE10b",
+          "options": [
+            {
+              "id": "1",
+              "text": "많더라도"
+            },
+            {
+              "id": "2",
+              "text": "많도록"
+            },
+            {
+              "id": "3",
+              "text": "많기 때문에"
+            },
+            {
+              "id": "4",
+              "text": "많으려면"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "`-아/어서` (lý do) ≈ `-기 때문에` (lý do, văn viết). ① `-더라도` là \"dù\"; ② `-도록` là \"để/sao cho\"; ④ `-(으)려면` là \"nếu muốn\" — đều không nêu nguyên nhân. (mở rộng)",
+          "tags": [
+            "-기 때문에",
+            "-아/어서",
+            "-도록",
+            "일회용품",
+            "쓰레기"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE11a",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "🟣 Mở rộng · Điền ngữ pháp: -(으)ㄹ 수 있겠습니까?",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "박 선생님께, 안녕하십니까? 다음 주 목요일 면담 시간에 급한 회의가 생겨서 참석하기 어렵게 되었습니다. 죄송합니다만 일정을 다시 ( )?"
+      },
+      "questions": [
+        {
+          "id": "QE11a",
+          "options": [
+            {
+              "id": "1",
+              "text": "정할게요"
+            },
+            {
+              "id": "2",
+              "text": "정할래요"
+            },
+            {
+              "id": "3",
+              "text": "정해 줄 수 있어요"
+            },
+            {
+              "id": "4",
+              "text": "정해 주실 수 있겠습니까"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Thư gửi thầy/cô viết bằng 합쇼체 nên cần câu hỏi nhờ lịch sự và có `-(으)시-` cho người làm là thầy/cô: `정해 주실 수 있겠습니까`. ① `-(으)ㄹ게요` là lời hứa của chính người nói, không phải câu hỏi nhờ; ② `-(으)ㄹ래요?` hỏi ý muốn thân mật bằng 해요체; ③ `-(으)ㄹ 수 있어요?` là 해요체 và thiếu `-(으)시-`, không hợp thư gửi thầy cô. (mở rộng)",
+          "tags": [
+            "-(으)ㄹ 수 있겠습니까?",
+            "-(으)ㄹ게요",
+            "-(으)ㄹ래요?",
+            "-(으)ㄹ 수 있어요?",
+            "면담",
+            "합쇼체"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE11b",
+      "skill": "reading",
+      "type": "read_similar",
+      "title_vi": "🟣 Mở rộng · Cách diễn đạt tương đương: -(으)ㄹ 수 있겠습니까?",
+      "instruction_ko": "밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+      "instruction_vi": "Chọn cách diễn đạt tương đương (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "underline",
+        "text": "죄송합니다만 회의 시간을 【바꿀 수 있겠습니까】?"
+      },
+      "questions": [
+        {
+          "id": "QE11b",
+          "options": [
+            {
+              "id": "1",
+              "text": "바꾸기로 했습니까"
+            },
+            {
+              "id": "2",
+              "text": "바꿔 주시겠습니까"
+            },
+            {
+              "id": "3",
+              "text": "바꾼 적이 있습니까"
+            },
+            {
+              "id": "4",
+              "text": "바꾸려던 참입니까"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "`-(으)ㄹ 수 있겠습니까?` (hỏi lịch sự về khả năng) ≈ `-아/어 주시겠습니까?` (nhờ lịch sự): cả hai đều là lời nhờ trong thư/thông báo. ① `-기로 하다` hỏi \"đã quyết định\"; ③ `-(으)ㄴ 적이 있다` hỏi kinh nghiệm; ④ `-(으)려던 참이다` là \"đang định\". (mở rộng)",
+          "tags": [
+            "-(으)ㄹ 수 있겠습니까?",
+            "-아/어 주시겠습니까?",
+            "-기로 하다",
+            "-(으)려던 참이다",
+            "회의"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE12a",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "🟣 Mở rộng · Điền ngữ pháp: N(이)나 N",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "박물관에 가기 전에 홈페이지의 글( ) 사진을 미리 보면 도움이 돼요."
+      },
+      "questions": [
+        {
+          "id": "QE12a",
+          "options": [
+            {
+              "id": "1",
+              "text": "덕분에"
+            },
+            {
+              "id": "2",
+              "text": "인 반면에"
+            },
+            {
+              "id": "3",
+              "text": "이나"
+            },
+            {
+              "id": "4",
+              "text": "이라는"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "\"Xem trước chữ hoặc ảnh trên trang chủ\" → `N(이)나 N` (hoặc); 글 có patchim nên là `이나`. ① `덕분에` là \"nhờ\", cần một kết quả tốt do N gây ra chứ không nối hai danh từ; ② `인 반면에` là \"trong khi là … thì\", cần hai vế đối lập; ④ `(이)라는` là \"tên là\" + danh từ, `글이라는 사진` vô nghĩa. (mở rộng)",
+          "tags": [
+            "N(이)나 N",
+            "N + 덕분에",
+            "-(으)ㄴ/는 반면(에)",
+            "N + (이)라는 + N",
+            "글",
+            "사진"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QE12b",
+      "skill": "reading",
+      "type": "read_similar",
+      "title_vi": "🟣 Mở rộng · Cách diễn đạt tương đương: N(이)나 N",
+      "instruction_ko": "밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+      "instruction_vi": "Chọn cách diễn đạt tương đương (Câu luyện biên soạn bổ sung)",
+      "stimulus": {
+        "kind": "underline",
+        "text": "참가 신청은 【전화나 문자】로 하세요."
+      },
+      "questions": [
+        {
+          "id": "QE12b",
+          "options": [
+            {
+              "id": "1",
+              "text": "전화 또는 문자"
+            },
+            {
+              "id": "2",
+              "text": "전화와 문자"
+            },
+            {
+              "id": "3",
+              "text": "전화 덕분에 문자"
+            },
+            {
+              "id": "4",
+              "text": "전화인 반면에 문자"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`N(이)나 N` (hoặc) ≈ `N 또는 N` (liên từ trang trọng hơn). ② `와/과` là \"và\" (làm cả hai); ③ `덕분에` là \"nhờ\"; ④ `인 반면에` là \"trong khi là … thì\" — ③ và ④ đều không nối hai lựa chọn. (mở rộng)",
+          "tags": [
+            "N(이)나 N",
+            "N 또는 N",
+            "N + 덕분에",
+            "전화",
+            "문자"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR01",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · Điền ngữ pháp: Hẹn gặp",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mẫu ngữ pháp phù hợp với chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "가: 내일 몇 시에 만나요? 나: 어제 전화할 때 오후 세 시에 학교 앞에서 ( )."
+      },
+      "questions": [
+        {
+          "id": "QVR01",
+          "options": [
+            {
+              "id": "1",
+              "text": "만나려던 참이잖아요"
+            },
+            {
+              "id": "2",
+              "text": "만나기로 했잖아요"
+            },
+            {
+              "id": "3",
+              "text": "만난 적이 있잖아요"
+            },
+            {
+              "id": "4",
+              "text": "만나곤 했잖아요"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "\"A: Mai mấy giờ gặp? B: Hôm qua lúc gọi điện chúng ta đã hẹn 3 giờ chiều trước cổng trường rồi mà.\" Đã hẹn/đã quyết cùng nhau → `-기로 하다`. ① `-(으)려던 참이다` là \"đang định làm đúng lúc này\", không phải cuộc hẹn đã thỏa thuận từ hôm qua; ③ `-(으)ㄴ 적이 있다` nói kinh nghiệm đã có, không phải lịch hẹn; ④ `-곤 하다` là việc lặp lại theo thói quen, còn đây là một cuộc hẹn cụ thể.",
+          "tags": [
+            "-기로 하다",
+            "-(으)려던 참이다",
+            "약속"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR02",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · Điền ngữ pháp: Chỉ đường",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mẫu ngữ pháp phù hợp với chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "가: 시청에 가려면 어떻게 해야 해요? 나: 지하철 2호선을 타고 시청역에서 ( ) 돼요."
+      },
+      "questions": [
+        {
+          "id": "QVR02",
+          "options": [
+            {
+              "id": "1",
+              "text": "내리시면"
+            },
+            {
+              "id": "2",
+              "text": "내리려면"
+            },
+            {
+              "id": "3",
+              "text": "내리자마자"
+            },
+            {
+              "id": "4",
+              "text": "내린 다음에"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "\"A: Muốn đến tòa thị chính thì phải làm sao? B: Chỉ cần đi tàu điện số 2 rồi xuống ở ga 시청 là được.\" Chỉ dẫn \"chỉ cần … là được\" (với người lạ dùng kính ngữ) → `-(으)시면 되다`. ② `-(으)려면` là \"nếu muốn…\" và vế sau phải là điều cần làm, không ghép với `돼요` để nói \"chỉ cần\"; ③ `-자마자` là \"ngay khi…\", không tạo nghĩa \"chỉ cần … là được\" với `돼요`; ④ `-(으)ㄴ 다음에` chỉ thứ tự trước sau, không ghép với `돼요` để nói \"chỉ cần\".",
+          "tags": [
+            "-(으)면 되다",
+            "-(으)려면",
+            "지하철",
+            "시청역"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR03",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · Điền ngữ pháp: Ngay sau khi",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mẫu ngữ pháp phù hợp với chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "새집에 이삿짐을 다 ( ) 이웃 사람들이 인사를 하러 찾아왔어요."
+      },
+      "questions": [
+        {
+          "id": "QVR03",
+          "options": [
+            {
+              "id": "1",
+              "text": "옮기는 바람에"
+            },
+            {
+              "id": "2",
+              "text": "옮긴 지"
+            },
+            {
+              "id": "3",
+              "text": "옮기자마자"
+            },
+            {
+              "id": "4",
+              "text": "옮기려면"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "\"Vừa chuyển hết đồ đạc vào nhà mới thì hàng xóm đã đến chào.\" Việc sau xảy ra liền ngay việc trước, không có khoảng nghỉ → `-자마자`. ① `-는 바람에` chỉ sự việc bất ngờ gây kết quả xấu; hàng xóm đến chào không phải kết quả xấu; ② `-(으)ㄴ 지` đo khoảng thời gian đã trôi qua (`옮긴 지 일주일이 됐어요`), không nối sang việc kế tiếp; ④ `-(으)려면` là \"nếu muốn…\" và vế sau phải là việc cần làm, không hợp với `찾아왔어요` ở quá khứ.",
+          "tags": [
+            "-자마자",
+            "-는 바람에",
+            "-(으)ㄴ 지",
+            "이삿짐"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR04",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · Điền ngữ pháp: Chọn một trong hai",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mẫu ngữ pháp phù hợp với chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "이번 주말에는 영화( ) 전시회 중에서 하나를 골라서 보러 가요."
+      },
+      "questions": [
+        {
+          "id": "QVR04",
+          "options": [
+            {
+              "id": "1",
+              "text": "라도"
+            },
+            {
+              "id": "2",
+              "text": "라서"
+            },
+            {
+              "id": "3",
+              "text": "나"
+            },
+            {
+              "id": "4",
+              "text": "라면"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "\"Cuối tuần này tôi sẽ chọn xem một trong hai: phim hoặc triển lãm.\" Nối hai danh từ để chọn một (`중에서 하나를 골라`) → `N(이)나 N`; danh từ không patchim dùng `나`. ① `(이)라도` là \"ít nhất cũng / dù là N\", không nối hai danh từ để chọn một; ② `(이)라서` là \"vì là N nên…\" (lý do), không phải \"hoặc\"; ④ `(이)라면` là \"nếu là N\" (giả định), không nối hai danh từ.",
+          "tags": [
+            "N(이)나 N",
+            "-(이)라도",
+            "영화",
+            "전시회"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR05",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · Điền ngữ pháp: Khả năng",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mẫu ngữ pháp phù hợp với chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "하늘이 흐려서 오후에는 비가 ( ). 우산을 가져가세요."
+      },
+      "questions": [
+        {
+          "id": "QVR05",
+          "options": [
+            {
+              "id": "1",
+              "text": "올 계획이에요"
+            },
+            {
+              "id": "2",
+              "text": "올지도 몰라요"
+            },
+            {
+              "id": "3",
+              "text": "올 필요가 있어요"
+            },
+            {
+              "id": "4",
+              "text": "온 셈이에요"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "\"Trời âm u nên chiều nay có thể sẽ mưa. Hãy mang ô theo.\" Khả năng không chắc chắn, đi kèm lời khuyên → `-(으)ㄹ지도 모르다`. ① `-(으)ㄹ 계획이다` là kế hoạch do con người định; mưa thì không thể \"lên kế hoạch\"; ③ `-(으)ㄹ 필요가 있다` là \"cần phải…\"; mưa không phải việc cần làm; ④ `-(으)ㄴ/는 셈이다` là kết luận \"coi như đã…\" từ sự thật đã biết, không hợp với việc chưa xảy ra.",
+          "tags": [
+            "-(으)ㄹ지도 모르다",
+            "하늘",
+            "우산"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR06",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · Điền ngữ pháp: Tùy theo",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mẫu ngữ pháp phù hợp với chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "이 호텔은 계절( ) 숙박비가 다르기 때문에 미리 예약하는 것이 좋다."
+      },
+      "questions": [
+        {
+          "id": "QVR06",
+          "options": [
+            {
+              "id": "1",
+              "text": "에 따르면"
+            },
+            {
+              "id": "2",
+              "text": "에 비해"
+            },
+            {
+              "id": "3",
+              "text": "덕분에"
+            },
+            {
+              "id": "4",
+              "text": "에 따라"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "\"Khách sạn này giá phòng khác nhau tùy theo mùa nên tốt nhất là đặt trước.\" Nghĩa \"tùy theo\" → `N에 따라(서)`. ① `에 따르면` là \"theo (nguồn tin)\" và đi với câu thuật lại; \"계절\" không phải nguồn thông tin; ② `에 비해` là \"so với\"; câu không so sánh với mức chuẩn nào; ③ `덕분에` là \"nhờ có\" (nguyên nhân tốt), không hợp với ý \"khác nhau tùy mùa\".",
+          "tags": [
+            "N에 따라(서)",
+            "N에 따르면",
+            "숙박비",
+            "계절"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR07",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · Điền ngữ pháp: Thông báo",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mẫu ngữ pháp phù hợp với chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "입주민 여러분께 안내해 드립니다. 내일 오전 9시부터 12시까지 엘리베이터 점검이 있으니 계단을 ( )."
+      },
+      "questions": [
+        {
+          "id": "QVR07",
+          "options": [
+            {
+              "id": "1",
+              "text": "이용하시기 바랍니다"
+            },
+            {
+              "id": "2",
+              "text": "이용할게요"
+            },
+            {
+              "id": "3",
+              "text": "이용해 드립니다"
+            },
+            {
+              "id": "4",
+              "text": "이용하려던 참입니다"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "\"Xin thông báo đến quý cư dân. Từ 9 đến 12 giờ sáng mai thang máy bảo trì nên kính mong quý vị sử dụng cầu thang.\" Thông báo trang trọng yêu cầu người đọc → `-(으)시기 바랍니다`. ② `-(으)ㄹ게요` là lời hứa của người nói, trong khi thông báo cần yêu cầu cư dân làm; ③ `-아/어 드리다` là làm giúp người trên; cư dân tự dùng cầu thang, ban quản lý không dùng giúp họ; ④ `-(으)려던 참이다` là \"vừa định làm\", không phải lời yêu cầu.",
+          "tags": [
+            "-(으)시기 바랍니다",
+            "-(으)ㄹ게요",
+            "-아/어 드리다",
+            "엘리베이터",
+            "점검"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR08",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · Điền ngữ pháp: Email trang trọng",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mẫu ngữ pháp phù hợp với chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "박 교수님께, 안녕하십니까? 저는 이번 학기에 교수님의 연구실에서 연구 경험을 ( ). 지원 서류를 함께 보내 드리니 검토해 주시기 바랍니다."
+      },
+      "questions": [
+        {
+          "id": "QVR08",
+          "options": [
+            {
+              "id": "1",
+              "text": "쌓곤 합니다"
+            },
+            {
+              "id": "2",
+              "text": "쌓는 셈입니다"
+            },
+            {
+              "id": "3",
+              "text": "쌓고자 합니다"
+            },
+            {
+              "id": "4",
+              "text": "쌓으려던 참이었습니다"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "\"Kính gửi giáo sư, em xin được tích lũy kinh nghiệm nghiên cứu tại phòng nghiên cứu của thầy trong học kỳ này.\" Email trang trọng nêu ý định → `-고자 하다`. ① `-곤 하다` là việc lặp lại theo thói quen, không nói ý định sắp tới; ② `-는 셈이다` là kết luận \"coi như là\", không diễn đạt ý định; ④ `-(으)려던 참이다` là \"vừa định làm đúng lúc đó\" (đã qua), không hợp để nêu mục đích của một email.",
+          "tags": [
+            "-고자 하다",
+            "-곤 하다",
+            "연구실",
+            "지원 서류"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR09",
+      "skill": "reading",
+      "type": "read_similar",
+      "title_vi": "Ôn tập · Cách nói tương đương: -곤 하다",
+      "instruction_ko": "밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+      "instruction_vi": "Chọn cách diễn đạt có nghĩa tương tự phần gạch chân",
+      "stimulus": {
+        "kind": "underline",
+        "text": "저는 기분이 안 좋을 때 혼자 공원을 【걷곤 해요】."
+      },
+      "questions": [
+        {
+          "id": "QVR09",
+          "options": [
+            {
+              "id": "1",
+              "text": "걷기로 했어요"
+            },
+            {
+              "id": "2",
+              "text": "걷는 일이 많아요"
+            },
+            {
+              "id": "3",
+              "text": "걸으려던 참이에요"
+            },
+            {
+              "id": "4",
+              "text": "걸은 적이 없어요"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "`-곤 하다` = \"hay làm như vậy\" (thói quen lặp lại) ≈ \"có nhiều lần đi bộ\". Câu: \"Lúc tâm trạng không tốt tôi hay đi dạo công viên một mình.\" ① `-기로 하다` là quyết định/hẹn, không phải thói quen; ③ `-(으)려던 참이다` là \"vừa định đi\" ngay lúc nói; ④ `-(으)ㄴ 적이 없다` là \"chưa từng\", ngược nghĩa.",
+          "tags": [
+            "-곤 하다",
+            "공원"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR10",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · Điền ngữ pháp: Mục đích",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mẫu ngữ pháp phù hợp với chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "아파트 단지 안에서는 아이들이 안전하게 ( ) 차량은 시속 20킬로미터 이하로 운행해 주시기 바랍니다."
+      },
+      "questions": [
+        {
+          "id": "QVR10",
+          "options": [
+            {
+              "id": "1",
+              "text": "지내려고"
+            },
+            {
+              "id": "2",
+              "text": "지내는 바람에"
+            },
+            {
+              "id": "3",
+              "text": "지낼 경우에"
+            },
+            {
+              "id": "4",
+              "text": "지낼 수 있도록"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "\"Trong khu chung cư, kính mong xe chạy với tốc độ dưới 20 km/h để trẻ em được sinh hoạt an toàn.\" Mục đích mà vế trước và vế sau khác chủ ngữ → `-도록`. ① `-(으)려고` cần cùng chủ ngữ; vế trước là \"아이들\", vế sau là người đọc thông báo; ② `-는 바람에` nêu nguyên nhân của kết quả xấu, không đi với lời yêu cầu ở vế sau; ③ `-(으)ㄹ 경우(에)` là điều kiện \"trong trường hợp\", không nêu mục đích.",
+          "tags": [
+            "-도록",
+            "-(으)려고",
+            "-(으)ㄹ 경우",
+            "아파트 단지",
+            "차량"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR11",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · Điền ngữ pháp: Phát hiện",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mẫu ngữ pháp phù hợp với chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "이사를 와서 몇 달 살아 ( ) 이 동네는 여름에 모기가 정말 많더라고요."
+      },
+      "questions": [
+        {
+          "id": "QVR11",
+          "options": [
+            {
+              "id": "1",
+              "text": "보니까"
+            },
+            {
+              "id": "2",
+              "text": "본 지"
+            },
+            {
+              "id": "3",
+              "text": "보려면"
+            },
+            {
+              "id": "4",
+              "text": "보는 바람에"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "\"Chuyển đến sống vài tháng mới biết khu này mùa hè muỗi nhiều lắm.\" Làm thử V rồi mới phát hiện ra điều gì → `-아/어 보니까`, đi cùng `-더라고요` kể điều mình thấy. ② `-(으)ㄴ 지` đo thời gian đã trôi qua (đi với `되다/지나다`), không dẫn tới điều phát hiện; ③ `-(으)려면` là \"nếu muốn…\" và vế sau là việc cần làm, không phải điều đã thấy; ④ `-는 바람에` là nguyên nhân của kết quả xấu bất ngờ, không phải \"làm thử rồi mới biết\".",
+          "tags": [
+            "-(으)니까 (보니까)",
+            "-더라고요",
+            "모기"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR12",
+      "skill": "reading",
+      "type": "read_similar",
+      "title_vi": "Ôn tập · Cách nói tương đương: -(으)며",
+      "instruction_ko": "밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+      "instruction_vi": "Chọn cách diễn đạt có nghĩa tương tự phần gạch chân",
+      "stimulus": {
+        "kind": "underline",
+        "text": "학생들은 음악을 【들으며】 문제를 풀었다."
+      },
+      "questions": [
+        {
+          "id": "QVR12",
+          "options": [
+            {
+              "id": "1",
+              "text": "듣다가"
+            },
+            {
+              "id": "2",
+              "text": "들은 다음에"
+            },
+            {
+              "id": "3",
+              "text": "들으면서"
+            },
+            {
+              "id": "4",
+              "text": "듣자마자"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "`-(으)며` là dạng viết của `-(으)면서`: hai việc diễn ra đồng thời, cùng chủ ngữ (\"Học sinh vừa nghe nhạc vừa làm bài\"; 듣다 là ㄷ bất quy tắc → 들으며). ① `-다가` là dừng việc nghe để chuyển sang làm bài, không phải hai việc song song; ② `-(으)ㄴ 다음에` là \"sau khi nghe xong\" (hai bước tách rời); ④ `-자마자` là \"ngay khi vừa nghe\", không phải vừa nghe vừa làm.",
+          "tags": [
+            "-(으)며",
+            "-(으)면서",
+            "음악"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR13",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · Điền ngữ pháp: Lý do là danh từ",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mẫu ngữ pháp phù hợp với chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "이 동네는 대학교 근처( ) 밤늦게까지 문을 여는 식당이 많아요."
+      },
+      "questions": [
+        {
+          "id": "QVR13",
+          "options": [
+            {
+              "id": "1",
+              "text": "라도"
+            },
+            {
+              "id": "2",
+              "text": "라면"
+            },
+            {
+              "id": "3",
+              "text": "라는"
+            },
+            {
+              "id": "4",
+              "text": "라서"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "\"Khu này gần trường đại học nên có nhiều quán mở cửa đến khuya.\" Nêu lý do bằng một danh từ trong khẩu ngữ → `N(이)라서` (danh từ không patchim dùng `라서`). ① `(이)라도` là \"ít nhất cũng / dù là…\", không nêu lý do; ② `(이)라면` là giả định \"nếu là…\", trong khi đây là sự thật đang có; ③ `(이)라는` là định ngữ \"có tên là…\" bổ nghĩa cho danh từ đứng sau, không nối được thành lý do.",
+          "tags": [
+            "-(이)라서",
+            "-(이)라도",
+            "-(이)라면",
+            "대학교",
+            "식당"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR14",
+      "skill": "reading",
+      "type": "read_similar",
+      "title_vi": "Ôn tập · Cách nói tương đương: -(으)ㄹ수록",
+      "instruction_ko": "밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+      "instruction_vi": "Chọn cách diễn đạt có nghĩa tương tự phần gạch chân",
+      "stimulus": {
+        "kind": "underline",
+        "text": "나이가 【들수록】 건강이 더 중요해진다."
+      },
+      "questions": [
+        {
+          "id": "QVR14",
+          "options": [
+            {
+              "id": "1",
+              "text": "들면 들수록"
+            },
+            {
+              "id": "2",
+              "text": "든 다음에"
+            },
+            {
+              "id": "3",
+              "text": "들자마자"
+            },
+            {
+              "id": "4",
+              "text": "들더라도"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`-(으)ㄹ수록` ≈ `-(으)면 -(으)ㄹ수록` (cùng nghĩa, nhấn mạnh): \"Càng lớn tuổi thì sức khỏe càng quan trọng.\" ② `-(으)ㄴ 다음에` là \"sau khi đã…\", không nói mức độ tăng dần; ③ `-자마자` là \"ngay khi vừa…\"; ④ `-더라도` là \"dù cho…\" (nhượng bộ), nghĩa khác hẳn \"càng … càng\".",
+          "tags": [
+            "-(으)ㄹ수록",
+            "-(으)면 -(으)ㄹ수록",
+            "건강",
+            "나이"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR15",
+      "skill": "reading",
+      "type": "read_similar",
+      "title_vi": "Ôn tập · Cách nói tương đương: -(으)ㄴ/는 데다가",
+      "instruction_ko": "밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+      "instruction_vi": "Chọn cách diễn đạt có nghĩa tương tự phần gạch chân",
+      "stimulus": {
+        "kind": "underline",
+        "text": "이 식당은 음식이 【맛있는 데다가】 가격도 싸서 손님이 많아요."
+      },
+      "questions": [
+        {
+          "id": "QVR15",
+          "options": [
+            {
+              "id": "1",
+              "text": "맛있는 반면에"
+            },
+            {
+              "id": "2",
+              "text": "맛있을수록"
+            },
+            {
+              "id": "3",
+              "text": "맛있더라도"
+            },
+            {
+              "id": "4",
+              "text": "맛있을 뿐만 아니라"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "`-(으)ㄴ/는 데다가` = \"không những … mà còn …\" (hai vế cùng hướng) ≈ `-(으)ㄹ 뿐만 아니라`: \"Quán này đồ ăn ngon lại còn rẻ nên đông khách.\" ① `-(으)ㄴ/는 반면에` đối chiếu hai mặt trái ngược, còn \"ngon\" và \"rẻ\" là hai ưu điểm cùng hướng; ② `-(으)ㄹ수록` là \"càng ngon càng…\", mức độ tăng dần; ③ `-더라도` là \"dù ngon…\" (nhượng bộ), không phải cộng thêm ý.",
+          "tags": [
+            "-(으)ㄴ/는 데다가",
+            "-(으)ㄴ/는 반면(에)",
+            "식당"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR16",
+      "skill": "reading",
+      "type": "read_similar",
+      "title_vi": "Ôn tập · Cách nói tương đương: -(으)ㄹ 필요가 있다",
+      "instruction_ko": "밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+      "instruction_vi": "Chọn cách diễn đạt có nghĩa tương tự phần gạch chân",
+      "stimulus": {
+        "kind": "underline",
+        "text": "우리는 일상생활에서 에너지를 【아낄 필요가 있다】."
+      },
+      "questions": [
+        {
+          "id": "QVR16",
+          "options": [
+            {
+              "id": "1",
+              "text": "아끼기로 했다"
+            },
+            {
+              "id": "2",
+              "text": "아낀 적이 있다"
+            },
+            {
+              "id": "3",
+              "text": "아껴야 한다"
+            },
+            {
+              "id": "4",
+              "text": "아끼곤 한다"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "`-(으)ㄹ 필요가 있다` = \"cần …\" (trang trọng hơn) ≈ `-아/어야 하다`: \"Chúng ta cần tiết kiệm năng lượng trong sinh hoạt hằng ngày.\" ① `-기로 하다` là điều đã quyết định, không phải sự cần thiết; ② `-(으)ㄴ 적이 있다` là \"đã từng\", nói kinh nghiệm; ④ `-곤 하다` là \"hay làm\" (thói quen), không phải \"cần phải\".",
+          "tags": [
+            "-(으)ㄹ 필요가 있다",
+            "-아/어야 하다",
+            "에너지"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR01",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "에게 · cho bạn",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn trợ từ đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "저는 친구( ) 선물을 줬어요."
+      },
+      "questions": [
+        {
+          "id": "QFR01",
+          "options": [
+            {
+              "id": "1",
+              "text": "를"
+            },
+            {
+              "id": "2",
+              "text": "에서"
+            },
+            {
+              "id": "3",
+              "text": "에게"
+            },
+            {
+              "id": "4",
+              "text": "도"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Người nhận quà là `친구` nên dùng `에게/한테`. `를` gắn cho tân ngữ trực tiếp, không dùng cho người nhận.",
+          "tags": [
+            "친구에게",
+            "에게/한테"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR02",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "한테 · gọi cho em",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn trợ từ đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "동생( ) 전화했어요."
+      },
+      "questions": [
+        {
+          "id": "QFR02",
+          "options": [
+            {
+              "id": "1",
+              "text": "에서"
+            },
+            {
+              "id": "2",
+              "text": "를"
+            },
+            {
+              "id": "3",
+              "text": "한테"
+            },
+            {
+              "id": "4",
+              "text": "에"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Gọi điện cho một người → `동생한테` (khẩu ngữ). `에` chỉ dùng cho nơi chốn hoặc tổ chức.",
+          "tags": [
+            "동생한테",
+            "에게/한테"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR03",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "에 · gọi đến công ty",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn trợ từ đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "회사( ) 전화했어요."
+      },
+      "questions": [
+        {
+          "id": "QFR03",
+          "options": [
+            {
+              "id": "1",
+              "text": "한테"
+            },
+            {
+              "id": "2",
+              "text": "에"
+            },
+            {
+              "id": "3",
+              "text": "께"
+            },
+            {
+              "id": "4",
+              "text": "에게"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "`회사` là tổ chức/nơi chốn, không phải người → `에`. `에게/한테/께` chỉ dùng với người và động vật.",
+          "tags": [
+            "회사에",
+            "에/에게"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR04",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "께 · tặng hoa cho bố mẹ",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn trợ từ đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "A: 어버이날에 뭐 했어요?\nB: 부모님( ) 꽃을 드렸어요."
+      },
+      "questions": [
+        {
+          "id": "QFR04",
+          "options": [
+            {
+              "id": "1",
+              "text": "께"
+            },
+            {
+              "id": "2",
+              "text": "하고"
+            },
+            {
+              "id": "3",
+              "text": "를"
+            },
+            {
+              "id": "4",
+              "text": "에서"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Người nhận là bậc trên (`부모님`, động từ `드리다`) → dạng kính ngữ `께`.",
+          "tags": [
+            "부모님께",
+            "께"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR05",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "께 vs 한테",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn trợ từ đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "선생님( ) 질문했어요. (Chọn dạng lịch sự nhất)"
+      },
+      "questions": [
+        {
+          "id": "QFR05",
+          "options": [
+            {
+              "id": "1",
+              "text": "에"
+            },
+            {
+              "id": "2",
+              "text": "를"
+            },
+            {
+              "id": "3",
+              "text": "께"
+            },
+            {
+              "id": "4",
+              "text": "한테"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Với thầy cô, bậc trên, dùng `께`. `한테` là khẩu ngữ thân mật nên không hợp.",
+          "tags": [
+            "선생님께",
+            "께"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR06",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "한테 · động vật",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn trợ từ đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "고양이( ) 밥을 줬어요."
+      },
+      "questions": [
+        {
+          "id": "QFR06",
+          "options": [
+            {
+              "id": "1",
+              "text": "를"
+            },
+            {
+              "id": "2",
+              "text": "한테"
+            },
+            {
+              "id": "3",
+              "text": "에"
+            },
+            {
+              "id": "4",
+              "text": "에서"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Động vật nhận hành động cũng dùng `에게/한테`: `고양이한테 밥을 줬어요`.",
+          "tags": [
+            "고양이한테",
+            "에게/한테"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR07",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "에게 · viết thư",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn trợ từ đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "친구( ) 편지를 써요."
+      },
+      "questions": [
+        {
+          "id": "QFR07",
+          "options": [
+            {
+              "id": "1",
+              "text": "에서"
+            },
+            {
+              "id": "2",
+              "text": "에게"
+            },
+            {
+              "id": "3",
+              "text": "가"
+            },
+            {
+              "id": "4",
+              "text": "를"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Người nhận thư là `친구` → `친구에게`. `친구를 편지를` sai vì hai tân ngữ trực tiếp.",
+          "tags": [
+            "친구에게",
+            "에게/한테"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR08",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-아/어 주세요 · mở cửa",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "문 좀 ( ). (Làm ơn mở giúp)"
+      },
+      "questions": [
+        {
+          "id": "QFR08",
+          "options": [
+            {
+              "id": "1",
+              "text": "열어서 주세요"
+            },
+            {
+              "id": "2",
+              "text": "열 주세요"
+            },
+            {
+              "id": "3",
+              "text": "열고 주세요"
+            },
+            {
+              "id": "4",
+              "text": "열어 주세요"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Nhờ ai làm giúp = `V + -아/어 주세요`: `열다` → `열어 주세요`.",
+          "tags": [
+            "열어 주세요",
+            "-아/어 주세요"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR09",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-아/어 주다 · bạn mua quà",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "제 친구가 저에게 선물을 ( ). (đã mua cho tôi)"
+      },
+      "questions": [
+        {
+          "id": "QFR09",
+          "options": [
+            {
+              "id": "1",
+              "text": "사 줬어요"
+            },
+            {
+              "id": "2",
+              "text": "사 봤어요"
+            },
+            {
+              "id": "3",
+              "text": "사 있어요"
+            },
+            {
+              "id": "4",
+              "text": "사 갔어요"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "'Làm cho ai' = `-아/어 주다`: `사 주다` → `사 줬어요`. `사 봤어요` nghĩa là 'đã thử mua'.",
+          "tags": [
+            "사 줬어요",
+            "-아/어 주다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR10",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-아/어 주시다 · cảm ơn thầy",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "선생님, 한국어를 ( ) 감사합니다."
+      },
+      "questions": [
+        {
+          "id": "QFR10",
+          "options": [
+            {
+              "id": "1",
+              "text": "가르쳐 주셔서"
+            },
+            {
+              "id": "2",
+              "text": "가르쳐 드려서"
+            },
+            {
+              "id": "3",
+              "text": "가르쳐 보셔서"
+            },
+            {
+              "id": "4",
+              "text": "가르쳐 줘서"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Người làm là thầy cô (bậc trên) → `주시다`: `가르쳐 주셔서`. `드리다` dùng khi MÌNH làm cho bậc trên.",
+          "tags": [
+            "가르쳐 주셔서",
+            "주시다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR11",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "도와주다 · ㅂ bất quy tắc",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "제가 힘들 때 친구가 ( )."
+      },
+      "questions": [
+        {
+          "id": "QFR11",
+          "options": [
+            {
+              "id": "1",
+              "text": "도와줬어요"
+            },
+            {
+              "id": "2",
+              "text": "도우어 줬어요"
+            },
+            {
+              "id": "3",
+              "text": "도왔어 줬어요"
+            },
+            {
+              "id": "4",
+              "text": "돕아 줬어요"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`돕다` là ㅂ bất quy tắc: `도와` + `주다` = `도와주다` → `도와줬어요`.",
+          "tags": [
+            "도와줬어요",
+            "ㅂ bất quy tắc"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR12",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-아/어 드리다 · đọc sách cho bà",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "할머니께 책을 ( ). (Tôi đọc cho bà)"
+      },
+      "questions": [
+        {
+          "id": "QFR12",
+          "options": [
+            {
+              "id": "1",
+              "text": "읽어 봤어요"
+            },
+            {
+              "id": "2",
+              "text": "읽어 줬어요"
+            },
+            {
+              "id": "3",
+              "text": "읽어 주셨어요"
+            },
+            {
+              "id": "4",
+              "text": "읽어 드렸어요"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Người nói làm cho bậc trên nên dùng `-아/어 드리다`. `줬어요` thiếu kính ngữ, `주셨어요` là bà làm cho mình.",
+          "tags": [
+            "읽어 드렸어요",
+            "-아/어 드리다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR13",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "한테서 · cuộc gọi từ bạn",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn trợ từ đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "친구( ) 전화가 왔어요. (bạn gọi cho tôi)"
+      },
+      "questions": [
+        {
+          "id": "QFR13",
+          "options": [
+            {
+              "id": "1",
+              "text": "한테"
+            },
+            {
+              "id": "2",
+              "text": "한테는"
+            },
+            {
+              "id": "3",
+              "text": "한테서"
+            },
+            {
+              "id": "4",
+              "text": "한테도"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Bạn là NGƯỜI GỌI (nguồn) nên dùng `한테서`. `친구한테 전화가 왔어요` lại nghĩa là bạn NHẬN cuộc gọi.",
+          "tags": [
+            "친구한테서",
+            "에게서/한테서"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR14",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "에서 · công ty liên lạc",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn trợ từ đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "회사( ) 연락이 왔어요. (công ty liên lạc đến)"
+      },
+      "questions": [
+        {
+          "id": "QFR14",
+          "options": [
+            {
+              "id": "1",
+              "text": "께"
+            },
+            {
+              "id": "2",
+              "text": "한테서"
+            },
+            {
+              "id": "3",
+              "text": "에서"
+            },
+            {
+              "id": "4",
+              "text": "에게서"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "`회사` là tổ chức, không phải người nên dùng `에서` ('từ').",
+          "tags": [
+            "회사에서",
+            "에서"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR15",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "에게서 · nhận thư từ mẹ",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn trợ từ đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "민수 씨가 지은 씨에게 편지를 보냈어요. 지은 씨는 민수 씨( ) 편지를 받았어요."
+      },
+      "questions": [
+        {
+          "id": "QFR15",
+          "options": [
+            {
+              "id": "1",
+              "text": "보다"
+            },
+            {
+              "id": "2",
+              "text": "를"
+            },
+            {
+              "id": "3",
+              "text": "에게서"
+            },
+            {
+              "id": "4",
+              "text": "께"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Người gửi là nguồn của lá thư → `민수 씨에게서` ('từ Minsu').",
+          "tags": [
+            "민수 씨에게서",
+            "에게서/한테서"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR16",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "한테서 · nghe từ ai",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn trợ từ đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "A: 그 이야기를 누구( ) 들었어요?\nB: 민수 씨한테서 들었어요."
+      },
+      "questions": [
+        {
+          "id": "QFR16",
+          "options": [
+            {
+              "id": "1",
+              "text": "한테"
+            },
+            {
+              "id": "2",
+              "text": "한테서"
+            },
+            {
+              "id": "3",
+              "text": "에"
+            },
+            {
+              "id": "4",
+              "text": "를"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Nguồn của thông tin là người nói → `누구한테서`. `에` không dùng cho người.",
+          "tags": [
+            "누구한테서",
+            "에게서/한테서"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR17",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-지요? · xác nhận danh tính",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "A: 여보세요? 김민수 씨( )?\nB: 네, 맞아요."
+      },
+      "questions": [
+        {
+          "id": "QFR17",
+          "options": [
+            {
+              "id": "1",
+              "text": "일까요"
+            },
+            {
+              "id": "2",
+              "text": "이지요"
+            },
+            {
+              "id": "3",
+              "text": "일게요"
+            },
+            {
+              "id": "4",
+              "text": "지요"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "`씨` kết thúc bằng nguyên âm nên `씨지요?` (xác nhận người nghe máy). Không dùng `이지요`.",
+          "tags": [
+            "씨지요?",
+            "-지요?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR18",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-지요? · đồng cảm",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "오늘 날씨가 정말 ( )? (nhỉ)"
+      },
+      "questions": [
+        {
+          "id": "QFR18",
+          "options": [
+            {
+              "id": "1",
+              "text": "좋지요"
+            },
+            {
+              "id": "2",
+              "text": "좋았어요"
+            },
+            {
+              "id": "3",
+              "text": "좋네요"
+            },
+            {
+              "id": "4",
+              "text": "좋을게요"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Hỏi để cùng đồng cảm với điều cả hai đều thấy → `-지요?`: `좋지요?`.",
+          "tags": [
+            "좋지요?",
+            "-지요?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR19",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-지요? · quá khứ",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "어제 비가 많이 ( )? (đúng không)"
+      },
+      "questions": [
+        {
+          "id": "QFR19",
+          "options": [
+            {
+              "id": "1",
+              "text": "올지요"
+            },
+            {
+              "id": "2",
+              "text": "오지요"
+            },
+            {
+              "id": "3",
+              "text": "올게요"
+            },
+            {
+              "id": "4",
+              "text": "왔지요"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Việc đã xảy ra hôm qua → `-았/었지요?`: `왔지요?`.",
+          "tags": [
+            "왔지요?",
+            "-았/었지요?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR20",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-지요? · danh từ có patchim",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "그분이 선생님( )? (đúng không ạ)"
+      },
+      "questions": [
+        {
+          "id": "QFR20",
+          "options": [
+            {
+              "id": "1",
+              "text": "지요"
+            },
+            {
+              "id": "2",
+              "text": "였지요"
+            },
+            {
+              "id": "3",
+              "text": "이지요"
+            },
+            {
+              "id": "4",
+              "text": "이에요지요"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "`선생님` có patchim `ㅁ` nên cần `이`: `선생님이지요?`.",
+          "tags": [
+            "선생님이지요?",
+            "N(이)지요?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR21",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-지요? · nối với -지만",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "A: 한국어는 어렵지만 재미있( )?\nB: 네, 맞아요."
+      },
+      "questions": [
+        {
+          "id": "QFR21",
+          "options": [
+            {
+              "id": "1",
+              "text": "을게요"
+            },
+            {
+              "id": "2",
+              "text": "지요"
+            },
+            {
+              "id": "3",
+              "text": "군요"
+            },
+            {
+              "id": "4",
+              "text": "네요"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "A đã biết và muốn B xác nhận → `-지요?`. `-네요/-군요` là cảm thán, `-을게요` là lời hứa.",
+          "tags": [
+            "재미있지요?",
+            "-지요?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR22",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "반말 · hỏi bạn thân",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "(Nói với bạn thân) 지금 뭐 ( )? Chọn dạng thân mật."
+      },
+      "questions": [
+        {
+          "id": "QFR22",
+          "options": [
+            {
+              "id": "1",
+              "text": "해"
+            },
+            {
+              "id": "2",
+              "text": "하세요"
+            },
+            {
+              "id": "3",
+              "text": "합니다"
+            },
+            {
+              "id": "4",
+              "text": "해요"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Bạn thân nói 반말 (bỏ `요`): `뭐 해?`. `해요`, `하세요`, `합니다` đều là dạng lịch sự.",
+          "tags": [
+            "뭐 해?",
+            "반말"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR23",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "반말 · 나는",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn từ đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "(Nói với bạn thân) ( ) 내일 시간 있어."
+      },
+      "questions": [
+        {
+          "id": "QFR23",
+          "options": [
+            {
+              "id": "1",
+              "text": "제가"
+            },
+            {
+              "id": "2",
+              "text": "나는"
+            },
+            {
+              "id": "3",
+              "text": "저는"
+            },
+            {
+              "id": "4",
+              "text": "저의"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Với bạn thân, 'tôi' là `나` (`나는/난`). `저` dùng khi nói lịch sự với người trên.",
+          "tags": [
+            "나는",
+            "저/나"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR24",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "반말 · 이야",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "(Hỏi bạn thân) 이거 네 가방( )?"
+      },
+      "questions": [
+        {
+          "id": "QFR24",
+          "options": [
+            {
+              "id": "1",
+              "text": "이에요"
+            },
+            {
+              "id": "2",
+              "text": "예요"
+            },
+            {
+              "id": "3",
+              "text": "이야"
+            },
+            {
+              "id": "4",
+              "text": "입니까"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "`가방` có patchim nên dạng 반말 của `이에요` là `이야`: `가방이야?`.",
+          "tags": [
+            "가방이야?",
+            "N이야/야"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR25",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "반말 · rủ bạn",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "(Nói với bạn thân) 우리 같이 점심 ( )."
+      },
+      "questions": [
+        {
+          "id": "QFR25",
+          "options": [
+            {
+              "id": "1",
+              "text": "먹으세요"
+            },
+            {
+              "id": "2",
+              "text": "먹습니다"
+            },
+            {
+              "id": "3",
+              "text": "먹자"
+            },
+            {
+              "id": "4",
+              "text": "먹읍시다"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Rủ cùng làm với bạn thân dùng `-자`: `먹자`. `먹읍시다` là lối rủ trang trọng, cứng.",
+          "tags": [
+            "먹자",
+            "-자"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR26",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Không dùng 반말 với thầy",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "선생님, 내일 학교에 ( )? (Chọn dạng lịch sự)"
+      },
+      "questions": [
+        {
+          "id": "QFR26",
+          "options": [
+            {
+              "id": "1",
+              "text": "오자"
+            },
+            {
+              "id": "2",
+              "text": "오니"
+            },
+            {
+              "id": "3",
+              "text": "오세요"
+            },
+            {
+              "id": "4",
+              "text": "와"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Nói với thầy cô phải dùng kính ngữ: `오세요?`. `와/오니/오자` là kiểu thân mật.",
+          "tags": [
+            "오세요",
+            "존댓말"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR27",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "(이)요 · có patchim",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "A: 어디에 가요?\nB: 약국( )."
+      },
+      "questions": [
+        {
+          "id": "QFR27",
+          "options": [
+            {
+              "id": "1",
+              "text": "입니다요"
+            },
+            {
+              "id": "2",
+              "text": "요"
+            },
+            {
+              "id": "3",
+              "text": "에요"
+            },
+            {
+              "id": "4",
+              "text": "이요"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "`약국` kết thúc bằng patchim `ㄱ` nên `약국이요`. Trả lời cụt, lịch sự.",
+          "tags": [
+            "약국이요",
+            "(이)요"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR28",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "(이)요 · không patchim",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "A: 내일 학교에 가요.\nB: 학교( )? 내일은 쉬는 날이에요."
+      },
+      "questions": [
+        {
+          "id": "QFR28",
+          "options": [
+            {
+              "id": "1",
+              "text": "에요"
+            },
+            {
+              "id": "2",
+              "text": "이에요"
+            },
+            {
+              "id": "3",
+              "text": "요"
+            },
+            {
+              "id": "4",
+              "text": "이요"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "`학교` không patchim nên chỉ thêm `요`: `학교요?` (nhắc lại để xác nhận).",
+          "tags": [
+            "학교요?",
+            "(이)요"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR29",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "(이)요 · nhắc lại điểm đến",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "A: 은행에 가세요.\nB: 은행( )? 우체국이 아니에요?"
+      },
+      "questions": [
+        {
+          "id": "QFR29",
+          "options": [
+            {
+              "id": "1",
+              "text": "이요"
+            },
+            {
+              "id": "2",
+              "text": "요"
+            },
+            {
+              "id": "3",
+              "text": "이야"
+            },
+            {
+              "id": "4",
+              "text": "이에요"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "B nhắc lại để xác nhận: `은행` có patchim `ㅇ` → `은행이요?`.",
+          "tags": [
+            "은행이요?",
+            "(이)요"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR30",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "(이)요 · patchim ㄹ",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "A: 언제 만나요?\nB: 내일( )."
+      },
+      "questions": [
+        {
+          "id": "QFR30",
+          "options": [
+            {
+              "id": "1",
+              "text": "이요"
+            },
+            {
+              "id": "2",
+              "text": "에요"
+            },
+            {
+              "id": "3",
+              "text": "이에요요"
+            },
+            {
+              "id": "4",
+              "text": "요"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`내일` có patchim `ㄹ` nên `내일이요`.",
+          "tags": [
+            "내일이요",
+            "(이)요"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR31",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-네요 · ㅂ giữ nguyên",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "오늘 날씨가 정말 ( ). (nóng thật đấy)"
+      },
+      "questions": [
+        {
+          "id": "QFR31",
+          "options": [
+            {
+              "id": "1",
+              "text": "덥니다요"
+            },
+            {
+              "id": "2",
+              "text": "더워네요"
+            },
+            {
+              "id": "3",
+              "text": "덥네요"
+            },
+            {
+              "id": "4",
+              "text": "더우네요"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Đuôi `-네요` bắt đầu bằng phụ âm nên `덥다` giữ `ㅂ`: `덥네요`. `더워/더우` chỉ xuất hiện trước nguyên âm.",
+          "tags": [
+            "덥네요",
+            "ㅂ giữ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR32",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-네요 · ㄹ탈락",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "집이 정말 ( ). (xa thật đấy)"
+      },
+      "questions": [
+        {
+          "id": "QFR32",
+          "options": [
+            {
+              "id": "1",
+              "text": "멀네요"
+            },
+            {
+              "id": "2",
+              "text": "머네요"
+            },
+            {
+              "id": "3",
+              "text": "멀어네요"
+            },
+            {
+              "id": "4",
+              "text": "멀으네요"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Gốc ㄹ bỏ ㄹ trước `ㄴ`: `멀다` → `머네요`.",
+          "tags": [
+            "머네요",
+            "ㄹ탈락"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR33",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-네요 · quá khứ",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "와, 밤새 눈이 많이 ( )."
+      },
+      "questions": [
+        {
+          "id": "QFR33",
+          "options": [
+            {
+              "id": "1",
+              "text": "올 거예요"
+            },
+            {
+              "id": "2",
+              "text": "올게요"
+            },
+            {
+              "id": "3",
+              "text": "오네요"
+            },
+            {
+              "id": "4",
+              "text": "왔네요"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Tuyết đã rơi xong → `-았/었네요`: `왔네요`.",
+          "tags": [
+            "왔네요",
+            "-았/었네요"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR34",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-네요 · danh từ",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "벌써 가을( ). (Đã mùa thu rồi cơ đấy)"
+      },
+      "questions": [
+        {
+          "id": "QFR34",
+          "options": [
+            {
+              "id": "1",
+              "text": "이야요"
+            },
+            {
+              "id": "2",
+              "text": "인네요"
+            },
+            {
+              "id": "3",
+              "text": "네요"
+            },
+            {
+              "id": "4",
+              "text": "이네요"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Danh từ + `(이)네요`; `가을` có patchim `ㄹ` nên `가을이네요`.",
+          "tags": [
+            "가을이네요",
+            "N(이)네요"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR35",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-군요 · quá khứ kính ngữ",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "A: 저는 광주에서 왔어요.\nB: 아, 광주에서 ( )."
+      },
+      "questions": [
+        {
+          "id": "QFR35",
+          "options": [
+            {
+              "id": "1",
+              "text": "오시는군요"
+            },
+            {
+              "id": "2",
+              "text": "오셨군요"
+            },
+            {
+              "id": "3",
+              "text": "오시군요"
+            },
+            {
+              "id": "4",
+              "text": "오는군요"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Sự việc đã xảy ra (đã đến từ Gwangju) và B kính ngữ → `-(으)시-` + `-았/었군요` = `오셨군요`.",
+          "tags": [
+            "오셨군요",
+            "-았/었군요"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR36",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-는군요 · động từ",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "창문을 보니까 밖에 비가 ( )."
+      },
+      "questions": [
+        {
+          "id": "QFR36",
+          "options": [
+            {
+              "id": "1",
+              "text": "왔다군요"
+            },
+            {
+              "id": "2",
+              "text": "오는군요"
+            },
+            {
+              "id": "3",
+              "text": "오군요"
+            },
+            {
+              "id": "4",
+              "text": "오네군요"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Động từ hiện tại: gốc + `-는군요`. `오군요` thiếu `는`.",
+          "tags": [
+            "오는군요",
+            "-는군요"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR37",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-군요 · tính từ",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "날씨가 정말 ( )."
+      },
+      "questions": [
+        {
+          "id": "QFR37",
+          "options": [
+            {
+              "id": "1",
+              "text": "좋는군요"
+            },
+            {
+              "id": "2",
+              "text": "좋은군요"
+            },
+            {
+              "id": "3",
+              "text": "좋군요요"
+            },
+            {
+              "id": "4",
+              "text": "좋군요"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Tính từ + `-군요` (không có `는`): `좋군요`.",
+          "tags": [
+            "좋군요",
+            "A+군요"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR38",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-군요 · chuyện hôm qua",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "A: 어제 눈이 많이 왔어요.\nB: 아, 어제 눈이 많이 ( )."
+      },
+      "questions": [
+        {
+          "id": "QFR38",
+          "options": [
+            {
+              "id": "1",
+              "text": "오는군요"
+            },
+            {
+              "id": "2",
+              "text": "오군요"
+            },
+            {
+              "id": "3",
+              "text": "왔는군요"
+            },
+            {
+              "id": "4",
+              "text": "왔군요"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Nghe thông tin về việc đã xảy ra → `-았/었군요`: `왔군요`.",
+          "tags": [
+            "왔군요",
+            "-았/었군요"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR39",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-고요 · bổ sung ý",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn đuôi đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "A: 한국에서 뭐 했어요?\nB: 한복도 입어 ( ), 사진도 많이 찍었어요."
+      },
+      "questions": [
+        {
+          "id": "QFR39",
+          "options": [
+            {
+              "id": "1",
+              "text": "봤고요"
+            },
+            {
+              "id": "2",
+              "text": "봤을게요"
+            },
+            {
+              "id": "3",
+              "text": "봤으니까요"
+            },
+            {
+              "id": "4",
+              "text": "보려고요"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Liệt kê thêm việc đã làm (`도 … 도`) → `-았/었고요`: `봤고요`. Các đáp án khác diễn tả lời hứa, ý định hoặc lý do.",
+          "tags": [
+            "봤고요",
+            "-고요"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR40",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-고요 · danh từ",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn đuôi đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "제 친구는 학생( ), 저는 회사원이에요."
+      },
+      "questions": [
+        {
+          "id": "QFR40",
+          "options": [
+            {
+              "id": "1",
+              "text": "고요"
+            },
+            {
+              "id": "2",
+              "text": "이고요"
+            },
+            {
+              "id": "3",
+              "text": "이에고요"
+            },
+            {
+              "id": "4",
+              "text": "이었고요"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "`학생` có patchim `ㅇ` nên `N + 이고요`. `이었고요` là quá khứ, lệch với câu hiện tại.",
+          "tags": [
+            "학생이고요",
+            "N(이)고요"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QFR41",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-고요 · tính từ",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn đuôi đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "이 식당은 음식도 ( ), 가격도 싸요."
+      },
+      "questions": [
+        {
+          "id": "QFR41",
+          "options": [
+            {
+              "id": "1",
+              "text": "맛있고요"
+            },
+            {
+              "id": "2",
+              "text": "맛있지만"
+            },
+            {
+              "id": "3",
+              "text": "맛있기 때문에"
+            },
+            {
+              "id": "4",
+              "text": "맛있으려고요"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`도 … 도` liệt kê hai ưu điểm cùng hướng → `-고요`. `-지만` là đối lập.",
+          "tags": [
+            "맛있고요",
+            "-고요"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR17",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · cho em",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn trợ từ đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "동생( ) 선물을 줬어요."
+      },
+      "questions": [
+        {
+          "id": "QVR17",
+          "options": [
+            {
+              "id": "1",
+              "text": "를"
+            },
+            {
+              "id": "2",
+              "text": "에서"
+            },
+            {
+              "id": "3",
+              "text": "에"
+            },
+            {
+              "id": "4",
+              "text": "한테"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Người nhận quà là em nên dùng `에게/한테`: `동생한테`.",
+          "tags": [
+            "동생한테",
+            "에게/한테"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR18",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · gọi đến ngân hàng",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn trợ từ đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "은행( ) 전화해서 물어봤어요."
+      },
+      "questions": [
+        {
+          "id": "QVR18",
+          "options": [
+            {
+              "id": "1",
+              "text": "에"
+            },
+            {
+              "id": "2",
+              "text": "한테"
+            },
+            {
+              "id": "3",
+              "text": "께"
+            },
+            {
+              "id": "4",
+              "text": "에게"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`은행` là tổ chức, không phải người nên dùng `에`.",
+          "tags": [
+            "은행에",
+            "에"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR19",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · bạn giúp mình",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "친구가 제 숙제를 ( ). (bạn đã giúp tôi)"
+      },
+      "questions": [
+        {
+          "id": "QVR19",
+          "options": [
+            {
+              "id": "1",
+              "text": "도와봤어요"
+            },
+            {
+              "id": "2",
+              "text": "도와줬어요"
+            },
+            {
+              "id": "3",
+              "text": "도와있어요"
+            },
+            {
+              "id": "4",
+              "text": "도와드렸어요"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Bạn làm giúp mình → `-아/어 주다`; `돕다` (ㅂ) → `도와주다` → `도와줬어요`. `드리다` dùng khi người nhận là bậc trên.",
+          "tags": [
+            "도와줬어요",
+            "-아/어 주다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR20",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · cuộc gọi từ mẹ",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn trợ từ đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "어머니( ) 전화가 왔어요. (mẹ gọi cho tôi)"
+      },
+      "questions": [
+        {
+          "id": "QVR20",
+          "options": [
+            {
+              "id": "1",
+              "text": "한테"
+            },
+            {
+              "id": "2",
+              "text": "께"
+            },
+            {
+              "id": "3",
+              "text": "를"
+            },
+            {
+              "id": "4",
+              "text": "한테서"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Mẹ là người gọi (nguồn) nên dùng `한테서/에게서`. `한테` sẽ nghĩa là mẹ NHẬN cuộc gọi.",
+          "tags": [
+            "어머니한테서",
+            "에게서/한테서"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR21",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · xác nhận",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn đuôi đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "A: 내일 오후 두 시에 만나기로 했( )?\nB: 네, 맞아요."
+      },
+      "questions": [
+        {
+          "id": "QVR21",
+          "options": [
+            {
+              "id": "1",
+              "text": "지요"
+            },
+            {
+              "id": "2",
+              "text": "을게요"
+            },
+            {
+              "id": "3",
+              "text": "군요"
+            },
+            {
+              "id": "4",
+              "text": "네요"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "A đã biết kế hoạch và nhờ B xác nhận → `-지요?`.",
+          "tags": [
+            "했지요?",
+            "-지요?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR22",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · cảm thán",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "와, 눈이 정말 많이 ( )!"
+      },
+      "questions": [
+        {
+          "id": "QVR22",
+          "options": [
+            {
+              "id": "1",
+              "text": "왔지요?"
+            },
+            {
+              "id": "2",
+              "text": "왔네요"
+            },
+            {
+              "id": "3",
+              "text": "오려고요"
+            },
+            {
+              "id": "4",
+              "text": "올게요"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Tự thấy tuyết rơi nhiều rồi thốt lên → `-았/었네요`.",
+          "tags": [
+            "왔네요",
+            "-네요"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR23",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · vừa mới biết",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "A: 저는 하노이에서 왔어요.\nB: 아, 하노이에서 ( )."
+      },
+      "questions": [
+        {
+          "id": "QVR23",
+          "options": [
+            {
+              "id": "1",
+              "text": "오시네요"
+            },
+            {
+              "id": "2",
+              "text": "오세요"
+            },
+            {
+              "id": "3",
+              "text": "오셨군요"
+            },
+            {
+              "id": "4",
+              "text": "오셨지요?"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Vừa biết điều mới (đã đến từ Hà Nội) và kính ngữ → `-(으)시-` + `-았/었군요` = `오셨군요`.",
+          "tags": [
+            "오셨군요",
+            "-군요"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR24",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · hỏi lại",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "A: 약국에 가세요.\nB: 약국( )? 병원이 아니에요?"
+      },
+      "questions": [
+        {
+          "id": "QVR24",
+          "options": [
+            {
+              "id": "1",
+              "text": "이야"
+            },
+            {
+              "id": "2",
+              "text": "요"
+            },
+            {
+              "id": "3",
+              "text": "이에요"
+            },
+            {
+              "id": "4",
+              "text": "이요"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "B nhắc lại để xác nhận: `약국` có patchim → `약국이요?`.",
+          "tags": [
+            "약국이요?",
+            "(이)요"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR25",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · thêm ý",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn đuôi đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "이 도시는 깨끗하( ), 사람들도 친절해요."
+      },
+      "questions": [
+        {
+          "id": "QVR25",
+          "options": [
+            {
+              "id": "1",
+              "text": "고요"
+            },
+            {
+              "id": "2",
+              "text": "기 때문에"
+            },
+            {
+              "id": "3",
+              "text": "는데"
+            },
+            {
+              "id": "4",
+              "text": "지만"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`도 … 도` liệt kê hai ưu điểm cùng hướng → `-고요`.",
+          "tags": [
+            "깨끗하고요",
+            "-고요"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR26",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · rủ bạn thân",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng thân mật.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "(Nói với bạn thân) 내일 같이 영화 ( )?"
+      },
+      "questions": [
+        {
+          "id": "QVR26",
+          "options": [
+            {
+              "id": "1",
+              "text": "보세요"
+            },
+            {
+              "id": "2",
+              "text": "볼래"
+            },
+            {
+              "id": "3",
+              "text": "보실래요"
+            },
+            {
+              "id": "4",
+              "text": "봅시다"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Với bạn thân dùng 반말: `-(으)ㄹ래?` → `볼래?`. Các dạng còn lại lịch sự hoặc trang trọng.",
+          "tags": [
+            "볼래?",
+            "반말"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR27",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · 이야",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "(Hỏi bạn thân) 이거 네 휴대폰( )?"
+      },
+      "questions": [
+        {
+          "id": "QVR27",
+          "options": [
+            {
+              "id": "1",
+              "text": "예요"
+            },
+            {
+              "id": "2",
+              "text": "입니까"
+            },
+            {
+              "id": "3",
+              "text": "이야"
+            },
+            {
+              "id": "4",
+              "text": "이에요"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "`휴대폰` có patchim nên 반말 của `이에요` là `이야`.",
+          "tags": [
+            "휴대폰이야?",
+            "N이야/야"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR28",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · lạnh thật",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "오늘은 정말 ( ). (lạnh thật đấy)"
+      },
+      "questions": [
+        {
+          "id": "QVR28",
+          "options": [
+            {
+              "id": "1",
+              "text": "추우네요"
+            },
+            {
+              "id": "2",
+              "text": "추워네요"
+            },
+            {
+              "id": "3",
+              "text": "춥아요"
+            },
+            {
+              "id": "4",
+              "text": "춥네요"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "`-네요` bắt đầu bằng phụ âm nên `춥다` giữ `ㅂ`: `춥네요`.",
+          "tags": [
+            "춥네요",
+            "-네요"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR29",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · Điền ngữ pháp: Kính ngữ",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mẫu ngữ pháp phù hợp với chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "할아버지께서는 매일 아침 신문을 ( )."
+      },
+      "questions": [
+        {
+          "id": "QVR29",
+          "options": [
+            {
+              "id": "1",
+              "text": "읽어요"
+            },
+            {
+              "id": "2",
+              "text": "읽으세요"
+            },
+            {
+              "id": "3",
+              "text": "읽을게요"
+            },
+            {
+              "id": "4",
+              "text": "읽었어요"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "«Ông tôi sáng nào cũng đọc báo.» Chủ ngữ là bậc trên (`할아버지께서는`) nên động từ phải có `-(으)시-`: `읽으세요`. ② ④ thiếu `-(으)시-` nên không hợp với `께서는`; ③ `-(으)ㄹ게요` là lời hứa của chính người nói.",
+          "tags": [
+            "-(으)시-",
+            "께서는"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR30",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · Điền ngữ pháp: Tình nguyện làm ngay",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mẫu ngữ pháp phù hợp với chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "가: 이 짐 좀 들어 주시겠어요?\n나: 네, 제가 ( )."
+      },
+      "questions": [
+        {
+          "id": "QVR30",
+          "options": [
+            {
+              "id": "1",
+              "text": "들게요"
+            },
+            {
+              "id": "2",
+              "text": "들어요"
+            },
+            {
+              "id": "3",
+              "text": "드세요"
+            },
+            {
+              "id": "4",
+              "text": "들었어요"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "«Vâng, để tôi xách.» Tự nguyện nhận làm ngay tại lúc nói → `-(으)ㄹ게요` (`들다` bỏ ㄹ → `들게요`). ② là câu trần thuật thường; ③ là việc đã qua; ④ là lời mời người khác `드세요`.",
+          "tags": [
+            "-(으)ㄹ게요",
+            "들다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR31",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · Điền ngữ pháp: Đang làm thì bị cắt ngang",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mẫu ngữ pháp phù hợp với chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "텔레비전을 보( ) 전화가 와서 받았어요."
+      },
+      "questions": [
+        {
+          "id": "QVR31",
+          "options": [
+            {
+              "id": "1",
+              "text": "려면"
+            },
+            {
+              "id": "2",
+              "text": "다가"
+            },
+            {
+              "id": "3",
+              "text": "자마자"
+            },
+            {
+              "id": "4",
+              "text": "면서"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "«Đang xem tivi thì có điện thoại gọi đến nên tôi nghe máy.» Việc đang làm bị việc khác xen vào → `-다가`. `-면서` đòi hai việc cùng một chủ ngữ và cùng lúc; `-자마자` là «vừa … là»; `-(으)려면` là «nếu muốn …».",
+          "tags": [
+            "-다가",
+            "보다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR32",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · Điền ngữ pháp: Giữ nguyên trạng thái",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mẫu ngữ pháp phù hợp với chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "창문을 ( ) 잠이 들어서 감기에 걸렸어요."
+      },
+      "questions": [
+        {
+          "id": "QVR32",
+          "options": [
+            {
+              "id": "1",
+              "text": "열려고"
+            },
+            {
+              "id": "2",
+              "text": "열면서"
+            },
+            {
+              "id": "3",
+              "text": "연 채로"
+            },
+            {
+              "id": "4",
+              "text": "열어서"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "«Mở cửa sổ rồi để nguyên như thế mà ngủ nên bị cảm.» `-(으)ㄴ 채로` = giữ nguyên trạng thái (cửa vẫn mở). `열면서` là vừa mở vừa ngủ (vô lý), `열려고` là «định mở».",
+          "tags": [
+            "-(으)ㄴ 채로",
+            "열다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR33",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · Điền ngữ pháp: Coi như là",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mẫu ngữ pháp phù hợp với chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "이 동네에서 십 년을 살았으니까 이제 이 동네 사람이 ( )."
+      },
+      "questions": [
+        {
+          "id": "QVR33",
+          "options": [
+            {
+              "id": "1",
+              "text": "된 셈이에요"
+            },
+            {
+              "id": "2",
+              "text": "되려던 참이에요"
+            },
+            {
+              "id": "3",
+              "text": "될지도 몰라요"
+            },
+            {
+              "id": "4",
+              "text": "되곤 해요"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "«Sống ở khu này mười năm rồi, nên coi như đã là người của khu.» `-(으)ㄴ 셈이다` = coi như, kết luận rút ra từ sự thật đã biết. ② «vừa định trở thành», ③ «hay trở thành», ④ «có thể sẽ trở thành» đều không khớp với kết luận từ `십 년을 살았으니까`.",
+          "tags": [
+            "-(으)ㄴ 셈이다",
+            "십 년"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR34",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · Điền ngữ pháp: Trường hợp xảy ra",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mẫu ngữ pháp phù hợp với chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "화재가 ( ) 즉시 119에 신고하십시오."
+      },
+      "questions": [
+        {
+          "id": "QVR34",
+          "options": [
+            {
+              "id": "1",
+              "text": "발생하는 바람에"
+            },
+            {
+              "id": "2",
+              "text": "발생할 경우에는"
+            },
+            {
+              "id": "3",
+              "text": "발생한 채로"
+            },
+            {
+              "id": "4",
+              "text": "발생하자마자"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "«Trong trường hợp xảy ra hỏa hoạn, hãy báo ngay 119.» Hướng dẫn xử lý khi có sự cố → `-(으)ㄹ 경우에는`. `-는 바람에` kể kết quả xấu đã xảy ra, `-자마자` là «vừa … là», `-(으)ㄴ 채로` là «giữ nguyên trạng thái».",
+          "tags": [
+            "-(으)ㄹ 경우",
+            "신고하다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR35",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · Điền ngữ pháp: Nguyên nhân bất ngờ",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mẫu ngữ pháp phù hợp với chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "갑자기 비가 오는 ( ) 소풍이 취소됐어요."
+      },
+      "questions": [
+        {
+          "id": "QVR35",
+          "options": [
+            {
+              "id": "1",
+              "text": "대신에"
+            },
+            {
+              "id": "2",
+              "text": "덕분에"
+            },
+            {
+              "id": "3",
+              "text": "바람에"
+            },
+            {
+              "id": "4",
+              "text": "동안에"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "«Vì trời bỗng mưa nên buổi dã ngoại bị hủy.» Nguyên nhân bất ngờ dẫn đến kết quả xấu → `-는 바람에`. `덕분에` dùng cho kết quả tốt, `대신에` là «thay vì», `동안에` là «trong lúc».",
+          "tags": [
+            "-는 바람에",
+            "취소되다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR36",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · Điền ngữ pháp: Nhờ có",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mẫu ngữ pháp phù hợp với chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "선생님이 도와주신 ( ) 시험에 합격했어요."
+      },
+      "questions": [
+        {
+          "id": "QVR36",
+          "options": [
+            {
+              "id": "1",
+              "text": "반면에"
+            },
+            {
+              "id": "2",
+              "text": "바람에"
+            },
+            {
+              "id": "3",
+              "text": "더라도"
+            },
+            {
+              "id": "4",
+              "text": "덕분에"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "«Nhờ thầy giúp nên tôi đã đỗ kỳ thi.» Nguyên nhân tốt dẫn đến kết quả tốt → `덕분에`. `-는 바람에` dành cho kết quả xấu, `-는 반면에` là đối lập, `-더라도` là «dù … đi nữa».",
+          "tags": [
+            "덕분에",
+            "합격하다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR37",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · Điền ngữ pháp: Dù thế nào cũng",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mẫu ngữ pháp phù hợp với chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "비가 ( ) 약속은 꼭 지켜야 해요."
+      },
+      "questions": [
+        {
+          "id": "QVR37",
+          "options": [
+            {
+              "id": "1",
+              "text": "오더라도"
+            },
+            {
+              "id": "2",
+              "text": "오기에"
+            },
+            {
+              "id": "3",
+              "text": "오는 반면에"
+            },
+            {
+              "id": "4",
+              "text": "오는 데다가"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "«Dù trời mưa cũng nhất định phải giữ lời hẹn.» Điều kiện nhượng bộ «dù … đi nữa» → `-더라도`. `-는 데다가` là «đã … lại còn», `-는 반면에` là «ngược lại», `-기에` thường đi với tính từ đánh giá (`살기에 좋다`).",
+          "tags": [
+            "-더라도",
+            "약속"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR38",
+      "skill": "reading",
+      "type": "read_similar",
+      "title_vi": "Ôn tập · Cách nói tương đương: 에 비해서",
+      "instruction_ko": "밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+      "instruction_vi": "Chọn cách diễn đạt có nghĩa tương tự phần gạch chân",
+      "stimulus": {
+        "kind": "underline",
+        "text": "올해는 작년【에 비해서】 눈이 많이 왔어요."
+      },
+      "questions": [
+        {
+          "id": "QVR38",
+          "options": [
+            {
+              "id": "1",
+              "text": "마다"
+            },
+            {
+              "id": "2",
+              "text": "보다"
+            },
+            {
+              "id": "3",
+              "text": "까지"
+            },
+            {
+              "id": "4",
+              "text": "처럼"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "`N에 비해서` = so với N, tương đương `N보다`. `마다` là «mỗi», `까지` là «đến», `처럼` là «giống như» — không dùng để so sánh hơn kém.",
+          "tags": [
+            "에 비해서",
+            "보다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR39",
+      "skill": "reading",
+      "type": "read_similar",
+      "title_vi": "Ôn tập · Cách nói tương đương: -(으)ㄹ 수밖에 없다",
+      "instruction_ko": "밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+      "instruction_vi": "Chọn cách diễn đạt có nghĩa tương tự phần gạch chân",
+      "stimulus": {
+        "kind": "underline",
+        "text": "길이 막혀서 지각할 【수밖에 없었어요】."
+      },
+      "questions": [
+        {
+          "id": "QVR39",
+          "options": [
+            {
+              "id": "1",
+              "text": "지각해도 괜찮았어요"
+            },
+            {
+              "id": "2",
+              "text": "지각할 필요가 없었어요"
+            },
+            {
+              "id": "3",
+              "text": "지각하는 것 외에 방법이 없었어요"
+            },
+            {
+              "id": "4",
+              "text": "지각하지 않으려고 했어요"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "`-(으)ㄹ 수밖에 없다` = chỉ còn cách này, không có lựa chọn khác. Câu: «Đường tắc nên tôi chỉ có thể đến muộn.» ≈ «không có cách nào ngoài đến muộn». ② «đến muộn cũng không sao», ③ «không cần đến muộn», ④ «định không đến muộn» đều sai nghĩa.",
+          "tags": [
+            "-(으)ㄹ 수밖에 없다",
+            "지각하다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QVR40",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "Ôn tập · Điền ngữ pháp: Tường thuật lời nhờ",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mẫu ngữ pháp phù hợp với chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "친구가 저에게 이사를 도와 ( ) 했어요."
+      },
+      "questions": [
+        {
+          "id": "QVR40",
+          "options": [
+            {
+              "id": "1",
+              "text": "달라는"
+            },
+            {
+              "id": "2",
+              "text": "주라고"
+            },
+            {
+              "id": "3",
+              "text": "주고"
+            },
+            {
+              "id": "4",
+              "text": "달라고"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "«Bạn nhờ tôi giúp chuyển nhà.» Lời nhờ làm cho CHÍNH người nói → `-아/어 달라고 하다`. `-아/어 주라고 하다` là bảo ai đó làm giúp cho NGƯỜI THỨ BA; ③ `달라는` đứng trước danh từ; ④ không phải cấu trúc tường thuật.",
+          "tags": [
+            "-아/어 달라고 하다",
+            "이사"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QGFR1",
+      "skill": "reading",
+      "type": "read_match",
+      "title_vi": "Đọc · Bài giới thiệu gia đình",
+      "instruction_ko": "다음 글을 읽고 물음에 답하십시오.",
+      "instruction_vi": "Đọc bài mẫu trước khi tự viết",
+      "stimulus": {
+        "kind": "passage",
+        "text": "저희 가족은 할머니, 부모님, 오빠, 그리고 저까지 모두 다섯 명이에요. 할머니께서는 연세가 많으시지만 매일 아침 공원에서 산책을 하세요. 아버지는 작은 식당을 하시는데 요리 솜씨가 정말 좋으세요. 어머니는 성격이 밝고 꼼꼼하세요. 오빠는 작년에 결혼해서 따로 살지만 주말마다 집에 와요. 저희 가족은 사이가 좋아서 저녁마다 같이 이야기를 많이 해요."
+      },
+      "questions": [
+        {
+          "id": "QGFR1",
+          "prompt_ko": "이 글의 내용과 같은 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "오빠는 부모님과 같이 살아요."
+            },
+            {
+              "id": "2",
+              "text": "아버지는 요리를 잘하세요."
+            },
+            {
+              "id": "3",
+              "text": "할머니께서는 공원에서 일하세요."
+            },
+            {
+              "id": "4",
+              "text": "가족들이 주말에만 이야기를 해요."
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "`요리 솜씨가 정말 좋으세요` = nấu ăn rất khéo, tức `요리를 잘하세요`. ① anh đã cưới và ở riêng (`따로 살지만`); ③ bà đi dạo ở công viên; ④ cả nhà nói chuyện mỗi tối (`저녁마다`).",
+          "tags": [
+            "요리 솜씨가 좋다",
+            "따로",
+            "N마다"
+          ]
+        },
+        {
+          "id": "QGFR1-2",
+          "prompt_ko": "오빠에 대해 맞는 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "작년에 결혼했어요."
+            },
+            {
+              "id": "2",
+              "text": "주말에 식당에서 일해요."
+            },
+            {
+              "id": "3",
+              "text": "할머니와 같이 살아요."
+            },
+            {
+              "id": "4",
+              "text": "성격이 꼼꼼해요."
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "\"오빠는 작년에 결혼해서 따로 살지만 주말마다 집에 와요\". ④ là tính cách của mẹ.",
+          "tags": [
+            "결혼하다",
+            "작년"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QNHR1",
+      "skill": "reading",
+      "type": "read_match",
+      "title_vi": "Đọc · Bài giới thiệu ngôi nhà",
+      "instruction_ko": "다음 글을 읽고 물음에 답하십시오.",
+      "instruction_vi": "Đọc bài mẫu trước khi tự viết",
+      "stimulus": {
+        "kind": "passage",
+        "text": "저는 부모님과 함께 아파트에 살아요. 저희 집은 아파트 10층이라서 창문 밖으로 산이 보여요. 집이 크지는 않지만 햇빛이 잘 들어서 늘 밝고 따뜻해요. 집 안에는 거실과 방 세 개, 부엌, 화장실이 있어요. 저는 거실을 제일 좋아해요. 저녁에 가족들과 거실에 모여서 차를 마시면서 이야기하는 시간이 정말 행복해요."
+      },
+      "questions": [
+        {
+          "id": "QNHR1",
+          "prompt_ko": "이 글의 내용과 같은 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "이 집은 아주 넓어요."
+            },
+            {
+              "id": "2",
+              "text": "이 집은 햇빛이 잘 들어요."
+            },
+            {
+              "id": "3",
+              "text": "이 사람은 혼자 살아요."
+            },
+            {
+              "id": "4",
+              "text": "집에 방이 두 개 있어요."
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "\"햇빛이 잘 들어서 늘 밝고 따뜻해요\". ① `크지는 않지만` (không lớn); ③ sống cùng bố mẹ (`부모님과 함께`); ④ có ba phòng (`방 세 개`).",
+          "tags": [
+            "크지는 않지만",
+            "햇빛이 잘 들다",
+            "함께"
+          ]
+        },
+        {
+          "id": "QNHR1-2",
+          "prompt_ko": "이 사람이 거실을 좋아하는 이유는 무엇입니까?",
+          "options": [
+            {
+              "id": "1",
+              "text": "거실이 집에서 가장 넓어서"
+            },
+            {
+              "id": "2",
+              "text": "가족과 함께 이야기할 수 있어서"
+            },
+            {
+              "id": "3",
+              "text": "거실에서 산이 보여서"
+            },
+            {
+              "id": "4",
+              "text": "거실에 텔레비전이 있어서"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Câu cuối: tối nào cả nhà cũng tụ ở phòng khách uống trà và trò chuyện, và người viết thấy giờ phút đó hạnh phúc. ③ bài nói thấy núi qua cửa sổ, không nói là từ phòng khách.",
+          "tags": [
+            "모이다",
+            "-(으)면서"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QU18R1",
+      "skill": "reading",
+      "type": "read_match",
+      "title_vi": "Đọc · Tin nhắn xin dời lịch hẹn",
+      "instruction_ko": "다음 글을 읽고 물음에 답하십시오.",
+      "instruction_vi": "Đọc tin nhắn mẫu trước khi tự viết",
+      "stimulus": {
+        "kind": "passage",
+        "text": "박 선생님, 안녕하십니까? 토요일 한국어 수업을 듣는 마이입니다. 이번 주 목요일 오후 네 시에 상담을 받기로 했는데, 회사 회의가 그 시간으로 바뀌는 바람에 갈 수 없게 되었습니다. 정말 죄송합니다. 혹시 금요일 오후 네 시로 약속을 미룰 수 있겠습니까? 금요일이 어려우시면 다음 주 월요일도 괜찮습니다. 연락 기다리겠습니다."
+      },
+      "questions": [
+        {
+          "id": "QU18R1",
+          "prompt_ko": "이 글의 내용과 같은 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "마이 씨는 토요일에 한국어를 가르칩니다."
+            },
+            {
+              "id": "2",
+              "text": "마이 씨는 목요일 오후에 회의가 있습니다."
+            },
+            {
+              "id": "3",
+              "text": "선생님이 약속을 바꾸려고 합니다."
+            },
+            {
+              "id": "4",
+              "text": "마이 씨는 월요일에는 시간이 없습니다."
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "\"회사 회의가 그 시간으로 바뀌는 바람에\": cuộc họp bị dời sang đúng giờ hẹn chiều thứ Năm. ① Mai là người **học** lớp thứ Bảy (`수업을 듣는`); ③ chính Mai xin dời hẹn; ④ \"다음 주 월요일도 괜찮습니다\".",
+          "tags": [
+            "-는 바람에",
+            "N(으)로 바뀌다"
+          ]
+        },
+        {
+          "id": "QU18R1-2",
+          "prompt_ko": "마이 씨가 이 글을 쓴 이유로 맞는 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "상담 시간을 바꾸고 싶어서"
+            },
+            {
+              "id": "2",
+              "text": "수업에 늦어서"
+            },
+            {
+              "id": "3",
+              "text": "회의에 선생님을 초대하고 싶어서"
+            },
+            {
+              "id": "4",
+              "text": "상담을 취소하고 싶어서"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "\"금요일 오후 네 시로 약속을 미룰 수 있겠습니까?\": Mai xin **dời** buổi tư vấn chứ không hủy (④).",
+          "tags": [
+            "약속을 미루다",
+            "-(으)ㄹ 수 있겠습니까?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QU19R1",
+      "skill": "reading",
+      "type": "read_match",
+      "title_vi": "Đọc · Chuseok của nhà tôi",
+      "instruction_ko": "다음 글을 읽고 물음에 답하십시오.",
+      "instruction_vi": "Đọc bài một người Hàn kể về Chuseok trước khi tự viết",
+      "stimulus": {
+        "kind": "passage",
+        "text": "저는 추석마다 가족들과 같이 할머니 댁에 가요. 할머니 댁은 부산에 있어서 차로 다섯 시간쯤 걸려요. 추석 전날에는 온 가족이 모여서 송편을 빚고 음식을 준비해요. 추석 아침에는 조상께 차례를 지낸 후에 성묘를 가요. 저녁에는 가족들과 보름달을 보며 소원을 빌곤 해요. 길이 막혀서 조금 힘들지만 가족을 모두 만날 수 있어서 저는 추석이 정말 좋아요."
+      },
+      "questions": [
+        {
+          "id": "QU19R1",
+          "prompt_ko": "이 글의 내용과 같은 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "할머니 댁은 서울에 있어요."
+            },
+            {
+              "id": "2",
+              "text": "추석 전날에 송편을 만들어요."
+            },
+            {
+              "id": "3",
+              "text": "추석 저녁에 성묘를 가요."
+            },
+            {
+              "id": "4",
+              "text": "이 사람은 추석이 별로 좋지 않아요."
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "\"추석 전날에는 온 가족이 모여서 송편을 빚고 …\": `송편을 빚다` = nặn, làm bánh songpyeon. ① bà ở Busan (`부산에 있어서`); ③ đi tảo mộ buổi sáng, sau khi cúng (`차례를 지낸 후에 성묘를 가요`); ④ câu cuối: `추석이 정말 좋아요`.",
+          "tags": [
+            "송편을 빚다",
+            "-(으)ㄴ 후에",
+            "성묘"
+          ]
+        },
+        {
+          "id": "QU19R1-2",
+          "prompt_ko": "이 사람이 추석을 좋아하는 이유는 무엇입니까?",
+          "options": [
+            {
+              "id": "1",
+              "text": "송편을 먹을 수 있어서"
+            },
+            {
+              "id": "2",
+              "text": "가족을 모두 만날 수 있어서"
+            },
+            {
+              "id": "3",
+              "text": "부산을 여행할 수 있어서"
+            },
+            {
+              "id": "4",
+              "text": "차례를 지내지 않아서"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Câu cuối: đường tắc nên hơi mệt, nhưng `가족을 모두 만날 수 있어서` (gặp được cả nhà) nên người viết rất thích Chuseok. Bài có nói làm bánh songpyeon nhưng không nói đó là lý do.",
+          "tags": [
+            "-지만",
+            "-아/어서 (lý do)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QU20R1",
+      "skill": "reading",
+      "type": "read_match",
+      "title_vi": "Đọc · Tin nhắn chỉ đường đến nhà bạn",
+      "instruction_ko": "다음 글을 읽고 물음에 답하십시오.",
+      "instruction_vi": "Đọc tin nhắn một người bạn chỉ đường đến nhà trước khi tự viết",
+      "stimulus": {
+        "kind": "passage",
+        "text": "토요일에 우리 집에 오는 길을 알려 줄게요. 우리 집에서 가장 가까운 역은 6호선 망원역이에요. 망원역 2번 출구로 나와서 앞으로 쭉 걸어오세요. 걸어오다가 은행이 보이면 은행 옆 골목으로 들어오세요. 골목 끝에 작은 공원이 있어요. 우리 집은 공원 맞은편에 있는 4층 건물이에요. 역에서 걸어서 5분쯤 걸려요. 도착하면 문자 보내 주세요."
+      },
+      "questions": [
+        {
+          "id": "QU20R1",
+          "prompt_ko": "이 글의 내용과 같은 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "이 사람의 집은 은행 옆에 있어요."
+            },
+            {
+              "id": "2",
+              "text": "이 사람의 집은 공원 맞은편에 있어요."
+            },
+            {
+              "id": "3",
+              "text": "2번 출구에서 버스를 타야 해요."
+            },
+            {
+              "id": "4",
+              "text": "역에서 집까지 15분쯤 걸려요."
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "\"우리 집은 공원 맞은편에 있는 4층 건물이에요\". ① cạnh ngân hàng là con hẻm phải rẽ vào, không phải nhà; ③ từ cửa số 2 đi bộ (`쭉 걸어오세요`); ④ đi bộ khoảng 5 phút (`5분쯤`).",
+          "tags": [
+            "맞은편",
+            "N이/가 보이다"
+          ]
+        },
+        {
+          "id": "QU20R1-2",
+          "prompt_ko": "은행이 보이면 어떻게 해야 합니까?",
+          "options": [
+            {
+              "id": "1",
+              "text": "은행 옆 골목으로 들어가요."
+            },
+            {
+              "id": "2",
+              "text": "횡단보도를 건너요."
+            },
+            {
+              "id": "3",
+              "text": "오른쪽으로 돌아요."
+            },
+            {
+              "id": "4",
+              "text": "문자를 보내요."
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "\"걸어오다가 은행이 보이면 은행 옆 골목으로 들어오세요\". ④ nhắn tin là việc làm khi đã đến nơi (`도착하면 문자 보내 주세요`).",
+          "tags": [
+            "-다가",
+            "-(으)면"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QU22R1",
+      "skill": "reading",
+      "type": "read_match",
+      "title_vi": "Đọc · Giấy nhắn gửi nhà bên cạnh",
+      "instruction_ko": "다음 글을 읽고 물음에 답하십시오.",
+      "instruction_vi": "Đọc giấy nhắn một người gửi hàng xóm trước khi tự viết",
+      "stimulus": {
+        "kind": "passage",
+        "text": "안녕하세요. 저는 옆집 705호에 사는 김지은입니다. 요즘 밤 12시가 넘어도 옆집에서 큰 음악 소리가 들립니다. 저는 아침 일찍 출근해야 해서 밤에 일찍 자야 합니다. 밤 11시 이후에는 음악 소리를 조금만 줄여 주시면 감사하겠습니다. 갑자기 쪽지를 드려서 죄송합니다.\n705호 드림"
+      },
+      "questions": [
+        {
+          "id": "QU22R1",
+          "prompt_ko": "이 글의 내용과 같은 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "이 사람은 아랫집에 삽니다."
+            },
+            {
+              "id": "2",
+              "text": "이 사람은 아침 일찍 회사에 갑니다."
+            },
+            {
+              "id": "3",
+              "text": "옆집에서 밤에 피아노 소리가 납니다."
+            },
+            {
+              "id": "4",
+              "text": "이 사람은 관리사무소에 연락했습니다."
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "\"저는 아침 일찍 출근해야 해서 …\": `출근하다` = đi làm. ① người viết ở nhà bên cạnh (`옆집 705호`); ③ là tiếng nhạc (`음악 소리`); ④ người viết nhắn thẳng bằng giấy, không nói gì đến ban quản lý.",
+          "tags": [
+            "출근하다",
+            "-아/어야 해서"
+          ]
+        },
+        {
+          "id": "QU22R1-2",
+          "prompt_ko": "이 사람이 옆집에 부탁한 것은 무엇입니까?",
+          "options": [
+            {
+              "id": "1",
+              "text": "밤에 음악을 듣지 말라고 했습니다."
+            },
+            {
+              "id": "2",
+              "text": "밤 11시 이후에 음악 소리를 줄여 달라고 했습니다."
+            },
+            {
+              "id": "3",
+              "text": "아침 일찍 일어나라고 했습니다."
+            },
+            {
+              "id": "4",
+              "text": "관리사무소에 연락해 달라고 했습니다."
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "\"밤 11시 이후에는 음악 소리를 조금만 줄여 주시면 감사하겠습니다\": nhờ vặn nhỏ tiếng sau 11 giờ, thuật lại là `줄여 달라고 했습니다`. ① người viết không cấm nghe nhạc.",
+          "tags": [
+            "-아/어 달라고 하다",
+            "소리를 줄이다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QU23R1",
+      "skill": "reading",
+      "type": "read_match",
+      "title_vi": "Đọc · Việc tôi làm để giảm rác",
+      "instruction_ko": "다음 글을 읽고 물음에 답하십시오.",
+      "instruction_vi": "Đọc bài một người kể việc mình làm để giảm rác trước khi tự viết",
+      "stimulus": {
+        "kind": "passage",
+        "text": "저는 회사에서 커피를 자주 마셔요. 전에는 매일 일회용 컵을 써서 한 달에 컵을 스무 개쯤 버렸어요. 그래서 지난달부터 회사에 머그잔을 가지고 가서 써요. 머그잔은 씻어야 해서 조금 귀찮지만 쓰레기가 많이 줄었어요. 또 주말에 장을 볼 때는 장바구니를 가지고 가요. 앞으로는 포장이 적은 물건을 사려고 해요."
+      },
+      "questions": [
+        {
+          "id": "QU23R1",
+          "prompt_ko": "이 글의 내용과 같은 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "이 사람은 지금도 회사에서 일회용 컵을 매일 써요."
+            },
+            {
+              "id": "2",
+              "text": "이 사람은 지난달부터 머그잔을 써요."
+            },
+            {
+              "id": "3",
+              "text": "머그잔은 씻을 필요가 없어서 편해요."
+            },
+            {
+              "id": "4",
+              "text": "이 사람은 주말에 비닐봉지를 사요."
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "\"지난달부터 회사에 머그잔을 가지고 가서 써요\". ① dùng cốc dùng một lần là chuyện trước đây (`전에는`); ③ cốc phải rửa nên hơi phiền (`씻어야 해서 조금 귀찮지만`); ④ đi chợ thì mang túi đi chợ (`장바구니를 가지고 가요`).",
+          "tags": [
+            "전에는",
+            "-지만",
+            "장을 보다"
+          ]
+        },
+        {
+          "id": "QU23R1-2",
+          "prompt_ko": "이 사람이 앞으로 하려고 하는 것은 무엇입니까?",
+          "options": [
+            {
+              "id": "1",
+              "text": "포장이 적은 물건을 살 거예요."
+            },
+            {
+              "id": "2",
+              "text": "커피를 마시지 않을 거예요."
+            },
+            {
+              "id": "3",
+              "text": "텀블러를 살 거예요."
+            },
+            {
+              "id": "4",
+              "text": "회사에 걸어갈 거예요."
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Câu cuối: \"앞으로는 포장이 적은 물건을 사려고 해요\": `-(으)려고 하다` = định làm.",
+          "tags": [
+            "-(으)려고 하다",
+            "포장"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QU24R1",
+      "skill": "reading",
+      "type": "read_match",
+      "title_vi": "Đọc · Thời tiết quê tôi: Đà Lạt",
+      "instruction_ko": "다음 글을 읽고 물음에 답하십시오.",
+      "instruction_vi": "Đọc bài mẫu trước khi tự viết",
+      "stimulus": {
+        "kind": "passage",
+        "text": "제 고향 달랏은 베트남 남쪽에 있지만 높은 산 위에 있는 도시라서 일 년 내내 선선한 편이에요. 여름에도 기온이 25도까지만 올라가서 덥지 않아요. 그래서 여름이 되면 다른 지역 사람들이 달랏으로 여행을 많이 와요. 하지만 5월부터 11월까지는 우기라서 오후에 소나기가 자주 와요. 처음 한국에 왔을 때는 한국의 여름이 달랏보다 훨씬 덥고 습해서 무척 힘들었어요. 반면에 한국의 가을 날씨는 달랏과 비슷해서 저는 가을을 제일 좋아해요."
+      },
+      "questions": [
+        {
+          "id": "QU24R1",
+          "prompt_ko": "이 글의 내용과 같은 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "달랏은 일 년 내내 더운 편이에요."
+            },
+            {
+              "id": "2",
+              "text": "달랏에는 우기에 눈이 자주 와요."
+            },
+            {
+              "id": "3",
+              "text": "이 사람은 한국의 여름이 힘들었어요."
+            },
+            {
+              "id": "4",
+              "text": "한국의 가을은 달랏과 많이 달라요."
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "\"처음 한국에 왔을 때는 한국의 여름이 달랏보다 훨씬 덥고 습해서 무척 힘들었어요\". ① Đà Lạt `일 년 내내 선선한 편이에요` (mát quanh năm), không nóng; ② mùa mưa có `소나기` (mưa rào), không có tuyết; ④ câu cuối nói mùa thu Hàn Quốc `달랏과 비슷해서` (giống Đà Lạt).",
+          "tags": [
+            "일 년 내내",
+            "-(으)ㄴ 편이다",
+            "훨씬"
+          ]
+        },
+        {
+          "id": "QU24R1-2",
+          "prompt_ko": "여름에 사람들이 달랏으로 여행을 많이 오는 이유는 무엇입니까?",
+          "options": [
+            {
+              "id": "1",
+              "text": "소나기가 자주 와서"
+            },
+            {
+              "id": "2",
+              "text": "여름에도 덥지 않아서"
+            },
+            {
+              "id": "3",
+              "text": "높은 산에 올라가고 싶어서"
+            },
+            {
+              "id": "4",
+              "text": "눈을 보고 싶어서"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Câu 2–3: \"여름에도 기온이 25도까지만 올라가서 덥지 않아요. 그래서 여름이 되면 … 여행을 많이 와요\". `그래서` nối lý do (không nóng) với kết quả (nhiều người đến du lịch). ① mưa rào là chuyện mùa mưa, không phải lý do người ta đến.",
+          "tags": [
+            "그래서",
+            "-아/어서"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QU25R1",
+      "skill": "reading",
+      "type": "read_match",
+      "title_vi": "Đọc · Thông báo nắng nóng của ký túc xá",
+      "instruction_ko": "다음 글을 읽고 물음에 답하십시오.",
+      "instruction_vi": "Đọc bài mẫu trước khi tự viết",
+      "stimulus": {
+        "kind": "passage",
+        "text": "[기숙사 안내] 기상청에 따르면 이번 주 서울의 낮 기온은 35도까지 오를 것으로 예상됩니다. 작년 이맘때에 비해 3도 높은 기온입니다. 밤에도 기온이 25도 아래로 떨어지지 않는 열대야가 이어질 것으로 보입니다. 날씨가 더울수록 건강 관리에 더 유의해야 합니다. 낮 12시부터 오후 4시까지는 야외 활동을 하지 마시고, 물을 자주 마시시기 바랍니다."
+      },
+      "questions": [
+        {
+          "id": "QU25R1",
+          "prompt_ko": "이 글의 내용과 같은 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "이번 주는 작년 이맘때보다 기온이 낮습니다."
+            },
+            {
+              "id": "2",
+              "text": "밤에는 기온이 25도 아래로 떨어집니다."
+            },
+            {
+              "id": "3",
+              "text": "이번 주 낮 기온은 35도까지 오를 것으로 보입니다."
+            },
+            {
+              "id": "4",
+              "text": "낮 12시부터 야외 활동을 하는 것이 좋습니다."
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Câu 1: \"기상청에 따르면 이번 주 서울의 낮 기온은 35도까지 오를 것으로 예상됩니다\". ① `작년 이맘때에 비해 3도 높은` (cao hơn, không thấp hơn); ② đêm nhiệt độ **không** xuống dưới 25 độ (`떨어지지 않는 열대야`); ④ từ 12 giờ đến 4 giờ chiều thì `야외 활동을 하지 마시고` (đừng hoạt động ngoài trời).",
+          "tags": [
+            "N에 따르면",
+            "N에 비해",
+            "-(으)ㄹ 것으로 예상되다"
+          ]
+        },
+        {
+          "id": "QU25R1-2",
+          "prompt_ko": "이 안내에서 학생들에게 부탁하는 것은 무엇입니까?",
+          "options": [
+            {
+              "id": "1",
+              "text": "낮에 밖에서 운동하기"
+            },
+            {
+              "id": "2",
+              "text": "오후 4시 전에 기숙사에 돌아오기"
+            },
+            {
+              "id": "3",
+              "text": "낮에 야외 활동을 하지 않고 물을 자주 마시기"
+            },
+            {
+              "id": "4",
+              "text": "기상청에 날씨를 확인하기"
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Câu cuối là lời dặn: \"낮 12시부터 오후 4시까지는 야외 활동을 하지 마시고, 물을 자주 마시시기 바랍니다\". Phần trước câu đó là điều bản tin nói (`기상청에 따르면 …`), câu cuối mới là điều ký túc xá nhờ.",
+          "tags": [
+            "-(으)시기 바랍니다",
+            "-(으)ㄹ수록"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QU26R1",
+      "skill": "reading",
+      "type": "read_match",
+      "title_vi": "Đọc · Kế hoạch đi Gyeongju dịp nghỉ lễ",
+      "instruction_ko": "다음 글을 읽고 물음에 답하십시오.",
+      "instruction_vi": "Đọc bài mẫu trước khi tự viết",
+      "stimulus": {
+        "kind": "passage",
+        "text": "이번 연휴에 가족과 함께 경주로 1박 2일 여행을 갈 계획이에요. 서울에서 경주까지는 기차로 두 시간이 걸려서 기차표를 미리 예매했어요. 숙소는 시내에 있는 게스트하우스인데 숙박비가 하룻밤에 15만 원이에요. 연휴라서 숙박비가 비쌀 수밖에 없었어요. 첫날에는 박물관과 오래된 절을 둘러보고, 둘째 날에는 자전거를 빌려서 시내를 둘러볼 예정이에요. 혹시 비가 올 경우에는 자전거 대신 버스를 탈 거예요."
+      },
+      "questions": [
+        {
+          "id": "QU26R1",
+          "prompt_ko": "이 글의 내용과 같은 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "이 사람은 혼자 여행을 가요."
+            },
+            {
+              "id": "2",
+              "text": "경주까지 비행기를 타고 가요."
+            },
+            {
+              "id": "3",
+              "text": "연휴라서 숙박비가 비싸요."
+            },
+            {
+              "id": "4",
+              "text": "비가 오면 자전거를 탈 거예요."
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "\"연휴라서 숙박비가 비쌀 수밖에 없었어요\": vì là kỳ nghỉ lễ nên tiền ở đành phải đắt. ① đi cùng gia đình (`가족과 함께`); ② đi bằng tàu (`기차로 두 시간`); ④ trời mưa thì đi xe buýt **thay cho** xe đạp (`자전거 대신 버스`).",
+          "tags": [
+            "-(으)ㄹ 수밖에 없다",
+            "-(으)ㄹ 경우",
+            "대신"
+          ]
+        },
+        {
+          "id": "QU26R1-2",
+          "prompt_ko": "이 사람은 둘째 날에 무엇을 할 예정입니까?",
+          "options": [
+            {
+              "id": "1",
+              "text": "박물관에 가요."
+            },
+            {
+              "id": "2",
+              "text": "자전거를 타고 시내를 둘러봐요."
+            },
+            {
+              "id": "3",
+              "text": "기차표를 예매해요."
+            },
+            {
+              "id": "4",
+              "text": "오래된 절에 가요."
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "\"둘째 날에는 자전거를 빌려서 시내를 둘러볼 예정이에요\". ① ④ là lịch của ngày đầu (`첫날에는 박물관과 오래된 절을 둘러보고`); ③ vé tàu đã đặt rồi (`미리 예매했어요`).",
+          "tags": [
+            "첫날 · 둘째 날",
+            "-(으)ㄹ 예정이다",
+            "둘러보다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QU27R1",
+      "skill": "reading",
+      "type": "read_match",
+      "title_vi": "Đọc · Bữa tối ở nhà bạn Hàn Quốc",
+      "instruction_ko": "다음 글을 읽고 물음에 답하십시오.",
+      "instruction_vi": "Đọc bài mẫu trước khi tự viết",
+      "stimulus": {
+        "kind": "passage",
+        "text": "지난주에 한국 친구의 집에 초대를 받아서 친구 가족과 같이 저녁을 먹었어요. 할아버지께서 먼저 수저를 드신 다음에 모두 식사를 시작하더라고요. 그리고 베트남에서는 밥그릇을 들고 먹는데 한국에서는 밥그릇을 들지 않고 숟가락으로 밥을 먹더라고요. 처음에는 조금 낯설었지만 친구 덕분에 한국의 식사 예절을 배울 수 있었어요. 나라마다 식사 문화는 다르지만 어른을 생각하는 마음은 같은 것 같아요."
+      },
+      "questions": [
+        {
+          "id": "QU27R1",
+          "prompt_ko": "이 글의 내용과 같은 것을 고르십시오.",
+          "options": [
+            {
+              "id": "1",
+              "text": "한국에서는 밥그릇을 들고 먹어요."
+            },
+            {
+              "id": "2",
+              "text": "할아버지께서 먼저 수저를 드셨어요."
+            },
+            {
+              "id": "3",
+              "text": "이 사람은 처음부터 한국의 식사 예절을 잘 알았어요."
+            },
+            {
+              "id": "4",
+              "text": "이 사람은 친구와 둘이서 저녁을 먹었어요."
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "\"할아버지께서 먼저 수저를 드신 다음에 모두 식사를 시작하더라고요\". ① ở Hàn Quốc **không** cầm bát cơm (`밥그릇을 들지 않고`); ③ lúc đầu thấy lạ (`처음에는 조금 낯설었지만`); ④ ăn cùng gia đình bạn (`친구 가족과 같이`).",
+          "tags": [
+            "-더라고요",
+            "께서",
+            "-(으)ㄴ 다음에"
+          ]
+        },
+        {
+          "id": "QU27R1-2",
+          "prompt_ko": "이 사람이 느낀 것은 무엇입니까?",
+          "options": [
+            {
+              "id": "1",
+              "text": "한국 음식이 베트남 음식보다 맛있다."
+            },
+            {
+              "id": "2",
+              "text": "식사 문화는 달라도 어른을 생각하는 마음은 같다."
+            },
+            {
+              "id": "3",
+              "text": "밥그릇을 들고 먹는 것이 더 편하다."
+            },
+            {
+              "id": "4",
+              "text": "한국의 식사 예절은 배우기 너무 어렵다."
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Câu cuối là điều người viết nhận ra: \"나라마다 식사 문화는 다르지만 어른을 생각하는 마음은 같은 것 같아요\". Các câu `-더라고요` trước đó là điều họ tận mắt thấy; câu `… 것 같아요` cuối bài mới là cảm nhận.",
+          "tags": [
+            "N마다",
+            "-(으)ㄴ/는 것 같다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QGB18a",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-(으)시겠어요? · hỏi người gọi điện",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "가: 여보세요, 김 선생님 계세요?\n나: 지금 회의 중이세요. 메시지를 ( )?"
+      },
+      "questions": [
+        {
+          "id": "QGB18a",
+          "options": [
+            {
+              "id": "1",
+              "text": "남기시겠어요"
+            },
+            {
+              "id": "2",
+              "text": "남길게요"
+            },
+            {
+              "id": "3",
+              "text": "남길래요"
+            },
+            {
+              "id": "4",
+              "text": "남겼어요"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Người nghe máy hỏi ý người gọi một cách lịch sự → `남기시겠어요?`. ② `-(으)ㄹ게요` là việc của người nói; ③ `-(으)ㄹ래요?` thân mật, không hợp khi nghe điện thoại ở văn phòng; ④ quá khứ, không hợp.",
+          "tags": [
+            "남기시겠어요?",
+            "-(으)시겠어요?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QGB18c",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "-아/어 줄게요 · hứa làm giúp",
+      "instruction_ko": "다음을 읽고 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn dạng đúng.",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "가: 수진 씨 전화번호 알아요? 연락해야 하는데 몰라요.\n나: 저는 알아요. 제가 ( )."
+      },
+      "questions": [
+        {
+          "id": "QGB18c",
+          "options": [
+            {
+              "id": "1",
+              "text": "알려 줄게요"
+            },
+            {
+              "id": "2",
+              "text": "알려 주세요"
+            },
+            {
+              "id": "3",
+              "text": "알려 줄래요"
+            },
+            {
+              "id": "4",
+              "text": "알려 주시겠어요"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Người nói **hứa làm giúp** → `-아/어 줄게요`: `알려 줄게요`. ② và ④ là nhờ người nghe làm; ③ `줄래요?` là hỏi người nghe có muốn làm giúp mình không.",
+          "tags": [
+            "알려 줄게요",
+            "-아/어 줄게요"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QSUP01",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "🟣 Mở rộng · Đọc: điền ngữ pháp",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "편의점에서 우유를 ( ) 냉장고에 넣어 두었어요."
+      },
+      "questions": [
+        {
+          "id": "QSUP01",
+          "options": [
+            {
+              "id": "1",
+              "text": "사다가"
+            },
+            {
+              "id": "2",
+              "text": "사려고"
+            },
+            {
+              "id": "3",
+              "text": "사거나"
+            },
+            {
+              "id": "4",
+              "text": "사는데"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Mua ở cửa hàng rồi **mang về** cất vào tủ lạnh → `사다가`. `사려고` (để mua) và `사거나` (hoặc mua) sai ý; `사는데` không nối được với việc cất đồ.",
+          "tags": [
+            "V + -아/어다(가) (làm rồi mang sang chỗ khác)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QSUP02",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "🟣 Mở rộng · Đọc: điền ngữ pháp",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "마음에 드는 집이 ( ) 바로 계약하지 말고 저한테 먼저 보여 주세요."
+      },
+      "questions": [
+        {
+          "id": "QSUP02",
+          "options": [
+            {
+              "id": "1",
+              "text": "있거든"
+            },
+            {
+              "id": "2",
+              "text": "있거든요"
+            },
+            {
+              "id": "3",
+              "text": "있더니"
+            },
+            {
+              "id": "4",
+              "text": "있느라고"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Điều kiện + lời dặn (`보여 주세요`) → `있거든`. `-거든요` là đuôi câu; `-더니`, `-느라고` nói nguyên nhân trong quá khứ.",
+          "tags": [
+            "V/A + -거든 (nếu … thì hãy …)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QSUP03",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "🟣 Mở rộng · Đọc: điền ngữ pháp",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "회사 일이 너무 바빠서 친한 친구를 1년 ( ) 만났어요."
+      },
+      "questions": [
+        {
+          "id": "QSUP03",
+          "options": [
+            {
+              "id": "1",
+              "text": "만에"
+            },
+            {
+              "id": "2",
+              "text": "동안"
+            },
+            {
+              "id": "3",
+              "text": "까지"
+            },
+            {
+              "id": "4",
+              "text": "쯤에"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Bận nên một năm rồi mới gặp → `1년 만에`. `동안` thành «gặp suốt một năm» (trái ý); `까지`, `쯤에` không ghép với nghĩa này.",
+          "tags": [
+            "N(thời gian) + 만에"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QSUP04",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "🟣 Mở rộng · Đọc: điền ngữ pháp",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "이웃에게 소음이 들리지 ( ) 밤에는 세탁기를 돌리지 마세요."
+      },
+      "questions": [
+        {
+          "id": "QSUP04",
+          "options": [
+            {
+              "id": "1",
+              "text": "않게"
+            },
+            {
+              "id": "2",
+              "text": "않아서"
+            },
+            {
+              "id": "3",
+              "text": "않으면"
+            },
+            {
+              "id": "4",
+              "text": "않는데"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Mục đích «để hàng xóm không nghe thấy tiếng ồn» → `들리지 않게`. Ba lựa chọn kia nói lý do, điều kiện, bối cảnh.",
+          "tags": [
+            "V + -게 · V + -게끔 (để cho, sao cho)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QSUP05",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "🟣 Mở rộng · Đọc: điền ngữ pháp",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "하늘에서 계란( ) 우박이 떨어져서 차가 많이 부서졌다."
+      },
+      "questions": [
+        {
+          "id": "QSUP05",
+          "options": [
+            {
+              "id": "1",
+              "text": "만 한"
+            },
+            {
+              "id": "2",
+              "text": "만큼은"
+            },
+            {
+              "id": "3",
+              "text": "처럼이"
+            },
+            {
+              "id": "4",
+              "text": "보다는"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Tả kích thước viên đá bằng quả trứng, bổ nghĩa cho `우박` → `계란만 한`. Các dạng kia không bổ nghĩa được cho danh từ.",
+          "tags": [
+            "N + 만 하다 (to bằng, cỡ bằng)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QSUP06",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "🟣 Mở rộng · Đọc: điền ngữ pháp",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "A: 방학에 뭐 할 거예요?\nB: 아직 확실하지는 않은데 일본으로 여행을 ( )."
+      },
+      "questions": [
+        {
+          "id": "QSUP06",
+          "options": [
+            {
+              "id": "1",
+              "text": "갈까 해요"
+            },
+            {
+              "id": "2",
+              "text": "가기로 했어요"
+            },
+            {
+              "id": "3",
+              "text": "갈 뻔했어요"
+            },
+            {
+              "id": "4",
+              "text": "가 봤어요"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "«Chưa chắc chắn» → ý định đang cân nhắc `갈까 해요`. `가기로 했어요` là đã quyết (mâu thuẫn); hai lựa chọn kia nói chuyện đã qua.",
+          "tags": [
+            "V + -(으)ㄹ까 하다 · -(으)ㄹ까 생각 중이다"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QSUP07",
+      "skill": "reading",
+      "type": "read_cloze",
+      "title_vi": "🟣 Mở rộng · Đọc: điền ngữ pháp",
+      "instruction_ko": "( )에 들어갈 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Điền vào chỗ trống",
+      "stimulus": {
+        "kind": "cloze",
+        "text": "A: 한국 문화에 대해 정말 잘 아시네요.\nB: 잘 ( ). 저도 아직 배우는 중이에요."
+      },
+      "questions": [
+        {
+          "id": "QSUP07",
+          "options": [
+            {
+              "id": "1",
+              "text": "알기는요"
+            },
+            {
+              "id": "2",
+              "text": "알거든요"
+            },
+            {
+              "id": "3",
+              "text": "아는데요"
+            },
+            {
+              "id": "4",
+              "text": "알잖아요"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Đáp lại lời khen một cách khiêm tốn → `알기는요`. Ba đuôi kia đều **khẳng định** là biết, trái với câu sau.",
+          "tags": [
+            "V/A + -기는요 (-긴요)"
+          ]
+        }
+      ]
+    }
+  ]
+}

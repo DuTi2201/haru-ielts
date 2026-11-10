@@ -1,0 +1,185 @@
+{
+  "lesson": "viet-nghi-luan-08-luyen-de",
+  "items": [
+    {
+      "id": "viet-nghi-luan-08-d1",
+      "kind": "dialogue",
+      "title_ko": "찬성과 반대 중에서",
+      "title_vi": "Chọn tán thành hay phản đối",
+      "scene_vi": "Hai bạn học tiếng Hàn luyện đề tán thành hoặc phản đối ở thư viện.",
+      "speakers": {
+        "F": "유나",
+        "M": "태민"
+      },
+      "lines": [
+        {
+          "who": "M",
+          "ko": "찬성과 반대 중에서 어느 쪽으로 써야 할지 모르겠어요.",
+          "vi": "Tôi không biết nên viết theo phía tán thành hay phản đối."
+        },
+        {
+          "who": "F",
+          "ko": "어느 쪽이든 괜찮아요. 이유를 두 가지 쓸 수 있으면 돼요.",
+          "vi": "Phía nào cũng được. Miễn là viết được hai lý do."
+        },
+        {
+          "who": "M",
+          "ko": "그럼 처음에 ‘나는 …에 찬성한다’라고 분명히 써야 하죠?",
+          "vi": "Vậy ngay từ đầu phải viết rõ là tôi tán thành đúng không?"
+        },
+        {
+          "who": "F",
+          "ko": "맞아요. 그리고 끝까지 같은 입장으로 쓰세요.",
+          "vi": "Đúng. Và hãy giữ cùng lập trường đến cuối."
+        },
+        {
+          "who": "M",
+          "ko": "반대 의견은 어떻게 써요?",
+          "vi": "Còn ý kiến phản đối thì viết thế nào?"
+        },
+        {
+          "who": "F",
+          "ko": "‘물론 …’으로 인정하고, ‘그러나 …’로 답하세요.",
+          "vi": "Hãy thừa nhận bằng «물론», rồi đáp lại bằng «그러나»."
+        },
+        {
+          "who": "M",
+          "ko": "‘모든 사람이 …는 것은 아니다’도 쓸 수 있겠네요.",
+          "vi": "Vậy tôi cũng dùng được mẫu «không phải mọi người đều …»."
+        },
+        {
+          "who": "F",
+          "ko": "네, 그런 표현이 있으면 글이 더 설득력 있어요.",
+          "vi": "Ừ, có cách nói đó thì bài thuyết phục hơn."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "N + 에 찬성하다/반대하다 · V + -는 입장이다",
+          "regex": "찬성한다"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 것은 아니다",
+          "regex": "것은 아니다"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "입장",
+          "seen": "입장으로"
+        },
+        {
+          "word": "설득력",
+          "seen": "설득력"
+        },
+        {
+          "word": "반대하다",
+          "seen": "반대"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Yuna khuyên viết mấy lý do?",
+          "options": [
+            "Hai lý do",
+            "Mười lý do",
+            "Không cần lý do"
+          ],
+          "answer": 0,
+          "explain_vi": "Yuna: miễn là viết được hai lý do."
+        },
+        {
+          "q_vi": "Phải giữ điều gì đến cuối bài?",
+          "options": [
+            "Cùng một lập trường",
+            "Cùng một từ nối",
+            "Cùng một ví dụ"
+          ],
+          "answer": 0,
+          "explain_vi": "Yuna: giữ cùng lập trường đến cuối."
+        }
+      ]
+    },
+    {
+      "id": "viet-nghi-luan-08-r1",
+      "kind": "reading",
+      "title_ko": "스마트폰 사용 제한에 대한 반대 의견",
+      "title_vi": "Trả lời ý kiến phản đối về hạn chế điện thoại",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "나는 수업 시간의 스마트폰 사용 제한에 찬성한다.",
+          "vi": "Tôi tán thành việc hạn chế dùng điện thoại trong giờ học."
+        },
+        {
+          "who": "N",
+          "ko": "물론 스마트폰을 제한하면 긴급한 연락이 어려워진다는 의견도 있다.",
+          "vi": "Tất nhiên cũng có ý kiến cho rằng hạn chế điện thoại thì khó liên lạc khẩn cấp."
+        },
+        {
+          "who": "N",
+          "ko": "그러나 이는 모든 사용을 막는 것은 아니며 교무실을 통한 연락 체계를 마련하면 해결할 수 있다.",
+          "vi": "Nhưng điều này không có nghĩa là cấm mọi cách dùng, và có thể giải quyết bằng cách lập hệ thống liên lạc qua phòng của thầy cô."
+        },
+        {
+          "who": "N",
+          "ko": "또한 학습에 필요한 경우에는 교사의 허락 아래 사용하는 것이 바람직하다.",
+          "vi": "Ngoài ra khi cần cho việc học thì nên dùng với sự cho phép của thầy cô."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "N + 에 찬성하다/반대하다 · V + -는 입장이다",
+          "regex": "찬성한다"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 것은 아니다",
+          "regex": "것은 아니"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "제한하다",
+          "seen": "제한하면"
+        },
+        {
+          "word": "긴급",
+          "seen": "긴급한"
+        },
+        {
+          "word": "허락",
+          "seen": "허락"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "교무실",
+          "vi": "phòng của thầy cô"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Tác giả đứng về phía nào?",
+          "options": [
+            "Tán thành hạn chế",
+            "Phản đối hạn chế",
+            "Không có lập trường"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu đầu: tán thành việc hạn chế."
+        },
+        {
+          "q_vi": "Theo bài, khi nào được dùng điện thoại?",
+          "options": [
+            "Khi cần cho việc học và có sự cho phép của thầy cô",
+            "Bất cứ lúc nào",
+            "Không bao giờ"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu cuối: khi cần cho việc học, với sự cho phép của thầy cô."
+        }
+      ]
+    }
+  ]
+}

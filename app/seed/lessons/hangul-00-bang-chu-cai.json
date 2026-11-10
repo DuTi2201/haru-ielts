@@ -1,0 +1,989 @@
+{
+  "slug": "hangul-00-bang-chu-cai",
+  "title": "Bảng chữ cái & phát âm",
+  "title_ko": "한글과 발음",
+  "topic": "Nhập môn",
+  "track": "beginner",
+  "level": 1,
+  "sort_order": 1,
+  "kind": "hangul",
+  "summary": "Đọc được chữ Hàn trong 5 phần ngắn: khối chữ và nguyên âm, phụ âm, âm căng và nguyên âm ghép, patchim, rồi biến âm và gõ phím. Mọi từ luyện đọc lấy từ bài Nền tảng 1, nên học xong là vào bài đó được ngay.",
+  "notes": [
+    {
+      "title": "Sau bài này bạn làm được gì",
+      "kind": "goal",
+      "body": "Đọc thành tiếng 33 từ của Nền tảng 1, nhìn chữ là biết có patchim hay không để chọn `이에요/예요`, nghe ra khi âm bị nối hay đổi, và gõ được chữ Hàn trên điện thoại."
+    }
+  ],
+  "editor_notes": [
+    {
+      "title": "Cách đọc trong ngoặc vuông",
+      "body": "Theo chuẩn phát âm 표준 발음법: nối âm (제13항), 7 âm cuối đại diện (제8–9항), căng hoá (제23항), mũi hoá (제18항), ㅎ (제12항), 의 (제5항). ㅐ/ㅔ và ㅙ/ㅚ/ㅞ dạy theo cách người Seoul nói thật (gần như trùng), có ghi rõ là trên chữ viết vẫn khác."
+    },
+    {
+      "title": "Âm thanh",
+      "body": "Âm tiết đơn (가, 까, 카…) đọc bằng Chirp: cần người nghe duyệt từng file trước khi mở cho học viên, vì giọng máy có thể đọc lệch âm tiết đứng một mình."
+    }
+  ],
+  "bank": "hangul",
+  "exercise_ids": [
+    "HGL01",
+    "HGL02",
+    "HGL03",
+    "HGL04",
+    "HGL05",
+    "HGL06",
+    "HGL07",
+    "HGL08",
+    "HGL09",
+    "HGR01",
+    "HGR02",
+    "HGR03",
+    "HGR04",
+    "HGR05",
+    "HGR06",
+    "HGR07",
+    "HGR08",
+    "HGR09",
+    "HGW01"
+  ],
+  "hangul": {
+    "intro_vi": "Chữ Hàn ghép từ các chữ cái thành từng khối vuông, mỗi khối là một âm tiết. 5 phần, mỗi phần khoảng 10 phút. Học xong là đọc được bài Nền tảng 1.",
+    "done_vi": "Bạn đã đọc được chữ Hàn. Làm bài kiểm tra là đủ lông, Nền tảng 1 đang chờ.",
+    "parts": [
+      {
+        "id": "p1",
+        "title_vi": "Khối chữ & 10 nguyên âm",
+        "goal_vi": "Đọc được các khối chữ chỉ có nguyên âm: 아, 오, 우, 이…",
+        "swan_vi": "Cọng lông trắng đầu tiên đã mọc!",
+        "explain": [
+          {
+            "title": "Ba nét: Trời · Đất · Người",
+            "body": "Nguyên âm sinh ra từ 3 nét: chấm (Trời), gạch ngang `ㅡ` (Đất), gạch đứng `ㅣ` (Người). Thêm chấm vào gạch là ra nguyên âm mới: `ㅣ` + chấm phải = `ㅏ`."
+          },
+          {
+            "title": "Khối chữ và ㅇ đứng đầu",
+            "body": "Mỗi khối luôn bắt đầu bằng một phụ âm. Âm tiết chỉ có nguyên âm thì đặt `ㅇ` ở đầu, và `ㅇ` lúc này **không đọc**: `아` đọc là «a». Nguyên âm đứng (`ㅏ ㅓ ㅣ`) nằm bên phải, nguyên âm nằm (`ㅗ ㅜ ㅡ`) nằm bên dưới: `아`, `오`."
+          },
+          {
+            "title": "Thêm một nét = thêm «y»",
+            "body": "`ㅏ` → `ㅑ` (ya), `ㅓ` → `ㅕ` (yơ), `ㅗ` → `ㅛ` (yô), `ㅜ` → `ㅠ` (yu)."
+          }
+        ],
+        "groups": [
+          {
+            "title_vi": "6 nguyên âm gốc",
+            "note_vi": "Chữ Việt chỉ là mốc gần đúng: hãy nghe và nhại theo giọng đọc.",
+            "letters": [
+              {
+                "jamo": "ㅏ",
+                "sound_vi": "a",
+                "example": "아"
+              },
+              {
+                "jamo": "ㅓ",
+                "sound_vi": "ơ (mở miệng rộng hơn)",
+                "example": "어"
+              },
+              {
+                "jamo": "ㅗ",
+                "sound_vi": "ô (tròn môi)",
+                "example": "오"
+              },
+              {
+                "jamo": "ㅜ",
+                "sound_vi": "u",
+                "example": "우"
+              },
+              {
+                "jamo": "ㅡ",
+                "sound_vi": "ư (môi dẹt)",
+                "example": "으"
+              },
+              {
+                "jamo": "ㅣ",
+                "sound_vi": "i",
+                "example": "이"
+              }
+            ]
+          },
+          {
+            "title_vi": "4 nguyên âm có «y»",
+            "letters": [
+              {
+                "jamo": "ㅑ",
+                "sound_vi": "ya",
+                "example": "야"
+              },
+              {
+                "jamo": "ㅕ",
+                "sound_vi": "yơ",
+                "example": "여"
+              },
+              {
+                "jamo": "ㅛ",
+                "sound_vi": "yô",
+                "example": "요"
+              },
+              {
+                "jamo": "ㅠ",
+                "sound_vi": "yu",
+                "example": "유"
+              }
+            ]
+          }
+        ],
+        "picks": [
+          {
+            "hear": "아",
+            "options": [
+              "아",
+              "어",
+              "오",
+              "우"
+            ],
+            "answer": "아"
+          },
+          {
+            "hear": "어",
+            "options": [
+              "아",
+              "어",
+              "오",
+              "으"
+            ],
+            "answer": "어"
+          },
+          {
+            "hear": "우",
+            "options": [
+              "오",
+              "우",
+              "으",
+              "유"
+            ],
+            "answer": "우"
+          },
+          {
+            "hear": "으",
+            "options": [
+              "으",
+              "이",
+              "우",
+              "어"
+            ],
+            "answer": "으"
+          },
+          {
+            "hear": "여",
+            "options": [
+              "야",
+              "여",
+              "요",
+              "유"
+            ],
+            "answer": "여"
+          }
+        ],
+        "words": [
+          {
+            "ko": "이",
+            "vi": "này (이것 = cái này)"
+          },
+          {
+            "ko": "아이",
+            "vi": "đứa trẻ"
+          },
+          {
+            "ko": "오이",
+            "vi": "dưa chuột"
+          },
+          {
+            "ko": "우유",
+            "vi": "sữa"
+          },
+          {
+            "ko": "여우",
+            "vi": "con cáo"
+          },
+          {
+            "ko": "이유",
+            "vi": "lý do"
+          }
+        ]
+      },
+      {
+        "id": "p2",
+        "title_vi": "Phụ âm cơ bản",
+        "goal_vi": "Đọc được từ không có patchim của Nền tảng 1: 저, 나라, 가수, 누구, 어디…",
+        "swan_vi": "Chữ đã thành tiếng rồi!",
+        "explain": [
+          {
+            "title": "Chữ vẽ theo khẩu hình",
+            "body": "`ㄱ` là lưỡi chạm cuống họng, `ㄴ` là đầu lưỡi chạm lợi, `ㅁ` là hình cái miệng, `ㅅ` là hình răng, `ㅇ` là hình cổ họng."
+          },
+          {
+            "title": "Thêm nét = bật hơi mạnh",
+            "body": "`ㄱ`→`ㅋ`, `ㄷ`→`ㅌ`, `ㅂ`→`ㅍ`, `ㅈ`→`ㅊ`: cùng chỗ phát âm nhưng đẩy một luồng hơi mạnh. Đặt tờ giấy trước miệng: đọc `카` giấy bay, đọc `가` giấy gần như không động."
+          },
+          {
+            "title": "Cẩn thận với chữ Việt",
+            "body": "`ㅌ` gần với «th» tiếng Việt. Nhưng `ㅋ` **không phải** «kh», `ㅍ` **không phải** «ph»: chúng là k, p bật hơi. `ㄹ` giữa hai nguyên âm đọc «r» nhẹ (`나라`), cuối chữ đọc «l»."
+          },
+          {
+            "title": "ㄱ ㄷ ㅂ ㅈ đổi nhẹ theo vị trí",
+            "body": "Đứng đầu từ, chúng nhẹ và gần k, t, p, ch. Kẹp giữa hai nguyên âm thì gần g, d, b, j: `아기` đọc gần «a-gi»."
+          }
+        ],
+        "groups": [
+          {
+            "title_vi": "10 phụ âm cơ bản",
+            "letters": [
+              {
+                "jamo": "ㄱ",
+                "sound_vi": "k/g",
+                "example": "가"
+              },
+              {
+                "jamo": "ㄴ",
+                "sound_vi": "n",
+                "example": "나"
+              },
+              {
+                "jamo": "ㄷ",
+                "sound_vi": "t/d",
+                "example": "다"
+              },
+              {
+                "jamo": "ㄹ",
+                "sound_vi": "r/l",
+                "example": "라"
+              },
+              {
+                "jamo": "ㅁ",
+                "sound_vi": "m",
+                "example": "마"
+              },
+              {
+                "jamo": "ㅂ",
+                "sound_vi": "p/b",
+                "example": "바"
+              },
+              {
+                "jamo": "ㅅ",
+                "sound_vi": "x (trước ㅣ: «shi»)",
+                "example": "사",
+                "note_vi": "`시` đọc gần «shi», không phải «xi»."
+              },
+              {
+                "jamo": "ㅇ",
+                "sound_vi": "câm ở đầu khối",
+                "example": "아"
+              },
+              {
+                "jamo": "ㅈ",
+                "sound_vi": "ch/j (nhẹ)",
+                "example": "자"
+              },
+              {
+                "jamo": "ㅎ",
+                "sound_vi": "h",
+                "example": "하"
+              }
+            ]
+          },
+          {
+            "title_vi": "4 phụ âm bật hơi",
+            "note_vi": "Mỗi chữ là chữ bên trên thêm một nét.",
+            "letters": [
+              {
+                "jamo": "ㅋ",
+                "sound_vi": "k bật hơi",
+                "example": "카"
+              },
+              {
+                "jamo": "ㅌ",
+                "sound_vi": "th",
+                "example": "타"
+              },
+              {
+                "jamo": "ㅍ",
+                "sound_vi": "p bật hơi",
+                "example": "파"
+              },
+              {
+                "jamo": "ㅊ",
+                "sound_vi": "ch bật hơi",
+                "example": "차"
+              }
+            ]
+          }
+        ],
+        "build": [
+          "가",
+          "나",
+          "저",
+          "누",
+          "카",
+          "투"
+        ],
+        "picks": [
+          {
+            "hear": "나",
+            "options": [
+              "나",
+              "다",
+              "라",
+              "마"
+            ],
+            "answer": "나"
+          },
+          {
+            "hear": "거",
+            "options": [
+              "거",
+              "커",
+              "허",
+              "어"
+            ],
+            "answer": "거"
+          },
+          {
+            "hear": "타",
+            "options": [
+              "다",
+              "타",
+              "차",
+              "자"
+            ],
+            "answer": "타"
+          },
+          {
+            "hear": "피",
+            "options": [
+              "비",
+              "피",
+              "히",
+              "미"
+            ],
+            "answer": "피"
+          },
+          {
+            "hear": "소",
+            "options": [
+              "조",
+              "소",
+              "초",
+              "호"
+            ],
+            "answer": "소"
+          }
+        ],
+        "words": [
+          {
+            "ko": "저",
+            "vi": "tôi (lịch sự)"
+          },
+          {
+            "ko": "나",
+            "vi": "tôi (thân mật)"
+          },
+          {
+            "ko": "나라",
+            "vi": "đất nước"
+          },
+          {
+            "ko": "가수",
+            "vi": "ca sĩ"
+          },
+          {
+            "ko": "누구",
+            "vi": "ai"
+          },
+          {
+            "ko": "어디",
+            "vi": "ở đâu"
+          },
+          {
+            "ko": "여기",
+            "vi": "ở đây"
+          },
+          {
+            "ko": "거기",
+            "vi": "ở đó"
+          },
+          {
+            "ko": "저기",
+            "vi": "ở kia"
+          },
+          {
+            "ko": "어느",
+            "vi": "… nào"
+          },
+          {
+            "ko": "커피",
+            "vi": "cà phê"
+          },
+          {
+            "ko": "포도",
+            "vi": "nho"
+          }
+        ]
+      },
+      {
+        "id": "p3",
+        "title_vi": "Âm căng & nguyên âm ghép",
+        "goal_vi": "Phân biệt 가 · 카 · 까 và đọc được 씨, 의사, 뭐, 왜, 예요.",
+        "swan_vi": "Dải bịt mắt đã lỏng ra rồi.",
+        "explain": [
+          {
+            "title": "Bộ ba: thường · bật hơi · căng",
+            "body": "`가` thường (nhẹ), `카` bật hơi (hơi mạnh), `까` căng (thắt cổ họng, **không** có hơi: giấy không bay). Âm căng viết bằng chữ đôi: `ㄲ ㄸ ㅃ ㅆ ㅉ`."
+          },
+          {
+            "title": "Mốc tiếng Việt cho âm căng",
+            "body": "`까` gần «ca», `따` gần «ta», `짜` gần «cha» của tiếng Việt (đều không bật hơi). `ㅃ` gần «p» trong «pin». `ㅆ` là «x» căng, rõ hơn."
+          },
+          {
+            "title": "Nguyên âm ghép theo cách nói thật",
+            "body": "`ㅐ` và `ㅔ` người Seoul đọc gần như giống nhau (e/ê); `ㅙ`, `ㅚ`, `ㅞ` cũng gần như một âm «uê». Chữ viết vẫn khác, nên học từ nào nhớ chữ của từ đó."
+          },
+          {
+            "title": "의 có 3 cách đọc",
+            "body": "Đầu từ đọc [의]: `의사`. Sau phụ âm đọc [이]: `희망` [히망]. Làm trợ từ «của» đọc [에]: `저의 책` [저에 책] (bài Nền tảng 1 dùng cách này). `ㅖ` sau phụ âm (trừ `ㄹ`) đọc [ㅔ]: `시계` [시게]."
+          }
+        ],
+        "groups": [
+          {
+            "title_vi": "5 phụ âm căng",
+            "letters": [
+              {
+                "jamo": "ㄲ",
+                "sound_vi": "c (căng)",
+                "example": "까"
+              },
+              {
+                "jamo": "ㄸ",
+                "sound_vi": "t (căng)",
+                "example": "따"
+              },
+              {
+                "jamo": "ㅃ",
+                "sound_vi": "p (căng)",
+                "example": "빠"
+              },
+              {
+                "jamo": "ㅆ",
+                "sound_vi": "x (căng)",
+                "example": "싸"
+              },
+              {
+                "jamo": "ㅉ",
+                "sound_vi": "ch (căng)",
+                "example": "짜"
+              }
+            ]
+          },
+          {
+            "title_vi": "e/ê và ye/yê",
+            "letters": [
+              {
+                "jamo": "ㅐ",
+                "sound_vi": "e",
+                "example": "애"
+              },
+              {
+                "jamo": "ㅔ",
+                "sound_vi": "ê (≈ ㅐ)",
+                "example": "에"
+              },
+              {
+                "jamo": "ㅒ",
+                "sound_vi": "ye",
+                "example": "얘"
+              },
+              {
+                "jamo": "ㅖ",
+                "sound_vi": "yê",
+                "example": "예"
+              }
+            ]
+          },
+          {
+            "title_vi": "Ghép với ㅗ / ㅜ / ㅡ",
+            "letters": [
+              {
+                "jamo": "ㅘ",
+                "sound_vi": "oa",
+                "example": "와"
+              },
+              {
+                "jamo": "ㅙ",
+                "sound_vi": "uê",
+                "example": "왜"
+              },
+              {
+                "jamo": "ㅚ",
+                "sound_vi": "uê (≈ ㅙ)",
+                "example": "외"
+              },
+              {
+                "jamo": "ㅝ",
+                "sound_vi": "uơ",
+                "example": "워"
+              },
+              {
+                "jamo": "ㅞ",
+                "sound_vi": "uê (≈ ㅙ)",
+                "example": "웨"
+              },
+              {
+                "jamo": "ㅟ",
+                "sound_vi": "uy",
+                "example": "위"
+              },
+              {
+                "jamo": "ㅢ",
+                "sound_vi": "ưi",
+                "example": "의"
+              }
+            ]
+          }
+        ],
+        "picks": [
+          {
+            "hear": "까",
+            "options": [
+              "가",
+              "카",
+              "까"
+            ],
+            "answer": "까"
+          },
+          {
+            "hear": "타",
+            "options": [
+              "다",
+              "타",
+              "따"
+            ],
+            "answer": "타"
+          },
+          {
+            "hear": "빠",
+            "options": [
+              "바",
+              "파",
+              "빠"
+            ],
+            "answer": "빠"
+          },
+          {
+            "hear": "자",
+            "options": [
+              "자",
+              "차",
+              "짜"
+            ],
+            "answer": "자"
+          },
+          {
+            "hear": "싸",
+            "options": [
+              "사",
+              "싸",
+              "차"
+            ],
+            "answer": "싸"
+          },
+          {
+            "hear": "워",
+            "options": [
+              "와",
+              "워",
+              "위"
+            ],
+            "answer": "워"
+          }
+        ],
+        "words": [
+          {
+            "ko": "씨",
+            "vi": "anh / chị (gọi sau tên: 마이 씨)"
+          },
+          {
+            "ko": "의사",
+            "vi": "bác sĩ"
+          },
+          {
+            "ko": "뭐",
+            "vi": "cái gì"
+          },
+          {
+            "ko": "왜",
+            "vi": "tại sao"
+          },
+          {
+            "ko": "예요",
+            "vi": "là (đuôi câu sau từ không có patchim)"
+          },
+          {
+            "ko": "저의",
+            "vi": "của tôi",
+            "say": "저에"
+          },
+          {
+            "ko": "사과",
+            "vi": "quả táo"
+          },
+          {
+            "ko": "시계",
+            "vi": "đồng hồ",
+            "say": "시게"
+          },
+          {
+            "ko": "아빠",
+            "vi": "bố"
+          },
+          {
+            "ko": "토끼",
+            "vi": "con thỏ"
+          }
+        ]
+      },
+      {
+        "id": "p4",
+        "title_vi": "Patchim: phụ âm cuối",
+        "goal_vi": "Đọc được 학생, 책, 사람… và nhìn chữ là biết dùng 이에요 hay 예요.",
+        "swan_vi": "Đáy mỗi khối chữ đã rõ rồi.",
+        "explain": [
+          {
+            "title": "Tầng thứ ba của khối chữ",
+            "body": "Phụ âm nằm ở đáy khối gọi là patchim (받침): `학` = `ㅎ` + `ㅏ` + `ㄱ`. Có 27 cách viết nhưng chỉ đọc ra **7 âm**."
+          },
+          {
+            "title": "Giống âm cuối tiếng Việt",
+            "body": "Âm cuối [ㄱ] [ㄷ] [ㅂ] đọc tắc, không bật ra, như «c», «t», «p» trong «các», «cát», «cáp». [ㅇ] là «ng» như «sáng». [ㄹ] là «l» cong lưỡi, tiếng Việt không có."
+          },
+          {
+            "title": "Chìa khoá ngữ pháp của Nền tảng 1",
+            "body": "Nhìn **khối chữ cuối** của từ: có patchim → `이에요`, `은`, `이`; không có → `예요`, `는`, `가`. Xét theo **chữ viết**: `이것` đọc [이걷] nhưng vẫn có patchim → `이것이에요`. `친구` có `ㄴ` ở khối đầu nhưng khối cuối `구` không có → `친구예요`."
+          },
+          {
+            "title": "Patchim kép",
+            "body": "Hai phụ âm ở đáy thường chỉ đọc một: `없다` [업따], `읽다` [익따]. Khi sau nó là nguyên âm thì cả hai cùng kêu: `없어요` [업써요]."
+          }
+        ],
+        "groups": [
+          {
+            "title_vi": "7 âm cuối đại diện",
+            "note_vi": "Trong ngoặc là những patchim cùng đọc thành âm đó.",
+            "letters": [
+              {
+                "jamo": "ㄱ",
+                "sound_vi": "c tắc (ㄱ ㅋ ㄲ)",
+                "example": "책"
+              },
+              {
+                "jamo": "ㄴ",
+                "sound_vi": "n",
+                "example": "산"
+              },
+              {
+                "jamo": "ㄷ",
+                "sound_vi": "t tắc (ㄷ ㅌ ㅅ ㅆ ㅈ ㅊ ㅎ)",
+                "example": "곧"
+              },
+              {
+                "jamo": "ㄹ",
+                "sound_vi": "l",
+                "example": "일"
+              },
+              {
+                "jamo": "ㅁ",
+                "sound_vi": "m",
+                "example": "밤"
+              },
+              {
+                "jamo": "ㅂ",
+                "sound_vi": "p tắc (ㅂ ㅍ)",
+                "example": "밥"
+              },
+              {
+                "jamo": "ㅇ",
+                "sound_vi": "ng",
+                "example": "방"
+              }
+            ]
+          }
+        ],
+        "build": [
+          "학",
+          "책",
+          "생",
+          "람",
+          "국",
+          "본",
+          "름"
+        ],
+        "sort": [
+          "학생",
+          "의사",
+          "가수",
+          "친구",
+          "사람",
+          "선생님",
+          "회사원",
+          "책",
+          "컴퓨터",
+          "휴대폰",
+          "가방",
+          "나라",
+          "이것",
+          "한국어",
+          "베트남",
+          "일본"
+        ],
+        "words": [
+          {
+            "ko": "학생",
+            "vi": "học sinh, sinh viên",
+            "say": "학쌩"
+          },
+          {
+            "ko": "책",
+            "vi": "sách"
+          },
+          {
+            "ko": "가방",
+            "vi": "cặp, túi"
+          },
+          {
+            "ko": "사람",
+            "vi": "người"
+          },
+          {
+            "ko": "이름",
+            "vi": "tên"
+          },
+          {
+            "ko": "선생님",
+            "vi": "thầy, cô giáo"
+          },
+          {
+            "ko": "친구",
+            "vi": "bạn bè"
+          },
+          {
+            "ko": "회사원",
+            "vi": "nhân viên công ty"
+          },
+          {
+            "ko": "한국",
+            "vi": "Hàn Quốc"
+          },
+          {
+            "ko": "베트남",
+            "vi": "Việt Nam"
+          },
+          {
+            "ko": "일본",
+            "vi": "Nhật Bản"
+          },
+          {
+            "ko": "컴퓨터",
+            "vi": "máy tính"
+          },
+          {
+            "ko": "휴대폰",
+            "vi": "điện thoại di động"
+          },
+          {
+            "ko": "이것",
+            "vi": "cái này",
+            "say": "이걷"
+          },
+          {
+            "ko": "몇",
+            "vi": "mấy",
+            "say": "멷"
+          },
+          {
+            "ko": "그것",
+            "vi": "cái đó",
+            "say": "그걷"
+          },
+          {
+            "ko": "저것",
+            "vi": "cái kia",
+            "say": "저걷"
+          },
+          {
+            "ko": "언제",
+            "vi": "khi nào"
+          },
+          {
+            "ko": "무슨",
+            "vi": "… gì (loại gì)"
+          },
+          {
+            "ko": "얼마",
+            "vi": "bao nhiêu (tiền)"
+          }
+        ]
+      },
+      {
+        "id": "p5",
+        "title_vi": "Biến âm & gõ phím",
+        "goal_vi": "Nghe ra câu nói nhanh của Nền tảng 1 và gõ được 예요, 학생 trên điện thoại.",
+        "swan_vi": "Nghe được, gõ được rồi!",
+        "explain": [
+          {
+            "title": "Chữ viết giữ nguyên, tiếng nói đổi",
+            "body": "Khi đọc liền, âm cuối và âm đầu khối sau ảnh hưởng nhau. Chữ viết **không đổi**: chỉ cần nghe ra, còn viết thì vẫn viết như cũ."
+          }
+        ],
+        "rules": [
+          {
+            "title_vi": "Nối âm",
+            "body_vi": "Patchim gặp khối bắt đầu bằng `ㅇ` thì trượt sang thay chỗ `ㅇ`. Riêng patchim `ㅇ` đứng yên, patchim `ㅎ` thì câm.",
+            "changes": [
+              {
+                "written": "사람이에요",
+                "said": "사라미에요",
+                "vi": "là người"
+              },
+              {
+                "written": "한국어",
+                "said": "한구거",
+                "vi": "tiếng Hàn"
+              },
+              {
+                "written": "이것은",
+                "said": "이거슨",
+                "vi": "cái này thì"
+              },
+              {
+                "written": "책이에요",
+                "said": "채기에요",
+                "vi": "là sách"
+              },
+              {
+                "written": "선생님이에요",
+                "said": "선생니미에요",
+                "vi": "là thầy cô"
+              },
+              {
+                "written": "가방이에요",
+                "said": "가방이에요",
+                "vi": "patchim ㅇ: không trượt"
+              },
+              {
+                "written": "좋아요",
+                "said": "조아요",
+                "vi": "patchim ㅎ: câm"
+              }
+            ]
+          },
+          {
+            "title_vi": "Căng hoá",
+            "body_vi": "Sau âm cuối [ㄱ] [ㄷ] [ㅂ], phụ âm `ㄱ ㄷ ㅂ ㅅ ㅈ` của khối sau đọc thành âm căng.",
+            "changes": [
+              {
+                "written": "학생",
+                "said": "학쌩",
+                "vi": "học sinh"
+              },
+              {
+                "written": "학교",
+                "said": "학꾜",
+                "vi": "trường học"
+              },
+              {
+                "written": "식당",
+                "said": "식땅",
+                "vi": "quán ăn"
+              }
+            ]
+          },
+          {
+            "title_vi": "Mũi hoá",
+            "body_vi": "Âm cuối [ㄱ] [ㄷ] [ㅂ] gặp `ㄴ` hoặc `ㅁ` thì đọc thành [ㅇ] [ㄴ] [ㅁ]. Gặp trong mọi câu kết thúc bằng `-ㅂ니다`.",
+            "changes": [
+              {
+                "written": "입니다",
+                "said": "임니다",
+                "vi": "là (trang trọng)"
+              },
+              {
+                "written": "감사합니다",
+                "said": "감사함니다",
+                "vi": "cảm ơn"
+              },
+              {
+                "written": "한국말",
+                "said": "한궁말",
+                "vi": "tiếng Hàn (nói)"
+              }
+            ]
+          },
+          {
+            "title_vi": "ㅎ bật hơi",
+            "body_vi": "`ㅎ` gặp `ㄱ ㄷ ㅈ` (hoặc ngược lại) thì hai âm nhập thành âm bật hơi `ㅋ ㅌ ㅊ`.",
+            "changes": [
+              {
+                "written": "어떻게",
+                "said": "어떠케",
+                "vi": "như thế nào"
+              },
+              {
+                "written": "좋다",
+                "said": "조타",
+                "vi": "tốt"
+              },
+              {
+                "written": "축하",
+                "said": "추카",
+                "vi": "chúc mừng"
+              }
+            ]
+          }
+        ],
+        "picks": [
+          {
+            "hear": "한국어",
+            "options": [
+              "한국어",
+              "한구거",
+              "항국어"
+            ],
+            "answer": "한국어"
+          },
+          {
+            "hear": "학생이에요",
+            "options": [
+              "학생이에요",
+              "학쌩이에요",
+              "학새이에요"
+            ],
+            "answer": "학생이에요"
+          },
+          {
+            "hear": "감사합니다",
+            "options": [
+              "감사합니다",
+              "감사함니다",
+              "감사하니다"
+            ],
+            "answer": "감사합니다"
+          }
+        ],
+        "keyboard": [
+          "예요",
+          "학생",
+          "사람이에요"
+        ]
+      }
+    ]
+  }
+}

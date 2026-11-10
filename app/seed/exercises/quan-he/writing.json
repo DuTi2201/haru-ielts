@@ -1,0 +1,2664 @@
+{
+  "skill": "writing",
+  "guide": [
+    {
+      "title_vi": "Viết 53 · ① Câu 53 là gì? Bạn được chấm gì?",
+      "body_vi": "Nếu đây là lần đầu bạn gặp đề thi: câu 53 là câu có **khuôn cố định nhất** của phần Viết. Đề đưa sẵn số liệu; bạn không cần nghĩ ý, chỉ cần **kể lại số liệu bằng câu văn đúng khuôn**. Thuộc khuôn là viết được bài nào cũng được.",
+      "bullets_vi": [
+        "**Đề cho gì:** tên cuộc khảo sát, một hoặc hai biểu đồ (hoặc bảng), thường kèm ô ghi **nguyên nhân** và đôi khi ô **dự báo**.",
+        "**Bạn phải viết gì:** một đoạn văn **200–300 chữ** (30 điểm, gợi ý khoảng 12 phút), bằng văn viết thể 한다체 (`-다`, `-았/었다`, `-하였다`).",
+        "**Không được làm:** nêu ý kiến riêng (`바람직하다`, `필요하다`, «tôi nghĩ»), thêm số liệu không có trong đề, viết tiêu đề, dùng văn nói (`-요`, 근데, 진짜).",
+        "**Người chấm nhìn ba thứ** (tên tiêu chí đã đối chiếu nguồn): đủ nội dung đề yêu cầu · cấu trúc rõ · ngôn ngữ đúng và đa dạng. Tỉ trọng 7·7·16 ở cuối bài là ước lượng lấy từ sách luyện thi, chưa xác minh với bảng chấm chính thức.",
+        "**Tin tốt:** dù số liệu đổi, bài luôn được lắp từ tối đa **5 khối T·O·P·I·K theo cùng thứ tự**. Bạn học công thức của từng khối, rồi thay số liệu của đề vào.",
+        "**Lộ trình trong bài này:** đọc mục ②–⑩ (khoảng 15 phút) → làm bài **«Lắp khối 53»** (điền công thức) → viết cả bài 53, tính giờ → tự kiểm và so với bài mẫu **đã tách khối**."
+      ]
+    },
+    {
+      "title_vi": "Viết 53 · ② Nhìn ra loại biểu đồ",
+      "body_vi": "Việc đầu tiên khi nhận đề là gọi tên loại biểu đồ, vì loại biểu đồ quyết định bạn dùng **động từ nào**.",
+      "table": {
+        "header": [
+          "Loại",
+          "Cho thấy",
+          "Từ và cụm hay dùng"
+        ],
+        "rows": [
+          [
+            "Biểu đồ đường (선 그래프)",
+            "Thay đổi **theo thời gian**",
+            "`증가하다` · `감소하다` · `늘어나다` · `줄어들다` · `앞지르다` · `역전 현상이 나타났다`"
+          ],
+          [
+            "Biểu đồ cột (막대 그래프)",
+            "So sánh **giữa các mục** (có thể ở hai năm)",
+            "`가장 높다` · `그 뒤를 이었다` · `N배` · `N%p`"
+          ],
+          [
+            "Biểu đồ tròn (원 그래프)",
+            "**Tỉ lệ** các phần trong tổng 100%",
+            "`차지하다` · `비중` · `비율` · `가장 높은 비율을 차지하였다`"
+          ],
+          [
+            "Bảng số liệu (표)",
+            "Nhiều mục × nhiều mốc",
+            "Như biểu đồ cột; luôn tự tính hiệu số"
+          ]
+        ]
+      },
+      "bullets_vi": [
+        "**Mẹo nhanh:** trục ngang có **nhiều mốc năm** → xu hướng thay đổi (tăng, giảm). Trục ngang là các **mục** (loại, nhóm tuổi…) → so sánh (cao nhất, chênh lệch). Cột ghép hai năm là cả hai: so mục, rồi so năm.",
+        "**Hai biểu đồ:** biểu đồ cho **tổng thể** (thường là đường) viết vào khối **O**; biểu đồ cho **chi tiết theo nhóm** (cột hoặc tròn) viết vào khối **P**. Luôn viết **tổng thể trước, chi tiết sau**."
+      ]
+    },
+    {
+      "title_vi": "Viết 53 · ③ Năm bước đọc đề",
+      "body_vi": "Trước khi viết chữ nào, hãy mất khoảng 2 phút trả lời năm câu hỏi và **gạch dưới câu trả lời ngay trên đề**. Ví dụ tự soạn: khảo sát «대학생의 도서관 이용 변화» của 한국도서관연구원, một biểu đồ đường (số lượt người dùng) và một biểu đồ cột (mục đích sử dụng), kèm ô nguyên nhân và ô dự báo.",
+      "table": {
+        "header": [
+          "Bước",
+          "Câu hỏi",
+          "Trong ví dụ"
+        ],
+        "rows": [
+          [
+            "① Ai",
+            "Cơ quan nào khảo sát?",
+            "한국도서관연구원"
+          ],
+          [
+            "② Về gì",
+            "Chủ đề khảo sát là gì?",
+            "대학생의 도서관 이용 변화"
+          ],
+          [
+            "③ Khi nào",
+            "Có những mốc thời gian nào?",
+            "2015년 và 2025년 (hai mốc)"
+          ],
+          [
+            "④ Bao nhiêu",
+            "Con số then chốt, bội số, hiệu số?",
+            "Tổng: 300만 → 600만 (2배). Mục đích: 공부 50 → 35% (−15%p), 휴식·문화 활동 20 → 45% (2배 이상), mục khác 30 → 20%"
+          ],
+          [
+            "⑤ Vì sao, rồi sao",
+            "Có ô nguyên nhân hoặc dự báo không?",
+            "Nguyên nhân: 복합 문화 공간 확대 · 전자책 대출 도입. Dự báo: 2030년 문화 활동 50% 이상"
+          ]
+        ]
+      },
+      "bullets_vi": [
+        "**Có ô nguyên nhân → thêm khối I. Có ô dự báo → thêm khối K.** Không có thì bỏ khối đó, đừng tự bịa.",
+        "Với đường nhiều mốc, chỉ cần **mốc đầu và mốc cuối** cùng mục nổi bật; không kể từng mốc."
+      ]
+    },
+    {
+      "title_vi": "Viết 53 · ④ Năm khối T·O·P·I·K và công thức",
+      "body_vi": "Mỗi khối làm **một việc** và có một công thức câu. Thuộc năm công thức này là có xương sống của bài 200–300 chữ.",
+      "table": {
+        "header": [
+          "Khối",
+          "Việc phải làm",
+          "Công thức (thay A, B và số liệu)"
+        ],
+        "rows": [
+          [
+            "**T** Mở bài",
+            "Cơ quan + chủ đề",
+            "`A에서 B에 대해 조사하였다.` hoặc `A의 조사에 따르면, 이 자료는 B의 변화를 보여 준다.` hoặc (có số người) `N명을 대상으로 B를 조사한 결과,`"
+          ],
+          [
+            "**O** Tổng quan",
+            "Số liệu tổng và xu hướng",
+            "`조사 결과 전체 A는 X년 …에서 Y년 …(으)로 (약) N배 증가한 것으로 나타났다.`"
+          ],
+          [
+            "**P** Chi tiết",
+            "So sánh, đối chiếu giữa các mục",
+            "`A는 …한 반면, B는 …하였다.` · `…이/가 N%로 가장 높았고 …이/가 그 뒤를 이었다.`"
+          ],
+          [
+            "**I** Nguyên nhân",
+            "Giải thích vì sao (ghép đủ các ý của ô)",
+            "`이러한 변화의 원인은 A가 -았/었고 B가 -았/었기 때문이다.`"
+          ],
+          [
+            "**K** Kết, dự báo",
+            "Chốt lại hoặc nhìn về tương lai",
+            "`이러한 추세라면 Y년에는 … -(으)ㄹ 것으로 전망된다/예상된다.` · `이를 통해 … 알 수 있다.`"
+          ]
+        ]
+      },
+      "bullets_vi": [
+        "**Thứ tự cố định** T → O → P → I → K. Đề không có ô nguyên nhân thì bỏ I; không có ô dự báo thì bỏ K (có thể kết bằng `이를 통해 … 알 수 있다`).",
+        "Mỗi khối thường **1–2 câu**; cả bài chỉ khoảng **5–7 câu**. Nhắm tổng **240–280 chữ** để còn dư an toàn ở hai đầu 200 và 300.",
+        "Chỉ có một biểu đồ nhưng hai nhóm: **gộp O + P** thành một câu `A는 …한 것에 비해 B는 …`.",
+        "Mở bài chọn **một** kiểu và dùng nhất quán. Nếu đã mở bằng `…의 조사에 따르면` thì không cần nhắc lại `조사 결과` ở đầu khối O."
+      ]
+    },
+    {
+      "title_vi": "Viết 53 · ⑤ Chọn từ theo cỡ thay đổi và cách viết số",
+      "body_vi": "Cùng là «tăng» nhưng tăng nhẹ hay tăng vọt thì dùng từ khác nhau. Chọn từ theo **cỡ thay đổi** thay vì lặp mãi `증가하였다`.",
+      "table": {
+        "header": [
+          "Cỡ thay đổi",
+          "Gợi ý bội số*",
+          "Từ và cụm hay dùng"
+        ],
+        "rows": [
+          [
+            "Tăng vọt",
+            "từ khoảng 4 lần",
+            "`급증하였다` · `대폭 증가하였다` · `크게 늘어났다`"
+          ],
+          [
+            "Tăng rõ",
+            "khoảng 1,5–3 lần",
+            "`증가하였다` · `늘어났다` · `상승하였다`"
+          ],
+          [
+            "Tăng nhẹ",
+            "khoảng 1,1–1,4 lần",
+            "`소폭 증가하였다` · `약간 늘어났다` · `소폭 증가하는 데 그쳤다`"
+          ],
+          [
+            "Giảm nhẹ",
+            "",
+            "`소폭 감소하였다` · `약간 줄었다` · `소폭 감소하는 데 그쳤다`"
+          ],
+          [
+            "Giảm",
+            "",
+            "`감소하였다` · `줄어들었다` · `하락하였다` · `하락세를 보였다`"
+          ],
+          [
+            "Giảm mạnh",
+            "",
+            "`급감하였다` · `대폭 감소하였다` · `크게 줄어들었다`"
+          ],
+          [
+            "Không đổi",
+            "",
+            "`변화가 없었다` · `비슷한 수준을 유지하였다`"
+          ]
+        ]
+      },
+      "bullets_vi": [
+        "*Bội số chỉ là gợi ý để chọn từ của giáo trình tham khảo, không phải quy định của đề thi.",
+        "**Ba cách viết một con số:** (1) con số chính xác `42%로 가장 높았다`; (2) từ A đến B `14만 명에서 21만 명으로 증가하였다`; (3) số lần `약 1.5배 증가하였다` · `2배나 급증하였다` (`N배` rất hay gặp trong bài 53).",
+        "**% và %p:** hiệu số của hai **tỉ lệ** viết `%p`. `35%`에서 `25%`로 → `10%p 감소` (không viết «giảm 10%»)."
+      ]
+    },
+    {
+      "title_vi": "Viết 53 · ⑥ Khối P: các kiểu đối chiếu",
+      "body_vi": "Khối P cho người chấm thấy bạn **so sánh được**, không chỉ chép số. Bốn công thức dưới đây đủ cho hầu hết đề.",
+      "table": {
+        "header": [
+          "Kiểu",
+          "Công thức",
+          "Ví dụ (tự soạn)"
+        ],
+        "rows": [
+          [
+            "① Song song",
+            "`A는 증가한 반면, B는 감소하였다.`",
+            "배달 주문은 증가한 반면, 매장 방문은 감소하였다."
+          ],
+          [
+            "② Mức độ",
+            "`A가 1.2배 증가한 것에 비해, B는 3배나 급증하였다.`",
+            "20대가 1.2배 증가한 것에 비해, 70대는 3배나 급증하였다."
+          ],
+          [
+            "③ Đảo ngược",
+            "`A는 소폭 …하는 데 그친 반면, B는 대폭 …하며 A를 앞지르는 역전 현상이 나타났다.`",
+            "극장 관람객은 소폭 감소하는 데 그친 반면, 온라인 영상 이용자는 대폭 증가하며 극장 관람객을 앞지르는 역전 현상이 나타났다."
+          ],
+          [
+            "④ Xếp hạng",
+            "`…이/가 N%로 가장 높았고 …이/가 N%로 그 뒤를 이었다.`",
+            "휴식이 50%로 가장 높았고 맛집 방문이 25%로 그 뒤를 이었다."
+          ]
+        ]
+      },
+      "bullets_vi": [
+        "Dùng **은/는** ở cả hai vế để chỗ đối chiếu nổi rõ: `A는 …한 반면, B는 …하였다`.",
+        "Hai đường **cắt nhau** (một đường vượt đường kia): nêu **năm** đổi chỗ hoặc dùng `역전 현상이 나타났다` (kiểu ③).",
+        "Không bỏ sót mục **nổi bật** (đứng đầu, tăng hoặc giảm nhiều nhất, đổi thứ hạng). Bảng nhỏ 3–4 mục thì nhắc đủ."
+      ]
+    },
+    {
+      "title_vi": "Viết 53 · ⑦ Khối I và K: nguyên nhân, dự báo",
+      "body_vi": "Hai khối này gần như **chép lại ô gợi ý của đề** bằng đúng khuôn câu, nên là chỗ lấy điểm dễ nếu bạn không sai ngữ pháp.",
+      "table": {
+        "header": [
+          "Khối",
+          "Công thức",
+          "Ví dụ (tự soạn)"
+        ],
+        "rows": [
+          [
+            "I · trực tiếp",
+            "`이는 A와 B 때문이다.` · `이러한 변화의 원인은 A와 B 때문이다.`",
+            "이는 전자책 서비스가 도입되고 야간 이용이 늘었기 때문이다."
+          ],
+          [
+            "I · nối nguyên nhân → kết quả ①",
+            "`이는 A로 B가 확대되었기 때문이다.`",
+            "이는 온라인 판매 증가로 생산과 배송이 확대되었기 때문이다."
+          ],
+          [
+            "I · nối ②",
+            "`이는 A가 늘어나면서 B가 형성되었기 때문이다.`",
+            "이는 청년층의 취미 활동이 늘어나면서 새로운 동호회가 형성되었기 때문이다."
+          ],
+          [
+            "I · nối ③",
+            "`이는 A로 인해 B가 쉬워졌기/높아졌기 때문이다.`",
+            "이는 온라인 예매로 인해 공연 관람이 쉬워졌기 때문이다."
+          ],
+          [
+            "K · kết luận",
+            "`이를 통해 …을/를 알 수 있다.`",
+            "이를 통해 학생들이 공부보다 휴식을 중시함을 알 수 있다."
+          ],
+          [
+            "K · dự báo",
+            "`이러한 추세라면 Y년에는 … -(으)ㄹ 것으로 전망된다/예상된다.`",
+            "이러한 추세라면 2030년에는 이용자가 70%를 넘을 것으로 예상된다."
+          ]
+        ]
+      },
+      "bullets_vi": [
+        "Ô nguyên nhân có **hai ý** thì ghép cả hai vào **một câu** bằng `-고 … 때문이다`. Nối được nguyên nhân với kết quả (kiểu ①–③) thì câu giàu ý hơn chỉ liệt kê.",
+        "**Nội động từ dùng `이/가`:** `접근성이 향상되었다`, `수요가 증가하였다` (❌ `접근성을 향상되었다`).",
+        "**Dự báo luôn ở thì tương lai** `-(으)ㄹ 것으로 전망된다/예상된다` (❌ `넘었다`, `넘는다`). Ô dự báo đã ghi năm thì giữ nguyên năm đó."
+      ]
+    },
+    {
+      "title_vi": "Viết 53 · ⑧ Chọn khung theo dạng đề",
+      "body_vi": "Sau năm bước đọc đề, tra bảng này để biết viết khối nào. Cột cuối là bài của Chủ đề 4 có dạng đề đó.",
+      "table": {
+        "header": [
+          "Đề có…",
+          "Bạn viết",
+          "Luyện ở"
+        ],
+        "rows": [
+          [
+            "Một biểu đồ cột hoặc bảng, không có ô gợi ý",
+            "T · O · P (kết bằng nhận xét chung)",
+            "Bài 34"
+          ],
+          [
+            "Biểu đồ đường + ô nguyên nhân + ô dự báo",
+            "T · O · P · I · K",
+            "Bài 35"
+          ],
+          [
+            "Hai biểu đồ tròn của hai năm",
+            "O mô tả năm đầu, P mô tả thay đổi ở năm sau",
+            "Bài 36"
+          ],
+          [
+            "Bảng số liệu hai năm",
+            "Chọn mục giảm mạnh, mục tăng, mục đứng đầu; hiệu số `%p`",
+            "Bài 37"
+          ],
+          [
+            "Hai đường cắt nhau",
+            "P nêu năm đổi chỗ (`역전 현상`)",
+            "Bài 38"
+          ],
+          [
+            "Biểu đồ cột hai năm theo nhóm",
+            "Chọn nhóm tăng nhiều nhất, thứ hai, ít nhất",
+            "Bài 39"
+          ],
+          [
+            "Hai biểu đồ khác loại (đường + tròn)",
+            "O ← đường, P ← tròn; đủ 5 khối",
+            "Bài 40"
+          ],
+          [
+            "Một biểu đồ đường có hai nhóm",
+            "Gộp O + P rồi so khoảng cách bằng `%p`",
+            "Bài 41"
+          ]
+        ]
+      }
+    },
+    {
+      "title_vi": "Viết 53 · ⑨ Bài mẫu lắp đủ 5 khối",
+      "body_vi": "Đề tự soạn ở mục ③ viết thành bài 291 chữ (đã tính cả dấu cách). Đọc từng khối và so với công thức ở mục ④.",
+      "bullets_vi": [
+        "**T** (38 chữ) 한국도서관연구원에서 '대학생의 도서관 이용 변화'에 대해 조사하였다.",
+        "**O** (62 chữ) 조사 결과 전체 이용자 수는 2015년 300만 명에서 2025년 600만 명으로 2배 늘어난 것으로 나타났다.",
+        "**P** (84 chữ) 목적별로 보면 공부는 50%에서 35%로 15%p 감소한 반면, 휴식·문화 활동은 20%에서 45%로 2배 이상 증가하여 가장 높은 비율을 차지하였다.",
+        "**I** (52 chữ) 이러한 변화의 원인은 도서관이 복합 문화 공간으로 확대되고 전자책 대출이 도입되었기 때문이다.",
+        "**K** (51 chữ) 이러한 추세라면 2030년에는 문화 활동 목적의 이용자가 50% 이상이 될 것으로 전망된다.",
+        "Kiểm số: 20 → 45 là hơn 2 lần (45 ÷ 20 = 2,25) nên viết `2배 이상`; 35 − 50 = −15 nên `15%p 감소`; 50 + 20 + 30 = 100 và 35 + 45 + 20 = 100.",
+        "Hai ô nguyên nhân đều có mặt trong khối I, ô dự báo trong khối K, không có ý kiến riêng."
+      ]
+    },
+    {
+      "title_vi": "Viết 53 · ⑩ Những lỗi làm mất điểm",
+      "bullets_vi": [
+        "**% thay cho %p:** ❌ `10% 감소` (khi là hiệu của hai tỉ lệ) → ✔ `10%p 감소`.",
+        "**Thì của dự báo:** ❌ `2040년에는 43%를 넘었다/넘는다` → ✔ `넘을 것으로 전망된다`.",
+        "**Sai trợ từ của nội động từ:** ❌ `수요를 증가했다` → ✔ `수요가 증가했다`.",
+        "**Thể văn:** ❌ `증가했어요` · `증가했습니다` → ✔ `증가하였다` · `증가했다`. Không trộn 해요체, không viết văn nói.",
+        "**Ý kiến riêng hoặc số bịa:** ❌ `이것은 매우 좋은 변화이다` → ✔ chỉ kể số liệu và nguyên nhân/dự báo mà đề đã ghi.",
+        "**Số liệu sai hoặc chép nguyên đề:** mỗi con số phải có trong đề hoặc tính ra từ đề (hiệu số, bội số). Viết lại bằng câu của mình, đừng chép lại câu của đề.",
+        "**Tiêu đề, thiếu hoặc thừa chữ:** không viết tiêu đề; dưới 200 hoặc trên 300 chữ đều không an toàn.",
+        "**Kể hết mọi con số:** chọn mốc đầu, mốc cuối và mục nổi bật; bài chỉ có 300 chữ."
+      ]
+    },
+    {
+      "title_vi": "Viết 53 · ⑪ Cách luyện: 3 bậc, 12 phút, đếm chữ",
+      "bullets_vi": [
+        "**Bậc 1 · Hiểu khung.** Mở «Khung bài viết gợi ý» của đề: đọc 5 bước đọc đề và dàn ý theo khối. Sau khi nộp, đọc bài mẫu **đã tách khối** và chỉ ra câu nào là T, O, P, I, K.",
+        "**Bậc 2 · Lắp khối.** Làm bài **«Lắp khối 53»** của bài học: điền đúng công thức vào chỗ trống (xếp hạng, `%p`, bội số, `-(으)ㄹ 것으로 전망된다`).",
+        "**Bậc 3 · Viết cả bài.** Đặt đồng hồ **12 phút**: 2 phút đọc đề (5 bước), 8 phút viết, 2 phút kiểm (số liệu, `%p`, thì của dự báo, số chữ).",
+        "**Đếm chữ.** Nhắm 240–280 chữ. Con số hiển thị trong app tính cả dấu cách và dấu câu; ô giấy thi thật có quy tắc đếm riêng (cách ghi số, dấu câu), nên hãy đối chiếu hướng dẫn chính thức trước kỳ thi.",
+        "**Sau khi nộp.** So với bài mẫu **theo khối**, không theo từng chữ; tick danh sách tự kiểm; ghi lỗi vào Sổ lỗi sai. Ba đề đầu được nhìn công thức; từ đề thứ tư hãy che công thức và viết lại từ trí nhớ.",
+        "**Nhờ người chấm lại.** Tự chấm Viết thường lệch; nhờ một người thứ hai kiểm số liệu và ngữ pháp ít nhất ở vài bài."
+      ]
+    },
+    {
+      "title_vi": "Thời gian & phân bổ",
+      "body_vi": "Phần Viết thi **đúng thời gian thật: 50 phút** cho 4 câu (gợi ý phân bổ: câu 51–52 khoảng 10 phút, câu 53 khoảng 12 phút, câu 54 khoảng 28 phút). Mini-set này có nhiều đề hơn một đề thi thật để luyện theo nhóm chủ đề; khi luyện **tính giờ thật**, chỉ làm một bộ 51 + 52 + 53 + 54."
+    },
+    {
+      "title_vi": "Quy tắc chung",
+      "bullets_vi": [
+        "Câu 52, 53, 54 viết bằng **văn viết** (thể 한다체 `-ㄴ/는다`, `-다`). Câu 51 là văn bản thực dụng, giữ **đúng thể của văn bản** (thư, thông báo, giấy mời dùng `-ㅂ니다/습니다`). Không trộn 해요체, không dùng khẩu ngữ (근데, 되게, 진짜…).",
+        "Câu 53: **không viết tiêu đề** (đề ghi `글의 제목은 쓰지 마시오`). Câu 54: đề ghi `문제를 그대로 옮겨 쓰지 마시오` nên **không chép lại đề**; đề không yêu cầu tiêu đề, vào thẳng mở bài. Cả hai câu: chia đoạn rõ ràng; viết đủ số chữ. Số chữ trong file này là số ký tự đếm bằng phần mềm (gồm dấu cách và dấu câu); ô giấy thi tính theo quy ước riêng, nên hãy đối chiếu với hướng dẫn chính thức.",
+        "**Câu 54 bắt buộc với mọi thí sinh** (50/100 điểm Viết). Bản **3–4급** (54-A) chỉ là bản **luyện tập đơn giản hóa** tự soạn: ngắn hơn và có câu mở sẵn; đề thật luôn yêu cầu 600–700 chữ.",
+        "Mọi số liệu trong đề 53 là **số minh họa tự soạn**, không phải số liệu thật.",
+        "Câu 53 theo khuôn đề thật (53-D đến 53-G): mô tả biểu đồ rồi **ghép nguyên nhân và dự báo** từ ô gợi ý (khung **T·O·P·I·K**, giải thích ở các mục «Viết 53 · ①–⑪» ngay phía trên).",
+        "Chưa biết bắt đầu viết câu 54 từ đâu? Học khoá **«Viết 54 từ con số 0»** (nhóm Bổ trợ, 8 bài): đọc đề, tìm ý, viết đoạn, ráp bài."
+      ]
+    },
+    {
+      "title_vi": "Thang tự chấm (quy ước luyện tập)",
+      "body_vi": "**Tổng điểm từng câu** (10/10/30/50) và **tên các tiêu chí** đã được đối chiếu với nguồn. Tỉ trọng chi tiết giữa các tiêu chí dưới đây (câu 53: 7·7·16; câu 54: 12·12·26) là **ước lượng lấy từ sách và trang luyện thi**, chưa xác minh được với bảng chấm chính thức; hãy xem là thang tự định hướng, không phải bảng chấm thật. Cũng chưa xác minh quy định trừ điểm khi bài thiếu số chữ; hãy luôn viết đủ số chữ yêu cầu.",
+      "bullets_vi": [
+        "Câu 51–52 mỗi câu 10 điểm (㉠ 5 + ㉡ 5); câu 53 = 30 điểm; câu 54 = 50 điểm.",
+        "Đáp án 51–52 ghi **dạng chấp nhận được**; chấm theo nghĩa hợp văn cảnh, thể câu đúng và ngữ pháp đúng, không chấm theo từ khớp từng chữ."
+      ],
+      "table": {
+        "header": [
+          "Câu",
+          "Nội dung & hoàn thành yêu cầu",
+          "Cấu trúc triển khai",
+          "Sử dụng ngôn ngữ",
+          "Tổng"
+        ],
+        "rows": [
+          [
+            "51, 52 (mỗi chỗ trống)",
+            "3",
+            "–",
+            "2",
+            "5"
+          ],
+          [
+            "53",
+            "7",
+            "7",
+            "16",
+            "30"
+          ],
+          [
+            "54 (chuẩn và 54-A)",
+            "12",
+            "12",
+            "26",
+            "50"
+          ]
+        ]
+      }
+    },
+    {
+      "title_vi": "Checklist chấm",
+      "bullets_vi": [
+        "*Nội dung & yêu cầu*: có đủ mọi ý đề bài yêu cầu không (thường 3 gạch đầu dòng, đôi khi 2, ở câu 54; đủ số liệu ở câu 53)? Có đủ số chữ không?",
+        "*Cấu trúc*: có chia đoạn đúng chức năng không? Có từ nối hợp lý (첫째, 그러나, 이를 해결하기 위해서는, 결론적으로) không?",
+        "*Ngôn ngữ*: thể văn nhất quán (한다체) không? Từ vựng, ngữ pháp đa dạng và chính xác không (không lặp một mẫu câu)? Chính tả và 띄어쓰기 đúng không?"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "QW51A",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51-A",
+      "title_vi": "Viết · Điền chỗ trống 51-A (giấy mời)",
+      "points": 10,
+      "instruction_ko": "다음 글의 ㉠과 ㉡에 들어갈 말을 각각 한 문장으로 쓰십시오. (각 10점)",
+      "instruction_vi": "Viết nội dung thích hợp vào ㉠ và ㉡ của đoạn văn, mỗi chỗ trống một câu. (Mỗi câu 10 điểm)",
+      "context_vi": "Giấy mời, gia đình",
+      "heading_ko": "초대합니다",
+      "text": "안녕하십니까? 저희 아들 민준이의 첫 번째 생일을 맞이하여 가족과 친척분들을 모시고 ( ㉠ ). 바쁘시겠지만 오셔서 아이의 첫 생일을 ( ㉡ ).\n일시: 10월 17일(토) 낮 12시 · 장소: 한빛웨딩홀 3층",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "돌잔치를 열고자 합니다",
+            "돌잔치를 하려고 합니다",
+            "잔치를 열려고 합니다"
+          ],
+          "common_errors_vi": "Viết 해요체 (열려고 해요); quên `-고자 하다` là cách nói trang trọng của mục đích; bỏ đối tượng (돌잔치)"
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "축하해 주시기 바랍니다",
+            "축하해 주시면 감사하겠습니다",
+            "축하해 주십시오"
+          ],
+          "common_errors_vi": "Dùng 축하해 줘요; không dùng `-아/어 주시-` (thiếu kính ngữ vì đối tượng là khách); lặp lại 오셔서"
+        }
+      ],
+      "tips_vi": [
+        "Văn bản là giấy mời gửi người lớn, nên cần cả **합쇼체** lẫn **kính ngữ** (`모시고`, `-아/어 주시기 바랍니다`)."
+      ]
+    },
+    {
+      "id": "QW51B",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51-B",
+      "title_vi": "Viết · Điền chỗ trống 51-B (thư điện tử gửi giáo sư)",
+      "points": 10,
+      "instruction_ko": "다음 글의 ㉠과 ㉡에 들어갈 말을 각각 한 문장으로 쓰십시오. (각 10점)",
+      "instruction_vi": "Viết nội dung thích hợp vào ㉠ và ㉡ của đoạn văn, mỗi chỗ trống một câu. (Mỗi câu 10 điểm)",
+      "context_vi": "Thư điện tử gửi giáo sư, hẹn gặp",
+      "heading_ko": "면담 시간 변경 문의",
+      "text": "김민호 교수님께,\n안녕하십니까? 이번 학기에 면담을 신청한 응우옌 민입니다. 어제 오후 3시에 뵙기로 했는데 갑자기 지하철이 멈추는 바람에 ( ㉠ ). 정말 죄송합니다. 혹시 이번 주 안에 면담 시간을 다시 ( ㉡ )? 답장 기다리겠습니다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "약속 시간을 지키지 못했습니다",
+            "면담에 가지 못했습니다",
+            "늦게 도착했습니다"
+          ],
+          "common_errors_vi": "Viết kết quả tốt (`-는 바람에` chỉ kết quả xấu); dùng 해요체; dùng `-느라고` (vế trước là việc bất ngờ ngoài ý muốn nên không hợp)"
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "잡아 주실 수 있겠습니까",
+            "정해 주실 수 있겠습니까",
+            "변경할 수 있겠습니까"
+          ],
+          "common_errors_vi": "Dùng `-(으)ㄹ 수 있어요?` (mất sắc thái lịch sự); thiếu `-(으)시-` khi chủ ngữ là giáo sư"
+        }
+      ],
+      "tips_vi": [
+        "㉠ nối với `-는 바람에` nên phải là **hậu quả tiêu cực**",
+        "㉡ có dấu \"?\" nên là **câu hỏi lịch sự** với người trên."
+      ]
+    },
+    {
+      "id": "QW51C",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51-C",
+      "title_vi": "Viết · Điền chỗ trống 51-C (thông báo phân loại rác)",
+      "points": 10,
+      "instruction_ko": "다음 글의 ㉠과 ㉡에 들어갈 말을 각각 한 문장으로 쓰십시오. (각 10점)",
+      "instruction_vi": "Viết nội dung thích hợp vào ㉠ và ㉡ của đoạn văn, mỗi chỗ trống một câu. (Mỗi câu 10 điểm)",
+      "context_vi": "Thông báo của ban quản lý, phân loại rác",
+      "heading_ko": "[분리배출 안내]",
+      "text": "안녕하십니까? 관리사무소입니다. 최근 페트병을 라벨이 붙은 채로 버리는 입주민이 늘고 있습니다. 페트병이 잘 재활용되도록 ( ㉠ ). 또한 음식물이 묻어 씻기 어려운 비닐은 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "내용물을 비우고 라벨을 떼어 주시기 바랍니다",
+            "라벨을 떼어서 배출해 주십시오"
+          ],
+          "common_errors_vi": "Thiếu bước (chỉ nói \"버려 주세요\"); dùng 해요체; viết trần thuật (\"비웁니다\") trong khi sau `-도록` cần một **đề nghị/yêu cầu** (`-아/어 주시기 바랍니다`)"
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "종량제 봉투에 버려 주시기 바랍니다",
+            "종량제 봉투에 버려야 합니다",
+            "재활용품으로 배출할 수 없습니다"
+          ],
+          "common_errors_vi": "Viết \"일반 쓰레기\" mà không nói bỏ vào 종량제 봉투; câu không kết thúc ở thể 합쇼체"
+        }
+      ],
+      "tips_vi": [
+        "Quy trình khớp hướng dẫn phân loại rác của Seoul ✔ (nhựa: đổ hết nội dung, tráng, bóc nhãn, tách nắp; vinyl khó rửa → 종량제 봉투)."
+      ]
+    },
+    {
+      "id": "QW51D",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "51-D",
+      "title_vi": "Viết · Điền chỗ trống 51-D (thư điện tử gửi khách sạn)",
+      "points": 10,
+      "instruction_ko": "다음 글의 ㉠과 ㉡에 들어갈 말을 각각 한 문장으로 쓰십시오. (각 10점)",
+      "instruction_vi": "Viết nội dung thích hợp vào ㉠ và ㉡ của đoạn văn, mỗi chỗ trống một câu. (Mỗi câu 10 điểm)",
+      "context_vi": "Thư điện tử gửi khách sạn, đổi lịch đặt phòng",
+      "heading_ko": "예약 변경 문의",
+      "text": "안녕하십니까? 다음 달 3일부터 2박으로 호텔을 예약한 박수진입니다. 개인 사정으로 인해 체크인 날짜를 ( ㉠ ). 만약 변경이 어려울 경우에는 취소 수수료가 얼마인지 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "하루 늦추고자 합니다",
+            "변경하고자 합니다",
+            "바꾸고자 합니다"
+          ],
+          "common_errors_vi": "Dùng `-고 싶어요` (mất sắc thái trang trọng); thiếu tân ngữ chỉ rõ việc đổi"
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "알려 주시기 바랍니다",
+            "알려 주시면 감사하겠습니다",
+            "알려 주십시오"
+          ],
+          "common_errors_vi": "Kết thúc bằng câu hỏi trực tiếp (알려 줘요?); thiếu `-아/어 주시-` khi nhờ nhân viên khách sạn"
+        }
+      ],
+      "tips_vi": [
+        "`개인 사정으로 인해` là cụm lý do văn viết; vế sau là việc xin đổi, **không** dùng mệnh lệnh ngay sau `(으)로 인해`."
+      ]
+    },
+    {
+      "id": "QW52A",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52-A",
+      "title_vi": "Viết · Điền chỗ trống 52-A (đoạn giải thích: lễ tết và quà)",
+      "points": 10,
+      "instruction_ko": "다음 글의 ㉠과 ㉡에 들어갈 말을 각각 한 문장으로 쓰십시오. (각 10점)",
+      "instruction_vi": "Viết nội dung thích hợp vào ㉠ và ㉡ của đoạn văn, mỗi chỗ trống một câu. (Mỗi câu 10 điểm)",
+      "context_vi": "Đoạn giải thích, lễ tết và quà",
+      "text": "명절에는 가족과 친척에게 선물을 하는 문화가 있다. 예전에는 고기나 과일 같은 음식을 선물하는 경우가 많았지만 요즘에는 부모님의 건강을 ( ㉠ ). 그러나 선물의 종류가 달라져도 상대방을 생각하는 마음은 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "위해 영양제를 선물하는 사람도 많아졌다",
+            "위해 건강에 좋은 선물을 고르는 사람이 늘었다"
+          ],
+          "common_errors_vi": "Viết 해요체; chỉ ghi `위해` mà không hoàn chỉnh câu; dùng `-기 위해` với danh từ (✗ 건강을 위하기)"
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "변하지 않는다",
+            "달라지지 않는다",
+            "중요하다"
+          ],
+          "common_errors_vi": "Chọn từ trái nghĩa (달라진다); 한다체 sai (변하지 않아요)"
+        }
+      ],
+      "tips_vi": [
+        "㉠ nối \"예전에는 … 요즘에는\" nên là **thay đổi mới**",
+        "㉡ nối \"그러나 … 달라져도\" nên là **điều không đổi**."
+      ]
+    },
+    {
+      "id": "QW52B",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52-B",
+      "title_vi": "Viết · Điền chỗ trống 52-B (đoạn giải thích: tiếng ồn tầng)",
+      "points": 10,
+      "instruction_ko": "다음 글의 ㉠과 ㉡에 들어갈 말을 각각 한 문장으로 쓰십시오. (각 10점)",
+      "instruction_vi": "Viết nội dung thích hợp vào ㉠ và ㉡ của đoạn văn, mỗi chỗ trống một câu. (Mỗi câu 10 điểm)",
+      "context_vi": "Đoạn giải thích, nhà ở và hàng xóm",
+      "text": "아파트처럼 여러 가구가 함께 사는 집에서는 위층의 작은 소리도 아래층에는 크게 들릴 수 있다. 그래서 최근에는 ( ㉠ ). 이러한 갈등을 줄이기 위해서는 늦은 밤에 뛰거나 큰 소리로 음악을 틀지 않는 등 서로를 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "층간 소음으로 인한 이웃 간의 갈등이 늘고 있다",
+            "층간 소음 때문에 다투는 이웃이 많아지고 있다"
+          ],
+          "common_errors_vi": "Gắn mệnh lệnh sau `(으)로 인해`; dùng `-는 바람에` + hiện tại; quên 한다체"
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "배려하는 노력이 필요하다",
+            "배려하는 태도가 중요하다",
+            "배려해야 한다"
+          ],
+          "common_errors_vi": "Viết `배려해 주세요` (mệnh lệnh) trong văn viết 한다체; để nguyên danh từ `배려` không có động từ"
+        }
+      ],
+      "tips_vi": [
+        "`N(으)로 인한 N` là dạng định ngữ hay gặp ở đề Viết; `-기 위해서` ở câu sau dùng khi **cùng chủ ngữ** (mọi người)."
+      ]
+    },
+    {
+      "id": "QW52C",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "52-C",
+      "title_vi": "Viết · Điền chỗ trống 52-C (đoạn giải thích: trải nghiệm văn hóa)",
+      "points": 10,
+      "instruction_ko": "다음 글의 ㉠과 ㉡에 들어갈 말을 각각 한 문장으로 쓰십시오. (각 10점)",
+      "instruction_vi": "Viết nội dung thích hợp vào ㉠ và ㉡ của đoạn văn, mỗi chỗ trống một câu. (Mỗi câu 10 điểm)",
+      "context_vi": "Đoạn giải thích, trải nghiệm văn hóa",
+      "text": "'한복 체험'이라는 프로그램에서는 한국의 전통 옷을 직접 입어 볼 수 있다. 이런 프로그램에 참가하면 책으로만 배울 때보다 문화를 ( ㉠ ). 또한 같이 참가한 친구들 덕분에 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 5,
+          "accepted": [
+            "더 가깝게 느낄 수 있다",
+            "더 잘 이해할 수 있다"
+          ],
+          "common_errors_vi": "Dùng `-(으)ㄹ게요`; viết 해요체"
+        },
+        {
+          "id": "㉡",
+          "points": 5,
+          "accepted": [
+            "더 즐겁게 체험할 수 있다",
+            "새로운 친구를 사귀게 되기도 한다",
+            "더 즐거웠다"
+          ],
+          "common_errors_vi": "Dùng `덕분에` với kết quả xấu; dùng `-고 싶다` (mất tính khách quan của 한다체)"
+        }
+      ],
+      "tips_vi": [
+        "`덕분에` chỉ đi với **kết quả tốt** nhờ người/việc khác."
+      ]
+    },
+    {
+      "id": "QW53A",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-A",
+      "title_vi": "Viết · Mô tả bảng số liệu 53-A (cốc dùng ở quán cà phê)",
+      "points": 30,
+      "instruction_ko": "※ [53] 다음은 '카페 이용자의 컵 사용 실태'에 대한 설문 조사 결과입니다. 이를 200~300자의 글로 쓰십시오. 단, 글의 제목은 쓰지 마십시오. (30점)",
+      "instruction_vi": "Đây là kết quả khảo sát về '카페 이용자의 컵 사용 실태' (thực trạng sử dụng cốc của khách quán cà phê). Hãy viết thành bài 200–300 chữ. Không viết tiêu đề. (30 điểm) Chưa quen câu 53? Mở «Khung bài viết gợi ý» (các bước cho đề này) và các mục «Viết 53 · ①–⑪» ở đầu phần Viết.",
+      "limits": {
+        "min": 200,
+        "max": 300
+      },
+      "data": [
+        {
+          "title_vi": "(가) 카페에서 사용하는 컵 (단위: %)",
+          "note_vi": "조사 대상: 카페 이용자 500명 (자료는 가상) · số liệu minh họa",
+          "table": {
+            "header": [
+              "구분",
+              "2021년",
+              "2026년"
+            ],
+            "rows": [
+              [
+                "일회용 컵",
+                "70",
+                "55"
+              ],
+              [
+                "개인 컵(텀블러)",
+                "10",
+                "28"
+              ],
+              [
+                "매장 컵(머그잔)",
+                "20",
+                "17"
+              ]
+            ]
+          }
+        },
+        {
+          "title_vi": "(나) 2026년 응답: 개인 컵을 사용하는 이유 (단위: %)",
+          "note_vi": "Số liệu minh họa",
+          "table": {
+            "header": [
+              "이유",
+              "비율"
+            ],
+            "rows": [
+              [
+                "환경 보호를 위해서",
+                "52"
+              ],
+              [
+                "음료 할인을 받을 수 있어서",
+                "31"
+              ],
+              [
+                "기타",
+                "17"
+              ]
+            ]
+          }
+        }
+      ],
+      "framework_vi": [
+        "**Bước 1 · Đọc đề (khoảng 2 phút, chưa viết gì):** gạch dưới trên đề các ý sau.",
+        "· **Ai:** đề không ghi cơ quan, chỉ có đối tượng «카페 이용자 500명»",
+        "· **Về gì:** thực trạng dùng cốc ở quán cà phê",
+        "· **Mốc:** bảng (가) 2021년 và 2026년; bảng (나) chỉ năm 2026",
+        "· **Số then chốt:** 일회용 컵 70 → 55% (−15%p); 개인 컵 10 → 28% (2배 이상); lý do dùng cốc riêng: 환경 보호 52%, 음료 할인 31%",
+        "· **Ô gợi ý:** không có ô nguyên nhân hay dự báo; bảng (나) cho lý do",
+        "**Bước 2 · Chọn khối:** Hai bảng: bảng (가) → mở bài + nhóm giảm + nhóm tăng; bảng (나) → thêm một câu xếp hạng lý do. Không có ô dự báo nên không viết K.",
+        "**Bước 3 · Viết theo dàn ý bên dưới:** mỗi khối 1–2 câu, dùng đúng công thức trong ô `Mẫu câu nên dùng`.",
+        "**Bước 4 · Kiểm (khoảng 2 phút):** số liệu khớp đề · `%p` cho hiệu số · thì của dự báo · không ý kiến riêng · 200–300 chữ."
+      ],
+      "model_answer_ko": "카페 이용자 500명을 대상으로 컵 사용 실태를 조사한 결과, 2021년에 비해 '일회용 컵'의 사용은 70%에서 55%로, '매장 컵'은 20%에서 17%로 감소하였다. 반면에 '개인 컵'은 10%에서 28%로 두 배 이상 증가하였다. 그러나 일회용 컵은 2026년에도 가장 많이 쓰이는 컵이었다. 개인 컵을 사용하는 이유로는 환경 보호를 위해서라는 응답이 52%로 가장 많았고, 음료 할인을 받을 수 있기 때문이라는 응답(31%)이 그 뒤를 이었다.",
+      "model_note_vi": "**Bài mẫu tách theo khối** (nhận ra từng khối rồi so với công thức):\n**T + O** — 카페 이용자 500명을 대상으로 컵 사용 실태를 조사한 결과, 2021년에 비해 '일회용 컵'의 사용은 70%에서 55%로, '매장 컵'은 20%에서 17%로 감소하였다.\n**P** — 반면에 '개인 컵'은 10%에서 28%로 두 배 이상 증가하였다. 그러나 일회용 컵은 2026년에도 가장 많이 쓰이는 컵이었다.\n**Bảng (나)** — 개인 컵을 사용하는 이유로는 환경 보호를 위해서라는 응답이 52%로 가장 많았고, 음료 할인을 받을 수 있기 때문이라는 응답(31%)이 그 뒤를 이었다.\n\nKiểm tra số liệu: 70−55 = 15%p giảm, 20−17 = 3%p giảm, 28 ÷ 10 = 2,8 lần (nên \"두 배 이상\" đúng); 52 + 31 + 17 = 100.",
+      "patterns_vi": [
+        "-(으)로 나타났다",
+        "가장 많은 응답은 … 이다",
+        "절반 가까이",
+        "N배로 증가했다",
+        "약 N%p 감소했다"
+      ],
+      "outline": [
+        {
+          "part_vi": "T + O · câu 1",
+          "content_vi": "Đối tượng + chủ đề, rồi các nhóm giảm: `N에서 N(으)로 감소하였다`",
+          "chars": "75–120 chữ"
+        },
+        {
+          "part_vi": "P · câu 2–3",
+          "content_vi": "`반면에` nhóm tăng; rồi nhận xét `그러나 … 가장 많이 쓰이는 컵이었다`",
+          "chars": "55–90 chữ"
+        },
+        {
+          "part_vi": "Bảng (나) · câu 4",
+          "content_vi": "Lý do: `…이/가 N%로 가장 많았고 … 그 뒤를 이었다`",
+          "chars": "70–105 chữ"
+        }
+      ],
+      "common_errors_vi": [
+        "Viết thiếu số liệu của một nhóm",
+        "Chép lại cả bảng thành liệt kê",
+        "Bỏ mốc \"2021년에 비해\" nên thiếu so sánh",
+        "Dùng 해요체",
+        "Suy đoán nguyên nhân ngoài bảng (ví dụ \"vì giá rẻ\")",
+        "Nêu ý kiến riêng (`좋은 변화이다`, `바람직하다`) hoặc thêm con số không có trong đề."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Nội dung & hoàn thành yêu cầu",
+          "max": 7,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Cấu trúc triển khai",
+          "max": 7,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Sử dụng ngôn ngữ",
+          "max": 16,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        }
+      ],
+      "checklist_vi": [
+        "Đã đọc đề theo 5 bước và chọn đúng khối cần viết?",
+        "Mọi con số khớp đề; hiệu số của hai tỉ lệ dùng `%p`; có `N배` hoặc `대폭/소폭`?",
+        "Có câu xếp hạng lý do từ bảng (나)?",
+        "Không ý kiến riêng, không tiêu đề, không `-요`; 200–300 chữ?"
+      ]
+    },
+    {
+      "id": "QW53B",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-B",
+      "title_vi": "Viết · Mô tả bảng số liệu 53-B (thời tiết mùa hè thành phố A)",
+      "points": 30,
+      "instruction_ko": "※ [53] 다음은 'A시의 여름 날씨 변화'에 대한 자료입니다. 이를 200~300자의 글로 쓰십시오. 단, 글의 제목은 쓰지 마십시오. (30점)",
+      "instruction_vi": "Đây là số liệu về 'A시의 여름 날씨 변화' (sự thay đổi thời tiết mùa hè của thành phố A). Hãy viết thành bài 200–300 chữ. Không viết tiêu đề. (30 điểm) Chưa quen câu 53? Mở «Khung bài viết gợi ý» (các bước cho đề này) và các mục «Viết 53 · ①–⑪» ở đầu phần Viết.",
+      "limits": {
+        "min": 200,
+        "max": 300
+      },
+      "data": [
+        {
+          "title_vi": "(가) A시의 여름(6~8월) 날씨",
+          "note_vi": "(자료는 가상) · số liệu minh họa",
+          "table": {
+            "header": [
+              "구분",
+              "2006년",
+              "2026년"
+            ],
+            "rows": [
+              [
+                "평균 기온(℃)",
+                "23.1",
+                "24.8"
+              ],
+              [
+                "폭염 일수(일)",
+                "8",
+                "21"
+              ],
+              [
+                "열대야 일수(일)",
+                "3",
+                "12"
+              ]
+            ]
+          }
+        },
+        {
+          "title_vi": "(나) A시 주민 300명 응답: 여름철에 가장 힘든 점 (단위: %)",
+          "note_vi": "Số liệu minh họa",
+          "table": {
+            "header": [
+              "힘든 점",
+              "비율"
+            ],
+            "rows": [
+              [
+                "더위 때문에 잠을 잘 수 없다",
+                "45"
+              ],
+              [
+                "냉방비 부담",
+                "35"
+              ],
+              [
+                "야외 활동이 어렵다",
+                "20"
+              ]
+            ]
+          }
+        }
+      ],
+      "framework_vi": [
+        "**Bước 1 · Đọc đề (khoảng 2 phút, chưa viết gì):** gạch dưới trên đề các ý sau.",
+        "· **Ai:** đề không ghi cơ quan — «A시»",
+        "· **Về gì:** thời tiết mùa hè của thành phố A",
+        "· **Mốc:** 2006년 và 2026년",
+        "· **Số then chốt:** nhiệt độ TB 23,1 → 24,8℃ (+1,7℃); 폭염 8 → 21일 (2배 이상); 열대야 3 → 12일 (4배); bảng (나): «잠을 잘 수 없다» 45%",
+        "· **Ô gợi ý:** không có ô nguyên nhân hay dự báo",
+        "**Bước 2 · Chọn khối:** Bảng (가) có ba chỉ số: kể **cả ba** trong một câu, mỗi chỉ số `N에서 N(으)로`. Bảng (나) thêm một câu xếp hạng.",
+        "**Bước 3 · Viết theo dàn ý bên dưới:** mỗi khối 1–2 câu, dùng đúng công thức trong ô `Mẫu câu nên dùng`.",
+        "**Bước 4 · Kiểm (khoảng 2 phút):** số liệu khớp đề · `%p` cho hiệu số · thì của dự báo · không ý kiến riêng · 200–300 chữ."
+      ],
+      "model_answer_ko": "A시의 여름 날씨를 비교한 결과, 2006년에 비해 2026년에는 평균 기온이 23.1℃에서 24.8℃로 1.7℃ 높아졌고, 폭염 일수는 8일에서 21일로 두 배 이상 늘었고, 열대야 일수는 3일에서 12일로 네 배가 되었다. 한편 A시 주민 300명에게 여름철에 가장 힘든 점을 물은 결과, '더위 때문에 잠을 잘 수 없다'가 45%로 가장 많았고, '냉방비 부담'이 35%, '야외 활동이 어렵다'가 20%로 그 뒤를 이었다.",
+      "model_note_vi": "**Bài mẫu tách theo khối** (nhận ra từng khối rồi so với công thức):\n**Bảng (가)** — A시의 여름 날씨를 비교한 결과, 2006년에 비해 2026년에는 평균 기온이 23.1℃에서 24.8℃로 1.7℃ 높아졌고, 폭염 일수는 8일에서 21일로 두 배 이상 늘었고, 열대야 일수는 3일에서 12일로 네 배가 되었다.\n**Bảng (나)** — 한편 A시 주민 300명에게 여름철에 가장 힘든 점을 물은 결과, '더위 때문에 잠을 잘 수 없다'가 45%로 가장 많았고, '냉방비 부담'이 35%, '야외 활동이 어렵다'가 20%로 그 뒤를 이었다.\n\nKiểm tra số liệu: 24,8 − 23,1 = 1,7; 45 + 35 + 20 = 100.",
+      "patterns_vi": [
+        "-(으)로 나타났다",
+        "가장 많은 응답은 … 이다",
+        "절반 가까이",
+        "N배로 증가했다",
+        "약 N%p 감소했다"
+      ],
+      "outline": [
+        {
+          "part_vi": "Bảng (가) · câu 1",
+          "content_vi": "Mở bài + ba chỉ số hai mốc, dùng `두 배 이상`, `네 배`",
+          "chars": "100–160 chữ"
+        },
+        {
+          "part_vi": "Bảng (나) · câu 2",
+          "content_vi": "`한편` + xếp hạng `가장 많았고 … 그 뒤를 이었다`",
+          "chars": "90–140 chữ"
+        }
+      ],
+      "common_errors_vi": [
+        "Viết thiếu số liệu của một nhóm",
+        "Chép lại cả bảng thành liệt kê",
+        "Bỏ mốc \"2006년에 비해\" nên thiếu so sánh",
+        "Dùng 해요체",
+        "Suy đoán nguyên nhân ngoài bảng (ví dụ \"vì giá rẻ\")",
+        "Nêu ý kiến riêng (`좋은 변화이다`, `바람직하다`) hoặc thêm con số không có trong đề."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Nội dung & hoàn thành yêu cầu",
+          "max": 7,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Cấu trúc triển khai",
+          "max": 7,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Sử dụng ngôn ngữ",
+          "max": 16,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        }
+      ],
+      "checklist_vi": [
+        "Đã đọc đề theo 5 bước và chọn đúng khối cần viết?",
+        "Mọi con số khớp đề; hiệu số của hai tỉ lệ dùng `%p`; có `N배` hoặc `대폭/소폭`?",
+        "Cả ba chỉ số của bảng (가) đều có mặt?",
+        "Không ý kiến riêng, không tiêu đề, không `-요`; 200–300 chữ?"
+      ]
+    },
+    {
+      "id": "QW53C",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-C",
+      "title_vi": "Viết · Mô tả bảng số liệu 53-C (chọn điểm du lịch và cách đặt chuyến đi)",
+      "points": 30,
+      "instruction_ko": "이를 200~300자의 글로 쓰십시오. 단, 글의 제목은 쓰지 마십시오. (30점)",
+      "instruction_vi": "Đề giống 53-A: viết thành bài 200–300 chữ mô tả hai bảng số liệu dưới đây. Không viết tiêu đề. (30 điểm) Chưa quen câu 53? Mở «Khung bài viết gợi ý» (các bước cho đề này) và các mục «Viết 53 · ①–⑪» ở đầu phần Viết.",
+      "limits": {
+        "min": 200,
+        "max": 300
+      },
+      "data": [
+        {
+          "title_vi": "(가) 여행지를 고를 때 가장 중요하게 생각하는 것 (단위: %)",
+          "note_vi": "조사 대상: 여행 경험이 있는 성인 400명 (자료는 가상) · số liệu minh họa",
+          "table": {
+            "header": [
+              "구분",
+              "2016년",
+              "2026년"
+            ],
+            "rows": [
+              [
+                "가격",
+                "40",
+                "32"
+              ],
+              [
+                "숙소",
+                "20",
+                "25"
+              ],
+              [
+                "교통",
+                "25",
+                "18"
+              ],
+              [
+                "후기·평가",
+                "15",
+                "25"
+              ]
+            ]
+          }
+        },
+        {
+          "title_vi": "(나) 2026년 응답: 여행 예약 방법 (단위: %)",
+          "note_vi": "Số liệu minh họa",
+          "table": {
+            "header": [
+              "방법",
+              "비율"
+            ],
+            "rows": [
+              [
+                "앱·인터넷",
+                "62"
+              ],
+              [
+                "여행사 방문",
+                "23"
+              ],
+              [
+                "전화",
+                "15"
+              ]
+            ]
+          }
+        }
+      ],
+      "framework_vi": [
+        "**Bước 1 · Đọc đề (khoảng 2 phút, chưa viết gì):** gạch dưới trên đề các ý sau.",
+        "· **Ai:** đề không ghi cơ quan, chỉ có đối tượng «여행 경험이 있는 성인 400명»",
+        "· **Về gì:** điều quan trọng khi chọn điểm đến và cách đặt chuyến đi",
+        "· **Mốc:** bảng (가) 2016년 và 2026년; bảng (나) chỉ năm 2026",
+        "· **Số then chốt:** 가격 40 → 32% (−8%p, vẫn đứng đầu); 후기·평가 15 → 25% (+10%p); đặt chuyến: 앱·인터넷 62% đứng đầu",
+        "· **Ô gợi ý:** không có ô nguyên nhân hay dự báo",
+        "**Bước 2 · Chọn khối:** Giống 53-A: bảng (가) → mở bài + xếp hạng, nêu mục giảm rồi mục tăng bằng `%p`; bảng (나) → một câu xếp hạng.",
+        "**Bước 3 · Viết theo dàn ý bên dưới:** mỗi khối 1–2 câu, dùng đúng công thức trong ô `Mẫu câu nên dùng`.",
+        "**Bước 4 · Kiểm (khoảng 2 phút):** số liệu khớp đề · `%p` cho hiệu số · thì của dự báo · không ý kiến riêng · 200–300 chữ."
+      ],
+      "model_answer_ko": "여행 경험이 있는 성인 400명을 대상으로 여행지를 고를 때 가장 중요하게 생각하는 것을 조사한 결과, 2016년에는 가격이 40%로 가장 높았고 교통(25%), 숙소(20%), 후기·평가(15%)가 그 뒤를 이었다. 2026년에도 가격(32%)이 가장 높았으나 10년 전에 비해 8%p 감소하였다. 반면에 후기·평가는 15%에서 25%로 10%p 증가하여 숙소(25%)와 함께 두 번째로 높은 비율을 차지하였다. 여행 예약 방법으로는 앱·인터넷이 62%로 가장 많았고 여행사 방문(23%), 전화(15%)가 그 뒤를 이었다.",
+      "model_note_vi": "**Bài mẫu tách theo khối** (nhận ra từng khối rồi so với công thức):\n**T + O** — 여행 경험이 있는 성인 400명을 대상으로 여행지를 고를 때 가장 중요하게 생각하는 것을 조사한 결과, 2016년에는 가격이 40%로 가장 높았고 교통(25%), 숙소(20%), 후기·평가(15%)가 그 뒤를 이었다.\n**P** — 2026년에도 가격(32%)이 가장 높았으나 10년 전에 비해 8%p 감소하였다. 반면에 후기·평가는 15%에서 25%로 10%p 증가하여 숙소(25%)와 함께 두 번째로 높은 비율을 차지하였다.\n**Bảng (나)** — 여행 예약 방법으로는 앱·인터넷이 62%로 가장 많았고 여행사 방문(23%), 전화(15%)가 그 뒤를 이었다.\n\nKiểm tra số liệu: 32 − 40 = −8%p; 25 − 15 = +10%p; mỗi bảng cộng lại 100%.",
+      "patterns_vi": [
+        "-(으)로 나타났다",
+        "가장 많은 응답은 … 이다",
+        "절반 가까이",
+        "N배로 증가했다",
+        "약 N%p 감소했다"
+      ],
+      "outline": [
+        {
+          "part_vi": "T + O · câu 1",
+          "content_vi": "`N명을 대상으로 … 조사한 결과,` + xếp hạng 2016",
+          "chars": "95–150 chữ"
+        },
+        {
+          "part_vi": "P · câu 2–3",
+          "content_vi": "Năm 2026: mục đứng đầu và `%p`; `반면에` mục tăng",
+          "chars": "85–135 chữ"
+        },
+        {
+          "part_vi": "Bảng (나) · câu 4",
+          "content_vi": "Xếp hạng cách đặt chuyến đi",
+          "chars": "50–80 chữ"
+        }
+      ],
+      "common_errors_vi": [
+        "Viết thiếu số liệu của một nhóm",
+        "Chép lại cả bảng thành liệt kê",
+        "Bỏ mốc \"2016년에 비해\" nên thiếu so sánh",
+        "Dùng 해요체",
+        "Suy đoán nguyên nhân ngoài bảng (ví dụ \"vì giá rẻ\")",
+        "Nêu ý kiến riêng (`좋은 변화이다`, `바람직하다`) hoặc thêm con số không có trong đề."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Nội dung & hoàn thành yêu cầu",
+          "max": 7,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Cấu trúc triển khai",
+          "max": 7,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Sử dụng ngôn ngữ",
+          "max": 16,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        }
+      ],
+      "checklist_vi": [
+        "Đã đọc đề theo 5 bước và chọn đúng khối cần viết?",
+        "Mọi con số khớp đề; hiệu số của hai tỉ lệ dùng `%p`; có `N배` hoặc `대폭/소폭`?",
+        "Mỗi hiệu số của hai tỉ lệ đều viết bằng `%p`?",
+        "Không ý kiến riêng, không tiêu đề, không `-요`; 200–300 chữ?"
+      ]
+    },
+    {
+      "id": "QW54A",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "54-A",
+      "title_vi": "Viết · Bài nghị luận 54-A (bản đơn giản 3–4급): giảm rác thải nhựa",
+      "points": 50,
+      "instruction_ko": "※ [54] 다음을 참고하여 450~550자로 글을 쓰시오. 단, 문제를 그대로 옮겨 쓰지 마시오. (50점)",
+      "instruction_vi": "Bản đơn giản 3–4급 (đề luyện tập tự soạn): đọc đoạn dẫn và ba câu hỏi, viết bài 450–550 chữ; đề thật yêu cầu 600–700 chữ. Không chép lại đề. (50 điểm)",
+      "limits": {
+        "min": 450,
+        "max": 550
+      },
+      "data": [],
+      "prompt_ko": "요즘 플라스틱 쓰레기가 빠르게 늘고 있다. 아래의 내용을 중심으로 ‘플라스틱 쓰레기 줄이기’에 대한 자신의 생각을 쓰라.",
+      "bullets_ko": [
+        "플라스틱 쓰레기가 늘어나는 이유는 무엇인가?",
+        "플라스틱 쓰레기는 환경에 어떤 문제를 일으키는가?",
+        "플라스틱 쓰레기를 줄이기 위해 우리는 무엇을 할 수 있는가?"
+      ],
+      "framework_vi": [
+        "Đây là **bản đơn giản 3–4급** (`450~550자`), **đề luyện tập tự soạn**: ngắn hơn và có câu mở sẵn; đề thật luôn yêu cầu 600–700 chữ. Vì vậy số chữ của đề này là **450–550** (không phải 600–700); chỗ nhắc \"600 chữ\" trong phần lỗi hay gặp là của bản chuẩn.",
+        "**Khung có câu mở sẵn** (bạn điền ý vào chỗ …): 4 đoạn như bảng dàn ý bên dưới.",
+        "Bản 54-A chấm theo cùng tỉ lệ nhưng chỉ để luyện cấu trúc, không dùng để quy đổi tổng điểm.",
+        "**Cách dùng:** dùng 54-A để rèn cấu trúc 4 đoạn và các câu nối trước; khi đã quen thì chuyển sang 54-B/54-C với 5 đoạn và đủ 600 chữ."
+      ],
+      "patterns_vi": [
+        "Mở bài: 최근 …이/가 빠르게 늘고 있다. · 예전에는 … 그러나 오늘날에는 … · 이에 대해 생각해 보고자 한다.",
+        "Nguyên nhân: …의 가장 큰 이유는 … 때문이다. · 또한 … · 여기에 …도 원인이 된다.",
+        "Vấn đề: 그러나 … 면서 …도 생길 수 있다. · …(으)ㄴ/는 데다가 … · 이러한 문제를 그대로 두면 …",
+        "Giải pháp: 이를 해결하기 위해서는 …이/가 필요하다. · …(으)ㄹ 필요가 있다. · …을/를 줄이려면 …",
+        "Kết bài: 결론적으로 … · …(으)ㄹ 때 …(으)ㄹ 것이다.",
+        "Ngân hàng từ: 일회용품 · 분해되다 · 오염시키다 · 해양 생물 · 피해를 입다 · 텀블러 · 장바구니 · 분리배출 · 실천하다"
+      ],
+      "outline": [
+        {
+          "part_vi": "1. Hiện trạng và nguyên nhân",
+          "content_vi": "Câu mở gợi ý: 최근 …이/가 빠르게 늘고 있다. 그 이유는 … 때문이다.\nÝ cần viết: vì sao rác nhựa tăng"
+        },
+        {
+          "part_vi": "2. Vấn đề",
+          "content_vi": "Câu mở gợi ý: 이로 인해 … 문제가 생기고 있다.\nÝ cần viết: tác hại với đất, biển, sinh vật"
+        },
+        {
+          "part_vi": "3. Giải pháp",
+          "content_vi": "Câu mở gợi ý: 이를 해결하기 위해서는 … 필요가 있다.\nÝ cần viết: việc cá nhân có thể làm + phân loại rác đúng"
+        },
+        {
+          "part_vi": "4. Kết",
+          "content_vi": "Câu mở gợi ý: 결론적으로 …\nÝ cần viết: tóm tắt và kỳ vọng"
+        }
+      ],
+      "model_answer_ko": "일상생활에서 쓰고 버리는 플라스틱의 양이 해마다 크게 늘어나고 있다. 플라스틱은 편리하지만 쓰레기가 되면 큰 문제가 된다. 쓰레기가 늘어나는 이유는 플라스틱이 가볍고 값이 싸서 일상생활에서 많이 쓰이기 때문이다. 특히 카페나 배달 음식에서 한 번 쓰고 버리는 일회용품을 많이 사용한다.\n이로 인해 환경 문제가 심각해지고 있다. 플라스틱은 분해되는 데 오랜 시간이 걸리기 때문에 쓰레기가 되면 땅과 바다를 오염시킨다. 또한 바다에 버려진 플라스틱 때문에 해양 생물이 피해를 입기도 한다.\n이를 해결하기 위해서는 먼저 개인이 일회용품 사용을 줄일 필요가 있다. 카페에 갈 때 텀블러를 가지고 가고, 장을 볼 때는 장바구니를 쓰면 쓰레기를 많이 줄일 수 있다. 그리고 쓰레기를 버릴 때에는 내용물을 비우고 라벨을 떼는 등 분리배출을 정확하게 해야 한다. 기업도 포장을 줄이고 환경에 좋은 포장재를 쓰는 것이 필요하다.\n결론적으로 플라스틱 쓰레기 문제는 모두가 함께 노력해야 해결할 수 있다. 쓰레기를 줄이려면 작은 일부터 실천하는 것이 중요하다.",
+      "model_note_vi": "Bài mẫu 54-A (523 chữ gồm dấu cách; 396 chữ nếu không tính dấu cách)\nBản đơn giản 3–4급, 450~550자: đề luyện tập tự soạn; đề thật yêu cầu 600–700 chữ.",
+      "common_errors_vi": [
+        "Không trả lời đủ các gạch đầu dòng của đề (thường 3)",
+        "Chép lại nguyên câu của đề vào bài (đề ghi `문제를 그대로 옮겨 쓰지 마시오`): hãy diễn đạt lại bằng lời của mình.",
+        "Không chia đoạn",
+        "Chỉ viết \"tôi nghĩ\" mà thiếu lý do và ví dụ",
+        "Dùng 해요체 hoặc khẩu ngữ",
+        "Lặp một từ nối (그리고) quá nhiều",
+        "Viết thiếu 600 chữ",
+        "Nêu số liệu thật không chắc chắn (nên dùng \"nhiều/ngày càng\" thay vì con số tự nhớ)"
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Nội dung & hoàn thành yêu cầu",
+          "max": 12,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Cấu trúc triển khai",
+          "max": 12,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Sử dụng ngôn ngữ",
+          "max": 26,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        }
+      ],
+      "checklist_vi": [
+        "*Nội dung & yêu cầu*: có đủ mọi ý đề bài yêu cầu không (thường 3 gạch đầu dòng, đôi khi 2, ở câu 54; đủ số liệu ở câu 53)? Có đủ số chữ không?",
+        "*Cấu trúc*: có chia đoạn đúng chức năng không? Có từ nối hợp lý (첫째, 그러나, 이를 해결하기 위해서는, 결론적으로) không?",
+        "*Ngôn ngữ*: thể văn nhất quán (한다체) không? Từ vựng, ngữ pháp đa dạng và chính xác không (không lặp một mẫu câu)? Chính tả và 띄어쓰기 đúng không?"
+      ]
+    },
+    {
+      "id": "QW54B",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "54-B",
+      "title_vi": "Viết · Bài nghị luận 54-B (chuẩn): 1인 가구 (hộ 1 người)",
+      "points": 50,
+      "instruction_ko": "※ [54] 다음을 참고하여 600~700자로 글을 쓰시오. 단, 문제를 그대로 옮겨 쓰지 마시오. (50점)",
+      "instruction_vi": "Đọc đoạn dẫn và ba câu hỏi, rồi viết bài 600–700 chữ. Không chép lại đề: hãy diễn đạt bằng lời của mình. (50 điểm)",
+      "limits": {
+        "min": 600,
+        "max": 700
+      },
+      "data": [],
+      "prompt_ko": "한국에서는 혼자 사는 1인 가구가 빠르게 늘고 있다. 아래의 내용을 중심으로 ‘1인 가구의 증가’에 대한 자신의 생각을 쓰라.",
+      "bullets_ko": [
+        "1인 가구가 늘어나는 이유는 무엇인가?",
+        "1인 가구가 늘어나면서 어떤 문제가 생길 수 있는가?",
+        "이러한 문제를 해결하기 위해서는 어떤 노력이 필요한가?"
+      ],
+      "framework_vi": [
+        "Dàn ý 5 đoạn (số chữ gợi ý, bản chuẩn 600–700 chữ); ba thân bài lần lượt trả lời câu hỏi 1, 2, 3 của đề."
+      ],
+      "patterns_vi": [
+        "Mở bài: 최근 …이/가 빠르게 늘고 있다. · 예전에는 … 그러나 오늘날에는 … · 이에 대해 생각해 보고자 한다.",
+        "Nguyên nhân: …의 가장 큰 이유는 … 때문이다. · 또한 … · 여기에 …도 원인이 된다.",
+        "Vấn đề: 그러나 … 면서 …도 생길 수 있다. · …(으)ㄴ/는 데다가 … · 이러한 문제를 그대로 두면 …",
+        "Giải pháp: 이를 해결하기 위해서는 …이/가 필요하다. · …(으)ㄹ 필요가 있다. · …을/를 줄이려면 …",
+        "Kết bài: 결론적으로 … · …(으)ㄹ 때 …(으)ㄹ 것이다."
+      ],
+      "outline": [
+        {
+          "part_vi": "1. Mở bài",
+          "content_vi": "Bối cảnh (tình hình hiện tại) + nêu vấn đề sẽ bàn",
+          "chars": "110–150"
+        },
+        {
+          "part_vi": "2. Thân bài 1",
+          "content_vi": "Nguyên nhân / lý do (câu hỏi 1 của đề)",
+          "chars": "130–170"
+        },
+        {
+          "part_vi": "3. Thân bài 2",
+          "content_vi": "Vấn đề, khó khăn (câu hỏi 2)",
+          "chars": "120–160"
+        },
+        {
+          "part_vi": "4. Thân bài 3",
+          "content_vi": "Giải pháp, nỗ lực cần có (câu hỏi 3)",
+          "chars": "140–180"
+        },
+        {
+          "part_vi": "5. Kết bài",
+          "content_vi": "Tóm tắt + câu khẳng định/kỳ vọng",
+          "chars": "80–105"
+        }
+      ],
+      "model_answer_ko": "최근 한국 사회에서는 1인 가구가 차지하는 비중이 해마다 커지고 있다. 예전에는 여러 가족이 함께 사는 것이 일반적이었지만 오늘날에는 혼자 사는 사람이 점점 많아지고 있다. 이러한 변화의 이유와 문제점, 해결 방법에 대해 생각해 보고자 한다.\n1인 가구가 늘어나는 가장 큰 이유는 가족에 대한 생각이 달라졌기 때문이다. 과거에는 결혼해서 가정을 이루는 것을 당연하게 여겼지만 요즘은 개인의 삶을 더 중요하게 생각하는 사람이 많아졌다. 또한 집값과 양육비에 대한 부담이 커지면서 결혼을 미루는 경우도 늘고 있다.\n그러나 1인 가구가 늘어나면서 문제도 생길 수 있다. 혼자 살면 아프거나 위급할 때 도움을 받기 어려운 데다가 이웃과 교류가 적어서 외로움을 느끼는 사람도 많아진다. 이러한 문제를 그대로 두면 사회적 고립으로 이어질 수 있다.\n이를 해결하기 위해서는 먼저 정부와 지역 사회가 혼자 사는 사람들을 위한 안전망을 마련할 필요가 있다. 예를 들어 정기적으로 안부를 확인해 주는 서비스나 이웃끼리 모일 수 있는 공간을 늘리면 고립을 줄일 수 있다. 개인도 이웃에게 먼저 인사를 건네는 등 작은 관계를 만들려는 노력이 필요하다.\n결론적으로 1인 가구의 증가는 막을 수 없는 변화이다. 이 변화에 맞는 제도와 이웃 사이의 관심이 함께할 때 혼자 사는 사람도 안심하고 살 수 있는 사회가 될 것이다.",
+      "model_note_vi": "Bài mẫu 54-B (666 chữ gồm dấu cách; 497 chữ nếu không tính dấu cách)",
+      "common_errors_vi": [
+        "Không trả lời đủ các gạch đầu dòng của đề (thường 3)",
+        "Chép lại nguyên câu của đề vào bài (đề ghi `문제를 그대로 옮겨 쓰지 마시오`): hãy diễn đạt lại bằng lời của mình.",
+        "Không chia đoạn",
+        "Chỉ viết \"tôi nghĩ\" mà thiếu lý do và ví dụ",
+        "Dùng 해요체 hoặc khẩu ngữ",
+        "Lặp một từ nối (그리고) quá nhiều",
+        "Viết thiếu 600 chữ",
+        "Nêu số liệu thật không chắc chắn (nên dùng \"nhiều/ngày càng\" thay vì con số tự nhớ)"
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Nội dung & hoàn thành yêu cầu",
+          "max": 12,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Cấu trúc triển khai",
+          "max": 12,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Sử dụng ngôn ngữ",
+          "max": 26,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        }
+      ],
+      "checklist_vi": [
+        "*Nội dung & yêu cầu*: có đủ mọi ý đề bài yêu cầu không (thường 3 gạch đầu dòng, đôi khi 2, ở câu 54; đủ số liệu ở câu 53)? Có đủ số chữ không?",
+        "*Cấu trúc*: có chia đoạn đúng chức năng không? Có từ nối hợp lý (첫째, 그러나, 이를 해결하기 위해서는, 결론적으로) không?",
+        "*Ngôn ngữ*: thể văn nhất quán (한다체) không? Từ vựng, ngữ pháp đa dạng và chính xác không (không lặp một mẫu câu)? Chính tả và 띄어쓰기 đúng không?"
+      ]
+    },
+    {
+      "id": "QW54C",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "54-C",
+      "title_vi": "Viết · Bài nghị luận 54-C (chuẩn): 기후 변화 (biến đổi khí hậu)",
+      "points": 50,
+      "instruction_ko": "※ [54] 다음을 참고하여 600~700자로 글을 쓰시오. 단, 문제를 그대로 옮겨 쓰지 마시오. (50점)",
+      "instruction_vi": "Đọc đoạn dẫn và ba câu hỏi, rồi viết bài 600–700 chữ. Không chép lại đề: hãy diễn đạt bằng lời của mình. (50 điểm)",
+      "limits": {
+        "min": 600,
+        "max": 700
+      },
+      "data": [],
+      "prompt_ko": "최근 폭염과 폭우 같은 이상 기후가 자주 나타나고 있다. 아래의 내용을 중심으로 ‘기후 변화’에 대한 자신의 생각을 쓰라.",
+      "bullets_ko": [
+        "기후 변화가 나타나는 원인은 무엇인가?",
+        "기후 변화로 인해 어떤 문제가 생기고 있는가?",
+        "기후 변화에 대응하기 위해서는 어떤 노력이 필요한가?"
+      ],
+      "framework_vi": [
+        "Dàn ý 5 đoạn (số chữ gợi ý, bản chuẩn 600–700 chữ); ba thân bài lần lượt trả lời câu hỏi 1, 2, 3 của đề."
+      ],
+      "patterns_vi": [
+        "Mở bài: 최근 …이/가 빠르게 늘고 있다. · 예전에는 … 그러나 오늘날에는 … · 이에 대해 생각해 보고자 한다.",
+        "Nguyên nhân: …의 가장 큰 이유는 … 때문이다. · 또한 … · 여기에 …도 원인이 된다.",
+        "Vấn đề: 그러나 … 면서 …도 생길 수 있다. · …(으)ㄴ/는 데다가 … · 이러한 문제를 그대로 두면 …",
+        "Giải pháp: 이를 해결하기 위해서는 …이/가 필요하다. · …(으)ㄹ 필요가 있다. · …을/를 줄이려면 …",
+        "Kết bài: 결론적으로 … · …(으)ㄹ 때 …(으)ㄹ 것이다."
+      ],
+      "outline": [
+        {
+          "part_vi": "1. Mở bài",
+          "content_vi": "Bối cảnh (tình hình hiện tại) + nêu vấn đề sẽ bàn",
+          "chars": "110–150"
+        },
+        {
+          "part_vi": "2. Thân bài 1",
+          "content_vi": "Nguyên nhân / lý do (câu hỏi 1 của đề)",
+          "chars": "130–170"
+        },
+        {
+          "part_vi": "3. Thân bài 2",
+          "content_vi": "Vấn đề, khó khăn (câu hỏi 2)",
+          "chars": "120–160"
+        },
+        {
+          "part_vi": "4. Thân bài 3",
+          "content_vi": "Giải pháp, nỗ lực cần có (câu hỏi 3)",
+          "chars": "140–180"
+        },
+        {
+          "part_vi": "5. Kết bài",
+          "content_vi": "Tóm tắt + câu khẳng định/kỳ vọng",
+          "chars": "50–90"
+        }
+      ],
+      "model_answer_ko": "최근 여름에는 폭염이 길어지고 한꺼번에 많은 비가 내리는 등 이상 기후가 자주 나타나고 있다. 많은 전문가들은 이러한 현상이 기후 변화와 관련이 있다고 설명한다. 이에 대해 원인과 문제점, 대응 방법을 생각해 보고자 한다.\n기후 변화의 가장 큰 원인은 사람들이 사용하는 화석 연료에 있다. 공장과 자동차, 발전소에서 석탄과 석유를 태울수록 온실가스가 늘어나고 지구의 기온은 더 올라간다. 여기에 숲이 줄어들면서 이산화탄소를 흡수하는 능력이 약해진 것도 원인이 된다.\n기후 변화로 인해 우리의 생활에도 여러 가지 문제가 생기고 있다. 폭염과 폭우 같은 자연재해가 잦아지면서 사람들이 피해를 입는 경우가 늘고 있고, 농작물의 생산에도 어려움이 생긴다. 또한 기온이 올라갈수록 해수면이 높아져서 바다와 가까운 지역에 사는 사람들은 살 곳을 잃을 수도 있다.\n이를 해결하기 위해서는 먼저 정부와 기업이 온실가스 배출을 줄이고 태양광이나 풍력과 같은 재생 에너지를 늘려 나가야 한다. 이 문제는 한 나라의 노력만으로는 해결할 수 없으므로 국제 협력도 필요하다. 개인도 가까운 거리는 걸어가고 사용하지 않는 전등을 끄는 등 에너지를 아끼는 생활 습관을 가질 필요가 있다.\n결론적으로 기후 변화는 먼 미래의 문제가 아니라 지금 우리가 겪고 있는 문제이다. 대응이 늦어질수록 피해는 더 커질 것이므로 지금부터 모두가 함께 노력해야 한다.",
+      "model_note_vi": "Bài mẫu 54-C (680 chữ gồm dấu cách; 514 chữ nếu không tính dấu cách)",
+      "common_errors_vi": [
+        "Không trả lời đủ các gạch đầu dòng của đề (thường 3)",
+        "Chép lại nguyên câu của đề vào bài (đề ghi `문제를 그대로 옮겨 쓰지 마시오`): hãy diễn đạt lại bằng lời của mình.",
+        "Không chia đoạn",
+        "Chỉ viết \"tôi nghĩ\" mà thiếu lý do và ví dụ",
+        "Dùng 해요체 hoặc khẩu ngữ",
+        "Lặp một từ nối (그리고) quá nhiều",
+        "Viết thiếu 600 chữ",
+        "Nêu số liệu thật không chắc chắn (nên dùng \"nhiều/ngày càng\" thay vì con số tự nhớ)"
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Nội dung & hoàn thành yêu cầu",
+          "max": 12,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Cấu trúc triển khai",
+          "max": 12,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Sử dụng ngôn ngữ",
+          "max": 26,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        }
+      ],
+      "checklist_vi": [
+        "*Nội dung & yêu cầu*: có đủ mọi ý đề bài yêu cầu không (thường 3 gạch đầu dòng, đôi khi 2, ở câu 54; đủ số liệu ở câu 53)? Có đủ số chữ không?",
+        "*Cấu trúc*: có chia đoạn đúng chức năng không? Có từ nối hợp lý (첫째, 그러나, 이를 해결하기 위해서는, 결론적으로) không?",
+        "*Ngôn ngữ*: thể văn nhất quán (한다체) không? Từ vựng, ngữ pháp đa dạng và chính xác không (không lặp một mẫu câu)? Chính tả và 띄어쓰기 đúng không?"
+      ]
+    },
+    {
+      "id": "QW54D",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "54-D",
+      "title_vi": "Viết · Bài nghị luận 54-D (chuẩn): 명절 문화 (thay đổi văn hóa lễ tết)",
+      "points": 50,
+      "instruction_ko": "※ [54] 다음을 참고하여 600~700자로 글을 쓰시오. 단, 문제를 그대로 옮겨 쓰지 마시오. (50점)",
+      "instruction_vi": "Đọc đoạn dẫn và ba câu hỏi, rồi viết bài 600–700 chữ. Không chép lại đề: hãy diễn đạt bằng lời của mình. (50 điểm)",
+      "limits": {
+        "min": 600,
+        "max": 700
+      },
+      "data": [],
+      "prompt_ko": "최근 명절을 보내는 방식이 달라지고 있다. 차례를 간단하게 지내거나 여행을 가는 가정이 늘고 있다. 아래의 내용을 중심으로 ‘명절 문화의 변화’에 대한 자신의 생각을 쓰라.",
+      "bullets_ko": [
+        "명절을 보내는 방식이 달라지는 이유는 무엇인가?",
+        "이러한 변화로 인해 어떤 문제가 생길 수 있는가?",
+        "명절의 의미를 살리기 위해서는 어떤 노력이 필요한가?"
+      ],
+      "framework_vi": [
+        "Dàn ý 5 đoạn (số chữ gợi ý, bản chuẩn 600–700 chữ); ba thân bài lần lượt trả lời câu hỏi 1, 2, 3 của đề. Viết bài của bạn trước, rồi mới mở bài mẫu để so.",
+        "**Dàn ý gợi ý:** (1) thay đổi: đi du lịch thay về quê, cúng giản lược → (2) nguyên nhân: gia đình hạt nhân, bình đẳng giới, coi trọng thời gian nghỉ; vấn đề: gánh nặng chuẩn bị dồn vào một số người → (3) hướng đi: chia sẻ vai trò, giản lược có chọn lọc, giữ ý nghĩa **sum họp và biết ơn**",
+        "(Gợi ý chọn đề: mỗi đề chỉ một trọng tâm; không gộp nhiều vấn đề vào một bài để ba câu trả lời không bị loãng. Các dàn ý này không đưa số liệu thật vì chưa đối chiếu nguồn.)"
+      ],
+      "patterns_vi": [
+        "…는 경향이 있다",
+        "…(으)ㄴ/는 반면(에)",
+        "명절의 의미를 살리기 위해서는 …이/가 필요하다",
+        "Mở bài: 최근 …이/가 빠르게 늘고 있다. · 예전에는 … 그러나 오늘날에는 … · 이에 대해 생각해 보고자 한다.",
+        "Nguyên nhân: …의 가장 큰 이유는 … 때문이다. · 또한 … · 여기에 …도 원인이 된다.",
+        "Vấn đề: 그러나 … 면서 …도 생길 수 있다. · …(으)ㄴ/는 데다가 … · 이러한 문제를 그대로 두면 …",
+        "Giải pháp: 이를 해결하기 위해서는 …이/가 필요하다. · …(으)ㄹ 필요가 있다. · …을/를 줄이려면 …",
+        "Kết bài: 결론적으로 … · …(으)ㄹ 때 …(으)ㄹ 것이다."
+      ],
+      "outline": [
+        {
+          "part_vi": "1. Mở bài",
+          "content_vi": "Bối cảnh (tình hình hiện tại) + nêu vấn đề sẽ bàn",
+          "chars": "80–110"
+        },
+        {
+          "part_vi": "2. Thân bài 1",
+          "content_vi": "Nguyên nhân / lý do (câu hỏi 1 của đề)",
+          "chars": "130–170"
+        },
+        {
+          "part_vi": "3. Thân bài 2",
+          "content_vi": "Vấn đề, khó khăn (câu hỏi 2)",
+          "chars": "120–160"
+        },
+        {
+          "part_vi": "4. Thân bài 3",
+          "content_vi": "Giải pháp, nỗ lực cần có (câu hỏi 3)",
+          "chars": "140–180"
+        },
+        {
+          "part_vi": "5. Kết bài",
+          "content_vi": "Tóm tắt + câu khẳng định/kỳ vọng",
+          "chars": "50–90"
+        }
+      ],
+      "model_answer_ko": "최근 명절을 보내는 모습이 많이 달라지고 있다. 예전에는 온 가족이 고향에 모여 차례를 지내는 것이 당연했지만 요즘에는 차례를 간단하게 지내거나 연휴에 여행을 떠나는 가정이 늘고 있다. 이러한 변화의 이유와 문제점, 앞으로의 방향에 대해 생각해 보고자 한다.\n명절 문화가 달라지는 가장 큰 이유는 가족의 형태가 바뀌었기 때문이다. 핵가족과 1인 가구가 늘어나면서 많은 친척이 한곳에 모이기가 어려워졌다. 또한 바쁘게 일하는 사람들이 연휴를 쉬는 시간으로 보내고 싶어 하는 것도 원인이 된다.\n그러나 이러한 변화로 인해 문제가 생길 수도 있다. 가족이 함께 보내는 시간이 줄어들면 세대 간의 대화가 부족해질 수 있다. 그리고 명절 준비가 여전히 일부 가족에게만 맡겨진다면 갈등이 생길 수밖에 없다. 명절에만 만나던 친척들과의 관계가 점점 멀어지는 것도 걱정되는 부분이다.\n명절의 의미를 살리기 위해서는 형식보다 마음을 중요하게 여기는 태도가 필요하다. 음식의 가짓수를 줄이더라도 가족이 함께 준비하고 일을 공평하게 나누어야 한다. 직접 만나기 어려운 가족과는 영상 통화로 안부를 묻는 것도 좋은 방법이다.\n결론적으로 명절의 모습은 시대에 따라 달라질 수 있다. 하지만 가족이 서로에게 감사하고 정을 나누는 마음을 지킬 때 명절은 계속 의미 있는 날로 남을 것이다.",
+      "model_note_vi": "Bài mẫu 54-D do Haru biên soạn (646 chữ gồm dấu cách; 489 chữ nếu không tính dấu cách). Năm đoạn theo đúng dàn ý; không dùng số liệu thật vì chưa đối chiếu nguồn.",
+      "common_errors_vi": [
+        "Không trả lời đủ các gạch đầu dòng của đề (thường 3)",
+        "Chép lại nguyên câu của đề vào bài (đề ghi `문제를 그대로 옮겨 쓰지 마시오`): hãy diễn đạt lại bằng lời của mình.",
+        "Không chia đoạn",
+        "Chỉ viết \"tôi nghĩ\" mà thiếu lý do và ví dụ",
+        "Dùng 해요체 hoặc khẩu ngữ",
+        "Lặp một từ nối (그리고) quá nhiều",
+        "Viết thiếu 600 chữ",
+        "Nêu số liệu thật không chắc chắn (nên dùng \"nhiều/ngày càng\" thay vì con số tự nhớ)"
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Nội dung & hoàn thành yêu cầu",
+          "max": 12,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Cấu trúc triển khai",
+          "max": 12,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Sử dụng ngôn ngữ",
+          "max": 26,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        }
+      ],
+      "checklist_vi": [
+        "*Nội dung & yêu cầu*: có đủ mọi ý đề bài yêu cầu không (thường 3 gạch đầu dòng, đôi khi 2, ở câu 54; đủ số liệu ở câu 53)? Có đủ số chữ không?",
+        "*Cấu trúc*: có chia đoạn đúng chức năng không? Có từ nối hợp lý (첫째, 그러나, 이를 해결하기 위해서는, 결론적으로) không?",
+        "*Ngôn ngữ*: thể văn nhất quán (한다체) không? Từ vựng, ngữ pháp đa dạng và chính xác không (không lặp một mẫu câu)? Chính tả và 띄어쓰기 đúng không?"
+      ]
+    },
+    {
+      "id": "QW54E",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "54-E",
+      "title_vi": "Viết · Bài nghị luận 54-E (chuẩn): 오버투어리즘 (du khách quá tải)",
+      "points": 50,
+      "instruction_ko": "※ [54] 다음을 참고하여 600~700자로 글을 쓰시오. 단, 문제를 그대로 옮겨 쓰지 마시오. (50점)",
+      "instruction_vi": "Đọc đoạn dẫn và ba câu hỏi, rồi viết bài 600–700 chữ. Không chép lại đề: hãy diễn đạt bằng lời của mình. (50 điểm)",
+      "limits": {
+        "min": 600,
+        "max": 700
+      },
+      "data": [],
+      "prompt_ko": "유명한 관광지에 관광객이 지나치게 몰리면서 주민과 환경이 피해를 입는 일이 늘고 있다. 아래의 내용을 중심으로 ‘관광객 과밀(오버투어리즘)’에 대한 자신의 생각을 쓰라.",
+      "bullets_ko": [
+        "관광객이 한곳에 몰리는 이유는 무엇인가?",
+        "이로 인해 어떤 문제가 생기는가?",
+        "책임 있는 여행을 위해서는 어떤 노력이 필요한가?"
+      ],
+      "framework_vi": [
+        "Dàn ý 5 đoạn (số chữ gợi ý, bản chuẩn 600–700 chữ); ba thân bài lần lượt trả lời câu hỏi 1, 2, 3 của đề. Viết bài của bạn trước, rồi mới mở bài mẫu để so.",
+        "**Dàn ý gợi ý:** (1) hiện trạng: du khách dồn vào vài điểm nổi tiếng → (2) vấn đề: giá nhà, tiếng ồn, rác, môi trường bị tổn hại; dân địa phương khó chịu → (3) giải pháp: phân tán du khách, hạn chế số lượng, đặt chỗ trước, du khách giữ quy tắc",
+        "(Gợi ý chọn đề: mỗi đề chỉ một trọng tâm; không gộp nhiều vấn đề vào một bài để ba câu trả lời không bị loãng. Các dàn ý này không đưa số liệu thật vì chưa đối chiếu nguồn.)"
+      ],
+      "patterns_vi": [
+        "…(으)ㄹ 수밖에 없다",
+        "…에 따라 …이/가 달라지다",
+        "…(으)ㄹ 경우에",
+        "Mở bài: 최근 …이/가 빠르게 늘고 있다. · 예전에는 … 그러나 오늘날에는 … · 이에 대해 생각해 보고자 한다.",
+        "Nguyên nhân: …의 가장 큰 이유는 … 때문이다. · 또한 … · 여기에 …도 원인이 된다.",
+        "Vấn đề: 그러나 … 면서 …도 생길 수 있다. · …(으)ㄴ/는 데다가 … · 이러한 문제를 그대로 두면 …",
+        "Giải pháp: 이를 해결하기 위해서는 …이/가 필요하다. · …(으)ㄹ 필요가 있다. · …을/를 줄이려면 …",
+        "Kết bài: 결론적으로 … · …(으)ㄹ 때 …(으)ㄹ 것이다."
+      ],
+      "outline": [
+        {
+          "part_vi": "1. Mở bài",
+          "content_vi": "Bối cảnh (tình hình hiện tại) + nêu vấn đề sẽ bàn",
+          "chars": "80–110"
+        },
+        {
+          "part_vi": "2. Thân bài 1",
+          "content_vi": "Nguyên nhân / lý do (câu hỏi 1 của đề)",
+          "chars": "130–170"
+        },
+        {
+          "part_vi": "3. Thân bài 2",
+          "content_vi": "Vấn đề, khó khăn (câu hỏi 2)",
+          "chars": "120–160"
+        },
+        {
+          "part_vi": "4. Thân bài 3",
+          "content_vi": "Giải pháp, nỗ lực cần có (câu hỏi 3)",
+          "chars": "140–180"
+        },
+        {
+          "part_vi": "5. Kết bài",
+          "content_vi": "Tóm tắt + câu khẳng định/kỳ vọng",
+          "chars": "50–90"
+        }
+      ],
+      "model_answer_ko": "최근 유명한 관광지에 관광객이 지나치게 몰리면서 그 지역 주민과 환경이 피해를 입는 일이 늘고 있다. 이를 관광객 과밀, 곧 오버투어리즘이라고 부른다. 이 문제의 원인과 결과, 해결 방법에 대해 생각해 보고자 한다.\n관광객이 한곳에 몰리는 가장 큰 이유는 SNS의 영향 때문이다. 사람들은 다른 사람이 올린 사진을 보고 같은 장소에서 같은 사진을 찍고 싶어 한다. 또한 저렴한 항공권과 숙소가 많아지면서 여행을 떠나기가 쉬워진 것도 원인이 된다.\n관광객이 지나치게 많아지면 주민들의 생활이 불편해진다. 밤늦게까지 소음이 계속되는 데다가 쓰레기가 늘고 교통도 복잡해진다. 그리고 숙소가 늘어나 집값과 물가가 오르면 원래 살던 주민들이 동네를 떠날 수밖에 없다. 자연환경과 문화유산이 훼손되는 것도 큰 문제이다.\n이를 해결하기 위해서는 지역과 관광객 모두의 노력이 필요하다. 지역에서는 하루 방문객 수를 제한하거나 예약제를 운영하여 관광객을 분산시킬 필요가 있다. 관광객은 주민의 생활 공간을 존중하고 쓰레기를 되가져가는 등 기본적인 규칙을 지켜야 한다. 또한 유명한 곳뿐만 아니라 덜 알려진 지역을 찾아가는 것도 좋은 방법이다.\n결론적으로 여행은 그곳에 사는 사람들의 삶을 존중할 때 더 가치가 있다. 모두가 책임 있는 여행을 실천할 때 관광지와 주민이 함께 웃을 수 있을 것이다.",
+      "model_note_vi": "Bài mẫu 54-E do Haru biên soạn (656 chữ gồm dấu cách; 498 chữ nếu không tính dấu cách). Năm đoạn theo đúng dàn ý; không dùng số liệu thật vì chưa đối chiếu nguồn.",
+      "common_errors_vi": [
+        "Không trả lời đủ các gạch đầu dòng của đề (thường 3)",
+        "Chép lại nguyên câu của đề vào bài (đề ghi `문제를 그대로 옮겨 쓰지 마시오`): hãy diễn đạt lại bằng lời của mình.",
+        "Không chia đoạn",
+        "Chỉ viết \"tôi nghĩ\" mà thiếu lý do và ví dụ",
+        "Dùng 해요체 hoặc khẩu ngữ",
+        "Lặp một từ nối (그리고) quá nhiều",
+        "Viết thiếu 600 chữ",
+        "Nêu số liệu thật không chắc chắn (nên dùng \"nhiều/ngày càng\" thay vì con số tự nhớ)"
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Nội dung & hoàn thành yêu cầu",
+          "max": 12,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Cấu trúc triển khai",
+          "max": 12,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Sử dụng ngôn ngữ",
+          "max": 26,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        }
+      ],
+      "checklist_vi": [
+        "*Nội dung & yêu cầu*: có đủ mọi ý đề bài yêu cầu không (thường 3 gạch đầu dòng, đôi khi 2, ở câu 54; đủ số liệu ở câu 53)? Có đủ số chữ không?",
+        "*Cấu trúc*: có chia đoạn đúng chức năng không? Có từ nối hợp lý (첫째, 그러나, 이를 해결하기 위해서는, 결론적으로) không?",
+        "*Ngôn ngữ*: thể văn nhất quán (한다체) không? Từ vựng, ngữ pháp đa dạng và chính xác không (không lặp một mẫu câu)? Chính tả và 띄어쓰기 đúng không?"
+      ]
+    },
+    {
+      "id": "QW54F",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "54-F",
+      "title_vi": "Viết · Bài nghị luận 54-F (chuẩn): 다문화 사회 (xã hội đa văn hóa)",
+      "points": 50,
+      "instruction_ko": "※ [54] 다음을 참고하여 600~700자로 글을 쓰시오. 단, 문제를 그대로 옮겨 쓰지 마시오. (50점)",
+      "instruction_vi": "Đọc đoạn dẫn và ba câu hỏi, rồi viết bài 600–700 chữ. Không chép lại đề: hãy diễn đạt bằng lời của mình. (50 điểm)",
+      "limits": {
+        "min": 600,
+        "max": 700
+      },
+      "data": [],
+      "prompt_ko": "한국에는 다양한 문화적 배경을 가진 사람들이 함께 살아가고 있다. 아래의 내용을 중심으로 ‘다문화 사회’에 대한 자신의 생각을 쓰라.",
+      "bullets_ko": [
+        "한국 사회가 다문화 사회로 변해 가는 이유는 무엇인가?",
+        "서로 다른 문화가 만나면서 어떤 어려움이 생길 수 있는가?",
+        "서로를 존중하며 함께 살아가기 위해서는 어떤 노력이 필요한가?"
+      ],
+      "framework_vi": [
+        "Dàn ý 5 đoạn (số chữ gợi ý, bản chuẩn 600–700 chữ); ba thân bài lần lượt trả lời câu hỏi 1, 2, 3 của đề. Viết bài của bạn trước, rồi mới mở bài mẫu để so.",
+        "**Dàn ý gợi ý:** (1) hiện trạng: ngày càng nhiều người nước ngoài, hôn nhân đa văn hóa, lao động → (2) khó khăn: rào cản ngôn ngữ, định kiến, khác biệt văn hóa → (3) nỗ lực: giáo dục đa văn hóa, hỗ trợ học tiếng, tôn trọng đa dạng",
+        "(Gợi ý chọn đề: mỗi đề chỉ một trọng tâm; không gộp nhiều vấn đề vào một bài để ba câu trả lời không bị loãng. Các dàn ý này không đưa số liệu thật vì chưa đối chiếu nguồn.)"
+      ],
+      "patterns_vi": [
+        "…(이)라는 …",
+        "…덕분에 …",
+        "…(으)ㄹ 필요가 있다",
+        "Mở bài: 최근 …이/가 빠르게 늘고 있다. · 예전에는 … 그러나 오늘날에는 … · 이에 대해 생각해 보고자 한다.",
+        "Nguyên nhân: …의 가장 큰 이유는 … 때문이다. · 또한 … · 여기에 …도 원인이 된다.",
+        "Vấn đề: 그러나 … 면서 …도 생길 수 있다. · …(으)ㄴ/는 데다가 … · 이러한 문제를 그대로 두면 …",
+        "Giải pháp: 이를 해결하기 위해서는 …이/가 필요하다. · …(으)ㄹ 필요가 있다. · …을/를 줄이려면 …",
+        "Kết bài: 결론적으로 … · …(으)ㄹ 때 …(으)ㄹ 것이다."
+      ],
+      "outline": [
+        {
+          "part_vi": "1. Mở bài",
+          "content_vi": "Bối cảnh (tình hình hiện tại) + nêu vấn đề sẽ bàn",
+          "chars": "80–110"
+        },
+        {
+          "part_vi": "2. Thân bài 1",
+          "content_vi": "Nguyên nhân / lý do (câu hỏi 1 của đề)",
+          "chars": "130–170"
+        },
+        {
+          "part_vi": "3. Thân bài 2",
+          "content_vi": "Vấn đề, khó khăn (câu hỏi 2)",
+          "chars": "120–160"
+        },
+        {
+          "part_vi": "4. Thân bài 3",
+          "content_vi": "Giải pháp, nỗ lực cần có (câu hỏi 3)",
+          "chars": "140–180"
+        },
+        {
+          "part_vi": "5. Kết bài",
+          "content_vi": "Tóm tắt + câu khẳng định/kỳ vọng",
+          "chars": "50–90"
+        }
+      ],
+      "model_answer_ko": "최근 한국에는 다양한 문화적 배경을 가진 사람들이 함께 살아가고 있다. 거리나 직장, 학교에서 외국인 이웃을 만나는 것이 더 이상 특별한 일이 아니다. 이러한 변화의 이유와 그 과정에서 생기는 어려움, 함께 살아가기 위한 노력에 대해 생각해 보고자 한다.\n다문화 사회가 된 가장 큰 이유는 일하거나 공부하기 위해 한국에 오는 외국인이 늘었기 때문이다. 또한 국제결혼으로 이루어진 가정이 많아진 것도 원인이 된다. 여기에 일할 사람이 부족한 산업 현장에서 외국인 노동자를 필요로 하는 것도 영향을 주고 있다.\n그러나 서로 다른 문화가 만나면서 어려움이 생기기도 한다. 말이 잘 통하지 않으면 병원이나 관공서를 이용할 때 불편을 겪을 수 있다. 그리고 다른 문화에 대한 편견 때문에 차별을 받거나 이웃과 오해가 생기는 경우도 있다. 아이들이 학교생활에 적응하지 못해 어려움을 겪기도 한다.\n서로를 존중하며 함께 살아가기 위해서는 사회 전체의 노력이 필요하다. 먼저 이주민이 한국어와 한국 문화를 쉽게 배울 수 있도록 지원해야 한다. 동시에 학교와 지역 사회에서 다문화 교육을 하여 다양성을 존중하는 태도를 길러야 한다.\n결론적으로 다문화 사회는 피할 수 없는 변화이다. 서로의 다름을 인정하고 배우려는 마음을 가질 때 우리 사회는 더욱 풍부하고 따뜻해질 것이다.",
+      "model_note_vi": "Bài mẫu 54-F do Haru biên soạn (644 chữ gồm dấu cách; 484 chữ nếu không tính dấu cách). Năm đoạn theo đúng dàn ý; không dùng số liệu thật vì chưa đối chiếu nguồn.",
+      "common_errors_vi": [
+        "Không trả lời đủ các gạch đầu dòng của đề (thường 3)",
+        "Chép lại nguyên câu của đề vào bài (đề ghi `문제를 그대로 옮겨 쓰지 마시오`): hãy diễn đạt lại bằng lời của mình.",
+        "Không chia đoạn",
+        "Chỉ viết \"tôi nghĩ\" mà thiếu lý do và ví dụ",
+        "Dùng 해요체 hoặc khẩu ngữ",
+        "Lặp một từ nối (그리고) quá nhiều",
+        "Viết thiếu 600 chữ",
+        "Nêu số liệu thật không chắc chắn (nên dùng \"nhiều/ngày càng\" thay vì con số tự nhớ)"
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Nội dung & hoàn thành yêu cầu",
+          "max": 12,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Cấu trúc triển khai",
+          "max": 12,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Sử dụng ngôn ngữ",
+          "max": 26,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        }
+      ],
+      "checklist_vi": [
+        "*Nội dung & yêu cầu*: có đủ mọi ý đề bài yêu cầu không (thường 3 gạch đầu dòng, đôi khi 2, ở câu 54; đủ số liệu ở câu 53)? Có đủ số chữ không?",
+        "*Cấu trúc*: có chia đoạn đúng chức năng không? Có từ nối hợp lý (첫째, 그러나, 이를 해결하기 위해서는, 결론적으로) không?",
+        "*Ngôn ngữ*: thể văn nhất quán (한다체) không? Từ vựng, ngữ pháp đa dạng và chính xác không (không lặp một mẫu câu)? Chính tả và 띄어쓰기 đúng không?"
+      ]
+    },
+    {
+      "id": "QE01c",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "Mở rộng",
+      "title_vi": "🟣 Mở rộng · Viết: -(으)ㄴ 채로",
+      "points": 6,
+      "instruction_ko": "다음 글의 ㉠에 들어갈 말을 쓰십시오.",
+      "instruction_vi": "Viết nội dung thích hợp vào ㉠ (Câu luyện biên soạn bổ sung)",
+      "context_vi": "Thông báo của ban quản lý, phân loại rác",
+      "heading_ko": "[분리배출 안내]",
+      "text": "최근 분리배출장에서 냄새가 난다는 민원이 늘고 있습니다. 캔에 음료가 ( ㉠ ) 버리는 입주민이 많기 때문입니다. 캔은 안을 비우고 헹군 다음에 배출해 주시기 바랍니다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 6,
+          "accepted": [
+            "남은 채로",
+            "남은 채",
+            "남아 있는 채로",
+            "남아 있는 채",
+            "남아있는 채로"
+          ],
+          "common_errors_vi": "Quên `-(으)ㄴ` (✗ 남아 채로); dùng `-는` (✗ 남는 채로, vì trạng thái đã hình thành); dùng `-(으)면서`/`-도록` (không có nghĩa \"để nguyên\")."
+        }
+      ],
+      "tips_vi": [
+        "Đề cho (남다 + -(으)ㄴ 채로): chủ thể của trạng thái là `음료` (음료가 남다) nên viết `남은 채로`.",
+        "Vì trạng thái đã hình thành xong, dùng `-(으)ㄴ`, không dùng `-는`."
+      ]
+    },
+    {
+      "id": "QE02c",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "Mở rộng",
+      "title_vi": "🟣 Mở rộng · Viết: -(으)ㄴ 적이 없다",
+      "points": 6,
+      "instruction_ko": "다음 글의 ㉠에 들어갈 말을 쓰십시오.",
+      "instruction_vi": "Viết nội dung thích hợp vào ㉠ (Câu luyện biên soạn bổ sung)",
+      "context_vi": "Hội thoại điện thoại, hỏi về kinh nghiệm",
+      "heading_ko": "통화 내용",
+      "text": "가: 수진 씨, 이 번호로 전에 전화한 적이 있어요?\n나: 아니요, 이 번호로는 한 번도 ( ㉠ ). 처음 보는 번호예요. (전화하다 + -(으)ㄴ 적이 없다)",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 6,
+          "accepted": [
+            "전화한 적이 없어요",
+            "전화한 적 없어요",
+            "전화한 적이 없었어요",
+            "전화를 한 적이 없어요",
+            "전화해 본 적이 없어요",
+            "전화해 본 적이 없었어요"
+          ],
+          "common_errors_vi": "Viết `전화하지 않았어요` (chỉ là \"đã không gọi\", mất nghĩa \"chưa từng\"); thiếu `-(으)ㄴ` (✗ 전화하는 적이 없어요); viết nghĩa ngược `적이 있어요`."
+        }
+      ],
+      "tips_vi": [
+        "`한 번도` đi với phủ định = \"chưa bao giờ\" → `적이 없다`.",
+        "Động từ + `-(으)ㄴ` (전화하다 → `전화한`), rồi `적이 없어요` (viết cách)."
+      ]
+    },
+    {
+      "id": "QE03c",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "Mở rộng",
+      "title_vi": "🟣 Mở rộng · Viết: -(이)라면",
+      "points": 6,
+      "instruction_ko": "다음 글의 ㉠에 들어갈 말을 쓰십시오.",
+      "instruction_vi": "Viết nội dung thích hợp vào ㉠ (Câu luyện biên soạn bổ sung)",
+      "context_vi": "Trả lời câu hỏi nêu ý kiến (Nói S4-B)",
+      "heading_ko": "[여러분이 아래층 이웃이라면?]",
+      "text": "저는 지금 단독주택에 살지만, ( ㉠ ) 먼저 윗집에 올라가서 조용히 해 달라고 부탁할 거예요. (제가 + 아래층 이웃 + -(이)라면)",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 6,
+          "accepted": [
+            "제가 아래층 이웃이라면",
+            "만약 제가 아래층 이웃이라면",
+            "제가 만약 아래층 이웃이라면",
+            "제가 아래층의 이웃이라면"
+          ],
+          "common_errors_vi": "Quên `이` (✗ 아래층 이웃라면); dùng `-(으)려면`/`-도록` (không phải giả định vai); viết `제가 아래층 이웃이면` (gần nghĩa nhưng không phải mẫu đang luyện)."
+        }
+      ],
+      "tips_vi": [
+        "Danh từ có patchim (`이웃`) → `이라면`; không patchim (`남자`) → `라면`.",
+        "Chủ ngữ giả định đi với `제가` (hoặc `저라면`); vế sau là `-(으)ㄹ 거예요`."
+      ]
+    },
+    {
+      "id": "QE04c",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "Mở rộng",
+      "title_vi": "🟣 Mở rộng · Viết: -더라도",
+      "points": 6,
+      "instruction_ko": "다음 글의 ㉠에 들어갈 말을 쓰십시오.",
+      "instruction_vi": "Viết nội dung thích hợp vào ㉠ (Câu luyện biên soạn bổ sung)",
+      "context_vi": "Thông báo của ban quản lý, tiếng ồn",
+      "heading_ko": "[층간 소음 안내]",
+      "text": "안녕하십니까? 관리사무소입니다. 아무리 급한 일이 ( ㉠ ) 밤 10시 이후에는 청소기를 사용하지 말아 주시기 바랍니다. (생기다 + -더라도)",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 6,
+          "accepted": [
+            "생기더라도",
+            "생긴다 하더라도",
+            "생긴다고 하더라도"
+          ],
+          "common_errors_vi": "Viết `생기도록`/`생기는 바람에` (không có nghĩa \"dù\"); gắn `-(으)ㄴ` (✗ 생긴더라도)."
+        }
+      ],
+      "tips_vi": [
+        "`아무리 …` luôn đi với vế nhượng bộ: `-더라도` hoặc `-아/어도`.",
+        "Đề yêu cầu `-더라도`: gắn thẳng vào gốc động từ `생기-`."
+      ]
+    },
+    {
+      "id": "QE05c",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "Mở rộng",
+      "title_vi": "🟣 Mở rộng · Viết: -자마자",
+      "points": 6,
+      "instruction_ko": "다음 글의 ㉠에 들어갈 말을 쓰십시오.",
+      "instruction_vi": "Viết nội dung thích hợp vào ㉠ (Câu luyện biên soạn bổ sung)",
+      "context_vi": "Hội thoại sau khi chuyển nhà",
+      "heading_ko": "이사 후 이야기",
+      "text": "가: 이사하신 후에 제일 먼저 뭘 하셨어요?\n나: ( ㉠ ) 주민센터에 가서 전입신고를 했어요. (새집에 + 이사하다 + -자마자)",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 6,
+          "accepted": [
+            "새집에 이사하자마자",
+            "새집으로 이사하자마자",
+            "새집에 이사 오자마자",
+            "새집으로 이사 오자마자",
+            "새집에 이사를 하자마자",
+            "새집에 이사하자마자 곧바로",
+            "이사하자마자",
+            "이사를 하자마자"
+          ],
+          "common_errors_vi": "Gắn `-았/었-` (✗ 이사했자마자); viết `이사한 다음에` (không có nghĩa \"ngay khi\"); viết `이사하려면` hoặc `이사한 지` (sai nghĩa)."
+        }
+      ],
+      "tips_vi": [
+        "`-자마자` gắn vào gốc động từ (`이사하-`), không chia thì.",
+        "Thì quá khứ nằm ở vế sau: `전입신고를 했어요`."
+      ]
+    },
+    {
+      "id": "QE06c",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "Mở rộng",
+      "title_vi": "🟣 Mở rộng · Viết: -기에 + tính từ",
+      "points": 6,
+      "instruction_ko": "다음 글의 ㉠에 들어갈 말을 쓰십시오.",
+      "instruction_vi": "Viết nội dung thích hợp vào ㉠ (Câu luyện biên soạn bổ sung)",
+      "context_vi": "Hội thoại về chuyến trải nghiệm hanok",
+      "heading_ko": "한옥 체험",
+      "text": "가: 이 한옥은 어때요?\n나: 방이 따뜻하고 조용해서 가족과 함께 ( ㉠ ) 정말 좋은 곳이에요. (하룻밤 지내다 + -기에)",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 6,
+          "accepted": [
+            "하룻밤 지내기에",
+            "하룻밤 지내기에는",
+            "하룻밤을 지내기에",
+            "하룻밤을 지내기에는",
+            "하룻밤 묵기에",
+            "지내기에",
+            "지내기에는"
+          ],
+          "common_errors_vi": "Viết `지냈기에`/`지내서` (không còn là \"xét về việc V\"); dùng `-더라고요`/`-(으)려면`; dùng `-는 데` (gần nghĩa nhưng đề yêu cầu `-기에`)."
+        }
+      ],
+      "tips_vi": [
+        "`-기에` gắn vào gốc động từ (`지내-`) và đứng trước tính từ đánh giá `좋은`.",
+        "Nhận xét chung về nơi chốn, nên không thêm `-았/었-`."
+      ]
+    },
+    {
+      "id": "QE07c",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "Mở rộng",
+      "title_vi": "🟣 Mở rộng · Viết -(으)니까 (phát hiện)",
+      "points": 6,
+      "instruction_ko": "다음 글의 ㉠에 들어갈 말을 쓰십시오.",
+      "instruction_vi": "Viết cụm từ thích hợp vào ㉠ (Câu luyện biên soạn bổ sung)",
+      "context_vi": "Hội thoại thường ngày, 해요체",
+      "text": "가: 어제 새로 산 우산 어땠어요?\n나: 비 오는 날에 직접 ( ㉠ ) 정말 가볍고 튼튼했어요.\n(쓰다 + -아/어 보니까)",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 6,
+          "accepted": [
+            "써 보니까",
+            "써보니까",
+            "쓰니까",
+            "써 보니"
+          ],
+          "common_errors_vi": "Viết `써서` (-아/어서 chỉ nguyên nhân, mất nghĩa \"dùng thử mới thấy\"); thêm `-았/었-` (`써 봤으니까`); viết `쓰어 보니까` (sai quy tắc ㅡ lược bỏ: 쓰다 → 써)."
+        }
+      ],
+      "tips_vi": [
+        "Có từ `직접` và vế sau là cảm nhận (`가볍고 튼튼했어요`) → nghĩa **phát hiện**: `V + -아/어 보니까`.",
+        "Vế sau là điều đã thấy, không phải mệnh lệnh hay lời rủ."
+      ]
+    },
+    {
+      "id": "QE08c",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "Mở rộng",
+      "title_vi": "🟣 Mở rộng · Viết N + (이)라서",
+      "points": 6,
+      "instruction_ko": "다음 글의 ㉠에 들어갈 말을 쓰십시오.",
+      "instruction_vi": "Viết cụm từ thích hợp vào ㉠ (Câu luyện biên soạn bổ sung)",
+      "context_vi": "Hội thoại tìm nhà, 해요체",
+      "text": "가: 어떤 집을 알아보고 있어요?\n나: 저는 아직 ( ㉠ ) 보증금이 비싼 집은 구하기 어려워요.\n(학생 + -(이)라서)",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 6,
+          "accepted": [
+            "학생이라서",
+            "학생이어서",
+            "학생이기 때문에",
+            "학생이니까"
+          ],
+          "common_errors_vi": "Viết `학생해서`/`학생라서` (danh từ có patchim phải có `이`); viết `학생인 데다가` (nghĩa \"không những … mà còn\", không nêu lý do); thêm `-았/었-` (`학생이었라서`)."
+        }
+      ],
+      "tips_vi": [
+        "Lý do là một danh từ (학생) → `N(이)라서`; 학생 có patchim nên là `이라서`.",
+        "Vế sau là một sự thật (`구하기 어려워요`), không phải mệnh lệnh hay lời rủ."
+      ]
+    },
+    {
+      "id": "QE09c",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "Mở rộng",
+      "title_vi": "🟣 Mở rộng · Viết A + -게라도",
+      "points": 6,
+      "instruction_ko": "다음 글의 ㉠에 들어갈 말을 쓰십시오.",
+      "instruction_vi": "Viết cụm từ thích hợp vào ㉠ (Câu luyện biên soạn bổ sung)",
+      "context_vi": "Hội thoại về việc liên lạc với bố mẹ, 해요체",
+      "text": "가: 요즘 너무 바빠서 부모님께 연락을 못 드렸어요.\n나: 바쁠 때는 ( ㉠ ) 안부 전화를 드리세요. 부모님께서 기뻐하실 거예요.\n(짧다 + -게(라)도)",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 6,
+          "accepted": [
+            "짧게라도",
+            "잠깐이라도",
+            "잠시라도",
+            "한 번이라도"
+          ],
+          "common_errors_vi": "Viết `짧아도` (nghĩa \"dù ngắn vẫn\", lệch sắc thái \"ít nhất\"); viết `짧라도` (tính từ phải qua `-게`); viết `짧아서` (-아/어서 không đi với mệnh lệnh)."
+        }
+      ],
+      "tips_vi": [
+        "Cần nghĩa \"ít nhất, dù chỉ …\": tính từ `짧다` → trạng từ `짧게` + `라도`.",
+        "Với danh từ: có patchim → `이라도` (`문자 한 통이라도`), không patchim → `라도` (`전화라도`)."
+      ]
+    },
+    {
+      "id": "QE10c",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "Mở rộng",
+      "title_vi": "🟣 Mở rộng · Viết -기 때문에",
+      "points": 6,
+      "instruction_ko": "다음 글의 ㉠에 들어갈 말을 쓰십시오.",
+      "instruction_vi": "Viết cụm từ thích hợp vào ㉠ (Câu luyện biên soạn bổ sung)",
+      "context_vi": "Văn viết 한다체, đoạn nghị luận về rác thải nhựa",
+      "text": "일회용 컵은 가볍고 ( ㉠ ) 많은 사람이 즐겨 쓴다. 그러나 쓰레기가 되면 분해되는 데 오랜 시간이 걸린다.\n(편리하다 + -기 때문에)",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 6,
+          "accepted": [
+            "편리하기 때문에",
+            "편하기 때문에",
+            "간편하기 때문에",
+            "싸기 때문에",
+            "값이 싸기 때문에"
+          ],
+          "common_errors_vi": "Viết `편리해서` (khẩu ngữ, không đúng yêu cầu); viết `편리하기 때문이다` (câu chưa kết thúc, phía sau còn vế); viết `편리했기 때문에` (đổi sang quá khứ không cần thiết: đoạn văn nói sự thật hiện tại nên dùng `편리하기 때문에`)."
+        }
+      ],
+      "tips_vi": [
+        "Văn viết 한다체: nêu lý do bằng `-기 때문에` (giữa câu) hoặc `-기 때문이다` (cuối câu).",
+        "Sau `-기 때문에` vế sau không được là mệnh lệnh hay lời rủ."
+      ]
+    },
+    {
+      "id": "QE11c",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "Mở rộng",
+      "title_vi": "🟣 Mở rộng · Viết -(으)ㄹ 수 있겠습니까?",
+      "points": 6,
+      "instruction_ko": "다음 글의 ㉠에 들어갈 말을 쓰십시오.",
+      "instruction_vi": "Viết cụm từ thích hợp vào ㉠ (Câu luyện biên soạn bổ sung)",
+      "context_vi": "Thư điện tử gửi thầy/cô, 합쇼체",
+      "text": "김 선생님께,\n안녕하십니까? 다음 주 월요일에 약속을 지키기 어렵게 되었습니다. 죄송합니다만 약속을 화요일 오후로 ( ㉠ )? 연락 기다리겠습니다.\n(미루다 + -(으)ㄹ 수 있겠습니까)",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 6,
+          "accepted": [
+            "미룰 수 있겠습니까",
+            "미뤄 주실 수 있겠습니까",
+            "바꿀 수 있겠습니까",
+            "바꿔 주실 수 있겠습니까",
+            "변경할 수 있겠습니까",
+            "변경해 주실 수 있겠습니까",
+            "옮길 수 있겠습니까",
+            "옮겨 주실 수 있겠습니까"
+          ],
+          "common_errors_vi": "Dùng `-(으)ㄹ 수 있어요?` hoặc `미룰 수 있겠어요` (해요체, mất lịch sự); quên `-(으)시-` khi nhờ thầy/cô (`미뤄 줄 수 있겠습니까`); viết `미룰 수 있었습니다` (không phải câu hỏi)."
+        }
+      ],
+      "tips_vi": [
+        "Thư gửi người trên bằng 합쇼체: kết thúc câu hỏi nhờ bằng `-(으)ㄹ 수 있겠습니까?`.",
+        "Nhờ thầy/cô làm giúp → `-아/어 주실 수 있겠습니까`; việc đổi lịch nói chung → `V + -(으)ㄹ 수 있겠습니까`."
+      ]
+    },
+    {
+      "id": "QE12c",
+      "skill": "writing",
+      "type": "write_fill",
+      "number": "Mở rộng",
+      "title_vi": "🟣 Mở rộng · Viết N(이)나 N",
+      "points": 6,
+      "instruction_ko": "다음 글의 ㉠에 들어갈 말을 쓰십시오.",
+      "instruction_vi": "Viết cụm từ thích hợp vào ㉠ (Câu luyện biên soạn bổ sung)",
+      "context_vi": "Thông báo về trải nghiệm văn hóa, 합쇼체",
+      "text": "한복 체험 후기는 ( ㉠ ) 올려 주시기 바랍니다. 참가자분들의 이야기를 기다리겠습니다.\n(글, 사진 + (이)나 + (으)로)",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 6,
+          "accepted": [
+            "글이나 사진으로",
+            "사진이나 글로"
+          ],
+          "common_errors_vi": "Viết `글과 사진으로` (\"và\", không phải \"hoặc\"); viết `글나 사진으로` (thiếu `이` sau patchim); viết `글이나 사진이나` (đổi thành \"dù là … hay …\")."
+        }
+      ],
+      "tips_vi": [
+        "Hai danh từ cùng chọn một → `N(이)나 N`: 글 có patchim → `글이나`; 사진 có patchim → `사진으로`.",
+        "Nếu đảo thứ tự thì trợ từ cũng đổi theo danh từ cuối: `사진이나 글로`."
+      ]
+    },
+    {
+      "id": "QVW54",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "54-Ôn",
+      "title_vi": "Viết · Tổng hợp chủ đề (54): 이웃과 함께 사는 삶 (sống cùng hàng xóm)",
+      "points": 50,
+      "instruction_ko": "※ [54] 다음을 참고하여 600~700자로 글을 쓰시오. 단, 문제를 그대로 옮겨 쓰지 마시오. (50점)",
+      "instruction_vi": "Đọc đoạn dẫn và ba câu hỏi, rồi viết bài 600–700 chữ. Không chép lại đề: hãy diễn đạt bằng lời của mình. (50 điểm)",
+      "limits": {
+        "min": 600,
+        "max": 700
+      },
+      "data": [],
+      "prompt_ko": "아파트나 빌라 같은 공동 주택에서는 이웃과 가까이 살면서도 서로 모르고 지내는 경우가 많다. 아래의 내용을 중심으로 ‘이웃과 함께 사는 삶’에 대한 자신의 생각을 쓰라.",
+      "bullets_ko": [
+        "이웃과의 관계가 멀어지는 이유는 무엇인가?",
+        "이웃과의 관계가 좋지 않으면 어떤 문제가 생길 수 있는가?",
+        "이웃과 함께 잘 지내기 위해서는 어떤 노력이 필요한가?"
+      ],
+      "framework_vi": [
+        "Dàn ý 5 đoạn (số chữ gợi ý, bản chuẩn 600–700 chữ); ba thân bài lần lượt trả lời câu hỏi 1, 2, 3 của đề."
+      ],
+      "patterns_vi": [
+        "Mở bài: 최근 …이/가 크게 늘었지만 … · …에 대해 생각해 보고자 한다. (-고자 하다: nêu ý định trong văn viết)",
+        "Nguyên nhân: …의 가장 큰 이유는 … -기 때문이다 (-기 때문에: nêu lý do khách quan) · …(으)ㄴ/는 데다가 … (cộng thêm một lý do cùng hướng).",
+        "Vấn đề: …(으)로 인한 갈등 · …(으)ㄴ 채로 버리다 (-(으)ㄴ 채로: để nguyên trạng thái rồi làm việc khác) · 살기에 불편한 공간 (-기에 + A: nhận xét nơi chốn).",
+        "Giải pháp: …(으)려면 …(으)ㄹ 필요가 있다 (-(으)ㄹ 필요가 있다: câu giải pháp) · 아무리 바쁘더라도 … (-더라도: nhượng bộ) · 인사 한마디라도 … (N(이)라도: mức tối thiểu) · 내가 …(이)라면 … (N(이)라면: đặt mình vào vai).",
+        "Kết bài: 결론적으로 … · …(으)ㄹ 것이다."
+      ],
+      "outline": [
+        {
+          "part_vi": "1. Mở bài",
+          "content_vi": "Bối cảnh (nhiều người sống ở chung cư nhưng không biết hàng xóm) + nêu ba điều sẽ bàn",
+          "chars": "90–130"
+        },
+        {
+          "part_vi": "2. Thân bài 1",
+          "content_vi": "Vì sao quan hệ hàng xóm xa cách (câu hỏi 1 của đề)",
+          "chars": "100–140"
+        },
+        {
+          "part_vi": "3. Thân bài 2",
+          "content_vi": "Vấn đề nảy sinh khi quan hệ không tốt (câu hỏi 2)",
+          "chars": "140–180"
+        },
+        {
+          "part_vi": "4. Thân bài 3",
+          "content_vi": "Nỗ lực cần có để sống hòa thuận (câu hỏi 3)",
+          "chars": "140–180"
+        },
+        {
+          "part_vi": "5. Kết bài",
+          "content_vi": "Tóm tắt + câu khẳng định/kỳ vọng",
+          "chars": "60–100"
+        }
+      ],
+      "model_answer_ko": "최근 아파트나 빌라 같은 공동 주택에 사는 사람이 크게 늘었지만 같은 건물에 살면서도 이웃의 얼굴조차 모르는 경우가 많다. 이웃과 함께 사는 삶이 왜 어려워졌는지, 어떤 문제가 생기는지, 어떻게 해결할 수 있는지 생각해 보고자 한다.\n이웃 관계가 멀어지는 가장 큰 이유는 생활 방식이 바뀌었기 때문이다. 예전에는 한 동네에서 오래 살며 서로의 사정을 잘 알았지만 요즘은 이사를 자주 하는 데다가 직장 일로 바빠서 이웃과 이야기할 시간이 거의 없다.\n그러나 이웃과 관계가 좋지 않으면 작은 일도 큰 갈등으로 이어질 수 있다. 예를 들어 층간 소음으로 인한 다툼이 생겨도 서로 얼굴을 모르기 때문에 대화로 풀기 어렵다. 또 쓰레기를 분리하지 않은 채로 버리는 행동이 불신을 키우기도 한다. 이러한 문제를 그대로 두면 공동 주택은 살기에 불편한 공간이 되고 만다.\n이웃과 잘 지내려면 먼저 작은 관심에서 시작할 필요가 있다. 아무리 바쁘더라도 엘리베이터에서 만난 이웃에게 인사 한마디라도 건네면 서로의 거리가 훨씬 가까워진다. 또한 관리사무소는 주민들이 함께 모일 수 있는 행사를 마련해야 한다. 내가 아래층 이웃이라면 사과의 쪽지 한 장만으로도 화가 많이 풀릴 것이다.\n결론적으로 이웃과 함께 사는 삶은 거창한 노력이 아니라 작은 배려에서 시작된다. 서로를 이해하려는 마음이 있다면 공동 주택도 따뜻하고 안전한 공동체가 될 것이다.",
+      "model_note_vi": "Bài mẫu Ôn tập chủ đề (683 chữ gồm dấu cách; 511 chữ nếu không tính dấu cách). Mẫu của chủ đề dùng trong bài: -고자 하다, -기 때문에, -(으)ㄴ/는 데다가, (으)로 인한 N, -(으)ㄴ 채로, -기에 + A, -(으)려면, -(으)ㄹ 필요가 있다, -더라도, N(이)라도, N(이)라면.",
+      "common_errors_vi": [
+        "Không trả lời đủ các gạch đầu dòng của đề (thường 3)",
+        "Chép lại nguyên câu của đề vào bài (đề ghi `문제를 그대로 옮겨 쓰지 마시오`): hãy diễn đạt lại bằng lời của mình.",
+        "Không chia đoạn",
+        "Chỉ viết \"tôi nghĩ\" mà thiếu lý do và ví dụ",
+        "Dùng 해요체 hoặc khẩu ngữ",
+        "Kết câu giải thích bằng `때문에` thay vì `때문이다` (✗ 이유는 … 바뀌었기 때문에.)",
+        "Dùng `-더라도` cho sự thật đang xảy ra, hoặc gắn `(이)라면` vào động từ (✗ 비가 오이라면 → ✓ 비가 온다면)",
+        "Quên `이` sau danh từ có patchim (✗ 이웃라면 → ✓ 이웃이라면); dồn quá nhiều mẫu mở rộng vào một câu cho gượng",
+        "Viết thiếu 600 chữ",
+        "Nêu số liệu thật không chắc chắn (nên dùng \"nhiều/ngày càng\" thay vì con số tự nhớ)"
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Nội dung & hoàn thành yêu cầu",
+          "max": 12,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Cấu trúc triển khai",
+          "max": 12,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Sử dụng ngôn ngữ",
+          "max": 26,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        }
+      ],
+      "checklist_vi": [
+        "*Nội dung & yêu cầu*: có đủ mọi ý đề bài yêu cầu không (thường 3 gạch đầu dòng, đôi khi 2, ở câu 54)? Có đủ 600–700 chữ không?",
+        "*Cấu trúc*: có chia đoạn đúng chức năng không? Có từ nối hợp lý (그러나, 또한, 예를 들어, 결론적으로) không?",
+        "*Ngôn ngữ*: thể văn nhất quán (한다체) không? Đã dùng ít nhất 3 mẫu mở rộng của chủ đề (-기 때문에, -더라도, (이)라도, -기에 + A, -(으)ㄴ 채로, (이)라면, -(으)ㄹ 필요가 있다) một cách tự nhiên chưa? Chính tả và 띄어쓰기 đúng không?"
+      ]
+    },
+    {
+      "id": "QW53D",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-D",
+      "title_vi": "Viết · Mô tả biểu đồ đường 53-D (hình thức thuê nhà của người trẻ)",
+      "points": 30,
+      "instruction_ko": "※ [53] 다음은 '청년층의 임대 형태 변화'에 대한 자료입니다. 이를 200~300자의 글로 쓰십시오. 단, 글의 제목은 쓰지 마십시오. (30점)",
+      "instruction_vi": "Hãy viết thành bài 200–300 chữ theo số liệu và ô gợi ý của đề. Không viết tiêu đề, không thêm ý kiến riêng. (30 điểm) Chưa quen câu 53? Mở «Khung bài viết gợi ý» (các bước cho đề này) và các mục «Viết 53 · ①–⑪» ở đầu phần Viết.",
+      "limits": {
+        "min": 200,
+        "max": 300
+      },
+      "data": [
+        {
+          "title_vi": "청년층의 임대 형태 (단위: %)",
+          "note_vi": "조사 기관: 한빛주거연구소 (자료는 가상) · số liệu minh họa; phần còn lại là hình thức khác",
+          "chart": {
+            "type": "line",
+            "categories": [
+              "2014년",
+              "2019년",
+              "2024년"
+            ],
+            "series": [
+              {
+                "name": "월세",
+                "values": [
+                  38,
+                  52,
+                  64
+                ]
+              },
+              {
+                "name": "전세",
+                "values": [
+                  50,
+                  38,
+                  26
+                ]
+              }
+            ],
+            "title_vi": "청년층의 임대 형태",
+            "unit": "%"
+          }
+        }
+      ],
+      "bullets_ko": [
+        "원인: 전세 보증금을 마련하기 어려워짐 · 월세로 나온 집이 늘어남",
+        "전망: 앞으로 월세 비율이 더 높아질 것으로 예상"
+      ],
+      "framework_vi": [
+        "**Bước 1 · Đọc đề (khoảng 2 phút, chưa viết gì):** gạch dưới trên đề các ý sau.",
+        "· **Ai:** 한빛주거연구소",
+        "· **Về gì:** 청년층의 임대 형태 변화",
+        "· **Mốc:** 2014 → 2024 (ba mốc; dùng mốc đầu và cuối)",
+        "· **Số then chốt:** 월세 38 → 64% (+26%p); 전세 50 → 26% (gần một nửa)",
+        "· **Ô gợi ý:** có nguyên nhân (2 ý) và dự báo",
+        "**Bước 2 · Chọn khối:** Hai đường ngược chiều (một tăng, một giảm): O cho đường tăng, P cho đường giảm bằng `반면에`. Có đủ hai ô nên viết **T · O · P · I · K**.",
+        "**Bước 3 · Viết theo dàn ý bên dưới:** mỗi khối 1–2 câu, dùng đúng công thức trong ô `Mẫu câu nên dùng`.",
+        "**Bước 4 · Kiểm (khoảng 2 phút):** số liệu khớp đề · `%p` cho hiệu số · thì của dự báo · không ý kiến riêng · 200–300 chữ."
+      ],
+      "patterns_vi": [
+        "…에 대해 조사하였다",
+        "N년 N%에서 N년 N%로 늘어난 것으로 나타났다",
+        "반면에 … 줄었다",
+        "이러한 변화의 원인은 …기 때문이다",
+        "앞으로 … 것으로 전망된다"
+      ],
+      "outline": [
+        {
+          "part_vi": "T",
+          "content_vi": "`한빛주거연구소에서 …에 대해 조사하였다.`",
+          "chars": "30–45 chữ"
+        },
+        {
+          "part_vi": "O",
+          "content_vi": "Đường tăng: `조사 결과 … 38%에서 64%로 늘어난 것으로 나타났다`",
+          "chars": "40–60 chữ"
+        },
+        {
+          "part_vi": "P",
+          "content_vi": "`반면에` đường giảm: `50%에서 26%로 거의 절반이 되었다`",
+          "chars": "30–50 chữ"
+        },
+        {
+          "part_vi": "I",
+          "content_vi": "Ghép hai nguyên nhân của ô",
+          "chars": "40–60 chữ"
+        },
+        {
+          "part_vi": "K",
+          "content_vi": "`이러한 추세라면 앞으로 … -(으)ㄹ 것으로 전망된다.`",
+          "chars": "30–45 chữ"
+        }
+      ],
+      "model_answer_ko": "한빛주거연구소에서 '청년층의 임대 형태 변화'에 대해 조사하였다. 조사 결과 월세 비율은 2014년 38%에서 2024년 64%로 늘어난 것으로 나타났다. 반면에 전세 비율은 같은 기간 50%에서 26%로 거의 절반이 되었다. 이러한 변화의 원인은 전세 보증금을 마련하기 어려워졌고 월세로 나온 집이 늘었기 때문이다. 이러한 추세라면 앞으로 월세 비율은 더 높아질 것으로 전망된다.",
+      "model_note_vi": "**Bài mẫu tách theo khối** (nhận ra từng khối rồi so với công thức):\n**T** — 한빛주거연구소에서 '청년층의 임대 형태 변화'에 대해 조사하였다.\n**O** — 조사 결과 월세 비율은 2014년 38%에서 2024년 64%로 늘어난 것으로 나타났다.\n**P** — 반면에 전세 비율은 같은 기간 50%에서 26%로 거의 절반이 되었다.\n**I** — 이러한 변화의 원인은 전세 보증금을 마련하기 어려워졌고 월세로 나온 집이 늘었기 때문이다.\n**K** — 이러한 추세라면 앞으로 월세 비율은 더 높아질 것으로 전망된다.\n\nBài làm quen với khung T·O·P·I·K. Kiểm tra số liệu: 38% → 64% (tăng 26%p); 50% → 26% (giảm gần một nửa). Biểu đồ đường: kể mốc đầu và mốc cuối, không chép cả ba mốc.",
+      "common_errors_vi": [
+        "Chỉ nêu một nhóm, bỏ nhóm còn lại.",
+        "Viết `%` thay vì `%p` cho hiệu của hai tỉ lệ.",
+        "Dự báo ở thì quá khứ hay hiện tại (✗ 늘어났다 → ✓ 늘어날 것으로 전망된다).",
+        "Thêm ý kiến riêng hoặc suy đoán ngoài số liệu.",
+        "Viết tiêu đề cho bài hoặc dùng 해요체.",
+        "Dùng `을/를` với nội động từ (`수요를 증가했다`, `접근성을 향상되었다`): phải là `수요가 증가했다`."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Nội dung & hoàn thành yêu cầu",
+          "max": 7,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Cấu trúc triển khai",
+          "max": 7,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Sử dụng ngôn ngữ",
+          "max": 16,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        }
+      ],
+      "checklist_vi": [
+        "Đã đọc đề theo 5 bước và chọn đúng khối cần viết?",
+        "Mọi con số khớp đề; hiệu số của hai tỉ lệ dùng `%p`; có `N배` hoặc `대폭/소폭`?",
+        "Khối I ghép đủ các ý của ô nguyên nhân, chủ ngữ dùng `이/가`?",
+        "Khối K ở thì tương lai `-(으)ㄹ 것으로 전망된다/예상된다`?",
+        "Không ý kiến riêng, không tiêu đề, không `-요`; 200–300 chữ?"
+      ]
+    },
+    {
+      "id": "QW53E",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-E",
+      "title_vi": "Viết · Mô tả biểu đồ đường 53-E (ngày nắng nóng và đêm nhiệt đới của thành phố A)",
+      "points": 30,
+      "instruction_ko": "※ [53] 다음은 'A시의 폭염 일수와 열대야 일수의 변화'에 대한 자료입니다. 이를 200~300자의 글로 쓰십시오. 단, 글의 제목은 쓰지 마십시오. (30점)",
+      "instruction_vi": "Hãy viết thành bài 200–300 chữ theo số liệu và ô gợi ý của đề. Không viết tiêu đề, không thêm ý kiến riêng. (30 điểm) Chưa quen câu 53? Mở «Khung bài viết gợi ý» (các bước cho đề này) và các mục «Viết 53 · ①–⑪» ở đầu phần Viết.",
+      "limits": {
+        "min": 200,
+        "max": 300
+      },
+      "data": [
+        {
+          "title_vi": "A시의 여름 폭염·열대야 일수 (단위: 일)",
+          "note_vi": "조사 기관: A시 환경연구원 (자료는 가상) · số liệu minh họa",
+          "chart": {
+            "type": "line",
+            "categories": [
+              "2006년",
+              "2016년",
+              "2026년"
+            ],
+            "series": [
+              {
+                "name": "폭염 일수",
+                "values": [
+                  8,
+                  14,
+                  21
+                ]
+              },
+              {
+                "name": "열대야 일수",
+                "values": [
+                  3,
+                  7,
+                  12
+                ]
+              }
+            ],
+            "title_vi": "A시의 여름 폭염·열대야 일수",
+            "unit": "일"
+          }
+        }
+      ],
+      "bullets_ko": [
+        "원인: 지구 온난화의 지속 · 도시의 건물과 도로 증가로 열이 잘 빠지지 않음",
+        "전망: 앞으로 더운 날이 더 늘어날 것으로 예상"
+      ],
+      "framework_vi": [
+        "**Bước 1 · Đọc đề (khoảng 2 phút, chưa viết gì):** gạch dưới trên đề các ý sau.",
+        "· **Ai:** A시 환경연구원",
+        "· **Về gì:** số ngày nắng nóng và đêm nhiệt đới của thành phố A",
+        "· **Mốc:** 2006 → 2026 (ba mốc; bỏ mốc giữa)",
+        "· **Số then chốt:** 폭염 8 → 21일 (2배 이상); 열대야 3 → 12일 (4배)",
+        "· **Ô gợi ý:** có nguyên nhân (2 ý) và dự báo",
+        "**Bước 2 · Chọn khối:** Hai đường cùng tăng: O cho đường thứ nhất, P cho đường thứ hai (`도`, `같은 기간에`). Có đủ hai ô nên viết **T · O · P · I · K**.",
+        "**Bước 3 · Viết theo dàn ý bên dưới:** mỗi khối 1–2 câu, dùng đúng công thức trong ô `Mẫu câu nên dùng`.",
+        "**Bước 4 · Kiểm (khoảng 2 phút):** số liệu khớp đề · `%p` cho hiệu số · thì của dự báo · không ý kiến riêng · 200–300 chữ."
+      ],
+      "patterns_vi": [
+        "…에 대해 조사하였다",
+        "N년의 …은/는 N일로 N년의 N일에 비해 N배 늘어난 것으로 나타났다",
+        "…도 같은 기간에 N일에서 N일로 N배 늘었다",
+        "이러한 변화의 원인은 …기 때문이다",
+        "앞으로도 … 것으로 전망된다"
+      ],
+      "outline": [
+        {
+          "part_vi": "T",
+          "content_vi": "`A시 환경연구원에서 …에 대해 조사하였다.`",
+          "chars": "35–50 chữ"
+        },
+        {
+          "part_vi": "O",
+          "content_vi": "Đường thứ nhất: `N년의 …은/는 N일로 N년의 N일에 비해 N배 늘어난 것으로 나타났다`",
+          "chars": "45–70 chữ"
+        },
+        {
+          "part_vi": "P",
+          "content_vi": "Đường thứ hai: `…도 같은 기간에 N일에서 N일로 N배 늘었다`",
+          "chars": "25–40 chữ"
+        },
+        {
+          "part_vi": "I",
+          "content_vi": "Ghép hai nguyên nhân của ô",
+          "chars": "45–70 chữ"
+        },
+        {
+          "part_vi": "K",
+          "content_vi": "`앞으로도 … -(으)ㄹ 것으로 전망된다.`",
+          "chars": "30–50 chữ"
+        }
+      ],
+      "model_answer_ko": "A시 환경연구원에서 '폭염 일수와 열대야 일수의 변화'에 대해 조사하였다. 조사 결과 2026년의 폭염 일수는 21일로 2006년의 8일에 비해 2배 이상 늘어난 것으로 나타났다. 열대야 일수도 같은 기간에 3일에서 12일로 4배 늘었다. 이러한 변화의 원인은 지구 온난화가 계속되고 도시에 건물과 도로가 늘어나 열이 잘 빠지지 않기 때문이다. 앞으로도 이러한 추세가 이어져 더운 날이 더 늘어날 것으로 전망된다.",
+      "model_note_vi": "**Bài mẫu tách theo khối** (nhận ra từng khối rồi so với công thức):\n**T** — A시 환경연구원에서 '폭염 일수와 열대야 일수의 변화'에 대해 조사하였다.\n**O** — 조사 결과 2026년의 폭염 일수는 21일로 2006년의 8일에 비해 2배 이상 늘어난 것으로 나타났다.\n**P** — 열대야 일수도 같은 기간에 3일에서 12일로 4배 늘었다.\n**I** — 이러한 변화의 원인은 지구 온난화가 계속되고 도시에 건물과 도로가 늘어나 열이 잘 빠지지 않기 때문이다.\n**K** — 앞으로도 이러한 추세가 이어져 더운 날이 더 늘어날 것으로 전망된다.\n\nKiểm tra số liệu: 21 ÷ 8 ≈ 2,6 nên «2배 이상»; 12 ÷ 3 = 4 nên «4배». Dùng `N에 비해` để so với mốc đầu, đúng mẫu của bài 09. Bỏ mốc giữa (2016) vì không cần để thấy xu hướng.",
+      "common_errors_vi": [
+        "Chỉ nêu một nhóm, bỏ nhóm còn lại.",
+        "Viết `%` thay vì `%p` cho hiệu của hai tỉ lệ.",
+        "Dự báo ở thì quá khứ hay hiện tại (✗ 늘어났다 → ✓ 늘어날 것으로 전망된다).",
+        "Thêm ý kiến riêng hoặc suy đoán ngoài số liệu.",
+        "Viết tiêu đề cho bài hoặc dùng 해요체.",
+        "Dùng `N에 비해` mà thiếu mốc so sánh.",
+        "Dùng `을/를` với nội động từ (`수요를 증가했다`, `접근성을 향상되었다`): phải là `수요가 증가했다`."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Nội dung & hoàn thành yêu cầu",
+          "max": 7,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Cấu trúc triển khai",
+          "max": 7,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Sử dụng ngôn ngữ",
+          "max": 16,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        }
+      ],
+      "checklist_vi": [
+        "Đã đọc đề theo 5 bước và chọn đúng khối cần viết?",
+        "Mọi con số khớp đề; hiệu số của hai tỉ lệ dùng `%p`; có `N배` hoặc `대폭/소폭`?",
+        "Khối I ghép đủ các ý của ô nguyên nhân, chủ ngữ dùng `이/가`?",
+        "Khối K ở thì tương lai `-(으)ㄹ 것으로 전망된다/예상된다`?",
+        "Không ý kiến riêng, không tiêu đề, không `-요`; 200–300 chữ?"
+      ]
+    },
+    {
+      "id": "QW53F",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-F",
+      "title_vi": "Viết · Mô tả biểu đồ cột 53-F (tham gia chương trình trải nghiệm văn hóa theo độ tuổi)",
+      "points": 30,
+      "instruction_ko": "※ [53] 다음은 '연령대별 문화 체험 프로그램 참여율의 변화'에 대한 자료입니다. 이를 200~300자의 글로 쓰십시오. 단, 글의 제목은 쓰지 마십시오. (30점)",
+      "instruction_vi": "Hãy viết thành bài 200–300 chữ theo số liệu và ô gợi ý của đề. Không viết tiêu đề, không thêm ý kiến riêng. (30 điểm) Chưa quen câu 53? Mở «Khung bài viết gợi ý» (các bước cho đề này) và các mục «Viết 53 · ①–⑪» ở đầu phần Viết.",
+      "limits": {
+        "min": 200,
+        "max": 300
+      },
+      "data": [
+        {
+          "title_vi": "연령대별 문화 체험 프로그램 참여율 (단위: %)",
+          "note_vi": "조사 기관: 한빛문화연구원 (자료는 가상) · số liệu minh họa",
+          "chart": {
+            "type": "bar",
+            "categories": [
+              "20대",
+              "30대",
+              "40대",
+              "50대 이상"
+            ],
+            "series": [
+              {
+                "name": "2020년",
+                "values": [
+                  30,
+                  35,
+                  28,
+                  22
+                ]
+              },
+              {
+                "name": "2025년",
+                "values": [
+                  48,
+                  44,
+                  30,
+                  20
+                ]
+              }
+            ],
+            "title_vi": "연령대별 문화 체험 프로그램 참여율",
+            "unit": "%"
+          }
+        }
+      ],
+      "bullets_ko": [
+        "원인: SNS를 통한 체험 정보의 공유 증가 · 온라인 예약 서비스의 확대",
+        "전망: 앞으로 젊은 층의 참여율이 더 높아질 것으로 예상"
+      ],
+      "framework_vi": [
+        "**Bước 1 · Đọc đề (khoảng 2 phút, chưa viết gì):** gạch dưới trên đề các ý sau.",
+        "· **Ai:** 한빛문화연구원",
+        "· **Về gì:** tỉ lệ tham gia chương trình trải nghiệm văn hóa theo độ tuổi",
+        "· **Mốc:** cột ghép hai năm — 2020년 và 2025년, bốn nhóm tuổi",
+        "· **Số then chốt:** 20대 30 → 48% (+18%p, tăng nhiều nhất); 50대 이상 22 → 20% (−2%p, giảm)",
+        "· **Ô gợi ý:** có nguyên nhân (2 ý) và dự báo",
+        "**Bước 2 · Chọn khối:** Chỉ chọn **nhóm tăng nhiều nhất và nhóm ngược chiều** để đối chiếu trong cùng một câu (gộp O + P), rồi I và K.",
+        "**Bước 3 · Viết theo dàn ý bên dưới:** mỗi khối 1–2 câu, dùng đúng công thức trong ô `Mẫu câu nên dùng`.",
+        "**Bước 4 · Kiểm (khoảng 2 phút):** số liệu khớp đề · `%p` cho hiệu số · thì của dự báo · không ý kiến riêng · 200–300 chữ."
+      ],
+      "patterns_vi": [
+        "…에 대해 조사하였다",
+        "N대는 N%에서 N%로 N%p 늘어난 반면에 …",
+        "…것으로 나타났다",
+        "이러한 변화의 원인은 …기 때문이다",
+        "이러한 추세라면 앞으로 … 것으로 전망된다"
+      ],
+      "outline": [
+        {
+          "part_vi": "T",
+          "content_vi": "`한빛문화연구원에서 …에 대해 조사하였다.`",
+          "chars": "35–60 chữ"
+        },
+        {
+          "part_vi": "O + P",
+          "content_vi": "`20대는 … %p 늘어난 반면에 50대 이상은 … %p 줄어든 것으로 나타났다`",
+          "chars": "70–110 chữ"
+        },
+        {
+          "part_vi": "I",
+          "content_vi": "Ghép hai nguyên nhân của ô",
+          "chars": "45–70 chữ"
+        },
+        {
+          "part_vi": "K",
+          "content_vi": "`이러한 추세라면 앞으로 … -(으)ㄹ 것으로 전망된다.`",
+          "chars": "30–50 chữ"
+        }
+      ],
+      "model_answer_ko": "한빛문화연구원에서 '연령대별 문화 체험 프로그램 참여율의 변화'에 대해 조사하였다. 조사 결과 20대의 참여율은 2020년 30%에서 2025년 48%로 18%p 늘어난 반면에 50대 이상은 22%에서 20%로 2%p 줄어든 것으로 나타났다. 이러한 변화의 원인은 SNS를 통해 체험 정보를 공유하는 사람이 늘었고 온라인 예약이 쉬워졌기 때문이다. 이러한 추세라면 앞으로 젊은 층의 참여율은 더 높아질 것으로 전망된다.",
+      "model_note_vi": "**Bài mẫu tách theo khối** (nhận ra từng khối rồi so với công thức):\n**T** — 한빛문화연구원에서 '연령대별 문화 체험 프로그램 참여율의 변화'에 대해 조사하였다.\n**O + P** — 조사 결과 20대의 참여율은 2020년 30%에서 2025년 48%로 18%p 늘어난 반면에 50대 이상은 22%에서 20%로 2%p 줄어든 것으로 나타났다.\n**I** — 이러한 변화의 원인은 SNS를 통해 체험 정보를 공유하는 사람이 늘었고 온라인 예약이 쉬워졌기 때문이다.\n**K** — 이러한 추세라면 앞으로 젊은 층의 참여율은 더 높아질 것으로 전망된다.\n\nBiểu đồ cột nhiều nhóm: chọn nhóm thay đổi nhiều nhất (20대: 48 − 30 = 18%p) và nhóm ngược chiều (50대 이상: 20 − 22 = −2, tức giảm 2%p), không kể hết mọi con số. Dùng `-(으)ㄴ/는 반면에` của bài 11.",
+      "common_errors_vi": [
+        "Chỉ nêu một nhóm, bỏ nhóm còn lại.",
+        "Viết `%` thay vì `%p` cho hiệu của hai tỉ lệ.",
+        "Dự báo ở thì quá khứ hay hiện tại (✗ 늘어났다 → ✓ 늘어날 것으로 전망된다).",
+        "Thêm ý kiến riêng hoặc suy đoán ngoài số liệu.",
+        "Viết tiêu đề cho bài hoặc dùng 해요체.",
+        "Dùng `을/를` với nội động từ (`수요를 증가했다`, `접근성을 향상되었다`): phải là `수요가 증가했다`."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Nội dung & hoàn thành yêu cầu",
+          "max": 7,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Cấu trúc triển khai",
+          "max": 7,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Sử dụng ngôn ngữ",
+          "max": 16,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        }
+      ],
+      "checklist_vi": [
+        "Đã đọc đề theo 5 bước và chọn đúng khối cần viết?",
+        "Mọi con số khớp đề; hiệu số của hai tỉ lệ dùng `%p`; có `N배` hoặc `대폭/소폭`?",
+        "Khối I ghép đủ các ý của ô nguyên nhân, chủ ngữ dùng `이/가`?",
+        "Khối K ở thì tương lai `-(으)ㄹ 것으로 전망된다/예상된다`?",
+        "Không ý kiến riêng, không tiêu đề, không `-요`; 200–300 chữ?"
+      ]
+    },
+    {
+      "id": "QVW53",
+      "skill": "writing",
+      "type": "write_essay",
+      "number": "53-G",
+      "title_vi": "Viết · Tổng hợp Viết 53 (biểu đồ đường và tròn: hộ một người)",
+      "points": 30,
+      "instruction_ko": "※ [53] 다음은 '1인 가구 비율의 변화와 연령대별 구성'에 대한 자료입니다. 이를 200~300자의 글로 쓰십시오. 단, 글의 제목은 쓰지 마십시오. (30점)",
+      "instruction_vi": "Hãy viết thành bài 200–300 chữ theo số liệu và ô gợi ý của đề. Không viết tiêu đề, không thêm ý kiến riêng. (30 điểm) Chưa quen câu 53? Mở «Khung bài viết gợi ý» (các bước cho đề này) và các mục «Viết 53 · ①–⑪» ở đầu phần Viết.",
+      "limits": {
+        "min": 200,
+        "max": 300
+      },
+      "data": [
+        {
+          "title_vi": "1인 가구 비율 (단위: %)",
+          "note_vi": "조사 기관: 한빛통계연구소 (자료는 가상) · số liệu minh họa",
+          "chart": {
+            "type": "line",
+            "categories": [
+              "2015년",
+              "2020년",
+              "2025년"
+            ],
+            "series": [
+              {
+                "name": "1인 가구 비율",
+                "values": [
+                  27,
+                  31,
+                  36
+                ]
+              }
+            ],
+            "title_vi": "1인 가구 비율",
+            "unit": "%"
+          }
+        },
+        {
+          "title_vi": "1인 가구의 연령대 (2025년, 단위: %)",
+          "note_vi": "cộng lại 100%",
+          "chart": {
+            "type": "pie",
+            "categories": [
+              "20~30대",
+              "40~50대",
+              "60대 이상"
+            ],
+            "series": [
+              {
+                "name": "2025년",
+                "values": [
+                  45,
+                  30,
+                  25
+                ]
+              }
+            ],
+            "title_vi": "1인 가구의 연령대 (2025년)",
+            "unit": "%"
+          }
+        }
+      ],
+      "bullets_ko": [
+        "원인: 결혼하는 시기가 늦어짐 · 혼자 사는 것을 선호하는 사람이 늘어남",
+        "전망: 앞으로 1인 가구가 더 늘어날 것으로 예상"
+      ],
+      "framework_vi": [
+        "**Bước 1 · Đọc đề (khoảng 2 phút, chưa viết gì):** gạch dưới trên đề các ý sau.",
+        "· **Ai:** 한빛통계연구소",
+        "· **Về gì:** tỉ lệ hộ một người và cơ cấu theo độ tuổi",
+        "· **Mốc:** đường 2015 → 2025; tròn chỉ năm 2025",
+        "· **Số then chốt:** 27 → 36% (+9%p); tròn: 20~30대 45% > 40~50대 30% > 60대 이상 25%",
+        "· **Ô gợi ý:** có nguyên nhân (2 ý) và dự báo",
+        "**Bước 2 · Chọn khối:** Hai biểu đồ khác loại: **đường → O**, **tròn → P**. Đủ **T · O · P · I · K**.",
+        "**Bước 3 · Viết theo dàn ý bên dưới:** mỗi khối 1–2 câu, dùng đúng công thức trong ô `Mẫu câu nên dùng`.",
+        "**Bước 4 · Kiểm (khoảng 2 phút):** số liệu khớp đề · `%p` cho hiệu số · thì của dự báo · không ý kiến riêng · 200–300 chữ."
+      ],
+      "patterns_vi": [
+        "…에 대해 조사하였다",
+        "N년 N%에서 N년 N%로 N%p 늘어난 것으로 나타났다",
+        "…이/가 N%로 가장 높았고 … 그 뒤를 이었다",
+        "이러한 변화의 원인은 …기 때문이다",
+        "이러한 추세라면 앞으로 … 것으로 전망된다"
+      ],
+      "outline": [
+        {
+          "part_vi": "T",
+          "content_vi": "`한빛통계연구소에서 …의 변화와 …에 대해 조사하였다.`",
+          "chars": "35–55 chữ"
+        },
+        {
+          "part_vi": "O",
+          "content_vi": "Biểu đồ đường: `27%에서 36%로 9%p 늘어난 것으로 나타났다`",
+          "chars": "45–70 chữ"
+        },
+        {
+          "part_vi": "P",
+          "content_vi": "Biểu đồ tròn: `…이/가 45%로 가장 높았고 … 30%로 그 뒤를 이었다`",
+          "chars": "50–80 chữ"
+        },
+        {
+          "part_vi": "I",
+          "content_vi": "Ghép hai nguyên nhân của ô",
+          "chars": "40–65 chữ"
+        },
+        {
+          "part_vi": "K",
+          "content_vi": "`이러한 추세라면 앞으로 … -(으)ㄹ 것으로 전망된다.`",
+          "chars": "30–45 chữ"
+        }
+      ],
+      "model_answer_ko": "한빛통계연구소에서 '1인 가구 비율의 변화와 연령대별 구성'에 대해 조사하였다. 조사 결과 1인 가구 비율은 2015년 27%에서 2025년 36%로 9%p 늘어난 것으로 나타났다. 2025년 1인 가구를 연령대별로 보면 20~30대가 45%로 가장 높았고 40~50대가 30%로 그 뒤를 이었다. 이러한 변화의 원인은 결혼하는 시기가 늦어지고 혼자 사는 것을 선호하는 사람이 늘었기 때문이다. 이러한 추세라면 앞으로 1인 가구는 더 늘어날 것으로 전망된다.",
+      "model_note_vi": "**Bài mẫu tách theo khối** (nhận ra từng khối rồi so với công thức):\n**T** — 한빛통계연구소에서 '1인 가구 비율의 변화와 연령대별 구성'에 대해 조사하였다.\n**O** — 조사 결과 1인 가구 비율은 2015년 27%에서 2025년 36%로 9%p 늘어난 것으로 나타났다.\n**P** — 2025년 1인 가구를 연령대별로 보면 20~30대가 45%로 가장 높았고 40~50대가 30%로 그 뒤를 이었다.\n**I** — 이러한 변화의 원인은 결혼하는 시기가 늦어지고 혼자 사는 것을 선호하는 사람이 늘었기 때문이다.\n**K** — 이러한 추세라면 앞으로 1인 가구는 더 늘어날 것으로 전망된다.\n\nBài tổng hợp đủ T·O·P·I·K như đề thật. Kiểm tra số liệu: 36 − 27 = 9%p; 45 + 30 + 25 = 100%; 45% là mục đứng đầu, 30% là mục thứ hai.",
+      "common_errors_vi": [
+        "Chỉ nêu một nhóm, bỏ nhóm còn lại.",
+        "Viết `%` thay vì `%p` cho hiệu của hai tỉ lệ.",
+        "Dự báo ở thì quá khứ hay hiện tại (✗ 늘어났다 → ✓ 늘어날 것으로 전망된다).",
+        "Thêm ý kiến riêng hoặc suy đoán ngoài số liệu.",
+        "Viết tiêu đề cho bài hoặc dùng 해요체.",
+        "Dùng `을/를` với nội động từ (`수요를 증가했다`, `접근성을 향상되었다`): phải là `수요가 증가했다`."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Nội dung & hoàn thành yêu cầu",
+          "max": 7,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Cấu trúc triển khai",
+          "max": 7,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        },
+        {
+          "criterion_vi": "Sử dụng ngôn ngữ",
+          "max": 16,
+          "note_vi": "Tỉ trọng ước lượng từ sách luyện thi, chưa xác minh với bảng chấm chính thức"
+        }
+      ],
+      "checklist_vi": [
+        "Đã đọc đề theo 5 bước và chọn đúng khối cần viết?",
+        "Mọi con số khớp đề; hiệu số của hai tỉ lệ dùng `%p`; có `N배` hoặc `대폭/소폭`?",
+        "Khối I ghép đủ các ý của ô nguyên nhân, chủ ngữ dùng `이/가`?",
+        "Khối K ở thì tương lai `-(으)ㄹ 것으로 전망된다/예상된다`?",
+        "Không ý kiến riêng, không tiêu đề, không `-요`; 200–300 chữ?"
+      ]
+    }
+  ]
+}

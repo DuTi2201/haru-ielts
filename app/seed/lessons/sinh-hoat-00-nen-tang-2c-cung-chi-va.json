@@ -1,0 +1,476 @@
+{
+  "slug": "sinh-hoat-00-nen-tang-2c-cung-chi-va",
+  "title": "Nền tảng 2.3 · Cũng, chỉ, và: 도, 만 & 와/과",
+  "title_ko": "기초 2-3: 저도 커피만 마셔요",
+  "topic": "Nhập môn",
+  "track": "beginner",
+  "level": 1,
+  "summary": "Ba trợ từ thêm ý cho câu: '도' (cũng), '만' (chỉ), '와/과 · 하고 · (이)랑' (và, cùng với); ghép cả Nền tảng 2 thành đoạn kể một ngày.",
+  "vocab": [
+    {
+      "hangul": "보다",
+      "pos": "V",
+      "meaning_vi": "Xem, nhìn, gặp",
+      "example_ko": "영화를 봐요.",
+      "example_vi": "Tôi xem phim.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "일하다",
+      "pos": "V",
+      "meaning_vi": "Làm việc",
+      "example_ko": "회사에서 일해요.",
+      "example_vi": "Tôi làm việc ở công ty.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "좋아하다",
+      "pron": "[조아하다]",
+      "pos": "V",
+      "meaning_vi": "Thích",
+      "example_ko": "커피를 좋아해요.",
+      "example_vi": "Tôi thích cà phê.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "물",
+      "pos": "N",
+      "meaning_vi": "Nước",
+      "example_ko": "물도 주세요.",
+      "example_vi": "Cho tôi cả nước nữa.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "빵",
+      "pos": "N",
+      "meaning_vi": "Bánh mì",
+      "example_ko": "빵하고 우유를 사요.",
+      "example_vi": "Tôi mua bánh mì và sữa.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "우유",
+      "pos": "N",
+      "meaning_vi": "Sữa",
+      "example_ko": "우유를 마셔요.",
+      "example_vi": "Tôi uống sữa.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "牛乳",
+      "sino_vietnamese": "ngưu nhũ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "밖",
+      "pos": "N",
+      "meaning_vi": "Ngoài",
+      "note_vi": "N + 에 + 있다",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core",
+      "pron": "[박]"
+    },
+    {
+      "hangul": "가운데",
+      "pos": "N",
+      "meaning_vi": "Ở giữa, chính giữa",
+      "note_vi": "Cũng có nghĩa 'trong số': 친구들 가운데 (trong số các bạn).",
+      "example_ko": "방 가운데에 책상이 있어요.",
+      "example_vi": "Giữa phòng có cái bàn.",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "core",
+      "source": "krdict:44486",
+      "collocations": [
+        {
+          "ko": "길 가운데",
+          "vi": "giữa đường"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "밑",
+      "pos": "N",
+      "meaning_vi": "Dưới, phía dưới",
+      "note_vi": "Gần nghĩa với 아래; 밑 hay chỉ ngay sát phía dưới, đáy của vật.",
+      "example_ko": "책상 밑에 가방이 있어요.",
+      "example_vi": "Dưới gầm bàn có cái cặp.",
+      "pron": "[믿]",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "core",
+      "source": "krdict:66592",
+      "collocations": [
+        {
+          "ko": "산 밑",
+          "vi": "chân núi"
+        }
+      ],
+      "enrich": "auto"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Sau bài này bạn làm được gì",
+      "kind": "goal",
+      "body": "• Nói «cũng» và «chỉ»: `저도 학생이에요`, `커피만 마셔요`.\n• Nói «và», «cùng với» theo mức trang trọng: `와/과`, `하고`, `(이)랑`.\n• Viết 4–6 câu kể một ngày của bạn: ai làm gì, ở đâu, với ai."
+    },
+    {
+      "title": "Chọn nhanh trợ từ",
+      "kind": "language",
+      "body": "• `은/는`: chủ đề hoặc đối chiếu · `이/가`: chủ ngữ mới.\n• `을/를`: tân ngữ (cái bị tác động).\n• `에`: đích đến, nơi tồn tại, thời điểm · `에서`: nơi diễn ra hành động, điểm xuất phát.\n• `도`: cũng · `만`: chỉ.\n• `와/과 · 하고 · (이)랑`: và, cùng với · `의`: của."
+    }
+  ],
+  "coach": {
+    "focus_vi": [
+      "`N + 도`, `N + 만`.",
+      "`N + 와/과 · 하고 · (이)랑`."
+    ],
+    "watch_out_vi": [
+      "`도` và `만` thay chỗ `은/는`, `이/가`, `을/를`: `저도` (không `저는도`), `커피만` (không `커피를만`); nhưng giữ `에`, `에서`: `학교에도`.",
+      "`와/과` trang trọng, văn viết; `하고`, `(이)랑` khi nói."
+    ],
+    "notebook_vi": [
+      "Đoạn 4–6 câu kể một ngày của bạn."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Nói 2 câu với `도`, 1 câu với `만` và 1 câu «tôi đi với bạn» bằng `하고`."
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "pattern": "N + 도",
+      "meaning_vi": "Cũng (thêm cái cùng loại vào cái vừa nói)",
+      "usage_context_vi": "**Cấu tạo:** Danh từ + `도`, thay chỗ `은/는`, `이/가`, `을/를`: `저도`, `친구도`, `커피도`.\n- Với `에`, `에서`, `와/과`, `에게` thì `도` đứng **SAU**: `학교에도`, `집에서도`, `친구와도`\n- Phủ định: `저도 안 가요` (tôi cũng không đi)\n**Hoàn cảnh dùng:** Thêm một người, vật hay nơi chốn cùng loại với điều vừa nói: `저는 학생이에요. 민수 씨도 학생이에요.` Cũng dùng để nhấn 'đến cả …' (`물도 없어요`: đến nước cũng không có).\n**Vì sao chọn nó thay vì `은/는`:** `은/는` chỉ chủ đề hay đối chiếu; `도` nói 'cũng' nên phải có một vế trước làm cơ sở so sánh. Tiếng Việt đặt 'cũng' trước động từ ('Tôi cũng là sinh viên'), tiếng Hàn gắn `도` vào DANH TỪ (`저도 학생이에요`).",
+      "contrasts": [
+        {
+          "pattern": "N + 은/는",
+          "diff_vi": "Chủ đề / đối chiếu; không có ý 'cũng'."
+        },
+        {
+          "pattern": "N + 만",
+          "diff_vi": "'Chỉ': giới hạn, ngược với ý thêm vào của `도`."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Chồng hai trợ từ: ✗ `저도는`, `영화를도`, `커피도를` → `저도`, `영화도`, `커피도`.\n(2) Đặt `도` sau vị ngữ như tiếng Việt: ✗ `저는 학생이에요도` → `저도 학생이에요`.\n(3) Dùng `도` khi không có vế nào trước đó để 'cũng': câu nghe lạc.\n(4) Đặt `도` trước `에/에서`: ✗ `학교도에 가요` → `학교에도 가요`.\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc và nhãn kỳ thi đối chiếu với KIIP 초급1 9과 · New Yonsei Korean 1-1.",
+      "topik_tip_vi": "Đoạn đọc có hai nhân vật làm cùng một việc thường dùng `도`. Nghe `도` thì biết thông tin này cộng thêm vào thông tin trước đó. Nhớ `도` không đi cùng `은/는`, `이/가`, `을/를`.",
+      "example_ko": "저는 학생이에요. 민수 씨도 학생이에요.\n커피도 마셔요.\n저도 한국 음식을 좋아해요.\n이 가방도 비싸요.\n오늘도 비가 와요.",
+      "example_vi": "Tôi là sinh viên. Minsu cũng là sinh viên.\nTôi cũng uống cà phê.\nTôi cũng thích món ăn Hàn Quốc.\nCái cặp này cũng đắt.\nHôm nay cũng mưa.",
+      "source": "KIIP 초급1 9과 · New Yonsei Korean 1-1",
+      "exam": "kiip-1",
+      "importance": "must"
+    },
+    {
+      "pattern": "N + 만",
+      "meaning_vi": "Chỉ N · duy nhất N",
+      "usage_context_vi": "**Cấu tạo:** Danh từ + `만` (không đổi theo patchim): `물만`, `저만`, `커피만`.\n- Thay chỗ `이/가`, `은/는`, `을/를`: `저만 학생이에요`, `물만 마셔요`\n- Với `에`, `에서`, `에게` thì `만` đứng sau: `주말에만`, `집에서만`\n**Hoàn cảnh dùng:** Giới hạn ở một đối tượng, bỏ hết cái khác: `커피만 마셔요` (chỉ uống cà phê), `일요일에만 쉬어요` (chỉ nghỉ vào Chủ nhật), `저만 몰라요` (chỉ mình tôi không biết).\n**Vì sao chọn nó thay vì `밖에 + phủ định`:** `만` đi với vị ngữ khẳng định tự nhiên (`커피만 마셔요`). `N밖에` bắt buộc đi với phủ định và nhấn vào 'quá ít, không đủ' (`커피밖에 안 마셔요`: chỉ uống mỗi cà phê). Muốn nói 'chỉ' trung tính thì dùng `만`.",
+      "contrasts": [
+        {
+          "pattern": "N + 밖에 + 부정",
+          "diff_vi": "'Chỉ' nhưng nhấn vào việc ít, bắt buộc có phủ định."
+        },
+        {
+          "pattern": "N + 도",
+          "diff_vi": "Thêm vào chứ không giới hạn."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dịch 'chỉ' bằng `밖에` mà vị ngữ khẳng định: ✗ `물밖에 마셔요` → `물만 마셔요`.\n(2) Tách rời: ✗ `물 만 마셔요` → `물만 마셔요`.\n(3) Dịch 'chỉ có' thành `만 있다` giữ nguyên thứ tự tiếng Việt: ✗ `있어요 책만` → `책만 있어요`.\n(4) Đặt `만` trước `에/에서`: ✗ `주말만에 쉬어요` → `주말에만 쉬어요`.\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc đối chiếu với Nền tảng sơ cấp, bổ sung (không nằm trong bảng KIIP 초급1–2).",
+      "topik_tip_vi": "Đọc: `만` thường xuất hiện cùng `주말에만`, `하나만`, `혼자만` để chỉ giới hạn. Cẩn thận phân biệt với `도` (thêm vào) khi đề cho hai trợ từ này làm đáp án.",
+      "example_ko": "저는 커피만 마셔요.\n주말에만 쉬어요.\n우리 반에서 저만 베트남 사람이에요.\n물만 주세요.\n저만 몰라요.",
+      "example_vi": "Tôi chỉ uống cà phê.\nTôi chỉ nghỉ vào cuối tuần.\nTrong lớp chúng tôi chỉ có mình tôi là người Việt Nam.\nCho tôi chỉ nước thôi.\nChỉ mình tôi không biết.",
+      "source": "Nền tảng sơ cấp, bổ sung (không nằm trong bảng KIIP 초급1–2)",
+      "importance": "normal"
+    },
+    {
+      "pattern": "N + 와/과 · 하고 · (이)랑",
+      "meaning_vi": "Và (nối danh từ) · cùng với (làm gì cùng ai)",
+      "usage_context_vi": "**Cấu tạo:** Có ba dạng: `와/과` (nguyên âm + `와`, patchim + `과`; trang trọng, văn viết), `하고` (mọi danh từ; khẩu ngữ lịch sự), `(이)랑` (patchim + `이랑`, nguyên âm + `랑`; thân mật). Hai nghĩa: (1) nối danh từ trong cùng một câu: `빵하고 우유`; (2) cùng với người nào: `친구하고 영화를 봐요`. Thêm `같이` để làm rõ nghĩa 'cùng': `친구하고 같이 가요`.\n**Hoàn cảnh dùng:** `하고` an toàn nhất trong lời nói; `와/과` dùng trong văn viết và thông báo (`책과 공책`); `(이)랑` dùng với bạn bè (`동생이랑 밥을 먹어요`). Trợ từ của câu (`을/를`, `이/가`, `은/는`) chỉ gắn vào danh từ CUỐI: `빵하고 우유를 사요`.\n**Vì sao chọn nó thay vì `그리고`:** `그리고` nối CÂU. `와/과·하고·(이)랑` nối DANH TỪ trong cùng một câu: `빵하고 우유를 사요`, không phải `빵을 그리고 우유를 사요`.",
+      "contrasts": [
+        {
+          "pattern": "N + 그리고 N",
+          "diff_vi": "Liên từ nối câu hoặc nối vế; không gắn vào danh từ."
+        },
+        {
+          "pattern": "N + 에게/한테",
+          "diff_vi": "'Cho, đối với' một người, khác với `와/과` 'cùng với'."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Chọn sai theo patchim: ✗ `책와`, `친구과` → `책과`, `친구와`.\n(2) Gắn trợ từ lên cả hai danh từ: ✗ `빵을하고 우유를 사요` → `빵하고 우유를 사요`.\n(3) Dùng `와/과` để nối động từ hay câu: ✗ `먹어요와 마셔요` (dùng `-고`).\n(4) Hiểu nhầm `친구와 가요` là 'bạn và tôi đi' hay 'bạn đi': đây là 'tôi đi CÙNG bạn'.\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc và nhãn kỳ thi đối chiếu với KIIP 초급1 8과 · New Yonsei Korean 1-1 (과/와, 하고).",
+      "topik_tip_vi": "Bài nghe có `와/과·하고·(이)랑` + `같이` thường hỏi 'đi cùng ai'. Bài điền chỗ trống: sau danh từ có patchim chọn `과`, không patchim chọn `와`; `하고` thì luôn đúng nhưng ít gặp trong văn viết trang trọng.",
+      "example_ko": "빵하고 우유를 사요.\n친구하고 영화를 봐요.\n책과 공책이 있어요.\n동생이랑 같이 밥을 먹어요.\n어머니와 아버지는 회사원이에요.",
+      "example_vi": "Tôi mua bánh mì và sữa.\nTôi xem phim với bạn.\nCó sách và vở.\nTôi ăn cơm cùng em.\nBố và mẹ tôi là nhân viên công ty.",
+      "source": "KIIP 초급1 8과 · New Yonsei Korean 1-1 (과/와, 하고)",
+      "exam": "kiip-1",
+      "importance": "must"
+    }
+  ],
+  "editor_notes": [],
+  "exercise_ids": [
+    "FLN15",
+    "FLN21",
+    "FLN22",
+    "FLN23",
+    "FR35",
+    "FR36",
+    "FR37",
+    "FR38",
+    "FR39",
+    "FBO09",
+    "FBO10",
+    "FBF08",
+    "FBE02"
+  ],
+  "sort_order": 7,
+  "split_from": "sinh-hoat-00-nen-tang-2-noi-chon",
+  "sessions": [
+    {
+      "title_vi": "Cũng (도)",
+      "can_do_vi": "Thêm «cũng» vào câu: «저도 학생이에요», «물도 마셔요», xem phim «영화도 봐요».",
+      "use_vi": "Đồng ý với người đối diện («Tôi cũng vậy») và gọi thêm món.",
+      "topik_vi": "Giống dạng nghe chọn nội dung trùng khớp ở phần Nghe TOPIK I: «cũng» báo hiệu cùng loại.",
+      "vocab": [
+        "보다",
+        "물",
+        "빵",
+        "우유"
+      ],
+      "grammar": [
+        "N + 도"
+      ],
+      "check": [
+        "FLN21",
+        "FR35"
+      ],
+      "situation": {
+        "scene_vi": "Hai người cùng ăn uống và nói «cũng».",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "저는 커피를 마셔요.",
+            "vi": "Tôi uống cà phê."
+          },
+          {
+            "who": "B",
+            "ko": "저도 커피를 마셔요.",
+            "vi": "Tôi cũng uống cà phê."
+          },
+          {
+            "who": "A",
+            "ko": "빵도 먹어요?",
+            "vi": "Bạn cũng ăn bánh mì à?"
+          },
+          {
+            "who": "B",
+            "ko": "네, 빵도 먹어요.",
+            "vi": "Vâng, tôi cũng ăn bánh mì."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "저는 학생이에요.",
+          "prompt_vi": "Tôi là sinh viên. (bạn cũng là sinh viên)",
+          "options": [
+            {
+              "ko": "저도 학생이에요.",
+              "vi": "Tôi cũng là sinh viên.",
+              "ok": true,
+              "why_vi": "도 = «cũng», thay cho 은/는."
+            },
+            {
+              "ko": "저는도 학생이에요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "도 thay chỗ của 은/는, không đi cùng."
+            },
+            {
+              "ko": "저만 학생이에요.",
+              "vi": "Chỉ mình tôi là sinh viên.",
+              "ok": false,
+              "why_vi": "만 = «chỉ», sai ý «cũng»."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «Tôi cũng uống nước». Cách nào đúng?",
+          "a": {
+            "ko": "저는 물도 마셔요.",
+            "vi": "Tôi cũng uống nước."
+          },
+          "b": {
+            "ko": "저는 물을도 마셔요.",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "도 thay thế 을/를, không đi cùng với nó."
+        }
+      }
+    },
+    {
+      "title_vi": "Chỉ (만) và vị trí thêm",
+      "can_do_vi": "Nói «chỉ có … thôi»: «물만 마셔요», «빵만 있어요», và nói vật ở ngoài, ở giữa, ở dưới (밖, 가운데, 밑).",
+      "use_vi": "Nói mình chỉ ăn / chỉ thích một thứ; nói rõ điều kiện «chỉ … thôi».",
+      "topik_vi": "Giống dạng điền 도 hay 만 vào chỗ trống ở phần Đọc TOPIK I.",
+      "vocab": [
+        "좋아하다",
+        "일하다",
+        "밖",
+        "가운데",
+        "밑"
+      ],
+      "grammar": [
+        "N + 만"
+      ],
+      "check": [
+        "FLN22",
+        "FR36",
+        "FBO09",
+        "FR37"
+      ],
+      "situation": {
+        "scene_vi": "Hai người nói về những thứ mình chỉ ăn hoặc uống.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "커피를 마셔요?",
+            "vi": "Bạn uống cà phê không?"
+          },
+          {
+            "who": "B",
+            "ko": "아니요, 물만 마셔요.",
+            "vi": "Không, tôi chỉ uống nước."
+          },
+          {
+            "who": "A",
+            "ko": "빵은요?",
+            "vi": "Còn bánh mì?"
+          },
+          {
+            "who": "B",
+            "ko": "빵만 먹어요.",
+            "vi": "Tôi chỉ ăn bánh mì."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "커피도 마셔요?",
+          "prompt_vi": "Bạn cũng uống cà phê à?",
+          "options": [
+            {
+              "ko": "아니요, 물만 마셔요.",
+              "vi": "Không, tôi chỉ uống nước.",
+              "ok": true,
+              "why_vi": "만 = «chỉ», thay cho 을/를: 물만."
+            },
+            {
+              "ko": "아니요, 물을만 마셔요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "만 thay thế 을/를, không đi sau nó."
+            },
+            {
+              "ko": "네, 물이에요.",
+              "vi": "Vâng, là nước.",
+              "ok": false,
+              "why_vi": "Không trả lời được «có uống cà phê không»."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «Tôi chỉ học tiếng Hàn». Cách nào đúng?",
+          "a": {
+            "ko": "한국어만 공부해요.",
+            "vi": "Tôi chỉ học tiếng Hàn."
+          },
+          "b": {
+            "ko": "한국어를만 공부해요.",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "만 thay cho 을/를 chứ không đứng sau nó."
+        }
+      }
+    },
+    {
+      "title_vi": "Và, cùng với (와/과, 하고, (이)랑)",
+      "can_do_vi": "Nối hai danh từ («빵과 우유») và nói làm việc cùng ai («친구하고 영화를 봐요», «동생이랑 가요»).",
+      "use_vi": "Kể mình đi đâu cùng ai; gọi nhiều món một lúc.",
+      "topik_vi": "Giống dạng điền trợ từ vào chỗ trống ở phần Đọc TOPIK I và dạng nghe hiểu việc làm cùng ai.",
+      "vocab": [],
+      "grammar": [
+        "N + 와/과 · 하고 · (이)랑"
+      ],
+      "check": [
+        "FLN15",
+        "FR38",
+        "FBO10",
+        "FLN23",
+        "FR39"
+      ],
+      "situation": {
+        "scene_vi": "Hai người nói về việc ăn cùng ai.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "누구하고 먹어요?",
+            "vi": "Bạn ăn với ai?"
+          },
+          {
+            "who": "B",
+            "ko": "친구하고 먹어요.",
+            "vi": "Tôi ăn với bạn."
+          },
+          {
+            "who": "A",
+            "ko": "뭐 먹어요?",
+            "vi": "Ăn gì?"
+          },
+          {
+            "who": "B",
+            "ko": "밥하고 빵을 먹어요.",
+            "vi": "Tôi ăn cơm và bánh mì."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "누구하고 밥을 먹어요?",
+          "prompt_vi": "Bạn ăn cơm với ai?",
+          "options": [
+            {
+              "ko": "친구하고 먹어요.",
+              "vi": "Tôi ăn với bạn.",
+              "ok": true,
+              "why_vi": "하고 = «cùng với», đi sau tên người."
+            },
+            {
+              "ko": "친구를 먹어요.",
+              "vi": "Tôi ăn bạn.",
+              "ok": false,
+              "why_vi": "를 làm «bạn» thành thứ bị ăn, nghĩa sai."
+            },
+            {
+              "ko": "네, 밥이에요.",
+              "vi": "Vâng, là cơm.",
+              "ok": false,
+              "why_vi": "Không trả lời «ăn với ai»."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «cà phê và bánh mì». Cách nào đúng?",
+          "a": {
+            "ko": "커피와 빵",
+            "vi": "Cà phê và bánh mì"
+          },
+          "b": {
+            "ko": "커피과 빵",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "커피 kết thúc bằng nguyên âm nên dùng 와. 과 dùng sau phụ âm."
+        }
+      }
+    }
+  ]
+}

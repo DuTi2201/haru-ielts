@@ -1,0 +1,400 @@
+{
+  "slug": "xa-hoi-22-doc-chu-de-thai-do-muc-dich",
+  "title": "Đọc: chủ đề – thái độ – mục đích",
+  "title_ko": "읽기: 주제·태도·목적",
+  "topic": "Bổ trợ · Đọc hiểu: chủ đề, thái độ, mục đích",
+  "track": "advanced",
+  "level": 6,
+  "sort_order": 83,
+  "summary": "Bài bổ trợ cho phần Đọc TOPIK II (mức 4–5): ba kiểu câu hỏi cùng hỏi về toàn bài. Rút đoạn thành một câu, nhận bốn hình dạng đáp án sai của câu chủ đề, tách đáp án thái độ thành hai nửa (đối tượng + chiều), xếp mục đích vào hai nhóm (cho biết / muốn thay đổi). Một mẫu câu: `-도록 요구하다/권하다/촉구하다`. 21 từ, 2 câu nghe, 2 bài chép chính tả, 3 đoạn tự soạn × 3 câu hỏi, 3 câu chủ đề thật để thử sức.",
+  "vocab": [
+    {
+      "hangul": "우려하다",
+      "pos": "V",
+      "meaning_vi": "Lo ngại",
+      "note_vi": "`N을/를 우려하다`; danh từ `우려` (`우려가 있다`).",
+      "example_ko": "전문가들은 부작용을 우려하고 있다.",
+      "example_vi": "Các chuyên gia đang lo ngại tác dụng phụ.",
+      "family": "🟢 Thái độ của người viết",
+      "priority": "core",
+      "hanja": "憂慮",
+      "sino_vietnamese": "ưu lự",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "강조하다",
+      "pos": "V",
+      "meaning_vi": "Nhấn mạnh",
+      "example_ko": "필자는 예방의 중요성을 강조한다.",
+      "example_vi": "Người viết nhấn mạnh tầm quan trọng của việc phòng ngừa.",
+      "family": "🟢 Thái độ của người viết",
+      "priority": "core",
+      "hanja": "強調",
+      "sino_vietnamese": "cường điều",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "지적하다",
+      "pos": "V",
+      "meaning_vi": "Chỉ ra (vấn đề, sai sót)",
+      "example_ko": "이 제도의 문제점을 지적하는 의견이 많다.",
+      "example_vi": "Có nhiều ý kiến chỉ ra vấn đề của chế độ này.",
+      "family": "🟢 Thái độ của người viết",
+      "priority": "core",
+      "hanja": "指摘",
+      "sino_vietnamese": "chỉ trích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "기대하다",
+      "pos": "V",
+      "meaning_vi": "Kỳ vọng, trông đợi",
+      "example_ko": "많은 사람이 좋은 결과를 기대하고 있다.",
+      "example_vi": "Nhiều người đang kỳ vọng kết quả tốt.",
+      "family": "🟢 Thái độ của người viết",
+      "priority": "core",
+      "hanja": "期待企待",
+      "sino_vietnamese": "kỳ đãi xí đãi",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "회의적",
+      "pos": "N",
+      "meaning_vi": "Hoài nghi",
+      "note_vi": "`회의적이다`, `회의적인 시각`; hay đi với `에 대해`.",
+      "example_ko": "그는 이 방법의 효과에 대해 회의적이다.",
+      "example_vi": "Anh ấy hoài nghi hiệu quả của phương pháp này.",
+      "family": "🟢 Thái độ của người viết",
+      "priority": "recognize",
+      "hanja": "懷疑的",
+      "sino_vietnamese": "hoài nghi đích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "낙관적",
+      "pos": "N",
+      "meaning_vi": "Lạc quan",
+      "example_ko": "전문가들은 앞날을 낙관적으로 보고 있다.",
+      "example_vi": "Các chuyên gia nhìn tương lai một cách lạc quan.",
+      "family": "🟢 Thái độ của người viết",
+      "priority": "recognize",
+      "hanja": "樂觀的",
+      "sino_vietnamese": "lạc quan đích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "비관적",
+      "pos": "N",
+      "meaning_vi": "Bi quan",
+      "example_ko": "경제 전망을 비관적으로 보는 사람이 늘었다.",
+      "example_vi": "Người nhìn triển vọng kinh tế một cách bi quan đã nhiều lên.",
+      "family": "🟢 Thái độ của người viết",
+      "priority": "recognize",
+      "hanja": "悲觀的",
+      "sino_vietnamese": "bi quan đích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "촉구하다",
+      "pos": "V",
+      "meaning_vi": "Thúc giục, kêu gọi (mạnh)",
+      "note_vi": "Mạnh hơn `요청하다`: người viết muốn một chủ thể hành động.",
+      "example_ko": "시민들은 정부에 대책 마련을 촉구했다.",
+      "example_vi": "Người dân kêu gọi chính phủ đưa ra đối sách.",
+      "family": "🟡 Mục đích của bài viết",
+      "priority": "core",
+      "hanja": "促求",
+      "sino_vietnamese": "xúc cầu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "요구하다",
+      "pos": "V",
+      "meaning_vi": "Yêu cầu, đòi hỏi",
+      "note_vi": "Trung bình giữa `권하다` (khuyên) và `촉구하다` (thúc giục mạnh).",
+      "example_ko": "주민들은 시에 안전 대책을 요구했다.",
+      "example_vi": "Người dân yêu cầu thành phố đưa ra đối sách an toàn.",
+      "family": "🟡 Mục đích của bài viết",
+      "priority": "core",
+      "hanja": "要求",
+      "sino_vietnamese": "yêu cầu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "소개하다",
+      "pos": "V",
+      "meaning_vi": "Giới thiệu",
+      "example_ko": "이 글은 새로운 서비스를 소개하고 있다.",
+      "example_vi": "Bài viết này giới thiệu một dịch vụ mới.",
+      "family": "🟡 Mục đích của bài viết",
+      "priority": "core",
+      "hanja": "紹介",
+      "sino_vietnamese": "thiệu giới",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "안내하다",
+      "pos": "V",
+      "meaning_vi": "Hướng dẫn, thông báo",
+      "example_ko": "이 글은 이용 방법을 안내하고 있다.",
+      "example_vi": "Bài viết này hướng dẫn cách sử dụng.",
+      "family": "🟡 Mục đích của bài viết",
+      "priority": "core",
+      "hanja": "案內",
+      "sino_vietnamese": "án nội",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "설명하다",
+      "pos": "V",
+      "meaning_vi": "Giải thích",
+      "example_ko": "이 글은 제도가 생긴 이유를 설명하고 있다.",
+      "example_vi": "Bài viết này giải thích lý do chế độ ra đời.",
+      "family": "🟡 Mục đích của bài viết",
+      "priority": "core",
+      "hanja": "說明",
+      "sino_vietnamese": "thuyết minh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "권하다",
+      "pos": "V",
+      "meaning_vi": "Khuyên, mời",
+      "example_ko": "의사는 환자에게 규칙적인 운동을 권했다.",
+      "example_vi": "Bác sĩ khuyên bệnh nhân vận động đều đặn.",
+      "family": "🟡 Mục đích của bài viết",
+      "priority": "core",
+      "hanja": "勸",
+      "sino_vietnamese": "khuyến",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "설득하다",
+      "pos": "V",
+      "meaning_vi": "Thuyết phục",
+      "example_ko": "필자는 독자를 설득하려고 근거를 제시한다.",
+      "example_vi": "Người viết đưa ra căn cứ để thuyết phục độc giả.",
+      "family": "🟡 Mục đích của bài viết",
+      "priority": "recognize",
+      "hanja": "說得",
+      "sino_vietnamese": "thuyết đắc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "주제",
+      "pos": "N",
+      "meaning_vi": "Chủ đề",
+      "example_ko": "글의 주제를 한 문장으로 정리해 보자.",
+      "example_vi": "Hãy tóm chủ đề của bài trong một câu.",
+      "family": "🔵 Gọi tên ý chính",
+      "priority": "core",
+      "hanja": "主題",
+      "sino_vietnamese": "chủ đề",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "목적",
+      "pos": "N",
+      "meaning_vi": "Mục đích",
+      "example_ko": "글을 쓴 목적을 찾는 문제가 나왔다.",
+      "example_vi": "Đã ra câu hỏi tìm mục đích viết bài.",
+      "family": "🔵 Gọi tên ý chính",
+      "priority": "core",
+      "hanja": "目的",
+      "sino_vietnamese": "mục đích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "필자",
+      "pos": "N",
+      "meaning_vi": "Người viết (cách gọi trong đề thi)",
+      "example_ko": "필자의 태도를 고르는 문제이다.",
+      "example_vi": "Đây là câu chọn thái độ của người viết.",
+      "family": "🔵 Gọi tên ý chính",
+      "priority": "core",
+      "hanja": "筆者",
+      "sino_vietnamese": "bút giả",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "취지",
+      "pos": "N",
+      "meaning_vi": "Ý đồ ban đầu, tôn chỉ",
+      "example_ko": "제도의 취지는 좋지만 운영 방식이 아쉽다.",
+      "example_vi": "Ý đồ của chế độ thì tốt nhưng cách vận hành còn tiếc.",
+      "family": "🔵 Gọi tên ý chính",
+      "priority": "recognize",
+      "hanja": "趣旨",
+      "sino_vietnamese": "thú chỉ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "통념",
+      "pos": "N",
+      "meaning_vi": "Quan niệm phổ biến",
+      "example_ko": "이 연구는 기존의 통념을 뒤집었다.",
+      "example_vi": "Nghiên cứu này đã lật ngược quan niệm phổ biến trước đây.",
+      "family": "🔵 Gọi tên ý chính",
+      "priority": "recognize",
+      "hanja": "通念",
+      "sino_vietnamese": "thông niệm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "치우치다",
+      "pos": "V",
+      "meaning_vi": "Nghiêng lệch về một phía",
+      "example_ko": "한쪽 정보만 보면 생각이 치우치기 쉽다.",
+      "example_vi": "Chỉ xem thông tin một phía thì suy nghĩ dễ bị lệch.",
+      "family": "🔵 Gọi tên ý chính",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "독자",
+      "pos": "N",
+      "meaning_vi": "Độc giả, người đọc",
+      "example_ko": "필자는 독자에게 생각할 기회를 준다.",
+      "example_vi": "Người viết cho độc giả cơ hội suy nghĩ.",
+      "family": "🔵 Gọi tên ý chính",
+      "priority": "core",
+      "hanja": "讀者",
+      "sino_vietnamese": "độc giả",
+      "enrich": "auto"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V + -도록 요구하다 · V + -도록 권하다 · V + -도록 촉구하다",
+      "meaning_vi": "Yêu cầu / khuyên / thúc giục ai làm gì (nêu việc người khác cần làm)",
+      "usage_context_vi": "**Cấu tạo:** `N에게 (hoặc N에, nếu là tổ chức) + V gốc + -도록 + 요구하다 / 권하다 / 촉구하다`. Việc người kia cần làm đứng trước `-도록`; phủ định bằng `-지 않도록`. Ba động từ khác nhau ở độ mạnh: `권하다` (khuyên, nhẹ) < `요구하다` (đòi hỏi) < `촉구하다` (thúc giục mạnh, hay dùng với chính phủ, tổ chức). Cũng dùng được với `제안하다`, `당부하다`.\n**Hoàn cảnh dùng:** đáp án câu mục đích trong bài Đọc (`…하도록 권하려고`, `…하도록 요구하려고`), tin tức và bài ý kiến: `정부에 대책을 마련하도록 촉구했다`; `전문가들은 시민에게 규칙적으로 운동하도록 권한다`; `학교에 안전 교육을 강화하도록 요구했다`.\n**Vì sao chọn nó thay vì `-(으)려고`:** người muốn thay đổi (người viết) và người phải làm (chính phủ, học sinh) là **hai chủ thể khác nhau**, mà `-(으)려고` cần cùng một chủ ngữ ở hai vế. `-도록` cho phép chủ ngữ khác nhau, nên một cụm `N에게 …도록 + động từ` nói được cả «ai muốn» lẫn «ai phải làm».",
+      "contrasts": [
+        {
+          "pattern": "V + -도록 · V + -지 않도록 · V + -도록 하다",
+          "diff_vi": "Đã học ở bài 21: «để cho, sao cho» (mục đích) và lời nhắc mềm; ở đây `-도록` đi sau động từ yêu cầu để nêu **việc người khác phải làm**."
+        },
+        {
+          "pattern": "V + -(으)라고 하다",
+          "diff_vi": "Lời gián tiếp «bảo làm gì», dùng nhiều khi nói; `-도록 요구하다/권하다` trang trọng, hợp văn viết."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `-(으)려고` khi hai chủ thể khác nhau: ✗ `정부가 대책을 마련하려고 촉구했다` → ✓ `정부에 대책을 마련하도록 촉구했다`.\n(2) Gắn `-도록` vào danh từ: ✗ `대책도록 요구하다` → ✓ `대책을 마련하도록 요구하다`.\n(3) Chọn động từ quá mạnh cho một lời khuyên nhẹ: bài chỉ khuyên người đọc đổi thói quen thì dùng `권하다`, đừng dùng `촉구하다`.\n(4) Quên người được yêu cầu: ✗ `대책을 마련하도록 촉구했다` (ai?) → thêm `정부에`.",
+      "example_ko": "시민들은 정부에 대책을 마련하도록 촉구했다.\n전문가들은 시민에게 규칙적으로 운동하도록 권한다.\n학부모들은 학교에 안전 교육을 강화하도록 요구했다.\n필자는 독자가 습관을 바꾸도록 권하고 있다.",
+      "example_vi": "Người dân kêu gọi chính phủ đưa ra đối sách.\nCác chuyên gia khuyên người dân vận động đều đặn.\nPhụ huynh yêu cầu nhà trường tăng cường giáo dục an toàn.\nNgười viết đang khuyên độc giả thay đổi thói quen.",
+      "topik_tip_vi": "Câu mục đích: đáp án kết bằng `-도록 요구하려고/권하려고/촉구하려고`. Trước hết xác định **ai** phải làm (học sinh, nhà trường, chính phủ), sau đó chọn độ mạnh của động từ cho khớp giọng bài.",
+      "builds_on": [
+        "V + -도록 · V + -지 않도록 · V + -도록 하다"
+      ],
+      "importance": "normal"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài",
+      "kind": "goal",
+      "body": "Bài bổ trợ cho phần Đọc TOPIK II (mức 4–5), tập trung vào ba kiểu câu hỏi cùng hỏi về **toàn bài**: chủ đề, thái độ của người viết và mục đích viết. Sau bài này bạn làm được bốn việc:\n① rút một đoạn thành **một câu ngắn** trước khi nhìn đáp án;\n② nhận ra **bốn hình dạng** đáp án sai của câu chủ đề;\n③ tách đáp án thái độ thành **hai nửa** (đối tượng + chiều) và kiểm tra từng nửa;\n④ xếp mục đích viết vào **hai nhóm** (cho biết / muốn người đọc thay đổi) rồi kiểm tra đúng đối tượng.\nBài có 3 đoạn tự soạn, mỗi đoạn 3 câu hỏi, để bạn thấy ba câu hỏi khác nhau thế nào trên cùng một đoạn. Bài có một mẫu câu nhỏ rất hay gặp trong đáp án mục đích, `-도록 요구하다/권하다/촉구하다`; phần còn lại dạy cách đọc đáp án."
+    },
+    {
+      "title": "Thứ tự giải: bốn bước",
+      "kind": "language",
+      "body": "① Đọc cả đoạn một lượt, **đánh dấu chỗ chuyển ý**: `그러나`, `하지만`, `그런데`, `결국`, `따라서`.\n② Gạch bỏ (trong đầu) **ví dụ, số liệu, định nghĩa**: chúng chứng minh ý chính chứ không phải ý chính.\n③ **Rút cả đoạn thành một câu** tiếng Việt, rồi mới đọc đáp án.\n④ Dùng đáp án như bộ lọc: loại từng đáp án bằng một lý do cụ thể (chỉ bối cảnh, chỉ một ví dụ…), không chọn theo cảm giác «nghe quen».\nMột đoạn thường trả lời được cả ba câu hỏi (chủ đề, thái độ, mục đích), nên làm bước ③ một lần là dùng ba lần."
+    },
+    {
+      "title": "Bốn hình dạng đáp án sai của câu chủ đề",
+      "kind": "pitfall",
+      "body": "① **Chỉ là bối cảnh**: nhắc lại câu mở đầu, trong khi đoạn còn đi tiếp sang ý khác.\n② **Chỉ một ví dụ hoặc một mặt**: đúng với một câu hay một vế, nhưng không bao được cả đoạn.\n③ **Chỉ là định nghĩa**: khái niệm tác giả nêu ra để dẫn vào điều mình muốn nói.\n④ **Ngược nghĩa hoặc đảo trọng tâm**: dùng đúng từ khoá nhưng nói ngược lại, hay biến phần nhượng bộ (`물론 …`) thành ý chính.\nĐáp án đúng thường dùng **từ khái quát hơn** từ ngữ trong bài (`창업 부담` thay cho `임대료와 설비 비용`) và khớp với câu chốt ở cuối đoạn."
+    },
+    {
+      "title": "Câu thái độ: đáp án có hai nửa",
+      "kind": "language",
+      "body": "Đáp án thái độ có dạng **đối tượng + chiều**: `공유 주방이 창업 부담을 줄여 준다고` | `긍정적으로 평가하고 있다`. Kiểm tra từng nửa:\n① **Đối tượng**: đáp án có nói đúng việc mà tác giả đang bàn không? Sai đối tượng thì loại, dù chiều nghe hợp.\n② **Chiều**: khen, chê, lo ngại, kêu gọi, hoài nghi… Tìm câu **tác giả tự đánh giá** (`-다고 생각한다`, `-아/어야 한다`, `-(으)ㄹ 필요가 있다`, `문제이다`); bỏ câu chỉ nêu sự thật hoặc dẫn lời người khác.\nBài có kiểu «`물론 …` rồi `그러나 …`» thì phần sau `그러나` mới là chiều thật; đáp án lấy chiều của phần nhượng bộ là bẫy. Nếu bài công nhận một điều rồi phê phán điều khác, đáp án đúng thường nêu cả hai.\nĐáp án dùng từ **mạnh hơn bài** (`필요 없다고 주장하다`, `무조건 비판하다`) thường là bẫy: bài chỉ muốn chỉnh chứ không bác bỏ hoàn toàn.\nVài từ chỉ chiều: `긍정적으로 평가하다` (đánh giá tích cực), `우려하다` (lo ngại), `비판하다` (phê phán), `촉구하다` (thúc giục), `회의적이다` (hoài nghi), `낙관적이다` (lạc quan)."
+    },
+    {
+      "title": "Câu mục đích: hai nhóm rồi kiểm tra đối tượng",
+      "kind": "language",
+      "body": "Mục đích viết trả lời câu hỏi «người viết muốn gì ở người đọc?». Có hai nhóm:\n**Nhóm «cho biết»**: `소개하다`, `안내하다`, `설명하다`, `알리다`. Bài trình bày hiện tượng, so sánh, nêu lý do; không có câu kêu gọi hướng tới ai.\n**Nhóm «muốn thay đổi»**: `요청하다`, `제안하다`, `촉구하다`, `권하다`, `설득하다`. Bài kết bằng `-아/어야 한다`, `-(으)ㄹ 필요가 있다`, `-기 바랍니다`; hoặc là thư, thông báo có đề nghị.\nLàm hai bước: ① quyết định **nhóm**; ② kiểm tra **đối tượng**: ai cần thay đổi (người dùng, nhà trường, chính phủ, người đọc, chế độ)? Bẫy hay gặp: đúng nhóm nhưng sai đối tượng, hoặc chọn **mục đích phụ** (một chi tiết trong bài).\nCó bài vừa giới thiệu một thay đổi vừa chỉ ra điểm đáng lo: chọn đáp án bao được cả hai phần.\nĐáp án mục đích thường kết thúc bằng `-려고` hay `-기 위해`, còn đáp án chủ đề là một câu khẳng định về nội dung; đừng lẫn hai loại."
+    },
+    {
+      "title": "Một đoạn, ba câu hỏi",
+      "kind": "language",
+      "body": "Ba câu hỏi nhìn vào ba chỗ khác nhau của cùng một bài:\n• **Chủ đề** – bài nói gì nói chung → nhìn câu chốt và chỗ chuyển ý.\n• **Thái độ** – tác giả nghĩ gì về nó → nhìn câu đánh giá của tác giả.\n• **Mục đích** – tác giả muốn người đọc biết hay làm gì → nhìn câu cuối và loại văn bản.\nVí dụ (không nằm trong phần luyện): một đoạn nói nhiều người chưa phân loại rác đúng vì quy tắc quá phức tạp, rồi đề nghị thành phố đơn giản hoá hướng dẫn. Chủ đề: «quy tắc phức tạp khiến việc phân loại kém, cần đơn giản hoá». Thái độ: chỉ ra vấn đề và mong cải thiện, không trách người dân. Mục đích: đề nghị thành phố chỉnh hướng dẫn. Cả ba cùng bắt nguồn từ một câu rút gọn."
+    },
+    {
+      "title": "Bốn lỗi hay gặp",
+      "kind": "pitfall",
+      "body": "① Chọn đáp án vì **trùng từ** với một câu trong bài.\n② Đọc đáp án trước rồi cố tìm bằng chứng cho đáp án «nghe hợp»; hãy rút gọn đoạn trước.\n③ Lấy ý của **phần nhượng bộ** (`물론 …`) hoặc lời **người được dẫn lại** làm ý hay thái độ của tác giả.\n④ Nhầm **chủ đề** (cả bài nói gì) với **mục đích** (viết để làm gì)."
+    }
+  ],
+  "editor_notes": [
+    {
+      "title": "Nguồn và độ tin cậy",
+      "kind": "fact",
+      "body": "Ba đoạn và chín câu hỏi do Haru tự soạn, không chép từ đề hay tài liệu nào; chưa có người bản ngữ rà soát. Các quy tắc (hai nửa của thái độ, hai nhóm của mục đích, bốn hình dạng đáp án sai) là cách phân loại của Haru rút ra từ việc đối chiếu các câu Đọc đã có trong bộ đề; không phải phân loại chính thức của kỳ thi."
+    },
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "SP72: bài là bài đọc nên chủ đề nói là chính thói quen đọc (chỉ đọc tiêu đề), để dùng từ thái độ – mục đích của bài (필자, 독자, 우려하다, 강조하다, 치우치다, 목적) và -도록 권하다. Bài thuộc bank doc-hieu, chưa có speaking.json; apply_packs tự tạo. RG72: năm câu nói cùng chủ đề."
+    }
+  ],
+  "bank": "doc-hieu",
+  "coach": {
+    "focus_vi": [
+      "Làm lần lượt ba đoạn: với mỗi đoạn, tự viết một câu tiếng Việt rút gọn trước, rồi mới trả lời cả ba câu hỏi.",
+      "Với mỗi đáp án sai, ghi lý do loại bằng một cụm: chỉ bối cảnh, chỉ một ví dụ, sai đối tượng, ngược chiều hoặc sai nhóm.",
+      "Ở đáp án mục đích, tìm cụm `-도록 요구하다/권하다/촉구하다` và gạch chân ai là người phải làm; cuối bài thử ba câu chủ đề thật."
+    ],
+    "watch_out_vi": [
+      "Phần sau `하지만/그러나` mới là chiều thật của tác giả; phần `물론 …` chỉ là nhượng bộ.",
+      "Đáp án mục đích đúng nhóm nhưng sai đối tượng vẫn là đáp án sai."
+    ],
+    "notebook_vi": [
+      "Bảng ba cột cho mỗi đoạn: chủ đề (một câu) – thái độ (đối tượng + chiều) – mục đích (nhóm + đối tượng).",
+      "Các động từ chỉ thái độ và mục đích của bài, mỗi từ một câu ví dụ."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Đáp án thái độ gồm hai nửa nào?",
+        "answer": "Đối tượng (bàn về việc gì) và chiều (khen, chê, lo ngại, kêu gọi…). Phải đúng cả hai nửa."
+      },
+      {
+        "prompt_vi": "Mục đích viết chia thành mấy nhóm?",
+        "answer": "Hai nhóm: cho biết (소개, 안내, 설명) và muốn người đọc thay đổi (요청, 제안, 촉구); rồi kiểm tra đúng đối tượng."
+      },
+      {
+        "prompt_vi": "Kể bốn hình dạng đáp án sai của câu chủ đề.",
+        "answer": "Chỉ bối cảnh; chỉ một ví dụ hoặc một mặt; chỉ định nghĩa; ngược nghĩa hoặc đảo trọng tâm."
+      }
+    ],
+    "tip_vi": "Làm từng đoạn một: một đoạn cùng ba câu hỏi của nó chỉ mất vài phút."
+  },
+  "exercise_ids": [
+    "D71L1",
+    "D71L2",
+    "D71D1",
+    "D71D2",
+    "D71R1",
+    "D71R2",
+    "D71R3",
+    "D71R4",
+    "D71R5",
+    "D71R6",
+    "D71R7",
+    "D71R8",
+    "D71R9",
+    "RG72",
+    "SP72"
+  ],
+  "topik2": [
+    {
+      "qid": "102-R-35",
+      "why_vi": "Câu chủ đề có nhượng bộ: đoạn nêu một ý kiến phản đối rồi chuyển bằng «하지만». Ý chính nằm ở phần sau chỗ chuyển, nên đừng chọn đáp án chỉ lặp lại ý kiến phản đối."
+    },
+    {
+      "qid": "102-R-38",
+      "why_vi": "Đoạn mở bằng định nghĩa rồi chuyển sang điều tác giả thật sự muốn nói. Loại đáp án chỉ lặp lại định nghĩa, sau đó rút cả đoạn thành một câu."
+    },
+    {
+      "qid": "h1-R-44",
+      "why_vi": "Đoạn đối lập hai giai đoạn của nghệ sĩ. Chủ đề nằm ở điều khác biệt giữa hai giai đoạn, nên đáp án chỉ mô tả một giai đoạn là đáp án thiếu."
+    }
+  ]
+}

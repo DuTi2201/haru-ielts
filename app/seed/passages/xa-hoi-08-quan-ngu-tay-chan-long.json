@@ -1,0 +1,246 @@
+{
+  "lesson": "xa-hoi-08-quan-ngu-tay-chan-long",
+  "items": [
+    {
+      "id": "xa-hoi-08-d1",
+      "kind": "dialogue",
+      "title_ko": "수해 복구 봉사",
+      "title_vi": "Tình nguyện khắc phục lũ",
+      "scene_vi": "Hai đồng nghiệp rủ nhau đi tình nguyện khắc phục thiệt hại do mưa lũ.",
+      "speakers": {
+        "F": "지은",
+        "M": "태호"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "태호 씨, 이번 주말에 수해 복구 봉사에 같이 갈래요?",
+          "vi": "Taeho, cuối tuần này đi tình nguyện khắc phục lũ cùng không?"
+        },
+        {
+          "who": "M",
+          "ko": "좋아요. 소식을 듣고 계속 마음에 걸렸는데 마침 잘됐네요.",
+          "vi": "Hay quá. Từ khi nghe tin tôi cứ cấn cấn, đúng lúc quá."
+        },
+        {
+          "who": "F",
+          "ko": "동네 이웃들이 벌써 발 벗고 나서서 모이고 있대요.",
+          "vi": "Nghe nói hàng xóm đã hăng hái tụ họp rồi."
+        },
+        {
+          "who": "M",
+          "ko": "저도 도울 일을 찾아봐야겠어요. 요즘 일이 바빠서 손에 잡히지 않았거든요.",
+          "vi": "Tôi cũng phải tìm việc giúp. Dạo này bận nên công việc cũng chẳng vào đầu."
+        },
+        {
+          "who": "F",
+          "ko": "회사는 어때요? 연말이라 힘들죠?",
+          "vi": "Công ty thế nào? Cuối năm chắc vất vả nhỉ?"
+        },
+        {
+          "who": "M",
+          "ko": "허리띠를 졸라매야 하는 시기라서 다들 이를 악물고 일하고 있어요.",
+          "vi": "Đang là lúc phải thắt lưng buộc bụng nên ai cũng nghiến răng làm việc."
+        },
+        {
+          "who": "F",
+          "ko": "그래도 이번 주말에는 한숨 돌릴 수 있겠네요.",
+          "vi": "Dù vậy cuối tuần này có thể thở phào được rồi."
+        },
+        {
+          "who": "M",
+          "ko": "네, 도움이 되고 나면 속이 후련할 것 같아요.",
+          "vi": "Vâng, giúp được rồi chắc tôi sẽ nhẹ lòng."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "속·마음: 속이 후련하다 · 속이 타다 · 속이 상하다 · 마음에 걸리다 · 신경을 쓰다",
+          "regex": "속이 후련할"
+        },
+        {
+          "pattern": "발·다리·허리: 발이 넓다 · 발등에 불이 떨어지다 · 발 벗고 나서다 · 발목을 잡다 · 손발이 맞다 · 다리를 놓다 · 허리띠를 졸라매다",
+          "regex": "발 벗고 나서서"
+        },
+        {
+          "pattern": "손: 손이 크다 · 손이 빠르다 · 손을 떼다 · 손을 쓰다 · 손에 잡히지 않다 · 손에 땀을 쥐다",
+          "regex": "손에 잡히지"
+        },
+        {
+          "pattern": "버티기·관계: 이를 악물다 · 담을 쌓다 · 꼬리를 물다 · 한숨을 돌리다",
+          "regex": "이를 악물고"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "마음에 걸리다",
+          "seen": "마음에 걸렸는데"
+        },
+        {
+          "word": "발 벗고 나서다",
+          "seen": "발 벗고 나서서"
+        },
+        {
+          "word": "손에 잡히지 않다",
+          "seen": "손에 잡히지"
+        },
+        {
+          "word": "이를 악물다",
+          "seen": "이를 악물고"
+        },
+        {
+          "word": "속이 후련하다",
+          "seen": "속이 후련할"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Hai người định làm gì cuối tuần?",
+          "options": [
+            "Tình nguyện khắc phục lũ",
+            "Đi du lịch",
+            "Đi xem trận đấu"
+          ],
+          "answer": 0,
+          "explain_vi": "Nữ rủ «수해 복구 봉사에 같이 갈래요?»."
+        },
+        {
+          "q_vi": "Công ty cuối năm thế nào?",
+          "options": [
+            "Dư dả",
+            "Ai cũng nghiến răng làm việc",
+            "Đóng cửa"
+          ],
+          "answer": 1,
+          "explain_vi": "Nam nói «다들 이를 악물고 일하고 있어요»."
+        },
+        {
+          "q_vi": "Nam nghĩ sau khi giúp sẽ thế nào?",
+          "options": [
+            "Bực bội",
+            "Nhẹ lòng",
+            "Mệt mỏi hơn"
+          ],
+          "answer": 1,
+          "explain_vi": "Nam nói «속이 후련할 것 같아요»."
+        }
+      ]
+    },
+    {
+      "id": "xa-hoi-08-r1",
+      "kind": "reading",
+      "title_ko": "어려울 때 힘이 되는 이웃",
+      "title_vi": "Hàng xóm khi khó khăn",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "지난여름 폭우로 한 마을의 도로가 무너지고 집들이 물에 잠겼다.",
+          "vi": "Mùa hè năm ngoái mưa lớn làm đường của một ngôi làng sập và nhà ngập nước."
+        },
+        {
+          "who": "N",
+          "ko": "소식을 들은 주민들은 모두 마음에 걸려 밤잠을 이루지 못했다.",
+          "vi": "Nghe tin, người dân ai cũng cấn cấn trong lòng không ngủ được."
+        },
+        {
+          "who": "N",
+          "ko": "다음 날 아침 이웃들이 발 벗고 나서서 복구 작업을 시작했다.",
+          "vi": "Sáng hôm sau hàng xóm hăng hái vào cuộc bắt đầu khắc phục."
+        },
+        {
+          "who": "N",
+          "ko": "일에 쫓기는 사람들도 일이 손에 잡히지 않는다며 단숨에 달려왔다.",
+          "vi": "Cả những người bận rộn cũng nói không làm việc nổi và chạy đến ngay."
+        },
+        {
+          "who": "N",
+          "ko": "며칠 동안 이를 악물고 일한 끝에 길이 다시 열렸다.",
+          "vi": "Sau mấy ngày nghiến răng làm việc, con đường được thông trở lại."
+        },
+        {
+          "who": "N",
+          "ko": "그제야 마을 사람들은 가슴을 쓸어내리며 서로에게 고마움을 전했다.",
+          "vi": "Lúc đó dân làng mới thở phào và gửi lời cảm ơn nhau."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "속·마음: 속이 후련하다 · 속이 타다 · 속이 상하다 · 마음에 걸리다 · 신경을 쓰다",
+          "regex": "마음에 걸려"
+        },
+        {
+          "pattern": "발·다리·허리: 발이 넓다 · 발등에 불이 떨어지다 · 발 벗고 나서다 · 발목을 잡다 · 손발이 맞다 · 다리를 놓다 · 허리띠를 졸라매다",
+          "regex": "발 벗고 나서서"
+        },
+        {
+          "pattern": "손: 손이 크다 · 손이 빠르다 · 손을 떼다 · 손을 쓰다 · 손에 잡히지 않다 · 손에 땀을 쥐다",
+          "regex": "손에 잡히지"
+        },
+        {
+          "pattern": "버티기·관계: 이를 악물다 · 담을 쌓다 · 꼬리를 물다 · 한숨을 돌리다",
+          "regex": "이를 악물고"
+        },
+        {
+          "pattern": "가슴: 가슴을 쓸어내리다 · 가슴에 새기다 · 가슴이 뭉클하다 · 가슴이 철렁하다",
+          "regex": "가슴을 쓸어내리며"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "마음에 걸리다",
+          "seen": "마음에 걸려"
+        },
+        {
+          "word": "발 벗고 나서다",
+          "seen": "발 벗고 나서서"
+        },
+        {
+          "word": "손에 잡히지 않다",
+          "seen": "손에 잡히지"
+        },
+        {
+          "word": "이를 악물다",
+          "seen": "이를 악물고"
+        },
+        {
+          "word": "가슴을 쓸어내리다",
+          "seen": "가슴을 쓸어내리며"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Mưa lũ gây ra điều gì?",
+          "options": [
+            "Đường sập, nhà ngập",
+            "Mất điện cả nước",
+            "Cháy rừng"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 1: «도로가 무너지고 집들이 물에 잠겼다»."
+        },
+        {
+          "q_vi": "Ai tham gia khắc phục?",
+          "options": [
+            "Chỉ chính quyền",
+            "Hàng xóm và cả người bận rộn",
+            "Không ai"
+          ],
+          "answer": 1,
+          "explain_vi": "Câu 3–4: «이웃들이 발 벗고 나서서», «일에 쫓기는 사람들도»."
+        },
+        {
+          "q_vi": "Cuối cùng người dân làm gì?",
+          "options": [
+            "Thở phào, cảm ơn nhau",
+            "Than phiền",
+            "Rời làng"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu cuối: «가슴을 쓸어내리며 … 고마움을 전했다»."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1620 @@
+{
+  "slug": "quan-he-04-tim-duong",
+  "title": "Tìm đường & Vị trí",
+  "title_ko": "길 찾기 & 위치",
+  "topic": "Quan hệ xã hội, Sự kiện & Không gian sống",
+  "track": "intermediate",
+  "level": 3,
+  "sort_order": 31,
+  "summary": "Từ vựng vị trí, hướng đi, biển chỉ dẫn và đi bộ, cùng đề tài người đi bộ và đô thị không rào cản. Ngữ pháp: -다가, rồi -(으)면 되다, rồi -(으)ㄴ 다음에; kèm hội thoại hỏi đường và mẫu hướng dẫn \"오시는 길\" (Viết 51). Bài có bước Tạo câu: xếp từ, điền khung, nối câu rồi viết một đoạn chỉ đường từ trường về nhà.",
+  "vocab": [
+    {
+      "hangul": "근처",
+      "pos": "N",
+      "meaning_vi": "Gần đây",
+      "example_ko": "이 근처에 약국이 있어요?",
+      "example_vi": "Gần đây có hiệu thuốc không ạ?",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core",
+      "hanja": "近處",
+      "sino_vietnamese": "cận xứ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "맞은편",
+      "pos": "N",
+      "meaning_vi": "Đối diện",
+      "note_vi": "맞은편 = đối mặt trực tiếp; 건너편 = phía bên kia (của đường)",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core",
+      "hanja": "便",
+      "sino_vietnamese": "tiện",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "건너편",
+      "pos": "N",
+      "meaning_vi": "Bên kia đường",
+      "note_vi": "맞은편 = đối mặt trực tiếp; 건너편 = phía bên kia (của đường)",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core",
+      "hanja": "便",
+      "sino_vietnamese": "tiện",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "똑바로",
+      "pos": "X",
+      "meaning_vi": "Thẳng",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core"
+    },
+    {
+      "hangul": "쭉",
+      "pos": "X",
+      "meaning_vi": "Thẳng một mạch",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core"
+    },
+    {
+      "hangul": "직진하다",
+      "pos": "V",
+      "meaning_vi": "Đi thẳng",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core",
+      "hanja": "直進",
+      "sino_vietnamese": "trực tiến",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "돌다",
+      "pos": "V",
+      "meaning_vi": "Rẽ, quay",
+      "note_vi": "오른쪽으로 **도세요** (ㄹ lược)",
+      "example_ko": "사거리에서 오른쪽으로 도세요.",
+      "example_vi": "Đến ngã tư thì rẽ phải.",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core"
+    },
+    {
+      "hangul": "건너다",
+      "pos": "V",
+      "meaning_vi": "Băng qua",
+      "note_vi": "**횡단보도를 건너다** (dùng `을/를`)",
+      "example_ko": "횡단보도를 건너면 약국이 있어요.",
+      "example_vi": "Băng qua vạch sang đường là có hiệu thuốc.",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core"
+    },
+    {
+      "hangul": "지나다",
+      "pos": "V",
+      "meaning_vi": "Đi qua",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core"
+    },
+    {
+      "hangul": "지나가다",
+      "pos": "V",
+      "meaning_vi": "Đi qua",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core"
+    },
+    {
+      "hangul": "사거리",
+      "pos": "N",
+      "meaning_vi": "Ngã tư",
+      "example_ko": "저기 사거리가 보이지요?",
+      "example_vi": "Bạn thấy ngã tư đằng kia chứ?",
+      "family": "🟢 Nền · Từ vựng",
+      "exam": "kiip-2",
+      "priority": "core",
+      "hanja": "四",
+      "sino_vietnamese": "tứ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "삼거리",
+      "pos": "N",
+      "meaning_vi": "Ngã ba",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "recognize",
+      "hanja": "三",
+      "sino_vietnamese": "tam",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "횡단보도",
+      "pos": "N",
+      "meaning_vi": "Vạch sang đường",
+      "example_ko": "횡단보도를 건너면 약국이 있어요.",
+      "example_vi": "Băng qua vạch sang đường là có hiệu thuốc.",
+      "family": "🟢 Nền · Từ vựng",
+      "exam": "kiip-2",
+      "priority": "core",
+      "hanja": "橫斷步道",
+      "sino_vietnamese": "hoành đoạn bộ đạo",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "신호등",
+      "pos": "N",
+      "meaning_vi": "Đèn giao thông",
+      "family": "🟢 Nền · Từ vựng",
+      "exam": "kiip-2",
+      "priority": "core",
+      "hanja": "信號燈",
+      "sino_vietnamese": "tín hiệu đăng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "모퉁이",
+      "pos": "N",
+      "meaning_vi": "Góc phố",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "골목",
+      "pos": "N",
+      "meaning_vi": "Hẻm",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "육교",
+      "pos": "N",
+      "meaning_vi": "Cầu vượt",
+      "family": "🟢 Nền · Từ vựng",
+      "exam": "kiip-2",
+      "priority": "core",
+      "hanja": "陸橋",
+      "sino_vietnamese": "lục kiều",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "지하도",
+      "pos": "N",
+      "meaning_vi": "Hầm chui",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "recognize",
+      "hanja": "地下道",
+      "sino_vietnamese": "địa hạ đạo",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "출구",
+      "pos": "N",
+      "meaning_vi": "Lối ra",
+      "note_vi": "지하철역 3번 출구",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core",
+      "hanja": "出口",
+      "sino_vietnamese": "xuất khẩu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "입구",
+      "pos": "N",
+      "meaning_vi": "Lối vào",
+      "note_vi": "지하철역 3번 출구",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core",
+      "hanja": "入口",
+      "sino_vietnamese": "nhập khẩu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "정류장",
+      "pos": "N",
+      "meaning_vi": "Trạm xe",
+      "family": "🟢 Nền · Từ vựng",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "停留場",
+      "sino_vietnamese": "đình lưu trường",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "역",
+      "pos": "N",
+      "meaning_vi": "Ga",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core",
+      "hanja": "驛",
+      "sino_vietnamese": "dịch",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "길을 묻다",
+      "pos": "V",
+      "meaning_vi": "Hỏi đường",
+      "note_vi": "묻다 (hỏi) là **ㄷ bất quy tắc**: 물어요",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core"
+    },
+    {
+      "hangul": "길을 알려 주다",
+      "pos": "V",
+      "meaning_vi": "Chỉ đường",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core"
+    },
+    {
+      "hangul": "길을 잃다",
+      "pos": "V",
+      "meaning_vi": "Lạc đường",
+      "family": "🟢 Nền · Từ vựng",
+      "priority": "core"
+    },
+    {
+      "hangul": "약국",
+      "pos": "N",
+      "meaning_vi": "Hiệu thuốc",
+      "example_ko": "이 근처에 약국이 있어요?",
+      "example_vi": "Gần đây có hiệu thuốc không ạ?",
+      "family": "🟢 Nền · Từ vựng",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "藥局",
+      "sino_vietnamese": "dược cục",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "우체국",
+      "pos": "N",
+      "meaning_vi": "Bưu điện",
+      "family": "🟢 Nền · Từ vựng",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "郵遞局",
+      "sino_vietnamese": "bưu đệ cục",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "은행",
+      "pos": "N",
+      "meaning_vi": "Ngân hàng",
+      "family": "🟢 Nền · Từ vựng",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "銀行",
+      "sino_vietnamese": "ngân hàng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "편의점",
+      "pos": "N",
+      "meaning_vi": "Cửa hàng tiện lợi",
+      "family": "🟢 Nền · Từ vựng",
+      "exam": "kiip-2",
+      "priority": "core",
+      "hanja": "便宜店",
+      "sino_vietnamese": "tiện nghi điếm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "병원",
+      "pos": "N",
+      "meaning_vi": "Bệnh viện",
+      "family": "🟢 Nền · Từ vựng",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "病院",
+      "sino_vietnamese": "bệnh viện",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "표지판",
+      "pos": "N",
+      "meaning_vi": "Biển chỉ dẫn",
+      "family": "🟡 Dạng thi · Từ vựng",
+      "priority": "recognize",
+      "hanja": "標識板",
+      "sino_vietnamese": "tiêu chí bản",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이정표",
+      "pos": "N",
+      "meaning_vi": "Biển chỉ dẫn",
+      "family": "🟡 Dạng thi · Từ vựng",
+      "priority": "recognize",
+      "hanja": "里程標",
+      "sino_vietnamese": "lý trình tiêu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "안내판",
+      "pos": "N",
+      "meaning_vi": "Biển chỉ dẫn",
+      "family": "🟡 Dạng thi · Từ vựng",
+      "priority": "recognize",
+      "hanja": "案內板",
+      "sino_vietnamese": "án nội bản",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "인근",
+      "pos": "N",
+      "meaning_vi": "Lân cận",
+      "note_vi": "근처 trong văn viết",
+      "family": "🟡 Dạng thi · Từ vựng",
+      "priority": "recognize",
+      "hanja": "鄰近",
+      "sino_vietnamese": "lân cận",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "공사 중",
+      "pos": "X",
+      "meaning_vi": "Đang thi công",
+      "family": "🟡 Dạng thi · Từ vựng",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "우회하다",
+      "pos": "V",
+      "meaning_vi": "Đi vòng",
+      "family": "🟡 Dạng thi · Từ vựng",
+      "priority": "recognize",
+      "hanja": "迂廻迂回",
+      "sino_vietnamese": "vu hồi vu hồi",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "도보",
+      "pos": "N",
+      "meaning_vi": "Đi bộ",
+      "note_vi": "도보로 5분 소요",
+      "family": "🟡 Dạng thi · Từ vựng",
+      "exam": "kiip-3",
+      "priority": "recognize",
+      "hanja": "徒步",
+      "sino_vietnamese": "đồ bộ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "소요 시간",
+      "pos": "N",
+      "meaning_vi": "Thời gian cần",
+      "note_vi": "도보로 5분 소요",
+      "family": "🟡 Dạng thi · Từ vựng",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "환승",
+      "pos": "N",
+      "meaning_vi": "Chuyển tuyến",
+      "family": "🟡 Dạng thi · Từ vựng",
+      "exam": "kiip-2",
+      "priority": "core",
+      "hanja": "換乘",
+      "sino_vietnamese": "hoán thừa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "방면",
+      "pos": "N",
+      "meaning_vi": "Hướng đi",
+      "family": "🟡 Dạng thi · Từ vựng",
+      "priority": "recognize",
+      "hanja": "方面",
+      "sino_vietnamese": "phương diện",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "승강장",
+      "pos": "N",
+      "meaning_vi": "Sân ga",
+      "family": "🟡 Dạng thi · Từ vựng",
+      "priority": "recognize",
+      "hanja": "乘降場",
+      "sino_vietnamese": "thừa giáng trường",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "행사장",
+      "pos": "N",
+      "meaning_vi": "Địa điểm sự kiện",
+      "family": "🟡 Dạng thi · Từ vựng",
+      "priority": "recognize",
+      "hanja": "行事場",
+      "sino_vietnamese": "hành sự trường",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "오시는 길",
+      "pos": "N",
+      "meaning_vi": "Cách đến",
+      "family": "🟡 Dạng thi · Từ vựng",
+      "exam": "kiip-2",
+      "priority": "core"
+    },
+    {
+      "hangul": "위치하다",
+      "pos": "V",
+      "meaning_vi": "Nằm ở",
+      "note_vi": "은행은 우체국 옆에 **위치해** 있다",
+      "example_ko": "은행은 우체국 옆에 위치해 있다",
+      "example_vi": "Ngân hàng nằm cạnh bưu điện",
+      "family": "🟡 Dạng thi · Từ vựng",
+      "priority": "recognize",
+      "hanja": "位置",
+      "sino_vietnamese": "vị trí",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "건물을 끼고 돌다",
+      "pos": "V",
+      "meaning_vi": "Rẽ men theo tòa nhà",
+      "family": "🟡 Dạng thi · Từ vựng",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "도착하다",
+      "pos": "V",
+      "meaning_vi": "Đến nơi",
+      "family": "🟡 Dạng thi · Từ vựng",
+      "priority": "core",
+      "hanja": "到着",
+      "sino_vietnamese": "đáo trước",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "보행자",
+      "pos": "N",
+      "meaning_vi": "Người đi bộ",
+      "family": "🔴 Nâng cao · Viết 54 (người đi bộ và đô thị không rào cản)",
+      "priority": "recognize",
+      "hanja": "步行者",
+      "sino_vietnamese": "bộ hành giả",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "보행 약자",
+      "pos": "N",
+      "meaning_vi": "Người đi bộ yếu thế",
+      "family": "🔴 Nâng cao · Viết 54 (người đi bộ và đô thị không rào cản)",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "보행권",
+      "pos": "N",
+      "meaning_vi": "Quyền đi bộ an toàn",
+      "family": "🔴 Nâng cao · Viết 54 (người đi bộ và đô thị không rào cản)",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "점자블록",
+      "pos": "N",
+      "meaning_vi": "Gạch dẫn đường cho người khiếm thị",
+      "family": "🔴 Nâng cao · Viết 54 (người đi bộ và đô thị không rào cản)",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "경사로",
+      "pos": "N",
+      "meaning_vi": "Đường dốc cho xe lăn",
+      "family": "🔴 Nâng cao · Viết 54 (người đi bộ và đô thị không rào cản)",
+      "priority": "recognize",
+      "hanja": "傾斜路",
+      "sino_vietnamese": "khuynh tà lộ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "무장애 (배리어프리)",
+      "pos": "N",
+      "meaning_vi": "Không rào cản",
+      "family": "🔴 Nâng cao · Viết 54 (người đi bộ và đô thị không rào cản)",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "교통 약자",
+      "pos": "N",
+      "meaning_vi": "Người khó khăn khi di chuyển",
+      "family": "🔴 Nâng cao · Viết 54 (người đi bộ và đô thị không rào cản)",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "접근성",
+      "pos": "N",
+      "meaning_vi": "Khả năng tiếp cận",
+      "family": "🔴 Nâng cao · Viết 54 (người đi bộ và đô thị không rào cản)",
+      "priority": "recognize",
+      "hanja": "接近性",
+      "sino_vietnamese": "tiếp cận tính",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "일시",
+      "pos": "N",
+      "meaning_vi": "Thời gian (ngày giờ diễn ra)",
+      "note_vi": "Dùng ở: bài Đọc câu 7 (thông báo cuộc thi nói tiếng Hàn). Trong thông báo/giấy mời, 일시 đi cùng 장소 (địa điểm).",
+      "example_ko": "■ 일시: 10월 25일 오후 2시",
+      "example_vi": "■ Thời gian: 2 giờ chiều ngày 25 tháng 10",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "recognize",
+      "hanja": "日時",
+      "sino_vietnamese": "nhật thời",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "대강당",
+      "pos": "N",
+      "meaning_vi": "Hội trường lớn",
+      "note_vi": "Dùng ở: bài Đọc câu 7 (thông báo). 대 (lớn) + 강당 (hội trường).",
+      "example_ko": "■ 장소: 한빛문화센터 3층 대강당",
+      "example_vi": "■ Địa điểm: hội trường lớn tầng 3 Trung tâm Văn hóa 한빛",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "recognize",
+      "hanja": "大講堂",
+      "sino_vietnamese": "đại giảng đường",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "주차(하다)",
+      "pos": "N",
+      "meaning_vi": "Đỗ xe",
+      "note_vi": "Dùng ở: bài Đọc câu 7 (thông báo). 주차(를) 하다 = đỗ xe; 주차장 = bãi đỗ xe; 주차 공간 = chỗ đỗ xe.",
+      "example_ko": "※ 주차 공간이 없으니 대중교통을 이용해 주시기 바랍니다.",
+      "example_vi": "※ Vì không có chỗ đỗ xe, xin quý vị vui lòng sử dụng phương tiện giao thông công cộng.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "core",
+      "hanja": "駐車",
+      "sino_vietnamese": "trú xa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "가장 가까운 역",
+      "pos": "X",
+      "meaning_vi": "Ga gần nhất",
+      "pron": "[가장 가까운 녁]",
+      "note_vi": "`가깝다` là ㅂ bất quy tắc: `가까운`, `가까워요` (✗ `가깝은`). Câu mở chỉ đường: `우리 집에서 가장 가까운 역은 N역이에요`.",
+      "example_ko": "우리 집에서 가장 가까운 역은 시청역이에요.",
+      "example_vi": "Ga gần nhà tôi nhất là ga Tòa thị chính.",
+      "family": "🟢 Nền · Chỉ đường đến nhà tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "출구로 나오다",
+      "pos": "X",
+      "meaning_vi": "Đi ra ở cửa (số …) của ga",
+      "note_vi": "Người Hàn chỉ đường luôn nói `3번 출구로 나오세요` (cửa là lối đi qua, dùng `로`).",
+      "example_ko": "3번 출구로 나오세요.",
+      "example_vi": "Bạn ra cửa số 3 nhé.",
+      "family": "🟢 Nền · Chỉ đường đến nhà tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "첫 번째",
+      "pos": "X",
+      "meaning_vi": "Thứ nhất",
+      "pron": "[첟 번째]",
+      "note_vi": "Số thuần Hàn + `번째`: `첫 번째`, `두 번째`, `세 번째` (✗ `일 번째`).",
+      "example_ko": "두 번째 골목으로 들어오세요.",
+      "example_vi": "Bạn rẽ vào hẻm thứ hai nhé.",
+      "family": "🟢 Nền · Chỉ đường đến nhà tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "보이다",
+      "pos": "V",
+      "meaning_vi": "Nhìn thấy được, hiện ra",
+      "note_vi": "Vật hiện ra là chủ ngữ: `편의점이 보여요` (✗ `편의점을 보여요`).",
+      "example_ko": "왼쪽에 은행이 보여요.",
+      "example_vi": "Bên trái bạn sẽ thấy ngân hàng.",
+      "family": "🟢 Nền · Chỉ đường đến nhà tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "들어오다",
+      "pos": "V",
+      "meaning_vi": "Đi vào (phía người nói)",
+      "note_vi": "Chỉ đường đến nơi bạn đang ở: `골목으로 들어오세요`; nơi khác: `들어가세요`.",
+      "example_ko": "약국 옆 골목으로 들어오세요.",
+      "example_vi": "Bạn đi vào hẻm cạnh hiệu thuốc nhé.",
+      "family": "🟢 Nền · Chỉ đường đến nhà tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "조금 더",
+      "pos": "X",
+      "meaning_vi": "Thêm một chút",
+      "example_ko": "조금 더 가면 우체국이 있어요.",
+      "example_vi": "Đi thêm một chút là có bưu điện.",
+      "family": "🟢 Nền · Chỉ đường đến nhà tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "하얀색",
+      "pos": "N",
+      "meaning_vi": "Màu trắng",
+      "note_vi": "`하얗다` → `하얀` (ㅎ bất quy tắc): `하얀색 건물`, `하얀 차`.",
+      "example_ko": "하얀색 건물이 보여요.",
+      "example_vi": "Bạn sẽ thấy một tòa nhà màu trắng.",
+      "family": "🟢 Nền · Chỉ đường đến nhà tôi",
+      "priority": "core",
+      "hanja": "色",
+      "sino_vietnamese": "sắc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "건물",
+      "pos": "N",
+      "meaning_vi": "Tòa nhà",
+      "example_ko": "그 건물 3층이 우리 집이에요.",
+      "example_vi": "Tầng 3 của tòa nhà đó là nhà tôi.",
+      "family": "🟢 Nền · Chỉ đường đến nhà tôi",
+      "priority": "core",
+      "hanja": "建物",
+      "sino_vietnamese": "kiến vật",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "미터",
+      "pos": "N",
+      "meaning_vi": "Mét",
+      "note_vi": "Viết liền với số: `50미터쯤` (khoảng 50 mét).",
+      "example_ko": "100미터쯤 직진하세요.",
+      "example_vi": "Bạn đi thẳng khoảng 100 mét.",
+      "family": "🟢 Nền · Chỉ đường đến nhà tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "마중(을) 나가다",
+      "pos": "X",
+      "meaning_vi": "Ra đón",
+      "note_vi": "Đi tiễn là `배웅하다`. `역으로 마중 나갈게요` = mình sẽ ra ga đón.",
+      "example_ko": "제가 역으로 마중 나갈게요.",
+      "example_vi": "Tôi sẽ ra ga đón bạn.",
+      "family": "🟢 Nền · Chỉ đường đến nhà tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "끝",
+      "pos": "N",
+      "meaning_vi": "Cuối, tận cùng",
+      "pron": "[끋]",
+      "example_ko": "골목 끝에 공원이 있어요.",
+      "example_vi": "Cuối hẻm có công viên.",
+      "family": "🟢 Nền · Chỉ đường đến nhà tôi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "빵집",
+      "pos": "N",
+      "meaning_vi": "Tiệm bánh mì",
+      "pron": "[빵찝]",
+      "family": "🟢 Nền · Chỉ đường đến nhà tôi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "가까워지다",
+      "pos": "V",
+      "meaning_vi": "Gần lại, trở nên gần",
+      "note_vi": "가깝다 + -아/어지다 (bất quy tắc ㅂ: 가까워요). Nghĩa bóng: thân hơn (친구와 가까워지다).",
+      "example_ko": "역이 가까워지니까 사람이 많아졌어요.",
+      "example_vi": "Càng gần ga thì càng đông người.",
+      "family": "🟢 Nền · Từ sơ cấp · Di chuyển",
+      "priority": "recognize",
+      "source": "krdict:59888",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "가까이",
+      "pos": "N",
+      "meaning_vi": "Chỗ gần, gần",
+      "note_vi": "Cũng dùng như trạng từ: 가까이 오세요 (lại gần đây).",
+      "example_ko": "집 가까이에 공원이 있어요.",
+      "example_vi": "Gần nhà có công viên.",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "core",
+      "source": "krdict:62493",
+      "collocations": [
+        {
+          "ko": "가까이에 있다",
+          "vi": "ở gần"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "가까이하다",
+      "pos": "V",
+      "meaning_vi": "Gần gũi, thân thiết với",
+      "note_vi": "N을/를 가까이하다 hoặc N과/와 가까이하다.",
+      "example_ko": "좋은 친구를 가까이하세요.",
+      "example_vi": "Hãy gần gũi với bạn tốt.",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "recognize",
+      "source": "krdict:28056",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "겉",
+      "pos": "N",
+      "meaning_vi": "Bề ngoài, mặt ngoài",
+      "note_vi": "Trái nghĩa: 속 (bên trong). 겉 chỉ mặt ngoài của đồ vật; khoảng không bên ngoài là 밖.",
+      "example_ko": "이 빵은 겉은 딱딱하고 속은 부드러워요.",
+      "example_vi": "Bánh này ngoài cứng trong mềm.",
+      "pron": "[걷]",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "recognize",
+      "source": "krdict:31329",
+      "collocations": [
+        {
+          "ko": "안과 겉",
+          "vi": "trong và ngoài"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "교회",
+      "pos": "N",
+      "meaning_vi": "Nhà thờ (Tin Lành)",
+      "note_vi": "Nhà thờ Công giáo là 성당; chùa là 절.",
+      "example_ko": "일요일마다 교회에 가요.",
+      "example_vi": "Chủ nhật nào tôi cũng đi nhà thờ.",
+      "family": "🟢 Nền · Từ sơ cấp · Nơi chốn trong thành phố",
+      "priority": "core",
+      "source": "krdict:64370",
+      "hanja": "敎會",
+      "enrich": "auto",
+      "sino_vietnamese": "giáo hội"
+    },
+    {
+      "hangul": "길옆",
+      "pos": "N",
+      "meaning_vi": "Bên đường, ven đường",
+      "example_ko": "차를 길옆에 세웠어요.",
+      "example_vi": "Tôi dừng xe bên đường.",
+      "pron": "[길렵]",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "recognize",
+      "source": "krdict:26366",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "남쪽",
+      "pos": "N",
+      "meaning_vi": "Phía nam",
+      "example_ko": "부산은 서울 남쪽에 있어요.",
+      "example_vi": "Busan nằm ở phía nam Seoul.",
+      "family": "🟢 Nền · Từ sơ cấp · Phương hướng",
+      "priority": "core",
+      "source": "krdict:63619",
+      "hanja": "南",
+      "collocations": [
+        {
+          "ko": "남쪽 지방",
+          "vi": "miền nam"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "nam"
+    },
+    {
+      "hangul": "내려가다",
+      "pos": "V",
+      "meaning_vi": "Đi xuống",
+      "note_vi": "Trái nghĩa: 올라가다. N(으)로 내려가다 / N에 내려가다.",
+      "example_ko": "엘리베이터를 타고 일 층으로 내려갔어요.",
+      "example_vi": "Tôi đi thang máy xuống tầng một.",
+      "family": "🟢 Nền · Từ sơ cấp · Di chuyển",
+      "priority": "core",
+      "source": "krdict:63723",
+      "collocations": [
+        {
+          "ko": "아래층으로 내려가다",
+          "vi": "xuống tầng dưới"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "대사관",
+      "pos": "N",
+      "meaning_vi": "Đại sứ quán",
+      "example_ko": "여권 때문에 대사관에 갔어요.",
+      "example_vi": "Tôi đến đại sứ quán vì việc hộ chiếu.",
+      "family": "🟢 Nền · Từ sơ cấp · Nơi chốn trong thành phố",
+      "priority": "core",
+      "source": "krdict:27805",
+      "hanja": "大使館",
+      "collocations": [
+        {
+          "ko": "대사관 직원",
+          "vi": "nhân viên đại sứ quán"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "đại sứ quán"
+    },
+    {
+      "hangul": "돌아가다",
+      "pos": "V",
+      "meaning_vi": "Quay (tròn); đi vòng; quay về",
+      "note_vi": "Hay gặp: 집으로 돌아가다 (quay về nhà), 길을 돌아가다 (đi đường vòng). Kính ngữ 돌아가시다 = qua đời.",
+      "example_ko": "선풍기가 돌아가고 있어요.",
+      "example_vi": "Quạt máy đang quay.",
+      "pron": "[도라가다]",
+      "family": "🟢 Nền · Từ sơ cấp · Di chuyển",
+      "priority": "core",
+      "source": "krdict:74103",
+      "collocations": [
+        {
+          "ko": "선풍기가 돌아가다",
+          "vi": "quạt quay"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "동",
+      "pos": "N",
+      "meaning_vi": "Phía đông, Đông",
+      "note_vi": "Thường dùng 동쪽. Bộ bốn: 동서남북. Đồng âm: 동 (phường, khu: 신림동).",
+      "example_ko": "해는 동에서 떠요.",
+      "example_vi": "Mặt trời mọc ở phía đông.",
+      "family": "🟢 Nền · Từ sơ cấp · Phương hướng",
+      "priority": "recognize",
+      "source": "krdict:65504",
+      "hanja": "東",
+      "enrich": "auto",
+      "sino_vietnamese": "đông"
+    },
+    {
+      "hangul": "동쪽",
+      "pos": "N",
+      "meaning_vi": "Phía đông",
+      "example_ko": "강릉은 서울 동쪽에 있어요.",
+      "example_vi": "Gangneung nằm ở phía đông Seoul.",
+      "family": "🟢 Nền · Từ sơ cấp · Phương hướng",
+      "priority": "core",
+      "source": "krdict:63642",
+      "hanja": "東",
+      "collocations": [
+        {
+          "ko": "동쪽 바다",
+          "vi": "biển phía đông"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "đông"
+    },
+    {
+      "hangul": "뒤쪽",
+      "pos": "N",
+      "meaning_vi": "Phía sau",
+      "example_ko": "건물 뒤쪽에 주차장이 있어요.",
+      "example_vi": "Phía sau tòa nhà có bãi đỗ xe.",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "core",
+      "source": "krdict:66947",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "마을",
+      "pos": "N",
+      "meaning_vi": "Làng, xóm",
+      "example_ko": "우리 마을은 아주 조용해요.",
+      "example_vi": "Làng tôi rất yên tĩnh.",
+      "family": "🟢 Nền · Từ sơ cấp · Nơi chốn trong thành phố",
+      "priority": "core",
+      "source": "krdict:61099",
+      "collocations": [
+        {
+          "ko": "시골 마을",
+          "vi": "làng quê"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "멀리",
+      "pos": "N",
+      "meaning_vi": "Nơi xa, xa",
+      "note_vi": "Hay dùng như trạng từ: 멀리 가다 (đi xa). Gốc từ 멀다 (xa).",
+      "example_ko": "저 멀리 산이 보여요.",
+      "example_vi": "Xa xa có thể thấy núi.",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "core",
+      "source": "krdict:93620",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "문밖",
+      "pos": "N",
+      "meaning_vi": "Ngoài cửa",
+      "example_ko": "문밖에서 친구가 기다려요.",
+      "example_vi": "Bạn tôi đang đợi ngoài cửa.",
+      "pron": "[문박]",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "recognize",
+      "source": "krdict:15705",
+      "hanja": "門",
+      "collocations": [
+        {
+          "ko": "문밖에서 기다리다",
+          "vi": "đợi ngoài cửa"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "môn"
+    },
+    {
+      "hangul": "바깥",
+      "pos": "N",
+      "meaning_vi": "Bên ngoài (ngoài trời)",
+      "note_vi": "Gần nghĩa với 밖.",
+      "example_ko": "바깥 날씨가 추워요.",
+      "example_vi": "Thời tiết bên ngoài lạnh.",
+      "pron": "[바깓]",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "core",
+      "source": "krdict:56330",
+      "collocations": [
+        {
+          "ko": "바깥 공기",
+          "vi": "không khí bên ngoài"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "바깥쪽",
+      "pos": "N",
+      "meaning_vi": "Phía ngoài",
+      "example_ko": "문 바깥쪽에 우산을 두세요.",
+      "example_vi": "Hãy để ô ở phía ngoài cửa.",
+      "pron": "[바깓쪽]",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "recognize",
+      "source": "krdict:56361",
+      "collocations": [
+        {
+          "ko": "문 바깥쪽",
+          "vi": "phía ngoài cửa"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "반대",
+      "pos": "N",
+      "meaning_vi": "Ngược lại, phía ngược",
+      "note_vi": "Còn có nghĩa 'phản đối' (반대하다). 반대쪽: phía bên kia.",
+      "example_ko": "반대 방향으로 가는 버스를 탔어요.",
+      "example_vi": "Tôi lên nhầm xe buýt đi ngược chiều.",
+      "family": "🟢 Nền · Từ sơ cấp · Phương hướng",
+      "priority": "core",
+      "source": "krdict:69484",
+      "hanja": "反對",
+      "collocations": [
+        {
+          "ko": "반대 방향",
+          "vi": "hướng ngược lại"
+        },
+        {
+          "ko": "반대로 가다",
+          "vi": "đi ngược lại"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "phản đối"
+    },
+    {
+      "hangul": "북쪽",
+      "pos": "N",
+      "meaning_vi": "Phía bắc",
+      "example_ko": "이 길로 북쪽으로 가세요.",
+      "example_vi": "Hãy đi đường này về phía bắc.",
+      "family": "🟢 Nền · Từ sơ cấp · Phương hướng",
+      "priority": "core",
+      "source": "krdict:59309",
+      "hanja": "北",
+      "collocations": [
+        {
+          "ko": "북쪽 지역",
+          "vi": "khu vực phía bắc"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "bắc"
+    },
+    {
+      "hangul": "빌딩",
+      "pos": "N",
+      "meaning_vi": "Tòa nhà cao tầng",
+      "example_ko": "회사는 저 높은 빌딩 십 층에 있어요.",
+      "example_vi": "Công ty ở tầng mười tòa nhà cao kia.",
+      "family": "🟢 Nền · Từ sơ cấp · Nơi chốn trong thành phố",
+      "priority": "core",
+      "source": "krdict:71069",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "서쪽",
+      "pos": "N",
+      "meaning_vi": "Phía tây",
+      "example_ko": "인천은 서울 서쪽에 있어요.",
+      "example_vi": "Incheon nằm ở phía tây Seoul.",
+      "family": "🟢 Nền · Từ sơ cấp · Phương hướng",
+      "priority": "core",
+      "source": "krdict:65559",
+      "hanja": "西",
+      "collocations": [
+        {
+          "ko": "서쪽 방향",
+          "vi": "hướng tây"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "tây"
+    },
+    {
+      "hangul": "센터",
+      "pos": "N",
+      "meaning_vi": "Trung tâm (cơ sở); giữa sân (thể thao)",
+      "note_vi": "Hay gặp trong tên cơ sở: 주민센터, 고객센터, 문화 센터. Trong thể thao: vị trí giữa sân.",
+      "example_ko": "주민 센터에서 서류를 받았어요.",
+      "example_vi": "Tôi nhận giấy tờ ở trung tâm hành chính phường.",
+      "family": "🟢 Nền · Từ sơ cấp · Nơi chốn trong thành phố",
+      "priority": "core",
+      "source": "krdict:74826",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "속",
+      "pos": "N",
+      "meaning_vi": "Bên trong, ruột",
+      "note_vi": "Gần nghĩa với 안. 속이 안 좋다: khó chịu trong bụng. Trái nghĩa: 겉.",
+      "example_ko": "가방 속에 지갑이 있어요.",
+      "example_vi": "Trong cặp có ví.",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "core",
+      "source": "krdict:71278",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "시내",
+      "pos": "N",
+      "meaning_vi": "Trung tâm thành phố, nội thành",
+      "example_ko": "주말에 시내에서 친구를 만나요.",
+      "example_vi": "Cuối tuần tôi gặp bạn ở trung tâm thành phố.",
+      "family": "🟢 Nền · Từ sơ cấp · Nơi chốn trong thành phố",
+      "priority": "core",
+      "source": "krdict:65118",
+      "hanja": "市內",
+      "collocations": [
+        {
+          "ko": "서울 시내",
+          "vi": "nội thành Seoul"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "thị nội"
+    },
+    {
+      "hangul": "시청",
+      "pos": "N",
+      "meaning_vi": "Tòa thị chính",
+      "note_vi": "Ở Seoul, 시청역 là ga tàu điện quen thuộc.",
+      "example_ko": "시청 앞에서 버스를 내리세요.",
+      "example_vi": "Hãy xuống xe buýt trước tòa thị chính.",
+      "family": "🟢 Nền · Từ sơ cấp · Nơi chốn trong thành phố",
+      "priority": "core",
+      "source": "krdict:65312",
+      "hanja": "市廳",
+      "enrich": "auto",
+      "sino_vietnamese": "thị sảnh"
+    },
+    {
+      "hangul": "아래위",
+      "pos": "N",
+      "meaning_vi": "Trên và dưới",
+      "note_vi": "Cũng nói 위아래.",
+      "example_ko": "배가 아래위로 흔들렸어요.",
+      "example_vi": "Con thuyền tròng trành lên xuống.",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "recognize",
+      "source": "krdict:23084",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "아래쪽",
+      "pos": "N",
+      "meaning_vi": "Phía dưới",
+      "example_ko": "그림 아래쪽에 이름을 쓰세요.",
+      "example_vi": "Hãy viết tên ở phía dưới bức tranh.",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "core",
+      "source": "krdict:71289",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "안쪽",
+      "pos": "N",
+      "meaning_vi": "Phía trong",
+      "example_ko": "골목 안쪽에 식당이 있어요.",
+      "example_vi": "Phía trong hẻm có quán ăn.",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "core",
+      "source": "krdict:73063",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "앞쪽",
+      "pos": "N",
+      "meaning_vi": "Phía trước",
+      "example_ko": "학교 앞쪽에 큰 운동장이 있어요.",
+      "example_vi": "Phía trước trường có sân rộng.",
+      "pron": "[압쪽]",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "core",
+      "source": "krdict:71505",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "여기저기",
+      "pos": "N",
+      "meaning_vi": "Chỗ này chỗ kia, khắp nơi",
+      "example_ko": "여기저기 찾았지만 열쇠가 없어요.",
+      "example_vi": "Tôi tìm khắp nơi mà không thấy chìa khóa.",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "core",
+      "source": "krdict:70994",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "옆쪽",
+      "pos": "N",
+      "meaning_vi": "Phía bên cạnh",
+      "example_ko": "은행 옆쪽에 약국이 있어요.",
+      "example_vi": "Bên cạnh ngân hàng có hiệu thuốc.",
+      "pron": "[엽쪽]",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "recognize",
+      "source": "krdict:22099",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "위쪽",
+      "pos": "N",
+      "meaning_vi": "Phía trên",
+      "example_ko": "위쪽으로 조금 더 올라가세요.",
+      "example_vi": "Hãy đi lên phía trên thêm chút nữa.",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "core",
+      "source": "krdict:69671",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "위치",
+      "pos": "N",
+      "meaning_vi": "Vị trí",
+      "note_vi": "Động từ: 위치하다 (nằm ở).",
+      "example_ko": "식당 위치를 문자로 보내 주세요.",
+      "example_vi": "Hãy nhắn tin cho tôi vị trí nhà hàng.",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "core",
+      "source": "krdict:69947",
+      "hanja": "位置",
+      "collocations": [
+        {
+          "ko": "건물 위치",
+          "vi": "vị trí tòa nhà"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "vị trí"
+    },
+    {
+      "hangul": "이쪽",
+      "pos": "N",
+      "meaning_vi": "Phía này, bên này",
+      "note_vi": "Bộ ba: 이쪽 (phía này), 그쪽 (phía đó), 저쪽 (phía kia). 이쪽으로 오세요: mời đi lối này.",
+      "example_ko": "화장실은 이쪽에 있어요.",
+      "example_vi": "Nhà vệ sinh ở phía này.",
+      "family": "🟢 Nền · Từ sơ cấp · Phương hướng",
+      "priority": "core",
+      "source": "krdict:71694",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "자리",
+      "pos": "N",
+      "meaning_vi": "Chỗ, chỗ ngồi",
+      "example_ko": "여기 자리 있어요?",
+      "example_vi": "Chỗ này có ai ngồi chưa?",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "core",
+      "source": "krdict:60332",
+      "collocations": [
+        {
+          "ko": "자리가 없다",
+          "vi": "hết chỗ"
+        },
+        {
+          "ko": "자리가 있다",
+          "vi": "còn chỗ / có người ngồi"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "자리하다",
+      "pos": "V",
+      "meaning_vi": "Nằm ở, tọa lạc ở",
+      "note_vi": "Gần nghĩa với 위치하다; hay dùng trong văn viết.",
+      "example_ko": "회사는 시내 중심에 자리하고 있어요.",
+      "example_vi": "Công ty nằm ở trung tâm thành phố.",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "recognize",
+      "source": "krdict:73515",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "주변",
+      "pos": "N",
+      "meaning_vi": "Xung quanh, khu vực gần",
+      "note_vi": "N 주변: khu vực gần N. Cũng nói 주변 사람 (người xung quanh).",
+      "example_ko": "역 주변에 식당이 많아요.",
+      "example_vi": "Quanh ga có nhiều quán ăn.",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "core",
+      "source": "krdict:61415",
+      "hanja": "周邊",
+      "collocations": [
+        {
+          "ko": "역 주변",
+          "vi": "quanh ga"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "chu biên"
+    },
+    {
+      "hangul": "주위",
+      "pos": "N",
+      "meaning_vi": "Xung quanh",
+      "note_vi": "Gần nghĩa với 주변.",
+      "example_ko": "공원 주위를 한 바퀴 걸었어요.",
+      "example_vi": "Tôi đi bộ một vòng quanh công viên.",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "core",
+      "source": "krdict:66583",
+      "hanja": "周圍",
+      "enrich": "auto",
+      "sino_vietnamese": "chu vi"
+    },
+    {
+      "hangul": "중간",
+      "pos": "N",
+      "meaning_vi": "Giữa (hai vật), khoảng giữa",
+      "note_vi": "Còn nghĩa 'giữa chừng': 중간에 (giữa chừng), 중간시험 (thi giữa kỳ).",
+      "example_ko": "학교와 집 중간에 편의점이 있어요.",
+      "example_vi": "Giữa trường và nhà có cửa hàng tiện lợi.",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "core",
+      "source": "krdict:82141",
+      "hanja": "中間",
+      "collocations": [
+        {
+          "ko": "학교와 집의 중간",
+          "vi": "giữa trường và nhà"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "trung gian"
+    },
+    {
+      "hangul": "중앙",
+      "pos": "N",
+      "meaning_vi": "Trung tâm, chính giữa",
+      "example_ko": "광장 중앙에 큰 나무가 있어요.",
+      "example_vi": "Giữa quảng trường có một cây lớn.",
+      "family": "🟢 Nền · Từ sơ cấp · Vị trí",
+      "priority": "recognize",
+      "source": "krdict:26149",
+      "hanja": "中央",
+      "collocations": [
+        {
+          "ko": "무대 중앙",
+          "vi": "giữa sân khấu"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "trung ương"
+    },
+    {
+      "hangul": "쪽",
+      "pos": "N",
+      "meaning_vi": "Phía, hướng",
+      "note_vi": "Hay ghép: 오른쪽, 왼쪽, 학교 쪽. Đồng âm: 쪽 (trang sách: 10쪽).",
+      "example_ko": "역은 저쪽에 있어요. 오른쪽으로 가세요.",
+      "example_vi": "Ga ở phía kia. Hãy đi về bên phải.",
+      "family": "🟢 Nền · Từ sơ cấp · Phương hướng",
+      "priority": "core",
+      "source": "krdict:58147",
+      "collocations": [
+        {
+          "ko": "학교 쪽",
+          "vi": "phía trường"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "출입하다",
+      "pos": "V",
+      "meaning_vi": "Ra vào",
+      "note_vi": "출입 금지: cấm vào. 출입구: lối ra vào.",
+      "example_ko": "이 문으로 출입하세요.",
+      "example_vi": "Hãy ra vào bằng cửa này.",
+      "pron": "[추리파다]",
+      "family": "🟢 Nền · Từ sơ cấp · Di chuyển",
+      "priority": "recognize",
+      "source": "krdict:79856",
+      "hanja": "出入",
+      "enrich": "auto",
+      "sino_vietnamese": "xuất nhập"
+    },
+    {
+      "hangul": "타워",
+      "pos": "N",
+      "meaning_vi": "Tháp",
+      "example_ko": "남산 타워에 올라갔어요.",
+      "example_vi": "Tôi đã lên tháp Namsan.",
+      "family": "🟢 Nền · Từ sơ cấp · Nơi chốn trong thành phố",
+      "priority": "recognize",
+      "source": "krdict:79710",
+      "enrich": "auto"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V + -다가",
+      "meaning_vi": "Đang làm V1 thì chuyển sang/xen V2",
+      "usage_context_vi": "**Cấu tạo:** gốc + `-다가`, không đổi theo patchim: 가다 → `가다가`, 걷다 → `걷다가`, 먹다 → `먹다가`. Thì chỉ chia ở vế sau. Hai vế thường **cùng chủ ngữ**. Dạng `-았/었다가`: làm xong việc trước rồi việc sau diễn ra ngược lại hoặc quay về (`학교에 갔다가 집에 왔어요`).\n**Hoàn cảnh dùng:** (1) đang làm việc A thì **dừng lại, chuyển sang** việc B hoặc có việc B xen vào: `길을 걷다가 친구를 만났어요`, `쭉 가다가 사거리에서 오른쪽으로 도세요`; (2) với `-았/었다가`: đi tới nơi rồi quay lại, mua rồi đổi ý…\n**Vì sao chọn nó thay vì `-(으)면서` và `-아/어서`:** `-(으)면서` là hai việc song song (`걸으면서 전화해요`). `-아/어서` là tuần tự liền mạch (`가서 샀어요`). `-다가` là bỏ dở việc trước để chuyển sang việc khác, nên rất hợp khi chỉ đường.",
+      "contrasts": [
+        {
+          "pattern": "V + -(으)면서",
+          "diff_vi": "Hai việc xảy ra song song, không bỏ dở việc nào."
+        },
+        {
+          "pattern": "V/A + -아/어서",
+          "diff_vi": "Hai việc liền mạch, việc trước là cơ sở của việc sau; không có ý bỏ dở."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Nhầm `-다가` với `-(으)면서`: muốn nói 'đang đi thì gặp bạn' mà viết ✗ `걸으면서 친구를 만났어요` → `걷다가 만났어요`.\n(2) Hai chủ ngữ khác nhau trong cùng một câu: ✗ `제가 길을 걷다가 친구가 왔어요` → `친구를 만났어요`.\n(3) Thêm `-았/었-` làm đổi nghĩa: `걸었다가 만났어요` là đã đi xong rồi mới gặp, khác với 'đang đi thì gặp'.\n(4) Gắn nhầm với `-(으)니까`: `가니까` là lý do/khám phá, không phải 'đang đi thì'.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Tìm đường & Vị trí'.",
+      "example_ko": "쭉 가다가 사거리에서 오른쪽으로 도세요.\n길을 걷다가 친구를 만났어요.\n학교에 갔다가 집에 왔어요.",
+      "example_vi": "Cứ đi thẳng, đến ngã tư thì rẽ phải.\nĐang đi trên đường thì tôi gặp bạn.\nTôi đã đến trường rồi quay về nhà.",
+      "source": "G4-1",
+      "exam": "kiip-3",
+      "topik_tip_vi": "Bài nghe chỉ đường thường dùng `쭉 가다가 …`: sau `-다가` là nơi phải đổi hướng; hãy ghi lại các cột mốc (사거리, 횡단보도) theo thứ tự.",
+      "importance": "must"
+    },
+    {
+      "pattern": "V + -(으)면 되다 · -(으)시면 되다",
+      "meaning_vi": "Chỉ cần làm V là được",
+      "usage_context_vi": "**Cấu tạo:** gốc không patchim hoặc `ㄹ` + `-면 되다`, có patchim + `-으면 되다`: 타다 → `타면 되다`, 나오다 → `나오면 되다`, 걷다 → `걸으면 되다` (ㄷ → ㄹ). Với khách, người trên: `-(으)시면 되다` (`나오시면 됩니다`). Phủ định: `-지 않아도 되다` (không cần làm).\n**Hoàn cảnh dùng:** chỉ ra việc **tối thiểu cần làm là đủ**: `3번 출구로 나오시면 됩니다`, `여기에서 버스를 타면 돼요`, `이 길로 쭉 걸으면 돼요`. Dùng nhiều khi chỉ đường và hướng dẫn thủ tục.\n**Vì sao chọn nó thay vì `-(으)세요`:** `-(으)세요` ra lệnh, bảo làm; `-(으)면 되다` nói 'chỉ cần … là được', nghe nhẹ nhàng và cho thấy việc đơn giản.",
+      "contrasts": [
+        {
+          "pattern": "V + -(으)세요",
+          "diff_vi": "Lời bảo trực tiếp: `나오세요` (hãy ra)."
+        },
+        {
+          "pattern": "V + -아/어도 되다",
+          "diff_vi": "Được phép: `타도 돼요` (lên cũng được); khác `타면 돼요` (chỉ cần lên là được)."
+        }
+      ],
+      "example_ko": "3번 출구로 나오시면 됩니다.\n여기에서 버스를 타면 돼요.\n이 길로 쭉 걸으면 돼요.",
+      "example_vi": "Anh chỉ cần ra cửa số 3 là được.\nChỉ cần lên xe buýt ở đây là được.\nChỉ cần đi thẳng con đường này là được.",
+      "source": "G4-2",
+      "exam": "kiip-3",
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Nhầm `-(으)면 되다` (chỉ cần) với `-아/어도 되다` (được phép): `타면 돼요` ≠ `타도 돼요`.\n(2) Viết `되요` thay vì `돼요`.\n(3) Chia sai `ㄷ`: ✗ `걷면 되다` → `걸으면 되다`.\n(4) Dùng `-(으)시면` cho chính mình: ✗ `제가 가시면 돼요` → `제가 가면 돼요`.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Tìm đường & Vị trí'.",
+      "topik_tip_vi": "Khi nghe chỉ đường, hãy nghe kỹ động từ đứng trước `-(으)면 되다` (나오다, 타다, 건너다) để biết hành động cần làm.",
+      "builds_on": [
+        "V/A + -(으)면"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V + -(으)ㄴ 다음에 / -(으)ㄴ 후에",
+      "meaning_vi": "Sau khi",
+      "usage_context_vi": "**Cấu tạo:** gốc có patchim + `-은 다음에/후에`, không patchim hoặc `ㄹ` + `-ㄴ 다음에/후에`: 건너다 → `건넌 다음에`, 먹다 → `먹은 후에`, 만들다 → `만든 후에`, 듣다 → `들은 후에`. Danh từ + `후에`: `식사 후에`. Thì chia ở vế sau.\n**Hoàn cảnh dùng:** kể hai bước **tách rời**: xong bước một rồi mới đến bước hai. `횡단보도를 건넌 다음에 왼쪽으로 가세요`, `식사한 후에 약을 드세요`. Khi chỉ đường dùng để xếp thứ tự các cột mốc.\n**Vì sao chọn nó thay vì `-아/어서` và `-고`:** `-아/어서` nối hai việc liền mạch, cùng chủ ngữ và không thêm `-았/었-`; `-고` chỉ nối. `-(으)ㄴ 다음에/후에` nhấn bước trước đã xong hẳn, và dùng được cả khi hai vế khác chủ ngữ.",
+      "contrasts": [
+        {
+          "pattern": "V + -기 전에",
+          "diff_vi": "Ngược lại: làm việc sau **trước** việc kia."
+        },
+        {
+          "pattern": "V/A + -아/어서",
+          "diff_vi": "Liền mạch, cùng chủ ngữ; không nhấn bước trước đã kết thúc."
+        }
+      ],
+      "example_ko": "횡단보도를 건넌 다음에 왼쪽으로 가세요.\n식사한 후에 약을 드세요.\n지하철에서 내린 다음에 5분쯤 걸으면 돼요.",
+      "example_vi": "Sau khi qua đường dành cho người đi bộ, hãy đi sang trái.\nHãy uống thuốc sau khi ăn.\nSau khi xuống tàu điện ngầm, đi bộ khoảng 5 phút là tới.",
+      "source": "G4-3",
+      "exam": "kiip-2",
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Thêm thì vào vế trước: ✗ `건넜은 다음에` → `건넌 다음에`.\n(2) Quên `-(으)ㄴ`: ✗ `건너 다음에`.\n(3) Chia sai gốc `ㄹ`: ✗ `만들은 후에` → `만든 후에`.\n(4) Viết dính: ✗ `건넌다음에` → `건넌 다음에`.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Tìm đường & Vị trí'.",
+      "topik_tip_vi": "Thứ tự các bước trong bài đọc và nghe thường được đánh dấu bằng `-(으)ㄴ 다음에/후에`; hãy đánh số từng bước trước khi chọn đáp án.",
+      "builds_on": [
+        "V + -(으)ㄴ + N (quá khứ)",
+        "V + -고 나서 · V + -(으)ㄴ 후에"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "N + (이)요? (hỏi lại để xác nhận)",
+      "meaning_vi": "… ạ? … à? (nhắc lại điều người kia vừa nói để xác nhận) · …ạ (trả lời cụt, lịch sự)",
+      "usage_context_vi": "**Cấu tạo:** Danh từ hoặc cụm từ + `(이)요`: có patchim + `이요`, không patchim + `요`: 약국이요, 은행이요, 내일이요, 학교요, 여기요. Có thể gắn sau cụm đã có tiểu từ: `오른쪽으로요?`, `지금요?`, `거기서요?`. Ngữ điệu LÊN khi hỏi lại, XUỐNG nhẹ khi trả lời.\n**Hoàn cảnh dùng:** (1) Hỏi đường: nhắc lại điểm đến cho chắc rồi mới nghe chỉ đường: `A: 우체국에 가고 싶어요. B: 우체국이요?`. (2) Trả lời cụt khi được hỏi: `A: 어디에 가요? B: 약국이요.` (3) Gọi món, hỏi thời gian: `커피요`, `내일이요`. Không dùng khi nói thân mật (반말).\n**Vì sao chọn nó thay vì lặp cả câu:** Lặp lại cả câu (`우체국에 가고 싶으세요?`) dài và nghe như tra hỏi. Chỉ cần nhắc từ khoá + `(이)요` là vừa lịch sự, vừa nhanh, vừa cho người kia biết bạn đang nghe và muốn chắc ý.",
+      "contrasts": [
+        {
+          "pattern": "N + 이에요/예요 (?)",
+          "diff_vi": "Câu hoàn chỉnh 'là N'; `(이)요` chỉ là cụm nhắc lại, không có nghĩa 'là'."
+        },
+        {
+          "pattern": "V/A + -지요? (-죠?)",
+          "diff_vi": "Hỏi xác nhận bằng cả vị ngữ (bài Điện thoại & hẹn gặp)."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Chọn sai biến thể theo patchim: ✗ `우체국요?`, `학교이요?` → `우체국이요?`, `학교요?`.\n(2) Dùng `(이)요` làm câu kết thúc đầy đủ: ✗ `저는 학생이요.` → `저는 학생이에요.` (`(이)요` chỉ dùng khi nhắc lại hoặc trả lời cụt).\n(3) Gắn `요` sau đuôi trang trọng: ✗ `감사합니다요`, `안녕하십니까요` → `감사합니다`, `안녕하십니까`.\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc đối chiếu với Tóm tắt ngữ pháp New Yonsei 1-2 (người dùng cung cấp) · 표준국어대사전 (요).",
+      "topik_tip_vi": "Hội thoại hỏi đường: người nghe lặp lại tên địa điểm kèm `(이)요?`, người chỉ đường đáp `네, 맞아요` rồi mới chỉ. Đừng nhầm đó là câu hỏi mới.",
+      "example_ko": "A: 우체국에 가고 싶어요. B: 우체국이요?\nA: 어디에 가요? B: 약국이요.\nA: 뭐 드실래요? B: 커피요.\nA: 학교에 가세요. B: 학교요?\nA: 오른쪽으로 가세요. B: 오른쪽으로요?\nA: 언제 만나요? B: 내일이요.",
+      "example_vi": "A: Tôi muốn đến bưu điện. B: Bưu điện ạ?\nA: Bạn đi đâu? B: Hiệu thuốc ạ.\nA: Anh dùng gì ạ? B: Cà phê ạ.\nA: Bạn hãy đến trường. B: Trường học ạ?\nA: Hãy rẽ phải. B: Rẽ phải ạ?\nA: Khi nào mình gặp? B: Ngày mai ạ.",
+      "source": "Tóm tắt ngữ pháp New Yonsei 1-2 (người dùng cung cấp) · 표준국어대사전 (요)",
+      "builds_on": [
+        "N + 이에요/예요 · N + 이/가 아니에요"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V + -아/어다(가) (làm rồi mang sang chỗ khác)",
+      "meaning_vi": "Làm A ở một chỗ rồi mang (kết quả, đồ vật) sang chỗ khác để làm B",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** gốc động từ + `-아/어다(가)`: `사다 → 사다가`, `빌리다 → 빌려다가`, `가져오다 → 가져다가`. `가` có thể lược: `사다 주세요`.\n**Hoàn cảnh dùng:** Hành động thứ nhất tạo ra hoặc lấy được **một đồ vật**, rồi đồ vật đó được **đem sang nơi khác**: `시장에서 과일을 사다가 할머니께 드렸어요` (mua ở chợ, mang về biếu bà). Hay gặp với `사다`, `빌리다`, `가져오다`, `떠다` + `주다/드리다/먹다/놓다`.\n**Vì sao chọn nó:** `-아/어서` chỉ nối hai việc nối tiếp; `-아/어다가` nói rõ **đồ vật đã di chuyển** từ chỗ này sang chỗ khác. `빵을 사서 먹었어요` (có thể ăn ngay tại tiệm) ≠ `빵을 사다가 먹었어요` (mua mang về rồi ăn).\n**Trong bài này:** mẫu bổ sung cho chủ đề «Tìm đường & Vị trí»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V/A + -아/어서",
+          "diff_vi": "Nối hai việc liên tiếp, không nói đồ vật được mang đi đâu."
+        },
+        {
+          "pattern": "V + -다가",
+          "diff_vi": "«Đang … thì …» (đổi hành động giữa chừng). `사다가` vừa có thể là `사-다가` (đang mua thì) vừa là `사-아다가` (mua rồi mang); ngữ cảnh quyết định."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng khi không có đồ vật nào được mang đi: ✗ `친구를 만나다가 같이 영화를 봤어요` → ✓ `친구를 만나서 같이 영화를 봤어요`.\n(2) Chia thì ở vế trước: ✗ `샀다가 드렸어요` (thành «đã mua rồi lại …») → ✓ `사다가 드렸어요`.\n(3) Quên `-아/어`: ✗ `빌리다가 읽었어요` (đang mượn thì đọc) → ✓ `빌려다가 읽었어요`.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "시장에서 과일을 사다가 할머니께 드렸어요.\n도서관에서 책을 빌려다가 집에서 읽었어요.\n길을 잃은 친구에게 지도를 그려다 줬어요.",
+      "example_vi": "Tôi mua trái cây ở chợ rồi mang biếu bà.\nTôi mượn sách ở thư viện rồi mang về nhà đọc.\nTôi vẽ bản đồ rồi đưa cho người bạn bị lạc đường.",
+      "topik_tip_vi": "Nghe: `커피 사다 줄까요?` nghĩa là người nói sẽ đi mua rồi mang về cho người kia; câu hỏi «người nói sẽ làm gì tiếp» chọn đáp án «đi mua cà phê».",
+      "use_level": "produce",
+      "source": "EXT-SUP-01"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài (3 tầng)",
+      "body": "• 🟢 Hỏi và chỉ đường đơn giản.\n• 🟡 Đọc biển chỉ dẫn, thông báo công trình, viết hướng dẫn \"오시는 길\" (Viết 51), nghe tranh vị trí (Nghe 1–2).\n• 🔴 Viết 54 về an toàn cho người đi bộ (chỉ 1 bài, vì nhóm này ít trọng lượng ở TOPIK II).\n• 🎯 **Đầu ra:** cuối bài bạn viết được một tin nhắn 200–350 chữ chỉ đường từ ga (hoặc trạm xe buýt) gần nhất đến nhà bạn (Bước 5) và nói lại đường đi đó trong 30 giây.",
+      "kind": "goal"
+    },
+    {
+      "title": "🟢 Phân biệt trợ từ",
+      "body": "Vị trí **tĩnh** dùng `에` (약국이 사거리**에** 있어요); **hướng** dùng `(으)로` (오른쪽**으로** 가세요).",
+      "kind": "language"
+    },
+    {
+      "title": "🟢 Mẫu hội thoại",
+      "body": "가: 실례합니다. 이 근처에 약국이 있어요?\n나: 네, 저기 사거리가 보이지요? 사거리에서 오른쪽으로 도세요. 횡단보도를 건너면 약국이 있어요.\n가: 여기에서 먼가요?\n나: 아니요, 걸어서 5분쯤 걸려요.\n*Bản dịch tham khảo:* A: Xin lỗi, gần đây có hiệu thuốc không ạ? B: Có, bạn thấy ngã tư đằng kia chứ? Đến ngã tư thì rẽ phải. Băng qua vạch sang đường là có hiệu thuốc. A: Từ đây có xa không ạ? B: Không, đi bộ khoảng 5 phút.",
+      "kind": "sample"
+    },
+    {
+      "title": "🟢 Ôn (không có thẻ mới)",
+      "body": "`N(으)로` và `-는 데 걸리다`, `N부터 N까지`; `-(으)면`, `-(으)세요` (nền 1–2급).",
+      "kind": "language"
+    },
+    {
+      "title": "🟡 Văn viết hữu ích",
+      "body": "`N에 위치하다` · `N 인근에 있다` · `도보로 약 N분이 소요됩니다` · `…을/를 이용해 주시기 바랍니다`.",
+      "kind": "language"
+    },
+    {
+      "title": "🟡 Mẫu văn bản (Viết 51, hướng dẫn \"오시는 길\", đã sửa để mỗi chỗ trống có đáp án rõ)",
+      "body": "**[행사장 오시는 길]**\n지하철 2호선 강남역 3번 출구로 나오셔서 우체국 방향으로 **(㉠ 100미터쯤 직진하십시오)**. 우체국 앞 횡단보도를 건넌 다음에 오른쪽 골목으로 들어오시면 행사장이 **(㉡ 보입니다)**.\n*Bản dịch tham khảo:* [Đường đến địa điểm sự kiện] Ra lối ra số 3 ga Gangnam, tuyến tàu điện ngầm số 2, rồi đi thẳng khoảng 100 mét theo hướng bưu điện. Sau khi băng qua vạch sang đường trước bưu điện, rẽ vào con hẻm bên phải thì sẽ thấy địa điểm sự kiện.",
+      "kind": "writing"
+    },
+    {
+      "title": "🔴 Dàn ý và gợi ý Viết 54 (người đi bộ và đô thị không rào cản)",
+      "body": "**Dàn ý:** hiện trạng (đô thị hóa, người yếu thế gặp nguy hiểm) → nguyên nhân (thiết kế ưu tiên xe cơ giới) → giải pháp (점자블록, 경사로, 엘리베이터, luật bảo vệ 보행권).\n**Gợi ý:** nếu muốn gắn với tiêu chí \"có trong đề\", có thể đổi trọng tâm sang **tiếp cận giao thông công cộng cho người cao tuổi**, đề tài gần với bài 01 và các bài 05–07 hơn.",
+      "kind": "writing"
+    },
+    {
+      "title": "🟢 Khung câu chỉ đường đến nhà mình",
+      "body": "• **Câu mở:** `우리 집에서 가장 가까운 역은 N호선 N역이에요.` · `가장 가까운 버스 정류장은 N 앞에 있어요.`\n• **Ra khỏi ga:** `N역에서 내린 다음에 ○번 출구로 나오세요.`\n• **Đi và rẽ:** `앞으로 쭉 걸어가다가 첫 번째 사거리에서 오른쪽으로 도세요.` · `횡단보도를 건너서 …`\n• **Mốc:** `조금 더 가면 왼쪽에 N이/가 보여요.` · `N 옆 골목으로 들어오세요.`\n• **Nhà:** `그 건물 ○층이 우리 집이에요.` · `우리 집은 N 맞은편에 있어요.`\n• **Kết:** `역에서 우리 집까지 걸어서 ○분쯤 걸려요.` · `혹시 길을 잃으면 … 전화하면 돼요. 제가 바로 마중 나갈게요.`\n**Hướng hay vị trí:** đi, rẽ, ra → `(으)로` (`오른쪽으로 도세요`, `3번 출구로 나오세요`); có ở đâu, thấy ở đâu → `에` (`왼쪽에 편의점이 보여요`).",
+      "kind": "language"
+    },
+    {
+      "title": "🟢 Bài mẫu: Từ ga gần nhất đến nhà tôi (đầu ra của bài)",
+      "body": "Đọc to bài mẫu, rồi thay tên ga, cửa ra và các mốc bằng đường thật về nhà bạn: đó là bài **Bước 5** ở phần Tạo câu. Mọi từ và mẫu câu trong bài mẫu đều đã học đến bài này.\n\n우리 집에서 가장 가까운 역은 지하철 2호선 신림역이에요. 신림역에서 내린 다음에 3번 출구로 나오세요. 그리고 앞으로 쭉 걸어가다가 첫 번째 사거리에서 오른쪽으로 도세요. 조금 더 가면 왼쪽에 편의점이 보여요. 편의점 앞 횡단보도를 건너서 약국 옆 골목으로 들어오세요. 골목 안으로 50미터쯤 걸어오면 오른쪽에 하얀색 건물이 보여요. 그 건물 3층이 우리 집이에요. 역에서 우리 집까지 걸어서 7분쯤 걸려요. 혹시 길을 잃으면 편의점 앞에서 저한테 전화하면 돼요. 제가 바로 마중 나갈게요.\n\n*Bản dịch tham khảo:* Ga gần nhà mình nhất là ga Sillim, tuyến tàu điện ngầm số 2. Xuống tàu ở ga Sillim rồi bạn ra cửa số 3. Sau đó cứ đi thẳng về phía trước, đến ngã tư thứ nhất thì rẽ phải. Đi thêm một chút sẽ thấy cửa hàng tiện lợi bên trái. Bạn qua vạch sang đường trước cửa hàng tiện lợi rồi đi vào con hẻm cạnh hiệu thuốc. Đi vào hẻm khoảng 50 mét sẽ thấy một tòa nhà màu trắng bên phải. Tầng 3 của tòa nhà đó là nhà mình. Từ ga đến nhà mình đi bộ mất khoảng 7 phút. Nếu lỡ lạc đường thì bạn chỉ cần gọi cho mình ở trước cửa hàng tiện lợi. Rồi mình ra đón ngay.\n\n**Tin nhắn đi theo 3 bước:** (1) câu mở: ga hoặc trạm gần nhất → (2) từng chặng theo thứ tự người đi, mỗi chặng một mốc nhìn thấy được, kết thúc ở tòa nhà và tầng → (3) câu kết: mất bao lâu, lạc đường thì làm gì.",
+      "kind": "sample"
+    },
+    {
+      "title": "Lỗi người Việt hay mắc trong bài này",
+      "body": "• Nhầm `에` và `(으)로`: ✗ 오른쪽에 가세요 → ✓ 오른쪽**으로** 가세요.\n• Dùng `에서` với 건너다: ✗ 횡단보도에서 건너다 → ✓ 횡단보도**를** 건너다.\n• Nhầm `-다가` với `-(으)면서`; ví dụ ✗ 걸으면서 친구를 만났어요 nếu muốn nói \"đang đi thì gặp\".\n• Chia 묻다 như động từ thường (✗ 묻어요) thay vì **물어요**; 걷다 → **걸어요**.\n• Gộp 맞은편 và 건너편 làm một.\n• ✗ `편의점을 보여요` → ✓ `편의점이 보여요`: `보이다` (hiện ra, thấy được) đi với `이/가`.\n• ✗ `가깝은 역` → ✓ `가장 가까운 역` (ㅂ bất quy tắc); ✗ `돌으세요` → ✓ `도세요`.\n• Chỉ đường đến nhà mình, người Hàn hay dùng `오다`: `골목으로 들어오세요`, `50미터쯤 걸어오면`; `가세요` không sai nhưng nghe như bạn không ở đó.",
+      "kind": "pitfall"
+    }
+  ],
+  "bank": "quan-he",
+  "coach": {
+    "focus_vi": [
+      "`V + -다가`: đang làm việc này thì chuyển sang hoặc xen việc khác (`걷다가 만났어요`).",
+      "`V + -(으)면 되다`: chỉ cần làm là được (`나오시면 됩니다`); `-(으)ㄴ 다음에`: sau khi.",
+      "`N + (이)요?`: nhắc lại điều người kia vừa nói để xác nhận."
+    ],
+    "watch_out_vi": [
+      "Hướng đi dùng `(으)로` (✗ `오른쪽에 가세요`); `건너다` đi với `를` (✗ `횡단보도에서 건너다`).",
+      "`묻다` → `물어요`, `걷다` → `걸어요` (bất quy tắc `ㄷ`); đừng chia như động từ thường."
+    ],
+    "notebook_vi": [
+      "Đường từ nhà bạn đến ga gần nhất bằng 4 câu, dùng `-다가` và `-(으)ㄴ 다음에`.",
+      "Từ chỉ vị trí và hướng: 위, 아래, 앞, 뒤, 옆, 오른쪽, 왼쪽, 맞은편, 건너편."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Chỉ đường: đi thẳng đến ngã tư rồi rẽ phải.",
+        "answer": "쭉 가다가 사거리에서 오른쪽으로 도세요."
+      },
+      {
+        "prompt_vi": "Chỉ cho người khác cách ra khỏi ga.",
+        "answer": "3번 출구로 나오시면 됩니다."
+      }
+    ],
+    "tip_vi": "Mẫu «오시는 길» là dạng bài Viết 51: tập viết hướng dẫn đến nhà bạn bằng `-다가` và `-(으)면 되다`."
+  },
+  "exercise_ids": [
+    "QL1",
+    "QLN28",
+    "QLN29",
+    "QLN30",
+    "QLN31",
+    "QLN32",
+    "QD09",
+    "QD10",
+    "QU20L1",
+    "QR7",
+    "QFR27",
+    "QFR28",
+    "QFR29",
+    "QFR30",
+    "QU20R1",
+    "QSUP01",
+    "QBO17",
+    "QBO18",
+    "QBO19",
+    "QBO20",
+    "QBO21",
+    "QU20O1",
+    "QU20O2",
+    "QBF07",
+    "QBF08",
+    "QFBF03",
+    "QU20F1",
+    "QBC04",
+    "QU20C1",
+    "QBE04",
+    "QU20E1",
+    "QU20S1",
+    "QU20S2"
+  ],
+  "editor_notes": [
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "Bỏ QS2 (xin lỗi hàng xóm tầng dưới vì trẻ con chạy nhảy: đề của bài 22, vẫn ở bài 18/22/26) khỏi bài này; thay bằng QU20S1 (chỉ đường từ ga về nhà, 30 giây) và QU20S2 (lạc đường, gọi điện hỏi bạn, 30 giây). `가깝다`, `아파트`, `빌라` là thẻ bài 21, nên bài mẫu dùng thẻ cụm mới `가장 가까운 역` và `건물`. `호선` vốn là thẻ bài 33; thêm ở đây vì chỉ đường bằng tàu điện ngầm cần nó."
+    }
+  ]
+}

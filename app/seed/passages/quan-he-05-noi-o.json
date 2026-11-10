@@ -1,0 +1,265 @@
+{
+  "lesson": "quan-he-05-noi-o",
+  "items": [
+    {
+      "id": "quan-he-05-d1",
+      "kind": "dialogue",
+      "title_ko": "부동산에서",
+      "title_vi": "Ở văn phòng nhà đất",
+      "scene_vi": "Ở văn phòng môi giới nhà đất gần trường đại học. Một sinh viên đang tìm phòng, nhân viên giới thiệu.",
+      "speakers": {
+        "F": "중개사",
+        "M": "학생"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "어서 오세요. 어떤 집을 찾으세요?",
+          "vi": "Xin mời vào. Bạn đang tìm nhà kiểu nào?"
+        },
+        {
+          "who": "M",
+          "ko": "학교 근처에서 자취할 원룸을 찾고 있어요.",
+          "vi": "Tôi đang tìm một phòng đơn gần trường để ở riêng."
+        },
+        {
+          "who": "F",
+          "ko": "이 원룸은 어떠세요? 방이 넓은 데다가 학교에서 도보로 오 분이에요.",
+          "vi": "Phòng này thì sao ạ? Phòng rộng, lại cách trường năm phút đi bộ."
+        },
+        {
+          "who": "M",
+          "ko": "좋네요. 월세는 얼마예요? 보증금도 있어요?",
+          "vi": "Hay đấy. Tiền thuê tháng là bao nhiêu? Có tiền đặt cọc không?"
+        },
+        {
+          "who": "F",
+          "ko": "월세는 오십만 원이고 보증금은 오백만 원이에요. 관리비는 별도예요.",
+          "vi": "Thuê tháng là năm mươi vạn won, đặt cọc năm triệu won. Phí quản lý tính riêng."
+        },
+        {
+          "who": "M",
+          "ko": "계약하려면 어떤 서류가 필요해요?",
+          "vi": "Muốn ký hợp đồng thì cần giấy tờ gì?"
+        },
+        {
+          "who": "F",
+          "ko": "계약하려면 신분증이 있어야 해요. 그리고 계약서를 쓰자마자 집주인에게 보증금을 보내시면 돼요.",
+          "vi": "Muốn ký thì cần có giấy tờ tùy thân. Và ngay sau khi viết hợp đồng, bạn chuyển tiền đặt cọc cho chủ nhà là được."
+        },
+        {
+          "who": "M",
+          "ko": "알겠어요. 저는 학생이라서 보증금이 부담돼요. 조금 더 싼 집도 보여 주세요.",
+          "vi": "Tôi hiểu rồi. Tôi là sinh viên nên tiền đặt cọc là gánh nặng. Chị cho tôi xem cả những nhà rẻ hơn nữa nhé."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -(으)려면",
+          "regex": "계약하려면"
+        },
+        {
+          "pattern": "A/V + -(으)ㄴ/는 데다가 · N + 인 데다가",
+          "regex": "넓은 데다가"
+        },
+        {
+          "pattern": "V + -자마자",
+          "regex": "쓰자마자"
+        },
+        {
+          "pattern": "N + (이)라서",
+          "regex": "학생이라서"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "자취(하다)",
+          "seen": "자취할"
+        },
+        {
+          "word": "원룸",
+          "seen": "원룸을"
+        },
+        {
+          "word": "월세",
+          "seen": "월세는"
+        },
+        {
+          "word": "보증금",
+          "seen": "보증금도"
+        },
+        {
+          "word": "관리비",
+          "seen": "관리비는"
+        },
+        {
+          "word": "별도",
+          "seen": "별도예요"
+        },
+        {
+          "word": "계약서",
+          "seen": "계약서를"
+        },
+        {
+          "word": "도보",
+          "seen": "도보로"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "서류",
+          "vi": "giấy tờ, hồ sơ"
+        },
+        {
+          "ko": "부담되다",
+          "vi": "trở thành gánh nặng",
+          "seen": "부담돼요"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Căn phòng này có ưu điểm gì?",
+          "options": [
+            "Rẻ và đầy đủ nội thất",
+            "Có ban công lớn",
+            "Rộng và cách trường năm phút đi bộ"
+          ],
+          "answer": 2,
+          "explain_vi": "Nhân viên nói “방이 넓은 데다가 학교에서 도보로 오 분이에요”."
+        },
+        {
+          "q_vi": "Vì sao sinh viên thấy áp lực?",
+          "options": [
+            "Vì tiền đặt cọc là gánh nặng",
+            "Vì phòng quá nhỏ",
+            "Vì phòng xa trường"
+          ],
+          "answer": 0,
+          "explain_vi": "Sinh viên nói “학생이라서 보증금이 부담돼요”."
+        }
+      ]
+    },
+    {
+      "id": "quan-he-05-r1",
+      "kind": "reading",
+      "title_ko": "이사 이야기",
+      "title_vi": "Chuyện chuyển nhà",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "저는 지난달에 새집으로 이사했어요.",
+          "vi": "Tháng trước tôi đã chuyển sang nhà mới."
+        },
+        {
+          "who": "N",
+          "ko": "이사하려면 먼저 이삿짐센터를 알아봐야 해요.",
+          "vi": "Muốn chuyển nhà thì trước hết phải tìm công ty vận chuyển."
+        },
+        {
+          "who": "N",
+          "ko": "새집은 방이 밝은 데다가 조용해요.",
+          "vi": "Nhà mới có phòng sáng, lại yên tĩnh."
+        },
+        {
+          "who": "N",
+          "ko": "이사한 지 한 달이 됐지만 아직 짐을 다 풀지 못했어요.",
+          "vi": "Chuyển nhà đã được một tháng nhưng tôi vẫn chưa dỡ hết đồ."
+        },
+        {
+          "who": "N",
+          "ko": "이사하자마자 전입신고를 하러 주민센터에 갔어요.",
+          "vi": "Vừa chuyển nhà xong tôi đã đến trung tâm hành chính để khai báo chuyển đến."
+        },
+        {
+          "who": "N",
+          "ko": "주말이라서 사람이 많았지만 금방 끝났어요.",
+          "vi": "Vì là cuối tuần nên đông người, nhưng chẳng mấy chốc đã xong."
+        },
+        {
+          "who": "N",
+          "ko": "다음 주에는 친구들을 초대해서 집들이를 할 거예요.",
+          "vi": "Tuần sau tôi sẽ mời bạn bè đến để tổ chức tiệc tân gia."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -(으)려면",
+          "regex": "이사하려면"
+        },
+        {
+          "pattern": "A/V + -(으)ㄴ/는 데다가 · N + 인 데다가",
+          "regex": "밝은 데다가"
+        },
+        {
+          "pattern": "V + -(으)ㄴ 지 + (thời gian) + 되다/지나다/넘다",
+          "regex": "이사한 지 한 달이 됐지만"
+        },
+        {
+          "pattern": "V + -자마자",
+          "regex": "이사하자마자"
+        },
+        {
+          "pattern": "N + (이)라서",
+          "regex": "주말이라서"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "이사(하다)",
+          "seen": "이사했어요"
+        },
+        {
+          "word": "이삿짐센터",
+          "seen": "이삿짐센터를"
+        },
+        {
+          "word": "밝다",
+          "seen": "밝은"
+        },
+        {
+          "word": "조용하다",
+          "seen": "조용해요"
+        },
+        {
+          "word": "짐을 풀다",
+          "seen": "짐을 다 풀지"
+        },
+        {
+          "word": "전입신고",
+          "seen": "전입신고를"
+        },
+        {
+          "word": "주민센터",
+          "seen": "주민센터에"
+        },
+        {
+          "word": "집들이",
+          "seen": "집들이를"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Sau khi chuyển nhà, người viết đã đi làm thủ tục gì?",
+          "options": [
+            "Mở tài khoản ngân hàng",
+            "Khai báo chuyển đến ở trung tâm hành chính",
+            "Đăng ký học"
+          ],
+          "answer": 1,
+          "explain_vi": "“전입신고를 하러 주민센터에 갔어요”: đến trung tâm hành chính khai báo chuyển đến."
+        },
+        {
+          "q_vi": "Tuần sau người viết sẽ làm gì?",
+          "options": [
+            "Đi du lịch",
+            "Chuyển nhà lần nữa",
+            "Mời bạn đến tiệc tân gia"
+          ],
+          "answer": 2,
+          "explain_vi": "“친구들을 초대해서 집들이를 할 거예요”: mời bạn bè đến tiệc tân gia."
+        }
+      ]
+    }
+  ]
+}

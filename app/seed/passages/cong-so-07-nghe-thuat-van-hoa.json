@@ -1,0 +1,211 @@
+{
+  "lesson": "cong-so-07-nghe-thuat-van-hoa",
+  "items": [
+    {
+      "id": "cong-so-07-d1",
+      "kind": "dialogue",
+      "title_ko": "문화재 복원 전시",
+      "title_vi": "Triển lãm phục dựng di sản",
+      "scene_vi": "Hai đồng nghiệp nói chuyện sáng thứ Hai về chuyến đi xem triển lãm cuối tuần.",
+      "speakers": {
+        "F": "수진",
+        "M": "민호"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "민호 씨, 주말에 어디 다녀왔어요?",
+          "vi": "Minho, cuối tuần anh đã đi đâu vậy?"
+        },
+        {
+          "who": "M",
+          "ko": "어릴 때 자주 가던 박물관에 다녀왔어요. 문화재 복원 전시를 하고 있더라고요.",
+          "vi": "Tôi đã đến bảo tàng hồi nhỏ tôi hay đến. Ở đó đang có triển lãm phục dựng di sản."
+        },
+        {
+          "who": "F",
+          "ko": "아, 저도 그 전시를 보고 싶어요. 관객이 많았어요?",
+          "vi": "À, tôi cũng muốn xem triển lãm đó. Có nhiều khán giả không?"
+        },
+        {
+          "who": "M",
+          "ko": "네, 외국인 관광객을 비롯해서 사람이 정말 많았어요.",
+          "vi": "Có, rất đông người, bắt đầu từ khách du lịch nước ngoài."
+        },
+        {
+          "who": "F",
+          "ko": "한국 문화에 대한 관심이 점점 커져 가는 듯해요.",
+          "vi": "Có vẻ sự quan tâm đến văn hóa Hàn Quốc đang dần lớn lên."
+        },
+        {
+          "who": "M",
+          "ko": "맞아요. 저는 한국어 학습자로서 이런 전시가 정말 소중해요.",
+          "vi": "Đúng vậy. Với tư cách là người học tiếng Hàn, tôi thấy những triển lãm thế này thật quý."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V/A + -던 + N · V/A + -았/었던 + N",
+          "regex": "자주 가던"
+        },
+        {
+          "pattern": "N + (으)로서 · N + (으)로써",
+          "regex": "학습자로서"
+        },
+        {
+          "pattern": "V + -아/어 가다 · V + -아/어 오다",
+          "regex": "커져 가는"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 듯하다 · N + 인 듯하다",
+          "regex": "듯해요"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "문화재",
+          "seen": "문화재"
+        },
+        {
+          "word": "복원하다",
+          "seen": "복원"
+        },
+        {
+          "word": "관객",
+          "seen": "관객이"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Minho đã đi đâu vào cuối tuần?",
+          "options": [
+            "Đến bảo tàng hồi nhỏ anh hay đến",
+            "Đến nhà hát mới",
+            "Đến cung điện",
+            "Đến thư viện"
+          ],
+          "answer": 0,
+          "explain_vi": "Minho nói «어릴 때 자주 가던 박물관에 다녀왔어요»."
+        },
+        {
+          "q_vi": "Triển lãm ở đó nói về gì?",
+          "options": [
+            "Phục dựng di sản văn hóa",
+            "Tranh hiện đại",
+            "Nhạc cổ điển",
+            "Đồ ăn truyền thống"
+          ],
+          "answer": 0,
+          "explain_vi": "Anh nói «문화재 복원 전시»."
+        }
+      ]
+    },
+    {
+      "id": "cong-so-07-r1",
+      "kind": "reading",
+      "title_ko": "한지 마을에 다녀온 날",
+      "title_vi": "Ngày đến làng giấy hanji",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "지난주에 가족과 함께 전통 종이를 만드는 한지 마을에 다녀왔다.",
+          "vi": "Tuần trước tôi cùng gia đình đến làng làm giấy hanji truyền thống."
+        },
+        {
+          "who": "N",
+          "ko": "이 마을은 수백 년 동안 전통 방식으로 한지를 만들어 왔다.",
+          "vi": "Làng này đã làm giấy hanji bằng phương pháp truyền thống suốt hàng trăm năm."
+        },
+        {
+          "who": "N",
+          "ko": "어릴 때 할머니가 쓰시던 한지 공책이 생각나서 더 반가웠다.",
+          "vi": "Tôi nhớ đến quyển vở hanji bà từng dùng hồi nhỏ nên càng thấy vui."
+        },
+        {
+          "who": "N",
+          "ko": "마을 주민들은 장인으로서 소중한 기술을 젊은 세대에게 가르치고 있었다.",
+          "vi": "Cư dân trong làng, với tư cách nghệ nhân, đang truyền dạy kỹ thuật quý giá cho thế hệ trẻ."
+        },
+        {
+          "who": "N",
+          "ko": "체험 행사에 참가한 아이들은 직접 만든 작품을 보고 신기해하는 듯했다.",
+          "vi": "Bọn trẻ tham gia sự kiện trải nghiệm có vẻ thích thú khi nhìn tác phẩm tự tay làm."
+        },
+        {
+          "who": "N",
+          "ko": "이런 노력으로써 우리의 전통이 후세에도 이어져 가기를 바란다.",
+          "vi": "Tôi mong truyền thống của chúng ta tiếp tục được nối dài đến hậu thế bằng những nỗ lực như vậy."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -아/어 가다 · V + -아/어 오다",
+          "regex": "만들어 왔다"
+        },
+        {
+          "pattern": "V/A + -던 + N · V/A + -았/었던 + N",
+          "regex": "쓰시던"
+        },
+        {
+          "pattern": "N + (으)로서 · N + (으)로써",
+          "regex": "장인으로서"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 듯하다 · N + 인 듯하다",
+          "regex": "신기해하는 듯했다"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "후세",
+          "seen": "후세에도"
+        },
+        {
+          "word": "체험하다",
+          "seen": "체험"
+        },
+        {
+          "word": "작품",
+          "seen": "작품을"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "한지",
+          "vi": "giấy truyền thống Hàn Quốc",
+          "seen": "한지를"
+        },
+        {
+          "ko": "장인",
+          "vi": "nghệ nhân",
+          "seen": "장인으로서"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Ngôi làng làm gì từ hàng trăm năm nay?",
+          "options": [
+            "Làm giấy hanji bằng phương pháp truyền thống",
+            "Làm đồ gốm",
+            "Dệt vải",
+            "Làm nhạc cụ"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 2: «전통 방식으로 한지를 만들어 왔다»."
+        },
+        {
+          "q_vi": "Người viết mong điều gì?",
+          "options": [
+            "Truyền thống được nối dài đến hậu thế",
+            "Làng được xây lại",
+            "Trẻ em ở lại làng",
+            "Giấy hanji rẻ hơn"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 6: «전통이 후세에도 이어져 가기를 바란다»."
+        }
+      ]
+    }
+  ]
+}

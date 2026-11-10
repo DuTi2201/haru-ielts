@@ -1,0 +1,1700 @@
+{
+  "slug": "quan-he-08-thoi-tiet-1",
+  "title": "Thời tiết, Bốn mùa & Dự báo",
+  "title_ko": "날씨와 계절",
+  "topic": "Quan hệ xã hội, Sự kiện & Không gian sống",
+  "track": "intermediate",
+  "level": 3,
+  "sort_order": 35,
+  "summary": "Từ vựng thời tiết, bốn mùa, nhiệt độ và bản tin dự báo (cả các từ về thời tiết khắc nghiệt, giao mùa, độ ẩm). Ngữ pháp: ㅂ bất quy tắc, A + -아/어지다, -(으)ㄹ지도 모르다, -(으)ㄴ 편이다 và -겠- / -(으)ㄹ 것으로 예상되다 trong bản tin dự báo. Bài có bước Tạo câu: xếp từ, điền khung, nối câu rồi viết một bản tin dự báo thời tiết ngắn.",
+  "vocab": [
+    {
+      "hangul": "날씨",
+      "pos": "N",
+      "meaning_vi": "Thời tiết",
+      "example_ko": "내일은 날씨가 추울 것 같아요.",
+      "example_vi": "Ngày mai thời tiết có vẻ sẽ lạnh.",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "일기예보",
+      "pos": "N",
+      "meaning_vi": "Dự báo thời tiết",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "priority": "core"
+    },
+    {
+      "hangul": "기온",
+      "pos": "N",
+      "meaning_vi": "Nhiệt độ",
+      "example_ko": "아침 기온은 오늘보다 낮아 쌀쌀하겠고, 낮 기온은 20도 안팎으로 예상됩니다.",
+      "example_vi": "Nhiệt độ buổi sáng thấp hơn hôm nay nên sẽ se lạnh, nhiệt độ ban ngày dự kiến khoảng 20 độ.",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "priority": "core",
+      "hanja": "氣溫",
+      "sino_vietnamese": "khí ôn",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "맑다",
+      "pos": "A",
+      "meaning_vi": "Quang đãng",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "흐리다",
+      "pos": "A",
+      "meaning_vi": "Âm u",
+      "example_ko": "오늘은 흐리고 바람이 불어서 쌀쌀해요.",
+      "example_vi": "Hôm nay trời âm u, gió thổi nên se lạnh.",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "구름이 끼다",
+      "pos": "V",
+      "meaning_vi": "Có mây",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "priority": "core"
+    },
+    {
+      "hangul": "비가 오다",
+      "pos": "V",
+      "meaning_vi": "Mưa",
+      "note_vi": "Trợ từ `이/가`: ✗ 비를 오다",
+      "example_ko": "비가 오는군요.",
+      "example_vi": "Mưa rồi nhỉ.",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "눈이 오다",
+      "pos": "V",
+      "meaning_vi": "Tuyết rơi",
+      "note_vi": "Trợ từ `이/가`: ✗ 비를 오다",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "바람이 불다",
+      "pos": "V",
+      "meaning_vi": "Gió thổi",
+      "note_vi": "Trợ từ `이/가`: ✗ 비를 오다",
+      "example_ko": "오늘은 흐리고 바람이 불어서 쌀쌀해요.",
+      "example_vi": "Hôm nay trời âm u, gió thổi nên se lạnh.",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "안개가 끼다",
+      "pos": "V",
+      "meaning_vi": "Có sương mù",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "덥다",
+      "pos": "A",
+      "meaning_vi": "Nóng",
+      "note_vi": "**ㅂ bất quy tắc**: 더워요, 추워요",
+      "example_ko": "봄에는 따뜻하고 여름에는 더워요.",
+      "example_vi": "Mùa xuân thì ấm áp, mùa hè thì nóng.",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "priority": "core"
+    },
+    {
+      "hangul": "춥다",
+      "pos": "A",
+      "meaning_vi": "Lạnh",
+      "note_vi": "**ㅂ bất quy tắc**: 더워요, 추워요",
+      "example_ko": "내일은 날씨가 추울 것 같아요.",
+      "example_vi": "Ngày mai thời tiết có vẻ sẽ lạnh.",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "priority": "core"
+    },
+    {
+      "hangul": "따뜻하다",
+      "pos": "A",
+      "meaning_vi": "Ấm",
+      "example_ko": "봄에는 따뜻하고 여름에는 더워요.",
+      "example_vi": "Mùa xuân thì ấm áp, mùa hè thì nóng.",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "시원하다",
+      "pos": "A",
+      "meaning_vi": "Mát",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "exam": "kiip-2",
+      "priority": "core"
+    },
+    {
+      "hangul": "선선하다",
+      "pos": "A",
+      "meaning_vi": "Mát dịu",
+      "note_vi": "선선하다 hay dùng cuối hè/ đầu thu",
+      "example_ko": "가을이 되면서 날씨가 선선해졌어요.",
+      "example_vi": "Khi vào thu, thời tiết đã trở nên mát dịu.",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "priority": "core"
+    },
+    {
+      "hangul": "쌀쌀하다",
+      "pos": "A",
+      "meaning_vi": "Se lạnh",
+      "example_ko": "오늘은 흐리고 바람이 불어서 쌀쌀해요.",
+      "example_vi": "Hôm nay trời âm u, gió thổi nên se lạnh.",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "봄",
+      "pos": "N",
+      "meaning_vi": "Xuân",
+      "example_ko": "봄에는 따뜻하고 여름에는 더워요.",
+      "example_vi": "Mùa xuân thì ấm áp, mùa hè thì nóng.",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "여름",
+      "pos": "N",
+      "meaning_vi": "Hè",
+      "example_ko": "봄에는 따뜻하고 여름에는 더워요.",
+      "example_vi": "Mùa xuân thì ấm áp, mùa hè thì nóng.",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "가을",
+      "pos": "N",
+      "meaning_vi": "Thu",
+      "example_ko": "가을이 되면서 날씨가 선선해졌어요.",
+      "example_vi": "Khi vào thu, thời tiết đã trở nên mát dịu.",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "겨울",
+      "pos": "N",
+      "meaning_vi": "Đông",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "사계절",
+      "pos": "N",
+      "meaning_vi": "Bốn mùa",
+      "example_ko": "한국은 사계절이 있어요.",
+      "example_vi": "Hàn Quốc có bốn mùa.",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "四季節",
+      "sino_vietnamese": "tứ quý tiết",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "장마",
+      "pos": "N",
+      "meaning_vi": "Mùa mưa dầm",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "태풍",
+      "pos": "N",
+      "meaning_vi": "Bão",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "priority": "recognize",
+      "hanja": "颱風",
+      "sino_vietnamese": "đài phong",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "우산",
+      "pos": "N",
+      "meaning_vi": "Ô",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "priority": "core",
+      "hanja": "雨傘",
+      "sino_vietnamese": "vũ tản",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "우산을 쓰다",
+      "pos": "V",
+      "meaning_vi": "Che ô",
+      "family": "🟢 Nền · Thời tiết, mùa, nhiệt độ",
+      "source": "NOTES §6 🟢 Tầng Nền",
+      "priority": "core"
+    },
+    {
+      "hangul": "기상청",
+      "pos": "N",
+      "meaning_vi": "Cơ quan khí tượng",
+      "family": "🟡 Dạng thi · Bản tin dự báo & số liệu",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "氣象廳",
+      "sino_vietnamese": "khí tượng sảnh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "예보",
+      "pos": "N",
+      "meaning_vi": "Dự báo",
+      "family": "🟡 Dạng thi · Bản tin dự báo & số liệu",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "core",
+      "hanja": "豫報",
+      "sino_vietnamese": "dự báo",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "전국",
+      "pos": "N",
+      "meaning_vi": "Cả nước",
+      "example_ko": "내일 전국이 대체로 맑겠습니다.",
+      "example_vi": "Ngày mai trời nhìn chung quang đãng trên cả nước.",
+      "family": "🟡 Dạng thi · Bản tin dự báo & số liệu",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "core",
+      "hanja": "全國",
+      "sino_vietnamese": "toàn quốc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "지역",
+      "pos": "N",
+      "meaning_vi": "Khu vực",
+      "family": "🟡 Dạng thi · Bản tin dự báo & số liệu",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "exam": "kiip-3",
+      "priority": "recognize",
+      "hanja": "地域",
+      "sino_vietnamese": "địa vực",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "대체로",
+      "pos": "X",
+      "meaning_vi": "Nhìn chung",
+      "note_vi": "Từ nối của bản tin",
+      "example_ko": "내일은 전국이 대체로 흐리고 오후부터 곳에 따라 비가 오겠습니다.",
+      "example_vi": "Ngày mai trời nhìn chung âm u trên cả nước, từ chiều có mưa tùy nơi.",
+      "family": "🟡 Dạng thi · Bản tin dự báo & số liệu",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "大體",
+      "sino_vietnamese": "đại thể",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "한때",
+      "pos": "X",
+      "meaning_vi": "Có lúc",
+      "note_vi": "Từ nối của bản tin",
+      "family": "🟡 Dạng thi · Bản tin dự báo & số liệu",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "곳에 따라",
+      "pos": "X",
+      "meaning_vi": "Tùy nơi",
+      "note_vi": "Từ nối của bản tin",
+      "example_ko": "곳에 따라 소나기가 내리겠습니다.",
+      "example_vi": "Tùy nơi sẽ có mưa rào.",
+      "family": "🟡 Dạng thi · Bản tin dự báo & số liệu",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "강수량",
+      "pos": "N",
+      "meaning_vi": "Lượng mưa",
+      "family": "🟡 Dạng thi · Bản tin dự báo & số liệu",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "降水量",
+      "sino_vietnamese": "giáng thủy lượng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "강수 확률",
+      "pos": "N",
+      "meaning_vi": "Xác suất mưa",
+      "family": "🟡 Dạng thi · Bản tin dự báo & số liệu",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "최고 기온",
+      "pos": "N",
+      "meaning_vi": "Nhiệt độ cao nhất",
+      "family": "🟡 Dạng thi · Bản tin dự báo & số liệu",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "exam": "kiip-3",
+      "priority": "core"
+    },
+    {
+      "hangul": "최저 기온",
+      "pos": "N",
+      "meaning_vi": "Nhiệt độ thấp nhất",
+      "family": "🟡 Dạng thi · Bản tin dự báo & số liệu",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "exam": "kiip-3",
+      "priority": "core"
+    },
+    {
+      "hangul": "평균 기온",
+      "pos": "N",
+      "meaning_vi": "Nhiệt độ trung bình",
+      "family": "🟡 Dạng thi · Bản tin dự báo & số liệu",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "일교차",
+      "pos": "N",
+      "meaning_vi": "Chênh lệch nhiệt độ ngày đêm",
+      "note_vi": "Dạng kết hợp: 일교차가 크다",
+      "example_ko": "일교차가 크니 건강 관리에 유의하시기 바랍니다.",
+      "example_vi": "Chênh lệch nhiệt độ ngày đêm lớn nên xin lưu ý giữ gìn sức khỏe.",
+      "family": "🟡 Dạng thi · Bản tin dự báo & số liệu",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "日較差",
+      "sino_vietnamese": "nhật giảo sai",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "기온이 오르다/떨어지다",
+      "pos": "V",
+      "meaning_vi": "Nhiệt độ tăng/giảm",
+      "family": "🟡 Dạng thi · Bản tin dự báo & số liệu",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "exam": "kiip-4",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "영상",
+      "pos": "N",
+      "meaning_vi": "Trên 0 độ",
+      "family": "🟡 Dạng thi · Bản tin dự báo & số liệu",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "exam": "kiip-3",
+      "priority": "recognize",
+      "hanja": "零上",
+      "sino_vietnamese": "linh thượng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "영하",
+      "pos": "N",
+      "meaning_vi": "Dưới 0 độ",
+      "example_ko": "영하 5도",
+      "example_vi": "Âm 5 độ",
+      "family": "🟡 Dạng thi · Bản tin dự báo & số liệu",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "core",
+      "hanja": "零下",
+      "sino_vietnamese": "linh hạ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "폭우",
+      "pos": "N",
+      "meaning_vi": "Mưa lớn",
+      "family": "🟡 Dạng thi · Thời tiết khắc nghiệt, giao mùa & độ ẩm",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "exam": "kiip-4",
+      "priority": "recognize",
+      "hanja": "暴雨",
+      "sino_vietnamese": "bạo vũ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "폭설",
+      "pos": "N",
+      "meaning_vi": "Tuyết lớn",
+      "family": "🟡 Dạng thi · Thời tiết khắc nghiệt, giao mùa & độ ẩm",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "exam": "kiip-4",
+      "priority": "recognize",
+      "hanja": "暴雪",
+      "sino_vietnamese": "bạo tuyết",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "폭염",
+      "pos": "N",
+      "meaning_vi": "Nắng nóng gay gắt",
+      "example_ko": "여름철 폭염과 열대야가 지속되면서 건강 관리에 각별한 주의가 요구된다.",
+      "example_vi": "Nắng nóng gay gắt và đêm nhiệt đới mùa hè kéo dài nên cần đặc biệt chú ý giữ gìn sức khỏe.",
+      "family": "🟡 Dạng thi · Thời tiết khắc nghiệt, giao mùa & độ ẩm",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "暴炎",
+      "sino_vietnamese": "bạo viêm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "한파",
+      "pos": "N",
+      "meaning_vi": "Đợt rét",
+      "family": "🟡 Dạng thi · Thời tiết khắc nghiệt, giao mùa & độ ẩm",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "寒波",
+      "sino_vietnamese": "hàn ba",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "무더위",
+      "pos": "N",
+      "meaning_vi": "Nóng oi bức",
+      "family": "🟡 Dạng thi · Thời tiết khắc nghiệt, giao mùa & độ ẩm",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "찜통더위",
+      "pos": "N",
+      "meaning_vi": "Nóng như hấp",
+      "family": "🟡 Dạng thi · Thời tiết khắc nghiệt, giao mùa & độ ẩm",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "열대야",
+      "pos": "N",
+      "meaning_vi": "Đêm nhiệt đới (đêm vẫn rất nóng)",
+      "example_ko": "여름철 폭염과 열대야가 지속되면서 건강 관리에 각별한 주의가 요구된다.",
+      "example_vi": "Nắng nóng gay gắt và đêm nhiệt đới mùa hè kéo dài nên cần đặc biệt chú ý giữ gìn sức khỏe.",
+      "family": "🟡 Dạng thi · Thời tiết khắc nghiệt, giao mùa & độ ẩm",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "exam": "kiip-3",
+      "priority": "recognize",
+      "hanja": "熱帶夜",
+      "sino_vietnamese": "nhiệt đới dạ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "가뭄",
+      "pos": "N",
+      "meaning_vi": "Hạn hán",
+      "family": "🟡 Dạng thi · Thời tiết khắc nghiệt, giao mùa & độ ẩm",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "홍수",
+      "pos": "N",
+      "meaning_vi": "Lũ",
+      "family": "🟡 Dạng thi · Thời tiết khắc nghiệt, giao mùa & độ ẩm",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "호우",
+      "pos": "N",
+      "meaning_vi": "Mưa lớn kéo dài",
+      "family": "🟡 Dạng thi · Thời tiết khắc nghiệt, giao mùa & độ ẩm",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "豪雨",
+      "sino_vietnamese": "hào vũ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "주의보",
+      "pos": "N",
+      "meaning_vi": "Cảnh báo (mức chú ý)",
+      "note_vi": "Thuật ngữ khí tượng; không nêu cấp độ cụ thể",
+      "family": "🟡 Dạng thi · Thời tiết khắc nghiệt, giao mùa & độ ẩm",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "注意報",
+      "sino_vietnamese": "chú ý báo",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "특보",
+      "pos": "N",
+      "meaning_vi": "Cảnh báo đặc biệt",
+      "note_vi": "Thuật ngữ khí tượng; không nêu cấp độ cụ thể",
+      "family": "🟡 Dạng thi · Thời tiết khắc nghiệt, giao mùa & độ ẩm",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "特報",
+      "sino_vietnamese": "đặc báo",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "환절기",
+      "pos": "N",
+      "meaning_vi": "Giao mùa",
+      "example_ko": "환절기에는 감기에 걸리기 쉽다",
+      "example_vi": "Vào lúc giao mùa thì dễ bị cảm.",
+      "family": "🟡 Dạng thi · Thời tiết khắc nghiệt, giao mùa & độ ẩm",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "換節期",
+      "sino_vietnamese": "hoán tiết kỳ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "습도",
+      "pos": "N",
+      "meaning_vi": "Độ ẩm",
+      "family": "🟡 Dạng thi · Thời tiết khắc nghiệt, giao mùa & độ ẩm",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "濕度",
+      "sino_vietnamese": "thấp độ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "건조하다",
+      "pos": "A",
+      "meaning_vi": "Khô",
+      "family": "🟡 Dạng thi · Thời tiết khắc nghiệt, giao mùa & độ ẩm",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "exam": "kiip-3",
+      "priority": "core",
+      "hanja": "乾燥",
+      "sino_vietnamese": "can táo",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "습하다",
+      "pos": "A",
+      "meaning_vi": "Ẩm",
+      "family": "🟡 Dạng thi · Thời tiết khắc nghiệt, giao mùa & độ ẩm",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "core",
+      "hanja": "濕",
+      "sino_vietnamese": "thấp",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "건강 관리에 유의하다",
+      "pos": "V",
+      "meaning_vi": "Lưu ý giữ gìn sức khỏe",
+      "note_vi": "*(mở rộng)* `유의하다`",
+      "example_ko": "일교차가 크니 건강 관리에 유의하시기 바랍니다.",
+      "example_vi": "Chênh lệch nhiệt độ ngày đêm lớn nên xin lưu ý giữ gìn sức khỏe.",
+      "family": "🟡 Dạng thi · Mở rộng (đọc bản tin)",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "안팎",
+      "pos": "N",
+      "meaning_vi": "Khoảng, trên dưới",
+      "note_vi": "*(mở rộng)*: 20도 안팎",
+      "example_ko": "아침 기온은 오늘보다 낮아 쌀쌀하겠고, 낮 기온은 20도 안팎으로 예상됩니다.",
+      "example_vi": "Nhiệt độ buổi sáng thấp hơn hôm nay nên sẽ se lạnh, nhiệt độ ban ngày dự kiến khoảng 20 độ.",
+      "family": "🟡 Dạng thi · Mở rộng (đọc bản tin)",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "뚜렷하다",
+      "pos": "A",
+      "meaning_vi": "Rõ rệt",
+      "note_vi": "*(mở rộng)*: 사계절이 뚜렷하다",
+      "example_ko": "한국은 사계절이 뚜렷해서 계절마다 먹는 음식이 다르다.",
+      "example_vi": "Hàn Quốc có bốn mùa rõ rệt nên món ăn mỗi mùa mỗi khác.",
+      "family": "🟡 Dạng thi · Mở rộng (đọc bản tin)",
+      "source": "NOTES §6 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "소풍",
+      "pos": "N",
+      "meaning_vi": "Dã ngoại",
+      "note_vi": "Dùng ở: bài Nghe câu 7 (chọn câu nói tiếp theo). 소풍(을) 가다 = đi dã ngoại.",
+      "example_ko": "내일 소풍 가는데 날씨가 어떨까요?",
+      "example_vi": "Ngày mai đi dã ngoại, không biết thời tiết sẽ thế nào nhỉ?",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "core",
+      "hanja": "逍風",
+      "sino_vietnamese": "tiêu phong",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "챙기다",
+      "pos": "V",
+      "meaning_vi": "Mang theo, lo liệu",
+      "note_vi": "Dùng ở: bài Nghe câu 7 (đáp án đúng). 챙기다 = mang theo / lo liệu, chuẩn bị đủ đồ cần dùng; 우산을 챙기다 = nhớ mang theo ô.",
+      "example_ko": "그럼 우산을 챙겨 가는 게 좋겠어요.",
+      "example_vi": "Vậy thì nên mang theo ô đi.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "exam": "kiip-4",
+      "priority": "core"
+    },
+    {
+      "hangul": "실용적(이다)",
+      "pos": "N",
+      "meaning_vi": "Thiết thực",
+      "note_vi": "Dùng ở: bài Nghe câu 5 (chọn câu nói tiếp theo). 실용적인 N, 실용적으로, 실용적이다 = thiết thực.",
+      "example_ko": "어머니께서 실용적인 걸 좋아하셔서 고민이에요.",
+      "example_vi": "Mẹ tôi thích những thứ thiết thực nên tôi đang băn khoăn.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "recognize",
+      "hanja": "實用的",
+      "sino_vietnamese": "thực dụng đích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "영양제",
+      "pos": "N",
+      "meaning_vi": "Thuốc bổ (viên uống bổ sung dinh dưỡng)",
+      "note_vi": "Dùng ở: bài Nghe câu 5 (đáp án đúng), đề Viết 52-A và phần luyện Nói câu 3 (tranh về quà sinh nhật).",
+      "example_ko": "그럼 건강에 좋은 영양제를 사 드리는 게 어때요?",
+      "example_vi": "Vậy mua thuốc bổ tốt cho sức khỏe biếu mẹ thì sao?",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "recognize",
+      "hanja": "營養劑",
+      "sino_vietnamese": "dinh dưỡng tễ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "비슷하다",
+      "pos": "A",
+      "pron": "[비스타다]",
+      "meaning_vi": "Giống, tương tự",
+      "note_vi": "Đi với `과/와`: `N과/와 비슷하다` (✗ `N을 비슷하다`). Nói khuynh hướng chung: `비슷한 편이다`.",
+      "example_ko": "제 고향의 봄 날씨는 한국과 비슷해요.",
+      "example_vi": "Thời tiết mùa xuân ở quê tôi giống Hàn Quốc.",
+      "family": "🟢 Nền · So sánh thời tiết quê tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "훨씬",
+      "pos": "X",
+      "meaning_vi": "Hơn hẳn, … hơn nhiều",
+      "note_vi": "Đứng ngay trước tính từ trong câu so sánh: `N보다 훨씬 A`.",
+      "example_ko": "하노이의 여름은 서울보다 훨씬 더워요.",
+      "example_vi": "Mùa hè Hà Nội nóng hơn Seoul nhiều.",
+      "family": "🟢 Nền · So sánh thời tiết quê tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "처음",
+      "pos": "X",
+      "meaning_vi": "Lần đầu, lúc đầu",
+      "note_vi": "`처음 V-았/었을 때` = lần đầu …; `처음에는 …` = lúc đầu thì ….",
+      "example_ko": "처음 한국에 왔을 때는 겨울이 무척 추웠어요.",
+      "example_vi": "Lần đầu đến Hàn Quốc, mùa đông lạnh vô cùng.",
+      "family": "🟢 Nền · So sánh thời tiết quê tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "추위를 타다",
+      "pos": "X",
+      "meaning_vi": "Chịu lạnh kém, rất dễ thấy lạnh",
+      "note_vi": "`타다` ở đây là «nhạy cảm với», cần `를` (✗ `추위가 타다`). Hay đi với `많이`: `추위를 많이 타는 편이에요`.",
+      "example_ko": "저는 추위를 많이 타는 편이에요.",
+      "example_vi": "Tôi thuộc kiểu người rất sợ lạnh.",
+      "family": "🟢 Nền · So sánh thời tiết quê tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "더위를 타다",
+      "pos": "X",
+      "meaning_vi": "Chịu nóng kém, rất dễ thấy nóng",
+      "note_vi": "Ngược với `추위를 타다`; cũng cần `를`.",
+      "example_ko": "남편은 더위를 많이 타서 여름을 싫어해요.",
+      "example_vi": "Chồng tôi rất sợ nóng nên ghét mùa hè.",
+      "family": "🟢 Nền · So sánh thời tiết quê tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "익숙하다",
+      "pos": "A",
+      "pron": "[익쑤카다]",
+      "meaning_vi": "Quen (với)",
+      "note_vi": "`N에 익숙하다` = đã quen; đang dần quen: `익숙해지다` (`-아/어지다`), ví dụ `한국 날씨에 점점 익숙해지고 있어요`.",
+      "example_ko": "이제 한국 날씨에 많이 익숙해졌어요.",
+      "example_vi": "Giờ tôi đã quen với thời tiết Hàn Quốc nhiều rồi.",
+      "family": "🟢 Nền · So sánh thời tiết quê tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "일 년 내내",
+      "pos": "X",
+      "pron": "[일 련 내내]",
+      "meaning_vi": "Quanh năm, suốt cả năm",
+      "example_ko": "호찌민은 일 년 내내 더운 편이에요.",
+      "example_vi": "Thành phố Hồ Chí Minh nóng quanh năm.",
+      "family": "🟢 Nền · So sánh thời tiết quê tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "우기",
+      "pos": "N",
+      "meaning_vi": "Mùa mưa (vùng nhiệt đới)",
+      "note_vi": "Miền Nam Việt Nam có `우기` và `건기`. Mùa mưa dầm đầu hè của Hàn Quốc thì gọi là `장마`.",
+      "example_ko": "호찌민은 5월부터 10월까지가 우기예요.",
+      "example_vi": "Ở Thành phố Hồ Chí Minh, từ tháng 5 đến tháng 10 là mùa mưa.",
+      "family": "🟢 Nền · So sánh thời tiết quê tôi",
+      "priority": "core",
+      "hanja": "雨期",
+      "sino_vietnamese": "vũ kỳ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "건기",
+      "pos": "N",
+      "meaning_vi": "Mùa khô",
+      "example_ko": "건기에는 비가 많이 오지 않아요.",
+      "example_vi": "Mùa khô thì trời không mưa nhiều.",
+      "family": "🟢 Nền · So sánh thời tiết quê tôi",
+      "priority": "core",
+      "hanja": "乾期",
+      "sino_vietnamese": "can kỳ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "소나기",
+      "pos": "N",
+      "meaning_vi": "Mưa rào (đến nhanh, tạnh nhanh)",
+      "note_vi": "`소나기가 오다`, `소나기가 쏟아지다` (mưa rào ập xuống).",
+      "example_ko": "여름에는 오후에 소나기가 자주 와요.",
+      "example_vi": "Mùa hè buổi chiều hay có mưa rào.",
+      "family": "🟢 Nền · So sánh thời tiết quê tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "땀이 나다",
+      "pos": "X",
+      "meaning_vi": "Đổ mồ hôi",
+      "example_ko": "날씨가 습해서 조금만 걸어도 땀이 나요.",
+      "example_vi": "Trời ẩm nên chỉ đi bộ một chút cũng đổ mồ hôi.",
+      "family": "🟢 Nền · So sánh thời tiết quê tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "가을날",
+      "pos": "N",
+      "meaning_vi": "Ngày thu",
+      "example_ko": "오늘은 맑은 가을날이에요.",
+      "example_vi": "Hôm nay là một ngày thu trong xanh.",
+      "pron": "[가을랄]",
+      "family": "🟢 Nền · Từ sơ cấp · Thời tiết & mùa",
+      "priority": "recognize",
+      "source": "krdict:16357",
+      "collocations": [
+        {
+          "ko": "화창한 가을날",
+          "vi": "Ngày thu đẹp trời"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "가을바람",
+      "pos": "N",
+      "meaning_vi": "Gió thu",
+      "example_ko": "시원한 가을바람이 불어요.",
+      "example_vi": "Gió thu mát rượi thổi.",
+      "pron": "[가을빠람]",
+      "family": "🟢 Nền · Từ sơ cấp · Thời tiết & mùa",
+      "priority": "recognize",
+      "source": "krdict:16350",
+      "collocations": [
+        {
+          "ko": "선선한 가을바람",
+          "vi": "Gió thu mát mẻ"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "가을밤",
+      "pos": "N",
+      "meaning_vi": "Đêm thu",
+      "example_ko": "가을밤에는 별이 잘 보여요.",
+      "example_vi": "Đêm thu nhìn thấy sao rất rõ.",
+      "pron": "[가을빰]",
+      "family": "🟢 Nền · Từ sơ cấp · Thời tiết & mùa",
+      "priority": "recognize",
+      "source": "krdict:16351",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "가을비",
+      "pos": "N",
+      "meaning_vi": "Mưa thu",
+      "note_vi": "Sau mưa thu trời thường lạnh hơn.",
+      "example_ko": "가을비가 내린 후에 추워졌어요.",
+      "example_vi": "Sau cơn mưa thu trời trở lạnh.",
+      "pron": "[가을삐]",
+      "family": "🟢 Nền · Từ sơ cấp · Thời tiết & mùa",
+      "priority": "recognize",
+      "source": "krdict:16370",
+      "collocations": [
+        {
+          "ko": "가을비가 내리다",
+          "vi": "Mưa thu rơi"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "겨울날",
+      "pos": "N",
+      "meaning_vi": "Ngày đông",
+      "example_ko": "추운 겨울날에는 집에 있어요.",
+      "example_vi": "Những ngày đông giá rét tôi ở nhà.",
+      "pron": "[겨울랄]",
+      "family": "🟢 Nền · Từ sơ cấp · Thời tiết & mùa",
+      "priority": "recognize",
+      "source": "krdict:28472",
+      "collocations": [
+        {
+          "ko": "추운 겨울날",
+          "vi": "Ngày đông giá rét"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "겨울바람",
+      "pos": "N",
+      "meaning_vi": "Gió đông, gió mùa đông",
+      "example_ko": "겨울바람이 너무 차가워요.",
+      "example_vi": "Gió mùa đông lạnh buốt.",
+      "pron": "[겨울빠람]",
+      "family": "🟢 Nền · Từ sơ cấp · Thời tiết & mùa",
+      "priority": "recognize",
+      "source": "krdict:28475",
+      "collocations": [
+        {
+          "ko": "차가운 겨울바람",
+          "vi": "Gió đông lạnh buốt"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "겨울비",
+      "pos": "N",
+      "meaning_vi": "Mưa mùa đông",
+      "example_ko": "하루 종일 겨울비가 와요.",
+      "example_vi": "Mưa mùa đông rơi suốt cả ngày.",
+      "pron": "[겨울삐]",
+      "family": "🟢 Nền · Từ sơ cấp · Thời tiết & mùa",
+      "priority": "recognize",
+      "source": "krdict:28477",
+      "collocations": [
+        {
+          "ko": "겨울비가 오다",
+          "vi": "Mưa mùa đông"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "구름",
+      "pos": "N",
+      "meaning_vi": "Mây",
+      "note_vi": "구름이 끼다 «có mây», 구름이 많다 «nhiều mây».",
+      "example_ko": "오늘은 구름이 많아요.",
+      "example_vi": "Hôm nay trời nhiều mây.",
+      "family": "🟢 Nền · Từ sơ cấp · Bầu trời",
+      "priority": "core",
+      "source": "krdict:64487",
+      "collocations": [
+        {
+          "ko": "흰 구름",
+          "vi": "Mây trắng"
+        },
+        {
+          "ko": "검은 구름",
+          "vi": "Mây đen"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "녹다",
+      "pos": "V",
+      "meaning_vi": "Tan, chảy (băng, tuyết)",
+      "note_vi": "Trái nghĩa: 얼다. Vd: 아이스크림이 녹다.",
+      "example_ko": "봄이 되면 눈이 녹아요.",
+      "example_vi": "Sang xuân tuyết tan.",
+      "pron": "[녹따]",
+      "family": "🟢 Nền · Từ sơ cấp · Nhiệt độ",
+      "priority": "core",
+      "source": "krdict:28313",
+      "collocations": [
+        {
+          "ko": "눈이 녹다",
+          "vi": "Tuyết tan"
+        },
+        {
+          "ko": "아이스크림이 녹다",
+          "vi": "Kem chảy"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "더워지다",
+      "pos": "V",
+      "meaning_vi": "Nóng lên",
+      "note_vi": "A-아/어지다 «trở nên». 덥다 → 더워지다 (bất quy tắc ㅂ).",
+      "example_ko": "날씨가 점점 더워져요.",
+      "example_vi": "Thời tiết ngày càng nóng lên.",
+      "family": "🟢 Nền · Từ sơ cấp · Nhiệt độ",
+      "priority": "core",
+      "source": "krdict:47398",
+      "collocations": [
+        {
+          "ko": "날씨가 더워지다",
+          "vi": "Trời nóng lên"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "따듯하다",
+      "pos": "A",
+      "meaning_vi": "Ấm, ấm áp",
+      "note_vi": "Biến thể nhẹ của 따뜻하다; nghĩa như nhau, 따뜻하다 dùng nhiều hơn.",
+      "example_ko": "따듯한 차 한 잔 드세요.",
+      "example_vi": "Mời bạn dùng một tách trà ấm.",
+      "pron": "[따드타다]",
+      "family": "🟢 Nền · Từ sơ cấp · Nhiệt độ",
+      "priority": "recognize",
+      "source": "krdict:49657",
+      "collocations": [
+        {
+          "ko": "따듯한 날씨",
+          "vi": "Thời tiết ấm áp"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "뜨겁다",
+      "pos": "A",
+      "meaning_vi": "Nóng (khi chạm vào)",
+      "note_vi": "Bất quy tắc ㅂ: 뜨거워요. Vật, nước nóng → 뜨겁다; trời nóng → 덥다.",
+      "example_ko": "국이 뜨거우니까 조심하세요.",
+      "example_vi": "Canh nóng đấy, cẩn thận nhé.",
+      "pron": "[뜨겁따]",
+      "family": "🟢 Nền · Từ sơ cấp · Nhiệt độ",
+      "priority": "core",
+      "source": "krdict:66027",
+      "collocations": [
+        {
+          "ko": "뜨거운 커피",
+          "vi": "Cà phê nóng"
+        },
+        {
+          "ko": "뜨거운 태양",
+          "vi": "Mặt trời gay gắt"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "맑아지다",
+      "pos": "V",
+      "meaning_vi": "Trở nên trong (lành)",
+      "note_vi": "날씨가 맑아지다 «trời quang trở lại», 공기가 맑아지다 «không khí trong lành hơn».",
+      "example_ko": "비가 그치고 하늘이 맑아졌어요.",
+      "example_vi": "Mưa tạnh, trời quang đãng trở lại.",
+      "pron": "[말가지다]",
+      "family": "🟢 Nền · Từ sơ cấp · Thời tiết & mùa",
+      "priority": "recognize",
+      "source": "krdict:90818",
+      "collocations": [
+        {
+          "ko": "공기가 맑아지다",
+          "vi": "Không khí trong lành hơn"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "바람",
+      "pos": "N",
+      "meaning_vi": "Gió",
+      "note_vi": "바람이 불다 «gió thổi». Đồng âm: 바람 «mong ước».",
+      "example_ko": "오늘은 바람이 많이 불어요.",
+      "example_vi": "Hôm nay gió thổi mạnh.",
+      "family": "🟢 Nền · Từ sơ cấp · Thời tiết & mùa",
+      "priority": "core",
+      "source": "krdict:85627",
+      "collocations": [
+        {
+          "ko": "바람이 강하다",
+          "vi": "Gió mạnh"
+        },
+        {
+          "ko": "바람 소리",
+          "vi": "Tiếng gió"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "별",
+      "pos": "N",
+      "meaning_vi": "Ngôi sao",
+      "note_vi": "Ngôi sao trên trời. «Ngôi sao» người nổi tiếng thì nói 스타.",
+      "example_ko": "밤하늘에 별이 많아요.",
+      "example_vi": "Trên bầu trời đêm có nhiều sao.",
+      "family": "🟢 Nền · Từ sơ cấp · Bầu trời",
+      "priority": "core",
+      "source": "krdict:58366",
+      "collocations": [
+        {
+          "ko": "별이 뜨다",
+          "vi": "Sao mọc"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "봄비",
+      "pos": "N",
+      "meaning_vi": "Mưa xuân",
+      "example_ko": "봄비가 조용히 내려요.",
+      "example_vi": "Mưa xuân lặng lẽ rơi.",
+      "pron": "[봄삐]",
+      "family": "🟢 Nền · Từ sơ cấp · Thời tiết & mùa",
+      "priority": "recognize",
+      "source": "krdict:59832",
+      "collocations": [
+        {
+          "ko": "봄비가 내리다",
+          "vi": "Mưa xuân rơi"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "불다",
+      "pos": "V",
+      "meaning_vi": "Thổi (gió)",
+      "note_vi": "Bất quy tắc ㄹ: 불어요, 부는, 붑니다. Vd: 바람이 불다.",
+      "example_ko": "바람이 시원하게 불어요.",
+      "example_vi": "Gió thổi mát mẻ.",
+      "family": "🟢 Nền · Từ sơ cấp · Thời tiết & mùa",
+      "priority": "core",
+      "source": "krdict:74179",
+      "collocations": [
+        {
+          "ko": "태풍이 불다",
+          "vi": "Bão thổi"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "비",
+      "pos": "N",
+      "meaning_vi": "Mưa",
+      "note_vi": "비가 오다 / 비가 내리다 «mưa», 비가 그치다 «tạnh mưa».",
+      "example_ko": "비가 그쳤어요.",
+      "example_vi": "Mưa tạnh rồi.",
+      "family": "🟢 Nền · Từ sơ cấp · Thời tiết & mùa",
+      "priority": "core",
+      "source": "krdict:36681",
+      "collocations": [
+        {
+          "ko": "비가 그치다",
+          "vi": "Tạnh mưa"
+        },
+        {
+          "ko": "비 소식",
+          "vi": "Tin có mưa"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "비구름",
+      "pos": "N",
+      "meaning_vi": "Mây mưa",
+      "example_ko": "비구름이 몰려와요.",
+      "example_vi": "Mây mưa đang kéo đến.",
+      "family": "🟢 Nền · Từ sơ cấp · Bầu trời",
+      "priority": "recognize",
+      "source": "krdict:60417",
+      "collocations": [
+        {
+          "ko": "비구름이 몰려오다",
+          "vi": "Mây mưa kéo đến"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "안개",
+      "pos": "N",
+      "meaning_vi": "Sương mù",
+      "note_vi": "안개가 끼다 «có sương mù», 안개가 걷히다 «sương tan».",
+      "example_ko": "아침에 안개가 많이 꼈어요.",
+      "example_vi": "Sáng nay sương mù dày đặc.",
+      "family": "🟢 Nền · Từ sơ cấp · Thời tiết & mùa",
+      "priority": "core",
+      "source": "krdict:14777",
+      "collocations": [
+        {
+          "ko": "안개가 걷히다",
+          "vi": "Sương mù tan"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "얼다",
+      "pos": "V",
+      "meaning_vi": "Đóng băng, đông cứng",
+      "note_vi": "Bất quy tắc ㄹ: 얼어요, 언. Trái nghĩa: 녹다.",
+      "example_ko": "추워서 강물이 얼었어요.",
+      "example_vi": "Trời lạnh nên nước sông đóng băng.",
+      "family": "🟢 Nền · Từ sơ cấp · Nhiệt độ",
+      "priority": "core",
+      "source": "krdict:66572",
+      "collocations": [
+        {
+          "ko": "물이 얼다",
+          "vi": "Nước đóng băng"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "여름날",
+      "pos": "N",
+      "meaning_vi": "Ngày hè",
+      "example_ko": "더운 여름날에는 수박을 먹어요.",
+      "example_vi": "Những ngày hè nóng nực tôi ăn dưa hấu.",
+      "family": "🟢 Nền · Từ sơ cấp · Thời tiết & mùa",
+      "priority": "recognize",
+      "source": "krdict:90645",
+      "collocations": [
+        {
+          "ko": "더운 여름날",
+          "vi": "Ngày hè nóng nực"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "온도",
+      "pos": "N",
+      "meaning_vi": "Nhiệt độ",
+      "note_vi": "Nhiệt độ nói chung (phòng, nước). Nhiệt độ không khí trong bản tin: 기온.",
+      "example_ko": "방 온도가 너무 높아요.",
+      "example_vi": "Nhiệt độ trong phòng cao quá.",
+      "family": "🟢 Nền · Từ sơ cấp · Nhiệt độ",
+      "priority": "core",
+      "source": "krdict:67838",
+      "hanja": "溫度",
+      "collocations": [
+        {
+          "ko": "실내 온도",
+          "vi": "Nhiệt độ trong phòng"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "ôn độ"
+    },
+    {
+      "hangul": "차갑다",
+      "pos": "A",
+      "meaning_vi": "Lạnh (khi chạm vào)",
+      "note_vi": "Bất quy tắc ㅂ: 차가워요. Vật, nước lạnh → 차갑다; trời lạnh → 춥다.",
+      "example_ko": "물이 너무 차가워요.",
+      "example_vi": "Nước lạnh quá.",
+      "pron": "[차갑따]",
+      "family": "🟢 Nền · Từ sơ cấp · Nhiệt độ",
+      "priority": "core",
+      "source": "krdict:71730",
+      "collocations": [
+        {
+          "ko": "물이 차갑다",
+          "vi": "Nước lạnh"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "추워지다",
+      "pos": "V",
+      "meaning_vi": "Trở lạnh",
+      "note_vi": "춥다 → 추워지다 (bất quy tắc ㅂ + -아/어지다).",
+      "example_ko": "날씨가 갑자기 추워졌어요.",
+      "example_vi": "Trời bỗng trở lạnh.",
+      "family": "🟢 Nền · Từ sơ cấp · Nhiệt độ",
+      "priority": "core",
+      "source": "krdict:79552",
+      "collocations": [
+        {
+          "ko": "날씨가 추워지다",
+          "vi": "Trời trở lạnh"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "해",
+      "pos": "N",
+      "meaning_vi": "Mặt trời",
+      "note_vi": "해가 뜨다 «mặt trời mọc», 해가 지다 «mặt trời lặn». Đồng âm: 해 «năm».",
+      "example_ko": "해가 지면 추워져요.",
+      "example_vi": "Mặt trời lặn là trời trở lạnh.",
+      "family": "🟢 Nền · Từ sơ cấp · Bầu trời",
+      "priority": "core",
+      "source": "krdict:72468",
+      "collocations": [
+        {
+          "ko": "해가 뜨다",
+          "vi": "Mặt trời mọc"
+        },
+        {
+          "ko": "해가 지다",
+          "vi": "Mặt trời lặn"
+        }
+      ],
+      "enrich": "auto",
+      "hanja": "害",
+      "sino_vietnamese": "hại"
+    },
+    {
+      "hangul": "햇빛",
+      "pos": "N",
+      "meaning_vi": "Ánh nắng, ánh mặt trời",
+      "example_ko": "오늘은 햇빛이 강해요.",
+      "example_vi": "Hôm nay nắng gắt.",
+      "pron": "[해삗]",
+      "family": "🟢 Nền · Từ sơ cấp · Bầu trời",
+      "priority": "core",
+      "source": "krdict:72476",
+      "collocations": [
+        {
+          "ko": "햇빛이 들다",
+          "vi": "Nắng chiếu vào"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "달",
+      "pos": "N",
+      "meaning_vi": "Mặt trăng, trăng",
+      "note_vi": "Đồng âm: 달 «tháng» (한 달, 이번 달). Trăng rằm: 보름달.",
+      "example_ko": "오늘 밤에는 달이 밝아요.",
+      "example_vi": "Đêm nay trăng sáng.",
+      "family": "🟢 Nền · Từ sơ cấp · Bầu trời",
+      "priority": "core",
+      "source": "krdict:62266",
+      "collocations": [
+        {
+          "ko": "달이 뜨다",
+          "vi": "Trăng lên"
+        },
+        {
+          "ko": "밝은 달",
+          "vi": "Trăng sáng"
+        }
+      ],
+      "enrich": "auto"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "ㅂ bất quy tắc (A/V có ㅂ cuối gốc từ)",
+      "meaning_vi": "Trước nguyên âm, ㅂ đổi thành `우`",
+      "usage_context_vi": "**Cấu tạo:** Gốc từ kết thúc bằng `ㅂ` (`덥-`, `춥-`, `어렵-`, `가깝-`, `쉽-`, `맵-`) gặp đuôi bắt đầu bằng **nguyên âm** hoặc `으`: **bỏ** `ㅂ`, **thêm** `우`; `우 + 어` thành `워`. Gặp đuôi bắt đầu bằng **phụ âm** thì giữ `ㅂ`. Ngoại lệ `우 + 아 → 와`: `돕다 → 도와요`, `곱다 → 고와요`.\n| Đuôi bắt đầu bằng | Xử lý `ㅂ` | Ví dụ |\n| **NGUYÊN ÂM hoặc 으** — `-아/어`, `-(으)면`, `-(으)ㄴ`, `-(으)ㄹ` | **BỎ** `ㅂ`, **THÊM** `우` | `더워요`, `추워요`, `어려워요`, `쉬워요`; `더우면`, `더운 날씨`, `추울 거예요` |\n| **PHỤ ÂM** — `-고`, `-지만`, `-습니다` | **GIỮ** `ㅂ` | `덥고`, `춥지만`, `덥습니다` |\n| **NGOẠI LỆ** — `돕다`, `곱다` | `우 + 아` thành `와`, không phải `워` | `도와요`, `고와요` |\nCác từ **bất quy tắc** hay gặp khi tả thời tiết và cảm giác:\n- `덥다` (nóng) → `더워요`\n- `춥다` (lạnh) → `추워요`\n- `어렵다` (khó) → `어려워요`\n- `가깝다` (gần) → `가까워요`\n- `쉽다` (dễ) → `쉬워요`\n- `맵다` (cay) → `매워요`\n**Hoàn cảnh dùng:** xuất hiện trong hầu hết câu tả thời tiết và cảm giác: `날씨가 더워서`, `추운 겨울`, `더우면 에어컨을 켜요`. Đây là **quy tắc chia từ**, không phải mẫu câu, nên chia sai (`덥어서`, `춥은`) bị tính là lỗi ngữ pháp rõ ràng trong bài viết.\n**Vì sao chọn nó thay vì giữ nguyên ㅂ như `입다`:** chỉ nhóm bất quy tắc mới đổi `ㅂ → 우`. Nhóm quy tắc (`입다, 좁다, 잡다, 씹다, 뽑다, 접다`) giữ `ㅂ` (`입어요`, `좁아요`), nên phải nhớ đúng nhóm chứ không đoán theo âm.",
+      "contrasts": [
+        {
+          "pattern": "ㅂ quy tắc (입다, 좁다, 잡다)",
+          "diff_vi": "Giữ nguyên `ㅂ`: `입어요`, `좁아요`, `잡아요`; nhóm bất quy tắc đổi `ㅂ` thành `우`."
+        },
+        {
+          "pattern": "돕다 · 곱다",
+          "diff_vi": "Ngoại lệ trong nhóm bất quy tắc: `우 + 아` thành `와` (`도와요`, `고와요`), không phải `워`."
+        }
+      ],
+      "example_ko": "날씨가 더워서 에어컨을 켰어요.\n겨울에는 추워서 두꺼운 옷을 입어요.\n더운 날에는 물을 많이 마시세요.\n친구가 이사를 도와줬어요.",
+      "example_vi": "Trời nóng nên tôi đã bật điều hòa.\nMùa đông lạnh nên tôi mặc áo dày.\nVào những ngày nóng hãy uống nhiều nước.\nBạn đã giúp tôi chuyển nhà.",
+      "source": "G6-1",
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Giữ `ㅂ` rồi gắn nguyên âm: ✗ `덥어요`, `춥어서` → `더워요`, `추워서`.\n(2) Sai ở đuôi `-(으)`: ✗ `덥은 날씨`, `덥으면` → `더운 날씨`, `더우면`.\n(3) Đổi `ㅂ` cho động từ quy tắc: ✗ `이워요` → `입어요`; ✗ `조워요` → `좁아요`.\n(4) Chia `돕다` như nhóm còn lại: ✗ `도워요` → `도와요`.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Thời tiết, Bốn mùa & Dự báo'.",
+      "topik_tip_vi": "Khi viết mô tả thời tiết, đọc lại các tính từ có `ㅂ` ở cuối (`덥다, 춥다, 어렵다`) trước khi nộp bài: chia sai nhóm này là lỗi dễ thấy nhất mà dễ tránh nhất.",
+      "builds_on": [
+        "ㅂ bất quy tắc (덥다 · 춥다 · 맵다 · 어렵다 · 돕다)"
+      ],
+      "importance": "must"
+    },
+    {
+      "pattern": "A + -아/어지다",
+      "meaning_vi": "Trở nên, đang dần trở thành (thay đổi trạng thái)",
+      "usage_context_vi": "**Cấu tạo:** Gốc tính từ + `-아/어지다`: gốc có `ㅏ/ㅗ` + `-아지다`, còn lại + `-어지다`, `하다` → `해지다`.\n- `많다` → `많아지다`, `길다` → `길어지다`, `따뜻하다` → `따뜻해지다`\n- `춥다` → `추워지다` (`ㅂ` bất quy tắc)\nChia thì ở `지다`:\n- `추워졌어요` (đã trở nên)\n- `추워지고 있어요` (đang dần)\n- `추워질 거예요` (sẽ)\n**Hoàn cảnh dùng:** nói **trạng thái thay đổi theo thời gian**, nhất là mùa và thời tiết: `날씨가 따뜻해졌어요`, `해가 짧아지고 있어요`. Trong văn viết dùng 한다체: `기온이 높아지고 있다`. Chủ ngữ đi với `이/가`.\n**Vì sao chọn nó thay vì `-게 되다`:** `-게 되다` thường gắn **động từ** để nói tình huống dẫn đến kết quả (`한국에서 살게 됐어요`); tính từ chỉ trạng thái như `따뜻하다, 길다` cần `-아/어지다` để nói 'trở nên'.",
+      "contrasts": [
+        {
+          "pattern": "-게 되다",
+          "diff_vi": "Tình huống/kết quả, thường gắn động từ; `-아/어지다` gắn tính từ để nói thay đổi trạng thái."
+        },
+        {
+          "pattern": "V + -아/어지다 (bị động)",
+          "diff_vi": "Gắn động từ thì thành bị động (`만들다 → 만들어지다`); gắn tính từ mới có nghĩa 'trở nên'."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Chia sai nguyên âm: ✗ `많어지다`, `따뜻하어졌다` → `많아지다`, `따뜻해졌다`.\n(2) Quên `ㅂ` bất quy tắc: ✗ `춥어졌어요`, `덥어지다` → `추워졌어요`, `더워지다`.\n(3) Dùng tân ngữ `을/를` cho đối tượng thay đổi: ✗ `날씨를 따뜻해졌어요` → `날씨가 따뜻해졌어요`.\n(4) Nhầm thì: `따뜻해졌어요` là **đã ấm lên** (kết quả), còn `따뜻해져요` là **đang dần ấm lên** (hay đi với `점점`).\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Thời tiết, Bốn mùa & Dự báo'.",
+      "example_ko": "날씨가 따뜻해졌어요.\n가을에는 낮이 짧아지고 밤이 길어져요.\n여름이 되면서 점점 더워져요.\n요즘 기온이 높아지고 있다.",
+      "example_vi": "Thời tiết đã ấm lên.\nVào mùa thu ngày ngắn lại và đêm dài ra.\nKhi vào hè, trời dần nóng lên.\nDạo này nhiệt độ đang tăng lên.",
+      "source": "G6-2",
+      "exam": "kiip-3",
+      "topik_tip_vi": "Mô tả sự thay đổi theo mùa hay theo số liệu trong bài viết thường cần một câu `… -아/어지고 있다`; dùng đúng tính từ + `-아/어지다` là cách gọn nhất để nói 'trở nên'.",
+      "builds_on": [
+        "V/A + -아/어요"
+      ],
+      "importance": "must"
+    },
+    {
+      "pattern": "V/A + -(으)ㄹ지도 모르다 · N + 일지도 모르다",
+      "meaning_vi": "Có thể (khả năng không chắc chắn)",
+      "usage_context_vi": "**Cấu tạo:** V/A gốc không patchim + `-ㄹ지도 모르다`, có patchim + `-을지도 모르다`: 오다 → `올지도 모르다`, 먹다 → `먹을지도 모르다`, 춥다 → `추울지도 모르다`. Danh từ + `일지도 모르다`. Quá khứ: `-았/었을지도 모르다`. `모르다` là 르 bất quy tắc: `몰라요` (해요체), `모릅니다`, `모른다` (한다체).\n**Hoàn cảnh dùng:** nêu **khả năng không chắc**, hay đi kèm lời khuyên phòng xa: `비가 올지도 몰라요. 우산을 가져가세요.`, `밤에는 영하로 떨어질지도 모르니까 따뜻하게 입으세요.` Trong văn viết: `태풍이 올지도 모른다`.\n**Vì sao chọn nó thay vì `-(으)ㄹ 것 같다`:** `-(으)ㄹ 것 같다` là phỏng đoán có căn cứ, khá chắc; `-(으)ㄹ지도 모르다` chắc chắn thấp hơn, chỉ nêu khả năng nên rất hợp để đưa lời khuyên phòng xa.",
+      "contrasts": [
+        {
+          "pattern": "-(으)ㄹ 것 같다",
+          "diff_vi": "Phỏng đoán có căn cứ, khá chắc; `-(으)ㄹ지도 모르다` chắc chắn thấp hơn."
+        },
+        {
+          "pattern": "-(으)ㄹ 수도 있다",
+          "diff_vi": "Gần nghĩa, trung tính hơn; `-(으)ㄹ지도 모르다` nghe lo xa hơn và hay kèm lời khuyên."
+        },
+        {
+          "pattern": "-(으)ㄹ지 모르다",
+          "diff_vi": "Không có `도`: nghĩa là **không biết liệu có … hay không** (`비가 올지 몰라요`), khác hẳn nghĩa 'có thể'."
+        }
+      ],
+      "example_ko": "내일은 비가 올지도 몰라요. 우산을 가져가세요.\n밤에는 기온이 영하로 떨어질지도 모르니까 따뜻하게 입으세요.\n지금 서울은 아주 추울지도 몰라요.\n이번 주말에는 태풍이 올지도 모른다.",
+      "example_vi": "Ngày mai có thể sẽ mưa. Hãy mang ô theo.\nBan đêm nhiệt độ có thể xuống dưới 0 độ nên hãy mặc ấm.\nBây giờ ở Seoul có thể rất lạnh.\nCuối tuần này có thể có bão.",
+      "source": "G6-3",
+      "exam": "kiip-4",
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Bỏ `도`: `비가 올지 몰라요` = 'không biết có mưa không', còn 'có thể mưa' là `올지도 몰라요`.\n(2) Chia sai `모르다`: ✗ `올지도 모르요` → `몰라요`.\n(3) Chia sai gốc: ✗ `올을지도`, `춥을지도` → `올지도`, `추울지도`.\n(4) Dùng cho việc đã biết chắc: ✗ `내일은 일요일일지도 몰라요` (lịch đã rõ) → `일요일이에요`.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Thời tiết, Bốn mùa & Dự báo'.",
+      "topik_tip_vi": "Khi nghe, `-(으)ㄹ지도 모르다` báo hiệu một khả năng chứ không phải điều chắc chắn: đáp án thường là lời khuyên chuẩn bị (mang ô, mặc ấm), không phải 'chắc chắn mưa'.",
+      "builds_on": [
+        "V + -(으)ㄹ + N (dự định · sắp xảy ra)",
+        "N + 도"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "A + -(으)ㄴ 편이다 · V + -는 편이다",
+      "meaning_vi": "Thuộc loại \"khá là\", khuynh hướng chung",
+      "usage_context_vi": "**Cấu tạo:** tính từ gốc không patchim + `-ㄴ 편이다`, có patchim + `-은 편이다`: 따뜻하다 → `따뜻한 편이다`, 많다 → `많은 편이다`, 춥다 → `추운 편이다`. Động từ + `-는 편이다`: 오다 → `오는 편이다`, ㄹ rơi: 살다 → `사는 편이다`. Quá khứ: tính từ `추운 편이었다`; động từ `-(으)ㄴ 편이었다` (`비가 많이 온 편이었다`). Với động từ nên có trạng từ mức độ (`잘, 자주, 많이, 일찍`).\n**Hoàn cảnh dùng:** nói **khuynh hướng chung, mức độ trung bình hướng về một phía** chứ không khẳng định tuyệt đối: `한국의 겨울은 추운 편이에요`, `여름에는 비가 자주 오는 편이다`. Cũng dùng để tự giới thiệu: `저는 일찍 일어나는 편이에요`.\n**Vì sao chọn nó thay vì tính từ đơn thuần (`춥다`):** `춥다` khẳng định chắc chắn; `추운 편이다` thu hẹp thành 'thuộc loại khá lạnh', tránh nói quá và hợp khi đánh giá chung dựa trên điều đã biết.",
+      "contrasts": [
+        {
+          "pattern": "매우/아주 + A",
+          "diff_vi": "Nói mức độ cao; `-(으)ㄴ 편이다` nhẹ hơn, nghĩa là 'khá là'."
+        },
+        {
+          "pattern": "-(으)ㄴ/는 것 같다",
+          "diff_vi": "Phỏng đoán; `편이다` là đánh giá chung dựa trên điều đã biết."
+        }
+      ],
+      "example_ko": "한국의 겨울은 추운 편이에요.\n여름에는 비가 자주 오는 편이에요.\n저는 더위를 많이 타는 편이에요.\n올해는 봄이 따뜻한 편이다.",
+      "example_vi": "Mùa đông ở Hàn Quốc thuộc loại khá lạnh.\nVào mùa hè thì thuộc dạng hay mưa.\nTôi thuộc kiểu dễ bị nóng (rất sợ nóng).\nNăm nay mùa xuân thuộc loại khá ấm.",
+      "source": "G6-4",
+      "exam": "kiip-2",
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Gắn sai đuôi định ngữ: ✗ `추운는 편이에요`, `오은 편이에요` → `추운 편이에요`, `오는 편이에요`.\n(2) Quên `ㅂ` bất quy tắc: ✗ `춥은 편이에요` → `추운 편이에요`.\n(3) Động từ thiếu trạng từ mức độ: `비가 오는 편이에요` nghe thiếu ý → `비가 자주 오는 편이에요`.\n(4) Chia thì ở `편이다`: ✗ `추웠는 편이에요` → `추운 편이었어요`.\n(5) Nhầm `편이다` (thuộc loại) với `편하다` (thoải mái).\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Thời tiết, Bốn mùa & Dự báo'.",
+      "topik_tip_vi": "Trong bài viết mô tả khí hậu hay thống kê, `-(으)ㄴ/는 편이다` giúp nói giảm, không khẳng định tuyệt đối. Một câu `… 큰 편이다` hay `… 많은 편이다` là đủ thể hiện mẫu này.",
+      "builds_on": [
+        "A + -은/ㄴ",
+        "V + -는 + N · A + -(으)ㄴ + N (hiện tại)"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "-겠- (bản tin nói, 합쇼체) · -(으)ㄹ 것으로 예상되다/보이다/전망이다 (bản tin viết)",
+      "meaning_vi": "Dự báo",
+      "usage_context_vi": "**Cấu tạo:** bản tin nói (합쇼체): gốc V/A + `-겠습니다`: 맑다 → `맑겠습니다`, 오다 → `오겠습니다`, 떨어지다 → `떨어지겠습니다`. Bản tin viết (한다체): V/A + `-(으)ㄹ 것으로 예상된다 · 보인다`, hoặc `-(으)ㄹ 전망이다`: `비가 올 것으로 예상된다`, `기온이 오를 것으로 보인다`, `추울 전망이다`.\n**Hoàn cảnh dùng:** chỉ dùng trong **bản tin dự báo**: phát thanh/truyền hình dùng `-겠습니다`; báo viết và văn bản dùng `-(으)ㄹ 것으로 예상된다/보인다` hay `-(으)ㄹ 전망이다`. Thường mở bằng nguồn tin (`기상청에 따르면`, học ở bài 9). Một bản tin giữ **một** thể từ đầu đến cuối.\n**Vì sao chọn nó thay vì `-(으)ㄹ 거예요`:** `-(으)ㄹ 거예요` là dự đoán thường ngày; bản tin cần giọng khách quan nên dùng `-겠습니다` (nói) hay `예상된다/전망이다` (viết).",
+      "contrasts": [
+        {
+          "pattern": "-(으)ㄹ 거예요",
+          "diff_vi": "Dự đoán thường ngày trong hội thoại; không hợp giọng bản tin."
+        },
+        {
+          "pattern": "-(으)ㄹ 것 같다",
+          "diff_vi": "Phỏng đoán cá nhân của người nói; bản tin dự báo dùng giọng khách quan."
+        }
+      ],
+      "example_ko": "내일 전국이 대체로 맑겠습니다.\n서울은 아침 기온이 영하로 떨어지겠습니다.\n내일 전국에 비가 올 것으로 예상된다.\n주말에는 기온이 크게 오를 것으로 보인다.",
+      "example_vi": "Ngày mai cả nước nhìn chung sẽ quang đãng.\nỞ Seoul nhiệt độ buổi sáng sẽ xuống dưới 0 độ.\nNgày mai dự kiến cả nước sẽ có mưa.\nCuối tuần nhiệt độ dự kiến sẽ tăng mạnh.",
+      "source": "G6-7",
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Trộn hai thể trong một bản tin: ✗ `맑겠습니다. 비가 올 것으로 예상된다.` → thống nhất `-겠습니다` hoặc `예상된다`.\n(2) Bỏ `으로`: ✗ `비가 올 것이 예상된다` → `올 것으로 예상된다`.\n(3) Dùng động từ chủ động: ✗ `올 것으로 예상한다` → `예상된다` (bị động vì không nêu người dự đoán).\n(4) Hiểu `-겠-` trong bản tin là ý chí: `맑겠습니다` là dự báo 'sẽ quang đãng', không phải 'tôi sẽ …'.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Thời tiết, Bốn mùa & Dự báo'.",
+      "topik_tip_vi": "Nghe: đài phát thanh dùng `-겠습니다` để dự báo, đừng hiểu là ý chí của người nói. Viết đoạn tin tức: dùng `-(으)ㄹ 것으로 예상된다` cho câu dự báo.",
+      "builds_on": [
+        "V/A + -겠-",
+        "V + -(으)ㄹ 거예요"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V + -(으)니까 (보니까)",
+      "meaning_vi": "Khi làm V thì (mới) thấy/biết …",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** `V + -(으)니까`: chọn theo **patchim** của gốc.\n| Gốc từ | Thêm | Ví dụ |\n| **Có patchim** | `-으니까` | `먹다` → `먹으니까` / `먹어 보니까` |\n| **Không patchim** | `-니까` | `보다` → `보니까` |\n| **Gốc** `ㄹ` (rơi `ㄹ`) | `-니까` | `만들다` → `만드니까` |\nHay gặp nhất: `보니까`, `V + -아/어 보니까`, `알고 보니까`.\nKhông thêm `-았/었-` hay `-겠-` vào vế trước; vế sau là điều đã thấy hoặc đã biết (`-았/었어요`, `-네요`, `-더라고요` hoặc một sự thật hiện tại).\n**Hoàn cảnh dùng:** Khẩu ngữ và lối kể chuyện (cả bài Nói S3): kể lại việc mình vừa xem/nhìn/thử rồi mới nhận ra điều gì, như `일기예보를 보니까 …`, `직접 입어 보니까 …`, `와 보니까 …`. Dùng thoải mái với bạn bè, đồng nghiệp; thêm `-요` thành 해요체, trong thư/bài nói trang trọng vẫn dùng được.\n**Vì sao chọn nó thay vì -아/어서:** `-아/어서` chỉ nối lý do → kết quả, còn `-(으)니까` kiểu này nói \"làm V xong thì **mới thấy/biết** …\": hành động V chỉ là bước dẫn tới phát hiện, vế sau là điều phát hiện được. `창문을 열어 보니까 눈이 오고 있었어요` không thể đổi sang `-아/어서` vì mở cửa sổ không phải là lý do khiến tuyết rơi.\n**Trong bài này:** Trong bài Thời tiết, `일기예보를 보니까 비가 올지도 몰라요` ghép `-(으)니까` (nguồn thông tin vừa xem) với core `V/A + -(으)ㄹ지도 모르다` (khả năng); đừng nhầm nó với các mẫu dự báo `-겠-` / `-(으)ㄹ 것으로 예상되다`.",
+      "contrasts": [
+        {
+          "pattern": "V/A + -(으)ㄹ지도 모르다",
+          "diff_vi": "Không thay thế nhau mà đi cùng nhau: `-(으)니까` nêu việc đã xem/phát hiện, còn `-(으)ㄹ지도 모르다` nêu khả năng suy ra (có thể mưa)."
+        },
+        {
+          "pattern": "-아/어서",
+          "diff_vi": "Chỉ nguyên nhân → kết quả, không có nghĩa \"làm rồi mới biết\"; không dùng được khi vế trước chỉ là bước phát hiện."
+        },
+        {
+          "pattern": "-(으)니까 (nghĩa nguyên nhân)",
+          "diff_vi": "Cùng hình thức nhưng nghĩa nguyên nhân dùng được với A/V/N, thêm `-았/었-`, và vế sau có thể là mệnh lệnh/lời rủ (`비가 오니까 우산을 가져가세요`); nghĩa phát hiện chỉ có V và vế sau là điều đã thấy."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n• Dịch \"vì xem … nên …\" rồi dùng `-아/어서`: `일기예보를 봐서 태풍이 온다고 했어요` sai nghĩa → phải là `보니까`.\n• Nhầm hai nghĩa của `-(으)니까`: nghĩa nguyên nhân cho phép mệnh lệnh/rủ ở vế sau, còn nghĩa phát hiện thì vế sau chỉ là điều đã thấy/biết.\n• Thêm `-았/었-` vào vế trước (`가 봤으니까 사람이 많았어요`) → nghĩa phát hiện luôn dùng `가 보니까`.\n*Biên soạn bổ sung:* ví dụ 1 lấy từ bộ đề, các ví dụ còn lại và phần giải thích là biên soạn thêm.",
+      "topik_tip_vi": "Nghe câu 7: người nam nói \"일기예보를 보니까 비가 올지도 몰라요\" → xem dự báo rồi mới biết nên đáp án là lời khuyên mang ô. Nói S3: bài mẫu có \"일기예보를 보니까 태풍이 온다고 했어요\". Cần hiểu nghĩa \"xem rồi mới biết\"; khi kể chuyện hãy dùng nó thay cho -아/어서.",
+      "example_ko": "일기예보를 보니까 비가 올지도 몰라요.\n아침에 일어나서 창밖을 보니까 안개가 짙게 끼어 있었어요.\n이사 와서 살아 보니까 이 동네는 겨울에 바람이 많이 불어요.",
+      "example_vi": "Xem dự báo thời tiết thì thấy có thể trời sẽ mưa đấy.\nSáng ngủ dậy nhìn ra ngoài cửa sổ thì thấy sương mù giăng dày đặc.\nChuyển đến sống thử mới biết khu này mùa đông gió thổi rất nhiều.",
+      "source": "EXT-T2-07",
+      "exam": "kiip-2",
+      "use_level": "produce",
+      "builds_on": [
+        "V/A + -(으)니까"
+      ]
+    },
+    {
+      "pattern": "V/A + -네요",
+      "meaning_vi": "… quá nhỉ, … thật đấy (ngạc nhiên hoặc cảm thán khi trực tiếp thấy, nghe, trải nghiệm)",
+      "usage_context_vi": "**Cấu tạo:** Gốc V/A + `-네요`, không đổi theo patchim. Quá khứ: `-았/었네요` (`눈이 많이 왔네요`). Danh từ: `N(이)네요` (`벌써 가을이네요`). Bỏ `요` thành `-네` là 반말.\nHai điểm cần nhớ:\n- Gốc `ㄹ` bỏ `ㄹ` trước `ㄴ`: `살다` → `사네요`, `멀다` → `머네요`, `불다` → `부네요`\n- `ㅂ` bất quy tắc **GIỮ** `ㅂ` vì `-네요` bắt đầu bằng phụ âm: `덥다` → `덥네요`, `춥다` → `춥네요`\n**Hoàn cảnh dùng:** Phản ứng tự nhiên với điều VỪA thấy hoặc vừa nhận ra: thời tiết (`오늘 정말 덥네요`), khen người đối diện (`한국어를 잘하시네요`), nhận xét sự vật (`방이 깨끗하네요`). Thường dùng cho điều quan sát được ở bên ngoài mình, không dùng để kể việc mình tự làm.\n**Vì sao chọn nó thay vì `-아/어요`:** `-아/어요` chỉ nói sự việc, trung tính. `-네요` thêm cảm xúc 'ồ, thì ra', cho thấy bạn đang trực tiếp cảm nhận điều đó. Câu `오늘 덥네요` nghe như bạn vừa bước ra nắng và thốt lên, còn `오늘 더워요` chỉ là thông báo.",
+      "contrasts": [
+        {
+          "pattern": "V/A + -군요 · -는군요",
+          "diff_vi": "Cũng là cảm thán khi mới biết, nhưng rộng hơn: dùng được cả cho điều mới nghe người khác nói hoặc mới suy ra."
+        },
+        {
+          "pattern": "V/A + -지요? (-죠?)",
+          "diff_vi": "Xác nhận điều đã biết, không phải ngạc nhiên."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng cho việc chính mình đang làm: ✗ `저는 지금 밥을 먹네요` → `저는 지금 밥을 먹어요`.\n(2) Quên bỏ ㄹ: ✗ `집이 멀네요`, `여기서 살네요` → `집이 머네요`, `여기서 사네요`.\n(3) Đổi ㅂ thành `우`: ✗ `더우네요`, `추우네요` → `덥네요`, `춥네요`.\n(4) Không chuyển sang quá khứ khi nói chuyện đã xảy ra: ✗ `어제 눈이 많이 오네요` → `어제 눈이 많이 왔네요`.\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc và nhãn kỳ thi đối chiếu với KIIP 초급1 15과 (V/A-네요) · 표준국어대사전 (-네요).",
+      "topik_tip_vi": "Bản tin và hội thoại đời thường: `덥네요/춥네요/많이 왔네요` là phản ứng. Khi đáp án gồm `-네요` và `-군요`, nếu người nói tự mình thấy ngay tại chỗ thì ưu tiên `-네요`; nếu mới biết qua lời người khác thì ưu tiên `-군요`.",
+      "example_ko": "오늘 날씨가 정말 덥네요.\n눈이 많이 왔네요.\n벌써 가을이네요.\n한국어를 정말 잘하시네요.\n바람이 많이 부네요.\n집이 정말 머네요.",
+      "example_vi": "Hôm nay trời nóng thật đấy.\nTuyết rơi nhiều quá.\nĐã mùa thu rồi cơ đấy.\nBạn nói tiếng Hàn giỏi thật đấy.\nGió thổi mạnh quá.\nNhà xa thật đấy.",
+      "source": "KIIP 초급1 15과 (V/A-네요) · 표준국어대사전 (-네요)",
+      "exam": "kiip-1",
+      "importance": "must"
+    },
+    {
+      "pattern": "V/A + -군요 · -는군요",
+      "meaning_vi": "Ra là …, thì ra …! (ngạc nhiên khi vừa biết hoặc vừa nhận ra điều trước đó chưa biết)",
+      "usage_context_vi": "**Cấu tạo:** Chọn theo loại từ:\n| Loại từ | Cách thêm | Ví dụ |\n| **Tính từ**, `이다`, `있다/없다` | gốc + `-군요` | `좋군요`, `학생이군요`, `있군요`, `없군요` |\n| **Động từ** | gốc + `-는군요` (gốc `ㄹ` bỏ `ㄹ`) | `오는군요`, `먹는군요`, `사는군요` |\n| **Quá khứ** | `-았/었군요` | `왔군요`, `오셨군요` |\n`ㅂ` bất quy tắc giữ nguyên vì đuôi bắt đầu bằng phụ âm: `춥군요`.\nBỏ `요` thành `-구나/-는구나` là 반말.\n**Hoàn cảnh dùng:** Tiếp nhận thông tin MỚI: nghe người kia nói rồi thốt lên (`A: 저는 광주에서 왔어요. B: 아, 광주에서 오셨군요.`), nhìn thấy rồi nhận ra (`아, 비가 오는군요`), hiểu ra sau khi giải thích (`아, 그분이 선생님이군요`). Thường nói chậm, có 'à/ồ' ở đầu.\n**Vì sao chọn nó thay vì `-네요`:** Cả hai đều là cảm thán. `-네요` gắn với cảm nhận trực tiếp, tại chỗ. `-군요/-는군요` nhấn vào việc BẠN VỪA BIẾT điều đó, kể cả khi thông tin đến từ lời người khác hoặc từ suy luận. Vì vậy sau lời giới thiệu của người đối diện, đáp `-군요` rất tự nhiên.",
+      "contrasts": [
+        {
+          "pattern": "V/A + -네요",
+          "diff_vi": "Cảm thán khi trực tiếp thấy, nghe, trải nghiệm."
+        },
+        {
+          "pattern": "V/A + -지요? (-죠?)",
+          "diff_vi": "Xác nhận điều đã biết, khác với 'vừa mới biết'."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Quên `는` sau gốc động từ: ✗ `비가 오군요` → `비가 오는군요`.\n(2) Thêm `는` sau tính từ: ✗ `날씨가 좋는군요`, `춥는군요` → `날씨가 좋군요`, `춥군요`.\n(3) Dùng cho điều mình đã biết từ lâu: ✗ `저는 한국 사람이군요` → `저는 한국 사람이에요`.\n(4) Không chuyển sang quá khứ: ✗ `어제 눈이 오는군요` → `어제 눈이 왔군요`.\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc đối chiếu với Tóm tắt ngữ pháp New Yonsei 1-2 (người dùng cung cấp) · 표준국어대사전 (-군요, -는군요).",
+      "topik_tip_vi": "Đối thoại: B lặp lại thông tin mà A vừa cho rồi thêm `-군요` (kiểu '… à, ra thế'). Nếu đáp án hỏi chọn giữa `-군요` và `-지요?`, nhớ: `-군요` = vừa biết, `-지요?` = đã biết nên xác nhận.",
+      "example_ko": "아, 비가 오는군요.\n날씨가 정말 좋군요.\n아, 그분이 선생님이군요.\n한국에서 오래 사셨군요.\n한국어를 공부하는군요.\n어제 눈이 왔군요.",
+      "example_vi": "À, trời đang mưa à.\nThời tiết đẹp thật đấy.\nÀ, vị đó là thầy (cô) giáo à.\nRa là bạn đã sống ở Hàn lâu rồi.\nRa là bạn đang học tiếng Hàn.\nHôm qua đã có tuyết à.",
+      "source": "Tóm tắt ngữ pháp New Yonsei 1-2 (người dùng cung cấp) · 표준국어대사전 (-군요, -는군요)",
+      "builds_on": [
+        "V/A + -네요"
+      ],
+      "importance": "normal"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài (và ranh giới với bài 09)",
+      "body": "Chủ đề 날씨와 계절 (thời tiết & mùa) được chia làm hai bài: bài này (08) = 🟢 Nền + phần thời tiết, mùa, dự báo của 🟡; bài 09 = so sánh, trích nguồn, khí hậu (+ tầng 🔴 Viết 54).\n**Mục tiêu:** 🟢 nói thời tiết và mùa, nắm biến đổi ㅂ bất quy tắc · 🟡 nghe và đọc bản tin dự báo, đọc biểu đồ nhiệt độ/lượng mưa (Nghe câu 3, Viết 53), tin tức về thời tiết bất thường · 🔴 Viết 54 về biến đổi khí hậu toàn cầu.\n**Ranh giới với bài 05–07:** các bài đó bàn ô nhiễm **tại chỗ** (bụi mịn, rác nhựa); phần này bàn **khí hậu toàn cầu** (nóng lên, thiên tai, khí nhà kính).\n• 🎯 **Đầu ra:** cuối bài bạn viết được một đoạn 150–320 chữ so sánh thời tiết quê bạn với Hàn Quốc, dùng `-(으)ㄴ/는 편이다` (Bước 5), và nói về nó trong 30 giây.",
+      "kind": "goal"
+    },
+    {
+      "title": "Mẫu câu 🟢 (bản dịch tham khảo)",
+      "body": "• 비가 오는군요. 내일은 날씨가 추울 것 같아요. — *Mưa rồi nhỉ. Ngày mai thời tiết có vẻ sẽ lạnh.*\n• 한국은 사계절이 있어요. 봄에는 따뜻하고 여름에는 더워요. — *Hàn Quốc có bốn mùa. Mùa xuân thì ấm áp, mùa hè thì nóng.*\n• 오늘은 흐리고 바람이 불어서 쌀쌀해요. — *Hôm nay trời âm u, gió thổi nên se lạnh.*\n• 가을이 되면서 날씨가 선선해졌어요. — *Khi vào thu, thời tiết đã trở nên mát dịu.*",
+      "kind": "language"
+    },
+    {
+      "title": "Ngữ pháp ôn (không phải mẫu mới)",
+      "body": "**Ôn ngữ pháp (🟢):** `-(으)ㄹ 것 같다` · `-(으)ㄴ/는 것 같다` · `-군요` · `-(으)ㄹ 거예요` (nền 1–2급) · `-(으)면서` (nền) · `-게 되다`.\n**Cụm dùng trước khi học chính thức:** `곳에 따라` (sẽ học chính thức ở bài 10).\nPhần ôn/nền của tầng 🟡 (`-(ㄴ/는)다고 하다`, `N(으)로 인해`…) xem ở bài 09.",
+      "kind": "language"
+    },
+    {
+      "title": "Mẫu bản tin dự báo (Nghe/Đọc, văn nói, 합쇼체; số liệu minh họa)",
+      "body": "내일은 전국이 대체로 흐리고 오후부터 곳에 따라 비가 오겠습니다. 아침 기온은 오늘보다 낮아 쌀쌀하겠고, 낮 기온은 20도 안팎으로 예상됩니다. 일교차가 크니 건강 관리에 유의하시기 바랍니다.\n*Bản dịch tham khảo:* Ngày mai trời nhìn chung âm u trên cả nước, từ chiều có mưa tùy nơi. Nhiệt độ buổi sáng thấp hơn hôm nay nên sẽ se lạnh, nhiệt độ ban ngày dự kiến khoảng 20 độ. Chênh lệch nhiệt độ ngày đêm lớn nên xin lưu ý giữ gìn sức khỏe.",
+      "kind": "sample"
+    },
+    {
+      "title": "Mẫu Viết 52 (đoạn giải thích về bốn mùa và món ăn)",
+      "body": "한국은 사계절이 뚜렷해서 계절마다 먹는 음식이 다르다. 특히 여름에는 **(㉠ 더위를 이기기 위해 시원한 냉면을 즐겨 먹는다)**. 반면에 겨울에는 **(㉡ 추위를 이기기 위해 따뜻한 국물 요리를 많이 먹는다)**.\n*Bản dịch tham khảo:* Hàn Quốc có bốn mùa rõ rệt nên món ăn mỗi mùa mỗi khác. Đặc biệt vào mùa hè, (㉠ người ta thích ăn mì lạnh naengmyeon để chống nóng). Ngược lại, vào mùa đông, (㉡ người ta ăn nhiều món canh nóng để chống lạnh).\n*Ghi chú đáp án:* ㉠ và ㉡ đều kết bằng 한다체; hai chỗ trống có cấu trúc song song, nên đáp án chấp nhận các món khác miễn hợp lý (ví dụ `삼계탕`).",
+      "kind": "writing"
+    },
+    {
+      "title": "🟢 Bài mẫu: Thời tiết quê tôi và Hàn Quốc (đầu ra của bài)",
+      "kind": "sample",
+      "body": "Đọc to bài mẫu, rồi thay quê Hà Nội bằng quê thật của bạn: đó là bài **Bước 5** ở phần Tạo câu. Mọi từ và mẫu câu trong bài đều đã học đến bài này.\n\n제 고향은 베트남의 하노이입니다. 하노이에도 사계절이 있어서 날씨가 한국과 비슷한 편입니다. 하지만 하노이의 여름은 한국보다 길고 훨씬 덥습니다. 5월부터 9월까지는 기온이 35도까지 오르고 소나기도 자주 오는 편입니다. 반면에 겨울은 한국보다 따뜻해서 기온이 영하로 떨어지지 않고 눈도 오지 않습니다. 그래서 처음 한국에 왔을 때는 겨울이 무척 추워서 정말 힘들었습니다. 저는 추위를 많이 타는 편이라서 지금도 겨울에는 두꺼운 옷을 입고 다닙니다. 그래도 한국에 온 지 2년이 지나면서 한국 날씨에 점점 익숙해지고 있습니다.\n\n*Bản dịch tham khảo:* Quê tôi là Hà Nội, Việt Nam. Hà Nội cũng có bốn mùa nên thời tiết khá giống Hàn Quốc. Nhưng mùa hè Hà Nội dài hơn và nóng hơn Hàn Quốc nhiều. Từ tháng 5 đến tháng 9, nhiệt độ lên tới 35 độ và cũng hay có mưa rào. Ngược lại, mùa đông ấm hơn Hàn Quốc nên nhiệt độ không xuống dưới 0 độ và cũng không có tuyết. Vì vậy, lần đầu đến Hàn Quốc, mùa đông lạnh vô cùng nên tôi đã rất vất vả. Tôi thuộc kiểu người sợ lạnh nên đến giờ mùa đông vẫn mặc áo dày khi ra ngoài. Dù vậy, đã hai năm kể từ khi đến Hàn Quốc, tôi đang dần quen với thời tiết ở đây.\n\n**Đoạn văn đi theo 3 bước:** (1) câu mở: quê bạn ở đâu, thời tiết nhìn chung giống hay khác Hàn Quốc (`비슷한 편입니다`) → (2) so sánh từng mùa: mùa nào nóng hơn, lạnh hơn, mưa nhiều hơn (`N보다 훨씬 …`, `-는 편입니다`, `반면에`) → (3) câu kết: bạn đã gặp khó khăn gì và bây giờ thế nào (`처음 … 왔을 때`, `점점 익숙해지고 있습니다`)."
+    },
+    {
+      "title": "🟢 Khung câu so sánh thời tiết",
+      "kind": "language",
+      "body": "• Giống: `제 고향도 사계절이 있어서 날씨가 한국과 비슷한 편입니다.`\n• Hơn hẳn: `제 고향의 여름은 한국보다 훨씬 덥습니다 / 습합니다.`\n• Khuynh hướng chung (không phải một ngày cụ thể): `비가 자주 오는 편입니다`, `겨울이 따뜻한 편입니다`.\n• Hai mặt trái ngược: `반면에 겨울은 …` (câu mới) hoặc `여름은 덥지만 겨울은 …` (trong một câu).\n• Quanh năm, mùa mưa và mùa khô (miền Nam): `일 년 내내 더운 편이고 우기와 건기가 있습니다.`\n• Bản thân bạn: `저는 추위를 / 더위를 많이 타는 편입니다.`\n• Thay đổi: `한국 날씨에 점점 익숙해지고 있습니다.`\n(Bản dịch tham khảo: giống / nóng, ẩm hơn hẳn / khá hay mưa, mùa đông khá ấm / ngược lại mùa đông thì … / nóng quanh năm, có mùa mưa và mùa khô / tôi sợ lạnh, sợ nóng / tôi đang dần quen với thời tiết Hàn Quốc.)"
+    },
+    {
+      "title": "Lỗi người Việt hay mắc (các mẫu của bài 08)",
+      "body": "(Các lỗi về `N에 비해` và `N에 따르면` nằm ở bài 09, nơi hai mẫu đó được dạy.)\n• Chia sai ㅂ bất quy tắc: ✗ 덥어요, 춥어요 → ✓ 더워요, 추워요; nhầm ngoại lệ: ✗ 도웠어요 → ✓ 도왔어요 (돕다).\n• Chia ㅂ bất quy tắc cho động từ **quy tắc**: ✗ 이워요 → ✓ 입어요 (입다), ✗ 조워요 → ✓ 좁아요 (좁다).\n• Dùng `를` với 비/눈: ✗ 비를 와요 → ✓ 비**가** 와요.\n• Dùng `-(으)ㄹ지도 모르다` khi chắc chắn: ✗ 내일은 반드시 비가 올지도 몰라요.\n• Dùng `-(으)ㄴ/는 편이다` cho trạng thái tuyệt đối: ✗ 오늘은 영하 10도인 편이에요 (nên dùng với mức độ chung chung).\n• Kết bản tin viết bằng `-겠습니다` (văn nói) trong bài **한다체** (nên `-(으)ㄹ 것으로 예상된다`).\n• So sánh mà quên mốc: ✗ `하노이의 여름은 훨씬 더워요` (hơn cái gì?) → ✓ `하노이의 여름은 한국보다 훨씬 더워요`.\n• `비슷하다` đi với `과/와`: ✗ `한국을 비슷해요` → ✓ `한국과 비슷해요`.\n• `추위를 타다`, `더위를 타다` cần `를`: ✗ `저는 추위가 많이 타요` → ✓ `저는 추위를 많이 타요`.",
+      "kind": "pitfall"
+    }
+  ],
+  "bank": "quan-he",
+  "coach": {
+    "focus_vi": [
+      "Dự báo: bản tin nói dùng `-겠습니다`, bản tin viết dùng `-(으)ㄹ 것으로 예상된다`; khả năng: `-(으)ㄹ지도 모르다`.",
+      "Biến đổi và nhận xét: `A + -아/어지다` (trở nên), `-(으)ㄴ 편이다` (khá là).",
+      "Cảm thán: `-네요` (thấy trực tiếp), `-군요` (vừa nhận ra)."
+    ],
+    "watch_out_vi": [
+      "`ㅂ` bất quy tắc: `더워요`, `추워요` (✗ `덥어요`); `입어요`, `좁아요` là quy tắc; ngoại lệ `도왔어요`.",
+      "`-(으)ㄹ지도 모르다` chỉ dùng khi không chắc (✗ `반드시 비가 올지도 몰라요`); `비` đi với `가`: `비가 와요`."
+    ],
+    "notebook_vi": [
+      "Lời dự báo thời tiết ngày mai ở nơi bạn ở, viết 3 câu.",
+      "Các tính từ `ㅂ` bất quy tắc hay gặp (덥다, 춥다…) kèm dạng chia."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Nói ngày mai có thể mưa và khuyên mang ô.",
+        "answer": "내일은 비가 올지도 몰라요. 우산을 가져가세요."
+      },
+      {
+        "prompt_vi": "Đọc một câu dự báo trong bản tin nói.",
+        "answer": "내일 전국이 대체로 맑겠습니다."
+      }
+    ],
+    "tip_vi": "Nghe «Mẫu bản tin dự báo» rồi chép lại phần nhiệt độ; số liệu trong mẫu chỉ để luyện, không phải dự báo thật."
+  },
+  "exercise_ids": [
+    "QL3",
+    "QL7",
+    "QL13",
+    "QL20",
+    "QR12",
+    "QE07a",
+    "QE07b",
+    "QFR31",
+    "QFR32",
+    "QFR33",
+    "QFR34",
+    "QFR35",
+    "QFR36",
+    "QFR37",
+    "QFR38",
+    "QU24R1",
+    "QE07c",
+    "QE07d",
+    "QLN52",
+    "QLN53",
+    "QLN54",
+    "QLN55",
+    "QLN56",
+    "QLN57",
+    "QLN58",
+    "QLN59",
+    "QD17",
+    "QD18",
+    "QU24L1",
+    "QBO37",
+    "QBO38",
+    "QBO39",
+    "QBO40",
+    "QBO41",
+    "QBO42",
+    "QBO43",
+    "QFBO06",
+    "QFBO07",
+    "QFBO08",
+    "QU24O1",
+    "QU24O2",
+    "QBF15",
+    "QBF16",
+    "QFBF04",
+    "QU24F1",
+    "QBC08",
+    "QU24C1",
+    "QBE08",
+    "QU24E1",
+    "QU24S1"
+  ],
+  "topik2": [
+    {
+      "qid": "102-R-3",
+      "why_vi": "Câu nói về khả năng trễ hẹn nếu không xuất phát ngay. Bạn chọn cách nói tương đương với `-(으)ㄹ지도 모르다`, mẫu dự đoán của bài dự báo thời tiết."
+    }
+  ],
+  "editor_notes": [
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "Đầu ra bài 24: đoạn 합쇼체 so sánh thời tiết quê với Hàn Quốc (QU24E1), nói 30 giây (QU24S1); bài đọc QU24R1 (Đà Lạt), bài nghe QU24L1 (Thành phố Hồ Chí Minh). Không dùng `N에 비해` (dạy ở bài 25) dù main bank có thẻ cùng chữ ở bài 13; so sánh bằng `N보다`. `반면에` dùng thẻ từ nối của bài 15. Thêm 11 thẻ 🟢 (비슷하다, 훨씬, 처음, 추위를/더위를 타다, 익숙하다, 일 년 내내, 우기, 건기, 소나기, 땀이 나다): các từ này chưa là thẻ ở bất kỳ bài nào. remove_ids: QS1 (nhà ở, đề gốc bài 21) và QS3 (chuyến Jeju gặp bão, đề gốc bài 26: hủy vé, hoàn tiền; bài nói mẫu dùng `-(으)ㄹ 수밖에 없다`, `규정에 따라` của bài 26 và `-았/었으면 좋겠다` của bài 27). Số liệu thời tiết Hà Nội, Đà Lạt, Thành phố Hồ Chí Minh là mức gần đúng phổ biến, chưa đối chiếu số liệu khí tượng chính thức."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+# HTTPS for the API. HARU_DOMAIN is <ip-with-dashes>.sslip.io by default (a name that points
+# at the VM's static IP without any DNS to set up), or your own domain.
+# Caddy fetches and renews the certificate by itself (ports 80 and 443 must be open).
+{$HARU_DOMAIN} {
+	encode {
+		gzip
+		match {
+			header Content-Type application/json*
+		}
+	}
+
+	# Remote MCP controller on the VM host (authenticated by secret path /mcp/<token>).
+	handle /mcp/* {
+		reverse_proxy unix//run/haru-mcp/mcp.sock {
+			flush_interval -1
+		}
+	}
+
+	# flush_interval -1: send each chunk at once. The job-progress endpoint is a
+	# Server-Sent-Events stream and must not be buffered.
+	reverse_proxy api:8000 {
+		flush_interval -1
+	}
+}

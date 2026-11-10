@@ -1,0 +1,876 @@
+{
+  "slug": "nhap-canh-04-the-cu-tru",
+  "title": "Thẻ cư trú ARC & Văn phòng xuất nhập cảnh",
+  "title_ko": "외국인등록증 만들기",
+  "topic": "Bổ trợ · Nhập cảnh & Thủ tục cư trú",
+  "track": "intermediate",
+  "level": 3,
+  "sort_order": 43,
+  "summary": "Làm thẻ đăng ký người nước ngoài (외국인등록증) trong 90 ngày: giấy tờ cần chuẩn bị, đặt lịch HiKorea, đơn 통합신청서, thông báo của trường và hội thoại ở quầy; thêm những việc phải nhớ sau khi có thẻ (báo đổi nơi ở, gia hạn, làm thêm). Ngữ pháp: -(으)려면, -기 전에 · -(으)ㄴ 후에, -아/어 두다, -(으)면 되다.",
+  "vocab": [
+    {
+      "hangul": "외국인등록",
+      "pos": "N",
+      "meaning_vi": "Đăng ký người nước ngoài",
+      "note_vi": "Làm xong sẽ được cấp thẻ 외국인등록증",
+      "example_ko": "입국한 날부터 90일 이내에 외국인등록을 해야 해요.",
+      "example_vi": "Bạn phải đăng ký người nước ngoài trong vòng 90 ngày kể từ ngày nhập cảnh.",
+      "family": "🟢 Nền · Thẻ cư trú và giấy tờ",
+      "priority": "core"
+    },
+    {
+      "hangul": "외국인등록증",
+      "pos": "N",
+      "meaning_vi": "Thẻ đăng ký người nước ngoài (ARC)",
+      "note_vi": "Hay gọi tắt là 등록증; tiếng Anh: ARC",
+      "example_ko": "외국인등록증을 잃어버렸어요.",
+      "example_vi": "Tôi làm mất thẻ đăng ký người nước ngoài.",
+      "family": "🟢 Nền · Thẻ cư trú và giấy tờ",
+      "priority": "core"
+    },
+    {
+      "hangul": "출입국·외국인사무소",
+      "pos": "N",
+      "meaning_vi": "Văn phòng xuất nhập cảnh – người nước ngoài",
+      "note_vi": "Từ tháng 5/2018 thay tên cũ 출입국관리사무소; người Hàn vẫn hay nói 출입국사무소",
+      "example_ko": "집 근처 출입국·외국인사무소에 예약했어요.",
+      "example_vi": "Tôi đã đặt lịch ở văn phòng xuất nhập cảnh gần nhà.",
+      "family": "🟢 Nền · Thẻ cư trú và giấy tờ",
+      "priority": "recognize",
+      "hanja": "出入國",
+      "sino_vietnamese": "xuất nhập quốc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "통합신청서",
+      "pos": "N",
+      "meaning_vi": "Đơn đăng ký tổng hợp",
+      "note_vi": "Còn gọi là 별지 제34호 서식",
+      "example_ko": "통합신청서에 하고 싶은 일을 표시하세요.",
+      "example_vi": "Hãy đánh dấu việc bạn muốn làm vào đơn tổng hợp.",
+      "family": "🟢 Nền · Thẻ cư trú và giấy tờ",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "신청서",
+      "pos": "N",
+      "meaning_vi": "Đơn xin",
+      "example_ko": "신청서를 작성해서 냈어요.",
+      "example_vi": "Tôi đã điền đơn rồi nộp.",
+      "family": "🟢 Nền · Thẻ cư trú và giấy tờ",
+      "priority": "core",
+      "hanja": "申請書",
+      "sino_vietnamese": "thân thỉnh thư",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "여권",
+      "pos": "N",
+      "meaning_vi": "Hộ chiếu",
+      "example_ko": "여권을 잃어버리지 않게 조심하세요.",
+      "example_vi": "Hãy cẩn thận để không làm mất hộ chiếu.",
+      "family": "🟢 Nền · Thẻ cư trú và giấy tờ",
+      "priority": "core",
+      "hanja": "旅券",
+      "sino_vietnamese": "lữ khoán",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "증명사진",
+      "pos": "N",
+      "meaning_vi": "Ảnh thẻ",
+      "example_ko": "증명사진은 미리 찍어 두세요.",
+      "example_vi": "Hãy chụp sẵn ảnh thẻ.",
+      "family": "🟢 Nền · Thẻ cư trú và giấy tờ",
+      "priority": "recognize",
+      "hanja": "證明寫眞",
+      "sino_vietnamese": "chứng minh tả chân",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "재학증명서",
+      "pos": "N",
+      "meaning_vi": "Giấy xác nhận đang học",
+      "note_vi": "증명서를 떼다 = lấy giấy chứng nhận (văn nói)",
+      "example_ko": "학교에서 재학증명서를 뗐어요.",
+      "example_vi": "Tôi đã lấy giấy xác nhận đang học ở trường.",
+      "family": "🟢 Nền · Thẻ cư trú và giấy tờ",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "재정확인서",
+      "pos": "N",
+      "meaning_vi": "Giấy xác nhận tài chính",
+      "note_vi": "Tên và mẫu giấy có thể khác giữa các trường",
+      "example_ko": "재정확인서도 필요한지 확인해 보세요.",
+      "example_vi": "Hãy kiểm tra xem có cần giấy xác nhận tài chính không.",
+      "family": "🟢 Nền · Thẻ cư trú và giấy tờ",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "거주 확인서",
+      "pos": "N",
+      "meaning_vi": "Giấy xác nhận nơi ở",
+      "note_vi": "Có thể thay bằng 임차계약서",
+      "example_ko": "기숙사 거주 확인서를 학교에서 받았어요.",
+      "example_vi": "Tôi đã nhận giấy xác nhận ở ký túc xá từ trường.",
+      "family": "🟢 Nền · Thẻ cư trú và giấy tờ",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "임차계약서",
+      "pos": "N",
+      "meaning_vi": "Hợp đồng thuê nhà",
+      "example_ko": "임차계약서를 잘 보관하세요.",
+      "example_vi": "Hãy giữ cẩn thận hợp đồng thuê nhà.",
+      "family": "🟢 Nền · Thẻ cư trú và giấy tờ",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "수수료",
+      "pos": "N",
+      "meaning_vi": "Lệ phí",
+      "note_vi": "35,000원 đọc là 삼만 오천 원",
+      "example_ko": "수수료는 35,000원이에요.",
+      "example_vi": "Lệ phí là 35.000 won.",
+      "family": "🟢 Nền · Thẻ cư trú và giấy tờ",
+      "priority": "recognize",
+      "hanja": "手數料",
+      "sino_vietnamese": "thủ số liệu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "발급받다",
+      "pos": "V",
+      "meaning_vi": "Được cấp (giấy tờ)",
+      "note_vi": "Danh từ: 발급",
+      "example_ko": "새 등록증을 발급받았어요.",
+      "example_vi": "Tôi đã được cấp thẻ mới.",
+      "family": "🟢 Nền · Thẻ cư trú và giấy tờ",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "재발급",
+      "pos": "N",
+      "meaning_vi": "Cấp lại",
+      "example_ko": "등록증을 잃어버리면 재발급을 신청해야 해요.",
+      "example_vi": "Nếu làm mất thẻ thì phải xin cấp lại.",
+      "family": "🟢 Nền · Thẻ cư trú và giấy tờ",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "하이코리아",
+      "pos": "N",
+      "meaning_vi": "HiKorea (cổng dịch vụ xuất nhập cảnh trực tuyến)",
+      "note_vi": "Địa chỉ: www.hikorea.go.kr",
+      "example_ko": "하이코리아에서 방문 예약을 했어요.",
+      "example_vi": "Tôi đã đặt lịch đến văn phòng trên HiKorea.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "방문 예약",
+      "pos": "N",
+      "meaning_vi": "Đặt lịch đến văn phòng",
+      "example_ko": "방문 예약을 한 후에 가세요.",
+      "example_vi": "Hãy đặt lịch rồi hãy đến.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "예약하다",
+      "pos": "V",
+      "meaning_vi": "Đặt trước",
+      "note_vi": "Danh từ: 예약",
+      "example_ko": "다음 주 월요일로 예약했어요.",
+      "example_vi": "Tôi đã đặt cho thứ hai tuần sau.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "core",
+      "hanja": "豫約",
+      "sino_vietnamese": "dự ước",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "신청하다",
+      "pos": "V",
+      "meaning_vi": "Đăng ký, xin",
+      "note_vi": "Danh từ: 신청",
+      "example_ko": "체류기간 연장을 신청하러 왔어요.",
+      "example_vi": "Tôi đến để xin gia hạn thời gian lưu trú.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "core",
+      "hanja": "申請",
+      "sino_vietnamese": "thân thỉnh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "접수하다",
+      "pos": "V",
+      "meaning_vi": "Tiếp nhận, nộp hồ sơ",
+      "note_vi": "접수처 = nơi nhận hồ sơ",
+      "example_ko": "서류를 접수했어요.",
+      "example_vi": "Tôi đã nộp hồ sơ.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "recognize",
+      "hanja": "接受",
+      "sino_vietnamese": "tiếp thụ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "단체 접수",
+      "pos": "N",
+      "meaning_vi": "Nộp hồ sơ theo nhóm (qua trường)",
+      "example_ko": "신입생은 학교에서 단체 접수를 하는 경우가 있어요.",
+      "example_vi": "Có trường nộp hồ sơ theo nhóm cho sinh viên mới.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "서류",
+      "pos": "N",
+      "meaning_vi": "Giấy tờ, hồ sơ",
+      "example_ko": "서류가 모두 있는지 확인하세요.",
+      "example_vi": "Hãy kiểm tra xem có đủ giấy tờ không.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "core",
+      "hanja": "書類",
+      "sino_vietnamese": "thư loại",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "준비물",
+      "pos": "N",
+      "meaning_vi": "Đồ cần chuẩn bị",
+      "example_ko": "준비물은 안내문에 있어요.",
+      "example_vi": "Danh sách đồ cần chuẩn bị có trong thông báo.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "core",
+      "hanja": "準備物",
+      "sino_vietnamese": "chuẩn bị vật",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이내",
+      "pos": "N",
+      "meaning_vi": "Trong vòng",
+      "note_vi": "90일 이내 = trong vòng 90 ngày (tính cả ngày thứ 90)",
+      "example_ko": "일주일 이내에 연락드릴게요.",
+      "example_vi": "Tôi sẽ liên lạc với bạn trong vòng một tuần.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "recognize",
+      "hanja": "以內",
+      "sino_vietnamese": "dĩ nội",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "기한",
+      "pos": "N",
+      "meaning_vi": "Thời hạn",
+      "example_ko": "신청 기한이 오늘까지예요.",
+      "example_vi": "Thời hạn đăng ký là đến hôm nay.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "recognize",
+      "hanja": "期限",
+      "sino_vietnamese": "kỳ hạn",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "마감",
+      "pos": "N",
+      "meaning_vi": "Hết hạn nhận, chốt",
+      "example_ko": "신청 마감은 금요일이에요.",
+      "example_vi": "Hạn chót đăng ký là thứ sáu.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "연장하다",
+      "pos": "V",
+      "meaning_vi": "Gia hạn",
+      "note_vi": "Danh từ: 연장",
+      "example_ko": "체류기간을 연장했어요.",
+      "example_vi": "Tôi đã gia hạn thời gian lưu trú.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "recognize",
+      "hanja": "延長",
+      "sino_vietnamese": "diên trường",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "만료되다",
+      "pos": "V",
+      "meaning_vi": "Hết hạn",
+      "note_vi": "Danh từ: 만료",
+      "example_ko": "체류기간이 다음 달에 만료돼요.",
+      "example_vi": "Thời gian lưu trú sẽ hết hạn vào tháng sau.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "recognize",
+      "hanja": "滿了",
+      "sino_vietnamese": "mãn liễu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "체류자격",
+      "pos": "N",
+      "meaning_vi": "Tư cách lưu trú (loại visa)",
+      "note_vi": "D-2: học đại học trở lên; D-4: học tiếng, đào tạo",
+      "example_ko": "유학생의 체류자격은 D-2예요.",
+      "example_vi": "Tư cách lưu trú của du học sinh là D-2.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "체류기간",
+      "pos": "N",
+      "meaning_vi": "Thời hạn lưu trú",
+      "example_ko": "체류기간을 확인해 보세요.",
+      "example_vi": "Hãy kiểm tra thời hạn lưu trú.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "체류지",
+      "pos": "N",
+      "meaning_vi": "Nơi cư trú đã đăng ký",
+      "example_ko": "체류지가 바뀌면 신고해야 해요.",
+      "example_vi": "Nếu nơi cư trú thay đổi thì phải khai báo.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "변경신고",
+      "pos": "N",
+      "meaning_vi": "Khai báo thay đổi",
+      "example_ko": "체류지 변경신고는 하이코리아에서도 할 수 있어요.",
+      "example_vi": "Khai báo thay đổi nơi cư trú cũng làm được trên HiKorea.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "변경하다",
+      "pos": "V",
+      "meaning_vi": "Thay đổi, đổi",
+      "note_vi": "Danh từ: 변경",
+      "example_ko": "체류자격을 D-4에서 D-2로 변경했어요.",
+      "example_vi": "Tôi đã đổi tư cách lưu trú từ D-4 sang D-2.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "core",
+      "hanja": "變更",
+      "sino_vietnamese": "biến canh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이사하다",
+      "pos": "V",
+      "meaning_vi": "Chuyển nhà",
+      "example_ko": "기숙사에서 원룸으로 이사했어요.",
+      "example_vi": "Tôi đã chuyển từ ký túc xá sang phòng trọ.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "core",
+      "hanja": "移徙",
+      "sino_vietnamese": "di tỉ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "시간제취업",
+      "pos": "N",
+      "meaning_vi": "Làm thêm theo giờ (của du học sinh)",
+      "example_ko": "시간제취업을 하려면 허가를 받아야 해요.",
+      "example_vi": "Muốn làm thêm thì phải được cho phép.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "시간제취업확인서",
+      "pos": "N",
+      "meaning_vi": "Giấy xác nhận làm thêm",
+      "example_ko": "시간제취업확인서는 학교에서 받아요.",
+      "example_vi": "Giấy xác nhận làm thêm lấy ở trường.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "허가",
+      "pos": "N",
+      "meaning_vi": "Sự cho phép, giấy phép",
+      "note_vi": "허가를 받다 = được phép",
+      "example_ko": "허가를 받은 후에 일을 시작하세요.",
+      "example_vi": "Hãy bắt đầu làm việc sau khi được cho phép.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "recognize",
+      "hanja": "許可",
+      "sino_vietnamese": "hứa khả",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "위반하다",
+      "pos": "V",
+      "meaning_vi": "Vi phạm",
+      "note_vi": "Danh từ: 위반",
+      "example_ko": "규정을 위반하면 처벌을 받을 수 있어요.",
+      "example_vi": "Nếu vi phạm quy định thì có thể bị xử phạt.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "recognize",
+      "hanja": "違反",
+      "sino_vietnamese": "vi phản",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "처벌",
+      "pos": "N",
+      "meaning_vi": "Xử phạt",
+      "note_vi": "처벌을 받다 = bị xử phạt",
+      "example_ko": "처벌을 받을 수 있어요.",
+      "example_vi": "Có thể bị xử phạt.",
+      "family": "🟢 Nền · Đặt lịch và nộp hồ sơ",
+      "priority": "recognize",
+      "hanja": "處罰",
+      "sino_vietnamese": "xử phạt",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "번호표",
+      "pos": "N",
+      "meaning_vi": "Phiếu số thứ tự",
+      "note_vi": "번호표를 뽑다 = rút số",
+      "example_ko": "입구에서 번호표를 뽑으세요.",
+      "example_vi": "Hãy rút phiếu số thứ tự ở lối vào.",
+      "family": "🟢 Nền · Ở quầy văn phòng",
+      "priority": "recognize",
+      "hanja": "番號票",
+      "sino_vietnamese": "phiên hiệu phiếu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "창구",
+      "pos": "N",
+      "meaning_vi": "Quầy giao dịch",
+      "example_ko": "3번 창구로 가세요.",
+      "example_vi": "Hãy đến quầy số 3.",
+      "family": "🟢 Nền · Ở quầy văn phòng",
+      "priority": "recognize",
+      "hanja": "窓口",
+      "sino_vietnamese": "song khẩu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "담당 직원",
+      "pos": "N",
+      "meaning_vi": "Nhân viên phụ trách",
+      "example_ko": "담당 직원이 서류를 확인해요.",
+      "example_vi": "Nhân viên phụ trách kiểm tra giấy tờ.",
+      "family": "🟢 Nền · Ở quầy văn phòng",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "순서",
+      "pos": "N",
+      "meaning_vi": "Thứ tự, lượt",
+      "example_ko": "순서가 되면 이름을 불러요.",
+      "example_vi": "Đến lượt thì họ gọi tên.",
+      "family": "🟢 Nền · Ở quầy văn phòng",
+      "priority": "core",
+      "hanja": "順序",
+      "sino_vietnamese": "thuận tự",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "부족하다",
+      "pos": "A",
+      "meaning_vi": "Thiếu",
+      "example_ko": "서류가 부족해서 접수할 수 없어요.",
+      "example_vi": "Giấy tờ còn thiếu nên không nhận hồ sơ được.",
+      "family": "🟢 Nền · Ở quầy văn phòng",
+      "priority": "core",
+      "hanja": "不足",
+      "sino_vietnamese": "bất túc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "확인하다",
+      "pos": "V",
+      "meaning_vi": "Kiểm tra, xác nhận",
+      "note_vi": "Danh từ: 확인",
+      "example_ko": "서류를 확인해 주세요.",
+      "example_vi": "Xin hãy kiểm tra giấy tờ.",
+      "family": "🟢 Nền · Ở quầy văn phòng",
+      "priority": "core",
+      "hanja": "確認",
+      "sino_vietnamese": "xác nhận",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "문의하다",
+      "pos": "V",
+      "meaning_vi": "Hỏi, liên hệ để hỏi",
+      "note_vi": "Danh từ: 문의",
+      "example_ko": "궁금한 점은 전화로 문의하세요.",
+      "example_vi": "Có điều gì thắc mắc hãy gọi điện hỏi.",
+      "family": "🟢 Nền · Ở quầy văn phòng",
+      "priority": "recognize",
+      "hanja": "問議",
+      "sino_vietnamese": "vấn nghị",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "외국인종합안내센터",
+      "pos": "N",
+      "meaning_vi": "Trung tâm thông tin người nước ngoài (1345)",
+      "note_vi": "1345: tổng đài hỗ trợ nhiều thứ tiếng",
+      "example_ko": "모르는 것이 있으면 1345에 전화하세요.",
+      "example_vi": "Có gì không biết thì hãy gọi 1345.",
+      "family": "🟢 Nền · Ở quầy văn phòng",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "국제교류처",
+      "pos": "N",
+      "meaning_vi": "Phòng hợp tác quốc tế (của trường)",
+      "note_vi": "Tên phòng khác nhau theo trường: 국제처, 국제교류팀…",
+      "example_ko": "국제교류처에서 서류를 받았어요.",
+      "example_vi": "Tôi nhận giấy tờ ở phòng hợp tác quốc tế.",
+      "family": "🟡 Dạng thi · Từ trong thông báo của trường",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "안내문",
+      "pos": "N",
+      "meaning_vi": "Văn bản hướng dẫn, thông báo",
+      "example_ko": "안내문을 꼼꼼히 읽으세요.",
+      "example_vi": "Hãy đọc kỹ thông báo.",
+      "family": "🟡 Dạng thi · Từ trong thông báo của trường",
+      "priority": "recognize",
+      "hanja": "案內文",
+      "sino_vietnamese": "án nội văn",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "대상",
+      "pos": "N",
+      "meaning_vi": "Đối tượng",
+      "example_ko": "대상은 신입 유학생입니다.",
+      "example_vi": "Đối tượng là du học sinh mới.",
+      "family": "🟡 Dạng thi · Từ trong thông báo của trường",
+      "priority": "recognize",
+      "hanja": "對象",
+      "sino_vietnamese": "đối tượng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "지참하다",
+      "pos": "V",
+      "meaning_vi": "Mang theo (văn viết, trang trọng)",
+      "note_vi": "Nói thường: 가져오다",
+      "example_ko": "여권을 지참하시기 바랍니다.",
+      "example_vi": "Xin hãy mang theo hộ chiếu.",
+      "family": "🟡 Dạng thi · Từ trong thông báo của trường",
+      "priority": "recognize",
+      "hanja": "持參",
+      "sino_vietnamese": "trì tham",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "메일을 드리다",
+      "pos": "X",
+      "meaning_vi": "Gửi email (cho người trên)",
+      "note_vi": "Với bạn bè: `메일을 보내다`. Câu mở thư quen dùng: `… -아/어서 메일을 드립니다` (tôi viết thư vì …).",
+      "example_ko": "궁금한 점이 있어서 메일을 드립니다.",
+      "example_vi": "Tôi viết thư này vì có điều muốn hỏi.",
+      "family": "🟢 Nền · Email hỏi về giấy tờ",
+      "priority": "core"
+    },
+    {
+      "hangul": "입국하다",
+      "pron": "[입꾸카다]",
+      "pos": "V",
+      "meaning_vi": "Nhập cảnh",
+      "note_vi": "Hạn đăng ký người nước ngoài tính từ ngày nhập cảnh: `입국한 날부터 90일 이내`.",
+      "example_ko": "저는 9월 1일에 입국했습니다.",
+      "example_vi": "Tôi nhập cảnh ngày 1 tháng 9.",
+      "family": "🟢 Nền · Email hỏi về giấy tờ",
+      "priority": "core",
+      "hanja": "入國",
+      "sino_vietnamese": "nhập quốc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "바쁘시겠지만",
+      "pos": "X",
+      "meaning_vi": "Chắc thầy/cô (anh/chị) bận, nhưng …",
+      "note_vi": "Câu rào lịch sự trước lời nhờ ở cuối thư gửi người trên: `-(으)시-` + `-겠-` (phỏng đoán) + `-지만`.",
+      "example_ko": "바쁘시겠지만 확인해 주시면 감사하겠습니다.",
+      "example_vi": "Chắc thầy/cô bận, nhưng nếu thầy/cô kiểm tra giúp thì em rất cảm ơn.",
+      "family": "🟢 Nền · Email hỏi về giấy tờ",
+      "priority": "core"
+    },
+    {
+      "hangul": "답장해 주시면 감사하겠습니다",
+      "pos": "X",
+      "meaning_vi": "Mong nhận được thư trả lời (của thầy/cô)",
+      "note_vi": "Câu kết quen dùng của thư trang trọng: `-아/어 주시면 감사하겠습니다` = nếu (người trên) làm … cho thì tôi rất biết ơn.",
+      "example_ko": "바쁘시겠지만 답장해 주시면 감사하겠습니다.",
+      "example_vi": "Chắc thầy/cô bận, nhưng mong thầy/cô trả lời giúp em.",
+      "family": "🟢 Nền · Email hỏi về giấy tờ",
+      "priority": "core"
+    },
+    {
+      "hangul": "사무실",
+      "pos": "N",
+      "meaning_vi": "Văn phòng",
+      "example_ko": "거주 확인서는 기숙사 사무실에서 받으세요.",
+      "example_vi": "Giấy xác nhận nơi ở thì bạn lấy ở văn phòng ký túc xá.",
+      "family": "🟢 Nền · Email hỏi về giấy tờ",
+      "priority": "recognize",
+      "hanja": "事務室",
+      "sino_vietnamese": "sự vụ thất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "제목",
+      "pos": "N",
+      "meaning_vi": "Tiêu đề (thư, email)",
+      "note_vi": "Tiêu đề email hỏi thủ tục nên ngắn và rõ: `외국인등록 서류 문의` (hỏi về giấy tờ đăng ký người nước ngoài).",
+      "example_ko": "제목: 외국인등록 서류 문의",
+      "example_vi": "Tiêu đề: Hỏi về giấy tờ đăng ký người nước ngoài",
+      "family": "🟢 Nền · Email hỏi về giấy tờ",
+      "priority": "recognize",
+      "hanja": "題目",
+      "sino_vietnamese": "đề mục",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "수수료를 내다",
+      "pos": "X",
+      "meaning_vi": "Nộp lệ phí",
+      "note_vi": "Mức lệ phí và cách nộp có thể thay đổi; xem thông báo của trường hoặc HiKorea.",
+      "example_ko": "수수료는 언제 내면 됩니까?",
+      "example_vi": "Lệ phí thì nộp lúc nào là được ạ?",
+      "family": "🟢 Nền · Email hỏi về giấy tờ",
+      "priority": "core"
+    },
+    {
+      "hangul": "증명서를 떼다",
+      "pos": "X",
+      "meaning_vi": "Lấy (xin cấp) giấy chứng nhận",
+      "note_vi": "Văn nói; văn viết: `증명서를 발급받다`.",
+      "example_ko": "학교에서 재학증명서를 뗐어요.",
+      "example_vi": "Tôi đã lấy giấy xác nhận đang học ở trường.",
+      "family": "🟢 Nền · Email hỏi về giấy tờ",
+      "priority": "recognize"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V + -(으)려면",
+      "meaning_vi": "Nếu muốn V thì…",
+      "usage_context_vi": "Nêu **điều kiện để đạt mục đích**: `외국인등록증을 만들려면 예약해야 해요.` Vế sau là việc cần làm hoặc lời khuyên: `-아/어야 하다`, `-(으)면 되다`, `-는 게 좋다`, `-(으)세요`. Có patchim: `-으려면` (`먹으려면`); không patchim hoặc patchim ㄹ: `-려면` (`가려면`, `만들려면`). Chủ ngữ hai vế thường giống nhau.",
+      "contrasts": [
+        {
+          "pattern": "-(으)면",
+          "diff_vi": "Điều kiện chung; `-(으)려면` luôn mang ý **muốn/định** làm việc ở vế trước."
+        },
+        {
+          "pattern": "-(으)려고",
+          "diff_vi": "Nêu mục đích của hành động; `-(으)려면` nêu điều kiện hoặc cách để đạt mục đích đó."
+        }
+      ],
+      "note_vi": "Không gắn thì quá khứ vào `-(으)려면`: ✗ 갔으려면 → ✓ 가려면.",
+      "topik_tip_vi": "Câu hỏi hay có dạng `…려면 어떻게 해야 해요?`; đáp án đúng thường là `-아/어야 하다` hoặc `-(으)면 되다`. Đừng chọn `-(으)면` khi đề đã nêu rõ mục đích.",
+      "example_ko": "외국인등록증을 만들려면 먼저 하이코리아에서 방문 예약을 해야 해요.\n학교까지 빨리 가려면 공항철도를 타세요.\n체류기간을 연장하려면 만료일 전에 신청하는 게 좋아요.",
+      "example_vi": "Muốn làm thẻ đăng ký người nước ngoài thì trước hết phải đặt lịch trên HiKorea.\nMuốn đến trường nhanh thì hãy đi tàu AREX (tàu điện nối sân bay).\nMuốn gia hạn thời gian lưu trú thì nên đăng ký trước ngày hết hạn.",
+      "exam": "kiip-2",
+      "builds_on": [
+        "V + -(으)려면"
+      ],
+      "importance": "must"
+    },
+    {
+      "pattern": "V + -기 전에 · V + -(으)ㄴ 후에",
+      "meaning_vi": "Trước khi V · Sau khi V",
+      "usage_context_vi": "Xếp **thứ tự thủ tục**. `-기 전에`: gốc động từ + `기 전에` (`신청하기 전에`), không chia thì. `-(으)ㄴ 후에`: `신청한 후에`; có patchim `-은 후에` (`먹은 후에`), gốc ㄹ bỏ ㄹ (`만든 후에`). Với danh từ: `입국 전에`, `신청 후에`. Việc ở **vế sau** là việc xảy ra sau trong `-(으)ㄴ 후에`, nhưng xảy ra trước trong `-기 전에`.",
+      "contrasts": [
+        {
+          "pattern": "-고 나서",
+          "diff_vi": "Gần nghĩa `-(으)ㄴ 후에` (sau khi làm xong V), nhấn mạnh việc trước đã hoàn tất."
+        },
+        {
+          "pattern": "-(으)ㄹ 때",
+          "diff_vi": "Chỉ **lúc** làm V (cùng thời điểm), không nói trước hay sau."
+        }
+      ],
+      "note_vi": "✗ 갔기 전에 → ✓ 가기 전에 (`-기 전에` không gắn `-았/었-`). ✗ 신청하는 후에 → ✓ 신청한 후에 (`후에` đi với dạng `-(으)ㄴ`).",
+      "topik_tip_vi": "Câu sắp xếp trình tự: `A하기 전에 B` thì B xảy ra **trước** A; `A한 후에 B` thì B xảy ra **sau** A.",
+      "example_ko": "90일이 지나기 전에 외국인등록을 해야 해요.\n예약한 후에 서류를 준비하세요.\n이사하기 전에 새 주소를 확인해 두세요.",
+      "example_vi": "Phải đăng ký người nước ngoài trước khi qua 90 ngày.\nHãy chuẩn bị giấy tờ sau khi đã đặt lịch.\nTrước khi chuyển nhà hãy kiểm tra sẵn địa chỉ mới.",
+      "exam": "kiip-2",
+      "builds_on": [
+        "V + -기 전에",
+        "V + -(으)ㄴ 다음에 / -(으)ㄴ 후에"
+      ],
+      "importance": "must"
+    },
+    {
+      "pattern": "V + -아/어 두다 · V + -아/어 놓다",
+      "meaning_vi": "Làm sẵn V (để dùng về sau)",
+      "usage_context_vi": "Làm một việc **từ trước** và giữ kết quả cho việc sau: `서류를 미리 준비해 두세요.` Thường đi với `미리`. `-아/어 놓다` gần nghĩa, thiên về kết quả đang còn đó (`창문을 열어 놓았어요`). Thông báo hay dùng `미리 -아/어 두시기 바랍니다`.",
+      "contrasts": [
+        {
+          "pattern": "-아/어 있다",
+          "diff_vi": "Trạng thái đang ở (`문이 열려 있어요`); `-아/어 두다` là **chủ động làm sẵn**."
+        },
+        {
+          "pattern": "-고 있다",
+          "diff_vi": "Đang làm; không có nghĩa 'làm sẵn'."
+        }
+      ],
+      "note_vi": "Rút gọn khi nói: `두었어요` → `뒀어요`; `놓았어요` → `놨어요`. Lịch sự: `-아/어 두세요`.",
+      "topik_tip_vi": "Chỗ trống có `미리` thường là `-아/어 두다`; đừng chọn `-아/어 있다` (kết quả đã có sẵn, không có người chủ động).",
+      "example_ko": "서류를 미리 준비해 두세요.\n예약 확인 화면은 휴대전화에 저장해 놓았어요.\n사진을 미리 찍어 두면 편해요.",
+      "example_vi": "Hãy chuẩn bị sẵn giấy tờ.\nTôi đã lưu sẵn màn hình xác nhận đặt lịch trong điện thoại.\nNếu chụp sẵn ảnh thì sẽ tiện.",
+      "exam": "kiip-3",
+      "builds_on": [
+        "V + -아/어 놓다"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V + -(으)면 되다",
+      "meaning_vi": "Chỉ cần V là được",
+      "usage_context_vi": "Nêu **điều kiện tối thiểu** để việc đạt kết quả, thường dùng khi trả lời 'phải làm gì?': `예약하고 가면 돼요.` Có thể dùng với danh từ: `N만 있으면 되다` (`여권만 있으면 돼요`). Phủ định: `-지 않아도 되다` (không cần V).",
+      "contrasts": [
+        {
+          "pattern": "-아/어야 하다",
+          "diff_vi": "Nhấn mạnh **bắt buộc** phải V; `-(으)면 되다` nhấn mạnh **chỉ cần V là đủ**."
+        },
+        {
+          "pattern": "-아/어도 되다",
+          "diff_vi": "Được phép V; `-(으)면 되다` là 'chỉ cần'."
+        }
+      ],
+      "note_vi": "Hay đi với `만` hoặc `그냥`: `전화만 하면 돼요`. Đừng nhầm với `-아/어도 되다` (xin phép).",
+      "topik_tip_vi": "Hỏi `어떻게 해야 해요?` thì `-(으)면 되다` thường là câu trả lời; còn `-아/어야 하다` nêu điều bắt buộc.",
+      "example_ko": "서류는 국제교류처에 내면 돼요.\n예약 시간 10분 전에 도착하면 돼요.\n궁금한 점은 1345에 전화하면 돼요.",
+      "example_vi": "Giấy tờ chỉ cần nộp ở phòng hợp tác quốc tế là được.\nChỉ cần đến trước giờ hẹn 10 phút là được.\nCó điều thắc mắc thì chỉ cần gọi 1345 là được.",
+      "exam": "kiip-3",
+      "builds_on": [
+        "V + -(으)면 되다 · -(으)시면 되다"
+      ],
+      "importance": "normal"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài",
+      "body": "• Hiểu quy trình làm thẻ cư trú (외국인등록증) của du học sinh: hạn 90 ngày, giấy tờ cần chuẩn bị, đặt lịch trên HiKorea và đơn 통합신청서.\n• Nghe và đọc được thông báo của trường và lời nhân viên ở quầy; biết những việc phải nhớ sau khi có thẻ (báo đổi nơi ở, gia hạn, làm thêm cần giấy phép).\n• Ngữ pháp trọng tâm: `-(으)려면`, `-기 전에 · -(으)ㄴ 후에`, `-아/어 두다`, `-(으)면 되다` — dạng câu của thông báo và hướng dẫn thủ tục.\n• 🎯 **Đầu ra:** cuối bài bạn viết được email lịch sự hỏi về giấy tờ làm thẻ cư trú (Bước 5), và gọi điện hỏi cùng nội dung đó trong 30 giây.",
+      "kind": "goal"
+    },
+    {
+      "title": "Đời sống: Làm thẻ 외국인등록증 (ARC)",
+      "body": "• Người ở Hàn Quốc quá 90 ngày phải **đăng ký người nước ngoài (외국인등록)** trong vòng **90 ngày kể từ ngày nhập cảnh**, rồi được cấp thẻ 외국인등록증 (ARC). Du học sinh có visa dài hạn thuộc diện này.\n• Hồ sơ thường gồm: hộ chiếu · 1 ảnh (3,5 × 4,5 cm) · giấy xác nhận đang học (재학증명서) · đơn (외국인등록신청서 hoặc 통합신청서) · giấy xác nhận tài chính (재정확인서) · giấy chứng minh nơi ở (거주 확인서 hoặc 임차계약서) · lệ phí **35.000 won**. Trường hoặc văn phòng có thể yêu cầu thêm hay đổi giấy, nên hãy đọc kỹ thông báo của trường.\n• Nhiều văn phòng yêu cầu **đặt lịch đến trước trên HiKorea (www.hikorea.go.kr)**. Nhiều trường còn **nộp hồ sơ theo nhóm (단체 접수)** cho sinh viên mới; khi đó bạn làm theo hướng dẫn của phòng hợp tác quốc tế (국제교류처).\n• Tên cơ quan: từ tháng 5/2018, 출입국관리사무소 đổi thành **출입국·외국인사무소** (ở các thành phố lớn là 출입국·외국인청); người Hàn vẫn hay nói 출입국사무소. Cần hỏi bằng tiếng nước mình: gọi tổng đài **1345**.\n*Lưu ý:* giấy tờ, lệ phí và cách đặt lịch có thể thay đổi; hãy xem lại hướng dẫn của trường và của HiKorea trước khi đi.",
+      "kind": "fact"
+    },
+    {
+      "title": "Đời sống: Đơn 통합신청서",
+      "body": "• Một mẫu đơn (**별지 제34호 서식**) dùng cho nhiều việc: 외국인등록 (đăng ký), 체류기간 연장허가 (gia hạn), 체류자격 변경허가 (đổi tư cách lưu trú), 체류지 변경신고 (báo đổi nơi ở), 등록증 재발급 (cấp lại thẻ)… Bạn **đánh dấu (✔) vào việc mình xin**.\n• Phần thông tin: họ tên, ngày sinh, giới tính, quốc tịch, thông tin hộ chiếu, địa chỉ và số điện thoại ở Hàn Quốc; ký tên cuối đơn. Họ tên và số hộ chiếu phải giống hệt hộ chiếu.\n• Bạn có thể lấy mẫu ở văn phòng hoặc tải trên HiKorea.",
+      "kind": "fact"
+    },
+    {
+      "title": "Đời sống: Sau khi có thẻ — những việc phải nhớ",
+      "body": "• **Đổi nơi ở**: báo thay đổi nơi cư trú (체류지 변경신고) **trong 15 ngày** kể từ khi chuyển, qua HiKorea, cơ quan hành chính địa phương hoặc văn phòng xuất nhập cảnh.\n• **Gia hạn**: xin gia hạn thời gian lưu trú (체류기간 연장) **trước ngày hết hạn** ghi trên thẻ; lệ phí khoảng 60.000 won.\n• **Đổi tư cách lưu trú**: ví dụ từ D-4 (học tiếng) lên D-2 (học đại học, cao học) cần xin 체류자격 변경허가, cũng dùng 통합신청서.\n• **Làm thêm**: du học sinh muốn làm thêm cần 시간제취업확인서 do trường xác nhận, rồi xin phép cơ quan xuất nhập cảnh (체류자격 외 활동허가) **trước khi** bắt đầu làm. Làm không phép có thể bị buộc rời Hàn Quốc, phạt tù tối đa 3 năm hoặc phạt tiền tối đa 30 triệu won.\n*Lưu ý:* mức phí và mức phạt có thể được điều chỉnh; kiểm tra lại với trường hoặc tổng đài 1345.",
+      "kind": "fact"
+    },
+    {
+      "title": "Mẫu câu ở văn phòng xuất nhập cảnh",
+      "body": "• Nói mục đích: `외국인등록증을 만들러 왔어요.` · `체류기간을 연장하고 싶어요.`\n• Nói đã đặt lịch: `하이코리아에서 방문 예약을 했어요.`\n• Hỏi giấy tờ: `어떤 서류가 필요해요?` · `서류가 더 필요해요?`\n• Lời nhân viên: `번호표를 뽑고 기다리세요.` · `3번 창구로 가세요.` · `이 서류가 없으면 접수할 수 없습니다.` · `다시 오시면 돼요.`\n• Khi chưa hiểu: `천천히 다시 말씀해 주시겠어요?`",
+      "kind": "language"
+    },
+    {
+      "title": "Hội thoại mẫu: ở quầy văn phòng",
+      "body": "직원: 다음 번호 손님, 오세요.\n학생: 안녕하세요. 외국인등록증을 만들러 왔어요. 하이코리아에서 예약했어요.\n직원: 네, 서류를 보여 주세요. 여권하고 사진, 재학증명서, 통합신청서는 있네요. 거주 확인서는요?\n학생: 기숙사 거주 확인서는 아직 못 받았어요.\n직원: 그 서류가 없으면 오늘은 접수할 수 없습니다. 서류를 다 준비한 후에 다시 오시면 돼요.\n학생: 아, 그렇군요. 그럼 지금 학교에 가서 받아 올게요.\n\n*Bản dịch tham khảo:*\nNhân viên: Mời khách có số tiếp theo.\nSinh viên: Xin chào. Tôi đến để làm thẻ đăng ký người nước ngoài. Tôi đã đặt lịch trên HiKorea.\nNhân viên: Vâng, cho tôi xem giấy tờ. Có hộ chiếu, ảnh, giấy xác nhận đang học và đơn tổng hợp rồi. Còn giấy xác nhận nơi ở?\nSinh viên: Giấy xác nhận ở ký túc xá thì tôi chưa nhận được.\nNhân viên: Không có giấy đó thì hôm nay không nhận hồ sơ được. Bạn chuẩn bị đủ giấy tờ rồi quay lại là được.\nSinh viên: À, vậy ạ. Vậy bây giờ tôi sẽ về trường lấy rồi mang đến.",
+      "kind": "sample"
+    },
+    {
+      "title": "Thông báo mẫu của trường",
+      "body": "**[외국인등록 단체 접수 안내]**\n■ 대상: 이번 학기 신입 유학생 (입국한 날부터 90일 이내인 학생)\n■ 신청 방법: 10월 23일까지 아래 서류를 국제교류처에 내면 됩니다.\n■ 준비물: 여권, 증명사진 1장, 재학증명서, 거주 확인서, 수수료\n※ 서류가 부족한 경우에는 접수할 수 없으니 미리 확인해 두시기 바랍니다.\n\n*Bản dịch tham khảo:*\n[Thông báo nộp hồ sơ đăng ký người nước ngoài theo nhóm]\n■ Đối tượng: du học sinh mới của học kỳ này (sinh viên trong vòng 90 ngày kể từ ngày nhập cảnh)\n■ Cách đăng ký: nộp các giấy tờ dưới đây cho phòng hợp tác quốc tế đến hết ngày 23/10.\n■ Cần chuẩn bị: hộ chiếu, 1 ảnh thẻ, giấy xác nhận đang học, giấy xác nhận nơi ở, lệ phí\n※ Lưu ý: nếu thiếu giấy tờ thì không nhận hồ sơ được, nên hãy kiểm tra sẵn.\n\nĐây là thông báo minh họa; ngày tháng và cách nộp của trường bạn có thể khác.",
+      "kind": "sample"
+    },
+    {
+      "title": "Mẫu văn bản (Viết 51): hướng dẫn gia hạn",
+      "body": "**[체류기간 연장 안내]**\n체류기간을 연장하려면 **(㉠ 체류기간이 끝나기 전에 신청해야 합니다)**. 신청서를 낼 때 필요한 여권과 외국인등록증은 **(㉡ 미리 준비해 두시기 바랍니다)**.\n\n*Bản dịch tham khảo:* [Hướng dẫn gia hạn thời gian lưu trú] Muốn gia hạn thời gian lưu trú thì phải đăng ký trước khi thời hạn kết thúc. Hộ chiếu và thẻ đăng ký người nước ngoài cần khi nộp đơn, xin hãy chuẩn bị sẵn.\n\n*Ghi chú:* ㉠ vế sau của `-(으)려면` là việc bắt buộc (`-아/어야 하다`) và `-기 전에` nêu thời hạn; ㉡ `미리` đi với `-아/어 두다`, dạng thông báo `-시기 바랍니다`.",
+      "kind": "writing"
+    },
+    {
+      "title": "🟢 Bài mẫu: Email hỏi về giấy tờ làm thẻ cư trú (đầu ra của bài)",
+      "kind": "sample",
+      "body": "Đây là bài **Bước 5** ở phần Tạo câu: một email gửi phòng hợp tác quốc tế của trường (nơi thường hướng dẫn và nhận hồ sơ cho sinh viên mới) để hỏi về giấy tờ trước khi đến văn phòng xuất nhập cảnh. Mọi từ và mẫu câu đều đã học đến bài này.\n\n국제교류처 선생님께\n\n안녕하십니까? 저는 이번 학기에 입학한 베트남 유학생 응우옌 반 안입니다. 외국인등록증을 만들려고 하는데 궁금한 점이 있어서 메일을 드립니다. 저는 9월 1일에 입국했습니다. 외국인등록증을 만들려면 하이코리아에서 방문 예약을 먼저 해야 합니까? 그리고 저는 학교 기숙사에 살고 있는데, 거주 확인서는 어디에서 받으면 됩니까? 출입국·외국인사무소에 가기 전에 서류를 모두 준비해 두고 싶습니다. 바쁘시겠지만 답장해 주시면 감사하겠습니다.\n\n응우옌 반 안 드림\n\n*Bản dịch tham khảo:* Kính gửi thầy/cô Phòng Hợp tác Quốc tế. Em chào thầy/cô. Em là Nguyễn Văn An, du học sinh Việt Nam nhập học kỳ này. Em định làm thẻ đăng ký người nước ngoài nhưng có mấy điều thắc mắc nên viết thư này. Em nhập cảnh ngày 1/9. Muốn làm thẻ thì em có phải đặt lịch đến văn phòng trên HiKorea trước không ạ? Ngoài ra em đang ở ký túc xá của trường, vậy giấy xác nhận nơi ở em lấy ở đâu ạ? Em muốn chuẩn bị sẵn đủ giấy tờ trước khi đến văn phòng xuất nhập cảnh. Chắc thầy/cô bận, nhưng mong thầy/cô trả lời giúp em. Nguyễn Văn An kính thư.\n\n**Cấu trúc email:** người nhận (`N께`) → chào, giới thiệu (`… 입학한 유학생 …입니다`) → lý do viết (`-(으)려고 하는데 … -아/어서 메일을 드립니다`) → thông tin cần thiết (ngày nhập cảnh: hạn 90 ngày tính từ đây) → từng câu hỏi một (`-(으)려면 … 해야 합니까?`, `… -(으)면 됩니까?`) → mong muốn (`-기 전에 … -아/어 두고 싶습니다`) → lời nhờ (`바쁘시겠지만 …`) → ký tên (`… 드림`).\n\n*Vì sao gửi phòng hợp tác quốc tế:* văn phòng xuất nhập cảnh thường không trả lời thư riêng; câu hỏi chung bạn có thể gọi tổng đài **1345**, còn giấy tờ của trường (giấy xác nhận đang học, nơi ở) và nộp hồ sơ theo nhóm thì hỏi phòng hợp tác quốc tế."
+    },
+    {
+      "title": "Lỗi người Việt hay mắc trong bài này",
+      "body": "• Dùng `-(으)면` khi đề đã nói rõ mục đích: ✗ 등록증을 만들면 예약해야 해요 → ✓ 만들려면.\n• Gắn quá khứ vào `-기 전에` hoặc hiện tại vào `-(으)ㄴ 후에`: ✗ 갔기 전에, ✗ 신청하는 후에 → ✓ 가기 전에, 신청한 후에.\n• Nhầm `-아/어 두다` (chủ động làm sẵn) với `-아/어 있다` (trạng thái): ✗ 서류를 준비해 있어요 → ✓ 준비해 두었어요.\n• Nhầm `-(으)면 되다` (chỉ cần) với `-아/어도 되다` (được phép).\n• Đợi đến sát hạn: `90일 이내` tính cả ngày thứ 90; hãy đặt lịch sớm.\n• Quên báo đổi nơi ở trong 15 ngày, hoặc làm thêm khi chưa có phép.\n• Email cho thầy cô, nhân viên: mở bằng `N께`, kết bằng `… 드림`; mỗi câu hỏi một việc, kết thúc bằng `-ㅂ니까?`. Đừng viết `빨리 답장해 주세요`: dùng `바쁘시겠지만 답장해 주시면 감사하겠습니다`.",
+      "kind": "pitfall"
+    }
+  ],
+  "editor_notes": [
+    {
+      "title": "Nguồn và độ chắc chắn",
+      "body": "Hạn 90 ngày, hồ sơ (hộ chiếu, ảnh 3,5×4,5, 재학증명서, 외국인등록신청서, 재정확인서, 거주확인증/임차계약서), lệ phí 35.000 won, báo đổi nơi ở trong 15 ngày (HiKorea/구청/văn phòng XNC), gia hạn trước ngày hết hạn (60.000 won), mẫu 34 (통합신청서), làm thêm cần 시간제취업확인서 và 체류자격 외 활동허가: trang hướng dẫn visa của Đại học Ajou (người dùng gửi; đã mở lại trên mạng tháng 10/2026 và khớp). Lệ phí 20.000 won ở một trường khác là mức cũ.\nHạn báo đổi nơi ở: 15 ngày (Điều 36 Luật Quản lý xuất nhập cảnh; trang của ủy ban quận ghi 15 ngày cho người nước ngoài đã đăng ký, 14 ngày chỉ áp dụng cho người gốc Hàn mang quốc tịch nước ngoài) — trang Ajou ghi 14 ngày là chưa khớp. Mức phạt làm không phép: trang Ajou ghi 'tối đa 3 năm hoặc 2 chục triệu won'; bản chép Điều 94 Luật Quản lý xuất nhập cảnh (nhis.or.kr) và hướng dẫn jobploy 2026 ghi 'tối đa 3 năm hoặc 30 triệu won' (Điều 94 khoản 12) → bài dùng 30 triệu won.\nĐặt lịch HiKorea bắt buộc / nộp theo nhóm: trang Ajou không nhắc đặt lịch; các trường (ví dụ ĐH Quốc gia Seoul) có thông báo 'nộp theo nhóm trực tuyến' → bài chỉ nói 'nhiều văn phòng yêu cầu đặt lịch' và 'nhiều trường nộp theo nhóm'. Tên cơ quan đổi 10/5/2018 (출입국·외국인청/사무소/관서) và tổng đài 1345 theo thông tin công khai của Bộ Tư pháp; trang chính thức không mở được từ máy chủ nên chưa đối chiếu trực tiếp.\nKhông đưa vào bài vì chưa có nguồn chắc: thời gian nhận thẻ, chuyện lấy vân tay ở quầy đăng ký, tên văn phòng phụ trách khu vực trường cụ thể."
+    },
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "Bước 5 theo bảng SPEC là «email/tin nhắn hỏi văn phòng xuất nhập cảnh về giấy tờ làm thẻ cư trú». Bài mẫu gửi cho 국제교류처 của trường thay vì văn phòng xuất nhập cảnh: văn phòng xuất nhập cảnh không có kênh thư công khai để sinh viên hỏi riêng (câu hỏi chung qua tổng đài 1345), còn giấy tờ của trường và nộp theo nhóm do phòng hợp tác quốc tế hướng dẫn; nội dung thư vẫn là giấy tờ để nộp ở 출입국·외국인사무소. Nếu cần đúng chữ của bảng, chỉ đổi người nhận. Thư trả lời ở NCU32R1 (đặt lịch trước, nộp nhóm thì không cần đặt lịch, giấy nơi ở lấy ở văn phòng ký túc xá) là ví dụ của một trường, khớp ghi chú «Đời sống» của bài («nhiều văn phòng yêu cầu đặt lịch», «nhiều trường nộp theo nhóm»), không phải quy định chung. Không nêu lệ phí trong bài mẫu. `uses` có `궁금한 점` và `이번` (thẻ thêm ở gói bài 31): gói này chỉ PASS khi kiểm cùng gói bài 31."
+    }
+  ],
+  "bank": "nhap-canh",
+  "coach": {
+    "focus_vi": [
+      "`-(으)려면` nêu việc muốn làm rồi nói điều cần làm; `-기 전에` / `-(으)ㄴ 후에` nói trước, sau.",
+      "`-아/어 두다`: làm sẵn; `-(으)면 되다`: chỉ cần làm là được."
+    ],
+    "watch_out_vi": [
+      "Mục đích đã rõ thì dùng `-(으)려면`, không dùng `-(으)면` (✗ `만들면 예약해야 해요`).",
+      "`-아/어 두다` là chủ động làm sẵn, `-아/어 있다` là trạng thái; `-(으)면 되다` (chỉ cần) khác `-아/어도 되다` (được phép)."
+    ],
+    "notebook_vi": [
+      "Danh sách giấy tờ cần mang khi làm thẻ 외국인등록증, ghi bằng tiếng Hàn.",
+      "Các mốc thời gian phải nhớ sau khi có thẻ: làm thẻ, báo đổi nơi ở, gia hạn."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Nói bạn phải làm gì trước nếu muốn làm thẻ đăng ký người nước ngoài.",
+        "answer": "외국인등록증을 만들려면 먼저 하이코리아에서 방문 예약을 해야 해요."
+      },
+      {
+        "prompt_vi": "Nhắc một người chuẩn bị giấy tờ trước.",
+        "answer": "서류를 미리 준비해 두세요."
+      }
+    ],
+    "tip_vi": "Đọc to hội thoại mẫu ở quầy văn phòng, hai vai; đổi vai một lần."
+  },
+  "exercise_ids": [
+    "NCL07",
+    "NCL08",
+    "NCD08",
+    "NCD09",
+    "NCU32L1",
+    "NCR11",
+    "NCR12",
+    "NCR13",
+    "NCR14",
+    "NCU32R1",
+    "NCU32O1",
+    "NCU32O2",
+    "NCU32F1",
+    "NCU32C1",
+    "NCU32E1",
+    "NCW04",
+    "NCW32F",
+    "NCS04",
+    "NCU32S1"
+  ],
+  "topik2": [
+    {
+      "qid": "102-L-8",
+      "why_vi": "Cuộc nói chuyện về thẻ xin cấp lại, phải trực tiếp đến nhận. Rất gần với việc làm lại thẻ cư trú; bạn chọn lời đáp hợp lý của nhân viên."
+    }
+  ]
+}

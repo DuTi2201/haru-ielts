@@ -1,0 +1,1302 @@
+{
+  "slug": "quan-he-06-hang-xom-rac",
+  "title": "Hàng xóm, Tiếng ồn & Phân loại rác",
+  "title_ko": "이웃·층간 소음·분리배출",
+  "topic": "Quan hệ xã hội, Sự kiện & Không gian sống",
+  "track": "intermediate",
+  "level": 3,
+  "sort_order": 33,
+  "summary": "Từ vựng về hàng xóm, tiếng ồn giữa các tầng và phân loại rác, kèm dữ kiện đời sống (có nêu nguồn) về tiêu chuẩn 층간 소음 và cách phân loại rác. Ngữ pháp: -도록, N(으)로 인해/인한 N, -아/어 달라고 하다 · -(으)라고 하다; có hội thoại, thông báo cư dân (Viết 51), bài giải thích phân loại (Viết 52) và đề Viết 54 về mâu thuẫn tầng. Bài có bước Tạo câu: xếp từ, điền khung, nối câu rồi viết một thông báo ngắn về tiếng ồn giữa các tầng.",
+  "vocab": [
+    {
+      "hangul": "이웃",
+      "pos": "N",
+      "meaning_vi": "Hàng xóm",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L580",
+      "priority": "core"
+    },
+    {
+      "hangul": "이웃집",
+      "pos": "N",
+      "meaning_vi": "Nhà hàng xóm",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L580",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "옆집",
+      "pos": "N",
+      "meaning_vi": "Nhà bên cạnh",
+      "example_ko": "옆집 사람들이 아주 친절해요.",
+      "example_vi": "Những người ở nhà bên cạnh rất thân thiện.",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L580",
+      "priority": "core"
+    },
+    {
+      "hangul": "윗집",
+      "pos": "N",
+      "meaning_vi": "Nhà tầng trên",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L581",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "아랫집",
+      "pos": "N",
+      "meaning_vi": "Nhà tầng dưới",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L581",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "경비실",
+      "pos": "N",
+      "meaning_vi": "Phòng bảo vệ",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L582",
+      "priority": "recognize",
+      "hanja": "警備室",
+      "sino_vietnamese": "cảnh bị thất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "관리사무소",
+      "pos": "N",
+      "meaning_vi": "Ban quản lý",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L582",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "인사하다",
+      "pos": "V",
+      "meaning_vi": "Chào hỏi",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L583",
+      "priority": "core",
+      "hanja": "人事",
+      "sino_vietnamese": "nhân sự",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "도와주다",
+      "pos": "V",
+      "meaning_vi": "Giúp đỡ",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L583",
+      "priority": "core"
+    },
+    {
+      "hangul": "빌리다",
+      "pos": "V",
+      "meaning_vi": "Mượn",
+      "note_vi": "`빌려 주다` = cho mượn",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L583",
+      "priority": "core"
+    },
+    {
+      "hangul": "소리",
+      "pos": "N",
+      "meaning_vi": "Tiếng",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L584",
+      "priority": "core"
+    },
+    {
+      "hangul": "시끄럽다",
+      "pos": "A",
+      "meaning_vi": "Ồn ào",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L584",
+      "exam": "kiip-3",
+      "priority": "core"
+    },
+    {
+      "hangul": "조용히 하다",
+      "pos": "V",
+      "meaning_vi": "Giữ yên lặng",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L584",
+      "priority": "core"
+    },
+    {
+      "hangul": "뛰다",
+      "pos": "V",
+      "meaning_vi": "Chạy nhảy",
+      "note_vi": "쿵쿵 (tiếng thình thịch)",
+      "example_ko": "밤에는 쿵쿵 뛰지 마세요.",
+      "example_vi": "Ban đêm đừng chạy nhảy thình thịch.",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L585",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "조심하다",
+      "pos": "V",
+      "meaning_vi": "Cẩn thận",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L585",
+      "priority": "core",
+      "hanja": "操心",
+      "sino_vietnamese": "thao tâm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "쓰레기",
+      "pos": "N",
+      "meaning_vi": "Rác",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L586",
+      "priority": "core"
+    },
+    {
+      "hangul": "쓰레기통",
+      "pos": "N",
+      "meaning_vi": "Thùng rác",
+      "example_ko": "쓰레기는 쓰레기통에 버려요.",
+      "example_vi": "Rác thì vứt vào thùng rác.",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L586",
+      "priority": "core",
+      "hanja": "桶",
+      "sino_vietnamese": "dũng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "쓰레기를 버리다",
+      "pos": "V",
+      "meaning_vi": "Vứt rác",
+      "example_ko": "쓰레기는 쓰레기통에 버려요.",
+      "example_vi": "Rác thì vứt vào thùng rác.",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L586",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "재활용",
+      "pos": "N",
+      "meaning_vi": "Tái chế",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L587",
+      "priority": "core",
+      "hanja": "再活用",
+      "sino_vietnamese": "tái hoạt dụng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "종이",
+      "pos": "N",
+      "meaning_vi": "Giấy",
+      "note_vi": "`N끼리` = với nhau, cùng loại *(mở rộng)*",
+      "example_ko": "병은 병끼리, 종이는 종이끼리 모아서 버려요.",
+      "example_vi": "Chai thì gom chung với chai, giấy thì gom chung với giấy rồi vứt.",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L587, L596",
+      "priority": "core"
+    },
+    {
+      "hangul": "유리",
+      "pos": "N",
+      "meaning_vi": "Thủy tinh",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L587",
+      "priority": "recognize",
+      "hanja": "琉璃",
+      "sino_vietnamese": "lưu ly",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "캔",
+      "pos": "N",
+      "meaning_vi": "Lon",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L587",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "병",
+      "pos": "N",
+      "meaning_vi": "Chai",
+      "note_vi": "`N끼리` = với nhau, cùng loại *(mở rộng)*",
+      "example_ko": "병은 병끼리, 종이는 종이끼리 모아서 버려요.",
+      "example_vi": "Chai thì gom chung với chai, giấy thì gom chung với giấy rồi vứt.",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L587, L596",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "甁",
+      "sino_vietnamese": "bình",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "비닐",
+      "pos": "N",
+      "meaning_vi": "Ni lông",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L587",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "플라스틱",
+      "pos": "N",
+      "meaning_vi": "Nhựa",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L587",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "음식물 쓰레기",
+      "pos": "N",
+      "meaning_vi": "Rác thực phẩm",
+      "family": "🟢 Nền · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L588",
+      "exam": "kiip-2",
+      "priority": "core"
+    },
+    {
+      "hangul": "층간 소음",
+      "pos": "N",
+      "meaning_vi": "Tiếng ồn giữa các tầng",
+      "note_vi": "cả `층간소음` và `층간 소음` đều gặp, hãy dùng thống nhất trong một bài",
+      "example_ko": "층간 소음으로 인해 이웃 간 갈등이 늘고 있다.",
+      "example_vi": "Do tiếng ồn giữa các tầng, mâu thuẫn giữa những người hàng xóm đang tăng lên.",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L602",
+      "exam": "kiip-3",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "소음",
+      "pos": "N",
+      "meaning_vi": "Tiếng ồn",
+      "note_vi": "cả `층간소음` và `층간 소음` đều gặp, hãy dùng thống nhất trong một bài",
+      "example_ko": "소음이 발생하지 않도록 주의해 주시기 바랍니다.",
+      "example_vi": "Xin hãy chú ý để không phát sinh tiếng ồn.",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L602",
+      "priority": "recognize",
+      "hanja": "騷音",
+      "sino_vietnamese": "tao âm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "발소리",
+      "pos": "N",
+      "meaning_vi": "Tiếng bước chân",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L603",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "뛰는 소리",
+      "pos": "N",
+      "meaning_vi": "Tiếng chạy nhảy",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L603",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "의자를 끌다",
+      "pos": "V",
+      "meaning_vi": "Kéo ghế",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L603",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "항의하다",
+      "pos": "V",
+      "meaning_vi": "Phản đối",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L604",
+      "exam": "kiip-4",
+      "priority": "recognize",
+      "hanja": "抗議",
+      "sino_vietnamese": "kháng nghị",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "민원(을 넣다)",
+      "pos": "N",
+      "meaning_vi": "Khiếu nại (gửi đơn kiến nghị)",
+      "note_vi": "`민원` là từ rất hay gặp trong thông báo",
+      "example_ko": "민원이 늘고 있습니다",
+      "example_vi": "Khiếu nại đang tăng lên.",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L604, L656",
+      "priority": "recognize",
+      "hanja": "民願",
+      "sino_vietnamese": "dân nguyện",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "쪽지",
+      "pos": "N",
+      "meaning_vi": "Mảnh giấy nhắn",
+      "note_vi": "*(đời sống)*",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L605",
+      "priority": "recognize",
+      "hanja": "紙",
+      "sino_vietnamese": "chỉ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "인터폰",
+      "pos": "N",
+      "meaning_vi": "Máy liên lạc nội bộ",
+      "note_vi": "*(đời sống)*",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L605",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "사과하다",
+      "pos": "V",
+      "meaning_vi": "Xin lỗi",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L606",
+      "priority": "core",
+      "hanja": "謝過",
+      "sino_vietnamese": "tạ quá",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "양해를 구하다",
+      "pos": "V",
+      "meaning_vi": "Xin thông cảm",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L606",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "배려(하다)",
+      "pos": "V",
+      "meaning_vi": "Quan tâm đến người khác",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L607",
+      "priority": "recognize",
+      "hanja": "配慮",
+      "sino_vietnamese": "phối lự",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "예절",
+      "pos": "N",
+      "meaning_vi": "Phép lịch sự",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L607",
+      "priority": "recognize",
+      "hanja": "禮節",
+      "sino_vietnamese": "lễ tiết",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "공동생활",
+      "pos": "N",
+      "meaning_vi": "Sinh hoạt chung",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L607",
+      "priority": "recognize",
+      "hanja": "共同生活",
+      "sino_vietnamese": "cộng đồng sinh hoạt",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "입주민",
+      "pos": "N",
+      "meaning_vi": "Cư dân",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L608",
+      "priority": "recognize",
+      "hanja": "入住民",
+      "sino_vietnamese": "nhập trú dân",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "안내문",
+      "pos": "N",
+      "meaning_vi": "Thông báo",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L608",
+      "priority": "recognize",
+      "hanja": "案內文",
+      "sino_vietnamese": "án nội văn",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "게시판",
+      "pos": "N",
+      "meaning_vi": "Bảng tin",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L608",
+      "exam": "kiip-2",
+      "priority": "core",
+      "hanja": "揭示板",
+      "sino_vietnamese": "yết thị bản",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이웃사촌",
+      "pos": "N",
+      "meaning_vi": "Hàng xóm thân như họ hàng",
+      "note_vi": "thành ngữ: hàng xóm gần gũi hơn người họ xa",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L609",
+      "priority": "recognize",
+      "hanja": "四寸",
+      "sino_vietnamese": "tứ thốn",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "갈등",
+      "pos": "N",
+      "meaning_vi": "Mâu thuẫn",
+      "example_ko": "이웃 간의 갈등이 커지고 있습니다",
+      "example_vi": "Mâu thuẫn giữa những người hàng xóm đang lớn dần.",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L610, L654",
+      "exam": "kiip-3",
+      "priority": "recognize",
+      "hanja": "葛藤",
+      "sino_vietnamese": "cát đằng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "분쟁",
+      "pos": "N",
+      "meaning_vi": "Tranh chấp",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L610",
+      "priority": "recognize",
+      "hanja": "紛爭",
+      "sino_vietnamese": "phân tranh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "중재",
+      "pos": "N",
+      "meaning_vi": "Hòa giải",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L610",
+      "priority": "recognize",
+      "hanja": "仲裁",
+      "sino_vietnamese": "trọng tài",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이웃사이센터",
+      "pos": "N",
+      "meaning_vi": "Trung tâm hàng xóm (hòa giải tiếng ồn tầng)",
+      "note_vi": "✔ đã đối chiếu · thuộc 한국환경공단",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L611",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "분리배출",
+      "pos": "N",
+      "meaning_vi": "Phân loại và đem bỏ rác tái chế",
+      "note_vi": "✔ đã đối chiếu: hướng dẫn của cơ quan (Seoul) dùng `분리배출`; khẩu ngữ hay nói `분리수거`. Đề có thể dùng một trong hai nên biết cả hai",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L612",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "분리수거",
+      "pos": "N",
+      "meaning_vi": "Phân loại và đem bỏ rác tái chế",
+      "note_vi": "✔ đã đối chiếu: hướng dẫn của cơ quan (Seoul) dùng `분리배출`; khẩu ngữ hay nói `분리수거`. Đề có thể dùng một trong hai nên biết cả hai",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L612",
+      "priority": "core",
+      "hanja": "分離收去",
+      "sino_vietnamese": "phân ly thu khứ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "종량제 봉투",
+      "pos": "N",
+      "meaning_vi": "Túi rác tính theo thể tích",
+      "note_vi": "✔ đã đối chiếu",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L613",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "배출하다",
+      "pos": "V",
+      "meaning_vi": "Đem bỏ, thải ra",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L614",
+      "priority": "recognize",
+      "hanja": "排出",
+      "sino_vietnamese": "bài xuất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "배출 요일",
+      "pos": "N",
+      "meaning_vi": "Ngày đổ rác",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L614",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "수거",
+      "pos": "N",
+      "meaning_vi": "Thu gom",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L615",
+      "priority": "recognize",
+      "hanja": "收去",
+      "sino_vietnamese": "thu khứ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "폐기물",
+      "pos": "N",
+      "meaning_vi": "Chất thải",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L615",
+      "priority": "recognize",
+      "hanja": "廢棄物",
+      "sino_vietnamese": "phế khí vật",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "재활용품",
+      "pos": "N",
+      "meaning_vi": "Đồ tái chế",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L615",
+      "priority": "recognize",
+      "hanja": "再活用品",
+      "sino_vietnamese": "tái hoạt dụng phẩm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "헹구다",
+      "pos": "V",
+      "meaning_vi": "Tráng",
+      "note_vi": "✔ đã đối chiếu",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L616",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "비우다",
+      "pos": "V",
+      "meaning_vi": "Đổ hết",
+      "note_vi": "✔ đã đối chiếu",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L616",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "접다",
+      "pos": "V",
+      "meaning_vi": "Gấp",
+      "note_vi": "✔ đã đối chiếu",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L616",
+      "priority": "core"
+    },
+    {
+      "hangul": "라벨을 떼다",
+      "pos": "V",
+      "meaning_vi": "Bóc nhãn",
+      "note_vi": "✔ đã đối chiếu",
+      "example_ko": "라벨을 뗀 다음에 버리세요.",
+      "example_vi": "Hãy bóc nhãn rồi hãy vứt.",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L617, L642",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "뚜껑을 분리하다",
+      "pos": "V",
+      "meaning_vi": "Tách nắp",
+      "note_vi": "✔ đã đối chiếu",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L617",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "페트병",
+      "pos": "N",
+      "meaning_vi": "Chai PET",
+      "note_vi": "✔ đã đối chiếu",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L618",
+      "priority": "recognize",
+      "hanja": "甁",
+      "sino_vietnamese": "bình",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "대형 폐기물",
+      "pos": "N",
+      "meaning_vi": "Rác cồng kềnh (tủ, sofa…)",
+      "note_vi": "*(đời sống)*: thường phải đăng ký/ dán phiếu; thủ tục tùy địa phương, chưa đối chiếu",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L619",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "무단 투기",
+      "pos": "N",
+      "meaning_vi": "Vứt rác bừa bãi",
+      "note_vi": "*(đời sống)*",
+      "family": "🟡 Dạng thi · Hàng xóm, tiếng ồn & phân loại rác (5B)",
+      "source": "NOTES L620",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "공동체 의식",
+      "pos": "N",
+      "meaning_vi": "Ý thức cộng đồng",
+      "family": "🔴 Nâng cao · Viết 54 (tùy chọn) về mâu thuẫn tầng và ý thức cộng đồng",
+      "source": "NOTES L666",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "이웃 간 소통 단절",
+      "pos": "N",
+      "meaning_vi": "Đứt gãy giao tiếp giữa hàng xóm",
+      "family": "🔴 Nâng cao · Viết 54 (tùy chọn) về mâu thuẫn tầng và ý thức cộng đồng",
+      "source": "NOTES L667",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "상호 존중",
+      "pos": "N",
+      "meaning_vi": "Tôn trọng lẫn nhau",
+      "family": "🔴 Nâng cao · Viết 54 (tùy chọn) về mâu thuẫn tầng và ý thức cộng đồng",
+      "source": "NOTES L668",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "배려 문화",
+      "pos": "N",
+      "meaning_vi": "Văn hóa quan tâm",
+      "family": "🔴 Nâng cao · Viết 54 (tùy chọn) về mâu thuẫn tầng và ý thức cộng đồng",
+      "source": "NOTES L668",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "갈등 해결",
+      "pos": "N",
+      "meaning_vi": "Giải quyết mâu thuẫn",
+      "family": "🔴 Nâng cao · Viết 54 (tùy chọn) về mâu thuẫn tầng và ý thức cộng đồng",
+      "source": "NOTES L669",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "중재 기관",
+      "pos": "N",
+      "meaning_vi": "Cơ quan hòa giải",
+      "family": "🔴 Nâng cao · Viết 54 (tùy chọn) về mâu thuẫn tầng và ý thức cộng đồng",
+      "source": "NOTES L669",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "방음 성능",
+      "pos": "N",
+      "meaning_vi": "Khả năng cách âm",
+      "family": "🔴 Nâng cao · Viết 54 (tùy chọn) về mâu thuẫn tầng và ý thức cộng đồng",
+      "source": "NOTES L670",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "시공 기준",
+      "pos": "N",
+      "meaning_vi": "Tiêu chuẩn thi công",
+      "family": "🔴 Nâng cao · Viết 54 (tùy chọn) về mâu thuẫn tầng và ý thức cộng đồng",
+      "source": "NOTES L670",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "제도적 장치",
+      "pos": "N",
+      "meaning_vi": "Cơ chế, thiết chế (luật, quy định)",
+      "family": "🔴 Nâng cao · Viết 54 (tùy chọn) về mâu thuẫn tầng và ý thức cộng đồng",
+      "source": "NOTES L671",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "물론",
+      "pos": "X",
+      "meaning_vi": "Tất nhiên, dĩ nhiên",
+      "note_vi": "Dùng ở: bài Nói câu 6 (tiếng ồn giữa các tầng). Hay dùng để nhượng bộ trước, rồi nêu ý chính bằng 하지만.",
+      "example_ko": "물론 노력만으로는 해결하기 어려운 경우도 있어요.",
+      "example_vi": "Tất nhiên cũng có những trường hợp khó giải quyết chỉ bằng nỗ lực.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "core",
+      "hanja": "勿論",
+      "sino_vietnamese": "vật luận",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "오히려",
+      "pos": "X",
+      "meaning_vi": "Ngược lại, trái lại (lại còn)",
+      "note_vi": "Dùng ở: bài Nói câu 6 (tiếng ồn giữa các tầng). 오히려 = trái với dự đoán, 'ngược lại / lại còn'.",
+      "example_ko": "둘째, 규제만 있으면 소음으로 인한 갈등이 오히려 더 커질 수 있어요.",
+      "example_vi": "Thứ hai, nếu chỉ có quy định thì mâu thuẫn do tiếng ồn có khi lại còn lớn hơn.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "호",
+      "pos": "N",
+      "meaning_vi": "Số (căn hộ, phòng)",
+      "note_vi": "Số Hán Hàn + `호`: `302호` (căn 302). Tự giới thiệu với hàng xóm: `아랫집 302호에 사는 …입니다`.",
+      "example_ko": "저는 502호에 살아요.",
+      "example_vi": "Tôi sống ở căn 502.",
+      "family": "🟢 Nền · Nhắn hàng xóm về tiếng ồn",
+      "priority": "core"
+    },
+    {
+      "hangul": "들리다",
+      "pos": "V",
+      "meaning_vi": "Nghe thấy, vọng tới",
+      "note_vi": "Âm thanh là chủ ngữ: `소리가 들려요` (✗ `소리를 들려요`). Tự mình nghe: `소리를 듣다`.",
+      "example_ko": "윗집에서 발소리가 들려요.",
+      "example_vi": "Tôi nghe thấy tiếng bước chân từ nhà trên.",
+      "family": "🟢 Nền · Nhắn hàng xóm về tiếng ồn",
+      "priority": "core"
+    },
+    {
+      "hangul": "소리가 나다",
+      "pos": "X",
+      "meaning_vi": "Phát ra tiếng",
+      "note_vi": "✗ `소리를 나다`. Người làm ra tiếng: `소리를 내다`. Lời nhờ: `소리가 나지 않도록 …`.",
+      "example_ko": "밤에는 소리가 나지 않도록 조심하세요.",
+      "example_vi": "Ban đêm hãy cẩn thận để không phát ra tiếng.",
+      "family": "🟢 Nền · Nhắn hàng xóm về tiếng ồn",
+      "priority": "core"
+    },
+    {
+      "hangul": "밤늦게",
+      "pos": "X",
+      "meaning_vi": "Khuya, đêm muộn",
+      "pron": "[밤늗께]",
+      "example_ko": "밤늦게 세탁기를 돌리지 마세요.",
+      "example_vi": "Đừng chạy máy giặt vào đêm khuya.",
+      "family": "🟢 Nền · Nhắn hàng xóm về tiếng ồn",
+      "priority": "core"
+    },
+    {
+      "hangul": "이후",
+      "pos": "N",
+      "meaning_vi": "Sau (mốc thời gian)",
+      "note_vi": "`밤 10시 이후에는` = sau 10 giờ tối; văn nói cũng dùng `밤 10시 넘어서는`.",
+      "example_ko": "밤 10시 이후에는 조용히 해 주세요.",
+      "example_vi": "Sau 10 giờ tối xin hãy giữ yên lặng.",
+      "family": "🟢 Nền · Nhắn hàng xóm về tiếng ồn",
+      "priority": "core",
+      "hanja": "以後",
+      "sino_vietnamese": "dĩ hậu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "생활하다",
+      "pos": "V",
+      "meaning_vi": "Sinh hoạt, sống",
+      "note_vi": "`생활하면서 나는 소리` = tiếng động trong sinh hoạt hằng ngày.",
+      "example_ko": "아파트에서 생활하면 이웃을 배려해야 해요.",
+      "example_vi": "Sống ở chung cư thì phải quan tâm đến hàng xóm.",
+      "family": "🟢 Nền · Nhắn hàng xóm về tiếng ồn",
+      "priority": "core",
+      "hanja": "生活",
+      "sino_vietnamese": "sinh hoạt",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이해하다",
+      "pos": "V",
+      "meaning_vi": "Hiểu, thông cảm",
+      "note_vi": "Nói trước khi nhờ, cho mềm câu: `작은 소리는 이해합니다. 하지만 …`.",
+      "example_ko": "바쁘신 것은 이해해요.",
+      "example_vi": "Tôi hiểu là anh chị bận.",
+      "family": "🟢 Nền · Nhắn hàng xóm về tiếng ồn",
+      "priority": "core",
+      "hanja": "理解",
+      "sino_vietnamese": "lý giải",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "직접",
+      "pos": "X",
+      "meaning_vi": "Trực tiếp",
+      "pron": "[직쩝]",
+      "note_vi": "`직접 부탁을 드리다` = tự mình nhờ, không qua người khác.",
+      "example_ko": "윗집에 직접 가서 이야기했어요.",
+      "example_vi": "Tôi đã đến nói chuyện trực tiếp với nhà trên.",
+      "family": "🟢 Nền · Nhắn hàng xóm về tiếng ồn",
+      "priority": "core",
+      "hanja": "直接",
+      "sino_vietnamese": "trực tiếp",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "부탁을 드리다",
+      "pos": "X",
+      "meaning_vi": "Nhờ (lịch sự)",
+      "pron": "[부타글 드리다]",
+      "note_vi": "Với người lạ, người trên: `부탁드립니다`, `이런 부탁을 드려서 죄송합니다`.",
+      "example_ko": "이웃에게 조용히 해 달라고 부탁을 드렸어요.",
+      "example_vi": "Tôi đã nhờ hàng xóm giữ yên lặng.",
+      "family": "🟢 Nền · Nhắn hàng xóm về tiếng ồn",
+      "priority": "core"
+    },
+    {
+      "hangul": "감사하겠습니다",
+      "pos": "X",
+      "meaning_vi": "Tôi sẽ rất biết ơn (lời nhờ lịch sự)",
+      "pron": "[감사하겓씀니다]",
+      "note_vi": "`-아/어 주시면 감사하겠습니다` = nếu anh chị … thì tôi rất biết ơn; mềm hơn nhiều so với `-지 마세요`.",
+      "example_ko": "조금만 조용히 해 주시면 감사하겠습니다.",
+      "example_vi": "Nếu anh chị giữ yên lặng một chút thì tôi rất biết ơn.",
+      "family": "🟢 Nền · Nhắn hàng xóm về tiếng ồn",
+      "priority": "core"
+    },
+    {
+      "hangul": "서로",
+      "pos": "X",
+      "meaning_vi": "Lẫn nhau",
+      "example_ko": "이웃끼리 서로 배려해요.",
+      "example_vi": "Hàng xóm quan tâm đến nhau.",
+      "family": "🟢 Nền · Nhắn hàng xóm về tiếng ồn",
+      "priority": "core"
+    },
+    {
+      "hangul": "드림",
+      "pos": "X",
+      "meaning_vi": "Kính thư (ký tên cuối thư, giấy nhắn)",
+      "note_vi": "Cuối giấy nhắn: `302호 드림`; với người rất trên: `올림`.",
+      "example_ko": "아랫집 302호 드림",
+      "example_vi": "Căn 302 tầng dưới kính thư",
+      "family": "🟢 Nền · Nhắn hàng xóm về tiếng ồn",
+      "priority": "core"
+    },
+    {
+      "hangul": "다름이 아니라",
+      "pos": "X",
+      "meaning_vi": "Chuyện là … (mở lời nhờ)",
+      "pron": "[다르미 아니라]",
+      "note_vi": "Câu mở trước khi vào việc chính: `다름이 아니라 … 때문에 왔어요`.",
+      "example_ko": "다름이 아니라 소음 때문에 왔어요.",
+      "example_vi": "Chuyện là tôi đến vì tiếng ồn.",
+      "family": "🟢 Nền · Nhắn hàng xóm về tiếng ồn",
+      "priority": "core"
+    },
+    {
+      "hangul": "소리를 줄이다",
+      "pos": "X",
+      "meaning_vi": "Vặn nhỏ tiếng",
+      "note_vi": "`음악 소리를 줄여 주세요` = xin vặn nhỏ tiếng nhạc.",
+      "example_ko": "텔레비전 소리를 조금 줄여 주세요.",
+      "example_vi": "Xin vặn nhỏ tiếng ti vi một chút.",
+      "family": "🟢 Nền · Nhắn hàng xóm về tiếng ồn",
+      "priority": "core"
+    },
+    {
+      "hangul": "불편하다",
+      "pos": "A",
+      "meaning_vi": "Bất tiện, khó chịu",
+      "example_ko": "소음 때문에 많이 불편해요.",
+      "example_vi": "Tôi rất khó chịu vì tiếng ồn.",
+      "family": "🟢 Nền · Nhắn hàng xóm về tiếng ồn",
+      "priority": "core",
+      "hanja": "不便",
+      "sino_vietnamese": "bất tiện",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "쪽지를 붙이다",
+      "pos": "X",
+      "meaning_vi": "Dán giấy nhắn",
+      "pron": "[쪽찌를 부치다]",
+      "example_ko": "윗집 문에 쪽지를 붙였어요.",
+      "example_vi": "Tôi đã dán giấy nhắn lên cửa nhà trên.",
+      "family": "🟢 Nền · Nhắn hàng xóm về tiếng ồn",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "쓰레기장",
+      "pos": "N",
+      "meaning_vi": "Bãi rác, chỗ đổ rác",
+      "note_vi": "Ở chung cư là nơi để rác theo khu vực quy định.",
+      "example_ko": "쓰레기는 쓰레기장에 버리세요.",
+      "example_vi": "Hãy vứt rác ở chỗ đổ rác.",
+      "family": "🟢 Nền · Từ sơ cấp · Rác & khu dân cư",
+      "priority": "core",
+      "source": "krdict:66442",
+      "hanja": "場",
+      "enrich": "auto",
+      "sino_vietnamese": "trường"
+    },
+    {
+      "hangul": "버리다",
+      "pos": "V",
+      "meaning_vi": "Vứt, bỏ",
+      "note_vi": "Sau động từ, -아/어 버리다 nghĩa là làm xong hẳn, mất luôn (잊어버리다).",
+      "example_ko": "쓰레기를 쓰레기통에 버리세요.",
+      "example_vi": "Hãy vứt rác vào thùng rác.",
+      "family": "🟢 Nền · Từ sơ cấp · Rác & khu dân cư",
+      "priority": "core",
+      "source": "krdict:65570",
+      "collocations": [
+        {
+          "ko": "쓰레기를 버리다",
+          "vi": "vứt rác"
+        }
+      ],
+      "enrich": "auto"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V + -도록 · V + -지 않도록 · V + -도록 하다",
+      "meaning_vi": "để cho, sao cho (mục đích/ kết quả mong muốn); **-도록 하다** = lời nhắc mềm",
+      "usage_context_vi": "**Cấu tạo:** gốc + `-도록`, không đổi theo patchim: 나다 → `나도록`, 오다 → `오도록`, 하다 → `하도록`; phủ định `-지 않도록`. `-도록 하다`: lời nhắc nhẹ nhàng ('hãy cố …'): `일찍 오도록 하세요`. Chỉ gắn với động từ (tính từ thì đổi sang `-아/어지다` trước).\n**Hoàn cảnh dùng:** (1) nêu **mục đích hoặc kết quả mong muốn**, chủ ngữ hai vế có thể khác nhau: `소음이 발생하지 않도록 주의해 주시기 바랍니다`; (2) `-도록 하다` nhắc nhở nhẹ nhàng: `내일부터는 일찍 오도록 하세요`. Rất hay gặp trong thông báo và nội quy chung cư.\n**Vì sao chọn nó thay vì `-(으)려고` và `-기 위해(서)`:** `-(으)려고` và `-기 위해(서)` yêu cầu **cùng chủ ngữ** ở hai vế. `-도록` cho phép chủ ngữ khác nhau nên hợp với thông báo ('để tiếng ồn không phát sinh, xin hãy chú ý').",
+      "contrasts": [
+        {
+          "pattern": "V + -(으)려고",
+          "diff_vi": "Mục đích với cùng một chủ ngữ, thiên về lời nói."
+        },
+        {
+          "pattern": "V + -기 위해(서)",
+          "diff_vi": "Mục đích trang trọng, cũng cần cùng chủ ngữ."
+        },
+        {
+          "pattern": "V + -(으)세요",
+          "diff_vi": "Lời bảo trực tiếp; `-도록 하세요` nhắc nhẹ hơn."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `-(으)려고` khi chủ ngữ hai vế khác nhau: ✗ `소음이 나지 않으려고 주의하십시오` → `소음이 나지 않도록 주의하십시오`.\n(2) Thêm thì vào gốc: ✗ `나았도록` → `나도록`.\n(3) Nhầm với `-더라도` vì cùng đứng sau `나-`: `소리가 나지 않도록` (để không có tiếng) ≠ `소리가 나더라도` (dù có tiếng).\n(4) Gắn với tính từ: ✗ `조용하도록` → `조용해지도록`.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Hàng xóm, Tiếng ồn & Phân loại rác'.",
+      "example_ko": "소음이 발생하지 않도록 주의해 주시기 바랍니다.\n내일부터는 일찍 오도록 하세요.\n아이들이 뛰지 않도록 부모님께서 지도해 주세요.",
+      "example_vi": "Xin hãy chú ý để không phát ra tiếng ồn.\nTừ mai hãy cố đến sớm nhé.\nBố mẹ hãy hướng dẫn để bọn trẻ không chạy nhảy.",
+      "source": "G5-4",
+      "exam": "kiip-4",
+      "topik_tip_vi": "Thông báo chung cư thường có `-지 않도록 주의해 주시기 바랍니다`: hãy tìm hành vi cần tránh đứng ngay trước `-지 않도록`.",
+      "importance": "normal"
+    },
+    {
+      "pattern": "N + (으)로 인해(서) · N + (으)로 인한 N",
+      "meaning_vi": "do N (nguyên nhân, văn viết)",
+      "usage_context_vi": "**Cấu tạo:** danh từ có patchim (trừ `ㄹ`) + `으로 인해(서)`, không patchim hoặc `ㄹ` + `로 인해(서)`: 소음 → `소음으로 인해`, 사고 → `사고로 인해`. Bổ nghĩa cho danh từ: `N(으)로 인한 N` (`소음으로 인한 갈등`). Chỉ gắn với danh từ.\n**Hoàn cảnh dùng:** nêu **nguyên nhân** trong văn viết (báo chí, bài luận, thông báo): `층간 소음으로 인해 이웃 간 갈등이 늘고 있다`, `교통사고로 인해 길이 막혔다`. Dạng `N(으)로 인한 N` rất hay xuất hiện trong đề Viết 53–54.\n**Vì sao chọn nó thay vì `N 때문에` và `-는 바람에`:** `N 때문에` dùng cả nói lẫn viết; `(으)로 인해(서)` trang trọng hơn, hợp văn bản. `-는 바람에` gắn với động từ và nhấn sự việc bất ngờ gây kết quả xấu.",
+      "contrasts": [
+        {
+          "pattern": "N + 때문에",
+          "diff_vi": "Nguyên nhân thường dùng trong nói; kém trang trọng."
+        },
+        {
+          "pattern": "V + -는 바람에",
+          "diff_vi": "Gắn với động từ, sự việc bất ngờ gây kết quả xấu."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Vế sau là mệnh lệnh hay lời rủ: ✗ `소음으로 인해 조용히 하세요`.\n(2) Gắn với động từ: ✗ `떠들어서로 인해` → `떠들기 때문에`.\n(3) Sai chọn `으`: ✗ `소음로 인해` → `소음으로 인해` (`소음` có patchim `ㅁ`); ✗ `서울으로`.\n(4) Bổ nghĩa cho danh từ mà dùng `인해`: ✗ `소음으로 인해 갈등을 줄이다` → `소음으로 인한 갈등을 줄이다`.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Hàng xóm, Tiếng ồn & Phân loại rác'.",
+      "example_ko": "층간 소음으로 인해 이웃 간 갈등이 늘고 있다.\n소음으로 인한 갈등을 줄여야 한다.\n교통사고로 인해 길이 막혔다.",
+      "example_vi": "Do tiếng ồn giữa các tầng, xung đột giữa hàng xóm ngày càng tăng.\nCần giảm xung đột do tiếng ồn gây ra.\nDo tai nạn giao thông nên đường bị tắc.",
+      "source": "G5-5",
+      "exam": "kiip-4",
+      "topik_tip_vi": "Đề Viết 53–54 hay cho nguyên nhân dưới dạng `N(으)로 인한 N`; nhận ra cụm này giúp nối ý 'nguyên nhân → vấn đề' trong bài mẫu.",
+      "builds_on": [
+        "N + (으)로"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V + -아/어 달라고 하다 · V + -(으)라고 하다 · V + -지 말라고 하다",
+      "meaning_vi": "thuật lại lời yêu cầu/mệnh lệnh/cấm của người khác",
+      "usage_context_vi": "**Cấu tạo:** Chọn theo **câu gốc**:\n| Câu gốc | Thuật lại | Ví dụ |\n| **Nhờ:** `-아/어 주세요` | `-아/어 달라고 하다` | `조용히 해 주세요` → `조용히 해 달라고 했어요` |\n| **Bảo:** `-(으)세요` | `-(으)라고 하다` | `조용히 하세요` → `조용히 하라고 했어요`, `먹으세요` → `먹으라고 했어요` |\n| **Cấm:** `-지 마세요` | `-지 말라고 하다` | `뛰지 마세요` → `뛰지 말라고 했어요` |\n**Hoàn cảnh dùng:** kể lại lời **nhờ, bảo, cấm** của người khác: `아랫집에서 조용히 해 달라고 했어요`, `엄마가 아이들에게 뛰지 말라고 했어요`, `선생님이 책을 읽으라고 하셨어요`.\n**Vì sao chọn nó thay vì `-(으)라고 하다`:** Lời gốc nhờ người nói làm giúp (`-아/어 주세요`) thì dùng `-아/어 달라고`; lời gốc là mệnh lệnh hay lời khuyên (`-(으)세요`) thì dùng `-(으)라고`.",
+      "contrasts": [
+        {
+          "pattern": "V/A + -(느)냐고 하다/묻다",
+          "diff_vi": "Kể lại câu hỏi."
+        },
+        {
+          "pattern": "V + -자고 하다",
+          "diff_vi": "Kể lại lời rủ cùng làm."
+        },
+        {
+          "pattern": "V/A + -(ㄴ/는)다고 하다",
+          "diff_vi": "Kể lại câu trần thuật."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Lẫn `-아/어 달라고` với `-(으)라고`: `조용히 해 주세요` → `해 달라고`; `조용히 하세요` → `하라고`.\n(2) Cấm bằng `-지 않으라고`: ✗ → `-지 말라고`.\n(3) Chia sai gốc có patchim: ✗ `먹라고` → `먹으라고`.\n(4) Quên đổi ngôi: lời gốc `저에게 …` khi kể lại phải đổi theo người kể.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Hàng xóm, Tiếng ồn & Phân loại rác'.",
+      "example_ko": "아랫집에서 조용히 해 달라고 했어요.\n엄마가 아이들에게 뛰지 말라고 했어요.\n선생님이 책을 읽으라고 하셨어요.",
+      "example_vi": "Nhà tầng dưới nhờ chúng tôi giữ yên lặng.\nMẹ bảo bọn trẻ đừng chạy nhảy.\nThầy bảo chúng tôi đọc sách.",
+      "source": "G5-6",
+      "topik_tip_vi": "Bài nghe thuật lại hội thoại: xác định ai nhờ ai làm gì và lời gốc là nhờ, bảo hay cấm.",
+      "builds_on": [
+        "V + -(으)라고 하다/말하다",
+        "V + -지 마세요",
+        "V + -아/어 주다"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V + -(으)ㄴ 채로",
+      "meaning_vi": "Giữ nguyên một trạng thái (đã thành) rồi làm việc khác: \"trong khi vẫn …, mà …\"",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · 👁 **Nhận ra** (đọc/nghe hiểu)\n**Cấu tạo:** động từ + `-(으)ㄴ` (quá khứ, bổ nghĩa cho danh từ) + `채로`: 붙다 → `붙은 채로`, 켜다 → `켠 채로`; phủ định `-지 않은 채로`. Chỉ gắn với **động từ**. `로` có thể bỏ (`신은 채`). Riêng `있다` dùng `-는 채로` (`앉아 있는 채로`).\n**Hoàn cảnh dùng:** thông báo, hướng dẫn và hội thoại hằng ngày, cả nói lẫn viết. Thường nói về việc **để nguyên một trạng thái rồi làm tiếp** mà lẽ ra không nên: ngủ khi đèn còn bật, vào phòng khi còn đi giày, vứt chai khi nhãn còn dính.\n*Mức độ:* KIIP không đưa mẫu này vào mục ngữ pháp chính của bài; giáo trình Yonsei xếp nó ở bậc cao cấp 2 (quyển 6). Ở mức này chỉ cần *nhận ra* khi đọc và nghe.\n**Vì sao chọn nó thay vì `-(으)ㄴ 상태로`:** `상태로` chỉ nêu trạng thái trung tính và dùng được cả với tính từ (`아픈 상태로`). `채로` nhấn mạnh \"cứ để nguyên như vậy mà …\", nên hợp với lời nhắc/ phê phán một việc lẽ ra phải xử lý trước (bóc nhãn, đổ hết nước).\n**Trong bài này:** ở đề tài 분리배출, hướng dẫn thường viết `라벨을 뗀 다음에 배출해 주십시오`, còn `-(으)ㄴ 채로` mô tả điều **không được làm**; đừng nhầm với `-도록` (để cho …), vốn nêu mục đích/ kết quả mong muốn của lời nhắc.",
+      "contrasts": [
+        {
+          "pattern": "-도록",
+          "diff_vi": "`-도록` nêu mục đích/ kết quả mong muốn (`잘 재활용되도록 …`); `-(으)ㄴ 채로` chỉ mô tả trạng thái đang được giữ nguyên khi làm việc khác, không có ý mục đích."
+        },
+        {
+          "pattern": "-(으)ㄴ 상태로",
+          "diff_vi": "Cùng nghĩa \"ở trong trạng thái …\" nhưng trung tính hơn và dùng được với tính từ; `-(으)ㄴ 채로` chỉ gắn với động từ và thường hàm ý \"để nguyên, lẽ ra nên thay đổi\" (không bắt buộc)."
+        },
+        {
+          "pattern": "-(으)면서",
+          "diff_vi": "`-(으)면서`: hai hành động diễn ra **đồng thời**. `-(으)ㄴ 채로`: kết quả của hành động trước **vẫn còn nguyên** trong lúc làm hành động sau."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n• Gắn với tính từ: ✗ 시끄러운 채로 → nói `시끄러운 상태로`.\n• Dùng `-는` cho việc đã xong: ✗ 라벨을 붙이는 채로 버렸어요 → ✓ 붙인 채로 (chỉ `있다` mới dùng `-는 채로`).\n• Dịch \"vừa … vừa\" thành `채로`: ✗ 커피를 마신 채로 이야기했어요 → ✓ 커피를 마시면서 이야기했어요.\n*Biên soạn bổ sung:* ví dụ 1 lấy từ bộ đề, các ví dụ còn lại và phần giải thích là biên soạn thêm.",
+      "topik_tip_vi": "Nghe L14: đáp án sai \"라벨을 붙인 채로 배출한다\" (trái với yêu cầu bóc nhãn). Đọc R8: \"뚜껑을 닫은 채로\". Viết 51-C: đề có \"라벨이 붙은 채로 버리는\". Chỉ cần nhận ra nghĩa \"để nguyên … mà\" để loại đáp án sai.",
+      "example_ko": "최근 페트병을 라벨이 붙은 채로 버리는 입주민이 늘고 있습니다.\n어젯밤에 불을 켠 채로 잠이 들었어요.\n뚜껑을 분리하지 않은 채로 배출하면 안 됩니다.",
+      "example_vi": "Gần đây số cư dân vứt chai nhựa khi nhãn vẫn còn dính đang tăng lên.\nTối qua tôi ngủ thiếp đi khi vẫn để đèn bật.\nKhông được đem bỏ khi chưa tách nắp.",
+      "source": "EXT-T2-01",
+      "use_level": "recognize",
+      "builds_on": [
+        "V + -(으)ㄴ + N (quá khứ)"
+      ]
+    },
+    {
+      "pattern": "N + -(이)라면",
+      "meaning_vi": "Nếu là N (đặt mình vào một vai/ tình huống giả định); \"nếu đúng là N thì …\"",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** danh từ + `(이)라면`: có patchim → `이라면` (이웃이라면), không patchim → `라면` (남자라면). Là dạng rút gọn của `N + 이다 + -(ㄴ/는)다면`. Chỉ gắn với **danh từ** (động từ/ tính từ dùng `-(ㄴ/는)다면`: 간다면, 바쁘다면). Vế sau hay là `-(으)ㄹ 거예요`, `-겠어요`, `-(으)ㄹ 것 같아요`; nếu trái sự thật thì dùng `-았/었을 거예요`.\n**Hoàn cảnh dùng:** (1) **đặt mình vào vai người khác** khi nêu ý kiến/ lời khuyên: `제가 남자라면 …`, `저라면 …`, `여러분이 ~라면 …`; (2) **nhắc lại chủ đề người kia vừa nêu**: `층간 소음 문제라면 …` (\"nếu là chuyện tiếng ồn giữa các tầng thì …\"). Dùng cả nói lẫn viết; rất hợp với câu hỏi phát biểu ý kiến trong bài thi Nói.\n**Vì sao chọn nó thay vì `-(으)면`:** `-(으)면` chỉ nêu điều kiện chung (`비가 오면 …`). `-(이)라면` làm rõ \"giả sử **tôi ở vị trí N**\" và vế sau là việc **vai đó sẽ làm**, nên hợp với câu hỏi \"nếu bạn là … thì sẽ làm gì?\"; khi nói về điều ngược thực tế, `-(이)라면` nghe rõ nghĩa giả định hơn.\n**Trong bài này:** đề Nói S4 yêu cầu `여러분이 남자라면 어떻게 하겠는지 말하십시오`; hãy mở câu trả lời bằng `제가 남자라면 먼저 … 거예요` rồi nêu lý do, đừng nhầm với `-(으)려면` (bài Nơi ở, Thuê & Chuyển nhà, \"nếu muốn làm V\") hay `-도록` (bài này, \"để cho …\").",
+      "contrasts": [
+        {
+          "pattern": "-(으)려면",
+          "diff_vi": "(lõi của bài Nơi ở, Thuê & Chuyển nhà) \"nếu muốn làm V thì\": gắn với **động từ**, vế trước là ý định; `N(이)라면` gắn danh từ và đặt người nói vào vai N."
+        },
+        {
+          "pattern": "-(으)면",
+          "diff_vi": "Điều kiện chung, không nhất thiết đặt mình vào vai nào; `-(이)라면` rõ nghĩa giả định về vai/ tình huống hơn."
+        },
+        {
+          "pattern": "-(ㄴ/는)다면",
+          "diff_vi": "Cùng nghĩa giả định nhưng gắn với động từ/ tính từ (`이웃이 사과한다면`); danh từ thì dùng `(이)라면`."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n• Vế sau của câu giả định nên dùng `-(으)ㄹ 거예요` / `-겠어요`: ✓ 제가 남자라면 먼저 사과할 거예요; dùng hiện tại (`사과해요`) nghe thiếu tự nhiên.\n• Gắn `(이)라면` vào động từ/tính từ để nói giả định: ✗ 비가 오이라면 → ✓ 비가 온다면 (động từ/tính từ dùng `-(ㄴ/는)다면`; `(이)라면` chỉ gắn danh từ).\n• Quên `이` sau danh từ có patchim: ✗ 이웃라면 → ✓ 이웃이라면.\n*Biên soạn bổ sung:* ví dụ 1 lấy từ bộ đề, các ví dụ còn lại và phần giải thích là biên soạn thêm.",
+      "topik_tip_vi": "Không phải đáp án nhiễu mà là mẫu để NÓI: đề Nói S4 và S4-B bảo người học nói xem nếu mình là người nam (S4) hoặc là hàng xóm tầng dưới (S4-B) thì sẽ làm gì. Bài mẫu trả lời bằng \"제가 남자라면 먼저 … 거예요\". Hãy dùng được: `제가 ~(이)라면` + `-(으)ㄹ 거예요` + lý do.",
+      "example_ko": "제가 남자라면 먼저 아래층에 가서 직접 사과할 거예요.\n제가 아래층 이웃이라면 쪽지를 써서 조용히 해 달라고 부탁할 것 같아요.\n층간 소음 문제라면 먼저 관리사무소에 문의해 보세요.",
+      "example_vi": "Nếu tôi là người nam thì trước hết tôi sẽ xuống tầng dưới và trực tiếp xin lỗi.\nNếu tôi là hàng xóm tầng dưới thì tôi nghĩ mình sẽ viết giấy nhắn nhờ họ giữ yên lặng.\nNếu là chuyện tiếng ồn giữa các tầng thì trước hết hãy hỏi ban quản lý.",
+      "source": "EXT-T2-03",
+      "use_level": "produce",
+      "builds_on": [
+        "N + 이에요/예요 · N + 이/가 아니에요",
+        "V/A + -(으)면"
+      ]
+    },
+    {
+      "pattern": "V/A + -더라도 · N + (이)더라도",
+      "meaning_vi": "Dù cho …, (thì vẫn …): nhượng bộ trong một trường hợp giả định",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · 👁 **Nhận ra** (đọc/nghe hiểu)\n**Cấu tạo:** gốc động từ/ tính từ + `-더라도` (không đổi theo patchim): 바쁘다 → `바쁘더라도`, 오다 → `오더라도`; danh từ + `(이)더라도` (`휴일이더라도`). Thêm `-았/었-` khi giả định việc đã xảy ra (`실패했더라도`). Vế sau nêu kết quả, lời khuyên, yêu cầu **không bị ảnh hưởng** bởi vế trước. Hay đi với `아무리`.\n**Hoàn cảnh dùng:** lời khuyên, thông báo, bài văn nghị luận, hội thoại hơi trang trọng: giả định một tình huống **chưa chắc xảy ra** hoặc ngoài dự kiến rồi nhấn mạnh rằng điều ở vế sau vẫn đúng (`아무리 급하더라도 …`, `휴일이더라도 …`).\n*Mức độ:* KIIP không đưa mẫu này vào mục ngữ pháp chính của bài; giáo trình Yonsei xếp nó ở bậc cao cấp 1 (quyển 5). Ở mức này chỉ cần *nhận ra* khi đọc và nghe.\n**Vì sao chọn nó thay vì `-아/어도`:** `-아/어도` là \"dù\" trung tính, dùng được cả cho thói quen và sự thật đang có (`바빠도 운동해요`). `-더라도` luôn đặt điều kiện như một **giả định** (\"dù có xảy ra chuyện đó\") và mang sắc thái trang trọng, nhấn mạnh hơn; không dùng cho điều đang xảy ra thật.\n**Trong bài này:** đề Đọc R13 đặt `나더라도` cạnh đáp án đúng `나지 않도록` (lõi của bài, \"để không có tiếng\"); hai dạng này giống vỏ nhưng `-도록` là **mục đích**, còn `-더라도` là **nhượng bộ** (\"dù có tiếng cũng …\").",
+      "contrasts": [
+        {
+          "pattern": "-도록",
+          "diff_vi": "(lõi của bài) \"để cho / sao cho\": nêu mục đích hoặc kết quả mong muốn (`소리가 나지 않도록 조심하다`); `-더라도` là \"dù\", không có ý mục đích."
+        },
+        {
+          "pattern": "-아/어도",
+          "diff_vi": "Cùng nghĩa \"dù\" nhưng trung tính, dùng được cho cả thói quen và sự thật đang có; `-더라도` chỉ cho giả định và trang trọng hơn."
+        },
+        {
+          "pattern": "-(으)ㄴ/는데도",
+          "diff_vi": "\"Mặc dù (thực tế là) …\": nêu **sự thật có thật**; còn `-더라도` là giả định chưa chắc xảy ra."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n• Nhầm `-더라도` với `-도록` vì cùng đứng sau `나-`: `소리가 나지 않도록` (để không có tiếng) ≠ `소리가 나더라도` (dù có tiếng).\n• Dùng cho sự thật đang diễn ra: ✗ 지금 비가 오더라도 (trời đang mưa thật) → ✓ 비가 오는데도 / 비가 와도.\n• Nhầm với `-더라고요` (bài Kỳ nghỉ & Trải nghiệm văn hóa, kể lại điều mình trực tiếp thấy): `-더라도` là \"dù\", không kể trải nghiệm.\n*Biên soạn bổ sung:* bộ đề chỉ có `나더라도` ở đáp án nhiễu (không có câu nào dùng đúng `-더라도`), nên ví dụ 1 là câu gốc của đề R13 với đáp án đúng `-도록` để đối chiếu, các ví dụ còn lại và phần giải thích là biên soạn thêm.",
+      "topik_tip_vi": "Đọc R13: `나더라도` (dù có tiếng) là đáp án nhiễu cạnh đáp án đúng `나지 않도록` (để không có tiếng). Chỉ cần nhận ra nghĩa \"dù … cũng\" để loại. Gặp `아무리 …` trong chỗ trống thì đáp án thường là `-더라도`/`-아/어도`.",
+      "example_ko": "그래서 늦은 밤에는 소리가 나지 않도록 조심하는 것이 좋다.\n아무리 바쁘더라도 이웃에게 먼저 인사하는 것이 좋아요.\n휴일이더라도 밤 10시 이후에는 조용히 해 주시기 바랍니다.",
+      "example_vi": "Vì vậy ban đêm nên cẩn thận để không phát ra tiếng (câu gốc của đề, dùng `-도록` để đối chiếu).\nDù bận đến đâu thì cũng nên chào hàng xóm trước.\nDù là ngày nghỉ, xin vui lòng giữ yên lặng sau 10 giờ tối.",
+      "source": "EXT-T2-04",
+      "use_level": "recognize"
+    },
+    {
+      "pattern": "V + -게 · V + -게끔 (để cho, sao cho)",
+      "meaning_vi": "Để cho …, sao cho … — nêu mục đích, kết quả mong muốn của hành động",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** gốc động từ + `-게` (văn nói và viết) hoặc `-게끔` (nhấn mạnh hơn, văn nói); phủ định `-지 않게(끔)`: `깨지 않게`, `들리지 않게끔`.\n**Hoàn cảnh dùng:** Vế trước là **kết quả mình muốn có**, vế sau là việc làm để đạt nó; hai vế có thể **khác chủ ngữ**: `아기가 깨지 않게 조용히 말해 주세요.` Rất hay gặp trong thông báo chung cư, lời nhờ hàng xóm.\n**Vì sao chọn nó:** `-도록` cùng nghĩa nhưng trang trọng hơn (thông báo, văn bản); `-게` nghe tự nhiên trong lời nói hằng ngày. `-(으)려고` cần **cùng chủ ngữ** nên không dùng được khi người khác là chủ thể của kết quả.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Hàng xóm, Tiếng ồn & Phân loại rác»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V + -도록 · V + -지 않도록 · V + -도록 하다",
+          "diff_vi": "Cùng nghĩa, trang trọng hơn, hợp văn bản thông báo."
+        },
+        {
+          "pattern": "V + -(으)려고",
+          "diff_vi": "Mục đích của chính chủ ngữ: `제가 일찍 일어나려고 알람을 맞췄어요`."
+        },
+        {
+          "pattern": "A + -게 (phó từ hoá)",
+          "diff_vi": "`조용하게 말하다` = nói một cách yên lặng (cách thức), không phải mục đích."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `-(으)려고` khi chủ ngữ hai vế khác nhau: ✗ `아기가 자려고 조용히 해 주세요` → ✓ `아기가 잘 수 있게 조용히 해 주세요`.\n(2) Chia thì trước `-게`: ✗ `들리지 않았게` → ✓ `들리지 않게`.\n(3) Nhầm với phó từ: `늦지 않게 오세요` (đến sao cho không trễ) đúng, nhưng ✗ `빠르게끔 걸었어요` khi chỉ muốn nói «đi nhanh» → ✓ `빠르게 걸었어요`.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "아기가 깨지 않게 조용히 말해 주세요.\n뒤에 앉은 사람도 잘 보이게 글씨를 크게 썼어요.\n다시는 실수하지 않게끔 꼼꼼하게 확인하겠습니다.",
+      "example_vi": "Xin nói nhỏ để em bé không thức giấc.\nTôi viết chữ to để người ngồi sau cũng nhìn rõ.\nTôi sẽ kiểm tra kỹ để không bao giờ mắc lỗi nữa.",
+      "topik_tip_vi": "Đọc: thông báo `소음이 발생하지 않게 주의해 주십시오` ≈ `-지 않도록`; câu hỏi «chọn cách nói tương đương» hay đổi qua lại giữa `-게` và `-도록`.",
+      "use_level": "produce",
+      "source": "EXT-SUP-04"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài (3 tầng)",
+      "body": "• 🟢 Nói chuyện lịch sự với hàng xóm về tiếng ồn và biết bỏ rác đúng cách.\n• 🟡 Đọc thông báo cư dân (Viết 51), viết đoạn giải thích cách phân loại rác (Viết 52), nghe và nói về lời nhờ, yêu cầu và tình huống giả định.\n• 🔴 Viết 54 (tùy chọn) về mâu thuẫn tiếng ồn giữa các tầng và ý thức cộng đồng.\n• Phần \"Đời sống\" (tiêu chuẩn tiếng ồn, cách phân loại rác) giúp bạn hiểu bối cảnh; **không cần thuộc số liệu**.\n• 🎯 **Đầu ra:** cuối bài bạn viết được một mẩu giấy nhắn 200–350 chữ gửi hàng xóm (hoặc ban quản lý) về tiếng ồn một cách lịch sự (Bước 5) và nói lời nhờ đó trực tiếp trong 30 giây.",
+      "kind": "goal"
+    },
+    {
+      "title": "Mẫu câu 🟢 và ôn ngữ pháp",
+      "body": "• 옆집 사람들이 아주 친절해요. — Những người ở nhà bên cạnh rất thân thiện.\n• 밤에는 쿵쿵 뛰지 마세요. — Ban đêm đừng chạy nhảy thình thịch.\n• 쓰레기는 쓰레기통에 버려요. — Rác thì vứt vào thùng rác.\n• 병은 병끼리, 종이는 종이끼리 모아서 버려요. *(`N끼리` = với nhau, cùng loại)* *(mở rộng)* — Chai thì gom chung với chai, giấy thì gom chung với giấy rồi vứt.\n(Bản dịch tham khảo.)\n\n**Ôn ngữ pháp:** `-(으)ㄹ까요?`, `-아/어 주다` và `-아/어 드리다`, `-지 마세요` (nền 1–2급), `-(으)ㄹ 때` (nền 1–2급).",
+      "kind": "language"
+    },
+    {
+      "title": "Đời sống: tiêu chuẩn 층간 소음 và 이웃사이센터",
+      "body": "• **Tiêu chuẩn 층간 소음** — sửa đổi công bố 8/2022 (Economist), áp dụng từ **2/1/2023** (Newsis): tiếng va đập trực tiếp (1분 등가소음도) **ngày 39 dB, đêm 34 dB** (trước đó 43/38); 최고소음도 57/52 dB; tiếng truyền qua không khí (5분 등가소음도) 45/40 dB; **주간 06–22시, 야간 22–06시**. *Nguồn: Newsis, Lawtalk, Economist*\n• **이웃사이센터** — thuộc 한국환경공단; có hòa giải tranh chấp 층간 소음. *Nguồn: Kyeonggi Ilbo*\n\n*Lưu ý:* số liệu và khung giờ lấy từ báo và trang pháp lý, **chưa đối chiếu với văn bản gốc** của cơ quan nhà nước; mức xử lý khi vượt tiêu chuẩn không được nêu ở đây. Cần dùng cho việc thật thì hãy xem trang chính thức.",
+      "kind": "fact"
+    },
+    {
+      "title": "Đời sống: phân loại rác (Seoul Mediahub)",
+      "body": "• **Nhựa / chai PET** — cách bỏ theo nguồn: đổ hết, tráng sạch, **bóc nhãn và sticker**, **tách nắp**; chai PET: ép lại, tách trong suốt và có màu\n• **Giấy** — bỏ băng keo, phiếu vận đơn, bìa tráng ni lông, lò xo; **gấp** và xếp gọn\n• **Chai lọ thủy tinh** — đổ hết, tráng, bóc nhãn. **Thủy tinh vỡ**: bọc báo rồi bỏ vào 종량제 봉투\n• **Ni lông** — tráng hoặc loại bỏ chất bẩn; khó làm sạch thì bỏ 종량제 봉투\n• **Bỏ vào 종량제 봉투** (nguồn xếp trong mục \"không phải rác thực phẩm\") — biên lai, phiếu vận đơn, giấy tráng, khăn giấy, khăn ướt, băng keo, hộp đựng thức ăn dính bẩn\n\n*Lưu ý:* đây là hướng dẫn của Seoul; quy tắc phân loại **khác nhau theo địa phương**, nên khi vứt rác thật hãy xem hướng dẫn nơi bạn ở. Mục cuối (\"không phải rác thực phẩm\") trong nguồn khó hiểu nên bài tập chỉ dùng các ý rõ ràng (băng keo, biên lai, thủy tinh vỡ…).",
+      "kind": "fact"
+    },
+    {
+      "title": "Ôn ngữ pháp (🟡)",
+      "body": "`-는 바람에` (아이들이 뛰는 바람에 잠을 못 잤어요 — Vì bọn trẻ chạy nhảy nên tôi không ngủ được), `-(으)시기 바랍니다`, `-고자 하다`, `-기 위해(서)`, `-(으)ㄴ 다음에` (라벨을 뗀 다음에 버리세요 — Hãy bóc nhãn rồi hãy vứt), `-게 되다`.",
+      "kind": "language"
+    },
+    {
+      "title": "Mẫu hội thoại (hàng xóm phàn nàn)",
+      "body": "가: 안녕하세요? 아래층에 사는 김민수입니다.\n나: 아, 네. 무슨 일이세요?\n가: 요즘 밤마다 쿵쿵 뛰는 소리가 들려서 잠을 잘 수가 없어요.\n나: 정말 죄송합니다. 앞으로는 밤에 뛰지 않도록 하겠습니다. 아이들에게도 조용히 하라고 말하겠습니다.\n가: 네, 부탁드립니다.\n\n**Bản dịch tham khảo:**\n가: Xin chào. Tôi là Kim Min-su, sống ở tầng dưới.\n나: À, vâng. Có chuyện gì vậy ạ?\n가: Dạo này đêm nào cũng nghe thấy tiếng chạy nhảy thình thịch nên tôi không ngủ được.\n나: Thật sự xin lỗi anh. Từ nay tôi sẽ cố gắng không chạy nhảy vào ban đêm. Tôi cũng sẽ nói với bọn trẻ giữ yên lặng.\n가: Vâng, nhờ anh nhé.",
+      "kind": "sample"
+    },
+    {
+      "title": "Mẫu văn bản (Viết 51, thông báo cư dân, đã sửa; mỗi chỗ trống là một câu, 합쇼체 xuyên suốt)",
+      "body": "**[아파트 입주민 안내문]**\n최근 늦은 밤에 피아노를 치거나 아이들이 뛰는 소리로 인해 **(㉠ 이웃 간의 갈등이 커지고 있습니다)**. 이웃을 배려하여 밤 10시 이후에는 **(㉡ 소음이 발생하지 않도록 주의해 주시기 바랍니다)**.\n\n*Ghi chú:* `이웃을 배려하여` là dạng viết của `배려해서`. Đáp án ㉠ có thể chấp nhận các câu cùng nghĩa như `민원이 늘고 있습니다` hoặc `이웃들이 불편을 겪고 있습니다`; ㉡ cần đủ ý \"giữ yên lặng/ không gây ồn sau 10 giờ tối\" và kết bằng `-시기 바랍니다`.\n\n**Bản dịch tham khảo:** [Thông báo cư dân chung cư] Gần đây vào đêm khuya, do tiếng chơi piano hoặc tiếng trẻ con chạy nhảy, (mâu thuẫn giữa những người hàng xóm đang lớn dần). Vì quan tâm đến hàng xóm, sau 10 giờ tối, (xin hãy chú ý để không phát sinh tiếng ồn).",
+      "kind": "writing"
+    },
+    {
+      "title": "Mẫu văn bản (Viết 52, giải thích cách phân loại)",
+      "body": "쓰레기를 버릴 때는 종류에 따라 나누어 배출해야 한다. 특히 페트병은 **(㉠ 내용물을 비우고 라벨을 뗀 다음에 배출해야 한다)**. 이렇게 하지 않으면 **(㉡ 재활용하기가 어려워지기 때문이다)**.\n\n**Bản dịch tham khảo:** Khi vứt rác, phải phân loại theo chủng loại rồi mới đem bỏ. Đặc biệt, chai PET (phải đổ hết bên trong và bóc nhãn rồi mới đem bỏ). Nếu không làm như vậy thì (việc tái chế sẽ trở nên khó khăn).",
+      "kind": "writing"
+    },
+    {
+      "title": "🔴 Viết 54 (tùy chọn): mâu thuẫn tầng và ý thức cộng đồng",
+      "body": "**Dàn ý:** (1) hiện trạng: mâu thuẫn tiếng ồn và khiếu nại tăng ở nơi nhiều người sống chung cư → (2) nguyên nhân: thiếu quan tâm lẫn nhau, ít giao tiếp giữa hàng xóm, cách âm chưa đủ → (3) giải pháp: nâng chuẩn cách âm khi xây, cư dân giữ phép lịch sự, có kênh hòa giải như 이웃사이센터.\n\n**Gợi ý:** đây là đề **thay thế** cho đề rác thải nhựa ở bài 07. Đề Viết 54 chính của cụm bài 05–07 là rác thải nhựa, vì là đề tài xã hội quen thuộc, dễ tìm lập luận và có chung từ vựng với bài 06 và 07.",
+      "kind": "writing"
+    },
+    {
+      "title": "🟢 Khung câu giấy nhắn gửi hàng xóm",
+      "body": "• **Tự giới thiệu:** `안녕하세요. 저는 아랫집 ○호에 사는 N(이)라고 합니다.`\n• **Sự việc:** `요즘 밤늦게 윗집에서 … 소리가 자주 들립니다.` · `그래서 저희 가족이 잠을 잘 못 자고 있습니다.`\n• **Thông cảm:** `물론 생활하면서 나는 작은 소리는 이해합니다.`\n• **Nhờ:** `밤 ○시 이후에는 소리가 나지 않도록 조금만 조심해 주시면 정말 감사하겠습니다.`\n• **Vì sao viết:** `관리사무소에 말하기 전에 먼저 직접 부탁을 드리고 싶어서 이렇게 쪽지를 씁니다.`\n• **Kết:** `바쁘신데 이런 부탁을 드려서 죄송합니다.` · `앞으로도 서로 배려하며 좋은 이웃으로 지내면 좋겠습니다.` · `○호 드림`\n**Gửi ban quản lý:** đổi câu nhờ thành `윗집에 밤에는 조심해 달라고 말씀해 주시면 감사하겠습니다.`",
+      "kind": "language"
+    },
+    {
+      "title": "🟢 Bài mẫu: Giấy nhắn gửi hàng xóm về tiếng ồn (đầu ra của bài)",
+      "body": "Đọc to bài mẫu, rồi đổi số căn, tiếng ồn, giờ giấc cho đúng nơi bạn sống: đó là bài **Bước 5** ở phần Tạo câu. Mọi từ và mẫu câu trong bài mẫu đều đã học đến bài này.\n\n안녕하세요. 저는 아랫집 302호에 사는 응우옌 투라고 합니다. 요즘 밤늦게 윗집에서 아이들이 뛰는 소리와 의자를 끄는 소리가 자주 들립니다. 그래서 저희 가족이 잠을 잘 못 자고 있습니다. 물론 생활하면서 나는 작은 소리는 이해합니다. 하지만 밤 10시 이후에는 소리가 나지 않도록 조금만 조심해 주시면 정말 감사하겠습니다. 관리사무소에 말하기 전에 먼저 직접 부탁을 드리고 싶어서 이렇게 쪽지를 씁니다. 바쁘신데 이런 부탁을 드려서 죄송합니다. 앞으로도 서로 배려하며 좋은 이웃으로 지내면 좋겠습니다.\n302호 드림\n\n*Bản dịch tham khảo:* Xin chào. Tôi là Nguyễn Thu, sống ở căn 302 tầng dưới. Dạo này khuya nào cũng hay nghe thấy tiếng trẻ con chạy nhảy và tiếng kéo ghế từ nhà trên. Vì vậy gia đình tôi không ngủ ngon được. Tất nhiên tôi hiểu những tiếng động nhỏ trong sinh hoạt. Nhưng nếu sau 10 giờ tối anh chị chú ý một chút để không phát ra tiếng động thì tôi thật sự rất biết ơn. Trước khi báo ban quản lý, tôi muốn trực tiếp nhờ anh chị trước nên viết mẩu giấy này. Anh chị bận rộn mà tôi lại nhờ thế này, thật xin lỗi. Mong từ nay về sau chúng ta vẫn quan tâm đến nhau và làm hàng xóm tốt của nhau. / Căn 302 kính thư\n\n**Giấy nhắn đi theo 4 bước:** (1) chào và tự giới thiệu → (2) sự việc: tiếng gì, lúc nào, ảnh hưởng ra sao → (3) thông cảm rồi nhờ một việc cụ thể (`-지 않도록 … 주시면 감사하겠습니다`) → (4) vì sao viết giấy, xin lỗi, mong làm hàng xóm tốt, ký tên.",
+      "kind": "sample"
+    }
+  ],
+  "bank": "quan-he",
+  "coach": {
+    "focus_vi": [
+      "`V + -지 않도록`: để cho (không) …, dùng trong thông báo; `-도록 하다`: lời nhắc nhở.",
+      "`-아/어 달라고 하다` / `-(으)라고 하다` / `-지 말라고 하다`: thuật lại lời nhờ, lệnh, cấm.",
+      "`-(으)ㄴ 채로`: giữ nguyên trạng thái rồi làm việc khác; `-더라도`: dù cho …; `N + (이)라면`: nếu là N."
+    ],
+    "watch_out_vi": [
+      "Thông báo mà hai vế khác chủ ngữ thì dùng `-지 않도록`, không dùng `-(으)려고` (✗ `소음이 나지 않으려고 주의하십시오`).",
+      "Thuật lại theo câu gốc: `조용히 해 주세요` → `해 달라고 했어요`; lệnh `-(으)세요` → `-(으)라고 했어요`."
+    ],
+    "notebook_vi": [
+      "3 câu thuật lại lời hàng xóm nhờ hoặc nhắc bạn, dùng `-아/어 달라고 하다`.",
+      "Quy tắc phân loại rác nơi bạn ở: loại nào bỏ vào ngày nào."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Thuật lại: nhà tầng dưới nhờ bạn giữ yên lặng.",
+        "answer": "아랫집에서 조용히 해 달라고 했어요."
+      },
+      {
+        "prompt_vi": "Viết một câu nhắc mọi người không gây tiếng ồn, dùng `-지 않도록`.",
+        "answer": "소음이 발생하지 않도록 주의해 주시기 바랍니다."
+      }
+    ],
+    "tip_vi": "Đọc «Đời sống: tiêu chuẩn 층간 소음 và 이웃사이센터» trước khi nhắc hàng xóm; biết nơi nhờ giúp thì bạn bình tĩnh hơn."
+  },
+  "exercise_ids": [
+    "QL12",
+    "QL14",
+    "QR8",
+    "QR13",
+    "QW51C",
+    "QW52B",
+    "QS2",
+    "QS4",
+    "QS6",
+    "QU22S1",
+    "QE01a",
+    "QE01b",
+    "QE01c",
+    "QE01d",
+    "QLN39",
+    "QLN40",
+    "QLN41",
+    "QLN42",
+    "QLN43",
+    "QLN44",
+    "QLN45",
+    "QLN46",
+    "QD13",
+    "QD14",
+    "QU22L1",
+    "QE03a",
+    "QE03b",
+    "QE03c",
+    "QE04a",
+    "QE04b",
+    "QU22R1",
+    "QSUP04",
+    "QE04c",
+    "QBO27",
+    "QBO28",
+    "QBO29",
+    "QBO30",
+    "QBO31",
+    "QBO32",
+    "QBO70",
+    "QU22O1",
+    "QU22O2",
+    "QBF11",
+    "QBF12",
+    "QU22F1",
+    "QBC06",
+    "QU22C1",
+    "QBE06",
+    "QU22E1"
+  ],
+  "editor_notes": [
+    {
+      "title": "Điểm chưa xác minh của bài này (mục 12.2 của ghi chép)",
+      "body": "• **Kiến thức đời sống không dẫn nguồn** (liên quan bài này): thủ tục 대형 폐기물 (thường phải đăng ký/ dán phiếu; thủ tục tùy địa phương, chưa đối chiếu).\n• **Cấp độ từ vựng** (1–2 / 3–4 / 5–6) chưa đối chiếu danh sách của 국립국어원.\n• **Không khẳng định** tần suất xuất hiện của từng đề tài Viết 54 trong đề thật, và **không khẳng định** bám sát một giáo trình cụ thể."
+    },
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "Giữ nguyên các đề Nói QS2, QS4, QS6 (đều về hàng xóm, tiếng ồn; QS6 là đề gốc của bài này); thêm QU22S1 (lên nhà trên nhờ giữ yên lặng, 30 giây). Bài mẫu là giấy nhắn 합쇼체 ký `302호 드림`; tên người viết `응우옌 투` là tên Việt tự đặt."
+    }
+  ]
+}

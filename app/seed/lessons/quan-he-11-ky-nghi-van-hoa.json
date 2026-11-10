@@ -1,0 +1,1204 @@
+{
+  "slug": "quan-he-11-ky-nghi-van-hoa",
+  "title": "Kỳ nghỉ & Trải nghiệm văn hóa",
+  "title_ko": "방학 & 문화 체험",
+  "topic": "Quan hệ xã hội, Sự kiện & Không gian sống",
+  "track": "intermediate",
+  "level": 3,
+  "sort_order": 38,
+  "summary": "Từ vựng kỳ nghỉ và hoạt động trải nghiệm văn hóa (đăng ký tham gia, bài chia sẻ cảm nhận), cùng đề tài xã hội đa văn hóa (Viết 54). Ngữ pháp: -았/었으면 좋겠다, -더라고요, -(으)ㄴ/는 반면(에), 덕분에 và N(이)라는 N. Bài có bước Tạo câu: xếp từ, điền khung, nối câu rồi viết một bài cảm nhận ngắn về một chương trình trải nghiệm văn hóa.",
+  "vocab": [
+    {
+      "hangul": "방학",
+      "pos": "N",
+      "meaning_vi": "Kỳ nghỉ của trường",
+      "note_vi": "방학 (học sinh, sinh viên) khác 휴가 (người đi làm)",
+      "example_ko": "방학이 시작되기 전에 체험 프로그램을 신청했어요.",
+      "example_vi": "Trước khi kỳ nghỉ bắt đầu, tôi đã đăng ký chương trình trải nghiệm.",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "exam": "kiip-2",
+      "priority": "core",
+      "hanja": "放學",
+      "sino_vietnamese": "phóng học",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "휴가",
+      "pos": "N",
+      "meaning_vi": "Nghỉ phép",
+      "note_vi": "방학 (học sinh, sinh viên) khác 휴가 (người đi làm)",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "休暇",
+      "sino_vietnamese": "hưu hạ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "연휴",
+      "pos": "N",
+      "meaning_vi": "Kỳ nghỉ lễ dài",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "priority": "core",
+      "hanja": "連休",
+      "sino_vietnamese": "liên hưu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "문화",
+      "pos": "N",
+      "meaning_vi": "Văn hóa",
+      "example_ko": "다음 방학에도 한국 문화를 체험했으면 좋겠어요.",
+      "example_vi": "Kỳ nghỉ sau tôi cũng mong được trải nghiệm văn hóa Hàn Quốc.",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "priority": "core",
+      "hanja": "文化",
+      "sino_vietnamese": "văn hóa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "전통",
+      "pos": "N",
+      "meaning_vi": "Truyền thống",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "priority": "recognize",
+      "hanja": "傳統",
+      "sino_vietnamese": "truyền thống",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "한옥",
+      "pos": "N",
+      "meaning_vi": "Nhà truyền thống",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "priority": "recognize",
+      "hanja": "韓屋",
+      "sino_vietnamese": "hàn ốc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "체험(하다)",
+      "pos": "N",
+      "meaning_vi": "Trải nghiệm",
+      "example_ko": "방학 동안 박물관에서 한국 전통문화를 체험했어요.",
+      "example_vi": "Trong kỳ nghỉ, tôi đã trải nghiệm văn hóa truyền thống Hàn Quốc ở bảo tàng.",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "priority": "recognize",
+      "hanja": "體驗",
+      "sino_vietnamese": "thể nghiệm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "구경하다",
+      "pos": "V",
+      "meaning_vi": "Ngắm, xem",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "exam": "kiip-2",
+      "priority": "core"
+    },
+    {
+      "hangul": "박물관",
+      "pos": "N",
+      "meaning_vi": "Bảo tàng",
+      "example_ko": "방학 동안 박물관에서 한국 전통문화를 체험했어요.",
+      "example_vi": "Trong kỳ nghỉ, tôi đã trải nghiệm văn hóa truyền thống Hàn Quốc ở bảo tàng.",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "exam": "kiip-2",
+      "priority": "core",
+      "hanja": "博物館",
+      "sino_vietnamese": "bác vật quán",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "전시회",
+      "pos": "N",
+      "meaning_vi": "Triển lãm",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "exam": "kiip-3",
+      "priority": "core",
+      "hanja": "展示會",
+      "sino_vietnamese": "triển thị hội",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "공연",
+      "pos": "N",
+      "meaning_vi": "Biểu diễn",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "exam": "kiip-3",
+      "priority": "core",
+      "hanja": "公演",
+      "sino_vietnamese": "công diễn",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "축제",
+      "pos": "N",
+      "meaning_vi": "Lễ hội",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "exam": "kiip-2",
+      "priority": "core",
+      "hanja": "祝祭",
+      "sino_vietnamese": "chúc tế",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "벚꽃",
+      "pos": "N",
+      "meaning_vi": "Hoa anh đào",
+      "note_vi": "벚꽃 구경, 단풍 구경",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "단풍",
+      "pos": "N",
+      "meaning_vi": "Lá phong thu",
+      "note_vi": "벚꽃 구경, 단풍 구경",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "priority": "recognize",
+      "hanja": "丹楓",
+      "sino_vietnamese": "đan phong",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "한복을 입어 보다",
+      "pos": "V",
+      "meaning_vi": "Thử mặc hanbok",
+      "example_ko": "한복을 입어 보니까 기분이 좋았어요.",
+      "example_vi": "Mặc thử hanbok rồi thì thấy tâm trạng vui.",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "김치를 만들어 보다",
+      "pos": "V",
+      "meaning_vi": "Thử làm kimchi",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "도자기",
+      "pos": "N",
+      "meaning_vi": "Đồ gốm sứ",
+      "example_ko": "선생님 덕분에 도자기를 완성할 수 있었어요.",
+      "example_vi": "Nhờ thầy/cô mà tôi đã hoàn thành được đồ gốm.",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "priority": "recognize",
+      "hanja": "陶瓷器",
+      "sino_vietnamese": "đào từ khí",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "사진을 찍다",
+      "pos": "V",
+      "meaning_vi": "Chụp ảnh",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "priority": "core"
+    },
+    {
+      "hangul": "친구를 사귀다",
+      "pos": "V",
+      "meaning_vi": "Kết bạn",
+      "example_ko": "한국 친구를 많이 사귀었으면 좋겠어요.",
+      "example_vi": "Ước gì tôi kết bạn được thật nhiều bạn Hàn Quốc.",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "priority": "core"
+    },
+    {
+      "hangul": "느끼다",
+      "pos": "V",
+      "meaning_vi": "Cảm nhận",
+      "example_ko": "한국 친구들 덕분에 전통 문화를 더 가깝게 느낄 수 있었어요.",
+      "example_vi": "Nhờ các bạn Hàn Quốc mà tôi đã cảm nhận được văn hóa truyền thống gần gũi hơn.",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "exam": "kiip-3",
+      "priority": "core"
+    },
+    {
+      "hangul": "느낌",
+      "pos": "N",
+      "meaning_vi": "Cảm giác",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "priority": "core"
+    },
+    {
+      "hangul": "느낀 점",
+      "pos": "N",
+      "meaning_vi": "Điều cảm nhận",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "즐겁다",
+      "pos": "A",
+      "meaning_vi": "Vui",
+      "note_vi": "`즐겁다` là ㅂ bất quy tắc: 즐거워요",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "보람 있다",
+      "pos": "A",
+      "meaning_vi": "Ý nghĩa, xứng đáng",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "재미있다",
+      "pos": "A",
+      "meaning_vi": "Thú vị",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "재미없다",
+      "pos": "A",
+      "meaning_vi": "Chán",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "신기하다",
+      "pos": "A",
+      "meaning_vi": "Lạ và hay",
+      "family": "🟢 Nền · Kỳ nghỉ & hoạt động",
+      "source": "NOTES §8 🟢 Tầng Nền",
+      "exam": "kiip-4",
+      "priority": "core",
+      "hanja": "神奇",
+      "sino_vietnamese": "thần kỳ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "체험 후기",
+      "pos": "N",
+      "meaning_vi": "Bài chia sẻ sau trải nghiệm",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "후기를 쓰다",
+      "pos": "V",
+      "meaning_vi": "Viết cảm nhận",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "참가하다",
+      "pos": "V",
+      "meaning_vi": "Tham gia",
+      "example_ko": "'한복 체험'이라는 프로그램에 참가했다.",
+      "example_vi": "Tôi đã tham gia chương trình có tên là 'Trải nghiệm hanbok'.",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "core",
+      "hanja": "參加",
+      "sino_vietnamese": "tham gia",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "참여하다",
+      "pos": "V",
+      "meaning_vi": "Tham dự, góp mặt",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "exam": "kiip-2",
+      "priority": "recognize",
+      "hanja": "參與",
+      "sino_vietnamese": "tham dự",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "참가 신청",
+      "pos": "N",
+      "meaning_vi": "Đăng ký tham gia",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "프로그램",
+      "pos": "N",
+      "meaning_vi": "Chương trình",
+      "example_ko": "'한복 체험'이라는 프로그램에 참가했다.",
+      "example_vi": "Tôi đã tham gia chương trình có tên là 'Trải nghiệm hanbok'.",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "core"
+    },
+    {
+      "hangul": "일정",
+      "pos": "N",
+      "meaning_vi": "Lịch",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "exam": "kiip-3",
+      "priority": "core",
+      "hanja": "日程",
+      "sino_vietnamese": "nhật trình",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "장소",
+      "pos": "N",
+      "meaning_vi": "Địa điểm",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "core",
+      "hanja": "場所",
+      "sino_vietnamese": "trường sở",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "준비물",
+      "pos": "N",
+      "meaning_vi": "Đồ cần chuẩn bị",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "exam": "kiip-2",
+      "priority": "core",
+      "hanja": "準備物",
+      "sino_vietnamese": "chuẩn bị vật",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "모집하다",
+      "pos": "V",
+      "meaning_vi": "Tuyển",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "募集",
+      "sino_vietnamese": "mộ tập",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "신청 기간",
+      "pos": "N",
+      "meaning_vi": "Thời hạn đăng ký",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "exam": "kiip-2",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "참가비",
+      "pos": "N",
+      "meaning_vi": "Phí tham gia",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "exam": "kiip-2",
+      "priority": "recognize",
+      "hanja": "參加費",
+      "sino_vietnamese": "tham gia phí",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "어학연수",
+      "pos": "N",
+      "meaning_vi": "Học ngoại ngữ ở nước ngoài",
+      "note_vi": "*(mở rộng)*",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "語學硏修",
+      "sino_vietnamese": "ngữ học nghiên tu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "교환학생",
+      "pos": "N",
+      "meaning_vi": "Sinh viên trao đổi",
+      "note_vi": "*(mở rộng)*",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "홈스테이",
+      "pos": "N",
+      "meaning_vi": "Ở nhà dân",
+      "note_vi": "*(mở rộng)*",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "견문을 넓히다",
+      "pos": "V",
+      "meaning_vi": "Mở rộng tầm hiểu biết",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "인상을 남기다",
+      "pos": "V",
+      "meaning_vi": "Để lại ấn tượng",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "인상 깊다",
+      "pos": "A",
+      "meaning_vi": "Ấn tượng sâu sắc",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "문화적 배경",
+      "pos": "N",
+      "meaning_vi": "Bối cảnh văn hóa",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "문화 차이",
+      "pos": "N",
+      "meaning_vi": "Khác biệt văn hóa",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "낯설다",
+      "pos": "A",
+      "meaning_vi": "Lạ lẫm",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "core"
+    },
+    {
+      "hangul": "적응하다",
+      "pos": "V",
+      "meaning_vi": "Thích nghi",
+      "example_ko": "처음에 비해 한국 생활에 많이 적응했다",
+      "example_vi": "So với lúc đầu, tôi đã thích nghi nhiều với cuộc sống ở Hàn Quốc.",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "exam": "kiip-3",
+      "priority": "core",
+      "hanja": "適應",
+      "sino_vietnamese": "thích ứng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "장인 정신",
+      "pos": "N",
+      "meaning_vi": "Tinh thần nghệ nhân",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "직접 해 보다",
+      "pos": "V",
+      "meaning_vi": "Tự mình làm thử",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "과정",
+      "pos": "N",
+      "meaning_vi": "Quá trình",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "core",
+      "hanja": "過程",
+      "sino_vietnamese": "quá trình",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "유익하다",
+      "pos": "A",
+      "meaning_vi": "Bổ ích",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "有益",
+      "sino_vietnamese": "hữu ích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "만족하다",
+      "pos": "V",
+      "meaning_vi": "Hài lòng",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "core",
+      "hanja": "滿足",
+      "sino_vietnamese": "mãn túc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "아쉬움이 남다",
+      "pos": "V",
+      "meaning_vi": "Còn tiếc nuối",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "추천하다",
+      "pos": "V",
+      "meaning_vi": "Giới thiệu",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "exam": "kiip-3",
+      "priority": "core",
+      "hanja": "推薦",
+      "sino_vietnamese": "suy tiến",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "문화 교류",
+      "pos": "N",
+      "meaning_vi": "Giao lưu văn hóa",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "봉사 활동",
+      "pos": "N",
+      "meaning_vi": "Hoạt động tình nguyện",
+      "family": "🟡 Dạng thi · Đăng ký, hậu kỳ & cảm nhận",
+      "source": "NOTES §8 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "다문화 사회",
+      "pos": "N",
+      "meaning_vi": "Xã hội đa văn hóa",
+      "family": "🔴 Nâng cao · Viết 54: xã hội đa văn hóa",
+      "source": "NOTES §8 🔴 Tầng Nâng cao",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "다문화 가정",
+      "pos": "N",
+      "meaning_vi": "Gia đình đa văn hóa",
+      "family": "🔴 Nâng cao · Viết 54: xã hội đa văn hóa",
+      "source": "NOTES §8 🔴 Tầng Nâng cao",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "이주민",
+      "pos": "N",
+      "meaning_vi": "Người nhập cư",
+      "family": "🔴 Nâng cao · Viết 54: xã hội đa văn hóa",
+      "source": "NOTES §8 🔴 Tầng Nâng cao",
+      "priority": "recognize",
+      "hanja": "移住民",
+      "sino_vietnamese": "di trú dân",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "외국인 주민",
+      "pos": "N",
+      "meaning_vi": "Cư dân nước ngoài",
+      "family": "🔴 Nâng cao · Viết 54: xã hội đa văn hóa",
+      "source": "NOTES §8 🔴 Tầng Nâng cao",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "문화 다양성",
+      "pos": "N",
+      "meaning_vi": "Đa dạng văn hóa",
+      "family": "🔴 Nâng cao · Viết 54: xã hội đa văn hóa",
+      "source": "NOTES §8 🔴 Tầng Nâng cao",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "문화적 편견",
+      "pos": "N",
+      "meaning_vi": "Thiên kiến văn hóa",
+      "family": "🔴 Nâng cao · Viết 54: xã hội đa văn hóa",
+      "source": "NOTES §8 🔴 Tầng Nâng cao",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "고정관념",
+      "pos": "N",
+      "meaning_vi": "Quan niệm cố hữu, khuôn mẫu (stereotype)",
+      "note_vi": "Khác `편견` (định kiến, thành kiến): `고정관념` là khuôn nghĩ có sẵn, khó đổi; `고정관념을 깨다` = phá bỏ khuôn mẫu.",
+      "family": "🔴 Nâng cao · Viết 54: xã hội đa văn hóa",
+      "source": "NOTES §8 🔴 Tầng Nâng cao",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "차별",
+      "pos": "N",
+      "meaning_vi": "Phân biệt",
+      "family": "🔴 Nâng cao · Viết 54: xã hội đa văn hóa",
+      "source": "NOTES §8 🔴 Tầng Nâng cao",
+      "priority": "recognize",
+      "hanja": "差別",
+      "sino_vietnamese": "sai biệt",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "문화 갈등",
+      "pos": "N",
+      "meaning_vi": "Xung đột văn hóa",
+      "family": "🔴 Nâng cao · Viết 54: xã hội đa văn hóa",
+      "source": "NOTES §8 🔴 Tầng Nâng cao",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "자문화 중심주의",
+      "pos": "N",
+      "meaning_vi": "Chủ nghĩa lấy văn hóa mình làm trung tâm",
+      "family": "🔴 Nâng cao · Viết 54: xã hội đa văn hóa",
+      "source": "NOTES §8 🔴 Tầng Nâng cao",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "상호 존중",
+      "pos": "N",
+      "meaning_vi": "Tôn trọng lẫn nhau",
+      "family": "🔴 Nâng cao · Viết 54: xã hội đa văn hóa",
+      "source": "NOTES §8 🔴 Tầng Nâng cao",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "상호 문화 교류",
+      "pos": "N",
+      "meaning_vi": "Giao lưu văn hóa hai chiều",
+      "family": "🔴 Nâng cao · Viết 54: xã hội đa văn hóa",
+      "source": "NOTES §8 🔴 Tầng Nâng cao",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "사회 통합",
+      "pos": "N",
+      "meaning_vi": "Hòa nhập xã hội",
+      "family": "🔴 Nâng cao · Viết 54: xã hội đa văn hóa",
+      "source": "NOTES §8 🔴 Tầng Nâng cao",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "공존",
+      "pos": "N",
+      "meaning_vi": "Cùng tồn tại",
+      "family": "🔴 Nâng cao · Viết 54: xã hội đa văn hóa",
+      "source": "NOTES §8 🔴 Tầng Nâng cao",
+      "priority": "recognize",
+      "hanja": "共存",
+      "sino_vietnamese": "cộng tồn",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "열린 태도",
+      "pos": "N",
+      "meaning_vi": "Thái độ cởi mở",
+      "family": "🔴 Nâng cao · Viết 54: xã hội đa văn hóa",
+      "source": "NOTES §8 🔴 Tầng Nâng cao",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "퍼센트",
+      "pos": "X",
+      "meaning_vi": "Phần trăm (%)",
+      "note_vi": "Dùng ở: bài Nói câu 5 (đọc số liệu và diễn giải). Khi đọc: số Hán-Hàn + 퍼센트, ví dụ 25% = 이십오 퍼센트.",
+      "example_ko": "2016년에 비해 문화 체험을 하고 싶다는 학생은 10퍼센트에서 25퍼센트로 두 배 넘게 늘었어요.",
+      "example_vi": "So với năm 2016, tỷ lệ học sinh muốn trải nghiệm văn hóa đã tăng hơn gấp đôi, từ 10% lên 25%.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "여전히",
+      "pos": "X",
+      "meaning_vi": "Vẫn, vẫn còn (như trước)",
+      "note_vi": "Dùng ở: bài Nói câu 5 (khảo sát hoạt động kỳ nghỉ của sinh viên). 여전히 = vẫn như trước.",
+      "example_ko": "그래도 여행을 선택한 학생은 여전히 가장 많은 편이에요.",
+      "example_vi": "Dù vậy, số học sinh chọn du lịch vẫn là nhiều nhất.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "recognize",
+      "hanja": "如前",
+      "sino_vietnamese": "như tiền",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "초대를 받다",
+      "pos": "X",
+      "pron": "[초대를 받따]",
+      "meaning_vi": "Được mời",
+      "note_vi": "Người mời: `N을/를 초대하다`; người được mời: `N에게서 초대를 받다`, `N에 초대를 받다`.",
+      "example_ko": "한국 친구의 생일 파티에 초대를 받았어요.",
+      "example_vi": "Tôi được mời đến tiệc sinh nhật của một người bạn Hàn Quốc.",
+      "family": "🟢 Nền · Kể trải nghiệm văn hóa của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "모양",
+      "pos": "N",
+      "meaning_vi": "Hình dáng",
+      "note_vi": "`모양이 예쁘다`, `모양을 예쁘게 만들다`.",
+      "example_ko": "제가 만든 송편은 모양이 조금 이상해요.",
+      "example_vi": "Bánh songpyeon tôi làm hình dáng hơi kỳ.",
+      "family": "🟢 Nền · Kể trải nghiệm văn hóa của tôi",
+      "priority": "core",
+      "hanja": "模樣",
+      "sino_vietnamese": "mô dạng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "닮은 점",
+      "pos": "X",
+      "pron": "[달믄 점]",
+      "meaning_vi": "Điểm giống nhau",
+      "note_vi": "`N과/와 닮은 점이 많다`; ngược lại: `다른 점` (điểm khác nhau).",
+      "example_ko": "한국 문화와 베트남 문화는 닮은 점이 많아요.",
+      "example_vi": "Văn hóa Hàn Quốc và văn hóa Việt Nam có nhiều điểm giống nhau.",
+      "family": "🟢 Nền · Kể trải nghiệm văn hóa của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "밥그릇",
+      "pos": "N",
+      "pron": "[밥끄륻]",
+      "meaning_vi": "Bát cơm",
+      "note_vi": "Ở Hàn Quốc thường không cầm bát cơm lên khi ăn: `밥그릇을 들지 않고 먹어요`.",
+      "example_ko": "한국에서는 밥그릇을 들지 않고 먹어요.",
+      "example_vi": "Ở Hàn Quốc người ta ăn mà không cầm bát cơm lên.",
+      "family": "🟢 Nền · Kể trải nghiệm văn hóa của tôi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "김장",
+      "pos": "N",
+      "meaning_vi": "Muối kimchi (làm kimchi số lượng lớn để ăn cả mùa đông)",
+      "note_vi": "`김장을 하다`; nhiều 주민센터 tổ chức `김장 체험`.",
+      "example_ko": "11월에는 김장을 하는 집이 많아요.",
+      "example_vi": "Tháng 11 có nhiều nhà muối kimchi.",
+      "family": "🟢 Nền · Kể trải nghiệm văn hóa của tôi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "동네",
+      "pos": "N",
+      "meaning_vi": "Khu phố, xóm",
+      "example_ko": "동네 사람들이 모두 모여서 김치를 만들었어요.",
+      "example_vi": "Người trong khu phố tụ họp lại làm kimchi.",
+      "family": "🟢 Nền · Kể trải nghiệm văn hóa của tôi",
+      "priority": "recognize",
+      "hanja": "洞",
+      "sino_vietnamese": "động",
+      "enrich": "auto"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V + -았/었으면 좋겠다",
+      "meaning_vi": "Mong ước, ước gì",
+      "usage_context_vi": "**Cấu tạo:** Gốc V/A + `-았/었으면 좋겠다`: gốc có `ㅏ/ㅗ` + `-았으면`, còn lại + `-었으면`, `하다` → `했으면`.\n- `오다` → `왔으면 좋겠다`\n- `사귀다` → `사귀었으면 좋겠다`\n- `체험하다` → `체험했으면 좋겠다`\nGắn được cả tính từ (`날씨가 좋았으면 좋겠어요`). Phần `좋겠다` chia theo thể câu (`좋겠어요`, `좋겠습니다`, `좋겠다`).\n**Hoàn cảnh dùng:** nói **mong điều gì đó xảy ra**, kể cả việc của người khác hay hoàn cảnh: `다음 방학에도 한국 문화를 체험했으면 좋겠어요`, `한국 친구를 많이 사귀었으면 좋겠어요`, `비가 그쳤으면 좋겠어요`. Hay dùng để kết bài cảm nhận bằng một mong muốn.\n**Vì sao chọn nó thay vì `-고 싶다`:** `-고 싶다` chỉ ước muốn của **chính người nói** (câu kể là ngôi thứ nhất); `-았/었으면 좋겠다` nói **mong điều xảy ra**, dùng được cho việc của người khác, hoàn cảnh, hay điều chưa chắc xảy ra.",
+      "contrasts": [
+        {
+          "pattern": "-고 싶다",
+          "diff_vi": "Ước muốn của chính mình; không dùng để mong điều của người khác."
+        },
+        {
+          "pattern": "-았/었으면 하다",
+          "diff_vi": "Cùng nghĩa 'mong', nói gián tiếp và nhã nhặn hơn (`체험했으면 합니다`)."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `-고 싶다` cho điều mình mong ở người khác: ✗ `친구가 한국에 오고 싶어요` → `친구가 한국에 왔으면 좋겠어요`.\n(2) Chia sai đuôi: ✗ `사귀으면`, `체험하었으면` → `사귀었으면`, `체험했으면`.\n(3) Bỏ `-았/었-` và `좋겠다` cho mong ước thật sự: `비가 그치면 좋겠어요` chỉ là 'nếu tạnh thì tốt', còn mong ước rõ là `그쳤으면 좋겠어요`.\n(4) Dùng `-고 싶다` và `좋겠다` trộn: ✗ `체험하고 좋겠어요`.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Kỳ nghỉ & Trải nghiệm văn hóa'.",
+      "example_ko": "다음 방학에도 한국 문화를 체험했으면 좋겠어요.\n한국 친구를 많이 사귀었으면 좋겠어요.\n내일 비가 그쳤으면 좋겠어요.\n더 많은 외국인이 이 축제에 참가했으면 좋겠다.",
+      "example_vi": "Kỳ nghỉ sau tôi cũng mong được trải nghiệm văn hóa Hàn Quốc.\nƯớc gì tôi kết bạn được thật nhiều bạn Hàn Quốc.\nTôi mong ngày mai trời tạnh mưa.\nMong sẽ có nhiều người nước ngoài hơn tham gia lễ hội này.",
+      "source": "G8-1",
+      "exam": "kiip-2",
+      "topik_tip_vi": "Cuối bài cảm nhận hay bài nói, một câu `… -았/었으면 좋겠다` là cách kết tự nhiên để nêu mong muốn. Khi nghe, nhớ đó là điều **mong chứ chưa xảy ra**.",
+      "builds_on": [
+        "V/A + -(으)면 좋겠다",
+        "V/A + -았/었- · N + 였/이었어요"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V/A + -더라고요",
+      "meaning_vi": "Kể lại điều **mình trực tiếp trải nghiệm/ phát hiện** (văn nói, 해요체)",
+      "usage_context_vi": "**Cấu tạo:** gốc V/A + `-더라고요`, không đổi theo patchim và không thêm `-았/었-` trước: 편하다 → `편하더라고요`, 많다 → `많더라고요`, 불다 → `불더라고요`; danh từ: `N이더라고요`. Vì đuôi bắt đầu bằng phụ âm nên `ㅂ` giữ nguyên: 덥다 → `덥더라고요`. Thường đi sau `-아/어 보니까`. Dạng thân mật `-더라고`, nói gọn `-더라`.\n**Hoàn cảnh dùng:** kể lại điều **chính mình thấy, nghe, trải nghiệm** trong quá khứ, thường có sắc thái bất ngờ hoặc vừa nhận ra: `한복을 입어 보니까 생각보다 편하더라고요`, `제주도는 바람이 많이 불더라고요`. Dùng khi nói hoặc trong bài chia sẻ cảm nhận thân mật. **Không** dùng cho ý định của mình hay điều mình không trực tiếp trải nghiệm.\n**Vì sao chọn nó thay vì `-았/었어요`:** `-았/었어요` chỉ kể một sự việc đã xảy ra; `-더라고요` thêm sắc thái 'mình đã trực tiếp thấy/ nhận ra điều đó', rất hợp khi chia sẻ cảm nhận sau trải nghiệm.\n**Mức độ:** KIIP không đưa mẫu này vào mục ngữ pháp chính của bài; giáo trình Yonsei xếp nó ở bậc cao cấp 1 (quyển 5). Ở mức này chỉ cần *nhận ra* khi đọc và nghe.",
+      "contrasts": [
+        {
+          "pattern": "-았/었어요",
+          "diff_vi": "Kể sự việc; `-더라고요` có sắc thái 'mình thấy, mình nhận ra'."
+        },
+        {
+          "pattern": "-더군요",
+          "diff_vi": "Cảm thán khi vừa phát hiện, nghe hơi cổ; chỉ cần nhận biết."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng cho ý định hoặc việc chưa xảy ra: ✗ `내일 가더라고요` → `내일 갈 거예요`.\n(2) Dùng cho hành động của chính mình đang làm: ✗ `제가 한복을 입더라고요` → kể cảm nhận: `입어 보니까 편하더라고요`.\n(3) Viết khẩu ngữ trong bài viết: `-더라구요` là cách nói, dạng chuẩn là `-더라고요`.\n(4) Bỏ vế dẫn phát hiện: `편하더라고요` đứng một mình nghe cụt, thường cần `-아/어 보니까` hay `막상`.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Kỳ nghỉ & Trải nghiệm văn hóa'.",
+      "example_ko": "한복을 입어 보니까 생각보다 편하더라고요.\n처음에는 한복이 불편할 것 같았는데 막상 입어 보니까 편하더라고요.\n제주도는 바람이 많이 불더라고요.\n한국 친구들이 아주 친절하더라고요.",
+      "example_vi": "Mặc thử hanbok vào thì thấy thoải mái hơn mình tưởng đấy.\nLúc đầu tôi tưởng hanbok sẽ bất tiện, nhưng đến khi mặc thử thật thì thấy thoải mái đấy.\nỞ Jeju gió thổi nhiều lắm đấy.\nCác bạn Hàn Quốc rất thân thiện đấy.",
+      "source": "G8-2",
+      "use_level": "recognize",
+      "topik_tip_vi": "Bài chia sẻ cảm nhận hay đối lập `처음에는 … -(으)ㄹ 것 같았는데 막상 -아/어 보니까 … -더라고요`: nhận ra khuôn này giúp nắm ý bài ngay (điều mình tưởng khác với điều mình thấy).",
+      "importance": "normal"
+    },
+    {
+      "pattern": "V/A + -(으)ㄴ/는 반면(에) · N + 인 반면(에)",
+      "meaning_vi": "Trái lại, mặt khác (văn viết)",
+      "usage_context_vi": "**Cấu tạo:** tính từ gốc không patchim + `-ㄴ 반면(에)`, có patchim + `-은 반면(에)`: 편리하다 → `편리한 반면`, 많다 → `많은 반면`; động từ + `-는 반면(에)`: 살다 → `사는 반면`; danh từ + `인 반면(에)`; quá khứ `-았/었던 반면(에)`. `반면에` còn làm từ nối đầu câu (`반면에 …`).\n**Hoàn cảnh dùng:** văn viết, dùng khi **đối chiếu hai mặt hay hai đối tượng** trong cùng một chủ đề: `도시 생활은 편리한 반면에 소음이 많다`, `성수기에는 숙박비가 비싼 반면 비수기에는 값이 싸다`. Hợp bài nghị luận nêu ưu – nhược điểm.\n**Vì sao chọn nó thay vì `-지만`:** `-지만` nối hai vế tương phản nói chung, dùng ở mọi văn cảnh; `-(으)ㄴ/는 반면(에)` **đối chiếu hai mặt/ hai đối tượng** rõ ràng, trang trọng, hợp văn viết và so sánh ưu – nhược điểm.\n**Mức độ:** KIIP không đưa mẫu này vào mục ngữ pháp chính của bài; giáo trình Yonsei xếp nó ở bậc cao cấp 2 (quyển 6). Ở mức này chỉ cần *nhận ra* khi đọc và nghe.",
+      "contrasts": [
+        {
+          "pattern": "-지만",
+          "diff_vi": "Tương phản chung, dùng ở mọi văn cảnh; `반면` đối chiếu hai mặt rõ ràng."
+        },
+        {
+          "pattern": "-(으)ㄴ/는데",
+          "diff_vi": "Tương phản nhẹ hay mở bối cảnh; `반면` chặt hơn và trang trọng hơn."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Chia sai định ngữ: ✗ `편리하는 반면`, `많는 반면` → `편리한 반면`, `많은 반면` (tính từ dùng `-(으)ㄴ`).\n(2) Danh từ thiếu `인`: ✗ `도시 반면` → `도시인 반면`.\n(3) Vế sau không đối lập: ✗ `편리한 반면에 깨끗하다` (cả hai đều tốt) → `편리한 반면에 소음이 많다`.\n(4) Sai thì: ✗ `편리했는 반면` → `편리했던 반면`.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Kỳ nghỉ & Trải nghiệm văn hóa'.",
+      "example_ko": "도시 생활은 편리한 반면에 소음이 많다.\n성수기에는 숙박비가 비싼 반면 비수기에는 값이 싸다.\n한국의 여름은 비가 많이 오는 반면 가을은 맑은 날이 많다.\n이 프로그램은 참가비가 싼 반면 인원이 적다.",
+      "example_vi": "Cuộc sống đô thị thì tiện lợi, nhưng mặt khác lại nhiều tiếng ồn.\nMùa cao điểm phí lưu trú đắt, ngược lại mùa thấp điểm giá rẻ.\nMùa hè Hàn Quốc mưa nhiều, ngược lại mùa thu có nhiều ngày quang đãng.\nChương trình này phí tham gia rẻ, nhưng bù lại số người ít.",
+      "source": "G8-3",
+      "use_level": "recognize",
+      "topik_tip_vi": "Viết 53 và 54: `-(으)ㄴ/는 반면(에)` để nêu ưu – nhược điểm hai mặt (đô thị: tiện lợi – ồn ào; xã hội đa văn hóa: đa dạng – xung đột). Ở mức này, nhận ra khi đọc là chính.",
+      "builds_on": [
+        "V + -는 + N · A + -(으)ㄴ + N (hiện tại)",
+        "V + -(으)ㄴ + N (quá khứ)"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "N + 덕분에 · V + -(으)ㄴ/는 덕분에",
+      "meaning_vi": "Nhờ có",
+      "usage_context_vi": "**Cấu tạo:** danh từ + `덕분에`: `선생님 덕분에`, `친구들 덕분에`. Động từ: quá khứ `-(으)ㄴ 덕분에` (`도와준 덕분에`, kính ngữ `도와주신 덕분에`), hiện tại `-는 덕분에`; tính từ `-(으)ㄴ 덕분에` (`날씨가 좋은 덕분에`). Không đi kèm tiểu từ `이/가/을/를`. Vế sau là **kết quả tốt**, hay là `-(으)ㄹ 수 있었다`.\n**Hoàn cảnh dùng:** nói nguyên nhân **tốt** kèm lòng biết ơn: `선생님 덕분에 도자기를 완성할 수 있었어요`, `한국 친구들 덕분에 전통 문화를 더 가깝게 느낄 수 있었어요`. Hợp thư cảm ơn và bài chia sẻ cảm nhận.\n**Vì sao chọn nó thay vì `때문에`:** `때문에` trung tính hoặc nói điều xấu (`비 때문에 행사가 취소됐어요`); `덕분에` chỉ dùng cho kết quả **tốt** và hàm ý biết ơn.",
+      "contrasts": [
+        {
+          "pattern": "때문에",
+          "diff_vi": "Nguyên nhân trung tính hoặc xấu; không có ý biết ơn."
+        },
+        {
+          "pattern": "탓에",
+          "diff_vi": "Nguyên nhân xấu, quy lỗi: `날씨 탓에 늦었다`."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `덕분에` cho kết quả xấu: ✗ `비 덕분에 행사가 취소됐어요` → `비 때문에`.\n(2) Thêm tiểu từ: ✗ `선생님이 덕분에`, `선생님을 덕분에` → `선생님 덕분에`.\n(3) Chia sai động từ khi việc đã xảy ra: ✗ `도와주는 덕분에 완성했어요` → `도와준 덕분에` / `도와주신 덕분에`.\n(4) `-아/어서` chỉ nêu lý do (`친구가 도와줘서 빨리 끝냈어요`); muốn nói biết ơn người giúp thì chọn `덕분에`.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Kỳ nghỉ & Trải nghiệm văn hóa'.",
+      "example_ko": "선생님 덕분에 도자기를 완성할 수 있었어요.\n한국 친구들 덕분에 전통 문화를 더 가깝게 느낄 수 있었어요.\n친구가 도와준 덕분에 이사를 빨리 끝냈어요.\n날씨가 좋은 덕분에 사진이 아주 잘 나왔어요.",
+      "example_vi": "Nhờ thầy/cô mà tôi đã hoàn thành được đồ gốm.\nNhờ các bạn Hàn Quốc mà tôi đã cảm nhận được văn hóa truyền thống gần gũi hơn.\nNhờ bạn giúp mà tôi chuyển nhà xong nhanh.\nNhờ thời tiết đẹp mà ảnh chụp lên rất đẹp.",
+      "source": "G8-4",
+      "topik_tip_vi": "Trong bài chia sẻ cảm nhận, `N 덕분에 … -(으)ㄹ 수 있었다` là khuôn nói biết ơn rất gọn. Khi kết quả xấu, chuyển sang `때문에`.",
+      "importance": "normal"
+    },
+    {
+      "pattern": "N + (이)라는 + N",
+      "meaning_vi": "Cái gọi là, tên là",
+      "usage_context_vi": "**Cấu tạo:** danh từ không patchim + `라는`, có patchim + `이라는`: `서울이라는 도시`, `김치라는 음식`, `한복 체험이라는 프로그램`. Phải có **danh từ** theo sau (tên gọi chỉ thứ gì). Là dạng rút gọn của `(이)라고 하는`.\n**Hoàn cảnh dùng:** giới thiệu **tên gọi** của chương trình, địa điểm, khái niệm: `'한복 체험'이라는 프로그램에 참가했다`, `오버투어리즘이라는 말을 들어 본 적이 있어요?`. Hay gặp khi nêu thuật ngữ mới trong bài đọc, bài báo.\n**Vì sao chọn nó thay vì danh từ đặt thẳng trước danh từ (`한복 체험 프로그램`):** `(이)라는` cho biết đó là **tên gọi** của thứ ấy, giúp người nghe biết đây là tên riêng hay thuật ngữ, nhất là khi vừa giới thiệu lần đầu.",
+      "contrasts": [
+        {
+          "pattern": "N + (이)나 + N",
+          "diff_vi": "Khác hẳn: `(이)나` là 'hoặc' (`글이나 사진`), còn `(이)라는` là 'có tên là'."
+        },
+        {
+          "pattern": "N + (이)라고 하는 N",
+          "diff_vi": "Dạng đầy đủ của `(이)라는`; văn viết thường rút gọn."
+        }
+      ],
+      "example_ko": "한복 체험이라는 프로그램에 참가했다.\n서울이라는 도시는 전통과 현대가 함께 있어요.\n오버투어리즘이라는 말을 들어 본 적이 있어요?\n한옥 마을이라는 곳에서 하룻밤 지냈어요.",
+      "example_vi": "Tôi đã tham gia chương trình có tên là 'Trải nghiệm hanbok'.\nThành phố mang tên Seoul có truyền thống và hiện đại cùng tồn tại.\nBạn đã từng nghe từ 'du lịch quá tải' chưa?\nTôi đã nghỉ một đêm ở nơi gọi là làng hanok.",
+      "source": "G8-5",
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Sai dạng theo patchim: ✗ `체험라는` → `체험이라는`; ✗ `김치이라는` → `김치라는`.\n(2) Thiếu danh từ phía sau: ✗ `'한복 체험'이라는 참가했다` → `'한복 체험'이라는 프로그램에 참가했다`.\n(3) Nhầm với `(이)나` (hoặc): ✗ `한복이라는 도자기 중에서 고르세요` khi muốn nói 'hanbok hay đồ gốm' → `한복이나 도자기`.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Kỳ nghỉ & Trải nghiệm văn hóa'.",
+      "topik_tip_vi": "Đọc bài báo và bài đọc: `N(이)라는 N` thường giới thiệu thuật ngữ mới (`오버투어리즘이라는 말`). Khi viết, dùng nó để giải thích khái niệm ở lần nhắc đầu tiên.",
+      "builds_on": [
+        "N + (이)라고 하다"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V + -기에 + A (입기에 불편하다 · 살기에 좋다)",
+      "meaning_vi": "Xét về việc làm V thì (thích hợp/ tiện/ bất tiện/ khó …): nhận xét một vật hay nơi chốn",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** gốc động từ + `-기에` + tính từ đánh giá (`좋다, 나쁘다, 편하다, 불편하다, 쉽다, 어렵다, 적당하다`): 입다 → `입기에 불편하다`, 살다 → `살기에 좋다`. Đứng trước danh từ thì tính từ chia định ngữ: `입기에 불편한 옷`, `공부하기에 좋은 집`. Thêm `는` để so sánh/ nhấn: `초보자가 읽기에는 어렵다`. Chủ ngữ là **vật hay nơi được đánh giá**, không đổi theo thì.\n**Hoàn cảnh dùng:** nhận xét đồ vật, nơi chốn, chương trình có hợp để làm việc gì không: bài đánh giá, quảng cáo, lời khuyên, hội thoại hằng ngày (`이 방은 혼자 살기에 좋아요`, `이 책은 읽기에 어려워요`). Dùng được cả nói lẫn viết.\n**Vì sao chọn nó thay vì `-는 데`:** `-는 데` rộng hơn: đi với `걸리다, 들다, 필요하다, 도움이 되다` (`가는 데 한 시간 걸려요`). `-기에` chỉ đi với **tính từ đánh giá** và mang nghĩa \"xét trên khía cạnh làm V\": nghe tự nhiên và đặc trưng hơn khi nhận xét `입기에 불편하다`, `살기에 좋다`.\n**Trong bài này:** đề Đọc R18 (hanbok) đặt `입기에 불편한` làm đáp án sai, vì bài đọc kể điều **mình trực tiếp thấy** bằng `-더라고요` (lõi của bài): `입어 보니까 편하더라고요`. Lưu ý `-기에` ở đây khác `-기에` nối mệnh đề (căn cứ/ lý do: `날씨가 좋기에 산책했어요`), không dùng lẫn.",
+      "contrasts": [
+        {
+          "pattern": "-더라고요",
+          "diff_vi": "(lõi của bài) kể lại điều **mình trực tiếp thấy/ trải nghiệm** (`입어 보니까 편하더라고요`); `-기에 + A` là nhận xét chung về mức độ thích hợp để làm V."
+        },
+        {
+          "pattern": "-는 데",
+          "diff_vi": "Rộng hơn, đi được với `걸리다, 들다, 필요하다, 도움이 되다`; `-기에` chỉ đi với tính từ đánh giá (`좋다, 편하다, 불편하다 …`)."
+        },
+        {
+          "pattern": "-기 편하다 (bỏ 에)",
+          "diff_vi": "`입기 편하다` ≈ `입기에 편하다`: bỏ `에` được trong văn nói, nghĩa như nhau; `-기에` hơi trang trọng hơn một chút."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n• Dùng với `걸리다/ 필요하다/ 도움이 되다`: ✗ 가기에 한 시간 걸려요 → ✓ 가는 데 한 시간 걸려요.\n• Gắn thì vào vế trước: ✗ 입었기에 불편해요 (đó là `-기에` nối mệnh đề, nghĩa khác) → ✓ 입기에 불편해요.\n• Thiếu tính từ đánh giá ở sau: ✗ 이 방은 혼자 살기에요 → ✓ 혼자 살기에 좋아요 (phải có `좋다/ 편하다/ 불편하다 …`).\n*Biên soạn bổ sung:* ví dụ 1 lấy từ bộ đề, các ví dụ còn lại và phần giải thích là biên soạn thêm.",
+      "topik_tip_vi": "Đọc R18: \"한복은 입기에 불편한 옷이다\" là đáp án sai (bài đọc nói 입어 보니까 편하더라고요). Bài mẫu Nói S1 có \"공부하기에 좋은 집\". Đọc: hiểu \"mặc thì bất tiện\" để loại; nói/viết: dùng `-기에 좋다/편하다` để nhận xét nơi chốn, đồ vật.",
+      "example_ko": "한복은 입기에 불편한 옷이다.\n이 한옥은 가족과 함께 하룻밤 지내기에 아주 좋아요.\n한국어 초보자가 읽기에는 이 후기가 조금 어려울 수 있습니다.",
+      "example_vi": "Hanbok là loại trang phục mặc vào thì bất tiện.\nCăn hanok này rất thích hợp để cả nhà ở lại một đêm.\nĐối với người mới học tiếng Hàn, bài cảm nhận này có thể hơi khó đọc.",
+      "source": "EXT-T2-06",
+      "use_level": "produce",
+      "builds_on": [
+        "V + -는 것 · V + -기 (danh từ hoá)"
+      ]
+    },
+    {
+      "pattern": "N + (이)나 + N (글이나 사진)",
+      "meaning_vi": "N hoặc N (nối hai danh từ để chọn một)",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · 👁 **Nhận ra** (đọc/nghe hiểu)\n**Cấu tạo:** N có patchim + `이나`, không patchim + `나` (`글이나 사진`, `전화나 문자`); nối hai (hoặc nhiều) danh từ, trợ từ đi sau danh từ cuối (`글이나 사진으로`, `전화나 문자로`). Vế sau nói chung cho cả hai: chọn một trong hai là được.\n**Hoàn cảnh dùng:** Cả khẩu ngữ lẫn văn viết thông thường: đưa ra các lựa chọn hoặc ví dụ kiểu \"A hay B\", như hướng dẫn đăng ký (`전화나 문자로 신청하세요`), gợi ý hoạt động (`한복이나 도자기 체험`), nói về nguồn thông tin (`글이나 사진`). Trong văn bản hành chính trang trọng hay thay bằng `또는/혹은`.\n**Vì sao chọn nó thay vì N 또는 N:** `또는` là liên từ đứng giữa hai danh từ, nghe như văn bản/quy định; `N(이)나 N` là trợ từ gắn thẳng vào danh từ nên ngắn gọn, tự nhiên trong lời nói, và nêu ví dụ \"chẳng hạn A hay B\" một cách nhẹ nhàng.\n**Trong bài này:** Trong bài Kỳ nghỉ & trải nghiệm văn hóa, `글이나 사진으로 보는 것` gộp các cách trải nghiệm gián tiếp thành một vế để đối lập với trải nghiệm trực tiếp (`직접 입어 보는 것`), cùng với core `N + 덕분에` và `V/A + -(으)ㄴ/는 반면(에)`; đừng nhầm `(이)나` với `N + (이)라는 + N` vì hình thức na ná.",
+      "contrasts": [
+        {
+          "pattern": "N + (이)라는 + N",
+          "diff_vi": "`(이)라는` là \"có tên là/gọi là\" (giới thiệu tên, trích dẫn): `한복이라는 옷` (bộ đồ tên là hanbok); còn `(이)나` là \"hoặc\": `한복이나 도자기`."
+        },
+        {
+          "pattern": "N 또는 N",
+          "diff_vi": "Cùng nghĩa \"hoặc\" nhưng là liên từ trang trọng/văn bản; `N(이)나 N` tự nhiên hơn khi nói."
+        },
+        {
+          "pattern": "N(이)나 (số lượng: \"tận …\")",
+          "diff_vi": "Cùng hình thức nhưng nghĩa khác: `책을 열 권이나 읽었어요` là \"đọc tận 10 cuốn\" (nhiều hơn dự đoán); còn `N(이)나 N` nối hai danh từ với nghĩa \"hoặc\"."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n• Dịch \"hoặc\" nhưng viết thành \"và\": `글과 사진으로` là dùng cả hai, còn `글이나 사진으로` là một trong hai.\n• Thiếu `이` sau danh từ có patchim: `글나 사진` sai → `글이나 사진`; danh từ không patchim thì dùng `나` (`전화나 문자`).\n• Lặp `(이)나` ở cả hai danh từ (`글이나 사진이나`) thì nghĩa đổi thành \"dù là A hay B thì đều …\"; cũng đừng lẫn với nghĩa \"tận\" khi đứng sau số lượng (`열 장이나`).\n*Biên soạn bổ sung:* ví dụ 1 lấy từ bộ đề, các ví dụ còn lại và phần giải thích là biên soạn thêm.",
+      "topik_tip_vi": "Nghe câu 19 (kịch bản): người nam nói \"글이나 사진으로 보는 것과 직접 입어 보는 것은 많이 달라요\" — (이)나 là \"hoặc\", gộp việc đọc/xem ảnh thành một vế để đối lập với trải nghiệm trực tiếp. Chỉ cần hiểu để nắm ý chính: tự trải nghiệm tốt hơn xem gián tiếp.",
+      "example_ko": "글이나 사진으로 보는 것과 직접 입어 보는 것은 많이 달라요.\n한복 체험이나 도자기 만들기 중에서 하나를 골라 보세요.\n전화나 문자로 참가 신청을 하실 수 있어요.",
+      "example_vi": "Xem qua bài viết hay hình ảnh khác nhiều so với tự mình mặc thử.\nHãy chọn một trong hai: trải nghiệm hanbok hoặc làm đồ gốm.\nBạn có thể đăng ký tham gia bằng điện thoại hoặc tin nhắn.",
+      "source": "EXT-T2-12",
+      "exam": "kiip-2",
+      "use_level": "recognize",
+      "builds_on": [
+        "N + (이)나 (hoặc · tận)"
+      ]
+    },
+    {
+      "pattern": "V/A + -고요",
+      "meaning_vi": "…, và còn …, rồi … nữa (kết thúc một vế bằng `요` để bổ sung thêm ý)",
+      "usage_context_vi": "**Cấu tạo:** Gốc V/A + `-고요`, không đổi theo patchim, không có bất quy tắc. Quá khứ: `-았/었고요` (`입어 봤고요`). Danh từ: `N(이)고요` (`학생이고요`). Câu thường có nhiều vế nối tiếp: `A-고요, B-고요, C-아/어요`. Ngữ điệu hơi lên ở cuối vế `-고요`, báo hiệu còn ý tiếp theo.\n**Hoàn cảnh dùng:** Kể lại trải nghiệm, miêu tả, liệt kê lợi ích hoặc lý do mà không muốn ngắt thành nhiều câu cộc lốc: `한복도 입어 봤고요, 사진도 많이 찍었어요`, `음식도 맛있고요, 가격도 싸요`. Hay dùng để trả lời `또 뭐 했어요?` (còn làm gì nữa?).\n**Vì sao chọn nó thay vì `-고` hay `그리고`:** `-고` nối hai vế TRONG một câu nên người nghe chờ hết câu mới hiểu. `-고요` đóng vế đầu bằng `요` (đã lịch sự và đã trọn ý), rồi bạn thêm ý sau một nhịp ngắt. Giống như 'thứ nhất …, mà còn …' trong lời nói. `그리고` thì mở đầu một câu MỚI.",
+      "contrasts": [
+        {
+          "pattern": "V/A + -고",
+          "diff_vi": "Nối trong một câu, không có `요` ở vế đầu."
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 반면(에)",
+          "diff_vi": "Đối lập ('trong khi đó'); `-고요` chỉ BỔ SUNG, không đối lập."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `-고` không `요` ở cuối vế khi nói với người trên: ✗ `사진도 많이 찍었고.` → `사진도 많이 찍었고요.`\n(2) Gắn thẳng vào danh từ: ✗ `제 친구는 학생고요` → `제 친구는 학생이고요`.\n(3) Dùng khi muốn nói 'nhưng': ✗ `비싸고요, 맛있어요` (ý 'đắt nhưng ngon') → `비싸지만 맛있어요`; `-고요` chỉ cộng thêm ý cùng hướng.\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc đối chiếu với Tóm tắt ngữ pháp New Yonsei 1-2 (người dùng cung cấp) · 표준국어대사전 (-고).",
+      "topik_tip_vi": "Bài đọc kể trải nghiệm: mỗi `-고요` là một mục trong danh sách. Bài nghe: khi nghe `-고요` có ngữ điệu lên, đáp án thường nằm ở vế SAU (chưa nghe hết).",
+      "example_ko": "한복도 입어 봤고요, 사진도 많이 찍었어요.\n이 도시는 깨끗하고요, 사람들도 친절해요.\nA: 또 뭐 했어요? B: 김치도 만들었고요, 도자기도 만들었어요.\n음식도 맛있고요, 가격도 싸요.\n제 친구는 학생이고요, 저는 회사원이에요.\n방도 편했고요, 직원도 친절했어요.",
+      "example_vi": "Tôi đã thử mặc hanbok, mà còn chụp rất nhiều ảnh nữa.\nThành phố này sạch sẽ, người dân cũng thân thiện.\nA: Bạn còn làm gì nữa? B: Tôi đã làm kim chi, rồi còn làm đồ gốm nữa.\nĐồ ăn ngon, mà giá cũng rẻ.\nBạn tôi là sinh viên, còn tôi là nhân viên công ty.\nPhòng thì thoải mái, nhân viên cũng thân thiện.",
+      "source": "Tóm tắt ngữ pháp New Yonsei 1-2 (người dùng cung cấp) · 표준국어대사전 (-고)",
+      "builds_on": [
+        "V + -고"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V/A + -기는요 (-긴요)",
+      "meaning_vi": "… gì đâu ạ — đáp lại lời khen, lời cảm ơn một cách khiêm tốn (phủ nhận nhẹ)",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** lặp lại động từ/tính từ người kia vừa nói + `-기는요`, văn nói rút gọn `-긴요`: `잘하다 → 잘하기는요`, `고맙다 → 고맙기는요`. Danh từ: `N은/는요` hoặc `N(이)기는요`.\n**Hoàn cảnh dùng:** Đáp lại lời khen, lời cảm ơn, lời hỏi thăm: `A: 한국어를 정말 잘하시네요. — B: 잘하기는요. 아직 멀었어요.` Sau đó thường có một câu nói rõ hơn.\n**Vì sao chọn nó:** `아니에요` chỉ phủ nhận; `-기는요` lặp lại chính lời người kia nên nghe **khiêm tốn, mềm và tự nhiên** đúng kiểu hội thoại Hàn.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Kỳ nghỉ & Trải nghiệm văn hóa»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "아니에요",
+          "diff_vi": "Phủ nhận chung, không lặp lại lời người kia."
+        },
+        {
+          "pattern": "V/A + -기는 하지만",
+          "diff_vi": "Thừa nhận một phần rồi nói ý khác (`맛있기는 하지만 비싸요`), không phải câu đáp khiêm tốn."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Chia thì: ✗ `잘했기는요` → thường ✓ `잘하기는요` (đáp lời khen hiện tại).\n(2) Dùng khi muốn đồng ý: `-기는요` là **phủ nhận**, đừng dùng khi muốn nói «đúng vậy».\n(3) Với người rất cao tuổi/cấp trên trong tình huống trang trọng, dùng thêm câu lịch sự: `아닙니다. 아직 많이 부족합니다.`\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "A: 이 음식 직접 만드셨어요? 정말 맛있네요. / B: 맛있기는요. 그냥 간단하게 만든 거예요.\nA: 많이 바쁘시죠? / B: 바쁘기는요. 요즘은 좀 한가해요.\nA: 도와주셔서 고마워요. / B: 고맙기는요. 당연히 해야 할 일인데요.",
+      "example_vi": "A: Món này anh tự nấu ạ? Ngon thật. / B: Ngon gì đâu. Chỉ nấu đơn giản thôi.\nA: Dạo này bận lắm phải không? / B: Bận gì đâu. Dạo này hơi rảnh.\nA: Cảm ơn anh đã giúp. / B: Cảm ơn gì chứ. Việc phải làm mà.",
+      "topik_tip_vi": "Nghe 1–3 (chọn câu đáp): câu khen → đáp án tự nhiên thường là `-기는요` + một câu giải thích.",
+      "use_level": "produce",
+      "source": "EXT-SUP-07"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài (và ranh giới với bài 10)",
+      "body": "**Mục tiêu:** 🟢 kể về kỳ nghỉ và hoạt động đơn giản · 🟡 viết đơn đăng ký, hậu kỳ trải nghiệm (Viết 51–52), đọc và nghe bài chia sẻ cảm nhận · 🔴 Viết 54 về xã hội đa văn hóa và tôn trọng đa dạng văn hóa.\n**Ranh giới:** bài này là **hoạt động và cảm nhận** (참가, 후기, so sánh văn hóa). Đặt chỗ, hủy vé thuộc bài 10.\n• 🎯 **Đầu ra:** cuối bài bạn viết được một bài chia sẻ 150–350 chữ (해요체) kể một trải nghiệm văn hóa ở Hàn Quốc và điều bạn nhận ra, dùng `-더라고요` (Bước 5), và kể lại trải nghiệm đó trong một phút.",
+      "kind": "goal"
+    },
+    {
+      "title": "Mẫu câu 🟢 (bản dịch tham khảo)",
+      "body": "• 방학 동안 박물관에서 한국 전통문화를 체험했어요. 참 보람찬 시간이었어요. *(`보람차다` = nhiều ý nghĩa)* — *Trong kỳ nghỉ, tôi đã trải nghiệm văn hóa truyền thống Hàn Quốc ở bảo tàng. Đó thật là khoảng thời gian ý nghĩa.*\n• 방학이 시작되기 전에 체험 프로그램을 신청했어요. — *Trước khi kỳ nghỉ bắt đầu, tôi đã đăng ký chương trình trải nghiệm.*\n• 한복을 입어 보니까 기분이 좋았어요. — *Mặc thử hanbok rồi thì thấy tâm trạng vui.*\n• 한국 친구를 많이 사귀었으면 좋겠어요. — *Ước gì tôi kết bạn được thật nhiều bạn Hàn Quốc.*",
+      "kind": "language"
+    },
+    {
+      "title": "Ngữ pháp ôn (không phải mẫu mới)",
+      "body": "**Ôn ngữ pháp (🟢):** `-기 전에` (방학이 시작되기 전에 계획을 세웠어요) · `-아/어 보다` (한복을 입어 봤어요) · `-(으)면서` (nền: 한국 음식을 먹으면서 이야기했어요) · `-(으)ㄹ까요?` · `-게 되다`.\n**Ôn (xoắn):** `-(으)ㄴ/는 셈이다` (한국 문화를 반쯤 이해한 셈이다) · `N에 비해(서)` (처음에 비해 한국 생활에 많이 적응했다) · `-고자 하다` · `-(으)시면 감사하겠습니다` (cụm, xem mẫu Viết 51) · `-(으)며` · `-게 되다` (한국 문화를 알게 되었다).",
+      "kind": "language"
+    },
+    {
+      "title": "Mẫu văn bản Viết 51 (đơn đăng ký tham gia, 합쇼체)",
+      "body": "**[참가 신청 문의]**\n이번 방학에 열리는 한국 문화 체험 프로그램에 **(㉠ 참가하고자 합니다)**. 일정과 참가비를 **(㉡ 알려 주시면 감사하겠습니다)**.\n*Bản dịch tham khảo:* [Hỏi về đăng ký tham gia] Tôi (㉠ muốn tham gia) chương trình trải nghiệm văn hóa Hàn Quốc được tổ chức vào kỳ nghỉ lần này. (㉡ Nếu quý vị cho tôi biết) lịch trình và phí tham gia thì tôi sẽ rất biết ơn.\n*Ghi chú:* `-(으)시면 감사하겠습니다` là cụm cố định lịch sự khi nhờ vả; coi là **chunk** *(mở rộng)*. ㉡ chấp nhận `알려 주시기 바랍니다`, nhưng với người nhờ, `감사하겠습니다` tự nhiên hơn.",
+      "kind": "writing"
+    },
+    {
+      "title": "Mẫu Viết 52 (đánh giá trải nghiệm)",
+      "body": "이번 전통 도자기 만들기 체험은 한국 문화를 이해하는 데 큰 도움이 되었다. 직접 흙을 만지며 도자기를 만드는 과정에서 **(㉠ 한국인의 장인 정신을 느낄 수 있었다)**. 처음에는 어려웠지만 선생님 덕분에 **(㉡ 작은 그릇을 완성할 수 있었다)**.\n*Bản dịch tham khảo:* Buổi trải nghiệm làm gốm sứ truyền thống lần này đã giúp ích rất nhiều cho việc hiểu văn hóa Hàn Quốc. Trong quá trình trực tiếp chạm tay vào đất và làm đồ gốm, (㉠ tôi đã cảm nhận được tinh thần nghệ nhân của người Hàn Quốc). Lúc đầu thì khó, nhưng nhờ thầy/cô mà (㉡ tôi đã hoàn thành được một chiếc bát nhỏ).",
+      "kind": "writing"
+    },
+    {
+      "title": "Mẫu bài chia sẻ (Đọc, văn nói kiểu blog, 해요체)",
+      "body": "처음에는 한복이 불편할 것 같았는데 막상 입어 보니까 편하더라고요. 한국 친구들 덕분에 전통 문화를 더 가깝게 느낄 수 있었어요.\n*Bản dịch tham khảo:* Lúc đầu tôi tưởng hanbok sẽ bất tiện, nhưng đến khi mặc thử thật thì thấy thoải mái đấy. Nhờ các bạn Hàn Quốc mà tôi đã cảm nhận được văn hóa truyền thống gần gũi hơn.",
+      "kind": "sample"
+    },
+    {
+      "title": "Khung Viết 53 (khảo sát mức độ hài lòng, số liệu minh họa)",
+      "body": "• **Mở bài**: `…을/를 대상으로 체험 프로그램에 대한 만족도를 조사한 결과`\n• **Xếp hạng**: `…(이)라는 응답이 가장 많았고 …이/가 그 뒤를 이었다`\n• **Đối chiếu**: `…은/는 N%인 반면에 …은/는 N%에 그쳤다` *(`에 그치다` mở rộng)*\n• **Kết luận số liệu**: `…(으)로 나타났다`",
+      "kind": "writing"
+    },
+    {
+      "title": "Viết 54: xã hội đa văn hóa và tôn trọng đa dạng văn hóa (dàn ý, biểu đạt, lưu ý)",
+      "body": "**Dàn ý:** (1) hiện trạng: cư dân từ nhiều nền văn hóa sống cạnh nhau ngày càng nhiều → (2) vấn đề: định kiến, hiểu lầm do khác biệt giá trị, xung đột → (3) giải pháp: giáo dục về đa văn hóa, cơ hội giao lưu hai chiều, chính sách hỗ trợ, thái độ cởi mở của mỗi người.\n**Biểu đạt:** `서로 다른 문화를 가진 사람들이 함께 살아가고 있다` · `…에 대한 편견을 버릴 필요가 있다` · `…(으)ㄴ/는 반면(에)` · `…기 위해서는 …이/가 필요하다` · `…(으)ㄹ수록 …`.\n**Lưu ý:** bài mẫu **không nêu số liệu thống kê** về người nhập cư (chưa đối chiếu nguồn).",
+      "kind": "writing"
+    },
+    {
+      "title": "🟢 Bài mẫu: Chuseok đầu tiên của tôi (đầu ra của bài)",
+      "kind": "sample",
+      "body": "Đọc to bài mẫu, rồi thay bằng một trải nghiệm văn hóa thật của bạn: đó là bài **Bước 5** ở phần Tạo câu. Bài viết kiểu blog nên dùng 해요체; mọi từ và mẫu câu trong bài đều đã học đến bài này.\n\n지난 추석에 한국 친구 민지 씨의 고향 집에 초대를 받아서 한국의 명절을 직접 체험해 봤어요. 아침에는 온 가족이 한복을 입고 차례를 지냈어요. 오후에는 민지 씨 할머니께서 송편이라는 떡을 빚는 것을 가르쳐 주셨어요. 직접 해 보니까 모양을 예쁘게 만들기가 정말 어렵더라고요. 그래도 할머니 덕분에 송편을 몇 개 만들 수 있었어요. 민지 씨 가족을 보니까 한국 사람들도 명절에 가족이 함께 모이는 시간을 가장 소중하게 생각하더라고요. 한국의 추석은 베트남의 설날과 닮은 점이 많아서 고향 생각이 났어요. 나라는 달라도 명절에 가족을 생각하는 마음은 같은 것 같아요. 다음 설날에는 민지 씨를 베트남에 초대했으면 좋겠어요.\n\n*Bản dịch tham khảo:* Chuseok vừa rồi, tôi được bạn Hàn Quốc Minji mời về nhà quê của bạn ấy nên đã trực tiếp trải nghiệm ngày lễ của Hàn Quốc. Buổi sáng, cả nhà mặc hanbok và làm lễ cúng tổ tiên. Buổi chiều, bà của Minji dạy tôi nặn một loại bánh tteok tên là songpyeon. Làm thử rồi mới thấy nặn cho đẹp thật là khó. Dù vậy, nhờ có bà mà tôi đã làm được vài cái. Nhìn gia đình Minji, tôi thấy người Hàn Quốc cũng quý nhất khoảng thời gian cả nhà quây quần vào dịp lễ. Chuseok của Hàn Quốc có nhiều điểm giống Tết của Việt Nam nên tôi nhớ quê. Tôi nghĩ dù khác đất nước, tấm lòng nghĩ về gia đình vào ngày lễ vẫn giống nhau. Tết tới, tôi mong được mời Minji về Việt Nam.\n\n**Bài chia sẻ đi theo 3 bước:** (1) câu mở: khi nào, ở đâu, trải nghiệm gì (`… 초대를 받아서 … 체험해 봤어요`) → (2) diễn biến và điều bạn tận mắt thấy (`직접 해 보니까 … -더라고요`, `N 덕분에`, `N(이)라는 N`) → (3) điều bạn nhận ra và mong muốn (`… 같은 것 같아요`, `-았/었으면 좋겠어요`)."
+    },
+    {
+      "title": "🟢 Khung câu kể trải nghiệm văn hóa",
+      "kind": "language",
+      "body": "• Mở bài: `지난 N에 … 초대를 받아서 / 참가해서 … 직접 체험해 봤어요.`\n• Gọi tên điều mới: `송편이라는 떡`, `김장 체험이라는 행사`.\n• Điều bạn tận mắt thấy, tự mình trải qua: `직접 해 보니까 … 어렵더라고요`, `한국 사람들도 … 소중하게 생각하더라고요`.\n• Nhờ ai: `할머니 덕분에 … 만들 수 있었어요.`\n• So với quê bạn: `… 베트남의 설날과 닮은 점이 많아서 고향 생각이 났어요` / `… 다른 점도 있었어요`.\n• Điều bạn nhận ra: `나라는 달라도 … 마음은 같은 것 같아요`, `한국 문화를 더 이해하게 됐어요`.\n• Mong muốn: `다음에는 … -았/었으면 좋겠어요.`\n(Bản dịch tham khảo: vừa rồi tôi được mời / tham gia … nên đã trực tiếp trải nghiệm … / loại bánh tên là songpyeon, sự kiện tên là trải nghiệm muối kimchi / làm thử rồi mới thấy khó; tôi thấy người Hàn cũng quý … / nhờ bà mà tôi làm được … / có nhiều điểm giống Tết Việt Nam nên tôi nhớ quê; cũng có điểm khác / dù khác đất nước, tấm lòng … vẫn giống nhau; tôi hiểu văn hóa Hàn hơn / lần sau tôi mong ….)"
+    },
+    {
+      "title": "Lỗi người Việt hay mắc trong bài này",
+      "body": "• Dùng `-고 싶다` cho mong muốn của người khác: ✗ 친구가 한국에 오고 싶어요 → ✓ 친구가 한국에 왔으면 좋겠어요 (mong điều xảy ra).\n• Dùng `-더라고요` cho **ý định hoặc việc mình không trải nghiệm**: ✗ 내일 가더라고요.\n• Dùng `덕분에` cho kết quả xấu: ✗ 비 덕분에 행사가 취소됐어요 → ✓ 비 **때문에**.\n• Dùng `-지만` và `-(으)ㄴ/는 반면에` như nhau; `반면에` cần **hai mặt đối chiếu** rõ.\n• Nhầm `방학` và `휴가`: học sinh, sinh viên có 방학; người đi làm có 휴가.\n• Viết `후기` bằng 한다체 cứng (nên theo thể của bài: blog dùng 해요체, báo cáo dùng 한다체).\n• Dùng `-더라고요` cho chính hành động của mình: ✗ `제가 송편을 만들더라고요` → ✓ `송편을 만들어 봤어요`; `-더라고요` dành cho điều bạn **thấy, cảm nhận** (`만들기가 어렵더라고요`, `한국 사람들도 … 생각하더라고요`).\n• Kể hết diễn biến mà không có điều mình nhận ra: một bài chia sẻ cần ít nhất một câu cảm nhận (`… 같은 것 같아요`, `… 이해하게 됐어요`).\n• Thiếu kính ngữ với người lớn trong câu chuyện: ✗ `할머니가 가르쳐 줬어요` → ✓ `할머니께서 가르쳐 주셨어요`.",
+      "kind": "pitfall"
+    },
+    {
+      "title": "Viết 53: so sánh các nhóm bằng `-(으)ㄴ 반면에` và `%p` (đề 53-F)",
+      "kind": "writing",
+      "body": "Đề cột chia nhóm (tuổi, giới tính, vùng) cần **tương phản** và **hiệu số**:\n• Nêu nhóm thay đổi **nhiều nhất** và nhóm **ngược chiều**, không kể hết mọi con số: `20대는 30%에서 48%로 18%p 늘어난 반면에 50대 이상은 22%에서 20%로 2%p 줄었다`.\n• `-(으)ㄴ/는 반면(에)` là mẫu của bài này; vế trước và sau nói hai mặt đối lập của cùng một đối tượng.\n• **%p** là hiệu của hai tỉ lệ (48% − 30% = 18%p). Viết `18%` là sai.\n• Phần nguyên nhân (I) và dự báo (K) làm như bài 09. Đề **53-F** là bài luyện cho dạng này."
+    }
+  ],
+  "bank": "quan-he",
+  "coach": {
+    "focus_vi": [
+      "`-았/었으면 좋겠다`: ước gì, mong điều xảy ra; `-더라고요`: kể điều mình trực tiếp trải nghiệm.",
+      "`N + 덕분에`: nhờ có (kết quả tốt); `-(으)ㄴ/는 반면(에)`: mặt khác, trái lại (hai mặt đối chiếu).",
+      "Nhận xét và liệt kê: `-기에 + A` (xét về việc làm …), `N(이)라는 N`, `-고요`."
+    ],
+    "watch_out_vi": [
+      "Mong người khác làm gì thì dùng `-았/었으면 좋겠다` (✗ `친구가 한국에 오고 싶어요`); `-더라고요` chỉ kể điều mình đã trải nghiệm (✗ `내일 가더라고요`).",
+      "`덕분에` chỉ đi với kết quả tốt; kết quả xấu dùng `때문에` (✗ `비 덕분에 행사가 취소됐어요`)."
+    ],
+    "notebook_vi": [
+      "3 câu về điều bạn mong muốn trong kỳ nghỉ tới, dùng `-았/었으면 좋겠다`.",
+      "Một đoạn đánh giá trải nghiệm văn hóa (Viết 52): ưu điểm và mặt trái, nối bằng `-(으)ㄴ/는 반면에`."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Kể cảm nhận khi thử mặc hanbok.",
+        "answer": "한복을 입어 보니까 생각보다 편하더라고요."
+      },
+      {
+        "prompt_vi": "Nói nhờ các bạn Hàn mà bạn cảm nhận văn hóa truyền thống gần hơn.",
+        "answer": "한국 친구들 덕분에 전통 문화를 더 가깝게 느낄 수 있었어요."
+      }
+    ],
+    "tip_vi": "Phân biệt `방학` và `휴가` khi điền đơn đăng ký chương trình; đọc «Mẫu văn bản Viết 51 (đơn đăng ký tham gia)»."
+  },
+  "exercise_ids": [
+    "QL11",
+    "QL19",
+    "QR18",
+    "QW52C",
+    "QW54F",
+    "QS5",
+    "QU27S1",
+    "QE06a",
+    "QE06b",
+    "QE06c",
+    "QE12a",
+    "QE12b",
+    "QFR39",
+    "QFR40",
+    "QFR41",
+    "QU27R1",
+    "QSUP07",
+    "QE12c",
+    "QE12d",
+    "QLN72",
+    "QLN73",
+    "QLN74",
+    "QLN75",
+    "QLN76",
+    "QLN77",
+    "QLN78",
+    "QLN79",
+    "QLN80",
+    "QLN81",
+    "QD23",
+    "QD24",
+    "QU27L1",
+    "QBO58",
+    "QBO59",
+    "QBO60",
+    "QBO61",
+    "QBO62",
+    "QBO63",
+    "QBO64",
+    "QBO65",
+    "QBO66",
+    "QBO67",
+    "QBO68",
+    "QFBO09",
+    "QU27O1",
+    "QU27O2",
+    "QBF21",
+    "QBF22",
+    "QFBF05",
+    "QU27F1",
+    "QBC11",
+    "QU27C1",
+    "QBE11",
+    "QU27E1",
+    "QW53F"
+  ],
+  "editor_notes": [
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "Đầu ra bài 27: bài chia sẻ 해요체 kể một trải nghiệm văn hóa và điều nhận ra, có -더라고요 (QU27E1), nói 1 phút (QU27S1); bài đọc QU27R1 (phép ăn uống ở nhà bạn Hàn), bài nghe QU27L1 (김장 체험 ở 주민센터). Giữ QS5 (khảo sát kỳ nghỉ, đề gốc của bài này). QU27C1 chỉ luyện `-아/어서` (thẻ main bank) nên không có grammar_links. Không dùng 처음/생각보다/비슷하다/올해 vì các thẻ đó do gói bài 24/25 thêm (mỗi gói phải đứng một mình). 13 thẻ thêm (4 thẻ recognize cho bài đọc/nghe). remove_ids: QS3 (chuyến Jeju gặp bão, đặt vé, hủy, hoàn tiền: hậu cần du lịch, đề gốc bài 26; ranh giới của bài này ghi rõ đặt chỗ, hủy vé thuộc bài 26), QS6 (ý kiến về tiếng ồn giữa các tầng, chủ đề hàng xóm)."
+    }
+  ]
+}

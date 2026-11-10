@@ -1,0 +1,717 @@
+{
+  "slug": "xa-hoi-06-mau-doc-3-4-con-lai",
+  "title": "Mẫu hay ra ở Đọc 3–4 còn lại: -게 하다 · -기에는 · -기 십상이다 · -아/어야지 · 설마 · 이나 다름없다",
+  "title_ko": "남은 빈출 문형",
+  "topic": "Xã hội, Tư tưởng & Chuyên ngành",
+  "track": "advanced",
+  "level": 5,
+  "sort_order": 67,
+  "summary": "Sáu mẫu cuối của danh sách hay ra ở Đọc 3–4: khiến/cho làm (-게 하다), «để mà … thì» (-기에는), dễ xảy ra điều xấu (-기 십상이다/-기 일쑤이다), «phải … mới được» (-아/어야지), nghi ngờ mạnh (설마 …) và «chẳng khác gì» (이나 다름없다). Kèm 28 từ về thói quen, tâm lý và cách gây ra – kiềm chế.",
+  "vocab": [
+    {
+      "hangul": "습관",
+      "pos": "N",
+      "meaning_vi": "Thói quen",
+      "note_vi": "`습관을 들이다/기르다`, `습관이 되다`. Trung tính; xem `버릇`.",
+      "example_ko": "좋은 습관은 하루아침에 만들어지지 않는다.",
+      "example_vi": "Thói quen tốt không được tạo ra trong một sớm một chiều.",
+      "family": "🟢 Nền · Thói quen, tâm lý, hành vi",
+      "priority": "core",
+      "hanja": "習慣",
+      "sino_vietnamese": "tập quán",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "버릇",
+      "pos": "N",
+      "meaning_vi": "Tật, thói quen (hay xấu)",
+      "note_vi": "`버릇이 있다/들다`, `버릇을 고치다`, `말버릇`; `버릇없다` = hỗn, vô lễ.",
+      "example_ko": "그는 손톱을 깨무는 버릇이 있다.",
+      "example_vi": "Anh ấy có tật cắn móng tay.",
+      "family": "🟢 Nền · Thói quen, tâm lý, hành vi",
+      "priority": "core"
+    },
+    {
+      "hangul": "행동",
+      "pos": "N",
+      "meaning_vi": "Hành động, cách cư xử",
+      "note_vi": "`행동하다`, `행동에 옮기다`; `행위` (hành vi) thiên văn bản pháp luật.",
+      "example_ko": "아이들의 행동은 부모의 영향을 받는다.",
+      "example_vi": "Hành động của trẻ chịu ảnh hưởng của cha mẹ.",
+      "family": "🟢 Nền · Thói quen, tâm lý, hành vi",
+      "priority": "core",
+      "hanja": "行動",
+      "sino_vietnamese": "hành động",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "태도",
+      "pos": "N",
+      "meaning_vi": "Thái độ",
+      "note_vi": "`태도를 보이다/바꾸다`, `긍정적인 태도`.",
+      "example_ko": "면접에서는 말하는 태도도 중요하다.",
+      "example_vi": "Trong phỏng vấn, thái độ khi nói cũng quan trọng.",
+      "family": "🟢 Nền · Thói quen, tâm lý, hành vi",
+      "priority": "core",
+      "hanja": "態度",
+      "sino_vietnamese": "thái độ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "충동",
+      "pos": "N",
+      "meaning_vi": "Sự bốc đồng, xung động",
+      "note_vi": "`충동을 느끼다/억누르다`, `충동적(으로)`, `충동구매`.",
+      "example_ko": "그는 충동을 이기지 못하고 물건을 샀다.",
+      "example_vi": "Anh ấy không cưỡng được sự bốc đồng và đã mua đồ.",
+      "family": "🟢 Nền · Thói quen, tâm lý, hành vi",
+      "priority": "recognize",
+      "hanja": "衝動",
+      "sino_vietnamese": "xung động",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "욕구",
+      "pos": "N",
+      "meaning_vi": "Nhu cầu, mong muốn",
+      "note_vi": "`욕구를 채우다/충족하다`, `욕구가 강하다`.",
+      "example_ko": "인간에게는 인정받고 싶은 욕구가 있다.",
+      "example_vi": "Con người có nhu cầu muốn được công nhận.",
+      "family": "🟢 Nền · Thói quen, tâm lý, hành vi",
+      "priority": "core",
+      "hanja": "欲求",
+      "sino_vietnamese": "dục cầu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "유혹",
+      "pos": "N",
+      "meaning_vi": "Sự cám dỗ",
+      "note_vi": "`유혹을 느끼다/뿌리치다/이기다`, `유혹하다`.",
+      "example_ko": "단 음식의 유혹을 이기기는 쉽지 않다.",
+      "example_vi": "Thật không dễ thắng được sự cám dỗ của đồ ngọt.",
+      "family": "🟢 Nền · Thói quen, tâm lý, hành vi",
+      "priority": "core",
+      "hanja": "誘惑",
+      "sino_vietnamese": "dụ hoặc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "설득",
+      "pos": "N",
+      "meaning_vi": "Sự thuyết phục",
+      "note_vi": "`설득하다/설득되다`, `설득력이 있다`.",
+      "example_ko": "부모님을 설득하는 데 한 달이 걸렸다.",
+      "example_vi": "Mất một tháng để thuyết phục bố mẹ.",
+      "family": "🟢 Nền · Thói quen, tâm lý, hành vi",
+      "priority": "core",
+      "hanja": "說得",
+      "sino_vietnamese": "thuyết đắc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "강요",
+      "pos": "N",
+      "meaning_vi": "Sự ép buộc",
+      "note_vi": "`강요하다/강요받다`, `강요에 못 이겨`.",
+      "example_ko": "다른 사람에게 자신의 생각을 강요해서는 안 된다.",
+      "example_vi": "Không được ép người khác theo suy nghĩ của mình.",
+      "family": "🟢 Nền · Thói quen, tâm lý, hành vi",
+      "priority": "core",
+      "hanja": "強要",
+      "sino_vietnamese": "cường yếu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "압박",
+      "pos": "N",
+      "meaning_vi": "Sự ép, áp lực",
+      "note_vi": "`압박을 느끼다/받다/가하다`, `압박감`; `부담` nhẹ hơn.",
+      "example_ko": "시험에 대한 압박 때문에 잠을 못 잤다.",
+      "example_vi": "Vì áp lực kỳ thi nên tôi không ngủ được.",
+      "family": "🟢 Nền · Thói quen, tâm lý, hành vi",
+      "priority": "recognize",
+      "hanja": "壓迫",
+      "sino_vietnamese": "áp bách",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "포기",
+      "pos": "N",
+      "meaning_vi": "Sự từ bỏ",
+      "note_vi": "`포기하다`, `포기하지 마세요`.",
+      "example_ko": "그는 어려운 상황에서도 포기하지 않았다.",
+      "example_vi": "Anh ấy đã không từ bỏ ngay cả trong hoàn cảnh khó khăn.",
+      "family": "🟢 Nền · Thói quen, tâm lý, hành vi",
+      "priority": "core",
+      "hanja": "抛棄",
+      "sino_vietnamese": "phao khí",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "끈기",
+      "pos": "N",
+      "meaning_vi": "Tính kiên trì",
+      "note_vi": "`끈기가 있다/없다`, `끈기 있게`.",
+      "example_ko": "공부에는 재능보다 끈기가 중요하다.",
+      "example_vi": "Trong học tập, kiên trì quan trọng hơn tài năng.",
+      "family": "🟢 Nền · Thói quen, tâm lý, hành vi",
+      "priority": "core",
+      "hanja": "氣",
+      "sino_vietnamese": "khí",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "의욕",
+      "pos": "N",
+      "meaning_vi": "Ý chí, hứng thú làm",
+      "note_vi": "`의욕이 생기다/떨어지다/넘치다`.",
+      "example_ko": "피곤하면 일할 의욕이 떨어진다.",
+      "example_vi": "Mệt thì hứng thú làm việc giảm.",
+      "family": "🟢 Nền · Thói quen, tâm lý, hành vi",
+      "priority": "core",
+      "hanja": "意欲",
+      "sino_vietnamese": "ý dục",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "집중력",
+      "pos": "N",
+      "meaning_vi": "Khả năng tập trung",
+      "note_vi": "`집중력이 높다/떨어지다`; `집중하다` là «tập trung».",
+      "example_ko": "잠이 부족하면 집중력이 떨어진다.",
+      "example_vi": "Thiếu ngủ thì khả năng tập trung giảm.",
+      "family": "🟢 Nền · Thói quen, tâm lý, hành vi",
+      "priority": "core",
+      "hanja": "集中力",
+      "sino_vietnamese": "tập trung lực",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "야기",
+      "pos": "N",
+      "meaning_vi": "Sự gây ra",
+      "note_vi": "`야기하다/야기되다`; sắc thái tiêu cực như `초래하다`, `유발하다`.",
+      "example_ko": "이 문제는 큰 혼란을 야기할 수 있다.",
+      "example_vi": "Vấn đề này có thể gây ra hỗn loạn lớn.",
+      "family": "🟡 Dạng thi · Gây ra, kiềm chế, cảnh báo",
+      "priority": "core",
+      "hanja": "惹起",
+      "sino_vietnamese": "nhạ khởi",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "악화",
+      "pos": "N",
+      "meaning_vi": "Sự xấu đi, trầm trọng hơn",
+      "note_vi": "`악화되다/악화시키다`; trái nghĩa `호전`.",
+      "example_ko": "치료가 늦어지면 병이 악화될 수 있다.",
+      "example_vi": "Nếu chậm điều trị, bệnh có thể nặng hơn.",
+      "family": "🟡 Dạng thi · Gây ra, kiềm chế, cảnh báo",
+      "priority": "core",
+      "hanja": "惡化",
+      "sino_vietnamese": "ác hóa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "호전",
+      "pos": "N",
+      "meaning_vi": "Sự chuyển biến tốt",
+      "note_vi": "`호전되다`; trái nghĩa `악화`; thường dùng với `상태`, `상황`.",
+      "example_ko": "환자의 상태가 많이 호전되었다.",
+      "example_vi": "Tình trạng bệnh nhân đã chuyển biến tốt nhiều.",
+      "family": "🟡 Dạng thi · Gây ra, kiềm chế, cảnh báo",
+      "priority": "recognize",
+      "hanja": "好轉",
+      "sino_vietnamese": "hảo chuyển",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "심화",
+      "pos": "N",
+      "meaning_vi": "Sự trở nên sâu sắc, nghiêm trọng hơn",
+      "note_vi": "`심화되다/심화시키다`; `갈등이 심화되다`; còn nghĩa «khoá nâng cao» (`심화 과정`).",
+      "example_ko": "경쟁이 심화되면서 가격이 내려갔다.",
+      "example_vi": "Cạnh tranh gay gắt hơn nên giá giảm.",
+      "family": "🟡 Dạng thi · Gây ra, kiềm chế, cảnh báo",
+      "priority": "core",
+      "hanja": "深化",
+      "sino_vietnamese": "thâm hóa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "억제",
+      "pos": "N",
+      "meaning_vi": "Sự kìm hãm, ngăn chặn",
+      "note_vi": "`억제하다/억제되다`; `충동을 억제하다`. Có thể kìm cả sự vật, không riêng bản thân.",
+      "example_ko": "정부는 물가 상승을 억제하려고 노력하고 있다.",
+      "example_vi": "Chính phủ đang cố kìm giá tăng.",
+      "family": "🟡 Dạng thi · Gây ra, kiềm chế, cảnh báo",
+      "priority": "core",
+      "hanja": "抑制",
+      "sino_vietnamese": "ức chế",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "자제",
+      "pos": "N",
+      "meaning_vi": "Sự tự kiềm chế",
+      "note_vi": "`자제하다`, `자제를 당부하다`; chủ thể kiềm chế chính **mình**.",
+      "example_ko": "과소비를 자제하는 것이 필요하다.",
+      "example_vi": "Cần tự kiềm chế việc chi tiêu quá mức.",
+      "family": "🟡 Dạng thi · Gây ra, kiềm chế, cảnh báo",
+      "priority": "core",
+      "hanja": "自制",
+      "sino_vietnamese": "tự chế",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "대응책",
+      "pos": "N",
+      "meaning_vi": "Đối sách",
+      "note_vi": "`대응책을 마련하다/세우다`; `대안` (bài 54) là phương án thay thế.",
+      "example_ko": "정부는 가뭄에 대한 대응책을 발표했다.",
+      "example_vi": "Chính phủ đã công bố đối sách cho hạn hán.",
+      "family": "🟡 Dạng thi · Gây ra, kiềm chế, cảnh báo",
+      "priority": "core",
+      "hanja": "對應策",
+      "sino_vietnamese": "đối ứng sách",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "경고",
+      "pos": "N",
+      "meaning_vi": "Sự cảnh báo",
+      "note_vi": "`경고하다`, `경고를 받다`, `경고음`.",
+      "example_ko": "전문가들은 위험하다고 경고했다.",
+      "example_vi": "Các chuyên gia đã cảnh báo là nguy hiểm.",
+      "family": "🟡 Dạng thi · Gây ra, kiềm chế, cảnh báo",
+      "priority": "core",
+      "hanja": "警告",
+      "sino_vietnamese": "cảnh cáo",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "당부",
+      "pos": "N",
+      "meaning_vi": "Lời dặn dò",
+      "note_vi": "`당부하다`, `당부의 말씀`; trang trọng hơn `부탁`.",
+      "example_ko": "의사는 푹 쉬라고 당부했다.",
+      "example_vi": "Bác sĩ dặn phải nghỉ ngơi đầy đủ.",
+      "family": "🟡 Dạng thi · Gây ra, kiềm chế, cảnh báo",
+      "priority": "core",
+      "hanja": "當付",
+      "sino_vietnamese": "đương phó",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "권장",
+      "pos": "N",
+      "meaning_vi": "Sự khuyến nghị",
+      "note_vi": "`권장하다/권장되다`, `권장량`.",
+      "example_ko": "하루 물 여덟 잔을 마시는 것이 권장된다.",
+      "example_vi": "Khuyến nghị uống tám cốc nước mỗi ngày.",
+      "family": "🟡 Dạng thi · Gây ra, kiềm chế, cảnh báo",
+      "priority": "core",
+      "hanja": "勸奬",
+      "sino_vietnamese": "khuyến tưởng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "손상",
+      "pos": "N",
+      "meaning_vi": "Sự hư hại, tổn thương",
+      "note_vi": "`손상되다/손상시키다`, `명예가 손상되다`.",
+      "example_ko": "큰 소리는 청력을 손상시킬 수 있다.",
+      "example_vi": "Âm thanh lớn có thể làm tổn hại thính lực.",
+      "family": "🟡 Dạng thi · Gây ra, kiềm chế, cảnh báo",
+      "priority": "core",
+      "hanja": "損傷",
+      "sino_vietnamese": "tổn thương",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "과도",
+      "pos": "N",
+      "meaning_vi": "Sự quá mức",
+      "note_vi": "`과도하다`, `과도한 + N`.",
+      "example_ko": "과도한 운동은 오히려 건강에 해롭다.",
+      "example_vi": "Tập quá sức lại có hại cho sức khoẻ.",
+      "family": "🟡 Dạng thi · Gây ra, kiềm chế, cảnh báo",
+      "priority": "core",
+      "hanja": "過度",
+      "sino_vietnamese": "quá độ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "과잉",
+      "pos": "N",
+      "meaning_vi": "Sự dư thừa quá mức",
+      "note_vi": "`과잉 보호/진료/생산`; thường đi sau là danh từ.",
+      "example_ko": "과잉 보호는 아이의 자립을 방해한다.",
+      "example_vi": "Bao bọc quá mức cản trở sự tự lập của trẻ.",
+      "family": "🟡 Dạng thi · Gây ra, kiềm chế, cảnh báo",
+      "priority": "recognize",
+      "hanja": "過剩",
+      "sino_vietnamese": "quá thặng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "기울이다",
+      "pos": "V",
+      "meaning_vi": "Dồn (chú ý, nỗ lực); nghiêng",
+      "note_vi": "`귀/관심/노력을 기울이다`; tự động `기울다` (nghiêng).",
+      "example_ko": "부모는 아이의 말에 귀를 기울여야 한다.",
+      "example_vi": "Cha mẹ phải lắng nghe lời con.",
+      "family": "🟡 Dạng thi · Gây ra, kiềm chế, cảnh báo",
+      "priority": "core"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V/A + -게 하다 · V/A + -게 만들다",
+      "meaning_vi": "Làm cho/khiến … ; cho phép, bắt … làm",
+      "usage_context_vi": "**Cấu tạo:** `V/A + -게 하다` thêm một chủ thể thứ hai: A **làm cho** B làm V hoặc rơi vào trạng thái A. Người bị khiến thường mang `이/가` hoặc `을/를`; nếu động từ đã có tân ngữ thì dùng `이/가` hoặc `에게`. `-게 만들다` nhấn **kết quả** (sự vật/tình huống khiến ai ra sao).\n**Hoàn cảnh dùng:** (1) Bắt buộc hoặc cho phép: `부모님은 아이가 일찍 자게 하셨다.` (2) Sự vật gây ra trạng thái: `그 영화는 나를 울게 만들었다.` (3) Chế độ/biện pháp khiến người ta làm: `이 제도는 사람들이 쓰레기를 줄이게 한다.`\n**Vì sao chọn nó:** Tiếng Hàn có hai đường làm «khiến»: động từ sai khiến (`먹이다`, `입히다`, `재우다`, `웃기다`…) và `-게 하다`. `-게 하다` gắn được với **mọi** động từ/tính từ nên là dạng an toàn khi không nhớ dạng sai khiến. `-게 되다` (bài 13) thì ngược lại: không có người làm, mọi việc **tự diễn ra**.",
+      "contrasts": [
+        {
+          "pattern": "V + -게 되다 (bài 13)",
+          "diff_vi": "`-게 되다` = tự nhiên trở nên, không có tác nhân; `-게 하다` = có người/sự việc làm cho."
+        },
+        {
+          "pattern": "V + -도록 하다 (bài 21)",
+          "diff_vi": "`-도록 하다` thường là lời dặn/ra lệnh nhẹ (`조심하도록 하세요`); `-게 하다` kể lại việc ai khiến ai."
+        },
+        {
+          "pattern": "먹이다 · 입히다 · 재우다 (động từ sai khiến)",
+          "diff_vi": "Cùng nghĩa «cho/làm cho». Động từ sai khiến chỉ có với một số động từ; `-게 하다` dùng rộng."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Lẫn với `-게 되다`: ✗ `저는 한국에 살게 했어요` → ✓ `살게 되었어요` (kết quả tự nhiên).\n(2) Hai tân ngữ `을/를`: ✗ `아이를 약을 먹게 했다` → ✓ `아이에게 약을 먹게 했다` hoặc `아이가 약을 먹게 했다`.\n(3) Dùng thay lời dặn: ✗ `조심하게 하세요` → ✓ `조심하도록 하세요`.",
+      "example_ko": "부모님은 아이가 일찍 자게 하셨다.\n선생님은 학생들이 자유롭게 의견을 말하게 했다.\n그 영화는 나를 울게 만들었다.\n이 제도는 사람들이 쓰레기를 줄이게 한다.",
+      "example_vi": "Bố mẹ cho/bắt con ngủ sớm.\nThầy cô để học sinh tự do nêu ý kiến.\nBộ phim ấy khiến tôi khóc.\nChế độ này khiến mọi người giảm rác.",
+      "topik_tip_vi": "Câu hay ra là chọn giữa `-게 하다` và `-게 되다`: có **người/việc làm cho** thì `하다`, **tự diễn ra** thì `되다`. Trong Đọc dài, `-게 하다` thường kể tác dụng của một chính sách hay một điều kiện.",
+      "importance": "must"
+    },
+    {
+      "pattern": "V + -기에는 + A/V",
+      "meaning_vi": "Để mà … thì …; đối với việc … thì …",
+      "usage_context_vi": "**Cấu tạo:** `V + -기에는` + lời **đánh giá** (`너무 넓다`, `부족하다`, `이르다`, `무리다`…): việc/hành động ấy có hợp, đủ, vừa không. Rút gọn khẩu ngữ `-기엔`. Danh từ hoá `-기` + `에` (đối với) + `는` (so sánh).\n**Hoàn cảnh dùng:** Nói một thứ **không vừa/không đủ/chưa phải lúc** cho một mục đích: `이 방은 혼자 살기에는 너무 넓다.` `포기하기에는 아직 이르다.` `아이가 먹기에는 조금 맵다.`\n**Vì sao chọn nó:** `-기에` (không có `는`) có hai nghĩa: lý do (`비가 오기에 우산을 챙겼다`) hoặc tính chất (`걷기에 좋다`). `-기에는` luôn đi với **đánh giá mức độ** và thường là phủ định nhẹ (quá, chưa đủ). Khác `-기 위해(서)` là mục đích; khác `-기 때문에` là nguyên nhân.",
+      "contrasts": [
+        {
+          "pattern": "V + -기에 + 좋다/편하다",
+          "diff_vi": "`걷기에 좋다` khen hợp; `걷기에는 좋지 않다` chê. `-기에는` thường báo hiệu ý chê/khó."
+        },
+        {
+          "pattern": "V + -기 위해(서)",
+          "diff_vi": "Mục đích hành động; `-기에는` chỉ đánh giá, không có chủ ý."
+        },
+        {
+          "pattern": "V + -(으)ㄹ 만하다 · -기 어렵다",
+          "diff_vi": "`-기에는 부족하다` ≈ `-기 어렵다`: khó làm vì chưa đủ."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Vế sau là hành động: ✗ `먹기에는 샀다` → vế sau phải là đánh giá: `먹기에는 짜다`.\n(2) Quên `-기`: ✗ `혼자 사는에는 넓다` → ✓ `혼자 살기에는`.\n(3) Viết `-기엔` trong bài thi viết trang trọng: nên viết đủ `-기에는`.",
+      "example_ko": "이 방은 혼자 살기에는 너무 넓다.\n포기하기에는 아직 이르다.\n이 음식은 아이가 먹기에는 조금 맵다.\n그 가격은 학생이 부담하기에는 너무 비싸다.",
+      "example_vi": "Căn phòng này quá rộng để ở một mình.\nCòn quá sớm để bỏ cuộc.\nMón này hơi cay để trẻ con ăn.\nMức giá đó quá đắt để một sinh viên gánh nổi.",
+      "topik_tip_vi": "Thấy chỗ trống đứng trước `너무/조금/아직 + A` và sau đó là đánh giá, chọn `-기에는`. Đề dài hay dùng `-기에는 어려움이 있다` để chê một phân loại hay phương án.",
+      "importance": "must"
+    },
+    {
+      "pattern": "V + -기 십상이다 · V + -기 일쑤이다",
+      "meaning_vi": "Dễ (xảy ra điều không hay) · Hay (xảy ra điều không hay)",
+      "usage_context_vi": "**Cấu tạo:** `V + -기 십상이다`: nếu làm như vậy thì **rất dễ** dẫn đến điều không mong muốn (dự đoán). `V + -기 일쑤이다`: điều không hay **thường xuyên** xảy ra (thói quen). Cả hai đứng trước `이다`, chủ yếu nói chuyện **tiêu cực**.\n**Hoàn cảnh dùng:** `그렇게 서두르면 실수하기 십상이다.` (dự đoán). `동생은 아침마다 지각하기 일쑤이다.` (hay xảy ra). Vế trước có `-(으)면` hay `-다 보면` thì thường là `십상`; có `마다`, `자주`, `늘` thì thường là `일쑤`.\n**Vì sao chọn nó:** `-기 쉽다` trung tính, dùng cả cho điều tốt. `-기 십상이다` mạnh hơn, ngụ ý «rất dễ, gần như chắc chắn» và **bất lợi**. `-기 마련이다` (bài 37) là quy luật tất yếu; `-곤 하다` (bài 18) là thói quen trung tính.",
+      "contrasts": [
+        {
+          "pattern": "V + -기 쉽다",
+          "diff_vi": "Cả tốt lẫn xấu; `십상` chỉ điều xấu và mạnh hơn."
+        },
+        {
+          "pattern": "V + -기 마련이다 (bài 37)",
+          "diff_vi": "`마련이다` = hiển nhiên, quy luật; `십상` = dự đoán rủi ro."
+        },
+        {
+          "pattern": "V + -곤 하다 (bài 18)",
+          "diff_vi": "`-곤 하다` thói quen trung tính; `일쑤` thói quen xấu."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng cho điều tích cực: ✗ `건강해지기 십상이다` → ✓ `건강해지기 쉽다`.\n(2) Quên `이다`: ✗ `실수하기 십상` ở cuối câu → ✓ `실수하기 십상이다`.\n(3) Dùng `일쑤` cho một lần: ✗ `어제 늦기 일쑤였다` (một lần) → ✓ `어제 늦었다`.",
+      "example_ko": "그렇게 서두르면 실수하기 십상이다.\n처음에는 누구나 길을 잃기 십상이다.\n그는 중요한 약속도 잊어버리기 일쑤이다.\n동생은 아침마다 지각하기 일쑤이다.",
+      "example_vi": "Vội như thế thì rất dễ mắc lỗi.\nLúc đầu ai cũng dễ lạc đường.\nAnh ấy hay quên cả cuộc hẹn quan trọng.\nEm tôi sáng nào cũng hay đi muộn.",
+      "topik_tip_vi": "Cặp Đọc 3–4: `-기 십상이다` ≈ `-기 쉽다`. Thấy `외면을 받기 십상이다` thì hiểu là «rất dễ bị ngó lơ».",
+      "importance": "must"
+    },
+    {
+      "pattern": "V/A + -아/어야지(요) · -아/어야지 그렇지 않으면",
+      "meaning_vi": "Phải … (mới được); phải … chứ, nếu không thì …",
+      "usage_context_vi": "**Cấu tạo:** `V/A + -아/어야지(요)`: (1) tự nhủ, quyết tâm: `내일부터 운동해야지.` (2) nhắc nhở/trách nhẹ người khác: `사람이면 약속은 지켜야지요.` Hay đi kèm vế sau `그렇지 않으면 …` (nếu không thì …): `서둘러야지, 그렇지 않으면 늦어요.`\n**Hoàn cảnh dùng:** Nói với bản thân hoặc người thân quen. Khi nối hai vế trong văn bản, dạng đầy đủ là `-아/어야 하는데` hoặc `-아/어야지 그렇지 않으면`.\n**Vì sao chọn nó:** `-아/어야 하다` nêu nghĩa vụ trung tính. `-아/어야지` có **thái độ**: quyết tâm hoặc thúc giục. `-아/어야겠다` (bài 6) là quyết định vừa hình thành. `-아/어야만 하다` (bài 52) nhấn **điều kiện bắt buộc**.",
+      "contrasts": [
+        {
+          "pattern": "V + -아/어야 하다 (bài 10)",
+          "diff_vi": "Trung tính; `-아/어야지` thêm thái độ nhắc nhở."
+        },
+        {
+          "pattern": "V + -아/어야겠다 (bài 6)",
+          "diff_vi": "`-아/어야겠다` quyết định vừa nảy ra; `-아/어야지` quyết tâm nhắc lại hoặc nhắc người khác."
+        },
+        {
+          "pattern": "V + -아/어야만 하다 (bài 52)",
+          "diff_vi": "`야만` nhấn điều kiện duy nhất; `-아/어야지` có sắc thái thúc giục."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Nói với bề trên: ✗ `교수님, 일찍 오셔야지.` → dùng `일찍 오셔야 합니다`.\n(2) Dùng trong văn viết trang trọng: nên đổi thành `-아/어야 한다`.\n(3) Nhầm vế sau: ✗ `해야지, 그렇지 않으면 합격해요` → `그렇지 않으면` luôn dẫn tới hậu quả xấu.",
+      "example_ko": "내일부터는 일찍 일어나야지.\n슬슬 준비해야지, 그렇지 않으면 늦어요.\n건강할 때 관리해야지, 아프고 나서 후회하면 소용없어요.\n사람이라면 약속은 지켜야지요.",
+      "example_vi": "Từ mai tôi phải dậy sớm mới được.\nPhải chuẩn bị dần đi, không thì muộn mất.\nPhải chăm sóc khi còn khoẻ chứ, ốm rồi mới hối thì vô ích.\nLà người thì phải giữ lời hứa chứ.",
+      "topik_tip_vi": "Câu chọn đáp án có `그렇지 않으면` ở vế sau: vế trước là điều **phải làm** (`-아/어야지`), vế sau là hậu quả xấu nếu không làm.",
+      "importance": "normal"
+    },
+    {
+      "pattern": "설마 + V/A + -(으)ㄴ/는 건 아니겠지요? · 설마 -겠어요?",
+      "meaning_vi": "Chẳng lẽ … ; chắc không phải là … chứ?",
+      "usage_context_vi": "**Cấu tạo:** `설마` + `V/A + -(으)ㄴ/는 건 아니겠지요?` hoặc `설마 + V/A + -겠어요?`. Người nói **không muốn tin** vào một khả năng xấu và hy vọng câu trả lời là «không». Quá khứ `-(으)ㄴ 건`, hiện tại `-는 건`, tương lai `-(으)ㄹ 건`.\n**Hoàn cảnh dùng:** Hỏi xác nhận khi bất ngờ hay lo: `설마 그 사람이 약속을 잊은 건 아니겠지요?` Hỏi tu từ: `설마 비가 오겠어요? 하늘이 이렇게 맑은데요.`\n**Vì sao chọn nó:** `혹시 -(으)ㄴ/는 건 아닌가요?` hỏi nhẹ, trung lập, thật sự không biết. `설마` mạnh hơn, cho thấy **hy vọng không phải thế**. `-(으)ㄹ 리가 없다` (bài 37) thì khẳng định chắc chắn không.",
+      "contrasts": [
+        {
+          "pattern": "혹시 + -(으)ㄴ/는 건 아닌가요?",
+          "diff_vi": "`혹시` lịch sự, trung lập; `설마` biểu lộ thái độ không muốn tin."
+        },
+        {
+          "pattern": "V + -(으)ㄹ 리가 없다 (bài 37)",
+          "diff_vi": "`리가 없다` = chắc chắn không; `설마 …겠어요?` = hy vọng không."
+        },
+        {
+          "pattern": "V + -(으)ㄴ/는 것 아니에요?",
+          "diff_vi": "Hỏi lại thân mật, không có `설마` thì ít cảm xúc hơn."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng với khẳng định: ✗ `설마 내일 갈 거예요.` → `설마` đi với câu hỏi/suy đoán.\n(2) Nói với bề trên không hợp lúc nghi ngờ thẳng: dùng `혹시 …(으)ㄴ 건 아닌가요?`.\n(3) Thiếu `건`: ✗ `설마 잊었는 아니겠지요?` → ✓ `잊은 건 아니겠지요?`.",
+      "example_ko": "설마 그 사람이 약속을 잊은 건 아니겠지요?\n설마 이 일을 혼자 하려는 건 아니겠지요?\n설마 비가 오겠어요? 하늘이 이렇게 맑은데요.\n설마 내가 시험에 떨어진 건 아니겠지?",
+      "example_vi": "Chắc anh ấy không quên cuộc hẹn chứ?\nChắc bạn không định làm việc này một mình chứ?\nChẳng lẽ trời mưa sao? Trời quang thế này.\nChắc là tôi không trượt chứ?",
+      "topik_tip_vi": "Trong đề nghe, `설마 …(으)ㄴ 건 아니겠지요?` là câu hỏi nghi ngờ; đáp án đúng thường là lời phủ nhận hoặc giải thích lý do khiến nghi ngờ không đúng.",
+      "importance": "normal"
+    },
+    {
+      "pattern": "N + (이)나 다름없다 · N + (이)나 마찬가지이다",
+      "meaning_vi": "Chẳng khác gì … ; coi như …",
+      "usage_context_vi": "**Cấu tạo:** `N + (이)나 다름없다`: giống hệt, không khác mấy. `다름없다` là **một tính từ** (không có nghĩa «khác nhau»). `V + -(으)ㄴ/는 것이나 다름없다`: coi như đã. `(이)나 마찬가지이다` cùng nghĩa, mềm hơn.\n**Hoàn cảnh dùng:** Nói thực chất của sự việc giống với một thứ khác: `그 사람은 나에게 가족이나 다름없다.` `이 정도 가격이면 공짜나 다름없다.` `그 일은 이미 끝난 것이나 다름없다.`\n**Vì sao chọn nó:** `N과/와 같다` nói «giống», nhưng `다름없다` nhấn **thực tế coi như là**. `-(으)ㄴ/는 셈이다` (bài 18) là «coi như, tính ra là»: nghiêng về kết luận sau khi tính toán, còn `다름없다` nghiêng về đánh giá. `다르다` mới là «khác».",
+      "contrasts": [
+        {
+          "pattern": "N + 과/와 같다 · N + 처럼",
+          "diff_vi": "Giống ở dáng vẻ hay tính chất; `다름없다` nhấn «thực chất coi như»."
+        },
+        {
+          "pattern": "V + -(으)ㄴ/는 셈이다 (bài 18)",
+          "diff_vi": "`셈이다` coi như (tính toán xong); `다름없다` đánh giá thực chất."
+        },
+        {
+          "pattern": "N + (이)나 마찬가지이다",
+          "diff_vi": "Cùng nghĩa với `다름없다`, hơi khẩu ngữ hơn."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Nhầm với `다르다`: ✗ `나에게 가족이나 다르다` → ✓ `가족이나 다름없다`.\n(2) Tách rời: ✗ `다름 없다` → ✓ `다름없다`.\n(3) Thêm tân ngữ: ✗ `공짜를 다름없다` → ✓ `공짜나 다름없다`.",
+      "example_ko": "그 사람은 나에게 가족이나 다름없다.\n이 가격이면 공짜나 다름없다.\n그 일은 이미 끝난 것이나 다름없다.\n약속을 지키지 않는 사람은 거짓말쟁이나 마찬가지이다.",
+      "example_vi": "Người ấy đối với tôi chẳng khác gì gia đình.\nGiá này thì chẳng khác gì cho không.\nViệc đó coi như đã xong.\nNgười không giữ lời thì chẳng khác gì kẻ nói dối.",
+      "topik_tip_vi": "Cặp Đọc 3–4: `N이나 다름없다` ≈ `N이나 마찬가지이다` ≈ `N와 같다`. Đừng nhầm `다름없다` (giống) với `다르다` (khác).",
+      "importance": "normal"
+    },
+    {
+      "pattern": "V/A + -다 못해",
+      "meaning_vi": "… đến mức không chịu nổi, … quá đến nỗi (chuyển sang trạng thái/hành động khác)",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** gốc + `-다 못해`: `참다 → 참다 못해`, `맵다 → 맵다 못해`; tính từ chỉ mức độ cực điểm: `맑다 못해 투명하다`.\n**Hoàn cảnh dùng:** (1) Động từ: chịu đựng/làm đến **giới hạn** rồi phải làm điều khác: `참다 못해 결국 화를 냈다.` (2) Tính từ: mức độ **cực điểm**, chuyển sang trạng thái mạnh hơn: `하늘이 맑다 못해 푸르다.`\n**Vì sao chọn nó:** `-아/어서` chỉ nêu lý do; `-다 못해` nhấn **đã cố đến cùng mà không được** hoặc **quá mức bình thường**, giàu cảm xúc, hay trong văn kể.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Mẫu hay ra ở Đọc 3–4 còn lại: -게 하다 · -기에는 · -기 십상이다 · -아/어야지 · 설마 · 이나 다름없다»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V/A + -(으)ㄹ 정도로",
+          "diff_vi": "Mức độ «đến mức», trung tính."
+        },
+        {
+          "pattern": "V + -다가",
+          "diff_vi": "«Đang … thì», không có nghĩa giới hạn chịu đựng."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Vế sau không phải hành động mới: sau `참다 못해` phải là việc **khác** được làm (`화를 냈다`, `말했다`).\n(2) Chia thì ở vế trước: ✗ `참았다 못해` → ✓ `참다 못해`.\n(3) Dùng với tính từ bình thường: với tính từ, vế sau phải mạnh hơn (`맵다 못해 아프다`).\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "층간 소음을 참다 못해 결국 관리실에 신고했다.\n하늘이 맑다 못해 눈이 부실 정도였다.\n기다리다 못해 먼저 출발했다.",
+      "example_vi": "Không chịu nổi tiếng ồn tầng trên nữa, cuối cùng tôi báo ban quản lý.\nBầu trời trong đến mức chói mắt.\nĐợi mãi không được nên tôi đi trước.",
+      "topik_tip_vi": "Đọc văn học/tin: `-다 못해` cho biết giới hạn đã bị vượt; câu hỏi «vì sao nhân vật làm …» lấy phần trước `-다 못해`.",
+      "use_level": "produce",
+      "source": "EXT-SUP-50"
+    },
+    {
+      "pattern": "N + 보고 (nói với ai, khẩu ngữ)",
+      "meaning_vi": "(Nói, bảo, hỏi) với ai — tiểu từ chỉ người nghe trong văn nói thân mật",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** danh từ chỉ người + `보고`: `나보고`, `친구보고`; đi với động từ nói: `말하다`, `묻다`, `-(으)라고 하다`, `-자고 하다`.\n**Hoàn cảnh dùng:** Văn nói thân mật, thay `에게/한테` khi **thuật lại lời ai đó nói với ai**: `선생님이 나보고 발표를 하라고 하셨어.` Hay gặp trong hội thoại Nghe.\n**Vì sao chọn nó:** `에게/한테` dùng được mọi văn phong và với mọi động từ trao/nói; `보고` **chỉ đi với động từ nói/bảo**, mang sắc thái thân mật, có khi hơi phàn nàn.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Mẫu hay ra ở Đọc 3–4 còn lại: -게 하다 · -기에는 · -기 십상이다 · -아/어야지 · 설마 · 이나 다름없다»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "N + 에게/한테 (cho, đối với)",
+          "diff_vi": "Dùng rộng rãi, cả văn viết; đi được với `주다`."
+        },
+        {
+          "pattern": "N + 더러",
+          "diff_vi": "Cùng nghĩa, văn nói, hơi cũ."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng với động từ trao tặng: ✗ `친구보고 선물을 줬어요` → ✓ `친구한테 선물을 줬어요`.\n(2) Dùng trong văn viết trang trọng: dùng `에게`.\n(3) Nhầm với `보고` (nhìn thấy rồi): `나를 보고 웃었다` (nhìn tôi rồi cười) ≠ `나보고 웃으라고 했다` (bảo tôi cười).\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "선생님이 나보고 다음 주에 발표를 하라고 하셨어.\n엄마가 동생보고 일찍 들어오라고 했어요.\n다들 나보고 왜 그렇게 바쁘냐고 물어봐.",
+      "example_vi": "Thầy bảo tôi tuần sau thuyết trình.\nMẹ bảo em về sớm.\nAi cũng hỏi tôi sao bận thế.",
+      "topik_tip_vi": "Nghe: `N보고 -(으)라고 했다` cho biết ai được yêu cầu làm gì; câu hỏi «người phụ nữ sẽ làm gì» dựa vào đây.",
+      "use_level": "produce",
+      "source": "EXT-SUP-51"
+    },
+    {
+      "pattern": "V/A + -(느)ㄴ다니까(요) · N + (이)라니까(요)",
+      "meaning_vi": "Tôi đã nói là … mà! (nhấn lại lời mình) · Vì nghe nói … nên … (nối câu)",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** tường thuật rút gọn + `-니까`: `-(느)ㄴ다니까(요)`, `-(느)냐니까`, `-자니까`, `-(으)라니까`, `N(이)라니까`.\n**Hoàn cảnh dùng:** (1) Cuối câu: **nhấn lại lời mình đã nói** khi người kia không tin/không nghe: `정말 괜찮다니까요.` (2) Giữa câu: **lý do là lời nghe được**: `내일 비가 온다니까 우산을 챙기세요.`\n**Vì sao chọn nó:** `-다고요` (xuống giọng) cũng nhấn lại lời mình; `-다니까요` mạnh hơn, có chút sốt ruột. Giữa câu, `-다니까` = `-다고 하니까`.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Mẫu hay ra ở Đọc 3–4 còn lại: -게 하다 · -기에는 · -기 십상이다 · -아/어야지 · 설마 · 이나 다름없다»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V/A + -다고요? · -(느)냐고요? · …",
+          "diff_vi": "Hỏi lại lời người kia (lên giọng)."
+        },
+        {
+          "pattern": "V/A + -(으)니까",
+          "diff_vi": "Lý do trực tiếp, không qua lời thuật."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng với người trên khi nhấn lại: `-다니까요` nghe sốt ruột, có thể thiếu lịch sự.\n(2) Nhầm với `-다니요?` (ngạc nhiên): `-다니까요` là **khẳng định lại lời mình**.\n(3) Quên rút gọn đúng: `온다고 하니까` → `온다니까`; ✗ `오다니까`.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "정말 괜찮다니까요. 걱정하지 마세요.\n내일 비가 온다니까 우산을 챙기세요.\n일찍 오라니까 또 늦었네.",
+      "example_vi": "Tôi đã bảo là không sao mà. Đừng lo.\nNghe nói mai mưa nên nhớ mang ô.\nĐã bảo đến sớm mà lại trễ nữa rồi.",
+      "topik_tip_vi": "Nghe (thái độ người nói): `-다니까요` cuối câu = khẳng định, hơi bực; đáp án thái độ «nhấn mạnh», «khó chịu».",
+      "use_level": "produce",
+      "source": "EXT-SUP-52"
+    },
+    {
+      "pattern": "V + -(느)ㄴ다는 것이 · -(느)ㄴ다는 게",
+      "meaning_vi": "Định … thế mà lại (lỡ) … — ý định ban đầu bị làm sai thành việc khác",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** gốc động từ + `-(느)ㄴ다는 것이` / văn nói `-(느)ㄴ다는 게`: `보낸다는 게`, `산다는 것이`; vế sau thường quá khứ, có `잘못`, `그만`, `실수로`.\n**Hoàn cảnh dùng:** Người nói **định làm A nhưng lỡ làm thành B**: `친구에게 보낸다는 게 팀장님께 메시지를 보냈다.` `소금을 넣는다는 것이 설탕을 넣었다.`\n**Vì sao chọn nó:** `-(으)려다가` là định làm rồi **dừng/đổi ý**; `-(느)ㄴ다는 것이` là định làm A mà **lỡ tay làm sai**. Mẫu này luôn có sắc thái nhầm lẫn.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Mẫu hay ra ở Đọc 3–4 còn lại: -게 하다 · -기에는 · -기 십상이다 · -아/어야지 · 설마 · 이나 다름없다»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V + -(으)려다(가)",
+          "diff_vi": "Ý định bị bỏ dở/đổi, không có sắc thái nhầm."
+        },
+        {
+          "pattern": "V + -고 말다 · V + -아/어 버리다",
+          "diff_vi": "Lỡ xảy ra (kết cục), không nói ý định ban đầu."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng khi không có nhầm lẫn: vế sau phải là **việc làm sai** khác ý định.\n(2) Chia sai: ✗ `보내는다는 게` → ✓ `보낸다는 게`; ✗ `먹다는 게` → ✓ `먹는다는 게`.\n(3) Vế sau ở tương lai: vế sau thường là chuyện **đã xảy ra**.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "친구에게 보낸다는 게 팀장님께 메시지를 보내 버렸어요.\n소금을 넣는다는 것이 설탕을 넣었다.\n일찍 잔다는 게 또 새벽까지 영화를 봤어요.",
+      "example_vi": "Định gửi cho bạn mà lỡ gửi tin nhắn cho trưởng nhóm.\nĐịnh cho muối mà lại cho đường.\nĐịnh ngủ sớm mà lại xem phim đến sáng.",
+      "topik_tip_vi": "Nghe (nội dung trùng khớp): `-다는 게` = việc thực tế đã khác ý định; đáp án đúng là việc ở vế sau.",
+      "use_level": "produce",
+      "source": "EXT-SUP-53"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài",
+      "body": "Bài 6 của Chủ đề 5, cũng là bài cuối của nhóm «ngữ pháp Đọc 3–4». Sau bài này bạn:\n① phân biệt `-게 하다` (có tác nhân) với `-게 되다` (tự diễn ra) và biết khi nào dùng `-도록 하다`;\n② đọc được ý chê, ý «chưa đủ» của `-기에는` trong đề Đọc dài;\n③ chọn đúng giữa `-기 쉽다`, `-기 십상이다`, `-기 일쑤이다`, `-기 마련이다`;\n④ nhận ra `설마 …(으)ㄴ 건 아니겠지요?` và `N이나 다름없다` khi nghe và đọc;\n⑤ có thêm 28 từ về thói quen, tâm lý và cách «gây ra – kiềm chế» hay gặp ở Đọc 28–50.",
+      "kind": "goal"
+    },
+    {
+      "title": "Bốn câu hỏi giúp chọn «rất dễ / hay / tất yếu / thói quen»",
+      "body": "• Chỉ muốn nói «dễ xảy ra», trung tính → `-기 쉽다`.\n• Dự đoán rủi ro, điều xấu, gần như chắc → `-기 십상이다`.\n• Điều xấu **đã nhiều lần** xảy ra → `-기 일쑤이다`.\n• Quy luật, ai cũng thế → `-기 마련이다` (bài 37).\n• Thói quen trung tính → `-곤 하다` (bài 18).",
+      "kind": "language"
+    },
+    {
+      "title": "Đọc cặp câu «gần nghĩa» của bài",
+      "body": "① `-기 십상이다` ≈ `-기 쉽다` (đề thi thử của Haru).\n② `N이나 다름없다` ≈ `N이나 마찬가지이다`.\n③ `-게 하다` ≈ `-도록 하다` khi nói về chính sách hay quy định (cả hai kể việc khiến người khác làm).\n④ `-기에는 어렵다` ≈ `-기 어렵다` (khó làm vì chưa đủ).",
+      "kind": "language"
+    },
+    {
+      "title": "Phân biệt 억제, 자제, 통제, 조절",
+      "body": "• `억제`: kìm lại, ngăn cho **không tăng** (kể cả vật bên ngoài): `물가 상승을 억제하다`.\n• `자제`: **tự mình** kiềm chế: `외출을 자제하다`.\n• `통제` (bài 51): kiểm soát, quản chế từ trên xuống.\n• `조절` (bài 52): điều chỉnh cho vừa: `온도를 조절하다`.\nHán–Việt: `억제` (ức chế), `자제` (tự chế), `통제` (thống chế), `조절` (điều tiết).",
+      "kind": "language"
+    },
+    {
+      "title": "Mẹo Hán–Việt cho 28 từ của bài",
+      "body": "`습관` (tập quán), `행동` (hành động), `태도` (thái độ), `충동` (xung động), `욕구` (dục cầu), `유혹` (dụ hoặc), `설득` (thuyết đắc), `강요` (cưỡng yêu), `압박` (áp bách), `포기` (phao khí), `의욕` (ý dục), `집중력` (tập trung lực), `악화` (ác hoá), `호전` (hảo chuyển), `심화` (thâm hoá), `경고` (cảnh cáo), `당부` (đương phó), `권장` (khuyến tưởng), `손상` (tổn thương), `과도` (quá độ), `과잉` (quá thặng).\nChú ý: `행위` (hành vi) khác `행동`; `당부` không phải «đáng phụ»; `강요` (ép buộc) mạnh hơn `요구` (yêu cầu).",
+      "kind": "language"
+    },
+    {
+      "title": "Một đoạn dùng cả sáu mẫu",
+      "body": "`나쁜 습관은 무심코 반복하다 보면 건강을 해치기 십상이다. 늦게 자는 버릇은 집중력이 떨어지는 원인이나 다름없다. 그렇다고 해서 오랜 습관을 하루아침에 바꾸기에는 무리가 있다. 작은 성공의 경험은 의욕을 높여 계속 실천하게 한다. 설마 습관 하나 바꾸는 일이 어렵지 않다고 생각하는 건 아니겠지요? 오늘부터 조금씩 시작해야지.`\nĐoạn đầu là 한다체 văn viết; câu cuối là tự nhủ (khẩu ngữ) nên không đưa vào bài thi viết.",
+      "kind": "sample"
+    },
+    {
+      "title": "Năm lỗi hay mắc",
+      "body": "① **`-게 하다` thay `-게 되다`**: có người làm thì `하다`, tự nhiên thì `되다`.\n② **`-기에는` + hành động**: vế sau phải là đánh giá (`너무 …`, `이르다`).\n③ **`십상이다` cho điều tốt**: chỉ dùng cho điều xấu.\n④ **`설마` + câu khẳng định thường**: `설마` đi với câu hỏi/suy đoán.\n⑤ **`다름없다` ≠ `다르다`**: một cái «giống», một cái «khác».",
+      "kind": "pitfall"
+    }
+  ],
+  "bank": "xa-hoi",
+  "coach": {
+    "focus_vi": [
+      "Với `-게 하다`, `-기에는`, `-기 십상이다`, `-아/어야지`, `설마`, `이나 다름없다`: đặt mỗi mẫu một câu về chính bạn rồi đọc to ba lần.",
+      "Làm hết cặp Đọc 3–4 và ghi lại câu sai vào Sổ lỗi sai.",
+      "Chép bốn câu hỏi giúp chọn `쉽다/십상/일쑤/마련` ra giấy."
+    ],
+    "watch_out_vi": [
+      "`-기에는` đi với đánh giá, không đi với hành động.",
+      "`십상` và `일쑤` chỉ dùng cho điều xấu."
+    ],
+    "notebook_vi": [
+      "Mỗi mẫu một câu về chính bạn.",
+      "Bảng so sánh `-게 하다` / `-게 되다` / `-도록 하다`."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Vì sao `저는 한국에 살게 했어요` sai?",
+        "answer": "`-게 하다` cần có người hoặc việc khiến ai làm. Ở đây là kết quả tự nhiên, nên dùng `살게 되었어요`."
+      },
+      {
+        "prompt_vi": "`-기 십상이다` khác `-기 쉽다` ở đâu?",
+        "answer": "`쉽다` trung tính, dùng cả cho điều tốt; `십상이다` mạnh hơn và hầu như chỉ dùng cho điều xấu."
+      }
+    ]
+  },
+  "exercise_ids": [
+    "X55L1",
+    "X55L2",
+    "X55L3",
+    "X55L4",
+    "X55D1",
+    "X55D2",
+    "X55R1",
+    "X55R2",
+    "X55R3",
+    "X55R4",
+    "X55R5",
+    "X55R6",
+    "X55R7",
+    "X55R8",
+    "X55R9",
+    "X55R10",
+    "X55B1",
+    "X55B2",
+    "X55B3",
+    "X55B4",
+    "X55B5",
+    "X55B6",
+    "X55B7",
+    "X55F1",
+    "X55F2",
+    "X55E1",
+    "RG56",
+    "XSUP50",
+    "XSUP51",
+    "XSUP52",
+    "XSUP53",
+    "SP56"
+  ],
+  "topik2": [
+    {
+      "qid": "h1-R-4",
+      "why_vi": "Đề thi thử của Haru (không phải đề thật): chọn cách nói có nghĩa gần nhất với `-기 십상이다`. Gạch dưới phần cần thay rồi so từng đáp án."
+    },
+    {
+      "qid": "102-R-37",
+      "why_vi": "Đọc ý chính mức 5급: bài nêu một chính sách khiến người ta làm gì bằng `-게 하다`, rồi nêu mặt trái. Tìm câu mở đầu «tuy … nhưng» để biết người viết đứng về phía nào."
+    },
+    {
+      "qid": "h1-L-21",
+      "why_vi": "Đề thi thử của Haru (không phải đề thật): nghe người nói dùng `-기에는` để chê một phương án. Nghe câu chê rồi chọn ý chính."
+    }
+  ],
+  "editor_notes": [
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "SP56 nối với X55E1 (thói quen xấu): đề ý chí hay môi trường. Năm trong sáu mẫu vào bài mẫu; 설마 chỉ gợi ý trong patterns_vi vì đặt vào bài nói 80 giây thấy gượng. -아/어야지 dùng khi thuật lại ý phía bên kia. RG56 ㉤ dùng đúng lưu ý của bài: -아/어야지 là lời tự nhủ, không đưa vào bài viết."
+    }
+  ]
+}

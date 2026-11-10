@@ -1,0 +1,270 @@
+{
+  "lesson": "quan-he-01-gia-dinh",
+  "items": [
+    {
+      "id": "quan-he-01-d1",
+      "kind": "dialogue",
+      "title_ko": "할아버지 칠순",
+      "title_vi": "Lễ thọ bảy mươi của ông",
+      "scene_vi": "Hai đồng nghiệp là 민지 và 승우 nói về tiệc mừng thọ bảy mươi tuổi của ông nội 민지.",
+      "speakers": {
+        "F": "민지",
+        "M": "승우"
+      },
+      "lines": [
+        {
+          "who": "M",
+          "ko": "민지 씨, 다음 주가 할아버지 칠순이시지요?",
+          "vi": "Minji, tuần sau là lễ thọ bảy mươi tuổi của ông nội chị phải không?"
+        },
+        {
+          "who": "F",
+          "ko": "네, 맞아요. 할아버지께서는 지금 시골에 계세요. 그래서 제가 모시러 가요.",
+          "vi": "Vâng, đúng rồi. Hiện giờ ông tôi đang ở quê, nên tôi đi đón ông."
+        },
+        {
+          "who": "M",
+          "ko": "연세가 많으신데 건강은 어떠세요?",
+          "vi": "Ông tuổi cao rồi, sức khỏe ông thế nào ạ?"
+        },
+        {
+          "who": "F",
+          "ko": "건강하세요. 그런데 요즘 가끔 다리가 편찮으세요.",
+          "vi": "Ông khỏe. Nhưng dạo này thỉnh thoảng chân ông bị đau."
+        },
+        {
+          "who": "M",
+          "ko": "그렇군요. 선물은 준비하셨어요?",
+          "vi": "Ra vậy. Chị đã chuẩn bị quà chưa?"
+        },
+        {
+          "who": "F",
+          "ko": "네, 할아버지께 따뜻한 양말을 사 드렸어요. 그리고 가족이 모두 모여서 저녁을 먹을 거예요.",
+          "vi": "Rồi, tôi đã mua tặng ông đôi tất ấm. Cả nhà cũng sẽ tụ họp ăn bữa tối."
+        },
+        {
+          "who": "M",
+          "ko": "좋네요. 저도 부모님께 전화라도 드려야겠어요.",
+          "vi": "Hay quá. Tôi cũng phải gọi điện cho bố mẹ, dù chỉ một cuộc."
+        },
+        {
+          "who": "F",
+          "ko": "네, 짧게라도 전화드리면 부모님께서 기뻐하세요.",
+          "vi": "Vâng, dù chỉ gọi ngắn thôi thì bố mẹ cũng vui."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V/A + -(으)시- · N + (이)시다",
+          "regex": "칠순이시지요|계세요|준비하셨어요"
+        },
+        {
+          "pattern": "N + 께서(는) · N + 께",
+          "regex": "할아버지께서는|할아버지께"
+        },
+        {
+          "pattern": "V + -아/어 드리다",
+          "regex": "사 드렸어요"
+        },
+        {
+          "pattern": "N + (이)라도 · A + -게라도 (짧게라도)",
+          "regex": "전화라도|짧게라도"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "할아버지",
+          "seen": "할아버지"
+        },
+        {
+          "word": "칠순",
+          "seen": "칠순"
+        },
+        {
+          "word": "계시다",
+          "seen": "계세요"
+        },
+        {
+          "word": "모시다",
+          "seen": "모시러"
+        },
+        {
+          "word": "연세",
+          "seen": "연세가"
+        },
+        {
+          "word": "편찮으시다",
+          "seen": "편찮으세요"
+        },
+        {
+          "word": "부모님",
+          "seen": "부모님께"
+        },
+        {
+          "word": "드리다",
+          "seen": "드렸어요"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "시골",
+          "vi": "quê, nông thôn"
+        },
+        {
+          "ko": "모이다",
+          "vi": "tụ họp, quây quần",
+          "seen": "모여서"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Hiện giờ ông của Minji ở đâu?",
+          "options": [
+            "Ở bệnh viện",
+            "Ở nhà Minji",
+            "Ở quê"
+          ],
+          "answer": 2,
+          "explain_vi": "Minji nói “할아버지께서는 지금 시골에 계세요”: ông đang ở quê, nên cô đi đón ông."
+        },
+        {
+          "q_vi": "Minji đã tặng ông món quà gì?",
+          "options": [
+            "Đôi tất ấm",
+            "Một chiếc áo",
+            "Một cây gậy"
+          ],
+          "answer": 0,
+          "explain_vi": "“할아버지께 따뜻한 양말을 사 드렸어요”: cô đã mua tặng ông đôi tất ấm."
+        }
+      ]
+    },
+    {
+      "id": "quan-he-01-r1",
+      "kind": "reading",
+      "title_ko": "칠순 잔치 초대장",
+      "title_vi": "Thư mời tiệc thọ bảy mươi",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "안녕하십니까?",
+          "vi": "Kính chào quý vị."
+        },
+        {
+          "who": "N",
+          "ko": "다음 주 토요일에 저희 할아버지의 칠순 잔치를 합니다.",
+          "vi": "Thứ Bảy tuần sau gia đình chúng tôi tổ chức tiệc thọ bảy mươi tuổi của ông."
+        },
+        {
+          "who": "N",
+          "ko": "많은 분께서 오셔서 자리를 빛내 주시기 바랍니다.",
+          "vi": "Kính mong nhiều quý vị đến dự, làm buổi tiệc thêm rạng rỡ."
+        },
+        {
+          "who": "N",
+          "ko": "장소는 한식당 이 층이고, 시간은 오후 여섯 시입니다.",
+          "vi": "Địa điểm là tầng hai nhà hàng Hàn, thời gian là sáu giờ chiều."
+        },
+        {
+          "who": "N",
+          "ko": "오시는 분께는 작은 선물을 준비해 드립니다.",
+          "vi": "Chúng tôi xin chuẩn bị một món quà nhỏ tặng quý vị đến dự."
+        },
+        {
+          "who": "N",
+          "ko": "참석하시기 힘드시면 전화라도 주십시오.",
+          "vi": "Nếu khó đến dự, xin hãy gọi điện cho chúng tôi."
+        },
+        {
+          "who": "N",
+          "ko": "감사합니다.",
+          "vi": "Xin chân thành cảm ơn."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V/A + -(으)시- · N + (이)시다",
+          "regex": "안녕하십니까|오셔서|힘드시면"
+        },
+        {
+          "pattern": "N + 께서(는) · N + 께",
+          "regex": "분께서|분께는"
+        },
+        {
+          "pattern": "V + -아/어 드리다",
+          "regex": "준비해 드립니다"
+        },
+        {
+          "pattern": "V + -(으)시기 바랍니다 · V + -(으)십시오",
+          "regex": "주시기 바랍니다|주십시오"
+        },
+        {
+          "pattern": "N + (이)라도 · A + -게라도 (짧게라도)",
+          "regex": "전화라도"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "할아버지",
+          "seen": "할아버지의"
+        },
+        {
+          "word": "칠순",
+          "seen": "칠순"
+        },
+        {
+          "word": "자리를 빛내다",
+          "seen": "자리를 빛내"
+        },
+        {
+          "word": "분",
+          "seen": "분께서"
+        },
+        {
+          "word": "드리다",
+          "seen": "드립니다"
+        },
+        {
+          "word": "참석(하다)",
+          "seen": "참석하시기"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "잔치",
+          "vi": "bữa tiệc, tiệc mừng"
+        },
+        {
+          "ko": "장소",
+          "vi": "địa điểm"
+        },
+        {
+          "ko": "선물",
+          "vi": "quà tặng"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Buổi tiệc diễn ra vào lúc nào?",
+          "options": [
+            "Chủ nhật tuần sau, sáu giờ chiều",
+            "Thứ Bảy tuần sau, sáu giờ chiều",
+            "Thứ Bảy tuần này, bảy giờ tối"
+          ],
+          "answer": 1,
+          "explain_vi": "Thư mời ghi “다음 주 토요일”, “오후 여섯 시”: thứ Bảy tuần sau, sáu giờ chiều."
+        },
+        {
+          "q_vi": "Nếu khó đến dự thì thư mời xin làm gì?",
+          "options": [
+            "Gửi quà đến",
+            "Nhắn tin trước",
+            "Gọi điện cho gia đình"
+          ],
+          "answer": 2,
+          "explain_vi": "“참석하시기 힘드시면 전화라도 주십시오”: nếu khó tham dự, xin hãy gọi điện."
+        }
+      ]
+    }
+  ]
+}

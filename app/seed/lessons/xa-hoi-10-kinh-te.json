@@ -1,0 +1,808 @@
+{
+  "slug": "xa-hoi-10-kinh-te",
+  "title": "Kinh tế: số liệu, thị trường, doanh nghiệp",
+  "title_ko": "경제",
+  "topic": "Xã hội, Tư tưởng & Chuyên ngành",
+  "track": "advanced",
+  "level": 5,
+  "sort_order": 71,
+  "summary": "46 từ kinh tế (vĩ mô, thị trường lao động, doanh nghiệp, tài chính, biến động số liệu) và ba nhóm mẫu của văn bản tin tức: dự báo, giới hạn, lựa chọn. Có bảng số liệu giả định, dữ kiện thực tế đã kiểm tra (cơ quan, mức lương tối thiểu) và 3 câu đề thật.",
+  "vocab": [
+    {
+      "hangul": "경제",
+      "pos": "N",
+      "meaning_vi": "Kinh tế",
+      "note_vi": "經濟. Hay gặp: `경제 성장`, `경제 위기`.",
+      "example_ko": "경제가 성장하면 일자리도 늘어난다.",
+      "example_vi": "Kinh tế tăng trưởng thì việc làm cũng tăng.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "core",
+      "hanja": "經濟",
+      "sino_vietnamese": "kinh tế",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "경기",
+      "pos": "N",
+      "meaning_vi": "Tình hình kinh tế",
+      "note_vi": "景氣. Đồng âm với `경기` (trận đấu): xem ngữ cảnh. `경기 침체`, `경기 회복`.",
+      "example_ko": "경기가 좋아지면서 소비가 늘고 있다.",
+      "example_vi": "Kinh tế khởi sắc nên tiêu dùng đang tăng.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "core",
+      "hanja": "景氣",
+      "sino_vietnamese": "cảnh khí",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "불황",
+      "pos": "N",
+      "meaning_vi": "Suy thoái, làm ăn ế ẩm",
+      "note_vi": "不況. Trái nghĩa `호황`.",
+      "example_ko": "오랜 불황 속에서도 이 가게는 손님이 많다.",
+      "example_vi": "Dù suy thoái kéo dài, cửa hàng này vẫn đông khách.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "core",
+      "hanja": "不況",
+      "sino_vietnamese": "bất huống",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "호황",
+      "pos": "N",
+      "meaning_vi": "Thời kỳ làm ăn thuận lợi",
+      "note_vi": "好況. Hay đi với `호황을 누리다`.",
+      "example_ko": "수출이 늘면서 철강업계가 호황을 누리고 있다.",
+      "example_vi": "Xuất khẩu tăng nên ngành thép đang hưởng thời kỳ thuận lợi.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "core",
+      "hanja": "好況",
+      "sino_vietnamese": "hảo huống",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "침체",
+      "pos": "N",
+      "meaning_vi": "Trì trệ",
+      "note_vi": "沈滯. `침체되다`; `경기 침체`.",
+      "example_ko": "내수 침체로 문을 닫는 가게가 늘었다.",
+      "example_vi": "Nhu cầu nội địa trì trệ nên nhiều cửa hàng đóng cửa.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "core",
+      "hanja": "沈滯",
+      "sino_vietnamese": "trầm trệ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "회복",
+      "pos": "N",
+      "meaning_vi": "Phục hồi",
+      "note_vi": "回復. `회복되다` (tự phục hồi), `회복하다` (làm phục hồi); dùng cả cho sức khoẻ.",
+      "example_ko": "경제가 서서히 회복되고 있다.",
+      "example_vi": "Kinh tế đang dần phục hồi.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "core",
+      "hanja": "回復",
+      "sino_vietnamese": "hồi phục",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "성장률",
+      "pos": "N",
+      "meaning_vi": "Tốc độ tăng trưởng",
+      "note_vi": "成長率. Hậu tố tỉ lệ viết `-율` sau nguyên âm hoặc patchim ㄴ (`비율`, `환율`), còn lại viết `-률` (`성장률`, `실업률`).",
+      "example_ko": "올해 경제 성장률은 작년보다 낮을 전망이다.",
+      "example_vi": "Tốc độ tăng trưởng kinh tế năm nay dự báo thấp hơn năm ngoái.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "core",
+      "hanja": "成長率",
+      "sino_vietnamese": "thành trưởng suất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "물가",
+      "pos": "N",
+      "meaning_vi": "Vật giá",
+      "note_vi": "物價. `물가 상승`, `물가 안정`.",
+      "example_ko": "물가가 오르면 생활비 부담이 커진다.",
+      "example_vi": "Vật giá tăng thì gánh nặng sinh hoạt phí lớn lên.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "core",
+      "hanja": "物價",
+      "sino_vietnamese": "vật giá",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "금리",
+      "pos": "N",
+      "meaning_vi": "Lãi suất (mức chung)",
+      "note_vi": "金利. `이자` là số tiền lãi phải trả hoặc nhận.",
+      "example_ko": "금리가 오르면 대출 이자도 늘어난다.",
+      "example_vi": "Lãi suất tăng thì tiền lãi vay cũng tăng.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "core",
+      "hanja": "金利",
+      "sino_vietnamese": "kim lợi",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "환율",
+      "pos": "N",
+      "meaning_vi": "Tỷ giá",
+      "note_vi": "換率. `원/달러 환율`: tỷ giá won với đô la.",
+      "example_ko": "환율이 오르면 수입품 값이 비싸진다.",
+      "example_vi": "Tỷ giá tăng thì hàng nhập khẩu đắt lên.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "core",
+      "hanja": "換率",
+      "sino_vietnamese": "hoán suất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "수출",
+      "pos": "N",
+      "meaning_vi": "Xuất khẩu",
+      "note_vi": "輸出. `수출하다`; trái nghĩa `수입`.",
+      "example_ko": "한국은 반도체 수출이 많은 나라이다.",
+      "example_vi": "Hàn Quốc là nước xuất khẩu nhiều chip bán dẫn.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "core",
+      "hanja": "輸出",
+      "sino_vietnamese": "thâu xuất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "수입",
+      "pos": "N",
+      "meaning_vi": "Nhập khẩu",
+      "note_vi": "輸入. Đồng âm `수입` (thu nhập, 收入): xem ngữ cảnh.",
+      "example_ko": "원유를 수입하는 비용이 늘었다.",
+      "example_vi": "Chi phí nhập khẩu dầu thô tăng.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "core",
+      "hanja": "輸入",
+      "sino_vietnamese": "thâu nhập",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "무역",
+      "pos": "N",
+      "meaning_vi": "Thương mại quốc tế",
+      "note_vi": "貿易. `무역 흑자`, `무역 적자`.",
+      "example_ko": "두 나라는 무역 협정을 맺었다.",
+      "example_vi": "Hai nước đã ký hiệp định thương mại.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "core",
+      "hanja": "貿易",
+      "sino_vietnamese": "mậu dịch",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "흑자",
+      "pos": "N",
+      "meaning_vi": "Thặng dư, có lãi",
+      "note_vi": "黑字: chữ đen. Trái nghĩa `적자` (赤字, chữ đỏ).",
+      "example_ko": "수출이 늘어 올해는 무역 흑자를 기록했다.",
+      "example_vi": "Xuất khẩu tăng nên năm nay ghi nhận thặng dư thương mại.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "core",
+      "hanja": "黑字",
+      "sino_vietnamese": "hắc tự",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "적자",
+      "pos": "N",
+      "meaning_vi": "Thâm hụt, lỗ",
+      "note_vi": "赤字. `적자를 내다/보다`.",
+      "example_ko": "회사는 삼 년째 적자를 내고 있다.",
+      "example_vi": "Công ty đã thua lỗ ba năm liền.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "core",
+      "hanja": "赤字",
+      "sino_vietnamese": "xích tự",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "재정",
+      "pos": "N",
+      "meaning_vi": "Tài chính nhà nước",
+      "note_vi": "財政. Chuyện thu chi của nhà nước hoặc chính quyền địa phương.",
+      "example_ko": "정부는 재정 건전성을 높이기로 했다.",
+      "example_vi": "Chính phủ quyết định nâng cao tính lành mạnh của tài chính công.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "recognize",
+      "hanja": "財政",
+      "sino_vietnamese": "tài chính",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "예산",
+      "pos": "N",
+      "meaning_vi": "Ngân sách, dự toán",
+      "note_vi": "豫算. `예산을 편성하다`, `예산이 부족하다`.",
+      "example_ko": "내년 예산은 올해보다 늘어날 예정이다.",
+      "example_vi": "Ngân sách năm sau dự kiến tăng so với năm nay.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "core",
+      "hanja": "豫算",
+      "sino_vietnamese": "dự toán",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "정책",
+      "pos": "N",
+      "meaning_vi": "Chính sách",
+      "note_vi": "政策. `정책을 세우다/추진하다/발표하다`.",
+      "example_ko": "정부는 새로운 주택 정책을 발표했다.",
+      "example_vi": "Chính phủ đã công bố chính sách nhà ở mới.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "core",
+      "hanja": "政策",
+      "sino_vietnamese": "chính sách",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "실업률",
+      "pos": "N",
+      "meaning_vi": "Tỷ lệ thất nghiệp",
+      "note_vi": "失業率. Số liệu do cơ quan thống kê quốc gia công bố định kỳ.",
+      "example_ko": "청년 실업률이 높아서 걱정이다.",
+      "example_vi": "Tỷ lệ thất nghiệp thanh niên cao nên đáng lo.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "core",
+      "hanja": "失業率",
+      "sino_vietnamese": "thất nghiệp suất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "고용",
+      "pos": "N",
+      "meaning_vi": "Việc làm, tuyển dụng (nhìn từ phía chủ)",
+      "note_vi": "雇用. `고용을 늘리다`, `고용 안정`. `취업` nhìn từ phía người xin việc.",
+      "example_ko": "경기가 나빠지면서 고용이 줄었다.",
+      "example_vi": "Kinh tế xấu đi nên việc làm giảm.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "recognize",
+      "hanja": "雇用",
+      "sino_vietnamese": "cố dụng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "임금",
+      "pos": "N",
+      "meaning_vi": "Tiền lương (văn bản kinh tế)",
+      "note_vi": "賃金. Trong đời thường nói `월급`.",
+      "example_ko": "임금이 오르는 속도가 물가를 따라가지 못한다.",
+      "example_vi": "Tốc độ tăng lương không theo kịp vật giá.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "core",
+      "hanja": "賃金",
+      "sino_vietnamese": "nhẫm kim",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "인상",
+      "pos": "N",
+      "meaning_vi": "Việc tăng (giá, lương, phí)",
+      "note_vi": "引上. `인상하다` (làm tăng), `인상되다` (bị tăng); trái nghĩa `인하`. Đồng âm `인상` (ấn tượng).",
+      "example_ko": "다음 달부터 전기 요금이 인상된다.",
+      "example_vi": "Từ tháng sau giá điện sẽ tăng.",
+      "family": "🟢 Nền · Kinh tế vĩ mô, thị trường lao động",
+      "priority": "core",
+      "hanja": "引上",
+      "sino_vietnamese": "dẫn thượng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "기업",
+      "pos": "N",
+      "meaning_vi": "Doanh nghiệp",
+      "note_vi": "企業. `대기업` (tập đoàn lớn).",
+      "example_ko": "이 기업은 해외 시장으로 사업을 넓히고 있다.",
+      "example_vi": "Doanh nghiệp này đang mở rộng kinh doanh ra thị trường nước ngoài.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "core",
+      "hanja": "企業",
+      "sino_vietnamese": "xí nghiệp",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "중소기업",
+      "pos": "N",
+      "meaning_vi": "Doanh nghiệp vừa và nhỏ",
+      "note_vi": "中小企業.",
+      "example_ko": "중소기업을 돕기 위한 정책이 필요하다.",
+      "example_vi": "Cần chính sách hỗ trợ doanh nghiệp vừa và nhỏ.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "core",
+      "hanja": "中小企業",
+      "sino_vietnamese": "trung tiểu xí nghiệp",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "창업",
+      "pos": "N",
+      "meaning_vi": "Khởi nghiệp",
+      "note_vi": "創業. `창업하다`, `창업자`.",
+      "example_ko": "청년들의 창업을 지원하는 사업이 늘고 있다.",
+      "example_vi": "Các chương trình hỗ trợ khởi nghiệp của thanh niên đang tăng.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "core",
+      "hanja": "創業",
+      "sino_vietnamese": "sáng nghiệp",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "경쟁",
+      "pos": "N",
+      "meaning_vi": "Cạnh tranh",
+      "note_vi": "競爭. `경쟁이 치열하다`.",
+      "example_ko": "기업들은 시장에서 치열하게 경쟁하고 있다.",
+      "example_vi": "Các doanh nghiệp đang cạnh tranh gay gắt trên thị trường.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "core",
+      "hanja": "競爭",
+      "sino_vietnamese": "cạnh tranh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "경쟁력",
+      "pos": "N",
+      "meaning_vi": "Sức cạnh tranh",
+      "note_vi": "競爭力. `경쟁력을 키우다/높이다`.",
+      "example_ko": "품질을 높여서 제품의 경쟁력을 키웠다.",
+      "example_vi": "Nâng cao chất lượng để tăng sức cạnh tranh của sản phẩm.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "core",
+      "hanja": "競爭力",
+      "sino_vietnamese": "cạnh tranh lực",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "독점",
+      "pos": "N",
+      "meaning_vi": "Độc quyền, độc chiếm",
+      "note_vi": "獨占. `독점하다`, `독점 기업`.",
+      "example_ko": "한 회사가 시장을 독점하면 가격이 오를 수 있다.",
+      "example_vi": "Nếu một công ty độc chiếm thị trường thì giá có thể tăng.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "recognize",
+      "hanja": "獨占",
+      "sino_vietnamese": "độc chiếm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "구조조정",
+      "pos": "N",
+      "meaning_vi": "Tái cơ cấu (thường kèm cắt giảm nhân sự)",
+      "note_vi": "構造調整. Ở Hàn thường gợi đến cắt giảm nhân sự.",
+      "example_ko": "회사는 비용을 줄이려고 구조조정을 했다.",
+      "example_vi": "Công ty tái cơ cấu để giảm chi phí.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "수요",
+      "pos": "N",
+      "meaning_vi": "Cầu, nhu cầu thị trường",
+      "note_vi": "需要. Cặp với `공급`: `수요와 공급`.",
+      "example_ko": "여름에는 에어컨 수요가 크게 늘어난다.",
+      "example_vi": "Mùa hè nhu cầu máy lạnh tăng mạnh.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "core",
+      "hanja": "需要",
+      "sino_vietnamese": "nhu yếu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "공급",
+      "pos": "N",
+      "meaning_vi": "Cung, việc cung cấp",
+      "note_vi": "供給. `공급하다`, `공급되다`.",
+      "example_ko": "공급이 부족하면 가격이 오르기 쉽다.",
+      "example_vi": "Cung thiếu thì giá dễ tăng.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "core",
+      "hanja": "供給",
+      "sino_vietnamese": "cung cấp",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이윤",
+      "pos": "N",
+      "meaning_vi": "Lợi nhuận kinh doanh",
+      "note_vi": "利潤. Ý hẹp hơn `이익` (lợi ích, tiền lời nói chung).",
+      "example_ko": "기업은 이윤을 얻기 위해 상품을 만든다.",
+      "example_vi": "Doanh nghiệp làm ra sản phẩm để thu lợi nhuận.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "core",
+      "hanja": "利潤",
+      "sino_vietnamese": "lợi nhuận",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "손실",
+      "pos": "N",
+      "meaning_vi": "Tổn thất, thua lỗ",
+      "note_vi": "損失. `손실을 입다/보다`.",
+      "example_ko": "갑작스러운 환율 변동으로 큰 손실을 입었다.",
+      "example_vi": "Biến động tỷ giá đột ngột gây ra tổn thất lớn.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "core",
+      "hanja": "損失",
+      "sino_vietnamese": "tổn thất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "투자",
+      "pos": "N",
+      "meaning_vi": "Đầu tư",
+      "note_vi": "投資. `N에 투자하다`.",
+      "example_ko": "그는 번 돈을 주식에 투자했다.",
+      "example_vi": "Anh ấy đầu tư số tiền kiếm được vào cổ phiếu.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "core",
+      "hanja": "投資",
+      "sino_vietnamese": "đầu tư",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "주식",
+      "pos": "N",
+      "meaning_vi": "Cổ phiếu",
+      "note_vi": "株式. `주식 시장`.",
+      "example_ko": "주식 가격은 하루에도 여러 번 변한다.",
+      "example_vi": "Giá cổ phiếu thay đổi nhiều lần trong một ngày.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "core",
+      "hanja": "株式",
+      "sino_vietnamese": "chu thức",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "대출",
+      "pos": "N",
+      "meaning_vi": "Khoản vay ngân hàng",
+      "note_vi": "貸出. `대출을 받다` (vay), `대출을 해 주다` (cho vay).",
+      "example_ko": "은행에서 대출을 받아 집을 샀다.",
+      "example_vi": "Vay ngân hàng để mua nhà.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "core",
+      "hanja": "貸出",
+      "sino_vietnamese": "thải xuất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이자",
+      "pos": "N",
+      "meaning_vi": "Tiền lãi",
+      "note_vi": "利子. `이자를 내다/받다`.",
+      "example_ko": "대출 이자가 늘어나 부담이 커졌다.",
+      "example_vi": "Tiền lãi vay tăng nên gánh nặng lớn lên.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "core",
+      "hanja": "利子",
+      "sino_vietnamese": "lợi tử",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "예금",
+      "pos": "N",
+      "meaning_vi": "Tiền gửi",
+      "note_vi": "預金. `예금하다`.",
+      "example_ko": "월급의 일부를 은행에 예금한다.",
+      "example_vi": "Gửi một phần lương vào ngân hàng.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "core",
+      "hanja": "預金",
+      "sino_vietnamese": "dự kim",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "가계",
+      "pos": "N",
+      "meaning_vi": "Hộ gia đình (về tài chính)",
+      "note_vi": "家計. `가계 부채` (nợ hộ gia đình), `가계 소득`.",
+      "example_ko": "물가 상승으로 가계 부담이 커지고 있다.",
+      "example_vi": "Vật giá tăng nên gánh nặng của các hộ gia đình đang lớn lên.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "recognize",
+      "hanja": "家計",
+      "sino_vietnamese": "gia kế",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "양극화",
+      "pos": "N",
+      "meaning_vi": "Phân hoá hai cực",
+      "note_vi": "兩極化. Hay đi với `심해지다`, `심화되다`.",
+      "example_ko": "소득 양극화가 점점 심해지고 있다.",
+      "example_vi": "Phân hoá thu nhập giàu nghèo ngày càng nặng.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "core",
+      "hanja": "兩極化",
+      "sino_vietnamese": "lưỡng cực hóa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "상승",
+      "pos": "N",
+      "meaning_vi": "Tăng lên",
+      "note_vi": "上昇. `상승하다`, `상승세` (đà tăng); trái nghĩa `하락`.",
+      "example_ko": "집값이 계속 상승하고 있다.",
+      "example_vi": "Giá nhà tiếp tục tăng.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "core",
+      "hanja": "上昇",
+      "sino_vietnamese": "thượng thăng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "하락",
+      "pos": "N",
+      "meaning_vi": "Giảm xuống",
+      "note_vi": "下落. `하락하다`, `하락세`.",
+      "example_ko": "수출이 줄면서 주가가 하락했다.",
+      "example_vi": "Xuất khẩu giảm nên giá cổ phiếu đi xuống.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "core",
+      "hanja": "下落",
+      "sino_vietnamese": "hạ lạc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "둔화",
+      "pos": "N",
+      "meaning_vi": "Chậm lại",
+      "note_vi": "鈍化. `둔화되다`: tốc độ chậm lại chứ không phải giảm hẳn.",
+      "example_ko": "경제 성장세가 둔화되고 있다.",
+      "example_vi": "Đà tăng trưởng kinh tế đang chậm lại.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "recognize",
+      "hanja": "鈍化",
+      "sino_vietnamese": "độn hóa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "전년 대비",
+      "pos": "X",
+      "meaning_vi": "So với năm trước",
+      "note_vi": "前年對比. Thêm `전월 대비` (so với tháng trước).",
+      "example_ko": "올해 수출은 전년 대비 늘었다.",
+      "example_vi": "Xuất khẩu năm nay tăng so với năm trước.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "core"
+    },
+    {
+      "hangul": "소폭",
+      "pos": "N",
+      "meaning_vi": "Mức nhỏ, biên độ nhỏ",
+      "note_vi": "小幅. `소폭 상승`; trái nghĩa `큰 폭으로`.",
+      "example_ko": "물가가 소폭 올랐다.",
+      "example_vi": "Vật giá tăng nhẹ.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "recognize",
+      "hanja": "小幅",
+      "sino_vietnamese": "tiểu bức",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "구매력",
+      "pos": "N",
+      "meaning_vi": "Sức mua",
+      "note_vi": "購買力. `구매력이 떨어지다/높아지다`.",
+      "example_ko": "물가가 오르면 소비자의 구매력이 떨어진다.",
+      "example_vi": "Vật giá tăng thì sức mua của người tiêu dùng giảm.",
+      "family": "🟡 Dạng thi · Doanh nghiệp, tài chính, biến động số liệu",
+      "priority": "recognize",
+      "hanja": "購買力",
+      "sino_vietnamese": "cấu mãi lực",
+      "enrich": "auto"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V + -(으)ㄹ 전망이다 · V/A + -는 실정이다 · V/A + -(으)ㄹ 것으로 전망되다/예상되다",
+      "meaning_vi": "Dự báo (sẽ…) · Thực trạng (đang ở tình trạng…) · Được dự báo/ dự đoán là…",
+      "usage_context_vi": "**Cấu tạo:** `V + -(으)ㄹ 전망이다`: dự báo tương lai; `V/A + -는 실정이다`: thực trạng hiện tại (A + `-(으)ㄴ 실정이다`); `V/A + -(으)ㄹ 것으로 전망되다/예상되다`: được dự báo là. Ví dụ: `성장률이 낮아질 전망이다`.\n**Hoàn cảnh dùng:** Tin tức, báo cáo kinh tế. Dự báo của chuyên gia hoặc cơ quan: `전망이다`, `전망된다`. Nêu thực trạng khó khăn: `-는 실정이다`.\n**Vì sao chọn nó:** Đã học `-(으)ㄹ 것으로 기대된다` (kỳ vọng tích cực) và `-(으)ㄴ/는 것으로 보인다` (có vẻ). Ba mẫu mới khác nhau ở **nguồn và sắc thái**: `전망이다` là nhận định dự báo của người viết hoặc tổ chức; `-는 실정이다` mô tả tình trạng hiện tại, hay mang ý bất lợi; `예상되다` là đoán trước nhẹ hơn `전망되다`.",
+      "contrasts": [
+        {
+          "pattern": "-(으)ㄹ 것으로 기대된다",
+          "diff_vi": "`기대된다` mang kỳ vọng tốt; `전망이다` trung tính (có thể tốt hay xấu)."
+        },
+        {
+          "pattern": "-(으)ㄴ/는 것으로 보인다",
+          "diff_vi": "`보인다` là phán đoán từ quan sát; `실정이다` là mô tả thực trạng đã biết."
+        },
+        {
+          "pattern": "-(으)ㄹ 것이다",
+          "diff_vi": "`-(으)ㄹ 것이다` dùng chung; `전망이다` là văn tin tức, trang trọng hơn."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `전망이다` với quá khứ: ✗ `올랐을 전망이다` → ✓ `오를 전망이다` (dự báo cho tương lai).\n(2) Dùng `-는 실정이다` với tương lai: ✗ `-(으)ㄹ 실정이다`.\n(3) Dùng cho việc cá nhân: ✗ `내일 친구를 만날 전망이다` → văn tin tức, cho xu hướng chung.",
+      "example_ko": "올해 수출은 지난해보다 늘어날 전망이다.\n청년 실업률이 높은 실정이라 정부가 대책을 내놓았다.\n내년에는 물가가 안정될 것으로 예상된다.\n경기가 침체되어 가계가 어려움을 겪는 실정이다.",
+      "example_vi": "Xuất khẩu năm nay dự báo tăng so với năm ngoái.\nThực trạng thất nghiệp thanh niên cao nên chính phủ đưa ra đối sách.\nDự đoán năm sau vật giá sẽ ổn định.\nKinh tế trì trệ nên các hộ gia đình đang gặp khó khăn.",
+      "topik_tip_vi": "Đọc 5–6: câu kết đoạn tin tức hay có `-(으)ㄹ 전망이다`. Gặp «실정» thì nghĩ đến thực trạng bất lợi.",
+      "importance": "must"
+    },
+    {
+      "pattern": "N + 에 그치다 · V + -는 데 그치다 · N + 에 불과하다 · V + -(으)ㄹ 따름이다",
+      "meaning_vi": "Chỉ dừng ở · Chỉ dừng ở việc · Chẳng qua chỉ là · Chỉ biết (làm) mà thôi",
+      "usage_context_vi": "**Cấu tạo:** `N + 에 그치다`: chỉ dừng ở N; `V + -는 데 그치다`: chỉ dừng ở việc V; `N + 에 불과하다`: không hơn N; `V + -(으)ㄹ 따름이다`: chỉ (làm) mà thôi (trang trọng, khiêm nhường).\n**Hoàn cảnh dùng:** Nói kết quả không như mong đợi: `성장률이 1%에 그쳤다`. Nói con số nhỏ: `소수에 불과하다`. Nói khiêm nhường: `최선을 다할 따름입니다`.\n**Vì sao chọn nó:** `에 그치다` mô tả **kết quả** (hay ở quá khứ `그쳤다`), còn `에 불과하다` mô tả **mức độ** («không quá…»). `-(으)ㄹ 따름이다` gần `-(으)ㄹ 뿐이다` (bài 51) nhưng trang trọng hơn, thường dùng khi bày tỏ thái độ.",
+      "contrasts": [
+        {
+          "pattern": "N뿐이다",
+          "diff_vi": "`뿐이다` chỉ có thế; `에 불과하다` còn mang ý «chẳng đáng kể»."
+        },
+        {
+          "pattern": "N밖에 안 되다",
+          "diff_vi": "`밖에 안 되다` nói thẳng ít; `에 불과하다` là văn viết."
+        },
+        {
+          "pattern": "-(으)ㄹ 뿐이다",
+          "diff_vi": "Hai mẫu gần nghĩa; `따름이다` trang trọng hơn và hay đi với tâm thế khiêm tốn."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `에 그치다` cho kết quả tốt: nó luôn hàm ý «chỉ có thế thôi».\n(2) Nhầm `-는 데 그치다` với `-는 데 도움이 되다`: nghĩa khác hẳn.\n(3) Dùng `따름이다` trong hội thoại thân mật: ngữ khí quá trang trọng.",
+      "example_ko": "올해 경제 성장률은 1%대에 그칠 전망이다.\n이번 대책은 물가를 잠시 누르는 데 그쳤다.\n찬성하는 사람은 소수에 불과하다.\n저는 맡은 일에 최선을 다할 따름입니다.",
+      "example_vi": "Tốc độ tăng trưởng kinh tế năm nay dự báo chỉ dừng ở mức 1%.\nĐối sách lần này chỉ dừng ở việc kìm giá tạm thời.\nNgười tán thành chỉ là thiểu số.\nTôi chỉ biết dốc hết sức cho việc được giao.",
+      "topik_tip_vi": "Đọc 5–6: sau «성장률/비율» + `에 그치다` hay gợi kết quả thấp hơn kỳ vọng. Nhận «불과하다» là «không quá».",
+      "importance": "must"
+    },
+    {
+      "pattern": "V + -느니 (차라리) · V + -(으)ㄹ 바에는 (-(으)ㄹ 바에야)",
+      "meaning_vi": "Thà … còn hơn · Nếu đằng nào cũng … thì",
+      "usage_context_vi": "**Cấu tạo:** `V + -느니 (차라리) …`: thà làm B còn hơn làm A (A là điều tệ hơn). `V + -(으)ㄹ 바에는/바에야 (차라리) …`: cùng nghĩa, nhấn mạnh hơn. Vế sau thường: `-는 편이 낫다`, `-는 게 낫다`, `-겠다`.\n**Hoàn cảnh dùng:** So sánh hai lựa chọn xấu: `빚을 내서 사느니 차라리 안 사는 편이 낫다`. Nói đằng nào cũng làm thì nên làm tốt: `어차피 할 바에는 제대로 하자`.\n**Vì sao chọn nó:** `-느니` không có thì: ✗ `샀느니`. Vế A (đứng trước `-느니`) là điều **bị chê**, vế B là điều **được chọn**. `-(으)ㄹ 바에는` có hai cách dùng: (1) «thà … còn hơn» như `-느니`; (2) «đằng nào cũng … thì» (`어차피 할 바에는`).",
+      "contrasts": [
+        {
+          "pattern": "-는 대신(에)",
+          "diff_vi": "`-는 대신` là thay vì/đổi lại (bài 34); `-느니` mang ý so sánh «tệ hơn»."
+        },
+        {
+          "pattern": "-기보다는",
+          "diff_vi": "`-기보다는` so sánh trung tính; `-느니` hàm ý A rất đáng tránh."
+        },
+        {
+          "pattern": "-(으)ㄹ 바에는",
+          "diff_vi": "Dùng thay `-느니`; dạng `-(으)ㄹ 바에야` mạnh hơn."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Chia thì trong vế A: ✗ `샀느니` → ✓ `사느니`.\n(2) Vế B không có ý chọn lựa: `-느니` cần vế sau diễn đạt lựa chọn.\n(3) Dùng cho A tốt: `-느니` luôn coi A là điều xấu hoặc tệ hơn.",
+      "example_ko": "빚을 내서 사느니 차라리 안 사는 편이 낫다.\n어차피 일을 할 바에는 제대로 하자.\n그렇게 비싸게 주고 살 바에야 차라리 직접 만들겠다.\n무리하게 투자하느니 예금으로 모으는 것이 낫다.",
+      "example_vi": "Thà không mua còn hơn vay nợ để mua.\nĐằng nào cũng làm thì làm cho ra hồn.\nThà tự làm còn hơn mua với giá đắt như vậy.\nThà gửi tiết kiệm còn hơn đầu tư quá sức.",
+      "topik_tip_vi": "Đề viết 51–52: vế B hay là `-는 편이 낫다`. Đừng thêm thì vào trước `-느니`.",
+      "importance": "normal"
+    },
+    {
+      "pattern": "V/A + -(으)ㄹ 턱이 없다 · N + 일 턱이 없다",
+      "meaning_vi": "Không đời nào …, làm gì có chuyện … (phủ định mạnh khả năng)",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** gốc + `-(으)ㄹ 턱이 없다`: `오르다 → 오를 턱이 없다`; danh từ `N일 턱이 없다`; quá khứ `-았/었을 턱이 없다`. Câu hỏi tu từ: `-(으)ㄹ 턱이 있겠어요?`\n**Hoàn cảnh dùng:** Người nói **khẳng định chắc chắn điều đó không thể xảy ra**, thường dựa vào lẽ thường: `경기가 이렇게 나쁜데 월급이 오를 턱이 없다.` Văn nói và văn viết bình luận.\n**Vì sao chọn nó:** `-(으)ㄹ 리가 없다` gần như cùng nghĩa, phổ biến hơn; `-(으)ㄹ 턱이 없다` nghe **khẩu ngữ, mạnh và hơi mỉa** hơn.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Kinh tế: số liệu, thị trường, doanh nghiệp»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V/A + -(으)ㄹ 리가 없다",
+          "diff_vi": "Cùng nghĩa, trung tính hơn, dùng rộng rãi."
+        },
+        {
+          "pattern": "V + -(으)ㄹ 수 없다",
+          "diff_vi": "Không thể (do năng lực/điều kiện), không phải phán đoán «không đời nào»."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `있다` khi khẳng định: `턱이 있다` chỉ gặp trong câu hỏi tu từ (`그럴 턱이 있겠어요?`).\n(2) Chọn sai định ngữ: ✗ `오르는 턱이 없다` → ✓ `오를 턱이 없다`.\n(3) Dùng trong văn bản trang trọng: thay bằng `-(으)ㄹ 가능성이 거의 없다`.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "경기가 이렇게 나쁜데 월급이 오를 턱이 없다.\n그렇게 꼼꼼한 사람이 실수했을 턱이 없어요.\n준비도 안 했는데 합격할 턱이 있겠어요?",
+      "example_vi": "Kinh tế tệ thế này, không đời nào lương tăng.\nNgười cẩn thận như thế làm gì có chuyện sai sót.\nChẳng chuẩn bị gì thì làm sao mà đỗ được?",
+      "topik_tip_vi": "Nghe (thái độ): `-(으)ㄹ 턱이 없다` = hoài nghi, phủ định mạnh; đáp án thái độ «nghi ngờ».",
+      "use_level": "produce",
+      "source": "EXT-SUP-54"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài",
+      "body": "Bài 10 của Chủ đề 5, bài đầu của nhóm kiến thức chuyên đề. Sau bài này bạn:\n① nắm 46 từ kinh tế thường gặp trong bài đọc, bài nghe và bảng số liệu;\n② đọc hiểu câu tin tức có `전망이다`, `에 그치다`, `에 불과하다`;\n③ biết vài dữ kiện kinh tế–xã hội Hàn Quốc đã kiểm tra (cơ quan, mức lương tối thiểu);\n④ làm quen với bảng số liệu giả định để chuẩn bị cho câu 53 ở bài sau.",
+      "kind": "goal"
+    },
+    {
+      "title": "Từ chỉ thay đổi trong bảng số liệu",
+      "body": "• Tăng: `증가`, `상승`, `급증` (tăng vọt), `인상` (tăng giá, lương, phí).\n• Giảm: `감소`, `하락`, `급감`, `인하` (giảm giá, lãi suất).\n• Chậm lại và phục hồi: `둔화`, `침체`, `회복`.\n• Mức độ: `소폭` (nhẹ) ↔ `큰 폭으로` (mạnh); `가파르게` (dốc) ↔ `완만하게` (thoải).\n• So sánh: `전년 대비` (so với năm trước), `전월 대비` (so với tháng trước).\nMẹo: kết hợp «danh từ chỉ số + trợ từ + động từ chỉ đổi»: `수출이 전년 대비 소폭 증가했다`.",
+      "kind": "language"
+    },
+    {
+      "title": "Dữ kiện thực tế đã kiểm tra (tháng 10/2026)",
+      "body": "• **Mức lương tối thiểu**: 2026 là 10.320 won/giờ. Mức của năm 2027 đã được Ủy ban Lương tối thiểu (`최저임금위원회`) quyết vào tháng 7/2026: 10.700 won/giờ, tăng 380 won (3,7%).\n• **Ngân hàng trung ương**: `한국은행`; ủy ban chính sách tiền tệ (`금융통화위원회`) quyết định `기준금리` (lãi suất chính sách).\n• **Cơ quan thống kê**: `통계청` đã đổi thành `국가데이터처` từ ngày 1/10/2025.\n• **Bộ Kinh tế–Tài chính**: `기획재정부` được tách thành `재정경제부` và `기획예산처` từ ngày 2/1/2026. Đề cũ vẫn có thể ghi tên cũ.\nNhững mục này có thể thay đổi theo thời gian: hãy xem là kiến thức nền, đừng học thuộc con số.",
+      "kind": "language"
+    },
+    {
+      "title": "Nhớ cặp từ để không nhầm",
+      "body": "• `수출` (xuất khẩu) ↔ `수입` (nhập khẩu); `흑자` (có lãi) ↔ `적자` (lỗ).\n• `호황` (làm ăn thuận lợi) ↔ `불황` (ế ẩm); `수요` (cầu) ↔ `공급` (cung).\n• `금리` (mức lãi suất) ≠ `이자` (số tiền lãi): `금리가 오르면 이자 부담이 커진다`.\n• `고용` (phía chủ thuê) ≠ `취업` (phía người xin việc).\n• `임금` (văn bản) ≈ `월급` (đời thường).",
+      "kind": "language"
+    },
+    {
+      "title": "Một đoạn tin kinh tế mẫu (số liệu giả định)",
+      "body": "`올해 경제 성장률은 1%대에 그칠 전망이다. 물가는 소폭 올랐지만 임금은 그대로여서 가계 부담이 커지는 실정이다. 전문가들은 금리 인상만으로는 물가를 일시적으로 누르는 데 그칠 수 있다고 말한다.`\nChú ý: văn 한다체; con số đứng trước `에 그치다`; `-는 실정이다` mô tả thực trạng.",
+      "kind": "sample"
+    },
+    {
+      "title": "Năm lỗi hay mắc",
+      "body": "① **Chia sai thì**: `전망이다` đi với `-(으)ㄹ` (tương lai), `-는 실정이다` đi với hiện tại.\n② **Nhầm `에 그치다` và `에 불과하다`**: một là kết quả, một là mức độ.\n③ **Thêm thì vào `-느니`**: ✗ `샀느니`.\n④ **Nhầm `금리` và `이자`**.\n⑤ **Viết `-율/-률` sai**: `환율`, `비율` (sau nguyên âm hoặc ㄴ), `성장률`, `실업률` (còn lại).",
+      "kind": "pitfall"
+    }
+  ],
+  "bank": "xa-hoi",
+  "coach": {
+    "focus_vi": [
+      "Học 46 từ theo hai nhóm: `물가`, `금리`, `환율` trước, rồi `수요`, `공급`, `이윤`. Mỗi từ chép một câu ví dụ.",
+      "Làm bốn câu điền mẫu: `전망이다`, `에 그치다`, `-느니`, `-(으)ㄹ 바에는`; kiểm tra đáp án sai bằng lời giải thích.",
+      "Đọc đoạn tin mẫu, rồi tự viết lại với số khác; gạch chân `-(으)ㄹ 전망이다`."
+    ],
+    "watch_out_vi": [
+      "`전망이다` đi với `-(으)ㄹ`; `-는 실정이다` đi với hiện tại.",
+      "`-느니` không có thì: ✗ `샀느니`."
+    ],
+    "notebook_vi": [
+      "Bảng cặp từ: xuất–nhập, lãi–lỗ, cung–cầu, hưng–suy.",
+      "Ba câu tin ngắn có `-(으)ㄹ 전망이다` về chủ đề bạn quan tâm."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "`에 그치다` khác `에 불과하다` thế nào?",
+        "answer": "`에 그치다` nói kết quả chỉ dừng ở mức đó. `에 불과하다` nói bản chất hoặc mức chẳng đáng kể."
+      },
+      {
+        "prompt_vi": "`금리` khác `이자` thế nào?",
+        "answer": "`금리` là mức lãi suất. `이자` là số tiền lãi."
+      }
+    ]
+  },
+  "exercise_ids": [
+    "X59L1",
+    "X59L2",
+    "X59L3",
+    "X59L4",
+    "X59D1",
+    "X59D2",
+    "X59R1",
+    "X59R2",
+    "X59R3",
+    "X59R4",
+    "X59R5",
+    "X59R6",
+    "X59R7",
+    "X59R8",
+    "X59R9",
+    "X59R10",
+    "X59B1",
+    "X59B2",
+    "X59B3",
+    "X59B4",
+    "X59B5",
+    "X59B6",
+    "X59B7",
+    "X59F1",
+    "X59F2",
+    "X59E1",
+    "RG60",
+    "XSUP54",
+    "SP60"
+  ],
+  "topik2": [
+    {
+      "qid": "102-L-27",
+      "why_vi": "Hội thoại mức 5급 về một dịch vụ tư vấn thuế miễn phí cho người mới khởi nghiệp. Nghe người nam kể gì rồi chọn ý định của anh: chia sẻ trải nghiệm, nhờ đăng ký hay phàn nàn."
+    },
+    {
+      "qid": "h1-R-29",
+      "why_vi": "Đề thi thử của Haru (không phải đề thật): đoạn giải thích khái niệm «thuế». Câu có chỗ trống dùng cấu trúc nhượng bộ, nên vế sau phải nêu mặt đối lập với cảm giác gánh nặng."
+    },
+    {
+      "qid": "h1-L-43",
+      "why_vi": "Đề thi thử của Haru (không phải đề thật): bài nói liệt kê lợi ích của thẻ tín dụng. Câu hỏi chọn lý do được nêu rõ trong bài, nên nghe từng lợi ích rồi loại các đáp án chỉ gần đúng."
+    }
+  ],
+  "editor_notes": [
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "SP60 chọn S5 vì bài là «số liệu, thị trường»: biểu đồ đường giá cả/lương (giả định, có ghi chú) + bảng khảo sát chi tiêu. Bài mẫu 해요체 theo khung S5 (giới thiệu, xu hướng, ý nghĩa, dự báo), không có 첫째/둘째. Không dùng con số thật nào. RG60 dùng ba mẫu của bài (실정이다, 에 그치다/전망이다, -(으)ㄹ 바에는)."
+    }
+  ]
+}

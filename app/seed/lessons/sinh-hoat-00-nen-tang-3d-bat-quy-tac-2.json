@@ -1,0 +1,784 @@
+{
+  "slug": "sinh-hoat-00-nen-tang-3d-bat-quy-tac-2",
+  "title": "Nền tảng 3.4 · Bất quy tắc ㅎ, ㅅ & ㅂ",
+  "title_ko": "기초 3-4: ㅎ·ㅅ·ㅂ 불규칙",
+  "topic": "Nhập môn",
+  "track": "beginner",
+  "level": 1,
+  "summary": "Ba nhóm còn lại: 'ㅎ' rơi (그렇다 → 그래요, 파랗다 → 파래요), 'ㅅ' rơi (낫다 → 나아요), 'ㅂ → 우' (덥다 → 더워요, 돕다 → 도와요); đọc và viết lại cả Nền tảng 3.",
+  "vocab": [
+    {
+      "hangul": "그렇다",
+      "pron": "[그러타]",
+      "pos": "A",
+      "meaning_vi": "Như vậy",
+      "note_vi": "ㅎ bất quy tắc: 그래요, 그런, 그러면, 그랬어요.",
+      "example_ko": "그래요?",
+      "example_vi": "Vậy à?",
+      "family": "ㅎ bất quy tắc",
+      "priority": "core"
+    },
+    {
+      "hangul": "어떻다",
+      "pron": "[어떠타]",
+      "pos": "A",
+      "meaning_vi": "Thế nào",
+      "note_vi": "ㅎ bất quy tắc: 어때요, 어떤, 어땠어요.",
+      "example_ko": "날씨가 어때요?",
+      "example_vi": "Thời tiết thế nào?",
+      "family": "ㅎ bất quy tắc",
+      "priority": "core"
+    },
+    {
+      "hangul": "파랗다",
+      "pron": "[파라타]",
+      "pos": "A",
+      "meaning_vi": "Xanh (da trời, lam)",
+      "note_vi": "ㅎ bất quy tắc: 파래요, 파란.",
+      "example_ko": "하늘이 파래요.",
+      "example_vi": "Bầu trời xanh.",
+      "family": "ㅎ bất quy tắc",
+      "priority": "core"
+    },
+    {
+      "hangul": "빨갛다",
+      "pron": "[빨가타]",
+      "pos": "A",
+      "meaning_vi": "Đỏ",
+      "note_vi": "ㅎ bất quy tắc: 빨개요, 빨간.",
+      "example_ko": "사과가 빨개요.",
+      "example_vi": "Quả táo đỏ.",
+      "family": "ㅎ bất quy tắc",
+      "priority": "core"
+    },
+    {
+      "hangul": "낫다",
+      "pron": "[낟따]",
+      "pos": "V",
+      "meaning_vi": "Khỏi (bệnh), tốt hơn",
+      "note_vi": "ㅅ bất quy tắc: 나아요, 나은; nhưng 낫고.",
+      "example_ko": "약을 먹으면 곧 나아요.",
+      "example_vi": "Uống thuốc là sẽ khỏi ngay.",
+      "priority": "core"
+    },
+    {
+      "hangul": "짓다",
+      "pron": "[짇따]",
+      "pos": "V",
+      "meaning_vi": "Xây, đặt (tên), nấu (cơm)",
+      "note_vi": "ㅅ bất quy tắc: 지어요, 지은.",
+      "example_ko": "이름을 지었어요.",
+      "example_vi": "Tôi đã đặt tên.",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "웃다",
+      "pron": "[욷따]",
+      "pos": "V",
+      "meaning_vi": "Cười",
+      "note_vi": "Bình thường: 웃어요.",
+      "example_ko": "아이가 웃어요.",
+      "example_vi": "Đứa bé cười.",
+      "priority": "core"
+    },
+    {
+      "hangul": "씻다",
+      "pron": "[씯따]",
+      "pos": "V",
+      "meaning_vi": "Rửa, tắm rửa",
+      "note_vi": "Bình thường: 씻어요.",
+      "example_ko": "손을 씻어요.",
+      "example_vi": "Tôi rửa tay.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "덥다",
+      "pron": "[덥따]",
+      "pos": "A",
+      "meaning_vi": "Nóng (thời tiết)",
+      "note_vi": "ㅂ bất quy tắc: 더워요, 더운; nhưng 덥고.",
+      "example_ko": "오늘은 정말 더워요.",
+      "example_vi": "Hôm nay thật nóng.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "춥다",
+      "pron": "[춥따]",
+      "pos": "A",
+      "meaning_vi": "Lạnh (thời tiết)",
+      "note_vi": "ㅂ bất quy tắc: 추워요, 추운.",
+      "example_ko": "겨울에는 추워요.",
+      "example_vi": "Mùa đông thì lạnh.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "맵다",
+      "pron": "[맵따]",
+      "pos": "A",
+      "meaning_vi": "Cay",
+      "note_vi": "ㅂ bất quy tắc: 매워요, 매운.",
+      "example_ko": "이 음식은 매워요.",
+      "example_vi": "Món này cay.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "어렵다",
+      "pron": "[어렵따]",
+      "pos": "A",
+      "meaning_vi": "Khó",
+      "note_vi": "ㅂ bất quy tắc: 어려워요, 어려운.",
+      "example_ko": "한국어 문법이 어려워요.",
+      "example_vi": "Ngữ pháp tiếng Hàn khó.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "쉽다",
+      "pron": "[쉽따]",
+      "pos": "A",
+      "meaning_vi": "Dễ",
+      "note_vi": "ㅂ bất quy tắc: 쉬워요, 쉬운.",
+      "example_ko": "이 문제는 쉬워요.",
+      "example_vi": "Bài này dễ.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "반갑다",
+      "pron": "[반갑따]",
+      "pos": "A",
+      "meaning_vi": "Vui mừng (khi gặp)",
+      "note_vi": "ㅂ bất quy tắc: 반가워요.",
+      "example_ko": "만나서 반가워요.",
+      "example_vi": "Rất vui được gặp bạn.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "고맙다",
+      "pron": "[고맙따]",
+      "pos": "A",
+      "meaning_vi": "Cảm ơn, biết ơn",
+      "note_vi": "ㅂ bất quy tắc: 고마워요.",
+      "example_ko": "도와 줘서 고마워요.",
+      "example_vi": "Cảm ơn vì đã giúp.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "돕다",
+      "pron": "[돕따]",
+      "pos": "V",
+      "meaning_vi": "Giúp đỡ",
+      "note_vi": "ㅂ bất quy tắc, đổi thành 오: 도와요, 도운.",
+      "example_ko": "친구가 저를 도와요.",
+      "example_vi": "Bạn giúp tôi.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "입다",
+      "pron": "[입따]",
+      "pos": "V",
+      "meaning_vi": "Mặc",
+      "note_vi": "Bình thường: 입어요.",
+      "example_ko": "옷을 입어요.",
+      "example_vi": "Tôi mặc quần áo.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "많다",
+      "pron": "[만타]",
+      "pos": "A",
+      "meaning_vi": "Nhiều",
+      "note_vi": "Gốc ㅎ nhưng bình thường: 많아요, 많은.",
+      "example_ko": "친구가 많습니다.",
+      "example_vi": "Tôi có nhiều bạn.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "그러니까",
+      "pos": "X",
+      "meaning_vi": "Vì vậy, cho nên",
+      "note_vi": "Thường dùng trong văn nói; sau nó hay là lời khuyên, đề nghị (-세요, -아요).",
+      "example_ko": "비가 와요. 그러니까 우산을 가져가세요.",
+      "example_vi": "Trời mưa đấy. Vì vậy bạn hãy mang ô theo.",
+      "family": "🟢 Nền · Từ sơ cấp · Từ nối câu",
+      "priority": "core",
+      "source": "krdict:58609",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "그러므로",
+      "pos": "X",
+      "meaning_vi": "Do đó, vì thế",
+      "note_vi": "Văn viết, trang trọng; văn nói thường dùng 그래서 hoặc 그러니까.",
+      "example_ko": "열심히 공부했어요. 그러므로 합격할 거예요.",
+      "example_vi": "Bạn ấy đã học chăm chỉ. Do đó sẽ đỗ thôi.",
+      "family": "🟢 Nền · Từ sơ cấp · Từ nối câu",
+      "priority": "recognize",
+      "source": "krdict:36276",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "그럼",
+      "pos": "X",
+      "meaning_vi": "Vậy thì, thế thì",
+      "note_vi": "Dạng rút gọn của 그러면. Cũng dùng như câu đáp «Tất nhiên rồi!».",
+      "example_ko": "선생님이 안 계세요? 그럼 내일 다시 올게요.",
+      "example_vi": "Thầy không có ở đây ạ? Vậy thì mai em quay lại.",
+      "family": "🟢 Nền · Từ sơ cấp · Từ nối câu",
+      "priority": "core",
+      "source": "krdict:60346",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "그렇지만",
+      "pos": "X",
+      "meaning_vi": "Nhưng, tuy nhiên",
+      "note_vi": "Lịch sự hơn 그런데 khi nêu ý trái ngược; đứng đầu câu sau.",
+      "example_ko": "한국어는 어려워요. 그렇지만 재미있어요.",
+      "example_vi": "Tiếng Hàn khó. Nhưng mà thú vị.",
+      "pron": "[그러치만]",
+      "family": "🟢 Nền · Từ sơ cấp · Từ nối câu",
+      "priority": "core",
+      "source": "krdict:70718",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "또는",
+      "pos": "X",
+      "meaning_vi": "Hoặc, hay",
+      "note_vi": "Nối hai danh từ hay hai mệnh đề; câu hỏi «A hay B?» thì dùng N(이)나 hoặc 아니면.",
+      "example_ko": "주말에 영화 또는 공연을 봐요.",
+      "example_vi": "Cuối tuần tôi xem phim hoặc xem biểu diễn.",
+      "family": "🟢 Nền · Từ sơ cấp · Từ nối câu",
+      "priority": "core",
+      "source": "krdict:52121",
+      "collocations": [
+        {
+          "ko": "오늘 또는 내일",
+          "vi": "Hôm nay hoặc ngày mai"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "만약",
+      "pos": "N",
+      "meaning_vi": "Nếu, giả sử",
+      "note_vi": "Đi với -(으)면: 만약 … -(으)면 «nếu như …». Cũng nói 만약에.",
+      "example_ko": "만약 비가 오면 집에 있을 거예요.",
+      "example_vi": "Nếu trời mưa thì tôi sẽ ở nhà.",
+      "pron": "[마냑]",
+      "family": "🟢 Nền · Từ sơ cấp · Từ nối câu",
+      "priority": "core",
+      "source": "krdict:28779",
+      "hanja": "萬若",
+      "collocations": [
+        {
+          "ko": "만약의 경우",
+          "vi": "Trường hợp bất trắc"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "vạn nhược"
+    },
+    {
+      "hangul": "역시",
+      "pos": "X",
+      "meaning_vi": "Cũng, quả nhiên",
+      "note_vi": "«Cũng vậy» (저 역시 = 저도) hoặc «đúng như dự đoán» (역시 맛있어요).",
+      "example_ko": "저 역시 같은 생각이에요.",
+      "example_vi": "Tôi cũng nghĩ giống vậy.",
+      "pron": "[역씨]",
+      "family": "🟢 Nền · Từ sơ cấp · Từ nối câu",
+      "priority": "core",
+      "source": "krdict:67372",
+      "hanja": "亦是",
+      "enrich": "auto",
+      "sino_vietnamese": "diệc thị"
+    },
+    {
+      "hangul": "왜냐하면",
+      "pos": "X",
+      "meaning_vi": "Bởi vì, là vì",
+      "note_vi": "Câu sau thường kết bằng -기 때문이에요: 왜냐하면 … -기 때문이에요.",
+      "example_ko": "늦었어요. 왜냐하면 늦게 일어났기 때문이에요.",
+      "example_vi": "Tôi đến muộn. Bởi vì tôi dậy muộn.",
+      "family": "🟢 Nền · Từ sơ cấp · Từ nối câu",
+      "priority": "core",
+      "source": "krdict:67850",
+      "enrich": "auto"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Sau bài này bạn làm được gì",
+      "kind": "goal",
+      "body": "• Chia đúng `그렇다`, `어떻다`, `파랗다`, `낫다`, `짓다`, `덥다`, `춥다`, `어렵다`, `돕다`.\n• Nhận ra từ không bất quy tắc dễ nhầm: `좋다`, `웃다`, `입다`, `좁다`.\n• Đọc hiểu một đoạn có đủ quá khứ, trang trọng, phủ định và bất quy tắc."
+    }
+  ],
+  "coach": {
+    "focus_vi": [
+      "Ba động từ mẫu: `그렇다`, `낫다`, `덥다`."
+    ],
+    "watch_out_vi": [
+      "`좋다 → 좋아요` không bất quy tắc dù có `ㅎ`; `입다 → 입어요`, `웃다 → 웃어요` cũng vậy.",
+      "`돕다`, `곱다` thành `-와요` (도와요), các gốc `ㅂ` khác thành `-워요` (더워요)."
+    ],
+    "notebook_vi": [
+      "Hoàn thành bảng 6 nhóm bất quy tắc (3 nhóm bài trước + 3 nhóm bài này)."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Chia `그렇다`, `덥다`, `돕다`, `낫다` sang `-아/어요` và quá khứ.",
+        "answer": "그래요/그랬어요 · 더워요/더웠어요 · 도와요/도왔어요 · 나아요/나았어요"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "pattern": "ㅎ bất quy tắc (그렇다 · 어떻다 · 파랗다 · 하얗다)",
+      "meaning_vi": "Gốc kết thúc ㅎ (tính từ chỉ màu, 그렇다…) bỏ ㅎ trước nguyên âm",
+      "usage_context_vi": "**Cấu tạo:** Một số tính từ gốc `ㅎ` (`그렇다`, `이렇다`, `저렇다`, `어떻다` và các màu `빨갛다`, `노랗다`, `파랗다`, `하얗다`, `까맣다`): trước **nguyên âm** thì `ㅎ` mất. Trước `-아/어` nguyên âm hòa với `아/어` thành `ㅐ` (`ㅒ` ở `하얗다`); trước `-(으)` thì cả `ㅎ` lẫn `으` cùng mất. Trước **phụ âm** thì giữ `ㅎ`.\n| Đuôi bắt đầu bằng | Xử lý `ㅎ` | Ví dụ |\n| **ĐUÔI -아/어** — `-아/어요`, `-았/었-` | `ㅎ` **mất**, nguyên âm hòa với `아/어` thành `ㅐ` (`ㅒ` ở `하얗다`) | `그래요`, `어때요`, `파래요`, `빨개요`, `하얘요`; quá khứ: `그랬어요`, `어땠어요?`, `파랬어요` |\n| **ĐUÔI -(으)** — `-(으)ㄴ`, `-(으)면` | `ㅎ` và `으` **cùng mất** | `그런`, `그러면`, `어떤`, `파란`, `빨간` |\n| **PHỤ ÂM** — `-고`, `-지만` | **GIỮ** `ㅎ` | `그렇고`, `파랗고`, `그렇지만` |\nCác từ thuộc nhóm này:\n- `그렇다` (như vậy) → `그래요`\n- `이렇다` (như thế này) → `이래요`\n- `저렇다` (như thế kia) → `저래요`\n- `어떻다` (thế nào) → `어때요`\n- `빨갛다` (đỏ) → `빨개요`\n- `노랗다` (vàng) → `노래요`\n- `파랗다` (xanh dương) → `파래요`\n- `하얗다` (trắng) → `하얘요`\n- `까맣다` (đen) → `까매요`\n**Hoàn cảnh dùng:** Hỏi cảm nhận, tình trạng: `어때요?`, `어땠어요?`. Đáp, nối câu: `그래요?` (vậy sao?), `그런데`, `그래서`, `그러면`, `그러니까`, `이런`, `저런`. Mô tả màu: `파란 하늘`, `빨간 사과`.\n**Vì sao nhóm này quan trọng dù ít từ:** `그렇다` sinh ra cả họ từ nối cực thông dụng (`그래서`, `그런데`, `그러면`, `그러나`) và `어떻다` là gốc của `어때요?`. Biết quy tắc này thì đọc chữ `그래요`, `어때요` không còn thấy lạ. `좋다`, `많다`, `놓다`, `넣다`, `낳다` cũng có patchim `ㅎ` nhưng là bình thường: `좋아요`, `많아요`.",
+      "contrasts": [
+        {
+          "pattern": "좋다 · 많다 · 놓다",
+          "diff_vi": "Gốc `ㅎ` bình thường: `좋아요`, `많아요`, `놓아요`."
+        },
+        {
+          "pattern": "ㅡ 탈락",
+          "diff_vi": "Khác: chỉ bỏ `ㅡ` (`예쁘다` → `예뻐요`)."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Không bỏ `ㅎ`: ✗ `그렇어요`, `어떻어요`, `파랗어요` → `그래요`, `어때요`, `파래요`.\n(2) Giữ `ㅎ` trước `-(으)ㄴ`: ✗ `파랗은 하늘`, `빨갛은 사과` → `파란 하늘`, `빨간 사과`.\n(3) Áp dụng cho `좋다`, `많다`: ✗ `조요`, `만요` → `좋아요`, `많아요`.\n(4) Chia quá khứ giữ `ㅎ`: ✗ `그렇었어요` → `그랬어요`; ✗ `어떻었어요` → `어땠어요`.\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc đối chiếu với Nền tảng sơ cấp · 한글 맞춤법 제18항 (ㅎ 불규칙) · 국립국어원 새국어소식 2004.12.",
+      "topik_tip_vi": "Từ nối `그래서`, `그런데`, `그러나`, `그러면` và câu hỏi `어때요?` chiếm tỷ lệ cao trong đề thi. Dạng định ngữ `그런`, `어떤` hay ra trong chỗ trống.",
+      "example_ko": "오늘 날씨가 어때요?\n파란 하늘이 예뻐요.\n빨간 사과를 샀어요.\n그래요? 몰랐어요.\n이 사과는 빨개요.\n어제 날씨가 어땠어요?",
+      "example_vi": "Hôm nay thời tiết thế nào?\nBầu trời xanh thật đẹp.\nTôi đã mua quả táo đỏ.\nVậy à? Tôi không biết.\nQuả táo này đỏ.\nHôm qua thời tiết thế nào?",
+      "source": "Nền tảng sơ cấp · 한글 맞춤법 제18항 (ㅎ 불규칙) · 국립국어원 새국어소식 2004.12",
+      "importance": "must"
+    },
+    {
+      "pattern": "ㅅ bất quy tắc (낫다 · 짓다)",
+      "meaning_vi": "Gốc kết thúc ㅅ bỏ ㅅ trước nguyên âm (낫다 → 나아요)",
+      "usage_context_vi": "**Cấu tạo:** Chỉ một nhóm rất ít động từ có gốc kết thúc bằng `ㅅ` thì **bỏ** `ㅅ` **trước nguyên âm**, và hai nguyên âm vẫn viết tách rời, không rút gọn: `나아요` (✗ `나요`), `지어요` (✗ `져요`).\n| Đuôi bắt đầu bằng | Xử lý `ㅅ` | Ví dụ |\n| **NGUYÊN ÂM** — `-아/어`, `-았/었`, `-(으)ㄴ`, `-(으)면`, `-(으)세요` | **BỎ** `ㅅ`, giữ `으`, không gộp nguyên âm | `나아요`, `나은`, `나으면`; `지어요`, `지은`, `지으면` |\n| **PHỤ ÂM** — `-고`, `-습니다`, `-지 않다` | **GIỮ** `ㅅ` | `낫고`, `짓고`, `낫습니다` |\nHọc thuộc 6 từ **bất quy tắc** (bỏ `ㅅ`):\n- `낫다` (khỏi, tốt hơn) → `나아요`\n- `짓다` (xây, đặt tên, nấu cơm) → `지어요`\n- `붓다` (đổ, sưng) → `부어요`\n- `젓다` (khuấy) → `저어요`\n- `잇다` (nối) → `이어요`\n- `긋다` (kẻ) → `그어요`\nCác từ **bình thường** (giữ `ㅅ` ở mọi dạng):\n- `웃다` (cười) → `웃어요`\n- `씻다` (rửa) → `씻어요`\n- `벗다` (cởi) → `벗어요`\n- `빼앗다` (cướp) → `빼앗아요`\n**Hoàn cảnh dùng:** `낫다` gặp trong sức khỏe (`약을 먹으면 나아요`, `빨리 나으세요` — chúc mau khỏe) và so sánh (`이게 더 나아요`: cái này tốt hơn). `짓다` gặp ở `집을 짓다`, `이름을 짓다`, `밥을 짓다`.\n**Vì sao nhóm này dễ bị nhầm:** Ba từ cực thông dụng `웃다`, `씻다`, `벗다` cũng có gốc `ㅅ` nhưng KHÔNG bất quy tắc. Chỉ cần nhớ những từ ít ỏi `낫다`, `짓다`, `붓다`, `젓다`, `잇다`, `긋다` là đủ.",
+      "contrasts": [
+        {
+          "pattern": "웃다 · 씻다 · 벗다",
+          "diff_vi": "Gốc `ㅅ` bình thường: `웃어요`, `씻어요`, `벗어요`."
+        },
+        {
+          "pattern": "낮다 (thấp)",
+          "diff_vi": "Khác từ với `낫다`: `낮아요` (thấp), `나아요` (khỏi, tốt hơn)."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Không bỏ `ㅅ`: ✗ `낫아요`, `짓어요` → `나아요`, `지어요`.\n(2) Bỏ `ㅅ` ở từ bình thường: ✗ `우어요`, `씨어요`, `버어요` → `웃어요`, `씻어요`, `벗어요`.\n(3) Bỏ `ㅅ` trước phụ âm: ✗ `나고`, `지고` (nghĩa khác) → `낫고`, `짓고`.\n(4) Nhầm `낫다` với `낮다`: `나아요` (khỏi) ≠ `낮아요` (thấp).\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc đối chiếu với Nền tảng sơ cấp · 한글 맞춤법 제18항 (ㅅ 불규칙).",
+      "topik_tip_vi": "Trong chủ đề sức khỏe, `낫다` gặp tự nhiên: `약을 먹으면 나아요`, `나은 후에`. Chỉ cần nhớ `낫다` và `짓다`; các từ `ㅅ` còn lại gần như luôn bình thường.",
+      "example_ko": "약을 먹으면 곧 나아요.\n빨리 나으세요!\n이 옷이 저 옷보다 나아요.\n아버지가 집을 지어요.\n이름을 지었어요.\n아이가 웃어요. 손을 씻어요.",
+      "example_vi": "Uống thuốc là sẽ khỏi ngay.\nChúc anh/chị mau khỏe!\nCái áo này tốt hơn cái áo kia.\nBố tôi xây nhà.\nTôi đã đặt tên.\nĐứa bé cười. Tôi rửa tay. (ㅅ bình thường)",
+      "source": "Nền tảng sơ cấp · 한글 맞춤법 제18항 (ㅅ 불규칙)",
+      "importance": "normal"
+    },
+    {
+      "pattern": "ㅂ bất quy tắc (덥다 · 춥다 · 맵다 · 어렵다 · 돕다)",
+      "meaning_vi": "Gốc kết thúc ㅂ đổi thành 우 trước nguyên âm (덥다 → 더워요)",
+      "usage_context_vi": "**Cấu tạo:** Hầu hết tính từ gốc `ㅂ` (và vài động từ) **đổi** `ㅂ` **thành** `우` trước đuôi bắt đầu bằng **nguyên âm**, rồi `우 + 어` hòa thành `워`: `덥다` → `더워요`. Trước đuôi bắt đầu bằng **phụ âm** thì giữ `ㅂ`.\n| Đuôi bắt đầu bằng | Xử lý `ㅂ` | Ví dụ với `덥다` |\n| **NGUYÊN ÂM** — `-아/어`, `-았/었-`, `-(으)ㄴ`, `-(으)면`, `-(으)ㄹ`, `-(으)니까` | **ĐỔI** `ㅂ` thành `우` (`우 + 어` → `워`) | `더워요`, `더웠어요`, `더운`, `추운`, `매운`, `더우면`, `더울 거예요`, `더우니까` |\n| **PHỤ ÂM** — `-고`, `-지만`, `-습니다` | **GIỮ** `ㅂ` | `덥고`, `춥지만`, `덥습니다` |\nCác từ **bất quy tắc** (`ㅂ` thành `우`):\n- **Thời tiết, vị:** `덥다` (nóng) → `더워요` · `춥다` (lạnh) → `추워요` · `맵다` (cay) → `매워요`\n- **Độ khó, khoảng cách, nặng nhẹ:** `쉽다` (dễ) → `쉬워요` · `어렵다` (khó) → `어려워요` · `가깝다` (gần) → `가까워요` · `무겁다` (nặng) → `무거워요`\n- **Cảm xúc, tính chất:** `아름답다` (đẹp) → `아름다워요` · `고맙다` (cảm ơn) → `고마워요` · `반갑다` (vui khi gặp) → `반가워요` · `귀엽다` (dễ thương) → `귀여워요`\n- **Động từ:** `눕다` (nằm) → `누워요` · `줍다` (nhặt) → `주워요`\nHai từ đổi `ㅂ` thành `오` (`오 + 아` hòa thành `와`):\n- `돕다` (giúp) → `도와요` (quá khứ `도왔어요`) · `곱다` (đẹp, mịn) → `고와요`\nCác từ **bình thường** (giữ `ㅂ` ở mọi dạng):\n- `입다` (mặc) → `입어요` · `잡다` (cầm) → `잡아요` · `좁다` (hẹp) → `좁아요` · `넓다` (rộng) → `넓어요`\n- `씹다` (nhai) → `씹어요` · `접다` (gấp) → `접어요` · `뽑다` (rút, nhổ) → `뽑아요`\n**Hoàn cảnh dùng:** Nhóm tính từ phổ biến nhất ở trình độ này: thời tiết (`더워요`, `추워요`), vị (`매워요`), độ khó (`쉬워요`, `어려워요`), cảm xúc (`고마워요`, `반가워요`). `돕다` là ngoại lệ đặc biệt (`도와요`).\n**Vì sao cần phân biệt với `입다`, `좁다`…:** `입다` (mặc), `잡다` (cầm), `좁다` (hẹp), `넓다` (rộng) có gốc `ㅂ` nhưng bình thường, nên không thể suy ra từ chữ viết. Quy tắc thực dụng: tính từ có gốc `ㅂ` đa số bất quy tắc, trừ `좁다`, `넓다`; động từ `ㅂ` đa số bình thường, trừ `돕다`, `눕다`, `줍다`.",
+      "contrasts": [
+        {
+          "pattern": "입다 · 잡다 · 좁다 · 넓다",
+          "diff_vi": "Gốc `ㅂ` bình thường: `입어요`, `잡아요`, `좁아요`, `넓어요`."
+        },
+        {
+          "pattern": "ㅡ 탈락",
+          "diff_vi": "Khác nhóm: `아프다` → `아파요`."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Không đổi `ㅂ`: ✗ `덥어요`, `춥어요`, `맵아요` → `더워요`, `추워요`, `매워요`.\n(2) Giữ `ㅂ` trước `-(으)ㄴ`: ✗ `덥은 날씨`, `맵은 음식` → `더운 날씨`, `매운 음식`.\n(3) Đổi cho từ bình thường: ✗ `이워요` (mặc), `조워요` (hẹp) → `입어요`, `좁아요`.\n(4) `돕다` đổi thành `우`: ✗ `도워요` → `도와요`.\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc đối chiếu với Nền tảng sơ cấp · 한글 맞춤법 제18항 (ㅂ 불규칙) · New Yonsei Korean 1-1 (돕다, 덥다…).",
+      "topik_tip_vi": "Phần Viết điền chỗ trống rất hay ra `ㅂ` bất quy tắc với `-(으)ㄴ/-아/어요/-(으)니까`. Đọc: `-ㅂ/습니다` KHÔNG làm đổi `ㅂ` (`덥습니다`), vì đuôi bắt đầu bằng phụ âm.",
+      "example_ko": "오늘은 정말 더워요.\n겨울에는 추워요.\n이 음식은 매워요?\n한국어 문법이 어려워요.\n만나서 반가워요.\n친구가 저를 도와요.\n매운 음식을 좋아해요.",
+      "example_vi": "Hôm nay thật nóng.\nMùa đông thì lạnh.\nMón này có cay không?\nNgữ pháp tiếng Hàn khó.\nRất vui được gặp bạn.\nBạn giúp tôi.\nTôi thích món cay.",
+      "source": "Nền tảng sơ cấp · 한글 맞춤법 제18항 (ㅂ 불규칙) · New Yonsei Korean 1-1 (돕다, 덥다…)",
+      "importance": "must"
+    }
+  ],
+  "editor_notes": [],
+  "exercise_ids": [
+    "FLN26",
+    "FLN30",
+    "FLN38",
+    "FLN43",
+    "FLN44",
+    "FLN45",
+    "FR78",
+    "FR79",
+    "FR80",
+    "FR81",
+    "FR82",
+    "FR83",
+    "FR84",
+    "FR85",
+    "FR86",
+    "FR87",
+    "FR88",
+    "FR89",
+    "FR90",
+    "FR91",
+    "FBO13",
+    "FBF10",
+    "FBF13",
+    "FBF14",
+    "FS04",
+    "FS05",
+    "FS06"
+  ],
+  "sort_order": 11,
+  "split_from": "sinh-hoat-00-nen-tang-3-chia-dong-tu",
+  "sessions": [
+    {
+      "title_vi": "ㅎ bất quy tắc (màu sắc, 그렇다)",
+      "can_do_vi": "Chia đúng nhóm gốc kết thúc ㅎ: «그래요», «어때요?», «파래요», «빨개요».",
+      "use_vi": "Nói «đúng vậy», «thế nào?» và mô tả màu sắc.",
+      "topik_vi": "Giống dạng điền dạng chia đúng ở phần Đọc TOPIK I.",
+      "vocab": [
+        "그렇다",
+        "어떻다",
+        "파랗다",
+        "빨갛다"
+      ],
+      "grammar": [
+        "ㅎ bất quy tắc (그렇다 · 어떻다 · 파랗다 · 하얗다)"
+      ],
+      "check": [
+        "FLN44",
+        "FR78",
+        "FR79",
+        "FR80"
+      ],
+      "situation": {
+        "scene_vi": "Hai người nói về màu sắc.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "하늘이 어때요?",
+            "vi": "Bầu trời thế nào?"
+          },
+          {
+            "who": "B",
+            "ko": "파래요.",
+            "vi": "Xanh."
+          },
+          {
+            "who": "A",
+            "ko": "그 가방은요?",
+            "vi": "Còn cái túi đó?"
+          },
+          {
+            "who": "B",
+            "ko": "하얘요.",
+            "vi": "Màu trắng."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "이것이 어때요?",
+          "prompt_vi": "Cái này thế nào? (màu đỏ)",
+          "options": [
+            {
+              "ko": "빨개요.",
+              "vi": "Màu đỏ.",
+              "ok": true,
+              "why_vi": "ㅎ bất quy tắc: 빨갛다 → ㅎ rụng, ㅏ đổi thành ㅐ: 빨개요."
+            },
+            {
+              "ko": "빨가요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Thiếu ㅐ: 빨갛다 + 아요 → 빨개요."
+            },
+            {
+              "ko": "빨갛어요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Chưa đổi ㅎ."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «Đúng vậy». Cách nào đúng?",
+          "a": {
+            "ko": "그래요.",
+            "vi": "Đúng vậy."
+          },
+          "b": {
+            "ko": "그렇어요.",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "그렇다 là ㅎ bất quy tắc: 그렇 + 어요 → 그래요."
+        }
+      }
+    },
+    {
+      "title_vi": "ㅅ bất quy tắc (낫다 → 나아요)",
+      "can_do_vi": "Chia đúng 낫다 («나아요» — khỏi / tốt hơn), 짓다 («지어요» — xây, nấu); biết 웃다, 씻다 chia bình thường.",
+      "use_vi": "Nói «bệnh đã khỏi», «làm cơm», và hiểu khi người Hàn hỏi thăm.",
+      "topik_vi": "Giống dạng điền dạng chia đúng ở phần Đọc TOPIK I.",
+      "vocab": [
+        "낫다",
+        "짓다",
+        "웃다",
+        "씻다"
+      ],
+      "grammar": [
+        "ㅅ bất quy tắc (낫다 · 짓다)"
+      ],
+      "check": [
+        "FLN45",
+        "FR82",
+        "FBF14"
+      ],
+      "situation": {
+        "scene_vi": "Hai người hỏi nhau về những việc thường ngày.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "손을 씻어요?",
+            "vi": "Bạn có rửa tay không?"
+          },
+          {
+            "who": "B",
+            "ko": "네, 씻어요.",
+            "vi": "Vâng, tôi rửa."
+          },
+          {
+            "who": "A",
+            "ko": "웃어요?",
+            "vi": "Bạn cười chứ?"
+          },
+          {
+            "who": "B",
+            "ko": "네, 많이 웃어요.",
+            "vi": "Vâng, tôi cười nhiều."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "집을 지어요?",
+          "prompt_vi": "Bạn xây nhà à?",
+          "options": [
+            {
+              "ko": "네, 집을 지어요.",
+              "vi": "Vâng, tôi xây nhà.",
+              "ok": true,
+              "why_vi": "짓다 là ㅅ bất quy tắc: ㅅ rụng trước nguyên âm: 지어요."
+            },
+            {
+              "ko": "네, 집을 짓어요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Chưa rụng ㅅ."
+            },
+            {
+              "ko": "네, 집을 지서요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "ㅅ không chuyển thành 서."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «Tôi rửa tay». Cách nào đúng?",
+          "a": {
+            "ko": "손을 씻어요.",
+            "vi": "Tôi rửa tay."
+          },
+          "b": {
+            "ko": "손을 씨어요.",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "씻다 và 웃다 là ngoại lệ: ㅅ KHÔNG rụng. Chỉ 낫다, 짓다 ... mới rụng ㅅ."
+        }
+      }
+    },
+    {
+      "title_vi": "ㅂ bất quy tắc (덥다 → 더워요)",
+      "can_do_vi": "Chia đúng nhóm tính từ ㅂ hay gặp: «더워요», «추워요», «매워요», «어려워요», «고마워요», «도와요»; biết 입다, 많다 chia bình thường.",
+      "use_vi": "Nói về thời tiết, độ cay, độ khó và nói lời cảm ơn «고마워요».",
+      "topik_vi": "Giống dạng điền dạng chia đúng ở phần Đọc TOPIK I: nhóm ㅂ ra nhiều nhất trong các bất quy tắc.",
+      "vocab": [
+        "덥다",
+        "춥다",
+        "맵다",
+        "어렵다",
+        "쉽다",
+        "반갑다",
+        "고맙다",
+        "돕다",
+        "입다",
+        "많다"
+      ],
+      "grammar": [
+        "ㅂ bất quy tắc (덥다 · 춥다 · 맵다 · 어렵다 · 돕다)"
+      ],
+      "check": [
+        "FLN38",
+        "FR81",
+        "FBO13",
+        "FLN43",
+        "FR86",
+        "FR87"
+      ],
+      "situation": {
+        "scene_vi": "Hai người nói chuyện trong thời tiết nóng.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "오늘 더워요?",
+            "vi": "Hôm nay nóng không?"
+          },
+          {
+            "who": "B",
+            "ko": "네, 많이 더워요.",
+            "vi": "Vâng, rất nóng."
+          },
+          {
+            "who": "A",
+            "ko": "그럼 물을 마셔요.",
+            "vi": "Vậy uống nước đi."
+          },
+          {
+            "who": "B",
+            "ko": "고마워요.",
+            "vi": "Cảm ơn bạn."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "한국어가 어려워요?",
+          "prompt_vi": "Tiếng Hàn khó không?",
+          "options": [
+            {
+              "ko": "네, 어려워요.",
+              "vi": "Vâng, khó.",
+              "ok": true,
+              "why_vi": "ㅂ bất quy tắc: 어렵다 → ㅂ đổi thành 우: 어려워요."
+            },
+            {
+              "ko": "네, 어렵어요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Chưa đổi ㅂ → 우."
+            },
+            {
+              "ko": "네, 어렵아요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Cả đuôi lẫn ㅂ đều chưa đổi."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «Tôi mặc áo». Cách nào đúng?",
+          "a": {
+            "ko": "옷을 입어요.",
+            "vi": "Tôi mặc áo."
+          },
+          "b": {
+            "ko": "옷을 이워요.",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "입다 là ngoại lệ: dù gốc có ㅂ nhưng vẫn chia đều. Đừng nhầm với 덥다, 춥다."
+        }
+      }
+    },
+    {
+      "title_vi": "Từ nối câu (nhưng, vì vậy, nếu…)",
+      "can_do_vi": "Nối hai câu và nhận ra quan hệ giữa chúng: 그렇지만 (nhưng), 그러니까 (vì vậy), 그럼 (vậy thì), 또는 (hoặc), 만약 (nếu), 역시 (quả nhiên), 왜냐하면 (bởi vì).",
+      "use_vi": "Nói câu dài hơn một mệnh đề; hiểu đoạn văn khi gặp từ nối.",
+      "vocab": [
+        "그러니까",
+        "그러므로",
+        "그럼",
+        "그렇지만",
+        "또는",
+        "만약",
+        "역시",
+        "왜냐하면"
+      ],
+      "grammar": [],
+      "check": [
+        "FS04",
+        "FS05",
+        "FS06"
+      ],
+      "situation": {
+        "scene_vi": "Hai người nối câu bằng các từ nối.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "한국 음식을 좋아해요?",
+            "vi": "Bạn thích món Hàn không?"
+          },
+          {
+            "who": "B",
+            "ko": "네, 좋아해요. 그렇지만 매워요.",
+            "vi": "Vâng, tôi thích. Nhưng cay."
+          },
+          {
+            "who": "A",
+            "ko": "그러니까 물을 많이 마셔요.",
+            "vi": "Vì vậy hãy uống nhiều nước."
+          },
+          {
+            "who": "B",
+            "ko": "그럼 같이 마셔요.",
+            "vi": "Vậy cùng uống nhé."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "한국어는 어려워요. ___ 재미있어요.",
+          "prompt_vi": "Tiếng Hàn khó. ___ thú vị. Điền từ nối nào?",
+          "options": [
+            {
+              "ko": "그렇지만",
+              "vi": "Nhưng",
+              "ok": true,
+              "why_vi": "그렇지만 nối hai ý đối lập: khó nhưng thú vị."
+            },
+            {
+              "ko": "그러므로",
+              "vi": "Cho nên",
+              "ok": false,
+              "why_vi": "그러므로 chỉ kết quả, «khó nên thú vị» là phi lý."
+            },
+            {
+              "ko": "왜냐하면",
+              "vi": "Bởi vì",
+              "ok": false,
+              "why_vi": "왜냐하면 mở đầu một lý do, không nối hai ý đối lập."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «Nếu trời mưa, tôi ở nhà». Mở đầu bằng từ nào?",
+          "a": {
+            "ko": "만약 비가 오면",
+            "vi": "Nếu trời mưa"
+          },
+          "b": {
+            "ko": "그렇지만 비가 오면",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "만약 mở đầu mệnh đề điều kiện. 그렇지만 là «nhưng», không dùng để mở điều kiện."
+        }
+      }
+    }
+  ]
+}

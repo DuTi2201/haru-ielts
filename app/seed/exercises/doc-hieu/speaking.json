@@ -1,0 +1,200 @@
+{
+  "skill": "speaking",
+  "guide": [
+    {
+      "title_vi": "Nguyên tắc chung",
+      "bullets_vi": [
+        "**Một thể lời nói duy nhất**: Dùng **해요체** từ câu 1 đến câu 6. Không 반말, kể cả khi đoạn hội thoại nghe được rất thân mật (câu 4). Không trộn 해요체 với 합쇼체 trong cùng một câu trả lời.",
+        "**Vào đề ngay**: Câu đầu tiên phải trả lời thẳng câu hỏi (câu 1, 6: nêu lập trường trong 2 câu đầu). Không mở đầu bằng bối cảnh dài.",
+        "**Không đọc thuộc, không đọc nguyên văn**: Ở câu 5, giải thích và so sánh số liệu, đừng đọc lại từng ô của bảng.",
+        "**Không bỏ trống, không đệm dài**: Tránh \"어…\", \"음…\" kéo dài. Thay bằng cụm nối ngắn: *먼저 말씀드리면*, *예를 들어*, *그래서*. Quên từ thì diễn đạt vòng bằng tiếng Hàn, không chen tiếng Việt hay tiếng Anh.",
+        "**Chia thời gian**: Chia sẵn theo mốc giây (xem từng câu). Để dành 5–10 giây cuối cho câu kết. Câu 3 dễ bị hết giờ trước khi kể tới tranh cuối.",
+        "**Luyện có bấm giờ**: Dùng đồng hồ đúng thời gian chuẩn bị/trả lời, ghi âm, nghe lại, rồi tự chấm theo thang ở cuối phần Nói."
+      ]
+    },
+    {
+      "title_vi": "Dung lượng tham khảo",
+      "body_vi": "Ước tính của mình cho người học nói khoảng 3–4 âm tiết/giây, không phải chuẩn chính thức.",
+      "table": {
+        "header": [
+          "Câu",
+          "Thời gian trả lời",
+          "Số âm tiết (≈)"
+        ],
+        "rows": [
+          [
+            "1",
+            "30 giây",
+            "90–120"
+          ],
+          [
+            "2",
+            "40 giây",
+            "120–160"
+          ],
+          [
+            "3, 4",
+            "60 giây",
+            "180–240"
+          ],
+          [
+            "5, 6",
+            "80 giây",
+            "240–320"
+          ]
+        ]
+      }
+    },
+    {
+      "title_vi": "Thang tự chấm phần Nói (quy ước luyện tập)",
+      "body_vi": "Điểm thô tối đa từng câu (9 · 9 · 12 · 12 · 15 · 15) và ba tiêu chí chấm (과제 수행·내용 / 언어 구사력 / 발음·전달력) lấy từ nguồn tham khảo nêu ở phần cấu trúc đề. **Cách chia điểm dưới đây là quy ước luyện tập (ba tiêu chí trọng số bằng nhau)**, không phải bảng chấm chính thức.\n\n**Cách chấm:** mỗi tiêu chí cho **0–4**, rồi tính: `điểm câu = điểm tối đa của câu × (A + B + C) / 12`",
+      "bullets_vi": [
+        "Điểm 1 và 3 dành cho mức giữa các mốc."
+      ],
+      "table": {
+        "header": [
+          "Tiêu chí",
+          "4",
+          "2",
+          "0"
+        ],
+        "rows": [
+          [
+            "**A. 과제 수행·내용**",
+            "Trả lời đúng và đủ mọi vế đề hỏi, có ví dụ/số liệu cụ thể",
+            "Thiếu một vế hoặc ý còn sơ sài",
+            "Lạc đề hoặc không trả lời"
+          ],
+          [
+            "**B. 언어 구사력**",
+            "Giữ nhất quán 해요체; từ vựng, ngữ pháp chính xác, có đa dạng",
+            "Có vài lỗi ngữ pháp hoặc lẫn thể; câu đơn giản lặp lại",
+            "Nhiều lỗi làm khó hiểu, 반말, chuyển ngữ"
+          ],
+          [
+            "**C. 발음·전달력**",
+            "Phát âm rõ, tốc độ ổn định, ngữ điệu tự nhiên",
+            "Có chỗ ngập ngừng/phát âm sai nhưng vẫn hiểu",
+            "Khó nghe, ngắt quãng nhiều"
+          ]
+        ]
+      }
+    },
+    {
+      "title_vi": "Checklist sau khi nghe lại bản ghi âm",
+      "bullets_vi": [
+        "Có trả lời **mọi vế** của đề không?",
+        "Có **vào đề ngay** và **kịp tới câu kết** trước khi hết giờ không?",
+        "Có lẫn **반말** hoặc đổi thể ở chỗ nào không?",
+        "Có từ nối (먼저, 그래서, 하지만, 결국, 첫째/둘째) không?",
+        "Có bỏ đoạn im lặng dài hoặc \"어… 음…\" kéo dài không?"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "SP72",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Đọc chủ đề, thái độ, mục đích (S6): Chỉ đọc tiêu đề bài báo",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "요즘 인터넷 기사의 제목만 읽고 내용을 판단하는 사람이 많습니다. 이러한 읽기 습관에 문제가 있다고 생각합니까, 아니면 괜찮다고 생각합니까? 입장을 정하고 이유를 들어 말하십시오.",
+      "prompt_vi": "Ngày nay nhiều người chỉ đọc tiêu đề bài báo trên mạng rồi phán đoán nội dung. Bạn nghĩ thói quen đọc này có vấn đề hay không sao? Hãy chọn lập trường và nêu lý do.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "**Chọn một phe ngay.** Ghi 2 lý do + 1 lần bạn hiểu sai vì chỉ đọc tiêu đề + 1 phản biện",
+          "phrases_ko": "입장 / 치우친 제목 / 오해 / 경험 / 반론(시간)"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** trong 1–2 câu đầu",
+          "phrases_ko": "저는 … 습관에 문제가 있다고 생각해요."
+        },
+        {
+          "when_vi": "10–35 giây",
+          "do_vi": "Lý do 1: tiêu đề nghiêng một phía; thái độ thật của người viết nằm ở thân bài",
+          "phrases_ko": "첫째, … 치우친 표현 … 우려하는 글 같아도 … 강조하는 글일 때가 있어요."
+        },
+        {
+          "when_vi": "35–55 giây",
+          "do_vi": "Lý do 2 + ví dụ của bạn",
+          "phrases_ko": "둘째, … 저도 … -았/었다가 … 적이 있어요."
+        },
+        {
+          "when_vi": "55–72 giây",
+          "do_vi": "**Nhượng bộ + phản bác**",
+          "phrases_ko": "물론 … 하지만 … -(으)ㄹ수록 …"
+        },
+        {
+          "when_vi": "72–80 giây",
+          "do_vi": "Kết luận: ai cần làm gì",
+          "phrases_ko": "그래서 저는 … -도록 권해야 한다고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Bài nói dùng đúng từ của bài đọc: `필자`, `독자`, `우려하다`, `강조하다`, `목적`. Nói được những từ này thì đọc câu thái độ cũng nhanh hơn.",
+        "`-도록 권하다` nêu việc **người khác** cần làm; đặt ở câu kết luận cho rõ ai làm gì.",
+        "Phe «không sao» cũng được (tiết kiệm thời gian, đọc kỹ khi cần); chọn rõ ngay câu đầu."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: -도록 권하다 · -기 위해 · -(으)ㄹ 뿐이다 · -았/었다가 · -(으)ㄹ수록 · -아/어 봐야 하다.",
+        "Dùng thêm được: -도록 요구하다 · -도록 촉구하다 · 지적하다 · 회의적이다."
+      ],
+      "model_answer_ko": "저는 기사의 제목만 읽고 내용을 판단하는 습관에 문제가 있다고 생각해요. 제목은 글의 일부일 뿐이고 필자가 정말 하고 싶은 말은 본문에 있기 때문이에요. 첫째, 제목은 독자의 눈길을 끌기 위해 한쪽으로 치우친 표현을 쓰는 경우가 많아요. 제목만 보면 문제를 우려하는 글 같아도 끝까지 읽으면 해결 방법을 강조하는 글일 때가 있어요. 둘째, 제목만 보고 댓글을 달면 오해가 퍼지기 쉬워요. 저도 제목만 보고 친구에게 기사를 보냈다가 본문 내용이 전혀 달라서 창피했던 적이 있어요. 물론 바쁜 사람은 제목으로 빨리 정보를 얻고 싶어 해요. 하지만 중요한 문제일수록 끝까지 읽고 필자의 목적을 생각해 봐야 해요. 그래서 저는 학교에서도 학생들이 기사를 끝까지 읽고 판단하도록 권해야 한다고 생각해요.",
+      "syllables_vi": "≈ 290 âm tiết",
+      "common_errors_vi": [
+        "✗ `학생들을 끝까지 읽도록 권해요` → ✓ `학생들에게 … 읽도록 권해요` hoặc `학생들이 … 읽도록`.",
+        "Nhầm `우려하다` (lo ngại) với `강조하다` (nhấn mạnh): hai từ chỉ hai thái độ khác nhau của người viết.",
+        "Lấy ý của phần nhượng bộ (`물론 …`) làm lập trường chính, nói xong lại tự mâu thuẫn ở kết luận.",
+        "Kể ví dụ mà không nói nó chứng minh điều gì."
+      ],
+      "pronunciation_vi": [
+        "읽고 [일꼬]",
+        "끝까지 [끋까지]",
+        "눈길 [눈낄]",
+        "목적 [목쩍]",
+        "댓글 [댇끌]",
+        "읽으면 [일그면]"
+      ],
+      "uses": [
+        {
+          "form": "판단하도록 권해야",
+          "card": "V + -도록 요구하다 · V + -도록 권하다 · V + -도록 촉구하다"
+        },
+        {
+          "form": "필자",
+          "card": "필자"
+        },
+        {
+          "form": "독자",
+          "card": "독자"
+        },
+        {
+          "form": "치우친",
+          "card": "치우치다"
+        },
+        {
+          "form": "우려하는",
+          "card": "우려하다"
+        },
+        {
+          "form": "강조하는",
+          "card": "강조하다"
+        },
+        {
+          "form": "목적",
+          "card": "목적"
+        },
+        {
+          "form": "창피했던 적이 있어요",
+          "card": "V + -(으)ㄴ 적이 있다/없다"
+        }
+      ]
+    }
+  ]
+}

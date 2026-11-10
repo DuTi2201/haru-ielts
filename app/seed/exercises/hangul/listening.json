@@ -1,0 +1,393 @@
+{
+  "skill": "listening",
+  "guide": [],
+  "items": [
+    {
+      "id": "HGL01",
+      "skill": "listening",
+      "type": "listen_match",
+      "title_vi": "Nghe · Chọn cách viết đúng",
+      "instruction_vi": "Nghe một từ, chọn cách viết đúng",
+      "stimulus": {
+        "kind": "audio",
+        "turns": [
+          {
+            "speaker": "F",
+            "text": "가수",
+            "vi": "ca sĩ"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "HGL01",
+          "options": [
+            {
+              "id": "1",
+              "text": "가수"
+            },
+            {
+              "id": "2",
+              "text": "카수"
+            },
+            {
+              "id": "3",
+              "text": "까수"
+            },
+            {
+              "id": "4",
+              "text": "거수"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`ㄱ` thường, nhẹ hơi: `가`. `카` bật hơi, `까` căng.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "HGL02",
+      "skill": "listening",
+      "type": "listen_match",
+      "title_vi": "Nghe · Chọn cách viết đúng",
+      "instruction_vi": "Nghe một từ, chọn cách viết đúng",
+      "stimulus": {
+        "kind": "audio",
+        "turns": [
+          {
+            "speaker": "F",
+            "text": "의사",
+            "vi": "bác sĩ"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "HGL02",
+          "options": [
+            {
+              "id": "1",
+              "text": "의사"
+            },
+            {
+              "id": "2",
+              "text": "이사"
+            },
+            {
+              "id": "3",
+              "text": "에사"
+            },
+            {
+              "id": "4",
+              "text": "위사"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`의` đứng đầu từ đọc [의].",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "HGL03",
+      "skill": "listening",
+      "type": "listen_match",
+      "title_vi": "Nghe · Chọn cách viết đúng",
+      "instruction_vi": "Nghe một từ, chọn cách viết đúng",
+      "stimulus": {
+        "kind": "audio",
+        "turns": [
+          {
+            "speaker": "F",
+            "text": "씨",
+            "vi": "anh / chị (sau tên)"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "HGL03",
+          "options": [
+            {
+              "id": "1",
+              "text": "씨"
+            },
+            {
+              "id": "2",
+              "text": "시"
+            },
+            {
+              "id": "3",
+              "text": "지"
+            },
+            {
+              "id": "4",
+              "text": "치"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`ㅆ` là âm căng: thắt cổ họng, không bật hơi.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "HGL04",
+      "skill": "listening",
+      "type": "listen_match",
+      "title_vi": "Nghe · Chọn cách viết đúng",
+      "instruction_vi": "Nghe một từ, chọn cách viết đúng",
+      "stimulus": {
+        "kind": "audio",
+        "turns": [
+          {
+            "speaker": "F",
+            "text": "컴퓨터",
+            "vi": "máy tính"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "HGL04",
+          "options": [
+            {
+              "id": "1",
+              "text": "컴퓨터"
+            },
+            {
+              "id": "2",
+              "text": "검퓨터"
+            },
+            {
+              "id": "3",
+              "text": "컴퓨더"
+            },
+            {
+              "id": "4",
+              "text": "컴부터"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Cả ba phụ âm `ㅋ ㅍ ㅌ` đều bật hơi.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "HGL05",
+      "skill": "listening",
+      "type": "listen_match",
+      "title_vi": "Nghe · Chọn cách viết đúng",
+      "instruction_vi": "Nghe một từ, chọn cách viết đúng",
+      "stimulus": {
+        "kind": "audio",
+        "turns": [
+          {
+            "speaker": "F",
+            "text": "베트남",
+            "vi": "Việt Nam"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "HGL05",
+          "options": [
+            {
+              "id": "1",
+              "text": "베트남"
+            },
+            {
+              "id": "2",
+              "text": "페트남"
+            },
+            {
+              "id": "3",
+              "text": "베드남"
+            },
+            {
+              "id": "4",
+              "text": "베트난"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "`ㅂ` nhẹ, `ㅌ` bật hơi, patchim `ㅁ` khép môi.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "HGL06",
+      "skill": "listening",
+      "type": "listen_match",
+      "title_vi": "Nghe · Chọn câu viết đúng",
+      "instruction_vi": "Nghe câu, chọn câu viết đúng chính tả",
+      "stimulus": {
+        "kind": "audio",
+        "turns": [
+          {
+            "speaker": "F",
+            "text": "한국 사람이에요.",
+            "vi": "Là người Hàn Quốc."
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "HGL06",
+          "options": [
+            {
+              "id": "1",
+              "text": "한국 사람이에요."
+            },
+            {
+              "id": "2",
+              "text": "한국 사라미에요."
+            },
+            {
+              "id": "3",
+              "text": "항국 사람이에요."
+            },
+            {
+              "id": "4",
+              "text": "한국 사란이에요."
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Nghe [사라미에요] vì patchim `ㅁ` trượt sang chỗ `ㅇ`; chữ viết vẫn là `사람이에요`.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "HGL07",
+      "skill": "listening",
+      "type": "listen_match",
+      "title_vi": "Nghe · Chọn câu viết đúng",
+      "instruction_vi": "Nghe câu, chọn câu viết đúng chính tả",
+      "stimulus": {
+        "kind": "audio",
+        "turns": [
+          {
+            "speaker": "F",
+            "text": "이것은 책이에요.",
+            "vi": "Cái này là sách."
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "HGL07",
+          "options": [
+            {
+              "id": "1",
+              "text": "이것은 책이에요."
+            },
+            {
+              "id": "2",
+              "text": "이거슨 채기에요."
+            },
+            {
+              "id": "3",
+              "text": "이것은 채기에요."
+            },
+            {
+              "id": "4",
+              "text": "이거슨 책이에요."
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Nối âm: [이거슨 채기에요]. Viết vẫn giữ nguyên `이것은`, `책이에요`.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "HGL08",
+      "skill": "listening",
+      "type": "listen_match",
+      "title_vi": "Nghe · Chọn câu viết đúng",
+      "instruction_vi": "Nghe câu, chọn câu viết đúng chính tả",
+      "stimulus": {
+        "kind": "audio",
+        "turns": [
+          {
+            "speaker": "F",
+            "text": "저는 학생이에요.",
+            "vi": "Tôi là học sinh."
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "HGL08",
+          "options": [
+            {
+              "id": "1",
+              "text": "저는 학생이에요."
+            },
+            {
+              "id": "2",
+              "text": "저는 학쌩이에요."
+            },
+            {
+              "id": "3",
+              "text": "저느 학생이에요."
+            },
+            {
+              "id": "4",
+              "text": "저는 학새이에요."
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Căng hoá: `학생` đọc [학쌩] nhưng viết `학생`.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "HGL09",
+      "skill": "listening",
+      "type": "listen_match",
+      "title_vi": "Nghe · Chọn câu viết đúng",
+      "instruction_vi": "Nghe câu, chọn câu viết đúng chính tả",
+      "stimulus": {
+        "kind": "audio",
+        "turns": [
+          {
+            "speaker": "F",
+            "text": "감사합니다.",
+            "vi": "Cảm ơn."
+          }
+        ]
+      },
+      "questions": [
+        {
+          "id": "HGL09",
+          "options": [
+            {
+              "id": "1",
+              "text": "감사합니다."
+            },
+            {
+              "id": "2",
+              "text": "감사함니다."
+            },
+            {
+              "id": "3",
+              "text": "감사하니다."
+            },
+            {
+              "id": "4",
+              "text": "감사합미다."
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Mũi hoá: `합니다` đọc [함니다] nhưng viết `합니다`.",
+          "tags": []
+        }
+      ]
+    }
+  ]
+}

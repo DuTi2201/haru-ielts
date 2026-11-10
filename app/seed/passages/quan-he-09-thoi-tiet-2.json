@@ -1,0 +1,292 @@
+{
+  "lesson": "quan-he-09-thoi-tiet-2",
+  "items": [
+    {
+      "id": "quan-he-09-d1",
+      "kind": "dialogue",
+      "title_ko": "올여름 더위",
+      "title_vi": "Cái nóng mùa hè năm nay",
+      "scene_vi": "Hai đồng nghiệp là 은지 và 민호 trò chuyện về mùa hè nóng bức vừa qua.",
+      "speakers": {
+        "F": "은지",
+        "M": "민호"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "민호 씨, 올해 여름은 정말 더웠지요?",
+          "vi": "Minho, mùa hè năm nay nóng thật nhỉ?"
+        },
+        {
+          "who": "M",
+          "ko": "네, 작년에 비해 폭염이 훨씬 길었어요.",
+          "vi": "Vâng, so với năm ngoái thì đợt nắng nóng dài hơn hẳn."
+        },
+        {
+          "who": "F",
+          "ko": "기상청 자료에 따르면 올해 여름 평균 기온이 가장 높았어요.",
+          "vi": "Theo số liệu của Cục Khí tượng, nhiệt độ trung bình mùa hè năm nay cao nhất."
+        },
+        {
+          "who": "M",
+          "ko": "열대야도 많았고 냉방비도 많이 나왔어요.",
+          "vi": "Đêm nhiệt đới cũng nhiều và tiền điều hòa cũng tốn nhiều."
+        },
+        {
+          "who": "F",
+          "ko": "지구 온난화가 심해질수록 이런 무더위는 더 자주 올 거예요.",
+          "vi": "Nóng lên toàn cầu càng nghiêm trọng thì những đợt nóng như thế này sẽ càng đến thường xuyên hơn."
+        },
+        {
+          "who": "M",
+          "ko": "화석 연료를 많이 쓸수록 이산화탄소가 많이 나오지요?",
+          "vi": "Dùng nhiều nhiên liệu hóa thạch thì càng thải ra nhiều CO2 đúng không?"
+        },
+        {
+          "who": "F",
+          "ko": "맞아요. 그래서 재생 에너지를 더 써야 해요. 태양광과 풍력 발전소가 많아지고 있어요.",
+          "vi": "Đúng vậy. Vì thế phải dùng nhiều năng lượng tái tạo hơn. Các nhà máy điện mặt trời và điện gió đang tăng lên."
+        },
+        {
+          "who": "M",
+          "ko": "좋은 소식이네요. 우리도 전기를 아끼는 것부터 시작해요.",
+          "vi": "Tin tốt nhỉ. Chúng ta cũng hãy bắt đầu từ việc tiết kiệm điện."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "N + 에 비해(서) · N + 에 비하면",
+          "regex": "작년에 비해"
+        },
+        {
+          "pattern": "N + 에 따르면",
+          "regex": "자료에 따르면"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ수록 · N + 일수록",
+          "regex": "심해질수록|쓸수록"
+        },
+        {
+          "pattern": "ㅂ bất quy tắc (A/V có ㅂ cuối gốc từ)",
+          "regex": "더웠지요"
+        },
+        {
+          "pattern": "A + -아/어지다",
+          "regex": "심해질수록|많아지고"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "폭염",
+          "seen": "폭염이"
+        },
+        {
+          "word": "기상청",
+          "seen": "기상청"
+        },
+        {
+          "word": "평균 기온",
+          "seen": "평균 기온이"
+        },
+        {
+          "word": "열대야",
+          "seen": "열대야도"
+        },
+        {
+          "word": "냉방비",
+          "seen": "냉방비도"
+        },
+        {
+          "word": "지구 온난화",
+          "seen": "지구 온난화가"
+        },
+        {
+          "word": "화석 연료",
+          "seen": "화석 연료를"
+        },
+        {
+          "word": "재생 에너지",
+          "seen": "재생 에너지를"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "자료",
+          "vi": "tài liệu, số liệu"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Theo số liệu của Cục Khí tượng, mùa hè năm nay có đặc điểm gì?",
+          "options": [
+            "Nhiệt độ trung bình cao nhất",
+            "Mưa nhiều nhất",
+            "Ngắn hơn năm ngoái"
+          ],
+          "answer": 0,
+          "explain_vi": "은지 nói “올해 여름 평균 기온이 가장 높았어요”: nhiệt độ trung bình mùa hè năm nay cao nhất."
+        },
+        {
+          "q_vi": "Theo 민호, dùng càng nhiều nhiên liệu hóa thạch thì điều gì xảy ra?",
+          "options": [
+            "Ra càng nhiều CO2",
+            "Điện rẻ hơn",
+            "Trời mát hơn"
+          ],
+          "answer": 0,
+          "explain_vi": "“화석 연료를 많이 쓸수록 이산화탄소가 많이 나오지요?”: càng dùng nhiều nhiên liệu hóa thạch thì càng thải nhiều CO2, và 은지 đồng ý."
+        },
+        {
+          "q_vi": "Cuối đoạn hội thoại, 민호 đề nghị bắt đầu từ việc gì?",
+          "options": [
+            "Đi du lịch biển",
+            "Tiết kiệm điện",
+            "Mua điều hòa mới"
+          ],
+          "answer": 1,
+          "explain_vi": "“전기를 아끼는 것부터 시작해요”: hãy bắt đầu từ việc tiết kiệm điện."
+        }
+      ]
+    },
+    {
+      "id": "quan-he-09-r1",
+      "kind": "reading",
+      "title_ko": "기후 변화와 우리",
+      "title_vi": "Biến đổi khí hậu và chúng ta",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "지구 온난화 때문에 이상 기후가 자주 일어납니다.",
+          "vi": "Do trái đất nóng lên, khí hậu bất thường xảy ra thường xuyên."
+        },
+        {
+          "who": "N",
+          "ko": "기상청 자료에 따르면 우리나라의 여름은 과거에 비해 훨씬 길어졌습니다.",
+          "vi": "Theo số liệu của Cục Khí tượng, mùa hè ở nước ta đã dài hơn hẳn so với trước đây."
+        },
+        {
+          "who": "N",
+          "ko": "기온이 높아질수록 농작물의 값이 비싸집니다.",
+          "vi": "Nhiệt độ càng tăng thì giá nông sản càng đắt."
+        },
+        {
+          "who": "N",
+          "ko": "숲은 이산화탄소를 흡수하기 때문에 우리에게 꼭 필요합니다.",
+          "vi": "Rừng hấp thụ khí CO2 nên rất cần thiết đối với chúng ta."
+        },
+        {
+          "who": "N",
+          "ko": "한편 석탄과 석유 같은 화석 연료를 쓸수록 온실가스가 많아집니다.",
+          "vi": "Mặt khác, càng dùng nhiều nhiên liệu hóa thạch như than đá và dầu mỏ thì khí nhà kính càng nhiều."
+        },
+        {
+          "who": "N",
+          "ko": "그래서 많은 나라가 태양광과 풍력 같은 재생 에너지를 늘리고 있습니다.",
+          "vi": "Vì thế nhiều nước đang tăng cường năng lượng tái tạo như điện mặt trời và điện gió."
+        },
+        {
+          "who": "N",
+          "ko": "우리도 전기를 아끼는 작은 습관부터 시작해야 합니다.",
+          "vi": "Chúng ta cũng cần bắt đầu từ thói quen nhỏ là tiết kiệm điện."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "N + 에 따르면",
+          "regex": "자료에 따르면"
+        },
+        {
+          "pattern": "N + 에 비해(서) · N + 에 비하면",
+          "regex": "과거에 비해"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ수록 · N + 일수록",
+          "regex": "높아질수록|쓸수록"
+        },
+        {
+          "pattern": "A + -아/어지다",
+          "regex": "길어졌습니다|비싸집니다"
+        },
+        {
+          "pattern": "A/V + -기 때문에 · N + (이)기 때문에",
+          "regex": "흡수하기 때문에"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "지구 온난화",
+          "seen": "지구 온난화"
+        },
+        {
+          "word": "이상 기후",
+          "seen": "이상 기후가"
+        },
+        {
+          "word": "농작물",
+          "seen": "농작물의"
+        },
+        {
+          "word": "숲",
+          "seen": "숲은"
+        },
+        {
+          "word": "흡수하다",
+          "seen": "흡수하기"
+        },
+        {
+          "word": "화석 연료",
+          "seen": "화석 연료를"
+        },
+        {
+          "word": "온실가스",
+          "seen": "온실가스가"
+        },
+        {
+          "word": "재생 에너지",
+          "seen": "재생 에너지를"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "과거",
+          "vi": "quá khứ, trước đây"
+        },
+        {
+          "ko": "값",
+          "vi": "giá"
+        },
+        {
+          "ko": "늘리다",
+          "vi": "làm tăng lên",
+          "seen": "늘리고"
+        },
+        {
+          "ko": "습관",
+          "vi": "thói quen"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Khi nhiệt độ tăng càng cao thì điều gì xảy ra theo bài đọc?",
+          "options": [
+            "Giá nông sản đắt hơn",
+            "Rừng nhiều hơn",
+            "Mưa nhiều hơn"
+          ],
+          "answer": 0,
+          "explain_vi": "“기온이 높아질수록 농작물의 값이 비싸집니다”: nhiệt độ càng tăng thì giá nông sản càng đắt."
+        },
+        {
+          "q_vi": "Vì sao rừng cần thiết với chúng ta?",
+          "options": [
+            "Vì rừng hấp thụ CO2",
+            "Vì rừng làm giảm giá nông sản",
+            "Vì rừng tạo ra than đá"
+          ],
+          "answer": 0,
+          "explain_vi": "“숲은 이산화탄소를 흡수하기 때문에 우리에게 꼭 필요합니다”: rừng hấp thụ CO2 nên rất cần thiết."
+        }
+      ]
+    }
+  ]
+}

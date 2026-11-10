@@ -1,0 +1,1671 @@
+{
+  "slug": "quan-he-10-du-lich",
+  "title": "Du lịch & Lập kế hoạch chuyến đi",
+  "title_ko": "여행 & 계획",
+  "topic": "Quan hệ xã hội, Sự kiện & Không gian sống",
+  "track": "intermediate",
+  "level": 3,
+  "sort_order": 37,
+  "summary": "Từ vựng du lịch về hậu cần và kế hoạch: đặt vé, đặt chỗ, lịch trình, hủy và hoàn tiền, cùng đề tài du lịch quá tải (Viết 54). Ngữ pháp: -(으)ㄹ 계획이다 / 예정이다, -(으)ㄹ 수밖에 없다, -(으)ㄹ 경우(에) và N에 따라(서). Bài có bước Tạo câu: xếp từ, điền khung, nối câu rồi viết một đoạn ngắn về du lịch quá tải.",
+  "vocab": [
+    {
+      "hangul": "여행",
+      "pos": "N",
+      "meaning_vi": "Du lịch",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core",
+      "hanja": "旅行",
+      "sino_vietnamese": "lữ hành",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "여행 계획",
+      "pos": "N",
+      "meaning_vi": "Kế hoạch du lịch",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core"
+    },
+    {
+      "hangul": "여행을 가다",
+      "pos": "V",
+      "meaning_vi": "Đi du lịch",
+      "example_ko": "1박 2일로 부산에 여행을 갔어요.",
+      "example_vi": "Tôi đã đi du lịch Busan 2 ngày 1 đêm.",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "여행지",
+      "pos": "N",
+      "meaning_vi": "Điểm du lịch",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core",
+      "hanja": "旅行地",
+      "sino_vietnamese": "lữ hành địa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "관광지",
+      "pos": "N",
+      "meaning_vi": "Điểm tham quan",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "exam": "kiip-2",
+      "priority": "recognize",
+      "hanja": "觀光地",
+      "sino_vietnamese": "quan quang địa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "관광",
+      "pos": "N",
+      "meaning_vi": "Tham quan",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core",
+      "hanja": "觀光",
+      "sino_vietnamese": "quan quang",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "표",
+      "pos": "N",
+      "meaning_vi": "Vé",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core",
+      "hanja": "票",
+      "sino_vietnamese": "phiếu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "기차표",
+      "pos": "N",
+      "meaning_vi": "Vé tàu",
+      "example_ko": "기차표는 인터넷으로 예매할 거예요.",
+      "example_vi": "Vé tàu thì tôi sẽ đặt qua mạng.",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core",
+      "hanja": "汽車票",
+      "sino_vietnamese": "khí xa phiếu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "비행기 표",
+      "pos": "N",
+      "meaning_vi": "Vé máy bay",
+      "example_ko": "여보세요, 제주행 비행기 표를 예약한 사람인데요.",
+      "example_vi": "Alô, tôi là người đã đặt vé máy bay đi Jeju ạ.",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core"
+    },
+    {
+      "hangul": "예매하다",
+      "pos": "V",
+      "meaning_vi": "Đặt vé",
+      "note_vi": "Dạng kết hợp: 표를 예매하다",
+      "example_ko": "기차표는 인터넷으로 예매할 거예요.",
+      "example_vi": "Vé tàu thì tôi sẽ đặt qua mạng.",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "exam": "kiip-3",
+      "priority": "core",
+      "hanja": "豫買",
+      "sino_vietnamese": "dự mãi",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "예약하다",
+      "pos": "V",
+      "meaning_vi": "Đặt chỗ",
+      "note_vi": "Dạng kết hợp: 숙소를 예약하다",
+      "example_ko": "토요일에 전주로 여행을 가려고 숙소를 예약했어요.",
+      "example_vi": "Thứ Bảy tôi đã đặt chỗ ở để đi du lịch Jeonju.",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core",
+      "hanja": "豫約",
+      "sino_vietnamese": "dự ước",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "숙소",
+      "pos": "N",
+      "meaning_vi": "Chỗ ở",
+      "example_ko": "토요일에 전주로 여행을 가려고 숙소를 예약했어요.",
+      "example_vi": "Thứ Bảy tôi đã đặt chỗ ở để đi du lịch Jeonju.",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core",
+      "hanja": "宿所",
+      "sino_vietnamese": "túc sở",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "호텔",
+      "pos": "N",
+      "meaning_vi": "Khách sạn",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core"
+    },
+    {
+      "hangul": "게스트하우스",
+      "pos": "N",
+      "meaning_vi": "Nhà nghỉ kiểu guesthouse",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "가방을 싸다",
+      "pos": "V",
+      "meaning_vi": "Xếp hành lý",
+      "example_ko": "여행을 가기 전에 가방을 싸 놓았어요.",
+      "example_vi": "Trước khi đi du lịch, tôi đã xếp sẵn hành lý.",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core"
+    },
+    {
+      "hangul": "짐",
+      "pos": "N",
+      "meaning_vi": "Hành lý",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core"
+    },
+    {
+      "hangul": "여권",
+      "pos": "N",
+      "meaning_vi": "Hộ chiếu",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core",
+      "hanja": "旅券",
+      "sino_vietnamese": "lữ khoán",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "비용",
+      "pos": "N",
+      "meaning_vi": "Chi phí",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core",
+      "hanja": "費用",
+      "sino_vietnamese": "phí dụng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "가격",
+      "pos": "N",
+      "meaning_vi": "Giá",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core",
+      "hanja": "價格",
+      "sino_vietnamese": "giá cách",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "비싸다/싸다",
+      "pos": "A",
+      "meaning_vi": "Đắt/rẻ",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "출발하다",
+      "pos": "V",
+      "meaning_vi": "Xuất phát",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core",
+      "hanja": "出發",
+      "sino_vietnamese": "xuất phát",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "도착하다",
+      "pos": "V",
+      "meaning_vi": "Đến nơi",
+      "example_ko": "비행기는 오후 3시에 도착할 예정입니다.",
+      "example_vi": "Máy bay dự kiến sẽ đến lúc 3 giờ chiều.",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core",
+      "hanja": "到着",
+      "sino_vietnamese": "đáo trước",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "공항",
+      "pos": "N",
+      "meaning_vi": "Sân bay",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core",
+      "hanja": "空港",
+      "sino_vietnamese": "không cảng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "터미널",
+      "pos": "N",
+      "meaning_vi": "Bến xe",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "기차역",
+      "pos": "N",
+      "meaning_vi": "Ga tàu",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "汽車驛",
+      "sino_vietnamese": "khí xa dịch",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "왕복",
+      "pos": "N",
+      "meaning_vi": "Khứ hồi",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core",
+      "hanja": "往復",
+      "sino_vietnamese": "vãng phục",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "편도",
+      "pos": "N",
+      "meaning_vi": "Một chiều",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core",
+      "hanja": "片道",
+      "sino_vietnamese": "phiến đạo",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "1박 2일",
+      "pos": "X",
+      "meaning_vi": "2 ngày 1 đêm",
+      "note_vi": "Đọc `일 박 이 일` (số Hán Hàn)",
+      "example_ko": "1박 2일로 부산에 여행을 갔어요.",
+      "example_vi": "Tôi đã đi du lịch Busan 2 ngày 1 đêm.",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core"
+    },
+    {
+      "hangul": "2박 3일",
+      "pos": "X",
+      "meaning_vi": "3 ngày 2 đêm",
+      "note_vi": "Ghi chú của cả hàng (ví dụ cho 1박 2일): đọc `일 박 이 일` (số Hán Hàn)",
+      "family": "🟢 Nền · Du lịch & lên kế hoạch",
+      "source": "NOTES §7 🟢 Tầng Nền",
+      "priority": "core"
+    },
+    {
+      "hangul": "예약 확인서",
+      "pos": "N",
+      "meaning_vi": "Giấy xác nhận đặt chỗ",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "일정표",
+      "pos": "N",
+      "meaning_vi": "Lịch trình",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "日程表",
+      "sino_vietnamese": "nhật trình biểu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "여행 코스",
+      "pos": "N",
+      "meaning_vi": "Lộ trình",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "항공권",
+      "pos": "N",
+      "meaning_vi": "Vé máy bay",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "航空券",
+      "sino_vietnamese": "hàng không khoán",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "탑승권",
+      "pos": "N",
+      "meaning_vi": "Thẻ lên máy bay",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "搭乘券",
+      "sino_vietnamese": "đáp thừa khoán",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "출발지",
+      "pos": "N",
+      "meaning_vi": "Nơi đi",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "出發地",
+      "sino_vietnamese": "xuất phát địa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "목적지",
+      "pos": "N",
+      "meaning_vi": "Nơi đến",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "目的地",
+      "sino_vietnamese": "mục đích địa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "직항",
+      "pos": "N",
+      "meaning_vi": "Bay thẳng",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "경유",
+      "pos": "N",
+      "meaning_vi": "Quá cảnh",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "經由",
+      "sino_vietnamese": "kinh do",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "성수기",
+      "pos": "N",
+      "meaning_vi": "Mùa cao điểm",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "盛需期",
+      "sino_vietnamese": "thịnh nhu kỳ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "비수기",
+      "pos": "N",
+      "meaning_vi": "Mùa thấp điểm",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "exam": "kiip-4",
+      "priority": "recognize",
+      "hanja": "非需期",
+      "sino_vietnamese": "phi nhu kỳ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "숙박(하다)",
+      "pos": "N",
+      "meaning_vi": "Lưu trú",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "core",
+      "hanja": "宿泊",
+      "sino_vietnamese": "túc bạc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "숙박비",
+      "pos": "N",
+      "meaning_vi": "Phí lưu trú",
+      "example_ko": "계절에 따라 숙박비가 다르다.",
+      "example_vi": "Phí lưu trú khác nhau tùy theo mùa.",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "宿泊費",
+      "sino_vietnamese": "túc bạc phí",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "체크인",
+      "pos": "N",
+      "meaning_vi": "Nhận phòng",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "체크아웃",
+      "pos": "N",
+      "meaning_vi": "Trả phòng",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "포함되다",
+      "pos": "V",
+      "meaning_vi": "Được bao gồm",
+      "example_ko": "식사 포함",
+      "example_vi": "Đã bao gồm bữa ăn",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "exam": "kiip-3",
+      "priority": "recognize",
+      "hanja": "包含",
+      "sino_vietnamese": "bao hàm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "별도",
+      "pos": "N",
+      "meaning_vi": "Riêng",
+      "example_ko": "조식 별도",
+      "example_vi": "Bữa sáng tính riêng",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "exam": "kiip-2",
+      "priority": "recognize",
+      "hanja": "別途",
+      "sino_vietnamese": "biệt đồ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "추가 요금",
+      "pos": "N",
+      "meaning_vi": "Phí phát sinh",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "결제(하다)",
+      "pos": "N",
+      "meaning_vi": "Thanh toán",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "決濟",
+      "sino_vietnamese": "quyết tế",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "영수증",
+      "pos": "N",
+      "meaning_vi": "Biên lai",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "core",
+      "hanja": "領收證",
+      "sino_vietnamese": "lĩnh thu chứng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "취소(하다)",
+      "pos": "N",
+      "meaning_vi": "Hủy",
+      "example_ko": "출발 3일 전에 취소할 경우 수수료가 부과됩니다.",
+      "example_vi": "Trong trường hợp hủy 3 ngày trước ngày khởi hành thì sẽ bị tính phí.",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "core",
+      "hanja": "取消",
+      "sino_vietnamese": "thủ tiêu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "취소 수수료",
+      "pos": "N",
+      "meaning_vi": "Phí hủy",
+      "example_ko": "출발 3일 전부터는 요금의 50%가 취소 수수료로 부과됩니다.",
+      "example_vi": "Từ 3 ngày trước ngày khởi hành, 50% giá sẽ bị tính là phí hủy.",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "위약금",
+      "pos": "N",
+      "meaning_vi": "Tiền phạt vi phạm hợp đồng",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "違約金",
+      "sino_vietnamese": "vi ước kim",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "환불(하다)",
+      "pos": "N",
+      "meaning_vi": "Hoàn tiền",
+      "example_ko": "규정에 따라 환불해 드립니다.",
+      "example_vi": "Chúng tôi hoàn tiền theo quy định.",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "core",
+      "hanja": "還拂",
+      "sino_vietnamese": "hoàn phất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "환불 규정",
+      "pos": "N",
+      "meaning_vi": "Quy định hoàn tiền",
+      "example_ko": "출발 7일 전까지 취소할 경우 전액 환불됩니다.",
+      "example_vi": "Nếu hủy trước ngày khởi hành 7 ngày thì được hoàn toàn bộ.",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "환불을 요청하다",
+      "pos": "V",
+      "meaning_vi": "Yêu cầu hoàn tiền",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "일정을 변경하다",
+      "pos": "V",
+      "meaning_vi": "Đổi lịch trình",
+      "example_ko": "일정을 변경할 수 있을까요?",
+      "example_vi": "Tôi có thể đổi lịch trình được không ạ?",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "지연",
+      "pos": "N",
+      "meaning_vi": "Chậm chuyến",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "遲延",
+      "sino_vietnamese": "trì diên",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "결항",
+      "pos": "N",
+      "meaning_vi": "Hủy chuyến",
+      "note_vi": "Dạng kết hợp: 비행기가 결항되다",
+      "example_ko": "태풍 때문에 비행기가 결항됐다고 문자가 왔어요.",
+      "example_vi": "Có tin nhắn báo chuyến bay bị hủy vì bão.",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "缺航",
+      "sino_vietnamese": "khuyết hàng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "기상 악화",
+      "pos": "N",
+      "meaning_vi": "Thời tiết xấu đi",
+      "note_vi": "Liên hệ bài 08",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "문의(하다)",
+      "pos": "N",
+      "meaning_vi": "Hỏi thông tin",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "exam": "kiip-2",
+      "priority": "recognize",
+      "hanja": "問議",
+      "sino_vietnamese": "vấn nghị",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "안내",
+      "pos": "N",
+      "meaning_vi": "Hướng dẫn",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "core",
+      "hanja": "案內",
+      "sino_vietnamese": "án nội",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "패키지여행",
+      "pos": "N",
+      "meaning_vi": "Tour trọn gói",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize",
+      "hanja": "旅行",
+      "sino_vietnamese": "lữ hành",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "자유 여행",
+      "pos": "N",
+      "meaning_vi": "Du lịch tự túc",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "여행자 보험",
+      "pos": "N",
+      "meaning_vi": "Bảo hiểm du lịch",
+      "family": "🟡 Dạng thi · Đặt chỗ, hủy, hoàn tiền",
+      "source": "NOTES §7 🟡 Tầng Dạng thi",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "오버투어리즘 (과잉 관광)",
+      "pos": "N",
+      "meaning_vi": "Du lịch quá tải",
+      "family": "🔴 Nâng cao · Viết 54: du lịch quá tải và du lịch có trách nhiệm",
+      "source": "NOTES §7 🔴 Tầng Nâng cao",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "수용 한계",
+      "pos": "N",
+      "meaning_vi": "Giới hạn sức chứa",
+      "family": "🔴 Nâng cao · Viết 54: du lịch quá tải và du lịch có trách nhiệm",
+      "source": "NOTES §7 🔴 Tầng Nâng cao",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "지역 주민",
+      "pos": "N",
+      "meaning_vi": "Cư dân địa phương",
+      "family": "🔴 Nâng cao · Viết 54: du lịch quá tải và du lịch có trách nhiệm",
+      "source": "NOTES §7 🔴 Tầng Nâng cao",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "삶의 질",
+      "pos": "N",
+      "meaning_vi": "Chất lượng cuộc sống",
+      "family": "🔴 Nâng cao · Viết 54: du lịch quá tải và du lịch có trách nhiệm",
+      "source": "NOTES §7 🔴 Tầng Nâng cao",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "임대료 상승",
+      "pos": "N",
+      "meaning_vi": "Tăng giá thuê nhà",
+      "family": "🔴 Nâng cao · Viết 54: du lịch quá tải và du lịch có trách nhiệm",
+      "source": "NOTES §7 🔴 Tầng Nâng cao",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "지역 경제",
+      "pos": "N",
+      "meaning_vi": "Kinh tế địa phương",
+      "family": "🔴 Nâng cao · Viết 54: du lịch quá tải và du lịch có trách nhiệm",
+      "source": "NOTES §7 🔴 Tầng Nâng cao",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "상생",
+      "pos": "N",
+      "meaning_vi": "Cùng có lợi",
+      "family": "🔴 Nâng cao · Viết 54: du lịch quá tải và du lịch có trách nhiệm",
+      "source": "NOTES §7 🔴 Tầng Nâng cao",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "공정 여행",
+      "pos": "N",
+      "meaning_vi": "Du lịch có trách nhiệm",
+      "family": "🔴 Nâng cao · Viết 54: du lịch quá tải và du lịch có trách nhiệm",
+      "source": "NOTES §7 🔴 Tầng Nâng cao",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "지속 가능한 관광",
+      "pos": "N",
+      "meaning_vi": "Du lịch bền vững",
+      "family": "🔴 Nâng cao · Viết 54: du lịch quá tải và du lịch có trách nhiệm",
+      "source": "NOTES §7 🔴 Tầng Nâng cao",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "몰리다",
+      "pos": "V",
+      "meaning_vi": "Đổ dồn, tập trung dồn về một chỗ (thường quá đông, quá tải)",
+      "note_vi": "Dùng ở: đề Viết 54-E (du khách quá tải, overtourism). 한곳에 몰리다 = đổ dồn về một chỗ. Nghĩa khác: 일이 몰리다 = việc dồn dập; 궁지에 몰리다 = bị dồn vào thế bí.",
+      "example_ko": "관광객이 한곳에 몰리는 이유는 무엇인가?",
+      "example_vi": "Vì sao du khách lại đổ dồn về một chỗ?",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "과밀",
+      "pos": "N",
+      "meaning_vi": "Quá tải, quá đông (mật độ quá dày)",
+      "note_vi": "Dùng ở: đề Viết 54-E. 관광객 과밀 = du khách quá đông, tức 오버투어리즘 (overtourism).",
+      "example_ko": "'관광객 과밀(오버투어리즘)'에 대하여 다음 내용을 중심으로 자신의 생각을 쓰십시오.",
+      "example_vi": "Hãy viết suy nghĩ của bản thân về 'tình trạng du khách quá đông (overtourism)' theo các nội dung sau.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "recognize",
+      "hanja": "過密",
+      "sino_vietnamese": "quá mật",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "화요일",
+      "pos": "N",
+      "meaning_vi": "Thứ Ba",
+      "note_vi": "Dùng ở: bài Đọc câu 5 (lý do viết bài). Mẹo nhớ: 화 = 火 (hỏa) + 요일 (ngày trong tuần).",
+      "example_ko": "다음 주 화요일에 상담을 받기로 했는데 갑자기 수업이 생기는 바람에 시간을 지키지 못하게 되었습니다.",
+      "example_vi": "Tôi đã hẹn được tư vấn vào thứ Ba tuần sau, nhưng đột nhiên có tiết học nên tôi không thể giữ đúng giờ được.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "火曜日",
+      "sino_vietnamese": "hỏa diệu nhật",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "수요일",
+      "pos": "N",
+      "meaning_vi": "Thứ Tư",
+      "note_vi": "Dùng ở: bài Đọc câu 5 và 8, bài Nghe câu 14. Mẹo nhớ: 수 = 水 (thủy) + 요일 (ngày trong tuần).",
+      "example_ko": "죄송합니다만 수요일 오후로 변경할 수 있겠습니까?",
+      "example_vi": "Xin lỗi, nhưng có thể đổi sang chiều thứ Tư được không ạ?",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "水曜日",
+      "sino_vietnamese": "thủy diệu nhật",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "목요일",
+      "pos": "N",
+      "meaning_vi": "Thứ Năm",
+      "note_vi": "Dùng ở: bài Nghe câu 10 và bài Đọc câu 8. Mẹo nhớ: 목 = 木 (mộc) + 요일 (ngày trong tuần).",
+      "example_ko": "다음 주 목요일 제주행 비행기 표를 취소하고 싶은데요.",
+      "example_vi": "Tôi muốn hủy vé máy bay đi Jeju vào thứ Năm tuần sau.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "木曜日",
+      "sino_vietnamese": "mộc diệu nhật",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "금요일",
+      "pos": "N",
+      "meaning_vi": "Thứ Sáu",
+      "note_vi": "Dùng ở: bài Nghe câu 14 và 15. Mẹo nhớ: 금 = 金 (kim) + 요일 (ngày trong tuần).",
+      "example_ko": "10월 12일에 출발할 예정이고, 예약은 이번 주 금요일까지 받습니다.",
+      "example_vi": "Dự kiến khởi hành ngày 12 tháng 10 và nhận đặt chỗ đến thứ Sáu tuần này.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "金曜日",
+      "sino_vietnamese": "kim diệu nhật",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "어쩔 수 없이",
+      "pos": "X",
+      "meaning_vi": "Đành phải (bất đắc dĩ)",
+      "note_vi": "Dùng ở: bài Đọc câu 4 (lựa chọn 어쩔 수 없이 미루었다) và bài mẫu Nói câu 3. 어쩔 수 없다 = không còn cách nào khác; đã mang nghĩa \"đành phải\" nên thường đi với động từ thường; ghép thêm -ㄹ 수밖에 없다 là lặp nghĩa. *Câu ví dụ biên soạn thêm.*",
+      "example_ko": "비가 많이 와서 어쩔 수 없이 여행을 미뤘어요.",
+      "example_vi": "Vì mưa nhiều nên đành phải hoãn chuyến đi.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "일단",
+      "pos": "X",
+      "meaning_vi": "Trước hết, tạm thời cứ",
+      "note_vi": "Dùng ở: bài Nói câu 3 (kể chuyện theo tranh: chuyến đi Jeju gặp bão). 일단 = trước hết, trước mắt cứ… đã.",
+      "example_ko": "두 사람은 걱정이 됐지만 일단 공항에 갔어요.",
+      "example_vi": "Hai người tuy lo lắng nhưng trước hết vẫn ra sân bay.",
+      "family": "🟣 Mở rộng · Từ trong bộ đề",
+      "source": "EXT-V-T2",
+      "priority": "core",
+      "hanja": "一旦",
+      "sino_vietnamese": "nhất đán",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "다음 달",
+      "pos": "N",
+      "pron": "[다음 딸]",
+      "meaning_vi": "Tháng sau",
+      "note_vi": "Cùng nhóm: `이번 달` [이번 딸], `지난달`.",
+      "example_ko": "다음 달에 제주도에 갈 계획이에요.",
+      "example_vi": "Tháng sau tôi định đi Jeju.",
+      "family": "🟢 Nền · Lên kế hoạch chuyến đi của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "첫날 · 둘째 날 · 마지막 날",
+      "pos": "X",
+      "pron": "[천날 / 둘째 날 / 마지막 날]",
+      "meaning_vi": "Ngày đầu · ngày thứ hai · ngày cuối (của chuyến đi)",
+      "note_vi": "Kể lịch trình theo ngày: `첫날에는 … 둘째 날에는 … 마지막 날에는 …`.",
+      "example_ko": "첫날에는 시장을 둘러보고 마지막 날에는 쉴 거예요.",
+      "example_vi": "Ngày đầu tôi sẽ dạo chợ, ngày cuối thì nghỉ ngơi.",
+      "family": "🟢 Nền · Lên kế hoạch chuyến đi của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "돌아오다",
+      "pos": "V",
+      "meaning_vi": "Quay về, trở về",
+      "note_vi": "`N(으)로 돌아오다` / `N에 돌아오다`: `서울로 돌아올 예정이에요`.",
+      "example_ko": "일요일 저녁에 서울로 돌아올 거예요.",
+      "example_vi": "Tối Chủ nhật tôi sẽ về lại Seoul.",
+      "family": "🟢 Nền · Lên kế hoạch chuyến đi của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "식비",
+      "pos": "N",
+      "pron": "[식삐]",
+      "meaning_vi": "Tiền ăn",
+      "example_ko": "식비는 하루에 3만 원쯤 들 것 같아요.",
+      "example_vi": "Tiền ăn chắc khoảng 30 nghìn won một ngày.",
+      "family": "🟢 Nền · Lên kế hoạch chuyến đi của tôi",
+      "priority": "core",
+      "hanja": "食費",
+      "sino_vietnamese": "thực phí",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "한 사람에",
+      "pos": "X",
+      "meaning_vi": "Mỗi người (… won)",
+      "note_vi": "Nói giá theo đầu người: `한 사람에 30만 원`. Văn bản quảng cáo hay viết `1인당`.",
+      "example_ko": "이 여행 상품은 한 사람에 25만 원이에요.",
+      "example_vi": "Tour du lịch này giá 250 nghìn won một người.",
+      "family": "🟢 Nền · Lên kế hoạch chuyến đi của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "비용이 들다",
+      "pos": "X",
+      "meaning_vi": "Tốn chi phí, mất tiền",
+      "note_vi": "`들다` đi với `이/가`: `30만 원이 들다` (✗ `30만 원을 들다`). `들다` bỏ `ㄹ`: `듭니다`, `들 것 같아요`.",
+      "example_ko": "부산 여행은 비용이 얼마나 들 것 같아요?",
+      "example_vi": "Chuyến đi Busan chắc tốn bao nhiêu tiền?",
+      "family": "🟢 Nền · Lên kế hoạch chuyến đi của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "비용을 줄이다",
+      "pos": "X",
+      "meaning_vi": "Giảm chi phí, tiết kiệm",
+      "example_ko": "게스트하우스에서 자면 비용을 줄일 수 있어요.",
+      "example_vi": "Nếu ngủ ở nhà nghỉ thì có thể giảm chi phí.",
+      "family": "🟢 Nền · Lên kế hoạch chuyến đi của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "둘러보다",
+      "pos": "V",
+      "meaning_vi": "Dạo quanh, đi xem một vòng",
+      "note_vi": "`시장을 둘러보다`, `박물관을 둘러보다`: đi một vòng để xem nơi đó.",
+      "example_ko": "오후에는 시장을 둘러볼 예정이에요.",
+      "example_vi": "Buổi chiều tôi dự kiến dạo một vòng chợ.",
+      "family": "🟢 Nền · Lên kế hoạch chuyến đi của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "맛집",
+      "pos": "N",
+      "pron": "[맏찝]",
+      "meaning_vi": "Quán ăn ngon (nổi tiếng)",
+      "example_ko": "저녁에는 유명한 맛집에 가 보려고 해요.",
+      "example_vi": "Buổi tối tôi định thử đến một quán ngon nổi tiếng.",
+      "family": "🟢 Nền · Lên kế hoạch chuyến đi của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "유명하다",
+      "pos": "A",
+      "meaning_vi": "Nổi tiếng",
+      "note_vi": "`N(으)로 유명하다` = nổi tiếng về N: `부산은 바다로 유명해요`.",
+      "example_ko": "이 시장은 해산물로 유명해요.",
+      "example_vi": "Chợ này nổi tiếng về hải sản.",
+      "family": "🟢 Nền · Lên kế hoạch chuyến đi của tôi",
+      "priority": "core",
+      "hanja": "有名",
+      "sino_vietnamese": "hữu danh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "날짜",
+      "pos": "N",
+      "meaning_vi": "Ngày (tháng), ngày cụ thể",
+      "example_ko": "기차표는 날짜에 따라 가격이 달라요.",
+      "example_vi": "Vé tàu có giá khác nhau tùy theo ngày.",
+      "family": "🟢 Nền · Lên kế hoạch chuyến đi của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "일정을 짜다",
+      "pos": "X",
+      "meaning_vi": "Lên lịch trình",
+      "note_vi": "Cụm tự nhiên nhất cho «lên lịch trình»; trang trọng hơn: `일정을 세우다`.",
+      "example_ko": "친구와 같이 여행 일정을 짰어요.",
+      "example_vi": "Tôi đã cùng bạn lên lịch trình chuyến đi.",
+      "family": "🟢 Nền · Lên kế hoạch chuyến đi của tôi",
+      "priority": "core"
+    },
+    {
+      "hangul": "국내",
+      "pos": "N",
+      "meaning_vi": "Trong nước, nội địa",
+      "example_ko": "이번 휴가는 국내 여행을 갈 거예요.",
+      "example_vi": "Kỳ nghỉ này tôi sẽ đi du lịch trong nước.",
+      "pron": "[궁내]",
+      "family": "🟢 Nền · Từ sơ cấp · Đất nước & Vùng miền",
+      "priority": "core",
+      "source": "krdict:60099",
+      "hanja": "國內",
+      "collocations": [
+        {
+          "ko": "국내 문제",
+          "vi": "vấn đề trong nước"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "quốc nội"
+    },
+    {
+      "hangul": "국제",
+      "pos": "N",
+      "meaning_vi": "Quốc tế",
+      "example_ko": "인천에 국제공항이 있어요.",
+      "example_vi": "Ở Incheon có sân bay quốc tế.",
+      "pron": "[국쩨]",
+      "family": "🟢 Nền · Từ sơ cấp · Đất nước & Vùng miền",
+      "priority": "core",
+      "source": "krdict:58597",
+      "hanja": "國際",
+      "collocations": [
+        {
+          "ko": "국제 관계",
+          "vi": "quan hệ quốc tế"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "quốc tế"
+    },
+    {
+      "hangul": "남산",
+      "pos": "N",
+      "meaning_vi": "Núi Namsan (Seoul)",
+      "note_vi": "Ngọn núi giữa Seoul, nơi có tháp N Seoul (남산타워).",
+      "example_ko": "남산에 올라가서 서울을 봤어요.",
+      "example_vi": "Tôi lên núi Namsan ngắm Seoul.",
+      "family": "🟢 Nền · Từ sơ cấp · Đất nước & Vùng miền",
+      "priority": "recognize",
+      "source": "krdict:25261",
+      "hanja": "南山",
+      "enrich": "auto",
+      "sino_vietnamese": "nam sơn"
+    },
+    {
+      "hangul": "도시",
+      "pos": "N",
+      "meaning_vi": "Thành phố, đô thị",
+      "example_ko": "서울은 아주 큰 도시예요.",
+      "example_vi": "Seoul là một thành phố rất lớn.",
+      "family": "🟢 Nền · Từ sơ cấp · Đất nước & Vùng miền",
+      "priority": "core",
+      "source": "krdict:70743",
+      "hanja": "都市",
+      "collocations": [
+        {
+          "ko": "도시 생활",
+          "vi": "cuộc sống thành thị"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "đô thị"
+    },
+    {
+      "hangul": "땅",
+      "pos": "N",
+      "meaning_vi": "Đất, đất liền",
+      "example_ko": "가을이 되면 땅에 낙엽이 떨어져요.",
+      "example_vi": "Sang thu, lá rơi xuống đất.",
+      "family": "🟢 Nền · Từ sơ cấp · Đất nước & Vùng miền",
+      "priority": "core",
+      "source": "krdict:30206",
+      "collocations": [
+        {
+          "ko": "하늘과 땅",
+          "vi": "trời và đất"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "바닷가",
+      "pos": "N",
+      "meaning_vi": "Bờ biển, bãi biển",
+      "example_ko": "여름에 바닷가에 가고 싶어요.",
+      "example_vi": "Mùa hè tôi muốn đi biển.",
+      "pron": "[바다까]",
+      "family": "🟢 Nền · Từ sơ cấp · Đất nước & Vùng miền",
+      "priority": "core",
+      "source": "krdict:56428",
+      "collocations": [
+        {
+          "ko": "바닷가에 가다",
+          "vi": "đi ra biển"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "세계",
+      "pos": "N",
+      "meaning_vi": "Thế giới",
+      "example_ko": "세계 여러 나라를 여행하고 싶어요.",
+      "example_vi": "Tôi muốn du lịch nhiều nước trên thế giới.",
+      "family": "🟢 Nền · Từ sơ cấp · Đất nước & Vùng miền",
+      "priority": "core",
+      "source": "krdict:62444",
+      "hanja": "世界",
+      "collocations": [
+        {
+          "ko": "세계 일주",
+          "vi": "vòng quanh thế giới"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "thế giới"
+    },
+    {
+      "hangul": "세상",
+      "pos": "N",
+      "meaning_vi": "Thế gian, trên đời",
+      "note_vi": "Hay dùng trong 세상에서 제일… (… nhất trên đời).",
+      "example_ko": "세상에서 엄마가 제일 좋아요.",
+      "example_vi": "Trên đời này tôi thương mẹ nhất.",
+      "family": "🟢 Nền · Từ sơ cấp · Đất nước & Vùng miền",
+      "priority": "core",
+      "source": "krdict:62441",
+      "hanja": "世上",
+      "collocations": [
+        {
+          "ko": "넓은 세상",
+          "vi": "thế giới rộng lớn"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "thế thượng"
+    },
+    {
+      "hangul": "시골",
+      "pos": "N",
+      "meaning_vi": "Nông thôn, quê",
+      "example_ko": "할머니는 시골에 사세요.",
+      "example_vi": "Bà tôi sống ở quê.",
+      "family": "🟢 Nền · Từ sơ cấp · Đất nước & Vùng miền",
+      "priority": "core",
+      "source": "krdict:62488",
+      "collocations": [
+        {
+          "ko": "공기 좋은 시골",
+          "vi": "vùng quê không khí trong lành"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "외국",
+      "pos": "N",
+      "meaning_vi": "Nước ngoài",
+      "note_vi": "외국 사람 = 외국인: người nước ngoài.",
+      "example_ko": "외국에서 살아 봤어요?",
+      "example_vi": "Bạn đã từng sống ở nước ngoài chưa?",
+      "family": "🟢 Nền · Từ sơ cấp · Đất nước & Vùng miền",
+      "priority": "core",
+      "source": "krdict:68121",
+      "hanja": "外國",
+      "collocations": [
+        {
+          "ko": "외국 문화",
+          "vi": "văn hóa nước ngoài"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "ngoại quốc"
+    },
+    {
+      "hangul": "우리나라",
+      "pos": "N",
+      "meaning_vi": "Nước ta (người Hàn nói về Hàn Quốc)",
+      "note_vi": "Người Hàn dùng để chỉ Hàn Quốc; khi nói với người nước khác vẫn dùng, không phải «nước của bạn».",
+      "example_ko": "김치는 우리나라 음식이에요.",
+      "example_vi": "Kimchi là món ăn của nước tôi.",
+      "family": "🟢 Nền · Từ sơ cấp · Đất nước & Vùng miền",
+      "priority": "core",
+      "source": "krdict:70403",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "지방",
+      "pos": "N",
+      "meaning_vi": "Địa phương, vùng (ngoài thủ đô)",
+      "note_vi": "Khi đối lập với Seoul, 지방 là «tỉnh lẻ, ngoài thủ đô».",
+      "example_ko": "부모님은 지방에 사세요.",
+      "example_vi": "Bố mẹ tôi sống ở tỉnh.",
+      "family": "🟢 Nền · Từ sơ cấp · Đất nước & Vùng miền",
+      "priority": "core",
+      "source": "krdict:71323",
+      "hanja": "地方",
+      "collocations": [
+        {
+          "ko": "남쪽 지방",
+          "vi": "miền Nam"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "địa phương"
+    },
+    {
+      "hangul": "패키지",
+      "pos": "N",
+      "meaning_vi": "Bưu kiện, gói hàng",
+      "note_vi": "Hay gặp trong 패키지여행 (tour trọn gói); gửi đồ hằng ngày thường nói 택배, 소포.",
+      "example_ko": "패키지가 내일 오전에 도착해요.",
+      "example_vi": "Bưu kiện sẽ đến vào sáng mai.",
+      "family": "🟢 Nền · Từ sơ cấp · Đất nước & Vùng miền",
+      "priority": "recognize",
+      "source": "krdict:80997",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "해외",
+      "pos": "N",
+      "meaning_vi": "Nước ngoài, hải ngoại",
+      "note_vi": "해외여행: du lịch nước ngoài. Gần nghĩa 외국 nhưng hay dùng với 여행, 출장.",
+      "example_ko": "올해 처음 해외여행을 가요.",
+      "example_vi": "Năm nay tôi lần đầu đi du lịch nước ngoài.",
+      "family": "🟢 Nền · Từ sơ cấp · Đất nước & Vùng miền",
+      "priority": "core",
+      "source": "krdict:62481",
+      "hanja": "海外",
+      "collocations": [
+        {
+          "ko": "해외 뉴스",
+          "vi": "tin tức nước ngoài"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "hải ngoại"
+    },
+    {
+      "hangul": "호수",
+      "pos": "N",
+      "meaning_vi": "Hồ (nước)",
+      "example_ko": "호수 옆 공원에서 산책했어요.",
+      "example_vi": "Tôi đi dạo ở công viên cạnh hồ.",
+      "family": "🟢 Nền · Từ sơ cấp · Đất nước & Vùng miền",
+      "priority": "core",
+      "source": "krdict:73225",
+      "hanja": "湖水",
+      "collocations": [
+        {
+          "ko": "맑은 호수",
+          "vi": "hồ nước trong"
+        }
+      ],
+      "enrich": "auto",
+      "sino_vietnamese": "hồ thủy"
+    },
+    {
+      "hangul": "마중하다",
+      "pos": "V",
+      "meaning_vi": "Đón (ở ga, sân bay)",
+      "note_vi": "Hay nói 마중(을) 나가다. Trái nghĩa: 배웅하다 (tiễn).",
+      "example_ko": "공항에 동생을 마중하러 갔어요.",
+      "example_vi": "Tôi ra sân bay đón em.",
+      "family": "🟢 Nền · Từ sơ cấp · Du lịch",
+      "priority": "core",
+      "source": "krdict:56086",
+      "collocations": [
+        {
+          "ko": "손님을 마중하다",
+          "vi": "đón khách"
+        }
+      ],
+      "enrich": "auto"
+    },
+    {
+      "hangul": "관광하다",
+      "pos": "V",
+      "meaning_vi": "Tham quan, du lịch",
+      "note_vi": "N을/를 관광하다: 시내를 관광하다. Danh từ: 관광.",
+      "example_ko": "오전에 시내를 관광했어요.",
+      "example_vi": "Buổi sáng tôi đã đi tham quan nội thành.",
+      "family": "🟢 Nền · Từ sơ cấp · Du lịch",
+      "priority": "core",
+      "source": "krdict:22394",
+      "collocations": [
+        {
+          "ko": "시내를 관광하다",
+          "vi": "tham quan nội thành"
+        }
+      ],
+      "hanja": "觀光",
+      "enrich": "auto",
+      "sino_vietnamese": "quan quang"
+    },
+    {
+      "hangul": "관광호텔",
+      "pos": "N",
+      "meaning_vi": "Khách sạn du lịch",
+      "example_ko": "우리는 관광호텔에 묵었어요.",
+      "example_vi": "Chúng tôi đã ở khách sạn du lịch.",
+      "family": "🟢 Nền · Từ sơ cấp · Du lịch",
+      "priority": "recognize",
+      "source": "krdict:22431",
+      "collocations": [
+        {
+          "ko": "관광호텔에 묵다",
+          "vi": "ở khách sạn du lịch"
+        }
+      ],
+      "hanja": "觀光",
+      "enrich": "auto",
+      "sino_vietnamese": "quan quang"
+    },
+    {
+      "hangul": "신혼여행",
+      "pos": "N",
+      "meaning_vi": "Tuần trăng mật",
+      "note_vi": "신혼: mới cưới. Đọc [신혼녀행].",
+      "example_ko": "신혼여행은 제주도로 갈 거예요.",
+      "example_vi": "Chúng tôi sẽ đi tuần trăng mật ở Jeju.",
+      "pron": "[신혼녀행]",
+      "family": "🟢 Nền · Từ sơ cấp · Du lịch",
+      "priority": "recognize",
+      "source": "krdict:66281",
+      "collocations": [
+        {
+          "ko": "신혼여행을 가다",
+          "vi": "đi tuần trăng mật"
+        }
+      ],
+      "hanja": "新婚旅行",
+      "enrich": "auto",
+      "sino_vietnamese": "tân hôn lữ hành"
+    },
+    {
+      "hangul": "해외여행",
+      "pos": "N",
+      "meaning_vi": "Du lịch nước ngoài",
+      "example_ko": "방학에 해외여행을 가고 싶어요.",
+      "example_vi": "Kỳ nghỉ tôi muốn đi du lịch nước ngoài.",
+      "family": "🟢 Nền · Từ sơ cấp · Du lịch",
+      "priority": "core",
+      "source": "krdict:72474",
+      "collocations": [
+        {
+          "ko": "해외여행을 가다",
+          "vi": "đi du lịch nước ngoài"
+        }
+      ],
+      "hanja": "海外旅行",
+      "enrich": "auto",
+      "sino_vietnamese": "hải ngoại lữ hành"
+    },
+    {
+      "hangul": "여행하다",
+      "pos": "V",
+      "meaning_vi": "Đi du lịch",
+      "note_vi": "N을/를 여행하다 (유럽을 여행하다) hoặc N(으)로 여행을 가다.",
+      "example_ko": "작년에 일본을 여행했어요.",
+      "example_vi": "Năm ngoái tôi đã đi du lịch Nhật Bản.",
+      "family": "🟢 Nền · Từ sơ cấp · Du lịch",
+      "priority": "core",
+      "source": "krdict:30209",
+      "collocations": [
+        {
+          "ko": "세계를 여행하다",
+          "vi": "du lịch vòng quanh thế giới"
+        }
+      ],
+      "hanja": "旅行",
+      "enrich": "auto",
+      "sino_vietnamese": "lữ hành"
+    },
+    {
+      "hangul": "관광객",
+      "pos": "N",
+      "meaning_vi": "Khách du lịch",
+      "example_ko": "이 섬에는 관광객이 많아요.",
+      "example_vi": "Hòn đảo này có nhiều khách du lịch.",
+      "family": "🟢 Nền · Từ sơ cấp · Du lịch",
+      "priority": "core",
+      "source": "krdict:22426",
+      "collocations": [
+        {
+          "ko": "외국인 관광객",
+          "vi": "khách du lịch nước ngoài"
+        }
+      ],
+      "hanja": "觀光客",
+      "enrich": "auto",
+      "sino_vietnamese": "quan quang khách"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V + -(으)ㄹ 계획이다 · V + -(으)ㄹ 예정이다",
+      "meaning_vi": "Dự định · dự kiến, đã được sắp xếp",
+      "usage_context_vi": "**Cấu tạo:** gốc động từ không patchim + `-ㄹ 계획이다 / -ㄹ 예정이다`, có patchim + `-을 계획이다`: 가다 → `갈 계획이다`, 먹다 → `먹을 예정이다`; gốc có patchim `ㄹ` giữ nguyên `ㄹ`: 만들다 → `만들 계획이다`. Chia ở `이다`: `계획이에요`, `계획입니다`, `예정이었다`. Chỉ gắn **động từ**.\n**Hoàn cảnh dùng:** `계획이다` = người nói **tự định liệu** (cho mình, cho nhóm): `다음 달에 제주도에 갈 계획이에요`. `예정이다` = **đã có lịch, đã được định**, dùng cả với chủ ngữ là vật hay sự kiện và hợp thông báo: `비행기는 오후 3시에 도착할 예정입니다`, `행사는 다음 주에 열릴 예정이다`.\n**Vì sao chọn nó thay vì `-(으)려고 하다`:** `-(으)려고 하다` là ý định thường ngày của người nói; `-(으)ㄹ 계획이다` nói điều **đã định liệu**, còn `-(으)ㄹ 예정이다` nói **lịch đã định**, nên dùng được với chủ ngữ là vật và trang trọng hơn.",
+      "contrasts": [
+        {
+          "pattern": "-(으)려고 하다",
+          "diff_vi": "Ý định thường ngày, có thể đổi; `계획이다/예정이다` trang trọng hơn và nói điều đã định."
+        },
+        {
+          "pattern": "-기로 하다",
+          "diff_vi": "Đã **quyết định/ hẹn xong**; `-(으)ㄹ 계획이다` mới ở mức kế hoạch."
+        },
+        {
+          "pattern": "-(으)ㄹ 거예요",
+          "diff_vi": "Dự đoán hay ý định chung; `예정이다` nhấn lịch trình chính thức."
+        }
+      ],
+      "example_ko": "다음 달에 제주도에 갈 계획이에요.\n이번 여름에는 가족과 함께 부산을 여행할 계획이다.\n비행기는 오후 3시에 도착할 예정입니다.\n행사는 다음 주 금요일에 열릴 예정이다.",
+      "example_vi": "Tháng sau tôi định đi đảo Jeju.\nMùa hè này tôi định đi du lịch Busan cùng gia đình.\nMáy bay dự kiến sẽ đến lúc 3 giờ chiều.\nSự kiện dự kiến sẽ diễn ra vào thứ Sáu tuần sau.",
+      "source": "G7-1",
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Gắn với tính từ: ✗ `추울 계획이다` → mẫu này chỉ đi với động từ.\n(2) Thêm `을` sau gốc `ㄹ`: ✗ `만들을 계획이다` → `만들 계획이다`.\n(3) Dùng `계획이다` cho chủ ngữ là vật: ✗ `비행기가 도착할 계획이에요` → `도착할 예정이에요`.\n(4) Dùng đuôi quá khứ cho dự định: ✗ `간 계획이다` → `갈 계획이다`.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Du lịch & Lập kế hoạch chuyến đi'.",
+      "topik_tip_vi": "Thông báo và bài viết về lịch trình dùng `-(으)ㄹ 예정이다/입니다` (nhất là chủ ngữ là vật); khi kể kế hoạch cá nhân dùng `-(으)ㄹ 계획이다`. Khi nghe, `예정` báo lịch đã định chứ không phải ý muốn.",
+      "builds_on": [
+        "V + -(으)ㄹ + N (dự định · sắp xảy ra)"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V/A + -(으)ㄹ 수밖에 없다",
+      "meaning_vi": "Chỉ còn cách (không thể khác)",
+      "usage_context_vi": "**Cấu tạo:** V/A gốc không patchim + `-ㄹ 수밖에 없다`, có patchim + `-을 수밖에 없다`: 미루다 → `미룰 수밖에 없다`, 취소하다 → `취소할 수밖에 없다`, 비싸다 → `비쌀 수밖에 없다`, 먹다 → `먹을 수밖에 없다`. `수밖에` viết liền và phải đi với `없다`. Quá khứ đặt ở cuối: `-(으)ㄹ 수밖에 없었다`; không thêm `-았/었-` vào vế trước.\n**Hoàn cảnh dùng:** nói **không còn lựa chọn khác vì hoàn cảnh ép buộc**, hoặc một kết luận tất yếu: `비가 많이 와서 출발을 미룰 수밖에 없어요`, `성수기에는 항공권이 비쌀 수밖에 없다`. Trong văn nghị luận: `지역 주민의 삶의 질이 나빠질 수밖에 없다`.\n**Vì sao chọn nó thay vì `-지 않으면 안 되다`:** `-지 않으면 안 되다` là **bắt buộc** (nghĩa vụ, quy định); `-(으)ㄹ 수밖에 없다` nói **hoàn cảnh ép buộc**: người nói không còn đường nào khác, thường kèm sắc thái đành chịu hay tất nhiên.",
+      "contrasts": [
+        {
+          "pattern": "-지 않으면 안 되다",
+          "diff_vi": "Bắt buộc (nghĩa vụ, quy định); `-(으)ㄹ 수밖에 없다` là hoàn cảnh ép buộc."
+        },
+        {
+          "pattern": "-아/어야 하다",
+          "diff_vi": "Phải làm, nên làm; `수밖에 없다` nhấn **không còn đường khác**."
+        },
+        {
+          "pattern": "어쩔 수 없이",
+          "diff_vi": "Trạng từ 'đành phải': `어쩔 수 없이 취소했다` ≈ `취소할 수밖에 없었다`."
+        }
+      ],
+      "example_ko": "비가 많이 와서 출발을 미룰 수밖에 없어요.\n성수기에는 항공권이 비쌀 수밖에 없다.\n태풍 때문에 비행기가 결항돼서 여행을 취소할 수밖에 없었어요.\n관광객이 너무 많으면 지역 주민의 삶의 질이 나빠질 수밖에 없다.",
+      "example_vi": "Vì mưa nhiều nên tôi chỉ còn cách hoãn việc xuất phát.\nVào mùa cao điểm giá vé máy bay đắt là điều tất nhiên.\nVì bão nên chuyến bay bị hủy, tôi đành phải hủy chuyến đi.\nNếu khách du lịch quá đông thì chất lượng cuộc sống của cư dân địa phương tất nhiên sẽ xấu đi.",
+      "source": "G7-2",
+      "exam": "kiip-4",
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `있다`: ✗ `갈 수밖에 있다` → `갈 수밖에 없다`.\n(2) Tách `수 밖에`: ✗ `수 밖에 없다` → `수밖에 없다` (`밖에` là tiểu từ, viết liền).\n(3) Thêm `-았/었-` ở vế trước: `취소했을 수밖에 없다` lại thành 'chắc hẳn đã hủy'; 'đành phải hủy' là `취소할 수밖에 없다`.\n(4) Quên `ㄹ`: ✗ `취소하 수밖에 없다`, `비싸 수밖에 없다` → `취소할`, `비쌀`.\n(5) Nhầm với `-(으)ㄹ 수 있다` (có thể).\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Du lịch & Lập kế hoạch chuyến đi'.",
+      "topik_tip_vi": "Câu kết lập luận ở Viết 54 (du lịch quá tải) thường là hệ quả tất yếu: `… 삶의 질이 나빠질 수밖에 없다`. Khi nghe, đừng nhầm `수밖에 없다` (đành phải, tất nhiên) với `수 있다` (có thể).",
+      "builds_on": [
+        "V + -(으)ㄹ 수 있다/없다",
+        "N + 밖에 + 부정 (없다 · 안 · 못 · -지 않다)"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V/A + -(으)ㄹ 경우(에) · N + 의 경우",
+      "meaning_vi": "Trong trường hợp",
+      "usage_context_vi": "**Cấu tạo:** V/A gốc không patchim + `-ㄹ 경우(에)`, có patchim + `-을 경우(에)`: 취소하다 → `취소할 경우`, 늦다 → `늦을 경우`, 비싸다 → `비쌀 경우`. Tình huống đã xảy ra: `-(으)ㄴ 경우` (`취소한 경우`). Danh từ: `N의 경우` hay `N인 경우` (`성수기의 경우`). Vế sau là quy định hay cách xử lý.\n**Hoàn cảnh dùng:** dùng trong **quy định, điều khoản, hướng dẫn**: nêu tình huống có thể xảy ra rồi nói cách xử lý, như `출발 3일 전에 취소할 경우 수수료가 부과됩니다`, `비행기가 결항될 경우 환불을 요청할 수 있습니다`. `N의 경우` nêu riêng trường hợp của N: `성수기의 경우 예약이 어렵다`. Trang trọng, ít dùng trong lời nói thân mật.\n**Vì sao chọn nó thay vì `-(으)면`:** `-(으)면` là điều kiện chung và dùng được ở mọi văn cảnh (cả mệnh lệnh, lời rủ); `-(으)ㄹ 경우` nêu một **tình huống có thể xảy ra** để đưa ra quy định hay cách xử lý, nên trang trọng và hợp điều khoản.",
+      "contrasts": [
+        {
+          "pattern": "-(으)면",
+          "diff_vi": "Điều kiện chung, dùng ở mọi văn cảnh; `경우` trang trọng hơn."
+        },
+        {
+          "pattern": "-(으)ㄹ 때",
+          "diff_vi": "Chỉ **thời điểm** (khi); `경우` chỉ **tình huống** (nếu như)."
+        },
+        {
+          "pattern": "N은/는",
+          "diff_vi": "Chỉ nêu chủ đề; `N의 경우` tách riêng trường hợp của N để nói quy định hay điểm khác biệt."
+        }
+      ],
+      "example_ko": "출발 3일 전에 취소할 경우 수수료가 부과됩니다.\n비행기가 결항될 경우 환불을 요청할 수 있습니다.\n성수기의 경우 예약이 어려울 수 있어요.\n숙소에 늦게 도착할 경우 미리 연락해 주세요.",
+      "example_vi": "Trong trường hợp hủy trước ngày khởi hành 3 ngày, sẽ bị tính phí.\nTrong trường hợp chuyến bay bị hủy, bạn có thể yêu cầu hoàn tiền.\nVới mùa cao điểm thì việc đặt chỗ có thể khó.\nNếu đến chỗ ở muộn, xin hãy liên lạc trước.",
+      "source": "G7-3",
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Chia sai gốc: ✗ `취소하 경우`, `늦ㄹ 경우` → `취소할 경우`, `늦을 경우`.\n(2) Nhầm `-(으)ㄹ 경우` (sẽ xảy ra) với `-(으)ㄴ 경우` (đã xảy ra): `취소한 경우` là 'trường hợp đã hủy'.\n(3) Quên `의` trong văn viết: `성수기 경우` → `성수기의 경우`.\n(4) Viết dính: ✗ `취소할경우`.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Du lịch & Lập kế hoạch chuyến đi'.",
+      "topik_tip_vi": "Đọc quy định hoàn tiền, hủy vé, bảo hiểm: gặp `-(으)ㄹ 경우` thì vế sau là quy định hay hậu quả; chú ý các con số đi kèm (số ngày, tỷ lệ phí hủy).",
+      "builds_on": [
+        "V + -(으)ㄹ + N (dự định · sắp xảy ra)",
+        "N(Nơi chốn) + 에"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "N + 에 따라(서) · N + 에 따른 N",
+      "meaning_vi": "Theo, căn cứ vào · tùy theo",
+      "usage_context_vi": "**Cấu tạo:** hai dạng: `N + 에 따라(서) + mệnh đề` (vế sau là hành động hay sự việc) và `N + 에 따른 + N` (định ngữ: `계절에 따른 가격 차이`). `에 따라서` nhấn mạnh hơn một chút. Hai nghĩa: (1) **căn cứ theo** quy định/ hướng dẫn; (2) **tùy theo** N mà khác nhau.\n**Hoàn cảnh dùng:** (1) hướng dẫn và thông báo: `규정에 따라 환불해 드립니다`, `안내에 따라 3번 출구로 이동해 주세요`. (2) mô tả sự khác biệt, hay đi với `다르다 · 달라지다 · 차이가 나다`: `계절에 따라 숙박비가 다르다`, `나이에 따라 요금이 달라진다`. Định ngữ trong bài viết: `성수기와 비수기에 따른 가격 차이가 크다`.\n**Vì sao chọn nó thay vì `N에 따르면`:** `N에 따르면` chỉ **nguồn thông tin** (theo tin, theo khảo sát) và vế sau là câu thuật lại; `N에 따라` nói **căn cứ hay tùy theo N**, vế sau là hành động hoặc sự khác biệt.",
+      "contrasts": [
+        {
+          "pattern": "N에 따르면",
+          "diff_vi": "Nguồn thông tin, vế sau là câu thuật lại (bài 9)."
+        },
+        {
+          "pattern": "N마다",
+          "diff_vi": "'Mỗi N' nhấn từng trường hợp; `에 따라` nhấn **N là yếu tố làm thay đổi**."
+        }
+      ],
+      "example_ko": "규정에 따라 환불해 드립니다.\n계절에 따라 숙박비가 다르다.\n안내에 따라 3번 출구로 이동해 주세요.\n성수기와 비수기에 따른 가격 차이가 크다.",
+      "example_vi": "Chúng tôi hoàn tiền theo quy định.\nPhí lưu trú khác nhau tùy theo mùa.\nHãy di chuyển đến cửa số 3 theo hướng dẫn.\nChênh lệch giá giữa mùa cao điểm và thấp điểm rất lớn.",
+      "source": "G7-4",
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Nhầm với `에 따르면`: ✗ `계절에 따르면 가격이 달라요` → `계절에 따라 가격이 달라요`.\n(2) Dùng `에 따라` đứng trước danh từ: ✗ `계절에 따라 가격 차이` → `계절에 따른 가격 차이`.\n(3) Vế sau không nói sự khác biệt khi dùng nghĩa 'tùy theo': ✗ `계절에 따라 숙박비가 비싸요` → `계절에 따라 숙박비가 달라요`.\n*Biên soạn bổ sung:* ví dụ tự soạn theo chủ điểm của bài 'Du lịch & Lập kế hoạch chuyến đi'.",
+      "topik_tip_vi": "Văn bản thông báo (Viết 51) hay gặp `~에 따라 …` ở hướng dẫn hoàn tiền; mô tả khác biệt theo mùa ở Viết 53 dùng `계절에 따른 …`. Phân biệt `에 따라` (căn cứ/ tùy theo) với `에 따르면` (nguồn tin).",
+      "builds_on": [
+        "N + 에 따르면"
+      ],
+      "importance": "normal"
+    },
+    {
+      "pattern": "V + -(으)ㄹ까 하다 · -(으)ㄹ까 생각 중이다",
+      "meaning_vi": "Định là …, đang tính … (ý định chưa chắc chắn)",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · ✍ **Dùng được** (viết/nói)\n**Cấu tạo:** gốc động từ + `-(으)ㄹ까 하다`: `가다 → 갈까 해요`, `먹다 → 먹을까 해요`; biến thể `-(으)ㄹ까 생각 중이다`, `-(으)ㄹ까 싶다`.\n**Hoàn cảnh dùng:** Người nói kể **kế hoạch còn đang cân nhắc**, chưa quyết: `이번 휴가에는 제주도에 갈까 해요.` Chủ ngữ hầu như là **ngôi thứ nhất**.\n**Vì sao chọn nó:** `-(으)려고 하다` là ý định đã khá rõ; `-기로 하다` là đã quyết (thường với người khác); `-(으)ㄹ까 하다` mềm nhất, còn để ngỏ khả năng đổi ý.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Du lịch & Lập kế hoạch chuyến đi»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V + -(으)려고 하다",
+          "diff_vi": "Ý định rõ hơn, gần như đã định làm."
+        },
+        {
+          "pattern": "V + -기로 하다",
+          "diff_vi": "Đã quyết định / đã hẹn với ai."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng cho người khác: ✗ `친구가 부산에 갈까 해요` → kể về người khác dùng `-(으)려고 한대요`.\n(2) Ghép với `요` sai chỗ: ✗ `갈까요 해요` → ✓ `갈까 해요`.\n(3) Chia quá khứ: ✗ `갔을까 해요` → ✓ `갈까 했어요` (đã từng định …).\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "이번 연휴에는 부산에 기차로 갈까 해요.\n날씨가 좋으면 한라산에 올라갈까 생각 중이에요.\n비용이 많이 들어서 여행을 다음 달로 미룰까 해요.",
+      "example_vi": "Kỳ nghỉ này tôi định đi Busan bằng tàu.\nNếu trời đẹp tôi đang tính leo núi Halla.\nTốn kém quá nên tôi định dời chuyến đi sang tháng sau.",
+      "topik_tip_vi": "Nghe: câu hỏi «người nói sẽ làm gì» với `-(으)ㄹ까 해요` — chọn đúng việc đó, nhưng để ý vế sau có `그런데`/`-지만` đổi ý.",
+      "use_level": "produce",
+      "source": "EXT-SUP-06"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài (và ranh giới với bài 11)",
+      "body": "**Mục tiêu:** 🟢 nói về kế hoạch, đặt vé, đặt phòng đơn giản · 🟡 đọc quy định hủy/hoàn tiền, viết thư yêu cầu hủy và hoàn tiền (Viết 51), nghe hội thoại đặt phòng, đổi lịch · 🔴 Viết 54 về du lịch quá tải và du lịch có trách nhiệm.\n**Ranh giới:** bài này chỉ gồm **hậu cần và kế hoạch** (đặt chỗ, chi phí, lịch trình, hủy, hoàn tiền). Hoạt động tại điểm đến và cảm nhận thuộc bài 11.\n• 🎯 **Đầu ra:** cuối bài bạn viết được một đoạn 150–350 chữ về kế hoạch một chuyến đi thật của bạn: đi đâu, với ai, lịch trình từng ngày, chi phí và phương án dự phòng (Bước 5), và nói về kế hoạch đó trong một phút.",
+      "kind": "goal"
+    },
+    {
+      "title": "Mẫu câu 🟢 (bản dịch tham khảo)",
+      "body": "• 토요일에 전주로 여행을 가려고 숙소를 예약했어요. — *Thứ Bảy tôi đã đặt chỗ ở để đi du lịch Jeonju.*\n• 기차표는 인터넷으로 예매할 거예요. — *Vé tàu thì tôi sẽ đặt qua mạng.*\n• 여행을 가기 전에 가방을 싸 놓았어요. — *Trước khi đi du lịch, tôi đã xếp sẵn hành lý.*\n• 1박 2일로 부산에 여행을 갔어요. — *Tôi đã đi du lịch Busan 2 ngày 1 đêm.*",
+      "kind": "language"
+    },
+    {
+      "title": "Ngữ pháp ôn (không phải mẫu mới)",
+      "body": "**Ôn ngữ pháp (🟢):** `-(으)려고 하다` · `-고 있다` · `-(으)ㄹ 거예요` (nền 1–2급) · `-아/어서` · `-(으)러 가다` · `-기 전에` · `N부터 N까지` · `-기로 하다` (제주도에 가기로 했어요).\n**Ôn (🟡):** `-지 않으면 안 되다` · `-아/어야 하다` (nền) · `-게 되다` · `-(으)시기 바랍니다` · `-고자 하다` · `-(으)ㄴ 다음에` · `N(으)로 인해`.",
+      "kind": "language"
+    },
+    {
+      "title": "Mẫu 🟡: quy định hủy/hoàn tiền (Đọc) và hội thoại đổi lịch (Nghe)",
+      "body": "**Mẫu quy định (Đọc, số liệu minh họa)**\n**[취소 및 환불 규정]** 출발 7일 전까지 취소할 경우 전액 환불됩니다. 출발 3일 전부터는 요금의 50%가 취소 수수료로 부과됩니다.\n*Bản dịch tham khảo:* [Quy định hủy và hoàn tiền] Nếu hủy trước ngày khởi hành 7 ngày thì được hoàn toàn bộ. Từ 3 ngày trước ngày khởi hành, 50% giá sẽ bị tính là phí hủy.\n**Mẫu hội thoại (đổi lịch vì thời tiết)**\n가: 여보세요, 제주행 비행기 표를 예약한 사람인데요.\n나: 네, 말씀하세요.\n가: 태풍 때문에 비행기가 결항됐다고 문자가 왔어요. 일정을 변경할 수 있을까요?\n나: 네, 다음 주 비행기로 바꿔 드리겠습니다. 변경 수수료는 없습니다.\n*Bản dịch tham khảo:* Alô, tôi là người đã đặt vé máy bay đi Jeju ạ. — Vâng, xin cứ nói. — Có tin nhắn báo chuyến bay bị hủy vì bão. Tôi có thể đổi lịch trình được không ạ? — Vâng, chúng tôi sẽ đổi sang chuyến bay tuần sau cho quý khách. Không có phí đổi.\n*Ghi chú:* `결항됐다고` là thuật lại câu kể `-(ㄴ/는)다고` (nền 3급).",
+      "kind": "sample"
+    },
+    {
+      "title": "Mẫu văn bản Viết 51 (thư yêu cầu hủy và hoàn tiền, đã sửa)",
+      "body": "**[항공권 취소 및 환불 요청]**\n오는 10일에 출발하는 제주행 비행기 표를 예약했으나 개인 사정으로 인해 **(㉠ 취소하고자 합니다)**. 규정에 따라 취소 수수료를 제외한 금액을 **(㉡ 환불해 주시기 바랍니다)**.\n*Bản dịch tham khảo:* [Yêu cầu hủy và hoàn tiền vé máy bay] Tôi đã đặt vé máy bay đi Jeju khởi hành vào ngày 10 sắp tới, nhưng do việc cá nhân nên (㉠ tôi muốn hủy). Theo quy định, (㉡ xin hoàn lại số tiền đã trừ phí hủy).\n*Ghi chú:* bản nháp ghi `오는 10일 예약한`, mơ hồ (đặt vào ngày 10 hay bay vào ngày 10); bản sửa nêu rõ `10일에 출발하는`. Nhãn đúng là **yêu cầu hoàn tiền**, không phải khiếu nại.",
+      "kind": "writing"
+    },
+    {
+      "title": "Mẫu Viết 52 (đoạn giải thích về đặt chỗ trước)",
+      "body": "여행을 가기 전에 숙소와 교통편을 미리 예약하는 것이 좋다. 성수기에는 **(㉠ 예약하지 않으면 원하는 숙소를 구하기 어렵기 때문이다)**. 또한 일정이 바뀔 경우를 대비해 **(㉡ 취소 규정을 미리 확인해 두어야 한다)**.\n*Bản dịch tham khảo:* Trước khi đi du lịch, nên đặt trước chỗ ở và phương tiện đi lại. Vào mùa cao điểm, (㉠ nếu không đặt trước thì khó tìm được chỗ ở mong muốn). Ngoài ra, phòng khi lịch trình thay đổi, (㉡ cần xác nhận trước quy định hủy).\n*Ghi chú:* `-(으)ㄹ 경우`, `-아/어 두다`; `대비하다` (đối phó, phòng khi) là từ *(mở rộng)*.",
+      "kind": "writing"
+    },
+    {
+      "title": "Khung Viết 53 (khảo sát du lịch; số liệu trong bài tập là minh họa)",
+      "body": "• **Mở bài**: `여행객 N명을 대상으로 …을/를 조사한 결과`\n• **Xếp hạng**: `…이/가 가장 많았고 …이/가 그 뒤를 이었다`\n• **So sánh năm**: `작년에 비해 …이/가 증가하였다`\n• **Tỉ lệ**: `절반 가까이`, `약 N%`, `2배로 늘었다`",
+      "kind": "writing"
+    },
+    {
+      "title": "Viết 54: du lịch quá tải và du lịch có trách nhiệm (dàn ý, lưu ý)",
+      "body": "**Dàn ý:** (1) hiện trạng: lượng khách tăng nhanh ở một số điểm → (2) vấn đề: rác, tiếng ồn, giá thuê tăng, đời sống cư dân bị ảnh hưởng (nhấn mạnh **có thể**: `…을/를 겪을 수 있다`) → (3) giải pháp: giới hạn số khách, phân tán điểm đến, tôn trọng văn hóa và kinh tế địa phương, người đi du lịch thay đổi cách chọn.\n**Lưu ý:** dàn ý này tái dùng từ vựng của các bài 05–07 (소음, 쓰레기) nên là điểm **ôn xoắn** tốt. Bài mẫu không dùng số liệu thật.",
+      "kind": "writing"
+    },
+    {
+      "title": "🟢 Bài mẫu: Kế hoạch chuyến đi Busan (đầu ra của bài)",
+      "kind": "sample",
+      "body": "Đọc to bài mẫu, rồi thay bằng chuyến đi thật bạn đang định đi: đó là bài **Bước 5** ở phần Tạo câu. Mọi từ và mẫu câu trong bài đều đã học đến bài này.\n\n저는 다음 달에 친구 두 명과 함께 2박 3일로 부산에 여행을 갈 계획입니다. 첫날에는 아침 기차를 타고 부산에 도착한 다음에 바다 근처 게스트하우스에 체크인할 예정입니다. 둘째 날에는 유명한 시장을 둘러보고 저녁에는 맛집에 가 보려고 합니다. 마지막 날에는 오전에 체크아웃하고 오후 기차로 서울에 돌아올 예정입니다. 비용은 왕복 기차표와 숙박비, 식비까지 한 사람에 약 30만 원이 들 것 같습니다. 기차표는 날짜에 따라 가격이 달라서 미리 예매해 놓았습니다. 주말에는 숙박비가 비쌀 수밖에 없지만 세 명이 방 하나를 같이 쓰면 비용을 줄일 수 있습니다. 혹시 비가 많이 올 경우에는 바다 대신 박물관에 가기로 했습니다.\n\n*Bản dịch tham khảo:* Tháng sau tôi định cùng hai người bạn đi du lịch Busan 3 ngày 2 đêm. Ngày đầu, chúng tôi dự kiến đi tàu buổi sáng, đến Busan rồi nhận phòng ở một nhà nghỉ gần biển. Ngày thứ hai, chúng tôi định dạo một vòng khu chợ nổi tiếng và buổi tối thì thử đến một quán ngon. Ngày cuối, dự kiến trả phòng buổi sáng và đi tàu buổi chiều về Seoul. Chi phí, tính cả vé tàu khứ hồi, tiền ở và tiền ăn, chắc khoảng 300 nghìn won mỗi người. Vé tàu có giá khác nhau tùy theo ngày nên tôi đã đặt sẵn. Cuối tuần thì tiền ở đành phải đắt, nhưng nếu ba người ở chung một phòng thì có thể giảm chi phí. Lỡ trời mưa to thì chúng tôi đã quyết định đi bảo tàng thay cho biển.\n\n**Đoạn văn đi theo 3 bước:** (1) câu mở: khi nào, với ai, đi đâu, mấy ngày (`-(으)ㄹ 계획입니다`) → (2) lịch trình từng ngày (`첫날에는 … 둘째 날에는 … 마지막 날에는 …`, `-(으)ㄹ 예정입니다`, `-(으)려고 합니다`) → (3) chi phí và phương án dự phòng (`한 사람에 약 … 원이 들 것 같습니다`, `N에 따라`, `-(으)ㄹ 수밖에 없지만`, `혹시 … -(으)ㄹ 경우에는`)."
+    },
+    {
+      "title": "🟢 Khung câu kế hoạch chuyến đi",
+      "kind": "language",
+      "body": "• Câu mở: `저는 다음 달에 N과/와 함께 2박 3일로 …에 여행을 갈 계획입니다.`\n• Việc đã sắp xếp theo giờ, theo vé: `… 도착한 다음에 …에 체크인할 예정입니다.`\n• Việc bạn định làm: `저녁에는 맛집에 가 보려고 합니다.`\n• Chi phí: `비용은 … N까지 한 사람에 약 … 원이 들 것 같습니다.`\n• Tùy theo: `기차표는 날짜에 따라 가격이 달라서 미리 예매해 놓았습니다.`\n• Hoàn cảnh ép buộc: `주말에는 숙박비가 비쌀 수밖에 없지만 …`\n• Dự phòng: `혹시 비가 많이 올 경우에는 … 대신 …에 가기로 했습니다.`\n(Bản dịch tham khảo: tháng sau tôi định cùng … đi … 3 ngày 2 đêm / dự kiến đến … rồi nhận phòng / tôi định thử đến quán ngon / chi phí chắc khoảng … won mỗi người / giá vé khác nhau tùy ngày nên tôi đã đặt sẵn / cuối tuần tiền ở đành phải đắt nhưng … / lỡ mưa to thì đã quyết định đi … thay cho ….)"
+    },
+    {
+      "title": "Lỗi người Việt hay mắc trong bài này",
+      "body": "• Nhầm `예매하다` (vé) và `예약하다` (phòng, chỗ).\n• Đọc `1박 2일` như số thuần Hàn: ✗ 한 박 두 일 → ✓ **일 박 이 일**.\n• Dùng `-(으)ㄹ 계획이다` với chủ ngữ là vật: ✗ 비행기가 도착할 계획이에요 → ✓ 도착할 **예정**이에요.\n• Nhầm `-(으)ㄹ 수밖에 없다` với `-지 않으면 안 되다`: một là bị hoàn cảnh ép, một là bắt buộc phải làm.\n• Dùng `N에 따르면` thay `N에 따라`: ✗ 규정에 따르면 환불해 드립니다 (nên `규정에 따라`).\n• Chọn sai thể trong thư: trộn `-ㅂ니다` và `-아/어요` trong cùng văn bản.\n• Kể lịch trình mà không chia ngày: dùng `첫날에는 … 둘째 날에는 … 마지막 날에는 …` để người đọc theo kịp.\n• Chi phí: ✗ `30만 원을 들 것 같습니다` → ✓ `30만 원이 들 것 같습니다` (`들다` đi với `이/가`).\n• ✗ `혹시 비가 올 경우면` → ✓ `혹시 비가 올 경우에는` (`경우` là danh từ, đi với `에(는)`).",
+      "kind": "pitfall"
+    }
+  ],
+  "bank": "quan-he",
+  "coach": {
+    "focus_vi": [
+      "`-(으)ㄹ 계획이다` / `-(으)ㄹ 예정이다`: nói kế hoạch, dự kiến của chuyến đi.",
+      "`-(으)ㄹ 수밖에 없다`: chỉ còn cách (bị hoàn cảnh ép); `-(으)ㄹ 경우(에)`: trong trường hợp.",
+      "`N + 에 따라(서)`: tuỳ theo, căn cứ vào (quy định, mùa)."
+    ],
+    "watch_out_vi": [
+      "Chủ ngữ là vật (chuyến bay…) dùng `-(으)ㄹ 예정이다`, không dùng `-(으)ㄹ 계획이다` (✗ `비행기가 도착할 계획이에요`).",
+      "`N에 따라` (căn cứ, tuỳ theo) khác `N에 따르면` (theo nguồn tin): `규정에 따라 환불해 드립니다`."
+    ],
+    "notebook_vi": [
+      "Kế hoạch một chuyến đi của bạn bằng 4 câu: đi đâu, khi nào, ở đâu, làm gì.",
+      "Vé dùng `예매하다`, phòng và chỗ ở dùng `예약하다`; `1박 2일` đọc là `일 박 이 일`."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Nói kế hoạch đi đảo Jeju vào tháng sau.",
+        "answer": "다음 달에 제주도에 갈 계획이에요."
+      },
+      {
+        "prompt_vi": "Nói vì mưa to nên chỉ còn cách hoãn xuất phát.",
+        "answer": "비가 많이 와서 출발을 미룰 수밖에 없어요."
+      }
+    ],
+    "tip_vi": "Đọc mẫu quy định hủy và hoàn tiền (Đọc) rồi tự tóm tắt bằng lời của bạn: khi nào được hoàn tiền, khi nào mất phí."
+  },
+  "exercise_ids": [
+    "QL6",
+    "QL10",
+    "QL15",
+    "QLN66",
+    "QLN67",
+    "QLN68",
+    "QLN69",
+    "QLN70",
+    "QLN71",
+    "QD21",
+    "QD22",
+    "QU26L1",
+    "QR4",
+    "QR10",
+    "QU26R1",
+    "QSUP06",
+    "QW51D",
+    "QW53C",
+    "QW54E",
+    "QS3",
+    "QU26S1",
+    "QBO50",
+    "QBO51",
+    "QBO52",
+    "QBO53",
+    "QBO54",
+    "QBO55",
+    "QBO56",
+    "QBO57",
+    "QU26O1",
+    "QU26O2",
+    "QBF19",
+    "QBF20",
+    "QU26F1",
+    "QBC10",
+    "QU26C1",
+    "QBE10",
+    "QU26E1"
+  ],
+  "editor_notes": [
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "Đầu ra bài 26: đoạn 합쇼체 kế hoạch chuyến đi thật (đi đâu, lịch trình, chi phí, dự phòng) (QU26E1), nói 1 phút (QU26S1); bài đọc QU26R1 (Gyeongju dịp lễ), bài nghe QU26L1 (bàn chuyến Jeonju). Giữ QS3 (chuyến Jeju gặp bão, đề gốc của bài này). Không dùng `-아/어 두다` (thẻ bài 32) mà dùng `-아/어 놓다`; không dùng `구경하다` (thẻ bài 27) mà thêm `둘러보다`. `약 30만 원` dẫn về thẻ `약 … 배` của bài 13 (thẻ duy nhất có `약`). 15 thẻ thêm (`첫날 · 둘째 날 · 마지막 날` là một thẻ). remove_ids: QS2, QS4 (xin lỗi / nhờ hàng xóm về tiếng ồn, đề của bài 22), QS6 (ý kiến về tiếng ồn giữa các tầng, chủ đề hàng xóm), QS5 (khảo sát hoạt động kỳ nghỉ, đề gốc bài 27; trọng tâm là trải nghiệm văn hóa, bài nói mẫu dùng 퍼센트, 여전히 là thẻ bài 27). Giá vé, giá phòng là số minh họa."
+    }
+  ]
+}

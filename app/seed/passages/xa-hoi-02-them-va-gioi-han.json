@@ -1,0 +1,233 @@
+{
+  "lesson": "xa-hoi-02-them-va-gioi-han",
+  "items": [
+    {
+      "id": "xa-hoi-02-d1",
+      "kind": "dialogue",
+      "title_ko": "문화센터에 등록하기",
+      "title_vi": "Đăng ký ở trung tâm văn hoá",
+      "scene_vi": "Hai đồng nghiệp bàn việc đăng ký lớp ở trung tâm văn hoá gần nhà.",
+      "speakers": {
+        "F": "수진",
+        "M": "민호"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "민호 씨, 이번에 문화센터에서 새 강좌를 연다고 하던데 들었어요?",
+          "vi": "Anh Minho, nghe nói trung tâm văn hoá mở lớp mới, anh có nghe chưa?"
+        },
+        {
+          "who": "M",
+          "ko": "네, 요리 강좌 말고도 사진 강좌와 한글 서예 강좌가 있더라고요.",
+          "vi": "Có, ngoài lớp nấu ăn còn có lớp nhiếp ảnh và thư pháp Hangeul."
+        },
+        {
+          "who": "F",
+          "ko": "저는 사진에 관심이 있는데 설명만으로는 어떤 수업인지 잘 모르겠어요.",
+          "vi": "Tôi quan tâm đến nhiếp ảnh nhưng chỉ nghe mô tả thì không rõ lớp thế nào."
+        },
+        {
+          "who": "M",
+          "ko": "그럼 먼저 체험 수업을 들어 보세요. 신청은 인터넷으로 하면 돼요.",
+          "vi": "Vậy chị nghe thử một buổi trải nghiệm trước. Đăng ký qua mạng là được."
+        },
+        {
+          "who": "F",
+          "ko": "수강료는 어때요? 월급이 많지 않아서 걱정이에요.",
+          "vi": "Còn học phí thì sao? Lương không nhiều nên tôi lo."
+        },
+        {
+          "who": "M",
+          "ko": "이 지역 주민은 물론 직장인도 혜택을 받을 수 있어서 비싸지 않아요.",
+          "vi": "Cư dân khu này đã đành, người đi làm cũng được ưu đãi nên không đắt."
+        },
+        {
+          "who": "F",
+          "ko": "그래요? 그럼 제가 오늘 안에 신청할게요. 마감은 사흘뿐이니까요.",
+          "vi": "Thế à? Vậy tôi đăng ký ngay trong hôm nay. Vì chỉ còn ba ngày thôi."
+        },
+        {
+          "who": "M",
+          "ko": "좋은 생각이에요. 저도 같이 신청할게요.",
+          "vi": "Ý hay đấy. Tôi cũng sẽ đăng ký cùng."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "N + 말고(도) · N + 외에(도) · N + 이외에(도)",
+          "regex": "말고도"
+        },
+        {
+          "pattern": "N + 만으로(는) · V + -는 것만으로(도)",
+          "regex": "만으로는"
+        },
+        {
+          "pattern": "N + 은/는 물론(이고)",
+          "regex": "은 물론"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 뿐이다 · N + 일 뿐이다",
+          "regex": "사흘뿐이니까"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "혜택",
+          "seen": "혜택을"
+        },
+        {
+          "word": "월급",
+          "seen": "월급이"
+        },
+        {
+          "word": "마감",
+          "seen": "마감은"
+        },
+        {
+          "word": "관심",
+          "seen": "관심이"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Suhyeon biết gì về lớp mới?",
+          "options": [
+            "Chỉ có lớp nấu ăn",
+            "Còn có lớp nhiếp ảnh và thư pháp",
+            "Lớp nào cũng đã đầy"
+          ],
+          "answer": 1,
+          "explain_vi": "Minho nói «요리 강좌 말고도 사진 강좌와 한글 서예 강좌가 있더라고요»."
+        },
+        {
+          "q_vi": "Vì sao Suhyeon muốn nghe thử trước?",
+          "options": [
+            "Cô sợ học phí đắt",
+            "Chỉ nghe mô tả thì chưa rõ lớp thế nào",
+            "Cô đã học nhiếp ảnh"
+          ],
+          "answer": 1,
+          "explain_vi": "Cô nói «설명만으로는 어떤 수업인지 잘 모르겠어요»."
+        },
+        {
+          "q_vi": "Vì sao cô quyết định đăng ký ngay hôm nay?",
+          "options": [
+            "Cô vừa nhận lương",
+            "Hạn đăng ký chỉ còn ba ngày",
+            "Minho yêu cầu cô"
+          ],
+          "answer": 1,
+          "explain_vi": "Cô nói «마감은 사흘뿐이니까요»."
+        }
+      ]
+    },
+    {
+      "id": "xa-hoi-02-r1",
+      "kind": "reading",
+      "title_ko": "나누면 커지는 지식",
+      "title_vi": "Tri thức lớn lên khi được chia sẻ",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "지식은 나누면 커진다는 말이 있다.",
+          "vi": "Có câu rằng tri thức càng chia sẻ càng lớn."
+        },
+        {
+          "who": "N",
+          "ko": "요즘은 책을 읽는 것은 물론 인터넷 강의를 듣는 것만으로도 새로운 지식을 쉽게 얻을 수 있다.",
+          "vi": "Ngày nay, đọc sách đã đành, chỉ nghe bài giảng trên mạng cũng có thể dễ dàng tiếp thu tri thức mới."
+        },
+        {
+          "who": "N",
+          "ko": "그러나 아무리 많이 알아도 쓰지 못하면 그 지식은 장식일 뿐이다.",
+          "vi": "Nhưng dù biết nhiều đến đâu, nếu không dùng được thì tri thức ấy chỉ là đồ trang trí."
+        },
+        {
+          "who": "N",
+          "ko": "지식은 개인의 성장 외에도 사회 전체의 발전에 기여한다.",
+          "vi": "Tri thức ngoài sự trưởng thành của cá nhân còn đóng góp cho sự phát triển của toàn xã hội."
+        },
+        {
+          "who": "N",
+          "ko": "따라서 얻은 지식을 올바르게 활용하고 다른 사람과 공유하는 노력이 필요하다.",
+          "vi": "Vì vậy cần nỗ lực vận dụng đúng đắn tri thức thu được và chia sẻ với người khác."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "N + 은/는 물론(이고)",
+          "regex": "은 물론"
+        },
+        {
+          "pattern": "N + 만으로(는) · V + -는 것만으로(도)",
+          "regex": "것만으로도"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 뿐이다 · N + 일 뿐이다",
+          "regex": "장식일 뿐이다"
+        },
+        {
+          "pattern": "N + 말고(도) · N + 외에(도) · N + 이외에(도)",
+          "regex": "외에도"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "지식",
+          "seen": "지식은"
+        },
+        {
+          "word": "기여",
+          "seen": "기여한다"
+        },
+        {
+          "word": "올바르다",
+          "seen": "올바르게"
+        },
+        {
+          "word": "활용",
+          "seen": "활용하고"
+        },
+        {
+          "word": "공유",
+          "seen": "공유하는"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Theo bài, khi nào tri thức chỉ là đồ trang trí?",
+          "options": [
+            "Khi chia sẻ quá nhiều",
+            "Khi biết nhiều mà không vận dụng được",
+            "Khi chỉ đọc sách"
+          ],
+          "answer": 1,
+          "explain_vi": "Câu 3: «쓰지 못하면 그 지식은 장식일 뿐이다»."
+        },
+        {
+          "q_vi": "Tri thức đóng góp gì cho xã hội?",
+          "options": [
+            "Làm kinh tế tăng trưởng nhanh",
+            "Đóng góp cho sự phát triển toàn xã hội",
+            "Làm bài giảng trên mạng rẻ hơn"
+          ],
+          "answer": 1,
+          "explain_vi": "Câu 4: «사회 전체의 발전에 기여한다»."
+        },
+        {
+          "q_vi": "Tác giả kêu gọi điều gì?",
+          "options": [
+            "Vận dụng đúng và chia sẻ tri thức",
+            "Đọc nhiều sách hơn",
+            "Học bằng bài giảng trên mạng"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu cuối: «올바르게 활용하고 … 공유하는 노력이 필요하다»."
+        }
+      ]
+    }
+  ]
+}

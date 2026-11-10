@@ -1,0 +1,226 @@
+{
+  "lesson": "xa-hoi-16-y-hoc-suc-khoe",
+  "items": [
+    {
+      "id": "xa-hoi-16-d1",
+      "kind": "dialogue",
+      "title_ko": "건강 검진 결과",
+      "title_vi": "Kết quả khám sức khoẻ",
+      "scene_vi": "Hai đồng nghiệp trò chuyện sau khi nhận kết quả khám sức khoẻ (nội dung giả định).",
+      "speakers": {
+        "F": "수진",
+        "M": "민수"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "건강 검진 결과 받았어요? 저는 혈압이 조금 높게 나왔어요.",
+          "vi": "Bạn nhận kết quả khám sức khoẻ chưa? Huyết áp của tôi hơi cao."
+        },
+        {
+          "who": "M",
+          "ko": "저는 콜레스테롤 수치가 관리가 필요한 기준에 해당한대요.",
+          "vi": "Nghe nói chỉ số cholesterol của tôi thuộc mức cần quản lý."
+        },
+        {
+          "who": "F",
+          "ko": "몸에 이상이 있으면 증상이 나타날 법한데 저는 전혀 몰랐어요.",
+          "vi": "Cơ thể có vấn đề thì lẽ ra phải có triệu chứng, vậy mà tôi hoàn toàn không biết."
+        },
+        {
+          "who": "M",
+          "ko": "저도 그래요. 증상이 없는 경우가 많아서 방치하면 병이 악화될 수 있대요.",
+          "vi": "Tôi cũng vậy. Nghe nói nhiều khi không có triệu chứng nên nếu bỏ mặc thì bệnh có thể nặng thêm."
+        },
+        {
+          "who": "F",
+          "ko": "그래서 의사 선생님이 식습관을 바꾸고 운동을 하라고 하셨어요.",
+          "vi": "Vì vậy bác sĩ bảo tôi đổi thói quen ăn uống và tập thể dục."
+        },
+        {
+          "who": "M",
+          "ko": "운동은 혈압을 낮출뿐더러 기분도 좋게 해 준대요.",
+          "vi": "Nghe nói tập thể dục không những hạ huyết áp mà còn làm tâm trạng tốt hơn."
+        },
+        {
+          "who": "F",
+          "ko": "다음 달에 진료를 다시 예약해서 변화를 확인해 보려고요.",
+          "vi": "Tháng sau tôi định đặt lịch khám lại để xem sự thay đổi."
+        },
+        {
+          "who": "M",
+          "ko": "좋은 생각이에요. 우리 같이 건강 관리를 시작해 봐요.",
+          "vi": "Ý hay đấy. Chúng ta cùng bắt đầu chăm sóc sức khoẻ nhé."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "N + 에 해당하다 · N + 에 속하다 · N + 에 상당하다",
+          "regex": "해당한대요"
+        },
+        {
+          "pattern": "N + 을/를 -시키다 · N + 을/를 -화하다 · N + 이/가 -화되다",
+          "regex": "악화될"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 법하다 · V/A + -(으)ㄹ 뿐더러",
+          "regex": "낮출뿐더러"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "검진",
+          "seen": "검진"
+        },
+        {
+          "word": "혈압",
+          "seen": "혈압이"
+        },
+        {
+          "word": "콜레스테롤",
+          "seen": "콜레스테롤"
+        },
+        {
+          "word": "진료",
+          "seen": "진료를"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Hai người vừa nhận được gì?",
+          "options": [
+            "Kết quả khám sức khoẻ",
+            "Đơn thuốc mới",
+            "Giấy xuất viện"
+          ],
+          "answer": 0,
+          "explain_vi": "Nữ hỏi «건강 검진 결과 받았어요?»."
+        },
+        {
+          "q_vi": "Theo lời nam, vì sao bệnh có thể nặng thêm?",
+          "options": [
+            "Vì thường không có triệu chứng nên dễ bị bỏ mặc",
+            "Vì thuốc có nhiều tác dụng phụ",
+            "Vì phải nằm viện lâu ngày"
+          ],
+          "answer": 0,
+          "explain_vi": "Nam nói «증상이 없는 경우가 많아서 방치하면 병이 악화될 수 있대요»."
+        },
+        {
+          "q_vi": "Tháng sau nữ định làm gì?",
+          "options": [
+            "Đặt lịch khám lại để xem sự thay đổi",
+            "Đi phẫu thuật",
+            "Ngừng tập thể dục"
+          ],
+          "answer": 0,
+          "explain_vi": "Nữ nói «다음 달에 진료를 다시 예약해서 변화를 확인»."
+        }
+      ]
+    },
+    {
+      "id": "xa-hoi-16-r1",
+      "kind": "reading",
+      "title_ko": "기대수명과 건강수명",
+      "title_vi": "Tuổi thọ kỳ vọng và tuổi thọ khoẻ mạnh",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "2024년 한국인의 기대수명은 83.7세로, 남자는 80.8세, 여자는 86.6세였다.",
+          "vi": "Tuổi thọ kỳ vọng của người Hàn năm 2024 là 83,7 tuổi, nam 80,8 và nữ 86,6."
+        },
+        {
+          "who": "N",
+          "ko": "기대수명은 지금 태어난 아이가 앞으로 살 것으로 기대되는 평균 햇수를 뜻한다.",
+          "vi": "Tuổi thọ kỳ vọng là số năm trung bình mà một đứa trẻ sinh ra hôm nay được kỳ vọng sẽ sống."
+        },
+        {
+          "who": "N",
+          "ko": "그런데 오래 사는 것만큼 중요한 것은 아프지 않고 건강하게 사는 기간, 즉 건강수명이다.",
+          "vi": "Tuy nhiên điều quan trọng không kém việc sống lâu là khoảng thời gian sống khoẻ mạnh, không bệnh tật, tức tuổi thọ khoẻ mạnh."
+        },
+        {
+          "who": "N",
+          "ko": "만성 질환은 건강수명을 줄이는 대표적인 요인에 속하며, 관리하지 않으면 증상이 악화되어 합병증으로 이어질 수 있다.",
+          "vi": "Bệnh mạn tính thuộc nhóm yếu tố tiêu biểu làm giảm tuổi thọ khoẻ mạnh, và nếu không kiểm soát thì triệu chứng nặng thêm và có thể dẫn đến biến chứng."
+        },
+        {
+          "who": "N",
+          "ko": "정기적인 검진은 질환을 일찍 발견하게 해 줄뿐더러 치료 효과도 높인다.",
+          "vi": "Khám định kỳ không những giúp phát hiện bệnh sớm mà còn nâng cao hiệu quả điều trị."
+        },
+        {
+          "who": "N",
+          "ko": "따라서 기대수명을 늘리는 것뿐만 아니라 건강수명을 늘리는 정책이 필요하다.",
+          "vi": "Vì vậy cần chính sách không chỉ tăng tuổi thọ kỳ vọng mà còn tăng tuổi thọ khoẻ mạnh."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "N + 에 해당하다 · N + 에 속하다 · N + 에 상당하다",
+          "regex": "요인에 속하며"
+        },
+        {
+          "pattern": "N + 을/를 -시키다 · N + 을/를 -화하다 · N + 이/가 -화되다",
+          "regex": "악화되어"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 법하다 · V/A + -(으)ㄹ 뿐더러",
+          "regex": "줄뿐더러"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "기대수명",
+          "seen": "기대수명은"
+        },
+        {
+          "word": "건강수명",
+          "seen": "건강수명"
+        },
+        {
+          "word": "만성",
+          "seen": "만성"
+        },
+        {
+          "word": "합병증",
+          "seen": "합병증으로"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Tuổi thọ kỳ vọng của người Hàn năm 2024 là bao nhiêu?",
+          "options": [
+            "83,7 tuổi",
+            "80,8 tuổi",
+            "86,6 tuổi"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 1: «83.7세» (nam 80,8; nữ 86,6)."
+        },
+        {
+          "q_vi": "Tuổi thọ khoẻ mạnh nghĩa là gì?",
+          "options": [
+            "Khoảng thời gian sống khoẻ mạnh, không bệnh tật",
+            "Tổng số năm sống của một người",
+            "Số năm phải điều trị bệnh"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 3: «아프지 않고 건강하게 사는 기간»."
+        },
+        {
+          "q_vi": "Tác giả cho rằng cần chính sách nào?",
+          "options": [
+            "Chính sách tăng cả tuổi thọ khoẻ mạnh, không chỉ tuổi thọ kỳ vọng",
+            "Chính sách chỉ tăng tuổi thọ kỳ vọng",
+            "Chính sách giảm bảo hiểm y tế"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 6: «건강수명을 늘리는 정책이 필요하다»."
+        }
+      ]
+    }
+  ]
+}

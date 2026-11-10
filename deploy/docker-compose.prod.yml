@@ -1,0 +1,133 @@
+# Haru on one GCP VM: Postgres (pgvector) + Redis + API + Celery worker + Caddy (HTTPS).
+# Started by deploy/remote-up.sh on the VM; do not run it from your laptop.
+#
+#   /opt/haru/.env.prod     your secrets (local file you filled in; never in git)
+#   /opt/haru/compose.env   POSTGRES_PASSWORD (generated on the VM) and HARU_DOMAIN
+#   /opt/haru/src           this source tree (replaced by every `ship`)
+#
+# Only Caddy publishes ports (80/443). The database and Redis are reachable from the
+# containers of this project alone. DATABASE_URL / REDIS_URL are set HERE and win over
+# anything of the same name in .env.prod (so a Railway value pasted there is harmless).
+name: haru
+
+x-runtime: &runtime
+  env_file:
+    - ../../.env.prod
+  environment:
+    DATABASE_URL: postgresql+asyncpg://haru:${POSTGRES_PASSWORD:?run through deploy/remote-up.sh}@db:5432/haru
+    REDIS_URL: redis://redis:6379/0
+  restart: unless-stopped
+  logging:
+    driver: json-file
+    options: {max-size: "10m", max-file: "3"}
+
+services:
+  db:
+    image: pgvector/pgvector:pg18
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: haru
+      POSTGRES_DB: haru
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?run through deploy/remote-up.sh}
+    # Sized for a 2 GB VM that also runs the API and the worker.
+    command: >
+      postgres
+      -c shared_buffers=192MB
+      -c effective_cache_size=768MB
+      -c work_mem=8MB
+      -c maintenance_work_mem=64MB
+      -c max_connections=100
+    volumes:
+      # Postgres 18+ keeps its data in a versioned sub-directory of /var/lib/postgresql.
+      - pgdata:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U haru -d haru"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    mem_limit: 700m
+    logging:
+      driver: json-file
+      options: {max-size: "10m", max-file: "3"}
+
+  redis:
+    image: redis:8.2
+    restart: unless-stopped
+    # Celery's broker and the job-progress channel: never evict a queued task.
+    command: redis-server --appendonly yes --maxmemory 160mb --maxmemory-policy noeviction
+    volumes:
+      - redisdata:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    mem_limit: 220m
+    logging:
+      driver: json-file
+      options: {max-size: "10m", max-file: "3"}
+
+  api:
+    <<: *runtime
+    image: haru-backend:local
+    build:
+      context: ../
+      dockerfile: Dockerfile
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+    depends_on:
+      db: {condition: service_healthy}
+      redis: {condition: service_healthy}
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/healthz', timeout=4)"]
+      interval: 10s
+      timeout: 6s
+      retries: 30       # the API loads the seeded lessons before it answers: allow ~5 minutes
+      start_period: 40s
+    mem_limit: 500m
+
+  worker:
+    <<: *runtime
+    image: haru-backend:local
+    pull_policy: never
+    # -B: the beat scheduler (hourly quota reset, nightly backup, billing reconcile, editorial
+    # discovery) runs inside this one worker, exactly as on Railway.
+    # --max-memory-per-child: a child that voiced a lecture keeps ~450 MB of its RSS after the job (the
+    # joined recording is a few dozen MB, Python does not hand the freed blocks back). Left alone, the
+    # next lecture starts at 460 MB inside a 700 MB container, pushes into swap, and ffmpeg then needs
+    # minutes instead of seconds. A child above ~195 MB is replaced right after its task finishes.
+    # The MALLOC_* settings make glibc give big freed blocks (a recording's audio) back to the system
+    # instead of keeping them in per-thread arenas: a 33-minute lecture peaks at ~170 MiB, not ~330.
+    command: >
+      env MALLOC_ARENA_MAX=2 MALLOC_MMAP_THRESHOLD_=131072 MALLOC_TRIM_THRESHOLD_=131072
+      celery -A app.core.celery_app worker --loglevel=info --concurrency=2
+      --max-memory-per-child=200000 --max-tasks-per-child=50 -B
+    depends_on:
+      db: {condition: service_healthy}
+      redis: {condition: service_healthy}
+    mem_limit: 700m
+
+  caddy:
+    image: caddy:2
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      HARU_DOMAIN: ${HARU_DOMAIN:?run through deploy/remote-up.sh}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - /opt/haru/mcp:/run/haru-mcp
+      - caddy_data:/data      # the certificates: keep them, Let's Encrypt limits re-issuing
+      - caddy_config:/config
+    depends_on:
+      api: {condition: service_started}   # get the certificate while the API is still loading
+    mem_limit: 100m
+    logging:
+      driver: json-file
+      options: {max-size: "10m", max-file: "3"}
+
+volumes:
+  pgdata:
+  redisdata:
+  caddy_data:
+  caddy_config:

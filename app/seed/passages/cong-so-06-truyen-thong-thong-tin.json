@@ -1,0 +1,211 @@
+{
+  "lesson": "cong-so-06-truyen-thong-thong-tin",
+  "items": [
+    {
+      "id": "cong-so-06-d1",
+      "kind": "dialogue",
+      "title_ko": "사무실 이전 소문",
+      "title_vi": "Tin đồn chuyển văn phòng",
+      "scene_vi": "Hai đồng nghiệp bàn tán về tin đồn công ty sẽ chuyển văn phòng.",
+      "speakers": {
+        "F": "수진",
+        "M": "민호"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "민호 씨, 회사가 다음 달에 사무실을 옮긴다는 소문 들었어요?",
+          "vi": "Minho, anh nghe tin đồn tháng sau công ty chuyển văn phòng chưa?"
+        },
+        {
+          "who": "M",
+          "ko": "네, 뉴스에서도 비슷한 보도가 나왔다고 하더라고요. 그런데 정확한 출처는 모르겠어요.",
+          "vi": "Có, nghe nói trên bản tin cũng có chuyện tương tự. Nhưng tôi không rõ nguồn chính xác."
+        },
+        {
+          "who": "F",
+          "ko": "저는 팀장님을 비롯해 몇몇 분이 이미 알고 계신다고 들었어요.",
+          "vi": "Tôi nghe nói một vài người, bắt đầu từ trưởng nhóm, đã biết rồi."
+        },
+        {
+          "who": "M",
+          "ko": "지난 설문 조사에서는 직원의 70%가 이전에 찬성하는 것으로 나타났다고 해요.",
+          "vi": "Nghe nói trong khảo sát lần trước, 70% nhân viên tán thành việc chuyển."
+        },
+        {
+          "who": "F",
+          "ko": "그래도 공식 발표를 확인하는 게 먼저겠죠. 정확한 정보야말로 지금 가장 필요해요.",
+          "vi": "Dù vậy vẫn nên xác nhận thông báo chính thức trước. Chính thông tin chính xác là thứ cần nhất lúc này."
+        },
+        {
+          "who": "M",
+          "ko": "맞아요. 발표가 나올 때까지 기다려 봐요.",
+          "vi": "Đúng vậy. Chờ đến khi có thông báo nhé."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V/A + -(ㄴ/는)다고 하다 · -다는 + N",
+          "regex": "옮긴다는 소문"
+        },
+        {
+          "pattern": "N + 을/를 비롯해(서) · N + 을/를 비롯한 N",
+          "regex": "팀장님을 비롯해"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 것으로 나타나다 · 알려지다 · 조사되다",
+          "regex": "찬성하는 것으로 나타났다고"
+        },
+        {
+          "pattern": "N + (이)야말로",
+          "regex": "정보야말로"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "출처",
+          "seen": "출처는"
+        },
+        {
+          "word": "정확하다",
+          "seen": "정확한"
+        },
+        {
+          "word": "보도하다",
+          "seen": "보도가"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Tin đồn là gì?",
+          "options": [
+            "Công ty sẽ chuyển văn phòng vào tháng sau",
+            "Công ty sẽ đóng cửa",
+            "Lương sẽ tăng",
+            "Trưởng nhóm sẽ nghỉ việc"
+          ],
+          "answer": 0,
+          "explain_vi": "Suzin hỏi «다음 달에 사무실을 옮긴다는 소문»."
+        },
+        {
+          "q_vi": "Hai người quyết định làm gì?",
+          "options": [
+            "Chờ thông báo chính thức",
+            "Chia sẻ tin cho mọi người",
+            "Hỏi trưởng nhóm ngay",
+            "Viết bình luận trên mạng"
+          ],
+          "answer": 0,
+          "explain_vi": "Minho nói «발표가 나올 때까지 기다려 봐요»."
+        }
+      ]
+    },
+    {
+      "id": "cong-so-06-r1",
+      "kind": "reading",
+      "title_ko": "가짜 뉴스를 만난 날",
+      "title_vi": "Ngày tôi gặp tin giả",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "어제 SNS에서 이번 주말에 지하철 요금이 두 배로 오른다는 글을 보았다.",
+          "vi": "Hôm qua tôi thấy trên SNS một bài viết nói cuối tuần này giá vé tàu điện sẽ tăng gấp đôi."
+        },
+        {
+          "who": "N",
+          "ko": "너무 놀란 나머지 친구들에게 바로 공유하려고 했다.",
+          "vi": "Tôi giật mình quá nên định chia sẻ ngay cho bạn bè."
+        },
+        {
+          "who": "N",
+          "ko": "그런데 글을 올린 사람의 이름도, 정확한 출처도 없었다.",
+          "vi": "Nhưng bài viết không có cả tên người đăng lẫn nguồn chính xác."
+        },
+        {
+          "who": "N",
+          "ko": "뉴스를 확인했더니 그런 계획은 없다고 했다.",
+          "vi": "Tôi xem tin tức thì họ nói không có kế hoạch như vậy."
+        },
+        {
+          "who": "N",
+          "ko": "서울을 비롯해 전국에서 같은 글이 퍼져 많은 사람이 속은 것으로 알려졌다.",
+          "vi": "Cùng một bài viết lan khắp cả nước, tiêu biểu là Seoul, và được biết là nhiều người đã bị lừa."
+        },
+        {
+          "who": "N",
+          "ko": "정보를 공유하기 전에 출처를 확인하는 습관이야말로 가짜 뉴스를 막는 첫걸음이라는 것을 깨달았다.",
+          "vi": "Tôi nhận ra rằng chính thói quen kiểm tra nguồn trước khi chia sẻ mới là bước đầu để chặn tin giả."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V/A + -(ㄴ/는)다고 하다 · -다는 + N",
+          "regex": "오른다는 글"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 것으로 나타나다 · 알려지다 · 조사되다",
+          "regex": "속은 것으로 알려졌다"
+        },
+        {
+          "pattern": "N + 을/를 비롯해(서) · N + 을/를 비롯한 N",
+          "regex": "서울을 비롯해"
+        },
+        {
+          "pattern": "N + (이)야말로",
+          "regex": "습관이야말로"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "공유하다",
+          "seen": "공유하려고"
+        },
+        {
+          "word": "출처",
+          "seen": "출처도"
+        },
+        {
+          "word": "가짜 뉴스",
+          "seen": "가짜 뉴스를"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "속다",
+          "vi": "bị lừa",
+          "seen": "속은"
+        },
+        {
+          "ko": "첫걸음",
+          "vi": "bước đầu tiên",
+          "seen": "첫걸음이라는"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Vì sao người viết định chia sẻ ngay bài đăng?",
+          "options": [
+            "Vì quá ngạc nhiên",
+            "Vì bài có nguồn rõ ràng",
+            "Vì bạn bè nhờ",
+            "Vì muốn quảng cáo"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 2: «너무 놀란 나머지 …공유하려고 했다»."
+        },
+        {
+          "q_vi": "Xem tin tức xong, người viết biết điều gì?",
+          "options": [
+            "Không có kế hoạch tăng giá vé như vậy",
+            "Giá vé sẽ tăng gấp đôi",
+            "Bài viết là thông báo chính thức",
+            "Người đăng là phóng viên"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 4: «뉴스를 확인했더니 그런 계획은 없다고 했다»."
+        }
+      ]
+    }
+  ]
+}

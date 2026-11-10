@@ -1,0 +1,281 @@
+{
+  "lesson": "quan-he-11-ky-nghi-van-hoa",
+  "items": [
+    {
+      "id": "quan-he-11-d1",
+      "kind": "dialogue",
+      "title_ko": "한옥 체험",
+      "title_vi": "Trải nghiệm nhà hanok",
+      "scene_vi": "Hai người bạn là 유진 và 마크 gặp nhau sau kỳ nghỉ. 마크 kể về chuyến ở nhà hanok.",
+      "speakers": {
+        "F": "유진",
+        "M": "마크"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "마크 씨, 방학에 한옥 체험을 했어요?",
+          "vi": "Mark, kỳ nghỉ này anh đã trải nghiệm ở nhà hanok phải không?"
+        },
+        {
+          "who": "M",
+          "ko": "네, 전주에 있는 한옥에서 이틀 동안 지냈어요. 한복을 입어 보고 사진도 많이 찍었어요.",
+          "vi": "Vâng, tôi đã ở hai ngày trong một ngôi nhà hanok ở Jeonju. Tôi mặc thử hanbok và chụp nhiều ảnh nữa."
+        },
+        {
+          "who": "F",
+          "ko": "와, 부러워요. 한옥은 어땠어요? 불편하지 않았어요?",
+          "vi": "Ồ, tôi ghen tị quá. Nhà hanok thế nào? Có bất tiện không?"
+        },
+        {
+          "who": "M",
+          "ko": "처음에는 낯설었지만 지내 보니까 편하더라고요. 겨울에도 바닥이 따뜻하더라고요.",
+          "vi": "Lúc đầu thấy lạ lẫm nhưng ở thử rồi thì thấy thoải mái. Ngay cả mùa đông sàn nhà cũng ấm."
+        },
+        {
+          "who": "F",
+          "ko": "한옥은 조금 불편한 반면에 자연과 가까운 느낌이 좋지요?",
+          "vi": "Nhà hanok tuy hơi bất tiện nhưng cảm giác gần gũi với thiên nhiên rất tuyệt đúng không?"
+        },
+        {
+          "who": "M",
+          "ko": "맞아요. 친구 덕분에 좋은 곳을 알았어요. 그 친구가 전통 문화 체험이라는 프로그램을 알려 줬어요.",
+          "vi": "Đúng vậy. Nhờ bạn mà tôi biết được một nơi tốt. Bạn ấy đã chỉ cho tôi một chương trình tên là trải nghiệm văn hóa truyền thống."
+        },
+        {
+          "who": "F",
+          "ko": "저도 한번 가 보고 싶어요. 다음 방학에는 저도 해 봤으면 좋겠어요.",
+          "vi": "Tôi cũng muốn đi thử một lần. Kỳ nghỉ sau, tôi mong cũng được thử."
+        },
+        {
+          "who": "M",
+          "ko": "꼭 가 보세요. 한복도 입어 보면 기분이 정말 좋아요.",
+          "vi": "Chị nhất định hãy đi thử. Mặc thử hanbok cũng khiến tâm trạng rất vui."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -았/었으면 좋겠다",
+          "regex": "해 봤으면 좋겠어요"
+        },
+        {
+          "pattern": "V/A + -더라고요",
+          "regex": "편하더라고요|따뜻하더라고요"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 반면(에) · N + 인 반면(에)",
+          "regex": "불편한 반면에"
+        },
+        {
+          "pattern": "N + 덕분에 · V + -(으)ㄴ/는 덕분에",
+          "regex": "친구 덕분에"
+        },
+        {
+          "pattern": "N + (이)라는 + N",
+          "regex": "체험이라는 프로그램"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "방학",
+          "seen": "방학에"
+        },
+        {
+          "word": "한옥",
+          "seen": "한옥"
+        },
+        {
+          "word": "체험(하다)",
+          "seen": "체험을"
+        },
+        {
+          "word": "한복을 입어 보다",
+          "seen": "한복을 입어 보고"
+        },
+        {
+          "word": "사진을 찍다",
+          "seen": "사진도 많이 찍었어요"
+        },
+        {
+          "word": "낯설다",
+          "seen": "낯설었지만"
+        },
+        {
+          "word": "전통",
+          "seen": "전통 문화"
+        },
+        {
+          "word": "프로그램",
+          "seen": "프로그램을"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "부럽다",
+          "vi": "ghen tị, thèm muốn",
+          "seen": "부러워요"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "마크 đã ở hanok ở đâu?",
+          "options": [
+            "Ở Seoul",
+            "Ở Jeonju",
+            "Ở đảo Jeju"
+          ],
+          "answer": 1,
+          "explain_vi": "마크 nói “전주에 있는 한옥에서 이틀 동안 지냈어요”: anh ở nhà hanok ở Jeonju hai ngày."
+        },
+        {
+          "q_vi": "마크 biết chương trình trải nghiệm này nhờ ai?",
+          "options": [
+            "Nhờ một người bạn",
+            "Nhờ quảng cáo trên TV",
+            "Nhờ thầy cô ở trường"
+          ],
+          "answer": 0,
+          "explain_vi": "“친구 덕분에 좋은 곳을 알았어요”: nhờ người bạn mà anh biết được chương trình này."
+        },
+        {
+          "q_vi": "Vào mùa đông, nhà hanok thế nào theo 마크?",
+          "options": [
+            "Sàn nhà ấm",
+            "Rất lạnh",
+            "Rất ồn"
+          ],
+          "answer": 0,
+          "explain_vi": "“겨울에도 바닥이 따뜻하더라고요”: ngay cả mùa đông sàn nhà vẫn ấm."
+        }
+      ]
+    },
+    {
+      "id": "quan-he-11-r1",
+      "kind": "reading",
+      "title_ko": "문화 체험 후기",
+      "title_vi": "Cảm nhận sau khi trải nghiệm văn hóa",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "이번 방학에 저는 한국 전통 문화 프로그램에 참가했습니다.",
+          "vi": "Kỳ nghỉ này tôi đã tham gia một chương trình văn hóa truyền thống Hàn Quốc."
+        },
+        {
+          "who": "N",
+          "ko": "첫날에는 한복을 입어 보고 한옥에서 사진을 찍었습니다.",
+          "vi": "Ngày đầu tôi mặc thử hanbok và chụp ảnh ở nhà hanok."
+        },
+        {
+          "who": "N",
+          "ko": "둘째 날에는 도자기를 직접 만들어 보니까 생각보다 어려웠습니다.",
+          "vi": "Ngày thứ hai tôi tự tay làm đồ gốm và thấy khó hơn mình nghĩ."
+        },
+        {
+          "who": "N",
+          "ko": "도자기 선생님께서 말씀하신 장인 정신이라는 말이 인상 깊었습니다.",
+          "vi": "Cụm từ “tinh thần nghệ nhân” mà thầy dạy gốm nói đã để lại ấn tượng sâu sắc trong tôi."
+        },
+        {
+          "who": "N",
+          "ko": "만드는 과정은 힘든 반면에 완성한 도자기를 보니까 보람 있었습니다.",
+          "vi": "Quá trình làm thì vất vả, nhưng nhìn món đồ gốm đã hoàn thành thì thấy xứng đáng."
+        },
+        {
+          "who": "N",
+          "ko": "함께 참가한 친구들 덕분에 외롭지 않았습니다.",
+          "vi": "Nhờ những người bạn cùng tham gia mà tôi không thấy cô đơn."
+        },
+        {
+          "who": "N",
+          "ko": "다음 방학에도 이런 프로그램에 또 참가했으면 좋겠습니다.",
+          "vi": "Kỳ nghỉ sau tôi mong lại được tham gia chương trình như thế này."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -았/었으면 좋겠다",
+          "regex": "참가했으면 좋겠습니다"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 반면(에) · N + 인 반면(에)",
+          "regex": "힘든 반면에"
+        },
+        {
+          "pattern": "N + 덕분에 · V + -(으)ㄴ/는 덕분에",
+          "regex": "친구들 덕분에"
+        },
+        {
+          "pattern": "N + (이)라는 + N",
+          "regex": "장인 정신이라는 말"
+        },
+        {
+          "pattern": "V + -(으)니까 (보니까)",
+          "regex": "만들어 보니까|보니까"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "방학",
+          "seen": "방학에"
+        },
+        {
+          "word": "프로그램",
+          "seen": "프로그램에"
+        },
+        {
+          "word": "참가하다",
+          "seen": "참가했습니다"
+        },
+        {
+          "word": "한복을 입어 보다",
+          "seen": "한복을 입어 보고"
+        },
+        {
+          "word": "도자기",
+          "seen": "도자기를"
+        },
+        {
+          "word": "장인 정신",
+          "seen": "장인 정신이라는"
+        },
+        {
+          "word": "인상 깊다",
+          "seen": "인상 깊었습니다"
+        },
+        {
+          "word": "보람 있다",
+          "seen": "보람 있었습니다"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "완성하다",
+          "vi": "hoàn thành, làm xong",
+          "seen": "완성한"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Ngày thứ hai người viết đã làm gì?",
+          "options": [
+            "Mặc thử hanbok",
+            "Tự tay làm đồ gốm",
+            "Đi dạo ở hanok"
+          ],
+          "answer": 1,
+          "explain_vi": "“둘째 날에는 도자기를 직접 만들어 보니까 생각보다 어려웠습니다”: ngày thứ hai tự tay làm đồ gốm."
+        },
+        {
+          "q_vi": "Vì sao người viết không thấy cô đơn?",
+          "options": [
+            "Nhờ các bạn cùng tham gia",
+            "Nhờ thầy giáo",
+            "Vì ở nhà một mình"
+          ],
+          "answer": 0,
+          "explain_vi": "“함께 참가한 친구들 덕분에 외롭지 않았습니다”: nhờ các bạn cùng tham gia nên không thấy cô đơn."
+        }
+      ]
+    }
+  ]
+}

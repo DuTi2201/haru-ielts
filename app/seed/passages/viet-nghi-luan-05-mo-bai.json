@@ -1,0 +1,189 @@
+{
+  "lesson": "viet-nghi-luan-05-mo-bai",
+  "items": [
+    {
+      "id": "viet-nghi-luan-05-d1",
+      "kind": "dialogue",
+      "title_ko": "문제를 그대로 쓰면 안 돼요",
+      "title_vi": "Không được chép nguyên đề",
+      "scene_vi": "Hai bạn học tiếng Hàn ôn đề viết ở thư viện; một người hỏi cách viết câu mở bài.",
+      "speakers": {
+        "F": "유나",
+        "M": "태민"
+      },
+      "lines": [
+        {
+          "who": "M",
+          "ko": "유나 씨, 54번에서 문제의 첫 문장을 그대로 써도 돼요?",
+          "vi": "Yuna, ở câu 54 có được chép nguyên câu đầu của đề không?"
+        },
+        {
+          "who": "F",
+          "ko": "아니요. 문제에 ‘그대로 옮겨 쓰지 마시오’라는 말이 있어요.",
+          "vi": "Không. Trong đề có dòng dặn là đừng chép nguyên."
+        },
+        {
+          "who": "M",
+          "ko": "그러면 어떻게 써요? 저는 바꿀 말이 없어요.",
+          "vi": "Vậy viết thế nào? Tôi không biết đổi từ nào."
+        },
+        {
+          "who": "F",
+          "ko": "‘최근’ 대신 ‘오늘날’을 쓰고, ‘늘고 있다’는 ‘늘어나는 추세이다’로 바꿔 보세요.",
+          "vi": "Thay «최근» bằng «오늘날», và đổi «늘고 있다» sang mẫu có từ «추세» thử xem."
+        },
+        {
+          "who": "M",
+          "ko": "아, 그러면 ‘장점’은 ‘긍정적인 측면’이라고 하면 되겠네요.",
+          "vi": "À, vậy có thể gọi «장점» là mặt tích cực («긍정적» + «측면»)."
+        },
+        {
+          "who": "F",
+          "ko": "맞아요. 마지막 문장은 ‘이에 본 글에서는 … 살펴보고자 한다’로 쓰세요.",
+          "vi": "Đúng. Câu cuối báo trước nội dung bài, mở đầu bằng «이에»."
+        },
+        {
+          "who": "M",
+          "ko": "그럼 도입은 세 문장이면 돼요?",
+          "vi": "Vậy phần mở bài chỉ cần ba câu thôi sao?"
+        },
+        {
+          "who": "F",
+          "ko": "네, 세 문장이면 충분해요. 너무 길게 쓰지 마세요.",
+          "vi": "Ừ, ba câu là đủ. Đừng viết quá dài."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -는 추세이다 · V + -고 있는 추세이다",
+          "regex": "추세이다"
+        },
+        {
+          "pattern": "V + -고자 한다",
+          "regex": "고자 한다"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "추세",
+          "seen": "추세이다"
+        },
+        {
+          "word": "측면",
+          "seen": "측면"
+        },
+        {
+          "word": "살펴보다",
+          "seen": "살펴보고자"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Yuna khuyên làm gì với câu đầu của đề?",
+          "options": [
+            "Chép nguyên cho chắc",
+            "Đổi cách nói, không chép nguyên",
+            "Bỏ không viết"
+          ],
+          "answer": 1,
+          "explain_vi": "Yuna nhắc đề có dòng dặn đừng chép nguyên; hãy đổi từ thời gian và động từ."
+        },
+        {
+          "q_vi": "Mở bài theo Yuna cần mấy câu?",
+          "options": [
+            "Mười câu",
+            "Một câu",
+            "Ba câu"
+          ],
+          "answer": 2,
+          "explain_vi": "Cuối hội thoại: ba câu là đủ."
+        }
+      ]
+    },
+    {
+      "id": "viet-nghi-luan-05-r1",
+      "kind": "reading",
+      "title_ko": "1인 가구와 우리 사회",
+      "title_vi": "Hộ một người và xã hội của chúng ta",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "오늘날 1인 가구가 급증하면서 사회 구조가 빠르게 달라지고 있다.",
+          "vi": "Ngày nay, khi hộ một người tăng vọt, cấu trúc xã hội đang thay đổi nhanh."
+        },
+        {
+          "who": "N",
+          "ko": "이러한 변화는 생활의 여러 분야에서 새로운 문제로 떠오르고 있다.",
+          "vi": "Sự thay đổi này đang nổi lên thành vấn đề mới ở nhiều lĩnh vực của đời sống."
+        },
+        {
+          "who": "N",
+          "ko": "이에 본 글에서는 1인 가구 증가의 원인과 영향, 그리고 대응 방안을 살펴보고자 한다.",
+          "vi": "Vì vậy, trong bài này sẽ xem xét nguyên nhân và ảnh hưởng của sự gia tăng hộ một người, cùng đối sách."
+        },
+        {
+          "who": "N",
+          "ko": "먼저 1인 가구가 늘어나는 가장 큰 원인은 결혼과 가족에 대한 생각의 변화이다.",
+          "vi": "Trước hết, nguyên nhân lớn nhất là sự thay đổi trong suy nghĩ về hôn nhân và gia đình."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V/A + -(으)면서 (hai thay đổi cùng lúc)",
+          "regex": "급증하면서"
+        },
+        {
+          "pattern": "N + (으)로 떠오르다 · N + 이/가 주목받다",
+          "regex": "문제로 떠오르"
+        },
+        {
+          "pattern": "V + -고자 한다",
+          "regex": "고자 한다"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "급증하다",
+          "seen": "급증하면서"
+        },
+        {
+          "word": "떠오르다",
+          "seen": "떠오르고"
+        },
+        {
+          "word": "살펴보다",
+          "seen": "살펴보고자"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "구조",
+          "vi": "cấu trúc"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Câu thứ ba của đoạn làm gì?",
+          "options": [
+            "Nêu ví dụ",
+            "Báo trước nội dung sẽ viết",
+            "Rút ra kết luận"
+          ],
+          "answer": 1,
+          "explain_vi": "Câu ba bắt đầu bằng «이에 본 글에서는» và kết bằng «살펴보고자 한다»: báo trước nội dung."
+        },
+        {
+          "q_vi": "Theo câu cuối, nguyên nhân lớn nhất là gì?",
+          "options": [
+            "Giá nhà tăng",
+            "Suy nghĩ về hôn nhân và gia đình đã đổi",
+            "Dân số trẻ tăng"
+          ],
+          "answer": 1,
+          "explain_vi": "Câu cuối: nguyên nhân lớn nhất là suy nghĩ về hôn nhân và gia đình thay đổi."
+        }
+      ]
+    }
+  ]
+}

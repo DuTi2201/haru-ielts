@@ -1,0 +1,4141 @@
+{
+  "skill": "build",
+  "guide": [
+    {
+      "title_vi": "Cách tạo câu",
+      "bullets_vi": [
+        "Tìm **vị ngữ** (đuôi `-요/-습니다`) và mẫu ngữ pháp trước, rồi xếp chủ ngữ, trạng ngữ và tân ngữ vào đúng chỗ.",
+        "Mảnh thừa là **dạng sai** (chia sai, trợ từ sai); đừng dùng chúng.",
+        "Câu nối (rung 3) cho điểm theo từng chỗ trống: đúng mẫu, đúng chia từ, đúng đuôi câu."
+      ]
+    },
+    {
+      "title_vi": "Ghi nhớ",
+      "body_vi": "Khi mẫu cần đúng dạng (`-(으)ㄹ 뿐만 아니라`, `-(으)ㄴ 대신`), hãy đọc to cả câu và kiểm tra patchim trước khi nộp."
+    }
+  ],
+  "items": [
+    {
+      "id": "C34B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Công ty tốt cả lương lẫn phúc lợi",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Công ty này không chỉ lương cao mà phúc lợi cũng tốt.",
+      "tiles": [
+        "회사는",
+        "복리후생도",
+        "이",
+        "뿐만",
+        "월급이",
+        "아니라",
+        "좋아요.",
+        "많을",
+        "많은"
+      ],
+      "answers": [
+        "이 회사는 월급이 많을 뿐만 아니라 복리후생도 좋아요.",
+        "월급이 많을 뿐만 아니라 이 회사는 복리후생도 좋아요."
+      ],
+      "explain_vi": "`많다` + `-(으)ㄹ 뿐만 아니라` → `많을 뿐만 아니라`. `많은` là dạng định ngữ, không đi với `뿐만 아니라`."
+    },
+    {
+      "id": "C34B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Lương thấp, đổi lại giờ tự do",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Lương tuy thấp nhưng đổi lại giờ làm việc tự do.",
+      "tiles": [
+        "근무",
+        "월급이",
+        "대신",
+        "시간이",
+        "적은",
+        "자유로워요.",
+        "적을"
+      ],
+      "answers": [
+        "월급이 적은 대신 근무 시간이 자유로워요."
+      ],
+      "explain_vi": "Tính từ + `-(으)ㄴ 대신`: `적은 대신`. `적을` là dạng của `-(으)ㄹ`, không dùng cho `대신`."
+    },
+    {
+      "id": "C34B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Dù chuẩn bị kỹ vẫn bị loại",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Dù đã chuẩn bị kỹ, tôi vẫn bị loại ở vòng phỏng vấn.",
+      "tiles": [
+        "저는",
+        "열심히",
+        "불구하고",
+        "준비했지만",
+        "면접에서",
+        "준비했음에도",
+        "탈락했어요."
+      ],
+      "answers": [
+        "열심히 준비했음에도 불구하고 저는 면접에서 탈락했어요.",
+        "저는 열심히 준비했음에도 불구하고 면접에서 탈락했어요."
+      ],
+      "explain_vi": "`-음에도 불구하고` đi liền nhau. `준비했지만` đã mang nghĩa «nhưng», không ghép với `불구하고`."
+    },
+    {
+      "id": "C34F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 3,
+      "number": "Bước 3",
+      "title_vi": "Tạo câu · Nối câu: hai ý cùng chiều và đánh đổi",
+      "points": 6,
+      "instruction_vi": "Nối hai câu thành một câu bằng mẫu trong ngoặc.",
+      "context_vi": "Nối câu",
+      "text": "① 이 일은 월급이 많아요. 근무 시간도 짧아요. (-(으)ㄹ 뿐만 아니라)\n→ ( ㉠ ).\n② 월급은 적어요. 근무 시간이 자유로워요. (-(으)ㄴ 대신)\n→ ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "이 일은 월급이 많을 뿐만 아니라 근무 시간도 짧아요",
+            "이 일은 월급이 많을 뿐만 아니라 근무 시간도 짧습니다"
+          ],
+          "common_errors_vi": "Vế trước dùng `많을 뿐만 아니라`; vế sau giữ `도`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "월급은 적은 대신 근무 시간이 자유로워요",
+            "월급이 적은 대신 근무 시간이 자유로워요",
+            "월급은 적은 대신 근무 시간이 자유롭습니다",
+            "월급이 적은 대신 근무 시간이 자유롭습니다"
+          ],
+          "common_errors_vi": "Tính từ `적다` → `적은 대신`; `자유롭다` (ㅂ bất quy tắc) → `자유로워요`."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "C35B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Gửi tài liệu qua email",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Tôi đã gửi tài liệu qua email.",
+      "tiles": [
+        "자료를",
+        "이메일을",
+        "보내",
+        "통해",
+        "드렸습니다.",
+        "이메일이",
+        "통한"
+      ],
+      "answers": [
+        "이메일을 통해 자료를 보내 드렸습니다.",
+        "자료를 이메일을 통해 보내 드렸습니다."
+      ],
+      "explain_vi": "`N을/를 통해` + động từ. `통한` là dạng định ngữ (đứng trước danh từ) nên không dùng ở đây; `이메일이` sai trợ từ."
+    },
+    {
+      "id": "C35B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Hứa báo cáo ngay khi họp xong",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Ngay khi cuộc họp kết thúc, tôi sẽ báo cáo kết quả.",
+      "tiles": [
+        "결과를",
+        "회의가",
+        "끝나는",
+        "대로",
+        "보고드리겠습니다.",
+        "끝나서"
+      ],
+      "answers": [
+        "회의가 끝나는 대로 결과를 보고드리겠습니다."
+      ],
+      "explain_vi": "`회의가 끝나는 대로` = ngay khi họp xong. `끝나서` (vì xong nên) không ghép với `대로`."
+    },
+    {
+      "id": "C35B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Nhân tiện đi công tác",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Nhân tiện đi công tác, tôi định ghé đối tác nữa.",
+      "tiles": [
+        "출장",
+        "가는",
+        "김에",
+        "거래처에도",
+        "들르려고",
+        "해요.",
+        "가서"
+      ],
+      "answers": [
+        "출장 가는 김에 거래처에도 들르려고 해요."
+      ],
+      "explain_vi": "`출장 가는 김에` (nhân tiện đi công tác) rồi mới đến việc làm thêm. `가서` là «đi rồi», không ghép với `김에`."
+    },
+    {
+      "id": "C35F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 3,
+      "number": "Bước 3",
+      "title_vi": "Tạo câu · Nối câu bằng -는 대로 và -는 김에",
+      "points": 6,
+      "instruction_vi": "Nối hai câu thành một câu bằng mẫu trong ngoặc.",
+      "context_vi": "Nối câu",
+      "text": "① 회의가 끝났어요. 바로 결과를 보고하겠습니다. (-는 대로)\n→ ( ㉠ ).\n② 출장을 가요. 거래처에도 들를 거예요. (-는 김에)\n→ ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "회의가 끝나는 대로 결과를 보고하겠습니다",
+            "회의가 끝나는 대로 결과를 보고드리겠습니다",
+            "회의가 끝나는 대로 결과를 보고할게요",
+            "회의가 끝나는 대로 결과를 보고드릴게요",
+            "회의가 끝나는 대로 보고하겠습니다",
+            "회의가 끝나는 대로 보고드리겠습니다",
+            "회의가 끝나는 대로 바로 결과를 보고하겠습니다",
+            "회의가 끝나는 대로 바로 결과를 보고드리겠습니다",
+            "회의가 끝나는 대로 바로 결과를 보고할게요",
+            "회의가 끝나는 대로 바로 결과를 보고드릴게요",
+            "회의가 끝나는 대로 바로 보고하겠습니다",
+            "회의가 끝나는 대로 바로 보고드리겠습니다"
+          ],
+          "common_errors_vi": "Vế đầu đổi thành `끝나는 대로` (không dùng `끝난 대로` hay `끝났는 대로`); vế sau là lời hứa ở tương lai."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "출장을 가는 김에 거래처에도 들를 거예요",
+            "출장을 가는 김에 거래처에도 들를 겁니다",
+            "출장을 가는 김에 거래처에도 들르겠습니다",
+            "출장을 가는 김에 거래처에도 들를게요",
+            "출장 가는 김에 거래처에도 들를 거예요",
+            "출장 가는 김에 거래처에도 들를 겁니다",
+            "출장 가는 김에 거래처에도 들르겠습니다",
+            "출장 가는 김에 거래처에도 들를게요"
+          ],
+          "common_errors_vi": "`출장을 가는 김에` hoặc `출장 가는 김에` (động từ hiện tại); vế sau là việc làm thêm."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "C36B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Sợ mắc lỗi nên căng thẳng",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Tôi rất căng thẳng vì sợ mắc lỗi ở buổi phỏng vấn.",
+      "tiles": [
+        "면접에서",
+        "실수할까",
+        "봐",
+        "너무",
+        "긴장돼요.",
+        "실수하는까",
+        "봐서요."
+      ],
+      "answers": [
+        "면접에서 실수할까 봐 너무 긴장돼요.",
+        "실수할까 봐 면접에서 너무 긴장돼요."
+      ],
+      "explain_vi": "`실수하다` + `-(으)ㄹ까 봐`: `실수할까 봐`. `실수하는까` là dạng sai; câu không kết thúc bằng `봐서요`."
+    },
+    {
+      "id": "C36B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Giả vờ không biết",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Anh ấy biết sự thật nhưng vẫn giả vờ không biết.",
+      "tiles": [
+        "그는",
+        "사실을",
+        "알면서도",
+        "모르는",
+        "척했다.",
+        "모르게",
+        "척하는"
+      ],
+      "answers": [
+        "그는 사실을 알면서도 모르는 척했다.",
+        "사실을 알면서도 그는 모르는 척했다."
+      ],
+      "explain_vi": "`알면서도` (dù biết) + `모르는 척했다` (giả vờ không biết). `모르게` và `척하는` không ghép đúng."
+    },
+    {
+      "id": "C36B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Suýt ngã",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Đường trơn nên tôi suýt ngã.",
+      "tiles": [
+        "길이",
+        "미끄러워서",
+        "넘어질",
+        "뻔했어요.",
+        "넘어졌을",
+        "척했어요."
+      ],
+      "answers": [
+        "길이 미끄러워서 넘어질 뻔했어요."
+      ],
+      "explain_vi": "`넘어지다` + `-(으)ㄹ 뻔했어요` → `넘어질 뻔했어요`. `넘어졌을 뻔` là dạng sai."
+    },
+    {
+      "id": "C36B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Lỡ hét lên với bạn",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Tức quá nên tôi lỡ hét lên với bạn.",
+      "tiles": [
+        "너무",
+        "화가",
+        "나서",
+        "친구에게",
+        "소리를",
+        "지르고",
+        "말았어요.",
+        "지르러",
+        "말아요."
+      ],
+      "answers": [
+        "너무 화가 나서 친구에게 소리를 지르고 말았어요.",
+        "화가 너무 나서 친구에게 소리를 지르고 말았어요."
+      ],
+      "explain_vi": "`지르다` + `-고 말았어요` (lỡ làm mất); đây là việc đã xảy ra nên dùng quá khứ. `지르러`, `말아요` là dạng sai."
+    },
+    {
+      "id": "C36F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 3,
+      "number": "Bước 3",
+      "title_vi": "Tạo câu · Nối câu bằng -(으)ㄹ까 봐 và -는 척하다",
+      "points": 6,
+      "instruction_vi": "Nối hai câu thành một câu bằng mẫu trong ngoặc.",
+      "context_vi": "Nối câu",
+      "text": "① 시험에 떨어질 수도 있어요. 걱정이 돼요. (-(으)ㄹ까 봐)\n→ ( ㉠ ).\n② 동생은 자요. 사실은 깨어 있어요. (-는 척하다)\n→ ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "시험에 떨어질까 봐 걱정이 돼요",
+            "시험에 떨어질까 봐 걱정돼요",
+            "시험에 떨어질까 봐 걱정이에요",
+            "시험에 떨어질까 봐 걱정이 됩니다",
+            "시험에 떨어질까 봐 걱정됩니다",
+            "시험에 떨어질까 봐 걱정입니다",
+            "시험에 떨어질까 봐서 걱정이 돼요",
+            "시험에 떨어질까 봐서 걱정돼요"
+          ],
+          "common_errors_vi": "Vế đầu đổi thành `떨어질까 봐` (nỗi lo); vế sau là cảm giác (`걱정이 돼요`)."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "동생은 깨어 있으면서 자는 척해요",
+            "동생은 깨어 있으면서 자는 척합니다",
+            "동생은 깨어 있으면서 자는 척하고 있어요",
+            "동생은 깨어 있으면서 자는 척하고 있습니다",
+            "동생은 사실은 깨어 있으면서 자는 척해요",
+            "동생은 사실은 깨어 있으면서 자는 척합니다",
+            "동생은 사실은 깨어 있으면서 자는 척하고 있어요",
+            "동생은 사실은 깨어 있으면서 자는 척하고 있습니다",
+            "동생은 사실 깨어 있으면서 자는 척해요",
+            "동생은 사실 깨어 있으면서 자는 척합니다",
+            "동생은 사실 깨어 있으면서 자는 척하고 있어요",
+            "동생은 사실 깨어 있으면서 자는 척하고 있습니다",
+            "동생은 깨어 있는데 자는 척해요",
+            "동생은 깨어 있는데 자는 척합니다",
+            "동생은 깨어 있는데 자는 척하고 있어요",
+            "동생은 깨어 있는데 자는 척하고 있습니다",
+            "동생은 사실은 깨어 있는데 자는 척해요",
+            "동생은 사실은 깨어 있는데 자는 척합니다",
+            "동생은 사실은 깨어 있는데 자는 척하고 있어요",
+            "동생은 사실은 깨어 있는데 자는 척하고 있습니다",
+            "동생은 사실 깨어 있는데 자는 척해요",
+            "동생은 사실 깨어 있는데 자는 척합니다",
+            "동생은 사실 깨어 있는데 자는 척하고 있어요",
+            "동생은 사실 깨어 있는데 자는 척하고 있습니다"
+          ],
+          "common_errors_vi": "Dùng `자는 척해요`: hiện tại vì đang giả vờ; vế đầu nêu sự thật `깨어 있으면서`."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "C37B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Ai cũng có lúc mắc lỗi",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Con người ai cũng có lúc mắc lỗi.",
+      "tiles": [
+        "사람은",
+        "누구나",
+        "실수하기",
+        "마련이에요.",
+        "실수하는",
+        "마련해요."
+      ],
+      "answers": [
+        "사람은 누구나 실수하기 마련이에요."
+      ],
+      "explain_vi": "`실수하다` + `-기 마련이다` → `실수하기 마련이에요`. `실수하는`, `마련해요` là dạng sai."
+    },
+    {
+      "id": "C37B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Không thể nào quên cuộc hẹn",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Anh Minsu chăm chỉ như vậy thì không thể nào quên cuộc hẹn.",
+      "tiles": [
+        "성실한",
+        "민수",
+        "씨가",
+        "약속을",
+        "잊었을",
+        "리가",
+        "없어요.",
+        "잊은",
+        "리는"
+      ],
+      "answers": [
+        "성실한 민수 씨가 약속을 잊었을 리가 없어요."
+      ],
+      "explain_vi": "Việc đã qua dùng `-았/었을 리가 없다` → `잊었을 리가 없어요`. `잊은`, `리는` là dạng sai."
+    },
+    {
+      "id": "C37B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Biết thế đã đi sớm",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Biết thế tôi đã xuất phát sớm.",
+      "tiles": [
+        "일찍",
+        "출발할걸",
+        "그랬어요.",
+        "출발한걸",
+        "출발하길"
+      ],
+      "answers": [
+        "일찍 출발할걸 그랬어요."
+      ],
+      "explain_vi": "`출발하다` + `-(으)ㄹ걸 그랬다` → `출발할걸 그랬어요`. `출발한걸`, `출발하길` là dạng sai."
+    },
+    {
+      "id": "C37B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Đến tên cũng không nhớ",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Đến tên đồng nghiệp cùng nhóm tôi cũng không nhớ nổi.",
+      "tiles": [
+        "같은",
+        "팀",
+        "동료의",
+        "이름조차",
+        "기억하지",
+        "못했어요.",
+        "이름이조차",
+        "기억해요."
+      ],
+      "answers": [
+        "같은 팀 동료의 이름조차 기억하지 못했어요."
+      ],
+      "explain_vi": "`이름조차` + vị ngữ phủ định `기억하지 못했어요`. `이름이조차` thừa trợ từ; `기억해요` khẳng định nên không hợp `조차`."
+    },
+    {
+      "id": "C37F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 3,
+      "number": "Bước 3",
+      "title_vi": "Tạo câu · Nối câu bằng -기 마련이다 và -(으)ㄹ걸 그랬다",
+      "points": 6,
+      "instruction_vi": "Nối hai câu thành một câu bằng mẫu trong ngoặc.",
+      "context_vi": "Nối câu",
+      "text": "① 사람은 누구나 실수해요. 이것은 당연해요. (-기 마련이다)\n→ ( ㉠ ).\n② 선배에게 먼저 인사하지 못했어요. 후회돼요. (-(으)ㄹ걸 그랬다)\n→ ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "사람은 누구나 실수하기 마련이에요",
+            "사람은 누구나 실수하기 마련입니다",
+            "사람은 누구나 실수하기 마련이다",
+            "누구나 실수하기 마련이에요",
+            "누구나 실수하기 마련입니다",
+            "사람은 누구나 실수하기 마련이죠"
+          ],
+          "common_errors_vi": "`실수하기 마련이다` nói lẽ thường; giữ chủ ngữ `사람은 누구나`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "선배에게 먼저 인사할걸 그랬어요",
+            "선배에게 먼저 인사할걸 그랬습니다",
+            "선배에게 먼저 인사할걸 그랬다",
+            "먼저 선배에게 인사할걸 그랬어요",
+            "먼저 선배에게 인사할걸 그랬습니다",
+            "먼저 선배에게 인사할걸 그랬다"
+          ],
+          "common_errors_vi": "Tiếc việc chưa làm: `인사할걸 그랬어요` (không phải `인사했을걸`)."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "C38B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Vì mưa nên cuộc hẹn bị hủy",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Vì mưa nên cuộc hẹn bị hủy.",
+      "tiles": [
+        "비",
+        "탓에",
+        "약속이",
+        "취소됐어요.",
+        "덕분에",
+        "취소했어요."
+      ],
+      "answers": [
+        "비 탓에 약속이 취소됐어요.",
+        "약속이 비 탓에 취소됐어요."
+      ],
+      "explain_vi": "Kết quả xấu: `비 탓에`. `덕분에` dùng cho kết quả tốt; `취소했어요` là chủ động, không hợp với `약속이`."
+    },
+    {
+      "id": "C38B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Quá ngạc nhiên nên hét lên",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Quá ngạc nhiên nên tôi đã hét lên.",
+      "tiles": [
+        "너무",
+        "놀란",
+        "나머지",
+        "소리를",
+        "질렀어요.",
+        "놀라는",
+        "놀라서"
+      ],
+      "answers": [
+        "너무 놀란 나머지 소리를 질렀어요."
+      ],
+      "explain_vi": "`놀라다` + `-(으)ㄴ 나머지` → `놀란 나머지`. `놀라는` là thì hiện tại, `놀라서` không đi với `나머지`."
+    },
+    {
+      "id": "C38B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Làm việc khuya nên hôm nay mệt",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Hôm qua làm việc đến khuya nên hôm nay mệt quá.",
+      "tiles": [
+        "어제",
+        "늦게까지",
+        "일했더니",
+        "오늘",
+        "너무",
+        "피곤해요.",
+        "일하니까",
+        "일해서"
+      ],
+      "answers": [
+        "어제 늦게까지 일했더니 오늘 너무 피곤해요."
+      ],
+      "explain_vi": "Làm việc rồi thấy kết quả: `일했더니`. `일하니까`, `일해서` đổi nghĩa (lý do hay trình tự), không phải «thấy kết quả»."
+    },
+    {
+      "id": "C38B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Lương thì khỏi nói, tiền đi lại cũng không",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Lương thì khỏi nói, đến tiền đi lại tôi cũng không nhận được.",
+      "tiles": [
+        "월급은커녕",
+        "교통비도",
+        "받지",
+        "못했어요.",
+        "월급도커녕",
+        "받았어요."
+      ],
+      "answers": [
+        "월급은커녕 교통비도 받지 못했어요."
+      ],
+      "explain_vi": "`월급은커녕` + vị ngữ phủ định `받지 못했어요`. `월급도커녕` sai trợ từ; `받았어요` khẳng định nên không hợp."
+    },
+    {
+      "id": "C38F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 3,
+      "number": "Bước 3",
+      "title_vi": "Tạo câu · Nối câu bằng -(으)ㄴ/는 탓에 và -(으)ㄴ 나머지",
+      "points": 6,
+      "instruction_vi": "Nối hai câu thành một câu bằng mẫu trong ngoặc.",
+      "context_vi": "Nối câu",
+      "text": "① 비가 많이 왔어요. 그래서 경기가 취소됐어요. (-(으)ㄴ/는 탓에)\n→ ( ㉠ ).\n② 너무 기뻤어요. 그래서 눈물이 났어요. (-(으)ㄴ 나머지)\n→ ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "비가 많이 온 탓에 경기가 취소됐어요",
+            "비가 많이 온 탓에 경기가 취소되었어요",
+            "비가 많이 온 탓에 경기가 취소됐습니다",
+            "비가 많이 온 탓에 경기가 취소되었습니다",
+            "비가 많이 온 탓에 경기가 취소됐다",
+            "비가 많이 온 탓에 경기가 취소되었다",
+            "비가 많이 내린 탓에 경기가 취소됐어요",
+            "비가 많이 내린 탓에 경기가 취소되었어요",
+            "비가 많이 내린 탓에 경기가 취소됐습니다",
+            "비가 많이 내린 탓에 경기가 취소되었습니다",
+            "비가 많이 내린 탓에 경기가 취소됐다",
+            "비가 많이 내린 탓에 경기가 취소되었다",
+            "비가 온 탓에 경기가 취소됐어요",
+            "비가 온 탓에 경기가 취소되었어요",
+            "비가 온 탓에 경기가 취소됐습니다",
+            "비가 온 탓에 경기가 취소되었습니다",
+            "비가 온 탓에 경기가 취소됐다",
+            "비가 온 탓에 경기가 취소되었다",
+            "비가 내린 탓에 경기가 취소됐어요",
+            "비가 내린 탓에 경기가 취소되었어요",
+            "비가 내린 탓에 경기가 취소됐습니다",
+            "비가 내린 탓에 경기가 취소되었습니다",
+            "비가 내린 탓에 경기가 취소됐다",
+            "비가 내린 탓에 경기가 취소되었다"
+          ],
+          "common_errors_vi": "Kết quả xấu: `온 탓에` (động từ quá khứ `-(으)ㄴ`), vế sau giữ nguyên `경기가 취소됐어요`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "너무 기쁜 나머지 눈물이 났어요",
+            "너무 기쁜 나머지 눈물이 났습니다",
+            "너무 기쁜 나머지 눈물을 흘렸어요",
+            "너무 기쁜 나머지 눈물을 흘렸습니다",
+            "너무 기쁜 나머지 눈물이 났다",
+            "너무 기쁜 나머지 눈물을 흘렸다",
+            "기쁜 나머지 눈물이 났어요",
+            "기쁜 나머지 눈물이 났습니다",
+            "기쁜 나머지 눈물을 흘렸어요",
+            "기쁜 나머지 눈물을 흘렸습니다",
+            "기쁜 나머지 눈물이 났다",
+            "기쁜 나머지 눈물을 흘렸다"
+          ],
+          "common_errors_vi": "Cảm xúc quá mức dẫn đến hành động: `기쁜 나머지` (tính từ `-(으)ㄴ`), vế sau `눈물이 났어요`."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "C39B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Bản tin nói mai trời mưa",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Bản tin nói từ mai trời sẽ mưa.",
+      "tiles": [
+        "뉴스에서",
+        "내일부터",
+        "비가",
+        "온다고",
+        "해요.",
+        "오는",
+        "온다는"
+      ],
+      "answers": [
+        "뉴스에서 내일부터 비가 온다고 해요.",
+        "내일부터 뉴스에서 비가 온다고 해요."
+      ],
+      "explain_vi": "Thuật lại câu trần thuật: `온다고 해요`. `오는` và `온다는` đứng trước danh từ nên không đặt cuối câu."
+    },
+    {
+      "id": "C39B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Kết quả cho thấy thời gian đã tăng",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Kết quả khảo sát cho thấy thời gian sử dụng của thanh thiếu niên đã tăng.",
+      "tiles": [
+        "조사",
+        "결과",
+        "청소년의",
+        "이용",
+        "시간이",
+        "늘어난",
+        "것으로",
+        "나타났다.",
+        "늘어나는",
+        "것에서"
+      ],
+      "answers": [
+        "조사 결과 청소년의 이용 시간이 늘어난 것으로 나타났다."
+      ],
+      "explain_vi": "`조사 결과` + mệnh đề + `-(으)ㄴ 것으로 나타났다`. `늘어나는` (hiện tại) và `것에서` không hợp với kết quả đã có."
+    },
+    {
+      "id": "C39B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Các nền tảng video, tiêu biểu là YouTube",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Số người dùng các nền tảng video, tiêu biểu là YouTube, đang tăng.",
+      "tiles": [
+        "유튜브를",
+        "비롯한",
+        "영상",
+        "플랫폼의",
+        "이용자가",
+        "늘고",
+        "있다.",
+        "유튜브가",
+        "비롯하는"
+      ],
+      "answers": [
+        "유튜브를 비롯한 영상 플랫폼의 이용자가 늘고 있다."
+      ],
+      "explain_vi": "Định ngữ `N을/를 비롯한 + N` → `유튜브를 비롯한 영상 플랫폼`. `유튜브가` là trợ từ sai; `비롯하는` không phải dạng cố định của mẫu."
+    },
+    {
+      "id": "C39B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Lòng tin chính là giá trị quan trọng nhất",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Lòng tin chính là giá trị quan trọng nhất của báo chí.",
+      "tiles": [
+        "신뢰야말로",
+        "언론의",
+        "가장",
+        "중요한",
+        "가치이다.",
+        "신뢰이야말로",
+        "신뢰는커녕"
+      ],
+      "answers": [
+        "신뢰야말로 언론의 가장 중요한 가치이다."
+      ],
+      "explain_vi": "`신뢰` không có patchim nên dùng `야말로`. `신뢰이야말로` sai patchim; `신뢰는커녕` đòi vị ngữ phủ định."
+    },
+    {
+      "id": "C39F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 3,
+      "number": "Bước 3",
+      "title_vi": "Tạo câu · Thuật lại tin và nêu kết quả khảo sát",
+      "points": 6,
+      "instruction_vi": "Hoàn thành câu bằng mẫu phù hợp.",
+      "context_vi": "Nối câu",
+      "text": "① 이 가수는 새 앨범을 냅니다. (기사에서 읽었어요)\n→ 기사에 따르면 ( ㉠ ).\n② 청소년의 이용 시간이 늘었습니다. (조사 결과가 나왔어요)\n→ 조사 결과 ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "이 가수가 새 앨범을 낸다고 해요",
+            "이 가수가 새 앨범을 낸다고 합니다",
+            "이 가수가 새 앨범을 낸다고 한다",
+            "이 가수가 새 앨범을 낸대요",
+            "이 가수는 새 앨범을 낸다고 해요",
+            "이 가수는 새 앨범을 낸다고 합니다",
+            "이 가수는 새 앨범을 낸다고 한다",
+            "이 가수는 새 앨범을 낸대요"
+          ],
+          "common_errors_vi": "Thuật lại tin: `낸다고 해요/합니다/한다` hoặc rút gọn `낸대요`. Động từ `내다` dùng `-ㄴ다고`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "청소년의 이용 시간이 늘어난 것으로 나타났다",
+            "청소년의 이용 시간이 늘어난 것으로 나타났습니다",
+            "청소년의 이용 시간이 늘어난 것으로 나타났어요",
+            "청소년의 이용 시간이 늘어난 것으로 조사되었다",
+            "청소년의 이용 시간이 늘어난 것으로 조사됐다",
+            "청소년의 이용 시간이 증가한 것으로 나타났다",
+            "청소년의 이용 시간이 증가한 것으로 나타났습니다",
+            "청소년의 이용 시간이 증가한 것으로 나타났어요",
+            "청소년의 이용 시간이 증가한 것으로 조사되었다",
+            "청소년의 이용 시간이 증가한 것으로 조사됐다",
+            "청소년의 이용 시간이 늘었던 것으로 나타났다",
+            "청소년의 이용 시간이 늘었던 것으로 나타났습니다",
+            "청소년의 이용 시간이 늘었던 것으로 나타났어요",
+            "청소년의 이용 시간이 늘었던 것으로 조사되었다",
+            "청소년의 이용 시간이 늘었던 것으로 조사됐다"
+          ],
+          "common_errors_vi": "Nêu kết quả khảo sát: `늘어난 것으로 나타났다` (hoặc `조사되었다`); bài viết dùng quá khứ."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "C40B1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Bảo tàng hồi nhỏ vẫn còn",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Bảo tàng mỹ thuật tôi hay đến hồi nhỏ vẫn còn.",
+      "tiles": [
+        "어릴",
+        "때",
+        "자주",
+        "가던",
+        "미술관이",
+        "아직",
+        "있어요.",
+        "가서",
+        "가면"
+      ],
+      "answers": [
+        "어릴 때 자주 가던 미술관이 아직 있어요."
+      ],
+      "explain_vi": "Hồi tưởng việc lặp lại rồi gắn vào danh từ: `자주 가던 미술관`. `가서`, `가면` không đứng trước danh từ."
+    },
+    {
+      "id": "C40B2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Với tư cách nghệ sĩ",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Với tư cách nghệ sĩ, tôi cảm thấy trách nhiệm với xã hội.",
+      "tiles": [
+        "예술가로서",
+        "사회에",
+        "책임을",
+        "느껴요.",
+        "예술가로써",
+        "느끼는"
+      ],
+      "answers": [
+        "예술가로서 사회에 책임을 느껴요."
+      ],
+      "explain_vi": "Tư cách: `예술가로서`. `예술가로써` là phương tiện nên sai nghĩa; `느끼는` không kết thúc câu."
+    },
+    {
+      "id": "C40B3",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Giữ gìn truyền thống đến nay",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Đoàn kịch này đã giữ gìn truyền thống đến nay.",
+      "tiles": [
+        "이",
+        "극단은",
+        "지금까지",
+        "전통을",
+        "지켜",
+        "왔어요.",
+        "갔어요.",
+        "지키고"
+      ],
+      "answers": [
+        "이 극단은 지금까지 전통을 지켜 왔어요.",
+        "이 극단은 전통을 지금까지 지켜 왔어요."
+      ],
+      "explain_vi": "`지금까지` đi với `-아/어 오다` → `지켜 왔어요`. `갔어요` chỉ hướng đi xa; `지키고` không kết thúc câu."
+    },
+    {
+      "id": "C40B4",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Có vẻ khán giả xúc động",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Có vẻ khán giả rất xúc động.",
+      "tiles": [
+        "관객들이",
+        "크게",
+        "감동한",
+        "듯해요.",
+        "감동해서",
+        "듯이"
+      ],
+      "answers": [
+        "관객들이 크게 감동한 듯해요.",
+        "크게 관객들이 감동한 듯해요."
+      ],
+      "explain_vi": "`감동하다` + `-(으)ㄴ 듯하다` → `감동한 듯해요`. `감동해서`, `듯이` không ghép với `듯해요`."
+    },
+    {
+      "id": "C40F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 3,
+      "number": "Bước 3",
+      "title_vi": "Tạo câu · Nối câu bằng -(으)로서 và -아/어 오다",
+      "points": 6,
+      "instruction_vi": "Nối hai câu thành một câu bằng mẫu trong ngoặc.",
+      "context_vi": "Nối câu",
+      "text": "① 저는 예술가입니다. 사회에 책임을 느낍니다. (-(으)로서)\n→ ( ㉠ ).\n② 이 극단은 30년 전부터 전통을 지켰습니다. 지금도 지킵니다. (-아/어 오다)\n→ ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "저는 예술가로서 사회에 책임을 느낍니다",
+            "저는 예술가로서 사회에 책임을 느껴요",
+            "저는 예술가로서 사회에 책임을 느낀다",
+            "저는 예술가로서 사회에 책임을 느끼고 있습니다",
+            "예술가로서 저는 사회에 책임을 느낍니다",
+            "예술가로서 저는 사회에 책임을 느껴요",
+            "예술가로서 저는 사회에 책임을 느낀다",
+            "예술가로서 저는 사회에 책임을 느끼고 있습니다"
+          ],
+          "common_errors_vi": "Tư cách: `예술가로서` (không patchim); giữ vế sau `사회에 책임을 느낍니다`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "이 극단은 30년 전부터 전통을 지켜 왔습니다",
+            "이 극단은 30년 전부터 전통을 지켜 왔어요",
+            "이 극단은 30년 전부터 전통을 지켜 왔다",
+            "이 극단은 전통을 30년 전부터 지켜 왔습니다",
+            "이 극단은 전통을 30년 전부터 지켜 왔어요",
+            "이 극단은 전통을 30년 전부터 지켜 왔다"
+          ],
+          "common_errors_vi": "Kéo dài từ quá khứ đến nay: `지켜 왔습니다`; `30년 전부터` chỉ điểm bắt đầu."
+        }
+      ],
+      "tips_vi": []
+    },
+    {
+      "id": "CU35O1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Không chỉ cẩn thận mà còn đúng hẹn",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Tôi không chỉ làm việc cẩn thận mà còn giữ đúng hẹn.",
+      "tiles": [
+        "약속도",
+        "할",
+        "저는",
+        "지킵니다.",
+        "꼼꼼하게",
+        "하는",
+        "아니라",
+        "일을",
+        "뿐만",
+        "잘"
+      ],
+      "answers": [
+        "저는 일을 꼼꼼하게 할 뿐만 아니라 약속도 잘 지킵니다.",
+        "저는 꼼꼼하게 일을 할 뿐만 아니라 약속도 잘 지킵니다."
+      ],
+      "explain_vi": "Động từ + `-(으)ㄹ 뿐만 아니라`: `할 뿐만 아니라` (✗ `하는 뿐만 아니라`). Vế sau thêm `도` (`약속도`) vì đó là điểm mạnh thứ hai, cùng chiều với vế trước."
+    },
+    {
+      "id": "CU35O2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Câu kết buổi phỏng vấn",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Nếu được vào công ty, tôi sẽ phát huy kinh nghiệm này để làm việc chăm chỉ.",
+      "tiles": [
+        "경험을",
+        "열심히",
+        "입사하게",
+        "살려서",
+        "이",
+        "일하겠습니다.",
+        "경험이",
+        "되면"
+      ],
+      "answers": [
+        "입사하게 되면 이 경험을 살려서 열심히 일하겠습니다."
+      ],
+      "explain_vi": "`경험을 살리다` (phát huy kinh nghiệm) cần tân ngữ `을/를` (✗ `경험이 살려서`). `입사하게 되면` = nếu được vào công ty (việc do công ty quyết định nên dùng `-게 되다`); `-겠습니다` là lời hứa."
+    },
+    {
+      "id": "CU35F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Điền khung: kinh nghiệm và điểm mạnh",
+      "points": 8,
+      "instruction_vi": "Điền dạng đúng của từ trong ngoặc vuông.",
+      "text": "① 저는 대학에서 한국어를 [전공하다: -고] ( ㉠ ) 졸업한 후에 인턴으로 일했습니다.\n② 처음에는 같이 일하는 분들께 자주 [여쭤보다: -(으)면서] ( ㉡ ) 일을 배웠습니다.\n③ 인턴으로 일하는 동안 서류를 한 번도 늦게 [제출하다: chưa từng …, 합쇼체] ( ㉢ ).\n④ 경력은 [짧다: -(으)ㄴ 대신] ( ㉣ ) 대신 한국어와 베트남어를 모두 잘합니다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "전공했고",
+            "전공하고"
+          ],
+          "common_errors_vi": "`전공했고` (đã học xong) tự nhiên nhất; `전공하고` cũng đúng vì động từ cuối câu đã ở quá khứ."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "여쭤보면서",
+            "여쭈어보면서"
+          ],
+          "common_errors_vi": "`여쭙다` → `여쭤` (ㅂ bất quy tắc) + `보면서`. Với người trên dùng `여쭤보다` thay cho `물어보다`."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "제출한 적이 없습니다",
+            "제출한 적은 없습니다"
+          ],
+          "common_errors_vi": "`한 번도` luôn đi với phủ định: `-(으)ㄴ 적이 없습니다` (✗ `제출한 적이 있습니다`). Đoạn tự giới thiệu viết bằng 합쇼체."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "짧은"
+          ],
+          "common_errors_vi": "Tính từ + `-(으)ㄴ 대신`: `짧은 대신` (✗ `짧을 대신`, ✗ `짧는 대신`)."
+        }
+      ],
+      "tips_vi": [
+        "Với người trên: `여쭤보다`, `분들께`.",
+        "`한 번도` + phủ định = chưa một lần nào."
+      ],
+      "context_vi": "Tự giới thiệu khi phỏng vấn"
+    },
+    {
+      "id": "CU35C1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 3,
+      "number": "Bước 3",
+      "title_vi": "Tạo câu · Nối câu: đánh đổi và trái kỳ vọng",
+      "points": 6,
+      "instruction_vi": "Nối hai câu thành một câu bằng mẫu trong ngoặc.",
+      "text": "① 저는 경력이 짧습니다. 일을 빨리 배웁니다. (-(으)ㄴ 대신)\n→ ( ㉠ ).\n② 인턴 일이 힘들었습니다. 한 번도 늦은 적이 없습니다. (-았/었음에도 불구하고)\n→ ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "저는 경력이 짧은 대신 일을 빨리 배웁니다",
+            "저는 경력이 짧은 대신 일을 빨리 배워요",
+            "경력이 짧은 대신 일을 빨리 배웁니다",
+            "경력이 짧은 대신 일을 빨리 배워요",
+            "경력은 짧은 대신 일을 빨리 배웁니다",
+            "경력은 짧은 대신 일을 빨리 배워요",
+            "저는 경력은 짧은 대신 일을 빨리 배웁니다",
+            "저는 경력은 짧은 대신 일을 빨리 배워요"
+          ],
+          "common_errors_vi": "`짧다` là tính từ → `짧은 대신`. Hai vế bù trừ nhau (yếu ở A, đổi lại mạnh ở B) mới dùng `대신`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "인턴 일이 힘들었음에도 불구하고 한 번도 늦은 적이 없습니다",
+            "인턴 일이 힘들었음에도 불구하고 한 번도 늦은 적이 없어요",
+            "인턴 일이 힘들었음에도 불구하고 저는 한 번도 늦은 적이 없습니다",
+            "인턴 일이 힘들었음에도 불구하고 저는 한 번도 늦은 적이 없어요",
+            "인턴 일이 힘들었는데도 불구하고 한 번도 늦은 적이 없습니다",
+            "인턴 일이 힘들었는데도 불구하고 한 번도 늦은 적이 없어요",
+            "인턴 일이 힘들었는데도 불구하고 저는 한 번도 늦은 적이 없습니다",
+            "인턴 일이 힘들었는데도 불구하고 저는 한 번도 늦은 적이 없어요"
+          ],
+          "common_errors_vi": "Giữ quá khứ ở vế trước: `힘들었음에도 불구하고` (`힘들다` + `-었-` + `-음`). ✗ `힘들었지만 불구하고`: `불구하고` cần `에도` hoặc `-는데도` đứng trước."
+        }
+      ],
+      "tips_vi": [
+        "Đổi lại / bù lại: `-(으)ㄴ/는 대신`.",
+        "Dù … vẫn (trái kỳ vọng): `-았/었음에도 불구하고`."
+      ],
+      "context_vi": "Nối câu tự giới thiệu"
+    },
+    {
+      "id": "CU35E1",
+      "skill": "build",
+      "type": "write_essay",
+      "rung": 5,
+      "number": "Bước 5",
+      "title_vi": "Viết đoạn văn của bạn · Tự giới thiệu khi phỏng vấn",
+      "points": 10,
+      "instruction_vi": "Viết MỘT đoạn (합쇼체) tự giới thiệu như khi bước vào phòng phỏng vấn thật: bạn là ai, đã học và làm gì, điểm mạnh của bạn và một việc cụ thể chứng minh điểm mạnh đó.",
+      "limits": {
+        "min": 180,
+        "max": 350
+      },
+      "prompt_ko": "여러분은 회사 면접을 봅니다. 면접관에게 할 자기소개를 쓰십시오.",
+      "bullets_ko": [
+        "무엇을 전공했습니까? 어떤 일을 해 봤습니까?",
+        "그 일에서 무엇을 맡았습니까?",
+        "여러분의 장점은 무엇입니까? 그 장점을 보여 주는 일이 있습니까?",
+        "입사하게 되면 어떻게 하겠습니까?"
+      ],
+      "framework_vi": [
+        "Câu mở: chào (`안녕하십니까?`) và nói tên, nơi bạn đến.",
+        "Thân đoạn: học gì, làm gì, bao lâu, phụ trách việc gì; một khó khăn và cách bạn vượt qua (`-음에도 불구하고`).",
+        "Điểm mạnh + bằng chứng: `제 장점은 … 뿐만 아니라 …` rồi một việc cụ thể (`한 번도 … 적이 없습니다`).",
+        "Câu kết: lời hứa (`입사하게 되면 … 열심히 일하겠습니다`) và `감사합니다`."
+      ],
+      "patterns_vi": [
+        "`안녕하십니까? (나라)에서 온 ○○○입니다`",
+        "`대학에서 N을/를 전공했고, 졸업한 후에 …`",
+        "`N에서 ○년 동안 인턴으로 일했습니다` · `… 일을 맡았습니다`",
+        "`처음에는 A-았/었음에도 불구하고 … 빨리 적응할 수 있었습니다`",
+        "`제 장점은 V-(으)ㄹ 뿐만 아니라 N도 … V-는 것입니다`",
+        "`한 번도 V-(으)ㄴ 적이 없습니다`",
+        "`경력은 짧은 대신 …`",
+        "`입사하게 되면 이 경험을 살려서 열심히 일하겠습니다. 감사합니다.`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu mở",
+          "content_vi": "Chào, tên, nơi đến",
+          "chars": "20–40"
+        },
+        {
+          "part_vi": "Kinh nghiệm",
+          "content_vi": "Học gì, làm gì, phụ trách gì, vượt khó thế nào",
+          "chars": "100–150"
+        },
+        {
+          "part_vi": "Điểm mạnh",
+          "content_vi": "Hai điểm mạnh và một bằng chứng cụ thể",
+          "chars": "60–100"
+        },
+        {
+          "part_vi": "Câu kết",
+          "content_vi": "Lời hứa và lời cảm ơn",
+          "chars": "30–50"
+        }
+      ],
+      "model_answer_ko": "안녕하십니까? 베트남에서 온 응우옌 란입니다. 저는 대학에서 한국어를 전공했고, 졸업한 후에 한국 회사에서 1년 동안 인턴으로 일했습니다. 그 회사에서 고객 전화를 받고 서류를 정리하는 일을 맡았습니다. 처음에는 회사 문화가 낯설었음에도 불구하고 같이 일하는 분들께 자주 여쭤보면서 빨리 적응할 수 있었습니다. 제 장점은 일을 꼼꼼하게 할 뿐만 아니라 약속도 잘 지키는 것입니다. 그래서 인턴으로 일하는 동안 서류를 한 번도 늦게 제출한 적이 없습니다. 경력은 짧은 대신 한국어와 베트남어를 모두 잘합니다. 입사하게 되면 이 경험을 살려서 열심히 일하겠습니다. 감사합니다.",
+      "model_note_vi": "Người phỏng vấn nhớ được bạn nhờ chi tiết, không nhờ tính từ: «cẩn thận» chỉ có sức nặng khi đi kèm «chưa một lần nộp giấy tờ trễ». Mỗi câu một ý, đi từ quá khứ (học, làm) đến hiện tại (điểm mạnh) rồi tương lai (lời hứa). Thay tên, chuyên ngành, công việc bằng của bạn, giữ khung bốn phần.",
+      "common_errors_vi": [
+        "Trộn 해요체 vào đoạn 합쇼체 (`일했어요` giữa các câu `-습니다`): phỏng vấn giữ `-ㅂ니다/습니다` từ đầu đến cuối.",
+        "Gắn `-(으)시-` cho chính mình: ✗ `제가 맡으신 일` → ✓ `제가 맡은 일`.",
+        "✗ `하는 뿐만 아니라` → ✓ `할 뿐만 아니라`; ✗ `월급이 적을 뿐만 아니라 배울 것이 많습니다` (hai ý ngược chiều phải dùng `대신` hoặc `-지만`).",
+        "Lẫn `경험` và `경력`: ✓ `인턴 경험`, ✓ `경력 2년`; ✗ `경험 2년`.",
+        "Chỉ liệt kê tính từ (`저는 성실하고 꼼꼼하고 활발합니다`) mà không có việc cụ thể làm bằng chứng.",
+        "Quên lời chào đầu và `감사합니다` ở cuối: phần tự giới thiệu cần mở và kết rõ ràng."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Đủ ý: chào và tên, học/làm gì, điểm mạnh có bằng chứng, lời hứa",
+          "max": 3
+        },
+        {
+          "criterion_vi": "Thành một đoạn: mở → kinh nghiệm → điểm mạnh → kết, có từ nối",
+          "max": 3
+        },
+        {
+          "criterion_vi": "Dùng đúng nghĩa ít nhất hai mẫu của bài (`뿐만 아니라`, `대신`, `불구하고`)",
+          "max": 2
+        },
+        {
+          "criterion_vi": "Chia từ, cách chữ, giữ một thể 합쇼체, không tôn chính mình",
+          "max": 2
+        }
+      ],
+      "checklist_vi": [
+        "Câu đầu có `안녕하십니까?` và tên của bạn?",
+        "Có ít nhất một việc cụ thể (bao lâu, làm gì) chứng minh điểm mạnh?",
+        "`뿐만 아니라` nối hai ý cùng chiều, `대신` nối hai ý bù trừ?",
+        "Mọi câu đều kết thúc bằng `-ㅂ니다/습니다`?",
+        "Câu cuối là lời hứa và `감사합니다`?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V/A + -(으)ㄹ 뿐만 아니라 · N + 뿐만 아니라",
+          "regex": "뿐만 아니라",
+          "label_vi": "-(으)ㄹ 뿐만 아니라 (không chỉ … mà còn)"
+        },
+        {
+          "pattern": "V/A + -는 대신(에) · N + 대신(에)",
+          "regex": "(?:은|는|ㄴ|인) 대신",
+          "label_vi": "-(으)ㄴ/는 대신 (đổi lại)"
+        },
+        {
+          "pattern": "N + 에도 불구하고 · V/A + -(으)ㄴ/는데도 불구하고",
+          "regex": "(?:에도|데도) 불구하고",
+          "label_vi": "-음에도 불구하고 (dù … vẫn)"
+        }
+      ],
+      "uses": [
+        {
+          "form": "안녕하십니까",
+          "card": "안녕하십니까"
+        },
+        {
+          "form": "베트남에서 온",
+          "card": "베트남"
+        },
+        {
+          "form": "온 응우옌 란",
+          "card": "V + -(으)ㄴ + N (quá khứ)"
+        },
+        {
+          "form": "대학에서 한국어를 전공했고",
+          "card": "전공하다"
+        },
+        {
+          "form": "한국어",
+          "card": "한국어"
+        },
+        {
+          "form": "전공했고",
+          "card": "V + -고"
+        },
+        {
+          "form": "졸업한 후에",
+          "card": "졸업하다"
+        },
+        {
+          "form": "졸업한 후에",
+          "card": "V + -고 나서 · V + -(으)ㄴ 후에"
+        },
+        {
+          "form": "한국 회사",
+          "card": "회사"
+        },
+        {
+          "form": "1년 동안",
+          "card": "동안"
+        },
+        {
+          "form": "인턴으로 일했습니다",
+          "card": "인턴"
+        },
+        {
+          "form": "일했습니다",
+          "card": "일하다"
+        },
+        {
+          "form": "고객 전화를 받고",
+          "card": "고객"
+        },
+        {
+          "form": "전화를 받고",
+          "card": "전화를 받다"
+        },
+        {
+          "form": "서류를 정리하는",
+          "card": "서류"
+        },
+        {
+          "form": "정리하는 일",
+          "card": "정리하다 / 정돈하다"
+        },
+        {
+          "form": "정리하는 일",
+          "card": "V + -는 + N · A + -(으)ㄴ + N (hiện tại)"
+        },
+        {
+          "form": "일을 맡았습니다",
+          "card": "일을 맡다"
+        },
+        {
+          "form": "처음에는",
+          "card": "처음"
+        },
+        {
+          "form": "회사 문화",
+          "card": "문화"
+        },
+        {
+          "form": "낯설었음에도",
+          "card": "낯설다"
+        },
+        {
+          "form": "낯설었음에도 불구하고",
+          "card": "N + 에도 불구하고 · V/A + -(으)ㄴ/는데도 불구하고"
+        },
+        {
+          "form": "같이 일하는 분들께",
+          "card": "같이"
+        },
+        {
+          "form": "분들께",
+          "card": "분"
+        },
+        {
+          "form": "분들께",
+          "card": "N + 께서(는) · N + 께"
+        },
+        {
+          "form": "자주",
+          "card": "자주"
+        },
+        {
+          "form": "여쭤보면서",
+          "card": "여쭙다"
+        },
+        {
+          "form": "여쭤보면서",
+          "card": "V + -(으)면서"
+        },
+        {
+          "form": "빨리",
+          "card": "빨리"
+        },
+        {
+          "form": "적응할 수 있었습니다",
+          "card": "적응하다"
+        },
+        {
+          "form": "적응할 수 있었습니다",
+          "card": "V + -(으)ㄹ 수 있다/없다"
+        },
+        {
+          "form": "제 장점은",
+          "card": "장점"
+        },
+        {
+          "form": "꼼꼼하게",
+          "card": "꼼꼼하다"
+        },
+        {
+          "form": "꼼꼼하게",
+          "card": "A + -게 (phó từ hoá)"
+        },
+        {
+          "form": "할 뿐만 아니라",
+          "card": "V/A + -(으)ㄹ 뿐만 아니라 · N + 뿐만 아니라"
+        },
+        {
+          "form": "약속도 잘 지키는",
+          "card": "약속을 지키다"
+        },
+        {
+          "form": "지키는 것입니다",
+          "card": "V + -는 것 · V + -기 (danh từ hoá)"
+        },
+        {
+          "form": "그래서",
+          "card": "그래서"
+        },
+        {
+          "form": "일하는 동안",
+          "card": "V + -는 동안"
+        },
+        {
+          "form": "한 번도",
+          "card": "한 번도 + phủ định"
+        },
+        {
+          "form": "늦게",
+          "card": "늦다"
+        },
+        {
+          "form": "제출한 적이 없습니다",
+          "card": "제출하다"
+        },
+        {
+          "form": "제출한 적이 없습니다",
+          "card": "V + -(으)ㄴ 적이 있다/없다"
+        },
+        {
+          "form": "경력은 짧은 대신",
+          "card": "경력"
+        },
+        {
+          "form": "짧은",
+          "card": "짧다"
+        },
+        {
+          "form": "짧은 대신",
+          "card": "V/A + -는 대신(에) · N + 대신(에)"
+        },
+        {
+          "form": "모두 잘합니다",
+          "card": "모두"
+        },
+        {
+          "form": "잘합니다",
+          "card": "잘하다"
+        },
+        {
+          "form": "입사하게 되면",
+          "card": "입사하다"
+        },
+        {
+          "form": "입사하게 되면",
+          "card": "V + -게 되다"
+        },
+        {
+          "form": "되면",
+          "card": "V/A + -(으)면"
+        },
+        {
+          "form": "경험을 살려서",
+          "card": "경험을 살리다"
+        },
+        {
+          "form": "살려서",
+          "card": "V/A + -아/어서"
+        },
+        {
+          "form": "열심히",
+          "card": "열심히"
+        },
+        {
+          "form": "일하겠습니다",
+          "card": "V/A + -겠-"
+        },
+        {
+          "form": "감사합니다",
+          "card": "감사합니다"
+        }
+      ]
+    },
+    {
+      "id": "CU36O1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Báo cáo ngay khi khảo sát xong",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Ngay khi khảo sát kết thúc, tôi sẽ tổng hợp kết quả rồi báo cáo.",
+      "tiles": [
+        "결과를",
+        "끝나는",
+        "보고드리겠습니다.",
+        "조사가",
+        "끝났는",
+        "대로",
+        "정리해서",
+        "보고하시겠습니다."
+      ],
+      "answers": [
+        "조사가 끝나는 대로 결과를 정리해서 보고드리겠습니다."
+      ],
+      "explain_vi": "«Ngay khi» = `V-는 대로`, luôn ở hiện tại (✗ `끝났는 대로`). Báo cáo lên cấp trên là việc của mình nên hạ mình: `보고드리겠습니다` (✗ `보고하시겠습니다`: tự tôn mình)."
+    },
+    {
+      "id": "CU36O2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Câu mở thân email báo cáo",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Tôi xin báo cáo tiến độ tài liệu giới thiệu sản phẩm mới mà anh/chị dặn tuần trước.",
+      "tiles": [
+        "진행",
+        "보고드립니다.",
+        "지난주에",
+        "소개",
+        "상황을",
+        "말씀하신",
+        "신제품",
+        "자료의",
+        "보고하십니다.",
+        "상황이"
+      ],
+      "answers": [
+        "지난주에 말씀하신 신제품 소개 자료의 진행 상황을 보고드립니다."
+      ],
+      "explain_vi": "Người dặn là trưởng nhóm nên `말씀하신` (kính ngữ); người báo cáo là mình nên `보고드립니다`. `진행 상황` là tân ngữ của `보고드리다` → `상황을` (✗ `상황이`)."
+    },
+    {
+      "id": "CU36F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Điền khung: email báo cáo",
+      "points": 8,
+      "instruction_vi": "Điền dạng đúng của từ trong ngoặc vuông.",
+      "text": "① 팀장님, [안녕하다: lời chào trang trọng] ( ㉠ )? 마케팅팀 응우옌 란입니다.\n② 설문 조사는 온라인을 [통하다: qua …] ( ㉡ ) 진행하고 있습니다.\n③ 다음 주에 출장을 [가다: -는 김에] ( ㉢ ) 거래처 담당자를 만나겠습니다.\n④ 검토하시고 의견을 [주다: kính ngữ + -(으)면] ( ㉣ ) 바로 반영하겠습니다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "안녕하십니까"
+          ],
+          "common_errors_vi": "Email gửi cấp trên mở bằng `안녕하십니까?` (hoặc `안녕하세요.`), rồi ngay sau là bộ phận + tên."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "통해",
+            "통해서"
+          ],
+          "common_errors_vi": "`N을/를 통해(서)` + động từ. `통한` chỉ đứng trước danh từ (`온라인을 통한 조사`)."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "가는 김에"
+          ],
+          "common_errors_vi": "`-는 김에` luôn ở hiện tại (✗ `간 김에` khi việc chưa xảy ra). Vế sau là việc làm thêm nhân tiện."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "주시면"
+          ],
+          "common_errors_vi": "Người cho ý kiến là trưởng nhóm nên `주시면` (✗ `주면`). Không dùng `드리면`: `드리다` là khi mình đưa cho người trên."
+        }
+      ],
+      "tips_vi": [
+        "Việc của người trên: `-(으)시-` (`말씀하신`, `주시면`).",
+        "Việc của mình: `드리다` (`보고드립니다`)."
+      ],
+      "context_vi": "Email báo cáo tiến độ"
+    },
+    {
+      "id": "CU36C1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 3,
+      "number": "Bước 3",
+      "title_vi": "Tạo câu · Nối câu: ngay khi và vừa để … vừa để …",
+      "points": 6,
+      "instruction_vi": "Nối hai câu thành một câu bằng mẫu trong ngoặc.",
+      "text": "① 자료를 다 받습니다. 바로 보고서를 수정하겠습니다. (-는 대로)\n→ ( ㉠ ).\n② 하노이에 출장을 갑니다. 거래처 담당자도 만나고 신제품도 소개하려고 합니다. (-(으)ㄹ 겸 -(으)ㄹ 겸)\n→ ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "자료를 다 받는 대로 보고서를 수정하겠습니다",
+            "자료를 다 받는 대로 보고서를 수정할게요",
+            "자료를 다 받는 대로 보고서를 수정하겠어요",
+            "자료를 다 받는 대로 바로 보고서를 수정하겠습니다",
+            "자료를 다 받는 대로 바로 보고서를 수정할게요",
+            "자료를 다 받는 대로 바로 보고서를 수정하겠어요"
+          ],
+          "common_errors_vi": "`받다` + `-는 대로` → `받는 대로` (✗ `받은 대로`: nghĩa thành «đúng như đã nhận»). Vế sau là lời hứa: `-겠습니다` / `-(으)ㄹ게요`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "거래처 담당자도 만날 겸 신제품도 소개할 겸 하노이에 출장을 갑니다",
+            "거래처 담당자도 만날 겸 신제품도 소개할 겸 하노이에 출장을 가요",
+            "거래처 담당자도 만날 겸 신제품도 소개할 겸 하노이에 출장을 가려고 합니다",
+            "거래처 담당자도 만날 겸 신제품도 소개할 겸 하노이에 출장을 가려고 해요",
+            "거래처 담당자도 만날 겸 신제품도 소개할 겸 하노이에 출장을 갈 예정입니다",
+            "거래처 담당자도 만날 겸 신제품도 소개할 겸 하노이로 출장을 갑니다",
+            "거래처 담당자도 만날 겸 신제품도 소개할 겸 하노이로 출장을 가요",
+            "거래처 담당자도 만날 겸 신제품도 소개할 겸 하노이로 출장을 가려고 합니다",
+            "거래처 담당자도 만날 겸 신제품도 소개할 겸 하노이로 출장을 가려고 해요",
+            "거래처 담당자도 만날 겸 신제품도 소개할 겸 하노이로 출장을 갈 예정입니다",
+            "거래처 담당자도 만날 겸 신제품을 소개할 겸 하노이에 출장을 갑니다",
+            "거래처 담당자도 만날 겸 신제품을 소개할 겸 하노이에 출장을 가요",
+            "거래처 담당자도 만날 겸 신제품을 소개할 겸 하노이에 출장을 가려고 합니다",
+            "거래처 담당자도 만날 겸 신제품을 소개할 겸 하노이에 출장을 가려고 해요",
+            "거래처 담당자도 만날 겸 신제품을 소개할 겸 하노이에 출장을 갈 예정입니다",
+            "거래처 담당자도 만날 겸 신제품을 소개할 겸 하노이로 출장을 갑니다",
+            "거래처 담당자도 만날 겸 신제품을 소개할 겸 하노이로 출장을 가요",
+            "거래처 담당자도 만날 겸 신제품을 소개할 겸 하노이로 출장을 가려고 합니다",
+            "거래처 담당자도 만날 겸 신제품을 소개할 겸 하노이로 출장을 가려고 해요",
+            "거래처 담당자도 만날 겸 신제품을 소개할 겸 하노이로 출장을 갈 예정입니다",
+            "거래처 담당자를 만날 겸 신제품도 소개할 겸 하노이에 출장을 갑니다",
+            "거래처 담당자를 만날 겸 신제품도 소개할 겸 하노이에 출장을 가요",
+            "거래처 담당자를 만날 겸 신제품도 소개할 겸 하노이에 출장을 가려고 합니다",
+            "거래처 담당자를 만날 겸 신제품도 소개할 겸 하노이에 출장을 가려고 해요",
+            "거래처 담당자를 만날 겸 신제품도 소개할 겸 하노이에 출장을 갈 예정입니다",
+            "거래처 담당자를 만날 겸 신제품도 소개할 겸 하노이로 출장을 갑니다",
+            "거래처 담당자를 만날 겸 신제품도 소개할 겸 하노이로 출장을 가요",
+            "거래처 담당자를 만날 겸 신제품도 소개할 겸 하노이로 출장을 가려고 합니다",
+            "거래처 담당자를 만날 겸 신제품도 소개할 겸 하노이로 출장을 가려고 해요",
+            "거래처 담당자를 만날 겸 신제품도 소개할 겸 하노이로 출장을 갈 예정입니다",
+            "거래처 담당자를 만날 겸 신제품을 소개할 겸 하노이에 출장을 갑니다",
+            "거래처 담당자를 만날 겸 신제품을 소개할 겸 하노이에 출장을 가요",
+            "거래처 담당자를 만날 겸 신제품을 소개할 겸 하노이에 출장을 가려고 합니다",
+            "거래처 담당자를 만날 겸 신제품을 소개할 겸 하노이에 출장을 가려고 해요",
+            "거래처 담당자를 만날 겸 신제품을 소개할 겸 하노이에 출장을 갈 예정입니다",
+            "거래처 담당자를 만날 겸 신제품을 소개할 겸 하노이로 출장을 갑니다",
+            "거래처 담당자를 만날 겸 신제품을 소개할 겸 하노이로 출장을 가요",
+            "거래처 담당자를 만날 겸 신제품을 소개할 겸 하노이로 출장을 가려고 합니다",
+            "거래처 담당자를 만날 겸 신제품을 소개할 겸 하노이로 출장을 가려고 해요",
+            "거래처 담당자를 만날 겸 신제품을 소개할 겸 하노이로 출장을 갈 예정입니다"
+          ],
+          "common_errors_vi": "Hai mục đích, mỗi mục một `-(으)ㄹ 겸`, rồi mới đến hành động chính (`출장을 갑니다`). ✗ `만나는 겸`: `겸` luôn đi sau `-(으)ㄹ`."
+        }
+      ],
+      "tips_vi": [
+        "Ngay khi A xong thì B: `A-는 대로 B`.",
+        "Đi đâu với hai mục đích: `A-(으)ㄹ 겸 B-(으)ㄹ 겸 가다`."
+      ],
+      "context_vi": "Nối câu báo cáo công việc"
+    },
+    {
+      "id": "CU36E1",
+      "skill": "build",
+      "type": "write_essay",
+      "rung": 5,
+      "number": "Bước 5",
+      "title_vi": "Viết đoạn văn của bạn · Email báo cáo tiến độ",
+      "points": 10,
+      "instruction_vi": "Viết MỘT email ngắn (합쇼체) gửi trưởng nhóm, báo cáo tiến độ một việc thật bạn đang làm (ở công ty, ở chỗ làm thêm, hay một bài tập nhóm ở trường): việc gì đã xong, việc gì đang làm, khi nào xong, sắp làm gì.",
+      "limits": {
+        "min": 180,
+        "max": 350
+      },
+      "prompt_ko": "팀장님께 맡은 일의 진행 상황을 보고하는 이메일을 쓰십시오.",
+      "bullets_ko": [
+        "무슨 일의 진행 상황을 보고합니까?",
+        "지금까지 무엇을 끝냈습니까?",
+        "지금 무엇을 하고 있습니까? 언제 끝납니까?",
+        "앞으로 무엇을 할 예정입니까?"
+      ],
+      "framework_vi": [
+        "Dòng tiêu đề: `제목: N 진행 상황 보고`.",
+        "Câu mở: `팀장님, 안녕하십니까?` + bộ phận và tên; một câu nói email báo cáo việc gì (`… 진행 상황을 보고드립니다`).",
+        "Thân: mỗi ý một dòng, đánh `첫째, 둘째, 셋째`: việc đã xong → việc đang làm (`N을/를 통해`, `-는 대로`) → việc sắp làm (`-는 김에`, `-(으)ㄹ 예정입니다`).",
+        "Câu kết: nhờ xem (`검토하시고 의견을 주시면 바로 반영하겠습니다`), `감사합니다`, ký `○○○ 드림`."
+      ],
+      "patterns_vi": [
+        "`제목: N 진행 상황 보고`",
+        "`팀장님, 안녕하십니까? ○○팀 ○○○입니다.`",
+        "`지난주에 말씀하신 N의 진행 상황을 보고드립니다.`",
+        "`첫째, … 완성했습니다.` · `둘째, … 진행하고 있으며, …`",
+        "`N을/를 통해 진행하고 있습니다`",
+        "`… 끝나는 대로 … 제출하겠습니다`",
+        "`… 가는 김에 … V-(으)ㄹ 예정입니다`",
+        "`검토하시고 의견을 주시면 바로 반영하겠습니다. 감사합니다. ○○○ 드림`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Tiêu đề + mở",
+          "content_vi": "Tiêu đề; chào, bộ phận, tên; báo cáo việc gì",
+          "chars": "50–80"
+        },
+        {
+          "part_vi": "Đã xong",
+          "content_vi": "Việc đã hoàn thành",
+          "chars": "30–60"
+        },
+        {
+          "part_vi": "Đang làm",
+          "content_vi": "Làm bằng cách nào, đến đâu, khi nào xong",
+          "chars": "60–110"
+        },
+        {
+          "part_vi": "Sắp làm + kết",
+          "content_vi": "Kế hoạch tiếp theo; nhờ xem; cảm ơn; ký tên",
+          "chars": "50–90"
+        }
+      ],
+      "model_answer_ko": "제목: 신제품 소개 자료 진행 상황 보고\n팀장님, 안녕하십니까? 마케팅팀 응우옌 란입니다.\n지난주에 말씀하신 신제품 소개 자료의 진행 상황을 보고드립니다.\n첫째, 거래처 세 곳에 보낼 소개 자료는 어제 모두 완성했습니다.\n둘째, 고객 설문 조사는 온라인을 통해 진행하고 있으며, 지금까지 200명이 참여했습니다. 조사가 끝나는 대로 결과를 정리해서 금요일까지 보고서를 제출하겠습니다.\n셋째, 다음 주에 하노이로 출장을 가는 김에 거래처 담당자를 만나서 신제품을 직접 소개할 예정입니다.\n검토하시고 의견을 주시면 바로 반영하겠습니다.\n감사합니다.\n응우옌 란 드림",
+      "model_note_vi": "Email báo cáo hay là email cấp trên đọc 20 giây là nắm được: tiêu đề nói rõ nội dung, mỗi dòng một việc, có con số và hạn (200명, 금요일까지). Kính ngữ đi theo người làm: việc của trưởng nhóm có `-(으)시-` (`말씀하신`, `검토하시고`, `주시면`), việc của mình thì hạ mình (`보고드립니다`). Thay tên dự án, con số, ngày bằng việc thật của bạn.",
+      "common_errors_vi": [
+        "Tự tôn mình: ✗ `보고하십니다`, ✗ `제가 말씀하신 자료` → ✓ `보고드립니다`, `제가 말씀드린 자료`.",
+        "Quên tôn người nhận: ✗ `팀장님이 말한 자료` → ✓ `팀장님께서 말씀하신 자료` / `말씀하신 자료`.",
+        "Trộn `-아/어요` vào email 합쇼체, hoặc mở bằng `팀장님, 안녕?` / `수고하세요` (không dùng `수고하세요` với cấp trên).",
+        "✗ `끝났는 대로` → ✓ `끝나는 대로`; ✗ `온라인을 통한 진행하고 있습니다` → ✓ `온라인을 통해 진행하고 있습니다`.",
+        "Viết thành một khối dài không có tiêu đề và không ký tên: email công việc cần `제목:` và dòng `○○○ 드림`."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Đủ ý: tiêu đề, việc đã xong, việc đang làm và hạn, việc sắp làm",
+          "max": 3
+        },
+        {
+          "criterion_vi": "Đúng khuôn email công việc: chào + bộ phận + tên → các ý tách dòng → nhờ xem, cảm ơn, ký tên",
+          "max": 3
+        },
+        {
+          "criterion_vi": "Kính ngữ đúng chiều (`-(으)시-` cho người nhận, `드리다` cho việc của mình) và dùng đúng ít nhất hai mẫu của bài",
+          "max": 2
+        },
+        {
+          "criterion_vi": "Chia từ, cách chữ, giữ một thể 합쇼체",
+          "max": 2
+        }
+      ],
+      "checklist_vi": [
+        "Có dòng `제목:` nói rõ nội dung?",
+        "Sau lời chào có bộ phận và tên của bạn?",
+        "Mỗi việc một dòng, có con số hoặc hạn cụ thể?",
+        "Việc của trưởng nhóm có `-(으)시-`, việc của bạn dùng `드리다`?",
+        "Cuối email có `감사합니다` và `○○○ 드림`?"
+      ],
+      "detectors": [
+        {
+          "pattern": "N + 을/를 통해(서) · N + 을/를 통한 N",
+          "regex": "(?:을|를) 통해",
+          "label_vi": "N을/를 통해 (qua …)"
+        },
+        {
+          "pattern": "V + -는 대로 · N + 대로",
+          "regex": "는 대로",
+          "label_vi": "-는 대로 (ngay khi)"
+        },
+        {
+          "pattern": "V + -는 김에",
+          "regex": "는 김에",
+          "label_vi": "-는 김에 (nhân tiện)"
+        }
+      ],
+      "uses": [
+        {
+          "form": "제목",
+          "card": "제목"
+        },
+        {
+          "form": "신제품",
+          "card": "신제품"
+        },
+        {
+          "form": "소개 자료",
+          "card": "소개하다"
+        },
+        {
+          "form": "소개 자료",
+          "card": "자료"
+        },
+        {
+          "form": "진행 상황",
+          "card": "진행 상황"
+        },
+        {
+          "form": "보고드립니다",
+          "card": "보고드리다"
+        },
+        {
+          "form": "팀장님",
+          "card": "팀장"
+        },
+        {
+          "form": "안녕하십니까",
+          "card": "안녕하십니까"
+        },
+        {
+          "form": "마케팅팀",
+          "card": "팀"
+        },
+        {
+          "form": "지난주에",
+          "card": "지난주"
+        },
+        {
+          "form": "말씀하신",
+          "card": "말씀하시다"
+        },
+        {
+          "form": "말씀하신 신제품",
+          "card": "V + -(으)ㄴ + N (quá khứ)"
+        },
+        {
+          "form": "첫째",
+          "card": "Từ nối + 반면에 · 그러나 · 첫째 · 이를 해결하기 위해서는 · 결론적으로"
+        },
+        {
+          "form": "거래처 세 곳",
+          "card": "거래처"
+        },
+        {
+          "form": "세 곳",
+          "card": "곳"
+        },
+        {
+          "form": "보낼 소개 자료",
+          "card": "보내다"
+        },
+        {
+          "form": "보낼 소개 자료",
+          "card": "V + -(으)ㄹ + N (dự định · sắp xảy ra)"
+        },
+        {
+          "form": "어제",
+          "card": "어제"
+        },
+        {
+          "form": "모두 완성했습니다",
+          "card": "모두"
+        },
+        {
+          "form": "완성했습니다",
+          "card": "완성하다"
+        },
+        {
+          "form": "고객 설문 조사",
+          "card": "고객"
+        },
+        {
+          "form": "설문 조사",
+          "card": "설문 조사"
+        },
+        {
+          "form": "온라인을 통해",
+          "card": "온라인"
+        },
+        {
+          "form": "온라인을 통해",
+          "card": "N + 을/를 통해(서) · N + 을/를 통한 N"
+        },
+        {
+          "form": "진행하고 있으며",
+          "card": "진행하다"
+        },
+        {
+          "form": "진행하고 있으며",
+          "card": "V + -고 있다"
+        },
+        {
+          "form": "있으며",
+          "card": "V + -(으)며"
+        },
+        {
+          "form": "지금까지",
+          "card": "지금"
+        },
+        {
+          "form": "200명",
+          "card": "명"
+        },
+        {
+          "form": "참여했습니다",
+          "card": "참여하다"
+        },
+        {
+          "form": "조사가 끝나는",
+          "card": "일(이) 끝나다"
+        },
+        {
+          "form": "끝나는 대로",
+          "card": "V + -는 대로 · N + 대로"
+        },
+        {
+          "form": "결과를",
+          "card": "결과"
+        },
+        {
+          "form": "정리해서",
+          "card": "정리하다 / 정돈하다"
+        },
+        {
+          "form": "정리해서",
+          "card": "V/A + -아/어서"
+        },
+        {
+          "form": "금요일까지",
+          "card": "금요일"
+        },
+        {
+          "form": "보고서를 제출하겠습니다",
+          "card": "보고서"
+        },
+        {
+          "form": "제출하겠습니다",
+          "card": "제출하다"
+        },
+        {
+          "form": "제출하겠습니다",
+          "card": "V/A + -겠-"
+        },
+        {
+          "form": "다음 주에",
+          "card": "이번 주 · 다음 주"
+        },
+        {
+          "form": "출장을 가는 김에",
+          "card": "출장"
+        },
+        {
+          "form": "가는 김에",
+          "card": "V + -는 김에"
+        },
+        {
+          "form": "담당자를 만나서",
+          "card": "담당자"
+        },
+        {
+          "form": "만나서",
+          "card": "만나다"
+        },
+        {
+          "form": "직접",
+          "card": "직접"
+        },
+        {
+          "form": "소개할 예정입니다",
+          "card": "V + -(으)ㄹ 예정이다 · N + 예정이다"
+        },
+        {
+          "form": "검토하시고",
+          "card": "검토하다"
+        },
+        {
+          "form": "검토하시고",
+          "card": "V/A + -(으)시- · N + (이)시다"
+        },
+        {
+          "form": "의견을 주시면",
+          "card": "의견"
+        },
+        {
+          "form": "주시면",
+          "card": "V/A + -(으)면"
+        },
+        {
+          "form": "바로",
+          "card": "바로"
+        },
+        {
+          "form": "반영하겠습니다",
+          "card": "반영하다"
+        },
+        {
+          "form": "감사합니다",
+          "card": "감사합니다"
+        },
+        {
+          "form": "응우옌 란 드림",
+          "card": "드림"
+        }
+      ]
+    },
+    {
+      "id": "CU37O1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Sợ sai nên giả vờ biết",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Vì sợ mắc lỗi nên dù có điều không biết, tôi vẫn giả vờ như biết.",
+      "tiles": [
+        "아는",
+        "봐",
+        "것이",
+        "척했습니다.",
+        "실수할까",
+        "모르는",
+        "알는",
+        "있어도",
+        "모른"
+      ],
+      "answers": [
+        "실수할까 봐 모르는 것이 있어도 아는 척했습니다.",
+        "모르는 것이 있어도 실수할까 봐 아는 척했습니다."
+      ],
+      "explain_vi": "`-(으)ㄹ까 봐` nêu nỗi lo đứng trước việc mình làm. `알다` bỏ ㄹ trước `-는`: `아는 척` (✗ `알는`); `모르다` + `-는` → `모르는 것` (✗ `모른 것`)."
+    },
+    {
+      "id": "CU37O2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Đang cố sửa nhược điểm",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Bây giờ tôi đang cố gắng sửa nhược điểm này.",
+      "tiles": [
+        "노력하고",
+        "단점을",
+        "지금은",
+        "고치러",
+        "있습니다.",
+        "이",
+        "고치려고",
+        "단점이"
+      ],
+      "answers": [
+        "지금은 이 단점을 고치려고 노력하고 있습니다."
+      ],
+      "explain_vi": "Mục đích của sự cố gắng: `V-(으)려고 노력하다`. `-(으)러` chỉ đi với động từ di chuyển (`가다`, `오다`), nên ✗ `고치러 노력하다`. `고치다` cần tân ngữ: `단점을`."
+    },
+    {
+      "id": "CU37F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Điền khung: ưu điểm, nhược điểm",
+      "points": 8,
+      "instruction_vi": "Điền dạng đúng của từ trong ngoặc vuông.",
+      "text": "① 저는 성격이 [침착하다: -고] ( ㉠ ) 책임감이 강한 편입니다.\n② 저는 조금 [소극적이다: -아/어서] ( ㉡ ) 사람들 앞에서 말할 때 많이 긴장합니다.\n③ 발표 중에 너무 긴장해서 준비한 내용을 [잊다: -고 말다, quá khứ] ( ㉢ ).\n④ 앞으로는 더 자신감 있게 말하는 사람이 [되다: -고 싶다] ( ㉣ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "침착하고"
+          ],
+          "common_errors_vi": "Nối hai đặc điểm cùng chiều bằng `-고`; thì và đuôi câu để ở vị ngữ cuối (`강한 편입니다`)."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "소극적이어서",
+            "소극적이라서",
+            "소극적인 편이라서",
+            "소극적인 편이어서"
+          ],
+          "common_errors_vi": "`N(이)다` + `-아/어서` → `소극적이어서` hoặc `소극적이라서` (✗ `소극적해서`: `소극적` là danh từ, không có `하다`)."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "잊고 말았습니다",
+            "잊고 말았어요",
+            "잊어버리고 말았습니다",
+            "잊어버리고 말았어요"
+          ],
+          "common_errors_vi": "`-고 말다` diễn tả việc lỡ xảy ra ngoài ý muốn, phải ở quá khứ: `잊고 말았습니다` (✗ `잊고 말겠습니다`: đó là quyết tâm)."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "되고 싶습니다",
+            "되고 싶어요"
+          ],
+          "common_errors_vi": "`N이/가 되다` (✗ `사람을 되다`); mong muốn của mình: `-고 싶습니다`."
+        }
+      ],
+      "tips_vi": [
+        "Danh từ `소극적, 긍정적…` + `이다` → `소극적이어서`, `긍정적인`.",
+        "Lỡ … mất (đã xảy ra): `-고 말았다`."
+      ],
+      "context_vi": "Tả tính cách bản thân"
+    },
+    {
+      "id": "CU37C1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 3,
+      "number": "Bước 3",
+      "title_vi": "Tạo câu · Nối câu: nỗi lo và việc lỡ làm",
+      "points": 6,
+      "instruction_vi": "Nối hai câu thành một câu bằng mẫu trong ngoặc.",
+      "text": "① 실수를 할 수도 있습니다. 그래서 서류를 두 번 확인합니다. (-(으)ㄹ까 봐)\n→ ( ㉠ ).\n② 마음이 급했습니다. 그래서 확인하지 않고 이메일을 보냈습니다. (-아/어서 … -아/어 버리다)\n→ ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "실수를 할까 봐 서류를 두 번 확인합니다",
+            "실수를 할까 봐 서류를 두 번 확인해요",
+            "실수를 할까 봐서 서류를 두 번 확인합니다",
+            "실수를 할까 봐서 서류를 두 번 확인해요",
+            "실수할까 봐 서류를 두 번 확인합니다",
+            "실수할까 봐 서류를 두 번 확인해요",
+            "실수할까 봐서 서류를 두 번 확인합니다",
+            "실수할까 봐서 서류를 두 번 확인해요"
+          ],
+          "common_errors_vi": "Nỗi lo (`-(으)ㄹ까 봐`) đứng trước việc mình làm để phòng. Vế trước không chia quá khứ: ✗ `실수했을까 봐 확인합니다` (nghĩa khác: sợ đã sai rồi)."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "마음이 급해서 확인하지 않고 이메일을 보내 버렸습니다",
+            "마음이 급해서 확인하지 않고 이메일을 보내 버렸어요",
+            "마음이 급해서 확인하지 않고 이메일을 보내고 말았습니다",
+            "마음이 급해서 확인하지 않고 이메일을 보내고 말았어요"
+          ],
+          "common_errors_vi": "Vế lý do `-아/어서` không mang `-았/었-` (✗ `급했어서`). `보내 버렸습니다` cho thấy việc đã lỡ làm và tiếc; `보내고 말았습니다` cũng đúng."
+        }
+      ],
+      "tips_vi": [
+        "Sợ … nên phòng trước: `A-(으)ㄹ까 봐 B`.",
+        "Lỡ … mất: `-아/어 버리다`, `-고 말다` (quá khứ)."
+      ],
+      "context_vi": "Nối câu tả tính cách"
+    },
+    {
+      "id": "CU37E1",
+      "skill": "build",
+      "type": "write_essay",
+      "rung": 5,
+      "number": "Bước 5",
+      "title_vi": "Viết đoạn văn của bạn · Ưu điểm, nhược điểm và cách sửa",
+      "points": 10,
+      "instruction_vi": "Viết MỘT đoạn (합쇼체) tả tính cách thật của bạn như khi trả lời câu hỏi «성격의 장단점» lúc phỏng vấn: một ưu điểm, một nhược điểm có ví dụ (một lần nó gây khó cho bạn), và bạn đang sửa nó thế nào.",
+      "limits": {
+        "min": 180,
+        "max": 350
+      },
+      "prompt_ko": "여러분의 성격의 장점과 단점에 대해 쓰십시오.",
+      "bullets_ko": [
+        "여러분의 성격은 어떻습니까? 장점은 무엇입니까?",
+        "단점은 무엇입니까? 그 단점 때문에 어떤 일이 있었습니까?",
+        "그 단점을 고치려고 어떻게 노력하고 있습니까?",
+        "앞으로 어떤 사람이 되고 싶습니까?"
+      ],
+      "framework_vi": [
+        "Câu mở: tính cách chung và ưu điểm (`저는 성격이 A-고 A-(으)ㄴ 편입니다`), một câu cho thấy ưu điểm đó khi làm việc.",
+        "Nhược điểm: `하지만 단점도 있습니다.` + nhược điểm + một lần cụ thể nó gây khó (`-(으)ㄹ까 봐`, `-(으)ㄴ 척하다`, `-고 말았습니다`).",
+        "Cách sửa: `지금은 이 단점을 고치려고 노력하고 있습니다.` + hai việc cụ thể bạn làm.",
+        "Câu kết: `앞으로는 … 사람이 되고 싶습니다.`"
+      ],
+      "patterns_vi": [
+        "`저는 성격이 A-고 책임감이 강한 편입니다`",
+        "`그래서 일을 맡으면 끝까지 …`",
+        "`하지만 단점도 있습니다. 저는 조금 N이어서/A-아/어서 …`",
+        "`V-(으)ㄹ까 봐 … V-(으)ㄴ 척한 적도 있습니다`",
+        "`너무 긴장해서 … V-고 말았습니다`",
+        "`지금은 이 단점을 고치려고 노력하고 있습니다`",
+        "`앞으로는 더 … 사람이 되고 싶습니다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu mở",
+          "content_vi": "Tính cách chung, ưu điểm và nó giúp gì khi làm việc",
+          "chars": "50–80"
+        },
+        {
+          "part_vi": "Nhược điểm",
+          "content_vi": "Nhược điểm và một lần cụ thể",
+          "chars": "90–140"
+        },
+        {
+          "part_vi": "Cách sửa",
+          "content_vi": "Hai việc bạn đang làm để sửa",
+          "chars": "50–90"
+        },
+        {
+          "part_vi": "Câu kết",
+          "content_vi": "Bạn muốn trở thành người thế nào",
+          "chars": "20–40"
+        }
+      ],
+      "model_answer_ko": "저는 성격이 침착하고 책임감이 강한 편입니다. 그래서 일을 맡으면 끝까지 꼼꼼하게 합니다. 하지만 단점도 있습니다. 저는 조금 소극적이어서 사람들 앞에서 말할 때 많이 긴장합니다. 회의에서 실수할까 봐 모르는 것이 있어도 아는 척한 적도 있습니다. 작년에는 발표 중에 너무 긴장해서 준비한 내용을 잊고 말았습니다. 지금은 이 단점을 고치려고 노력하고 있습니다. 발표 전에는 집에서 연습을 많이 하고, 회의에서 모르는 것이 있으면 바로 질문합니다. 앞으로는 더 자신감 있게 말하는 사람이 되고 싶습니다.",
+      "model_note_vi": "Ở Hàn, câu hỏi «ưu nhược điểm» không chờ bạn khoe hay tự trách, mà chờ bạn cho thấy mình **hiểu mình và đang tiến bộ**. Vì vậy nhược điểm phải thật nhưng không chết người (rụt rè, nóng vội, hay lo), có một lần cụ thể, và phần cách sửa dài ngang phần nhược điểm. Nói về mình nhẹ nhàng bằng `조금`, `-(으)ㄴ 편입니다`.",
+      "common_errors_vi": [
+        "✗ `저의 장점은 성실하다입니다` → ✓ `제 장점은 성실한 것입니다` / `저는 성실한 편입니다`: sau `장점은` cần danh từ.",
+        "✗ `소극적해서` → ✓ `소극적이어서`; ✗ `긍정적 사람` → ✓ `긍정적인 사람` (`-적` là danh từ).",
+        "Dùng `-(으)ㄹ까 봐` cho điều tốt hay suy đoán thường: ✗ `합격할까 봐 기뻤습니다`.",
+        "✗ `잊고 말겠습니다` cho việc đã lỡ xảy ra → ✓ `잊고 말았습니다`.",
+        "Chỉ có nhược điểm mà không có cách sửa, hoặc chọn nhược điểm quá nặng cho công việc (`저는 게을러서 자주 늦습니다`).",
+        "Trộn `-아/어요` vào đoạn 합쇼체."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Đủ ý: ưu điểm, nhược điểm có ví dụ, cách sửa cụ thể, câu kết",
+          "max": 3
+        },
+        {
+          "criterion_vi": "Thành một đoạn: mở → nhược điểm → cách sửa → kết, có từ nối (`그래서`, `하지만`)",
+          "max": 3
+        },
+        {
+          "criterion_vi": "Dùng đúng nghĩa ít nhất hai mẫu của bài (`-(으)ㄹ까 봐`, `-(으)ㄴ/는 척하다`, `-고 말다`, `-(으)ㄹ 뻔하다`)",
+          "max": 2
+        },
+        {
+          "criterion_vi": "Chia từ (`-적이어서`, `-적인`), cách chữ, giữ một thể 합쇼체",
+          "max": 2
+        }
+      ],
+      "checklist_vi": [
+        "Có một ưu điểm và một câu cho thấy ưu điểm đó khi làm việc?",
+        "Nhược điểm có một lần cụ thể (khi nào, chuyện gì)?",
+        "Phần cách sửa có ít nhất hai việc bạn đang làm?",
+        "`-고 말다` ở quá khứ, `-(으)ㄹ까 봐` chỉ cho điều không mong muốn?",
+        "Mọi câu đều kết thúc bằng `-ㅂ니다/습니다`?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V/A + -(으)ㄹ까 봐(서)",
+          "regex": "(?:을|ㄹ|할|될|일)까 봐",
+          "label_vi": "-(으)ㄹ까 봐 (sợ rằng …)"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 척하다 (-(으)ㄴ/는 체하다)",
+          "regex": "(?:은|는|ㄴ|한|운) 척",
+          "label_vi": "-(으)ㄴ/는 척하다 (giả vờ)"
+        },
+        {
+          "pattern": "V + -고 말다 · V + -아/어 버리다",
+          "regex": "고 말았|(?:아|어|해|여) 버렸",
+          "label_vi": "-고 말다 / -아/어 버리다 (lỡ … mất)"
+        }
+      ],
+      "uses": [
+        {
+          "form": "성격이 침착하고",
+          "card": "성격"
+        },
+        {
+          "form": "침착하고",
+          "card": "침착하다"
+        },
+        {
+          "form": "침착하고",
+          "card": "V + -고"
+        },
+        {
+          "form": "책임감이 강한 편입니다",
+          "card": "책임감이 강하다"
+        },
+        {
+          "form": "강한 편입니다",
+          "card": "A + -(으)ㄴ 편이다 · V + -는 편이다"
+        },
+        {
+          "form": "그래서",
+          "card": "그래서"
+        },
+        {
+          "form": "일을 맡으면",
+          "card": "일을 맡다"
+        },
+        {
+          "form": "맡으면",
+          "card": "V/A + -(으)면"
+        },
+        {
+          "form": "끝까지",
+          "card": "끝까지"
+        },
+        {
+          "form": "꼼꼼하게",
+          "card": "꼼꼼하다"
+        },
+        {
+          "form": "꼼꼼하게",
+          "card": "A + -게 (phó từ hoá)"
+        },
+        {
+          "form": "하지만",
+          "card": "하지만"
+        },
+        {
+          "form": "단점도",
+          "card": "단점"
+        },
+        {
+          "form": "조금",
+          "card": "조금"
+        },
+        {
+          "form": "소극적이어서",
+          "card": "소극적"
+        },
+        {
+          "form": "소극적이어서",
+          "card": "V/A + -아/어서"
+        },
+        {
+          "form": "사람들 앞에서",
+          "card": "사람들 앞에서"
+        },
+        {
+          "form": "말할 때",
+          "card": "말하다"
+        },
+        {
+          "form": "말할 때",
+          "card": "V/A + -(으)ㄹ 때"
+        },
+        {
+          "form": "많이 긴장합니다",
+          "card": "많이"
+        },
+        {
+          "form": "긴장합니다",
+          "card": "긴장하다"
+        },
+        {
+          "form": "회의에서",
+          "card": "회의"
+        },
+        {
+          "form": "실수할까 봐",
+          "card": "실수"
+        },
+        {
+          "form": "실수할까 봐",
+          "card": "V/A + -(으)ㄹ까 봐(서)"
+        },
+        {
+          "form": "모르는 것",
+          "card": "모르다"
+        },
+        {
+          "form": "모르는 것",
+          "card": "V + -는 것 · V + -기 (danh từ hoá)"
+        },
+        {
+          "form": "있어도",
+          "card": "V/A + -아/어도"
+        },
+        {
+          "form": "아는 척한",
+          "card": "알다"
+        },
+        {
+          "form": "아는 척한",
+          "card": "V/A + -(으)ㄴ/는 척하다 (-(으)ㄴ/는 체하다)"
+        },
+        {
+          "form": "척한 적도 있습니다",
+          "card": "V + -(으)ㄴ 적이 있다/없다"
+        },
+        {
+          "form": "작년에는",
+          "card": "작년"
+        },
+        {
+          "form": "발표 중에",
+          "card": "발표"
+        },
+        {
+          "form": "발표 중에",
+          "card": "N 중(에)"
+        },
+        {
+          "form": "너무 긴장해서",
+          "card": "너무"
+        },
+        {
+          "form": "준비한 내용",
+          "card": "준비하다"
+        },
+        {
+          "form": "준비한 내용",
+          "card": "V + -(으)ㄴ + N (quá khứ)"
+        },
+        {
+          "form": "내용을",
+          "card": "내용"
+        },
+        {
+          "form": "잊고 말았습니다",
+          "card": "잊다"
+        },
+        {
+          "form": "잊고 말았습니다",
+          "card": "V + -고 말다 · V + -아/어 버리다"
+        },
+        {
+          "form": "지금은",
+          "card": "지금"
+        },
+        {
+          "form": "고치려고 노력하고",
+          "card": "고치다"
+        },
+        {
+          "form": "고치려고",
+          "card": "V + -(으)려고"
+        },
+        {
+          "form": "노력하고 있습니다",
+          "card": "노력하다"
+        },
+        {
+          "form": "노력하고 있습니다",
+          "card": "V + -고 있다"
+        },
+        {
+          "form": "발표 전에는",
+          "card": "V + -기 전에"
+        },
+        {
+          "form": "집에서",
+          "card": "집"
+        },
+        {
+          "form": "연습을 많이 하고",
+          "card": "연습하다"
+        },
+        {
+          "form": "바로",
+          "card": "바로"
+        },
+        {
+          "form": "질문합니다",
+          "card": "질문하다"
+        },
+        {
+          "form": "앞으로는",
+          "card": "앞으로"
+        },
+        {
+          "form": "더 자신감 있게",
+          "card": "더"
+        },
+        {
+          "form": "자신감 있게",
+          "card": "자신감"
+        },
+        {
+          "form": "말하는 사람",
+          "card": "V + -는 + N · A + -(으)ㄴ + N (hiện tại)"
+        },
+        {
+          "form": "사람이 되고 싶습니다",
+          "card": "되다"
+        },
+        {
+          "form": "되고 싶습니다",
+          "card": "V + -고 싶다"
+        }
+      ]
+    },
+    {
+      "id": "CU38O1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Biết thế đã báo ngay",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Biết thế hôm qua khi biết lịch, tôi đã báo anh/chị ngay.",
+      "tiles": [
+        "바로",
+        "일정을",
+        "그랬습니다.",
+        "어제",
+        "말씀하실걸",
+        "알았을",
+        "말씀드릴걸",
+        "때"
+      ],
+      "answers": [
+        "어제 일정을 알았을 때 바로 말씀드릴걸 그랬습니다.",
+        "일정을 어제 알았을 때 바로 말씀드릴걸 그랬습니다."
+      ],
+      "explain_vi": "Tiếc vì đã không làm: `V-(으)ㄹ걸 그랬습니다`. Người nói là bạn, nói với cấp trên, nên `말씀드릴걸` (✗ `말씀하실걸`: tôn chính mình)."
+    },
+    {
+      "id": "CU38O2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Từ chối mềm",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Xin lỗi anh/chị, lần này có lẽ tôi khó tham dự được.",
+      "tiles": [
+        "같습니다.",
+        "참석하기",
+        "이번에는",
+        "죄송하지만",
+        "어려울",
+        "참석하게",
+        "것",
+        "어렵을"
+      ],
+      "answers": [
+        "죄송하지만 이번에는 참석하기 어려울 것 같습니다."
+      ],
+      "explain_vi": "Người Hàn không nói thẳng `못 갑니다` với cấp trên mà nói mềm: `V-기 어려울 것 같습니다`. `어렵다` (ㅂ bất quy tắc) → `어려울` (✗ `어렵을`); trước `어렵다` dùng `-기` (✗ `참석하게`)."
+    },
+    {
+      "id": "CU38F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Điền khung: tin nhắn từ chối khéo",
+      "points": 8,
+      "instruction_vi": "Điền dạng đúng của từ trong ngoặc vuông.",
+      "text": "① 이번 토요일 집들이에 [초대하다: -아/어 주시다 + -아/어서] ( ㉠ ) 정말 감사합니다.\n② 그날 베트남에서 부모님이 [오다: kính ngữ + -아/어서] ( ㉡ ) 공항에 마중을 나가야 합니다.\n③ 출장을 가신 분들도 많은데 저마저 [빠지다: -게 되다 + -아/어서] ( ㉢ ) 정말 죄송합니다.\n④ 다음에 기회가 있으면 꼭 [찾아뵙다: -겠-, 합쇼체] ( ㉣ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "초대해 주셔서",
+            "초대하여 주셔서"
+          ],
+          "common_errors_vi": "Cảm ơn việc người trên làm cho mình: `-아/어 주셔서 감사합니다` (✗ `초대해서 감사합니다`: thiếu `주시다`, nghe như cảm ơn chính mình)."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "오셔서"
+          ],
+          "common_errors_vi": "`오다` + `-시-` + `-어서` → `오셔서` (✗ `오시어서` viết dài, ✗ `와서` mất kính ngữ với bố mẹ)."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "빠지게 되어",
+            "빠지게 돼서",
+            "빠지게 되어서"
+          ],
+          "common_errors_vi": "`-게 되다` cho thấy việc vắng mặt không phải do mình muốn; + `-아/어서` → `빠지게 되어` (văn viết) / `빠지게 돼서`."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "찾아뵙겠습니다"
+          ],
+          "common_errors_vi": "Lời hứa với người trên: `찾아뵙겠습니다` (✗ `찾아가겠습니다` thiếu khiêm nhường, ✗ `찾아뵈겠습니다`)."
+        }
+      ],
+      "tips_vi": [
+        "Việc người trên làm cho mình: `-아/어 주셔서 감사합니다`.",
+        "Việc mình làm cho người trên: `말씀드리다`, `찾아뵙다`, `드리다`."
+      ],
+      "context_vi": "Từ chối khéo lời mời"
+    },
+    {
+      "id": "CU38C1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 3,
+      "number": "Bước 3",
+      "title_vi": "Tạo câu · Nối câu: không thể nào và lẽ thường",
+      "points": 6,
+      "instruction_vi": "Nối hai câu thành một câu bằng mẫu trong ngoặc.",
+      "context_vi": "Đồng nghiệp trấn an bạn sau khi bạn từ chối lời mời",
+      "text": "① 팀장님은 마음이 넓으세요. 이 일로 화를 내지 않으실 거예요. (-아/어서 … -(으)ㄹ 리가 없다)\n→ ( ㉠ ).\n② 누구에게나 갑자기 일이 생깁니다. 그것은 당연한 일입니다. (-기 마련이다)\n→ ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "팀장님은 마음이 넓으셔서 이 일로 화를 내실 리가 없어요",
+            "팀장님은 마음이 넓으셔서 이 일로 화를 내실 리가 없습니다",
+            "팀장님께서는 마음이 넓으셔서 이 일로 화를 내실 리가 없어요",
+            "팀장님께서는 마음이 넓으셔서 이 일로 화를 내실 리가 없습니다"
+          ],
+          "common_errors_vi": "`넓으시다` + `-어서` → `넓으셔서`. «Không thể nào» là `-(으)ㄹ 리가 없다` gắn vào động từ khẳng định (`화를 내실 리가 없어요`), không phải `-(으)ㄹ 수 없다` (không có khả năng)."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "누구에게나 갑자기 일이 생기기 마련입니다",
+            "누구에게나 갑자기 일이 생기기 마련이에요",
+            "누구나 갑자기 일이 생기기 마련입니다",
+            "누구나 갑자기 일이 생기기 마련이에요",
+            "갑자기 일이 생기기 마련입니다",
+            "갑자기 일이 생기기 마련이에요"
+          ],
+          "common_errors_vi": "`-기 마련이다` nói lẽ thường, chuyện ai cũng gặp: `생기기 마련입니다` (✗ `생기는 마련입니다`, ✗ `생겼기 마련입니다`)."
+        }
+      ],
+      "tips_vi": [
+        "Tin chắc là không: `-(으)ㄹ 리가 없다`.",
+        "Chuyện thường tình: `-기 마련이다`."
+      ]
+    },
+    {
+      "id": "CU38E1",
+      "skill": "build",
+      "type": "write_essay",
+      "rung": 5,
+      "number": "Bước 5",
+      "title_vi": "Viết đoạn văn của bạn · Từ chối khéo lời mời của cấp trên",
+      "points": 10,
+      "instruction_vi": "Viết MỘT tin nhắn/email ngắn (합쇼체) từ chối khéo một lời mời có thật hoặc có thể xảy ra với bạn (liên hoan, tân gia, leo núi cuối tuần…) của trưởng nhóm, thầy cô hay một người trên: cảm ơn, từ chối mềm, lý do ngắn, bù đắp, hẹn lần sau, lời chúc.",
+      "limits": {
+        "min": 160,
+        "max": 350
+      },
+      "prompt_ko": "팀장님이 주말 모임에 초대하셨습니다. 갈 수 없는 이유를 말하고 정중하게 거절하는 글을 쓰십시오.",
+      "bullets_ko": [
+        "먼저 어떤 인사를 하겠습니까?",
+        "왜 갈 수 없습니까?",
+        "미안한 마음을 어떻게 전하겠습니까?",
+        "다음에는 어떻게 하겠습니까?"
+      ],
+      "framework_vi": [
+        "Mở: `팀장님, 안녕하십니까? ○○○입니다.` + cảm ơn lời mời (`초대해 주셔서 정말 감사합니다`).",
+        "Từ chối mềm: `그런데 죄송하지만 이번에는 참석하기 어려울 것 같습니다.` + một lý do ngắn, thật.",
+        "Xin lỗi và bù đắp: tiếc vì báo muộn (`-(으)ㄹ걸 그랬습니다`), tiếc vì không đi được (`… -는데 … 못해서 아쉽습니다`), một việc bù (`선물은 따로 …`).",
+        "Kết: hẹn lần sau (`다음에 기회가 있으면 꼭 …`), lời chúc (`즐거운 시간 보내십시오`), ký `○○○ 드림`."
+      ],
+      "patterns_vi": [
+        "`N에 초대해 주셔서 정말 감사합니다`",
+        "`그런데 죄송하지만 이번에는 참석하기 어려울 것 같습니다`",
+        "`그날 … -아/어서 … -아/어야 합니다`",
+        "`… 바로 말씀드릴걸 그랬습니다`",
+        "`다음에 기회가 있으면 꼭 찾아뵙겠습니다 / 참석하겠습니다`",
+        "`초대해 주셨는데 함께하지 못해서 정말 아쉽습니다`",
+        "`즐거운 시간 보내십시오. ○○○ 드림`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Mở + cảm ơn",
+          "content_vi": "Chào, tên, cảm ơn lời mời",
+          "chars": "50–80"
+        },
+        {
+          "part_vi": "Từ chối + lý do",
+          "content_vi": "Từ chối mềm và một lý do ngắn",
+          "chars": "60–100"
+        },
+        {
+          "part_vi": "Xin lỗi + bù đắp",
+          "content_vi": "Tiếc vì báo muộn, một việc bù đắp",
+          "chars": "60–110"
+        },
+        {
+          "part_vi": "Kết",
+          "content_vi": "Hẹn lần sau, lời chúc, ký tên",
+          "chars": "40–60"
+        }
+      ],
+      "model_answer_ko": "팀장님, 안녕하십니까? 응우옌 란입니다.\n이번 토요일 팀장님 댁 집들이에 초대해 주셔서 정말 감사합니다. 그런데 죄송하지만 이번에는 참석하기 어려울 것 같습니다. 그날 베트남에서 부모님이 오셔서 공항에 마중을 나가야 합니다. 어제 부모님 일정을 알게 되었을 때 바로 말씀드릴걸 그랬습니다. 초대해 주셨는데 함께하지 못해서 정말 아쉽습니다. 집들이 선물은 따로 준비해서 월요일에 드리겠습니다. 다음에 기회가 있으면 꼭 찾아뵙겠습니다. 즐거운 시간 보내십시오.\n응우옌 란 드림",
+      "model_note_vi": "Người Hàn từ chối người trên theo một nhịp quen: **cảm ơn trước, từ chối sau**; ý từ chối nói mềm (`-기 어려울 것 같습니다`), lý do ngắn và thật, không kể lể; cuối cùng luôn có một bước «bù» (món quà, lời hẹn) để lời mời không bị «rơi». Kính ngữ theo người: việc của trưởng nhóm có `-(으)시-` (`초대해 주셔서`, `가신 분들`), việc của mình thì hạ mình (`말씀드릴걸`, `찾아뵙겠습니다`, `드리겠습니다`).",
+      "common_errors_vi": [
+        "Từ chối thẳng (✗ `못 갑니다.`, ✗ `안 가겠습니다.`) hoặc từ chối trước rồi mới cảm ơn.",
+        "✗ `초대해서 감사합니다` → ✓ `초대해 주셔서 감사합니다`; ✗ `팀장님이 말한 집들이` → ✓ `말씀하신 집들이`.",
+        "Tôn chính mình: ✗ `말씀하실걸 그랬습니다`, ✗ `제가 찾아가시겠습니다` → ✓ `말씀드릴걸`, `찾아뵙겠습니다`.",
+        "Dùng `-(으)ㄹ걸 그랬다` cho việc đã làm rồi mới tiếc: phải là `-지 말걸 그랬다`.",
+        "Kết bằng `수고하세요` với người trên: với lời mời, kết bằng `즐거운 시간 보내십시오`.",
+        "Trộn `-아/어요` vào tin nhắn 합쇼체."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Đủ ý: cảm ơn, từ chối, lý do, xin lỗi hoặc bù đắp, hẹn lần sau",
+          "max": 3
+        },
+        {
+          "criterion_vi": "Đúng nhịp từ chối khéo: cảm ơn → từ chối mềm → lý do ngắn → bù đắp → lời chúc, ký tên",
+          "max": 3
+        },
+        {
+          "criterion_vi": "Kính ngữ đúng chiều; từ chối bằng `-기 어려울 것 같습니다`, không nói `못 갑니다`",
+          "max": 2
+        },
+        {
+          "criterion_vi": "Chia từ, cách chữ, giữ một thể 합쇼체",
+          "max": 2
+        }
+      ],
+      "checklist_vi": [
+        "Câu cảm ơn đứng trước câu từ chối?",
+        "Ý từ chối nói mềm (`-기 어려울 것 같습니다`), không nói `못 갑니다`?",
+        "Lý do chỉ một hai câu, có thật?",
+        "Việc của người trên có `-(으)시-`, việc của bạn dùng `드리다`, `뵙다`?",
+        "Có hẹn lần sau, lời chúc và `○○○ 드림`?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V + -기(가) 어렵다 · V + -기 어려울 것 같습니다",
+          "regex": "기(가)? 어려울 것 같|기(가)? 어렵",
+          "label_vi": "-기 어려울 것 같습니다 (từ chối mềm)"
+        },
+        {
+          "pattern": "V + -(으)ㄹ걸 (그랬다) · -(으)ㄹ걸요",
+          "regex": "걸 그랬",
+          "label_vi": "-(으)ㄹ걸 그랬다 (tiếc vì báo muộn)"
+        }
+      ],
+      "uses": [
+        {
+          "form": "팀장님",
+          "card": "팀장"
+        },
+        {
+          "form": "안녕하십니까",
+          "card": "안녕하십니까"
+        },
+        {
+          "form": "이번 토요일",
+          "card": "이번"
+        },
+        {
+          "form": "토요일",
+          "card": "토요일"
+        },
+        {
+          "form": "팀장님 댁",
+          "card": "댁"
+        },
+        {
+          "form": "집들이에",
+          "card": "집들이"
+        },
+        {
+          "form": "초대해 주셔서",
+          "card": "초대(하다)"
+        },
+        {
+          "form": "초대해 주셔서",
+          "card": "V + -아/어 주다"
+        },
+        {
+          "form": "주셔서",
+          "card": "V/A + -(으)시- · N + (이)시다"
+        },
+        {
+          "form": "주셔서",
+          "card": "V/A + -아/어서"
+        },
+        {
+          "form": "정말 감사합니다",
+          "card": "정말"
+        },
+        {
+          "form": "감사합니다",
+          "card": "감사합니다"
+        },
+        {
+          "form": "그런데",
+          "card": "그런데"
+        },
+        {
+          "form": "죄송하지만",
+          "card": "죄송하지만"
+        },
+        {
+          "form": "이번에는",
+          "card": "이번"
+        },
+        {
+          "form": "참석하기",
+          "card": "참석(하다)"
+        },
+        {
+          "form": "참석하기 어려울",
+          "card": "V + -는 것 · V + -기 (danh từ hoá)"
+        },
+        {
+          "form": "어려울 것 같습니다",
+          "card": "어렵다"
+        },
+        {
+          "form": "어려울 것 같습니다",
+          "card": "V/A + -(으)ㄴ/는/(으)ㄹ 것 같다"
+        },
+        {
+          "form": "그날",
+          "card": "그날"
+        },
+        {
+          "form": "베트남에서",
+          "card": "베트남"
+        },
+        {
+          "form": "부모님이 오셔서",
+          "card": "부모님"
+        },
+        {
+          "form": "공항에",
+          "card": "공항"
+        },
+        {
+          "form": "마중을 나가야 합니다",
+          "card": "마중(을) 나가다"
+        },
+        {
+          "form": "나가야 합니다",
+          "card": "V + -아/어야 하다/되다"
+        },
+        {
+          "form": "어제",
+          "card": "어제"
+        },
+        {
+          "form": "부모님 일정",
+          "card": "일정"
+        },
+        {
+          "form": "알게 되었을 때",
+          "card": "알다"
+        },
+        {
+          "form": "알게 되었을 때",
+          "card": "V + -게 되다"
+        },
+        {
+          "form": "되었을 때",
+          "card": "V/A + -(으)ㄹ 때"
+        },
+        {
+          "form": "바로",
+          "card": "바로"
+        },
+        {
+          "form": "말씀드릴걸 그랬습니다",
+          "card": "말씀드리다"
+        },
+        {
+          "form": "말씀드릴걸 그랬습니다",
+          "card": "V + -(으)ㄹ걸 (그랬다) · -(으)ㄹ걸요"
+        },
+        {
+          "form": "집들이 선물",
+          "card": "집들이 선물"
+        },
+        {
+          "form": "따로 준비해서",
+          "card": "따로"
+        },
+        {
+          "form": "준비해서",
+          "card": "준비하다"
+        },
+        {
+          "form": "월요일에",
+          "card": "월요일"
+        },
+        {
+          "form": "드리겠습니다",
+          "card": "드리다"
+        },
+        {
+          "form": "드리겠습니다",
+          "card": "V/A + -겠-"
+        },
+        {
+          "form": "다음에",
+          "card": "다음에"
+        },
+        {
+          "form": "기회가 있으면",
+          "card": "기회"
+        },
+        {
+          "form": "있으면",
+          "card": "V/A + -(으)면"
+        },
+        {
+          "form": "꼭 찾아뵙겠습니다",
+          "card": "꼭"
+        },
+        {
+          "form": "찾아뵙겠습니다",
+          "card": "찾아뵙다"
+        },
+        {
+          "form": "즐거운 시간",
+          "card": "즐겁다"
+        },
+        {
+          "form": "시간 보내십시오",
+          "card": "시간을 보내다"
+        },
+        {
+          "form": "보내십시오",
+          "card": "V + -(으)시기 바랍니다 · V + -(으)십시오"
+        },
+        {
+          "form": "응우옌 란 드림",
+          "card": "드림"
+        },
+        {
+          "form": "참석하기 어려울 것 같습니다",
+          "card": "V + -기(가) 어렵다 · V + -기 어려울 것 같습니다"
+        },
+        {
+          "form": "초대해 주셨는데",
+          "card": "V/A + -(으)ㄴ/는데 · N + 인데"
+        },
+        {
+          "form": "함께하지 못해서",
+          "card": "함께"
+        },
+        {
+          "form": "못해서",
+          "card": "V/A + -아/어서"
+        },
+        {
+          "form": "정말 아쉽습니다",
+          "card": "아쉽다"
+        },
+        {
+          "form": "함께하지 못해서",
+          "card": "V/A + -지 않다 · V + -지 못하다"
+        }
+      ]
+    },
+    {
+      "id": "CU39O1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Mở bao bì ra thì thấy …",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Mở bao bì ra thì (tôi thấy) nắp đã bị vỡ.",
+      "tiles": [
+        "깨진",
+        "보았더니",
+        "포장이",
+        "상태였습니다.",
+        "열어",
+        "뚜껑이",
+        "포장을",
+        "깨지는"
+      ],
+      "answers": [
+        "포장을 열어 보았더니 뚜껑이 깨진 상태였습니다."
+      ],
+      "explain_vi": "`-았/었더니`: việc bạn làm (mở bao bì) → điều bạn phát hiện (nắp vỡ). `열다` cần tân ngữ `포장을` (✗ `포장이`). Nắp đã vỡ từ trước nên dùng định ngữ quá khứ `깨진 상태` (✗ `깨지는`: đang vỡ)."
+    },
+    {
+      "id": "CU39O2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Yêu cầu cụ thể: đổi hoặc hoàn tiền",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Mong quý công ty đổi cho tôi sản phẩm mới hoặc hoàn tiền.",
+      "tiles": [
+        "환불해",
+        "주시기",
+        "제품에",
+        "새",
+        "주시거나",
+        "바랍니다.",
+        "교환해",
+        "제품으로",
+        "주시고"
+      ],
+      "answers": [
+        "새 제품으로 교환해 주시거나 환불해 주시기 바랍니다.",
+        "환불해 주시거나 새 제품으로 교환해 주시기 바랍니다."
+      ],
+      "explain_vi": "Đổi **sang** cái mới: `새 제품으로` (✗ `새 제품에`). Hai cách xử lý, chọn một: `-거나` (hoặc); `주시고` thành «đổi **và** hoàn tiền», yêu cầu tự mâu thuẫn. Câu yêu cầu trong email kết bằng `-아/어 주시기 바랍니다`."
+    },
+    {
+      "id": "CU39F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Điền khung: email khiếu nại",
+      "points": 8,
+      "instruction_vi": "Điền dạng đúng của từ trong ngoặc vuông.",
+      "text": "① 저는 지난 3일에 전기 주전자를 [주문하다: định ngữ quá khứ] ( ㉠ ) 응우옌 란입니다.\n② 포장을 [열어 보다: -았/었더니] ( ㉡ ) 뚜껑이 깨진 상태였습니다.\n③ 고객센터에 전화했지만 연결이 [되다: phủ định + -아/어서] ( ㉢ ) 이렇게 메일을 드립니다.\n④ [확인하다: kính ngữ + -는 대로] ( ㉣ ) 연락 부탁드립니다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "주문한"
+          ],
+          "common_errors_vi": "Việc đã làm (đặt hàng hôm mùng 3): `주문한` (✗ `주문하는`: đang đặt)."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "열어 보았더니",
+            "열어 봤더니"
+          ],
+          "common_errors_vi": "`보다` + `-았더니` → `보았더니 / 봤더니` (✗ `보더니`: dùng khi kể người khác)."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "되지 않아서",
+            "되지 않아",
+            "안 돼서",
+            "안 되어서",
+            "안 되어",
+            "안 돼"
+          ],
+          "common_errors_vi": "Phủ định + lý do: `되지 않아서` hoặc `안 돼서` (✗ `안 되서`; ✗ `되지 않았어서`: trước `-아/어서` không thêm `-았-`)."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "확인하시는 대로"
+          ],
+          "common_errors_vi": "Người kiểm tra là bên nhận email nên cần `-(으)시-`: `확인하시는 대로` (`확인하는 대로` đúng ngữ pháp nhưng thiếu lịch sự)."
+        }
+      ],
+      "tips_vi": [
+        "Email khiếu nại đi theo thứ tự: bạn là ai, đơn nào → lỗi gì → vì sao viết email → yêu cầu → xin phản hồi."
+      ],
+      "context_vi": "Email khiếu nại đơn hàng"
+    },
+    {
+      "id": "CU39C1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 3,
+      "number": "Bước 3",
+      "title_vi": "Tạo câu · Nối câu: phát hiện lỗi và kết quả xấu",
+      "points": 6,
+      "instruction_vi": "Nối hai câu thành một câu bằng mẫu trong ngoặc.",
+      "text": "① 포장을 열어 봤어요. 접시 하나가 깨진 상태였어요. (-았/었더니)\n→ ( ㉠ ).\n② 배송이 늦어졌어요. 생일에 선물을 주지 못했어요. (-(으)ㄴ/는 탓에)\n→ ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "포장을 열어 봤더니 접시 하나가 깨진 상태였어요",
+            "포장을 열어 봤더니 접시 하나가 깨진 상태였습니다",
+            "포장을 열어 보았더니 접시 하나가 깨진 상태였어요",
+            "포장을 열어 보았더니 접시 하나가 깨진 상태였습니다"
+          ],
+          "common_errors_vi": "`봤어요` → `봤더니` (bỏ `어요`, thêm `더니`); vế sau giữ nguyên điều bạn phát hiện."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "배송이 늦어진 탓에 생일에 선물을 주지 못했어요",
+            "배송이 늦어진 탓에 생일에 선물을 주지 못했습니다",
+            "배송이 늦어진 탓에 생일에 선물을 못 줬어요",
+            "배송이 늦어진 탓에 생일에 선물을 못 주었어요",
+            "배송이 늦어진 탓에 생일에 선물을 못 줬습니다",
+            "배송이 늦어진 탓에 생일에 선물을 못 주었습니다"
+          ],
+          "common_errors_vi": "Động từ quá khứ + `-(으)ㄴ 탓에`: `늦어진 탓에` (✗ `늦어지는 탓에`, ✗ `늦어졌는 탓에`)."
+        }
+      ],
+      "tips_vi": [
+        "Việc mình làm → điều mình thấy: `-았/었더니`; nguyên nhân gây kết quả xấu: `-(으)ㄴ/는 탓에`."
+      ],
+      "context_vi": "Nối câu khiếu nại"
+    },
+    {
+      "id": "CU39E1",
+      "skill": "build",
+      "type": "write_essay",
+      "rung": 5,
+      "number": "Bước 5",
+      "title_vi": "Viết đoạn văn của bạn · Email khiếu nại đơn hàng",
+      "points": 10,
+      "instruction_vi": "Viết MỘT email (합쇼체) khiếu nại một món hàng bạn đã mua (thật hoặc tưởng tượng) bị lỗi, giao sai hay giao chậm.",
+      "limits": {
+        "min": 150,
+        "max": 320
+      },
+      "prompt_ko": "인터넷으로 주문한 물건에 문제가 있습니다. 판매하는 곳에 보내는 메일을 쓰십시오.",
+      "bullets_ko": [
+        "언제 무엇을 주문했습니까?",
+        "제품에 어떤 문제가 있습니까?",
+        "왜 메일을 씁니까?",
+        "어떻게 해 주기를 바랍니까?"
+      ],
+      "framework_vi": [
+        "Tiêu đề (gõ ở ô tiêu đề, không viết vào thân thư): `[주문 번호 1103-0457] 제품 불량 교환 요청`.",
+        "Câu mở: chào + bạn là ai, đặt gì, khi nào (`… -(으)ㄴ ○○○입니다`) + mã đơn hàng.",
+        "Thân: lỗi bạn phát hiện (`-았/었더니 … 상태였습니다`) → hậu quả (`이 상태로는 … 수 없습니다`) → vì sao viết email, bằng chứng đính kèm.",
+        "Câu kết: yêu cầu cụ thể (`-아/어 주시거나 -아/어 주시기 바랍니다`) + xin phản hồi (`확인하시는 대로 연락 부탁드립니다`) + `감사합니다`."
+      ],
+      "patterns_vi": [
+        "`저는 지난 ○일에 N을/를 주문한 ○○○입니다`",
+        "`주문 번호는 …입니다`",
+        "`포장을 열어 보았더니 N이/가 깨진 상태였습니다`",
+        "`이 상태로는 제품을 사용할 수 없습니다`",
+        "`고객센터에 여러 번 전화했지만 연결이 되지 않아서 이렇게 메일을 드립니다`",
+        "`… 사진을 첨부합니다`",
+        "`새 제품으로 교환해 주시거나 환불해 주시기 바랍니다`",
+        "`확인하시는 대로 연락 부탁드립니다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu mở",
+          "content_vi": "Chào, bạn là ai, đơn hàng nào",
+          "chars": "50–80"
+        },
+        {
+          "part_vi": "Thân",
+          "content_vi": "Lỗi phát hiện, hậu quả, vì sao viết email, ảnh đính kèm",
+          "chars": "90–170"
+        },
+        {
+          "part_vi": "Câu kết",
+          "content_vi": "Yêu cầu cụ thể, xin phản hồi, cảm ơn",
+          "chars": "50–80"
+        }
+      ],
+      "model_answer_ko": "안녕하십니까. 저는 지난 3일에 전기 주전자를 주문한 응우옌 란입니다. 주문 번호는 1103-0457입니다. 제품은 어제 받았는데, 포장을 열어 보았더니 주전자 뚜껑이 깨진 상태였습니다. 이 상태로는 제품을 사용할 수 없습니다. 고객센터에 여러 번 전화했지만 연결이 되지 않아서 이렇게 메일을 드립니다. 깨진 뚜껑을 찍은 사진도 첨부합니다. 새 제품으로 교환해 주시거나 환불해 주시기 바랍니다. 확인하시는 대로 연락 부탁드립니다. 감사합니다.",
+      "model_note_vi": "Người đọc email ở bộ phận chăm sóc khách hàng cần ba thứ: **đơn nào** (tên, ngày đặt, mã đơn), **lỗi gì** (`-았/었더니` kể lúc bạn phát hiện) và **bạn muốn gì** (đổi hay hoàn tiền). Không có câu nào trách móc: sự việc rõ ràng và yêu cầu lịch sự mới khiến bên bán xử lý nhanh.",
+      "common_errors_vi": [
+        "Mở bằng cảm xúc (✗ `너무 화가 납니다`) và quên mã đơn hàng: hãy viết đơn nào, lỗi gì trước.",
+        "Ra lệnh trống không (✗ `빨리 환불하세요`): trong email dùng `환불해 주시기 바랍니다`.",
+        "✗ `새 제품에 교환해 주세요` → ✓ `새 제품으로 교환해 주세요` (đổi **sang**: `(으)로`).",
+        "✗ `포장을 열었더니 뚜껑이 깨집니다` (hiện tại): điều phát hiện đã xảy ra → `깨진 상태였습니다`.",
+        "`확인하는 대로` khi nói về việc của bên nhận: thêm `-(으)시-` → `확인하시는 대로`.",
+        "Trộn `-아/어요` vào giữa email `-ㅂ/습니다`: giữ một thể 합쇼체 từ đầu đến cuối."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Đủ ý: đơn hàng (ngày, mã), lỗi cụ thể, lý do viết, yêu cầu cụ thể, xin phản hồi",
+          "max": 3
+        },
+        {
+          "criterion_vi": "Đúng trình tự email (mở → sự việc → yêu cầu → kết), có từ nối",
+          "max": 3
+        },
+        {
+          "criterion_vi": "Lịch sự và tự nhiên (`-아/어 주시기 바랍니다`, `연락 부탁드립니다`, `-(으)시-` cho bên nhận)",
+          "max": 2
+        },
+        {
+          "criterion_vi": "Chia từ, tiểu từ, cách chữ đúng, giữ một thể 합쇼체",
+          "max": 2
+        }
+      ],
+      "checklist_vi": [
+        "Câu đầu có bạn là ai, đã đặt gì, ngày nào, và mã đơn hàng?",
+        "Lỗi được kể bằng `-았/었더니` và tình trạng `… 상태였습니다`?",
+        "Có ĐÚNG một yêu cầu cụ thể (đổi, hoàn tiền, hoặc chọn một trong hai bằng `-거나`)?",
+        "Có câu xin phản hồi và `감사합니다` ở cuối?",
+        "Mọi câu đều kết thúc bằng `-ㅂ니다/습니다`?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V + -았/었더니",
+          "regex": "(?:았|었|였|했|봤|왔|줬|웠|켰)더니",
+          "label_vi": "-았/었더니 (làm … thì thấy …)"
+        },
+        {
+          "pattern": "V + -는 대로 · N + 대로",
+          "regex": "는 대로",
+          "label_vi": "-는 대로 (ngay khi …)"
+        }
+      ],
+      "uses": [
+        {
+          "form": "주문한 응우옌",
+          "card": "V + -(으)ㄴ + N (quá khứ)"
+        },
+        {
+          "form": "주문한",
+          "card": "주문하다 / 시키다"
+        },
+        {
+          "form": "전기 주전자",
+          "card": "전기 주전자"
+        },
+        {
+          "form": "주문 번호",
+          "card": "주문 번호"
+        },
+        {
+          "form": "제품은",
+          "card": "제품"
+        },
+        {
+          "form": "받았는데",
+          "card": "V/A + -는데/은데/ㄴ데"
+        },
+        {
+          "form": "포장을 열어",
+          "card": "포장을 열다"
+        },
+        {
+          "form": "열어 보았더니",
+          "card": "V + -아/어 보다"
+        },
+        {
+          "form": "보았더니",
+          "card": "V + -았/었더니"
+        },
+        {
+          "form": "뚜껑이",
+          "card": "뚜껑을 분리하다"
+        },
+        {
+          "form": "깨진 상태였습니다",
+          "card": "깨지다"
+        },
+        {
+          "form": "이 상태로는",
+          "card": "상태"
+        },
+        {
+          "form": "사용할 수 없습니다",
+          "card": "사용하다"
+        },
+        {
+          "form": "할 수 없습니다",
+          "card": "V + -(으)ㄹ 수 있다/없다"
+        },
+        {
+          "form": "고객센터",
+          "card": "고객센터"
+        },
+        {
+          "form": "여러 번",
+          "card": "여러 번"
+        },
+        {
+          "form": "전화했지만",
+          "card": "전화하다"
+        },
+        {
+          "form": "했지만",
+          "card": "V/A + -지만"
+        },
+        {
+          "form": "연결이 되지 않아서",
+          "card": "연결이 되다"
+        },
+        {
+          "form": "되지 않아서",
+          "card": "V/A + -지 않다 · V + -지 못하다"
+        },
+        {
+          "form": "않아서",
+          "card": "V/A + -아/어서"
+        },
+        {
+          "form": "메일을 드립니다",
+          "card": "메일을 드리다"
+        },
+        {
+          "form": "찍은 사진",
+          "card": "사진을 찍다"
+        },
+        {
+          "form": "첨부합니다",
+          "card": "사진을 첨부하다"
+        },
+        {
+          "form": "새 제품으로 교환해",
+          "card": "새 제품으로 교환하다"
+        },
+        {
+          "form": "제품으로",
+          "card": "N + (으)로"
+        },
+        {
+          "form": "교환해 주시거나",
+          "card": "V + -거나 · N + (이)나"
+        },
+        {
+          "form": "환불해",
+          "card": "환불하다"
+        },
+        {
+          "form": "주시기 바랍니다",
+          "card": "V + -아/어 주시기 바랍니다 · V + -지 마시기 바랍니다"
+        },
+        {
+          "form": "확인하시는",
+          "card": "V/A + -(으)시- · N + (이)시다"
+        },
+        {
+          "form": "확인하시는 대로",
+          "card": "V + -는 대로 · N + 대로"
+        },
+        {
+          "form": "확인",
+          "card": "확인하다"
+        },
+        {
+          "form": "연락 부탁드립니다",
+          "card": "연락 부탁드립니다"
+        }
+      ]
+    },
+    {
+      "id": "CU40O1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Câu mở: tôi đọc một bài báo nói rằng …",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Tôi đã đọc một bài báo nói rằng tin giả đang lan nhanh.",
+      "tiles": [
+        "있다는",
+        "기사를",
+        "뉴스가",
+        "있다고",
+        "빠르게",
+        "읽었다.",
+        "가짜",
+        "확산되고",
+        "기사가"
+      ],
+      "answers": [
+        "가짜 뉴스가 빠르게 확산되고 있다는 기사를 읽었다."
+      ],
+      "explain_vi": "Nội dung của bài báo đứng trước danh từ `기사` nên dùng `-다는 + N`: `확산되고 있다는 기사` (✗ `있다고 기사`: `-다고` phải đi với động từ như `한다`, `말했다`). `읽었다` cần tân ngữ `기사를` (✗ `기사가`)."
+    },
+    {
+      "id": "CU40O2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Câu ý kiến: chính … mới là quan trọng nhất",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Tôi cho rằng chính thói quen kiểm tra nguồn mới là điều quan trọng nhất.",
+      "tiles": [
+        "가장",
+        "생각한다.",
+        "습관야말로",
+        "확인하는",
+        "중요하다고",
+        "출처를",
+        "습관이야말로",
+        "중요한다고"
+      ],
+      "answers": [
+        "출처를 확인하는 습관이야말로 가장 중요하다고 생각한다."
+      ],
+      "explain_vi": "`습관` có patchim nên `이야말로` (✗ `습관야말로`). `중요하다` là tính từ: thuật lại giữ nguyên `중요하다고` (✗ `중요한다고`: `-ㄴ다고` chỉ dành cho động từ). Thể `-다` nên kết bằng `생각한다`."
+    },
+    {
+      "id": "CU40F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Điền khung: tóm tắt tin và ý kiến",
+      "points": 8,
+      "instruction_vi": "Điền dạng đúng của từ trong ngoặc vuông (thể `-다`).",
+      "text": "① 가짜 뉴스가 빠르게 [확산되다: -고 있다 + -다는 + N] ( ㉠ ) 기사를 읽었다.\n② 응답자의 60%가 가짜 뉴스를 본 적이 [있다: -는 것으로] ( ㉡ ) 나타났다.\n③ 그 사람들의 절반은 출처를 확인하지 않고 뉴스를 [공유하다: thuật lại quá khứ, thể -다] ( ㉢ ).\n④ 출처를 확인하는 [습관: N(이)야말로] ( ㉣ ) 가장 중요하다고 생각한다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "확산되고 있다는"
+          ],
+          "common_errors_vi": "Trước danh từ `기사`: `-다는` (✗ `확산되고 있다고`, ✗ `확산되고 있는다는`)."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "있는 것으로"
+          ],
+          "common_errors_vi": "`있다` + `-는 것으로 나타나다` (✗ `있은 것으로`)."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "공유했다고 한다",
+            "공유하였다고 한다"
+          ],
+          "common_errors_vi": "Việc đã xảy ra + thuật lại: `공유했다고 한다` (✗ `공유한다고 했다`: đổi nghĩa thành «nói rằng sẽ/đang chia sẻ»)."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "습관이야말로"
+          ],
+          "common_errors_vi": "Có patchim: `이야말로` (✗ `습관야말로`); viết liền với danh từ."
+        }
+      ],
+      "tips_vi": [
+        "Phần tóm tắt: `-다는 기사` → `N에 따르면 … 것으로 나타났다` → `-다고 한다`; phần ý kiến: `N(이)야말로 … -다고 생각한다`."
+      ],
+      "context_vi": "Tóm tắt tin tức"
+    },
+    {
+      "id": "CU40C1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 3,
+      "number": "Bước 3",
+      "title_vi": "Tạo câu · Nối câu: liệt kê nội dung tin và nêu ý kiến",
+      "points": 6,
+      "instruction_vi": "Nối hai câu thành một câu bằng mẫu trong ngoặc.",
+      "text": "① 이름이 유출되었다. 전화번호와 주소까지 유출되었다. (N을/를 비롯해)\n→ ( ㉠ ).\n② 정보가 많다. 출처를 확인하는 것이 더 중요하다. (-(으)ㄹ수록)\n→ ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "이름을 비롯해 전화번호와 주소도 유출되었다",
+            "이름을 비롯해 전화번호와 주소도 유출됐다",
+            "이름을 비롯해 전화번호와 주소도 유출되었어요",
+            "이름을 비롯해 전화번호와 주소도 유출됐어요",
+            "이름을 비롯해 전화번호와 주소도 유출되었습니다",
+            "이름을 비롯해 전화번호와 주소도 유출됐습니다",
+            "이름을 비롯해 전화번호와 주소까지 유출되었다",
+            "이름을 비롯해 전화번호와 주소까지 유출됐다",
+            "이름을 비롯해 전화번호와 주소까지 유출되었어요",
+            "이름을 비롯해 전화번호와 주소까지 유출됐어요",
+            "이름을 비롯해 전화번호와 주소까지 유출되었습니다",
+            "이름을 비롯해 전화번호와 주소까지 유출됐습니다",
+            "이름을 비롯해서 전화번호와 주소도 유출되었다",
+            "이름을 비롯해서 전화번호와 주소도 유출됐다",
+            "이름을 비롯해서 전화번호와 주소도 유출되었어요",
+            "이름을 비롯해서 전화번호와 주소도 유출됐어요",
+            "이름을 비롯해서 전화번호와 주소도 유출되었습니다",
+            "이름을 비롯해서 전화번호와 주소도 유출됐습니다",
+            "이름을 비롯해서 전화번호와 주소까지 유출되었다",
+            "이름을 비롯해서 전화번호와 주소까지 유출됐다",
+            "이름을 비롯해서 전화번호와 주소까지 유출되었어요",
+            "이름을 비롯해서 전화번호와 주소까지 유출됐어요",
+            "이름을 비롯해서 전화번호와 주소까지 유출되었습니다",
+            "이름을 비롯해서 전화번호와 주소까지 유출됐습니다"
+          ],
+          "common_errors_vi": "`이름` trở thành tân ngữ của `비롯하다`: `이름을 비롯해` (✗ `이름이 비롯해`); vế sau `전화번호와 주소까지/도 유출되었다`."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "정보가 많을수록 출처를 확인하는 것이 더 중요하다",
+            "정보가 많을수록 출처를 확인하는 것이 더 중요해요",
+            "정보가 많을수록 출처를 확인하는 것이 더 중요합니다",
+            "정보가 많을수록 출처를 확인하는 게 더 중요하다",
+            "정보가 많을수록 출처를 확인하는 게 더 중요해요",
+            "정보가 많을수록 출처를 확인하는 게 더 중요합니다"
+          ],
+          "common_errors_vi": "`많다` + `-을수록` → `많을수록` (✗ `많는수록`); vế sau giữ `더`."
+        }
+      ],
+      "tips_vi": [
+        "Kể một loạt thông tin, mở bằng cái tiêu biểu nhất: `N을/를 비롯해 … 까지`."
+      ],
+      "context_vi": "Nối câu tóm tắt tin"
+    },
+    {
+      "id": "CU40E1",
+      "skill": "build",
+      "type": "write_essay",
+      "rung": 5,
+      "number": "Bước 5",
+      "title_vi": "Viết đoạn văn của bạn · Tóm tắt một tin tức và ý kiến của tôi",
+      "points": 10,
+      "instruction_vi": "Viết HAI đoạn ngắn (thể `-다`): đoạn 1 tóm tắt một tin bạn đã đọc hoặc nghe gần đây, đoạn 2 nêu ý kiến của bạn. Xuống dòng giữa hai đoạn.",
+      "limits": {
+        "min": 200,
+        "max": 400
+      },
+      "prompt_ko": "최근에 읽거나 들은 뉴스를 하나 골라 내용을 짧게 정리하고 그 뉴스를 보고 어떻게 생각했는지 쓰십시오.",
+      "bullets_ko": [
+        "무슨 뉴스였습니까?",
+        "기사에 따르면 어떤 내용이 있었습니까?",
+        "그 뉴스를 보고 어떻게 생각했습니까? 왜 그렇습니까?",
+        "앞으로 무엇을 하려고 합니까?"
+      ],
+      "framework_vi": [
+        "Đoạn 1 · Tóm tắt: câu chủ đề `…-다는 기사를 읽었다` → số liệu hay sự việc chính (`N에 따르면 … 것으로 나타났다`) → một chi tiết nữa (`-다고 한다`) → lời chuyên gia hoặc nguồn tin (`…다고 말했다`).",
+        "Đoạn 2 · Ý kiến: cảm nghĩ đầu tiên (`-아/어야겠다고 생각했다`) → lý do, trải nghiệm của bạn (`-기 때문이다`) → ý kiến chính (`N(이)야말로 … -다고 생각한다`) → câu kết: bạn sẽ làm gì (`앞으로는 … -(으)려고 한다`).",
+        "Tóm tắt thì chỉ thuật lại, không chen ý mình; ý kiến để hết sang đoạn 2."
+      ],
+      "patterns_vi": [
+        "`…-다는 기사를 읽었다`",
+        "`기사에 따르면 … -(으)ㄴ/는 것으로 나타났다`",
+        "`…-았/었다고 한다`",
+        "`전문가들은 … -(으)ㄹ 수 있다고 말했다`",
+        "`이 기사를 읽고 … -아/어야겠다고 생각했다`",
+        "`N(이)야말로 가장 중요하다고 생각한다`",
+        "`앞으로는 … -기 전에 … -(으)려고 한다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Đoạn 1 · Tóm tắt",
+          "content_vi": "Tin gì, số liệu hoặc sự việc chính, lời chuyên gia",
+          "chars": "130–200"
+        },
+        {
+          "part_vi": "Đoạn 2 · Ý kiến",
+          "content_vi": "Cảm nghĩ, lý do, ý kiến chính",
+          "chars": "80–140"
+        },
+        {
+          "part_vi": "Câu kết",
+          "content_vi": "Việc bạn sẽ làm từ nay",
+          "chars": "30–60"
+        }
+      ],
+      "model_answer_ko": "오늘 가짜 뉴스가 SNS를 통해 빠르게 확산되고 있다는 기사를 읽었다. 기사에 따르면 한 설문 조사에서 응답자의 60%가 가짜 뉴스를 본 적이 있는 것으로 나타났다. 또 가짜 뉴스를 본 사람의 절반은 출처를 확인하지 않고 그 뉴스를 다른 사람과 공유했다고 한다. 전문가들은 가짜 뉴스가 여론에 큰 영향을 미칠 수 있다고 말했다.\n\n이 기사를 읽고 나도 조심해야겠다고 생각했다. 나도 전에 SNS에서 본 소식을 확인하지 않고 친구들에게 보낸 적이 있기 때문이다. 정보가 많은 요즘에는 출처를 확인하는 습관이야말로 가장 중요하다고 생각한다. 앞으로는 뉴스를 공유하기 전에 다른 언론의 기사도 확인해 보려고 한다.",
+      "model_note_vi": "Đoạn 1 chỉ thuật lại, nên mọi câu đều có dấu «nghe/đọc được»: `-다는 기사`, `N에 따르면`, `것으로 나타났다`, `-다고 한다`, `…다고 말했다`. Đoạn 2 mới có `나`, `생각한다`. Tin trong bài mẫu (kể cả con số 60%) là tin tự soạn để minh họa; khi viết, bạn tóm tắt một tin thật bạn đã đọc và nêu nguồn của nó.",
+      "common_errors_vi": [
+        "Chép nguyên tiêu đề tin rồi viết ý kiến ngay: thiếu phần tóm tắt (ai, cái gì, số liệu chính).",
+        "Trộn ý kiến vào phần tóm tắt (✗ `가짜 뉴스는 정말 나쁘다는 기사를 읽었다`): ý kiến để sang đoạn 2.",
+        "✗ `확산되고 있다고 기사` → ✓ `확산되고 있다는 기사` (trước danh từ dùng `-다는`).",
+        "Tính từ + `-ㄴ다고`: ✗ `중요한다고` → ✓ `중요하다고`.",
+        "Trộn thể `-다` với `-아/어요`, `-ㅂ니다`: bài này giữ `-다` từ đầu đến cuối (`읽었다`, `생각한다`)."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Đủ hai phần: tóm tắt (tin gì, nội dung chính, nguồn) và ý kiến (ý chính, lý do, việc sẽ làm)",
+          "max": 3
+        },
+        {
+          "criterion_vi": "Hai đoạn rõ ràng; tóm tắt chỉ thuật lại, ý kiến có lý do",
+          "max": 3
+        },
+        {
+          "criterion_vi": "Dùng đúng mẫu thuật lại (`-다는 N`, `-다고 한다`, `것으로 나타났다`) và nêu ý kiến (`N(이)야말로`)",
+          "max": 2
+        },
+        {
+          "criterion_vi": "Chia từ, tiểu từ, cách chữ đúng, giữ một thể `-다`",
+          "max": 2
+        }
+      ],
+      "checklist_vi": [
+        "Câu đầu cho biết bạn đọc tin gì (`…-다는 기사를 읽었다`)?",
+        "Đoạn 1 có nguồn (`기사에 따르면`) và chỉ thuật lại, chưa có ý kiến của bạn?",
+        "Đoạn 2 có ý kiến chính và một lý do (`-기 때문이다`)?",
+        "Có câu kết nói bạn sẽ làm gì?",
+        "Mọi câu kết thúc bằng thể `-다`?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V/A + -(ㄴ/는)다고 하다 · -다는 + N",
+          "regex": "(?:다는 [가-힣]|다고 (?:한다|했다|말했|생각))",
+          "label_vi": "-다고 하다 · -다는 N (thuật lại)"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 것으로 나타나다 · 알려지다 · 조사되다",
+          "regex": "것으로 (?:나타났|나타난|알려졌|알려진|조사됐|조사되었)",
+          "label_vi": "-(으)ㄴ/는 것으로 나타나다"
+        },
+        {
+          "pattern": "N + (이)야말로",
+          "regex": "야말로",
+          "label_vi": "N(이)야말로 (chính … mới là)"
+        }
+      ],
+      "uses": [
+        {
+          "form": "가짜 뉴스",
+          "card": "가짜 뉴스"
+        },
+        {
+          "form": "SNS를 통해",
+          "card": "N + 을/를 통해(서) · N + 을/를 통한 N"
+        },
+        {
+          "form": "SNS",
+          "card": "SNS"
+        },
+        {
+          "form": "빠르게",
+          "card": "빠르다"
+        },
+        {
+          "form": "빠르게 확산되고",
+          "card": "A + -게 (phó từ hoá)"
+        },
+        {
+          "form": "확산되고",
+          "card": "확산되다"
+        },
+        {
+          "form": "되고 있다는",
+          "card": "V + -고 있다"
+        },
+        {
+          "form": "있다는 기사",
+          "card": "V/A + -(ㄴ/는)다고 하다 · -다는 + N"
+        },
+        {
+          "form": "기사를 읽었다",
+          "card": "기사"
+        },
+        {
+          "form": "읽었다",
+          "card": "Thể trần thuật (서술체: -(느)ㄴ다 / -다)"
+        },
+        {
+          "form": "기사에 따르면",
+          "card": "N + 에 따르면"
+        },
+        {
+          "form": "설문 조사",
+          "card": "설문 조사"
+        },
+        {
+          "form": "응답자",
+          "card": "응답자"
+        },
+        {
+          "form": "본 적이 있는",
+          "card": "V + -(으)ㄴ 적이 있다/없다"
+        },
+        {
+          "form": "있는 것으로 나타났다",
+          "card": "V/A + -(으)ㄴ/는 것으로 나타나다 · 알려지다 · 조사되다"
+        },
+        {
+          "form": "절반",
+          "card": "N에서 N(으)로 늘다/줄다 · 약 … 배 · 두 배 가까이 · 절반"
+        },
+        {
+          "form": "출처를",
+          "card": "출처"
+        },
+        {
+          "form": "확인하지 않고",
+          "card": "V/A + -지 않다 · V + -지 못하다"
+        },
+        {
+          "form": "않고 그 뉴스를",
+          "card": "V + -고"
+        },
+        {
+          "form": "확인",
+          "card": "확인하다"
+        },
+        {
+          "form": "다른 사람",
+          "card": "다른"
+        },
+        {
+          "form": "공유했다고 한다",
+          "card": "V/A + -(ㄴ/는)다고 하다 · -다는 + N"
+        },
+        {
+          "form": "공유",
+          "card": "공유하다"
+        },
+        {
+          "form": "전문가들은",
+          "card": "전문가"
+        },
+        {
+          "form": "여론에",
+          "card": "여론"
+        },
+        {
+          "form": "영향을 미칠",
+          "card": "미치다"
+        },
+        {
+          "form": "영향",
+          "card": "영향"
+        },
+        {
+          "form": "미칠 수 있다고",
+          "card": "V + -(으)ㄹ 수 있다/없다"
+        },
+        {
+          "form": "조심해야겠다고",
+          "card": "V + -아/어야겠다"
+        },
+        {
+          "form": "조심",
+          "card": "조심하다"
+        },
+        {
+          "form": "생각했다",
+          "card": "생각하다"
+        },
+        {
+          "form": "소식",
+          "card": "소식"
+        },
+        {
+          "form": "친구들에게",
+          "card": "친구"
+        },
+        {
+          "form": "있기 때문이다",
+          "card": "N + 때문에 · V/A + -기 때문에"
+        },
+        {
+          "form": "정보가",
+          "card": "정보"
+        },
+        {
+          "form": "요즘에는",
+          "card": "요즘"
+        },
+        {
+          "form": "습관이야말로",
+          "card": "N + (이)야말로"
+        },
+        {
+          "form": "습관",
+          "card": "습관"
+        },
+        {
+          "form": "가장 중요하다고",
+          "card": "가장 · 제일"
+        },
+        {
+          "form": "중요하다고",
+          "card": "중요하다"
+        },
+        {
+          "form": "생각한다",
+          "card": "Thể trần thuật (서술체: -(느)ㄴ다 / -다)"
+        },
+        {
+          "form": "앞으로는",
+          "card": "앞으로"
+        },
+        {
+          "form": "공유하기 전에",
+          "card": "V + -기 전에"
+        },
+        {
+          "form": "언론",
+          "card": "언론"
+        },
+        {
+          "form": "확인해 보려고",
+          "card": "V + -아/어 보다"
+        },
+        {
+          "form": "보려고 한다",
+          "card": "V + -(으)려고 하다"
+        }
+      ]
+    },
+    {
+      "id": "CU41O1",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Với tư cách là kinh đô",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Là kinh đô của nhà Nguyễn, Huế từng là trung tâm văn hóa của Việt Nam.",
+      "tiles": [
+        "중심이었습니다.",
+        "왕조의",
+        "수도로써",
+        "문화의",
+        "후에는",
+        "베트남",
+        "수도로서",
+        "응우옌"
+      ],
+      "answers": [
+        "후에는 응우옌 왕조의 수도로서 베트남 문화의 중심이었습니다."
+      ],
+      "explain_vi": "Tư cách, vai trò (là kinh đô): `(으)로서`. `(으)로써` là «bằng (phương tiện, cách)»: `노력으로써`, không hợp ở đây. `수도` không có patchim nên `로서`."
+    },
+    {
+      "id": "CU41O2",
+      "skill": "build",
+      "type": "build_order",
+      "rung": 1,
+      "title_vi": "Tạo câu · Đã trùng tu từ trước đến nay",
+      "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành MỘT câu đúng. Có mảnh thừa (dạng sai) mà bạn không cần dùng.",
+      "meaning_vi": "Chính phủ Việt Nam đã liên tục trùng tu nơi này cho đến nay.",
+      "tiles": [
+        "꾸준히",
+        "왔습니다.",
+        "이곳을",
+        "정부는",
+        "갔습니다.",
+        "지금까지",
+        "복원해",
+        "베트남",
+        "이곳이"
+      ],
+      "answers": [
+        "베트남 정부는 지금까지 꾸준히 이곳을 복원해 왔습니다.",
+        "베트남 정부는 지금까지 이곳을 꾸준히 복원해 왔습니다.",
+        "지금까지 베트남 정부는 꾸준히 이곳을 복원해 왔습니다.",
+        "지금까지 베트남 정부는 이곳을 꾸준히 복원해 왔습니다.",
+        "베트남 정부는 이곳을 지금까지 꾸준히 복원해 왔습니다."
+      ],
+      "explain_vi": "Việc kéo dài **từ trước đến nay** (`지금까지`): `-아/어 오다` → `복원해 왔습니다`. `-아/어 가다` (`복원해 갔습니다`) là tiếp diễn **từ nay về sau**, mâu thuẫn với `지금까지`. `복원하다` cần tân ngữ `이곳을` (✗ `이곳이`)."
+    },
+    {
+      "id": "CU41F1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 2,
+      "number": "Bước 2",
+      "title_vi": "Tạo câu · Điền khung: giới thiệu di sản",
+      "points": 8,
+      "instruction_vi": "Điền dạng đúng của từ trong ngoặc vuông.",
+      "text": "① 후에는 응우옌 왕조의 [수도: (으)로서] ( ㉠ ) 베트남 문화의 중심이었습니다.\n② 지금도 이곳에서는 왕이 [살다: -던 + N] ( ㉡ ) 궁궐을 볼 수 있습니다.\n③ 베트남 정부는 지금까지 꾸준히 이곳을 [복원하다: -아/어 오다, quá khứ 합쇼체] ( ㉢ ).\n④ 후에는 한국의 경주처럼 옛 [수도: -았/었던 + N] ( ㉣ ) 도시입니다.",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 2,
+          "accepted": [
+            "수도로서"
+          ],
+          "common_errors_vi": "Tư cách: `로서` (✗ `수도로써`: «bằng»; ✗ `수도으로서`: không patchim thì không thêm `으`)."
+        },
+        {
+          "id": "㉡",
+          "points": 2,
+          "accepted": [
+            "살던",
+            "살았던"
+          ],
+          "common_errors_vi": "Việc của quá khứ kéo dài: `살던` (✗ `사는`: vua đang sống; ✗ `살은`: sai cách chia, gốc `ㄹ` không thêm `은`)."
+        },
+        {
+          "id": "㉢",
+          "points": 2,
+          "accepted": [
+            "복원해 왔습니다",
+            "복원하여 왔습니다"
+          ],
+          "common_errors_vi": "`지금까지` + `-아/어 오다`: `복원해 왔습니다` (✗ `복원해 갔습니다`)."
+        },
+        {
+          "id": "㉣",
+          "points": 2,
+          "accepted": [
+            "수도였던"
+          ],
+          "common_errors_vi": "Danh từ không patchim + `였던` (✗ `수도던`; `수도이었던` hiếm gặp)."
+        }
+      ],
+      "tips_vi": [
+        "Giới thiệu di sản theo thứ tự: ở đâu, là gì (`(으)로서`) → còn thấy gì (`-던 N`) → giữ gìn ra sao (`-아/어 오다`) → vì sao người Hàn sẽ thích."
+      ],
+      "context_vi": "Giới thiệu một di sản"
+    },
+    {
+      "id": "CU41C1",
+      "skill": "build",
+      "type": "write_fill",
+      "rung": 3,
+      "number": "Bước 3",
+      "title_vi": "Tạo câu · Nối câu: nơi vua từng ở, tư cách người Việt",
+      "points": 6,
+      "instruction_vi": "Nối hai câu thành một câu bằng mẫu trong ngoặc.",
+      "text": "① 이곳은 궁궐이에요. 옛날에 왕이 이곳에서 살았어요. (-던 + N)\n→ ( ㉠ ).\n② 저는 베트남 사람이에요. 저는 베트남 문화에 자부심을 느껴요. ((으)로서)\n→ ( ㉡ ).",
+      "blanks": [
+        {
+          "id": "㉠",
+          "points": 3,
+          "accepted": [
+            "이곳은 왕이 살던 궁궐이에요",
+            "이곳은 왕이 살던 궁궐입니다",
+            "이곳은 왕이 살았던 궁궐이에요",
+            "이곳은 왕이 살았던 궁궐입니다"
+          ],
+          "common_errors_vi": "Câu thứ hai thành định ngữ của `궁궐`: `왕이 살던 궁궐` (✗ `왕이 사는 궁궐`: vua đang sống; ✗ `왕이 살았는 궁궐`)."
+        },
+        {
+          "id": "㉡",
+          "points": 3,
+          "accepted": [
+            "저는 베트남 사람으로서 베트남 문화에 자부심을 느껴요",
+            "저는 베트남 사람으로서 베트남 문화에 자부심을 느낍니다"
+          ],
+          "common_errors_vi": "Tư cách: `사람으로서` (patchim `ㅁ` → `으로서`; ✗ `사람로서`, ✗ `사람으로써`)."
+        }
+      ],
+      "tips_vi": [
+        "`-던 + N`: nơi chốn, đồ vật gắn với việc trong quá khứ; `(으)로서`: «với tư cách là …»."
+      ],
+      "context_vi": "Nối câu giới thiệu di sản"
+    },
+    {
+      "id": "CU41E1",
+      "skill": "build",
+      "type": "write_essay",
+      "rung": 5,
+      "number": "Bước 5",
+      "title_vi": "Viết đoạn văn của bạn · Giới thiệu một di sản Việt Nam cho người Hàn",
+      "points": 10,
+      "instruction_vi": "Viết MỘT đoạn văn (합쇼체) giới thiệu một di sản Việt Nam bạn biết cho người Hàn. Chỉ viết năm tháng, số liệu bạn chắc chắn đúng.",
+      "limits": {
+        "min": 180,
+        "max": 400
+      },
+      "prompt_ko": "한국 사람들에게 베트남의 문화유산을 하나 소개하는 글을 쓰십시오.",
+      "bullets_ko": [
+        "소개하고 싶은 문화유산은 무엇이고 어디에 있습니까?",
+        "어떤 역사와 가치가 있습니까?",
+        "지금 그곳에서 무엇을 볼 수 있습니까?",
+        "한국 사람들에게 왜 소개하고 싶습니까?"
+      ],
+      "framework_vi": [
+        "Câu mở: di sản bạn muốn giới thiệu (`제가 소개하고 싶은 … 문화유산은 N입니다`).",
+        "Thân: ở đâu, là gì trong lịch sử (`N(으)로서`, `○○○○년부터 ○○○○년까지`) → bây giờ còn thấy gì (`-던 N`) → được giữ gìn, công nhận ra sao (`-아/어 왔습니다`, `○○○○년에 … 지정되었습니다`).",
+        "Nối với người Hàn: so sánh với một nơi ở Hàn Quốc (`한국의 N처럼`).",
+        "Câu kết: cảm nghĩ của bạn (`베트남 사람으로서 … 자부심을 느낍니다`) + lời mời (`꼭 한번 가 보시기 바랍니다`)."
+      ],
+      "patterns_vi": [
+        "`제가 한국 사람들에게 소개하고 싶은 베트남의 문화유산은 N입니다`",
+        "`N은/는 N의 수도로서 …의 중심이었습니다`",
+        "`지금도 이곳에서는 … -던 N을/를 볼 수 있습니다`",
+        "`… -았/었지만 지금까지 꾸준히 … -아/어 왔습니다`",
+        "`그 가치를 인정받아 ○○○○년에 유네스코 세계 문화유산으로 지정되었습니다`",
+        "`한국의 N처럼 … -았/었던 N(이)라서 …`",
+        "`베트남 사람으로서 … 자부심을 느낍니다`",
+        "`베트남에 오시면 꼭 한번 가 보시기 바랍니다`"
+      ],
+      "outline": [
+        {
+          "part_vi": "Câu mở",
+          "content_vi": "Di sản nào, ở đâu",
+          "chars": "40–70"
+        },
+        {
+          "part_vi": "Thân",
+          "content_vi": "Lịch sử, những gì còn thấy, giữ gìn và công nhận, so sánh với Hàn Quốc",
+          "chars": "160–240"
+        },
+        {
+          "part_vi": "Câu kết",
+          "content_vi": "Niềm tự hào của bạn, lời mời",
+          "chars": "40–80"
+        }
+      ],
+      "model_answer_ko": "제가 소개하고 싶은 베트남의 문화유산은 후에의 궁궐과 왕릉입니다. 베트남 중부에 있는 후에는 응우옌 왕조의 수도로서 1802년부터 1945년까지 베트남의 중심이었습니다. 지금도 이곳에서는 왕이 살던 궁궐과 아름다운 왕릉을 볼 수 있습니다. 전쟁 때 많은 건물이 무너졌지만 베트남 정부는 지금까지 꾸준히 이곳을 복원해 왔습니다. 이곳은 그 가치를 인정받아 1993년에 베트남에서 처음으로 유네스코 세계 문화유산으로 지정되었습니다. 후에는 한국의 경주처럼 옛 수도였던 도시라서 한국 사람들도 친근하게 느낄 것 같습니다. 저는 베트남 사람으로서 이 유산에 큰 자부심을 느낍니다. 베트남에 오시면 꼭 한번 가 보시기 바랍니다.",
+      "model_note_vi": "Mọi dữ kiện trong bài mẫu đều là sự thật đã được ghi nhận: Huế là kinh đô nhà Nguyễn từ 1802 đến 1945; Quần thể di tích Cố đô Huế được UNESCO công nhận năm 1993, là di sản thế giới đầu tiên của Việt Nam; nhiều công trình bị phá hủy trong chiến tranh và đã được trùng tu dần. Gyeongju là kinh đô của Silla. Viết về di sản của bạn, hãy chỉ ghi năm tháng và con số bạn đã kiểm tra; không chắc thì viết không có số (`오래전부터`, `지금까지`).",
+      "common_errors_vi": [
+        "Viết năm tháng, con số theo trí nhớ mà không kiểm tra: người Hàn có thể tra lại; sai một năm là bài mất tin cậy.",
+        "✗ `수도로써` → ✓ `수도로서` (tư cách); `로써` là «bằng phương tiện».",
+        "✗ `지금까지 복원해 갔습니다` → ✓ `복원해 왔습니다` (từ trước đến nay: `-아/어 오다`).",
+        "✗ `왕이 사는 궁궐` (vua đang sống) → ✓ `왕이 살던 궁궐`.",
+        "Chỉ liệt kê sự kiện lịch sử: thêm một câu nối với người Hàn (`한국의 N처럼`) và một câu cảm nghĩ của bạn.",
+        "Viết `유네스코 세계 문화유산에 지정되었습니다`: được công nhận **là** dùng `(으)로` → `세계 문화유산으로`."
+      ],
+      "rubric": [
+        {
+          "criterion_vi": "Đủ ý: di sản gì, ở đâu, lịch sử và giá trị, hiện còn gì, vì sao giới thiệu cho người Hàn; dữ kiện đúng",
+          "max": 3
+        },
+        {
+          "criterion_vi": "Thành một đoạn có trình tự (giới thiệu → lịch sử → hiện tại → cảm nghĩ, lời mời)",
+          "max": 3
+        },
+        {
+          "criterion_vi": "Dùng đúng mẫu của bài (`(으)로서`, `-던/-았던 N`, `-아/어 오다`) và từ ngữ tự nhiên",
+          "max": 2
+        },
+        {
+          "criterion_vi": "Chia từ, tiểu từ, cách chữ đúng, giữ một thể 합쇼체",
+          "max": 2
+        }
+      ],
+      "checklist_vi": [
+        "Câu đầu nói rõ di sản nào?",
+        "Mỗi năm tháng, con số trong bài bạn đều đã kiểm tra?",
+        "Có ít nhất một `-던/-았던 N` và một `-아/어 왔습니다`?",
+        "Có câu nối với người Hàn và câu kết mời họ đến?",
+        "Mọi câu kết thúc bằng `-ㅂ니다/습니다`?"
+      ],
+      "detectors": [
+        {
+          "pattern": "V/A + -던 + N · V/A + -았/었던 + N",
+          "regex": "[가-힣]던 [가-힣]",
+          "label_vi": "-던 / -았/었던 + N"
+        },
+        {
+          "pattern": "N + (으)로서 · N + (으)로써",
+          "regex": "로서",
+          "label_vi": "(으)로서 (với tư cách là)"
+        },
+        {
+          "pattern": "V + -아/어 가다 · V + -아/어 오다",
+          "regex": "(?:아|어|해|와|워|여) (?:왔|오고|온)",
+          "label_vi": "-아/어 오다 (từ trước đến nay)"
+        }
+      ],
+      "uses": [
+        {
+          "form": "소개하고 싶은",
+          "card": "V + -고 싶다"
+        },
+        {
+          "form": "소개",
+          "card": "소개하다"
+        },
+        {
+          "form": "싶은 베트남의",
+          "card": "V + -는 + N · A + -(으)ㄴ + N (hiện tại)"
+        },
+        {
+          "form": "문화유산은",
+          "card": "문화유산"
+        },
+        {
+          "form": "궁궐과",
+          "card": "궁궐"
+        },
+        {
+          "form": "왕릉입니다",
+          "card": "왕릉"
+        },
+        {
+          "form": "중부",
+          "card": "중부"
+        },
+        {
+          "form": "왕조",
+          "card": "왕조"
+        },
+        {
+          "form": "수도로서",
+          "card": "N + (으)로서 · N + (으)로써"
+        },
+        {
+          "form": "수도로서",
+          "card": "수도"
+        },
+        {
+          "form": "1802년부터 1945년까지",
+          "card": "N1(Thời gian)부터 N2(Thời gian)까지"
+        },
+        {
+          "form": "중심이었습니다",
+          "card": "중심"
+        },
+        {
+          "form": "왕이 살던 궁궐",
+          "card": "V/A + -던 + N · V/A + -았/었던 + N"
+        },
+        {
+          "form": "아름다운 왕릉",
+          "card": "아름답다"
+        },
+        {
+          "form": "아름다운",
+          "card": "ㅂ bất quy tắc (덥다 · 춥다 · 맵다 · 어렵다 · 돕다)"
+        },
+        {
+          "form": "볼 수 있습니다",
+          "card": "V + -(으)ㄹ 수 있다/없다"
+        },
+        {
+          "form": "전쟁 때",
+          "card": "전쟁"
+        },
+        {
+          "form": "무너졌지만",
+          "card": "무너지다"
+        },
+        {
+          "form": "졌지만",
+          "card": "V/A + -지만"
+        },
+        {
+          "form": "정부",
+          "card": "정부"
+        },
+        {
+          "form": "꾸준히",
+          "card": "꾸준히"
+        },
+        {
+          "form": "복원해 왔습니다",
+          "card": "V + -아/어 가다 · V + -아/어 오다"
+        },
+        {
+          "form": "복원",
+          "card": "복원하다"
+        },
+        {
+          "form": "가치를 인정받아",
+          "card": "가치를 인정받다"
+        },
+        {
+          "form": "인정받아",
+          "card": "V/A + -아/어서"
+        },
+        {
+          "form": "처음으로",
+          "card": "처음으로"
+        },
+        {
+          "form": "세계 문화유산으로 지정되었습니다",
+          "card": "세계 문화유산으로 지정되다"
+        },
+        {
+          "form": "경주처럼",
+          "card": "N처럼"
+        },
+        {
+          "form": "경주",
+          "card": "경주"
+        },
+        {
+          "form": "옛 수도",
+          "card": "옛"
+        },
+        {
+          "form": "수도였던 도시",
+          "card": "V/A + -던 + N · V/A + -았/었던 + N"
+        },
+        {
+          "form": "도시라서",
+          "card": "N + (이)라서"
+        },
+        {
+          "form": "친근하게",
+          "card": "친근하다"
+        },
+        {
+          "form": "친근하게 느낄",
+          "card": "A + -게 (phó từ hoá)"
+        },
+        {
+          "form": "느낄 것 같습니다",
+          "card": "V/A + -(으)ㄴ/는/(으)ㄹ 것 같다"
+        },
+        {
+          "form": "베트남 사람으로서",
+          "card": "N + (으)로서 · N + (으)로써"
+        },
+        {
+          "form": "자부심을 느낍니다",
+          "card": "자부심을 느끼다"
+        },
+        {
+          "form": "자부심",
+          "card": "자부심"
+        },
+        {
+          "form": "유산",
+          "card": "유산"
+        },
+        {
+          "form": "오시면",
+          "card": "V/A + -(으)면"
+        },
+        {
+          "form": "오시면",
+          "card": "V/A + -(으)시- · N + (이)시다"
+        },
+        {
+          "form": "꼭 한번 가 보시기",
+          "card": "꼭 한번 가 보다"
+        },
+        {
+          "form": "가 보시기",
+          "card": "V + -아/어 보다"
+        },
+        {
+          "form": "보시기 바랍니다",
+          "card": "V + -(으)시기 바랍니다 · V + -(으)십시오"
+        }
+      ]
+    }
+  ]
+}

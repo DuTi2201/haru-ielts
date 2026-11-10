@@ -1,0 +1,358 @@
+{
+  "skill": "reading",
+  "guide": [
+    {
+      "title_vi": "Ba câu hỏi cho cùng một đoạn",
+      "body_vi": "Ba đoạn trong bài này **tự soạn** (không phải đề thật). Mỗi đoạn có ba câu theo thứ tự chủ đề → thái độ → mục đích, để bạn thấy cùng một đoạn trả lời ba câu hỏi khác nhau.",
+      "bullets_vi": [
+        "Trước khi nhìn đáp án, rút đoạn thành **một câu** tiếng Việt; dùng câu đó cho cả ba câu hỏi.",
+        "Nói được **vì sao loại** từng đáp án sai: chỉ bối cảnh / chỉ một ví dụ / sai đối tượng / ngược chiều / sai nhóm.",
+        "Đọc cả phần giải thích kể cả khi đã đúng: nó nói mỗi đáp án sai thuộc hình dạng nào."
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "D71R1",
+      "skill": "reading",
+      "type": "read_main_idea",
+      "title_vi": "Đọc · Đoạn 1 · Chủ đề",
+      "instruction_ko": "윗글의 주제로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn chủ đề của đoạn văn",
+      "stimulus": {
+        "kind": "passage",
+        "text": "최근 하나의 주방을 여러 사업자가 나누어 쓰는 ‘공유 주방’이 늘고 있다. 음식점을 새로 열려면 임대료와 설비 비용이 큰 부담이지만, 공유 주방에서는 필요한 시간만큼만 빌려 쓰면 되기 때문에 초기 비용을 크게 줄일 수 있다. 이곳에서 가능성을 확인한 뒤 자기 가게를 여는 사람도 있다. 물론 주방을 함께 쓰다 보니 위생 관리의 책임이 불분명해질 수 있다는 지적이 있다. 그러나 이는 이용 규칙과 점검 체계를 정비하면 충분히 보완할 수 있는 문제이다. 공유 주방은 창업의 문턱을 낮추는 현실적인 대안으로 자리 잡고 있다."
+      },
+      "questions": [
+        {
+          "id": "D71R1",
+          "options": [
+            {
+              "id": "1",
+              "text": "공유 주방은 여러 사업자가 하나의 주방을 나누어 쓰는 시설이다."
+            },
+            {
+              "id": "2",
+              "text": "공유 주방은 위생 문제 때문에 확대하기 어려운 방식이다."
+            },
+            {
+              "id": "3",
+              "text": "공유 주방은 창업 부담을 줄여 주는 현실적인 대안이 되고 있다."
+            },
+            {
+              "id": "4",
+              "text": "음식점을 새로 열려면 임대료와 설비 비용이 큰 부담이다."
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Rút gọn cả đoạn: «공유 주방 giảm gánh nặng khởi nghiệp, nhược điểm vệ sinh khắc phục được, nên là giải pháp thực tế» → ③ (khớp cả câu chốt cuối đoạn). ① chỉ là định nghĩa ở câu mở đầu; ② biến phần nhượng bộ (`지적이 있다`) thành ý chính, trong khi bài nói ngay sau đó là «보완할 수 있다»; ④ chỉ là bối cảnh, lý do người ta cần một cách làm mới.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "D71R2",
+      "skill": "reading",
+      "type": "read_attitude",
+      "title_vi": "Đọc · Đoạn 1 · Thái độ",
+      "instruction_ko": "윗글에 나타난 필자의 태도로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn thái độ của người viết",
+      "stimulus": {
+        "kind": "passage",
+        "text": "최근 하나의 주방을 여러 사업자가 나누어 쓰는 ‘공유 주방’이 늘고 있다. 음식점을 새로 열려면 임대료와 설비 비용이 큰 부담이지만, 공유 주방에서는 필요한 시간만큼만 빌려 쓰면 되기 때문에 초기 비용을 크게 줄일 수 있다. 이곳에서 가능성을 확인한 뒤 자기 가게를 여는 사람도 있다. 물론 주방을 함께 쓰다 보니 위생 관리의 책임이 불분명해질 수 있다는 지적이 있다. 그러나 이는 이용 규칙과 점검 체계를 정비하면 충분히 보완할 수 있는 문제이다. 공유 주방은 창업의 문턱을 낮추는 현실적인 대안으로 자리 잡고 있다."
+      },
+      "questions": [
+        {
+          "id": "D71R2",
+          "options": [
+            {
+              "id": "1",
+              "text": "공유 주방이 창업 부담을 줄여 준다고 긍정적으로 평가하고 있다."
+            },
+            {
+              "id": "2",
+              "text": "공유 주방의 위생 문제를 심각하게 우려하고 있다."
+            },
+            {
+              "id": "3",
+              "text": "창업 비용이 커진 책임을 정부에 묻고 있다."
+            },
+            {
+              "id": "4",
+              "text": "공유 주방이 곧 사라질 유행이라고 전망하고 있다."
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Tách hai nửa. **Đối tượng**: ③ nói sang chuyện chính phủ chịu trách nhiệm, bài không hề nhắc → loại. **Chiều**: bài nêu nhược điểm bằng `지적이 있다`, rồi chuyển bằng `그러나 … 보완할 수 있는 문제이다` và chốt `대안으로 자리 잡고 있다` → đánh giá tích cực → ①. ② lấy phần nhượng bộ làm thái độ; ④ ngược chiều (bài nói đang «자리 잡고 있다», không phải sắp biến mất).",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "D71R3",
+      "skill": "reading",
+      "type": "read_purpose",
+      "title_vi": "Đọc · Đoạn 1 · Mục đích",
+      "instruction_ko": "필자가 이 글을 쓴 목적으로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mục đích của người viết",
+      "stimulus": {
+        "kind": "passage",
+        "text": "최근 하나의 주방을 여러 사업자가 나누어 쓰는 ‘공유 주방’이 늘고 있다. 음식점을 새로 열려면 임대료와 설비 비용이 큰 부담이지만, 공유 주방에서는 필요한 시간만큼만 빌려 쓰면 되기 때문에 초기 비용을 크게 줄일 수 있다. 이곳에서 가능성을 확인한 뒤 자기 가게를 여는 사람도 있다. 물론 주방을 함께 쓰다 보니 위생 관리의 책임이 불분명해질 수 있다는 지적이 있다. 그러나 이는 이용 규칙과 점검 체계를 정비하면 충분히 보완할 수 있는 문제이다. 공유 주방은 창업의 문턱을 낮추는 현실적인 대안으로 자리 잡고 있다."
+      },
+      "questions": [
+        {
+          "id": "D71R3",
+          "options": [
+            {
+              "id": "1",
+              "text": "공유 주방의 이용 규칙을 강화하도록 요구하려고"
+            },
+            {
+              "id": "2",
+              "text": "공유 주방이 확산되는 이유와 의의를 알리려고"
+            },
+            {
+              "id": "3",
+              "text": "음식점 창업을 준비하는 사람들에게 지원을 요청하려고"
+            },
+            {
+              "id": "4",
+              "text": "위생 사고를 막기 위한 법 개정을 촉구하려고"
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Bài chỉ trình bày hiện tượng, lý do và ý nghĩa; không có câu kêu gọi hay đề nghị hướng tới ai → nhóm «cho biết» → ②. ①, ③, ④ đều thuộc nhóm «muốn người khác thay đổi»: ① và ④ chỉ lấy một chi tiết phụ (quy tắc, vệ sinh), ③ nói sang một đối tượng mà bài không hướng tới.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "D71R4",
+      "skill": "reading",
+      "type": "read_main_idea",
+      "title_vi": "Đọc · Đoạn 2 · Chủ đề",
+      "instruction_ko": "윗글의 주제로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn chủ đề của đoạn văn",
+      "stimulus": {
+        "kind": "passage",
+        "text": "동영상 앱을 열면 내가 좋아할 만한 영상이 끊임없이 이어진다. 추천 기능이 이용자가 지금까지 본 영상을 분석하여 비슷한 내용을 계속 보여 주기 때문이다. 이런 방식은 원하는 정보를 빠르게 찾게 해 준다는 점에서 편리하다. 하지만 같은 종류의 영상만 반복해서 접하다 보면 다른 생각을 만날 기회가 줄어들고, 자신의 의견이 전부 옳다고 믿게 될 위험이 있다. 더 큰 문제는 대부분의 이용자가 자신이 보는 영상이 ‘선택된 결과’라는 사실조차 의식하지 못한다는 것이다. 이제는 추천에 맡기는 습관에서 벗어나 일부러 다른 관점의 영상을 찾아보아야 한다."
+      },
+      "questions": [
+        {
+          "id": "D71R4",
+          "options": [
+            {
+              "id": "1",
+              "text": "동영상 앱의 추천 기능은 이용자가 본 영상을 분석하여 작동한다."
+            },
+            {
+              "id": "2",
+              "text": "추천 기능은 원하는 정보를 빠르게 찾게 해 주어 편리하다."
+            },
+            {
+              "id": "3",
+              "text": "추천 기능 덕분에 이용자들이 다양한 관점을 접하게 된다."
+            },
+            {
+              "id": "4",
+              "text": "추천에만 의존하면 생각이 한쪽으로 치우칠 수 있으므로 다양한 관점을 찾아보아야 한다."
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Chỗ chuyển ý là `하지만`, câu chốt là `벗어나 … 찾아보아야 한다`. Rút gọn: «dựa hết vào gợi ý thì suy nghĩ lệch một phía, nên chủ động tìm góc nhìn khác» → ④. ① là cơ chế hoạt động (bối cảnh); ② là phần nhượng bộ trước `하지만`; ③ ngược nghĩa: bài nói gợi ý làm giảm cơ hội gặp ý kiến khác.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "D71R5",
+      "skill": "reading",
+      "type": "read_attitude",
+      "title_vi": "Đọc · Đoạn 2 · Thái độ",
+      "instruction_ko": "윗글에 나타난 필자의 태도로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn thái độ của người viết",
+      "stimulus": {
+        "kind": "passage",
+        "text": "동영상 앱을 열면 내가 좋아할 만한 영상이 끊임없이 이어진다. 추천 기능이 이용자가 지금까지 본 영상을 분석하여 비슷한 내용을 계속 보여 주기 때문이다. 이런 방식은 원하는 정보를 빠르게 찾게 해 준다는 점에서 편리하다. 하지만 같은 종류의 영상만 반복해서 접하다 보면 다른 생각을 만날 기회가 줄어들고, 자신의 의견이 전부 옳다고 믿게 될 위험이 있다. 더 큰 문제는 대부분의 이용자가 자신이 보는 영상이 ‘선택된 결과’라는 사실조차 의식하지 못한다는 것이다. 이제는 추천에 맡기는 습관에서 벗어나 일부러 다른 관점의 영상을 찾아보아야 한다."
+      },
+      "questions": [
+        {
+          "id": "D71R5",
+          "options": [
+            {
+              "id": "1",
+              "text": "추천 기능의 편리함을 높이 평가하고 있다."
+            },
+            {
+              "id": "2",
+              "text": "추천 기능에 의존하는 습관을 우려하며 변화를 요구하고 있다."
+            },
+            {
+              "id": "3",
+              "text": "추천 기능을 만든 기업의 태도를 비난하고 있다."
+            },
+            {
+              "id": "4",
+              "text": "다양한 영상이 제공되는 현실을 반기고 있다."
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Đối tượng của sự lo ngại là **thói quen của người dùng** (`추천에 맡기는 습관`), không phải doanh nghiệp (③ sai đối tượng). Chiều: sau `하지만` là `위험이 있다`, `더 큰 문제는`, rồi `벗어나 … 찾아보아야 한다` → lo ngại và đòi thay đổi → ②. ① là lời khen đứng trước `하지만` (nhượng bộ); ④ ngược chiều.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "D71R6",
+      "skill": "reading",
+      "type": "read_purpose",
+      "title_vi": "Đọc · Đoạn 2 · Mục đích",
+      "instruction_ko": "필자가 이 글을 쓴 목적으로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mục đích của người viết",
+      "stimulus": {
+        "kind": "passage",
+        "text": "동영상 앱을 열면 내가 좋아할 만한 영상이 끊임없이 이어진다. 추천 기능이 이용자가 지금까지 본 영상을 분석하여 비슷한 내용을 계속 보여 주기 때문이다. 이런 방식은 원하는 정보를 빠르게 찾게 해 준다는 점에서 편리하다. 하지만 같은 종류의 영상만 반복해서 접하다 보면 다른 생각을 만날 기회가 줄어들고, 자신의 의견이 전부 옳다고 믿게 될 위험이 있다. 더 큰 문제는 대부분의 이용자가 자신이 보는 영상이 ‘선택된 결과’라는 사실조차 의식하지 못한다는 것이다. 이제는 추천에 맡기는 습관에서 벗어나 일부러 다른 관점의 영상을 찾아보아야 한다."
+      },
+      "questions": [
+        {
+          "id": "D71R6",
+          "options": [
+            {
+              "id": "1",
+              "text": "추천에 의존하는 습관을 되돌아보고 바꾸도록 권하려고"
+            },
+            {
+              "id": "2",
+              "text": "추천 기능이 작동하는 원리를 설명하려고"
+            },
+            {
+              "id": "3",
+              "text": "새로 나온 동영상 앱의 기능을 소개하려고"
+            },
+            {
+              "id": "4",
+              "text": "기업에 추천 방식의 공개를 요구하려고"
+            }
+          ],
+          "answer": "1",
+          "explanation_vi": "Câu cuối đoạn là lời kêu gọi người dùng (`벗어나 … 찾아보아야 한다`) → nhóm «muốn thay đổi», đối tượng là **người dùng** → ①. ② và ③ thuộc nhóm «cho biết», sai nhóm (② chỉ là bối cảnh của bài); ④ đúng nhóm nhưng sai đối tượng: bài không đòi doanh nghiệp làm gì.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "D71R7",
+      "skill": "reading",
+      "type": "read_main_idea",
+      "title_vi": "Đọc · Đoạn 3 · Chủ đề",
+      "instruction_ko": "윗글의 주제로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn chủ đề của đoạn văn",
+      "stimulus": {
+        "kind": "passage",
+        "text": "학생들에게 일정 시간 이상 봉사 활동을 하도록 정한 제도의 취지는 분명하다. 학교 밖에서 이웃과 사회를 직접 경험하게 하자는 것이다. 그러나 실제로는 정해진 시간을 채우기 위해 의미 없는 활동에 참여하거나 확인서만 받아 가는 경우가 적지 않다. 이렇게 되면 봉사는 경험이 아니라 숙제가 되어, 학생들이 오히려 나눔에서 멀어지게 된다. 제도의 취지를 살리려면 시간의 양을 따지기보다 활동의 내용과 학생이 느낀 점을 중심으로 평가하는 방식으로 바꾸어야 한다."
+      },
+      "questions": [
+        {
+          "id": "D71R7",
+          "options": [
+            {
+              "id": "1",
+              "text": "봉사 활동 제도의 취지는 학교 밖에서 사회를 경험하게 하는 것이다."
+            },
+            {
+              "id": "2",
+              "text": "봉사 활동은 시간의 양이 아니라 활동의 내용을 중심으로 평가해야 한다."
+            },
+            {
+              "id": "3",
+              "text": "확인서만 받아 가는 학생이 적지 않아 문제가 되고 있다."
+            },
+            {
+              "id": "4",
+              "text": "봉사 활동 시간을 지금보다 늘려서 의무로 채우게 해야 한다."
+            }
+          ],
+          "answer": "2",
+          "explanation_vi": "Câu chốt `… 평가하는 방식으로 바꾸어야 한다` là ý chính: nên đánh giá theo nội dung hoạt động chứ không theo số giờ → ②. ① là bối cảnh (mục đích ban đầu của chế độ); ③ chỉ là một ví dụ về thực trạng; ④ ngược nghĩa: bài phê phán việc chạy theo số giờ.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "D71R8",
+      "skill": "reading",
+      "type": "read_attitude",
+      "title_vi": "Đọc · Đoạn 3 · Thái độ",
+      "instruction_ko": "윗글에 나타난 필자의 태도로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn thái độ của người viết",
+      "stimulus": {
+        "kind": "passage",
+        "text": "학생들에게 일정 시간 이상 봉사 활동을 하도록 정한 제도의 취지는 분명하다. 학교 밖에서 이웃과 사회를 직접 경험하게 하자는 것이다. 그러나 실제로는 정해진 시간을 채우기 위해 의미 없는 활동에 참여하거나 확인서만 받아 가는 경우가 적지 않다. 이렇게 되면 봉사는 경험이 아니라 숙제가 되어, 학생들이 오히려 나눔에서 멀어지게 된다. 제도의 취지를 살리려면 시간의 양을 따지기보다 활동의 내용과 학생이 느낀 점을 중심으로 평가하는 방식으로 바꾸어야 한다."
+      },
+      "questions": [
+        {
+          "id": "D71R8",
+          "options": [
+            {
+              "id": "1",
+              "text": "봉사 활동 제도가 필요 없다고 주장하고 있다."
+            },
+            {
+              "id": "2",
+              "text": "봉사 활동에 참여하는 학생들의 태도를 비난하고 있다."
+            },
+            {
+              "id": "3",
+              "text": "제도의 취지는 인정하면서 운영 방식을 비판하고 있다."
+            },
+            {
+              "id": "4",
+              "text": "제도가 취지에 맞게 잘 운영되고 있다고 평가하고 있다."
+            }
+          ],
+          "answer": "3",
+          "explanation_vi": "Bài có hai nửa: câu đầu `취지는 분명하다` (công nhận mục đích), rồi `그러나 실제로는 …` (phê phán cách vận hành) → ③ bao được cả hai. ① dùng từ mạnh hơn bài (bài muốn sửa chứ không bỏ chế độ); ② sai đối tượng: bài phê phán cách vận hành, không nhắm vào học sinh; ④ ngược chiều.",
+          "tags": []
+        }
+      ]
+    },
+    {
+      "id": "D71R9",
+      "skill": "reading",
+      "type": "read_purpose",
+      "title_vi": "Đọc · Đoạn 3 · Mục đích",
+      "instruction_ko": "필자가 이 글을 쓴 목적으로 가장 알맞은 것을 고르십시오.",
+      "instruction_vi": "Chọn mục đích của người viết",
+      "stimulus": {
+        "kind": "passage",
+        "text": "학생들에게 일정 시간 이상 봉사 활동을 하도록 정한 제도의 취지는 분명하다. 학교 밖에서 이웃과 사회를 직접 경험하게 하자는 것이다. 그러나 실제로는 정해진 시간을 채우기 위해 의미 없는 활동에 참여하거나 확인서만 받아 가는 경우가 적지 않다. 이렇게 되면 봉사는 경험이 아니라 숙제가 되어, 학생들이 오히려 나눔에서 멀어지게 된다. 제도의 취지를 살리려면 시간의 양을 따지기보다 활동의 내용과 학생이 느낀 점을 중심으로 평가하는 방식으로 바꾸어야 한다."
+      },
+      "questions": [
+        {
+          "id": "D71R9",
+          "options": [
+            {
+              "id": "1",
+              "text": "봉사 활동 제도가 만들어진 과정을 설명하려고"
+            },
+            {
+              "id": "2",
+              "text": "학생들에게 봉사 활동 참여를 권하려고"
+            },
+            {
+              "id": "3",
+              "text": "봉사 확인서를 발급하는 절차를 안내하려고"
+            },
+            {
+              "id": "4",
+              "text": "평가 방식을 바꾸는 방향으로 제도 개선을 제안하려고"
+            }
+          ],
+          "answer": "4",
+          "explanation_vi": "Câu cuối nêu đề nghị đổi cách đánh giá → nhóm «muốn thay đổi», đối tượng là **chế độ** → ④. ① và ③ thuộc nhóm «cho biết» và chỉ là chi tiết; ② đúng nhóm nhưng sai đối tượng: bài không khuyên học sinh tham gia mà đề nghị sửa chế độ.",
+          "tags": []
+        }
+      ]
+    }
+  ]
+}

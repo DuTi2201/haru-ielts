@@ -1,0 +1,582 @@
+{
+  "slug": "viet-nghi-luan-01-doc-de",
+  "title": "Viết 54 · Bài 1: Đọc đề và biến 3 câu hỏi thành 3 câu trả lời",
+  "title_ko": "쓰기 54번 ①: 문제 읽기와 답문장 만들기",
+  "topic": "Bổ trợ · Viết câu 54 từ con số 0",
+  "track": "intermediate",
+  "level": 4,
+  "sort_order": 54,
+  "summary": "Bài đầu của khoá «Viết câu 54 từ con số 0»: câu 54 chấm gì, lệnh đề thật nói gì, đọc đề trong 90 giây, đổi từng câu hỏi (-(으)ㄴ/는가?) thành câu trả lời đầu đoạn bằng 3 bước, và nhận ra 4 dạng đề hay gặp. Chưa viết cả bài: bài này chỉ dạy đọc đề và viết 3 câu đầu.",
+  "vocab": [
+    {
+      "hangul": "주제",
+      "pos": "N",
+      "meaning_vi": "Chủ đề, đề tài",
+      "example_ko": "이 글의 주제는 환경 보호이다.",
+      "example_vi": "Chủ đề của bài viết này là bảo vệ môi trường.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "主題",
+      "sino_vietnamese": "chủ đề",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "내용",
+      "pos": "N",
+      "meaning_vi": "Nội dung",
+      "example_ko": "아래의 내용을 중심으로 글을 쓴다.",
+      "example_vi": "Viết bài xoay quanh nội dung dưới đây.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "內容",
+      "sino_vietnamese": "nội dung",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "중심",
+      "pos": "N",
+      "meaning_vi": "Trọng tâm, trung tâm",
+      "note_vi": "Cụm hay gặp trong đề: `을/를 중심으로`.",
+      "example_ko": "이 조사는 젊은 층을 중심으로 이루어졌다.",
+      "example_vi": "Cuộc khảo sát này được tiến hành chủ yếu ở nhóm trẻ.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "中心",
+      "sino_vietnamese": "trung tâm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "바탕",
+      "pos": "N",
+      "meaning_vi": "Nền tảng, cơ sở",
+      "note_vi": "`을/를 바탕으로` = dựa trên.",
+      "example_ko": "경험을 바탕으로 자신의 생각을 쓴다.",
+      "example_vi": "Dựa trên kinh nghiệm để viết suy nghĩ của mình.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core"
+    },
+    {
+      "hangul": "참고하다",
+      "pos": "V",
+      "meaning_vi": "Tham khảo",
+      "note_vi": "Lệnh đề 54: `다음을 참고하여 …`.",
+      "example_ko": "다음 자료를 참고하여 글을 쓰시오.",
+      "example_vi": "Hãy tham khảo tài liệu sau để viết bài.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "參考",
+      "sino_vietnamese": "tham khảo",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "의견",
+      "pos": "N",
+      "meaning_vi": "Ý kiến",
+      "example_ko": "자신의 의견을 분명하게 쓰는 것이 중요하다.",
+      "example_vi": "Điều quan trọng là viết ý kiến của mình một cách rõ ràng.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "意見",
+      "sino_vietnamese": "ý kiến",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "입장",
+      "pos": "N",
+      "meaning_vi": "Lập trường, quan điểm",
+      "example_ko": "이 제도에 찬성하는 입장과 반대하는 입장이 있다.",
+      "example_vi": "Có lập trường tán thành và lập trường phản đối chế độ này.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "立場",
+      "sino_vietnamese": "lập trường",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "찬성하다",
+      "pos": "V",
+      "meaning_vi": "Tán thành",
+      "note_vi": "Trái nghĩa: 반대하다.",
+      "example_ko": "학교의 휴대 전화 금지에 찬성하는 학부모가 많다.",
+      "example_vi": "Có nhiều phụ huynh tán thành việc cấm điện thoại ở trường.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "贊成",
+      "sino_vietnamese": "tán thành",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "반대하다",
+      "pos": "V",
+      "meaning_vi": "Phản đối",
+      "example_ko": "이 계획에 반대하는 의견도 적지 않다.",
+      "example_vi": "Ý kiến phản đối kế hoạch này cũng không ít.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "反對",
+      "sino_vietnamese": "phản đối",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "근거",
+      "pos": "N",
+      "meaning_vi": "Căn cứ, cơ sở lập luận",
+      "example_ko": "주장을 쓸 때는 반드시 근거를 함께 제시해야 한다.",
+      "example_vi": "Khi viết một chủ trương thì nhất định phải nêu kèm căn cứ.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "根據",
+      "sino_vietnamese": "căn cứ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "이유",
+      "pos": "N",
+      "meaning_vi": "Lý do",
+      "example_ko": "그렇게 생각하는 이유를 설명해야 한다.",
+      "example_vi": "Phải giải thích lý do mình nghĩ như vậy.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "理由",
+      "sino_vietnamese": "lý do",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "원인",
+      "pos": "N",
+      "meaning_vi": "Nguyên nhân",
+      "note_vi": "Cặp đối: 원인 (nguyên nhân) ↔ 결과 (kết quả).",
+      "example_ko": "사고의 원인은 크게 두 가지이다.",
+      "example_vi": "Nguyên nhân của vụ tai nạn có hai loại chính.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "原因",
+      "sino_vietnamese": "nguyên nhân",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "결과",
+      "pos": "N",
+      "meaning_vi": "Kết quả",
+      "example_ko": "노력의 결과는 시간이 지나야 알 수 있다.",
+      "example_vi": "Phải qua thời gian mới biết kết quả của nỗ lực.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "結果",
+      "sino_vietnamese": "kết quả",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "영향",
+      "pos": "N",
+      "meaning_vi": "Ảnh hưởng",
+      "note_vi": "Hay đi với `을/를 미치다` hoặc `을/를 주다`: `영향을 미치다`.",
+      "example_ko": "스마트폰은 청소년의 수면에 영향을 미친다.",
+      "example_vi": "Điện thoại thông minh ảnh hưởng đến giấc ngủ của thanh thiếu niên.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "影響",
+      "sino_vietnamese": "ảnh hưởng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "문제점",
+      "pos": "N",
+      "meaning_vi": "Vấn đề, điểm có vấn đề",
+      "note_vi": "`문제점` = điểm có vấn đề (cụ thể); `문제` = vấn đề nói chung.",
+      "example_ko": "이 제도에는 몇 가지 문제점이 있다.",
+      "example_vi": "Chế độ này có vài vấn đề.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "問題點",
+      "sino_vietnamese": "vấn đề điểm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "해결하다",
+      "pos": "V",
+      "meaning_vi": "Giải quyết",
+      "note_vi": "해결책 = giải pháp; 해결되다 = được giải quyết.",
+      "example_ko": "이 문제를 해결하려면 정부의 지원이 필요하다.",
+      "example_vi": "Muốn giải quyết vấn đề này thì cần sự hỗ trợ của chính phủ.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "解決",
+      "sino_vietnamese": "giải quyết",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "방안",
+      "pos": "N",
+      "meaning_vi": "Phương án, biện pháp",
+      "note_vi": "방안 trang trọng hơn 방법; hay đi với `마련하다`: `방안을 마련하다`.",
+      "example_ko": "문제를 줄일 수 있는 방안을 생각해 보자.",
+      "example_vi": "Hãy nghĩ ra phương án có thể giảm bớt vấn đề.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "方案",
+      "sino_vietnamese": "phương án",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "방법",
+      "pos": "N",
+      "meaning_vi": "Cách, phương pháp",
+      "example_ko": "공부하는 방법은 사람마다 다르다.",
+      "example_vi": "Cách học khác nhau tuỳ từng người.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "方法",
+      "sino_vietnamese": "phương pháp",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "노력",
+      "pos": "N",
+      "meaning_vi": "Nỗ lực",
+      "note_vi": "노력하다 (V); 노력이 필요하다.",
+      "example_ko": "작은 노력이 큰 변화를 만든다.",
+      "example_vi": "Nỗ lực nhỏ tạo nên thay đổi lớn.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "努力",
+      "sino_vietnamese": "nỗ lực",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "필요성",
+      "pos": "N",
+      "meaning_vi": "Tính cần thiết",
+      "example_ko": "독서의 필요성을 모르는 사람은 없다.",
+      "example_vi": "Không ai là không biết sự cần thiết của việc đọc sách.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "必要性",
+      "sino_vietnamese": "tất yếu tính",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "중요성",
+      "pos": "N",
+      "meaning_vi": "Tầm quan trọng",
+      "example_ko": "건강의 중요성은 아무리 강조해도 지나치지 않다.",
+      "example_vi": "Tầm quan trọng của sức khỏe có nhấn mạnh bao nhiêu cũng không thừa.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "重要性",
+      "sino_vietnamese": "trọng yếu tính",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "장점",
+      "pos": "N",
+      "meaning_vi": "Ưu điểm",
+      "note_vi": "Trái nghĩa: 단점.",
+      "example_ko": "온라인 수업의 장점은 시간을 아낄 수 있다는 것이다.",
+      "example_vi": "Ưu điểm của học trực tuyến là có thể tiết kiệm thời gian.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "長點",
+      "sino_vietnamese": "trường điểm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "단점",
+      "pos": "N",
+      "meaning_vi": "Khuyết điểm",
+      "example_ko": "모든 제도에는 장점과 단점이 있다.",
+      "example_vi": "Chế độ nào cũng có ưu điểm và khuyết điểm.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "短點",
+      "sino_vietnamese": "đoản điểm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "변화",
+      "pos": "N",
+      "meaning_vi": "Sự thay đổi",
+      "note_vi": "변화하다 / 변화가 생기다.",
+      "example_ko": "사회가 변하면 생활도 큰 변화를 겪는다.",
+      "example_vi": "Khi xã hội thay đổi thì cuộc sống cũng trải qua thay đổi lớn.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "變化",
+      "sino_vietnamese": "biến hóa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "현상",
+      "pos": "N",
+      "meaning_vi": "Hiện tượng",
+      "example_ko": "인구가 도시로 모이는 현상이 나타나고 있다.",
+      "example_vi": "Đang xuất hiện hiện tượng dân số đổ dồn về thành phố.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "現象",
+      "sino_vietnamese": "hiện tượng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "대책",
+      "pos": "N",
+      "meaning_vi": "Đối sách",
+      "note_vi": "Hay đi với `세우다`/`마련하다`: `대책을 세우다`.",
+      "example_ko": "정부는 환경 오염에 대한 대책을 발표했다.",
+      "example_vi": "Chính phủ đã công bố đối sách về ô nhiễm môi trường.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "對策",
+      "sino_vietnamese": "đối sách",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "배경",
+      "pos": "N",
+      "meaning_vi": "Bối cảnh, nguyên do phía sau",
+      "example_ko": "이런 현상이 나타난 배경을 살펴보자.",
+      "example_vi": "Hãy xem xét bối cảnh khiến hiện tượng này xuất hiện.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "recognize",
+      "hanja": "背景",
+      "sino_vietnamese": "bối cảnh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "사례",
+      "pos": "N",
+      "meaning_vi": "Ví dụ thực tế, trường hợp",
+      "example_ko": "실제 사례를 하나 들면 설명이 쉬워진다.",
+      "example_vi": "Nêu một ví dụ thực tế thì dễ giải thích hơn.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "recognize",
+      "hanja": "事例",
+      "sino_vietnamese": "sự lệ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "역할",
+      "pos": "N",
+      "meaning_vi": "Vai trò",
+      "note_vi": "역할을 하다 / 역할을 맡다.",
+      "example_ko": "정부는 문제를 해결하는 데 중요한 역할을 한다.",
+      "example_vi": "Chính phủ đóng vai trò quan trọng trong việc giải quyết vấn đề.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "recognize",
+      "hanja": "役割",
+      "sino_vietnamese": "dịch cát",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "효과",
+      "pos": "N",
+      "meaning_vi": "Hiệu quả, tác dụng",
+      "example_ko": "꾸준한 운동은 건강에 좋은 효과가 있다.",
+      "example_vi": "Tập thể dục đều đặn có tác dụng tốt cho sức khỏe.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "recognize",
+      "hanja": "效果",
+      "sino_vietnamese": "hiệu quả",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "대응하다",
+      "pos": "V",
+      "meaning_vi": "Ứng phó, đối phó",
+      "example_ko": "변화에 빠르게 대응하는 능력이 필요하다.",
+      "example_vi": "Cần năng lực ứng phó nhanh với thay đổi.",
+      "family": "🟢 Nền · Từ trong câu lệnh của đề 54",
+      "priority": "core",
+      "hanja": "對應",
+      "sino_vietnamese": "đối ứng",
+      "enrich": "auto"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "V/A + -(으)ㄴ/는가? · N + (이)ㄴ가?",
+      "meaning_vi": "Đuôi câu hỏi của văn viết: «… là gì?», «… thế nào?»",
+      "usage_context_vi": "**Cấu tạo:** Động từ + `-는가?`: 하다 → `하는가?`, 있다 → `있는가?`. Tính từ + `-(으)ㄴ가?`: 많다 → `많은가?`, 크다 → `큰가?`, 좋다 → `좋은가?`. Danh từ + `인가?`: `무엇인가?`, `누구인가?`. Quá khứ: `-았/었는가?` (`늘었는가?`).\n**Hoàn cảnh dùng:** Ba câu hỏi (gạch đầu dòng) ở cuối đoạn dẫn của đề 54 đều kết thúc bằng đuôi này: `장점은 무엇인가?`, `어떤 영향을 미치는가?`, `어떻게 해야 하는가?`. Bạn không phải viết lại câu hỏi mà phải **đọc ra loại câu hỏi** để chọn khuôn trả lời.\n**Vì sao chọn nó:** văn viết trang trọng (đề thi, bài báo, bài nghị luận) không dùng `-아/어요?` hay `-ㅂ니까?` như lời nói. Khi **trả lời**, bạn đổi sang 한다체: `-다`.",
+      "contrasts": [
+        {
+          "pattern": "-(으)ㅂ니까? · -아/어요?",
+          "diff_vi": "Hai dạng này là **lời nói** (hội thoại). Đề thi dùng `-(으)ㄴ/는가?`; câu trả lời của bạn dùng `-다`."
+        },
+        {
+          "pattern": "-(으)ㄹ까? (tự vấn)",
+          "diff_vi": "`-(으)ㄹ까?` là hỏi về dự đoán hoặc tự hỏi trong bài (`과연 가능할까?`). `-(으)ㄴ/는가?` hỏi thẳng một điều cần trả lời."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Chép nguyên câu hỏi làm câu trả lời (`장점은 무엇인가?`). Phải đổi sang câu khẳng định `장점은 크게 두 가지이다.`\n(2) Viết `무엇이가` hay `무엇인지` thay vì `무엇인가` (`인가` = `이다` + `-ㄴ가`).\n(3) Chia tính từ như động từ: `좋는가` ✗ → `좋은가` ✓; `크는가` ✗ → `큰가` ✓.",
+      "example_ko": "재택근무의 문제점은 무엇인가?\n스마트폰은 청소년에게 어떤 영향을 미치는가?\n이 문제를 해결하려면 무엇을 해야 하는가?\n온라인 수업은 누구에게 도움이 되는가?",
+      "example_vi": "Vấn đề của làm việc tại nhà là gì?\nĐiện thoại thông minh ảnh hưởng thế nào đến thanh thiếu niên?\nMuốn giải quyết vấn đề này thì phải làm gì?\nHọc trực tuyến có ích cho ai?",
+      "topik_tip_vi": "Nhìn **từ để hỏi** (무엇 · 어떤 · 어떻게 · 왜) ngay trước `-(으)ㄴ/는가?` là biết cần trả lời kiểu gì: 무엇 → nêu danh sách; 어떤 영향 → nêu tác động; 어떻게 → nêu cách.",
+      "importance": "must"
+    },
+    {
+      "pattern": "N + 을/를 중심으로 · N + 을/를 바탕으로",
+      "meaning_vi": "Lấy … làm trọng tâm · Dựa trên …",
+      "usage_context_vi": "**Cấu tạo:** Danh từ + `을/를 중심으로`: 내용을 중심으로, 젊은 층을 중심으로. Danh từ + `을/를 바탕으로`: 경험을 바탕으로, 조사 결과를 바탕으로. Là trạng ngữ, đứng trước động từ.\n**Hoàn cảnh dùng:** Dòng dẫn của đề: `아래의 내용을 중심으로 … 자신의 생각을 쓰라`. Trong bài: `이 조사를 바탕으로 …`; `대도시를 중심으로 … 현상이 나타나고 있다` (tập trung ở đâu).\n**Vì sao chọn nó:** `을/를 중심으로` nói **trục chính** của nội dung; ba gạch đầu dòng chính là trục đó, nên bài viết phải bám cả ba. `을/를 바탕으로` nói **nền, căn cứ** (kinh nghiệm, số liệu).",
+      "contrasts": [
+        {
+          "pattern": "N + 에 따라",
+          "diff_vi": "`에 따라` = theo, tuỳ theo (thay đổi theo yếu tố nào): `나이에 따라 다르다`."
+        },
+        {
+          "pattern": "N + 에 대해",
+          "diff_vi": "`에 대해` = về (đối tượng được bàn). `중심으로` nói trục của nội dung, không nói đối tượng."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Viết `내용으로 중심` hoặc `내용을 중심에` ✗ → `내용을 중심으로` ✓.\n(2) Hiểu `중심으로` thành «ở giữa» (nơi chốn). Ở đề nó chỉ *trọng tâm nội dung*.",
+      "example_ko": "아래의 내용을 중심으로 자신의 생각을 쓰시오.\n이번 조사 결과를 바탕으로 대책을 마련했다.\n젊은 층을 중심으로 배달 앱 이용이 늘고 있다.",
+      "example_vi": "Hãy viết suy nghĩ của mình xoay quanh nội dung dưới đây.\nĐã đề ra đối sách dựa trên kết quả khảo sát lần này.\nViệc dùng ứng dụng giao đồ ăn đang tăng, chủ yếu ở nhóm trẻ.",
+      "topik_tip_vi": "Thấy `을/를 중심으로` ở đề 54 thì nhớ: **mỗi gạch đầu dòng phải có chỗ của nó trong bài**. Bỏ sót một gạch là mất một đoạn nội dung.",
+      "importance": "normal"
+    },
+    {
+      "pattern": "N + 에 대한 N · N + 에 대해(서)",
+      "meaning_vi": "Về …, liên quan đến …",
+      "usage_context_vi": "**Cấu tạo:** `N에 대한 + danh từ` (bổ nghĩa danh từ): `재택근무에 대한 생각`. `N에 대해(서) + động từ` (bổ nghĩa động từ): `재택근무에 대해 생각한다`. Viết tắt: `N에 대해` (không `서`) rất hay gặp trong văn viết.\n**Hoàn cảnh dùng:** Dòng dẫn của đề: `‘배달 앱 이용’에 대한 자신의 생각을 쓰라`. Trong bài: `…에 대한 관심이 높아지고 있다` (câu mở), `…에 대해 살펴보고자 한다`.\n**Vì sao chọn nó:** Khi **bàn luận về một chủ đề**, tiếng Hàn dùng `에 대해` chứ không để trống trợ từ. Nó cho thấy bạn nói *về* đối tượng, không phải làm gì *với* đối tượng.",
+      "contrasts": [
+        {
+          "pattern": "N + 에 관한 N · N + 에 관해(서)",
+          "diff_vi": "Gần nghĩa. `에 관한` hơi sách vở, hay đi với tài liệu (`환경에 관한 보고서`)."
+        },
+        {
+          "pattern": "N + 을/를 + V",
+          "diff_vi": "Có thể nói thẳng `이 문제를 생각한다`, nhưng với «bàn về một chủ đề» thì `에 대해` là cách chuẩn."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) `에 대한` không đứng trước động từ: ✗ `재택근무에 대한 생각한다` → ✓ `재택근무에 대해 생각한다`.\n(2) Nhầm `에 대해` (về) với `에게/에` (cho, ở).\n(3) Viết `에 대한 대해` hay `에 대해한` ✗ — chỉ chọn một: `에 대한 + N` hoặc `에 대해 + V`.",
+      "example_ko": "‘배달 앱’에 대한 자신의 생각을 쓰시오.\n저출산 문제에 대해 이야기해 보자.\n환경 보호에 대한 관심이 높아지고 있다.",
+      "example_vi": "Hãy viết suy nghĩ của bạn về «ứng dụng giao đồ ăn».\nHãy cùng nói về vấn đề tỉ lệ sinh thấp.\nSự quan tâm đến việc bảo vệ môi trường đang tăng lên.",
+      "topik_tip_vi": "Câu cuối của dòng dẫn gần như luôn là `…에 대한 자신의 생각을 쓰라`. Từ `생각` ở đây là **ý kiến của bạn có lý do**, không phải cảm nghĩ cá nhân.",
+      "importance": "normal"
+    },
+    {
+      "pattern": "V + -기 위해(서) · V + -기 위한 N",
+      "meaning_vi": "Để … (mục đích của hành động)",
+      "usage_context_vi": "**Cấu tạo:** Động từ + `-기 위해(서)`: 해결하다 → `해결하기 위해서`. Danh từ + `을/를 위해(서)`: `건강을 위해서`. Bổ nghĩa danh từ: `-기 위한 + N` (`해결하기 위한 방안`). Vế sau là hành động có chủ ý: `노력해야 한다`, `필요하다`, `마련한다`.\n**Hoàn cảnh dùng:** Câu mở đoạn **giải pháp** (gạch thứ ba của đề thường hỏi cách giải quyết): `이 문제를 줄이기 위해서는 … 이/가 필요하다.` Cũng dùng trong đề: `해결하기 위해 어떤 노력이 필요한가?`\n**Vì sao chọn nó:** văn nghị luận thích `-기 위해서는 … -아/어야 한다` hơn `-(으)려면 …` vì trang trọng và rõ mục đích. Thêm `는` (위해서는) để nhấn «muốn làm được thì phải …».",
+      "contrasts": [
+        {
+          "pattern": "V + -(으)려면",
+          "diff_vi": "`-(으)려면` = «nếu muốn …»: nhấn điều kiện; nghe gần lời nói hơn. `-기 위해서는` trang trọng, hợp với đề thi."
+        },
+        {
+          "pattern": "V + -도록",
+          "diff_vi": "`-도록` = «để cho …»: hai vế có thể khác chủ ngữ (`누구나 쓸 수 있도록 제도를 마련한다`)."
+        },
+        {
+          "pattern": "V + -아/어서",
+          "diff_vi": "Chỉ nguyên nhân hoặc trình tự, không chỉ mục đích."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Hai vế phải **cùng chủ ngữ** với `-기 위해`: ✗ `내가 합격하기 위해 선생님이 도와주셨다`.\n(2) Với tính từ, `-기 위해` nghe gượng: ✗ `건강하기 위해` → ✓ `건강해지기 위해` (đổi sang động từ) hoặc `건강을 위해`.\n(3) Khi nêu giải pháp (ý kiến của bạn), vế sau nên là `필요하다 / -아/어야 한다 / -는 것이 좋다`, không kể chuyện quá khứ (`노력했다`).",
+      "example_ko": "이 문제를 해결하기 위해서는 정부의 지원이 필요하다.\n쓰레기를 줄이기 위해 다시 쓸 수 있는 용기를 사용한다.\n건강을 지키기 위한 가장 쉬운 방법은 걷기이다.",
+      "example_vi": "Để giải quyết vấn đề này thì cần sự hỗ trợ của chính phủ.\nDùng hộp có thể dùng lại để giảm rác.\nCách dễ nhất để giữ gìn sức khỏe là đi bộ.",
+      "topik_tip_vi": "Gạch thứ ba của đề 54 hầu như luôn hỏi **cách làm** (`어떻게 해야 하는가?`, `어떤 노력이 필요한가?`). Câu trả lời đầu đoạn gần như chắc chắn là `…기 위해서는 … 이/가 필요하다.`",
+      "importance": "must"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài",
+      "body": "Sau bài này bạn làm được bốn việc:\n① nói được câu 54 là gì và được chấm những gì;\n② đọc một đề 54 trong 90 giây, tách thành «đoạn dẫn + các câu hỏi»;\n③ đổi từng câu hỏi thành một **câu trả lời** (câu mở đoạn) bằng 3 bước;\n④ nhận ra 4 dạng đề hay gặp để chọn khuôn đúng.\nBạn chưa cần viết cả bài. Bài này chỉ dạy **đọc đề** và **viết 3 câu đầu**: ai làm được việc này thì phần còn lại chỉ là mở rộng từng câu.",
+      "kind": "goal"
+    },
+    {
+      "title": "Câu 54 chấm gì? (đã đối chiếu nguồn)",
+      "body": "Câu 54 chiếm **50 trên 100 điểm** của phần Viết (4 câu: 10 + 10 + 30 + 50) và yêu cầu **600–700 chữ**.\nBảng đánh giá câu 53–54 của kỳ thi có **ba nhóm tiêu chí** (đã đối chiếu với hướng dẫn của KAIST và với giáo trình luyện thi): ① *nội dung và hoàn thành yêu cầu* (làm đúng nhiệm vụ của đề, nội dung phong phú, cấu trúc câu đa dạng); ② *cấu trúc triển khai* (bố cục rõ, logic, dùng từ nối đúng chỗ); ③ *sử dụng ngôn ngữ* (từ vựng và ngữ pháp **đúng và đa dạng**, đúng độ trang trọng của văn viết).\nVề điểm: một số sách và trang luyện thi nêu tỉ trọng **12 · 12 · 26** cho câu 54, tức là ngôn ngữ nặng nhất. Haru **chưa tìm được bảng điểm chính thức** để xác nhận con số này, nên hãy xem nó là *ước lượng*. Điều chắc chắn hơn: một bài đơn giản mà đúng ngữ pháp và đủ ý ăn điểm hơn một bài dài mà sai.",
+      "kind": "fact"
+    },
+    {
+      "title": "Dòng lệnh thật của đề 54",
+      "body": "Dòng lệnh trong các đề thi thật gần đây (ví dụ đợt 96 và 102): `※ [54] 다음을 참고하여 600~700자로 글을 쓰시오. 단, 문제를 그대로 옮겨 쓰지 마시오. (50점)`.\nCó ba điều phải nhớ: ① **600–700 chữ**; ② **không chép lại đề** (tự diễn đạt lại bằng từ của mình, bài 5 sẽ dạy); ③ **đề 54 không yêu cầu tiêu đề** (dòng `글의 제목은 쓰지 마시오` chỉ có ở câu 53), nên vào thẳng đoạn mở bài, đừng tốn chữ cho tiêu đề.\nNhà tổ chức không công bố chi tiết bị trừ bao nhiêu điểm khi chép đề hoặc thiếu chữ, vì vậy cách an toàn là: **không chép đề, không tiêu đề, nhắm 620–700 chữ**. Vài đề thi thử dùng dòng lệnh hơi khác (ví dụ `다음을 주제로 하여 자신의 생각을 600~700자로 쓰시오`) nhưng vẫn là 600–700 chữ.",
+      "kind": "fact"
+    },
+    {
+      "title": "Đọc đề trong 90 giây: bốn việc",
+      "body": "① **Gạch dưới đoạn dẫn.** Nó nói hiện tượng gì? Ghi 1 từ khoá (ví dụ: `배달 앱`).\n② **Đánh số các gạch đầu dòng ①②③.** Mỗi gạch sẽ thành *một đoạn* của bài.\n③ **Ghi loại câu hỏi cạnh mỗi gạch**: lợi / hại / nguyên nhân / ảnh hưởng / giải pháp / tán thành hay phản đối.\n④ **Ghi 1–2 từ khoá tiếng Hàn đã biết** cạnh mỗi gạch (ví dụ: 시간, 비용, 환경).\nLưu ý: đề thường có **ba** gạch, nhưng có đề thi thử chỉ có hai. Nếu chỉ có hai gạch, bạn vẫn viết mở bài, hai đoạn thân và kết bài. Quy tắc không đổi: **bỏ sót một gạch là mất cả một đoạn nội dung**.",
+      "kind": "language"
+    },
+    {
+      "title": "Biến câu hỏi thành câu trả lời: 3 bước",
+      "body": "Ví dụ đề (tự soạn): *Số người dùng ứng dụng giao đồ ăn đang tăng nhanh. Hãy viết suy nghĩ của bạn về «việc dùng ứng dụng giao đồ ăn» theo ba câu hỏi: ① 배달 앱 이용의 장점은 무엇인가? ② 배달 앱 이용이 늘면서 어떤 문제가 생기는가? ③ 그 문제를 줄이기 위해 소비자와 사회는 어떤 노력을 해야 하는가?*\n**Bước 1.** Tìm *chủ đề của câu hỏi*, tức cụm đứng trước `은/는` hoặc `이/가`: `배달 앱 이용의 장점`.\n**Bước 2.** Giữ nguyên cụm đó làm *chủ ngữ* của câu trả lời.\n**Bước 3.** Thay `무엇인가?` bằng *vị ngữ trả lời* theo bảng dưới. Đuôi `-(으)ㄴ/는가?` đổi thành `-다`.\n① `…의 장점은 무엇인가?` → `…의 장점은 크게 두 가지이다.`\n② `…이 늘면서 어떤 문제가 생기는가?` → `…이 늘면서 여러 가지 문제가 생기고 있다.`\n③ `…하기 위해 어떤 노력을 해야 하는가?` → `…하기 위해서는 …이/가 함께 노력해야 한다.`\nVậy ba câu mở đoạn của đề trên là: `배달 앱 이용의 장점은 크게 두 가지이다.` · `배달 앱 이용이 늘면서 여러 가지 문제가 생기고 있다.` · `이러한 문제를 줄이기 위해서는 소비자와 사회가 함께 노력해야 한다.`",
+      "kind": "language"
+    },
+    {
+      "title": "Sáu cặp «câu hỏi → câu trả lời» cần thuộc",
+      "body": "① `…의 장점은 무엇인가?` → `…의 장점은 크게 두 가지이다.`\n② `…의 문제점은 무엇인가?` → `…에는 다음과 같은 문제점이 있다.`\n③ `…의 원인은 무엇인가?` → `…의 원인은 크게 두 가지이다.` (hoặc `…의 원인은 …에 있다.`)\n④ `…은/는 어떤 영향을 미치는가?` → `…은/는 …에 …한 영향을 미친다.`\n⑤ `…하려면 어떻게 해야 하는가?` hoặc `어떤 노력이 필요한가?` → `…기 위해서는 …이/가 필요하다.` hoặc `…아/어야 한다.`\n⑥ `…에 찬성하는가, 반대하는가?` → `…에 찬성한다.` hoặc `…에 반대한다.` rồi `그 이유는 …기 때문이다.`\nThuộc sáu cặp này là bạn đã có «cái đầu» của gần như mọi đoạn thân bài.",
+      "kind": "language"
+    },
+    {
+      "title": "Bốn dạng đề hay gặp (Haru phân loại từ đề thật và đề thi thử đã có)",
+      "body": "Dạng A. **Lợi – hại – giải pháp.** Ba gạch: ưu điểm / vấn đề / cách giải quyết. Ví dụ chủ đề đã gặp: sự tự chủ của cá nhân ở nơi làm việc (đề thật đợt 96).\nDạng B. **Bối cảnh – vấn đề – giải pháp.** Gạch 1 hỏi đang được dùng ra sao, gạch 2 hỏi ai gặp khó khăn gì, gạch 3 hỏi cách giải quyết. Ví dụ: thiết bị kỹ thuật số và những người bị bỏ lại phía sau (đề thật đợt 102).\nDạng C. **Vấn đề – nguyên nhân – giải pháp.** Ví dụ: tỉ lệ sinh thấp, nghiện mua sắm (đề thi thử).\nDạng D. **Tán thành / phản đối.** Gạch cuối hỏi bạn đứng về phía nào và vì sao; cần *căn cứ* (ví dụ: hạn chế mạng xã hội với thanh thiếu niên, đề thi thử).\nBiến thể hay gặp: ở gạch cuối, đề có thể hỏi **hình thái đúng đắn** (`바람직한 …`) thay vì cách giải quyết, ví dụ cạnh tranh trong giáo dục học đường (đề thật đợt 108). Bài 6 dạy khung cho gạch này.\nĐây là cách Haru phân loại để bạn chọn khuôn nhanh, **không phải** phân loại chính thức của kỳ thi. Các bài 3–6 dạy cách mở rộng từng loại.",
+      "kind": "language"
+    },
+    {
+      "title": "Bốn lỗi người mới hay mắc ở bước đọc đề",
+      "body": "① **Chép lại câu hỏi làm câu trả lời** (`장점은 무엇인가?`). Phải đổi `-(으)ㄴ/는가?` thành `-다`.\n② **Dùng đuôi nói** (`두 가지예요`, `있어요`). Văn viết dùng 한다체: `두 가지이다`, `있다`.\n③ **Bỏ sót một gạch đầu dòng** vì chỉ đọc đoạn dẫn.\n④ **Trả lời nhầm câu**: câu hỏi hỏi *vấn đề* mà bạn lại viết *ưu điểm*. Hãy ghi loại câu hỏi ngay cạnh mỗi gạch trước khi viết.",
+      "kind": "pitfall"
+    }
+  ],
+  "bank": "viet54",
+  "coach": {
+    "focus_vi": [
+      "Học thuộc sáu cặp «câu hỏi → câu trả lời»: câu hỏi kết bằng `-(으)ㄴ/는가?`, câu trả lời kết bằng `-다`; câu giải pháp dùng `-기 위해서는`.",
+      "Làm các bài trắc nghiệm đọc đề và bài xếp câu cho đến khi không cần nhìn bảng.",
+      "Cuối bài, tự lấy một đề 54 bất kỳ, gạch đề trong 90 giây và viết 3 câu mở đoạn."
+    ],
+    "watch_out_vi": [
+      "Nhớ đổi `-(으)ㄴ/는가?` thành `-다`; không chép nguyên câu hỏi.",
+      "Giữ một thể văn duy nhất: 한다체, không `-요`."
+    ],
+    "notebook_vi": [
+      "Sáu cặp câu hỏi → câu trả lời (viết tay).",
+      "Một đề mẫu: ba gạch được ghi loại câu hỏi."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Sáu loại câu hỏi hay gặp ở đề 54 là gì và mỗi loại trả lời mở đầu thế nào?",
+        "answer": "Lợi, hại, nguyên nhân, ảnh hưởng, giải pháp, tán thành hay phản đối; mỗi loại có khuôn trả lời riêng trong ghi chú."
+      },
+      {
+        "prompt_vi": "Vì sao không được chép lại đề?",
+        "answer": "Lệnh đề ghi `문제를 그대로 옮겨 쓰지 마시오`; phải diễn đạt lại bằng từ của mình."
+      }
+    ]
+  },
+  "exercise_ids": [
+    "V42L1",
+    "V42D1",
+    "V42D2",
+    "V42R1",
+    "V42R2",
+    "V42R3",
+    "V42R4",
+    "V42R5",
+    "V42R6",
+    "V42R7",
+    "V42R8",
+    "V42B1",
+    "V42B2",
+    "V42B3",
+    "V42B4",
+    "V42B5",
+    "V42B6",
+    "V42B7",
+    "V42B8",
+    "V42F1",
+    "V42F2",
+    "V42F3",
+    "V42E1",
+    "RG43",
+    "SP43"
+  ],
+  "editor_notes": [
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "Topic = the lesson's own practice essay (V42E1 온라인 수업). The lesson teaches turning the three bullet questions into answer sentences, so the spoken task asks the same three questions and the plan has the learner number them first. Avoided 스스로/절약하다 (taught in lessons 44/45) in the model; uses lists only cards from 43 or earlier. RG keeps to forms the learner has met; 한다체 is formally taught in lesson 44 but lesson 43 already writes answer sentences in -다."
+    }
+  ]
+}

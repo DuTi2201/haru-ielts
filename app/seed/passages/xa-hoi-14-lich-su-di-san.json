@@ -1,0 +1,219 @@
+{
+  "lesson": "xa-hoi-14-lich-su-di-san",
+  "items": [
+    {
+      "id": "xa-hoi-14-d1",
+      "kind": "dialogue",
+      "title_ko": "고궁 해설 프로그램",
+      "title_vi": "Chương trình thuyết minh cố cung",
+      "scene_vi": "Hai người bạn bàn chuyện cùng đi nghe thuyết minh ở cố cung vào cuối tuần.",
+      "speakers": {
+        "F": "수아",
+        "M": "도현"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "이번 주말에 고궁에서 하는 해설 프로그램에 같이 갈래요?",
+          "vi": "Cuối tuần này bạn có đi nghe chương trình thuyết minh ở cố cung cùng tôi không?"
+        },
+        {
+          "who": "M",
+          "ko": "좋아요. 무슨 내용을 알려 주는데요?",
+          "vi": "Được thôi. Chương trình giới thiệu nội dung gì vậy?"
+        },
+        {
+          "who": "F",
+          "ko": "조선 시대부터 지금에 이르기까지 궁궐이 어떻게 달라졌는지 설명해 준대요.",
+          "vi": "Nghe nói họ giải thích cung điện đã thay đổi thế nào từ thời Joseon cho đến nay."
+        },
+        {
+          "who": "M",
+          "ko": "궁궐이 전쟁으로 말미암아 많이 훼손되었다는 이야기는 들어 봤어요.",
+          "vi": "Tôi từng nghe chuyện cung điện bị hư hại nhiều do chiến tranh."
+        },
+        {
+          "who": "F",
+          "ko": "맞아요. 그래서 복원 작업이 여러 해에 걸쳐 이루어졌대요.",
+          "vi": "Đúng vậy. Vì thế công việc phục dựng đã diễn ra suốt nhiều năm."
+        },
+        {
+          "who": "M",
+          "ko": "그럼 지금 건물이 모두 원래 모습은 아니겠네요.",
+          "vi": "Vậy thì các công trình hiện giờ không phải tất cả đều ở dạng ban đầu nhỉ."
+        },
+        {
+          "who": "F",
+          "ko": "그래서 옛 기록에 비추어 원형을 확인하는 일이 중요하대요.",
+          "vi": "Vì vậy việc đối chiếu với tư liệu xưa để xác nhận hình dạng gốc rất quan trọng."
+        },
+        {
+          "who": "M",
+          "ko": "근처 유적에서 나온 유물도 조선 시대의 것으로 추정된다고 하던데, 그것도 볼 수 있을까요?",
+          "vi": "Nghe nói các di vật tìm thấy ở di tích gần đó cũng được phỏng đoán là của thời Joseon, mình có xem được không?"
+        },
+        {
+          "who": "F",
+          "ko": "해설사께 물어보면 알려 주실 거예요.",
+          "vi": "Hỏi hướng dẫn viên thì họ sẽ chỉ cho bạn."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "N + 에 걸쳐 · N + 에 이르기까지 · N + 이래(로)",
+          "regex": "이르기까지"
+        },
+        {
+          "pattern": "N + (으)로 말미암아 · N + 에 비추어(서) · N + 을/를 거쳐(서)",
+          "regex": "말미암아"
+        },
+        {
+          "pattern": "V + -(으)ㄴ 것으로 추정되다 · V + -(으)ㄴ 것으로 전해지다 · N + (으)로 일컬어지다",
+          "regex": "추정된다고"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "유적",
+          "seen": "유적에서"
+        },
+        {
+          "word": "훼손",
+          "seen": "훼손되었다는"
+        },
+        {
+          "word": "원형",
+          "seen": "원형을"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Chương trình thuyết minh giới thiệu nội dung gì?",
+          "options": [
+            "Cung điện thay đổi thế nào từ Joseon đến nay",
+            "Tiền lương của người làm trong cung",
+            "Cách so sánh giá cung điện các nước"
+          ],
+          "answer": 0,
+          "explain_vi": "Nữ nói «조선 시대부터 지금에 이르기까지 궁궐이 어떻게 달라졌는지»."
+        },
+        {
+          "q_vi": "Công việc phục dựng được tiến hành thế nào?",
+          "options": [
+            "Diễn ra suốt nhiều năm",
+            "Xong trong một ngày",
+            "Chưa bắt đầu"
+          ],
+          "answer": 0,
+          "explain_vi": "Nữ nói «복원 작업이 여러 해에 걸쳐 이루어졌대요»."
+        },
+        {
+          "q_vi": "Khi xác nhận hình dạng gốc của công trình, người ta dựa vào gì?",
+          "options": [
+            "Tư liệu xưa",
+            "Số lượng khách tham quan",
+            "Ảnh chụp hiện đại"
+          ],
+          "answer": 0,
+          "explain_vi": "Nữ nói «옛 기록에 비추어 원형을 확인하는 일»."
+        }
+      ]
+    },
+    {
+      "id": "xa-hoi-14-r1",
+      "kind": "reading",
+      "title_ko": "훈민정음과 한글",
+      "title_vi": "Hunminjeongeum và Hangeul",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "훈민정음은 세종이 1443년에 창제하고 1446년에 반포한 문자이다.",
+          "vi": "Hunminjeongeum là văn tự do vua Sejong sáng chế năm 1443 và ban bố năm 1446."
+        },
+        {
+          "who": "N",
+          "ko": "당시에는 한자를 읽고 쓸 수 있는 사람이 주로 지배층이었다.",
+          "vi": "Lúc đó người đọc viết được chữ Hán chủ yếu là tầng lớp thống trị."
+        },
+        {
+          "who": "N",
+          "ko": "훈민정음이 반포된 이래로 한글은 오랜 기간에 걸쳐 널리 쓰이게 되었다.",
+          "vi": "Kể từ khi Hunminjeongeum được ban bố, Hangeul đã dần được dùng rộng rãi trong một thời gian dài."
+        },
+        {
+          "who": "N",
+          "ko": "1997년에는 훈민정음 해례본이 유네스코 세계기록유산으로 등재되었다.",
+          "vi": "Năm 1997, bản Haerye của Hunminjeongeum được UNESCO ghi danh Di sản tư liệu thế giới."
+        },
+        {
+          "who": "N",
+          "ko": "한글날은 이 문자의 반포를 기념하는 날로, 1991년에 공휴일에서 제외되었다가 2013년부터 다시 공휴일이 되었다.",
+          "vi": "Ngày Hangeul là ngày kỷ niệm việc ban bố văn tự này; bị bỏ khỏi ngày nghỉ năm 1991 rồi từ năm 2013 lại thành ngày nghỉ."
+        },
+        {
+          "who": "N",
+          "ko": "이처럼 한글은 백성을 위해 만든 문자로 일컬어지며 문화유산으로서의 가치를 인정받고 있다.",
+          "vi": "Như vậy Hangeul được gọi là văn tự tạo ra vì dân và được công nhận giá trị như một di sản văn hoá."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "N + 에 걸쳐 · N + 에 이르기까지 · N + 이래(로)",
+          "regex": "이래로"
+        },
+        {
+          "pattern": "V + -(으)ㄴ 것으로 추정되다 · V + -(으)ㄴ 것으로 전해지다 · N + (으)로 일컬어지다",
+          "regex": "일컬어지며"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "훈민정음",
+          "seen": "훈민정음은"
+        },
+        {
+          "word": "창제",
+          "seen": "창제하고"
+        },
+        {
+          "word": "반포",
+          "seen": "반포한"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Hunminjeongeum được sáng chế và ban bố khi nào?",
+          "options": [
+            "Sáng chế năm 1443, ban bố năm 1446",
+            "Sáng chế năm 1446, ban bố năm 1443",
+            "Cả hai cùng năm 1443"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 1: «1443년에 창제하고 1446년에 반포»."
+        },
+        {
+          "q_vi": "Ngày Hangeul hiện nay thế nào?",
+          "options": [
+            "Từ năm 2013 lại là ngày nghỉ",
+            "Chưa bao giờ là ngày nghỉ",
+            "Bị bãi bỏ vĩnh viễn"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 5: «2013년부터 다시 공휴일»."
+        },
+        {
+          "q_vi": "Theo bài, Hangeul hiện được nhìn nhận thế nào?",
+          "options": [
+            "Được gọi là văn tự vì dân và được công nhận giá trị di sản",
+            "Chỉ dùng trong giới học giả",
+            "Đã ngừng được sử dụng"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 6: «백성을 위해 만든 문자로 일컬어지며 … 가치를 인정받고 있다»."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "lesson": "cong-so-01-tuyen-dung-hop-dong",
+  "items": [
+    {
+      "id": "cong-so-01-d1",
+      "kind": "dialogue",
+      "title_ko": "면접을 앞두고",
+      "title_vi": "Trước buổi phỏng vấn",
+      "scene_vi": "Hai người bạn nói chuyện. Tuấn vừa được mời đi phỏng vấn, Minji hỏi thăm.",
+      "speakers": {
+        "F": "민지",
+        "M": "투안"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "투안 씨, 지난주에 지원한 회사에서 연락이 왔어요?",
+          "vi": "Anh Tuấn, công ty anh nộp đơn tuần trước đã liên lạc chưa?"
+        },
+        {
+          "who": "M",
+          "ko": "네, 서류 전형에 합격해서 다음 주에 면접을 봐요.",
+          "vi": "Rồi, tôi đỗ vòng hồ sơ nên tuần sau đi phỏng vấn."
+        },
+        {
+          "who": "F",
+          "ko": "축하해요! 그 회사는 어때요?",
+          "vi": "Chúc mừng anh! Công ty đó thế nào?"
+        },
+        {
+          "who": "M",
+          "ko": "월급이 많을 뿐만 아니라 복리후생도 좋대요.",
+          "vi": "Nghe nói lương cao mà phúc lợi cũng tốt."
+        },
+        {
+          "who": "F",
+          "ko": "그런데 일은 힘들지 않을까요?",
+          "vi": "Nhưng việc có vất vả không nhỉ?"
+        },
+        {
+          "who": "M",
+          "ko": "야근이 많은 대신 휴가를 마음대로 쓸 수 있대요.",
+          "vi": "Nghe nói đổi lại việc làm đêm nhiều thì được nghỉ phép thoải mái."
+        },
+        {
+          "who": "F",
+          "ko": "면접 준비는 잘하고 있어요?",
+          "vi": "Anh chuẩn bị phỏng vấn thế nào rồi?"
+        },
+        {
+          "who": "M",
+          "ko": "이력서와 자기소개서를 다시 읽으면서 연습하고 있어요. 꼭 입사하고 싶어요.",
+          "vi": "Tôi vừa đọc lại sơ yếu lý lịch và thư tự giới thiệu vừa luyện tập. Tôi rất muốn vào công ty đó."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V/A + -(으)ㄹ 뿐만 아니라 · N + 뿐만 아니라",
+          "regex": "많을 뿐만 아니라"
+        },
+        {
+          "pattern": "V/A + -는 대신(에) · N + 대신(에)",
+          "regex": "많은 대신"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "서류 전형",
+          "seen": "서류 전형에"
+        },
+        {
+          "word": "합격하다",
+          "seen": "합격해서"
+        },
+        {
+          "word": "면접",
+          "seen": "면접을"
+        },
+        {
+          "word": "월급",
+          "seen": "월급이"
+        },
+        {
+          "word": "복리후생",
+          "seen": "복리후생도"
+        },
+        {
+          "word": "이력서",
+          "seen": "이력서와"
+        },
+        {
+          "word": "자기소개서",
+          "seen": "자기소개서를"
+        },
+        {
+          "word": "입사하다",
+          "seen": "입사하고"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "야근",
+          "vi": "làm thêm buổi tối hoặc ban đêm"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Công ty mà anh Tuấn sắp phỏng vấn có ưu điểm gì?",
+          "options": [
+            "Lương cao và phúc lợi tốt",
+            "Gần nhà và ít việc",
+            "Không phải làm thêm buổi tối"
+          ],
+          "answer": 0,
+          "explain_vi": "Anh nói «월급이 많을 뿐만 아니라 복리후생도 좋대요»."
+        },
+        {
+          "q_vi": "Anh Tuấn đang chuẩn bị phỏng vấn như thế nào?",
+          "options": [
+            "Hỏi bạn về công ty",
+            "Đọc lại hồ sơ và luyện tập",
+            "Xin nghỉ phép"
+          ],
+          "answer": 1,
+          "explain_vi": "Anh nói đang «다시 읽으면서 연습하고 있어요»."
+        }
+      ]
+    },
+    {
+      "id": "cong-so-01-r1",
+      "kind": "reading",
+      "title_ko": "계약서를 쓰기 전에",
+      "title_vi": "Trước khi ký hợp đồng",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "저는 지난달에 작은 무역 회사에 계약직으로 취업했어요.",
+          "vi": "Tháng trước tôi xin được việc ở một công ty thương mại nhỏ với vị trí hợp đồng."
+        },
+        {
+          "who": "N",
+          "ko": "월급이 적은 대신 퇴근 시간이 정확해서 만족해요.",
+          "vi": "Đổi lại lương thấp, giờ tan làm đúng giờ nên tôi hài lòng."
+        },
+        {
+          "who": "N",
+          "ko": "일을 시작하기 전에 근로 계약서를 꼼꼼히 읽었어요.",
+          "vi": "Trước khi bắt đầu làm việc, tôi đã đọc kỹ hợp đồng lao động."
+        },
+        {
+          "who": "N",
+          "ko": "계약서에는 월급뿐만 아니라 근무 시간과 쉬는 날도 적혀 있었어요.",
+          "vi": "Trong hợp đồng ghi không chỉ lương mà cả giờ làm và ngày nghỉ."
+        },
+        {
+          "who": "N",
+          "ko": "일이 많음에도 불구하고 동료들이 친절해서 힘들지 않아요.",
+          "vi": "Dù việc nhiều, các đồng nghiệp thân thiện nên tôi không thấy vất vả."
+        },
+        {
+          "who": "N",
+          "ko": "내년에는 정규직으로 일할 수 있기를 바라고 있어요.",
+          "vi": "Tôi hy vọng sang năm có thể làm nhân viên chính thức."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V/A + -는 대신(에) · N + 대신(에)",
+          "regex": "적은 대신"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 뿐만 아니라 · N + 뿐만 아니라",
+          "regex": "월급뿐만 아니라"
+        },
+        {
+          "pattern": "N + 에도 불구하고 · V/A + -(으)ㄴ/는데도 불구하고",
+          "regex": "많음에도 불구하고"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "취업하다",
+          "seen": "취업했어요"
+        },
+        {
+          "word": "계약직",
+          "seen": "계약직으로"
+        },
+        {
+          "word": "월급",
+          "seen": "월급이"
+        },
+        {
+          "word": "근로 계약서",
+          "seen": "근로 계약서를"
+        },
+        {
+          "word": "정규직",
+          "seen": "정규직으로"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "꼼꼼히",
+          "vi": "kỹ lưỡng, cẩn thận"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Vì sao người viết hài lòng với công ty?",
+          "options": [
+            "Lương cao nhưng giờ làm không cố định",
+            "Lương thấp nhưng tan làm đúng giờ",
+            "Việc ít và đồng nghiệp trẻ"
+          ],
+          "answer": 1,
+          "explain_vi": "Câu 2: «월급이 적은 대신 퇴근 시간이 정확해서 만족해요»."
+        },
+        {
+          "q_vi": "Hợp đồng lao động có ghi những gì?",
+          "options": [
+            "Chỉ ghi tiền lương",
+            "Lương, giờ làm và ngày nghỉ",
+            "Chỉ ghi ngày vào công ty"
+          ],
+          "answer": 1,
+          "explain_vi": "Câu 4: không chỉ lương mà còn giờ làm và ngày nghỉ."
+        }
+      ]
+    }
+  ]
+}

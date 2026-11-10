@@ -1,0 +1,234 @@
+{
+  "lesson": "xa-hoi-09-tuc-ngu-va-tu-han",
+  "items": [
+    {
+      "id": "xa-hoi-09-d1",
+      "kind": "dialogue",
+      "title_ko": "휴가 비용 계획",
+      "title_vi": "Lên kế hoạch chi phí đi nghỉ",
+      "scene_vi": "Hai đồng nghiệp trò chuyện về tiền đi nghỉ hè và rút kinh nghiệm từ lần trước.",
+      "speakers": {
+        "F": "지은",
+        "M": "태호"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "태호 씨, 여름휴가 때 쓸 돈은 좀 모았어요?",
+          "vi": "Taeho, anh đã để dành được ít tiền cho kỳ nghỉ hè chưa?"
+        },
+        {
+          "who": "M",
+          "ko": "네, 티끌 모아 태산이라고 매달 조금씩 모았어요.",
+          "vi": "Rồi, góp nhỏ thành lớn nên mỗi tháng tôi để dành một chút."
+        },
+        {
+          "who": "F",
+          "ko": "저는 작년에 관광지에서 바가지를 써서 돈을 많이 썼어요.",
+          "vi": "Năm ngoái tôi bị chặt chém ở khu du lịch nên tốn nhiều tiền."
+        },
+        {
+          "who": "M",
+          "ko": "아, 그런 일이 있었군요.",
+          "vi": "À, đã có chuyện như vậy."
+        },
+        {
+          "who": "F",
+          "ko": "소 잃고 외양간 고친다지만 올해는 가격을 미리 비교해 보려고요.",
+          "vi": "Mất bò mới lo làm chuồng, nhưng năm nay tôi định so sánh giá trước."
+        },
+        {
+          "who": "M",
+          "ko": "좋은 생각이에요. 저는 숙소도 앞뒤를 재어 보고 예약할 생각이에요.",
+          "vi": "Ý hay đó. Tôi cũng định cân nhắc kỹ rồi mới đặt chỗ ở."
+        },
+        {
+          "who": "F",
+          "ko": "고생 끝에 낙이 온다고 열심히 준비한 만큼 즐거운 여행이 될 거예요.",
+          "vi": "Khổ tận cam lai, chuẩn bị kỹ bao nhiêu thì chuyến đi sẽ vui bấy nhiêu."
+        },
+        {
+          "who": "M",
+          "ko": "맞아요. 이번에는 일석이조로 휴식도 하고 공부도 할 수 있는 도시로 가려고요.",
+          "vi": "Đúng vậy. Lần này tôi định đi thành phố vừa nghỉ ngơi vừa học được, một công đôi việc."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "속담 ③: 노력·협력·시야: 티끌 모아 태산 · 백지장도 맞들면 낫다 · 고생 끝에 낙이 온다 · 우물 안 개구리",
+          "regex": "티끌 모아 태산이라고"
+        },
+        {
+          "pattern": "상황 표현: 시치미를 떼다 · 바가지를 쓰다 · 미역국을 먹다 · 앞뒤를 재다 · 오지랖이 넓다 · 식은 죽 먹기 · 하늘의 별 따기",
+          "regex": "바가지를 써서"
+        },
+        {
+          "pattern": "속담 ②: 준비와 실수: 소 잃고 외양간 고친다 · 돌다리도 두들겨 보고 건너라 · 원숭이도 나무에서 떨어진다 · 등잔 밑이 어둡다",
+          "regex": "소 잃고 외양간 고친다지만"
+        },
+        {
+          "pattern": "사자성어 ①: 상황: 일석이조 · 설상가상 · 동문서답 · 이심전심 · 자업자득",
+          "regex": "일석이조로"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "티끌 모아 태산",
+          "seen": "티끌 모아 태산이라고"
+        },
+        {
+          "word": "바가지를 쓰다",
+          "seen": "바가지를 써서"
+        },
+        {
+          "word": "소 잃고 외양간 고친다",
+          "seen": "소 잃고 외양간 고친다지만"
+        },
+        {
+          "word": "앞뒤를 재다",
+          "seen": "앞뒤를 재어"
+        },
+        {
+          "word": "일석이조",
+          "seen": "일석이조로"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Taeho đã làm gì để có tiền đi nghỉ?",
+          "options": [
+            "Mỗi tháng để dành một ít",
+            "Vay tiền bạn bè",
+            "Bán xe"
+          ],
+          "answer": 0,
+          "explain_vi": "Nam nói «매달 조금씩 모았어요»."
+        },
+        {
+          "q_vi": "Năm ngoái Jieun gặp chuyện gì?",
+          "options": [
+            "Bị lỡ chuyến bay",
+            "Bị chặt chém ở khu du lịch",
+            "Mất hành lý"
+          ],
+          "answer": 1,
+          "explain_vi": "Nữ nói «관광지에서 바가지를 써서»."
+        },
+        {
+          "q_vi": "Năm nay Jieun định làm gì?",
+          "options": [
+            "So sánh giá trước",
+            "Không đi nữa",
+            "Đi theo tour"
+          ],
+          "answer": 0,
+          "explain_vi": "Nữ nói «가격을 미리 비교해 보려고요»."
+        }
+      ]
+    },
+    {
+      "id": "xa-hoi-09-r1",
+      "kind": "reading",
+      "title_ko": "속담이 전하는 지혜",
+      "title_vi": "Trí tuệ trong tục ngữ",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "속담은 오랜 경험에서 나온 지혜를 짧게 담은 말이다.",
+          "vi": "Tục ngữ là lời ngắn gọn chứa trí tuệ từ kinh nghiệm lâu đời."
+        },
+        {
+          "who": "N",
+          "ko": "예를 들어 ‘티끌 모아 태산’은 작은 노력도 쌓이면 큰 결과가 된다는 뜻이다.",
+          "vi": "Ví dụ «Góp nhỏ thành lớn» nghĩa là nỗ lực nhỏ tích lại cũng thành kết quả lớn."
+        },
+        {
+          "who": "N",
+          "ko": "‘돌다리도 두들겨 보고 건너라’는 안전해 보이는 일도 먼저 확인하라는 충고이다.",
+          "vi": "«Cầu đá cũng gõ thử rồi mới qua» là lời khuyên kiểm tra trước cả việc có vẻ an toàn."
+        },
+        {
+          "who": "N",
+          "ko": "‘고생 끝에 낙이 온다’는 말은 힘든 시간을 견디는 사람에게 용기를 준다.",
+          "vi": "Câu «khổ tận cam lai» cho người đang chịu đựng thêm dũng khí."
+        },
+        {
+          "who": "N",
+          "ko": "한자로 된 ‘일석이조’ 같은 사자성어도 짧은 표현에 상황을 담는다.",
+          "vi": "Thành ngữ Hán tự như «nhất thạch nhị điểu» cũng gói tình huống trong cách nói ngắn."
+        },
+        {
+          "who": "N",
+          "ko": "이런 표현을 알면 글을 읽는 속도가 빨라지고 내 생각을 힘 있게 전할 수 있다.",
+          "vi": "Biết những cách nói này thì đọc nhanh hơn và truyền đạt ý mình mạnh mẽ hơn."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "속담 ③: 노력·협력·시야: 티끌 모아 태산 · 백지장도 맞들면 낫다 · 고생 끝에 낙이 온다 · 우물 안 개구리",
+          "regex": "티끌 모아 태산"
+        },
+        {
+          "pattern": "속담 ②: 준비와 실수: 소 잃고 외양간 고친다 · 돌다리도 두들겨 보고 건너라 · 원숭이도 나무에서 떨어진다 · 등잔 밑이 어둡다",
+          "regex": "돌다리도 두들겨 보고 건너라"
+        },
+        {
+          "pattern": "사자성어 ①: 상황: 일석이조 · 설상가상 · 동문서답 · 이심전심 · 자업자득",
+          "regex": "일석이조"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "티끌 모아 태산",
+          "seen": "티끌 모아 태산"
+        },
+        {
+          "word": "돌다리도 두들겨 보고 건너라",
+          "seen": "돌다리도 두들겨 보고 건너라"
+        },
+        {
+          "word": "고생 끝에 낙이 온다",
+          "seen": "고생 끝에 낙이 온다"
+        },
+        {
+          "word": "일석이조",
+          "seen": "일석이조"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Tục ngữ là gì?",
+          "options": [
+            "Lời ngắn chứa trí tuệ từ kinh nghiệm",
+            "Một loại thơ dài",
+            "Luật pháp"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 1: «오랜 경험에서 나온 지혜를 짧게 담은 말»."
+        },
+        {
+          "q_vi": "«돌다리도 두들겨 보고 건너라» khuyên điều gì?",
+          "options": [
+            "Kiểm tra trước cả việc có vẻ an toàn",
+            "Đi thật nhanh",
+            "Bỏ qua cảnh báo"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 3: «먼저 확인하라는 충고»."
+        },
+        {
+          "q_vi": "Biết những cách nói này có lợi gì?",
+          "options": [
+            "Đọc nhanh hơn và diễn đạt mạnh hơn",
+            "Không cần học từ mới",
+            "Viết dài hơn"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu cuối: «읽는 속도가 빨라지고 … 힘 있게 전할 수 있다»."
+        }
+      ]
+    }
+  ]
+}

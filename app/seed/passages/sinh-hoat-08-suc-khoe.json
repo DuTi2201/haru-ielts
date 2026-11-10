@@ -1,0 +1,250 @@
+{
+  "lesson": "sinh-hoat-08-suc-khoe",
+  "items": [
+    {
+      "id": "sinh-hoat-08-d1",
+      "kind": "dialogue",
+      "title_ko": "병원에서",
+      "title_vi": "Ở phòng khám",
+      "scene_vi": "Phòng khám nội khoa. Một bệnh nhân bị cảm đang nói chuyện với bác sĩ.",
+      "speakers": {
+        "F": "환자",
+        "M": "의사"
+      },
+      "lines": [
+        {
+          "who": "M",
+          "ko": "어디가 아프세요?",
+          "vi": "Chị đau ở đâu vậy?"
+        },
+        {
+          "who": "F",
+          "ko": "어제부터 목이 아프고 열이 나요. 감기에 걸린 것 같아요.",
+          "vi": "Từ hôm qua tôi đau họng và bị sốt. Chắc là tôi bị cảm."
+        },
+        {
+          "who": "M",
+          "ko": "감기약을 처방할게요. 밥을 먹고 드세요.",
+          "vi": "Tôi sẽ kê thuốc cảm cho chị. Chị ăn cơm xong rồi hãy uống."
+        },
+        {
+          "who": "F",
+          "ko": "운동을 해도 돼요?",
+          "vi": "Tôi tập thể thao được không?"
+        },
+        {
+          "who": "M",
+          "ko": "감기가 낫기 전에는 운동을 하면 안 돼요. 집에서 쉬는 게 좋아요.",
+          "vi": "Trước khi khỏi cảm thì không được tập thể thao. Chị nên nghỉ ngơi ở nhà."
+        },
+        {
+          "who": "F",
+          "ko": "커피를 마셔도 돼요? 커피는 감기에 나빠요?",
+          "vi": "Tôi uống cà phê được không? Cà phê có hại cho bệnh cảm không?"
+        },
+        {
+          "who": "M",
+          "ko": "따뜻한 차는 감기에 좋아요. 그리고 물을 많이 마시지 않으면 안 돼요.",
+          "vi": "Trà ấm thì tốt cho bệnh cảm. Và chị nhất định phải uống nhiều nước."
+        },
+        {
+          "who": "F",
+          "ko": "알겠어요. 아프니까 건강을 생각하게 됐어요.",
+          "vi": "Tôi hiểu rồi. Bị ốm nên tôi mới bắt đầu nghĩ đến sức khỏe."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -아/어도 되다 · V + -(으)면 안 되다",
+          "regex": "해도 돼요|하면 안 돼요"
+        },
+        {
+          "pattern": "V + -는 게 좋다",
+          "regex": "쉬는 게 좋아요"
+        },
+        {
+          "pattern": "V + -게 되다",
+          "regex": "생각하게 됐어요"
+        },
+        {
+          "pattern": "V + -지 않으면 안 되다",
+          "regex": "마시지 않으면 안 돼요"
+        },
+        {
+          "pattern": "N + 에 좋다 · N + 에 나쁘다",
+          "regex": "감기에 좋아요|감기에 나빠요"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "아프다",
+          "seen": "아프세요"
+        },
+        {
+          "word": "감기",
+          "seen": "감기가"
+        },
+        {
+          "word": "감기약",
+          "seen": "감기약을"
+        },
+        {
+          "word": "낫다",
+          "seen": "낫기"
+        },
+        {
+          "word": "건강",
+          "seen": "건강을"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "처방하다",
+          "vi": "kê đơn",
+          "seen": "처방할게요"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Bác sĩ khuyên bệnh nhân điều gì?",
+          "options": [
+            "Tập thể thao nhẹ",
+            "Đi làm như bình thường",
+            "Nghỉ ngơi ở nhà"
+          ],
+          "answer": 2,
+          "explain_vi": "Bác sĩ nói “집에서 쉬는 게 좋아요” và không cho tập thể thao khi chưa khỏi cảm."
+        },
+        {
+          "q_vi": "Theo bác sĩ, thứ gì tốt cho bệnh cảm?",
+          "options": [
+            "Cà phê",
+            "Trà ấm",
+            "Nước đá"
+          ],
+          "answer": 1,
+          "explain_vi": "“따뜻한 차는 감기에 좋아요”: trà ấm tốt cho bệnh cảm."
+        }
+      ]
+    },
+    {
+      "id": "sinh-hoat-08-r1",
+      "kind": "reading",
+      "title_ko": "잠을 못 자는 날",
+      "title_vi": "Những ngày không ngủ được",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "요즘 저는 일이 많아서 매일 피곤하고 잠도 잘 못 자요.",
+          "vi": "Dạo này việc nhiều nên ngày nào tôi cũng mệt và ngủ cũng không ngon."
+        },
+        {
+          "who": "N",
+          "ko": "지난주에 병원에 갔어요. 의사 선생님이 “저녁에 커피를 마시면 안 돼요.”라고 했어요.",
+          "vi": "Tuần trước tôi đã đến bệnh viện. Bác sĩ nói: “Buổi tối không được uống cà phê.”"
+        },
+        {
+          "who": "N",
+          "ko": "운동은 불면증에 좋아요. 그래서 저녁마다 산책하는 게 좋아요.",
+          "vi": "Tập thể thao tốt cho chứng mất ngủ. Vì thế buổi tối nên đi dạo thì tốt hơn."
+        },
+        {
+          "who": "N",
+          "ko": "저는 요즘 매일 삼십 분씩 걷게 되었어요.",
+          "vi": "Dạo này tôi đã có thói quen đi bộ ba mươi phút mỗi ngày."
+        },
+        {
+          "who": "N",
+          "ko": "약을 먹어도 되지만 운동도 하지 않으면 안 돼요.",
+          "vi": "Uống thuốc cũng được, nhưng nhất định cũng phải tập thể dục."
+        },
+        {
+          "who": "N",
+          "ko": "건강은 정말 중요해요.",
+          "vi": "Sức khỏe thật sự rất quan trọng."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -아/어도 되다 · V + -(으)면 안 되다",
+          "regex": "먹어도 되지만|마시면 안 돼요"
+        },
+        {
+          "pattern": "V + -는 게 좋다",
+          "regex": "산책하는 게 좋아요"
+        },
+        {
+          "pattern": "V + -게 되다",
+          "regex": "걷게 되었어요"
+        },
+        {
+          "pattern": "V + -지 않으면 안 되다",
+          "regex": "하지 않으면 안 돼요"
+        },
+        {
+          "pattern": "N + 에 좋다 · N + 에 나쁘다",
+          "regex": "불면증에 좋아요"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "피곤하다",
+          "seen": "피곤하고"
+        },
+        {
+          "word": "병원",
+          "seen": "병원에"
+        },
+        {
+          "word": "불면증",
+          "seen": "불면증에"
+        },
+        {
+          "word": "운동",
+          "seen": "운동은"
+        },
+        {
+          "word": "약",
+          "seen": "약을"
+        },
+        {
+          "word": "건강",
+          "seen": "건강은"
+        },
+        {
+          "word": "산책",
+          "seen": "산책하는"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "중요하다",
+          "vi": "quan trọng",
+          "seen": "중요해요"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Bác sĩ dặn người viết đừng làm gì?",
+          "options": [
+            "Uống cà phê vào buổi tối",
+            "Đi dạo buổi tối",
+            "Uống thuốc"
+          ],
+          "answer": 0,
+          "explain_vi": "Bác sĩ nói “저녁에 커피를 마시면 안 돼요”: buổi tối không được uống cà phê."
+        },
+        {
+          "q_vi": "Dạo này người viết có thói quen gì?",
+          "options": [
+            "Chơi bóng đá mỗi tối",
+            "Uống trà mỗi sáng",
+            "Đi bộ ba mươi phút mỗi ngày"
+          ],
+          "answer": 2,
+          "explain_vi": "“매일 삼십 분씩 걷게 되었어요”: mỗi ngày đi bộ ba mươi phút."
+        }
+      ]
+    }
+  ]
+}

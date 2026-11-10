@@ -1,0 +1,3001 @@
+[
+ {
+  "article_id_prefix": "0b953458",
+  "level_estimate": 5,
+  "topic_tags": [
+   "già hóa dân số",
+   "lương hưu",
+   "lao động",
+   "chính sách xã hội"
+  ],
+  "unlock_hint": "Nên đọc sau khi học bài «Dân số, an sinh và giáo dục»; bài «Kinh tế: số liệu, thị trường, doanh nghiệp» giúp hiểu phần tài chính và lương hưu.",
+  "vocab": [
+   {
+    "hangul": "초고령사회",
+    "pos": "danh từ",
+    "meaning_vi": "xã hội siêu già (người từ 65 tuổi chiếm từ 20% dân số trở lên)",
+    "definition_ko": "65세 이상 인구가 전체 인구의 20% 이상인 사회",
+    "level": 5,
+    "hanja": "超高齡社會",
+    "sino_vietnamese": "siêu cao linh xã hội",
+    "example_ko": "한국은 2024년 말 초고령사회에 공식 진입했다.",
+    "example_vi": "Cuối năm 2024, Hàn Quốc chính thức bước vào xã hội siêu già.",
+    "usage_note_vi": "Ba nấc thường gặp: 고령화사회 (7%) → 고령사회 (14%) → 초고령사회 (20%). Bài viết dùng đúng các mốc 14% và 20% này.",
+    "register": "văn viết",
+    "collocations": [
+     "초고령사회에 진입하다",
+     "초고령사회에 대비하다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "진입하다",
+    "pos": "động từ",
+    "meaning_vi": "tiến vào, bước vào (một giai đoạn, thị trường)",
+    "definition_ko": "어떤 단계나 영역, 장소에 들어가다",
+    "level": 4,
+    "hanja": "進入",
+    "sino_vietnamese": "tiến nhập",
+    "example_ko": "그 회사는 올해 동남아 시장에 진입했다.",
+    "example_vi": "Công ty đó đã thâm nhập thị trường Đông Nam Á năm nay.",
+    "usage_note_vi": "Hay đi với giai đoạn/thị trường: 시장에 진입하다, 단계에 진입하다. Từ thuần Hàn gần nghĩa là 들어서다 (bài cũng dùng: 고령사회에 들어선 지); 진입하다 trang trọng hơn, hợp với tin tức.",
+    "register": "trang trọng",
+    "collocations": [
+     "시장에 진입하다",
+     "본격적으로 진입하다",
+     "진입 장벽"
+    ],
+    "exam": "topik-4"
+   },
+   {
+    "hangul": "유례",
+    "pos": "danh từ",
+    "meaning_vi": "tiền lệ, trường hợp tương tự từng có",
+    "definition_ko": "같거나 비슷한 예",
+    "level": 5,
+    "hanja": "類例",
+    "sino_vietnamese": "loại lệ",
+    "example_ko": "이번 폭염은 유례를 찾기 어려울 만큼 길게 이어졌다.",
+    "example_vi": "Đợt nắng nóng lần này kéo dài đến mức khó tìm được tiền lệ.",
+    "usage_note_vi": "Gần như chỉ dùng trong cụm phủ định: 유례가 없다, 유례없는 N, 유례를 찾기 어렵다 = chưa từng có. Dùng để nhấn mạnh mức độ bất thường.",
+    "register": "văn viết",
+    "collocations": [
+     "유례가 없다",
+     "유례없는",
+     "유례를 찾기 어렵다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "가속화시키다",
+    "pos": "động từ",
+    "meaning_vi": "đẩy nhanh, làm tăng tốc (một quá trình)",
+    "definition_ko": "어떤 변화나 현상의 속도를 더 빠르게 하다",
+    "level": 5,
+    "hanja": "加速化",
+    "sino_vietnamese": "gia tốc hóa",
+    "example_ko": "저출산이 인구 고령화를 가속화시키고 있다.",
+    "example_vi": "Tỷ lệ sinh thấp đang đẩy nhanh quá trình già hóa dân số.",
+    "usage_note_vi": "Ba dạng: 가속화하다 (chủ động, được khuyến nghị trong văn chuẩn), 가속화시키다 (rất phổ biến trên báo, nghĩa như nhau), 가속화되다 (bị động: được đẩy nhanh). Chủ ngữ thường là nguyên nhân (저출산, 기술 발전…).",
+    "register": "văn viết",
+    "collocations": [
+     "고령화를 가속화시키다",
+     "변화가 가속화되다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "생산가능인구",
+    "pos": "danh từ",
+    "meaning_vi": "dân số trong độ tuổi lao động (15–64 tuổi)",
+    "definition_ko": "일을 할 수 있는 나이인 15세부터 64세까지의 인구",
+    "level": 5,
+    "hanja": "生産可能人口",
+    "sino_vietnamese": "sinh sản khả năng nhân khẩu",
+    "example_ko": "생산가능인구가 줄면 세금을 낼 사람도 줄어든다.",
+    "example_vi": "Khi dân số độ tuổi lao động giảm, số người đóng thuế cũng giảm.",
+    "usage_note_vi": "Lưu ý 생산 đọc Hán-Việt là \"sinh sản\" nhưng nghĩa là \"sản xuất\". Bài gọi nhóm này là \"경제의 허리\" (cái eo, trụ cột của nền kinh tế).",
+    "register": "văn viết",
+    "collocations": [
+     "생산가능인구 비중",
+     "생산가능인구가 감소하다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "위축되다",
+    "pos": "động từ",
+    "meaning_vi": "co lại, chững lại, bị thu hẹp; (người) rụt rè, khúm núm",
+    "definition_ko": "힘이나 활동이 줄어들고 약해지다",
+    "level": 5,
+    "hanja": "萎縮",
+    "sino_vietnamese": "nuy súc",
+    "example_ko": "경기가 나빠지자 소비가 크게 위축됐다.",
+    "example_vi": "Khi kinh tế xấu đi, tiêu dùng chững lại rõ rệt.",
+    "usage_note_vi": "Về kinh tế: 소비/투자/시장이 위축되다. Về tâm lý: 마음이 위축되다 (co mình, mất tự tin). Trái nghĩa: 활성화되다.",
+    "register": "văn viết",
+    "collocations": [
+     "소비가 위축되다",
+     "투자 위축",
+     "마음이 위축되다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "고갈",
+    "pos": "danh từ",
+    "meaning_vi": "sự cạn kiệt",
+    "definition_ko": "자원이나 돈 등이 다 써서 없어짐",
+    "level": 5,
+    "hanja": "枯渇",
+    "sino_vietnamese": "khô kiệt",
+    "example_ko": "이대로 가면 국민연금 기금이 2050년대에 고갈될 수 있다.",
+    "example_vi": "Cứ đà này, quỹ lương hưu quốc dân có thể cạn kiệt vào thập niên 2050.",
+    "usage_note_vi": "Dùng với tài nguyên, quỹ, sức lực: 연금 고갈, 자원 고갈, 체력이 고갈되다. Động từ: 고갈되다.",
+    "register": "văn viết",
+    "collocations": [
+     "연금 고갈",
+     "자원이 고갈되다",
+     "고갈 시기"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "간병",
+    "pos": "danh từ",
+    "meaning_vi": "việc chăm sóc người bệnh",
+    "definition_ko": "아픈 사람 곁에서 돌보며 시중을 듦",
+    "level": 5,
+    "hanja": "看病",
+    "sino_vietnamese": "khán bệnh",
+    "example_ko": "부모님 간병 때문에 일을 그만두는 사람도 있다.",
+    "example_vi": "Có người phải nghỉ việc vì chăm bố mẹ ốm.",
+    "usage_note_vi": "Rất hay gặp ở Hàn: 간병인 (người chăm bệnh thuê), 간병비 (chi phí chăm bệnh), 간병 휴직. Khác 돌봄 (chăm sóc nói chung, cả trẻ em).",
+    "register": null,
+    "collocations": [
+     "간병인",
+     "간병비",
+     "간병 부담"
+    ],
+    "exam": "kiip-5"
+   },
+   {
+    "hangul": "정년",
+    "pos": "danh từ",
+    "meaning_vi": "tuổi nghỉ hưu theo quy định",
+    "definition_ko": "직장에서 물러나도록 정해져 있는 나이",
+    "level": 4,
+    "hanja": "停年",
+    "sino_vietnamese": "đình niên",
+    "example_ko": "한국의 법정 정년은 60세이다.",
+    "example_vi": "Tuổi nghỉ hưu theo luật ở Hàn Quốc là 60.",
+    "usage_note_vi": "정년 연장 = kéo dài tuổi nghỉ hưu (vấn đề nóng ở Hàn). 정년퇴직 = nghỉ hưu đúng tuổi. Khác 은퇴 (rút lui khỏi công việc nói chung, không nhất thiết theo quy định).",
+    "register": null,
+    "collocations": [
+     "정년 연장",
+     "정년퇴직",
+     "정년을 맞다"
+    ],
+    "exam": "kiip-5"
+   },
+   {
+    "hangul": "대비하다",
+    "pos": "động từ",
+    "meaning_vi": "chuẩn bị trước để đối phó, phòng bị",
+    "definition_ko": "앞으로 일어날 수 있는 일에 미리 준비하다",
+    "level": 4,
+    "hanja": "對備",
+    "sino_vietnamese": "đối bị",
+    "example_ko": "노후에 대비해 매달 조금씩 저축하고 있다.",
+    "example_vi": "Tôi tiết kiệm mỗi tháng một ít để phòng cho tuổi già.",
+    "usage_note_vi": "Cấu trúc: N에 대비하다 / N에 대비해(서). Đừng nhầm với danh từ 대비 (so sánh) trong cụm \"N 대비\" (전년 대비 = so với năm trước).",
+    "register": "văn viết",
+    "collocations": [
+     "노후에 대비하다",
+     "위기에 대비하다",
+     "만일에 대비해"
+    ],
+    "exam": "topik-4"
+   }
+  ],
+  "reuse_vocab": [
+   "고령화",
+   "출산율",
+   "연금",
+   "재정",
+   "적자",
+   "부담",
+   "비중",
+   "복지"
+  ],
+  "grammar": [
+   {
+    "pattern": "V + -(으)ㄴ 지 + N(thời gian) + 만이다",
+    "meaning_vi": "(sự việc này) xảy ra sau đúng … kể từ khi …",
+    "level": 4,
+    "example_ko": "2017년 8월 노인 인구가 14%를 넘어 고령사회에 들어선 지 7년 4개월 만이다.\n그가 고향을 떠난 지 20년 만의 귀향이다.",
+    "usage_context_vi": "Cấu tạo: V-(으)ㄴ 지 (kể từ khi) + khoảng thời gian + 만이다/만의 N. Dùng ở cuối câu tin tức để chốt khoảng cách thời gian giữa hai sự kiện, thường ngụ ý \"nhanh/lâu bất thường\". Khác -(으)ㄴ 지 … 되다 (chỉ nói đã bao lâu) và N 만에 (giữa câu, \"sau … thì\"): 만이다 đứng cuối câu, tóm lại ý.",
+    "topik_tip_vi": "Rất hay gặp ở câu thứ 2–3 của tin tức, đề Đọc hỏi \"bao lâu\" hoặc so sánh tốc độ. Trong Viết 53 có thể dùng: 조사를 시작한 지 10년 만에 처음이다."
+   },
+   {
+    "pattern": "A + -(으)ㄴ N + 속에(서)",
+    "meaning_vi": "trong bối cảnh …, giữa lúc …",
+    "level": 5,
+    "example_ko": "하지만 어수선한 정국 속에 정년 연장과 계속 고용에 대한 사회적 논의는 멈췄고…\n경기 침체 속에서도 이 회사는 매출을 늘렸다.",
+    "usage_context_vi": "Cấu tạo: (A-(으)ㄴ) + danh từ chỉ tình hình (정국, 혼란, 불황, 관심…) + 속에(서). Đặt bối cảnh (thường bất lợi) cho sự việc chính. Gần nghĩa -(으)ㄴ/는 가운데 (đã học), nhưng 속에 gắn sau danh từ, nên gọn hơn khi bối cảnh là một danh từ.",
+    "topik_tip_vi": "Đề Đọc 3–4 thường có câu dạng \"N 속에서도 …\" để nhấn mạnh kết quả trái với hoàn cảnh; hãy chú ý chữ 도."
+   },
+   {
+    "pattern": "N1 + 이/가 아니라 N2 + 이다",
+    "meaning_vi": "không phải là N1 mà là N2",
+    "level": 3,
+    "example_ko": "특정 정부의 과제가 아니라 우리 모두의 미래를 위한 일이다.\n이것은 개인의 문제가 아니라 사회 전체의 문제이다.",
+    "usage_context_vi": "Cấu tạo: N이/가 아니라 + N(이다). Phủ định một cách hiểu rồi đưa ra cách hiểu đúng – rất hợp để kết bài nghị luận. Khác -(으)ㄹ 뿐만 아니라 (không chỉ … mà còn: cộng thêm), ở đây là thay thế.",
+    "topik_tip_vi": "Câu kết bài 54 rất hay dùng mẫu này: \"이는 개인이 아니라 사회 전체가 함께 해결해야 할 과제이다.\""
+   }
+  ],
+  "reuse_grammar": [
+   "V/A + -는 경향이 있다 · V/A + -(으)ㄹ 지경이다 · V/A + -(으)ㄹ 정도이다",
+   "N + 마저 · N + 조차",
+   "V/A + -(으)ㄹ 것으로 기대된다 · -(으)ㄹ 것으로 예상된다",
+   "V/A + -(으)ㄹ 우려가 있다 · V/A + -(으)ㄹ 가능성이 있다",
+   "V/A + -더라도 · N + (이)더라도",
+   "V + -아/어 가다 · V + -아/어 오다"
+  ],
+  "model_outline": {
+   "phenomenon": "한국은 65세 이상 인구가 전체의 20%를 넘어 초고령사회에 진입했다. 고령사회가 된 지 7년 4개월 만으로, 세계에서 유례가 없을 정도로 빠른 속도이다.",
+   "cause": "1600만 명에 이르는 베이비붐 세대가 차례로 노인이 되고 있는 데다가 출산율이 세계 최저 수준이어서 고령화가 가속화되고 있기 때문이다.",
+   "consequence": "생산가능인구가 줄면서 노동생산성이 떨어지고 소비가 위축되어 장기 저성장에 빠질 가능성이 높다. 또한 연금 고갈 시기가 앞당겨지고 복지·의료 비용이 늘어 재정 부담이 커지며, 노인 빈곤과 간병, 세대 갈등 같은 사회 문제도 늘어난다.",
+   "solution": "저출산 대책과 연계해 노동, 복지, 의료, 교육 체계를 새로 설계해야 한다. 특히 멈춰 있는 정년 연장 논의와 연금개혁을 서둘러 다시 시작해야 하며, 이는 특정 정부가 아니라 모두의 미래를 위한 과제이다."
+  },
+  "thinking_guide_text": "1. Mốc 20% có ý nghĩa gì, và tốc độ già hóa của Hàn Quốc khác châu Âu, Nhật Bản ở điểm nào?\n2. Bài nêu hai nguyên nhân nào khiến dân số già đi nhanh?\n3. Tác giả liệt kê những hệ quả nào? Hãy chia chúng thành nhóm: kinh tế, tài chính nhà nước, đời sống xã hội.\n4. Câu cuối \"특정 정부의 과제가 아니라…\" cho thấy thái độ gì của người viết?\n5. Nếu viết bài 54 về già hóa dân số, bạn sẽ lấy số liệu nào trong bài làm dẫn chứng?",
+  "practice": [
+   {
+    "type": "mcq",
+    "skill": "reading",
+    "prompt_ko": "이 글의 내용과 같은 것을 고르십시오.",
+    "options": [
+     "일본은 고령사회에서 초고령사회가 되는 데 7년이 걸렸다.",
+     "한국은 예상보다 일찍 초고령사회에 진입했다.",
+     "정년 연장에 대한 사회적 논의가 활발하게 이어지고 있다.",
+     "생산가능인구의 비중이 늘면서 소비가 위축되고 있다."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Bài viết: \"당초 내년이 … 될 것으로 예측됐지만 예상보다 일찍 찾아왔다\". Nhật Bản mất 10 năm (không phải 7); thảo luận về tuổi nghỉ hưu đã \"멈췄다\" (dừng lại); dân số lao động đang giảm chứ không tăng."
+   },
+   {
+    "type": "mcq",
+    "skill": "reading",
+    "prompt_ko": "이 글을 쓴 목적으로 가장 알맞은 것을 고르십시오.",
+    "options": [
+     "베이비붐 세대의 특징을 소개하려고",
+     "유럽 국가들의 고령화 정책을 비교하려고",
+     "초고령사회에 대비한 제도 개혁을 촉구하려고",
+     "출산율이 낮아진 원인을 분석하려고"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Đoạn cuối là trọng tâm: phải thiết kế lại các hệ thống và \"개혁의 불씨는 살려야 한다\" – tức kêu gọi cải cách. Các lựa chọn khác chỉ là chi tiết phụ hoặc không có trong bài."
+   },
+   {
+    "type": "mcq",
+    "skill": "vocab",
+    "prompt_ko": "자원을 아껴 쓰지 않으면 언젠가는 ___될 수밖에 없다.",
+    "options": [
+     "진입",
+     "고갈",
+     "간병",
+     "유례"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "고갈되다 = cạn kiệt, hợp với \"tài nguyên\" và \"không dùng tiết kiệm\". 진입되다 không dùng với tài nguyên; 간병/유례 không hợp nghĩa."
+   },
+   {
+    "type": "mcq",
+    "skill": "vocab",
+    "prompt_ko": "이번 폭우는 100년 만에 처음 있는 일로, 역사상 ___를 찾기 어려운 수준이었다.",
+    "options": [
+     "정년",
+     "빈도",
+     "유례",
+     "고갈"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "유례를 찾기 어렵다 = khó tìm được tiền lệ, chưa từng có. Đây là cụm cố định."
+   },
+   {
+    "type": "mcq",
+    "skill": "grammar",
+    "prompt_ko": "우리 팀이 이 대회에서 우승한 것은 2010년 이후 14년 ___.",
+    "options": [
+     "동안이다",
+     "만이다",
+     "때문이다",
+     "뿐이다"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "만이다 chốt khoảng cách thời gian: \"lần vô địch này là sau đúng 14 năm\". 동안이다 chỉ độ dài liên tục, không hợp với 이후; 때문이다/뿐이다 sai nghĩa."
+   },
+   {
+    "type": "apply",
+    "prompt_vi": "Ở Việt Nam, dân số có đang già đi không? Viết 2–3 câu tiếng Hàn về điều đó, dùng 대비하다 hoặc 초고령사회 và mẫu N이/가 아니라 N이다.",
+    "model_ko": "베트남은 아직 초고령사회는 아니지만 고령화가 빠르게 진행되고 있다. 따라서 지금부터 연금과 간병 제도를 마련해 미래에 대비해야 한다. 이것은 정부만의 과제가 아니라 모든 세대의 문제이다."
+   }
+  ],
+  "quality": {
+   "score": 8,
+   "why_selected": "Bỏ thẻ ngữ pháp -는 바람에 (không có trong bài, ví dụ lấy từ thư viện chung); chuyển -(으)ㄹ 정도로 sang reuse_grammar vì khóa học đã dạy -(으)ㄹ 정도이다; thay bằng 3 mẫu có thật trong bài (-(으)ㄴ 지 N 만이다, N 속에, N이/가 아니라). Vocab từ 4 lên 10 thẻ, sửa định nghĩa và thêm Hán-Việt; viết lại hướng dẫn tư duy bằng tiếng Việt (bản cũ bằng tiếng Hàn); outline viết lại sát số liệu bài; thêm 6 bài luyện.",
+   "weaknesses": "Bài xã luận ngắn (~820 ký tự), số liệu cố định ở tháng 12/2024 nên sẽ cũ dần; mẫu N이/가 아니라 khá cơ bản so với cấp độ bài."
+  },
+  "related_lesson_slugs": [
+   "xa-hoi-15-dan-so-phuc-loi",
+   "xa-hoi-10-kinh-te"
+  ]
+ },
+ {
+  "article_id_prefix": "7de83b6b",
+  "level_estimate": 5,
+  "topic_tags": [
+   "giáo dục",
+   "người Triều Tiên định cư",
+   "xung đột cộng đồng",
+   "định kiến xã hội"
+  ],
+  "unlock_hint": "Nên đọc sau khi học bài «Dân số, an sinh và giáo dục»; bài «Chính trị, pháp luật và quyền công dân» giúp hiểu phần tranh luận về thủ tục và quyền lợi.",
+  "vocab": [
+   {
+    "hangul": "부지",
+    "pos": "danh từ",
+    "meaning_vi": "khu đất (dùng để xây dựng công trình)",
+    "definition_ko": "건물을 짓거나 어떤 일에 쓰기 위한 땅",
+    "level": 5,
+    "hanja": "敷地",
+    "sino_vietnamese": "phu địa",
+    "example_ko": "시는 폐교된 학교 부지에 도서관을 짓기로 했다.",
+    "example_vi": "Thành phố quyết định xây thư viện trên khu đất của ngôi trường đã đóng cửa.",
+    "usage_note_vi": "Luôn chỉ đất để xây/dùng cho mục đích nào đó: 학교 부지, 공장 부지. Khác 토지 (đất đai nói chung, về pháp lý/sở hữu) và 땅 (từ thông thường).",
+    "register": "văn viết",
+    "collocations": [
+     "학교 부지",
+     "부지를 확보하다",
+     "부지 임대"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "신축",
+    "pos": "danh từ",
+    "meaning_vi": "việc xây mới (công trình)",
+    "definition_ko": "건물 등을 새로 지음",
+    "level": 4,
+    "hanja": "新築",
+    "sino_vietnamese": "tân trúc",
+    "example_ko": "이 동네에는 신축 아파트가 많아서 월세가 비싸다.",
+    "example_vi": "Khu này có nhiều chung cư mới xây nên tiền thuê tháng đắt.",
+    "usage_note_vi": "Rất hay gặp khi tìm nhà ở Hàn: 신축 원룸, 신축 빌라 (nhà mới xây). Trái nghĩa: 구축 (nhà cũ). Động từ: 신축하다.",
+    "register": null,
+    "collocations": [
+     "신축 아파트",
+     "교사 신축",
+     "신축 공사"
+    ],
+    "exam": "kiip-4"
+   },
+   {
+    "hangul": "건립하다",
+    "pos": "động từ",
+    "meaning_vi": "xây dựng, dựng lên (công trình công cộng, tượng đài…)",
+    "definition_ko": "건물이나 기념비 등을 만들어 세우다",
+    "level": 5,
+    "hanja": "建立",
+    "sino_vietnamese": "kiến lập",
+    "example_ko": "주민들의 성금으로 마을 도서관을 건립했다.",
+    "example_vi": "Thư viện làng được xây dựng bằng tiền quyên góp của người dân.",
+    "usage_note_vi": "Dùng cho công trình công cộng, có tính chính thức (학교, 기념관, 동상). Với nhà ở thường dùng 짓다 hoặc 건축하다.",
+    "register": "trang trọng",
+    "collocations": [
+     "학교를 건립하다",
+     "건립 반대",
+     "기념관 건립"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "대안학교",
+    "pos": "danh từ",
+    "meaning_vi": "trường thay thế (trường ngoài hệ thống giáo dục chính quy)",
+    "definition_ko": "정규 학교와 다른 방식으로 교육하는 학교",
+    "level": 5,
+    "hanja": "代案學校",
+    "sino_vietnamese": "đại án học hiệu",
+    "example_ko": "그는 일반 학교에 적응하지 못해 대안학교로 옮겼다.",
+    "example_vi": "Cậu ấy không thích nghi được với trường bình thường nên chuyển sang trường thay thế.",
+    "usage_note_vi": "대안 = phương án thay thế. Ở Hàn có cả 대안학교 được Bộ/Sở Giáo dục công nhận (인가) và loại không được công nhận.",
+    "register": null,
+    "collocations": [
+     "대안학교에 다니다",
+     "인가 대안학교"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "수렴",
+    "pos": "danh từ",
+    "meaning_vi": "việc thu thập, tổng hợp (ý kiến)",
+    "definition_ko": "여러 사람의 의견이나 생각을 모아 하나로 정리함",
+    "level": 5,
+    "hanja": "收斂",
+    "sino_vietnamese": "thu liễm",
+    "example_ko": "정부는 국민 의견 수렴을 거쳐 최종안을 발표하겠다고 밝혔다.",
+    "example_vi": "Chính phủ cho biết sẽ công bố phương án cuối cùng sau khi lấy ý kiến người dân.",
+    "usage_note_vi": "Gần như luôn đi với 의견: 의견 수렴, 의견을 수렴하다. Thường xuất hiện khi phê phán thủ tục: \"의견 수렴 없이\" = không hỏi ý kiến.",
+    "register": "trang trọng",
+    "collocations": [
+     "의견 수렴",
+     "의견을 수렴하다",
+     "수렴 절차"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "밀어붙이다",
+    "pos": "động từ",
+    "meaning_vi": "cố đẩy (việc gì) tiến hành bất chấp phản đối",
+    "definition_ko": "반대나 어려움을 무시하고 일을 강하게 진행하다",
+    "level": 5,
+    "hanja": null,
+    "sino_vietnamese": null,
+    "example_ko": "회사는 직원들의 반대에도 새 근무 제도를 밀어붙였다.",
+    "example_vi": "Công ty vẫn cố áp dụng chế độ làm việc mới bất chấp nhân viên phản đối.",
+    "usage_note_vi": "Mang sắc thái phê phán (làm một cách áp đặt). Nghĩa gốc: đẩy mạnh vật gì vào một phía. Gần nghĩa trung tính: 추진하다 (xúc tiến).",
+    "register": "văn nói",
+    "collocations": [
+     "일방적으로 밀어붙이다",
+     "정책을 밀어붙이다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "일리",
+    "pos": "danh từ",
+    "meaning_vi": "phần lý lẽ đúng, có lý",
+    "definition_ko": "어떤 면에서 옳다고 할 만한 이치",
+    "level": 5,
+    "hanja": "一理",
+    "sino_vietnamese": "nhất lý",
+    "example_ko": "네 말에도 일리가 있지만 다른 방법도 생각해 보자.",
+    "example_vi": "Lời cậu nói cũng có lý, nhưng hãy nghĩ thêm cách khác.",
+    "usage_note_vi": "Hầu như chỉ dùng trong 일리가 있다 / 일리 있는 N – công nhận một phần trước khi phản bác. Rất hữu ích trong bài nghị luận.",
+    "register": null,
+    "collocations": [
+     "일리가 있다",
+     "일리 있는 지적"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "기피시설",
+    "pos": "danh từ",
+    "meaning_vi": "cơ sở bị dân né tránh, không muốn ở gần",
+    "definition_ko": "주민들이 가까이 들어서는 것을 꺼리는 시설",
+    "level": 6,
+    "hanja": "忌避施設",
+    "sino_vietnamese": "kỵ tị thi thiết",
+    "example_ko": "쓰레기 소각장은 대표적인 기피시설로 꼽힌다.",
+    "example_vi": "Lò đốt rác được coi là cơ sở bị né tránh điển hình.",
+    "usage_note_vi": "Hiện tượng phản đối loại cơ sở này gọi là 님비(NIMBY) 현상. Danh từ 기피 (né tránh) cũng gặp trong 병역 기피, 기피 대상.",
+    "register": "văn viết",
+    "collocations": [
+     "기피시설이 들어서다",
+     "님비 현상"
+    ],
+    "exam": "topik-6"
+   },
+   {
+    "hangul": "외면하다",
+    "pos": "động từ",
+    "meaning_vi": "làm ngơ, quay mặt đi",
+    "definition_ko": "마주하기 싫어 얼굴을 돌리거나 모른 척하다",
+    "level": 4,
+    "hanja": "外面",
+    "sino_vietnamese": "ngoại diện",
+    "example_ko": "어려운 이웃의 고통을 외면해서는 안 된다.",
+    "example_vi": "Không được làm ngơ trước nỗi khổ của hàng xóm khó khăn.",
+    "usage_note_vi": "Nghĩa đen: quay mặt đi; nghĩa bóng: cố tình không quan tâm (현실을 외면하다, 진실을 외면하다). Còn có nghĩa \"bị quay lưng\": 소비자에게 외면받다.",
+    "register": "văn viết",
+    "collocations": [
+     "현실을 외면하다",
+     "외면받다"
+    ],
+    "exam": "topik-4"
+   },
+   {
+    "hangul": "포용하다",
+    "pos": "động từ",
+    "meaning_vi": "bao dung, dang tay đón nhận",
+    "definition_ko": "남을 너그럽게 감싸 주거나 받아들이다",
+    "level": 5,
+    "hanja": "包容",
+    "sino_vietnamese": "bao dung",
+    "example_ko": "다양한 문화를 포용하는 사회가 더 건강하다.",
+    "example_vi": "Một xã hội biết bao dung các nền văn hóa khác nhau thì lành mạnh hơn.",
+    "usage_note_vi": "Đối tượng thường là con người/nhóm yếu thế/sự khác biệt. Tính từ: 포용적 (포용적 사회, 포용적 성장).",
+    "register": "trang trọng",
+    "collocations": [
+     "약자를 포용하다",
+     "포용적 사회",
+     "포용력"
+    ],
+    "exam": "topik-5"
+   }
+  ],
+  "reuse_vocab": [
+   "편견",
+   "적응하다",
+   "호소",
+   "수요",
+   "마련하다",
+   "끼치다",
+   "불만",
+   "반대하다"
+  ],
+  "grammar": [
+   {
+    "pattern": "V/A + -(으)ㄴ/는 터이다 (-(으)ㄴ 터인데)",
+    "meaning_vi": "vốn đã ở trong hoàn cảnh … (vậy mà / nên …)",
+    "level": 5,
+    "example_ko": "탈북민 다수가 가족해체의 아픔을 겪은 터인데 자유를 찾아 넘어와서도 사회적 편견에 더 큰 고통을 받아선 안 된다.\n이미 많이 지친 터라 더 이상 일할 수 없었다.",
+    "usage_context_vi": "Cấu tạo: V/A-(으)ㄴ/는 + 터(hoàn cảnh) + 이다; hay gặp 터인데, 터라(서). Dùng để nêu một hoàn cảnh có thật làm nền cho phán đoán sau. Khác -(으)ㄹ 텐데 (đã học: phỏng đoán điều chưa chắc); -(으)ㄴ 터인데 nói hoàn cảnh đã xảy ra/đang có thật.",
+    "topik_tip_vi": "Gặp nhiều ở xã luận, Đọc câu 40–50. Nhận dạng: 터 + 인데/이라/이니 sau định ngữ -(으)ㄴ/는."
+   },
+   {
+    "pattern": "V + -아/어 놓고(서)",
+    "meaning_vi": "đã … rồi (vậy mà lại …) – trách sự trái ngược",
+    "level": 4,
+    "example_ko": "교육청이 2023년 염강초 부지 ‘임시 사용’을 약속해놓고 주민 의견 수렴 없이 여명학교 신축을 밀어붙인다고 주장한다.\n먼저 만나자고 해 놓고 약속 시간에 나타나지 않았다.",
+    "usage_context_vi": "Cấu tạo: -아/어 놓다 (đã làm xong, đã đặt sẵn) + -고. Khi vế sau trái với việc đã làm/đã hứa, câu mang sắc thái trách móc. Gần -고도 (đã học: dù đã … vẫn), nhưng -아/어 놓고 nhấn mạnh \"chính mình đã hứa/đã làm trước\" nên trách nặng hơn.",
+    "topik_tip_vi": "Đề Đọc hỏi thái độ người nói: thấy -아/어 놓고 thường là 비판/불만."
+   },
+   {
+    "pattern": "V + -(으)ㄹ 일이 아니다",
+    "meaning_vi": "không phải là chuyện (có thể/nên) …",
+    "level": 5,
+    "example_ko": "더는 외면할 일이 아니다.\n이 문제는 웃고 넘길 일이 아니다.",
+    "usage_context_vi": "Cấu tạo: V-(으)ㄹ + 일(chuyện) + 이 아니다. Dùng ở kết luận xã luận để khẳng định mạnh rằng một thái độ là không chấp nhận được. Mềm và \"văn\" hơn -(으)면 안 되다 / -아/어서는 안 되다 (cấm trực tiếp).",
+    "topik_tip_vi": "Câu cuối đoạn có -(으)ㄹ 일이 아니다 thường chứa chủ đề/quan điểm của bài – hữu ích cho câu hỏi \"중심 생각\"."
+   }
+  ],
+  "reuse_grammar": [
+   "V/A + -(으)ㄴ/는 만큼 · V + -(으)ㄹ 만큼 · N + 만큼",
+   "N + 에 그치다 · V + -는 데 그치다 · N + 에 불과하다 · V + -(으)ㄹ 따름이다",
+   "N + 대비 · N + 을/를 차지하다 · N + 을/를 기록하다",
+   "V + -(으)ㄴ 채로",
+   "버티기·관계: 이를 악물다 · 담을 쌓다 · 꼬리를 물다 · 한숨을 돌리다",
+   "V/A + -(ㄴ/는)다고 하다 · -다는 + N"
+  ],
+  "model_outline": {
+   "phenomenon": "북한 배경 청소년을 위한 대안학교인 여명학교가 옛 염강초 부지에 새 교사를 지으려 하자 인근 주민들이 강하게 반대하고 있다.",
+   "cause": "주민들은 사전 논의가 없었고 의견 수렴 절차가 부족했다고 지적한다. 또한 지역에 임대주택, 특수학교 같은 기피시설이 지나치게 많아 집값이 떨어질 것을 우려한다.",
+   "consequence": "여명학교는 20년 넘게 셋방살이를 하고 있으며, 임시 사용 기한이 끝나면 아이들은 갈 곳을 잃게 된다. 가족 해체의 아픔을 겪은 아이들이 사회적 편견 때문에 또 한 번 상처를 받을 수 있다.",
+   "solution": "교육 당국은 주민 의견을 충분히 듣고 유치원 부족처럼 일리 있는 요구에는 개선책을 제시해야 한다. 주민들도 집값만을 이유로 반대하기보다 약자를 포용하는 아량을 보여야 한다."
+  },
+  "thinking_guide_text": "1. Trường Yeomyung dành cho đối tượng nào, và vì sao trường cần xây nhà mới ngay lúc này?\n2. Người dân phản đối với những lý do nào? Tác giả thừa nhận lý do nào là \"có lý\", và phê phán lý do nào?\n3. Vì sao tác giả nhắc đến \"ngày gia đình ly tán\" ở đoạn cuối?\n4. Câu nói của hiệu trưởng được đặt ở cuối bài nhằm tạo hiệu quả gì?\n5. Ở nơi bạn sống có kiểu tranh cãi \"đồng ý là cần xây, nhưng đừng xây cạnh nhà tôi\" không?",
+  "practice": [
+   {
+    "type": "mcq",
+    "skill": "reading",
+    "prompt_ko": "이 글의 내용과 같은 것을 고르십시오.",
+    "options": [
+     "주민설명회는 통일부가 개최했다.",
+     "여명학교는 현재 옛 염강초 건물을 임시로 사용하고 있다.",
+     "주민들은 지역 유치원 정원이 수요보다 많다고 지적했다.",
+     "여명학교는 2023년에 처음 문을 열었다."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "\"2023년 폐교된 염강초 건물의 임시 사용 허가를 받아 운영돼왔는데\". Buổi họp do 서울교육청 tổ chức; nhà trẻ chỉ đáp ứng 50% nhu cầu (thiếu chứ không thừa); trường mở năm 2004."
+   },
+   {
+    "type": "mcq",
+    "skill": "reading",
+    "prompt_ko": "이 글에 나타난 필자의 태도로 가장 알맞은 것을 고르십시오.",
+    "options": [
+     "주민들의 주장을 모두 받아들여 학교 건립을 중단해야 한다고 본다.",
+     "절차에 대한 지적은 인정하지만 무조건적인 반대는 유감스럽게 여긴다.",
+     "기피시설이 집값을 떨어뜨린다는 주장에 전적으로 동의한다.",
+     "교육청과 주민 사이에서 중립적인 입장만 유지한다."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Tác giả viết \"일리 있는 지적인 만큼 … 개선책을 마련해야\" (thừa nhận phần thủ tục) nhưng \"무조건 반대한다면 유감스러운 일\" và kết bằng lời kêu gọi bao dung – không trung lập."
+   },
+   {
+    "type": "mcq",
+    "skill": "vocab",
+    "prompt_ko": "공장 ___ 문제를 두고 지역 주민과 회사가 오랫동안 갈등을 빚었다.",
+    "options": [
+     "일리",
+     "수렴",
+     "부지",
+     "아량"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "부지 = khu đất xây dựng; \"공장 부지\" là cụm tự nhiên. Các từ còn lại không ghép được với 공장."
+   },
+   {
+    "type": "mcq",
+    "skill": "vocab",
+    "prompt_ko": "시청은 시민들의 의견을 충분히 ___하지 않은 채 새 교통 정책을 발표했다.",
+    "options": [
+     "외면",
+     "수렴",
+     "신축",
+     "건립"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "의견을 수렴하다 = thu thập ý kiến. 의견을 외면하다 có nghĩa nhưng không đi với \"충분히\"; 신축/건립 dùng cho công trình."
+   },
+   {
+    "type": "mcq",
+    "skill": "grammar",
+    "prompt_ko": "환경을 지키겠다고 약속해 ___ 몰래 폐수를 버리다니 말이 안 된다.",
+    "options": [
+     "놓고",
+     "보니까",
+     "봤자",
+     "버려서"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "-아/어 놓고: đã hứa rồi vậy mà lại làm ngược lại → trách móc. -아/어 보니까 (sau khi thử thì nhận ra), -아/어 봤자 (có làm cũng vô ích), -아/어 버려서 đều không hợp."
+   },
+   {
+    "type": "apply",
+    "prompt_vi": "Nếu gần nhà bạn sắp xây một trường học hay cơ sở cho người yếu thế, bạn sẽ nghĩ gì? Viết 2–3 câu tiếng Hàn dùng 외면하다 hoặc 포용하다 và mẫu -(으)ㄹ 일이 아니다.",
+    "model_ko": "우리 동네에 대안학교가 들어선다면 나는 찬성할 것이다. 집값을 걱정하는 마음도 이해하지만 갈 곳 없는 아이들을 외면할 일은 아니라고 생각한다. 이웃으로서 그 아이들을 포용하는 것이 더 중요하다."
+   }
+  ],
+  "quality": {
+   "score": 7,
+   "why_selected": "Bỏ 2 thẻ ngữ pháp không có trong bài (-(으)ㄹ 법하다·-(으)ㄹ 뿐더러, -기 마련이다); giữ -(으)ㄴ 터인데 (có thật trong bài) và thêm -아/어 놓고, -(으)ㄹ 일이 아니다. Sửa thẻ 편견 (đã có trong khóa, cấp sai là 2) → chuyển sang reuse_vocab; vocab lên 10 thẻ có Hán-Việt; outline viết lại sát nội dung (bản cũ chung chung); thêm luyện tập.",
+   "weaknesses": "Chủ đề địa phương ở Seoul, nhiều từ hành chính khó; cảm xúc mạnh ở đoạn cuối nên người học cần phân biệt tin và quan điểm."
+  },
+  "related_lesson_slugs": [
+   "xa-hoi-15-dan-so-phuc-loi",
+   "xa-hoi-11-chinh-tri-phap-luat"
+  ]
+ },
+ {
+  "article_id_prefix": "95af2f6b",
+  "level_estimate": 5,
+  "topic_tags": [
+   "trí tuệ nhân tạo",
+   "đạo đức công nghệ",
+   "thị trường và chính sách"
+  ],
+  "unlock_hint": "Nên đọc sau khi học bài «Khoa học, công nghệ và khí hậu»; bài «Tiêu dùng và xã hội số» và «Kinh tế» giúp hiểu phần thị trường, đầu tư.",
+  "vocab": [
+   {
+    "hangul": "외주화",
+    "pos": "danh từ",
+    "meaning_vi": "việc thuê ngoài; giao phó cho bên ngoài làm",
+    "definition_ko": "회사 안에서 하던 일을 외부에 맡기게 됨",
+    "level": 6,
+    "hanja": "外注化",
+    "sino_vietnamese": "ngoại chú hóa",
+    "example_ko": "청소와 경비 업무를 외주화하는 회사가 늘고 있다.",
+    "example_vi": "Ngày càng nhiều công ty thuê ngoài công việc vệ sinh và bảo vệ.",
+    "usage_note_vi": "Nghĩa gốc là thuê ngoài (outsourcing). Bài dùng nghĩa bóng \"사고의 외주화\" = giao việc suy nghĩ cho AI. Cùng họ: 외주 (hợp đồng thuê ngoài), 외주 업체.",
+    "register": "văn viết",
+    "collocations": [
+     "업무 외주화",
+     "사고의 외주화",
+     "외주 업체"
+    ],
+    "exam": "topik-6"
+   },
+   {
+    "hangul": "이롭다",
+    "pos": "tính từ",
+    "meaning_vi": "có lợi, có ích",
+    "definition_ko": "이익이 되거나 도움이 되다",
+    "level": 4,
+    "hanja": "利",
+    "sino_vietnamese": "lợi",
+    "example_ko": "적당한 운동은 몸과 마음에 이롭다.",
+    "example_vi": "Vận động vừa phải có lợi cho cả thân thể và tinh thần.",
+    "usage_note_vi": "Bất quy tắc ㅂ: 이로운, 이로워요. Cấu trúc N에(게) 이롭다. Trái nghĩa: 해롭다. Văn viết hơn 좋다/도움이 되다.",
+    "register": "văn viết",
+    "collocations": [
+     "건강에 이롭다",
+     "인간에게 이로운 기술"
+    ],
+    "exam": "topik-4"
+   },
+   {
+    "hangul": "정의하다",
+    "pos": "động từ",
+    "meaning_vi": "định nghĩa",
+    "definition_ko": "어떤 말이나 개념의 뜻을 분명하게 밝혀 정하다",
+    "level": 4,
+    "hanja": "定義",
+    "sino_vietnamese": "định nghĩa",
+    "example_ko": "이 보고서는 청년을 19세부터 34세까지로 정의한다.",
+    "example_vi": "Báo cáo này định nghĩa thanh niên là người từ 19 đến 34 tuổi.",
+    "usage_note_vi": "Đừng nhầm với 정의 (chính nghĩa, công lý) cùng cách viết. Cấu trúc: A를 B(으)로 정의하다.",
+    "register": "văn viết",
+    "collocations": [
+     "개념을 정의하다",
+     "A를 B로 정의하다"
+    ],
+    "exam": "topik-4"
+   },
+   {
+    "hangul": "선제적",
+    "pos": "định từ/danh từ",
+    "meaning_vi": "mang tính đi trước, phòng ngừa từ sớm",
+    "definition_ko": "문제가 생기기 전에 먼저 행동하는 (것)",
+    "level": 6,
+    "hanja": "先制的",
+    "sino_vietnamese": "tiên chế đích",
+    "example_ko": "정부는 감염병 확산을 막기 위해 선제적으로 대응했다.",
+    "example_vi": "Chính phủ đã chủ động ứng phó từ sớm để ngăn dịch lan rộng.",
+    "usage_note_vi": "Thường dùng 선제적으로 + V (대응하다, 조치하다, 방지하다) hoặc 선제적 N (선제적 대응). Gần nghĩa: 미리, 사전에, nhưng trang trọng hơn.",
+    "register": "trang trọng",
+    "collocations": [
+     "선제적 대응",
+     "선제적으로 조치하다"
+    ],
+    "exam": "topik-6"
+   },
+   {
+    "hangul": "산업재해",
+    "pos": "danh từ",
+    "meaning_vi": "tai nạn lao động",
+    "definition_ko": "일하는 과정에서 노동자가 입는 사고나 질병",
+    "level": 5,
+    "hanja": "産業災害",
+    "sino_vietnamese": "sản nghiệp tai hại",
+    "example_ko": "산업재해를 당한 노동자는 산재보험으로 치료비를 받을 수 있다.",
+    "example_vi": "Người lao động bị tai nạn lao động có thể nhận tiền điều trị từ bảo hiểm tai nạn lao động.",
+    "usage_note_vi": "Viết tắt rất phổ biến: 산재 (산재보험, 산재 신청). Lao động nước ngoài ở Hàn cũng được hưởng 산재보험.",
+    "register": null,
+    "collocations": [
+     "산업재해를 당하다",
+     "산재보험",
+     "산업재해 예방"
+    ],
+    "exam": "kiip-5"
+   },
+   {
+    "hangul": "유리하다",
+    "pos": "tính từ",
+    "meaning_vi": "có lợi, thuận lợi",
+    "definition_ko": "다른 것보다 이익이 있거나 좋은 조건에 있다",
+    "level": 4,
+    "hanja": "有利",
+    "sino_vietnamese": "hữu lợi",
+    "example_ko": "외국어를 잘하면 취업에 유리하다.",
+    "example_vi": "Giỏi ngoại ngữ thì có lợi khi xin việc.",
+    "usage_note_vi": "N에 유리하다 / N에게 유리한 방향. Trái nghĩa: 불리하다. Khác 이롭다 (có ích về bản chất): 유리하다 nói về lợi thế trong cạnh tranh, điều kiện.",
+    "register": null,
+    "collocations": [
+     "취업에 유리하다",
+     "유리한 조건",
+     "불리하다"
+    ],
+    "exam": "topik-4"
+   },
+   {
+    "hangul": "감정노동자",
+    "pos": "danh từ",
+    "meaning_vi": "người lao động cảm xúc (nghề phải kìm nén cảm xúc khi phục vụ khách)",
+    "definition_ko": "고객을 대하며 자기 감정을 숨기고 일해야 하는 노동자",
+    "level": 5,
+    "hanja": "感情勞動者",
+    "sino_vietnamese": "cảm tình lao động giả",
+    "example_ko": "콜센터 상담원은 대표적인 감정노동자이다.",
+    "example_vi": "Nhân viên tổng đài là người lao động cảm xúc điển hình.",
+    "usage_note_vi": "감정노동 = lao động cảm xúc (bán hàng, tổng đài, phục vụ). Ở Hàn có luật bảo vệ người lao động cảm xúc khỏi khách hàng lăng mạ.",
+    "register": null,
+    "collocations": [
+     "감정노동자 보호",
+     "감정노동"
+    ],
+    "exam": "kiip-5"
+   },
+   {
+    "hangul": "투입하다",
+    "pos": "động từ",
+    "meaning_vi": "rót (vốn), đưa (người, nguồn lực) vào",
+    "definition_ko": "어떤 일에 사람, 돈, 물자 등을 넣다",
+    "level": 5,
+    "hanja": "投入",
+    "sino_vietnamese": "đầu nhập",
+    "example_ko": "시는 이 사업에 예산 50억 원을 투입한다.",
+    "example_vi": "Thành phố rót 5 tỷ won ngân sách vào dự án này.",
+    "usage_note_vi": "Đối tượng: 자금, 예산, 인력, 장비. Gần nghĩa 투자하다 (đầu tư, mong lợi nhuận) – 투입하다 chỉ đơn thuần \"đưa nguồn lực vào\".",
+    "register": "văn viết",
+    "collocations": [
+     "예산을 투입하다",
+     "인력을 투입하다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "양성",
+    "pos": "danh từ",
+    "meaning_vi": "việc đào tạo, bồi dưỡng (nhân lực)",
+    "definition_ko": "가르쳐서 유능한 사람을 길러 냄",
+    "level": 5,
+    "hanja": "養成",
+    "sino_vietnamese": "dưỡng thành",
+    "example_ko": "정부는 인공지능 전문 인력 양성에 힘쓰고 있다.",
+    "example_vi": "Chính phủ đang dồn sức đào tạo nhân lực chuyên về trí tuệ nhân tạo.",
+    "usage_note_vi": "Đi với 인력, 인재, 전문가. Đồng âm: 양성 (dương tính, 양성 반응). Động từ: 양성하다, 양성되다.",
+    "register": "văn viết",
+    "collocations": [
+     "인재 양성",
+     "인력을 양성하다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "저변",
+    "pos": "danh từ",
+    "meaning_vi": "nền tảng rộng (tầng đáy) của một lĩnh vực",
+    "definition_ko": "어떤 분야나 현상의 밑바탕이 되는 넓은 부분",
+    "level": 6,
+    "hanja": "底邊",
+    "sino_vietnamese": "để biên",
+    "example_ko": "생활 체육의 저변을 넓히기 위해 동네마다 운동장을 만들었다.",
+    "example_vi": "Để mở rộng nền tảng thể thao quần chúng, mỗi khu phố đều xây sân vận động.",
+    "usage_note_vi": "Cụm cố định: 저변을 넓히다/확대하다 (mở rộng nền tảng, số người tham gia). Bài dùng \"제도적 저변\" = nền tảng thể chế.",
+    "register": "văn viết",
+    "collocations": [
+     "저변을 넓히다",
+     "저변 확대"
+    ],
+    "exam": "topik-6"
+   }
+  ],
+  "reuse_vocab": [
+   "편향",
+   "채용하다",
+   "승진하다",
+   "규제",
+   "생태계",
+   "기반",
+   "설득력",
+   "지향"
+  ],
+  "grammar": [
+   {
+    "pattern": "V + -자면",
+    "meaning_vi": "nếu (muốn/thử) … thì",
+    "level": 5,
+    "example_ko": "인간에게 이로운 AI라는 것을 그간의 관찰과 경험을 토대로 정의하자면 크게 두 가지로 나눌 수 있다.\n솔직히 말하자면 그 계획은 현실성이 떨어진다.",
+    "usage_context_vi": "Cấu tạo: V + -자면 (rút gọn -자고 하면). Hay đi với động từ nói/định nghĩa: 말하자면, 요약하자면, 정의하자면, 비유하자면 – người viết đặt góc nhìn rồi trình bày. Khác -(으)려면 (đã học: muốn đạt mục đích thì cần điều kiện gì).",
+    "topik_tip_vi": "Trong bài 54, \"요약하자면\", \"다시 말하자면\" là cách mở câu kết rất tự nhiên."
+   },
+   {
+    "pattern": "V/A + -다는 점을 고려하면 · N + (이)라는 점을 고려하면",
+    "meaning_vi": "xét đến việc …, nếu tính đến điểm … thì",
+    "level": 5,
+    "example_ko": "적어도 AI라는 단어에 바짝 따라붙는 표현이 ‘생산성’이라는 점을 고려하면, 자본주의적으로 이득을 가져가게 될 그룹에는 이롭게 쓰이는 걸로 추정된다.\n비용이 많이 든다는 점을 고려하면 이 방법은 적합하지 않다.",
+    "usage_context_vi": "Cấu tạo: mệnh đề -다는/(이)라는 + 점 + 을 고려하면. Đưa ra căn cứ rồi rút kết luận. Khác -다는 점에서 (đã học: \"ở điểm …\", nêu phương diện) – 고려하면 nhấn mạnh bước suy luận \"nếu tính đến … thì kết luận là …\".",
+    "topik_tip_vi": "Mẫu lập luận rất đẹp cho Viết 54 và hay xuất hiện trong đoạn Đọc 46–50 (câu hỏi suy luận)."
+   },
+   {
+    "pattern": "N + 차원에서",
+    "meaning_vi": "ở cấp độ …, xét trên phương diện …",
+    "level": 5,
+    "example_ko": "기업 차원에선 비용이 들겠지만, 적어도 리스크를 미리 낮춘다는 차원에서 충분히 시장에 설득 가능한 논리구조를 만들어가는 것으로 보인다.\n정부 차원에서 지원 대책을 마련해야 한다.",
+    "usage_context_vi": "Cấu tạo: N / -다는 + 차원에서(는). Chỉ cấp độ chủ thể (개인 차원, 국가 차원) hoặc góc độ mục đích (예방 차원에서). Gần N 입장에서 (từ lập trường), nhưng 차원 trung tính, hay dùng trong văn chính sách.",
+    "topik_tip_vi": "Giải pháp trong Viết 54 thường chia \"개인 차원에서는 …, 사회(국가) 차원에서는 …\" – mẫu này giúp bố cục rõ."
+   },
+   {
+    "pattern": "V + -(으)면 어떨까",
+    "meaning_vi": "giá mà …? / sao không thử …? (đề xuất mềm trong văn viết)",
+    "level": 4,
+    "example_ko": "인간중심 AI가 실제로 시장을 형성하도록 제도적 저변과 플레이어 양성, 그리고 지속 가능한 시장의 구성과 국부 펀드의 형성을 해 나가면 어떨까.\n주말에는 휴대폰을 잠시 꺼 두면 어떨까.",
+    "usage_context_vi": "Cấu tạo: V-(으)면 + 어떨까(요). Đề xuất dưới dạng câu hỏi tu từ, không ra lệnh. Khác -는 게 어때요? (đã học, văn nói, hỏi trực tiếp người nghe): -(으)면 어떨까 hợp với văn viết, tự hỏi cùng người đọc.",
+    "topik_tip_vi": "Trong Đọc, câu hỏi \"필자의 주장\" thường nằm ở câu có -(으)면 어떨까 / -아/어야 한다."
+   }
+  ],
+  "reuse_grammar": [
+   "N + 을/를 둘러싸고 · N + 을/를 계기로 · N + 에 맞서",
+   "V + -(으)ㄹ 것을 촉구하다/요구하다/권고하다 · N + 에 의해(서)",
+   "N + 에 따르면",
+   "V + -(으)ㄴ 바 있다 · V + -(으)ㄴ/는 바와 같이",
+   "V/A + -(으)ㄴ/는 것으로 보인다 · -(으)ㄹ 것으로 보인다",
+   "머리·목·어깨·간: 머리를 맞대다 · 목이 빠지게 기다리다 · 어깨가 무겁다 · 간이 크다"
+  ],
+  "model_outline": {
+   "phenomenon": "AI가 빠르게 확산되면서 AI가 정말 인간에게 이롭게 쓰이고 있는지, 또 누구에게 이로운지에 대한 우려와 논쟁이 커지고 있다.",
+   "cause": "AI 기술이 주로 생산성과 연결되어 이익을 얻는 일부 집단을 중심으로 발전해 왔기 때문이다. 실제로 AI 펀드 가운데 사회 문제 해결에 투자된 돈은 1% 정도에 불과하다.",
+   "consequence": "산업재해 예방, 딥페이크 피해 방지, 감정노동자 보호처럼 다수에게 필요한 AI는 시장이 작아 충분히 성장하지 못하고 있다. 다만 미국의 AI 감사 시장이나 학회의 소셜임팩트 분야처럼 변화의 움직임도 나타나고 있다.",
+   "solution": "인간 중심 AI가 실제 시장을 이루도록 제도적 기반을 만들고 인재를 양성하며 지속 가능한 펀드를 조성해야 한다. 이는 규제가 아니라 차별화된 경쟁력을 갖추는 영리한 전략이 될 수 있다."
+  },
+  "thinking_guide_text": "1. Tác giả hỏi \"AI có lợi cho ai?\". Vì sao tác giả nhấn mạnh chữ \"생산성\" (năng suất)?\n2. Theo tác giả, \"AI có lợi cho con người\" chia thành mấy loại? Tìm ví dụ cho mỗi loại.\n3. Con số 1% trong báo cáo WEF nói lên điều gì?\n4. Vì sao tác giả khẳng định đề xuất của mình \"không phải là quy chế\" (규제가 아니다)?\n5. Bạn có biết ứng dụng AI nào đang giải quyết một vấn đề xã hội ở Việt Nam hoặc Hàn Quốc không?",
+  "practice": [
+   {
+    "type": "mcq",
+    "skill": "reading",
+    "prompt_ko": "이 글의 내용과 같은 것을 고르십시오.",
+    "options": [
+     "AI 분야 목적성 펀드의 대부분이 AI 임팩트에 투자되었다.",
+     "뉴욕에는 채용·승진에 쓰이는 AI 도구를 미리 감사하는 시장이 있다.",
+     "필자는 AI 발전 속도를 늦추는 규제를 주장한다.",
+     "AI 학회들은 소셜임팩트 분야를 연구 대상에서 제외했다."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "\"뉴욕에서는 채용 및 승진 같은 고위험 AI에 대한 자동화 의사결정 도구를 미리 감사하는 거버넌스 시장이 만들어져 있다.\" Chỉ khoảng 1% quỹ đầu tư vào AI impact; tác giả nói rõ \"이건 규제가 아니다\"; AAAI lập riêng mục soạn thảo cho social impact."
+   },
+   {
+    "type": "mcq",
+    "skill": "reading",
+    "prompt_ko": "필자의 중심 생각으로 가장 알맞은 것을 고르십시오.",
+    "options": [
+     "AI는 생산성을 높이는 데에만 집중해야 한다.",
+     "AI의 위험을 막기 위해 개발을 멈춰야 한다.",
+     "민간 기업은 소셜임팩트 투자를 줄여야 한다.",
+     "인간에게 이로운 AI가 시장으로 성장할 수 있도록 제도적 기반을 마련해야 한다."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Đoạn cuối: \"인간중심 AI가 실제로 시장을 형성하도록 제도적 저변과 플레이어 양성 … 해 나가면 어떨까\" – đó là chủ trương chính của tác giả."
+   },
+   {
+    "type": "mcq",
+    "skill": "vocab",
+    "prompt_ko": "공장에서 ___가 발생하지 않도록 안전 교육을 강화해야 한다.",
+    "options": [
+     "저변",
+     "산업재해",
+     "외주화",
+     "양성"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "산업재해 = tai nạn lao động; \"phát sinh trong nhà máy\" và \"giáo dục an toàn\" là dấu hiệu."
+   },
+   {
+    "type": "mcq",
+    "skill": "vocab",
+    "prompt_ko": "정부는 인공지능 전문 인력을 ___하기 위해 대학에 예산을 지원하기로 했다.",
+    "options": [
+     "양성",
+     "외주화",
+     "선제적",
+     "저변"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "인력을 양성하다 = đào tạo nhân lực. 선제적 không ghép với 하다; 외주화하다 (thuê ngoài) trái với ý hỗ trợ trường đại học; 저변하다 không tồn tại."
+   },
+   {
+    "type": "mcq",
+    "skill": "grammar",
+    "prompt_ko": "솔직히 말하___ 이번 계획은 성공하기 어렵다고 본다.",
+    "options": [
+     "자면",
+     "려면",
+     "다가",
+     "고서"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "말하자면 = nếu nói (thẳng) thì – đặt góc nhìn cho câu sau. 말하려면 (muốn nói thì cần …) sai nghĩa; 말하다가, 말하고서 không hợp với câu nhận định."
+   },
+   {
+    "type": "apply",
+    "prompt_vi": "Hãy nghĩ một công cụ AI \"có lợi cho con người\" mà bạn muốn có khi sống ở Hàn Quốc. Viết 2–3 câu tiếng Hàn dùng 이롭다 và mẫu -자면 hoặc -(으)면 어떨까.",
+    "model_ko": "외국인 유학생 입장에서 말하자면, 병원이나 출입국 사무소에서 쓸 수 있는 AI 통역 도구가 가장 이로울 것 같다. 정부가 이런 서비스에 예산을 투입하면 어떨까?"
+   }
+  ],
+  "quality": {
+   "score": 7,
+   "why_selected": "Thay thẻ -(으)ㄴ/는지, -(으)ㄴ/는지 (giải thích mơ hồ) và N을/를 토대로 (gần trùng 바탕으로 đã học) bằng 4 mẫu có thật trong bài (-자면, -다는 점을 고려하면, N 차원에서, -(으)면 어떨까). Vocab 5→10; 편향 đã có trong khóa nên chuyển sang reuse_vocab; sửa thẻ 포용적 (POS lẫn tiếng Hàn); thêm Hán-Việt và ghi chú đồng âm (정의, 양성, 유리); outline viết lại theo đúng lập luận \"thị trường cho AI có lợi\"; thêm luyện tập.",
+   "weaknesses": "Bài trừu tượng, nhiều từ vay mượn và viết tắt tiếng Anh (WEF, BCG, AAAI, 거버넌스); ví dụ thị trường Mỹ khá xa đời sống người học."
+  },
+  "related_lesson_slugs": [
+   "xa-hoi-12-khoa-hoc-cong-nghe",
+   "xa-hoi-17-tieu-dung-xa-hoi-so",
+   "xa-hoi-10-kinh-te"
+  ]
+ },
+ {
+  "article_id_prefix": "7a76a64d",
+  "level_estimate": 4,
+  "topic_tags": [
+   "thiên tai",
+   "nhà ở",
+   "sức khỏe tinh thần",
+   "phúc lợi xã hội"
+  ],
+  "unlock_hint": "Nên đọc sau khi học bài «Dân số, an sinh và giáo dục»; bài «Sự cố, Khiếu nại & Xử lý» đã có sẵn các từ 복구하다, 점검하다 dùng trong bài.",
+  "vocab": [
+   {
+    "hangul": "간소화되다",
+    "pos": "động từ",
+    "meaning_vi": "được đơn giản hóa",
+    "definition_ko": "복잡하던 것이 간단하게 되다",
+    "level": 5,
+    "hanja": "簡素化",
+    "sino_vietnamese": "giản tố hóa",
+    "example_ko": "온라인 신청으로 비자 연장 절차가 많이 간소화되었다.",
+    "example_vi": "Nhờ đăng ký trực tuyến, thủ tục gia hạn visa đã đơn giản hơn nhiều.",
+    "usage_note_vi": "Hay dùng với 절차, 서류, 차례상 (mâm cúng). Chủ động: 간소화하다. Trái nghĩa: 복잡해지다.",
+    "register": "văn viết",
+    "collocations": [
+     "절차가 간소화되다",
+     "차례상 간소화"
+    ],
+    "exam": "kiip-4"
+   },
+   {
+    "hangul": "애착",
+    "pos": "danh từ",
+    "meaning_vi": "sự gắn bó, quyến luyến",
+    "definition_ko": "어떤 대상에 정이 들어 떨어지기 싫은 마음",
+    "level": 5,
+    "hanja": "愛着",
+    "sino_vietnamese": "ái trước",
+    "example_ko": "오래 산 동네라서 애착이 많이 간다.",
+    "example_vi": "Vì là khu phố sống lâu năm nên tôi rất gắn bó.",
+    "usage_note_vi": "Cấu trúc: N에 애착을 가지다 / 애착이 가다 / 애착이 강하다. Bài dùng 지역 애착 = sự gắn bó với khu vực sống.",
+    "register": null,
+    "collocations": [
+     "애착을 가지다",
+     "애착이 가다",
+     "지역 애착"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "이재민",
+    "pos": "danh từ",
+    "meaning_vi": "người bị nạn (mất nhà do thiên tai)",
+    "definition_ko": "재해를 당해 피해를 입은 사람",
+    "level": 5,
+    "hanja": "罹災民",
+    "sino_vietnamese": "ly tai dân",
+    "example_ko": "태풍으로 발생한 이재민들은 학교 체육관에서 지내고 있다.",
+    "example_vi": "Những người mất nhà do bão đang ở tạm trong nhà thi đấu của trường.",
+    "usage_note_vi": "Từ chuyên dùng trong tin thiên tai; 피해자 rộng hơn (nạn nhân nói chung). Thường đi với 발생하다: 이재민이 발생하다.",
+    "register": "văn viết",
+    "collocations": [
+     "이재민이 발생하다",
+     "이재민 지원",
+     "수재민"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "집중호우",
+    "pos": "danh từ",
+    "meaning_vi": "mưa lớn tập trung",
+    "definition_ko": "짧은 시간에 한 지역에 많이 내리는 비",
+    "level": 4,
+    "hanja": "集中豪雨",
+    "sino_vietnamese": "tập trung hào vũ",
+    "example_ko": "집중호우로 도로 곳곳이 물에 잠겼다.",
+    "example_vi": "Do mưa lớn tập trung, nhiều đoạn đường bị ngập.",
+    "usage_note_vi": "Gặp thường xuyên trong dự báo thời tiết mùa mưa (장마) ở Hàn. Gần nghĩa: 폭우, 호우 (bài cũng dùng 호우, 폭우).",
+    "register": null,
+    "collocations": [
+     "집중호우가 내리다",
+     "집중호우 피해"
+    ],
+    "exam": "topik-4"
+   },
+   {
+    "hangul": "임시주택",
+    "pos": "danh từ",
+    "meaning_vi": "nhà tạm",
+    "definition_ko": "집을 잃은 사람이 잠시 살 수 있도록 마련한 집",
+    "level": 4,
+    "hanja": "臨時住宅",
+    "sino_vietnamese": "lâm thời trú trạch",
+    "example_ko": "지진 피해 주민들은 컨테이너 임시주택에서 겨울을 보냈다.",
+    "example_vi": "Người dân bị động đất đã trải qua mùa đông trong nhà tạm bằng container.",
+    "usage_note_vi": "임시 = tạm thời (임시 공휴일, 임시 사용). Trái nghĩa với 영구 (vĩnh viễn).",
+    "register": null,
+    "collocations": [
+     "임시주택에 거주하다",
+     "임시주택을 제공하다"
+    ],
+    "exam": "topik-4"
+   },
+   {
+    "hangul": "거주하다",
+    "pos": "động từ",
+    "meaning_vi": "cư trú, sinh sống",
+    "definition_ko": "일정한 곳에 머물러 살다",
+    "level": 4,
+    "hanja": "居住",
+    "sino_vietnamese": "cư trú",
+    "example_ko": "서울에 거주하는 외국인은 40만 명이 넘는다.",
+    "example_vi": "Số người nước ngoài cư trú tại Seoul vượt quá 400 nghìn.",
+    "usage_note_vi": "Văn bản hành chính dùng 거주하다 thay 살다: 거주지 (nơi cư trú), 거주자, 거주 기간, visa 거주 F-2. Rất cần cho KIIP.",
+    "register": "trang trọng",
+    "collocations": [
+     "거주지",
+     "N에 거주하다",
+     "거주 기간"
+    ],
+    "exam": "kiip-4"
+   },
+   {
+    "hangul": "여력",
+    "pos": "danh từ",
+    "meaning_vi": "sức (tiền, thời gian) còn dư để làm việc khác",
+    "definition_ko": "어떤 일을 하고도 남아 있는 힘이나 경제적 능력",
+    "level": 5,
+    "hanja": "餘力",
+    "sino_vietnamese": "dư lực",
+    "example_ko": "월세를 내고 나면 저축할 여력이 없다.",
+    "example_vi": "Trả tiền thuê nhà xong thì không còn dư để tiết kiệm.",
+    "usage_note_vi": "Thường ở dạng phủ định: 여력이 없다 / 여력이 되지 않다. Hay đi với 경제적.",
+    "register": null,
+    "collocations": [
+     "경제적 여력",
+     "여력이 없다",
+     "여력이 되다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "터전",
+    "pos": "danh từ",
+    "meaning_vi": "nơi sinh sống, nền tảng cuộc sống",
+    "definition_ko": "생활이나 일의 바탕이 되는 곳",
+    "level": 5,
+    "hanja": null,
+    "sino_vietnamese": null,
+    "example_ko": "홍수로 많은 농민이 삶의 터전을 잃었다.",
+    "example_vi": "Lũ lụt khiến nhiều nông dân mất nơi sinh sống.",
+    "usage_note_vi": "Từ thuần Hàn mang sắc thái tình cảm. Cụm thường gặp: 삶의 터전, 생활 터전. Khác 거주지 (hành chính, trung tính).",
+    "register": "văn viết",
+    "collocations": [
+     "삶의 터전",
+     "터전을 잃다",
+     "터전을 잡다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "미흡하다",
+    "pos": "tính từ",
+    "meaning_vi": "chưa đầy đủ, còn thiếu sót",
+    "definition_ko": "아직 넉넉하지 못하거나 만족스럽지 못하다",
+    "level": 5,
+    "hanja": "未洽",
+    "sino_vietnamese": "vị hiệp",
+    "example_ko": "정부의 대응이 미흡했다는 비판이 나왔다.",
+    "example_vi": "Đã có chỉ trích rằng ứng phó của chính phủ còn thiếu sót.",
+    "usage_note_vi": "Từ phê bình nhẹ nhàng, lịch sự, dùng nhiều trong báo chí và văn bản đánh giá. Gần nghĩa: 부족하다 (thông thường hơn).",
+    "register": "trang trọng",
+    "collocations": [
+     "대응이 미흡하다",
+     "미흡한 관리",
+     "미흡한 점"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "만료",
+    "pos": "danh từ",
+    "meaning_vi": "sự hết hạn",
+    "definition_ko": "정해진 기한이 다 차서 끝남",
+    "level": 4,
+    "hanja": "滿了",
+    "sino_vietnamese": "mãn liễu",
+    "example_ko": "체류 기간이 만료되기 전에 출입국사무소에서 연장 신청을 해야 한다.",
+    "example_vi": "Phải xin gia hạn tại văn phòng xuất nhập cảnh trước khi thời gian lưu trú hết hạn.",
+    "usage_note_vi": "Từ rất quan trọng cho người nước ngoài ở Hàn: 체류 기간 만료, 계약 만료, 비자 만료. Động từ: 만료되다. Gần nghĩa: 끝나다 (thông thường).",
+    "register": "trang trọng",
+    "collocations": [
+     "기간 만료",
+     "계약이 만료되다",
+     "만료일"
+    ],
+    "exam": "kiip-4"
+   }
+  ],
+  "reuse_vocab": [
+   "귀성",
+   "귀경",
+   "명절",
+   "재난",
+   "복구하다",
+   "점검하다",
+   "공동체",
+   "부정적"
+  ],
+  "grammar": [
+   {
+    "pattern": "V + -아/어야 할 처지에 놓이다 · N + 처지에 놓이다",
+    "meaning_vi": "rơi vào hoàn cảnh (khó khăn) phải …",
+    "level": 5,
+    "example_ko": "사유지에 들어선 임시주택은 ‘부지 임대기간 만료’로 또다시 옮겨야 할 처지에 놓이기도 했다.\n공장이 문을 닫으면서 수백 명이 일자리를 잃을 처지에 놓였다.",
+    "usage_context_vi": "Cấu tạo: V-(으)ㄹ/V-아/어야 할 + 처지(hoàn cảnh) + 에 놓이다. Mô tả tình huống bất lợi, bị động. Khác -게 되다 (đã học: trở nên, trung tính) – 처지에 놓이다 luôn hàm ý khó khăn, đáng thương.",
+    "topik_tip_vi": "Tin tức xã hội hay dùng mẫu này; trong Đọc, nó là tín hiệu cho câu hỏi \"상황/심정\"."
+   },
+   {
+    "pattern": "N1 + (이)나 N2 + (이)나",
+    "meaning_vi": "dù là N1 hay N2 thì cũng (như nhau)",
+    "level": 4,
+    "example_ko": "수천 년 전이나 지금이나 집으로 돌아가고 싶은 사람들의 열망은 다르지 않다.\n어른이나 아이나 모두 이 게임을 좋아한다.",
+    "usage_context_vi": "Cấu tạo: lặp (이)나 sau hai danh từ, vế sau thường là 다르지 않다/같다/마찬가지다/모두. Ý: không phân biệt. Khác N(이)나 N (đã học: hoặc) – ở đây (이)나 đứng sau cả hai danh từ và mang nghĩa \"đều như nhau\".",
+    "topik_tip_vi": "Câu dạng \"예나 지금이나\" (xưa cũng như nay) rất hay gặp trong bài Đọc về văn hóa, truyền thống."
+   },
+   {
+    "pattern": "V/A + -았/었으면 하다",
+    "meaning_vi": "mong rằng …, ước gì …",
+    "level": 4,
+    "example_ko": "더 늦지 않게 재난을 겪은 사람들이 안전한 집에서 일상의 평온을 되찾았으면 한다.\n이번 겨울에는 모두 건강했으면 한다.",
+    "usage_context_vi": "Cấu tạo: V/A-았/었으면 + 하다. Diễn đạt mong muốn, thường ở câu kết của bài báo/thư. Nghĩa như -았/었으면 좋겠다 (đã học) nhưng trang trọng, \"văn viết\" hơn, hợp với 한다체.",
+    "topik_tip_vi": "Câu cuối bài có -았/었으면 한다 thường cho biết mục đích/mong muốn của người viết – đáp án của câu hỏi \"글을 쓴 목적\"."
+   },
+   {
+    "pattern": "N(thời điểm) + 기준(으로)",
+    "meaning_vi": "tính đến/ tính theo thời điểm N",
+    "level": 4,
+    "example_ko": "행정안전부 자료를 보면 지난 7월 말 기준 전국에서 1996가구 3371명이 2080동 ‘임시주거 조립주택’에서 생활한다.\n2025년 기준으로 한국에 사는 외국인은 270만 명을 넘었다.",
+    "usage_context_vi": "Cấu tạo: thời điểm/tiêu chí + 기준(으로). Ghi rõ mốc của số liệu. Khác N 현재 (\"hiện tại\") – 기준 nhấn mạnh đây là mốc tính toán.",
+    "topik_tip_vi": "Viết 53 (mô tả biểu đồ): mở đầu bằng \"2024년 기준 …\" giúp câu văn chính xác, tự nhiên."
+   }
+  ],
+  "reuse_grammar": [
+   "V/A + -(으)ㄹ수록 · N + 일수록",
+   "N + 에 영향을 미치다 · N + 에 악영향을 끼치다",
+   "그 결과 · V + -(으)ㄴ 결과",
+   "V + -다 보니(까) · V + -다가 보니(까)",
+   "N + 탓에 · V/A + -(으)ㄴ/는 탓에",
+   "V + -(으)ㄹ 겸 (-(으)ㄹ 겸 해서) · N + 겸 N"
+  ],
+  "model_outline": {
+   "phenomenon": "산불, 집중호우, 지진 등으로 집을 잃은 이재민 3371명이 아직도 임시주택에서 살고 있으며, 길게는 10년째 집으로 돌아가지 못한 사람도 있다.",
+   "cause": "임시주택은 원칙적으로 1년까지 살 수 있지만, 이재민 상당수가 고령이라 새집을 지을 경제적 여력이 없고 평생 살아온 터전을 떠나지도 못하기 때문이다.",
+   "consequence": "연구에 따르면 불안한 주거환경은 스트레스를 높이고 정신건강에 부정적 영향을 미친다. 게다가 임시주택이 호우에 떠내려가거나 부지 임대기간이 끝나 다시 옮겨야 하는 등 미흡한 관리가 또 한 번 상처를 주고 있다.",
+   "solution": "정부는 법령에 따른 점검이 현장에서 제대로 지켜지도록 하고 임시주택의 안전을 확보해야 한다. 또한 이재민이 하루라도 빨리 안전한 집으로 돌아갈 수 있도록 실질적인 지원을 해야 한다."
+  },
+  "thinking_guide_text": "1. Bài mở đầu bằng tin \"귀성·귀경길\" ngày lễ. Vì sao tác giả chọn cách mở bài này?\n2. Nghiên cứu được trích dẫn cho thấy mối quan hệ gì giữa nơi ở và sức khỏe tinh thần?\n3. Theo quy định, nhà tạm được ở bao lâu? Vì sao nhiều người vẫn ở lâu hơn thế?\n4. Tác giả chỉ ra những thiếu sót nào trong cách quản lý nhà tạm?\n5. Câu chuyện Odysseus được đưa vào để nói lên điều gì?",
+  "practice": [
+   {
+    "type": "mcq",
+    "skill": "reading",
+    "prompt_ko": "이 글의 내용과 같은 것을 고르십시오.",
+    "options": [
+     "임시주택에는 방과 화장실이 각각 두 개씩 있다.",
+     "임시주택은 원칙적으로 1년까지 살 수 있지만 연장할 수 있다.",
+     "경주 지진 이재민은 모두 새집으로 돌아갔다.",
+     "주거 만족도가 높을수록 지역 애착이 낮아진다."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "\"지침상으로는 … 1년까지 거주할 수 있다. 다만 관리기관이 인정하면 12개월 이내 단위로 연장할 수 있다.\" Nhà tạm có phòng và nhà vệ sinh \"1개씩\"; vẫn còn 2 người ở Gyeongju sống trong nhà tạm năm thứ 10; mức hài lòng cao thì gắn bó cao."
+   },
+   {
+    "type": "mcq",
+    "skill": "reading",
+    "prompt_ko": "필자가 이 글을 쓴 목적으로 가장 알맞은 것을 고르십시오.",
+    "options": [
+     "명절 귀성길 교통 상황을 알리려고",
+     "영화 <오디세이>의 줄거리를 소개하려고",
+     "아직 임시주택에 사는 이재민들의 어려움에 관심을 촉구하려고",
+     "주거환경 연구의 방법을 비판하려고"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "Phần lớn bài nói về 3371 người vẫn sống ở nhà tạm và việc quản lý yếu kém; câu kết \"…되찾았으면 한다\" thể hiện mong muốn xã hội quan tâm. Tin ngày lễ và phim chỉ là cách mở/kết bài."
+   },
+   {
+    "type": "mcq",
+    "skill": "vocab",
+    "prompt_ko": "외국인등록증의 체류 기간이 ___되기 전에 출입국사무소에서 연장 신청을 해야 한다.",
+    "options": [
+     "만료",
+     "애착",
+     "여력",
+     "터전"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "기간이 만료되다 = hết hạn. Đây là cụm rất thường gặp trên giấy tờ lưu trú."
+   },
+   {
+    "type": "mcq",
+    "skill": "vocab",
+    "prompt_ko": "태풍으로 집을 잃은 ___들은 학교 체육관에서 임시로 지내고 있다.",
+    "options": [
+     "거주",
+     "이재민",
+     "집중호우",
+     "임시주택"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "이재민 = người mất nhà do thiên tai; chỉ 이재민 là danh từ chỉ người."
+   },
+   {
+    "type": "mcq",
+    "skill": "grammar",
+    "prompt_ko": "10년 전___ 지금이나 이 시장의 분위기는 다르지 않다.",
+    "options": [
+     "이나",
+     "보다",
+     "부터",
+     "처럼"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "N(이)나 N(이)나 + 다르지 않다 = dù xưa hay nay cũng như nhau. Các trợ từ khác không ghép được với \"지금이나\"."
+   },
+   {
+    "type": "apply",
+    "prompt_vi": "Ở Việt Nam hay ở Hàn Quốc, bạn đã thấy người dân khó khăn về nơi ở sau bão, lũ chưa? Viết 2–3 câu tiếng Hàn dùng 이재민 hoặc 터전 và mẫu -았/었으면 하다.",
+    "model_ko": "베트남 중부에서는 해마다 태풍과 홍수로 많은 이재민이 생긴다. 집을 잃은 사람들이 오랫동안 임시 거처에서 지내는 경우도 많다. 정부와 사회가 힘을 모아 이들이 하루빨리 삶의 터전을 되찾았으면 한다."
+   }
+  ],
+  "quality": {
+   "score": 8,
+   "why_selected": "Bỏ thẻ -기 마련이다 (không có trong bài); -(으)ㄹ수록 đã có trong khóa → chuyển sang reuse_grammar; thêm 4 mẫu có thật trong bài (처지에 놓이다, N(이)나 N(이)나, -았/었으면 하다, N 기준). 귀성 đã có trong khóa → reuse_vocab; vocab lên 10 thẻ, ưu tiên từ dùng được ngay ở Hàn (만료, 거주하다, 간소화되다). Hạ cấp độ ước lượng còn 4 (văn kể, số liệu cụ thể); thêm luyện tập.",
+   "weaknesses": "Nhiều con số dễ gây rối; vài chỗ dính khoảng trắng trong nguyên bản (\"많다.평생\"); bối cảnh Chuseok 2026 sẽ cũ dần."
+  },
+  "related_lesson_slugs": [
+   "xa-hoi-15-dan-so-phuc-loi",
+   "cong-so-05-su-co-khieu-nai"
+  ]
+ },
+ {
+  "article_id_prefix": "ef6de109",
+  "level_estimate": 5,
+  "topic_tags": [
+   "trí tuệ nhân tạo",
+   "văn học",
+   "sáng tác",
+   "đạo văn"
+  ],
+  "unlock_hint": "Nên đọc sau khi học bài «Nghệ thuật, Di sản & Giá trị văn hóa» (창작하다, 작품, 수상하다); bài «Khoa học, công nghệ và khí hậu» bổ trợ phần AI.",
+  "vocab": [
+   {
+    "hangul": "한창",
+    "pos": "danh từ/trạng từ",
+    "meaning_vi": "đang lúc cao điểm, đang rộ",
+    "definition_ko": "어떤 일이 가장 활발하게 일어나는 때",
+    "level": 4,
+    "hanja": null,
+    "sino_vietnamese": null,
+    "example_ko": "요즘 남부 지방은 벼 수확이 한창이다.",
+    "example_vi": "Dạo này miền Nam đang vào mùa gặt rộ.",
+    "usage_note_vi": "Hai cách dùng: N이/가 한창이다 (đang rộ) và trạng từ 한창 V-고 있다 (đang lúc …). Đừng nhầm với 한참 (một lúc lâu).",
+    "register": null,
+    "collocations": [
+     "논쟁이 한창이다",
+     "한창 일하다",
+     "한창때"
+    ],
+    "exam": "topik-4"
+   },
+   {
+    "hangul": "항변하다",
+    "pos": "động từ",
+    "meaning_vi": "cãi lại, biện bạch (trước lời buộc tội)",
+    "definition_ko": "상대의 주장이나 비난에 맞서 자기 입장을 주장하다",
+    "level": 6,
+    "hanja": "抗辯",
+    "sino_vietnamese": "kháng biện",
+    "example_ko": "그는 자신은 아무 잘못이 없다고 끝까지 항변했다.",
+    "example_vi": "Anh ta khăng khăng cãi rằng mình không có lỗi gì.",
+    "usage_note_vi": "Dùng khi bị cáo buộc, chỉ trích; thường đi kèm -다고 항변하다. Gần nghĩa: 반박하다 (phản bác lập luận), 변명하다 (bào chữa, sắc thái tiêu cực).",
+    "register": "trang trọng",
+    "collocations": [
+     "-다고 항변하다",
+     "억울함을 항변하다"
+    ],
+    "exam": "topik-6"
+   },
+   {
+    "hangul": "표절",
+    "pos": "danh từ",
+    "meaning_vi": "sự đạo văn, đạo nhái",
+    "definition_ko": "남의 작품이나 글을 몰래 자기 것처럼 쓰는 일",
+    "level": 5,
+    "hanja": "剽竊",
+    "sino_vietnamese": "phiếu thiết",
+    "example_ko": "그 논문은 표절 의혹으로 철회되었다.",
+    "example_vi": "Bài luận văn đó đã bị rút lại vì nghi vấn đạo văn.",
+    "usage_note_vi": "Rất quan trọng với du học sinh: 표절 검사 (kiểm tra đạo văn), 표절 시비. Động từ: 표절하다.",
+    "register": null,
+    "collocations": [
+     "표절 의혹",
+     "표절 시비",
+     "표절 검사"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "생계",
+    "pos": "danh từ",
+    "meaning_vi": "kế sinh nhai",
+    "definition_ko": "살아 나가기 위한 방법이나 수단",
+    "level": 5,
+    "hanja": "生計",
+    "sino_vietnamese": "sinh kế",
+    "example_ko": "그는 아르바이트로 생계를 유지하며 소설을 썼다.",
+    "example_vi": "Anh ấy vừa sống bằng việc làm thêm vừa viết tiểu thuyết.",
+    "usage_note_vi": "Cụm thường gặp: 생계를 유지하다/잇다, 생계가 어렵다, 생계비. 근근이 생계를 유지하다 = sống lay lắt.",
+    "register": null,
+    "collocations": [
+     "생계를 유지하다",
+     "생계비",
+     "생계가 막막하다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "변호하다",
+    "pos": "động từ",
+    "meaning_vi": "bào chữa, bênh vực",
+    "definition_ko": "남을 위해 그의 입장을 옹호하여 말하다",
+    "level": 5,
+    "hanja": "辯護",
+    "sino_vietnamese": "biện hộ",
+    "example_ko": "그는 비난받는 친구를 끝까지 변호했다.",
+    "example_vi": "Cậu ấy bênh vực người bạn bị chỉ trích đến cùng.",
+    "usage_note_vi": "Nghĩa pháp lý: luật sư bào chữa (변호사). Nghĩa thường: bênh vực ai đó. Gần nghĩa: 옹호하다.",
+    "register": "trang trọng",
+    "collocations": [
+     "N을/를 변호하다",
+     "변호사"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "주체",
+    "pos": "danh từ",
+    "meaning_vi": "chủ thể",
+    "definition_ko": "어떤 일을 주도적으로 하는 사람이나 집단",
+    "level": 5,
+    "hanja": "主體",
+    "sino_vietnamese": "chủ thể",
+    "example_ko": "학생이 학습의 주체가 되어야 한다.",
+    "example_vi": "Học sinh phải trở thành chủ thể của việc học.",
+    "usage_note_vi": "Hay đi với 의 / 이/가 되다. Tính từ: 주체적 (chủ động, tự chủ). Đối lập: 객체, 대상.",
+    "register": "văn viết",
+    "collocations": [
+     "창작의 주체",
+     "주체가 되다",
+     "주체적"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "동원하다",
+    "pos": "động từ",
+    "meaning_vi": "huy động",
+    "definition_ko": "어떤 목적을 위해 사람, 물건, 방법을 모아 쓰다",
+    "level": 5,
+    "hanja": "動員",
+    "sino_vietnamese": "động viên",
+    "example_ko": "정부는 산불을 끄기 위해 헬기와 인력을 총동원했다.",
+    "example_vi": "Chính phủ huy động toàn bộ trực thăng và nhân lực để dập cháy rừng.",
+    "usage_note_vi": "Bẫy Hán-Việt: đọc \"động viên\" nhưng nghĩa là HUY ĐỘNG, không phải \"khích lệ\" (khích lệ = 격려하다).",
+    "register": "văn viết",
+    "collocations": [
+     "인력을 동원하다",
+     "총동원하다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "교감",
+    "pos": "danh từ",
+    "meaning_vi": "sự giao cảm, đồng cảm qua lại",
+    "definition_ko": "서로 마음이나 감정을 주고받음",
+    "level": 5,
+    "hanja": "交感",
+    "sino_vietnamese": "giao cảm",
+    "example_ko": "음악은 연주자와 관객 사이의 교감이다.",
+    "example_vi": "Âm nhạc là sự giao cảm giữa người biểu diễn và khán giả.",
+    "usage_note_vi": "Thường dùng: N와/과 교감하다, 교감을 나누다. Đồng âm: 교감 (phó hiệu trưởng).",
+    "register": "văn viết",
+    "collocations": [
+     "교감을 나누다",
+     "N와/과 교감하다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "명시하다",
+    "pos": "động từ",
+    "meaning_vi": "ghi rõ, nêu rõ",
+    "definition_ko": "분명하게 드러내어 적거나 보이다",
+    "level": 5,
+    "hanja": "明示",
+    "sino_vietnamese": "minh thị",
+    "example_ko": "계약서에 근무 시간과 임금을 명시해야 한다.",
+    "example_vi": "Phải ghi rõ giờ làm và tiền lương trong hợp đồng.",
+    "usage_note_vi": "Dùng với văn bản: 계약서, 법, 표지에 명시하다. Gần nghĩa: 밝히다 (thông thường hơn). Rất hữu ích khi đọc hợp đồng lao động/thuê nhà.",
+    "register": "trang trọng",
+    "collocations": [
+     "계약서에 명시하다",
+     "명시되다"
+    ],
+    "exam": "kiip-5"
+   },
+   {
+    "hangul": "고찰",
+    "pos": "danh từ",
+    "meaning_vi": "sự suy xét, khảo cứu sâu",
+    "definition_ko": "어떤 대상을 깊이 생각하고 연구함",
+    "level": 6,
+    "hanja": "考察",
+    "sino_vietnamese": "khảo sát",
+    "example_ko": "이 책은 인간의 고독에 대한 깊은 고찰을 담고 있다.",
+    "example_vi": "Cuốn sách này chứa đựng sự suy ngẫm sâu sắc về nỗi cô đơn của con người.",
+    "usage_note_vi": "Bẫy Hán-Việt: \"khảo sát\" trong tiếng Việt thường là survey (= 조사), còn 고찰 là suy ngẫm/khảo cứu mang tính học thuật. Hay gặp trong tiêu đề luận văn: \"…에 대한 고찰\".",
+    "register": "văn viết",
+    "collocations": [
+     "N에 대한 고찰",
+     "고찰하다"
+    ],
+    "exam": "topik-6"
+   }
+  ],
+  "reuse_vocab": [
+   "창작하다",
+   "수상하다",
+   "작품",
+   "독자",
+   "여론",
+   "투명성",
+   "영향력",
+   "난민"
+  ],
+  "grammar": [
+   {
+    "pattern": "V + -고 나서다",
+    "meaning_vi": "đứng ra/ra tay làm (chủ động hành động công khai)",
+    "level": 5,
+    "example_ko": "캐나다의 소속 출판사도 소설 관련 행사를 취소하고 나섰다.\n시민들이 직접 거리 청소를 하고 나섰다.",
+    "usage_context_vi": "Cấu tạo: V-고 + 나서다 (bước ra). Nhấn mạnh chủ thể chủ động, công khai làm việc gì (thường để phản ứng một tình huống). Khác hoàn toàn với -고 나서 (đã học: sau khi) – chú ý có 다 và nghĩa \"đứng ra\".",
+    "topik_tip_vi": "Tin tức hay dùng \"정부가 대책 마련에 나섰다 / 해결하고 나섰다\"; câu hỏi Đọc nội dung thường đổi thành \"…을/를 했다\"."
+   },
+   {
+    "pattern": "N + 에 가깝다",
+    "meaning_vi": "gần như là N, gần với N",
+    "level": 4,
+    "example_ko": "고뇌하면서 글을 써 내려가는 작가의 이미지에 충실한 전통주의자들은 AI를 동원한 글쓰기란 사기에 가깝다고 여긴다.\n그의 실력은 거의 전문가에 가깝다.",
+    "usage_context_vi": "Cấu tạo: N + 에 가깝다 (nghĩa bóng). Đánh giá mức độ \"gần đạt tới\" N. Khác N(이)나 다름없다 (đã học: chẳng khác gì – khẳng định mạnh hơn); 에 가깝다 dè dặt, khách quan hơn.",
+    "topik_tip_vi": "Bài 54 có thể dùng để đánh giá mềm: \"이는 사실상 불가능에 가깝다\"."
+   },
+   {
+    "pattern": "V + -(으)ㄹ 기세이다",
+    "meaning_vi": "có đà sắp …, có vẻ sắp … (với khí thế mạnh)",
+    "level": 6,
+    "example_ko": "마찬가지로 ‘디자인은 홍길동, 작성은 AI’와 같은 책들이 나올 기세다.\n비가 금방이라도 쏟아질 기세였다.",
+    "usage_context_vi": "Cấu tạo: V-(으)ㄹ + 기세(khí thế, đà) + 이다. Phỏng đoán một việc sắp xảy ra dựa trên đà/khí thế đang thấy. Khác -(으)ㄹ 것 같다 (phỏng đoán trung tính): 기세 gợi lực mạnh, khó cản.",
+    "topik_tip_vi": "Hiếm hơn nhưng có trong đề cao cấp; nhận ra 기세 giúp hiểu thái độ \"sắp bùng nổ\" của người viết."
+   },
+   {
+    "pattern": "V/A + -(ㄴ/는)다는 의미이다 · N + (이)라는 의미이다",
+    "meaning_vi": "có nghĩa là …",
+    "level": 4,
+    "example_ko": "AI를 만들어 낸 주체는 인간이지만 이제는 기계가 인간의 문법과 표현을 변화시키는 상호 영향의 텍스트 하이브리드화가 진행될 것이라는 의미다.\n출산율이 낮다는 것은 미래의 노동력이 줄어든다는 의미이다.",
+    "usage_context_vi": "Cấu tạo: mệnh đề trích dẫn -다는/(이)라는 + 의미이다. Giải thích, diễn giải lại ý câu trước. Gần -다는 뜻이다 (nghĩa như nhau; 의미 trang trọng hơn).",
+    "topik_tip_vi": "Rất hữu ích cho Viết 53–54 để giải thích số liệu: \"이는 … 다는 의미이다\"."
+   }
+  ],
+  "reuse_grammar": [
+   "N + 을/를 둘러싸고 · N + 을/를 계기로 · N + 에 맞서",
+   "V/A + -아/어야만 하다 · N + (이)라야",
+   "N + 에 그치다 · V + -는 데 그치다 · N + 에 불과하다 · V + -(으)ㄹ 따름이다",
+   "V/A + -더라도 · N + (이)더라도",
+   "N + (이)란 · N + (으)로 나뉘다/분류되다 · N + 에 기인하다",
+   "V/A + -(으)ㄹ지도 모르다 · N + 일지도 모르다"
+  ],
+  "model_outline": {
+   "phenomenon": "프랑스에서 인기를 끈 한 소설이 거의 전부 AI로 쓰였다는 판단을 받으면서, 창작과 AI의 관계를 둘러싼 논쟁이 커지고 있다.",
+   "cause": "AI가 문법과 표현을 효율적으로 만들어 낼 수 있게 되면서 인간이 쓴 글과 기계가 쓴 글의 경계가 흐려졌고, 무엇을 문학으로 볼 것인가에 대한 기준이 아직 없기 때문이다.",
+   "consequence": "작가를 변호하는 쪽은 AI가 도구에 불과하다고 보지만, 전통주의자와 독자 여론은 AI 글쓰기를 사기에 가깝다고 여긴다. 그 결과 해당 작품은 공쿠르문학상 수상 대상에서 제외되었다.",
+   "solution": "하나의 해결책은 AI를 얼마나 사용했는지 표지에 명시하는 투명성이다. 다만 AI의 글이 일상의 텍스트를 지배하면서 인간의 표현도 변하고 있으므로, 이러한 상호 영향을 직시하는 새로운 시각도 필요하다."
+  },
+  "thinking_guide_text": "1. Tranh cãi về cuốn tiểu thuyết bắt đầu từ đâu, và tác giả cuốn sách phản ứng thế nào?\n2. Truyện ngắn năm 1953 của Roald Dahl được nhắc tới để làm gì?\n3. Phe ủng hộ và phe phản đối nhìn \"chủ thể sáng tác\" khác nhau ra sao?\n4. Giải pháp \"minh bạch\" mà người viết gợi ý là gì, và vì sao theo người viết nó vẫn chưa giải quyết được vấn đề sâu hơn?\n5. Theo bạn, một bài văn chủ yếu do AI viết có thể gọi là \"văn học\" không?",
+  "practice": [
+   {
+    "type": "mcq",
+    "skill": "reading",
+    "prompt_ko": "이 글의 내용과 같은 것을 고르십시오.",
+    "options": [
+     "오렐리엥은 소설을 AI로 썼다고 인정했다.",
+     "로알드 달의 단편은 AI가 등장한 뒤에 발표되었다.",
+     "공쿠르문학상 위원회는 이 작품을 수상 대상에서 제외했다.",
+     "독자 여론은 대체로 AI 글쓰기에 호의적이다."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "\"공쿠르문학상 위원회가 그의 작품을 수상 대상에서 제외한다고 발표했고\". Tác giả phủ nhận (부정하면서); truyện của Dahl ra năm 1953; dư luận độc giả \"이런 시각에 가깝다\" tức nghiêng về phía phản đối."
+   },
+   {
+    "type": "mcq",
+    "skill": "reading",
+    "prompt_ko": "필자가 제시한 ‘하나의 해결책’으로 알맞은 것을 고르십시오.",
+    "options": [
+     "AI로 쓴 소설의 출판을 금지한다.",
+     "AI를 얼마나 사용했는지 책 표지에 밝힌다.",
+     "문학상에 AI 작가 부문을 따로 만든다.",
+     "프롬프트를 쓴 사람만 작가로 인정한다."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "\"하나의 해결책은 투명성일지도 모른다 … 표지에 명시하는 방식으로\" – ghi rõ mức độ dùng AI trên bìa sách."
+   },
+   {
+    "type": "mcq",
+    "skill": "vocab",
+    "prompt_ko": "그 정치인은 기자들의 질문에 ‘사실과 다르다’며 끝까지 ___했다.",
+    "options": [
+     "항변",
+     "교감",
+     "생계",
+     "주체"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "항변하다 = cãi lại, biện bạch khi bị chất vấn/buộc tội; khớp với \"사실과 다르다며\"."
+   },
+   {
+    "type": "mcq",
+    "skill": "vocab",
+    "prompt_ko": "정부는 산불을 끄기 위해 헬기 50대와 인력 3,000명을 ___했다.",
+    "options": [
+     "명시",
+     "동원",
+     "변호",
+     "표절"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "인력·장비를 동원하다 = huy động. Nhớ bẫy Hán-Việt: 동원 không phải \"động viên\" (khích lệ)."
+   },
+   {
+    "type": "mcq",
+    "skill": "grammar",
+    "prompt_ko": "실험 결과는 이 약이 효과가 거의 없다___ 의미이다.",
+    "options": [
+     "는",
+     "고",
+     "던",
+     "니"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "-다는 의미이다 = có nghĩa là. Sau mệnh đề trích dẫn cần định ngữ -는 để bổ nghĩa cho 의미."
+   },
+   {
+    "type": "apply",
+    "prompt_vi": "Khi làm bài tập tiếng Hàn, bạn có dùng AI không? Có nên ghi rõ việc đó không? Viết 2–3 câu tiếng Hàn dùng 명시하다 hoặc 표절 và mẫu N에 가깝다.",
+    "model_ko": "나는 한국어 숙제를 할 때 AI로 문법만 확인한다. 하지만 AI가 쓴 문장을 그대로 내는 것은 표절에 가깝다고 생각한다. 그래서 AI를 사용했다면 어디에 사용했는지 명시하는 것이 좋다."
+   }
+  ],
+  "quality": {
+   "score": 7,
+   "why_selected": "Bỏ 2 thẻ ngữ pháp không xuất hiện trong bài (-(으)ㄹ 수밖에 없다, -(으)ㄴ/는지 알다/모르다); thay bằng 4 mẫu có thật (-고 나서다, N에 가깝다, -(으)ㄹ 기세이다, -다는 의미이다). Bỏ 창작/인공지능 (đã có trong khóa, 인공지능 bị đánh cấp 6 sai) → reuse_vocab; vocab lên 10 thẻ, thêm cảnh báo bẫy Hán-Việt (동원, 고찰); thêm luyện tập.",
+   "weaknesses": "Bối cảnh văn học Pháp khá xa lạ; bài gốc có lỗi nhỏ (\"놀라운 따름이다\" thay vì \"놀라울 따름이다\") nên không dùng câu đó làm ví dụ."
+  },
+  "related_lesson_slugs": [
+   "cong-so-07-nghe-thuat-van-hoa",
+   "xa-hoi-12-khoa-hoc-cong-nghe",
+   "xa-hoi-13-tu-tuong-dao-duc"
+  ]
+ },
+ {
+  "article_id_prefix": "9fc3f106",
+  "level_estimate": 5,
+  "topic_tags": [
+   "trí tuệ nhân tạo",
+   "tư duy phản biện",
+   "học tập và công việc"
+  ],
+  "unlock_hint": "Nên đọc sau khi học bài «Khoa học, công nghệ và khí hậu»; bài «Tư tưởng, đạo đức và cách lập luận» giúp theo dõi lập luận của tác giả.",
+  "vocab": [
+   {
+    "hangul": "착각",
+    "pos": "danh từ",
+    "meaning_vi": "sự nhầm tưởng, ảo tưởng",
+    "definition_ko": "실제와 다르게 잘못 알거나 생각함",
+    "level": 4,
+    "hanja": "錯覺",
+    "sino_vietnamese": "thác giác",
+    "example_ko": "문이 열려 있는 줄 착각하고 그냥 나왔다.",
+    "example_vi": "Tôi tưởng nhầm cửa đang mở nên cứ thế đi ra.",
+    "usage_note_vi": "Động từ: 착각하다 (A를 B로 착각하다; -(으)ㄴ/는 줄 착각하다). Cụm: 착각에 빠지다. Khác 오해 (hiểu lầm người khác).",
+    "register": null,
+    "collocations": [
+     "착각하다",
+     "착각에 빠지다",
+     "-(으)ㄴ 줄 착각하다"
+    ],
+    "exam": "topik-4"
+   },
+   {
+    "hangul": "역량",
+    "pos": "danh từ",
+    "meaning_vi": "năng lực (thực tế để làm được việc)",
+    "definition_ko": "어떤 일을 해낼 수 있는 힘",
+    "level": 5,
+    "hanja": "力量",
+    "sino_vietnamese": "lực lượng",
+    "example_ko": "이번 프로젝트로 팀의 역량을 키울 수 있었다.",
+    "example_vi": "Nhờ dự án lần này, đội đã nâng cao được năng lực.",
+    "usage_note_vi": "Bẫy Hán-Việt: đọc \"lực lượng\" nhưng nghĩa là NĂNG LỰC. Gần nghĩa 능력; 역량 hay dùng trong tuyển dụng, giáo dục (핵심 역량, 직무 역량).",
+    "register": "văn viết",
+    "collocations": [
+     "역량을 키우다",
+     "핵심 역량",
+     "역량 강화"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "지칭하다",
+    "pos": "động từ",
+    "meaning_vi": "chỉ, gọi tên (một đối tượng)",
+    "definition_ko": "어떤 대상을 가리켜 부르다",
+    "level": 6,
+    "hanja": "指稱",
+    "sino_vietnamese": "chỉ xưng",
+    "example_ko": "‘MZ세대’는 1980년대 초부터 2000년대 초에 태어난 세대를 지칭한다.",
+    "example_vi": "\"Thế hệ MZ\" chỉ những người sinh từ đầu thập niên 1980 đến đầu 2000.",
+    "usage_note_vi": "Dùng khi giải thích thuật ngữ: N은/는 N을/를 지칭한다/지칭하는 말이다. Gần nghĩa: 가리키다 (thông thường hơn).",
+    "register": "văn viết",
+    "collocations": [
+     "N을/를 지칭하다",
+     "지칭하는 용어"
+    ],
+    "exam": "topik-6"
+   },
+   {
+    "hangul": "과대평가하다",
+    "pos": "động từ",
+    "meaning_vi": "đánh giá quá cao",
+    "definition_ko": "실제보다 지나치게 높이 평가하다",
+    "level": 5,
+    "hanja": "過大評價",
+    "sino_vietnamese": "quá đại bình giá",
+    "example_ko": "그는 자기 실력을 과대평가해서 준비 없이 시험을 봤다.",
+    "example_vi": "Anh ta đánh giá quá cao năng lực bản thân nên đi thi mà không chuẩn bị.",
+    "usage_note_vi": "Trái nghĩa: 과소평가하다 (đánh giá quá thấp). Danh từ: 과대평가.",
+    "register": "văn viết",
+    "collocations": [
+     "능력을 과대평가하다",
+     "과소평가하다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "대면",
+    "pos": "danh từ",
+    "meaning_vi": "sự gặp mặt trực tiếp",
+    "definition_ko": "서로 얼굴을 마주 보고 대함",
+    "level": 4,
+    "hanja": "對面",
+    "sino_vietnamese": "đối diện",
+    "example_ko": "코로나 이후 다시 대면 수업이 시작되었다.",
+    "example_vi": "Sau Covid, các lớp học trực tiếp đã bắt đầu lại.",
+    "usage_note_vi": "Từ phổ biến sau Covid: 대면 수업/회의/진료 vs 비대면 (trực tuyến, không gặp mặt).",
+    "register": null,
+    "collocations": [
+     "대면 회의",
+     "비대면",
+     "대면 수업"
+    ],
+    "exam": "topik-4"
+   },
+   {
+    "hangul": "검증하다",
+    "pos": "động từ",
+    "meaning_vi": "kiểm chứng",
+    "definition_ko": "사실인지 아닌지를 조사하여 밝히다",
+    "level": 5,
+    "hanja": "檢證",
+    "sino_vietnamese": "kiểm chứng",
+    "example_ko": "인터넷 정보는 반드시 다른 자료로 검증해야 한다.",
+    "example_vi": "Thông tin trên mạng nhất định phải kiểm chứng bằng tài liệu khác.",
+    "usage_note_vi": "Khác 검토하다 (đã học: xem xét, rà soát nội dung): 검증하다 là xác minh đúng/sai bằng chứng cứ. Cụm: 사실 검증, 교차 검증.",
+    "register": "văn viết",
+    "collocations": [
+     "사실을 검증하다",
+     "검증 비용",
+     "교차 검증"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "수용하다",
+    "pos": "động từ",
+    "meaning_vi": "tiếp nhận, chấp nhận",
+    "definition_ko": "어떤 것을 받아들이다",
+    "level": 5,
+    "hanja": "受容",
+    "sino_vietnamese": "thụ dung",
+    "example_ko": "회사는 직원들의 요구를 일부 수용했다.",
+    "example_vi": "Công ty đã chấp nhận một phần yêu cầu của nhân viên.",
+    "usage_note_vi": "Văn viết của 받아들이다. Đối tượng: 의견, 요구, 비판, 문화. Đồng âm 수용 (chứa, tiếp nhận người: 수용 시설).",
+    "register": "văn viết",
+    "collocations": [
+     "의견을 수용하다",
+     "비판 없이 수용하다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "파악하다",
+    "pos": "động từ",
+    "meaning_vi": "nắm bắt, nắm rõ",
+    "definition_ko": "어떤 대상의 내용이나 상황을 확실하게 이해하여 알다",
+    "level": 4,
+    "hanja": "把握",
+    "sino_vietnamese": "bả ác",
+    "example_ko": "먼저 문제의 원인을 정확히 파악해야 한다.",
+    "example_vi": "Trước hết phải nắm rõ nguyên nhân của vấn đề.",
+    "usage_note_vi": "Đối tượng: 상황, 원인, 내용, 의도. Rất hay gặp trong đề Đọc: \"글의 의도를 파악하다\".",
+    "register": null,
+    "collocations": [
+     "상황을 파악하다",
+     "원인을 파악하다"
+    ],
+    "exam": "topik-4"
+   },
+   {
+    "hangul": "가중되다",
+    "pos": "động từ",
+    "meaning_vi": "bị tăng nặng (gánh nặng, áp lực)",
+    "definition_ko": "부담이나 책임 등이 더 무거워지다",
+    "level": 5,
+    "hanja": "加重",
+    "sino_vietnamese": "gia trọng",
+    "example_ko": "인력이 부족해 남은 직원들의 업무 부담이 가중되고 있다.",
+    "example_vi": "Vì thiếu người nên gánh nặng công việc của nhân viên còn lại ngày càng nặng.",
+    "usage_note_vi": "Chủ ngữ hầu như là 부담, 고통, 피로, 책임. Chủ động: 가중시키다.",
+    "register": "văn viết",
+    "collocations": [
+     "부담이 가중되다",
+     "고통을 가중시키다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "위탁하다",
+    "pos": "động từ",
+    "meaning_vi": "ủy thác, giao phó",
+    "definition_ko": "어떤 일을 남에게 맡겨 부탁하다",
+    "level": 6,
+    "hanja": "委託",
+    "sino_vietnamese": "ủy thác",
+    "example_ko": "시는 쓰레기 수거 업무를 민간 업체에 위탁했다.",
+    "example_vi": "Thành phố đã giao việc thu gom rác cho doanh nghiệp tư nhân.",
+    "usage_note_vi": "Gần 위임하다 (ủy nhiệm – trao quyền quyết định); 위탁하다 là giao việc cho người khác làm thay. Bài dùng cả hai: 사고와 판단을 위탁하다 / 무엇을 위임하고.",
+    "register": "trang trọng",
+    "collocations": [
+     "업무를 위탁하다",
+     "위탁 운영"
+    ],
+    "exam": "topik-6"
+   }
+  ],
+  "reuse_vocab": [
+   "근거",
+   "확신",
+   "오류",
+   "검토하다",
+   "제출하다",
+   "책임지다",
+   "신뢰",
+   "효율"
+  ],
+  "grammar": [
+   {
+    "pattern": "N은/는 V/A + -다는 데(에) 있다",
+    "meaning_vi": "(vấn đề/mục đích/lý do) nằm ở chỗ …",
+    "level": 5,
+    "example_ko": "문제는 이러한 일이 개인의 역량 저하뿐 아니라 사회적 비용을 발생시킨다는 데 있다.\n이 정책의 장점은 누구나 쉽게 이용할 수 있다는 데 있다.",
+    "usage_context_vi": "Cấu tạo: 문제/원인/목적/장점 + 은/는 + mệnh đề -다는 데(에) 있다. Chỉ ra cốt lõi của vấn đề. Khác -기 때문이다 (đã học: nêu nguyên nhân) – mẫu này \"đặt tên\" cho điểm mấu chốt, rất trang trọng.",
+    "topik_tip_vi": "Câu \"문제는 …다는 데 있다\" thường là câu chủ đề của đoạn; trong Viết 54, có thể dùng để nêu vấn đề ở phần mở bài."
+   },
+   {
+    "pattern": "V + -는 순간",
+    "meaning_vi": "ngay khoảnh khắc …",
+    "level": 4,
+    "example_ko": "AI가 사라지는 순간, 능력도 함께 사라지는 경우가 많다.\n그 노래를 듣는 순간 고향 생각이 났다.",
+    "usage_context_vi": "Cấu tạo: V-는 + 순간(에). Nhấn mạnh hai việc xảy ra gần như cùng lúc, thường gây ấn tượng mạnh. Khác -자마자 (đã học: vừa … liền) – -는 순간 kịch tính hơn, và 순간 là danh từ nên dùng được như 그 순간, 마지막 순간.",
+    "topik_tip_vi": "Hay gặp trong bài Đọc kể chuyện; câu sau -는 순간 thường là sự thay đổi cảm xúc/nhận thức."
+   },
+   {
+    "pattern": "N도 마찬가지이다",
+    "meaning_vi": "N cũng vậy, N cũng như thế",
+    "level": 4,
+    "example_ko": "문자와 인쇄술이 그렇고, 컴퓨터와 인터넷이 그렇다. AI도 마찬가지다.\n외국어 공부도 마찬가지다. 매일 조금씩 해야 실력이 는다.",
+    "usage_context_vi": "Cấu tạo: N + 도 + 마찬가지(이)다. Áp dụng nhận định vừa nêu cho một đối tượng mới. Khác N(이)나 마찬가지이다 (đã học: chẳng khác gì N) – ở đây không so sánh bản chất, mà nói \"cũng thế\".",
+    "topik_tip_vi": "Trong lập luận, câu \"N도 마찬가지다\" là tín hiệu tác giả đang khái quát – giúp tìm câu chủ đề."
+   }
+  ],
+  "reuse_grammar": [
+   "V + -자 (vừa … thì …)",
+   "V + -(으)ㄹ 만하다",
+   "V + -느라고",
+   "V/A + -(으)ㄴ/는 셈이다",
+   "V/A + -다는 점이다 · V/A + -(으)ㄴ/는 점에서",
+   "V/A + -(으)ㄹ 뿐만 아니라 · N + 뿐만 아니라"
+  ],
+  "model_outline": {
+   "phenomenon": "AI의 도움으로 만든 결과물을 자기 능력으로 착각하는 ‘LLM 착각’과, AI의 답을 검토 없이 받아들이는 ‘인지적 항복’이 주변에서 흔히 나타나고 있다.",
+   "cause": "AI가 전문적인 일을 척척 해내고 인간과 AI의 상호작용이 자연스러워지면서, 어디까지가 내 능력이고 어디부터가 도구의 능력인지 경계가 흐려졌기 때문이다.",
+   "consequence": "AI가 사라지는 순간 능력도 함께 사라질 뿐 아니라, 검토되지 않은 결과물을 받은 사람은 오류를 고치느라 업무 부담이 가중된다. 이는 공동체의 불신을 키우고 사회 전체의 검증 비용을 높인다.",
+   "solution": "AI를 사고를 위탁하는 수단이 아니라 능력을 강화하는 도구로 써야 한다. 무엇을 맡기고 무엇을 스스로 판단하고 책임질지 구분하며, 스스로 설명하고 답할 수 있는 만큼을 진짜 역량으로 여겨야 한다."
+  },
+  "thinking_guide_text": "1. \"LLM 착각\" và \"인지적 항복\" khác nhau ở điểm nào?\n2. Tác giả đưa ra những ví dụ nào (email, báo cáo, phỏng vấn, bài tập…)? Bạn có thấy mình trong ví dụ nào không?\n3. Vì sao tác giả cho rằng đây không chỉ là thiệt hại của cá nhân mà còn là \"chi phí xã hội\"?\n4. Theo tác giả, ranh giới giữa \"dùng AI để tăng năng lực\" và \"giao phó tư duy\" nằm ở đâu?\n5. Câu kết bài định nghĩa \"năng lực thật\" như thế nào? Bạn có đồng ý không?",
+  "practice": [
+   {
+    "type": "mcq",
+    "skill": "reading",
+    "prompt_ko": "이 글의 내용과 같은 것을 고르십시오.",
+    "options": [
+     "‘LLM 착각’은 자신의 능력을 실제보다 낮게 평가하는 현상이다.",
+     "필자는 AI를 사용하는 것 자체가 문제라고 주장한다.",
+     "검토되지 않은 AI 결과물은 다른 사람의 업무 부담을 늘릴 수 있다.",
+     "‘인지적 항복’은 AI의 답을 비판적으로 검증하는 태도를 말한다."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "\"검토되지 않은 AI 산출물을 받은 사람은 오류를 수정하고 팩트체크를 하느라 업무 부담이 가중된다.\" LLM 착각 là đánh giá QUÁ CAO; tác giả nói dùng AI để tăng năng lực \"문제가 되지 않는다\"; 인지적 항복 là chấp nhận KHÔNG phê phán."
+   },
+   {
+    "type": "mcq",
+    "skill": "reading",
+    "prompt_ko": "이 글의 중심 생각으로 가장 알맞은 것을 고르십시오.",
+    "options": [
+     "스스로 설명하고 책임질 수 있는 것만이 진짜 역량이다.",
+     "AI를 활용하면 영어 실력이 빠르게 향상된다.",
+     "학교에서는 AI 사용을 금지해야 한다.",
+     "문자와 인쇄술은 AI보다 위험한 도구였다."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Câu kết: \"AI시대에도 책임지고, 설명하고, 질문에 답할 수 있는 만큼이 내 역량이다.\""
+   },
+   {
+    "type": "mcq",
+    "skill": "vocab",
+    "prompt_ko": "그는 자기 실력을 ___해서 아무 준비도 없이 어려운 시험에 지원했다.",
+    "options": [
+     "과대평가",
+     "위탁",
+     "대면",
+     "가중"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "과대평가하다 = đánh giá quá cao; dẫn đến \"không chuẩn bị gì\"."
+   },
+   {
+    "type": "mcq",
+    "skill": "vocab",
+    "prompt_ko": "코로나19 때 온라인으로 바뀌었던 수업이 다시 ___ 수업으로 돌아왔다.",
+    "options": [
+     "착각",
+     "대면",
+     "역량",
+     "파악"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "대면 수업 = học trực tiếp, đối lập với học online."
+   },
+   {
+    "type": "mcq",
+    "skill": "grammar",
+    "prompt_ko": "문을 여는 ___ 고양이가 밖으로 뛰어나갔다.",
+    "options": [
+     "순간",
+     "바람",
+     "대신",
+     "덕분"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "-는 순간 dùng được không cần 에. \"-는 바람\" và \"-는 덕분\" bắt buộc phải có 에 (-는 바람에, -는 덕분에) nên sai; -는 대신 sai nghĩa."
+   },
+   {
+    "type": "apply",
+    "prompt_vi": "Bạn đã từng \"tưởng mình biết\" nhờ AI hay công cụ dịch chưa (ví dụ khi học tiếng Hàn)? Viết 2–3 câu tiếng Hàn dùng 착각 và mẫu -는 순간.",
+    "model_ko": "AI가 고쳐 준 한국어 작문을 보고 내 실력이 많이 늘었다고 착각한 적이 있다. 그런데 한국 친구와 직접 이야기하는 순간 말이 잘 나오지 않았다. 그 후로는 AI의 설명을 내가 다시 설명할 수 있을 때까지 공부한다."
+   }
+  ],
+  "quality": {
+   "score": 8,
+   "why_selected": "Giữ -다는 데 있다 (có thật trong bài) nhưng viết lại giải thích; -(으)ㄹ 뿐만 아니라 đã có trong khóa → reuse_grammar; thêm -는 순간, N도 마찬가지이다. Vocab 4→10 (bỏ 귀인하다 vì quá chuyên môn, giữ 착각, 위탁하다); thêm bẫy Hán-Việt (역량) và phân biệt 검증/검토; thêm luyện tập.",
+   "weaknesses": "Có thuật ngữ tiếng Anh (LLM Fallacy, cognitive surrender); lập luận trừu tượng ở đoạn 5."
+  },
+  "related_lesson_slugs": [
+   "xa-hoi-12-khoa-hoc-cong-nghe",
+   "xa-hoi-13-tu-tuong-dao-duc",
+   "xa-hoi-17-tieu-dung-xa-hoi-so"
+  ]
+ },
+ {
+  "article_id_prefix": "764038af",
+  "level_estimate": 6,
+  "topic_tags": [
+   "biến đổi khí hậu",
+   "chính sách môi trường",
+   "nóng lên toàn cầu"
+  ],
+  "unlock_hint": "Nên đọc sau khi học bài «Khoa học, công nghệ và khí hậu»; bài «Chính trị, pháp luật và quyền công dân» giúp hiểu phần chính sách và Quốc hội.",
+  "vocab": [
+   {
+    "hangul": "출현",
+    "pos": "danh từ",
+    "meaning_vi": "sự xuất hiện (của sinh vật, hiện tượng mới)",
+    "definition_ko": "나타나거나 생겨남",
+    "level": 4,
+    "hanja": "出現",
+    "sino_vietnamese": "xuất hiện",
+    "example_ko": "도심에 멧돼지가 출현해 주민들이 놀랐다.",
+    "example_vi": "Lợn rừng xuất hiện giữa thành phố khiến người dân hoảng hốt.",
+    "usage_note_vi": "Văn viết của 나타남; dùng với sinh vật, hiện tượng, công nghệ mới: 신종 바이러스의 출현. Động từ: 출현하다.",
+    "register": "văn viết",
+    "collocations": [
+     "출현 빈도",
+     "N이/가 출현하다"
+    ],
+    "exam": "topik-4"
+   },
+   {
+    "hangul": "아열대",
+    "pos": "danh từ",
+    "meaning_vi": "cận nhiệt đới",
+    "definition_ko": "열대와 온대 사이의 지역이나 기후",
+    "level": 5,
+    "hanja": "亞熱帶",
+    "sino_vietnamese": "á nhiệt đới",
+    "example_ko": "제주도 바다에서 아열대 어종이 늘고 있다.",
+    "example_vi": "Ở biển Jeju, các loài cá cận nhiệt đới đang tăng lên.",
+    "usage_note_vi": "Hay đi với 기후, 어종 (loài cá), 과일. 열대 (nhiệt đới) – 아열대 – 온대 (ôn đới).",
+    "register": null,
+    "collocations": [
+     "아열대 기후",
+     "아열대 어종"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "수온",
+    "pos": "danh từ",
+    "meaning_vi": "nhiệt độ nước",
+    "definition_ko": "물의 온도",
+    "level": 4,
+    "hanja": "水溫",
+    "sino_vietnamese": "thủy ôn",
+    "example_ko": "바닷물 수온이 올라가면서 산호가 하얗게 변하고 있다.",
+    "example_vi": "Khi nhiệt độ nước biển tăng, san hô đang chuyển sang màu trắng.",
+    "usage_note_vi": "Cùng họ: 기온 (nhiệt độ không khí), 체온 (thân nhiệt). Động từ đi kèm: 수온이 오르다/상승하다.",
+    "register": null,
+    "collocations": [
+     "수온 상승",
+     "수온이 오르다"
+    ],
+    "exam": "topik-4"
+   },
+   {
+    "hangul": "빈도",
+    "pos": "danh từ",
+    "meaning_vi": "tần suất",
+    "definition_ko": "같은 일이 되풀이되는 정도",
+    "level": 5,
+    "hanja": "頻度",
+    "sino_vietnamese": "tần độ",
+    "example_ko": "최근 폭염이 나타나는 빈도가 높아졌다.",
+    "example_vi": "Gần đây tần suất xảy ra nắng nóng gay gắt đã tăng lên.",
+    "usage_note_vi": "Kết hợp: 빈도가 높다/낮다, 사용 빈도, 고빈도 어휘. Hữu ích khi mô tả số liệu (Viết 53).",
+    "register": "văn viết",
+    "collocations": [
+     "빈도가 높다",
+     "사용 빈도",
+     "출현 빈도"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "감축",
+    "pos": "danh từ",
+    "meaning_vi": "sự cắt giảm (lượng, quy mô)",
+    "definition_ko": "수량이나 규모를 줄임",
+    "level": 5,
+    "hanja": "減縮",
+    "sino_vietnamese": "giảm súc",
+    "example_ko": "정부는 2030년까지 온실가스 40% 감축을 목표로 한다.",
+    "example_vi": "Chính phủ đặt mục tiêu cắt giảm 40% khí nhà kính đến năm 2030.",
+    "usage_note_vi": "Dùng với 온실가스, 인원, 예산, 생산. Gần nghĩa 감소 (giảm – tự nhiên giảm) – 감축 là chủ động cắt giảm.",
+    "register": "văn viết",
+    "collocations": [
+     "온실가스 감축",
+     "인원 감축",
+     "감축 목표"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "간극",
+    "pos": "danh từ",
+    "meaning_vi": "khoảng cách, khe hở (giữa hai thứ)",
+    "definition_ko": "두 사물이나 생각 사이의 틈이나 차이",
+    "level": 6,
+    "hanja": "間隙",
+    "sino_vietnamese": "gian khích",
+    "example_ko": "이상과 현실 사이의 간극을 좁혀야 한다.",
+    "example_vi": "Phải thu hẹp khoảng cách giữa lý tưởng và hiện thực.",
+    "usage_note_vi": "Cụm: 간극을 좁히다/메우다, 간극이 크다. Trang trọng hơn 차이, 격차 (격차 thường về kinh tế, số liệu).",
+    "register": "văn viết",
+    "collocations": [
+     "간극을 메우다",
+     "간극을 좁히다"
+    ],
+    "exam": "topik-6"
+   },
+   {
+    "hangul": "지체",
+    "pos": "danh từ",
+    "meaning_vi": "sự chậm trễ, trì hoãn",
+    "definition_ko": "때를 늦추거나 오래 끎",
+    "level": 5,
+    "hanja": "遲滯",
+    "sino_vietnamese": "trì trệ",
+    "example_ko": "도로 공사로 차량 지체가 심하다.",
+    "example_vi": "Do sửa đường nên xe cộ ùn ứ nghiêm trọng.",
+    "usage_note_vi": "Gặp hằng ngày trong tin giao thông: 지체와 서행 (chậm, ùn). Bài dùng 기후 지체 담론 = lập luận trì hoãn hành động khí hậu. Động từ: 지체하다, 지체되다.",
+    "register": "văn viết",
+    "collocations": [
+     "지체 없이",
+     "차량 지체",
+     "기후 지체"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "담론",
+    "pos": "danh từ",
+    "meaning_vi": "diễn ngôn, luồng lập luận/quan điểm trong xã hội",
+    "definition_ko": "어떤 주제에 대해 사회적으로 오가는 말과 논의",
+    "level": 6,
+    "hanja": "談論",
+    "sino_vietnamese": "đàm luận",
+    "example_ko": "공정에 대한 담론이 청년 세대를 중심으로 확산되었다.",
+    "example_vi": "Diễn ngôn về sự công bằng đã lan rộng, chủ yếu trong thế hệ trẻ.",
+    "usage_note_vi": "Từ học thuật, gặp nhiều trong bài nghị luận, xã luận. Khác 논의 (thảo luận cụ thể) – 담론 là cả hệ thống cách nói, cách nghĩ.",
+    "register": "văn viết",
+    "collocations": [
+     "사회적 담론",
+     "담론을 형성하다"
+    ],
+    "exam": "topik-6"
+   },
+   {
+    "hangul": "회피하다",
+    "pos": "động từ",
+    "meaning_vi": "né tránh, lẩn tránh",
+    "definition_ko": "책임이나 일을 피하다",
+    "level": 5,
+    "hanja": "回避",
+    "sino_vietnamese": "hồi tị",
+    "example_ko": "그는 질문에 답하지 않고 책임을 회피했다.",
+    "example_vi": "Anh ta không trả lời câu hỏi mà né tránh trách nhiệm.",
+    "usage_note_vi": "Đối tượng: 책임, 질문, 문제, 현실. Gần nghĩa 피하다 (thông thường).",
+    "register": "văn viết",
+    "collocations": [
+     "책임을 회피하다",
+     "문제를 회피하다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "미온적",
+    "pos": "định từ/danh từ",
+    "meaning_vi": "nửa vời, thiếu quyết liệt",
+    "definition_ko": "태도가 분명하지 않고 적극적이지 않은 (것)",
+    "level": 6,
+    "hanja": "微溫的",
+    "sino_vietnamese": "vi ôn đích",
+    "example_ko": "정부의 미온적인 대응에 시민들이 실망했다.",
+    "example_vi": "Người dân thất vọng trước cách ứng phó nửa vời của chính phủ.",
+    "usage_note_vi": "Nghĩa đen: âm ấm. Luôn mang ý phê phán: 미온적 태도/대응. Trái nghĩa: 적극적, 단호한.",
+    "register": "văn viết",
+    "collocations": [
+     "미온적 태도",
+     "미온적인 대응"
+    ],
+    "exam": "topik-6"
+   }
+  ],
+  "reuse_vocab": [
+   "온난화",
+   "온실가스",
+   "탄소",
+   "무관하다",
+   "급증하다",
+   "부작용",
+   "개정",
+   "경고"
+  ],
+  "grammar": [
+   {
+    "pattern": "N + 와/과 무관하지 않다 (무관치 않다)",
+    "meaning_vi": "không phải không liên quan đến N (= có liên quan)",
+    "level": 5,
+    "example_ko": "하지만 부산 북항 수로에 들어온 상어가 한반도 온난화와 무관치 않다는 지적에는 많은 이들이 전에 없는 관심을 보이며 크게 호응하고 있다.\n정부의 기후정책 실패 또한 이러저러한 기후 지체 담론과 무관하지 않다.",
+    "usage_context_vi": "Cấu tạo: N와/과 + 무관하다 (từ đã học) + phủ định -지 않다 (rút gọn 무관치 않다). Phủ định kép để khẳng định một cách dè dặt: \"có liên quan\". Khác N와/과 관련이 있다 (khẳng định thẳng) – mẫu này thận trọng, hay dùng khi nêu nguyên nhân chưa chắc chắn.",
+    "topik_tip_vi": "Trong Viết 54, dùng để nêu nguyên nhân mà không quá võ đoán: \"이러한 현상은 … 와/과 무관하지 않다\"."
+   },
+   {
+    "pattern": "N + (이)라고는 하지만 · V/A + -다고는 하지만",
+    "meaning_vi": "tuy (người ta) nói là … nhưng",
+    "level": 5,
+    "example_ko": "식인상어라고는 하지만 안전하게 만날 수 있는 부캉이의 귀엽고도 비범한 자태와 몸짓 덕분일 것이다.\n봄이라고는 하지만 아직 바람이 차다.",
+    "usage_context_vi": "Cấu tạo: trích dẫn -다고/(이)라고 + 는 (nhấn mạnh) + 하지만. Thừa nhận một cách gọi/nhận định chung rồi nêu thực tế trái ngược. Khác -기는 하지만 (đã học: thừa nhận sự thật của chính mình) – mẫu này thừa nhận \"lời người ta nói\".",
+    "topik_tip_vi": "Đề Đọc hay kiểm tra ý của vế sau: thông tin quan trọng nằm sau -고는 하지만."
+   },
+   {
+    "pattern": "V + -기란 + A/N이다",
+    "meaning_vi": "việc … thì (thật là) …",
+    "level": 5,
+    "example_ko": "정부가 분명한 의지와 신호를 보내지 않는 상황에서 시민들이 유효한 기후행동에 나서기란 난망한 일이다.\n외국에서 혼자 집을 구하기란 쉽지 않다.",
+    "usage_context_vi": "Cấu tạo: V-기 (danh từ hóa) + 란 (= 라는 것은) + đánh giá (어렵다, 쉽지 않다, 불가능하다…). Nêu một hành động làm chủ đề rồi đánh giá, thường về độ khó. Khác N(이)란 (đã học: định nghĩa \"N là …\").",
+    "topik_tip_vi": "Mẫu rất hay để nêu khó khăn trong bài 54: \"…을 완전히 해결하기란 쉽지 않다\"."
+   },
+   {
+    "pattern": "N + 을/를 넘어(서)",
+    "meaning_vi": "vượt quá (mức) N, không dừng ở N mà còn hơn",
+    "level": 5,
+    "example_ko": "그마저도 개발과 성장 논리의 위세에 눌려 지체를 넘어 속박된 것이 현실이다.\n이 문제는 개인을 넘어 사회 전체의 과제가 되었다.",
+    "usage_context_vi": "Cấu tạo: N + 을/를 넘어(서). Diễn tả mức độ tăng tiến: từ N lên mức cao hơn. Gần -(으)ㄹ 뿐만 아니라 (đã học) nhưng nhấn mạnh sự \"vượt ngưỡng\" theo một thang mức độ.",
+    "topik_tip_vi": "Hay gặp trong tiêu đề và câu chủ đề: \"N을 넘어 N으로\" (từ … tiến tới …)."
+   }
+  ],
+  "reuse_grammar": [
+   "N + 덕분에 · V + -(으)ㄴ/는 덕분에",
+   "V/A + -(으)ㄹ지도 모르다 · N + 일지도 모르다",
+   "V/A + -더라도 · N + (이)더라도",
+   "N + 대비 · N + 을/를 차지하다 · N + 을/를 기록하다",
+   "V/A + -(으)ㄴ/는 동시에 · V/A + -(으)면서도 · N + 이자 N",
+   "N + (이)란 · N + (으)로 나뉘다/분류되다 · N + 에 기인하다"
+  ],
+  "model_outline": {
+   "phenomenon": "부산 북항에 나타난 상어 ‘부캉이’를 계기로 한반도 바다의 온난화에 대한 시민들의 관심이 높아졌지만, 그 관심이 기후정책에 대한 요구로는 이어지지 않고 있다.",
+   "cause": "정부가 기후변화와 정책 사이의 연결을 환기하지 않고, 1.5도 목표가 사실상 어려워졌다는 유엔환경계획 보고서에도 아무 입장을 내놓지 않는 등 ‘기후 지체 담론’에서 벗어나지 못하고 있기 때문이다.",
+   "consequence": "기후위기를 해결할 큰 그림이 없고 이를 세부 정책으로 잇는 고리도 끊어져 있다. 기후 대응은 일부 공무원의 일로 여겨지며 개발과 성장 논리에 밀려 지체를 넘어 속박된 상태이다.",
+   "solution": "정부가 분명한 의지와 신호를 보내 시민의 관심을 실제 기후행동과 정책으로 연결해야 한다. 책임 돌리기나 미온적 대응 같은 기후 지체 담론을 뛰어넘는 과감한 전환이 필요하다."
+  },
+  "thinking_guide_text": "1. \"부캉이\" là gì, và vì sao nó thu hút người dân hơn các dấu hiệu khí hậu khác?\n2. Tác giả liệt kê những hiện tượng nào mà theo tác giả \"liên kết chặt chẽ\" với nhau?\n3. Báo cáo \"Overshoot\" của UNEP nói gì, và phản ứng của chính phủ ra sao?\n4. \"기후 지체 담론\" gồm bốn kiểu lập luận nào? Hãy nghĩ một ví dụ đời thường cho mỗi kiểu.\n5. Vì sao tiêu đề gọi đây là \"tấm thiệp mời một nửa\" (절반의 초대장)?",
+  "practice": [
+   {
+    "type": "mcq",
+    "skill": "reading",
+    "prompt_ko": "이 글의 내용과 같은 것을 고르십시오.",
+    "options": [
+     "부캉이는 사람에게 위험해서 시민들의 관심을 받지 못했다.",
+     "유엔환경계획은 1.5도 목표를 지키기 어려워졌다는 보고서를 발표했다.",
+     "기후에너지환경부는 보고서에 대해 분명한 입장을 밝혔다.",
+     "기후 지체 담론은 기후변화의 심각성을 부정하는 논리이다."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "\"1.5도 이내 상승이라는 목표를 더 이상 지키기 어려워졌으며…\" Bộ và các nghị sĩ \"별다른 입장을 내놓지 않았다\"; 기후 지체 담론 THỪA NHẬN mức nghiêm trọng nhưng trì hoãn hành động; 부캉이 rất được quan tâm."
+   },
+   {
+    "type": "mcq",
+    "skill": "reading",
+    "prompt_ko": "필자의 생각으로 가장 알맞은 것을 고르십시오.",
+    "options": [
+     "시민들의 관심만으로도 기후정책은 충분히 바뀔 수 있다.",
+     "상어의 출현은 기후변화와 아무 관련이 없다.",
+     "기후 대응은 기후부 공무원에게 맡기는 것이 효율적이다.",
+     "정부가 기후 지체 담론을 넘어 분명한 의지를 보여야 한다."
+    ],
+    "answer_index": 3,
+    "explanation_vi": "Tác giả phê phán chính phủ không gửi \"의지와 신호\" và kết luận \"기후 지체 담론을 뛰어넘는 점프가 필요하다\"."
+   },
+   {
+    "type": "mcq",
+    "skill": "vocab",
+    "prompt_ko": "바닷물의 ___가 올라가면서 산호가 하얗게 변하고 있다.",
+    "options": [
+     "수온",
+     "간극",
+     "담론",
+     "빈도"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "수온 = nhiệt độ nước, đi với 올라가다 và \"바닷물\"."
+   },
+   {
+    "type": "mcq",
+    "skill": "vocab",
+    "prompt_ko": "두 나라의 입장 차이가 커서 ___을 좁히기가 쉽지 않다.",
+    "options": [
+     "아열대",
+     "감축",
+     "간극",
+     "출현"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "간극을 좁히다 = thu hẹp khoảng cách (giữa hai lập trường)."
+   },
+   {
+    "type": "mcq",
+    "skill": "grammar",
+    "prompt_ko": "매일 한 시간씩 운동하는 습관을 만들___ 생각보다 쉽지 않다.",
+    "options": [
+     "기란",
+     "거든",
+     "기로",
+     "자마자"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "-기란 + 쉽지 않다: \"việc tạo thói quen … thì không dễ\". -거든 (nếu … thì hãy), -기로 (quyết định), -자마자 (vừa … liền) không hợp với vị ngữ đánh giá."
+   },
+   {
+    "type": "apply",
+    "prompt_vi": "Ở quê bạn có dấu hiệu biến đổi khí hậu nào (mùa hè dài hơn, bão mạnh hơn…)? Viết 2–3 câu tiếng Hàn dùng 감축 hoặc 미온적 và mẫu N와/과 무관하지 않다.",
+    "model_ko": "요즘 베트남에서는 여름이 길어지고 태풍이 더 강해지고 있다. 이런 변화는 지구 온난화와 무관하지 않다. 정부가 미온적으로 대응하지 말고 온실가스 감축에 더 적극적으로 나서야 한다."
+   }
+  ],
+  "quality": {
+   "score": 7,
+   "why_selected": "Giữ mẫu N와/과 무관하지 않다 (có thật, 2 lần) nhưng sửa giải thích; bỏ mẫu -(으)ㄴ/는지에 대한 N (ghép từ 2 mẫu đã học); thêm -다고는 하지만, -기란, N을/를 넘어. 온난화 đã có trong khóa → reuse_vocab; vocab 4→10. Nâng ước lượng lên cấp 6 vì mật độ từ Hán học thuật (심연, 난망, 속박, 담론) và lập luận dày; thêm luyện tập.",
+   "weaknesses": "Bài khó, mở đầu bằng \"사실…\" như đang nối với đoạn trước (bản đã cắt); nhiều từ rất hiếm (난망하다, 속절없이) nên không làm thẻ; tên cơ quan mới (기후에너지환경부) có thể đổi."
+  },
+  "related_lesson_slugs": [
+   "xa-hoi-12-khoa-hoc-cong-nghe",
+   "xa-hoi-11-chinh-tri-phap-luat"
+  ]
+ },
+ {
+  "article_id_prefix": "dbb6529f",
+  "level_estimate": 4,
+  "topic_tags": [
+   "giáo dục",
+   "tuyển sinh đại học",
+   "kỹ năng tìm thông tin",
+   "AI trong học tập"
+  ],
+  "unlock_hint": "Nên đọc sau khi học bài «Dân số, an sinh và giáo dục» (입시, 사교육); bài «Truyền thông & Thông tin» giúp đánh giá nguồn tin trên mạng.",
+  "vocab": [
+   {
+    "hangul": "족집게",
+    "pos": "danh từ",
+    "meaning_vi": "cái nhíp; (nghĩa bóng) người/lớp đoán trúng đề",
+    "definition_ko": "작은 것을 집는 도구; 어떤 일을 정확히 알아맞히는 사람",
+    "level": 5,
+    "hanja": null,
+    "sino_vietnamese": null,
+    "example_ko": "시험 전에 족집게 과외를 받는 학생들이 많다.",
+    "example_vi": "Nhiều học sinh học thêm với gia sư \"đoán đề\" trước kỳ thi.",
+    "usage_note_vi": "Nghĩa bóng phổ biến trong giáo dục: 족집게 강의/강사/과외 = lớp/giáo viên luyện đề đoán trúng. Tác giả kết bài: hãy tự làm \"족집게\" cho mình.",
+    "register": "văn nói",
+    "collocations": [
+     "족집게 강의",
+     "족집게 과외"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "분주하다",
+    "pos": "tính từ",
+    "meaning_vi": "tất bật, bận rộn qua lại",
+    "definition_ko": "이리저리 바쁘게 뛰어다니다",
+    "level": 5,
+    "hanja": "奔走",
+    "sino_vietnamese": "bôn tẩu",
+    "example_ko": "명절을 앞두고 시장이 손님들로 분주하다.",
+    "example_vi": "Trước ngày lễ, chợ tấp nập khách mua.",
+    "usage_note_vi": "Văn viết của 바쁘다, gợi cảnh nhiều người qua lại tất bật. Bài: \"발길이 분주하다\" = người tìm đến nườm nượp.",
+    "register": "văn viết",
+    "collocations": [
+     "발길이 분주하다",
+     "분주하게 움직이다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "청탁",
+    "pos": "danh từ",
+    "meaning_vi": "sự nhờ vả, chạy chọt (để được ưu ái)",
+    "definition_ko": "어떤 일을 해 달라고 부탁함, 특히 부정한 부탁",
+    "level": 5,
+    "hanja": "請託",
+    "sino_vietnamese": "thỉnh thác",
+    "example_ko": "공무원에게 부정한 청탁을 하면 처벌받을 수 있다.",
+    "example_vi": "Nhờ vả bất chính với công chức có thể bị xử phạt.",
+    "usage_note_vi": "Thường mang nghĩa tiêu cực (đi cửa sau). Ở Hàn có \"청탁금지법\" (luật cấm nhờ vả, quà biếu) – kiến thức xã hội hữu ích cho KIIP.",
+    "register": "văn viết",
+    "collocations": [
+     "청탁을 하다",
+     "부정 청탁",
+     "청탁금지법"
+    ],
+    "exam": "kiip-5"
+   },
+   {
+    "hangul": "양질",
+    "pos": "danh từ",
+    "meaning_vi": "chất lượng tốt",
+    "definition_ko": "좋은 품질이나 성질",
+    "level": 5,
+    "hanja": "良質",
+    "sino_vietnamese": "lương chất",
+    "example_ko": "정부는 청년에게 양질의 일자리를 제공하겠다고 밝혔다.",
+    "example_vi": "Chính phủ cho biết sẽ cung cấp việc làm chất lượng cho thanh niên.",
+    "usage_note_vi": "Gần như luôn ở dạng 양질의 N: 양질의 일자리/교육/정보/서비스. Trang trọng hơn 좋은.",
+    "register": "văn viết",
+    "collocations": [
+     "양질의 정보",
+     "양질의 일자리"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "문턱",
+    "pos": "danh từ",
+    "meaning_vi": "ngưỡng cửa; (nghĩa bóng) rào cản, ngưỡng",
+    "definition_ko": "문의 아래 문지방; 어떤 일에 들어서기 위한 조건이나 장벽",
+    "level": 4,
+    "hanja": null,
+    "sino_vietnamese": null,
+    "example_ko": "온라인 강의가 대학 교육의 문턱을 낮췄다.",
+    "example_vi": "Các khóa học trực tuyến đã hạ thấp rào cản tiếp cận giáo dục đại học.",
+    "usage_note_vi": "Nghĩa bóng: 문턱을 낮추다 (giảm rào cản), 문턱이 높다 (khó vào), 문턱을 넘다 (vượt ngưỡng, ví dụ 고령사회의 문턱을 넘다).",
+    "register": null,
+    "collocations": [
+     "문턱을 낮추다",
+     "문턱이 높다",
+     "문턱을 넘다"
+    ],
+    "exam": "topik-4"
+   },
+   {
+    "hangul": "안목",
+    "pos": "danh từ",
+    "meaning_vi": "con mắt nhận định, khả năng thẩm định",
+    "definition_ko": "사물을 보고 좋고 나쁨을 가려내는 능력",
+    "level": 5,
+    "hanja": "眼目",
+    "sino_vietnamese": "nhãn mục",
+    "example_ko": "그녀는 그림을 보는 안목이 뛰어나다.",
+    "example_vi": "Cô ấy có con mắt thẩm định tranh rất tốt.",
+    "usage_note_vi": "Cụm: 안목이 있다/높다, 안목을 기르다/넓히다. Gần 보는 눈 (thông thường), 식견 (kiến thức + hiểu biết).",
+    "register": null,
+    "collocations": [
+     "안목을 기르다",
+     "안목이 높다",
+     "안목을 넓히다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "방대하다",
+    "pos": "tính từ",
+    "meaning_vi": "đồ sộ, khổng lồ (lượng, quy mô)",
+    "definition_ko": "규모나 양이 매우 크고 많다",
+    "level": 5,
+    "hanja": "厖大",
+    "sino_vietnamese": "bàng đại",
+    "example_ko": "자료가 너무 방대해서 다 읽는 데 일주일이 걸렸다.",
+    "example_vi": "Tài liệu quá đồ sộ nên mất một tuần mới đọc hết.",
+    "usage_note_vi": "Dùng với 자료, 양, 규모, 데이터. Gần nghĩa 막대하다 (thường về tiền, thiệt hại).",
+    "register": "văn viết",
+    "collocations": [
+     "방대한 자료",
+     "방대한 양"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "맹신하다",
+    "pos": "động từ",
+    "meaning_vi": "tin mù quáng",
+    "definition_ko": "옳고 그름을 따지지 않고 덮어놓고 믿다",
+    "level": 5,
+    "hanja": "盲信",
+    "sino_vietnamese": "manh tín",
+    "example_ko": "인터넷 정보를 맹신하면 잘못된 판단을 내릴 수 있다.",
+    "example_vi": "Tin mù quáng thông tin trên mạng thì có thể đưa ra phán đoán sai.",
+    "usage_note_vi": "Đối tượng: 정보, 전문가, 숫자, AI. Thường đi kèm lời khuyên phủ định: 맹신하면 안 된다, 맹신하지 말아야 한다.",
+    "register": "văn viết",
+    "collocations": [
+     "N을/를 맹신하다",
+     "맹신은 금물이다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "부추기다",
+    "pos": "động từ",
+    "meaning_vi": "kích động, xúi giục, thổi bùng (cảm xúc)",
+    "definition_ko": "남을 자극하여 어떤 행동이나 감정을 하도록 만들다",
+    "level": 5,
+    "hanja": null,
+    "sino_vietnamese": null,
+    "example_ko": "자극적인 광고가 과소비를 부추긴다.",
+    "example_vi": "Quảng cáo giật gân kích thích tiêu dùng quá mức.",
+    "usage_note_vi": "Đối tượng thường tiêu cực: 불안, 경쟁, 갈등, 과소비. Bị động: 부추김을 받다.",
+    "register": null,
+    "collocations": [
+     "불안을 부추기다",
+     "경쟁을 부추기다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "휘둘리다",
+    "pos": "động từ",
+    "meaning_vi": "bị chi phối, bị xoay như chong chóng",
+    "definition_ko": "남의 말이나 상황에 끌려다니며 마음대로 하지 못하다",
+    "level": 5,
+    "hanja": null,
+    "sino_vietnamese": null,
+    "example_ko": "광고에 휘둘려 필요 없는 물건을 사지 마세요.",
+    "example_vi": "Đừng để bị quảng cáo chi phối mà mua đồ không cần.",
+    "usage_note_vi": "Bị động của 휘두르다 (vung, khống chế). Cấu trúc: N에 휘둘리다 (분위기, 감정, 광고, 소문).",
+    "register": null,
+    "collocations": [
+     "N에 휘둘리다",
+     "감정에 휘둘리다",
+     "소문에 휘둘리다"
+    ],
+    "exam": "topik-5"
+   }
+  ],
+  "reuse_vocab": [
+   "입시",
+   "사교육",
+   "격차",
+   "바람직하다",
+   "의존하다",
+   "객관적",
+   "출처",
+   "공유하다"
+  ],
+  "grammar": [
+   {
+    "pattern": "마치 V/A + -(으)ㄴ/는 것처럼 말이다",
+    "meaning_vi": "cứ như thể là … vậy (bổ sung, nhấn mạnh ở cuối)",
+    "level": 5,
+    "example_ko": "마치 이 상담만이 입시 성공의 보증수표가 되는 것처럼 말이다.\n그는 아무 일도 없었다는 듯이 웃었다. 마치 어제 싸운 적이 없는 것처럼 말이다.",
+    "usage_context_vi": "Cấu tạo: 마치 + mệnh đề -(으)ㄴ/는 것처럼 + 말이다. Câu tách rời đứng sau, bổ sung hình ảnh so sánh cho câu trước (đảo trật tự để nhấn mạnh, thường mỉa mai). Khác -(으)ㄴ/는 듯이 (đã học: như thể – nằm trong cùng câu).",
+    "topik_tip_vi": "\"…말이다\" ở cuối câu là dấu hiệu của văn bình luận; trong Đọc cần nối nó với câu đứng trước để hiểu ý."
+   },
+   {
+    "pattern": "V + -자 · V + -지 말자 (lời kêu gọi trong văn viết)",
+    "meaning_vi": "hãy … / đừng … (cùng nhau)",
+    "level": 4,
+    "example_ko": "비싼 값을 치러야만 좋은 대학에 간다는 마케팅에 휘둘리지 말자.\n홈페이지 메인 화면의 ‘교육부 기사 보러가기’ 배너를 클릭해보자.",
+    "usage_context_vi": "Cấu tạo: V + -자 (đề nghị thân mật, thể 한다체), phủ định V + -지 말자. Trong báo chí, người viết dùng để kêu gọi chung người đọc. Khác -(으)ㅂ시다 (đã học: nói trực tiếp, lịch sự) và khác -자 \"vừa … thì\" (đã học, nối câu).",
+    "topik_tip_vi": "Câu có -자 / -지 말자 thường chứa lời khuyên chính – đáp án cho câu hỏi \"필자의 주장\"."
+   },
+   {
+    "pattern": "N1이/가 V-았/었다면 N2은/는 … (đối chiếu)",
+    "meaning_vi": "nếu như N1 đã … thì N2 (còn) …",
+    "level": 5,
+    "example_ko": "인터넷이 정보 접근의 문턱을 낮췄다면 생성형 AI는 정보를 정리하고 활용하는 방식까지 바꾸고 있다.\n과거의 스마트폰이 통신을 바꿨다면 AI는 일하는 방식을 바꾸고 있다.",
+    "usage_context_vi": "Cấu tạo: A-았/었다면 B은/는 …. Không phải giả định, mà đặt hai đối tượng cạnh nhau để so sánh vai trò (thường B mạnh hơn, có 까지/도). Khác -(느)ㄴ다면 điều kiện (đã học).",
+    "topik_tip_vi": "Mẫu so sánh rất \"sang\" cho Viết 54 khi so sánh quá khứ và hiện tại."
+   }
+  ],
+  "reuse_grammar": [
+   "V/A + -(으)ㄴ/는 모양이다 · V + -나 보다 · A + -(으)ㄴ가 보다",
+   "V/A + -(으)ㄹ수록 · N + 일수록",
+   "V/A + -아/어야만 하다 · N + (이)라야",
+   "V/A + -더라도 · N + (이)더라도",
+   "V + -아/어야 한다 · V + -(으)ㄹ 필요가 있다 · V + -는 것이 바람직하다",
+   "N + 만으로(는) · V + -는 것만으로(도)"
+  ],
+  "model_outline": {
+   "phenomenon": "수능 철마다 비쌀수록 인기가 높은 입시 상담과 족집게 강의를 찾는 학부모가 많아, 교육계에도 ‘베블런 효과’가 나타나고 있다.",
+   "cause": "비싼 상담만이 입시 성공을 보장한다는 불안 때문이다. 또한 교육부나 대학 홈페이지의 원문 자료가 복잡하고 방대해 보여 다른 사람의 설명에만 의존하는 경우가 많다.",
+   "consequence": "많은 비용을 들이면서도 정작 무료로 공개된 양질의 정보는 활용하지 못하고, 조회수를 노려 불안을 부추기는 정보나 마케팅에 휘둘리기 쉽다.",
+   "solution": "교육부 기사 서비스와 대학 입학처의 원문 자료를 꾸준히 읽고, 생성형 AI를 분석과 문제 연습에 활용하되 교차 검증을 해야 한다. 전문가의 글도 참고하며 스스로 ‘족집게’를 만들어 가는 것이 바람직하다."
+  },
+  "thinking_guide_text": "1. \"Hiệu ứng Veblen\" là gì, và tác giả áp dụng nó vào chuyện tuyển sinh đại học như thế nào?\n2. Tác giả giới thiệu những nguồn thông tin miễn phí nào? Hãy liệt kê theo thứ tự trong bài.\n3. Khi dùng AI để tư vấn tuyển sinh, tác giả lưu ý điều gì, và vì sao?\n4. Trên mạng xã hội, nên tránh những loại thông tin nào và nên kiểm tra gì?\n5. Bạn có thể áp dụng những lời khuyên này khi tìm thông tin du học hoặc TOPIK không?",
+  "practice": [
+   {
+    "type": "mcq",
+    "skill": "reading",
+    "prompt_ko": "이 글의 내용과 같은 것을 고르십시오.",
+    "options": [
+     "교육부 홈페이지의 기사 스크랩 서비스는 연간 100만 원이 든다.",
+     "필자는 AI가 만든 문제를 다른 AI로 점검하라고 권한다.",
+     "필자는 교육 전문가들이 인스타그램에 많이 모여 있다고 말한다.",
+     "비싼 입시 상담은 언제나 좋은 결과를 낸다."
+    ],
+    "answer_index": 1,
+    "explanation_vi": "\"한 AI가 만든 문제를 다른 AI로 점검하는 것을 추천한다.\" Dịch vụ của Bộ Giáo dục là miễn phí (100만 원 là giá dịch vụ tư nhân); chuyên gia tập trung ở Facebook; tác giả nói tư vấn đắt \"언제나 좋은 결과를 내는 건 아니다\"."
+   },
+   {
+    "type": "mcq",
+    "skill": "reading",
+    "prompt_ko": "이 글의 주제로 가장 알맞은 것을 고르십시오.",
+    "options": [
+     "무료 정보와 도구를 잘 활용하면 비싼 상담 없이도 입시를 준비할 수 있다.",
+     "고가의 입시 상담을 받아야 좋은 대학에 갈 수 있다.",
+     "생성형 AI는 입시 상담에 사용하면 안 된다.",
+     "소셜미디어의 입시 정보는 모두 믿을 수 없다."
+    ],
+    "answer_index": 0,
+    "explanation_vi": "Toàn bài giới thiệu nguồn miễn phí (Bộ Giáo dục, trang trường, AI, SNS) và kết: \"비싼 값을 치러야만 … 마케팅에 휘둘리지 말자\"."
+   },
+   {
+    "type": "mcq",
+    "skill": "vocab",
+    "prompt_ko": "광고에 ___ 필요 없는 물건을 사지 않도록 조심하세요.",
+    "options": [
+     "휘둘려",
+     "부추겨",
+     "맹신해",
+     "분주해"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "N에 휘둘리다 = bị N chi phối. 부추기다 là chủ động (\"광고가 소비를 부추기다\"), 맹신하다 cần 을/를, 분주하다 sai nghĩa."
+   },
+   {
+    "type": "mcq",
+    "skill": "vocab",
+    "prompt_ko": "인터넷 정보를 ___하면 잘못된 판단을 내릴 수 있으므로 출처를 꼭 확인해야 한다.",
+    "options": [
+     "안목",
+     "맹신",
+     "청탁",
+     "문턱"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "맹신하다 = tin mù quáng; phù hợp với lời khuyên \"phải kiểm tra nguồn\"."
+   },
+   {
+    "type": "mcq",
+    "skill": "grammar",
+    "prompt_ko": "그는 아무 일도 없었다는 듯이 웃었다. 마치 어제 우리와 싸운 적이 없는 것___ 말이다.",
+    "options": [
+     "처럼",
+     "만큼",
+     "대로",
+     "보다"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "마치 … -는 것처럼 말이다 = cứ như thể … vậy. 마치 luôn đi với 처럼/같이/듯이."
+   },
+   {
+    "type": "apply",
+    "prompt_vi": "Khi tìm thông tin du học Hàn Quốc hay kỳ thi TOPIK, bạn dùng những nguồn nào? Viết 2–3 câu tiếng Hàn đưa lời khuyên, dùng 휘둘리다 hoặc 맹신하다 và mẫu -자 / -지 말자.",
+    "model_ko": "유학 정보를 찾을 때는 유학원 광고에 휘둘리지 말자. 먼저 대학 입학처 홈페이지의 모집 요강 원문을 읽고, AI의 답도 맹신하지 말고 공식 자료와 비교해 보자."
+   }
+  ],
+  "quality": {
+   "score": 8,
+   "why_selected": "Bỏ thẻ -기만 하다 và -(으)ㄴ/는지 알다/모르다 (không có trong bài); -(으)ㄹ수록 đã có trong khóa → reuse_grammar; thêm 3 mẫu có thật (마치 … 것처럼 말이다, -자/-지 말자, -았/었다면 đối chiếu). Bỏ thẻ \"베블런 효과\" (tên riêng, không phải từ vựng dùng lại) và vocab lên 10; thêm luyện tập. Bài thực dụng, gần nhu cầu tìm thông tin của người học.",
+   "weaknesses": "Bài dài (~2000 ký tự) với nhiều tên dịch vụ, thuật ngữ tuyển sinh Hàn (학생부, 모집 요강, EBS); tính thời sự theo mùa thi."
+  },
+  "related_lesson_slugs": [
+   "xa-hoi-15-dan-so-phuc-loi",
+   "xa-hoi-17-tieu-dung-xa-hoi-so",
+   "cong-so-06-truyen-thong-thong-tin"
+  ]
+ },
+ {
+  "article_id_prefix": "aa5f2f1e",
+  "level_estimate": 4,
+  "topic_tags": [
+   "giáo dục",
+   "thanh thiếu niên",
+   "trải nghiệm thực tế",
+   "thời đại số"
+  ],
+  "unlock_hint": "Nên đọc sau khi học bài «Dân số, an sinh và giáo dục»; bài «Tư tưởng, đạo đức và cách lập luận» giúp theo dõi cách tác giả lập luận.",
+  "vocab": [
+   {
+    "hangul": "종말",
+    "pos": "danh từ",
+    "meaning_vi": "sự cáo chung, kết thúc (của một thời kỳ)",
+    "definition_ko": "어떤 일이나 시대의 맨 끝",
+    "level": 5,
+    "hanja": "終末",
+    "sino_vietnamese": "chung mạt",
+    "example_ko": "스마트폰의 등장은 공중전화 시대의 종말을 가져왔다.",
+    "example_vi": "Sự xuất hiện của điện thoại thông minh đã chấm dứt thời đại điện thoại công cộng.",
+    "usage_note_vi": "Nghĩa mạnh, hay dùng theo lối nói cường điệu: N의 종말 (sự cáo chung của N). Khác 끝 (thông thường).",
+    "register": "văn viết",
+    "collocations": [
+     "N의 종말",
+     "종말을 맞다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "매달리다",
+    "pos": "động từ",
+    "meaning_vi": "bám chặt; dồn hết sức vào (một việc)",
+    "definition_ko": "어떤 일에 온 힘을 쏟아 붙잡고 있다",
+    "level": 4,
+    "hanja": null,
+    "sino_vietnamese": null,
+    "example_ko": "그는 취업 준비에만 매달려 친구를 만날 시간도 없다.",
+    "example_vi": "Cậu ấy chỉ dồn sức chuẩn bị xin việc, đến thời gian gặp bạn cũng không có.",
+    "usage_note_vi": "Nghĩa đen: treo lủng lẳng, bám vào. Nghĩa bóng: N에 매달리다 = chỉ chăm chăm vào việc gì (thường hàm ý quá mức).",
+    "register": null,
+    "collocations": [
+     "N에 매달리다",
+     "입시에 매달리다"
+    ],
+    "exam": "topik-4"
+   },
+   {
+    "hangul": "결정적",
+    "pos": "định từ/danh từ",
+    "meaning_vi": "mang tính quyết định",
+    "definition_ko": "어떤 일의 결과를 좌우할 만큼 중요한 (것)",
+    "level": 4,
+    "hanja": "決定的",
+    "sino_vietnamese": "quyết định đích",
+    "example_ko": "그 실수가 경기의 결정적인 순간이 되었다.",
+    "example_vi": "Sai lầm đó trở thành khoảnh khắc quyết định của trận đấu.",
+    "usage_note_vi": "Cụm: 결정적 역할/계기/증거/시기. Dùng nhiều trong văn nghị luận để nhấn mạnh tầm quan trọng.",
+    "register": "văn viết",
+    "collocations": [
+     "결정적인 역할",
+     "결정적 시기",
+     "결정적 증거"
+    ],
+    "exam": "topik-4"
+   },
+   {
+    "hangul": "회복탄력성",
+    "pos": "danh từ",
+    "meaning_vi": "khả năng phục hồi, sức bật sau khó khăn",
+    "definition_ko": "어려움이나 실패를 겪은 뒤 다시 일어서는 힘",
+    "level": 6,
+    "hanja": "回復彈力性",
+    "sino_vietnamese": "hồi phục đàn lực tính",
+    "example_ko": "실패를 겪어 본 아이들이 회복탄력성이 더 높다고 한다.",
+    "example_vi": "Người ta nói những đứa trẻ từng trải qua thất bại có sức bật cao hơn.",
+    "usage_note_vi": "Thuật ngữ tâm lý học (resilience), nay phổ biến trong giáo dục. Cụm: 회복탄력성을 기르다/키우다.",
+    "register": "văn viết",
+    "collocations": [
+     "회복탄력성을 기르다",
+     "회복탄력성이 높다"
+    ],
+    "exam": "topik-6"
+   },
+   {
+    "hangul": "왕성하다",
+    "pos": "tính từ",
+    "meaning_vi": "dồi dào, sung sức, mạnh mẽ",
+    "definition_ko": "기운이나 활동이 한창 활발하다",
+    "level": 5,
+    "hanja": "旺盛",
+    "sino_vietnamese": "vượng thịnh",
+    "example_ko": "그는 일흔이 넘었는데도 활동이 왕성하다.",
+    "example_vi": "Ông ấy đã ngoài bảy mươi mà vẫn hoạt động rất sôi nổi.",
+    "usage_note_vi": "Đi với 활동, 식욕 (thèm ăn), 호기심. Trạng từ: 왕성하게.",
+    "register": "văn viết",
+    "collocations": [
+     "활동이 왕성하다",
+     "호기심이 왕성하다",
+     "식욕이 왕성하다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "능하다",
+    "pos": "tính từ",
+    "meaning_vi": "giỏi, thành thạo",
+    "definition_ko": "어떤 일을 잘하다",
+    "level": 5,
+    "hanja": "能",
+    "sino_vietnamese": "năng",
+    "example_ko": "그는 여러 언어에 능하다.",
+    "example_vi": "Anh ấy giỏi nhiều ngôn ngữ.",
+    "usage_note_vi": "Cấu trúc: N에 능하다 (văn viết của N을/를 잘하다). Trái nghĩa trong bài: 서툴다, 취약하다.",
+    "register": "văn viết",
+    "collocations": [
+     "N에 능하다",
+     "외국어에 능하다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "서툴다",
+    "pos": "tính từ",
+    "meaning_vi": "vụng về, chưa thạo",
+    "definition_ko": "일에 익숙하지 못하고 솜씨가 없다",
+    "level": 4,
+    "hanja": null,
+    "sino_vietnamese": null,
+    "example_ko": "처음에는 한국어로 전화하는 데 서툴렀다.",
+    "example_vi": "Lúc đầu tôi còn vụng khi gọi điện bằng tiếng Hàn.",
+    "usage_note_vi": "Cấu trúc: N에 서툴다 / V-는 데 서툴다. Dạng định ngữ: 서툰 (ㄹ rơi). Gần nghĩa 미숙하다 (trang trọng).",
+    "register": null,
+    "collocations": [
+     "N에 서툴다",
+     "V-는 데 서툴다",
+     "서툰 한국어"
+    ],
+    "exam": "topik-4"
+   },
+   {
+    "hangul": "딛다",
+    "pos": "động từ",
+    "meaning_vi": "giẫm lên; vượt qua (khó khăn) để đứng dậy",
+    "definition_ko": "발로 밟다; 어려움을 이겨 내다",
+    "level": 5,
+    "hanja": null,
+    "sino_vietnamese": null,
+    "example_ko": "그는 여러 번의 실패를 딛고 마침내 창업에 성공했다.",
+    "example_vi": "Anh ấy vượt qua nhiều lần thất bại và cuối cùng khởi nghiệp thành công.",
+    "usage_note_vi": "Rút gọn của 디디다. Cụm cố định nghĩa bóng: 실패/아픔/역경을 딛고 (일어서다).",
+    "register": "văn viết",
+    "collocations": [
+     "실패를 딛고",
+     "아픔을 딛고 일어서다"
+    ],
+    "exam": "topik-5"
+   },
+   {
+    "hangul": "형편",
+    "pos": "danh từ",
+    "meaning_vi": "hoàn cảnh (đặc biệt là kinh tế)",
+    "definition_ko": "살림살이나 일이 되어 가는 상황",
+    "level": 4,
+    "hanja": "形便",
+    "sino_vietnamese": "hình tiện",
+    "example_ko": "가정 형편이 어려운 학생에게 장학금을 준다.",
+    "example_vi": "Học bổng được trao cho học sinh có hoàn cảnh gia đình khó khăn.",
+    "usage_note_vi": "Cụm rất thường gặp trong hồ sơ học bổng, phúc lợi: 가정 형편, 형편이 어렵다/넉넉하다. Khác 처지 (tình cảnh nói chung).",
+    "register": null,
+    "collocations": [
+     "가정 형편",
+     "형편이 어렵다",
+     "형편이 되다"
+    ],
+    "exam": "kiip-4"
+   },
+   {
+    "hangul": "책무",
+    "pos": "danh từ",
+    "meaning_vi": "trách nhiệm, nghĩa vụ (phải làm)",
+    "definition_ko": "맡은 일에 대한 책임과 의무",
+    "level": 6,
+    "hanja": "責務",
+    "sino_vietnamese": "trách vụ",
+    "example_ko": "국민의 안전을 지키는 것은 국가의 책무이다.",
+    "example_vi": "Bảo vệ an toàn của nhân dân là trách nhiệm của Nhà nước.",
+    "usage_note_vi": "Trang trọng hơn 책임; thường đi với chủ thể là nhà nước, tổ chức: 국가의 책무, 책무를 다하다.",
+    "register": "trang trọng",
+    "collocations": [
+     "책무를 다하다",
+     "국가의 책무"
+    ],
+    "exam": "topik-6"
+   }
+  ],
+  "reuse_vocab": [
+   "체험하다",
+   "감수",
+   "인격",
+   "실질적",
+   "우려하다",
+   "취약",
+   "보장",
+   "관계없이"
+  ],
+  "grammar": [
+   {
+    "pattern": "V + -지 않을 수 없다",
+    "meaning_vi": "không thể không …, buộc phải …",
+    "level": 4,
+    "example_ko": "…실제 사람과 관계를 맺고 협력하는 데에는 서툰 성인으로 성장할 가능성을 우려하지 않을 수 없다.\n이런 결과를 보면 놀라지 않을 수 없다.",
+    "usage_context_vi": "Cấu tạo: V-지 않다 + -(으)ㄹ 수 없다 (phủ định kép = khẳng định mạnh). Người viết tỏ ra bị thuyết phục, \"tự nhiên phải\" có cảm xúc/hành động đó. Gần -(으)ㄹ 수밖에 없다 (đã học: hoàn cảnh bắt buộc) – -지 않을 수 없다 nghiêng về phản ứng nội tâm (우려하다, 놀라다, 인정하다).",
+    "topik_tip_vi": "Câu có -지 않을 수 없다 thường bộc lộ thái độ của tác giả (걱정/비판) – dùng cho câu hỏi \"필자의 태도\"."
+   },
+   {
+    "pattern": "V + -는 것이 아니라 V + -는 것이다 / -는 데 있다",
+    "meaning_vi": "không phải là … mà là …",
+    "level": 4,
+    "example_ko": "교육의 목적은 아이들을 시험에 대비시키는 것이 아니라 세상을 살아갈 힘을 길러주는 데 있다.\n안전을 위해 경험을 없애는 것은 청소년을 보호하는 것이 아니라 성장의 기회를 빼앗는 또 다른 위험이 될 수 있다.",
+    "usage_context_vi": "Cấu tạo: V-는 것 + 이 아니라 + V-는 것이다 (hoặc -는 데 있다). Bác bỏ một cách hiểu phổ biến rồi đưa ra cách hiểu của người viết. Khác -(으)ㄹ 뿐만 아니라 (đã học: cộng thêm) – mẫu này thay thế ý trước.",
+    "topik_tip_vi": "Câu chủ đề của bài nghị luận rất hay có dạng này; trong Viết 54, đặt ở kết bài để chốt quan điểm."
+   },
+   {
+    "pattern": "V + -아/어서는 안 되다",
+    "meaning_vi": "không được …, tuyệt đối không nên …",
+    "level": 4,
+    "example_ko": "국가는 학교와 교사에게 책임만 요구해서는 안 된다.\n어려운 이웃을 외면해서는 안 된다.",
+    "usage_context_vi": "Cấu tạo: V-아/어서 + 는 (nhấn mạnh) + 안 되다. Cấm/khuyên mạnh, mang tính nguyên tắc. Khác -(으)면 안 되다 (đã học, dùng hằng ngày cho luật lệ cụ thể): -아/어서는 안 되다 trang trọng, hợp với văn nghị luận về \"nên làm gì\".",
+    "topik_tip_vi": "Trong Viết 54, phần giải pháp có thể dùng: \"… 책임을 개인에게만 돌려서는 안 된다\"."
+   }
+  ],
+  "reuse_grammar": [
+   "V/A + -(으)ㄹ수록 · N + 일수록",
+   "N + 을/를 막론하고 · N + 에 관계없이 · N + 에 국한되지 않고",
+   "V + -도록 · V + -지 않도록 · V + -도록 하다",
+   "V/A + -는데도/-(으)ㄴ데도",
+   "V + -고서야 · V + -고 나서야 · 비로소",
+   "N + 을/를 통해(서) · N + 을/를 통한 N"
+  ],
+  "model_outline": {
+   "phenomenon": "요즘 청소년들은 직접 보고 만나고 부딪치며 배우는 실제 경험이 점점 부족해지는 ‘경험의 종말 시대’를 살고 있다.",
+   "cause": "오랫동안 입시 위주의 교육이 청소년을 학교와 학원에 붙잡아 두었고, 스마트폰과 SNS, AI 같은 디지털 환경이 일상을 대신하고 있기 때문이다. 게다가 안전사고와 책임을 우려해 학교 밖 활동마저 줄고 있다.",
+   "consequence": "청소년기는 판단력, 공감능력, 회복탄력성이 길러지는 결정적인 시기이다. 이때 경험이 부족하면 시험에는 능하지만 현실의 문제와 사람 사이의 관계에는 서툰 성인으로 자랄 수 있다.",
+   "solution": "국가는 안전관리와 보험, 합리적인 책임 분담 체계를 마련해 학교가 세상과 연결되도록 지원해야 한다. 또한 이미 갖춰진 청소년수련활동 제도를 적극 활용해 형편이나 지역에 관계없이 모든 청소년에게 다양한 경험을 보장해야 한다."
+  },
+  "thinking_guide_text": "1. \"Thời đại cáo chung của trải nghiệm\" nghĩa là gì, và tác giả nêu những nguyên nhân nào?\n2. Theo tác giả, những năng lực nào chỉ hình thành qua trải nghiệm trực tiếp?\n3. Vì sao tác giả cho rằng \"bỏ trải nghiệm để đảm bảo an toàn\" cũng là một kiểu nguy hiểm?\n4. Tác giả đề nghị Nhà nước làm gì, và hệ thống nào đã có sẵn nhưng chưa được dùng?\n5. Hồi đi học, trải nghiệm ngoài trường nào đã giúp bạn trưởng thành?",
+  "practice": [
+   {
+    "type": "mcq",
+    "skill": "reading",
+    "prompt_ko": "이 글의 내용과 같은 것을 고르십시오.",
+    "options": [
+     "필자는 안전을 위해 학교 밖 활동을 줄여야 한다고 본다.",
+     "청소년수련활동 제도는 최근에 처음 만들어졌다.",
+     "필자는 AI 시대일수록 직접 경험의 가치가 커진다고 본다.",
+     "디지털 사회가 발전하면서 사람을 직접 만나는 경험이 늘었다."
+    ],
+    "answer_index": 2,
+    "explanation_vi": "\"AI 시대일수록 경험의 가치는 더욱 커진다.\" Tác giả phản đối việc cắt hoạt động ngoài trường; chế độ 수련활동 có \"오래전부터\"; trải nghiệm gặp người thật \"오히려 줄고 있다\"."
+   },
+   {
+    "type": "mcq",
+    "skill": "reading",
+    "prompt_ko": "필자가 이 글을 쓴 목적으로 가장 알맞은 것을 고르십시오.",
+    "options": [
+     "수학여행 중 발생한 사고를 보도하려고",
+     "청소년에게 다양한 실제 경험의 기회를 돌려주자고 주장하려고",
+     "입시 준비에 효과적인 공부 방법을 소개하려고",
+     "청소년의 스마트폰 사용 시간을 조사하려고"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "Tiêu đề và câu kết: \"교육은 청소년에게 다시 세상을, 다양한 경험의 기회를 돌려주어야 한다.\""
+   },
+   {
+    "type": "mcq",
+    "skill": "vocab",
+    "prompt_ko": "그는 여러 번의 실패를 ___ 마침내 창업에 성공했다.",
+    "options": [
+     "매달리고",
+     "딛고",
+     "서툴고",
+     "능하고"
+    ],
+    "answer_index": 1,
+    "explanation_vi": "실패를 딛고 = vượt qua thất bại. 매달리다 cần 에 (N에 매달리다); 서툴다/능하다 là tính từ, không nhận 을/를."
+   },
+   {
+    "type": "mcq",
+    "skill": "vocab",
+    "prompt_ko": "가정 ___이 어려운 학생들을 위해 학교가 장학금을 지원한다.",
+    "options": [
+     "책무",
+     "종말",
+     "형편",
+     "결정적"
+    ],
+    "answer_index": 2,
+    "explanation_vi": "가정 형편이 어렵다 = hoàn cảnh gia đình khó khăn – cụm cố định."
+   },
+   {
+    "type": "mcq",
+    "skill": "grammar",
+    "prompt_ko": "운동의 목적은 남에게 보여 주는 것이 ___ 건강하게 사는 데 있다.",
+    "options": [
+     "아니라",
+     "아니면",
+     "아니어서",
+     "아니고서는"
+    ],
+    "answer_index": 0,
+    "explanation_vi": "-는 것이 아니라 … -는 데 있다 = không phải là … mà nằm ở …. 아니면 (hoặc), 아니어서 (vì không phải), 아니고서는 (nếu không phải … thì không) đều sai nghĩa."
+   },
+   {
+    "type": "apply",
+    "prompt_vi": "Hồi học cấp 2–3, bạn có trải nghiệm ngoài trường học nào (dã ngoại, câu lạc bộ, tình nguyện, làm thêm)? Nó giúp bạn điều gì? Viết 2–3 câu tiếng Hàn dùng 서툴다 hoặc 딛다 và mẫu -는 것이 아니라.",
+    "model_ko": "고등학교 때 친구들과 봉사 활동을 하면서 처음으로 모르는 사람들과 협력하는 법을 배웠다. 처음에는 사람들 앞에서 말하는 데 서툴렀지만 점점 자신감이 생겼다. 그 경험은 점수를 얻기 위한 것이 아니라 나를 성장시킨 시간이었다."
+   }
+  ],
+  "quality": {
+   "score": 8,
+   "why_selected": "Bỏ thẻ -기 마련이다 (không có trong bài); -(으)ㄹ 뿐만 아니라 đã có trong khóa (bài không dùng) → bỏ; thêm 3 mẫu có thật (-지 않을 수 없다, -는 것이 아니라, -아/어서는 안 되다). 체험, 위축되다 trùng khóa/bài khác → chuyển sang reuse hoặc bỏ; vocab 4→10; hạ ước lượng còn 4 vì lập luận rõ ràng, câu tương đối dễ theo dõi; thêm luyện tập.",
+   "weaknesses": "Bài là bài viết vận động của ngành (chuỗi bài về hoạt động thanh thiếu niên) nên có phần quảng bá cho chế độ 청소년수련활동; ít số liệu."
+  },
+  "related_lesson_slugs": [
+   "xa-hoi-15-dan-so-phuc-loi",
+   "xa-hoi-13-tu-tuong-dao-duc"
+  ]
+ }
+]

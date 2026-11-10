@@ -1,0 +1,859 @@
+{
+  "slug": "xa-hoi-14-lich-su-di-san",
+  "title": "Lịch sử, di sản và văn hoá truyền thống",
+  "title_ko": "역사와 문화유산",
+  "topic": "Xã hội, Tư tưởng & Chuyên ngành",
+  "track": "advanced",
+  "level": 6,
+  "sort_order": 75,
+  "summary": "46 từ về lịch sử, triều đại, di tích – di vật, bảo tồn và chữ viết (Hunminjeongeum); ba nhóm mẫu của văn thuyết minh lịch sử: trải dài · do nguyên nhân/soi theo · phỏng đoán, tương truyền. Có mốc lịch sử và di sản đã kiểm tra (UNESCO, thuật ngữ «유산» mới), cách nghe bài thuyết minh và 3 câu đề thật.",
+  "vocab": [
+    {
+      "hangul": "역사",
+      "pos": "N",
+      "meaning_vi": "Lịch sử",
+      "note_vi": "歷史. `역사적` (mang tính lịch sử), `역사책`.",
+      "example_ko": "역사를 알면 오늘의 사회를 더 잘 이해할 수 있다.",
+      "example_vi": "Biết lịch sử thì hiểu xã hội hôm nay tốt hơn.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "core",
+      "hanja": "歷史",
+      "sino_vietnamese": "lịch sử",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "시대",
+      "pos": "N",
+      "meaning_vi": "Thời đại",
+      "note_vi": "時代. `삼국 시대`, `고려 시대`, `시대적`.",
+      "example_ko": "조선 시대에는 한양이 도읍이었다.",
+      "example_vi": "Thời Joseon, Hanyang là kinh đô.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "core",
+      "hanja": "時代",
+      "sino_vietnamese": "thời đại",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "왕조",
+      "pos": "N",
+      "meaning_vi": "Vương triều",
+      "note_vi": "王朝. `조선 왕조`, `왕조의 멸망`.",
+      "example_ko": "조선 왕조는 오백 년 넘게 이어졌다.",
+      "example_vi": "Vương triều Joseon kéo dài hơn năm trăm năm.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "recognize",
+      "hanja": "王朝",
+      "sino_vietnamese": "vương triều",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "건국",
+      "pos": "N",
+      "meaning_vi": "Dựng nước, lập quốc",
+      "note_vi": "建國. `건국하다/건국되다`, `건국 신화`. Với Đại Hàn Dân Quốc hiện đại có tranh luận về việc tính «건국» từ 1919 hay 1948, nên bài dùng cách nói trung tính «정부 수립» (lập chính phủ).",
+      "example_ko": "고려는 918년에 건국되었다.",
+      "example_vi": "Goryeo được lập năm 918.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "core",
+      "hanja": "建國",
+      "sino_vietnamese": "kiến quốc",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "멸망",
+      "pos": "N",
+      "meaning_vi": "Diệt vong",
+      "note_vi": "滅亡. `멸망하다`; trái nghĩa `건국`.",
+      "example_ko": "백제는 660년에 멸망하였다.",
+      "example_vi": "Baekje diệt vong năm 660.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "recognize",
+      "hanja": "滅亡",
+      "sino_vietnamese": "diệt vong",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "궁궐",
+      "pos": "N",
+      "meaning_vi": "Cung điện, hoàng cung",
+      "note_vi": "宮闕. `고궁` (cố cung) là cách gọi cung cũ.",
+      "example_ko": "경복궁은 조선의 대표적인 궁궐이다.",
+      "example_vi": "Gyeongbokgung là cung điện tiêu biểu của Joseon.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "recognize",
+      "hanja": "宮闕",
+      "sino_vietnamese": "cung khuyết",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "침략",
+      "pos": "N",
+      "meaning_vi": "Xâm lược",
+      "note_vi": "侵略. `침략하다`; `외세의 침략`.",
+      "example_ko": "외적의 침략으로 많은 문화재가 불에 탔다.",
+      "example_vi": "Nhiều di sản bị cháy vì sự xâm lược của ngoại địch.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "recognize",
+      "hanja": "侵略",
+      "sino_vietnamese": "xâm lược",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "전쟁",
+      "pos": "N",
+      "meaning_vi": "Chiến tranh",
+      "note_vi": "戰爭. `임진왜란`, `병자호란`, `6·25 전쟁`; `전쟁이 일어나다/끝나다`.",
+      "example_ko": "전쟁은 많은 사람에게 아픔을 남긴다.",
+      "example_vi": "Chiến tranh để lại nỗi đau cho nhiều người.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "core",
+      "hanja": "戰爭",
+      "sino_vietnamese": "chiến tranh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "독립",
+      "pos": "N",
+      "meaning_vi": "Độc lập",
+      "note_vi": "獨立. `독립하다`, `독립운동`, `독립 국가`.",
+      "example_ko": "그들은 나라의 독립을 위해 싸웠다.",
+      "example_vi": "Họ đã chiến đấu vì nền độc lập của đất nước.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "core",
+      "hanja": "獨立",
+      "sino_vietnamese": "độc lập",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "해방",
+      "pos": "N",
+      "meaning_vi": "Giải phóng",
+      "note_vi": "解放. Sự kiện này còn gọi `광복`; `광복절` là ngày 15 tháng 8.",
+      "example_ko": "1945년에 우리나라는 일제의 지배에서 해방되었다.",
+      "example_vi": "Năm 1945 đất nước thoát khỏi ách thống trị của Nhật.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "recognize",
+      "hanja": "解放",
+      "sino_vietnamese": "giải phóng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "식민지",
+      "pos": "N",
+      "meaning_vi": "Thuộc địa",
+      "note_vi": "植民地. `식민 지배`; `일제강점기` (1910–1945).",
+      "example_ko": "한반도는 일제의 식민지가 되었던 아픈 역사가 있다.",
+      "example_vi": "Bán đảo Triều Tiên có lịch sử đau thương từng là thuộc địa của Nhật.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "recognize",
+      "hanja": "植民地",
+      "sino_vietnamese": "thực dân địa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "통일",
+      "pos": "N",
+      "meaning_vi": "Thống nhất",
+      "note_vi": "統一. `통일 신라`, `통일하다/통일되다`, `남북통일`.",
+      "example_ko": "신라는 삼국을 통일한 뒤 크게 발전했다.",
+      "example_vi": "Silla phát triển mạnh sau khi thống nhất Tam Quốc.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "core",
+      "hanja": "統一",
+      "sino_vietnamese": "thống nhất",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "개혁",
+      "pos": "N",
+      "meaning_vi": "Cải cách",
+      "note_vi": "改革. `개혁하다`, `제도 개혁`, `개혁적`.",
+      "example_ko": "조선 후기에는 사회를 바꾸려는 개혁 논의가 있었다.",
+      "example_vi": "Cuối thời Joseon có những thảo luận cải cách nhằm thay đổi xã hội.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "core",
+      "hanja": "改革",
+      "sino_vietnamese": "cải cách",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "혁명",
+      "pos": "N",
+      "meaning_vi": "Cách mạng",
+      "note_vi": "革命. `사·일구 혁명`; `혁명적` (mang tính cách mạng).",
+      "example_ko": "4·19 혁명은 1960년에 일어났다.",
+      "example_vi": "Cách mạng 19/4 xảy ra năm 1960.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "recognize",
+      "hanja": "革命",
+      "sino_vietnamese": "cách mạng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "민주화",
+      "pos": "N",
+      "meaning_vi": "Dân chủ hoá",
+      "note_vi": "民主化. `민주화되다`, `민주화 운동`.",
+      "example_ko": "1987년 6월의 시민 항쟁은 민주화의 큰 계기가 되었다.",
+      "example_vi": "Cuộc đấu tranh của người dân tháng 6/1987 là bước ngoặt lớn của dân chủ hoá.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "recognize",
+      "hanja": "民主化",
+      "sino_vietnamese": "dân chủ hóa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "근대",
+      "pos": "N",
+      "meaning_vi": "Cận đại",
+      "note_vi": "近代. `근대화`; trình tự `고대 – 중세 – 근대 – 현대`.",
+      "example_ko": "근대에 들어 우리나라는 서양 문물을 받아들이기 시작했다.",
+      "example_vi": "Bước vào thời cận đại, nước ta bắt đầu tiếp nhận văn vật phương Tây.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "core",
+      "hanja": "近代",
+      "sino_vietnamese": "cận đại",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "고대",
+      "pos": "N",
+      "meaning_vi": "Cổ đại",
+      "note_vi": "古代. `고대 문명`, `고대사`.",
+      "example_ko": "고대 국가는 왕을 중심으로 발전했다.",
+      "example_vi": "Quốc gia cổ đại phát triển xoay quanh nhà vua.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "recognize",
+      "hanja": "古代",
+      "sino_vietnamese": "cổ đại",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "문명",
+      "pos": "N",
+      "meaning_vi": "Nền văn minh",
+      "note_vi": "文明. `문명` thiên về trình độ phát triển vật chất–kỹ thuật, `문화` thiên về lối sống, giá trị.",
+      "example_ko": "큰 강 주변에서 고대 문명이 발달했다.",
+      "example_vi": "Nền văn minh cổ đại phát triển quanh các con sông lớn.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "recognize",
+      "hanja": "文明",
+      "sino_vietnamese": "văn minh",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "기록",
+      "pos": "N",
+      "meaning_vi": "Bản ghi, tư liệu ghi lại",
+      "note_vi": "記錄. `기록하다/기록되다`; `기록` còn là «kỷ lục» thể thao.",
+      "example_ko": "이 유적에 관한 기록은 거의 남아 있지 않다.",
+      "example_vi": "Gần như không còn tư liệu ghi lại nào về di tích này.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "core",
+      "hanja": "記錄",
+      "sino_vietnamese": "ký lục",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "사료",
+      "pos": "N",
+      "meaning_vi": "Sử liệu",
+      "note_vi": "史料. Đồng âm `사료` 飼料 (thức ăn chăn nuôi).",
+      "example_ko": "역사가는 사료를 바탕으로 과거를 연구한다.",
+      "example_vi": "Nhà sử học nghiên cứu quá khứ dựa trên sử liệu.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "recognize",
+      "hanja": "史料",
+      "sino_vietnamese": "sử liệu",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "기원",
+      "pos": "N",
+      "meaning_vi": "Nguồn gốc",
+      "note_vi": "起源. Đồng âm `기원` 祈願 (cầu nguyện) và `기원전` 紀元前 (trước Công nguyên).",
+      "example_ko": "이 축제의 기원은 아직 정확히 밝혀지지 않았다.",
+      "example_vi": "Nguồn gốc của lễ hội này vẫn chưa được làm rõ.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "recognize",
+      "hanja": "起源",
+      "sino_vietnamese": "khởi nguyên",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "유래",
+      "pos": "N",
+      "meaning_vi": "Nguồn gốc, xuất xứ",
+      "note_vi": "由來. `유래하다`; mẫu `N에서 유래하다` (bắt nguồn từ N).",
+      "example_ko": "설날 풍습의 유래를 알아보았다.",
+      "example_vi": "Tôi đã tìm hiểu về nguồn gốc của phong tục Tết.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "core",
+      "hanja": "由來",
+      "sino_vietnamese": "do lai",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "시기",
+      "pos": "N",
+      "meaning_vi": "Thời kỳ",
+      "note_vi": "時期. Khác `시기` 猜忌 (ghen ghét) — ít gặp.",
+      "example_ko": "이 탑이 만들어진 시기는 정확하지 않다.",
+      "example_vi": "Thời kỳ ngôi tháp này được làm ra không chính xác.",
+      "family": "🟢 Nền · Lịch sử, triều đại, sự kiện",
+      "priority": "core",
+      "hanja": "時期",
+      "sino_vietnamese": "thời kỳ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "유적",
+      "pos": "N",
+      "meaning_vi": "Di tích",
+      "note_vi": "遺蹟. Bất động sản (nhà, thành, tháp) → `유적`; `유적지`.",
+      "example_ko": "경주에는 신라 시대의 유적이 많이 남아 있다.",
+      "example_vi": "Ở Gyeongju còn nhiều di tích thời Silla.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "recognize",
+      "hanja": "遺跡",
+      "sino_vietnamese": "di tích",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "유물",
+      "pos": "N",
+      "meaning_vi": "Di vật",
+      "note_vi": "遺物. Vật di chuyển được (đồ gốm, trang sức) → `유물`.",
+      "example_ko": "발굴된 유물은 박물관에 전시되어 있다.",
+      "example_vi": "Các di vật được khai quật đang được trưng bày ở bảo tàng.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "core",
+      "hanja": "遺物",
+      "sino_vietnamese": "di vật",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "발굴",
+      "pos": "N",
+      "meaning_vi": "Khai quật",
+      "note_vi": "發掘. `발굴하다/발굴되다`. Khác `발견` (tìm thấy) và `발명` (phát minh).",
+      "example_ko": "이 지역에서 고대 무덤이 발굴되었다.",
+      "example_vi": "Ở khu vực này người ta đã khai quật được ngôi mộ cổ.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "recognize",
+      "hanja": "發掘",
+      "sino_vietnamese": "phát quật",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "전승",
+      "pos": "N",
+      "meaning_vi": "Truyền thừa",
+      "note_vi": "傳承. `전승하다/전승되다`; khác `계승` (kế thừa) — `전승` nhấn mạnh việc truyền lại qua các thế hệ.",
+      "example_ko": "이 이야기는 입으로 전해져 오랫동안 전승되어 왔다.",
+      "example_vi": "Câu chuyện này đã được truyền thừa từ lâu bằng lời kể.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "recognize",
+      "hanja": "傳承",
+      "sino_vietnamese": "truyền thừa",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "등재",
+      "pos": "N",
+      "meaning_vi": "Ghi danh, đăng tải vào danh sách",
+      "note_vi": "登載. `등재하다/등재되다`; `세계유산에 등재되다`.",
+      "example_ko": "새로운 유산이 등재되면 관광객이 크게 늘기도 한다.",
+      "example_vi": "Khi một di sản mới được ghi danh, lượng khách du lịch cũng có thể tăng mạnh.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "recognize",
+      "hanja": "登載",
+      "sino_vietnamese": "đăng tải",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "의례",
+      "pos": "N",
+      "meaning_vi": "Nghi lễ",
+      "note_vi": "儀禮. `의례적` (mang tính nghi thức), `전통 의례`.",
+      "example_ko": "종묘에서는 조선 왕실의 제사 의례가 이어져 왔다.",
+      "example_vi": "Nghi lễ tế tự của vương thất Joseon đã được tiếp nối ở Jongmyo.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "recognize",
+      "hanja": "儀禮",
+      "sino_vietnamese": "nghi lễ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "사찰",
+      "pos": "N",
+      "meaning_vi": "Chùa",
+      "note_vi": "寺刹. Cách nói trang trọng của `절`; `사찰 음식`.",
+      "example_ko": "산속의 사찰에서 하룻밤을 보내는 템플스테이가 인기다.",
+      "example_vi": "Chương trình Templestay qua đêm ở chùa trong núi đang được ưa chuộng.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "recognize",
+      "hanja": "寺刹",
+      "sino_vietnamese": "tự sát",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "불상",
+      "pos": "N",
+      "meaning_vi": "Tượng Phật",
+      "note_vi": "佛像. `불상을 모시다`, `불교 미술`.",
+      "example_ko": "이 사찰에는 오래된 불상이 모셔져 있다.",
+      "example_vi": "Ngôi chùa này thờ một bức tượng Phật cổ.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "recognize",
+      "hanja": "佛像",
+      "sino_vietnamese": "phật tượng",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "석탑",
+      "pos": "N",
+      "meaning_vi": "Tháp đá",
+      "note_vi": "石塔. `탑` (tháp); `삼층석탑`.",
+      "example_ko": "경주 불국사에는 석가탑과 다보탑이 있다.",
+      "example_vi": "Chùa Bulguksa ở Gyeongju có tháp Seokgatap và Dabotap.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "recognize",
+      "hanja": "石塔",
+      "sino_vietnamese": "thạch tháp",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "공예",
+      "pos": "N",
+      "meaning_vi": "Thủ công mỹ nghệ",
+      "note_vi": "工藝. `공예품`, `전통 공예`.",
+      "example_ko": "도자기와 한지는 한국의 대표적인 전통 공예이다.",
+      "example_vi": "Đồ gốm sứ và giấy hanji là nghề thủ công truyền thống tiêu biểu của Hàn Quốc.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "recognize",
+      "hanja": "工藝",
+      "sino_vietnamese": "công nghệ",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "암각화",
+      "pos": "N",
+      "meaning_vi": "Tranh khắc đá",
+      "note_vi": "岩刻畫. `새기다` (khắc). Khối đá khắc ở Ulsan gồm Bangudae và Cheonjeon-ri.",
+      "example_ko": "울산의 반구대 암각화에는 고래와 사냥하는 모습이 새겨져 있다.",
+      "example_vi": "Tranh khắc đá Bangudae ở Ulsan khắc hình cá voi và cảnh săn bắt.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "국보",
+      "pos": "N",
+      "meaning_vi": "Quốc bảo",
+      "note_vi": "國寶. `보물` (bảo vật) là hạng thấp hơn quốc bảo.",
+      "example_ko": "국보는 보물 가운데에서도 특히 가치가 높은 문화재를 말한다.",
+      "example_vi": "Quốc bảo là di sản có giá trị đặc biệt cao trong số các bảo vật.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "recognize",
+      "hanja": "國寶",
+      "sino_vietnamese": "quốc bảo",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "원형",
+      "pos": "N",
+      "meaning_vi": "Hình dạng gốc",
+      "note_vi": "原形. `원형을 유지하다/보존하다`; khác `원형` 圓形 (hình tròn).",
+      "example_ko": "문화재를 복원할 때는 원형을 최대한 살려야 한다.",
+      "example_vi": "Khi phục dựng di sản, phải giữ lại hình dạng gốc đến mức tối đa.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "recognize",
+      "hanja": "原形",
+      "sino_vietnamese": "nguyên hình",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "세계유산",
+      "pos": "N",
+      "meaning_vi": "Di sản thế giới",
+      "note_vi": "世界遺産. UNESCO; khác `인류무형유산` (di sản phi vật thể) và `세계기록유산` (tư liệu).",
+      "example_ko": "반구천의 암각화가 등재되어 한국의 세계유산은 17건이 되었다.",
+      "example_vi": "Tranh khắc đá Bangucheon được ghi danh nên Hàn Quốc có 17 di sản thế giới.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "무형",
+      "pos": "N",
+      "meaning_vi": "Phi vật thể",
+      "note_vi": "無形. Trái nghĩa `유형`; `무형 문화`, `무형유산`.",
+      "example_ko": "판소리와 탈춤은 대표적인 무형 유산이다.",
+      "example_vi": "Pansori và talchum là di sản phi vật thể tiêu biểu.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "recognize",
+      "hanja": "無形",
+      "sino_vietnamese": "vô hình",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "민속",
+      "pos": "N",
+      "meaning_vi": "Dân gian, phong tục dân gian",
+      "note_vi": "民俗. `민속놀이`, `민속촌`, `민속 자료`.",
+      "example_ko": "추석은 한국의 대표적인 민속 명절이다.",
+      "example_vi": "Chuseok là dịp lễ dân gian tiêu biểu của Hàn Quốc.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "recognize",
+      "hanja": "民俗",
+      "sino_vietnamese": "dân tục",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "설화",
+      "pos": "N",
+      "meaning_vi": "Truyện dân gian",
+      "note_vi": "說話. Gồm `신화` (thần thoại), `전설` (truyền thuyết), `민담` (truyện dân gian).",
+      "example_ko": "이 지역에는 호랑이와 관련된 설화가 많이 전해진다.",
+      "example_vi": "Vùng này lưu truyền nhiều truyện dân gian liên quan đến hổ.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "recognize",
+      "hanja": "說話",
+      "sino_vietnamese": "thuyết thoại",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "신화",
+      "pos": "N",
+      "meaning_vi": "Thần thoại",
+      "note_vi": "神話. `건국 신화`, `신화적`.",
+      "example_ko": "단군 신화는 고조선의 건국 이야기를 담고 있다.",
+      "example_vi": "Thần thoại Dangun mang câu chuyện lập quốc của Gojoseon.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "recognize",
+      "hanja": "神話",
+      "sino_vietnamese": "thần thoại",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "편찬",
+      "pos": "N",
+      "meaning_vi": "Soạn sách, biên soạn",
+      "note_vi": "編纂. `편찬하다/편찬되다`; `사전 편찬`.",
+      "example_ko": "조선 시대에는 왕의 활동을 기록한 실록을 편찬했다.",
+      "example_vi": "Thời Joseon người ta biên soạn thực lục ghi lại hoạt động của nhà vua.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "recognize",
+      "hanja": "編纂",
+      "sino_vietnamese": "biên toản",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "금속활자",
+      "pos": "N",
+      "meaning_vi": "Chữ in rời bằng kim loại",
+      "note_vi": "金屬活字. `활자` (chữ in), `목판` (bản gỗ), `인쇄하다`.",
+      "example_ko": "고려 시대에는 금속활자로 책을 인쇄했다.",
+      "example_vi": "Thời Goryeo người ta in sách bằng chữ in rời kim loại.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "recognize"
+    },
+    {
+      "hangul": "훈민정음",
+      "pos": "N",
+      "meaning_vi": "Hunminjeongeum (tên gốc của Hangeul)",
+      "note_vi": "訓民正音: «âm chữ đúng để dạy dân». Ban bố năm 1446; ngày nay gọi `한글`.",
+      "example_ko": "세종은 1443년에 훈민정음을 창제했다.",
+      "example_vi": "Vua Sejong sáng chế Hunminjeongeum năm 1443.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "core",
+      "hanja": "訓民正音",
+      "sino_vietnamese": "huấn dân chính âm",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "창제",
+      "pos": "N",
+      "meaning_vi": "Sáng chế (chữ viết, chế độ)",
+      "note_vi": "創製. `창제하다/창제되다`; khác `제작` (chế tác đồ vật).",
+      "example_ko": "새로운 문자를 창제하는 일은 쉽지 않았을 것이다.",
+      "example_vi": "Chắc việc sáng chế một văn tự mới không dễ dàng.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "recognize",
+      "hanja": "創製",
+      "sino_vietnamese": "sáng chế",
+      "enrich": "auto"
+    },
+    {
+      "hangul": "반포",
+      "pos": "N",
+      "meaning_vi": "Ban bố (cho dân biết)",
+      "note_vi": "頒布. Dùng cho văn tự, chính sách báo cho dân; khác `공포` (công bố luật).",
+      "example_ko": "1446년에 훈민정음이 반포되었다.",
+      "example_vi": "Năm 1446 Hunminjeongeum được ban bố.",
+      "family": "🟡 Dạng thi · Di sản, văn hoá, chữ viết",
+      "priority": "recognize",
+      "hanja": "頒布",
+      "sino_vietnamese": "ban bố",
+      "enrich": "auto"
+    }
+  ],
+  "grammar": [
+    {
+      "pattern": "N + 에 걸쳐 · N + 에 이르기까지 · N + 이래(로)",
+      "meaning_vi": "Trải dài suốt … · Cho đến tận … · Kể từ … đến nay",
+      "usage_context_vi": "**Cấu tạo:** `N + 에 걸쳐`: trải dài suốt khoảng thời gian hoặc phạm vi N (`삼 년에 걸쳐`, `전국에 걸쳐`). `N + 에 이르기까지`: cho đến tận N, thường đi sau `-부터/에서` để nêu phạm vi từ A tới B. `N + 이래(로)` hoặc `V + -(으)ㄴ 이래(로)`: kể từ mốc N cho đến hiện tại.\n**Hoàn cảnh dùng:** Thuyết minh lịch sử, bài giảng về di sản, báo cáo: `십 년에 걸쳐 복원되었다`; `고려 시대부터 조선 시대에 이르기까지`; `광복 이래로 지금까지`.\n**Vì sao chọn nó:** `에 걸쳐` nhấn mạnh độ dài hoặc bề rộng; danh từ trước thường là khoảng thời gian hay vùng (`기간`, `분야`, `지역`). `에 이르기까지` nhấn mạnh phạm vi rất rộng, tính cả điểm cuối. `이래` chỉ một mốc rồi kéo dài tới nay, vế sau thường có `-아/어 왔다`, `계속`.",
+      "contrasts": [
+        {
+          "pattern": "-부터 ~까지",
+          "diff_vi": "Cách nói đơn giản «từ … đến …»; `에 이르기까지` trang trọng và nhấn mạnh phạm vi."
+        },
+        {
+          "pattern": "-동안",
+          "diff_vi": "Chỉ khoảng thời gian; `에 걸쳐` thêm sắc thái «kéo dài, trải rộng»."
+        },
+        {
+          "pattern": "이후 · 이래",
+          "diff_vi": "`이후` chỉ sau mốc đó; `이래` nhấn mạnh trạng thái kéo dài từ mốc đó đến nay."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `에 걸쳐` với một thời điểm: ✗ `어제에 걸쳐`.\n(2) Dùng `이래로` với vế sau về tương lai: ✗ `광복 이래로 앞으로 발전할 것이다`.\n(3) Nhầm `이래` (kể từ) với `이내` (trong vòng): `삼 일 이내`.",
+      "example_ko": "이 성곽은 오랜 기간에 걸쳐 만들어졌다.\n삼국 시대부터 조선 시대에 이르기까지 많은 탑이 세워졌다.\n광복 이래로 우리 사회는 크게 변화해 왔다.\n이 축제는 전국에 걸쳐 열린다.",
+      "example_vi": "Tòa thành này được xây dựng trong một thời gian dài.\nTừ thời Tam Quốc cho đến thời Joseon, nhiều ngôi tháp đã được dựng lên.\nKể từ ngày quang phục, xã hội ta đã thay đổi lớn.\nLễ hội này được tổ chức trên khắp cả nước.",
+      "topik_tip_vi": "Đề nghe thuyết minh hay có «-에 걸쳐» chỉ thời gian xây dựng: nghe số năm và danh từ trước «걸쳐» để làm câu về chi tiết.",
+      "importance": "must"
+    },
+    {
+      "pattern": "N + (으)로 말미암아 · N + 에 비추어(서) · N + 을/를 거쳐(서)",
+      "meaning_vi": "Do, bởi … · Soi theo, xét theo … · Trải qua …",
+      "usage_context_vi": "**Cấu tạo:** `N + (으)로 말미암아`: do N (nguyên nhân gốc, văn viết); dạng định ngữ `N(으)로 말미암은 N`. `N + 에 비추어(서)`: xét theo, đối chiếu với N (kinh nghiệm, tiêu chuẩn, quy định) để phán đoán. `N + 을/를 거쳐(서)`: trải qua giai đoạn hoặc nơi N rồi mới đến kết quả.\n**Hoàn cảnh dùng:** Văn giải thích nguyên nhân lịch sử và đánh giá: `전쟁으로 말미암아 유물이 사라졌다`; `과거의 경험에 비추어 방법을 찾는다`; `여러 단계를 거쳐 완성되었다`.\n**Vì sao chọn nó:** `말미암아` trang trọng hơn `-(으)로 인해` (đã học), nhấn mạnh «gốc của nguyên nhân», vế sau là kết quả (thường tiêu cực hoặc đáng chú ý), không dùng với mệnh lệnh. `에 비추어` luôn cần một tiêu chuẩn làm cơ sở so sánh. `을/를 거쳐` thường nhắc các giai đoạn theo thứ tự.",
+      "contrasts": [
+        {
+          "pattern": "-(으)로 인해",
+          "diff_vi": "Cùng nguyên nhân; `말미암아` nghe trang trọng và hơi cứng."
+        },
+        {
+          "pattern": "에 따라",
+          "diff_vi": "`에 따라` là «tuỳ theo, theo»; `에 비추어` là «đối chiếu rồi phán đoán»."
+        },
+        {
+          "pattern": "-ㄹ 때",
+          "diff_vi": "`거쳐` mô tả quá trình qua các giai đoạn, không chỉ một thời điểm."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `말미암아` với vế sau mệnh lệnh hoặc rủ rê: ✗ `전쟁으로 말미암아 도와주십시오`.\n(2) Dùng `에 비추어` khi không có tiêu chuẩn đối chiếu: ✗ `날씨에 비추어 밥을 먹었다`.\n(3) Nhầm `거쳐` với `걸쳐`: `거쳐` = đi qua, `걸쳐` = trải dài.",
+      "example_ko": "전쟁으로 말미암아 많은 유물이 사라졌다.\n과거의 경험에 비추어 새로운 방법을 찾아야 한다.\n이 책은 여러 단계를 거쳐 편찬되었다.\n지나친 개발로 말미암은 환경 문제가 커지고 있다.",
+      "example_vi": "Nhiều di vật đã biến mất do chiến tranh.\nPhải tìm phương pháp mới dựa trên kinh nghiệm quá khứ.\nCuốn sách này được biên soạn qua nhiều giai đoạn.\nVấn đề môi trường do phát triển quá mức đang ngày càng lớn.",
+      "topik_tip_vi": "Đọc 5–6: sau «으로 말미암아» là kết quả; sau «에 비추어» thường là «판단하다, 평가하다, 찾다».",
+      "importance": "must"
+    },
+    {
+      "pattern": "V + -(으)ㄴ 것으로 추정되다 · V + -(으)ㄴ 것으로 전해지다 · N + (으)로 일컬어지다",
+      "meaning_vi": "Được phỏng đoán là … · Được truyền lại rằng … · Được gọi là …",
+      "usage_context_vi": "**Cấu tạo:** `V/A + -(으)ㄴ/는 것으로 추정되다`: phỏng đoán là …, chưa chắc chắn. `V + -(으)ㄴ 것으로 전해지다` hoặc `-(이)라고 전해지다`: tương truyền là …. `N + (으)로 일컬어지다`: được gọi là, được tôn xưng là N.\n**Hoàn cảnh dùng:** Mô tả di tích, nhân vật, thời kỳ trong bài đọc và bài nghe: `신라 시대에 세워진 것으로 추정된다`; `이 이야기는 오래전부터 전해진 것으로 전해진다`; `한글을 만든 왕으로 일컬어진다`.\n**Vì sao chọn nó:** Khác mẫu `-것으로 나타나다/밝혀지다` (bài 61, có điều tra hoặc bằng chứng): `추정되다` là suy đoán từ dấu vết, `전해지다` là truyền khẩu hoặc truyền lại, `일컬어지다` là cách gọi chung của mọi người. Cả ba đều là thể bị động nên chủ ngữ thường là sự vật.",
+      "contrasts": [
+        {
+          "pattern": "-(으)ㄴ 것으로 나타나다",
+          "diff_vi": "Dựa trên khảo sát, số liệu; `추정되다` là phỏng đoán từ dấu vết."
+        },
+        {
+          "pattern": "-(으)ㄴ 것으로 알려져 있다",
+          "diff_vi": "Được biết rộng rãi; `전해지다` nhấn mạnh việc truyền lại từ trước."
+        },
+        {
+          "pattern": "-(이)라고 부르다",
+          "diff_vi": "Chủ động «gọi là»; `일컬어지다` là bị động, trang trọng."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng `추정된다` cho điều đã chắc chắn: ✗ `2025년에 등재된 것으로 추정된다`.\n(2) Dùng thể chủ động với vật: ✗ `이 탑은 신라 시대에 세운 것으로 추정한다`.\n(3) Dùng `일컬어진다` thiếu `(으)로`: ✗ `세종은 왕이 일컬어진다`.",
+      "example_ko": "이 탑은 신라 시대에 세워진 것으로 추정된다.\n이 마을에는 호랑이가 살았다는 이야기가 전해진다.\n세종은 한글을 만든 왕으로 일컬어진다.\n이 무덤은 오천 년 전의 것으로 추정된다.",
+      "example_vi": "Ngôi tháp này được phỏng đoán là dựng vào thời Silla.\nỞ làng này có lưu truyền câu chuyện rằng từng có hổ sống.\nVua Sejong được gọi là vị vua đã tạo ra Hangeul.\nNgôi mộ này được phỏng đoán có từ năm nghìn năm trước.",
+      "topik_tip_vi": "Gặp «추정된다» thì loại đáp án nói «chắc chắn / đã xác định»; đề hay hỏi «bài nói điều gì chưa chắc».",
+      "importance": "must"
+    },
+    {
+      "pattern": "하오체: V/A + -(으)오 · -소 (văn cổ, lời thoại lịch sử)",
+      "meaning_vi": "Đuôi câu 하오체 — mức lịch sự trung bình, kiểu cổ (phim cổ trang, văn học, thông báo xưa)",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · 👁 **Nhận ra** (đọc/nghe hiểu)\n**Cấu tạo:** trần thuật/nghi vấn/mệnh lệnh: gốc có nguyên âm `-오` (`가오`), gốc có patchim `-소` (`먹소`), `이다 → 이오`; rủ rê `-(으)ㅂ시다`; với `-(으)시-`: `하시오` (mệnh lệnh, biển báo).\n**Hoàn cảnh dùng:** Gặp trong **văn học, phim lịch sử, lời người lớn tuổi** và **biển báo** (`들어가지 마시오`, `손대지 마시오`). Người học cần **nhận ra**, hầu như không cần dùng.\n**Vì sao chọn nó:** Đọc văn học (42–43) và tài liệu lịch sử có lời thoại 하오체; không nhận ra sẽ hiểu sai quan hệ, thái độ nhân vật. `-(으)시오` trên biển báo là **mệnh lệnh lịch sự**.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Lịch sử, di sản và văn hoá truyền thống»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V/A + -(스)ㅂ니다 (합쇼체)",
+          "diff_vi": "Trang trọng hiện đại."
+        },
+        {
+          "pattern": "하게체: V/A + -네 · -(으)ㄴ가 · -세 · -게",
+          "diff_vi": "Mức thấp hơn, người lớn tuổi nói với người dưới."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng 하오체 khi nói chuyện hằng ngày: nghe kỳ lạ, như diễn kịch.\n(2) Nhầm `-소` với `-(으)세요`: biển `들어가지 마시오` là **cấm**, không phải lời mời.\n(3) Đọc `가오` thành tên riêng hay từ lạ: nhớ đó là đuôi câu 하오체.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "이곳에는 들어가지 마시오.\n그대는 어디로 가오?\n나는 이 마을을 떠나지 않겠소.",
+      "example_vi": "Không được vào nơi này. (biển báo)\nNgười đi đâu đấy? (văn cổ)\nTa sẽ không rời ngôi làng này. (lời thoại cổ trang)",
+      "topik_tip_vi": "Đọc văn học/lịch sử: đuôi 하오체 cho biết thời đại và quan hệ nhân vật; câu hỏi tâm trạng vẫn dựa vào nội dung, đừng bị đuôi câu lạ làm rối.",
+      "use_level": "recognize",
+      "source": "EXT-SUP-61"
+    },
+    {
+      "pattern": "하게체: V/A + -네 · -(으)ㄴ가/-나 · -세 · -게",
+      "meaning_vi": "Đuôi câu 하게체 — người lớn tuổi nói với người dưới mà vẫn tôn trọng (bố vợ với con rể, thầy với học trò đã lớn)",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · 👁 **Nhận ra** (đọc/nghe hiểu)\n**Cấu tạo:** trần thuật `-네` (`가네`, `좋네`), nghi vấn `-나/-는가` (động từ), `-(으)ㄴ가` (tính từ), rủ rê `-세` (`가세`), mệnh lệnh `-게` (`가게`); xưng hô `자네`.\n**Hoàn cảnh dùng:** Văn học, phim, lời của **người lớn tuổi với người dưới đã trưởng thành**: `자네, 이리 좀 오게.` `언제 떠나는가?` Người học cần **nhận ra**.\n**Vì sao chọn nó:** Không nhận ra 하게체 dễ hiểu `-네` thành cảm thán `-네요`, hoặc `-게` thành `-게 (để cho)`. Biết dạng này giúp đọc đúng **quan hệ** giữa nhân vật trong văn học.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Lịch sử, di sản và văn hoá truyền thống»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V/A + -네요",
+          "diff_vi": "Cảm thán (해요체), khác `-네` trần thuật 하게체."
+        },
+        {
+          "pattern": "하오체: V/A + -(으)오 · -소",
+          "diff_vi": "Mức cao hơn một bậc."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Hiểu `가게` thành «cửa hàng»: trong câu `빨리 가게` là mệnh lệnh «đi nhanh đi».\n(2) Hiểu `-세` thành kính ngữ: `같이 가세` là rủ rê «cùng đi nào».\n(3) Dùng với bạn bè cùng tuổi hay người trên: sai quan hệ.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "자네, 이리 좀 오게.\n요즘 일은 잘되는가?\n우리 같이 한번 해 보세.",
+      "example_vi": "Cậu, lại đây một chút.\nDạo này công việc có ổn không?\nChúng ta cùng thử làm một lần nào.",
+      "topik_tip_vi": "Đọc văn học 42–43: `자네`, `-게`, `-는가` cho biết người lớn tuổi nói với người dưới; câu hỏi về quan hệ/tâm trạng dựa vào đó.",
+      "use_level": "recognize",
+      "source": "EXT-SUP-62"
+    },
+    {
+      "pattern": "V + -(으)ㄹ세라",
+      "meaning_vi": "(Lo) sợ rằng …, e rằng … (nên cẩn thận làm gì) — văn viết, văn chương",
+      "usage_context_vi": "🟣 **Kiến thức mở rộng** · 👁 **Nhận ra** (đọc/nghe hiểu)\n**Cấu tạo:** gốc động từ + `-(으)ㄹ세라`: `깨다 → 깰세라`, `늦다 → 늦을세라`; hay đi với `-(으)ㄹ세라 + V` (`누가 볼세라 숨겼다`).\n**Hoàn cảnh dùng:** Văn chương, mô tả hành động **cẩn trọng vì sợ điều gì xảy ra**: `아이가 깰세라 조심조심 문을 닫았다.` `누가 볼세라 편지를 얼른 숨겼다.`\n**Vì sao chọn nó:** `-(으)ㄹ까 봐(서)` là cách nói thường ngày; `-(으)ㄹ세라` cùng nghĩa nhưng **văn chương**, hay gặp trong đọc văn học, lịch sử.\n**Trong bài này:** mẫu bổ sung cho chủ đề «Lịch sử, di sản và văn hoá truyền thống»; luyện ở câu «Mở rộng · Đọc: điền ngữ pháp» của bài; bản đồ ôn tập chủ đề xếp nó vào nhóm «Mẫu mở rộng bổ sung».",
+      "contrasts": [
+        {
+          "pattern": "V/A + -(으)ㄹ까 봐(서)",
+          "diff_vi": "Cùng nghĩa, văn nói."
+        },
+        {
+          "pattern": "V + -도록 · V + -지 않도록 · V + -도록 하다",
+          "diff_vi": "Mục đích «để không …», không có sắc thái lo sợ."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Dùng trong hội thoại: nghe như văn cổ; nói chuyện dùng `-(으)ㄹ까 봐`.\n(2) Chia quá khứ: ✗ `깼을세라` → ✓ `깰세라`.\n(3) Vế sau không phải hành động phòng ngừa: sau `-(으)ㄹ세라` là việc **làm để tránh** điều sợ.\n*Biên soạn bổ sung:* mẫu này bổ sung theo danh mục ngữ pháp TOPIK II (đối chiếu Korean Grammar in Use); ví dụ và giải thích do Haru biên soạn.",
+      "example_ko": "아이가 깰세라 조심조심 문을 닫았다.\n누가 볼세라 편지를 얼른 숨겼다.\n기회를 놓칠세라 서둘러 신청서를 냈다.",
+      "example_vi": "Sợ đứa bé tỉnh giấc, (cô) khẽ khàng đóng cửa.\nSợ có người nhìn thấy, (anh) vội giấu lá thư.\nSợ lỡ cơ hội, tôi vội nộp đơn.",
+      "topik_tip_vi": "Đọc văn học: `-(으)ㄹ세라` cho biết nỗi lo của nhân vật; câu hỏi tâm trạng chọn «lo lắng, thận trọng».",
+      "use_level": "recognize",
+      "source": "EXT-SUP-63"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Mục tiêu của bài",
+      "body": "Bài 14 của Chủ đề 5, nhóm kiến thức chuyên đề thứ năm. Sau bài này bạn:\n① nắm 46 từ về lịch sử, di tích – di vật, bảo tồn và chữ viết, cùng các cặp từ dễ nhầm;\n② đọc hiểu và dùng `에 걸쳐`, `(으)로 말미암아`, `-(으)ㄴ 것으로 추정되다` trong văn thuyết minh;\n③ biết các mốc lịch sử và di sản Hàn Quốc đã được kiểm tra (UNESCO, thuật ngữ «국가유산» từ 5/2024);\n④ nghe bài thuyết minh di sản (hướng dẫn viên, bảo tàng) và chọn ý chính, chủ đề, lý do.",
+      "kind": "goal"
+    },
+    {
+      "title": "Mốc lịch sử Hàn Quốc (đã kiểm tra, tháng 10/2026)",
+      "body": "• **Cổ đại**: `단군 신화` kể về việc lập nước `고조선` (mốc truyền thống 2333 TCN, đây là truyền thuyết). Sau đó là thời Tam Quốc: `고구려`, `백제`, `신라`. `백제` diệt vong năm 660; `신라` thống nhất Tam Quốc (`삼국 통일`) cuối thế kỷ VII.\n• **Goryeo**: lập năm 918; 직지 in bằng chữ rời kim loại năm 1377.\n• **Joseon**: lập năm 1392; `경복궁` xây năm 1395 (năm thứ 4 đời Taejo); `훈민정음` sáng chế 1443, ban bố 1446; `임진왜란` 1592; `병자호란` 1636.\n• **Cận – hiện đại**: mở cửa 1876; `대한제국` 1897; `일제강점기` 1910–1945; phong trào 3·1 năm 1919 và `임시헌장` ngày 11/4/1919; `광복` ngày 15/8/1945; lập chính phủ Đại Hàn Dân Quốc ngày 15/8/1948; `6·25 전쟁` 1950 (đình chiến 1953); `4·19 혁명` 1960; `6월 민주항쟁` 1987 và `6·29 선언` chấp nhận bầu trực tiếp tổng thống.\nCác mốc này chỉ để nắm mạch, đề thi hỏi chi tiết rất hiếm.",
+      "kind": "language"
+    },
+    {
+      "title": "Di sản và danh hiệu quốc tế",
+      "body": "• `반구천의 암각화` (Ulsan) gồm `반구대 암각화` và `천전리 명문과 암각화`; được UNESCO ghi danh `세계유산` tháng 7/2025, là di sản thế giới thứ 17 của Hàn Quốc. Đoạn nghe 102-L-43 tả tranh khắc ở Bangudae.\n• `장 담그기` (làm tương) được ghi vào danh sách `인류무형유산` ngày 3/12/2024, là mục thứ 23 của Hàn Quốc tính đến thời điểm đó.\n• `직지` in năm 1377 tại chùa Heungdeoksa (Cheongju) bằng chữ rời kim loại, ghi danh `세계기록유산` tháng 9/2001; bản hiện nay lưu ở Thư viện Quốc gia Pháp.\n• `훈민정음 해례본` (bản giải thích của Hunminjeongeum) ghi danh `세계기록유산` năm 1997; đây là `국보`.\n• `돈덕전` ở Deoksugung xây năm 1902–1903 làm nhà tiếp khách quốc tế nhân lễ mừng 40 năm vua Gojong lên ngôi; bị tháo dỡ giai đoạn 1921–1926 và mở lại sau phục dựng tháng 9/2023 (đề 96-L-41 nói về toà này).\n• `한글날` là ngày 9/10 (kỷ niệm ban bố năm 1446, xác định từ dòng ghi trong bản `해례본`); bị bỏ khỏi ngày nghỉ năm 1991 và trở lại ngày nghỉ từ 2013.",
+      "kind": "language"
+    },
+    {
+      "title": "Thuật ngữ mới: 문화재 → 국가유산 (từ 17/5/2024)",
+      "body": "Từ 17/5/2024, Hàn Quốc dùng hệ thuật ngữ «유산» theo `국가유산기본법`; `문화재청` đổi thành `국가유산청`. Ví dụ: `국가무형문화재` → `국가무형유산`; `국가민속문화재` → `국가민속문화유산`; `등록문화재` → `등록문화유산`; `매장문화재` → `매장유산`. Đây là thay đổi lớn nhất về tên gọi sau gần 62 năm kể từ `문화재보호법` (1962).\nĐề thi cũ (như 96, 102) vẫn dùng `문화재`; đề mới có thể dùng `국가유산`. Hãy hiểu cả hai.",
+      "kind": "language"
+    },
+    {
+      "title": "Cặp từ dễ nhầm",
+      "body": "• `유적` (di tích: nhà, thành, tháp, không di chuyển được) ≠ `유물` (di vật: đồ gốm, trang sức, di chuyển được).\n• `발굴` (khai quật) ≠ `발견` (tìm thấy) ≠ `발명` (phát minh).\n• `전승` (truyền thừa qua các đời) ≠ `계승` (kế thừa, tiếp nối).\n• `복원` (phục dựng theo hình gốc) ≠ `복구` (khôi phục lại sau hư hại) ≠ `보수` (sửa chữa).\n• `창제` (sáng chế chữ, chế độ) ≠ `제작` (chế tác đồ vật).\n• `반포` (ban bố cho dân biết) ≠ `공포` (công bố luật).\n• `해방` ≈ `광복` (cùng sự kiện 15/8/1945, `광복` là từ chính thức).\n• `사료` 史料 (sử liệu) ≠ 飼料 (thức ăn gia súc); `기원` 起源 ≠ 祈願 (cầu nguyện) ≠ 紀元 (kỷ nguyên).",
+      "kind": "language"
+    },
+    {
+      "title": "Nghe bài thuyết minh di sản (hướng dẫn viên, bảo tàng)",
+      "body": "① Câu mở đầu hay là câu hỏi (`어떻게 가능했을까요?`) hoặc chỉ vào đối tượng (`여기 보시는 …`). Câu hỏi này gợi ý **chủ đề** bài nghe.\n② Phần giữa liệt kê đặc điểm: thời gian (`에 걸쳐`), nguyên nhân (`로 말미암아`), phỏng đoán (`추정된다`).\n③ Câu cuối thường là **đánh giá**: `…로 평가받고 있습니다`, `…를 보여 주는 장소입니다`. Câu hỏi «ý chính» hầu như nằm ở đây.\n④ Loại các đáp án nói về điều bài không nhắc (kỹ thuật xây, vốn đầu tư, cách bảo tồn) dù nghe có vẻ hợp lý.\n⑤ Số năm và tên riêng nghe được hãy ghi tắt bằng chữ số; đáp án hay đổi một con số.",
+      "kind": "language"
+    },
+    {
+      "title": "Một đoạn thuyết minh mẫu (nội dung giả định)",
+      "body": "`이 탑은 신라 시대에 세워진 것으로 추정된다. 탑을 쌓는 데에는 오랜 기간에 걸쳐 많은 사람의 노력이 필요했다. 전쟁으로 말미암아 일부가 훼손되었으나 옛 기록에 비추어 원형에 가깝게 복원되었다.`\nChú ý: `추정된다` là phỏng đoán, `에 걸쳐` chỉ độ dài, `말미암아` nêu nguyên nhân, `비추어` nêu cơ sở của việc phục dựng.",
+      "kind": "sample"
+    },
+    {
+      "title": "Năm lỗi hay mắc",
+      "body": "① **Nhầm `걸쳐` và `거쳐`**: `걸쳐` = trải dài, `거쳐` = đi qua.\n② **Dùng `말미암아` với mệnh lệnh** hoặc lời rủ.\n③ **Dùng `에 비추어` không có tiêu chuẩn đối chiếu**.\n④ **Dùng `추정된다` cho điều đã chắc chắn** hoặc dùng thể chủ động với vật.\n⑤ **Chọn đáp án nhắc điều bài không nói** trong câu hỏi chủ đề hay ý chính.",
+      "kind": "pitfall"
+    }
+  ],
+  "bank": "xa-hoi",
+  "coach": {
+    "focus_vi": [
+      "Học 46 từ theo hai nhóm: nhóm lịch sử `건국`, `멸망`, `독립`, `민주화` trước, rồi nhóm di sản `유적`, `유물`, `발굴`, `등재`. Mỗi từ chép một câu ví dụ.",
+      "Làm sáu câu điền mẫu: `에 걸쳐`, `에 이르기까지`, `이래로`, `으로 말미암아`, `에 비추어`, `추정된다`; sửa lại đáp án sai bằng lời giải thích.",
+      "Với ba câu đề thật, trước khi chọn đáp án hãy ghi: đối tượng được thuyết minh là gì, câu hỏi mở đầu là gì, câu cuối đánh giá điều gì."
+    ],
+    "watch_out_vi": [
+      "`에 걸쳐` đi với khoảng dài hoặc vùng rộng, không đi với một thời điểm.",
+      "`으로 말미암아`: vế sau là kết quả, không đi với mệnh lệnh."
+    ],
+    "notebook_vi": [
+      "Bảng mốc lịch sử Hàn Quốc ở mục «Mốc lịch sử» (mỗi mốc một câu bằng 한다체).",
+      "Ba câu nghị luận về việc bảo tồn di sản, dùng `에 비추어`."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "`걸쳐` và `거쳐` khác nhau thế nào?",
+        "answer": "`걸쳐` (từ 걸치다) = trải dài trên một khoảng; `거쳐` (từ 거치다) = đi qua, trải qua. Hai chữ đọc gần giống nhau nên dễ nhầm khi nghe."
+      },
+      {
+        "prompt_vi": "Có phải học thuộc mọi mốc lịch sử?",
+        "answer": "Không. Đề nghe và đọc cho sẵn thông tin, bạn chỉ cần hiểu mạch thời gian và các từ chính; các mốc ở đây giúp bạn hình dung bối cảnh."
+      }
+    ]
+  },
+  "exercise_ids": [
+    "X63L1",
+    "X63L2",
+    "X63L3",
+    "X63L4",
+    "X63D1",
+    "X63D2",
+    "X63R1",
+    "X63R2",
+    "X63R3",
+    "X63R4",
+    "X63R5",
+    "X63R6",
+    "X63R7",
+    "X63R8",
+    "X63R9",
+    "X63R10",
+    "X63B1",
+    "X63B2",
+    "X63B3",
+    "X63B4",
+    "X63B5",
+    "X63B6",
+    "X63B7",
+    "X63F1",
+    "X63F2",
+    "X63E1",
+    "RG64",
+    "XSUP61",
+    "XSUP62",
+    "XSUP63",
+    "SP64"
+  ],
+  "topik2": [
+    {
+      "qid": "96-L-41",
+      "why_vi": "Bài thuyết minh về Dondeokjeon. Hỏi ý chính: tìm câu kết nêu «vị thế quốc gia cận đại» (③). Chú ý `1년여에 걸쳐` ở câu đầu và loại các đáp án về kỹ thuật xây dựng, vốn nước ngoài hay việc giữ nguyên hình gốc."
+    },
+    {
+      "qid": "102-L-33",
+      "why_vi": "Bài hỏi chủ đề: mở đầu bằng câu hỏi «어떻게 가능했을까요?» rồi giải thích. Chủ đề là lý do tháp Tappyeong-ri được chỉ định quốc bảo (cao nhất, ở trung tâm, vẻ đẹp, di vật). Loại đáp án về phục hồi hay khai quật."
+    },
+    {
+      "qid": "102-L-43",
+      "why_vi": "Bài tả tranh khắc đá Bangudae (cá voi, thuyền, cây lao, người nhảy múa). Hỏi chủ đề → chọn «nội dung được thể hiện» (①); loại đáp án về cách bảo tồn, niên đại, quá trình phát hiện vì bài không nhắc."
+    }
+  ],
+  "editor_notes": [
+    {
+      "title": "Đầu ra của bài (Giai đoạn 1, 2026-11)",
+      "body": "SP64: S6 phục dựng hay giữ nguyên di tích (không gắn tên di sản hay năm cụ thể) để dùng 에 걸쳐, (으)로 말미암아, 을/를 거쳐, 에 비추어, -(으)ㄴ 것으로 전해지다. Ví dụ «một thành cổ ở quê» để người Việt nào cũng nói được. `복원`, `훼손` không có thẻ trong bài nên không ghi vào uses. RG64: năm câu nói cùng chủ đề."
+    }
+  ]
+}

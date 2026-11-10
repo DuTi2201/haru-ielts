@@ -1,0 +1,250 @@
+{
+  "lesson": "xa-hoi-12-khoa-hoc-cong-nghe",
+  "items": [
+    {
+      "id": "xa-hoi-12-d1",
+      "kind": "dialogue",
+      "title_ko": "새로운 배터리",
+      "title_vi": "Pin mới",
+      "scene_vi": "Hai người bạn bàn về một tin khoa học (nội dung giả định): nhóm nghiên cứu phát triển loại pin sạc nhanh hơn.",
+      "speakers": {
+        "F": "서연",
+        "M": "준호"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "뉴스 봤어요? 연구진이 새로운 소재를 개발함으로써 배터리 충전 시간을 절반으로 줄였대요.",
+          "vi": "Bạn xem tin chưa? Nhóm nghiên cứu phát triển vật liệu mới nên giảm thời gian sạc pin xuống một nửa."
+        },
+        {
+          "who": "M",
+          "ko": "정말요? 실험 결과는 어떻게 나왔대요?",
+          "vi": "Thật à? Kết quả thí nghiệm ra sao?"
+        },
+        {
+          "who": "F",
+          "ko": "오래 써도 성능이 크게 떨어지지 않는 것으로 나타났대요.",
+          "vi": "Kết quả cho thấy dùng lâu hiệu năng cũng không giảm nhiều."
+        },
+        {
+          "who": "M",
+          "ko": "그럼 상용화는 언제쯤 가능하대요?",
+          "vi": "Vậy khi nào có thể thương mại hoá?"
+        },
+        {
+          "who": "F",
+          "ko": "안전 점검을 거쳐야 해서 이 년쯤 뒤가 될 전망이래요.",
+          "vi": "Phải qua kiểm tra an toàn nên dự báo khoảng hai năm nữa."
+        },
+        {
+          "who": "M",
+          "ko": "요즘은 인공지능이란 말이 모든 분야에서 나오는데, 이 연구에도 쓰였대요?",
+          "vi": "Dạo này từ AI xuất hiện ở mọi lĩnh vực, nghiên cứu này cũng dùng nó à?"
+        },
+        {
+          "who": "F",
+          "ko": "네, 인공지능이 수많은 소재의 데이터를 분석해서 후보를 골랐대요.",
+          "vi": "Vâng, AI phân tích dữ liệu của vô số vật liệu rồi chọn ra ứng viên."
+        },
+        {
+          "who": "M",
+          "ko": "기술이 정말 빠르게 발전하네요. 저도 이 분야를 공부해 보고 싶어졌어요.",
+          "vi": "Công nghệ phát triển nhanh thật. Tôi cũng muốn thử học lĩnh vực này."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -(으)ㅁ으로써 · N + (으)로써 · N + 에 힘입어",
+          "regex": "개발함으로써"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 것으로 나타나다 · V + -(으)ㄴ 것으로 밝혀지다 · V + -(으)ㄴ/는 것으로 알려져 있다",
+          "regex": "것으로 나타났대요"
+        },
+        {
+          "pattern": "N + (이)란 · N + (으)로 나뉘다/분류되다 · N + 에 기인하다",
+          "regex": "인공지능이란"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "연구진",
+          "seen": "연구진이"
+        },
+        {
+          "word": "개발",
+          "seen": "개발함으로써"
+        },
+        {
+          "word": "실험",
+          "seen": "실험"
+        },
+        {
+          "word": "상용화",
+          "seen": "상용화는"
+        },
+        {
+          "word": "인공지능",
+          "seen": "인공지능이란"
+        },
+        {
+          "word": "데이터",
+          "seen": "데이터를"
+        },
+        {
+          "word": "배터리",
+          "seen": "배터리"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Hai người nói về tin gì?",
+          "options": [
+            "Một loại pin mới sạc nhanh hơn",
+            "Giá điện tăng",
+            "Một cuộc bầu cử"
+          ],
+          "answer": 0,
+          "explain_vi": "Nữ nói «배터리 충전 시간을 절반으로 줄였대요»."
+        },
+        {
+          "q_vi": "Theo kết quả thí nghiệm, pin mới thế nào?",
+          "options": [
+            "Dùng lâu mà hiệu năng không giảm nhiều",
+            "Hiệu năng giảm nhanh",
+            "Chưa có kết quả"
+          ],
+          "answer": 0,
+          "explain_vi": "Nữ nói «성능이 크게 떨어지지 않는 것으로 나타났대요»."
+        },
+        {
+          "q_vi": "Khi nào có thể thương mại hoá?",
+          "options": [
+            "Khoảng hai năm sau",
+            "Ngay tháng này",
+            "Không thể"
+          ],
+          "answer": 0,
+          "explain_vi": "Nữ nói «이 년쯤 뒤가 될 전망이래요»."
+        }
+      ]
+    },
+    {
+      "id": "xa-hoi-12-r1",
+      "kind": "reading",
+      "title_ko": "기후 변화와 탄소 중립",
+      "title_vi": "Biến đổi khí hậu và trung hoà carbon",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "기후 변화란 지구의 평균 기온이 오르면서 날씨의 평균적인 모습이 달라지는 현상을 말한다.",
+          "vi": "Biến đổi khí hậu là hiện tượng nhiệt độ trung bình của Trái Đất tăng nên diện mạo thời tiết trung bình thay đổi."
+        },
+        {
+          "who": "N",
+          "ko": "온난화는 주로 화석 연료를 태울 때 나오는 이산화탄소 때문에 일어나는 것으로 알려져 있다.",
+          "vi": "Người ta biết rằng nóng lên chủ yếu do khí carbon dioxide sinh ra khi đốt nhiên liệu hoá thạch."
+        },
+        {
+          "who": "N",
+          "ko": "이를 막으려면 태양광이나 풍력 같은 재생 에너지를 늘려야 한다.",
+          "vi": "Để ngăn chặn, cần tăng năng lượng tái tạo như điện mặt trời, điện gió."
+        },
+        {
+          "who": "N",
+          "ko": "기술 발전에 힘입어 재생 에너지의 가격이 낮아졌고 전기차도 빠르게 늘고 있다.",
+          "vi": "Nhờ tiến bộ công nghệ, giá năng lượng tái tạo đã giảm và xe điện cũng tăng nhanh."
+        },
+        {
+          "who": "N",
+          "ko": "한국은 2050년까지 탄소 중립을 이루는 것을 목표로 하고 있다.",
+          "vi": "Hàn Quốc đặt mục tiêu đạt trung hoà carbon vào năm 2050."
+        },
+        {
+          "who": "N",
+          "ko": "전문가들은 기술 개발과 함께 생활 방식의 변화도 필요하다고 말한다.",
+          "vi": "Các chuyên gia nói cùng với phát triển công nghệ cũng cần thay đổi lối sống."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "N + (이)란 · N + (으)로 나뉘다/분류되다 · N + 에 기인하다",
+          "regex": "기후 변화란"
+        },
+        {
+          "pattern": "V + -(으)ㅁ으로써 · N + (으)로써 · N + 에 힘입어",
+          "regex": "발전에 힘입어"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 것으로 나타나다 · V + -(으)ㄴ 것으로 밝혀지다 · V + -(으)ㄴ/는 것으로 알려져 있다",
+          "regex": "일어나는 것으로 알려져 있다"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "기후",
+          "seen": "기후"
+        },
+        {
+          "word": "온난화",
+          "seen": "온난화는"
+        },
+        {
+          "word": "화석",
+          "seen": "화석"
+        },
+        {
+          "word": "연료",
+          "seen": "연료를"
+        },
+        {
+          "word": "탄소",
+          "seen": "탄소"
+        },
+        {
+          "word": "재생",
+          "seen": "재생"
+        },
+        {
+          "word": "기술",
+          "seen": "기술"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Biến đổi khí hậu là gì theo bài?",
+          "options": [
+            "Nhiệt độ trung bình tăng và thời tiết trung bình thay đổi",
+            "Mưa ít đi trong một mùa",
+            "Giá điện tăng"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 1: «지구의 평균 기온이 오르면서 날씨의 평균적인 모습이 달라지는 현상»."
+        },
+        {
+          "q_vi": "Nguyên nhân nóng lên được biết đến là gì?",
+          "options": [
+            "Carbon dioxide do đốt nhiên liệu hoá thạch",
+            "Việc dùng xe đạp",
+            "Sự tăng dân số"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 2: «화석 연료를 태울 때 나오는 이산화탄소»."
+        },
+        {
+          "q_vi": "Nhờ gì mà giá năng lượng tái tạo đã giảm?",
+          "options": [
+            "Tiến bộ công nghệ",
+            "Chính sách tăng thuế",
+            "Dân số giảm"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 4: «기술 발전에 힘입어 재생 에너지의 가격이 낮아졌고»."
+        }
+      ]
+    }
+  ]
+}

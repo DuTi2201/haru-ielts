@@ -1,0 +1,214 @@
+{
+  "lesson": "xa-hoi-15-dan-so-phuc-loi",
+  "items": [
+    {
+      "id": "xa-hoi-15-d1",
+      "kind": "dialogue",
+      "title_ko": "연금 개혁 이야기",
+      "title_vi": "Chuyện cải cách lương hưu",
+      "scene_vi": "Hai đồng nghiệp trò chuyện về tin phí bảo hiểm lương hưu tăng dần và gánh nặng của người trẻ.",
+      "speakers": {
+        "F": "지민",
+        "M": "태호"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "뉴스 봤어요? 국민연금 보험료가 해마다 조금씩 오르고 있대요.",
+          "vi": "Bạn xem tin chưa? Nghe nói phí bảo hiểm lương hưu quốc dân đang tăng dần mỗi năm."
+        },
+        {
+          "who": "M",
+          "ko": "저도 들었어요. 청년들은 내야 할 돈이 늘어나는 데 반해 나중에 받을 돈은 불확실하다고 걱정하더라고요.",
+          "vi": "Tôi cũng nghe. Người trẻ lo là số tiền phải đóng tăng trong khi khoản nhận sau này không chắc chắn."
+        },
+        {
+          "who": "F",
+          "ko": "그래도 보험료를 올리지 않으면 노후 소득을 보장하기 어렵다는 의견이 많아요.",
+          "vi": "Dù vậy nhiều người cho rằng nếu không tăng phí thì khó đảm bảo thu nhập tuổi già."
+        },
+        {
+          "who": "M",
+          "ko": "맞아요. 저희 부모님도 연금 수령액이 기대를 밑돌아서 걱정하세요.",
+          "vi": "Đúng vậy. Bố mẹ tôi cũng lo vì khoản lương hưu nhận được thấp hơn kỳ vọng."
+        },
+        {
+          "who": "F",
+          "ko": "월급에서 나가는 돈이 많아 생활비가 부족할 지경이라는 청년도 있어요.",
+          "vi": "Cũng có người trẻ nói tiền trừ khỏi lương nhiều đến mức sinh hoạt phí thiếu hụt."
+        },
+        {
+          "who": "M",
+          "ko": "부담이 커지면 연금을 외면하는 경향이 있다는 이야기도 들었어요.",
+          "vi": "Tôi cũng nghe nói khi gánh nặng lớn lên thì có xu hướng quay lưng với lương hưu."
+        },
+        {
+          "who": "F",
+          "ko": "그래서 제도를 개혁하면서 청년의 부담을 줄이는 방법도 같이 찾아야 한대요.",
+          "vi": "Vì vậy nghe nói vừa cải cách chế độ vừa phải cùng tìm cách giảm gánh nặng cho người trẻ."
+        },
+        {
+          "who": "M",
+          "ko": "결국 노후 준비는 개인의 문제가 아니라 사회 전체의 문제이네요.",
+          "vi": "Rốt cuộc chuẩn bị cho tuổi già không phải việc riêng của cá nhân mà là việc của cả xã hội nhỉ."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V/A + -(으)ㄴ/는 데 반해 · V/A + -(으)ㄴ/는 데 비해(서) · N + 에 반해(서)",
+          "regex": "데 반해"
+        },
+        {
+          "pattern": "N + 에 달하다 · N + 을/를 웃돌다/밑돌다 · N + 에 못 미치다",
+          "regex": "밑돌아서"
+        },
+        {
+          "pattern": "V/A + -는 경향이 있다 · V/A + -(으)ㄹ 지경이다 · V/A + -(으)ㄹ 정도이다",
+          "regex": "경향이 있다는"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "연금",
+          "seen": "연금"
+        },
+        {
+          "word": "노후",
+          "seen": "노후"
+        },
+        {
+          "word": "청년",
+          "seen": "청년들은"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Người trẻ lo lắng điều gì?",
+          "options": [
+            "Phải đóng nhiều hơn nhưng khoản nhận sau này không chắc chắn",
+            "Lương hưu đã bị bãi bỏ",
+            "Không có nơi để đóng bảo hiểm"
+          ],
+          "answer": 0,
+          "explain_vi": "Nam nói «내야 할 돈이 늘어나는 데 반해 나중에 받을 돈은 불확실»."
+        },
+        {
+          "q_vi": "Vì sao bố mẹ của nam lo lắng?",
+          "options": [
+            "Khoản lương hưu nhận được thấp hơn kỳ vọng",
+            "Phải đóng thêm phí hằng tháng",
+            "Chưa đủ tuổi nhận lương hưu"
+          ],
+          "answer": 0,
+          "explain_vi": "Nam nói «연금 수령액이 기대를 밑돌아서 걱정하세요»."
+        },
+        {
+          "q_vi": "Nam kết luận điều gì ở cuối?",
+          "options": [
+            "Chuẩn bị cho tuổi già là vấn đề của cả xã hội",
+            "Là vấn đề riêng của mỗi cá nhân",
+            "Chỉ cần nhà nước tăng phí bảo hiểm"
+          ],
+          "answer": 0,
+          "explain_vi": "Nam nói «사회 전체의 문제이네요»."
+        }
+      ]
+    },
+    {
+      "id": "xa-hoi-15-r1",
+      "kind": "reading",
+      "title_ko": "인구 구조의 변화",
+      "title_vi": "Thay đổi trong cơ cấu dân số",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "한국의 합계출산율은 2025년에 잠정 0.80명으로 전년보다 0.05명 올랐다.",
+          "vi": "Tổng tỷ suất sinh của Hàn Quốc năm 2025 theo số liệu tạm thời là 0,80, tăng 0,05 so với năm trước."
+        },
+        {
+          "who": "N",
+          "ko": "출생아 수도 25만 4천5백 명으로 전년보다 6.8% 늘어 2년 연속 증가하였다.",
+          "vi": "Số trẻ sinh ra cũng là 254.500, tăng 6,8% so với năm trước và tăng hai năm liên tiếp."
+        },
+        {
+          "who": "N",
+          "ko": "그러나 한 해의 증가만으로 저출산 문제가 해결되었다고 볼 수는 없다.",
+          "vi": "Tuy nhiên chỉ với mức tăng của một năm thì không thể coi vấn đề sinh thấp đã được giải quyết."
+        },
+        {
+          "who": "N",
+          "ko": "국가데이터처의 2025년 인구주택총조사에 따르면 65세 이상 인구의 비율은 20.7%로 처음으로 20%를 넘었다.",
+          "vi": "Theo Tổng điều tra dân số và nhà ở năm 2025 của Cục Dữ liệu quốc gia, tỷ lệ người từ 65 tuổi trở lên là 20,7%, lần đầu vượt 20%."
+        },
+        {
+          "who": "N",
+          "ko": "반면 15세부터 64세까지의 생산연령인구 비율은 2015년 73.4%에서 2025년 69.2%로 낮아졌다.",
+          "vi": "Trong khi đó tỷ lệ dân số trong độ tuổi lao động 15–64 giảm từ 73,4% năm 2015 xuống 69,2% năm 2025."
+        },
+        {
+          "who": "N",
+          "ko": "이처럼 젊은 인구는 줄어드는 데 반해 노인 인구는 빠르게 늘어나는 경향이 있어 연금과 돌봄 같은 사회보장 제도를 안정적으로 유지할 방안이 필요하다.",
+          "vi": "Như vậy, trong khi dân số trẻ giảm thì dân số cao tuổi có xu hướng tăng nhanh, nên cần phương án duy trì ổn định các chế độ an sinh như lương hưu và chăm sóc."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V/A + -(으)ㄴ/는 데 반해 · V/A + -(으)ㄴ/는 데 비해(서) · N + 에 반해(서)",
+          "regex": "데 반해"
+        },
+        {
+          "pattern": "V/A + -는 경향이 있다 · V/A + -(으)ㄹ 지경이다 · V/A + -(으)ㄹ 정도이다",
+          "regex": "경향이 있어"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "출생",
+          "seen": "출생아"
+        },
+        {
+          "word": "노인",
+          "seen": "노인"
+        },
+        {
+          "word": "사회보장",
+          "seen": "사회보장"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Tổng tỷ suất sinh năm 2025 (số liệu tạm thời) là bao nhiêu và thay đổi ra sao?",
+          "options": [
+            "0,80 và tăng so với năm trước",
+            "0,75 và giảm so với năm trước",
+            "1,20 và không thay đổi"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 1: «잠정 0.80명으로 전년보다 0.05명 올랐다»."
+        },
+        {
+          "q_vi": "Theo Tổng điều tra 2025, tỷ lệ người từ 65 tuổi trở lên là bao nhiêu?",
+          "options": [
+            "20,7%, lần đầu vượt 20%",
+            "15%, thấp hơn trước",
+            "30%, vượt một nửa"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 4: «20.7%로 처음으로 20%를 넘었다»."
+        },
+        {
+          "q_vi": "Tác giả cho rằng cần điều gì?",
+          "options": [
+            "Phương án duy trì ổn định các chế độ an sinh như lương hưu và chăm sóc",
+            "Ngừng hẳn các chế độ an sinh",
+            "Chỉ tăng số lượng nhà trẻ"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 6: «사회보장 제도를 안정적으로 유지할 방안이 필요하다»."
+        }
+      ]
+    }
+  ]
+}

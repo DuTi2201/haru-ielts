@@ -1,0 +1,239 @@
+{
+  "lesson": "xa-hoi-05-van-viet-trang-trong",
+  "items": [
+    {
+      "id": "xa-hoi-05-d1",
+      "kind": "dialogue",
+      "title_ko": "졸업 논문 주제",
+      "title_vi": "Chủ đề luận văn tốt nghiệp",
+      "scene_vi": "Một sinh viên xin giáo sư tư vấn chọn chủ đề luận văn tốt nghiệp.",
+      "speakers": {
+        "F": "수빈",
+        "M": "교수"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "교수님, 졸업 논문 주제를 정하고 싶은데 조언을 부탁드립니다.",
+          "vi": "Thưa thầy, em muốn chọn chủ đề luận văn tốt nghiệp, xin thầy tư vấn."
+        },
+        {
+          "who": "M",
+          "ko": "최근에 관심 있게 본 사회 문제가 있나요?",
+          "vi": "Gần đây em có chú ý đến vấn đề xã hội nào không?"
+        },
+        {
+          "who": "F",
+          "ko": "저출산 문제입니다. 신문에서도 여러 번 지적한 바 있는 중요한 문제 같아요.",
+          "vi": "Dạ vấn đề tỉ lệ sinh thấp ạ. Báo cũng đã nhiều lần chỉ ra, có vẻ là một vấn đề quan trọng."
+        },
+        {
+          "who": "M",
+          "ko": "좋은 주제예요. 아시다시피 인구 문제는 경제와도 연결되는 만큼 자료를 폭넓게 찾아야 해요.",
+          "vi": "Chủ đề hay đấy. Như em biết, vấn đề dân số gắn với kinh tế nên phải tìm tài liệu rộng."
+        },
+        {
+          "who": "F",
+          "ko": "설문 조사를 하는 한편 통계 자료도 분석해 보려고 합니다.",
+          "vi": "Em định vừa khảo sát bằng bảng hỏi vừa phân tích số liệu thống kê."
+        },
+        {
+          "who": "M",
+          "ko": "좋아요. 다만 설문만으로는 원인을 알기 어려울 수 있으니 전문가 면담도 해 보세요.",
+          "vi": "Tốt. Có điều chỉ khảo sát thì khó biết nguyên nhân nên em hãy phỏng vấn cả chuyên gia."
+        },
+        {
+          "who": "F",
+          "ko": "네, 알겠습니다. 이번 주 안에 계획서를 가져오겠습니다.",
+          "vi": "Vâng ạ. Trong tuần này em sẽ mang kế hoạch đến."
+        },
+        {
+          "who": "M",
+          "ko": "그래요. 처음 계획한 만큼 철저히 연구하려면 일정도 여유 있게 잡으세요.",
+          "vi": "Được. Muốn nghiên cứu kỹ như đã định thì em cũng nên đặt lịch thong thả."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -(으)ㄴ 바 있다 · V + -(으)ㄴ/는 바와 같이",
+          "regex": "지적한 바 있는"
+        },
+        {
+          "pattern": "V + -다시피 · V + -다시피 하다",
+          "regex": "아시다시피"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 한편 · N + 인 한편",
+          "regex": "하는 한편"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 만큼 · V + -(으)ㄹ 만큼 · N + 만큼",
+          "regex": "연결되는 만큼"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "설문",
+          "seen": "설문"
+        },
+        {
+          "word": "분석",
+          "seen": "분석해"
+        },
+        {
+          "word": "지적",
+          "seen": "지적한"
+        },
+        {
+          "word": "원인",
+          "seen": "원인을"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Sinh viên muốn nghiên cứu chủ đề gì?",
+          "options": [
+            "Biến đổi khí hậu",
+            "Tỉ lệ sinh thấp",
+            "Giáo dục đại học"
+          ],
+          "answer": 1,
+          "explain_vi": "Cô nói «저출산 문제입니다»."
+        },
+        {
+          "q_vi": "Giáo sư khuyên thêm điều gì ngoài khảo sát?",
+          "options": [
+            "Phỏng vấn chuyên gia",
+            "Viết sớm hơn",
+            "Đổi chủ đề"
+          ],
+          "answer": 0,
+          "explain_vi": "Ông nói «전문가 면담도 해 보세요»."
+        },
+        {
+          "q_vi": "Sinh viên sẽ làm gì trong tuần này?",
+          "options": [
+            "Nộp luận văn",
+            "Mang kế hoạch đến",
+            "Đi phỏng vấn"
+          ],
+          "answer": 1,
+          "explain_vi": "Cô nói «이번 주 안에 계획서를 가져오겠습니다»."
+        }
+      ]
+    },
+    {
+      "id": "xa-hoi-05-r1",
+      "kind": "reading",
+      "title_ko": "도시와 농촌",
+      "title_vi": "Thành thị và nông thôn",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "한국은 빠르게 산업이 발전한 나라로 알려져 있다.",
+          "vi": "Hàn Quốc được biết đến là nước có công nghiệp phát triển nhanh."
+        },
+        {
+          "who": "N",
+          "ko": "이 과정에서 많은 사람이 일자리를 찾아 도시로 이동했다.",
+          "vi": "Trong quá trình này, nhiều người di chuyển lên thành phố để tìm việc."
+        },
+        {
+          "who": "N",
+          "ko": "그 결과 도시는 인구가 늘어나는 한편 농촌은 점점 사람이 줄어들었다.",
+          "vi": "Kết quả là thành phố tăng dân số trong khi nông thôn ngày càng ít người."
+        },
+        {
+          "who": "N",
+          "ko": "이러한 변화는 이미 여러 연구에서 지적한 바 있다.",
+          "vi": "Những thay đổi này đã được nhiều nghiên cứu chỉ ra."
+        },
+        {
+          "who": "N",
+          "ko": "도시는 경제의 중심지이자 문화의 중심지이다.",
+          "vi": "Thành phố vừa là trung tâm kinh tế vừa là trung tâm văn hoá."
+        },
+        {
+          "who": "N",
+          "ko": "그러나 주택과 교통 문제도 함께 안고 있다.",
+          "vi": "Nhưng thành phố cũng mang theo vấn đề nhà ở và giao thông."
+        },
+        {
+          "who": "N",
+          "ko": "지역 간 격차가 커진 만큼 균형 있는 발전 정책이 필요하다.",
+          "vi": "Khoảng cách giữa các vùng đã lớn nên cần chính sách phát triển cân bằng."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -(으)ㄴ 바 있다 · V + -(으)ㄴ/는 바와 같이",
+          "regex": "지적한 바 있다"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 한편 · N + 인 한편",
+          "regex": "늘어나는 한편"
+        },
+        {
+          "pattern": "N + 이며 · N + 이자",
+          "regex": "중심지이자"
+        },
+        {
+          "pattern": "V/A + -(으)ㄴ/는 만큼 · V + -(으)ㄹ 만큼 · N + 만큼",
+          "regex": "커진 만큼"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "산업",
+          "seen": "산업이"
+        },
+        {
+          "word": "인구",
+          "seen": "인구가"
+        },
+        {
+          "word": "격차",
+          "seen": "격차가"
+        },
+        {
+          "word": "균형",
+          "seen": "균형"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Nông thôn thay đổi như thế nào?",
+          "options": [
+            "Dân số ngày càng đông",
+            "Ngày càng ít người",
+            "Không thay đổi"
+          ],
+          "answer": 1,
+          "explain_vi": "Câu 3: «농촌은 점점 사람이 줄어들었다»."
+        },
+        {
+          "q_vi": "Thành phố là gì theo bài?",
+          "options": [
+            "Chỉ là trung tâm kinh tế",
+            "Vừa là trung tâm kinh tế vừa là trung tâm văn hoá",
+            "Chỉ là nơi nhiều vấn đề"
+          ],
+          "answer": 1,
+          "explain_vi": "Câu 5: «경제의 중심지이자 문화의 중심지»."
+        },
+        {
+          "q_vi": "Bài đề nghị điều gì?",
+          "options": [
+            "Chính sách phát triển cân bằng",
+            "Xây thêm nhà",
+            "Đóng cửa thành phố"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu cuối: «균형 있는 발전 정책이 필요하다»."
+        }
+      ]
+    }
+  ]
+}

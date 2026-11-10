@@ -1,0 +1,2489 @@
+{
+  "skill": "speaking",
+  "guide": [],
+  "items": [
+    {
+      "id": "X70S6",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Tổng hợp chủ đề (S6): Hạn chế ô tô ở trung tâm đô thị",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "대도시 도심에서 자동차 운행을 일부 제한하는 정책에 대해 어떻게 생각합니까? 찬성이나 반대 입장을 정하고 이유를 들어 말하십시오.",
+      "prompt_vi": "Bạn nghĩ gì về chính sách hạn chế một phần xe ô tô ở trung tâm các đô thị lớn? Hãy chọn tán thành hoặc phản đối và nêu lý do.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "**Chọn một phe ngay.** Ghi 2 lý do + 1 ví dụ cá nhân + 1 phản biện",
+          "phrases_ko": "입장 / 이유 ① / 이유 ② / 반론"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** trong 1–2 câu đầu",
+          "phrases_ko": "저는 …에 찬성해요."
+        },
+        {
+          "when_vi": "10–35 giây",
+          "do_vi": "Lý do 1, có số liệu nói chung hoặc so sánh",
+          "phrases_ko": "첫째, … -기 때문이에요. … -ㄴ/는 데 반해 …"
+        },
+        {
+          "when_vi": "35–55 giây",
+          "do_vi": "Lý do 2 + ví dụ cá nhân",
+          "phrases_ko": "둘째, … 저도 … 적이 있어요."
+        },
+        {
+          "when_vi": "55–72 giây",
+          "do_vi": "**Nhượng bộ + phản bác**",
+          "phrases_ko": "물론 … 반대하는 사람도 있어요. 하지만 …다고 해서 … -는 것은 아니에요."
+        },
+        {
+          "when_vi": "72–80 giây",
+          "do_vi": "Kết luận lặp lại lập trường",
+          "phrases_ko": "그래서 저는 … 필요하다고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Giám khảo muốn nghe **lập trường rõ trong hai câu đầu**, lý do logic và cách tổ chức; đừng chọn «ý kiến ở giữa» trong 80 giây.",
+        "Mỗi lý do ngắn và cụ thể, có một trải nghiệm của chính mình. Không đưa số liệu mình không chắc.",
+        "Giữ nhất quán **해요체**; từ nối đánh dấu cấu trúc: 첫째/둘째, 물론, 하지만, 그래서."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: -ㄴ/는 데 반해 · -기 때문이에요 · -(ㄴ/는)다고 해서 … -는 것은 아니다 · 을/를 막론하고 · -다고 볼 수 있다.",
+        "Dùng thêm được: 에 관계없이 · -는 동시에 · -(으)ㅁ으로써 · 은/는 물론."
+      ],
+      "model_answer_ko": "저는 대도시 도심에서 자동차 운행을 일부 제한하는 정책에 찬성해요. 첫째, 대기 오염을 줄일 수 있기 때문이에요. 도심은 자동차가 많은 데 반해 도로가 좁아서 매연 문제가 심각해요. 둘째, 대중교통 이용이 늘어서 교통 체증도 줄일 수 있어요. 저도 버스 전용 차로가 생긴 뒤로 출퇴근 시간이 짧아진 적이 있어요. 물론 운전자 중에는 불편하다고 반대하는 사람도 있어요. 하지만 불편하다고 해서 이 정책이 필요 없는 것은 아니에요. 나이와 직업을 막론하고 누구나 맑은 공기를 마실 권리가 있으니까 이 정책은 모두를 위한 정책이라고 볼 수 있어요. 그래서 저는 이 정책이 필요하다고 생각해요.",
+      "syllables_vi": "≈ 233 âm tiết",
+      "common_errors_vi": [
+        "Giải thích bối cảnh quá lâu rồi mới nêu lập trường.",
+        "Hai lý do mơ hồ, không có ví dụ cá nhân; hoặc hai lý do thực ra chỉ là một.",
+        "Trộn `-요` và `-ㅂ니다` giữa chừng.",
+        "Nói «저는 둘 다 좋아요» (không chọn phe) khiến nội dung nhạt."
+      ],
+      "pronunciation_vi": [
+        "제한하는 [제한하는]",
+        "막론하고 [망노나고]",
+        "맑은 [말근]",
+        "필요 없는 [피료 엄는]",
+        "출퇴근 [출퇴근]",
+        "매연 [매연]"
+      ]
+    },
+    {
+      "id": "SP51",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Trình bày ý kiến (S6): Có thể đoán lòng người qua nét mặt và cử chỉ không?",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "사람들은 표정이나 행동을 보고 다른 사람의 마음을 짐작하곤 합니다. 표정이나 행동만으로 다른 사람의 마음을 판단할 수 있다고 생각합니까? 자신의 경험을 들어 말하십시오.",
+      "prompt_vi": "Người ta hay nhìn nét mặt hay cử chỉ để đoán lòng người khác. Theo bạn, chỉ dựa vào nét mặt và cử chỉ có thể đánh giá được suy nghĩ của người khác không? Hãy kể trải nghiệm của bạn.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "Chọn phe, ghi 2 lý do + **một chuyện bạn từng đoán sai** + 1 ý phản biện. Nghĩ trước câu nào dùng `-나 보다`, `-던데요`, `-잖아요`",
+          "phrases_ko": "입장 / 이유 ① ② / 내 경험 / 반론"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** + câu vì sao",
+          "phrases_ko": "저는 …만 보고 … 판단하는 것은 위험하다고 생각해요. … -기 때문이에요."
+        },
+        {
+          "when_vi": "10–30 giây",
+          "do_vi": "Lý do 1: cùng một dấu hiệu, nhiều lý do",
+          "phrases_ko": "첫째, … 보통 … -(으)ㄴ 모양이라고 생각하잖아요. 하지만 실제로는 …"
+        },
+        {
+          "when_vi": "30–50 giây",
+          "do_vi": "Lý do 2 + chuyện của bạn",
+          "phrases_ko": "둘째, … 저도 … -나 보다 했는데 … -던데요."
+        },
+        {
+          "when_vi": "50–68 giây",
+          "do_vi": "**Nhượng bộ + phản bác**",
+          "phrases_ko": "물론 … 알아챌 수 있어요. 하지만 … -(으)ㄹ 텐데 …"
+        },
+        {
+          "when_vi": "68–80 giây",
+          "do_vi": "Kết luận",
+          "phrases_ko": "그래서 저는 … 직접 물어보는 것이 … 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Bốn mẫu của bài là bốn «nguồn tin», và một bài nói có ý kiến cần đủ cả bốn: điều ai cũng biết (`-잖아요`), điều đoán từ dấu hiệu (`-나 보다`, `-(으)ㄴ 모양이다`), điều chính bạn đã thấy (`-던데요`), điều bạn dự đoán (`-(으)ㄹ 텐데`).",
+        "`-던데요` chỉ dùng cho điều **chính bạn đã thấy**: rất hợp với phần kể trải nghiệm.",
+        "`-잖아요` với giám khảo nghe như kéo người nghe đồng ý: dùng một lần thôi, giọng nhẹ."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: -(으)ㄴ 모양이다 · -나 보다 · -던데요 · -잖아요 · -(으)ㄹ 텐데 · -기 때문이에요.",
+        "Dùng thêm được: -(으)ㄹ 테니까 · A + -(으)ㄴ가 보다 · N에 따라 다르다."
+      ],
+      "model_answer_ko": "저는 표정이나 행동만 보고 다른 사람의 마음을 판단하는 것은 위험하다고 생각해요. 이런 신호는 참고는 되지만 확실한 근거는 아니기 때문이에요. 첫째, 같은 행동이라도 이유는 전혀 다를 수 있어요. 회의 중에 자꾸 시계를 보면 보통 지루한 모양이라고 생각하잖아요. 하지만 실제로는 다음 일정을 걱정하고 있을 수도 있어요. 둘째, 평소 성격에 따라 감정이 드러나는 정도가 달라요. 저도 처음에는 표정이 없는 동료를 보고 화가 났나 보다 했는데, 같이 일해 보니까 원래 말이 적은 사람이던데요. 물론 오래 지켜본 가족이라면 작은 변화도 금방 알아챌 수 있어요. 하지만 잘 모르는 사람의 마음은 짐작하기 어려울 텐데 신호 하나만 보고 판단하면 오해가 생기기 쉬워요. 그래서 저는 궁금하면 직접 물어보는 것이 가장 좋다고 생각해요.",
+      "syllables_vi": "≈ 302 âm tiết",
+      "common_errors_vi": [
+        "Dùng `-던데요` cho chuyện nghe người khác kể; chuyện nghe kể phải là `-대요`.",
+        "Viết/nói liền `어려울텐데` ✗ → `어려울 텐데` ✓ (`테` là danh từ phụ thuộc).",
+        "Dùng `-(으)ㄴ 모양이에요` mà không nêu dấu hiệu nào: mẫu này cần căn cứ vừa thấy (`시계를 보는 걸 보니 …`).",
+        "Kể chuyện quá dài, đến giây 60 chưa có câu nhượng bộ."
+      ],
+      "pronunciation_vi": [
+        "확실한 [확씰한]",
+        "생각하잖아요 [생가카자나요]",
+        "났나 보다 [난나 보다]",
+        "같이 [가치]",
+        "알아챌 수 [아라챌 쑤]",
+        "짐작하기 [짐자카기]"
+      ],
+      "uses": [
+        {
+          "form": "판단하는",
+          "card": "판단"
+        },
+        {
+          "form": "신호",
+          "card": "신호"
+        },
+        {
+          "form": "근거",
+          "card": "근거"
+        },
+        {
+          "form": "전혀",
+          "card": "전혀"
+        },
+        {
+          "form": "평소",
+          "card": "평소"
+        },
+        {
+          "form": "드러나는",
+          "card": "드러나다"
+        },
+        {
+          "form": "지켜본",
+          "card": "지켜보다"
+        },
+        {
+          "form": "알아챌",
+          "card": "알아채다"
+        },
+        {
+          "form": "짐작하기",
+          "card": "짐작"
+        },
+        {
+          "form": "지루한 모양이라고",
+          "card": "V/A + -(으)ㄴ/는 모양이다 · V + -나 보다 · A + -(으)ㄴ가 보다"
+        },
+        {
+          "form": "생각하잖아요",
+          "card": "V/A + -잖아(요) · N + (이)잖아(요)"
+        },
+        {
+          "form": "사람이던데요",
+          "card": "V/A + -던데(요)"
+        },
+        {
+          "form": "어려울 텐데",
+          "card": "V/A + -(으)ㄹ 테니까 · V/A + -(으)ㄹ 텐데"
+        }
+      ]
+    },
+    {
+      "id": "SP52",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Trình bày ý kiến (S6): Chỉ học kiến thức có đủ không, hay phải tự làm?",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "책이나 강의로 지식을 얻는 것만으로 충분하다고 생각합니까, 아니면 배운 지식을 직접 활용해 보는 경험이 꼭 필요하다고 생각합니까? 자신의 생각을 말하십시오.",
+      "prompt_vi": "Theo bạn, chỉ tiếp thu kiến thức qua sách và bài giảng là đủ, hay nhất định phải tự mình vận dụng điều đã học? Hãy nói suy nghĩ của bạn.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "Chọn phe, ghi 2 lý do + 1 ví dụ học tập của bạn + 1 ý phản biện. Đánh dấu chỗ «thêm vào» và chỗ «giới hạn»",
+          "phrases_ko": "만으로는 / 말고도 / 은/는 물론 / -(으)ㄹ 뿐이다"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** bằng mẫu giới hạn `만으로는`",
+          "phrases_ko": "저는 …만으로는 … 어렵다고 생각해요. … -기 때문이에요."
+        },
+        {
+          "when_vi": "10–35 giây",
+          "do_vi": "Lý do 1 + ví dụ của bạn",
+          "phrases_ko": "첫째, … 저도 … -기만 할 뿐이었어요. 그런데 …"
+        },
+        {
+          "when_vi": "35–50 giây",
+          "do_vi": "Lý do 2 bằng mẫu thêm vào",
+          "phrases_ko": "둘째, … 말고도 … N은/는 물론 N도 …"
+        },
+        {
+          "when_vi": "50–70 giây",
+          "do_vi": "**Nhượng bộ + phản bác**",
+          "phrases_ko": "물론 …다는 의견도 있어요. 하지만 그건 …일 뿐이지 …"
+        },
+        {
+          "when_vi": "70–80 giây",
+          "do_vi": "Kết luận",
+          "phrases_ko": "그래서 저는 …은/는 물론 … 꼭 필요하다고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Bài này có hai trục: **thêm vào** (`말고도`, `은/는 물론`) và **giới hạn** (`만으로는`, `-(으)ㄹ 뿐이다`). Lập trường dùng trục giới hạn, lý do 2 dùng trục thêm vào: bài nói tự có cấu trúc.",
+        "`만으로는` đi với ý «chưa đủ» (`어려워요`, `부족해요`); `만으로도` đi với ý «đủ rồi». Đừng ghép `만으로는` với câu khẳng định.",
+        "Phản bác đẹp bằng `-일 뿐이지 … -는 것은 아니에요`: thừa nhận một phần rồi giới hạn nó lại."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: N만으로는 · N 말고도 · N은/는 물론 · -(으)ㄹ 뿐이다 · N일 뿐이다 · N을/를 통해.",
+        "Dùng thêm được: N 외에도 · -는 것만으로도 · N밖에 없다."
+      ],
+      "model_answer_ko": "저는 책이나 강의만으로는 지식을 제대로 얻기 어렵다고 생각해요. 배운 지식을 직접 활용해 봐야 내 것이 되기 때문이에요. 첫째, 머릿속에만 있는 지식은 시험이 끝나면 쉽게 잊어버려요. 저도 한국어 문법을 책으로만 공부했을 때는 외우기만 할 뿐이었어요. 그런데 한국 친구와 이야기하면서 써 보니까 훨씬 오래 기억에 남았어요. 둘째, 직접 해 보면 책 말고도 배울 수 있는 것이 많아요. 실수를 통해 문제를 해결하는 방법은 물론 다른 사람과 협력하는 방법도 배울 수 있어요. 물론 기본 지식이 없으면 활용도 할 수 없다는 의견도 있어요. 하지만 그건 지식이 필요하다는 뜻일 뿐이지, 지식만으로 충분하다는 뜻은 아니에요. 그래서 저는 지식을 배우는 것은 물론 직접 활용해 보는 경험이 꼭 필요하다고 생각해요.",
+      "syllables_vi": "≈ 293 âm tiết",
+      "common_errors_vi": [
+        "`책 말고 경험` (= kinh nghiệm chứ không phải sách) khi định nói `책 말고도` (= ngoài sách còn …): thiếu `도` là đổi nghĩa.",
+        "`만으로는` + câu khẳng định (`책만으로는 충분해요`) ✗: nghĩa bị ngược.",
+        "Viết/nói liền `할뿐이에요` ✗ → `할 뿐이에요` ✓; nhưng `N뿐` thì dính: `지식뿐`.",
+        "Hai lý do đều là «nhớ lâu hơn»: lý do 2 phải là một lợi ích khác."
+      ],
+      "pronunciation_vi": [
+        "지식을 [지시글]",
+        "활용해 [화룡해]",
+        "머릿속 [머리쏙/머릳쏙]",
+        "잊어버려요 [이저버려요]",
+        "뿐이었어요 [뿌니어써요]",
+        "협력하는 [혐녀카는]"
+      ],
+      "uses": [
+        {
+          "form": "책이나 강의만으로는",
+          "card": "N + 만으로(는) · V + -는 것만으로(도)"
+        },
+        {
+          "form": "책 말고도",
+          "card": "N + 말고(도) · N + 외에(도) · N + 이외에(도)"
+        },
+        {
+          "form": "방법은 물론",
+          "card": "N + 은/는 물론(이고)"
+        },
+        {
+          "form": "외우기만 할 뿐이었어요",
+          "card": "V/A + -(으)ㄹ 뿐이다 · N + 일 뿐이다"
+        },
+        {
+          "form": "지식",
+          "card": "지식"
+        },
+        {
+          "form": "활용해",
+          "card": "활용"
+        },
+        {
+          "form": "제대로",
+          "card": "제대로"
+        },
+        {
+          "form": "실수를 통해",
+          "card": "N + 을/를 통해(서) · N + 을/를 통한 N"
+        },
+        {
+          "form": "이야기하면서",
+          "card": "V + -(으)면서"
+        }
+      ]
+    },
+    {
+      "id": "SP53",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Chủ đề (S6): Thành công do nỗ lực hay do hoàn cảnh",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "성공은 개인의 노력에 달려 있다는 의견도 있고 환경에 달려 있다는 의견도 있습니다. 여러분은 성공을 결정하는 것이 무엇이라고 생각합니까? 자신의 입장을 정하고 이유를 들어 말하십시오.",
+      "prompt_vi": "Có ý kiến cho rằng thành công phụ thuộc vào nỗ lực của mỗi người, cũng có ý kiến cho rằng nó phụ thuộc vào hoàn cảnh. Theo bạn, điều gì quyết định thành công? Hãy chọn lập trường và nêu lý do.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "**Chọn một phe ngay**: nỗ lực hay hoàn cảnh. Ghi 2 lý do + 1 trải nghiệm của bạn + 1 phản biện",
+          "phrases_ko": "입장 / 이유 ① / 이유 ② / 반론"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** trong 1–2 câu đầu, dùng ngay mẫu của bài",
+          "phrases_ko": "저는 성공이 …에 달려 있다고 생각해요. 결과는 결국 … -기 나름이에요."
+        },
+        {
+          "when_vi": "10–35 giây",
+          "do_vi": "Lý do 1: cùng hoàn cảnh mà kết quả mỗi người một khác",
+          "phrases_ko": "첫째, … -기 때문이에요. … 극복하고 …"
+        },
+        {
+          "when_vi": "35–55 giây",
+          "do_vi": "Lý do 2 + ví dụ của chính bạn (một kế hoạch bỏ dở rồi làm lại)",
+          "phrases_ko": "둘째, … -(으)ㄴ 이상 … -아/어야만 … 저도 … -나 마나였던 적이 있어요."
+        },
+        {
+          "when_vi": "55–72 giây",
+          "do_vi": "**Nhượng bộ + phản bác**",
+          "phrases_ko": "물론 … 의견도 있어요. 하지만 …"
+        },
+        {
+          "when_vi": "72–80 giây",
+          "do_vi": "Kết luận lặp lại lập trường",
+          "phrases_ko": "그래서 저는 … 달려 있다고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Bài này cho bạn sẵn bốn cách trả lời «điều gì quyết định kết quả»: `-기 나름이다`/`에 달려 있다` cho lập trường, `-아/어야만` và `-(으)ㄴ 이상` cho lý do. Mỗi câu một mẫu, đừng dồn cả bốn vào một câu.",
+        "`-(으)나 마나` hợp nhất với ví dụ của chính bạn: một việc đã làm mà cũng như không làm.",
+        "Giữ **해요체** từ đầu đến cuối; từ nối đánh dấu cấu trúc: 첫째/둘째, 물론, 하지만, 그래서."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: N에 달려 있다 · -기 나름이다 · -(으)ㄴ 이상 · -아/어야만 · -(으)나 마나 · -았/었더니.",
+        "Dùng thêm được: -기에 달려 있다 · N(이)라야 · -기만 하면 (điều kiện nhẹ, để đối chiếu với -아/어야만)."
+      ],
+      "model_answer_ko": "저는 성공이 환경보다 개인의 노력에 달려 있다고 생각해요. 환경도 영향을 끼치지만 결과는 결국 노력하기 나름이에요. 첫째, 같은 환경에서도 사람마다 결과가 다르기 때문이에요. 어려운 환경을 극복하고 꿈을 이룬 사람도 주변에 많아요. 둘째, 목표를 세운 이상 꾸준히 노력해야만 원하는 결과를 얻을 수 있어요. 저도 예전에 한국어 공부 계획만 세우고 실천하지 않아서 계획을 세우나 마나였던 적이 있어요. 그 뒤로 하루에 30분씩 공부하는 것을 꾸준히 유지했더니 실력이 많이 향상됐어요. 물론 환경이 너무 어려우면 노력만으로는 부족하다는 의견도 있어요. 하지만 환경은 바꾸기 어려워도 노력은 스스로 선택할 수 있어요. 그래서 저는 성공은 노력에 달려 있다고 생각해요.",
+      "syllables_vi": "≈ 282 âm tiết",
+      "common_errors_vi": [
+        "Nói `노력하는 나름이에요`: phải là `노력하기 나름이에요` (động từ + `-기`).",
+        "Dùng `-(으)나 마나` với tính từ hoặc cho việc có kết quả tốt: mẫu này chỉ nói «làm cũng như không».",
+        "Sau `-(으)ㄴ 이상` nói lời rủ rê (`세운 이상 같이 할까요?`): vế sau phải là nghĩa vụ hay quyết tâm (`끝까지 해야 해요`).",
+        "Nói «cả hai đều quan trọng» rồi dừng ở đó: 80 giây không đủ để bảo vệ hai phe."
+      ],
+      "pronunciation_vi": [
+        "같은 [가튼]",
+        "많아요 [마나요]",
+        "극복하고 [극뽀카고]",
+        "노력해야만 [노려캐야만]",
+        "실력이 [실려기]",
+        "향상됐어요 [향상돼써요]"
+      ],
+      "uses": [
+        {
+          "form": "달려 있다고",
+          "card": "V + -기 나름이다 · V + -기에 달려 있다 · N + 에 달려 있다"
+        },
+        {
+          "form": "노력하기 나름이에요",
+          "card": "V + -기 나름이다 · V + -기에 달려 있다 · N + 에 달려 있다"
+        },
+        {
+          "form": "끼치지만",
+          "card": "끼치다"
+        },
+        {
+          "form": "극복하고",
+          "card": "극복"
+        },
+        {
+          "form": "세운 이상",
+          "card": "V/A + -(으)ㄴ/는 이상(은) · N + 인 이상"
+        },
+        {
+          "form": "노력해야만",
+          "card": "V/A + -아/어야만 하다 · N + (이)라야"
+        },
+        {
+          "form": "세우나 마나",
+          "card": "V + -(으)나 마나"
+        },
+        {
+          "form": "유지했더니",
+          "card": "유지"
+        },
+        {
+          "form": "향상됐어요",
+          "card": "향상"
+        }
+      ]
+    },
+    {
+      "id": "SP54",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Chủ đề (S6): Điểm thi cao có phải là giỏi ngoại ngữ",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "외국어 시험 점수가 높으면 그 외국어를 잘한다고 볼 수 있습니까? 시험 점수로 외국어 실력을 판단하는 것에 대해 자신의 생각을 말하십시오.",
+      "prompt_vi": "Điểm thi ngoại ngữ cao có nghĩa là giỏi ngoại ngữ đó không? Hãy nói suy nghĩ của bạn về việc đánh giá trình độ ngoại ngữ bằng điểm thi.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "**Chọn một phe ngay.** Ghi 2 lý do + 1 trải nghiệm học tiếng Hàn + 1 phản biện",
+          "phrases_ko": "입장 / 이유 ① / 이유 ② / 반론"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** bằng mẫu phản bác tiền đề",
+          "phrases_ko": "저는 … -다고 해서 … -는 것은 아니라고 생각해요."
+        },
+        {
+          "when_vi": "10–35 giây",
+          "do_vi": "Lý do 1: biết mà vẫn không nói được",
+          "phrases_ko": "첫째, … 알고도 … 못 하는 사람이 많아요."
+        },
+        {
+          "when_vi": "35–55 giây",
+          "do_vi": "Lý do 2 + ví dụ của chính bạn",
+          "phrases_ko": "둘째, … 저도 … -다 보니 어느새 …게 됐어요."
+        },
+        {
+          "when_vi": "55–72 giây",
+          "do_vi": "**Nhượng bộ + phản bác**",
+          "phrases_ko": "물론 … 유용하다는 의견도 있어요. 하지만 누구든지 …"
+        },
+        {
+          "when_vi": "72–80 giây",
+          "do_vi": "Kết luận lặp lại lập trường",
+          "phrases_ko": "그래서 저는 … 더 중요하다고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Đề kiểu «A có nghĩa là B không?» hợp nhất với `-다고 해서 … -는 것은 아니에요`: nêu lập trường bằng chính mẫu này ngay câu đầu.",
+        "`-다 보니` kể kết quả **đã có** sau một quá trình; đặt nó vào ví dụ của bạn, đừng dùng cho chuyện sẽ xảy ra.",
+        "Giữ nhất quán **해요체**; từ nối đánh dấu cấu trúc: 첫째/둘째, 물론, 하지만, 그래서."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: -다고 해서 … -는 것은 아니다 · -고도 · -다 보니 · 누구든지 · -기 때문이에요 · -게 되다.",
+        "Dùng thêm được: -고서 (trình tự: `시험을 보고서 알았어요`) · -든지 -든지 · -다 보면 (sẽ thấy, để đối chiếu với -다 보니)."
+      ],
+      "model_answer_ko": "저는 시험 점수가 높다고 해서 외국어를 잘하는 것은 아니라고 생각해요. 점수는 실력의 일부만 보여 주기 때문이에요. 첫째, 문법을 많이 알고도 실제로 말하지 못하는 사람이 많아요. 시험은 주로 읽기와 듣기를 평가하는데 말하기는 그것과 다른 영역이에요. 둘째, 외국어는 실제로 써 봐야 늘어요. 저도 한국에 처음 왔을 때는 점수만 높고 말은 잘 못했어요. 그런데 한국 친구들과 매일 대화하다 보니 어느새 자연스럽게 말할 수 있게 됐어요. 물론 점수가 실력을 확인하는 데 유용하다는 의견도 있어요. 하지만 누구든지 말하기 연습을 꾸준히 해야 외국어를 잘할 수 있어요. 그래서 저는 점수보다 실제로 쓰는 능력이 더 중요하다고 생각해요.",
+      "syllables_vi": "≈ 264 âm tiết",
+      "common_errors_vi": [
+        "Nói `점수가 높다고 해서 말을 잘해요`: sau `-다고 해서` cần phủ định một phần (`-는 것은 아니에요`).",
+        "Dùng `-다 보니` cho việc chưa xảy ra (`매일 연습하다 보니 늘 거예요`): vế sau phải là kết quả đã có; muốn nói tương lai dùng `-다 보면`.",
+        "Ghép `누구든지` với câu phủ định (`누구든지 못 해요`): đổi sang ý «ai cũng có thể …».",
+        "Hai lý do thực ra chỉ là một (cả hai đều nói «điểm thi không đo được khả năng nói»): lý do 2 nên nói về cách học."
+      ],
+      "pronunciation_vi": [
+        "높다고 [놉따고]",
+        "읽기 [일끼]",
+        "못했어요 [모태써요]",
+        "늘어요 [느러요]",
+        "능력이 [능녀기]",
+        "자연스럽게 [자연스럽께]"
+      ],
+      "uses": [
+        {
+          "form": "높다고 해서",
+          "card": "V/A + -(ㄴ/는)다고 해서 · N + (이)라고 해서"
+        },
+        {
+          "form": "알고도",
+          "card": "V + -고서 · V + -고는 · V/A + -고도"
+        },
+        {
+          "form": "영역",
+          "card": "영역"
+        },
+        {
+          "form": "대화하다 보니",
+          "card": "V + -다 보니(까) · V + -다가 보니(까)"
+        },
+        {
+          "form": "유용하다는",
+          "card": "유용"
+        },
+        {
+          "form": "누구든지",
+          "card": "N + (이)든지 · V/A + -든지 -든지 · V/A + -건 -건"
+        }
+      ]
+    },
+    {
+      "id": "SP55",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Chủ đề (S6): Hạn chế điện thoại trong giờ học",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "학교에서 수업 시간에 학생들의 스마트폰 사용을 제한해야 한다는 의견이 있습니다. 이에 대해 어떻게 생각합니까? 찬성이나 반대 입장을 정하고 이유를 들어 말하십시오.",
+      "prompt_vi": "Có ý kiến cho rằng nhà trường nên hạn chế học sinh dùng điện thoại thông minh trong giờ học. Bạn nghĩ sao? Hãy chọn tán thành hoặc phản đối và nêu lý do.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "**Chọn một phe ngay.** Ghi 2 lý do + 1 trải nghiệm thời đi học + 1 phản biện",
+          "phrases_ko": "입장 / 이유 ① / 이유 ② / 반론"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** + câu định nghĩa ngắn bằng `이자`",
+          "phrases_ko": "저는 …에 찬성해요. 스마트폰은 … 수단이자 …"
+        },
+        {
+          "when_vi": "10–35 giây",
+          "do_vi": "Lý do 1, dẫn ý chung một cách trang trọng",
+          "phrases_ko": "첫째, 아시다시피 … 여러 연구에서도 … 지적한 바 있어요."
+        },
+        {
+          "when_vi": "35–55 giây",
+          "do_vi": "Lý do 2 + ví dụ của chính bạn",
+          "phrases_ko": "둘째, 학교는 … 곳인 한편 … 저도 … 적이 있어요."
+        },
+        {
+          "when_vi": "55–72 giây",
+          "do_vi": "**Nhượng bộ + phản bác**",
+          "phrases_ko": "물론 … 의견도 있어요. 하지만 편리한 만큼 …"
+        },
+        {
+          "when_vi": "72–80 giây",
+          "do_vi": "Kết luận lặp lại lập trường",
+          "phrases_ko": "그래서 저는 … 제한해야 한다고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Bài này dạy giọng trang trọng, nhưng bài nói vẫn là **해요체**: `아시다시피`, `-(으)ㄴ 바 있어요` dùng được khi dẫn ý chung; chuyện riêng của bạn kể bằng `-(으)ㄴ 적이 있어요`.",
+        "Chọn hai, ba mẫu của bài là đủ (`이자`, `-는 한편`, `-(으)ㄴ 만큼`); nhồi cả năm mẫu nghe như đọc báo.",
+        "Không đưa số liệu hay tên nghiên cứu bạn không chắc; `여러 연구에서` là đủ."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: N이자 · 아시다시피 · -(으)ㄴ 바 있다 · N인 한편 · -(으)ㄴ 만큼 · -(으)ㄹ 필요가 있다.",
+        "Dùng thêm được: N이며 · -(으)ㄴ/는 바와 같이 · N에 따르면 (dẫn nguồn)."
+      ],
+      "model_answer_ko": "저는 학교에서 수업 시간에 스마트폰 사용을 제한하는 것에 찬성해요. 스마트폰은 연락 수단이자 공부 도구이지만 수업 시간에는 오히려 방해가 될 때가 많기 때문이에요. 첫째, 아시다시피 알림이 오면 누구나 바로 확인하고 싶어져요. 여러 연구에서도 스마트폰이 학습에 나쁜 영향을 준다고 지적한 바 있어요. 둘째, 학교는 공부하는 곳인 한편 친구들과 직접 소통하는 법을 배우는 곳이에요. 저도 고등학교 때 쉬는 시간마다 휴대폰만 보다가 친구들과 이야기할 기회를 놓친 적이 있어요. 물론 스마트폰으로 검색하면서 공부할 수 있다는 의견도 있어요. 하지만 편리한 만큼 스스로 조절하기가 어려우니까 학교가 규칙을 정해 줄 필요가 있어요. 그래서 저는 수업 시간에는 스마트폰 사용을 제한해야 한다고 생각해요.",
+      "syllables_vi": "≈ 295 âm tiết",
+      "common_errors_vi": [
+        "Nói `알았다시피`: gốc `알다` + `-다시피`; nói lịch sự với người nghe là `아시다시피`.",
+        "Dùng `-(으)ㄴ 바 있어요` cho chuyện riêng (`제가 휴대폰을 잃어버린 바 있어요`): chuyện cá nhân dùng `-(으)ㄴ 적이 있어요`.",
+        "Hiểu `-는 한편` là «thay vì»: `한편` là «đồng thời, mặt khác»; «thay vì» là `-는 대신에`.",
+        "Trộn `-요` và `-ㅂ니다` giữa chừng vì mẫu câu trang trọng: mẫu trang trọng vẫn chia `해요체`."
+      ],
+      "pronunciation_vi": [
+        "연락 [열락]",
+        "편리한 [펼리한]",
+        "확인하고 [화긴하고]",
+        "놓친 [노친]",
+        "많기 [만키]",
+        "싶어져요 [시퍼저요]"
+      ],
+      "uses": [
+        {
+          "form": "수단이자",
+          "card": "N + 이며 · N + 이자"
+        },
+        {
+          "form": "아시다시피",
+          "card": "V + -다시피 · V + -다시피 하다"
+        },
+        {
+          "form": "지적한 바 있어요",
+          "card": "V + -(으)ㄴ 바 있다 · V + -(으)ㄴ/는 바와 같이"
+        },
+        {
+          "form": "곳인 한편",
+          "card": "V/A + -(으)ㄴ/는 한편 · N + 인 한편"
+        },
+        {
+          "form": "편리한 만큼",
+          "card": "V/A + -(으)ㄴ/는 만큼 · V + -(으)ㄹ 만큼 · N + 만큼"
+        },
+        {
+          "form": "수단",
+          "card": "수단"
+        },
+        {
+          "form": "지적한",
+          "card": "지적"
+        },
+        {
+          "form": "방해가",
+          "card": "방해"
+        },
+        {
+          "form": "조절하기가",
+          "card": "조절"
+        }
+      ]
+    },
+    {
+      "id": "SP56",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Chủ đề (S6): Bỏ thói quen xấu: ý chí hay môi trường",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "나쁜 습관을 고치는 데 가장 중요한 것은 무엇이라고 생각합니까? 자신의 의지가 더 중요한지, 환경을 바꾸는 것이 더 중요한지 입장을 정하고 이유를 들어 말하십시오.",
+      "prompt_vi": "Theo bạn, điều quan trọng nhất để bỏ một thói quen xấu là gì? Ý chí của bản thân hay việc thay đổi môi trường quan trọng hơn? Hãy chọn lập trường và nêu lý do.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "**Chọn một phe ngay**: ý chí hay môi trường. Ghi 2 lý do + 1 thói quen của chính bạn + 1 phản biện",
+          "phrases_ko": "입장 / 이유 ① / 이유 ② / 반론"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** trong 1–2 câu đầu",
+          "phrases_ko": "저는 … 더 중요하다고 생각해요. … -기에는 … 너무 …"
+        },
+        {
+          "when_vi": "10–35 giây",
+          "do_vi": "Lý do 1: chỉ dựa vào ý chí thì dễ bỏ cuộc",
+          "phrases_ko": "첫째, … -기 십상이에요."
+        },
+        {
+          "when_vi": "35–55 giây",
+          "do_vi": "Lý do 2 + ví dụ của chính bạn",
+          "phrases_ko": "둘째, … -게 돼요. 저도 … 버릇이 있었어요. … -나 다름없었어요."
+        },
+        {
+          "when_vi": "55–72 giây",
+          "do_vi": "**Nhượng bộ + phản bác**",
+          "phrases_ko": "물론 … -아/어야지 … 의견도 있어요. 하지만 … -게 해요."
+        },
+        {
+          "when_vi": "72–80 giây",
+          "do_vi": "Kết luận lặp lại lập trường",
+          "phrases_ko": "그래서 저는 … 바꿔야 한다고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Sáu mẫu của bài đều là mẫu nói được: `-기에는`, `-기 십상이에요`, `-나 다름없어요`, `-게 해요` vào lý do; `-아/어야지` hợp nhất khi thuật lại ý của phía bên kia.",
+        "Ví dụ nên là một thói quen thật, nhỏ và cụ thể (điện thoại trước khi ngủ, ăn khuya…), kèm việc bạn đã thay đổi.",
+        "Giữ nhất quán **해요체**; từ nối đánh dấu cấu trúc: 첫째/둘째, 물론, 하지만, 그래서."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: -기에는 · -기 십상이다 · -게 되다 · N이나 다름없다 · -아/어야지 · -게 하다 · -았/었더니.",
+        "Dùng thêm được: -기 일쑤이다 (điều xấu đã lặp lại nhiều lần) · N이나 마찬가지이다 · 설마 -겠어요? (`설마 그게 효과가 있겠어요?`)."
+      ],
+      "model_answer_ko": "저는 나쁜 습관을 고치려면 의지보다 환경을 바꾸는 것이 더 중요하다고 생각해요. 의지만 믿고 버티기에는 주변에 유혹이 너무 많기 때문이에요. 첫째, 의지만으로 참으려고 하면 며칠 만에 포기하기 십상이에요. 둘째, 환경이 바뀌면 좋은 행동을 자연스럽게 하게 돼요. 저도 밤늦게까지 휴대폰을 보는 버릇이 있었어요. 침대 옆에 휴대폰을 두는 건 유혹을 옆에 두는 것이나 다름없었어요. 그래서 휴대폰을 방 밖에 두었더니 일찍 자게 됐어요. 물론 본인의 의지가 있어야지 습관이 바뀐다는 의견도 있어요. 하지만 환경을 바꾸는 것은 의지가 약한 사람도 끈기 있게 실천하게 해요. 그래서 저는 습관을 고칠 때 환경부터 바꿔야 한다고 생각해요.",
+      "syllables_vi": "≈ 265 âm tiết",
+      "common_errors_vi": [
+        "Dùng `-기 십상이에요` cho điều tốt (`일찍 일어나기 십상이에요`): mẫu này chỉ dành cho điều không hay.",
+        "Nhầm `-게 해요` (có tác nhân khiến người khác làm) với `-게 돼요` (tự diễn ra): `환경이 … 실천하게 해요` nhưng `일찍 자게 됐어요`.",
+        "Sau `-기에는` kể một hành động: vế sau phải là lời đánh giá (`유혹이 너무 많아요`, `아직 일러요`).",
+        "Nói `다름없어요` mà nghĩ là «khác»: `다름없다` là «chẳng khác gì», nghĩa ngược với `다르다`."
+      ],
+      "pronunciation_vi": [
+        "습관을 [습꽈늘]",
+        "십상이에요 [십쌍이에요]",
+        "밤늦게까지 [밤늗께까지]",
+        "많기 [만키]",
+        "두었더니 [두얻떠니]",
+        "약한 [야칸]"
+      ],
+      "uses": [
+        {
+          "form": "버티기에는",
+          "card": "V + -기에는 + A/V"
+        },
+        {
+          "form": "포기하기 십상이에요",
+          "card": "V + -기 십상이다 · V + -기 일쑤이다"
+        },
+        {
+          "form": "것이나 다름없었어요",
+          "card": "N + (이)나 다름없다 · N + (이)나 마찬가지이다"
+        },
+        {
+          "form": "있어야지",
+          "card": "V/A + -아/어야지(요) · -아/어야지 그렇지 않으면"
+        },
+        {
+          "form": "실천하게 해요",
+          "card": "V/A + -게 하다 · V/A + -게 만들다"
+        },
+        {
+          "form": "유혹",
+          "card": "유혹"
+        },
+        {
+          "form": "버릇",
+          "card": "버릇"
+        },
+        {
+          "form": "끈기",
+          "card": "끈기"
+        },
+        {
+          "form": "습관",
+          "card": "습관"
+        },
+        {
+          "form": "행동",
+          "card": "행동"
+        }
+      ]
+    },
+    {
+      "id": "SP57",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Chủ đề (S6): Người dẫn dắt nhóm cần thái độ gì",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "여러 사람과 함께 일할 때 좋은 리더에게 가장 필요한 태도는 무엇이라고 생각합니까? 자신의 경험을 예로 들어 말하십시오.",
+      "prompt_vi": "Khi làm việc cùng nhiều người, theo bạn người dẫn dắt giỏi cần nhất thái độ gì? Hãy lấy trải nghiệm của chính bạn làm ví dụ.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "**Chọn một thái độ** (lắng nghe, kín miệng…). Ghi 2 lý do + 1 lần làm thêm hay làm nhóm + 1 phản biện",
+          "phrases_ko": "입장 / 이유 ① / 이유 ② / 반론"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** bằng một quán ngữ",
+          "phrases_ko": "저는 좋은 리더에게 가장 필요한 태도는 … 귀를 기울이는 것이라고 생각해요."
+        },
+        {
+          "when_vi": "10–35 giây",
+          "do_vi": "Lý do 1 + đối lập với kiểu người ngược lại",
+          "phrases_ko": "목에 힘을 주고 … 첫째, …"
+        },
+        {
+          "when_vi": "35–55 giây",
+          "do_vi": "Lý do 2 + ví dụ của chính bạn",
+          "phrases_ko": "둘째, 입이 무거워야 … 저도 … 눈코 뜰 새 없이 … 머리를 맞대고 …"
+        },
+        {
+          "when_vi": "55–72 giây",
+          "do_vi": "**Nhượng bộ + phản bác**",
+          "phrases_ko": "물론 리더는 어깨가 무거우니까 … 하지만 … 입을 다물게 돼요."
+        },
+        {
+          "when_vi": "72–80 giây",
+          "do_vi": "Kết luận lặp lại lập trường",
+          "phrases_ko": "그래서 저는 … 가장 중요하다고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Quán ngữ làm bài nói sinh động khi đúng chỗ: mỗi ý một quán ngữ, đừng xếp ba quán ngữ liền nhau.",
+        "Nhớ chia đúng: `귀를 기울이는 것`, `입이 무거워야`, `눈코 뜰 새 없이 바쁜`, `머리를 맞대고`.",
+        "Lập trường rõ trong hai câu đầu; ví dụ ngắn (một lần làm thêm, một nhóm học) là chỗ quán ngữ tự nhiên nhất."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: 귀를 기울이다 · 목에 힘을 주다 · 입이 무겁다/가볍다 · 눈코 뜰 새 없이 · 머리를 맞대다 · 어깨가 무겁다 · 입을 다물다 · -아/어야 (điều kiện).",
+        "Dùng thêm được: 고개를 끄덕이다 · 입을 모으다 (`모두 입을 모아 칭찬했어요`) · 낯이 익다."
+      ],
+      "model_answer_ko": "저는 좋은 리더에게 가장 필요한 태도는 다른 사람의 말에 귀를 기울이는 것이라고 생각해요. 목에 힘을 주고 혼자 결정하는 리더는 팀원들의 마음을 얻기 어렵기 때문이에요. 첫째, 팀원들의 의견을 들어야 문제를 빨리 찾을 수 있어요. 둘째, 리더는 입이 무거워야 신뢰를 얻어요. 입이 가벼운 리더에게는 아무도 고민을 이야기하지 않을 거예요. 저도 카페에서 아르바이트를 할 때 눈코 뜰 새 없이 바쁜 날이 많았어요. 그때 점장님이 직원들과 머리를 맞대고 방법을 찾아서 일이 훨씬 편해졌어요. 물론 리더는 어깨가 무거우니까 빨리 결정하는 능력이 더 중요하다는 의견도 있어요. 하지만 듣지 않고 혼자 결정하면 결국 팀원들은 입을 다물게 돼요. 그래서 저는 귀를 기울이는 태도가 가장 중요하다고 생각해요.",
+      "syllables_vi": "≈ 291 âm tiết",
+      "common_errors_vi": [
+        "Dịch từng chữ: `입이 무겁다` là kín miệng, không phải ít nói hay nói chậm.",
+        "Đổi trợ từ: `귀가 기울이다` → `귀를 기울이다`; `머리가 맞대다` → `머리를 맞대다`.",
+        "Dùng `눈 밖에 나다` cho cấp dưới không ưa cấp trên: quán ngữ này thường nói việc mất cảm tình của người trên.",
+        "Kể kinh nghiệm quá dài rồi quên lý do và phần nhượng bộ."
+      ],
+      "pronunciation_vi": [
+        "기울이는 [기우리는]",
+        "입이 [이비]",
+        "없이 [업씨]",
+        "맞대고 [맏때고]",
+        "얻기 [얻끼]",
+        "결정하는 [결쩡하는]"
+      ],
+      "uses": [
+        {
+          "form": "귀를 기울이는",
+          "card": "귀를 기울이다"
+        },
+        {
+          "form": "목에 힘을 주고",
+          "card": "목에 힘을 주다"
+        },
+        {
+          "form": "입이 무거워야",
+          "card": "입이 무겁다"
+        },
+        {
+          "form": "입이 가벼운",
+          "card": "입이 가볍다"
+        },
+        {
+          "form": "눈코 뜰 새 없이",
+          "card": "눈코 뜰 새 없다"
+        },
+        {
+          "form": "머리를 맞대고",
+          "card": "머리를 맞대다"
+        },
+        {
+          "form": "어깨가 무거우니까",
+          "card": "어깨가 무겁다"
+        },
+        {
+          "form": "입을 다물게",
+          "card": "입을 다물다"
+        },
+        {
+          "form": "태도",
+          "card": "태도"
+        }
+      ]
+    },
+    {
+      "id": "SP58",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Chủ đề (S6): Làm một mình hay làm cùng nhóm",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "일을 할 때 혼자 하는 것과 여러 사람이 함께 하는 것 중 어느 쪽이 더 좋다고 생각합니까? 자신의 경험을 예로 들어 말하십시오.",
+      "prompt_vi": "Khi làm việc, bạn thấy làm một mình hay làm cùng nhiều người thì tốt hơn? Hãy lấy trải nghiệm của chính bạn làm ví dụ.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "**Chọn một phe ngay.** Ghi 2 lý do + 1 lần làm nhóm gặp sự cố + 1 phản biện",
+          "phrases_ko": "입장 / 이유 ① / 이유 ② / 반론"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** trong 1–2 câu đầu",
+          "phrases_ko": "저는 … 함께 일하는 것이 더 좋다고 생각해요."
+        },
+        {
+          "when_vi": "10–35 giây",
+          "do_vi": "Lý do 1: ăn ý thì nhanh",
+          "phrases_ko": "첫째, 팀원들이 손발이 맞으면 …"
+        },
+        {
+          "when_vi": "35–55 giây",
+          "do_vi": "Lý do 2 + một câu chuyện có lo lắng → nhẹ nhõm",
+          "phrases_ko": "둘째, … 발 벗고 나서서 … 저도 … 발등에 불이 떨어진 적이 있어요. … 가슴을 쓸어내렸어요."
+        },
+        {
+          "when_vi": "55–72 giây",
+          "do_vi": "**Nhượng bộ + phản bác**",
+          "phrases_ko": "물론 … 발목을 잡기도 해요. 하지만 … 이를 악물고 …"
+        },
+        {
+          "when_vi": "72–80 giây",
+          "do_vi": "Kết luận lặp lại lập trường",
+          "phrases_ko": "그래서 저는 … 더 좋다고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Câu chuyện «việc gấp → nóng ruột → có người giúp → thở phào» cho bạn chỗ đặt bốn, năm quán ngữ một cách tự nhiên.",
+        "Phân biệt quán ngữ cảm xúc: `속이 타다` (nóng ruột, lúc đang lo) ↔ `가슴을 쓸어내리다` (thở phào, khi đã qua).",
+        "Giữ nhất quán **해요체**; từ nối đánh dấu cấu trúc: 첫째/둘째, 물론, 하지만, 그래서."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: 손발이 맞다 · 발 벗고 나서다 · 발등에 불이 떨어지다 · 속이 타다 · 손이 빠르다 · 가슴을 쓸어내리다 · 발목을 잡다 · 이를 악물다.",
+        "Dùng thêm được: 한숨을 돌리다 · 발이 넓다 · 가슴에 새기다 (`그때 배운 것을 가슴에 새겼어요`)."
+      ],
+      "model_answer_ko": "저는 혼자 일하는 것보다 팀으로 함께 일하는 것이 더 좋다고 생각해요. 서로 도우면 혼자서는 못 하는 일도 해낼 수 있기 때문이에요. 첫째, 팀원들이 손발이 맞으면 일이 훨씬 빨리 끝나요. 둘째, 어려운 일이 생겼을 때 서로 발 벗고 나서서 도와줄 수 있어요. 저도 대학교 때 발표 전날 파일이 다 지워져서 발등에 불이 떨어진 적이 있어요. 속이 탔는데 손이 빠른 친구가 밤새 도와줘서 겨우 끝냈어요. 발표가 끝나고 모두 가슴을 쓸어내렸어요. 물론 팀에 책임감 없는 사람이 있으면 그 사람이 전체의 발목을 잡기도 해요. 하지만 그럴 때도 함께 이를 악물고 해결하면 팀은 더 단단해져요. 그래서 저는 함께 일하는 것이 더 좋다고 생각해요.",
+      "syllables_vi": "≈ 259 âm tiết",
+      "common_errors_vi": [
+        "Nhầm cảm xúc: `가슴이 철렁하다` là thót tim vì sợ, `가슴을 쓸어내리다` là thở phào khi nỗi sợ đã qua.",
+        "Dùng `발목을 잡다` với nghĩa tốt: quán ngữ này luôn là cản trở.",
+        "Hiểu `발등에 불이 떨어지다` theo nghĩa đen; đây là «việc gấp sát nút».",
+        "Bỏ trợ từ đi kèm: `일에서 손을 떼다`, `친구와 담을 쌓다`; đừng quên `에서`/`와`."
+      ],
+      "pronunciation_vi": [
+        "발등에 [발뜽에]",
+        "악물고 [앙물고]",
+        "끝나요 [끈나요]",
+        "손발이 [손바리]",
+        "책임감 [채김감]",
+        "쓸어내렸어요 [쓰러내려써요]"
+      ],
+      "uses": [
+        {
+          "form": "손발이 맞으면",
+          "card": "손발이 맞다"
+        },
+        {
+          "form": "발 벗고 나서서",
+          "card": "발 벗고 나서다"
+        },
+        {
+          "form": "발등에 불이 떨어진",
+          "card": "발등에 불이 떨어지다"
+        },
+        {
+          "form": "속이 탔는데",
+          "card": "속이 타다"
+        },
+        {
+          "form": "손이 빠른",
+          "card": "손이 빠르다"
+        },
+        {
+          "form": "가슴을 쓸어내렸어요",
+          "card": "가슴을 쓸어내리다"
+        },
+        {
+          "form": "발목을 잡기도",
+          "card": "발목을 잡다"
+        },
+        {
+          "form": "이를 악물고",
+          "card": "이를 악물다"
+        }
+      ]
+    },
+    {
+      "id": "SP59",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Chủ đề (S6): Thất bại có giúp ích cho thành công",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "실패의 경험이 나중에 성공에 도움이 된다는 의견이 있습니다. 이 의견에 대해 어떻게 생각합니까? 자신의 경험을 예로 들어 말하십시오.",
+      "prompt_vi": "Có ý kiến cho rằng trải nghiệm thất bại sẽ giúp ích cho thành công về sau. Bạn nghĩ gì về ý kiến này? Hãy lấy trải nghiệm của chính bạn làm ví dụ.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "**Chọn một phe ngay.** Ghi 2 lý do + 1 lần thất bại của bạn + 1 phản biện; chọn sẵn 2–3 tục ngữ",
+          "phrases_ko": "입장 / 이유 ① / 이유 ② / 반론"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** trong 1–2 câu đầu",
+          "phrases_ko": "저는 실패의 경험이 … 도움이 된다고 생각해요."
+        },
+        {
+          "when_vi": "10–35 giây",
+          "do_vi": "Lý do 1 bằng một tục ngữ",
+          "phrases_ko": "첫째, 원숭이도 나무에서 떨어진다는 말처럼 …"
+        },
+        {
+          "when_vi": "35–55 giây",
+          "do_vi": "Lý do 2 + ví dụ của chính bạn",
+          "phrases_ko": "둘째, … 저도 … 미역국을 먹은 적이 있어요. 고생 끝에 낙이 온다는 말이 정말 맞았어요."
+        },
+        {
+          "when_vi": "55–72 giây",
+          "do_vi": "**Nhượng bộ + phản bác**",
+          "phrases_ko": "물론 … 수도 있어요. 하지만 새옹지마라는 말처럼 …"
+        },
+        {
+          "when_vi": "72–80 giây",
+          "do_vi": "Kết luận lặp lại lập trường",
+          "phrases_ko": "그래서 저는 … 소중한 경험이라고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Một tục ngữ đặt đúng chỗ đáng giá hơn ba tục ngữ xếp liền nhau; trong 80 giây, hai đến ba câu ví von là vừa.",
+        "Lồng tục ngữ bằng `…다는 말처럼`, `…(이)라는 말처럼`, `…다는 말이 정말 맞았어요`; giữ nguyên cả câu tục ngữ, đừng cắt vế.",
+        "`미역국을 먹다` hợp với lời kể khi nói chuyện; trong bài viết 54 hãy đổi thành `시험에 떨어지다`."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: …다는 말처럼 · …(이)라는 말처럼 · …다는 말이 정말 맞았어요 · -아/어 보다 · -(으)ㄹ 수도 있다.",
+        "Dùng thêm được: …(이)라더니 · …(이)라는 말이 있듯이 · 고진감래 · 유비무환."
+      ],
+      "model_answer_ko": "저는 실패의 경험이 나중에 성공에 큰 도움이 된다고 생각해요. 실패를 통해 자신에게 부족한 점을 알게 되기 때문이에요. 첫째, 원숭이도 나무에서 떨어진다는 말처럼 누구나 실수할 수 있어요. 중요한 것은 같은 실수를 반복하지 않는 거예요. 둘째, 실패를 극복해 본 사람은 다음 어려움도 쉽게 포기하지 않아요. 저도 처음 본 한국어 시험에서 미역국을 먹은 적이 있어요. 그때는 속상했지만 틀린 문제를 하나하나 분석해서 다시 공부했고, 다음 시험에서는 합격했어요. 고생 끝에 낙이 온다는 말이 정말 맞았어요. 물론 실패가 계속되면 자신감을 잃을 수도 있어요. 하지만 새옹지마라는 말처럼 지금의 실패가 나중에는 좋은 기회가 될 수도 있어요. 그래서 저는 실패도 소중한 경험이라고 생각해요.",
+      "syllables_vi": "≈ 288 âm tiết",
+      "common_errors_vi": [
+        "Hiểu `새옹지마` là «xui xẻo»: nghĩa đúng là họa phúc khó lường.",
+        "Cắt vế tục ngữ (`원숭이도 떨어진다`): phải nói đủ `원숭이도 나무에서 떨어진다`.",
+        "Hiểu `미역국을 먹다` theo nghĩa đen: trong chuyện thi cử là «thi trượt».",
+        "Kể chuyện thi trượt quá dài, quên phần nhượng bộ và kết luận."
+      ],
+      "pronunciation_vi": [
+        "미역국을 [미역꾸글]",
+        "낙이 [나기]",
+        "끝에 [끄테]",
+        "속상했지만 [속쌍핻찌만]",
+        "합격했어요 [합껴캐써요]",
+        "잃을 [이를]"
+      ],
+      "uses": [
+        {
+          "form": "원숭이도 나무에서 떨어진다",
+          "card": "원숭이도 나무에서 떨어진다"
+        },
+        {
+          "form": "미역국을 먹은",
+          "card": "미역국을 먹다"
+        },
+        {
+          "form": "고생 끝에 낙이 온다",
+          "card": "고생 끝에 낙이 온다"
+        },
+        {
+          "form": "새옹지마",
+          "card": "새옹지마"
+        },
+        {
+          "form": "극복해 본",
+          "card": "극복"
+        },
+        {
+          "form": "분석해서",
+          "card": "분석"
+        },
+        {
+          "form": "포기하지",
+          "card": "포기"
+        }
+      ]
+    },
+    {
+      "id": "SP60",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S5",
+      "title_vi": "Nói · Đọc số liệu (S5): Giá cả tăng nhanh hơn tiền lương",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [5] 다음 자료를 보고 질문에 답하십시오.",
+      "prompt_ko": "다음은 물가 상승률과 임금 상승률의 변화, 그리고 직장인의 올해 소비 계획을 조사한 자료입니다. 자료의 내용을 설명하고, 이러한 변화가 가계와 경제에 미칠 영향을 말하십시오.",
+      "prompt_vi": "Đây là số liệu về tốc độ tăng giá cả và tăng lương, cùng kế hoạch chi tiêu năm nay của người đi làm. Hãy trình bày nội dung số liệu và nói về ảnh hưởng của những thay đổi này đối với các hộ gia đình và nền kinh tế.",
+      "data": [
+        {
+          "title_vi": "(가) 물가 상승률과 임금 상승률 (전년 대비)",
+          "note_vi": "Số liệu giả định (không phải số liệu thật).",
+          "chart": {
+            "type": "line",
+            "unit": "%",
+            "categories": [
+              "2024년",
+              "2025년",
+              "2026년"
+            ],
+            "series": [
+              {
+                "name": "물가 상승률",
+                "values": [
+                  2.0,
+                  3.0,
+                  4.0
+                ]
+              },
+              {
+                "name": "임금 상승률",
+                "values": [
+                  3.5,
+                  3.0,
+                  2.5
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "title_vi": "(나) 올해 소비 계획 (직장인 대상 설문)",
+          "note_vi": "Số liệu giả định.",
+          "table": {
+            "header": [
+              "응답",
+              "비율"
+            ],
+            "rows": [
+              [
+                "소비를 줄이겠다",
+                "62%"
+              ],
+              [
+                "비슷하게 유지하겠다",
+                "30%"
+              ],
+              [
+                "소비를 늘리겠다",
+                "8%"
+              ]
+            ]
+          }
+        }
+      ],
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "Gạch **2 xu hướng ngược nhau** (giá tăng nhanh, lương tăng chậm lại) + điểm gặp nhau năm 2025 + 1 con số của (나). Tự tính chênh lệch ngay.",
+          "phrases_ko": "2% → 4% = 두 배 · 3.5% → 2.5% · 62% ↔ 8%"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "Giới thiệu tài liệu cho biết gì",
+          "phrases_ko": "이 자료는 … 어떻게 변했는지 보여 줘요."
+        },
+        {
+          "when_vi": "10–40 giây",
+          "do_vi": "**Xu hướng + số liệu**: đường nào lên, đường nào xuống, năm nào gặp nhau",
+          "phrases_ko": "N에서 N(으)로 · 두 배가 됐어요 · 반면에 … 소폭 하락했어요"
+        },
+        {
+          "when_vi": "40–65 giây",
+          "do_vi": "**Ý nghĩa** dựa vào (나): sức mua giảm, người đi làm thắt chi tiêu",
+          "phrases_ko": "… -는 실정이에요 · …에 그쳤어요"
+        },
+        {
+          "when_vi": "65–80 giây",
+          "do_vi": "**Ảnh hưởng và dự báo** + chốt",
+          "phrases_ko": "… 수 있어요. … -(으)ㄹ 전망이에요."
+        }
+      ],
+      "tips_vi": [
+        "Giám khảo chấm phần **diễn giải**: nối hai đường ngược chiều với bảng (나) thành một câu chuyện, đừng đọc từng ô.",
+        "**Đọc số**: 2024년 = 이천이십사 년 · 2% = 이 퍼센트 · 3.5% = 삼 점 오 퍼센트 · 62% = 육십이 퍼센트.",
+        "Kiểm tra số học: 2% → 4% là `두 배`; 3.5% → 2.5% giảm 1 điểm nên là `소폭 하락`; năm 2025 hai đường gặp nhau ở 3%.",
+        "Dùng ngay ba mẫu của bài: `-는 실정이에요` (thực trạng), `에 그쳤어요` (chỉ dừng ở), `-(으)ㄹ 전망이에요` (dự báo)."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: N에서 N(으)로 · 두 배가 되다 · 반면에 · -는 실정이다 · N에 그치다 · -(으)ㄹ 전망이다.",
+        "Dùng thêm được: 전년 대비 · -(으)ㄹ 것으로 예상되다 · N에 불과하다 (nhấn mạnh con số nhỏ: `8%에 불과했어요`)."
+      ],
+      "model_answer_ko": "이 자료는 2024년부터 2026년까지 물가 상승률과 임금 상승률이 어떻게 변했는지 보여 줘요. 물가 상승률은 2024년에 2%였는데 2026년에는 4%로 두 배가 됐어요. 반면에 임금 상승률은 3.5%에서 2.5%로 소폭 하락했어요. 2025년에 두 상승률이 3%로 같아진 뒤 올해는 물가가 임금보다 더 빨리 오르고 있어요. 그래서 월급이 올라도 실제 구매력은 오히려 줄어드는 실정이에요. 조사 결과 직장인의 62%가 올해 소비를 줄이겠다고 답했고, 소비를 늘리겠다는 사람은 8%에 그쳤어요. 소비가 줄면 기업의 이윤이 줄어서 경기 회복도 늦어질 수 있어요. 이런 상황이 계속되면 가계의 부담은 당분간 더 커질 전망이에요.",
+      "syllables_vi": "≈ 269 âm tiết",
+      "common_errors_vi": [
+        "Đọc từng ô của biểu đồ mà không so sánh hai đường; bỏ mất điểm gặp nhau năm 2025.",
+        "Nhầm `상승률이 하락하다` (tốc độ tăng chậm lại) với `임금이 하락하다` (lương giảm): lương vẫn tăng, chỉ tăng chậm hơn.",
+        "Chia sai thì: `-(으)ㄹ 전망이에요` cho tương lai, `-는 실정이에요` cho hiện tại.",
+        "Đưa lý do ngoài dữ liệu như sự thật; nên nói `… 수 있어요`, `… 것 같아요`."
+      ],
+      "pronunciation_vi": [
+        "물가 [물까]",
+        "상승률 [상승뉼]",
+        "하락했어요 [하라캐써요]",
+        "실정이에요 [실쩡이에요]",
+        "같아진 [가타진]",
+        "늦어질 [느저질]"
+      ],
+      "uses": [
+        {
+          "form": "물가",
+          "card": "물가"
+        },
+        {
+          "form": "임금",
+          "card": "임금"
+        },
+        {
+          "form": "상승률",
+          "card": "상승"
+        },
+        {
+          "form": "소폭",
+          "card": "소폭"
+        },
+        {
+          "form": "하락했어요",
+          "card": "하락"
+        },
+        {
+          "form": "구매력",
+          "card": "구매력"
+        },
+        {
+          "form": "줄어드는 실정이에요",
+          "card": "V + -(으)ㄹ 전망이다 · V/A + -는 실정이다 · V/A + -(으)ㄹ 것으로 전망되다/예상되다"
+        },
+        {
+          "form": "8%에 그쳤어요",
+          "card": "N + 에 그치다 · V + -는 데 그치다 · N + 에 불과하다 · V + -(으)ㄹ 따름이다"
+        },
+        {
+          "form": "이윤",
+          "card": "이윤"
+        },
+        {
+          "form": "경기",
+          "card": "경기"
+        },
+        {
+          "form": "회복",
+          "card": "회복"
+        },
+        {
+          "form": "가계",
+          "card": "가계"
+        },
+        {
+          "form": "커질 전망이에요",
+          "card": "V + -(으)ㄹ 전망이다 · V/A + -는 실정이다 · V/A + -(으)ㄹ 것으로 전망되다/예상되다"
+        }
+      ]
+    },
+    {
+      "id": "SP61",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Chủ đề (S6): Có nên bắt buộc đi bầu cử",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "투표율을 높이기 위해 모든 국민이 반드시 투표하도록 법으로 정하자는 의견이 있습니다. 투표를 의무로 하는 것에 대해 어떻게 생각합니까? 찬성이나 반대 입장을 정하고 이유를 들어 말하십시오.",
+      "prompt_vi": "Có ý kiến cho rằng nên quy định bằng luật để mọi công dân đều phải đi bầu nhằm nâng tỉ lệ bỏ phiếu. Bạn nghĩ gì về việc biến bỏ phiếu thành nghĩa vụ? Hãy chọn tán thành hoặc phản đối và nêu lý do.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "**Chọn một phe ngay.** Ghi 2 lý do + 1 trải nghiệm đi bầu (hoặc chứng kiến) + 1 lý do của phía bên kia",
+          "phrases_ko": "입장 / 이유 ① / 이유 ② / 반론"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** trong 1–2 câu đầu",
+          "phrases_ko": "저는 투표를 법으로 의무화하는 것에 찬성해요/반대해요."
+        },
+        {
+          "when_vi": "10–35 giây",
+          "do_vi": "Lý do 1, dùng từ về quyền và nghĩa vụ",
+          "phrases_ko": "첫째, 민주주의에서는 … -다고 볼 수 있어요."
+        },
+        {
+          "when_vi": "35–55 giây",
+          "do_vi": "Lý do 2 + ví dụ của chính bạn",
+          "phrases_ko": "둘째, … 유권자는 … 공약을 … 저도 … 고민한 끝에 …"
+        },
+        {
+          "when_vi": "55–72 giây",
+          "do_vi": "**Nhượng bộ**: nêu đúng lý do của phía bên kia rồi phản bác",
+          "phrases_ko": "물론 … 걱정도 있어요. 하지만 …"
+        },
+        {
+          "when_vi": "72–80 giây",
+          "do_vi": "Kết luận lặp lại lập trường",
+          "phrases_ko": "그래서 저는 … -기에 앞서 … 필요하다고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Đây là vấn đề còn nhiều ý kiến khác nhau: chọn tán thành hay phản đối đều được. Điều được chấm là lý do rõ ràng và bạn nhắc đúng lý do của phía bên kia trong phần nhượng bộ.",
+        "Nếu chọn **tán thành**, hai lý do có thể là: ý kiến của nhiều người được phản ánh đầy đủ hơn; người dân quan tâm đến chính trị nhiều hơn. Phần nhượng bộ khi đó là quyền tự do lựa chọn.",
+        "Không nhắc tên đảng, chính trị gia hay số liệu bạn không chắc; nói chung chung `많이`, `점점`, `최근`."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: -게 하다 · -다고 볼 수 있다 · -(으)ㄴ 끝에 · -고 나서야 · -기에 앞서 · -게 만들다.",
+        "Dùng thêm được: N을/를 둘러싸고 (`의무 투표를 둘러싸고 의견이 갈려요`) · -(으)ㄹ 것을 요구하다 · -(으)ㄴ/는 가운데."
+      ],
+      "model_answer_ko": "저는 투표를 법으로 의무화하는 것에 반대해요. 투표는 국민의 중요한 권리이지만 강제로 하게 하는 것은 맞지 않다고 생각하기 때문이에요. 첫째, 민주주의에서는 투표하지 않는 것도 하나의 선택이라고 볼 수 있어요. 둘째, 억지로 투표하는 유권자는 후보의 공약을 제대로 비교하지 않고 아무에게나 투표할 수도 있어요. 저도 처음 투표할 때 후보들의 공약을 잘 몰라서 며칠 동안 고민한 끝에 토론 영상을 찾아보고 나서야 투표했어요. 물론 투표율이 낮으면 일부 시민의 의견만 반영된다는 걱정도 있어요. 하지만 투표율은 의무보다 선거 교육이나 편리한 투표 방법으로 높일 수 있어요. 그래서 저는 투표를 의무로 하기에 앞서 시민들이 참여하고 싶게 만드는 노력이 필요하다고 생각해요.",
+      "syllables_vi": "≈ 283 âm tiết",
+      "common_errors_vi": [
+        "Nói `투표하기 앞서`: phải là `투표하기에 앞서` hoặc `투표에 앞서`.",
+        "Nhầm `국민` (người dân theo quốc tịch) với `시민` (thành viên cộng đồng): nói về quyền bầu cử, dùng `국민`/`유권자`.",
+        "Nêu lập trường như khẩu hiệu mà không có lý do, hoặc bỏ qua lý do của phía bên kia.",
+        "Nhắc tên đảng, chính trị gia hay một đạo luật cụ thể: không cần và dễ sai."
+      ],
+      "pronunciation_vi": [
+        "권리 [궐리]",
+        "민주주의 [민주주이]",
+        "공약을 [공야글]",
+        "낮으면 [나즈면]",
+        "편리한 [펼리한]",
+        "앞서 [압써]"
+      ],
+      "uses": [
+        {
+          "form": "국민",
+          "card": "국민"
+        },
+        {
+          "form": "권리",
+          "card": "권리"
+        },
+        {
+          "form": "민주주의",
+          "card": "민주주의"
+        },
+        {
+          "form": "유권자",
+          "card": "유권자"
+        },
+        {
+          "form": "공약",
+          "card": "공약"
+        },
+        {
+          "form": "후보",
+          "card": "후보"
+        },
+        {
+          "form": "고민한 끝에",
+          "card": "V/A + -(으)ㄴ/는 가운데 · N + 에 앞서 · V + -(으)ㄴ 끝에"
+        },
+        {
+          "form": "투표율",
+          "card": "투표율"
+        },
+        {
+          "form": "선거",
+          "card": "선거"
+        },
+        {
+          "form": "의무",
+          "card": "의무"
+        },
+        {
+          "form": "하기에 앞서",
+          "card": "V/A + -(으)ㄴ/는 가운데 · N + 에 앞서 · V + -(으)ㄴ 끝에"
+        },
+        {
+          "form": "하게 하는",
+          "card": "V/A + -게 하다 · V/A + -게 만들다"
+        },
+        {
+          "form": "비교하지",
+          "card": "비교"
+        },
+        {
+          "form": "토론",
+          "card": "토론"
+        }
+      ]
+    },
+    {
+      "id": "SP62",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Chủ đề (S6): Trí tuệ nhân tạo: lợi nhiều hay hại nhiều",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "인공지능 기술이 빠르게 발전하면서 사람이 하던 일을 대신하는 경우가 많아지고 있습니다. 인공지능의 발전이 우리 생활에 도움이 더 많다고 생각합니까, 문제가 더 많다고 생각합니까? 입장을 정하고 이유를 들어 말하십시오.",
+      "prompt_vi": "Trí tuệ nhân tạo phát triển nhanh và ngày càng làm thay nhiều việc của con người. Theo bạn, sự phát triển của trí tuệ nhân tạo mang lại cho cuộc sống nhiều lợi ích hơn hay nhiều vấn đề hơn? Hãy chọn lập trường và nêu lý do.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "**Chọn một phe ngay.** Ghi 1 câu định nghĩa + 2 lý do + 1 trải nghiệm dùng AI + 1 phản biện",
+          "phrases_ko": "입장 / 정의 / 이유 ① / 이유 ② / 반론"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** + câu định nghĩa ngắn",
+          "phrases_ko": "저는 … 도움을 더 많이 준다고 생각해요. 인공지능이란 … 을/를 말하는데 …"
+        },
+        {
+          "when_vi": "10–35 giây",
+          "do_vi": "Lý do 1: làm thay việc nguy hiểm, lặp lại",
+          "phrases_ko": "첫째, … 대신함으로써 …"
+        },
+        {
+          "when_vi": "35–55 giây",
+          "do_vi": "Lý do 2 + ví dụ của chính bạn",
+          "phrases_ko": "둘째, … -는 것으로 알려져 있어요. 저도 …"
+        },
+        {
+          "when_vi": "55–72 giây",
+          "do_vi": "**Nhượng bộ + phản bác**",
+          "phrases_ko": "물론 자동화 때문에 … 걱정도 있어요. 하지만 … 에 힘입어 …"
+        },
+        {
+          "when_vi": "72–80 giây",
+          "do_vi": "Kết luận lặp lại lập trường",
+          "phrases_ko": "그래서 저는 … -(으)ㄹ 거라고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Câu định nghĩa `X이란 … 을/를 말해요` ở đầu bài cho thấy bạn tổ chức được ý; chỉ cần một câu.",
+        "Không đưa con số, tên công ty hay tên nghiên cứu bạn không chắc: `… 것으로 알려져 있어요`, `많이`, `점점` là đủ.",
+        "Giữ nhất quán **해요체**; từ nối đánh dấu cấu trúc: 첫째/둘째, 물론, 하지만, 그래서."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: N이란 · -(으)ㅁ으로써 · -는 것으로 알려져 있다 · N에 힘입어 · -는 데 도움이 되다.",
+        "Dùng thêm được: -는 것으로 나타나다 (kết quả khảo sát) · N에 기인하다 (nguyên nhân) · -(으)ㄹ 전망이다."
+      ],
+      "model_answer_ko": "저는 인공지능의 발전이 우리 생활에 문제보다 도움을 더 많이 준다고 생각해요. 인공지능이란 사람처럼 배우고 판단하는 컴퓨터 기술을 말하는데, 이미 여러 분야에서 쓰이고 있어요. 첫째, 인공지능은 위험하고 반복적인 일을 대신함으로써 사람의 부담을 줄여 줘요. 둘째, 의료 분야에서는 데이터를 분석해서 병을 일찍 발견하는 데 도움이 되는 것으로 알려져 있어요. 저도 요즘 인공지능 번역 앱 덕분에 한국어 논문을 읽는 시간이 많이 줄었어요. 물론 자동화 때문에 일자리가 줄어든다는 걱정도 있어요. 하지만 기술 발전에 힘입어 새로운 일자리도 생기고 있어요. 그래서 저는 인공지능을 잘 활용하면 생활이 더 편리해질 거라고 생각해요.",
+      "syllables_vi": "≈ 265 âm tiết",
+      "common_errors_vi": [
+        "Nói `대신함으로서`: nói về phương tiện là `-(으)ㅁ으로써`; `(으)로서` là «với tư cách».",
+        "Dùng người làm chủ ngữ với `-는 것으로 알려져 있다/나타나다`: chủ ngữ là kết quả hay sự việc.",
+        "Dùng `에 힘입어` cho kết quả xấu (`자동화에 힘입어 일자리가 줄었어요`): mẫu này chỉ đi với kết quả tốt.",
+        "Đưa con số hay tên công ty bạn không chắc; nói chung `많이`, `점점`, `최근`."
+      ],
+      "pronunciation_vi": [
+        "분석해서 [분서캐서]",
+        "읽는 [잉는]",
+        "일자리 [일짜리]",
+        "힘입어 [히미버]",
+        "편리해질 [펼리해질]",
+        "번역 [버녁]"
+      ],
+      "uses": [
+        {
+          "form": "인공지능이란",
+          "card": "N + (이)란 · N + (으)로 나뉘다/분류되다 · N + 에 기인하다"
+        },
+        {
+          "form": "대신함으로써",
+          "card": "V + -(으)ㅁ으로써 · N + (으)로써 · N + 에 힘입어"
+        },
+        {
+          "form": "알려져 있어요",
+          "card": "V/A + -(으)ㄴ/는 것으로 나타나다 · V + -(으)ㄴ 것으로 밝혀지다 · V + -(으)ㄴ/는 것으로 알려져 있다"
+        },
+        {
+          "form": "힘입어",
+          "card": "V + -(으)ㅁ으로써 · N + (으)로써 · N + 에 힘입어"
+        },
+        {
+          "form": "데이터",
+          "card": "데이터"
+        },
+        {
+          "form": "발견하는",
+          "card": "발견"
+        },
+        {
+          "form": "논문",
+          "card": "논문"
+        },
+        {
+          "form": "자동화",
+          "card": "자동화"
+        },
+        {
+          "form": "인공지능",
+          "card": "인공지능"
+        }
+      ]
+    },
+    {
+      "id": "SP63",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Tư tưởng và đạo đức (S6): Nói thật dù bị thiệt",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "자신에게 손해가 되더라도 진실을 말해야 한다는 의견이 있습니다. 이 의견에 찬성합니까, 반대합니까? 입장을 정하고 이유를 들어 말하십시오.",
+      "prompt_vi": "Có ý kiến cho rằng dù bị thiệt cho bản thân cũng phải nói sự thật. Bạn tán thành hay phản đối ý kiến này? Hãy chọn lập trường và nêu lý do.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "**Chọn một phe ngay.** Ghi 2 lý do + 1 lần bạn nói thật (hay giấu) + 1 phản biện",
+          "phrases_ko": "입장 / 양심 / 공동체 / 경험 / 반론"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** trong 1–2 câu đầu, dùng luôn mẫu nhượng bộ mạnh",
+          "phrases_ko": "저는 손해를 볼지라도 …에 찬성해요."
+        },
+        {
+          "when_vi": "10–35 giây",
+          "do_vi": "Lý do 1: nói thật là giữ lương tâm; chốt bằng một câu «vô ích»",
+          "phrases_ko": "첫째, … -(이)라고 볼 수 있어요. … -(으)ㄴ들 무슨 소용이 있겠어요?"
+        },
+        {
+          "when_vi": "35–55 giây",
+          "do_vi": "Lý do 2: lòng tin của cộng đồng + ví dụ của chính bạn",
+          "phrases_ko": "둘째, 공동체는 … 저도 … -(으)ㄴ 적이 있어요."
+        },
+        {
+          "when_vi": "55–72 giây",
+          "do_vi": "**Nhượng bộ + sửa cách nhìn**",
+          "phrases_ko": "물론 … 하지만 그건 … -(이)라기보다는 …의 문제예요."
+        },
+        {
+          "when_vi": "72–80 giây",
+          "do_vi": "Kết luận, nhắc lại lập trường",
+          "phrases_ko": "그래서 저는 … -(으)ㄹ망정 … 않는 것이 옳다고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Chủ đề đạo đức dễ trôi thành bài giảng chung chung; giám khảo muốn **lập trường rõ trong hai câu đầu** và lý do có ví dụ thật.",
+        "Một trải nghiệm nhỏ (ở chỗ làm thêm, ở lớp) thuyết phục hơn câu nói về «xã hội» nói chung.",
+        "Ba mẫu của bài đứng ở ba vị trí: `-(으)ㄹ지라도` ở lập trường, `-(으)ㄴ들` chốt lý do, `-(이)라기보다는` trong phần phản bác."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: -(으)ㄹ지라도 · -(이)라고 볼 수 있어요 · -(으)ㄴ들 · -(이)라기보다는 · -(으)ㄹ망정 · -(으)ㄴ 적이 있어요.",
+        "Dùng thêm được: -는 한이 있더라도 · -아/어 봤자 · -다고도 할 수 있어요."
+      ],
+      "model_answer_ko": "저는 손해를 볼지라도 진실을 말해야 한다는 의견에 찬성해요. 거짓말은 잠깐 편할 수는 있지만 결국 더 큰 문제를 만들기 때문이에요. 첫째, 진실을 말하는 것은 자기 양심을 지키는 일이라고 볼 수 있어요. 거짓말로 위기를 넘긴들 마음이 편하지 않으면 무슨 소용이 있겠어요? 둘째, 공동체는 서로 믿을 때 건강해져요. 저도 아르바이트를 할 때 계산 실수를 숨기지 않고 사장님께 말씀드린 적이 있어요. 그날은 혼이 났지만 그 뒤로 사장님이 저를 더 믿어 주셨어요. 물론 진실이 다른 사람에게 상처를 줄 때도 있어요. 하지만 그건 진실 자체의 문제라기보다는 말하는 방식의 문제예요. 그래서 저는 손해를 볼망정 거짓말은 하지 않는 것이 옳다고 생각해요.",
+      "syllables_vi": "≈ 268 âm tiết",
+      "common_errors_vi": [
+        "Bỏ `ㄹ`: ✗ `보지라도` → ✓ `볼지라도`.",
+        "Vế sau của `-(으)ㄴ들` mang nghĩa tích cực (✗ `넘긴들 마음이 편해요`): vế sau phải là «vô ích», «không thay đổi gì».",
+        "Dùng `-(으)ㄹ망정` mà vế sau là việc bình thường: vế sau phải là điều bạn **không** làm (`거짓말은 하지 않아요`).",
+        "Kể ví dụ quá dài rồi hết giờ trước phần nhượng bộ và kết luận."
+      ],
+      "pronunciation_vi": [
+        "볼지라도 [볼찌라도]",
+        "옳다고 [올타고]",
+        "편하지 않으면 [편하지 아느면]",
+        "숨기지 않고 [숨기지 안코]",
+        "믿어 주셨어요 [미더 주셔써요]",
+        "진실을 [진시를]"
+      ],
+      "uses": [
+        {
+          "form": "볼지라도",
+          "card": "V/A + -(으)ㄹ지라도 · V + -(으)ㄹ망정 · V + -는 한이 있더라도"
+        },
+        {
+          "form": "일이라고 볼 수 있어요",
+          "card": "V/A + -다고 볼 수 있다 · V/A + -다고도 할 수 있다 · V/A + -(ㄴ/는)다기보다(는)"
+        },
+        {
+          "form": "넘긴들",
+          "card": "V/A + -(으)ㄴ들 · V + -아/어 봤자 · N + 은/는 고사하고"
+        },
+        {
+          "form": "문제라기보다는",
+          "card": "V/A + -다고 볼 수 있다 · V/A + -다고도 할 수 있다 · V/A + -(ㄴ/는)다기보다(는)"
+        },
+        {
+          "form": "양심",
+          "card": "양심"
+        },
+        {
+          "form": "공동체",
+          "card": "공동체"
+        },
+        {
+          "form": "진실",
+          "card": "진실"
+        },
+        {
+          "form": "첫째",
+          "card": "Từ nối + 반면에 · 그러나 · 첫째 · 이를 해결하기 위해서는 · 결론적으로"
+        },
+        {
+          "form": "말씀드린 적이 있어요",
+          "card": "V + -(으)ㄴ 적이 있다/없다"
+        }
+      ]
+    },
+    {
+      "id": "SP64",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Lịch sử và di sản (S6): Phục dựng hay giữ nguyên di tích",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "전쟁이나 자연재해로 훼손된 문화유산을 옛 모습대로 복원하는 것이 좋다고 생각합니까, 아니면 지금 남아 있는 모습 그대로 보존하는 것이 좋다고 생각합니까? 입장을 정하고 이유를 들어 말하십시오.",
+      "prompt_vi": "Di sản bị chiến tranh hay thiên tai làm hư hại: bạn nghĩ nên phục dựng theo dáng xưa, hay nên giữ nguyên hiện trạng còn lại? Hãy chọn lập trường và nêu lý do.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "**Chọn một phe ngay.** Ghi 2 lý do + 1 di tích bạn từng đến + 1 phản biện",
+          "phrases_ko": "입장 / 이해 / 관심 / 경험 / 반론(원형)"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** trong 1–2 câu đầu",
+          "phrases_ko": "저는 … 복원하는 것이 좋다고 생각해요."
+        },
+        {
+          "when_vi": "10–35 giây",
+          "do_vi": "Lý do 1: giúp hiểu thời đại xưa; nêu nguyên nhân hư hại bằng mẫu của bài",
+          "phrases_ko": "첫째, … 오랜 세월에 걸쳐 … (으)로 말미암아 …"
+        },
+        {
+          "when_vi": "35–55 giây",
+          "do_vi": "Lý do 2 + ví dụ: một di tích ở quê bạn",
+          "phrases_ko": "둘째, … 과정을 거쳐 … 저도 … -(으)ㄴ 것으로 전해지는 …"
+        },
+        {
+          "when_vi": "55–72 giây",
+          "do_vi": "**Nhượng bộ + phản bác**: nỗi lo mất nguyên trạng",
+          "phrases_ko": "물론 … 걱정도 있어요. 하지만 옛 기록에 비추어 …"
+        },
+        {
+          "when_vi": "72–80 giây",
+          "do_vi": "Kết luận lặp lại lập trường",
+          "phrases_ko": "그래서 저는 … 필요하다고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Chọn hẳn một phe; phe «giữ nguyên» cũng tốt nếu bạn có lý do (dấu vết lịch sử, nguy cơ làm sai).",
+        "Không nói năm tháng hay tên di sản bạn không chắc; `수백 년 전`, `오래전` là đủ.",
+        "Văn thuyết minh lịch sử có ba mẫu: thời gian (`에 걸쳐`), nguyên nhân (`(으)로 말미암아`), lời truyền lại (`-(으)ㄴ 것으로 전해지다`). Đưa cả ba vào bài nói là ăn điểm ngôn ngữ."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: 에 걸쳐 · (으)로 말미암아 · 을/를 거쳐 · -(으)ㄴ 것으로 전해지다 · 에 비추어 · -(으)ㄴ 채로.",
+        "Dùng thêm được: -(으)ㄴ 것으로 추정되다 · (으)로 일컬어지다 · 이래로."
+      ],
+      "model_answer_ko": "저는 훼손된 문화유산을 옛 모습에 가깝게 복원하는 것이 좋다고 생각해요. 유적은 사람들이 직접 보고 배울 수 있을 때 의미가 있기 때문이에요. 첫째, 복원을 하면 그 시대의 생활을 더 쉽게 이해할 수 있어요. 많은 유적이 오랜 세월에 걸쳐 전쟁과 자연재해로 말미암아 무너졌는데, 무너진 채로 두면 원래 모습을 상상하기 어려워요. 둘째, 복원 과정을 거쳐 유산이 다시 사람들의 관심을 받을 수 있어요. 저도 고향에서 복원된 옛 성에 가 본 적이 있어요. 수백 년 전에 세워진 것으로 전해지는 성인데, 역사가 눈앞에 살아 있는 것 같았어요. 물론 잘못 복원하면 원형이 사라진다는 걱정도 있어요. 하지만 옛 기록에 비추어 신중하게 복원하면 그런 문제를 줄일 수 있어요. 그래서 저는 기록을 바탕으로 한 복원이 필요하다고 생각해요.",
+      "syllables_vi": "≈ 299 âm tiết",
+      "common_errors_vi": [
+        "Nhầm `걸쳐` (trải dài: `세월에 걸쳐`) với `거쳐` (đi qua: `과정을 거쳐`).",
+        "Dùng `(으)로 말미암아` rồi kết bằng lời khuyên hay mệnh lệnh: mẫu này chỉ nêu nguyên nhân của một kết quả.",
+        "Nói `세워졌다고 해요` cho mọi thứ: khi là lời truyền lại, `세워진 것으로 전해져요` nghe đúng văn thuyết minh hơn.",
+        "Chỉ tả di tích mà quên nêu lập trường, hoặc kết luận ngược với câu mở đầu."
+      ],
+      "pronunciation_vi": [
+        "역사가 [역싸가]",
+        "걸쳐 [걸처]",
+        "말미암아 [말미아마]",
+        "무너졌는데 [무너전는데]",
+        "옛 기록 [옏끼록]",
+        "복원 [보권]"
+      ],
+      "uses": [
+        {
+          "form": "세월에 걸쳐",
+          "card": "N + 에 걸쳐 · N + 에 이르기까지 · N + 이래(로)"
+        },
+        {
+          "form": "자연재해로 말미암아",
+          "card": "N + (으)로 말미암아 · N + 에 비추어(서) · N + 을/를 거쳐(서)"
+        },
+        {
+          "form": "과정을 거쳐",
+          "card": "N + (으)로 말미암아 · N + 에 비추어(서) · N + 을/를 거쳐(서)"
+        },
+        {
+          "form": "세워진 것으로 전해지는",
+          "card": "V + -(으)ㄴ 것으로 추정되다 · V + -(으)ㄴ 것으로 전해지다 · N + (으)로 일컬어지다"
+        },
+        {
+          "form": "유적",
+          "card": "유적"
+        },
+        {
+          "form": "전쟁",
+          "card": "전쟁"
+        },
+        {
+          "form": "시대",
+          "card": "시대"
+        },
+        {
+          "form": "원형",
+          "card": "원형"
+        },
+        {
+          "form": "기록",
+          "card": "기록"
+        },
+        {
+          "form": "역사",
+          "card": "역사"
+        }
+      ]
+    },
+    {
+      "id": "SP65",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S5",
+      "title_vi": "Nói · Dân số và an sinh (S5): Già hoá và dịch vụ chăm sóc người cao tuổi",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [5] 다음 자료를 보고 질문에 답하십시오.",
+      "prompt_ko": "조사 결과를 설명하고, 이런 변화가 생긴 이유와 앞으로의 모습에 대해 이야기하십시오.",
+      "prompt_vi": "Giải thích kết quả khảo sát, nói lý do của sự thay đổi và dự đoán tương lai.",
+      "data": [
+        {
+          "title_vi": "(가) A시 연령별 인구 비율 (단위: %)",
+          "note_vi": "Số liệu minh họa (không phải số liệu thật).",
+          "chart": {
+            "type": "bar",
+            "unit": "%",
+            "categories": [
+              "0~14세",
+              "65세 이상"
+            ],
+            "series": [
+              {
+                "name": "2005년",
+                "values": [
+                  18,
+                  9
+                ]
+              },
+              {
+                "name": "2025년",
+                "values": [
+                  11,
+                  21
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "title_vi": "(나) A시 노인 돌봄 서비스 이용자 수",
+          "note_vi": "Số liệu minh họa (không phải số liệu thật).",
+          "table": {
+            "header": [
+              "구분",
+              "2015년",
+              "2025년"
+            ],
+            "rows": [
+              [
+                "실제 이용자 수",
+                "1만 2천 명",
+                "3만 5천 명"
+              ],
+              [
+                "목표 이용자 수",
+                "1만 명",
+                "4만 명"
+              ]
+            ]
+          }
+        }
+      ],
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "Gạch **2 con số then chốt** + 1 đối lập + 1 so với mục tiêu. Tự tính ngay: 9 → 21 là hơn gấp đôi.",
+          "phrases_ko": "65세 이상 9 → 21 · 0~14세 18 → 11 · 3만 5천 < 4만"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "Giới thiệu tài liệu cho biết gì",
+          "phrases_ko": "이 자료는 … 의 변화를 보여 줘요."
+        },
+        {
+          "when_vi": "10–30 giây",
+          "do_vi": "**Đối lập hai nhóm tuổi** bằng một câu",
+          "phrases_ko": "N에서 N(으)로 늘어난 데 반해 … 줄었어요 · 두 배 넘게"
+        },
+        {
+          "when_vi": "30–50 giây",
+          "do_vi": "Bảng (나): mức đạt được và **so với mục tiêu**",
+          "phrases_ko": "… 에 달했어요 · 목표를 웃돌았지만 … 에 못 미쳤어요"
+        },
+        {
+          "when_vi": "50–68 giây",
+          "do_vi": "**Lý do** (nói như ý kiến, không như sự thật đã chứng minh)",
+          "phrases_ko": "이렇게 달라진 것은 … 때문이라고 생각해요 · … 경향이 있어요"
+        },
+        {
+          "when_vi": "68–80 giây",
+          "do_vi": "**Dự báo** + chốt",
+          "phrases_ko": "앞으로도 … -(으)ㄹ 테니까 … 할 것 같아요"
+        }
+      ],
+      "tips_vi": [
+        "Giám khảo chấm việc bạn **so sánh và diễn giải**, không chấm việc đọc từng ô. Mỗi câu nên có một phép so sánh: tăng – giảm, đạt – chưa đạt.",
+        "**Đọc số**: 2005년 = 이천오 년 · 21% = 이십일 퍼센트 · 0~14세 = 영 세에서 십사 세 · 1만 2천 명 = 만 이천 명 · 3만 5천 명 = 삼만 오천 명.",
+        "Kiểm tra số học: 21 ÷ 9 ≈ 2,3 nên «두 배 넘게» đúng; 3만 5천 còn thiếu 5천 so với 4만, và khi so với **mục tiêu** thì `목표에 못 미치다` tự nhiên hơn `밑돌다`."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: -(으)ㄴ 데 반해 · 에 달하다 · 을/를 웃돌다 · 에 못 미치다 · -는 경향이 있다 · -(으)ㄹ 테니까.",
+        "Dùng thêm được: -(으)ㄴ/는 데 비해 · 을/를 밑돌다 · 에 반해 · -(으)ㄹ 정도이다."
+      ],
+      "model_answer_ko": "이 자료는 A시의 연령별 인구 비율과 노인 돌봄 서비스 이용자 수의 변화를 보여 줘요. 먼저 65세 이상 인구 비율은 2005년 9%에서 2025년 21%로 늘어난 데 반해 0~14세 비율은 18%에서 11%로 줄었어요. 20년 동안 노인 비율이 두 배 넘게 늘어난 거예요. 다음으로 돌봄 서비스 이용자는 2015년 1만 2천 명에서 2025년 3만 5천 명에 달했어요. 2015년에는 목표인 1만 명을 웃돌았지만 2025년에는 목표인 4만 명에 못 미쳤어요. 이렇게 달라진 것은 출생아가 줄고 평균 수명이 길어졌기 때문이라고 생각해요. 또 혼자 사는 노인이 많아지면서 가족 대신 사회가 돌봄을 맡는 경향이 있어요. 앞으로도 노인 인구가 계속 늘 테니까 돌봄 인력과 재원을 더 준비해야 할 것 같아요.",
+      "syllables_vi": "≈ 293 âm tiết",
+      "common_errors_vi": [
+        "Nhầm trợ từ: ✗ `목표에 웃돌았어요` → ✓ `목표를 웃돌았어요`; ✗ `목표를 못 미쳤어요` → ✓ `목표에 못 미쳤어요`.",
+        "Dùng `데 반해` cho hai vế cùng chiều: mẫu này chỉ dùng khi một nhóm tăng, nhóm kia giảm (hoặc ngược nhau).",
+        "Đọc số sai đơn vị: `3만 5천` là ba mươi lăm nghìn (삼만 오천), không phải ba triệu rưỡi.",
+        "Đưa lý do như một sự thật chắc chắn; với số liệu minh hoạ, nói `… 때문이라고 생각해요` hoặc `… 때문인 것 같아요`."
+      ],
+      "pronunciation_vi": [
+        "달했어요 [다래써요]",
+        "못 미쳤어요 [몬미처써요]",
+        "웃돌았지만 [욷또랃찌만]",
+        "출생아 [출쌩아]",
+        "넘게 [넘께]",
+        "줄었어요 [주러써요]"
+      ],
+      "uses": [
+        {
+          "form": "늘어난 데 반해",
+          "card": "V/A + -(으)ㄴ/는 데 반해 · V/A + -(으)ㄴ/는 데 비해(서) · N + 에 반해(서)"
+        },
+        {
+          "form": "3만 5천 명에 달했어요",
+          "card": "N + 에 달하다 · N + 을/를 웃돌다/밑돌다 · N + 에 못 미치다"
+        },
+        {
+          "form": "1만 명을 웃돌았지만",
+          "card": "N + 에 달하다 · N + 을/를 웃돌다/밑돌다 · N + 에 못 미치다"
+        },
+        {
+          "form": "4만 명에 못 미쳤어요",
+          "card": "N + 에 달하다 · N + 을/를 웃돌다/밑돌다 · N + 에 못 미치다"
+        },
+        {
+          "form": "맡는 경향이 있어요",
+          "card": "V/A + -는 경향이 있다 · V/A + -(으)ㄹ 지경이다 · V/A + -(으)ㄹ 정도이다"
+        },
+        {
+          "form": "노인",
+          "card": "노인"
+        },
+        {
+          "form": "돌봄",
+          "card": "돌봄"
+        },
+        {
+          "form": "평균",
+          "card": "평균"
+        },
+        {
+          "form": "재원",
+          "card": "재원"
+        },
+        {
+          "form": "출생",
+          "card": "출생"
+        }
+      ]
+    },
+    {
+      "id": "SP66",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Y học và sức khoẻ (S6): Khám định kỳ hay thói quen sống",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "질병을 예방하기 위해서는 정기적인 건강 검진과 평소의 생활 습관 관리 중에서 어느 것이 더 중요하다고 생각합니까? 입장을 정하고 이유를 들어 말하십시오.",
+      "prompt_vi": "Để phòng bệnh, bạn nghĩ khám sức khoẻ định kỳ hay giữ thói quen sống hằng ngày quan trọng hơn? Hãy chọn lập trường và nêu lý do.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "**Chọn một bên.** Ghi 2 lý do + 1 thay đổi thói quen của chính bạn + 1 phản biện",
+          "phrases_ko": "입장 / 만성 질환 / 의료비 / 경험 / 반론(시간)"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** trong 1–2 câu đầu",
+          "phrases_ko": "저는 … 보다 … 이/가 더 중요하다고 생각해요."
+        },
+        {
+          "when_vi": "10–35 giây",
+          "do_vi": "Lý do 1: bệnh mạn tính bắt đầu từ thói quen; nối hai tác hại bằng `-(으)ㄹ뿐더러`",
+          "phrases_ko": "첫째, … 에 속하는데 … -시킬뿐더러 …"
+        },
+        {
+          "when_vi": "35–55 giây",
+          "do_vi": "Lý do 2 (chi phí) + ví dụ của bạn",
+          "phrases_ko": "둘째, … 저도 … 에 해당한다는 진단을 받은 뒤로 …"
+        },
+        {
+          "when_vi": "55–72 giây",
+          "do_vi": "**Nhượng bộ + phản bác**",
+          "phrases_ko": "물론 … -(으)ㄹ 법해요. 하지만 …"
+        },
+        {
+          "when_vi": "72–80 giây",
+          "do_vi": "Kết luận lặp lại lập trường",
+          "phrases_ko": "그래서 저는 … 먼저라고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Chọn bên nào cũng được, nhưng **đừng nói «cả hai đều quan trọng»** ở câu đầu; nhắc bên kia ở phần nhượng bộ.",
+        "Không đưa con số y tế bạn không chắc; ví dụ của chính bạn (`매일 30분씩 걸었다`) là đủ thuyết phục.",
+        "Phân biệt nội động và ngoại động: `혈압을 악화시키다` (làm cho xấu đi, có `을/를`) ≠ `증상이 악화되다` (tự xấu đi)."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: 에 속하다 · 을/를 -시키다 · -(으)ㄹ뿐더러 · 에 해당하다 · -(으)ㄹ 법하다 · -(으)ㄴ 뒤로.",
+        "Dùng thêm được: 이/가 -화되다 (`만성화되다`) · 에 상당하다 · -는 것이 바람직하다."
+      ],
+      "model_answer_ko": "저는 질병을 예방하는 데는 정기 검진보다 생활 습관 관리가 더 중요하다고 생각해요. 검진은 병을 찾아 주지만 병을 막아 주지는 못하기 때문이에요. 첫째, 고혈압이나 당뇨는 대표적인 만성 질환에 속하는데, 대부분 생활 습관에서 시작돼요. 짜게 먹고 운동을 안 하면 혈압을 악화시킬뿐더러 비만의 위험도 커져요. 둘째, 좋은 습관은 의료비를 줄여 줘요. 저도 비만에 해당한다는 진단을 받은 뒤로 매일 30분씩 걸었는데, 석 달 만에 몸이 가벼워지고 병원에 가는 일도 줄었어요. 물론 바쁜 직장인이라면 운동할 시간이 없다고 말할 법해요. 하지만 엘리베이터 대신 계단을 이용하는 것처럼 작은 습관부터 바꿀 수 있어요. 그래서 저는 검진도 필요하지만 무엇보다 생활 습관 관리가 먼저라고 생각해요.",
+      "syllables_vi": "≈ 289 âm tiết",
+      "common_errors_vi": [
+        "✗ `혈압이 악화시켜요` → ✓ `혈압을 악화시켜요` hoặc `혈압이 악화돼요`.",
+        "Nhầm `에 해당하다` (thuộc diện theo tiêu chuẩn: `비만에 해당하다`) với `에 속하다` (thuộc nhóm phân loại: `만성 질환에 속하다`).",
+        "Dùng `-(으)ㄹ뿐더러` nối hai vế trái chiều: hai vế phải cùng chiều (hai tác hại hoặc hai lợi ích).",
+        "Nói «검진도 중요하고 습관도 중요해요» rồi dừng: không có lập trường thì mất điểm nội dung."
+      ],
+      "pronunciation_vi": [
+        "혈압 [혀랍]",
+        "속하는데 [소카는데]",
+        "악화시킬뿐더러 [아콰시킬뿐더러]",
+        "말할 법해요 [말할뻐패요]",
+        "석 달 [석딸]",
+        "먹고 [먹꼬]"
+      ],
+      "uses": [
+        {
+          "form": "만성 질환에 속하는데",
+          "card": "N + 에 해당하다 · N + 에 속하다 · N + 에 상당하다"
+        },
+        {
+          "form": "비만에 해당한다는",
+          "card": "N + 에 해당하다 · N + 에 속하다 · N + 에 상당하다"
+        },
+        {
+          "form": "악화시킬뿐더러",
+          "card": "V/A + -(으)ㄹ 법하다 · V/A + -(으)ㄹ 뿐더러"
+        },
+        {
+          "form": "말할 법해요",
+          "card": "V/A + -(으)ㄹ 법하다 · V/A + -(으)ㄹ 뿐더러"
+        },
+        {
+          "form": "악화시킬",
+          "card": "N + 을/를 -시키다 · N + 을/를 -화하다 · N + 이/가 -화되다"
+        },
+        {
+          "form": "검진",
+          "card": "검진"
+        },
+        {
+          "form": "만성",
+          "card": "만성"
+        },
+        {
+          "form": "혈압",
+          "card": "혈압"
+        },
+        {
+          "form": "비만",
+          "card": "비만"
+        },
+        {
+          "form": "의료비",
+          "card": "의료비"
+        },
+        {
+          "form": "진단",
+          "card": "진단"
+        }
+      ]
+    },
+    {
+      "id": "SP67",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Tiêu dùng và xã hội số (S6): Thanh toán nhanh và tiêu dùng quá mức",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "휴대폰으로 간편하게 결제하는 서비스가 널리 쓰이고 있습니다. 간편결제가 소비 생활에 도움이 된다고 생각합니까, 아니면 과소비를 부추긴다고 생각합니까? 입장을 정하고 이유를 들어 말하십시오.",
+      "prompt_vi": "Dịch vụ thanh toán nhanh bằng điện thoại đang được dùng rộng rãi. Bạn nghĩ nó giúp ích cho việc chi tiêu hay khiến người ta tiêu quá mức? Hãy chọn lập trường và nêu lý do.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "**Chọn một phe ngay.** Ghi 2 lý do (mua bốc đồng, bảo mật) + 1 lần bạn mua vội + 1 phản biện",
+          "phrases_ko": "입장 / 충동구매 / 보안 / 경험 / 반론(시간 절약)"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** trong 1–2 câu đầu",
+          "phrases_ko": "저는 간편결제가 … 부추긴다고 생각해요."
+        },
+        {
+          "when_vi": "10–35 giây",
+          "do_vi": "Lý do 1 + ví dụ: tưởng sẽ dùng nên mua ngay",
+          "phrases_ko": "첫째, … 저도 … -겠거니 하고 바로 결제했는데 …"
+        },
+        {
+          "when_vi": "35–55 giây",
+          "do_vi": "Lý do 2: rủi ro bảo mật, nói «một khi … thì rắc rối»",
+          "phrases_ko": "둘째, … -는 날에는 큰 피해를 입을 수 있어요."
+        },
+        {
+          "when_vi": "55–72 giây",
+          "do_vi": "**Nhượng bộ + phản bác**",
+          "phrases_ko": "물론 … 사실이에요. 하지만 … 일이니만큼 …"
+        },
+        {
+          "when_vi": "72–80 giây",
+          "do_vi": "Kết luận + một đề xuất nhỏ",
+          "phrases_ko": "그래서 저는 … -더라도 … 것이 좋다고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Phe «có ích» cũng làm được (tiết kiệm thời gian, ghi lại chi tiêu); quan trọng là **chọn rõ** và có ví dụ của bạn.",
+        "Không đưa số liệu mua sắm bạn không chắc; nói `요즘`, `많은 사람들이` là đủ.",
+        "Các mẫu `-는 날에는`, `-(으)니만큼`, `-겠거니 하고` khá trang trọng; mỗi mẫu dùng một lần ở đúng chỗ, phần còn lại nói đơn giản."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: -겠거니 하고 · -는 날에는 · -(으)니만큼 · -기는 하지만 · -더라도 · 덕분에.",
+        "Dùng thêm được: -(으)면 몰라도 · -건만 · -(으)련만."
+      ],
+      "model_answer_ko": "저는 간편결제가 편리하기는 하지만 과소비를 부추긴다고 생각해요. 돈을 쓴다는 느낌이 약해지기 때문이에요. 첫째, 버튼 한 번으로 결제가 끝나니까 충동구매가 쉬워져요. 저도 할인 문자를 받고 언젠가 쓰겠거니 하고 바로 결제했는데, 한 번도 안 쓴 물건이 꽤 많아요. 둘째, 보안 문제도 있어요. 휴대폰을 잃어버리거나 개인정보가 도용되는 날에는 큰 피해를 입을 수 있어요. 물론 간편결제 덕분에 시간이 절약되는 것은 사실이에요. 하지만 돈과 개인정보가 걸린 일이니만큼 편리함보다 신중함이 더 중요해요. 그래서 저는 간편결제를 쓰더라도 한 달 사용 한도를 정해 두는 것이 좋다고 생각해요.",
+      "syllables_vi": "≈ 248 âm tiết",
+      "common_errors_vi": [
+        "Dùng `-는 날에는` với kết quả tốt (✗ `할인받는 날에는 기분이 좋아요`): vế sau phải là rắc rối, thiệt hại.",
+        "Dùng `-(으)니만큼` cho lý do bình thường: mẫu này nói «vì việc này quan trọng như vậy nên phải tương xứng».",
+        "Nhầm `도용` (dùng trộm danh tính) với `해킹` (xâm nhập hệ thống) hay `피싱` (lừa lấy thông tin).",
+        "Kể chuyện mua sắm quá dài, không còn thời gian cho lý do thứ hai."
+      ],
+      "pronunciation_vi": [
+        "결제 [결쩨]",
+        "쓰겠거니 [쓰겓꺼니]",
+        "잃어버리거나 [이러버리거나]",
+        "덕분에 [덕뿌네]",
+        "일이니만큼 [이리니만큼]"
+      ],
+      "uses": [
+        {
+          "form": "쓰겠거니 하고",
+          "card": "V/A + -(으)니만큼 · V + -(으)ㄴ/는답시고 · V/A + -겠거니 하고"
+        },
+        {
+          "form": "일이니만큼",
+          "card": "V/A + -(으)니만큼 · V + -(으)ㄴ/는답시고 · V/A + -겠거니 하고"
+        },
+        {
+          "form": "도용되는 날에는",
+          "card": "V + -(으)면 몰라도 · V + -는 날에는 · V + -노라면"
+        },
+        {
+          "form": "간편결제",
+          "card": "간편결제"
+        },
+        {
+          "form": "과소비",
+          "card": "과소비"
+        },
+        {
+          "form": "결제",
+          "card": "결제"
+        },
+        {
+          "form": "보안",
+          "card": "보안"
+        },
+        {
+          "form": "개인정보",
+          "card": "개인정보"
+        },
+        {
+          "form": "도용",
+          "card": "도용"
+        }
+      ]
+    },
+    {
+      "id": "SP68",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Tâm lý và cơ thể (S6): Video ngắn và khả năng tập trung",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "짧은 영상을 자주 보는 습관이 청소년의 집중력에 나쁜 영향을 준다는 의견이 있습니다. 이 의견에 동의합니까, 동의하지 않습니까? 입장을 정하고 이유를 들어 말하십시오.",
+      "prompt_vi": "Có ý kiến cho rằng thói quen xem video ngắn thường xuyên ảnh hưởng xấu đến khả năng tập trung của thanh thiếu niên. Bạn đồng ý hay không? Hãy chọn lập trường và nêu lý do.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "**Chọn một phe ngay.** Ghi 2 lý do + 1 lần bạn xem quá giờ + 1 phản biện",
+          "phrases_ko": "입장 / 멈추기 어려움 / 몰입 / 경험 / 반론(호기심)"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** trong 1–2 câu đầu",
+          "phrases_ko": "저는 … 의견에 동의해요."
+        },
+        {
+          "when_vi": "10–35 giây",
+          "do_vi": "Lý do 1: video nối nhau, khó dừng",
+          "phrases_ko": "첫째, … -기가 무섭게 … · 계속 … -아/어 대게 돼요."
+        },
+        {
+          "when_vi": "35–55 giây",
+          "do_vi": "Lý do 2 + ví dụ: một lần suýt mất cả buổi học",
+          "phrases_ko": "둘째, … 저도 … -기에 망정이지 … 못 할 뻔했어요."
+        },
+        {
+          "when_vi": "55–72 giây",
+          "do_vi": "**Nhượng bộ + phản bác**",
+          "phrases_ko": "물론 … 수도 있어요. 하지만 … 약한 축에 들어서 …"
+        },
+        {
+          "when_vi": "72–80 giây",
+          "do_vi": "Kết luận + một đề xuất",
+          "phrases_ko": "그래서 저는 … 필요하다고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Nói về não và hoóc-môn thì **nói cho đúng**: `도파민` gắn với việc *mong chờ, muốn làm tiếp*, không phải «chất gây khoái cảm».",
+        "Ba mẫu `-기가 무섭게`, `-아/어 대다`, `-기에 망정이지` hợp với lời kể; đặt chúng vào phần lý do và ví dụ, không đặt ở lập trường.",
+        "Không cần số liệu; một trải nghiệm thật trong mùa thi là đủ."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: -기가 무섭게 · -아/어 대다 · -기에 망정이지 · -(으)ㄴ/는 축에 들다 · -(으)ㄹ 뻔하다 · -아/어 버리다.",
+        "Dùng thêm được: -는 족족 · -(으)려고 들다 · 에 버금가다."
+      ],
+      "model_answer_ko": "저는 짧은 영상을 자주 보는 습관이 청소년의 집중력에 나쁜 영향을 준다는 의견에 동의해요. 스스로 멈추기가 정말 어렵기 때문이에요. 첫째, 영상 하나가 끝나기가 무섭게 다음 영상이 나와요. 다음 영상을 기대하게 만드는 도파민의 작용 때문에 계속 화면을 넘겨 대게 돼요. 둘째, 긴 글이나 수업에 몰입하는 힘이 약해질 수 있어요. 저도 시험 기간에 잠깐 쉬려고 영상을 보다가 한 시간이 지나 버린 적이 있어요. 친구가 전화해 줬기에 망정이지 그날 공부를 하나도 못 할 뻔했어요. 물론 짧은 영상으로 새로운 정보를 얻고 호기심을 키울 수도 있어요. 하지만 청소년기는 스스로 조절하는 힘이 아직 약한 축에 들어서 어른보다 영향을 더 크게 받아요. 그래서 저는 청소년이 하루 사용 시간을 정해 두는 습관이 필요하다고 생각해요.",
+      "syllables_vi": "≈ 298 âm tiết",
+      "common_errors_vi": [
+        "Dùng `-아/어 대다` với tính từ (✗ `바빠 대다`): mẫu này chỉ đi với động từ lặp đi lặp lại gây phiền.",
+        "Sau `-기에 망정이지` quên vế «suýt nữa thì …» (`… 뻔했어요`, `… 큰일 날 뻔했어요`).",
+        "Nói `도파민이 행복을 만들어요`: nói vậy là sai về khoa học; nói `기대하게 만들어요`.",
+        "Chỉ kể tác hại mà không nhắc mặt tích cực ở phần nhượng bộ."
+      ],
+      "pronunciation_vi": [
+        "끝나기가 [끈나기가]",
+        "무섭게 [무섭께]",
+        "몰입하는 [모리파는]",
+        "줬기에 [줟끼에]",
+        "못 할 [모탈]",
+        "약한 [야칸]"
+      ],
+      "uses": [
+        {
+          "form": "끝나기가 무섭게",
+          "card": "V + -기에 망정이지 · V + -기가 무섭게 · V + -는 족족"
+        },
+        {
+          "form": "넘겨 대게",
+          "card": "V + -(으)려고 들다 · V + -고 들다 · V + -아/어 대다"
+        },
+        {
+          "form": "전화해 줬기에 망정이지",
+          "card": "V + -기에 망정이지 · V + -기가 무섭게 · V + -는 족족"
+        },
+        {
+          "form": "약한 축에 들어서",
+          "card": "V/A + -(으)ㄴ/는 축에 들다 · N + 에 육박하다 · N + 에 버금가다"
+        },
+        {
+          "form": "도파민",
+          "card": "도파민"
+        },
+        {
+          "form": "몰입",
+          "card": "몰입"
+        },
+        {
+          "form": "호기심",
+          "card": "호기심"
+        },
+        {
+          "form": "청소년기",
+          "card": "청소년기"
+        }
+      ]
+    },
+    {
+      "id": "SP69",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Giao thông và an toàn (S6): Siết quy định với xe trượt điện",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "공유 전동 킥보드를 타는 사람이 늘면서 안전 문제에 대한 걱정도 커지고 있습니다. 전동 킥보드 이용 규칙을 지금보다 더 엄격하게 해야 한다고 생각합니까? 입장을 정하고 이유를 들어 말하십시오.",
+      "prompt_vi": "Người đi xe trượt điện dùng chung ngày càng nhiều, nỗi lo về an toàn cũng tăng. Bạn có nghĩ nên siết quy định sử dụng xe trượt điện chặt hơn hiện nay không? Hãy chọn lập trường và nêu lý do.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "**Chọn một phe ngay.** Ghi 2 lý do + 1 lần bạn suýt gặp nạn + 1 phản biện",
+          "phrases_ko": "입장 / 보호 장비 / 보행자 / 경험 / 반론(불편)"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** trong 1–2 câu đầu",
+          "phrases_ko": "저는 … 엄격하게 해야 한다고 생각해요."
+        },
+        {
+          "when_vi": "10–35 giây",
+          "do_vi": "Lý do 1 + điều bạn thấy quanh nhà",
+          "phrases_ko": "첫째, … 우리 동네만 해도 …"
+        },
+        {
+          "when_vi": "35–55 giây",
+          "do_vi": "Lý do 2 + ví dụ: đang đi thì có việc chen vào; mãi sau đó mới hiểu",
+          "phrases_ko": "둘째, … -는 도중에 … 뻔한 적이 있어요. … -고 나서야 비로소 …"
+        },
+        {
+          "when_vi": "55–72 giây",
+          "do_vi": "**Nhượng bộ + phản bác**",
+          "phrases_ko": "물론 … 의견도 있어요. 하지만 … 와중에도 …"
+        },
+        {
+          "when_vi": "72–80 giây",
+          "do_vi": "Kết luận + đề xuất cụ thể",
+          "phrases_ko": "그래서 저는 … 해야 한다고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Phe «không cần siết thêm» cũng được (giáo dục người dùng, làm làn đường riêng); điều quan trọng là **chọn rõ** ngay đầu.",
+        "Không nêu số vụ tai nạn hay tên luật; `자주`, `점점`, `요즘` là đủ.",
+        "`-는 도중에` cho việc chen vào giữa chừng, `-고 나서야 비로소` cho «mãi đến khi … mới hiểu»: hai mẫu này kể trải nghiệm rất gọn."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: N만 해도 · -는 도중에 · -고 나서야 비로소 · -는 와중에도 · -(으)ㄹ 뻔하다 · N뿐만 아니라.",
+        "Dùng thêm được: N치고 (`운전자치고 …`) · -고서야 · N 도중에."
+      ],
+      "model_answer_ko": "저는 전동 킥보드 이용 규칙을 지금보다 더 엄격하게 해야 한다고 생각해요. 편리한 것은 맞지만 지금은 안전보다 편리함이 앞서 있기 때문이에요. 첫째, 헬멧 같은 보호 장비 없이 빠른 속도로 달리는 사람이 많아요. 우리 동네만 해도 하루에 몇 번씩 인도에서 달리는 킥보드를 볼 수 있어요. 둘째, 운전자뿐만 아니라 보행자도 위험해요. 저도 길을 건너는 도중에 갑자기 나타난 킥보드 때문에 넘어질 뻔한 적이 있어요. 그 일을 겪고 나서야 비로소 규칙이 왜 필요한지 알게 됐어요. 물론 규칙이 너무 엄격하면 이용자가 줄어서 불편하다는 의견도 있어요. 하지만 아무리 바쁜 와중에도 안전은 지켜야 해요. 그래서 저는 면허 확인과 헬멧 착용을 반드시 지키게 해야 한다고 생각해요.",
+      "syllables_vi": "≈ 278 âm tiết",
+      "common_errors_vi": [
+        "Chia thì trước `도중에`: ✗ `건넜던 도중에` → ✓ `건너는 도중에`.",
+        "Nhầm `-고서` (xong rồi thì) với `-고서야` / `-고 나서야` (mãi đến khi … mới).",
+        "Dùng `와중에` cho cảnh bình thường, yên ả: mẫu này cần hoàn cảnh bận rộn, rối ren.",
+        "Trộn `-요` và `-ㅂ니다`, hoặc kể ví dụ mà không nối về lập trường."
+      ],
+      "pronunciation_vi": [
+        "속도 [속또]",
+        "몇 번씩 [멷뻔씩]",
+        "넘어질 [너머질]",
+        "겪고 [격꼬]",
+        "엄격하게 [엄겨카게]",
+        "착용 [차굥]"
+      ],
+      "uses": [
+        {
+          "form": "동네만 해도",
+          "card": "N + 치고(는) · N + 만 해도"
+        },
+        {
+          "form": "건너는 도중에",
+          "card": "V + -는 도중에 · N + 도중에 · V/A + -는 와중에(도)"
+        },
+        {
+          "form": "바쁜 와중에도",
+          "card": "V + -는 도중에 · N + 도중에 · V/A + -는 와중에(도)"
+        },
+        {
+          "form": "겪고 나서야 비로소",
+          "card": "V + -고서야 · V + -고 나서야 · 비로소"
+        },
+        {
+          "form": "장비",
+          "card": "장비"
+        },
+        {
+          "form": "속도",
+          "card": "속도"
+        },
+        {
+          "form": "운전자",
+          "card": "운전자"
+        },
+        {
+          "form": "면허",
+          "card": "면허"
+        }
+      ]
+    },
+    {
+      "id": "SP70",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Lập luận cấp cao (S6): Dùng từ mới (신조어)",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "요즘 새로 만들어진 말, 즉 신조어를 일상에서 많이 사용하고 있습니다. 신조어 사용이 언어생활에 도움이 된다고 생각합니까, 아니면 문제가 된다고 생각합니까? 입장을 정하고 이유를 들어 말하십시오.",
+      "prompt_vi": "Ngày nay người ta dùng nhiều từ mới (신조어) trong đời sống. Bạn nghĩ việc dùng từ mới giúp ích cho đời sống ngôn ngữ hay gây ra vấn đề? Hãy chọn lập trường và nêu lý do.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "**Chọn một phe ngay.** Ghi 2 lý do + 1 lần bạn dùng từ mới với bạn Hàn + 1 phản biện",
+          "phrases_ko": "입장 / 시대의 거울 / 소통 / 경험 / 반론(소외)"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** + lý do tổng trong 1–2 câu đầu, có mẫu «vừa … đồng thời»",
+          "phrases_ko": "저는 … 생각해요. … -는 동시에 … 때문이에요."
+        },
+        {
+          "when_vi": "10–35 giây",
+          "do_vi": "Lý do 1: từ mới phản chiếu thời đại; mở rộng phạm vi người dùng",
+          "phrases_ko": "첫째, … 거울이자 … · … 에 국한되지 않고 …"
+        },
+        {
+          "when_vi": "35–55 giây",
+          "do_vi": "Lý do 2 + ví dụ của bạn",
+          "phrases_ko": "둘째, … 에 관계없이 … 저도 …"
+        },
+        {
+          "when_vi": "55–72 giây",
+          "do_vi": "**Nhượng bộ + sửa cách nhìn**",
+          "phrases_ko": "물론 … 하지만 그건 … -(이)라기보다는 …"
+        },
+        {
+          "when_vi": "72–80 giây",
+          "do_vi": "Kết luận có điều kiện: dùng đúng chỗ",
+          "phrases_ko": "그래서 저는 … -(으)면서도 … 필요하다고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Bài nói này là **dàn ý của bài 54** nói thành lời: lập trường – hai lý do – nhượng bộ – kết luận. Viết xong dàn ý thì nói được ngay.",
+        "Ba mẫu `-는 동시에`, `N이자 N`, `에 국한되지 않고` là những mẫu nâng câu lên cấp 5–6; mỗi mẫu một lần là đủ.",
+        "Khi nói vẫn giữ **해요체**; khi viết lại thành bài 54 thì đổi sang 한다체 và bỏ ví dụ «저도 …»."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: -는 동시에 · N이자 N · 에 국한되지 않고 · 에 관계없이 · -(이)라기보다는 · -(으)면서도.",
+        "Dùng thêm được: 을/를 막론하고 (`세대를 막론하고`) · 을/를 차지하다 · -다고 볼 수 있다."
+      ],
+      "model_answer_ko": "저는 신조어를 쓰는 것이 언어생활에 도움이 된다고 생각해요. 신조어는 새로운 현상을 짧게 표현하는 동시에 사회의 변화를 보여 주기 때문이에요. 첫째, 신조어는 그 시대를 보여 주는 거울이자 소통의 도구예요. 요즘 신조어는 청소년에 국한되지 않고 직장인이나 부모 세대도 많이 써요. 둘째, 같은 말을 쓰면 나이에 관계없이 쉽게 가까워질 수 있어요. 저도 한국 친구에게 배운 신조어를 써 봤더니 친구들이 웃으면서 금방 친해졌어요. 물론 신조어를 모르는 사람은 대화에서 소외될 수 있어요. 하지만 그건 신조어를 쓰지 말아야 할 이유라기보다는 상황에 맞게 써야 할 이유예요. 그래서 저는 공적인 자리에서는 표준어를 쓰면서도 친구 사이에서는 신조어를 즐기는 현명한 태도가 필요하다고 생각해요.",
+      "syllables_vi": "≈ 290 âm tiết",
+      "common_errors_vi": [
+        "✗ `청소년에만 국한되지 않고` dùng thừa `만`: `국한되다` đã có nghĩa «chỉ giới hạn ở».",
+        "`N이자 N` nối hai danh từ cùng chỉ một đối tượng (`거울이자 도구`); không dùng cho hai đối tượng khác nhau.",
+        "Bỏ trợ từ: ✗ `나이 관계없이` → ✓ `나이에 관계없이` (trong bài nói trang trọng nên giữ `에`).",
+        "Kết luận «đều tốt cả» mà không có điều kiện cụ thể khiến lập trường nhạt."
+      ],
+      "pronunciation_vi": [
+        "국한되지 [구칸되지]",
+        "관계없이 [관계업씨]",
+        "같은 [가튼]",
+        "친해졌어요 [친해저써요]",
+        "공적인 [공쩌긴]",
+        "표준어 [표주너]"
+      ],
+      "uses": [
+        {
+          "form": "표현하는 동시에",
+          "card": "V/A + -(으)ㄴ/는 동시에 · V/A + -(으)면서도 · N + 이자 N"
+        },
+        {
+          "form": "거울이자",
+          "card": "V/A + -(으)ㄴ/는 동시에 · V/A + -(으)면서도 · N + 이자 N"
+        },
+        {
+          "form": "쓰면서도",
+          "card": "V/A + -(으)ㄴ/는 동시에 · V/A + -(으)면서도 · N + 이자 N"
+        },
+        {
+          "form": "청소년에 국한되지 않고",
+          "card": "N + 을/를 막론하고 · N + 에 관계없이 · N + 에 국한되지 않고"
+        },
+        {
+          "form": "관계없이",
+          "card": "관계없이"
+        },
+        {
+          "form": "현명한",
+          "card": "현명하다"
+        },
+        {
+          "form": "신조어",
+          "card": "신조어"
+        },
+        {
+          "form": "이유라기보다는",
+          "card": "V/A + -다고 볼 수 있다 · V/A + -다고도 할 수 있다 · V/A + -(ㄴ/는)다기보다(는)"
+        },
+        {
+          "form": "소외될",
+          "card": "소외"
+        }
+      ]
+    },
+    {
+      "id": "SP71",
+      "skill": "speaking",
+      "type": "speak",
+      "number": "S6",
+      "title_vi": "Nói · Ôn tập chủ đề (S6): Trí tuệ nhân tạo mở rộng trong đời sống",
+      "max_points": 15,
+      "prep_sec": 70,
+      "answer_sec": 80,
+      "instruction_ko": "※ [6] 다음 주제에 대해 자신의 생각을 말하십시오.",
+      "prompt_ko": "최근 일상생활과 일터에서 인공지능 기술의 활용이 빠르게 확대되고 있습니다. 이러한 변화가 우리 삶에 도움을 더 많이 준다고 생각합니까, 아니면 문제를 더 많이 가져온다고 생각합니까? 입장을 정하고 이유를 들어 말하십시오.",
+      "prompt_vi": "Gần đây trí tuệ nhân tạo được dùng ngày càng rộng trong đời sống và nơi làm việc. Bạn nghĩ thay đổi này mang lại nhiều lợi ích hơn hay nhiều vấn đề hơn? Hãy chọn lập trường và nêu lý do.",
+      "plan": [
+        {
+          "when_vi": "Chuẩn bị (70 giây)",
+          "do_vi": "**Chọn một phe ngay.** Ghi 2 lý do + 1 lần bạn dùng AI + 1 phản biện (việc làm, thông tin cá nhân)",
+          "phrases_ko": "입장 / 시간 절약 / 판단 보조 / 경험 / 반론"
+        },
+        {
+          "when_vi": "0–10 giây",
+          "do_vi": "**Lập trường** + lý do tổng, có mẫu «vừa … đồng thời»",
+          "phrases_ko": "저는 … 생각해요. … -는 동시에 … 때문이에요."
+        },
+        {
+          "when_vi": "10–35 giây",
+          "do_vi": "Lý do 1 (mọi lĩnh vực) + ví dụ của bạn",
+          "phrases_ko": "첫째, … 을/를 막론하고 … 저도 …"
+        },
+        {
+          "when_vi": "35–55 giây",
+          "do_vi": "Lý do 2: hỗ trợ phán đoán ở lĩnh vực rủi ro cao",
+          "phrases_ko": "둘째, … 처럼 … 분야에서 …"
+        },
+        {
+          "when_vi": "55–72 giây",
+          "do_vi": "**Nhượng bộ + phản bác**: lo lắng là vô ích, vấn đề là cách dùng",
+          "phrases_ko": "물론 … 걱정도 있어요. 하지만 … -(으)ㄴ들 … · … -(이)라기보다는 … -(이)라고 볼 수 있어요."
+        },
+        {
+          "when_vi": "72–80 giây",
+          "do_vi": "Kết luận: điều mấu chốt",
+          "phrases_ko": "그래서 저는 … 것이 관건이라고 생각해요."
+        }
+      ],
+      "tips_vi": [
+        "Đây là chủ đề của bài Viết 54 trong đề thi thử: nói to dàn ý trước, rồi viết lại bằng 한다체.",
+        "Bài ôn dùng lại mẫu của các bài trước: `-는 동시에`, `을/를 막론하고` (bài 20), `-(으)ㄴ들`, `-(이)라기보다는`, `-다고 볼 수 있다` (bài 13).",
+        "Phe «nhiều vấn đề hơn» cũng được (việc làm, quyền riêng tư); chọn rõ và cho ví dụ của bạn."
+      ],
+      "patterns_vi": [
+        "Có trong bài mẫu: -는 동시에 · 을/를 막론하고 · -(으)ㄴ들 · -(이)라기보다는 · -다고 볼 수 있다 · -던.",
+        "Dùng thêm được: 에 국한되지 않고 · -(으)ㄹ뿐더러 · -(으)니만큼 · -는 날에는."
+      ],
+      "model_answer_ko": "저는 인공지능 기술의 확대가 우리 삶에 문제보다 도움을 더 많이 준다고 생각해요. 반복적인 일을 줄여 주는 동시에 사람이 더 중요한 일에 집중하게 해 주기 때문이에요. 첫째, 인공지능은 분야를 막론하고 일하는 시간을 크게 줄여 줘요. 저도 한국어 보고서를 쓸 때 인공지능으로 맞춤법을 확인하는데, 예전에 한 시간 걸리던 일이 십 분이면 끝나요. 둘째, 의료나 교통처럼 작은 실수가 큰 사고로 이어지는 분야에서 사람의 판단을 도와줄 수 있어요. 물론 일자리가 줄거나 개인정보가 새어 나갈 수 있다는 걱정도 있어요. 하지만 걱정한들 기술의 흐름을 멈출 수는 없어요. 문제는 기술 자체라기보다는 그 기술을 쓰는 방식이라고 볼 수 있어요. 그래서 저는 규칙을 잘 만들고 현명하게 활용하는 것이 관건이라고 생각해요.",
+      "syllables_vi": "≈ 295 âm tiết",
+      "common_errors_vi": [
+        "Vế sau của `-(으)ㄴ들` không phải ý «vô ích» (✗ `걱정한들 도움이 돼요`).",
+        "`을/를 막론하고` cần danh từ chỉ cả một phạm vi (`분야를 막론하고`, `나이를 막론하고`), không dùng với một đối tượng riêng lẻ.",
+        "Đưa số liệu về việc làm hay thị trường AI mà bạn không chắc.",
+        "Chỉ liệt kê lợi ích, bỏ phần nhượng bộ; S6 cần thấy bạn biết phía bên kia nghĩ gì."
+      ],
+      "pronunciation_vi": [
+        "막론하고 [망노나고]",
+        "맞춤법 [맏춤뻡]",
+        "십 분이면 [십뿌니면]",
+        "일자리 [일짜리]",
+        "걱정한들 [걱쩡한들]",
+        "관건 [관껀]"
+      ],
+      "uses": [
+        {
+          "form": "줄여 주는 동시에",
+          "card": "V/A + -(으)ㄴ/는 동시에 · V/A + -(으)면서도 · N + 이자 N"
+        },
+        {
+          "form": "분야를 막론하고",
+          "card": "N + 을/를 막론하고 · N + 에 관계없이 · N + 에 국한되지 않고"
+        },
+        {
+          "form": "걱정한들",
+          "card": "V/A + -(으)ㄴ들 · V + -아/어 봤자 · N + 은/는 고사하고"
+        },
+        {
+          "form": "자체라기보다는",
+          "card": "V/A + -다고 볼 수 있다 · V/A + -다고도 할 수 있다 · V/A + -(ㄴ/는)다기보다(는)"
+        },
+        {
+          "form": "방식이라고 볼 수 있어요",
+          "card": "V/A + -다고 볼 수 있다 · V/A + -다고도 할 수 있다 · V/A + -(ㄴ/는)다기보다(는)"
+        },
+        {
+          "form": "관건",
+          "card": "관건"
+        },
+        {
+          "form": "현명하게",
+          "card": "현명하다"
+        },
+        {
+          "form": "개인정보",
+          "card": "개인정보"
+        },
+        {
+          "form": "일자리",
+          "card": "일자리"
+        }
+      ]
+    }
+  ]
+}

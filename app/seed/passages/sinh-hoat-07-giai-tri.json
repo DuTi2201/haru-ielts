@@ -1,0 +1,274 @@
+{
+  "lesson": "sinh-hoat-07-giai-tri",
+  "items": [
+    {
+      "id": "sinh-hoat-07-d1",
+      "kind": "dialogue",
+      "title_ko": "주말 계획",
+      "title_vi": "Kế hoạch cuối tuần",
+      "scene_vi": "Hai người bạn là 소라 và 진우 bàn xem cuối tuần này sẽ đi đâu.",
+      "speakers": {
+        "F": "소라",
+        "M": "진우"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "진우 씨, 이번 주말에 뭐 할 거예요?",
+          "vi": "Jinwoo, cuối tuần này anh định làm gì?"
+        },
+        {
+          "who": "M",
+          "ko": "영화를 보러 극장에 갈 거예요. 소라 씨도 같이 갈래요?",
+          "vi": "Tôi định đi rạp xem phim. Sora cũng đi cùng không?"
+        },
+        {
+          "who": "F",
+          "ko": "저는 뮤지컬을 본 적이 없는데 이번에는 뮤지컬을 보면 어때요?",
+          "vi": "Tôi chưa từng xem nhạc kịch, lần này mình xem nhạc kịch thì sao?"
+        },
+        {
+          "who": "M",
+          "ko": "좋아요. 저도 본 적이 없어요. 제가 토요일 저녁 표를 예매할게요.",
+          "vi": "Hay đấy. Tôi cũng chưa từng xem. Để tôi đặt vé tối thứ Bảy."
+        },
+        {
+          "who": "F",
+          "ko": "고마워요. 그런데 토요일 낮에는 친구가 놀러 와요.",
+          "vi": "Cảm ơn anh. Nhưng ban ngày thứ Bảy có bạn đến chơi."
+        },
+        {
+          "who": "M",
+          "ko": "괜찮아요. 공연은 일곱 시에 시작해요. 그 전에 같이 저녁을 먹어요.",
+          "vi": "Không sao. Buổi diễn bắt đầu lúc bảy giờ. Trước đó mình ăn tối cùng nhau."
+        },
+        {
+          "who": "F",
+          "ko": "네, 좋아요. 지난달에 비해 요즘 많이 바쁜데 주말에는 쉬고 싶어요.",
+          "vi": "Vâng, được. So với tháng trước dạo này tôi bận hơn nhiều, nên cuối tuần tôi muốn nghỉ ngơi."
+        },
+        {
+          "who": "M",
+          "ko": "맞아요. 주말에는 즐겁게 놀아요!",
+          "vi": "Đúng vậy. Cuối tuần mình hãy vui vẻ chơi nhé!"
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -(으)ㄴ 적이 있다/없다",
+          "regex": "본 적이 없는데|본 적이 없어요"
+        },
+        {
+          "pattern": "V + -(으)ㄹ게요 · -(으)ㄹ래요",
+          "regex": "예매할게요|갈래요"
+        },
+        {
+          "pattern": "V + -(으)러 가다/오다",
+          "regex": "보러|놀러"
+        },
+        {
+          "pattern": "V/A + -는데/은데/ㄴ데",
+          "regex": "없는데|바쁜데"
+        },
+        {
+          "pattern": "N + 에 비해 · V + -(으)ㄴ 결과",
+          "regex": "지난달에 비해"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "주말",
+          "seen": "주말에"
+        },
+        {
+          "word": "영화",
+          "seen": "영화를"
+        },
+        {
+          "word": "극장 / 영화관",
+          "seen": "극장에"
+        },
+        {
+          "word": "뮤지컬",
+          "seen": "뮤지컬"
+        },
+        {
+          "word": "예매하다",
+          "seen": "예매할게요"
+        },
+        {
+          "word": "공연",
+          "seen": "공연은"
+        },
+        {
+          "word": "쉬다",
+          "seen": "쉬고"
+        },
+        {
+          "word": "즐겁다",
+          "seen": "즐겁게"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "표",
+          "vi": "vé"
+        },
+        {
+          "ko": "괜찮다",
+          "vi": "không sao, ổn",
+          "seen": "괜찮아요"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Hai người định xem gì vào tối thứ Bảy?",
+          "options": [
+            "Phim ở rạp",
+            "Nhạc kịch",
+            "Hòa nhạc"
+          ],
+          "answer": 1,
+          "explain_vi": "진우 nói “제가 토요일 저녁 표를 예매할게요” sau khi 소라 đề nghị xem nhạc kịch (뮤지컬)."
+        },
+        {
+          "q_vi": "Trước buổi diễn hai người sẽ làm gì?",
+          "options": [
+            "Ăn tối cùng nhau",
+            "Đi dạo công viên",
+            "Đón bạn của Sora"
+          ],
+          "answer": 0,
+          "explain_vi": "진우 nói “그 전에 같이 저녁을 먹어요”: trước buổi diễn thì ăn tối cùng nhau."
+        }
+      ]
+    },
+    {
+      "id": "sinh-hoat-07-r1",
+      "kind": "reading",
+      "title_ko": "주말에 무엇을 할까요",
+      "title_vi": "Cuối tuần làm gì",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "한 회사가 직원 백 명에게 주말에 무엇을 하냐고 물었습니다.",
+          "vi": "Một công ty đã hỏi 100 nhân viên rằng cuối tuần họ làm gì."
+        },
+        {
+          "who": "N",
+          "ko": "조사한 결과 응답한 사람의 절반은 주말에 집에서 쉬었습니다.",
+          "vi": "Kết quả khảo sát cho thấy một nửa số người trả lời nghỉ ngơi ở nhà vào cuối tuần."
+        },
+        {
+          "who": "N",
+          "ko": "운동을 하는 사람은 작년 열 명에서 올해 열아홉 명으로 늘었습니다. 두 배 가까이 늘었습니다.",
+          "vi": "Số người chơi thể thao tăng từ 10 người năm ngoái lên 19 người năm nay, gần gấp đôi."
+        },
+        {
+          "who": "N",
+          "ko": "박물관에 간 사람은 스무 명에서 열 명으로 줄었습니다. 미술관에 간 사람도 줄었습니다.",
+          "vi": "Số người đến bảo tàng giảm từ 20 người xuống 10 người. Số người đến phòng tranh cũng giảm."
+        },
+        {
+          "who": "N",
+          "ko": "작년에 비해 공원에서 산책하는 사람이 늘었습니다.",
+          "vi": "So với năm ngoái, số người đi dạo ở công viên tăng lên."
+        },
+        {
+          "who": "N",
+          "ko": "저도 지난주에는 친구와 공원에 산책하러 갔습니다.",
+          "vi": "Tuần trước tôi cũng đã cùng bạn đến công viên đi dạo."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V/A + -(느)냐고 하다/묻다",
+          "regex": "하냐고 물었습니다"
+        },
+        {
+          "pattern": "N + 에 비해 · V + -(으)ㄴ 결과",
+          "regex": "조사한 결과|작년에 비해"
+        },
+        {
+          "pattern": "N에서 N(으)로 늘다/줄다 · 약 … 배 · 두 배 가까이 · 절반",
+          "regex": "열 명에서 올해 열아홉 명으로 늘었습니다|절반"
+        },
+        {
+          "pattern": "V + -(으)러 가다/오다",
+          "regex": "산책하러 갔습니다"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "주말",
+          "seen": "주말에"
+        },
+        {
+          "word": "운동",
+          "seen": "운동을"
+        },
+        {
+          "word": "응답",
+          "seen": "응답한"
+        },
+        {
+          "word": "박물관",
+          "seen": "박물관에"
+        },
+        {
+          "word": "미술관",
+          "seen": "미술관에"
+        },
+        {
+          "word": "공원",
+          "seen": "공원에서"
+        },
+        {
+          "word": "산책",
+          "seen": "산책하는"
+        },
+        {
+          "word": "쉬다",
+          "seen": "쉬었습니다"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "작년",
+          "vi": "năm ngoái"
+        },
+        {
+          "ko": "올해",
+          "vi": "năm nay"
+        },
+        {
+          "ko": "조사하다",
+          "vi": "khảo sát, điều tra",
+          "seen": "조사한"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Một nửa số người trả lời làm gì vào cuối tuần?",
+          "options": [
+            "Nghỉ ngơi ở nhà",
+            "Chơi thể thao",
+            "Đi bảo tàng"
+          ],
+          "answer": 0,
+          "explain_vi": "“응답한 사람의 절반은 주말에 집에서 쉬었습니다”: một nửa nghỉ ở nhà."
+        },
+        {
+          "q_vi": "Số người đến bảo tàng hoặc phòng tranh thay đổi thế nào?",
+          "options": [
+            "Tăng gấp đôi",
+            "Giảm một nửa",
+            "Không đổi"
+          ],
+          "answer": 1,
+          "explain_vi": "“스무 명에서 열 명으로 줄었습니다”: từ 20 người xuống 10 người, tức giảm một nửa."
+        }
+      ]
+    }
+  ]
+}

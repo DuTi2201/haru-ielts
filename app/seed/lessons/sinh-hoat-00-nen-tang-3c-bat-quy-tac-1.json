@@ -1,0 +1,523 @@
+{
+  "slug": "sinh-hoat-00-nen-tang-3c-bat-quy-tac-1",
+  "title": "Nền tảng 3.3 · Bất quy tắc ㄷ, ㄹ & 르",
+  "title_ko": "기초 3-3: ㄷ·ㄹ·르 불규칙",
+  "topic": "Nhập môn",
+  "track": "beginner",
+  "level": 1,
+  "summary": "Ba nhóm bất quy tắc đầu: 'ㄷ → ㄹ' (듣다 → 들어요), 'ㄹ' rơi (살다 → 삽니다), '르 → ㄹ라/ㄹ러' (모르다 → 몰라요); kèm những từ trông giống mà KHÔNG bất quy tắc.",
+  "vocab": [
+    {
+      "hangul": "듣다",
+      "pron": "[듣따]",
+      "pos": "V",
+      "meaning_vi": "Nghe",
+      "note_vi": "ㄷ bất quy tắc: 들어요, 들은, 들으면; nhưng 듣고, 듣습니다.",
+      "example_ko": "음악을 들어요.",
+      "example_vi": "Tôi nghe nhạc.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "걷다",
+      "pron": "[걷따]",
+      "pos": "V",
+      "meaning_vi": "Đi bộ",
+      "note_vi": "ㄷ bất quy tắc: 걸어요. (걷다 'gấp, thu' là từ khác, bình thường: 걷어요.)",
+      "example_ko": "공원에서 걸어요.",
+      "example_vi": "Tôi đi bộ trong công viên.",
+      "priority": "core"
+    },
+    {
+      "hangul": "묻다",
+      "pron": "[묻따]",
+      "pos": "V",
+      "meaning_vi": "Hỏi",
+      "note_vi": "ㄷ bất quy tắc: 물어요. (묻다 'chôn' bình thường: 묻어요.)",
+      "example_ko": "길을 물어요.",
+      "example_vi": "Tôi hỏi đường.",
+      "priority": "core"
+    },
+    {
+      "hangul": "닫다",
+      "pron": "[닫따]",
+      "pos": "V",
+      "meaning_vi": "Đóng",
+      "note_vi": "Bình thường: 닫아요 (không đổi ㄷ).",
+      "example_ko": "문을 닫아요.",
+      "example_vi": "Tôi đóng cửa.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "받다",
+      "pron": "[받따]",
+      "pos": "V",
+      "meaning_vi": "Nhận",
+      "note_vi": "Bình thường: 받아요.",
+      "example_ko": "선물을 받아요.",
+      "example_vi": "Tôi nhận quà.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "놀다",
+      "pos": "V",
+      "meaning_vi": "Chơi",
+      "note_vi": "ㄹ 탈락: 놉니다, 노세요, 노는; 놀아요.",
+      "example_ko": "주말에 공원에서 놀아요.",
+      "example_vi": "Cuối tuần tôi chơi trong công viên.",
+      "priority": "core"
+    },
+    {
+      "hangul": "모르다",
+      "pos": "V",
+      "meaning_vi": "Không biết",
+      "note_vi": "르 bất quy tắc: 몰라요; nhưng 모르고, 모르는.",
+      "example_ko": "저는 그 사람을 몰라요.",
+      "example_vi": "Tôi không biết người đó.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "부르다",
+      "pos": "V",
+      "meaning_vi": "Gọi, hát",
+      "note_vi": "르 bất quy tắc: 불러요.",
+      "example_ko": "노래를 불러요.",
+      "example_vi": "Tôi hát.",
+      "priority": "core"
+    },
+    {
+      "hangul": "다르다",
+      "pos": "A",
+      "meaning_vi": "Khác",
+      "note_vi": "르 bất quy tắc: 달라요.",
+      "example_ko": "두 사람은 성격이 달라요.",
+      "example_vi": "Hai người khác nhau về tính cách.",
+      "priority": "core"
+    },
+    {
+      "hangul": "빠르다",
+      "pos": "A",
+      "meaning_vi": "Nhanh",
+      "note_vi": "르 bất quy tắc: 빨라요.",
+      "example_ko": "이 차는 정말 빨라요.",
+      "example_vi": "Chiếc xe này rất nhanh.",
+      "priority": "core"
+    },
+    {
+      "hangul": "고르다",
+      "pos": "V",
+      "meaning_vi": "Chọn",
+      "note_vi": "르 bất quy tắc: 골라요, 골랐어요.",
+      "example_ko": "메뉴를 골랐어요.",
+      "example_vi": "Tôi đã chọn món.",
+      "priority": "core"
+    },
+    {
+      "hangul": "노래",
+      "pos": "N",
+      "meaning_vi": "Bài hát",
+      "example_ko": "한국 노래를 불러요.",
+      "example_vi": "Tôi hát bài hát Hàn Quốc.",
+      "exam": "kiip-1",
+      "priority": "core"
+    },
+    {
+      "hangul": "음악",
+      "pron": "[으막]",
+      "pos": "N",
+      "meaning_vi": "Âm nhạc",
+      "example_ko": "매일 음악을 들어요.",
+      "example_vi": "Ngày nào tôi cũng nghe nhạc.",
+      "exam": "kiip-1",
+      "priority": "core",
+      "hanja": "音樂",
+      "sino_vietnamese": "âm nhạc",
+      "enrich": "auto"
+    }
+  ],
+  "notes": [
+    {
+      "title": "Sau bài này bạn làm được gì",
+      "kind": "goal",
+      "body": "• Chia đúng `듣다`, `걷다`, `묻다`, `살다`, `알다`, `만들다`, `모르다`, `부르다`.\n• Nhận ra từ không bất quy tắc dễ nhầm: `닫다`, `받다`."
+    },
+    {
+      "title": "Bảng bất quy tắc: nhìn nhanh",
+      "kind": "language",
+      "body": "• **ㅡ 탈락:** 쓰다 → `써요` (đã học ở Nền tảng 2).\n• **ㄹ 탈락:** 살다 → `삽니다` · `사세요` · `사는` · `사니까` (nhưng `살아요`, `살고`, `살면`).\n• **ㄷ → ㄹ:** 듣다 → `들어요` · `들은` · `들으면` (nhưng `듣고`).\n• **ㅂ → 우:** 덥다 → `더워요` · `더운` · `더우면` (nhưng `덥고`); `돕다` → `도와요`.\n• **ㅅ bỏ:** 낫다 → `나아요` · `나은` (nhưng `낫고`).\n• **르 → ㄹ라/ㄹ러:** 모르다 → `몰라요` (nhưng `모르고`, `모르는`).\n• **ㅎ bỏ:** 파랗다 → `파래요` · `파란` (nhưng `파랗고`); 그렇다 → `그래요` · `그런`.\n• **Quy tắc chung:** biến đổi xảy ra khi đuôi bắt đầu bằng NGUYÊN ÂM (kể cả `-(으)ㄴ`, `-(으)면`); trước phụ âm (`-고`, `-지만`, `-습니다`, `-지 않다`) thì giữ gốc nguyên."
+    }
+  ],
+  "coach": {
+    "focus_vi": [
+      "Học theo nhóm, mỗi nhóm thuộc một động từ mẫu: `듣다`, `살다`, `모르다`."
+    ],
+    "watch_out_vi": [
+      "Không phải gốc nào có `ㄷ` cuối cũng bất quy tắc: `듣다 → 들어요` nhưng `받다 → 받아요`, `닫다 → 닫아요`.",
+      "Biến đổi chỉ xảy ra trước nguyên âm; trước `-고`, `-지만`, `-습니다` thì giữ gốc (`듣고`, `모르고`)."
+    ],
+    "notebook_vi": [
+      "Bảng 3 nhóm × 1 động từ mẫu: dạng `-아/어요` và quá khứ."
+    ],
+    "self_check": [
+      {
+        "prompt_vi": "Chia `듣다`, `살다`, `모르다` sang `-아/어요` và quá khứ.",
+        "answer": "들어요/들었어요 · 살아요/살았어요 · 몰라요/몰랐어요"
+      }
+    ]
+  },
+  "grammar": [
+    {
+      "pattern": "ㄷ bất quy tắc (듣다 · 걷다 · 묻다)",
+      "meaning_vi": "Gốc kết thúc ㄷ đổi thành ㄹ trước nguyên âm: 듣다 → 들어요",
+      "usage_context_vi": "**Cấu tạo:** Một số động từ gốc `ㄷ` **đổi** `ㄷ → ㄹ` khi đuôi bắt đầu bằng **nguyên âm** (kể cả `-(으)`), và giữ `ㄷ` khi đuôi bắt đầu bằng **phụ âm**: `듣다` → `들어요`, nhưng `듣고`.\n| Đuôi bắt đầu bằng | Xử lý `ㄷ` | Ví dụ với `듣다` |\n| **NGUYÊN ÂM** — `-아/어`, `-았/었-`, `-(으)ㄴ`, `-(으)면`, `-(으)ㄹ` | **ĐỔI** `ㄷ → ㄹ` | `들어요`, `들었어요`, `들은`, `들으면`, `들을 거예요` |\n| **PHỤ ÂM** — `-고`, `-습니다`, `-지 않다`, `-는` | **GIỮ** `ㄷ` | `듣고`, `듣습니다`, `듣지 않아요`, `듣는` |\nCác từ **bất quy tắc** (đổi `ㄷ → ㄹ`):\n- `듣다` (nghe) → `들어요`\n- `걷다` (đi bộ) → `걸어요`\n- `묻다` (hỏi) → `물어요`\n- `싣다` (chở, chất lên) → `실어요`\n- `깨닫다` (nhận ra) → `깨달아요`\nCác từ **bình thường** (giữ `ㄷ` ở mọi dạng):\n- `닫다` (đóng) → `닫아요`\n- `받다` (nhận) → `받아요`\n- `믿다` (tin) → `믿어요`\n- `얻다` (được, có được) → `얻어요`\n- `묻다` (chôn) → `묻어요`\n- `걷다` (gấp, thu) → `걷어요`\n**Hoàn cảnh dùng:** Rất gặp trong sinh hoạt: nghe (`음악을 들어요`), đi bộ (`공원에서 걸어요`), hỏi (`길을 물어요`). Kể cả quá khứ: `들었어요`, `걸었어요`, `물었어요`.\n**Vì sao phải học thuộc danh sách:** Không có dấu hiệu nào trong chữ viết cho biết gốc `ㄷ` nào đổi. Ba từ `듣다`, `걷다`, `묻다` (hỏi) cần nhớ là bất quy tắc; còn `닫다`, `받다`, `믿다`, `얻다` là bình thường. Cùng một chữ có thể là hai từ khác nhau: `묻다` (hỏi) → `물어요`, `묻다` (chôn) → `묻어요`.",
+      "contrasts": [
+        {
+          "pattern": "닫다 · 받다 · 믿다",
+          "diff_vi": "Gốc `ㄷ` bình thường: `닫아요`, `받아요`, `믿어요`."
+        },
+        {
+          "pattern": "들다",
+          "diff_vi": "Là từ khác ('cầm, vào'): `들어요` có thể là `듣다` hoặc `들다`, dựa vào nghĩa của câu."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Không đổi: ✗ `듣어요`, `걷어요` (nghĩa 'đi bộ') → `들어요`, `걸어요`.\n(2) Đổi quá tay: ✗ `달아요` (cho `닫다`), `바라요` (cho `받다`) → `닫아요`, `받아요`.\n(3) Đổi trước phụ âm: ✗ `들고`, `들지 않아요` → `듣고`, `듣지 않아요`.\n(4) Nhầm `들어요` (nghe) với `들다`: dựa vào tân ngữ (`음악을 들어요`) để hiểu.\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc đối chiếu với Nền tảng sơ cấp · 한글 맞춤법 제18항 (ㄷ 불규칙) · New Yonsei Korean 1-1 (듣다, 걷다, 묻다).",
+      "topik_tip_vi": "Phần Viết điền chỗ trống hay ra `듣다`, `걷다`, `묻다` chia theo đuôi đi sau. Kiểm tra: đuôi bắt đầu bằng nguyên âm → đổi `ㄷ → ㄹ`; bắt đầu bằng phụ âm → giữ nguyên.",
+      "example_ko": "저는 매일 음악을 들어요.\n공원에서 걸어요.\n길을 물어요.\n어제 한국 노래를 들었어요.\n문을 닫아요.\n선물을 받아요.",
+      "example_vi": "Ngày nào tôi cũng nghe nhạc.\nTôi đi bộ trong công viên.\nTôi hỏi đường.\nHôm qua tôi đã nghe bài hát Hàn Quốc.\nTôi đóng cửa. (ㄷ bình thường)\nTôi nhận quà. (ㄷ bình thường)",
+      "source": "Nền tảng sơ cấp · 한글 맞춤법 제18항 (ㄷ 불규칙) · New Yonsei Korean 1-1 (듣다, 걷다, 묻다)",
+      "importance": "must"
+    },
+    {
+      "pattern": "ㄹ 탈락 (살다 · 알다 · 만들다 · 놀다)",
+      "meaning_vi": "Gốc kết thúc ㄹ bỏ ㄹ trước ㄴ, ㅂ, ㅅ, 오 (và -ㄴ)",
+      "usage_context_vi": "**Cấu tạo:** Gốc kết thúc bằng `ㄹ` **bỏ** `ㄹ` khi đuôi bắt đầu bằng `ㄴ`, `ㅂ`, `ㅅ`; ở các đuôi còn lại thì **giữ** `ㄹ`. Sau `ㄹ` không thêm `으`: `살면` (✗ `살으면`).\n| Đuôi bắt đầu bằng | Xử lý `ㄹ` | Ví dụ với `살다`, `만들다`, `알다` |\n| **ㄴ / ㅂ / ㅅ** — `-ㅂ/습니다`, `-(으)세요`, `-는`, `-(으)니까`, `-(으)ㄴ` | **BỎ** `ㄹ` | `삽니다`, `사세요`, `사는`, `사니까`, `산` |\n| **ĐUÔI KHÁC** — `-아/어요`, `-고`, `-지만`, `-러`, `-려고` | **GIỮ** `ㄹ` | `살아요`, `살고`, `살지만`, `살러`, `살려고` |\n| **ĐUÔI CÓ 으** — `-(으)면`, `-(으)ㄹ`, `-(으)ㄹ까요` | **GIỮ** `ㄹ`, đi thẳng sau `ㄹ`, không thêm `으` | `살면`, `만들면`, `살 거예요`, `살까요` |\nVí dụ theo từng từ (các dạng bỏ `ㄹ`):\n- `살다` (sống) → `삽니다` · `사세요` · `사는` · `사니까` · `산`\n- `만들다` (làm) → `만듭니다` · `만드세요` · `만드는` · `만드니까`\n- `알다` (biết) → `압니다` · `아세요` · `아는`\n**Hoàn cảnh dùng:** Hàng chục từ phổ biến: 살다, 알다, 만들다, 놀다, 팔다, 울다, 열다, 걸다, 멀다, 길다, 달다 (ngọt), 힘들다. Gặp nhiều nhất ở `-ㅂ/습니다`, `-(으)세요`, `-는` và `-(으)니까`.\n**Vì sao không thêm `으`:** Gốc kết thúc bằng `ㄹ` được xử lý như gốc kết thúc bằng nguyên âm khi gặp `-(으)` (vì vậy `살면`, không phải `살으면`). Chỉ trước `ㄴ, ㅂ, ㅅ, 오` thì `ㄹ` biến mất.",
+      "contrasts": [
+        {
+          "pattern": "Gốc có patchim khác",
+          "diff_vi": "Dùng `으`: 먹다 → `먹으면`, `먹으세요`. Gốc `ㄹ` thì không."
+        },
+        {
+          "pattern": "ㄹ + -(으)ㄴ",
+          "diff_vi": "`ㄹ` mất, chỉ còn `ㄴ`: 길다 → `긴`, 살다 → `산`."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Không bỏ `ㄹ`: ✗ `살습니다`, `만들세요`, `알는` → `삽니다`, `만드세요`, `아는`.\n(2) Thêm `으` sau `ㄹ`: ✗ `살으면`, `만들으세요` → `살면`, `만드세요`.\n(3) Bỏ `ㄹ` khi không cần: ✗ `사아요` → `살아요`; ✗ `사고 있어요` → `살고 있어요`.\n(4) `알다` kính ngữ: ✗ `알으세요` → `아세요` (hỏi: `그 사람을 아세요?`).\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc đối chiếu với Nền tảng sơ cấp · New Yonsei Korean 1-2 (ㄹ 동사) · 국립국어원 새국어소식 2004.12 (ㄹ탈락).",
+      "topik_tip_vi": "Thường gặp trong điền chỗ trống: `사는`, `만드는`, `아는`, `노는`. Dấu hiệu nhận biết: gốc `ㄹ` + `ㄴ/ㅂ/ㅅ` → `ㄹ` mất; mọi trường hợp khác `ㄹ` còn.",
+      "example_ko": "저는 서울에 삽니다.\n어머니가 김치를 만드세요.\n한국에서 사는 친구가 있어요.\n그 사람을 아세요?\n머리가 긴 사람이 제 친구예요.\n주말에 공원에서 놀아요.",
+      "example_vi": "Tôi sống ở Seoul.\nMẹ tôi làm kim chi.\nTôi có người bạn đang sống ở Hàn Quốc.\nAnh có biết người đó không?\nNgười tóc dài là bạn tôi.\nCuối tuần tôi chơi trong công viên.",
+      "source": "Nền tảng sơ cấp · New Yonsei Korean 1-2 (ㄹ 동사) · 국립국어원 새국어소식 2004.12 (ㄹ탈락)",
+      "importance": "must"
+    },
+    {
+      "pattern": "르 bất quy tắc (모르다 · 부르다 · 다르다 · 빠르다)",
+      "meaning_vi": "Gốc kết thúc 르 gấp đôi ㄹ trước -아/어: 모르다 → 몰라요",
+      "usage_context_vi": "**Cấu tạo:** Gốc kết thúc bằng `르` gặp đuôi `-아/어`: **bỏ** `ㅡ` của `르`, **thêm** `ㄹ` vào âm tiết trước (thành hai `ㄹ` liền nhau), rồi chọn `아/어` theo nguyên âm của âm tiết đó: `모르다` → `몰라요` (`모` có `ㅗ` → `아`).\n| Đuôi | Xử lý `르` | Ví dụ với `모르다` |\n| **ĐUÔI -아/어** — `-아/어요`, `-았/었-`, `-아/어서` | **GẤP ĐÔI** `ㄹ`: bỏ `ㅡ` của `르`, thêm `ㄹ` vào âm tiết trước | `몰라요`, `몰랐어요`, `몰라서` |\n| **ĐUÔI KHÁC** — `-고`, `-는`, `-지만`, `-세요`, `-니까` | **GIỮ NGUYÊN** `르` | `모르고`, `모르는`, `모르지만`, `모르세요`, `모르니까` |\nChọn `아` khi âm tiết trước `르` có `ㅏ` hoặc `ㅗ`:\n- `모르다` (không biết) → `몰라요`\n- `다르다` (khác) → `달라요`\n- `빠르다` (nhanh) → `빨라요`\n- `고르다` (chọn) → `골라요`\n- `자르다` (cắt) → `잘라요`\n- `오르다` (lên, leo) → `올라요`\nChọn `어` khi âm tiết trước `르` có nguyên âm khác (ví dụ `ㅜ`, `ㅡ`):\n- `부르다` (gọi, hát) → `불러요`\n- `누르다` (nhấn) → `눌러요`\n- `흐르다` (chảy) → `흘러요`\nQuá khứ: `몰랐어요`, `불렀어요`.\n**Hoàn cảnh dùng:** `모르다` là từ thường gặp nhất: `몰라요`, `잘 몰라요`, `몰랐어요`. Cũng hay gặp `다르다` (khác), `빠르다` (nhanh), `고르다` (chọn), `부르다` (gọi, hát).\n**Vì sao không phải mọi gốc `르` đều đổi:** Chỉ khi đuôi là `-아/어` thì mới có hiện tượng gấp đôi `ㄹ`. Ngoài ra còn các từ chỉ bỏ `ㅡ` như `ㅡ탈락` bình thường (`따르다` → `따라요`, `치르다` → `치러요`, `들르다` → `들러요`) và vài từ hiếm dạng `러` (`푸르다` → `푸르러요`). Các từ này ít gặp hơn và sẽ học khi gặp.",
+      "contrasts": [
+        {
+          "pattern": "ㅡ 탈락",
+          "diff_vi": "Chỉ bỏ `ㅡ`: 쓰다 → `써요`; không gấp đôi `ㄹ`."
+        },
+        {
+          "pattern": "Gốc `르` + phụ âm",
+          "diff_vi": "Giữ nguyên: `모르고`, `다르지만`."
+        }
+      ],
+      "note_vi": "**Lỗi người Việt hay mắc:**\n(1) Quên gấp đôi `ㄹ`: ✗ `모라요`, `부러요`, `다라요` → `몰라요`, `불러요`, `달라요`.\n(2) Chọn sai `아/어`: ✗ `몰러요`, `불라요` → `몰라요` (`모` có `ㅗ`), `불러요` (`부` có `ㅜ`).\n(3) Áp dụng trước phụ âm: ✗ `몰라고`, `몰라지만` → `모르고`, `모르지만`.\n(4) Phát âm: `몰라요` có hai `ㄹ` liền nhau (`ㄹ` của `몰` và `ㄹ` của `라`), đọc kéo dài ở chỗ này, không đọc tách thành `모라요`.\n*Biên soạn bổ sung:* ví dụ và lời giải thích tự soạn; cấu trúc đối chiếu với Nền tảng sơ cấp · 한글 맞춤법 제18항 (르 불규칙) · 국립국어원 새국어소식 2004.6.",
+      "topik_tip_vi": "Chia `모르다` đúng trong quá khứ (`몰랐어요`) và dạng định ngữ (`모르는 사람`). Hai dạng này dễ nhầm nhất: quá khứ gấp đôi `ㄹ`, định ngữ thì không.",
+      "example_ko": "저는 그 사람을 몰라요.\n노래를 불러요.\n두 사람은 성격이 달라요.\n이 차는 정말 빨라요.\n메뉴를 골랐어요.\n모르는 단어가 많아요.",
+      "example_vi": "Tôi không biết người đó.\nTôi hát.\nHai người khác nhau về tính cách.\nChiếc xe này thật nhanh.\nTôi đã chọn món.\nCó nhiều từ tôi chưa biết.",
+      "source": "Nền tảng sơ cấp · 한글 맞춤법 제18항 (르 불규칙) · 국립국어원 새국어소식 2004.6",
+      "importance": "must"
+    }
+  ],
+  "editor_notes": [],
+  "exercise_ids": [
+    "FLN27",
+    "FLN32",
+    "FLN40",
+    "FLN41",
+    "FLN42",
+    "FR64",
+    "FR66",
+    "FR67",
+    "FR68",
+    "FR69",
+    "FR70",
+    "FR71",
+    "FR72",
+    "FR73",
+    "FR74",
+    "FR75",
+    "FR76",
+    "FR77",
+    "FBO12",
+    "FBO14",
+    "FBO16",
+    "FBF11",
+    "FBF12",
+    "FBE03"
+  ],
+  "sort_order": 10,
+  "split_from": "sinh-hoat-00-nen-tang-3-chia-dong-tu",
+  "sessions": [
+    {
+      "title_vi": "ㄷ bất quy tắc (듣다 → 들어요)",
+      "can_do_vi": "Chia đúng nhóm gốc kết thúc ㄷ: «음악을 들어요», «걸어요», «물어요»; biết 닫다, 받다 là ngoại lệ chia bình thường.",
+      "use_vi": "Nói «nghe nhạc», «đi bộ», «hỏi» đúng dạng khi nói và viết.",
+      "topik_vi": "Giống dạng điền dạng chia đúng của động từ ở phần Đọc TOPIK I: bất quy tắc là chỗ hay bị trừ điểm.",
+      "vocab": [
+        "듣다",
+        "걷다",
+        "묻다",
+        "닫다",
+        "받다",
+        "음악"
+      ],
+      "grammar": [
+        "ㄷ bất quy tắc (듣다 · 걷다 · 묻다)"
+      ],
+      "check": [
+        "FLN40",
+        "FR66",
+        "FBO16",
+        "FR67",
+        "FR68",
+        "FR69"
+      ],
+      "situation": {
+        "scene_vi": "Hai người nghe nhạc và hỏi nhau.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "뭐 들어요?",
+            "vi": "Bạn nghe gì?"
+          },
+          {
+            "who": "B",
+            "ko": "음악을 들어요.",
+            "vi": "Tôi nghe nhạc."
+          },
+          {
+            "who": "A",
+            "ko": "저도 들어요.",
+            "vi": "Tôi cũng nghe."
+          },
+          {
+            "who": "B",
+            "ko": "같이 들어요.",
+            "vi": "Cùng nghe nhé."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "음악을 들어요?",
+          "prompt_vi": "Bạn nghe nhạc à?",
+          "options": [
+            {
+              "ko": "네, 음악을 들어요.",
+              "vi": "Vâng, tôi nghe nhạc.",
+              "ok": true,
+              "why_vi": "듣다 là ㄷ bất quy tắc: ㄷ đổi thành ㄹ trước nguyên âm: 들어요."
+            },
+            {
+              "ko": "네, 음악을 듣어요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Chưa đổi ㄷ → ㄹ. 듣다 phải là 들어요."
+            },
+            {
+              "ko": "네, 음악을 들요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Sau ㄹ vẫn cần nguyên âm của đuôi: 들어요."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «Tôi hỏi». Cách nào đúng?",
+          "a": {
+            "ko": "물어요.",
+            "vi": "Tôi hỏi."
+          },
+          "b": {
+            "ko": "묻어요.",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "묻다 (hỏi) là ㄷ bất quy tắc: ㄷ → ㄹ. Nhưng 닫다, 받다 là động từ thường, giữ nguyên ㄷ."
+        }
+      }
+    },
+    {
+      "title_vi": "ㄹ tự rụng (살다 → 삽니다)",
+      "can_do_vi": "Bỏ ㄹ đúng chỗ khi gốc kết thúc bằng ㄹ: «살다 → 삽니다», «알다 → 압니다», «만들다 → 만듭니다», «놀다 → 놉니다».",
+      "use_vi": "Nói «tôi sống ở …», «tôi biết» đúng dạng trang trọng.",
+      "topik_vi": "Giống dạng điền dạng chia đúng ở phần Đọc TOPIK I và dạng nghe chọn nội dung trùng khớp.",
+      "vocab": [
+        "놀다"
+      ],
+      "grammar": [
+        "ㄹ 탈락 (살다 · 알다 · 만들다 · 놀다)"
+      ],
+      "check": [
+        "FLN27",
+        "FR64",
+        "FBO12",
+        "FLN41",
+        "FR70",
+        "FR71"
+      ],
+      "situation": {
+        "scene_vi": "Hai người hỏi nhau nơi ở.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "어디에 삽니까?",
+            "vi": "Bạn sống ở đâu?"
+          },
+          {
+            "who": "B",
+            "ko": "한국에 삽니다.",
+            "vi": "Tôi sống ở Hàn Quốc."
+          },
+          {
+            "who": "A",
+            "ko": "한국어를 압니까?",
+            "vi": "Bạn biết tiếng Hàn không?"
+          },
+          {
+            "who": "B",
+            "ko": "네, 압니다.",
+            "vi": "Vâng, tôi biết."
+          }
+        ],
+        "reply": {
+          "prompt_ko": "어디에 삽니까?",
+          "prompt_vi": "Bạn sống ở đâu?",
+          "options": [
+            {
+              "ko": "한국에 삽니다.",
+              "vi": "Tôi sống ở Hàn Quốc.",
+              "ok": true,
+              "why_vi": "Gốc kết thúc bằng ㄹ gặp ㅂ/ㄴ/ㅅ thì ㄹ rụng: 살 + ㅂ니다 → 삽니다."
+            },
+            {
+              "ko": "한국에 살습니다.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Gốc có ㄹ không thêm -습니다, ㄹ rụng rồi dùng -ㅂ니다."
+            },
+            {
+              "ko": "한국에 살니다.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Không giữ ㄹ khi ghép với ㅂ니다."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói trang trọng «Tôi làm (món ăn)». Cách nào đúng?",
+          "a": {
+            "ko": "만듭니다.",
+            "vi": "Tôi làm."
+          },
+          "b": {
+            "ko": "만들습니다.",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "만들다 có ㄹ rụng trước ㅂ: 만듭니다."
+        }
+      }
+    },
+    {
+      "title_vi": "르 bất quy tắc (모르다 → 몰라요)",
+      "can_do_vi": "Chia đúng nhóm gốc kết thúc 르: «몰라요», «불러요», «달라요», «빨라요», «골라요».",
+      "use_vi": "Nói «tôi không biết», «khác nhau», «nhanh» và gọi tên / hát đúng dạng.",
+      "topik_vi": "Giống dạng điền vào chỗ trống ở phần Đọc TOPIK I và dạng nghe chọn nội dung trùng khớp.",
+      "vocab": [
+        "모르다",
+        "부르다",
+        "다르다",
+        "빠르다",
+        "고르다",
+        "노래"
+      ],
+      "grammar": [
+        "르 bất quy tắc (모르다 · 부르다 · 다르다 · 빠르다)"
+      ],
+      "check": [
+        "FLN42",
+        "FR74",
+        "FBO14",
+        "FR75",
+        "FR76",
+        "FR77"
+      ],
+      "situation": {
+        "scene_vi": "Hai người nói chuyện về bài hát.",
+        "turns": [
+          {
+            "who": "A",
+            "ko": "이 노래를 알아요?",
+            "vi": "Bạn biết bài này không?"
+          },
+          {
+            "who": "B",
+            "ko": "아니요, 몰라요.",
+            "vi": "Không, tôi không biết."
+          },
+          {
+            "who": "A",
+            "ko": "제가 불러요.",
+            "vi": "Tôi sẽ hát."
+          },
+          {
+            "who": "B",
+            "ko": "노래를 잘 불러요?",
+            "vi": "Bạn hát hay không?"
+          }
+        ],
+        "reply": {
+          "prompt_ko": "이 사람을 알아요?",
+          "prompt_vi": "Bạn có biết người này không?",
+          "options": [
+            {
+              "ko": "아니요, 몰라요.",
+              "vi": "Không, tôi không biết.",
+              "ok": true,
+              "why_vi": "모르다 là 르 bất quy tắc: 모르 → 몰ㄹ + 아요 = 몰라요."
+            },
+            {
+              "ko": "아니요, 모르어요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Chưa áp dụng biến đổi của 르."
+            },
+            {
+              "ko": "아니요, 모라요.",
+              "vi": "(dạng sai)",
+              "ok": false,
+              "why_vi": "Thiếu ㄹ thêm vào: phải là 몰라요."
+            }
+          ]
+        },
+        "compare": {
+          "ask_vi": "Bạn muốn nói «Nhanh». Cách nào đúng?",
+          "a": {
+            "ko": "빨라요.",
+            "vi": "Nhanh."
+          },
+          "b": {
+            "ko": "빠르어요.",
+            "vi": "(dạng sai)"
+          },
+          "better": "a",
+          "why_vi": "빠르다 là 르 bất quy tắc: ㅡ rụng và thêm ㄹ: 빨라요."
+        }
+      }
+    }
+  ]
+}

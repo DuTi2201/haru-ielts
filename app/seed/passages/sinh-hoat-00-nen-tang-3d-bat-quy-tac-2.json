@@ -1,0 +1,301 @@
+{
+  "lesson": "sinh-hoat-00-nen-tang-3d-bat-quy-tac-2",
+  "items": [
+    {
+      "id": "sinh-hoat-00-d3",
+      "kind": "dialogue",
+      "title_ko": "짧은 인터뷰",
+      "title_vi": "Một cuộc phỏng vấn ngắn",
+      "scene_vi": "Một phóng viên hỏi anh Tuấn, sinh viên nước ngoài, về cuộc sống ở Seoul. Hai người dùng mức trang trọng (-ㅂ/습니다).",
+      "speakers": {
+        "F": "기자",
+        "M": "투안"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "안녕하십니까? 투안 씨는 어디에 삽니까?",
+          "vi": "Xin chào. Anh Tuấn sống ở đâu?"
+        },
+        {
+          "who": "M",
+          "ko": "저는 서울에 삽니다. 한국어를 공부합니다.",
+          "vi": "Tôi sống ở Seoul. Tôi học tiếng Hàn."
+        },
+        {
+          "who": "F",
+          "ko": "한국어 공부가 어렵지 않습니까?",
+          "vi": "Học tiếng Hàn không khó sao?"
+        },
+        {
+          "who": "M",
+          "ko": "네, 어렵습니다. 그래도 매일 한국 노래를 듣습니다.",
+          "vi": "Vâng, khó. Dù vậy ngày nào tôi cũng nghe nhạc Hàn."
+        },
+        {
+          "who": "F",
+          "ko": "한국 음식은 어떻습니까?",
+          "vi": "Món ăn Hàn Quốc thì sao?"
+        },
+        {
+          "who": "M",
+          "ko": "맛있습니다. 하지만 매운 음식은 먹지 못합니다.",
+          "vi": "Ngon. Nhưng món cay thì tôi không ăn được."
+        },
+        {
+          "who": "F",
+          "ko": "그렇습니까? 한국 친구는 많습니까?",
+          "vi": "Vậy sao? Anh có nhiều bạn Hàn không?"
+        },
+        {
+          "who": "M",
+          "ko": "네, 많습니다. 친구들이 저를 많이 돕습니다.",
+          "vi": "Vâng, nhiều. Các bạn giúp tôi rất nhiều."
+        },
+        {
+          "who": "F",
+          "ko": "알겠습니다. 감사합니다.",
+          "vi": "Tôi hiểu rồi. Xin cảm ơn."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V/A + -ㅂ/습니다 · -ㅂ/습니까?",
+          "regex": "공부합니다"
+        },
+        {
+          "pattern": "V/A + -지 않다 · V + -지 못하다",
+          "regex": "먹지 못합니다"
+        },
+        {
+          "pattern": "V/A + -겠-",
+          "regex": "알겠습니다"
+        },
+        {
+          "pattern": "ㄹ 탈락 (살다 · 알다 · 만들다 · 놀다)",
+          "regex": "삽니까"
+        },
+        {
+          "pattern": "ㅂ bất quy tắc (덥다 · 춥다 · 맵다 · 어렵다 · 돕다)",
+          "regex": "매운"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "살다",
+          "seen": "삽니다"
+        },
+        {
+          "word": "어렵다",
+          "seen": "어렵지"
+        },
+        {
+          "word": "듣다",
+          "seen": "듣습니다"
+        },
+        {
+          "word": "맵다",
+          "seen": "매운"
+        },
+        {
+          "word": "돕다",
+          "seen": "돕습니다"
+        },
+        {
+          "word": "노래",
+          "seen": "노래를"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "안녕하십니까",
+          "vi": "xin chào (trang trọng)"
+        },
+        {
+          "ko": "그래도",
+          "vi": "dù vậy"
+        },
+        {
+          "ko": "하지만",
+          "vi": "nhưng"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Anh Tuấn sống ở đâu?",
+          "options": [
+            "Ở Seoul",
+            "Ở Busan",
+            "Ở Hà Nội"
+          ],
+          "answer": 0,
+          "explain_vi": "Anh nói “저는 서울에 삽니다”: anh sống ở Seoul."
+        },
+        {
+          "q_vi": "Anh Tuấn không ăn được món nào?",
+          "options": [
+            "Món ngọt",
+            "Món cay",
+            "Món lạnh"
+          ],
+          "answer": 1,
+          "explain_vi": "“매운 음식은 먹지 못합니다”: món cay thì anh không ăn được."
+        },
+        {
+          "q_vi": "Mỗi ngày anh Tuấn làm gì?",
+          "options": [
+            "Nghe nhạc Hàn",
+            "Xem phim",
+            "Đọc báo"
+          ],
+          "answer": 0,
+          "explain_vi": "“매일 한국 노래를 듣습니다”: ngày nào anh cũng nghe nhạc Hàn."
+        }
+      ]
+    },
+    {
+      "id": "sinh-hoat-00-r3",
+      "kind": "reading",
+      "title_ko": "한국의 계절과 음악",
+      "title_vi": "Các mùa ở Hàn Quốc và âm nhạc",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "한국은 여름에 아주 더워요. 겨울에는 정말 추워요.",
+          "vi": "Hàn Quốc mùa hè rất nóng. Mùa đông thì rất lạnh."
+        },
+        {
+          "who": "N",
+          "ko": "가을에는 하늘이 파래요. 그래서 공원에서 걸어요.",
+          "vi": "Mùa thu bầu trời xanh. Vì vậy tôi đi bộ trong công viên."
+        },
+        {
+          "who": "N",
+          "ko": "저는 매일 음악을 들어요. 가끔 한국 노래도 불러요.",
+          "vi": "Ngày nào tôi cũng nghe nhạc. Thỉnh thoảng tôi cũng hát bài Hàn Quốc."
+        },
+        {
+          "who": "N",
+          "ko": "한국어는 쉽지 않아요. 모르는 단어가 많아요.",
+          "vi": "Tiếng Hàn không dễ. Có nhiều từ tôi chưa biết."
+        },
+        {
+          "who": "N",
+          "ko": "한국에 사는 친구가 저를 도와요.",
+          "vi": "Người bạn sống ở Hàn Quốc giúp tôi."
+        },
+        {
+          "who": "N",
+          "ko": "저는 한국어를 좋아해요.",
+          "vi": "Tôi thích tiếng Hàn."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "ㅂ bất quy tắc (덥다 · 춥다 · 맵다 · 어렵다 · 돕다)",
+          "regex": "더워요|추워요"
+        },
+        {
+          "pattern": "ㄷ bất quy tắc (듣다 · 걷다 · 묻다)",
+          "regex": "들어요"
+        },
+        {
+          "pattern": "ㅎ bất quy tắc (그렇다 · 어떻다 · 파랗다 · 하얗다)",
+          "regex": "파래요"
+        },
+        {
+          "pattern": "ㄹ 탈락 (살다 · 알다 · 만들다 · 놀다)",
+          "regex": "사는"
+        },
+        {
+          "pattern": "V/A + -지 않다 · V + -지 못하다",
+          "regex": "쉽지 않아요"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "덥다",
+          "seen": "더워요"
+        },
+        {
+          "word": "춥다",
+          "seen": "추워요"
+        },
+        {
+          "word": "파랗다",
+          "seen": "파래요"
+        },
+        {
+          "word": "듣다",
+          "seen": "들어요"
+        },
+        {
+          "word": "모르다",
+          "seen": "모르는"
+        },
+        {
+          "word": "돕다",
+          "seen": "도와요"
+        },
+        {
+          "word": "노래",
+          "seen": "노래도"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "여름",
+          "vi": "mùa hè"
+        },
+        {
+          "ko": "겨울",
+          "vi": "mùa đông"
+        },
+        {
+          "ko": "가을",
+          "vi": "mùa thu"
+        },
+        {
+          "ko": "공원",
+          "vi": "công viên"
+        },
+        {
+          "ko": "단어",
+          "vi": "từ vựng, từ"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Mùa nào bầu trời xanh?",
+          "options": [
+            "Mùa hè",
+            "Mùa thu",
+            "Mùa đông"
+          ],
+          "answer": 1,
+          "explain_vi": "“가을에는 하늘이 파래요”: mùa thu bầu trời xanh."
+        },
+        {
+          "q_vi": "Người viết nghe gì mỗi ngày?",
+          "options": [
+            "Nhạc",
+            "Tin tức",
+            "Đài phát thanh"
+          ],
+          "answer": 0,
+          "explain_vi": "“매일 음악을 들어요”: ngày nào cũng nghe nhạc."
+        },
+        {
+          "q_vi": "Ai giúp người viết?",
+          "options": [
+            "Người bạn sống ở Hàn Quốc",
+            "Thầy giáo",
+            "Mẹ"
+          ],
+          "answer": 0,
+          "explain_vi": "“한국에 사는 친구가 저를 도와요”: người bạn sống ở Hàn Quốc giúp người viết."
+        }
+      ]
+    }
+  ]
+}

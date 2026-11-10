@@ -1,0 +1,270 @@
+{
+  "lesson": "xa-hoi-22-doc-chu-de-thai-do-muc-dich",
+  "items": [
+    {
+      "id": "xa-hoi-22-d1",
+      "kind": "dialogue",
+      "title_ko": "글의 목적 찾기",
+      "title_vi": "Tìm mục đích của bài viết",
+      "scene_vi": "Hai bạn cùng ôn thi TOPIK đang làm một câu hỏi tìm mục đích của bài viết (nội dung giả định).",
+      "speakers": {
+        "F": "수진",
+        "M": "민호"
+      },
+      "lines": [
+        {
+          "who": "F",
+          "ko": "민호 씨, 이 글을 쓴 목적이 뭔지 잘 모르겠어요.",
+          "vi": "Minho, em không biết mục đích viết bài này là gì."
+        },
+        {
+          "who": "M",
+          "ko": "먼저 글 전체를 한 문장으로 줄여 보세요. 앞부분은 배경이고, 중요한 말은 ‘하지만’ 뒤에 나오는 경우가 많아요.",
+          "vi": "Trước hết hãy rút cả bài thành một câu. Phần đầu là bối cảnh, ý quan trọng thường nằm sau «하지만»."
+        },
+        {
+          "who": "F",
+          "ko": "아, 필자가 학교에 점심시간을 늘리도록 요구하고 있네요.",
+          "vi": "À, người viết đang yêu cầu nhà trường kéo dài giờ ăn trưa."
+        },
+        {
+          "who": "M",
+          "ko": "맞아요. 그러니까 이 글은 정보를 알리는 글이 아니라 변화를 요구하는 글이에요.",
+          "vi": "Đúng. Vậy bài này không phải bài cho biết thông tin mà là bài đòi thay đổi."
+        },
+        {
+          "who": "F",
+          "ko": "보기에 ‘학생들에게 급식을 먹도록 권하려고’도 있어서 헷갈렸어요.",
+          "vi": "Trong các đáp án còn có «để khuyên học sinh ăn cơm trường» nên em bị lẫn."
+        },
+        {
+          "who": "M",
+          "ko": "그것도 변화를 바라는 목적이지만 대상이 달라요. 필자가 말을 거는 사람은 학생이 아니라 학교예요.",
+          "vi": "Đó cũng là mục đích muốn thay đổi nhưng đối tượng khác. Người mà tác giả nói tới không phải học sinh mà là nhà trường."
+        },
+        {
+          "who": "F",
+          "ko": "그렇군요. 이제는 목적을 고를 때 요구하는 대상도 꼭 확인해야겠어요.",
+          "vi": "Ra vậy. Từ giờ khi chọn mục đích em nhất định phải xác nhận cả đối tượng được yêu cầu."
+        },
+        {
+          "who": "M",
+          "ko": "네, 그렇게 하면 실수가 많이 줄어들 거예요.",
+          "vi": "Ừ, làm vậy thì lỗi sẽ giảm nhiều."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -도록 요구하다 · V + -도록 권하다 · V + -도록 촉구하다",
+          "regex": "늘리도록 요구"
+        },
+        {
+          "pattern": "V + -도록 · V + -지 않도록 · V + -도록 하다",
+          "regex": "먹도록"
+        },
+        {
+          "pattern": "V + -아/어야 한다 · V + -(으)ㄹ 필요가 있다 · V + -는 것이 바람직하다",
+          "regex": "확인해야"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "목적",
+          "seen": "목적이"
+        },
+        {
+          "word": "필자",
+          "seen": "필자가"
+        },
+        {
+          "word": "요구하다",
+          "seen": "요구하고"
+        },
+        {
+          "word": "권하다",
+          "seen": "권하려고"
+        },
+        {
+          "word": "확인하다",
+          "seen": "확인해야"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "급식",
+          "vi": "bữa ăn ở trường"
+        },
+        {
+          "ko": "헷갈리다",
+          "vi": "bị lẫn, bối rối",
+          "seen": "헷갈렸어요"
+        },
+        {
+          "ko": "대상",
+          "vi": "đối tượng"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Theo người nam, trước hết nên làm gì để tìm mục đích của bài?",
+          "options": [
+            "Đọc ngay các đáp án",
+            "Rút cả bài thành một câu",
+            "Dịch từng từ khó"
+          ],
+          "answer": 1,
+          "explain_vi": "Nam nói «글 전체를 한 문장으로 줄여 보세요»."
+        },
+        {
+          "q_vi": "Người viết trong ví dụ muốn nhà trường làm gì?",
+          "options": [
+            "Bỏ bữa ăn ở trường",
+            "Nấu ăn ngon hơn",
+            "Kéo dài giờ ăn trưa"
+          ],
+          "answer": 2,
+          "explain_vi": "Nữ nói «학교에 점심시간을 늘리도록 요구하고 있네요»."
+        },
+        {
+          "q_vi": "Vì sao nữ bị lẫn giữa hai đáp án?",
+          "options": [
+            "Cả hai cùng loại mục đích nhưng khác đối tượng",
+            "Cả hai đều là bài cho biết",
+            "Đáp án nào cũng sai"
+          ],
+          "answer": 0,
+          "explain_vi": "Nam giải thích «변화를 바라는 목적이지만 대상이 달라요»."
+        }
+      ]
+    },
+    {
+      "id": "xa-hoi-22-r1",
+      "kind": "reading",
+      "title_ko": "글의 목적을 찾는 방법",
+      "title_vi": "Cách tìm mục đích của một bài viết",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "글을 읽을 때는 필자가 독자에게 무엇을 원하는지를 먼저 생각해야 한다.",
+          "vi": "Khi đọc, trước hết phải nghĩ xem người viết muốn người đọc điều gì."
+        },
+        {
+          "who": "N",
+          "ko": "어떤 글은 새로운 제도나 서비스를 소개하는 데서 끝나지만, 어떤 글은 독자나 기관에 변화를 요구한다.",
+          "vi": "Có bài chỉ dừng ở việc giới thiệu chế độ hay dịch vụ mới, có bài đòi người đọc hay cơ quan thay đổi."
+        },
+        {
+          "who": "N",
+          "ko": "변화를 요구하는 글은 대개 마지막 부분에서 정부에 대책을 마련하도록 촉구하거나 독자에게 습관을 바꾸도록 권한다.",
+          "vi": "Bài đòi thay đổi thường ở phần cuối kêu gọi chính phủ đưa ra đối sách hoặc khuyên độc giả đổi thói quen."
+        },
+        {
+          "who": "N",
+          "ko": "이때 요구를 받는 대상이 누구인지 확인하지 않으면 비슷한 보기 사이에서 헷갈리기 쉽다.",
+          "vi": "Lúc này nếu không xác nhận ai là đối tượng được yêu cầu thì dễ lẫn giữa các đáp án gần giống."
+        },
+        {
+          "who": "N",
+          "ko": "또한 글에 나온 사례 하나만 보고 목적을 정해서는 안 된다.",
+          "vi": "Ngoài ra không được quyết định mục đích chỉ dựa vào một ví dụ trong bài."
+        },
+        {
+          "who": "N",
+          "ko": "따라서 글 전체를 한 문장으로 정리한 뒤 그 문장에 맞는 목적을 고르는 것이 바람직하다.",
+          "vi": "Vì vậy nên tóm cả bài thành một câu rồi chọn mục đích khớp với câu đó."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V + -도록 요구하다 · V + -도록 권하다 · V + -도록 촉구하다",
+          "regex": "마련하도록 촉구"
+        },
+        {
+          "pattern": "V + -도록 · V + -지 않도록 · V + -도록 하다",
+          "regex": "바꾸도록"
+        },
+        {
+          "pattern": "V + -아/어야 한다 · V + -(으)ㄹ 필요가 있다 · V + -는 것이 바람직하다",
+          "regex": "바람직하다"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "필자",
+          "seen": "필자가"
+        },
+        {
+          "word": "독자",
+          "seen": "독자에게"
+        },
+        {
+          "word": "목적",
+          "seen": "목적을"
+        },
+        {
+          "word": "소개하다",
+          "seen": "소개하는"
+        },
+        {
+          "word": "촉구하다",
+          "seen": "촉구하거나"
+        },
+        {
+          "word": "권하다",
+          "seen": "권한다"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "기관",
+          "vi": "cơ quan, tổ chức"
+        },
+        {
+          "ko": "대개",
+          "vi": "thường, phần lớn"
+        },
+        {
+          "ko": "대상",
+          "vi": "đối tượng"
+        },
+        {
+          "ko": "헷갈리다",
+          "vi": "bị lẫn",
+          "seen": "헷갈리기"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Theo bài, khi đọc nên nghĩ đến điều gì trước?",
+          "options": [
+            "Số câu của bài",
+            "Người viết muốn người đọc điều gì",
+            "Từ khó nhất"
+          ],
+          "answer": 1,
+          "explain_vi": "Câu 1: «필자가 독자에게 무엇을 원하는지를 먼저 생각해야 한다»."
+        },
+        {
+          "q_vi": "Điều gì khiến dễ lẫn giữa các đáp án mục đích gần giống?",
+          "options": [
+            "Không xác nhận đối tượng được yêu cầu",
+            "Đọc quá chậm",
+            "Bài quá ngắn"
+          ],
+          "answer": 0,
+          "explain_vi": "Câu 4: nếu không xác nhận đối tượng thì dễ lẫn giữa các đáp án gần giống."
+        },
+        {
+          "q_vi": "Bài khuyên chọn mục đích thế nào?",
+          "options": [
+            "Chọn theo một ví dụ trong bài",
+            "Chọn theo câu có vẻ quen mắt",
+            "Rút cả bài thành một câu rồi chọn mục đích khớp"
+          ],
+          "answer": 2,
+          "explain_vi": "Câu cuối: «글 전체를 한 문장으로 정리한 뒤 그 문장에 맞는 목적을 고르는 것이 바람직하다»."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,614 @@
+"""GET /me/review-queue, the schedule written by POST /progress/reviews, and the
+"Ôn tập hôm nay" task in /me/plan. The database is a small in-memory fake that
+answers the router's queries from lists of real model objects."""
+import re
+import unittest
+import uuid
+from datetime import datetime, timedelta, timezone
+from types import SimpleNamespace
+from unittest import mock
+
+from sqlalchemy.dialects import postgresql
+
+from app.api.routers import content
+from app.models import GrammarPoint, ItemState, VocabItem
+from app.schemas import ItemStateReviewRequest, ReviewOnlyRequest
+
+NOW = datetime(2026, 10, 1, 9, 0, tzinfo=timezone.utc)
+DAY = timedelta(days=1)
+FAMILY = "Động từ đi với thời tiết"
+
+
+def vocab(id, hangul, lesson_id=1, level=1, **kw):
+    return VocabItem(id=id, lesson_id=lesson_id, hangul=hangul, meaning_vi=f"nghĩa {hangul}", level=level, **kw)
+
+
+def grammar(id, pattern, lesson_id=1):
+    return GrammarPoint(id=id, lesson_id=lesson_id, pattern=pattern, meaning_vi="m", level=2)
+
+
+CONTENT_V = [
+    vocab(1, "비가 오다", node_word="오다", family=FAMILY, distractors=["내리다", "떨어지다"]),
+    vocab(2, "눈이 오다", node_word="오다", family=FAMILY),
+    vocab(3, "바람이 불다", node_word="불다", family=FAMILY),
+    vocab(4, "날씨", pos="명사", example_ko="오늘 날씨가 좋아요."),
+    vocab(5, "기온", pos="명사"),
+    vocab(6, "하늘", pos="명사"),
+    vocab(7, "바람", pos="명사"),
+    vocab(8, "봄", lesson_id=2),
+]
+CONTENT_G = [grammar(1, "V + -(으)ㄹ 것 같다"), grammar(2, "V + -(으)면서"), grammar(3, "V + -군요", lesson_id=2)]
+LESSONS = [(1, "날씨와 계절"), (2, "Bài hai")]
+
+# Words that belong to news articles, not to a lesson (lesson_id None). Levels 3, 4 and 6.
+ARTICLE_V = [
+    vocab(101, "폭염", lesson_id=None, pos="명사", level=3, example_ko="올해는 폭염이 길었어요."),
+    vocab(102, "한파", lesson_id=None, pos="명사", level=4, example_ko="한파가 계속되고 있습니다."),
+    vocab(103, "기후변화", lesson_id=None, pos="명사", level=6),
+    vocab(104, "가뭄", lesson_id=None, pos="명사", level=3),
+]
+NEWER, OLDER = uuid.UUID(int=1), uuid.UUID(int=2)
+ARTICLES = [(NEWER, "폭염 대책", "KBS", [101, 102, 103]), (OLDER, None, "Chosun", [104])]  # newest first
+
+
+def sql(stmt):
+    return str(stmt.compile(dialect=postgresql.dialect(), compile_kwargs={"literal_binds": True}))
+
+
+def ids_in(text, column):
+    match = re.search(rf"{column} IN \(([^)]*)\)", text)
+    return {int(x) for x in match.group(1).split(",")} if match else None
+
+
+class FakeDB:
+    def __init__(self, states=(), articles=()):
+        self.states = list(states)
+        self.articles = list(articles)
+        self.queries = []
+        self.added = []
+
+    async def get(self, model, key):  # the stored journey stage: none yet
+        return None
+
+    def add(self, row):
+        self.added.append(row)
+
+    async def commit(self):
+        pass
+
+    async def execute(self, stmt):
+        text = sql(stmt)
+        self.queries.append(text)
+        res = mock.MagicMock()
+        if "FROM lesson_exercise_result" in text or "FROM lesson_part_done" in text or "lesson_topic" in text:
+            res.all.return_value = []  # the feathers' records: nothing answered, no part finished
+        elif text.startswith("SELECT item_state.item_id, item_state.item_type FROM item_state"):  # the feathers' record
+            res.all.return_value = [(s.item_id, s.item_type) for s in self.states]
+        elif "FROM item_state" in text and "bank_key IS NOT NULL" in text:  # started bank words: none
+            res.scalars.return_value = iter([])
+        elif "FROM item_state" in text:
+            res.scalars.return_value.all.return_value = self.states
+        elif "FROM placement_attempt" in text:  # no entry check taken
+            res.scalars.return_value.all.return_value = []
+        elif "FROM learner_day" in text:  # the days studied (the streak, the journey): none recorded
+            res.scalars.return_value.all.return_value = []
+        elif "cardinality(" in text:  # the confirmed articles that have words
+            res.all.return_value = self.articles
+        elif "content.lesson.slug" in text:  # the daily reading's lookup of the seeded lessons: none here
+            res.all.return_value = []
+        elif "FROM reading_log" in text:  # the daily reading's log: nothing offered yet
+            res.scalars.return_value.all.return_value = []
+            res.all.return_value = []
+        elif "FROM learner_bank_deck" in text:  # no deck of the TOPIK word bank added
+            res.scalars.return_value = iter([])
+        elif "bank_key IS NOT NULL" in text:  # the TOPIK word bank: no word of it in these fixtures
+            res.all.return_value = []
+            res.scalars.return_value = iter([])
+        elif "content.vocab_item.priority = 'recognize'" in text:  # the words that only need recognising
+            res.all.return_value = [(r.id,) for r in CONTENT_V if r.priority == "recognize" and r.lesson_id is not None]
+        elif "FROM content.vocab_item" in text or "FROM content.grammar_point" in text:
+            table, rows = ("vocab_item", CONTENT_V + ARTICLE_V) if "FROM content.vocab_item" in text else ("grammar_point", CONTENT_G)
+            full = "meaning_vi" in text
+            if not full and "lesson_id IS NULL" in text:  # (id, level) of the article words
+                wanted = ids_in(text, "content.vocab_item.id")
+                res.all.return_value = [(r.id, r.level) for r in rows if wanted is None or r.id in wanted]
+            elif not full:  # the (lesson_id, id) listing
+                res.all.return_value = [(r.lesson_id, r.id) for r in rows]
+            else:
+                by_id = ids_in(text, f"content.{table}.id")
+                by_lesson = ids_in(text, f"content.{table}.lesson_id")
+                picked = [r for r in rows if (by_id is None or r.id in by_id) and (by_lesson is None or r.lesson_id in by_lesson)]
+                res.scalars.return_value.all.return_value = picked
+        elif "content.lesson.practice" in text:  # the topic review lessons (none in these fixtures)
+            res.all.return_value = []
+        elif "FROM content.lesson" in text:
+            wanted = ids_in(text, "content.lesson.id")
+            res.all.return_value = [l for l in LESSONS if wanted is None or l[0] in wanted]
+        else:
+            raise AssertionError(f"unexpected query: {text[:200]}")
+        return res
+
+
+def state(item_type, item_id, **kw):
+    base = dict(learner_id=uuid.uuid4(), item_type=item_type, item_id=item_id, strength=0.2, last_seen=NOW - DAY, reps=1,
+                lapses=0, ease=2.2, interval_days=1.0, due_at=NOW - timedelta(hours=2), introduced_at=NOW - 3 * DAY)
+    return ItemState(**{**base, **kw})
+
+
+async def queue(db, goal="topik4", **params):
+    profile = SimpleNamespace(id=uuid.uuid4(), goal=goal)
+    kwargs = dict(limit=20, new=8)
+    kwargs.update(params)
+    with mock.patch.object(content, "datetime", wraps=datetime) as dt:
+        dt.now.return_value = NOW
+        return await content.get_review_queue(db, profile, **kwargs)
+
+
+class ReviewQueueTests(unittest.IsolatedAsyncioTestCase):
+    async def test_a_new_learner_gets_new_cards_in_lesson_order_with_grammar_spread_in(self):
+        out = await queue(FakeDB())
+        self.assertEqual((out.due_total, out.new_today, out.new_available), (0, 0, 8))
+        self.assertEqual(len(out.items), 8)
+        self.assertTrue(all(i.is_new and i.mode == "recognize" and i.cloze is None for i in out.items))
+        kinds = [i.item_type for i in out.items]
+        self.assertEqual(kinds.count("grammar_point"), 2)
+        self.assertEqual([i.vocab.hangul for i in out.items if i.vocab][:3], ["비가 오다", "눈이 오다", "바람이 불다"])
+        self.assertTrue(all(i.lesson_title == "날씨와 계절" for i in out.items[:6]))
+
+    async def test_new_vocab_cards_carry_their_chunk_layers_to_the_app(self):
+        out = await queue(FakeDB())
+        first = out.items[0].vocab
+        self.assertEqual((first.family, first.node_word, first.distractors), (FAMILY, "오다", ["내리다", "떨어지다"]))
+
+    async def test_a_due_card_that_was_answered_right_before_is_asked_as_a_blank(self):
+        out = await queue(FakeDB([state("vocab_item", 1, reps=2)]))
+        (due,) = [i for i in out.items if not i.is_new]
+        self.assertEqual((due.item_id, due.mode, due.reps), (1, "cloze", 2))
+        self.assertEqual((due.cloze.prompt_ko, due.cloze.answer), ("비가 ____", "오다"))
+        self.assertIn("오다", due.cloze.choices)
+        self.assertGreaterEqual(len(due.cloze.choices), 3)
+
+    async def test_a_forgotten_card_goes_back_to_the_plain_review(self):
+        out = await queue(FakeDB([state("vocab_item", 1, reps=0, lapses=1)]))
+        (due,) = [i for i in out.items if not i.is_new]
+        self.assertEqual((due.mode, due.cloze, due.lapses), ("recognize", None, 1))
+
+    async def test_a_due_card_that_cannot_make_a_blank_is_reviewed_the_plain_way(self):
+        out = await queue(FakeDB([state("vocab_item", 8, reps=3)]))  # 봄: no node word, no example
+        (due,) = [i for i in out.items if not i.is_new]
+        self.assertEqual((due.item_id, due.mode), (8, "recognize"))
+
+    async def test_a_noun_with_an_example_is_asked_with_same_part_of_speech_words(self):
+        out = await queue(FakeDB([state("vocab_item", 4, reps=1)]))
+        (due,) = [i for i in out.items if not i.is_new]
+        self.assertEqual((due.mode, due.cloze.answer), ("cloze", "날씨"))
+        self.assertTrue(set(due.cloze.choices) <= {"날씨", "기온", "하늘", "바람"})
+
+    async def test_grammar_is_always_the_plain_review(self):
+        out = await queue(FakeDB([state("grammar_point", 1, reps=4)]))
+        (due,) = [i for i in out.items if not i.is_new]
+        self.assertEqual((due.item_type, due.mode, due.cloze), ("grammar_point", "recognize", None))
+        self.assertEqual(due.grammar.pattern, "V + -(으)ㄹ 것 같다")
+
+    async def test_due_cards_come_before_new_ones_most_overdue_first(self):
+        states = [
+            state("vocab_item", 2, due_at=NOW - timedelta(hours=1)),
+            state("vocab_item", 1, due_at=NOW - 2 * DAY),
+        ]
+        out = await queue(FakeDB(states))
+        self.assertEqual([(i.item_id, i.is_new) for i in out.items[:2]], [(1, False), (2, False)])
+        self.assertTrue(all(i.is_new for i in out.items[2:]))
+
+    async def test_cards_already_started_are_not_offered_as_new_and_use_up_the_days_cap(self):
+        states = [state("vocab_item", i, due_at=NOW + 3 * DAY, introduced_at=NOW - timedelta(hours=2)) for i in (1, 2, 3, 4, 5)]
+        out = await queue(FakeDB(states))
+        self.assertEqual((out.new_today, out.new_available), (5, 3))
+        self.assertEqual(len(out.items), 3)
+        self.assertTrue({i.item_id for i in out.items if i.item_type == "vocab_item"}.isdisjoint({1, 2, 3, 4, 5}))
+
+    async def test_a_state_whose_lesson_was_rolled_back_is_ignored(self):
+        out = await queue(FakeDB([state("vocab_item", 999)]))
+        self.assertEqual(out.due_total, 0)
+        self.assertTrue(all(i.is_new for i in out.items))
+
+    async def test_the_limits_are_respected_and_the_total_still_reports_what_was_cut(self):
+        states = [state("vocab_item", i, due_at=NOW - timedelta(hours=i)) for i in (1, 2, 3, 4)]
+        out = await queue(FakeDB(states), limit=2, new=0)
+        self.assertEqual((out.due_total, len(out.items), out.new_available), (4, 2, 0))
+        self.assertEqual([i.item_id for i in out.items], [4, 3])  # the most overdue
+
+    async def test_an_empty_library_gives_an_empty_queue(self):
+        db = FakeDB()
+        with mock.patch.object(content, "_lesson_item_keys", mock.AsyncMock(return_value={})):
+            out = await queue(db)
+        self.assertEqual((out.due_total, out.items), (0, []))
+
+    async def test_the_choices_are_stable_for_the_same_learner_and_card(self):
+        profile = SimpleNamespace(id=uuid.uuid4(), goal="topik4")
+        with mock.patch.object(content, "datetime", wraps=datetime) as dt:
+            dt.now.return_value = NOW
+            x = await content.get_review_queue(FakeDB([state("vocab_item", 1, reps=2)]), profile, limit=20, new=8)
+            y = await content.get_review_queue(FakeDB([state("vocab_item", 1, reps=2)]), profile, limit=20, new=8)
+        self.assertEqual(x.items[0].cloze.choices, y.items[0].cloze.choices)
+
+
+class ArticleWordQueueTests(unittest.IsolatedAsyncioTestCase):
+    async def test_a_quarter_of_the_new_cards_are_words_from_the_newest_article_that_fit_the_level(self):
+        out = await queue(FakeDB(articles=ARTICLES))
+        words = [i for i in out.items if i.article_id is not None]
+        self.assertEqual(len(out.items), 8)
+        self.assertEqual([w.item_id for w in words], [101, 102])  # 8 // 4, in article order
+        self.assertTrue(all(w.is_new and w.article_id == NEWER and w.article_title == "폭염 대책" for w in words))
+        self.assertTrue(all(w.lesson_title is None and w.vocab.lesson_id is None for w in words))
+        self.assertEqual(len([i for i in out.items if i.item_type == "grammar_point"]), 2)
+
+    async def test_a_word_above_the_goal_level_is_held_back_and_counted(self):
+        out = await queue(FakeDB(articles=ARTICLES), new=30)
+        offered = {i.item_id for i in out.items if i.article_id is not None}
+        self.assertEqual(offered, {101, 102, 104})  # 103 is level 6, the cap for topik4 is 4
+        self.assertEqual((out.article_waiting, out.article_above_level), (3, 1))
+
+    async def test_a_lower_goal_holds_back_more(self):
+        out = await queue(FakeDB(articles=ARTICLES), goal="topik1", new=30)
+        self.assertEqual([i.item_id for i in out.items if i.article_id is not None], [])  # 3, 4 and 6 are all above 2
+        self.assertEqual(out.article_above_level, 4)
+
+    async def test_an_article_word_that_is_due_is_reviewed_with_the_words_of_its_article(self):
+        out = await queue(FakeDB([state("vocab_item", 101, reps=1)], articles=ARTICLES))
+        (due,) = [i for i in out.items if not i.is_new]
+        self.assertEqual((due.item_id, due.mode, due.article_id), (101, "cloze", NEWER))
+        self.assertEqual((due.cloze.prompt_ko, due.cloze.answer), ("올해는 ____이 길었어요.", "폭염"))
+        self.assertTrue(set(due.cloze.choices) <= {"폭염", "한파", "기후변화"})  # not 가뭄: that is another article's word
+
+    async def test_an_article_word_already_started_stays_scheduled_even_if_the_goal_changed(self):
+        states = [state("vocab_item", 103, reps=1)]  # level 6, above the cap, but already being studied
+        out = await queue(FakeDB(states, articles=ARTICLES))
+        self.assertIn(103, [i.item_id for i in out.items if not i.is_new])
+
+    async def test_a_rolled_back_article_word_is_left_out(self):
+        gone = [(NEWER, "폭염 대책", "KBS", [101, 777])]  # 777 no longer exists
+        out = await queue(FakeDB(articles=gone), new=30)
+        self.assertEqual([i.item_id for i in out.items if i.article_id is not None], [101])
+
+    async def test_a_word_shared_by_two_articles_belongs_to_the_newer_one(self):
+        both = [(NEWER, "새 기사", "KBS", [101]), (OLDER, "옛 기사", "Chosun", [101, 104])]
+        out = await queue(FakeDB(articles=both), new=30)
+        by_id = {i.item_id: i.article_title for i in out.items if i.article_id is not None}
+        self.assertEqual(by_id, {101: "새 기사", 104: "옛 기사"})
+
+    async def test_an_article_without_a_title_is_named_after_its_source(self):
+        out = await queue(FakeDB(articles=ARTICLES), new=30)
+        self.assertEqual({i.article_title for i in out.items if i.article_id == OLDER}, {"Chosun"})
+
+    async def test_the_plan_counts_a_due_article_word_and_studying_one_today_counts(self):
+        due = await PlanReviewTaskTests().plan([state("vocab_item", 101)], articles=ARTICLES)
+        self.assertEqual(due.tasks[0].subtitle, "1 thẻ đến hạn · 8 thẻ mới")  # 101 was introduced 3 days ago: not against today's cap
+        today = await PlanReviewTaskTests().plan(
+            [state("vocab_item", 101, last_seen=NOW - timedelta(hours=1), due_at=NOW + 3 * DAY)], articles=ARTICLES
+        )
+        self.assertEqual(today.tasks[0].status, "in_progress")
+
+
+class LeechAndWeakQueueTests(unittest.IsolatedAsyncioTestCase):
+    async def test_a_card_forgotten_again_and_again_comes_first_and_is_flagged(self):
+        states = [
+            state("vocab_item", 1, due_at=NOW - 3 * DAY),
+            state("vocab_item", 2, reps=0, lapses=2, due_at=NOW - timedelta(minutes=5)),
+        ]
+        out = await queue(FakeDB(states))
+        first, second = out.items[:2]
+        self.assertEqual((first.item_id, first.leech), (2, True))
+        self.assertEqual((second.item_id, second.leech), (1, False))
+
+    async def test_weak_focus_offers_the_cards_that_keep_going_wrong_due_or_not(self):
+        states = [
+            state("vocab_item", 1, reps=0, lapses=1, strength=0.0, due_at=NOW + 2 * DAY),
+            state("vocab_item", 2, reps=1, lapses=3, strength=0.2, due_at=NOW + DAY),
+            state("vocab_item", 3, reps=5, lapses=0, strength=1.0, due_at=NOW - DAY),  # fine, even though due
+            state("vocab_item", 4, reps=4, lapses=4, strength=1.0, due_at=NOW - DAY),  # well again
+        ]
+        out = await queue(FakeDB(states), focus="weak")
+        self.assertEqual(out.focus, "weak")
+        self.assertEqual([i.item_id for i in out.items], [2, 1])
+        self.assertTrue(all(not i.is_new for i in out.items))
+        self.assertEqual((out.due_total, out.new_available), (2, 0))
+
+    async def test_weak_focus_asks_a_blank_once_the_card_has_been_answered_right_again(self):
+        states = [state("vocab_item", 1, reps=1, lapses=2, due_at=NOW + DAY)]
+        out = await queue(FakeDB(states), focus="weak")
+        self.assertEqual((out.items[0].item_id, out.items[0].mode), (1, "cloze"))
+
+    async def test_weak_focus_with_nothing_weak_is_an_empty_sitting(self):
+        out = await queue(FakeDB([state("vocab_item", 1, reps=3, lapses=0)]), focus="weak")
+        self.assertEqual((out.items, out.due_total), ([], 0))
+
+    async def test_weak_focus_never_offers_a_card_that_no_longer_exists(self):
+        out = await queue(FakeDB([state("vocab_item", 999, reps=0, lapses=3)]), focus="weak")
+        self.assertEqual(out.items, [])
+
+
+class KnownAndReviewOnlyQueueTests(unittest.IsolatedAsyncioTestCase):
+    async def test_a_card_marked_known_is_neither_new_nor_due_and_frees_its_new_slot(self):
+        states = [
+            state("vocab_item", 1, known_at=NOW - timedelta(hours=1), reps=0, due_at=None, introduced_at=None),
+            state("vocab_item", 2, known_at=NOW - DAY, due_at=NOW - DAY),  # known while it was due
+        ]
+        out = await queue(FakeDB(states))
+        ids = {(i.item_type, i.item_id) for i in out.items}
+        self.assertNotIn(("vocab_item", 1), ids)
+        self.assertNotIn(("vocab_item", 2), ids)
+        self.assertEqual((out.due_total, out.new_today, out.new_available), (0, 0, 8))
+
+    async def test_a_review_only_day_offers_the_due_cards_and_no_new_ones(self):
+        profile = SimpleNamespace(id=uuid.uuid4(), goal="topik4", review_only_on=NOW.date())
+        with mock.patch.object(content, "datetime", wraps=datetime) as dt:
+            dt.now.return_value = NOW
+            out = await content.get_review_queue(FakeDB([state("vocab_item", 1)]), profile, limit=20, new=8)
+        self.assertEqual([(i.item_id, i.is_new) for i in out.items], [(1, False)])
+        self.assertTrue(out.review_only)
+        self.assertEqual(out.new_available, 0)
+
+    async def test_yesterdays_review_only_day_is_over(self):
+        profile = SimpleNamespace(id=uuid.uuid4(), goal="topik4", review_only_on=NOW.date() - DAY)
+        with mock.patch.object(content, "datetime", wraps=datetime) as dt:
+            dt.now.return_value = NOW
+            out = await content.get_review_queue(FakeDB(), profile, limit=20, new=8)
+        self.assertFalse(out.review_only)
+        self.assertEqual(len(out.items), 8)
+
+    async def test_the_review_only_switch_stores_today_and_clears_it(self):
+        db = mock.MagicMock()
+        db.commit = mock.AsyncMock()
+        profile = SimpleNamespace(id=uuid.uuid4(), review_only_on=None)
+        with mock.patch.object(content, "datetime", wraps=datetime) as dt:
+            dt.now.return_value = NOW
+            on = await content.set_review_only(ReviewOnlyRequest(on=True), db, profile)
+            self.assertEqual((on.review_only, on.day, profile.review_only_on), (True, NOW.date(), NOW.date()))
+            off = await content.set_review_only(ReviewOnlyRequest(on=False), db, profile)
+        self.assertEqual((off.review_only, profile.review_only_on), (False, None))
+        self.assertEqual(db.commit.await_count, 2)
+
+
+class MarkKnownTests(unittest.IsolatedAsyncioTestCase):
+    def _db(self, existing=None, card=True):
+        db = mock.MagicMock()
+        db.add = mock.MagicMock()
+        db.delete = mock.AsyncMock()
+        db.commit = mock.AsyncMock()
+        db.refresh = mock.AsyncMock()
+
+        async def execute(stmt):
+            res = mock.MagicMock()
+            if "item_state" in str(stmt):
+                res.scalar_one_or_none.return_value = existing
+            else:
+                res.scalar_one_or_none.return_value = VocabItem(id=1, hangul="비가 오다", meaning_vi="m", level=1) if card else None
+            return res
+
+        db.execute = execute
+        return db
+
+    async def call(self, fn, db, item_id=1):
+        with mock.patch.object(content, "datetime", wraps=datetime) as dt:
+            dt.now.return_value = NOW
+            return await fn("vocab_item", item_id, db, SimpleNamespace(id=uuid.uuid4()))
+
+    async def test_a_card_never_studied_gets_a_row_that_is_known_and_counts_as_mastered(self):
+        db = self._db()
+        await self.call(content.mark_known, db)
+        (created,) = db.add.call_args.args
+        self.assertEqual((created.known_at, created.due_at, created.introduced_at, created.reps), (NOW, None, None, 0))
+        self.assertAlmostEqual(created.strength, 0.8)
+        db.commit.assert_awaited_once()
+
+    async def test_a_card_with_a_history_keeps_its_schedule(self):
+        existing = state("vocab_item", 1, reps=2, due_at=NOW + DAY, strength=0.4)
+        await self.call(content.mark_known, self._db(existing))
+        self.assertEqual((existing.known_at, existing.reps, existing.due_at), (NOW, 2, NOW + DAY))
+        self.assertAlmostEqual(existing.strength, 0.4)
+
+    async def test_an_unknown_card_is_404(self):
+        from fastapi import HTTPException
+
+        with self.assertRaises(HTTPException) as cm:
+            await self.call(content.mark_known, self._db(card=False), item_id=999)
+        self.assertEqual(cm.exception.status_code, 404)
+
+    async def test_undo_removes_a_row_made_by_the_mark_alone(self):
+        only_mark = state("vocab_item", 1, known_at=NOW, reps=0, lapses=0, introduced_at=None, due_at=None)
+        db = self._db(only_mark)
+        await self.call(content.unmark_known, db)
+        db.delete.assert_awaited_once_with(only_mark)
+
+    async def test_undo_puts_a_studied_card_back_on_its_schedule(self):
+        studied = state("vocab_item", 1, known_at=NOW, reps=2, due_at=NOW - DAY)
+        db = self._db(studied)
+        await self.call(content.unmark_known, db)
+        db.delete.assert_not_called()
+        self.assertEqual((studied.known_at, studied.reps, studied.due_at), (None, 2, NOW - DAY))
+
+    async def test_undo_of_a_card_that_was_not_marked_does_nothing(self):
+        db = self._db(None)
+        await self.call(content.unmark_known, db)
+        db.commit.assert_not_called()
+
+
+class RecordReviewScheduleTests(unittest.IsolatedAsyncioTestCase):
+    def _db(self, existing=None):
+        db = mock.MagicMock()
+        db.add = mock.MagicMock()
+        db.commit = mock.AsyncMock()
+        db.refresh = mock.AsyncMock()
+
+        async def execute(stmt):
+            res = mock.MagicMock()
+            if "item_state" in str(stmt):
+                res.scalar_one_or_none.return_value = existing
+            else:
+                res.scalar_one_or_none.return_value = VocabItem(id=1, hangul="비가 오다", meaning_vi="m", level=1)
+            return res
+
+        db.execute = execute
+        return db
+
+    async def record(self, db, correct, item_type="vocab_item", item_id=1, **extra):
+        body = ItemStateReviewRequest(item_type=item_type, item_id=item_id, correct=correct, **extra)
+        with mock.patch.object(content, "datetime", wraps=datetime) as dt:
+            dt.now.return_value = NOW
+            await content.record_item_review(body, db, SimpleNamespace(id=uuid.uuid4()))
+
+    async def test_a_first_right_answer_creates_the_state_due_tomorrow(self):
+        db = self._db()
+        await self.record(db, True)
+        (created,) = db.add.call_args.args
+        self.assertEqual((created.reps, created.lapses, created.interval_days), (1, 0, 1.0))
+        self.assertEqual((created.due_at, created.introduced_at, created.last_seen), (NOW + DAY, NOW, NOW))
+        self.assertAlmostEqual(created.strength, 0.2)
+
+    async def test_a_first_wrong_answer_is_due_again_in_ten_minutes(self):
+        db = self._db()
+        await self.record(db, False)
+        created, error = [c.args[0] for c in db.add.call_args_list]
+        self.assertEqual((created.reps, created.lapses, created.strength), (0, 1, 0.0))
+        self.assertEqual(created.due_at, NOW + timedelta(minutes=10))
+        self.assertEqual((error.item_id, error.error_type), (1, "vocab_recall"))
+
+    async def test_an_existing_state_moves_up_the_ladder(self):
+        existing = state("vocab_item", 1, reps=1, interval_days=1.0, strength=0.2, due_at=NOW - timedelta(hours=1))
+        db = self._db(existing)
+        await self.record(db, True)
+        db.add.assert_not_called()
+        self.assertEqual((existing.reps, existing.interval_days, existing.due_at), (2, 3.0, NOW + 3 * DAY))
+        self.assertAlmostEqual(existing.strength, 0.4)
+        db.commit.assert_awaited_once()
+
+    async def test_a_wrong_answer_on_an_existing_state_is_a_lapse(self):
+        existing = state("vocab_item", 1, reps=4, interval_days=15.0, strength=0.8, due_at=NOW - DAY)
+        await self.record(self._db(existing), False)
+        self.assertEqual((existing.reps, existing.lapses), (0, 1))
+        self.assertAlmostEqual(existing.strength, 0.6)
+
+    async def test_an_early_right_answer_leaves_the_schedule_alone(self):
+        due = NOW + 5 * DAY
+        existing = state("vocab_item", 1, reps=3, interval_days=7.0, strength=0.6, due_at=due)
+        await self.record(self._db(existing), True)
+        self.assertEqual((existing.reps, existing.interval_days, existing.due_at), (3, 7.0, due))
+        self.assertAlmostEqual(existing.strength, 0.8)
+
+    async def test_a_right_but_unsure_answer_is_a_small_step(self):
+        existing = state("vocab_item", 1, reps=3, interval_days=10.0, strength=0.6, ease=2.2, due_at=NOW - timedelta(hours=1))
+        await self.record(self._db(existing), True, hard=True)
+        self.assertEqual((existing.reps, existing.interval_days, existing.due_at), (3, 12.0, NOW + 12 * DAY))
+        self.assertAlmostEqual(existing.strength, 0.6)
+        self.assertAlmostEqual(existing.ease, 2.05)
+        self.assertTrue(existing.last_correct)
+
+    async def test_a_slow_right_answer_counts_as_unsure(self):
+        existing = state("vocab_item", 1, reps=3, interval_days=10.0, strength=0.6, due_at=NOW - timedelta(hours=1))
+        await self.record(self._db(existing), True, response_ms=9000)
+        self.assertEqual((existing.reps, existing.interval_days), (3, 12.0))
+        quick = state("vocab_item", 1, reps=3, interval_days=10.0, strength=0.6, due_at=NOW - timedelta(hours=1))
+        await self.record(self._db(quick), True, response_ms=3000)
+        self.assertEqual(quick.reps, 4)
+
+    async def test_a_wrong_answer_takes_back_the_known_mark(self):
+        existing = state("vocab_item", 1, reps=2, known_at=NOW - DAY, due_at=NOW + DAY)
+        await self.record(self._db(existing), False)
+        self.assertIsNone(existing.known_at)
+
+    async def test_a_row_from_before_the_schedule_existed_still_works(self):
+        legacy = SimpleNamespace(strength=0.4, last_seen=NOW - DAY, reps=None, lapses=None, ease=None, interval_days=None,
+                                 due_at=None, introduced_at=None)
+        await self.record(self._db(legacy), True)
+        self.assertEqual((legacy.reps, legacy.interval_days), (1, 1.0))
+        self.assertEqual(legacy.introduced_at, NOW)
+
+
+class PlanReviewTaskTests(unittest.IsolatedAsyncioTestCase):
+    async def plan(self, states, articles=(), placement_taken=True):
+        db = FakeDB(states, articles=articles)
+        # the plan also looks up the lesson, the corpus and the editorial article
+        real = db.execute
+
+        async def execute(stmt):
+            text = sql(stmt)
+            if "FROM placement_attempt" in text:  # has the learner taken the entry diagnostic?
+                res = mock.MagicMock()
+                res.first.return_value = (uuid.uuid4(),) if placement_taken else None
+                return res
+            if "count(" in text:
+                res = mock.MagicMock()
+                res.scalar_one.return_value = 0
+                return res
+            if "editorial" in text and "cardinality(" not in text:
+                res = mock.MagicMock()
+                res.scalars.return_value.first.return_value = None
+                res.scalar_one_or_none.return_value = None
+                return res
+            return await real(stmt)
+
+        db.execute = execute
+
+        async def get(model, pk):
+            if model.__name__ == "Journey":  # no journey stage stored yet
+                return None
+            return SimpleNamespace(id=pk, title=dict(LESSONS).get(pk, "?"))
+
+        db.get = get
+        profile = SimpleNamespace(id=uuid.uuid4(), goal="topik4", exam_date=None)
+        with mock.patch.object(content, "datetime", wraps=datetime) as dt:
+            dt.now.return_value = NOW
+            return await content.get_my_plan(db, profile)
+
+    def review_task(self, plan):
+        tasks = [t for t in plan.tasks if t.kind == "review"]
+        return tasks[0] if tasks else None
+
+    async def test_a_new_learner_is_offered_todays_new_cards(self):
+        task = self.review_task(await self.plan([]))
+        self.assertEqual((task.title, task.subtitle, task.status), ("Ôn tập hôm nay", "8 thẻ mới", "todo"))
+
+    async def test_due_and_new_are_both_counted_and_the_review_comes_first(self):
+        plan = await self.plan([state("vocab_item", 1), state("vocab_item", 2, due_at=NOW + 3 * DAY)])
+        self.assertEqual(plan.tasks[0].kind, "review")
+        self.assertEqual(plan.tasks[0].subtitle, "1 thẻ đến hạn · 8 thẻ mới")
+
+    async def test_a_sitting_in_progress_says_so(self):
+        states = [state("vocab_item", 1, last_seen=NOW - timedelta(hours=1))]
+        self.assertEqual(self.review_task(await self.plan(states)).status, "in_progress")
+
+    async def test_when_nothing_is_left_after_studying_today_the_task_is_done(self):
+        every = [("vocab_item", v.id) for v in CONTENT_V] + [("grammar_point", g.id) for g in CONTENT_G]
+        states = [state(t, i, last_seen=NOW - timedelta(hours=1), due_at=NOW + 3 * DAY) for t, i in every]
+        task = self.review_task(await self.plan(states))
+        self.assertEqual(task.status, "done")
+
+    async def test_the_entry_check_comes_first_for_a_learner_who_has_studied_nothing(self):
+        plan = await self.plan([], placement_taken=False)
+        self.assertEqual([t.kind for t in plan.tasks[:2]], ["placement", "review"])
+        task = plan.tasks[0]
+        self.assertEqual((task.title, task.status), ("Tìm bài bắt đầu", "todo"))
+        self.assertIn("2 phút", task.subtitle)
+
+    async def test_once_studying_the_entry_check_follows_the_review(self):
+        states = [state("vocab_item", CONTENT_V[0].id, last_seen=NOW - 2 * DAY, due_at=NOW - DAY)]
+        plan = await self.plan(states, placement_taken=False)
+        self.assertEqual([t.kind for t in plan.tasks[:2]], ["review", "placement"])
+
+    async def test_the_diagnostic_comes_first_when_there_is_no_review_task(self):
+        every = [("vocab_item", v.id) for v in CONTENT_V] + [("grammar_point", g.id) for g in CONTENT_G]
+        states = [state(t, i, last_seen=NOW - 2 * DAY, due_at=NOW + 3 * DAY) for t, i in every]
+        plan = await self.plan(states, placement_taken=False)
+        self.assertEqual(plan.tasks[0].kind, "placement")
+
+    async def test_once_taken_the_diagnostic_is_no_longer_offered(self):
+        self.assertNotIn("placement", [t.kind for t in (await self.plan([])).tasks])
+
+    async def test_nothing_due_and_nothing_studied_today_shows_no_review_task(self):
+        every = [("vocab_item", v.id) for v in CONTENT_V] + [("grammar_point", g.id) for g in CONTENT_G]
+        states = [state(t, i, last_seen=NOW - 2 * DAY, due_at=NOW + 3 * DAY) for t, i in every]
+        self.assertIsNone(self.review_task(await self.plan(states)))
+
+
+if __name__ == "__main__":
+    unittest.main()

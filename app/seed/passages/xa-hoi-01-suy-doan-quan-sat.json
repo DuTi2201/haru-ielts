@@ -1,0 +1,232 @@
+{
+  "lesson": "xa-hoi-01-suy-doan-quan-sat",
+  "items": [
+    {
+      "id": "xa-hoi-01-d1",
+      "kind": "dialogue",
+      "title_ko": "하나 씨가 왜 안 올까?",
+      "title_vi": "Vì sao chị Hana chưa đến?",
+      "scene_vi": "Hai đồng nghiệp trong văn phòng nói về một người chưa đến buổi họp sáng.",
+      "speakers": {
+        "F": "지현",
+        "M": "승우"
+      },
+      "lines": [
+        {
+          "who": "M",
+          "ko": "지현 씨, 하나 씨 자리가 비어 있네요. 아직 안 왔어요?",
+          "vi": "Chị Jihyeon, chỗ chị Hana trống. Chị ấy chưa đến à?"
+        },
+        {
+          "who": "F",
+          "ko": "네, 평소에는 제일 먼저 오는데 오늘은 연락도 없어요.",
+          "vi": "Vâng, thường ngày chị ấy đến đầu tiên mà hôm nay cũng không liên lạc."
+        },
+        {
+          "who": "M",
+          "ko": "길이 많이 막히나 봐요. 아침부터 비가 왔잖아요.",
+          "vi": "Chắc đường đang kẹt nhiều. Từ sáng đã mưa mà."
+        },
+        {
+          "who": "F",
+          "ko": "그럴 수도 있겠네요. 회의는 열 시니까 아직 시간이 있어요.",
+          "vi": "Có thể vậy. Họp lúc mười giờ nên vẫn còn thời gian."
+        },
+        {
+          "who": "M",
+          "ko": "제가 자료를 미리 준비해 놓을 테니까 걱정하지 마세요.",
+          "vi": "Tôi sẽ chuẩn bị tài liệu trước nên chị đừng lo."
+        },
+        {
+          "who": "F",
+          "ko": "고마워요. 어제 하나 씨가 고객 전화를 오래 받던데 많이 피곤한 모양이에요.",
+          "vi": "Cảm ơn anh. Hôm qua thấy chị Hana nghe điện thoại khách hàng lâu, chắc là rất mệt."
+        },
+        {
+          "who": "M",
+          "ko": "그래도 오늘 발표는 하나 씨가 맡았잖아요. 무슨 일이 생긴 건 아니겠지요?",
+          "vi": "Nhưng hôm nay chị Hana nhận phần thuyết trình mà. Không phải có chuyện gì xảy ra chứ?"
+        },
+        {
+          "who": "F",
+          "ko": "잠깐만요, 전화가 왔네요. 지금 오고 있대요.",
+          "vi": "Chờ chút, có điện thoại. Chị ấy nói đang trên đường đến."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V/A + -(으)ㄴ/는 모양이다 · V + -나 보다 · A + -(으)ㄴ가 보다",
+          "regex": "나 봐요|모양이에요"
+        },
+        {
+          "pattern": "V/A + -잖아(요) · N + (이)잖아(요)",
+          "regex": "잖아요"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 테니까 · V/A + -(으)ㄹ 텐데",
+          "regex": "테니까"
+        },
+        {
+          "pattern": "V/A + -던데(요)",
+          "regex": "받던데"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "평소",
+          "seen": "평소에는"
+        },
+        {
+          "word": "회의",
+          "seen": "회의는"
+        },
+        {
+          "word": "자료",
+          "seen": "자료를"
+        }
+      ],
+      "glossary": [],
+      "questions": [
+        {
+          "q_vi": "Vì sao Seungwoo nghĩ chị Hana chưa đến?",
+          "options": [
+            "Chị ấy xin nghỉ phép",
+            "Đường có thể đang kẹt vì mưa",
+            "Chị ấy quên buổi họp"
+          ],
+          "answer": 1,
+          "explain_vi": "Anh nói «길이 많이 막히나 봐요. 아침부터 비가 왔잖아요»."
+        },
+        {
+          "q_vi": "Seungwoo định làm gì?",
+          "options": [
+            "Gọi cho khách hàng",
+            "Dời cuộc họp",
+            "Chuẩn bị tài liệu trước"
+          ],
+          "answer": 2,
+          "explain_vi": "Anh nói «제가 자료를 미리 준비해 놓을 테니까 걱정하지 마세요»."
+        },
+        {
+          "q_vi": "Cuối cùng chị Hana thế nào?",
+          "options": [
+            "Đang trên đường đến",
+            "Đã đến sớm",
+            "Xin nghỉ"
+          ],
+          "answer": 0,
+          "explain_vi": "Jihyeon nói chị «지금 오고 있대요»."
+        }
+      ]
+    },
+    {
+      "id": "xa-hoi-01-r1",
+      "kind": "reading",
+      "title_ko": "표정과 신호",
+      "title_vi": "Nét mặt và tín hiệu",
+      "lines": [
+        {
+          "who": "N",
+          "ko": "사람은 말뿐만 아니라 표정과 몸짓으로도 자신의 생각을 드러낸다.",
+          "vi": "Con người không chỉ bằng lời mà cả bằng nét mặt và cử chỉ cũng bộc lộ suy nghĩ."
+        },
+        {
+          "who": "N",
+          "ko": "예를 들어 이야기를 듣는 도중에 자꾸 시계를 본다면 그 사람은 대화를 빨리 끝내고 싶은 모양이다.",
+          "vi": "Ví dụ, nếu trong lúc nghe chuyện cứ liếc đồng hồ thì người đó có vẻ muốn kết thúc trò chuyện sớm."
+        },
+        {
+          "who": "N",
+          "ko": "상대가 바쁠 텐데 이야기를 길게 이어 가는 것은 좋은 태도가 아니다.",
+          "vi": "Khi đối phương chắc đang bận mà cứ kéo dài câu chuyện thì không phải thái độ tốt."
+        },
+        {
+          "who": "N",
+          "ko": "물론 이런 신호가 항상 맞는 것은 아니다.",
+          "vi": "Tất nhiên những tín hiệu như vậy không phải lúc nào cũng đúng."
+        },
+        {
+          "who": "N",
+          "ko": "그러나 평소에 상대의 작은 움직임을 잘 관찰하면 그 의도를 어느 정도 짐작할 수 있다.",
+          "vi": "Nhưng nếu thường ngày quan sát kỹ cử động nhỏ của đối phương thì có thể đoán phần nào ý đồ."
+        },
+        {
+          "who": "N",
+          "ko": "상대의 마음을 알아채는 일이 좋은 대화의 시작이다.",
+          "vi": "Nhận ra tâm trạng đối phương là bước khởi đầu của cuộc trò chuyện tốt."
+        }
+      ],
+      "uses": [
+        {
+          "pattern": "V/A + -(으)ㄴ/는 모양이다 · V + -나 보다 · A + -(으)ㄴ가 보다",
+          "regex": "모양이다"
+        },
+        {
+          "pattern": "V/A + -(으)ㄹ 테니까 · V/A + -(으)ㄹ 텐데",
+          "regex": "텐데"
+        }
+      ],
+      "keywords": [
+        {
+          "word": "움직임",
+          "seen": "움직임을"
+        },
+        {
+          "word": "의도",
+          "seen": "의도를"
+        },
+        {
+          "word": "관찰",
+          "seen": "관찰하면"
+        },
+        {
+          "word": "짐작",
+          "seen": "짐작할"
+        },
+        {
+          "word": "알아채다",
+          "seen": "알아채는"
+        }
+      ],
+      "glossary": [
+        {
+          "ko": "몸짓",
+          "vi": "cử chỉ, điệu bộ",
+          "seen": "몸짓으로도"
+        }
+      ],
+      "questions": [
+        {
+          "q_vi": "Người cứ liếc đồng hồ khi nghe chuyện được đoán là gì?",
+          "options": [
+            "Rất hứng thú với câu chuyện",
+            "Thích giữ đúng giờ",
+            "Muốn kết thúc trò chuyện sớm"
+          ],
+          "answer": 2,
+          "explain_vi": "Câu 2: «대화를 빨리 끝내고 싶은 모양이다»."
+        },
+        {
+          "q_vi": "Theo bài, điều gì là khởi đầu của cuộc trò chuyện tốt?",
+          "options": [
+            "Kể chuyện thật dài",
+            "Nhận ra tâm trạng đối phương",
+            "Nhìn đồng hồ"
+          ],
+          "answer": 1,
+          "explain_vi": "Câu cuối: «상대의 마음을 알아채는 일이 좋은 대화의 시작이다»."
+        },
+        {
+          "q_vi": "Tác giả nói gì về các tín hiệu này?",
+          "options": [
+            "Lúc nào cũng chính xác",
+            "Không đáng chú ý",
+            "Không phải lúc nào cũng đúng"
+          ],
+          "answer": 2,
+          "explain_vi": "Câu 4: «항상 맞는 것은 아니다»."
+        }
+      ]
+    }
+  ]
+}
