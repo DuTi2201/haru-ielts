@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 9,
- "summary": "Nói về chuyến đi, phương tiện và sự cố khi di chuyển; phân biệt trip, journey, travel. 30 từ chủ đề, 9 cụm động từ, 7 cụm giới từ, 13 mẫu giới từ, 11 họ từ.",
+ "summary": "Nói về chuyến đi, phương tiện và sự cố khi di chuyển; phân biệt trip, journey, travel. 30 từ chủ đề, 8 cụm động từ, 6 cụm giới từ, 13 mẫu giới từ, 10 họ từ.",
  "vocab": [
   {
    "headword": "abroad",
@@ -249,51 +249,41 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word list pp. 184–201"
   },
   {
-   "headword": "fill up",
+   "headword": "get in(to)",
    "pos": "V",
-   "meaning_vi": "đổ đầy, làm đầy",
-   "example_en": "He filled up the bottle with water before the walk.",
-   "example_vi": "Anh ấy đổ đầy chai nước trước khi đi bộ.",
+   "meaning_vi": "lên (ô tô, taxi)",
+   "example_en": "She got into the taxi and gave the driver the address.",
+   "example_vi": "Cô ấy lên taxi và đưa địa chỉ cho tài xế.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
   },
   {
-   "headword": "hurry up",
+   "headword": "get off",
    "pos": "V",
-   "meaning_vi": "nhanh lên",
-   "example_en": "Hurry up, or we will miss the bus.",
-   "example_vi": "Nhanh lên kẻo lỡ xe buýt.",
+   "meaning_vi": "xuống (xe buýt, tàu, máy bay)",
+   "example_en": "Get off the bus at the stop after the bridge.",
+   "example_vi": "Xuống xe buýt ở trạm sau cây cầu.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
   },
   {
-   "headword": "run away (from)",
+   "headword": "get on(to)",
    "pos": "V",
-   "meaning_vi": "chạy trốn",
-   "example_en": "The dog ran away from home during the storm.",
-   "example_vi": "Con chó bỏ nhà chạy mất trong cơn bão.",
+   "meaning_vi": "lên (xe buýt, tàu, máy bay)",
+   "example_en": "We got on the train just before the doors closed.",
+   "example_vi": "Chúng tôi lên tàu ngay trước khi cửa đóng.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
   },
   {
-   "headword": "run out (of)",
+   "headword": "get out (of)",
    "pos": "V",
-   "meaning_vi": "hết, cạn",
-   "example_en": "We have run out of rice, so I need to go shopping.",
-   "example_vi": "Nhà hết gạo rồi nên tôi phải đi mua.",
-   "family": "2 · Phrasal verbs",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
-  },
-  {
-   "headword": "come out",
-   "pos": "V",
-   "meaning_vi": "được xuất bản, ra mắt",
-   "example_en": "Her second book came out last month.",
-   "example_vi": "Cuốn sách thứ hai của cô ấy ra mắt tháng trước.",
+   "meaning_vi": "ra khỏi (ô tô, phòng, tòa nhà)",
+   "example_en": "Everyone got out of the building when the alarm rang.",
+   "example_vi": "Mọi người ra khỏi tòa nhà khi chuông báo động kêu.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
@@ -309,11 +299,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
   },
   {
-   "headword": "go off",
+   "headword": "go back (to)",
    "pos": "V",
-   "meaning_vi": "ôi, thiu (đồ ăn)",
-   "example_en": "Put the milk in the fridge or it will go off.",
-   "example_vi": "Cất sữa vào tủ lạnh kẻo hỏng.",
+   "meaning_vi": "quay lại",
+   "example_en": "I would love to go back to Da Nang one day.",
+   "example_vi": "Tôi rất muốn một ngày nào đó quay lại Đà Nẵng.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
@@ -329,11 +319,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
   },
   {
-   "headword": "set up",
+   "headword": "take off",
    "pos": "V",
-   "meaning_vi": "thành lập",
-   "example_en": "She set up her own company at the age of 25.",
-   "example_vi": "Cô ấy lập công ty riêng năm 25 tuổi.",
+   "meaning_vi": "cất cánh; cởi ra",
+   "example_en": "The plane took off two hours late.",
+   "example_vi": "Máy bay cất cánh muộn hai tiếng.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
@@ -399,16 +389,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
   },
   {
-   "headword": "in love (with)",
-   "pos": "X",
-   "meaning_vi": "đang yêu",
-   "example_en": "He is in love with a girl from his class.",
-   "example_vi": "Cậu ấy đang yêu một cô bạn cùng lớp.",
-   "family": "3 · Prepositional phrases",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
-  },
-  {
    "headword": "arrive at",
    "pos": "X",
    "meaning_vi": "đến (địa điểm nhỏ: sân bay, khách sạn)",
@@ -459,6 +439,16 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
   },
   {
+   "headword": "prepare for",
+   "pos": "X",
+   "meaning_vi": "chuẩn bị cho",
+   "example_en": "How do you prepare for an exam?",
+   "example_vi": "Bạn chuẩn bị cho kỳ thi thế nào?",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
+  },
+  {
    "headword": "provide sb with",
    "pos": "X",
    "meaning_vi": "cung cấp cho ai cái gì",
@@ -479,21 +469,21 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
   },
   {
-   "headword": "amazed at/by",
+   "headword": "ask for",
    "pos": "X",
-   "meaning_vi": "kinh ngạc trước",
-   "example_en": "We were amazed at the size of the building.",
-   "example_vi": "Chúng tôi kinh ngạc trước quy mô tòa nhà.",
+   "meaning_vi": "hỏi xin, yêu cầu",
+   "example_en": "She asked for a glass of water.",
+   "example_vi": "Cô ấy xin một cốc nước.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
   },
   {
-   "headword": "careful with",
+   "headword": "late for",
    "pos": "X",
-   "meaning_vi": "cẩn thận với",
-   "example_en": "Be careful with that knife.",
-   "example_vi": "Cẩn thận với con dao đó.",
+   "meaning_vi": "muộn (việc gì)",
+   "example_en": "I was late for work twice last week.",
+   "example_vi": "Tuần trước tôi đi làm muộn hai lần.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
@@ -509,16 +499,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
   },
   {
-   "headword": "take part in",
-   "pos": "X",
-   "meaning_vi": "tham gia",
-   "example_en": "Over 500 people took part in the race.",
-   "example_vi": "Hơn 500 người tham gia cuộc đua.",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
-  },
-  {
    "headword": "wait for",
    "pos": "X",
    "meaning_vi": "chờ",
@@ -529,11 +509,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
   },
   {
-   "headword": "work for",
+   "headword": "ask (sb) about",
    "pos": "X",
-   "meaning_vi": "làm việc cho",
-   "example_en": "She works for a large bank.",
-   "example_vi": "Cô ấy làm cho một ngân hàng lớn.",
+   "meaning_vi": "hỏi (ai) về",
+   "example_en": "The officer asked us about our travel plans.",
+   "example_vi": "Viên chức hỏi chúng tôi về kế hoạch đi lại.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39"
@@ -552,15 +532,6 @@
    "pos": "N",
    "meaning_vi": "phía sau",
    "note_vi": "Họ từ: `backwards` (trạng từ)",
-   "family": "5 · Word formation",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word formation pp. 212–216"
-  },
-  {
-   "headword": "centre",
-   "pos": "N",
-   "meaning_vi": "trung tâm",
-   "note_vi": "Họ từ: `central` (tính từ)",
    "family": "5 · Word formation",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 9, pp. 36-39; word formation pp. 212–216"
@@ -698,8 +669,6 @@
   "B1U09C25",
   "B1U09C26",
   "B1U09C27",
-  "B1U09C28",
-  "B1U09C29",
   "B1U09B1",
   "B1U09B2",
   "B1U09B3",
@@ -713,8 +682,13 @@
   "B1U09F8",
   "B1U09D1",
   "B1U09R1",
+  "B1U09R2",
+  "B1U09T1",
   "B1U09W1",
-  "B1U09S1"
+  "B1U09S1",
+  "B1U09S2",
+  "B1U09S3",
+  "B1U09S4"
  ],
  "sessions": [
   {
@@ -777,22 +751,20 @@
    "title_vi": "Cụm động từ và cụm giới từ 1",
    "can_do_vi": "Sau buổi này bạn chọn đúng tiểu từ và giới từ trong các cụm cố định của Unit, không dịch từng chữ từ tiếng Việt.",
    "vocab": [
-    "fill up",
-    "hurry up",
-    "run away (from)",
-    "run out (of)",
-    "come out",
+    "get in(to)",
+    "get off",
+    "get on(to)",
+    "get out (of)",
     "go away",
-    "go off",
+    "go back (to)",
     "set off",
-    "set up",
+    "take off",
     "by air/sea/bus/car",
     "on board",
     "on the coast",
     "on foot",
     "on holiday",
-    "on schedule",
-    "in love (with)"
+    "on schedule"
    ],
    "check": [
     "B1U09C1",
@@ -809,8 +781,6 @@
     "B1U09C12",
     "B1U09C13",
     "B1U09C14",
-    "B1U09C15",
-    "B1U09C16",
     "B1U09B1",
     "B1U09B2",
     "B1U09B3"
@@ -825,16 +795,18 @@
     "close to",
     "famous for",
     "far from",
+    "prepare for",
     "provide sb with",
     "suitable for",
-    "amazed at/by",
-    "careful with",
+    "ask for",
+    "late for",
     "look at",
-    "take part in",
     "wait for",
-    "work for"
+    "ask (sb) about"
    ],
    "check": [
+    "B1U09C15",
+    "B1U09C16",
     "B1U09C17",
     "B1U09C18",
     "B1U09C19",
@@ -845,9 +817,7 @@
     "B1U09C24",
     "B1U09C25",
     "B1U09C26",
-    "B1U09C27",
-    "B1U09C28",
-    "B1U09C29"
+    "B1U09C27"
    ]
   },
   {
@@ -856,7 +826,6 @@
    "vocab": [
     "attract",
     "back",
-    "centre",
     "choose",
     "comfort",
     "depart",
@@ -877,6 +846,8 @@
     "B1U09F8",
     "B1U09D1",
     "B1U09R1",
+    "B1U09R2",
+    "B1U09T1",
     "B1U09W1",
     "B1U09S1"
    ]
@@ -886,10 +857,6 @@
   {
    "title": "Nguồn",
    "body": "Danh sách từ theo Destination B1 (Mann & Taylore-Knowles, Macmillan), pp. 184–216. Nghĩa tiếng Việt, câu ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
-  },
-  {
-   "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: fill up, by air/sea/bus/car, centre."
   }
  ]
 }

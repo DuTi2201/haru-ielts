@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 27,
- "summary": "Nói về nghề nghiệp, thu nhập và sự nghiệp; phân biệt job, work, career, profession và salary, wage, income. 29 từ chủ đề, 4 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 10 họ từ.",
+ "summary": "Nói về nghề nghiệp, thu nhập và sự nghiệp; phân biệt job, work, career, profession và salary, wage, income. 30 từ chủ đề, 8 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 10 họ từ.",
  "vocab": [
   {
    "headword": "ambition",
@@ -85,6 +85,14 @@
    "headword": "deserve",
    "pos": "V",
    "meaning_vi": "xứng đáng",
+   "family": "1 · Topic vocabulary",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115; word list pp. 184–201"
+  },
+  {
+   "headword": "earn",
+   "pos": "V",
+   "meaning_vi": "kiếm (tiền)",
    "family": "1 · Topic vocabulary",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115; word list pp. 184–201"
@@ -244,41 +252,81 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115; word list pp. 184–201"
   },
   {
-   "headword": "break in(to)",
+   "headword": "call off",
    "pos": "V",
-   "meaning_vi": "đột nhập",
-   "example_en": "Someone broke into the shop and took the computers.",
-   "example_vi": "Có kẻ đột nhập vào cửa hàng và lấy máy tính.",
+   "meaning_vi": "hủy bỏ",
+   "example_en": "The match was called off because of heavy rain.",
+   "example_vi": "Trận đấu bị hủy vì mưa to.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115"
   },
   {
-   "headword": "come back (from)",
+   "headword": "give back",
    "pos": "V",
-   "meaning_vi": "trở về",
-   "example_en": "My sister comes back from Japan next week.",
-   "example_vi": "Chị tôi từ Nhật về vào tuần sau.",
+   "meaning_vi": "trả lại",
+   "example_en": "Remember to give the dictionary back to the library.",
+   "example_vi": "Nhớ trả từ điển cho thư viện.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115"
   },
   {
-   "headword": "come on",
+   "headword": "stay up",
    "pos": "V",
-   "meaning_vi": "nhanh lên nào",
-   "example_en": "Come on, the film starts in five minutes!",
-   "example_vi": "Nhanh lên, năm phút nữa phim chiếu rồi!",
+   "meaning_vi": "thức khuya",
+   "example_en": "I stayed up until midnight to finish my homework.",
+   "example_vi": "Tôi thức đến nửa đêm để làm xong bài tập.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115"
   },
   {
-   "headword": "have on",
+   "headword": "go on",
    "pos": "V",
-   "meaning_vi": "đang mặc, đang đội",
-   "example_en": "She had on a red coat, so she was easy to see.",
-   "example_vi": "Cô ấy mặc áo khoác đỏ nên rất dễ thấy.",
+   "meaning_vi": "tiếp tục; diễn ra",
+   "example_en": "The lesson went on for three hours.",
+   "example_vi": "Buổi học kéo dài ba tiếng.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115"
+  },
+  {
+   "headword": "put off",
+   "pos": "V",
+   "meaning_vi": "hoãn lại",
+   "example_en": "They put off the meeting until Monday.",
+   "example_vi": "Họ hoãn cuộc họp đến thứ Hai.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115"
+  },
+  {
+   "headword": "set up",
+   "pos": "V",
+   "meaning_vi": "thành lập",
+   "example_en": "She set up her own company at the age of 25.",
+   "example_vi": "Cô ấy lập công ty riêng năm 25 tuổi.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115"
+  },
+  {
+   "headword": "take away",
+   "pos": "V",
+   "meaning_vi": "mang đi, dọn đi",
+   "example_en": "The waiter took away the empty plates.",
+   "example_vi": "Người phục vụ dọn những chiếc đĩa không đi.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115"
+  },
+  {
+   "headword": "take over",
+   "pos": "V",
+   "meaning_vi": "tiếp quản, mua lại",
+   "example_en": "A larger company took over the business last year.",
+   "example_vi": "Một công ty lớn hơn đã mua lại doanh nghiệp năm ngoái.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115"
@@ -324,21 +372,21 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115"
   },
   {
-   "headword": "at first",
-   "pos": "X",
-   "meaning_vi": "ban đầu",
-   "example_en": "At first I did not like the city, but now I love it.",
-   "example_vi": "Ban đầu tôi không thích thành phố này, nhưng giờ thì rất thích.",
-   "family": "3 · Prepositional phrases",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115"
-  },
-  {
    "headword": "at the moment",
    "pos": "X",
    "meaning_vi": "hiện tại, lúc này",
    "example_en": "She is not working at the moment.",
    "example_vi": "Hiện tại cô ấy không đi làm.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115"
+  },
+  {
+   "headword": "on time",
+   "pos": "X",
+   "meaning_vi": "đúng giờ",
+   "example_en": "The train left exactly on time.",
+   "example_vi": "Tàu rời ga đúng giờ.",
    "family": "3 · Prepositional phrases",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115"
@@ -414,31 +462,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115"
   },
   {
-   "headword": "believe in",
+   "headword": "careful with",
    "pos": "X",
-   "meaning_vi": "tin vào",
-   "example_en": "I believe in equal chances for everyone.",
-   "example_vi": "Tôi tin vào cơ hội bình đẳng cho mọi người.",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115"
-  },
-  {
-   "headword": "change sth (from sth) into",
-   "pos": "X",
-   "meaning_vi": "đổi cái gì thành",
-   "example_en": "They changed the old factory into a museum.",
-   "example_vi": "Họ biến nhà máy cũ thành bảo tàng.",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115"
-  },
-  {
-   "headword": "kind to",
-   "pos": "X",
-   "meaning_vi": "tốt bụng với",
-   "example_en": "She is always kind to new students.",
-   "example_vi": "Cô ấy luôn tốt với học sinh mới.",
+   "meaning_vi": "cẩn thận với",
+   "example_en": "Be careful with that knife.",
+   "example_vi": "Cẩn thận với con dao đó.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115"
@@ -454,11 +482,31 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115"
   },
   {
+   "headword": "ready for",
+   "pos": "X",
+   "meaning_vi": "sẵn sàng cho",
+   "example_en": "Are you ready for the trip?",
+   "example_vi": "Bạn sẵn sàng cho chuyến đi chưa?",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115"
+  },
+  {
    "headword": "work as",
    "pos": "X",
    "meaning_vi": "làm nghề",
    "example_en": "He works as a nurse.",
    "example_vi": "Anh ấy làm y tá.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115"
+  },
+  {
+   "headword": "work for",
+   "pos": "X",
+   "meaning_vi": "làm việc cho",
+   "example_en": "She works for a large bank.",
+   "example_vi": "Cô ấy làm cho một ngân hàng lớn.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 27, pp. 112-115"
@@ -582,6 +630,10 @@
   "B1U27C20",
   "B1U27C21",
   "B1U27C22",
+  "B1U27C23",
+  "B1U27C24",
+  "B1U27C25",
+  "B1U27C26",
   "B1U27B1",
   "B1U27B2",
   "B1U27B3",
@@ -594,13 +646,18 @@
   "B1U27F7",
   "B1U27D1",
   "B1U27R1",
+  "B1U27R2",
+  "B1U27T1",
   "B1U27W1",
-  "B1U27S1"
+  "B1U27S1",
+  "B1U27S2",
+  "B1U27S3",
+  "B1U27S4"
  ],
  "sessions": [
   {
    "title_vi": "Từ chủ đề 1 · Công việc và thu nhập",
-   "can_do_vi": "Sau buổi này bạn nhận ra và dùng được 15 từ chủ đề «Công việc và thu nhập», từ «ambition» đến «industry».",
+   "can_do_vi": "Sau buổi này bạn nhận ra và dùng được 15 từ chủ đề «Công việc và thu nhập», từ «ambition» đến «income».",
    "vocab": [
     "ambition",
     "application",
@@ -612,11 +669,11 @@
     "contract",
     "department",
     "deserve",
+    "earn",
     "fame",
     "goal",
     "impress",
-    "income",
-    "industry"
+    "income"
    ],
    "check": [
     "B1U27M2",
@@ -629,8 +686,9 @@
   },
   {
    "title_vi": "Từ chủ đề 2 · Công việc và thu nhập",
-   "can_do_vi": "Sau buổi này bạn nhận ra và dùng được 14 từ chủ đề «Công việc và thu nhập», từ «interview» đến «wealthy».",
+   "can_do_vi": "Sau buổi này bạn nhận ra và dùng được 15 từ chủ đề «Công việc và thu nhập», từ «industry» đến «wealthy».",
    "vocab": [
+    "industry",
     "interview",
     "leader",
     "manager",
@@ -657,16 +715,20 @@
    "title_vi": "Cụm động từ và cụm giới từ 1",
    "can_do_vi": "Sau buổi này bạn chọn đúng tiểu từ và giới từ trong các cụm cố định của Unit, không dịch từng chữ từ tiếng Việt.",
    "vocab": [
-    "break in(to)",
-    "come back (from)",
-    "come on",
-    "have on",
+    "call off",
+    "give back",
+    "stay up",
+    "go on",
+    "put off",
+    "set up",
+    "take away",
+    "take over",
     "on business",
     "in charge (of)",
     "on/off duty",
     "on strike",
-    "at first",
-    "at the moment"
+    "at the moment",
+    "on time"
    ],
    "check": [
     "B1U27C1",
@@ -679,6 +741,10 @@
     "B1U27C8",
     "B1U27C9",
     "B1U27C10",
+    "B1U27C11",
+    "B1U27C12",
+    "B1U27C13",
+    "B1U27C14",
     "B1U27B1",
     "B1U27B2",
     "B1U27B3"
@@ -695,17 +761,13 @@
     "inform sb about",
     "refer to",
     "responsible for",
-    "believe in",
-    "change sth (from sth) into",
-    "kind to",
+    "careful with",
     "a kind of",
-    "work as"
+    "ready for",
+    "work as",
+    "work for"
    ],
    "check": [
-    "B1U27C11",
-    "B1U27C12",
-    "B1U27C13",
-    "B1U27C14",
     "B1U27C15",
     "B1U27C16",
     "B1U27C17",
@@ -713,7 +775,11 @@
     "B1U27C19",
     "B1U27C20",
     "B1U27C21",
-    "B1U27C22"
+    "B1U27C22",
+    "B1U27C23",
+    "B1U27C24",
+    "B1U27C25",
+    "B1U27C26"
    ]
   },
   {
@@ -738,6 +804,8 @@
     "B1U27F7",
     "B1U27D1",
     "B1U27R1",
+    "B1U27R2",
+    "B1U27T1",
     "B1U27W1",
     "B1U27S1"
    ]
@@ -747,10 +815,6 @@
   {
    "title": "Nguồn",
    "body": "Danh sách từ theo Destination B1 (Mann & Taylore-Knowles, Macmillan), pp. 184–216. Nghĩa tiếng Việt, câu ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
-  },
-  {
-   "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: boss, succeed."
   }
  ]
 }

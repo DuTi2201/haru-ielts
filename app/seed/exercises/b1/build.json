@@ -226,18 +226,17 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 3",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Anh ấy bắt đầu đi bơi để khỏe hơn.",
+   "meaning_vi": "Bạn vặn to tiếng lên được không?",
    "tiles": [
-    "took",
-    "swimming",
-    "get",
-    "He",
-    "to",
+    "you",
     "up",
-    "fit"
+    "volume",
+    "Could",
+    "the",
+    "turn"
    ],
    "answers": [
-    "He took up swimming to get fit"
+    "Could you turn up the volume"
    ]
   },
   {
@@ -247,18 +246,18 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 3",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Máy bay cất cánh muộn hai tiếng.",
+   "meaning_vi": "Anh ấy bắt đầu đi bơi để khỏe hơn.",
    "tiles": [
-    "off",
-    "plane",
-    "two",
-    "hours",
-    "late",
+    "swimming",
     "took",
-    "The"
+    "to",
+    "get",
+    "fit",
+    "up",
+    "He"
    ],
    "answers": [
-    "The plane took off two hours late"
+    "He took up swimming to get fit"
    ]
   },
   {
@@ -675,19 +674,20 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 6",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Cứ đọc tiếp trong lúc tôi ra mở cửa.",
+   "meaning_vi": "Nếu viết sai, cứ gạch đi.",
    "tiles": [
-    "answer",
-    "on",
-    "door",
-    "I",
-    "Carry",
-    "reading",
-    "the",
-    "while"
+    "make",
+    "mistake,",
+    "you",
+    "out",
+    "it",
+    "cross",
+    "If",
+    "just",
+    "a"
    ],
    "answers": [
-    "Carry on reading while I answer the door"
+    "If you make a mistake, just cross it out"
    ]
   },
   {
@@ -697,20 +697,19 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 6",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Nếu viết sai, cứ gạch đi.",
+   "meaning_vi": "Ghi từ mới vào vở.",
    "tiles": [
-    "it",
-    "cross",
-    "If",
-    "make",
-    "mistake,",
-    "out",
-    "a",
-    "just",
-    "you"
+    "in",
+    "notebook",
+    "Write",
+    "new",
+    "the",
+    "your",
+    "words",
+    "down"
    ],
    "answers": [
-    "If you make a mistake, just cross it out"
+    "Write down the new words in your notebook"
    ]
   },
   {
@@ -1139,19 +1138,18 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 9",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Nhanh lên kẻo lỡ xe buýt.",
+   "meaning_vi": "Máy bay cất cánh muộn hai tiếng.",
    "tiles": [
-    "bus",
-    "the",
-    "will",
-    "up,",
-    "Hurry",
-    "miss",
-    "we",
-    "or"
+    "two",
+    "The",
+    "took",
+    "off",
+    "plane",
+    "late",
+    "hours"
    ],
    "answers": [
-    "Hurry up, or we will miss the bus"
+    "The plane took off two hours late"
    ]
   },
   {
@@ -1161,18 +1159,19 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 9",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Cuốn sách thứ hai của cô ấy ra mắt tháng trước.",
+   "meaning_vi": "Chúng tôi khởi hành sớm để tránh tắc đường.",
    "tiles": [
-    "last",
-    "second",
-    "Her",
-    "out",
-    "month",
-    "book",
-    "came"
+    "the",
+    "set",
+    "We",
+    "avoid",
+    "to",
+    "early",
+    "off",
+    "traffic"
    ],
    "answers": [
-    "Her second book came out last month"
+    "We set off early to avoid the traffic"
    ]
   },
   {
@@ -1182,19 +1181,21 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 9",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Chúng tôi khởi hành sớm để tránh tắc đường.",
+   "meaning_vi": "Xuống xe buýt ở trạm sau cây cầu.",
    "tiles": [
-    "early",
     "the",
-    "traffic",
-    "set",
-    "avoid",
+    "the",
+    "bus",
+    "Get",
+    "after",
+    "stop",
+    "the",
     "off",
-    "We",
-    "to"
+    "at",
+    "bridge"
    ],
    "answers": [
-    "We set off early to avoid the traffic"
+    "Get off the bus at the stop after the bridge"
    ]
   },
   {
@@ -1250,28 +1251,6 @@
    "title_vi": "Biến đổi từ loại · Unit 9",
    "points": 3,
    "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
-   "text": "Dạng tính từ của «centre» là ( ㉠ ).",
-   "blanks": [
-    {
-     "id": "㉠",
-     "points": 3,
-     "accepted": [
-      "central"
-     ],
-     "common_errors_vi": "`centre` → `central` (tính từ)."
-    }
-   ],
-   "tips_vi": []
-  },
-  {
-   "id": "B1U09F4",
-   "skill": "build",
-   "type": "write_fill",
-   "rung": 2,
-   "number": "Bước 2",
-   "title_vi": "Biến đổi từ loại · Unit 9",
-   "points": 3,
-   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
    "text": "Dạng danh từ của «choose» là ( ㉠ ).",
    "blanks": [
     {
@@ -1286,7 +1265,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U09F5",
+   "id": "B1U09F4",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -1308,7 +1287,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U09F6",
+   "id": "B1U09F5",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -1330,7 +1309,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U09F7",
+   "id": "B1U09F6",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -1352,7 +1331,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U09F8",
+   "id": "B1U09F7",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -1369,6 +1348,28 @@
       "driver"
      ],
      "common_errors_vi": "`drive` → `driver` (danh từ chỉ người)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U09F8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 9",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «fly» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "flight"
+     ],
+     "common_errors_vi": "`fly` → `flight` (danh từ)."
     }
    ],
    "tips_vi": []
@@ -1592,21 +1593,19 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 12",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Tôi lớn lên ở một thị trấn nhỏ gần biển.",
+   "meaning_vi": "Tôi hòa hợp với tất cả bạn cùng lớp.",
    "tiles": [
     "I",
-    "sea",
-    "near",
-    "up",
-    "grew",
-    "town",
-    "the",
-    "in",
-    "a",
-    "small"
+    "well",
+    "classmates",
+    "with",
+    "get",
+    "on",
+    "my",
+    "all"
    ],
    "answers": [
-    "I grew up in a small town near the sea"
+    "I get on well with all my classmates"
    ]
   },
   {
@@ -1616,19 +1615,21 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 12",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Bố tôi bỏ thuốc lá mười năm trước.",
+   "meaning_vi": "Tôi lớn lên ở một thị trấn nhỏ gần biển.",
    "tiles": [
-    "years",
-    "smoking",
-    "My",
-    "father",
-    "gave",
+    "in",
+    "a",
     "up",
-    "ten",
-    "ago"
+    "I",
+    "the",
+    "town",
+    "grew",
+    "small",
+    "sea",
+    "near"
    ],
    "answers": [
-    "My father gave up smoking ten years ago"
+    "I grew up in a small town near the sea"
    ]
   },
   {
@@ -1638,21 +1639,18 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 12",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Anh ấy ngã trên băng và bị đau tay.",
+   "meaning_vi": "Họ chia tay sau ba năm bên nhau.",
    "tiles": [
-    "and",
-    "He",
-    "his",
-    "fell",
-    "arm",
-    "down",
-    "hurt",
-    "the",
-    "on",
-    "ice"
+    "after",
+    "They",
+    "years",
+    "three",
+    "together",
+    "split",
+    "up"
    ],
    "answers": [
-    "He fell down on the ice and hurt his arm"
+    "They split up after three years together"
    ]
   },
   {
@@ -1708,28 +1706,6 @@
    "title_vi": "Biến đổi từ loại · Unit 12",
    "points": 3,
    "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
-   "text": "Dạng tính từ của «belief» là ( ㉠ ).",
-   "blanks": [
-    {
-     "id": "㉠",
-     "points": 3,
-     "accepted": [
-      "believable"
-     ],
-     "common_errors_vi": "`belief` → `believable` (tính từ)."
-    }
-   ],
-   "tips_vi": []
-  },
-  {
-   "id": "B1U12F4",
-   "skill": "build",
-   "type": "write_fill",
-   "rung": 2,
-   "number": "Bước 2",
-   "title_vi": "Biến đổi từ loại · Unit 12",
-   "points": 3,
-   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
    "text": "Dạng tính từ của «care» là ( ㉠ ).",
    "blanks": [
     {
@@ -1744,7 +1720,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U12F5",
+   "id": "B1U12F4",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -1766,7 +1742,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U12F6",
+   "id": "B1U12F5",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -1788,7 +1764,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U12F7",
+   "id": "B1U12F6",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -1810,7 +1786,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U12F8",
+   "id": "B1U12F7",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -1827,6 +1803,28 @@
       "personality"
      ],
      "common_errors_vi": "`person` → `personality` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U12F8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 12",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ chỉ người của «relate» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "relative"
+     ],
+     "common_errors_vi": "`relate` → `relative` (danh từ chỉ người)."
     }
    ],
    "tips_vi": []
@@ -2053,19 +2051,19 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 15",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Bạn cộng giúp tôi mấy con số này được không?",
+   "meaning_vi": "Nhanh lên kẻo lỡ xe buýt.",
    "tiles": [
-    "Can",
-    "add",
-    "me",
-    "numbers",
-    "you",
-    "up",
-    "for",
-    "these"
+    "Hurry",
+    "or",
+    "bus",
+    "miss",
+    "up,",
+    "we",
+    "the",
+    "will"
    ],
    "answers": [
-    "Can you add up these numbers for me"
+    "Hurry up, or we will miss the bus"
    ]
   },
   {
@@ -2075,20 +2073,19 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 15",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Cô ấy đang để dành tiền đi Hàn Quốc.",
+   "meaning_vi": "Bạn cộng giúp tôi mấy con số này được không?",
    "tiles": [
-    "saving",
     "for",
-    "to",
-    "Korea",
+    "these",
+    "numbers",
+    "me",
     "up",
-    "is",
-    "trip",
-    "a",
-    "She"
+    "you",
+    "add",
+    "Can"
    ],
    "answers": [
-    "She is saving up for a trip to Korea"
+    "Can you add up these numbers for me"
    ]
   },
   {
@@ -2098,21 +2095,20 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 15",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Cô ấy tặng sách cũ cho một trường học gần nhà.",
+   "meaning_vi": "Cô ấy đang để dành tiền đi Hàn Quốc.",
    "tiles": [
-    "a",
-    "local",
-    "books",
-    "She",
-    "school",
-    "her",
     "to",
-    "away",
-    "old",
-    "gave"
+    "saving",
+    "She",
+    "up",
+    "Korea",
+    "trip",
+    "a",
+    "for",
+    "is"
    ],
    "answers": [
-    "She gave away her old books to a local school"
+    "She is saving up for a trip to Korea"
    ]
   },
   {
@@ -2212,6 +2208,28 @@
    "title_vi": "Biến đổi từ loại · Unit 15",
    "points": 3,
    "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «judge» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "judgement"
+     ],
+     "common_errors_vi": "`judge` → `judgement` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U15F6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 15",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
    "text": "Dạng danh từ của «serve» là ( ㉠ ).",
    "blanks": [
     {
@@ -2226,7 +2244,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U15F6",
+   "id": "B1U15F7",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -2248,7 +2266,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U15F7",
+   "id": "B1U15F8",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -2256,15 +2274,15 @@
    "title_vi": "Biến đổi từ loại · Unit 15",
    "points": 3,
    "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
-   "text": "Dạng tính từ của «value» là ( ㉠ ).",
+   "text": "Dạng tính từ của «use» là ( ㉠ ).",
    "blanks": [
     {
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "valuable"
+      "useful"
      ],
-     "common_errors_vi": "`value` → `valuable` (tính từ)."
+     "common_errors_vi": "`use` → `useful` (tính từ)."
     }
    ],
    "tips_vi": []
@@ -2489,17 +2507,19 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 18",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Bạn vặn to tiếng lên được không?",
+   "meaning_vi": "Cậu ấy bịa ra lý do đi muộn.",
    "tiles": [
-    "volume",
-    "the",
-    "turn",
-    "Could",
+    "for",
+    "excuse",
     "up",
-    "you"
+    "made",
+    "He",
+    "late",
+    "being",
+    "an"
    ],
    "answers": [
-    "Could you turn up the volume"
+    "He made up an excuse for being late"
    ]
   },
   {
@@ -2509,19 +2529,19 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 18",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Cậu ấy bịa ra lý do đi muộn.",
+   "meaning_vi": "Gió giật bay một phần mái nhà.",
    "tiles": [
-    "made",
-    "He",
-    "late",
-    "being",
-    "excuse",
-    "for",
-    "up",
-    "an"
+    "wind",
+    "The",
+    "roof",
+    "the",
+    "part",
+    "of",
+    "pulled",
+    "off"
    ],
    "answers": [
-    "He made up an excuse for being late"
+    "The wind pulled off part of the roof"
    ]
   },
   {
@@ -2531,19 +2551,20 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 18",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Gió giật bay một phần mái nhà.",
+   "meaning_vi": "Cô ấy bật đài nghe tin tức.",
    "tiles": [
-    "The",
-    "off",
     "the",
-    "pulled",
-    "wind",
-    "part",
-    "roof",
-    "of"
+    "She",
+    "turned",
+    "news",
+    "radio",
+    "hear",
+    "the",
+    "on",
+    "to"
    ],
    "answers": [
-    "The wind pulled off part of the roof"
+    "She turned on the radio to hear the news"
    ]
   },
   {
@@ -2957,19 +2978,18 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 21",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Anh ấy chào rồi cúp máy.",
+   "meaning_vi": "Cuốn sách thứ hai của cô ấy ra mắt tháng trước.",
    "tiles": [
-    "hung",
-    "said",
-    "the",
-    "up",
-    "goodbye",
-    "He",
-    "phone",
-    "and"
+    "month",
+    "out",
+    "last",
+    "book",
+    "Her",
+    "came",
+    "second"
    ],
    "answers": [
-    "He said goodbye and hung up the phone"
+    "Her second book came out last month"
    ]
   },
   {
@@ -2979,21 +2999,19 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 21",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Chờ chút, tôi phải tìm chìa khóa.",
+   "meaning_vi": "Anh ấy chào rồi cúp máy.",
    "tiles": [
-    "to",
-    "keys",
-    "find",
-    "need",
-    "minute,",
-    "I",
-    "on",
-    "a",
-    "Hang",
-    "my"
+    "goodbye",
+    "phone",
+    "up",
+    "and",
+    "hung",
+    "the",
+    "said",
+    "He"
    ],
    "answers": [
-    "Hang on a minute, I need to find my keys"
+    "He said goodbye and hung up the phone"
    ]
   },
   {
@@ -3473,6 +3491,28 @@
    "title_vi": "Biến đổi từ loại · Unit 24",
    "points": 3,
    "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «belief» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "believable"
+     ],
+     "common_errors_vi": "`belief` → `believable` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U24F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 24",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
    "text": "Dạng tính từ của «courage» là ( ㉠ ).",
    "blanks": [
     {
@@ -3487,7 +3527,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U24F3",
+   "id": "B1U24F4",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -3509,7 +3549,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U24F4",
+   "id": "B1U24F5",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -3531,73 +3571,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U24F5",
-   "skill": "build",
-   "type": "write_fill",
-   "rung": 2,
-   "number": "Bước 2",
-   "title_vi": "Biến đổi từ loại · Unit 24",
-   "points": 3,
-   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
-   "text": "Dạng danh từ của «identify» là ( ㉠ ).",
-   "blanks": [
-    {
-     "id": "㉠",
-     "points": 3,
-     "accepted": [
-      "identity"
-     ],
-     "common_errors_vi": "`identify` → `identity` (danh từ)."
-    }
-   ],
-   "tips_vi": []
-  },
-  {
    "id": "B1U24F6",
-   "skill": "build",
-   "type": "write_fill",
-   "rung": 2,
-   "number": "Bước 2",
-   "title_vi": "Biến đổi từ loại · Unit 24",
-   "points": 3,
-   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
-   "text": "Dạng danh từ của «invade» là ( ㉠ ).",
-   "blanks": [
-    {
-     "id": "㉠",
-     "points": 3,
-     "accepted": [
-      "invasion"
-     ],
-     "common_errors_vi": "`invade` → `invasion` (danh từ)."
-    }
-   ],
-   "tips_vi": []
-  },
-  {
-   "id": "B1U24F7",
-   "skill": "build",
-   "type": "write_fill",
-   "rung": 2,
-   "number": "Bước 2",
-   "title_vi": "Biến đổi từ loại · Unit 24",
-   "points": 3,
-   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
-   "text": "Dạng danh từ của «judge» là ( ㉠ ).",
-   "blanks": [
-    {
-     "id": "㉠",
-     "points": 3,
-     "accepted": [
-      "judgement"
-     ],
-     "common_errors_vi": "`judge` → `judgement` (danh từ)."
-    }
-   ],
-   "tips_vi": []
-  },
-  {
-   "id": "B1U24F8",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -3614,6 +3588,50 @@
       "alive"
      ],
      "common_errors_vi": "`life` → `alive` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U24F7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 24",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «nation» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "nationality"
+     ],
+     "common_errors_vi": "`nation` → `nationality` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U24F8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 24",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «peace» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "peaceful"
+     ],
+     "common_errors_vi": "`peace` → `peaceful` (tính từ)."
     }
    ],
    "tips_vi": []
@@ -3841,19 +3859,18 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 27",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Nhanh lên, năm phút nữa phim chiếu rồi!",
+   "meaning_vi": "Buổi học kéo dài ba tiếng.",
    "tiles": [
-    "in",
-    "five",
-    "the",
-    "starts",
-    "film",
-    "on,",
-    "minutes",
-    "Come"
+    "went",
+    "three",
+    "for",
+    "on",
+    "lesson",
+    "hours",
+    "The"
    ],
    "answers": [
-    "Come on, the film starts in five minutes"
+    "The lesson went on for three hours"
    ]
   },
   {
@@ -3863,19 +3880,18 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 27",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Chị tôi từ Nhật về vào tuần sau.",
+   "meaning_vi": "Họ hoãn cuộc họp đến thứ Hai.",
    "tiles": [
-    "next",
-    "week",
-    "back",
-    "sister",
-    "My",
-    "comes",
-    "from",
-    "Japan"
+    "until",
+    "put",
+    "the",
+    "They",
+    "Monday",
+    "meeting",
+    "off"
    ],
    "answers": [
-    "My sister comes back from Japan next week"
+    "They put off the meeting until Monday"
    ]
   },
   {
@@ -3885,20 +3901,18 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 27",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Có kẻ đột nhập vào cửa hàng và lấy máy tính.",
+   "meaning_vi": "Người phục vụ dọn những chiếc đĩa không đi.",
    "tiles": [
-    "computers",
-    "took",
-    "broke",
-    "shop",
-    "into",
-    "and",
+    "empty",
     "the",
-    "Someone",
-    "the"
+    "waiter",
+    "took",
+    "plates",
+    "The",
+    "away"
    ],
    "answers": [
-    "Someone broke into the shop and took the computers"
+    "The waiter took away the empty plates"
    ]
   },
   {
@@ -4305,18 +4319,21 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 30",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Họ hoãn cuộc họp đến thứ Hai.",
+   "meaning_vi": "Cô ấy mất một tháng mới khỏi cúm.",
    "tiles": [
-    "They",
+    "took",
+    "flu",
+    "over",
     "the",
-    "Monday",
-    "meeting",
-    "off",
-    "put",
-    "until"
+    "It",
+    "get",
+    "her",
+    "to",
+    "month",
+    "a"
    ],
    "answers": [
-    "They put off the meeting until Monday"
+    "It took her a month to get over the flu"
    ]
   },
   {
@@ -4326,21 +4343,21 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 30",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Cô ấy mất một tháng mới khỏi cúm.",
+   "meaning_vi": "Anh ấy ngã trên băng và bị đau tay.",
    "tiles": [
-    "took",
-    "get",
-    "It",
-    "over",
-    "month",
+    "fell",
+    "and",
+    "He",
+    "hurt",
     "the",
-    "to",
-    "a",
-    "flu",
-    "her"
+    "his",
+    "ice",
+    "on",
+    "arm",
+    "down"
    ],
    "answers": [
-    "It took her a month to get over the flu"
+    "He fell down on the ice and hurt his arm"
    ]
   },
   {
@@ -4762,19 +4779,21 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 33",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Chúng tôi dọn bếp sau bữa tiệc.",
+   "meaning_vi": "Tôi thử chiếc áo khoác này cỡ lớn hơn được không?",
    "tiles": [
-    "We",
-    "up",
-    "the",
-    "the",
-    "after",
-    "kitchen",
-    "party",
-    "cleared"
+    "size",
+    "jacket",
+    "Can",
+    "this",
+    "larger",
+    "on",
+    "a",
+    "in",
+    "try",
+    "I"
    ],
    "answers": [
-    "We cleared up the kitchen after the party"
+    "Can I try on this jacket in a larger size"
    ]
   },
   {
@@ -4784,20 +4803,20 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 33",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Tôi tra từ đó trong từ điển trực tuyến.",
+   "meaning_vi": "Anh ấy tăng năm cân sau khi ngừng chạy bộ.",
    "tiles": [
-    "online",
-    "I",
-    "the",
-    "up",
-    "looked",
-    "dictionary",
-    "an",
-    "word",
-    "in"
+    "stopped",
+    "He",
+    "five",
+    "on",
+    "put",
+    "running",
+    "he",
+    "kilos",
+    "after"
    ],
    "answers": [
-    "I looked up the word in an online dictionary"
+    "He put on five kilos after he stopped running"
    ]
   },
   {
@@ -5196,18 +5215,19 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 36",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Buổi học kéo dài ba tiếng.",
+   "meaning_vi": "Lính cứu hỏa dập tắt đám cháy trong một giờ.",
    "tiles": [
-    "lesson",
-    "three",
-    "The",
-    "on",
-    "went",
-    "for",
-    "hours"
+    "fire",
+    "Firefighters",
+    "out",
+    "put",
+    "the",
+    "hour",
+    "an",
+    "in"
    ],
    "answers": [
-    "The lesson went on for three hours"
+    "Firefighters put out the fire in an hour"
    ]
   },
   {
@@ -5217,19 +5237,19 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 36",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Lính cứu hỏa dập tắt đám cháy trong một giờ.",
+   "meaning_vi": "Chúng tôi dọn bếp sau bữa tiệc.",
    "tiles": [
     "the",
-    "in",
-    "fire",
-    "out",
-    "Firefighters",
-    "an",
-    "hour",
-    "put"
+    "after",
+    "kitchen",
+    "up",
+    "We",
+    "the",
+    "party",
+    "cleared"
    ],
    "answers": [
-    "Firefighters put out the fire in an hour"
+    "We cleared up the kitchen after the party"
    ]
   },
   {
@@ -5239,25 +5259,46 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 36",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Cô ấy đặt túi xuống và ngồi cạnh cửa sổ.",
+   "meaning_vi": "Trường dán thông báo về chuyến đi.",
    "tiles": [
-    "down",
-    "her",
     "put",
-    "and",
-    "the",
-    "bag",
-    "She",
-    "sat",
-    "window",
-    "by"
+    "school",
+    "notice",
+    "about",
+    "The",
+    "up",
+    "a",
+    "trip",
+    "the"
    ],
    "answers": [
-    "She put down her bag and sat by the window"
+    "The school put up a notice about the trip"
    ]
   },
   {
    "id": "B1U36F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 36",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «centre» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "central"
+     ],
+     "common_errors_vi": "`centre` → `central` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U36F2",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -5279,7 +5320,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U36F2",
+   "id": "B1U36F3",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -5301,7 +5342,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U36F3",
+   "id": "B1U36F4",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -5323,7 +5364,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U36F4",
+   "id": "B1U36F5",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -5345,7 +5386,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U36F5",
+   "id": "B1U36F6",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -5367,7 +5408,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U36F6",
+   "id": "B1U36F7",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -5389,28 +5430,6 @@
    "tips_vi": []
   },
   {
-   "id": "B1U36F7",
-   "skill": "build",
-   "type": "write_fill",
-   "rung": 2,
-   "number": "Bước 2",
-   "title_vi": "Biến đổi từ loại · Unit 36",
-   "points": 3,
-   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
-   "text": "Dạng tính từ của «nature» là ( ㉠ ).",
-   "blanks": [
-    {
-     "id": "㉠",
-     "points": 3,
-     "accepted": [
-      "natural"
-     ],
-     "common_errors_vi": "`nature` → `natural` (tính từ)."
-    }
-   ],
-   "tips_vi": []
-  },
-  {
    "id": "B1U36F8",
    "skill": "build",
    "type": "write_fill",
@@ -5419,15 +5438,15 @@
    "title_vi": "Biến đổi từ loại · Unit 36",
    "points": 3,
    "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
-   "text": "Dạng danh từ của «pollute» là ( ㉠ ).",
+   "text": "Dạng danh từ của «invade» là ( ㉠ ).",
    "blanks": [
     {
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "pollution"
+      "invasion"
      ],
-     "common_errors_vi": "`pollute` → `pollution` (danh từ)."
+     "common_errors_vi": "`invade` → `invasion` (danh từ)."
     }
    ],
    "tips_vi": []
@@ -5671,19 +5690,20 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 39",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Tôi hòa hợp với tất cả bạn cùng lớp.",
+   "meaning_vi": "Hít sâu vào và cố bình tĩnh lại.",
    "tiles": [
-    "get",
-    "I",
-    "my",
-    "with",
-    "well",
-    "all",
-    "classmates",
-    "on"
+    "down",
+    "and",
+    "a",
+    "Take",
+    "to",
+    "breath",
+    "calm",
+    "try",
+    "deep"
    ],
    "answers": [
-    "I get on well with all my classmates"
+    "Take a deep breath and try to calm down"
    ]
   },
   {
@@ -5693,20 +5713,21 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 39",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Hít sâu vào và cố bình tĩnh lại.",
+   "meaning_vi": "Chờ chút, tôi phải tìm chìa khóa.",
    "tiles": [
     "to",
-    "Take",
-    "and",
+    "Hang",
+    "I",
+    "on",
+    "find",
+    "minute,",
+    "my",
+    "need",
     "a",
-    "calm",
-    "breath",
-    "down",
-    "try",
-    "deep"
+    "keys"
    ],
    "answers": [
-    "Take a deep breath and try to calm down"
+    "Hang on a minute, I need to find my keys"
    ]
   },
   {
@@ -6125,20 +6146,19 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 42",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Chúng ta cần giải quyết việc này trước thứ Sáu.",
+   "meaning_vi": "Vui lòng để sách lại lên giá.",
    "tiles": [
-    "before",
-    "Friday",
-    "to",
-    "need",
-    "We",
-    "this",
-    "sort",
-    "problem",
-    "out"
+    "on",
+    "shelf",
+    "the",
+    "put",
+    "Please",
+    "the",
+    "books",
+    "back"
    ],
    "answers": [
-    "We need to sort out this problem before Friday"
+    "Please put the books back on the shelf"
    ]
   },
   {
@@ -6148,20 +6168,20 @@
    "rung": 1,
    "title_vi": "Xếp câu · Unit 42",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Giáo viên chỉ ra hai lỗi trong bài luận của tôi.",
+   "meaning_vi": "Tôi không tìm ra đáp án câu năm.",
    "tiles": [
-    "essay",
-    "pointed",
-    "in",
-    "mistakes",
-    "two",
-    "teacher",
-    "my",
-    "The",
+    "five",
+    "work",
+    "to",
+    "answer",
+    "the",
+    "cannot",
+    "question",
+    "I",
     "out"
    ],
    "answers": [
-    "The teacher pointed out two mistakes in my essay"
+    "I cannot work out the answer to question five"
    ]
   },
   {

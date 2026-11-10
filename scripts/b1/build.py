@@ -186,6 +186,38 @@ def parse_skills() -> dict[int, dict]:
     return out
 
 
+def parse_methods() -> dict[int, dict]:
+    """methods.txt: the topic-sentence choice (T) and the passage summary (M) of each unit."""
+    out: dict[int, dict] = {}
+    cur: dict = {}
+    for ln in lines("methods.txt"):
+        if ln.startswith("#U "):
+            cur = {}
+            out[int(ln[3:])] = cur
+        elif ln.startswith("T: "):
+            good, avg, narrow = [x.strip() for x in ln[3:].split(" | ")]
+            cur["t"] = {"good": good.lstrip("+= ").strip(), "prepend": good.startswith("+"), "avg": avg, "narrow": narrow}
+        elif ln.startswith("M: "):
+            cur["chain"], cur["summary"] = [x.strip() for x in ln[3:].split(" | ")]
+    return out
+
+
+def parse_speaking_bank() -> dict[int, dict]:
+    out: dict[int, dict] = {}
+    cur: dict = {}
+    for ln in lines("speaking_bank.txt"):
+        if ln.startswith("#U "):
+            cur = {}
+            out[int(ln[3:])] = cur
+        elif ln[:4] in ("P1: ", "P3: "):
+            qs, vi, model = [x.strip() for x in ln[4:].split(" | ")]
+            cur[ln[:2]] = {"qs": [q.strip() for q in qs.split(" ; ")], "vi": vi, "model": model}
+        elif ln.startswith("P2: "):
+            card, bullets, vi, model = [x.strip() for x in ln[4:].split(" | ")]
+            cur["P2"] = {"card": card, "bullets": [b.strip() for b in bullets.split(";")], "vi": vi, "model": model}
+    return out
+
+
 TFNG = ["True", "False", "Not Given"]
 
 
@@ -202,17 +234,74 @@ def reading_task(ex_id: str, n: int, sk: dict) -> dict:
         questions.append({"id": qid, "prompt_en": q["q"], "options": [{"id": str(j + 1), "text": t} for j, t in enumerate(order)],
                           "answer": str(order.index(q["options"][0]) + 1), "explanation_vi": q["why"], "tags": []})
     return {"id": ex_id, "skill": "reading", "type": "read_passage", "title_vi": f"Đọc · Unit {n} · {sk['title']}"[:70],
-            "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+            "instruction_vi": "Đọc từng câu và chọn từ khóa (danh từ trước, động từ sau), bỏ chi tiết quá nhỏ, nối các từ khóa lại để thấy ý chính, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
             "stimulus": {"kind": "passage", "text": sk["text"]}, "questions": questions}
+
+
+FRAME = [
+    "Trước khi viết: ghi dàn ý bằng danh từ và mũi tên (ý chính → lý do hoặc chi tiết → ví dụ → kết). Chưa viết thành câu.",
+    "Câu 1 là câu chủ đề: nêu ý chính và cho biết đoạn sẽ nói gì. Không mở bằng một câu chung chung.",
+    "Câu 2–4: mỗi câu trả lời «vì sao?» hoặc «như thế nào?» cho câu đứng trước nó. Có ít nhất một ví dụ cụ thể của chính bạn.",
+    "Câu cuối: kết lại bằng kết quả, cảm nghĩ hoặc dự định. Không thêm ý mới.",
+]
+
+
+def topic_sentence_task(ex_id: str, n: int, sk: dict, t: dict) -> dict:
+    """Which sentence opens the paragraph best: the idea plus what the paragraph will say, topic only, or a detail."""
+    good = t["good"] or sk["w"]["model"].split(". ")[0].rstrip(".") + "."
+    why = (f"Câu đúng nêu ý chính và cho biết đoạn sẽ nói gì. «{t['avg']}» chỉ gọi tên chủ đề, chưa nói gì về nó. "
+           f"«{t['narrow']}» là một chi tiết: nó phải đứng sau câu chủ đề.")
+    return mcq(ex_id, f"Câu chủ đề · Unit {n}", None, f"Đề bài: {sk['w']['vi']} Câu nào mở đoạn tốt nhất?", [good, t["avg"], t["narrow"]], why,
+               "Chọn câu chủ đề tốt nhất cho đoạn văn. Câu chủ đề tốt có đủ hai phần: ý chính và nội dung đoạn sẽ nói.")
+
+
+def summary_task(ex_id: str, n: int, sk: dict, m: dict) -> dict:
+    return {"id": ex_id, "skill": "writing", "type": "write_essay", "number": "R2", "title_vi": f"Tóm tắt bài đọc · Unit {n}", "points": 5,
+            "instruction_vi": "Tóm tắt bài đọc này bằng một hoặc hai câu tiếng Anh của chính bạn. Không chép nguyên câu trong bài.",
+            "limits": {"min": 10, "max": 40}, "prompt_en": sk["text"],
+            "framework_vi": ["Mỗi câu trong bài: ghi lại 1–2 từ khóa (danh từ trước, động từ sau).", "Gạch bỏ chi tiết quá nhỏ: con số, tên riêng phụ, ví dụ.",
+                             "Nối các từ khóa còn lại bằng mũi tên theo thứ tự của bài.", "Nhìn chuỗi từ khóa và viết thành một hoặc hai câu.",
+                             "Tự hỏi: ý chính của đoạn là gì, và đoạn này có vai trò gì (kể chuyện, giải thích, khuyên, so sánh)?"],
+            "model_answer_en": m["summary"], "model_note_vi": f"Chuỗi từ khóa mẫu: {m['chain']}. Chuỗi của bạn không cần giống hệt; cần đủ ý chính và đúng thứ tự.",
+            "checklist_vi": ["Tóm tắt ngắn hơn bài rất nhiều (10–40 từ).", "Có ý chính, không có chi tiết nhỏ.", "Dùng lời của bạn, không chép cả câu.", "Không thêm ý kiến riêng."]}
+
+
+def speaking_sets(pid: str, n: int, sb: dict) -> list[dict]:
+    """Three exam-style speaking tasks on the unit's topic: Part 1 questions, a Part 2 card, Part 3 questions."""
+    tips = ["Ghi âm, nghe lại, chọn một lỗi để sửa rồi nói lần hai.", "Bài mẫu chỉ để đối chiếu sau khi bạn đã tự nói; đừng học thuộc lòng."]
+    p1, p2, p3 = sb["P1"], sb["P2"], sb["P3"]
+    base = {"skill": "speaking", "type": "speak", "max_points": 9, "patterns_vi": []}
+    return [
+        {**base, "id": f"{pid}S2", "number": "S2", "title_vi": f"Nói Part 1 · Unit {n}", "prep_sec": 15, "answer_sec": 75,
+         "prompt_en": "\n".join(f"{i}. {q}" for i, q in enumerate(p1["qs"], 1)), "prompt_vi": p1["vi"],
+         "plan": [{"when_vi": "Mỗi câu hỏi", "do_vi": "Trả lời thẳng trong câu đầu tiên, không lặp lại cả câu hỏi."},
+                  {"when_vi": "Câu 2–3", "do_vi": "Thêm một lý do hoặc một chi tiết của chính bạn. Mỗi câu hỏi nói 2–3 câu là đủ."},
+                  {"when_vi": "Luyện 4 mức", "do_vi": "Mức 1: viết cả câu rồi đọc. Mức 2: chỉ ghi từ khóa và mũi tên. Mức 3: nói không cần ghi. Mức 4: ghi âm và tự sửa."}],
+         "tips_vi": tips + ["Bài mẫu trả lời câu hỏi thứ nhất; hai câu còn lại bạn tự trả lời theo cùng cách."], "model_answer_en": p1["model"]},
+        {**base, "id": f"{pid}S3", "number": "S3", "title_vi": f"Nói Part 2 · Unit {n}", "prep_sec": 60, "answer_sec": 90,
+         "prompt_en": p2["card"] + "\nYou should say:\n" + "\n".join(f"- {b}" for b in p2["bullets"]) + "\n- and explain why or how you feel about it.", "prompt_vi": p2["vi"],
+         "plan": [{"when_vi": "1 phút chuẩn bị", "do_vi": "Ghi bốn dòng từ khóa: cái gì → tả thế nào → vì sao → chuyện của riêng bạn (lúc nào, việc gì, với ai, ý nghĩa)."},
+                  {"when_vi": "0–20 giây", "do_vi": "Nói đó là gì và tả ngắn gọn."},
+                  {"when_vi": "20–70 giây", "do_vi": "Kể chuyện của riêng bạn theo thứ tự thời gian. Đây là phần dài nhất."},
+                  {"when_vi": "70–90 giây", "do_vi": "Nói vì sao nó quan trọng với bạn hoặc bạn cảm thấy thế nào."}],
+         "tips_vi": tips + ["Trong kỳ thi thật, Part 2 dài 1–2 phút. Khi nói trôi 90 giây, hãy tự kéo dài lên 2 phút."], "model_answer_en": p2["model"]},
+        {**base, "id": f"{pid}S4", "number": "S4", "title_vi": f"Nói Part 3 · Unit {n}", "prep_sec": 20, "answer_sec": 90,
+         "prompt_en": "\n".join(f"{i}. {q}" for i, q in enumerate(p3["qs"], 1)), "prompt_vi": p3["vi"],
+         "plan": [{"when_vi": "Câu 1", "do_vi": "Nêu ý kiến của bạn một cách rõ ràng."},
+                  {"when_vi": "Câu 2–3", "do_vi": "Giải thích: tự hỏi «vì sao?» rồi trả lời; hỏi tiếp «vì sao?» một lần nữa nếu được."},
+                  {"when_vi": "Câu cuối", "do_vi": "Đưa một ví dụ cụ thể (một người, một nơi, một lần) để chứng minh."}],
+         "tips_vi": tips + ["Part 3 hỏi về xã hội, không hỏi về riêng bạn: nói về «people», «many families», rồi mới lấy ví dụ của mình.",
+                            "Bài mẫu trả lời câu hỏi thứ nhất; câu thứ hai bạn tự trả lời theo cùng khung."], "model_answer_en": p3["model"]},
+    ]
 
 
 def writing_task(ex_id: str, n: int, sk: dict) -> dict:
     w = sk["w"]
     return {"id": ex_id, "skill": "writing", "type": "write_essay", "number": "W1", "title_vi": f"Viết đoạn ngắn · Unit {n}", "points": 10,
             "instruction_vi": w["vi"], "limits": {"min": 30, "max": 90}, "prompt_en": w["en"],
-            "framework_vi": ["Câu 1: nêu thẳng ý chính (câu chủ đề).", "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.", "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."],
+            "framework_vi": FRAME,
             "model_answer_en": w["model"], "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
-            "checklist_vi": ["Mỗi câu có đủ chủ ngữ và động từ đã chia.", "Danh từ đếm được số ít có a/an/the; ngôi thứ ba số ít có -s.", "Dùng ít nhất một cấu trúc hoặc ba từ của Unit này.", "Đọc to lại một lần để soát lỗi."]}
+            "checklist_vi": ["Che các câu sau đi: chỉ đọc câu đầu, người đọc có biết đoạn sẽ nói gì không?", "Mỗi câu có đủ chủ ngữ và động từ đã chia.", "Danh từ đếm được số ít có a/an/the; ngôi thứ ba số ít có -s.", "Dùng ít nhất một cấu trúc hoặc ba từ của Unit này.", "Đọc to lại một lần để soát lỗi."]}
 
 
 # -------------------------------------------------------------- exercises --
@@ -325,18 +414,35 @@ def goal_note(u: dict, vocab_unit: bool) -> dict:
     return {"title": "Mục tiêu của bài", "body": body, "kind": "goal"}
 
 
-def add_skills(lesson: dict, bank: dict[str, list[dict]], n: int, sk: dict | None) -> None:
-    """The unit's reading and writing: after the cards' own questions, closing the last sitting."""
+def add_skills(lesson: dict, bank: dict[str, list[dict]], n: int, sk: dict | None, md: dict | None = None, sb: dict | None = None) -> None:
+    """The unit's reading, summary, topic sentence and writing: after the cards' own questions, closing the last
+    sitting. A vocabulary unit also gets three exam-style speaking tasks after its own speaking task."""
     if not sk:
         return
-    r = reading_task(f"B1U{n:02d}R1", n, sk)
-    w = writing_task(f"B1U{n:02d}W1", n, sk)
+    pid = f"B1U{n:02d}"
+    md = md or {}
+    if md.get("t", {}).get("prepend"):
+        sk = {**sk, "w": {**sk["w"], "model": md["t"]["good"] + " " + sk["w"]["model"]}}
+    r = reading_task(f"{pid}R1", n, sk)
+    w = writing_task(f"{pid}W1", n, sk)
     bank["reading"].append(r)
+    flow = [r["id"]]
+    if "summary" in md:
+        bank.setdefault("writing", []).append(summary_task(f"{pid}R2", n, sk, md))
+        flow.append(f"{pid}R2")
+    if "t" in md:
+        bank["reading"].append(topic_sentence_task(f"{pid}T1", n, sk, md["t"]))
+        flow.append(f"{pid}T1")
     bank.setdefault("writing", []).append(w)
-    speak_id = f"B1U{n:02d}S1"
+    flow.append(w["id"])
+    speak_id = f"{pid}S1"
     for seq in (lesson["exercise_ids"], lesson["sessions"][-1]["check"]):
         at = seq.index(speak_id) if speak_id in seq else len(seq)
-        seq[at:at] = [r["id"], w["id"]]
+        seq[at:at] = flow
+    if sb:
+        sets = speaking_sets(pid, n, sb)
+        bank["speaking"] += sets
+        lesson["exercise_ids"] += [e["id"] for e in sets]
 
 
 def grammar_lesson(u: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]]:
@@ -582,6 +688,8 @@ def main() -> None:
     bank: dict[str, list[dict]] = {"reading": [], "build": [], "speaking": [], "listening": [], "writing": []}
     links: dict[str, list[str]] = {}
     skills = parse_skills()
+    methods = parse_methods()
+    speaking = parse_speaking_bank()
     count = {"lessons": 0, "words": 0, "cards": 0, "exercises": 0, "sittings": 0}
     for n in range(1, 43):
         if n in grammar:
@@ -591,7 +699,7 @@ def main() -> None:
             trays = {k: [sources[k][h] for h, u in assign["by_kind"][k].items() if u == n] for k in sources}
             flagged = [h for k in sources for h in assign["unverified"].get(k, []) if assign["by_kind"][k][h] == n]
             lesson, b = vocab_lesson(vocab_units[n], topic[n], trays, flagged)
-        add_skills(lesson, b, n, skills.get(n))
+        add_skills(lesson, b, n, skills.get(n), methods.get(n), speaking.get(n))
         for k in bank:
             bank[k] += b.get(k, [])
         (LESSONS / f"{lesson['slug']}.json").write_text(json.dumps(lesson, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
