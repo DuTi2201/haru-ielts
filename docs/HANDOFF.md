@@ -58,7 +58,7 @@ Listening ≥ 30/40, Reading ≥ 30/40, Writing and Speaking ≥ 6.0 on a calibr
 
 ## What exists
 * `scripts/b1/` — the source of the B1 course (see its README). `build.py` writes
-  `app/seed/lessons/b1-*.json` (42 lessons) and `app/seed/exercises/b1/` (1,108 exercises).
+  `app/seed/lessons/b1-*.json` (42 lessons) and `app/seed/exercises/b1/` (1,237 exercises).
   Every unit ends with its own reading (a short passage, one choice question and two True/False/Not Given),
   a short writing task with a frame, a checklist and a model, a dictation and a speaking task (`scripts/b1/skills.txt`).
   28 grammar units, 85 cards; 14 vocabulary units, 1,056 words and phrases; 104 sittings.
@@ -77,11 +77,13 @@ own exercises. Do not paste book exercises, reading passages or audio scripts in
   sitting tests of `tests/test_lesson_sessions.py` pass (≤ 24 core words, ≤ 3 cards per sitting).
 * Not checked: the full test suite (the sandbox lacked sqlalchemy/httpx). 31 tests of
   `tests/test_lesson_seed.py` fail because they assert Korean content.
-* 42 phrasal verbs / prepositional phrases / word patterns / word families are placed in a unit by
-  topic and were not found on the unit's pages by either OCR search (84 before a second, looser
-  search confirmed 28 and moved 14): `scripts/b1/unit_assignment.json` → `unverified`. Settling the
-  rest needs a person with the book. Do not re-run `assign_units.py` without the OCR pages: it
-  rewrites that file.
+* Unit placement of phrasal verbs, prepositional phrases, word patterns and word families is now
+  checked against the book: the fourteen unit opening pages were read from the PDF as images and
+  typed into `scripts/b1/book_units.py`. That check moved 111 items to another unit (the earlier
+  OCR-based placement was wrong far more often than the 42 it had flagged), added three items the
+  lists lacked (`by credit card/cheque`, `ask (sb) about`, `accuse sb of`) and replaced the word
+  family `identify` with the book's `identical`. `unverified` is empty. Run
+  `python3 scripts/b1/book_units.py` to check again; never run `assign_units.py`.
 * Preposition questions: `ALSO_OK` in `build.py` lists prepositions that would also be acceptable in
   the example sentence and are never offered as wrong options (72 items reviewed by hand, once).
   Phrasal-verb questions show the meaning wanted, because several particles make a real verb.
@@ -101,10 +103,10 @@ own exercises. Do not paste book exercises, reading passages or audio scripts in
 ## Next steps, in order
 1. Adapt and deploy (brief: `docs/DEPLOY_PROMPT.md`): rename fields (one mechanical commit), drop Korean-only modules and tests,
    English TTS voices, new database, point the frontend at the new API, upgrade the VM.
-2. Check the 84 unverified items and the preposition distractors against the book.
+2. Done 2026-11-10: unit placement checked against the book pages (`scripts/b1/book_units.py`).
 3. Per-unit skills links for B1, still missing: Mindset for IELTS Foundation units, British Council
-   B1 listening, longer listening than the two-sentence dictation, a Task 1 chart task. Teacher notes to fold in ("Pre-IELTS thầy Minh"): six-step reading summary by
-   keywords, the claim → reason → explanation → evidence paragraph frame, the Task 1 sentence formula.
+   B1 listening, longer listening than the two-sentence dictation, a Task 1 chart task. The teacher's methods are folded into B1
+   (summary, topic sentence, paragraph frame, speaking sets): see `docs/METHODS.md`, which also holds the Task 1 and Task 2 rules for B2.
 4. Destination B2 the same way (28 units; grammar is the odd units), then four C1&C2 grammar units
    (11 Conditionals, 17 Clauses, 19 Complex sentences, 21 Noun phrases).
 5. IELTS question types, one Cambridge test as the model for the computer-style mock screen,
@@ -120,3 +122,12 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
 * 2026-11-10 — baseline forks pushed; B1 course generated and validated; study page added.
 * 2026-11-10 — `docs/DEPLOY_PROMPT.md` (brief for the agent that deploys to the VM); a reading and a
   writing task for each of the 42 units; second pass on unit placement; safer wrong options.
+* 2026-11-10 — branch `content/b1-methods` (on top of `feature/b1-boot` at bcc6042): unit placement
+  checked against the book pages; per unit a passage summary (`R2`) and a topic-sentence question
+  (`T1`); paragraph frame in every writing task; Part 1/2/3 speaking sets for the 14 vocabulary
+  units (`S2`–`S4`); `docs/METHODS.md`; study page rebuilt and opened once in headless Chrome
+  (all 1,237 exercises render, no script errors). `load_all()`: 42 lessons, 1,237 exercises, no
+  problems. The same 32 Korean-era tests fail before and after this change.
+  To merge: `git merge content/b1-methods` into `feature/b1-boot`; only `scripts/b1`, `tools/study_page`,
+  `docs` and the generated `app/seed/lessons/b1-*`, `app/seed/exercises/b1/*` change. If the field rename
+  has happened by then, re-run `python3 scripts/b1/build.py` after the merge instead of keeping the generated files.

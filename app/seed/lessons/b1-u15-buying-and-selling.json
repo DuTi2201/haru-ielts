@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 15,
- "summary": "Nói về mua sắm, giá cả và tiền bạc; dùng đúng spend on, pay for, lend to, borrow from. 30 từ chủ đề, 5 cụm động từ, 5 cụm giới từ, 13 mẫu giới từ, 8 họ từ.",
+ "summary": "Nói về mua sắm, giá cả và tiền bạc; dùng đúng spend on, pay for, lend to, borrow from. 30 từ chủ đề, 8 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 10 họ từ.",
  "vocab": [
   {
    "hangul": "advertisement",
@@ -270,11 +270,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
   },
   {
-   "hangul": "give back",
+   "hangul": "hurry up",
    "pos": "V",
-   "meaning_vi": "trả lại",
-   "example_ko": "Remember to give the dictionary back to the library.",
-   "example_vi": "Nhớ trả từ điển cho thư viện.",
+   "meaning_vi": "nhanh lên",
+   "example_ko": "Hurry up, or we will miss the bus.",
+   "example_vi": "Nhanh lên kẻo lỡ xe buýt.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
@@ -295,6 +295,36 @@
    "meaning_vi": "để dành tiền (mua gì)",
    "example_ko": "She is saving up for a trip to Korea.",
    "example_vi": "Cô ấy đang để dành tiền đi Hàn Quốc.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "come back (from)",
+   "pos": "V",
+   "meaning_vi": "trở về",
+   "example_ko": "My sister comes back from Japan next week.",
+   "example_vi": "Chị tôi từ Nhật về vào tuần sau.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "take back",
+   "pos": "V",
+   "meaning_vi": "đem trả lại",
+   "example_ko": "The shoes were too small, so I took them back to the shop.",
+   "example_vi": "Đôi giày chật quá nên tôi đem trả lại cửa hàng.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "take down",
+   "pos": "V",
+   "meaning_vi": "gỡ xuống, lấy xuống",
+   "example_ko": "We took down the old posters from the wall.",
+   "example_vi": "Chúng tôi gỡ mấy tấm áp phích cũ trên tường xuống.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
@@ -345,6 +375,16 @@
    "meaning_vi": "để bán",
    "example_ko": "Their house is for sale.",
    "example_vi": "Nhà họ đang rao bán.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "by credit card/cheque",
+   "pos": "X",
+   "meaning_vi": "bằng thẻ tín dụng/séc",
+   "example_ko": "Can I pay by credit card?",
+   "example_vi": "Tôi trả bằng thẻ tín dụng được không?",
    "family": "3 · Prepositional phrases",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
@@ -440,26 +480,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
   },
   {
-   "hangul": "happy about/with",
-   "pos": "X",
-   "meaning_vi": "hài lòng về",
-   "example_ko": "I am happy with my new job.",
-   "example_vi": "Tôi hài lòng với công việc mới.",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
-  },
-  {
-   "hangul": "popular with",
-   "pos": "X",
-   "meaning_vi": "được ưa chuộng bởi",
-   "example_ko": "The park is popular with families.",
-   "example_vi": "Công viên này được các gia đình ưa thích.",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
-  },
-  {
    "hangul": "spend sth on",
    "pos": "X",
    "meaning_vi": "tiêu (tiền, thời gian) vào",
@@ -475,6 +495,16 @@
    "meaning_vi": "sai về",
    "example_ko": "I was wrong about the time of the meeting.",
    "example_vi": "Tôi nhớ nhầm giờ họp.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
+  },
+  {
+   "hangul": "wrong with",
+   "pos": "X",
+   "meaning_vi": "có vấn đề với",
+   "example_ko": "Something is wrong with my laptop.",
+   "example_vi": "Máy tính của tôi bị làm sao ấy.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63"
@@ -516,6 +546,15 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word formation pp. 212–216"
   },
   {
+   "hangul": "judge",
+   "pos": "V",
+   "meaning_vi": "đánh giá, xét xử",
+   "note_vi": "Họ từ: `judgement` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word formation pp. 212–216"
+  },
+  {
    "hangul": "serve",
    "pos": "V",
    "meaning_vi": "phục vụ",
@@ -529,6 +568,15 @@
    "pos": "A",
    "meaning_vi": "đúng, thật",
    "note_vi": "Họ từ: `truth` (danh từ), `untrue` (dạng trái nghĩa), `truthful` (tính từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word formation pp. 212–216"
+  },
+  {
+   "hangul": "use",
+   "pos": "V",
+   "meaning_vi": "sử dụng",
+   "note_vi": "Họ từ: `useful` (tính từ), `useless` (dạng trái nghĩa)",
    "family": "5 · Word formation",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 15, pp. 60-63; word formation pp. 212–216"
@@ -599,6 +647,9 @@
   "B1U15C21",
   "B1U15C22",
   "B1U15C23",
+  "B1U15C24",
+  "B1U15C25",
+  "B1U15C26",
   "B1U15B1",
   "B1U15B2",
   "B1U15B3",
@@ -609,10 +660,16 @@
   "B1U15F5",
   "B1U15F6",
   "B1U15F7",
+  "B1U15F8",
   "B1U15D1",
   "B1U15R1",
+  "B1U15R2",
+  "B1U15T1",
   "B1U15W1",
-  "B1U15S1"
+  "B1U15S1",
+  "B1U15S2",
+  "B1U15S3",
+  "B1U15S4"
  ],
  "sessions": [
   {
@@ -677,14 +734,18 @@
    "vocab": [
     "add up",
     "give away",
-    "give back",
+    "hurry up",
     "pay back",
     "save up (for)",
+    "come back (from)",
+    "take back",
+    "take down",
     "in cash",
     "in good/bad condition",
     "in debt",
     "for rent",
-    "for sale"
+    "for sale",
+    "by credit card/cheque"
    ],
    "check": [
     "B1U15C1",
@@ -697,6 +758,10 @@
     "B1U15C8",
     "B1U15C9",
     "B1U15C10",
+    "B1U15C11",
+    "B1U15C12",
+    "B1U15C13",
+    "B1U15C14",
     "B1U15B1",
     "B1U15B2",
     "B1U15B3"
@@ -715,16 +780,11 @@
     "pay for",
     "buy sth from",
     "choose between",
-    "happy about/with",
-    "popular with",
     "spend sth on",
-    "wrong about"
+    "wrong about",
+    "wrong with"
    ],
    "check": [
-    "B1U15C11",
-    "B1U15C12",
-    "B1U15C13",
-    "B1U15C14",
     "B1U15C15",
     "B1U15C16",
     "B1U15C17",
@@ -733,7 +793,10 @@
     "B1U15C20",
     "B1U15C21",
     "B1U15C22",
-    "B1U15C23"
+    "B1U15C23",
+    "B1U15C24",
+    "B1U15C25",
+    "B1U15C26"
    ]
   },
   {
@@ -744,8 +807,10 @@
     "compare",
     "decide",
     "expense",
+    "judge",
     "serve",
     "true",
+    "use",
     "value"
    ],
    "check": [
@@ -756,8 +821,11 @@
     "B1U15F5",
     "B1U15F6",
     "B1U15F7",
+    "B1U15F8",
     "B1U15D1",
     "B1U15R1",
+    "B1U15R2",
+    "B1U15T1",
     "B1U15W1",
     "B1U15S1"
    ]
@@ -767,10 +835,6 @@
   {
    "title": "Nguồn",
    "body": "Danh sách từ theo Destination B1 (Mann & Taylore-Knowles, Macmillan), pp. 184–216. Nghĩa tiếng Việt, câu ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
-  },
-  {
-   "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: add up, give away, save up (for), add."
   }
  ]
 }

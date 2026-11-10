@@ -22,7 +22,7 @@ def compact_exercise(e: dict) -> dict:
         return {"k": "p", "title": e["title_vi"], "text": e["stimulus"]["text"], "tip": e["instruction_vi"],
                 "qs": [{"q": q["prompt_ko"], "o": [o["text"] for o in q["options"]], "a": int(q["answer"]) - 1, "w": q["explanation_vi"]} for q in e["questions"]]}
     if t == "write_essay":
-        return {"k": "w", "en": e["prompt_ko"], "vi": e["instruction_vi"], "frame": e["framework_vi"], "check": e["checklist_vi"], "model": e["model_answer_ko"]}
+        return {"k": "w", "title": e["title_vi"].split(" · ")[0], "en": e["prompt_ko"], "vi": e["instruction_vi"], "frame": e["framework_vi"], "check": e["checklist_vi"], "model": e["model_answer_ko"], "note": e.get("model_note_vi")}
     if t in ("read_cloze", "read_match"):
         q = e["questions"][0]
         return {"k": "m", "q": (e.get("stimulus") or {}).get("text") or q.get("prompt_vi"), "h": q.get("prompt_vi") if e.get("stimulus") else None, "o": [o["text"] for o in q["options"]],
@@ -34,7 +34,7 @@ def compact_exercise(e: dict) -> dict:
         return {"k": "f", "q": e["text"], "acc": b["accepted"], "w": b.get("common_errors_vi") or ""}
     if t == "listen_dictation":
         return {"k": "d", "t": [[x["text"], x["vi"]] for x in e["stimulus"]["turns"]]}
-    return {"k": "s", "en": e["prompt_ko"], "vi": e.get("prompt_vi"), "model": e["model_answer_ko"], "plan": [[p["when_vi"], p["do_vi"]] for p in e["plan"]]}
+    return {"k": "s", "title": e["title_vi"].split(" · ")[0], "prep": e["prep_sec"], "sec": e["answer_sec"], "en": e["prompt_ko"], "vi": e.get("prompt_vi"), "model": e["model_answer_ko"], "plan": [[p["when_vi"], p["do_vi"]] for p in e["plan"]]}
 
 
 def main() -> None:
@@ -46,6 +46,11 @@ def main() -> None:
     lessons = []
     for f in sorted((SEED / "lessons").glob("b1-*.json")):
         d = json.loads(f.read_text(encoding="utf-8"))
+        sessions = [{"t": s["title_vi"], "can": s["can_do_vi"], "v": s.get("vocab", []), "g": s.get("grammar", []), "c": s.get("check", [])} for s in d["sessions"]]
+        used = {i for s in sessions for i in s["c"]}
+        extra = [i for i in d["exercise_ids"] if i not in used and ex[i]["k"] == "s"]
+        if extra:
+            sessions.append({"t": "Luyện nói theo dạng đề thi", "can": "Trả lời câu hỏi Part 1, nói theo thẻ Part 2 và nêu ý kiến ở Part 3 về chủ đề của Unit.", "v": [], "g": [], "c": extra})
         lessons.append({
             "n": d["sort_order"], "t": d["title"], "en": d["title_ko"],
             "notes": [[x.get("title"), x["body"]] for x in d["notes"]],
@@ -54,7 +59,7 @@ def main() -> None:
                       for g in d.get("grammar", [])],
             "words": [{"h": v["hangul"], "m": v["meaning_vi"], "f": v.get("family"), "e": v.get("example_ko"), "ev": v.get("example_vi"), "n": v.get("note_vi")}
                       for v in d["vocab"]],
-            "ses": [{"t": s["title_vi"], "can": s["can_do_vi"], "v": s.get("vocab", []), "g": s.get("grammar", []), "c": s.get("check", [])} for s in d["sessions"]],
+            "ses": sessions,
             "ex": d["exercise_ids"],
         })
     lessons.sort(key=lambda x: x["n"])

@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 21,
- "summary": "Nói về liên lạc, tin tức và mạng internet; dùng đúng on the phone, on the internet, by email. 30 từ chủ đề, 10 cụm động từ, 7 cụm giới từ, 5 mẫu giới từ, 10 họ từ.",
+ "summary": "Nói về liên lạc, tin tức và mạng internet; dùng đúng on the phone, on the internet, by email. 30 từ chủ đề, 8 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 10 họ từ.",
  "vocab": [
   {
    "hangul": "accent",
@@ -259,11 +259,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
   },
   {
-   "hangul": "call off",
+   "hangul": "cut off",
    "pos": "V",
-   "meaning_vi": "hủy bỏ",
-   "example_ko": "The match was called off because of heavy rain.",
-   "example_vi": "Trận đấu bị hủy vì mưa to.",
+   "meaning_vi": "cắt (điện, nước, liên lạc); cắt rời",
+   "example_ko": "The storm cut off the electricity for two days.",
+   "example_vi": "Cơn bão làm mất điện hai ngày.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
@@ -274,16 +274,6 @@
    "meaning_vi": "điền (mẫu đơn)",
    "example_ko": "Please fill in this form with your name and address.",
    "example_vi": "Vui lòng điền tên và địa chỉ vào mẫu này.",
-   "family": "2 · Phrasal verbs",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
-  },
-  {
-   "hangul": "hang on",
-   "pos": "V",
-   "meaning_vi": "chờ một chút",
-   "example_ko": "Hang on a minute, I need to find my keys.",
-   "example_vi": "Chờ chút, tôi phải tìm chìa khóa.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
@@ -329,21 +319,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
   },
   {
-   "hangul": "read out",
+   "hangul": "come out",
    "pos": "V",
-   "meaning_vi": "đọc to",
-   "example_ko": "The teacher read out the names of the winners.",
-   "example_vi": "Giáo viên đọc to tên những người thắng cuộc.",
-   "family": "2 · Phrasal verbs",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
-  },
-  {
-   "hangul": "speak up",
-   "pos": "V",
-   "meaning_vi": "nói to lên",
-   "example_ko": "Could you speak up? I cannot hear you at the back.",
-   "example_vi": "Bạn nói to lên được không? Ngồi cuối tôi không nghe rõ.",
+   "meaning_vi": "được xuất bản, ra mắt",
+   "example_ko": "Her second book came out last month.",
+   "example_vi": "Cuốn sách thứ hai của cô ấy ra mắt tháng trước.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
@@ -389,16 +369,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
   },
   {
-   "hangul": "in touch (with)",
-   "pos": "X",
-   "meaning_vi": "giữ liên lạc",
-   "example_ko": "We stay in touch with each other online.",
-   "example_vi": "Chúng tôi giữ liên lạc với nhau qua mạng.",
-   "family": "3 · Prepositional phrases",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
-  },
-  {
    "hangul": "on TV",
    "pos": "X",
    "meaning_vi": "trên tivi",
@@ -439,6 +409,26 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
   },
   {
+   "hangul": "glance at",
+   "pos": "X",
+   "meaning_vi": "liếc nhìn",
+   "example_ko": "He glanced at his watch and stood up.",
+   "example_vi": "Anh ấy liếc đồng hồ rồi đứng dậy.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
+  },
+  {
+   "hangul": "information about",
+   "pos": "X",
+   "meaning_vi": "thông tin về (không đếm được)",
+   "example_ko": "I need some information about the course.",
+   "example_vi": "Tôi cần một số thông tin về khóa học.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
+  },
+  {
    "hangul": "a letter (from sb) about",
    "pos": "X",
    "meaning_vi": "lá thư (từ ai) về",
@@ -464,6 +454,56 @@
    "meaning_vi": "trả lời",
    "example_ko": "He has not replied to my message.",
    "example_vi": "Anh ấy chưa trả lời tin nhắn của tôi.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
+  },
+  {
+   "hangul": "send sth to sb",
+   "pos": "X",
+   "meaning_vi": "gửi cái gì cho ai",
+   "example_ko": "Please send the report to me today.",
+   "example_vi": "Vui lòng gửi báo cáo cho tôi trong hôm nay.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
+  },
+  {
+   "hangul": "talk (to sb) about",
+   "pos": "X",
+   "meaning_vi": "nói chuyện (với ai) về",
+   "example_ko": "We talked about our plans for the summer.",
+   "example_vi": "Chúng tôi nói về kế hoạch mùa hè.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
+  },
+  {
+   "hangul": "translate (from sth) into",
+   "pos": "X",
+   "meaning_vi": "dịch (từ tiếng gì) sang",
+   "example_ko": "She translated the letter into English.",
+   "example_vi": "Cô ấy dịch lá thư sang tiếng Anh.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
+  },
+  {
+   "hangul": "tell sb about",
+   "pos": "X",
+   "meaning_vi": "kể cho ai về",
+   "example_ko": "Tell me about your hometown.",
+   "example_vi": "Kể cho tôi nghe về quê bạn đi.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
+  },
+  {
+   "hangul": "write (to sb) about",
+   "pos": "X",
+   "meaning_vi": "viết (cho ai) về",
+   "example_ko": "I wrote to the manager about the problem.",
+   "example_vi": "Tôi viết thư cho quản lý về vấn đề đó.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
@@ -614,6 +654,10 @@
   "B1U21C20",
   "B1U21C21",
   "B1U21C22",
+  "B1U21C23",
+  "B1U21C24",
+  "B1U21C25",
+  "B1U21C26",
   "B1U21B1",
   "B1U21B2",
   "B1U21B3",
@@ -627,8 +671,13 @@
   "B1U21F8",
   "B1U21D1",
   "B1U21R1",
+  "B1U21R2",
+  "B1U21T1",
   "B1U21W1",
-  "B1U21S1"
+  "B1U21S1",
+  "B1U21S2",
+  "B1U21S3",
+  "B1U21S4"
  ],
  "sessions": [
   {
@@ -692,14 +741,19 @@
    "can_do_vi": "Sau buổi này bạn chọn đúng tiểu từ và giới từ trong các cụm cố định của Unit, không dịch từng chữ từ tiếng Việt.",
    "vocab": [
     "call back",
-    "call off",
+    "cut off",
     "fill in",
-    "hang on",
     "hang up",
     "log off",
     "log on(to)",
     "print out",
-    "read out"
+    "come out",
+    "by email/phone/letter",
+    "on the internet",
+    "on the phone",
+    "on the radio",
+    "on TV",
+    "on the news"
    ],
    "check": [
     "B1U21C1",
@@ -711,33 +765,14 @@
     "B1U21C7",
     "B1U21C8",
     "B1U21C9",
-    "B1U21B1",
-    "B1U21B2",
-    "B1U21B3"
-   ]
-  },
-  {
-   "title_vi": "Cụm động từ và cụm giới từ 2",
-   "can_do_vi": "Sau buổi này bạn chọn đúng tiểu từ và giới từ trong các cụm cố định của Unit, không dịch từng chữ từ tiếng Việt.",
-   "vocab": [
-    "speak up",
-    "by email/phone/letter",
-    "on the internet",
-    "on the phone",
-    "on the radio",
-    "in touch (with)",
-    "on TV",
-    "on the news"
-   ],
-   "check": [
     "B1U21C10",
     "B1U21C11",
     "B1U21C12",
     "B1U21C13",
     "B1U21C14",
-    "B1U21C15",
-    "B1U21C16",
-    "B1U21C17"
+    "B1U21B1",
+    "B1U21B2",
+    "B1U21B3"
    ]
   },
   {
@@ -746,16 +781,30 @@
    "vocab": [
     "comment on",
     "communicate with",
+    "glance at",
+    "information about",
     "a letter (from sb) about",
     "receive sth from",
-    "reply to"
+    "reply to",
+    "send sth to sb",
+    "talk (to sb) about",
+    "translate (from sth) into",
+    "tell sb about",
+    "write (to sb) about"
    ],
    "check": [
+    "B1U21C15",
+    "B1U21C16",
+    "B1U21C17",
     "B1U21C18",
     "B1U21C19",
     "B1U21C20",
     "B1U21C21",
-    "B1U21C22"
+    "B1U21C22",
+    "B1U21C23",
+    "B1U21C24",
+    "B1U21C25",
+    "B1U21C26"
    ]
   },
   {
@@ -784,6 +833,8 @@
     "B1U21F8",
     "B1U21D1",
     "B1U21R1",
+    "B1U21R2",
+    "B1U21T1",
     "B1U21W1",
     "B1U21S1"
    ]
@@ -793,10 +844,6 @@
   {
    "title": "Nguồn",
    "body": "Danh sách từ theo Destination B1 (Mann & Taylore-Knowles, Macmillan), pp. 184–216. Nghĩa tiếng Việt, câu ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
-  },
-  {
-   "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: speak up, comment on, communicate with, receive sth from, reply to."
   }
  ]
 }

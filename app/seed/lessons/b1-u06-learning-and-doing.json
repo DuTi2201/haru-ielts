@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 6,
- "summary": "Nói về việc học, thi cử và kỹ năng; phân biệt các cặp từ dễ nhầm (pass / take, experience đếm được và không đếm được). 30 từ chủ đề, 6 cụm động từ, 6 cụm giới từ, 13 mẫu giới từ, 10 họ từ.",
+ "summary": "Nói về việc học, thi cử và kỹ năng; phân biệt các cặp từ dễ nhầm (pass / take, experience đếm được và không đếm được). 30 từ chủ đề, 8 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 10 họ từ.",
  "vocab": [
   {
    "hangul": "achieve",
@@ -249,16 +249,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word list pp. 184–201"
   },
   {
-   "hangul": "carry on",
-   "pos": "V",
-   "meaning_vi": "tiếp tục",
-   "example_ko": "Carry on reading while I answer the door.",
-   "example_vi": "Cứ đọc tiếp trong lúc tôi ra mở cửa.",
-   "family": "2 · Phrasal verbs",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
-  },
-  {
    "hangul": "cross out",
    "pos": "V",
    "meaning_vi": "gạch bỏ",
@@ -269,11 +259,21 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
   },
   {
-   "hangul": "leave out",
+   "hangul": "point out",
    "pos": "V",
-   "meaning_vi": "bỏ sót, không tính đến",
-   "example_ko": "You left out an important number in your report.",
-   "example_vi": "Bạn bỏ sót một con số quan trọng trong báo cáo.",
+   "meaning_vi": "chỉ ra",
+   "example_ko": "The teacher pointed out two mistakes in my essay.",
+   "example_vi": "Giáo viên chỉ ra hai lỗi trong bài luận của tôi.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "read out",
+   "pos": "V",
+   "meaning_vi": "đọc to",
+   "example_ko": "The teacher read out the names of the winners.",
+   "example_vi": "Giáo viên đọc to tên những người thắng cuộc.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
@@ -299,11 +299,31 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
   },
   {
-   "hangul": "find out",
+   "hangul": "turn over",
    "pos": "V",
-   "meaning_vi": "tìm ra, biết được (thông tin)",
-   "example_ko": "I want to find out how much the course costs.",
-   "example_vi": "Tôi muốn biết khóa học giá bao nhiêu.",
+   "meaning_vi": "lật lại",
+   "example_ko": "Turn over the page and read the next question.",
+   "example_vi": "Lật trang và đọc câu hỏi tiếp theo.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "look up",
+   "pos": "V",
+   "meaning_vi": "tra (từ, thông tin)",
+   "example_ko": "I looked up the word in an online dictionary.",
+   "example_vi": "Tôi tra từ đó trong từ điển trực tuyến.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
+   "hangul": "write down",
+   "pos": "V",
+   "meaning_vi": "ghi lại",
+   "example_ko": "Write down the new words in your notebook.",
+   "example_vi": "Ghi từ mới vào vở.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
@@ -399,6 +419,16 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
   },
   {
+   "hangul": "continue with",
+   "pos": "X",
+   "meaning_vi": "tiếp tục với",
+   "example_ko": "Please continue with your work.",
+   "example_vi": "Mời tiếp tục công việc của bạn.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
    "hangul": "cope with",
    "pos": "X",
    "meaning_vi": "đối phó, xoay xở với",
@@ -409,11 +439,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
   },
   {
-   "hangul": "information about",
+   "hangul": "help (sb) with",
    "pos": "X",
-   "meaning_vi": "thông tin về (không đếm được)",
-   "example_ko": "I need some information about the course.",
-   "example_vi": "Tôi cần một số thông tin về khóa học.",
+   "meaning_vi": "giúp (ai) việc gì",
+   "example_ko": "Can you help me with my homework?",
+   "example_vi": "Bạn giúp tôi làm bài tập được không?",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
@@ -459,21 +489,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
   },
   {
-   "hangul": "ask for",
+   "hangul": "know about",
    "pos": "X",
-   "meaning_vi": "hỏi xin, yêu cầu",
-   "example_ko": "She asked for a glass of water.",
-   "example_vi": "Cô ấy xin một cốc nước.",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
-  },
-  {
-   "hangul": "good at",
-   "pos": "X",
-   "meaning_vi": "giỏi về",
-   "example_ko": "She is good at solving problems.",
-   "example_vi": "Cô ấy giỏi giải quyết vấn đề.",
+   "meaning_vi": "biết về",
+   "example_ko": "What do you know about solar energy?",
+   "example_vi": "Bạn biết gì về năng lượng mặt trời?",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
@@ -484,16 +504,6 @@
    "meaning_vi": "ý kiến về",
    "example_ko": "What is your opinion of the new law?",
    "example_vi": "Ý kiến của bạn về luật mới thế nào?",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
-  },
-  {
-   "hangul": "a solution to",
-   "pos": "X",
-   "meaning_vi": "giải pháp cho",
-   "example_ko": "There is no easy solution to this problem.",
-   "example_vi": "Không có giải pháp dễ dàng cho vấn đề này.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
@@ -647,6 +657,7 @@
   "B1U06C23",
   "B1U06C24",
   "B1U06C25",
+  "B1U06C26",
   "B1U06B1",
   "B1U06B2",
   "B1U06B3",
@@ -660,8 +671,13 @@
   "B1U06F8",
   "B1U06D1",
   "B1U06R1",
+  "B1U06R2",
+  "B1U06T1",
   "B1U06W1",
-  "B1U06S1"
+  "B1U06S1",
+  "B1U06S2",
+  "B1U06S3",
+  "B1U06S4"
  ],
  "sessions": [
   {
@@ -724,12 +740,14 @@
    "title_vi": "Cụm động từ và cụm giới từ 1",
    "can_do_vi": "Sau buổi này bạn chọn đúng tiểu từ và giới từ trong các cụm cố định của Unit, không dịch từng chữ từ tiếng Việt.",
    "vocab": [
-    "carry on",
     "cross out",
-    "leave out",
+    "point out",
+    "read out",
     "rip up",
     "rub out",
-    "find out",
+    "turn over",
+    "look up",
+    "write down",
     "in conclusion",
     "in fact",
     "in favour (of)",
@@ -750,6 +768,8 @@
     "B1U06C10",
     "B1U06C11",
     "B1U06C12",
+    "B1U06C13",
+    "B1U06C14",
     "B1U06B1",
     "B1U06B2",
     "B1U06B3"
@@ -762,20 +782,17 @@
     "capable of",
     "cheat at/in",
     "confuse sth with",
+    "continue with",
     "cope with",
-    "information about",
+    "help (sb) with",
     "learn about",
     "a question about",
     "succeed in",
     "talented at",
-    "ask for",
-    "good at",
-    "an opinion about/of",
-    "a solution to"
+    "know about",
+    "an opinion about/of"
    ],
    "check": [
-    "B1U06C13",
-    "B1U06C14",
     "B1U06C15",
     "B1U06C16",
     "B1U06C17",
@@ -786,7 +803,8 @@
     "B1U06C22",
     "B1U06C23",
     "B1U06C24",
-    "B1U06C25"
+    "B1U06C25",
+    "B1U06C26"
    ]
   },
   {
@@ -815,6 +833,8 @@
     "B1U06F8",
     "B1U06D1",
     "B1U06R1",
+    "B1U06R2",
+    "B1U06T1",
     "B1U06W1",
     "B1U06S1"
    ]
@@ -824,10 +844,6 @@
   {
    "title": "Nguồn",
    "body": "Danh sách từ theo Destination B1 (Mann & Taylore-Knowles, Macmillan), pp. 184–216. Nghĩa tiếng Việt, câu ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
-  },
-  {
-   "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: carry on."
   }
  ]
 }

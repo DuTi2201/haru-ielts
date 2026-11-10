@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 3,
- "summary": "Nói về sở thích, thể thao và âm nhạc bằng đúng từ và đúng giới từ. 30 từ chủ đề, 11 cụm động từ, 7 cụm giới từ, 12 mẫu giới từ, 10 họ từ.",
+ "summary": "Nói về sở thích, thể thao và âm nhạc bằng đúng từ và đúng giới từ. 30 từ chủ đề, 8 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 10 họ từ.",
  "vocab": [
   {
    "hangul": "beat",
@@ -249,6 +249,16 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15; word list pp. 184–201"
   },
   {
+   "hangul": "carry on",
+   "pos": "V",
+   "meaning_vi": "tiếp tục",
+   "example_ko": "Carry on reading while I answer the door.",
+   "example_vi": "Cứ đọc tiếp trong lúc tôi ra mở cửa.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
+  },
+  {
    "hangul": "eat out",
    "pos": "V",
    "meaning_vi": "ăn ngoài, ăn hàng",
@@ -269,41 +279,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
   },
   {
-   "hangul": "work out",
+   "hangul": "give up",
    "pos": "V",
-   "meaning_vi": "tìm ra cách giải, tính ra",
-   "example_ko": "I cannot work out the answer to question five.",
-   "example_vi": "Tôi không tìm ra đáp án câu năm.",
-   "family": "2 · Phrasal verbs",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
-  },
-  {
-   "hangul": "get off",
-   "pos": "V",
-   "meaning_vi": "xuống (xe buýt, tàu, máy bay)",
-   "example_ko": "Get off the bus at the stop after the bridge.",
-   "example_vi": "Xuống xe buýt ở trạm sau cây cầu.",
-   "family": "2 · Phrasal verbs",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
-  },
-  {
-   "hangul": "get out (of)",
-   "pos": "V",
-   "meaning_vi": "ra khỏi (ô tô, phòng, tòa nhà)",
-   "example_ko": "Everyone got out of the building when the alarm rang.",
-   "example_vi": "Mọi người ra khỏi tòa nhà khi chuông báo động kêu.",
-   "family": "2 · Phrasal verbs",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
-  },
-  {
-   "hangul": "let down",
-   "pos": "V",
-   "meaning_vi": "làm thất vọng",
-   "example_ko": "I promised to help, and I do not want to let you down.",
-   "example_vi": "Tôi đã hứa giúp và không muốn làm bạn thất vọng.",
+   "meaning_vi": "từ bỏ, bỏ (thói quen)",
+   "example_ko": "My father gave up smoking ten years ago.",
+   "example_vi": "Bố tôi bỏ thuốc lá mười năm trước.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
@@ -319,26 +299,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
   },
   {
-   "hangul": "take down",
-   "pos": "V",
-   "meaning_vi": "gỡ xuống, lấy xuống",
-   "example_ko": "We took down the old posters from the wall.",
-   "example_vi": "Chúng tôi gỡ mấy tấm áp phích cũ trên tường xuống.",
-   "family": "2 · Phrasal verbs",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
-  },
-  {
-   "hangul": "take off",
-   "pos": "V",
-   "meaning_vi": "cất cánh; cởi ra",
-   "example_ko": "The plane took off two hours late.",
-   "example_vi": "Máy bay cất cánh muộn hai tiếng.",
-   "family": "2 · Phrasal verbs",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
-  },
-  {
    "hangul": "take up",
    "pos": "V",
    "meaning_vi": "bắt đầu (sở thích, môn thể thao)",
@@ -349,11 +309,21 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
   },
   {
-   "hangul": "turn off",
+   "hangul": "turn down",
    "pos": "V",
-   "meaning_vi": "tắt",
-   "example_ko": "Turn off the lights when you leave the room.",
-   "example_vi": "Tắt đèn khi ra khỏi phòng.",
+   "meaning_vi": "vặn nhỏ",
+   "example_ko": "Please turn down the music; I am studying.",
+   "example_vi": "Vặn nhỏ nhạc giúp, tôi đang học.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
+  },
+  {
+   "hangul": "turn up",
+   "pos": "V",
+   "meaning_vi": "vặn to",
+   "example_ko": "Could you turn up the volume?",
+   "example_vi": "Bạn vặn to tiếng lên được không?",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
@@ -419,16 +389,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
   },
   {
-   "hangul": "on time",
-   "pos": "X",
-   "meaning_vi": "đúng giờ",
-   "example_ko": "The train left exactly on time.",
-   "example_vi": "Tàu rời ga đúng giờ.",
-   "family": "3 · Prepositional phrases",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
-  },
-  {
    "hangul": "bored with",
    "pos": "X",
    "meaning_vi": "chán",
@@ -489,26 +449,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
   },
   {
-   "hangul": "send sth to sb",
-   "pos": "X",
-   "meaning_vi": "gửi cái gì cho ai",
-   "example_ko": "Please send the report to me today.",
-   "example_vi": "Vui lòng gửi báo cáo cho tôi trong hôm nay.",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
-  },
-  {
-   "hangul": "agree (with sb) about",
-   "pos": "X",
-   "meaning_vi": "đồng ý (với ai) về",
-   "example_ko": "I agree with you about the price.",
-   "example_vi": "Tôi đồng ý với bạn về giá cả.",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
-  },
-  {
    "hangul": "a book (by sb) about",
    "pos": "X",
    "meaning_vi": "cuốn sách (của ai) về",
@@ -519,31 +459,51 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
   },
   {
-   "hangul": "chat (to sb) about",
+   "hangul": "feel like",
    "pos": "X",
-   "meaning_vi": "trò chuyện (với ai) về",
-   "example_ko": "We chatted about our holiday plans.",
-   "example_vi": "Chúng tôi trò chuyện về kế hoạch đi nghỉ.",
+   "meaning_vi": "muốn (làm gì)",
+   "example_ko": "I feel like staying at home tonight.",
+   "example_vi": "Tối nay tôi muốn ở nhà.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
   },
   {
-   "hangul": "fight against",
+   "hangul": "good at",
    "pos": "X",
-   "meaning_vi": "đấu tranh chống lại",
-   "example_ko": "Doctors fight against disease every day.",
-   "example_vi": "Bác sĩ chiến đấu với bệnh tật mỗi ngày.",
+   "meaning_vi": "giỏi về",
+   "example_ko": "She is good at solving problems.",
+   "example_vi": "Cô ấy giỏi giải quyết vấn đề.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
   },
   {
-   "hangul": "write (to sb) about",
+   "hangul": "listen to",
    "pos": "X",
-   "meaning_vi": "viết (cho ai) về",
-   "example_ko": "I wrote to the manager about the problem.",
-   "example_vi": "Tôi viết thư cho quản lý về vấn đề đó.",
+   "meaning_vi": "nghe",
+   "example_ko": "I listen to podcasts on the bus.",
+   "example_vi": "Tôi nghe podcast trên xe buýt.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
+  },
+  {
+   "hangul": "take part in",
+   "pos": "X",
+   "meaning_vi": "tham gia",
+   "example_ko": "Over 500 people took part in the race.",
+   "example_vi": "Hơn 500 người tham gia cuộc đua.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
+  },
+  {
+   "hangul": "popular with",
+   "pos": "X",
+   "meaning_vi": "được ưa chuộng bởi",
+   "example_ko": "The park is popular with families.",
+   "example_vi": "Công viên này được các gia đình ưa thích.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
@@ -698,10 +658,6 @@
   "B1U03C24",
   "B1U03C25",
   "B1U03C26",
-  "B1U03C27",
-  "B1U03C28",
-  "B1U03C29",
-  "B1U03C30",
   "B1U03B1",
   "B1U03B2",
   "B1U03B3",
@@ -715,8 +671,13 @@
   "B1U03F8",
   "B1U03D1",
   "B1U03R1",
+  "B1U03R2",
+  "B1U03T1",
   "B1U03W1",
-  "B1U03S1"
+  "B1U03S1",
+  "B1U03S2",
+  "B1U03S3",
+  "B1U03S4"
  ],
  "sessions": [
   {
@@ -779,15 +740,20 @@
    "title_vi": "Cụm động từ và cụm giới từ 1",
    "can_do_vi": "Sau buổi này bạn chọn đúng tiểu từ và giới từ trong các cụm cố định của Unit, không dịch từng chữ từ tiếng Việt.",
    "vocab": [
+    "carry on",
     "eat out",
     "join in",
-    "work out",
-    "get off",
-    "get out (of)",
-    "let down",
+    "give up",
     "send off",
-    "take down",
-    "take off"
+    "take up",
+    "turn down",
+    "turn up",
+    "on CD/DVD/video",
+    "for fun",
+    "in the middle (of)",
+    "on stage",
+    "for a long time",
+    "in time (for)"
    ],
    "check": [
     "B1U03C1",
@@ -799,35 +765,14 @@
     "B1U03C7",
     "B1U03C8",
     "B1U03C9",
-    "B1U03B1",
-    "B1U03B2",
-    "B1U03B3"
-   ]
-  },
-  {
-   "title_vi": "Cụm động từ và cụm giới từ 2",
-   "can_do_vi": "Sau buổi này bạn chọn đúng tiểu từ và giới từ trong các cụm cố định của Unit, không dịch từng chữ từ tiếng Việt.",
-   "vocab": [
-    "take up",
-    "turn off",
-    "on CD/DVD/video",
-    "for fun",
-    "in the middle (of)",
-    "on stage",
-    "for a long time",
-    "in time (for)",
-    "on time"
-   ],
-   "check": [
     "B1U03C10",
     "B1U03C11",
     "B1U03C12",
     "B1U03C13",
     "B1U03C14",
-    "B1U03C15",
-    "B1U03C16",
-    "B1U03C17",
-    "B1U03C18"
+    "B1U03B1",
+    "B1U03B2",
+    "B1U03B3"
    ]
   },
   {
@@ -840,14 +785,18 @@
     "a game against",
     "interested in",
     "keen on",
-    "send sth to sb",
-    "agree (with sb) about",
     "a book (by sb) about",
-    "chat (to sb) about",
-    "fight against",
-    "write (to sb) about"
+    "feel like",
+    "good at",
+    "listen to",
+    "take part in",
+    "popular with"
    ],
    "check": [
+    "B1U03C15",
+    "B1U03C16",
+    "B1U03C17",
+    "B1U03C18",
     "B1U03C19",
     "B1U03C20",
     "B1U03C21",
@@ -855,11 +804,7 @@
     "B1U03C23",
     "B1U03C24",
     "B1U03C25",
-    "B1U03C26",
-    "B1U03C27",
-    "B1U03C28",
-    "B1U03C29",
-    "B1U03C30"
+    "B1U03C26"
    ]
   },
   {
@@ -888,6 +833,8 @@
     "B1U03F8",
     "B1U03D1",
     "B1U03R1",
+    "B1U03R2",
+    "B1U03T1",
     "B1U03W1",
     "B1U03S1"
    ]

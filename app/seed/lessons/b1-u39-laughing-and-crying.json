@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 39,
- "summary": "Nói về cảm xúc và cách cư xử; phân biệt tính từ đuôi -ed và -ing (embarrassed / embarrassing). 30 từ chủ đề, 5 cụm động từ, 5 cụm giới từ, 12 mẫu giới từ, 10 họ từ.",
+ "summary": "Nói về cảm xúc và cách cư xử; phân biệt tính từ đuôi -ed và -ing (embarrassed / embarrassing). 30 từ chủ đề, 7 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 10 họ từ.",
  "vocab": [
   {
    "hangul": "amusing",
@@ -270,6 +270,26 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
   },
   {
+   "hangul": "hang on",
+   "pos": "V",
+   "meaning_vi": "chờ một chút",
+   "example_ko": "Hang on a minute, I need to find my keys.",
+   "example_vi": "Chờ chút, tôi phải tìm chìa khóa.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "run away (from)",
+   "pos": "V",
+   "meaning_vi": "chạy trốn",
+   "example_ko": "The dog ran away from home during the storm.",
+   "example_vi": "Con chó bỏ nhà chạy mất trong cơn bão.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
    "hangul": "shut up",
    "pos": "V",
    "meaning_vi": "im đi (thô)",
@@ -280,21 +300,21 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
   },
   {
-   "hangul": "get on (with)",
+   "hangul": "speak up",
    "pos": "V",
-   "meaning_vi": "hòa hợp với",
-   "example_ko": "I get on well with all my classmates.",
-   "example_vi": "Tôi hòa hợp với tất cả bạn cùng lớp.",
+   "meaning_vi": "nói to lên",
+   "example_ko": "Could you speak up? I cannot hear you at the back.",
+   "example_vi": "Bạn nói to lên được không? Ngồi cuối tôi không nghe rõ.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
   },
   {
-   "hangul": "try on",
+   "hangul": "come on",
    "pos": "V",
-   "meaning_vi": "mặc thử",
-   "example_ko": "Can I try on this jacket in a larger size?",
-   "example_vi": "Tôi thử chiếc áo khoác này cỡ lớn hơn được không?",
+   "meaning_vi": "nhanh lên nào",
+   "example_ko": "Come on, the film starts in five minutes!",
+   "example_vi": "Nhanh lên, năm phút nữa phim chiếu rồi!",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
@@ -335,6 +355,16 @@
    "meaning_vi": "đang khóc",
    "example_ko": "She left the room in tears.",
    "example_vi": "Cô ấy rời phòng trong nước mắt.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "at first",
+   "pos": "X",
+   "meaning_vi": "ban đầu",
+   "example_ko": "At first I did not like the city, but now I love it.",
+   "example_vi": "Ban đầu tôi không thích thành phố này, nhưng giờ thì rất thích.",
    "family": "3 · Prepositional phrases",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
@@ -390,16 +420,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
   },
   {
-   "hangul": "glance at",
-   "pos": "X",
-   "meaning_vi": "liếc nhìn",
-   "example_ko": "He glanced at his watch and stood up.",
-   "example_vi": "Anh ấy liếc đồng hồ rồi đứng dậy.",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
-  },
-  {
    "hangul": "a joke about",
    "pos": "X",
    "meaning_vi": "chuyện cười về",
@@ -430,16 +450,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
   },
   {
-   "hangul": "smile at",
-   "pos": "X",
-   "meaning_vi": "mỉm cười với",
-   "example_ko": "The baby smiled at me.",
-   "example_vi": "Em bé mỉm cười với tôi.",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
-  },
-  {
    "hangul": "surprised at/by",
    "pos": "X",
    "meaning_vi": "ngạc nhiên trước",
@@ -460,11 +470,31 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
   },
   {
+   "hangul": "happy about/with",
+   "pos": "X",
+   "meaning_vi": "hài lòng về",
+   "example_ko": "I am happy with my new job.",
+   "example_vi": "Tôi hài lòng với công việc mới.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
    "hangul": "scared of",
    "pos": "X",
    "meaning_vi": "sợ",
    "example_ko": "I am scared of heights.",
    "example_vi": "Tôi sợ độ cao.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
+  },
+  {
+   "hangul": "sorry about/for",
+   "pos": "X",
+   "meaning_vi": "xin lỗi, tiếc về",
+   "example_ko": "I am sorry about the noise last night.",
+   "example_vi": "Tôi xin lỗi vì tiếng ồn tối qua.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163"
@@ -606,6 +636,9 @@
   "B1U39C20",
   "B1U39C21",
   "B1U39C22",
+  "B1U39C23",
+  "B1U39C24",
+  "B1U39C25",
   "B1U39B1",
   "B1U39B2",
   "B1U39B3",
@@ -619,8 +652,13 @@
   "B1U39F8",
   "B1U39D1",
   "B1U39R1",
+  "B1U39R2",
+  "B1U39T1",
   "B1U39W1",
-  "B1U39S1"
+  "B1U39S1",
+  "B1U39S2",
+  "B1U39S3",
+  "B1U39S4"
  ],
  "sessions": [
   {
@@ -685,13 +723,16 @@
    "vocab": [
     "calm down",
     "cheer up",
+    "hang on",
+    "run away (from)",
     "shut up",
-    "get on (with)",
-    "try on",
+    "speak up",
+    "come on",
     "at least",
     "in secret",
     "in spite of",
     "in tears",
+    "at first",
     "at times"
    ],
    "check": [
@@ -705,6 +746,9 @@
     "B1U39C8",
     "B1U39C9",
     "B1U39C10",
+    "B1U39C11",
+    "B1U39C12",
+    "B1U39C13",
     "B1U39B1",
     "B1U39B2",
     "B1U39B3"
@@ -718,19 +762,16 @@
     "congratulate sb on",
     "embarrassed about",
     "frightened of",
-    "glance at",
     "a joke about",
     "laugh at",
     "nervous about",
-    "smile at",
     "surprised at/by",
     "tired of",
-    "scared of"
+    "happy about/with",
+    "scared of",
+    "sorry about/for"
    ],
    "check": [
-    "B1U39C11",
-    "B1U39C12",
-    "B1U39C13",
     "B1U39C14",
     "B1U39C15",
     "B1U39C16",
@@ -739,7 +780,10 @@
     "B1U39C19",
     "B1U39C20",
     "B1U39C21",
-    "B1U39C22"
+    "B1U39C22",
+    "B1U39C23",
+    "B1U39C24",
+    "B1U39C25"
    ]
   },
   {
@@ -767,6 +811,8 @@
     "B1U39F8",
     "B1U39D1",
     "B1U39R1",
+    "B1U39R2",
+    "B1U39T1",
     "B1U39W1",
     "B1U39S1"
    ]
@@ -776,10 +822,6 @@
   {
    "title": "Nguồn",
    "body": "Danh sách từ theo Destination B1 (Mann & Taylore-Knowles, Macmillan), pp. 184–216. Nghĩa tiếng Việt, câu ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
-  },
-  {
-   "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: calm down, shut up, congratulate sb on, glance at."
   }
  ]
 }

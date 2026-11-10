@@ -9,7 +9,10 @@
 | `topic_vocab.txt` | topic vocabulary per unit, with Vietnamese meanings |
 | `phrasal_verbs.txt`, `prep_phrases.txt`, `word_patterns.txt`, `word_formation.txt` | the four other trays of a vocabulary unit |
 | `skills.txt` | one short reading (three questions) and one short writing task per unit |
-| `unit_assignment.json` | which vocabulary unit each tray item belongs to (written by `assign_units.py`) |
+| `methods.txt` | per unit: three grades of topic sentence, and the keyword chain and summary of the passage |
+| `speaking_bank.txt` | Part 1, Part 2 and Part 3 speaking sets for the 14 vocabulary units |
+| `unit_assignment.json` | which vocabulary unit each tray item belongs to |
+| `book_units.py` | the unit boxes as printed in the book; checks `unit_assignment.json` against them |
 
     python3 scripts/b1/build.py
     python3 -c "from app.services.lesson_seed import load_all; b = load_all(); print(len(b.lessons), b.problems)"
@@ -20,7 +23,6 @@ to the book for the book's own exercises.
 
 Still to check by a person:
 
-* `unit_assignment.json` → `unverified`: 42 tray items placed by topic, not found on the unit's pages.
 * `ALSO_OK` in `build.py`: prepositions never offered as wrong options because they would also be acceptable; reviewed once.
 * Field names (`hangul`, `title_ko`, `example_ko`, `prompt_ko`, `model_answer_ko`, `topik_tip_vi`) are still the
   Korean schema's and hold English here.

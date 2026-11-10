@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 36,
- "summary": "Nói về thời tiết, môi trường, động vật; dùng đúng nhóm từ không đếm được (wildlife, litter). 30 từ chủ đề, 9 cụm động từ, 5 cụm giới từ, 13 mẫu giới từ, 8 họ từ.",
+ "summary": "Nói về thời tiết, môi trường, động vật; dùng đúng nhóm từ không đếm được (wildlife, litter). 30 từ chủ đề, 8 cụm động từ, 7 cụm giới từ, 12 mẫu giới từ, 10 họ từ.",
  "vocab": [
   {
    "hangul": "amazing",
@@ -259,6 +259,16 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
   },
   {
+   "hangul": "clear up",
+   "pos": "V",
+   "meaning_vi": "dọn dẹp",
+   "example_ko": "We cleared up the kitchen after the party.",
+   "example_vi": "Chúng tôi dọn bếp sau bữa tiệc.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
+  },
+  {
    "hangul": "keep out",
    "pos": "V",
    "meaning_vi": "không cho vào, tránh xa",
@@ -269,21 +279,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
   },
   {
-   "hangul": "pick up",
+   "hangul": "build up",
    "pos": "V",
-   "meaning_vi": "nhặt lên, nhấc lên",
-   "example_ko": "Please pick up your litter before you leave the beach.",
-   "example_vi": "Hãy nhặt rác trước khi rời bãi biển.",
-   "family": "2 · Phrasal verbs",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
-  },
-  {
-   "hangul": "go on",
-   "pos": "V",
-   "meaning_vi": "tiếp tục; diễn ra",
-   "example_ko": "The lesson went on for three hours.",
-   "example_vi": "Buổi học kéo dài ba tiếng.",
+   "meaning_vi": "tăng dần, tích lũy",
+   "example_ko": "Reading every day helps you build up your vocabulary.",
+   "example_vi": "Đọc mỗi ngày giúp bạn tích lũy vốn từ.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
@@ -294,16 +294,6 @@
    "meaning_vi": "tắt (lửa, đèn)",
    "example_ko": "The candle went out when she opened the window.",
    "example_vi": "Ngọn nến tắt khi cô ấy mở cửa sổ.",
-   "family": "2 · Phrasal verbs",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
-  },
-  {
-   "hangul": "go out with",
-   "pos": "V",
-   "meaning_vi": "hẹn hò với",
-   "example_ko": "My brother has been going out with Lan for a year.",
-   "example_vi": "Anh tôi hẹn hò với Lan được một năm rồi.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
@@ -329,11 +319,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
   },
   {
-   "hangul": "take over",
+   "hangul": "put up",
    "pos": "V",
-   "meaning_vi": "tiếp quản, mua lại",
-   "example_ko": "A larger company took over the business last year.",
-   "example_vi": "Một công ty lớn hơn đã mua lại doanh nghiệp năm ngoái.",
+   "meaning_vi": "treo lên, dán lên (tường)",
+   "example_ko": "The school put up a notice about the trip.",
+   "example_vi": "Trường dán thông báo về chuyến đi.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
@@ -364,6 +354,26 @@
    "meaning_vi": "ở đằng xa",
    "example_ko": "We could see mountains in the distance.",
    "example_vi": "Chúng tôi thấy núi ở đằng xa.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
+  },
+  {
+   "hangul": "at the top (of)",
+   "pos": "X",
+   "meaning_vi": "ở trên cùng, ở đỉnh",
+   "example_ko": "Her name is at the top of the list.",
+   "example_vi": "Tên cô ấy đứng đầu danh sách.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
+  },
+  {
+   "hangul": "on top (of)",
+   "pos": "X",
+   "meaning_vi": "ở trên, đặt lên trên",
+   "example_ko": "Put the box on top of the cupboard.",
+   "example_vi": "Đặt cái hộp lên nóc tủ.",
    "family": "3 · Prepositional phrases",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
@@ -419,16 +429,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
   },
   {
-   "hangul": "help (sb) with",
-   "pos": "X",
-   "meaning_vi": "giúp (ai) việc gì",
-   "example_ko": "Can you help me with my homework?",
-   "example_vi": "Bạn giúp tôi làm bài tập được không?",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
-  },
-  {
    "hangul": "prevent sb from",
    "pos": "X",
    "meaning_vi": "ngăn ai làm gì",
@@ -459,31 +459,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
   },
   {
-   "hangul": "a type of",
-   "pos": "X",
-   "meaning_vi": "một kiểu, loại",
-   "example_ko": "Jazz is a type of music.",
-   "example_vi": "Jazz là một thể loại nhạc.",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
-  },
-  {
    "hangul": "afraid of",
    "pos": "X",
    "meaning_vi": "sợ",
    "example_ko": "My little brother is afraid of dogs.",
    "example_vi": "Em trai tôi sợ chó.",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
-  },
-  {
-   "hangul": "care about",
-   "pos": "X",
-   "meaning_vi": "quan tâm đến",
-   "example_ko": "Young people care about the environment.",
-   "example_vi": "Giới trẻ quan tâm đến môi trường.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
@@ -499,11 +479,31 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
   },
   {
-   "hangul": "happen to",
+   "hangul": "an increase in",
    "pos": "X",
-   "meaning_vi": "xảy ra với",
-   "example_ko": "What happened to your phone?",
-   "example_vi": "Điện thoại của bạn bị làm sao thế?",
+   "meaning_vi": "sự gia tăng về",
+   "example_ko": "There was an increase in the number of tourists.",
+   "example_vi": "Số lượng khách du lịch đã tăng lên.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
+  },
+  {
+   "hangul": "short of",
+   "pos": "X",
+   "meaning_vi": "thiếu",
+   "example_ko": "We are short of time.",
+   "example_vi": "Chúng ta đang thiếu thời gian.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
+  },
+  {
+   "hangul": "think about",
+   "pos": "X",
+   "meaning_vi": "nghĩ về",
+   "example_ko": "I am thinking about changing my job.",
+   "example_vi": "Tôi đang nghĩ đến việc đổi việc.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
@@ -517,6 +517,15 @@
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
+  },
+  {
+   "hangul": "centre",
+   "pos": "N",
+   "meaning_vi": "trung tâm",
+   "note_vi": "Họ từ: `central` (tính từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151; word formation pp. 212–216"
   },
   {
    "hangul": "circle",
@@ -568,6 +577,15 @@
    "pos": "N",
    "meaning_vi": "khu vườn",
    "note_vi": "Họ từ: `gardener` (danh từ chỉ người), `gardening` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151; word formation pp. 212–216"
+  },
+  {
+   "hangul": "invade",
+   "pos": "V",
+   "meaning_vi": "xâm lược",
+   "note_vi": "Họ từ: `invasion` (danh từ), `invader` (danh từ chỉ người)",
    "family": "5 · Word formation",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151; word formation pp. 212–216"
@@ -664,8 +682,13 @@
   "B1U36F8",
   "B1U36D1",
   "B1U36R1",
+  "B1U36R2",
+  "B1U36T1",
   "B1U36W1",
-  "B1U36S1"
+  "B1U36S1",
+  "B1U36S2",
+  "B1U36S3",
+  "B1U36S4"
  ],
  "sessions": [
   {
@@ -729,17 +752,18 @@
    "can_do_vi": "Sau buổi này bạn chọn đúng tiểu từ và giới từ trong các cụm cố định của Unit, không dịch từng chữ từ tiếng Việt.",
    "vocab": [
     "blow up",
+    "clear up",
     "keep out",
-    "pick up",
-    "go on",
+    "build up",
     "go out",
-    "go out with",
     "put down",
     "put out",
-    "take over",
+    "put up",
     "in the beginning",
     "at the bottom (of)",
     "in the distance",
+    "at the top (of)",
+    "on top (of)",
     "in total",
     "at most"
    ],
@@ -758,6 +782,7 @@
     "B1U36C12",
     "B1U36C13",
     "B1U36C14",
+    "B1U36C15",
     "B1U36B1",
     "B1U36B2",
     "B1U36B3"
@@ -770,19 +795,17 @@
     "aware of",
     "damage to",
     "escape from",
-    "help (sb) with",
     "prevent sb from",
     "save sth from",
     "serious about",
-    "a type of",
     "afraid of",
-    "care about",
     "enthusiastic about",
-    "happen to",
+    "an increase in",
+    "short of",
+    "think about",
     "worry about"
    ],
    "check": [
-    "B1U36C15",
     "B1U36C16",
     "B1U36C17",
     "B1U36C18",
@@ -801,12 +824,14 @@
    "title_vi": "Biến đổi từ loại và phần Nói",
    "can_do_vi": "Sau buổi này bạn đổi được từ gốc sang danh từ, tính từ hoặc dạng trái nghĩa, và nói được một phút về chủ đề của Unit.",
    "vocab": [
+    "centre",
     "circle",
     "danger",
     "deep",
     "destroy",
     "fog",
     "garden",
+    "invade",
     "nature",
     "pollute"
    ],
@@ -821,6 +846,8 @@
     "B1U36F8",
     "B1U36D1",
     "B1U36R1",
+    "B1U36R2",
+    "B1U36T1",
     "B1U36W1",
     "B1U36S1"
    ]
@@ -830,10 +857,6 @@
   {
    "title": "Nguồn",
    "body": "Danh sách từ theo Destination B1 (Mann & Taylore-Knowles, Macmillan), pp. 184–216. Nghĩa tiếng Việt, câu ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
-  },
-  {
-   "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: keep out, pick up, fog."
   }
  ]
 }

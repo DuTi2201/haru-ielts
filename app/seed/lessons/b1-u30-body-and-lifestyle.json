@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 30,
- "summary": "Nói về sức khỏe, ăn uống và lối sống; phân biệt affect và effect, cure và treat. 30 từ chủ đề, 8 cụm động từ, 6 cụm giới từ, 11 mẫu giới từ, 10 họ từ.",
+ "summary": "Nói về sức khỏe, ăn uống và lối sống; phân biệt affect và effect, cure và treat. 30 từ chủ đề, 7 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 10 họ từ.",
  "vocab": [
   {
    "hangul": "affect",
@@ -259,11 +259,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "cut off",
+   "hangul": "fall down",
    "pos": "V",
-   "meaning_vi": "cắt (điện, nước, liên lạc); cắt rời",
-   "example_ko": "The storm cut off the electricity for two days.",
-   "example_vi": "Cơn bão làm mất điện hai ngày.",
+   "meaning_vi": "ngã, đổ xuống",
+   "example_ko": "He fell down on the ice and hurt his arm.",
+   "example_vi": "Anh ấy ngã trên băng và bị đau tay.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
@@ -299,16 +299,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "stay up",
-   "pos": "V",
-   "meaning_vi": "thức khuya",
-   "example_ko": "I stayed up until midnight to finish my homework.",
-   "example_vi": "Tôi thức đến nửa đêm để làm xong bài tập.",
-   "family": "2 · Phrasal verbs",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
-  },
-  {
    "hangul": "get over",
    "pos": "V",
    "meaning_vi": "vượt qua, bình phục sau",
@@ -319,11 +309,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "put off",
+   "hangul": "go off",
    "pos": "V",
-   "meaning_vi": "hoãn lại",
-   "example_ko": "They put off the meeting until Monday.",
-   "example_vi": "Họ hoãn cuộc họp đến thứ Hai.",
+   "meaning_vi": "ôi, thiu (đồ ăn)",
+   "example_ko": "Put the milk in the fridge or it will go off.",
+   "example_vi": "Cất sữa vào tủ lạnh kẻo hỏng.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
@@ -419,11 +409,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
   },
   {
-   "hangul": "continue with",
+   "hangul": "complain (to sb) about",
    "pos": "X",
-   "meaning_vi": "tiếp tục với",
-   "example_ko": "Please continue with your work.",
-   "example_vi": "Mời tiếp tục công việc của bạn.",
+   "meaning_vi": "phàn nàn (với ai) về",
+   "example_ko": "Guests complained about the noise.",
+   "example_vi": "Khách phàn nàn về tiếng ồn.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
@@ -494,6 +484,16 @@
    "meaning_vi": "có mùi",
    "example_ko": "The kitchen smells of coffee.",
    "example_vi": "Bếp thơm mùi cà phê.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
+  },
+  {
+   "hangul": "fight against",
+   "pos": "X",
+   "meaning_vi": "đấu tranh chống lại",
+   "example_ko": "Doctors fight against disease every day.",
+   "example_vi": "Bác sĩ chiến đấu với bệnh tật mỗi ngày.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 30, pp. 124-127"
@@ -660,8 +660,13 @@
   "B1U30F8",
   "B1U30D1",
   "B1U30R1",
+  "B1U30R2",
+  "B1U30T1",
   "B1U30W1",
-  "B1U30S1"
+  "B1U30S1",
+  "B1U30S2",
+  "B1U30S3",
+  "B1U30S4"
  ],
  "sessions": [
   {
@@ -725,13 +730,12 @@
    "can_do_vi": "Sau buổi này bạn chọn đúng tiểu từ và giới từ trong các cụm cố định của Unit, không dịch từng chữ từ tiếng Việt.",
    "vocab": [
     "cut down (on)",
-    "cut off",
+    "fall down",
     "lie down",
     "sit down",
     "stand up",
-    "stay up",
     "get over",
-    "put off",
+    "go off",
     "in addition (to)",
     "in comparison to/with",
     "on a diet",
@@ -753,7 +757,6 @@
     "B1U30C11",
     "B1U30C12",
     "B1U30C13",
-    "B1U30C14",
     "B1U30B1",
     "B1U30B2",
     "B1U30B3"
@@ -766,16 +769,18 @@
     "addicted to",
     "allergic to",
     "combine sth with",
-    "continue with",
+    "complain (to sb) about",
     "covered in/with",
     "a cure for",
     "die from/of",
     "pleased with",
     "a recipe for",
     "recover from",
-    "smell of"
+    "smell of",
+    "fight against"
    ],
    "check": [
+    "B1U30C14",
     "B1U30C15",
     "B1U30C16",
     "B1U30C17",
@@ -815,6 +820,8 @@
     "B1U30F8",
     "B1U30D1",
     "B1U30R1",
+    "B1U30R2",
+    "B1U30T1",
     "B1U30W1",
     "B1U30S1"
    ]
@@ -824,10 +831,6 @@
   {
    "title": "Nguồn",
    "body": "Danh sách từ theo Destination B1 (Mann & Taylore-Knowles, Macmillan), pp. 184–216. Nghĩa tiếng Việt, câu ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
-  },
-  {
-   "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: stay up, smell of."
   }
  ]
 }

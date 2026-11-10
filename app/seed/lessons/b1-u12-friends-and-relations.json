@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 12,
- "summary": "Tả tính cách và mối quan hệ; dùng đúng mẫu get on with, fond of, proud of. 30 từ chủ đề, 9 cụm động từ, 6 cụm giới từ, 13 mẫu giới từ, 11 họ từ.",
+ "summary": "Tả tính cách và mối quan hệ; dùng đúng mẫu get on with, fond of, proud of. 30 từ chủ đề, 8 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 10 họ từ.",
  "vocab": [
   {
    "hangul": "apologise",
@@ -261,16 +261,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 12, pp. 48-51"
   },
   {
-   "hangul": "fall down",
-   "pos": "V",
-   "meaning_vi": "ngã, đổ xuống",
-   "example_ko": "He fell down on the ice and hurt his arm.",
-   "example_vi": "Anh ấy ngã trên băng và bị đau tay.",
-   "family": "2 · Phrasal verbs",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 12, pp. 48-51"
-  },
-  {
    "hangul": "fall out (with)",
    "pos": "V",
    "meaning_vi": "cãi nhau, giận nhau",
@@ -301,16 +291,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 12, pp. 48-51"
   },
   {
-   "hangul": "share out",
-   "pos": "V",
-   "meaning_vi": "chia đều",
-   "example_ko": "The teacher shared out the books among the students.",
-   "example_vi": "Giáo viên chia sách cho học sinh.",
-   "family": "2 · Phrasal verbs",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 12, pp. 48-51"
-  },
-  {
    "hangul": "split up",
    "pos": "V",
    "meaning_vi": "chia tay",
@@ -321,32 +301,32 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 12, pp. 48-51"
   },
   {
-   "hangul": "give up",
+   "hangul": "get on (with)",
    "pos": "V",
-   "meaning_vi": "từ bỏ, bỏ (thói quen)",
-   "example_ko": "My father gave up smoking ten years ago.",
-   "example_vi": "Bố tôi bỏ thuốc lá mười năm trước.",
+   "meaning_vi": "hòa hợp với",
+   "example_ko": "I get on well with all my classmates.",
+   "example_vi": "Tôi hòa hợp với tất cả bạn cùng lớp.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 12, pp. 48-51"
   },
   {
-   "hangul": "write down",
+   "hangul": "go out with",
    "pos": "V",
-   "meaning_vi": "ghi lại",
-   "example_ko": "Write down the new words in your notebook.",
-   "example_vi": "Ghi từ mới vào vở.",
+   "meaning_vi": "hẹn hò với",
+   "example_ko": "My brother has been going out with Lan for a year.",
+   "example_vi": "Anh tôi hẹn hò với Lan được một năm rồi.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 12, pp. 48-51"
   },
   {
-   "hangul": "by accident",
-   "pos": "X",
-   "meaning_vi": "vô tình, tình cờ",
-   "example_ko": "I deleted the file by accident.",
-   "example_vi": "Tôi vô tình xóa mất tệp.",
-   "family": "3 · Prepositional phrases",
+   "hangul": "let down",
+   "pos": "V",
+   "meaning_vi": "làm thất vọng",
+   "example_ko": "I promised to help, and I do not want to let you down.",
+   "example_vi": "Tôi đã hứa giúp và không muốn làm bạn thất vọng.",
+   "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 12, pp. 48-51"
   },
@@ -396,6 +376,16 @@
    "meaning_vi": "một mình, tự mình",
    "example_ko": "Did you paint the room by yourself?",
    "example_vi": "Bạn tự sơn phòng à?",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 12, pp. 48-51"
+  },
+  {
+   "hangul": "in love (with)",
+   "pos": "X",
+   "meaning_vi": "đang yêu",
+   "example_ko": "He is in love with a girl from his class.",
+   "example_vi": "Cậu ấy đang yêu một cô bạn cùng lớp.",
    "family": "3 · Prepositional phrases",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 12, pp. 48-51"
@@ -451,16 +441,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 12, pp. 48-51"
   },
   {
-   "hangul": "invite sb to",
-   "pos": "X",
-   "meaning_vi": "mời ai đến",
-   "example_ko": "They invited us to their wedding.",
-   "example_vi": "Họ mời chúng tôi dự đám cưới.",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 12, pp. 48-51"
-  },
-  {
    "hangul": "jealous of",
    "pos": "X",
    "meaning_vi": "ghen tị với",
@@ -501,31 +481,31 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 12, pp. 48-51"
   },
   {
-   "hangul": "talk (to sb) about",
+   "hangul": "care about",
    "pos": "X",
-   "meaning_vi": "nói chuyện (với ai) về",
-   "example_ko": "We talked about our plans for the summer.",
-   "example_vi": "Chúng tôi nói về kế hoạch mùa hè.",
+   "meaning_vi": "quan tâm đến",
+   "example_ko": "Young people care about the environment.",
+   "example_vi": "Giới trẻ quan tâm đến môi trường.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 12, pp. 48-51"
   },
   {
-   "hangul": "sorry about/for",
+   "hangul": "chat (to sb) about",
    "pos": "X",
-   "meaning_vi": "xin lỗi, tiếc về",
-   "example_ko": "I am sorry about the noise last night.",
-   "example_vi": "Tôi xin lỗi vì tiếng ồn tối qua.",
+   "meaning_vi": "trò chuyện (với ai) về",
+   "example_ko": "We chatted about our holiday plans.",
+   "example_vi": "Chúng tôi trò chuyện về kế hoạch đi nghỉ.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 12, pp. 48-51"
   },
   {
-   "hangul": "sure about/of",
+   "hangul": "kind to",
    "pos": "X",
-   "meaning_vi": "chắc chắn về",
-   "example_ko": "Are you sure about the date?",
-   "example_vi": "Bạn chắc về ngày tháng chứ?",
+   "meaning_vi": "tốt bụng với",
+   "example_ko": "She is always kind to new students.",
+   "example_vi": "Cô ấy luôn tốt với học sinh mới.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 12, pp. 48-51"
@@ -544,15 +524,6 @@
    "pos": "V",
    "meaning_vi": "ngưỡng mộ",
    "note_vi": "Họ từ: `admiration` (danh từ)",
-   "family": "5 · Word formation",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 12, pp. 48-51; word formation pp. 212–216"
-  },
-  {
-   "hangul": "belief",
-   "pos": "N",
-   "meaning_vi": "niềm tin",
-   "note_vi": "Họ từ: `believe` (động từ), `believable` (tính từ), `unbelievable` (dạng trái nghĩa)",
    "family": "5 · Word formation",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 12, pp. 48-51; word formation pp. 212–216"
@@ -671,8 +642,6 @@
   "B1U12C24",
   "B1U12C25",
   "B1U12C26",
-  "B1U12C27",
-  "B1U12C28",
   "B1U12B1",
   "B1U12B2",
   "B1U12B3",
@@ -686,8 +655,13 @@
   "B1U12F8",
   "B1U12D1",
   "B1U12R1",
+  "B1U12R2",
+  "B1U12T1",
   "B1U12W1",
-  "B1U12S1"
+  "B1U12S1",
+  "B1U12S2",
+  "B1U12S3",
+  "B1U12S4"
  ],
  "sessions": [
   {
@@ -751,20 +725,19 @@
    "can_do_vi": "Sau buổi này bạn chọn đúng tiểu từ và giới từ trong các cụm cố định của Unit, không dịch từng chữ từ tiếng Việt.",
    "vocab": [
     "bring up",
-    "fall down",
     "fall out (with)",
     "grow up",
     "look after",
-    "share out",
     "split up",
-    "give up",
-    "write down",
-    "by accident",
+    "get on (with)",
+    "go out with",
+    "let down",
     "in common (with)",
     "in contact (with)",
     "on your own",
     "on purpose",
-    "by yourself"
+    "by yourself",
+    "in love (with)"
    ],
    "check": [
     "B1U12C1",
@@ -781,7 +754,6 @@
     "B1U12C12",
     "B1U12C13",
     "B1U12C14",
-    "B1U12C15",
     "B1U12B1",
     "B1U12B2",
     "B1U12B3"
@@ -796,16 +768,16 @@
     "argue (with sb) about",
     "an argument (with sb) about",
     "fond of",
-    "invite sb to",
     "jealous of",
     "married to",
     "proud of",
     "a relationship with",
-    "talk (to sb) about",
-    "sorry about/for",
-    "sure about/of"
+    "care about",
+    "chat (to sb) about",
+    "kind to"
    ],
    "check": [
+    "B1U12C15",
     "B1U12C16",
     "B1U12C17",
     "B1U12C18",
@@ -816,9 +788,7 @@
     "B1U12C23",
     "B1U12C24",
     "B1U12C25",
-    "B1U12C26",
-    "B1U12C27",
-    "B1U12C28"
+    "B1U12C26"
    ]
   },
   {
@@ -827,7 +797,6 @@
    "vocab": [
     "able",
     "admire",
-    "belief",
     "care",
     "forgive",
     "honest",
@@ -846,6 +815,8 @@
     "B1U12F8",
     "B1U12D1",
     "B1U12R1",
+    "B1U12R2",
+    "B1U12T1",
     "B1U12W1",
     "B1U12S1"
    ]
@@ -855,10 +826,6 @@
   {
    "title": "Nguồn",
    "body": "Danh sách từ theo Destination B1 (Mann & Taylore-Knowles, Macmillan), pp. 184–216. Nghĩa tiếng Việt, câu ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
-  },
-  {
-   "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: belief, introduce, relate."
   }
  ]
 }

@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 33,
- "summary": "Tả đồ vật, quần áo và công trình: chất liệu, hình dạng, kiểu dáng; phân biệt suit, fit và match. 30 từ chủ đề, 9 cụm động từ, 7 cụm giới từ, 13 mẫu giới từ, 10 họ từ.",
+ "summary": "Tả đồ vật, quần áo và công trình: chất liệu, hình dạng, kiểu dáng; phân biệt suit, fit và match. 30 từ chủ đề, 6 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 10 họ từ.",
  "vocab": [
   {
    "hangul": "ancient",
@@ -249,21 +249,21 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139; word list pp. 184–201"
   },
   {
-   "hangul": "clear up",
+   "hangul": "fill up",
    "pos": "V",
-   "meaning_vi": "dọn dẹp",
-   "example_ko": "We cleared up the kitchen after the party.",
-   "example_vi": "Chúng tôi dọn bếp sau bữa tiệc.",
+   "meaning_vi": "đổ đầy, làm đầy",
+   "example_ko": "He filled up the bottle with water before the walk.",
+   "example_vi": "Anh ấy đổ đầy chai nước trước khi đi bộ.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
   },
   {
-   "hangul": "build up",
+   "hangul": "leave out",
    "pos": "V",
-   "meaning_vi": "tăng dần, tích lũy",
-   "example_ko": "Reading every day helps you build up your vocabulary.",
-   "example_vi": "Đọc mỗi ngày giúp bạn tích lũy vốn từ.",
+   "meaning_vi": "bỏ sót, không tính đến",
+   "example_ko": "You left out an important number in your report.",
+   "example_vi": "Bạn bỏ sót một con số quan trọng trong báo cáo.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
@@ -279,41 +279,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
   },
   {
-   "hangul": "get in(to)",
+   "hangul": "have on",
    "pos": "V",
-   "meaning_vi": "lên (ô tô, taxi)",
-   "example_ko": "She got into the taxi and gave the driver the address.",
-   "example_vi": "Cô ấy lên taxi và đưa địa chỉ cho tài xế.",
-   "family": "2 · Phrasal verbs",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
-  },
-  {
-   "hangul": "get on(to)",
-   "pos": "V",
-   "meaning_vi": "lên (xe buýt, tàu, máy bay)",
-   "example_ko": "We got on the train just before the doors closed.",
-   "example_vi": "Chúng tôi lên tàu ngay trước khi cửa đóng.",
-   "family": "2 · Phrasal verbs",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
-  },
-  {
-   "hangul": "go back (to)",
-   "pos": "V",
-   "meaning_vi": "quay lại",
-   "example_ko": "I would love to go back to Da Nang one day.",
-   "example_vi": "Tôi rất muốn một ngày nào đó quay lại Đà Nẵng.",
-   "family": "2 · Phrasal verbs",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
-  },
-  {
-   "hangul": "look up",
-   "pos": "V",
-   "meaning_vi": "tra (từ, thông tin)",
-   "example_ko": "I looked up the word in an online dictionary.",
-   "example_vi": "Tôi tra từ đó trong từ điển trực tuyến.",
+   "meaning_vi": "đang mặc, đang đội",
+   "example_ko": "She had on a red coat, so she was easy to see.",
+   "example_vi": "Cô ấy mặc áo khoác đỏ nên rất dễ thấy.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
@@ -329,11 +299,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
   },
   {
-   "hangul": "take back",
+   "hangul": "try on",
    "pos": "V",
-   "meaning_vi": "đem trả lại",
-   "example_ko": "The shoes were too small, so I took them back to the shop.",
-   "example_vi": "Đôi giày chật quá nên tôi đem trả lại cửa hàng.",
+   "meaning_vi": "mặc thử",
+   "example_ko": "Can I try on this jacket in a larger size?",
+   "example_vi": "Tôi thử chiếc áo khoác này cỡ lớn hơn được không?",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
@@ -354,6 +324,16 @@
    "meaning_vi": "ở góc",
    "example_ko": "There is a small desk in the corner of the room.",
    "example_vi": "Có một cái bàn nhỏ ở góc phòng.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
+  },
+  {
+   "hangul": "at the end (of)",
+   "pos": "X",
+   "meaning_vi": "vào cuối, ở cuối",
+   "example_ko": "There is a test at the end of each unit.",
+   "example_vi": "Cuối mỗi bài có một bài kiểm tra.",
    "family": "3 · Prepositional phrases",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
@@ -384,26 +364,6 @@
    "meaning_vi": "ở phía trước",
    "example_ko": "A bus stopped in front of the school.",
    "example_vi": "Một chiếc xe buýt dừng trước cổng trường.",
-   "family": "3 · Prepositional phrases",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
-  },
-  {
-   "hangul": "at the top (of)",
-   "pos": "X",
-   "meaning_vi": "ở trên cùng, ở đỉnh",
-   "example_ko": "Her name is at the top of the list.",
-   "example_vi": "Tên cô ấy đứng đầu danh sách.",
-   "family": "3 · Prepositional phrases",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
-  },
-  {
-   "hangul": "on top (of)",
-   "pos": "X",
-   "meaning_vi": "ở trên, đặt lên trên",
-   "example_ko": "Put the box on top of the cupboard.",
-   "example_vi": "Đặt cái hộp lên nóc tủ.",
    "family": "3 · Prepositional phrases",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
@@ -479,16 +439,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
   },
   {
-   "hangul": "prepare for",
-   "pos": "X",
-   "meaning_vi": "chuẩn bị cho",
-   "example_ko": "How do you prepare for an exam?",
-   "example_vi": "Bạn chuẩn bị cho kỳ thi thế nào?",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
-  },
-  {
    "hangul": "remind sb of",
    "pos": "X",
    "meaning_vi": "làm ai nhớ đến",
@@ -509,31 +459,31 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
   },
   {
+   "hangul": "amazed at/by",
+   "pos": "X",
+   "meaning_vi": "kinh ngạc trước",
+   "example_ko": "We were amazed at the size of the building.",
+   "example_vi": "Chúng tôi kinh ngạc trước quy mô tòa nhà.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
+  },
+  {
+   "hangul": "change sth (from sth) into",
+   "pos": "X",
+   "meaning_vi": "đổi cái gì thành",
+   "example_ko": "They changed the old factory into a museum.",
+   "example_vi": "Họ biến nhà máy cũ thành bảo tàng.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
+  },
+  {
    "hangul": "similar to",
    "pos": "X",
    "meaning_vi": "tương tự như",
    "example_ko": "Your idea is similar to mine.",
    "example_vi": "Ý tưởng của bạn giống của tôi.",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
-  },
-  {
-   "hangul": "tell sb about",
-   "pos": "X",
-   "meaning_vi": "kể cho ai về",
-   "example_ko": "Tell me about your hometown.",
-   "example_vi": "Kể cho tôi nghe về quê bạn đi.",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
-  },
-  {
-   "hangul": "wrong with",
-   "pos": "X",
-   "meaning_vi": "có vấn đề với",
-   "example_ko": "Something is wrong with my laptop.",
-   "example_vi": "Máy tính của tôi bị làm sao ấy.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139"
@@ -686,11 +636,6 @@
   "B1U33C22",
   "B1U33C23",
   "B1U33C24",
-  "B1U33C25",
-  "B1U33C26",
-  "B1U33C27",
-  "B1U33C28",
-  "B1U33C29",
   "B1U33B1",
   "B1U33B2",
   "B1U33B3",
@@ -704,8 +649,13 @@
   "B1U33F8",
   "B1U33D1",
   "B1U33R1",
+  "B1U33R2",
+  "B1U33T1",
   "B1U33W1",
-  "B1U33S1"
+  "B1U33S1",
+  "B1U33S2",
+  "B1U33S3",
+  "B1U33S4"
  ],
  "sessions": [
   {
@@ -768,22 +718,18 @@
    "title_vi": "Cụm động từ và cụm giới từ 1",
    "can_do_vi": "Sau buổi này bạn chọn đúng tiểu từ và giới từ trong các cụm cố định của Unit, không dịch từng chữ từ tiếng Việt.",
    "vocab": [
-    "clear up",
-    "build up",
+    "fill up",
+    "leave out",
     "do up",
-    "get in(to)",
-    "get on(to)",
-    "go back (to)",
-    "look up",
+    "have on",
     "put on",
-    "take back",
+    "try on",
     "at the back (of)",
     "in the corner (of)",
+    "at the end (of)",
     "in fashion/style",
     "out of fashion/style",
-    "in front (of)",
-    "at the top (of)",
-    "on top (of)"
+    "in front (of)"
    ],
    "check": [
     "B1U33C1",
@@ -798,10 +744,6 @@
     "B1U33C10",
     "B1U33C11",
     "B1U33C12",
-    "B1U33C13",
-    "B1U33C14",
-    "B1U33C15",
-    "B1U33C16",
     "B1U33B1",
     "B1U33B2",
     "B1U33B3"
@@ -818,14 +760,17 @@
     "an influence on",
     "involved in",
     "a picture of",
-    "prepare for",
     "remind sb of",
     "remove sth from",
-    "similar to",
-    "tell sb about",
-    "wrong with"
+    "amazed at/by",
+    "change sth (from sth) into",
+    "similar to"
    ],
    "check": [
+    "B1U33C13",
+    "B1U33C14",
+    "B1U33C15",
+    "B1U33C16",
     "B1U33C17",
     "B1U33C18",
     "B1U33C19",
@@ -833,12 +778,7 @@
     "B1U33C21",
     "B1U33C22",
     "B1U33C23",
-    "B1U33C24",
-    "B1U33C25",
-    "B1U33C26",
-    "B1U33C27",
-    "B1U33C28",
-    "B1U33C29"
+    "B1U33C24"
    ]
   },
   {
@@ -867,6 +807,8 @@
     "B1U33F8",
     "B1U33D1",
     "B1U33R1",
+    "B1U33R2",
+    "B1U33T1",
     "B1U33W1",
     "B1U33S1"
    ]
@@ -876,10 +818,6 @@
   {
    "title": "Nguồn",
    "body": "Danh sách từ theo Destination B1 (Mann & Taylore-Knowles, Macmillan), pp. 184–216. Nghĩa tiếng Việt, câu ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
-  },
-  {
-   "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: in the corner (of), in fashion/style, out of fashion/style, in front (of), at the top (of), on top (of)."
   }
  ]
 }

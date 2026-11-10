@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 24,
- "summary": "Nói về xã hội, cộng đồng, luật pháp và thói quen; phân biệt rob và steal. 30 từ chủ đề, 8 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 12 họ từ.",
+ "summary": "Nói về xã hội, cộng đồng, luật pháp và thói quen; phân biệt rob và steal. 30 từ chủ đề, 8 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 10 họ từ.",
  "vocab": [
   {
    "hangul": "admit",
@@ -280,6 +280,16 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103"
   },
   {
+   "hangul": "break in(to)",
+   "pos": "V",
+   "meaning_vi": "đột nhập",
+   "example_ko": "Someone broke into the shop and took the computers.",
+   "example_vi": "Có kẻ đột nhập vào cửa hàng và lấy máy tính.",
+   "family": "2 · Phrasal verbs",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103"
+  },
+  {
    "hangul": "get away with",
    "pos": "V",
    "meaning_vi": "thoát tội, không bị phạt",
@@ -315,16 +325,6 @@
    "meaning_vi": "cất đi",
    "example_ko": "Put your phone away during the exam.",
    "example_vi": "Cất điện thoại đi trong giờ thi.",
-   "family": "2 · Phrasal verbs",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103"
-  },
-  {
-   "hangul": "put up",
-   "pos": "V",
-   "meaning_vi": "treo lên, dán lên (tường)",
-   "example_ko": "The school put up a notice about the trip.",
-   "example_vi": "Trường dán thông báo về chuyến đi.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103"
@@ -380,11 +380,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103"
   },
   {
-   "hangul": "at last",
+   "hangul": "in touch (with)",
    "pos": "X",
-   "meaning_vi": "cuối cùng (sau thời gian dài chờ đợi)",
-   "example_ko": "At last the rain stopped.",
-   "example_vi": "Cuối cùng mưa cũng tạnh.",
+   "meaning_vi": "giữ liên lạc",
+   "example_ko": "We stay in touch with each other online.",
+   "example_vi": "Chúng tôi giữ liên lạc với nhau qua mạng.",
    "family": "3 · Prepositional phrases",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103"
@@ -430,6 +430,16 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103"
   },
   {
+   "hangul": "invite sb to",
+   "pos": "X",
+   "meaning_vi": "mời ai đến",
+   "example_ko": "They invited us to their wedding.",
+   "example_vi": "Họ mời chúng tôi dự đám cưới.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103"
+  },
+  {
    "hangul": "punish sb for",
    "pos": "X",
    "meaning_vi": "phạt ai vì",
@@ -445,6 +455,16 @@
    "meaning_vi": "chia sẻ cái gì với",
    "example_ko": "I share a flat with two friends.",
    "example_vi": "Tôi ở chung căn hộ với hai người bạn.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103"
+  },
+  {
+   "hangul": "smile at",
+   "pos": "X",
+   "meaning_vi": "mỉm cười với",
+   "example_ko": "The baby smiled at me.",
+   "example_vi": "Em bé mỉm cười với tôi.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103"
@@ -480,31 +500,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103"
   },
   {
-   "hangul": "know about",
+   "hangul": "accuse sb of",
    "pos": "X",
-   "meaning_vi": "biết về",
-   "example_ko": "What do you know about solar energy?",
-   "example_vi": "Bạn biết gì về năng lượng mặt trời?",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103"
-  },
-  {
-   "hangul": "late for",
-   "pos": "X",
-   "meaning_vi": "muộn (việc gì)",
-   "example_ko": "I was late for work twice last week.",
-   "example_vi": "Tuần trước tôi đi làm muộn hai lần.",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103"
-  },
-  {
-   "hangul": "ready for",
-   "pos": "X",
-   "meaning_vi": "sẵn sàng cho",
-   "example_ko": "Are you ready for the trip?",
-   "example_vi": "Bạn sẵn sàng cho chuyến đi chưa?",
+   "meaning_vi": "buộc tội ai về",
+   "example_ko": "They accused him of stealing a bike.",
+   "example_vi": "Họ buộc tội anh ta ăn trộm xe đạp.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103"
@@ -514,6 +514,15 @@
    "pos": "V",
    "meaning_vi": "đồng ý",
    "note_vi": "Họ từ: `agreement` (danh từ), `disagree` (dạng trái nghĩa)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103; word formation pp. 212–216"
+  },
+  {
+   "hangul": "belief",
+   "pos": "N",
+   "meaning_vi": "niềm tin",
+   "note_vi": "Họ từ: `believe` (động từ), `believable` (tính từ), `unbelievable` (dạng trái nghĩa)",
    "family": "5 · Word formation",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103; word formation pp. 212–216"
@@ -541,33 +550,6 @@
    "pos": "A",
    "meaning_vi": "bình đẳng, bằng nhau",
    "note_vi": "Họ từ: `equality` (danh từ), `unequal` (dạng trái nghĩa)",
-   "family": "5 · Word formation",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103; word formation pp. 212–216"
-  },
-  {
-   "hangul": "identify",
-   "pos": "V",
-   "meaning_vi": "nhận dạng",
-   "note_vi": "Họ từ: `identity` (danh từ), `identical` (tính từ)",
-   "family": "5 · Word formation",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103; word formation pp. 212–216"
-  },
-  {
-   "hangul": "invade",
-   "pos": "V",
-   "meaning_vi": "xâm lược",
-   "note_vi": "Họ từ: `invasion` (danh từ), `invader` (danh từ chỉ người)",
-   "family": "5 · Word formation",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103; word formation pp. 212–216"
-  },
-  {
-   "hangul": "judge",
-   "pos": "V",
-   "meaning_vi": "đánh giá, xét xử",
-   "note_vi": "Họ từ: `judgement` (danh từ)",
    "family": "5 · Word formation",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103; word formation pp. 212–216"
@@ -681,8 +663,13 @@
   "B1U24F8",
   "B1U24D1",
   "B1U24R1",
+  "B1U24R2",
+  "B1U24T1",
   "B1U24W1",
-  "B1U24S1"
+  "B1U24S1",
+  "B1U24S2",
+  "B1U24S3",
+  "B1U24S4"
  ],
  "sessions": [
   {
@@ -748,17 +735,17 @@
     "catch up (with)",
     "wake up",
     "wash up",
+    "break in(to)",
     "get away with",
     "get up",
     "move in",
     "put away",
-    "put up",
     "at the age of",
     "against the law",
     "in public",
     "in response to",
     "in your teens/twenties",
-    "at last"
+    "in touch (with)"
    ],
    "check": [
     "B1U24C1",
@@ -788,14 +775,14 @@
     "blame sb for",
     "forget about",
     "guilty of",
+    "invite sb to",
     "punish sb for",
     "share sth with",
+    "smile at",
     "angry (with sb) about",
     "criticise sb for",
     "forgive sb for",
-    "know about",
-    "late for",
-    "ready for"
+    "accuse sb of"
    ],
    "check": [
     "B1U24C15",
@@ -817,12 +804,10 @@
    "can_do_vi": "Sau buổi này bạn đổi được từ gốc sang danh từ, tính từ hoặc dạng trái nghĩa, và nói được một phút về chủ đề của Unit.",
    "vocab": [
     "agree",
+    "belief",
     "courage",
     "elect",
     "equal",
-    "identify",
-    "invade",
-    "judge",
     "life",
     "nation",
     "peace",
@@ -839,6 +824,8 @@
     "B1U24F8",
     "B1U24D1",
     "B1U24R1",
+    "B1U24R2",
+    "B1U24T1",
     "B1U24W1",
     "B1U24S1"
    ]
@@ -848,10 +835,6 @@
   {
    "title": "Nguồn",
    "body": "Danh sách từ theo Destination B1 (Mann & Taylore-Knowles, Macmillan), pp. 184–216. Nghĩa tiếng Việt, câu ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
-  },
-  {
-   "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: identify, invade, judge, life."
   }
  ]
 }

@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 18,
- "summary": "Nói về công nghệ và khoa học; phân biệt invent và discover, effect và affect. 30 từ chủ đề, 11 cụm động từ, 6 cụm giới từ, 13 mẫu giới từ, 10 họ từ.",
+ "summary": "Nói về công nghệ và khoa học; phân biệt invent và discover, effect và affect. 30 từ chủ đề, 8 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 10 họ từ.",
  "vocab": [
   {
    "hangul": "artificial",
@@ -299,11 +299,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75"
   },
   {
-   "hangul": "turn over",
+   "hangul": "find out",
    "pos": "V",
-   "meaning_vi": "lật lại",
-   "example_ko": "Turn over the page and read the next question.",
-   "example_vi": "Lật trang và đọc câu hỏi tiếp theo.",
+   "meaning_vi": "tìm ra, biết được (thông tin)",
+   "example_ko": "I want to find out how much the course costs.",
+   "example_vi": "Tôi muốn biết khóa học giá bao nhiêu.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75"
@@ -319,41 +319,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75"
   },
   {
-   "hangul": "put back",
+   "hangul": "turn off",
    "pos": "V",
-   "meaning_vi": "để lại chỗ cũ",
-   "example_ko": "Please put the books back on the shelf.",
-   "example_vi": "Vui lòng để sách lại lên giá.",
-   "family": "2 · Phrasal verbs",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75"
-  },
-  {
-   "hangul": "take away",
-   "pos": "V",
-   "meaning_vi": "mang đi, dọn đi",
-   "example_ko": "The waiter took away the empty plates.",
-   "example_vi": "Người phục vụ dọn những chiếc đĩa không đi.",
-   "family": "2 · Phrasal verbs",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75"
-  },
-  {
-   "hangul": "turn down",
-   "pos": "V",
-   "meaning_vi": "vặn nhỏ",
-   "example_ko": "Please turn down the music; I am studying.",
-   "example_vi": "Vặn nhỏ nhạc giúp, tôi đang học.",
-   "family": "2 · Phrasal verbs",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75"
-  },
-  {
-   "hangul": "turn up",
-   "pos": "V",
-   "meaning_vi": "vặn to",
-   "example_ko": "Could you turn up the volume?",
-   "example_vi": "Bạn vặn to tiếng lên được không?",
+   "meaning_vi": "tắt",
+   "example_ko": "Turn off the lights when you leave the room.",
+   "example_vi": "Tắt đèn khi ra khỏi phòng.",
    "family": "2 · Phrasal verbs",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75"
@@ -374,16 +344,6 @@
    "meaning_vi": "cuối cùng thì, rốt cuộc",
    "example_ko": "We waited an hour and in the end we went home.",
    "example_vi": "Chúng tôi chờ một tiếng và cuối cùng thì đi về.",
-   "family": "3 · Prepositional phrases",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75"
-  },
-  {
-   "hangul": "at the end (of)",
-   "pos": "X",
-   "meaning_vi": "vào cuối, ở cuối",
-   "example_ko": "There is a test at the end of each unit.",
-   "example_vi": "Cuối mỗi bài có một bài kiểm tra.",
    "family": "3 · Prepositional phrases",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75"
@@ -414,6 +374,16 @@
    "meaning_vi": "trong tương lai",
    "example_ko": "In the future, more people will work from home.",
    "example_vi": "Trong tương lai, sẽ có nhiều người làm việc tại nhà hơn.",
+   "family": "3 · Prepositional phrases",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75"
+  },
+  {
+   "hangul": "at last",
+   "pos": "X",
+   "meaning_vi": "cuối cùng (sau thời gian dài chờ đợi)",
+   "example_ko": "At last the rain stopped.",
+   "example_vi": "Cuối cùng mưa cũng tạnh.",
    "family": "3 · Prepositional phrases",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75"
@@ -499,6 +469,16 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75"
   },
   {
+   "hangul": "a reason for",
+   "pos": "X",
+   "meaning_vi": "lý do cho",
+   "example_ko": "What was the reason for the delay?",
+   "example_vi": "Lý do của sự chậm trễ là gì?",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75"
+  },
+  {
    "hangul": "result in",
    "pos": "X",
    "meaning_vi": "dẫn đến (kết quả)",
@@ -509,11 +489,11 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75"
   },
   {
-   "hangul": "translate (from sth) into",
+   "hangul": "a type of",
    "pos": "X",
-   "meaning_vi": "dịch (từ tiếng gì) sang",
-   "example_ko": "She translated the letter into English.",
-   "example_vi": "Cô ấy dịch lá thư sang tiếng Anh.",
+   "meaning_vi": "một kiểu, loại",
+   "example_ko": "Jazz is a type of music.",
+   "example_vi": "Jazz là một thể loại nhạc.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75"
@@ -524,26 +504,6 @@
    "meaning_vi": "ý tưởng về",
    "example_ko": "Do you have any ideas about the party?",
    "example_vi": "Bạn có ý tưởng gì cho bữa tiệc không?",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75"
-  },
-  {
-   "hangul": "short of",
-   "pos": "X",
-   "meaning_vi": "thiếu",
-   "example_ko": "We are short of time.",
-   "example_vi": "Chúng ta đang thiếu thời gian.",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75"
-  },
-  {
-   "hangul": "think about",
-   "pos": "X",
-   "meaning_vi": "nghĩ về",
-   "example_ko": "I am thinking about changing my job.",
-   "example_vi": "Tôi đang nghĩ đến việc đổi việc.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75"
@@ -630,10 +590,10 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75; word formation pp. 212–216"
   },
   {
-   "hangul": "use",
-   "pos": "V",
-   "meaning_vi": "sử dụng",
-   "note_vi": "Họ từ: `useful` (tính từ), `useless` (dạng trái nghĩa)",
+   "hangul": "identical",
+   "pos": "A",
+   "meaning_vi": "giống hệt nhau",
+   "note_vi": "Họ từ: `identically` (trạng từ)",
    "family": "5 · Word formation",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75; word formation pp. 212–216"
@@ -698,10 +658,6 @@
   "B1U18C24",
   "B1U18C25",
   "B1U18C26",
-  "B1U18C27",
-  "B1U18C28",
-  "B1U18C29",
-  "B1U18C30",
   "B1U18B1",
   "B1U18B2",
   "B1U18B3",
@@ -715,8 +671,13 @@
   "B1U18F8",
   "B1U18D1",
   "B1U18R1",
+  "B1U18R2",
+  "B1U18T1",
   "B1U18W1",
-  "B1U18S1"
+  "B1U18S1",
+  "B1U18S2",
+  "B1U18S3",
+  "B1U18S4"
  ],
  "sessions": [
   {
@@ -784,10 +745,15 @@
     "pull off",
     "throw away",
     "turn on",
-    "turn over",
+    "find out",
     "make up",
-    "put back",
-    "take away"
+    "turn off",
+    "by chance",
+    "in the end",
+    "in my opinion",
+    "out of order",
+    "in the future",
+    "at last"
    ],
    "check": [
     "B1U18C1",
@@ -799,33 +765,14 @@
     "B1U18C7",
     "B1U18C8",
     "B1U18C9",
-    "B1U18B1",
-    "B1U18B2",
-    "B1U18B3"
-   ]
-  },
-  {
-   "title_vi": "Cụm động từ và cụm giới từ 2",
-   "can_do_vi": "Sau buổi này bạn chọn đúng tiểu từ và giới từ trong các cụm cố định của Unit, không dịch từng chữ từ tiếng Việt.",
-   "vocab": [
-    "turn down",
-    "turn up",
-    "by chance",
-    "in the end",
-    "at the end (of)",
-    "in my opinion",
-    "out of order",
-    "in the future"
-   ],
-   "check": [
     "B1U18C10",
     "B1U18C11",
     "B1U18C12",
     "B1U18C13",
     "B1U18C14",
-    "B1U18C15",
-    "B1U18C16",
-    "B1U18C17"
+    "B1U18B1",
+    "B1U18B2",
+    "B1U18B3"
    ]
   },
   {
@@ -840,13 +787,15 @@
     "fill sth with",
     "full of",
     "a number of",
+    "a reason for",
     "result in",
-    "translate (from sth) into",
-    "an idea about",
-    "short of",
-    "think about"
+    "a type of",
+    "an idea about"
    ],
    "check": [
+    "B1U18C15",
+    "B1U18C16",
+    "B1U18C17",
     "B1U18C18",
     "B1U18C19",
     "B1U18C20",
@@ -855,11 +804,7 @@
     "B1U18C23",
     "B1U18C24",
     "B1U18C25",
-    "B1U18C26",
-    "B1U18C27",
-    "B1U18C28",
-    "B1U18C29",
-    "B1U18C30"
+    "B1U18C26"
    ]
   },
   {
@@ -875,7 +820,7 @@
     "long",
     "measure",
     "science",
-    "use"
+    "identical"
    ],
    "check": [
     "B1U18F1",
@@ -888,6 +833,8 @@
     "B1U18F8",
     "B1U18D1",
     "B1U18R1",
+    "B1U18R2",
+    "B1U18T1",
     "B1U18W1",
     "B1U18S1"
    ]
@@ -897,10 +844,6 @@
   {
    "title": "Nguồn",
    "body": "Danh sách từ theo Destination B1 (Mann & Taylore-Knowles, Macmillan), pp. 184–216. Nghĩa tiếng Việt, câu ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
-  },
-  {
-   "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: turn on, at the end (of)."
   }
  ]
 }
