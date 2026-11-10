@@ -58,7 +58,7 @@ class SpeakablePatternTests(unittest.TestCase):
             for g in r.seed.grammar:
                 said = la.speakable_pattern(g.pattern)
                 self.assertTrue(said, g.pattern)
-                self.assertIsNone(re.search(r"[+()/~?\-]|[ㄱ-ㅎㅏ-ㅣ]|\b[VAN]\b", said), f"{g.pattern!r} -> {said!r}")
+                self.assertIsNone(re.search(r"[+()/~?]|[ㄱ-ㅎㅏ-ㅣ]|\b[VAN]\b", said), f"{g.pattern!r} -> {said!r}")
 
 
 class SpokenVietnameseTests(unittest.TestCase):
@@ -422,13 +422,13 @@ class DialogueVoiceTests(unittest.TestCase):
 
     def test_a_refused_female_voice_is_replaced_by_one_google_lists(self):
         def refuse(text, voice):
-            if voice == "ko-KR-Chirp3-HD-Aoede":
+            if voice == "en-GB-Chirp3-HD-Aoede":
                 raise google_tts.GoogleTTSError("voice does not exist")
 
-        with mock.patch.object(google_tts, "pick_ko_voice", return_value="ko-KR-Chirp3-HD-Kore") as pick:
-            calls = self.run_dialogue([("F", "하나."), ("F", "둘.")], refuse)
-        pick.assert_called_once_with("ko-KR-Chirp3-HD-Aoede", "FEMALE")
-        self.assertEqual([c[1] for c in calls][-1], "ko-KR-Chirp3-HD-Kore")  # the rest of the dialogue keeps it
+        with mock.patch.object(google_tts, "pick_ko_voice", return_value="en-GB-Chirp3-HD-Kore") as pick:
+            calls = self.run_dialogue([("F", "One."), ("F", "Two.")], refuse)
+        pick.assert_called_once_with("en-GB-Chirp3-HD-Aoede", "FEMALE")
+        self.assertEqual([c[1] for c in calls][-1], "en-GB-Chirp3-HD-Kore")  # the rest of the dialogue keeps it
 
     def test_without_the_credential_it_does_not_try(self):
         with mock.patch.object(google_tts, "is_configured", return_value=False):

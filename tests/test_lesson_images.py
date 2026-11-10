@@ -311,7 +311,7 @@ class LessonEndpointTests(unittest.IsolatedAsyncioTestCase):
             **BUNDLE.lessons[0].practice,
             "items": [
                 *BUNDLE.lessons[0].practice["items"],
-                {"id": "S99", "skill": "speaking", "type": "speak", "frames": [{"caption_vi": "x", "prompt": prompt}]},
+                {"id": "S99", "skill": "speaking", "type": "speak", "frames": [{"caption_vi": "x", "icons": ["🧼"], "image_prompt": prompt}]},
             ],
         }
         db = mock.MagicMock()

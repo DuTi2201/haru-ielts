@@ -86,7 +86,7 @@ class EntryTests(unittest.TestCase):
         self.assertEqual(e["prompt"], ex["meaning_vi"])
         self.assertEqual(e["chosen"], "저는 어제 일찍 일어나요.")
         self.assertEqual(e["correct"], ex["answers"][:2])
-        self.assertEqual(e["explanation_vi"], ex["explain_vi"])
+        self.assertEqual(e["explanation_vi"], ex.get("explain_vi") or ex.get("explanation_vi"))
         self.assertEqual(e["skill"], "Tạo câu")
 
     def test_a_writing_blank_is_one_entry_per_blank(self):
@@ -263,7 +263,7 @@ class UnderstoodTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual((out.open, out.understood), (0, 1))
 
     async def test_taking_it_back_clears_the_time(self):
-        ex = items(type="listen_reply")[0]
+        ex = items(type="read_cloze")[0]
         qid = ex["questions"][0]["id"]
         row = result_row(ex, qid, "2", understood=NOW)
         db = mock.MagicMock()
@@ -303,7 +303,7 @@ class AnswerClearsTheMarkTests(unittest.IsolatedAsyncioTestCase):
         return db
 
     async def answer(self, row, correct):
-        ex = items(type="listen_main_idea")[0]  # no grammar link: one query fewer to mock
+        ex = items(type="read_passage")[0]  # no grammar link: one query fewer to mock
         qid = ex["questions"][0]["id"]
         row.exercise_id, row.question_id = ex["id"], qid
         db = self.db(row)

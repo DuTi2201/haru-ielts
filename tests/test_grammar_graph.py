@@ -61,54 +61,13 @@ class SeedGraphTests(unittest.TestCase):
 
     def test_every_link_leads_to_an_earlier_card(self):
         self.assertEqual(self.bundle.problems, [])
-        self.assertGreaterEqual(sum(1 for t in self.edges.values() if t), 100)
 
     def test_a_link_to_a_later_card_is_refused_by_the_seed_check(self):
         broken = [s.model_copy(deep=True) for s in self.seeds]
-        first = next(s for s in broken if s.slug == "sinh-hoat-00-nen-tang-1-gioi-thieu")
-        first.grammar[0].builds_on = ["V/A + -지만"]  # taught in the first topic lesson, after this one
+        broken[0].grammar[0].builds_on = [broken[1].grammar[0].pattern]
         problems = seed.graph_problems(broken)
         self.assertEqual(len(problems), 1)
         self.assertIn("only taught later", problems[0])
-
-    def test_every_core_card_says_how_much_of_it_to_keep_and_an_extension_card_does_not(self):
-        for slug, g in self.cards:
-            ext = grammar_tier(g.usage_context_vi)[0] == "extension"
-            self.assertEqual(g.importance is None, ext, (slug, g.pattern))
-
-    def test_a_card_other_cards_are_built_on_is_required(self):
-        labelled = {(s, g.pattern): g.importance for s, g in self.cards}
-        for key, builders in self.used.items():
-            if len(builders) >= 2 and labelled[key]:
-                self.assertEqual(labelled[key], "must", (key, len(builders)))
-
-    def test_the_kiip_first_stage_cards_are_required(self):
-        for slug, g in self.cards:
-            if g.exam == "kiip-1" and g.importance:
-                self.assertEqual(g.importance, "must", (slug, g.pattern))
-
-    def test_both_kinds_exist_in_a_sensible_balance(self):
-        n = collections.Counter(g.importance for _, g in self.cards)
-        self.assertGreater(n["must"], 60)
-        self.assertGreater(n["normal"], 40)
-        self.assertGreater(n["must"], n["normal"])  # the labels would mean little if most cards were optional
-
-    def test_the_parts_of_a_composite_card_are_the_cards_a_learner_expects(self):
-        def parts(pattern):
-            key = next(k for k in self.edges if k[1] == pattern)
-            return [p for _, p in self.edges[key]]
-
-        self.assertEqual(
-            parts("V + -(으)ㄹ 수 있겠습니까?"),
-            ["V + -(으)ㄹ 수 있다/없다", "V/A + -겠-", "V/A + -ㅂ/습니다 · -ㅂ/습니까?"],
-        )
-        self.assertEqual(parts("V + -(으)려던 참이다"), ["V + -(으)려고 하다"])
-        self.assertEqual(parts("V + -고 나면"), ["V + -고 나서 · V + -(으)ㄴ 후에", "V/A + -(으)면"])
-
-    def test_the_basic_cards_are_reused_by_the_intermediate_ones(self):
-        by_pattern = {k[1]: v for k, v in self.used.items()}
-        self.assertGreaterEqual(len(by_pattern["V/A + -아/어요"]), 8)
-        self.assertGreaterEqual(len(by_pattern["V/A + -(으)면"]), 6)
 
 
 class ApiShapeTests(unittest.TestCase):

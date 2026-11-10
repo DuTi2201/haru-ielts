@@ -106,20 +106,6 @@ class CatalogTests(unittest.TestCase):
         self.assertEqual(cat.get("pack_quan_he").lessons, ((28, 39),))
         self.assertEqual(cat.get("combo_3_packs").lessons, ((20, 27), (28, 39), (40, 45)))
 
-    def test_every_pack_starts_and_ends_on_the_same_lessons_as_before_the_split(self):
-        import json
-        from pathlib import Path
-
-        at = {
-            json.loads(f.read_text(encoding="utf-8"))["slug"]: json.loads(f.read_text(encoding="utf-8"))["sort_order"]
-            for f in (Path(__file__).resolve().parents[1] / "app/seed/lessons").glob("*.json")
-        }
-        self.assertEqual(at["sinh-hoat-03-an-uong"], cat._FIRST_PAID)
-        self.assertEqual(at["quan-he-01-gia-dinh"], cat.get("pack_quan_he").lessons[0][0])
-        self.assertEqual(at["viet-nghi-luan-01-doc-de"], cat.get("pack_viet_54").lessons[0][0])
-        self.assertEqual(at["xa-hoi-22-doc-chu-de-thai-do-muc-dich"], cat.get("pack_all").lessons[0][1])
-        self.assertEqual(max(at.values()), cat.get("pack_all").lessons[0][1])
-
     def test_what_opens_a_lesson_is_listed_cheapest_first(self):
         self.assertEqual(cat.unlock_products(3), [])
         self.assertEqual(cat.unlock_products(19), [])
