@@ -18,9 +18,14 @@ OUT = Path(__file__).resolve().parent / "dist" / "b1-study.html"
 
 def compact_exercise(e: dict) -> dict:
     t = e["type"]
+    if t == "read_passage":
+        return {"k": "p", "title": e["title_vi"], "text": e["stimulus"]["text"], "tip": e["instruction_vi"],
+                "qs": [{"q": q["prompt_ko"], "o": [o["text"] for o in q["options"]], "a": int(q["answer"]) - 1, "w": q["explanation_vi"]} for q in e["questions"]]}
+    if t == "write_essay":
+        return {"k": "w", "en": e["prompt_ko"], "vi": e["instruction_vi"], "frame": e["framework_vi"], "check": e["checklist_vi"], "model": e["model_answer_ko"]}
     if t in ("read_cloze", "read_match"):
         q = e["questions"][0]
-        return {"k": "m", "q": (e.get("stimulus") or {}).get("text") or q.get("prompt_vi"), "o": [o["text"] for o in q["options"]],
+        return {"k": "m", "q": (e.get("stimulus") or {}).get("text") or q.get("prompt_vi"), "h": q.get("prompt_vi") if e.get("stimulus") else None, "o": [o["text"] for o in q["options"]],
                 "a": int(q["answer"]) - 1, "w": q["explanation_vi"]}
     if t == "build_order":
         return {"k": "b", "vi": e["meaning_vi"], "t": e["tiles"], "ans": e["answers"]}

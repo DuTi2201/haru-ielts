@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 42,
- "summary": "Nêu vấn đề, nguyên nhân và giải pháp; dùng đúng các động từ tường thuật (claim, deny, warn, encourage). 30 từ chủ đề, 3 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 5 họ từ.",
+ "summary": "Nêu vấn đề, nguyên nhân và giải pháp; dùng đúng các động từ tường thuật (claim, deny, warn, encourage). 30 từ chủ đề, 3 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 10 họ từ.",
  "vocab": [
   {
    "hangul": "accident",
@@ -460,6 +460,51 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175"
   },
   {
+   "hangul": "advice",
+   "pos": "N",
+   "meaning_vi": "lời khuyên (không đếm được)",
+   "note_vi": "Họ từ: `advise` (động từ), `adviser` (danh từ chỉ người)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word formation pp. 212–216"
+  },
+  {
+   "hangul": "confuse",
+   "pos": "V",
+   "meaning_vi": "làm rối, gây nhầm lẫn",
+   "note_vi": "Họ từ: `confused` (tính từ), `confusion` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word formation pp. 212–216"
+  },
+  {
+   "hangul": "except",
+   "pos": "X",
+   "meaning_vi": "ngoại trừ",
+   "note_vi": "Họ từ: `exception` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word formation pp. 212–216"
+  },
+  {
+   "hangul": "help",
+   "pos": "V",
+   "meaning_vi": "giúp đỡ",
+   "note_vi": "Họ từ: `helpful` (tính từ), `unhelpful` (dạng trái nghĩa), `helpless` (tính từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word formation pp. 212–216"
+  },
+  {
+   "hangul": "luck",
+   "pos": "N",
+   "meaning_vi": "sự may mắn",
+   "note_vi": "Họ từ: `lucky` (tính từ), `unlucky` (dạng trái nghĩa), `luckily` (trạng từ), `unluckily` (trạng từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 42, pp. 172-175; word formation pp. 212–216"
+  },
+  {
    "hangul": "prefer",
    "pos": "V",
    "meaning_vi": "thích hơn",
@@ -557,7 +602,13 @@
   "B1U42F2",
   "B1U42F3",
   "B1U42F4",
+  "B1U42F5",
+  "B1U42F6",
+  "B1U42F7",
+  "B1U42F8",
   "B1U42D1",
+  "B1U42R1",
+  "B1U42W1",
   "B1U42S1"
  ],
  "sessions": [
@@ -682,6 +733,11 @@
    "title_vi": "Biến đổi từ loại và phần Nói",
    "can_do_vi": "Sau buổi này bạn đổi được từ gốc sang danh từ, tính từ hoặc dạng trái nghĩa, và nói được một phút về chủ đề của Unit.",
    "vocab": [
+    "advice",
+    "confuse",
+    "except",
+    "help",
+    "luck",
     "prefer",
     "recommend",
     "solve",
@@ -692,7 +748,13 @@
     "B1U42F2",
     "B1U42F3",
     "B1U42F4",
+    "B1U42F5",
+    "B1U42F6",
+    "B1U42F7",
+    "B1U42F8",
     "B1U42D1",
+    "B1U42R1",
+    "B1U42W1",
     "B1U42S1"
    ]
   }
@@ -704,7 +766,7 @@
   },
   {
    "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: point out, sort out, watch out, insist on, a reason for, prefer, recommend, refuse, solve, suggest."
+   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: point out, insist on, a reason for."
   }
  ]
 }

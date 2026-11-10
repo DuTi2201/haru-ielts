@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 12,
- "summary": "Tả tính cách và mối quan hệ; dùng đúng mẫu get on with, fond of, proud of. 30 từ chủ đề, 9 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 11 họ từ.",
+ "summary": "Tả tính cách và mối quan hệ; dùng đúng mẫu get on with, fond of, proud of. 30 từ chủ đề, 9 cụm động từ, 6 cụm giới từ, 13 mẫu giới từ, 11 họ từ.",
  "vocab": [
   {
    "hangul": "apologise",
@@ -501,6 +501,16 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 12, pp. 48-51"
   },
   {
+   "hangul": "talk (to sb) about",
+   "pos": "X",
+   "meaning_vi": "nói chuyện (với ai) về",
+   "example_ko": "We talked about our plans for the summer.",
+   "example_vi": "Chúng tôi nói về kế hoạch mùa hè.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 12, pp. 48-51"
+  },
+  {
    "hangul": "sorry about/for",
    "pos": "X",
    "meaning_vi": "xin lỗi, tiếc về",
@@ -662,6 +672,7 @@
   "B1U12C25",
   "B1U12C26",
   "B1U12C27",
+  "B1U12C28",
   "B1U12B1",
   "B1U12B2",
   "B1U12B3",
@@ -674,6 +685,8 @@
   "B1U12F7",
   "B1U12F8",
   "B1U12D1",
+  "B1U12R1",
+  "B1U12W1",
   "B1U12S1"
  ],
  "sessions": [
@@ -788,6 +801,7 @@
     "married to",
     "proud of",
     "a relationship with",
+    "talk (to sb) about",
     "sorry about/for",
     "sure about/of"
    ],
@@ -803,7 +817,8 @@
     "B1U12C24",
     "B1U12C25",
     "B1U12C26",
-    "B1U12C27"
+    "B1U12C27",
+    "B1U12C28"
    ]
   },
   {
@@ -830,6 +845,8 @@
     "B1U12F7",
     "B1U12F8",
     "B1U12D1",
+    "B1U12R1",
+    "B1U12W1",
     "B1U12S1"
    ]
   }
@@ -841,7 +858,7 @@
   },
   {
    "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: admire, belief, introduce, relate."
+   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: belief, introduce, relate."
   }
  ]
 }

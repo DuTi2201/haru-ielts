@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 3,
- "summary": "Nói về sở thích, thể thao và âm nhạc bằng đúng từ và đúng giới từ. 30 từ chủ đề, 11 cụm động từ, 7 cụm giới từ, 13 mẫu giới từ, 11 họ từ.",
+ "summary": "Nói về sở thích, thể thao và âm nhạc bằng đúng từ và đúng giới từ. 30 từ chủ đề, 11 cụm động từ, 7 cụm giới từ, 12 mẫu giới từ, 10 họ từ.",
  "vocab": [
   {
    "hangul": "beat",
@@ -499,16 +499,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
   },
   {
-   "hangul": "a type of",
-   "pos": "X",
-   "meaning_vi": "một kiểu, loại",
-   "example_ko": "Jazz is a type of music.",
-   "example_vi": "Jazz là một thể loại nhạc.",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15"
-  },
-  {
    "hangul": "agree (with sb) about",
    "pos": "X",
    "meaning_vi": "đồng ý (với ai) về",
@@ -613,15 +603,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15; word formation pp. 212–216"
   },
   {
-   "hangul": "luck",
-   "pos": "N",
-   "meaning_vi": "sự may mắn",
-   "note_vi": "Họ từ: `lucky` (tính từ), `unlucky` (dạng trái nghĩa), `luckily` (trạng từ), `unluckily` (trạng từ)",
-   "family": "5 · Word formation",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 12-15; word formation pp. 212–216"
-  },
-  {
    "hangul": "music",
    "pos": "N",
    "meaning_vi": "âm nhạc",
@@ -721,7 +702,6 @@
   "B1U03C28",
   "B1U03C29",
   "B1U03C30",
-  "B1U03C31",
   "B1U03B1",
   "B1U03B2",
   "B1U03B3",
@@ -734,6 +714,8 @@
   "B1U03F7",
   "B1U03F8",
   "B1U03D1",
+  "B1U03R1",
+  "B1U03W1",
   "B1U03S1"
  ],
  "sessions": [
@@ -859,7 +841,6 @@
     "interested in",
     "keen on",
     "send sth to sb",
-    "a type of",
     "agree (with sb) about",
     "a book (by sb) about",
     "chat (to sb) about",
@@ -878,8 +859,7 @@
     "B1U03C27",
     "B1U03C28",
     "B1U03C29",
-    "B1U03C30",
-    "B1U03C31"
+    "B1U03C30"
    ]
   },
   {
@@ -892,7 +872,6 @@
     "collect",
     "entertain",
     "hero",
-    "luck",
     "music",
     "play",
     "sail",
@@ -908,6 +887,8 @@
     "B1U03F7",
     "B1U03F8",
     "B1U03D1",
+    "B1U03R1",
+    "B1U03W1",
     "B1U03S1"
    ]
   }
@@ -916,10 +897,6 @@
   {
    "title": "Nguồn",
    "body": "Danh sách từ theo Destination B1 (Mann & Taylore-Knowles, Macmillan), pp. 184–216. Nghĩa tiếng Việt, câu ví dụ, câu hỏi và bài mẫu do khóa học tự soạn."
-  },
-  {
-   "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: a type of, luck."
   }
  ]
 }

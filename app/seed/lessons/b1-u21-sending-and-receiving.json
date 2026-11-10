@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 21,
- "summary": "Nói về liên lạc, tin tức và mạng internet; dùng đúng on the phone, on the internet, by email. 30 từ chủ đề, 10 cụm động từ, 7 cụm giới từ, 8 mẫu giới từ, 10 họ từ.",
+ "summary": "Nói về liên lạc, tin tức và mạng internet; dùng đúng on the phone, on the internet, by email. 30 từ chủ đề, 10 cụm động từ, 7 cụm giới từ, 5 mẫu giới từ, 10 họ từ.",
  "vocab": [
   {
    "hangul": "accent",
@@ -439,16 +439,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
   },
   {
-   "hangul": "information about",
-   "pos": "X",
-   "meaning_vi": "thông tin về (không đếm được)",
-   "example_ko": "I need some information about the course.",
-   "example_vi": "Tôi cần một số thông tin về khóa học.",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
-  },
-  {
    "hangul": "a letter (from sb) about",
    "pos": "X",
    "meaning_vi": "lá thư (từ ai) về",
@@ -474,26 +464,6 @@
    "meaning_vi": "trả lời",
    "example_ko": "He has not replied to my message.",
    "example_vi": "Anh ấy chưa trả lời tin nhắn của tôi.",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
-  },
-  {
-   "hangul": "talk (to sb) about",
-   "pos": "X",
-   "meaning_vi": "nói chuyện (với ai) về",
-   "example_ko": "We talked about our plans for the summer.",
-   "example_vi": "Chúng tôi nói về kế hoạch mùa hè.",
-   "family": "4 · Word patterns",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
-  },
-  {
-   "hangul": "translate (from sth) into",
-   "pos": "X",
-   "meaning_vi": "dịch (từ tiếng gì) sang",
-   "example_ko": "She translated the letter into English.",
-   "example_vi": "Cô ấy dịch lá thư sang tiếng Anh.",
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 21, pp. 84-87"
@@ -644,9 +614,6 @@
   "B1U21C20",
   "B1U21C21",
   "B1U21C22",
-  "B1U21C23",
-  "B1U21C24",
-  "B1U21C25",
   "B1U21B1",
   "B1U21B2",
   "B1U21B3",
@@ -659,6 +626,8 @@
   "B1U21F7",
   "B1U21F8",
   "B1U21D1",
+  "B1U21R1",
+  "B1U21W1",
   "B1U21S1"
  ],
  "sessions": [
@@ -777,22 +746,16 @@
    "vocab": [
     "comment on",
     "communicate with",
-    "information about",
     "a letter (from sb) about",
     "receive sth from",
-    "reply to",
-    "talk (to sb) about",
-    "translate (from sth) into"
+    "reply to"
    ],
    "check": [
     "B1U21C18",
     "B1U21C19",
     "B1U21C20",
     "B1U21C21",
-    "B1U21C22",
-    "B1U21C23",
-    "B1U21C24",
-    "B1U21C25"
+    "B1U21C22"
    ]
   },
   {
@@ -820,6 +783,8 @@
     "B1U21F7",
     "B1U21F8",
     "B1U21D1",
+    "B1U21R1",
+    "B1U21W1",
     "B1U21S1"
    ]
   }
@@ -831,7 +796,7 @@
   },
   {
    "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: hang on, speak up, on TV, comment on, communicate with, information about, a letter (from sb) about, receive sth from, reply to, talk (to sb) about, translate (from sth) into."
+   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: speak up, comment on, communicate with, receive sth from, reply to."
   }
  ]
 }

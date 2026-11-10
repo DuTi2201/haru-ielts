@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 39,
- "summary": "Nói về cảm xúc và cách cư xử; phân biệt tính từ đuôi -ed và -ing (embarrassed / embarrassing). 30 từ chủ đề, 5 cụm động từ, 5 cụm giới từ, 12 mẫu giới từ, 12 họ từ.",
+ "summary": "Nói về cảm xúc và cách cư xử; phân biệt tính từ đuôi -ed và -ing (embarrassed / embarrassing). 30 từ chủ đề, 5 cụm động từ, 5 cụm giới từ, 12 mẫu giới từ, 10 họ từ.",
  "vocab": [
   {
    "hangul": "amusing",
@@ -488,15 +488,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word formation pp. 212–216"
   },
   {
-   "hangul": "confuse",
-   "pos": "V",
-   "meaning_vi": "làm rối, gây nhầm lẫn",
-   "note_vi": "Họ từ: `confused` (tính từ), `confusion` (danh từ)",
-   "family": "5 · Word formation",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word formation pp. 212–216"
-  },
-  {
    "hangul": "energy",
    "pos": "N",
    "meaning_vi": "năng lượng",
@@ -537,15 +528,6 @@
    "pos": "V",
    "meaning_vi": "ghét",
    "note_vi": "Họ từ: `hatred` (danh từ)",
-   "family": "5 · Word formation",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word formation pp. 212–216"
-  },
-  {
-   "hangul": "help",
-   "pos": "V",
-   "meaning_vi": "giúp đỡ",
-   "note_vi": "Họ từ: `helpful` (tính từ), `unhelpful` (dạng trái nghĩa), `helpless` (tính từ)",
    "family": "5 · Word formation",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 39, pp. 160-163; word formation pp. 212–216"
@@ -636,6 +618,8 @@
   "B1U39F7",
   "B1U39F8",
   "B1U39D1",
+  "B1U39R1",
+  "B1U39W1",
   "B1U39S1"
  ],
  "sessions": [
@@ -764,13 +748,11 @@
    "vocab": [
     "bore",
     "comedy",
-    "confuse",
     "energy",
     "excite",
     "feel",
     "happy",
     "hate",
-    "help",
     "noise",
     "sympathy"
    ],
@@ -784,6 +766,8 @@
     "B1U39F7",
     "B1U39F8",
     "B1U39D1",
+    "B1U39R1",
+    "B1U39W1",
     "B1U39S1"
    ]
   }
@@ -795,7 +779,7 @@
   },
   {
    "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: calm down, cheer up, shut up, congratulate sb on, glance at, confuse, help."
+   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: calm down, shut up, congratulate sb on, glance at."
   }
  ]
 }

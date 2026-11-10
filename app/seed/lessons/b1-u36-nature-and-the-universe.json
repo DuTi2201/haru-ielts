@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 36,
- "summary": "Nói về thời tiết, môi trường, động vật; dùng đúng nhóm từ không đếm được (wildlife, litter). 30 từ chủ đề, 9 cụm động từ, 5 cụm giới từ, 12 mẫu giới từ, 7 họ từ.",
+ "summary": "Nói về thời tiết, môi trường, động vật; dùng đúng nhóm từ không đếm được (wildlife, litter). 30 từ chủ đề, 9 cụm động từ, 5 cụm giới từ, 13 mẫu giới từ, 8 họ từ.",
  "vocab": [
   {
    "hangul": "amazing",
@@ -459,6 +459,16 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
   },
   {
+   "hangul": "a type of",
+   "pos": "X",
+   "meaning_vi": "một kiểu, loại",
+   "example_ko": "Jazz is a type of music.",
+   "example_vi": "Jazz là một thể loại nhạc.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
+  },
+  {
    "hangul": "afraid of",
    "pos": "X",
    "meaning_vi": "sợ",
@@ -507,6 +517,15 @@
    "family": "4 · Word patterns",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151"
+  },
+  {
+   "hangul": "circle",
+   "pos": "N",
+   "meaning_vi": "hình tròn",
+   "note_vi": "Họ từ: `circular` (tính từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 36, pp. 148-151; word formation pp. 212–216"
   },
   {
    "hangul": "danger",
@@ -631,6 +650,7 @@
   "B1U36C24",
   "B1U36C25",
   "B1U36C26",
+  "B1U36C27",
   "B1U36B1",
   "B1U36B2",
   "B1U36B3",
@@ -641,7 +661,10 @@
   "B1U36F5",
   "B1U36F6",
   "B1U36F7",
+  "B1U36F8",
   "B1U36D1",
+  "B1U36R1",
+  "B1U36W1",
   "B1U36S1"
  ],
  "sessions": [
@@ -751,6 +774,7 @@
     "prevent sb from",
     "save sth from",
     "serious about",
+    "a type of",
     "afraid of",
     "care about",
     "enthusiastic about",
@@ -769,13 +793,15 @@
     "B1U36C23",
     "B1U36C24",
     "B1U36C25",
-    "B1U36C26"
+    "B1U36C26",
+    "B1U36C27"
    ]
   },
   {
    "title_vi": "Biến đổi từ loại và phần Nói",
    "can_do_vi": "Sau buổi này bạn đổi được từ gốc sang danh từ, tính từ hoặc dạng trái nghĩa, và nói được một phút về chủ đề của Unit.",
    "vocab": [
+    "circle",
     "danger",
     "deep",
     "destroy",
@@ -792,7 +818,10 @@
     "B1U36F5",
     "B1U36F6",
     "B1U36F7",
+    "B1U36F8",
     "B1U36D1",
+    "B1U36R1",
+    "B1U36W1",
     "B1U36S1"
    ]
   }
@@ -804,7 +833,7 @@
   },
   {
    "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: keep out, pick up, danger, deep, destroy, fog, garden, nature, pollute."
+   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: keep out, pick up, fog."
   }
  ]
 }

@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 18,
- "summary": "Nói về công nghệ và khoa học; phân biệt invent và discover, effect và affect. 30 từ chủ đề, 11 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 11 họ từ.",
+ "summary": "Nói về công nghệ và khoa học; phân biệt invent và discover, effect và affect. 30 từ chủ đề, 11 cụm động từ, 6 cụm giới từ, 13 mẫu giới từ, 10 họ từ.",
  "vocab": [
   {
    "hangul": "artificial",
@@ -509,6 +509,16 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75"
   },
   {
+   "hangul": "translate (from sth) into",
+   "pos": "X",
+   "meaning_vi": "dịch (từ tiếng gì) sang",
+   "example_ko": "She translated the letter into English.",
+   "example_vi": "Cô ấy dịch lá thư sang tiếng Anh.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75"
+  },
+  {
    "hangul": "an idea about",
    "pos": "X",
    "meaning_vi": "ý tưởng về",
@@ -543,15 +553,6 @@
    "pos": "V",
    "meaning_vi": "đun sôi",
    "note_vi": "Họ từ: `boiler` (danh từ), `boiling` (tính từ)",
-   "family": "5 · Word formation",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75; word formation pp. 212–216"
-  },
-  {
-   "hangul": "break",
-   "pos": "V",
-   "meaning_vi": "làm vỡ, làm hỏng",
-   "note_vi": "Họ từ: `broke` (quá khứ đơn), `broken` (quá khứ phân từ), `breakable` (tính từ), `unbreakable` (dạng trái nghĩa)",
    "family": "5 · Word formation",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 18, pp. 72-75; word formation pp. 212–216"
@@ -700,6 +701,7 @@
   "B1U18C27",
   "B1U18C28",
   "B1U18C29",
+  "B1U18C30",
   "B1U18B1",
   "B1U18B2",
   "B1U18B3",
@@ -712,6 +714,8 @@
   "B1U18F7",
   "B1U18F8",
   "B1U18D1",
+  "B1U18R1",
+  "B1U18W1",
   "B1U18S1"
  ],
  "sessions": [
@@ -837,6 +841,7 @@
     "full of",
     "a number of",
     "result in",
+    "translate (from sth) into",
     "an idea about",
     "short of",
     "think about"
@@ -853,7 +858,8 @@
     "B1U18C26",
     "B1U18C27",
     "B1U18C28",
-    "B1U18C29"
+    "B1U18C29",
+    "B1U18C30"
    ]
   },
   {
@@ -861,7 +867,6 @@
    "can_do_vi": "Sau buổi này bạn đổi được từ gốc sang danh từ, tính từ hoặc dạng trái nghĩa, và nói được một phút về chủ đề của Unit.",
    "vocab": [
     "boil",
-    "break",
     "chemist",
     "conclude",
     "examine",
@@ -882,6 +887,8 @@
     "B1U18F7",
     "B1U18F8",
     "B1U18D1",
+    "B1U18R1",
+    "B1U18W1",
     "B1U18S1"
    ]
   }
@@ -893,7 +900,7 @@
   },
   {
    "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: turn on, at the end (of), break."
+   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: turn on, at the end (of)."
   }
  ]
 }

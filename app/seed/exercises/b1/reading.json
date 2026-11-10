@@ -230,6 +230,82 @@
    }
   },
   {
+   "id": "B1U01R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 1 · A day in the life of a nurse",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Lan works as a nurse in a large hospital in Hanoi. She usually starts work at seven and finishes at four. She likes her job because she helps people every day. This month, however, she is working nights, so she sleeps during the day. At the moment she is also taking an English course, because she wants to work abroad. She believes that good English opens many doors."
+   },
+   "questions": [
+    {
+     "id": "B1U01R1a",
+     "prompt_ko": "What is different about Lan's work this month?",
+     "options": [
+      {
+       "id": "1",
+       "text": "She is working at night."
+      },
+      {
+       "id": "2",
+       "text": "She starts at seven."
+      },
+      {
+       "id": "3",
+       "text": "She has stopped working."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"This month, however, she is working nights\": hiện tại tiếp diễn cho việc tạm thời.",
+     "tags": []
+    },
+    {
+     "id": "B1U01R1b",
+     "prompt_ko": "Lan is studying English because she wants to work in another country.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"she wants to work abroad\" = work in another country.",
+     "tags": []
+    },
+    {
+     "id": "B1U01R1c",
+     "prompt_ko": "Lan earns more money on night shifts.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bài không nói gì về tiền lương.",
+     "tags": []
+    }
+   ]
+  },
+  {
    "id": "B1U02Q1",
    "skill": "reading",
    "type": "read_cloze",
@@ -450,6 +526,82 @@
     "kind": "cloze",
     "text": "She did not ( ) to like vegetables when she was a child."
    }
+  },
+  {
+   "id": "B1U02R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 2 · The first mobile phone",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "When my father was young, people did not have mobile phones. They used to write letters or wait for hours to make a call at the post office. In 1998 he bought his first phone. It was big and heavy, and it only made calls. One day, while he was walking home, it rang in his pocket. He was so surprised that he dropped it. Luckily, it did not break."
+   },
+   "questions": [
+    {
+     "id": "B1U02R1a",
+     "prompt_ko": "How did people communicate when the writer's father was young?",
+     "options": [
+      {
+       "id": "1",
+       "text": "By mobile phone"
+      },
+      {
+       "id": "2",
+       "text": "By letter or from the post office"
+      },
+      {
+       "id": "3",
+       "text": "By email"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"They used to write letters or wait… at the post office\".",
+     "tags": []
+    },
+    {
+     "id": "B1U02R1b",
+     "prompt_ko": "The phone rang while the father was walking home.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"while he was walking home, it rang\".",
+     "tags": []
+    },
+    {
+     "id": "B1U02R1c",
+     "prompt_ko": "The first phone was expensive.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bài chỉ nói to và nặng, không nói giá.",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U03M1",
@@ -820,7 +972,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`eat out`: ăn ngoài, ăn hàng.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: ăn ngoài, ăn hàng"
     }
    ],
    "stimulus": {
@@ -857,7 +1010,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`join in`: tham gia cùng.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: tham gia cùng"
     }
    ],
    "stimulus": {
@@ -894,7 +1048,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`work out`: tìm ra cách giải, tính ra.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: tìm ra cách giải, tính ra"
     }
    ],
    "stimulus": {
@@ -931,7 +1086,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`get off`: xuống (xe buýt, tàu, máy bay).",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: xuống (xe buýt, tàu, máy bay)"
     }
    ],
    "stimulus": {
@@ -968,7 +1124,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`get out (of)`: ra khỏi (ô tô, phòng, tòa nhà).",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: ra khỏi (ô tô, phòng, tòa nhà)"
     }
    ],
    "stimulus": {
@@ -1005,7 +1162,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`let down`: làm thất vọng.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: làm thất vọng"
     }
    ],
    "stimulus": {
@@ -1042,7 +1200,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`send off`: đuổi khỏi sân (cầu thủ).",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: đuổi khỏi sân (cầu thủ)"
     }
    ],
    "stimulus": {
@@ -1079,7 +1238,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`take down`: gỡ xuống, lấy xuống.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: gỡ xuống, lấy xuống"
     }
    ],
    "stimulus": {
@@ -1116,7 +1276,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`take off`: cất cánh; cởi ra.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: cất cánh; cởi ra"
     }
    ],
    "stimulus": {
@@ -1153,7 +1314,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`take up`: bắt đầu (sở thích, môn thể thao).",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: bắt đầu (sở thích, môn thể thao)"
     }
    ],
    "stimulus": {
@@ -1190,7 +1352,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`turn off`: tắt.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: tắt"
     }
    ],
    "stimulus": {
@@ -1728,29 +1891,29 @@
      "options": [
       {
        "id": "1",
-       "text": "of"
+       "text": "with"
       },
       {
        "id": "2",
-       "text": "like"
+       "text": "between"
       },
       {
        "id": "3",
-       "text": "to"
+       "text": "under"
       },
       {
        "id": "4",
-       "text": "on"
+       "text": "out"
       }
      ],
      "answer": "1",
-     "explanation_vi": "`a type of`: một kiểu, loại.",
+     "explanation_vi": "`agree (with sb) about`: đồng ý (với ai) về.",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "Jazz is a type ( ) music."
+    "text": "I agree ( ) you about the price."
    }
   },
   {
@@ -1765,29 +1928,29 @@
      "options": [
       {
        "id": "1",
-       "text": "under"
+       "text": "of"
       },
       {
        "id": "2",
-       "text": "out"
+       "text": "as"
       },
       {
        "id": "3",
-       "text": "between"
+       "text": "with"
       },
       {
        "id": "4",
-       "text": "with"
+       "text": "about"
       }
      ],
      "answer": "4",
-     "explanation_vi": "`agree (with sb) about`: đồng ý (với ai) về.",
+     "explanation_vi": "`a book (by sb) about`: cuốn sách (của ai) về.",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "I agree ( ) you about the price."
+    "text": "I am reading a book ( ) the history of Vietnam."
    }
   },
   {
@@ -1802,11 +1965,11 @@
      "options": [
       {
        "id": "1",
-       "text": "of"
+       "text": "into"
       },
       {
        "id": "2",
-       "text": "as"
+       "text": "with"
       },
       {
        "id": "3",
@@ -1814,17 +1977,17 @@
       },
       {
        "id": "4",
-       "text": "with"
+       "text": "like"
       }
      ],
      "answer": "3",
-     "explanation_vi": "`a book (by sb) about`: cuốn sách (của ai) về.",
+     "explanation_vi": "`chat (to sb) about`: trò chuyện (với ai) về.",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "I am reading a book ( ) the history of Vietnam."
+    "text": "We chatted ( ) our holiday plans."
    }
   },
   {
@@ -1839,29 +2002,29 @@
      "options": [
       {
        "id": "1",
-       "text": "like"
+       "text": "from"
       },
       {
        "id": "2",
-       "text": "with"
+       "text": "as"
       },
       {
        "id": "3",
-       "text": "about"
+       "text": "against"
       },
       {
        "id": "4",
-       "text": "into"
+       "text": "to"
       }
      ],
      "answer": "3",
-     "explanation_vi": "`chat (to sb) about`: trò chuyện (với ai) về.",
+     "explanation_vi": "`fight against`: đấu tranh chống lại.",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "We chatted ( ) our holiday plans."
+    "text": "Doctors fight ( ) disease every day."
    }
   },
   {
@@ -1876,44 +2039,7 @@
      "options": [
       {
        "id": "1",
-       "text": "as"
-      },
-      {
-       "id": "2",
-       "text": "to"
-      },
-      {
-       "id": "3",
-       "text": "against"
-      },
-      {
-       "id": "4",
        "text": "from"
-      }
-     ],
-     "answer": "3",
-     "explanation_vi": "`fight against`: đấu tranh chống lại.",
-     "tags": []
-    }
-   ],
-   "stimulus": {
-    "kind": "cloze",
-    "text": "Doctors fight ( ) disease every day."
-   }
-  },
-  {
-   "id": "B1U03C31",
-   "skill": "reading",
-   "type": "read_cloze",
-   "title_vi": "Giới từ theo sau · Unit 3",
-   "instruction_vi": "Chọn từ đúng cho chỗ trống.",
-   "questions": [
-    {
-     "id": "B1U03C31",
-     "options": [
-      {
-       "id": "1",
-       "text": "to"
       },
       {
        "id": "2",
@@ -1921,14 +2047,14 @@
       },
       {
        "id": "3",
-       "text": "against"
+       "text": "to"
       },
       {
        "id": "4",
-       "text": "from"
+       "text": "against"
       }
      ],
-     "answer": "1",
+     "answer": "3",
      "explanation_vi": "`write (to sb) about`: viết (cho ai) về.",
      "tags": []
     }
@@ -1937,6 +2063,82 @@
     "kind": "cloze",
     "text": "I wrote ( ) the manager about the problem."
    }
+  },
+  {
+   "id": "B1U03R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 3 · Why join a club?",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Many people take up a sport because they want to get fit, but there are other benefits. If you are a member of a club, you train with other people and learn to work in a team. A good coach will challenge you to improve. You do not need to be a champion. In fact, most members play for fun, and they get a lot of pleasure from it even when their team is beaten."
+   },
+   "questions": [
+    {
+     "id": "B1U03R1a",
+     "prompt_ko": "What is the main idea of the text?",
+     "options": [
+      {
+       "id": "1",
+       "text": "Only champions should join clubs."
+      },
+      {
+       "id": "2",
+       "text": "Joining a club has more benefits than fitness."
+      },
+      {
+       "id": "3",
+       "text": "Coaches are too strict."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Câu đầu nêu ý chính: \"there are other benefits\".",
+     "tags": []
+    },
+    {
+     "id": "B1U03R1b",
+     "prompt_ko": "Most club members want to become champions.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"most members play for fun\".",
+     "tags": []
+    },
+    {
+     "id": "B1U03R1c",
+     "prompt_ko": "Clubs are cheaper than gyms.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bài không so sánh chi phí.",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U04Q1",
@@ -2161,6 +2363,82 @@
    }
   },
   {
+   "id": "B1U04R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 4 · A changing city",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Da Nang has changed a lot in the last twenty years. The city has built new bridges and wide roads, and the number of visitors has grown every year. Many people have moved there from the countryside to find work. However, the cost of housing has risen too. Some families who have lived near the beach for generations have already sold their homes, because they can no longer afford to stay."
+   },
+   "questions": [
+    {
+     "id": "B1U04R1a",
+     "prompt_ko": "What has happened to housing costs in Da Nang?",
+     "options": [
+      {
+       "id": "1",
+       "text": "They have gone up."
+      },
+      {
+       "id": "2",
+       "text": "They have fallen."
+      },
+      {
+       "id": "3",
+       "text": "They have not changed."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"the cost of housing has risen\".",
+     "tags": []
+    },
+    {
+     "id": "B1U04R1b",
+     "prompt_ko": "The number of visitors has increased every year.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"the number of visitors has grown every year\".",
+     "tags": []
+    },
+    {
+     "id": "B1U04R1c",
+     "prompt_ko": "The city has built a new airport.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bài chỉ nhắc cầu và đường.",
+     "tags": []
+    }
+   ]
+  },
+  {
    "id": "B1U05Q1",
    "skill": "reading",
    "type": "read_cloze",
@@ -2344,6 +2622,82 @@
     "kind": "cloze",
     "text": "When I opened the door, the cat ( ) out."
    }
+  },
+  {
+   "id": "B1U05R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 5 · The missed exam",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Minh woke up at eight and looked at his phone. The exam had started at seven thirty. He had studied until three in the morning and had forgotten to set his alarm. When he arrived at the school, the other students had already finished the first part. He had been preparing for this test for months. Fortunately, the teacher had seen how hard he had worked, and she let him take the exam the next day."
+   },
+   "questions": [
+    {
+     "id": "B1U05R1a",
+     "prompt_ko": "Why did Minh wake up late?",
+     "options": [
+      {
+       "id": "1",
+       "text": "He had been ill."
+      },
+      {
+       "id": "2",
+       "text": "He had not set his alarm."
+      },
+      {
+       "id": "3",
+       "text": "His phone had broken."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"had forgotten to set his alarm\".",
+     "tags": []
+    },
+    {
+     "id": "B1U05R1b",
+     "prompt_ko": "When Minh arrived, the exam had not begun.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Các bạn đã làm xong phần một.",
+     "tags": []
+    },
+    {
+     "id": "B1U05R1c",
+     "prompt_ko": "Minh passed the exam the next day.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bài chỉ nói được thi lại, không nói kết quả.",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U06M1",
@@ -2714,7 +3068,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`carry on`: tiếp tục.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: tiếp tục"
     }
    ],
    "stimulus": {
@@ -2751,7 +3106,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`cross out`: gạch bỏ.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: gạch bỏ"
     }
    ],
    "stimulus": {
@@ -2788,7 +3144,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`leave out`: bỏ sót, không tính đến.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: bỏ sót, không tính đến"
     }
    ],
    "stimulus": {
@@ -2825,7 +3182,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`rip up`: xé vụn.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: xé vụn"
     }
    ],
    "stimulus": {
@@ -2862,7 +3220,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`rub out`: tẩy đi.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: tẩy đi"
     }
    ],
    "stimulus": {
@@ -2899,7 +3258,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`find out`: tìm ra, biết được (thông tin).",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: tìm ra, biết được (thông tin)"
     }
    ],
    "stimulus": {
@@ -3293,25 +3653,25 @@
       },
       {
        "id": "2",
-       "text": "under"
+       "text": "into"
       },
       {
        "id": "3",
-       "text": "at"
+       "text": "with"
       },
       {
        "id": "4",
-       "text": "from"
+       "text": "out"
       }
      ],
      "answer": "1",
-     "explanation_vi": "`learn about`: học về, tìm hiểu về.",
+     "explanation_vi": "`information about`: thông tin về (không đếm được).",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "We are learning ( ) climate change."
+    "text": "I need some information ( ) the course."
    }
   },
   {
@@ -3330,25 +3690,25 @@
       },
       {
        "id": "2",
-       "text": "under"
+       "text": "at"
       },
       {
        "id": "3",
-       "text": "from"
+       "text": "to"
       },
       {
        "id": "4",
-       "text": "for"
+       "text": "under"
       }
      ],
      "answer": "1",
-     "explanation_vi": "`a question about`: câu hỏi về.",
+     "explanation_vi": "`learn about`: học về, tìm hiểu về.",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "I have a question ( ) the homework."
+    "text": "We are learning ( ) climate change."
    }
   },
   {
@@ -3363,29 +3723,29 @@
      "options": [
       {
        "id": "1",
-       "text": "in"
+       "text": "about"
       },
       {
        "id": "2",
-       "text": "with"
+       "text": "for"
       },
       {
        "id": "3",
-       "text": "from"
+       "text": "under"
       },
       {
        "id": "4",
-       "text": "about"
+       "text": "from"
       }
      ],
      "answer": "1",
-     "explanation_vi": "`succeed in`: thành công trong việc.",
+     "explanation_vi": "`a question about`: câu hỏi về.",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "She succeeded ( ) finding a good job."
+    "text": "I have a question ( ) the homework."
    }
   },
   {
@@ -3400,29 +3760,29 @@
      "options": [
       {
        "id": "1",
-       "text": "to"
+       "text": "with"
       },
       {
        "id": "2",
-       "text": "at"
-      },
-      {
-       "id": "3",
        "text": "in"
       },
       {
+       "id": "3",
+       "text": "from"
+      },
+      {
        "id": "4",
-       "text": "between"
+       "text": "about"
       }
      ],
      "answer": "2",
-     "explanation_vi": "`talented at`: có tài về.",
+     "explanation_vi": "`succeed in`: thành công trong việc.",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "He is talented ( ) drawing."
+    "text": "She succeeded ( ) finding a good job."
    }
   },
   {
@@ -3437,15 +3797,15 @@
      "options": [
       {
        "id": "1",
-       "text": "into"
+       "text": "between"
       },
       {
        "id": "2",
-       "text": "for"
+       "text": "at"
       },
       {
        "id": "3",
-       "text": "from"
+       "text": "on"
       },
       {
        "id": "4",
@@ -3453,13 +3813,13 @@
       }
      ],
      "answer": "2",
-     "explanation_vi": "`ask for`: hỏi xin, yêu cầu.",
+     "explanation_vi": "`talented at`: có tài về.",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "She asked ( ) a glass of water."
+    "text": "He is talented ( ) drawing."
    }
   },
   {
@@ -3471,6 +3831,43 @@
    "questions": [
     {
      "id": "B1U06C22",
+     "options": [
+      {
+       "id": "1",
+       "text": "from"
+      },
+      {
+       "id": "2",
+       "text": "into"
+      },
+      {
+       "id": "3",
+       "text": "for"
+      },
+      {
+       "id": "4",
+       "text": "to"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "`ask for`: hỏi xin, yêu cầu.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "She asked ( ) a glass of water."
+   }
+  },
+  {
+   "id": "B1U06C23",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Giới từ theo sau · Unit 6",
+   "instruction_vi": "Chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "B1U06C23",
      "options": [
       {
        "id": "1",
@@ -3500,22 +3897,22 @@
    }
   },
   {
-   "id": "B1U06C23",
+   "id": "B1U06C24",
    "skill": "reading",
    "type": "read_cloze",
    "title_vi": "Giới từ theo sau · Unit 6",
    "instruction_vi": "Chọn từ đúng cho chỗ trống.",
    "questions": [
     {
-     "id": "B1U06C23",
+     "id": "B1U06C24",
      "options": [
       {
        "id": "1",
-       "text": "by"
+       "text": "into"
       },
       {
        "id": "2",
-       "text": "into"
+       "text": "by"
       },
       {
        "id": "3",
@@ -3537,33 +3934,33 @@
    }
   },
   {
-   "id": "B1U06C24",
+   "id": "B1U06C25",
    "skill": "reading",
    "type": "read_cloze",
    "title_vi": "Giới từ theo sau · Unit 6",
    "instruction_vi": "Chọn từ đúng cho chỗ trống.",
    "questions": [
     {
-     "id": "B1U06C24",
+     "id": "B1U06C25",
      "options": [
       {
        "id": "1",
-       "text": "like"
-      },
-      {
-       "id": "2",
-       "text": "into"
-      },
-      {
-       "id": "3",
        "text": "to"
       },
       {
-       "id": "4",
+       "id": "2",
        "text": "out"
+      },
+      {
+       "id": "3",
+       "text": "like"
+      },
+      {
+       "id": "4",
+       "text": "into"
       }
      ],
-     "answer": "3",
+     "answer": "1",
      "explanation_vi": "`a solution to`: giải pháp cho.",
      "tags": []
     }
@@ -3572,6 +3969,82 @@
     "kind": "cloze",
     "text": "There is no easy solution ( ) this problem."
    }
+  },
+  {
+   "id": "B1U06R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 6 · Learning as an adult",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Many adults think they are too old to study, but research does not agree. Adults often make faster progress than children at the beginning, because they can concentrate for longer and they know how to learn. What they lack is time. An expert in adult education suggests studying for twenty minutes every day rather than three hours once a week. She also advises learners to revise new words before they go to sleep."
+   },
+   "questions": [
+    {
+     "id": "B1U06R1a",
+     "prompt_ko": "According to the text, what do adult learners lack?",
+     "options": [
+      {
+       "id": "1",
+       "text": "Ability"
+      },
+      {
+       "id": "2",
+       "text": "Time"
+      },
+      {
+       "id": "3",
+       "text": "Good teachers"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"What they lack is time.\"",
+     "tags": []
+    },
+    {
+     "id": "B1U06R1b",
+     "prompt_ko": "Adults usually progress more slowly than children at first.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"Adults often make faster progress… at the beginning\".",
+     "tags": []
+    },
+    {
+     "id": "B1U06R1c",
+     "prompt_ko": "The expert recommends short daily study.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"twenty minutes every day rather than three hours once a week\".",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U07Q1",
@@ -3796,6 +4269,82 @@
    }
   },
   {
+   "id": "B1U07R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 7 · Weekend plans",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Hoa is going to visit her grandparents this weekend. Her train leaves at six on Saturday morning, so she is going to bed early on Friday. She is meeting her cousin at the station at nine. They have not decided what to do yet. \"Maybe we will go to the market,\" she says. \"If the weather is good, I think we will walk by the river.\" She will come back on Sunday evening, as soon as the last train arrives."
+   },
+   "questions": [
+    {
+     "id": "B1U07R1a",
+     "prompt_ko": "What time does Hoa's train leave?",
+     "options": [
+      {
+       "id": "1",
+       "text": "At six on Saturday morning"
+      },
+      {
+       "id": "2",
+       "text": "On Sunday evening"
+      },
+      {
+       "id": "3",
+       "text": "At nine on Saturday"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"Her train leaves at six on Saturday morning\".",
+     "tags": []
+    },
+    {
+     "id": "B1U07R1b",
+     "prompt_ko": "Hoa and her cousin have a fixed plan for the weekend.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"They have not decided what to do yet.\"",
+     "tags": []
+    },
+    {
+     "id": "B1U07R1c",
+     "prompt_ko": "Hoa's grandparents live near a river.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Có nhắc con sông nhưng không nói ông bà sống gần đó.",
+     "tags": []
+    }
+   ]
+  },
+  {
    "id": "B1U08Q1",
    "skill": "reading",
    "type": "read_cloze",
@@ -4016,6 +4565,82 @@
     "kind": "cloze",
     "text": "The pharmacy is ( ) the bank and the bakery."
    }
+  },
+  {
+   "id": "B1U08R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 8 · Finding the library",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "The city library is in Tran Phu Street, opposite the post office and next to a small park. It opens at eight in the morning and closes at nine in the evening. On Sundays it closes at noon. The reading room is on the second floor, and there is a cafe on the ground floor, behind the stairs. In summer, many students study there because it is cool and quiet."
+   },
+   "questions": [
+    {
+     "id": "B1U08R1a",
+     "prompt_ko": "Where is the reading room?",
+     "options": [
+      {
+       "id": "1",
+       "text": "On the second floor"
+      },
+      {
+       "id": "2",
+       "text": "On the ground floor"
+      },
+      {
+       "id": "3",
+       "text": "Behind the stairs"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"The reading room is on the second floor\".",
+     "tags": []
+    },
+    {
+     "id": "B1U08R1b",
+     "prompt_ko": "The library is open all day on Sundays.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"On Sundays it closes at noon.\"",
+     "tags": []
+    },
+    {
+     "id": "B1U08R1c",
+     "prompt_ko": "The library is next to the post office.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Thư viện đối diện bưu điện và cạnh công viên.",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U09M1",
@@ -4378,7 +5003,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`fill up`: đổ đầy, làm đầy.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: đổ đầy, làm đầy"
     }
    ],
    "stimulus": {
@@ -4415,7 +5041,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`hurry up`: nhanh lên.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: nhanh lên"
     }
    ],
    "stimulus": {
@@ -4452,7 +5079,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`run away (from)`: chạy trốn.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: chạy trốn"
     }
    ],
    "stimulus": {
@@ -4489,7 +5117,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`run out (of)`: hết, cạn.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: hết, cạn"
     }
    ],
    "stimulus": {
@@ -4526,7 +5155,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`come out`: được xuất bản, ra mắt.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: được xuất bản, ra mắt"
     }
    ],
    "stimulus": {
@@ -4563,7 +5193,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`go away`: đi khỏi, rời đi.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: đi khỏi, rời đi"
     }
    ],
    "stimulus": {
@@ -4600,7 +5231,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`go off`: ôi, thiu (đồ ăn).",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: ôi, thiu (đồ ăn)"
     }
    ],
    "stimulus": {
@@ -4637,7 +5269,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`set off`: khởi hành.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: khởi hành"
     }
    ],
    "stimulus": {
@@ -4674,7 +5307,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`set up`: thành lập.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: thành lập"
     }
    ],
    "stimulus": {
@@ -5286,7 +5920,7 @@
      "options": [
       {
        "id": "1",
-       "text": "under"
+       "text": "to"
       },
       {
        "id": "2",
@@ -5298,7 +5932,7 @@
       },
       {
        "id": "4",
-       "text": "like"
+       "text": "under"
       }
      ],
      "answer": "3",
@@ -5397,11 +6031,11 @@
      "options": [
       {
        "id": "1",
-       "text": "with"
+       "text": "between"
       },
       {
        "id": "2",
-       "text": "between"
+       "text": "on"
       },
       {
        "id": "3",
@@ -5409,7 +6043,7 @@
       },
       {
        "id": "4",
-       "text": "on"
+       "text": "of"
       }
      ],
      "answer": "3",
@@ -5421,6 +6055,82 @@
     "kind": "cloze",
     "text": "She works ( ) a large bank."
    }
+  },
+  {
+   "id": "B1U09R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 9 · Travelling by train",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Many tourists fly between Hanoi and Hue, but the train is a good alternative. The journey takes about thirteen hours, so most people book a bed on the night train. It is not as fast as a flight, and delays are common. However, you do not have to travel to an airport far from the city, and you can take more luggage. The best part is the view of the coast near the end of the trip."
+   },
+   "questions": [
+    {
+     "id": "B1U09R1a",
+     "prompt_ko": "What is one advantage of the train?",
+     "options": [
+      {
+       "id": "1",
+       "text": "It is faster than flying."
+      },
+      {
+       "id": "2",
+       "text": "You can take more luggage."
+      },
+      {
+       "id": "3",
+       "text": "It is never delayed."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"you can take more luggage\".",
+     "tags": []
+    },
+    {
+     "id": "B1U09R1b",
+     "prompt_ko": "The train journey takes about thirteen hours.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đúng theo bài.",
+     "tags": []
+    },
+    {
+     "id": "B1U09R1c",
+     "prompt_ko": "Train tickets are cheaper than flights.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bài không nói về giá vé.",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U10Q1",
@@ -5645,6 +6355,82 @@
    }
   },
   {
+   "id": "B1U10R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 10 · How tea is made",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Tea is grown in many parts of northern Vietnam. The young leaves are picked by hand, usually early in the morning. They are then dried in the sun for a few hours. After that, the leaves are heated to stop them changing colour, and they are rolled into small shapes. Finally, the tea is packed and sent to shops. Most of it is sold in Vietnam, but some is exported."
+   },
+   "questions": [
+    {
+     "id": "B1U10R1a",
+     "prompt_ko": "What happens after the leaves are dried in the sun?",
+     "options": [
+      {
+       "id": "1",
+       "text": "They are picked."
+      },
+      {
+       "id": "2",
+       "text": "They are packed."
+      },
+      {
+       "id": "3",
+       "text": "They are heated."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Trình tự: picked → dried → heated → rolled → packed.",
+     "tags": []
+    },
+    {
+     "id": "B1U10R1b",
+     "prompt_ko": "The leaves are picked by machine.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"picked by hand\".",
+     "tags": []
+    },
+    {
+     "id": "B1U10R1c",
+     "prompt_ko": "All Vietnamese tea is exported.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"Most of it is sold in Vietnam, but some is exported.\"",
+     "tags": []
+    }
+   ]
+  },
+  {
    "id": "B1U11Q1",
    "skill": "reading",
    "type": "read_cloze",
@@ -5865,6 +6651,82 @@
     "kind": "cloze",
     "text": "Children should ( ) to read every day."
    }
+  },
+  {
+   "id": "B1U11R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 11 · A new bridge",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "A new bridge is being built across the river in my town. The old one could not be repaired, because it had been damaged by floods many times. The work is being done by a local company, and it should be finished next spring. While the bridge is being built, cars must be driven through the next village. Many people think more information should have been given before the work started."
+   },
+   "questions": [
+    {
+     "id": "B1U11R1a",
+     "prompt_ko": "Why is a new bridge needed?",
+     "options": [
+      {
+       "id": "1",
+       "text": "The old one was damaged by floods."
+      },
+      {
+       "id": "2",
+       "text": "The town has grown."
+      },
+      {
+       "id": "3",
+       "text": "The old one was too small."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"it had been damaged by floods many times\".",
+     "tags": []
+    },
+    {
+     "id": "B1U11R1b",
+     "prompt_ko": "The bridge will probably be finished next spring.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"it should be finished next spring\".",
+     "tags": []
+    },
+    {
+     "id": "B1U11R1c",
+     "prompt_ko": "The bridge is being paid for by the government.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bài không nói ai trả tiền.",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U12M1",
@@ -6231,7 +7093,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`bring up`: nuôi nấng, nuôi dạy.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: nuôi nấng, nuôi dạy"
     }
    ],
    "stimulus": {
@@ -6268,7 +7131,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`fall down`: ngã, đổ xuống.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: ngã, đổ xuống"
     }
    ],
    "stimulus": {
@@ -6305,7 +7169,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`fall out (with)`: cãi nhau, giận nhau.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: cãi nhau, giận nhau"
     }
    ],
    "stimulus": {
@@ -6342,7 +7207,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`grow up`: lớn lên, trưởng thành.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: lớn lên, trưởng thành"
     }
    ],
    "stimulus": {
@@ -6379,7 +7245,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`look after`: chăm sóc, trông nom.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: chăm sóc, trông nom"
     }
    ],
    "stimulus": {
@@ -6416,7 +7283,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`share out`: chia đều.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: chia đều"
     }
    ],
    "stimulus": {
@@ -6453,7 +7321,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`split up`: chia tay.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: chia tay"
     }
    ],
    "stimulus": {
@@ -6490,7 +7359,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`give up`: từ bỏ, bỏ (thói quen).",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: từ bỏ, bỏ (thói quen)"
     }
    ],
    "stimulus": {
@@ -6527,7 +7397,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`write down`: ghi lại.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: ghi lại"
     }
    ],
    "stimulus": {
@@ -7143,7 +8014,7 @@
       },
       {
        "id": "2",
-       "text": "against"
+       "text": "for"
       },
       {
        "id": "3",
@@ -7151,17 +8022,17 @@
       },
       {
        "id": "4",
-       "text": "with"
+       "text": "between"
       }
      ],
      "answer": "3",
-     "explanation_vi": "`sorry about/for`: xin lỗi, tiếc về.",
+     "explanation_vi": "`talk (to sb) about`: nói chuyện (với ai) về.",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "I am sorry ( ) the noise last night."
+    "text": "We talked ( ) our plans for the summer."
    }
   },
   {
@@ -7180,18 +8051,55 @@
       },
       {
        "id": "2",
-       "text": "between"
+       "text": "as"
       },
       {
        "id": "3",
+       "text": "against"
+      },
+      {
+       "id": "4",
        "text": "with"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`sorry about/for`: xin lỗi, tiếc về.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I am sorry ( ) the noise last night."
+   }
+  },
+  {
+   "id": "B1U12C28",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Giới từ theo sau · Unit 12",
+   "instruction_vi": "Chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "B1U12C28",
+     "options": [
+      {
+       "id": "1",
+       "text": "between"
+      },
+      {
+       "id": "2",
+       "text": "with"
+      },
+      {
+       "id": "3",
+       "text": "about"
       },
       {
        "id": "4",
        "text": "at"
       }
      ],
-     "answer": "1",
+     "answer": "3",
      "explanation_vi": "`sure about/of`: chắc chắn về.",
      "tags": []
     }
@@ -7200,6 +8108,82 @@
     "kind": "cloze",
     "text": "Are you sure ( ) the date?"
    }
+  },
+  {
+   "id": "B1U12R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 12 · Old friends",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Mai and Thu have been close friends since primary school. They grew up in the same neighbourhood and got on well from the first day. Mai is confident and generous; Thu is quieter and very patient. They have fallen out only once, over a boy, and they did not speak for a month. In the end, Thu apologised first. Now they live in different cities, but they are still in touch every week."
+   },
+   "questions": [
+    {
+     "id": "B1U12R1a",
+     "prompt_ko": "How are Mai and Thu different?",
+     "options": [
+      {
+       "id": "1",
+       "text": "Mai is more confident and Thu is quieter."
+      },
+      {
+       "id": "2",
+       "text": "Mai is patient and Thu is generous."
+      },
+      {
+       "id": "3",
+       "text": "They have nothing in common."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"Mai is confident and generous; Thu is quieter and very patient.\"",
+     "tags": []
+    },
+    {
+     "id": "B1U12R1b",
+     "prompt_ko": "They have argued many times.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"They have fallen out only once\".",
+     "tags": []
+    },
+    {
+     "id": "B1U12R1c",
+     "prompt_ko": "They now live in the same city.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"they live in different cities\".",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U13Q1",
@@ -7387,6 +8371,82 @@
    }
   },
   {
+   "id": "B1U13R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 13 · Too much information?",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "People today have more information than ever, but not much of it is useful. A few websites offer good advice, while many others contain very little evidence. Some experts say that we do not need more knowledge; we need more time to think. One piece of advice is simple: read fewer pages, but read them carefully. Another is to ask how much research there is behind a claim."
+   },
+   "questions": [
+    {
+     "id": "B1U13R1a",
+     "prompt_ko": "What do some experts say we need?",
+     "options": [
+      {
+       "id": "1",
+       "text": "More time to think"
+      },
+      {
+       "id": "2",
+       "text": "More websites"
+      },
+      {
+       "id": "3",
+       "text": "More knowledge"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"we need more time to think\".",
+     "tags": []
+    },
+    {
+     "id": "B1U13R1b",
+     "prompt_ko": "Most websites give advice based on strong evidence.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"many others contain very little evidence\".",
+     "tags": []
+    },
+    {
+     "id": "B1U13R1c",
+     "prompt_ko": "The writer suggests reading less but more carefully.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"read fewer pages, but read them carefully\".",
+     "tags": []
+    }
+   ]
+  },
+  {
    "id": "B1U14Q1",
    "skill": "reading",
    "type": "read_cloze",
@@ -7570,6 +8630,82 @@
     "kind": "cloze",
     "text": "She plays ( ) piano very well."
    }
+  },
+  {
+   "id": "B1U14R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 14 · The bicycle",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "The bicycle is one of the most useful inventions in history. A bicycle is cheap, it needs no fuel, and it does not pollute the air. In the past, most people in Hanoi went to work by bike. Today the streets are full of motorbikes and cars. However, in some European cities the number of cyclists is rising again, because governments have built safe roads for them."
+   },
+   "questions": [
+    {
+     "id": "B1U14R1a",
+     "prompt_ko": "Why is cycling increasing in some European cities?",
+     "options": [
+      {
+       "id": "1",
+       "text": "Fuel is too expensive."
+      },
+      {
+       "id": "2",
+       "text": "Cars are banned."
+      },
+      {
+       "id": "3",
+       "text": "Safe roads have been built."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "\"governments have built safe roads for them\".",
+     "tags": []
+    },
+    {
+     "id": "B1U14R1b",
+     "prompt_ko": "Bicycles pollute the air a little.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"it does not pollute the air\".",
+     "tags": []
+    },
+    {
+     "id": "B1U14R1c",
+     "prompt_ko": "Most people in Hanoi cycle to work today.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đó là \"in the past\".",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U15M1",
@@ -7940,7 +9076,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`add up`: cộng lại, tính tổng.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: cộng lại, tính tổng"
     }
    ],
    "stimulus": {
@@ -7977,7 +9114,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`give away`: cho đi, tặng miễn phí.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: cho đi, tặng miễn phí"
     }
    ],
    "stimulus": {
@@ -8014,7 +9152,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`give back`: trả lại.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: trả lại"
     }
    ],
    "stimulus": {
@@ -8051,7 +9190,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`pay back`: trả lại tiền.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: trả lại tiền"
     }
    ],
    "stimulus": {
@@ -8088,7 +9228,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`save up (for)`: để dành tiền (mua gì).",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: để dành tiền (mua gì)"
     }
    ],
    "stimulus": {
@@ -8116,7 +9257,7 @@
       },
       {
        "id": "3",
-       "text": "with"
+       "text": "of"
       },
       {
        "id": "4",
@@ -8763,6 +9904,82 @@
    }
   },
   {
+   "id": "B1U15R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 15 · Smart shopping",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Advertisements are designed to make us buy things we do not need. A sale can look like a bargain, but customers often spend more than they planned. One simple rule can save you money: wait for two days before you purchase anything expensive. If you still want it, and you can afford it, buy it. Always keep the receipt, and never borrow money to pay for something that is not necessary."
+   },
+   "questions": [
+    {
+     "id": "B1U15R1a",
+     "prompt_ko": "What rule does the writer suggest?",
+     "options": [
+      {
+       "id": "1",
+       "text": "Wait two days before an expensive purchase."
+      },
+      {
+       "id": "2",
+       "text": "Buy only in sales."
+      },
+      {
+       "id": "3",
+       "text": "Never keep receipts."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"wait for two days before you purchase anything expensive\".",
+     "tags": []
+    },
+    {
+     "id": "B1U15R1b",
+     "prompt_ko": "People usually spend less during sales.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"customers often spend more than they planned\".",
+     "tags": []
+    },
+    {
+     "id": "B1U15R1c",
+     "prompt_ko": "The writer thinks borrowing for unnecessary things is a bad idea.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"never borrow money to pay for something that is not necessary\".",
+     "tags": []
+    }
+   ]
+  },
+  {
    "id": "B1U16Q1",
    "skill": "reading",
    "type": "read_cloze",
@@ -8948,6 +10165,82 @@
    }
   },
   {
+   "id": "B1U16R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 16 · Sharing a flat",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Linh shares a flat with two friends. Each of them has her own room, but the kitchen is theirs to share. At first they argued about cleaning, because nobody thought the mess was hers. Then they made a plan themselves: each person cleans one room a week. Linh says the plan has helped them understand one another. \"The flat is ours,\" she says, \"so we look after it ourselves.\""
+   },
+   "questions": [
+    {
+     "id": "B1U16R1a",
+     "prompt_ko": "What did they argue about at first?",
+     "options": [
+      {
+       "id": "1",
+       "text": "Noise"
+      },
+      {
+       "id": "2",
+       "text": "Cleaning"
+      },
+      {
+       "id": "3",
+       "text": "Money"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"they argued about cleaning\".",
+     "tags": []
+    },
+    {
+     "id": "B1U16R1b",
+     "prompt_ko": "The three friends share one bedroom.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"Each of them has her own room\".",
+     "tags": []
+    },
+    {
+     "id": "B1U16R1c",
+     "prompt_ko": "Their landlord made the cleaning plan.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"they made a plan themselves\".",
+     "tags": []
+    }
+   ]
+  },
+  {
    "id": "B1U17Q1",
    "skill": "reading",
    "type": "read_cloze",
@@ -9131,6 +10424,82 @@
     "kind": "cloze",
     "text": "The laptop ( ) I bought last month has stopped working."
    }
+  },
+  {
+   "id": "B1U17R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 17 · The teacher who changed a village",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Mr Hung, who is now seventy, was the first teacher in a mountain village where there was no school. He taught children whose parents could not read. The room that he used was small and had no electricity. Many of the children who studied there later went to university. One of them, who is now a doctor, has built a clinic in the village where she was born."
+   },
+   "questions": [
+    {
+     "id": "B1U17R1a",
+     "prompt_ko": "Who built a clinic in the village?",
+     "options": [
+      {
+       "id": "1",
+       "text": "A former student who became a doctor"
+      },
+      {
+       "id": "2",
+       "text": "Mr Hung"
+      },
+      {
+       "id": "3",
+       "text": "The government"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"One of them, who is now a doctor, has built a clinic\".",
+     "tags": []
+    },
+    {
+     "id": "B1U17R1b",
+     "prompt_ko": "The classroom had electricity.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"had no electricity\".",
+     "tags": []
+    },
+    {
+     "id": "B1U17R1c",
+     "prompt_ko": "Mr Hung was born in the village.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bài không nói ông sinh ở đâu.",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U18M1",
@@ -9501,7 +10870,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`break down`: hỏng, ngừng chạy (máy, xe).",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: hỏng, ngừng chạy (máy, xe)"
     }
    ],
    "stimulus": {
@@ -9538,7 +10908,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`come across`: tình cờ thấy, tình cờ gặp.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: tình cờ thấy, tình cờ gặp"
     }
    ],
    "stimulus": {
@@ -9575,7 +10946,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`pull off`: kéo đứt, giật rời ra.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: kéo đứt, giật rời ra"
     }
    ],
    "stimulus": {
@@ -9612,7 +10984,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`throw away`: vứt đi.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: vứt đi"
     }
    ],
    "stimulus": {
@@ -9649,7 +11022,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`turn on`: bật.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: bật"
     }
    ],
    "stimulus": {
@@ -9686,7 +11060,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`turn over`: lật lại.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: lật lại"
     }
    ],
    "stimulus": {
@@ -9723,7 +11098,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`make up`: bịa ra.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: bịa ra"
     }
    ],
    "stimulus": {
@@ -9760,7 +11136,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`put back`: để lại chỗ cũ.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: để lại chỗ cũ"
     }
    ],
    "stimulus": {
@@ -9797,7 +11174,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`take away`: mang đi, dọn đi.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: mang đi, dọn đi"
     }
    ],
    "stimulus": {
@@ -9834,7 +11212,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`turn down`: vặn nhỏ.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: vặn nhỏ"
     }
    ],
    "stimulus": {
@@ -9871,7 +11250,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`turn up`: vặn to.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: vặn to"
     }
    ],
    "stimulus": {
@@ -9965,7 +11345,7 @@
      "options": [
       {
        "id": "1",
-       "text": "in"
+       "text": "out"
       },
       {
        "id": "2",
@@ -10113,7 +11493,7 @@
      "options": [
       {
        "id": "1",
-       "text": "of"
+       "text": "about"
       },
       {
        "id": "2",
@@ -10121,11 +11501,11 @@
       },
       {
        "id": "3",
-       "text": "as"
+       "text": "of"
       },
       {
        "id": "4",
-       "text": "by"
+       "text": "as"
       }
      ],
      "answer": "2",
@@ -10446,29 +11826,29 @@
      "options": [
       {
        "id": "1",
-       "text": "at"
+       "text": "in"
       },
       {
        "id": "2",
-       "text": "of"
+       "text": "by"
       },
       {
        "id": "3",
-       "text": "under"
+       "text": "on"
       },
       {
        "id": "4",
-       "text": "about"
+       "text": "into"
       }
      ],
      "answer": "4",
-     "explanation_vi": "`an idea about`: ý tưởng về.",
+     "explanation_vi": "`translate (from sth) into`: dịch (từ tiếng gì) sang.",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "Do you have any ideas ( ) the party?"
+    "text": "She translated the letter ( ) English."
    }
   },
   {
@@ -10483,29 +11863,29 @@
      "options": [
       {
        "id": "1",
-       "text": "of"
+       "text": "about"
       },
       {
        "id": "2",
-       "text": "from"
+       "text": "under"
       },
       {
        "id": "3",
-       "text": "between"
+       "text": "at"
       },
       {
        "id": "4",
-       "text": "in"
+       "text": "on"
       }
      ],
      "answer": "1",
-     "explanation_vi": "`short of`: thiếu.",
+     "explanation_vi": "`an idea about`: ý tưởng về.",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "We are short ( ) time."
+    "text": "Do you have any ideas ( ) the party?"
    }
   },
   {
@@ -10520,22 +11900,59 @@
      "options": [
       {
        "id": "1",
-       "text": "to"
+       "text": "from"
       },
       {
        "id": "2",
-       "text": "with"
+       "text": "in"
       },
       {
        "id": "3",
-       "text": "of"
+       "text": "between"
       },
       {
        "id": "4",
-       "text": "about"
+       "text": "of"
       }
      ],
      "answer": "4",
+     "explanation_vi": "`short of`: thiếu.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "We are short ( ) time."
+   }
+  },
+  {
+   "id": "B1U18C30",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Giới từ theo sau · Unit 18",
+   "instruction_vi": "Chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "B1U18C30",
+     "options": [
+      {
+       "id": "1",
+       "text": "about"
+      },
+      {
+       "id": "2",
+       "text": "to"
+      },
+      {
+       "id": "3",
+       "text": "with"
+      },
+      {
+       "id": "4",
+       "text": "at"
+      }
+     ],
+     "answer": "1",
      "explanation_vi": "`think about`: nghĩ về.",
      "tags": []
     }
@@ -10544,6 +11961,82 @@
     "kind": "cloze",
     "text": "I am thinking ( ) changing my job."
    }
+  },
+  {
+   "id": "B1U18R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 18 · Discovered by accident",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Not every invention is planned. In 1945 an engineer who was working with radar equipment noticed that a chocolate bar in his pocket had melted. He decided to experiment with other food, and the result was the microwave oven. The first model was huge and complicated to operate. Today the technology is in millions of kitchens. The story shows that research often has effects nobody expects."
+   },
+   "questions": [
+    {
+     "id": "B1U18R1a",
+     "prompt_ko": "How did the engineer make his discovery?",
+     "options": [
+      {
+       "id": "1",
+       "text": "After years of planned research"
+      },
+      {
+       "id": "2",
+       "text": "By reading about it"
+      },
+      {
+       "id": "3",
+       "text": "By chance, when chocolate melted in his pocket"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "\"noticed that a chocolate bar in his pocket had melted\".",
+     "tags": []
+    },
+    {
+     "id": "B1U18R1b",
+     "prompt_ko": "The first microwave oven was small and simple.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"huge and complicated to operate\".",
+     "tags": []
+    },
+    {
+     "id": "B1U18R1c",
+     "prompt_ko": "The engineer became rich.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bài không nói.",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U19Q1",
@@ -10731,6 +12224,82 @@
    }
   },
   {
+   "id": "B1U19R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 19 · Advice for new students",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "New students often ask what they should do in their first month. First, you should find out where everything is. You can ask older students; most of them are able to help. Second, you ought to join at least one club, because you will be able to make friends quickly. Finally, you should not try to do everything. When I started, I could not say no, and I was soon exhausted."
+   },
+   "questions": [
+    {
+     "id": "B1U19R1a",
+     "prompt_ko": "Why should new students join a club?",
+     "options": [
+      {
+       "id": "1",
+       "text": "To get better marks"
+      },
+      {
+       "id": "2",
+       "text": "Because it is required"
+      },
+      {
+       "id": "3",
+       "text": "To make friends quickly"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "\"you will be able to make friends quickly\".",
+     "tags": []
+    },
+    {
+     "id": "B1U19R1b",
+     "prompt_ko": "The writer says students should try to do everything.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"you should not try to do everything\".",
+     "tags": []
+    },
+    {
+     "id": "B1U19R1c",
+     "prompt_ko": "The writer was very tired at the start.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"I was soon exhausted\".",
+     "tags": []
+    }
+   ]
+  },
+  {
    "id": "B1U20Q1",
    "skill": "reading",
    "type": "read_cloze",
@@ -10914,6 +12483,82 @@
     "kind": "cloze",
     "text": "I ( ) work late yesterday."
    }
+  },
+  {
+   "id": "B1U20R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 20 · Rules at the pool",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Before you swim at the city pool, you have to take a shower. You must not run near the water, and children under ten must be with an adult. You do not have to bring a towel, because you can rent one. On hot days the pool can be very crowded, so you may have to wait. The water might feel cold at first, but it cannot be dangerous: it is checked every morning."
+   },
+   "questions": [
+    {
+     "id": "B1U20R1a",
+     "prompt_ko": "What do swimmers have to do first?",
+     "options": [
+      {
+       "id": "1",
+       "text": "Take a shower"
+      },
+      {
+       "id": "2",
+       "text": "Rent a towel"
+      },
+      {
+       "id": "3",
+       "text": "Wait outside"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"you have to take a shower\".",
+     "tags": []
+    },
+    {
+     "id": "B1U20R1b",
+     "prompt_ko": "You must bring your own towel.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"You do not have to bring a towel\".",
+     "tags": []
+    },
+    {
+     "id": "B1U20R1c",
+     "prompt_ko": "Children under ten can swim alone.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"must be with an adult\".",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U21M1",
@@ -11284,7 +12929,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`call back`: gọi lại.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: gọi lại"
     }
    ],
    "stimulus": {
@@ -11321,7 +12967,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`call off`: hủy bỏ.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: hủy bỏ"
     }
    ],
    "stimulus": {
@@ -11358,7 +13005,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`fill in`: điền (mẫu đơn).",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: điền (mẫu đơn)"
     }
    ],
    "stimulus": {
@@ -11395,7 +13043,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`hang on`: chờ một chút.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: chờ một chút"
     }
    ],
    "stimulus": {
@@ -11432,7 +13081,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`hang up`: treo (quần áo); cúp máy.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: treo (quần áo); cúp máy"
     }
    ],
    "stimulus": {
@@ -11469,7 +13119,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`log off`: đăng xuất.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: đăng xuất"
     }
    ],
    "stimulus": {
@@ -11506,7 +13157,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`log on(to)`: đăng nhập.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: đăng nhập"
     }
    ],
    "stimulus": {
@@ -11543,7 +13195,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`print out`: in ra.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: in ra"
     }
    ],
    "stimulus": {
@@ -11580,7 +13233,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`read out`: đọc to.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: đọc to"
     }
    ],
    "stimulus": {
@@ -11617,7 +13271,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`speak up`: nói to lên.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: nói to lên"
     }
    ],
    "stimulus": {
@@ -11637,7 +13292,7 @@
      "options": [
       {
        "id": "1",
-       "text": "in"
+       "text": "against"
       },
       {
        "id": "2",
@@ -11970,29 +13625,29 @@
      "options": [
       {
        "id": "1",
-       "text": "in"
-      },
-      {
-       "id": "2",
-       "text": "about"
-      },
-      {
-       "id": "3",
        "text": "of"
       },
       {
+       "id": "2",
+       "text": "from"
+      },
+      {
+       "id": "3",
+       "text": "by"
+      },
+      {
        "id": "4",
-       "text": "at"
+       "text": "like"
       }
      ],
      "answer": "2",
-     "explanation_vi": "`information about`: thông tin về (không đếm được).",
+     "explanation_vi": "`a letter (from sb) about`: lá thư (từ ai) về.",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "I need some information ( ) the course."
+    "text": "I got a letter ( ) the bank about my account."
    }
   },
   {
@@ -12007,11 +13662,11 @@
      "options": [
       {
        "id": "1",
-       "text": "for"
+       "text": "between"
       },
       {
        "id": "2",
-       "text": "to"
+       "text": "under"
       },
       {
        "id": "3",
@@ -12019,17 +13674,17 @@
       },
       {
        "id": "4",
-       "text": "like"
+       "text": "with"
       }
      ],
      "answer": "3",
-     "explanation_vi": "`a letter (from sb) about`: lá thư (từ ai) về.",
+     "explanation_vi": "`receive sth from`: nhận cái gì từ.",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "I got a letter ( ) the bank about my account."
+    "text": "I received an email ( ) the university."
    }
   },
   {
@@ -12044,59 +13699,22 @@
      "options": [
       {
        "id": "1",
-       "text": "from"
-      },
-      {
-       "id": "2",
-       "text": "with"
-      },
-      {
-       "id": "3",
-       "text": "between"
-      },
-      {
-       "id": "4",
-       "text": "under"
-      }
-     ],
-     "answer": "1",
-     "explanation_vi": "`receive sth from`: nhận cái gì từ.",
-     "tags": []
-    }
-   ],
-   "stimulus": {
-    "kind": "cloze",
-    "text": "I received an email ( ) the university."
-   }
-  },
-  {
-   "id": "B1U21C23",
-   "skill": "reading",
-   "type": "read_cloze",
-   "title_vi": "Giới từ theo sau · Unit 21",
-   "instruction_vi": "Chọn từ đúng cho chỗ trống.",
-   "questions": [
-    {
-     "id": "B1U21C23",
-     "options": [
-      {
-       "id": "1",
-       "text": "under"
-      },
-      {
-       "id": "2",
-       "text": "by"
-      },
-      {
-       "id": "3",
        "text": "to"
       },
       {
-       "id": "4",
+       "id": "2",
        "text": "out"
+      },
+      {
+       "id": "3",
+       "text": "under"
+      },
+      {
+       "id": "4",
+       "text": "by"
       }
      ],
-     "answer": "3",
+     "answer": "1",
      "explanation_vi": "`reply to`: trả lời.",
      "tags": []
     }
@@ -12107,78 +13725,80 @@
    }
   },
   {
-   "id": "B1U21C24",
+   "id": "B1U21R1",
    "skill": "reading",
-   "type": "read_cloze",
-   "title_vi": "Giới từ theo sau · Unit 21",
-   "instruction_vi": "Chọn từ đúng cho chỗ trống.",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 21 · Is the news good for us?",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Twenty years ago most people got the news from TV or a newspaper once a day. Now reports reach us on the internet every minute. Some researchers claim that this constant stream makes people anxious, because bad news is published more often than good news. They suggest reading the news at a fixed time and turning off announcements on your phone. Being informed, they say, does not mean being online all day."
+   },
    "questions": [
     {
-     "id": "B1U21C24",
+     "id": "B1U21R1a",
+     "prompt_ko": "What do the researchers suggest?",
      "options": [
       {
        "id": "1",
-       "text": "about"
+       "text": "Reading the news at a fixed time"
       },
       {
        "id": "2",
-       "text": "in"
+       "text": "Stopping reading the news"
       },
       {
        "id": "3",
-       "text": "of"
-      },
-      {
-       "id": "4",
-       "text": "against"
+       "text": "Watching more TV"
       }
      ],
      "answer": "1",
-     "explanation_vi": "`talk (to sb) about`: nói chuyện (với ai) về.",
+     "explanation_vi": "\"reading the news at a fixed time\".",
      "tags": []
-    }
-   ],
-   "stimulus": {
-    "kind": "cloze",
-    "text": "We talked ( ) our plans for the summer."
-   }
-  },
-  {
-   "id": "B1U21C25",
-   "skill": "reading",
-   "type": "read_cloze",
-   "title_vi": "Giới từ theo sau · Unit 21",
-   "instruction_vi": "Chọn từ đúng cho chỗ trống.",
-   "questions": [
+    },
     {
-     "id": "B1U21C25",
+     "id": "B1U21R1b",
+     "prompt_ko": "Good news is published more often than bad news.",
      "options": [
       {
        "id": "1",
-       "text": "out"
+       "text": "True"
       },
       {
        "id": "2",
-       "text": "at"
+       "text": "False"
       },
       {
        "id": "3",
-       "text": "against"
-      },
-      {
-       "id": "4",
-       "text": "into"
+       "text": "Not Given"
       }
      ],
-     "answer": "4",
-     "explanation_vi": "`translate (from sth) into`: dịch (từ tiếng gì) sang.",
+     "answer": "2",
+     "explanation_vi": "Ngược lại.",
+     "tags": []
+    },
+    {
+     "id": "B1U21R1c",
+     "prompt_ko": "Most people now pay for online news.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bài không nói.",
      "tags": []
     }
-   ],
-   "stimulus": {
-    "kind": "cloze",
-    "text": "She translated the letter ( ) English."
-   }
+   ]
   },
   {
    "id": "B1U22Q1",
@@ -12366,6 +13986,82 @@
    }
   },
   {
+   "id": "B1U22R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 22 · The empty office",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "When Ms Ha arrived at work on Monday, the office was empty and the door was open. Someone must have forgotten to lock it on Friday. The computers were still there, so a thief cannot have been inside. Then she saw a note: the team was at a training day. She should have read her emails. She could have stayed at home for another hour. \"I must have been very tired last week,\" she thought."
+   },
+   "questions": [
+    {
+     "id": "B1U22R1a",
+     "prompt_ko": "Why was the office empty?",
+     "options": [
+      {
+       "id": "1",
+       "text": "It was a holiday."
+      },
+      {
+       "id": "2",
+       "text": "A thief had been there."
+      },
+      {
+       "id": "3",
+       "text": "The team was at a training day."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Theo tờ ghi chú.",
+     "tags": []
+    },
+    {
+     "id": "B1U22R1b",
+     "prompt_ko": "Ms Ha had read her emails.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"She should have read her emails\" = thực tế là chưa đọc.",
+     "tags": []
+    },
+    {
+     "id": "B1U22R1c",
+     "prompt_ko": "The computers had been stolen.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"The computers were still there\".",
+     "tags": []
+    }
+   ]
+  },
+  {
    "id": "B1U23Q1",
    "skill": "reading",
    "type": "read_cloze",
@@ -12549,6 +14245,82 @@
     "kind": "cloze",
     "text": "Do you know ( ) there is a pharmacy near here?"
    }
+  },
+  {
+   "id": "B1U23R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 23 · Asking the way",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Tourists in a foreign city often feel nervous about asking for help. A polite question usually gets a friendly answer. Instead of \"Where is the station?\", try \"Could you tell me where the station is?\" If you do not understand, you can say, \"It is on the left, isn't it?\" Local people are usually happy to help, aren't they? The important thing is to begin: do you know how you would start?"
+   },
+   "questions": [
+    {
+     "id": "B1U23R1a",
+     "prompt_ko": "Which question is more polite, according to the text?",
+     "options": [
+      {
+       "id": "1",
+       "text": "The station is where?"
+      },
+      {
+       "id": "2",
+       "text": "Could you tell me where the station is?"
+      },
+      {
+       "id": "3",
+       "text": "Where is the station?"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Câu hỏi gián tiếp lịch sự hơn.",
+     "tags": []
+    },
+    {
+     "id": "B1U23R1b",
+     "prompt_ko": "Tourists never feel nervous about asking for help.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"often feel nervous\".",
+     "tags": []
+    },
+    {
+     "id": "B1U23R1c",
+     "prompt_ko": "The text says most local people speak English.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bài không nói.",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U24M1",
@@ -12919,7 +14691,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`catch up (with)`: bắt kịp.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: bắt kịp"
     }
    ],
    "stimulus": {
@@ -12956,7 +14729,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`wake up`: tỉnh giấc.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: tỉnh giấc"
     }
    ],
    "stimulus": {
@@ -12993,7 +14767,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`wash up`: rửa bát.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: rửa bát"
     }
    ],
    "stimulus": {
@@ -13030,7 +14805,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`get away with`: thoát tội, không bị phạt.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: thoát tội, không bị phạt"
     }
    ],
    "stimulus": {
@@ -13067,7 +14843,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`get up`: thức dậy, ra khỏi giường.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: thức dậy, ra khỏi giường"
     }
    ],
    "stimulus": {
@@ -13104,7 +14881,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`move in`: dọn đến ở.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: dọn đến ở"
     }
    ],
    "stimulus": {
@@ -13141,7 +14919,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`put away`: cất đi.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: cất đi"
     }
    ],
    "stimulus": {
@@ -13178,7 +14957,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`put up`: treo lên, dán lên (tường).",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: treo lên, dán lên (tường)"
     }
    ],
    "stimulus": {
@@ -13757,7 +15537,7 @@
       },
       {
        "id": "2",
-       "text": "for"
+       "text": "from"
       },
       {
        "id": "3",
@@ -13765,7 +15545,7 @@
       },
       {
        "id": "4",
-       "text": "of"
+       "text": "for"
       }
      ],
      "answer": "3",
@@ -13851,6 +15631,82 @@
     "kind": "cloze",
     "text": "Are you ready ( ) the trip?"
    }
+  },
+  {
+   "id": "B1U24R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 24 · A safer neighbourhood",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Ten years ago, crime was a serious problem in this part of the city. Shops were robbed, and residents were afraid to go out at night. Then the community started a youth club and a weekly market. Local people began to feel responsible for their streets. The police say fewer crimes are committed now, although they admit that the figures are not complete. What has changed most is the habit of talking to neighbours."
+   },
+   "questions": [
+    {
+     "id": "B1U24R1a",
+     "prompt_ko": "What did the community start?",
+     "options": [
+      {
+       "id": "1",
+       "text": "A new police station"
+      },
+      {
+       "id": "2",
+       "text": "A youth club and a weekly market"
+      },
+      {
+       "id": "3",
+       "text": "A private security company"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Theo bài.",
+     "tags": []
+    },
+    {
+     "id": "B1U24R1b",
+     "prompt_ko": "The police are sure that crime has fallen.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Họ thừa nhận số liệu chưa đầy đủ.",
+     "tags": []
+    },
+    {
+     "id": "B1U24R1c",
+     "prompt_ko": "Residents used to be afraid to go out at night.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đúng theo bài.",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U25Q1",
@@ -14038,6 +15894,82 @@
    }
   },
   {
+   "id": "B1U25R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 25 · Too busy to cook",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Many young workers say they are too busy to cook. They finish work so late that they buy fast food on the way home. It is such an easy habit that few people notice the cost. A doctor I spoke to said the problem is not time: most people have enough time, but they are too tired to plan. Her advice was simple enough to follow: cook twice a week and keep the rest."
+   },
+   "questions": [
+    {
+     "id": "B1U25R1a",
+     "prompt_ko": "What is the real problem, according to the doctor?",
+     "options": [
+      {
+       "id": "1",
+       "text": "People are too tired to plan."
+      },
+      {
+       "id": "2",
+       "text": "Food is too expensive."
+      },
+      {
+       "id": "3",
+       "text": "People do not have enough time."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"they are too tired to plan\".",
+     "tags": []
+    },
+    {
+     "id": "B1U25R1b",
+     "prompt_ko": "The doctor thinks most people have enough time.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đúng theo bài.",
+     "tags": []
+    },
+    {
+     "id": "B1U25R1c",
+     "prompt_ko": "Fast food is cheaper than cooking.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bài không so sánh giá.",
+     "tags": []
+    }
+   ]
+  },
+  {
    "id": "B1U26Q1",
    "skill": "reading",
    "type": "read_cloze",
@@ -14221,6 +16153,82 @@
     "kind": "cloze",
     "text": "The number of cars was ( ) higher than the number of buses."
    }
+  },
+  {
+   "id": "B1U26R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 26 · City or village?",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Life in a village is quieter than life in a city, and the air is much cleaner. Housing is far cheaper, too. On the other hand, the best hospitals and universities are in cities, and salaries are higher. Villages are not as convenient as cities for young people who want a career. For many families, the most difficult choice is not where life is better, but where it is better for their children."
+   },
+   "questions": [
+    {
+     "id": "B1U26R1a",
+     "prompt_ko": "Which is true of villages, according to the text?",
+     "options": [
+      {
+       "id": "1",
+       "text": "Housing is cheaper."
+      },
+      {
+       "id": "2",
+       "text": "Hospitals are better."
+      },
+      {
+       "id": "3",
+       "text": "Salaries are higher."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"Housing is far cheaper\".",
+     "tags": []
+    },
+    {
+     "id": "B1U26R1b",
+     "prompt_ko": "Cities are less convenient than villages for young people who want a career.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Ngược lại.",
+     "tags": []
+    },
+    {
+     "id": "B1U26R1c",
+     "prompt_ko": "Most families prefer villages.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bài không nói đa số chọn gì.",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U27M1",
@@ -14575,7 +16583,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`break in(to)`: đột nhập.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: đột nhập"
     }
    ],
    "stimulus": {
@@ -14612,7 +16621,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`come back (from)`: trở về.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: trở về"
     }
    ],
    "stimulus": {
@@ -14649,7 +16659,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`come on`: nhanh lên nào.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: nhanh lên nào"
     }
    ],
    "stimulus": {
@@ -14686,7 +16697,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`have on`: đang mặc, đang đội.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: đang mặc, đang đội"
     }
    ],
    "stimulus": {
@@ -14706,7 +16718,7 @@
      "options": [
       {
        "id": "1",
-       "text": "for"
+       "text": "like"
       },
       {
        "id": "2",
@@ -15043,11 +17055,11 @@
       },
       {
        "id": "2",
-       "text": "of"
+       "text": "out"
       },
       {
        "id": "3",
-       "text": "out"
+       "text": "in"
       },
       {
        "id": "4",
@@ -15088,7 +17100,7 @@
       },
       {
        "id": "4",
-       "text": "of"
+       "text": "against"
       }
      ],
      "answer": "1",
@@ -15361,6 +17373,82 @@
    }
   },
   {
+   "id": "B1U27R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 27 · A first job",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Tuan left university last year and applied for more than thirty jobs before he got an interview. The company offered him a contract for six months. His salary is low, but he says the experience is worth more than the income. He works in a team of five, and his manager is a patient leader. His ambition is to run a department before he is thirty. \"Pressure is part of any career,\" he says."
+   },
+   "questions": [
+    {
+     "id": "B1U27R1a",
+     "prompt_ko": "What does Tuan value most about his job?",
+     "options": [
+      {
+       "id": "1",
+       "text": "The experience"
+      },
+      {
+       "id": "2",
+       "text": "The short contract"
+      },
+      {
+       "id": "3",
+       "text": "The salary"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"the experience is worth more than the income\".",
+     "tags": []
+    },
+    {
+     "id": "B1U27R1b",
+     "prompt_ko": "Tuan got an interview after his first application.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Anh nộp hơn ba mươi đơn.",
+     "tags": []
+    },
+    {
+     "id": "B1U27R1c",
+     "prompt_ko": "Tuan's manager is younger than him.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bài không nói tuổi.",
+     "tags": []
+    }
+   ]
+  },
+  {
    "id": "B1U28Q1",
    "skill": "reading",
    "type": "read_cloze",
@@ -15546,6 +17634,82 @@
    }
   },
   {
+   "id": "B1U28R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 28 · If cities had fewer cars",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "If a city has too many cars, the air becomes dirty and people waste hours in traffic. If governments make public transport cheaper, more people will leave their cars at home. Some planners go further. If cars were banned from city centres, they say, streets would be safer and shops would have more customers. Not everyone agrees: unless buses are frequent, people will not change their habits."
+   },
+   "questions": [
+    {
+     "id": "B1U28R1a",
+     "prompt_ko": "What would happen if cars were banned from centres, according to planners?",
+     "options": [
+      {
+       "id": "1",
+       "text": "Buses would stop."
+      },
+      {
+       "id": "2",
+       "text": "Streets would be safer."
+      },
+      {
+       "id": "3",
+       "text": "Shops would close."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"streets would be safer and shops would have more customers\".",
+     "tags": []
+    },
+    {
+     "id": "B1U28R1b",
+     "prompt_ko": "Everyone agrees with the planners.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"Not everyone agrees\".",
+     "tags": []
+    },
+    {
+     "id": "B1U28R1c",
+     "prompt_ko": "People will change their habits only if buses are frequent.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"unless buses are frequent, people will not change\".",
+     "tags": []
+    }
+   ]
+  },
+  {
    "id": "B1U29Q1",
    "skill": "reading",
    "type": "read_cloze",
@@ -15729,6 +17893,82 @@
     "kind": "cloze",
     "text": "If I were taller, I ( ) basketball."
    }
+  },
+  {
+   "id": "B1U29R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 29 · The road not taken",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "When she was eighteen, Ngoc wanted to study art, but her parents wanted her to study law. She chose law. \"If I had studied art, I would not have met my husband,\" she says, \"but I might have been happier at work.\" She does not regret everything. If she had not become a lawyer, she could not have paid for her brother's education. Last year she finally started painting again."
+   },
+   "questions": [
+    {
+     "id": "B1U29R1a",
+     "prompt_ko": "What did Ngoc study?",
+     "options": [
+      {
+       "id": "1",
+       "text": "Law"
+      },
+      {
+       "id": "2",
+       "text": "Art"
+      },
+      {
+       "id": "3",
+       "text": "Education"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"She chose law.\"",
+     "tags": []
+    },
+    {
+     "id": "B1U29R1b",
+     "prompt_ko": "Ngoc regrets everything about her choice.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"She does not regret everything.\"",
+     "tags": []
+    },
+    {
+     "id": "B1U29R1c",
+     "prompt_ko": "Ngoc's job helped her pay for her brother's education.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Suy ra từ câu điều kiện loại ba.",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U30M1",
@@ -16099,7 +18339,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`cut down (on)`: cắt giảm.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: cắt giảm"
     }
    ],
    "stimulus": {
@@ -16136,7 +18377,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`cut off`: cắt (điện, nước, liên lạc); cắt rời.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: cắt (điện, nước, liên lạc); cắt rời"
     }
    ],
    "stimulus": {
@@ -16173,7 +18415,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`lie down`: nằm xuống.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: nằm xuống"
     }
    ],
    "stimulus": {
@@ -16210,7 +18453,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`sit down`: ngồi xuống.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: ngồi xuống"
     }
    ],
    "stimulus": {
@@ -16247,7 +18491,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`stand up`: đứng dậy.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: đứng dậy"
     }
    ],
    "stimulus": {
@@ -16284,7 +18529,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`stay up`: thức khuya.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: thức khuya"
     }
    ],
    "stimulus": {
@@ -16321,7 +18567,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`get over`: vượt qua, bình phục sau.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: vượt qua, bình phục sau"
     }
    ],
    "stimulus": {
@@ -16358,7 +18605,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`put off`: hoãn lại.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: hoãn lại"
     }
    ],
    "stimulus": {
@@ -16996,6 +19244,82 @@
    }
   },
   {
+   "id": "B1U30R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 30 · Small changes",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "You do not need a gym to stay healthy. Doctors say that a balanced diet and thirty minutes of exercise a day benefit almost everyone. Walking is enough. People who cut down on sugar and salty food often feel better within a few weeks. Sleep is just as important: if you ignore it, your body recovers more slowly from illness. The most effective treatment, one doctor says, is a habit you can keep."
+   },
+   "questions": [
+    {
+     "id": "B1U30R1a",
+     "prompt_ko": "What kind of exercise is enough, according to the text?",
+     "options": [
+      {
+       "id": "1",
+       "text": "Walking"
+      },
+      {
+       "id": "2",
+       "text": "Training at a gym"
+      },
+      {
+       "id": "3",
+       "text": "Running every day"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"Walking is enough.\"",
+     "tags": []
+    },
+    {
+     "id": "B1U30R1b",
+     "prompt_ko": "Sleep is less important than diet.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"Sleep is just as important\".",
+     "tags": []
+    },
+    {
+     "id": "B1U30R1c",
+     "prompt_ko": "People who eat less sugar often feel better within weeks.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đúng theo bài.",
+     "tags": []
+    }
+   ]
+  },
+  {
    "id": "B1U31Q1",
    "skill": "reading",
    "type": "read_cloze",
@@ -17181,6 +19505,82 @@
    }
   },
   {
+   "id": "B1U31R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 31 · What the mayor said",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "At a meeting last night, the mayor said that the city would build two new parks next year. She told residents that the council had already bought the land. She explained that the parks were part of a plan to make the city greener. One resident said that he had heard the same promise five years before. The mayor replied that this time the money was ready."
+   },
+   "questions": [
+    {
+     "id": "B1U31R1a",
+     "prompt_ko": "What did the mayor promise?",
+     "options": [
+      {
+       "id": "1",
+       "text": "Two new schools"
+      },
+      {
+       "id": "2",
+       "text": "Two new parks"
+      },
+      {
+       "id": "3",
+       "text": "Lower taxes"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Theo câu đầu.",
+     "tags": []
+    },
+    {
+     "id": "B1U31R1b",
+     "prompt_ko": "The council had already bought the land.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đúng theo lời thị trưởng.",
+     "tags": []
+    },
+    {
+     "id": "B1U31R1c",
+     "prompt_ko": "All residents believed the mayor.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Một cư dân tỏ ý nghi ngờ.",
+     "tags": []
+    }
+   ]
+  },
+  {
    "id": "B1U32Q1",
    "skill": "reading",
    "type": "read_cloze",
@@ -17364,6 +19764,82 @@
     "kind": "cloze",
     "text": "\"What is your name?\" → He asked me what ( )."
    }
+  },
+  {
+   "id": "B1U32R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 32 · The interview",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "The interviewer asked Hai where he had worked before and why he wanted to leave. She asked whether he could start in June. Then she asked him to describe a problem he had solved. Hai asked how many people were in the team and if he would have to travel. At the end she told him not to worry and asked him to wait for a call. He wondered whether that was a good sign."
+   },
+   "questions": [
+    {
+     "id": "B1U32R1a",
+     "prompt_ko": "What did the interviewer ask Hai to describe?",
+     "options": [
+      {
+       "id": "1",
+       "text": "His salary"
+      },
+      {
+       "id": "2",
+       "text": "A problem he had solved"
+      },
+      {
+       "id": "3",
+       "text": "His family"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Theo bài.",
+     "tags": []
+    },
+    {
+     "id": "B1U32R1b",
+     "prompt_ko": "Hai asked about the size of the team.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"how many people were in the team\".",
+     "tags": []
+    },
+    {
+     "id": "B1U32R1c",
+     "prompt_ko": "Hai got the job.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bài không nói kết quả.",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U33M1",
@@ -17734,7 +20210,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`clear up`: dọn dẹp.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: dọn dẹp"
     }
    ],
    "stimulus": {
@@ -17771,7 +20248,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`build up`: tăng dần, tích lũy.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: tăng dần, tích lũy"
     }
    ],
    "stimulus": {
@@ -17808,7 +20286,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`do up`: cài, kéo khóa (áo).",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: cài, kéo khóa (áo)"
     }
    ],
    "stimulus": {
@@ -17845,7 +20324,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`get in(to)`: lên (ô tô, taxi).",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: lên (ô tô, taxi)"
     }
    ],
    "stimulus": {
@@ -17882,7 +20362,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`get on(to)`: lên (xe buýt, tàu, máy bay).",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: lên (xe buýt, tàu, máy bay)"
     }
    ],
    "stimulus": {
@@ -17919,7 +20400,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`go back (to)`: quay lại.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: quay lại"
     }
    ],
    "stimulus": {
@@ -17956,7 +20438,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`look up`: tra (từ, thông tin).",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: tra (từ, thông tin)"
     }
    ],
    "stimulus": {
@@ -17993,7 +20476,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`put on`: mặc vào; tăng (cân).",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: mặc vào; tăng (cân)"
     }
    ],
    "stimulus": {
@@ -18030,7 +20514,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`take back`: đem trả lại.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: đem trả lại"
     }
    ],
    "stimulus": {
@@ -18095,7 +20580,7 @@
       },
       {
        "id": "3",
-       "text": "on"
+       "text": "against"
       },
       {
        "id": "4",
@@ -18494,7 +20979,7 @@
      "options": [
       {
        "id": "1",
-       "text": "with"
+       "text": "against"
       },
       {
        "id": "2",
@@ -18779,6 +21264,82 @@
    }
   },
   {
+   "id": "B1U33R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 33 · The old house",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "My grandparents' house was designed in a simple style, with thick walls and a tiled roof. The builders used local materials: wood, stone and clay. Nothing in it is smooth or perfectly straight, but everything is practical. The windows are small, which suits the hot climate. My uncle has maintained the house for years. Last summer he fixed the roof and created a small gallery of family photographs in the front room."
+   },
+   "questions": [
+    {
+     "id": "B1U33R1a",
+     "prompt_ko": "Why are the windows small?",
+     "options": [
+      {
+       "id": "1",
+       "text": "Glass was expensive."
+      },
+      {
+       "id": "2",
+       "text": "It suits the hot climate."
+      },
+      {
+       "id": "3",
+       "text": "The walls are thin."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"which suits the hot climate\".",
+     "tags": []
+    },
+    {
+     "id": "B1U33R1b",
+     "prompt_ko": "The house was built with imported materials.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"local materials\".",
+     "tags": []
+    },
+    {
+     "id": "B1U33R1c",
+     "prompt_ko": "The writer's uncle looks after the house.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"has maintained the house for years\".",
+     "tags": []
+    }
+   ]
+  },
+  {
    "id": "B1U34Q1",
    "skill": "reading",
    "type": "read_cloze",
@@ -18964,6 +21525,82 @@
    }
   },
   {
+   "id": "B1U34R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 34 · A letter to my brother",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Dear Khoa, thank you for the photos you sent me. I showed them to Mum, and she asked me to give you her love. I have bought a present for you, but I will not tell you what it is. Could you lend me your camera in July? I will give it back to you in August. Please write to me soon and explain your new job to me. I do not understand what you do!"
+   },
+   "questions": [
+    {
+     "id": "B1U34R1a",
+     "prompt_ko": "What does the writer want to borrow?",
+     "options": [
+      {
+       "id": "1",
+       "text": "A photo"
+      },
+      {
+       "id": "2",
+       "text": "Some money"
+      },
+      {
+       "id": "3",
+       "text": "A camera"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "\"Could you lend me your camera\".",
+     "tags": []
+    },
+    {
+     "id": "B1U34R1b",
+     "prompt_ko": "The writer tells Khoa what the present is.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"I will not tell you what it is.\"",
+     "tags": []
+    },
+    {
+     "id": "B1U34R1c",
+     "prompt_ko": "The writer understands Khoa's new job.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"I do not understand what you do!\"",
+     "tags": []
+    }
+   ]
+  },
+  {
    "id": "B1U35Q1",
    "skill": "reading",
    "type": "read_cloze",
@@ -19147,6 +21784,82 @@
     "kind": "cloze",
     "text": "I ( ) you enjoy your holiday."
    }
+  },
+  {
+   "id": "B1U35R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 35 · Three wishes",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "A newspaper asked readers what they wished for. Most answers were not about money. \"I wish I had more time with my children,\" wrote one father. A student wished she could speak without feeling nervous. An older reader wrote, \"I wish I had travelled when I was young. I hope my grandchildren will.\" Several people wished their city would plant more trees. Only a few wished they were rich."
+   },
+   "questions": [
+    {
+     "id": "B1U35R1a",
+     "prompt_ko": "What did most readers wish for?",
+     "options": [
+      {
+       "id": "1",
+       "text": "Things other than money"
+      },
+      {
+       "id": "2",
+       "text": "More money"
+      },
+      {
+       "id": "3",
+       "text": "A new job"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"Most answers were not about money.\"",
+     "tags": []
+    },
+    {
+     "id": "B1U35R1b",
+     "prompt_ko": "The older reader had travelled a lot when young.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"I wish I had travelled\" = đã không đi.",
+     "tags": []
+    },
+    {
+     "id": "B1U35R1c",
+     "prompt_ko": "Many readers wished they were rich.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"Only a few\".",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U36M1",
@@ -19505,7 +22218,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`blow up`: phát nổ; làm nổ.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: phát nổ; làm nổ"
     }
    ],
    "stimulus": {
@@ -19542,7 +22256,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`keep out`: không cho vào, tránh xa.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: không cho vào, tránh xa"
     }
    ],
    "stimulus": {
@@ -19579,7 +22294,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`pick up`: nhặt lên, nhấc lên.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: nhặt lên, nhấc lên"
     }
    ],
    "stimulus": {
@@ -19616,7 +22332,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`go on`: tiếp tục; diễn ra.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: tiếp tục; diễn ra"
     }
    ],
    "stimulus": {
@@ -19653,7 +22370,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`go out`: tắt (lửa, đèn).",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: tắt (lửa, đèn)"
     }
    ],
    "stimulus": {
@@ -19690,7 +22408,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`go out with`: hẹn hò với.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: hẹn hò với"
     }
    ],
    "stimulus": {
@@ -19727,7 +22446,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`put down`: đặt xuống.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: đặt xuống"
     }
    ],
    "stimulus": {
@@ -19764,7 +22484,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`put out`: dập tắt (lửa).",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: dập tắt (lửa)"
     }
    ],
    "stimulus": {
@@ -19801,7 +22522,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`take over`: tiếp quản, mua lại.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: tiếp quản, mua lại"
     }
    ],
    "stimulus": {
@@ -19825,7 +22547,7 @@
       },
       {
        "id": "2",
-       "text": "At"
+       "text": "Like"
       },
       {
        "id": "3",
@@ -19833,7 +22555,7 @@
       },
       {
        "id": "4",
-       "text": "Like"
+       "text": "Of"
       }
      ],
      "answer": "3",
@@ -20265,7 +22987,7 @@
      "options": [
       {
        "id": "1",
-       "text": "between"
+       "text": "from"
       },
       {
        "id": "2",
@@ -20273,7 +22995,44 @@
       },
       {
        "id": "3",
+       "text": "with"
+      },
+      {
+       "id": "4",
+       "text": "like"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`a type of`: một kiểu, loại.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Jazz is a type ( ) music."
+   }
+  },
+  {
+   "id": "B1U36C23",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Giới từ theo sau · Unit 36",
+   "instruction_vi": "Chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "B1U36C23",
+     "options": [
+      {
+       "id": "1",
        "text": "to"
+      },
+      {
+       "id": "2",
+       "text": "of"
+      },
+      {
+       "id": "3",
+       "text": "between"
       },
       {
        "id": "4",
@@ -20291,18 +23050,18 @@
    }
   },
   {
-   "id": "B1U36C23",
+   "id": "B1U36C24",
    "skill": "reading",
    "type": "read_cloze",
    "title_vi": "Giới từ theo sau · Unit 36",
    "instruction_vi": "Chọn từ đúng cho chỗ trống.",
    "questions": [
     {
-     "id": "B1U36C23",
+     "id": "B1U36C24",
      "options": [
       {
        "id": "1",
-       "text": "as"
+       "text": "like"
       },
       {
        "id": "2",
@@ -20310,7 +23069,7 @@
       },
       {
        "id": "3",
-       "text": "like"
+       "text": "as"
       },
       {
        "id": "4",
@@ -20328,14 +23087,14 @@
    }
   },
   {
-   "id": "B1U36C24",
+   "id": "B1U36C25",
    "skill": "reading",
    "type": "read_cloze",
    "title_vi": "Giới từ theo sau · Unit 36",
    "instruction_vi": "Chọn từ đúng cho chỗ trống.",
    "questions": [
     {
-     "id": "B1U36C24",
+     "id": "B1U36C25",
      "options": [
       {
        "id": "1",
@@ -20365,43 +23124,6 @@
    }
   },
   {
-   "id": "B1U36C25",
-   "skill": "reading",
-   "type": "read_cloze",
-   "title_vi": "Giới từ theo sau · Unit 36",
-   "instruction_vi": "Chọn từ đúng cho chỗ trống.",
-   "questions": [
-    {
-     "id": "B1U36C25",
-     "options": [
-      {
-       "id": "1",
-       "text": "like"
-      },
-      {
-       "id": "2",
-       "text": "to"
-      },
-      {
-       "id": "3",
-       "text": "out"
-      },
-      {
-       "id": "4",
-       "text": "under"
-      }
-     ],
-     "answer": "2",
-     "explanation_vi": "`happen to`: xảy ra với.",
-     "tags": []
-    }
-   ],
-   "stimulus": {
-    "kind": "cloze",
-    "text": "What happened ( ) your phone?"
-   }
-  },
-  {
    "id": "B1U36C26",
    "skill": "reading",
    "type": "read_cloze",
@@ -20413,7 +23135,44 @@
      "options": [
       {
        "id": "1",
-       "text": "with"
+       "text": "like"
+      },
+      {
+       "id": "2",
+       "text": "under"
+      },
+      {
+       "id": "3",
+       "text": "to"
+      },
+      {
+       "id": "4",
+       "text": "out"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "`happen to`: xảy ra với.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "What happened ( ) your phone?"
+   }
+  },
+  {
+   "id": "B1U36C27",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Giới từ theo sau · Unit 36",
+   "instruction_vi": "Chọn từ đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "B1U36C27",
+     "options": [
+      {
+       "id": "1",
+       "text": "about"
       },
       {
        "id": "2",
@@ -20421,14 +23180,14 @@
       },
       {
        "id": "3",
-       "text": "about"
+       "text": "with"
       },
       {
        "id": "4",
        "text": "on"
       }
      ],
-     "answer": "3",
+     "answer": "1",
      "explanation_vi": "`worry about`: lo lắng về.",
      "tags": []
     }
@@ -20437,6 +23196,82 @@
     "kind": "cloze",
     "text": "Do not worry ( ) the test."
    }
+  },
+  {
+   "id": "B1U36R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 36 · Protecting a forest",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Cuc Phuong is one of the oldest national parks in Vietnam. Its forest is home to many rare species, including several that are in danger of becoming extinct. In the past, local people cut down trees and hunted wild animals. Today many of them work as guides and help to preserve the wildlife. Visitors are asked not to drop litter and to stay on the paths. The climate is mild, and spring is the best time to visit."
+   },
+   "questions": [
+    {
+     "id": "B1U36R1a",
+     "prompt_ko": "What do many local people do now?",
+     "options": [
+      {
+       "id": "1",
+       "text": "Work as guides"
+      },
+      {
+       "id": "2",
+       "text": "Cut down trees"
+      },
+      {
+       "id": "3",
+       "text": "Hunt animals"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"many of them work as guides\".",
+     "tags": []
+    },
+    {
+     "id": "B1U36R1b",
+     "prompt_ko": "All the species in the park are safe.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Một số có nguy cơ tuyệt chủng.",
+     "tags": []
+    },
+    {
+     "id": "B1U36R1c",
+     "prompt_ko": "Summer is the best time to visit.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"spring is the best time\".",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U37Q1",
@@ -20661,6 +23496,82 @@
    }
   },
   {
+   "id": "B1U37R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 37 · Learning to cook",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "I decided to learn to cook when I moved away from home. At first I avoided making anything difficult, and I kept burning the rice. A friend suggested watching short videos, and that helped. Now I enjoy cooking for other people, although I still cannot stand washing up. My mother never let me help in the kitchen; she wanted me to study. I regret not learning earlier, but I hope to teach my own children."
+   },
+   "questions": [
+    {
+     "id": "B1U37R1a",
+     "prompt_ko": "What helped the writer learn?",
+     "options": [
+      {
+       "id": "1",
+       "text": "Watching short videos"
+      },
+      {
+       "id": "2",
+       "text": "The writer's mother"
+      },
+      {
+       "id": "3",
+       "text": "A cooking class"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"A friend suggested watching short videos, and that helped.\"",
+     "tags": []
+    },
+    {
+     "id": "B1U37R1b",
+     "prompt_ko": "The writer likes washing up.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"cannot stand washing up\".",
+     "tags": []
+    },
+    {
+     "id": "B1U37R1c",
+     "prompt_ko": "The writer's mother taught him or her to cook.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"never let me help in the kitchen\".",
+     "tags": []
+    }
+   ]
+  },
+  {
    "id": "B1U38Q1",
    "skill": "reading",
    "type": "read_cloze",
@@ -20844,6 +23755,82 @@
     "kind": "cloze",
     "text": "Neither Lan ( ) Mai came to class."
    }
+  },
+  {
+   "id": "B1U38R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 38 · Two brothers",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Both Hung and his brother Dung work in Ho Chi Minh City, but neither of them was born there. Hung does not like the heat, and neither does Dung. Both of them miss their mother's cooking. Hung is an engineer, and so is his wife. Dung has not married yet. Either Hung or Dung goes home every month, so their parents are never alone for long."
+   },
+   "questions": [
+    {
+     "id": "B1U38R1a",
+     "prompt_ko": "Who was born in Ho Chi Minh City?",
+     "options": [
+      {
+       "id": "1",
+       "text": "Neither brother"
+      },
+      {
+       "id": "2",
+       "text": "Both brothers"
+      },
+      {
+       "id": "3",
+       "text": "Only Hung"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"neither of them was born there\".",
+     "tags": []
+    },
+    {
+     "id": "B1U38R1b",
+     "prompt_ko": "Hung's wife is an engineer.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "\"Hung is an engineer, and so is his wife.\"",
+     "tags": []
+    },
+    {
+     "id": "B1U38R1c",
+     "prompt_ko": "Dung likes hot weather.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"neither does Dung\".",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U39M1",
@@ -21214,7 +24201,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`calm down`: bình tĩnh lại.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: bình tĩnh lại"
     }
    ],
    "stimulus": {
@@ -21251,7 +24239,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`cheer up`: vui lên; làm ai vui lên.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: vui lên; làm ai vui lên"
     }
    ],
    "stimulus": {
@@ -21288,7 +24277,8 @@
      ],
      "answer": "4",
      "explanation_vi": "`shut up`: im đi (thô).",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: im đi (thô)"
     }
    ],
    "stimulus": {
@@ -21325,7 +24315,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`get on (with)`: hòa hợp với.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: hòa hợp với"
     }
    ],
    "stimulus": {
@@ -21362,7 +24353,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`try on`: mặc thử.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: mặc thử"
     }
    ],
    "stimulus": {
@@ -21678,7 +24670,7 @@
      "options": [
       {
        "id": "1",
-       "text": "by"
+       "text": "against"
       },
       {
        "id": "2",
@@ -21686,11 +24678,11 @@
       },
       {
        "id": "3",
-       "text": "about"
+       "text": "between"
       },
       {
        "id": "4",
-       "text": "against"
+       "text": "about"
       }
      ],
      "answer": "2",
@@ -21826,15 +24818,15 @@
      "options": [
       {
        "id": "1",
-       "text": "of"
+       "text": "in"
       },
       {
        "id": "2",
-       "text": "to"
+       "text": "as"
       },
       {
        "id": "3",
-       "text": "in"
+       "text": "to"
       },
       {
        "id": "4",
@@ -21998,6 +24990,82 @@
     "kind": "cloze",
     "text": "I am scared ( ) heights."
    }
+  },
+  {
+   "id": "B1U39R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 39 · Why we laugh",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "People laugh far more often with others than alone. Researchers say that laughter is less a reaction to a joke than a way of showing that we feel safe with someone. That may explain why an embarrassing moment becomes amusing when we tell it to friends. A sense of humour also helps people stay calm under stress. Children who are bullied, one study found, often use jokes to change a bad mood."
+   },
+   "questions": [
+    {
+     "id": "B1U39R1a",
+     "prompt_ko": "According to researchers, what does laughter mainly show?",
+     "options": [
+      {
+       "id": "1",
+       "text": "That we are nervous"
+      },
+      {
+       "id": "2",
+       "text": "That a joke is good"
+      },
+      {
+       "id": "3",
+       "text": "That we feel safe with someone"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Theo câu thứ hai.",
+     "tags": []
+    },
+    {
+     "id": "B1U39R1b",
+     "prompt_ko": "People laugh more when they are alone.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Ngược lại.",
+     "tags": []
+    },
+    {
+     "id": "B1U39R1c",
+     "prompt_ko": "Humour can help people stay calm.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đúng theo bài.",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U40Q1",
@@ -22222,6 +25290,82 @@
    }
   },
   {
+   "id": "B1U40R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 40 · Working from home",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Although working from home saves time, it is not right for everyone. Many people enjoy it because they do not have to travel. However, some feel lonely, and others cannot concentrate because of noise. Despite these problems, most companies plan to continue. One manager says she will keep the system as long as results are good. She meets her team online every morning so that nobody feels forgotten."
+   },
+   "questions": [
+    {
+     "id": "B1U40R1a",
+     "prompt_ko": "Why does the manager meet her team every morning?",
+     "options": [
+      {
+       "id": "1",
+       "text": "Because the office is closed"
+      },
+      {
+       "id": "2",
+       "text": "So that nobody feels forgotten"
+      },
+      {
+       "id": "3",
+       "text": "To check their hours"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Mệnh đề mục đích \"so that\".",
+     "tags": []
+    },
+    {
+     "id": "B1U40R1b",
+     "prompt_ko": "Working from home suits everyone.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"it is not right for everyone\".",
+     "tags": []
+    },
+    {
+     "id": "B1U40R1c",
+     "prompt_ko": "Most companies plan to stop working from home.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"plan to continue\".",
+     "tags": []
+    }
+   ]
+  },
+  {
    "id": "B1U41Q1",
    "skill": "reading",
    "type": "read_cloze",
@@ -22405,6 +25549,82 @@
     "kind": "cloze",
     "text": "Where can I get my passport photo ( )?"
    }
+  },
+  {
+   "id": "B1U41R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 41 · A busy Saturday",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Last Saturday Mrs Lien did not do anything herself. In the morning she had her hair cut and her nails done. While she was out, she had the car washed. At lunchtime she had a meal delivered. In the afternoon she got her phone repaired and had new curtains put up. Her husband asked whether she had also had her homework done. \"No,\" she said. \"That is the one thing I still do myself.\""
+   },
+   "questions": [
+    {
+     "id": "B1U41R1a",
+     "prompt_ko": "What did Mrs Lien do herself?",
+     "options": [
+      {
+       "id": "1",
+       "text": "Wash the car"
+      },
+      {
+       "id": "2",
+       "text": "Her homework"
+      },
+      {
+       "id": "3",
+       "text": "Cut her hair"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Câu cuối.",
+     "tags": []
+    },
+    {
+     "id": "B1U41R1b",
+     "prompt_ko": "She cooked lunch at home.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"had a meal delivered\".",
+     "tags": []
+    },
+    {
+     "id": "B1U41R1c",
+     "prompt_ko": "She had her phone repaired in the afternoon.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đúng theo bài.",
+     "tags": []
+    }
+   ]
   },
   {
    "id": "B1U42M1",
@@ -22775,7 +25995,8 @@
      ],
      "answer": "2",
      "explanation_vi": "`point out`: chỉ ra.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: chỉ ra"
     }
    ],
    "stimulus": {
@@ -22812,7 +26033,8 @@
      ],
      "answer": "1",
      "explanation_vi": "`sort out`: giải quyết, sắp xếp ổn thỏa.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: giải quyết, sắp xếp ổn thỏa"
     }
    ],
    "stimulus": {
@@ -22849,7 +26071,8 @@
      ],
      "answer": "3",
      "explanation_vi": "`watch out`: coi chừng.",
-     "tags": []
+     "tags": [],
+     "prompt_vi": "Nghĩa cần diễn đạt: coi chừng"
     }
    ],
    "stimulus": {
@@ -23522,6 +26745,82 @@
     "kind": "cloze",
     "text": "I listen ( ) podcasts on the bus."
    }
+  },
+  {
+   "id": "B1U42R1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc · Unit 42 · The noise problem",
+   "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Residents of an old building complained about noise from a new cafe. The owner denied that the music was loud and claimed that nobody had warned him. After a long discussion, a sensible solution was found. The cafe agreed to close its windows after nine, and the residents agreed not to gossip about the owner. One woman still doubts that it will work, but most people are positive. The real cause, she says, is thin walls."
+   },
+   "questions": [
+    {
+     "id": "B1U42R1a",
+     "prompt_ko": "What did the cafe agree to do?",
+     "options": [
+      {
+       "id": "1",
+       "text": "Move to another street"
+      },
+      {
+       "id": "2",
+       "text": "Stop playing music"
+      },
+      {
+       "id": "3",
+       "text": "Close its windows after nine"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Theo bài.",
+     "tags": []
+    },
+    {
+     "id": "B1U42R1b",
+     "prompt_ko": "The owner accepted that the music was loud.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "\"denied that the music was loud\".",
+     "tags": []
+    },
+    {
+     "id": "B1U42R1c",
+     "prompt_ko": "Everyone believes the solution will work.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Một người vẫn nghi ngờ.",
+     "tags": []
+    }
+   ]
   }
  ]
 }

@@ -28,6 +28,23 @@ TOPIC = "Destination B1 · Lấy gốc"
 BOOK = "Destination B1 (Mann & Taylore-Knowles, Macmillan)"
 PREPS = ["about", "against", "at", "by", "for", "from", "in", "into", "of", "on", "to", "with", "under", "out", "as", "between", "like"]
 PARTICLES = ["up", "down", "off", "on", "out", "in", "away", "back", "over", "after", "across", "into", "with"]
+# prepositions that would also be acceptable English in the example sentence: never offered as a wrong option
+ALSO_OK = {
+    "care about": "for", "complain (to sb) about": "of", "know about": "of", "learn about": "of from", "think about": "of",
+    "talk (to sb) about": "of", "tell sb about": "of", "an idea about": "for of", "an opinion about/of": "on", "a question about": "on",
+    "comment on": "about", "information about": "on", "a book (by sb) about": "on", "write (to sb) about": "for", "work for": "at in with",
+    "translate (from sth) into": "to", "talented at": "in", "succeed in": "at", "send sth to sb": "for", "result in": "from",
+    "a relationship with": "to", "a reason for": "of", "popular with": "for", "pleased with": "about at", "nervous about": "of",
+    "look at": "for into like", "a letter (from sb) about": "to for", "laugh at": "about", "kind to": "with", "involved in": "with",
+    "inform sb about": "of", "an increase in": "of", "a game against": "with", "frightened of": "by", "fight against": "with for",
+    "fed up with": "of", "familiar with": "to", "embarrassed about": "by", "disappointed with": "by in at about",
+    "a difference between": "in", "congratulate sb on": "for", "choose between": "from", "cheat at/in": "on", "change sth (from sth) into": "to",
+    "careful with": "about", "bored with": "of by", "begin sth with": "by", "angry (with sb) about": "at", "an advantage of": "to in",
+    "on the news": "in", "in the corner (of)": "at on", "at the top (of)": "on", "on the coast": "by at", "at the bottom (of)": "on in",
+    "in the beginning": "at", "at the back (of)": "in", "at risk": "in under", "on business": "for", "in cash": "by with",
+    "in comparison to/with": "by", "for sale": "on", "by email/phone/letter": "in", "in time (for)": "on", "on time": "in",
+    "in the end": "at", "at the end (of)": "in", "on stage": "at", "in the distance": "at from",
+}
 LABEL = {"N": "danh từ", "P": "danh từ chỉ người", "A": "tính từ", "D": "trạng từ", "V": "động từ", "X": "dạng trái nghĩa",
          "2": "quá khứ đơn", "3": "quá khứ phân từ"}
 
@@ -152,6 +169,52 @@ def parse_wf() -> dict[str, dict]:
     return out
 
 
+def parse_skills() -> dict[int, dict]:
+    out: dict[int, dict] = {}
+    cur = None
+    for ln in lines("skills.txt"):
+        if ln.startswith("#U "):
+            cur = {"q": []}
+            out[int(ln[3:])] = cur
+        elif ln.startswith("R: "):
+            cur["title"], cur["text"] = [x.strip() for x in ln[3:].split(" | ", 1)]
+        elif ln.startswith("RQ: "):
+            q, right, w1, w2, why = [x.strip() for x in ln[4:].split(" | ")]
+            cur["q"].append({"q": q, "options": [right, w1, w2], "why": why})
+        elif ln.startswith("W: "):
+            cur["w"] = dict(zip(("en", "vi", "model"), [x.strip() for x in ln[3:].split(" | ")]))
+    return out
+
+
+TFNG = ["True", "False", "Not Given"]
+
+
+def reading_task(ex_id: str, n: int, sk: dict) -> dict:
+    """A short passage with three questions in exam form (one choice question, two True/False/Not Given)."""
+    questions = []
+    for i, q in enumerate(sk["q"], 1):
+        qid = f"{ex_id}{'abc'[i - 1]}"
+        if set(q["options"]) == set(TFNG):
+            order = TFNG
+        else:
+            order = q["options"][:]
+            rng(qid).shuffle(order)
+        questions.append({"id": qid, "prompt_ko": q["q"], "options": [{"id": str(j + 1), "text": t} for j, t in enumerate(order)],
+                          "answer": str(order.index(q["options"][0]) + 1), "explanation_vi": q["why"], "tags": []})
+    return {"id": ex_id, "skill": "reading", "type": "read_passage", "title_vi": f"Đọc · Unit {n} · {sk['title']}"[:70],
+            "instruction_vi": "Đọc một lượt để nắm ý chính, gạch từ khóa của từng câu, rồi mới trả lời. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+            "stimulus": {"kind": "passage", "text": sk["text"]}, "questions": questions}
+
+
+def writing_task(ex_id: str, n: int, sk: dict) -> dict:
+    w = sk["w"]
+    return {"id": ex_id, "skill": "writing", "type": "write_essay", "number": "W1", "title_vi": f"Viết đoạn ngắn · Unit {n}", "points": 10,
+            "instruction_vi": w["vi"], "limits": {"min": 150, "max": 600}, "prompt_ko": w["en"],
+            "framework_vi": ["Câu 1: nêu thẳng ý chính (câu chủ đề).", "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.", "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."],
+            "model_answer_ko": w["model"], "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
+            "checklist_vi": ["Mỗi câu có đủ chủ ngữ và động từ đã chia.", "Danh từ đếm được số ít có a/an/the; ngôi thứ ba số ít có -s.", "Dùng ít nhất một cấu trúc hoặc ba từ của Unit này.", "Đọc to lại một lần để soát lỗi."]}
+
+
 # -------------------------------------------------------------- exercises --
 def mcq(ex_id: str, title: str, cloze: str | None, prompt_vi: str | None, options: list[str], why: str, instruction: str) -> dict:
     """One multiple-choice exercise; `options[0]` is the right answer, shown in a fixed shuffled order."""
@@ -260,6 +323,20 @@ def goal_note(u: dict, vocab_unit: bool) -> dict:
         "• 🗣️ Kết thúc bằng phần Nói: tự nói, ghi âm, nghe lại, sửa một lỗi rồi nói lần hai."
     )
     return {"title": "Mục tiêu của bài", "body": body, "kind": "goal"}
+
+
+def add_skills(lesson: dict, bank: dict[str, list[dict]], n: int, sk: dict | None) -> None:
+    """The unit's reading and writing: after the cards' own questions, closing the last sitting."""
+    if not sk:
+        return
+    r = reading_task(f"B1U{n:02d}R1", n, sk)
+    w = writing_task(f"B1U{n:02d}W1", n, sk)
+    bank["reading"].append(r)
+    bank.setdefault("writing", []).append(w)
+    speak_id = f"B1U{n:02d}S1"
+    for seq in (lesson["exercise_ids"], lesson["sessions"][-1]["check"]):
+        at = seq.index(speak_id) if speak_id in seq else len(seq)
+        seq[at:at] = [r["id"], w["id"]]
 
 
 def grammar_lesson(u: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]]:
@@ -385,10 +462,12 @@ def vocab_lesson(u: dict, topic: list[dict], trays: dict[str, list[dict]], unver
         for it in trays[kind]:
             k += 1
             text, answer = gap(it["en"])
-            avoid = {a.lower() for a in alternatives(it["head"])} | {answer.lower()}
+            avoid = {a.lower() for a in alternatives(it["head"])} | {answer.lower()} | set(ALSO_OK.get(it["head"], "").split())
             wrong = [p for p in rng(pid + it["head"]).sample(pool, len(pool)) if p not in avoid][:3]
             shown = [w.capitalize() if answer[0].isupper() else w for w in wrong]
-            ex = mcq(f"{pid}C{k}", f"{label} · Unit {n}", text, None, [answer, *shown], f"`{it['head']}`: {it['meaning']}.",
+            # several particles make a real phrasal verb with the same verb, so the meaning wanted is given
+            hint = f"Nghĩa cần diễn đạt: {it['meaning']}" if kind == "PV" else None
+            ex = mcq(f"{pid}C{k}", f"{label} · Unit {n}", text, hint, [answer, *shown], f"`{it['head']}`: {it['meaning']}.",
                      "Chọn từ đúng cho chỗ trống.")
             bank["reading"].append(ex)
             cloze_ids[it["head"]] = ex["id"]
@@ -472,6 +551,11 @@ GUIDES = {
     "reading": [{"title_vi": "Cách làm", "body_vi": "Đọc cả câu trước khi nhìn phương án. Với câu về giới từ, hãy tự nhẩm đáp án rồi mới đối chiếu. Sai câu nào, mở lại thẻ của câu đó."}],
     "build": [{"title_vi": "Cách làm", "body_vi": "Xếp câu trước, gõ câu sau. Khi gõ sai, đọc phần giải thích rồi tự viết thêm một câu của chính bạn với cùng cấu trúc."}],
     "listening": [{"title_vi": "Cách làm", "body_vi": "Nghe hết một lượt không dừng, lượt hai mới gõ. Sau khi xem đáp án, đọc đuổi theo băng hai lần."}],
+    "writing": [{"title_vi": "Cách viết một đoạn", "bullets_vi": [
+        "Nghĩ bằng tiếng Việt trước: ý chính là gì, vì sao, ví dụ nào.",
+        "Viết câu đơn đúng trước, rồi mới nối thành câu ghép (and, but, so) và câu phức (because, although, when).",
+        "Mạch của đoạn: khái quát → chi tiết → rất cụ thể → khái quát lại.",
+    ]}],
     "speaking": [{
         "title_vi": "Bốn mức chuẩn bị",
         "bullets_vi": [
@@ -495,8 +579,9 @@ def main() -> None:
     BANK.mkdir(parents=True, exist_ok=True)
     for old in LESSONS.glob("b1-*.json"):
         old.unlink()
-    bank: dict[str, list[dict]] = {"reading": [], "build": [], "speaking": [], "listening": []}
+    bank: dict[str, list[dict]] = {"reading": [], "build": [], "speaking": [], "listening": [], "writing": []}
     links: dict[str, list[str]] = {}
+    skills = parse_skills()
     count = {"lessons": 0, "words": 0, "cards": 0, "exercises": 0, "sittings": 0}
     for n in range(1, 43):
         if n in grammar:
@@ -506,8 +591,9 @@ def main() -> None:
             trays = {k: [sources[k][h] for h, u in assign["by_kind"][k].items() if u == n] for k in sources}
             flagged = [h for k in sources for h in assign["unverified"].get(k, []) if assign["by_kind"][k][h] == n]
             lesson, b = vocab_lesson(vocab_units[n], topic[n], trays, flagged)
+        add_skills(lesson, b, n, skills.get(n))
         for k in bank:
-            bank[k] += b[k]
+            bank[k] += b.get(k, [])
         (LESSONS / f"{lesson['slug']}.json").write_text(json.dumps(lesson, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         count["lessons"] += 1
         count["words"] += len(lesson["vocab"])

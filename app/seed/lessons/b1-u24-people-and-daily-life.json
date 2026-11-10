@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 24,
- "summary": "Nói về xã hội, cộng đồng, luật pháp và thói quen; phân biệt rob và steal. 30 từ chủ đề, 8 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 13 họ từ.",
+ "summary": "Nói về xã hội, cộng đồng, luật pháp và thói quen; phân biệt rob và steal. 30 từ chủ đề, 8 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 12 họ từ.",
  "vocab": [
   {
    "hangul": "admit",
@@ -546,15 +546,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103; word formation pp. 212–216"
   },
   {
-   "hangul": "free",
-   "pos": "A",
-   "meaning_vi": "tự do; miễn phí",
-   "note_vi": "Họ từ: `freedom` (danh từ)",
-   "family": "5 · Word formation",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 24, pp. 100-103; word formation pp. 212–216"
-  },
-  {
    "hangul": "identify",
    "pos": "V",
    "meaning_vi": "nhận dạng",
@@ -689,6 +680,8 @@
   "B1U24F7",
   "B1U24F8",
   "B1U24D1",
+  "B1U24R1",
+  "B1U24W1",
   "B1U24S1"
  ],
  "sessions": [
@@ -827,7 +820,6 @@
     "courage",
     "elect",
     "equal",
-    "free",
     "identify",
     "invade",
     "judge",
@@ -846,6 +838,8 @@
     "B1U24F7",
     "B1U24F8",
     "B1U24D1",
+    "B1U24R1",
+    "B1U24W1",
     "B1U24S1"
    ]
   }
@@ -857,7 +851,7 @@
   },
   {
    "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: free, identify, invade, judge, life."
+   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: identify, invade, judge, life."
   }
  ]
 }

@@ -423,15 +423,15 @@
    "title_vi": "Biến đổi từ loại · Unit 3",
    "points": 3,
    "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
-   "text": "Dạng tính từ của «luck» là ( ㉠ ).",
+   "text": "Dạng tính từ của «music» là ( ㉠ ).",
    "blanks": [
     {
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "lucky"
+      "musical"
      ],
-     "common_errors_vi": "`luck` → `lucky` (tính từ)."
+     "common_errors_vi": "`music` → `musical` (tính từ)."
     }
    ],
    "tips_vi": []
@@ -445,15 +445,15 @@
    "title_vi": "Biến đổi từ loại · Unit 3",
    "points": 3,
    "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
-   "text": "Dạng tính từ của «music» là ( ㉠ ).",
+   "text": "Dạng danh từ chỉ người của «play» là ( ㉠ ).",
    "blanks": [
     {
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "musical"
+      "player"
      ],
-     "common_errors_vi": "`music` → `musical` (tính từ)."
+     "common_errors_vi": "`play` → `player` (danh từ chỉ người)."
     }
    ],
    "tips_vi": []
@@ -745,28 +745,6 @@
    "title_vi": "Biến đổi từ loại · Unit 6",
    "points": 3,
    "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
-   "text": "Dạng danh từ chỉ người của «advice» là ( ㉠ ).",
-   "blanks": [
-    {
-     "id": "㉠",
-     "points": 3,
-     "accepted": [
-      "adviser"
-     ],
-     "common_errors_vi": "`advice` → `adviser` (danh từ chỉ người)."
-    }
-   ],
-   "tips_vi": []
-  },
-  {
-   "id": "B1U06F2",
-   "skill": "build",
-   "type": "write_fill",
-   "rung": 2,
-   "number": "Bước 2",
-   "title_vi": "Biến đổi từ loại · Unit 6",
-   "points": 3,
-   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
    "text": "Dạng danh từ chỉ người của «begin» là ( ㉠ ).",
    "blanks": [
     {
@@ -781,7 +759,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U06F3",
+   "id": "B1U06F2",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -803,7 +781,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U06F4",
+   "id": "B1U06F3",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -825,7 +803,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U06F5",
+   "id": "B1U06F4",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -847,7 +825,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U06F6",
+   "id": "B1U06F5",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -869,29 +847,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U06F7",
-   "skill": "build",
-   "type": "write_fill",
-   "rung": 2,
-   "number": "Bước 2",
-   "title_vi": "Biến đổi từ loại · Unit 6",
-   "points": 3,
-   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
-   "text": "Dạng danh từ của «except» là ( ㉠ ).",
-   "blanks": [
-    {
-     "id": "㉠",
-     "points": 3,
-     "accepted": [
-      "exception"
-     ],
-     "common_errors_vi": "`except` → `exception` (danh từ)."
-    }
-   ],
-   "tips_vi": []
-  },
-  {
-   "id": "B1U06F8",
+   "id": "B1U06F6",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -908,6 +864,50 @@
       "instruction"
      ],
      "common_errors_vi": "`instruct` → `instruction` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U06F7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 6",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «memory» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "memorial"
+     ],
+     "common_errors_vi": "`memory` → `memorial` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U06F8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 6",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «refer» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "reference"
+     ],
+     "common_errors_vi": "`refer` → `reference` (danh từ)."
     }
    ],
    "tips_vi": []
@@ -2577,28 +2577,6 @@
    "title_vi": "Biến đổi từ loại · Unit 18",
    "points": 3,
    "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
-   "text": "Dạng tính từ của «break» là ( ㉠ ).",
-   "blanks": [
-    {
-     "id": "㉠",
-     "points": 3,
-     "accepted": [
-      "breakable"
-     ],
-     "common_errors_vi": "`break` → `breakable` (tính từ)."
-    }
-   ],
-   "tips_vi": []
-  },
-  {
-   "id": "B1U18F3",
-   "skill": "build",
-   "type": "write_fill",
-   "rung": 2,
-   "number": "Bước 2",
-   "title_vi": "Biến đổi từ loại · Unit 18",
-   "points": 3,
-   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
    "text": "Dạng danh từ của «chemist» là ( ㉠ ).",
    "blanks": [
     {
@@ -2613,7 +2591,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U18F4",
+   "id": "B1U18F3",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -2635,7 +2613,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U18F5",
+   "id": "B1U18F4",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -2657,7 +2635,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U18F6",
+   "id": "B1U18F5",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -2679,7 +2657,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U18F7",
+   "id": "B1U18F6",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -2701,7 +2679,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U18F8",
+   "id": "B1U18F7",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -2718,6 +2696,28 @@
       "length"
      ],
      "common_errors_vi": "`long` → `length` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U18F8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 18",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «measure» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "measurement"
+     ],
+     "common_errors_vi": "`measure` → `measurement` (danh từ)."
     }
    ],
    "tips_vi": []
@@ -3539,28 +3539,6 @@
    "title_vi": "Biến đổi từ loại · Unit 24",
    "points": 3,
    "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
-   "text": "Dạng danh từ của «free» là ( ㉠ ).",
-   "blanks": [
-    {
-     "id": "㉠",
-     "points": 3,
-     "accepted": [
-      "freedom"
-     ],
-     "common_errors_vi": "`free` → `freedom` (danh từ)."
-    }
-   ],
-   "tips_vi": []
-  },
-  {
-   "id": "B1U24F6",
-   "skill": "build",
-   "type": "write_fill",
-   "rung": 2,
-   "number": "Bước 2",
-   "title_vi": "Biến đổi từ loại · Unit 24",
-   "points": 3,
-   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
    "text": "Dạng danh từ của «identify» là ( ㉠ ).",
    "blanks": [
     {
@@ -3575,7 +3553,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U24F7",
+   "id": "B1U24F6",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -3597,7 +3575,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U24F8",
+   "id": "B1U24F7",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -3614,6 +3592,28 @@
       "judgement"
      ],
      "common_errors_vi": "`judge` → `judgement` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U24F8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 24",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «life» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "alive"
+     ],
+     "common_errors_vi": "`life` → `alive` (tính từ)."
     }
    ],
    "tips_vi": []
@@ -4831,15 +4831,15 @@
    "title_vi": "Biến đổi từ loại · Unit 33",
    "points": 3,
    "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
-   "text": "Dạng tính từ của «circle» là ( ㉠ ).",
+   "text": "Dạng tính từ của «break» là ( ㉠ ).",
    "blanks": [
     {
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "circular"
+      "breakable"
      ],
-     "common_errors_vi": "`circle` → `circular` (tính từ)."
+     "common_errors_vi": "`break` → `breakable` (tính từ)."
     }
    ],
    "tips_vi": []
@@ -4897,6 +4897,28 @@
    "title_vi": "Biến đổi từ loại · Unit 33",
    "points": 3,
    "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «free» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "freedom"
+     ],
+     "common_errors_vi": "`free` → `freedom` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U33F6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 33",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
    "text": "Dạng danh từ của «hand» là ( ㉠ ).",
    "blanks": [
     {
@@ -4911,7 +4933,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U33F6",
+   "id": "B1U33F7",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -4933,7 +4955,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U33F7",
+   "id": "B1U33F8",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -4941,15 +4963,15 @@
    "title_vi": "Biến đổi từ loại · Unit 33",
    "points": 3,
    "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
-   "text": "Dạng danh từ của «perfect» là ( ㉠ ).",
+   "text": "Dạng danh từ của «intelligent» là ( ㉠ ).",
    "blanks": [
     {
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "perfection"
+      "intelligence"
      ],
-     "common_errors_vi": "`perfect` → `perfection` (danh từ)."
+     "common_errors_vi": "`intelligent` → `intelligence` (danh từ)."
     }
    ],
    "tips_vi": []
@@ -5243,6 +5265,28 @@
    "title_vi": "Biến đổi từ loại · Unit 36",
    "points": 3,
    "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «circle» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "circular"
+     ],
+     "common_errors_vi": "`circle` → `circular` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U36F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 36",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
    "text": "Dạng tính từ của «danger» là ( ㉠ ).",
    "blanks": [
     {
@@ -5257,7 +5301,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U36F2",
+   "id": "B1U36F3",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -5279,7 +5323,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U36F3",
+   "id": "B1U36F4",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -5301,7 +5345,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U36F4",
+   "id": "B1U36F5",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -5323,7 +5367,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U36F5",
+   "id": "B1U36F6",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -5345,7 +5389,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U36F6",
+   "id": "B1U36F7",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -5367,7 +5411,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U36F7",
+   "id": "B1U36F8",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -5718,28 +5762,6 @@
    "title_vi": "Biến đổi từ loại · Unit 39",
    "points": 3,
    "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
-   "text": "Dạng tính từ của «confuse» là ( ㉠ ).",
-   "blanks": [
-    {
-     "id": "㉠",
-     "points": 3,
-     "accepted": [
-      "confused"
-     ],
-     "common_errors_vi": "`confuse` → `confused` (tính từ)."
-    }
-   ],
-   "tips_vi": []
-  },
-  {
-   "id": "B1U39F4",
-   "skill": "build",
-   "type": "write_fill",
-   "rung": 2,
-   "number": "Bước 2",
-   "title_vi": "Biến đổi từ loại · Unit 39",
-   "points": 3,
-   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
    "text": "Dạng tính từ của «energy» là ( ㉠ ).",
    "blanks": [
     {
@@ -5754,7 +5776,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U39F5",
+   "id": "B1U39F4",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -5776,7 +5798,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U39F6",
+   "id": "B1U39F5",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -5798,7 +5820,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U39F7",
+   "id": "B1U39F6",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -5820,7 +5842,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U39F8",
+   "id": "B1U39F7",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -5837,6 +5859,28 @@
       "hatred"
      ],
      "common_errors_vi": "`hate` → `hatred` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U39F8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 39",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «noise» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "noisy"
+     ],
+     "common_errors_vi": "`noise` → `noisy` (tính từ)."
     }
    ],
    "tips_vi": []
@@ -6129,6 +6173,116 @@
    "title_vi": "Biến đổi từ loại · Unit 42",
    "points": 3,
    "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ chỉ người của «advice» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "adviser"
+     ],
+     "common_errors_vi": "`advice` → `adviser` (danh từ chỉ người)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U42F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 42",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «confuse» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "confused"
+     ],
+     "common_errors_vi": "`confuse` → `confused` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U42F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 42",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng danh từ của «except» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "exception"
+     ],
+     "common_errors_vi": "`except` → `exception` (danh từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U42F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 42",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «help» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "helpful"
+     ],
+     "common_errors_vi": "`help` → `helpful` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U42F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 42",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Dạng tính từ của «luck» là ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "lucky"
+     ],
+     "common_errors_vi": "`luck` → `lucky` (tính từ)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "B1U42F6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Biến đổi từ loại · Unit 42",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
    "text": "Dạng danh từ của «prefer» là ( ㉠ ).",
    "blanks": [
     {
@@ -6143,7 +6297,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U42F2",
+   "id": "B1U42F7",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -6165,7 +6319,7 @@
    "tips_vi": []
   },
   {
-   "id": "B1U42F3",
+   "id": "B1U42F8",
    "skill": "build",
    "type": "write_fill",
    "rung": 2,
@@ -6182,28 +6336,6 @@
       "solution"
      ],
      "common_errors_vi": "`solve` → `solution` (danh từ)."
-    }
-   ],
-   "tips_vi": []
-  },
-  {
-   "id": "B1U42F4",
-   "skill": "build",
-   "type": "write_fill",
-   "rung": 2,
-   "number": "Bước 2",
-   "title_vi": "Biến đổi từ loại · Unit 42",
-   "points": 3,
-   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
-   "text": "Dạng danh từ của «suggest» là ( ㉠ ).",
-   "blanks": [
-    {
-     "id": "㉠",
-     "points": 3,
-     "accepted": [
-      "suggestion"
-     ],
-     "common_errors_vi": "`suggest` → `suggestion` (danh từ)."
     }
    ],
    "tips_vi": []

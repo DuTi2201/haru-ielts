@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 33,
- "summary": "Tả đồ vật, quần áo và công trình: chất liệu, hình dạng, kiểu dáng; phân biệt suit, fit và match. 30 từ chủ đề, 9 cụm động từ, 7 cụm giới từ, 13 mẫu giới từ, 7 họ từ.",
+ "summary": "Tả đồ vật, quần áo và công trình: chất liệu, hình dạng, kiểu dáng; phân biệt suit, fit và match. 30 từ chủ đề, 9 cụm động từ, 7 cụm giới từ, 13 mẫu giới từ, 10 họ từ.",
  "vocab": [
   {
    "hangul": "ancient",
@@ -548,10 +548,10 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139; word formation pp. 212–216"
   },
   {
-   "hangul": "circle",
-   "pos": "N",
-   "meaning_vi": "hình tròn",
-   "note_vi": "Họ từ: `circular` (tính từ)",
+   "hangul": "break",
+   "pos": "V",
+   "meaning_vi": "làm vỡ, làm hỏng",
+   "note_vi": "Họ từ: `broke` (quá khứ đơn), `broken` (quá khứ phân từ), `breakable` (tính từ), `unbreakable` (dạng trái nghĩa)",
    "family": "5 · Word formation",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139; word formation pp. 212–216"
@@ -575,6 +575,15 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139; word formation pp. 212–216"
   },
   {
+   "hangul": "free",
+   "pos": "A",
+   "meaning_vi": "tự do; miễn phí",
+   "note_vi": "Họ từ: `freedom` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139; word formation pp. 212–216"
+  },
+  {
    "hangul": "hand",
    "pos": "N",
    "meaning_vi": "bàn tay",
@@ -593,10 +602,28 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139; word formation pp. 212–216"
   },
   {
+   "hangul": "intelligent",
+   "pos": "A",
+   "meaning_vi": "thông minh",
+   "note_vi": "Họ từ: `intelligence` (danh từ)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139; word formation pp. 212–216"
+  },
+  {
    "hangul": "perfect",
    "pos": "A",
    "meaning_vi": "hoàn hảo",
    "note_vi": "Họ từ: `perfection` (danh từ), `imperfect` (dạng trái nghĩa)",
+   "family": "5 · Word formation",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139; word formation pp. 212–216"
+  },
+  {
+   "hangul": "prepare",
+   "pos": "V",
+   "meaning_vi": "chuẩn bị",
+   "note_vi": "Họ từ: `preparation` (danh từ)",
    "family": "5 · Word formation",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 33, pp. 136-139; word formation pp. 212–216"
@@ -674,7 +701,10 @@
   "B1U33F5",
   "B1U33F6",
   "B1U33F7",
+  "B1U33F8",
   "B1U33D1",
+  "B1U33R1",
+  "B1U33W1",
   "B1U33S1"
  ],
  "sessions": [
@@ -816,12 +846,15 @@
    "can_do_vi": "Sau buổi này bạn đổi được từ gốc sang danh từ, tính từ hoặc dạng trái nghĩa, và nói được một phút về chủ đề của Unit.",
    "vocab": [
     "art",
-    "circle",
+    "break",
     "compose",
     "exhibit",
+    "free",
     "hand",
     "imagine",
-    "perfect"
+    "intelligent",
+    "perfect",
+    "prepare"
    ],
    "check": [
     "B1U33F1",
@@ -831,7 +864,10 @@
     "B1U33F5",
     "B1U33F6",
     "B1U33F7",
+    "B1U33F8",
     "B1U33D1",
+    "B1U33R1",
+    "B1U33W1",
     "B1U33S1"
    ]
   }
@@ -843,7 +879,7 @@
   },
   {
    "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: at the back (of), in the corner (of), in fashion/style, out of fashion/style, in front (of), at the top (of), on top (of), circle, exhibit, hand, perfect."
+   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: in the corner (of), in fashion/style, out of fashion/style, in front (of), at the top (of), on top (of)."
   }
  ]
 }

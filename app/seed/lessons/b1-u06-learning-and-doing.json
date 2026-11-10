@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 3,
  "sort_order": 6,
- "summary": "Nói về việc học, thi cử và kỹ năng; phân biệt các cặp từ dễ nhầm (pass / take, experience đếm được và không đếm được). 30 từ chủ đề, 6 cụm động từ, 6 cụm giới từ, 12 mẫu giới từ, 14 họ từ.",
+ "summary": "Nói về việc học, thi cử và kỹ năng; phân biệt các cặp từ dễ nhầm (pass / take, experience đếm được và không đếm được). 30 từ chủ đề, 6 cụm động từ, 6 cụm giới từ, 13 mẫu giới từ, 10 họ từ.",
  "vocab": [
   {
    "hangul": "achieve",
@@ -409,6 +409,16 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
   },
   {
+   "hangul": "information about",
+   "pos": "X",
+   "meaning_vi": "thông tin về (không đếm được)",
+   "example_ko": "I need some information about the course.",
+   "example_vi": "Tôi cần một số thông tin về khóa học.",
+   "family": "4 · Word patterns",
+   "priority": "core",
+   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
+  },
+  {
    "hangul": "learn about",
    "pos": "X",
    "meaning_vi": "học về, tìm hiểu về",
@@ -489,15 +499,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27"
   },
   {
-   "hangul": "advice",
-   "pos": "N",
-   "meaning_vi": "lời khuyên (không đếm được)",
-   "note_vi": "Họ từ: `advise` (động từ), `adviser` (danh từ chỉ người)",
-   "family": "5 · Word formation",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word formation pp. 212–216"
-  },
-  {
    "hangul": "begin",
    "pos": "V",
    "meaning_vi": "bắt đầu",
@@ -543,15 +544,6 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word formation pp. 212–216"
   },
   {
-   "hangul": "except",
-   "pos": "X",
-   "meaning_vi": "ngoại trừ",
-   "note_vi": "Họ từ: `exception` (danh từ)",
-   "family": "5 · Word formation",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word formation pp. 212–216"
-  },
-  {
    "hangul": "instruct",
    "pos": "V",
    "meaning_vi": "hướng dẫn",
@@ -561,28 +553,10 @@
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word formation pp. 212–216"
   },
   {
-   "hangul": "intelligent",
-   "pos": "A",
-   "meaning_vi": "thông minh",
-   "note_vi": "Họ từ: `intelligence` (danh từ)",
-   "family": "5 · Word formation",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word formation pp. 212–216"
-  },
-  {
    "hangul": "memory",
    "pos": "N",
    "meaning_vi": "trí nhớ; ký ức",
    "note_vi": "Họ từ: `memorise` (động từ), `memorial` (danh từ)",
-   "family": "5 · Word formation",
-   "priority": "core",
-   "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word formation pp. 212–216"
-  },
-  {
-   "hangul": "prepare",
-   "pos": "V",
-   "meaning_vi": "chuẩn bị",
-   "note_vi": "Họ từ: `preparation` (danh từ)",
    "family": "5 · Word formation",
    "priority": "core",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 6, pp. 24-27; word formation pp. 212–216"
@@ -672,6 +646,7 @@
   "B1U06C22",
   "B1U06C23",
   "B1U06C24",
+  "B1U06C25",
   "B1U06B1",
   "B1U06B2",
   "B1U06B3",
@@ -684,6 +659,8 @@
   "B1U06F7",
   "B1U06F8",
   "B1U06D1",
+  "B1U06R1",
+  "B1U06W1",
   "B1U06S1"
  ],
  "sessions": [
@@ -786,6 +763,7 @@
     "cheat at/in",
     "confuse sth with",
     "cope with",
+    "information about",
     "learn about",
     "a question about",
     "succeed in",
@@ -807,24 +785,21 @@
     "B1U06C21",
     "B1U06C22",
     "B1U06C23",
-    "B1U06C24"
+    "B1U06C24",
+    "B1U06C25"
    ]
   },
   {
    "title_vi": "Biến đổi từ loại và phần Nói",
    "can_do_vi": "Sau buổi này bạn đổi được từ gốc sang danh từ, tính từ hoặc dạng trái nghĩa, và nói được một phút về chủ đề của Unit.",
    "vocab": [
-    "advice",
     "begin",
     "brave",
     "correct",
     "divide",
     "educate",
-    "except",
     "instruct",
-    "intelligent",
     "memory",
-    "prepare",
     "refer",
     "silent",
     "simple"
@@ -839,6 +814,8 @@
     "B1U06F7",
     "B1U06F8",
     "B1U06D1",
+    "B1U06R1",
+    "B1U06W1",
     "B1U06S1"
    ]
   }
@@ -850,7 +827,7 @@
   },
   {
    "title": "Cần đối chiếu với sách",
-   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: carry on, advice, except, intelligent, prepare."
+   "body": "Các mục sau được xếp vào Unit này theo chủ đề, chưa thấy trong trang của Unit: carry on."
   }
  ]
 }
