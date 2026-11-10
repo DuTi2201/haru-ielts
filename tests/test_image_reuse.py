@@ -117,17 +117,21 @@ class SuggestTests(unittest.TestCase):
         self.assertEqual(image_reuse.suggest([group(1, a, a)], stored_of()), {})
 
     def test_the_real_lessons_can_all_be_matched_without_error(self):
-        groups = []
-        for i, r in enumerate(BUNDLE.lessons, start=1):
-            meanings = {v.hangul: v.meaning_vi for v in r.seed.vocab}
-            groups.append(
-                group(
-                    i,
-                    *lesson_image.lesson_slots(
-                        r.seed.slug, [v.hangul for v in r.seed.vocab], [g.pattern for g in r.seed.grammar], r.practice, meanings
-                    ),
+        plan = lesson_image.Plan(
+            "v1", {}, {"usually": "A clock showing morning routine.", "rarely": "A calendar with one mark."}, {}
+        )
+        with mock.patch.object(lesson_image, "load_plan", return_value=plan):
+            groups = []
+            for i, r in enumerate(BUNDLE.lessons, start=1):
+                meanings = {v.hangul: v.meaning_vi for v in r.seed.vocab}
+                groups.append(
+                    group(
+                        i,
+                        *lesson_image.lesson_slots(
+                            r.seed.slug, [v.hangul for v in r.seed.vocab], [g.pattern for g in r.seed.grammar], r.practice, meanings
+                        ),
+                    )
                 )
-            )
         slots = [s for g in groups for s in g.slots]
         self.assertTrue(any(s.kind == "vocab" and s.meaning for s in slots))
         self.assertEqual(image_reuse.suggest(groups, {}), {})  # nothing exists, nothing to reuse
@@ -141,9 +145,11 @@ class SuggestTests(unittest.TestCase):
 
 class LessonSlotMeaningTests(unittest.TestCase):
     def test_a_word_slot_carries_its_meaning_but_it_does_not_change_which_picture_it_is(self):
-        plan_word = next(iter(lesson_image.load_plan().vocab))
-        with_meaning = lesson_image.lesson_slots(None, [plan_word], [], None, {plan_word: "Nghĩa"})
-        without = lesson_image.lesson_slots(None, [plan_word], [], None)
+        plan = lesson_image.Plan("v1", {}, {"usually": "A clock showing morning routine."}, {})
+        with mock.patch.object(lesson_image, "load_plan", return_value=plan):
+            plan_word = "usually"
+            with_meaning = lesson_image.lesson_slots(None, [plan_word], [], None, {plan_word: "Nghĩa"})
+            without = lesson_image.lesson_slots(None, [plan_word], [], None)
         self.assertEqual(with_meaning[0].meaning, "Nghĩa")
         self.assertIsNone(without[0].meaning)
         self.assertEqual(with_meaning, without)

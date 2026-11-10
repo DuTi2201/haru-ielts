@@ -14,8 +14,8 @@ from app.schemas import ExerciseAnswerRequest, MistakeUnderstoodRequest
 from app.services import lesson_seed, mistake_book
 
 BUNDLE = lesson_seed.load_all()
-GUIDED = [r for r in BUNDLE.lessons if r.seed.coach is not None]
-LESSON = next(r for r in BUNDLE.lessons if r.seed.slug == "sinh-hoat-01-buoi-sang")
+GUIDED = BUNDLE.lessons
+LESSON = BUNDLE.lessons[0]
 NOW = datetime(2026, 10, 11, 10, 0, tzinfo=timezone.utc)
 
 
@@ -26,7 +26,7 @@ def items(resolved=LESSON, **where):
 class EntryTests(unittest.TestCase):
     def test_every_question_of_the_guided_lessons_can_be_written_out(self):
         # whatever the learner got wrong, the book can say what the right answer was and why
-        self.assertEqual(len(GUIDED), 82)  # every lesson has a coach block
+        self.assertEqual(len(GUIDED), 42)
         for r in GUIDED:
             for ex in r.practice["items"]:
                 for qid in lesson_seed.question_ids(ex):
@@ -42,32 +42,41 @@ class EntryTests(unittest.TestCase):
                         self.assertTrue(e["explanation_vi"], (r.seed.slug, qid))
 
     def test_a_choice_shows_the_text_of_what_was_picked_and_of_the_right_option(self):
-        ex = items(type="listen_reply")[0]
+        ex = items(type="read_cloze")[0]
         q = ex["questions"][0]
         wrong = next(o for o in q["options"] if o["id"] != q["answer"])
         e = mistake_book.entry(ex, q["id"], wrong["id"])
         self.assertEqual((e["chosen_id"], e["chosen"]), (wrong["id"], wrong["text"]))
         right = next(o for o in q["options"] if o["id"] == q["answer"])
         self.assertEqual((e["correct_id"], e["correct"]), (q["answer"], [right["text"]]))
-        self.assertEqual(e["skill"], "Nghe")
+        self.assertEqual(e["skill"], "Đọc")
         self.assertEqual(e["explanation_vi"], q["explanation_vi"])
         self.assertEqual(e["grammar"], q["grammar"])
 
     def test_what_was_heard_is_shown_as_the_transcript_with_its_meaning(self):
-        ex = items(type="listen_reply")[0]
-        e = mistake_book.entry(ex, ex["questions"][0]["id"], "1")
+        ex = {
+            "id": "L1",
+            "skill": "listening",
+            "type": "listen_reply",
+            "title_vi": "Nghe",
+            "stimulus": {"kind": "audio", "turns": [{"speaker": "F", "text": "Hello", "vi": "Xin chào"}]},
+            "questions": [
+                {"id": "L1", "options": [{"id": "1", "text": "a"}, {"id": "2", "text": "b"}], "answer": "2", "explanation_vi": "e"}
+            ],
+        }
+        e = mistake_book.entry(ex, "L1", "1")
         self.assertEqual([c["text"] for c in e["context"]], [t["text"] for t in ex["stimulus"]["turns"]])
         self.assertTrue(all(c.get("vi") for c in e["context"]))
 
     def test_a_reading_passage_is_shown_but_kept_short(self):
-        ex = items(type="read_main_idea")[0]
+        ex = items(type="read_passage")[0]
         e = mistake_book.entry(ex, ex["questions"][0]["id"], "2")
         self.assertEqual(len(e["context"]), 1)
         self.assertLessEqual(len(e["context"][0]["text"]), mistake_book.MAX_CONTEXT_CHARS)
         self.assertEqual(e["skill"], "Đọc")
 
     def test_an_answer_that_is_not_an_option_is_kept_as_it_was(self):
-        ex = items(type="listen_reply")[0]
+        ex = items(type="read_cloze")[0]
         e = mistake_book.entry(ex, ex["questions"][0]["id"], "9")
         self.assertEqual((e["chosen_id"], e["chosen"]), ("9", "9"))
 
@@ -105,7 +114,7 @@ class EntryTests(unittest.TestCase):
             self.assertFalse(mistake_book.in_book(ex))
 
     def test_a_question_the_lesson_does_not_have_is_none(self):
-        ex = items(type="listen_reply")[0]
+        ex = items(type="read_cloze")[0]
         self.assertIsNone(mistake_book.entry(ex, "NOPE", "1"))
 
 
@@ -170,7 +179,7 @@ class BookEndpointTests(unittest.IsolatedAsyncioTestCase):
         return db
 
     def reply(self):
-        ex = items(type="listen_reply")[0]
+        ex = items(type="read_cloze")[0]
         return ex, ex["questions"][0]["id"]
 
     async def test_a_wrong_answer_is_listed_under_its_lesson_with_the_cards_and_where_they_are_taught(self):
@@ -187,7 +196,7 @@ class BookEndpointTests(unittest.IsolatedAsyncioTestCase):
         self.assertTrue(all(g.lesson_id is not None and g.pattern for g in m.grammar))
 
     async def test_a_mistake_marked_understood_goes_after_the_open_ones(self):
-        replies = items(type="listen_match")
+        replies = items(type="read_cloze")
         a, b = replies[0], replies[1]
         qa, qb = a["questions"][0]["id"], b["questions"][0]["id"]
         rows = [
@@ -236,7 +245,7 @@ class UnderstoodTests(unittest.IsolatedAsyncioTestCase):
     PROFILE = SimpleNamespace(id=uuid.UUID(int=5))
 
     async def test_marking_a_mistake_understood_sets_the_time_and_returns_the_book(self):
-        ex = items(type="listen_reply")[0]
+        ex = items(type="read_cloze")[0]
         qid = ex["questions"][0]["id"]
         row = result_row(ex, qid, "2")
         book_rows = [(row, lesson_row())]

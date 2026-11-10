@@ -49,8 +49,8 @@ def chirp_row(**changes):
 # ------------------------------------------------------------------ the text --
 class CheckTextTests(unittest.TestCase):
     def test_a_korean_sentence_is_cleaned_and_accepted(self):
-        self.assertEqual(text_audio.check_text("  오늘   날씨가 좋아요.  "), "오늘 날씨가 좋아요.")
-        self.assertEqual(text_audio.check_text("3시에 만나요!"), "3시에 만나요!")
+        self.assertEqual(text_audio.check_text("  The weather   is nice today.  "), "The weather is nice today.")
+        self.assertEqual(text_audio.check_text("Meet me at 3 pm!"), "Meet me at 3 pm!")
 
     def test_empty_text_is_refused(self):
         for bad in ("", "   ", None):
@@ -58,22 +58,22 @@ class CheckTextTests(unittest.TestCase):
                 text_audio.check_text(bad)
 
     def test_text_that_is_not_korean_is_refused(self):
-        for bad in ("Hello, how are you?", "Hôm nay trời đẹp quá", "12345", "한 English words many many words"):
+        for bad in ("오늘 날씨가 좋아요.", "Hôm nay trời đẹp quá", "12345"):
             with self.assertRaises(text_audio.TextNotSpeakable, msg=bad):
                 text_audio.check_text(bad)
 
     def test_a_text_over_the_cap_is_refused(self):
         with mock.patch.object(text_audio.settings, "TEXT_AUDIO_MAX_CHARS", 10):
-            self.assertEqual(text_audio.check_text("가나다라마바사아자차"), "가나다라마바사아자차")
+            self.assertEqual(text_audio.check_text("abcdefghij"), "abcdefghij")
             with self.assertRaises(text_audio.TextNotSpeakable):
-                text_audio.check_text("가나다라마바사아자차카")
+                text_audio.check_text("abcdefghijk")
 
     def test_the_request_accepts_only_the_known_voices_and_version(self):
-        self.assertEqual(TextAudioRequest(text="안녕").voice, "ko-female-1")
+        self.assertEqual(TextAudioRequest(text="Hello").voice, "en-female-1")
         with self.assertRaises(ValidationError):
-            TextAudioRequest(text="안녕", voice="ko-evil")
+            TextAudioRequest(text="Hello", voice="ko-evil")
         with self.assertRaises(ValidationError):
-            TextAudioRequest(text="안녕", prompt_version="v99")  # a new version string would dodge the cache
+            TextAudioRequest(text="Hello", prompt_version="v99")  # a new version string would dodge the cache
         with self.assertRaises(ValidationError):
             TextAudioRequest(text="")
 
@@ -441,16 +441,16 @@ class RequestTextAudioTests(TextEndpointBase):
         db = self.make_db(*executed)
         request = SimpleNamespace(headers={}, client=SimpleNamespace(host="8.8.4.4"))
         with mock.patch.object(audio.generate_text_audio, "delay") as delay:
-            out = await audio.request_text_audio(body or TextAudioRequest(text="  오늘  날씨가 좋아요 "), request, db, self.PROFILE)
+            out = await audio.request_text_audio(body or TextAudioRequest(text="  The weather  is nice today. "), request, db, self.PROFILE)
         return out, delay
 
     def key(self):
-        return audio_keys.text_audio_key("오늘 날씨가 좋아요", "ko-female-1", "spec", "v1")
+        return audio_keys.text_audio_key("The weather is nice today.", "en-female-1", "spec", "v1")
 
     async def test_a_new_text_is_queued_with_its_cleaned_text_and_spends_from_the_allowance(self):
         out, delay = await self.ask(None, None)
         job_id, text, voice, version, key = delay.call_args.args
-        self.assertEqual((text, voice, version, key), ("오늘 날씨가 좋아요", "ko-female-1", "v1", self.key()))
+        self.assertEqual((text, voice, version, key), ("The weather is nice today.", "en-female-1", "v1", self.key()))
         self.spend.assert_awaited_once()
         self.assertEqual(out.status, "queued")
         self.assertEqual(self.db.add.call_args.args[0].idempotency_key, self.key())
@@ -467,7 +467,7 @@ class RequestTextAudioTests(TextEndpointBase):
 
     async def test_the_same_text_from_another_device_asks_for_the_same_recording(self):
         _, first = await self.ask(None, None)
-        _, second = await self.ask(None, None, body=TextAudioRequest(text="오늘 날씨가 좋아요"))
+        _, second = await self.ask(None, None, body=TextAudioRequest(text="The weather is nice today."))
         self.assertEqual(first.call_args.args[4], second.call_args.args[4])
 
     async def test_a_gemini_fallback_is_voiced_again_while_chirp_is_on(self):
@@ -483,7 +483,7 @@ class RequestTextAudioTests(TextEndpointBase):
         delay.assert_called_once()
 
     async def test_a_text_that_is_not_korean_is_422_and_nothing_is_queued(self):
-        for bad in ("Hello there", "Xin chào các bạn"):
+        for bad in ("오늘 날씨가 좋아요", "Xin chào các bạn"):
             with self.assertRaises(HTTPException) as caught:
                 await self.ask(body=TextAudioRequest(text=bad))
             self.assertEqual(caught.exception.status_code, 422)

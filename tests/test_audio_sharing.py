@@ -65,7 +65,7 @@ class AudioKeyTests(unittest.TestCase):
 class RequestSchemaTests(unittest.TestCase):
     def test_the_client_need_not_send_the_text(self):
         self.assertIsNone(VocabAudioRequest().text_ko)
-        self.assertEqual(VocabAudioRequest().voice, "ko-female-1")
+        self.assertEqual(VocabAudioRequest().voice, "en-female-1")
         self.assertEqual(VocabAudioRequest(text_ko="x", voice="ko-male-2").voice, "ko-male-2")
         self.assertEqual(CorpusAudioRequest().prompt_version, "v2")
 
@@ -250,8 +250,8 @@ class VocabAudioEndpointTests(WordEndpointBase):
         out, delay = await self.ask(self.WORD, None, None, None, body=VocabAudioRequest(text_ko="무료 광고"))
         job_id, vid, text, voice, version, key = delay.call_args.args
         self.assertEqual(text, "학교")  # the stored word, not what the client sent
-        self.assertEqual(key, audio_keys.vocab_audio_key("학교", "ko-female-1", "v1"))
-        self.assertEqual((vid, voice, version), ("5", "ko-female-1", "v1"))
+        self.assertEqual(key, audio_keys.vocab_audio_key("학교", "en-female-1", "v1"))
+        self.assertEqual((vid, voice, version), ("5", "en-female-1", "v1"))
         self.spend.assert_awaited_once()
         self.assertEqual(out.status, "queued")
 
@@ -279,7 +279,7 @@ class VocabAudioEndpointTests(WordEndpointBase):
     async def test_a_callers_idempotency_key_cannot_queue_the_recording_again(self):
         await self.ask(self.WORD, None, None, None, headers={"Idempotency-Key": "fresh-every-time"})
         self.assertEqual(
-            self.added_job().idempotency_key, audio_keys.vocab_audio_key("학교", "ko-female-1", "v1")
+            self.added_job().idempotency_key, audio_keys.vocab_audio_key("학교", "en-female-1", "v1")
         )
 
     async def test_a_finished_job_whose_recording_is_gone_is_made_again(self):
@@ -322,7 +322,7 @@ class CorpusAudioEndpointTests(WordEndpointBase):
         _, delay = await self.ask(self.ITEM, None, None, body=CorpusAudioRequest(text_ko="something else"))
         args = delay.call_args.args
         self.assertEqual(args[2], "오늘 날씨가 좋아요")
-        self.assertEqual(self.added_job().idempotency_key, f"{self.ID}:ko-female-1:v2")
+        self.assertEqual(self.added_job().idempotency_key, f"{self.ID}:en-female-1:v2")
         self.spend.assert_awaited_once()
 
     async def test_an_existing_recording_is_free(self):
@@ -344,7 +344,7 @@ class LectureAllowanceTests(unittest.IsolatedAsyncioTestCase):
 
     async def test_only_a_missing_recording_spends(self):
         existing = SimpleNamespace(
-            cache_key="k", opus_path="/o", aac_path="/a", duration_sec=1, script_text="t"
+            cache_key="k", opus_path="/o", aac_path="/a", duration_sec=1, script_text="t", timeline=None
         )
         for hit, expected in ((None, 1), (existing, 0)):
             db = mock.MagicMock()
