@@ -134,22 +134,15 @@ async def get_access(
     db: Annotated[AsyncSession, Depends(get_db)],
     profile: Annotated[Profile | None, Depends(get_optional_profile)],
 ) -> billing_access.Access:
-    """What the caller may open (everything while billing is off)."""
-    return await billing_access.load_access(db, profile)
+    """Single-user private app: everything is open."""
+    return billing_access.OPEN
 
 
 async def require_exam_pass(
     db: Annotated[AsyncSession, Depends(get_db)],
     profile: Annotated[Profile, Depends(get_current_profile)],
 ) -> Profile:
-    """The model-marked practice (writing drills, exam drill) belongs to the exam pass."""
-    held = await billing_access.load_access(db, profile)
-    if not held.can_use_exam_pass():
-        raise payment_required(
-            billing_catalog.EXAM_PASS,
-            "Phần luyện thi có AI chấm thuộc Pass Luyện thi.",
-            [p.code for p in billing_catalog.listed() if p.kind == billing_catalog.EXAM_PASS],
-        )
+    """Single-user private app: always open."""
     return profile
 
 
@@ -255,98 +248,25 @@ def trial_left_of(feature: str, used: int) -> int | None:
 async def ensure_feature(
     db: AsyncSession, profile: Profile, feature: str, request: Request | None = None
 ) -> int | None:
-    """The AI speaking features: open with a Haru Nói pass; without one, the one-time trial of the
-    feature's rule (billing.features), then 402. Returns, for a live feature on the trial, how many
-    SECONDS the session may run (None = no billing limit). Does nothing while billing is off.
-
-    A start on the trial also passes the anti-abuse gate (app/services/abuse.py: one trial per
-    browser, a soft cap per network, the day's budget, the pause switch) and is recorded there."""
-    if not settings.BILLING_ENABLED:
-        return None
-    held = await billing_access.load_access(db, profile)
-    if held.has_feature(feature):
-        if feature not in billing_features.LIVE_FEATURES or held.everything or not held.enforced:
-            return None
-        # a Haru Nói pass sold by the minute: the session is cut to what is left of its minutes
-        left = await pass_seconds_left(db, profile.id)
-        if left is None or left >= 60:
-            return left
-        raise payment_required(
-            billing_catalog.FEATURE_PASS,
-            "Bạn đã dùng hết số phút nói của gói Haru Nói. Mua thêm gói để nói tiếp (thời hạn và số phút được cộng thêm).",
-            billing_catalog.feature_passes(feature),
-        )
-    await billing_settings.refresh(db)
-    rule = billing_features.rule(feature)
-    if rule.mode == "free":
-        return None
-    if rule.mode == "trial":
-        used = await trial_used(db, profile.id, feature)
-        if feature in billing_features.LIVE_FEATURES:
-            minutes, _ = billing_features.trial_size(feature)
-            left = minutes * 60 - used
-            if left >= 60:
-                return await abuse.gate_trial(db, profile, feature, request, left)
-        elif used < billing_features.trial_size(feature)[0]:
-            await abuse.gate_trial(db, profile, feature, request, 1)
-            return None
-    raise payment_required(
-        billing_catalog.FEATURE_PASS, billing_features.refusal_vi(feature), billing_catalog.feature_passes(feature)
-    )
+    """Single-user private app: payments and trials are disabled."""
+    return None
 
 
 async def feature_seconds_left(db: AsyncSession, profile: Profile, feature: str) -> int | None:
-    """How many seconds of a live feature this learner may still use, as `ensure_feature` would
-    allow them, without starting anything: what is left of the Haru Nói pass's minutes or of the
-    one-time trial; 0 when neither is left; None when billing sets no limit. The screens show the
-    smaller of this and the daily cap, so they never promise 20 minutes to someone with 5."""
-    if not settings.BILLING_ENABLED or feature not in billing_features.LIVE_FEATURES:
-        return None
-    held = await billing_access.load_access(db, profile)
-    if held.has_feature(feature):
-        if held.everything or not held.enforced:
-            return None
-        return await pass_seconds_left(db, profile.id)
-    await billing_settings.refresh(db)
-    rule = billing_features.rule(feature)
-    if rule.mode == "free":
-        return None
-    if rule.mode == "trial":
-        minutes, _ = billing_features.trial_size(feature)
-        return max(0, minutes * 60 - await trial_used(db, profile.id, feature))
-    return 0
+    """Single-user private app: no billing limit."""
+    return None
 
 
 async def require_private_source(
     profile: Annotated[Profile | None, Depends(get_optional_profile)],
 ) -> Profile | None:
-    """The corpus, the editorial commentaries and the real past papers: with billing on they are
-    for editors and admins only (settings.BILLING_PRIVATE_SOURCES), because their copyright is
-    not settled. With billing off nothing changes."""
-    if not (settings.BILLING_ENABLED and settings.BILLING_PRIVATE_SOURCES):
-        return profile
-    if profile is None:
-        raise _problem(status.HTTP_401_UNAUTHORIZED, "Missing bearer token", "unauthenticated")
-    if profile.role not in billing_access.STAFF_ROLES:
-        raise _problem(
-            status.HTTP_403_FORBIDDEN, "Tài liệu này hiện chỉ dành cho người biên tập", "closed_source", "Chưa mở cho người học."
-        )
+    """Single-user private app: all sources open."""
     return profile
 
 
 async def ensure_lesson_open(db: AsyncSession, profile: Profile | None, lesson) -> None:
-    """Paid lessons: 401 for someone not signed in, 402 for someone who has not unlocked the
-    lesson. Does nothing while billing is off, and nothing for a free lesson."""
-    held = await billing_access.load_access(db, profile)
-    if not held.enforced or held.can_open(lesson.sort_order):
-        return
-    if profile is None:
-        raise _problem(status.HTTP_401_UNAUTHORIZED, "Missing bearer token", "unauthenticated")
-    raise payment_required(
-        billing_catalog.LESSON_PACK,
-        "Bài này thuộc một gói cần mở khoá.",
-        billing_catalog.unlock_products(lesson.sort_order),
-    )
+    """Single-user private app: all lessons are open."""
+    return
 
 
 async def ensure_daily_cap(db: AsyncSession, profile_id: uuid.UUID, job_type: str, cap: int, what_vi: str) -> None:
