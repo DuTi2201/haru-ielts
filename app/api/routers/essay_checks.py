@@ -78,8 +78,8 @@ async def start_essay_check(
     text = body.text.strip()
     if len(text) > essay_check.MAX_TEXT_CHARS:
         raise _problem(status.HTTP_422_UNPROCESSABLE_ENTITY, f"Bài dài quá {essay_check.MAX_TEXT_CHARS} ký tự.", "text_too_long")
-    if len(essay_check._HANGUL_RE.findall(text)) < essay_check.MIN_HANGUL:
-        raise _problem(status.HTTP_422_UNPROCESSABLE_ENTITY, "Hãy viết vài câu tiếng Hàn rồi mới gửi chấm.", "too_short")
+    if essay_check.count_words(text) < essay_check.MIN_WORDS and len(essay_check._HANGUL_RE.findall(text)) < essay_check.MIN_HANGUL:
+        raise _problem(status.HTTP_422_UNPROCESSABLE_ENTITY, "Hãy viết vài câu tiếng Anh rồi mới gửi chấm.", "too_short")
 
     now = datetime.now(timezone.utc)
     last = (
