@@ -60,9 +60,9 @@ PODCAST_SCHEMA: dict[str, Any] = {
     "required": ["outline", "script"],
 }
 
-# (hangul, pos, meaning_vi, example_ko, hanja, sino_vietnamese[, note_vi])
+# (headword, pos, meaning_vi, example_en, hanja, sino_vietnamese[, note_vi])
 Vocab = tuple[str, str | None, str, str | None, str | None, str | None]
-# (pattern, meaning_vi, example_ko, usage_context_vi, topik_tip_vi[, extra_vi]) — extra_vi is
+# (pattern, meaning_vi, example_en, usage_context_vi, exam_tip_vi[, extra_vi]) — extra_vi is
 # what the lesson's author wrote beside the pattern (a caution, a contrast with a near pattern)
 Grammar = tuple[str, str, str | None, str | None, str | None]
 
@@ -76,15 +76,15 @@ def target_chars(item_count: int) -> int:
 def _vocab_block(vocab: list[Vocab]) -> str:
     lines: list[str] = []
     for row in vocab:
-        hangul, pos, meaning_vi, example_ko, hanja, sino = row[:6]
+        headword, pos, meaning_vi, example_en, hanja, sino = row[:6]
         note = row[6] if len(row) > 6 else None
-        line = f"- {hangul}" + (f" ({pos})" if pos else "") + f" — nghĩa: {meaning_vi}"
+        line = f"- {headword}" + (f" ({pos})" if pos else "") + f" — nghĩa: {meaning_vi}"
         if hanja or sino:
             line += f" | gốc Hán: {' '.join(x for x in (hanja, sino) if x)}"
         if note:
             line += f" | ghi chú của biên tập viên: {note}"
-        if example_ko:
-            line += f" | ví dụ: {example_ko}"
+        if example_en:
+            line += f" | ví dụ: {example_en}"
         lines.append(line)
     return "\n".join(lines) or "(không có từ vựng)"
 
@@ -92,7 +92,7 @@ def _vocab_block(vocab: list[Vocab]) -> str:
 def _grammar_block(grammar: list[Grammar]) -> str:
     lines: list[str] = []
     for row in grammar:
-        pattern, meaning_vi, example_ko, usage, tip = row[:5]
+        pattern, meaning_vi, example_en, usage, tip = row[:5]
         extra = row[5] if len(row) > 5 else None
         parts = [f"- {pattern} — nghĩa: {meaning_vi}"]
         if usage:
@@ -101,8 +101,8 @@ def _grammar_block(grammar: list[Grammar]) -> str:
             parts.append(f"  lưu ý và so sánh (ghi chú của biên tập viên): {extra}")
         if tip:
             parts.append(f"  ghi chú về kỳ thi (chỉ để bạn hiểu mẫu này hay gặp ở đâu): {tip}")
-        if example_ko:
-            parts.append(f"  ví dụ: {example_ko}")
+        if example_en:
+            parts.append(f"  ví dụ: {example_en}")
         lines.append("\n".join(parts))
     return "\n".join(lines) or "(không có ngữ pháp)"
 

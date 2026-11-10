@@ -72,7 +72,7 @@ class Word:
 class Pattern:
     pattern: str
     meaning_vi: str
-    example_ko: str | None
+    example_en: str | None
     bucket: Bucket
 
 
@@ -80,7 +80,7 @@ class Pattern:
 class LessonBrief:
     id: int
     title: str
-    title_ko: str | None = None
+    title_en: str | None = None
     summary: str | None = None
 
 
@@ -151,19 +151,19 @@ def build_system_instruction(ctx: LearnerContext) -> str:
     model follows it well and the owner can read and edit it."""
     who = f"Học viên tên {ctx.name}." if ctx.name else "Chưa biết tên học viên (có thể hỏi tên ở câu đầu)."
     current = (
-        f"Bài đang học: «{ctx.current.title}»" + (f" ({ctx.current.title_ko})" if ctx.current.title_ko else "")
+        f"Bài đang học: «{ctx.current.title}»" + (f" ({ctx.current.title_en})" if ctx.current.title_en else "")
         + (f" — {ctx.current.summary}" if ctx.current.summary else "")
         if ctx.current
         else "Học viên chưa bắt đầu bài nào: nói chuyện về chào hỏi, tên, đồ ăn, thời tiết."
     )
-    earlier = [f"{b.title}" + (f" ({b.title_ko})" if b.title_ko else "") for b in ctx.earlier]
+    earlier = [f"{b.title}" + (f" ({b.title_en})" if b.title_en else "") for b in ctx.earlier]
 
     def words(b: Bucket) -> list[str]:
         return [f"{w.ko} ({w.vi})" for w in ctx.words if w.bucket == b]
 
     def pats(b: Bucket) -> list[str]:
         return [
-            f"{p.pattern} — {p.meaning_vi}" + (f" · ví dụ: {p.example_ko}" if p.example_ko else "")
+            f"{p.pattern} — {p.meaning_vi}" + (f" · ví dụ: {p.example_en}" if p.example_en else "")
             for p in ctx.patterns
             if p.bucket == b
         ]
@@ -259,10 +259,10 @@ def hint_cards(ctx: LearnerContext, *, max_words: int = 8, max_frames: int = 4) 
     words = sorted(ctx.words, key=lambda w: order[w.bucket])[:max_words]
     step = answer_step(ctx.band)
     # first, the frame of a full answer at this band (the step being trained), then the lesson's own
-    frames: list[dict[str, str]] = [{"ko": step["frame_ko"], "vi": step["frame_vi"], "pattern": "Trả lời đủ ý"}]
+    frames: list[dict[str, str]] = [{"ko": step["frame_en"], "vi": step["frame_vi"], "pattern": "Trả lời đủ ý"}]
     for p in sorted(ctx.patterns, key=lambda p: order[p.bucket]):
-        if p.example_ko and len(frames) < max_frames:
-            frames.append({"ko": p.example_ko, "vi": p.meaning_vi, "pattern": p.pattern})
+        if p.example_en and len(frames) < max_frames:
+            frames.append({"ko": p.example_en, "vi": p.meaning_vi, "pattern": p.pattern})
     return {"words": [{"ko": w.ko, "vi": w.vi} for w in words], "frames": frames}
 
 

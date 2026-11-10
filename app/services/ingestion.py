@@ -84,17 +84,17 @@ LESSON_SCHEMA: dict[str, Any] = {
             "items": {
                 "type": "OBJECT",
                 "properties": {
-                    "hangul": {"type": "STRING"},
+                    "headword": {"type": "STRING"},
                     "pos": {"type": "STRING", "nullable": True, "description": "từ loại, vd 동사/명사/형용사"},
                     "meaning_vi": {"type": "STRING"},
-                    "definition_ko": {"type": "STRING", "nullable": True},
+                    "definition_en": {"type": "STRING", "nullable": True},
                     "level": {"type": "INTEGER"},
                     "hanja": {"type": "STRING", "nullable": True},
                     "sino_vietnamese": {"type": "STRING", "nullable": True, "description": "âm Hán Việt nếu có"},
-                    "example_ko": {"type": "STRING", "nullable": True},
+                    "example_en": {"type": "STRING", "nullable": True},
                     "confidence": {"type": "NUMBER", "description": "0-1, độ tự tin của mô hình"},
                 },
-                "required": ["hangul", "meaning_vi", "level", "confidence"],
+                "required": ["headword", "meaning_vi", "level", "confidence"],
             },
         },
         "grammar": {
@@ -108,12 +108,12 @@ LESSON_SCHEMA: dict[str, Any] = {
                     },
                     "meaning_vi": {"type": "STRING"},
                     "level": {"type": "INTEGER"},
-                    "example_ko": {"type": "STRING", "nullable": True},
+                    "example_en": {"type": "STRING", "nullable": True},
                     "usage_context_vi": {
                         "type": "STRING",
                         "description": "Giải thích bằng tiếng Việt: dùng KHI NÀO, trong HOÀN CẢNH/tình huống nào, với sắc thái gì — không chỉ định nghĩa suông",
                     },
-                    "topik_tip_vi": {
+                    "exam_tip_vi": {
                         "type": "STRING",
                         "nullable": True,
                         "description": "Nhận xét bằng tiếng Việt (câu khẳng định, không phải lời ra lệnh): mẫu này hay xuất hiện ở dạng bài/ngữ cảnh TOPIK nào và dấu hiệu nhận biết là gì",
@@ -161,7 +161,7 @@ CORPUS_CHUNK_SCHEMA: dict[str, Any] = {
 }
 
 # Editorial reading (사설/칼럼 luyện đọc + luyện dàn ý cho TOPIK viết câu 54):
-# one call per article. body_ko is the admin-reviewable staged text (see
+# one call per article. body_en is the admin-reviewable staged text (see
 # ingest.py's module docstring on "staged, human confirms") — the model
 # reads it as-is, warts (stray scraped nav/ad lines) and all.
 EDITORIAL_SCHEMA: dict[str, Any] = {
@@ -181,17 +181,17 @@ EDITORIAL_SCHEMA: dict[str, Any] = {
             "items": {
                 "type": "OBJECT",
                 "properties": {
-                    "hangul": {"type": "STRING"},
+                    "headword": {"type": "STRING"},
                     "pos": {"type": "STRING", "nullable": True, "description": "từ loại, vd 동사/명사/형용사"},
                     "meaning_vi": {"type": "STRING"},
-                    "definition_ko": {"type": "STRING", "nullable": True},
+                    "definition_en": {"type": "STRING", "nullable": True},
                     "level": {"type": "INTEGER"},
                     "hanja": {"type": "STRING", "nullable": True},
                     "sino_vietnamese": {"type": "STRING", "nullable": True, "description": "âm Hán Việt nếu có"},
-                    "example_ko": {"type": "STRING", "nullable": True},
+                    "example_en": {"type": "STRING", "nullable": True},
                     "confidence": {"type": "NUMBER"},
                 },
-                "required": ["hangul", "meaning_vi", "level", "confidence"],
+                "required": ["headword", "meaning_vi", "level", "confidence"],
             },
         },
         "grammar": {
@@ -202,12 +202,12 @@ EDITORIAL_SCHEMA: dict[str, Any] = {
                     "pattern": {"type": "STRING", "description": "Mẫu ngữ pháp dạng V/A + hình thái"},
                     "meaning_vi": {"type": "STRING"},
                     "level": {"type": "INTEGER"},
-                    "example_ko": {"type": "STRING", "nullable": True},
+                    "example_en": {"type": "STRING", "nullable": True},
                     "usage_context_vi": {
                         "type": "STRING",
                         "description": "Giải thích bằng tiếng Việt: dùng KHI NÀO, trong HOÀN CẢNH/tình huống nào — không chỉ định nghĩa suông",
                     },
-                    "topik_tip_vi": {
+                    "exam_tip_vi": {
                         "type": "STRING",
                         "nullable": True,
                         "description": "Nhận xét bằng tiếng Việt (câu khẳng định, không phải lời ra lệnh): mẫu này hay xuất hiện ở dạng bài/ngữ cảnh TOPIK nào (đặc biệt viết câu 54) và cách vận dụng",
@@ -249,14 +249,14 @@ EDITORIAL_SCHEMA: dict[str, Any] = {
 
 
 class VocabExtraction(BaseModel):
-    hangul: str
+    headword: str
     pos: str | None = None
     meaning_vi: str
-    definition_ko: str | None = None
+    definition_en: str | None = None
     level: int = Field(ge=1, le=6)
     hanja: str | None = None
     sino_vietnamese: str | None = None
-    example_ko: str | None = None
+    example_en: str | None = None
     confidence: float = Field(ge=0, le=1, default=0.5)
 
 
@@ -264,9 +264,9 @@ class GrammarExtraction(BaseModel):
     pattern: str
     meaning_vi: str
     level: int = Field(ge=1, le=6)
-    example_ko: str | None = None
+    example_en: str | None = None
     usage_context_vi: str | None = None
-    topik_tip_vi: str | None = None
+    exam_tip_vi: str | None = None
     confidence: float = Field(ge=0, le=1, default=0.5)
 
 
@@ -348,7 +348,7 @@ LESSON_PROMPT = """Bạn là biên tập viên nội dung học tiếng Hàn cho
   pháp, viết THÊM usage_context_vi giải thích bằng tiếng Việt: dùng khi nào,
   trong hoàn cảnh/tình huống nào, với sắc thái/thái độ gì so với các mẫu gần
   nghĩa khác (người học cần biết ÁP DỤNG chứ không chỉ nhớ công thức). Nếu
-  mẫu này thường gặp trong đề thi TOPIK, thêm topik_tip_vi: viết như MỘT NHẬN
+  mẫu này thường gặp trong đề thi TOPIK, thêm exam_tip_vi: viết như MỘT NHẬN
   XÉT VỀ NGÔN NGỮ (câu khẳng định: mẫu này hay xuất hiện ở dạng bài/ngữ cảnh
   nào, dấu hiệu nhận biết là gì), KHÔNG viết như lời ra lệnh hay lời dặn làm bài
   (tránh "hãy chọn...", "khi gặp câu hỏi... thì...").
@@ -807,7 +807,7 @@ def run_corpus_extraction(
         # of which has timecodes for parse_subtitles to key off. Fall back
         # to one cue per line instead of silently staging nothing.
         cues = parse_plain_lines(raw_subtitle_text)
-    known_keys = corpus_browse.corpus_keys([t for (t,) in db.execute(select(CorpusItem.text_ko)).all()])
+    known_keys = corpus_browse.corpus_keys([t for (t,) in db.execute(select(CorpusItem.text_en)).all()])
     cues, stats.duplicates = drop_duplicate_cues(cues, known_keys)
     cues, garbled = drop_garbled_cues(cues)
     stats.unnatural += len(garbled)
@@ -852,7 +852,7 @@ def run_corpus_extraction(
             if status != "pending":
                 stats.flagged += 1
             payload: dict[str, Any] = {
-                "text_ko": cue.text,  # always the ORIGINAL subtitle line, never Gemini's paraphrase
+                "text_en": cue.text,  # always the ORIGINAL subtitle line, never Gemini's paraphrase
                 "source_ref": cue.source_ref,
                 "kind": entry.kind,
                 "level": entry.level,
@@ -990,12 +990,12 @@ def fetch_article(url: str) -> article_extract.ExtractedArticle:
 
 
 def fetch_article_text(url: str) -> tuple[str, str | None, str | None]:
-    """Back-compat wrapper: (body_ko, parsed_title, suggested_source_name)."""
+    """Back-compat wrapper: (body_en, parsed_title, suggested_source_name)."""
     art = fetch_article(url)
     return art.body, art.title, art.site_name
 
 
-def build_editorial_prompt(body_ko: str) -> str:
+def build_editorial_prompt(body_en: str) -> str:
     return f"""Bạn là biên tập viên nội dung luyện đọc xã luận/chuyên mục báo tiếng
 Hàn cho người Việt học tiếng Hàn trình độ trung-cao cấp (TOPIK II), đang
 chuẩn bị cho câu 54 phần viết (bài luận theo cấu trúc hiện tượng – nguyên
@@ -1011,7 +1011,7 @@ vào nội dung bài xã luận/chuyên mục chính.
    bài học thông thường: nghĩa tiếng Việt, định nghĩa tiếng Hàn ngắn gọn nếu
    có, Hán tự/âm Hán Việt nếu là từ Hán Hàn, câu ví dụ). Với MỖI mẫu ngữ
    pháp: viết usage_context_vi (tiếng Việt) giải thích dùng khi nào/hoàn
-   cảnh nào — không chỉ nêu công thức; và topik_tip_vi nếu mẫu này thường
+   cảnh nào — không chỉ nêu công thức; và exam_tip_vi nếu mẫu này thường
    gặp trong đề thi TOPIK (đặc biệt viết câu 54) — nêu cách vận dụng thực tế
    dưới dạng nhận xét về ngôn ngữ (câu khẳng định), không viết thành lời ra
    lệnh hay lời dặn làm bài.
@@ -1026,13 +1026,13 @@ Trả về đúng JSON schema đã cho, không thêm giải thích. Tự đánh 
 (confidence, 0-1) cho toàn bộ kết quả.
 
 Bài viết:
-{body_ko}"""
+{body_en}"""
 
 
-def extract_editorial(body_ko: str) -> EditorialExtraction:
+def extract_editorial(body_en: str) -> EditorialExtraction:
     result = gemini_client.generate_structured(
         model=settings.GEMINI_MODEL_LESSON_INGEST,
-        prompt=build_editorial_prompt(body_ko),
+        prompt=build_editorial_prompt(body_en),
         response_schema=EDITORIAL_SCHEMA,
         prompt_version="editorial-v1",
     )
@@ -1042,13 +1042,13 @@ def extract_editorial(body_ko: str) -> EditorialExtraction:
 def run_editorial_extraction(
     db: Session,
     batch: ImportBatch,
-    body_ko: str,
-    title_ko: str | None,
+    body_en: str,
+    title_en: str | None,
     suggested_source_name: str | None = None,
     images: list[dict] | None = None,
 ) -> tuple[int, int]:
     """Stages the fetched body + Gemini's classification as one
-    kind="editorial_meta" ImportItem (body_ko included, so an admin can
+    kind="editorial_meta" ImportItem (body_en included, so an admin can
     review/edit the scraped text before confirm — see fetch_article_text),
     plus one kind="vocab_item"/"grammar_point" ImportItem per extracted
     word/pattern (lesson_id left null at confirm time — see
@@ -1059,7 +1059,7 @@ def run_editorial_extraction(
     again (see find_or_create_editorial_article's docstring), which is
     exactly how a sample article ended up with an author's byline stored
     as source_name. Returns (staged_count, flagged_count)."""
-    extraction = extract_editorial(body_ko)
+    extraction = extract_editorial(body_en)
     staged = 0
     flagged = 0
 
@@ -1073,8 +1073,8 @@ def run_editorial_extraction(
             status=meta_status,
             confidence=extraction.confidence,
             payload={
-                "body_ko": body_ko,
-                "title_ko": title_ko,
+                "body_en": body_en,
+                "title_en": title_en,
                 "source_name": suggested_source_name,
                 # Inline photos scraped with the article (url/caption/
                 # after_paragraph) — see article_extract.extract_article.
@@ -1124,11 +1124,11 @@ def run_editorial_extraction(
 
 # ================================================================ confirm ==
 _VOCAB_FIELDS = {
-    "hangul", "pos", "meaning_vi", "definition_ko", "level", "hanja", "sino_vietnamese", "example_ko",
+    "headword", "pos", "meaning_vi", "definition_en", "level", "hanja", "sino_vietnamese", "example_en",
     "family", "node_word", "register", "usage_note_vi", "collocations", "distractors",
 }
 _GRAMMAR_FIELDS = {
-    "pattern", "meaning_vi", "level", "example_ko", "usage_context_vi", "topik_tip_vi",
+    "pattern", "meaning_vi", "level", "example_en", "usage_context_vi", "exam_tip_vi",
     "contrast_group", "contrasts",
 }
 
@@ -1234,13 +1234,13 @@ def apply_corpus_batch(db: Session, batch: ImportBatch) -> dict[str, Any]:
     # The extraction step already skips known lines, but two batches can be
     # reviewed side by side (or a film re-uploaded under another title), so the
     # write step checks again: the same sentence is stored once.
-    known_keys = corpus_browse.corpus_keys([t for (t,) in db.execute(select(CorpusItem.text_ko)).all()])
+    known_keys = corpus_browse.corpus_keys([t for (t,) in db.execute(select(CorpusItem.text_en)).all()])
 
     applied = 0
     duplicates_skipped = 0
     for item in items:
         payload = item.payload
-        key = corpus_browse.normalize_key(payload["text_ko"])
+        key = corpus_browse.normalize_key(payload["text_en"])
         if key in known_keys:
             duplicates_skipped += 1
             continue
@@ -1248,13 +1248,13 @@ def apply_corpus_batch(db: Session, batch: ImportBatch) -> dict[str, Any]:
         grammar_point_ids = [
             grammar_rows[p] for p in payload.get("grammar_patterns", []) if p in grammar_rows
         ]
-        embedding = gemini_client.embed_text(text=payload["text_ko"])
+        embedding = gemini_client.embed_text(text=payload["text_en"])
 
         stmt = (
             pg_insert(CorpusItem)
             .values(
                 film_id=batch.film_id,
-                text_ko=payload["text_ko"],
+                text_en=payload["text_en"],
                 kind=payload["kind"],
                 level=payload["level"],
                 register=payload["register"],
@@ -1341,7 +1341,7 @@ def run_corpus_enrichment(
     stats = CorpusEnrichmentStats()
 
     rows = db.execute(
-        select(CorpusItem.id, CorpusItem.text_ko, CorpusItem.grammar_point_ids, CorpusItem.naturalness)
+        select(CorpusItem.id, CorpusItem.text_en, CorpusItem.grammar_point_ids, CorpusItem.naturalness)
         .where(corpus_enrichment_pending_filter())
         .order_by(CorpusItem.id)
     ).all()
@@ -1456,7 +1456,7 @@ def apply_exam_batch(db: Session, batch: ImportBatch) -> dict[str, Any]:
         passage = ExamPassage(
             paper_id=batch.exam_paper_id,
             kind=p.payload["kind"],
-            body_ko=None if withheld else p.payload.get("body_ko"),
+            body_en=None if withheld else p.payload.get("body_en"),
             chart_data={"withheld": True} if withheld else None,
             image_key=None,
             audio_key=None,
@@ -1486,8 +1486,8 @@ def apply_exam_batch(db: Session, batch: ImportBatch) -> dict[str, Any]:
                 passage_id=local_to_real.get(passage_ref) if passage_ref else None,
                 number=it.payload["number"],
                 qtype_id=qtype_id,
-                instruction_ko=it.payload.get("instruction_ko"),
-                stem_ko=it.payload.get("stem_ko") or "",
+                instruction_en=it.payload.get("instruction_en"),
+                stem_en=it.payload.get("stem_en") or "",
                 options=it.payload.get("options", []),
                 answer=answer,
                 answer_source=("editor" if answer_from_key else "ai_guess") if answer is not None else None,
@@ -1512,10 +1512,10 @@ def _existing_card(db: Session, kind: str, payload: dict[str, Any]) -> int | Non
     card an earlier editorial filed. Grammar matches the whole pattern or one ' · ' part of a
     lesson card that teaches several forms together."""
     if kind == "vocab_item":
-        hangul = (payload.get("hangul") or "").strip()
-        if not hangul:
+        headword = (payload.get("headword") or "").strip()
+        if not headword:
             return None
-        rows = db.execute(select(VocabItem.id, VocabItem.lesson_id).where(VocabItem.hangul == hangul)).all()
+        rows = db.execute(select(VocabItem.id, VocabItem.lesson_id).where(VocabItem.headword == headword)).all()
     else:
         key = _card_key(payload.get("pattern") or "")
         if not key:
@@ -1555,23 +1555,23 @@ def apply_editorial_batch(db: Session, batch: ImportBatch) -> dict[str, Any]:
 
     # Unlike vocab_item/grammar_point (individually AI-guessed proposals
     # that genuinely warrant a per-row accept/reject), editorial_meta's
-    # body_ko is the real, human-written scraped article text — not an AI
+    # body_en is the real, human-written scraped article text — not an AI
     # invention — bundled with Gemini's classification of it (level/topics/
     # outline) under one status. Gating this on status == "confirmed"
     # meant a reviewer who confirmed the vocab/grammar rows and hit "Xác
     # nhận lô" WITHOUT separately noticing and clicking "Xác nhận" on this
     # one extra row got a batch marked confirmed (vocab/grammar did apply)
-    # with the article's own body_ko silently left empty forever — no
+    # with the article's own body_en silently left empty forever — no
     # warning anywhere. Confirmed in production: an article with real
-    # vocab+grammar and body_ko == "". Apply it unless a reviewer
+    # vocab+grammar and body_en == "". Apply it unless a reviewer
     # EXPLICITLY rejected it (they still can, e.g. a garbled scrape) —
     # matches how a scraped article is actually reviewed in practice (read
     # the whole thing once, act on the article, not tick every row).
     meta_item = next((i for i in items if i.kind == "editorial_meta" and i.status != "rejected"), None)
     if meta_item is not None and article.import_item_id is None:
         payload = meta_item.payload
-        article.body_ko = payload["body_ko"]
-        article.title_ko = payload.get("title_ko") or article.title_ko
+        article.body_en = payload["body_en"]
+        article.title_en = payload.get("title_en") or article.title_en
         # An admin who noticed/edited a wrong source_name (e.g. an author
         # byline scraped in as the outlet name) in this item's payload
         # before confirming gets that correction applied here — see
@@ -1700,7 +1700,7 @@ async def rollback_import_batch(db: AsyncSession, batch: ImportBatch) -> dict[st
         if batch.editorial_article_id is not None:
             article = await db.get(EditorialArticle, batch.editorial_article_id)
             if article is not None and article.import_item_id in item_ids:
-                article.body_ko = None
+                article.body_en = None
                 article.level_estimate = None
                 article.topic_tags = []
                 article.vocab_ids = []
@@ -1757,14 +1757,14 @@ def find_or_create_editorial_article(
     db: Session,
     source_url: str,
     source_name: str,
-    title_ko: str | None = None,
+    title_en: str | None = None,
     published_date: datetime | None = None,
 ) -> EditorialArticle:
     """Same immediate-creation timing as find_or_create_film/
-    find_or_create_exam_paper: source_url/source_name (and title_ko/
+    find_or_create_exam_paper: source_url/source_name (and title_en/
     published_date, when already known — e.g. from an RSS candidate) are
     admin/candidate-given, not AI-derived, so this row exists before
-    extraction runs. body_ko/level_estimate/topic_tags/model_outline stay
+    extraction runs. body_en/level_estimate/topic_tags/model_outline stay
     NULL until apply_editorial_batch fills them in at confirm time —
     until then this row is just the stable id that
     import_batch.editorial_article_id points at."""
@@ -1777,7 +1777,7 @@ def find_or_create_editorial_article(
     article = EditorialArticle(
         source_url=source_url,
         source_name=source_name.strip(),
-        title_ko=title_ko.strip() if title_ko else None,
+        title_en=title_en.strip() if title_en else None,
         published_date=published_date,
     )
     db.add(article)
@@ -1842,8 +1842,8 @@ def discover_editorial_candidates_for_source(db: Session, source: EditorialSourc
             .values(
                 source_name=source.name,
                 source_url=link,
-                title_ko=title,
-                snippet_ko=(summary.strip()[:500] or None),
+                title_en=title,
+                snippet_en=(summary.strip()[:500] or None),
                 topic_tags=topics,
                 published_date=published_date,
                 status="new",
@@ -1918,8 +1918,8 @@ def build_podcast_prompt(
     *,
     retry_note: str | None = None,
 ) -> str:
-    """vocab: (hangul, pos, meaning_vi, example_ko, hanja, sino_vietnamese).
-    grammar: (pattern, meaning_vi, example_ko, usage_context_vi, topik_tip_vi).
+    """vocab: (headword, pos, meaning_vi, example_en, hanja, sino_vietnamese).
+    grammar: (pattern, meaning_vi, example_en, usage_context_vi, exam_tip_vi).
     The prompt and the checks around it live in app/services/podcast_script.py."""
     return podcast_script.build_prompt(title, vocab, grammar, retry_note=retry_note)
 

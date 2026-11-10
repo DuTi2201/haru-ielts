@@ -6,7 +6,7 @@ A situation file defines SITUATIONS = {slug: [one entry per sitting, in order, o
 entry is a dict:
     scene   : where and who (Vietnamese)
     turns   : [("A", ko, vi), ("B", ko, vi), ...]   4–6 turns, in the right order
-    reply   : (prompt_ko, prompt_vi, [(ko, vi, ok, why_vi) x3])  exactly one ok
+    reply   : (prompt_en, prompt_vi, [(ko, vi, ok, why_vi) x3])  exactly one ok
     compare : (ask_vi, (ko, vi), (ko, vi), "a" or "b", why_vi)
 The result is written into app/seed/lessons/<slug>.json under sessions[i].situation and validated by
 LessonSeed (app.services.lesson_seed.SituationSeed). Sittings are not touched otherwise.
@@ -30,7 +30,7 @@ def convert(e: dict) -> dict:
         "scene_vi": e["scene"],
         "turns": [{"who": w, "ko": k, "vi": v} for w, k, v in e["turns"]],
         "reply": {
-            "prompt_ko": pk,
+            "prompt_en": pk,
             "prompt_vi": pv,
             "options": [{"ko": k, "vi": v, "ok": bool(ok), "why_vi": y} for k, v, ok, y in opts],
         },

@@ -60,7 +60,7 @@ class CoachInLessonTests(unittest.TestCase):
     def raw(self, **kw):
         base = dict(
             slug="demo-lesson", title="Demo", topic="Demo", track="intermediate", level=1, sort_order=99,
-            summary="Demo", vocab=[{"hangul": "아침", "pos": "N", "meaning_vi": "buổi sáng", "priority": "core"}],
+            summary="Demo", vocab=[{"headword": "아침", "pos": "N", "meaning_vi": "buổi sáng", "priority": "core"}],
         )
         base.update(kw)
         return base

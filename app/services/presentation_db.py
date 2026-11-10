@@ -33,12 +33,12 @@ async def load_knowledge(db: AsyncSession, learner_id: uuid.UUID) -> list[KnowIt
         )
     ).all()
     out = [
-        KnowItem(f"g:{g.id}", "grammar", g.pattern, g.meaning_vi, g.example_ko, int(g.level or 1),
+        KnowItem(f"g:{g.id}", "grammar", g.pattern, g.meaning_vi, g.example_en, int(g.level or 1),
                  s.strength, s.last_correct, s.introduced_at)
         for g, s in grammar
     ]
     out += [
-        KnowItem(f"v:{v.id}", "word", v.hangul, v.meaning_vi, None, 1, s.strength, s.last_correct, s.introduced_at)
+        KnowItem(f"v:{v.id}", "word", v.headword, v.meaning_vi, None, 1, s.strength, s.last_correct, s.introduced_at)
         for v, s in words
         if v.priority != "recognize"
     ]

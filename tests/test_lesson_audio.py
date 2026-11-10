@@ -19,11 +19,11 @@ def source(resolved) -> la.LessonSource:
     s = resolved.seed
     return la.LessonSource(
         title=s.title,
-        title_ko=s.title_ko,
-        vocab=[la.VocabLine(v.hangul, v.meaning_vi, v.note_vi, v.example_ko, v.example_vi) for v in s.vocab],
+        title_en=s.title_en,
+        vocab=[la.VocabLine(v.headword, v.meaning_vi, v.note_vi, v.example_en, v.example_vi) for v in s.vocab],
         grammar=[
             la.GrammarLine(
-                g.pattern, g.meaning_vi, g.usage_context_vi, g.note_vi, g.example_ko, g.example_vi,
+                g.pattern, g.meaning_vi, g.usage_context_vi, g.note_vi, g.example_en, g.example_vi,
                 tuple((c.pattern, c.diff_vi) for c in g.contrasts),
             )
             for g in s.grammar
@@ -92,8 +92,8 @@ class TemplateScriptTests(unittest.TestCase):
         for r in LESSONS:
             script = la.build_template_script(source(r))
             for v in r.seed.vocab:
-                self.assertIn(la._ko_line(v.hangul, shadow=True), script, v.hangul)
-                self.assertNotIn("(", la._ko_line(v.hangul, shadow=True))
+                self.assertIn(la._ko_line(v.headword, shadow=True), script, v.headword)
+                self.assertNotIn("(", la._ko_line(v.headword, shadow=True))
             for i, g in enumerate(r.seed.grammar, 1):
                 self.assertIn(f"Mẫu số {i}.", script)
                 self.assertIn(la.speakable_pattern(g.pattern), script)
@@ -151,7 +151,7 @@ class TemplateScriptTests(unittest.TestCase):
 
     def test_the_notes_of_a_lesson_row_carry_their_exam_tag_into_the_source(self):
         row = SimpleNamespace(
-            title="Thử", title_ko=None,
+            title="Thử", title_en=None,
             notes=[{"title": "A", "body": "x", "exam": "kiip-3"}, {"title": "B", "body": "y"}],
         )
         self.assertEqual(la.source_from_rows(row, [], []).full_notes, (0,))
@@ -238,7 +238,7 @@ class SourceSignatureTests(unittest.TestCase):
         )
         self.assertNotEqual(base, la.source_signature(edited_card))
         edited_word = source(r)
-        edited_word.vocab[0] = la.VocabLine(edited_word.vocab[0].hangul, "khác")
+        edited_word.vocab[0] = la.VocabLine(edited_word.vocab[0].headword, "khác")
         self.assertNotEqual(base, la.source_signature(edited_word))
 
     def test_every_lesson_has_its_own_signature(self):

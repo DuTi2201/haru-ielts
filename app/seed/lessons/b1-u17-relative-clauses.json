@@ -1,7 +1,7 @@
 {
  "slug": "b1-u17-relative-clauses",
  "title": "Unit 17 · Mệnh đề quan hệ",
- "title_ko": "Relative clauses",
+ "title_en": "Relative clauses",
  "topic": "Destination B1 · Lấy gốc",
  "track": "beginner",
  "level": 3,
@@ -9,50 +9,50 @@
  "summary": "Nối hai câu thành một bằng who, which, that, whose, where, when; biết khi nào cần dấu phẩy. Ngữ pháp: Defining relative clauses: who / which / that; whose / where / when; Non-defining relative clauses: , who / , which.",
  "vocab": [
   {
-   "hangul": "whose",
+   "headword": "whose",
    "pos": "X",
    "meaning_vi": "của người mà, của cái mà",
-   "example_ko": "She is the writer whose book I read.",
+   "example_en": "She is the writer whose book I read.",
    "example_vi": "Cô ấy là tác giả của cuốn sách tôi đã đọc.",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 17"
   },
   {
-   "hangul": "where",
+   "headword": "where",
    "pos": "X",
    "meaning_vi": "nơi mà",
-   "example_ko": "The cafe where we met has closed.",
+   "example_en": "The cafe where we met has closed.",
    "example_vi": "Quán cà phê nơi chúng tôi gặp nhau đã đóng cửa.",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 17"
   },
   {
-   "hangul": "reason why",
+   "headword": "reason why",
    "pos": "X",
    "meaning_vi": "lý do vì sao",
-   "example_ko": "That is the reason why I left.",
+   "example_en": "That is the reason why I left.",
    "example_vi": "Đó là lý do tôi rời đi.",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 17"
   },
   {
-   "hangul": "the one",
+   "headword": "the one",
    "pos": "X",
    "meaning_vi": "cái mà, người mà",
-   "example_ko": "This is the one I want.",
+   "example_en": "This is the one I want.",
    "example_vi": "Đây là cái tôi muốn.",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 17"
   },
   {
-   "hangul": "regularly",
+   "headword": "regularly",
    "pos": "X",
    "meaning_vi": "đều đặn",
-   "example_ko": "He exercises regularly.",
+   "example_en": "He exercises regularly.",
    "example_vi": "Anh ấy tập thể dục đều đặn.",
    "family": "Từ khóa của bài",
    "priority": "core",
@@ -65,19 +65,19 @@
    "meaning_vi": "Mệnh đề quan hệ xác định (không có dấu phẩy)",
    "usage_context_vi": "Cho biết đang nói người nào, vật nào. `who` / `that` cho người; `which` / `that` cho vật. Khi đại từ quan hệ làm tân ngữ có thể lược bỏ: the book (that) I bought.",
    "contrasts": [],
-   "example_ko": "People who exercise regularly are healthier.\nThis is the phone that I bought last week.",
+   "example_en": "People who exercise regularly are healthier.\nThis is the phone that I bought last week.",
    "example_vi": "Những người tập thể dục đều đặn thì khỏe mạnh hơn.\nĐây là chiếc điện thoại tôi mua tuần trước.",
    "importance": "must",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 17, pp. 69-71",
    "note_vi": "Lỗi người Việt hay mắc: Lặp lại tân ngữ hoặc chủ ngữ: ~~the book that I bought it~~, ~~people who they live~~ → the book that I bought, people who live. Nhầm `who` cho vật: ~~the car who~~ → the car which/that.",
-   "topik_tip_vi": "Một câu Task 2 mẫu: Children who read a lot usually write better."
+   "exam_tip_vi": "Một câu Task 2 mẫu: Children who read a lot usually write better."
   },
   {
    "pattern": "whose / where / when",
    "meaning_vi": "whose (của) · where (nơi) · when (lúc)",
    "usage_context_vi": "`whose` + danh từ chỉ sở hữu; `where` thay cho nơi chốn (= in which); `when` thay cho thời gian.",
    "contrasts": [],
-   "example_ko": "I have a friend whose father is a pilot.\nThis is the town where I grew up.",
+   "example_en": "I have a friend whose father is a pilot.\nThis is the town where I grew up.",
    "example_vi": "Tôi có người bạn mà bố là phi công.\nĐây là thị trấn nơi tôi lớn lên.",
    "importance": "must",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 17, pp. 69-71",
@@ -93,7 +93,7 @@
      "diff_vi": "Không phẩy: cần thông tin đó để biết là ai. Có phẩy: bỏ đi câu vẫn đủ nghĩa."
     }
    ],
-   "example_ko": "My mother, who is a teacher, loves reading.\nHanoi, which is the capital of Vietnam, is over 1,000 years old.",
+   "example_en": "My mother, who is a teacher, loves reading.\nHanoi, which is the capital of Vietnam, is over 1,000 years old.",
    "example_vi": "Mẹ tôi, một giáo viên, rất thích đọc sách.\nHà Nội, thủ đô của Việt Nam, đã hơn 1.000 năm tuổi.",
    "importance": "normal",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 17, pp. 69-71",

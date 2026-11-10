@@ -1,7 +1,7 @@
 {
  "slug": "b1-u25-so-and-such-too-and-enough",
  "title": "Unit 25 · so, such, too, enough",
- "title_ko": "So and such, too and enough",
+ "title_en": "So and such, too and enough",
  "topic": "Destination B1 · Lấy gốc",
  "track": "beginner",
  "level": 3,
@@ -9,50 +9,50 @@
  "summary": "Diễn đạt mức độ và hệ quả: quá… đến nỗi, quá… để, đủ… để. Ngữ pháp: so + adj/adv (+ that) · such + (a/an) + adj + noun (+ that); too + adj/adv (+ to V); adj/adv + enough (+ to V) · enough + noun.",
  "vocab": [
   {
-   "hangul": "such",
+   "headword": "such",
    "pos": "X",
    "meaning_vi": "đến thế, như vậy",
-   "example_ko": "I have never seen such a big city.",
+   "example_en": "I have never seen such a big city.",
    "example_vi": "Tôi chưa từng thấy thành phố nào lớn như vậy.",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 25"
   },
   {
-   "hangul": "enough",
+   "headword": "enough",
    "pos": "X",
    "meaning_vi": "đủ",
-   "example_ko": "Is there enough food for everyone?",
+   "example_en": "Is there enough food for everyone?",
    "example_vi": "Có đủ đồ ăn cho mọi người không?",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 25"
   },
   {
-   "hangul": "too much",
+   "headword": "too much",
    "pos": "X",
    "meaning_vi": "quá nhiều (+ không đếm được)",
-   "example_ko": "There is too much traffic.",
+   "example_en": "There is too much traffic.",
    "example_vi": "Xe cộ quá đông.",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 25"
   },
   {
-   "hangul": "too many",
+   "headword": "too many",
    "pos": "X",
    "meaning_vi": "quá nhiều (+ đếm được)",
-   "example_ko": "There are too many cars.",
+   "example_en": "There are too many cars.",
    "example_vi": "Có quá nhiều ô tô.",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 25"
   },
   {
-   "hangul": "as a result",
+   "headword": "as a result",
    "pos": "X",
    "meaning_vi": "kết quả là",
-   "example_ko": "He did not study and, as a result, he failed.",
+   "example_en": "He did not study and, as a result, he failed.",
    "example_vi": "Cậu ấy không học và kết quả là thi trượt.",
    "family": "Từ khóa của bài",
    "priority": "core",
@@ -65,12 +65,12 @@
    "meaning_vi": "Quá… đến nỗi",
    "usage_context_vi": "`so` đi với tính từ hoặc trạng từ; `such` đi với cụm danh từ. Với many/much/few/little dùng `so`: so many people.",
    "contrasts": [],
-   "example_ko": "The film was so boring that I fell asleep.\nIt was such a good book that I read it twice.",
+   "example_en": "The film was so boring that I fell asleep.\nIt was such a good book that I read it twice.",
    "example_vi": "Phim chán đến nỗi tôi ngủ gật.\nCuốn sách hay đến nỗi tôi đọc hai lần.",
    "importance": "must",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 25, pp. 106-108",
    "note_vi": "Lỗi người Việt hay mắc: ~~such boring~~, ~~so a good book~~ → so boring, such a good book.",
-   "topik_tip_vi": "Task 2: Housing is so expensive that many young people cannot leave home."
+   "exam_tip_vi": "Task 2: Housing is so expensive that many young people cannot leave home."
   },
   {
    "pattern": "too + adj/adv (+ to V)",
@@ -82,7 +82,7 @@
      "diff_vi": "It was too cold to swim = It was so cold that we could not swim."
     }
    ],
-   "example_ko": "The tea is too hot to drink.\nHe speaks too quickly for me to understand.",
+   "example_en": "The tea is too hot to drink.\nHe speaks too quickly for me to understand.",
    "example_vi": "Trà nóng quá, không uống được.\nAnh ấy nói nhanh quá tôi không hiểu được.",
    "importance": "must",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 25, pp. 106-108",
@@ -93,7 +93,7 @@
    "meaning_vi": "Đủ… để",
    "usage_context_vi": "`enough` đứng sau tính từ, trạng từ nhưng đứng trước danh từ.",
    "contrasts": [],
-   "example_ko": "She is old enough to drive.\nWe do not have enough time.",
+   "example_en": "She is old enough to drive.\nWe do not have enough time.",
    "example_vi": "Cô ấy đủ tuổi lái xe.\nChúng ta không đủ thời gian.",
    "importance": "must",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 25, pp. 106-108",

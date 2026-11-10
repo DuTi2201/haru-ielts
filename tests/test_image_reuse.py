@@ -20,8 +20,8 @@ EDITOR = SimpleNamespace(id=uuid.UUID(int=9), role="editor")
 BUNDLE = lesson_seed.load_all()
 
 
-def word(hangul, meaning, prompt=None, kind="vocab"):
-    return lesson_image.Slot(kind=kind, label=hangul, prompt=prompt or f"A drawing of {hangul} on a plain background.", meaning=meaning)
+def word(headword, meaning, prompt=None, kind="vocab"):
+    return lesson_image.Slot(kind=kind, label=headword, prompt=prompt or f"A drawing of {headword} on a plain background.", meaning=meaning)
 
 
 def group(lesson_id, *slots):
@@ -123,12 +123,12 @@ class SuggestTests(unittest.TestCase):
         with mock.patch.object(lesson_image, "load_plan", return_value=plan):
             groups = []
             for i, r in enumerate(BUNDLE.lessons, start=1):
-                meanings = {v.hangul: v.meaning_vi for v in r.seed.vocab}
+                meanings = {v.headword: v.meaning_vi for v in r.seed.vocab}
                 groups.append(
                     group(
                         i,
                         *lesson_image.lesson_slots(
-                            r.seed.slug, [v.hangul for v in r.seed.vocab], [g.pattern for g in r.seed.grammar], r.practice, meanings
+                            r.seed.slug, [v.headword for v in r.seed.vocab], [g.pattern for g in r.seed.grammar], r.practice, meanings
                         ),
                     )
                 )

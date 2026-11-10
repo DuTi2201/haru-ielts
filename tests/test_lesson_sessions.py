@@ -44,7 +44,7 @@ class SessionPlanTests(unittest.TestCase):
 
     def test_a_sitting_is_not_too_heavy(self):
         for r in self.lessons:
-            core = {v.hangul for v in r.seed.vocab if v.priority == "core"}
+            core = {v.headword for v in r.seed.vocab if v.priority == "core"}
             for s in r.seed.sessions:
                 n = sum(1 for w in s.vocab if w in core)
                 self.assertLessEqual(n, 24, f"{r.seed.slug} · {s.title_vi}: {n} core words")
@@ -63,16 +63,16 @@ class SittingLectureTests(unittest.TestCase):
 
         lesson = N(
             title="Chào hỏi",
-            title_ko=None,
+            title_en=None,
             notes=[{"title": "n", "body": "b"}],
             sessions=[
                 {"title_vi": "Tự giới thiệu", "vocab": ["b", "a"], "grammar": ["P"]},
                 {"title_vi": "Hỏi tên", "vocab": ["c"], "grammar": []},
             ],
         )
-        vocab = [N(hangul=h, meaning_vi=h.upper(), usage_note_vi=None, example_ko=None) for h in "abc"]
+        vocab = [N(headword=h, meaning_vi=h.upper(), usage_note_vi=None, example_en=None) for h in "abc"]
         grammar = [
-            N(pattern="P", meaning_vi="m", usage_context_vi=None, note_vi=None, example_ko=None, example_vi=None, contrasts=[])
+            N(pattern="P", meaning_vi="m", usage_context_vi=None, note_vi=None, example_en=None, example_vi=None, contrasts=[])
         ]
         return lesson, vocab, grammar
 
@@ -81,14 +81,14 @@ class SittingLectureTests(unittest.TestCase):
 
         lesson, vocab, grammar = self._rows()
         src, vr, gr = la.sitting_source(lesson, vocab, grammar, 1)
-        self.assertEqual([v.hangul for v in vr], ["b", "a"])
+        self.assertEqual([v.headword for v in vr], ["b", "a"])
         self.assertEqual(len(gr), 1)
         self.assertEqual(src.notes, [])
         script = la.build_template_lecture(src).script
         self.assertIn("buổi 1: Tự giới thiệu", script)
         self.assertNotIn("C.", script)
         src2, vr2, gr2 = la.sitting_source(lesson, vocab, grammar, 2)
-        self.assertEqual([v.hangul for v in vr2], ["c"])
+        self.assertEqual([v.headword for v in vr2], ["c"])
         self.assertEqual(gr2, [])
 
     def test_no_such_sitting(self):

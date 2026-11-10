@@ -182,7 +182,7 @@ class RecordReviewTests(unittest.IsolatedAsyncioTestCase):
 
     async def test_the_last_answer_is_stored_for_the_lesson_screen(self):
         for correct in (True, False):
-            db = self._db(item_exists=True, row=VocabItem(id=1, hangul="날씨", meaning_vi="m", level=1))
+            db = self._db(item_exists=True, row=VocabItem(id=1, headword="날씨", meaning_vi="m", level=1))
             body = ItemStateReviewRequest(item_type="vocab_item", item_id=1, correct=correct)
             await content.record_item_review(body, db, SimpleNamespace(id=uuid.uuid4()))
             self.assertIs(self._added(db)[0].last_correct, correct)
@@ -198,13 +198,13 @@ class RecordReviewTests(unittest.IsolatedAsyncioTestCase):
         return [c.args[0] for c in db.add.call_args_list]
 
     async def test_a_right_answer_writes_no_error(self):
-        db = self._db(item_exists=True, row=VocabItem(id=1, hangul="비가 오다", meaning_vi="m", level=1))
+        db = self._db(item_exists=True, row=VocabItem(id=1, headword="비가 오다", meaning_vi="m", level=1))
         body = ItemStateReviewRequest(item_type="vocab_item", item_id=1, correct=True, mode="cloze")
         await content.record_item_review(body, db, SimpleNamespace(id=uuid.uuid4()))
         self.assertEqual([type(x) for x in self._added(db)], [ItemState])
 
     async def test_a_wrong_blank_on_a_chunk_is_logged_as_a_collocation_mistake(self):
-        row = VocabItem(id=1, hangul="비가 오다", meaning_vi="m", level=1, node_word="오다", family="Động từ đi với thời tiết")
+        row = VocabItem(id=1, headword="비가 오다", meaning_vi="m", level=1, node_word="오다", family="Động từ đi với thời tiết")
         db = self._db(item_exists=True, row=row)
         learner = uuid.uuid4()
         body = ItemStateReviewRequest(item_type="vocab_item", item_id=1, correct=False, mode="cloze", chosen="불다")
@@ -213,13 +213,13 @@ class RecordReviewTests(unittest.IsolatedAsyncioTestCase):
         self.assertIsInstance(state, ItemState)
         self.assertIsInstance(error, ErrorLog)
         self.assertEqual(
-            (error.learner_id, error.skill, error.error_type, error.example_ko, error.item_type, error.item_id, error.mode),
+            (error.learner_id, error.skill, error.error_type, error.example_en, error.item_type, error.item_id, error.mode),
             (learner, "vocab", "collocation", "비가 오다", "vocab_item", 1, "cloze"),
         )
         self.assertEqual(error.detail, {"chosen": "불다", "family": "Động từ đi với thời tiết"})
 
     async def test_a_forgotten_card_is_a_recall_failure_and_an_old_client_without_a_mode_still_logs(self):
-        row = VocabItem(id=2, hangul="날씨", meaning_vi="m", level=1)
+        row = VocabItem(id=2, headword="날씨", meaning_vi="m", level=1)
         db = self._db(item_exists=True, row=row)
         body = ItemStateReviewRequest(item_type="vocab_item", item_id=2, correct=False)
         await content.record_item_review(body, db, SimpleNamespace(id=uuid.uuid4()))
@@ -232,7 +232,7 @@ class RecordReviewTests(unittest.IsolatedAsyncioTestCase):
         body = ItemStateReviewRequest(item_type="grammar_point", item_id=3, correct=False, mode="recognize")
         await content.record_item_review(body, db, SimpleNamespace(id=uuid.uuid4()))
         error = self._added(db)[1]
-        self.assertEqual((error.skill, error.error_type, error.example_ko), ("grammar", "grammar_recall", "V + -(으)ㄹ 것 같다"))
+        self.assertEqual((error.skill, error.error_type, error.example_en), ("grammar", "grammar_recall", "V + -(으)ㄹ 것 같다"))
 
     async def test_a_wrong_answer_to_an_unknown_item_writes_no_error(self):
         db = self._db(item_exists=False)
@@ -314,14 +314,14 @@ class PlanTests(unittest.IsolatedAsyncioTestCase):
             return await content.get_my_plan(db, profile)
 
     async def test_the_editorial_is_offered_only_to_a_topik_ii_goal(self):
-        article = SimpleNamespace(id=uuid.uuid4(), title_ko="[기고] 서·논술형 수능", source_name="x", related_lesson_ids=[])
+        article = SimpleNamespace(id=uuid.uuid4(), title_en="[기고] 서·논술형 수능", source_name="x", related_lesson_ids=[])
         reading = lambda plan: [t for t in plan.tasks if t.kind == "reading"]  # noqa: E731
         self.assertEqual(len(reading(await self._plan([], article=article))), 1)
         for goal in (None, "talk", "topik1"):
             self.assertEqual(reading(await self._plan([], goal=goal, article=article)), [], goal)
 
     async def test_closed_sources_are_not_offered_to_a_learner(self):
-        article = SimpleNamespace(id=uuid.uuid4(), title_ko="[기고] 서·논술형 수능", source_name="x", related_lesson_ids=[])
+        article = SimpleNamespace(id=uuid.uuid4(), title_en="[기고] 서·논술형 수능", source_name="x", related_lesson_ids=[])
         with mock.patch.object(content.settings, "BILLING_ENABLED", True), mock.patch.object(
             content.settings, "BILLING_PRIVATE_SOURCES", True
         ):
@@ -454,7 +454,7 @@ class CountMasteredTests(unittest.TestCase):
 
 
 class LessonListTests(unittest.IsolatedAsyncioTestCase):
-    # id, title, level, slug, title_ko, summary, track, sort_order, practice counts, practice kind
+    # id, title, level, slug, title_en, summary, track, sort_order, practice counts, practice kind
     LESSONS = [
         (1, "Gia đình", 1, None, None, None, None, 0, None, None),
         (2, "Công việc", 1, None, None, None, None, 0, None, None),

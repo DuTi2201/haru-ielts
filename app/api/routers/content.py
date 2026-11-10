@@ -248,11 +248,11 @@ async def _article_words(db: AsyncSession, level_cap: int) -> ArticleWords:
         await db.execute(
             select(
                 EditorialArticle.id,
-                EditorialArticle.title_ko,
+                EditorialArticle.title_en,
                 EditorialArticle.source_name,
                 EditorialArticle.vocab_ids,
             )
-            .where(func.length(func.btrim(EditorialArticle.body_ko)) > 0, func.cardinality(EditorialArticle.vocab_ids) > 0)
+            .where(func.length(func.btrim(EditorialArticle.body_en)) > 0, func.cardinality(EditorialArticle.vocab_ids) > 0)
             .order_by(EditorialArticle.created_at.desc())
         )
     ).all()
@@ -430,7 +430,7 @@ def _vocab_preview(v: VocabItemOut) -> VocabItemOut:
     """What a locked lesson shows of a word: the word, its meaning and one example."""
     return v.model_copy(
         update={
-            "definition_ko": None,
+            "definition_en": None,
             "hanja": None,
             "sino_vietnamese": None,
             "family": None,
@@ -459,7 +459,7 @@ async def list_lessons(
                 Lesson.title,
                 Lesson.level,
                 Lesson.slug,
-                Lesson.title_ko,
+                Lesson.title_en,
                 Lesson.summary,
                 Lesson.track,
                 Lesson.sort_order,
@@ -521,7 +521,7 @@ async def list_lessons(
     )
     held = await billing_access.load_access(db, profile)
     out: list[LessonSummaryOut] = []
-    for lesson_id, title, level, slug, title_ko, summary, track, sort_order, counts, kind in lessons:
+    for lesson_id, title, level, slug, title_en, summary, track, sort_order, counts, kind in lessons:
         keys = lesson_items.get(lesson_id, [])
         is_review = kind == "review"  # the topic review: practice only, no words or cards of its own
         if not keys and kind not in ("review", "hangul"):  # nothing to study yet: not a choice worth offering
@@ -541,7 +541,7 @@ async def list_lessons(
                 mastered=count_mastered(keys, states) if states is not None and kind not in ("review", "hangul") else None,
                 is_next=lesson_id == next_id,
                 slug=slug,
-                title_ko=title_ko,
+                title_en=title_en,
                 summary=summary,
                 track=track,
                 sort_order=sort_order,
@@ -625,7 +625,7 @@ async def get_lesson(
     pictures = await lesson_image_db.visible_urls(
         db,
         [banner_prompt]
-        + [plan.vocab.get(v.hangul) for v in vocab]
+        + [plan.vocab.get(v.headword) for v in vocab]
         + [plan.grammar.get(g.pattern) for g in grammar],
     )
 
@@ -640,7 +640,7 @@ async def get_lesson(
         created_at=lesson.created_at,
         topics=[TopicOut.model_validate(t) for t in topics],
         vocab=[
-            VocabItemOut.model_validate(v).model_copy(update={"image_url": picture(plan.vocab.get(v.hangul))})
+            VocabItemOut.model_validate(v).model_copy(update={"image_url": picture(plan.vocab.get(v.headword))})
             for v in vocab
         ],
         grammar=[
@@ -656,7 +656,7 @@ async def get_lesson(
         ],
         image_url=picture(banner_prompt),
         slug=lesson.slug,
-        title_ko=lesson.title_ko,
+        title_en=lesson.title_en,
         summary=lesson.summary,
         track=lesson.track,
         sort_order=lesson.sort_order or 0,
@@ -921,7 +921,7 @@ async def finish_lesson_part(
     if lesson is None:
         raise _problem(status.HTTP_404_NOT_FOUND, "Lesson not found", "not_found")
     await _require_open(db, profile, lesson)
-    parts = {str(p.get("id")) for p in ((lesson.practice or {}).get("hangul") or {}).get("parts") or []}
+    parts = {str(p.get("id")) for p in ((lesson.practice or {}).get("headword") or {}).get("parts") or []}
     if part_id not in parts:
         raise _problem(status.HTTP_404_NOT_FOUND, "Part not found", "not_found")
     await db.execute(
@@ -937,10 +937,10 @@ def _error_example(exercise: dict, question_id: str) -> str:
         return str(exercise["answers"][0])[:300]  # the sentence the learner was asked to build
     for q in exercise.get("questions") or []:
         if q["id"] == question_id:
-            for text in (q.get("prompt_ko"), (exercise.get("stimulus") or {}).get("text"), exercise.get("instruction_ko")):
+            for text in (q.get("prompt_en"), (exercise.get("stimulus") or {}).get("text"), exercise.get("instruction_en")):
                 if text:
                     return str(text)[:300]
-    return str(exercise.get("instruction_ko") or exercise.get("title_vi") or exercise["id"])[:300]
+    return str(exercise.get("instruction_en") or exercise.get("title_vi") or exercise["id"])[:300]
 
 
 @router.post("/lessons/{lesson_id}/answers", response_model=LessonProgressOut, dependencies=[Depends(study_day)])
@@ -1000,7 +1000,7 @@ async def answer_lesson_question(
                 learner_id=profile.id,
                 skill=_ERROR_SKILL.get(exercise["skill"], exercise["skill"]),
                 error_type=exercise["type"],
-                example_ko=_error_example(exercise, body.question_id),
+                example_en=_error_example(exercise, body.question_id),
                 # the main linked grammar card, so "hay sai" lists it by name
                 item_type="grammar_point" if main else None,
                 item_id=main[0] if main else None,
@@ -1128,7 +1128,7 @@ async def list_corpus_items(
             id=i.id,
             film_id=i.film_id,
             film_title=films.get(i.film_id, ""),
-            text_ko=i.text_ko,
+            text_en=i.text_en,
             kind=i.kind,
             level=i.level,
             register=i.register,
@@ -1172,7 +1172,7 @@ async def _corpus_sentences(db: AsyncSession) -> list[Sentence]:
             select(
                 CorpusItem.id,
                 CorpusItem.film_id,
-                CorpusItem.text_ko,
+                CorpusItem.text_en,
                 CorpusItem.kind,
                 CorpusItem.level,
                 CorpusItem.register,
@@ -1189,7 +1189,7 @@ async def _corpus_sentences(db: AsyncSession) -> list[Sentence]:
                 Sentence(
                     id=r[0],
                     film_id=r[1],
-                    text_ko=r[2],
+                    text_en=r[2],
                     kind=r[3],
                     level=r[4],
                     register=r[5],
@@ -1223,7 +1223,7 @@ async def _corpus_out(db: AsyncSession, sentences: list[Sentence]) -> list[Corpu
             id=s.id,
             film_id=s.film_id,
             film_title=films.get(s.film_id, ""),
-            text_ko=s.text_ko,
+            text_en=s.text_en,
             kind=s.kind,
             level=s.level,
             register=s.register,
@@ -1315,14 +1315,14 @@ async def similar_corpus_items(
     ).all()
 
     by_id = {s.id: s for s in await _corpus_sentences(db)}
-    own_key = corpus_browse.normalize_key(target.text_ko)
+    own_key = corpus_browse.normalize_key(target.text_en)
     picked: list[tuple[Sentence, float]] = []
     seen_keys = {own_key}
     for near_id, dist in rows:
         sentence = by_id.get(near_id)  # absent = a repeat of a sentence kept elsewhere
         if sentence is None:
             continue
-        key = corpus_browse.normalize_key(sentence.text_ko)
+        key = corpus_browse.normalize_key(sentence.text_en)
         if key in seen_keys:
             continue
         seen_keys.add(key)
@@ -1404,7 +1404,7 @@ def _error_for(learner_id: uuid.UUID, body: ItemStateReviewRequest, row: VocabIt
         learner_id=learner_id,
         skill="vocab" if is_vocab else "grammar",
         error_type=weakness.error_type_for_review(body.item_type, mode, bool(getattr(row, "node_word", None))),
-        example_ko=row.hangul if is_vocab else row.pattern,
+        example_en=row.headword if is_vocab else row.pattern,
         item_type=body.item_type,
         item_id=body.item_id,
         mode=mode,
@@ -1603,7 +1603,7 @@ async def get_review_queue(
             pool = article_mates.get(source, []) if source else mates.get(row.lesson_id, [])
             built = build_cloze(row, pool, seed=f"{profile.id}:{item_id}:{schedule.reps}")
             if built is not None:
-                cloze = ClozeOut(prompt_ko=built.prompt_ko, answer=built.answer, choices=list(built.choices))
+                cloze = ClozeOut(prompt_en=built.prompt_en, answer=built.answer, choices=list(built.choices))
         items.append(
             ReviewQueueItem(
                 item_type=item_type,  # type: ignore[arg-type]
@@ -1921,7 +1921,7 @@ async def get_my_plan(
                     EditorialArticle.level_estimate,
                     EditorialArticle.related_lesson_ids,
                     EditorialArticle.created_at,
-                ).where(func.length(func.btrim(EditorialArticle.body_ko)) > 0)
+                ).where(func.length(func.btrim(EditorialArticle.body_en)) > 0)
             )
         ).all()
         finished = {
@@ -1956,7 +1956,7 @@ async def get_my_plan(
         tasks.append(
             TodayPlanTask(
                 kind="reading",
-                title=article.title_ko or article.source_name,
+                title=article.title_en or article.source_name,
                 subtitle=(
                     "Đọc báo · hợp với bài bạn vừa học"
                     if article.related_lesson_ids

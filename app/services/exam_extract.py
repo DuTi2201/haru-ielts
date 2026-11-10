@@ -2,7 +2,7 @@
 
 What went wrong with the first version (exam-v1), read off a real paper (TOPIK II
 102회 읽기): the whole paper went to the model in ONE call and came back as a single
-`stem_ko` string per question. The model then wrote whatever it liked into that
+`stem_en` string per question. The model then wrote whatever it liked into that
 string — the group instruction instead of the question, the first sentence of the
 passage, a banner's text — and it paraphrased ("고르십시오" became "고르시오",
 "우표 박물관" became "우체 박물관"). There was no answer key, so it guessed one, and
@@ -102,7 +102,7 @@ EXAM_SCHEMA: dict[str, Any] = {
                 "properties": {
                     "local_ref": {"type": "STRING", "description": "id tạm, vd 'P1', để câu hỏi tham chiếu"},
                     "kind": {"type": "STRING", "enum": ["đọc hiểu", "nghe", "biểu đồ"]},
-                    "body_ko": {
+                    "body_en": {
                         "type": "STRING",
                         "nullable": True,
                         "description": "toàn văn chép nguyên văn; null nếu bị che bản quyền",
@@ -122,16 +122,16 @@ EXAM_SCHEMA: dict[str, Any] = {
                     "number": {"type": "INTEGER", "description": "số câu in trong đề"},
                     "passage_ref": {"type": "STRING", "nullable": True},
                     "qtype_code": {"type": "STRING", "nullable": True},
-                    "instruction_ko": {"type": "STRING", "nullable": True},
+                    "instruction_en": {"type": "STRING", "nullable": True},
                     "group_from": {"type": "INTEGER", "nullable": True},
                     "group_to": {"type": "INTEGER", "nullable": True},
-                    "stem_ko": {"type": "STRING", "description": "chữ in ngay sau số câu; chuỗi rỗng nếu không có"},
+                    "stem_en": {"type": "STRING", "description": "chữ in ngay sau số câu; chuỗi rỗng nếu không có"},
                     "options": {"type": "ARRAY", "items": {"type": "STRING"}},
                     "answer_guess": {"type": "INTEGER", "nullable": True},
                     "page": {"type": "INTEGER", "description": "số N trong nhãn [Trang N] của trang nơi câu hỏi bắt đầu"},
                     "confidence": {"type": "NUMBER"},
                 },
-                "required": ["number", "stem_ko", "options", "page", "confidence"],
+                "required": ["number", "stem_en", "options", "page", "confidence"],
             },
         },
         "answer_key": {
@@ -184,12 +184,12 @@ REFINE_SCHEMA: dict[str, Any] = {
                 "type": "OBJECT",
                 "properties": {
                     "number": {"type": "INTEGER"},
-                    "stem_ko": {
+                    "stem_en": {
                         "type": "STRING",
                         "nullable": True,
                         "description": "chữ in ngay sau số câu, có <u>…</u> ở phần bị gạch chân; null nếu không yêu cầu",
                     },
-                    "passage_ko": {
+                    "passage_en": {
                         "type": "STRING",
                         "nullable": True,
                         "description": "mọi chữ/số trong khung/biển/biểu đồ/đoạn văn của câu, có <u>…</u> nếu có gạch chân; null nếu không có",
@@ -242,23 +242,23 @@ QUY TẮC CHÉP
    kèm số liệu, vd "가격: 48%". Chỉ chép những gì in, không diễn giải.
 
 CÁCH TÁCH
-- instruction_ko: dòng chỉ dẫn CHUNG của nhóm, in ở đầu nhóm câu, vd
+- instruction_en: dòng chỉ dẫn CHUNG của nhóm, in ở đầu nhóm câu, vd
   "※ [9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)". Chép nguyên văn
   từng chữ như in (mỗi kỳ thi có thể dùng từ hơi khác, vd "그래프" hay "도표"; đừng tự "chuẩn
   hóa" và đừng bỏ chữ nào như "가장"). Bỏ "※" ở đầu và "(각 2점)" ở cuối; giữ "[9~12]". MỌI câu trong nhóm đều mang cùng
-  instruction_ko (lặp lại cho từng câu). Nếu nhóm bắt đầu ở trang không có trong tập
+  instruction_en (lặp lại cho từng câu). Nếu nhóm bắt đầu ở trang không có trong tập
   này thì để null. group_from / group_to là hai số trong [ ].
-- stem_ko: chữ in ngay sau số câu. Vd câu 1: "이 동네로 이사를 ( ) 일 년이 됐다." Nếu sau
+- stem_en: chữ in ngay sau số câu. Vd câu 1: "이 동네로 이사를 ( ) 일 년이 됐다." Nếu sau
   số câu không có chữ (câu chỉ gồm khung quảng cáo/biểu đồ rồi đến phương án) → "".
-  Đừng đưa chữ trong khung quảng cáo hay đoạn văn vào stem_ko.
+  Đừng đưa chữ trong khung quảng cáo hay đoạn văn vào stem_en.
 - passages: đoạn văn / bài đọc / khung quảng cáo / biển báo / biểu đồ / các câu (가)~(라)
   cần sắp xếp — phần nằm giữa chỉ dẫn và các phương án mà câu hỏi dựa vào. Mỗi đoạn một
   local_ref ("P1", "P2"...) DÙNG CHUNG cho mọi câu dựa vào nó, không chép lại cùng một
-  đoạn nhiều lần. Dạng <보기>: body_ko bắt đầu bằng dòng "<보기>", rồi câu trong khung
+  đoạn nhiều lần. Dạng <보기>: body_en bắt đầu bằng dòng "<보기>", rồi câu trong khung
   <보기>, rồi đoạn văn có ㉠~㉣.
 - Nếu đề in thông báo đoạn văn KHÔNG được công bố vì bản quyền (vd "저작권 관련 법령에
   따라 본 문항의 지문은 공개하지 않습니다", "NOTICE ... NOT disclosed") → tạo passage đó
-  với withheld=true, body_ko=null; câu hỏi của nhóm vẫn trích xuất bình thường.
+  với withheld=true, body_en=null; câu hỏi của nhóm vẫn trích xuất bình thường.
 - Câu hỏi bị cắt ở mép tập trang (thiếu phương án, hoặc đoạn văn nằm ở trang không có
   ở đây) → vẫn trích xuất phần thấy được và đặt confidence dưới 0.5; hệ thống sẽ lấy
   bản đầy đủ từ lượt đọc khác.
@@ -304,10 +304,10 @@ def build_refine_prompt(page: int, wants: list[dict[str, Any]]) -> str:
                 "khung/đoạn văn, 'none' nếu nhìn kỹ vẫn không thấy gạch chân"
             )
         if want.get("stem"):
-            parts.append("chép stem_ko = chữ in ngay sau số câu (chuỗi rỗng nếu không có)")
+            parts.append("chép stem_en = chữ in ngay sau số câu (chuỗi rỗng nếu không có)")
         if want.get("passage"):
             parts.append(
-                "chép passage_ko = MỌI chữ và số in trong khung quảng cáo / biển báo / áp phích / biểu đồ / đoạn "
+                "chép passage_en = MỌI chữ và số in trong khung quảng cáo / biển báo / áp phích / biểu đồ / đoạn "
                 "văn mà câu hỏi dựa vào, theo thứ tự đọc (khung nhiều dòng: mỗi dòng một hàng; biểu đồ: mỗi nhãn kèm "
                 "số liệu, vd \"가격: 48%\"; không diễn giải, không tóm tắt; null nếu trên trang không có gì như vậy)"
             )
@@ -603,7 +603,7 @@ _STEM_TABLE = standard_table(STANDARD_STEMS)
 
 def standard_suggestion(instruction: str | None, stem: str) -> dict[str, str]:
     """The standard wording to offer where an instruction or a stem is a standard one
-    with characters missing, e.g. {"instruction_ko": "[3~4] 밑줄 친 부분과 의미가 가장 …"}.
+    with characters missing, e.g. {"instruction_en": "[3~4] 밑줄 친 부분과 의미가 가장 …"}.
     Empty when nothing is a near-miss. Wording that is not in the lists at all (another
     kind of paper) is left alone, and a suggestion is never applied by the system."""
     out: dict[str, str] = {}
@@ -611,11 +611,11 @@ def standard_suggestion(instruction: str | None, stem: str) -> dict[str, str]:
         mark, body = split_marker(instruction)
         hit = standard_match(body, _INSTRUCTION_TABLE)
         if hit:
-            out["instruction_ko"] = f"{mark} {hit}".strip()
+            out["instruction_en"] = f"{mark} {hit}".strip()
     if stem:
         hit = standard_match(stem, _STEM_TABLE)
         if hit:
-            out["stem_ko"] = hit
+            out["stem_en"] = hit
     return out
 
 
@@ -742,7 +742,7 @@ def parse_read(data: dict[str, Any], index: int, span: tuple[int, int]) -> _Read
         kind = _txt(raw.get("kind"))
         if kind not in ("đọc hiểu", "nghe", "biểu đồ"):
             kind = "đọc hiểu"
-        body = tidy_text(raw.get("body_ko"), multiline=True) or None
+        body = tidy_text(raw.get("body_en"), multiline=True) or None
         withheld = bool(raw.get("withheld"))
         if withheld:
             body = None
@@ -762,14 +762,14 @@ def parse_read(data: dict[str, Any], index: int, span: tuple[int, int]) -> _Read
         number = _int(raw.get("number"), 1)
         if number is None:
             continue
-        instruction = clean_instruction(raw.get("instruction_ko"))
+        instruction = clean_instruction(raw.get("instruction_en"))
         group = group_of(instruction)
         if group is None:
             low, high = _int(raw.get("group_from"), 1), _int(raw.get("group_to"), 1)
             group = (low, high) if low is not None and high is not None and low <= high else None
         ref = _txt(raw.get("passage_ref"))
         options = [clean_option(o) for o in _list(raw.get("options")) if isinstance(o, (str, int, float))]
-        stem = tidy_text(raw.get("stem_ko"), multiline=True)
+        stem = tidy_text(raw.get("stem_en"), multiline=True)
         if instruction is None and _MARKER_RE.match(stem) and "십시오" in stem:
             instruction, stem = clean_instruction(stem), ""  # the instruction was put where the stem goes
             group = group_of(instruction) or group
@@ -1057,18 +1057,18 @@ def apply_refine(merged: _Merged, wants: list[_Want], data: dict[str, Any]) -> N
         passage = merged.passage_of(q)
         confidence = _confidence(raw.get("confidence"))
         if want.underline:
-            stem = _refined_text(q.stem, raw.get("stem_ko")) if q.stem else None
+            stem = _refined_text(q.stem, raw.get("stem_en")) if q.stem else None
             if stem is not None:
                 q.stem = stem
                 merged.refined_questions.add(number)
             elif passage is not None and passage.body:
-                body = _refined_text(passage.body, raw.get("passage_ko"))
+                body = _refined_text(passage.body, raw.get("passage_en"))
                 if body is not None:
                     passage.body = body
                     merged.refined_passages.add(passage.key)
                     merged.refined_questions.add(number)
         if want.passage:
-            body = tidy_text(raw.get("passage_ko"), multiline=True)
+            body = tidy_text(raw.get("passage_en"), multiline=True)
             if not comparable(body) or UNREADABLE in body:
                 continue
             if passage is not None and not passage.withheld:
@@ -1459,7 +1459,7 @@ def build_draft(
         payload: dict[str, Any] = {
             "local_ref": refs[p.key],
             "kind": p.kind,
-            "body_ko": p.body,
+            "body_en": p.body,
             "withheld": p.withheld,
             "source_page": page or 1,
             "flags": flags,
@@ -1489,9 +1489,9 @@ def build_draft(
             "number": number,
             "passage_ref": refs.get(passage.key) if passage is not None else None,
             "qtype_code": qtype,
-            "instruction_ko": q.instruction,
+            "instruction_en": q.instruction,
             "group_range": list(q.group) if q.group else None,
-            "stem_ko": q.stem,
+            "stem_en": q.stem,
             "options": q.options,
             "answer": None,
             "answer_from_key": False,

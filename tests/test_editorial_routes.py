@@ -19,8 +19,8 @@ DIRTY = "\n".join(["보기 설정", "닫기", "글자 크기", "보통", "크게
 
 def article(**kw):
     base = dict(
-        id=uuid.uuid4(), source_name="경향신문", source_url="https://x/1", title_ko="[정동칼럼]미 국채시장",
-        level_estimate=5, topic_tags=["경제"], body_ko=DIRTY, vocab_ids=[], grammar_ids=[],
+        id=uuid.uuid4(), source_name="경향신문", source_url="https://x/1", title_en="[정동칼럼]미 국채시장",
+        level_estimate=5, topic_tags=["경제"], body_en=DIRTY, vocab_ids=[], grammar_ids=[],
         thinking_guide_text=None, created_at=datetime.now(timezone.utc), images=[], images_fetched_at=None,
         study_pack=None, study_status="none", study_updated_at=None,
         related_lesson_ids=[], unlock_hint=None, practice=None,
@@ -65,7 +65,7 @@ class ReadPathTests(unittest.IsolatedAsyncioTestCase):
             editorial.generate_study_pack, "delay"
         ):
             out = await editorial.get_editorial(art.id, db)
-        self.assertEqual(out.body_ko.split("\n"), [P1, P2])
+        self.assertEqual(out.body_en.split("\n"), [P1, P2])
         self.assertTrue(out.images_pending)
         delay.assert_called_once_with(str(art.id))
         self.assertIsNotNone(art.images_fetched_at)  # stamped so a 2nd view does not re-queue
@@ -88,7 +88,7 @@ class ReadPathTests(unittest.IsolatedAsyncioTestCase):
             editorial.refresh_editorial_images, "delay", side_effect=RuntimeError("redis down")
         ), mock.patch.object(editorial.generate_study_pack, "delay"):
             out = await editorial.get_editorial(art.id, db)
-        self.assertEqual(out.body_ko.split("\n"), [P1, P2])
+        self.assertEqual(out.body_en.split("\n"), [P1, P2])
         self.assertFalse(out.images_pending)
 
 
@@ -139,7 +139,7 @@ class AudioPathTests(unittest.IsolatedAsyncioTestCase):
         self.assertEqual(out.job_id, live.id)
 
     async def test_empty_article_is_409(self):
-        art = article(body_ko="닫기\n로그인")
+        art = article(body_en="닫기\n로그인")
         db = fake_db(art)
         with self.assertRaises(Exception) as ctx:
             await editorial.request_article_audio(art.id, ArticleAudioRequest(), self.request(), db)
@@ -148,7 +148,7 @@ class AudioPathTests(unittest.IsolatedAsyncioTestCase):
 
 def ready_pack(art):
     """A study pack valid for `art`'s current cleaned text."""
-    cleaned = clean_article_text(art.body_ko)
+    cleaned = clean_article_text(art.body_en)
     paras = split_paragraphs(cleaned)
     return {
         "version": sp.STUDY_VERSION,
@@ -158,7 +158,7 @@ def ready_pack(art):
         "key_terms": [{"ko": "국채", "vi": "trái phiếu chính phủ"}],
         "paragraphs": [
             {
-                "easy_ko": f"쉬운 {i}.",
+                "easy_en": f"쉬운 {i}.",
                 "sentences": [
                     {"ko": s_, "vi": f"dịch {i}", "words": [{"surface": "국채시장이", "base": None, "pos": None, "meaning_vi": "thị trường trái phiếu"}], "grammar_notes_vi": []}
                     for s_ in sp.split_sentences(p)
@@ -214,7 +214,7 @@ class StudyPackReadTests(unittest.IsolatedAsyncioTestCase):
         study_delay.assert_not_called()
         self.assertEqual(out.study_status, "ready")
         self.assertEqual(out.study.summary_vi, "Tóm tắt.")
-        self.assertEqual(len(out.study.paragraphs), len(out.body_ko.split("\n")))
+        self.assertEqual(len(out.study.paragraphs), len(out.body_en.split("\n")))
         self.assertEqual(out.study.paragraphs[0].sentences[0].words[0].meaning_vi, "thị trường trái phiếu")
 
     async def test_pack_for_other_text_is_not_shown_and_is_regenerated(self):
@@ -236,10 +236,10 @@ class StudyPackReadTests(unittest.IsolatedAsyncioTestCase):
         ):
             out = await editorial.get_editorial(art.id, db)
         self.assertEqual(out.study_status, "none")
-        self.assertEqual(out.body_ko.split("\n"), [P1, P2])
+        self.assertEqual(out.body_en.split("\n"), [P1, P2])
 
     async def test_article_without_body_is_never_queued(self):
-        art = article(body_ko="닫기\n로그인")
+        art = article(body_en="닫기\n로그인")
         out, study_delay = await self.get(art)
         study_delay.assert_not_called()
         self.assertEqual(out.study_status, "none")
@@ -289,7 +289,7 @@ class PresentHandoffTests(unittest.IsolatedAsyncioTestCase):
             res = mock.MagicMock()
             if "grammar_point" in text:
                 res.scalars.return_value.all.return_value = [
-                    SimpleNamespace(id=5, pattern="-(으)ㄹ수록", meaning_vi="càng… càng", example_ko="많을수록 좋다")
+                    SimpleNamespace(id=5, pattern="-(으)ㄹ수록", meaning_vi="càng… càng", example_en="많을수록 좋다")
                 ]
             elif "vocab_item" in text:
                 res.all.return_value = [(31, "국채")]
@@ -317,7 +317,7 @@ class PresentHandoffTests(unittest.IsolatedAsyncioTestCase):
     async def test_an_article_without_text_is_404(self):
         from fastapi import HTTPException
 
-        art = article(body_ko="  ")
+        art = article(body_en="  ")
         with self.assertRaises(HTTPException) as cm:
             await editorial.present_editorial(art.id, self._db(art), SimpleNamespace(id=uuid.uuid4()))
         self.assertEqual(cm.exception.status_code, 404)

@@ -545,7 +545,7 @@ class Lexicon:
     """The grammar and vocabulary cards of the seeded lessons, ready to be matched against."""
 
     grammar: tuple[tuple[int, int, str, str, frozenset[str]], ...] = ()  # id, lesson_id, pattern, meaning_vi, cores
-    vocab: Mapping[str, tuple[tuple[int, int, str], ...]] = field(default_factory=dict)  # hangul -> (id, lesson_id, meaning_vi)
+    vocab: Mapping[str, tuple[tuple[int, int, str], ...]] = field(default_factory=dict)  # headword -> (id, lesson_id, meaning_vi)
     lessons: Mapping[int, str] = field(default_factory=dict)  # lesson_id -> title
 
 
@@ -554,15 +554,15 @@ def lexicon_of(
     vocab_rows: Iterable[tuple[int, int, str, str]],
     lessons: Mapping[int, str] | None = None,
 ) -> Lexicon:
-    """`grammar_rows`: (id, lesson_id, pattern, meaning_vi); `vocab_rows`: (id, lesson_id, hangul, meaning_vi)."""
+    """`grammar_rows`: (id, lesson_id, pattern, meaning_vi); `vocab_rows`: (id, lesson_id, headword, meaning_vi)."""
     g = tuple(
         (gid, lid, pat, meaning, frozenset(pattern_cores(pat)))
         for gid, lid, pat, meaning in grammar_rows
         if pattern_cores(pat)
     )
     v: dict[str, list[tuple[int, int, str]]] = defaultdict(list)
-    for vid, lid, hangul, meaning in vocab_rows:
-        for hw in re.split(r"\s*/\s*", hangul.strip()):  # "아침 / 점심 / 저녁" is three words on one card
+    for vid, lid, headword, meaning in vocab_rows:
+        for hw in re.split(r"\s*/\s*", headword.strip()):  # "아침 / 점심 / 저녁" is three words on one card
             if hw:
                 v[hw].append((vid, lid, meaning))
     return Lexicon(grammar=g, vocab={k: tuple(x) for k, x in v.items()}, lessons=dict(lessons or {}))

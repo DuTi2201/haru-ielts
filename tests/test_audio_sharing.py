@@ -64,9 +64,9 @@ class AudioKeyTests(unittest.TestCase):
 
 class RequestSchemaTests(unittest.TestCase):
     def test_the_client_need_not_send_the_text(self):
-        self.assertIsNone(VocabAudioRequest().text_ko)
+        self.assertIsNone(VocabAudioRequest().text_en)
         self.assertEqual(VocabAudioRequest().voice, "en-female-1")
-        self.assertEqual(VocabAudioRequest(text_ko="x", voice="ko-male-2").voice, "ko-male-2")
+        self.assertEqual(VocabAudioRequest(text_en="x", voice="ko-male-2").voice, "ko-male-2")
         self.assertEqual(CorpusAudioRequest().prompt_version, "v2")
 
     def test_only_known_voices_and_versions_are_accepted(self):
@@ -237,7 +237,7 @@ class WordEndpointBase(unittest.IsolatedAsyncioTestCase):
 
 
 class VocabAudioEndpointTests(WordEndpointBase):
-    WORD = SimpleNamespace(id=5, hangul="  학교 ")
+    WORD = SimpleNamespace(id=5, headword="  학교 ")
 
     async def ask(self, item, *executed, body=None, vocab_id=5, headers=None):
         db = self.make_db(item, *executed)
@@ -247,7 +247,7 @@ class VocabAudioEndpointTests(WordEndpointBase):
         return out, delay
 
     async def test_a_new_word_is_voiced_from_the_database_under_the_words_key(self):
-        out, delay = await self.ask(self.WORD, None, None, None, body=VocabAudioRequest(text_ko="무료 광고"))
+        out, delay = await self.ask(self.WORD, None, None, None, body=VocabAudioRequest(text_en="무료 광고"))
         job_id, vid, text, voice, version, key = delay.call_args.args
         self.assertEqual(text, "학교")  # the stored word, not what the client sent
         self.assertEqual(key, audio_keys.vocab_audio_key("학교", "en-female-1", "v1"))
@@ -257,7 +257,7 @@ class VocabAudioEndpointTests(WordEndpointBase):
 
     async def test_the_same_word_in_another_lesson_asks_for_the_same_recording(self):
         _, first = await self.ask(self.WORD, None, None, None)
-        _, second = await self.ask(SimpleNamespace(id=777, hangul="학교"), None, None, None, vocab_id=777)
+        _, second = await self.ask(SimpleNamespace(id=777, headword="학교"), None, None, None, vocab_id=777)
         self.assertEqual(first.call_args.args[5], second.call_args.args[5])
 
     async def test_a_recording_that_exists_is_free_and_not_made_again(self):
@@ -296,7 +296,7 @@ class VocabAudioEndpointTests(WordEndpointBase):
 
     async def test_a_word_with_no_text_is_404(self):
         with self.assertRaises(HTTPException) as caught:
-            await self.ask(SimpleNamespace(id=1, hangul="   "))
+            await self.ask(SimpleNamespace(id=1, headword="   "))
         self.assertEqual(caught.exception.status_code, 404)
 
     async def test_when_the_allowance_is_spent_nothing_is_queued(self):
@@ -308,7 +308,7 @@ class VocabAudioEndpointTests(WordEndpointBase):
 
 
 class CorpusAudioEndpointTests(WordEndpointBase):
-    ITEM = SimpleNamespace(text_ko="  오늘 날씨가 좋아요 ")
+    ITEM = SimpleNamespace(text_en="  오늘 날씨가 좋아요 ")
     ID = str(uuid.UUID(int=1))
 
     async def ask(self, item, *executed, body=None, corpus_id=None):
@@ -319,7 +319,7 @@ class CorpusAudioEndpointTests(WordEndpointBase):
         return out, delay
 
     async def test_the_sentence_voiced_is_the_stored_one(self):
-        _, delay = await self.ask(self.ITEM, None, None, body=CorpusAudioRequest(text_ko="something else"))
+        _, delay = await self.ask(self.ITEM, None, None, body=CorpusAudioRequest(text_en="something else"))
         args = delay.call_args.args
         self.assertEqual(args[2], "오늘 날씨가 좋아요")
         self.assertEqual(self.added_job().idempotency_key, f"{self.ID}:en-female-1:v2")
@@ -332,7 +332,7 @@ class CorpusAudioEndpointTests(WordEndpointBase):
         self.spend.assert_not_awaited()
 
     async def test_a_bad_or_unknown_sentence_id_is_404(self):
-        for item, cid in ((None, self.ID), (self.ITEM, "not-a-uuid"), (SimpleNamespace(text_ko=""), self.ID)):
+        for item, cid in ((None, self.ID), (self.ITEM, "not-a-uuid"), (SimpleNamespace(text_en=""), self.ID)):
             with self.assertRaises(HTTPException) as caught:
                 await self.ask(item, corpus_id=cid)
             self.assertEqual(caught.exception.status_code, 404)

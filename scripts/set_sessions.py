@@ -4,7 +4,7 @@
 
 A plan file defines PLANS = {slug: [session, ...]}; a session is a dict with title_vi, can_do_vi,
 use_vi, topik_vi, vocab, grammar, check (see app.services.lesson_seed.SessionSeed). A vocab entry
-may be a `hangul` or "family:<name>" (every word of that family not yet used, in lesson order).
+may be a `headword` or "family:<name>" (every word of that family not yet used, in lesson order).
 The result is written literally into app/seed/lessons/<slug>.json and validated by LessonSeed.
 """
 import json
@@ -33,10 +33,10 @@ def expand(lesson: dict, sessions: list[dict]) -> list[dict]:
                 # every word no sitting names (and none earlier took), in lesson order
                 named = {x for t in sessions for x in t.get("vocab", []) if x not in ("rest",) and not x.startswith("family:")}
                 done = {x for t in out for x in t["vocab"]}
-                vocab += [v["hangul"] for v in lesson["vocab"] if v["hangul"] not in named and v["hangul"] not in done and v["hangul"] not in vocab]
+                vocab += [v["headword"] for v in lesson["vocab"] if v["headword"] not in named and v["headword"] not in done and v["headword"] not in vocab]
             elif w.startswith("family:"):
                 fam = w[len("family:"):]
-                vocab += [v["hangul"] for v in lesson["vocab"] if fam in (v.get("family") or "") and v["hangul"] not in used and v["hangul"] not in vocab]
+                vocab += [v["headword"] for v in lesson["vocab"] if fam in (v.get("family") or "") and v["headword"] not in used and v["headword"] not in vocab]
             else:
                 vocab.append(w)
         used.update(vocab)

@@ -43,10 +43,10 @@ _SAY_GAP = "..."  # a Korean line ending in "..." is followed by a gap to repeat
 # ----------------------------------------------------------------- the lesson --
 @dataclass(frozen=True)
 class VocabLine:
-    hangul: str
+    headword: str
     meaning_vi: str
     note_vi: str | None = None
-    example_ko: str | None = None
+    example_en: str | None = None
     example_vi: str | None = None
 
 
@@ -56,7 +56,7 @@ class GrammarLine:
     meaning_vi: str
     usage_vi: str | None = None
     note_vi: str | None = None
-    example_ko: str | None = None  # several: one per line
+    example_en: str | None = None  # several: one per line
     example_vi: str | None = None
     contrasts: tuple[tuple[str, str], ...] = ()  # (pattern, diff_vi)
 
@@ -64,7 +64,7 @@ class GrammarLine:
 @dataclass(frozen=True)
 class LessonSource:
     title: str
-    title_ko: str | None
+    title_en: str | None
     vocab: list[VocabLine]
     grammar: list[GrammarLine]
     notes: list[tuple[str | None, str]] = field(default_factory=list)  # (title, body)
@@ -89,9 +89,9 @@ def source_from_rows(lesson: Any, vocab_rows: Sequence[Any], grammar_rows: Seque
     notes = getattr(lesson, "notes", None) or []
     return LessonSource(
         title=lesson.title,
-        title_ko=getattr(lesson, "title_ko", None),
+        title_en=getattr(lesson, "title_en", None),
         vocab=[
-            VocabLine(v.hangul, v.meaning_vi, v.usage_note_vi, v.example_ko, getattr(v, "example_vi", None))
+            VocabLine(v.headword, v.meaning_vi, v.usage_note_vi, v.example_en, getattr(v, "example_vi", None))
             for v in vocab_rows
         ],
         grammar=[
@@ -100,7 +100,7 @@ def source_from_rows(lesson: Any, vocab_rows: Sequence[Any], grammar_rows: Seque
                 g.meaning_vi,
                 g.usage_context_vi,
                 getattr(g, "note_vi", None),
-                g.example_ko,
+                g.example_en,
                 getattr(g, "example_vi", None),
                 tuple((c.get("pattern", ""), c.get("diff_vi", "")) for c in (g.contrasts or [])),
             )
@@ -114,7 +114,7 @@ def source_from_rows(lesson: Any, vocab_rows: Sequence[Any], grammar_rows: Seque
 _ICONS: dict[str, str] | None = None
 
 
-def word_icon(hangul: str) -> str | None:
+def word_icon(headword: str) -> str | None:
     """The id of the picture for a word (public/illus/<id>.svg of the app), made by hand in
     scripts/icons and listed in app/seed/word_icons.json; None for a word with no picture."""
     global _ICONS
@@ -124,7 +124,7 @@ def word_icon(hangul: str) -> str | None:
 
         path = Path(__file__).resolve().parent.parent / "seed" / "word_icons.json"
         _ICONS = json.loads(path.read_text(encoding="utf8")) if path.exists() else {}
-    return _ICONS.get(hangul.strip())
+    return _ICONS.get(headword.strip())
 
 
 def sitting_source(lesson: Any, vocab_rows: Sequence[Any], grammar_rows: Sequence[Any], n: int):
@@ -136,14 +136,14 @@ def sitting_source(lesson: Any, vocab_rows: Sequence[Any], grammar_rows: Sequenc
     if not 1 <= n <= len(sessions):
         return None
     ses = sessions[n - 1]
-    by_word = {v.hangul: v for v in vocab_rows}
+    by_word = {v.headword: v for v in vocab_rows}
     by_card = {g.pattern: g for g in grammar_rows}
     vr = [by_word[w] for w in ses.get("vocab", []) if w in by_word]
     gr = [by_card[p] for p in ses.get("grammar", []) if p in by_card]
     if not vr and not gr:
         return None
     src = source_from_rows(lesson, vr, gr)
-    src = replace(src, title=f"{lesson.title}, buổi {n}: {ses.get('title_vi', '')}".strip(), title_ko=None, notes=[], full_notes=())
+    src = replace(src, title=f"{lesson.title}, buổi {n}: {ses.get('title_vi', '')}".strip(), title_en=None, notes=[], full_notes=())
     return src, vr, gr
 
 
@@ -298,7 +298,7 @@ def _ko_line(text: str, *, shadow: bool) -> str:
 
 
 def _examples(line: GrammarLine | VocabLine) -> list[tuple[str, str | None]]:
-    ko = [x.strip() for x in (line.example_ko or "").split("\n") if x.strip()]
+    ko = [x.strip() for x in (line.example_en or "").split("\n") if x.strip()]
     vi = [x.strip() for x in (line.example_vi or "").split("\n") if x.strip()]
     return [(k, vi[i] if i < len(vi) else None) for i, k in enumerate(ko)]
 
@@ -418,10 +418,10 @@ def build_template_lecture(lesson: LessonSource) -> Lecture:
 
     n_v, n_g, n_n = len(lesson.vocab), len(lesson.grammar), len(lesson.notes)
 
-    t = slide("title", title=lesson.title, title_ko=lesson.title_ko, vocab=n_v, grammar=n_g, notes=n_n)
+    t = slide("title", title=lesson.title, title_en=lesson.title_en, vocab=n_v, grammar=n_g, notes=n_n)
     say(_sentence(f"Bài học {spoken_vi(lesson.title)}"), t, "title")
-    if lesson.title_ko:
-        say(_ko_line(lesson.title_ko.replace("/", ","), shadow=False), t, "title_ko")
+    if lesson.title_en:
+        say(_ko_line(lesson.title_en.replace("/", ","), shadow=False), t, "title_en")
     counts = [f"{n_v} từ vựng"] + ([f"{n_g} mẫu ngữ pháp"] if n_g else []) + ([f"{n_n} lưu ý"] if n_n else [])
     say(_sentence(f"Bài này có {', '.join(counts)}. Mỗi từ mình đọc một lần, bạn nhắc lại theo trong quãng nghỉ"), t, "counts")
 
@@ -433,14 +433,14 @@ def build_template_lecture(lesson: LessonSource) -> Lecture:
             "word",
             index=i,
             of=n_v,
-            hangul=v.hangul,
-            icon=word_icon(v.hangul),
+            headword=v.headword,
+            icon=word_icon(v.headword),
             meaning=v.meaning_vi,
             note=v.note_vi if v.note_vi and not _is_editorial(v.note_vi) else None,
             examples=[{"ko": ko, "vi": vi} for ko, vi in _examples(v)],
         )
         # one line: the word, the gap to say it, then the meaning (shown with its own run)
-        say(f"{_ko_line(v.hangul, shadow=True)} {_sentence(spoken_vi(v.meaning_vi))}", w, "word")
+        say(f"{_ko_line(v.headword, shadow=True)} {_sentence(spoken_vi(v.meaning_vi))}", w, "word")
         if v.note_vi and not _is_editorial(v.note_vi):
             say(_sentence(spoken_vi(v.note_vi)), w, "note")
         for k, (ko, vi) in enumerate(_examples(v)):
@@ -449,10 +449,10 @@ def build_template_lecture(lesson: LessonSource) -> Lecture:
             if vi:
                 say(_sentence(spoken_vi(vi)), w, f"ex{k}_vi")
     if n_v > 1:
-        r = slide("review", words=[{"hangul": v.hangul, "meaning": v.meaning_vi} for v in lesson.vocab])
+        r = slide("review", words=[{"headword": v.headword, "meaning": v.meaning_vi} for v in lesson.vocab])
         say("Bây giờ mình ôn lại. Nghe từng từ và nhắc lại.", r, "title")
         for i, v in enumerate(lesson.vocab):
-            say(_ko_line(v.hangul, shadow=True), r, f"w{i}")  # same text as above: the voice reuses it
+            say(_ko_line(v.headword, shadow=True), r, f"w{i}")  # same text as above: the voice reuses it
 
     # ---- grammar
     if n_g:
@@ -594,7 +594,7 @@ def plan_parts(n_vocab: int, n_grammar: int) -> list[Part]:
 
 def story_vocab(lesson: LessonSource) -> list[podcast_script.Vocab]:
     return [
-        (v.hangul, None, v.meaning_vi, v.example_ko, None, None, v.note_vi if v.note_vi and not _is_editorial(v.note_vi) else None)  # type: ignore[misc]
+        (v.headword, None, v.meaning_vi, v.example_en, None, None, v.note_vi if v.note_vi and not _is_editorial(v.note_vi) else None)  # type: ignore[misc]
         for v in lesson.vocab
     ]
 
@@ -607,7 +607,7 @@ def story_grammar(lesson: LessonSource) -> list[podcast_script.Grammar]:
             (
                 g.pattern,
                 g.meaning_vi,
-                g.example_ko.replace("\n", " / ") if g.example_ko else None,
+                g.example_en.replace("\n", " / ") if g.example_en else None,
                 g.usage_vi,
                 None,
                 " ".join(extra_bits) or None,

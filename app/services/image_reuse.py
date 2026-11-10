@@ -44,9 +44,9 @@ def senses(meaning: str | None) -> frozenset[str]:
     return frozenset(out)
 
 
-def stem(hangul: str) -> str:
+def stem(headword: str) -> str:
     """샤워하다 -> 샤워, 완성되다 -> 완성: the noun a verb is made on."""
-    text = unicodedata.normalize("NFC", hangul or "").strip()
+    text = unicodedata.normalize("NFC", headword or "").strip()
     for suffix in _VERB_SUFFIXES:
         if text.endswith(suffix) and len(text) > len(suffix):
             return text[: -len(suffix)]

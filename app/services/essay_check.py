@@ -85,11 +85,11 @@ def register_of(sentence: str) -> str | None:
 def expected_register(item: Mapping[str, Any]) -> str | None:
     """The level the task asks for, read from the item's own words (the instruction and the
     model answer), or None when the item does not settle it."""
-    words = " ".join(_text(item.get(k)) for k in ("instruction_vi", "instruction_ko", "title_vi"))
+    words = " ".join(_text(item.get(k)) for k in ("instruction_vi", "instruction_en", "title_vi"))
     for label, keys in (("합쇼체", ("합쇼체",)), ("해요체", ("해요체",)), ("plain", ("thể trần thuật", "한다체", "-다)", "thể -다", "`-다`"))):
         if any(k in words for k in keys):
             return label
-    levels = Counter(r for r in (register_of(s) for s in sentences(_text(item.get("model_answer_ko")))) if r)
+    levels = Counter(r for r in (register_of(s) for s in sentences(_text(item.get("model_answer_en")))) if r)
     if levels:
         top, n = levels.most_common(1)[0]
         if n >= max(2, int(sum(levels.values()) * 0.8)):
@@ -162,10 +162,10 @@ GRADE_SCHEMA: dict[str, Any] = {
         },
         "missing_vi": {"type": "array", "items": {"type": "string"}},
         "strengths_vi": {"type": "array", "items": {"type": "string"}},
-        "corrected_ko": {"type": "string"},
+        "corrected_en": {"type": "string"},
         "summary_vi": {"type": "string"},
     },
-    "required": ["criteria", "fixes", "missing_vi", "strengths_vi", "corrected_ko", "summary_vi"],
+    "required": ["criteria", "fixes", "missing_vi", "strengths_vi", "corrected_en", "summary_vi"],
 }
 
 
@@ -184,9 +184,9 @@ def grade_prompt(item: Mapping[str, Any], text: str, local: Mapping[str, Any]) -
         for i, r in enumerate(rubric)
     )
     task = {
-        "đề_tiếng_Anh": _text(item.get("prompt_ko")) or None,
-        "yêu_cầu": _text(item.get("instruction_vi")) or _text(item.get("instruction_ko")) or None,
-        "các_ý_cần_có": item.get("bullets_ko") or None,
+        "đề_tiếng_Anh": _text(item.get("prompt_en")) or None,
+        "yêu_cầu": _text(item.get("instruction_vi")) or _text(item.get("instruction_en")) or None,
+        "các_ý_cần_có": item.get("bullets_en") or None,
         "khung_bài": item.get("framework_vi") or None,
         "số_liệu_của_đề": item.get("data") or None,
         "độ_dài_số_từ": item.get("limits") or None,
@@ -196,7 +196,7 @@ def grade_prompt(item: Mapping[str, Any], text: str, local: Mapping[str, Any]) -
     want = local.get("register")
     level_line = f"Mức lịch sự đề yêu cầu: {REGISTER_LABEL[want]}." if want else "Văn phong rõ ràng, tự nhiên, thống nhất trong cả đoạn."
     errors = "\n".join(f"  - {e}" for e in item.get("common_errors_vi") or []) or "  (không có)"
-    model = _text(item.get("model_answer_ko"))
+    model = _text(item.get("model_answer_en"))
     learner = json.dumps({"bài_của_học_viên": text}, ensure_ascii=False)
     return f"""Bạn là giáo viên tiếng Anh IELTS chấm bài viết của người học Việt Nam (trình độ của bài: {_text(item.get('title_vi'))}). Nhận xét bằng tiếng Việt, thẳng thắn, cụ thể.
 
@@ -222,7 +222,7 @@ Cách chấm:
 - "fixes": mỗi lỗi một dòng. "original" là đoạn chép NGUYÊN VĂN từ bài của học viên (ngắn, đủ để nhận ra chỗ sai), "corrected" là cách sửa bằng tiếng Anh, "category" ∈ {', '.join(FIX_CATEGORIES)}, "reason_vi" giải thích ngắn bằng tiếng Việt (nêu quy tắc). Tối đa {MAX_FIXES} lỗi quan trọng nhất. Câu đúng thì KHÔNG ghi. Không sửa văn phong khi câu đã đúng và tự nhiên.
 - "missing_vi": các ý của đề mà bài còn thiếu (rỗng nếu đủ).
 - "strengths_vi": một đến ba điểm làm tốt, cụ thể.
-- "corrected_ko": bài của học viên sau khi CHỈ sửa các lỗi trên — giữ nguyên ý, từ và cách viết của học viên; không viết lại thành bài mẫu.
+- "corrected_en": bài của học viên sau khi CHỈ sửa các lỗi trên — giữ nguyên ý, từ và cách viết của học viên; không viết lại thành bài mẫu.
 - "summary_vi": hai câu: nhận xét chung và một việc nên làm ở lần viết sau.
 Trả về JSON đúng theo schema."""
 
@@ -290,7 +290,7 @@ def assemble_result(item: Mapping[str, Any], text: str, local: Mapping[str, Any]
     if total is not None and max_total:
         total = round(total / max_total * points * 2) / 2  # on the item's own scale
     fixes = _auto_fixes(local) + _clean_fixes((graded or {}).get("fixes"), text)
-    corrected = _text((graded or {}).get("corrected_ko"))
+    corrected = _text((graded or {}).get("corrected_en"))
     if corrected == text.strip():
         corrected = ""
     return {
@@ -300,7 +300,7 @@ def assemble_result(item: Mapping[str, Any], text: str, local: Mapping[str, Any]
         "fixes": fixes,
         "missing_vi": [m for m in ((graded or {}).get("missing_vi") or []) if _text(m)][:5],
         "strengths_vi": [s for s in ((graded or {}).get("strengths_vi") or []) if _text(s)][:3],
-        "corrected_ko": corrected[: MAX_TEXT_CHARS * 2],
+        "corrected_en": corrected[: MAX_TEXT_CHARS * 2],
         "summary_vi": _text((graded or {}).get("summary_vi")),
         "length": local.get("length"),
         "patterns": local.get("patterns") or [],
@@ -323,7 +323,7 @@ def error_rows(result: Mapping[str, Any]) -> list[dict[str, Any]]:
         rows.append(
             {
                 "error_type": ERROR_TYPE_OF_CATEGORY.get(category, "writing_grammar"),
-                "example_ko": f["original"],
+                "example_en": f["original"],
                 "detail": {"original": f["original"], "corrected": f["corrected"], "reason_vi": f["reason_vi"]},
             }
         )
@@ -351,7 +351,7 @@ def check(item: Mapping[str, Any], text: str, generate: Generate, model: str) ->
             "fixes": [],
             "missing_vi": [local["blocking"]],
             "strengths_vi": [],
-            "corrected_ko": "",
+            "corrected_en": "",
             "summary_vi": local["blocking"],
             "length": None,
             "patterns": [],

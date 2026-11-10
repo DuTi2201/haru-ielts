@@ -339,7 +339,7 @@ async def request_lecture_audio(
 
         if not hit:
             generate_lecture_audio.delay(
-                str(job.id), lesson_id, body.text_ko, body.voice, body.prompt_version
+                str(job.id), lesson_id, body.text_en, body.voice, body.prompt_version
             )
 
     return JobAccepted(
@@ -616,7 +616,7 @@ async def request_corpus_audio(
     aloud is a public read like GET /corpus/items; only progress (đã nhớ/
     chưa nhớ) needs an account, so `Job.owner_id` stays null here.
 
-    The sentence that is voiced is the one in the database, whatever `text_ko` says; a new
+    The sentence that is voiced is the one in the database, whatever `text_en` says; a new
     recording spends from the hourly allowance (an existing one is free).
     """
     try:
@@ -624,8 +624,8 @@ async def request_corpus_audio(
     except ValueError:
         raise HTTPException(status.HTTP_404_NOT_FOUND, detail="Sentence not found") from None
     item = await db.get(CorpusItem, item_id)
-    text_ko = audio_keys.speakable(item.text_ko) if item is not None else ""
-    if not text_ko:
+    text_en = audio_keys.speakable(item.text_en) if item is not None else ""
+    if not text_en:
         raise HTTPException(status.HTTP_404_NOT_FOUND, detail="Sentence not found")
     # with Azure on, a sentence is voiced again once by the Korean voice (its own key), like a word
     version = f"{body.prompt_version}+{azure_tts.spec()}" if azure_tts.is_configured() else body.prompt_version
@@ -670,7 +670,7 @@ async def request_corpus_audio(
         await db.refresh(job)
 
         if not hit:
-            generate_corpus_audio.delay(str(job.id), corpus_item_id, text_ko, body.voice, body.prompt_version, cache_key)
+            generate_corpus_audio.delay(str(job.id), corpus_item_id, text_en, body.voice, body.prompt_version, cache_key)
 
     return JobAccepted(
         job_id=job.id,
@@ -714,17 +714,17 @@ async def request_vocab_audio(
 
     The recording is filed under the WORD (text + voice + version), not under the row: the
     same word in another lesson or topic is found already recorded and plays at once, for
-    every learner and device. The word voiced is the one in the database, whatever `text_ko`
+    every learner and device. The word voiced is the one in the database, whatever `text_en`
     says. A recording made before this (filed under the row's id) is still found. Only a
     word nobody has had recorded spends from the hourly allowance."""
     item = await db.get(VocabItem, vocab_item_id)
-    text_ko = audio_keys.speakable(item.hangul) if item is not None else ""
-    if not text_ko:
+    text_en = audio_keys.speakable(item.headword) if item is not None else ""
+    if not text_en:
         raise HTTPException(status.HTTP_404_NOT_FOUND, detail="Word not found")
     # with Azure on, a word is voiced again once by the Korean voice (its own key); the Chirp
     # recordings stay under theirs, so turning Azure off finds them again
     version = f"{body.prompt_version}+{azure_tts.spec()}" if azure_tts.is_configured() else body.prompt_version
-    cache_key = audio_keys.vocab_audio_key(text_ko, body.voice, version)
+    cache_key = audio_keys.vocab_audio_key(text_en, body.voice, version)
 
     hit = (
         await db.execute(select(VocabItemAudio).where(VocabItemAudio.cache_key == cache_key))
@@ -776,7 +776,7 @@ async def request_vocab_audio(
 
         if not hit:
             generate_vocab_audio.delay(
-                str(job.id), str(vocab_item_id), text_ko, body.voice, body.prompt_version, cache_key
+                str(job.id), str(vocab_item_id), text_en, body.voice, body.prompt_version, cache_key
             )
 
     return JobAccepted(

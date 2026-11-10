@@ -165,7 +165,7 @@ def _targets_block(targets: list[dict[str, Any]] | None) -> str:
     if not targets:
         return ""
     lines = "\n".join(
-        f"- [{t['key']}] {t['ko']} ({t['vi']})" + (f" — ví dụ: {t['example_ko']}" if t.get("example_ko") else "")
+        f"- [{t['key']}] {t['ko']} ({t['vi']})" + (f" — ví dụ: {t['example_en']}" if t.get("example_en") else "")
         for t in targets
     )
     return f"\nKiến thức học viên ĐÃ HỌC trong app và cần VẬN DỤNG ở lượt này:\n{lines}"
@@ -203,13 +203,13 @@ def fallback_topic(band: int, seen: list[str], seed: int = 0) -> dict[str, Any]:
     bank = FALLBACK_TOPICS[frame_for(band).band]
     fresh = [t for t in bank if t[0] not in seen] or bank
     ko, vi = fresh[seed % len(fresh)]
-    return {"question_ko": ko, "question_vi": vi, "angle_vi": "", "words": [], "source": "bank"}
+    return {"question_en": ko, "question_vi": vi, "angle_vi": "", "words": [], "source": "bank"}
 
 
 TOPIC_SCHEMA: dict[str, Any] = {
     "type": "object",
     "properties": {
-        "question_ko": {"type": "string"},
+        "question_en": {"type": "string"},
         "question_vi": {"type": "string"},
         "angle_vi": {"type": "string"},
         "words": {
@@ -217,7 +217,7 @@ TOPIC_SCHEMA: dict[str, Any] = {
             "items": {"type": "object", "properties": {"ko": {"type": "string"}, "vi": {"type": "string"}}, "required": ["ko", "vi"]},
         },
     },
-    "required": ["question_ko", "question_vi", "angle_vi", "words"],
+    "required": ["question_en", "question_vi", "angle_vi", "words"],
 }
 
 
@@ -242,7 +242,7 @@ Không lặp lại các đề đã ra:
 {'Câu hỏi phải tạo cơ hội TỰ NHIÊN để dùng các kiến thức cần vận dụng ở trên.' if targets else ''}
 
 Ra MỘT câu hỏi:
-- question_ko: câu hỏi tiếng Hàn (해요체), gắn với chủ đề bài đang học và đời sống của học viên, đòi hỏi nêu ý kiến hoặc lựa chọn CÓ LÝ DO (không phải câu hỏi chỉ cần 1 từ). Đúng trình độ: mức thấp hỏi về sở thích, thói quen; mức cao hỏi so sánh, ưu/nhược, giải pháp.
+- question_en: câu hỏi tiếng Hàn (해요체), gắn với chủ đề bài đang học và đời sống của học viên, đòi hỏi nêu ý kiến hoặc lựa chọn CÓ LÝ DO (không phải câu hỏi chỉ cần 1 từ). Đúng trình độ: mức thấp hỏi về sở thích, thói quen; mức cao hỏi so sánh, ưu/nhược, giải pháp.
 - question_vi: dịch câu hỏi sang tiếng Việt.
 - angle_vi: 1 câu gợi 2 hướng có thể trả lời (bằng tiếng Việt), không viết sẵn câu trả lời.
 - words: 3–6 từ tiếng Hàn hữu ích cho đề này, ưu tiên từ đã học, kèm nghĩa tiếng Việt."""
@@ -257,7 +257,7 @@ Tài liệu / dàn ý họ dán vào: «{material.strip()[:4000] or '(trống)'}
 Họ sẽ nói {frame.target[0]}–{frame.target[1]} giây.{_targets_block(targets)}
 
 Trả về:
-- question_ko: tên đề tài bằng tiếng Hàn, tự nhiên, ngắn.
+- question_en: tên đề tài bằng tiếng Hàn, tự nhiên, ngắn.
 - question_vi: tên đề tài tiếng Việt.
 - angle_vi: 1–2 câu: giáo sư / hội đồng sẽ chú ý điều gì ở bài này (câu hỏi nghiên cứu rõ chưa, vì sao chọn phương pháp, kết quả nói được gì).
 - words: 4–8 THUẬT NGỮ tiếng Hàn quan trọng nhất cho nội dung này (ko), kèm nghĩa tiếng Việt (vi)."""
@@ -282,7 +282,7 @@ MAX_TARGETS = 6
 
 def editorial_handoff(
     kind: str,
-    title_ko: str,
+    title_en: str,
     key_terms: list[dict[str, Any]] | None,
     grammar: list[dict[str, Any]] | None,
     outline: dict[str, Any] | None,
@@ -291,14 +291,14 @@ def editorial_handoff(
     """The title, material and targets of a round about a news article.
 
     `key_terms` are the study pack's [{"ko", "vi"}]; `grammar` the article's grammar cards as
-    {"id", "pattern", "meaning_vi", "example_ko"}; `outline` its model outline (현상/원인/결과/해결
-    방안); `words` hangul -> the id of the article's own vocabulary card, so a key term that is a
+    {"id", "pattern", "meaning_vi", "example_en"}; `outline` its model outline (현상/원인/결과/해결
+    방안); `words` headword -> the id of the article's own vocabulary card, so a key term that is a
     card is targeted as that card ("v:<id>") and counts like any studied word; a term that is not
     a card is "k:<term>". "present" asks for a 2-minute summary with the learner's view; "debate"
     asks them to take a side on the article's view and argue it."""
     if kind not in EDITORIAL_KINDS:
         raise ValueError(f"unknown kind {kind!r}")
-    title = re.sub(r"\s+", " ", title_ko or "").strip()[:200]
+    title = re.sub(r"\s+", " ", title_en or "").strip()[:200]
     words = words or {}
     terms = [t for t in (key_terms or []) if isinstance(t, dict) and _s(t.get("ko"), 40)]
     lines: list[str] = []
@@ -325,13 +325,13 @@ def editorial_handoff(
     targets: list[dict[str, Any]] = []
     for g in cards[:EDITORIAL_GRAMMAR_TARGETS]:
         targets.append({"key": f"g:{g['id']}", "kind": "grammar", "ko": _s(g.get("pattern"), 80),
-                        "vi": _s(g.get("meaning_vi"), 120), "example_ko": _s(g.get("example_ko"), 200),
+                        "vi": _s(g.get("meaning_vi"), 120), "example_en": _s(g.get("example_en"), 200),
                         "why_vi": "Ngữ pháp của bài báo vừa đọc"})
     for t in terms[:EDITORIAL_TERM_TARGETS]:
         ko = _s(t.get("ko"), 40)
         card = words.get(ko)
         targets.append({"key": f"v:{card}" if card is not None else f"k:{ko}", "kind": "word", "ko": ko,
-                        "vi": _s(t.get("vi"), 120), "example_ko": "", "why_vi": "Thuật ngữ then chốt của bài báo"})
+                        "vi": _s(t.get("vi"), 120), "example_en": "", "why_vi": "Thuật ngữ then chốt của bài báo"})
     return {"title": title, "material": "\n".join(lines)[:6000], "targets": targets}
 
 
@@ -345,14 +345,14 @@ def merge_targets(first: list[dict[str, Any]], rest: list[dict[str, Any]], limit
 
 def parse_topic(text: str, max_words: int = 6) -> dict[str, Any] | None:
     raw = _json(text)
-    ko = _s(raw.get("question_ko"), 200)
+    ko = _s(raw.get("question_en"), 200)
     if not ko or not re.search(r"[가-힣]", ko):
         return None
     words = []
     for w in raw.get("words") or []:
         if isinstance(w, dict) and _s(w.get("ko"), 40):
             words.append({"ko": _s(w.get("ko"), 40), "vi": _s(w.get("vi"), 80)})
-    return {"question_ko": ko, "question_vi": _s(raw.get("question_vi"), 300),
+    return {"question_en": ko, "question_vi": _s(raw.get("question_vi"), 300),
             "angle_vi": _s(raw.get("angle_vi"), 400), "words": words[:max_words], "source": "model"}
 
 
@@ -368,12 +368,12 @@ OUTLINE_SCHEMA: dict[str, Any] = {
                 "properties": {
                     "part": {"type": "string", "enum": list(PARTS)},
                     "idea_vi": {"type": "string"},
-                    "keywords_ko": {"type": "array", "items": {"type": "string"}},
-                    "starter_ko": {"type": "string"},
+                    "keywords_en": {"type": "array", "items": {"type": "string"}},
+                    "starter_en": {"type": "string"},
                     "suggested": {"type": "boolean"},
                     "target_keys": {"type": "array", "items": {"type": "string"}},
                 },
-                "required": ["part", "idea_vi", "keywords_ko", "starter_ko", "suggested", "target_keys"],
+                "required": ["part", "idea_vi", "keywords_en", "starter_en", "suggested", "target_keys"],
             },
         },
     },
@@ -381,13 +381,13 @@ OUTLINE_SCHEMA: dict[str, Any] = {
 }
 
 
-def build_outline_prompt(*, level_rules: str, frame: Frame, question_ko: str, notes_vi: str,
+def build_outline_prompt(*, level_rules: str, frame: Frame, question_en: str, notes_vi: str,
                          targets: list[dict[str, Any]] | None = None, material: str = "") -> str:
     parts = "\n".join(
         f"- {p} ({PARTS[p]['label_vi']}): {PARTS[p]['hint_vi']} Mở câu gợi ý: {' / '.join(frame.starters.get(p, ()))}"
         for p in frame.parts
     )
-    return f"""Học viên người Việt chuẩn bị nói liền một mạch bằng tiếng Hàn để trả lời: «{question_ko}»
+    return f"""Học viên người Việt chuẩn bị nói liền một mạch bằng tiếng Hàn để trả lời: «{question_en}»
 {level_rules}
 Ghi chú ý tưởng của học viên (tiếng Việt): «{notes_vi.strip() or '(trống)'}»
 {('Tài liệu bài thuyết trình của học viên (tiếng Việt hoặc Hàn): «' + material.strip()[:4000] + '»') if material.strip() else ''}{_targets_block(targets)}
@@ -397,10 +397,10 @@ Biến ghi chú thành DÀN Ý theo đúng các phần sau, đúng thứ tự:
 
 Với mỗi phần:
 - idea_vi: ý của học viên cho phần này, viết gọn bằng tiếng Việt (giữ đúng ý họ). Nếu ghi chú không có ý cho phần này, đề xuất một ý đơn giản hợp với các ý còn lại và đặt suggested = true.
-- keywords_ko: 2–4 TỪ KHOÁ tiếng Hàn (từ hoặc cụm 1–3 từ, đúng trình độ) để học viên tự ghép câu. TUYỆT ĐỐI không viết câu hoàn chỉnh.
-- starter_ko: nửa đầu câu mở cho phần này (dựa trên mở câu gợi ý), kết thúc bằng "…", không viết hết câu.
+- keywords_en: 2–4 TỪ KHOÁ tiếng Hàn (từ hoặc cụm 1–3 từ, đúng trình độ) để học viên tự ghép câu. TUYỆT ĐỐI không viết câu hoàn chỉnh.
+- starter_en: nửa đầu câu mở cho phần này (dựa trên mở câu gợi ý), kết thúc bằng "…", không viết hết câu.
 - target_keys: khoá [..] của kiến thức cần vận dụng hợp để dùng trong phần này (mỗi kiến thức đặt vào đúng 1 phần; để trống nếu không có).
-Với tài liệu thuyết trình: keywords_ko là THUẬT NGỮ chuyên ngành tiếng Hàn tương ứng với nội dung của họ.
+Với tài liệu thuyết trình: keywords_en là THUẬT NGỮ chuyên ngành tiếng Hàn tương ứng với nội dung của họ.
 Mục tiêu là học viên tự nói ra câu, không đọc thuộc."""
 
 
@@ -414,13 +414,13 @@ def parse_outline(text: str, frame: Frame, targets: list[dict[str, Any]] | None 
     out = []
     for p in frame.parts:
         it = by_part.get(p, {})
-        kws = [_s(k, 40) for k in (it.get("keywords_ko") or []) if _s(k, 40)][:4]
+        kws = [_s(k, 40) for k in (it.get("keywords_en") or []) if _s(k, 40)][:4]
         out.append({
             "part": p,
             "label_vi": PARTS[p]["label_vi"],
             "idea_vi": _s(it.get("idea_vi"), 300),
-            "keywords_ko": kws,
-            "starter_ko": _s(it.get("starter_ko"), 80) or (frame.starters.get(p, ("",))[0]),
+            "keywords_en": kws,
+            "starter_en": _s(it.get("starter_en"), 80) or (frame.starters.get(p, ("",))[0]),
             "suggested": bool(it.get("suggested")) if it else True,
             "targets": [
                 {"key": k, "ko": tkeys[k]["ko"]} for k in dict.fromkeys(it.get("target_keys") or []) if k in tkeys
@@ -453,10 +453,10 @@ IDEAS_SCHEMA: dict[str, Any] = {
                     "stance_vi": {"type": "string"},
                     "reason_vi": {"type": "string"},
                     "example_vi": {"type": "string"},
-                    "hook_ko": {"type": "string"},
+                    "hook_en": {"type": "string"},
                     "hook_vi": {"type": "string"},
                 },
-                "required": ["tool_vi", "stance_vi", "reason_vi", "example_vi", "hook_ko", "hook_vi"],
+                "required": ["tool_vi", "stance_vi", "reason_vi", "example_vi", "hook_en", "hook_vi"],
             },
         },
     },
@@ -464,15 +464,15 @@ IDEAS_SCHEMA: dict[str, Any] = {
 }
 
 
-def build_ideas_prompt(*, level_rules: str, frame: Frame, question_ko: str, material: str = "") -> str:
+def build_ideas_prompt(*, level_rules: str, frame: Frame, question_en: str, material: str = "") -> str:
     tools = "\n".join(f"- {t}" for t in THINKING_TOOLS)
     mat = f"\nTài liệu học viên đã có: «{material.strip()[:3000]}»" if material.strip() else ""
     hook = (
-        "hook_ko: một câu MỞ ĐẦU gây chú ý (câu hỏi cho người nghe, một con số, hoặc mở bằng câu chuyện), ngắn, đúng trình độ."
+        "hook_en: một câu MỞ ĐẦU gây chú ý (câu hỏi cho người nghe, một con số, hoặc mở bằng câu chuyện), ngắn, đúng trình độ."
         if frame.band >= 3
-        else "hook_ko: một câu mở đầu thật đơn giản, đúng trình độ (ví dụ 저는 …을/를 좋아해요)."
+        else "hook_en: một câu mở đầu thật đơn giản, đúng trình độ (ví dụ 저는 …을/를 좋아해요)."
     )
-    return f"""Học viên người Việt cần trình bày bằng tiếng Hàn về: «{question_ko}» nhưng KHÔNG BIẾT NÓI GÌ (có thể ít nói, hay lo lắng, hoặc đề không thuộc chuyên môn của họ).{mat}
+    return f"""Học viên người Việt cần trình bày bằng tiếng Hàn về: «{question_en}» nhưng KHÔNG BIẾT NÓI GÌ (có thể ít nói, hay lo lắng, hoặc đề không thuộc chuyên môn của họ).{mat}
 {level_rules}
 Đưa 3 HẠT GIỐNG Ý TƯỞNG khác nhau, mỗi cái dùng một công cụ tư duy trong danh sách:
 {tools}
@@ -491,7 +491,7 @@ def parse_ideas(text: str) -> list[dict[str, str]]:
     out = []
     for it in raw.get("seeds") or []:
         if isinstance(it, dict) and _s(it.get("stance_vi")):
-            out.append({k: _s(it.get(k), 400) for k in ("tool_vi", "stance_vi", "reason_vi", "example_vi", "hook_ko", "hook_vi")})
+            out.append({k: _s(it.get(k), 400) for k in ("tool_vi", "stance_vi", "reason_vi", "example_vi", "hook_en", "hook_vi")})
     return out[:3]
 
 
@@ -610,7 +610,7 @@ def syllables(transcript: str) -> int:
 EVAL_SCHEMA: dict[str, Any] = {
     "type": "object",
     "properties": {
-        "transcript_ko": {"type": "string"},
+        "transcript_en": {"type": "string"},
         "off_topic": {"type": "boolean"},
         "parts": {
             "type": "array",
@@ -619,10 +619,10 @@ EVAL_SCHEMA: dict[str, Any] = {
                 "properties": {
                     "part": {"type": "string", "enum": list(PARTS)},
                     "present": {"type": "boolean"},
-                    "said_ko": {"type": "string"},
+                    "said_en": {"type": "string"},
                     "note_vi": {"type": "string"},
                 },
-                "required": ["part", "present", "said_ko", "note_vi"],
+                "required": ["part", "present", "said_en", "note_vi"],
             },
         },
         "scores": {
@@ -644,10 +644,10 @@ EVAL_SCHEMA: dict[str, Any] = {
                     "key": {"type": "string"},
                     "used": {"type": "boolean"},
                     "correct": {"type": "boolean"},
-                    "said_ko": {"type": "string"},
+                    "said_en": {"type": "string"},
                     "note_vi": {"type": "string"},
                 },
-                "required": ["key", "used", "correct", "said_ko", "note_vi"],
+                "required": ["key", "used", "correct", "said_en", "note_vi"],
             },
         },
         "strength_vi": {"type": "string"},
@@ -690,16 +690,16 @@ EVAL_SCHEMA: dict[str, Any] = {
             "items": {
                 "type": "object",
                 "properties": {
-                    "q_ko": {"type": "string"},
+                    "q_en": {"type": "string"},
                     "q_vi": {"type": "string"},
                     "kind": {"type": "string", "enum": ["why", "example", "detail", "counter", "method", "limit"]},
                 },
-                "required": ["q_ko", "q_vi", "kind"],
+                "required": ["q_en", "q_vi", "kind"],
             },
         },
         "compare_vi": {"type": "string"},
     },
-    "required": ["transcript_ko", "off_topic", "parts", "scores", "score_notes_vi", "connectives_used", "targets_used",
+    "required": ["transcript_en", "off_topic", "parts", "scores", "score_notes_vi", "connectives_used", "targets_used",
                  "strength_vi", "tips_vi", "upgraded", "stretch", "pron_issues", "follow_ups", "compare_vi"],
 }
 
@@ -723,7 +723,7 @@ def _previous_lines(prev: dict[str, Any] | None) -> str:
     m = prev.get("metrics") or {}
     return f"""
 Đây là LẦN NÓI THỨ {int(prev.get('index', 0)) + 2}. Lần trước:
-- Bản chép: «{ev.get('transcript_ko', '')}»
+- Bản chép: «{ev.get('transcript_en', '')}»
 - Điểm: {', '.join(f'{CRITERIA[k]} {sc.get(k)}' for k in CRITERIA if k in sc)}
 - Phần còn thiếu: {', '.join(missing) or 'không'}
 - Ngập ngừng: {m.get('pauses', 0)} khoảng lặng ≥1 giây, {m.get('fillers', 0)} tiếng 음/어
@@ -731,7 +731,7 @@ def _previous_lines(prev: dict[str, Any] | None) -> str:
 compare_vi: 1–2 câu nói cụ thể lần này tiến bộ / chưa tiến bộ ở đâu so với lần trước (cấu trúc, từ nối, độ trôi, vận dụng). Chấm điểm lần này độc lập, đúng như nó là."""
 
 
-def build_eval_prompt(*, level_rules: str, frame: Frame, question_ko: str, measure: AudioMeasure,
+def build_eval_prompt(*, level_rules: str, frame: Frame, question_en: str, measure: AudioMeasure,
                       outline: list[dict[str, Any]] | None, previous: dict[str, Any] | None,
                       targets: list[dict[str, Any]] | None = None, known: list[str] | None = None,
                       focus: str | None = None, material: str = "") -> str:
@@ -746,12 +746,12 @@ def build_eval_prompt(*, level_rules: str, frame: Frame, question_ko: str, measu
     n_follow, follow_rule = FOLLOW_UP_RULES[frame.band]
     if frame.mode == "defense":
         n_follow, follow_rule = max(2, n_follow), DEFENSE_FOLLOW_UPS
-    what = "bài thuyết trình ngắn về đề tài của chính học viên" if frame.mode == "defense" else f"câu hỏi «{question_ko}»"
+    what = "bài thuyết trình ngắn về đề tài của chính học viên" if frame.mode == "defense" else f"câu hỏi «{question_en}»"
     mat = f"\nTài liệu học viên chuẩn bị (để biết họ định nói gì): «{material.strip()[:3000]}»" if material.strip() else ""
     focus_line = f"\nTRỌNG TÂM LUYỆN của học viên: {CRITERIA[focus]} — tips_vi đầu tiên phải về tiêu chí này." if focus in CRITERIA else ""
     tgt = ""
     if targets:
-        tgt = _targets_block(targets) + "\ntargets_used: với TỪNG khoá ở trên: used = có dùng không; correct = dùng đúng ngữ pháp/nghĩa và tự nhiên; said_ko = câu học viên dùng (rỗng nếu không); note_vi = 1 câu (sai ở đâu / cách dùng đúng)."
+        tgt = _targets_block(targets) + "\ntargets_used: với TỪNG khoá ở trên: used = có dùng không; correct = dùng đúng ngữ pháp/nghĩa và tự nhiên; said_en = câu học viên dùng (rỗng nếu không); note_vi = 1 câu (sai ở đâu / cách dùng đúng)."
     return f"""Bạn là giám khảo nói tiếng Hàn cho người Việt, chấm kỹ năng TRÌNH BÀY CÓ CẤU TRÚC (như IELTS Speaking Part 2–3, TOPIK 말하기, thuyết trình trên lớp).
 {level_rules}
 Học viên trả lời {what}, nói liền một mạch (audio đính kèm, {measure.seconds:.0f} giây).{mat}
@@ -760,9 +760,9 @@ BAND TRÌNH BÀY CỦA HỌC VIÊN: {frame.band}/5. Mục tiêu: {frame.target[0
 Đo bằng máy: nói {measure.speaking_seconds:.0f} giây, {measure.pauses} khoảng lặng ≥1 giây, lặng dài nhất {measure.longest_pause:.1f} giây.{focus_line}{tgt}{_known_block(known)}
 
 Trả về:
-- transcript_ko: chép NGUYÊN VĂN những gì nghe được, kể cả lỗi, lặp, tự sửa. Tiếng ngập ngừng viết thành từ riêng: 음, 어, 으. Đoạn nói tiếng Việt viết [vi: …]. Không sửa cho đúng.
+- transcript_en: chép NGUYÊN VĂN những gì nghe được, kể cả lỗi, lặp, tự sửa. Tiếng ngập ngừng viết thành từ riêng: 음, 어, 으. Đoạn nói tiếng Việt viết [vi: …]. Không sửa cho đúng.
 - off_topic: true nếu không trả lời câu hỏi / không nói về đề tài.
-- parts: với TỪNG phần ở trên (đúng thứ tự): present = có nói rõ phần này không; said_ko = trích đoạn học viên nói cho phần đó (rỗng nếu không có); note_vi = 1 câu nhận xét ngắn.
+- parts: với TỪNG phần ở trên (đúng thứ tự): present = có nói rõ phần này không; said_en = trích đoạn học viên nói cho phần đó (rỗng nếu không có); note_vi = 1 câu nhận xét ngắn.
 - scores: mỗi tiêu chí 1–5, chấm theo THANG CỦA BAND {frame.band} dưới đây. Đạt đúng mô tả của band = 4; vượt rõ = 5; thiếu một chút = 3; thiếu nhiều = 2; gần như không có = 1. KHÔNG so với người bản xứ, KHÔNG dùng thang của band khác: người mới học đạt mô tả band 1 vẫn được 4; người band 5 nói đúng nhưng đơn giản kiểu band 3 chỉ được 2–3.
 {present_profile.rubric_lines(frame.band)}
   fluency: dựa vào số đo máy và tiếng ngập ngừng.
@@ -774,7 +774,7 @@ Trả về:
 - upgraded: viết lại CHÍNH Ý CỦA HỌC VIÊN theo đúng khung (mỗi phần một mục, đúng thứ tự, giữ nội dung họ nói, chỉ sửa cấu trúc, ngữ pháp, thêm từ nối). Ở đúng band {frame.band}: chỉ dùng ngữ pháp học viên đã học hoặc cơ bản hơn, và LỒNG ĐỦ các kiến thức cần vận dụng ở trên. Câu nói được trong khoảng {frame.target[1]} giây. Phần học viên bỏ trống thì bổ sung ý đơn giản hợp với các ý còn lại. vi = nghĩa tiếng Việt.
 - stretch: 0–2 mẫu câu / ngữ pháp ở band {min(5, frame.band + 1)} (cao hơn một bậc) giúp bài này hay hơn, mỗi mẫu kèm nghĩa và 1 câu vì sao. Band 5 thì là cách nói tự nhiên hơn của người bản xứ.
 - pron_issues: tối đa 3 từ phát âm sai làm người nghe khó hiểu nhất (word = từ đúng, heard_as = nghe thành, kind = batchim/vowel/consonant/linking/intonation/other, tip_vi = cách sửa cho người Việt). Không có thì để trống.
-- follow_ups: {n_follow} câu hỏi tiếp theo bằng tiếng Hàn (q_ko, kèm q_vi) dựa trên ĐÚNG những gì học viên vừa nói, để luyện trả lời khi bị hỏi lại. {follow_rule} kind = why/example/detail/counter/method/limit.
+- follow_ups: {n_follow} câu hỏi tiếp theo bằng tiếng Hàn (q_en, kèm q_vi) dựa trên ĐÚNG những gì học viên vừa nói, để luyện trả lời khi bị hỏi lại. {follow_rule} kind = why/example/detail/counter/method/limit.
 - compare_vi: để trống nếu đây là lần đầu.{_previous_lines(previous)}
 Mọi lời giải thích bằng tiếng Việt, ngắn gọn, nói thẳng với học viên ("bạn")."""
 
@@ -784,7 +784,7 @@ def parse_eval(text: str, frame: Frame, measure: AudioMeasure,
     from app.services import present_profile
 
     raw = _json(text)
-    transcript = _s(raw.get("transcript_ko"), 6000)
+    transcript = _s(raw.get("transcript_en"), 6000)
     by_part: dict[str, dict] = {}
     for it in raw.get("parts") or []:
         if isinstance(it, dict) and it.get("part") in frame.parts:
@@ -792,11 +792,11 @@ def parse_eval(text: str, frame: Frame, measure: AudioMeasure,
     parts = []
     for p in frame.parts:
         it = by_part.get(p, {})
-        said = _s(it.get("said_ko"), 600)
+        said = _s(it.get("said_en"), 600)
         parts.append({
             "part": p, "label_vi": PARTS[p]["label_vi"],
             "present": bool(it.get("present")) and bool(said),
-            "said_ko": said, "note_vi": _s(it.get("note_vi"), 300),
+            "said_en": said, "note_vi": _s(it.get("note_vi"), 300),
         })
     sc = raw.get("scores") if isinstance(raw.get("scores"), dict) else {}
     notes = raw.get("score_notes_vi") if isinstance(raw.get("score_notes_vi"), dict) else {}
@@ -842,23 +842,23 @@ def parse_eval(text: str, frame: Frame, measure: AudioMeasure,
     targets_used = []
     for t in targets or []:
         u = used_by.get(t["key"], {})
-        used = bool(u.get("used")) and bool(_s(u.get("said_ko")))
+        used = bool(u.get("used")) and bool(_s(u.get("said_en")))
         targets_used.append({
             "key": t["key"], "kind": t["kind"], "ko": t["ko"], "vi": t["vi"],
             "used": used, "correct": used and bool(u.get("correct")),
-            "said_ko": _s(u.get("said_ko"), 300) if used else "", "note_vi": _s(u.get("note_vi"), 300),
+            "said_en": _s(u.get("said_en"), 300) if used else "", "note_vi": _s(u.get("note_vi"), 300),
         })
     n_follow = FOLLOW_UP_RULES[frame.band][0] if frame.mode != "defense" else max(2, FOLLOW_UP_RULES[frame.band][0])
     follow_ups = [
-        {"q_ko": _s(q.get("q_ko"), 300), "q_vi": _s(q.get("q_vi"), 300),
+        {"q_en": _s(q.get("q_en"), 300), "q_vi": _s(q.get("q_vi"), 300),
          "kind": q.get("kind") if q.get("kind") in ("why", "example", "detail", "counter", "method", "limit") else "why"}
-        for q in raw.get("follow_ups") or [] if isinstance(q, dict) and re.search(r"[가-힣]", _s(q.get("q_ko"), 300))
+        for q in raw.get("follow_ups") or [] if isinstance(q, dict) and re.search(r"[가-힣]", _s(q.get("q_en"), 300))
     ][:n_follow]
     overall = round(sum(scores.values()) / len(scores), 1)
     return {
         "metrics": metrics,
         "eval": {
-            "transcript_ko": transcript,
+            "transcript_en": transcript,
             "off_topic": bool(raw.get("off_topic")),
             "parts": parts,
             "scores": scores,
@@ -889,36 +889,36 @@ ANSWER_CRITERIA: dict[str, str] = {"directness": "Trả lời đúng câu hỏi"
 ANSWER_SCHEMA: dict[str, Any] = {
     "type": "object",
     "properties": {
-        "transcript_ko": {"type": "string"},
+        "transcript_en": {"type": "string"},
         "scores": {"type": "object", "properties": {k: {"type": "integer"} for k in ANSWER_CRITERIA}, "required": list(ANSWER_CRITERIA)},
         "note_vi": {"type": "string"},
-        "better_ko": {"type": "string"},
+        "better_en": {"type": "string"},
         "better_vi": {"type": "string"},
     },
-    "required": ["transcript_ko", "scores", "note_vi", "better_ko", "better_vi"],
+    "required": ["transcript_en", "scores", "note_vi", "better_en", "better_vi"],
 }
 
 
-def build_answer_prompt(*, level_rules: str, band: int, question_ko: str, talk_ko: str, measure: AudioMeasure,
+def build_answer_prompt(*, level_rules: str, band: int, question_en: str, talk_en: str, measure: AudioMeasure,
                         known: list[str] | None = None) -> str:
-    return f"""Học viên người Việt vừa trình bày bằng tiếng Hàn: «{talk_ko[:2000]}»
-Sau đó được hỏi lại: «{question_ko}» và trả lời (audio đính kèm, {measure.seconds:.0f} giây; {measure.pauses} khoảng lặng ≥1 giây).
+    return f"""Học viên người Việt vừa trình bày bằng tiếng Hàn: «{talk_en[:2000]}»
+Sau đó được hỏi lại: «{question_en}» và trả lời (audio đính kèm, {measure.seconds:.0f} giây; {measure.pauses} khoảng lặng ≥1 giây).
 {level_rules}
 Band trình bày {band}/5.{_known_block(known)}
 
 Trả về:
-- transcript_ko: chép NGUYÊN VĂN câu trả lời (ngập ngừng viết 음/어, tiếng Việt viết [vi: …]).
+- transcript_en: chép NGUYÊN VĂN câu trả lời (ngập ngừng viết 음/어, tiếng Việt viết [vi: …]).
 - scores 1–5, theo tầm band {band} (đạt đúng mong đợi của band = 4):
   directness: câu đầu trả lời thẳng vào câu hỏi, không vòng vo, không lạc đề.
   support: có lý do, ví dụ hoặc dẫn chứng đi kèm (band 1–2: một lý do là đủ).
   language: đúng và đủ đa dạng ở trình độ này.
 - note_vi: 1–2 câu: điều làm tốt và điều cần sửa nhất.
-- better_ko: một câu trả lời mẫu ngắn GIỮ Ý của học viên, theo mẫu "trả lời thẳng → lý do/dẫn chứng", đúng band {band}, ưu tiên ngữ pháp học viên đã học. better_vi: nghĩa tiếng Việt."""
+- better_en: một câu trả lời mẫu ngắn GIỮ Ý của học viên, theo mẫu "trả lời thẳng → lý do/dẫn chứng", đúng band {band}, ưu tiên ngữ pháp học viên đã học. better_vi: nghĩa tiếng Việt."""
 
 
 def parse_answer(text: str, measure: AudioMeasure) -> dict[str, Any]:
     raw = _json(text)
-    transcript = _s(raw.get("transcript_ko"), 2000)
+    transcript = _s(raw.get("transcript_en"), 2000)
     sc = raw.get("scores") if isinstance(raw.get("scores"), dict) else {}
     scores: dict[str, int] = {}
     for k in ANSWER_CRITERIA:
@@ -929,11 +929,11 @@ def parse_answer(text: str, measure: AudioMeasure) -> dict[str, Any]:
     if len(scores) != len(ANSWER_CRITERIA) or not transcript:
         raise ValueError("incomplete marking")
     return {
-        "transcript_ko": transcript,
+        "transcript_en": transcript,
         "scores": scores,
         "overall": round(sum(scores.values()) / len(scores), 1),
         "note_vi": _s(raw.get("note_vi"), 400),
-        "better_ko": _s(raw.get("better_ko"), 600),
+        "better_en": _s(raw.get("better_en"), 600),
         "better_vi": _s(raw.get("better_vi"), 600),
         "seconds": round(measure.speaking_seconds, 1),
         "pauses": measure.pauses,
@@ -958,12 +958,12 @@ def _s(v: Any, n: int = 300) -> str:
 def bank_handoff(kind: str, deck_title: str, words: list[dict[str, Any]]) -> dict[str, Any]:
     """The title, material and targets of a round about a «Kho từ TOPIK» deck: the learner talks
     about the deck's topic and must use the deck words they have been practising. `words` are
-    {"id", "hangul", "meaning_vi", "example_ko"}, the weakest first; each becomes the target
+    {"id", "headword", "meaning_vi", "example_en"}, the weakest first; each becomes the target
     "v:<card id>" so using it counts like any studied word."""
     if kind not in EDITORIAL_KINDS:
         raise ValueError(f"unknown kind {kind!r}")
     title = re.sub(r"\s+", " ", deck_title or "").strip()[:160]
-    chosen = [w for w in words if _s(w.get("hangul"), 40)][:BANK_TARGETS]
+    chosen = [w for w in words if _s(w.get("headword"), 40)][:BANK_TARGETS]
     if kind == "present":
         head = f"Trình bày khoảng 2 phút về chủ đề «{title}»: nêu một tình huống hoặc trải nghiệm của bạn, rồi ý kiến của bạn."
     else:
@@ -971,10 +971,10 @@ def bank_handoff(kind: str, deck_title: str, words: list[dict[str, Any]]) -> dic
             f"Chọn một vấn đề quen thuộc thuộc chủ đề «{title}», nêu lập trường của bạn, hai lý do có ví dụ, "
             "một ý kiến ngược lại và lời đáp, rồi kết luận."
         )
-    lines = [head, "", "Từ nên dùng: " + ", ".join(f"{_s(w['hangul'], 40)} ({_s(w.get('meaning_vi'), 80)})" for w in chosen)]
+    lines = [head, "", "Từ nên dùng: " + ", ".join(f"{_s(w['headword'], 40)} ({_s(w.get('meaning_vi'), 80)})" for w in chosen)]
     targets = [
-        {"key": f"v:{w['id']}", "kind": "word", "ko": _s(w["hangul"], 40), "vi": _s(w.get("meaning_vi"), 120),
-         "example_ko": _s(w.get("example_ko"), 200), "why_vi": "Từ của bộ Kho TOPIK bạn đang học"}
+        {"key": f"v:{w['id']}", "kind": "word", "ko": _s(w["headword"], 40), "vi": _s(w.get("meaning_vi"), 120),
+         "example_en": _s(w.get("example_en"), 200), "why_vi": "Từ của bộ Kho TOPIK bạn đang học"}
         for w in chosen
     ]
     return {"title": f"Chủ đề: {title}", "material": "\n".join(lines)[:6000], "targets": targets}

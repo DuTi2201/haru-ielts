@@ -23,13 +23,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about your daily routine and one thing you are doing this month that is different.",
+   "prompt_en": "Write 4–5 sentences about your daily routine and one thing you are doing this month that is different.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "I usually get up at six and go to work by bus. I start at eight and finish at five. In the evenings I often cook dinner and read. This month, however, I am studying English every night, because I am preparing for a test. I enjoy it, but I need more sleep.",
+   "model_answer_en": "I usually get up at six and go to work by bus. I start at eight and finish at five. In the evenings I often cook dinner and read. This month, however, I am studying English every night, because I am preparing for a test. I enjoy it, but I need more sleep.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -50,13 +50,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about something you used to do as a child and one day you remember.",
+   "prompt_en": "Write 4–5 sentences about something you used to do as a child and one day you remember.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "When I was a child, I used to play football in the street every afternoon. We did not have a real ball, so we used a plastic one. One day, while we were playing, it started to rain heavily. We did not stop. My mother was very angry when I came home.",
+   "model_answer_en": "When I was a child, I used to play football in the street every afternoon. We did not have a real ball, so we used a plastic one. One day, while we were playing, it started to rain heavily. We did not stop. My mother was very angry when I came home.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -77,13 +77,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about a hobby or sport you enjoy. Say when you took it up and why you like it.",
+   "prompt_en": "Write 4–5 sentences about a hobby or sport you enjoy. Say when you took it up and why you like it.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "I took up swimming two years ago. I go to a pool near my house twice a week. I am not very good at it, but I do it for fun. It helps me relax after work. I would like to join a club next year.",
+   "model_answer_en": "I took up swimming two years ago. I go to a pool near my house twice a week. I am not very good at it, but I do it for fun. It helps me relax after work. I would like to join a club next year.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -104,13 +104,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about how your town or city has changed. Use the present perfect.",
+   "prompt_en": "Write 4–5 sentences about how your town or city has changed. Use the present perfect.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "My town has changed a lot since I was a child. The government has built two new schools and a hospital. Many small shops have closed, and a large supermarket has opened. The traffic has become much worse. However, life has become more convenient for most people.",
+   "model_answer_en": "My town has changed a lot since I was a child. The government has built two new schools and a hospital. Many small shops have closed, and a large supermarket has opened. The traffic has become much worse. However, life has become more convenient for most people.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -131,13 +131,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about a time you were late. Say what had happened before.",
+   "prompt_en": "Write 4–5 sentences about a time you were late. Say what had happened before.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "Last month I was late for a meeting. I had left home on time, but my motorbike had a flat tyre. By the time I arrived, the meeting had already started. My manager had been waiting for my report. I apologised and explained what had happened.",
+   "model_answer_en": "Last month I was late for a meeting. I had left home on time, but my motorbike had a flat tyre. By the time I arrived, the meeting had already started. My manager had been waiting for my report. I apologised and explained what had happened.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -158,13 +158,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about a skill you are learning or want to learn, and how you study.",
+   "prompt_en": "Write 4–5 sentences about a skill you are learning or want to learn, and how you study.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "I am learning English because I need it for my job. I take an online course, and I revise new words every night. In the beginning I could not concentrate after work. Now I study for thirty minutes every morning. I think I am making good progress.",
+   "model_answer_en": "I am learning English because I need it for my job. I take an online course, and I revise new words every night. In the beginning I could not concentrate after work. Now I study for thirty minutes every morning. I think I am making good progress.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -185,13 +185,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about your plans for next weekend. Use be going to, will and the present continuous.",
+   "prompt_en": "Write 4–5 sentences about your plans for next weekend. Use be going to, will and the present continuous.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "Next weekend I am going to clean my flat on Saturday morning. I am meeting two friends for lunch at twelve. After that, I think we will see a film. On Sunday I am going to study English. If I finish early, I will call my parents.",
+   "model_answer_en": "Next weekend I am going to clean my flat on Saturday morning. I am meeting two friends for lunch at twelve. After that, I think we will see a film. On Sunday I am going to study English. If I finish early, I will call my parents.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -212,13 +212,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences describing where a place you know is and when it is open.",
+   "prompt_en": "Write 4–5 sentences describing where a place you know is and when it is open.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "My favourite cafe is in a small street near West Lake. It is between a bookshop and a bank. It opens at seven in the morning and closes at ten at night. I usually go there on Saturday afternoons. In winter I sit inside, next to the window.",
+   "model_answer_en": "My favourite cafe is in a small street near West Lake. It is between a bookshop and a bank. It opens at seven in the morning and closes at ten at night. I usually go there on Saturday afternoons. In winter I sit inside, next to the window.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -239,13 +239,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about a trip you have made. Say how you travelled and what happened.",
+   "prompt_en": "Write 4–5 sentences about a trip you have made. Say how you travelled and what happened.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "Last year I went on a trip to Sa Pa with two friends. We travelled by coach, and the journey took six hours. Our accommodation was a small hotel near the market. The town was crowded, but the views were amazing. We came back on Sunday evening.",
+   "model_answer_en": "Last year I went on a trip to Sa Pa with two friends. We travelled by coach, and the journey took six hours. Our accommodation was a small hotel near the market. The town was crowded, but the views were amazing. We came back on Sunday evening.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -266,13 +266,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Describe a simple process in 4–5 sentences using the passive (for example, how rice is cooked or how coffee is made).",
+   "prompt_en": "Describe a simple process in 4–5 sentences using the passive (for example, how rice is cooked or how coffee is made).",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "First, the rice is washed two or three times. Then it is put into a pot, and water is added. The pot is heated until the water boils. After that, the heat is reduced, and the rice is cooked for fifteen minutes. Finally, it is served hot.",
+   "model_answer_en": "First, the rice is washed two or three times. Then it is put into a pot, and water is added. The pot is heated until the water boils. After that, the heat is reduced, and the rice is cooked for fifteen minutes. Finally, it is served hot.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -293,13 +293,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about something that is being built or changed in your area and what should be done.",
+   "prompt_en": "Write 4–5 sentences about something that is being built or changed in your area and what should be done.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "A new market is being built near my house. The old market was closed last year because it was not safe. The work is being done very slowly. I think more workers should be employed. The streets around it must be cleaned every day.",
+   "model_answer_en": "A new market is being built near my house. The old market was closed last year because it was not safe. The work is being done very slowly. I think more workers should be employed. The streets around it must be cleaned every day.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -320,13 +320,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about a close friend: how you met and what he or she is like.",
+   "prompt_en": "Write 4–5 sentences about a close friend: how you met and what he or she is like.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "My closest friend is Nam. We met at secondary school and we have known each other for ten years. He is generous and very loyal. We have a lot in common, and I trust him completely. We are still in touch, although he lives abroad.",
+   "model_answer_en": "My closest friend is Nam. We met at secondary school and we have known each other for ten years. He is generous and very loyal. We have a lot in common, and I trust him completely. We are still in touch, although he lives abroad.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -347,13 +347,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences giving advice about studying. Use uncountable nouns correctly (advice, information, homework, progress).",
+   "prompt_en": "Write 4–5 sentences giving advice about studying. Use uncountable nouns correctly (advice, information, homework, progress).",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "My first piece of advice is to study a little every day. You do not need much equipment, only a notebook. Do not look for too much information online. A few good books are enough. If you do your homework, you will make progress.",
+   "model_answer_en": "My first piece of advice is to study a little every day. You do not need much equipment, only a notebook. Do not look for too much information online. A few good books are enough. If you do your homework, you will make progress.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -374,13 +374,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about a useful object you own. Check every a, an and the.",
+   "prompt_en": "Write 4–5 sentences about a useful object you own. Check every a, an and the.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "I have an old motorbike. The motorbike is ten years old, but it still works well. I use it to go to work and to visit my parents. Life in a big city is difficult without transport. I think it is the most useful thing I own.",
+   "model_answer_en": "I have an old motorbike. The motorbike is ten years old, but it still works well. I use it to go to work and to visit my parents. Life in a big city is difficult without transport. I think it is the most useful thing I own.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -401,13 +401,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about how you spend and save money.",
+   "prompt_en": "Write 4–5 sentences about how you spend and save money.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "I spend most of my money on food and rent. I try not to waste money on things I do not need. Every month I save a little for a trip. I always compare prices before I pay for anything expensive. I have never been in debt.",
+   "model_answer_en": "I spend most of my money on food and rent. I try not to waste money on things I do not need. Every month I save a little for a trip. I always compare prices before I pay for anything expensive. I have never been in debt.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -428,13 +428,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about the people you live with and how you share the work at home.",
+   "prompt_en": "Write 4–5 sentences about the people you live with and how you share the work at home.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "I live with my parents and my younger brother. My brother has his own room, and mine is next to his. We share the housework ourselves. My mother cooks, and my brother and I wash up. We help one another when someone is busy.",
+   "model_answer_en": "I live with my parents and my younger brother. My brother has his own room, and mine is next to his. We share the housework ourselves. My mother cooks, and my brother and I wash up. We help one another when someone is busy.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -455,13 +455,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about a person who has helped you. Use who, which, where or whose.",
+   "prompt_en": "Write 4–5 sentences about a person who has helped you. Use who, which, where or whose.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "The person who has helped me most is my aunt. She is a teacher who works in the town where I grew up. She gave me the books that I needed for school. She is someone whose advice I always follow. I visit her every summer.",
+   "model_answer_en": "The person who has helped me most is my aunt. She is a teacher who works in the town where I grew up. She gave me the books that I needed for school. She is someone whose advice I always follow. I visit her every summer.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -482,13 +482,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about a piece of technology that has changed your life.",
+   "prompt_en": "Write 4–5 sentences about a piece of technology that has changed your life.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "The smartphone has changed my life more than any other invention. I use it to study, to pay bills and to contact my family. It is not complicated to operate. However, it has a bad effect on my sleep. I try to turn it off at ten.",
+   "model_answer_en": "The smartphone has changed my life more than any other invention. I use it to study, to pay bills and to contact my family. It is not complicated to operate. However, it has a bad effect on my sleep. I try to turn it off at ten.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -509,13 +509,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences of advice for someone who wants to learn English. Use should, ought to and can.",
+   "prompt_en": "Write 4–5 sentences of advice for someone who wants to learn English. Use should, ought to and can.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "You should study a little every day. You ought to listen to English for at least ten minutes. You can find free lessons online. You should not be afraid of mistakes. If you practise, you will be able to speak with confidence.",
+   "model_answer_en": "You should study a little every day. You ought to listen to English for at least ten minutes. You can find free lessons online. You should not be afraid of mistakes. If you practise, you will be able to speak with confidence.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -536,13 +536,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about the rules in a place you know (your office, a library, a gym).",
+   "prompt_en": "Write 4–5 sentences about the rules in a place you know (your office, a library, a gym).",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "In my office we have to arrive before nine. We must wear a name card. We must not use our phones in meetings. We do not have to wear formal clothes on Fridays. Visitors might have to wait at the front desk.",
+   "model_answer_en": "In my office we have to arrive before nine. We must wear a name card. We must not use our phones in meetings. We do not have to wear formal clothes on Fridays. Visitors might have to wait at the front desk.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -563,13 +563,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about how you get the news and keep in touch with people.",
+   "prompt_en": "Write 4–5 sentences about how you get the news and keep in touch with people.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "I read the news on the internet every morning. I do not watch TV very often. I contact my friends online, and I ring my parents twice a week. At work I write formal emails. I try not to look at my phone after ten.",
+   "model_answer_en": "I read the news on the internet every morning. I do not watch TV very often. I contact my friends online, and I ring my parents twice a week. At work I write formal emails. I try not to look at my phone after ten.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -590,13 +590,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about a small mistake you made. Use should have, could have or must have.",
+   "prompt_en": "Write 4–5 sentences about a small mistake you made. Use should have, could have or must have.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "Last week I missed my bus. I should have left home earlier. I must have turned off my alarm in my sleep. I could have taken a taxi, but it was too expensive. In the end, I arrived twenty minutes late.",
+   "model_answer_en": "Last week I missed my bus. I should have left home earlier. I must have turned off my alarm in my sleep. I could have taken a taxi, but it was too expensive. In the end, I arrived twenty minutes late.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -617,13 +617,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write five questions you would ask a new colleague or classmate. Make two of them indirect.",
+   "prompt_en": "Write five questions you would ask a new colleague or classmate. Make two of them indirect.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "Where are you from? How long have you worked here? Could you tell me what you did before? Do you know where the canteen is? You live near the office, don't you?",
+   "model_answer_en": "Where are you from? How long have you worked here? Could you tell me what you did before? Do you know where the canteen is? You live near the office, don't you?",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -644,13 +644,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about your community: what is good and what should change.",
+   "prompt_en": "Write 4–5 sentences about your community: what is good and what should change.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "I live in a quiet community near the centre. Most residents are friendly and responsible. There is very little crime. However, there is no place for young people to meet. I think the local government should open a youth club.",
+   "model_answer_en": "I live in a quiet community near the centre. Most residents are friendly and responsible. There is very little crime. However, there is no place for young people to meet. I think the local government should open a youth club.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -671,13 +671,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about a busy time in your life. Use so…that, such…that, too and enough.",
+   "prompt_en": "Write 4–5 sentences about a busy time in your life. Use so…that, such…that, too and enough.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "Last month I was so busy that I could not see my friends. It was such a difficult project that we worked every weekend. I was too tired to exercise. I did not have enough time to cook. Now I am trying to rest more.",
+   "model_answer_en": "Last month I was so busy that I could not see my friends. It was such a difficult project that we worked every weekend. I was too tired to exercise. I did not have enough time to cook. Now I am trying to rest more.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -698,13 +698,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences comparing two places you know.",
+   "prompt_en": "Write 4–5 sentences comparing two places you know.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "Hanoi is bigger and busier than my hometown. The streets are more crowded, and the air is not as clean. However, there are far more jobs. My hometown is quieter and cheaper. For me, the best place to live is somewhere between the two.",
+   "model_answer_en": "Hanoi is bigger and busier than my hometown. The streets are more crowded, and the air is not as clean. However, there are far more jobs. My hometown is quieter and cheaper. For me, the best place to live is somewhere between the two.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -725,13 +725,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about your job or the job you want.",
+   "prompt_en": "Write 4–5 sentences about your job or the job you want.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "I work as an accountant for a small company. The salary is not high, but my colleagues are friendly. There is a lot of pressure at the end of each month. My ambition is to become a manager. I am studying English to improve my career.",
+   "model_answer_en": "I work as an accountant for a small company. The salary is not high, but my colleagues are friendly. There is a lot of pressure at the end of each month. My ambition is to become a manager. I am studying English to improve my career.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -752,13 +752,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about a problem in your city. Use at least one first and one second conditional.",
+   "prompt_en": "Write 4–5 sentences about a problem in your city. Use at least one first and one second conditional.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "Traffic is a serious problem in my city. If the government builds more bus routes, fewer people will use motorbikes. If tickets were free, I would take the bus every day. Unless something changes, the air will get worse. I hope the city will act soon.",
+   "model_answer_en": "Traffic is a serious problem in my city. If the government builds more bus routes, fewer people will use motorbikes. If tickets were free, I would take the bus every day. Unless something changes, the air will get worse. I hope the city will act soon.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -779,13 +779,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about a choice you made and how life would have been different.",
+   "prompt_en": "Write 4–5 sentences about a choice you made and how life would have been different.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "When I was eighteen, I moved to Hanoi. If I had stayed in my hometown, I would have worked on my family's farm. I would not have met my best friends. I might have been less stressed. However, I do not regret my decision.",
+   "model_answer_en": "When I was eighteen, I moved to Hanoi. If I had stayed in my hometown, I would have worked on my family's farm. I would not have met my best friends. I might have been less stressed. However, I do not regret my decision.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -806,13 +806,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about your lifestyle and one change you want to make.",
+   "prompt_en": "Write 4–5 sentences about your lifestyle and one change you want to make.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "I think my lifestyle is quite healthy. I eat balanced meals and I walk to work. However, I do not sleep enough. I want to cut down on coffee in the afternoon. If I go to bed earlier, I will feel better.",
+   "model_answer_en": "I think my lifestyle is quite healthy. I eat balanced meals and I walk to work. However, I do not sleep enough. I want to cut down on coffee in the afternoon. If I go to bed earlier, I will feel better.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -833,13 +833,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Report a short conversation you had this week in 4–5 sentences.",
+   "prompt_en": "Report a short conversation you had this week in 4–5 sentences.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "Yesterday my manager told me that I had done a good job. She said that the client was happy with the report. I told her that my team had helped me a lot. She said she would give us more time next month. I said that I was grateful.",
+   "model_answer_en": "Yesterday my manager told me that I had done a good job. She said that the client was happy with the report. I told her that my team had helped me a lot. She said she would give us more time next month. I said that I was grateful.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -860,13 +860,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences reporting questions that someone asked you recently.",
+   "prompt_en": "Write 4–5 sentences reporting questions that someone asked you recently.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "Last week a tourist asked me where the old town was. He asked if it was far. I told him to take bus number nine. He asked me how much a ticket cost. Then he asked me to write the name of the stop.",
+   "model_answer_en": "Last week a tourist asked me where the old town was. He asked if it was far. I told him to take bus number nine. He asked me how much a ticket cost. Then he asked me to write the name of the stop.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -887,13 +887,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Describe a building or an object you like in 4–5 sentences: material, shape, style.",
+   "prompt_en": "Describe a building or an object you like in 4–5 sentences: material, shape, style.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "I like the old post office in my city. It was designed more than a hundred years ago. It is made of stone, and it has tall windows and a round roof. The style is simple and practical. I notice something new every time I visit.",
+   "model_answer_en": "I like the old post office in my city. It was designed more than a hundred years ago. It is made of stone, and it has tall windows and a round roof. The style is simple and practical. I notice something new every time I visit.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -914,13 +914,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write a short message (4–5 sentences) to a friend. Use give, send, show, lend or buy with two objects.",
+   "prompt_en": "Write a short message (4–5 sentences) to a friend. Use give, send, show, lend or buy with two objects.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "Hi Lan, thank you for the book you gave me. I showed it to my sister, and she loved it. Could you send me the name of the shop? I want to buy one for my teacher. I will lend you my new novel next week.",
+   "model_answer_en": "Hi Lan, thank you for the book you gave me. I showed it to my sister, and she loved it. Could you send me the name of the shop? I want to buy one for my teacher. I will lend you my new novel next week.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -941,13 +941,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write three wishes of your own and one hope in 4–5 sentences.",
+   "prompt_en": "Write three wishes of your own and one hope in 4–5 sentences.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "I wish I had more free time. I wish I could play the piano. I wish I had started learning English earlier. I wish the buses in my city would come on time. I hope I will pass my test next year.",
+   "model_answer_en": "I wish I had more free time. I wish I could play the piano. I wish I had started learning English earlier. I wish the buses in my city would come on time. I hope I will pass my test next year.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -968,13 +968,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about an environmental problem and what people can do.",
+   "prompt_en": "Write 4–5 sentences about an environmental problem and what people can do.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "Litter is a serious problem in my city. Many people throw away plastic bags in the street. This is harmful to wildlife and to the environment. We should recycle more and use fewer bags. If everyone helps, the city will be cleaner.",
+   "model_answer_en": "Litter is a serious problem in my city. Many people throw away plastic bags in the street. This is harmful to wildlife and to the environment. We should recycle more and use fewer bags. If everyone helps, the city will be cleaner.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -995,13 +995,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about things you enjoy doing, things you avoid, and something you have decided to do.",
+   "prompt_en": "Write 4–5 sentences about things you enjoy doing, things you avoid, and something you have decided to do.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "I enjoy reading and listening to music. I avoid watching the news late at night. I have decided to learn to swim this year. My friend suggested joining a class. I am looking forward to starting next month.",
+   "model_answer_en": "I enjoy reading and listening to music. I avoid watching the news late at night. I have decided to learn to swim this year. My friend suggested joining a class. I am looking forward to starting next month.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -1022,13 +1022,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences comparing yourself with a friend or relative. Use both, neither, so and neither + auxiliary.",
+   "prompt_en": "Write 4–5 sentences comparing yourself with a friend or relative. Use both, neither, so and neither + auxiliary.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "My sister and I are quite similar. Both of us like spicy food. Neither of us can swim. She works in an office, and so do I. She does not like getting up early, and neither do I.",
+   "model_answer_en": "My sister and I are quite similar. Both of us like spicy food. Neither of us can swim. She works in an office, and so do I. She does not like getting up early, and neither do I.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -1049,13 +1049,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about a time you felt embarrassed, proud or very happy.",
+   "prompt_en": "Write 4–5 sentences about a time you felt embarrassed, proud or very happy.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "Last year I gave a short speech at my friend's wedding. I was very nervous, and I forgot the first line. It was embarrassing, but everyone smiled. After that I felt calm. In the end, I was proud of myself.",
+   "model_answer_en": "Last year I gave a short speech at my friend's wedding. I was very nervous, and I forgot the first line. It was embarrassing, but everyone smiled. After that I felt calm. In the end, I was proud of myself.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -1076,13 +1076,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences giving your opinion on working or studying at home. Use although, however, because and so that.",
+   "prompt_en": "Write 4–5 sentences giving your opinion on working or studying at home. Use although, however, because and so that.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "Although studying at home is convenient, it is not always easy. I like it because I save time. However, I sometimes feel lonely. I study in the morning so that I can concentrate. Despite the problems, I prefer it to a crowded classroom.",
+   "model_answer_en": "Although studying at home is convenient, it is not always easy. I like it because I save time. However, I sometimes feel lonely. I study in the morning so that I can concentrate. Despite the problems, I prefer it to a crowded classroom.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -1103,13 +1103,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about services you use. Use have/get something done.",
+   "prompt_en": "Write 4–5 sentences about services you use. Use have/get something done.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "I have my hair cut once a month. I get my motorbike serviced twice a year. Last week I had my laptop repaired. I never have my clothes washed, because I do it myself. Next month we are having the kitchen painted.",
+   "model_answer_en": "I have my hair cut once a month. I get my motorbike serviced twice a year. Last week I had my laptop repaired. I never have my clothes washed, because I do it myself. Next month we are having the kitchen painted.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",
@@ -1130,13 +1130,13 @@
     "min": 30,
     "max": 90
    },
-   "prompt_ko": "Write 4–5 sentences about a problem with a neighbour, colleague or service and how it was solved.",
+   "prompt_en": "Write 4–5 sentences about a problem with a neighbour, colleague or service and how it was solved.",
    "framework_vi": [
     "Câu 1: nêu thẳng ý chính (câu chủ đề).",
     "Câu 2–4: mỗi câu thêm một chi tiết, lý do hoặc ví dụ của chính bạn.",
     "Câu cuối: kết lại bằng cảm nghĩ, kết quả hoặc dự định."
    ],
-   "model_answer_ko": "Last year my neighbour's dog barked every night. I did not want to complain, but I could not sleep. In the end, I talked to him politely. He apologised and promised to keep the dog inside. The problem was solved in one day.",
+   "model_answer_en": "Last year my neighbour's dog barked every night. I did not want to complain, but I could not sleep. In the end, I talked to him politely. He apologised and promised to keep the dog inside. The problem was solved in one day.",
    "model_note_vi": "Chỉ xem sau khi đã tự viết. So cấu trúc câu và thì của động từ, không chép lại.",
    "checklist_vi": [
     "Mỗi câu có đủ chủ ngữ và động từ đã chia.",

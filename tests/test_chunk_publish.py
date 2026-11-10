@@ -11,7 +11,7 @@ from app.services import ingestion
 class RowFieldsTests(unittest.TestCase):
     def test_a_good_chunk_payload_becomes_a_vocab_row_with_every_layer(self):
         payload = {
-            "hangul": "비가 오다", "meaning_vi": "trời mưa", "level": 1, "pos": "cụm",
+            "headword": "비가 오다", "meaning_vi": "trời mưa", "level": 1, "pos": "cụm",
             "family": "Động từ đi với thời tiết", "node_word": "오다", "register": "neutral",
             "usage_note_vi": "Dùng 오다, không dùng 내리다 ở đây.",
             "collocations": [{"ko": "눈이 오다", "vi": "tuyết rơi"}], "distractors": ["불다", "들다"],
@@ -27,7 +27,7 @@ class RowFieldsTests(unittest.TestCase):
 
     def test_a_hand_edit_that_breaks_a_layer_is_repaired_not_published(self):
         payload = {
-            "hangul": "비가 오다", "meaning_vi": "trời mưa", "level": 1,
+            "headword": "비가 오다", "meaning_vi": "trời mưa", "level": 1,
             "node_word": "내리다", "distractors": ["불다"], "register": "văn nói", "collocations": "눈이 오다",
         }
         fields = ingestion._row_fields("vocab_item", payload)
@@ -35,9 +35,9 @@ class RowFieldsTests(unittest.TestCase):
                          (None, None, None, None))
 
     def test_an_old_payload_without_any_layer_still_publishes(self):
-        fields = ingestion._row_fields("vocab_item", {"hangul": "봄", "meaning_vi": "mùa xuân", "level": 1})
+        fields = ingestion._row_fields("vocab_item", {"headword": "봄", "meaning_vi": "mùa xuân", "level": 1})
         row = VocabItem(lesson_id=1, import_item_id=None, **fields)
-        self.assertEqual((row.hangul, row.family, row.node_word, row.collocations), ("봄", None, None, None))
+        self.assertEqual((row.headword, row.family, row.node_word, row.collocations), ("봄", None, None, None))
 
     def test_a_grammar_payload_keeps_its_group_and_well_formed_contrasts_only(self):
         payload = {
@@ -50,18 +50,18 @@ class RowFieldsTests(unittest.TestCase):
         self.assertEqual(row.contrasts, [{"pattern": "-는 것 같다", "diff_vi": "hiện tại"}])
 
     def test_overlong_labels_are_cut_to_the_column_width(self):
-        fields = ingestion._row_fields("vocab_item", {"hangul": "봄", "meaning_vi": "m", "level": 1, "family": "x" * 500})
+        fields = ingestion._row_fields("vocab_item", {"headword": "봄", "meaning_vi": "m", "level": 1, "family": "x" * 500})
         self.assertEqual(len(fields["family"]), 120)
 
 
 class OutSchemaTests(unittest.TestCase):
     def test_rows_without_layers_serialise_with_nulls(self):
-        row = VocabItem(id=1, lesson_id=1, hangul="봄", meaning_vi="mùa xuân", level=1)
+        row = VocabItem(id=1, lesson_id=1, headword="봄", meaning_vi="mùa xuân", level=1)
         out = VocabItemOut.model_validate(row)
         self.assertEqual((out.family, out.collocations, out.distractors), (None, None, None))
 
     def test_layers_serialise_as_typed_objects(self):
-        row = VocabItem(id=1, lesson_id=1, hangul="비가 오다", meaning_vi="mưa", level=1, node_word="오다",
+        row = VocabItem(id=1, lesson_id=1, headword="비가 오다", meaning_vi="mưa", level=1, node_word="오다",
                         collocations=[{"ko": "눈이 오다", "vi": "tuyết rơi"}], distractors=["불다"])
         out = VocabItemOut.model_validate(row).model_dump()
         self.assertEqual(out["collocations"], [{"ko": "눈이 오다", "vi": "tuyết rơi"}])

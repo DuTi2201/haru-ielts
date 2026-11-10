@@ -40,7 +40,7 @@ def results(*values):
 
 def chirp_row(**changes):
     base = dict(
-        cache_key="tx:abc", text_ko="안녕하세요", voice="ko-female-1", prompt_version="v1", provider="chirp",
+        cache_key="tx:abc", text_en="안녕하세요", voice="ko-female-1", prompt_version="v1", provider="chirp",
         duration_sec=2, storage="db", opus_key=None, aac_key=None, opus_data=b"OPUS", aac_data=b"AAC",
     )
     return SimpleNamespace(**{**base, **changes})
@@ -297,7 +297,7 @@ class SaveTests(unittest.TestCase):
         db.add.assert_called_once_with(row)
         db.commit.assert_called_once()
         self.assertEqual((row.storage, row.opus_data, row.aac_data, row.opus_key), ("db", b"OPUS", b"AAC", None))
-        self.assertEqual((row.text_ko, row.provider, row.duration_sec, row.opus_bytes, row.aac_bytes), ("안녕하세요", "chirp", 4, 4, 3))
+        self.assertEqual((row.text_en, row.provider, row.duration_sec, row.opus_bytes, row.aac_bytes), ("안녕하세요", "chirp", 4, 4, 3))
 
     def test_in_the_bucket_the_row_holds_only_the_link(self):
         db = self.db(None)
@@ -546,7 +546,7 @@ class StreamTextAudioTests(unittest.IsolatedAsyncioTestCase):
 class ModelTests(unittest.TestCase):
     def test_the_table_links_a_text_to_its_file(self):
         cols = TextAudio.__table__.c
-        for name in ("cache_key", "text_ko", "provider", "storage", "opus_key", "aac_key", "opus_data", "aac_data"):
+        for name in ("cache_key", "text_en", "provider", "storage", "opus_key", "aac_key", "opus_data", "aac_data"):
             self.assertIn(name, cols)
         self.assertEqual(TextAudio.__table__.schema, "audio")
         self.assertTrue(cols.cache_key.unique)

@@ -10,11 +10,11 @@ BUNDLE = seed.load_all()
 
 
 def source(s):
-    lesson = NS(title=s.title, title_ko=s.title_ko, notes=[n.model_dump() for n in s.notes])
-    vocab = [NS(hangul=v.hangul, meaning_vi=v.meaning_vi, usage_note_vi=v.note_vi, example_ko=v.example_ko, example_vi=v.example_vi) for v in s.vocab]
+    lesson = NS(title=s.title, title_en=s.title_en, notes=[n.model_dump() for n in s.notes])
+    vocab = [NS(headword=v.headword, meaning_vi=v.meaning_vi, usage_note_vi=v.note_vi, example_en=v.example_en, example_vi=v.example_vi) for v in s.vocab]
     grammar = [
         NS(pattern=g.pattern, meaning_vi=g.meaning_vi, usage_context_vi=g.usage_context_vi, note_vi=g.note_vi,
-           example_ko=g.example_ko, example_vi=g.example_vi, contrasts=[c.model_dump() for c in g.contrasts])
+           example_en=g.example_en, example_vi=g.example_vi, contrasts=[c.model_dump() for c in g.contrasts])
         for g in s.grammar
     ]
     return la.source_from_rows(lesson, vocab, grammar)
@@ -23,7 +23,7 @@ def source(s):
 def shows_of(slide: dict) -> set[str]:
     k = slide["kind"]
     if k == "title":
-        return {"title", "title_ko", "counts"}
+        return {"title", "title_en", "counts"}
     if k in ("section", "end"):
         return {"title"}
     if k == "word":
@@ -73,7 +73,7 @@ class SlideTests(unittest.TestCase):
         said = [x for x in lec.script.split("\n") if x.strip()][line]
         # the word, the gap to say it, then the meaning: two runs of one line (the screen shows the
         # meaning with the second run)
-        self.assertIn(r.seed.vocab[0].hangul.split("/")[0].strip()[:1], said)
+        self.assertIn(r.seed.vocab[0].headword.split("/")[0].strip()[:1], said)
         self.assertIn("...", said)
 
 

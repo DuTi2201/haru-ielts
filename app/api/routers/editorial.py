@@ -3,7 +3,7 @@ viết câu 54). Two audiences share this file:
 
 - Learner-facing (public read, no login): GET /editorials, GET
   /editorials/{id}. Only articles an admin has actually confirmed show up
-  here (`body_ko IS NOT NULL` — see apply_editorial_batch in
+  here (`body_en IS NOT NULL` — see apply_editorial_batch in
   app/services/ingestion.py); nothing staged or rejected ever leaks out.
   GET/POST /editorials/{id}/outline DO require login — this is the
   learner's own "luyện dàn ý" attempt, tied to their profile. So does
@@ -142,12 +142,12 @@ async def list_editorials(
     limit: Annotated[int, Query(ge=1, le=50)] = 20,
 ):
     """Public read, same as GET /corpus/items — only articles an admin has
-    confirmed (body_ko set) ever show up here."""
+    confirmed (body_en set) ever show up here."""
     query = (
         select(EditorialArticle)
-        # an article whose text never arrived (body_ko "" — the scrape failed or the meta row was
+        # an article whose text never arrived (body_en "" — the scrape failed or the meta row was
         # not applied) has nothing to read; it stays out of the list until it is re-imported
-        .where(EditorialArticle.body_ko.isnot(None), func.length(func.btrim(EditorialArticle.body_ko)) > 0)
+        .where(EditorialArticle.body_en.isnot(None), func.length(func.btrim(EditorialArticle.body_en)) > 0)
         .order_by(EditorialArticle.created_at.desc())
         .limit(limit)
     )
@@ -165,7 +165,7 @@ async def list_editorials(
         EditorialArticleSummaryOut(
             id=a.id,
             source_name=a.source_name,
-            title_ko=a.title_ko,
+            title_en=a.title_en,
             level_estimate=a.level_estimate,
             topic_tags=a.topic_tags,
             created_at=a.created_at,
@@ -180,7 +180,7 @@ async def list_editorials(
 @router.get("/editorials/{article_id}", response_model=EditorialArticleOut, dependencies=[Depends(require_private_source)])
 async def get_editorial(article_id: uuid.UUID, db: Annotated[AsyncSession, Depends(get_db)]):
     article = await db.get(EditorialArticle, article_id)
-    if article is None or not (article.body_ko or "").strip():
+    if article is None or not (article.body_en or "").strip():
         raise _problem(status.HTTP_404_NOT_FOUND, "Editorial article not found", "not_found")
 
     # No cross-schema JOIN (module-boundary rule) — vocab_ids/grammar_ids
@@ -198,7 +198,7 @@ async def get_editorial(article_id: uuid.UUID, db: Annotated[AsyncSession, Depen
     )
 
     # Articles imported before the page-chrome filter existed still have the
-    # menu / AI-summary / "지금 많이 보는 기사" lines stored in body_ko —
+    # menu / AI-summary / "지금 많이 보는 기사" lines stored in body_en —
     # clean_article_text is idempotent, so applying it on every read fixes
     # them retroactively (and is a no-op on already-clean text).
     images_pending = False
@@ -215,7 +215,7 @@ async def get_editorial(article_id: uuid.UUID, db: Annotated[AsyncSession, Depen
         except Exception:  # noqa: BLE001 — reading must never fail because a background fetch could not be queued
             await db.rollback()
 
-    cleaned_body = clean_article_text(article.body_ko)
+    cleaned_body = clean_article_text(article.body_en)
     now = datetime.now(timezone.utc)
     study_status, study_pack, queue_study = _study_state(article, cleaned_body, now)
     if queue_study:
@@ -235,10 +235,10 @@ async def get_editorial(article_id: uuid.UUID, db: Annotated[AsyncSession, Depen
         id=article.id,
         source_name=article.source_name,
         source_url=article.source_url,
-        title_ko=article.title_ko,
+        title_en=article.title_en,
         level_estimate=article.level_estimate,
         topic_tags=article.topic_tags,
-        body_ko=cleaned_body,
+        body_en=cleaned_body,
         vocab=[VocabItemOut.model_validate(v) for v in vocab],
         grammar=[GrammarPointOut.model_validate(g) for g in grammar],
         thinking_guide_text=article.thinking_guide_text,
@@ -287,7 +287,7 @@ async def present_editorial(
     (app.api.routers.presentation.create_round); the app then opens it on the Trình bày screen."""
     body = body or EditorialPresentRequest()
     article = await db.get(EditorialArticle, article_id)
-    if article is None or not (article.body_ko or "").strip():
+    if article is None or not (article.body_en or "").strip():
         raise _problem(status.HTTP_404_NOT_FOUND, "Editorial article not found", "not_found")
     grammar = (
         (await db.execute(select(GrammarPoint).where(GrammarPoint.id.in_(article.grammar_ids)))).scalars().all()
@@ -295,16 +295,16 @@ async def present_editorial(
         else []
     )
     words = (
-        {h.strip(): i for i, h in (await db.execute(select(VocabItem.id, VocabItem.hangul).where(VocabItem.id.in_(article.vocab_ids)))).all()}
+        {h.strip(): i for i, h in (await db.execute(select(VocabItem.id, VocabItem.headword).where(VocabItem.id.in_(article.vocab_ids)))).all()}
         if article.vocab_ids
         else {}
     )
     pack = article.study_pack if isinstance(article.study_pack, dict) else {}
     handoff = presentation.editorial_handoff(
         body.kind,
-        article.title_ko or article.source_name or "Bài báo",
+        article.title_en or article.source_name or "Bài báo",
         pack.get("key_terms") or [],
-        [{"id": g.id, "pattern": g.pattern, "meaning_vi": g.meaning_vi, "example_ko": g.example_ko} for g in grammar],
+        [{"id": g.id, "pattern": g.pattern, "meaning_vi": g.meaning_vi, "example_en": g.example_en} for g in grammar],
         article.model_outline if isinstance(article.model_outline, dict) else None,
         words,
     )
@@ -329,7 +329,7 @@ async def request_editorial_podcast(
     article's vocab/grammar instead of a lesson's. No login required —
     same rationale as GET /editorials/{id} itself."""
     article = await db.get(EditorialArticle, article_id)
-    if article is None or not (article.body_ko or "").strip():
+    if article is None or not (article.body_en or "").strip():
         raise _problem(status.HTTP_404_NOT_FOUND, "Editorial article not found", "not_found")
     return await _request_podcast(
         db, "article", str(article_id), body, request, article.vocab_ids, article.grammar_ids
@@ -363,27 +363,27 @@ async def request_article_audio(
     request: Request,
     db: Annotated[AsyncSession, Depends(get_db)],
 ):
-    """Reads the article's OWN body_ko text aloud verbatim — completely
+    """Reads the article's OWN body_en text aloud verbatim — completely
     independent of POST .../podcast (that endpoint has Gemini WRITE a
     teaching script about the article's vocab/grammar; this one just hands
     the article's real scraped sentences straight to TTS, so a learner can
     hear native-length pacing/pauses on the actual news text). No login
     required — same rationale as GET /editorials/{id} itself.
 
-    cache_key is keyed off a hash of body_ko itself (not just article_id)
+    cache_key is keyed off a hash of body_en itself (not just article_id)
     so a later re-ingest/backfill that changes the article's text (e.g. the
-    apply_editorial_batch fix that recovers a previously-empty body_ko)
+    apply_editorial_batch fix that recovers a previously-empty body_en)
     naturally busts any stale cached recording instead of serving audio for
     text that no longer matches what's on screen."""
     article = await db.get(EditorialArticle, article_id)
-    if article is None or not (article.body_ko or "").strip():
+    if article is None or not (article.body_en or "").strip():
         raise _problem(status.HTTP_404_NOT_FOUND, "Editorial article not found", "not_found")
 
     # Voice the CLEANED text (title + body, page chrome/captions/ranking
     # widgets removed, URLs stripped) — the raw scrape used to be read aloud
     # verbatim, menu items included. Same function the reader screen's
     # body goes through, so what you hear is what you see.
-    cleaned_body = clean_article_text(article.body_ko)
+    cleaned_body = clean_article_text(article.body_en)
     if not cleaned_body.strip():
         # (checked on the BODY, not the final text: a title alone must never
         # be voiced as if it were the article)
@@ -397,7 +397,7 @@ async def request_article_audio(
     if body.variant == "easy":
         # The simplified-Korean rewrite from the study pack — for beginners.
         pack = _valid_pack(article, cleaned_body)
-        units = read_along.easy_units(article.title_ko, pack) if pack else []
+        units = read_along.easy_units(article.title_en, pack) if pack else []
         if not any(u.p != read_along.TITLE_PARAGRAPH for u in units):
             raise _problem(
                 status.HTTP_409_CONFLICT,
@@ -408,7 +408,7 @@ async def request_article_audio(
     else:
         # One unit per sentence, numbered like the study pack's sentences, so
         # the reader can follow the audio sentence by sentence.
-        units = read_along.original_units(article.title_ko, cleaned_body)
+        units = read_along.original_units(article.title_en, cleaned_body)
     tts_text = read_along.units_to_text(units)
 
     # Keyed on the exact text voiced + the cleaning-rules version, so a
@@ -532,7 +532,7 @@ async def get_editorial_outline(
     they've saved at least one attempt — "luyện dàn ý" means thinking it
     through first, not reading the reference answer first."""
     article = await db.get(EditorialArticle, article_id)
-    if article is None or not (article.body_ko or "").strip():
+    if article is None or not (article.body_en or "").strip():
         raise _problem(status.HTTP_404_NOT_FOUND, "Editorial article not found", "not_found")
 
     submission = await _get_or_init_outline(db, article, profile.id)
@@ -575,7 +575,7 @@ async def submit_editorial_outline(
     revision_count instead of creating a new row (unique constraint
     uq_editorial_outline_learner_article backs this)."""
     article = await db.get(EditorialArticle, article_id)
-    if article is None or not (article.body_ko or "").strip():
+    if article is None or not (article.body_en or "").strip():
         raise _problem(status.HTTP_404_NOT_FOUND, "Editorial article not found", "not_found")
     await ensure_daily_cap(db, profile.id, "grade_editorial_outline", settings.EDITORIAL_OUTLINES_PER_DAY, "dàn ý")
 
@@ -731,7 +731,7 @@ async def ingest_editorial_candidate(
     profile: Annotated[Profile, Depends(_editor_or_admin)],
 ):
     """Same underlying flow as POST /imports?kind=editorial_article — this
-    just pre-fills source_url/source_name/title_ko/published_date from the
+    just pre-fills source_url/source_name/title_en/published_date from the
     candidate instead of requiring the admin to type them, and marks the
     candidate "ingested" so it drops off the review queue."""
     candidate = await db.get(EditorialCandidate, candidate_id)
@@ -743,7 +743,7 @@ async def ingest_editorial_candidate(
         profile,
         candidate.source_url,
         candidate.source_name,
-        candidate.title_ko,
+        candidate.title_en,
         candidate.published_date,
     )
     candidate.status = "ingested"

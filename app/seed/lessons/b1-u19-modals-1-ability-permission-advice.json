@@ -1,7 +1,7 @@
 {
  "slug": "b1-u19-modals-1-ability-permission-advice",
  "title": "Unit 19 · Động từ khuyết thiếu 1: khả năng, sự cho phép, lời khuyên",
- "title_ko": "Modals 1: ability, permission, advice",
+ "title_en": "Modals 1: ability, permission, advice",
  "topic": "Destination B1 · Lấy gốc",
  "track": "beginner",
  "level": 3,
@@ -9,50 +9,50 @@
  "summary": "Nói về khả năng, xin phép và đưa lời khuyên bằng can, could, be able to, may, should, ought to. Ngữ pháp: can / could / be able to; can / could / may (permission and requests); should / ought to.",
  "vocab": [
   {
-   "hangul": "manage to",
+   "headword": "manage to",
    "pos": "V",
    "meaning_vi": "xoay xở làm được",
-   "example_ko": "I managed to pass the test.",
+   "example_en": "I managed to pass the test.",
    "example_vi": "Tôi đã xoay xở qua được bài kiểm tra.",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 19"
   },
   {
-   "hangul": "be able to",
+   "headword": "be able to",
    "pos": "V",
    "meaning_vi": "có thể, có khả năng",
-   "example_ko": "I will be able to help you tomorrow.",
+   "example_en": "I will be able to help you tomorrow.",
    "example_vi": "Mai tôi có thể giúp bạn.",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 19"
   },
   {
-   "hangul": "ought to",
+   "headword": "ought to",
    "pos": "V",
    "meaning_vi": "nên",
-   "example_ko": "You ought to rest.",
+   "example_en": "You ought to rest.",
    "example_vi": "Bạn nên nghỉ ngơi.",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 19"
   },
   {
-   "hangul": "allow",
+   "headword": "allow",
    "pos": "V",
    "meaning_vi": "cho phép",
-   "example_ko": "Phones are not allowed in the exam.",
+   "example_en": "Phones are not allowed in the exam.",
    "example_vi": "Không được mang điện thoại vào phòng thi.",
    "family": "Từ khóa của bài",
    "priority": "core",
    "source": "Haru English · B1 Unit 19"
   },
   {
-   "hangul": "had better",
+   "headword": "had better",
    "pos": "V",
    "meaning_vi": "tốt hơn là nên (cảnh báo)",
-   "example_ko": "You had better hurry.",
+   "example_en": "You had better hurry.",
    "example_vi": "Bạn nên nhanh lên thì hơn.",
    "family": "Từ khóa của bài",
    "priority": "core",
@@ -65,7 +65,7 @@
    "meaning_vi": "Khả năng",
    "usage_context_vi": "`can` cho hiện tại, `could` cho khả năng chung trong quá khứ. `be able to` dùng cho các thì khác (will be able to, have been able to). Một việc cụ thể đã làm được trong quá khứ dùng `was able to` / `managed to`, không dùng `could`.",
    "contrasts": [],
-   "example_ko": "She can speak three languages.\nThe exam was hard, but I was able to finish it.",
+   "example_en": "She can speak three languages.\nThe exam was hard, but I was able to finish it.",
    "example_vi": "Cô ấy nói được ba thứ tiếng.\nBài thi khó nhưng tôi đã làm xong được.",
    "importance": "must",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 19, pp. 78-80",
@@ -76,7 +76,7 @@
    "meaning_vi": "Xin phép và đề nghị",
    "usage_context_vi": "`Can I…?` thân mật; `Could I…?` lịch sự hơn; `May I…?` trang trọng. Nhờ ai làm gì: Can you / Could you…?",
    "contrasts": [],
-   "example_ko": "Could I ask you a question?\nYou can leave early today.",
+   "example_en": "Could I ask you a question?\nYou can leave early today.",
    "example_vi": "Tôi hỏi bạn một câu được không?\nHôm nay bạn có thể về sớm.",
    "importance": "normal",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 19, pp. 78-80"
@@ -91,11 +91,11 @@
      "diff_vi": "`should` là lời khuyên; `must` là bắt buộc."
     }
    ],
-   "example_ko": "You should see a doctor.\nGovernments ought to invest more in schools.",
+   "example_en": "You should see a doctor.\nGovernments ought to invest more in schools.",
    "example_vi": "Bạn nên đi khám.\nChính phủ nên đầu tư nhiều hơn vào trường học.",
    "importance": "must",
    "source": "Destination B1 (Mann & Taylore-Knowles, Macmillan), Unit 19, pp. 78-80",
-   "topik_tip_vi": "Task 2: Governments should…, Parents should not…, More money should be spent on…"
+   "exam_tip_vi": "Task 2: Governments should…, Parents should not…, More money should be spent on…"
   }
  ],
  "notes": [

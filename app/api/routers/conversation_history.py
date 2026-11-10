@@ -8,7 +8,7 @@ DELETE /me/conversations/notes/{id}
 GET    /me/conversations/{id}               one session: report, pronunciation, transcript
 POST   /me/conversations/{id}/save          "Đưa vào ôn tập": the session's suggested words and
                                             corrected sentences go to the notebook; words that are vocabulary cards
-                                            (same hangul, a lesson card first) are linked and go due in the review queue.
+                                            (same headword, a lesson card first) are linked and go due in the review queue.
 """
 from __future__ import annotations
 

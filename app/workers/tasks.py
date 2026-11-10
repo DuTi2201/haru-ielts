@@ -66,7 +66,7 @@ _sync_engine = create_engine(settings.SYNC_DATABASE_URL, pool_pre_ping=True)
 
 
 @celery_app.task(name="app.workers.tasks.generate_lecture_audio", bind=True, max_retries=3)
-def generate_lecture_audio(self, job_id: str, lesson_id: str, text_ko: str, voice: str, prompt_version: str):
+def generate_lecture_audio(self, job_id: str, lesson_id: str, text_en: str, voice: str, prompt_version: str):
     """text -> Gemini TTS -> ffmpeg transcode to opus+aac -> row in
     audio.lecture_audio -> job.succeeded. Real pipeline (app/services/tts.py);
     this task is now just the job/cache bookkeeping around it — the ONE
@@ -77,7 +77,7 @@ def generate_lecture_audio(self, job_id: str, lesson_id: str, text_ko: str, voic
     with Session(_sync_engine) as db:
         try:
             publish_job_event(db, jid, status="running", progress=0.1, step="Đang tạo giọng đọc")
-            opus_bytes, aac_bytes, duration_sec = tts.synthesize_korean_tts_chirp_first(text_ko, voice)
+            opus_bytes, aac_bytes, duration_sec = tts.synthesize_korean_tts_chirp_first(text_en, voice)
 
             publish_job_event(db, jid, progress=0.8, step="Đang lưu âm thanh")
             row = LectureAudio(
@@ -109,11 +109,11 @@ def generate_lecture_audio(self, job_id: str, lesson_id: str, text_ko: str, voic
 
 
 def _store_word_audio(
-    db: Session, model, jid: uuid.UUID, cache_key: str, text_ko: str, voice: str, make_row, path_prefix: str
+    db: Session, model, jid: uuid.UUID, cache_key: str, text_en: str, voice: str, make_row, path_prefix: str
 ):
     """Shared body of the word / sentence recordings: reuse the recording if one is already
     filed under `cache_key` (another lesson, device or a queued duplicate got there first),
-    otherwise voice `text_ko`, store it and report the paths. Losing a race to a second
+    otherwise voice `text_en`, store it and report the paths. Losing a race to a second
     worker on the unique key is a success too — the recording exists, which is all anyone
     wanted."""
     from sqlalchemy.exc import IntegrityError
@@ -139,7 +139,7 @@ def _store_word_audio(
         done(existing.duration_sec, existing.cache_key)
         return
 
-    opus_bytes, aac_bytes, duration_sec = tts.synthesize_korean_tts_chirp_first(text_ko, voice)
+    opus_bytes, aac_bytes, duration_sec = tts.synthesize_korean_tts_chirp_first(text_en, voice)
 
     publish_job_event(db, jid, progress=0.8, step="Đang lưu âm thanh")
     db.add(make_row(opus_bytes, aac_bytes, duration_sec))
@@ -157,7 +157,7 @@ def _store_word_audio(
 
 @celery_app.task(name="app.workers.tasks.generate_corpus_audio", bind=True, max_retries=3)
 def generate_corpus_audio(
-    self, job_id: str, corpus_item_id: str, text_ko: str, voice: str, prompt_version: str, cache_key: str | None = None
+    self, job_id: str, corpus_item_id: str, text_en: str, voice: str, prompt_version: str, cache_key: str | None = None
 ):
     """Same pattern as generate_lecture_audio, keyed to one corpus_item
     (a single listening sentence) instead of a whole lesson — backs the
@@ -171,7 +171,7 @@ def generate_corpus_audio(
                 CorpusItemAudio,
                 jid,
                 cache_key,
-                text_ko,
+                text_en,
                 voice,
                 lambda opus, aac, dur: CorpusItemAudio(
                     corpus_item_id=uuid.UUID(corpus_item_id),
@@ -196,12 +196,12 @@ def generate_vocab_audio(
     self,
     job_id: str,
     vocab_item_id: str,
-    text_ko: str,
+    text_en: str,
     voice: str,
     prompt_version: str,
     cache_key: str | None = None,
 ):
-    """Same pattern as generate_corpus_audio, but for one word's hangul — backs the "nghe"
+    """Same pattern as generate_corpus_audio, but for one word's headword — backs the "nghe"
     (listen) button on the vocab-study screen (the lesson flashcards and an editorial
     article's vocab list read the same VocabItem rows, so this one task covers both).
 
@@ -216,7 +216,7 @@ def generate_vocab_audio(
                 VocabItemAudio,
                 jid,
                 cache_key,
-                text_ko,
+                text_en,
                 voice,
                 lambda opus, aac, dur: VocabItemAudio(
                     vocab_item_id=int(vocab_item_id),
@@ -237,7 +237,7 @@ def generate_vocab_audio(
 
 
 @celery_app.task(name="app.workers.tasks.generate_text_audio", bind=True, max_retries=3)
-def generate_text_audio(self, job_id: str, text_ko: str, voice: str, prompt_version: str, cache_key: str):
+def generate_text_audio(self, job_id: str, text_en: str, voice: str, prompt_version: str, cache_key: str):
     """The recording of one text (a sentence, a dialogue line, a passage): if a recording is
     already filed under `cache_key` it is reported as it is (another device or a queued duplicate
     got there first); otherwise Chirp voices the text once (the Base64 reply is decoded in
@@ -249,9 +249,9 @@ def generate_text_audio(self, job_id: str, text_ko: str, voice: str, prompt_vers
             publish_job_event(db, jid, status="running", progress=0.1, step="Đang tạo giọng đọc")
             row = db.execute(select(TextAudio).where(TextAudio.cache_key == cache_key)).scalar_one_or_none()
             if not text_audio.is_usable(row):
-                produced = text_audio.synthesize(text_ko, voice)
+                produced = text_audio.synthesize(text_en, voice)
                 publish_job_event(db, jid, progress=0.8, step="Đang lưu âm thanh")
-                row = text_audio.save(db, cache_key, text_ko, voice, prompt_version, produced)
+                row = text_audio.save(db, cache_key, text_en, voice, prompt_version, produced)
             publish_job_event(
                 db,
                 jid,
@@ -389,7 +389,7 @@ def generate_content_podcast(
                 article = db.get(EditorialArticle, uuid.UUID(owner_id))
                 if article is None:
                     raise RuntimeError(f"editorial_article {owner_id} not found")
-                title = article.title_ko or article.source_name
+                title = article.title_en or article.source_name
                 vocab_rows = (
                     db.execute(select(VocabItem).where(VocabItem.id.in_(article.vocab_ids))).scalars().all()
                     if article.vocab_ids
@@ -401,9 +401,9 @@ def generate_content_podcast(
                     else []
                 )
 
-            vocab = [(v.hangul, v.pos, v.meaning_vi, v.example_ko, v.hanja, v.sino_vietnamese) for v in vocab_rows]
+            vocab = [(v.headword, v.pos, v.meaning_vi, v.example_en, v.hanja, v.sino_vietnamese) for v in vocab_rows]
             grammar = [
-                (g.pattern, g.meaning_vi, g.example_ko, g.usage_context_vi, g.topik_tip_vi) for g in grammar_rows
+                (g.pattern, g.meaning_vi, g.example_en, g.usage_context_vi, g.exam_tip_vi) for g in grammar_rows
             ]
 
             if lesson_source is not None and mode == "template":
@@ -814,8 +814,8 @@ def grade_editorial_outline(self, job_id: str, submission_id: str):
 
             publish_job_event(db, jid, status="running", progress=0.2, step="Đang phân tích dàn ý với Gemini")
             feedback = ingestion.generate_outline_feedback(
-                article_title=article.title_ko or article.source_name,
-                article_body=article_extract.clean_article_text(article.body_ko or ""),
+                article_title=article.title_en or article.source_name,
+                article_body=article_extract.clean_article_text(article.body_en or ""),
                 reference_outline=article.model_outline or {},
                 learner_outline={
                     "phenomenon_text": submission.phenomenon_text,
@@ -865,12 +865,12 @@ def generate_writing_drill(self, job_id: str, drill_id: str):
             targets = [
                 writing_drill.SourceCard(
                     item_id=v.id,
-                    hangul=v.hangul,
+                    headword=v.headword,
                     meaning_vi=v.meaning_vi,
                     node_word=v.node_word,
                     family=v.family,
                     register=v.register,
-                    example_ko=v.example_ko,
+                    example_en=v.example_en,
                 )
                 for i in ids
                 if (v := rows.get(i)) is not None
@@ -935,7 +935,7 @@ def grade_writing_drill(self, job_id: str, drill_id: str):
                         learner_id=drill.learner_id,
                         skill="viết",
                         error_type=row["error_type"],
-                        example_ko=row["example_ko"],
+                        example_en=row["example_en"],
                         item_type=single["item_type"] if single else None,
                         item_id=single["item_id"] if single else None,
                         mode="writing",
@@ -992,7 +992,7 @@ def check_lesson_essay(self, job_id: str, check_id: str):
                         learner_id=row.learner_id,
                         skill="viết",
                         error_type=err["error_type"],
-                        example_ko=err["example_ko"],
+                        example_en=err["example_en"],
                         mode="writing",
                         detail={**err["detail"], "lesson_id": row.lesson_id, "exercise_id": row.exercise_id, "check_id": check_id},
                     )
@@ -1413,7 +1413,7 @@ def extract_editorial_import(
     batch_id: str,
     source_url: str,
     source_name: str,
-    title_ko: str | None,
+    title_en: str | None,
     published_date_iso: str | None = None,
 ):
     """URL bài xã luận/chuyên mục -> tải + làm sạch HTML (không gọi AI ở
@@ -1421,7 +1421,7 @@ def extract_editorial_import(
     -> đề xuất vào khu chờ duyệt (import_item, kind=editorial_meta/
     vocab_item/grammar_point). editorial_article được tạo ngay (giống
     film/exam_paper — source_url/source_name do admin/candidate cung cấp
-    chứ không phải AI suy ra); body_ko/level_estimate/... vẫn NULL cho
+    chứ không phải AI suy ra); body_en/level_estimate/... vẫn NULL cho
     tới khi POST /imports/{id}/confirm ghi vào (app/services/ingestion.py
     apply_editorial_batch)."""
     jid, bid = uuid.UUID(job_id), uuid.UUID(batch_id)
@@ -1433,15 +1433,15 @@ def extract_editorial_import(
         try:
             publish_job_event(db, jid, status="running", progress=0.1, step="Đang tải bài viết")
             fetched = ingestion.fetch_article(source_url)
-            body_ko, parsed_title, suggested_source_name = fetched.body, fetched.title, fetched.site_name
-            resolved_title = title_ko or parsed_title
+            body_en, parsed_title, suggested_source_name = fetched.body, fetched.title, fetched.site_name
+            resolved_title = title_en or parsed_title
             published_date = datetime.fromisoformat(published_date_iso) if published_date_iso else None
 
             article = ingestion.find_or_create_editorial_article(
                 db,
                 source_url=source_url,
                 source_name=source_name,
-                title_ko=resolved_title,
+                title_en=resolved_title,
                 published_date=published_date,
             )
             batch.editorial_article_id = article.id
@@ -1451,7 +1451,7 @@ def extract_editorial_import(
             publish_job_event(db, jid, progress=0.4, step="Đang phân tích với Gemini")
 
             staged, flagged = ingestion.run_editorial_extraction(
-                db, batch, body_ko, resolved_title, suggested_source_name, fetched.images
+                db, batch, body_en, resolved_title, suggested_source_name, fetched.images
             )
 
             batch.status = "awaiting_review"
@@ -1484,7 +1484,7 @@ def extract_editorial_import(
 @celery_app.task(name="app.workers.tasks.refresh_editorial_images", bind=True, max_retries=1)
 def refresh_editorial_images(self, article_id: str):
     """Re-fetches one already-published article's source page and stores ONLY
-    its photos (+captions). Never touches body_ko/vocab/grammar — those were
+    its photos (+captions). Never touches body_en/vocab/grammar — those were
     reviewed by an admin. Queued lazily by GET /editorials/{id} the first
     time an article imported before the `images` column existed is read
     (images_fetched_at IS NULL). images_fetched_at is stamped even when the
@@ -1520,10 +1520,10 @@ def generate_study_pack(self, article_id: str):
     aid = uuid.UUID(article_id)
     with Session(_sync_engine) as db:
         article = db.get(EditorialArticle, aid)
-        if article is None or not (article.body_ko or "").strip():
+        if article is None or not (article.body_en or "").strip():
             return {"ok": False, "reason": "not_found"}
 
-        cleaned = article_extract.clean_article_text(article.body_ko)
+        cleaned = article_extract.clean_article_text(article.body_en)
         paragraphs = article_extract.split_paragraphs(cleaned)
         if not paragraphs:
             article.study_status = "failed"
@@ -1544,7 +1544,7 @@ def generate_study_pack(self, article_id: str):
 
         try:
             pack = study_pack.build_study_pack(
-                article.title_ko,
+                article.title_en,
                 paragraphs,
                 study_pack.make_gemini_generate(settings.GEMINI_MODEL_STUDY, gemini_client.generate_structured),
                 text_sig=study_pack.study_text_sig(cleaned),

@@ -23,8 +23,8 @@ def report_json(kind="debate", **over):
     keys = list(db_.CRITERIA[kind])
     base = {
         "summary_vi": "s", "outcome_vi": "o", "scores": {k: 4 for k in keys}, "score_notes_vi": {k: "n" for k in keys},
-        "best_move": {"said_ko": "그 말도 맞지만…", "why_vi": "Công nhận rồi lật lại."},
-        "missed": [{"haru_said_ko": "a", "you_said_ko": "b", "better_ko": "c", "better_vi": "d", "why_vi": "e"}] * 4,
+        "best_move": {"said_en": "그 말도 맞지만…", "why_vi": "Công nhận rồi lật lại."},
+        "missed": [{"haru_said_en": "a", "you_said_en": "b", "better_en": "c", "better_vi": "d", "why_vi": "e"}] * 4,
         "phrases_used": ["그 말도 맞지만"], "fixes": [], "goal_reached": True, "flaw_found": True, "next_time_vi": "x",
     }
     base.update(over)
@@ -44,11 +44,11 @@ class ScenarioTests(unittest.TestCase):
         n = db_.BY_ID["n4"].public()
         self.assertNotIn("47", json.dumps(n, ensure_ascii=False))  # the landlord's floor stays hidden
         c = db_.BY_ID["c8"].public()
-        self.assertEqual(c["opener_ko"], "")
+        self.assertEqual(c["opener_en"], "")
         self.assertNotIn("recall", json.dumps(c))
 
     def test_instruction_per_kind_and_band(self):
-        d = db_.build_system_instruction(db_.Setup(db_.BY_ID["d4"], 3, "L", side_ko="반대", known=["-기 때문에"]))
+        d = db_.build_system_instruction(db_.Setup(db_.BY_ID["d4"], 3, "L", side_en="반대", known=["-기 때문에"]))
         self.assertIn("Học viên bên 반대; BẠN bên 찬성", d)
         self.assertIn(db_.SPEECH[3], d)
         self.assertIn("-기 때문에", d)
@@ -63,7 +63,7 @@ class ScenarioTests(unittest.TestCase):
 
     def test_custom_motion(self):
         s = db_.custom_debate("  숙제는   없어야 한다  ", 5)
-        self.assertEqual((s.opener_ko, s.tier, s.kind), ("숙제는 없어야 한다", 3, "debate"))
+        self.assertEqual((s.opener_en, s.tier, s.kind), ("숙제는 없어야 한다", 3, "debate"))
 
 
 class ReportTests(unittest.TestCase):

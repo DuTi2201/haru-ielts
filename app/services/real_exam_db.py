@@ -119,7 +119,7 @@ async def load_lexicon(db: AsyncSession) -> rx.Lexicon:
     ).all()
     v = (
         await db.execute(
-            select(VocabItem.id, VocabItem.lesson_id, VocabItem.hangul, VocabItem.meaning_vi).where(
+            select(VocabItem.id, VocabItem.lesson_id, VocabItem.headword, VocabItem.meaning_vi).where(
                 VocabItem.lesson_id.in_(list(lessons) or [-1])
             )
         )
@@ -720,7 +720,7 @@ async def _record_outcome(db: AsyncSession, profile: Profile, ctx: Context, it: 
                     learner_id=profile.id,
                     skill=rx.SKILL_OF[it.sec],
                     error_type=it.type,
-                    example_ko=_example(it),
+                    example_en=_example(it),
                     item_type="grammar_point" if gid else None,
                     item_id=gid,
                     mode="exam",

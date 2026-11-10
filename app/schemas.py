@@ -114,7 +114,7 @@ VoiceId = Literal[
 
 class LectureAudioRequest(BaseModel):
     lesson_id: str
-    text_ko: str
+    text_en: str
     voice: str = "en-female-1"
     prompt_version: str = "v1"
 
@@ -122,10 +122,10 @@ class LectureAudioRequest(BaseModel):
 class CorpusAudioRequest(BaseModel):
     """No corpus_item_id field — it's the path param on POST
     /corpus/{corpus_item_id}/audio (mirrors LectureAudioRequest's shape,
-    minus the redundant id). The sentence itself is read from the database: `text_ko` is
+    minus the redundant id). The sentence itself is read from the database: `text_en` is
     accepted for older clients and ignored."""
 
-    text_ko: str | None = None
+    text_en: str | None = None
     voice: VoiceId = "en-female-1"
     # Part of the audio cache key, and owned by the server: "v2" = the first generation
     # voiced by Google Chirp 3 HD; clips cached under "v1" (Gemini voice) are not reused.
@@ -133,12 +133,12 @@ class CorpusAudioRequest(BaseModel):
 
 
 class VocabAudioRequest(BaseModel):
-    """The word is read from the database (content.vocab_item.hangul): `text_ko` is
+    """The word is read from the database (content.vocab_item.headword): `text_en` is
     accepted for older clients and ignored, so a request can neither make the server
     voice something else nor file it under a word's key. Voice and version are fixed
     sets for the same reason — a new value would be a new cache entry to pay for."""
 
-    text_ko: str | None = None
+    text_en: str | None = None
     voice: VoiceId = "en-female-1"
     prompt_version: Literal["v1"] = "v1"
 
@@ -175,7 +175,7 @@ class PodcastRequest(BaseModel):
 
 
 class ArticleAudioRequest(BaseModel):
-    """POST /editorials/{id}/audio: reads the article's OWN body_ko text
+    """POST /editorials/{id}/audio: reads the article's OWN body_en text
     aloud verbatim (native-length sentences, real pacing/pauses) — no
     Gemini script-writing step at all, unlike PodcastRequest. Deliberately
     separate from the podcast feature: a learner listening to the actual
@@ -238,14 +238,14 @@ class ContrastOut(BaseModel):
 class VocabItemOut(BaseModel):
     id: int
     lesson_id: int | None
-    hangul: str
+    headword: str
     pos: str | None
     meaning_vi: str
-    definition_ko: str | None
+    definition_en: str | None
     level: int
     hanja: str | None
     sino_vietnamese: str | None
-    example_ko: str | None
+    example_en: str | None
     example_vi: str | None = None
     # chunk layers (lesson-v4); null on cards extracted before they existed
     family: str | None = None
@@ -257,7 +257,7 @@ class VocabItemOut(BaseModel):
     priority: str | None = None
     usage_note_vi: str | None = None
     # the standard pronunciation when it differs from the spelling: "[학쌩]"
-    pron_ko: str | None = None
+    pron_en: str | None = None
     collocations: list[CollocationOut] | None = None
     distractors: list[str] | None = None
     # lesson-v5 pictures: URL of this word's picture when one has been made (and not hidden)
@@ -287,12 +287,12 @@ class GrammarPointOut(BaseModel):
     pattern: str
     meaning_vi: str
     level: int
-    example_ko: str | None
+    example_en: str | None
     # lesson-v5: several examples are one per line, example_vi aligned line by line
     example_vi: str | None = None
     note_vi: str | None = None
     usage_context_vi: str | None = None
-    topik_tip_vi: str | None = None
+    exam_tip_vi: str | None = None
     contrast_group: str | None = None
     contrasts: list[ContrastOut] | None = None
     exam: str | None = None  # the exam course this card is part of as well ("kiip-3"), or null
@@ -369,7 +369,7 @@ class CoachOut(BaseModel):
 
 class SessionOut(BaseModel):
     """One hand-planned sitting of a lesson (see app.services.lesson_seed.SessionSeed). Words and
-    cards are named by their `hangul` / `pattern`; the closing questions by exercise id."""
+    cards are named by their `headword` / `pattern`; the closing questions by exercise id."""
 
     title_vi: str
     can_do_vi: str
@@ -409,7 +409,7 @@ class LessonOut(BaseModel):
     grammar: list[GrammarPointOut]
     # lesson-v5 (null on a lesson that predates the seeded format)
     slug: str | None = None
-    title_ko: str | None = None
+    title_en: str | None = None
     summary: str | None = None
     track: Literal["beginner", "intermediate", "advanced"] | None = None
     sort_order: int = 0
@@ -460,7 +460,7 @@ class LessonSummaryOut(BaseModel):
     kind: Literal["lesson", "review", "hangul"] = "lesson"
     # lesson-v5
     slug: str | None = None
-    title_ko: str | None = None
+    title_en: str | None = None
     summary: str | None = None
     track: Literal["beginner", "intermediate", "advanced"] | None = None
     sort_order: int = 0
@@ -769,7 +769,7 @@ class CorpusItemOut(BaseModel):
     id: uuid.UUID
     film_id: int
     film_title: str
-    text_ko: str
+    text_en: str
     kind: str
     level: int
     register: str
@@ -857,7 +857,7 @@ class CorpusEnrichmentStatusOut(BaseModel):
 class HiddenCorpusItemOut(BaseModel):
     id: uuid.UUID
     film_title: str
-    text_ko: str
+    text_en: str
 
 
 class ItemStateReviewRequest(BaseModel):
@@ -909,7 +909,7 @@ class ClozeOut(BaseModel):
     """A fill-in-the-blank question. The answer is sent along so the app can mark
     it at once, without a round trip per card."""
 
-    prompt_ko: str
+    prompt_en: str
     answer: str
     choices: list[str]
 
@@ -999,10 +999,10 @@ class ExamDrillQuestion(BaseModel):
     number: int
     qtype_code: str
     qtype_name_vi: str
-    instruction_ko: str | None = None  # the group instruction above the question
-    stem_ko: str
+    instruction_en: str | None = None  # the group instruction above the question
+    stem_en: str
     options: list[str]
-    passage_ko: str | None = None
+    passage_en: str | None = None
     paper_label: str
 
 
@@ -1032,7 +1032,7 @@ class WritingBlankView(BaseModel):
 
 class WritingTargetOut(BaseModel):
     item_id: int
-    hangul: str
+    headword: str
     meaning_vi: str
 
 
@@ -1041,8 +1041,8 @@ class WritingPromptOut(BaseModel):
     come with the result."""
 
     text_type: str | None = None
-    title_ko: str | None = None
-    body_ko: str
+    title_en: str | None = None
+    body_en: str
     register: str | None = None
     blanks: list[WritingBlankView]
     targets: list[WritingTargetOut] = Field(default_factory=list)
@@ -1145,7 +1145,7 @@ class DailyGrammarOut(BaseModel):
 class DailyWordOut(BaseModel):
     vocab_item_id: int | None = None
     lesson_id: int | None = None
-    hangul: str
+    headword: str
     meaning_vi: str | None = None
     known: bool  # the learner has met this word (it has a study record)
 
@@ -1153,12 +1153,12 @@ class DailyWordOut(BaseModel):
 class DailyPassageOut(BaseModel):
     id: str
     kind: Literal["dialogue", "reading"]
-    title_ko: str
+    title_en: str
     title_vi: str
     scene_vi: str | None = None
     speakers: dict[str, str] = {}
     lines: list[DailyLineOut]
-    text_ko: str  # the whole text, to be voiced as ONE clip (a reading)
+    text_en: str  # the whole text, to be voiced as ONE clip (a reading)
     voice: str  # the voice of the whole text
     glossary: list[DailyGlossOut]
     questions: list[DailyQuestionOut]
@@ -1354,14 +1354,14 @@ class EditorialSourceOut(BaseModel):
 
 
 class EditorialArticleSummaryOut(BaseModel):
-    """GET /editorials list card — no body_ko (too big for a list) and no
+    """GET /editorials list card — no body_en (too big for a list) and no
     model_outline (that's revealed only after the learner submits their
     own outline attempt — see EditorialOutlineOut). `cover_image_url` is the
     article's first scraped photo, for the card thumbnail."""
 
     id: uuid.UUID
     source_name: str
-    title_ko: str | None
+    title_en: str | None
     level_estimate: int | None
     topic_tags: list[str]
     created_at: datetime
@@ -1397,11 +1397,11 @@ class StudySentenceOut(BaseModel):
 
 
 class StudyParagraphOut(BaseModel):
-    """One body paragraph, aligned by index with the paragraphs of `body_ko`
+    """One body paragraph, aligned by index with the paragraphs of `body_en`
     (split on newlines): its sentences with translations + word breakdowns,
     and the paragraph rewritten in simple Korean."""
 
-    easy_ko: str | None = None
+    easy_en: str | None = None
     sentences: list[StudySentenceOut] = []
 
 
@@ -1423,10 +1423,10 @@ class EditorialArticleOut(BaseModel):
     id: uuid.UUID
     source_name: str
     source_url: str
-    title_ko: str | None
+    title_en: str | None
     level_estimate: int | None
     topic_tags: list[str]
-    body_ko: str
+    body_en: str
     vocab: list[VocabItemOut]
     grammar: list[GrammarPointOut]
     thinking_guide_text: str | None
@@ -1480,8 +1480,8 @@ class EditorialCandidateOut(BaseModel):
     id: uuid.UUID
     source_name: str
     source_url: str
-    title_ko: str
-    snippet_ko: str | None
+    title_en: str
+    snippet_en: str | None
     topic_tags: list[str]
     published_date: datetime | None
     status: str
@@ -2206,8 +2206,8 @@ class PronunciationIssueOut(BaseModel):
 
 class PronunciationItemOut(BaseModel):
     index: int
-    heard_ko: str
-    target_ko: str
+    heard_en: str
+    target_en: str
     score: int
     issues: list[PronunciationIssueOut]
     good_vi: str
@@ -2317,7 +2317,7 @@ class PresentWordOut(BaseModel):
 
 
 class PresentTopicOut(BaseModel):
-    question_ko: str
+    question_en: str
     question_vi: str = ""
     angle_vi: str = ""
     words: list[PresentWordOut] = []
@@ -2328,8 +2328,8 @@ class PresentOutlinePartOut(BaseModel):
     part: str
     label_vi: str
     idea_vi: str = ""
-    keywords_ko: list[str] = []
-    starter_ko: str = ""
+    keywords_en: list[str] = []
+    starter_en: str = ""
     suggested: bool = False
     targets: list[dict[str, str]] = []  # [{"key", "ko"}]: studied items that fit this part
 
@@ -2338,7 +2338,7 @@ class PresentPartOut(BaseModel):
     part: str
     label_vi: str
     present: bool
-    said_ko: str = ""
+    said_en: str = ""
     note_vi: str = ""
 
 
@@ -2363,7 +2363,7 @@ class PresentTargetUseOut(BaseModel):
     vi: str = ""
     used: bool
     correct: bool
-    said_ko: str = ""
+    said_en: str = ""
     note_vi: str = ""
 
 
@@ -2374,17 +2374,17 @@ class PresentStretchOut(BaseModel):
 
 
 class PresentFollowUpOut(BaseModel):
-    q_ko: str
+    q_en: str
     q_vi: str = ""
     kind: str = "why"
 
 
 class PresentAnswerOut(BaseModel):
-    transcript_ko: str
+    transcript_en: str
     scores: dict[str, int]
     overall: float
     note_vi: str = ""
-    better_ko: str = ""
+    better_en: str = ""
     better_vi: str = ""
     seconds: float = 0
     pauses: int = 0
@@ -2393,7 +2393,7 @@ class PresentAnswerOut(BaseModel):
 
 
 class PresentEvalOut(BaseModel):
-    transcript_ko: str
+    transcript_en: str
     off_topic: bool = False
     parts: list[PresentPartOut]
     scores: dict[str, int]
@@ -2437,7 +2437,7 @@ class PresentTargetOut(BaseModel):
     kind: str
     ko: str
     vi: str = ""
-    example_ko: str = ""
+    example_en: str = ""
     why_vi: str = ""
 
 
@@ -2486,7 +2486,7 @@ class PresentIdeaOut(BaseModel):
     stance_vi: str
     reason_vi: str = ""
     example_vi: str = ""
-    hook_ko: str = ""
+    hook_en: str = ""
     hook_vi: str = ""
 
 
@@ -2494,7 +2494,7 @@ class PresentRowOut(BaseModel):
     id: uuid.UUID
     created_at: datetime
     mode: str
-    title_ko: str
+    title_en: str
     band: int
     tries: int
     first_overall: float | None = None
@@ -2536,7 +2536,7 @@ class DebateScenarioOut(BaseModel):
     learner_role_vi: str
     haru_role_vi: str
     learner_goal_vi: str
-    opener_ko: str = ""  # the motion / Haru's first line; empty for a critique (the claim is the surprise)
+    opener_en: str = ""  # the motion / Haru's first line; empty for a critique (the claim is the surprise)
     sides: list[str] = []
 
 
@@ -2669,7 +2669,7 @@ class EssayResultOut(BaseModel):
     fixes: list[EssayFixOut] = []
     missing_vi: list[str] = []
     strengths_vi: list[str] = []
-    corrected_ko: str = ""
+    corrected_en: str = ""
     summary_vi: str = ""
     length: EssayLengthOut | None = None
     patterns: list[EssayPatternOut] = []

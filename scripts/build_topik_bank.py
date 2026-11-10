@@ -110,7 +110,7 @@ def syllables(text: str) -> list[str]:
 
 def align(word: str, origin: str) -> list[tuple[str, str]] | None:
     """(hanja, Korean syllable) pairs: the origin "決定하다" lines up with "결정하다" character by
-    character (hangul in the origin stands for itself). None when they do not line up."""
+    character (headword in the origin stands for itself). None when they do not line up."""
     ko = syllables(word)
     pairs, i = [], 0
     for ch in origin:
@@ -136,7 +136,7 @@ def hv_tables() -> tuple[dict[tuple[str, str], set[str]], dict[str, set[str]], d
             h, s = v.get("hanja"), v.get("sino_vietnamese")
             if not (h and s) or len(s.split()) != len(h):
                 continue
-            ko = syllables(v["hangul"])
+            ko = syllables(v["headword"])
             for k, (c, r) in enumerate(zip(h, s.split())):
                 by_char[c].add(r.lower())
                 if k < len(ko):
@@ -237,8 +237,8 @@ def build(folder: str) -> dict:
                 "topic_vi": title,
                 "meaning_vi": meaning,
                 "note_vi": clean(e["senses"][0].get("vi_def"))[:400] or None,
-                "definition_ko": clean(e["senses"][0].get("def"))[:400] or None,
-                "example_ko": pick_example(e["senses"]),
+                "definition_en": clean(e["senses"][0].get("def"))[:400] or None,
+                "example_en": pick_example(e["senses"]),
                 "hanja": hanja or None,
                 "sino_vietnamese": sino,
                 "pron": f"[{pron}]" if pron and pron.replace(" ", "") != bare else None,

@@ -42,7 +42,7 @@ def classic_reply(data: bytes) -> dict:
 
 
 def lesson_triples():
-    return [(r.seed.slug, [v.hangul for v in r.seed.vocab], [g.pattern for g in r.seed.grammar]) for r in BUNDLE.lessons]
+    return [(r.seed.slug, [v.headword for v in r.seed.vocab], [g.pattern for g in r.seed.grammar]) for r in BUNDLE.lessons]
 
 
 PILOT = 0
@@ -51,7 +51,7 @@ PILOT = 0
 def slots_of(index=PILOT):
     r = BUNDLE.lessons[index]
     return lesson_image.lesson_slots(
-        r.seed.slug, [v.hangul for v in r.seed.vocab], [g.pattern for g in r.seed.grammar], r.practice
+        r.seed.slug, [v.headword for v in r.seed.vocab], [g.pattern for g in r.seed.grammar], r.practice
     )
 
 

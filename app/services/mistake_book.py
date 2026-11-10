@@ -146,7 +146,7 @@ def entry(exercise: dict[str, Any], question_id: str, last_answer: str | None) -
     if question is None:
         return None
     options = [{"id": str(o["id"]), "text": _option_text(o)} for o in question.get("options", [])]
-    out["prompt"] = question.get("prompt_ko") or question.get("prompt_vi") or exercise.get("instruction_vi")
+    out["prompt"] = question.get("prompt_en") or question.get("prompt_vi") or exercise.get("instruction_vi")
     out["context"] = context_of(exercise)
     out["options"] = options
     out["correct_id"] = str(question["answer"])

@@ -206,7 +206,7 @@ class VocabItemAudio(Base):
     """Same content-addressed cache pattern as CorpusItemAudio, but keyed
     to one content.vocab_item — backs the "nghe" (listen) button on a
     vocab flashcard (SRS/SDD: vocab study must offer audio, not just the
-    written hangul). `vocab_item_id` is a plain integer (content.vocab_item
+    written headword). `vocab_item_id` is a plain integer (content.vocab_item
     uses an autoincrement int PK, not a UUID) and stays a bare id for the
     same cross-module reason as corpus_item_id above — no physical FK."""
 
@@ -244,7 +244,7 @@ class TextAudio(Base):
 
     id: Mapped[uuid.UUID] = _uuid_pk()
     cache_key: Mapped[str] = mapped_column(String(160), unique=True, index=True)
-    text_ko: Mapped[str] = mapped_column(Text)
+    text_en: Mapped[str] = mapped_column(Text)
     voice: Mapped[str] = mapped_column(String(64))
     prompt_version: Mapped[str] = mapped_column(String(32))
     provider: Mapped[str] = mapped_column(String(16), default="chirp")
@@ -296,7 +296,7 @@ class CorpusItem(Base):
 
     id: Mapped[uuid.UUID] = _uuid_pk()
     film_id: Mapped[int] = mapped_column(ForeignKey("corpus.film.id", ondelete="CASCADE"), index=True)
-    text_ko: Mapped[str] = mapped_column(Text)
+    text_en: Mapped[str] = mapped_column(Text)
     kind: Mapped[str] = mapped_column(Enum("câu", "cụm từ", "mẫu ngữ pháp", name="corpus_item_kind"))
     level: Mapped[int] = mapped_column(SmallInteger)
     register: Mapped[str] = mapped_column(Enum("존댓말", "반말", "hỗn hợp", name="corpus_item_register"))
@@ -366,7 +366,7 @@ class QuestionType(Base):
     id: Mapped[uuid.UUID] = _uuid_pk()
     skill: Mapped[str] = mapped_column(String(32))
     code: Mapped[str] = mapped_column(String(32), unique=True)
-    name_ko: Mapped[str] = mapped_column(String(120))
+    name_en: Mapped[str] = mapped_column(String(120))
     name_vi: Mapped[str] = mapped_column(String(120))
     active: Mapped[bool] = mapped_column(Boolean, default=True)
 
@@ -380,7 +380,7 @@ class ExamPassage(Base):
         UUID(as_uuid=True), ForeignKey("content.exam_paper.id", ondelete="CASCADE")
     )
     kind: Mapped[str] = mapped_column(String(32))
-    body_ko: Mapped[str | None] = mapped_column(Text, nullable=True)
+    body_en: Mapped[str | None] = mapped_column(Text, nullable=True)
     chart_data: Mapped[dict | None] = mapped_column(JSONB, nullable=True)
     image_key: Mapped[str | None] = mapped_column(String(500), nullable=True)
     audio_key: Mapped[str | None] = mapped_column(String(500), nullable=True)
@@ -407,8 +407,8 @@ class ExamItem(Base):
     qtype_id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), ForeignKey("content.question_type.id"))
     # The instruction printed once above a group of questions ("[9~12] 다음 글 또는
     # 도표의 내용과 같은 것을 고르십시오."), copied onto each question of the group.
-    instruction_ko: Mapped[str | None] = mapped_column(Text, nullable=True)
-    stem_ko: Mapped[str] = mapped_column(Text)
+    instruction_en: Mapped[str | None] = mapped_column(Text, nullable=True)
+    stem_en: Mapped[str] = mapped_column(Text)
     options: Mapped[dict] = mapped_column(JSONB)
     answer: Mapped[int | None] = mapped_column(SmallInteger, nullable=True)
     answer_source: Mapped[str | None] = mapped_column(
@@ -463,7 +463,7 @@ class Lesson(Base):
     # and loaded by app.services.lesson_seed. `slug` is that file's identity
     # (NULL on a lesson from the old upload flow, which no longer exists).
     slug: Mapped[str | None] = mapped_column(String(80), unique=True, nullable=True)
-    title_ko: Mapped[str | None] = mapped_column(String(255), nullable=True)
+    title_en: Mapped[str | None] = mapped_column(String(255), nullable=True)
     summary: Mapped[str | None] = mapped_column(Text, nullable=True)
     track: Mapped[str | None] = mapped_column(String(16), nullable=True)  # beginner | intermediate | advanced
     sort_order: Mapped[int] = mapped_column(Integer, default=0, server_default="0")
@@ -506,27 +506,27 @@ class VocabItem(Base):
     lesson_id: Mapped[int | None] = mapped_column(
         ForeignKey("content.lesson.id", ondelete="CASCADE"), index=True, nullable=True
     )
-    hangul: Mapped[str] = mapped_column(String(120))
+    headword: Mapped[str] = mapped_column(String(120))
     pos: Mapped[str | None] = mapped_column(String(32), nullable=True)
     meaning_vi: Mapped[str] = mapped_column(String(255))
-    definition_ko: Mapped[str | None] = mapped_column(Text, nullable=True)
+    definition_en: Mapped[str | None] = mapped_column(Text, nullable=True)
     level: Mapped[int] = mapped_column(SmallInteger)
     hanja: Mapped[str | None] = mapped_column(String(64), nullable=True)
     sino_vietnamese: Mapped[str | None] = mapped_column(String(120), nullable=True)
-    example_ko: Mapped[str | None] = mapped_column(Text, nullable=True)
+    example_en: Mapped[str | None] = mapped_column(Text, nullable=True)
     example_vi: Mapped[str | None] = mapped_column(Text, nullable=True)
     # Chunk-first learning (lesson-v4): TOPIK tests which words go together
     # (which verb takes 우산, which register), not isolated words. All nullable,
     # so cards extracted before v4 keep working and simply show less.
     family: Mapped[str | None] = mapped_column(String(120), nullable=True)  # the set it is learned in, e.g. "Động từ đi với thời tiết"
-    node_word: Mapped[str | None] = mapped_column(String(120), nullable=True)  # the part of `hangul` a learner must choose correctly (오다 in 비가 오다)
+    node_word: Mapped[str | None] = mapped_column(String(120), nullable=True)  # the part of `headword` a learner must choose correctly (오다 in 비가 오다)
     register: Mapped[str | None] = mapped_column(String(16), nullable=True)  # spoken | written | neutral
     # The exam course this word is part of as well ("kiip-3" = KIIP stage 3); see lesson_seed.ExamTag
     exam: Mapped[str | None] = mapped_column(String(16), nullable=True)
     # "core" (learn now) | "recognize" (understand when met); null on words that come from an article
     priority: Mapped[str | None] = mapped_column(String(12), nullable=True)
     usage_note_vi: Mapped[str | None] = mapped_column(Text, nullable=True)
-    pron_ko: Mapped[str | None] = mapped_column(String(160), nullable=True)  # "[학쌩]": read this way
+    pron_en: Mapped[str | None] = mapped_column(String(160), nullable=True)  # "[학쌩]": read this way
     collocations: Mapped[list | None] = mapped_column(JSONB, nullable=True)  # [{"ko": "...", "vi": "..."}]
     distractors: Mapped[list | None] = mapped_column(JSONB, nullable=True)  # wrong-but-tempting stand-ins for node_word
     import_item_id: Mapped[uuid.UUID | None] = mapped_column(UUID(as_uuid=True), nullable=True)
@@ -547,19 +547,19 @@ class GrammarPoint(Base):
     pattern: Mapped[str] = mapped_column(String(255))  # V/A + hình thái, vd "V + -(으)ㄹ 뿐만 아니라"
     meaning_vi: Mapped[str] = mapped_column(String(255))
     level: Mapped[int] = mapped_column(SmallInteger)
-    example_ko: Mapped[str | None] = mapped_column(Text, nullable=True)
+    example_en: Mapped[str | None] = mapped_column(Text, nullable=True)
     example_vi: Mapped[str | None] = mapped_column(Text, nullable=True)
     # A caution that belongs to this pattern alone ("both clauses need the same
     # subject", "not with adjectives"), as the lesson's author wrote it.
     note_vi: Mapped[str | None] = mapped_column(Text, nullable=True)
     # Added per owner feedback: a bare "V/A + form" pattern + one example
     # sentence isn't enough to actually use a grammar point — usage_context_vi
-    # explains WHEN/in what situation it's used (Vietnamese), topik_tip_vi
+    # explains WHEN/in what situation it's used (Vietnamese), exam_tip_vi
     # explains how it actually shows up in TOPIK exam questions. Nullable so
     # existing rows (extracted before this field existed) degrade gracefully
     # until backfilled/re-extracted.
     usage_context_vi: Mapped[str | None] = mapped_column(Text, nullable=True)
-    topik_tip_vi: Mapped[str | None] = mapped_column(Text, nullable=True)
+    exam_tip_vi: Mapped[str | None] = mapped_column(Text, nullable=True)
     # TOPIK asks "which is closest in meaning", so patterns are learned as a set:
     # the label of the set and, for each other member, how it differs.
     contrast_group: Mapped[str | None] = mapped_column(String(120), nullable=True)
@@ -746,7 +746,7 @@ class ErrorLog(Base):
     learner_id: Mapped[uuid.UUID] = mapped_column(UUID(as_uuid=True), ForeignKey("profiles.id"))
     skill: Mapped[str] = mapped_column(String(32))  # vocab | grammar | đọc | nghe | viết
     error_type: Mapped[str] = mapped_column(String(64))
-    example_ko: Mapped[str] = mapped_column(Text)
+    example_en: Mapped[str] = mapped_column(Text)
     item_type: Mapped[str | None] = mapped_column(String(16), nullable=True)  # vocab_item | grammar_point
     item_id: Mapped[int | None] = mapped_column(Integer, nullable=True)
     mode: Mapped[str | None] = mapped_column(String(16), nullable=True)  # recognize | cloze | exam | writing
@@ -963,7 +963,7 @@ class PresentationSession(Base):
     )
     band: Mapped[int] = mapped_column(SmallInteger)
     level: Mapped[int] = mapped_column(SmallInteger, default=1, server_default="1")
-    topic: Mapped[dict] = mapped_column(JSONB)  # question_ko, question_vi, angle_vi, words, source
+    topic: Mapped[dict] = mapped_column(JSONB)  # question_en, question_vi, angle_vi, words, source
     notes_vi: Mapped[str] = mapped_column(Text, default="", server_default="")
     outline: Mapped[list | None] = mapped_column(JSONB, nullable=True)
     # [{"index", "at", "metrics", "eval", "answers": {"<q>": {...}}}], oldest first
@@ -1148,7 +1148,7 @@ class EditorialArticle(Base):
     """Created immediately (find_or_create, keyed by `source_url`) when an
     editorial_article import_batch is submitted — same timing as Film/
     ExamPaper, since source_url/source_name are admin-given, not
-    AI-derived. Enrichment fields (title_ko..thinking_guide_text) start
+    AI-derived. Enrichment fields (title_en..thinking_guide_text) start
     NULL and are filled in by apply_editorial_batch once the single
     "editorial_meta" import_item is confirmed — `import_item_id` records
     that lineage so rollback can reset them. `vocab_ids`/`grammar_ids` are
@@ -1168,17 +1168,17 @@ class EditorialArticle(Base):
     id: Mapped[uuid.UUID] = _uuid_pk()
     source_name: Mapped[str] = mapped_column(String(120))
     source_url: Mapped[str] = mapped_column(String(1000), unique=True)
-    title_ko: Mapped[str | None] = mapped_column(String(500), nullable=True)
+    title_en: Mapped[str | None] = mapped_column(String(500), nullable=True)
     topic_tags: Mapped[list[str]] = mapped_column(ARRAY(String), default=list)
     level_estimate: Mapped[int | None] = mapped_column(SmallInteger, nullable=True)
     published_date: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
-    body_ko: Mapped[str | None] = mapped_column(Text, nullable=True)
+    body_en: Mapped[str | None] = mapped_column(Text, nullable=True)
     vocab_ids: Mapped[list[int]] = mapped_column(ARRAY(Integer), default=list)
     grammar_ids: Mapped[list[int]] = mapped_column(ARRAY(Integer), default=list)
     model_outline: Mapped[dict | None] = mapped_column(JSONB, nullable=True)
     thinking_guide_text: Mapped[str | None] = mapped_column(Text, nullable=True)
     # Inline photos scraped with the article: [{url, caption, after_paragraph}]
-    # (hotlinked, not copied — same internal/family-use scope as body_ko).
+    # (hotlinked, not copied — same internal/family-use scope as body_en).
     # `images_fetched_at` NULL = never attempted: GET /editorials/{id} then
     # queues a one-off refresh_editorial_images so articles imported before
     # this column existed get their photos without any admin action.
@@ -1194,7 +1194,7 @@ class EditorialArticle(Base):
     study_updated_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
     # The reading path: the course lessons this article follows (closest first; empty = not placed on
     # the path), a one-line "when to read it", and the questions asked right after reading
-    # ([{type: mcq|apply, skill, prompt_ko|prompt_vi, options, answer_index, explanation_vi, model_ko}]).
+    # ([{type: mcq|apply, skill, prompt_en|prompt_vi, options, answer_index, explanation_vi, model_en}]).
     related_lesson_ids: Mapped[list[int]] = mapped_column(ARRAY(Integer), default=list, server_default="{}")
     unlock_hint: Mapped[str | None] = mapped_column(Text, nullable=True)
     practice: Mapped[list[dict] | None] = mapped_column(JSONB, nullable=True)
@@ -1267,8 +1267,8 @@ class EditorialCandidate(Base):
     id: Mapped[uuid.UUID] = _uuid_pk()
     source_name: Mapped[str] = mapped_column(String(120))
     source_url: Mapped[str] = mapped_column(String(1000), unique=True)
-    title_ko: Mapped[str] = mapped_column(String(500))
-    snippet_ko: Mapped[str | None] = mapped_column(Text, nullable=True)
+    title_en: Mapped[str] = mapped_column(String(500))
+    snippet_en: Mapped[str | None] = mapped_column(Text, nullable=True)
     topic_tags: Mapped[list[str]] = mapped_column(ARRAY(String), default=list)
     published_date: Mapped[datetime | None] = mapped_column(DateTime(timezone=True), nullable=True)
     status: Mapped[str] = mapped_column(

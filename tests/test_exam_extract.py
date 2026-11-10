@@ -2,7 +2,7 @@
 
 The regression behind it, read off a real paper (TOPIK II 102회 읽기): one call over
 the whole PDF, one text field per question. The model wrote the group instruction,
-a passage's first sentence or a banner into `stem_ko`, paraphrased ("고르십시오" →
+a passage's first sentence or a banner into `stem_en`, paraphrased ("고르십시오" →
 "고르시오", "우표" → "우체"), guessed answers (which turned EVERY card red) and
 lost the underlining. Gemini is a fake here: it "sees" only the pages of the window
 it is asked about and reads a question completely only when every page the question
@@ -123,7 +123,7 @@ class Paper:
                 passages[ref] = {
                     "local_ref": ref,
                     "kind": "đọc hiểu" if p["kind"] not in ("biểu đồ", "nghe") else p["kind"],
-                    "body_ko": None if p["withheld"] else (p["body"] if seen_whole else (p["body"] or "")[:12]),
+                    "body_en": None if p["withheld"] else (p["body"] if seen_whole else (p["body"] or "")[:12]),
                     "withheld": p["withheld"],
                     "page": p["start"],
                     "confidence": 0.9 if seen_whole else 0.4,
@@ -138,10 +138,10 @@ class Paper:
                 "number": q["n"],
                 "passage_ref": ref if ref in passages else None,
                 "qtype_code": q["qtype"],
-                "instruction_ko": ("※ " + q["instr"] + " (각 2점)") if q["instr"] and (whole or min(q["needs"]) in visible) else None,
+                "instruction_en": ("※ " + q["instr"] + " (각 2점)") if q["instr"] and (whole or min(q["needs"]) in visible) else None,
                 "group_from": None,
                 "group_to": None,
-                "stem_ko": stem,
+                "stem_en": stem,
                 "options": [f"① {o}" for o in opts] if whole else [f"① {opts[0]}", f"② {opts[1]}"],
                 "answer_guess": None,
                 "page": min(q["pages"]),
@@ -257,12 +257,12 @@ class ParseTests(unittest.TestCase):
     def test_a_bad_piece_costs_itself_not_the_window(self):
         data = {
             "paper_section": "읽기",
-            "passages": ["junk", {"local_ref": ""}, {"local_ref": "P1", "kind": "?", "body_ko": " 글 ", "page": 12, "confidence": "x"}],
+            "passages": ["junk", {"local_ref": ""}, {"local_ref": "P1", "kind": "?", "body_en": " 글 ", "page": 12, "confidence": "x"}],
             "items": [
                 7,
                 {"number": "x"},
-                {"number": 3, "stem_ko": "a", "options": "not a list", "page": 1, "confidence": 2},
-                {"number": 4, "stem_ko": "b", "options": ["① 가", "나"], "instruction_ko": "※ [3~4] 가 (각 2점)", "page": 14},
+                {"number": 3, "stem_en": "a", "options": "not a list", "page": 1, "confidence": 2},
+                {"number": 4, "stem_en": "b", "options": ["① 가", "나"], "instruction_en": "※ [3~4] 가 (각 2점)", "page": 14},
             ],
             "answer_key": [{"number": 1, "answer": 9}, {"number": 2, "answer": 3, "section": "읽기"}, "x"],
         }
@@ -278,7 +278,7 @@ class ParseTests(unittest.TestCase):
         self.assertEqual(read.key_rows, [("đọc", 2, 3)])
 
     def test_a_withheld_passage_never_keeps_text(self):
-        read = ex.parse_read({"passages": [{"local_ref": "P1", "kind": "đọc hiểu", "body_ko": "bịa", "withheld": True, "page": 1}]}, 0, (0, 5))
+        read = ex.parse_read({"passages": [{"local_ref": "P1", "kind": "đọc hiểu", "body_en": "bịa", "withheld": True, "page": 1}]}, 0, (0, 5))
         self.assertIsNone(read.passages[(0, "P1")].body)
 
 
@@ -437,14 +437,14 @@ class ExtractTests(unittest.TestCase):
         draft, paper = run()
         self.assertEqual([i["payload"]["number"] for i in draft.items], [1, 2, 3, 5, 6, 7, 8, 9])
         q1 = item(draft, 1)["payload"]
-        self.assertEqual(q1["instruction_ko"], INSTR_1)  # the mark and the score are gone
+        self.assertEqual(q1["instruction_en"], INSTR_1)  # the mark and the score are gone
         self.assertEqual(q1["group_range"], [1, 2])
-        self.assertEqual(q1["stem_ko"], "이 동네로 이사를 ( ) 일 년이 됐다.")
+        self.assertEqual(q1["stem_en"], "이 동네로 이사를 ( ) 일 년이 됐다.")
         self.assertEqual(q1["options"], ["온 지", "올 때", "오거나", "오다가"])
         self.assertEqual(q1["qtype_code"], "read_blank")
         self.assertIsNone(q1["answer"])
-        self.assertIn("<u>시원하다</u>", item(draft, 3)["payload"]["stem_ko"])
-        self.assertEqual(item(draft, 9)["payload"]["stem_ko"], "")  # an ad/chart question has no line of its own
+        self.assertIn("<u>시원하다</u>", item(draft, 3)["payload"]["stem_en"])
+        self.assertEqual(item(draft, 9)["payload"]["stem_en"], "")  # an ad/chart question has no line of its own
 
     def test_a_passage_is_shared_and_complete(self):
         draft, _ = run()
@@ -452,7 +452,7 @@ class ExtractTests(unittest.TestCase):
         self.assertEqual(set(by_ref), {"P1", "P2", "P3"})
         q5, q6 = item(draft, 5)["payload"], item(draft, 6)["payload"]
         self.assertEqual(q5["passage_ref"], q6["passage_ref"])
-        self.assertEqual(by_ref[q5["passage_ref"]]["body_ko"], P1_BODY)
+        self.assertEqual(by_ref[q5["passage_ref"]]["body_en"], P1_BODY)
 
     def test_a_withheld_passage_is_marked_and_its_question_is_red(self):
         draft, _ = run()
@@ -461,7 +461,7 @@ class ExtractTests(unittest.TestCase):
         self.assertEqual(ex.status_for(q7["flags"], q7["confidence"]), "flagged_red")
         withheld = [p for p in draft.passages if p["payload"]["withheld"]]
         self.assertEqual(len(withheld), 1)
-        self.assertIsNone(withheld[0]["payload"]["body_ko"])
+        self.assertIsNone(withheld[0]["payload"]["body_en"])
         self.assertEqual(withheld[0]["payload"]["source_page"], 6)
 
     def test_a_paper_with_no_answer_key_is_not_red(self):
@@ -551,8 +551,8 @@ def hard_truth():
 
 
 NO_UNDERLINE_BOTH = {(False, 3): {"stem": "바람이 시원하다."}, (True, 3): {"stem": "바람이 시원하다."}}
-UNDERLINED_STEM = dict(number=3, stem_ko="바람이 <u>시원하다</u>.", underline_in="stem", confidence=0.8)
-POSTER = dict(number=9, passage_ko="여행지 선택: 가격 48% | 거리 20%", confidence=0.7)
+UNDERLINED_STEM = dict(number=3, stem_en="바람이 <u>시원하다</u>.", underline_in="stem", confidence=0.8)
+POSTER = dict(number=9, passage_en="여행지 선택: 가격 48% | 거리 20%", confidence=0.7)
 
 
 class PageLabelTests(unittest.TestCase):
@@ -577,7 +577,7 @@ class PageLabelTests(unittest.TestCase):
     def test_the_source_page_is_the_page_the_model_named(self):
         draft, _ = run()
         self.assertEqual({i["payload"]["number"]: i["payload"]["source_page"] for i in draft.items}, {1: 2, 2: 2, 3: 3, 5: 5, 6: 5, 7: 6, 8: 7, 9: 9})
-        by_ref = {p["payload"]["body_ko"] or "withheld": p["payload"]["source_page"] for p in draft.passages}
+        by_ref = {p["payload"]["body_en"] or "withheld": p["payload"]["source_page"] for p in draft.passages}
         self.assertEqual(by_ref, {P1_BODY: 4, "withheld": 6, "여행지 선택: 가격 48% | 거리 20%": 8})
 
     def test_a_page_outside_the_window_is_unknown_not_trusted(self):
@@ -627,15 +627,15 @@ class PageLabelTests(unittest.TestCase):
 class StandardWordingTests(unittest.TestCase):
     def test_a_dropped_word_is_flagged_with_the_standard_wording_and_the_group_mark_kept(self):
         got = ex.standard_suggestion("[3~4] 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.", "")
-        self.assertEqual(got, {"instruction_ko": "[3~4] 밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오."})
+        self.assertEqual(got, {"instruction_en": "[3~4] 밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오."})
 
     def test_an_ending_cut_short_is_a_near_miss_too(self):
         got = ex.standard_suggestion("[9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르시오.", "")
-        self.assertEqual(got, {"instruction_ko": "[9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오."})
+        self.assertEqual(got, {"instruction_en": "[9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오."})
 
     def test_without_a_group_mark_none_is_invented(self):
         got = ex.standard_suggestion("밑줄 친 부분과 의미가 비슷한 것을 고르십시오.", "")
-        self.assertEqual(got, {"instruction_ko": "밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오."})
+        self.assertEqual(got, {"instruction_en": "밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오."})
 
     def test_every_standard_instruction_passes_and_so_does_the_older_wording(self):
         for text in ex.STANDARD_INSTRUCTIONS + ex.ALSO_ACCEPTED_INSTRUCTIONS:
@@ -656,7 +656,7 @@ class StandardWordingTests(unittest.TestCase):
         self.assertEqual(ex.standard_suggestion("[1~2] 다음을 읽고 ( )에 들어갈 말을 고르십시오.", ""), {})
 
     def test_the_stem_is_checked_too(self):
-        self.assertEqual(ex.standard_suggestion(None, "윗글의 내용과 같은 것 고르십시오."), {"stem_ko": "윗글의 내용과 같은 것을 고르십시오."})
+        self.assertEqual(ex.standard_suggestion(None, "윗글의 내용과 같은 것 고르십시오."), {"stem_en": "윗글의 내용과 같은 것을 고르십시오."})
 
     def test_the_paper_is_flagged_but_never_corrected(self):
         truth = [dict(q) for q in TRUTH]
@@ -667,24 +667,24 @@ class StandardWordingTests(unittest.TestCase):
         q3 = item(draft, 3)
         self.assertIn("instruction_variant", q3["flags"])
         self.assertEqual(ex.status_for(q3["flags"], q3["confidence"]), "flagged_yellow")
-        self.assertEqual(q3["payload"]["instruction_ko"], "[3~4] 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.")  # as read
-        self.assertEqual(q3["payload"]["instruction_suggest"], {"instruction_ko": INSTR_3})
+        self.assertEqual(q3["payload"]["instruction_en"], "[3~4] 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.")  # as read
+        self.assertEqual(q3["payload"]["instruction_suggest"], {"instruction_en": INSTR_3})
         self.assertNotIn("instruction_variant", item(draft, 1)["flags"])
         self.assertNotIn("instruction_suggest", item(draft, 1)["payload"])
 
     def test_a_stem_that_repeats_the_group_instruction_is_dropped(self):
-        data = {"items": [{"number": 1, "stem_ko": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.", "options": ["a", "b", "c", "d"], "instruction_ko": "※ [1~2] ( )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)", "page": 1}]}
+        data = {"items": [{"number": 1, "stem_en": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.", "options": ["a", "b", "c", "d"], "instruction_en": "※ [1~2] ( )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)", "page": 1}]}
         read = ex.parse_read(data, 0, (0, 5))
         self.assertEqual(read.questions[0].stem, "")
         self.assertEqual(read.questions[0].instruction, "[1~2] ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.")
 
     def test_an_instruction_the_model_put_in_the_stem_is_moved_to_where_it_belongs(self):
-        data = {"items": [{"number": 3, "stem_ko": "※ [3~4] 밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오. (각 2점)", "options": ["a", "b", "c", "d"], "page": 1}]}
+        data = {"items": [{"number": 3, "stem_en": "※ [3~4] 밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오. (각 2점)", "options": ["a", "b", "c", "d"], "page": 1}]}
         q = ex.parse_read(data, 0, (0, 5)).questions[0]
         self.assertEqual((q.stem, q.instruction, q.group), ("", "[3~4] 밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오.", (3, 4)))
 
     def test_a_real_stem_beside_an_instruction_stays(self):
-        data = {"items": [{"number": 1, "stem_ko": "이 동네로 이사를 ( ) 일 년이 됐다.", "options": ["a", "b", "c", "d"], "instruction_ko": INSTR_1, "page": 1}]}
+        data = {"items": [{"number": 1, "stem_en": "이 동네로 이사를 ( ) 일 년이 됐다.", "options": ["a", "b", "c", "d"], "instruction_en": INSTR_1, "page": 1}]}
         self.assertEqual(ex.parse_read(data, 0, (0, 5)).questions[0].stem, "이 동네로 이사를 ( ) 일 년이 됐다.")
 
 
@@ -702,23 +702,23 @@ class RefineTests(unittest.TestCase):
         self.assertIn("Câu 3", text)
         self.assertNotIn("Câu 1:", text)
         q3 = item(draft, 3)
-        self.assertEqual(q3["payload"]["stem_ko"], "바람이 <u>시원하다</u>.")
+        self.assertEqual(q3["payload"]["stem_en"], "바람이 <u>시원하다</u>.")
         self.assertIn("refined", q3["flags"])
         self.assertNotIn("no_underline", q3["flags"])
         self.assertEqual(ex.status_for(q3["flags"], q3["confidence"]), "flagged_yellow")  # a human compares it with the page
         self.assertEqual((draft.summary["refine_pages"], draft.summary["refined"]), ([3], [3]))
 
     def test_a_re_read_that_rewrites_the_words_is_not_trusted(self):
-        rewritten = dict(UNDERLINED_STEM, stem_ko="바람이 <u>선선하다</u>.")
+        rewritten = dict(UNDERLINED_STEM, stem_en="바람이 <u>선선하다</u>.")
         draft, _ = run(Paper(mutate=NO_UNDERLINE_BOTH, refine_data={3: rewritten}))
         q3 = item(draft, 3)
-        self.assertEqual(q3["payload"]["stem_ko"], "바람이 시원하다.")
+        self.assertEqual(q3["payload"]["stem_en"], "바람이 시원하다.")
         self.assertIn("no_underline", q3["flags"])  # still red: nothing new was found
         self.assertNotIn("refined", q3["flags"])
         self.assertEqual(ex.status_for(q3["flags"], q3["confidence"]), "flagged_red")
 
     def test_a_re_read_that_finds_no_underline_changes_nothing(self):
-        none = dict(number=3, stem_ko="바람이 시원하다.", underline_in="none", confidence=0.8)
+        none = dict(number=3, stem_en="바람이 시원하다.", underline_in="none", confidence=0.8)
         draft, _ = run(Paper(mutate=NO_UNDERLINE_BOTH, refine_data={3: none}))
         self.assertIn("no_underline", item(draft, 3)["flags"])
 
@@ -730,7 +730,7 @@ class RefineTests(unittest.TestCase):
         self.assertNotIn("missing_passage", q9["flags"])
         ref = q9["payload"]["passage_ref"]
         passage = next(p for p in draft.passages if p["payload"]["local_ref"] == ref)["payload"]
-        self.assertEqual(passage["body_ko"], "여행지 선택: 가격 48% | 거리 20%")
+        self.assertEqual(passage["body_en"], "여행지 선택: 가격 48% | 거리 20%")
         self.assertEqual((passage["kind"], passage["source_page"]), ("biểu đồ", 9))
         self.assertIn("refined", passage["flags"])
         self.assertEqual(ex.status_for(passage["flags"], 0.7), "flagged_yellow")
@@ -742,7 +742,7 @@ class RefineTests(unittest.TestCase):
         self.assertEqual(ex.status_for(q9["flags"], q9["confidence"]), "flagged_red")
 
     def test_a_re_read_with_unreadable_marks_is_not_taken(self):
-        draft, _ = run(Paper(truth=hard_truth(), refine_data={9: dict(POSTER, passage_ko="여행지 [?]")}))
+        draft, _ = run(Paper(truth=hard_truth(), refine_data={9: dict(POSTER, passage_en="여행지 [?]")}))
         self.assertIn("missing_passage", item(draft, 9)["flags"])
 
     def test_a_page_that_fails_costs_only_itself(self):
@@ -771,7 +771,7 @@ class RefineTests(unittest.TestCase):
         self.assertIn("refined", q3["flags"])
 
     def test_a_withheld_passage_is_never_asked_for_again(self):
-        _, paper = run(Paper(refine_data={7: dict(number=7, passage_ko="bịa", confidence=0.9)}))
+        _, paper = run(Paper(refine_data={7: dict(number=7, passage_en="bịa", confidence=0.9)}))
         self.assertEqual(paper.refine_calls, [])  # question 7 says 밑줄 but its passage is withheld
 
     def test_progress_counts_the_re_read_pages_too(self):
@@ -860,38 +860,38 @@ class DrillRuleTests(unittest.TestCase):
     """What the drill refuses to offer: questions that cannot be answered fairly."""
 
     def cand(self, **kw):
-        base = dict(item_id=None, number=5, qtype_code="read_short_passage", stem_ko="윗글의 내용과 같은 것을 고르십시오.",
+        base = dict(item_id=None, number=5, qtype_code="read_short_passage", stem_en="윗글의 내용과 같은 것을 고르십시오.",
                     options=["가", "나", "다", "라"], answer=2, answer_source="editor", skill="đọc", passage_kind="đọc hiểu",
-                    passage_ko="본문", instruction_ko="[5~6] 다음 글을 읽고 물음에 답하십시오.", passage_linked=True)
+                    passage_en="본문", instruction_en="[5~6] 다음 글을 읽고 물음에 답하십시오.", passage_linked=True)
         return exam_drill.Candidate(**{**base, **kw})
 
     def test_a_question_with_its_passage_is_usable(self):
         self.assertTrue(exam_drill.usable(self.cand()))
 
     def test_a_withheld_passage_is_not_usable(self):
-        self.assertFalse(exam_drill.usable(self.cand(passage_ko=None)))
-        self.assertFalse(exam_drill.usable(self.cand(passage_ko="  ")))
+        self.assertFalse(exam_drill.usable(self.cand(passage_en=None)))
+        self.assertFalse(exam_drill.usable(self.cand(passage_en="  ")))
 
     def test_a_question_that_points_at_a_passage_it_does_not_have(self):
         for stem in ("윗글의 내용과 같은 것", "㉠에 들어갈 말", "<보기>의 문장이 들어갈 곳"):
-            self.assertFalse(exam_drill.usable(self.cand(qtype_code="read_blank", stem_ko=stem, passage_ko=None, passage_linked=False)), stem)
+            self.assertFalse(exam_drill.usable(self.cand(qtype_code="read_blank", stem_en=stem, passage_en=None, passage_linked=False)), stem)
 
     def test_an_ordering_question_needs_its_sentences(self):
-        self.assertFalse(exam_drill.usable(self.cand(qtype_code="read_order", passage_ko=None, passage_linked=False)))
+        self.assertFalse(exam_drill.usable(self.cand(qtype_code="read_order", passage_en=None, passage_linked=False)))
 
     def test_an_underlined_phrase_must_be_marked(self):
-        plain = self.cand(qtype_code="read_grammar_choice", instruction_ko="[3~4] 밑줄 친 부분과 의미가 비슷한 것", stem_ko="바람이 시원하다.", passage_ko=None, passage_linked=False)
+        plain = self.cand(qtype_code="read_grammar_choice", instruction_en="[3~4] 밑줄 친 부분과 의미가 비슷한 것", stem_en="바람이 시원하다.", passage_en=None, passage_linked=False)
         self.assertFalse(exam_drill.usable(plain))
-        marked = self.cand(qtype_code="read_grammar_choice", instruction_ko=plain.instruction_ko, stem_ko="바람이 <u>시원하다</u>.", passage_ko=None, passage_linked=False)
+        marked = self.cand(qtype_code="read_grammar_choice", instruction_en=plain.instruction_en, stem_en="바람이 <u>시원하다</u>.", passage_en=None, passage_linked=False)
         self.assertTrue(exam_drill.usable(marked))
 
     def test_an_ad_question_has_no_stem_of_its_own_but_an_instruction(self):
-        ad = self.cand(qtype_code="read_chart_info", stem_ko="", instruction_ko="[9~12] 다음 글 또는 도표의 내용과 같은 것을 고르십시오.")
+        ad = self.cand(qtype_code="read_chart_info", stem_en="", instruction_en="[9~12] 다음 글 또는 도표의 내용과 같은 것을 고르십시오.")
         self.assertTrue(exam_drill.usable(ad))
-        self.assertFalse(exam_drill.usable(self.cand(stem_ko="", instruction_ko="")))
+        self.assertFalse(exam_drill.usable(self.cand(stem_en="", instruction_en="")))
 
     def test_a_question_saved_by_the_old_extraction_is_still_judged_by_what_it_has(self):
-        old = self.cand(instruction_ko="", passage_linked=False, qtype_code="read_blank", stem_ko="( ) 일 년이 됐다.", passage_ko=None)
+        old = self.cand(instruction_en="", passage_linked=False, qtype_code="read_blank", stem_en="( ) 일 년이 됐다.", passage_en=None)
         self.assertTrue(exam_drill.usable(old))
 
 

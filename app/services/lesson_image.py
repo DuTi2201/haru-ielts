@@ -168,8 +168,8 @@ def lesson_slots(
 
     if slug:
         add("lesson", "Ảnh đầu bài", plan.lessons.get(slug))
-    for hangul in vocab:
-        add("vocab", hangul, plan.vocab.get(hangul), (meanings or {}).get(hangul))
+    for headword in vocab:
+        add("vocab", headword, plan.vocab.get(headword), (meanings or {}).get(headword))
     for pattern in grammar:
         add("grammar", pattern, plan.grammar.get(pattern))
     for scene in iter_scenes(practice or {}):
@@ -180,7 +180,7 @@ def lesson_slots(
 def check_plan(
     lessons: list[tuple[str, list[str], list[str]]], topics: set[str] | None = None
 ) -> list[str]:
-    """Problems in images.json against the real lessons ((slug, vocab hangul, grammar
+    """Problems in images.json against the real lessons ((slug, vocab headword, grammar
     patterns) each): a picture that points at nothing, or an empty prompt."""
     plan = load_plan()
     problems: list[str] = []

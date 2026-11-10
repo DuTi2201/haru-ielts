@@ -24,7 +24,7 @@ def session(i=0, **kw):
         report={"summary_vi": "s", "praise_vi": "Tốt!", "fixes": [{"said": "학교 가요", "better": "학교에 가요", "why_vi": "Cần 에."}],
                 "words": [{"ko": "출근하다", "vi": "đi làm"}], "next_time_vi": "", "learner_facts": [], "topics_vi": ["đi làm"]},
         pronunciation={"average": 70.0, "overall_vi": "", "items": [
-            {"index": 1, "heard_ko": "", "target_ko": "저는 일곱 시에 일어나요", "score": 55, "good_vi": "",
+            {"index": 1, "heard_en": "", "target_en": "저는 일곱 시에 일어나요", "score": 55, "good_vi": "",
              "issues": [{"word": "일곱", "heard_as": "일고", "kind": "batchim", "problem_vi": "x", "tip_vi": "Giữ ㅂ cuối."}]}]},
     )
     base.update(kw)

@@ -1,7 +1,7 @@
 """Database side of "Sổ trò chuyện" → the review queue.
 
 A word kept from a talk with Haru (`talk_note`, kind "word") is linked to the vocabulary card with
-the same hangul — a lesson card first, else a news-article card (app.services.talk_history
+the same headword — a lesson card first, else a news-article card (app.services.talk_history
 .cards_for_words) — and that card gets an item_state, so the word comes back in the daily review.
 A word with no card stays a note: no vocabulary row is ever made up here.
 
@@ -32,8 +32,8 @@ async def cards_by_hangul(db: AsyncSession, words: Iterable[str]) -> dict[str, i
         return {}
     rows = (
         await db.execute(
-            select(VocabItem.id, VocabItem.hangul, VocabItem.lesson_id)
-            .where(VocabItem.hangul.in_(wanted))
+            select(VocabItem.id, VocabItem.headword, VocabItem.lesson_id)
+            .where(VocabItem.headword.in_(wanted))
             .order_by(VocabItem.id)
         )
     ).all()
