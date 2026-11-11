@@ -6954,6 +6954,226 @@
     }
    ],
    "tips_vi": []
+  },
+  {
+   "id": "G1D10KH3-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Thêm tiền tố để thành tính từ tiêu cực (1/5)",
+   "points": 3,
+   "instruction_vi": "Các tính từ tích cực sau đổi thành tiêu cực bằng tiền tố (in-, im-, un-...). Gõ cả từ mới.",
+   "text": "considerate → ( ㉠ ) (quan tâm đến người khác → thiếu quan tâm).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "inconsiderate"
+     ],
+     "common_errors_vi": "`in-` + `considerate`. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.4 (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D10KH3-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Thêm tiền tố để thành tính từ tiêu cực (2/5)",
+   "points": 3,
+   "instruction_vi": "Các tính từ tích cực sau đổi thành tiêu cực bằng tiền tố (in-, im-, un-...). Gõ cả từ mới.",
+   "text": "sensitive → ( ㉠ ) (nhạy cảm → vô tâm).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "insensitive"
+     ],
+     "common_errors_vi": "`in-` + `sensitive`. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.4 (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D10KH3-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Thêm tiền tố để thành tính từ tiêu cực (3/5)",
+   "points": 3,
+   "instruction_vi": "Các tính từ tích cực sau đổi thành tiêu cực bằng tiền tố (in-, im-, un-...). Gõ cả từ mới.",
+   "text": "decisive → ( ㉠ ) (quyết đoán → do dự).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "indecisive"
+     ],
+     "common_errors_vi": "`in-` + `decisive`. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.4 (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D10KH3-4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Thêm tiền tố để thành tính từ tiêu cực (4/5)",
+   "points": 3,
+   "instruction_vi": "Các tính từ tích cực sau đổi thành tiêu cực bằng tiền tố (in-, im-, un-...). Gõ cả từ mới.",
+   "text": "patient → ( ㉠ ) (kiên nhẫn → thiếu kiên nhẫn).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "impatient"
+     ],
+     "common_errors_vi": "Trước `p` dùng `im-`: `impatient`. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.4 (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D10KH3-5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Thêm tiền tố để thành tính từ tiêu cực (5/5)",
+   "points": 3,
+   "instruction_vi": "Các tính từ tích cực sau đổi thành tiêu cực bằng tiền tố (in-, im-, un-...). Gõ cả từ mới.",
+   "text": "reliable → ( ㉠ ) (đáng tin cậy → không đáng tin).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "unreliable"
+     ],
+     "common_errors_vi": "`un-` + `reliable`. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.4 (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D10KH4-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · personality, character hay characteristic? (1/5)",
+   "points": 3,
+   "instruction_vi": "Điền dạng số ít hoặc số nhiều. Personality = cách bạn cư xử, cảm nhận và nghĩ, nhất là trong giao tiếp. Character = tổng các phẩm chất làm bạn khác người khác. Characteristic = điều đặc trưng, dễ nhận thấy ở một người hoặc vật.",
+   "text": "She's always the life and soul of the party because she has such a bubbly ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "personality"
+     ],
+     "common_errors_vi": "Nói về cách cư xử hoà đồng, vui vẻ: `personality`. [IELTS Vocabulary 6.5+, Unit 1 · bài 2.2 (trang 12)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D10KH4-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · personality, character hay characteristic? (2/5)",
+   "points": 3,
+   "instruction_vi": "Điền dạng số ít hoặc số nhiều. Personality = cách bạn cư xử, cảm nhận và nghĩ, nhất là trong giao tiếp. Character = tổng các phẩm chất làm bạn khác người khác. Characteristic = điều đặc trưng, dễ nhận thấy ở một người hoặc vật.",
+   "text": "Dedication, commitment and knowledge are all ( ㉠ ) of a good teacher.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "characteristics"
+     ],
+     "common_errors_vi": "`all` + số nhiều: `characteristics` = những nét đặc trưng. [IELTS Vocabulary 6.5+, Unit 1 · bài 2.2 (trang 12)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D10KH4-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · personality, character hay characteristic? (3/5)",
+   "points": 3,
+   "instruction_vi": "Điền dạng số ít hoặc số nhiều. Personality = cách bạn cư xử, cảm nhận và nghĩ, nhất là trong giao tiếp. Character = tổng các phẩm chất làm bạn khác người khác. Characteristic = điều đặc trưng, dễ nhận thấy ở một người hoặc vật.",
+   "text": "I don't believe he said that; it would be really out of ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "character"
+     ],
+     "common_errors_vi": "`out of character` = không giống tính cách thường ngày của người đó. [IELTS Vocabulary 6.5+, Unit 1 · bài 2.2 (trang 12)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D10KH4-4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · personality, character hay characteristic? (4/5)",
+   "points": 3,
+   "instruction_vi": "Điền dạng số ít hoặc số nhiều. Personality = cách bạn cư xử, cảm nhận và nghĩ, nhất là trong giao tiếp. Character = tổng các phẩm chất làm bạn khác người khác. Characteristic = điều đặc trưng, dễ nhận thấy ở một người hoặc vật.",
+   "text": "I didn't get along with my business partner because our ( ㉠ ) clashed.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "personalities"
+     ],
+     "common_errors_vi": "`our` + số nhiều: `our personalities clashed` = tính nết xung khắc. [IELTS Vocabulary 6.5+, Unit 1 · bài 2.2 (trang 12)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D10KH4-5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · personality, character hay characteristic? (5/5)",
+   "points": 3,
+   "instruction_vi": "Điền dạng số ít hoặc số nhiều. Personality = cách bạn cư xử, cảm nhận và nghĩ, nhất là trong giao tiếp. Character = tổng các phẩm chất làm bạn khác người khác. Characteristic = điều đặc trưng, dễ nhận thấy ở một người hoặc vật.",
+   "text": "Children may display ( ㉠ ) of either of their parents.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "characteristics"
+     ],
+     "common_errors_vi": "Hiện ra những nét đặc trưng của bố mẹ: `characteristics`. [IELTS Vocabulary 6.5+, Unit 1 · bài 2.2 (trang 12)]"
+    }
+   ],
+   "tips_vi": []
   }
  ]
 }

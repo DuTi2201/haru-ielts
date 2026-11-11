@@ -270,6 +270,32 @@
     "Có dùng từ của bài hôm nay, đúng từ loại.",
     "Câu nói về chính bạn, không chép câu mẫu."
    ]
+  },
+  {
+   "id": "G1D10M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Ngày 10",
+   "points": 5,
+   "instruction_vi": "Viết ba câu mô tả chính bạn, dùng ít nhất ba tính từ của hôm nay (một từ có self- hoặc well-). Ví dụ vẽ một sơ đồ tư duy về bản thân trước rồi gõ ba câu từ sơ đồ đó. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn và dùng từ bạn chọn.",
+   "limits": {
+    "min": 8,
+    "max": 50
+   },
+   "prompt_en": "Write three sentences describing your own character using adjectives from today.",
+   "framework_vi": [
+    "Chọn 5 đến 10 từ bạn thích nhất trong bài hôm nay.",
+    "Nghĩ điều bạn muốn nói về chính mình, bằng tiếng Việt cũng được.",
+    "Gõ hai câu có dùng ít nhất hai từ đã chọn; từ C1 thì thêm một từ B2 đồng nghĩa ở câu kia."
+   ],
+   "model_answer_en": "I'd describe myself as a pretty well-rounded person, because I like both study and sport. At times I can be impatient, especially when someone is late. I wish I were more self-confident when I speak in public.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Có dùng từ của bài hôm nay, đúng từ loại.",
+    "Câu nói về chính bạn, không chép câu mẫu."
+   ]
   }
  ]
 }

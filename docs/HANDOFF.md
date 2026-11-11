@@ -190,3 +190,4 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
 - Ngày 5–9 có thêm bài "Câu của tôi" (gõ hai câu của chính mình với từ vừa học), cuối ngày.
 - Từ C1 khó chỉ để nhận ra gắn priority `recognize`; ngưỡng core nâng lên 1200.
 - Nguồn: `scripts/g1/day89.py`; `python3 scripts/g1/build.py`.
+- Ngày 10 (IELTS Vocabulary 6.5+ Unit 1, Human nature): tính từ tính cách (tích cực/tiêu cực, self-/well-, tiền tố phủ định), personality/character/characteristic, bài đọc popular và well-liked (7 câu TFNG), tìm từ đồng nghĩa (paraphrase). Chưa đưa vào: bài nghe và Test practice Part 4 (cần âm thanh). Còn lại của Vocabulary 6.5+: Unit 5, 21, 22 (tuần 1 của thầy có cả ba).

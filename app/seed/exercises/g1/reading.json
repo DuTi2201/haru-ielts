@@ -7082,6 +7082,1231 @@
    ]
   },
   {
+   "id": "G1D10RP1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc chậm · Popular hay well-liked? (đúng/sai/không có thông tin)",
+   "instruction_vi": "Trước khi trả lời, gạch phần bài đọc bạn nghĩ chứa đáp án. Không có mẹo: đọc kỹ rồi quyết định. True = bài nói đúng; False = bài nói ngược; Not Given = bài không có thông tin để kiểm tra.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Would you prefer to be 'popular' or 'well-liked'? A new study from The Australian National University (ANU) has shown that for Canberra's young people, being well-liked is much more desirable than being popular, and being popular does not always mean you're well-liked. The study by Stephanie Hawke, a PhD candidate in clinical psychology at ANU, looked at nearly 200 Year 9 and Year 11 students from across Canberra. It found that adolescents saw being popular and being well-liked as two very different things, and that young people may not see popularity as a desirable trait.\nThe research has been released as part of National Psychology Week. It is the first Australian study to address the issue of popularity and what it means to young people. 'Both boys and girls agreed that many popular teenagers are disliked by the year group as a whole,' said Ms Hawke. 'This can be for several reasons such as bullying, having an attitude of superiority and disrupting the classroom. Those students who are described as being both popular and well-liked manage to balance their high social status with positive qualities such as being kind and friendly.'\nThe study also found that there was a complicated relationship between both individual and group popularity, and how these were perceived by students. 'One interesting finding is that popular students are likely to belong to popular groups. This was contrasted with well-liked students, who were much less likely to belong to groups of well-liked peers,' said Ms Hawke. 'It seems that being popular is about the group that you fit into, whereas being well-liked is about the individual person's inherent characteristics. Almost all of the students interviewed said that they would prefer to be known as well-liked, as opposed to popular, because this is a reflection of who they are as a person.' She added that the results indicate that 'popular' students are not idealised in the way that popular culture sometimes portrays, and that once other students are aware that many 'popular' students are not liked by others in the year group, it is possible that they will lose the power they are perceived to have."
+   },
+   "questions": [
+    {
+     "id": "G1D10RP11",
+     "prompt_en": "The ANU study found that young people in Canberra confuse being well-liked with being popular.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Bài: `adolescents saw being popular and being well-liked as two very different things`. Họ phân biệt, không nhầm lẫn. [IELTS Vocabulary for Bands 6.5 and above, Unit 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D10RP12",
+     "prompt_en": "The ANU study showed that most young people in Canberra wish they were popular.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Bài: `young people may not see popularity as a desirable trait`. Nhiều người không muốn nổi tiếng. [IELTS Vocabulary for Bands 6.5 and above, Unit 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D10RP13",
+     "prompt_en": "According to Ms Hawke, popular students may look down on other students.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Bài: `having an attitude of superiority`. `look down on` ≈ coi mình hơn người. [IELTS Vocabulary for Bands 6.5 and above, Unit 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D10RP14",
+     "prompt_en": "According to Ms Hawke, popular students can prevent others from learning.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Bài: `disrupting the classroom`. Làm gián đoạn lớp học nghĩa là cản người khác học. [IELTS Vocabulary for Bands 6.5 and above, Unit 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D10RP15",
+     "prompt_en": "According to Ms Hawke, students who are well-liked tend to mix with others who are well-liked.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Bài: `well-liked students … were much less likely to belong to groups of well-liked peers`. Ngược lại. [IELTS Vocabulary for Bands 6.5 and above, Unit 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D10RP16",
+     "prompt_en": "Being well-liked tells us more about someone's true character than being popular.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Bài: `being popular is about the group that you fit into, whereas being well-liked is about the individual person's inherent characteristics`. [IELTS Vocabulary for Bands 6.5 and above, Unit 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D10RP17",
+     "prompt_en": "There is often one popular student in a year group who is thought to have more power than the others.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bài không nói có một người nổi tiếng nhất có quyền lực hơn cả lớp. Sách: `We are not told whether a single student has more power than the others.` [IELTS Vocabulary for Bands 6.5 and above, Unit 1]",
+     "tags": []
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH1-1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phẩm chất tích cực hay tiêu cực? (1/14)",
+   "instruction_vi": "Xếp từng tính từ chỉ tính cách vào nhóm đúng. Một số từ cho cảm giác tích cực hay tiêu cực tuỳ ngữ cảnh, nhưng ở đây theo bảng của sách.",
+   "questions": [
+    {
+     "id": "G1D10KH1-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "Tiêu cực"
+      },
+      {
+       "id": "2",
+       "text": "Tích cực"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`assertive` = dám nói rõ ý mình, không hung hăng. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.2 (trang 11)]",
+     "tags": [],
+     "prompt_vi": "assertive (tự tin nói điều mình muốn)"
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH1-2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phẩm chất tích cực hay tiêu cực? (2/14)",
+   "instruction_vi": "Xếp từng tính từ chỉ tính cách vào nhóm đúng. Một số từ cho cảm giác tích cực hay tiêu cực tuỳ ngữ cảnh, nhưng ở đây theo bảng của sách.",
+   "questions": [
+    {
+     "id": "G1D10KH1-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "Tích cực"
+      },
+      {
+       "id": "2",
+       "text": "Tiêu cực"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`charming` = làm người khác thích mình. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.2 (trang 11)]",
+     "tags": [],
+     "prompt_vi": "charming (duyên dáng, dễ mến)"
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH1-3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phẩm chất tích cực hay tiêu cực? (3/14)",
+   "instruction_vi": "Xếp từng tính từ chỉ tính cách vào nhóm đúng. Một số từ cho cảm giác tích cực hay tiêu cực tuỳ ngữ cảnh, nhưng ở đây theo bảng của sách.",
+   "questions": [
+    {
+     "id": "G1D10KH1-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "Tích cực"
+      },
+      {
+       "id": "2",
+       "text": "Tiêu cực"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`cheerful` = hay vui. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.2 (trang 11)]",
+     "tags": [],
+     "prompt_vi": "cheerful (vui vẻ)"
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH1-4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phẩm chất tích cực hay tiêu cực? (4/14)",
+   "instruction_vi": "Xếp từng tính từ chỉ tính cách vào nhóm đúng. Một số từ cho cảm giác tích cực hay tiêu cực tuỳ ngữ cảnh, nhưng ở đây theo bảng của sách.",
+   "questions": [
+    {
+     "id": "G1D10KH1-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "Tiêu cực"
+      },
+      {
+       "id": "2",
+       "text": "Tích cực"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`self-confident` = tin vào bản thân. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.2 (trang 11)]",
+     "tags": [],
+     "prompt_vi": "self-confident (tự tin)"
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH1-5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phẩm chất tích cực hay tiêu cực? (5/14)",
+   "instruction_vi": "Xếp từng tính từ chỉ tính cách vào nhóm đúng. Một số từ cho cảm giác tích cực hay tiêu cực tuỳ ngữ cảnh, nhưng ở đây theo bảng của sách.",
+   "questions": [
+    {
+     "id": "G1D10KH1-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "Tiêu cực"
+      },
+      {
+       "id": "2",
+       "text": "Tích cực"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`sensible` = quyết định hợp lý. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.2 (trang 11)]",
+     "tags": [],
+     "prompt_vi": "sensible (biết điều, thực tế)"
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH1-6",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phẩm chất tích cực hay tiêu cực? (6/14)",
+   "instruction_vi": "Xếp từng tính từ chỉ tính cách vào nhóm đúng. Một số từ cho cảm giác tích cực hay tiêu cực tuỳ ngữ cảnh, nhưng ở đây theo bảng của sách.",
+   "questions": [
+    {
+     "id": "G1D10KH1-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "Tích cực"
+      },
+      {
+       "id": "2",
+       "text": "Tiêu cực"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`tactful` = nói và làm không làm người khác phật lòng. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.2 (trang 11)]",
+     "tags": [],
+     "prompt_vi": "tactful (khéo léo, tế nhị)"
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH1-7",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phẩm chất tích cực hay tiêu cực? (7/14)",
+   "instruction_vi": "Xếp từng tính từ chỉ tính cách vào nhóm đúng. Một số từ cho cảm giác tích cực hay tiêu cực tuỳ ngữ cảnh, nhưng ở đây theo bảng của sách.",
+   "questions": [
+    {
+     "id": "G1D10KH1-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "Tiêu cực"
+      },
+      {
+       "id": "2",
+       "text": "Tích cực"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`well-liked` = người ta thích bản thân con người đó. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.2 (trang 11)]",
+     "tags": [],
+     "prompt_vi": "well-liked (được nhiều người quý)"
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH1-8",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phẩm chất tích cực hay tiêu cực? (8/14)",
+   "instruction_vi": "Xếp từng tính từ chỉ tính cách vào nhóm đúng. Một số từ cho cảm giác tích cực hay tiêu cực tuỳ ngữ cảnh, nhưng ở đây theo bảng của sách.",
+   "questions": [
+    {
+     "id": "G1D10KH1-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "Tiêu cực"
+      },
+      {
+       "id": "2",
+       "text": "Tích cực"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`anxious` = lo lắng, bồn chồn. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.2 (trang 11)]",
+     "tags": [],
+     "prompt_vi": "anxious (lo lắng)"
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH1-9",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phẩm chất tích cực hay tiêu cực? (9/14)",
+   "instruction_vi": "Xếp từng tính từ chỉ tính cách vào nhóm đúng. Một số từ cho cảm giác tích cực hay tiêu cực tuỳ ngữ cảnh, nhưng ở đây theo bảng của sách.",
+   "questions": [
+    {
+     "id": "G1D10KH1-9",
+     "options": [
+      {
+       "id": "1",
+       "text": "Tiêu cực"
+      },
+      {
+       "id": "2",
+       "text": "Tích cực"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`apprehensive` = lo sợ về điều sắp tới. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.2 (trang 11)]",
+     "tags": [],
+     "prompt_vi": "apprehensive (e ngại, lo trước điều sắp xảy ra)"
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH1-10",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phẩm chất tích cực hay tiêu cực? (10/14)",
+   "instruction_vi": "Xếp từng tính từ chỉ tính cách vào nhóm đúng. Một số từ cho cảm giác tích cực hay tiêu cực tuỳ ngữ cảnh, nhưng ở đây theo bảng của sách.",
+   "questions": [
+    {
+     "id": "G1D10KH1-10",
+     "options": [
+      {
+       "id": "1",
+       "text": "Tích cực"
+      },
+      {
+       "id": "2",
+       "text": "Tiêu cực"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`clumsy` = hay làm rơi, làm đổ đồ. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.2 (trang 11)]",
+     "tags": [],
+     "prompt_vi": "clumsy (vụng về)"
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH1-11",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phẩm chất tích cực hay tiêu cực? (11/14)",
+   "instruction_vi": "Xếp từng tính từ chỉ tính cách vào nhóm đúng. Một số từ cho cảm giác tích cực hay tiêu cực tuỳ ngữ cảnh, nhưng ở đây theo bảng của sách.",
+   "questions": [
+    {
+     "id": "G1D10KH1-11",
+     "options": [
+      {
+       "id": "1",
+       "text": "Tiêu cực"
+      },
+      {
+       "id": "2",
+       "text": "Tích cực"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`cynical` = không tin ai làm việc vì ý tốt. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.2 (trang 11)]",
+     "tags": [],
+     "prompt_vi": "cynical (hoài nghi, nghĩ xấu về động cơ người khác)"
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH1-12",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phẩm chất tích cực hay tiêu cực? (12/14)",
+   "instruction_vi": "Xếp từng tính từ chỉ tính cách vào nhóm đúng. Một số từ cho cảm giác tích cực hay tiêu cực tuỳ ngữ cảnh, nhưng ở đây theo bảng của sách.",
+   "questions": [
+    {
+     "id": "G1D10KH1-12",
+     "options": [
+      {
+       "id": "1",
+       "text": "Tích cực"
+      },
+      {
+       "id": "2",
+       "text": "Tiêu cực"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`egotistical` = hay nói và nghĩ về bản thân. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.2 (trang 11)]",
+     "tags": [],
+     "prompt_vi": "egotistical (tự cao, chỉ nghĩ đến mình)"
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH1-13",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phẩm chất tích cực hay tiêu cực? (13/14)",
+   "instruction_vi": "Xếp từng tính từ chỉ tính cách vào nhóm đúng. Một số từ cho cảm giác tích cực hay tiêu cực tuỳ ngữ cảnh, nhưng ở đây theo bảng của sách.",
+   "questions": [
+    {
+     "id": "G1D10KH1-13",
+     "options": [
+      {
+       "id": "1",
+       "text": "Tiêu cực"
+      },
+      {
+       "id": "2",
+       "text": "Tích cực"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`gullible` = dễ bị lừa vì tin ngay. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.2 (trang 11)]",
+     "tags": [],
+     "prompt_vi": "gullible (cả tin)"
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH1-14",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phẩm chất tích cực hay tiêu cực? (14/14)",
+   "instruction_vi": "Xếp từng tính từ chỉ tính cách vào nhóm đúng. Một số từ cho cảm giác tích cực hay tiêu cực tuỳ ngữ cảnh, nhưng ở đây theo bảng của sách.",
+   "questions": [
+    {
+     "id": "G1D10KH1-14",
+     "options": [
+      {
+       "id": "1",
+       "text": "Tích cực"
+      },
+      {
+       "id": "2",
+       "text": "Tiêu cực"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`self-conscious` = ngại vì sợ người khác nhìn. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.2 (trang 11)]",
+     "tags": [],
+     "prompt_vi": "self-conscious (ngượng ngùng, ý thức quá mức về việc người khác nhìn mình)"
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH2-1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · self- hay well-? Ghép tiền tố vào tính từ (1/17)",
+   "instruction_vi": "Mỗi tính từ ghép bắt đầu bằng self- hoặc well-. Chọn tiền tố đúng. Học nghĩa từng từ chứ không đoán theo âm.",
+   "questions": [
+    {
+     "id": "G1D10KH2-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "well"
+      },
+      {
+       "id": "2",
+       "text": "self"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`self-absorbed` = chỉ nghĩ về mình. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.3 (trang 11)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( )-absorbed (chỉ quan tâm tới bản thân)"
+   }
+  },
+  {
+   "id": "G1D10KH2-2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · self- hay well-? Ghép tiền tố vào tính từ (2/17)",
+   "instruction_vi": "Mỗi tính từ ghép bắt đầu bằng self- hoặc well-. Chọn tiền tố đúng. Học nghĩa từng từ chứ không đoán theo âm.",
+   "questions": [
+    {
+     "id": "G1D10KH2-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "self"
+      },
+      {
+       "id": "2",
+       "text": "well"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`self-assured` = chắc chắn về bản thân. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.3 (trang 11)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( )-assured (tự tin, điềm tĩnh)"
+   }
+  },
+  {
+   "id": "G1D10KH2-3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · self- hay well-? Ghép tiền tố vào tính từ (3/17)",
+   "instruction_vi": "Mỗi tính từ ghép bắt đầu bằng self- hoặc well-. Chọn tiền tố đúng. Học nghĩa từng từ chứ không đoán theo âm.",
+   "questions": [
+    {
+     "id": "G1D10KH2-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "self"
+      },
+      {
+       "id": "2",
+       "text": "well"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`self-centred` = ích kỷ. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.3 (trang 11)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( )-centred (chỉ nghĩ cho mình)"
+   }
+  },
+  {
+   "id": "G1D10KH2-4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · self- hay well-? Ghép tiền tố vào tính từ (4/17)",
+   "instruction_vi": "Mỗi tính từ ghép bắt đầu bằng self- hoặc well-. Chọn tiền tố đúng. Học nghĩa từng từ chứ không đoán theo âm.",
+   "questions": [
+    {
+     "id": "G1D10KH2-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "self"
+      },
+      {
+       "id": "2",
+       "text": "well"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`self-confident` = tin vào khả năng của mình. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.3 (trang 11)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( )-confident (tự tin)"
+   }
+  },
+  {
+   "id": "G1D10KH2-5",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · self- hay well-? Ghép tiền tố vào tính từ (5/17)",
+   "instruction_vi": "Mỗi tính từ ghép bắt đầu bằng self- hoặc well-. Chọn tiền tố đúng. Học nghĩa từng từ chứ không đoán theo âm.",
+   "questions": [
+    {
+     "id": "G1D10KH2-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "well"
+      },
+      {
+       "id": "2",
+       "text": "self"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`self-congratulatory` = tự hài lòng và khen mình. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.3 (trang 11)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( )-congratulatory (tự khen mình)"
+   }
+  },
+  {
+   "id": "G1D10KH2-6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · self- hay well-? Ghép tiền tố vào tính từ (6/17)",
+   "instruction_vi": "Mỗi tính từ ghép bắt đầu bằng self- hoặc well-. Chọn tiền tố đúng. Học nghĩa từng từ chứ không đoán theo âm.",
+   "questions": [
+    {
+     "id": "G1D10KH2-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "well"
+      },
+      {
+       "id": "2",
+       "text": "self"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`self-deprecating` = nói nhẹ đi thành tích của mình, thường hài hước. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.3 (trang 11)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( )-deprecating (tự hạ mình)"
+   }
+  },
+  {
+   "id": "G1D10KH2-7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · self- hay well-? Ghép tiền tố vào tính từ (7/17)",
+   "instruction_vi": "Mỗi tính từ ghép bắt đầu bằng self- hoặc well-. Chọn tiền tố đúng. Học nghĩa từng từ chứ không đoán theo âm.",
+   "questions": [
+    {
+     "id": "G1D10KH2-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "well"
+      },
+      {
+       "id": "2",
+       "text": "self"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`self-important` = nghĩ mình quan trọng hơn thực tế. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.3 (trang 11)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( )-important (tự cho mình quan trọng)"
+   }
+  },
+  {
+   "id": "G1D10KH2-8",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · self- hay well-? Ghép tiền tố vào tính từ (8/17)",
+   "instruction_vi": "Mỗi tính từ ghép bắt đầu bằng self- hoặc well-. Chọn tiền tố đúng. Học nghĩa từng từ chứ không đoán theo âm.",
+   "questions": [
+    {
+     "id": "G1D10KH2-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "self"
+      },
+      {
+       "id": "2",
+       "text": "well"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`self-reliant` = tự lo được, không cần ai. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.3 (trang 11)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( )-reliant (tự lực)"
+   }
+  },
+  {
+   "id": "G1D10KH2-9",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · self- hay well-? Ghép tiền tố vào tính từ (9/17)",
+   "instruction_vi": "Mỗi tính từ ghép bắt đầu bằng self- hoặc well-. Chọn tiền tố đúng. Học nghĩa từng từ chứ không đoán theo âm.",
+   "questions": [
+    {
+     "id": "G1D10KH2-9",
+     "options": [
+      {
+       "id": "1",
+       "text": "self"
+      },
+      {
+       "id": "2",
+       "text": "well"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`well-adjusted` = thích nghi tốt với cuộc sống. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.3 (trang 11)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( )-adjusted (hoà nhập tốt, ổn định về tinh thần)"
+   }
+  },
+  {
+   "id": "G1D10KH2-10",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · self- hay well-? Ghép tiền tố vào tính từ (10/17)",
+   "instruction_vi": "Mỗi tính từ ghép bắt đầu bằng self- hoặc well-. Chọn tiền tố đúng. Học nghĩa từng từ chứ không đoán theo âm.",
+   "questions": [
+    {
+     "id": "G1D10KH2-10",
+     "options": [
+      {
+       "id": "1",
+       "text": "well"
+      },
+      {
+       "id": "2",
+       "text": "self"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`well-behaved` = cư xử đúng mực. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.3 (trang 11)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( )-behaved (ngoan, cư xử tốt)"
+   }
+  },
+  {
+   "id": "G1D10KH2-11",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · self- hay well-? Ghép tiền tố vào tính từ (11/17)",
+   "instruction_vi": "Mỗi tính từ ghép bắt đầu bằng self- hoặc well-. Chọn tiền tố đúng. Học nghĩa từng từ chứ không đoán theo âm.",
+   "questions": [
+    {
+     "id": "G1D10KH2-11",
+     "options": [
+      {
+       "id": "1",
+       "text": "self"
+      },
+      {
+       "id": "2",
+       "text": "well"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`well-bred` = xuất thân và cách cư xử lịch sự. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.3 (trang 11)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( )-bred (được dạy dỗ tử tế, lịch thiệp)"
+   }
+  },
+  {
+   "id": "G1D10KH2-12",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · self- hay well-? Ghép tiền tố vào tính từ (12/17)",
+   "instruction_vi": "Mỗi tính từ ghép bắt đầu bằng self- hoặc well-. Chọn tiền tố đúng. Học nghĩa từng từ chứ không đoán theo âm.",
+   "questions": [
+    {
+     "id": "G1D10KH2-12",
+     "options": [
+      {
+       "id": "1",
+       "text": "well"
+      },
+      {
+       "id": "2",
+       "text": "self"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`well-brought-up` = cư xử tốt nhờ cách nuôi dạy. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.3 (trang 11)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( )-brought-up (được nuôi dạy tốt)"
+   }
+  },
+  {
+   "id": "G1D10KH2-13",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · self- hay well-? Ghép tiền tố vào tính từ (13/17)",
+   "instruction_vi": "Mỗi tính từ ghép bắt đầu bằng self- hoặc well-. Chọn tiền tố đúng. Học nghĩa từng từ chứ không đoán theo âm.",
+   "questions": [
+    {
+     "id": "G1D10KH2-13",
+     "options": [
+      {
+       "id": "1",
+       "text": "self"
+      },
+      {
+       "id": "2",
+       "text": "well"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`well-dressed` = ăn mặc chỉn chu. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.3 (trang 11)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( )-dressed (ăn mặc đẹp)"
+   }
+  },
+  {
+   "id": "G1D10KH2-14",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · self- hay well-? Ghép tiền tố vào tính từ (14/17)",
+   "instruction_vi": "Mỗi tính từ ghép bắt đầu bằng self- hoặc well-. Chọn tiền tố đúng. Học nghĩa từng từ chứ không đoán theo âm.",
+   "questions": [
+    {
+     "id": "G1D10KH2-14",
+     "options": [
+      {
+       "id": "1",
+       "text": "well"
+      },
+      {
+       "id": "2",
+       "text": "self"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`well-educated` = học hành tử tế. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.3 (trang 11)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( )-educated (được giáo dục tốt)"
+   }
+  },
+  {
+   "id": "G1D10KH2-15",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · self- hay well-? Ghép tiền tố vào tính từ (15/17)",
+   "instruction_vi": "Mỗi tính từ ghép bắt đầu bằng self- hoặc well-. Chọn tiền tố đúng. Học nghĩa từng từ chứ không đoán theo âm.",
+   "questions": [
+    {
+     "id": "G1D10KH2-15",
+     "options": [
+      {
+       "id": "1",
+       "text": "well"
+      },
+      {
+       "id": "2",
+       "text": "self"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`well-informed` = có thông tin đầy đủ. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.3 (trang 11)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( )-informed (hiểu biết tin tức)"
+   }
+  },
+  {
+   "id": "G1D10KH2-16",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · self- hay well-? Ghép tiền tố vào tính từ (16/17)",
+   "instruction_vi": "Mỗi tính từ ghép bắt đầu bằng self- hoặc well-. Chọn tiền tố đúng. Học nghĩa từng từ chứ không đoán theo âm.",
+   "questions": [
+    {
+     "id": "G1D10KH2-16",
+     "options": [
+      {
+       "id": "1",
+       "text": "well"
+      },
+      {
+       "id": "2",
+       "text": "self"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`well-mannered` = có cách cư xử tốt. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.3 (trang 11)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( )-mannered (lịch sự)"
+   }
+  },
+  {
+   "id": "G1D10KH2-17",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · self- hay well-? Ghép tiền tố vào tính từ (17/17)",
+   "instruction_vi": "Mỗi tính từ ghép bắt đầu bằng self- hoặc well-. Chọn tiền tố đúng. Học nghĩa từng từ chứ không đoán theo âm.",
+   "questions": [
+    {
+     "id": "G1D10KH2-17",
+     "options": [
+      {
+       "id": "1",
+       "text": "self"
+      },
+      {
+       "id": "2",
+       "text": "well"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`well-rounded` = phát triển đủ nhiều mặt. [IELTS Vocabulary 6.5+, Unit 1 · bài 1.3 (trang 11)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( )-rounded (toàn diện, cân đối)"
+   }
+  },
+  {
+   "id": "G1D10KH5-1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tìm từ đồng nghĩa trong bài đọc (paraphrase) (1/8)",
+   "instruction_vi": "Trong bài đọc, đề bài thường đổi từ. Tìm từ hoặc cụm trong bài có nghĩa tương đương với phần in nghiêng trong câu hỏi.",
+   "questions": [
+    {
+     "id": "G1D10KH5-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "adolescents / teenagers"
+      },
+      {
+       "id": "2",
+       "text": "peers"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`adolescents` hoặc `teenagers` = young people. [IELTS Vocabulary 6.5+, Unit 1 · bài 3.2 (trang 13)]",
+     "tags": [],
+     "prompt_vi": "«young people» trong câu hỏi = từ nào trong bài?"
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH5-2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tìm từ đồng nghĩa trong bài đọc (paraphrase) (2/8)",
+   "instruction_vi": "Trong bài đọc, đề bài thường đổi từ. Tìm từ hoặc cụm trong bài có nghĩa tương đương với phần in nghiêng trong câu hỏi.",
+   "questions": [
+    {
+     "id": "G1D10KH5-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "are disliked by the year group"
+      },
+      {
+       "id": "2",
+       "text": "see popularity as a desirable trait"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`see popularity as a desirable trait` cùng nghĩa với muốn được nổi tiếng. [IELTS Vocabulary 6.5+, Unit 1 · bài 3.2 (trang 13)]",
+     "tags": [],
+     "prompt_vi": "«wish they were popular» = cụm nào trong bài?"
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH5-3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tìm từ đồng nghĩa trong bài đọc (paraphrase) (3/8)",
+   "instruction_vi": "Trong bài đọc, đề bài thường đổi từ. Tìm từ hoặc cụm trong bài có nghĩa tương đương với phần in nghiêng trong câu hỏi.",
+   "questions": [
+    {
+     "id": "G1D10KH5-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "being kind and friendly"
+      },
+      {
+       "id": "2",
+       "text": "having an attitude of superiority"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`an attitude of superiority` = thái độ coi mình hơn người. [IELTS Vocabulary 6.5+, Unit 1 · bài 3.2 (trang 13)]",
+     "tags": [],
+     "prompt_vi": "«look down on» = cụm nào trong bài?"
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH5-4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tìm từ đồng nghĩa trong bài đọc (paraphrase) (4/8)",
+   "instruction_vi": "Trong bài đọc, đề bài thường đổi từ. Tìm từ hoặc cụm trong bài có nghĩa tương đương với phần in nghiêng trong câu hỏi.",
+   "questions": [
+    {
+     "id": "G1D10KH5-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "belonging to popular groups"
+      },
+      {
+       "id": "2",
+       "text": "disrupting the classroom"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`disrupting the classroom` = làm gián đoạn lớp học, khiến người khác không học được. [IELTS Vocabulary 6.5+, Unit 1 · bài 3.2 (trang 13)]",
+     "tags": [],
+     "prompt_vi": "«prevent others from learning» = cụm nào trong bài?"
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH5-5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tìm từ đồng nghĩa trong bài đọc (paraphrase) (5/8)",
+   "instruction_vi": "Trong bài đọc, đề bài thường đổi từ. Tìm từ hoặc cụm trong bài có nghĩa tương đương với phần in nghiêng trong câu hỏi.",
+   "questions": [
+    {
+     "id": "G1D10KH5-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "are aware of"
+      },
+      {
+       "id": "2",
+       "text": "(be) likely to"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`tend to` = `(be) likely to`. [IELTS Vocabulary 6.5+, Unit 1 · bài 3.2 (trang 13)]",
+     "tags": [],
+     "prompt_vi": "«tend to» = cụm nào trong bài?"
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH5-6",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tìm từ đồng nghĩa trong bài đọc (paraphrase) (6/8)",
+   "instruction_vi": "Trong bài đọc, đề bài thường đổi từ. Tìm từ hoặc cụm trong bài có nghĩa tương đương với phần in nghiêng trong câu hỏi.",
+   "questions": [
+    {
+     "id": "G1D10KH5-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "peers"
+      },
+      {
+       "id": "2",
+       "text": "adolescents"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`peers` = người cùng lứa, cùng nhóm tuổi. [IELTS Vocabulary 6.5+, Unit 1 · bài 3.2 (trang 13)]",
+     "tags": [],
+     "prompt_vi": "«others» (well-liked students mix with others) = từ nào trong bài?"
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH5-7",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tìm từ đồng nghĩa trong bài đọc (paraphrase) (7/8)",
+   "instruction_vi": "Trong bài đọc, đề bài thường đổi từ. Tìm từ hoặc cụm trong bài có nghĩa tương đương với phần in nghiêng trong câu hỏi.",
+   "questions": [
+    {
+     "id": "G1D10KH5-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "inherent characteristics"
+      },
+      {
+       "id": "2",
+       "text": "individual popularity"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`inherent characteristics` = những đặc điểm vốn có bên trong. [IELTS Vocabulary 6.5+, Unit 1 · bài 3.2 (trang 13)]",
+     "tags": [],
+     "prompt_vi": "«true character» = cụm nào trong bài?"
+    }
+   ]
+  },
+  {
+   "id": "G1D10KH5-8",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tìm từ đồng nghĩa trong bài đọc (paraphrase) (8/8)",
+   "instruction_vi": "Trong bài đọc, đề bài thường đổi từ. Tìm từ hoặc cụm trong bài có nghĩa tương đương với phần in nghiêng trong câu hỏi.",
+   "questions": [
+    {
+     "id": "G1D10KH5-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "perceived to"
+      },
+      {
+       "id": "2",
+       "text": "released to"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`perceived to` = được nhìn nhận là. [IELTS Vocabulary 6.5+, Unit 1 · bài 3.2 (trang 13)]",
+     "tags": [],
+     "prompt_vi": "«thought to» = từ nào trong bài?"
+    }
+   ]
+  },
+  {
    "id": "G1E1",
    "skill": "reading",
    "type": "read_cloze",

@@ -1,0 +1,423 @@
+{
+ "slug": "g1-d10-human-nature-character-adjectives-and-a-well-liked-re",
+ "title": "G1 · Ngày 10 · Con người: tính từ tính cách và bài đọc popular/well-liked",
+ "title_en": "Human nature: character adjectives and a well-liked reading",
+ "topic": "G1 · Các thì hiện tại (Tuần 1)",
+ "track": "beginner",
+ "level": 4,
+ "sort_order": 110,
+ "summary": "Dùng đúng nhóm tính từ chỉ tính cách (tích cực, tiêu cực, self-, well-, tiền tố phủ định), phân biệt personality, character, characteristic và nhận ra cách đề IELTS đổi từ (paraphrase) khi làm đúng/sai/không có thông tin.",
+ "vocab": [
+  {
+   "headword": "cheerful",
+   "pos": "A",
+   "meaning_vi": "vui vẻ",
+   "example_en": "She is a cheerful girl who smiles at everyone.",
+   "example_vi": "Cô ấy là cô gái vui vẻ, cười với mọi người.",
+   "family": "Tính cách",
+   "priority": "core",
+   "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh"
+  },
+  {
+   "headword": "charming",
+   "pos": "A",
+   "meaning_vi": "duyên dáng, dễ mến (neo vào pleasant)",
+   "example_en": "He is charming and everyone likes him.",
+   "example_vi": "Anh ấy dễ mến và ai cũng thích.",
+   "family": "Tính cách",
+   "priority": "core",
+   "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh"
+  },
+  {
+   "headword": "assertive",
+   "pos": "A",
+   "meaning_vi": "dám nói rõ ý mình (neo vào confident)",
+   "example_en": "Be assertive when you ask for help.",
+   "example_vi": "Hãy mạnh dạn nói rõ khi nhờ giúp đỡ.",
+   "family": "Tính cách",
+   "priority": "core",
+   "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh"
+  },
+  {
+   "headword": "tactful",
+   "pos": "A",
+   "meaning_vi": "khéo léo, tế nhị (neo vào careful about feelings)",
+   "example_en": "A tactful person does not hurt others' feelings.",
+   "example_vi": "Người khéo léo không làm tổn thương cảm xúc người khác.",
+   "family": "Tính cách",
+   "priority": "core",
+   "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh"
+  },
+  {
+   "headword": "sensible",
+   "pos": "A",
+   "meaning_vi": "biết điều, thực tế",
+   "example_en": "It was sensible to leave early.",
+   "example_vi": "Về sớm là điều hợp lý.",
+   "family": "Tính cách",
+   "priority": "core",
+   "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh"
+  },
+  {
+   "headword": "self-confident",
+   "pos": "A",
+   "meaning_vi": "tự tin",
+   "example_en": "A self-confident student speaks without fear.",
+   "example_vi": "Học sinh tự tin nói không sợ.",
+   "family": "Tính cách",
+   "priority": "core",
+   "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh"
+  },
+  {
+   "headword": "well-mannered",
+   "pos": "A",
+   "meaning_vi": "lịch sự",
+   "example_en": "The children were very well-mannered.",
+   "example_vi": "Bọn trẻ rất lịch sự.",
+   "family": "Tính cách",
+   "priority": "core",
+   "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh"
+  },
+  {
+   "headword": "well-informed",
+   "pos": "A",
+   "meaning_vi": "hiểu biết tin tức",
+   "example_en": "He is well-informed about world news.",
+   "example_vi": "Anh ấy hiểu biết nhiều về tin thế giới.",
+   "family": "Tính cách",
+   "priority": "core",
+   "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh"
+  },
+  {
+   "headword": "well-rounded",
+   "pos": "A",
+   "meaning_vi": "toàn diện, cân đối",
+   "example_en": "Universities want well-rounded students.",
+   "example_vi": "Các trường đại học muốn sinh viên phát triển toàn diện.",
+   "family": "Tính cách",
+   "priority": "core",
+   "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh"
+  },
+  {
+   "headword": "eccentric",
+   "pos": "A",
+   "meaning_vi": "lập dị",
+   "example_en": "My uncle is a little eccentric.",
+   "example_vi": "Chú tôi hơi lập dị.",
+   "family": "Tính cách",
+   "priority": "recognize",
+   "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh"
+  },
+  {
+   "headword": "anxious",
+   "pos": "A",
+   "meaning_vi": "lo lắng",
+   "example_en": "She felt anxious before the exam.",
+   "example_vi": "Cô ấy lo lắng trước kỳ thi.",
+   "family": "Tính cách",
+   "priority": "core",
+   "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh"
+  },
+  {
+   "headword": "apprehensive",
+   "pos": "A",
+   "meaning_vi": "e ngại, lo trước điều sắp xảy ra (neo vào worried about the future)",
+   "example_en": "He was apprehensive about the interview.",
+   "example_vi": "Anh ấy e ngại về buổi phỏng vấn.",
+   "family": "Tính cách",
+   "priority": "recognize",
+   "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh"
+  },
+  {
+   "headword": "clumsy",
+   "pos": "A",
+   "meaning_vi": "vụng về",
+   "example_en": "I am clumsy and often drop things.",
+   "example_vi": "Tôi vụng về và hay làm rơi đồ.",
+   "family": "Tính cách",
+   "priority": "core",
+   "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh"
+  },
+  {
+   "headword": "cynical",
+   "pos": "A",
+   "meaning_vi": "hoài nghi, nghĩ xấu về người khác (neo vào doubtful)",
+   "example_en": "He is cynical about politicians.",
+   "example_vi": "Anh ấy hoài nghi về các chính trị gia.",
+   "family": "Tính cách",
+   "priority": "core",
+   "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh"
+  },
+  {
+   "headword": "gullible",
+   "pos": "A",
+   "meaning_vi": "cả tin (neo vào easy to trick)",
+   "example_en": "Gullible people believe every advertisement.",
+   "example_vi": "Người cả tin tin mọi quảng cáo.",
+   "family": "Tính cách",
+   "priority": "recognize",
+   "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh"
+  },
+  {
+   "headword": "egotistical",
+   "pos": "A",
+   "meaning_vi": "tự cao, chỉ nghĩ đến mình (neo vào only thinking about yourself)",
+   "example_en": "An egotistical person talks only about himself.",
+   "example_vi": "Người tự cao chỉ nói về mình.",
+   "family": "Tính cách",
+   "priority": "recognize",
+   "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh"
+  },
+  {
+   "headword": "self-conscious",
+   "pos": "A",
+   "meaning_vi": "ngượng vì sợ người khác nhìn",
+   "example_en": "I feel self-conscious when I speak English in public.",
+   "example_vi": "Tôi ngượng khi nói tiếng Anh trước đám đông.",
+   "family": "Tính cách",
+   "priority": "core",
+   "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh"
+  },
+  {
+   "headword": "inconsiderate",
+   "pos": "A",
+   "meaning_vi": "thiếu quan tâm đến người khác",
+   "example_en": "It was inconsiderate to play loud music at night.",
+   "example_vi": "Bật nhạc to ban đêm là thiếu quan tâm đến người khác.",
+   "family": "Tính cách",
+   "priority": "core",
+   "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh"
+  },
+  {
+   "headword": "personality",
+   "pos": "N",
+   "meaning_vi": "tính nết, cách cư xử với người khác",
+   "example_en": "She has a bubbly personality.",
+   "example_vi": "Cô ấy có tính nết hoạt bát.",
+   "family": "Tính cách",
+   "priority": "core",
+   "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh"
+  },
+  {
+   "headword": "characteristic",
+   "pos": "N",
+   "meaning_vi": "nét đặc trưng",
+   "example_en": "Patience is a characteristic of a good teacher.",
+   "example_vi": "Kiên nhẫn là nét đặc trưng của một giáo viên giỏi.",
+   "family": "Tính cách",
+   "priority": "core",
+   "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh"
+  },
+  {
+   "headword": "inherent",
+   "pos": "A",
+   "meaning_vi": "vốn có, bên trong (C1)",
+   "example_en": "Honesty is an inherent part of his character.",
+   "example_vi": "Trung thực là phần vốn có trong tính cách anh ấy.",
+   "family": "Tính cách",
+   "priority": "recognize",
+   "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh"
+  }
+ ],
+ "grammar": [],
+ "notes": [
+  {
+   "title": "Mục tiêu của ngày",
+   "body": "• 🎯 Dùng đúng nhóm tính từ chỉ tính cách (tích cực, tiêu cực, self-, well-, tiền tố phủ định), phân biệt personality, character, characteristic và nhận ra cách đề IELTS đổi từ (paraphrase) khi làm đúng/sai/không có thông tin.",
+   "kind": "goal"
+  },
+  {
+   "title": "Bài của sách nằm trong app",
+   "body": "• 📖 IELTS Vocabulary 6.5+, trang 9–12: bài Bài 1–3 (từ về tính cách, paraphrase) (52 câu, khoảng 40 phút)\n• 📖 IELTS Vocabulary 6.5+, trang 10: bài Bài đọc popular và well-liked (7 câu) (7 câu, khoảng 15 phút)\n• Các bài này có sẵn trong app kèm đáp án của sách và lời giải thích từng câu.",
+   "kind": "language"
+  },
+  {
+   "title": "Cách học từ của thầy",
+   "body": "• Học từ C1 bằng một từ B2 đồng nghĩa, không học nghĩa tiếng Việt dài.\n• Chọn 5 đến 10 từ bạn thích nhất rồi gõ câu về chính mình bằng bàn phím tiếng Anh.",
+   "kind": "language"
+  }
+ ],
+ "bank": "g1",
+ "exercise_ids": [
+  "G1D10RP1",
+  "G1D10KH1-1",
+  "G1D10KH1-2",
+  "G1D10KH1-3",
+  "G1D10KH1-4",
+  "G1D10KH1-5",
+  "G1D10KH1-6",
+  "G1D10KH1-7",
+  "G1D10KH1-8",
+  "G1D10KH1-9",
+  "G1D10KH1-10",
+  "G1D10KH1-11",
+  "G1D10KH1-12",
+  "G1D10KH1-13",
+  "G1D10KH1-14",
+  "G1D10KH2-1",
+  "G1D10KH2-2",
+  "G1D10KH2-3",
+  "G1D10KH2-4",
+  "G1D10KH2-5",
+  "G1D10KH2-6",
+  "G1D10KH2-7",
+  "G1D10KH2-8",
+  "G1D10KH2-9",
+  "G1D10KH2-10",
+  "G1D10KH2-11",
+  "G1D10KH2-12",
+  "G1D10KH2-13",
+  "G1D10KH2-14",
+  "G1D10KH2-15",
+  "G1D10KH2-16",
+  "G1D10KH2-17",
+  "G1D10KH5-1",
+  "G1D10KH5-2",
+  "G1D10KH5-3",
+  "G1D10KH5-4",
+  "G1D10KH5-5",
+  "G1D10KH5-6",
+  "G1D10KH5-7",
+  "G1D10KH5-8",
+  "G1D10KH3-1",
+  "G1D10KH3-2",
+  "G1D10KH3-3",
+  "G1D10KH3-4",
+  "G1D10KH3-5",
+  "G1D10KH4-1",
+  "G1D10KH4-2",
+  "G1D10KH4-3",
+  "G1D10KH4-4",
+  "G1D10KH4-5",
+  "G1D10M1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Từ vựng · Tính cách tích cực",
+   "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: cheerful, charming, assertive, tactful, sensible, self-confident, ...",
+   "use_vi": "Từ về tính cách là nền cho Speaking Part 2 (describe a person) và Writing về con người, xã hội. Bài đọc luyện đúng cách đề đổi từ ở mọi dạng câu hỏi Reading.",
+   "vocab": [
+    "cheerful",
+    "charming",
+    "assertive",
+    "tactful",
+    "sensible",
+    "self-confident",
+    "well-mannered",
+    "well-informed",
+    "well-rounded",
+    "eccentric"
+   ]
+  },
+  {
+   "title_vi": "Từ vựng · Tính cách tiêu cực và từ hay nhầm",
+   "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: anxious, apprehensive, clumsy, cynical, gullible, egotistical, ...",
+   "use_vi": "Từ về tính cách là nền cho Speaking Part 2 (describe a person) và Writing về con người, xã hội. Bài đọc luyện đúng cách đề đổi từ ở mọi dạng câu hỏi Reading.",
+   "vocab": [
+    "anxious",
+    "apprehensive",
+    "clumsy",
+    "cynical",
+    "gullible",
+    "egotistical",
+    "self-conscious",
+    "inconsiderate",
+    "personality",
+    "characteristic",
+    "inherent"
+   ]
+  },
+  {
+   "title_vi": "Đọc chậm · Popular hay well-liked? (đúng/sai/không có thông tin)",
+   "can_do_vi": "Sau buổi này bạn đọc đúng đoạn có đáp án và giải thích được vì sao mỗi câu đúng, sai hoặc không có thông tin.",
+   "use_vi": "Từ về tính cách là nền cho Speaking Part 2 (describe a person) và Writing về con người, xã hội. Bài đọc luyện đúng cách đề đổi từ ở mọi dạng câu hỏi Reading.",
+   "check": [
+    "G1D10RP1"
+   ]
+  },
+  {
+   "title_vi": "Bài trong sách · H1",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: phẩm chất tích cực hay tiêu cực?.",
+   "use_vi": "Làm sau khi học từ: mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.",
+   "check": [
+    "G1D10KH1-1",
+    "G1D10KH1-2",
+    "G1D10KH1-3",
+    "G1D10KH1-4",
+    "G1D10KH1-5",
+    "G1D10KH1-6",
+    "G1D10KH1-7",
+    "G1D10KH1-8",
+    "G1D10KH1-9",
+    "G1D10KH1-10",
+    "G1D10KH1-11",
+    "G1D10KH1-12",
+    "G1D10KH1-13",
+    "G1D10KH1-14"
+   ]
+  },
+  {
+   "title_vi": "Bài trong sách · H2, H3",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: self- hay well-? ghép tiền tố vào tính từ; thêm tiền tố để thành tính từ tiêu cực.",
+   "use_vi": "Làm sau khi học từ: mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.",
+   "check": [
+    "G1D10KH2-1",
+    "G1D10KH2-2",
+    "G1D10KH2-3",
+    "G1D10KH2-4",
+    "G1D10KH2-5",
+    "G1D10KH2-6",
+    "G1D10KH2-7",
+    "G1D10KH2-8",
+    "G1D10KH2-9",
+    "G1D10KH2-10",
+    "G1D10KH2-11",
+    "G1D10KH2-12",
+    "G1D10KH2-13",
+    "G1D10KH2-14",
+    "G1D10KH2-15",
+    "G1D10KH2-16",
+    "G1D10KH2-17",
+    "G1D10KH3-1",
+    "G1D10KH3-2",
+    "G1D10KH3-3",
+    "G1D10KH3-4",
+    "G1D10KH3-5"
+   ]
+  },
+  {
+   "title_vi": "Bài trong sách · H4, H5",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: personality, character hay characteristic?; tìm từ đồng nghĩa trong bài đọc (paraphrase).",
+   "use_vi": "Làm sau khi học từ: mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.",
+   "check": [
+    "G1D10KH4-1",
+    "G1D10KH4-2",
+    "G1D10KH4-3",
+    "G1D10KH4-4",
+    "G1D10KH4-5",
+    "G1D10KH5-1",
+    "G1D10KH5-2",
+    "G1D10KH5-3",
+    "G1D10KH5-4",
+    "G1D10KH5-5",
+    "G1D10KH5-6",
+    "G1D10KH5-7",
+    "G1D10KH5-8"
+   ]
+  },
+  {
+   "title_vi": "Câu của tôi · tạo mối quan hệ với từ",
+   "can_do_vi": "Sau buổi này bạn đã tự gõ câu của riêng mình với các từ vừa học, bước thầy Minh coi là quan trọng nhất.",
+   "use_vi": "Từ vừa dùng cho chuyện của chính mình thì nhớ lâu hơn, và đây là cầu nối sang Writing và Speaking.",
+   "check": [
+    "G1D10M1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Bài tập theo Vocabulary for Bands 6.5 and above Unit 1 (trang 9–12, đáp án trang 220 trở đi). Chưa đưa vào: bài nghe (cần file âm thanh) và Test practice Part 4 (nghe)."
+  }
+ ]
+}

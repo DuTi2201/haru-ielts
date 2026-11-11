@@ -9,6 +9,7 @@ Sections of the day (choice/typed) live in SECTIONS below, same line format as b
 """
 CI = "Complete IELTS 5-6.5, Unit 1"
 C18 = "Cambridge IELTS 18, Test 1"
+V65 = "IELTS Vocabulary 6.5+, Unit 1"
 TFNG = ["True", "False", "Not Given"]
 
 CULTURE = """Australian culture and culture shock
@@ -36,6 +37,9 @@ Urban farming is not, of course, a new phenomenon. Inner-city agriculture is boo
 Produce grown this way typically sells at prices that, while generally higher than those of classic intensive agriculture, are lower than soil-based organic growers. There are limits to what farmers can grow this way, of course, and much of the produce is suited to the summer months. 'Root vegetables we cannot do, at least not yet,' he says. 'Radishes are OK, but carrots, potatoes, that kind of thing — the roots are simply too long. Fruit trees are obviously not an option. And beans tend to take up a lot of space for not much return.' Nevertheless, urban farming of the kind being practised in Paris is one part of a bigger and fast-changing picture that is bringing food production closer to our lives."""
 
 
+POPULAR = """Would you prefer to be 'popular' or 'well-liked'? A new study from The Australian National University (ANU) has shown that for Canberra's young people, being well-liked is much more desirable than being popular, and being popular does not always mean you're well-liked. The study by Stephanie Hawke, a PhD candidate in clinical psychology at ANU, looked at nearly 200 Year 9 and Year 11 students from across Canberra. It found that adolescents saw being popular and being well-liked as two very different things, and that young people may not see popularity as a desirable trait.
+The research has been released as part of National Psychology Week. It is the first Australian study to address the issue of popularity and what it means to young people. 'Both boys and girls agreed that many popular teenagers are disliked by the year group as a whole,' said Ms Hawke. 'This can be for several reasons such as bullying, having an attitude of superiority and disrupting the classroom. Those students who are described as being both popular and well-liked manage to balance their high social status with positive qualities such as being kind and friendly.'
+The study also found that there was a complicated relationship between both individual and group popularity, and how these were perceived by students. 'One interesting finding is that popular students are likely to belong to popular groups. This was contrasted with well-liked students, who were much less likely to belong to groups of well-liked peers,' said Ms Hawke. 'It seems that being popular is about the group that you fit into, whereas being well-liked is about the individual person's inherent characteristics. Almost all of the students interviewed said that they would prefer to be known as well-liked, as opposed to popular, because this is a reflection of who they are as a person.' She added that the results indicate that 'popular' students are not idealised in the way that popular culture sometimes portrays, and that once other students are aware that many 'popular' students are not liked by others in the year group, it is possible that they will lose the power they are perceived to have."""
 def q(prompt: str, right: str, wrong: list[str], why: str) -> tuple:
     return (prompt, [right] + wrong, why)
 
@@ -87,6 +91,68 @@ SECTIONS: list[tuple] = [
         "Intensive farming: varieties of fruit and vegetables chosen that can survive long ( ㉠ ). | journeys | Đoạn 4: `selected for their capacity to withstand such substantial journeys`. `survive` = `withstand`.",
         "Intensive farming: ( ㉠ ) receive very little of overall income. | producers | Đoạn 4: `80% of the price I pay goes to wholesalers and transport companies, not the producers`.",
         "Aeroponic urban farming: produce chosen because of its ( ㉠ ). | flavour;flavor | Đoạn 5: `You can select crop varieties for their flavour`. Viết kiểu Anh `flavour` hoặc kiểu Mỹ `flavor` đều được.",
+    ]),
+]
+
+SECTIONS += [
+    (10, "H1", V65 + " · bài 1.2 (trang 11)", "Phẩm chất tích cực hay tiêu cực?", "Xếp từng tính từ chỉ tính cách vào nhóm đúng. Một số từ cho cảm giác tích cực hay tiêu cực tuỳ ngữ cảnh, nhưng ở đây theo bảng của sách.", "choice", [
+        "assertive (tự tin nói điều mình muốn) | Tích cực | Tiêu cực | `assertive` = dám nói rõ ý mình, không hung hăng.",
+        "charming (duyên dáng, dễ mến) | Tích cực | Tiêu cực | `charming` = làm người khác thích mình.",
+        "cheerful (vui vẻ) | Tích cực | Tiêu cực | `cheerful` = hay vui.",
+        "self-confident (tự tin) | Tích cực | Tiêu cực | `self-confident` = tin vào bản thân.",
+        "sensible (biết điều, thực tế) | Tích cực | Tiêu cực | `sensible` = quyết định hợp lý.",
+        "tactful (khéo léo, tế nhị) | Tích cực | Tiêu cực | `tactful` = nói và làm không làm người khác phật lòng.",
+        "well-liked (được nhiều người quý) | Tích cực | Tiêu cực | `well-liked` = người ta thích bản thân con người đó.",
+        "anxious (lo lắng) | Tiêu cực | Tích cực | `anxious` = lo lắng, bồn chồn.",
+        "apprehensive (e ngại, lo trước điều sắp xảy ra) | Tiêu cực | Tích cực | `apprehensive` = lo sợ về điều sắp tới.",
+        "clumsy (vụng về) | Tiêu cực | Tích cực | `clumsy` = hay làm rơi, làm đổ đồ.",
+        "cynical (hoài nghi, nghĩ xấu về động cơ người khác) | Tiêu cực | Tích cực | `cynical` = không tin ai làm việc vì ý tốt.",
+        "egotistical (tự cao, chỉ nghĩ đến mình) | Tiêu cực | Tích cực | `egotistical` = hay nói và nghĩ về bản thân.",
+        "gullible (cả tin) | Tiêu cực | Tích cực | `gullible` = dễ bị lừa vì tin ngay.",
+        "self-conscious (ngượng ngùng, ý thức quá mức về việc người khác nhìn mình) | Tiêu cực | Tích cực | `self-conscious` = ngại vì sợ người khác nhìn.",
+    ]),
+    (10, "H2", V65 + " · bài 1.3 (trang 11)", "self- hay well-? Ghép tiền tố vào tính từ", "Mỗi tính từ ghép bắt đầu bằng self- hoặc well-. Chọn tiền tố đúng. Học nghĩa từng từ chứ không đoán theo âm.", "choice", [
+        "( )-absorbed (chỉ quan tâm tới bản thân) | self | well | `self-absorbed` = chỉ nghĩ về mình.",
+        "( )-assured (tự tin, điềm tĩnh) | self | well | `self-assured` = chắc chắn về bản thân.",
+        "( )-centred (chỉ nghĩ cho mình) | self | well | `self-centred` = ích kỷ.",
+        "( )-confident (tự tin) | self | well | `self-confident` = tin vào khả năng của mình.",
+        "( )-congratulatory (tự khen mình) | self | well | `self-congratulatory` = tự hài lòng và khen mình.",
+        "( )-deprecating (tự hạ mình) | self | well | `self-deprecating` = nói nhẹ đi thành tích của mình, thường hài hước.",
+        "( )-important (tự cho mình quan trọng) | self | well | `self-important` = nghĩ mình quan trọng hơn thực tế.",
+        "( )-reliant (tự lực) | self | well | `self-reliant` = tự lo được, không cần ai.",
+        "( )-adjusted (hoà nhập tốt, ổn định về tinh thần) | well | self | `well-adjusted` = thích nghi tốt với cuộc sống.",
+        "( )-behaved (ngoan, cư xử tốt) | well | self | `well-behaved` = cư xử đúng mực.",
+        "( )-bred (được dạy dỗ tử tế, lịch thiệp) | well | self | `well-bred` = xuất thân và cách cư xử lịch sự.",
+        "( )-brought-up (được nuôi dạy tốt) | well | self | `well-brought-up` = cư xử tốt nhờ cách nuôi dạy.",
+        "( )-dressed (ăn mặc đẹp) | well | self | `well-dressed` = ăn mặc chỉn chu.",
+        "( )-educated (được giáo dục tốt) | well | self | `well-educated` = học hành tử tế.",
+        "( )-informed (hiểu biết tin tức) | well | self | `well-informed` = có thông tin đầy đủ.",
+        "( )-mannered (lịch sự) | well | self | `well-mannered` = có cách cư xử tốt.",
+        "( )-rounded (toàn diện, cân đối) | well | self | `well-rounded` = phát triển đủ nhiều mặt.",
+    ]),
+    (10, "H3", V65 + " · bài 1.4 (trang 11)", "Thêm tiền tố để thành tính từ tiêu cực", "Các tính từ tích cực sau đổi thành tiêu cực bằng tiền tố (in-, im-, un-...). Gõ cả từ mới.", "typed", [
+        "considerate → ( ㉠ ) (quan tâm đến người khác → thiếu quan tâm). | inconsiderate | `in-` + `considerate`.",
+        "sensitive → ( ㉠ ) (nhạy cảm → vô tâm). | insensitive | `in-` + `sensitive`.",
+        "decisive → ( ㉠ ) (quyết đoán → do dự). | indecisive | `in-` + `decisive`.",
+        "patient → ( ㉠ ) (kiên nhẫn → thiếu kiên nhẫn). | impatient | Trước `p` dùng `im-`: `impatient`.",
+        "reliable → ( ㉠ ) (đáng tin cậy → không đáng tin). | unreliable | `un-` + `reliable`.",
+    ]),
+    (10, "H4", V65 + " · bài 2.2 (trang 12)", "personality, character hay characteristic?", "Điền dạng số ít hoặc số nhiều. Personality = cách bạn cư xử, cảm nhận và nghĩ, nhất là trong giao tiếp. Character = tổng các phẩm chất làm bạn khác người khác. Characteristic = điều đặc trưng, dễ nhận thấy ở một người hoặc vật.", "typed", [
+        "She's always the life and soul of the party because she has such a bubbly ( ㉠ ). | personality | Nói về cách cư xử hoà đồng, vui vẻ: `personality`.",
+        "Dedication, commitment and knowledge are all ( ㉠ ) of a good teacher. | characteristics | `all` + số nhiều: `characteristics` = những nét đặc trưng.",
+        "I don't believe he said that; it would be really out of ( ㉠ ). | character | `out of character` = không giống tính cách thường ngày của người đó.",
+        "I didn't get along with my business partner because our ( ㉠ ) clashed. | personalities | `our` + số nhiều: `our personalities clashed` = tính nết xung khắc.",
+        "Children may display ( ㉠ ) of either of their parents. | characteristics | Hiện ra những nét đặc trưng của bố mẹ: `characteristics`.",
+    ]),
+    (10, "H5", V65 + " · bài 3.2 (trang 13)", "Tìm từ đồng nghĩa trong bài đọc (paraphrase)", "Trong bài đọc, đề bài thường đổi từ. Tìm từ hoặc cụm trong bài có nghĩa tương đương với phần in nghiêng trong câu hỏi.", "choice", [
+        "«young people» trong câu hỏi = từ nào trong bài? | adolescents / teenagers | peers | `adolescents` hoặc `teenagers` = young people.",
+        "«wish they were popular» = cụm nào trong bài? | see popularity as a desirable trait | are disliked by the year group | `see popularity as a desirable trait` cùng nghĩa với muốn được nổi tiếng.",
+        "«look down on» = cụm nào trong bài? | having an attitude of superiority | being kind and friendly | `an attitude of superiority` = thái độ coi mình hơn người.",
+        "«prevent others from learning» = cụm nào trong bài? | disrupting the classroom | belonging to popular groups | `disrupting the classroom` = làm gián đoạn lớp học, khiến người khác không học được.",
+        "«tend to» = cụm nào trong bài? | (be) likely to | are aware of | `tend to` = `(be) likely to`.",
+        "«others» (well-liked students mix with others) = từ nào trong bài? | peers | adolescents | `peers` = người cùng lứa, cùng nhóm tuổi.",
+        "«true character» = cụm nào trong bài? | inherent characteristics | individual popularity | `inherent characteristics` = những đặc điểm vốn có bên trong.",
+        "«thought to» = từ nào trong bài? | perceived to | released to | `perceived to` = được nhìn nhận là.",
     ]),
 ]
 
@@ -206,4 +272,57 @@ DAYS: dict[int, dict] = {
              "model": "In Paris, farmers grow fruit and vegetables on a rooftop without soil. This method uses less water and space than intensive farming, although some crops cannot be grown this way."},
         ],
     },
+}
+
+DAYS[10] = {
+    "title": "Human nature: character adjectives and a well-liked reading", "title_vi": "Con người: tính từ tính cách và bài đọc popular/well-liked",
+    "goal": "Dùng đúng nhóm tính từ chỉ tính cách (tích cực, tiêu cực, self-, well-, tiền tố phủ định), phân biệt personality, character, characteristic và nhận ra cách đề IELTS đổi từ (paraphrase) khi làm đúng/sai/không có thông tin.",
+    "ielts": "Từ về tính cách là nền cho Speaking Part 2 (describe a person) và Writing về con người, xã hội. Bài đọc luyện đúng cách đề đổi từ ở mọi dạng câu hỏi Reading.",
+    "source": "IELTS Vocabulary for Bands 6.5 and above, Unit 1; từ neo B2 theo cách của thầy Minh", "family": "Tính cách",
+    "recognize": {"eccentric", "egotistical", "gullible", "apprehensive", "inherent", "perceive"},
+    "editor": "Bài tập theo Vocabulary for Bands 6.5 and above Unit 1 (trang 9–12, đáp án trang 220 trở đi). Chưa đưa vào: bài nghe (cần file âm thanh) và Test practice Part 4 (nghe).",
+    "book": [("IELTS Vocabulary 6.5+", "9–12", "Bài 1–3 (từ về tính cách, paraphrase)", 52, 40), ("IELTS Vocabulary 6.5+", "10", "Bài đọc popular và well-liked (7 câu)", 7, 15)],
+    "sittings": [
+        ("Tính cách tích cực", [
+            ("cheerful", "A", "vui vẻ", "She is a cheerful girl who smiles at everyone.", "Cô ấy là cô gái vui vẻ, cười với mọi người."),
+            ("charming", "A", "duyên dáng, dễ mến (neo vào pleasant)", "He is charming and everyone likes him.", "Anh ấy dễ mến và ai cũng thích."),
+            ("assertive", "A", "dám nói rõ ý mình (neo vào confident)", "Be assertive when you ask for help.", "Hãy mạnh dạn nói rõ khi nhờ giúp đỡ."),
+            ("tactful", "A", "khéo léo, tế nhị (neo vào careful about feelings)", "A tactful person does not hurt others' feelings.", "Người khéo léo không làm tổn thương cảm xúc người khác."),
+            ("sensible", "A", "biết điều, thực tế", "It was sensible to leave early.", "Về sớm là điều hợp lý."),
+            ("self-confident", "A", "tự tin", "A self-confident student speaks without fear.", "Học sinh tự tin nói không sợ."),
+            ("well-mannered", "A", "lịch sự", "The children were very well-mannered.", "Bọn trẻ rất lịch sự."),
+            ("well-informed", "A", "hiểu biết tin tức", "He is well-informed about world news.", "Anh ấy hiểu biết nhiều về tin thế giới."),
+            ("well-rounded", "A", "toàn diện, cân đối", "Universities want well-rounded students.", "Các trường đại học muốn sinh viên phát triển toàn diện."),
+            ("eccentric", "A", "lập dị", "My uncle is a little eccentric.", "Chú tôi hơi lập dị."),
+        ]),
+        ("Tính cách tiêu cực và từ hay nhầm", [
+            ("anxious", "A", "lo lắng", "She felt anxious before the exam.", "Cô ấy lo lắng trước kỳ thi."),
+            ("apprehensive", "A", "e ngại, lo trước điều sắp xảy ra (neo vào worried about the future)", "He was apprehensive about the interview.", "Anh ấy e ngại về buổi phỏng vấn."),
+            ("clumsy", "A", "vụng về", "I am clumsy and often drop things.", "Tôi vụng về và hay làm rơi đồ."),
+            ("cynical", "A", "hoài nghi, nghĩ xấu về người khác (neo vào doubtful)", "He is cynical about politicians.", "Anh ấy hoài nghi về các chính trị gia."),
+            ("gullible", "A", "cả tin (neo vào easy to trick)", "Gullible people believe every advertisement.", "Người cả tin tin mọi quảng cáo."),
+            ("egotistical", "A", "tự cao, chỉ nghĩ đến mình (neo vào only thinking about yourself)", "An egotistical person talks only about himself.", "Người tự cao chỉ nói về mình."),
+            ("self-conscious", "A", "ngượng vì sợ người khác nhìn", "I feel self-conscious when I speak English in public.", "Tôi ngượng khi nói tiếng Anh trước đám đông."),
+            ("inconsiderate", "A", "thiếu quan tâm đến người khác", "It was inconsiderate to play loud music at night.", "Bật nhạc to ban đêm là thiếu quan tâm đến người khác."),
+            ("personality", "N", "tính nết, cách cư xử với người khác", "She has a bubbly personality.", "Cô ấy có tính nết hoạt bát."),
+            ("characteristic", "N", "nét đặc trưng", "Patience is a characteristic of a good teacher.", "Kiên nhẫn là nét đặc trưng của một giáo viên giỏi."),
+            ("inherent", "A", "vốn có, bên trong (C1)", "Honesty is an inherent part of his character.", "Trung thực là phần vốn có trong tính cách anh ấy."),
+        ]),
+    ],
+    "passages": [
+        {"id": "P1", "title": "Popular hay well-liked? (đúng/sai/không có thông tin)", "instr": "Trước khi trả lời, gạch phần bài đọc bạn nghĩ chứa đáp án. Không có mẹo: đọc kỹ rồi quyết định. True = bài nói đúng; False = bài nói ngược; Not Given = bài không có thông tin để kiểm tra.", "text": POPULAR, "qs": [
+            tf("The ANU study found that young people in Canberra confuse being well-liked with being popular.", "False", "Bài: `adolescents saw being popular and being well-liked as two very different things`. Họ phân biệt, không nhầm lẫn."),
+            tf("The ANU study showed that most young people in Canberra wish they were popular.", "False", "Bài: `young people may not see popularity as a desirable trait`. Nhiều người không muốn nổi tiếng."),
+            tf("According to Ms Hawke, popular students may look down on other students.", "True", "Bài: `having an attitude of superiority`. `look down on` ≈ coi mình hơn người."),
+            tf("According to Ms Hawke, popular students can prevent others from learning.", "True", "Bài: `disrupting the classroom`. Làm gián đoạn lớp học nghĩa là cản người khác học."),
+            tf("According to Ms Hawke, students who are well-liked tend to mix with others who are well-liked.", "False", "Bài: `well-liked students … were much less likely to belong to groups of well-liked peers`. Ngược lại."),
+            tf("Being well-liked tells us more about someone's true character than being popular.", "True", "Bài: `being popular is about the group that you fit into, whereas being well-liked is about the individual person's inherent characteristics`."),
+            tf("There is often one popular student in a year group who is thought to have more power than the others.", "Not Given", "Bài không nói có một người nổi tiếng nhất có quyền lực hơn cả lớp. Sách: `We are not told whether a single student has more power than the others.`"),
+        ]},
+    ],
+    "my": [
+        {"vi": "Viết ba câu mô tả chính bạn, dùng ít nhất ba tính từ của hôm nay (một từ có self- hoặc well-). Ví dụ vẽ một sơ đồ tư duy về bản thân trước rồi gõ ba câu từ sơ đồ đó.",
+         "en": "Write three sentences describing your own character using adjectives from today.",
+         "model": "I'd describe myself as a pretty well-rounded person, because I like both study and sport. At times I can be impatient, especially when someone is late. I wish I were more self-confident when I speak in public."},
+    ],
 }
