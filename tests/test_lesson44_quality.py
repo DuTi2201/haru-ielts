@@ -170,7 +170,7 @@ def test_parse_reads_both_answer_shapes_and_names_the_weak_words():
               "CompletenessScore": 50, "PronScore": 80}, "Words": [{"Word": "yes", "PronunciationAssessment": {"AccuracyScore": 92, "ErrorType": "None"}},
               {"Word": "do", "PronunciationAssessment": {"ErrorType": "Omission"}}]}]}
     out = azure_pron.parse(nested, "Yes, I do.")
-    assert out["level"] == "good" and out["completeness"] == 50 and out["weak"] == ["do"]
+    assert out["level"] == "retry" and out["completeness"] == 50 and out["weak"] == ["do"]  # a word left out: again
     assert azure_pron.parse({"RecognitionStatus": "NoMatch"}, "Yes, I do.") == {"ok": False, "heard": "", "reason": "no_speech"}
 
 

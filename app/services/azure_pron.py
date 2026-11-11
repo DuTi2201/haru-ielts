@@ -124,7 +124,8 @@ def parse(body: dict[str, Any], reference: str) -> dict[str, Any]:
         "fluency": _num(pa.get("FluencyScore")),
         "completeness": _num(pa.get("CompletenessScore")),
         "pron": _num(pa.get("PronScore")),
-        "level": "good" if accuracy >= GOOD else "fair" if accuracy >= FAIR else "retry",
+        # a sentence with a word left out is said again, however clear the rest was
+        "level": "retry" if accuracy < FAIR or (_num(pa.get("CompletenessScore")) or 0) < 99 else "good" if accuracy >= GOOD else "fair",
         "words": words,
         "weak": weak[:6],
     }
