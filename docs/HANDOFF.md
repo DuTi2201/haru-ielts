@@ -191,3 +191,11 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
 - Từ C1 khó chỉ để nhận ra gắn priority `recognize`; ngưỡng core nâng lên 1200.
 - Nguồn: `scripts/g1/day89.py`; `python3 scripts/g1/build.py`.
 - Ngày 10 (IELTS Vocabulary 6.5+ Unit 1, Human nature): tính từ tính cách (tích cực/tiêu cực, self-/well-, tiền tố phủ định), personality/character/characteristic, bài đọc popular và well-liked (7 câu TFNG), tìm từ đồng nghĩa (paraphrase). Chưa đưa vào: bài nghe và Test practice Part 4 (cần âm thanh). Còn lại của Vocabulary 6.5+: Unit 5, 21, 22 (tuần 1 của thầy có cả ba).
+
+## G1 Ngày 1–7: chuỗi học và tên buổi (sửa theo kiểm tra tích hợp)
+- Tên buổi sách giờ nói rõ nó luyện gì: «Luyện theo sách · B2 Unit 1 · Khoanh từ đúng (+1)» (ngày ngữ pháp), «Tiếp nhận / Rèn luyện · …» (ngày từ vựng).
+- Ngày 3 đã đúng nguồn: hiện tại hoàn thành nằm ở B2 Unit 1 (bài C, D) cùng Grammar 6.5+ Unit 3. B2 Unit 3 là Past time, thuộc tuần ngữ pháp sau, không đưa vào đây.
+- Ngày 5–6 (B2 Unit 18): «Đọc trước B2 · giải nghĩa và liên tưởng» (mỗi từ có dòng «Nhớ: …», file `scripts/g1/assoc.py`) → Tiếp nhận → Vận dụng (câu của tôi) → Rèn luyện → Ôn tập (Ngày 6 ôn từ Ngày 5).
+- Chín từ C1 chuyển từ Ngày 6 sang đầu Ngày 7. Ngày 7: Làm quen C1 (28 thẻ, neo vào từ B2) → Tiếp nhận → Vận dụng → Rèn luyện → Ôn tập (từ Ngày 5–6) → Mở rộng không bắt buộc (cụm động từ, thành ngữ).
+- Bài ôn tập tự sinh từ câu ví dụ của từ (bỏ từ ra, gõ lại), id `G1D{n}O{ngày}-{k}`. Việc nhắc ôn cách quãng theo lịch vẫn do hệ thống thẻ ôn chung của app; chưa kiểm tra trong repo này.
+- Hai file mp3 Cambridge 18 Section 1 (Part 1, Part 2) đã nhận nhưng chưa dùng: app chỉ có audio kiểu `turns` (lời thoại đọc bằng giọng tổng hợp), và môi trường này không có công cụ nhận dạng giọng nói để lấy script.

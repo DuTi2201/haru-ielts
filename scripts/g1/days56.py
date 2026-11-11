@@ -5,6 +5,7 @@ from __future__ import annotations
 
 DAYS = {
     5: {
+        "stage": "b2",
         "title": "Education vocabulary 1: school, exams and study verbs", "title_vi": "Từ vựng giáo dục 1: trường học, thi cử và cụm động từ",
         "goal": "Phân biệt các cặp từ dễ nhầm về trường học và thi cử (pupil/student, pass/take, speak/talk) và dùng được 7 cụm động từ học tập.",
         "ielts": "Chủ đề giáo dục xuất hiện ở Speaking Part 1 và 2, ở Writing Task 2 và ở nhiều bài Reading/Listening. Các cặp từ này là chỗ thí sinh Band 6 hay nhầm.",
@@ -34,9 +35,10 @@ DAYS = {
         ],
     },
     6: {
-        "title": "Education vocabulary 2: collocations, word families and C1 anchors", "title_vi": "Từ vựng giáo dục 2: kết hợp từ, họ từ và 9 từ C1 neo vào từ B2",
-        "goal": "Dùng đúng các kết hợp từ và giới từ về học tập (pay attention, make sense of, succeed in) và gắn 9 từ C1 của thầy với từ B2 quen thuộc.",
-        "ielts": "Kết hợp từ chính xác được tính ở tiêu chí Lexical Resource. Chín từ C1 dùng để nhận ra khi đọc và nghe; khi nói và viết hãy dùng từ B2 đồng nghĩa với chúng.",
+        "stage": "b2",
+        "title": "Education vocabulary 2: collocations, word families and C1 anchors", "title_vi": "Từ vựng giáo dục 2: kết hợp từ và họ từ",
+        "goal": "Dùng đúng các kết hợp từ và giới từ về học tập (pay attention, make sense of, succeed in) và dùng đúng họ từ (scholarship, solution, revision).",
+        "ielts": "Kết hợp từ chính xác được tính ở tiêu chí Lexical Resource. Họ từ đúng (behave → behaviour, revise → revision) cũng ăn điểm Grammatical Range and Accuracy.",
         "book": [("Destination B2", "114", "E", 14, 15), ("Destination B2", "115", "F", 8, 8), ("Destination B2", "115", "G", 8, 10), ("Destination B2", "115", "H", 8, 10), ("Destination B2", "115", "I", 10, 12)],
         "sittings": [
             ("Kết hợp từ và họ từ", [
@@ -54,17 +56,7 @@ DAYS = {
                 ("behaviour", "N", "cách cư xử", "His behaviour in class was very good.", "Cách cư xử của cậu ấy trong lớp rất tốt."),
                 ("illiteracy", "N", "nạn mù chữ", "Illiteracy is still a problem in some countries.", "Nạn mù chữ vẫn là vấn đề ở một số nước."),
             ]),
-            ("Chín từ C1 neo vào từ B2", [
-                ("assess", "V", "đánh giá (= evaluate)", "Teachers assess students with tests.", "Giáo viên đánh giá học sinh bằng các bài kiểm tra."),
-                ("baffle", "V", "làm bối rối (= confuse)", "The question baffled me.", "Câu hỏi làm tôi bối rối."),
-                ("plausible", "A", "có vẻ hợp lý (= reasonable)", "That is a plausible explanation.", "Đó là một lời giải thích có vẻ hợp lý."),
-                ("speculate", "V", "phỏng đoán (= guess)", "We can only speculate about the reason.", "Chúng ta chỉ có thể phỏng đoán về lý do."),
-                ("presume", "V", "cho rằng (= assume)", "I presume you have finished the homework.", "Tôi cho rằng em đã làm xong bài tập."),
-                ("grasp", "V", "nắm được, hiểu (= understand)", "It took time to grasp the idea.", "Mất thời gian để nắm được ý tưởng."),
-                ("notion", "N", "quan niệm (= idea)", "I do not like the notion of learning by heart.", "Tôi không thích quan niệm học thuộc lòng."),
-                ("dilemma", "N", "tình thế khó chọn", "She faced a dilemma between work and study.", "Cô ấy rơi vào thế khó chọn giữa việc làm và việc học."),
-                ("query", "N", "câu hỏi, thắc mắc (= question)", "Send me your query by email.", "Hãy gửi thắc mắc của bạn cho tôi qua email."),
-            ]),
+            
         ],
     },
 }

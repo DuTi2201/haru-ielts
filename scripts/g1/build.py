@@ -21,6 +21,8 @@ import entry_test as ET  # noqa: E402
 import days56 as D56  # noqa: E402
 from day7 import OPTIONAL as OPT7  # noqa: E402
 import day89 as D89  # noqa: E402
+from assoc import ASSOC  # noqa: E402
+import re  # noqa: E402
 
 LESSONS = ROOT / "app" / "seed" / "lessons"
 BANK = ROOT / "app" / "seed" / "exercises" / "g1"
@@ -208,9 +210,8 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
     if chunk:
         book_sittings.append((names, chunk))
     for names, ids in book_sittings:
-        label = ", ".join(f"{c}" for c in names)
         sessions.append({
-            "title_vi": f"Bài trong sách · {label}"[:70],
+            "title_vi": pack_title("Luyện theo sách", [(book_src[c][1], book_src[c][0]) for c in names]),
             "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: " + "; ".join(book_src[c][0].lower() for c in names) + ".",
             "use_vi": "Làm sau khi học thẻ: mỗi câu sai có lời giải thích, hãy tự nói lại câu đó theo ý muốn nói rồi mới sang câu sau.",
             "check": ids,
@@ -275,6 +276,40 @@ def entry_lesson() -> tuple[dict, list[dict]]:
 
 
 TFNG3 = ["True", "False", "Not Given"]
+STAGE_PREFIX = {"b2": "Đọc trước B2 · giải nghĩa và liên tưởng", "c1": "Làm quen C1 · neo vào từ B2"}
+
+
+def pack_title(prefix: str, items: list[tuple[str, str]]) -> str:
+    """Name a sitting after what it practises: «Luyện · B2 Unit 1 · Khoanh từ đúng (+1)»."""
+    srcname, title = items[0]
+    short = srcname.split(" · ")[0].replace("Destination ", "").replace("IELTS Grammar 6.5+, ", "Grammar 6.5+ ").replace(",", "")
+    more = f" (+{len(items) - 1})" if len(items) > 1 else ""
+    room = 70 - len(prefix) - len(short) - len(more) - 6
+    room = max(room, 12)
+    if len(title) > room:
+        title = title[:room].rsplit(" ", 1)[0].rstrip(":,;") + "…"
+    return f"{prefix} · {short} · {title}{more}"
+
+
+def words_of(day: int) -> list[tuple]:
+    dd = D56.DAYS[day] if day in D56.DAYS else D89.DAYS[day]
+    return [w for _, ws in dd["sittings"] for w in ws]
+
+
+def review_items(pid: str, from_days: list[int]) -> list[dict]:
+    """Spaced review: the sentence of each earlier word with the word taken out, typed back."""
+    out = []
+    for fd in from_days:
+        for h, pos, mv, ex, evi in words_of(fd):
+            pat = re.compile(r"\b" + re.escape(h) + r"\b", re.I)
+            if not pat.search(ex):
+                continue
+            text = pat.sub("( ㉠ )", ex, count=1)
+            gloss = mv.split(" (")[0]
+            e = B.write_fill(f"{pid}O{fd}-{len(out) + 1}", f"Ôn lại · từ Ngày {fd}", text, [h, h.capitalize()], f"{h} = {gloss}. Nghĩa của câu: {evi}")
+            e["instruction_vi"] = "Ôn lại từ đã học: gõ từ còn thiếu trong câu. Nếu quên, nhìn nghĩa tiếng Việt gợi ý rồi thử lại."
+            out.append(e)
+    return out
 
 
 def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]]:
@@ -286,9 +321,9 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
     vocab, sessions = [], []
     for title, words in d["sittings"]:
         for h, pos, mv, ex, evi in words:
-            vocab.append({"headword": h, "pos": pos, "meaning_vi": mv, "example_en": ex, "example_vi": evi, "family": d.get("family", "Giáo dục"), "priority": "recognize" if h in d.get("recognize", ()) else "core",
+            vocab.append({"headword": h, "pos": pos, "meaning_vi": mv + (f" · Nhớ: {ASSOC[h]}" if h in ASSOC else ""), "example_en": ex, "example_vi": evi, "family": d.get("family", "Giáo dục"), "priority": "recognize" if h in d.get("recognize", ()) else "core",
                           "source": d.get("source", "Destination B2, Unit 18; từ C1 theo cách neo của thầy Minh")})
-        sessions.append({"title_vi": f"Từ vựng · {title}"[:70], "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: " + ", ".join(w[0] for w in words[:6]) + ", ...",
+        sessions.append({"title_vi": (STAGE_PREFIX.get(d.get("stage"), "Từ vựng") + f" · {title}")[:70], "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: " + ", ".join(w[0] for w in words[:6]) + ", ...",
                          "use_vi": d["ielts"][:200], "vocab": [w[0] for w in words]})
     for ps in d.get("passages", []):
         qs = []
@@ -305,6 +340,8 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
     first_head = vocab[0]["headword"]
     groups: dict[str, list[str]] = {}
     src: dict[str, str] = {}
+    kinds: dict[str, str] = {}
+    srcn: dict[str, str] = {}
     for day, code, srcname, title, instr, kind, lines in BK.SECTIONS:
         if day != n:
             continue
@@ -321,23 +358,27 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
                 ex["instruction_vi"] = instr
                 bank["build"].append(ex)
             groups.setdefault(code, []).append(ex_id)
-            src[code] = title
-    core = {c: i for c, i in groups.items() if c not in OPT7}
-    extra = {c: i for c, i in groups.items() if c in OPT7}
-    packs: list[tuple[list[str], list[str], bool]] = []
-    for grp, opt in ((core, False), (extra, True)):
-        chunk, names = [], []
+            src[code] = title; kinds[code] = kind; srcn[code] = srcname
+    def packs_of(grp: dict[str, list[str]]) -> list[tuple[list[str], list[str]]]:
+        res, chunk, names = [], [], []
         for code, ids in grp.items():
             if chunk and len(chunk) + len(ids) > 24:
-                packs.append((names, chunk, opt)); chunk, names = [], []
+                res.append((names, chunk)); chunk, names = [], []
             chunk += ids; names.append(code)
         if chunk:
-            packs.append((names, chunk, opt))
-    for names, ids, opt in packs:
-        label = ", ".join(c.replace("18", "") for c in names)
-        sessions.append({"title_vi": (("Mở rộng không bắt buộc · " if opt else "Bài trong sách · ") + label)[:70],
-                         "can_do_vi": (("Phần mở rộng (cụm động từ, thành ngữ): chỉ cần nhận ra khi đọc và nghe. " if opt else "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: ") + "; ".join(src[c].lower() for c in names))[:238].rstrip(" ;,") + ".",
-                         "use_vi": "Làm sau khi học từ: mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.", "check": ids})
+            res.append((names, chunk))
+        return res
+
+    def add_packs(grp: dict[str, list[str]], prefix: str, can_do: str) -> None:
+        for names, ids in packs_of(grp):
+            sessions.append({"title_vi": pack_title(prefix, [(srcn[c], src[c]) for c in names]), "can_do_vi": (can_do + "; ".join(src[c].lower() for c in names))[:238].rstrip(" ;,") + ".",
+                             "use_vi": "Mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.", "check": ids})
+
+    core = {c: i for c, i in groups.items() if c not in OPT7}
+    extra = {c: i for c, i in groups.items() if c in OPT7}
+    receive = {c: i for c, i in core.items() if kinds[c] == "choice"}
+    practise = {c: i for c, i in core.items() if kinds[c] != "choice"}
+    add_packs(receive, "Tiếp nhận", "Sau buổi này bạn nhận ra đáp án đúng trong các bài của sách: ")
     my_ids: list[str] = []
     for i, m in enumerate(d.get("my", []), 1):
         wid = f"{pid}M{i}"
@@ -350,8 +391,18 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
             "checklist_vi": ["Mỗi câu có chủ ngữ và động từ đã chia.", "Có dùng từ của bài hôm nay, đúng từ loại.", "Câu nói về chính bạn, không chép câu mẫu."]})
         my_ids.append(wid)
     if my_ids:
-        sessions.append({"title_vi": "Câu của tôi · tạo mối quan hệ với từ", "can_do_vi": "Sau buổi này bạn đã tự gõ câu của riêng mình với các từ vừa học, bước thầy Minh coi là quan trọng nhất.",
+        sessions.append({"title_vi": "Vận dụng · câu của tôi với từ vừa học", "can_do_vi": "Sau buổi này bạn đã tự gõ câu của riêng mình với các từ vừa học, bước thầy Minh coi là quan trọng nhất.",
                          "use_vi": "Từ vừa dùng cho chuyện của chính mình thì nhớ lâu hơn, và đây là cầu nối sang Writing và Speaking.", "check": my_ids})
+    add_packs(practise, "Rèn luyện", "Sau buổi này bạn tự gõ được đáp án của sách: ")
+    prev = [dd for dd in (5, 6, 7) if dd < n] if n in (6, 7) else []
+    if prev:
+        rv = review_items(pid, prev)
+        bank["build"].extend(rv)
+        for k in range(0, len(rv), 20):
+            part = rv[k:k + 20]
+            sessions.append({"title_vi": f"Ôn tập · từ Ngày {', '.join(str(x) for x in prev)} ({k // 20 + 1})"[:70], "can_do_vi": "Sau buổi này bạn nhớ lại các từ đã học ở những ngày trước mà không nhìn đáp án.",
+                             "use_vi": "Ôn cách quãng: gặp lại từ sau vài ngày giúp nhớ lâu hơn nhiều so với học dồn.", "check": [e["id"] for e in part]})
+    add_packs(extra, "Mở rộng không bắt buộc", "Cụm động từ và thành ngữ, chỉ cần nhận ra khi đọc và nghe: ")
     book_body = "\n".join(f"• 📖 {b[0]}, trang {b[1]}: bài {b[2]} ({b[3]} câu, khoảng {b[4]} phút)" for b in d["book"])
     lesson = {
         "slug": f"g1-d{n}-{B.slugify(d['title'])}"[:60].rstrip("-"),

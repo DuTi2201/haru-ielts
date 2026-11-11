@@ -183,13 +183,25 @@ SECTIONS: list[tuple] = [
 
 DAY = {
     "title": "Thinking and learning: C1 and C2 Unit 2", "title_vi": "Suy nghĩ và học tập: C1&C2 Unit 2",
-    "goal": "Nâng cấp lớp từ B2 Unit 18 bằng từ C1: học mỗi từ C1 qua một từ B2 đồng nghĩa, và dùng đúng các cụm cố định (take into consideration, strike a balance, make up your mind).",
+    "goal": "Làm quen 9 từ C1 neo vào từ B2 rồi nâng cấp lớp từ B2 Unit 18 bằng từ C1 của Unit 2: học mỗi từ C1 qua một từ B2 đồng nghĩa, và dùng đúng các cụm cố định (take into consideration, strike a balance, make up your mind).",
     "ielts": "Từ của Unit này là lõi của Reading và Listening về giáo dục và tâm lý; kết hợp từ chính xác tăng điểm Lexical Resource khi nói và viết.",
     "book": [("Destination C1&C2", "14", "A–D", 40, 35), ("Destination C1&C2", "15–18", "H–K, M–O (phần lõi)", 70, 60),
              ("Destination C1&C2", "15–18", "E–G, L (cụm động từ và thành ngữ, mở rộng không bắt buộc)", 38, 20)],
     "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ theo thầy Minh",
     "editor": "Bài tập theo Destination C1&C2 Unit 2 (trang 14–19, đáp án trang 282). Lõi: từ chủ đề, kết hợp từ, biến đổi từ; cụm động từ và thành ngữ để ở phần mở rộng theo bộ lọc của thầy.",
+    "stage": "c1",
     "sittings": [
+        ("Chín từ C1 đầu tiên, đã neo vào từ B2", [
+                ("assess", "V", "đánh giá (= evaluate)", "Teachers assess students with tests.", "Giáo viên đánh giá học sinh bằng các bài kiểm tra."),
+                ("baffle", "V", "làm bối rối (= confuse)", "The question baffled me.", "Câu hỏi làm tôi bối rối."),
+                ("plausible", "A", "có vẻ hợp lý (= reasonable)", "That is a plausible explanation.", "Đó là một lời giải thích có vẻ hợp lý."),
+                ("speculate", "V", "phỏng đoán (= guess)", "We can only speculate about the reason.", "Chúng ta chỉ có thể phỏng đoán về lý do."),
+                ("presume", "V", "cho rằng (= assume)", "I presume you have finished the homework.", "Tôi cho rằng em đã làm xong bài tập."),
+                ("grasp", "V", "nắm được, hiểu (= understand)", "It took time to grasp the idea.", "Mất thời gian để nắm được ý tưởng."),
+                ("notion", "N", "quan niệm (= idea)", "I do not like the notion of learning by heart.", "Tôi không thích quan niệm học thuộc lòng."),
+                ("dilemma", "N", "tình thế khó chọn", "She faced a dilemma between work and study.", "Cô ấy rơi vào thế khó chọn giữa việc làm và việc học."),
+                ("query", "N", "câu hỏi, thắc mắc (= question)", "Send me your query by email.", "Hãy gửi thắc mắc của bạn cho tôi qua email."),
+            ]),
         ("Từ về học tập và thi cử", [
             ("curriculum", "N", "chương trình học", "The school changed its curriculum last year.", "Trường đã đổi chương trình học năm ngoái."),
             ("tuition", "N", "sự dạy kèm, học phí", "She gets extra tuition in maths.", "Cô ấy học thêm toán."),
