@@ -1,0 +1,220 @@
+{
+ "skill": "listening",
+ "guide": [
+  {
+   "title_vi": "Cách làm",
+   "body_vi": "Nghe hết một lượt không dừng, lượt hai mới gõ. Sau khi xem đáp án, đọc đuổi theo băng hai lần."
+  }
+ ],
+ "items": [
+  {
+   "id": "G1D1D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Ngày 1",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "Minh cycles to school.",
+      "vi": "Minh đạp xe đi học."
+     },
+     {
+      "speaker": "M",
+      "text": "She doesn't visit us very often.",
+      "vi": "Cô ấy không đến thăm chúng tôi thường xuyên."
+     },
+     {
+      "speaker": "F",
+      "text": "I do like fish.",
+      "vi": "Tôi có thích cá mà."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "habit",
+     "vi": "thói quen"
+    },
+    {
+     "ko": "permanent",
+     "vi": "lâu dài, cố định"
+    },
+    {
+     "ko": "state",
+     "vi": "trạng thái"
+    },
+    {
+     "ko": "fact",
+     "vi": "sự thật"
+    },
+    {
+     "ko": "frequency",
+     "vi": "tần suất"
+    },
+    {
+     "ko": "emphasise",
+     "vi": "nhấn mạnh"
+    }
+   ],
+   "tips_vi": [
+    "Nghe âm cuối: -s của ngôi thứ ba, 's và n't, -ing. Sau khi kiểm tra, nghe lại và nhại theo đúng nhịp."
+   ]
+  },
+  {
+   "id": "G1D2D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Ngày 2",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "Lan is talking to a customer right now.",
+      "vi": "Lan đang nói chuyện với khách ngay lúc này."
+     },
+     {
+      "speaker": "M",
+      "text": "She lives in Hue, but she is staying with us this week.",
+      "vi": "Cô ấy sống ở Huế, nhưng tuần này đang ở với chúng tôi."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "temporary",
+     "vi": "tạm thời"
+    },
+    {
+     "ko": "trend",
+     "vi": "xu hướng"
+    },
+    {
+     "ko": "annoying",
+     "vi": "gây bực mình"
+    },
+    {
+     "ko": "pupil",
+     "vi": "học sinh (tiểu học, trung học)"
+    },
+    {
+     "ko": "student",
+     "vi": "học sinh, sinh viên"
+    },
+    {
+     "ko": "teach",
+     "vi": "dạy"
+    }
+   ],
+   "tips_vi": [
+    "Nghe âm cuối: -s của ngôi thứ ba, 's và n't, -ing. Sau khi kiểm tra, nghe lại và nhại theo đúng nhịp."
+   ]
+  },
+  {
+   "id": "G1D3D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Ngày 3",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "I have lived here for six years.",
+      "vi": "Tôi sống ở đây được sáu năm rồi."
+     },
+     {
+      "speaker": "M",
+      "text": "He has been trying to fix it for two hours.",
+      "vi": "Anh ấy cố sửa nó hai tiếng rồi."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "achieve",
+     "vi": "đạt được (mục tiêu, kết quả)"
+    },
+    {
+     "ko": "reach",
+     "vi": "đạt tới (một mức, một giai đoạn)"
+    },
+    {
+     "ko": "primary school",
+     "vi": "trường tiểu học"
+    },
+    {
+     "ko": "secondary school",
+     "vi": "trường trung học"
+    },
+    {
+     "ko": "results",
+     "vi": "kết quả (thi)"
+    },
+    {
+     "ko": "degree",
+     "vi": "bằng đại học"
+    }
+   ],
+   "tips_vi": [
+    "Nghe âm cuối: -s của ngôi thứ ba, 's và n't, -ing. Sau khi kiểm tra, nghe lại và nhại theo đúng nhịp."
+   ]
+  },
+  {
+   "id": "G1D4D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Ngày 4",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "I usually cycle to work, but this week I'm taking the bus.",
+      "vi": "Tôi thường đạp xe đi làm, nhưng tuần này tôi đi xe buýt."
+     },
+     {
+      "speaker": "M",
+      "text": "She has worked here since last year.",
+      "vi": "Cô ấy làm ở đây từ năm ngoái."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "qualifications",
+     "vi": "bằng cấp, trình độ chuyên môn"
+    },
+    {
+     "ko": "qualities",
+     "vi": "phẩm chất"
+    },
+    {
+     "ko": "effort",
+     "vi": "sự cố gắng"
+    },
+    {
+     "ko": "task",
+     "vi": "nhiệm vụ, bài được giao"
+    },
+    {
+     "ko": "test",
+     "vi": "bài kiểm tra"
+    },
+    {
+     "ko": "exam",
+     "vi": "kỳ thi"
+    }
+   ],
+   "tips_vi": [
+    "Nghe âm cuối: -s của ngôi thứ ba, 's và n't, -ing. Sau khi kiểm tra, nghe lại và nhại theo đúng nhịp."
+   ]
+  }
+ ]
+}

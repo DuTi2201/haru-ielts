@@ -1,0 +1,717 @@
+{
+ "skill": "build",
+ "guide": [
+  {
+   "title_vi": "Cách làm",
+   "body_vi": "Xếp câu trước, gõ câu sau. Khi gõ sai, đọc phần giải thích rồi tự viết thêm một câu của chính bạn với cùng cấu trúc."
+  }
+ ],
+ "items": [
+  {
+   "id": "G1D1B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Ngày 1",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi thích ăn cam.",
+   "tiles": [
+    "oranges",
+    "eating",
+    "I",
+    "enjoy"
+   ],
+   "answers": [
+    "I enjoy eating oranges"
+   ]
+  },
+  {
+   "id": "G1D1B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Ngày 1",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Chị tôi làm ở một ngân hàng.",
+   "tiles": [
+    "in",
+    "a",
+    "bank",
+    "sister",
+    "My",
+    "works"
+   ],
+   "answers": [
+    "My sister works in a bank"
+   ]
+  },
+  {
+   "id": "G1D1B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Ngày 1",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Anh ấy không về thăm chúng tôi thường xuyên.",
+   "tiles": [
+    "us",
+    "very",
+    "doesn't",
+    "He",
+    "visit",
+    "often"
+   ],
+   "answers": [
+    "He doesn't visit us very often"
+   ]
+  },
+  {
+   "id": "G1D1B4",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Ngày 1",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi có thích công việc của mình mà.",
+   "tiles": [
+    "my",
+    "do",
+    "I",
+    "job",
+    "like"
+   ],
+   "answers": [
+    "I do like my job"
+   ]
+  },
+  {
+   "id": "G1D1F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Ngày 1",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "My brother ( ㉠ ) (work) in a bank.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "works"
+     ],
+     "common_errors_vi": "Ngôi thứ ba số ít: thêm -s."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D1F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Ngày 1",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Actually, she does ( ㉠ ) (like) her new school.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "like"
+     ],
+     "common_errors_vi": "Sau `does` là động từ nguyên thể, không thêm -s."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D1F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Ngày 1",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "( ㉠ ) you believe in luck?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "Do"
+     ],
+     "common_errors_vi": "Câu hỏi hiện tại đơn với `you`: mượn `Do`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Ngày 2",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tháng này tôi không uống cà phê.",
+   "tiles": [
+    "am",
+    "drinking",
+    "I",
+    "not",
+    "this",
+    "month",
+    "coffee"
+   ],
+   "answers": [
+    "I am not drinking coffee this month"
+   ]
+  },
+  {
+   "id": "G1D2B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Ngày 2",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Giá gạo đang tăng.",
+   "tiles": [
+    "of",
+    "is",
+    "rising",
+    "price",
+    "rice",
+    "The"
+   ],
+   "answers": [
+    "The price of rice is rising"
+   ]
+  },
+  {
+   "id": "G1D2B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Ngày 2",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cậu lúc nào cũng để đèn sáng.",
+   "tiles": [
+    "lights",
+    "always",
+    "leaving",
+    "the",
+    "are",
+    "You",
+    "on"
+   ],
+   "answers": [
+    "You are always leaving the lights on"
+   ]
+  },
+  {
+   "id": "G1D2B4",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Ngày 2",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Trông anh ấy có vẻ mệt.",
+   "tiles": [
+    "today",
+    "tired",
+    "He",
+    "looks"
+   ],
+   "answers": [
+    "He looks tired today"
+   ]
+  },
+  {
+   "id": "G1D2F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Ngày 2",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Hung ( ㉠ ) (have) lunch at the moment.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "is having",
+      "'s having"
+     ],
+     "common_errors_vi": "`have lunch` là hành động đang diễn ra → tiếp diễn."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Ngày 2",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Hung ( ㉠ ) (have) two older brothers.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "has"
+     ],
+     "common_errors_vi": "`have` nghĩa \"có\" là trạng thái → hiện tại đơn."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Ngày 2",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Flights to Da Nang ( ㉠ ) (get) cheaper every year.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "are getting"
+     ],
+     "common_errors_vi": "Xu hướng đang thay đổi → tiếp diễn."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Ngày 2",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "My grandmother ( ㉠ ) (phone) us every Sunday.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "phones"
+     ],
+     "common_errors_vi": "`every Sunday`: việc lặp lại → hiện tại đơn."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Ngày 3",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi sống ở đây được sáu năm rồi.",
+   "tiles": [
+    "here",
+    "lived",
+    "for",
+    "I",
+    "years",
+    "six",
+    "have"
+   ],
+   "answers": [
+    "I have lived here for six years"
+   ]
+  },
+  {
+   "id": "G1D3B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Ngày 3",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi chưa làm xong bài tập về nhà.",
+   "tiles": [
+    "homework",
+    "yet",
+    "haven't",
+    "my",
+    "finished",
+    "I"
+   ],
+   "answers": [
+    "I haven't finished my homework yet"
+   ]
+  },
+  {
+   "id": "G1D3B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Ngày 3",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Chúng tôi chờ hai tiếng rồi.",
+   "tiles": [
+    "two",
+    "waiting",
+    "been",
+    "have",
+    "hours",
+    "for",
+    "We"
+   ],
+   "answers": [
+    "We have been waiting for two hours"
+   ]
+  },
+  {
+   "id": "G1D3B4",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Ngày 3",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bạn đã bao giờ làm mất điện thoại chưa?",
+   "tiles": [
+    "phone",
+    "you",
+    "ever",
+    "Have",
+    "your",
+    "lost"
+   ],
+   "answers": [
+    "Have you ever lost your phone"
+   ]
+  },
+  {
+   "id": "G1D3F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Ngày 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Thu ( ㉠ ) (not / see) her brother since he moved to Da Nang.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "hasn't seen",
+      "has not seen"
+     ],
+     "common_errors_vi": "`since` + mốc: việc kéo tới bây giờ → hiện tại hoàn thành."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Ngày 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "My parents ( ㉠ ) (go) to Hue and won't be back until Sunday.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "have gone",
+      "'ve gone"
+     ],
+     "common_errors_vi": "Đã đi và chưa về → `have gone to`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Ngày 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Poor Long! He ( ㉠ ) (try) to fix that printer for two hours and it still doesn't work.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "has been trying",
+      "'s been trying"
+     ],
+     "common_errors_vi": "Đã bắt đầu, vẫn đang làm, nhấn vào độ dài → hoàn thành tiếp diễn."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Ngày 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "My grandfather has lived in the same village ( ㉠ ) he was a child.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "since"
+     ],
+     "common_errors_vi": "`since` + mốc bắt đầu."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Ngày 4",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi thường đạp xe đi làm.",
+   "tiles": [
+    "usually",
+    "I",
+    "cycle",
+    "to",
+    "work"
+   ],
+   "answers": [
+    "I usually cycle to work"
+   ]
+  },
+  {
+   "id": "G1D4B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Ngày 4",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tuần này tôi đang ôn thi.",
+   "tiles": [
+    "week",
+    "for",
+    "exam",
+    "this",
+    "revising",
+    "I",
+    "my",
+    "am"
+   ],
+   "answers": [
+    "I am revising for my exam this week"
+   ]
+  },
+  {
+   "id": "G1D4B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Ngày 4",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Cô ấy làm ở đây từ năm ngoái.",
+   "tiles": [
+    "She",
+    "here",
+    "last",
+    "has",
+    "year",
+    "since",
+    "worked"
+   ],
+   "answers": [
+    "She has worked here since last year"
+   ]
+  },
+  {
+   "id": "G1D4B4",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Ngày 4",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi tìm chìa khóa suốt cả sáng.",
+   "tiles": [
+    "all",
+    "for",
+    "been",
+    "morning",
+    "keys",
+    "have",
+    "looking",
+    "my",
+    "I"
+   ],
+   "answers": [
+    "I have been looking for my keys all morning"
+   ]
+  },
+  {
+   "id": "G1D4F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Ngày 4",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Our English class ( ㉠ ) (meet) every Tuesday and Thursday evening.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "meets"
+     ],
+     "common_errors_vi": "Lịch lặp lại → hiện tại đơn."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Ngày 4",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "This month we ( ㉠ ) (study) in a different room because the school is painting ours.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "are studying",
+      "'re studying"
+     ],
+     "common_errors_vi": "Việc tạm thời của tháng này → tiếp diễn."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Ngày 4",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Our teacher ( ㉠ ) (teach) at this school since 2019.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "has taught",
+      "has been teaching"
+     ],
+     "common_errors_vi": "Kéo từ 2019 tới giờ: hiện tại hoàn thành; hoàn thành tiếp diễn cũng đúng với `teach`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Ngày 4",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "I ( ㉠ ) (know) most of my classmates for two years.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "have known",
+      "'ve known"
+     ],
+     "common_errors_vi": "`know` là động từ trạng thái: hiện tại hoàn thành, không tiếp diễn."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Ngày 4",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "We ( ㉠ ) (already / finish) half of the book.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "have already finished",
+      "'ve already finished"
+     ],
+     "common_errors_vi": "Việc đã xong, không nêu thời điểm, có `already`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4F6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Ngày 4",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Everyone ( ㉠ ) (think) that the lessons are useful.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "thinks"
+     ],
+     "common_errors_vi": "`think` nghĩa \"cho rằng\" là trạng thái; `everyone` chia số ít."
+    }
+   ],
+   "tips_vi": []
+  }
+ ]
+}

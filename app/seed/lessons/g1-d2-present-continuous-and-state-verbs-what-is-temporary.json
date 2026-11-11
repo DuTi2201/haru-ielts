@@ -1,0 +1,332 @@
+{
+ "slug": "g1-d2-present-continuous-and-state-verbs-what-is-temporary",
+ "title": "G1 · Ngày 2 · Hiện tại tiếp diễn và động từ trạng thái: điều tạm thời",
+ "title_en": "Present continuous and state verbs: what is temporary",
+ "topic": "G1 · Các thì hiện tại (Tuần 1)",
+ "track": "beginner",
+ "level": 4,
+ "sort_order": 102,
+ "summary": "Dùng tiếp diễn khi muốn nói việc đó tạm thời; không để chữ \"now\" quyết định thay mình; phân biệt nghĩa trạng thái và nghĩa hành động của cùng một động từ. Thẻ: đúng ngữ pháp và hàm ý; tạm thời; chữ now và mốc đang diễn ra; xu hướng đang thay đổi; always + V-ing để than phiền; kế hoạch đã lên lịch; trạng thái và hành động.",
+ "vocab": [
+  {
+   "headword": "temporary",
+   "pos": "A",
+   "meaning_vi": "tạm thời",
+   "example_en": "This is only a temporary job.",
+   "example_vi": "Đây chỉ là công việc tạm thời.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "trend",
+   "pos": "N",
+   "meaning_vi": "xu hướng",
+   "example_en": "There is a trend towards online study.",
+   "example_vi": "Có một xu hướng chuyển sang học trực tuyến.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "annoying",
+   "pos": "A",
+   "meaning_vi": "gây bực mình",
+   "example_en": "That noise is really annoying.",
+   "example_vi": "Tiếng ồn đó thật sự gây bực mình.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "pupil",
+   "pos": "N",
+   "meaning_vi": "học sinh (tiểu học, trung học)",
+   "example_en": "There are thirty pupils in my son's class.",
+   "example_vi": "Lớp con trai tôi có ba mươi học sinh.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "student",
+   "pos": "N",
+   "meaning_vi": "học sinh, sinh viên",
+   "example_en": "She is a student at Hanoi University.",
+   "example_vi": "Cô ấy là sinh viên Đại học Hà Nội.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "teach",
+   "pos": "V",
+   "meaning_vi": "dạy",
+   "example_en": "He teaches maths at a secondary school.",
+   "example_vi": "Anh ấy dạy toán ở một trường trung học.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "learn",
+   "pos": "V",
+   "meaning_vi": "học (để biết, để làm được)",
+   "example_en": "I am learning to drive.",
+   "example_vi": "Tôi đang học lái xe.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "take an exam",
+   "pos": "X",
+   "meaning_vi": "dự thi",
+   "example_en": "I take the exam next month.",
+   "example_vi": "Tháng sau tôi dự thi.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "pass an exam",
+   "pos": "X",
+   "meaning_vi": "thi đỗ",
+   "example_en": "She passed the exam on her second try.",
+   "example_vi": "Cô ấy thi đỗ ở lần thứ hai.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "subject",
+   "pos": "N",
+   "meaning_vi": "môn học",
+   "example_en": "History is my favourite subject.",
+   "example_vi": "Lịch sử là môn tôi thích nhất.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "lesson",
+   "pos": "N",
+   "meaning_vi": "tiết học, bài học",
+   "example_en": "We have three lessons this morning.",
+   "example_vi": "Sáng nay chúng tôi có ba tiết.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "Hai trục · đúng ngữ pháp và hàm ý",
+   "meaning_vi": "Hai câu cùng đúng ngữ pháp có thể nói hai điều khác nhau",
+   "usage_context_vi": "Trục 1, ngữ pháp: thứ tự từ và dạng từ. `Play I football` sai ở trục này.\nTrục 2, hàm ý: điều người nói muốn người nghe hiểu thêm qua cấu trúc mình chọn. Chọn thì là chọn có chủ đích.",
+   "contrasts": [],
+   "example_en": "My sister lives in Thailand.\nMy sister is living in Thailand.",
+   "example_vi": "Chị tôi sống ở Thái Lan. (chỉ nêu sự thật)\nChị tôi đang sống ở Thái Lan. (tạm thời, rồi sẽ khác)",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-7, 10; cách giảng theo thầy Minh"
+  },
+  {
+   "pattern": "Present continuous · tạm thời",
+   "meaning_vi": "am / is / are + V-ing: đang diễn ra và sẽ kết thúc hoặc thay đổi",
+   "usage_context_vi": "Mọi cách dùng của tiếp diễn có chung một ý: việc đó tạm thời, không kéo dài mãi.\nĐang xem phim, đang ở khách sạn, đang ngủ tạm trên ghế sofa: tất cả sẽ hết.\nLời thầy: «Cái bọn tiếp diễn này luôn luôn phản ánh tính tạm thời của hành động, tức là hành động đó không xảy ra mãi mãi.»",
+   "contrasts": [
+    {
+     "pattern": "Present simple · điều người nói coi là thật",
+     "diff_vi": "Hiện tại đơn chỉ nêu sự thật; tiếp diễn nói thêm rằng việc đó tạm thời."
+    }
+   ],
+   "example_en": "Nam is sleeping on the sofa while his cousins are visiting.\nI'm not drinking coffee this month.",
+   "example_vi": "Nam đang ngủ trên ghế sofa trong lúc các anh chị họ đến chơi.\nTháng này tôi không uống cà phê.",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-7, 10; cách giảng theo thầy Minh",
+   "note_vi": "Lỗi người Việt hay mắc: Quên `be`: ~~She living in Hue~~ → She is living in Hue."
+  },
+  {
+   "pattern": "Present continuous · chữ now và mốc đang diễn ra",
+   "meaning_vi": "\"now\" không quyết định thì; hành động đang diễn ra tại một mốc thì dùng tiếp diễn",
+   "usage_context_vi": "`Where does your sister live now?` có thể đáp `She lives in Thailand` (đã ổn định ở đó) hoặc `She is living in Thailand` (tạm thời). `now` ở đây chỉ so với trước kia.\nNhưng khi nói một hành động đang diễn ra tại đúng một mốc (`right now`, `at the moment`, `at 3 o'clock`), dùng tiếp diễn.",
+   "contrasts": [],
+   "example_en": "Lan is talking to a customer right now.\nWhere does your sister live now?",
+   "example_vi": "Lan đang nói chuyện với khách ngay lúc này.\nBây giờ chị bạn sống ở đâu?",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-7, 10; cách giảng theo thầy Minh",
+   "note_vi": "Lỗi người Việt hay mắc: Thấy `now` là chia tiếp diễn ngay mà không hỏi mình muốn nói gì."
+  },
+  {
+   "pattern": "Present continuous · xu hướng đang thay đổi",
+   "meaning_vi": "Việc đang đổi dần: is becoming, is rising, is getting",
+   "usage_context_vi": "Thay đổi cũng là tạm thời: nó đang trên đường đi tới một trạng thái khác. Thường có `increasingly`, `more and more`.\nDùng hiện tại đơn nếu bạn chỉ nêu một nhận định đứng yên.",
+   "contrasts": [],
+   "example_en": "Online courses are becoming more popular in Vietnam.\nThe price of rice is rising.",
+   "example_vi": "Các khóa học trực tuyến đang ngày càng phổ biến ở Việt Nam.\nGiá gạo đang tăng.",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-7, 10; cách giảng theo thầy Minh",
+   "exam_tip_vi": "Đây là thì chính để nói về xu hướng ở Speaking Part 3 và khi một biểu đồ Task 1 kéo tới hiện tại."
+  },
+  {
+   "pattern": "Present continuous · always + V-ing để than phiền",
+   "meaning_vi": "be + always + V-ing: thói quen làm người nói bực",
+   "usage_context_vi": "Chỉ trong trường hợp than phiền (hoặc ghen tị), tiếp diễn mới đi với `always`, `constantly`.\nNgoài ra, tiếp diễn không đi với `usually`, `often`. Có `on Saturdays`, `every weekend` thì là việc lặp lại: dùng hiện tại đơn.",
+   "contrasts": [],
+   "example_en": "My sister is always playing her music so loudly!\nYou're always leaving the lights on.",
+   "example_vi": "Chị tôi lúc nào cũng bật nhạc to ơi là to!\nCậu lúc nào cũng để đèn sáng.",
+   "importance": "normal",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-7, 10; cách giảng theo thầy Minh",
+   "note_vi": "Lỗi người Việt hay mắc: ~~He is usually having lunch at twelve~~ → He usually has lunch at twelve."
+  },
+  {
+   "pattern": "Present continuous · kế hoạch đã lên lịch",
+   "meaning_vi": "Việc đã hẹn, đã sắp xếp cho tương lai gần",
+   "usage_context_vi": "Khi việc đã được hẹn hoặc sắp xếp xong, dùng tiếp diễn kèm thời điểm.",
+   "contrasts": [],
+   "example_en": "I'm seeing my tutor tomorrow morning.\nWe are flying to Da Nang on Friday.",
+   "example_vi": "Sáng mai tôi gặp giáo viên hướng dẫn.\nThứ Sáu chúng tôi bay vào Đà Nẵng.",
+   "importance": "normal",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-7, 10; cách giảng theo thầy Minh"
+  },
+  {
+   "pattern": "State verbs · trạng thái và hành động",
+   "meaning_vi": "know, want, believe không chia tiếp diễn; think, have, look, see, be đổi nghĩa khi chia tiếp diễn",
+   "usage_context_vi": "Động từ chỉ trạng thái (suy nghĩ, cảm xúc, sở hữu, giác quan) vốn không tạm thời theo kiểu hành động, nên không chia tiếp diễn.\n| Động từ | Nghĩa trạng thái (hiện tại đơn) | Nghĩa hành động (tiếp diễn) |\n| think | I think it is good. (cho rằng) | I'm thinking of buying it. (đang cân nhắc) |\n| have | She has dark hair. (có) | She's having lunch. (đang ăn) |\n| look | He looks tired. (trông) | He's looking for his keys. (đang tìm) |\n| see | I see what you mean. (hiểu) | I'm seeing the dentist at four. (gặp) |\n| be | He is rude. (tính vốn thế) | He's being rude. (đang cư xử thế) |",
+   "contrasts": [],
+   "example_en": "I think this plan is good. I'm thinking of changing my job.\nWait! I want to finish this page.",
+   "example_vi": "Tôi cho rằng kế hoạch này tốt. Tôi đang cân nhắc đổi việc.\nKhoan đã! Tôi muốn đọc xong trang này.",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-7, 10; cách giảng theo thầy Minh",
+   "note_vi": "Lỗi người Việt hay mắc: ~~I am knowing~~, ~~I am wanting~~, ~~From the chart we are seeing that~~ → I know, I want, we can see that."
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của ngày",
+   "body": "• 🎯 Dùng tiếp diễn khi muốn nói việc đó tạm thời; không để chữ \"now\" quyết định thay mình; phân biệt nghĩa trạng thái và nghĩa hành động của cùng một động từ.",
+   "kind": "goal"
+  },
+  {
+   "title": "Sách trước: tự làm rồi mới học thẻ",
+   "body": "• 📖 Destination B2, trang 7: Đọc bảng Stative verbs và phần Watch out (khoảng 10 phút)\n• 📖 Destination B2, trang 10: bài G (8 câu, khoảng 8 phút)\n• 📖 Destination B2, trang 10: bài F (9 câu, khoảng 10 phút)\n• Làm trong sách, ghi đáp án của bạn, rồi mới mở thẻ. Sau khi học thẻ, quay lại chấm bằng đáp án cuối sách và tự giải thích từng câu sai theo ý muốn nói.",
+   "kind": "language"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Writing Task 1 và Speaking Part 3 nói về xu hướng (`is rising`, `is becoming`). Lỗi `I am knowing`, `we are seeing that` làm mất điểm ngữ pháp.",
+   "kind": "language"
+  }
+ ],
+ "bank": "g1",
+ "coach": {
+  "focus_vi": [
+   "đúng ngữ pháp và hàm ý: Hai câu cùng đúng ngữ pháp có thể nói hai điều khác nhau",
+   "tạm thời: am / is / are + V-ing: đang diễn ra và sẽ kết thúc hoặc thay đổi",
+   "chữ now và mốc đang diễn ra: \"now\" không quyết định thì; hành động đang diễn ra tại một mốc thì dùng tiếp diễn"
+  ],
+  "watch_out_vi": [
+   "Quên `be`: ~~She living in Hue~~ → She is living in Hue.",
+   "Thấy `now` là chia tiếp diễn ngay mà không hỏi mình muốn nói gì."
+  ]
+ },
+ "exercise_ids": [
+  "G1D2I1",
+  "G1D2I2",
+  "G1D2I3",
+  "G1D2I4",
+  "G1D2I5",
+  "G1D2I6",
+  "G1D2I7",
+  "G1D2I8",
+  "G1D2Q1",
+  "G1D2Q2",
+  "G1D2B1",
+  "G1D2B2",
+  "G1D2B3",
+  "G1D2B4",
+  "G1D2F1",
+  "G1D2F2",
+  "G1D2F3",
+  "G1D2F4",
+  "G1D2D1",
+  "G1D2M1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · đúng ngữ pháp và hàm ý",
+   "can_do_vi": "Sau buổi này bạn nắm được: hai câu cùng đúng ngữ pháp có thể nói hai điều khác nhau; am / is / are + v-ing: đang diễn ra và sẽ kết thúc hoặc thay đổi; \"now\" không quyết định thì; hành động đang diễn ra tại một mốc thì dùng tiếp diễn.",
+   "use_vi": "Writing Task 1 và Speaking Part 3 nói về xu hướng (`is rising`, `is becoming`). Lỗi `I am knowing`, `we are seeing that` làm mất điểm ngữ pháp.",
+   "vocab": [
+    "temporary",
+    "trend",
+    "annoying",
+    "pupil",
+    "student",
+    "teach",
+    "learn",
+    "take an exam",
+    "pass an exam",
+    "subject",
+    "lesson"
+   ],
+   "grammar": [
+    "Hai trục · đúng ngữ pháp và hàm ý",
+    "Present continuous · tạm thời",
+    "Present continuous · chữ now và mốc đang diễn ra"
+   ],
+   "check": [
+    "G1D2I2",
+    "G1D2I1",
+    "G1D2I3"
+   ]
+  },
+  {
+   "title_vi": "Buổi 2 · xu hướng đang thay đổi",
+   "can_do_vi": "Sau buổi này bạn nắm được: việc đang đổi dần: is becoming, is rising, is getting; be + always + v-ing: thói quen làm người nói bực.",
+   "use_vi": "Writing Task 1 và Speaking Part 3 nói về xu hướng (`is rising`, `is becoming`). Lỗi `I am knowing`, `we are seeing that` làm mất điểm ngữ pháp.",
+   "vocab": [],
+   "grammar": [
+    "Present continuous · xu hướng đang thay đổi",
+    "Present continuous · always + V-ing để than phiền"
+   ],
+   "check": [
+    "G1D2I4",
+    "G1D2I5",
+    "G1D2Q1"
+   ]
+  },
+  {
+   "title_vi": "Buổi 3 · kế hoạch đã lên lịch",
+   "can_do_vi": "Sau buổi này bạn nắm được: việc đã hẹn, đã sắp xếp cho tương lai gần; know, want, believe không chia tiếp diễn; think, have, look, see, be đổi nghĩa khi chia tiếp diễn.",
+   "use_vi": "Writing Task 1 và Speaking Part 3 nói về xu hướng (`is rising`, `is becoming`). Lỗi `I am knowing`, `we are seeing that` làm mất điểm ngữ pháp.",
+   "vocab": [],
+   "grammar": [
+    "Present continuous · kế hoạch đã lên lịch",
+    "State verbs · trạng thái và hành động"
+   ],
+   "check": [
+    "G1D2I6",
+    "G1D2I7",
+    "G1D2I8",
+    "G1D2Q2",
+    "G1D2B1",
+    "G1D2B2",
+    "G1D2B3",
+    "G1D2B4",
+    "G1D2F1",
+    "G1D2F2",
+    "G1D2F3",
+    "G1D2F4",
+    "G1D2D1",
+    "G1D2M1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Ý và thứ tự giảng theo bài giảng của thầy Minh; khung và số trang theo Destination B2, Unit 1. Lời giải thích, ví dụ và câu hỏi do khóa học tự soạn; bài tập của sách làm trong sách."
+  }
+ ]
+}

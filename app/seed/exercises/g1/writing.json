@@ -1,0 +1,145 @@
+{
+ "skill": "writing",
+ "guide": [
+  {
+   "title_vi": "Cách viết một đoạn",
+   "bullets_vi": [
+    "Nghĩ bằng tiếng Việt trước: ý chính là gì, vì sao, ví dụ nào.",
+    "Viết câu đơn đúng trước, rồi mới nối thành câu ghép (and, but, so) và câu phức (because, although, when).",
+    "Mạch của đoạn: khái quát → chi tiết → rất cụ thể → khái quát lại."
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "G1D1M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Ngày 1",
+   "points": 5,
+   "instruction_vi": "Trả lời câu hỏi bằng hai câu ở hai thì khác nhau, đúng với bạn. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
+   "limits": {
+    "min": 8,
+    "max": 40
+   },
+   "prompt_en": "Answer in two different tenses: Do you like your hometown?",
+   "framework_vi": [
+    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
+    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
+    "Chọn thì theo câu trả lời đó rồi mới viết."
+   ],
+   "model_answer_en": "Yes, I do. I have lived there all my life, so I know every street.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Thì khớp với điều bạn muốn nói.",
+    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+   ]
+  },
+  {
+   "id": "G1D1M2",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M2",
+   "title_vi": "Câu của tôi · Ngày 1",
+   "points": 5,
+   "instruction_vi": "Viết một câu đúng sự thật và một câu nói quá, cả hai ở hiện tại đơn. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
+   "limits": {
+    "min": 8,
+    "max": 40
+   },
+   "prompt_en": "Write one sentence that is true for you and one sentence that exaggerates. Use the present simple in both.",
+   "framework_vi": [
+    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
+    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
+    "Chọn thì theo câu trả lời đó rồi mới viết."
+   ],
+   "model_answer_en": "I study English every evening. I never have any free time!",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Thì khớp với điều bạn muốn nói.",
+    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+   ]
+  },
+  {
+   "id": "G1D2M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Ngày 2",
+   "points": 5,
+   "instruction_vi": "Viết hai câu về nơi bạn ở: một câu nêu sự thật, một câu nói việc tạm thời. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
+   "limits": {
+    "min": 8,
+    "max": 40
+   },
+   "prompt_en": "Write two sentences about where you live: one fact, one temporary situation.",
+   "framework_vi": [
+    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
+    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
+    "Chọn thì theo câu trả lời đó rồi mới viết."
+   ],
+   "model_answer_en": "I live in Hanoi with my parents. This month I am staying at my aunt's house because our flat is being painted.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Thì khớp với điều bạn muốn nói.",
+    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+   ]
+  },
+  {
+   "id": "G1D3M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Ngày 3",
+   "points": 5,
+   "instruction_vi": "Viết ba câu về bạn: một việc làm đã lâu, một việc hôm nay đã làm, một việc tuần này đang làm dở. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
+   "limits": {
+    "min": 8,
+    "max": 40
+   },
+   "prompt_en": "Write three sentences about yourself: something you have done for a long time, something you have already done today, and something you have been doing this week.",
+   "framework_vi": [
+    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
+    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
+    "Chọn thì theo câu trả lời đó rồi mới viết."
+   ],
+   "model_answer_en": "I have studied English for two years. I have already done my listening practice today. I have been reading a book about Japan this week.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Thì khớp với điều bạn muốn nói.",
+    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+   ]
+  },
+  {
+   "id": "G1D4M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Ngày 4",
+   "points": 5,
+   "instruction_vi": "Viết bốn câu về công việc hoặc việc học của bạn, mỗi câu một thì hiện tại. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
+   "limits": {
+    "min": 8,
+    "max": 40
+   },
+   "prompt_en": "Write four sentences about your work or studies, one for each present tense.",
+   "framework_vi": [
+    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
+    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
+    "Chọn thì theo câu trả lời đó rồi mới viết."
+   ],
+   "model_answer_en": "I work for a small company in Hanoi. This month I am learning a new accounting program. I have worked there for three years. I have been studying English every evening this week.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Thì khớp với điều bạn muốn nói.",
+    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+   ]
+  }
+ ]
+}

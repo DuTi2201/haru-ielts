@@ -1,0 +1,1326 @@
+{
+ "skill": "reading",
+ "guide": [
+  {
+   "title_vi": "Cách làm",
+   "body_vi": "Đọc cả câu trước khi nhìn phương án. Với câu về giới từ, hãy tự nhẩm đáp án rồi mới đối chiếu. Sai câu nào, mở lại thẻ của câu đó."
+  }
+ ],
+ "items": [
+  {
+   "id": "G1D1I1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 1",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D1I1",
+     "options": [
+      {
+       "id": "1",
+       "text": "I am visiting my parents."
+      },
+      {
+       "id": "2",
+       "text": "I visited my parents."
+      },
+      {
+       "id": "3",
+       "text": "I visit my parents."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Việc lặp lại ở hiện tại → hiện tại đơn, có hay không có trạng từ tần suất. Câu tiếp diễn chỉ nói về lúc này; câu quá khứ nói về một lần đã qua.",
+     "tags": [],
+     "prompt_vi": "Bạn về thăm bố mẹ đều đặn. Bạn chỉ muốn nêu việc đó, không nói bao lâu một lần."
+    }
+   ]
+  },
+  {
+   "id": "G1D1I2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 1",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D1I2",
+     "options": [
+      {
+       "id": "1",
+       "text": "You aren't visiting me at the moment."
+      },
+      {
+       "id": "2",
+       "text": "You visited me once."
+      },
+      {
+       "id": "3",
+       "text": "You don't visit me at all!"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Người nói trình bày lời nói quá như một sự thật → hiện tại đơn. Hai câu kia chỉ kể một việc, không phải lời trách về thói quen.",
+     "tags": [],
+     "prompt_vi": "Mẹ trách bạn ít về nhà và nói quá lên."
+    }
+   ]
+  },
+  {
+   "id": "G1D1I3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 1",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D1I3",
+     "options": [
+      {
+       "id": "1",
+       "text": "I don't having a girlfriend."
+      },
+      {
+       "id": "2",
+       "text": "I am not having a girlfriend."
+      },
+      {
+       "id": "3",
+       "text": "I don't have a girlfriend."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Lời nói dối vẫn là điều người nói trình bày như sự thật → hiện tại đơn. `have` nghĩa \"có\" là trạng thái nên không chia tiếp diễn; sau `don't` là động từ nguyên thể.",
+     "tags": [],
+     "prompt_vi": "Một người đang có bạn gái nhưng muốn người nghe tin là chưa có."
+    }
+   ]
+  },
+  {
+   "id": "G1D1I4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 1",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D1I4",
+     "options": [
+      {
+       "id": "1",
+       "text": "Yes, I like."
+      },
+      {
+       "id": "2",
+       "text": "I did, but not anymore."
+      },
+      {
+       "id": "3",
+       "text": "I am liking it before."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Điều bạn muốn nói nằm trong quá khứ và đã hết → quá khứ đơn. Không cần đáp bằng đúng thì của câu hỏi.",
+     "tags": [],
+     "prompt_vi": "Giám khảo hỏi: \"Do you like cooking?\" Trước đây bạn thích, bây giờ thì không."
+    }
+   ]
+  },
+  {
+   "id": "G1D1I5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 1",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D1I5",
+     "options": [
+      {
+       "id": "1",
+       "text": "Yes, I have played badminton since last year."
+      },
+      {
+       "id": "2",
+       "text": "Yes, I play badminton since last year."
+      },
+      {
+       "id": "3",
+       "text": "Yes, I am play badminton since last year."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Việc bắt đầu trong quá khứ và kéo tới bây giờ, có `since` → hiện tại hoàn thành. `I play ... since` là lỗi người Việt rất hay mắc.",
+     "tags": [],
+     "prompt_vi": "Giám khảo hỏi: \"Do you play any sports?\" Bạn chơi cầu lông từ năm ngoái đến giờ."
+    }
+   ]
+  },
+  {
+   "id": "G1D1I6",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 1",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D1I6",
+     "options": [
+      {
+       "id": "1",
+       "text": "I do likes fish!"
+      },
+      {
+       "id": "2",
+       "text": "I do like fish!"
+      },
+      {
+       "id": "3",
+       "text": "I am do like fish!"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Nhấn mạnh trong câu khẳng định: `do` + động từ nguyên thể.",
+     "tags": [],
+     "prompt_vi": "Bạn của bạn nói: \"You don't like fish.\" Bạn muốn cãi lại."
+    }
+   ]
+  },
+  {
+   "id": "G1D1Q1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D1Q1",
+     "options": [
+      {
+       "id": "1",
+       "text": "is boiling"
+      },
+      {
+       "id": "2",
+       "text": "boils"
+      },
+      {
+       "id": "3",
+       "text": "boil"
+      },
+      {
+       "id": "4",
+       "text": "has boiled"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Sự thật chung → hiện tại đơn; chủ ngữ số ít nên thêm -s.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Water ( ) at 100 degrees Celsius."
+   }
+  },
+  {
+   "id": "G1D1Q2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D1Q2",
+     "options": [
+      {
+       "id": "1",
+       "text": "don't visits"
+      },
+      {
+       "id": "2",
+       "text": "not visits"
+      },
+      {
+       "id": "3",
+       "text": "isn't visit"
+      },
+      {
+       "id": "4",
+       "text": "doesn't visit"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Việc lặp lại (ở đây là ít khi) → hiện tại đơn; phủ định ngôi thứ ba dùng `doesn't` + nguyên thể. Bỏ `very often` đi, câu vẫn đúng.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Our uncle ( ) us very often."
+   }
+  },
+  {
+   "id": "G1D1Q3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D1Q3",
+     "options": [
+      {
+       "id": "1",
+       "text": "has"
+      },
+      {
+       "id": "2",
+       "text": "do"
+      },
+      {
+       "id": "3",
+       "text": "does"
+      },
+      {
+       "id": "4",
+       "text": "is"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Nhấn mạnh: `does` + nguyên thể `work`.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Actually, my brother ( ) work quite hard."
+   }
+  },
+  {
+   "id": "G1D2I1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 2",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D2I1",
+     "options": [
+      {
+       "id": "1",
+       "text": "My sister is living in Thailand now."
+      },
+      {
+       "id": "2",
+       "text": "My sister lives in Thailand now."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Bạn muốn nêu một sự thật ổn định → hiện tại đơn. `now` chỉ so với trước kia. Câu tiếp diễn sẽ gợi ý rằng chị ấy chỉ ở tạm.",
+     "tags": [],
+     "prompt_vi": "Chị bạn chuyển hẳn sang Thái Lan, đã mua nhà ở đó."
+    }
+   ]
+  },
+  {
+   "id": "G1D2I2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 2",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D2I2",
+     "options": [
+      {
+       "id": "1",
+       "text": "My sister is living in Thailand."
+      },
+      {
+       "id": "2",
+       "text": "My sister lives in Thailand."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Bạn muốn người nghe hiểu việc đó tạm thời → tiếp diễn. Câu hiện tại đơn không sai ngữ pháp nhưng không nói được ý \"tạm thời\".",
+     "tags": [],
+     "prompt_vi": "Chị bạn sang Thái Lan học trao đổi sáu tháng."
+    }
+   ]
+  },
+  {
+   "id": "G1D2I3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 2",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D2I3",
+     "options": [
+      {
+       "id": "1",
+       "text": "Lan is talking to a customer right now."
+      },
+      {
+       "id": "2",
+       "text": "Lan has talked to a customer right now."
+      },
+      {
+       "id": "3",
+       "text": "Lan talks to a customer right now."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Hành động đang diễn ra tại đúng lúc nói (`right now`) → tiếp diễn.",
+     "tags": [],
+     "prompt_vi": "Ai đó tìm Lan; Lan đang bận tiếp khách."
+    }
+   ]
+  },
+  {
+   "id": "G1D2I4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 2",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D2I4",
+     "options": [
+      {
+       "id": "1",
+       "text": "Online learning is become more popular."
+      },
+      {
+       "id": "2",
+       "text": "Online learning is becoming more popular."
+      },
+      {
+       "id": "3",
+       "text": "Online learning becomes more popular."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Xu hướng đang thay đổi → tiếp diễn: `is becoming`.",
+     "tags": [],
+     "prompt_vi": "Bạn muốn nói: việc học trực tuyến ngày càng phổ biến."
+    }
+   ]
+  },
+  {
+   "id": "G1D2I5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 2",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D2I5",
+     "options": [
+      {
+       "id": "1",
+       "text": "My brother always borrows my phone."
+      },
+      {
+       "id": "2",
+       "text": "My brother is borrowing my phone always now."
+      },
+      {
+       "id": "3",
+       "text": "My brother is always borrowing my phone!"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Than phiền về một thói quen: be + always + V-ing. Câu hiện tại đơn chỉ nêu thói quen, không có ý bực.",
+     "tags": [],
+     "prompt_vi": "Em trai bạn suốt ngày mượn điện thoại của bạn, bạn bực."
+    }
+   ]
+  },
+  {
+   "id": "G1D2I6",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 2",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D2I6",
+     "options": [
+      {
+       "id": "1",
+       "text": "I'm seeing the dentist at four tomorrow."
+      },
+      {
+       "id": "2",
+       "text": "I have seen the dentist at four tomorrow."
+      },
+      {
+       "id": "3",
+       "text": "I am see the dentist at four tomorrow."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Việc đã hẹn sẵn cho tương lai gần → tiếp diễn. `see` ở đây nghĩa là \"gặp\", là hành động.",
+     "tags": [],
+     "prompt_vi": "Bạn đã hẹn nha sĩ lúc bốn giờ chiều mai."
+    }
+   ]
+  },
+  {
+   "id": "G1D2I7",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 2",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D2I7",
+     "options": [
+      {
+       "id": "1",
+       "text": "Khoa is being very rude today."
+      },
+      {
+       "id": "2",
+       "text": "Khoa has very rude today."
+      },
+      {
+       "id": "3",
+       "text": "Khoa is very rude."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`is being` + tính từ: đang cư xử như vậy lúc này, không phải tính vốn thế.",
+     "tags": [],
+     "prompt_vi": "Bình thường Khoa lịch sự, nhưng hôm nay cậu ấy cư xử rất thô lỗ."
+    }
+   ]
+  },
+  {
+   "id": "G1D2I8",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 2",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D2I8",
+     "options": [
+      {
+       "id": "1",
+       "text": "I'm thinking of changing my job."
+      },
+      {
+       "id": "2",
+       "text": "I think of changing my job."
+      },
+      {
+       "id": "3",
+       "text": "I'm think to change my job."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`think` nghĩa \"cân nhắc\" là hành động → chia tiếp diễn được: `be thinking of` + V-ing.",
+     "tags": [],
+     "prompt_vi": "Bạn đang cân nhắc việc đổi việc, chưa quyết."
+    }
+   ]
+  },
+  {
+   "id": "G1D2Q1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Ngày 2",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D2Q1",
+     "options": [
+      {
+       "id": "1",
+       "text": "have"
+      },
+      {
+       "id": "2",
+       "text": "has had"
+      },
+      {
+       "id": "3",
+       "text": "has"
+      },
+      {
+       "id": "4",
+       "text": "is having"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "`usually` + việc lặp lại → hiện tại đơn. Tiếp diễn không đi với `usually`.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "He usually ( ) lunch at around twelve."
+   }
+  },
+  {
+   "id": "G1D2Q2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Ngày 2",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D2Q2",
+     "options": [
+      {
+       "id": "1",
+       "text": "wants"
+      },
+      {
+       "id": "2",
+       "text": "want"
+      },
+      {
+       "id": "3",
+       "text": "wanting"
+      },
+      {
+       "id": "4",
+       "text": "am wanting"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`want` là động từ trạng thái: không chia tiếp diễn dù việc đang xảy ra lúc nói.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Wait! I ( ) to finish this page."
+   }
+  },
+  {
+   "id": "G1D3T1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Ngày 3",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D3T1",
+     "options": [
+      {
+       "id": "1",
+       "text": "quá khứ ● (xong, không rõ lúc nào) ┄┄ bây giờ"
+      },
+      {
+       "id": "2",
+       "text": "├─ bây giờ ─┤ (tạm thời, rồi hết)"
+      },
+      {
+       "id": "3",
+       "text": "● ● ● ● lặp lại quanh bây giờ"
+      },
+      {
+       "id": "4",
+       "text": "quá khứ ●━━━━━━▶ bây giờ (còn tiếp)"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`for six years` + hiện tại hoàn thành: bắt đầu sáu năm trước, bây giờ vẫn sống ở đây.",
+     "tags": [],
+     "prompt_vi": "«I have lived here for six years.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D3T2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Ngày 3",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D3T2",
+     "options": [
+      {
+       "id": "1",
+       "text": "quá khứ ● (xong, không rõ lúc nào) ┄┄ bây giờ"
+      },
+      {
+       "id": "2",
+       "text": "● ● ● ● lặp lại quanh bây giờ"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ●━━━━━━▶ bây giờ (còn tiếp)"
+      },
+      {
+       "id": "4",
+       "text": "├─ bây giờ ─┤ (tạm thời, rồi hết)"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Việc đã xong; người nói không nêu lúc nào. Không ai \"vẫn đang ăn\" từ lúc đó đến giờ.",
+     "tags": [],
+     "prompt_vi": "«I have already eaten.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D3T3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Ngày 3",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D3T3",
+     "options": [
+      {
+       "id": "1",
+       "text": "quá khứ ● (xong, không rõ lúc nào) ┄┄ bây giờ"
+      },
+      {
+       "id": "2",
+       "text": "● ● ● ● lặp lại quanh bây giờ"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ●━━━━━━▶ bây giờ (còn tiếp)"
+      },
+      {
+       "id": "4",
+       "text": "├─ bây giờ ─┤ (tạm thời, rồi hết)"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Tiếp diễn + `this week`: việc tạm thời quanh lúc này.",
+     "tags": [],
+     "prompt_vi": "«She is staying with her aunt this week.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D3T4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Ngày 3",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D3T4",
+     "options": [
+      {
+       "id": "1",
+       "text": "● ● ● ● lặp lại quanh bây giờ"
+      },
+      {
+       "id": "2",
+       "text": "quá khứ ● (xong, không rõ lúc nào) ┄┄ bây giờ"
+      },
+      {
+       "id": "3",
+       "text": "├─ bây giờ ─┤ (tạm thời, rồi hết)"
+      },
+      {
+       "id": "4",
+       "text": "quá khứ ●━━━━━━▶ bây giờ (còn tiếp)"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Việc lặp lại → hiện tại đơn.",
+     "tags": [],
+     "prompt_vi": "«He calls his mother every Sunday.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D3I1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 3",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D3I1",
+     "options": [
+      {
+       "id": "1",
+       "text": "I am writing this essay since morning."
+      },
+      {
+       "id": "2",
+       "text": "I have been writing this essay all morning."
+      },
+      {
+       "id": "3",
+       "text": "I write this essay all morning."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đã bắt đầu? Có. Còn đang làm? Có. Nhấn vào độ dài (`all morning`) → hoàn thành tiếp diễn.",
+     "tags": [],
+     "prompt_vi": "Bạn bắt đầu viết bài luận từ sáng, bây giờ vẫn đang viết, và muốn nhấn vào việc viết lâu thế nào."
+    }
+   ]
+  },
+  {
+   "id": "G1D3I2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 3",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D3I2",
+     "options": [
+      {
+       "id": "1",
+       "text": "I am writing three essays this week."
+      },
+      {
+       "id": "2",
+       "text": "I have been writing three essays this week."
+      },
+      {
+       "id": "3",
+       "text": "I have written three essays this week."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Nói số lượng đã xong → hiện tại hoàn thành. Hoàn thành tiếp diễn không dùng để đếm việc đã xong.",
+     "tags": [],
+     "prompt_vi": "Bạn viết xong ba bài luận trong tuần này và muốn nói kết quả."
+    }
+   ]
+  },
+  {
+   "id": "G1D3I3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 3",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D3I3",
+     "options": [
+      {
+       "id": "1",
+       "text": "I'm out of breath because I have been running."
+      },
+      {
+       "id": "2",
+       "text": "I'm out of breath because I am running."
+      },
+      {
+       "id": "3",
+       "text": "I'm out of breath because I run."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Việc vừa dừng và còn để lại dấu vết lúc nói → hoàn thành tiếp diễn.",
+     "tags": [],
+     "prompt_vi": "Bạn vừa chạy tới nơi, còn thở dốc, và giải thích vì sao."
+    }
+   ]
+  },
+  {
+   "id": "G1D3I4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 3",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D3I4",
+     "options": [
+      {
+       "id": "1",
+       "text": "Have you ever been to Hue?"
+      },
+      {
+       "id": "2",
+       "text": "Do you ever been to Hue?"
+      },
+      {
+       "id": "3",
+       "text": "Have you ever been going to Hue?"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Hỏi trải nghiệm, không cần thời điểm → hiện tại hoàn thành. `ever` không đi với hoàn thành tiếp diễn.",
+     "tags": [],
+     "prompt_vi": "Bạn muốn hỏi ai đó đã từng đến Huế chưa."
+    }
+   ]
+  },
+  {
+   "id": "G1D3I5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 3",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D3I5",
+     "options": [
+      {
+       "id": "1",
+       "text": "I have been knowing her since university."
+      },
+      {
+       "id": "2",
+       "text": "I have known her since university."
+      },
+      {
+       "id": "3",
+       "text": "I know her since university."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`know` là động từ trạng thái: dùng hiện tại hoàn thành, không dùng tiếp diễn; có `since` nên không dùng hiện tại đơn.",
+     "tags": [],
+     "prompt_vi": "Bạn quen cô ấy từ hồi đại học đến giờ."
+    }
+   ]
+  },
+  {
+   "id": "G1D3I6",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 3",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D3I6",
+     "options": [
+      {
+       "id": "1",
+       "text": "I have been work on this project for two months."
+      },
+      {
+       "id": "2",
+       "text": "I am working on this project for two months."
+      },
+      {
+       "id": "3",
+       "text": "I have worked on this project for two months."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Khi phân vân, chọn hiện tại hoàn thành: nó dùng được ở gần như mọi chỗ của hoàn thành tiếp diễn.",
+     "tags": [],
+     "prompt_vi": "Bạn không chắc việc đó còn đang diễn ra hay không. Chọn câu an toàn."
+    }
+   ]
+  },
+  {
+   "id": "G1D3Q1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Ngày 3",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D3Q1",
+     "options": [
+      {
+       "id": "1",
+       "text": "have ever spoken"
+      },
+      {
+       "id": "2",
+       "text": "am ever speaking"
+      },
+      {
+       "id": "3",
+       "text": "ever spoke"
+      },
+      {
+       "id": "4",
+       "text": "ever speak"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Sau `It's the first time` → hiện tại hoàn thành.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "It's the first time I ( ) English on the phone."
+   }
+  },
+  {
+   "id": "G1D3Q2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Ngày 3",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D3Q2",
+     "options": [
+      {
+       "id": "1",
+       "text": "see"
+      },
+      {
+       "id": "2",
+       "text": "saw"
+      },
+      {
+       "id": "3",
+       "text": "have seen"
+      },
+      {
+       "id": "4",
+       "text": "have been seeing"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Có mốc đã qua (`yesterday`) → quá khứ đơn, không dùng hiện tại hoàn thành.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I ( ) him yesterday."
+   }
+  },
+  {
+   "id": "G1D4I1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 4",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D4I1",
+     "options": [
+      {
+       "id": "1",
+       "text": "I have usually ridden my motorbike, but this week I took the bus."
+      },
+      {
+       "id": "2",
+       "text": "I usually ride my motorbike, but this week I'm taking the bus."
+      },
+      {
+       "id": "3",
+       "text": "I'm usually riding my motorbike, but this week I take the bus."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Thói quen → hiện tại đơn; việc tạm thời của tuần này → tiếp diễn.",
+     "tags": [],
+     "prompt_vi": "Bạn thường đi xe máy đi làm, nhưng tuần này xe hỏng nên đi xe buýt."
+    }
+   ]
+  },
+  {
+   "id": "G1D4I2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 4",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D4I2",
+     "options": [
+      {
+       "id": "1",
+       "text": "I have worked for this company since 2021."
+      },
+      {
+       "id": "2",
+       "text": "I work for this company since 2021."
+      },
+      {
+       "id": "3",
+       "text": "I am working for this company since 2021."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Kéo từ quá khứ tới bây giờ với `since` → hiện tại hoàn thành.",
+     "tags": [],
+     "prompt_vi": "Bạn làm ở công ty này từ năm 2021 và vẫn đang làm."
+    }
+   ]
+  },
+  {
+   "id": "G1D4I3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 4",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D4I3",
+     "options": [
+      {
+       "id": "1",
+       "text": "My eyes are red because I am reading since four hours."
+      },
+      {
+       "id": "2",
+       "text": "My eyes are red because I have been reading for four hours."
+      },
+      {
+       "id": "3",
+       "text": "My eyes are red because I read for four hours every day now."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Việc kéo dài, vừa dừng hoặc còn đang làm, để lại dấu vết → hoàn thành tiếp diễn.",
+     "tags": [],
+     "prompt_vi": "Bạn giải thích vì sao mắt mình đỏ: vừa đọc suốt bốn tiếng."
+    }
+   ]
+  },
+  {
+   "id": "G1D4I4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 4",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D4I4",
+     "options": [
+      {
+       "id": "1",
+       "text": "Studying in a group helps people remember more."
+      },
+      {
+       "id": "2",
+       "text": "Studying in a group has been helping people remember more."
+      },
+      {
+       "id": "3",
+       "text": "Studying in a group is helping people remember more now."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Điều bạn trình bày như một sự thật chung → hiện tại đơn.",
+     "tags": [],
+     "prompt_vi": "Bạn nêu ý kiến trong bài viết: học nhóm giúp nhớ lâu hơn."
+    }
+   ]
+  },
+  {
+   "id": "G1D4I5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 4",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D4I5",
+     "options": [
+      {
+       "id": "1",
+       "text": "More and more people learn English on their phones since now."
+      },
+      {
+       "id": "2",
+       "text": "More and more people are learning English on their phones."
+      },
+      {
+       "id": "3",
+       "text": "More and more people have learn English on their phones."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Xu hướng đang thay đổi → tiếp diễn.",
+     "tags": [],
+     "prompt_vi": "Bạn nói về xu hướng: ngày càng nhiều người học tiếng Anh trên điện thoại."
+    }
+   ]
+  },
+  {
+   "id": "G1D4I6",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 4",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D4I6",
+     "options": [
+      {
+       "id": "1",
+       "text": "I have been sending my application already."
+      },
+      {
+       "id": "2",
+       "text": "I have already sent my application."
+      },
+      {
+       "id": "3",
+       "text": "I already send my application."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Việc đã xong, không nêu thời điểm → hiện tại hoàn thành.",
+     "tags": [],
+     "prompt_vi": "Bạn muốn nói mình đã nộp đơn rồi, không cần nói hôm nào."
+    }
+   ]
+  },
+  {
+   "id": "G1D4Q1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D4Q1",
+     "options": [
+      {
+       "id": "1",
+       "text": "try"
+      },
+      {
+       "id": "2",
+       "text": "have been trying"
+      },
+      {
+       "id": "3",
+       "text": "tried"
+      },
+      {
+       "id": "4",
+       "text": "am trying"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`all morning` và việc vẫn đang dở → hoàn thành tiếp diễn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I ( ) to phone the bank all morning, but nobody answers."
+   }
+  },
+  {
+   "id": "G1D4Q2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D4Q2",
+     "options": [
+      {
+       "id": "1",
+       "text": "does"
+      },
+      {
+       "id": "2",
+       "text": "are"
+      },
+      {
+       "id": "3",
+       "text": "do"
+      },
+      {
+       "id": "4",
+       "text": "have"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Hỏi một sự thật chung, có `generally` → hiện tại đơn; chủ ngữ số nhiều nên dùng `do`.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "How much ( ) nurses generally earn?"
+   }
+  },
+  {
+   "id": "G1D4Q3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D4Q3",
+     "options": [
+      {
+       "id": "1",
+       "text": "doesn't get"
+      },
+      {
+       "id": "2",
+       "text": "isn't getting"
+      },
+      {
+       "id": "3",
+       "text": "don't get"
+      },
+      {
+       "id": "4",
+       "text": "hasn't been getting"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Việc lặp lại (ít khi) → hiện tại đơn. Tiếp diễn không đi với `very often`.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Unfortunately, my manager ( ) a day off very often."
+   }
+  },
+  {
+   "id": "G1D4Q4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D4Q4",
+     "options": [
+      {
+       "id": "1",
+       "text": "ask"
+      },
+      {
+       "id": "2",
+       "text": "asked"
+      },
+      {
+       "id": "3",
+       "text": "are asking"
+      },
+      {
+       "id": "4",
+       "text": "have asked"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Sau `That's the second time` → hiện tại hoàn thành.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "That's the second time you ( ) that question today!"
+   }
+  }
+ ]
+}

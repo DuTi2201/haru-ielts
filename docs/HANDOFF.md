@@ -153,3 +153,10 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
   vocabulary): 7-day schedule, card-by-card content, 15 screens, iPhone rules, data changes, and the result of an
   independent UI review. Design only: nothing is built, no practice items or answer keys are written yet. Book page
   numbers in it were checked against scans. Book answer keys and Cambridge texts must stay out of the repository.
+* 2026-11-11 — branch `content/g1-week1`: content of G1 days 1–4 (`scripts/g1/`, bank `g1`): 4 lessons, 21 cards,
+  37 words, 83 exercises; `load_all()` reports 46 lessons, 1,319 exercises, no problems. Seed tests updated for the
+  second bank (46 lessons, 1,097 words; a G1 lesson needs no speaking task). The five tests that need sqlalchemy or
+  email-validator could not run in the sandbox. Screens: the new kinds are plain `read_match` / `write_essay` for now
+  (see `scripts/g1/README.md`); the frontend can restyle them by id prefix (`G1D?I`, `G1D?T`, `G1D?M`). The book-first
+  step is a lesson note plus `scripts/g1/book_tasks.json`; the answer sheet screen (M8) and the gate are not built.
+  Merging this branch into `main` makes four G1 lessons appear after the B1 list (sort_order 101–104) at the next deploy.
