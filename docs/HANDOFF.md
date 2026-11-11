@@ -210,7 +210,7 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
   (hand-written lectures in `scripts/g1/lecture_d1.py`), `shadow_runs` in `/lecture-slides`, one-voice English lines and
   word-count repeat gaps in `lecture_voice`, template `tpl-v4` (every lecture is recorded again on first play), `azure_pron` +
   `POST /me/speech/assess`, events `lecture_complete` / `lecture_replay` / `say_score`. Frontend (`haru-ielts-journey`, branch
-  `feat/lesson44-quality`, deployed, NOT merged to `main` because that branch syncs to Lovable): `LectureScenes.tsx`, scored
+  `feat/lesson44-quality`, merged into `main` on 2026-11-11 as 88db75e): `LectureScenes.tsx`, scored
   `SayStep`, `Ko` now tags English, `/preview/lecture`. Deploy notes: the VM shell exports the Korean stack's
   `POSTGRES_PASSWORD`; run compose for this stack as `env -u POSTGRES_PASSWORD docker compose -f deploy/docker-compose.ielts.yml
   --env-file /opt/haru-ielts/compose.env up -d --no-deps api worker` (without it the API cannot reach its database; this caused
@@ -218,3 +218,20 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
   `.output/public` to `/opt/haru/mcp/ielts-site` (previous build kept in `ielts-site.prev44`). Six tests that count 42 B1
   lessons fail on `main` since the G1 lessons were added and still need updating. To do the same for days 2-4: write
   `lecture_dN.py`, add scenes as needed, keep the gates.
+
+* 2026-11-11 (evening) — Lesson 44 review round 2 (six points from the owner). (1) After a lecture ends, `SlideLecture` shows
+  a panel with a 10-second countdown ("Chuyển ngay" / "Ở lại" / "Nghe lại"): in the whole-lesson tab buổi 1 goes on to buổi 2
+  (autoplay requested), the last buổi goes to Từ vựng, then Ngữ pháp, and only then the exercises; in the 15-minute sittings it
+  goes to the next step of the sitting. The closing lines of the audio and the end slide now say the same. (2) Buổi 2 opens on
+  its own title slide with a short hook; the examiner's question is spoken while the question card is on screen. (3) The name of
+  the teacher is gone from every learner-visible string (narration, "Lời thầy Minh" label, grammar-card quotes now "Trích: «…»",
+  `source` fields); quotes stay verbatim. (4) `tense_timeline` draws one time axis (Quá khứ · Hiện tại · Tương lai) with a
+  dashed present line through four lanes. (5) New scene `speaking_answer`: a three-sentence Speaking Part 1 answer to "Do you
+  play any sports?" (answer, time, habit) after the one-line "Yes, I do." is shown as too short. (6) New scene `sentence_forms`
+  in buổi 1: how to build affirmative, negative and question forms (he/she/it + s, spelling of -s, does/doesn't + base verb,
+  short answers) on one sentence, Minh cycles to school. Title slides of authored lectures carry their own words. Buổi 1 is
+  6.99 minutes by the length gate (limit 7.0): any addition needs a cut. Deployed; the frontend in `main` (a379bdb). The
+  deployed `/preview/lecture` data (`lecture-preview-data.json`) was regenerated on the VM from the new lectures but is NOT in
+  git (stale in the repo). Tests run on the VM: `docker compose … run --rm --no-deps -v …/tests:/srv/tests -v …/scripts:/srv/scripts
+  -v …/app:/srv/app api sh -c "pip install pytest; python -m pytest …"` (workdir is `/srv`; the image has no pytest and the
+  local sandbox has no dependencies). 135 pass in the five lecture test files.
