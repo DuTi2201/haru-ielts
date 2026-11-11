@@ -617,8 +617,11 @@
      "hook": "Hỏi thì nào, có phải đáp thì nấy?",
      "lines": [
       {
-       "say": "Ở trường, hễ câu hỏi chia thì nào là mình trả lời đúng thì đó. Vào phòng thi nói IELTS, thói quen này làm các câu trả lời của bạn ngắn và giống hệt nhau.",
+       "say": "Giám khảo hỏi bạn một câu ở hiện tại đơn. Bạn có buộc phải trả lời bằng hiện tại đơn không?",
        "show": "hook"
+      },
+      {
+       "say": "Ở trường, hễ câu hỏi chia thì nào là mình trả lời đúng thì đó. Vào phòng thi nói IELTS, thói quen này làm các câu trả lời của bạn ngắn và giống hệt nhau."
       },
       {
        "say": "Buổi này mình bỏ thói quen đó, rồi học thêm một cách nhấn mạnh rất hay dùng khi nói."
@@ -739,7 +742,7 @@
      "headword": "emphasise",
      "lines": [
       {
-       "say": "Phần hai của buổi này cần một từ."
+       "say": "Nửa sau của buổi này cần một từ."
       }
      ]
     },

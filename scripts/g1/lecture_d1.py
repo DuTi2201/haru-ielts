@@ -119,7 +119,8 @@ ANSWERS = [
 
 SITTING_2 = [
     {"kind": "title", "hook": "Hỏi thì nào, có phải đáp thì nấy?", "lines": [
-        {"say": "Ở trường, hễ câu hỏi chia thì nào là mình trả lời đúng thì đó. Vào phòng thi nói IELTS, thói quen này làm các câu trả lời của bạn ngắn và giống hệt nhau.", "show": "hook"},
+        {"say": "Giám khảo hỏi bạn một câu ở hiện tại đơn. Bạn có buộc phải trả lời bằng hiện tại đơn không?", "show": "hook"},
+        {"say": "Ở trường, hễ câu hỏi chia thì nào là mình trả lời đúng thì đó. Vào phòng thi nói IELTS, thói quen này làm các câu trả lời của bạn ngắn và giống hệt nhau."},
         {"say": "Buổi này mình bỏ thói quen đó, rồi học thêm một cách nhấn mạnh rất hay dùng khi nói."},
     ]},
     {"kind": "scene", "visual": "tense_timeline", "eyebrow": "Thí nghiệm 3", "title": "Một câu hỏi, bốn thì",
@@ -142,7 +143,7 @@ SITTING_2 = [
         {"en": "Yes, I have played badminton since last year.", "vi": "Có, tôi chơi cầu lông từ năm ngoái.", "gap": True, "show": "ielts_a"},
         {"say": "Hôm nay bạn chưa cần nắm hết bốn thì. Việc của hôm nay chỉ là bỏ phản xạ hỏi gì đáp nấy."},
     ]},
-    {"kind": "word", "headword": "emphasise", "lines": [{"say": "Phần hai của buổi này cần một từ."}]},
+    {"kind": "word", "headword": "emphasise", "lines": [{"say": "Nửa sau của buổi này cần một từ."}]},
     {"kind": "scene", "visual": "do_does", "eyebrow": "Nhấn mạnh", "title": "do / does + động từ nguyên thể",
      "data": {"plain": "I like fish.", "emph": ["I", "do", "like fish!"], "emph_vi": "Tôi có thích cá mà!",
               "ex2": ["The bus is slow, but it", "does", "stop near my office."], "ex2_vi": "Xe buýt chậm, nhưng nó có dừng gần cơ quan tôi.",
