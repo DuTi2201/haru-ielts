@@ -655,6 +655,8 @@ def build_authored_lecture(lesson: LessonSource) -> Lecture:
                 "kind": "title", "title": lesson.title, "title_en": lesson.title_en,
                 "vocab": len(lesson.vocab), "grammar": len(lesson.grammar), "notes": 0,
                 "hook": spec.get("hook"),
+                # the picture shows this sitting's words, not the whole lesson's
+                "words": [str(x["headword"]) for x in lesson.authored if x.get("kind") == "word"],
             })
             say_lines(lines, len(slides) - 1)
         elif kind == "word":

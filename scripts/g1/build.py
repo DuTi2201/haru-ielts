@@ -29,7 +29,7 @@ LESSONS = ROOT / "app" / "seed" / "lessons"
 BANK = ROOT / "app" / "seed" / "exercises" / "g1"
 TOPIC = "G1 · Các thì hiện tại (Tuần 1)"
 BOOK = "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1"
-SOURCE = "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+SOURCE = "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
 
 
 def parse() -> list[dict]:
@@ -179,10 +179,10 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
             e["rubric"] = L1.RUBRIC
     grammar = []
     for c in d["cards"]:
-        use = c["use"] + (f"\nLời thầy: «{c['quote']}»" if c["quote"] else "")
+        use = c["use"] + (f"\nTrích: «{c['quote']}»" if c["quote"] else "")
         g = {"pattern": c["pattern"], "meaning_vi": c["meaning"], "usage_context_vi": use, "contrasts": c["vs"],
              "example_en": "\n".join(e for e, _ in c["ex"]), "example_vi": "\n".join(v for _, v in c["ex"]),
-             "importance": c["importance"], "source": f"{BOOK}, pp. {d['pages']}; cách giảng theo thầy Minh"}
+             "importance": c["importance"], "source": f"{BOOK}, pp. {d['pages']}; cách giảng của khóa học"}
         if c["trap"]:
             g["note_vi"] = "Lỗi người Việt hay mắc: " + c["trap"]
         if c["tip"]:
@@ -244,7 +244,7 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
         "coach": {"focus_vi": [f"{c['pattern'].split(' · ')[-1]}: {c['meaning']}"[:230] for c in d["cards"][:3]], "watch_out_vi": traps[:2]},
         "exercise_ids": [e["id"] for k in ("reading", "build", "listening", "writing") for e in bank[k]],
         "sessions": sessions,
-        "editor_notes": [{"title": "Nguồn", "body": "Ý và thứ tự giảng theo bài giảng của thầy Minh; khung và số trang theo Destination B2, Unit 1. Lời giải thích, ví dụ và câu hỏi do khóa học tự soạn; bài tập của sách làm trong sách."}],
+        "editor_notes": [{"title": "Nguồn", "body": "Ý và thứ tự giảng theo giáo án của khóa học; khung và số trang theo Destination B2, Unit 1. Lời giải thích, ví dụ và câu hỏi do khóa học tự soạn; bài tập của sách làm trong sách."}],
     }
     return lesson, bank, links
 
@@ -332,7 +332,7 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
     for title, words in d["sittings"]:
         for h, pos, mv, ex, evi in words:
             vocab.append({"headword": h, "pos": pos, "meaning_vi": mv + (f" · Nhớ: {ASSOC[h]}" if h in ASSOC else ""), "example_en": ex, "example_vi": evi, "family": d.get("family", "Giáo dục"), "priority": "recognize" if h in d.get("recognize", ()) else "core",
-                          "source": d.get("source", "Destination B2, Unit 18; từ C1 theo cách neo của thầy Minh")})
+                          "source": d.get("source", "Destination B2, Unit 18; từ C1 theo cách neo của khóa học")})
         sessions.append({"title_vi": (STAGE_PREFIX.get(d.get("stage"), "Từ vựng") + f" · {title}")[:70], "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: " + ", ".join(w[0] for w in words[:6]) + ", ...",
                          "use_vi": d["ielts"][:200], "vocab": [w[0] for w in words]})
     for ps in d.get("passages", []):
@@ -414,7 +414,7 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
             "checklist_vi": ["Mỗi câu có chủ ngữ và động từ đã chia.", "Có dùng từ của bài hôm nay, đúng từ loại.", "Câu nói về chính bạn, không chép câu mẫu."]})
         my_ids.append(wid)
     if my_ids:
-        sessions.append({"title_vi": "Vận dụng · câu của tôi với từ vừa học", "can_do_vi": "Sau buổi này bạn đã tự gõ câu của riêng mình với các từ vừa học, bước thầy Minh coi là quan trọng nhất.",
+        sessions.append({"title_vi": "Vận dụng · câu của tôi với từ vừa học", "can_do_vi": "Sau buổi này bạn đã tự gõ câu của riêng mình với các từ vừa học, bước quan trọng nhất.",
                          "use_vi": "Từ vừa dùng cho chuyện của chính mình thì nhớ lâu hơn, và đây là cầu nối sang Writing và Speaking.", "check": my_ids})
     add_packs(practise, "Rèn luyện", "Sau buổi này bạn tự gõ được đáp án của sách: ")
     prev = [dd for dd in (5, 6, 7) if dd < n] if n in (6, 7) else []
@@ -434,10 +434,10 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
         "notes": [
             {"title": "Mục tiêu của ngày", "body": f"• {d['goal']}", "kind": "goal"},
             {"title": "Bài của sách nằm trong app", "body": book_body + "\n• Các bài này có sẵn trong app kèm đáp án của sách và lời giải thích từng câu.", "kind": "language"},
-            {"title": "Cách học từ của thầy", "body": "• Học từ C1 bằng một từ B2 đồng nghĩa, không học nghĩa tiếng Việt dài.\n• Chọn 5 đến 10 từ bạn thích nhất rồi gõ câu về chính mình bằng bàn phím tiếng Anh.", "kind": "language"},
+            {"title": "Cách học từ C1", "body": "• Học từ C1 bằng một từ B2 đồng nghĩa, không học nghĩa tiếng Việt dài.\n• Chọn 5 đến 10 từ bạn thích nhất rồi gõ câu về chính mình bằng bàn phím tiếng Anh.", "kind": "language"},
         ],
         "bank": "g1", "exercise_ids": [e["id"] for k in ("reading", "build", "listening", "writing") for e in bank[k]], "sessions": sessions,
-        "editor_notes": [{"title": "Nguồn", "body": d.get("editor", "Từ vựng và bài tập theo Destination B2 Unit 18 (trang 112–115, đáp án trang 244); chín từ C1 và cách neo theo bài giảng của thầy Minh.")}],
+        "editor_notes": [{"title": "Nguồn", "body": d.get("editor", "Từ vựng và bài tập theo Destination B2 Unit 18 (trang 112–115, đáp án trang 244); chín từ C1 và cách neo theo giáo án của khóa học.")}],
     }
     return lesson, bank, links
 

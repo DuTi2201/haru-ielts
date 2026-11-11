@@ -187,7 +187,7 @@ DAY = {
     "ielts": "Từ của Unit này là lõi của Reading và Listening về giáo dục và tâm lý; kết hợp từ chính xác tăng điểm Lexical Resource khi nói và viết.",
     "book": [("Destination C1&C2", "14", "A–D", 40, 35), ("Destination C1&C2", "15–18", "H–K, M–O (phần lõi)", 70, 60),
              ("Destination C1&C2", "15–18", "E–G, L (cụm động từ và thành ngữ, mở rộng không bắt buộc)", 38, 20)],
-    "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ theo thầy Minh",
+    "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học",
     "editor": "Bài tập theo Destination C1&C2 Unit 2 (trang 14–19, đáp án trang 282). Lõi: từ chủ đề, kết hợp từ, biến đổi từ; cụm động từ và thành ngữ để ở phần mở rộng theo bộ lọc của thầy.",
     "stage": "c1",
     "sittings": [

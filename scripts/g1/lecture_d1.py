@@ -51,7 +51,7 @@ SITTING_1 = [
      "data": {"boxes": BOXES, "sentence": "I enjoy eating oranges.", "sentence_vi": "Tôi thích ăn cam.",
               "quote": "Ngữ pháp nó không rạch ròi như cái cách mà một quyển sách nó chia ra.",
               "rule": "Hộp để đọc sách. Lúc nói, không ai dừng lại chọn hộp."}, "lines": [
-        {"say": "Bây giờ làm thí nghiệm của thầy Minh. Lấy một câu thật bình thường.", "show": "boxes"},
+        {"say": "Bây giờ làm một thí nghiệm nhỏ. Lấy một câu thật bình thường.", "show": "boxes"},
         {"en": "I enjoy eating oranges.", "vi": "Tôi thích ăn cam.", "gap": True, "show": "sentence"},
         {"say": "Tôi thích ăn cam. Bạn thử xếp câu này vào từng hộp."},
         {"say": "Thích ăn cam có phải một thói quen không? Có.", "show": "t1"},
@@ -60,7 +60,7 @@ SITTING_1 = [
         {"say": "Có phải một trạng thái không? Thích chính là một trạng thái.", "show": "t4"},
         {"say": "Có phải một sự thật không? Với tôi thì đúng là sự thật.", "show": "t5"},
         {"say": "Một câu, và cả năm hộp đều nhận.", "show": "merge"},
-        {"say": "Thầy Minh nói: ngữ pháp nó không rạch ròi như cái cách mà một quyển sách nó chia ra.", "show": "quote"},
+        {"say": "Có một câu đáng nhớ về chuyện này: ngữ pháp nó không rạch ròi như cái cách mà một quyển sách nó chia ra.", "show": "quote"},
         {"say": "Năm cái hộp giúp ta đọc sách. Nhưng lúc nói, không ai dừng lại để chọn hộp. Cái khựng vài giây lúc nãy chính là lúc bạn đang chọn hộp.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "adverb_toggle", "eyebrow": "Thí nghiệm 2", "title": "Bỏ trạng từ đi thì sao?",
@@ -98,20 +98,42 @@ SITTING_1 = [
         {"say": "Tình huống thứ ba. Một anh đang có bạn gái, nhưng muốn người đối diện tin là chưa có."},
         {"en": "No, I don't have a girlfriend.", "vi": "Không, anh chưa có bạn gái.", "gap": True, "show": "c3"},
         {"say": "Anh ta nói dối, và câu vẫn đúng ngữ pháp hoàn toàn. Ngữ pháp không kiểm tra thật giả."},
-        {"say": "Thầy Minh nói: phần lớn thời gian cái các bạn nghĩ sẽ là cái các bạn nói, thế nên phần lớn cái chúng ta nói ra đều là sự thật chủ quan.", "show": "quote"},
+        {"say": "Và một câu nữa, cũng đáng nhớ: phần lớn thời gian cái các bạn nghĩ sẽ là cái các bạn nói, thế nên phần lớn cái chúng ta nói ra đều là sự thật chủ quan.", "show": "quote"},
         {"say": "Vậy hiện tại đơn là điều người nói coi là thật, hoặc muốn người nghe coi là thật, vào lúc nói.", "show": "rule"},
         {"say": "Bạn sẽ dùng đúng điều này trong bài viết IELTS. Khi bạn nêu một nhận định trong Writing Task 2, bạn dùng hiện tại đơn, vì bạn trình bày nó như sự thật.", "show": "ielts"},
+    ]},
+    {"kind": "scene", "visual": "sentence_forms", "eyebrow": "Cách lập câu", "title": "Ba dạng câu của hiện tại đơn",
+     "data": {"rows": [
+                  {"key": "aff", "label": "Khẳng định", "parts": ["Minh", "cycles", "to school."], "hi": [1], "vi": "Minh đạp xe đi học."},
+                  {"key": "neg", "label": "Phủ định", "parts": ["Minh", "doesn't cycle", "to school."], "hi": [1], "vi": "Minh không đạp xe đi học."},
+                  {"key": "qst", "label": "Câu hỏi", "parts": ["Does", "Minh cycle", "to school?"], "hi": [0, 1], "vi": "Minh có đạp xe đi học không?"},
+              ],
+              "persons": [{"who": "I · you · we · they", "verb": "visit"}, {"who": "he · she · it", "verb": "visits"}],
+              "spelling": [["work", "works"], ["watch", "watches"], ["study", "studies"], ["have", "has"]],
+              "short": ["Yes, he does.", "No, he doesn't."],
+              "rule": "Khẳng định: he / she / it thêm s. Phủ định và câu hỏi: does / doesn't, động từ về nguyên thể."}, "lines": [
+        {"say": "Bây giờ là cách lập câu. Chỉ có ba dạng: khẳng định, phủ định và câu hỏi."},
+        {"say": "Một. Câu khẳng định. Với I, you, we, they, động từ giữ nguyên. Với he, she, it, nghĩa là một người hoặc một vật, động từ thêm s.", "show": "persons"},
+        {"say": "Ví dụ."},
+        {"en": "Minh cycles to school.", "vi": "Minh đạp xe đi học.", "gap": True, "show": "aff"},
+        {"say": "Minh là một người, tức là he, nên cycle thành cycles. Không phải lúc nào cũng chỉ thêm s: watch thành watches, study thành studies, và have thành has.", "show": "spelling"},
+        {"say": "Hai. Câu phủ định. Đặt don't hoặc doesn't trước động từ. Với he, she, it dùng doesn't. Chú ý: đã có doesn't thì động từ không còn s nữa, nó về nguyên thể."},
+        {"en": "Minh doesn't cycle to school.", "vi": "Minh không đạp xe đi học.", "gap": True, "show": "neg"},
+        {"say": "Ba. Câu hỏi. Đưa do hoặc does lên đầu câu, và động từ cũng về nguyên thể."},
+        {"en": "Does Minh cycle to school?", "vi": "Minh có đạp xe đi học không?", "gap": True, "show": "qst"},
+        {"say": "Trả lời ngắn thì dùng lại chính trợ từ đó: yes, he does, hoặc no, he doesn't.", "show": "short"},
+        {"say": "Tóm lại. Câu khẳng định: với he, she, it, động từ thêm s. Câu phủ định và câu hỏi: dùng does hoặc doesn't, và động từ về nguyên thể.", "show": "rule"},
     ]},
     {"kind": "recap", "lines": [
         {"say": "Bây giờ mình nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
     ]},
-    {"kind": "end", "next": "Năm câu hỏi ngắn bên dưới: mỗi câu là một tình huống, bạn chọn câu nói đúng ý.", "lines": [
-        {"say": "Hết buổi một. Việc tiếp theo là năm câu hỏi ngắn bên dưới: mỗi câu là một tình huống, bạn chọn câu nói đúng ý mình.", "show": "title"},
+    {"kind": "end", "next": "Tiếp theo: học các từ và mẫu ngữ pháp của buổi này, rồi mới làm bài tập.", "lines": [
+        {"say": "Hết buổi một. Việc tiếp theo là học các từ và các mẫu ngữ pháp của buổi này trong app. Làm xong, bạn mới sang phần bài tập.", "show": "title"},
     ]},
 ]
 
 ANSWERS = [
-    {"key": "a1", "at": "now", "tense": "Hiện tại đơn", "en": "Yes, I do.", "vi": "Bây giờ tôi tin."},
+    {"key": "a1", "at": "now", "tense": "Hiện tại đơn", "en": "Yes, I do.", "vi": "Hiện tại tôi tin."},
     {"key": "a2", "at": "span", "tense": "Hiện tại hoàn thành", "en": "I have believed in God for a while.", "vi": "Tin từ trước đến giờ."},
     {"key": "a3", "at": "past", "tense": "Quá khứ đơn", "en": "I did, but not anymore.", "vi": "Trước có, giờ hết."},
     {"key": "a4", "at": "future", "tense": "Tương lai, có điều kiện", "en": "I will, if you can show me who God is.", "vi": "Sẽ tin, nếu…"},
@@ -119,17 +141,16 @@ ANSWERS = [
 
 SITTING_2 = [
     {"kind": "title", "hook": "Hỏi thì nào, có phải đáp thì nấy?", "lines": [
-        {"say": "Giám khảo hỏi bạn một câu ở hiện tại đơn. Bạn có buộc phải trả lời bằng hiện tại đơn không?", "show": "hook"},
-        {"say": "Ở trường, hễ câu hỏi chia thì nào là mình trả lời đúng thì đó. Vào phòng thi nói IELTS, thói quen này làm các câu trả lời của bạn ngắn và giống hệt nhau."},
-        {"say": "Buổi này mình bỏ thói quen đó, rồi học thêm một cách nhấn mạnh rất hay dùng khi nói."},
+        {"say": "Buổi hai: hỏi thì nào, có phải đáp thì nấy?", "show": "hook"},
+        {"say": "Buổi này có hai việc. Một là bỏ thói quen hỏi gì đáp nấy. Hai là học một cách nhấn mạnh rất hay dùng khi nói."},
     ]},
     {"kind": "scene", "visual": "tense_timeline", "eyebrow": "Thí nghiệm 3", "title": "Một câu hỏi, bốn thì",
      "data": {"question": "Do you believe in God?", "question_vi": "Bạn có tin vào Chúa không?", "answers": ANSWERS,
               "rule": "Người hỏi chọn thì cho câu hỏi. Thì của câu trả lời là của bạn.",
-              "ielts_q": "Do you play any sports?", "ielts_a": "Yes, I have played badminton since last year."}, "lines": [
-        {"say": "Thầy lấy một câu hỏi ở hiện tại đơn."},
+              }, "lines": [
+        {"say": "Giám khảo hỏi bạn một câu ở hiện tại đơn."},
         {"en": "Do you believe in God?", "show": "q"},
-        {"say": "Bạn có tin vào Chúa không? Câu này có ít nhất bốn cách đáp, ở bốn thì. Chọn thì nào là tùy điều bạn muốn nói nằm ở đâu trên trục thời gian.", "show": "axis"},
+        {"say": "Bạn có tin vào Chúa không? Ở trường, hễ câu hỏi chia thì nào là mình đáp đúng thì đó. Nhưng ngoài đời thì không cần vậy: câu này có ít nhất bốn cách đáp, ở bốn thì. Chọn thì nào là tùy điều bạn muốn nói nằm ở đâu trên trục thời gian.", "show": "axis"},
         {"say": "Bây giờ bạn tin."},
         {"en": "Yes, I do.", "vi": "Có, tôi tin.", "gap": True, "show": "a1"},
         {"say": "Bạn tin từ trước tới giờ, và muốn nói cả quãng thời gian đó."},
@@ -139,9 +160,27 @@ SITTING_2 = [
         {"say": "Hiện giờ chưa tin, nhưng bạn để ngỏ."},
         {"en": "I will, if you can show me who God is.", "vi": "Tôi sẽ tin, nếu bạn chỉ cho tôi Chúa là ai.", "gap": True, "show": "a4"},
         {"say": "Một câu hỏi, bốn thì. Người hỏi chọn thì cho câu hỏi. Còn thì của câu trả lời là của bạn.", "show": "rule"},
-        {"say": "Ở Speaking Part 1, giám khảo hỏi gần như toàn bằng hiện tại đơn. Ví dụ, giám khảo hỏi bạn có chơi môn thể thao nào không. Bạn chơi cầu lông từ năm ngoái đến giờ, vậy bạn đáp.", "show": "ielts_q"},
-        {"en": "Yes, I have played badminton since last year.", "vi": "Có, tôi chơi cầu lông từ năm ngoái.", "gap": True, "show": "ielts_a"},
         {"say": "Hôm nay bạn chưa cần nắm hết bốn thì. Việc của hôm nay chỉ là bỏ phản xạ hỏi gì đáp nấy."},
+    ]},
+    {"kind": "scene", "visual": "speaking_answer", "eyebrow": "IELTS Speaking Part 1", "title": "Một câu trả lời đầy đủ",
+     "data": {"question": "Do you play any sports?", "question_vi": "Bạn có chơi môn thể thao nào không?",
+              "short": "Yes, I do.",
+              "parts": [
+                  {"key": "p1", "role": "Trả lời thẳng", "tense": "Hiện tại đơn", "en": "Yes, I do.", "vi": "Có, tôi có chơi."},
+                  {"key": "p2", "role": "Thêm thời gian", "tense": "Hiện tại hoàn thành", "en": "I have played badminton since last year.", "vi": "Tôi chơi cầu lông từ năm ngoái."},
+                  {"key": "p3", "role": "Thêm thói quen", "tense": "Hiện tại đơn", "en": "I usually play with my friends twice a week.", "vi": "Tôi thường chơi với bạn hai lần một tuần."},
+              ],
+              "rule": "Trả lời thẳng, rồi thêm một hai ý. Mỗi câu chọn thì theo điều muốn nói."}, "lines": [
+        {"say": "Bây giờ đưa vào phòng thi. Đây là Speaking Part 1: giám khảo hỏi những câu quen thuộc về bản thân bạn."},
+        {"en": "Do you play any sports?", "show": "q"},
+        {"say": "Bạn có chơi môn thể thao nào không? Nếu bạn chỉ đáp đúng một câu, nghe rất cụt, và giám khảo chưa nghe được bạn dùng tiếng Anh nhiều. Câu trả lời tự nhiên thường dài hai đến ba câu.", "show": "short"},
+        {"say": "Cách làm: trước hết trả lời thẳng vào câu hỏi."},
+        {"en": "Yes, I do.", "vi": "Có, tôi có chơi.", "gap": True, "show": "p1"},
+        {"say": "Rồi thêm một ý về khoảng thời gian bạn đã chơi. Từ năm ngoái đến giờ, nên dùng hiện tại hoàn thành."},
+        {"en": "I have played badminton since last year.", "vi": "Tôi chơi cầu lông từ năm ngoái.", "gap": True, "show": "p2"},
+        {"say": "Cuối cùng thêm một chi tiết về thói quen. Câu này quay lại hiện tại đơn, có thêm trạng từ tần suất."},
+        {"en": "I usually play with my friends twice a week.", "vi": "Tôi thường chơi với bạn hai lần một tuần.", "gap": True, "show": "p3"},
+        {"say": "Ba câu, hai thì khác nhau, và thì nào cũng được chọn theo điều bạn muốn nói. Hôm nay bạn chưa cần giỏi cả hai: chỉ cần thử nói dài hơn một câu.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "emphasise", "lines": [{"say": "Nửa sau của buổi này cần một từ."}]},
     {"kind": "scene", "visual": "do_does", "eyebrow": "Nhấn mạnh", "title": "do / does + động từ nguyên thể",
@@ -164,8 +203,8 @@ SITTING_2 = [
     {"kind": "recap", "lines": [
         {"say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
     ]},
-    {"kind": "end", "next": "Bảy câu luyện bên dưới, rồi buổi 3: nghe chép, nói có chấm điểm và viết câu về chính bạn.", "lines": [
-        {"say": "Hết phần giảng của ngày một. Bên dưới là bảy câu luyện. Sau đó là buổi ba: nghe chép, nói có chấm điểm, và viết hai câu về chính bạn.", "show": "title"},
+    {"kind": "end", "next": "Tiếp theo: học từ và mẫu ngữ pháp, làm bài tập, rồi buổi 3 để vận dụng.", "lines": [
+        {"say": "Hết phần giảng của ngày một. Bây giờ bạn học các từ và mẫu ngữ pháp trong app, rồi làm bài tập. Sau đó là buổi ba: nghe chép, nói có chấm điểm, và viết hai câu về chính bạn.", "show": "title"},
     ]},
 ]
 
