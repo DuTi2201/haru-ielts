@@ -265,3 +265,9 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
 - Rich.tsx: 2-column tables render as one compact list (frequency scale, 5 uses groups); a `Sai | Đúng | Vì sao` table renders as ✗/✓ pairs (words as well as colour), first 6 shown, rest behind "Xem thêm N lỗi".
 - Deployed (journey a27f320, backend 8678741). Targeted suites 183 pass; `tests/test_feathers.py::ChapterTests::test_lessons_by_chapter_and_constellation` fails only because G1 lessons were added (legacy count of 42 B1 lessons), `test_account_security` needs a DB.
 - Still open (P2): SRS-linked due date after "Đã hiểu", frequency scale widget, -s/-es audio buttons, type scale + axe/contrast, live visual check (no login in the sandbox).
+
+## 2026-11-11 (night) — Lesson 44 card 3 (cách dùng) redesigned
+- Rich markup added in `Rich.tsx` `toBlocks` (usable in any `usage_context_vi`): `> text` = pull-quote (yellow panel, « » stripped), `### n · Title · English label` = numbered group card whose following lines are the explanation and `ex: EN = VI` example rows, `!text` = note callout.
+- Card 3 now: teacher's headline quote («Ngôn ngữ tồn tại để phục vụ …»), the "Ngữ pháp nó không rạch ròi…" intro, five group cards (repeated actions; exaggeration; permanent situations (relative); states/beliefs with the three answer tenses; facts/truths incl. the lying example), and a since/for note. The 5-row table, "Hộp của sách" comparison and "dùng thêm" paragraph were dropped at the user's request. `meaning_vi` is now short ("Năm nhóm cách dùng, gộp lại theo bản chất").
+- Lecture: the truth scene says the new headline verbatim; the test now collects every «…» in Day 1 cards (2 expected) instead of "Trích:" lines. `scripts/g1/build.py` must be re-run after editing lecture_d1.py (the lecture is baked into the seed JSON).
+- Deployed (journey cb551d3, backend 8f48e46). Not seen on screen (no login in the sandbox).
