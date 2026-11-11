@@ -147,3 +147,9 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
   * Latin language classifier in `lecture_voice.py` (`_split_paragraph_latin`): splits Latin text into English target runs vs Vietnamese explanation runs using syllable structure and clause context; trailing ellipses stripped to '.' for Azure so no end-of-utterance hallucinations while preserving 700ms repeat gap.
   * Formula and notation cleaners in `lesson_audio.py` (`TEMPLATE_VERSION = tpl-v3`): removed 29-second looping glitch by converting table formulas (`+` -> `cộng`, `·` -> `, `, `V-s/es` -> `động từ thêm S hoặc ES`, `V(s/es)` -> `động từ thêm S hoặc ES`, `V3` -> `quá khứ phân từ`, `V-ing` -> `động từ thêm ing`), converted `~~wrong~~ → right` to `không nói wrong, mà nói right`, eliminated duplicate `buổi 1: Buổi 1`, expanded `(v)`, `(n)`, `(adj)`, `(adv)` to full Vietnamese words, and expanded `sb` -> `somebody`, `sth` -> `something`.
   * Added `tests/test_lecture_english.py` (11 tests). Full suite passing (1,479 passed, 176 skipped).
+* 2026-11-11 — new frame agreed with the owner: Destination B2's 14 grammar units are the main track, B1 becomes the
+  fallback layer behind a gate, vocabulary pairs B2 with a filtered C1&C2 list anchored to simple synonyms, following the
+  owner's teacher. `docs/WEEK1_PLAN.md` (Vietnamese) is the design for week 1 (module G1, present tenses + education
+  vocabulary): 7-day schedule, card-by-card content, 15 screens, iPhone rules, data changes, and the result of an
+  independent UI review. Design only: nothing is built, no practice items or answer keys are written yet. Book page
+  numbers in it were checked against scans. Book answer keys and Cambridge texts must stay out of the repository.
