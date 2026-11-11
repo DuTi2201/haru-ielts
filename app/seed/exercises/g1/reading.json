@@ -6106,6 +6106,982 @@
    ]
   },
   {
+   "id": "G1D8RP1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc chậm · Culture shock: đoạn mở đầu",
+   "instruction_vi": "Đọc đoạn đầu thật chậm, gạch từ khóa trong từng câu hỏi rồi mới chọn. True = bài nói đúng như vậy; False = bài nói ngược lại; Not Given = bài không nói.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Sometimes work, study or a sense of adventure take us out of our familiar surroundings to go and live in a different culture. The experience can be difficult, even shocking. Almost everyone who studies, lives or works abroad has problems adjusting to a new culture. This response is commonly referred to as 'culture shock'. Culture shock can be defined as 'the physical and emotional discomfort a person experiences when entering a culture different from their own' (Weaver, 1993)."
+   },
+   "questions": [
+    {
+     "id": "G1D8RP11",
+     "prompt_en": "Culture shock affects most people who spend time living in another country.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`Almost everyone who studies, lives or works abroad has problems adjusting` = hầu hết mọi người. `Almost everyone` ≈ `most people`. [Complete IELTS 5-6.5, Unit 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D8RP12",
+     "prompt_en": "Culture shock affects certain types of people more quickly than others.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đoạn không nói loại người nào bị nhanh hơn. Có chủ đề `culture shock` nhưng không có so sánh giữa các loại người. [Complete IELTS 5-6.5, Unit 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D8RP13",
+     "prompt_en": "Culture shock only affects how people feel.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Định nghĩa trong bài: `the physical and emotional discomfort`. Có cả khó chịu về thể chất lẫn cảm xúc, nên `only` sai. [Complete IELTS 5-6.5, Unit 1]",
+     "tags": []
+    }
+   ]
+  },
+  {
+   "id": "G1D8RP2",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc chậm · Culture shock: câu 1–6 (đúng/sai/không có thông tin)",
+   "instruction_vi": "Dùng từ gạch chân trong câu để tìm đoạn liên quan rồi đọc kỹ đoạn đó. Chú ý các từ mạnh như only, all, most.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Australian culture and culture shock\nby Anna Jones and Xuan Quach\nSometimes work, study or a sense of adventure take us out of our familiar surroundings to go and live in a different culture. The experience can be difficult, even shocking. Almost everyone who studies, lives or works abroad has problems adjusting to a new culture. This response is commonly referred to as 'culture shock'. Culture shock can be defined as 'the physical and emotional discomfort a person experiences when entering a culture different from their own' (Weaver, 1993).\nFor people moving to Australia, Price (2001) has identified certain values which may give rise to culture shock. Firstly, he argues that Australians place a high value on independence and personal choice. This means that a teacher or course tutor will not tell students what to do, but will give them a number of options and suggest they work out which one is the best in their circumstances. It also means that they are expected to take action if something goes wrong and seek out resources and support for themselves.\nAustralians are also prepared to accept a range of opinions rather than believing there is one truth. This means that in an educational setting, students will be expected to form their own opinions and defend the reasons for that point of view and the evidence for it.\nPrice also comments that Australians are uncomfortable with differences in status and hence idealise the idea of treating everyone equally. An illustration of this is that most adult Australians call each other by their first names. This concern with equality means that Australians are uncomfortable taking anything too seriously and are even ready to joke about themselves.\nAustralians believe that life should have a balance between work and leisure time. As a consequence, some students may be critical of others who they perceive as doing nothing but study.\nAustralian notions of privacy mean that areas such as financial matters, appearance and relationships are only discussed with close friends. While people may volunteer such information, they may resent someone actually asking them unless the friendship is firmly established. Even then, it is considered very impolite to ask someone what they earn. With older people, it is also rude to ask how old they are, why they are not married or why they do not have children. It is also impolite to ask people how much they have paid for something, unless there is a very good reason for asking.\nKohls (1996) describes culture shock as a process of change marked by four basic stages. During the first stage, the new arrival is excited to be in a new place, so this is often referred to as the 'honeymoon' stage. Like a tourist, they are intrigued by all the new sights and sounds, new smells and tastes of their surroundings. They may have some problems, but usually they accept them as just part of the novelty. At this point, it is the similarities that stand out, and it seems to the newcomer that people everywhere and their way of life are very much alike. This period of euphoria may last from a couple of weeks to a month, but the letdown is inevitable.\nDuring the second stage, known as the 'rejection' stage, the newcomer starts to experience difficulties due to the differences between the new culture and the way they were accustomed to living. The initial enthusiasm turns into irritation, frustration, anger and depression, and these feelings may have the effect of people rejecting the new culture so that they notice only the things that cause them trouble, which they then complain about. In addition, they may feel homesick, bored, withdrawn and irritable during this period as well.\nFortunately, most people gradually learn to adapt to the new culture and move on to the third stage, known as 'adjustment and reorientation'. During this stage a transition occurs to a new optimistic attitude. As the newcomer begins to understand more of the new culture, they are able to interpret some of the subtle cultural clues which passed by unnoticed earlier. Now things make more sense and the culture seems more familiar. As a result, they begin to develop problem-solving skills, and feelings of disorientation and anxiety no longer affect them.\nIn Kohls's model, in the fourth stage, newcomers undergo a process of adaptation. They have settled into the new culture, and this results in a feeling of direction and self-confidence. They have accepted the new food, drinks, habits and customs and may even find themselves enjoying some of the very customs that bothered them so much previously. In addition, they realise that the new culture has good and bad things to offer and that no way is really better than another, just different."
+   },
+   "questions": [
+    {
+     "id": "G1D8RP21",
+     "prompt_en": "Australian teachers will suggest alternatives to students rather than offer one solution.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đoạn 2: `will not tell students what to do, but will give them a number of options`. `alternatives` = `a number of options`. [Complete IELTS 5-6.5, Unit 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D8RP22",
+     "prompt_en": "In Australia, teachers will show interest in students' personal circumstances.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bài có `circumstances` và `teacher` nhưng không nói giáo viên có quan tâm tới hoàn cảnh cá nhân hay không. [Complete IELTS 5-6.5, Unit 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D8RP23",
+     "prompt_en": "Australians use people's first names so that everyone feels their status is similar.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đoạn 4: `uncomfortable with differences in status … most adult Australians call each other by their first names`. [Complete IELTS 5-6.5, Unit 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D8RP24",
+     "prompt_en": "Students who study all the time may receive positive comments from their colleagues.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đoạn 5: `some students may be critical of others who they perceive as doing nothing but study`. Bị chê chứ không được khen. [Complete IELTS 5-6.5, Unit 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D8RP25",
+     "prompt_en": "It is acceptable to discuss financial issues with people you do not know well.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đoạn 6: `financial matters … are only discussed with close friends`. Người không thân thì không bàn. [Complete IELTS 5-6.5, Unit 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D8RP26",
+     "prompt_en": "Younger Australians tend to be friendlier than older Australians.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bài nhắc người lớn tuổi nhưng không so sánh mức thân thiện giữa trẻ và già. [Complete IELTS 5-6.5, Unit 1]",
+     "tags": []
+    }
+   ]
+  },
+  {
+   "id": "G1D8RP3",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc chậm · Culture shock: câu 7–13 (hoàn thành bảng)",
+   "instruction_vi": "Bảng tóm tắt bốn giai đoạn. Trong đề thật bạn tự tìm từ (tối đa hai từ trong bài). Ở đây chọn từ đúng từ bài; hãy tự đoán loại từ cần điền trước khi nhìn các lựa chọn.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Australian culture and culture shock\nby Anna Jones and Xuan Quach\nSometimes work, study or a sense of adventure take us out of our familiar surroundings to go and live in a different culture. The experience can be difficult, even shocking. Almost everyone who studies, lives or works abroad has problems adjusting to a new culture. This response is commonly referred to as 'culture shock'. Culture shock can be defined as 'the physical and emotional discomfort a person experiences when entering a culture different from their own' (Weaver, 1993).\nFor people moving to Australia, Price (2001) has identified certain values which may give rise to culture shock. Firstly, he argues that Australians place a high value on independence and personal choice. This means that a teacher or course tutor will not tell students what to do, but will give them a number of options and suggest they work out which one is the best in their circumstances. It also means that they are expected to take action if something goes wrong and seek out resources and support for themselves.\nAustralians are also prepared to accept a range of opinions rather than believing there is one truth. This means that in an educational setting, students will be expected to form their own opinions and defend the reasons for that point of view and the evidence for it.\nPrice also comments that Australians are uncomfortable with differences in status and hence idealise the idea of treating everyone equally. An illustration of this is that most adult Australians call each other by their first names. This concern with equality means that Australians are uncomfortable taking anything too seriously and are even ready to joke about themselves.\nAustralians believe that life should have a balance between work and leisure time. As a consequence, some students may be critical of others who they perceive as doing nothing but study.\nAustralian notions of privacy mean that areas such as financial matters, appearance and relationships are only discussed with close friends. While people may volunteer such information, they may resent someone actually asking them unless the friendship is firmly established. Even then, it is considered very impolite to ask someone what they earn. With older people, it is also rude to ask how old they are, why they are not married or why they do not have children. It is also impolite to ask people how much they have paid for something, unless there is a very good reason for asking.\nKohls (1996) describes culture shock as a process of change marked by four basic stages. During the first stage, the new arrival is excited to be in a new place, so this is often referred to as the 'honeymoon' stage. Like a tourist, they are intrigued by all the new sights and sounds, new smells and tastes of their surroundings. They may have some problems, but usually they accept them as just part of the novelty. At this point, it is the similarities that stand out, and it seems to the newcomer that people everywhere and their way of life are very much alike. This period of euphoria may last from a couple of weeks to a month, but the letdown is inevitable.\nDuring the second stage, known as the 'rejection' stage, the newcomer starts to experience difficulties due to the differences between the new culture and the way they were accustomed to living. The initial enthusiasm turns into irritation, frustration, anger and depression, and these feelings may have the effect of people rejecting the new culture so that they notice only the things that cause them trouble, which they then complain about. In addition, they may feel homesick, bored, withdrawn and irritable during this period as well.\nFortunately, most people gradually learn to adapt to the new culture and move on to the third stage, known as 'adjustment and reorientation'. During this stage a transition occurs to a new optimistic attitude. As the newcomer begins to understand more of the new culture, they are able to interpret some of the subtle cultural clues which passed by unnoticed earlier. Now things make more sense and the culture seems more familiar. As a result, they begin to develop problem-solving skills, and feelings of disorientation and anxiety no longer affect them.\nIn Kohls's model, in the fourth stage, newcomers undergo a process of adaptation. They have settled into the new culture, and this results in a feeling of direction and self-confidence. They have accepted the new food, drinks, habits and customs and may even find themselves enjoying some of the very customs that bothered them so much previously. In addition, they realise that the new culture has good and bad things to offer and that no way is really better than another, just different."
+   },
+   "questions": [
+    {
+     "id": "G1D8RP31",
+     "prompt_en": "Stage 1 (câu 7): the name of the stage is the ( ) stage.",
+     "options": [
+      {
+       "id": "1",
+       "text": "honeymoon"
+      },
+      {
+       "id": "2",
+       "text": "adjustment"
+      },
+      {
+       "id": "3",
+       "text": "adaptation"
+      },
+      {
+       "id": "4",
+       "text": "rejection"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đoạn nói về bốn giai đoạn của Kohls: `the first stage … often referred to as the 'honeymoon' stage`. [Complete IELTS 5-6.5, Unit 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D8RP32",
+     "prompt_en": "Stage 1 (câu 8): They notice the ( ) between different nationalities and cultures.",
+     "options": [
+      {
+       "id": "1",
+       "text": "differences"
+      },
+      {
+       "id": "2",
+       "text": "similarities"
+      },
+      {
+       "id": "3",
+       "text": "customs"
+      },
+      {
+       "id": "4",
+       "text": "feelings"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`it is the similarities that stand out`. Đây là điều người mới đến thấy trước. [Complete IELTS 5-6.5, Unit 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D8RP33",
+     "prompt_en": "Stage 1 (câu 9): They may experience this stage for up to ( ).",
+     "options": [
+      {
+       "id": "1",
+       "text": "four weeks and a day"
+      },
+      {
+       "id": "2",
+       "text": "a month"
+      },
+      {
+       "id": "3",
+       "text": "two years"
+      },
+      {
+       "id": "4",
+       "text": "a couple of days"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`may last from a couple of weeks to a month`. Đáp án của sách chấp nhận `a/one month`. [Complete IELTS 5-6.5, Unit 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D8RP34",
+     "prompt_en": "Rejection (câu 10): They reject the new culture and lose the ( ) they had at the beginning.",
+     "options": [
+      {
+       "id": "1",
+       "text": "anxiety"
+      },
+      {
+       "id": "2",
+       "text": "irritation"
+      },
+      {
+       "id": "3",
+       "text": "frustration"
+      },
+      {
+       "id": "4",
+       "text": "enthusiasm"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`The initial enthusiasm turns into irritation …`. `initial` = `at the beginning`. [Complete IELTS 5-6.5, Unit 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D8RP35",
+     "prompt_en": "Adjustment and reorientation (câu 11): They can understand some ( ) which they had not previously observed.",
+     "options": [
+      {
+       "id": "1",
+       "text": "subtle feelings"
+      },
+      {
+       "id": "2",
+       "text": "problem-solving skills"
+      },
+      {
+       "id": "3",
+       "text": "new customs"
+      },
+      {
+       "id": "4",
+       "text": "cultural clues"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`interpret some of the subtle cultural clues which passed by unnoticed earlier`. Cụm trong sách: (cultural) clues. [Complete IELTS 5-6.5, Unit 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D8RP36",
+     "prompt_en": "Adjustment and reorientation (câu 12): They learn ( ) for dealing with difficulties.",
+     "options": [
+      {
+       "id": "1",
+       "text": "problem-solving skills"
+      },
+      {
+       "id": "2",
+       "text": "anxiety"
+      },
+      {
+       "id": "3",
+       "text": "cultural clues"
+      },
+      {
+       "id": "4",
+       "text": "new habits"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`they begin to develop problem-solving skills`. Trong bảng, `dealing with difficulties` = `problem-solving`. [Complete IELTS 5-6.5, Unit 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D8RP37",
+     "prompt_en": "Stage 4 (câu 13): the name of the stage is ( ).",
+     "options": [
+      {
+       "id": "1",
+       "text": "rejection"
+      },
+      {
+       "id": "2",
+       "text": "adjustment"
+      },
+      {
+       "id": "3",
+       "text": "honeymoon"
+      },
+      {
+       "id": "4",
+       "text": "adaptation"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`newcomers undergo a process of adaptation`. Chú ý: giai đoạn ba là `adjustment and reorientation`, giai đoạn bốn mới là `adaptation`. [Complete IELTS 5-6.5, Unit 1]",
+     "tags": []
+    }
+   ]
+  },
+  {
+   "id": "G1D8KV1-1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · problem hay trouble? affect hay effect? (1/4)",
+   "instruction_vi": "Chọn từ đúng. Nhớ: affect là động từ (làm thay đổi), effect là danh từ (kết quả); problem đếm được, trouble hầu như không đếm được.",
+   "questions": [
+    {
+     "id": "G1D8KV1-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "problems"
+      },
+      {
+       "id": "2",
+       "text": "troubles"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`problems` đếm được, có `some` + số nhiều. `trouble` hầu như không đếm được nên không dùng dạng số nhiều ở nghĩa này. [Complete IELTS 5-6.5, Unit 1 · Vocabulary, bài 1 (trang 12)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "They may have some ( ), but usually they accept them as just part of the novelty."
+   }
+  },
+  {
+   "id": "G1D8KV1-2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · problem hay trouble? affect hay effect? (2/4)",
+   "instruction_vi": "Chọn từ đúng. Nhớ: affect là động từ (làm thay đổi), effect là danh từ (kết quả); problem đếm được, trouble hầu như không đếm được.",
+   "questions": [
+    {
+     "id": "G1D8KV1-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "problem"
+      },
+      {
+       "id": "2",
+       "text": "trouble"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Có mạo từ `a` thì dùng `problem`. Không nói `a trouble`. [Complete IELTS 5-6.5, Unit 1 · Vocabulary, bài 1 (trang 12)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "They notice only the things that cause them a ( )."
+   }
+  },
+  {
+   "id": "G1D8KV1-3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · problem hay trouble? affect hay effect? (3/4)",
+   "instruction_vi": "Chọn từ đúng. Nhớ: affect là động từ (làm thay đổi), effect là danh từ (kết quả); problem đếm được, trouble hầu như không đếm được.",
+   "questions": [
+    {
+     "id": "G1D8KV1-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "effect"
+      },
+      {
+       "id": "2",
+       "text": "affect"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Chỗ trống là động từ: `affect` = làm thay đổi, ảnh hưởng. [Complete IELTS 5-6.5, Unit 1 · Vocabulary, bài 1 (trang 12)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Feelings of disorientation and anxiety no longer ( ) them."
+   }
+  },
+  {
+   "id": "G1D8KV1-4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · problem hay trouble? affect hay effect? (4/4)",
+   "instruction_vi": "Chọn từ đúng. Nhớ: affect là động từ (làm thay đổi), effect là danh từ (kết quả); problem đếm được, trouble hầu như không đếm được.",
+   "questions": [
+    {
+     "id": "G1D8KV1-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "effect"
+      },
+      {
+       "id": "2",
+       "text": "affect"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Sau `the` cần danh từ: `the effect of …` = kết quả là. [Complete IELTS 5-6.5, Unit 1 · Vocabulary, bài 1 (trang 12)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "These feelings may have the ( ) of people rejecting the new culture."
+   }
+  },
+  {
+   "id": "G1D8KP1-1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · percent hay percentage? Quy tắc (1/5)",
+   "instruction_vi": "Trả lời bốn quy tắc dùng percent và percentage.",
+   "questions": [
+    {
+     "id": "G1D8KP1-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "percentage"
+      },
+      {
+       "id": "2",
+       "text": "percent"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`46 percent`. `percentage` không đi với số cụ thể. [Complete IELTS 5-6.5, Unit 1 · Writing, bài 8 (trang 15)]",
+     "tags": [],
+     "prompt_vi": "Sau một con số cụ thể (46 …) ta dùng từ nào?"
+    }
+   ]
+  },
+  {
+   "id": "G1D8KP1-2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · percent hay percentage? Quy tắc (2/5)",
+   "instruction_vi": "Trả lời bốn quy tắc dùng percent và percentage.",
+   "questions": [
+    {
+     "id": "G1D8KP1-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "percentage"
+      },
+      {
+       "id": "2",
+       "text": "percent"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`the percentage of people …` (không có số). Có số thì dùng `percent`. [Complete IELTS 5-6.5, Unit 1 · Writing, bài 8 (trang 15)]",
+     "tags": [],
+     "prompt_vi": "Từ nào không dùng với con số đã cho?"
+    }
+   ]
+  },
+  {
+   "id": "G1D8KP1-3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · percent hay percentage? Quy tắc (3/5)",
+   "instruction_vi": "Trả lời bốn quy tắc dùng percent và percentage.",
+   "questions": [
+    {
+     "id": "G1D8KP1-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "Không"
+      },
+      {
+       "id": "2",
+       "text": "Có"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Không nói `a two percent`. Viết `two percent`. [Complete IELTS 5-6.5, Unit 1 · Writing, bài 8 (trang 15)]",
+     "tags": [],
+     "prompt_vi": "Có dùng `a` trước percent không?"
+    }
+   ]
+  },
+  {
+   "id": "G1D8KP1-4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · percent hay percentage? Quy tắc (4/5)",
+   "instruction_vi": "Trả lời bốn quy tắc dùng percent và percentage.",
+   "questions": [
+    {
+     "id": "G1D8KP1-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "the"
+      },
+      {
+       "id": "2",
+       "text": "a"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`the percentage of …` là mẫu chuẩn. [Complete IELTS 5-6.5, Unit 1 · Writing, bài 8 (trang 15)]",
+     "tags": [],
+     "prompt_vi": "Từ nào đứng trước `percentage`: a, an hay the?"
+    }
+   ]
+  },
+  {
+   "id": "G1D8KP1-5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · percent hay percentage? Quy tắc (5/5)",
+   "instruction_vi": "Trả lời bốn quy tắc dùng percent và percentage.",
+   "questions": [
+    {
+     "id": "G1D8KP1-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "Không"
+      },
+      {
+       "id": "2",
+       "text": "Có"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Không bao giờ: `58 percent`, không phải `58 percents`. [Complete IELTS 5-6.5, Unit 1 · Writing, bài 8 (trang 15)]",
+     "tags": [],
+     "prompt_vi": "`percent` có thêm -s thành số nhiều không?"
+    }
+   ]
+  },
+  {
+   "id": "G1D9RP1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc chậm · Urban farming: câu 1–7 (hoàn thành câu và bảng)",
+   "instruction_vi": "Đọc chậm từng đoạn, gạch từ khóa trong câu hỏi rồi tìm vị trí trong bài. Ở đề thật bạn tự điền (tối đa hai từ và/hoặc con số; bảng chỉ một từ). Ở đây chọn từ đúng trước, bài sau gõ lại.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Urban farming\nIn Paris, urban farmers are trying a soil-free approach to agriculture that uses less space and fewer resources. Could it help cities face the threats to our food supplies?\nOn top of a striking new exhibition hall in southern Paris, the world's largest urban rooftop farm has started to bear fruit. Strawberries that are small, intensely flavoured and resplendently red sprout abundantly from large plastic tubes. Peer inside and you see the tubes are completely hollow, the roots of dozens of strawberry plants dangling down inside them. From identical vertical tubes nearby burst row upon row of lettuces; near those are aromatic herbs, such as basil, sage and peppermint. Opposite, in narrow, horizontal trays packed not with soil but with coconut fibre, grow cherry tomatoes, shiny aubergines and brightly coloured chards.\nPascal Hardy, an engineer and sustainable development consultant, began experimenting with vertical farming and aeroponic growing towers — as the soil-free plastic tubes are known — on his Paris apartment block roof five years ago. The urban rooftop space above the exhibition hall is somewhat bigger: 14,000 square metres and almost exactly the size of a couple of football pitches. Already, the team of young urban farmers who tend it have picked, in one day, 3,000 lettuces and 150 punnets of strawberries. When the remaining two thirds of the vast open area are in production, 20 staff will harvest up to 1,000 kg of perhaps 35 different varieties of fruit and vegetables, every day. 'We're not ever, obviously, going to feed the whole city this way,' cautions Hardy. 'In the urban environment you're working with very significant practical constraints, clearly, on what you can do and where. But if enough unused space can be developed like this, there's no reason why you shouldn't eventually target maybe between 5% and 10% of consumption.'\nPerhaps most significantly, however, this is a real-life showcase for the work of Hardy's flourishing urban agriculture consultancy, Agripolis, which is currently fielding enquiries from around the world to design, build and equip a new breed of soil-free inner-city farm. 'The method's advantages are many,' he says. 'First, I don't much like the fact that most of the fruit and vegetables we eat have been treated with something like 17 different pesticides, or that the intensive farming techniques that produced them are such huge generators of greenhouse gases. I don't much like the fact, either, that they've travelled an average of 2,000 refrigerated kilometres to my plate, that their quality is so poor, because the varieties are selected for their capacity to withstand such substantial journeys, or that 80% of the price I pay goes to wholesalers and transport companies, not the producers.'\nProduce grown using this soil-free method, on the other hand — which relies solely on a small quantity of water, enriched with organic nutrients, pumped around a closed circuit of pipes, towers and trays — is 'produced up here, and sold locally, just down there. It barely travels at all,' Hardy says. 'You can select crop varieties for their flavour, not their resistance to the transport and storage chain, and you can pick them when they're really at their best, and not before.' No soil is exhausted, and the water that gently showers the plants' roots every 12 minutes is recycled, so the method uses 90% less water than a classic intensive farm for the same yield.\nUrban farming is not, of course, a new phenomenon. Inner-city agriculture is booming from Shanghai to Detroit and Tokyo to Bangkok. Strawberries are being grown in disused shipping containers, mushrooms in underground carparks. Aeroponic farming, he says, is 'virtuous'. The equipment weighs little, can be installed on almost any flat surface and is cheap to buy: roughly €100 to €150 per square metre. It is cheap to run, too, consuming a tiny fraction of the electricity used by some techniques.\nProduce grown this way typically sells at prices that, while generally higher than those of classic intensive agriculture, are lower than soil-based organic growers. There are limits to what farmers can grow this way, of course, and much of the produce is suited to the summer months. 'Root vegetables we cannot do, at least not yet,' he says. 'Radishes are OK, but carrots, potatoes, that kind of thing — the roots are simply too long. Fruit trees are obviously not an option. And beans tend to take up a lot of space for not much return.' Nevertheless, urban farming of the kind being practised in Paris is one part of a bigger and fast-changing picture that is bringing food production closer to our lives."
+   },
+   "questions": [
+    {
+     "id": "G1D9RP11",
+     "prompt_en": "Câu 1: Vertical tubes are used to grow strawberries, ( ) and herbs.",
+     "options": [
+      {
+       "id": "1",
+       "text": "chards"
+      },
+      {
+       "id": "2",
+       "text": "lettuces"
+      },
+      {
+       "id": "3",
+       "text": "mushrooms"
+      },
+      {
+       "id": "4",
+       "text": "tomatoes"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đoạn 1: `From identical vertical tubes nearby burst row upon row of lettuces; near those are aromatic herbs`. Cà chua và cải mọc ở khay ngang, không phải ống đứng. [Cambridge IELTS 18, Test 1, Passage 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D9RP12",
+     "prompt_en": "Câu 2: There will eventually be a daily harvest of as much as ( ) in weight of fruit and vegetables.",
+     "options": [
+      {
+       "id": "1",
+       "text": "150 punnets"
+      },
+      {
+       "id": "2",
+       "text": "14,000 square metres"
+      },
+      {
+       "id": "3",
+       "text": "1,000 kg"
+      },
+      {
+       "id": "4",
+       "text": "3,000 lettuces"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đoạn 2: `20 staff will harvest up to 1,000 kg … every day`. Hai con số kia là số đã hái trong một ngày và diện tích. [Cambridge IELTS 18, Test 1, Passage 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D9RP13",
+     "prompt_en": "Câu 3: It may be possible that the farm's produce will account for as much as 10% of the city's ( ) overall.",
+     "options": [
+      {
+       "id": "1",
+       "text": "income"
+      },
+      {
+       "id": "2",
+       "text": "production"
+      },
+      {
+       "id": "3",
+       "text": "space"
+      },
+      {
+       "id": "4",
+       "text": "consumption"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Đoạn 2: `target maybe between 5% and 10% of consumption`. Đáp án của sách: (food) consumption. [Cambridge IELTS 18, Test 1, Passage 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D9RP14",
+     "prompt_en": "Câu 4 (bảng): Intensive farming — a wide range of ( ) used.",
+     "options": [
+      {
+       "id": "1",
+       "text": "techniques"
+      },
+      {
+       "id": "2",
+       "text": "greenhouse"
+      },
+      {
+       "id": "3",
+       "text": "pesticides"
+      },
+      {
+       "id": "4",
+       "text": "varieties"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đoạn 4: `treated with something like 17 different pesticides`. `Wide range` = `17 different`. [Cambridge IELTS 18, Test 1, Passage 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D9RP15",
+     "prompt_en": "Câu 5 (bảng): Intensive farming — varieties chosen that can survive long ( ).",
+     "options": [
+      {
+       "id": "1",
+       "text": "transport"
+      },
+      {
+       "id": "2",
+       "text": "journeys"
+      },
+      {
+       "id": "3",
+       "text": "storage"
+      },
+      {
+       "id": "4",
+       "text": "kilometres"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đoạn 4: `selected for their capacity to withstand such substantial journeys`. `survive` = `withstand`. `Transport` xuất hiện nhưng không đúng chỗ. [Cambridge IELTS 18, Test 1, Passage 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D9RP16",
+     "prompt_en": "Câu 6 (bảng): Intensive farming — ( ) receive very little of overall income.",
+     "options": [
+      {
+       "id": "1",
+       "text": "wholesalers"
+      },
+      {
+       "id": "2",
+       "text": "producers"
+      },
+      {
+       "id": "3",
+       "text": "consumers"
+      },
+      {
+       "id": "4",
+       "text": "farmers"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đoạn 4: `80% of the price I pay goes to wholesalers and transport companies, not the producers`. Người nhận ít là `producers`. [Cambridge IELTS 18, Test 1, Passage 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D9RP17",
+     "prompt_en": "Câu 7 (bảng): Aeroponic urban farming — produce chosen because of its ( ).",
+     "options": [
+      {
+       "id": "1",
+       "text": "size"
+      },
+      {
+       "id": "2",
+       "text": "price"
+      },
+      {
+       "id": "3",
+       "text": "flavour"
+      },
+      {
+       "id": "4",
+       "text": "resistance"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đoạn 5: `select crop varieties for their flavour, not their resistance to the transport and storage chain`. `resistance` là thứ bị loại, không phải lý do chọn. [Cambridge IELTS 18, Test 1, Passage 1]",
+     "tags": []
+    }
+   ]
+  },
+  {
+   "id": "G1D9RP2",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc chậm · Urban farming: câu 8–13 (đúng/sai/không có thông tin)",
+   "instruction_vi": "Với mỗi câu, tìm đoạn nói về ý đó. Chú ý các từ so sánh và từ mạnh (more, cheaper, most, any time).",
+   "stimulus": {
+    "kind": "passage",
+    "text": "Urban farming\nIn Paris, urban farmers are trying a soil-free approach to agriculture that uses less space and fewer resources. Could it help cities face the threats to our food supplies?\nOn top of a striking new exhibition hall in southern Paris, the world's largest urban rooftop farm has started to bear fruit. Strawberries that are small, intensely flavoured and resplendently red sprout abundantly from large plastic tubes. Peer inside and you see the tubes are completely hollow, the roots of dozens of strawberry plants dangling down inside them. From identical vertical tubes nearby burst row upon row of lettuces; near those are aromatic herbs, such as basil, sage and peppermint. Opposite, in narrow, horizontal trays packed not with soil but with coconut fibre, grow cherry tomatoes, shiny aubergines and brightly coloured chards.\nPascal Hardy, an engineer and sustainable development consultant, began experimenting with vertical farming and aeroponic growing towers — as the soil-free plastic tubes are known — on his Paris apartment block roof five years ago. The urban rooftop space above the exhibition hall is somewhat bigger: 14,000 square metres and almost exactly the size of a couple of football pitches. Already, the team of young urban farmers who tend it have picked, in one day, 3,000 lettuces and 150 punnets of strawberries. When the remaining two thirds of the vast open area are in production, 20 staff will harvest up to 1,000 kg of perhaps 35 different varieties of fruit and vegetables, every day. 'We're not ever, obviously, going to feed the whole city this way,' cautions Hardy. 'In the urban environment you're working with very significant practical constraints, clearly, on what you can do and where. But if enough unused space can be developed like this, there's no reason why you shouldn't eventually target maybe between 5% and 10% of consumption.'\nPerhaps most significantly, however, this is a real-life showcase for the work of Hardy's flourishing urban agriculture consultancy, Agripolis, which is currently fielding enquiries from around the world to design, build and equip a new breed of soil-free inner-city farm. 'The method's advantages are many,' he says. 'First, I don't much like the fact that most of the fruit and vegetables we eat have been treated with something like 17 different pesticides, or that the intensive farming techniques that produced them are such huge generators of greenhouse gases. I don't much like the fact, either, that they've travelled an average of 2,000 refrigerated kilometres to my plate, that their quality is so poor, because the varieties are selected for their capacity to withstand such substantial journeys, or that 80% of the price I pay goes to wholesalers and transport companies, not the producers.'\nProduce grown using this soil-free method, on the other hand — which relies solely on a small quantity of water, enriched with organic nutrients, pumped around a closed circuit of pipes, towers and trays — is 'produced up here, and sold locally, just down there. It barely travels at all,' Hardy says. 'You can select crop varieties for their flavour, not their resistance to the transport and storage chain, and you can pick them when they're really at their best, and not before.' No soil is exhausted, and the water that gently showers the plants' roots every 12 minutes is recycled, so the method uses 90% less water than a classic intensive farm for the same yield.\nUrban farming is not, of course, a new phenomenon. Inner-city agriculture is booming from Shanghai to Detroit and Tokyo to Bangkok. Strawberries are being grown in disused shipping containers, mushrooms in underground carparks. Aeroponic farming, he says, is 'virtuous'. The equipment weighs little, can be installed on almost any flat surface and is cheap to buy: roughly €100 to €150 per square metre. It is cheap to run, too, consuming a tiny fraction of the electricity used by some techniques.\nProduce grown this way typically sells at prices that, while generally higher than those of classic intensive agriculture, are lower than soil-based organic growers. There are limits to what farmers can grow this way, of course, and much of the produce is suited to the summer months. 'Root vegetables we cannot do, at least not yet,' he says. 'Radishes are OK, but carrots, potatoes, that kind of thing — the roots are simply too long. Fruit trees are obviously not an option. And beans tend to take up a lot of space for not much return.' Nevertheless, urban farming of the kind being practised in Paris is one part of a bigger and fast-changing picture that is bringing food production closer to our lives."
+   },
+   "questions": [
+    {
+     "id": "G1D9RP21",
+     "prompt_en": "Urban farming can take place above or below ground.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đoạn 6: `Strawberries are being grown in disused shipping containers, mushrooms in underground carparks`; đoạn 1 có nông trại trên mái. Trên cao và dưới đất đều có. [Cambridge IELTS 18, Test 1, Passage 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D9RP22",
+     "prompt_en": "Some of the equipment used in aeroponic farming can be made by hand.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bài nói thiết bị nhẹ, dễ lắp và rẻ, nhưng không nói có thể tự làm bằng tay. [Cambridge IELTS 18, Test 1, Passage 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D9RP23",
+     "prompt_en": "Urban farming relies more on electricity than some other types of farming.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đoạn 6: `consuming a tiny fraction of the electricity used by some techniques`. Dùng ít điện hơn, ngược với câu. [Cambridge IELTS 18, Test 1, Passage 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D9RP24",
+     "prompt_en": "Fruit and vegetables grown on an aeroponic urban farm are cheaper than traditionally grown organic produce.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đoạn 7: giá `higher than classic intensive agriculture, are lower than soil-based organic growers`. Rẻ hơn rau hữu cơ trồng bằng đất. [Cambridge IELTS 18, Test 1, Passage 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D9RP25",
+     "prompt_en": "Most produce can be grown on an aeroponic urban farm at any time of the year.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đoạn 7: `much of the produce is suited to the summer months`. Phần lớn hợp mùa hè, không phải quanh năm. [Cambridge IELTS 18, Test 1, Passage 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D9RP26",
+     "prompt_en": "Beans take longer to grow on an urban farm than other vegetables.",
+     "options": [
+      {
+       "id": "1",
+       "text": "True"
+      },
+      {
+       "id": "2",
+       "text": "False"
+      },
+      {
+       "id": "3",
+       "text": "Not Given"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đoạn 7: `beans tend to take up a lot of space for not much return`. Nói về chiếm nhiều chỗ chứ không nói về thời gian lớn. [Cambridge IELTS 18, Test 1, Passage 1]",
+     "tags": []
+    }
+   ]
+  },
+  {
    "id": "G1E1",
    "skill": "reading",
    "type": "read_cloze",

@@ -21,7 +21,7 @@ class VocabPriorityTests(unittest.TestCase):
         self.assertEqual(seed.VocabSeed(headword="물", pos="N", meaning_vi="nước", priority="core").priority, "core")
 
     def test_every_word_of_the_seed_has_a_label(self):
-        self.assertEqual(len(self.rows), 1156)
+        self.assertEqual(len(self.rows), 1189)
         self.assertTrue({v.priority for _, v in self.rows} <= {"core", "recognize"})
 
     def test_a_word_is_labelled_alike_in_every_lesson_that_lists_it(self):
@@ -34,7 +34,7 @@ class VocabPriorityTests(unittest.TestCase):
         by_word = {v.headword: v.priority for _, v in self.rows}
         core = {h for h, p in by_word.items() if p == "core"}
         self.assertGreaterEqual(len(core), 800)
-        self.assertLessEqual(len(core), 1100)
+        self.assertLessEqual(len(core), 1200)
 
     def test_the_api_word_serves_its_label(self):
         from app.schemas import VocabItemOut

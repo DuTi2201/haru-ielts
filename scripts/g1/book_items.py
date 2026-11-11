@@ -355,3 +355,7 @@ CHARTS = {
 from day7 import SECTIONS as _S7  # noqa: E402  (Day 7: Destination C1&C2 Unit 2)
 
 SECTIONS += _S7
+
+from day89 import SECTIONS as _S89  # noqa: E402  (Days 8-9: Complete IELTS Unit 1, Cambridge 18 Test 1)
+
+SECTIONS += _S89

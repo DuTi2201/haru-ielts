@@ -73,3 +73,11 @@ DAYS = {
 from day7 import DAY as _DAY7  # noqa: E402
 
 DAYS[7] = _DAY7
+
+
+DAYS[5]["my"] = [{"vi": "Chọn 5 đến 10 từ hôm nay bạn thích nhất rồi viết về cuộc sống học tập của chính bạn. Dùng ít nhất hai từ, ví dụ pupil/student, pass/take an exam, attend, revise.",
+                  "en": "Write two sentences about your own school or study life using words from today.",
+                  "model": "I take an exam every month, and I always revise the night before. I hope I will pass the next one."}]
+DAYS[6]["my"] = [{"vi": "Dùng ít nhất hai kết hợp từ của hôm nay (ví dụ pay attention to, make sense of, succeed in) để nói về cách bạn học. Một câu nên có một từ C1 trong bài (ví dụ assess, grasp, notion).",
+                  "en": "Write two sentences about how you study, using collocations from today.",
+                  "model": "I find it hard to pay attention to long lectures, so I make notes to make sense of them. I try to grasp the main idea first."}]

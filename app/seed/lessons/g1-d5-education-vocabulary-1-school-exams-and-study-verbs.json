@@ -234,7 +234,8 @@
   "G1D5KD18-3",
   "G1D5KD18-4",
   "G1D5KD18-5",
-  "G1D5KD18-6"
+  "G1D5KD18-6",
+  "G1D5M1"
  ],
  "sessions": [
   {
@@ -316,6 +317,14 @@
     "G1D5KD18-4",
     "G1D5KD18-5",
     "G1D5KD18-6"
+   ]
+  },
+  {
+   "title_vi": "Câu của tôi · tạo mối quan hệ với từ",
+   "can_do_vi": "Sau buổi này bạn đã tự gõ câu của riêng mình với các từ vừa học, bước thầy Minh coi là quan trọng nhất.",
+   "use_vi": "Từ vừa dùng cho chuyện của chính mình thì nhớ lâu hơn, và đây là cầu nối sang Writing và Speaking.",
+   "check": [
+    "G1D5M1"
    ]
   }
  ],

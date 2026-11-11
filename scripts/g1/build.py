@@ -20,6 +20,7 @@ import book_items as BK  # noqa: E402
 import entry_test as ET  # noqa: E402
 import days56 as D56  # noqa: E402
 from day7 import OPTIONAL as OPT7  # noqa: E402
+import day89 as D89  # noqa: E402
 
 LESSONS = ROOT / "app" / "seed" / "lessons"
 BANK = ROOT / "app" / "seed" / "exercises" / "g1"
@@ -273,19 +274,34 @@ def entry_lesson() -> tuple[dict, list[dict]]:
     return lesson, exs
 
 
+TFNG3 = ["True", "False", "Not Given"]
+
+
 def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]]:
     """Days 5 and 6: education vocabulary (B2 Unit 18 and nine C1 anchor words) plus the book exercises of the day."""
-    d = D56.DAYS[n]
+    d = D56.DAYS[n] if n in D56.DAYS else D89.DAYS[n]
     pid = f"G1D{n}"
     bank: dict[str, list[dict]] = {"reading": [], "build": [], "listening": [], "writing": []}
     links: dict[str, list[str]] = {}
     vocab, sessions = [], []
     for title, words in d["sittings"]:
         for h, pos, mv, ex, evi in words:
-            vocab.append({"headword": h, "pos": pos, "meaning_vi": mv, "example_en": ex, "example_vi": evi, "family": "Giáo dục", "priority": "core",
+            vocab.append({"headword": h, "pos": pos, "meaning_vi": mv, "example_en": ex, "example_vi": evi, "family": d.get("family", "Giáo dục"), "priority": "recognize" if h in d.get("recognize", ()) else "core",
                           "source": d.get("source", "Destination B2, Unit 18; từ C1 theo cách neo của thầy Minh")})
         sessions.append({"title_vi": f"Từ vựng · {title}"[:70], "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: " + ", ".join(w[0] for w in words[:6]) + ", ...",
                          "use_vi": d["ielts"][:200], "vocab": [w[0] for w in words]})
+    for ps in d.get("passages", []):
+        qs = []
+        for i, (prompt, opts, why) in enumerate(ps["qs"], 1):
+            qid = f"{pid}R{ps['id']}{i}"
+            order = TFNG3 if set(opts) == set(TFNG3) else sorted(opts, key=lambda t: B.rng(qid + t).random())
+            qs.append({"id": qid, "prompt_en": prompt, "options": [{"id": str(j + 1), "text": t} for j, t in enumerate(order)],
+                       "answer": str(order.index(opts[0]) + 1), "explanation_vi": why + f" [{d['source'].split(';')[0]}]", "tags": []})
+        pex = {"id": f"{pid}R{ps['id']}", "skill": "reading", "type": "read_passage", "title_vi": f"Đọc chậm · {ps['title']}"[:70], "instruction_vi": ps["instr"],
+               "stimulus": {"kind": "passage", "text": ps["text"]}, "questions": qs}
+        bank["reading"].append(pex)
+        sessions.append({"title_vi": f"Đọc chậm · {ps['title']}"[:70], "can_do_vi": "Sau buổi này bạn đọc đúng đoạn có đáp án và giải thích được vì sao mỗi câu đúng, sai hoặc không có thông tin.",
+                         "use_vi": d["ielts"][:200], "check": [pex["id"]]})
     first_head = vocab[0]["headword"]
     groups: dict[str, list[str]] = {}
     src: dict[str, str] = {}
@@ -320,111 +336,22 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
     for names, ids, opt in packs:
         label = ", ".join(c.replace("18", "") for c in names)
         sessions.append({"title_vi": (("Mở rộng không bắt buộc · " if opt else "Bài trong sách · ") + label)[:70],
-                         "can_do_vi": ("Phần mở rộng (cụm động từ, thành ngữ): chỉ cần nhận ra khi đọc và nghe. " if opt else "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: ") + "; ".join(src[c].lower() for c in names) + ".",
+                         "can_do_vi": (("Phần mở rộng (cụm động từ, thành ngữ): chỉ cần nhận ra khi đọc và nghe. " if opt else "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: ") + "; ".join(src[c].lower() for c in names))[:238].rstrip(" ;,") + ".",
                          "use_vi": "Làm sau khi học từ: mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.", "check": ids})
-    book_body = "\n".join(
-        f"• 📖 {b['book']}, trang {b['pages']}: " + (f"bài {b['task']} ({b['items']} câu, khoảng {b['minutes']} phút)" if b["items"] else f"{b['task']} (khoảng {b['minutes']} phút)")
-        for b in d["book"])
-    traps = [c["trap"] for c in d["cards"] if c["trap"] and len(c["trap"]) <= 230 and c["trap"].count("`") % 2 == 0]
-    lesson = {
-        "slug": f"g1-d{n}-{B.slugify(d['title'])}"[:60].rstrip("-"),
-        "title": f"G1 · Ngày {n} · {d['title_vi']}", "title_en": d["title"], "topic": TOPIC, "track": "beginner", "level": 4, "sort_order": 100 + n,
-        "summary": f"{d['goal']} Thẻ: {'; '.join(p.split(' · ')[-1] for p in patterns)}.",
-        "vocab": vocab, "grammar": grammar,
-        "notes": [
-            {"title": "Mục tiêu của ngày", "body": f"• 🎯 {d['goal']}", "kind": "goal"},
-            {"title": "Bài của sách nằm trong app", "body": book_body + "\n• Các bài này đã có sẵn trong app, ở các buổi \"Bài trong sách\" cuối ngày, kèm đáp án của sách và lời giải thích từng câu. Nếu có sách giấy, bạn có thể làm trên sách trước rồi chấm lại trong app. Sau khi học thẻ, với mỗi câu sai hãy tự nói lại câu đó theo ý muốn nói.", "kind": "language"},
-            {"title": "Dùng ở đâu trong IELTS", "body": d["ielts"], "kind": "language"},
-        ],
-        "bank": "g1",
-        "coach": {"focus_vi": [f"{c['pattern'].split(' · ')[-1]}: {c['meaning']}"[:230] for c in d["cards"][:3]], "watch_out_vi": traps[:2]},
-        "exercise_ids": [e["id"] for k in ("reading", "build", "listening", "writing") for e in bank[k]],
-        "sessions": sessions,
-        "editor_notes": [{"title": "Nguồn", "body": "Ý và thứ tự giảng theo bài giảng của thầy Minh; khung và số trang theo Destination B2, Unit 1. Lời giải thích, ví dụ và câu hỏi do khóa học tự soạn; bài tập của sách làm trong sách."}],
-    }
-    return lesson, bank, links
-
-
-def entry_lesson() -> tuple[dict, list[dict]]:
-    """The 50-item entry test of IELTS Grammar 6.5+ as a lesson of its own, in five sittings of ten."""
-    exs: list[dict] = []
-    for i, (stem, a, b, c, key, unit, point) in enumerate(ET.ITEMS, 1):
-        opts = {"A": a, "B": b, "C": c}
-        right = opts[key]
-        order = [right] + [v for k, v in opts.items() if k != key]
-        why = f"Đáp án: {right}. {point} Nếu sai: học Unit {unit} của IELTS Grammar for Bands 6.5+ (khóa của sách)."
-        title = f"Kiểm tra đầu vào · câu {i}/50"
-        ins = "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc."
-        if "( )" in stem:
-            ex = B.mcq(f"G1E{i}", title, stem, None, order, why, ins)
-        else:
-            ex = B.mcq(f"G1E{i}", title, None, stem, order, why, ins)
-        exs.append(ex)
-    sessions = []
-    for k in range(5):
-        chunk = exs[k * 10:(k + 1) * 10]
-        sessions.append({
-            "title_vi": f"Câu {k * 10 + 1}–{k * 10 + 10} của bài kiểm tra"[:70],
-            "can_do_vi": "Sau buổi này bạn biết mình đang yếu hay chắc ở những Unit nào của ngữ pháp, để học đúng chỗ.",
-            "vocab": ["diagnostic"] if k == 0 else [],
-            "check": [e["id"] for e in chunk],
-        })
-    lesson = {
-        "slug": "g1-entry-test", "title": "G1 · Bài kiểm tra đầu vào (50 câu)", "title_en": "Grammar entry test (50 items)", "topic": TOPIC,
-        "track": "beginner", "level": 4, "sort_order": 100,
-        "summary": "Bài đo trình độ ngữ pháp của sách IELTS Grammar for Bands 6.5+: 50 câu, mỗi câu chỉ ra Unit cần học nếu sai.",
-        "vocab": [{"headword": "diagnostic", "pos": "A", "meaning_vi": "dùng để chẩn đoán, tìm ra chỗ yếu", "example_en": "This diagnostic test shows which grammar units you need to study.", "example_vi": "Bài kiểm tra chẩn đoán này cho biết bạn cần học những Unit ngữ pháp nào.", "family": "Từ của ngày", "priority": "core", "source": SOURCE}], "grammar": [],
-        "notes": [{"title": "Cách làm và cách đọc kết quả", "body": "• Làm một mạch, không tra sách. Câu không chắc thì ghi lại.\n• Mỗi lời giải thích cho biết Unit của sách cần học nếu sai. Gom các Unit hay sai nhất để biết phải ôn gì trước.\n• Bài này đo trình độ, không phải chương trình học: tuần 1 vẫn đi theo Ngày 1–4.", "kind": "goal"}],
-        "bank": "g1", "exercise_ids": [e["id"] for e in exs], "sessions": sessions,
-        "editor_notes": [{"title": "Nguồn", "body": "IELTS Grammar for Bands 6.5 and above (Hopkins & Cullen, Cambridge), Entry test trang x–xii; đáp án và Unit theo khóa trang 221."}],
-    }
-    return lesson, exs
-
-
-def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]]:
-    """Days 5 and 6: education vocabulary (B2 Unit 18 and nine C1 anchor words) plus the book exercises of the day."""
-    d = D56.DAYS[n]
-    pid = f"G1D{n}"
-    bank: dict[str, list[dict]] = {"reading": [], "build": [], "listening": [], "writing": []}
-    links: dict[str, list[str]] = {}
-    vocab, sessions = [], []
-    for title, words in d["sittings"]:
-        for h, pos, mv, ex, evi in words:
-            vocab.append({"headword": h, "pos": pos, "meaning_vi": mv, "example_en": ex, "example_vi": evi, "family": "Giáo dục", "priority": "core",
-                          "source": d.get("source", "Destination B2, Unit 18; từ C1 theo cách neo của thầy Minh")})
-        sessions.append({"title_vi": f"Từ vựng · {title}"[:70], "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: " + ", ".join(w[0] for w in words[:6]) + ", ...",
-                         "use_vi": d["ielts"][:200], "vocab": [w[0] for w in words]})
-    first_head = vocab[0]["headword"]
-    groups: dict[str, list[str]] = {}
-    src: dict[str, str] = {}
-    for day, code, srcname, title, instr, kind, lines in BK.SECTIONS:
-        if day != n:
-            continue
-        for i, ln in enumerate(lines, 1):
-            f = [x.strip() for x in ln.split(" | ")]
-            ex_id = f"{pid}K{code}-{i}"
-            ttl = f"Sách · {title} ({i}/{len(lines)})"
-            if kind == "choice":
-                stem, opts, why = f[0], f[1:-1], f[-1] + f" [{srcname}]"
-                ex = B.mcq(ex_id, ttl, stem if "( )" in stem else None, None if "( )" in stem else stem, opts, why, instr)
-                bank["reading"].append(ex)
-            else:
-                ex = B.write_fill(ex_id, ttl, f[0], f[1].split(";"), f[2] + f" [{srcname}]")
-                ex["instruction_vi"] = instr
-                bank["build"].append(ex)
-            groups.setdefault(code, []).append(ex_id)
-            src[code] = title
-    chunk, names, packs = [], [], []
-    for code, ids in groups.items():
-        if chunk and len(chunk) + len(ids) > 24:
-            packs.append((names, chunk)); chunk, names = [], []
-        chunk += ids; names.append(code)
-    if chunk:
-        packs.append((names, chunk))
-    for names, ids in packs:
-        sessions.append({"title_vi": ("Bài trong sách · " + ", ".join(c.replace("18", "") for c in names))[:70],
-                         "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: " + "; ".join(src[c].lower() for c in names) + ".",
-                         "use_vi": "Làm sau khi học từ: mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.", "check": ids})
+    my_ids: list[str] = []
+    for i, m in enumerate(d.get("my", []), 1):
+        wid = f"{pid}M{i}"
+        bank["writing"].append({
+            "id": wid, "skill": "writing", "type": "write_essay", "number": f"M{i}", "title_vi": f"Câu của tôi · Ngày {n}", "points": 5,
+            "instruction_vi": m["vi"] + " Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn và dùng từ bạn chọn.",
+            "limits": {"min": 8, "max": 50}, "prompt_en": m["en"],
+            "framework_vi": ["Chọn 5 đến 10 từ bạn thích nhất trong bài hôm nay.", "Nghĩ điều bạn muốn nói về chính mình, bằng tiếng Việt cũng được.", "Gõ hai câu có dùng ít nhất hai từ đã chọn; từ C1 thì thêm một từ B2 đồng nghĩa ở câu kia."],
+            "model_answer_en": m["model"], "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+            "checklist_vi": ["Mỗi câu có chủ ngữ và động từ đã chia.", "Có dùng từ của bài hôm nay, đúng từ loại.", "Câu nói về chính bạn, không chép câu mẫu."]})
+        my_ids.append(wid)
+    if my_ids:
+        sessions.append({"title_vi": "Câu của tôi · tạo mối quan hệ với từ", "can_do_vi": "Sau buổi này bạn đã tự gõ câu của riêng mình với các từ vừa học, bước thầy Minh coi là quan trọng nhất.",
+                         "use_vi": "Từ vừa dùng cho chuyện của chính mình thì nhớ lâu hơn, và đây là cầu nối sang Writing và Speaking.", "check": my_ids})
     book_body = "\n".join(f"• 📖 {b[0]}, trang {b[1]}: bài {b[2]} ({b[3]} câu, khoảng {b[4]} phút)" for b in d["book"])
     lesson = {
         "slug": f"g1-d{n}-{B.slugify(d['title'])}"[:60].rstrip("-"),
@@ -435,7 +362,7 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
             {"title": "Bài của sách nằm trong app", "body": book_body + "\n• Các bài này có sẵn trong app kèm đáp án của sách và lời giải thích từng câu.", "kind": "language"},
             {"title": "Cách học từ của thầy", "body": "• Học từ C1 bằng một từ B2 đồng nghĩa, không học nghĩa tiếng Việt dài.\n• Chọn 5 đến 10 từ bạn thích nhất rồi gõ câu về chính mình bằng bàn phím tiếng Anh.", "kind": "language"},
         ],
-        "bank": "g1", "exercise_ids": [e["id"] for k in ("reading", "build") for e in bank[k]], "sessions": sessions,
+        "bank": "g1", "exercise_ids": [e["id"] for k in ("reading", "build", "writing") for e in bank[k]], "sessions": sessions,
         "editor_notes": [{"title": "Nguồn", "body": d.get("editor", "Từ vựng và bài tập theo Destination B2 Unit 18 (trang 112–115, đáp án trang 244); chín từ C1 và cách neo theo bài giảng của thầy Minh.")}],
     }
     return lesson, bank, links
@@ -454,7 +381,7 @@ def main() -> None:
         for k, v in bank.items():
             merged.setdefault(k, []).extend(v)
         links.update(ln)
-    for n in D56.DAYS:
+    for n in list(D56.DAYS) + list(D89.DAYS):
         lesson, bank, ln = vocab_day(n)
         (LESSONS / f"{lesson['slug']}.json").write_text(json.dumps(lesson, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         for k, v in bank.items():

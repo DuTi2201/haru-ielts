@@ -359,7 +359,8 @@
   "G1D7KXO-7",
   "G1D7KXO-8",
   "G1D7KXO-9",
-  "G1D7KXO-10"
+  "G1D7KXO-10",
+  "G1D7M1"
  ],
  "sessions": [
   {
@@ -450,46 +451,6 @@
    ]
   },
   {
-   "title_vi": "Bài trong sách · XE, XF",
-   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: nối câu: cụm động từ về suy nghĩ (mở rộng); viết lại câu bằng cụm động từ (mở rộng).",
-   "use_vi": "Làm sau khi học từ: mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.",
-   "check": [
-    "G1D7KXE-1",
-    "G1D7KXE-2",
-    "G1D7KXE-3",
-    "G1D7KXE-4",
-    "G1D7KXE-5",
-    "G1D7KXE-6",
-    "G1D7KXE-7",
-    "G1D7KXF-1",
-    "G1D7KXF-2",
-    "G1D7KXF-3",
-    "G1D7KXF-4",
-    "G1D7KXF-5",
-    "G1D7KXF-6",
-    "G1D7KXF-7",
-    "G1D7KXF-8",
-    "G1D7KXF-9"
-   ]
-  },
-  {
-   "title_vi": "Bài trong sách · XG",
-   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: cụm động từ với out: có nghĩa 'tìm thông tin' không? (mở rộng).",
-   "use_vi": "Làm sau khi học từ: mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.",
-   "check": [
-    "G1D7KXG-1",
-    "G1D7KXG-2",
-    "G1D7KXG-3",
-    "G1D7KXG-4",
-    "G1D7KXG-5",
-    "G1D7KXG-6",
-    "G1D7KXG-7",
-    "G1D7KXG-8",
-    "G1D7KXG-9",
-    "G1D7KXG-10"
-   ]
-  },
-  {
    "title_vi": "Bài trong sách · XH, XI",
    "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: giới từ trong cụm và kết hợp từ; một từ dùng cho cả ba câu.",
    "use_vi": "Làm sau khi học từ: mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.",
@@ -519,8 +480,8 @@
    ]
   },
   {
-   "title_vi": "Bài trong sách · XJ, XK, XL",
-   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: điền một từ: tổ chức don't trust online information; viết lại câu với từ cho sẵn (3 đến 8 từ); thành ngữ: điền từ trong khung (mở rộng, chỉ để nhận ra).",
+   "title_vi": "Bài trong sách · XJ, XK, XM",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: điền một từ: tổ chức don't trust online information; viết lại câu với từ cho sẵn (3 đến 8 từ); biến đổi từ (câu rời).",
    "use_vi": "Làm sau khi học từ: mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.",
    "check": [
     "G1D7KXJ-1",
@@ -535,6 +496,82 @@
     "G1D7KXK-4",
     "G1D7KXK-5",
     "G1D7KXK-6",
+    "G1D7KXM-1",
+    "G1D7KXM-2",
+    "G1D7KXM-3",
+    "G1D7KXM-4",
+    "G1D7KXM-5",
+    "G1D7KXM-6",
+    "G1D7KXM-7",
+    "G1D7KXM-8",
+    "G1D7KXM-9",
+    "G1D7KXM-10"
+   ]
+  },
+  {
+   "title_vi": "Bài trong sách · XN, XO",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: tiền tố il-: có phải dạng phủ định không?; biến đổi từ trong đoạn văn: rhetoric.",
+   "use_vi": "Làm sau khi học từ: mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.",
+   "check": [
+    "G1D7KXN-1",
+    "G1D7KXN-2",
+    "G1D7KXN-3",
+    "G1D7KXN-4",
+    "G1D7KXN-5",
+    "G1D7KXN-6",
+    "G1D7KXN-7",
+    "G1D7KXN-8",
+    "G1D7KXN-9",
+    "G1D7KXO-1",
+    "G1D7KXO-2",
+    "G1D7KXO-3",
+    "G1D7KXO-4",
+    "G1D7KXO-5",
+    "G1D7KXO-6",
+    "G1D7KXO-7",
+    "G1D7KXO-8",
+    "G1D7KXO-9",
+    "G1D7KXO-10"
+   ]
+  },
+  {
+   "title_vi": "Mở rộng không bắt buộc · XE, XF",
+   "can_do_vi": "Phần mở rộng (cụm động từ, thành ngữ): chỉ cần nhận ra khi đọc và nghe. nối câu: cụm động từ về suy nghĩ (mở rộng); viết lại câu bằng cụm động từ (mở rộng).",
+   "use_vi": "Làm sau khi học từ: mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.",
+   "check": [
+    "G1D7KXE-1",
+    "G1D7KXE-2",
+    "G1D7KXE-3",
+    "G1D7KXE-4",
+    "G1D7KXE-5",
+    "G1D7KXE-6",
+    "G1D7KXE-7",
+    "G1D7KXF-1",
+    "G1D7KXF-2",
+    "G1D7KXF-3",
+    "G1D7KXF-4",
+    "G1D7KXF-5",
+    "G1D7KXF-6",
+    "G1D7KXF-7",
+    "G1D7KXF-8",
+    "G1D7KXF-9"
+   ]
+  },
+  {
+   "title_vi": "Mở rộng không bắt buộc · XG, XL",
+   "can_do_vi": "Phần mở rộng (cụm động từ, thành ngữ): chỉ cần nhận ra khi đọc và nghe. cụm động từ với out: có nghĩa 'tìm thông tin' không? (mở rộng); thành ngữ: điền từ trong khung (mở rộng, chỉ để nhận ra).",
+   "use_vi": "Làm sau khi học từ: mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.",
+   "check": [
+    "G1D7KXG-1",
+    "G1D7KXG-2",
+    "G1D7KXG-3",
+    "G1D7KXG-4",
+    "G1D7KXG-5",
+    "G1D7KXG-6",
+    "G1D7KXG-7",
+    "G1D7KXG-8",
+    "G1D7KXG-9",
+    "G1D7KXG-10",
     "G1D7KXL-1",
     "G1D7KXL-2",
     "G1D7KXL-3",
@@ -550,46 +587,11 @@
    ]
   },
   {
-   "title_vi": "Bài trong sách · XM, XN",
-   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: biến đổi từ (câu rời); tiền tố il-: có phải dạng phủ định không?.",
-   "use_vi": "Làm sau khi học từ: mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.",
+   "title_vi": "Câu của tôi · tạo mối quan hệ với từ",
+   "can_do_vi": "Sau buổi này bạn đã tự gõ câu của riêng mình với các từ vừa học, bước thầy Minh coi là quan trọng nhất.",
+   "use_vi": "Từ vừa dùng cho chuyện của chính mình thì nhớ lâu hơn, và đây là cầu nối sang Writing và Speaking.",
    "check": [
-    "G1D7KXM-1",
-    "G1D7KXM-2",
-    "G1D7KXM-3",
-    "G1D7KXM-4",
-    "G1D7KXM-5",
-    "G1D7KXM-6",
-    "G1D7KXM-7",
-    "G1D7KXM-8",
-    "G1D7KXM-9",
-    "G1D7KXM-10",
-    "G1D7KXN-1",
-    "G1D7KXN-2",
-    "G1D7KXN-3",
-    "G1D7KXN-4",
-    "G1D7KXN-5",
-    "G1D7KXN-6",
-    "G1D7KXN-7",
-    "G1D7KXN-8",
-    "G1D7KXN-9"
-   ]
-  },
-  {
-   "title_vi": "Bài trong sách · XO",
-   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: biến đổi từ trong đoạn văn: rhetoric.",
-   "use_vi": "Làm sau khi học từ: mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.",
-   "check": [
-    "G1D7KXO-1",
-    "G1D7KXO-2",
-    "G1D7KXO-3",
-    "G1D7KXO-4",
-    "G1D7KXO-5",
-    "G1D7KXO-6",
-    "G1D7KXO-7",
-    "G1D7KXO-8",
-    "G1D7KXO-9",
-    "G1D7KXO-10"
+    "G1D7M1"
    ]
   }
  ],

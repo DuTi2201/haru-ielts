@@ -214,4 +214,7 @@ DAY = {
             ("cross your mind", "X", "chợt nghĩ tới", "It never crossed my mind to ask him.", "Tôi chưa từng nghĩ tới việc hỏi anh ấy."),
         ]),
     ],
+    "my": [{"vi": "Chọn hai từ C1 của Ngày 7 (ví dụ assess, plausible, ponder, hunch) và viết hai câu về quyết định học tập của chính bạn. Trong một câu dùng từ C1, câu kia dùng từ B2 đồng nghĩa (ví dụ assess và evaluate).",
+            "en": "Write two sentences about a study decision of your own, using two C1 words from today.",
+            "model": "I need to assess which course is best for me, so I am pondering my options. I have a hunch that I should evaluate each school before I decide."}],
 }

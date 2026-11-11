@@ -182,3 +182,11 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
 - Từ C1 được neo vào từ B2 đồng nghĩa (plausible→reasonable, baffle→confuse, assess→evaluate...).
 - Cho agent màn hình: cuối bài từ vựng gộp B2+C1&C2, cho học viên tick 5 đến 10 từ thích nhất và gõ 1 đến 2 câu của riêng mình (thầy nhấn mạnh bước này); buổi "Mở rộng không bắt buộc" cho phép ẩn.
 - Nguồn: `scripts/g1/day7.py`; chạy lại `python3 scripts/g1/build.py`. Lesson sort_order 107.
+
+## G1 Ngày 8–9 + kiểm tra tích hợp Ngày 1–7
+- Ngày 8 (Complete IELTS 5-6.5 Unit 1): bài đọc "Australian culture and culture shock" (3 + 6 + 7 câu, đáp án sách), problem/trouble, affect/effect, percent/percentage, câu mở đầu Writing Task 1 (gõ từ, không chấm). Chưa có: Listening (cần file âm thanh), Speaking, so sánh tính từ (để dành Unit 11 của B2).
+- Ngày 9 (Cambridge IELTS 18 Test 1 Passage 1, "Urban farming"): 13 câu, đáp án trang 120; gõ lại 7 câu điền. Chưa có: Listening Part 1 (script OCR hai cột bị lẫn, cần dựng lại từ ảnh; cần âm thanh).
+- Bài đọc nhiều câu dùng `read_passage` (đoạn văn + câu hỏi), đúng/sai/không có thông tin theo thứ tự cố định True, False, Not Given.
+- Ngày 5–9 có thêm bài "Câu của tôi" (gõ hai câu của chính mình với từ vừa học), cuối ngày.
+- Từ C1 khó chỉ để nhận ra gắn priority `recognize`; ngưỡng core nâng lên 1200.
+- Nguồn: `scripts/g1/day89.py`; `python3 scripts/g1/build.py`.
