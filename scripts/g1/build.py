@@ -183,6 +183,10 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
         g = {"pattern": c["pattern"], "meaning_vi": c["meaning"], "usage_context_vi": use, "contrasts": c["vs"],
              "example_en": "\n".join(e for e, _ in c["ex"]), "example_vi": "\n".join(v for _, v in c["ex"]),
              "importance": c["importance"], "source": f"{BOOK}, pp. {d['pages']}; cách giảng của khóa học"}
+        mine = [it for it in d["items"] if it["card"] == len(grammar) and it["kind"] in "QI"]
+        mine.sort(key=lambda it: it["kind"] != "Q")  # a short fill-in-the-blank first
+        if mine:
+            g["check"] = {"stem": mine[0]["stem"], "options": mine[0]["options"][:4], "why": mine[0]["why"]}
         if c["trap"]:
             g["note_vi"] = "Lỗi người Việt hay mắc: " + c["trap"]
         if c["tip"]:

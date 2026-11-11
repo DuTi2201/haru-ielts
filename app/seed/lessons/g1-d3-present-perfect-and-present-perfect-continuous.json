@@ -145,6 +145,16 @@
    "example_vi": "Tôi ăn pizza rồi. (đừng hỏi lúc nào)\nTôi ăn pizza lần đầu năm lên năm. (có mốc → quá khứ đơn)",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-9; cách giảng của khóa học",
+   "check": {
+    "stem": "I ( ) him yesterday.",
+    "options": [
+     "saw",
+     "have seen",
+     "have been seeing",
+     "see"
+    ],
+    "why": "Có mốc đã qua (`yesterday`) → quá khứ đơn, không dùng hiện tại hoàn thành."
+   },
    "note_vi": "Lỗi người Việt hay mắc: Dùng hiện tại hoàn thành với mốc thời gian đã qua: ~~I have seen him yesterday~~ → I saw him yesterday."
   },
   {
@@ -156,6 +166,16 @@
    "example_vi": "Đây là lần đầu tiên tôi nói tiếng Anh qua điện thoại.\nBố mẹ tôi đi Huế rồi (chưa về). Tôi đã đến Huế hai lần.",
    "importance": "normal",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-9; cách giảng của khóa học",
+   "check": {
+    "stem": "It's the first time I ( ) English on the phone.",
+    "options": [
+     "have ever spoken",
+     "am ever speaking",
+     "ever speak",
+     "ever spoke"
+    ],
+    "why": "Sau `It's the first time` → hiện tại hoàn thành."
+   },
    "note_vi": "Lỗi người Việt hay mắc: ~~It's the first time I am speaking English on the phone~~ → It's the first time I have spoken English on the phone."
   },
   {
@@ -167,6 +187,15 @@
    "example_vi": "Tôi chơi bóng suốt ba tiếng nay. (đã chơi; vẫn đang chơi)\nTôi hết hơi vì vừa chạy. (vừa dừng, còn dấu vết)",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-9; cách giảng của khóa học",
+   "check": {
+    "stem": "Bạn bắt đầu viết bài luận từ sáng, bây giờ vẫn đang viết, và muốn nhấn vào việc viết lâu thế nào.",
+    "options": [
+     "I have been writing this essay all morning.",
+     "I write this essay all morning.",
+     "I am writing this essay since morning."
+    ],
+    "why": "Đã bắt đầu? Có. Còn đang làm? Có. Nhấn vào độ dài (`all morning`) → hoàn thành tiếp diễn."
+   },
    "note_vi": "Lỗi người Việt hay mắc: Dùng với động từ trạng thái: ~~I have been knowing her for years~~ → I have known her for years."
   },
   {
@@ -183,6 +212,15 @@
    "example_vi": "Tôi đọc xong ba chương rồi. (kết quả, số lượng)\nTôi đọc suốt cả sáng. (quá trình, độ dài)",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-9; cách giảng của khóa học",
+   "check": {
+    "stem": "Bạn viết xong ba bài luận trong tuần này và muốn nói kết quả.",
+    "options": [
+     "I have written three essays this week.",
+     "I have been writing three essays this week.",
+     "I am writing three essays this week."
+    ],
+    "why": "Nói số lượng đã xong → hiện tại hoàn thành. Hoàn thành tiếp diễn không dùng để đếm việc đã xong."
+   },
    "note_vi": "Lỗi người Việt hay mắc: ~~Have you ever been visiting Hue?~~ → Have you ever visited Hue?"
   },
   {

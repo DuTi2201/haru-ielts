@@ -144,6 +144,14 @@
    "example_vi": "Nam đang ngủ trên ghế sofa trong lúc các anh chị họ đến chơi.\nTháng này tôi không uống cà phê.",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-7, 10; cách giảng của khóa học",
+   "check": {
+    "stem": "Chị bạn sang Thái Lan học trao đổi sáu tháng.",
+    "options": [
+     "My sister is living in Thailand.",
+     "My sister lives in Thailand."
+    ],
+    "why": "Bạn muốn người nghe hiểu việc đó tạm thời → tiếp diễn. Câu hiện tại đơn không sai ngữ pháp nhưng không nói được ý \"tạm thời\"."
+   },
    "note_vi": "Lỗi người Việt hay mắc: Quên `be`: ~~She living in Hue~~ → She is living in Hue."
   },
   {
@@ -155,6 +163,14 @@
    "example_vi": "Lan đang nói chuyện với khách ngay lúc này.\nBây giờ chị bạn sống ở đâu?",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-7, 10; cách giảng của khóa học",
+   "check": {
+    "stem": "Chị bạn chuyển hẳn sang Thái Lan, đã mua nhà ở đó.",
+    "options": [
+     "My sister lives in Thailand now.",
+     "My sister is living in Thailand now."
+    ],
+    "why": "Bạn muốn nêu một sự thật ổn định → hiện tại đơn. `now` chỉ so với trước kia. Câu tiếp diễn sẽ gợi ý rằng chị ấy chỉ ở tạm."
+   },
    "note_vi": "Lỗi người Việt hay mắc: Thấy `now` là chia tiếp diễn ngay mà không hỏi mình muốn nói gì."
   },
   {
@@ -166,6 +182,15 @@
    "example_vi": "Các khóa học trực tuyến đang ngày càng phổ biến ở Việt Nam.\nGiá gạo đang tăng.",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-7, 10; cách giảng của khóa học",
+   "check": {
+    "stem": "Bạn muốn nói: việc học trực tuyến ngày càng phổ biến.",
+    "options": [
+     "Online learning is becoming more popular.",
+     "Online learning becomes more popular.",
+     "Online learning is become more popular."
+    ],
+    "why": "Xu hướng đang thay đổi → tiếp diễn: `is becoming`."
+   },
    "exam_tip_vi": "Đây là thì chính để nói về xu hướng ở Speaking Part 3 và khi một biểu đồ Task 1 kéo tới hiện tại."
   },
   {
@@ -177,6 +202,16 @@
    "example_vi": "Chị tôi lúc nào cũng bật nhạc to ơi là to!\nCậu lúc nào cũng để đèn sáng.",
    "importance": "normal",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-7, 10; cách giảng của khóa học",
+   "check": {
+    "stem": "He usually ( ) lunch at around twelve.",
+    "options": [
+     "has",
+     "is having",
+     "has had",
+     "have"
+    ],
+    "why": "`usually` + việc lặp lại → hiện tại đơn. Tiếp diễn không đi với `usually`."
+   },
    "note_vi": "Lỗi người Việt hay mắc: ~~He is usually having lunch at twelve~~ → He usually has lunch at twelve."
   },
   {
@@ -187,7 +222,16 @@
    "example_en": "I'm seeing my tutor tomorrow morning.\nWe are flying to Da Nang on Friday.",
    "example_vi": "Sáng mai tôi gặp giáo viên hướng dẫn.\nThứ Sáu chúng tôi bay vào Đà Nẵng.",
    "importance": "normal",
-   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-7, 10; cách giảng của khóa học"
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-7, 10; cách giảng của khóa học",
+   "check": {
+    "stem": "Bạn đã hẹn nha sĩ lúc bốn giờ chiều mai.",
+    "options": [
+     "I'm seeing the dentist at four tomorrow.",
+     "I am see the dentist at four tomorrow.",
+     "I have seen the dentist at four tomorrow."
+    ],
+    "why": "Việc đã hẹn sẵn cho tương lai gần → tiếp diễn. `see` ở đây nghĩa là \"gặp\", là hành động."
+   }
   },
   {
    "pattern": "State verbs · trạng thái và hành động",
@@ -198,6 +242,16 @@
    "example_vi": "Tôi cho rằng kế hoạch này tốt. Tôi đang cân nhắc đổi việc.\nKhoan đã! Tôi muốn đọc xong trang này.",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-7, 10; cách giảng của khóa học",
+   "check": {
+    "stem": "Wait! I ( ) to finish this page.",
+    "options": [
+     "want",
+     "am wanting",
+     "wanting",
+     "wants"
+    ],
+    "why": "`want` là động từ trạng thái: không chia tiếp diễn dù việc đang xảy ra lúc nói."
+   },
    "note_vi": "Lỗi người Việt hay mắc: ~~I am knowing~~, ~~I am wanting~~, ~~From the chart we are seeing that~~ → I know, I want, we can see that."
   }
  ],

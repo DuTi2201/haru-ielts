@@ -299,6 +299,8 @@ class GrammarPointOut(BaseModel):
     image_url: str | None = None  # the illustration of this pattern, when one has been made
     # "must" (Bắt buộc) | "normal" (Bổ trợ); null on an extension card (it has `use_level`)
     importance: Literal["must", "normal"] | None = None
+    # one question to answer before marking the card understood: options, the right one first
+    check_item: dict | None = None
     # the earlier cards this one is made of, and the later cards made of this one; filled by the
     # lesson endpoint (app.services.grammar_graph)
     built_from: list[GrammarRefOut] = []

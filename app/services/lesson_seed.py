@@ -653,6 +653,18 @@ class Contrast(_M):
     diff_vi: str
 
 
+class GrammarCheck(_M):
+    stem: str
+    options: list[str]
+    why: str
+
+    @model_validator(mode="after")
+    def _has_a_right_answer_and_a_wrong_one(self) -> "GrammarCheck":
+        if not 2 <= len(self.options) <= 4 or len(set(self.options)) != len(self.options):
+            raise ValueError(f"check {self.stem!r}: 2-4 different options, the right one first")
+        return self
+
+
 class GrammarSeed(_M):
     pattern: str  # "V + -고"
     meaning_vi: str  # "Liên kết chuỗi hành động theo trình tự"
@@ -678,6 +690,9 @@ class GrammarSeed(_M):
     # carries `use_level` instead and has none.
     importance: Literal["must", "normal"] | None = None
     source: str | None = None
+    # One question the learner answers on the card before marking it understood: the stem, the
+    # options with the right one FIRST (the screen shuffles them), and why.
+    check: "GrammarCheck | None" = None
 
     @model_validator(mode="after")
     def _level_agrees_with_the_marker(self) -> "GrammarSeed":
@@ -1709,6 +1724,7 @@ def sync_lessons(db: Any, bundle: SeedBundle | None = None) -> dict[str, str]:
             row.meaning_vi = item.meaning_vi
             row.level = seed.level
             row.position = pos
+            row.check_item = item.check.model_dump(mode="json") if item.check else None
             row.usage_context_vi = item.usage_context_vi
             row.note_vi = item.note_vi
             row.exam_tip_vi = item.exam_tip_vi

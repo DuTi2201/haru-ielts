@@ -579,6 +579,8 @@ class GrammarPoint(Base):
     # The card's place in its lesson as the author ordered it (0-based). Cards are shown by
     # (position, id): `id` alone put old seed rows ahead of cards added later.
     position: Mapped[int] = mapped_column(SmallInteger, nullable=False, server_default="0", default=0)
+    # One question to answer on the card before marking it understood: {stem, options (right first), why}
+    check_item: Mapped[dict | None] = mapped_column(JSONB, nullable=True)
     import_item_id: Mapped[uuid.UUID | None] = mapped_column(UUID(as_uuid=True), nullable=True)
 
 

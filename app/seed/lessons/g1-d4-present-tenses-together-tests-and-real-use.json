@@ -118,7 +118,17 @@
    "example_en": "My brother plays football almost every weekend.\nI usually cycle to work, but this week I'm taking the bus.",
    "example_vi": "Gần như cuối tuần nào anh tôi cũng đá bóng.\nTôi thường đạp xe đi làm, nhưng tuần này tôi đi xe buýt.",
    "importance": "must",
-   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 8-11; cách giảng của khóa học"
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 8-11; cách giảng của khóa học",
+   "check": {
+    "stem": "How much ( ) nurses generally earn?",
+    "options": [
+     "do",
+     "are",
+     "have",
+     "does"
+    ],
+    "why": "Hỏi một sự thật chung, có `generally` → hiện tại đơn; chủ ngữ số nhiều nên dùng `do`."
+   }
   },
   {
    "pattern": "Bốn thì hiện tại · bốn câu tự hỏi",
@@ -129,6 +139,16 @@
    "example_vi": "Tôi làm ở ngân hàng. Tuần này tôi làm ở nhà.\nTôi làm ở đây từ năm 2020. Tôi làm việc suốt cả ngày nay.",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 8-11; cách giảng của khóa học",
+   "check": {
+    "stem": "I ( ) to phone the bank all morning, but nobody answers.",
+    "options": [
+     "have been trying",
+     "try",
+     "am trying",
+     "tried"
+    ],
+    "why": "`all morning` và việc vẫn đang dở → hoàn thành tiếp diễn."
+   },
    "exam_tip_vi": "Thay bốn câu mẫu bằng bốn câu về chính bạn và học thuộc bốn câu đó."
   }
  ],
