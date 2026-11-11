@@ -1,0 +1,178 @@
+{
+ "slug": "g1-entry-test",
+ "title": "G1 · Bài kiểm tra đầu vào (50 câu)",
+ "title_en": "Grammar entry test (50 items)",
+ "topic": "G1 · Các thì hiện tại (Tuần 1)",
+ "track": "beginner",
+ "level": 4,
+ "sort_order": 100,
+ "summary": "Bài đo trình độ ngữ pháp của sách IELTS Grammar for Bands 6.5+: 50 câu, mỗi câu chỉ ra Unit cần học nếu sai.",
+ "vocab": [
+  {
+   "headword": "diagnostic",
+   "pos": "A",
+   "meaning_vi": "dùng để chẩn đoán, tìm ra chỗ yếu",
+   "example_en": "This diagnostic test shows which grammar units you need to study.",
+   "example_vi": "Bài kiểm tra chẩn đoán này cho biết bạn cần học những Unit ngữ pháp nào.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  }
+ ],
+ "grammar": [],
+ "notes": [
+  {
+   "title": "Cách làm và cách đọc kết quả",
+   "body": "• Làm một mạch, không tra sách. Câu không chắc thì ghi lại.\n• Mỗi lời giải thích cho biết Unit của sách cần học nếu sai. Gom các Unit hay sai nhất để biết phải ôn gì trước.\n• Bài này đo trình độ, không phải chương trình học: tuần 1 vẫn đi theo Ngày 1–4.",
+   "kind": "goal"
+  }
+ ],
+ "bank": "g1",
+ "exercise_ids": [
+  "G1E1",
+  "G1E2",
+  "G1E3",
+  "G1E4",
+  "G1E5",
+  "G1E6",
+  "G1E7",
+  "G1E8",
+  "G1E9",
+  "G1E10",
+  "G1E11",
+  "G1E12",
+  "G1E13",
+  "G1E14",
+  "G1E15",
+  "G1E16",
+  "G1E17",
+  "G1E18",
+  "G1E19",
+  "G1E20",
+  "G1E21",
+  "G1E22",
+  "G1E23",
+  "G1E24",
+  "G1E25",
+  "G1E26",
+  "G1E27",
+  "G1E28",
+  "G1E29",
+  "G1E30",
+  "G1E31",
+  "G1E32",
+  "G1E33",
+  "G1E34",
+  "G1E35",
+  "G1E36",
+  "G1E37",
+  "G1E38",
+  "G1E39",
+  "G1E40",
+  "G1E41",
+  "G1E42",
+  "G1E43",
+  "G1E44",
+  "G1E45",
+  "G1E46",
+  "G1E47",
+  "G1E48",
+  "G1E49",
+  "G1E50"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Câu 1–10 của bài kiểm tra",
+   "can_do_vi": "Sau buổi này bạn biết mình đang yếu hay chắc ở những Unit nào của ngữ pháp, để học đúng chỗ.",
+   "vocab": [
+    "diagnostic"
+   ],
+   "check": [
+    "G1E1",
+    "G1E2",
+    "G1E3",
+    "G1E4",
+    "G1E5",
+    "G1E6",
+    "G1E7",
+    "G1E8",
+    "G1E9",
+    "G1E10"
+   ]
+  },
+  {
+   "title_vi": "Câu 11–20 của bài kiểm tra",
+   "can_do_vi": "Sau buổi này bạn biết mình đang yếu hay chắc ở những Unit nào của ngữ pháp, để học đúng chỗ.",
+   "vocab": [],
+   "check": [
+    "G1E11",
+    "G1E12",
+    "G1E13",
+    "G1E14",
+    "G1E15",
+    "G1E16",
+    "G1E17",
+    "G1E18",
+    "G1E19",
+    "G1E20"
+   ]
+  },
+  {
+   "title_vi": "Câu 21–30 của bài kiểm tra",
+   "can_do_vi": "Sau buổi này bạn biết mình đang yếu hay chắc ở những Unit nào của ngữ pháp, để học đúng chỗ.",
+   "vocab": [],
+   "check": [
+    "G1E21",
+    "G1E22",
+    "G1E23",
+    "G1E24",
+    "G1E25",
+    "G1E26",
+    "G1E27",
+    "G1E28",
+    "G1E29",
+    "G1E30"
+   ]
+  },
+  {
+   "title_vi": "Câu 31–40 của bài kiểm tra",
+   "can_do_vi": "Sau buổi này bạn biết mình đang yếu hay chắc ở những Unit nào của ngữ pháp, để học đúng chỗ.",
+   "vocab": [],
+   "check": [
+    "G1E31",
+    "G1E32",
+    "G1E33",
+    "G1E34",
+    "G1E35",
+    "G1E36",
+    "G1E37",
+    "G1E38",
+    "G1E39",
+    "G1E40"
+   ]
+  },
+  {
+   "title_vi": "Câu 41–50 của bài kiểm tra",
+   "can_do_vi": "Sau buổi này bạn biết mình đang yếu hay chắc ở những Unit nào của ngữ pháp, để học đúng chỗ.",
+   "vocab": [],
+   "check": [
+    "G1E41",
+    "G1E42",
+    "G1E43",
+    "G1E44",
+    "G1E45",
+    "G1E46",
+    "G1E47",
+    "G1E48",
+    "G1E49",
+    "G1E50"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "IELTS Grammar for Bands 6.5 and above (Hopkins & Cullen, Cambridge), Entry test trang x–xii; đáp án và Unit theo khóa trang 221."
+  }
+ ]
+}

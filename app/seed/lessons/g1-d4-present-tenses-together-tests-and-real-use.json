@@ -1,0 +1,350 @@
+{
+ "slug": "g1-d4-present-tenses-together-tests-and-real-use",
+ "title": "G1 · Ngày 4 · Bốn thì hiện tại cùng nhau: làm bài và dùng thật",
+ "title_en": "Present tenses together: tests and real use",
+ "topic": "G1 · Các thì hiện tại (Tuần 1)",
+ "track": "beginner",
+ "level": 4,
+ "sort_order": 104,
+ "summary": "Chọn đúng giữa bốn thì hiện tại trong câu trộn lẫn; biết khi nào dựa vào từ dấu hiệu (làm bài) và khi nào dựa vào ý muốn nói (nói, viết). Thẻ: Bài ở trường và dùng thật; bốn câu tự hỏi.",
+ "vocab": [
+  {
+   "headword": "qualifications",
+   "pos": "N",
+   "meaning_vi": "bằng cấp, trình độ chuyên môn",
+   "example_en": "What qualifications do you need for this job?",
+   "example_vi": "Công việc này cần bằng cấp gì?",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "qualities",
+   "pos": "N",
+   "meaning_vi": "phẩm chất",
+   "example_en": "Patience is one of her best qualities.",
+   "example_vi": "Kiên nhẫn là một trong những phẩm chất tốt nhất của cô ấy.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "effort",
+   "pos": "N",
+   "meaning_vi": "sự cố gắng",
+   "example_en": "Learning a language takes a lot of effort.",
+   "example_vi": "Học một ngôn ngữ cần rất nhiều cố gắng.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "task",
+   "pos": "N",
+   "meaning_vi": "nhiệm vụ, bài được giao",
+   "example_en": "Our task was to design a poster.",
+   "example_vi": "Nhiệm vụ của chúng tôi là thiết kế một tấm áp phích.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "test",
+   "pos": "N",
+   "meaning_vi": "bài kiểm tra",
+   "example_en": "We have a short test every Friday.",
+   "example_vi": "Thứ Sáu nào chúng tôi cũng có bài kiểm tra ngắn.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "exam",
+   "pos": "N",
+   "meaning_vi": "kỳ thi",
+   "example_en": "The final exam is in June.",
+   "example_vi": "Kỳ thi cuối kỳ vào tháng Sáu.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "classmate",
+   "pos": "N",
+   "meaning_vi": "bạn cùng lớp",
+   "example_en": "I still meet my old classmates.",
+   "example_vi": "Tôi vẫn gặp các bạn cùng lớp cũ.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "colleague",
+   "pos": "N",
+   "meaning_vi": "đồng nghiệp",
+   "example_en": "My colleagues are very friendly.",
+   "example_vi": "Đồng nghiệp của tôi rất thân thiện.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "study",
+   "pos": "V",
+   "meaning_vi": "học (bài, môn học)",
+   "example_en": "You have to study hard at university.",
+   "example_vi": "Ở đại học bạn phải học chăm.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "revise",
+   "pos": "V",
+   "meaning_vi": "ôn bài",
+   "example_en": "I am revising for my exam this week.",
+   "example_vi": "Tuần này tôi đang ôn thi.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "Bài ở trường và dùng thật",
+   "meaning_vi": "Làm bài: nhìn từ dấu hiệu. Nói và viết: theo ý muốn nói",
+   "usage_context_vi": "Bài trắc nghiệm được soạn để có một đáp án, nên từ dấu hiệu (`every weekend`, `already`, `usually`, `right now`) cho ta đáp án. Cần biết chúng để làm đúng bài trong sách.\nKhi nói và viết, không có từ dấu hiệu nào cho sẵn: ý muốn nói quyết định. Ví dụ `almost every weekend`: bài trong sách chọn hiện tại đơn; ngoài đời, người muốn nhấn tính tạm thời vẫn dùng tiếp diễn.",
+   "contrasts": [],
+   "example_en": "My brother plays football almost every weekend.\nI usually cycle to work, but this week I'm taking the bus.",
+   "example_vi": "Gần như cuối tuần nào anh tôi cũng đá bóng.\nTôi thường đạp xe đi làm, nhưng tuần này tôi đi xe buýt.",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 8-11; cách giảng theo thầy Minh"
+  },
+  {
+   "pattern": "Bốn thì hiện tại · bốn câu tự hỏi",
+   "meaning_vi": "Lặp lại hay coi là thật? Tạm thời? Kéo tới bây giờ hoặc đã xong không rõ lúc nào? Đang dở và nhấn độ dài?",
+   "usage_context_vi": "| Tự hỏi | Thì | Câu mẫu |\n| Việc lặp lại, trạng thái, điều tôi coi là thật? | Hiện tại đơn | I work in a bank. |\n| Việc tạm thời, đang đổi, đã hẹn? | Hiện tại tiếp diễn | I'm working from home this week. |\n| Kéo từ trước tới giờ, hoặc đã xong mà không nói lúc nào? | Hiện tại hoàn thành | I have worked here since 2020. |\n| Đã bắt đầu, còn đang làm, muốn nhấn độ dài? | Hoàn thành tiếp diễn | I have been working all day. |",
+   "contrasts": [],
+   "example_en": "I work in a bank. I'm working from home this week.\nI have worked here since 2020. I have been working all day.",
+   "example_vi": "Tôi làm ở ngân hàng. Tuần này tôi làm ở nhà.\nTôi làm ở đây từ năm 2020. Tôi làm việc suốt cả ngày nay.",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 8-11; cách giảng theo thầy Minh",
+   "exam_tip_vi": "Thay bốn câu mẫu bằng bốn câu về chính bạn và học thuộc bốn câu đó."
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của ngày",
+   "body": "• 🎯 Chọn đúng giữa bốn thì hiện tại trong câu trộn lẫn; biết khi nào dựa vào từ dấu hiệu (làm bài) và khi nào dựa vào ý muốn nói (nói, viết).",
+   "kind": "goal"
+  },
+  {
+   "title": "Bài của sách nằm trong app",
+   "body": "• 📖 Destination B2, trang 9: bài E (10 câu, khoảng 10 phút)\n• 📖 Destination B2, trang 10: bài H (10 câu, khoảng 10 phút)\n• 📖 Destination B2, trang 11: bài I (12 câu, khoảng 12 phút)\n• 📖 Destination B2, trang 11: bài J (9 câu, khoảng 12 phút)\n• Các bài này đã có sẵn trong app, ở các buổi \"Bài trong sách\" cuối ngày, kèm đáp án của sách và lời giải thích từng câu. Nếu có sách giấy, bạn có thể làm trên sách trước rồi chấm lại trong app. Sau khi học thẻ, với mỗi câu sai hãy tự nói lại câu đó theo ý muốn nói.",
+   "kind": "language"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Bài thi không hỏi tên thì; nó chấm việc bạn dùng đúng và đủ đa dạng khi nói và viết. Phần này luyện chuyển qua lại giữa bốn thì trong cùng một đoạn.",
+   "kind": "language"
+  }
+ ],
+ "bank": "g1",
+ "coach": {
+  "focus_vi": [
+   "Bài ở trường và dùng thật: Làm bài: nhìn từ dấu hiệu. Nói và viết: theo ý muốn nói",
+   "bốn câu tự hỏi: Lặp lại hay coi là thật? Tạm thời? Kéo tới bây giờ hoặc đã xong không rõ lúc nào? Đang dở và nhấn độ dài?"
+  ],
+  "watch_out_vi": []
+ },
+ "exercise_ids": [
+  "G1D4I1",
+  "G1D4I2",
+  "G1D4I3",
+  "G1D4I4",
+  "G1D4I5",
+  "G1D4I6",
+  "G1D4Q1",
+  "G1D4Q2",
+  "G1D4Q3",
+  "G1D4Q4",
+  "G1D4KE-1",
+  "G1D4KE-2",
+  "G1D4KE-3",
+  "G1D4KE-4",
+  "G1D4KE-5",
+  "G1D4KE-6",
+  "G1D4KE-7",
+  "G1D4KE-8",
+  "G1D4KE-9",
+  "G1D4KE-10",
+  "G1D4KH-1",
+  "G1D4KH-2",
+  "G1D4KH-3",
+  "G1D4KH-4",
+  "G1D4KH-5",
+  "G1D4KH-6",
+  "G1D4KH-7",
+  "G1D4KH-8",
+  "G1D4KH-9",
+  "G1D4KH-10",
+  "G1D4KU1C4a-1",
+  "G1D4KU1C4b-1",
+  "G1D4B1",
+  "G1D4B2",
+  "G1D4B3",
+  "G1D4B4",
+  "G1D4F1",
+  "G1D4F2",
+  "G1D4F3",
+  "G1D4F4",
+  "G1D4F5",
+  "G1D4F6",
+  "G1D4KI-1",
+  "G1D4KI-2",
+  "G1D4KI-3",
+  "G1D4KI-4",
+  "G1D4KI-5",
+  "G1D4KI-6",
+  "G1D4KI-7",
+  "G1D4KI-8",
+  "G1D4KI-9",
+  "G1D4KI-10",
+  "G1D4KI-11",
+  "G1D4KI-12",
+  "G1D4KJ-1",
+  "G1D4KJ-2",
+  "G1D4KJ-3",
+  "G1D4KJ-4",
+  "G1D4KJ-5",
+  "G1D4KJ-6",
+  "G1D4KJ-7",
+  "G1D4KJ-8",
+  "G1D4KJ-9",
+  "G1D4KC4-1",
+  "G1D4KC4-2",
+  "G1D4KC4-3",
+  "G1D4D1",
+  "G1D4M1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · Bài ở trường và dùng thật",
+   "can_do_vi": "Sau buổi này bạn nắm được: làm bài: nhìn từ dấu hiệu. nói và viết: theo ý muốn nói; lặp lại hay coi là thật? tạm thời? kéo tới bây giờ hoặc đã xong không rõ lúc nào? đang dở và nhấn độ dài?.",
+   "use_vi": "Bài thi không hỏi tên thì; nó chấm việc bạn dùng đúng và đủ đa dạng khi nói và viết. Phần này luyện chuyển qua lại giữa bốn thì trong cùng một đoạn.",
+   "vocab": [
+    "qualifications",
+    "qualities",
+    "effort",
+    "task",
+    "test",
+    "exam",
+    "classmate",
+    "colleague",
+    "study",
+    "revise"
+   ],
+   "grammar": [
+    "Bài ở trường và dùng thật",
+    "Bốn thì hiện tại · bốn câu tự hỏi"
+   ],
+   "check": [
+    "G1D4Q2",
+    "G1D4Q3",
+    "G1D4I1",
+    "G1D4I2",
+    "G1D4I3",
+    "G1D4I4",
+    "G1D4I5",
+    "G1D4I6",
+    "G1D4Q1",
+    "G1D4Q4",
+    "G1D4B1",
+    "G1D4B2",
+    "G1D4B3",
+    "G1D4B4",
+    "G1D4F1",
+    "G1D4F2",
+    "G1D4F3",
+    "G1D4F4",
+    "G1D4F5",
+    "G1D4F6",
+    "G1D4D1",
+    "G1D4M1"
+   ]
+  },
+  {
+   "title_vi": "Luyện theo sách · B2 Unit 1 · Chọn đáp án đúng (trộn bốn thì) (+1)",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: chọn đáp án đúng (trộn bốn thì); tìm từ thừa: international friends.",
+   "use_vi": "Làm sau khi học thẻ: mỗi câu sai có lời giải thích, hãy tự nói lại câu đó theo ý muốn nói rồi mới sang câu sau.",
+   "check": [
+    "G1D4KE-1",
+    "G1D4KE-2",
+    "G1D4KE-3",
+    "G1D4KE-4",
+    "G1D4KE-5",
+    "G1D4KE-6",
+    "G1D4KE-7",
+    "G1D4KE-8",
+    "G1D4KE-9",
+    "G1D4KE-10",
+    "G1D4KH-1",
+    "G1D4KH-2",
+    "G1D4KH-3",
+    "G1D4KH-4",
+    "G1D4KH-5",
+    "G1D4KH-6",
+    "G1D4KH-7",
+    "G1D4KH-8",
+    "G1D4KH-9",
+    "G1D4KH-10"
+   ]
+  },
+  {
+   "title_vi": "Luyện theo sách · B2 Unit 1 · Mỗi chỗ trống một từ: Holiday Blues (+3)",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: mỗi chỗ trống một từ: holiday blues; viết lại câu với từ cho sẵn; đọc biểu đồ: số nhân viên; đọc biểu đồ: số nhân viên nghỉ việc.",
+   "use_vi": "Làm sau khi học thẻ: mỗi câu sai có lời giải thích, hãy tự nói lại câu đó theo ý muốn nói rồi mới sang câu sau.",
+   "check": [
+    "G1D4KI-1",
+    "G1D4KI-2",
+    "G1D4KI-3",
+    "G1D4KI-4",
+    "G1D4KI-5",
+    "G1D4KI-6",
+    "G1D4KI-7",
+    "G1D4KI-8",
+    "G1D4KI-9",
+    "G1D4KI-10",
+    "G1D4KI-11",
+    "G1D4KI-12",
+    "G1D4KJ-1",
+    "G1D4KJ-2",
+    "G1D4KJ-3",
+    "G1D4KJ-4",
+    "G1D4KJ-5",
+    "G1D4KJ-6",
+    "G1D4KJ-7",
+    "G1D4KJ-8",
+    "G1D4KJ-9",
+    "G1D4KU1C4a-1",
+    "G1D4KU1C4b-1"
+   ]
+  },
+  {
+   "title_vi": "Luyện theo sách · Grammar 6.5+ Unit 1 · Tìm động từ sai: biểu đồ và…",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: tìm động từ sai: biểu đồ và quy trình.",
+   "use_vi": "Làm sau khi học thẻ: mỗi câu sai có lời giải thích, hãy tự nói lại câu đó theo ý muốn nói rồi mới sang câu sau.",
+   "check": [
+    "G1D4KC4-1",
+    "G1D4KC4-2",
+    "G1D4KC4-3"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Ý và thứ tự giảng theo bài giảng của thầy Minh; khung và số trang theo Destination B2, Unit 1. Lời giải thích, ví dụ và câu hỏi do khóa học tự soạn; bài tập của sách làm trong sách."
+  }
+ ]
+}

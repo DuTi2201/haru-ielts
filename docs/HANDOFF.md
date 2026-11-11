@@ -153,3 +153,49 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
   vocabulary): 7-day schedule, card-by-card content, 15 screens, iPhone rules, data changes, and the result of an
   independent UI review. Design only: nothing is built, no practice items or answer keys are written yet. Book page
   numbers in it were checked against scans. Book answer keys and Cambridge texts must stay out of the repository.
+* 2026-11-11 — branch `content/g1-week1`: content of G1 days 1–4 (`scripts/g1/`, bank `g1`): 4 lessons, 21 cards,
+  37 words, 83 exercises; `load_all()` reports 46 lessons, 1,319 exercises, no problems. Seed tests updated for the
+  second bank (46 lessons, 1,097 words; a G1 lesson needs no speaking task). The five tests that need sqlalchemy or
+  email-validator could not run in the sandbox. Screens: the new kinds are plain `read_match` / `write_essay` for now
+  (see `scripts/g1/README.md`); the frontend can restyle them by id prefix (`G1D?I`, `G1D?T`, `G1D?M`). The book-first
+  step is a lesson note plus `scripts/g1/book_tasks.json`; the answer sheet screen (M8) and the gate are not built.
+  Merging this branch into `main` makes four G1 lessons appear after the B1 list (sort_order 101–104) at the next deploy.
+
+
+## 2026-11-11 — book exercises, keys and entry test inside the app (branch `content/g1-week1`)
+- Owner's decision: put the books' exercises, answers and explanations into the app (private use, private repo). The earlier rule "no answer keys in the repo" is lifted for the books below; keep the repository private.
+- All five books of this week were OCR'd (tesseract, ~1,165 pages); the text is not committed (it is scratch, 3 MB). Exercises were typed from OCR and checked against page images where OCR was unsure.
+- `scripts/g1/book_items.py`: Destination B2 Unit 1 exercises A–J (96 items) and IELTS Grammar 6.5+ Unit 1 exercises C1–C4 (33 items), each with the book's answer and a Vietnamese reason. Days: 1 → A, B; 2 → G, F, C1, C2, C3; 3 → C, D; 4 → E, H, I, J, C4. Each day gets "Bài trong sách" sittings of at most ~24 items.
+- `scripts/g1/entry_test.py`: the book's 50-item entry test (lesson `g1-entry-test`, sort_order 100) with the unit to study for each wrong answer.
+- Seed now: 47 lessons, 0 problems. Five tests still fail only in the sandbox (no sqlalchemy/email_validator).
+- Not yet typed in: Grammar 6.5+ Unit 1 listening (needs audio), Unit 3 exercises, B2 Unit 18 and C1&C2 Unit 2 exercises, IELTS Vocabulary 6.5+ units 1/5/21/22, Cambridge 18 Test 1.
+
+## 2026-11-11 (later) — days 5–6, Grammar Unit 3, charts
+- Added `scripts/g1/days56.py` + `vocab_day()` in `scripts/g1/build.py`: Day 5 (school, exams, 7 study phrasal verbs) and Day 6 (collocations, word families, 9 C1 anchor words: assess, baffle, plausible, speculate, presume, grasp, notion, dilemma, query) with Destination B2 Unit 18 exercises A–I and the book's key (key p. 244). Day 7 (reading/listening on Cambridge 18) is not written yet.
+- Added IELTS Grammar 6.5+ Unit 3 exercises C1 (wrong verbs only), C2 (chart), C3, C4 to Day 3.
+- Chart exercises use the seed's native `chart` stimulus (`CHARTS` in `scripts/g1/book_items.py`); the bar values were read from the printed charts and rounded (noted in each chart). Unit 3 C2 item 6: the key was unclear in OCR, so the reason says `caught up with` and the chart shows women still slightly below men.
+- Seed: 49 lessons, 388 G1 exercises, 0 problems. Five tests still fail only in the sandbox (no sqlalchemy/email_validator).
+- Still not typed: Grammar Unit 1 listening (audio), C1&C2 Unit 2 exercises, IELTS Vocabulary 6.5+ units, Cambridge 18.
+
+## G1 Ngày 7: Destination C1&C2 Unit 2 (Thinking and learning), lớp nâng cấp của B2 Unit 18
+- Bài A–O của sách (có đáp án trang 282) nằm trong app, bài `G1D7K…`. Lõi: từ chủ đề, kết hợp từ, biến đổi từ. Cụm động từ và thành ngữ (E, F, G, L) nằm ở buổi riêng "Mở rộng không bắt buộc" theo bộ lọc của thầy (ẩn mặc định được).
+- Từ C1 được neo vào từ B2 đồng nghĩa (plausible→reasonable, baffle→confuse, assess→evaluate...).
+- Cho agent màn hình: cuối bài từ vựng gộp B2+C1&C2, cho học viên tick 5 đến 10 từ thích nhất và gõ 1 đến 2 câu của riêng mình (thầy nhấn mạnh bước này); buổi "Mở rộng không bắt buộc" cho phép ẩn.
+- Nguồn: `scripts/g1/day7.py`; chạy lại `python3 scripts/g1/build.py`. Lesson sort_order 107.
+
+## G1 Ngày 8–9 + kiểm tra tích hợp Ngày 1–7
+- Ngày 8 (Complete IELTS 5-6.5 Unit 1): bài đọc "Australian culture and culture shock" (3 + 6 + 7 câu, đáp án sách), problem/trouble, affect/effect, percent/percentage, câu mở đầu Writing Task 1 (gõ từ, không chấm). Chưa có: Listening (cần file âm thanh), Speaking, so sánh tính từ (để dành Unit 11 của B2).
+- Ngày 9 (Cambridge IELTS 18 Test 1 Passage 1, "Urban farming"): 13 câu, đáp án trang 120; gõ lại 7 câu điền. Chưa có: Listening Part 1 (script OCR hai cột bị lẫn, cần dựng lại từ ảnh; cần âm thanh).
+- Bài đọc nhiều câu dùng `read_passage` (đoạn văn + câu hỏi), đúng/sai/không có thông tin theo thứ tự cố định True, False, Not Given.
+- Ngày 5–9 có thêm bài "Câu của tôi" (gõ hai câu của chính mình với từ vừa học), cuối ngày.
+- Từ C1 khó chỉ để nhận ra gắn priority `recognize`; ngưỡng core nâng lên 1200.
+- Nguồn: `scripts/g1/day89.py`; `python3 scripts/g1/build.py`.
+- Ngày 10 (IELTS Vocabulary 6.5+ Unit 1, Human nature): tính từ tính cách (tích cực/tiêu cực, self-/well-, tiền tố phủ định), personality/character/characteristic, bài đọc popular và well-liked (7 câu TFNG), tìm từ đồng nghĩa (paraphrase). Chưa đưa vào: bài nghe và Test practice Part 4 (cần âm thanh). Còn lại của Vocabulary 6.5+: Unit 5, 21, 22 (tuần 1 của thầy có cả ba).
+
+## G1 Ngày 1–7: chuỗi học và tên buổi (sửa theo kiểm tra tích hợp)
+- Tên buổi sách giờ nói rõ nó luyện gì: «Luyện theo sách · B2 Unit 1 · Khoanh từ đúng (+1)» (ngày ngữ pháp), «Tiếp nhận / Rèn luyện · …» (ngày từ vựng).
+- Ngày 3 đã đúng nguồn: hiện tại hoàn thành nằm ở B2 Unit 1 (bài C, D) cùng Grammar 6.5+ Unit 3. B2 Unit 3 là Past time, thuộc tuần ngữ pháp sau, không đưa vào đây.
+- Ngày 5–6 (B2 Unit 18): «Đọc trước B2 · giải nghĩa và liên tưởng» (mỗi từ có dòng «Nhớ: …», file `scripts/g1/assoc.py`) → Tiếp nhận → Vận dụng (câu của tôi) → Rèn luyện → Ôn tập (Ngày 6 ôn từ Ngày 5).
+- Chín từ C1 chuyển từ Ngày 6 sang đầu Ngày 7. Ngày 7: Làm quen C1 (28 thẻ, neo vào từ B2) → Tiếp nhận → Vận dụng → Rèn luyện → Ôn tập (từ Ngày 5–6) → Mở rộng không bắt buộc (cụm động từ, thành ngữ).
+- Bài ôn tập tự sinh từ câu ví dụ của từ (bỏ từ ra, gõ lại), id `G1D{n}O{ngày}-{k}`. Việc nhắc ôn cách quãng theo lịch vẫn do hệ thống thẻ ôn chung của app; chưa kiểm tra trong repo này.
+- Hai file mp3 Cambridge 18 Section 1 (Part 1, Part 2) đã nhận nhưng chưa dùng: app chỉ có audio kiểu `turns` (lời thoại đọc bằng giọng tổng hợp), và môi trường này không có công cụ nhận dạng giọng nói để lấy script.

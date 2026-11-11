@@ -1,0 +1,282 @@
+{
+ "slug": "g1-d1-present-simple-what-the-speaker-presents-as-true",
+ "title": "G1 · Ngày 1 · Hiện tại đơn: điều người nói coi là thật",
+ "title_en": "Present simple: what the speaker presents as true",
+ "topic": "G1 · Các thì hiện tại (Tuần 1)",
+ "track": "beginner",
+ "level": 4,
+ "sort_order": 101,
+ "summary": "Chọn hiện tại đơn theo điều mình muốn nói, không theo từ dấu hiệu; trả lời một câu hỏi hiện tại đơn bằng thì khác khi cần. Thẻ: năm hộp của sách; trạng từ tần suất là phần phụ; điều người nói coi là thật; hỏi thì này, đáp thì khác; nhấn mạnh với do / does.",
+ "vocab": [
+  {
+   "headword": "habit",
+   "pos": "N",
+   "meaning_vi": "thói quen",
+   "example_en": "Getting up early is a good habit.",
+   "example_vi": "Dậy sớm là một thói quen tốt.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "permanent",
+   "pos": "A",
+   "meaning_vi": "lâu dài, cố định",
+   "example_en": "She has a permanent job in Hanoi.",
+   "example_vi": "Cô ấy có một công việc cố định ở Hà Nội.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "state",
+   "pos": "N",
+   "meaning_vi": "trạng thái",
+   "example_en": "Sleep is a state of rest.",
+   "example_vi": "Ngủ là một trạng thái nghỉ ngơi.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "fact",
+   "pos": "N",
+   "meaning_vi": "sự thật",
+   "example_en": "It is a fact that the Earth is round.",
+   "example_vi": "Trái Đất tròn là một sự thật.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "frequency",
+   "pos": "N",
+   "meaning_vi": "tần suất",
+   "example_en": "The frequency of buses is low at night.",
+   "example_vi": "Ban đêm tần suất xe buýt thấp.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "emphasise",
+   "pos": "V",
+   "meaning_vi": "nhấn mạnh",
+   "example_en": "The teacher emphasised the last point.",
+   "example_vi": "Giáo viên nhấn mạnh ý cuối cùng.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "Present simple · năm hộp của sách",
+   "meaning_vi": "Sách chia 5 cách dùng; một câu có thể nằm trong cả 5",
+   "usage_context_vi": "Destination B2 chia hiện tại đơn thành 5 cách dùng: thói quen, tần suất, tình huống lâu dài, trạng thái, sự thật chung.\nThử xếp câu `I enjoy eating oranges` vào từng hộp: hộp nào cũng nhận. Các hộp giúp ta đọc sách, nhưng chúng không tách bạch. Khi nói, không ai dừng lại để chọn hộp.\nLời thầy: «Ngữ pháp nó không rạch ròi như cái cách mà một quyển sách nó chia ra.»",
+   "contrasts": [],
+   "example_en": "I enjoy eating oranges.\nHoa works in a hospital.",
+   "example_vi": "Tôi thích ăn cam.\nHoa làm ở một bệnh viện.",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-8; cách giảng theo thầy Minh",
+   "note_vi": "Lỗi người Việt hay mắc: Học thuộc 5 gạch đầu dòng rồi mỗi lần nói lại dò xem câu của mình thuộc dòng nào. Việc đó làm chậm phản xạ."
+  },
+  {
+   "pattern": "Present simple · trạng từ tần suất là phần phụ",
+   "meaning_vi": "Bỏ trạng từ đi, câu vẫn là hiện tại đơn",
+   "usage_context_vi": "`always`, `usually`, `very often`, `twice a week` chỉ thêm thông tin. Bỏ chúng đi, nòng cốt của câu và tính lặp lại của hành động vẫn nguyên.\nNói thêm tần suất hay không là tùy người nói cần gì.",
+   "contrasts": [],
+   "example_en": "Minh cycles to school. Minh always cycles to school.\nI visit my parents. I visit my parents twice a week.",
+   "example_vi": "Minh đạp xe đi học. Minh luôn đạp xe đi học.\nTôi về thăm bố mẹ. Tôi về thăm bố mẹ hai lần một tuần.",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-8; cách giảng theo thầy Minh",
+   "note_vi": "Lỗi người Việt hay mắc: Chờ thấy trạng từ mới dám chia hiện tại đơn. Câu `I wake up at six` không có trạng từ nào và vẫn là thói quen."
+  },
+  {
+   "pattern": "Present simple · điều người nói coi là thật",
+   "meaning_vi": "Việc lặp lại, trạng thái, và sự thật theo người nói",
+   "usage_context_vi": "Gom 5 hộp lại còn ba nhóm: việc lặp lại; trạng thái (và câu hỏi về trạng thái); sự thật.\n\"Sự thật\" ở đây là điều người nói nghĩ, tin hoặc muốn người nghe tin lúc nói. Nó gồm sự thật khách quan, ý kiến riêng, lời nói quá và cả lời nói dối. Ngữ pháp không kiểm tra thật giả.\nLời thầy: «Phần lớn thời gian cái các bạn nghĩ sẽ là cái các bạn nói, thế nên phần lớn cái chúng ta nói ra đều là sự thật chủ quan.»",
+   "contrasts": [],
+   "example_en": "Water boils at 100 degrees Celsius.\nYou don't visit me at all!\nNo, I don't have a girlfriend.",
+   "example_vi": "Nước sôi ở 100 độ C.\nCon chẳng về thăm mẹ gì cả! (nói quá)\nKhông, anh chưa có bạn gái. (có thể là nói dối, câu vẫn đúng ngữ pháp)",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-8; cách giảng theo thầy Minh",
+   "exam_tip_vi": "Trong Writing Task 2, nhận định của bạn (`Online learning saves time`) dùng hiện tại đơn vì đó là điều bạn trình bày như sự thật."
+  },
+  {
+   "pattern": "Present simple · hỏi thì này, đáp thì khác",
+   "meaning_vi": "Thì của câu trả lời theo điều mình muốn nói",
+   "usage_context_vi": "Câu hỏi ở hiện tại đơn không buộc câu trả lời ở hiện tại đơn. Hãy hỏi mình: điều tôi muốn nói nằm ở đâu trên trục thời gian?\n`Do you believe in God?` có thể đáp bằng bốn thì.",
+   "contrasts": [],
+   "example_en": "Yes, I do.\nI have believed in God for a while.\nI did, but not anymore.\nI will, if you can show me who God is.",
+   "example_vi": "Có, tôi tin. (bây giờ)\nTôi tin được một thời gian rồi. (từ trước tới giờ)\nTrước thì có, giờ thì không. (đã hết)\nTôi sẽ tin, nếu bạn chỉ cho tôi Chúa là ai. (tương lai, có điều kiện)",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-8; cách giảng theo thầy Minh",
+   "note_vi": "Lỗi người Việt hay mắc: \"Hỏi thì nào, đáp thì nấy\". Thói quen này đến từ bài tập ở trường, không đến từ cách người ta nói.",
+   "exam_tip_vi": "Ở Speaking Part 1, đổi thì đúng chỗ là cách tự nhiên nhất để cho thấy bạn dùng được nhiều cấu trúc."
+  },
+  {
+   "pattern": "Present simple · nhấn mạnh với do / does",
+   "meaning_vi": "do / does + động từ nguyên thể: \"có ... thật mà\"",
+   "usage_context_vi": "Trong câu khẳng định, đặt `do` hoặc `does` trước động từ để nhấn mạnh hoặc cãi lại điều người kia vừa nói. Động từ sau đó ở dạng nguyên thể.",
+   "contrasts": [],
+   "example_en": "The bus is slow, but it does stop near my office.\nI do like fish!",
+   "example_vi": "Xe buýt chậm, nhưng nó có dừng gần cơ quan tôi.\nTôi có thích cá mà!",
+   "importance": "normal",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-8; cách giảng theo thầy Minh",
+   "note_vi": "Lỗi người Việt hay mắc: Chia hai lần: ~~He does works hard~~ → He does work hard."
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của ngày",
+   "body": "• 🎯 Chọn hiện tại đơn theo điều mình muốn nói, không theo từ dấu hiệu; trả lời một câu hỏi hiện tại đơn bằng thì khác khi cần.",
+   "kind": "goal"
+  },
+  {
+   "title": "Bài của sách nằm trong app",
+   "body": "• 📖 Destination B2, trang 6–7: Đọc bảng lý thuyết Present simple và Present continuous (khoảng 15 phút)\n• 📖 Destination B2, trang 8: bài A (10 câu, khoảng 10 phút)\n• 📖 Destination B2, trang 8: bài B (8 câu, khoảng 10 phút)\n• Các bài này đã có sẵn trong app, ở các buổi \"Bài trong sách\" cuối ngày, kèm đáp án của sách và lời giải thích từng câu. Nếu có sách giấy, bạn có thể làm trên sách trước rồi chấm lại trong app. Sau khi học thẻ, với mỗi câu sai hãy tự nói lại câu đó theo ý muốn nói.",
+   "kind": "language"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Speaking Part 1 hỏi gần như toàn bằng hiện tại đơn. Người trả lời tốt đổi thì theo điều mình muốn nói: thói quen, điều đã kéo dài, điều đã hết.",
+   "kind": "language"
+  }
+ ],
+ "bank": "g1",
+ "coach": {
+  "focus_vi": [
+   "năm hộp của sách: Sách chia 5 cách dùng; một câu có thể nằm trong cả 5",
+   "trạng từ tần suất là phần phụ: Bỏ trạng từ đi, câu vẫn là hiện tại đơn",
+   "điều người nói coi là thật: Việc lặp lại, trạng thái, và sự thật theo người nói"
+  ],
+  "watch_out_vi": [
+   "Học thuộc 5 gạch đầu dòng rồi mỗi lần nói lại dò xem câu của mình thuộc dòng nào. Việc đó làm chậm phản xạ.",
+   "Chờ thấy trạng từ mới dám chia hiện tại đơn. Câu `I wake up at six` không có trạng từ nào và vẫn là thói quen."
+  ]
+ },
+ "exercise_ids": [
+  "G1D1I1",
+  "G1D1I2",
+  "G1D1I3",
+  "G1D1I4",
+  "G1D1I5",
+  "G1D1I6",
+  "G1D1Q1",
+  "G1D1Q2",
+  "G1D1Q3",
+  "G1D1KA-1",
+  "G1D1KA-2",
+  "G1D1KA-3",
+  "G1D1KA-4",
+  "G1D1KA-5",
+  "G1D1KA-6",
+  "G1D1KA-7",
+  "G1D1KA-8",
+  "G1D1KA-9",
+  "G1D1KA-10",
+  "G1D1B1",
+  "G1D1B2",
+  "G1D1B3",
+  "G1D1B4",
+  "G1D1F1",
+  "G1D1F2",
+  "G1D1F3",
+  "G1D1KB-1",
+  "G1D1KB-2",
+  "G1D1KB-3",
+  "G1D1KB-4",
+  "G1D1KB-5",
+  "G1D1KB-6",
+  "G1D1KB-7",
+  "G1D1KB-8",
+  "G1D1D1",
+  "G1D1M1",
+  "G1D1M2"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · năm hộp của sách",
+   "can_do_vi": "Sau buổi này bạn nắm được: sách chia 5 cách dùng; một câu có thể nằm trong cả 5; bỏ trạng từ đi, câu vẫn là hiện tại đơn; việc lặp lại, trạng thái, và sự thật theo người nói.",
+   "use_vi": "Speaking Part 1 hỏi gần như toàn bằng hiện tại đơn. Người trả lời tốt đổi thì theo điều mình muốn nói: thói quen, điều đã kéo dài, điều đã hết.",
+   "vocab": [
+    "habit",
+    "permanent",
+    "state",
+    "fact",
+    "frequency",
+    "emphasise"
+   ],
+   "grammar": [
+    "Present simple · năm hộp của sách",
+    "Present simple · trạng từ tần suất là phần phụ",
+    "Present simple · điều người nói coi là thật"
+   ],
+   "check": [
+    "G1D1I1",
+    "G1D1Q2",
+    "G1D1I2",
+    "G1D1I3",
+    "G1D1Q1"
+   ]
+  },
+  {
+   "title_vi": "Buổi 2 · hỏi thì này, đáp thì khác",
+   "can_do_vi": "Sau buổi này bạn nắm được: thì của câu trả lời theo điều mình muốn nói; do / does + động từ nguyên thể: \"có ... thật mà\".",
+   "use_vi": "Speaking Part 1 hỏi gần như toàn bằng hiện tại đơn. Người trả lời tốt đổi thì theo điều mình muốn nói: thói quen, điều đã kéo dài, điều đã hết.",
+   "vocab": [],
+   "grammar": [
+    "Present simple · hỏi thì này, đáp thì khác",
+    "Present simple · nhấn mạnh với do / does"
+   ],
+   "check": [
+    "G1D1I4",
+    "G1D1I5",
+    "G1D1I6",
+    "G1D1Q3",
+    "G1D1B1",
+    "G1D1B2",
+    "G1D1B3",
+    "G1D1B4",
+    "G1D1F1",
+    "G1D1F2",
+    "G1D1F3",
+    "G1D1D1",
+    "G1D1M1",
+    "G1D1M2"
+   ]
+  },
+  {
+   "title_vi": "Luyện theo sách · B2 Unit 1 · Khoanh từ đúng (+1)",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: khoanh từ đúng; sửa cho đúng (gõ lại).",
+   "use_vi": "Làm sau khi học thẻ: mỗi câu sai có lời giải thích, hãy tự nói lại câu đó theo ý muốn nói rồi mới sang câu sau.",
+   "check": [
+    "G1D1KA-1",
+    "G1D1KA-2",
+    "G1D1KA-3",
+    "G1D1KA-4",
+    "G1D1KA-5",
+    "G1D1KA-6",
+    "G1D1KA-7",
+    "G1D1KA-8",
+    "G1D1KA-9",
+    "G1D1KA-10",
+    "G1D1KB-1",
+    "G1D1KB-2",
+    "G1D1KB-3",
+    "G1D1KB-4",
+    "G1D1KB-5",
+    "G1D1KB-6",
+    "G1D1KB-7",
+    "G1D1KB-8"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Ý và thứ tự giảng theo bài giảng của thầy Minh; khung và số trang theo Destination B2, Unit 1. Lời giải thích, ví dụ và câu hỏi do khóa học tự soạn; bài tập của sách làm trong sách."
+  }
+ ]
+}

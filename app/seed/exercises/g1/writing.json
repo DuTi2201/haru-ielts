@@ -1,0 +1,301 @@
+{
+ "skill": "writing",
+ "guide": [
+  {
+   "title_vi": "Cách viết một đoạn",
+   "bullets_vi": [
+    "Nghĩ bằng tiếng Việt trước: ý chính là gì, vì sao, ví dụ nào.",
+    "Viết câu đơn đúng trước, rồi mới nối thành câu ghép (and, but, so) và câu phức (because, although, when).",
+    "Mạch của đoạn: khái quát → chi tiết → rất cụ thể → khái quát lại."
+   ]
+  }
+ ],
+ "items": [
+  {
+   "id": "G1D1M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Ngày 1",
+   "points": 5,
+   "instruction_vi": "Trả lời câu hỏi bằng hai câu ở hai thì khác nhau, đúng với bạn. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
+   "limits": {
+    "min": 8,
+    "max": 40
+   },
+   "prompt_en": "Answer in two different tenses: Do you like your hometown?",
+   "framework_vi": [
+    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
+    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
+    "Chọn thì theo câu trả lời đó rồi mới viết."
+   ],
+   "model_answer_en": "Yes, I do. I have lived there all my life, so I know every street.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Thì khớp với điều bạn muốn nói.",
+    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+   ]
+  },
+  {
+   "id": "G1D1M2",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M2",
+   "title_vi": "Câu của tôi · Ngày 1",
+   "points": 5,
+   "instruction_vi": "Viết một câu đúng sự thật và một câu nói quá, cả hai ở hiện tại đơn. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
+   "limits": {
+    "min": 8,
+    "max": 40
+   },
+   "prompt_en": "Write one sentence that is true for you and one sentence that exaggerates. Use the present simple in both.",
+   "framework_vi": [
+    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
+    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
+    "Chọn thì theo câu trả lời đó rồi mới viết."
+   ],
+   "model_answer_en": "I study English every evening. I never have any free time!",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Thì khớp với điều bạn muốn nói.",
+    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+   ]
+  },
+  {
+   "id": "G1D2M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Ngày 2",
+   "points": 5,
+   "instruction_vi": "Viết hai câu về nơi bạn ở: một câu nêu sự thật, một câu nói việc tạm thời. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
+   "limits": {
+    "min": 8,
+    "max": 40
+   },
+   "prompt_en": "Write two sentences about where you live: one fact, one temporary situation.",
+   "framework_vi": [
+    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
+    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
+    "Chọn thì theo câu trả lời đó rồi mới viết."
+   ],
+   "model_answer_en": "I live in Hanoi with my parents. This month I am staying at my aunt's house because our flat is being painted.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Thì khớp với điều bạn muốn nói.",
+    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+   ]
+  },
+  {
+   "id": "G1D3M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Ngày 3",
+   "points": 5,
+   "instruction_vi": "Viết ba câu về bạn: một việc làm đã lâu, một việc hôm nay đã làm, một việc tuần này đang làm dở. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
+   "limits": {
+    "min": 8,
+    "max": 40
+   },
+   "prompt_en": "Write three sentences about yourself: something you have done for a long time, something you have already done today, and something you have been doing this week.",
+   "framework_vi": [
+    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
+    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
+    "Chọn thì theo câu trả lời đó rồi mới viết."
+   ],
+   "model_answer_en": "I have studied English for two years. I have already done my listening practice today. I have been reading a book about Japan this week.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Thì khớp với điều bạn muốn nói.",
+    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+   ]
+  },
+  {
+   "id": "G1D4M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Ngày 4",
+   "points": 5,
+   "instruction_vi": "Viết bốn câu về công việc hoặc việc học của bạn, mỗi câu một thì hiện tại. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
+   "limits": {
+    "min": 8,
+    "max": 40
+   },
+   "prompt_en": "Write four sentences about your work or studies, one for each present tense.",
+   "framework_vi": [
+    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
+    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
+    "Chọn thì theo câu trả lời đó rồi mới viết."
+   ],
+   "model_answer_en": "I work for a small company in Hanoi. This month I am learning a new accounting program. I have worked there for three years. I have been studying English every evening this week.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Thì khớp với điều bạn muốn nói.",
+    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+   ]
+  },
+  {
+   "id": "G1D5M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Ngày 5",
+   "points": 5,
+   "instruction_vi": "Chọn 5 đến 10 từ hôm nay bạn thích nhất rồi viết về cuộc sống học tập của chính bạn. Dùng ít nhất hai từ, ví dụ pupil/student, pass/take an exam, attend, revise. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn và dùng từ bạn chọn.",
+   "limits": {
+    "min": 8,
+    "max": 50
+   },
+   "prompt_en": "Write two sentences about your own school or study life using words from today.",
+   "framework_vi": [
+    "Chọn 5 đến 10 từ bạn thích nhất trong bài hôm nay.",
+    "Nghĩ điều bạn muốn nói về chính mình, bằng tiếng Việt cũng được.",
+    "Gõ hai câu có dùng ít nhất hai từ đã chọn; từ C1 thì thêm một từ B2 đồng nghĩa ở câu kia."
+   ],
+   "model_answer_en": "I take an exam every month, and I always revise the night before. I hope I will pass the next one.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Có dùng từ của bài hôm nay, đúng từ loại.",
+    "Câu nói về chính bạn, không chép câu mẫu."
+   ]
+  },
+  {
+   "id": "G1D6M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Ngày 6",
+   "points": 5,
+   "instruction_vi": "Dùng ít nhất hai kết hợp từ của hôm nay (ví dụ pay attention to, make sense of, succeed in) để nói về cách bạn học. Một câu nên có một từ C1 trong bài (ví dụ assess, grasp, notion). Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn và dùng từ bạn chọn.",
+   "limits": {
+    "min": 8,
+    "max": 50
+   },
+   "prompt_en": "Write two sentences about how you study, using collocations from today.",
+   "framework_vi": [
+    "Chọn 5 đến 10 từ bạn thích nhất trong bài hôm nay.",
+    "Nghĩ điều bạn muốn nói về chính mình, bằng tiếng Việt cũng được.",
+    "Gõ hai câu có dùng ít nhất hai từ đã chọn; từ C1 thì thêm một từ B2 đồng nghĩa ở câu kia."
+   ],
+   "model_answer_en": "I find it hard to pay attention to long lectures, so I make notes to make sense of them. I try to grasp the main idea first.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Có dùng từ của bài hôm nay, đúng từ loại.",
+    "Câu nói về chính bạn, không chép câu mẫu."
+   ]
+  },
+  {
+   "id": "G1D7M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Ngày 7",
+   "points": 5,
+   "instruction_vi": "Chọn hai từ C1 của Ngày 7 (ví dụ assess, plausible, ponder, hunch) và viết hai câu về quyết định học tập của chính bạn. Trong một câu dùng từ C1, câu kia dùng từ B2 đồng nghĩa (ví dụ assess và evaluate). Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn và dùng từ bạn chọn.",
+   "limits": {
+    "min": 8,
+    "max": 50
+   },
+   "prompt_en": "Write two sentences about a study decision of your own, using two C1 words from today.",
+   "framework_vi": [
+    "Chọn 5 đến 10 từ bạn thích nhất trong bài hôm nay.",
+    "Nghĩ điều bạn muốn nói về chính mình, bằng tiếng Việt cũng được.",
+    "Gõ hai câu có dùng ít nhất hai từ đã chọn; từ C1 thì thêm một từ B2 đồng nghĩa ở câu kia."
+   ],
+   "model_answer_en": "I need to assess which course is best for me, so I am pondering my options. I have a hunch that I should evaluate each school before I decide.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Có dùng từ của bài hôm nay, đúng từ loại.",
+    "Câu nói về chính bạn, không chép câu mẫu."
+   ]
+  },
+  {
+   "id": "G1D8M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Ngày 8",
+   "points": 5,
+   "instruction_vi": "Kể về một lần bạn thấy lạ hoặc khó chịu khi tới một nơi mới (trường, thành phố, công việc). Dùng ít nhất hai từ mới của bài, ví dụ homesick, adjust, adapt, impolite. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn và dùng từ bạn chọn.",
+   "limits": {
+    "min": 8,
+    "max": 50
+   },
+   "prompt_en": "Write two sentences about a time you felt strange in a new place. Use at least two words from today.",
+   "framework_vi": [
+    "Chọn 5 đến 10 từ bạn thích nhất trong bài hôm nay.",
+    "Nghĩ điều bạn muốn nói về chính mình, bằng tiếng Việt cũng được.",
+    "Gõ hai câu có dùng ít nhất hai từ đã chọn; từ C1 thì thêm một từ B2 đồng nghĩa ở câu kia."
+   ],
+   "model_answer_en": "When I started university, I felt homesick and it took me a month to adjust. It was hard to adapt to living with strangers.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Có dùng từ của bài hôm nay, đúng từ loại.",
+    "Câu nói về chính bạn, không chép câu mẫu."
+   ]
+  },
+  {
+   "id": "G1D9M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Ngày 9",
+   "points": 5,
+   "instruction_vi": "Tóm tắt bài đọc bằng một hoặc hai câu tiếng Anh của chính bạn. Không chép nguyên câu trong bài. Thử dùng một từ B2 và một từ C1 trong bài (ví dụ method, intensive, constraint). Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn và dùng từ bạn chọn.",
+   "limits": {
+    "min": 8,
+    "max": 50
+   },
+   "prompt_en": "Summarise the passage 'Urban farming' in one or two sentences in your own words.",
+   "framework_vi": [
+    "Chọn 5 đến 10 từ bạn thích nhất trong bài hôm nay.",
+    "Nghĩ điều bạn muốn nói về chính mình, bằng tiếng Việt cũng được.",
+    "Gõ hai câu có dùng ít nhất hai từ đã chọn; từ C1 thì thêm một từ B2 đồng nghĩa ở câu kia."
+   ],
+   "model_answer_en": "In Paris, farmers grow fruit and vegetables on a rooftop without soil. This method uses less water and space than intensive farming, although some crops cannot be grown this way.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Có dùng từ của bài hôm nay, đúng từ loại.",
+    "Câu nói về chính bạn, không chép câu mẫu."
+   ]
+  },
+  {
+   "id": "G1D10M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Ngày 10",
+   "points": 5,
+   "instruction_vi": "Viết ba câu mô tả chính bạn, dùng ít nhất ba tính từ của hôm nay (một từ có self- hoặc well-). Ví dụ vẽ một sơ đồ tư duy về bản thân trước rồi gõ ba câu từ sơ đồ đó. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn và dùng từ bạn chọn.",
+   "limits": {
+    "min": 8,
+    "max": 50
+   },
+   "prompt_en": "Write three sentences describing your own character using adjectives from today.",
+   "framework_vi": [
+    "Chọn 5 đến 10 từ bạn thích nhất trong bài hôm nay.",
+    "Nghĩ điều bạn muốn nói về chính mình, bằng tiếng Việt cũng được.",
+    "Gõ hai câu có dùng ít nhất hai từ đã chọn; từ C1 thì thêm một từ B2 đồng nghĩa ở câu kia."
+   ],
+   "model_answer_en": "I'd describe myself as a pretty well-rounded person, because I like both study and sport. At times I can be impatient, especially when someone is late. I wish I were more self-confident when I speak in public.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Có dùng từ của bài hôm nay, đúng từ loại.",
+    "Câu nói về chính bạn, không chép câu mẫu."
+   ]
+  }
+ ]
+}

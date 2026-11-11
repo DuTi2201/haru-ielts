@@ -1,0 +1,482 @@
+{
+ "slug": "g1-d3-present-perfect-and-present-perfect-continuous",
+ "title": "G1 · Ngày 3 · Hiện tại hoàn thành và hoàn thành tiếp diễn",
+ "title_en": "Present perfect and present perfect continuous",
+ "topic": "G1 · Các thì hiện tại (Tuần 1)",
+ "track": "beginner",
+ "level": 4,
+ "sort_order": 103,
+ "summary": "Dùng hiện tại hoàn thành cho việc kéo tới bây giờ và cho việc đã xong mà không nói lúc nào; dùng hai câu hỏi để quyết định có dùng hoàn thành tiếp diễn hay không. Thẻ: vẽ ra để nhớ; kéo tới bây giờ; đã xong, không nói lúc nào; hai mẫu cần thuộc; hai câu hỏi; thay thế một chiều; breath, breathe, breadth.",
+ "vocab": [
+  {
+   "headword": "achieve",
+   "pos": "V",
+   "meaning_vi": "đạt được (mục tiêu, kết quả)",
+   "example_en": "She achieved her goal of studying abroad.",
+   "example_vi": "Cô ấy đạt được mục tiêu đi du học.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "reach",
+   "pos": "V",
+   "meaning_vi": "đạt tới (một mức, một giai đoạn)",
+   "example_en": "He has reached the final year of school.",
+   "example_vi": "Cậu ấy đã lên năm cuối.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "primary school",
+   "pos": "N",
+   "meaning_vi": "trường tiểu học",
+   "example_en": "My daughter is at primary school.",
+   "example_vi": "Con gái tôi học tiểu học.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "secondary school",
+   "pos": "N",
+   "meaning_vi": "trường trung học",
+   "example_en": "He teaches at a secondary school.",
+   "example_vi": "Anh ấy dạy ở một trường trung học.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "results",
+   "pos": "N",
+   "meaning_vi": "kết quả (thi)",
+   "example_en": "The exam results come out today.",
+   "example_vi": "Hôm nay có kết quả thi.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "degree",
+   "pos": "N",
+   "meaning_vi": "bằng đại học",
+   "example_en": "She has a degree in chemistry.",
+   "example_vi": "Cô ấy có bằng đại học ngành hóa.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "certificate",
+   "pos": "N",
+   "meaning_vi": "chứng chỉ, giấy chứng nhận",
+   "example_en": "I got a certificate at the end of the course.",
+   "example_vi": "Cuối khóa tôi nhận được chứng chỉ.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "measure",
+   "pos": "V",
+   "meaning_vi": "đo, đo lường",
+   "example_en": "It is hard to measure intelligence.",
+   "example_vi": "Khó mà đo được trí thông minh.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "count",
+   "pos": "V",
+   "meaning_vi": "đếm",
+   "example_en": "Can you count from one to twenty?",
+   "example_vi": "Bạn đếm được từ một đến hai mươi không?",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "recognise",
+   "pos": "V",
+   "meaning_vi": "nhận ra",
+   "example_en": "I didn't recognise her with short hair.",
+   "example_vi": "Tôi không nhận ra cô ấy khi cô ấy để tóc ngắn.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo bài giảng của thầy Minh và khung Destination B2 Unit 1"
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "Trục thời gian · vẽ ra để nhớ",
+   "meaning_vi": "Mỗi thì một trục: quá khứ, bây giờ, tương lai, và một câu mẫu bên dưới",
+   "usage_context_vi": "Trước khi chọn thì, hãy đặt việc mình muốn nói lên trục thời gian: nó lặp lại quanh bây giờ? chỉ diễn ra lúc này? bắt đầu từ trước và kéo tới bây giờ? đã xong từ trước?\nVẽ trục kèm một câu mẫu của chính bạn giúp nhớ lâu hơn chép chữ.",
+   "contrasts": [],
+   "example_en": "I have played the piano since 2003.",
+   "example_vi": "Tôi chơi piano từ năm 2003. (bắt đầu năm 2003, kéo tới bây giờ)",
+   "importance": "normal",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-9; cách giảng theo thầy Minh"
+  },
+  {
+   "pattern": "Present perfect · kéo tới bây giờ",
+   "meaning_vi": "have / has + V3: bắt đầu trong quá khứ, bây giờ vẫn còn",
+   "usage_context_vi": "Việc bắt đầu trong quá khứ và kéo tới bây giờ, có thể còn tiếp. `since` + mốc bắt đầu; `for` + khoảng thời gian.",
+   "contrasts": [],
+   "example_en": "I have lived here for six years.\nShe has known him since she was a child.",
+   "example_vi": "Tôi sống ở đây được sáu năm rồi.\nCô ấy biết anh ta từ khi còn nhỏ.",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-9; cách giảng theo thầy Minh",
+   "note_vi": "Lỗi người Việt hay mắc: Dịch từng chữ từ tiếng Việt: ~~I work there since 2020~~ → I have worked there since 2020."
+  },
+  {
+   "pattern": "Present perfect · đã xong, không nói lúc nào",
+   "meaning_vi": "have / has + V3: việc đã làm; thời điểm không quan trọng hoặc không muốn nói",
+   "usage_context_vi": "Dùng khi chỉ muốn báo việc đã làm rồi hay chưa. Thường có `already`, `yet`, `ever`, `never`, `before`.\nKhi bạn nêu thời điểm cụ thể, đó là quá khứ đơn.",
+   "contrasts": [
+    {
+     "pattern": "Present perfect · kéo tới bây giờ",
+     "diff_vi": "Cùng một dạng, hai ý: việc còn kéo dài (thường có since, for) và việc đã xong (thường có already, ever, never)."
+    }
+   ],
+   "example_en": "I have already eaten pizza.\nI ate pizza for the first time when I was five.",
+   "example_vi": "Tôi ăn pizza rồi. (đừng hỏi lúc nào)\nTôi ăn pizza lần đầu năm lên năm. (có mốc → quá khứ đơn)",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-9; cách giảng theo thầy Minh",
+   "note_vi": "Lỗi người Việt hay mắc: Dùng hiện tại hoàn thành với mốc thời gian đã qua: ~~I have seen him yesterday~~ → I saw him yesterday."
+  },
+  {
+   "pattern": "Present perfect · hai mẫu cần thuộc",
+   "meaning_vi": "It's the first time + have (ever) V3; have gone to / have been to",
+   "usage_context_vi": "Sau `It's / This is / That's the first (second, best, worst) time`, dùng hiện tại hoàn thành.\n`have gone to`: đã đi và chưa về. `have been to`: đã từng đến và đã về.",
+   "contrasts": [],
+   "example_en": "It's the first time I have ever spoken English on the phone.\nMy parents have gone to Hue. I have been to Hue twice.",
+   "example_vi": "Đây là lần đầu tiên tôi nói tiếng Anh qua điện thoại.\nBố mẹ tôi đi Huế rồi (chưa về). Tôi đã đến Huế hai lần.",
+   "importance": "normal",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-9; cách giảng theo thầy Minh",
+   "note_vi": "Lỗi người Việt hay mắc: ~~It's the first time I am speaking English on the phone~~ → It's the first time I have spoken English on the phone."
+  },
+  {
+   "pattern": "Present perfect continuous · hai câu hỏi",
+   "meaning_vi": "have / has been + V-ing: đã bắt đầu, và lúc nói còn đang làm hoặc vừa dừng",
+   "usage_context_vi": "Tên thì ghép hai ý: hoàn thành (bắt đầu từ trước, kéo tới bây giờ) và tiếp diễn (đang diễn ra, tạm thời).\nTự hỏi hai câu: (1) Đã bắt đầu làm chưa? (2) Lúc nói còn đang làm, hoặc vừa dừng và còn thấy dấu vết? Cả hai là \"có\" và bạn muốn nhấn vào quá trình hay độ dài: dùng `have been V-ing`.",
+   "contrasts": [],
+   "example_en": "I have been playing football for the last three hours.\nI'm out of breath because I have been running.",
+   "example_vi": "Tôi chơi bóng suốt ba tiếng nay. (đã chơi; vẫn đang chơi)\nTôi hết hơi vì vừa chạy. (vừa dừng, còn dấu vết)",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-9; cách giảng theo thầy Minh",
+   "note_vi": "Lỗi người Việt hay mắc: Dùng với động từ trạng thái: ~~I have been knowing her for years~~ → I have known her for years."
+  },
+  {
+   "pattern": "Present perfect continuous · thay thế một chiều",
+   "meaning_vi": "Hoàn thành thay được cho hoàn thành tiếp diễn; chiều ngược lại thì không",
+   "usage_context_vi": "`I have been waiting for hours`: chắc chắn vẫn đang chờ. `I have waited for hours`: đã chờ; còn chờ hay không thì tùy ngữ cảnh.\nHiện tại hoàn thành dùng được trong gần như mọi chỗ của hoàn thành tiếp diễn. Ngược lại thì không: việc đã xong hẳn, hoặc trải nghiệm không rõ thời gian, không dùng tiếp diễn.\nKhi phân vân, chọn hiện tại hoàn thành.",
+   "contrasts": [
+    {
+     "pattern": "Present perfect · đã xong, không nói lúc nào",
+     "diff_vi": "Hoàn thành nhấn vào việc và kết quả; hoàn thành tiếp diễn nhấn vào quá trình và độ dài."
+    }
+   ],
+   "example_en": "I have read three chapters.\nI have been reading all morning.",
+   "example_vi": "Tôi đọc xong ba chương rồi. (kết quả, số lượng)\nTôi đọc suốt cả sáng. (quá trình, độ dài)",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-9; cách giảng theo thầy Minh",
+   "note_vi": "Lỗi người Việt hay mắc: ~~Have you ever been visiting Hue?~~ → Have you ever visited Hue?"
+  },
+  {
+   "pattern": "Chính tả · breath, breathe, breadth",
+   "meaning_vi": "Ba từ dễ lẫn khi viết và khi đọc",
+   "usage_context_vi": "`breath` /breθ/ là danh từ: hơi thở. `breathe` /briːð/ là động từ: thở. `breadth` /bredθ/ là danh từ: bề rộng.",
+   "contrasts": [],
+   "example_en": "I am out of breath.\nBreathe slowly.",
+   "example_vi": "Tôi hết hơi.\nHãy thở chậm.",
+   "importance": "normal",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-9; cách giảng theo thầy Minh"
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của ngày",
+   "body": "• 🎯 Dùng hiện tại hoàn thành cho việc kéo tới bây giờ và cho việc đã xong mà không nói lúc nào; dùng hai câu hỏi để quyết định có dùng hoàn thành tiếp diễn hay không.",
+   "kind": "goal"
+  },
+  {
+   "title": "Bài của sách nằm trong app",
+   "body": "• 📖 Destination B2, trang 6–7: Đọc bảng Present perfect simple và Present perfect continuous (khoảng 15 phút)\n• 📖 Destination B2, trang 8: bài C (10 câu, khoảng 12 phút)\n• 📖 Destination B2, trang 9: bài D (10 câu, khoảng 10 phút)\n• Các bài này đã có sẵn trong app, ở các buổi \"Bài trong sách\" cuối ngày, kèm đáp án của sách và lời giải thích từng câu. Nếu có sách giấy, bạn có thể làm trên sách trước rồi chấm lại trong app. Sau khi học thẻ, với mỗi câu sai hãy tự nói lại câu đó theo ý muốn nói.",
+   "kind": "language"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Speaking Part 1 và 2: nói mình đã làm gì, làm được bao lâu. Lỗi `I work here since 2020` và `I have been knowing` rất hay gặp ở người Việt.",
+   "kind": "language"
+  }
+ ],
+ "bank": "g1",
+ "coach": {
+  "focus_vi": [
+   "vẽ ra để nhớ: Mỗi thì một trục: quá khứ, bây giờ, tương lai, và một câu mẫu bên dưới",
+   "kéo tới bây giờ: have / has + V3: bắt đầu trong quá khứ, bây giờ vẫn còn",
+   "đã xong, không nói lúc nào: have / has + V3: việc đã làm; thời điểm không quan trọng hoặc không muốn nói"
+  ],
+  "watch_out_vi": [
+   "Dịch từng chữ từ tiếng Việt: ~~I work there since 2020~~ → I have worked there since 2020.",
+   "Dùng hiện tại hoàn thành với mốc thời gian đã qua: ~~I have seen him yesterday~~ → I saw him yesterday."
+  ]
+ },
+ "exercise_ids": [
+  "G1D3T1",
+  "G1D3T2",
+  "G1D3T3",
+  "G1D3T4",
+  "G1D3I1",
+  "G1D3I2",
+  "G1D3I3",
+  "G1D3I4",
+  "G1D3I5",
+  "G1D3I6",
+  "G1D3Q1",
+  "G1D3Q2",
+  "G1D3KU3C3-1",
+  "G1D3KU3C3-2",
+  "G1D3KU3C3-3",
+  "G1D3KU3C3-4",
+  "G1D3KU3C3-5",
+  "G1D3KU3C3-6",
+  "G1D3KU3C3-7",
+  "G1D3KU3C3-8",
+  "G1D3KU3C3-9",
+  "G1D3KU3C3-10",
+  "G1D3KU3C3-11",
+  "G1D3KU3C3-12",
+  "G1D3KU3C2-1",
+  "G1D3KU3C2-2",
+  "G1D3KU3C2-3",
+  "G1D3KU3C2-4",
+  "G1D3KU3C2-5",
+  "G1D3KU3C2-6",
+  "G1D3KU3C2-7",
+  "G1D3KU3C2-8",
+  "G1D3B1",
+  "G1D3B2",
+  "G1D3B3",
+  "G1D3B4",
+  "G1D3F1",
+  "G1D3F2",
+  "G1D3F3",
+  "G1D3F4",
+  "G1D3KC-1",
+  "G1D3KC-2",
+  "G1D3KC-3",
+  "G1D3KC-4",
+  "G1D3KC-5",
+  "G1D3KC-6",
+  "G1D3KC-7",
+  "G1D3KC-8",
+  "G1D3KC-9",
+  "G1D3KC-10",
+  "G1D3KU3C1-1",
+  "G1D3KU3C1-2",
+  "G1D3KU3C1-3",
+  "G1D3KU3C1-4",
+  "G1D3KU3C1-5",
+  "G1D3KU3C1-6",
+  "G1D3KU3C1-7",
+  "G1D3KU3C4-1",
+  "G1D3KU3C4-2",
+  "G1D3KU3C4-3",
+  "G1D3KU3C4-4",
+  "G1D3KU3C4-5",
+  "G1D3KU3C4-6",
+  "G1D3KU3C4-7",
+  "G1D3KU3C4-8",
+  "G1D3KU3C4-9",
+  "G1D3KU3C4-10",
+  "G1D3KU3C4-11",
+  "G1D3KU3C4-12",
+  "G1D3KU3C4-13",
+  "G1D3KU3C4-14",
+  "G1D3KU3C4-15",
+  "G1D3KD-1",
+  "G1D3KD-2",
+  "G1D3KD-3",
+  "G1D3KD-4",
+  "G1D3KD-5",
+  "G1D3KD-6",
+  "G1D3KD-7",
+  "G1D3KD-8",
+  "G1D3KD-9",
+  "G1D3KD-10",
+  "G1D3D1",
+  "G1D3M1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · vẽ ra để nhớ",
+   "can_do_vi": "Sau buổi này bạn nắm được: mỗi thì một trục: quá khứ, bây giờ, tương lai, và một câu mẫu bên dưới; have / has + v3: bắt đầu trong quá khứ, bây giờ vẫn còn; have / has + v3: việc đã làm; thời điểm không quan trọng hoặc không muốn nói.",
+   "use_vi": "Speaking Part 1 và 2: nói mình đã làm gì, làm được bao lâu. Lỗi `I work here since 2020` và `I have been knowing` rất hay gặp ở người Việt.",
+   "vocab": [
+    "achieve",
+    "reach",
+    "primary school",
+    "secondary school",
+    "results",
+    "degree",
+    "certificate",
+    "measure",
+    "count",
+    "recognise"
+   ],
+   "grammar": [
+    "Trục thời gian · vẽ ra để nhớ",
+    "Present perfect · kéo tới bây giờ",
+    "Present perfect · đã xong, không nói lúc nào"
+   ],
+   "check": [
+    "G1D3T3",
+    "G1D3T4",
+    "G1D3T1",
+    "G1D3T2",
+    "G1D3Q2"
+   ]
+  },
+  {
+   "title_vi": "Buổi 2 · hai mẫu cần thuộc",
+   "can_do_vi": "Sau buổi này bạn nắm được: it's the first time + have (ever) v3; have gone to / have been to; have / has been + v-ing: đã bắt đầu, và lúc nói còn đang làm hoặc vừa dừng.",
+   "use_vi": "Speaking Part 1 và 2: nói mình đã làm gì, làm được bao lâu. Lỗi `I work here since 2020` và `I have been knowing` rất hay gặp ở người Việt.",
+   "vocab": [],
+   "grammar": [
+    "Present perfect · hai mẫu cần thuộc",
+    "Present perfect continuous · hai câu hỏi"
+   ],
+   "check": [
+    "G1D3Q1",
+    "G1D3I1",
+    "G1D3I3",
+    "G1D3I5"
+   ]
+  },
+  {
+   "title_vi": "Buổi 3 · thay thế một chiều",
+   "can_do_vi": "Sau buổi này bạn nắm được: hoàn thành thay được cho hoàn thành tiếp diễn; chiều ngược lại thì không; ba từ dễ lẫn khi viết và khi đọc.",
+   "use_vi": "Speaking Part 1 và 2: nói mình đã làm gì, làm được bao lâu. Lỗi `I work here since 2020` và `I have been knowing` rất hay gặp ở người Việt.",
+   "vocab": [],
+   "grammar": [
+    "Present perfect continuous · thay thế một chiều",
+    "Chính tả · breath, breathe, breadth"
+   ],
+   "check": [
+    "G1D3I2",
+    "G1D3I4",
+    "G1D3I6",
+    "G1D3B1",
+    "G1D3B2",
+    "G1D3B3",
+    "G1D3B4",
+    "G1D3F1",
+    "G1D3F2",
+    "G1D3F3",
+    "G1D3F4",
+    "G1D3D1",
+    "G1D3M1"
+   ]
+  },
+  {
+   "title_vi": "Luyện theo sách · B2 Unit 1 · Chia động từ: hiện tại hoàn thành (+1)",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: chia động từ: hiện tại hoàn thành; sửa thì: thư xin học ngành zoology.",
+   "use_vi": "Làm sau khi học thẻ: mỗi câu sai có lời giải thích, hãy tự nói lại câu đó theo ý muốn nói rồi mới sang câu sau.",
+   "check": [
+    "G1D3KC-1",
+    "G1D3KC-2",
+    "G1D3KC-3",
+    "G1D3KC-4",
+    "G1D3KC-5",
+    "G1D3KC-6",
+    "G1D3KC-7",
+    "G1D3KC-8",
+    "G1D3KC-9",
+    "G1D3KC-10",
+    "G1D3KU3C1-1",
+    "G1D3KU3C1-2",
+    "G1D3KU3C1-3",
+    "G1D3KU3C1-4",
+    "G1D3KU3C1-5",
+    "G1D3KU3C1-6",
+    "G1D3KU3C1-7"
+   ]
+  },
+  {
+   "title_vi": "Luyện theo sách · Grammar 6.5+ Unit 3 · Chọn dạng đúng: email gửi thầy",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: chọn dạng đúng: email gửi thầy.",
+   "use_vi": "Làm sau khi học thẻ: mỗi câu sai có lời giải thích, hãy tự nói lại câu đó theo ý muốn nói rồi mới sang câu sau.",
+   "check": [
+    "G1D3KU3C3-1",
+    "G1D3KU3C3-2",
+    "G1D3KU3C3-3",
+    "G1D3KU3C3-4",
+    "G1D3KU3C3-5",
+    "G1D3KU3C3-6",
+    "G1D3KU3C3-7",
+    "G1D3KU3C3-8",
+    "G1D3KU3C3-9",
+    "G1D3KU3C3-10",
+    "G1D3KU3C3-11",
+    "G1D3KU3C3-12"
+   ]
+  },
+  {
+   "title_vi": "Luyện theo sách · Grammar 6.5+ Unit 3 · Điền động từ: phỏng vấn… (+1)",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: điền động từ: phỏng vấn sinh viên nhật; chọn thì theo biểu đồ: mua sắm trực tuyến.",
+   "use_vi": "Làm sau khi học thẻ: mỗi câu sai có lời giải thích, hãy tự nói lại câu đó theo ý muốn nói rồi mới sang câu sau.",
+   "check": [
+    "G1D3KU3C4-1",
+    "G1D3KU3C4-2",
+    "G1D3KU3C4-3",
+    "G1D3KU3C4-4",
+    "G1D3KU3C4-5",
+    "G1D3KU3C4-6",
+    "G1D3KU3C4-7",
+    "G1D3KU3C4-8",
+    "G1D3KU3C4-9",
+    "G1D3KU3C4-10",
+    "G1D3KU3C4-11",
+    "G1D3KU3C4-12",
+    "G1D3KU3C4-13",
+    "G1D3KU3C4-14",
+    "G1D3KU3C4-15",
+    "G1D3KU3C2-1",
+    "G1D3KU3C2-2",
+    "G1D3KU3C2-3",
+    "G1D3KU3C2-4",
+    "G1D3KU3C2-5",
+    "G1D3KU3C2-6",
+    "G1D3KU3C2-7",
+    "G1D3KU3C2-8"
+   ]
+  },
+  {
+   "title_vi": "Luyện theo sách · B2 Unit 1 · Điền từ trong khung: dấu hiệu của hoàn…",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: điền từ trong khung: dấu hiệu của hoàn thành.",
+   "use_vi": "Làm sau khi học thẻ: mỗi câu sai có lời giải thích, hãy tự nói lại câu đó theo ý muốn nói rồi mới sang câu sau.",
+   "check": [
+    "G1D3KD-1",
+    "G1D3KD-2",
+    "G1D3KD-3",
+    "G1D3KD-4",
+    "G1D3KD-5",
+    "G1D3KD-6",
+    "G1D3KD-7",
+    "G1D3KD-8",
+    "G1D3KD-9",
+    "G1D3KD-10"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Ý và thứ tự giảng theo bài giảng của thầy Minh; khung và số trang theo Destination B2, Unit 1. Lời giải thích, ví dụ và câu hỏi do khóa học tự soạn; bài tập của sách làm trong sách."
+  }
+ ]
+}
