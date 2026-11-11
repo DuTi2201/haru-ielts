@@ -116,7 +116,7 @@ def test_gate_every_piece_of_a_picture_is_brought_in_by_a_line(n):
 
 
 def test_gate_the_teachers_words_are_verbatim():
-    quotes = [c.usage_context_vi for c in DAY1.grammar if "Trích: «" in (c.usage_context_vi or "")]
+    quotes = [c.usage_context_vi for c in DAY1.grammar if "«" in (c.usage_context_vi or "")]
     said = _lecture(1).script.lower()
     found = re.findall(r"«([^»]+)»", "\n".join(quotes))
     assert len(found) == 2

@@ -224,7 +224,7 @@ SITTING_1 = [
         {"say": "Trong năm nhóm vừa rồi, ba nhóm lớn nhất là việc lặp lại, trạng thái, và sự thật.", "show": "groups"},
         {"say": "Nhưng chữ sự thật ở đây rộng hơn bạn nghĩ. Câu đầu tiên."},
         {"en": "Water boils at 100 degrees Celsius.", "vi": "Nước sôi ở 100 độ C.", "gap": True, "show": "c1"},
-        {"say": "Đây là sự thật khách quan, ai cũng công nhận. Nhưng ngoài đời, mấy khi mình ngồi nói với nhau chuyện nước sôi ở bao nhiêu độ."},
+        {"say": "Sự thật khách quan, ai cũng công nhận. Nhưng ngoài đời, mấy khi ta nói chuyện nước sôi."},
         {"say": "Tình huống thứ hai. Tuần nào bạn cũng về thăm mẹ hai lần. Tuần này bận thi, bạn chỉ về một lần. Mẹ trách ngay."},
         {"en": "You don't visit me at all!", "vi": "Con chẳng về thăm mẹ gì cả!", "gap": True, "show": "c2"},
         {"say": "Con chẳng về thăm mẹ gì cả. Mẹ nói quá lên, và mẹ vẫn dùng hiện tại đơn, vì lúc đó mẹ trình bày điều ấy như một sự thật."},
