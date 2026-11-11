@@ -15,6 +15,9 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 from b1 import build as B  # noqa: E402
+sys.path.insert(0, str(HERE))
+import book_items as BK  # noqa: E402
+import entry_test as ET  # noqa: E402
 
 LESSONS = ROOT / "app" / "seed" / "lessons"
 BANK = ROOT / "app" / "seed" / "exercises" / "g1"
@@ -116,6 +119,33 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
         bank["build"].append(B.build_order(f"{pid}B{i}", f"Xếp câu · Ngày {n}", vi, en))
     for i, f in enumerate(d["f"], 1):
         bank["build"].append(B.write_fill(f"{pid}F{i}", f"Gõ dạng đúng · Ngày {n}", f["text"], f["accepted"], f["tip"]))
+    book_ids: list[str] = []
+    book_groups: dict[str, list[str]] = {}
+    book_src: dict[str, tuple[str, str]] = {}
+    for day, code, src, title, instr, kind, lines in BK.SECTIONS:
+        if day != n:
+            continue
+        for i, ln in enumerate(lines, 1):
+            f = [x.strip() for x in ln.split(" | ")]
+            ex_id = f"{pid}K{code}-{i}"
+            ttl = f"Sách · {title} ({i}/{len(lines)})"
+            if kind == "choice":
+                stem, opts, why = f[0], f[1:-1], f[-1] + f" [{src}]"
+                if "( )" in stem:
+                    ex = B.mcq(ex_id, ttl, stem, None, opts, why, instr)
+                else:
+                    ex = B.mcq(ex_id, ttl, None, stem, opts, why, instr)
+                bank["reading"].append(ex)
+            else:
+                text, acc, tip = f[0], f[1].split(";"), f[2] + f" [{src}]"
+                ex = B.write_fill(ex_id, ttl, text, acc, tip)
+                ex["instruction_vi"] = instr
+                bank["build"].append(ex)
+            links[ex_id] = [patterns[0] if n in (1, 3) else patterns[min(1, len(patterns) - 1)]]
+            book_ids.append(ex_id)
+            book_groups.setdefault(code, []).append(ex_id)
+            book_src[code] = (title, src)
+
     dic = B.dictation(f"{pid}D1", f"Nghe chép · Ngày {n}", d["d"], [(w["head"], w["meaning"]) for w in d["words"]])
     if dic:
         dic["tips_vi"] = ["Nghe âm cuối: -s của ngôi thứ ba, 's và n't, -ing. Sau khi kiểm tra, nghe lại và nhại theo đúng nhịp."]
@@ -148,7 +178,8 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
     groups = [idx[i:i + 3] for i in range(0, len(idx), 3)]
     if len(groups) > 1 and len(groups[-1]) == 1:  # no sitting with a single card: 7 cards -> 3, 2, 2
         groups[-2], groups[-1] = groups[-2][:2], groups[-2][2:] + groups[-1]
-    rest = [e["id"] for k in ("build", "listening", "writing") for e in bank[k]]
+    book_set = set(book_ids)
+    rest = [e["id"] for k in ("build", "listening", "writing") for e in bank[k] if e["id"] not in book_set]
     sessions = []
     for gi, g in enumerate(groups):
         checks = [qid for c in g for qid in by_card.get(c, [])]
@@ -162,6 +193,23 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
             "grammar": [patterns[c] for c in g],
             "check": checks,
         })
+    chunk: list[str] = []
+    names: list[str] = []
+    book_sittings: list[tuple[list[str], list[str]]] = []
+    for code, ids in book_groups.items():
+        if chunk and len(chunk) + len(ids) > 24:
+            book_sittings.append((names, chunk)); chunk, names = [], []
+        chunk += ids; names.append(code)
+    if chunk:
+        book_sittings.append((names, chunk))
+    for names, ids in book_sittings:
+        label = ", ".join(f"{c}" for c in names)
+        sessions.append({
+            "title_vi": f"Bài trong sách · {label}"[:70],
+            "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: " + "; ".join(book_src[c][0].lower() for c in names) + ".",
+            "use_vi": "Làm sau khi học thẻ: mỗi câu sai có lời giải thích, hãy tự nói lại câu đó theo ý muốn nói rồi mới sang câu sau.",
+            "check": ids,
+        })
     book_body = "\n".join(
         f"• 📖 {b['book']}, trang {b['pages']}: " + (f"bài {b['task']} ({b['items']} câu, khoảng {b['minutes']} phút)" if b["items"] else f"{b['task']} (khoảng {b['minutes']} phút)")
         for b in d["book"])
@@ -173,7 +221,7 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
         "vocab": vocab, "grammar": grammar,
         "notes": [
             {"title": "Mục tiêu của ngày", "body": f"• 🎯 {d['goal']}", "kind": "goal"},
-            {"title": "Sách trước: tự làm rồi mới học thẻ", "body": book_body + "\n• Làm trong sách, ghi đáp án của bạn, rồi mới mở thẻ. Sau khi học thẻ, quay lại chấm bằng đáp án cuối sách và tự giải thích từng câu sai theo ý muốn nói.", "kind": "language"},
+            {"title": "Bài của sách nằm trong app", "body": book_body + "\n• Các bài này đã có sẵn trong app, ở các buổi \"Bài trong sách\" cuối ngày, kèm đáp án của sách và lời giải thích từng câu. Nếu có sách giấy, bạn có thể làm trên sách trước rồi chấm lại trong app. Sau khi học thẻ, với mỗi câu sai hãy tự nói lại câu đó theo ý muốn nói.", "kind": "language"},
             {"title": "Dùng ở đâu trong IELTS", "body": d["ielts"], "kind": "language"},
         ],
         "bank": "g1",
@@ -183,6 +231,42 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
         "editor_notes": [{"title": "Nguồn", "body": "Ý và thứ tự giảng theo bài giảng của thầy Minh; khung và số trang theo Destination B2, Unit 1. Lời giải thích, ví dụ và câu hỏi do khóa học tự soạn; bài tập của sách làm trong sách."}],
     }
     return lesson, bank, links
+
+
+def entry_lesson() -> tuple[dict, list[dict]]:
+    """The 50-item entry test of IELTS Grammar 6.5+ as a lesson of its own, in five sittings of ten."""
+    exs: list[dict] = []
+    for i, (stem, a, b, c, key, unit, point) in enumerate(ET.ITEMS, 1):
+        opts = {"A": a, "B": b, "C": c}
+        right = opts[key]
+        order = [right] + [v for k, v in opts.items() if k != key]
+        why = f"Đáp án: {right}. {point} Nếu sai: học Unit {unit} của IELTS Grammar for Bands 6.5+ (khóa của sách)."
+        title = f"Kiểm tra đầu vào · câu {i}/50"
+        ins = "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc."
+        if "( )" in stem:
+            ex = B.mcq(f"G1E{i}", title, stem, None, order, why, ins)
+        else:
+            ex = B.mcq(f"G1E{i}", title, None, stem, order, why, ins)
+        exs.append(ex)
+    sessions = []
+    for k in range(5):
+        chunk = exs[k * 10:(k + 1) * 10]
+        sessions.append({
+            "title_vi": f"Câu {k * 10 + 1}–{k * 10 + 10} của bài kiểm tra"[:70],
+            "can_do_vi": "Sau buổi này bạn biết mình đang yếu hay chắc ở những Unit nào của ngữ pháp, để học đúng chỗ.",
+            "vocab": ["diagnostic"] if k == 0 else [],
+            "check": [e["id"] for e in chunk],
+        })
+    lesson = {
+        "slug": "g1-entry-test", "title": "G1 · Bài kiểm tra đầu vào (50 câu)", "title_en": "Grammar entry test (50 items)", "topic": TOPIC,
+        "track": "beginner", "level": 4, "sort_order": 100,
+        "summary": "Bài đo trình độ ngữ pháp của sách IELTS Grammar for Bands 6.5+: 50 câu, mỗi câu chỉ ra Unit cần học nếu sai.",
+        "vocab": [{"headword": "diagnostic", "pos": "A", "meaning_vi": "dùng để chẩn đoán, tìm ra chỗ yếu", "example_en": "This diagnostic test shows which grammar units you need to study.", "example_vi": "Bài kiểm tra chẩn đoán này cho biết bạn cần học những Unit ngữ pháp nào.", "family": "Từ của ngày", "priority": "core", "source": SOURCE}], "grammar": [],
+        "notes": [{"title": "Cách làm và cách đọc kết quả", "body": "• Làm một mạch, không tra sách. Câu không chắc thì ghi lại.\n• Mỗi lời giải thích cho biết Unit của sách cần học nếu sai. Gom các Unit hay sai nhất để biết phải ôn gì trước.\n• Bài này đo trình độ, không phải chương trình học: tuần 1 vẫn đi theo Ngày 1–4.", "kind": "goal"}],
+        "bank": "g1", "exercise_ids": [e["id"] for e in exs], "sessions": sessions,
+        "editor_notes": [{"title": "Nguồn", "body": "IELTS Grammar for Bands 6.5 and above (Hopkins & Cullen, Cambridge), Entry test trang x–xii; đáp án và Unit theo khóa trang 221."}],
+    }
+    return lesson, exs
 
 
 def main() -> None:
@@ -198,6 +282,9 @@ def main() -> None:
         for k, v in bank.items():
             merged.setdefault(k, []).extend(v)
         links.update(ln)
+    elesson, eex = entry_lesson()
+    (LESSONS / f"{elesson['slug']}.json").write_text(json.dumps(elesson, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+    merged.setdefault("reading", []).extend(eex)
     for k, items in merged.items():
         (BANK / f"{k}.json").write_text(json.dumps({"skill": k, "guide": B.GUIDES[k], "items": items}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     (BANK / "grammar_links.json").write_text(json.dumps({"links": links}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

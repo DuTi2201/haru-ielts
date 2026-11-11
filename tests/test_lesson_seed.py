@@ -19,7 +19,7 @@ class SeedFilesTests(unittest.TestCase):
 
     def test_the_files_load_without_problems(self):
         self.assertEqual(self.bundle.problems, [])
-        self.assertEqual(len(self.bundle.lessons), 46)
+        self.assertEqual(len(self.bundle.lessons), 47)
         by_topic: dict[str, int] = {}
         for r in self.bundle.lessons:
             by_topic[r.seed.topic] = by_topic.get(r.seed.topic, 0) + 1
@@ -27,14 +27,14 @@ class SeedFilesTests(unittest.TestCase):
             by_topic,
             {
                 "Destination B1 · Lấy gốc": 42,
-                "G1 · Các thì hiện tại (Tuần 1)": 4,
+                "G1 · Các thì hiện tại (Tuần 1)": 5,
             },
         )
 
     def test_lessons_come_out_in_curriculum_order(self):
         order = [(r.seed.track, r.seed.sort_order) for r in self.bundle.lessons]
         self.assertEqual(order, sorted(order, key=lambda t: (seed.TRACKS.index(t[0]), t[1])))
-        self.assertEqual(len({r.seed.slug for r in self.bundle.lessons}), 46)
+        self.assertEqual(len({r.seed.slug for r in self.bundle.lessons}), 47)
 
     def test_every_exercise_belongs_to_a_lesson_and_every_question_id_is_unique(self):
         used = {i for r in self.bundle.lessons for i in r.seed.exercise_ids}
@@ -133,11 +133,13 @@ class ExerciseBankTests(unittest.TestCase):
         for r in self.bundle.lessons:
             g1 = r.seed.slug.startswith("g1-")
             self.assertEqual(r.seed.bank, "g1" if g1 else "b1", r.seed.slug)
-            self.assertTrue(all(i.startswith("G1D" if g1 else "B1U") for i in r.seed.exercise_ids), r.seed.slug)
+            self.assertTrue(all(i.startswith(("G1D", "G1E") if g1 else "B1U") for i in r.seed.exercise_ids), r.seed.slug)
             for ex_id in r.seed.exercise_ids:
                 self.assertEqual(self.bank_of[ex_id], r.seed.bank, f"{r.seed.slug}: {ex_id}")
             by_skill = r.practice["counts"]["by_skill"]
             # week 1 of G1 is phase one of the method: no scored speaking yet
+            if r.seed.slug == "g1-entry-test":  # a 50-item diagnostic: reading items only
+                continue
             for skill in ("listening", "reading", "build", "writing") + (() if g1 else ("speaking",)):
                 self.assertTrue(by_skill.get(skill), f"{r.seed.slug}: no {skill}")
 
@@ -282,10 +284,10 @@ class SyncTests(unittest.TestCase):
         db.execute.side_effect = execute
         report = seed.sync_lessons(db, bundle)
         self.assertEqual(set(report.values()), {"unchanged"})
-        self.assertEqual(len(report), 46)
+        self.assertEqual(len(report), 47)
         db.add.assert_not_called()
         parts = sum(1 for r in bundle.lessons if r.seed.split_from)
-        self.assertEqual(db.execute.call_count, 46 + parts)
+        self.assertEqual(db.execute.call_count, 47 + parts)
 
 
 if __name__ == "__main__":

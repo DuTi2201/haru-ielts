@@ -299,6 +299,293 @@
    }
   },
   {
+   "id": "G1D1KA-1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng (1/10)",
+   "instruction_vi": "Chọn cách nói đúng với ý của câu. Hỏi: người nói trình bày việc này như thói quen/sự thật, hay như việc đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D1KA-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "is usually going"
+      },
+      {
+       "id": "2",
+       "text": "usually goes"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`usually` = thói quen lặp lại → hiện tại đơn. Ngôi thứ ba số ít nên có -s. [Destination B2, Unit 1 · bài A (trang 8)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Elizabeth ( ) to bed at around eleven o'clock."
+   }
+  },
+  {
+   "id": "G1D1KA-2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng (2/10)",
+   "instruction_vi": "Chọn cách nói đúng với ý của câu. Hỏi: người nói trình bày việc này như thói quen/sự thật, hay như việc đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D1KA-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "talks"
+      },
+      {
+       "id": "2",
+       "text": "is talking"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`right now` = đang xảy ra lúc nói → hiện tại tiếp diễn. [Destination B2, Unit 1 · bài A (trang 8)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Dan ( ) on the other phone right now."
+   }
+  },
+  {
+   "id": "G1D1KA-3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng (3/10)",
+   "instruction_vi": "Chọn cách nói đúng với ý của câu. Hỏi: người nói trình bày việc này như thói quen/sự thật, hay như việc đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D1KA-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "don't eat"
+      },
+      {
+       "id": "2",
+       "text": "aren't eating"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`at the moment` + đang ăn kiêng = tạm thời → tiếp diễn. Bình thường họ vẫn ăn thịt. [Destination B2, Unit 1 · bài A (trang 8)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "We ( ) any meat at the moment as we're both on a diet."
+   }
+  },
+  {
+   "id": "G1D1KA-4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng (4/10)",
+   "instruction_vi": "Chọn cách nói đúng với ý của câu. Hỏi: người nói trình bày việc này như thói quen/sự thật, hay như việc đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D1KA-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "Does air travel get"
+      },
+      {
+       "id": "2",
+       "text": "Is air travel getting"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`increasingly` nói về một xu hướng đang thay đổi → tiếp diễn (trục: situation changing). [Destination B2, Unit 1 · bài A (trang 8)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) increasingly safe?"
+   }
+  },
+  {
+   "id": "G1D1KA-5",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng (5/10)",
+   "instruction_vi": "Chọn cách nói đúng với ý của câu. Hỏi: người nói trình bày việc này như thói quen/sự thật, hay như việc đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D1KA-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "calls"
+      },
+      {
+       "id": "2",
+       "text": "is calling"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`every weekend without fail` = thói quen đều đặn → đơn. [Destination B2, Unit 1 · bài A (trang 8)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "My mum ( ) me every weekend without fail."
+   }
+  },
+  {
+   "id": "G1D1KA-6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng (6/10)",
+   "instruction_vi": "Chọn cách nói đúng với ý của câu. Hỏi: người nói trình bày việc này như thói quen/sự thật, hay như việc đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D1KA-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "are babysitters generally earning"
+      },
+      {
+       "id": "2",
+       "text": "do babysitters generally earn"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`generally` nói về quy luật chung, không phải việc tạm thời → đơn. Câu hỏi mượn `do`. [Destination B2, Unit 1 · bài A (trang 8)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "How much ( )?"
+   }
+  },
+  {
+   "id": "G1D1KA-7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng (7/10)",
+   "instruction_vi": "Chọn cách nói đúng với ý của câu. Hỏi: người nói trình bày việc này như thói quen/sự thật, hay như việc đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D1KA-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "You always come"
+      },
+      {
+       "id": "2",
+       "text": "You're always coming"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Câu có chữ `annoying`: `always` + tiếp diễn để phàn nàn việc lặp lại quá mức người nói thấy khó chịu. [Destination B2, Unit 1 · bài A (trang 8)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) up with excuses for not having done your homework. It's so annoying!"
+   }
+  },
+  {
+   "id": "G1D1KA-8",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Khoanh từ đúng (8/10)",
+   "instruction_vi": "Chọn cách nói đúng với ý của câu. Hỏi: người nói trình bày việc này như thói quen/sự thật, hay như việc đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D1KA-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "I'm not going / I'm always trying"
+      },
+      {
+       "id": "2",
+       "text": "I don't go / I always try"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Cả hai vế nói về thói quen chung nên dùng đơn. Không có ý phàn nàn nên không dùng `always` + tiếp diễn. [Destination B2, Unit 1 · bài A (trang 8)]",
+     "tags": [],
+     "prompt_vi": "Chọn cặp đúng cho: «___ out much during the week but ___ to go out somewhere on Saturday night.»"
+    }
+   ]
+  },
+  {
+   "id": "G1D1KA-9",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng (9/10)",
+   "instruction_vi": "Chọn cách nói đúng với ý của câu. Hỏi: người nói trình bày việc này như thói quen/sự thật, hay như việc đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D1KA-9",
+     "options": [
+      {
+       "id": "1",
+       "text": "does stop"
+      },
+      {
+       "id": "2",
+       "text": "is stopping"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`on Saturdays` = lịch cố định; `does stop` nhấn mạnh để đính chính lại câu trước (xem thẻ nhấn mạnh với do/does). [Destination B2, Unit 1 · bài A (trang 8)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "No, the train ( ) at Cirencester on Saturdays."
+   }
+  },
+  {
+   "id": "G1D1KA-10",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng (10/10)",
+   "instruction_vi": "Chọn cách nói đúng với ý của câu. Hỏi: người nói trình bày việc này như thói quen/sự thật, hay như việc đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D1KA-10",
+     "options": [
+      {
+       "id": "1",
+       "text": "takes"
+      },
+      {
+       "id": "2",
+       "text": "is taking"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`almost every weekend` = thói quen → đơn. `take part in` là cụm cố định. [Destination B2, Unit 1 · bài A (trang 8)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "My mum ( ) part in ice-skating competitions almost every weekend."
+   }
+  },
+  {
    "id": "G1D2I1",
    "skill": "reading",
    "type": "read_match",
@@ -603,6 +890,486 @@
     "kind": "cloze",
     "text": "Wait! I ( ) to finish this page."
    }
+  },
+  {
+   "id": "G1D2KG-1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Nối để thành câu (1/8)",
+   "instruction_vi": "Mỗi vế đầu có hai dạng gần nhau (think/thinking, look/looking, have/having, be/being). Chọn vế sau khớp với nghĩa của động từ.",
+   "questions": [
+    {
+     "id": "G1D2KG-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "I'm going to buy the new Racetrack CD."
+      },
+      {
+       "id": "2",
+       "text": "of getting Dad a CD for his birthday."
+      },
+      {
+       "id": "3",
+       "text": "darker hair than her sister."
+      },
+      {
+       "id": "4",
+       "text": "like he needs a holiday!"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`think` = ý kiến (trạng thái) → đơn: «I think I'm going to buy…». Phần `of getting` chỉ đi với `thinking of`. [Destination B2, Unit 1 · bài G (trang 9)]",
+     "tags": [],
+     "prompt_vi": "«I think ...» nối với phần nào?"
+    }
+   ]
+  },
+  {
+   "id": "G1D2KG-2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Nối để thành câu (2/8)",
+   "instruction_vi": "Mỗi vế đầu có hai dạng gần nhau (think/thinking, look/looking, have/having, be/being). Chọn vế sau khớp với nghĩa của động từ.",
+   "questions": [
+    {
+     "id": "G1D2KG-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "very annoying at the moment!"
+      },
+      {
+       "id": "2",
+       "text": "of getting Dad a CD for his birthday."
+      },
+      {
+       "id": "3",
+       "text": "I'm going to buy the new Racetrack CD."
+      },
+      {
+       "id": "4",
+       "text": "not old enough to drive a car."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`thinking` = đang cân nhắc, ý nghĩ đang diễn ra → tiếp diễn, và `think of + V-ing`. [Destination B2, Unit 1 · bài G (trang 9)]",
+     "tags": [],
+     "prompt_vi": "«I'm thinking ...» nối với phần nào?"
+    }
+   ]
+  },
+  {
+   "id": "G1D2KG-3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Nối để thành câu (3/8)",
+   "instruction_vi": "Mỗi vế đầu có hai dạng gần nhau (think/thinking, look/looking, have/having, be/being). Chọn vế sau khớp với nghĩa của động từ.",
+   "questions": [
+    {
+     "id": "G1D2KG-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "a haircut at the moment."
+      },
+      {
+       "id": "2",
+       "text": "darker hair than her sister."
+      },
+      {
+       "id": "3",
+       "text": "like he needs a holiday!"
+      },
+      {
+       "id": "4",
+       "text": "for his glasses. Have you seen them?"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`look for` = đi tìm (hành động đang làm). Không nhầm với `look like` = trông như. [Destination B2, Unit 1 · bài G (trang 9)]",
+     "tags": [],
+     "prompt_vi": "«Phil's looking ...» nối với phần nào?"
+    }
+   ]
+  },
+  {
+   "id": "G1D2KG-4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Nối để thành câu (4/8)",
+   "instruction_vi": "Mỗi vế đầu có hai dạng gần nhau (think/thinking, look/looking, have/having, be/being). Chọn vế sau khớp với nghĩa của động từ.",
+   "questions": [
+    {
+     "id": "G1D2KG-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "like he needs a holiday!"
+      },
+      {
+       "id": "2",
+       "text": "darker hair than her sister."
+      },
+      {
+       "id": "3",
+       "text": "not old enough to drive a car."
+      },
+      {
+       "id": "4",
+       "text": "for his glasses. Have you seen them?"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`looks like` = vẻ ngoài (trạng thái) → đơn. [Destination B2, Unit 1 · bài G (trang 9)]",
+     "tags": [],
+     "prompt_vi": "«Phil looks ...» nối với phần nào?"
+    }
+   ]
+  },
+  {
+   "id": "G1D2KG-5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Nối để thành câu (5/8)",
+   "instruction_vi": "Mỗi vế đầu có hai dạng gần nhau (think/thinking, look/looking, have/having, be/being). Chọn vế sau khớp với nghĩa của động từ.",
+   "questions": [
+    {
+     "id": "G1D2KG-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "darker hair than her sister."
+      },
+      {
+       "id": "2",
+       "text": "like he needs a holiday!"
+      },
+      {
+       "id": "3",
+       "text": "a haircut at the moment."
+      },
+      {
+       "id": "4",
+       "text": "of getting Dad a CD for his birthday."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`have` = sở hữu/đặc điểm (trạng thái) → không dùng tiếp diễn. [Destination B2, Unit 1 · bài G (trang 9)]",
+     "tags": [],
+     "prompt_vi": "«Claire has ...» nối với phần nào?"
+    }
+   ]
+  },
+  {
+   "id": "G1D2KG-6",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Nối để thành câu (6/8)",
+   "instruction_vi": "Mỗi vế đầu có hai dạng gần nhau (think/thinking, look/looking, have/having, be/being). Chọn vế sau khớp với nghĩa của động từ.",
+   "questions": [
+    {
+     "id": "G1D2KG-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "darker hair than her sister."
+      },
+      {
+       "id": "2",
+       "text": "a haircut at the moment."
+      },
+      {
+       "id": "3",
+       "text": "like he needs a holiday!"
+      },
+      {
+       "id": "4",
+       "text": "for his glasses. Have you seen them?"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`have a haircut` = trải nghiệm/hành động đang diễn ra → tiếp diễn được. Khác `has` = sở hữu. [Destination B2, Unit 1 · bài G (trang 9)]",
+     "tags": [],
+     "prompt_vi": "«Claire is having ...» nối với phần nào?"
+    }
+   ]
+  },
+  {
+   "id": "G1D2KG-7",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Nối để thành câu (7/8)",
+   "instruction_vi": "Mỗi vế đầu có hai dạng gần nhau (think/thinking, look/looking, have/having, be/being). Chọn vế sau khớp với nghĩa của động từ.",
+   "questions": [
+    {
+     "id": "G1D2KG-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "a haircut at the moment."
+      },
+      {
+       "id": "2",
+       "text": "very annoying at the moment!"
+      },
+      {
+       "id": "3",
+       "text": "not old enough to drive a car."
+      },
+      {
+       "id": "4",
+       "text": "like he needs a holiday!"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "`is` + tính từ = trạng thái hiện tại bình thường (một sự thật về tuổi). [Destination B2, Unit 1 · bài G (trang 9)]",
+     "tags": [],
+     "prompt_vi": "«Andy is ...» nối với phần nào?"
+    }
+   ]
+  },
+  {
+   "id": "G1D2KG-8",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Nối để thành câu (8/8)",
+   "instruction_vi": "Mỗi vế đầu có hai dạng gần nhau (think/thinking, look/looking, have/having, be/being). Chọn vế sau khớp với nghĩa của động từ.",
+   "questions": [
+    {
+     "id": "G1D2KG-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "darker hair than her sister."
+      },
+      {
+       "id": "2",
+       "text": "not old enough to drive a car."
+      },
+      {
+       "id": "3",
+       "text": "very annoying at the moment!"
+      },
+      {
+       "id": "4",
+       "text": "of getting Dad a CD for his birthday."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "`be` ở tiếp diễn = cư xử như thế trong lúc này, chỉ tạm thời: `is being annoying` ≠ `is annoying` (tính cách). [Destination B2, Unit 1 · bài G (trang 9)]",
+     "tags": [],
+     "prompt_vi": "«Andy is being ...» nối với phần nào?"
+    }
+   ]
+  },
+  {
+   "id": "G1D2KC1-1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Chọn vế sau đúng (1/8)",
+   "instruction_vi": "Hai vế sau khác nhau ở ý: một vế nói thói quen hoặc sự thật, một vế nói việc tạm thời hoặc đang xảy ra. Chọn vế khớp với động từ.",
+   "questions": [
+    {
+     "id": "G1D2KC1-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "because her favourite film star is on."
+      },
+      {
+       "id": "2",
+       "text": "when she has time."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Tiếp diễn = đang xem lúc này, vì có lý do cụ thể. Vế `when she has time` đi với thói quen (đơn). [IELTS Grammar 6.5+, Unit 1 · bài C1 (trang 4)]",
+     "tags": [],
+     "prompt_vi": "«Fiona is watching television ...»"
+    }
+   ]
+  },
+  {
+   "id": "G1D2KC1-2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Chọn vế sau đúng (2/8)",
+   "instruction_vi": "Hai vế sau khác nhau ở ý: một vế nói thói quen hoặc sự thật, một vế nói việc tạm thời hoặc đang xảy ra. Chọn vế khớp với động từ.",
+   "questions": [
+    {
+     "id": "G1D2KC1-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "at one o'clock every day."
+      },
+      {
+       "id": "2",
+       "text": "early today as I have an appointment."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Tiếp diễn = tạm thời, hôm nay khác thường. `every day` đi với đơn (`I have my lunch`). [IELTS Grammar 6.5+, Unit 1 · bài C1 (trang 4)]",
+     "tags": [],
+     "prompt_vi": "«I'm having my lunch ...»"
+    }
+   ]
+  },
+  {
+   "id": "G1D2KC1-3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Chọn vế sau đúng (3/8)",
+   "instruction_vi": "Hai vế sau khác nhau ở ý: một vế nói thói quen hoặc sự thật, một vế nói việc tạm thời hoặc đang xảy ra. Chọn vế khớp với động từ.",
+   "questions": [
+    {
+     "id": "G1D2KC1-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "today for a friend who's ill."
+      },
+      {
+       "id": "2",
+       "text": "at the same time every week."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đơn = thói quen cố định. Vế `today for a friend who's ill` cần `I'm doing`. [IELTS Grammar 6.5+, Unit 1 · bài C1 (trang 4)]",
+     "tags": [],
+     "prompt_vi": "«I do the shopping ...»"
+    }
+   ]
+  },
+  {
+   "id": "G1D2KC1-4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Chọn vế sau đúng (4/8)",
+   "instruction_vi": "Hai vế sau khác nhau ở ý: một vế nói thói quen hoặc sự thật, một vế nói việc tạm thời hoặc đang xảy ra. Chọn vế khớp với động từ.",
+   "questions": [
+    {
+     "id": "G1D2KC1-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "to your sister? Leave her alone!"
+      },
+      {
+       "id": "2",
+       "text": "to your sister when she behaves badly?"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Tiếp diễn = đang làm ngay bây giờ (`Leave her alone!`). Hỏi về thói quen phải là `What do you do…`. [IELTS Grammar 6.5+, Unit 1 · bài C1 (trang 4)]",
+     "tags": [],
+     "prompt_vi": "«What are you doing ...»"
+    }
+   ]
+  },
+  {
+   "id": "G1D2KC1-5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Chọn vế sau đúng (5/8)",
+   "instruction_vi": "Hai vế sau khác nhau ở ý: một vế nói thói quen hoặc sự thật, một vế nói việc tạm thời hoặc đang xảy ra. Chọn vế khớp với động từ.",
+   "questions": [
+    {
+     "id": "G1D2KC1-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "because we're having a party at lunchtime."
+      },
+      {
+       "id": "2",
+       "text": "at the weekend."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đơn = thói quen. Vế sau với `because we're having a party` cần `I'm wearing` (tạm thời). [IELTS Grammar 6.5+, Unit 1 · bài C1 (trang 4)]",
+     "tags": [],
+     "prompt_vi": "«I wear casual clothes ...»"
+    }
+   ]
+  },
+  {
+   "id": "G1D2KC1-6",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Chọn vế sau đúng (6/8)",
+   "instruction_vi": "Hai vế sau khác nhau ở ý: một vế nói thói quen hoặc sự thật, một vế nói việc tạm thời hoặc đang xảy ra. Chọn vế khớp với động từ.",
+   "questions": [
+    {
+     "id": "G1D2KC1-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "to get the concert ready for next week."
+      },
+      {
+       "id": "2",
+       "text": "but they get long holidays."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đơn = sự thật chung về nghề giáo viên. Vế `to get the concert ready for next week` nói một việc tạm thời, cần `are working`. [IELTS Grammar 6.5+, Unit 1 · bài C1 (trang 4)]",
+     "tags": [],
+     "prompt_vi": "«Teachers work hard ...»"
+    }
+   ]
+  },
+  {
+   "id": "G1D2KC1-7",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Chọn vế sau đúng (7/8)",
+   "instruction_vi": "Hai vế sau khác nhau ở ý: một vế nói thói quen hoặc sự thật, một vế nói việc tạm thời hoặc đang xảy ra. Chọn vế khớp với động từ.",
+   "questions": [
+    {
+     "id": "G1D2KC1-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "when there is greater demand for its products."
+      },
+      {
+       "id": "2",
+       "text": "now that it has a new Chief Executive."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Tiếp diễn = xu hướng đang thay đổi, `now that…` chỉ lý do mới xuất hiện. `when…` đi với sự thật chung. [IELTS Grammar 6.5+, Unit 1 · bài C1 (trang 4)]",
+     "tags": [],
+     "prompt_vi": "«The company's financial situation is improving ...»"
+    }
+   ]
+  },
+  {
+   "id": "G1D2KC1-8",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Chọn vế sau đúng (8/8)",
+   "instruction_vi": "Hai vế sau khác nhau ở ý: một vế nói thói quen hoặc sự thật, một vế nói việc tạm thời hoặc đang xảy ra. Chọn vế khớp với động từ.",
+   "questions": [
+    {
+     "id": "G1D2KC1-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "because he isn't happy at work any more."
+      },
+      {
+       "id": "2",
+       "text": "every time something bad happens at work."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`is thinking of` = đang cân nhắc, tạm thời. `every time…` đi với thói quen. [IELTS Grammar 6.5+, Unit 1 · bài C1 (trang 4)]",
+     "tags": [],
+     "prompt_vi": "«Serge is thinking of retiring early ...»"
+    }
+   ]
   },
   {
    "id": "G1D3T1",
@@ -1320,6 +2087,2366 @@
    "stimulus": {
     "kind": "cloze",
     "text": "That's the second time you ( ) that question today!"
+   }
+  },
+  {
+   "id": "G1D4KE-1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng (trộn bốn thì) (1/10)",
+   "instruction_vi": "Trộn cả bốn thì hiện tại. Trước khi chọn, hỏi: việc này là thói quen/sự thật, tạm thời, đã xong với kết quả bây giờ, hay làm liên tục đến giờ?",
+   "questions": [
+    {
+     "id": "G1D4KE-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "has taken"
+      },
+      {
+       "id": "2",
+       "text": "has been taking"
+      },
+      {
+       "id": "3",
+       "text": "is taking"
+      },
+      {
+       "id": "4",
+       "text": "takes"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "`at the moment` = đang xảy ra → tiếp diễn. [Destination B2, Unit 1 · bài E (trang 9)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Ian ( ) a shower at the moment, so could you call back in about half an hour?"
+   }
+  },
+  {
+   "id": "G1D4KE-2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng (trộn bốn thì) (2/10)",
+   "instruction_vi": "Trộn cả bốn thì hiện tại. Trước khi chọn, hỏi: việc này là thói quen/sự thật, tạm thời, đã xong với kết quả bây giờ, hay làm liên tục đến giờ?",
+   "questions": [
+    {
+     "id": "G1D4KE-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "Are you ever going"
+      },
+      {
+       "id": "2",
+       "text": "Have you ever been"
+      },
+      {
+       "id": "3",
+       "text": "Have you ever been going"
+      },
+      {
+       "id": "4",
+       "text": "Do you ever go"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`before` + kinh nghiệm → hoàn thành đơn. Không dùng tiếp diễn với `ever`. [Destination B2, Unit 1 · bài E (trang 9)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) to Ipswich before?"
+   }
+  },
+  {
+   "id": "G1D4KE-3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng (trộn bốn thì) (3/10)",
+   "instruction_vi": "Trộn cả bốn thì hiện tại. Trước khi chọn, hỏi: việc này là thói quen/sự thật, tạm thời, đã xong với kết quả bây giờ, hay làm liên tục đến giờ?",
+   "questions": [
+    {
+     "id": "G1D4KE-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "already write"
+      },
+      {
+       "id": "2",
+       "text": "have already written"
+      },
+      {
+       "id": "3",
+       "text": "already writing"
+      },
+      {
+       "id": "4",
+       "text": "have already been writing"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Việc đã xong, kết quả liên quan bây giờ → hoàn thành đơn. `already` đứng giữa. [Destination B2, Unit 1 · bài E (trang 9)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I ( ) to all the local newspapers and TV stations to complain."
+   }
+  },
+  {
+   "id": "G1D4KE-4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng (trộn bốn thì) (4/10)",
+   "instruction_vi": "Trộn cả bốn thì hiện tại. Trước khi chọn, hỏi: việc này là thói quen/sự thật, tạm thời, đã xong với kết quả bây giờ, hay làm liên tục đến giờ?",
+   "questions": [
+    {
+     "id": "G1D4KE-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "Are you watching"
+      },
+      {
+       "id": "2",
+       "text": "Watched you"
+      },
+      {
+       "id": "3",
+       "text": "Do you watch"
+      },
+      {
+       "id": "4",
+       "text": "Have you been watching"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`for the last four hours` + phàn nàn về việc kéo dài → hoàn thành tiếp diễn. [Destination B2, Unit 1 · bài E (trang 9)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) TV for the last four hours? Turn it off and get some exercise!"
+   }
+  },
+  {
+   "id": "G1D4KE-5",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng (trộn bốn thì) (5/10)",
+   "instruction_vi": "Trộn cả bốn thì hiện tại. Trước khi chọn, hỏi: việc này là thói quen/sự thật, tạm thời, đã xong với kết quả bây giờ, hay làm liên tục đến giờ?",
+   "questions": [
+    {
+     "id": "G1D4KE-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "have you usually been playing"
+      },
+      {
+       "id": "2",
+       "text": "have you usually played"
+      },
+      {
+       "id": "3",
+       "text": "do you usually play"
+      },
+      {
+       "id": "4",
+       "text": "are you usually playing"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "`usually` = thói quen → hiện tại đơn. [Destination B2, Unit 1 · bài E (trang 9)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) hockey competitively or just for fun?"
+   }
+  },
+  {
+   "id": "G1D4KE-6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng (trộn bốn thì) (6/10)",
+   "instruction_vi": "Trộn cả bốn thì hiện tại. Trước khi chọn, hỏi: việc này là thói quen/sự thật, tạm thời, đã xong với kết quả bây giờ, hay làm liên tục đến giờ?",
+   "questions": [
+    {
+     "id": "G1D4KE-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "I get"
+      },
+      {
+       "id": "2",
+       "text": "I have got"
+      },
+      {
+       "id": "3",
+       "text": "I am getting"
+      },
+      {
+       "id": "4",
+       "text": "I have been getting"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Mẫu `That's the first time + have + V3`. [Destination B2, Unit 1 · bài E (trang 9)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "That's the first time ( ) an answer right today!"
+   }
+  },
+  {
+   "id": "G1D4KE-7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng (trộn bốn thì) (7/10)",
+   "instruction_vi": "Trộn cả bốn thì hiện tại. Trước khi chọn, hỏi: việc này là thói quen/sự thật, tạm thời, đã xong với kết quả bây giờ, hay làm liên tục đến giờ?",
+   "questions": [
+    {
+     "id": "G1D4KE-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "still"
+      },
+      {
+       "id": "2",
+       "text": "already"
+      },
+      {
+       "id": "3",
+       "text": "yet"
+      },
+      {
+       "id": "4",
+       "text": "so far"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`already` đứng giữa `has` và V3. `yet` ở cuối câu phủ định hoặc câu hỏi. [Destination B2, Unit 1 · bài E (trang 9)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Jessica has ( ) left, I'm afraid."
+   }
+  },
+  {
+   "id": "G1D4KE-8",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng (trộn bốn thì) (8/10)",
+   "instruction_vi": "Trộn cả bốn thì hiện tại. Trước khi chọn, hỏi: việc này là thói quen/sự thật, tạm thời, đã xong với kết quả bây giờ, hay làm liên tục đến giờ?",
+   "questions": [
+    {
+     "id": "G1D4KE-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "has slept"
+      },
+      {
+       "id": "2",
+       "text": "does sleep"
+      },
+      {
+       "id": "3",
+       "text": "sleeps"
+      },
+      {
+       "id": "4",
+       "text": "is sleeping"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`while we redecorate` = tạm thời → tiếp diễn. [Destination B2, Unit 1 · bài E (trang 9)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Dan ( ) in the living room while we redecorate his bedroom."
+   }
+  },
+  {
+   "id": "G1D4KE-9",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng (trộn bốn thì) (9/10)",
+   "instruction_vi": "Trộn cả bốn thì hiện tại. Trước khi chọn, hỏi: việc này là thói quen/sự thật, tạm thời, đã xong với kết quả bây giờ, hay làm liên tục đến giờ?",
+   "questions": [
+    {
+     "id": "G1D4KE-9",
+     "options": [
+      {
+       "id": "1",
+       "text": "doesn't get"
+      },
+      {
+       "id": "2",
+       "text": "hasn't been getting"
+      },
+      {
+       "id": "3",
+       "text": "isn't getting"
+      },
+      {
+       "id": "4",
+       "text": "hasn't got"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`very often` = thói quen → đơn. [Destination B2, Unit 1 · bài E (trang 9)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Unfortunately, Simone ( ) a day off very often."
+   }
+  },
+  {
+   "id": "G1D4KE-10",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng (trộn bốn thì) (10/10)",
+   "instruction_vi": "Trộn cả bốn thì hiện tại. Trước khi chọn, hỏi: việc này là thói quen/sự thật, tạm thời, đã xong với kết quả bây giờ, hay làm liên tục đến giờ?",
+   "questions": [
+    {
+     "id": "G1D4KE-10",
+     "options": [
+      {
+       "id": "1",
+       "text": "have drunk"
+      },
+      {
+       "id": "2",
+       "text": "have been drinking"
+      },
+      {
+       "id": "3",
+       "text": "do drink"
+      },
+      {
+       "id": "4",
+       "text": "am drinking"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "`Actually` đính chính + `every morning`: `do drink` nhấn mạnh thói quen. [Destination B2, Unit 1 · bài E (trang 9)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Actually, I ( ) a cup of tea first thing every morning but then I switch to coffee."
+   }
+  },
+  {
+   "id": "G1D4KH-1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tìm từ thừa: International friends (1/10)",
+   "instruction_vi": "Mỗi dòng của đoạn văn có đúng một từ thừa (chưa kể từ bị thừa ở dòng khác). Chọn từ thừa trong dòng được hỏi.",
+   "questions": [
+    {
+     "id": "G1D4KH-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "travelling"
+      },
+      {
+       "id": "2",
+       "text": "to"
+      },
+      {
+       "id": "3",
+       "text": "summer"
+      },
+      {
+       "id": "4",
+       "text": "been"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Sửa: «I've been travelling round Europe all summer». `to` thừa. [Destination B2, Unit 1 · bài H (trang 10)]",
+     "tags": [],
+     "prompt_vi": "Dòng 1: «I've been to travelling round Europe all summer. It's the first time I've»"
+    }
+   ]
+  },
+  {
+   "id": "G1D4KH-2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tìm từ thừa: International friends (2/10)",
+   "instruction_vi": "Mỗi dòng của đoạn văn có đúng một từ thừa (chưa kể từ bị thừa ở dòng khác). Chọn từ thừa trong dòng được hỏi.",
+   "questions": [
+    {
+     "id": "G1D4KH-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "been"
+      },
+      {
+       "id": "2",
+       "text": "abroad"
+      },
+      {
+       "id": "3",
+       "text": "ever"
+      },
+      {
+       "id": "4",
+       "text": "going"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Sau `It's the first time I've ever been` là `abroad`: `been going` sai. [Destination B2, Unit 1 · bài H (trang 10)]",
+     "tags": [],
+     "prompt_vi": "Dòng 2: «ever been going abroad, and I've had a fantastic time! I've seen»"
+    }
+   ]
+  },
+  {
+   "id": "G1D4KH-3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tìm từ thừa: International friends (3/10)",
+   "instruction_vi": "Mỗi dòng của đoạn văn có đúng một từ thừa (chưa kể từ bị thừa ở dòng khác). Chọn từ thừa trong dòng được hỏi.",
+   "questions": [
+    {
+     "id": "G1D4KH-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "made"
+      },
+      {
+       "id": "2",
+       "text": "loads"
+      },
+      {
+       "id": "3",
+       "text": "also"
+      },
+      {
+       "id": "4",
+       "text": "to"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Sửa: «I have also made loads of new friends». `to` thừa. [Destination B2, Unit 1 · bài H (trang 10)]",
+     "tags": [],
+     "prompt_vi": "Dòng 3: «loads of interesting places and I have to also made loads of new friends.»"
+    }
+   ]
+  },
+  {
+   "id": "G1D4KH-4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tìm từ thừa: International friends (4/10)",
+   "instruction_vi": "Mỗi dòng của đoạn văn có đúng một từ thừa (chưa kể từ bị thừa ở dòng khác). Chọn từ thừa trong dòng được hỏi.",
+   "questions": [
+    {
+     "id": "G1D4KH-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "been"
+      },
+      {
+       "id": "2",
+       "text": "now"
+      },
+      {
+       "id": "3",
+       "text": "stay"
+      },
+      {
+       "id": "4",
+       "text": "decided"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Sửa: «I've decided to stay in touch». `been` thừa. [Destination B2, Unit 1 · bài H (trang 10)]",
+     "tags": [],
+     "prompt_vi": "Dòng 4: «I've been decided to stay in touch with them now I'm back. One of»"
+    }
+   ]
+  },
+  {
+   "id": "G1D4KH-5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tìm từ thừa: International friends (5/10)",
+   "instruction_vi": "Mỗi dòng của đoạn văn có đúng một từ thừa (chưa kể từ bị thừa ở dòng khác). Chọn từ thừa trong dòng được hỏi.",
+   "questions": [
+    {
+     "id": "G1D4KH-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "French"
+      },
+      {
+       "id": "2",
+       "text": "now"
+      },
+      {
+       "id": "3",
+       "text": "holiday"
+      },
+      {
+       "id": "4",
+       "text": "making"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Sửa: «She was on holiday too». `making` thừa. [Destination B2, Unit 1 · bài H (trang 10)]",
+     "tags": [],
+     "prompt_vi": "Dòng 5: «them, Giselle, is French. She was making on holiday too. We now send»"
+    }
+   ]
+  },
+  {
+   "id": "G1D4KH-6",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tìm từ thừa: International friends (6/10)",
+   "instruction_vi": "Mỗi dòng của đoạn văn có đúng một từ thừa (chưa kể từ bị thừa ở dòng khác). Chọn từ thừa trong dòng được hỏi.",
+   "questions": [
+    {
+     "id": "G1D4KH-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "text"
+      },
+      {
+       "id": "2",
+       "text": "are"
+      },
+      {
+       "id": "3",
+       "text": "each"
+      },
+      {
+       "id": "4",
+       "text": "usually"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Sửa: «We now send text messages to each other». `are` thừa. [Destination B2, Unit 1 · bài H (trang 10)]",
+     "tags": [],
+     "prompt_vi": "Dòng 6: «text messages are to each other all the time. They're usually in English»"
+    }
+   ]
+  },
+  {
+   "id": "G1D4KH-7",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tìm từ thừa: International friends (7/10)",
+   "instruction_vi": "Mỗi dòng của đoạn văn có đúng một từ thừa (chưa kể từ bị thừa ở dòng khác). Chọn từ thừa trong dòng được hỏi.",
+   "questions": [
+    {
+     "id": "G1D4KH-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "good"
+      },
+      {
+       "id": "2",
+       "text": "have"
+      },
+      {
+       "id": "3",
+       "text": "planning"
+      },
+      {
+       "id": "4",
+       "text": "visit"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Sửa: «I'm planning to visit her». `have` thừa. [Destination B2, Unit 1 · bài H (trang 10)]",
+     "tags": [],
+     "prompt_vi": "Dòng 7: «because my French isn't very good! I'm planning to have visit her in»"
+    }
+   ]
+  },
+  {
+   "id": "G1D4KH-8",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tìm từ thừa: International friends (8/10)",
+   "instruction_vi": "Mỗi dòng của đoạn văn có đúng một từ thừa (chưa kể từ bị thừa ở dòng khác). Chọn từ thừa trong dòng được hỏi.",
+   "questions": [
+    {
+     "id": "G1D4KH-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "am"
+      },
+      {
+       "id": "2",
+       "text": "love"
+      },
+      {
+       "id": "3",
+       "text": "hope"
+      },
+      {
+       "id": "4",
+       "text": "can"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Sửa: «I love meeting people». `love` là động từ trạng thái, không đi với `am`. [Destination B2, Unit 1 · bài H (trang 10)]",
+     "tags": [],
+     "prompt_vi": "Dòng 8: «France next year sometime. I hope I can. I am love meeting people from»"
+    }
+   ]
+  },
+  {
+   "id": "G1D4KH-9",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tìm từ thừa: International friends (9/10)",
+   "instruction_vi": "Mỗi dòng của đoạn văn có đúng một từ thừa (chưa kể từ bị thừa ở dòng khác). Chọn từ thừa trong dòng được hỏi.",
+   "questions": [
+    {
+     "id": "G1D4KH-9",
+     "options": [
+      {
+       "id": "1",
+       "text": "friends"
+      },
+      {
+       "id": "2",
+       "text": "want"
+      },
+      {
+       "id": "3",
+       "text": "had"
+      },
+      {
+       "id": "4",
+       "text": "lots"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Sửa: «I want to have lots of friends». `had` thừa. [Destination B2, Unit 1 · bài H (trang 10)]",
+     "tags": [],
+     "prompt_vi": "Dòng 9: «other countries! I want to have had lots of friends from all over the world!»"
+    }
+   ]
+  },
+  {
+   "id": "G1D4KH-10",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tìm từ thừa: International friends (10/10)",
+   "instruction_vi": "Mỗi dòng của đoạn văn có đúng một từ thừa (chưa kể từ bị thừa ở dòng khác). Chọn từ thừa trong dòng được hỏi.",
+   "questions": [
+    {
+     "id": "G1D4KH-10",
+     "options": [
+      {
+       "id": "1",
+       "text": "circle"
+      },
+      {
+       "id": "2",
+       "text": "also"
+      },
+      {
+       "id": "3",
+       "text": "broadens"
+      },
+      {
+       "id": "4",
+       "text": "is"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Sửa: «it also broadens your circle of friends». `is` thừa. [Destination B2, Unit 1 · bài H (trang 10)]",
+     "tags": [],
+     "prompt_vi": "Dòng 10: «Travelling certainly broadens the mind but it also is broadens your circle of»"
+    }
+   ]
+  },
+  {
+   "id": "G1E1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 1/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E1",
+     "options": [
+      {
+       "id": "1",
+       "text": "lives"
+      },
+      {
+       "id": "2",
+       "text": "are living"
+      },
+      {
+       "id": "3",
+       "text": "live"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đáp án: live. Sự thật chung về nhóm người → hiện tại đơn; chủ ngữ số nhiều nên không có -s. Nếu sai: học Unit 1 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Most university students ( ) on campus in their first year."
+   }
+  },
+  {
+   "id": "G1E2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 2/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E2",
+     "options": [
+      {
+       "id": "1",
+       "text": "improve"
+      },
+      {
+       "id": "2",
+       "text": "improves"
+      },
+      {
+       "id": "3",
+       "text": "is improving"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đáp án: is improving. `at the moment` + biểu đồ nói xu hướng đang thay đổi → hiện tại tiếp diễn. Nếu sai: học Unit 1 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "From this graph we can see that the economy ( ) at the moment."
+   }
+  },
+  {
+   "id": "G1E3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 3/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E3",
+     "options": [
+      {
+       "id": "1",
+       "text": "hadn't"
+      },
+      {
+       "id": "2",
+       "text": "weren't having"
+      },
+      {
+       "id": "3",
+       "text": "didn't have"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đáp án: didn't have. Quá khứ đơn phủ định: `didn't have`. `have` là động từ sở hữu nên không dùng tiếp diễn. Nếu sai: học Unit 2 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "They ( ) personal computers when my father was a student."
+   }
+  },
+  {
+   "id": "G1E4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 4/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E4",
+     "options": [
+      {
+       "id": "1",
+       "text": "used to"
+      },
+      {
+       "id": "2",
+       "text": "was used to"
+      },
+      {
+       "id": "3",
+       "text": "would"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án: used to. `used to` + nguyên thể cho thói quen/trạng thái trong quá khứ nay không còn. `would` không đi với động từ trạng thái `want`. Nếu sai: học Unit 2 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I ( ) want to be a practising doctor but now I'm more interested in research."
+   }
+  },
+  {
+   "id": "G1E5",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 5/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E5",
+     "options": [
+      {
+       "id": "1",
+       "text": "was showing"
+      },
+      {
+       "id": "2",
+       "text": "showed"
+      },
+      {
+       "id": "3",
+       "text": "shown"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án: was showing. Một việc đang diễn ra (quá khứ tiếp diễn) thì có việc khác xen vào (quá khứ đơn `rang`). Nếu sai: học Unit 2 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "The teacher ( ) us how to do the experiment when the fire bell rang."
+   }
+  },
+  {
+   "id": "G1E6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 6/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E6",
+     "options": [
+      {
+       "id": "1",
+       "text": "I haven't given"
+      },
+      {
+       "id": "2",
+       "text": "I didn't give"
+      },
+      {
+       "id": "3",
+       "text": "I've given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án: I haven't given. `yet` + việc chưa xong tính đến bây giờ → hiện tại hoàn thành phủ định. Nếu sai: học Unit 3 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I finished my essay yesterday but ( ) it in to the tutor yet."
+   }
+  },
+  {
+   "id": "G1E7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 7/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E7",
+     "options": [
+      {
+       "id": "1",
+       "text": "We've done"
+      },
+      {
+       "id": "2",
+       "text": "We did"
+      },
+      {
+       "id": "3",
+       "text": "We've been doing"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án: We've done. Đếm số lần tính đến bây giờ (`three times now`) → hoàn thành đơn, không dùng tiếp diễn. Nếu sai: học Unit 3 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) the experiment three times now with different results each time!"
+   }
+  },
+  {
+   "id": "G1E8",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 8/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E8",
+     "options": [
+      {
+       "id": "1",
+       "text": "had started"
+      },
+      {
+       "id": "2",
+       "text": "started"
+      },
+      {
+       "id": "3",
+       "text": "had been starting"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án: had started. Bài giảng bắt đầu trước lúc tôi đến → quá khứ hoàn thành. Nếu sai: học Unit 4 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "When I arrived, the lecture ( ) so I didn't find it easy to follow."
+   }
+  },
+  {
+   "id": "G1E9",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 9/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E9",
+     "options": [
+      {
+       "id": "1",
+       "text": "did"
+      },
+      {
+       "id": "2",
+       "text": "had done"
+      },
+      {
+       "id": "3",
+       "text": "had been doing"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đáp án: had been doing. Một giai đoạn kéo dài trước thời điểm thay đổi trong quá khứ → quá khứ hoàn thành tiếp diễn. Nếu sai: học Unit 4 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "She ( ) well at school but that changed when she became friends with a different group of girls."
+   }
+  },
+  {
+   "id": "G1E10",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 10/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E10",
+     "options": [
+      {
+       "id": "1",
+       "text": "I'm seeing"
+      },
+      {
+       "id": "2",
+       "text": "I see"
+      },
+      {
+       "id": "3",
+       "text": "I will see"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án: I'm seeing. Việc đã sắp xếp (có hẹn) → hiện tại tiếp diễn chỉ tương lai. Nếu sai: học Unit 5 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) the doctor at 2.00 this afternoon so I can't go to the lecture."
+   }
+  },
+  {
+   "id": "G1E11",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 11/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E11",
+     "options": [
+      {
+       "id": "1",
+       "text": "studies"
+      },
+      {
+       "id": "2",
+       "text": "is going to study"
+      },
+      {
+       "id": "3",
+       "text": "will study"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đáp án: is going to study. Dự định đã có từ trước → `going to`. Nếu sai: học Unit 5 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "My sister ( ) economics and politics when she goes to university."
+   }
+  },
+  {
+   "id": "G1E12",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 12/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E12",
+     "options": [
+      {
+       "id": "1",
+       "text": "will sit"
+      },
+      {
+       "id": "2",
+       "text": "will have sat"
+      },
+      {
+       "id": "3",
+       "text": "will be sitting"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đáp án: will be sitting. Việc sẽ đang diễn ra tại một thời điểm tương lai → tương lai tiếp diễn. Nếu sai: học Unit 6 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "While we're working on the project our boss ( ) on a beach in Greece!"
+   }
+  },
+  {
+   "id": "G1E13",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 13/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E13",
+     "options": [
+      {
+       "id": "1",
+       "text": "will increase"
+      },
+      {
+       "id": "2",
+       "text": "will have increased"
+      },
+      {
+       "id": "3",
+       "text": "will be increasing"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đáp án: will have increased. `by 2030` = hoàn tất trước mốc tương lai → tương lai hoàn thành. Nếu sai: học Unit 6 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "If the trend continues, the average income ( ) by 107% by 2030."
+   }
+  },
+  {
+   "id": "G1E14",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 14/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E14",
+     "options": [
+      {
+       "id": "1",
+       "text": "some"
+      },
+      {
+       "id": "2",
+       "text": "a"
+      },
+      {
+       "id": "3",
+       "text": "any"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đáp án: any. `any` trong nghĩa 'không quan trọng cái nào'. Nếu sai: học Unit 7 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "You can base your geography assignment on ( ) country - it doesn't matter which."
+   }
+  },
+  {
+   "id": "G1E15",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 15/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E15",
+     "options": [
+      {
+       "id": "1",
+       "text": "lots of"
+      },
+      {
+       "id": "2",
+       "text": "much"
+      },
+      {
+       "id": "3",
+       "text": "many"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đáp án: many. `places` đếm được, câu phủ định → `many`. Nếu sai: học Unit 7 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "There aren't ( ) places left on the course so you'd better apply soon."
+   }
+  },
+  {
+   "id": "G1E16",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 16/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E16",
+     "options": [
+      {
+       "id": "1",
+       "text": "a difficult decision"
+      },
+      {
+       "id": "2",
+       "text": "difficult decision"
+      },
+      {
+       "id": "3",
+       "text": "the difficult decision"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án: a difficult decision. Danh từ đếm được số ít cần mạo từ; nhắc lần đầu → `a`. Nếu sai: học Unit 8 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I don't know whether to accept the job offer. It's ( )."
+   }
+  },
+  {
+   "id": "G1E17",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 17/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E17",
+     "options": [
+      {
+       "id": "1",
+       "text": "a valuable information"
+      },
+      {
+       "id": "2",
+       "text": "the valuable information"
+      },
+      {
+       "id": "3",
+       "text": "valuable information"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đáp án: valuable information. `information` không đếm được, không có `a`; không có điều gì xác định nên không `the`. Nếu sai: học Unit 8 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "For those of you new to the company, this leaflet is full of ( )."
+   }
+  },
+  {
+   "id": "G1E18",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 18/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E18",
+     "options": [
+      {
+       "id": "1",
+       "text": "each"
+      },
+      {
+       "id": "2",
+       "text": "each of the"
+      },
+      {
+       "id": "3",
+       "text": "every"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đáp án: each of the. Sau `each` không có danh từ số nhiều trực tiếp; cần `each of the` + danh từ số nhiều. Nếu sai: học Unit 8 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "The manager interviewed ( ) candidates in turn."
+   }
+  },
+  {
+   "id": "G1E19",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 19/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E19",
+     "options": [
+      {
+       "id": "1",
+       "text": "me"
+      },
+      {
+       "id": "2",
+       "text": "by myself"
+      },
+      {
+       "id": "3",
+       "text": "myself"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đáp án: myself. Chủ ngữ và tân ngữ là cùng một người → đại từ phản thân `myself`. Nếu sai: học Unit 9 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I know it's not much of a present but I made it ( )."
+   }
+  },
+  {
+   "id": "G1E20",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 20/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E20",
+     "options": [
+      {
+       "id": "1",
+       "text": "an interesting historical"
+      },
+      {
+       "id": "2",
+       "text": "a historical and interesting"
+      },
+      {
+       "id": "3",
+       "text": "a historical interesting"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án: an interesting historical. Thứ tự tính từ: ý kiến (interesting) trước, loại (historical) sau; `an` vì âm đầu là nguyên âm. Nếu sai: học Unit 10 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "You should visit Bath. It's ( ) city."
+   }
+  },
+  {
+   "id": "G1E21",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 21/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E21",
+     "options": [
+      {
+       "id": "1",
+       "text": "shock"
+      },
+      {
+       "id": "2",
+       "text": "shocked"
+      },
+      {
+       "id": "3",
+       "text": "shocking"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đáp án: shocking. Dữ liệu gây sốc → V-ing (`shocking`). `shocked` mô tả người cảm thấy. Nếu sai: học Unit 10 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "The government has released some ( ) data showing how schools are not providing an adequate education to our children."
+   }
+  },
+  {
+   "id": "G1E22",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 22/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E22",
+     "options": [
+      {
+       "id": "1",
+       "text": "absolutely"
+      },
+      {
+       "id": "2",
+       "text": "very"
+      },
+      {
+       "id": "3",
+       "text": "fairly"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án: absolutely. `stunning` là tính từ cực cấp nên đi với `absolutely`, không đi với `very`. Nếu sai: học Unit 10 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "You really should go to Namibia. The scenery is ( ) stunning and the people are very friendly."
+   }
+  },
+  {
+   "id": "G1E23",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 23/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E23",
+     "options": [
+      {
+       "id": "1",
+       "text": "the most best"
+      },
+      {
+       "id": "2",
+       "text": "the best"
+      },
+      {
+       "id": "3",
+       "text": "best"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đáp án: the best. So sánh nhất: `the best`. Không nói `the most best`. Nếu sai: học Unit 11 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "This factory produces some of ( ) cameras in the world."
+   }
+  },
+  {
+   "id": "G1E24",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 24/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E24",
+     "options": [
+      {
+       "id": "1",
+       "text": "Few"
+      },
+      {
+       "id": "2",
+       "text": "Less"
+      },
+      {
+       "id": "3",
+       "text": "Fewer"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đáp án: Fewer. `people` đếm được → `fewer` (so sánh hơn của `few`). Nếu sai: học Unit 11 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) people live in the countryside than 100 years ago."
+   }
+  },
+  {
+   "id": "G1E25",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 25/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E25",
+     "options": [
+      {
+       "id": "1",
+       "text": "on"
+      },
+      {
+       "id": "2",
+       "text": "at"
+      },
+      {
+       "id": "3",
+       "text": "in"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đáp án: at. Cụm cố định `at the end of the road`. Nếu sai: học Unit 12 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "The bookshop ( ) the end of the road is excellent."
+   }
+  },
+  {
+   "id": "G1E26",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 26/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E26",
+     "options": [
+      {
+       "id": "1",
+       "text": "were watching"
+      },
+      {
+       "id": "2",
+       "text": "watched"
+      },
+      {
+       "id": "3",
+       "text": "watching"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đáp án: watching. Cụm danh từ với mệnh đề phân từ: `people watching…` (không cần `who were`). Nếu sai: học Unit 12 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "There were millions of people around the world ( ) the football match live on television."
+   }
+  },
+  {
+   "id": "G1E27",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 27/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E27",
+     "options": [
+      {
+       "id": "1",
+       "text": "managed to"
+      },
+      {
+       "id": "2",
+       "text": "can"
+      },
+      {
+       "id": "3",
+       "text": "could"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án: managed to. Làm được một việc cụ thể, một lần → `managed to`, không dùng `could`. Nếu sai: học Unit 13 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Scientists finally ( ) find a cure for the disease after years of research."
+   }
+  },
+  {
+   "id": "G1E28",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 28/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E28",
+     "options": [
+      {
+       "id": "1",
+       "text": "can't have worked"
+      },
+      {
+       "id": "2",
+       "text": "didn't work"
+      },
+      {
+       "id": "3",
+       "text": "mustn't have worked"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án: can't have worked. Suy luận chắc chắn về quá khứ (không thể là đã học) → `can't have + V3`. Nếu sai: học Unit 13 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "She got a terrible mark in the exam so she ( ) very hard at all."
+   }
+  },
+  {
+   "id": "G1E29",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 29/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E29",
+     "options": [
+      {
+       "id": "1",
+       "text": "ought I do"
+      },
+      {
+       "id": "2",
+       "text": "must I do"
+      },
+      {
+       "id": "3",
+       "text": "do I need to do"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đáp án: do I need to do. Hỏi về điều cần thiết: `What do I need to do…?`. Nếu sai: học Unit 14 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "What ( ) in order to get a permit to work in your country?"
+   }
+  },
+  {
+   "id": "G1E30",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 30/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E30",
+     "options": [
+      {
+       "id": "1",
+       "text": "mustn't"
+      },
+      {
+       "id": "2",
+       "text": "have to"
+      },
+      {
+       "id": "3",
+       "text": "don't have to"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án: mustn't. `mustn't` = cấm; `don't have to` = không bắt buộc, nghĩa khác hẳn. Nếu sai: học Unit 14 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "When you write your essays, you ( ) copy ideas from books without referencing them properly."
+   }
+  },
+  {
+   "id": "G1E31",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 31/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E31",
+     "options": [
+      {
+       "id": "1",
+       "text": "suggested"
+      },
+      {
+       "id": "2",
+       "text": "advised"
+      },
+      {
+       "id": "3",
+       "text": "insisted"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đáp án: advised. `advise somebody to do`. `suggest` không có mẫu `suggest us to do`. Nếu sai: học Unit 15 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Doctors have ( ) us to cut down on salt in our diets if we want to reduce the risk of getting heart disease."
+   }
+  },
+  {
+   "id": "G1E32",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 32/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E32",
+     "options": [
+      {
+       "id": "1",
+       "text": "Apparently"
+      },
+      {
+       "id": "2",
+       "text": "Supposedly"
+      },
+      {
+       "id": "3",
+       "text": "According to"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đáp án: According to. `According to` + nguồn tin; `Apparently` và `Supposedly` không đi với danh từ chỉ nguồn. Nếu sai: học Unit 15 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) this newspaper report, more women smoke than men nowadays."
+   }
+  },
+  {
+   "id": "G1E33",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 33/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E33",
+     "options": [
+      {
+       "id": "1",
+       "text": "me do"
+      },
+      {
+       "id": "2",
+       "text": "me to do"
+      },
+      {
+       "id": "3",
+       "text": "me doing"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đáp án: me to do. `encourage somebody to do`. Nếu sai: học Unit 16 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "My parents encouraged ( ) this course."
+   }
+  },
+  {
+   "id": "G1E34",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 34/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E34",
+     "options": [
+      {
+       "id": "1",
+       "text": "you don't get a good IELTS score?"
+      },
+      {
+       "id": "2",
+       "text": "you won't get a good IELTS score?"
+      },
+      {
+       "id": "3",
+       "text": "you didn't get a good IELTS score?"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án: you don't get a good IELTS score?. Điều kiện loại 1: mệnh đề `if` dùng hiện tại đơn, không dùng `will`. Nếu sai: học Unit 17 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "What will you do if ( )"
+   }
+  },
+  {
+   "id": "G1E35",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 35/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E35",
+     "options": [
+      {
+       "id": "1",
+       "text": "provided that"
+      },
+      {
+       "id": "2",
+       "text": "in case"
+      },
+      {
+       "id": "3",
+       "text": "unless"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đáp án: unless. `unless` = nếu không. `provided that` = với điều kiện là (nghĩa ngược lại). Nếu sai: học Unit 17 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "A recent government report has warned that ( ) we act immediately to reduce carbon emissions, there will be serious consequences for the planet."
+   }
+  },
+  {
+   "id": "G1E36",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 36/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E36",
+     "options": [
+      {
+       "id": "1",
+       "text": "I'd be able to relax now."
+      },
+      {
+       "id": "2",
+       "text": "I'm able to relax now."
+      },
+      {
+       "id": "3",
+       "text": "I'll be able to relax now."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án: I'd be able to relax now.. Điều kiện loại 2: `If + quá khứ đơn, would + nguyên thể`. Nếu sai: học Unit 18 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "If I didn't have to work tonight, ( )"
+   }
+  },
+  {
+   "id": "G1E37",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 37/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E37",
+     "options": [
+      {
+       "id": "1",
+       "text": "stopped"
+      },
+      {
+       "id": "2",
+       "text": "had stopped"
+      },
+      {
+       "id": "3",
+       "text": "would stop"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đáp án: would stop. `wish` + `would` để phàn nàn thói quen đang khó chịu ở hiện tại. Nếu sai: học Unit 18 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I wish that man ( ) tapping his fingers on the table. It's really annoying me."
+   }
+  },
+  {
+   "id": "G1E38",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 38/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E38",
+     "options": [
+      {
+       "id": "1",
+       "text": "on"
+      },
+      {
+       "id": "2",
+       "text": "for"
+      },
+      {
+       "id": "3",
+       "text": "to"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đáp án: for. Cụm cố định `aim for`. Nếu sai: học Unit 19 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I'm aiming ( ) a band 7 in IELTS."
+   }
+  },
+  {
+   "id": "G1E39",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 39/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E39",
+     "options": [
+      {
+       "id": "1",
+       "text": "on"
+      },
+      {
+       "id": "2",
+       "text": "for"
+      },
+      {
+       "id": "3",
+       "text": "of"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đáp án: of. Danh từ `knowledge` đi với giới từ `of`. Nếu sai: học Unit 19 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Do you have any knowledge ( ) how our education system works?"
+   }
+  },
+  {
+   "id": "G1E40",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 40/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E40",
+     "options": [
+      {
+       "id": "1",
+       "text": "which"
+      },
+      {
+       "id": "2",
+       "text": "who"
+      },
+      {
+       "id": "3",
+       "text": "what"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đáp án: who. Đại từ quan hệ chỉ người: `who`. Nếu sai: học Unit 20 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "The minister ( ) is responsible for education has just resigned."
+   }
+  },
+  {
+   "id": "G1E41",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 41/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E41",
+     "options": [
+      {
+       "id": "1",
+       "text": ", that was founded in 1413,"
+      },
+      {
+       "id": "2",
+       "text": "which was founded in 1413"
+      },
+      {
+       "id": "3",
+       "text": ", which was founded in 1413,"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đáp án: , which was founded in 1413,. Mệnh đề quan hệ không xác định: có dấu phẩy hai bên và dùng `which`, không dùng `that`. Nếu sai: học Unit 20 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "The University of St Andrews ( ) is the oldest university in Scotland."
+   }
+  },
+  {
+   "id": "G1E42",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 42/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E42",
+     "options": [
+      {
+       "id": "1",
+       "text": "What"
+      },
+      {
+       "id": "2",
+       "text": "It"
+      },
+      {
+       "id": "3",
+       "text": "That"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đáp án: It. Chủ ngữ giả: `It is possible that…`. Nếu sai: học Unit 21 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Many children these days do not have a healthy diet. ( ) is possible that this is because less healthy foods are cheaper than healthy ones."
+   }
+  },
+  {
+   "id": "G1E43",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 43/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E43",
+     "options": [
+      {
+       "id": "1",
+       "text": "protect"
+      },
+      {
+       "id": "2",
+       "text": "to find ways to protect"
+      },
+      {
+       "id": "3",
+       "text": "the charity is trying to find ways to protect"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án: protect. Song song cấu trúc: `to save and protect` (hai động từ cùng chia theo `to`). Nếu sai: học Unit 21 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "The charity is trying to find ways to save and ( ) the world's endangered animal species."
+   }
+  },
+  {
+   "id": "G1E44",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 44/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E44",
+     "options": [
+      {
+       "id": "1",
+       "text": "need recycling"
+      },
+      {
+       "id": "2",
+       "text": "are recycled"
+      },
+      {
+       "id": "3",
+       "text": "recycle"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đáp án: are recycled. Chủ ngữ là vật nhận hành động → bị động `are recycled`. Nếu sai: học Unit 22 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "In the past we threw a lot of our kitchen waste away, but today many items such as plastic bottles and cardboard ( )."
+   }
+  },
+  {
+   "id": "G1E45",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 45/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E45",
+     "options": [
+      {
+       "id": "1",
+       "text": "I'm having my car fixed"
+      },
+      {
+       "id": "2",
+       "text": "I need my car fixed"
+      },
+      {
+       "id": "3",
+       "text": "I'm fixing my car"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án: I'm having my car fixed. Nhờ người khác làm: `have + vật + V3`. Nếu sai: học Unit 22 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I can't pick you up from the station on Wednesday because ( ) on that day."
+   }
+  },
+  {
+   "id": "G1E46",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 46/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E46",
+     "options": [
+      {
+       "id": "1",
+       "text": "so"
+      },
+      {
+       "id": "2",
+       "text": "because"
+      },
+      {
+       "id": "3",
+       "text": "although"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đáp án: although. Hai vế đối lập → `although`. Nếu sai: học Unit 23 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "These drugs are the best medicine available as a treatment at the moment, ( ) they are expensive, unfortunately."
+   }
+  },
+  {
+   "id": "G1E47",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 47/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E47",
+     "options": [
+      {
+       "id": "1",
+       "text": "Despite this,"
+      },
+      {
+       "id": "2",
+       "text": "However,"
+      },
+      {
+       "id": "3",
+       "text": "In addition,"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đáp án: In addition,. Thêm một ý cùng hướng → `In addition,`. Nếu sai: học Unit 23 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Learning a foreign language is important because it helps you to understand other cultures better. ( ) it can be a useful skill in many areas of work."
+   }
+  },
+  {
+   "id": "G1E48",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 48/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E48",
+     "options": [
+      {
+       "id": "1",
+       "text": "Unfortunately"
+      },
+      {
+       "id": "2",
+       "text": "Frankly"
+      },
+      {
+       "id": "3",
+       "text": "Personally"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án: Unfortunately. Trạng từ bình luận thể hiện thái độ với sự việc: `Unfortunately`. Nếu sai: học Unit 24 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) I can't go to the conference as I've got to go to Sydney on business."
+   }
+  },
+  {
+   "id": "G1E49",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 49/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E49",
+     "options": [
+      {
+       "id": "1",
+       "text": "Personally,"
+      },
+      {
+       "id": "2",
+       "text": "Interestingly,"
+      },
+      {
+       "id": "3",
+       "text": "Definitely,"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án: Personally,. Nêu quan điểm cá nhân: `Personally, I think…`. Nếu sai: học Unit 24 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) I think it's useful to write an outline of your essay before you start to write the first draft."
+   }
+  },
+  {
+   "id": "G1E50",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Kiểm tra đầu vào · câu 50/50",
+   "instruction_vi": "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc.",
+   "questions": [
+    {
+     "id": "G1E50",
+     "options": [
+      {
+       "id": "1",
+       "text": "appear"
+      },
+      {
+       "id": "2",
+       "text": "appearance"
+      },
+      {
+       "id": "3",
+       "text": "appearing"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đáp án: appearance. Chủ ngữ là danh từ: `appearance` (danh hoá của `appear`). Nếu sai: học Unit 25 của IELTS Grammar for Bands 6.5+ (khóa của sách).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "The ( ) of dark red spots is one of the first signs of the disease."
    }
   }
  ]

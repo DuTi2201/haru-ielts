@@ -151,6 +151,189 @@
    "tips_vi": []
   },
   {
+   "id": "G1D1KB-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Sửa cho đúng (gõ lại) (1/8)",
+   "points": 3,
+   "instruction_vi": "Câu gốc đang sai ở phần in đậm. Gõ phần thay thế đúng. Cách làm: hỏi trước 'người nói muốn nói gì?', rồi mới chọn thì.",
+   "text": "My dad ( ㉠ ) late on Saturday mornings.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "often gets up"
+     ],
+     "common_errors_vi": "Thói quen → đơn. `often` đứng trước động từ chính, nên không đi với `is getting up`. [Destination B2, Unit 1 · bài B (trang 8)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D1KB-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Sửa cho đúng (gõ lại) (2/8)",
+   "points": 3,
+   "instruction_vi": "Câu gốc đang sai ở phần in đậm. Gõ phần thay thế đúng. Cách làm: hỏi trước 'người nói muốn nói gì?', rồi mới chọn thì.",
+   "text": "( ㉠ ) any other languages apart from English?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "Do you speak"
+     ],
+     "common_errors_vi": "Câu hỏi hiện tại đơn dùng `Do`. `speak` là động từ nguyên thể. [Destination B2, Unit 1 · bài B (trang 8)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D1KB-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Sửa cho đúng (gõ lại) (3/8)",
+   "points": 3,
+   "instruction_vi": "Câu gốc đang sai ở phần in đậm. Gõ phần thay thế đúng. Cách làm: hỏi trước 'người nói muốn nói gì?', rồi mới chọn thì.",
+   "text": "( ㉠ ) all my Christmas presents and it's only October!",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "I've already bought",
+      "I have already bought"
+     ],
+     "common_errors_vi": "Việc xong, kết quả còn liên quan tới bây giờ, không nói mốc thời gian → hiện tại hoàn thành. `already` đứng giữa `have` và V3. [Destination B2, Unit 1 · bài B (trang 8)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D1KB-4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Sửa cho đúng (gõ lại) (4/8)",
+   "points": 3,
+   "instruction_vi": "Câu gốc đang sai ở phần in đậm. Gõ phần thay thế đúng. Cách làm: hỏi trước 'người nói muốn nói gì?', rồi mới chọn thì.",
+   "text": "It's the first time ( ㉠ ) a party at home.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "I've ever had",
+      "I have ever had"
+     ],
+     "common_errors_vi": "Mẫu `It's the first time + have/has + V3`: luôn dùng hiện tại hoàn thành, không dùng `I'm having`. [Destination B2, Unit 1 · bài B (trang 8)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D1KB-5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Sửa cho đúng (gõ lại) (5/8)",
+   "points": 3,
+   "instruction_vi": "Câu gốc đang sai ở phần in đậm. Gõ phần thay thế đúng. Cách làm: hỏi trước 'người nói muốn nói gì?', rồi mới chọn thì.",
+   "text": "Actually, I think Darren ( ㉠ ) quite hard sometimes.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "works",
+      "does work"
+     ],
+     "common_errors_vi": "`Actually` là đính chính nên có thể dùng `does work` để nhấn mạnh. Sau `does` là nguyên thể, không thêm -s (`does works` sai). [Destination B2, Unit 1 · bài B (trang 8)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D1KB-6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Sửa cho đúng (gõ lại) (6/8)",
+   "points": 3,
+   "instruction_vi": "Câu gốc đang sai ở phần in đậm. Gõ phần thay thế đúng. Cách làm: hỏi trước 'người nói muốn nói gì?', rồi mới chọn thì.",
+   "text": "Carlo ( ㉠ ) Chinese food before.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "has never eaten",
+      "has not eaten",
+      "hasn't eaten"
+     ],
+     "common_errors_vi": "`before` = từ trước tới giờ → hiện tại hoàn thành, `never` đứng giữa `has` và V3. [Destination B2, Unit 1 · bài B (trang 8)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D1KB-7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Sửa cho đúng (gõ lại) (7/8)",
+   "points": 3,
+   "instruction_vi": "Câu gốc đang sai ở phần in đậm. Gõ phần thay thế đúng. Cách làm: hỏi trước 'người nói muốn nói gì?', rồi mới chọn thì.",
+   "text": "Sean ( ㉠ ) a table for tonight.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "has already booked",
+      "has booked already",
+      "'s already booked"
+     ],
+     "common_errors_vi": "Việc đã xong, kết quả liên quan tối nay → hiện tại hoàn thành. Dùng `already`, không dùng đơn `already books`. [Destination B2, Unit 1 · bài B (trang 8)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D1KB-8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Sửa cho đúng (gõ lại) (8/8)",
+   "points": 3,
+   "instruction_vi": "Câu gốc đang sai ở phần in đậm. Gõ phần thay thế đúng. Cách làm: hỏi trước 'người nói muốn nói gì?', rồi mới chọn thì.",
+   "text": "( ㉠ ) any help painting her new flat?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "Does Melanie need"
+     ],
+     "common_errors_vi": "`need` là động từ trạng thái, không dùng tiếp diễn. Câu hỏi mượn `Does`, chủ ngữ ở sau. [Destination B2, Unit 1 · bài B (trang 8)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
    "id": "G1D2B1",
    "skill": "build",
    "type": "build_order",
@@ -315,6 +498,653 @@
       "phones"
      ],
      "common_errors_vi": "`every Sunday`: việc lặp lại → hiện tại đơn."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KF-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền động từ: Ancient aviators? (1/9)",
+   "points": 3,
+   "instruction_vi": "Đoạn văn về các đường vẽ ở sa mạc Nazca. Chín chỗ trống dùng các động từ be, disagree, do, include, know, look, see, seem, understand. Hỏi từng chỗ: đây là trạng thái hay hành động?",
+   "text": "Everyone ( ㉠ ) that humans have been flying for only a few hundred years.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "knows"
+     ],
+     "common_errors_vi": "`know` là động từ trạng thái. Chủ ngữ `Everyone` là ngôi thứ ba số ít nên có -s. [Destination B2, Unit 1 · bài F (trang 10)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KF-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền động từ: Ancient aviators? (2/9)",
+   "points": 3,
+   "instruction_vi": "Đoạn văn về các đường vẽ ở sa mạc Nazca. Chín chỗ trống dùng các động từ be, disagree, do, include, know, look, see, seem, understand. Hỏi từng chỗ: đây là trạng thái hay hành động?",
+   "text": "But ( ㉠ ) it possible that ancient civilizations also had the ability and technology to fly?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "is"
+     ],
+     "common_errors_vi": "Câu hỏi đảo: `Is it possible…?`. `be` ở đây là trạng thái. [Destination B2, Unit 1 · bài F (trang 10)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KF-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền động từ: Ancient aviators? (3/9)",
+   "points": 3,
+   "instruction_vi": "Đoạn văn về các đường vẽ ở sa mạc Nazca. Chín chỗ trống dùng các động từ be, disagree, do, include, know, look, see, seem, understand. Hỏi từng chỗ: đây là trạng thái hay hành động?",
+   "text": "On the ground, they just ( ㉠ ) like straight lines.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "look"
+     ],
+     "common_errors_vi": "`look like` = trông như (vẻ ngoài, trạng thái). Chủ ngữ `they` nên không có -s. [Destination B2, Unit 1 · bài F (trang 10)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KF-4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền động từ: Ancient aviators? (4/9)",
+   "points": 3,
+   "instruction_vi": "Đoạn văn về các đường vẽ ở sa mạc Nazca. Chín chỗ trống dùng các động từ be, disagree, do, include, know, look, see, seem, understand. Hỏi từng chỗ: đây là trạng thái hay hành động?",
+   "text": "But when you ( ㉠ ) them from the air, you understand exactly what they are.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "see"
+     ],
+     "common_errors_vi": "`see` = nhìn thấy; sau `when` dùng hiện tại đơn. [Destination B2, Unit 1 · bài F (trang 10)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KF-5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền động từ: Ancient aviators? (5/9)",
+   "points": 3,
+   "instruction_vi": "Đoạn văn về các đường vẽ ở sa mạc Nazca. Chín chỗ trống dùng các động từ be, disagree, do, include, know, look, see, seem, understand. Hỏi từng chỗ: đây là trạng thái hay hành động?",
+   "text": "But when you see them from the air, you ( ㉠ ) exactly what they are.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "understand",
+      "know",
+      "see"
+     ],
+     "common_errors_vi": "`understand` là động từ trạng thái (tư duy) → đơn. Sách chấp nhận cả `know` và `see`. [Destination B2, Unit 1 · bài F (trang 10)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KF-6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền động từ: Ancient aviators? (6/9)",
+   "points": 3,
+   "instruction_vi": "Đoạn văn về các đường vẽ ở sa mạc Nazca. Chín chỗ trống dùng các động từ be, disagree, do, include, know, look, see, seem, understand. Hỏi từng chỗ: đây là trạng thái hay hành động?",
+   "text": "The pictures ( ㉠ ) animals, birds and symbols.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "include"
+     ],
+     "common_errors_vi": "`include` = bao gồm (quan hệ giữa các vật), động từ trạng thái → đơn. [Destination B2, Unit 1 · bài F (trang 10)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KF-7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền động từ: Ancient aviators? (7/9)",
+   "points": 3,
+   "instruction_vi": "Đoạn văn về các đường vẽ ở sa mạc Nazca. Chín chỗ trống dùng các động từ be, disagree, do, include, know, look, see, seem, understand. Hỏi từng chỗ: đây là trạng thái hay hành động?",
+   "text": "One bizarre theory, which most mainstream scientists ( ㉠ ) with, is that the people flew above the lines in balloons.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "disagree"
+     ],
+     "common_errors_vi": "`disagree` = ý kiến, trạng thái. Chủ ngữ số nhiều nên không có -s. [Destination B2, Unit 1 · bài F (trang 10)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KF-8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền động từ: Ancient aviators? (8/9)",
+   "points": 3,
+   "instruction_vi": "Đoạn văn về các đường vẽ ở sa mạc Nazca. Chín chỗ trống dùng các động từ be, disagree, do, include, know, look, see, seem, understand. Hỏi từng chỗ: đây là trạng thái hay hành động?",
+   "text": "It ( ㉠ ) incredible, but a few people do believe it's possible.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "seems"
+     ],
+     "common_errors_vi": "`seem` = vẻ ngoài, trạng thái. Chủ ngữ `It` nên có -s. [Destination B2, Unit 1 · bài F (trang 10)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KF-9",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền động từ: Ancient aviators? (9/9)",
+   "points": 3,
+   "instruction_vi": "Đoạn văn về các đường vẽ ở sa mạc Nazca. Chín chỗ trống dùng các động từ be, disagree, do, include, know, look, see, seem, understand. Hỏi từng chỗ: đây là trạng thái hay hành động?",
+   "text": "It seems incredible, but a few people ( ㉠ ) believe it's possible.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "do"
+     ],
+     "common_errors_vi": "Nhấn mạnh với `do`: trái với điều vừa nói («có vẻ khó tin, nhưng vài người vẫn tin»). Sau `do` là nguyên thể `believe`. [Destination B2, Unit 1 · bài F (trang 10)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KC2-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (1/12)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ (có thể gồm cả trợ động từ). Với mỗi câu, hỏi: đây là thói quen/sự thật, hay việc tạm thời/đang làm?",
+   "text": "My tutor ( ㉠ ) (see) me for a tutorial every Monday at two o'clock.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "sees"
+     ],
+     "common_errors_vi": "`every Monday` = thói quen → đơn. Ngôi thứ ba nên có -s. [IELTS Grammar 6.5+, Unit 1 · bài C2 (trang 4)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KC2-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (2/12)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ (có thể gồm cả trợ động từ). Với mỗi câu, hỏi: đây là thói quen/sự thật, hay việc tạm thời/đang làm?",
+   "text": "John ( ㉠ ) (not/study) very hard at the moment.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "isn't studying",
+      "is not studying"
+     ],
+     "common_errors_vi": "`at the moment` = tạm thời → tiếp diễn phủ định. [IELTS Grammar 6.5+, Unit 1 · bài C2 (trang 4)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KC2-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (3/12)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ (có thể gồm cả trợ động từ). Với mỗi câu, hỏi: đây là thói quen/sự thật, hay việc tạm thời/đang làm?",
+   "text": "John isn't studying very hard at the moment. I ( ㉠ ) (not/think) he'll pass his exams.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "don't think",
+      "do not think"
+     ],
+     "common_errors_vi": "`think` ở nghĩa ý kiến là động từ trạng thái → đơn. Phủ định mượn `do`. [IELTS Grammar 6.5+, Unit 1 · bài C2 (trang 4)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KC2-4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (4/12)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ (có thể gồm cả trợ động từ). Với mỗi câu, hỏi: đây là thói quen/sự thật, hay việc tạm thời/đang làm?",
+   "text": "'What ( ㉠ ) (he/do)?' 'He's trying to fix the television aerial.'",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "is he doing",
+      "'s he doing"
+     ],
+     "common_errors_vi": "Hỏi về việc đang xảy ra → tiếp diễn. Câu hỏi đảo `is he doing`. [IELTS Grammar 6.5+, Unit 1 · bài C2 (trang 4)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KC2-5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (5/12)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ (có thể gồm cả trợ động từ). Với mỗi câu, hỏi: đây là thói quen/sự thật, hay việc tạm thời/đang làm?",
+   "text": "'What is he doing?' 'He ( ㉠ ) (try) to fix the television aerial.'",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "is trying",
+      "'s trying"
+     ],
+     "common_errors_vi": "Việc đang diễn ra lúc nói → tiếp diễn. [IELTS Grammar 6.5+, Unit 1 · bài C2 (trang 4)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KC2-6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (6/12)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ (có thể gồm cả trợ động từ). Với mỗi câu, hỏi: đây là thói quen/sự thật, hay việc tạm thời/đang làm?",
+   "text": "Animals ( ㉠ ) (breathe in) oxygen and give out carbon dioxide.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "breathe in"
+     ],
+     "common_errors_vi": "Sự thật khoa học → đơn. Chủ ngữ số nhiều nên không có -s. [IELTS Grammar 6.5+, Unit 1 · bài C2 (trang 4)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KC2-7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (7/12)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ (có thể gồm cả trợ động từ). Với mỗi câu, hỏi: đây là thói quen/sự thật, hay việc tạm thời/đang làm?",
+   "text": "Animals breathe in oxygen and ( ㉠ ) (give out) carbon dioxide.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "give out"
+     ],
+     "common_errors_vi": "Sự thật khoa học → đơn. [IELTS Grammar 6.5+, Unit 1 · bài C2 (trang 4)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KC2-8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (8/12)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ (có thể gồm cả trợ động từ). Với mỗi câu, hỏi: đây là thói quen/sự thật, hay việc tạm thời/đang làm?",
+   "text": "Be quiet! I ( ㉠ ) (want) to hear the news.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "want"
+     ],
+     "common_errors_vi": "`want` là động từ trạng thái → luôn đơn, kể cả khi việc đang xảy ra (không nói `am wanting`). [IELTS Grammar 6.5+, Unit 1 · bài C2 (trang 4)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KC2-9",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (9/12)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ (có thể gồm cả trợ động từ). Với mỗi câu, hỏi: đây là thói quen/sự thật, hay việc tạm thời/đang làm?",
+   "text": "In my country we ( ㉠ ) (drive) on the right-hand side of the road.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "drive"
+     ],
+     "common_errors_vi": "Quy tắc cố định, sự thật chung → đơn. [IELTS Grammar 6.5+, Unit 1 · bài C2 (trang 4)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KC2-10",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (10/12)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ (có thể gồm cả trợ động từ). Với mỗi câu, hỏi: đây là thói quen/sự thật, hay việc tạm thời/đang làm?",
+   "text": "My friend Joe's parents ( ㉠ ) (travel) round the world this summer, and probably won't be back for a couple of months.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "are travelling",
+      "are traveling",
+      "'re travelling",
+      "'re traveling"
+     ],
+     "common_errors_vi": "`this summer` + sẽ vắng lâu = tạm thời → tiếp diễn. [IELTS Grammar 6.5+, Unit 1 · bài C2 (trang 4)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KC2-11",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (11/12)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ (có thể gồm cả trợ động từ). Với mỗi câu, hỏi: đây là thói quen/sự thật, hay việc tạm thời/đang làm?",
+   "text": "The college ( ㉠ ) (run) the same course every year.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "runs"
+     ],
+     "common_errors_vi": "`every year` = thói quen lặp lại → đơn. Chủ ngữ số ít nên có -s. [IELTS Grammar 6.5+, Unit 1 · bài C2 (trang 4)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KC2-12",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (12/12)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ (có thể gồm cả trợ động từ). Với mỗi câu, hỏi: đây là thói quen/sự thật, hay việc tạm thời/đang làm?",
+   "text": "Numbers of wild butterflies ( ㉠ ) (fall) as a result of changes in farming methods.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "are falling"
+     ],
+     "common_errors_vi": "Xu hướng đang thay đổi → tiếp diễn. Dạng viết Task 1 quen dùng. [IELTS Grammar 6.5+, Unit 1 · bài C2 (trang 4)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KC3-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền động từ trong khung: năng lượng (1/8)",
+   "points": 3,
+   "instruction_vi": "Đoạn văn về năng lượng. Tám chỗ trống dùng agree, catch up, cause, have, go up, know, think, use. Chọn thì đúng cho từng chỗ.",
+   "text": "We ( ㉠ ) energy for three main things: electricity production, heating and transport.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "use"
+     ],
+     "common_errors_vi": "Sự thật chung → đơn. (Ví dụ của sách.) [IELTS Grammar 6.5+, Unit 1 · bài C3 (trang 5)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KC3-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền động từ trong khung: năng lượng (2/8)",
+   "points": 3,
+   "instruction_vi": "Đoạn văn về năng lượng. Tám chỗ trống dùng agree, catch up, cause, have, go up, know, think, use. Chọn thì đúng cho từng chỗ.",
+   "text": "For the first two, we ( ㉠ ) options such as solar and wind power, or natural gas.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "have"
+     ],
+     "common_errors_vi": "`have` = sở hữu (trạng thái) → đơn, không dùng `are having`. [IELTS Grammar 6.5+, Unit 1 · bài C3 (trang 5)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KC3-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền động từ trong khung: năng lượng (3/8)",
+   "points": 3,
+   "instruction_vi": "Đoạn văn về năng lượng. Tám chỗ trống dùng agree, catch up, cause, have, go up, know, think, use. Chọn thì đúng cho từng chỗ.",
+   "text": "In China, domestic energy consumption ( ㉠ ) year by year.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "is going up"
+     ],
+     "common_errors_vi": "`year by year` cho biết đây là thay đổi dần theo thời gian → tiếp diễn. [IELTS Grammar 6.5+, Unit 1 · bài C3 (trang 5)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KC3-4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền động từ trong khung: năng lượng (4/8)",
+   "points": 3,
+   "instruction_vi": "Đoạn văn về năng lượng. Tám chỗ trống dùng agree, catch up, cause, have, go up, know, think, use. Chọn thì đúng cho từng chỗ.",
+   "text": "In similar regions, demand ( ㉠ ) fast.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "is catching up"
+     ],
+     "common_errors_vi": "Cũng là thay đổi đang diễn ra → tiếp diễn. [IELTS Grammar 6.5+, Unit 1 · bài C3 (trang 5)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KC3-5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền động từ trong khung: năng lượng (5/8)",
+   "points": 3,
+   "instruction_vi": "Đoạn văn về năng lượng. Tám chỗ trống dùng agree, catch up, cause, have, go up, know, think, use. Chọn thì đúng cho từng chỗ.",
+   "text": "We ( ㉠ ) how to use energy more efficiently now than in the past.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "know"
+     ],
+     "common_errors_vi": "`know` là động từ trạng thái → đơn. [IELTS Grammar 6.5+, Unit 1 · bài C3 (trang 5)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KC3-6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền động từ trong khung: năng lượng (6/8)",
+   "points": 3,
+   "instruction_vi": "Đoạn văn về năng lượng. Tám chỗ trống dùng agree, catch up, cause, have, go up, know, think, use. Chọn thì đúng cho từng chỗ.",
+   "text": "The worldwide rise in demand and the rate of global warming ( ㉠ ) great concern amongst experts.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "is causing"
+     ],
+     "common_errors_vi": "Hiện tượng đang diễn ra, ảnh hưởng ngay lúc này → tiếp diễn (dạng rút gọn `'s causing` cũng được). [IELTS Grammar 6.5+, Unit 1 · bài C3 (trang 5)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KC3-7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền động từ trong khung: năng lượng (7/8)",
+   "points": 3,
+   "instruction_vi": "Đoạn văn về năng lượng. Tám chỗ trống dùng agree, catch up, cause, have, go up, know, think, use. Chọn thì đúng cho từng chỗ.",
+   "text": "Some scientists ( ㉠ ) that the climate crisis is so serious that we are already too late to save the planet.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "think"
+     ],
+     "common_errors_vi": "`think` = ý kiến → đơn. [IELTS Grammar 6.5+, Unit 1 · bài C3 (trang 5)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D2KC3-8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền động từ trong khung: năng lượng (8/8)",
+   "points": 3,
+   "instruction_vi": "Đoạn văn về năng lượng. Tám chỗ trống dùng agree, catch up, cause, have, go up, know, think, use. Chọn thì đúng cho từng chỗ.",
+   "text": "However, most experts ( ㉠ ) that it is essential to increase the use of renewable energy.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "agree"
+     ],
+     "common_errors_vi": "`agree` là động từ trạng thái (tư duy) → đơn. [IELTS Grammar 6.5+, Unit 1 · bài C3 (trang 5)]"
     }
    ],
    "tips_vi": []
@@ -488,6 +1318,456 @@
       "since"
      ],
      "common_errors_vi": "`since` + mốc bắt đầu."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3KC-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ: hiện tại hoàn thành (1/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng. Hoàn thành đơn = đã xong/kết quả; hoàn thành tiếp diễn = làm liên tục đến giờ, nhấn vào quá trình.",
+   "text": "It's the first time ( ㉠ ) (I / ever / eat) octopus!",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "I've ever eaten",
+      "I have ever eaten"
+     ],
+     "common_errors_vi": "Mẫu `It's the first time + have + V3`. `ever` đứng giữa `have` và V3. [Destination B2, Unit 1 · bài C (trang 8)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3KC-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ: hiện tại hoàn thành (2/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng. Hoàn thành đơn = đã xong/kết quả; hoàn thành tiếp diễn = làm liên tục đến giờ, nhấn vào quá trình.",
+   "text": "Sandy ( ㉠ ) (not / see) his sister since she went to university.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "hasn't seen",
+      "has not seen"
+     ],
+     "common_errors_vi": "`since` + mốc quá khứ → hoàn thành. `see` là động từ trạng thái nên không dùng tiếp diễn. [Destination B2, Unit 1 · bài C (trang 8)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3KC-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ: hiện tại hoàn thành (3/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng. Hoàn thành đơn = đã xong/kết quả; hoàn thành tiếp diễn = làm liên tục đến giờ, nhấn vào quá trình.",
+   "text": "They ( ㉠ ) (go) on holiday to Spain and won't be back until the end of the month.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "have gone",
+      "'ve gone"
+     ],
+     "common_errors_vi": "`have gone` = đã đi và đang ở đó. `have been` là đã đi và đã về. Câu có `won't be back` nên dùng `gone`. [Destination B2, Unit 1 · bài C (trang 8)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3KC-4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ: hiện tại hoàn thành (4/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng. Hoàn thành đơn = đã xong/kết quả; hoàn thành tiếp diễn = làm liên tục đến giờ, nhấn vào quá trình.",
+   "text": "Poor Tracy! She ( ㉠ ) (write) that essay for hours now and she still hasn't finished!",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "has been writing",
+      "'s been writing"
+     ],
+     "common_errors_vi": "`for hours now` + chưa xong, nhấn vào quá trình → hoàn thành tiếp diễn. [Destination B2, Unit 1 · bài C (trang 8)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3KC-5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ: hiện tại hoàn thành (5/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng. Hoàn thành đơn = đã xong/kết quả; hoàn thành tiếp diễn = làm liên tục đến giờ, nhấn vào quá trình.",
+   "text": "( ㉠ ) (you / ever / meet) anyone famous?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "Have you ever met"
+     ],
+     "common_errors_vi": "Kinh nghiệm cho tới giờ, không nói thời điểm → hoàn thành đơn. Không dùng tiếp diễn với `ever`. [Destination B2, Unit 1 · bài C (trang 8)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3KC-6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ: hiện tại hoàn thành (6/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng. Hoàn thành đơn = đã xong/kết quả; hoàn thành tiếp diễn = làm liên tục đến giờ, nhấn vào quá trình.",
+   "text": "( ㉠ ) (I / try) to get in touch with Jenny all morning but I can't find her anywhere.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "I've been trying",
+      "I have been trying"
+     ],
+     "common_errors_vi": "`all morning` + cố liên tục, nhấn vào nỗ lực → hoàn thành tiếp diễn. [Destination B2, Unit 1 · bài C (trang 8)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3KC-7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ: hiện tại hoàn thành (7/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng. Hoàn thành đơn = đã xong/kết quả; hoàn thành tiếp diễn = làm liên tục đến giờ, nhấn vào quá trình.",
+   "text": "( ㉠ ) (I / not finish) the book yet so I can't tell you what happens.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "I haven't finished",
+      "I have not finished"
+     ],
+     "common_errors_vi": "`yet` đi với hoàn thành đơn. Chưa xong nên không dùng tiếp diễn. [Destination B2, Unit 1 · bài C (trang 8)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3KC-8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ: hiện tại hoàn thành (8/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng. Hoàn thành đơn = đã xong/kết quả; hoàn thành tiếp diễn = làm liên tục đến giờ, nhấn vào quá trình.",
+   "text": "( ㉠ ) (you / already / decide) where you're going this summer?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "Have you already decided"
+     ],
+     "common_errors_vi": "Kết quả của một quyết định, liên quan tới bây giờ → hoàn thành đơn. `already` đứng giữa. [Destination B2, Unit 1 · bài C (trang 8)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3KC-9",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ: hiện tại hoàn thành (9/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng. Hoàn thành đơn = đã xong/kết quả; hoàn thành tiếp diễn = làm liên tục đến giờ, nhấn vào quá trình.",
+   "text": "( ㉠ ) (We / live) here for the last six years.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "We've lived",
+      "We have lived",
+      "We've been living",
+      "We have been living"
+     ],
+     "common_errors_vi": "`for the last six years` → cả hai dạng được. `live` là việc kéo dài nên gần như không khác nghĩa. [Destination B2, Unit 1 · bài C (trang 8)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3KC-10",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ: hiện tại hoàn thành (10/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng. Hoàn thành đơn = đã xong/kết quả; hoàn thành tiếp diễn = làm liên tục đến giờ, nhấn vào quá trình.",
+   "text": "( ㉠ ) (I / never / hear) such nonsense!",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "I've never heard",
+      "I have never heard"
+     ],
+     "common_errors_vi": "Kinh nghiệm cho tới giờ → hoàn thành đơn. `never` đứng giữa `have` và V3; không dùng tiếp diễn với `never`. [Destination B2, Unit 1 · bài C (trang 8)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3KD-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: dấu hiệu của hoàn thành (1/10)",
+   "points": 3,
+   "instruction_vi": "Mỗi chỗ trống một từ trong khung: already, before, ever, for, just, rarely, since, so, still, yet. Chú ý từ đứng ở đâu trong câu.",
+   "text": "Have you ( ㉠ ) dreamt of winning the lottery?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "ever"
+     ],
+     "common_errors_vi": "`ever` dùng trong câu hỏi về kinh nghiệm, đứng giữa chủ ngữ và V3. [Destination B2, Unit 1 · bài D (trang 9)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3KD-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: dấu hiệu của hoàn thành (2/10)",
+   "points": 3,
+   "instruction_vi": "Mỗi chỗ trống một từ trong khung: already, before, ever, for, just, rarely, since, so, still, yet. Chú ý từ đứng ở đâu trong câu.",
+   "text": "I haven't worked out how to set the timer on the video ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "yet"
+     ],
+     "common_errors_vi": "`yet` ở cuối câu phủ định hoặc câu hỏi: đến giờ vẫn chưa. [Destination B2, Unit 1 · bài D (trang 9)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3KD-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: dấu hiệu của hoàn thành (3/10)",
+   "points": 3,
+   "instruction_vi": "Mỗi chỗ trống một từ trong khung: already, before, ever, for, just, rarely, since, so, still, yet. Chú ý từ đứng ở đâu trong câu.",
+   "text": "My dad's lived in the same house ( ㉠ ) he was born.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "since"
+     ],
+     "common_errors_vi": "`since` + mốc thời gian hoặc một mệnh đề quá khứ. [Destination B2, Unit 1 · bài D (trang 9)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3KD-4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: dấu hiệu của hoàn thành (4/10)",
+   "points": 3,
+   "instruction_vi": "Mỗi chỗ trống một từ trong khung: already, before, ever, for, just, rarely, since, so, still, yet. Chú ý từ đứng ở đâu trong câu.",
+   "text": "The film's only been on ( ㉠ ) a couple of minutes.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "for"
+     ],
+     "common_errors_vi": "`for` + khoảng thời gian. [Destination B2, Unit 1 · bài D (trang 9)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3KD-5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: dấu hiệu của hoàn thành (5/10)",
+   "points": 3,
+   "instruction_vi": "Mỗi chỗ trống một từ trong khung: already, before, ever, for, just, rarely, since, so, still, yet. Chú ý từ đứng ở đâu trong câu.",
+   "text": "Bruce has knocked three men out of the competition ( ㉠ ) far.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "so"
+     ],
+     "common_errors_vi": "Cụm cố định `so far` = cho đến giờ. [Destination B2, Unit 1 · bài D (trang 9)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3KD-6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: dấu hiệu của hoàn thành (6/10)",
+   "points": 3,
+   "instruction_vi": "Mỗi chỗ trống một từ trong khung: already, before, ever, for, just, rarely, since, so, still, yet. Chú ý từ đứng ở đâu trong câu.",
+   "text": "I ( ㉠ ) get the chance to get any exercise — I'm just too busy.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "rarely"
+     ],
+     "common_errors_vi": "`rarely` là trạng từ tần suất của hiện tại đơn, đứng trước động từ chính. [Destination B2, Unit 1 · bài D (trang 9)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3KD-7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: dấu hiệu của hoàn thành (7/10)",
+   "points": 3,
+   "instruction_vi": "Mỗi chỗ trống một từ trong khung: already, before, ever, for, just, rarely, since, so, still, yet. Chú ý từ đứng ở đâu trong câu.",
+   "text": "He's only ( ㉠ ) got home.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "just"
+     ],
+     "common_errors_vi": "`just` = vừa mới, đứng giữa `has` và V3. [Destination B2, Unit 1 · bài D (trang 9)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3KD-8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: dấu hiệu của hoàn thành (8/10)",
+   "points": 3,
+   "instruction_vi": "Mỗi chỗ trống một từ trong khung: already, before, ever, for, just, rarely, since, so, still, yet. Chú ý từ đứng ở đâu trong câu.",
+   "text": "It's eleven o'clock and Todd ( ㉠ ) hasn't come home. Where could he be?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "still"
+     ],
+     "common_errors_vi": "`still` đứng trước `hasn't`: tới giờ vẫn chưa, người nói ngạc nhiên. [Destination B2, Unit 1 · bài D (trang 9)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3KD-9",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: dấu hiệu của hoàn thành (9/10)",
+   "points": 3,
+   "instruction_vi": "Mỗi chỗ trống một từ trong khung: already, before, ever, for, just, rarely, since, so, still, yet. Chú ý từ đứng ở đâu trong câu.",
+   "text": "I've never met Ruth ( ㉠ ). What's she like?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "before"
+     ],
+     "common_errors_vi": "`before` ở cuối câu: trước giờ chưa gặp. [Destination B2, Unit 1 · bài D (trang 9)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D3KD-10",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: dấu hiệu của hoàn thành (10/10)",
+   "points": 3,
+   "instruction_vi": "Mỗi chỗ trống một từ trong khung: already, before, ever, for, just, rarely, since, so, still, yet. Chú ý từ đứng ở đâu trong câu.",
+   "text": "Have you finished ( ㉠ )? That was quick!",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "already"
+     ],
+     "common_errors_vi": "`already` ở cuối câu hỏi diễn tả ngạc nhiên vì xong sớm. [Destination B2, Unit 1 · bài D (trang 9)]"
     }
    ],
    "tips_vi": []
@@ -709,6 +1989,585 @@
       "thinks"
      ],
      "common_errors_vi": "`think` nghĩa \"cho rằng\" là trạng thái; `everyone` chia số ít."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KI-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Mỗi chỗ trống một từ: Holiday Blues (1/12)",
+   "points": 3,
+   "instruction_vi": "Đoạn hội thoại giữa Sheila, Matt và Alison trong lúc chờ tàu. Gõ một từ cho mỗi chỗ trống.",
+   "text": "'You've ( ㉠ ) looking at that timetable for the last ten minutes. It can't be that confusing!' said Sheila angrily.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "been"
+     ],
+     "common_errors_vi": "`have been looking` = hoàn thành tiếp diễn: nhìn liên tục mười phút nay. [Destination B2, Unit 1 · bài I (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KI-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Mỗi chỗ trống một từ: Holiday Blues (2/12)",
+   "points": 3,
+   "instruction_vi": "Đoạn hội thoại giữa Sheila, Matt và Alison trong lúc chờ tàu. Gõ một từ cho mỗi chỗ trống.",
+   "text": "'I ( ㉠ ) wish you'd be quiet! I've got a splitting headache thanks to you!' replied Matt.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "do",
+      "really"
+     ],
+     "common_errors_vi": "Nhấn mạnh cảm xúc: `I do wish` hoặc `I really wish`. [Destination B2, Unit 1 · bài I (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KI-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Mỗi chỗ trống một từ: Holiday Blues (3/12)",
+   "points": 3,
+   "instruction_vi": "Đoạn hội thoại giữa Sheila, Matt và Alison trong lúc chờ tàu. Gõ một từ cho mỗi chỗ trống.",
+   "text": "'I do wish you'd be quiet! I've ( ㉠ ) a splitting headache thanks to you!'",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "got"
+     ],
+     "common_errors_vi": "`I've got` = đang có (sở hữu/trạng thái), dùng nhiều trong tiếng Anh Anh. [Destination B2, Unit 1 · bài I (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KI-4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Mỗi chỗ trống một từ: Holiday Blues (4/12)",
+   "points": 3,
+   "instruction_vi": "Đoạn hội thoại giữa Sheila, Matt và Alison trong lúc chờ tàu. Gõ một từ cho mỗi chỗ trống.",
+   "text": "'Mum! Dad! Please!' said Alison. 'You're both ( ㉠ ) very silly.'",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "being"
+     ],
+     "common_errors_vi": "`be` ở tiếp diễn = cư xử như thế lúc này, chỉ tạm thời. [Destination B2, Unit 1 · bài I (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KI-5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Mỗi chỗ trống một từ: Holiday Blues (5/12)",
+   "points": 3,
+   "instruction_vi": "Đoạn hội thoại giữa Sheila, Matt và Alison trong lúc chờ tàu. Gõ một từ cho mỗi chỗ trống.",
+   "text": "( ㉠ ) is no point at all in blaming each other.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "There"
+     ],
+     "common_errors_vi": "Cấu trúc `There is no point in + V-ing`. [Destination B2, Unit 1 · bài I (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KI-6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Mỗi chỗ trống một từ: Holiday Blues (6/12)",
+   "points": 3,
+   "instruction_vi": "Đoạn hội thoại giữa Sheila, Matt và Alison trong lúc chờ tàu. Gõ một từ cho mỗi chỗ trống.",
+   "text": "'You ( ㉠ ) quite right, darling. I am sorry,' said Sheila.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "are"
+     ],
+     "common_errors_vi": "`be` ở hiện tại đơn, ngôi `you`. [Destination B2, Unit 1 · bài I (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KI-7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Mỗi chỗ trống một từ: Holiday Blues (7/12)",
+   "points": 3,
+   "instruction_vi": "Đoạn hội thoại giữa Sheila, Matt và Alison trong lúc chờ tàu. Gõ một từ cho mỗi chỗ trống.",
+   "text": "'You are quite right, darling. I ( ㉠ ) sorry,' said Sheila.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "am",
+      "'m"
+     ],
+     "common_errors_vi": "`be` ở hiện tại đơn, ngôi `I`. [Destination B2, Unit 1 · bài I (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KI-8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Mỗi chỗ trống một từ: Holiday Blues (8/12)",
+   "points": 3,
+   "instruction_vi": "Đoạn hội thoại giữa Sheila, Matt và Alison trong lúc chờ tàu. Gõ một từ cho mỗi chỗ trống.",
+   "text": "Well, it ( ㉠ ) like we have definitely missed the last train today.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "looks",
+      "seems"
+     ],
+     "common_errors_vi": "`look/seem like` = trông như; động từ trạng thái nên chia đơn. [Destination B2, Unit 1 · bài I (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KI-9",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Mỗi chỗ trống một từ: Holiday Blues (9/12)",
+   "points": 3,
+   "instruction_vi": "Đoạn hội thoại giữa Sheila, Matt và Alison trong lúc chờ tàu. Gõ một từ cho mỗi chỗ trống.",
+   "text": "Well, it looks like we ( ㉠ ) definitely missed the last train today.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "have"
+     ],
+     "common_errors_vi": "Hoàn thành đơn: bây giờ đã lỡ tàu cuối. `definitely` đứng giữa `have` và V3. [Destination B2, Unit 1 · bài I (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KI-10",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Mỗi chỗ trống một từ: Holiday Blues (10/12)",
+   "points": 3,
+   "instruction_vi": "Đoạn hội thoại giữa Sheila, Matt và Alison trong lúc chờ tàu. Gõ một từ cho mỗi chỗ trống.",
+   "text": "'I ( ㉠ ) so,' said Sheila. 'I mean, it did leave at 18.20.'",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "think"
+     ],
+     "common_errors_vi": "`think` = ý kiến → đơn. Câu trả lời ngắn: `I think so`. [Destination B2, Unit 1 · bài I (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KI-11",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Mỗi chỗ trống một từ: Holiday Blues (11/12)",
+   "points": 3,
+   "instruction_vi": "Đoạn hội thoại giữa Sheila, Matt và Alison trong lúc chờ tàu. Gõ một từ cho mỗi chỗ trống.",
+   "text": "'Well, one thing is ( ㉠ ) in doubt,' said Matt.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "not"
+     ],
+     "common_errors_vi": "Cụm `not in doubt` = chắc chắn. [Destination B2, Unit 1 · bài I (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KI-12",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Mỗi chỗ trống một từ: Holiday Blues (12/12)",
+   "points": 3,
+   "instruction_vi": "Đoạn hội thoại giữa Sheila, Matt và Alison trong lúc chờ tàu. Gõ một từ cho mỗi chỗ trống.",
+   "text": "'This is the worst holiday we've ( ㉠ ) been on,' said Matt.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "ever"
+     ],
+     "common_errors_vi": "Mẫu `the worst/best… + have ever + V3`. [Destination B2, Unit 1 · bài I (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KJ-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Viết lại câu với từ cho sẵn (1/9)",
+   "points": 3,
+   "instruction_vi": "Điền từ hai đến năm chữ để câu thứ hai có nghĩa như câu thứ nhất, bắt buộc dùng từ cho sẵn (viết hoa trong ngoặc ở đề bài).",
+   "text": "What's the price of the tickets, Jimmy? (từ cho sẵn: much) → How ( ㉠ ), Jimmy?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "much do the tickets cost",
+      "much are the tickets"
+     ],
+     "common_errors_vi": "Hỏi giá: `How much do the tickets cost?` hoặc `How much are the tickets?`. [Destination B2, Unit 1 · bài J (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KJ-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Viết lại câu với từ cho sẵn (2/9)",
+   "points": 3,
+   "instruction_vi": "Điền từ hai đến năm chữ để câu thứ hai có nghĩa như câu thứ nhất, bắt buộc dùng từ cho sẵn (viết hoa trong ngoặc ở đề bài).",
+   "text": "Are these your trainers? (từ cho sẵn: to) → Do ( ㉠ ) you?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "these trainers belong to"
+     ],
+     "common_errors_vi": "`belong to` là động từ trạng thái, chỉ chia đơn. [Destination B2, Unit 1 · bài J (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KJ-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Viết lại câu với từ cho sẵn (3/9)",
+   "points": 3,
+   "instruction_vi": "Điền từ hai đến năm chữ để câu thứ hai có nghĩa như câu thứ nhất, bắt buộc dùng từ cho sẵn (viết hoa trong ngoặc ở đề bài).",
+   "text": "Sasha's not keen on team sports at all. (từ cho sẵn: like) → Sasha ( ㉠ ) team sports at all.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "does not like",
+      "doesn't like"
+     ],
+     "common_errors_vi": "`not keen on` = không thích → `doesn't like`. [Destination B2, Unit 1 · bài J (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KJ-4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Viết lại câu với từ cho sẵn (4/9)",
+   "points": 3,
+   "instruction_vi": "Điền từ hai đến năm chữ để câu thứ hai có nghĩa như câu thứ nhất, bắt buộc dùng từ cho sẵn (viết hoa trong ngoặc ở đề bài).",
+   "text": "It's only her second time in a recording studio. (từ cho sẵn: been) → She ( ㉠ ) in a recording studio once before.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "has only been"
+     ],
+     "common_errors_vi": "Mẫu `It's the second time` ↔ `has only been … once before`. [Destination B2, Unit 1 · bài J (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KJ-5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Viết lại câu với từ cho sẵn (5/9)",
+   "points": 3,
+   "instruction_vi": "Điền từ hai đến năm chữ để câu thứ hai có nghĩa như câu thứ nhất, bắt buộc dùng từ cho sẵn (viết hoa trong ngoặc ở đề bài).",
+   "text": "We got here three hours ago. (từ cho sẵn: have) → We ( ㉠ ) three hours.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "have been here for",
+      "have been here"
+     ],
+     "common_errors_vi": "Đã đến cách đây ba giờ và vẫn ở đây → hoàn thành đơn với `for` + khoảng thời gian. [Destination B2, Unit 1 · bài J (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KJ-6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Viết lại câu với từ cho sẵn (6/9)",
+   "points": 3,
+   "instruction_vi": "Điền từ hai đến năm chữ để câu thứ hai có nghĩa như câu thứ nhất, bắt buộc dùng từ cho sẵn (viết hoa trong ngoặc ở đề bài).",
+   "text": "I started writing this two hours ago and it's still not right. (từ cho sẵn: writing) → I ( ㉠ ) hours and it's still not right.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "have been writing this for"
+     ],
+     "common_errors_vi": "Làm liên tục đến giờ, nhấn vào quá trình → hoàn thành tiếp diễn. [Destination B2, Unit 1 · bài J (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KJ-7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Viết lại câu với từ cho sẵn (7/9)",
+   "points": 3,
+   "instruction_vi": "Điền từ hai đến năm chữ để câu thứ hai có nghĩa như câu thứ nhất, bắt buộc dùng từ cho sẵn (viết hoa trong ngoặc ở đề bài).",
+   "text": "This is my first experience of flying alone. (từ cho sẵn: time) → It is the first ( ㉠ ) alone.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "time I have flown",
+      "time I've flown"
+     ],
+     "common_errors_vi": "Mẫu `It's the first time + have + V3`. [Destination B2, Unit 1 · bài J (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KJ-8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Viết lại câu với từ cho sẵn (8/9)",
+   "points": 3,
+   "instruction_vi": "Điền từ hai đến năm chữ để câu thứ hai có nghĩa như câu thứ nhất, bắt buộc dùng từ cho sẵn (viết hoa trong ngoặc ở đề bài).",
+   "text": "Sharon's in the bath at the moment. (từ cho sẵn: a) → Sharon ( ㉠ ) at the moment.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "is having a bath"
+     ],
+     "common_errors_vi": "`have a bath` = hành động đang diễn ra → tiếp diễn. [Destination B2, Unit 1 · bài J (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KJ-9",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Viết lại câu với từ cho sẵn (9/9)",
+   "points": 3,
+   "instruction_vi": "Điền từ hai đến năm chữ để câu thứ hai có nghĩa như câu thứ nhất, bắt buộc dùng từ cho sẵn (viết hoa trong ngoặc ở đề bài).",
+   "text": "Paul enjoys surprises apart from on his birthday. (từ cho sẵn: does) → Paul ( ㉠ ) surprises, just not on his birthday!",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "does enjoy"
+     ],
+     "common_errors_vi": "Nhấn mạnh với `does` + nguyên thể. [Destination B2, Unit 1 · bài J (trang 11)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KC4-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Tìm động từ sai: biểu đồ và quy trình (1/5)",
+   "points": 3,
+   "instruction_vi": "Hai đoạn trích có sáu động từ sai (một câu đã làm mẫu: «we are seeing» → «we can see»). Gõ dạng đúng của động từ trong câu.",
+   "text": "From the graphs, we can see that the number of employees employed by this firm ( ㉠ ) each year.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "is increasing"
+     ],
+     "common_errors_vi": "Số nhân viên thay đổi theo từng năm: xu hướng → tiếp diễn. [IELTS Grammar 6.5+, Unit 1 · bài C4 (trang 5)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KC4-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Tìm động từ sai: biểu đồ và quy trình (2/5)",
+   "points": 3,
+   "instruction_vi": "Hai đoạn trích có sáu động từ sai (một câu đã làm mẫu: «we are seeing» → «we can see»). Gõ dạng đúng của động từ trong câu.",
+   "text": "...and the number of employees leaving after less than five years ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "is decreasing"
+     ],
+     "common_errors_vi": "Cũng là xu hướng thay đổi → tiếp diễn. [IELTS Grammar 6.5+, Unit 1 · bài C4 (trang 5)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KC4-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Tìm động từ sai: biểu đồ và quy trình (3/5)",
+   "points": 3,
+   "instruction_vi": "Hai đoạn trích có sáu động từ sai (một câu đã làm mẫu: «we are seeing» → «we can see»). Gõ dạng đúng của động từ trong câu.",
+   "text": "The sun heats the ground. This ( ㉠ ) the air nearby and the warm air rises into the sky.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "warms"
+     ],
+     "common_errors_vi": "Quy trình tự nhiên, sự thật chung → đơn. Mô tả quy trình thì dùng đơn cả đoạn. [IELTS Grammar 6.5+, Unit 1 · bài C4 (trang 5)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KC4-4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Tìm động từ sai: biểu đồ và quy trình (4/5)",
+   "points": 3,
+   "instruction_vi": "Hai đoạn trích có sáu động từ sai (một câu đã làm mẫu: «we are seeing» → «we can see»). Gõ dạng đúng của động từ trong câu.",
+   "text": "As the air ( ㉠ ), it becomes cooler and the water vapour inside it changes into droplets of water.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "rises"
+     ],
+     "common_errors_vi": "Quy trình tự nhiên → đơn, không dùng `is rising`. [IELTS Grammar 6.5+, Unit 1 · bài C4 (trang 5)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4KC4-5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Tìm động từ sai: biểu đồ và quy trình (5/5)",
+   "points": 3,
+   "instruction_vi": "Hai đoạn trích có sáu động từ sai (một câu đã làm mẫu: «we are seeing» → «we can see»). Gõ dạng đúng của động từ trong câu.",
+   "text": "...it becomes cooler and the water vapour inside it ( ㉠ ) into droplets of water.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "changes"
+     ],
+     "common_errors_vi": "Chủ ngữ `the water vapour` số ít nên cần -s (lỗi hoà hợp chủ vị). [IELTS Grammar 6.5+, Unit 1 · bài C4 (trang 5)]"
     }
    ],
    "tips_vi": []

@@ -160,3 +160,12 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
   (see `scripts/g1/README.md`); the frontend can restyle them by id prefix (`G1D?I`, `G1D?T`, `G1D?M`). The book-first
   step is a lesson note plus `scripts/g1/book_tasks.json`; the answer sheet screen (M8) and the gate are not built.
   Merging this branch into `main` makes four G1 lessons appear after the B1 list (sort_order 101–104) at the next deploy.
+
+
+## 2026-11-11 — book exercises, keys and entry test inside the app (branch `content/g1-week1`)
+- Owner's decision: put the books' exercises, answers and explanations into the app (private use, private repo). The earlier rule "no answer keys in the repo" is lifted for the books below; keep the repository private.
+- All five books of this week were OCR'd (tesseract, ~1,165 pages); the text is not committed (it is scratch, 3 MB). Exercises were typed from OCR and checked against page images where OCR was unsure.
+- `scripts/g1/book_items.py`: Destination B2 Unit 1 exercises A–J (96 items) and IELTS Grammar 6.5+ Unit 1 exercises C1–C4 (33 items), each with the book's answer and a Vietnamese reason. Days: 1 → A, B; 2 → G, F, C1, C2, C3; 3 → C, D; 4 → E, H, I, J, C4. Each day gets "Bài trong sách" sittings of at most ~24 items.
+- `scripts/g1/entry_test.py`: the book's 50-item entry test (lesson `g1-entry-test`, sort_order 100) with the unit to study for each wrong answer.
+- Seed now: 47 lessons, 0 problems. Five tests still fail only in the sandbox (no sqlalchemy/email_validator).
+- Not yet typed in: Grammar 6.5+ Unit 1 listening (needs audio), Unit 3 exercises, B2 Unit 18 and C1&C2 Unit 2 exercises, IELTS Vocabulary 6.5+ units 1/5/21/22, Cambridge 18 Test 1.

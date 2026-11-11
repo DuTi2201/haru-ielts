@@ -7,6 +7,8 @@ teaches them (choose the tense by what the speaker means), on the frame of Desti
 | --- | --- |
 | `days.txt` | per day: book tasks to do first, cards, words, questions, sentences to build, gaps, dictation, own-sentence tasks |
 | `build.py` | builds `app/seed/lessons/g1-*.json` and `app/seed/exercises/g1/` with the builders of `scripts/b1/build.py` |
+| `book_items.py` | the book exercises typed in from the scans WITH the books' answer keys and a Vietnamese reason per answer: Destination B2 Unit 1 (A–J), IELTS Grammar 6.5+ Unit 1 (C1–C4); ids `G1D{day}K{code}-{n}`, one or more "Bài trong sách" sittings at the end of each day |
+| `entry_test.py` | the 50-item entry test of IELTS Grammar 6.5+ with the key and the unit to study for each wrong answer; lesson `g1-entry-test` (sort_order 100), ids `G1E{n}` |
 | `book_tasks.json` | generated: the book exercises of each day (book, page, exercise, number of items, minutes) for the "do it in the book" screen |
 
     python3 scripts/g1/build.py
@@ -25,7 +27,7 @@ Now: 4 lessons, 21 cards, 37 words, 83 exercises. Exercise ids are `G1D{day}{kin
 
 Rules kept: the ideas and their order are the teacher's; every sentence, question and explanation is written for this
 course. No sentence of the book's exercises is reused, so the app never gives away a book answer before the learner
-has done the exercise. Answer keys of the book are not in this repository.
+has done the exercise. The owner decided (2026-11-11) that the books' exercises, keys and notes go into the app: it is private use and the repository is private. Keep the repository private.
 
 Not here yet: the entry test (15 items from the B1 bank), day 4's one-page table as a screen, the G1 test (25 items,
 start of day 5), days 5–7, minimal-pair listening items. The lessons have no speaking task on purpose (phase one).

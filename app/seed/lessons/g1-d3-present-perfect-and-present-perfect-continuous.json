@@ -203,8 +203,8 @@
    "kind": "goal"
   },
   {
-   "title": "Sách trước: tự làm rồi mới học thẻ",
-   "body": "• 📖 Destination B2, trang 6–7: Đọc bảng Present perfect simple và Present perfect continuous (khoảng 15 phút)\n• 📖 Destination B2, trang 8: bài C (10 câu, khoảng 12 phút)\n• 📖 Destination B2, trang 9: bài D (10 câu, khoảng 10 phút)\n• Làm trong sách, ghi đáp án của bạn, rồi mới mở thẻ. Sau khi học thẻ, quay lại chấm bằng đáp án cuối sách và tự giải thích từng câu sai theo ý muốn nói.",
+   "title": "Bài của sách nằm trong app",
+   "body": "• 📖 Destination B2, trang 6–7: Đọc bảng Present perfect simple và Present perfect continuous (khoảng 15 phút)\n• 📖 Destination B2, trang 8: bài C (10 câu, khoảng 12 phút)\n• 📖 Destination B2, trang 9: bài D (10 câu, khoảng 10 phút)\n• Các bài này đã có sẵn trong app, ở các buổi \"Bài trong sách\" cuối ngày, kèm đáp án của sách và lời giải thích từng câu. Nếu có sách giấy, bạn có thể làm trên sách trước rồi chấm lại trong app. Sau khi học thẻ, với mỗi câu sai hãy tự nói lại câu đó theo ý muốn nói.",
    "kind": "language"
   },
   {
@@ -246,6 +246,26 @@
   "G1D3F2",
   "G1D3F3",
   "G1D3F4",
+  "G1D3KC-1",
+  "G1D3KC-2",
+  "G1D3KC-3",
+  "G1D3KC-4",
+  "G1D3KC-5",
+  "G1D3KC-6",
+  "G1D3KC-7",
+  "G1D3KC-8",
+  "G1D3KC-9",
+  "G1D3KC-10",
+  "G1D3KD-1",
+  "G1D3KD-2",
+  "G1D3KD-3",
+  "G1D3KD-4",
+  "G1D3KD-5",
+  "G1D3KD-6",
+  "G1D3KD-7",
+  "G1D3KD-8",
+  "G1D3KD-9",
+  "G1D3KD-10",
   "G1D3D1",
   "G1D3M1"
  ],
@@ -318,6 +338,33 @@
     "G1D3F4",
     "G1D3D1",
     "G1D3M1"
+   ]
+  },
+  {
+   "title_vi": "Bài trong sách · C, D",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: chia động từ: hiện tại hoàn thành; điền từ trong khung: dấu hiệu của hoàn thành.",
+   "use_vi": "Làm sau khi học thẻ: mỗi câu sai có lời giải thích, hãy tự nói lại câu đó theo ý muốn nói rồi mới sang câu sau.",
+   "check": [
+    "G1D3KC-1",
+    "G1D3KC-2",
+    "G1D3KC-3",
+    "G1D3KC-4",
+    "G1D3KC-5",
+    "G1D3KC-6",
+    "G1D3KC-7",
+    "G1D3KC-8",
+    "G1D3KC-9",
+    "G1D3KC-10",
+    "G1D3KD-1",
+    "G1D3KD-2",
+    "G1D3KD-3",
+    "G1D3KD-4",
+    "G1D3KD-5",
+    "G1D3KD-6",
+    "G1D3KD-7",
+    "G1D3KD-8",
+    "G1D3KD-9",
+    "G1D3KD-10"
    ]
   }
  ],

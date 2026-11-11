@@ -134,8 +134,8 @@
    "kind": "goal"
   },
   {
-   "title": "Sách trước: tự làm rồi mới học thẻ",
-   "body": "• 📖 Destination B2, trang 6–7: Đọc bảng lý thuyết Present simple và Present continuous (khoảng 15 phút)\n• 📖 Destination B2, trang 8: bài A (10 câu, khoảng 10 phút)\n• 📖 Destination B2, trang 8: bài B (8 câu, khoảng 10 phút)\n• Làm trong sách, ghi đáp án của bạn, rồi mới mở thẻ. Sau khi học thẻ, quay lại chấm bằng đáp án cuối sách và tự giải thích từng câu sai theo ý muốn nói.",
+   "title": "Bài của sách nằm trong app",
+   "body": "• 📖 Destination B2, trang 6–7: Đọc bảng lý thuyết Present simple và Present continuous (khoảng 15 phút)\n• 📖 Destination B2, trang 8: bài A (10 câu, khoảng 10 phút)\n• 📖 Destination B2, trang 8: bài B (8 câu, khoảng 10 phút)\n• Các bài này đã có sẵn trong app, ở các buổi \"Bài trong sách\" cuối ngày, kèm đáp án của sách và lời giải thích từng câu. Nếu có sách giấy, bạn có thể làm trên sách trước rồi chấm lại trong app. Sau khi học thẻ, với mỗi câu sai hãy tự nói lại câu đó theo ý muốn nói.",
    "kind": "language"
   },
   {
@@ -166,6 +166,16 @@
   "G1D1Q1",
   "G1D1Q2",
   "G1D1Q3",
+  "G1D1KA-1",
+  "G1D1KA-2",
+  "G1D1KA-3",
+  "G1D1KA-4",
+  "G1D1KA-5",
+  "G1D1KA-6",
+  "G1D1KA-7",
+  "G1D1KA-8",
+  "G1D1KA-9",
+  "G1D1KA-10",
   "G1D1B1",
   "G1D1B2",
   "G1D1B3",
@@ -173,6 +183,14 @@
   "G1D1F1",
   "G1D1F2",
   "G1D1F3",
+  "G1D1KB-1",
+  "G1D1KB-2",
+  "G1D1KB-3",
+  "G1D1KB-4",
+  "G1D1KB-5",
+  "G1D1KB-6",
+  "G1D1KB-7",
+  "G1D1KB-8",
   "G1D1D1",
   "G1D1M1",
   "G1D1M2"
@@ -227,6 +245,31 @@
     "G1D1D1",
     "G1D1M1",
     "G1D1M2"
+   ]
+  },
+  {
+   "title_vi": "Bài trong sách · A, B",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: khoanh từ đúng; sửa cho đúng (gõ lại).",
+   "use_vi": "Làm sau khi học thẻ: mỗi câu sai có lời giải thích, hãy tự nói lại câu đó theo ý muốn nói rồi mới sang câu sau.",
+   "check": [
+    "G1D1KA-1",
+    "G1D1KA-2",
+    "G1D1KA-3",
+    "G1D1KA-4",
+    "G1D1KA-5",
+    "G1D1KA-6",
+    "G1D1KA-7",
+    "G1D1KA-8",
+    "G1D1KA-9",
+    "G1D1KA-10",
+    "G1D1KB-1",
+    "G1D1KB-2",
+    "G1D1KB-3",
+    "G1D1KB-4",
+    "G1D1KB-5",
+    "G1D1KB-6",
+    "G1D1KB-7",
+    "G1D1KB-8"
    ]
   }
  ],
