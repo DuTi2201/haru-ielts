@@ -30,6 +30,20 @@ GAP_AFTER_PARAGRAPH_MS = 500
 GAP_AFTER_ELLIPSIS_KO_MS = 700
 GAP_AFTER_ELLIPSIS_VI_MS = 350
 
+# English said for repeating: the silence must hold the learner's own attempt. A word gets 1.2 s;
+# a sentence gets 1.2 times the time the voice itself needs (about 2.2 words a second at the
+# lecture's pace) plus 0.4 s to start. A fixed 0.7 s (right for a Korean word) cut every English
+# sentence off: "The bus is slow, but it does stop near my office." takes about 4 s to say.
+GAP_REPEAT_WORD_MS = 1200
+GAP_REPEAT_START_MS = 400
+GAP_REPEAT_PER_WORD_MS = 545
+
+
+def english_repeat_gap_ms(text: str) -> int:
+    words = len(re.findall(r"[A-Za-z]+(?:['’][A-Za-z]+)?", text))
+    return max(GAP_REPEAT_WORD_MS, GAP_REPEAT_START_MS + words * GAP_REPEAT_PER_WORD_MS)
+
+
 _ELLIPSIS_END = re.compile(r"(\.{2,}|…)\s*[\"'”’)\]]*\s*$")
 
 
@@ -192,6 +206,8 @@ def split_runs(script: str) -> list[Run]:
             pause = GAP_AFTER_PARAGRAPH_MS if last else GAP_LANGUAGE_SWITCH_MS
             if _ELLIPSIS_END.search(text):
                 pause = max(pause, GAP_AFTER_ELLIPSIS_KO_MS if lang == KO else GAP_AFTER_ELLIPSIS_VI_MS)
+                if lang == KO and split is _split_paragraph_latin:
+                    pause = max(pause, english_repeat_gap_ms(text))
             out.append(Run(lang, text, pause, n, i))
     if out:
         last_run = out[-1]

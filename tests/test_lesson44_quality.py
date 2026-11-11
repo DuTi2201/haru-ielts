@@ -31,13 +31,20 @@ def _minutes(script: str) -> float:
     second (the configured paces, rounded down), the silences of the plan, and for a sentence said
     for repeating a gap as long as the sentence."""
     runs = lecture_voice.split_runs(script)
-    shadow = {tuple(x) for x in lesson_audio.shadow_runs(script)}
     t = 0.0
     for r in runs:
         n = len(r.text.split())
         t += n / (2.4 if r.lang == lecture_voice.KO else 3.8)
-        t += max(1.2, n / 2.4 * 1.2) if (r.line, r.run) in shadow else r.pause_after_ms / 1000
+        t += r.pause_after_ms / 1000
     return t / 60
+
+
+def test_the_gap_after_an_english_sentence_is_long_enough_to_say_it():
+    runs = lecture_voice.split_runs("I do like fish...\nThe bus is slow, but it does stop near my office...\nhabit... thói quen.")
+    by_text = {r.text: r.pause_after_ms for r in runs}
+    assert by_text["I do like fish..."] == 400 + 4 * 545
+    assert by_text["The bus is slow, but it does stop near my office..."] >= 6000
+    assert by_text["habit..."] == 1200
 
 
 def test_the_seed_is_sound_and_day_one_has_three_teaching_sittings():
