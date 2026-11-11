@@ -30,6 +30,10 @@ class Settings(BaseSettings):
     # lecture or dialogue (costly).
     AUDIO_WORD_PER_CLIENT_HOURLY: int = 150
     AUDIO_WORD_ALL_HOURLY: int = 600
+    # read-aloud pronunciation scoring (Azure, one request per sentence): a lesson's "Nói thử"
+    # has about ten sentences, so 120 an hour is a dozen full passes
+    PRON_PER_CLIENT_HOURLY: int = 120
+    PRON_ALL_HOURLY: int = 1500
     AUDIO_LECTURE_PER_CLIENT_HOURLY: int = 12
     AUDIO_LECTURE_ALL_HOURLY: int = 60
 

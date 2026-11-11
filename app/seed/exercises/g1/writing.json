@@ -35,6 +35,23 @@
     "Mỗi câu có chủ ngữ và động từ đã chia.",
     "Thì khớp với điều bạn muốn nói.",
     "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+   ],
+   "rubric": [
+    {
+     "criterion_vi": "Trả lời đúng câu hỏi, nội dung là của chính bạn",
+     "max": 1,
+     "note_vi": "Task response"
+    },
+    {
+     "criterion_vi": "Chọn thì đúng với điều muốn nói (mỗi câu một ý trên trục thời gian)",
+     "max": 2,
+     "note_vi": "Grammatical range"
+    },
+    {
+     "criterion_vi": "Dạng động từ đúng: -s ngôi thứ ba, do/does + nguyên thể, have + V3",
+     "max": 2,
+     "note_vi": "Grammatical accuracy"
+    }
    ]
   },
   {
@@ -61,6 +78,23 @@
     "Mỗi câu có chủ ngữ và động từ đã chia.",
     "Thì khớp với điều bạn muốn nói.",
     "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+   ],
+   "rubric": [
+    {
+     "criterion_vi": "Trả lời đúng câu hỏi, nội dung là của chính bạn",
+     "max": 1,
+     "note_vi": "Task response"
+    },
+    {
+     "criterion_vi": "Chọn thì đúng với điều muốn nói (mỗi câu một ý trên trục thời gian)",
+     "max": 2,
+     "note_vi": "Grammatical range"
+    },
+    {
+     "criterion_vi": "Dạng động từ đúng: -s ngôi thứ ba, do/does + nguyên thể, have + V3",
+     "max": 2,
+     "note_vi": "Grammatical accuracy"
+    }
    ]
   },
   {
