@@ -289,3 +289,7 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
 - Chữ dưới 12px trong GrammarCards/Rich nâng lên text-xs. Token ink-2 đã ≥ 4.5:1 theo styles.css.
 - Không làm: cột hẹp trên màn rộng (LessonShell đã lg:max-w-960, ảnh chụp là cửa sổ hẹp); TabBar nổi che nội dung khi cuộn là thiết kế, Shell đã chừa chỗ ở đáy.
 - Chưa làm: axe tự động và kiểm tra bằng mắt trên trang thật (sandbox không đăng nhập được).
+
+## Đầu trang bài học gọn lại
+- days.txt: dòng `can: a; b; c` sau `goal:` của mỗi ngày G1; build.py dùng nó làm ghi chú "Mục tiêu của ngày" (mỗi ý một gạch đầu dòng); `goal:` vẫn là summary.
+- lesson.$id.tsx: nhãn "G1 · Ngày 1" tách thành viên thuốc, tên bài là tiêu đề; bỏ tên chủ đề lặp ở dòng "Cấp độ"; mục tiêu 2–4 dòng ngắn (≤90 ký tự) hiện thành danh sách dấu tích, bài khác vẫn đoạn văn như cũ.

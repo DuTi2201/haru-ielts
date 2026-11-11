@@ -47,6 +47,9 @@ def parse() -> list[dict]:
             days.append(cur)
         elif ln.startswith("goal: "):
             cur["goal"] = ln[6:]
+        elif ln.startswith("can: "):
+            # what the learner can do after the day: short lines, shown as a checklist on the lesson header
+            cur["can"] = [x.strip() for x in ln[5:].split(";") if x.strip()]
         elif ln.startswith("ielts: "):
             cur["ielts"] = ln[7:]
         elif ln.startswith("book: "):
@@ -244,7 +247,7 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
         "summary": f"{d['goal']} Thẻ: {'; '.join(p.split(' · ')[-1] for p in patterns)}.",
         "vocab": vocab, "grammar": grammar,
         "notes": [
-            {"title": "Mục tiêu của ngày", "body": f"• {d['goal']}", "kind": "goal"},
+            {"title": "Mục tiêu của ngày", "body": "\n".join(f"• {x}" for x in d.get("can") or [d["goal"]]), "kind": "goal"},
             {"title": "Bài của sách nằm trong app", "body": book_body + "\n• Các bài này đã có sẵn trong app, ở các buổi \"Bài trong sách\" cuối ngày, kèm đáp án của sách và lời giải thích từng câu. Nếu có sách giấy, bạn có thể làm trên sách trước rồi chấm lại trong app. Sau khi học thẻ, với mỗi câu sai hãy tự nói lại câu đó theo ý muốn nói.", "kind": "language"},
             {"title": "Dùng ở đâu trong IELTS", "body": d["ielts"], "kind": "language"},
         ],
@@ -440,7 +443,7 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
         "title": f"G1 · Ngày {n} · {d['title_vi']}"[:120], "title_en": d["title"], "topic": TOPIC, "track": "beginner", "level": 4, "sort_order": 100 + n,
         "summary": d["goal"], "vocab": vocab, "grammar": [],
         "notes": [
-            {"title": "Mục tiêu của ngày", "body": f"• {d['goal']}", "kind": "goal"},
+            {"title": "Mục tiêu của ngày", "body": "\n".join(f"• {x}" for x in d.get("can") or [d["goal"]]), "kind": "goal"},
             {"title": "Bài của sách nằm trong app", "body": book_body + "\n• Các bài này có sẵn trong app kèm đáp án của sách và lời giải thích từng câu.", "kind": "language"},
             {"title": "Cách học từ C1", "body": "• Học từ C1 bằng một từ B2 đồng nghĩa, không học nghĩa tiếng Việt dài.\n• Chọn 5 đến 10 từ bạn thích nhất rồi gõ câu về chính mình bằng bàn phím tiếng Anh.", "kind": "language"},
         ],
