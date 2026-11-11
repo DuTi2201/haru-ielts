@@ -293,3 +293,11 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
 ## Đầu trang bài học gọn lại
 - days.txt: dòng `can: a; b; c` sau `goal:` của mỗi ngày G1; build.py dùng nó làm ghi chú "Mục tiêu của ngày" (mỗi ý một gạch đầu dòng); `goal:` vẫn là summary.
 - lesson.$id.tsx: nhãn "G1 · Ngày 1" tách thành viên thuốc, tên bài là tiêu đề; bỏ tên chủ đề lặp ở dòng "Cấp độ"; mục tiêu 2–4 dòng ngắn (≤90 ký tự) hiện thành danh sách dấu tích, bài khác vẫn đoạn văn như cũ.
+
+## Soát bài tập theo từng dạng (hai agent A, B)
+- Báo cáo: docs/review/exercises-ui/A.md (đề/đáp án/13 khung Viết, kèm A_audit.py chạy lại được) và B.md (UI/UX từng dạng).
+- Kết luận: lỗi cả ở dữ liệu lẫn trình bày. 222/381 bài điền từ có lỗi đề: câu gốc sai của sách không có trong dữ liệu, ngân hàng từ nằm cụt trong instruction, nghĩa tiếng Việt chỉ hiện sau khi chấm; 13 bài Viết chỉ có 2 khung chung.
+- Dữ liệu: scripts/g1/exercise_polish.py (chạy cuối build.py) thêm kind/task_vi/situation_vi/bank, gợi ý động từ trong ngoặc cho 10 bài sửa thì, rút gọn I've/they're và -ise/-ize vào accepted; scripts/g1/writing_scaffold.json = khung riêng cho từng đề Viết (frames, framework_vi, avoid_vi, common_errors_vi, limits) + checklist riêng + rubric cho 10 bài còn trống; đề D11 hết mơ hồ, bài mẫu D11 bỏ "buses are rare".
+- Seed model (lesson_seed.py): WriteFill có task_vi/kind/situation_vi/original/bank; WriteEssay có frames/useful_vi/avoid_vi.
+- Giao diện: ExerciseHead (chip loại bài + tiến độ 3/8 + nhiệm vụ đậm 17px), WriteFill dùng ô gạch dưới nội tuyến và chip ngân hàng từ, WriteEssay có khung câu bấm để chèn, ô viết theo giới hạn, checklist ngay dưới ô viết, thanh đếm từ.
+- Chưa làm (xem A.md mục 4): 18 câu gốc sai thật từ sách (cần đối chiếu sách giấy), 14 câu còn thiếu của G1D7KXI, liên kết KLT/KTY với bài nghe/đọc, 22 bài Ôn lại trùng D6/D7, 14 bài "tích cực/tiêu cực" ở Reading.

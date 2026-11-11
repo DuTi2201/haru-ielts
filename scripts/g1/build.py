@@ -24,6 +24,7 @@ import day89 as D89  # noqa: E402
 import lecture_d1 as L1  # noqa: E402
 from assoc import ASSOC  # noqa: E402
 import re  # noqa: E402
+import exercise_polish as EP  # noqa: E402
 
 LESSONS = ROOT / "app" / "seed" / "lessons"
 BANK = ROOT / "app" / "seed" / "exercises" / "g1"
@@ -475,6 +476,7 @@ def main() -> None:
     elesson, eex = entry_lesson()
     (LESSONS / f"{elesson['slug']}.json").write_text(json.dumps(elesson, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     merged.setdefault("reading", []).extend(eex)
+    EP.polish(merged)
     for k, items in merged.items():
         (BANK / f"{k}.json").write_text(json.dumps({"skill": k, "guide": B.GUIDES[k], "items": items}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     (BANK / "grammar_links.json").write_text(json.dumps({"links": links}, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

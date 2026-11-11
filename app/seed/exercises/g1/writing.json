@@ -20,21 +20,22 @@
    "points": 5,
    "instruction_vi": "Trả lời câu hỏi bằng hai câu ở hai thì khác nhau, đúng với bạn. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
    "limits": {
-    "min": 8,
+    "min": 10,
     "max": 40
    },
    "prompt_en": "Answer in two different tenses: Do you like your hometown?",
    "framework_vi": [
-    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
-    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
-    "Chọn thì theo câu trả lời đó rồi mới viết."
+    "Câu 1 = hiện tại đơn, nói điều bạn thấy bây giờ: Yes, I do. / Not really. Động từ chính chỉ là like/love/enjoy (động từ trạng thái, không thêm -ing, không thêm am/is).",
+    "Câu 2 = một thì KHÁC, chọn theo ý: hiện tại hoàn thành cho điều kéo dài tới nay (I have lived there for ___ years / since ___), hoặc quá khứ đơn/used to cho điều đã hết (I used to ___, but now ___).",
+    "Nối hai ý bằng because / so / although để câu 2 giải thích câu 1; mỗi câu một mệnh đề đầy đủ có chủ ngữ + động từ.",
+    "Mục tiêu 12-25 từ, đúng 2 câu; câu 2 phải có mốc thời gian (for/since/when I was a child) để thì lộ ra."
    ],
    "model_answer_en": "Yes, I do. I have lived there all my life, so I know every street.",
    "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
    "checklist_vi": [
-    "Mỗi câu có chủ ngữ và động từ đã chia.",
-    "Thì khớp với điều bạn muốn nói.",
-    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+    "Có đúng 2 câu; câu 1 ở hiện tại đơn (Yes, I do. / Not really.).",
+    "Câu 2 ở một thì khác và có mốc thời gian (for / since / when I was …).",
+    "Không viết am / is trước like; since đi với hiện tại hoàn thành."
    ],
    "rubric": [
     {
@@ -52,6 +53,18 @@
      "max": 2,
      "note_vi": "Grammatical accuracy"
     }
+   ],
+   "frames": [
+    "Yes, I do. I have lived in ___ for/since ___, so ___.",
+    "Not really. I used to ___ , but now ___ .",
+    "I like ___ because ___ ."
+   ],
+   "avoid_vi": [
+    "Không viết 'I am like my hometown' (am + like) và không viết 'I live here since 2010'."
+   ],
+   "common_errors_vi": [
+    "I am like → I like.",
+    "I live here since 2010 → I have lived here since 2010 (since + mốc cần hoàn thành)."
    ]
   },
   {
@@ -63,21 +76,22 @@
    "points": 5,
    "instruction_vi": "Viết một câu đúng sự thật và một câu nói quá, cả hai ở hiện tại đơn. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
    "limits": {
-    "min": 8,
+    "min": 12,
     "max": 40
    },
    "prompt_en": "Write one sentence that is true for you and one sentence that exaggerates. Use the present simple in both.",
    "framework_vi": [
-    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
-    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
-    "Chọn thì theo câu trả lời đó rồi mới viết."
+    "Cả hai câu đều hiện tại đơn nên không cần chọn thì; việc cần chọn là TRẠNG TỪ: câu thật dùng usually/often/sometimes, câu nói quá dùng always/never/every single/millions of.",
+    "Vị trí trạng từ tần suất: SAU be (I am always late), TRƯỚC động từ thường (I never have time).",
+    "Câu nói quá nên có dấu ! và một con số hoặc cụm cường điệu: I have read a million books.",
+    "Ngôi thứ ba: nếu kể về anh/chị/bạn thì động từ thêm -s (My brother never washes up)."
    ],
    "model_answer_en": "I study English every evening. I never have any free time!",
    "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
    "checklist_vi": [
-    "Mỗi câu có chủ ngữ và động từ đã chia.",
-    "Thì khớp với điều bạn muốn nói.",
-    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+    "Một câu thật, một câu nói quá (có always, never hoặc một con số cường điệu).",
+    "Trạng từ tần suất đứng sau be, trước động từ thường.",
+    "Ngôi thứ ba có -s; phủ định dùng don't / doesn't + nguyên thể."
    ],
    "rubric": [
     {
@@ -95,6 +109,18 @@
      "max": 2,
      "note_vi": "Grammatical accuracy"
     }
+   ],
+   "frames": [
+    "I usually/often ___ at/on ___ .",
+    "I never/always ___ , not even ___ !",
+    "My ___ always ___ every single ___ ."
+   ],
+   "avoid_vi": [
+    "Không đặt trạng từ sau động từ thường: 'I go always' sai."
+   ],
+   "common_errors_vi": [
+    "I always am late → I am always late.",
+    "My brother play games → My brother plays games."
    ]
   },
   {
@@ -106,21 +132,22 @@
    "points": 5,
    "instruction_vi": "Viết ba câu về một ngày của bạn: hai trạng từ tần suất và một cụm chỉ thời gian. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
    "limits": {
-    "min": 8,
-    "max": 40
+    "min": 18,
+    "max": 45
    },
    "prompt_en": "Describe your daily routine in three sentences. Use two adverbs of frequency and one time expression.",
    "framework_vi": [
-    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
-    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
-    "Chọn thì theo câu trả lời đó rồi mới viết."
+    "Đi theo trục thời gian trong ngày: sáng -> chiều -> tối, mỗi câu một hoạt động, câu nào cũng ở hiện tại đơn.",
+    "Cần đủ 2 trạng từ tần suất (usually, often, rarely, never...) và 1 cụm chỉ giờ/buổi: at 6.30, in the evening, on weekdays, at weekends.",
+    "Giới từ thời gian: at + giờ (at six), in + buổi (in the morning), on + thứ/ngày (on Sundays).",
+    "Nối bằng then / after that / before; 3 câu, 18-35 từ."
    ],
    "model_answer_en": "I usually get up at six. I rarely have breakfast at home. I study English in the evenings.",
    "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
    "checklist_vi": [
-    "Mỗi câu có chủ ngữ và động từ đã chia.",
-    "Thì khớp với điều bạn muốn nói.",
-    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+    "Có đủ 3 câu, tất cả ở hiện tại đơn.",
+    "Có 2 trạng từ tần suất và 1 cụm chỉ thời gian.",
+    "at + giờ, in + buổi, on + thứ; không viết at the morning."
    ],
    "rubric": [
     {
@@ -138,6 +165,18 @@
      "max": 2,
      "note_vi": "Grammatical accuracy"
     }
+   ],
+   "frames": [
+    "I usually get up at ___ and ___ .",
+    "I rarely/never ___ before ___ .",
+    "On weekdays/At weekends, I ___ in the evening."
+   ],
+   "avoid_vi": [
+    "Không viết 'at the morning'."
+   ],
+   "common_errors_vi": [
+    "at the morning → in the morning.",
+    "I am usually go → I usually go (đã có usually thì không thêm am)."
    ]
   },
   {
@@ -149,21 +188,51 @@
    "points": 5,
    "instruction_vi": "Viết hai câu về nơi bạn ở: một câu nêu sự thật, một câu nói việc tạm thời. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
    "limits": {
-    "min": 8,
+    "min": 14,
     "max": 40
    },
    "prompt_en": "Write two sentences about where you live: one fact, one temporary situation.",
    "framework_vi": [
-    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
-    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
-    "Chọn thì theo câu trả lời đó rồi mới viết."
+    "Câu 1 = sự thật lâu dài -> hiện tại đơn: I live in ___ ./ My flat has ___ rooms. (live, have, be: trạng thái).",
+    "Câu 2 = tình huống tạm thời -> hiện tại tiếp diễn + mốc tạm: at the moment, this month, for now, these days.",
+    "Dùng nối tương phản để thấy hai thì đối nhau: but this month / although ___ , at the moment ___ .",
+    "Lỗi hay gặp: 'have' nghĩa 'có' không dùng tiếp diễn (I am having a flat sai), nhưng have + lunch/a haircut được."
    ],
    "model_answer_en": "I live in Hanoi with my parents. This month I am staying at my aunt's house because our flat is being painted.",
    "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
    "checklist_vi": [
-    "Mỗi câu có chủ ngữ và động từ đã chia.",
-    "Thì khớp với điều bạn muốn nói.",
-    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+    "Câu 1 là việc lâu dài (hiện tại đơn), câu 2 là việc tạm thời (tiếp diễn).",
+    "Câu 2 có mốc tạm thời: at the moment, this month, these days.",
+    "Không dùng tiếp diễn với have (nghĩa là có), know, like."
+   ],
+   "frames": [
+    "I live in ___ with ___ .",
+    "At the moment/This month, I am staying/living ___ because ___ .",
+    "___ is being repaired/painted, so ___ ."
+   ],
+   "avoid_vi": [
+    "Không dùng tiếp diễn cho việc lâu dài (I am living in Hanoi all my life)."
+   ],
+   "common_errors_vi": [
+    "I am having a small flat → I have a small flat.",
+    "I am living here all my life → I have lived here all my life (việc lâu dài không dùng tiếp diễn)."
+   ],
+   "rubric": [
+    {
+     "criterion_vi": "Trả lời đúng đề, nội dung là của chính bạn",
+     "max": 1,
+     "note_vi": "Task response"
+    },
+    {
+     "criterion_vi": "Dùng đúng cấu trúc và thì mà đề yêu cầu",
+     "max": 2,
+     "note_vi": "Grammatical range"
+    },
+    {
+     "criterion_vi": "Dạng từ đúng: chia động từ, giới từ, -s ngôi thứ ba",
+     "max": 2,
+     "note_vi": "Grammatical accuracy"
+    }
    ]
   },
   {
@@ -175,21 +244,52 @@
    "points": 5,
    "instruction_vi": "Viết ba câu về bạn: một việc làm đã lâu, một việc hôm nay đã làm, một việc tuần này đang làm dở. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
    "limits": {
-    "min": 8,
-    "max": 40
+    "min": 18,
+    "max": 45
    },
    "prompt_en": "Write three sentences about yourself: something you have done for a long time, something you have already done today, and something you have been doing this week.",
    "framework_vi": [
-    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
-    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
-    "Chọn thì theo câu trả lời đó rồi mới viết."
+    "Ba câu = ba công thức khác nhau của have: (1) have + V3 + for/since, (2) have already + V3, (3) have been + V-ing.",
+    "Câu 1 'đã lâu': for + khoảng thời gian (for two years) hoặc since + mốc (since 2022). Câu 2 'hôm nay đã xong': already đứng giữa have và V3. Câu 3 'tuần này đang làm dở': nhấn quá trình, thêm this week.",
+    "Dùng động từ trạng thái (know, have, live) ở dạng đơn, động từ hoạt động (read, work, study) ở dạng been + V-ing.",
+    "Mỗi câu 8-12 từ; viết 18-35 từ cho cả bài."
    ],
    "model_answer_en": "I have studied English for two years. I have already done my listening practice today. I have been reading a book about Japan this week.",
    "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
    "checklist_vi": [
-    "Mỗi câu có chủ ngữ và động từ đã chia.",
-    "Thì khớp với điều bạn muốn nói.",
-    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+    "Ba câu dùng ba mẫu: have V3 + for/since, have already V3, have been V-ing.",
+    "for + khoảng thời gian, since + mốc; already đứng giữa have và V3.",
+    "Động từ trạng thái (know, have) không dùng been V-ing."
+   ],
+   "frames": [
+    "I have ___ (V3) for ___ years / since ___ .",
+    "I have already ___ (V3) today.",
+    "I have been ___ (V-ing) ___ this week."
+   ],
+   "avoid_vi": [
+    "Không dùng 'since' với khoảng thời gian và 'for' với mốc."
+   ],
+   "common_errors_vi": [
+    "I have studied English since two years → for two years.",
+    "I already have done → I have already done.",
+    "I have been read → I have been reading."
+   ],
+   "rubric": [
+    {
+     "criterion_vi": "Trả lời đúng đề, nội dung là của chính bạn",
+     "max": 1,
+     "note_vi": "Task response"
+    },
+    {
+     "criterion_vi": "Dùng đúng cấu trúc và thì mà đề yêu cầu",
+     "max": 2,
+     "note_vi": "Grammatical range"
+    },
+    {
+     "criterion_vi": "Dạng từ đúng: chia động từ, giới từ, -s ngôi thứ ba",
+     "max": 2,
+     "note_vi": "Grammatical accuracy"
+    }
    ]
   },
   {
@@ -201,21 +301,52 @@
    "points": 5,
    "instruction_vi": "Viết bốn câu về công việc hoặc việc học của bạn, mỗi câu một thì hiện tại. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
    "limits": {
-    "min": 8,
-    "max": 40
+    "min": 28,
+    "max": 60
    },
    "prompt_en": "Write four sentences about your work or studies, one for each present tense.",
    "framework_vi": [
-    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
-    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
-    "Chọn thì theo câu trả lời đó rồi mới viết."
+    "Bốn câu = bốn thì, đúng thứ tự để so sánh: (1) hiện tại đơn = thói quen/sự thật, (2) tiếp diễn = tạm thời lúc này, (3) hoàn thành = đã xong/kéo tới nay, (4) hoàn thành tiếp diễn = nhấn độ dài của việc đang làm.",
+    "Mỗi câu một dấu hiệu thời gian riêng: every day / this month / since 2021 hoặc already / for three weeks.",
+    "Chọn động từ phù hợp: know, have, like không dùng tiếp diễn; work, study, learn dùng được cả bốn.",
+    "Mỗi câu 7-10 từ; nối bằng and/but để khỏi lặp chủ ngữ I."
    ],
    "model_answer_en": "I work for a small company in Hanoi. This month I am learning a new accounting program. I have worked there for three years. I have been studying English every evening this week.",
    "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
    "checklist_vi": [
-    "Mỗi câu có chủ ngữ và động từ đã chia.",
-    "Thì khớp với điều bạn muốn nói.",
-    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+    "Bốn câu, mỗi câu một thì: đơn, tiếp diễn, hoàn thành, hoàn thành tiếp diễn.",
+    "Mỗi câu có một dấu hiệu thời gian riêng: every / this month / since / for.",
+    "Không dùng tiếp diễn với know, like, have (sở hữu)."
+   ],
+   "frames": [
+    "I ___ (V) every ___ .",
+    "This month, I am ___ (V-ing) .",
+    "I have ___ (V3) for/since ___ .",
+    "I have been ___ (V-ing) for ___ ."
+   ],
+   "avoid_vi": [
+    "Không viết 'I am knowing' và không viết 'I am working here since 2020'."
+   ],
+   "common_errors_vi": [
+    "I am working here since 2020 → I have worked/been working here since 2020.",
+    "I am knowing him → I know him."
+   ],
+   "rubric": [
+    {
+     "criterion_vi": "Trả lời đúng đề, nội dung là của chính bạn",
+     "max": 1,
+     "note_vi": "Task response"
+    },
+    {
+     "criterion_vi": "Dùng đúng cấu trúc và thì mà đề yêu cầu",
+     "max": 2,
+     "note_vi": "Grammatical range"
+    },
+    {
+     "criterion_vi": "Dạng từ đúng: chia động từ, giới từ, -s ngôi thứ ba",
+     "max": 2,
+     "note_vi": "Grammatical accuracy"
+    }
    ]
   },
   {
@@ -225,23 +356,53 @@
    "number": "M1",
    "title_vi": "Câu của tôi · Ngày 5",
    "points": 5,
-   "instruction_vi": "Chọn 5 đến 10 từ hôm nay bạn thích nhất rồi viết về cuộc sống học tập của chính bạn. Dùng ít nhất hai từ, ví dụ pupil/student, pass/take an exam, attend, revise. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn và dùng từ bạn chọn.",
+   "instruction_vi": "Viết hai câu về việc học của bạn, dùng ít nhất hai từ của bài hôm nay.",
    "limits": {
-    "min": 8,
+    "min": 14,
     "max": 50
    },
    "prompt_en": "Write two sentences about your own school or study life using words from today.",
    "framework_vi": [
-    "Chọn 5 đến 10 từ bạn thích nhất trong bài hôm nay.",
-    "Nghĩ điều bạn muốn nói về chính mình, bằng tiếng Việt cũng được.",
-    "Gõ hai câu có dùng ít nhất hai từ đã chọn; từ C1 thì thêm một từ B2 đồng nghĩa ở câu kia."
+    "Chọn từ trước: ví dụ student/pupil, take an exam, pass, revise, attend. Phân biệt: pupil = học sinh nhỏ, student = sinh viên/học sinh lớn.",
+    "Dùng đúng kết hợp từ: take (không make) an exam, pass = đậu, attend classes (không 'attend to'), revise for a test.",
+    "Câu 1 kể thói quen học bằng hiện tại đơn + trạng từ tần suất; câu 2 nêu việc sắp tới hoặc kết quả, dùng will/hope.",
+    "Mỗi câu có ít nhất một từ mới, đúng từ loại (revise = động từ, revision = danh từ)."
    ],
    "model_answer_en": "I take an exam every month, and I always revise the night before. I hope I will pass the next one.",
    "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
    "checklist_vi": [
-    "Mỗi câu có chủ ngữ và động từ đã chia.",
-    "Có dùng từ của bài hôm nay, đúng từ loại.",
+    "Có ít nhất hai từ của bài hôm nay, đúng từ loại.",
+    "Kết hợp từ đúng: take an exam, attend classes.",
     "Câu nói về chính bạn, không chép câu mẫu."
+   ],
+   "frames": [
+    "I attend ___ classes at ___ , and I always revise for ___ by ___ -ing.",
+    "I take ___ exams every ___ ; I hope I will pass ___ ."
+   ],
+   "avoid_vi": [
+    "Không dùng 'make an exam' và 'attend to class'."
+   ],
+   "common_errors_vi": [
+    "I made an exam → I took an exam.",
+    "I attend to the class → I attend the class.",
+    "I will pass the exam = chắc chắn đậu; dùng hope I pass nếu chưa chắc."
+   ],
+   "rubric": [
+    {
+     "criterion_vi": "Trả lời đúng đề, nội dung là của chính bạn",
+     "max": 1,
+     "note_vi": "Task response"
+    },
+    {
+     "criterion_vi": "Dùng đúng từ và kết hợp từ của bài",
+     "max": 2,
+     "note_vi": "Grammatical range"
+    },
+    {
+     "criterion_vi": "Dạng từ đúng: chia động từ, giới từ, -s ngôi thứ ba",
+     "max": 2,
+     "note_vi": "Grammatical accuracy"
+    }
    ]
   },
   {
@@ -251,23 +412,54 @@
    "number": "M1",
    "title_vi": "Câu của tôi · Ngày 6",
    "points": 5,
-   "instruction_vi": "Dùng ít nhất hai kết hợp từ của hôm nay (ví dụ pay attention to, make sense of, succeed in) để nói về cách bạn học. Một câu nên có một từ C1 trong bài (ví dụ assess, grasp, notion). Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn và dùng từ bạn chọn.",
+   "instruction_vi": "Viết hai câu về cách bạn học, dùng ít nhất hai kết hợp từ của bài hôm nay.",
    "limits": {
-    "min": 8,
+    "min": 16,
     "max": 50
    },
    "prompt_en": "Write two sentences about how you study, using collocations from today.",
    "framework_vi": [
-    "Chọn 5 đến 10 từ bạn thích nhất trong bài hôm nay.",
-    "Nghĩ điều bạn muốn nói về chính mình, bằng tiếng Việt cũng được.",
-    "Gõ hai câu có dùng ít nhất hai từ đã chọn; từ C1 thì thêm một từ B2 đồng nghĩa ở câu kia."
+    "Chọn 2 kết hợp từ của bài và đặt đúng giới từ: pay attention to + danh từ/V-ing, make sense of + danh từ, succeed in + V-ing.",
+    "Sau giới từ là V-ing, không phải to V: succeed in passing, pay attention to listening.",
+    "Một câu thêm từ C1 (assess, grasp, notion) và câu kia dùng từ B2 đồng nghĩa (assess ~ evaluate, grasp ~ understand).",
+    "Dùng find it hard to / try to để nói cách học của mình bằng hiện tại đơn."
    ],
    "model_answer_en": "I find it hard to pay attention to long lectures, so I make notes to make sense of them. I try to grasp the main idea first.",
    "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
    "checklist_vi": [
-    "Mỗi câu có chủ ngữ và động từ đã chia.",
-    "Có dùng từ của bài hôm nay, đúng từ loại.",
-    "Câu nói về chính bạn, không chép câu mẫu."
+    "Có ít nhất hai kết hợp từ của bài hôm nay.",
+    "Giới từ đúng; sau giới từ là V-ing.",
+    "Câu nói về cách bạn học, không chép câu mẫu."
+   ],
+   "frames": [
+    "I find it hard to pay attention to ___ , so I ___ .",
+    "To make sense of ___ , I ___ first.",
+    "I succeeded in ___ -ing ___ by ___ ."
+   ],
+   "avoid_vi": [
+    "Không viết 'succeed to pass' hay 'pay attention listening'."
+   ],
+   "common_errors_vi": [
+    "succeed to pass → succeed in passing.",
+    "pay attention listen → pay attention to listening.",
+    "make sense it → make sense of it."
+   ],
+   "rubric": [
+    {
+     "criterion_vi": "Trả lời đúng đề, nội dung là của chính bạn",
+     "max": 1,
+     "note_vi": "Task response"
+    },
+    {
+     "criterion_vi": "Dùng đúng từ và kết hợp từ của bài",
+     "max": 2,
+     "note_vi": "Grammatical range"
+    },
+    {
+     "criterion_vi": "Dạng từ đúng: chia động từ, giới từ, -s ngôi thứ ba",
+     "max": 2,
+     "note_vi": "Grammatical accuracy"
+    }
    ]
   },
   {
@@ -277,23 +469,53 @@
    "number": "M1",
    "title_vi": "Câu của tôi · Ngày 7",
    "points": 5,
-   "instruction_vi": "Chọn hai từ C1 của Ngày 7 (ví dụ assess, plausible, ponder, hunch) và viết hai câu về quyết định học tập của chính bạn. Trong một câu dùng từ C1, câu kia dùng từ B2 đồng nghĩa (ví dụ assess và evaluate). Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn và dùng từ bạn chọn.",
+   "instruction_vi": "Viết hai câu về một quyết định học tập của bạn, dùng hai từ C1 của Ngày 7 (ví dụ assess, ponder, hunch).",
    "limits": {
-    "min": 8,
+    "min": 18,
     "max": 50
    },
    "prompt_en": "Write two sentences about a study decision of your own, using two C1 words from today.",
    "framework_vi": [
-    "Chọn 5 đến 10 từ bạn thích nhất trong bài hôm nay.",
-    "Nghĩ điều bạn muốn nói về chính mình, bằng tiếng Việt cũng được.",
-    "Gõ hai câu có dùng ít nhất hai từ đã chọn; từ C1 thì thêm một từ B2 đồng nghĩa ở câu kia."
+    "Chọn một cặp C1 - B2: assess ~ evaluate, ponder ~ consider. Câu 1 dùng từ C1, câu 2 dùng từ B2 cho cùng ý.",
+    "Nói về quyết định đang cân nhắc: dùng hiện tại tiếp diễn (I am pondering my options) hoặc whether to + V. Hunch là danh từ: have a hunch that + mệnh đề.",
+    "Dùng khung đối lập: I am still ___ , but I have a hunch that ___ .",
+    "Ponder là ngoại động từ: ponder my options, hoặc ponder over/on (không ponder about)."
    ],
    "model_answer_en": "I need to assess which course is best for me, so I am pondering my options. I have a hunch that I should evaluate each school before I decide.",
    "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
    "checklist_vi": [
-    "Mỗi câu có chủ ngữ và động từ đã chia.",
-    "Có dùng từ của bài hôm nay, đúng từ loại.",
-    "Câu nói về chính bạn, không chép câu mẫu."
+    "Có hai từ C1 của Ngày 7, đúng từ loại.",
+    "Câu nói về một quyết định học tập của chính bạn.",
+    "Trạng thái không dùng tiếp diễn: I have a hunch, không viết I am having a hunch."
+   ],
+   "frames": [
+    "Before I choose ___ , I need to assess ___ .",
+    "I am still pondering whether to ___ or ___ .",
+    "I have a hunch that ___ , so I will evaluate ___ ."
+   ],
+   "avoid_vi": [
+    "Không viết 'I am having a hunch' hay 'ponder about'."
+   ],
+   "common_errors_vi": [
+    "ponder about → ponder / ponder over.",
+    "I am having a hunch → I have a hunch (trạng thái, không tiếp diễn)."
+   ],
+   "rubric": [
+    {
+     "criterion_vi": "Trả lời đúng đề, nội dung là của chính bạn",
+     "max": 1,
+     "note_vi": "Task response"
+    },
+    {
+     "criterion_vi": "Dùng đúng từ và kết hợp từ của bài",
+     "max": 2,
+     "note_vi": "Grammatical range"
+    },
+    {
+     "criterion_vi": "Dạng từ đúng: chia động từ, giới từ, -s ngôi thứ ba",
+     "max": 2,
+     "note_vi": "Grammatical accuracy"
+    }
    ]
   },
   {
@@ -303,23 +525,54 @@
    "number": "M1",
    "title_vi": "Câu của tôi · Ngày 8",
    "points": 5,
-   "instruction_vi": "Kể về một lần bạn thấy lạ hoặc khó chịu khi tới một nơi mới (trường, thành phố, công việc). Dùng ít nhất hai từ mới của bài, ví dụ homesick, adjust, adapt, impolite. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn và dùng từ bạn chọn.",
+   "instruction_vi": "Kể bằng hai câu về một lần bạn thấy lạ hoặc khó chịu ở nơi mới, dùng ít nhất hai từ của bài hôm nay.",
    "limits": {
-    "min": 8,
+    "min": 18,
     "max": 50
    },
    "prompt_en": "Write two sentences about a time you felt strange in a new place. Use at least two words from today.",
    "framework_vi": [
-    "Chọn 5 đến 10 từ bạn thích nhất trong bài hôm nay.",
-    "Nghĩ điều bạn muốn nói về chính mình, bằng tiếng Việt cũng được.",
-    "Gõ hai câu có dùng ít nhất hai từ đã chọn; từ C1 thì thêm một từ B2 đồng nghĩa ở câu kia."
+    "Kể một lần ĐÃ QUA nên dùng quá khứ đơn: When I moved to ___ , I felt homesick. Mốc when/last year đặt đầu câu.",
+    "adjust/adapt luôn đi với to: adjust to + danh từ/V-ing. Công thức thời gian: It took me + khoảng thời gian + to V.",
+    "Dùng impolite/homesick như tính từ sau felt/found it: I found it impolite that ___ .",
+    "Hai câu: câu 1 = chuyện gì và cảm giác, câu 2 = bạn thích nghi ra sao."
    ],
    "model_answer_en": "When I started university, I felt homesick and it took me a month to adjust. It was hard to adapt to living with strangers.",
    "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
    "checklist_vi": [
-    "Mỗi câu có chủ ngữ và động từ đã chia.",
-    "Có dùng từ của bài hôm nay, đúng từ loại.",
-    "Câu nói về chính bạn, không chép câu mẫu."
+    "Kể chuyện đã qua bằng quá khứ đơn.",
+    "Có ít nhất hai từ của bài hôm nay.",
+    "Giới từ đi đúng với từ: adjust to, homesick for."
+   ],
+   "frames": [
+    "When I started ___ , I felt ___ because ___ .",
+    "It took me ___ to adjust to ___ .",
+    "At first I found it hard to adapt to ___ -ing."
+   ],
+   "avoid_vi": [
+    "Không viết 'adapt with / adjust with'."
+   ],
+   "common_errors_vi": [
+    "adjust with → adjust to.",
+    "It took me a month adjusted → It took me a month to adjust.",
+    "I felt homesick with my family → homesick for my family."
+   ],
+   "rubric": [
+    {
+     "criterion_vi": "Trả lời đúng đề, nội dung là của chính bạn",
+     "max": 1,
+     "note_vi": "Task response"
+    },
+    {
+     "criterion_vi": "Dùng đúng từ và kết hợp từ của bài",
+     "max": 2,
+     "note_vi": "Grammatical range"
+    },
+    {
+     "criterion_vi": "Dạng từ đúng: chia động từ, giới từ, -s ngôi thứ ba",
+     "max": 2,
+     "note_vi": "Grammatical accuracy"
+    }
    ]
   },
   {
@@ -329,23 +582,53 @@
    "number": "M1",
    "title_vi": "Câu của tôi · Ngày 9",
    "points": 5,
-   "instruction_vi": "Tóm tắt bài đọc bằng một hoặc hai câu tiếng Anh của chính bạn. Không chép nguyên câu trong bài. Thử dùng một từ B2 và một từ C1 trong bài (ví dụ method, intensive, constraint). Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn và dùng từ bạn chọn.",
+   "instruction_vi": "Tóm tắt bài đọc bằng một hoặc hai câu của chính bạn, không chép nguyên câu trong bài.",
    "limits": {
-    "min": 8,
+    "min": 20,
     "max": 50
    },
    "prompt_en": "Summarise the passage 'Urban farming' in one or two sentences in your own words.",
    "framework_vi": [
-    "Chọn 5 đến 10 từ bạn thích nhất trong bài hôm nay.",
-    "Nghĩ điều bạn muốn nói về chính mình, bằng tiếng Việt cũng được.",
-    "Gõ hai câu có dùng ít nhất hai từ đã chọn; từ C1 thì thêm một từ B2 đồng nghĩa ở câu kia."
+    "Đây là bài TÓM TẮT, không phải viết về bản thân: dùng hiện tại đơn để nói điều bài viết nói (The passage describes..., The writer says...).",
+    "Câu 1 nêu ý chính bằng chủ ngữ mới, câu 2 nêu một lợi ích hoặc hạn chế: ..., although/however ... (tương phản).",
+    "Diễn đạt lại bằng từ của bạn: method thay cho way, intensive, constraint; không chép quá 3 từ liên tiếp.",
+    "Giữ 20-40 từ; không thêm ý kiến cá nhân."
    ],
    "model_answer_en": "In Paris, farmers grow fruit and vegetables on a rooftop without soil. This method uses less water and space than intensive farming, although some crops cannot be grown this way.",
    "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
    "checklist_vi": [
-    "Mỗi câu có chủ ngữ và động từ đã chia.",
-    "Có dùng từ của bài hôm nay, đúng từ loại.",
-    "Câu nói về chính bạn, không chép câu mẫu."
+    "Là tóm tắt: nói điều bài viết nói, ở hiện tại đơn, không thêm ý kiến cá nhân.",
+    "Diễn đạt bằng từ của bạn, không chép quá 3 từ liên tiếp.",
+    "Một hoặc hai câu, 20–40 từ."
+   ],
+   "frames": [
+    "The passage describes how ___ .",
+    "This method ___ , although ___ .",
+    "One constraint is that ___ ."
+   ],
+   "avoid_vi": [
+    "Không chép câu gốc và không viết 'The passage talk/said' (dùng talks/says hoặc describes)."
+   ],
+   "common_errors_vi": [
+    "The text talk about → The text talks about.",
+    "The writer said → The writer says (tóm tắt dùng hiện tại)."
+   ],
+   "rubric": [
+    {
+     "criterion_vi": "Trả lời đúng đề, nội dung là của chính bạn",
+     "max": 1,
+     "note_vi": "Task response"
+    },
+    {
+     "criterion_vi": "Dùng đúng từ và kết hợp từ của bài",
+     "max": 2,
+     "note_vi": "Grammatical range"
+    },
+    {
+     "criterion_vi": "Dạng từ đúng: chia động từ, giới từ, -s ngôi thứ ba",
+     "max": 2,
+     "note_vi": "Grammatical accuracy"
+    }
    ]
   },
   {
@@ -355,23 +638,54 @@
    "number": "M1",
    "title_vi": "Câu của tôi · Ngày 10",
    "points": 5,
-   "instruction_vi": "Viết ba câu mô tả chính bạn, dùng ít nhất ba tính từ của hôm nay (một từ có self- hoặc well-). Ví dụ vẽ một sơ đồ tư duy về bản thân trước rồi gõ ba câu từ sơ đồ đó. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn và dùng từ bạn chọn.",
+   "instruction_vi": "Viết ba câu mô tả chính bạn, dùng ít nhất ba tính từ của bài hôm nay (một từ có self- hoặc well-).",
    "limits": {
-    "min": 8,
-    "max": 50
+    "min": 20,
+    "max": 55
    },
    "prompt_en": "Write three sentences describing your own character using adjectives from today.",
    "framework_vi": [
-    "Chọn 5 đến 10 từ bạn thích nhất trong bài hôm nay.",
-    "Nghĩ điều bạn muốn nói về chính mình, bằng tiếng Việt cũng được.",
-    "Gõ hai câu có dùng ít nhất hai từ đã chọn; từ C1 thì thêm một từ B2 đồng nghĩa ở câu kia."
+    "Vẽ sơ đồ ba nhánh trước (học, giao tiếp, cảm xúc), mỗi nhánh một tính từ, rồi mỗi nhánh thành một câu.",
+    "Tính từ ghép phải viết có gạch nối: self-confident, well-organised; dùng sau am/can be, không thêm danh từ nếu không cần.",
+    "Dùng I'd describe myself as + (a/an) + tính từ + person và can be + tính từ cho xu hướng, không tuyệt đối.",
+    "Một câu nêu mặt yếu bằng I wish I were more ___ (dạng were cho điều chưa đúng)."
    ],
    "model_answer_en": "I'd describe myself as a pretty well-rounded person, because I like both study and sport. At times I can be impatient, especially when someone is late. I wish I were more self-confident when I speak in public.",
    "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
    "checklist_vi": [
-    "Mỗi câu có chủ ngữ và động từ đã chia.",
-    "Có dùng từ của bài hôm nay, đúng từ loại.",
-    "Câu nói về chính bạn, không chép câu mẫu."
+    "Có ít nhất ba tính từ của bài, một từ có self- hoặc well-.",
+    "Tính từ ghép có gạch nối (self-confident).",
+    "Mỗi câu có chủ ngữ và động từ (I am / I can be); không dùng danh từ thay tính từ."
+   ],
+   "frames": [
+    "I'd describe myself as a ___ person, because ___ .",
+    "I can be ___ when ___ .",
+    "I wish I were more ___ ."
+   ],
+   "avoid_vi": [
+    "Không dùng danh từ thay tính từ: 'I am confidence'."
+   ],
+   "common_errors_vi": [
+    "I am confidence → I am confident.",
+    "I am a self confident → I am a self-confident person (gạch nối).",
+    "I wish I was → trong văn viết trang trọng dùng I wish I were."
+   ],
+   "rubric": [
+    {
+     "criterion_vi": "Trả lời đúng đề, nội dung là của chính bạn",
+     "max": 1,
+     "note_vi": "Task response"
+    },
+    {
+     "criterion_vi": "Dùng đúng từ và kết hợp từ của bài",
+     "max": 2,
+     "note_vi": "Grammatical range"
+    },
+    {
+     "criterion_vi": "Dạng từ đúng: chia động từ, giới từ, -s ngôi thứ ba",
+     "max": 2,
+     "note_vi": "Grammatical accuracy"
+    }
    ]
   },
   {
@@ -381,23 +695,55 @@
    "number": "M1",
    "title_vi": "Câu của tôi · Ngày 11",
    "points": 5,
-   "instruction_vi": "Viết hai câu về cách bạn đi lại hằng ngày (đi học, đi làm) và một điều bạn phàn nàn hoặc hài lòng, dùng ít nhất hai từ của bài (convenient, timetable, satisfied, parking...). Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn và dùng từ bạn chọn.",
+   "instruction_vi": "Viết hai câu: một câu về cách bạn đi lại hằng ngày, một câu về điều bạn hài lòng hoặc phàn nàn. Dùng ít nhất hai từ của bài hôm nay.",
    "limits": {
-    "min": 8,
-    "max": 50
+    "min": 22,
+    "max": 60
    },
-   "prompt_en": "Write two sentences about how you travel every day and one thing you like or dislike.",
+   "prompt_en": "Write two sentences: one about how you travel every day, and one about something you like or dislike about it.",
    "framework_vi": [
-    "Chọn 5 đến 10 từ bạn thích nhất trong bài hôm nay.",
-    "Nghĩ điều bạn muốn nói về chính mình, bằng tiếng Việt cũng được.",
-    "Gõ hai câu có dùng ít nhất hai từ đã chọn; từ C1 thì thêm một từ B2 đồng nghĩa ở câu kia."
+    "Câu 1 nêu cách đi: I usually go to ___ by + phương tiện (by bus, không có a/the), hoặc on foot (không 'by foot'). Thêm it takes ___ nếu muốn.",
+    "Câu 2 nêu MỘT điều hài lòng hoặc phàn nàn, dùng từ của bài: convenient, timetable, satisfied with, parking.",
+    "So sánh bằng more convenient than / cheaper than để câu 1 có lý do.",
+    "Dùng because / so để giải thích; nói there are few buses hoặc buses are infrequent, đừng viết buses are rare (kiểu Việt)."
    ],
-   "model_answer_en": "I go to school by bus because it is more convenient than parking a motorbike. I am not satisfied with the timetable, because the buses are rare in the evening.",
+   "model_answer_en": "I go to school by bus because it is more convenient than parking a motorbike. I am not satisfied with the timetable, because there are few buses in the evening.",
    "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
    "checklist_vi": [
-    "Mỗi câu có chủ ngữ và động từ đã chia.",
-    "Có dùng từ của bài hôm nay, đúng từ loại.",
-    "Câu nói về chính bạn, không chép câu mẫu."
+    "Câu 1 nói cách đi lại hằng ngày (by bus, on foot).",
+    "Câu 2 nói điều bạn hài lòng hoặc phàn nàn, có từ của bài.",
+    "by + phương tiện không có a / the; on foot, không viết by foot."
+   ],
+   "frames": [
+    "I usually go to ___ by ___ , which takes ___ .",
+    "I am (not) satisfied with ___ because ___ .",
+    "It is more convenient than ___ ."
+   ],
+   "avoid_vi": [
+    "Không viết 'go by foot' hoặc 'the traffic is crowded'."
+   ],
+   "common_errors_vi": [
+    "by foot → on foot.",
+    "by the bus → by bus.",
+    "buses are rare → there are few buses / buses are infrequent.",
+    "crowded traffic → heavy traffic."
+   ],
+   "rubric": [
+    {
+     "criterion_vi": "Trả lời đúng đề, nội dung là của chính bạn",
+     "max": 1,
+     "note_vi": "Task response"
+    },
+    {
+     "criterion_vi": "Dùng đúng từ và kết hợp từ của bài",
+     "max": 2,
+     "note_vi": "Grammatical range"
+    },
+    {
+     "criterion_vi": "Dạng từ đúng: chia động từ, giới từ, -s ngôi thứ ba",
+     "max": 2,
+     "note_vi": "Grammatical accuracy"
+    }
    ]
   }
  ]

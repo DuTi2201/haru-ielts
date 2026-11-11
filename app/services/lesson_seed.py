@@ -315,9 +315,15 @@ class WriteFill(_M):
     instruction_vi: str | None = None
     context_vi: str | None = None  # "Thư điện tử, mua sắm"
     heading_en: str | None = None  # the subject line printed above the text
-    text: str  # with the blanks written ( ㉠ ) ( ㉡ )
+    text: str  # with the blanks written ( ㉠ ) ( ㉡ ); a verb to conjugate may follow a gap: ( ㉠ ) (work)
     blanks: list[Blank] = Field(min_length=1)
     tips_vi: list[str] = []
+    # what the screen shows so the task can be done without guessing (all optional)
+    task_vi: str | None = None  # one imperative line: «Điền since hoặc for»
+    kind: Literal["word", "inflect", "bank", "fix", "rewrite"] | None = None  # the chip over the task
+    situation_vi: str | None = None  # the meaning to put into English
+    original: str | None = None  # the wrong sentence of a fix task, the wrong part between ~~ ~~
+    bank: list[str] = []  # words to choose from, shown as chips
 
     @model_validator(mode="after")
     def _blanks_in_text(self) -> "WriteFill":
@@ -391,6 +397,9 @@ class WriteEssay(_M):
     prompt_en: str | None = None
     bullets_en: list[str] = []
     framework_vi: list[str] = []
+    frames: list[str] = []  # sentence frames with ___ gaps; a tap puts one into the box
+    useful_vi: list[str] = []  # words and phrases worth using for this prompt
+    avoid_vi: list[str] = []  # the mistakes to avoid on this prompt
     patterns_vi: list[str] = []
     outline: list[OutlineRow] = []
     # "" for a self-practice prompt that has a framework but no model answer yet

@@ -1,0 +1,321 @@
+{
+ "G1D1M1": {
+  "limits": {
+   "min": 10,
+   "max": 40
+  },
+  "framework_vi": [
+   "Câu 1 = hiện tại đơn, nói điều bạn thấy bây giờ: Yes, I do. / Not really. Động từ chính chỉ là like/love/enjoy (động từ trạng thái, không thêm -ing, không thêm am/is).",
+   "Câu 2 = một thì KHÁC, chọn theo ý: hiện tại hoàn thành cho điều kéo dài tới nay (I have lived there for ___ years / since ___), hoặc quá khứ đơn/used to cho điều đã hết (I used to ___, but now ___).",
+   "Nối hai ý bằng because / so / although để câu 2 giải thích câu 1; mỗi câu một mệnh đề đầy đủ có chủ ngữ + động từ.",
+   "Mục tiêu 12-25 từ, đúng 2 câu; câu 2 phải có mốc thời gian (for/since/when I was a child) để thì lộ ra."
+  ],
+  "frames": [
+   "Yes, I do. I have lived in ___ for/since ___, so ___.",
+   "Not really. I used to ___ , but now ___ .",
+   "I like ___ because ___ ."
+  ],
+  "avoid_vi": [
+   "Không viết 'I am like my hometown' (am + like) và không viết 'I live here since 2010'."
+  ],
+  "common_errors_vi": [
+   "I am like → I like.",
+   "I live here since 2010 → I have lived here since 2010 (since + mốc cần hoàn thành)."
+  ]
+ },
+ "G1D1M2": {
+  "limits": {
+   "min": 12,
+   "max": 40
+  },
+  "framework_vi": [
+   "Cả hai câu đều hiện tại đơn nên không cần chọn thì; việc cần chọn là TRẠNG TỪ: câu thật dùng usually/often/sometimes, câu nói quá dùng always/never/every single/millions of.",
+   "Vị trí trạng từ tần suất: SAU be (I am always late), TRƯỚC động từ thường (I never have time).",
+   "Câu nói quá nên có dấu ! và một con số hoặc cụm cường điệu: I have read a million books.",
+   "Ngôi thứ ba: nếu kể về anh/chị/bạn thì động từ thêm -s (My brother never washes up)."
+  ],
+  "frames": [
+   "I usually/often ___ at/on ___ .",
+   "I never/always ___ , not even ___ !",
+   "My ___ always ___ every single ___ ."
+  ],
+  "avoid_vi": [
+   "Không đặt trạng từ sau động từ thường: 'I go always' sai."
+  ],
+  "common_errors_vi": [
+   "I always am late → I am always late.",
+   "My brother play games → My brother plays games."
+  ]
+ },
+ "G1D1M3": {
+  "limits": {
+   "min": 18,
+   "max": 45
+  },
+  "framework_vi": [
+   "Đi theo trục thời gian trong ngày: sáng -> chiều -> tối, mỗi câu một hoạt động, câu nào cũng ở hiện tại đơn.",
+   "Cần đủ 2 trạng từ tần suất (usually, often, rarely, never...) và 1 cụm chỉ giờ/buổi: at 6.30, in the evening, on weekdays, at weekends.",
+   "Giới từ thời gian: at + giờ (at six), in + buổi (in the morning), on + thứ/ngày (on Sundays).",
+   "Nối bằng then / after that / before; 3 câu, 18-35 từ."
+  ],
+  "frames": [
+   "I usually get up at ___ and ___ .",
+   "I rarely/never ___ before ___ .",
+   "On weekdays/At weekends, I ___ in the evening."
+  ],
+  "avoid_vi": [
+   "Không viết 'at the morning'."
+  ],
+  "common_errors_vi": [
+   "at the morning → in the morning.",
+   "I am usually go → I usually go (đã có usually thì không thêm am)."
+  ]
+ },
+ "G1D2M1": {
+  "limits": {
+   "min": 14,
+   "max": 40
+  },
+  "framework_vi": [
+   "Câu 1 = sự thật lâu dài -> hiện tại đơn: I live in ___ ./ My flat has ___ rooms. (live, have, be: trạng thái).",
+   "Câu 2 = tình huống tạm thời -> hiện tại tiếp diễn + mốc tạm: at the moment, this month, for now, these days.",
+   "Dùng nối tương phản để thấy hai thì đối nhau: but this month / although ___ , at the moment ___ .",
+   "Lỗi hay gặp: 'have' nghĩa 'có' không dùng tiếp diễn (I am having a flat sai), nhưng have + lunch/a haircut được."
+  ],
+  "frames": [
+   "I live in ___ with ___ .",
+   "At the moment/This month, I am staying/living ___ because ___ .",
+   "___ is being repaired/painted, so ___ ."
+  ],
+  "avoid_vi": [
+   "Không dùng tiếp diễn cho việc lâu dài (I am living in Hanoi all my life)."
+  ],
+  "common_errors_vi": [
+   "I am having a small flat → I have a small flat.",
+   "I am living here all my life → I have lived here all my life (việc lâu dài không dùng tiếp diễn)."
+  ]
+ },
+ "G1D3M1": {
+  "limits": {
+   "min": 18,
+   "max": 45
+  },
+  "framework_vi": [
+   "Ba câu = ba công thức khác nhau của have: (1) have + V3 + for/since, (2) have already + V3, (3) have been + V-ing.",
+   "Câu 1 'đã lâu': for + khoảng thời gian (for two years) hoặc since + mốc (since 2022). Câu 2 'hôm nay đã xong': already đứng giữa have và V3. Câu 3 'tuần này đang làm dở': nhấn quá trình, thêm this week.",
+   "Dùng động từ trạng thái (know, have, live) ở dạng đơn, động từ hoạt động (read, work, study) ở dạng been + V-ing.",
+   "Mỗi câu 8-12 từ; viết 18-35 từ cho cả bài."
+  ],
+  "frames": [
+   "I have ___ (V3) for ___ years / since ___ .",
+   "I have already ___ (V3) today.",
+   "I have been ___ (V-ing) ___ this week."
+  ],
+  "avoid_vi": [
+   "Không dùng 'since' với khoảng thời gian và 'for' với mốc."
+  ],
+  "common_errors_vi": [
+   "I have studied English since two years → for two years.",
+   "I already have done → I have already done.",
+   "I have been read → I have been reading."
+  ]
+ },
+ "G1D4M1": {
+  "limits": {
+   "min": 28,
+   "max": 60
+  },
+  "framework_vi": [
+   "Bốn câu = bốn thì, đúng thứ tự để so sánh: (1) hiện tại đơn = thói quen/sự thật, (2) tiếp diễn = tạm thời lúc này, (3) hoàn thành = đã xong/kéo tới nay, (4) hoàn thành tiếp diễn = nhấn độ dài của việc đang làm.",
+   "Mỗi câu một dấu hiệu thời gian riêng: every day / this month / since 2021 hoặc already / for three weeks.",
+   "Chọn động từ phù hợp: know, have, like không dùng tiếp diễn; work, study, learn dùng được cả bốn.",
+   "Mỗi câu 7-10 từ; nối bằng and/but để khỏi lặp chủ ngữ I."
+  ],
+  "frames": [
+   "I ___ (V) every ___ .",
+   "This month, I am ___ (V-ing) .",
+   "I have ___ (V3) for/since ___ .",
+   "I have been ___ (V-ing) for ___ ."
+  ],
+  "avoid_vi": [
+   "Không viết 'I am knowing' và không viết 'I am working here since 2020'."
+  ],
+  "common_errors_vi": [
+   "I am working here since 2020 → I have worked/been working here since 2020.",
+   "I am knowing him → I know him."
+  ]
+ },
+ "G1D5M1": {
+  "limits": {
+   "min": 14,
+   "max": 50
+  },
+  "framework_vi": [
+   "Chọn từ trước: ví dụ student/pupil, take an exam, pass, revise, attend. Phân biệt: pupil = học sinh nhỏ, student = sinh viên/học sinh lớn.",
+   "Dùng đúng kết hợp từ: take (không make) an exam, pass = đậu, attend classes (không 'attend to'), revise for a test.",
+   "Câu 1 kể thói quen học bằng hiện tại đơn + trạng từ tần suất; câu 2 nêu việc sắp tới hoặc kết quả, dùng will/hope.",
+   "Mỗi câu có ít nhất một từ mới, đúng từ loại (revise = động từ, revision = danh từ)."
+  ],
+  "frames": [
+   "I attend ___ classes at ___ , and I always revise for ___ by ___ -ing.",
+   "I take ___ exams every ___ ; I hope I will pass ___ ."
+  ],
+  "avoid_vi": [
+   "Không dùng 'make an exam' và 'attend to class'."
+  ],
+  "common_errors_vi": [
+   "I made an exam → I took an exam.",
+   "I attend to the class → I attend the class.",
+   "I will pass the exam = chắc chắn đậu; dùng hope I pass nếu chưa chắc."
+  ]
+ },
+ "G1D6M1": {
+  "limits": {
+   "min": 16,
+   "max": 50
+  },
+  "framework_vi": [
+   "Chọn 2 kết hợp từ của bài và đặt đúng giới từ: pay attention to + danh từ/V-ing, make sense of + danh từ, succeed in + V-ing.",
+   "Sau giới từ là V-ing, không phải to V: succeed in passing, pay attention to listening.",
+   "Một câu thêm từ C1 (assess, grasp, notion) và câu kia dùng từ B2 đồng nghĩa (assess ~ evaluate, grasp ~ understand).",
+   "Dùng find it hard to / try to để nói cách học của mình bằng hiện tại đơn."
+  ],
+  "frames": [
+   "I find it hard to pay attention to ___ , so I ___ .",
+   "To make sense of ___ , I ___ first.",
+   "I succeeded in ___ -ing ___ by ___ ."
+  ],
+  "avoid_vi": [
+   "Không viết 'succeed to pass' hay 'pay attention listening'."
+  ],
+  "common_errors_vi": [
+   "succeed to pass → succeed in passing.",
+   "pay attention listen → pay attention to listening.",
+   "make sense it → make sense of it."
+  ]
+ },
+ "G1D7M1": {
+  "limits": {
+   "min": 18,
+   "max": 50
+  },
+  "framework_vi": [
+   "Chọn một cặp C1 - B2: assess ~ evaluate, ponder ~ consider. Câu 1 dùng từ C1, câu 2 dùng từ B2 cho cùng ý.",
+   "Nói về quyết định đang cân nhắc: dùng hiện tại tiếp diễn (I am pondering my options) hoặc whether to + V. Hunch là danh từ: have a hunch that + mệnh đề.",
+   "Dùng khung đối lập: I am still ___ , but I have a hunch that ___ .",
+   "Ponder là ngoại động từ: ponder my options, hoặc ponder over/on (không ponder about)."
+  ],
+  "frames": [
+   "Before I choose ___ , I need to assess ___ .",
+   "I am still pondering whether to ___ or ___ .",
+   "I have a hunch that ___ , so I will evaluate ___ ."
+  ],
+  "avoid_vi": [
+   "Không viết 'I am having a hunch' hay 'ponder about'."
+  ],
+  "common_errors_vi": [
+   "ponder about → ponder / ponder over.",
+   "I am having a hunch → I have a hunch (trạng thái, không tiếp diễn)."
+  ]
+ },
+ "G1D8M1": {
+  "limits": {
+   "min": 18,
+   "max": 50
+  },
+  "framework_vi": [
+   "Kể một lần ĐÃ QUA nên dùng quá khứ đơn: When I moved to ___ , I felt homesick. Mốc when/last year đặt đầu câu.",
+   "adjust/adapt luôn đi với to: adjust to + danh từ/V-ing. Công thức thời gian: It took me + khoảng thời gian + to V.",
+   "Dùng impolite/homesick như tính từ sau felt/found it: I found it impolite that ___ .",
+   "Hai câu: câu 1 = chuyện gì và cảm giác, câu 2 = bạn thích nghi ra sao."
+  ],
+  "frames": [
+   "When I started ___ , I felt ___ because ___ .",
+   "It took me ___ to adjust to ___ .",
+   "At first I found it hard to adapt to ___ -ing."
+  ],
+  "avoid_vi": [
+   "Không viết 'adapt with / adjust with'."
+  ],
+  "common_errors_vi": [
+   "adjust with → adjust to.",
+   "It took me a month adjusted → It took me a month to adjust.",
+   "I felt homesick with my family → homesick for my family."
+  ]
+ },
+ "G1D9M1": {
+  "limits": {
+   "min": 20,
+   "max": 50
+  },
+  "framework_vi": [
+   "Đây là bài TÓM TẮT, không phải viết về bản thân: dùng hiện tại đơn để nói điều bài viết nói (The passage describes..., The writer says...).",
+   "Câu 1 nêu ý chính bằng chủ ngữ mới, câu 2 nêu một lợi ích hoặc hạn chế: ..., although/however ... (tương phản).",
+   "Diễn đạt lại bằng từ của bạn: method thay cho way, intensive, constraint; không chép quá 3 từ liên tiếp.",
+   "Giữ 20-40 từ; không thêm ý kiến cá nhân."
+  ],
+  "frames": [
+   "The passage describes how ___ .",
+   "This method ___ , although ___ .",
+   "One constraint is that ___ ."
+  ],
+  "avoid_vi": [
+   "Không chép câu gốc và không viết 'The passage talk/said' (dùng talks/says hoặc describes)."
+  ],
+  "common_errors_vi": [
+   "The text talk about → The text talks about.",
+   "The writer said → The writer says (tóm tắt dùng hiện tại)."
+  ]
+ },
+ "G1D10M1": {
+  "limits": {
+   "min": 20,
+   "max": 55
+  },
+  "framework_vi": [
+   "Vẽ sơ đồ ba nhánh trước (học, giao tiếp, cảm xúc), mỗi nhánh một tính từ, rồi mỗi nhánh thành một câu.",
+   "Tính từ ghép phải viết có gạch nối: self-confident, well-organised; dùng sau am/can be, không thêm danh từ nếu không cần.",
+   "Dùng I'd describe myself as + (a/an) + tính từ + person và can be + tính từ cho xu hướng, không tuyệt đối.",
+   "Một câu nêu mặt yếu bằng I wish I were more ___ (dạng were cho điều chưa đúng)."
+  ],
+  "frames": [
+   "I'd describe myself as a ___ person, because ___ .",
+   "I can be ___ when ___ .",
+   "I wish I were more ___ ."
+  ],
+  "avoid_vi": [
+   "Không dùng danh từ thay tính từ: 'I am confidence'."
+  ],
+  "common_errors_vi": [
+   "I am confidence → I am confident.",
+   "I am a self confident → I am a self-confident person (gạch nối).",
+   "I wish I was → trong văn viết trang trọng dùng I wish I were."
+  ]
+ },
+ "G1D11M1": {
+  "limits": {
+   "min": 22,
+   "max": 60
+  },
+  "framework_vi": [
+   "Câu 1 nêu cách đi: I usually go to ___ by + phương tiện (by bus, không có a/the), hoặc on foot (không 'by foot'). Thêm it takes ___ nếu muốn.",
+   "Câu 2 nêu MỘT điều hài lòng hoặc phàn nàn, dùng từ của bài: convenient, timetable, satisfied with, parking.",
+   "So sánh bằng more convenient than / cheaper than để câu 1 có lý do.",
+   "Dùng because / so để giải thích; nói there are few buses hoặc buses are infrequent, đừng viết buses are rare (kiểu Việt)."
+  ],
+  "frames": [
+   "I usually go to ___ by ___ , which takes ___ .",
+   "I am (not) satisfied with ___ because ___ .",
+   "It is more convenient than ___ ."
+  ],
+  "avoid_vi": [
+   "Không viết 'go by foot' hoặc 'the traffic is crowded'."
+  ],
+  "common_errors_vi": [
+   "by foot → on foot.",
+   "by the bus → by bus.",
+   "buses are rare → there are few buses / buses are infrequent.",
+   "crowded traffic → heavy traffic."
+  ]
+ }
+}

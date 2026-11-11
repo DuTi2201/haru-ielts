@@ -209,7 +209,8 @@
      "common_errors_vi": "Câu hỏi hiện tại đơn với `you`: mượn `Do`."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "task_vi": "Điền trợ động từ (do / does / did)"
   },
   {
    "id": "G1D1F4",
@@ -254,7 +255,8 @@
      "common_errors_vi": "Chủ ngữ `your sister` là ngôi thứ ba số ít nên mượn `Does`."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "task_vi": "Điền trợ động từ (do / does / did)"
   },
   {
    "id": "G1D1KB-1",
@@ -264,7 +266,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa cho đúng (gõ lại) (1/8)",
    "points": 3,
-   "instruction_vi": "Câu gốc đang sai ở phần in đậm. Gõ phần thay thế đúng. Cách làm: hỏi trước 'người nói muốn nói gì?', rồi mới chọn thì.",
+   "instruction_vi": "Chọn thì theo điều người nói muốn nói: đây là thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
    "text": "My dad ( ㉠ ) late on Saturday mornings.",
    "blanks": [
     {
@@ -276,7 +278,10 @@
      "common_errors_vi": "Thói quen → đơn. `often` đứng trước động từ chính, nên không đi với `is getting up`. [Destination B2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "word",
+   "task_vi": "Gõ phần còn thiếu để câu đúng nghĩa",
+   "situation_vi": "Bố tôi hay dậy muộn vào các sáng thứ Bảy."
   },
   {
    "id": "G1D1KB-2",
@@ -286,7 +291,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa cho đúng (gõ lại) (2/8)",
    "points": 3,
-   "instruction_vi": "Câu gốc đang sai ở phần in đậm. Gõ phần thay thế đúng. Cách làm: hỏi trước 'người nói muốn nói gì?', rồi mới chọn thì.",
+   "instruction_vi": "Chọn thì theo điều người nói muốn nói: đây là thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
    "text": "( ㉠ ) any other languages apart from English?",
    "blanks": [
     {
@@ -298,7 +303,10 @@
      "common_errors_vi": "Câu hỏi hiện tại đơn dùng `Do`. `speak` là động từ nguyên thể. [Destination B2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "word",
+   "task_vi": "Gõ phần còn thiếu để câu đúng nghĩa",
+   "situation_vi": "Hỏi người kia: bạn có nói thứ tiếng nào khác ngoài tiếng Anh không?"
   },
   {
    "id": "G1D1KB-3",
@@ -308,7 +316,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa cho đúng (gõ lại) (3/8)",
    "points": 3,
-   "instruction_vi": "Câu gốc đang sai ở phần in đậm. Gõ phần thay thế đúng. Cách làm: hỏi trước 'người nói muốn nói gì?', rồi mới chọn thì.",
+   "instruction_vi": "Chọn thì theo điều người nói muốn nói: đây là thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
    "text": "( ㉠ ) all my Christmas presents and it's only October!",
    "blanks": [
     {
@@ -321,7 +329,10 @@
      "common_errors_vi": "Việc xong, kết quả còn liên quan tới bây giờ, không nói mốc thời gian → hiện tại hoàn thành. `already` đứng giữa `have` và V3. [Destination B2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "word",
+   "task_vi": "Gõ phần còn thiếu để câu đúng nghĩa",
+   "situation_vi": "Tôi mua xong hết quà Giáng sinh rồi, mà mới tháng Mười!"
   },
   {
    "id": "G1D1KB-4",
@@ -331,7 +342,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa cho đúng (gõ lại) (4/8)",
    "points": 3,
-   "instruction_vi": "Câu gốc đang sai ở phần in đậm. Gõ phần thay thế đúng. Cách làm: hỏi trước 'người nói muốn nói gì?', rồi mới chọn thì.",
+   "instruction_vi": "Chọn thì theo điều người nói muốn nói: đây là thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
    "text": "It's the first time ( ㉠ ) a party at home.",
    "blanks": [
     {
@@ -344,7 +355,10 @@
      "common_errors_vi": "Mẫu `It's the first time + have/has + V3`: luôn dùng hiện tại hoàn thành, không dùng `I'm having`. [Destination B2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "word",
+   "task_vi": "Gõ phần còn thiếu để câu đúng nghĩa",
+   "situation_vi": "Đây là lần đầu tiên tôi tổ chức tiệc ở nhà."
   },
   {
    "id": "G1D1KB-5",
@@ -354,7 +368,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa cho đúng (gõ lại) (5/8)",
    "points": 3,
-   "instruction_vi": "Câu gốc đang sai ở phần in đậm. Gõ phần thay thế đúng. Cách làm: hỏi trước 'người nói muốn nói gì?', rồi mới chọn thì.",
+   "instruction_vi": "Chọn thì theo điều người nói muốn nói: đây là thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
    "text": "Actually, I think Darren ( ㉠ ) quite hard sometimes.",
    "blanks": [
     {
@@ -367,7 +381,10 @@
      "common_errors_vi": "`Actually` là đính chính nên có thể dùng `does work` để nhấn mạnh. Sau `does` là nguyên thể, không thêm -s (`does works` sai). [Destination B2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "word",
+   "task_vi": "Gõ phần còn thiếu để câu đúng nghĩa",
+   "situation_vi": "Thực ra, tôi nghĩ đôi khi Darren làm việc khá chăm chỉ. (Actually: đính chính lại)"
   },
   {
    "id": "G1D1KB-6",
@@ -377,7 +394,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa cho đúng (gõ lại) (6/8)",
    "points": 3,
-   "instruction_vi": "Câu gốc đang sai ở phần in đậm. Gõ phần thay thế đúng. Cách làm: hỏi trước 'người nói muốn nói gì?', rồi mới chọn thì.",
+   "instruction_vi": "Chọn thì theo điều người nói muốn nói: đây là thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
    "text": "Carlo ( ㉠ ) Chinese food before.",
    "blanks": [
     {
@@ -386,12 +403,16 @@
      "accepted": [
       "has never eaten",
       "has not eaten",
-      "hasn't eaten"
+      "hasn't eaten",
+      "'s never eaten"
      ],
      "common_errors_vi": "`before` = từ trước tới giờ → hiện tại hoàn thành, `never` đứng giữa `has` và V3. [Destination B2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "word",
+   "task_vi": "Gõ phần còn thiếu để câu đúng nghĩa",
+   "situation_vi": "Từ trước tới giờ Carlo chưa ăn đồ ăn Trung Quốc."
   },
   {
    "id": "G1D1KB-7",
@@ -401,7 +422,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa cho đúng (gõ lại) (7/8)",
    "points": 3,
-   "instruction_vi": "Câu gốc đang sai ở phần in đậm. Gõ phần thay thế đúng. Cách làm: hỏi trước 'người nói muốn nói gì?', rồi mới chọn thì.",
+   "instruction_vi": "Chọn thì theo điều người nói muốn nói: đây là thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
    "text": "Sean ( ㉠ ) a table for tonight.",
    "blanks": [
     {
@@ -410,12 +431,16 @@
      "accepted": [
       "has already booked",
       "has booked already",
-      "'s already booked"
+      "'s already booked",
+      "'s booked already"
      ],
      "common_errors_vi": "Việc đã xong, kết quả liên quan tối nay → hiện tại hoàn thành. Dùng `already`, không dùng đơn `already books`. [Destination B2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "word",
+   "task_vi": "Gõ phần còn thiếu để câu đúng nghĩa",
+   "situation_vi": "Sean đã đặt bàn cho tối nay rồi."
   },
   {
    "id": "G1D1KB-8",
@@ -425,7 +450,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa cho đúng (gõ lại) (8/8)",
    "points": 3,
-   "instruction_vi": "Câu gốc đang sai ở phần in đậm. Gõ phần thay thế đúng. Cách làm: hỏi trước 'người nói muốn nói gì?', rồi mới chọn thì.",
+   "instruction_vi": "Chọn thì theo điều người nói muốn nói: đây là thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
    "text": "( ㉠ ) any help painting her new flat?",
    "blanks": [
     {
@@ -437,7 +462,10 @@
      "common_errors_vi": "`need` là động từ trạng thái, không dùng tiếp diễn. Câu hỏi mượn `Does`, chủ ngữ ở sau. [Destination B2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "word",
+   "task_vi": "Gõ phần còn thiếu để câu đúng nghĩa",
+   "situation_vi": "Hỏi: Melanie có cần ai giúp sơn căn hộ mới của cô ấy không?"
   },
   {
    "id": "G1D1KC2-1",
@@ -703,7 +731,8 @@
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "are falling"
+      "are falling",
+      "'re falling"
      ],
      "common_errors_vi": "Xu hướng đang thay đổi → tiếp diễn. Dạng viết Task 1 quen dùng. [IELTS Grammar 6.5+, Unit 1 · bài C2 (trang 4)]"
     }
@@ -794,7 +823,8 @@
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "are getting"
+      "are getting",
+      "'re getting"
      ],
      "common_errors_vi": "Một thay đổi đang diễn ra → tiếp diễn. [Destination C1&C2, Unit 1 · bài A (trang 8)]"
     }
@@ -882,7 +912,8 @@
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "are getting"
+      "are getting",
+      "'re getting"
      ],
      "common_errors_vi": "Thay đổi đang diễn ra dần → tiếp diễn. [Destination C1&C2, Unit 1 · bài A (trang 8)]"
     }
@@ -994,7 +1025,8 @@
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "are walking"
+      "are walking",
+      "'re walking"
      ],
      "common_errors_vi": "Kể chuyện: hành động đang diễn ra thì bị cắt ngang bởi `spots` → tiếp diễn. [Destination C1&C2, Unit 1 · bài A (trang 8)]"
     }
@@ -1016,7 +1048,8 @@
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "has"
+      "has",
+      "'s"
      ],
      "common_errors_vi": "Bình luận trực tiếp trận đấu dùng hiện tại đơn. `have` ở đây là kiểm soát bóng. [Destination C1&C2, Unit 1 · bài A (trang 8)]"
     }
@@ -1077,7 +1110,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Mỗi chỗ trống một từ: cách nói thời gian (1/15)",
    "points": 3,
-   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm: always, present, moment, being, rarely, every, never, time, right, days…",
+   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm.",
    "text": "Why do you ( ㉠ ) leave the light on when you go out of the room? You wait till you start paying the electricity bill!",
    "blanks": [
     {
@@ -1089,7 +1122,24 @@
      "common_errors_vi": "`always` + hiện tại đơn (hỏi vì khó chịu). [Destination C1&C2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "always",
+    "being",
+    "days",
+    "every",
+    "for",
+    "it",
+    "moment",
+    "most",
+    "never",
+    "present",
+    "rarely",
+    "right",
+    "time",
+    "whenever"
+   ]
   },
   {
    "id": "G1D1KCB-2",
@@ -1099,7 +1149,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Mỗi chỗ trống một từ: cách nói thời gian (2/15)",
    "points": 3,
-   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm: always, present, moment, being, rarely, every, never, time, right, days…",
+   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm.",
    "text": "Fifteen teachers are teaching here full-time at ( ㉠ ).",
    "blanks": [
     {
@@ -1111,7 +1161,24 @@
      "common_errors_vi": "`at present` = hiện nay, lúc này. [Destination C1&C2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "always",
+    "being",
+    "days",
+    "every",
+    "for",
+    "it",
+    "moment",
+    "most",
+    "never",
+    "present",
+    "rarely",
+    "right",
+    "time",
+    "whenever"
+   ]
   },
   {
    "id": "G1D1KCB-3",
@@ -1121,7 +1188,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Mỗi chỗ trống một từ: cách nói thời gian (3/15)",
    "points": 3,
-   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm: always, present, moment, being, rarely, every, never, time, right, days…",
+   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm.",
    "text": "My sister's revising for her GCSEs at the ( ㉠ ).",
    "blanks": [
     {
@@ -1133,7 +1200,24 @@
      "common_errors_vi": "`at the moment` = lúc này; đi với tiếp diễn. [Destination C1&C2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "always",
+    "being",
+    "days",
+    "every",
+    "for",
+    "it",
+    "moment",
+    "most",
+    "never",
+    "present",
+    "rarely",
+    "right",
+    "time",
+    "whenever"
+   ]
   },
   {
    "id": "G1D1KCB-4",
@@ -1143,7 +1227,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Mỗi chỗ trống một từ: cách nói thời gian (4/15)",
    "points": 3,
-   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm: always, present, moment, being, rarely, every, never, time, right, days…",
+   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm.",
    "text": "I'm quite happy living at home for the time ( ㉠ ), but I guess I'll have to get my own place eventually.",
    "blanks": [
     {
@@ -1155,7 +1239,24 @@
      "common_errors_vi": "`for the time being` = trong lúc này, tạm thời. [Destination C1&C2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "always",
+    "being",
+    "days",
+    "every",
+    "for",
+    "it",
+    "moment",
+    "most",
+    "never",
+    "present",
+    "rarely",
+    "right",
+    "time",
+    "whenever"
+   ]
   },
   {
    "id": "G1D1KCB-5",
@@ -1165,7 +1266,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Mỗi chỗ trống một từ: cách nói thời gian (5/15)",
    "points": 3,
-   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm: always, present, moment, being, rarely, every, never, time, right, days…",
+   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm.",
    "text": "It's true that Ralph calls us quite ( ㉠ ), but most students only call their parents when they need something, don't they?",
    "blanks": [
     {
@@ -1177,7 +1278,24 @@
      "common_errors_vi": "`quite rarely` = khá hiếm khi; hợp với vế `only … when they need something`. [Destination C1&C2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "always",
+    "being",
+    "days",
+    "every",
+    "for",
+    "it",
+    "moment",
+    "most",
+    "never",
+    "present",
+    "rarely",
+    "right",
+    "time",
+    "whenever"
+   ]
   },
   {
    "id": "G1D1KCB-6",
@@ -1187,7 +1305,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Mỗi chỗ trống một từ: cách nói thời gian (6/15)",
    "points": 3,
-   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm: always, present, moment, being, rarely, every, never, time, right, days…",
+   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm.",
    "text": "We go to the cinema ( ㉠ ) now and then, but only if there's something good on.",
    "blanks": [
     {
@@ -1199,7 +1317,24 @@
      "common_errors_vi": "`every now and then` = thỉnh thoảng. [Destination C1&C2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "always",
+    "being",
+    "days",
+    "every",
+    "for",
+    "it",
+    "moment",
+    "most",
+    "never",
+    "present",
+    "rarely",
+    "right",
+    "time",
+    "whenever"
+   ]
   },
   {
    "id": "G1D1KCB-7",
@@ -1209,7 +1344,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Mỗi chỗ trống một từ: cách nói thời gian (7/15)",
    "points": 3,
-   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm: always, present, moment, being, rarely, every, never, time, right, days…",
+   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm.",
    "text": "I'm alone in my study bedroom reading ( ㉠ ) of the time.",
    "blanks": [
     {
@@ -1223,7 +1358,24 @@
      "common_errors_vi": "`most of the time` = phần lớn thời gian. [Destination C1&C2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "always",
+    "being",
+    "days",
+    "every",
+    "for",
+    "it",
+    "moment",
+    "most",
+    "never",
+    "present",
+    "rarely",
+    "right",
+    "time",
+    "whenever"
+   ]
   },
   {
    "id": "G1D1KCB-8",
@@ -1233,7 +1385,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Mỗi chỗ trống một từ: cách nói thời gian (8/15)",
    "points": 3,
-   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm: always, present, moment, being, rarely, every, never, time, right, days…",
+   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm.",
    "text": "Tim ( ㉠ ) goes out to play until he's done all his homework. I just don't allow it!",
    "blanks": [
     {
@@ -1245,7 +1397,24 @@
      "common_errors_vi": "`never` + hiện tại đơn: quy tắc của người nói. [Destination C1&C2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "always",
+    "being",
+    "days",
+    "every",
+    "for",
+    "it",
+    "moment",
+    "most",
+    "never",
+    "present",
+    "rarely",
+    "right",
+    "time",
+    "whenever"
+   ]
   },
   {
    "id": "G1D1KCB-9",
@@ -1255,7 +1424,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Mỗi chỗ trống một từ: cách nói thời gian (9/15)",
    "points": 3,
-   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm: always, present, moment, being, rarely, every, never, time, right, days…",
+   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm.",
    "text": "I see Lucinda from ( ㉠ ) to time, but not on a regular basis.",
    "blanks": [
     {
@@ -1267,7 +1436,24 @@
      "common_errors_vi": "`from time to time` = thỉnh thoảng. [Destination C1&C2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "always",
+    "being",
+    "days",
+    "every",
+    "for",
+    "it",
+    "moment",
+    "most",
+    "never",
+    "present",
+    "rarely",
+    "right",
+    "time",
+    "whenever"
+   ]
   },
   {
    "id": "G1D1KCB-10",
@@ -1277,7 +1463,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Mỗi chỗ trống một từ: cách nói thời gian (10/15)",
    "points": 3,
-   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm: always, present, moment, being, rarely, every, never, time, right, days…",
+   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm.",
    "text": "I'm sitting in the garden ( ㉠ ) now talking to you on my mobile.",
    "blanks": [
     {
@@ -1289,7 +1475,24 @@
      "common_errors_vi": "`right now` = ngay lúc này; đi với tiếp diễn. [Destination C1&C2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "always",
+    "being",
+    "days",
+    "every",
+    "for",
+    "it",
+    "moment",
+    "most",
+    "never",
+    "present",
+    "rarely",
+    "right",
+    "time",
+    "whenever"
+   ]
   },
   {
    "id": "G1D1KCB-11",
@@ -1299,7 +1502,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Mỗi chỗ trống một từ: cách nói thời gian (11/15)",
    "points": 3,
-   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm: always, present, moment, being, rarely, every, never, time, right, days…",
+   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm.",
    "text": "That's the last ( ㉠ ) we're inviting Dave to one of our parties!",
    "blanks": [
     {
@@ -1311,7 +1514,24 @@
      "common_errors_vi": "`That's the last time` + tiếp diễn: hàm ý bực mình, quyết định lúc này. [Destination C1&C2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "always",
+    "being",
+    "days",
+    "every",
+    "for",
+    "it",
+    "moment",
+    "most",
+    "never",
+    "present",
+    "rarely",
+    "right",
+    "time",
+    "whenever"
+   ]
   },
   {
    "id": "G1D1KCB-12",
@@ -1321,7 +1541,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Mỗi chỗ trống một từ: cách nói thời gian (12/15)",
    "points": 3,
-   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm: always, present, moment, being, rarely, every, never, time, right, days…",
+   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm.",
    "text": "Do young people these ( ㉠ ) have more free time than they did in the past?",
    "blanks": [
     {
@@ -1333,7 +1553,24 @@
      "common_errors_vi": "`these days` = dạo này, ngày nay. [Destination C1&C2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "always",
+    "being",
+    "days",
+    "every",
+    "for",
+    "it",
+    "moment",
+    "most",
+    "never",
+    "present",
+    "rarely",
+    "right",
+    "time",
+    "whenever"
+   ]
   },
   {
    "id": "G1D1KCB-13",
@@ -1343,7 +1580,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Mỗi chỗ trống một từ: cách nói thời gian (13/15)",
    "points": 3,
-   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm: always, present, moment, being, rarely, every, never, time, right, days…",
+   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm.",
    "text": "My mum fills up with petrol ( ㉠ ) she goes to the supermarket.",
    "blanks": [
     {
@@ -1357,7 +1594,24 @@
      "common_errors_vi": "`whenever` = mỗi khi; thói quen → đơn. [Destination C1&C2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "always",
+    "being",
+    "days",
+    "every",
+    "for",
+    "it",
+    "moment",
+    "most",
+    "never",
+    "present",
+    "rarely",
+    "right",
+    "time",
+    "whenever"
+   ]
   },
   {
    "id": "G1D1KCB-14",
@@ -1367,7 +1621,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Mỗi chỗ trống một từ: cách nói thời gian (14/15)",
    "points": 3,
-   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm: always, present, moment, being, rarely, every, never, time, right, days…",
+   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm.",
    "text": "I'm staying in ( ㉠ ) now, but I might go out a bit later on.",
    "blanks": [
     {
@@ -1379,7 +1633,24 @@
      "common_errors_vi": "`for now` = lúc này, tạm thời. [Destination C1&C2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "always",
+    "being",
+    "days",
+    "every",
+    "for",
+    "it",
+    "moment",
+    "most",
+    "never",
+    "present",
+    "rarely",
+    "right",
+    "time",
+    "whenever"
+   ]
   },
   {
    "id": "G1D1KCB-15",
@@ -1389,7 +1660,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Mỗi chỗ trống một từ: cách nói thời gian (15/15)",
    "points": 3,
-   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm: always, present, moment, being, rarely, every, never, time, right, days…",
+   "instruction_vi": "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm.",
    "text": "( ㉠ ) is the last time I ever order from that pizzeria. It was disgusting!",
    "blanks": [
     {
@@ -1402,7 +1673,24 @@
      "common_errors_vi": "`That's/It's the last time I …` = lần cuối cùng. [Destination C1&C2, Unit 1 · bài B (trang 8)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "always",
+    "being",
+    "days",
+    "every",
+    "for",
+    "it",
+    "moment",
+    "most",
+    "never",
+    "present",
+    "rarely",
+    "right",
+    "time",
+    "whenever"
+   ]
   },
   {
    "id": "G1D2B1",
@@ -1522,7 +1810,8 @@
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "has"
+      "has",
+      "'s"
      ],
      "common_errors_vi": "`have` nghĩa \"có\" là trạng thái → hiện tại đơn."
     }
@@ -1544,7 +1833,8 @@
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "are getting"
+      "are getting",
+      "'re getting"
      ],
      "common_errors_vi": "Xu hướng đang thay đổi → tiếp diễn."
     }
@@ -1610,7 +1900,8 @@
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "is"
+      "is",
+      "'s"
      ],
      "common_errors_vi": "Câu hỏi đảo: `Is it possible…?`. `be` ở đây là trạng thái. [Destination B2, Unit 1 · bài F (trang 10)]"
     }
@@ -1810,7 +2101,8 @@
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "have"
+      "have",
+      "'ve"
      ],
      "common_errors_vi": "`have` = sở hữu (trạng thái) → đơn, không dùng `are having`. [IELTS Grammar 6.5+, Unit 1 · bài C3 (trang 5)]"
     }
@@ -1832,7 +2124,8 @@
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "is going up"
+      "is going up",
+      "'s going up"
      ],
      "common_errors_vi": "`year by year` cho biết đây là thay đổi dần theo thời gian → tiếp diễn. [IELTS Grammar 6.5+, Unit 1 · bài C3 (trang 5)]"
     }
@@ -1854,7 +2147,8 @@
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "is catching up"
+      "is catching up",
+      "'s catching up"
      ],
      "common_errors_vi": "Cũng là thay đổi đang diễn ra → tiếp diễn. [IELTS Grammar 6.5+, Unit 1 · bài C3 (trang 5)]"
     }
@@ -1898,7 +2192,8 @@
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "is causing"
+      "is causing",
+      "'s causing"
      ],
      "common_errors_vi": "Hiện tượng đang diễn ra, ảnh hưởng ngay lúc này → tiếp diễn (dạng rút gọn `'s causing` cũng được). [IELTS Grammar 6.5+, Unit 1 · bài C3 (trang 5)]"
     }
@@ -2120,7 +2415,9 @@
      "common_errors_vi": "`since` + mốc bắt đầu."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "task_vi": "Điền since hoặc for",
+   "kind": "word"
   },
   {
    "id": "G1D3KC-1",
@@ -2229,7 +2526,8 @@
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "Have you ever met"
+      "Have you ever met",
+      "'ve you ever met"
      ],
      "common_errors_vi": "Kinh nghiệm cho tới giờ, không nói thời điểm → hoàn thành đơn. Không dùng tiếp diễn với `ever`. [Destination B2, Unit 1 · bài C (trang 8)]"
     }
@@ -2275,7 +2573,8 @@
      "points": 3,
      "accepted": [
       "I haven't finished",
-      "I have not finished"
+      "I have not finished",
+      "I've not finished"
      ],
      "common_errors_vi": "`yet` đi với hoàn thành đơn. Chưa xong nên không dùng tiếp diễn. [Destination B2, Unit 1 · bài C (trang 8)]"
     }
@@ -2297,7 +2596,8 @@
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "Have you already decided"
+      "Have you already decided",
+      "'ve you already decided"
      ],
      "common_errors_vi": "Kết quả của một quyết định, liên quan tới bây giờ → hoàn thành đơn. `already` đứng giữa. [Destination B2, Unit 1 · bài C (trang 8)]"
     }
@@ -2360,19 +2660,21 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa thì: thư xin học ngành Zoology (1/7)",
    "points": 3,
-   "instruction_vi": "Trong lá thư xin học, những động từ sau bị dùng sai thì. Gõ dạng đúng (sách còn các câu đúng không cần sửa: have always been, have enjoyed, have read, have recently joined, have not spent).",
-   "text": "As you ( ㉠ ) in Section A of this application, I have a good academic record.",
+   "instruction_vi": "Chia động từ trong ngoặc cho đúng thì. Mỗi câu của lá thư xin học này đang dùng sai thì.",
+   "text": "As you ( ㉠ ) (see) in Section A of this application, I have a good academic record.",
    "blanks": [
     {
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "have already seen"
+      "have already seen",
+      "'ve already seen"
      ],
      "common_errors_vi": "Kết quả từ trước còn liên quan tới bây giờ, không nói mốc thời gian → hoàn thành đơn, không dùng quá khứ đơn `already saw`. [IELTS Grammar 6.5+, Unit 3 · bài C1 (trang 23)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "inflect"
   },
   {
    "id": "G1D3KU3C1-2",
@@ -2382,19 +2684,21 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa thì: thư xin học ngành Zoology (2/7)",
    "points": 3,
-   "instruction_vi": "Trong lá thư xin học, những động từ sau bị dùng sai thì. Gõ dạng đúng (sách còn các câu đúng không cần sửa: have always been, have enjoyed, have read, have recently joined, have not spent).",
-   "text": "I ( ㉠ ) the results of my recent exams, all of which were excellent.",
+   "instruction_vi": "Chia động từ trong ngoặc cho đúng thì. Mỗi câu của lá thư xin học này đang dùng sai thì.",
+   "text": "I ( ㉠ ) (receive) the results of my recent exams, all of which were excellent.",
    "blanks": [
     {
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "have just received"
+      "have just received",
+      "'ve just received"
      ],
      "common_errors_vi": "`just` + việc vừa xảy ra, liên quan bây giờ → hoàn thành đơn. [IELTS Grammar 6.5+, Unit 3 · bài C1 (trang 23)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "inflect"
   },
   {
    "id": "G1D3KU3C1-3",
@@ -2404,8 +2708,8 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa thì: thư xin học ngành Zoology (3/7)",
    "points": 3,
-   "instruction_vi": "Trong lá thư xin học, những động từ sau bị dùng sai thì. Gõ dạng đúng (sách còn các câu đúng không cần sửa: have always been, have enjoyed, have read, have recently joined, have not spent).",
-   "text": "I have just received the results of my recent exams, all of which ( ㉠ ) excellent.",
+   "instruction_vi": "Chia động từ trong ngoặc cho đúng thì. Mỗi câu của lá thư xin học này đang dùng sai thì.",
+   "text": "I have just received the results of my recent exams, all of which ( ㉠ ) (be) excellent.",
    "blanks": [
     {
      "id": "㉠",
@@ -2416,7 +2720,8 @@
      "common_errors_vi": "Kết quả kỳ thi là sự việc đã xong ở quá khứ; mệnh đề này mô tả chúng lúc đó → quá khứ đơn. [IELTS Grammar 6.5+, Unit 3 · bài C1 (trang 23)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "inflect"
   },
   {
    "id": "G1D3KU3C1-4",
@@ -2426,8 +2731,8 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa thì: thư xin học ngành Zoology (4/7)",
    "points": 3,
-   "instruction_vi": "Trong lá thư xin học, những động từ sau bị dùng sai thì. Gõ dạng đúng (sách còn các câu đúng không cần sửa: have always been, have enjoyed, have read, have recently joined, have not spent).",
-   "text": "Last year I ( ㉠ ) my school at badminton.",
+   "instruction_vi": "Chia động từ trong ngoặc cho đúng thì. Mỗi câu của lá thư xin học này đang dùng sai thì.",
+   "text": "Last year I ( ㉠ ) (represent) my school at badminton.",
    "blanks": [
     {
      "id": "㉠",
@@ -2438,7 +2743,8 @@
      "common_errors_vi": "`Last year` là mốc thời gian đã qua → quá khứ đơn, không dùng hoàn thành. [IELTS Grammar 6.5+, Unit 3 · bài C1 (trang 23)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "inflect"
   },
   {
    "id": "G1D3KU3C1-5",
@@ -2448,19 +2754,21 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa thì: thư xin học ngành Zoology (5/7)",
    "points": 3,
-   "instruction_vi": "Trong lá thư xin học, những động từ sau bị dùng sai thì. Gõ dạng đúng (sách còn các câu đúng không cần sửa: have always been, have enjoyed, have read, have recently joined, have not spent).",
-   "text": "I ( ㉠ ) in football teams since I was eleven.",
+   "instruction_vi": "Chia động từ trong ngoặc cho đúng thì. Mỗi câu của lá thư xin học này đang dùng sai thì.",
+   "text": "I ( ㉠ ) (play) in football teams since I was eleven.",
    "blanks": [
     {
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "have played"
+      "have played",
+      "'ve played"
      ],
      "common_errors_vi": "`since` + mốc quá khứ, nay vẫn còn chơi → hoàn thành đơn. [IELTS Grammar 6.5+, Unit 3 · bài C1 (trang 23)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "inflect"
   },
   {
    "id": "G1D3KU3C1-6",
@@ -2470,8 +2778,8 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa thì: thư xin học ngành Zoology (6/7)",
    "points": 3,
-   "instruction_vi": "Trong lá thư xin học, những động từ sau bị dùng sai thì. Gõ dạng đúng (sách còn các câu đúng không cần sửa: have always been, have enjoyed, have read, have recently joined, have not spent).",
-   "text": "I ( ㉠ ) abroad much yet, although as a young child I went to Singapore and Hong Kong with my family.",
+   "instruction_vi": "Chia động từ trong ngoặc cho đúng thì. Mỗi câu của lá thư xin học này đang dùng sai thì.",
+   "text": "I ( ㉠ ) (not travel) abroad much yet, although as a young child I went to Singapore and Hong Kong with my family.",
    "blanks": [
     {
      "id": "㉠",
@@ -2485,7 +2793,8 @@
      "common_errors_vi": "`yet` → hoàn thành đơn phủ định. [IELTS Grammar 6.5+, Unit 3 · bài C1 (trang 23)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "inflect"
   },
   {
    "id": "G1D3KU3C1-7",
@@ -2495,8 +2804,8 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa thì: thư xin học ngành Zoology (7/7)",
    "points": 3,
-   "instruction_vi": "Trong lá thư xin học, những động từ sau bị dùng sai thì. Gõ dạng đúng (sách còn các câu đúng không cần sửa: have always been, have enjoyed, have read, have recently joined, have not spent).",
-   "text": "As a young child I ( ㉠ ) to Singapore and Hong Kong with my family.",
+   "instruction_vi": "Chia động từ trong ngoặc cho đúng thì. Mỗi câu của lá thư xin học này đang dùng sai thì.",
+   "text": "As a young child I ( ㉠ ) (go) to Singapore and Hong Kong with my family.",
    "blanks": [
     {
      "id": "㉠",
@@ -2507,7 +2816,8 @@
      "common_errors_vi": "`as a young child` là thời điểm đã qua → quá khứ đơn. Dùng `have been` là lỗi phổ biến. [IELTS Grammar 6.5+, Unit 3 · bài C1 (trang 23)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "inflect"
   },
   {
    "id": "G1D3KU3C4-1",
@@ -2572,7 +2882,8 @@
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "Have you done"
+      "Have you done",
+      "'ve you done"
      ],
      "common_errors_vi": "Câu hỏi về kết quả/kinh nghiệm → hoàn thành đơn. [IELTS Grammar 6.5+, Unit 3 · bài C4 (trang 25)]"
     }
@@ -2883,7 +3194,20 @@
      "common_errors_vi": "`ever` dùng trong câu hỏi về kinh nghiệm, đứng giữa chủ ngữ và V3. [Destination B2, Unit 1 · bài D (trang 9)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "already",
+    "before",
+    "ever",
+    "for",
+    "just",
+    "rarely",
+    "since",
+    "so",
+    "still",
+    "yet"
+   ]
   },
   {
    "id": "G1D3KD-2",
@@ -2905,7 +3229,20 @@
      "common_errors_vi": "`yet` ở cuối câu phủ định hoặc câu hỏi: đến giờ vẫn chưa. [Destination B2, Unit 1 · bài D (trang 9)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "already",
+    "before",
+    "ever",
+    "for",
+    "just",
+    "rarely",
+    "since",
+    "so",
+    "still",
+    "yet"
+   ]
   },
   {
    "id": "G1D3KD-3",
@@ -2927,7 +3264,20 @@
      "common_errors_vi": "`since` + mốc thời gian hoặc một mệnh đề quá khứ. [Destination B2, Unit 1 · bài D (trang 9)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "already",
+    "before",
+    "ever",
+    "for",
+    "just",
+    "rarely",
+    "since",
+    "so",
+    "still",
+    "yet"
+   ]
   },
   {
    "id": "G1D3KD-4",
@@ -2949,7 +3299,20 @@
      "common_errors_vi": "`for` + khoảng thời gian. [Destination B2, Unit 1 · bài D (trang 9)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "already",
+    "before",
+    "ever",
+    "for",
+    "just",
+    "rarely",
+    "since",
+    "so",
+    "still",
+    "yet"
+   ]
   },
   {
    "id": "G1D3KD-5",
@@ -2971,7 +3334,20 @@
      "common_errors_vi": "Cụm cố định `so far` = cho đến giờ. [Destination B2, Unit 1 · bài D (trang 9)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "already",
+    "before",
+    "ever",
+    "for",
+    "just",
+    "rarely",
+    "since",
+    "so",
+    "still",
+    "yet"
+   ]
   },
   {
    "id": "G1D3KD-6",
@@ -2993,7 +3369,20 @@
      "common_errors_vi": "`rarely` là trạng từ tần suất của hiện tại đơn, đứng trước động từ chính. [Destination B2, Unit 1 · bài D (trang 9)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "already",
+    "before",
+    "ever",
+    "for",
+    "just",
+    "rarely",
+    "since",
+    "so",
+    "still",
+    "yet"
+   ]
   },
   {
    "id": "G1D3KD-7",
@@ -3015,7 +3404,20 @@
      "common_errors_vi": "`just` = vừa mới, đứng giữa `has` và V3. [Destination B2, Unit 1 · bài D (trang 9)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "already",
+    "before",
+    "ever",
+    "for",
+    "just",
+    "rarely",
+    "since",
+    "so",
+    "still",
+    "yet"
+   ]
   },
   {
    "id": "G1D3KD-8",
@@ -3037,7 +3439,20 @@
      "common_errors_vi": "`still` đứng trước `hasn't`: tới giờ vẫn chưa, người nói ngạc nhiên. [Destination B2, Unit 1 · bài D (trang 9)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "already",
+    "before",
+    "ever",
+    "for",
+    "just",
+    "rarely",
+    "since",
+    "so",
+    "still",
+    "yet"
+   ]
   },
   {
    "id": "G1D3KD-9",
@@ -3059,7 +3474,20 @@
      "common_errors_vi": "`before` ở cuối câu: trước giờ chưa gặp. [Destination B2, Unit 1 · bài D (trang 9)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "already",
+    "before",
+    "ever",
+    "for",
+    "just",
+    "rarely",
+    "since",
+    "so",
+    "still",
+    "yet"
+   ]
   },
   {
    "id": "G1D3KD-10",
@@ -3081,7 +3509,20 @@
      "common_errors_vi": "`already` ở cuối câu hỏi diễn tả ngạc nhiên vì xong sớm. [Destination B2, Unit 1 · bài D (trang 9)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "already",
+    "before",
+    "ever",
+    "for",
+    "just",
+    "rarely",
+    "since",
+    "so",
+    "still",
+    "yet"
+   ]
   },
   {
    "id": "G1D4B1",
@@ -3229,7 +3670,9 @@
      "points": 3,
      "accepted": [
       "has taught",
-      "has been teaching"
+      "has been teaching",
+      "'s taught",
+      "'s been teaching"
      ],
      "common_errors_vi": "Kéo từ 2019 tới giờ: hiện tại hoàn thành; hoàn thành tiếp diễn cũng đúng với `teach`."
     }
@@ -3430,7 +3873,8 @@
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "are"
+      "are",
+      "'re"
      ],
      "common_errors_vi": "`be` ở hiện tại đơn, ngôi `you`. [Destination B2, Unit 1 · bài I (trang 11)]"
     }
@@ -3498,7 +3942,8 @@
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "have"
+      "have",
+      "'ve"
      ],
      "common_errors_vi": "Hoàn thành đơn: bây giờ đã lỡ tàu cuối. `definitely` đứng giữa `have` và V3. [Destination B2, Unit 1 · bài I (trang 11)]"
     }
@@ -3654,7 +4099,8 @@
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "has only been"
+      "has only been",
+      "'s only been"
      ],
      "common_errors_vi": "Mẫu `It's the second time` ↔ `has only been … once before`. [Destination B2, Unit 1 · bài J (trang 11)]"
     }
@@ -3677,7 +4123,9 @@
      "points": 3,
      "accepted": [
       "have been here for",
-      "have been here"
+      "have been here",
+      "'ve been here for",
+      "'ve been here"
      ],
      "common_errors_vi": "Đã đến cách đây ba giờ và vẫn ở đây → hoàn thành đơn với `for` + khoảng thời gian. [Destination B2, Unit 1 · bài J (trang 11)]"
     }
@@ -3699,7 +4147,8 @@
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "have been writing this for"
+      "have been writing this for",
+      "'ve been writing this for"
      ],
      "common_errors_vi": "Làm liên tục đến giờ, nhấn vào quá trình → hoàn thành tiếp diễn. [Destination B2, Unit 1 · bài J (trang 11)]"
     }
@@ -3744,7 +4193,8 @@
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "is having a bath"
+      "is having a bath",
+      "'s having a bath"
      ],
      "common_errors_vi": "`have a bath` = hành động đang diễn ra → tiếp diễn. [Destination B2, Unit 1 · bài J (trang 11)]"
     }
@@ -3781,8 +4231,8 @@
    "number": "Bước 2",
    "title_vi": "Sách · Tìm động từ sai: biểu đồ và quy trình (1/3)",
    "points": 3,
-   "instruction_vi": "Hai đoạn trích có sáu động từ sai (một câu đã làm mẫu: «we are seeing» → «we can see»). Ba câu về biểu đồ nằm ở bài riêng ngay trước đó.",
-   "text": "The sun heats the ground. This ( ㉠ ) the air nearby and the warm air rises into the sky.",
+   "instruction_vi": "Chia động từ trong ngoặc cho đúng thì. Quy trình tự nhiên được mô tả bằng hiện tại đơn.",
+   "text": "The sun heats the ground. This ( ㉠ ) (warm) the air nearby and the warm air rises into the sky.",
    "blanks": [
     {
      "id": "㉠",
@@ -3793,7 +4243,8 @@
      "common_errors_vi": "Quy trình tự nhiên, sự thật chung → đơn. Mô tả quy trình thì dùng đơn cả đoạn. [IELTS Grammar 6.5+, Unit 1 · bài C4 (trang 5)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "inflect"
   },
   {
    "id": "G1D4KC4-2",
@@ -3803,8 +4254,8 @@
    "number": "Bước 2",
    "title_vi": "Sách · Tìm động từ sai: biểu đồ và quy trình (2/3)",
    "points": 3,
-   "instruction_vi": "Hai đoạn trích có sáu động từ sai (một câu đã làm mẫu: «we are seeing» → «we can see»). Ba câu về biểu đồ nằm ở bài riêng ngay trước đó.",
-   "text": "As the air ( ㉠ ), it becomes cooler and the water vapour inside it changes into droplets of water.",
+   "instruction_vi": "Chia động từ trong ngoặc cho đúng thì. Quy trình tự nhiên được mô tả bằng hiện tại đơn.",
+   "text": "As the air ( ㉠ ) (rise), it becomes cooler and the water vapour inside it changes into droplets of water.",
    "blanks": [
     {
      "id": "㉠",
@@ -3815,7 +4266,8 @@
      "common_errors_vi": "Quy trình tự nhiên → đơn, không dùng `is rising`. [IELTS Grammar 6.5+, Unit 1 · bài C4 (trang 5)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "inflect"
   },
   {
    "id": "G1D4KC4-3",
@@ -3825,8 +4277,8 @@
    "number": "Bước 2",
    "title_vi": "Sách · Tìm động từ sai: biểu đồ và quy trình (3/3)",
    "points": 3,
-   "instruction_vi": "Hai đoạn trích có sáu động từ sai (một câu đã làm mẫu: «we are seeing» → «we can see»). Ba câu về biểu đồ nằm ở bài riêng ngay trước đó.",
-   "text": "...it becomes cooler and the water vapour inside it ( ㉠ ) into droplets of water.",
+   "instruction_vi": "Chia động từ trong ngoặc cho đúng thì. Quy trình tự nhiên được mô tả bằng hiện tại đơn.",
+   "text": "...it becomes cooler and the water vapour inside it ( ㉠ ) (change) into droplets of water.",
    "blanks": [
     {
      "id": "㉠",
@@ -3837,7 +4289,8 @@
      "common_errors_vi": "Chủ ngữ `the water vapour` số ít nên cần -s (lỗi hoà hợp chủ vị). [IELTS Grammar 6.5+, Unit 1 · bài C4 (trang 5)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "inflect"
   },
   {
    "id": "G1D5KA18-1",
@@ -5184,7 +5637,9 @@
      "common_errors_vi": "student = sinh viên, người đi học. Nghĩa của câu: Cô ấy là sinh viên Đại học Hà Nội."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Cô ấy là sinh viên Đại học Hà Nội.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D6O5-2",
@@ -5207,7 +5662,9 @@
      "common_errors_vi": "qualification = bằng cấp, chứng chỉ để làm một nghề. Nghĩa của câu: Bằng đại học là một bằng cấp hữu ích."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Bằng đại học là một bằng cấp hữu ích.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D6O5-3",
@@ -5230,7 +5687,9 @@
      "common_errors_vi": "certificate = giấy chứng nhận. Nghĩa của câu: Tôi nhận được giấy chứng nhận sau khóa học."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Tôi nhận được giấy chứng nhận sau khóa học.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D6O5-4",
@@ -5253,7 +5712,9 @@
      "common_errors_vi": "degree = bằng đại học. Nghĩa của câu: Cô ấy có bằng đại học ngành vật lý."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Cô ấy có bằng đại học ngành vật lý.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D6O5-5",
@@ -5276,7 +5737,9 @@
      "common_errors_vi": "measure = đo lường. Nghĩa của câu: Khó đo trí thông minh."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Khó đo trí thông minh.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D6O5-6",
@@ -5294,12 +5757,15 @@
      "points": 3,
      "accepted": [
       "recognise",
-      "Recognise"
+      "Recognise",
+      "recognize"
      ],
      "common_errors_vi": "recognise = nhận ra. Nghĩa của câu: Tôi không nhận ra thầy giáo cũ."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Tôi không nhận ra thầy giáo cũ.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D6O5-7",
@@ -5322,7 +5788,9 @@
      "common_errors_vi": "task = nhiệm vụ được giao. Nghĩa của câu: Nhiệm vụ của chúng tôi là thiết kế một tấm áp phích."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Nhiệm vụ của chúng tôi là thiết kế một tấm áp phích.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D6O5-8",
@@ -5345,7 +5813,9 @@
      "common_errors_vi": "subject = môn học, chủ đề. Nghĩa của câu: Toán là môn học yêu thích của tôi."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Toán là môn học yêu thích của tôi.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D6O5-9",
@@ -5368,7 +5838,9 @@
      "common_errors_vi": "get on with = tiếp tục làm việc gì. Nghĩa của câu: Hãy tiếp tục làm bài của em."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Hãy tiếp tục làm bài của em.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D6O5-10",
@@ -5391,7 +5863,9 @@
      "common_errors_vi": "cross out = gạch bỏ. Nghĩa của câu: Hãy gạch bỏ đáp án sai."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Hãy gạch bỏ đáp án sai.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D6O5-11",
@@ -5414,7 +5888,9 @@
      "common_errors_vi": "keep up with = theo kịp. Nghĩa của câu: Thật khó theo kịp cả lớp."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Thật khó theo kịp cả lớp.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D7KXB-1",
@@ -5639,7 +6115,21 @@
      "common_errors_vi": "`dilemma` = tình thế khó chọn giữa hai điều. [Destination C1&C2, Unit 2 · bài C (trang 14)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "dilemma",
+    "faith",
+    "genius",
+    "guesswork",
+    "hunch",
+    "ideology",
+    "inspiration",
+    "intuition",
+    "notion",
+    "paradox",
+    "query"
+   ]
   },
   {
    "id": "G1D7KXC-2",
@@ -5661,7 +6151,21 @@
      "common_errors_vi": "`faith in somebody` = niềm tin vào ai. [Destination C1&C2, Unit 2 · bài C (trang 14)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "dilemma",
+    "faith",
+    "genius",
+    "guesswork",
+    "hunch",
+    "ideology",
+    "inspiration",
+    "intuition",
+    "notion",
+    "paradox",
+    "query"
+   ]
   },
   {
    "id": "G1D7KXC-3",
@@ -5683,7 +6187,21 @@
      "common_errors_vi": "`genius` = thiên tài. [Destination C1&C2, Unit 2 · bài C (trang 14)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "dilemma",
+    "faith",
+    "genius",
+    "guesswork",
+    "hunch",
+    "ideology",
+    "inspiration",
+    "intuition",
+    "notion",
+    "paradox",
+    "query"
+   ]
   },
   {
    "id": "G1D7KXC-4",
@@ -5705,7 +6223,21 @@
      "common_errors_vi": "`educated guesswork` = đoán có cơ sở. [Destination C1&C2, Unit 2 · bài C (trang 14)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "dilemma",
+    "faith",
+    "genius",
+    "guesswork",
+    "hunch",
+    "ideology",
+    "inspiration",
+    "intuition",
+    "notion",
+    "paradox",
+    "query"
+   ]
   },
   {
    "id": "G1D7KXC-5",
@@ -5728,7 +6260,21 @@
      "common_errors_vi": "`have a hunch that …` = linh cảm rằng. [Destination C1&C2, Unit 2 · bài C (trang 14)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "dilemma",
+    "faith",
+    "genius",
+    "guesswork",
+    "hunch",
+    "ideology",
+    "inspiration",
+    "intuition",
+    "notion",
+    "paradox",
+    "query"
+   ]
   },
   {
    "id": "G1D7KXC-6",
@@ -5750,7 +6296,21 @@
      "common_errors_vi": "`ideology` = hệ tư tưởng. [Destination C1&C2, Unit 2 · bài C (trang 14)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "dilemma",
+    "faith",
+    "genius",
+    "guesswork",
+    "hunch",
+    "ideology",
+    "inspiration",
+    "intuition",
+    "notion",
+    "paradox",
+    "query"
+   ]
   },
   {
    "id": "G1D7KXC-7",
@@ -5772,7 +6332,21 @@
      "common_errors_vi": "`inspiration for …` = nguồn cảm hứng cho. [Destination C1&C2, Unit 2 · bài C (trang 14)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "dilemma",
+    "faith",
+    "genius",
+    "guesswork",
+    "hunch",
+    "ideology",
+    "inspiration",
+    "intuition",
+    "notion",
+    "paradox",
+    "query"
+   ]
   },
   {
    "id": "G1D7KXC-8",
@@ -5794,7 +6368,21 @@
      "common_errors_vi": "`intuition` = trực giác, không cần bằng chứng. [Destination C1&C2, Unit 2 · bài C (trang 14)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "dilemma",
+    "faith",
+    "genius",
+    "guesswork",
+    "hunch",
+    "ideology",
+    "inspiration",
+    "intuition",
+    "notion",
+    "paradox",
+    "query"
+   ]
   },
   {
    "id": "G1D7KXC-9",
@@ -5816,7 +6404,21 @@
      "common_errors_vi": "`query` = thắc mắc (neo vào question). [Destination C1&C2, Unit 2 · bài C (trang 14)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "dilemma",
+    "faith",
+    "genius",
+    "guesswork",
+    "hunch",
+    "ideology",
+    "inspiration",
+    "intuition",
+    "notion",
+    "paradox",
+    "query"
+   ]
   },
   {
    "id": "G1D7KXC-10",
@@ -5838,7 +6440,21 @@
      "common_errors_vi": "`notion` = quan niệm, ý tưởng (neo vào idea). [Destination C1&C2, Unit 2 · bài C (trang 14)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "dilemma",
+    "faith",
+    "genius",
+    "guesswork",
+    "hunch",
+    "ideology",
+    "inspiration",
+    "intuition",
+    "notion",
+    "paradox",
+    "query"
+   ]
   },
   {
    "id": "G1D7KXC-11",
@@ -5860,7 +6476,21 @@
      "common_errors_vi": "`paradox` = nghịch lý. [Destination C1&C2, Unit 2 · bài C (trang 14)]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "dilemma",
+    "faith",
+    "genius",
+    "guesswork",
+    "hunch",
+    "ideology",
+    "inspiration",
+    "intuition",
+    "notion",
+    "paradox",
+    "query"
+   ]
   },
   {
    "id": "G1D7KXF-1",
@@ -6604,7 +7234,8 @@
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "have"
+      "have",
+      "'ve"
      ],
      "common_errors_vi": "`have your doubts about …` = còn nghi ngờ về. [Destination C1&C2, Unit 2 · bài J (trang 17)]"
     }
@@ -6718,7 +7349,8 @@
       "have arrived at the conclusion",
       "have reached the conclusion",
       "'ve come to the conclusion",
-      "'ve reached the conclusion"
+      "'ve reached the conclusion",
+      "'ve arrived at the conclusion"
      ],
      "common_errors_vi": "`come to / arrive at / reach a conclusion`. [Destination C1&C2, Unit 2 · bài K (trang 18)]"
     }
@@ -6833,7 +7465,22 @@
      "common_errors_vi": "`ring a bell` = nghe quen. [Destination C1&C2, Unit 2 · bài L (trang 18) · mở rộng]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "bell",
+    "bend",
+    "dark",
+    "hairs",
+    "head",
+    "leg",
+    "stock",
+    "two",
+    "uptake",
+    "what",
+    "wits",
+    "wood"
+   ]
   },
   {
    "id": "G1D7KXL-2",
@@ -6855,7 +7502,22 @@
      "common_errors_vi": "`split hairs` = bới lông tìm vết. [Destination C1&C2, Unit 2 · bài L (trang 18) · mở rộng]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "bell",
+    "bend",
+    "dark",
+    "hairs",
+    "head",
+    "leg",
+    "stock",
+    "two",
+    "uptake",
+    "what",
+    "wits",
+    "wood"
+   ]
   },
   {
    "id": "G1D7KXL-3",
@@ -6877,7 +7539,22 @@
      "common_errors_vi": "`know what's what` = nắm rõ tình hình. [Destination C1&C2, Unit 2 · bài L (trang 18) · mở rộng]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "bell",
+    "bend",
+    "dark",
+    "hairs",
+    "head",
+    "leg",
+    "stock",
+    "two",
+    "uptake",
+    "what",
+    "wits",
+    "wood"
+   ]
   },
   {
    "id": "G1D7KXL-4",
@@ -6899,7 +7576,22 @@
      "common_errors_vi": "`have your wits about you` = tỉnh táo, nhanh trí. [Destination C1&C2, Unit 2 · bài L (trang 18) · mở rộng]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "bell",
+    "bend",
+    "dark",
+    "hairs",
+    "head",
+    "leg",
+    "stock",
+    "two",
+    "uptake",
+    "what",
+    "wits",
+    "wood"
+   ]
   },
   {
    "id": "G1D7KXL-5",
@@ -6921,7 +7613,22 @@
      "common_errors_vi": "`go to your head` = làm kiêu căng. [Destination C1&C2, Unit 2 · bài L (trang 18) · mở rộng]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "bell",
+    "bend",
+    "dark",
+    "hairs",
+    "head",
+    "leg",
+    "stock",
+    "two",
+    "uptake",
+    "what",
+    "wits",
+    "wood"
+   ]
   },
   {
    "id": "G1D7KXL-6",
@@ -6943,7 +7650,22 @@
      "common_errors_vi": "`put two and two together` = suy ra điều đúng. [Destination C1&C2, Unit 2 · bài L (trang 18) · mở rộng]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "bell",
+    "bend",
+    "dark",
+    "hairs",
+    "head",
+    "leg",
+    "stock",
+    "two",
+    "uptake",
+    "what",
+    "wits",
+    "wood"
+   ]
   },
   {
    "id": "G1D7KXL-7",
@@ -6965,7 +7687,22 @@
      "common_errors_vi": "`go round the bend` = phát điên. [Destination C1&C2, Unit 2 · bài L (trang 18) · mở rộng]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "bell",
+    "bend",
+    "dark",
+    "hairs",
+    "head",
+    "leg",
+    "stock",
+    "two",
+    "uptake",
+    "what",
+    "wits",
+    "wood"
+   ]
   },
   {
    "id": "G1D7KXL-8",
@@ -6987,7 +7724,22 @@
      "common_errors_vi": "`take stock of …` = đánh giá lại tình hình. [Destination C1&C2, Unit 2 · bài L (trang 18) · mở rộng]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "bell",
+    "bend",
+    "dark",
+    "hairs",
+    "head",
+    "leg",
+    "stock",
+    "two",
+    "uptake",
+    "what",
+    "wits",
+    "wood"
+   ]
   },
   {
    "id": "G1D7KXL-9",
@@ -7009,7 +7761,22 @@
      "common_errors_vi": "`keep somebody in the dark` = giấu ai. [Destination C1&C2, Unit 2 · bài L (trang 18) · mở rộng]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "bell",
+    "bend",
+    "dark",
+    "hairs",
+    "head",
+    "leg",
+    "stock",
+    "two",
+    "uptake",
+    "what",
+    "wits",
+    "wood"
+   ]
   },
   {
    "id": "G1D7KXL-10",
@@ -7031,7 +7798,22 @@
      "common_errors_vi": "`not see the wood for the trees` = vì quá chú ý chi tiết mà không thấy tổng thể. [Destination C1&C2, Unit 2 · bài L (trang 18) · mở rộng]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "bell",
+    "bend",
+    "dark",
+    "hairs",
+    "head",
+    "leg",
+    "stock",
+    "two",
+    "uptake",
+    "what",
+    "wits",
+    "wood"
+   ]
   },
   {
    "id": "G1D7KXL-11",
@@ -7053,7 +7835,22 @@
      "common_errors_vi": "`quick on the uptake` = hiểu nhanh. [Destination C1&C2, Unit 2 · bài L (trang 18) · mở rộng]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "bell",
+    "bend",
+    "dark",
+    "hairs",
+    "head",
+    "leg",
+    "stock",
+    "two",
+    "uptake",
+    "what",
+    "wits",
+    "wood"
+   ]
   },
   {
    "id": "G1D7KXL-12",
@@ -7075,7 +7872,22 @@
      "common_errors_vi": "`not have a leg to stand on` = không có cơ sở. [Destination C1&C2, Unit 2 · bài L (trang 18) · mở rộng]"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "kind": "bank",
+   "bank": [
+    "bell",
+    "bend",
+    "dark",
+    "hairs",
+    "head",
+    "leg",
+    "stock",
+    "two",
+    "uptake",
+    "what",
+    "wits",
+    "wood"
+   ]
   },
   {
    "id": "G1D7KXM-1",
@@ -7540,7 +8352,9 @@
      "common_errors_vi": "student = sinh viên, người đi học. Nghĩa của câu: Cô ấy là sinh viên Đại học Hà Nội."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Cô ấy là sinh viên Đại học Hà Nội.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D7O5-2",
@@ -7563,7 +8377,9 @@
      "common_errors_vi": "qualification = bằng cấp, chứng chỉ để làm một nghề. Nghĩa của câu: Bằng đại học là một bằng cấp hữu ích."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Bằng đại học là một bằng cấp hữu ích.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D7O5-3",
@@ -7586,7 +8402,9 @@
      "common_errors_vi": "certificate = giấy chứng nhận. Nghĩa của câu: Tôi nhận được giấy chứng nhận sau khóa học."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Tôi nhận được giấy chứng nhận sau khóa học.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D7O5-4",
@@ -7609,7 +8427,9 @@
      "common_errors_vi": "degree = bằng đại học. Nghĩa của câu: Cô ấy có bằng đại học ngành vật lý."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Cô ấy có bằng đại học ngành vật lý.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D7O5-5",
@@ -7632,7 +8452,9 @@
      "common_errors_vi": "measure = đo lường. Nghĩa của câu: Khó đo trí thông minh."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Khó đo trí thông minh.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D7O5-6",
@@ -7650,12 +8472,15 @@
      "points": 3,
      "accepted": [
       "recognise",
-      "Recognise"
+      "Recognise",
+      "recognize"
      ],
      "common_errors_vi": "recognise = nhận ra. Nghĩa của câu: Tôi không nhận ra thầy giáo cũ."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Tôi không nhận ra thầy giáo cũ.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D7O5-7",
@@ -7678,7 +8503,9 @@
      "common_errors_vi": "task = nhiệm vụ được giao. Nghĩa của câu: Nhiệm vụ của chúng tôi là thiết kế một tấm áp phích."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Nhiệm vụ của chúng tôi là thiết kế một tấm áp phích.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D7O5-8",
@@ -7701,7 +8528,9 @@
      "common_errors_vi": "subject = môn học, chủ đề. Nghĩa của câu: Toán là môn học yêu thích của tôi."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Toán là môn học yêu thích của tôi.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D7O5-9",
@@ -7724,7 +8553,9 @@
      "common_errors_vi": "get on with = tiếp tục làm việc gì. Nghĩa của câu: Hãy tiếp tục làm bài của em."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Hãy tiếp tục làm bài của em.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D7O5-10",
@@ -7747,7 +8578,9 @@
      "common_errors_vi": "cross out = gạch bỏ. Nghĩa của câu: Hãy gạch bỏ đáp án sai."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Hãy gạch bỏ đáp án sai.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D7O5-11",
@@ -7770,7 +8603,9 @@
      "common_errors_vi": "keep up with = theo kịp. Nghĩa của câu: Thật khó theo kịp cả lớp."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Thật khó theo kịp cả lớp.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D7O6-12",
@@ -7793,7 +8628,9 @@
      "common_errors_vi": "pay attention = chú ý. Nghĩa của câu: Em nên chú ý trong lớp."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Em nên chú ý trong lớp.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D7O6-13",
@@ -7816,7 +8653,9 @@
      "common_errors_vi": "make sense of = hiểu được. Nghĩa của câu: Tôi không hiểu được câu này."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Tôi không hiểu được câu này.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D7O6-14",
@@ -7839,7 +8678,9 @@
      "common_errors_vi": "see the point of = thấy được ích lợi của. Nghĩa của câu: Tôi không thấy ích lợi của quy định này."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Tôi không thấy ích lợi của quy định này.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D7O6-15",
@@ -7862,7 +8703,9 @@
      "common_errors_vi": "settle for = chấp nhận. Nghĩa của câu: Anh ấy phải chấp nhận một trường nhỏ hơn."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Anh ấy phải chấp nhận một trường nhỏ hơn.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D7O6-16",
@@ -7885,7 +8728,9 @@
      "common_errors_vi": "scholarship = học bổng. Nghĩa của câu: Cô ấy giành học bổng đi du học."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Cô ấy giành học bổng đi du học.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D7O6-17",
@@ -7908,7 +8753,9 @@
      "common_errors_vi": "solution = lời giải, giải pháp. Nghĩa của câu: Bạn tìm được lời giải cho bài này không?"
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Bạn tìm được lời giải cho bài này không?",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D7O6-18",
@@ -7931,7 +8778,9 @@
      "common_errors_vi": "revision = việc ôn tập. Nghĩa của câu: Ôn tập rất quan trọng trước kỳ thi."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Ôn tập rất quan trọng trước kỳ thi.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D7O6-19",
@@ -7949,12 +8798,15 @@
      "points": 3,
      "accepted": [
       "behaviour",
-      "Behaviour"
+      "Behaviour",
+      "behavior"
      ],
      "common_errors_vi": "behaviour = cách cư xử. Nghĩa của câu: Cách cư xử của cậu ấy trong lớp rất tốt."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Cách cư xử của cậu ấy trong lớp rất tốt.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D7O6-20",
@@ -7977,7 +8829,9 @@
      "common_errors_vi": "illiteracy = nạn mù chữ. Nghĩa của câu: Nạn mù chữ vẫn là vấn đề ở một số nước."
     }
    ],
-   "tips_vi": []
+   "tips_vi": [],
+   "situation_vi": "Nạn mù chữ vẫn là vấn đề ở một số nước.",
+   "task_vi": "Điền từ đã học vào chỗ trống"
   },
   {
    "id": "G1D8KV2-1",
