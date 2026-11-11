@@ -26,7 +26,7 @@ from app.services import podcast_script
 from app.services.grammar_text import split_source_note, usage_sections
 from app.services.grammar_tier import grammar_tier
 
-TEMPLATE_VERSION = "tpl-v3"
+TEMPLATE_VERSION = "tpl-v4"
 STORY_VERSION = "story-v1"
 
 # Gemini writes a part of at most this many vocabulary items / grammar patterns, so one
@@ -48,6 +48,8 @@ class VocabLine:
     note_vi: str | None = None
     example_en: str | None = None
     example_vi: str | None = None
+    pos: str | None = None  # N / V / A / X, shown on the word's slide
+    pron: str | None = None  # the dictionary's transcription ("/ˈhæbɪt/"), shown, never read out
 
 
 @dataclass(frozen=True)
@@ -71,6 +73,9 @@ class LessonSource:
     # positions in `notes` of the notes an exam course (KIIP) needs too: read to the end, not cut
     # short. Left out of repr on purpose, see source_signature.
     full_notes: tuple[int, ...] = field(default=(), repr=False)
+    # a sitting's lecture written by an editor (SessionSeed.lecture): slides with the lines said on
+    # each. When present it replaces the fixed template (build_authored_lecture).
+    authored: tuple[dict, ...] = ()
 
 
 def source_signature(lesson: "LessonSource") -> str:
@@ -91,7 +96,10 @@ def source_from_rows(lesson: Any, vocab_rows: Sequence[Any], grammar_rows: Seque
         title=lesson.title,
         title_en=getattr(lesson, "title_en", None),
         vocab=[
-            VocabLine(v.headword, v.meaning_vi, v.usage_note_vi, v.example_en, getattr(v, "example_vi", None))
+            VocabLine(
+                v.headword, v.meaning_vi, v.usage_note_vi, v.example_en, getattr(v, "example_vi", None),
+                getattr(v, "pos", None), getattr(v, "pron_en", None),
+            )
             for v in vocab_rows
         ],
         grammar=[
@@ -146,7 +154,7 @@ def sitting_source(lesson: Any, vocab_rows: Sequence[Any], grammar_rows: Sequenc
     # the sitting's own title usually opens with "Buổi n ·": say "buổi n" once
     rest = re.sub(r"^\s*buổi\s+\d+\s*[·:\-–—]?\s*", "", ses.get("title_vi", "") or "", flags=re.IGNORECASE).strip()
     title = f"{lesson.title}, buổi {n}: {rest}" if rest else f"{lesson.title}, buổi {n}"
-    src = replace(src, title=title, title_en=None, notes=[], full_notes=())
+    src = replace(src, title=title, title_en=None, notes=[], full_notes=(), authored=tuple(ses.get("lecture") or ()))
     return src, vr, gr
 
 
@@ -287,6 +295,7 @@ def spoken_vi(text: str) -> str:
     s = _STAR_ITALIC_RE.sub(r"\1", s)
     s = re.sub(r"(\d+)\s*[–—]\s*(\d+)", r"\1 đến \2", s)
     s = s.replace("–", "-").replace("—", "-")
+    s = re.sub(r"(\d)\s*(?:°\s*C|độ C)(?![A-Za-zÀ-ỹ])", r"\1 độ xê", s)  # "100 độ C": the lone C went to the English voice
     s = re.sub(r"\(\s*v\s*\)", "động từ, ", s, flags=re.IGNORECASE)
     s = re.sub(r"\(\s*n\s*\)", "danh từ, ", s, flags=re.IGNORECASE)
     s = re.sub(r"\(\s*adj\s*\)", "tính từ, ", s, flags=re.IGNORECASE)
@@ -483,6 +492,8 @@ def build_template_lecture(lesson: LessonSource) -> Lecture:
     title, a slide per word, a slide per grammar pattern, a slide per note, the review and the
     recap. Each line of the script says which slide it is on and what it brings onto it, so the
     screen shows a thing when the voice says it, and not before."""
+    if lesson.authored:
+        return build_authored_lecture(lesson)
     out: list[tuple[str, int, str | None]] = []  # (text, slide, show)
     slides: list[dict[str, Any]] = []
 
@@ -499,12 +510,17 @@ def build_template_lecture(lesson: LessonSource) -> Lecture:
     say(_sentence(f"Bài học {spoken_vi(lesson.title)}"), t, "title")
     if lesson.title_en:
         say(_ko_line(lesson.title_en.replace("/", ","), shadow=False), t, "title_en")
-    counts = [f"{n_v} từ vựng"] + ([f"{n_g} mẫu ngữ pháp"] if n_g else []) + ([f"{n_n} lưu ý"] if n_n else [])
-    say(_sentence(f"Bài này có {', '.join(counts)}. Mỗi từ mình đọc một lần, bạn nhắc lại theo trong quãng nghỉ"), t, "counts")
+    counts = ([f"{n_v} từ vựng"] if n_v else []) + ([f"{n_g} mẫu ngữ pháp"] if n_g else []) + ([f"{n_n} lưu ý"] if n_n else [])
+    how = "Mỗi từ mình đọc một lần, bạn nhắc lại theo trong quãng nghỉ" if n_v else "Mỗi câu ví dụ mình đọc một lần, bạn nhắc lại theo trong quãng nghỉ"
+    say(_sentence(f"Bài này có {', '.join(counts)}. {how}"), t, "counts")
 
-    # ---- vocabulary: the word, a gap to say it, its meaning
-    sec = slide("section", n=1, title="Từ vựng", count=n_v)
-    say("Phần một. Từ vựng.", sec, "title")
+    # ---- vocabulary: the word, a gap to say it, its meaning (a sitting without words has no such part)
+    # parts keep their usual numbers (words 1, patterns 2, notes 3); only a sitting with no
+    # words at all counts from its patterns
+    part = ("một", "hai", "ba") if n_v else ("", "một", "hai")
+    if n_v:
+        sec = slide("section", n=1, title="Từ vựng", count=n_v)
+        say("Phần một. Từ vựng.", sec, "title")
     for i, v in enumerate(lesson.vocab):
         w = slide(
             "word",
@@ -513,6 +529,8 @@ def build_template_lecture(lesson: LessonSource) -> Lecture:
             headword=v.headword,
             icon=word_icon(v.headword),
             meaning=v.meaning_vi,
+            pos=v.pos,
+            pron=v.pron,
             note=v.note_vi if v.note_vi and not _is_editorial(v.note_vi) else None,
             examples=[{"ko": ko, "vi": vi} for ko, vi in _examples(v)],
         )
@@ -533,8 +551,8 @@ def build_template_lecture(lesson: LessonSource) -> Lecture:
 
     # ---- grammar
     if n_g:
-        sec = slide("section", n=2, title="Ngữ pháp", count=n_g)
-        say("Phần hai. Ngữ pháp.", sec, "title")
+        sec = slide("section", n=2 if n_v else 1, title="Ngữ pháp", count=n_g)
+        say(f"Phần {part[1]}. Ngữ pháp.", sec, "title")
     shadow_lines: list[str] = []
     recap: list[dict[str, str | None]] = []
     for i, g in enumerate(lesson.grammar, 1):
@@ -580,8 +598,8 @@ def build_template_lecture(lesson: LessonSource) -> Lecture:
 
     # ---- notes
     if n_n:
-        sec = slide("section", n=3, title="Lưu ý", count=n_n)
-        say("Phần ba. Lưu ý.", sec, "title")
+        sec = slide("section", n=3 if n_v else 2, title="Lưu ý", count=n_n)
+        say(f"Phần {part[2]}. Lưu ý.", sec, "title")
         for i, (title, body) in enumerate(lesson.notes):
             ns = slide("note", title=title, body=body)
             head = _sentence(spoken_vi(title)) if title else ""
@@ -600,6 +618,85 @@ def build_template_lecture(lesson: LessonSource) -> Lecture:
 
     script = _finish("\n".join(text for text, _at, _show in out))
     return Lecture(script, _line_cues(script, out), slides)
+
+
+def build_authored_lecture(lesson: LessonSource) -> Lecture:
+    """A sitting's lecture as an editor wrote it (SessionSeed.lecture): the slides in order, each
+    with the lines said while it is up. A line is Vietnamese narration ({"say": …}) or an English
+    sentence on its own ({"en": …}; "gap": true leaves the silence to repeat it in); "show" names
+    the piece of the slide the line brings in, as in the template. Three kinds of slide are filled
+    in from the lesson so the script cannot drift from the cards: "title" (the counts), "word" (a
+    word of the sitting by its headword: meaning, part of speech, transcription, example) and
+    "recap" (the sentences said for repeating so far). A "scene" is passed through: a picture the
+    app draws ("visual") with the pieces the lines bring in."""
+    out: list[tuple[str, int, str | None]] = []
+    slides: list[dict[str, Any]] = []
+    by_word = {v.headword: v for v in lesson.vocab}
+    n_words = sum(1 for s in lesson.authored if s.get("kind") == "word")
+    word_i = 0
+    said: list[dict[str, str | None]] = []  # every English sentence said for repeating, for the recap
+
+    def say_lines(lines: list[dict], at: int) -> None:
+        for ln in lines:
+            show = ln.get("show")
+            if ln.get("en"):
+                gap = bool(ln.get("gap"))
+                out.append((_ko_line(str(ln["en"]), shadow=gap), at, show))
+                if gap and ln.get("recap", True):
+                    said.append({"ko": str(ln["en"]), "vi": ln.get("vi")})
+            else:
+                out.append((_sentence(spoken_vi(str(ln["say"]))), at, show))
+
+    for spec in lesson.authored:
+        kind = spec.get("kind")
+        lines = list(spec.get("lines") or [])
+        if kind == "title":
+            slides.append({
+                "kind": "title", "title": lesson.title, "title_en": lesson.title_en,
+                "vocab": len(lesson.vocab), "grammar": len(lesson.grammar), "notes": 0,
+                "hook": spec.get("hook"),
+            })
+            say_lines(lines, len(slides) - 1)
+        elif kind == "word":
+            v = by_word[str(spec["headword"])]
+            ex = _examples(v)
+            slides.append({
+                "kind": "word", "index": word_i, "of": n_words, "headword": v.headword, "icon": word_icon(v.headword),
+                "meaning": v.meaning_vi, "pos": v.pos, "pron": v.pron, "note": None,
+                "examples": [{"ko": ko, "vi": vi} for ko, vi in ex],
+            })
+            word_i += 1
+            at = len(slides) - 1
+            say_lines(lines, at)  # the editor's lead-in: why this word, here
+            out.append((f"{_ko_line(v.headword, shadow=True)} {_sentence(spoken_vi(v.meaning_vi))}", at, "word"))
+            for k, (ko, vi) in enumerate(ex):
+                out.append((_ko_line(ko, shadow=True), at, f"ex{k}"))
+                if vi:
+                    out.append((_sentence(spoken_vi(vi)), at, f"ex{k}_vi"))
+        elif kind == "recap":
+            slides.append({"kind": "recap", "examples": list(said)})
+            at = len(slides) - 1
+            say_lines(lines, at)
+            for k, e in enumerate(said):
+                out.append((_ko_line(str(e["ko"]), shadow=True), at, f"ex{k}"))
+        else:  # "scene", "end": drawn by the app from what the editor wrote
+            slides.append({k: v for k, v in spec.items() if k != "lines"} | ({"title": lesson.title} if kind == "end" else {}))
+            say_lines(lines, len(slides) - 1)
+    script = _finish("\n".join(text for text, _at, _show in out))
+    return Lecture(script, _line_cues(script, out), slides)
+
+
+def shadow_runs(script: str) -> list[list[int]]:
+    """[line, run] of every stretch of the script said for the learner to repeat (a target-language
+    run that ends in the gap mark), cut exactly as the voice cuts it. The app cannot work this out
+    itself for English: without Hangul it sees a line as one run."""
+    from app.services import lecture_voice
+
+    return [
+        [r.line, r.run]
+        for r in lecture_voice.split_runs(script)
+        if r.lang == lecture_voice.KO and re.search(r"(\.{2,}|…)\s*$", r.text)
+    ]
 
 
 def _finish(raw: str) -> str:

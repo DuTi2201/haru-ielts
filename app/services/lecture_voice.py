@@ -137,6 +137,11 @@ def _split_paragraph_latin(line: str) -> list[tuple[str, str]]:
     if not words:
         return [(VI, line.strip())] if line.strip() else []
     hard = [_hard_lang(m.group()) for m in words]
+    # A line with no Vietnamese letter at all and at least one word that cannot be Vietnamese is an
+    # English sentence: one voice reads all of it. Word by word, "Hoa works in a hospital" gave
+    # "Hoa" to the Vietnamese voice and the rest to the English one (a change of speaker mid-sentence).
+    if VI not in hard and KO in hard:
+        return [(KO, line.strip())]
     langs = [lang or _resolve(words, hard, i, line) for i, lang in enumerate(hard)]
     runs: list[list] = []  # [lang, start, end]
     for m, lang in zip(words, langs):

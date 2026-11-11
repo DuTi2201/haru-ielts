@@ -388,6 +388,9 @@ async def lesson_lecture_slides(
         "script": lecture.script,
         "lines": [[ln.slide, ln.show] for ln in lecture.lines],
         "slides": lecture.slides,
+        # [line, run] of every stretch said for repeating: the app's «Nói theo» cue and
+        # «Tự dừng để nói theo» follow these (it cannot tell them apart itself in English)
+        "shadow": lesson_audio.shadow_runs(lecture.script),
     }
 
 

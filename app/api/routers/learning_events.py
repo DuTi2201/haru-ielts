@@ -11,6 +11,12 @@ The app sends a few kinds of event, in small batches:
 - ``audio_rate``: the lecture speed was changed (value = the new rate)
 - ``first_try``: a practice question answered for the first time (payload: lesson_id,
   question_id; value 1 = right, 0 = wrong)
+- ``lecture_complete``: a sitting's lecture was heard to its last slide (payload: lesson_id,
+  session; value = seconds of the recording)
+- ``lecture_replay``: something on a slide was tapped to hear it again (payload: lesson_id,
+  session, step = the slide's kind)
+- ``say_score``: a read-aloud sentence was scored (payload: lesson_id, session, step = which
+  sentence; value = the accuracy score, 0-100)
 
 Nothing typed by the learner is kept: payloads carry ids and numbers only. Admins read the
 totals per lesson at GET /admin/learning-events/summary.
@@ -29,7 +35,7 @@ from app.models import LearningEvent, Profile
 
 router = APIRouter(tags=["learning-events"])
 
-EventType = Literal["session_start", "session_complete", "step_abandon", "audio_seek", "audio_rate", "first_try"]  # "chat_done" is filed by /me/chats
+EventType = Literal["session_start", "session_complete", "step_abandon", "audio_seek", "audio_rate", "first_try", "lecture_complete", "lecture_replay", "say_score"]  # "chat_done" is filed by /me/chats
 SKILL_OF: dict[str, str] = {
     "session_start": "lesson",
     "session_complete": "lesson",
@@ -37,6 +43,9 @@ SKILL_OF: dict[str, str] = {
     "audio_seek": "lecture",
     "audio_rate": "lecture",
     "first_try": "practice",
+    "lecture_complete": "lecture",
+    "lecture_replay": "lecture",
+    "say_score": "speaking",
 }
 # payload keys kept, and how long a text value may be (ids only: nothing the learner wrote)
 PAYLOAD_KEYS = {"lesson_id", "session", "of", "step", "from_s", "to_s", "chapter", "question_id", "mode"}

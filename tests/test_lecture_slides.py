@@ -62,7 +62,8 @@ class SlideTests(unittest.TestCase):
                 if cue.show is not None:
                     self.assertIn(cue.show, shows_of(lec.slides[cue.slide]), (r.seed.slug, cue))
             n += 1
-        self.assertEqual(n, 42)
+        self.assertEqual(n, sum(1 for r in BUNDLE.lessons if r.seed.vocab or r.seed.grammar))  # every lesson with a lecture (B1 and G1)
+        self.assertGreaterEqual(n, 42)
 
     def test_a_word_slide_comes_in_with_its_word_and_its_meaning_follows_the_gap(self):
         r = BUNDLE.lessons[0]

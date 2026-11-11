@@ -21,6 +21,7 @@ import entry_test as ET  # noqa: E402
 import days56 as D56  # noqa: E402
 from day7 import OPTIONAL as OPT7  # noqa: E402
 import day89 as D89  # noqa: E402
+import lecture_d1 as L1  # noqa: E402
 from assoc import ASSOC  # noqa: E402
 import re  # noqa: E402
 
@@ -169,6 +170,13 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
 
     vocab = [{"headword": w["head"], "pos": w["pos"], "meaning_vi": w["meaning"], "example_en": w["ex"][0], "example_vi": w["ex"][1],
               "family": "Từ của ngày", "priority": "core", "source": SOURCE} for w in d["words"]]
+    if n == 1:  # transcriptions checked against the dictionary entry (lecture_d1.PRON); none is typed from memory
+        for v in vocab:
+            if v["headword"] in L1.PRON:
+                v["pron"] = L1.PRON[v["headword"]]
+                v["source"] += "; phiên âm: Oxford Advanced Learner's Dictionary (BrE)"
+        for e in bank["writing"]:
+            e["rubric"] = L1.RUBRIC
     grammar = []
     for c in d["cards"]:
         use = c["use"] + (f"\nLời thầy: «{c['quote']}»" if c["quote"] else "")
@@ -200,6 +208,8 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
             "grammar": [patterns[c] for c in g],
             "check": checks,
         })
+    if n == 1:
+        sessions = L1.reshape(sessions, [e["id"] for k in bank for e in bank[k]])
     chunk: list[str] = []
     names: list[str] = []
     book_sittings: list[tuple[list[str], list[str]]] = []
@@ -217,7 +227,7 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
             "check": ids,
         })
     book_body = "\n".join(
-        f"• 📖 {b['book']}, trang {b['pages']}: " + (f"bài {b['task']} ({b['items']} câu, khoảng {b['minutes']} phút)" if b["items"] else f"{b['task']} (khoảng {b['minutes']} phút)")
+        f"• {b['book']}, trang {b['pages']}: " + (f"bài {b['task']} ({b['items']} câu, khoảng {b['minutes']} phút)" if b["items"] else f"{b['task']} (khoảng {b['minutes']} phút)")
         for b in d["book"])
     traps = [c["trap"] for c in d["cards"] if c["trap"] and len(c["trap"]) <= 230 and c["trap"].count("`") % 2 == 0]
     lesson = {
@@ -226,7 +236,7 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
         "summary": f"{d['goal']} Thẻ: {'; '.join(p.split(' · ')[-1] for p in patterns)}.",
         "vocab": vocab, "grammar": grammar,
         "notes": [
-            {"title": "Mục tiêu của ngày", "body": f"• 🎯 {d['goal']}", "kind": "goal"},
+            {"title": "Mục tiêu của ngày", "body": f"• {d['goal']}", "kind": "goal"},
             {"title": "Bài của sách nằm trong app", "body": book_body + "\n• Các bài này đã có sẵn trong app, ở các buổi \"Bài trong sách\" cuối ngày, kèm đáp án của sách và lời giải thích từng câu. Nếu có sách giấy, bạn có thể làm trên sách trước rồi chấm lại trong app. Sau khi học thẻ, với mỗi câu sai hãy tự nói lại câu đó theo ý muốn nói.", "kind": "language"},
             {"title": "Dùng ở đâu trong IELTS", "body": d["ielts"], "kind": "language"},
         ],
@@ -416,13 +426,13 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
             sessions.append({"title_vi": f"Ôn tập · từ Ngày {', '.join(str(x) for x in prev)} ({k // 20 + 1})"[:70], "can_do_vi": "Sau buổi này bạn nhớ lại các từ đã học ở những ngày trước mà không nhìn đáp án.",
                              "use_vi": "Ôn cách quãng: gặp lại từ sau vài ngày giúp nhớ lâu hơn nhiều so với học dồn.", "check": [e["id"] for e in part]})
     add_packs(extra, "Mở rộng không bắt buộc", "Cụm động từ và thành ngữ, chỉ cần nhận ra khi đọc và nghe: ")
-    book_body = "\n".join(f"• 📖 {b[0]}, trang {b[1]}: bài {b[2]} ({b[3]} câu, khoảng {b[4]} phút)" for b in d["book"])
+    book_body = "\n".join(f"• {b[0]}, trang {b[1]}: bài {b[2]} ({b[3]} câu, khoảng {b[4]} phút)" for b in d["book"])
     lesson = {
         "slug": f"g1-d{n}-{B.slugify(d['title'])}"[:60].rstrip("-"),
         "title": f"G1 · Ngày {n} · {d['title_vi']}"[:120], "title_en": d["title"], "topic": TOPIC, "track": "beginner", "level": 4, "sort_order": 100 + n,
         "summary": d["goal"], "vocab": vocab, "grammar": [],
         "notes": [
-            {"title": "Mục tiêu của ngày", "body": f"• 🎯 {d['goal']}", "kind": "goal"},
+            {"title": "Mục tiêu của ngày", "body": f"• {d['goal']}", "kind": "goal"},
             {"title": "Bài của sách nằm trong app", "body": book_body + "\n• Các bài này có sẵn trong app kèm đáp án của sách và lời giải thích từng câu.", "kind": "language"},
             {"title": "Cách học từ của thầy", "body": "• Học từ C1 bằng một từ B2 đồng nghĩa, không học nghĩa tiếng Việt dài.\n• Chọn 5 đến 10 từ bạn thích nhất rồi gõ câu về chính mình bằng bàn phím tiếng Anh.", "kind": "language"},
         ],

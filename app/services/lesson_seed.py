@@ -642,8 +642,9 @@ class VocabSeed(_M):
     @field_validator("pron")
     @classmethod
     def _pron_is_hangul_in_brackets(cls, v: str | None) -> str | None:
-        if v is not None and not re.fullmatch(r"\[[가-힣 /]+\]", v):
-            raise ValueError(f"pron must be Hangul in brackets, like [학쌩]: {v!r}")
+        # Korean: Hangul in brackets. English: the dictionary's IPA between slashes ("/ˈhæbɪt/").
+        if v is not None and not re.fullmatch(r"\[[가-힣 /]+\]|/[^/\s][^/]{0,60}/", v):
+            raise ValueError(f"pron must be Hangul in brackets ([학쌩]) or IPA between slashes (/ˈhæbɪt/): {v!r}")
         return v
 
 
@@ -999,6 +1000,22 @@ class SessionSeed(_M):
     grammar: list[str] = []  # `pattern` of the lesson's cards, in the order they are taught
     check: list[str] = []  # ids of the lesson's exercises that close the sitting (answer what was just learnt)
     situation: SituationSeed | None = None  # a short dialogue situation (see SituationSeed)
+    # the sitting's lecture, written by an editor (lesson_audio.build_authored_lecture): slides in
+    # order, each {"kind": title|word|scene|recap|end, …, "lines": [{"say": …} | {"en": …, "gap": bool}]}
+    lecture: list[dict] | None = None
+
+    @model_validator(mode="after")
+    def _lecture_is_sound(self) -> "SessionSeed":
+        words = [s.get("headword") for s in self.lecture or [] if s.get("kind") == "word"]
+        for s in self.lecture or []:
+            if s.get("kind") not in ("title", "word", "scene", "recap", "end"):
+                raise ValueError(f"{self.title_vi}: unknown lecture slide kind {s.get('kind')!r}")
+            for ln in s.get("lines") or []:
+                if bool(ln.get("say")) == bool(ln.get("en")):
+                    raise ValueError(f"{self.title_vi}: a lecture line is either 'say' or 'en': {ln}")
+        if self.lecture is not None and sorted(words) != sorted(self.vocab):
+            raise ValueError(f"{self.title_vi}: the lecture must teach exactly the sitting's words")
+        return self
 
     @model_validator(mode="after")
     def _not_empty(self) -> "SessionSeed":
