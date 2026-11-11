@@ -442,9 +442,6 @@
        "show": "signals"
       },
       {
-       "say": "Xem câu này."
-      },
-      {
        "en": "I visit my parents twice a week.",
        "vi": "Tôi về thăm bố mẹ hai lần một tuần.",
        "gap": true,
@@ -661,16 +658,13 @@
        "show": "persons"
       },
       {
-       "say": "Ví dụ."
-      },
-      {
        "en": "Minh cycles to school.",
        "vi": "Minh đạp xe đi học.",
        "gap": true,
        "show": "aff"
       },
       {
-       "say": "Minh là một người, tức là he, nên cycle thành cycles. Không phải lúc nào cũng chỉ thêm s: watch thành watches, study thành studies, và have thành has.",
+       "say": "Minh là he, nên cycle thành cycles. Không phải lúc nào cũng chỉ thêm s: watch thành watches, study thành studies, have thành has.",
        "show": "spelling"
       },
       {
