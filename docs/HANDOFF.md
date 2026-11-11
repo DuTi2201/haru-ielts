@@ -282,3 +282,10 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
 - days.txt: thẻ 1 công thức bằng ô ghép; thẻ 2 dùng prep cho -s/-es và ba cách đọc; thẻ 5 bốn kiểu câu hỏi + bảng Sai/Đúng; thẻ 6 bong bóng câu hỏi + trục thời gian bốn thì.
 - Thẻ 7 (mở rộng) cũng đồ họa hóa: cặp Bình thường / Nhấn mạnh bằng ô công thức, thẻ biểu tượng cho lịch cố định (icon line cửa hàng, xe buýt, trường học), khung "Sắp học".
 - `prep: @store|@bus|@school | …` hiện icon lucide trong huy hiệu thay cho emoji (BADGE_ICONS trong Rich.tsx).
+
+## P2 (Day 1 grammar)
+- GrammarCards: sau Đã hiểu / Chưa chắc hiện "Đã ghi · ôn lại hôm nay / ngày mai / sau N ngày" lấy từ `due_at` của POST /progress/reviews (hàm dueLabel).
+- `prep:` có trường thứ 4 tùy chọn = chữ đọc to; nút loa dùng speakKorean (giọng thiết bị). Thẻ 2 có nút nghe cho -s/-es và /s/ /z/ /ɪz/.
+- Chữ dưới 12px trong GrammarCards/Rich nâng lên text-xs. Token ink-2 đã ≥ 4.5:1 theo styles.css.
+- Không làm: cột hẹp trên màn rộng (LessonShell đã lg:max-w-960, ảnh chụp là cửa sổ hẹp); TabBar nổi che nội dung khi cuộn là thiết kế, Shell đã chừa chỗ ở đáy.
+- Chưa làm: axe tự động và kiểm tra bằng mắt trên trang thật (sandbox không đăng nhập được).
