@@ -1,6 +1,6 @@
 # Bài 44 (G1 · Ngày 1 · Hiện tại đơn): rà soát kiến thức, 2026-11-11
 
-Phạm vi: 7 thẻ ngữ pháp, 28 từ vựng, 83 bài tập của Ngày 1 (xếp câu, điền, chọn, sách, đề viết), nghe chép, hai buổi giảng.
+Phạm vi: 7 thẻ ngữ pháp, 24 từ vựng, 108 bài tập của Ngày 1 (xếp câu, điền, chọn, sách, đề viết), nghe chép, hai buổi giảng.
 Cách làm: đọc từng mục trong `scripts/g1/days.txt`, `lecture_d1.py`, `book_items.py`, `writing_scaffold.json`, và các file seed đã build; đối chiếu quy tắc, ví dụ, đáp án đúng, đáp án nhiễu và đáp án chấp nhận.
 
 ## Đã sửa (có lỗi thật)
@@ -27,7 +27,7 @@ Cách làm: đọc từng mục trong `scripts/g1/days.txt`, `lecture_d1.py`, `b
 
 ## Đã kiểm, đúng
 
-Công thức khẳng định/phủ định/câu hỏi, quy tắc -s/-es/-ies, ba cách đọc -s, bảng tần suất và vị trí, giới từ at/on/in, bảng lỗi người Việt, hỏi thì này đáp thì khác, do/does nhấn mạnh, lịch cố định; toàn bộ 28 từ vựng (loại từ, nghĩa, câu ví dụ); đáp án và lời giải của 15 bài chọn, 8 bài nói đúng ý, 7 bài xếp câu, 5 bài gõ, 10 + 8 bài sách (KA, KC1), 12 + 16 bài chia động từ (KC2, KCA), 15 bài tần suất (KCB), phiên âm bốn từ.
+Công thức khẳng định/phủ định/câu hỏi, quy tắc -s/-es/-ies, ba cách đọc -s, bảng tần suất và vị trí, giới từ at/on/in, bảng lỗi người Việt, hỏi thì này đáp thì khác, do/does nhấn mạnh, lịch cố định; toàn bộ 24 từ vựng (loại từ, nghĩa, câu ví dụ); đáp án và lời giải của 15 bài chọn, 8 bài nói đúng ý, 7 bài xếp câu, 5 bài gõ, 10 + 8 bài sách (KA, KC1), 12 + 16 bài chia động từ (KC2, KCA), 15 bài tần suất (KCB), phiên âm bốn từ.
 
 ## Chưa kiểm chứng được (cần sách giấy hoặc người nghe)
 
