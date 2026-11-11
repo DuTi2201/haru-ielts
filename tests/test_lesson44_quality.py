@@ -189,3 +189,13 @@ def test_only_short_english_sentences_are_scored():
         azure_pron.check_reference("…")
     with pytest.raises(ValueError):
         azure_pron.check_reference("word " * 41)
+
+
+def test_day1_has_seven_cards_in_four_steps_each_with_one_check():
+    pats = [c.pattern for c in DAY1.grammar]
+    assert len(pats) == 7
+    assert pats[0].endswith("công thức") and "-s / -es" in pats[1] and pats[2].endswith("cách dùng")
+    for c in DAY1.grammar:
+        assert c.check and len(c.check.options) >= 3, c.pattern  # the right option first, at least two wrong ones
+    # the formula must be on the card itself (a table), not only in the lecture
+    assert "| he / she / it |" in DAY1.grammar[0].usage_context_vi
