@@ -370,7 +370,7 @@ async def lesson_lecture_slides(
         (await db.execute(select(VocabItem).where(VocabItem.lesson_id == lesson_id).order_by(VocabItem.id))).scalars().all()
     )
     grammar_rows = (
-        (await db.execute(select(GrammarPoint).where(GrammarPoint.lesson_id == lesson_id).order_by(GrammarPoint.id)))
+        (await db.execute(select(GrammarPoint).where(GrammarPoint.lesson_id == lesson_id).order_by(GrammarPoint.position, GrammarPoint.id)))
         .scalars()
         .all()
     )
@@ -416,7 +416,7 @@ async def request_lesson_podcast(
         (await db.execute(select(VocabItem).where(VocabItem.lesson_id == lesson_id).order_by(VocabItem.id))).scalars().all()
     )
     grammar_rows = (
-        (await db.execute(select(GrammarPoint).where(GrammarPoint.lesson_id == lesson_id).order_by(GrammarPoint.id)))
+        (await db.execute(select(GrammarPoint).where(GrammarPoint.lesson_id == lesson_id).order_by(GrammarPoint.position, GrammarPoint.id)))
         .scalars()
         .all()
     )
@@ -469,7 +469,7 @@ async def lesson_lecture_status(
         (await db.execute(select(VocabItem).where(VocabItem.lesson_id == lesson_id).order_by(VocabItem.id))).scalars().all()
     )
     grammar_rows = (
-        (await db.execute(select(GrammarPoint).where(GrammarPoint.lesson_id == lesson_id).order_by(GrammarPoint.id)))
+        (await db.execute(select(GrammarPoint).where(GrammarPoint.lesson_id == lesson_id).order_by(GrammarPoint.position, GrammarPoint.id)))
         .scalars()
         .all()
     )

@@ -1704,10 +1704,11 @@ def sync_lessons(db: Any, bundle: SeedBundle | None = None) -> dict[str, str]:
 
         # ---- grammar: by pattern
         have_g = {g.pattern: g for g in db.execute(select(GrammarPoint).where(GrammarPoint.lesson_id == lesson.id)).scalars()}
-        for item in seed.grammar:
+        for pos, item in enumerate(seed.grammar):
             row = have_g.pop(item.pattern, None) or GrammarPoint(lesson_id=lesson.id, pattern=item.pattern, level=seed.level)
             row.meaning_vi = item.meaning_vi
             row.level = seed.level
+            row.position = pos
             row.usage_context_vi = item.usage_context_vi
             row.note_vi = item.note_vi
             row.exam_tip_vi = item.exam_tip_vi

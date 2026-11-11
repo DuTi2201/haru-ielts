@@ -347,20 +347,6 @@ SITTING_2 = [
         {"en": "He does work hard.", "vi": "Anh ấy có làm việc chăm chỉ mà.", "gap": True, "show": "right"},
         {"say": "Sau do và does, động từ luôn ở dạng nguyên thể.", "show": "rule"},
     ]},
-    {"kind": "scene", "visual": "ref_table", "eyebrow": "So với hiện tại tiếp diễn", "title": "Khi nào đổi sang tiếp diễn?",
-     "data": {"cols": ["Tiếp diễn dùng để", "Ví dụ"], "rows": COMPARE,
-              "rule": "Đơn: lặp lại, trạng thái, sự thật. Tiếp diễn: đang xảy ra, tạm thời, đang đổi, than phiền với always."}, "lines": [
-        {"say": "Cuối cùng, so nhanh với hiện tại tiếp diễn, là thì của ngày mai. Tiếp diễn dùng khi bạn muốn nói việc đang xảy ra."},
-        {"en": "I'm waiting for my friends.", "vi": "Tôi đang đợi bạn.", "gap": True, "show": "k1"},
-        {"say": "Hoặc một tình huống tạm thời. Anh họ tôi bình thường không sống ở Thái Lan; chỉ lúc này thôi.", "show": "k2"},
-        {"en": "My cousin is living in Thailand at the moment.", "vi": "Anh họ tôi đang sống ở Thái Lan.", "gap": True},
-        {"say": "Hoặc một xu hướng đang thay đổi.", "show": "k3"},
-        {"en": "The price of petrol is rising dramatically.", "vi": "Giá xăng đang tăng mạnh.", "gap": True},
-        {"say": "Và một trường hợp đặc biệt: tiếp diễn đi với always khi người nói than phiền, vì việc lặp lại quá mức làm họ bực.", "show": "k4"},
-        {"en": "My sister is always playing her music so loudly!", "vi": "Chị tôi lúc nào cũng bật nhạc ầm ĩ.", "gap": True},
-        {"say": "Cùng một câu hỏi, where does your sister live now, bạn có thể đáp she lives in Thailand, hoặc she is living in Thailand. Câu đầu nói như điều ổn định, câu sau nói tạm thời. Chọn theo điều bạn muốn nói."},
-        {"say": "Đơn cho việc lặp lại, trạng thái, sự thật. Tiếp diễn cho việc đang xảy ra, tạm thời, đang đổi, và than phiền với always.", "show": "rule"},
-    ]},
     {"kind": "recap", "lines": [
         {"say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
     ]},
@@ -398,7 +384,7 @@ def reshape(sessions: list[dict], exercise_ids: list[str], card_of: dict[str, in
     moved = [i for i in allcheck if i not in quiz]
     s1["lecture"], s2["lecture"] = SITTING_1, SITTING_2
     s1["title_vi"] = "Buổi 1 · công thức, cách dùng, tần suất và thời gian"
-    s2["title_vi"] = "Buổi 2 · câu hỏi, hỏi thì này đáp thì khác, nhấn mạnh"
+    s2["title_vi"] = "Buổi 2 · câu hỏi, lỗi thường gặp, hỏi thì này đáp thì khác"
     s3 = {
         "title_vi": "Buổi 3 · từ vựng và vận dụng: nghe chép, nói, viết",
         "can_do_vi": "Sau buổi này bạn biết thêm các từ của sách (tần suất, học thuật, năng lượng), tự xếp và gõ được câu hiện tại đơn, nghe chép được ba câu và viết câu về chính mình.",

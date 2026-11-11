@@ -133,7 +133,7 @@ async def _grammar_links(
                 GrammarPoint.lesson_id, Lesson.title,
             )
             .join(Lesson, Lesson.id == GrammarPoint.lesson_id)
-            .order_by(*_LESSON_ORDER, GrammarPoint.id)
+            .order_by(*_LESSON_ORDER, GrammarPoint.position, GrammarPoint.id)
         )
     ).all()
     place: dict[int, int] = {}
@@ -159,7 +159,7 @@ async def _revisit_refs(db: AsyncSession, wanted: Sequence[GrammarPoint]) -> dic
             select(GrammarPoint.pattern, GrammarPoint.lesson_id, GrammarPoint.importance, Lesson.title)
             .join(Lesson, Lesson.id == GrammarPoint.lesson_id)
             .where(GrammarPoint.pattern.in_(set(targets.values())))
-            .order_by(*_LESSON_ORDER, GrammarPoint.id)
+            .order_by(*_LESSON_ORDER, GrammarPoint.position, GrammarPoint.id)
         )
     ).all()
     first: dict[str, GrammarRefOut] = {}
@@ -614,7 +614,7 @@ async def get_lesson(
         .all()
     )
     grammar = (
-        (await db.execute(select(GrammarPoint).where(GrammarPoint.lesson_id == lesson.id).order_by(GrammarPoint.id)))
+        (await db.execute(select(GrammarPoint).where(GrammarPoint.lesson_id == lesson.id).order_by(GrammarPoint.position, GrammarPoint.id)))
         .scalars()
         .all()
     )

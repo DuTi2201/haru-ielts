@@ -729,6 +729,80 @@
    }
   },
   {
+   "id": "G1D1Q14",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D1Q14",
+     "options": [
+      {
+       "id": "1",
+       "text": "doesn't likes"
+      },
+      {
+       "id": "2",
+       "text": "doesn't like"
+      },
+      {
+       "id": "3",
+       "text": "don't likes"
+      },
+      {
+       "id": "4",
+       "text": "isn't like"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Phủ định ngôi thứ ba: `doesn't` + nguyên thể, không thêm -s.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "My sister ( ) jazz."
+   }
+  },
+  {
+   "id": "G1D1Q15",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D1Q15",
+     "options": [
+      {
+       "id": "1",
+       "text": "catchs"
+      },
+      {
+       "id": "2",
+       "text": "catch"
+      },
+      {
+       "id": "3",
+       "text": "is catch"
+      },
+      {
+       "id": "4",
+       "text": "catches"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Tận cùng -ch thì thêm -es: catch → catches.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "She ( ) the train to work every day."
+   }
+  },
+  {
    "id": "G1D1KA-1",
    "skill": "reading",
    "type": "read_cloze",

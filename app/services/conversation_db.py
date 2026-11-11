@@ -154,7 +154,7 @@ async def load_context(
     if lesson_ids:
         vocab = (await db.execute(select(VocabItem).where(VocabItem.lesson_id.in_(lesson_ids)).order_by(VocabItem.id))).scalars().all()
         grammar = (
-            await db.execute(select(GrammarPoint).where(GrammarPoint.lesson_id.in_(lesson_ids)).order_by(GrammarPoint.id))
+            await db.execute(select(GrammarPoint).where(GrammarPoint.lesson_id.in_(lesson_ids)).order_by(GrammarPoint.position, GrammarPoint.id))
         ).scalars().all()
 
         def bucket(kind: str, item_id: int):

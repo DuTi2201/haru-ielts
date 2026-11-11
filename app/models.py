@@ -576,6 +576,9 @@ class GrammarPoint(Base):
     revisits: Mapped[str | None] = mapped_column(String(160), nullable=True)
     # "must" (Bắt buộc) | "normal" (Bổ trợ); NULL on an extension card, which carries use_level
     importance: Mapped[str | None] = mapped_column(String(8), nullable=True)
+    # The card's place in its lesson as the author ordered it (0-based). Cards are shown by
+    # (position, id): `id` alone put old seed rows ahead of cards added later.
+    position: Mapped[int] = mapped_column(SmallInteger, nullable=False, server_default="0", default=0)
     import_item_id: Mapped[uuid.UUID | None] = mapped_column(UUID(as_uuid=True), nullable=True)
 
 

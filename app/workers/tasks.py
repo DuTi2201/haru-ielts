@@ -375,7 +375,7 @@ def generate_content_podcast(
                     .all()
                 )
                 grammar_rows = (
-                    db.execute(select(GrammarPoint).where(GrammarPoint.lesson_id == lesson.id).order_by(GrammarPoint.id))
+                    db.execute(select(GrammarPoint).where(GrammarPoint.lesson_id == lesson.id).order_by(GrammarPoint.position, GrammarPoint.id))
                     .scalars()
                     .all()
                 )

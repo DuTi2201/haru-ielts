@@ -89,7 +89,7 @@ def _grammar_query(ids: list[int]):
     return (
         select(GrammarPoint.lesson_id, GrammarPoint.pattern)
         .where(GrammarPoint.lesson_id.in_(ids))
-        .order_by(GrammarPoint.id)
+        .order_by(GrammarPoint.position, GrammarPoint.id)
     )
 
 

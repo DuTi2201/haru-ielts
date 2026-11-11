@@ -223,7 +223,7 @@ async def course(db: AsyncSession) -> list[CourseLesson]:
         if lid is not None:
             vocab[lid].append(vid)
     grammar: dict[int, list[int]] = defaultdict(list)
-    for lid, gid in (await db.execute(select(GrammarPoint.lesson_id, GrammarPoint.id).order_by(GrammarPoint.id))).all():
+    for lid, gid in (await db.execute(select(GrammarPoint.lesson_id, GrammarPoint.id).order_by(GrammarPoint.position, GrammarPoint.id))).all():
         if lid is not None:
             grammar[lid].append(gid)
     out: list[CourseLesson] = []
