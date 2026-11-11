@@ -242,3 +242,13 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
 - Exercises: G65 C1+C2 moved from day 2 to day 1; added C1&C2 U1 ex A (16) and B (15, time expressions), key p.281; 8 own B2-level items on adverb position/questions/uses. Book sittings are now 4.
 - Lectures: length gate lifted to 15.5 min (S1 15.3, S2 8.3); new scenes `ref_table` and `fix_pairs` (frontend LectureScenes.tsx). Lecture quoted words unchanged (2 verbatim quotes).
 - Not verified: audio actually heard after regeneration; visual check of the new scenes on /preview/lecture (preview JSON on VM is stale, not in git).
+
+## 2026-11-11 (night) — Lesson 44 Grammar tab: UI/UX + pedagogy review (no code changed yet)
+- Two independent reviewers (IELTS teacher/linguist A, senior product+UI/UX B), 2 rounds of cross-critique. Raw reports: `docs/review/lesson44-grammar-ui/{A1,A2,B1,B2}.md`. Final synthesis is a Claude Doc (see chat).
+- Uses table already follows the teacher's 5 merged groups (commit "uses table follows the teacher's five merged groups"); lecture places it after Experiment 1.
+- VERIFIED root cause of wrong card order: `content.grammar_point` for lesson 44 has ids 88–90 (old seed: "coi là thật", "hỏi thì này", "do/does") and 107–111 (new seed). Seed upserts by `pattern`, keeps old ids; API (`content.py` ~617) and `feathers.py` (~92-96, 226) order by `id`; no position column. Fix = add `position` column (migration) + `ORDER BY position, id`; rerunning seed does NOT fix it.
+- Data risk: seed deletes ItemState/ErrorLog/GrammarCompetency of cards that are renamed/merged/moved (`lesson_seed.py` ~1728-1732).
+- Decided direction (pending user go-ahead): 8 cards → 7 (6 core + 1 extension), 4 steps (Cấu tạo 2, Khi nào dùng 2, Hỏi & đáp 2, Mở rộng 1). Formula always open (drop WhyBox hiding it), `~~` → <del> in Rich.tsx INLINE, TabBar bottom padding, 1 retrieval question per card gating "Đã hiểu".
+- Priorities: P0 ≈3.5d (formula open, ~~, position col, bottom padding, split card-7 examples), P1 ≈6d (merge/move cards, frequency card trim, error table, topic step chips), P2 ≈6–8d (SRS-linked quick check, frequency scale, -s/-es audio, type scale + axe).
+- Open decisions for the user: accept losing ItemState for changed cards vs migration (+1–2d); 7 vs 6 cards; strictness of retrieval vs 15-min sitting.
+- Not verified: live page not opened by agents; no contrast measurement; TTS reading of /ɪz/ untested.
