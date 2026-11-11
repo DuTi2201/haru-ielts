@@ -235,3 +235,10 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
   git (stale in the repo). Tests run on the VM: `docker compose … run --rm --no-deps -v …/tests:/srv/tests -v …/scripts:/srv/scripts
   -v …/app:/srv/app api sh -c "pip install pytest; python -m pytest …"` (workdir is `/srv`; the image has no pytest and the
   local sandbox has no dependencies). 135 pass in the five lecture test files.
+
+## 2026-11-11 (night) — Lesson 44 round 3: content follows the books
+- Grammar of G1 D1 rewritten in the books' shape (OCR of Destination B2 U1 pp.6-7, IELTS Grammar 6.5+ U1 pp.2-3, C1&C2 U1): 8 cards = formula + -s/-es spelling, uses table (5 of B2 + 3 of G65), frequency adverbs + position + time phrases (at/on/in), subjective truth, question forms + 7 common errors, four answers to one question, emphatic do/does, quick contrast with present continuous. Teacher's angles kept but condensed.
+- Vocabulary 6 -> 24 words (sitting 1: 10, sitting 2: emphasise, sitting 3: 13 from the books' own texts). pos uses X for adverbs/phrases (schema allows N/V/A/X only).
+- Exercises: G65 C1+C2 moved from day 2 to day 1; added C1&C2 U1 ex A (16) and B (15, time expressions), key p.281; 8 own B2-level items on adverb position/questions/uses. Book sittings are now 4.
+- Lectures: length gate lifted to 15.5 min (S1 15.3, S2 8.3); new scenes `ref_table` and `fix_pairs` (frontend LectureScenes.tsx). Lecture quoted words unchanged (2 verbatim quotes).
+- Not verified: audio actually heard after regeneration; visual check of the new scenes on /preview/lecture (preview JSON on VM is stale, not in git).
