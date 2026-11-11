@@ -270,7 +270,7 @@ COMPARE = [
 SITTING_2 = [
     {"kind": "title", "hook": "Hỏi sai ở đâu, và hỏi thì nào có phải đáp thì nấy?", "lines": [
         {"say": "Buổi hai: hỏi sai ở đâu, và hỏi thì nào có phải đáp thì nấy?", "show": "hook"},
-        {"say": "Buổi này có bốn việc. Một là sửa các lỗi hay gặp khi đặt câu hỏi. Hai là bỏ thói quen hỏi gì đáp nấy. Ba là một cách nhấn mạnh rất hay dùng khi nói. Bốn là so nhanh với hiện tại tiếp diễn."},
+        {"say": "Buổi này có bốn việc. Một là sửa các lỗi hay gặp khi đặt câu hỏi. Hai là bỏ thói quen hỏi gì đáp nấy. Ba là một cách nhấn mạnh rất hay dùng khi nói. Bốn là nhìn trước ngày hai, khi ta học hiện tại tiếp diễn."},
     ]},
     {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Lỗi thường gặp khi hỏi", "title": "Bảy lỗi, bảy cách sửa",
      "data": {"rows": ERRORS,
