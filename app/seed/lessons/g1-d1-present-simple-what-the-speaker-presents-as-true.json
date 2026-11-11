@@ -274,11 +274,11 @@
      },
      "lines": [
       {
-       "say": "Mở sách Destination B2, trang 6. Sách chia hiện tại đơn thành năm cách dùng. Mình gọi đó là năm cái hộp.",
+       "say": "Mở sách Destination B2, trang 6. Sách chia hiện tại đơn thành năm cách dùng. Gọi đó là năm cái hộp.",
        "show": "boxes"
       },
       {
-       "say": "Trên nắp mỗi hộp có một chữ. Mình học năm chữ đó trước. Mỗi chữ mình đọc một lần, bạn nhắc lại trong quãng nghỉ."
+       "say": "Trên nắp mỗi hộp có một chữ. Trước hết, học năm chữ đó. Mỗi chữ đọc một lần, bạn nhắc lại trong quãng nghỉ."
       }
      ]
     },
@@ -821,7 +821,7 @@
      "kind": "recap",
      "lines": [
       {
-       "say": "Mình nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
        "show": "title"
       }
      ]

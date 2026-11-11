@@ -515,10 +515,12 @@ def build_template_lecture(lesson: LessonSource) -> Lecture:
     say(_sentence(f"Bài này có {', '.join(counts)}. {how}"), t, "counts")
 
     # ---- vocabulary: the word, a gap to say it, its meaning (a sitting without words has no such part)
-    part = iter(("một", "hai", "ba"))
+    # parts keep their usual numbers (words 1, patterns 2, notes 3); only a sitting with no
+    # words at all counts from its patterns
+    part = ("một", "hai", "ba") if n_v else ("", "một", "hai")
     if n_v:
         sec = slide("section", n=1, title="Từ vựng", count=n_v)
-        say(f"Phần {next(part)}. Từ vựng.", sec, "title")
+        say("Phần một. Từ vựng.", sec, "title")
     for i, v in enumerate(lesson.vocab):
         w = slide(
             "word",
@@ -550,7 +552,7 @@ def build_template_lecture(lesson: LessonSource) -> Lecture:
     # ---- grammar
     if n_g:
         sec = slide("section", n=2 if n_v else 1, title="Ngữ pháp", count=n_g)
-        say(f"Phần {next(part)}. Ngữ pháp.", sec, "title")
+        say(f"Phần {part[1]}. Ngữ pháp.", sec, "title")
     shadow_lines: list[str] = []
     recap: list[dict[str, str | None]] = []
     for i, g in enumerate(lesson.grammar, 1):
@@ -596,8 +598,8 @@ def build_template_lecture(lesson: LessonSource) -> Lecture:
 
     # ---- notes
     if n_n:
-        sec = slide("section", n=1 + bool(n_v) + bool(n_g), title="Lưu ý", count=n_n)
-        say(f"Phần {next(part)}. Lưu ý.", sec, "title")
+        sec = slide("section", n=3 if n_v else 2, title="Lưu ý", count=n_n)
+        say(f"Phần {part[2]}. Lưu ý.", sec, "title")
         for i, (title, body) in enumerate(lesson.notes):
             ns = slide("note", title=title, body=body)
             head = _sentence(spoken_vi(title)) if title else ""

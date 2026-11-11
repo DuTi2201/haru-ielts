@@ -39,8 +39,8 @@ SITTING_1 = [
     ]},
     {"kind": "scene", "visual": "five_boxes", "eyebrow": "Destination B2 · trang 6", "title": "Năm cái hộp của sách",
      "data": {"boxes": BOXES, "sentence": None}, "lines": [
-        {"say": "Mở sách Destination B2, trang 6. Sách chia hiện tại đơn thành năm cách dùng. Mình gọi đó là năm cái hộp.", "show": "boxes"},
-        {"say": "Trên nắp mỗi hộp có một chữ. Mình học năm chữ đó trước. Mỗi chữ mình đọc một lần, bạn nhắc lại trong quãng nghỉ."},
+        {"say": "Mở sách Destination B2, trang 6. Sách chia hiện tại đơn thành năm cách dùng. Gọi đó là năm cái hộp.", "show": "boxes"},
+        {"say": "Trên nắp mỗi hộp có một chữ. Trước hết, học năm chữ đó. Mỗi chữ đọc một lần, bạn nhắc lại trong quãng nghỉ."},
     ]},
     {"kind": "word", "headword": "habit", "lines": [{"say": "Hộp thứ nhất."}]},
     {"kind": "word", "headword": "frequency", "lines": [{"say": "Hộp thứ hai."}]},
@@ -162,7 +162,7 @@ SITTING_2 = [
         {"say": "Sau do và does, động từ luôn ở dạng nguyên thể.", "show": "rule"},
     ]},
     {"kind": "recap", "lines": [
-        {"say": "Mình nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
+        {"say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
     ]},
     {"kind": "end", "next": "Bảy câu luyện bên dưới, rồi buổi 3: nghe chép, nói có chấm điểm và viết câu về chính bạn.", "lines": [
         {"say": "Hết phần giảng của ngày một. Bên dưới là bảy câu luyện. Sau đó là buổi ba: nghe chép, nói có chấm điểm, và viết hai câu về chính bạn.", "show": "title"},
