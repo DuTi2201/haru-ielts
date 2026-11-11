@@ -276,3 +276,7 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
 - `Rich.tsx` `toBlocks` now also understands: `## heading`, `%90 · words` rows (frequency scale with bars), `chips: a; b; c`, `prep: at | label | examples` (big preposition badge cards), inline `==highlight==`; earlier: `> quote`, `### n · Title · EN` + `ex: EN = VI` group cards, `!note`. Use them in any `usage_context_vi`. Body text sizes raised (15px, group 14.5px, examples 15.5px).
 - Card 4 (tần suất) uses all of them. Verified by server-side render of the stored text (1 scale, 3 group cards, 3 prep cards, 4 highlights, 4 headings, no raw markup). Deployed journey after d06ed21, backend after the days.txt rebuild. Browsers must hard-reload (Cmd/Ctrl+Shift+R): a tab opened earlier keeps the old JS and shows the raw markup.
 - Cards 1, 2, 5 still use plain tables/paragraphs; candidates to convert next.
+
+## Day 1 thẻ 1, 2, 5, 6 đồ họa hóa
+- Rich.tsx: thêm `pat: nhãn | a + b + c | ví dụ` (ô công thức nhiều màu), `tl: mốc | thì | câu` (trục thời gian), `ask: câu hỏi` (bong bóng); huy hiệu `prep:` rộng hơn (+ s, y → ies, /ɪz/).
+- days.txt: thẻ 1 công thức bằng ô ghép; thẻ 2 dùng prep cho -s/-es và ba cách đọc; thẻ 5 bốn kiểu câu hỏi + bảng Sai/Đúng; thẻ 6 bong bóng câu hỏi + trục thời gian bốn thì.
