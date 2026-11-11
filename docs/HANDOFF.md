@@ -280,3 +280,4 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
 ## Day 1 thẻ 1, 2, 5, 6 đồ họa hóa
 - Rich.tsx: thêm `pat: nhãn | a + b + c | ví dụ` (ô công thức nhiều màu), `tl: mốc | thì | câu` (trục thời gian), `ask: câu hỏi` (bong bóng); huy hiệu `prep:` rộng hơn (+ s, y → ies, /ɪz/).
 - days.txt: thẻ 1 công thức bằng ô ghép; thẻ 2 dùng prep cho -s/-es và ba cách đọc; thẻ 5 bốn kiểu câu hỏi + bảng Sai/Đúng; thẻ 6 bong bóng câu hỏi + trục thời gian bốn thì.
+- Thẻ 7 (mở rộng) cũng đồ họa hóa: cặp Bình thường / Nhấn mạnh bằng ô công thức, thẻ biểu tượng cho lịch cố định (🏪 🚌 🏫), khung "Sắp học".
