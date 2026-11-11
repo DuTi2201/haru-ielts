@@ -32,10 +32,48 @@ BOXES = [
     {"key": "t5", "en": "Facts", "vi": "Sự thật"},
 ]
 
+USES = [
+    {"key": "u1", "head": "Thói quen hiện tại", "en": "Toby walks to work.", "vi": "Toby đi bộ đi làm."},
+    {"key": "u2", "head": "Mức độ thường xuyên", "en": "Angela doesn't visit us very often.", "vi": "Angela không hay đến thăm chúng tôi."},
+    {"key": "u3", "head": "Tình huống lâu dài", "en": "Carlo works in a travel agent's.", "vi": "Carlo làm ở một đại lý du lịch."},
+    {"key": "u4", "head": "Trạng thái", "en": "Do you have an up-to-date passport?", "vi": "Hộ chiếu của bạn còn hạn không?"},
+    {"key": "u5", "head": "Sự thật chung", "en": "Poland is in the European Union.", "vi": "Ba Lan nằm trong Liên minh châu Âu."},
+    {"key": "u6", "head": "Chỉ đường, hướng dẫn", "en": "You go down to the traffic lights, then you turn left.", "vi": "Đi xuống đến đèn giao thông rồi rẽ trái."},
+    {"key": "u7", "head": "Kể cốt truyện phim, sách", "en": "In the film, the tea lady falls in love with the Prime Minister.", "vi": "Trong phim, cô bán trà phải lòng ngài thủ tướng."},
+    {"key": "u8", "head": "Điều thường được thừa nhận", "en": "Students don't generally have much money.", "vi": "Sinh viên nhìn chung không có nhiều tiền."},
+]
+
+FREQ = [
+    {"key": "f1", "head": "100% · always", "en": "She is always late.", "vi": "Cô ấy lúc nào cũng muộn."},
+    {"key": "f2", "head": "~90% · usually, normally, generally", "en": "I usually walk to school.", "vi": "Tôi thường đi bộ đến trường."},
+    {"key": "f3", "head": "~70% · often, frequently", "en": "We often eat out.", "vi": "Chúng tôi hay ăn ngoài."},
+    {"key": "f4", "head": "~50% · sometimes", "en": "Sometimes I cycle.", "vi": "Thỉnh thoảng tôi đạp xe."},
+    {"key": "f5", "head": "~20% · occasionally", "en": "I occasionally go to the cinema.", "vi": "Tôi thỉnh thoảng mới đi xem phim."},
+    {"key": "f6", "head": "~10% · rarely, seldom, hardly ever", "en": "I hardly ever get up before seven.", "vi": "Tôi gần như không dậy trước bảy giờ."},
+    {"key": "f7", "head": "0% · never", "en": "He never eats meat.", "vi": "Anh ấy không bao giờ ăn thịt."},
+]
+
+POSITION = [
+    {"key": "p1", "head": "Sau be", "en": "She is always late.", "vi": "be đứng trước, trạng từ theo sau."},
+    {"key": "p2", "head": "Trước động từ thường", "en": "I usually walk to school.", "vi": "Trạng từ nằm giữa chủ ngữ và động từ."},
+    {"key": "p3", "head": "Sau don't / doesn't", "en": "I don't often eat out.", "vi": "Trạng từ nằm sau trợ từ."},
+    {"key": "p4", "head": "Đầu câu (usually, often, sometimes)", "en": "Sometimes I cycle to work.", "vi": "Đứng đầu câu để nhấn."},
+    {"key": "p5", "head": "never, hardly ever đã là phủ định", "en": "I never go there.", "vi": "Không nói: I don't never go."},
+]
+
+WHEN = [
+    {"key": "w1", "head": "at + giờ", "en": "I get up at half past six.", "vi": "Tôi dậy lúc sáu giờ rưỡi."},
+    {"key": "w2", "head": "on + thứ", "en": "I play football on Mondays.", "vi": "Thứ Hai nào tôi cũng đá bóng."},
+    {"key": "w3", "head": "in + buổi trong ngày", "en": "I study in the evenings.", "vi": "Tôi học vào các buổi tối."},
+    {"key": "w4", "head": "at the weekend, at night", "en": "I stay up late at the weekend.", "vi": "Cuối tuần tôi thức khuya."},
+    {"key": "w5", "head": "số lần + khoảng thời gian", "en": "I go to the gym three times a week.", "vi": "Tôi đi tập ba lần một tuần."},
+    {"key": "w6", "head": "thỉnh thoảng", "en": "We go out every now and then.", "vi": "Thỉnh thoảng chúng tôi đi chơi."},
+]
+
 SITTING_1 = [
     {"kind": "title", "hook": "Vì sao biết ngữ pháp rồi mà lúc nói vẫn khựng lại?", "lines": [
         {"say": "Bạn đã bao giờ định nói một câu tiếng Anh rồi khựng lại vài giây, vì còn mải nhớ xem câu đó thuộc quy tắc nào chưa?", "show": "hook"},
-        {"say": "Nhiều người điểm ngữ pháp rất cao vẫn bị như vậy. Buổi này mình tìm xem cái khựng đó từ đâu ra, bằng một thí nghiệm nhỏ với thì hiện tại đơn."},
+        {"say": "Buổi này mình học thì hiện tại đơn theo sách Destination B2, nhưng chọn lọc theo cách của một người thầy giỏi: học cái dùng được ngay, và hiểu vì sao nó dùng được."},
     ]},
     {"kind": "scene", "visual": "five_boxes", "eyebrow": "Destination B2 · trang 6", "title": "Năm cái hộp của sách",
      "data": {"boxes": BOXES, "sentence": None}, "lines": [
@@ -47,6 +85,28 @@ SITTING_1 = [
     {"kind": "word", "headword": "permanent", "lines": [{"say": "Hộp thứ ba."}]},
     {"kind": "word", "headword": "state", "lines": [{"say": "Hộp thứ tư."}]},
     {"kind": "word", "headword": "fact", "lines": [{"say": "Và hộp thứ năm."}]},
+    {"kind": "scene", "visual": "ref_table", "eyebrow": "Destination B2 và IELTS Grammar 6.5+", "title": "Các cách dùng, mỗi cách một ví dụ",
+     "data": {"cols": ["Cách dùng", "Ví dụ"], "rows": USES,
+              "rule": "Năm cách dùng của B2 cộng ba cách dùng thêm của IELTS Grammar 6.5+."}, "lines": [
+        {"say": "Bây giờ là ví dụ của từng hộp. Hộp thứ nhất, thói quen hiện tại.", "show": "u1"},
+        {"en": "Toby walks to work.", "vi": "Toby đi bộ đi làm.", "gap": True},
+        {"say": "Hộp thứ hai, mức độ thường xuyên.", "show": "u2"},
+        {"en": "Angela doesn't visit us very often.", "vi": "Angela không hay đến thăm chúng tôi.", "gap": True},
+        {"say": "Hộp thứ ba, tình huống lâu dài.", "show": "u3"},
+        {"en": "Carlo works in a travel agent's.", "vi": "Carlo làm ở một đại lý du lịch.", "gap": True},
+        {"say": "Hộp thứ tư, trạng thái.", "show": "u4"},
+        {"en": "Do you have an up-to-date passport?", "vi": "Hộ chiếu của bạn còn hạn không?", "gap": True},
+        {"say": "Hộp thứ năm, sự thật chung.", "show": "u5"},
+        {"en": "Poland is in the European Union.", "vi": "Ba Lan nằm trong Liên minh châu Âu.", "gap": True},
+        {"say": "Sách IELTS Grammar 6.5+ thêm ba cách dùng rất có ích cho thi. Một, chỉ đường và hướng dẫn thao tác.", "show": "u6"},
+        {"en": "You go down to the traffic lights, then you turn left.", "vi": "Đi xuống đến đèn giao thông rồi rẽ trái.", "gap": True},
+        {"say": "Hai, kể lại cốt truyện phim hoặc sách. Bạn sẽ dùng nó trong Speaking Part 2.", "show": "u7"},
+        {"en": "In the film, the tea lady falls in love with the Prime Minister.", "vi": "Trong phim, cô bán trà phải lòng ngài thủ tướng.", "gap": True},
+        {"say": "Ba, điều thường được thừa nhận.", "show": "u8"},
+        {"en": "Students don't generally have much money.", "vi": "Sinh viên nhìn chung không có nhiều tiền.", "gap": True},
+        {"say": "Tám dòng. Nhưng một lưu ý: nói một việc đã kéo dài bao lâu, thì dùng hiện tại hoàn thành, không dùng hiện tại đơn. Ví dụ: I have worked there since I was fifteen."},
+        {"say": "Năm hộp, cộng ba cách dùng thêm: đó là toàn bộ bảng của sách.", "show": "rule"},
+    ]},
     {"kind": "scene", "visual": "five_boxes", "eyebrow": "Thí nghiệm 1", "title": "Một câu, xếp vào hộp nào?",
      "data": {"boxes": BOXES, "sentence": "I enjoy eating oranges.", "sentence_vi": "Tôi thích ăn cam.",
               "quote": "Ngữ pháp nó không rạch ròi như cái cách mà một quyển sách nó chia ra.",
@@ -63,6 +123,28 @@ SITTING_1 = [
         {"say": "Có một câu đáng nhớ về chuyện này: ngữ pháp nó không rạch ròi như cái cách mà một quyển sách nó chia ra.", "show": "quote"},
         {"say": "Năm cái hộp giúp ta đọc sách. Nhưng lúc nói, không ai dừng lại để chọn hộp. Cái khựng vài giây lúc nãy chính là lúc bạn đang chọn hộp.", "show": "rule"},
     ]},
+    {"kind": "scene", "visual": "sentence_forms", "eyebrow": "Công thức · Destination B2 trang 6", "title": "Ba dạng câu của hiện tại đơn",
+     "data": {"rows": [
+                  {"key": "aff", "label": "Khẳng định", "parts": ["Minh", "cycles", "to school."], "hi": [1], "vi": "Minh đạp xe đi học."},
+                  {"key": "neg", "label": "Phủ định", "parts": ["Minh", "doesn't cycle", "to school."], "hi": [1], "vi": "Minh không đạp xe đi học."},
+                  {"key": "qst", "label": "Câu hỏi", "parts": ["Does", "Minh cycle", "to school?"], "hi": [0, 1], "vi": "Minh có đạp xe đi học không?"},
+              ],
+              "persons": [{"who": "I · you · we · they", "verb": "visit"}, {"who": "he · she · it", "verb": "visits"}],
+              "spelling": [["work", "works"], ["watch", "watches"], ["go", "goes"], ["study", "studies"], ["have", "has"]],
+              "short": ["Yes, he does.", "No, he doesn't."],
+              "rule": "Khẳng định: he / she / it thêm s hoặc es. Phủ định và câu hỏi: does / doesn't, động từ về nguyên thể."}, "lines": [
+        {"say": "Bây giờ là công thức. Chỉ có ba dạng: khẳng định, phủ định và câu hỏi."},
+        {"say": "Một. Câu khẳng định. Với I, you, we, they, động từ giữ nguyên. Với he, she, it, nghĩa là một người hoặc một vật, động từ thêm s.", "show": "persons"},
+        {"en": "Minh cycles to school.", "vi": "Minh đạp xe đi học.", "gap": True, "show": "aff"},
+        {"say": "Không phải lúc nào cũng chỉ thêm s. Động từ tận cùng là s, sh, ch, x hoặc o thì thêm es: watch thành watches, go thành goes. Phụ âm đứng trước y thì đổi y thành ies: study thành studies. Và have thành has.", "show": "spelling"},
+        {"say": "Hai. Câu phủ định. Đặt don't hoặc doesn't trước động từ. Với he, she, it dùng doesn't. Đã có doesn't thì động từ không còn s nữa, nó về nguyên thể."},
+        {"en": "Minh doesn't cycle to school.", "vi": "Minh không đạp xe đi học.", "gap": True, "show": "neg"},
+        {"say": "Ba. Câu hỏi. Đưa do hoặc does lên đầu câu, và động từ cũng về nguyên thể."},
+        {"en": "Does Minh cycle to school?", "vi": "Minh có đạp xe đi học không?", "gap": True, "show": "qst"},
+        {"say": "Trả lời ngắn thì dùng lại chính trợ từ đó: yes, he does, hoặc no, he doesn't.", "show": "short"},
+        {"say": "Riêng động từ be không mượn do hay does: she isn't a student, is he late?"},
+        {"say": "Tóm lại. Câu khẳng định: với he, she, it, động từ thêm s hoặc es. Câu phủ định và câu hỏi: dùng does hoặc doesn't, và động từ về nguyên thể.", "show": "rule"},
+    ]},
     {"kind": "scene", "visual": "adverb_toggle", "eyebrow": "Thí nghiệm 2", "title": "Bỏ trạng từ đi thì sao?",
      "data": {"core": ["I", "visit", "my parents"], "verb": "visit", "adverb": "twice a week",
               "signals": ["always", "usually", "very often", "twice a week"],
@@ -77,6 +159,61 @@ SITTING_1 = [
         {"en": "I wake up at six.", "vi": "Tôi dậy lúc sáu giờ.", "gap": True, "show": "proof"},
         {"say": "Vẫn là thói quen. Trạng từ tần suất chỉ là phần thêm vào: nói hay không là tùy bạn muốn cho người nghe thêm thông tin gì.", "show": "rule"},
     ]},
+    {"kind": "word", "headword": "routine", "lines": [{"say": "Giờ là cách nói tần suất. Năm từ chỉ mức độ, bắt đầu từ chính chữ thói quen hằng ngày."}]},
+    {"kind": "word", "headword": "regularly", "lines": [{"say": "Một từ chỉ sự đều đặn."}]},
+    {"kind": "word", "headword": "frequently", "lines": [{"say": "Một từ nữa."}]},
+    {"kind": "word", "headword": "occasionally", "lines": [{"say": "Mức thấp hơn."}]},
+    {"kind": "word", "headword": "rarely", "lines": [{"say": "Và mức thấp nhất, trước chữ không bao giờ."}]},
+    {"kind": "scene", "visual": "ref_table", "eyebrow": "Trạng từ tần suất", "title": "Từ 100% xuống 0%",
+     "data": {"cols": ["Mức xấp xỉ · từ", "Ví dụ"], "rows": FREQ,
+              "rule": "Chỉ là mức xấp xỉ: người nói tự chọn từ hợp với điều muốn nói."}, "lines": [
+        {"say": "Xếp các trạng từ theo mức, từ cao xuống thấp. Mức cao nhất là always, một trăm phần trăm.", "show": "f1"},
+        {"en": "She is always late.", "vi": "Cô ấy lúc nào cũng muộn.", "gap": True},
+        {"say": "Usually, normally và generally, khoảng chín mươi phần trăm.", "show": "f2"},
+        {"en": "I usually walk to school.", "vi": "Tôi thường đi bộ đến trường.", "gap": True},
+        {"say": "Often và frequently, khoảng bảy mươi.", "show": "f3"},
+        {"en": "We often eat out.", "vi": "Chúng tôi hay ăn ngoài.", "gap": True},
+        {"say": "Sometimes, khoảng một nửa.", "show": "f4"},
+        {"en": "Sometimes I cycle.", "vi": "Thỉnh thoảng tôi đạp xe.", "gap": True},
+        {"say": "Occasionally, khoảng hai mươi.", "show": "f5"},
+        {"say": "Rarely, seldom và hardly ever, khoảng mười, gần như không.", "show": "f6"},
+        {"en": "I hardly ever get up before seven.", "vi": "Tôi gần như không dậy trước bảy giờ.", "gap": True},
+        {"say": "Và never, không bao giờ.", "show": "f7"},
+        {"en": "He never eats meat.", "vi": "Anh ấy không bao giờ ăn thịt.", "gap": True},
+        {"say": "Đây chỉ là mức xấp xỉ. Người nói tự chọn từ hợp với điều mình muốn nói.", "show": "rule"},
+    ]},
+    {"kind": "scene", "visual": "ref_table", "eyebrow": "Vị trí trong câu", "title": "Trạng từ đứng ở đâu?",
+     "data": {"cols": ["Vị trí", "Ví dụ"], "rows": POSITION,
+              "rule": "Sau be, trước động từ thường, sau don't. Never và hardly ever đã mang nghĩa phủ định."}, "lines": [
+        {"say": "Trạng từ tần suất đứng ở đâu trong câu? Một. Sau động từ be.", "show": "p1"},
+        {"en": "She is always late.", "vi": "Cô ấy lúc nào cũng muộn.", "gap": True},
+        {"say": "Hai. Trước động từ thường.", "show": "p2"},
+        {"en": "I usually walk to school.", "vi": "Tôi thường đi bộ đến trường.", "gap": True},
+        {"say": "Ba. Trong câu phủ định hoặc câu hỏi, sau don't hoặc doesn't.", "show": "p3"},
+        {"en": "I don't often eat out.", "vi": "Tôi không hay ăn ngoài.", "gap": True},
+        {"say": "Bốn. Usually, often và sometimes còn đứng được ở đầu câu.", "show": "p4"},
+        {"en": "Sometimes I cycle to work.", "vi": "Thỉnh thoảng tôi đạp xe đi làm.", "gap": True},
+        {"say": "Năm. Never và hardly ever đã mang nghĩa phủ định rồi, nên không thêm don't. Người Việt hay nói thừa một lần phủ định.", "show": "p5"},
+        {"en": "I never go there.", "vi": "Tôi không bao giờ đến đó.", "gap": True},
+        {"say": "Nhớ ba chỗ: sau be, trước động từ thường, sau don't.", "show": "rule"},
+    ]},
+    {"kind": "scene", "visual": "ref_table", "eyebrow": "Cách nói thời gian", "title": "Giờ, ngày, buổi và số lần",
+     "data": {"cols": ["Giới từ và cụm", "Ví dụ"], "rows": WHEN,
+              "rule": "At cho giờ, on cho thứ, in cho buổi trong ngày."}, "lines": [
+        {"say": "Cuối cùng, cách nói thời gian. Giờ giấc dùng at: at six, at half past six, at a quarter to seven.", "show": "w1"},
+        {"en": "I get up at half past six.", "vi": "Tôi dậy lúc sáu giờ rưỡi.", "gap": True},
+        {"say": "Thứ trong tuần dùng on. Thêm s sau thứ nghĩa là thứ nào cũng vậy.", "show": "w2"},
+        {"en": "I play football on Mondays.", "vi": "Thứ Hai nào tôi cũng đá bóng.", "gap": True},
+        {"say": "Buổi trong ngày dùng in: in the morning, in the afternoon, in the evening.", "show": "w3"},
+        {"en": "I study in the evenings.", "vi": "Tôi học vào các buổi tối.", "gap": True},
+        {"say": "Cuối tuần và ban đêm dùng at: at the weekend, at night.", "show": "w4"},
+        {"en": "I stay up late at the weekend.", "vi": "Cuối tuần tôi thức khuya.", "gap": True},
+        {"say": "Số lần: once, twice, rồi three times, cộng một khoảng thời gian.", "show": "w5"},
+        {"en": "I go to the gym three times a week.", "vi": "Tôi đi tập ba lần một tuần.", "gap": True},
+        {"say": "Và một cụm rất tự nhiên cho Speaking: every now and then, nghĩa là thỉnh thoảng.", "show": "w6"},
+        {"en": "We go out every now and then.", "vi": "Thỉnh thoảng chúng tôi đi chơi.", "gap": True},
+        {"say": "Giờ dùng at, thứ dùng on, buổi trong ngày dùng in.", "show": "rule"},
+    ]},
     {"kind": "scene", "visual": "truth_cards", "eyebrow": "Bản chất", "title": "Điều người nói coi là thật",
      "data": {"groups": ["Việc lặp lại", "Trạng thái", "Sự thật"],
               "cards": [
@@ -87,7 +224,7 @@ SITTING_1 = [
               "quote": "Phần lớn thời gian cái các bạn nghĩ sẽ là cái các bạn nói, thế nên phần lớn cái chúng ta nói ra đều là sự thật chủ quan.",
               "rule": "Hiện tại đơn: điều người nói coi là thật, hoặc muốn người nghe coi là thật, lúc nói.",
               "ielts": "Writing Task 2: Online learning saves time."}, "lines": [
-        {"say": "Vậy gom năm hộp lại, hiện tại đơn dùng cho ba việc: việc lặp lại, trạng thái, và sự thật.", "show": "groups"},
+        {"say": "Vậy gom các hộp lại, hiện tại đơn dùng cho ba việc: việc lặp lại, trạng thái, và sự thật.", "show": "groups"},
         {"say": "Nhưng chữ sự thật ở đây rộng hơn bạn nghĩ. Câu đầu tiên."},
         {"en": "Water boils at 100 degrees Celsius.", "vi": "Nước sôi ở 100 độ C.", "gap": True, "show": "c1"},
         {"say": "Đây là sự thật khách quan, ai cũng công nhận. Nhưng ngoài đời, mấy khi mình ngồi nói với nhau chuyện nước sôi ở bao nhiêu độ."},
@@ -100,27 +237,6 @@ SITTING_1 = [
         {"say": "Và một câu nữa, cũng đáng nhớ: phần lớn thời gian cái các bạn nghĩ sẽ là cái các bạn nói, thế nên phần lớn cái chúng ta nói ra đều là sự thật chủ quan.", "show": "quote"},
         {"say": "Vậy hiện tại đơn là điều người nói coi là thật, hoặc muốn người nghe coi là thật, vào lúc nói.", "show": "rule"},
         {"say": "Bạn sẽ dùng đúng điều này trong bài viết IELTS. Khi bạn nêu một nhận định trong Writing Task 2, bạn dùng hiện tại đơn, vì bạn trình bày nó như sự thật.", "show": "ielts"},
-    ]},
-    {"kind": "scene", "visual": "sentence_forms", "eyebrow": "Cách lập câu", "title": "Ba dạng câu của hiện tại đơn",
-     "data": {"rows": [
-                  {"key": "aff", "label": "Khẳng định", "parts": ["Minh", "cycles", "to school."], "hi": [1], "vi": "Minh đạp xe đi học."},
-                  {"key": "neg", "label": "Phủ định", "parts": ["Minh", "doesn't cycle", "to school."], "hi": [1], "vi": "Minh không đạp xe đi học."},
-                  {"key": "qst", "label": "Câu hỏi", "parts": ["Does", "Minh cycle", "to school?"], "hi": [0, 1], "vi": "Minh có đạp xe đi học không?"},
-              ],
-              "persons": [{"who": "I · you · we · they", "verb": "visit"}, {"who": "he · she · it", "verb": "visits"}],
-              "spelling": [["work", "works"], ["watch", "watches"], ["study", "studies"], ["have", "has"]],
-              "short": ["Yes, he does.", "No, he doesn't."],
-              "rule": "Khẳng định: he / she / it thêm s. Phủ định và câu hỏi: does / doesn't, động từ về nguyên thể."}, "lines": [
-        {"say": "Bây giờ là cách lập câu. Chỉ có ba dạng: khẳng định, phủ định và câu hỏi."},
-        {"say": "Một. Câu khẳng định. Với I, you, we, they, động từ giữ nguyên. Với he, she, it, nghĩa là một người hoặc một vật, động từ thêm s.", "show": "persons"},
-        {"en": "Minh cycles to school.", "vi": "Minh đạp xe đi học.", "gap": True, "show": "aff"},
-        {"say": "Minh là he, nên cycle thành cycles. Không phải lúc nào cũng chỉ thêm s: watch thành watches, study thành studies, have thành has.", "show": "spelling"},
-        {"say": "Hai. Câu phủ định. Đặt don't hoặc doesn't trước động từ. Với he, she, it dùng doesn't. Chú ý: đã có doesn't thì động từ không còn s nữa, nó về nguyên thể."},
-        {"en": "Minh doesn't cycle to school.", "vi": "Minh không đạp xe đi học.", "gap": True, "show": "neg"},
-        {"say": "Ba. Câu hỏi. Đưa do hoặc does lên đầu câu, và động từ cũng về nguyên thể."},
-        {"en": "Does Minh cycle to school?", "vi": "Minh có đạp xe đi học không?", "gap": True, "show": "qst"},
-        {"say": "Trả lời ngắn thì dùng lại chính trợ từ đó: yes, he does, hoặc no, he doesn't.", "show": "short"},
-        {"say": "Tóm lại. Câu khẳng định: với he, she, it, động từ thêm s. Câu phủ định và câu hỏi: dùng does hoặc doesn't, và động từ về nguyên thể.", "show": "rule"},
     ]},
     {"kind": "recap", "lines": [
         {"say": "Bây giờ mình nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
@@ -137,10 +253,46 @@ ANSWERS = [
     {"key": "a4", "at": "future", "tense": "Tương lai, có điều kiện", "en": "I will, if you can show me who God is.", "vi": "Sẽ tin, nếu…"},
 ]
 
+ERRORS = [
+    {"key": "e1", "wrong": "Does she works here?", "right": "Does she work here?", "why": "Đã có does thì động từ về nguyên thể."},
+    {"key": "e2", "wrong": "Where you live?", "right": "Where do you live?", "why": "Thiếu do."},
+    {"key": "e3", "wrong": "Do you can swim?", "right": "Can you swim?", "why": "can không mượn do."},
+    {"key": "e4", "wrong": "Are you like jazz?", "right": "Do you like jazz?", "why": "like là động từ thường, không đi với are."},
+    {"key": "e5", "wrong": "Who does live next door?", "right": "Who lives next door?", "why": "Hỏi về chủ ngữ thì không mượn do."},
+    {"key": "e6", "wrong": "What means this word?", "right": "What does this word mean?", "why": "Phải mượn does và đảo thứ tự."},
+    {"key": "e7", "wrong": "Yes, I like.", "right": "Yes, I do.", "why": "Trả lời ngắn dùng lại do hoặc does."},
+]
+
+COMPARE = [
+    {"key": "k1", "head": "Việc đang xảy ra", "en": "I'm waiting for my friends.", "vi": "Tôi đang đợi bạn."},
+    {"key": "k2", "head": "Tình huống tạm thời", "en": "My cousin is living in Thailand at the moment.", "vi": "Anh họ tôi đang sống ở Thái Lan."},
+    {"key": "k3", "head": "Xu hướng đang đổi", "en": "The price of petrol is rising dramatically.", "vi": "Giá xăng đang tăng mạnh."},
+    {"key": "k4", "head": "Phàn nàn, thêm always", "en": "My sister is always playing her music so loudly!", "vi": "Chị tôi lúc nào cũng bật nhạc ầm ĩ."},
+]
+
 SITTING_2 = [
-    {"kind": "title", "hook": "Hỏi thì nào, có phải đáp thì nấy?", "lines": [
-        {"say": "Buổi hai: hỏi thì nào, có phải đáp thì nấy?", "show": "hook"},
-        {"say": "Buổi này có hai việc. Một là bỏ thói quen hỏi gì đáp nấy. Hai là học một cách nhấn mạnh rất hay dùng khi nói."},
+    {"kind": "title", "hook": "Hỏi sai ở đâu, và hỏi thì nào có phải đáp thì nấy?", "lines": [
+        {"say": "Buổi hai: hỏi sai ở đâu, và hỏi thì nào có phải đáp thì nấy?", "show": "hook"},
+        {"say": "Buổi này có bốn việc. Một là sửa các lỗi hay gặp khi đặt câu hỏi. Hai là bỏ thói quen hỏi gì đáp nấy. Ba là một cách nhấn mạnh rất hay dùng khi nói. Bốn là so nhanh với hiện tại tiếp diễn."},
+    ]},
+    {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Lỗi thường gặp khi hỏi", "title": "Bảy lỗi, bảy cách sửa",
+     "data": {"rows": ERRORS,
+              "rule": "Đã có do hoặc does thì động từ về nguyên thể. Hỏi về chủ ngữ thì không mượn do."}, "lines": [
+        {"say": "Giám khảo Speaking Part 1 hỏi toàn câu hỏi, và người học hay sai ở đúng chỗ đó. Lỗi thứ nhất: chia hai lần.", "show": "e1"},
+        {"en": "Does she work here?", "vi": "Cô ấy có làm ở đây không?", "gap": True},
+        {"say": "Lỗi thứ hai: quên mượn do khi có từ để hỏi.", "show": "e2"},
+        {"en": "Where do you live?", "vi": "Bạn sống ở đâu?", "gap": True},
+        {"say": "Lỗi thứ ba: can không mượn do.", "show": "e3"},
+        {"en": "Can you swim?", "vi": "Bạn biết bơi không?", "gap": True},
+        {"say": "Lỗi thứ tư: dùng are với động từ thường.", "show": "e4"},
+        {"en": "Do you like jazz?", "vi": "Bạn có thích nhạc jazz không?", "gap": True},
+        {"say": "Lỗi thứ năm: khi từ để hỏi chính là chủ ngữ, thì không mượn do.", "show": "e5"},
+        {"en": "Who lives next door?", "vi": "Ai sống ở nhà bên?", "gap": True},
+        {"say": "Lỗi thứ sáu: hỏi nghĩa của từ.", "show": "e6"},
+        {"en": "What does this word mean?", "vi": "Từ này nghĩa là gì?", "gap": True},
+        {"say": "Lỗi thứ bảy: trả lời ngắn.", "show": "e7"},
+        {"en": "Yes, I do.", "vi": "Có.", "gap": True},
+        {"say": "Gói lại: đã có do hoặc does thì động từ về nguyên thể. Hỏi về chủ ngữ thì không mượn do.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "tense_timeline", "eyebrow": "Thí nghiệm 3", "title": "Một câu hỏi, bốn thì",
      "data": {"question": "Do you believe in God?", "question_vi": "Bạn có tin vào Chúa không?", "answers": ANSWERS,
@@ -198,11 +350,25 @@ SITTING_2 = [
         {"en": "He does work hard.", "vi": "Anh ấy có làm việc chăm chỉ mà.", "gap": True, "show": "right"},
         {"say": "Sau do và does, động từ luôn ở dạng nguyên thể.", "show": "rule"},
     ]},
+    {"kind": "scene", "visual": "ref_table", "eyebrow": "So với hiện tại tiếp diễn", "title": "Khi nào đổi sang tiếp diễn?",
+     "data": {"cols": ["Tiếp diễn dùng để", "Ví dụ"], "rows": COMPARE,
+              "rule": "Đơn: lặp lại, trạng thái, sự thật. Tiếp diễn: đang xảy ra, tạm thời, đang đổi, than phiền với always."}, "lines": [
+        {"say": "Cuối cùng, so nhanh với hiện tại tiếp diễn, là thì của ngày mai. Tiếp diễn dùng khi bạn muốn nói việc đang xảy ra."},
+        {"en": "I'm waiting for my friends.", "vi": "Tôi đang đợi bạn.", "gap": True, "show": "k1"},
+        {"say": "Hoặc một tình huống tạm thời. Anh họ tôi bình thường không sống ở Thái Lan; chỉ lúc này thôi.", "show": "k2"},
+        {"en": "My cousin is living in Thailand at the moment.", "vi": "Anh họ tôi đang sống ở Thái Lan.", "gap": True},
+        {"say": "Hoặc một xu hướng đang thay đổi.", "show": "k3"},
+        {"en": "The price of petrol is rising dramatically.", "vi": "Giá xăng đang tăng mạnh.", "gap": True},
+        {"say": "Và một trường hợp đặc biệt: tiếp diễn đi với always khi người nói than phiền, vì việc lặp lại quá mức làm họ bực.", "show": "k4"},
+        {"en": "My sister is always playing her music so loudly!", "vi": "Chị tôi lúc nào cũng bật nhạc ầm ĩ.", "gap": True},
+        {"say": "Cùng một câu hỏi, where does your sister live now, bạn có thể đáp she lives in Thailand, hoặc she is living in Thailand. Câu đầu nói như điều ổn định, câu sau nói tạm thời. Chọn theo điều bạn muốn nói."},
+        {"say": "Đơn cho việc lặp lại, trạng thái, sự thật. Tiếp diễn cho việc đang xảy ra, tạm thời, đang đổi, và than phiền với always.", "show": "rule"},
+    ]},
     {"kind": "recap", "lines": [
         {"say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
     ]},
     {"kind": "end", "next": "Tiếp theo: học từ và mẫu ngữ pháp, làm bài tập, rồi buổi 3 để vận dụng.", "lines": [
-        {"say": "Hết phần giảng của ngày một. Bây giờ bạn học các từ và mẫu ngữ pháp trong app, rồi làm bài tập. Sau đó là buổi ba: nghe chép, nói có chấm điểm, và viết hai câu về chính bạn.", "show": "title"},
+        {"say": "Hết phần giảng của ngày một. Bây giờ bạn học các từ và mẫu ngữ pháp trong app, rồi làm bài tập. Sau đó là buổi ba: nghe chép, nói có chấm điểm, và viết câu về chính bạn.", "show": "title"},
     ]},
 ]
 
@@ -214,22 +380,34 @@ RUBRIC = [
 ]
 
 
-def reshape(sessions: list[dict], exercise_ids: list[str]) -> list[dict]:
-    """Day 1's sittings around the two lectures: `emphasise` moves to the sitting that uses it, the
-    second sitting keeps the questions on its own two cards, and the production work (build, type,
-    dictation, say, write) becomes a third sitting, so no sitting runs much past 15 minutes."""
-    s1, s2, rest = sessions[0], sessions[1], sessions[2:]
-    s1["vocab"] = [w for w in s1["vocab"] if w != "emphasise"]
-    s2["vocab"] = ["emphasise"]
-    keep = [i for i in s2["check"] if i[4] in "IQ"] + ["G1D1B4", "G1D1F2", "G1D1F3"]
-    moved = [i for i in s2["check"] if i not in keep]
-    s2["check"] = keep
+def reshape(sessions: list[dict], exercise_ids: list[str], card_of: dict[str, int]) -> list[dict]:
+    """Day 1's sittings around the two lectures. Sitting 1 teaches cards 1-4 with its ten words, sitting 2
+    cards 5-8 with `emphasise`; the questions of each stay with its own cards. The production work (build,
+    type, dictation, say, write) and the remaining words (from the books' own texts) become a third sitting
+    without a lecture, so no sitting runs much past 15 minutes."""
+    pats = [g for s in sessions[:3] for g in s["grammar"]]
+    allcheck = [i for s in sessions[:3] for i in s["check"]]
+    s1, s2 = sessions[0], sessions[1]
+    rest = sessions[3:]
+    S1_WORDS = ["habit", "frequency", "permanent", "state", "fact", "routine", "regularly", "frequently", "occasionally", "rarely"]
+    S2_WORDS = ["emphasise"]
+    all_words = [w for s in sessions[:3] for w in s["vocab"]]
+    left = [w for w in all_words if w not in S1_WORDS + S2_WORDS]
+    s1["vocab"], s2["vocab"] = S1_WORDS, S2_WORDS
+    s1["grammar"], s2["grammar"] = pats[:4], pats[4:]
+    quiz = [i for i in allcheck if i[4] in "IQ"]
+    s1["check"] = [i for i in quiz if card_of[i] < 4]
+    s2["check"] = [i for i in quiz if card_of[i] >= 4]
+    moved = [i for i in allcheck if i not in quiz]
     s1["lecture"], s2["lecture"] = SITTING_1, SITTING_2
+    s1["title_vi"] = "Buổi 1 · công thức, cách dùng, tần suất và thời gian"
+    s2["title_vi"] = "Buổi 2 · câu hỏi, hỏi thì này đáp thì khác, nhấn mạnh"
     s3 = {
-        "title_vi": "Buổi 3 · vận dụng: nghe chép, nói, viết câu của tôi",
-        "can_do_vi": "Sau buổi này bạn tự xếp và gõ được câu hiện tại đơn, nghe chép được ba câu, và viết được hai câu ở hai thì khác nhau về chính mình.",
+        "title_vi": "Buổi 3 · từ vựng và vận dụng: nghe chép, nói, viết",
+        "can_do_vi": "Sau buổi này bạn biết thêm các từ của sách (tần suất, học thuật, năng lượng), tự xếp và gõ được câu hiện tại đơn, nghe chép được ba câu và viết câu về chính mình.",
         "use_vi": s1["use_vi"],
+        "vocab": left,
         "check": moved,
     }
-    assert set(keep + moved) <= set(exercise_ids)
+    assert set(s1["check"] + s2["check"] + moved) <= set(exercise_ids)
     return [s1, s2, s3] + rest

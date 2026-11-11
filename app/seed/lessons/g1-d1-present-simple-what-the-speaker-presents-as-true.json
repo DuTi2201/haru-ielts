@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 4,
  "sort_order": 101,
- "summary": "Chọn hiện tại đơn theo điều mình muốn nói, không theo từ dấu hiệu; trả lời một câu hỏi hiện tại đơn bằng thì khác khi cần. Thẻ: năm hộp của sách; trạng từ tần suất là phần phụ; điều người nói coi là thật; hỏi thì này, đáp thì khác; nhấn mạnh với do / does.",
+ "summary": "Lập đúng câu hiện tại đơn (khẳng định, phủ định, câu hỏi), chọn đúng cách dùng và trạng từ chỉ thời gian, tránh lỗi khi hỏi; và biết trả lời một câu hỏi hiện tại đơn bằng thì khác khi cần. Thẻ: công thức; cách dùng; tần suất và cách nói thời gian; điều người nói coi là thật; câu hỏi và lỗi thường gặp; hỏi thì này, đáp thì khác; nhấn mạnh với do / does; so sánh nhanh.",
  "vocab": [
   {
    "headword": "habit",
@@ -18,6 +18,17 @@
    "priority": "core",
    "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1; phiên âm: Oxford Advanced Learner's Dictionary (BrE)",
    "pron": "/ˈhæbɪt/"
+  },
+  {
+   "headword": "frequency",
+   "pos": "N",
+   "meaning_vi": "tần suất",
+   "example_en": "The frequency of buses is low at night.",
+   "example_vi": "Ban đêm tần suất xe buýt thấp.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1; phiên âm: Oxford Advanced Learner's Dictionary (BrE)",
+   "pron": "/ˈfriːkwənsi/"
   },
   {
    "headword": "permanent",
@@ -51,15 +62,54 @@
    "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
   },
   {
-   "headword": "frequency",
+   "headword": "routine",
    "pos": "N",
-   "meaning_vi": "tần suất",
-   "example_en": "The frequency of buses is low at night.",
-   "example_vi": "Ban đêm tần suất xe buýt thấp.",
+   "meaning_vi": "thói quen hằng ngày, lịch sinh hoạt",
+   "example_en": "My morning routine takes forty minutes.",
+   "example_vi": "Các việc buổi sáng của tôi mất bốn mươi phút.",
    "family": "Từ của ngày",
    "priority": "core",
-   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1; phiên âm: Oxford Advanced Learner's Dictionary (BrE)",
-   "pron": "/ˈfriːkwənsi/"
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "regularly",
+   "pos": "Adv",
+   "meaning_vi": "đều đặn",
+   "example_en": "She exercises regularly.",
+   "example_vi": "Cô ấy tập thể dục đều đặn.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "frequently",
+   "pos": "Adv",
+   "meaning_vi": "thường xuyên",
+   "example_en": "Buses run frequently in the city centre.",
+   "example_vi": "Xe buýt chạy thường xuyên ở trung tâm.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "occasionally",
+   "pos": "Adv",
+   "meaning_vi": "thỉnh thoảng",
+   "example_en": "I occasionally eat out at the weekend.",
+   "example_vi": "Thỉnh thoảng cuối tuần tôi ăn ngoài.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "rarely",
+   "pos": "Adv",
+   "meaning_vi": "hiếm khi",
+   "example_en": "Ralph rarely calls his parents.",
+   "example_vi": "Ralph hiếm khi gọi cho bố mẹ.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
   },
   {
    "headword": "emphasise",
@@ -71,41 +121,197 @@
    "priority": "core",
    "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1; phiên âm: Oxford Advanced Learner's Dictionary (BrE)",
    "pron": "/ˈemfəsaɪz/"
+  },
+  {
+   "headword": "subjective",
+   "pos": "A",
+   "meaning_vi": "chủ quan",
+   "example_en": "This is a subjective opinion, not a fact.",
+   "example_vi": "Đây là ý kiến chủ quan, không phải sự thật.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "objective",
+   "pos": "A",
+   "meaning_vi": "khách quan",
+   "example_en": "The report gives an objective view of the problem.",
+   "example_vi": "Bản báo cáo đưa ra cái nhìn khách quan về vấn đề.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "generally",
+   "pos": "Adv",
+   "meaning_vi": "nói chung, thường thì",
+   "example_en": "Students generally have little money.",
+   "example_vi": "Sinh viên nhìn chung có ít tiền.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "traditionally",
+   "pos": "Adv",
+   "meaning_vi": "theo truyền thống",
+   "example_en": "Traditionally, families eat together at Tet.",
+   "example_vi": "Theo truyền thống, các gia đình ăn cùng nhau dịp Tết.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "competitively",
+   "pos": "Adv",
+   "meaning_vi": "ở mức thi đấu",
+   "example_en": "Do you play hockey competitively or just for fun?",
+   "example_vi": "Bạn chơi khúc côn cầu thi đấu hay chỉ cho vui?",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "without fail",
+   "pos": "Phrase",
+   "meaning_vi": "không bao giờ sót, lần nào cũng vậy",
+   "example_en": "My mum calls me every weekend without fail.",
+   "example_vi": "Tuần nào mẹ tôi cũng gọi cho tôi, không sót lần nào.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "excuse",
+   "pos": "N",
+   "meaning_vi": "lý do biện hộ, cớ",
+   "example_en": "You always come up with excuses for not doing your homework.",
+   "example_vi": "Cậu lúc nào cũng viện cớ để không làm bài tập.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "appointment",
+   "pos": "N",
+   "meaning_vi": "cuộc hẹn",
+   "example_en": "I have an appointment at the dentist's at two.",
+   "example_vi": "Hai giờ tôi có hẹn ở nha sĩ.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "tutorial",
+   "pos": "N",
+   "meaning_vi": "buổi học nhóm nhỏ với giảng viên",
+   "example_en": "My tutor sees me for a tutorial every Monday.",
+   "example_vi": "Thứ Hai nào giảng viên cũng gặp tôi trong buổi tutorial.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "consumption",
+   "pos": "N",
+   "meaning_vi": "sự tiêu thụ",
+   "example_en": "Energy consumption goes up year by year.",
+   "example_vi": "Mức tiêu thụ năng lượng tăng dần theo từng năm.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "demand",
+   "pos": "N",
+   "meaning_vi": "nhu cầu, lượng cầu",
+   "example_en": "There is a growing demand for renewable energy.",
+   "example_vi": "Nhu cầu về năng lượng tái tạo đang tăng.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "renewable",
+   "pos": "A",
+   "meaning_vi": "có thể tái tạo",
+   "example_en": "Solar and wind power are renewable sources of energy.",
+   "example_vi": "Điện mặt trời và điện gió là nguồn năng lượng tái tạo.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+  },
+  {
+   "headword": "apart from",
+   "pos": "Phrase",
+   "meaning_vi": "ngoài ra, trừ",
+   "example_en": "Do you speak any other languages apart from English?",
+   "example_vi": "Ngoài tiếng Anh ra bạn còn nói ngôn ngữ nào khác không?",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
   }
  ],
  "grammar": [
   {
-   "pattern": "Present simple · năm hộp của sách",
-   "meaning_vi": "Sách chia 5 cách dùng; một câu có thể nằm trong cả 5",
-   "usage_context_vi": "Destination B2 chia hiện tại đơn thành 5 cách dùng: thói quen, tần suất, tình huống lâu dài, trạng thái, sự thật chung.\nThử xếp câu `I enjoy eating oranges` vào từng hộp: hộp nào cũng nhận. Các hộp giúp ta đọc sách, nhưng chúng không tách bạch. Khi nói, không ai dừng lại để chọn hộp.\nTrích: «Ngữ pháp nó không rạch ròi như cái cách mà một quyển sách nó chia ra.»",
+   "pattern": "Present simple · công thức",
+   "meaning_vi": "Khẳng định, phủ định, câu hỏi; he / she / it thêm -s hoặc -es",
+   "usage_context_vi": "Công thức (Destination B2, tr. 6; IELTS Grammar 6.5+, tr. 2):\n| Chủ ngữ | Khẳng định | Phủ định | Câu hỏi |\n| I / you / we / they | work | don't work | Do I / you / we / they work? |\n| he / she / it | works | doesn't work | Does he / she / it work? |\nTrả lời ngắn dùng lại trợ từ: Yes, he does. / No, he doesn't.\nThêm -s hay -es cho he / she / it:\n| Động từ tận cùng | Cách thêm | Ví dụ |\n| phần lớn động từ | + s | work → works, play → plays |\n| -s, -ss, -sh, -ch, -x, -o | + es | miss → misses, watch → watches, go → goes |\n| phụ âm + y | y → ies | study → studies, try → tries |\n| bất quy tắc | | have → has |\nĐộng từ `be` không mượn do/does: She isn't a student. Is he late?",
    "contrasts": [],
-   "example_en": "I enjoy eating oranges.\nHannah works in a hospital.",
-   "example_vi": "Tôi thích ăn cam.\nHannah làm ở một bệnh viện.",
+   "example_en": "Toby walks to work.\nAngela doesn't visit us very often.\nDo you have an up-to-date passport?",
+   "example_vi": "Toby đi bộ đi làm.\nAngela không hay đến thăm chúng tôi.\nHộ chiếu của bạn còn hạn không?",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-8; cách giảng của khóa học",
-   "note_vi": "Lỗi người Việt hay mắc: Học thuộc 5 gạch đầu dòng rồi mỗi lần nói lại dò xem câu của mình thuộc dòng nào. Việc đó làm chậm phản xạ."
+   "note_vi": "Lỗi người Việt hay mắc: Chia hai lần: ~~Does she works~~ → Does she work. Quên -s: ~~He have~~ → He has.",
+   "exam_tip_vi": "Chỉ câu khẳng định của he / she / it mới thêm -s. Phủ định và câu hỏi đã có does thì động từ về nguyên thể."
   },
   {
-   "pattern": "Present simple · trạng từ tần suất là phần phụ",
-   "meaning_vi": "Bỏ trạng từ đi, câu vẫn là hiện tại đơn",
-   "usage_context_vi": "`always`, `usually`, `very often`, `twice a week` chỉ thêm thông tin. Bỏ chúng đi, nòng cốt của câu và tính lặp lại của hành động vẫn nguyên.\nNói thêm tần suất hay không là tùy người nói cần gì.",
+   "pattern": "Present simple · cách dùng",
+   "meaning_vi": "Năm cách dùng của sách, ba cách dùng thêm, và vì sao ranh giới giữa chúng mờ",
+   "usage_context_vi": "Destination B2 liệt kê năm cách dùng; IELTS Grammar 6.5+ thêm ba cách:\n| Cách dùng | Ví dụ |\n| Thói quen hiện tại | Toby walks to work. |\n| Mức độ thường xuyên | Angela doesn't visit us very often. |\n| Tình huống lâu dài | Carlo works in a travel agent's. |\n| Trạng thái | Do you have an up-to-date passport? |\n| Sự thật chung | Poland is in the European Union. |\n| Chỉ đường, hướng dẫn thao tác | You go down to the traffic lights, then you turn left. |\n| Kể cốt truyện phim, sách | In the film, the tea lady falls in love with the Prime Minister. |\n| Điều thường được thừa nhận | Students don't generally have much money. |\nTheo cách học có chọn lọc: năm hộp đầu giúp bạn đọc sách, nhưng chúng không tách bạch. Câu `I enjoy eating oranges` xếp vào hộp nào cũng được. Nhớ gọn: hiện tại đơn dùng cho việc lặp lại, trạng thái và điều người nói coi là thật.\nLưu ý: nói một việc đã kéo dài bao lâu thì dùng hiện tại hoàn thành, không dùng hiện tại đơn: I have worked there since I was 15.\nTrích: «Ngữ pháp nó không rạch ròi như cái cách mà một quyển sách nó chia ra.»",
    "contrasts": [],
-   "example_en": "Mark cycles to school. Mark always cycles to school.\nI visit my parents. I visit my parents twice a week.",
-   "example_vi": "Mark đạp xe đi học. Mark luôn đạp xe đi học.\nTôi về thăm bố mẹ. Tôi về thăm bố mẹ hai lần một tuần.",
+   "example_en": "I enjoy eating oranges.\nI have worked there since I was 15.",
+   "example_vi": "Tôi thích ăn cam.\nTôi làm ở đó từ năm 15 tuổi.",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-8; cách giảng của khóa học",
-   "note_vi": "Lỗi người Việt hay mắc: Chờ thấy trạng từ mới dám chia hiện tại đơn. Câu `I wake up at six` không có trạng từ nào và vẫn là thói quen."
+   "note_vi": "Lỗi người Việt hay mắc: Học thuộc 5 gạch đầu dòng rồi mỗi lần nói lại dò xem câu của mình thuộc dòng nào. Việc đó làm chậm phản xạ.",
+   "exam_tip_vi": "Listening: chỉ đường dùng you go … then you turn …. Writing Task 1: mô tả quy trình bằng hiện tại đơn."
+  },
+  {
+   "pattern": "Present simple · tần suất và cách nói thời gian",
+   "meaning_vi": "Trạng từ tần suất, vị trí trong câu, cụm chỉ thời gian",
+   "usage_context_vi": "Trạng từ tần suất (mức xấp xỉ):\n| Mức | Từ |\n| 100% | always |\n| khoảng 90% | usually, normally, generally |\n| khoảng 70% | often, frequently |\n| khoảng 50% | sometimes |\n| khoảng 20% | occasionally |\n| khoảng 10% | rarely, seldom, hardly ever |\n| 0% | never |\nVị trí: sau `be` (She is always late); trước động từ thường (I usually walk); sau trợ động từ (I don't often eat out). Usually, often, sometimes, normally, generally còn đứng được ở đầu câu (Sometimes I cycle). Always và never không đứng cuối câu. Never, rarely, hardly ever đã mang nghĩa phủ định nên không thêm don't.\nCụm chỉ tần suất, thường đứng cuối câu: every day / week / month; once a week; twice a month; three times a year; most days; all the time; from time to time; now and then.\nNói thời điểm: at + giờ (at six, at half past six, at a quarter to seven), at night, at the weekend; on + thứ (on Mondays); in + buổi (in the morning, in the evening); in + tháng hoặc mùa.\nTheo cách giảng của thầy: trạng từ chỉ là phần phụ. Bỏ nó đi, câu vẫn là hiện tại đơn. Có thêm hay không là tùy bạn muốn nói gì.",
+   "contrasts": [],
+   "example_en": "Mark always cycles to school.\nI visit my parents twice a week.\nShe is never late for class.\nI don't often eat out.",
+   "example_vi": "Mark luôn đạp xe đi học.\nTôi về thăm bố mẹ hai lần một tuần.\nCô ấy không bao giờ đến lớp muộn.\nTôi không hay ăn ngoài.",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-8; cách giảng của khóa học",
+   "note_vi": "Lỗi người Việt hay mắc: Đặt sai chỗ: ~~I go usually to school~~ → I usually go to school. Phủ định đôi: ~~I don't never go~~ → I never go.",
+   "exam_tip_vi": "Speaking Part 1, câu hỏi `How often…?`: trả lời bằng about twice a week, most days, every now and then, hardly ever."
   },
   {
    "pattern": "Present simple · điều người nói coi là thật",
    "meaning_vi": "Việc lặp lại, trạng thái, và sự thật theo người nói",
-   "usage_context_vi": "Gom 5 hộp lại còn ba nhóm: việc lặp lại; trạng thái (và câu hỏi về trạng thái); sự thật.\n\"Sự thật\" ở đây là điều người nói nghĩ, tin hoặc muốn người nghe tin lúc nói. Nó gồm sự thật khách quan, ý kiến riêng, lời nói quá và cả lời nói dối. Ngữ pháp không kiểm tra thật giả.\nTrích: «Phần lớn thời gian cái các bạn nghĩ sẽ là cái các bạn nói, thế nên phần lớn cái chúng ta nói ra đều là sự thật chủ quan.»",
+   "usage_context_vi": "Gom các hộp lại còn ba nhóm: việc lặp lại; trạng thái; sự thật.\n\"Sự thật\" ở đây là điều người nói nghĩ, tin hoặc muốn người nghe tin lúc nói. Nó gồm sự thật khách quan, ý kiến riêng, lời nói quá và cả lời nói dối. Ngữ pháp không kiểm tra thật giả.\nTrích: «Phần lớn thời gian cái các bạn nghĩ sẽ là cái các bạn nói, thế nên phần lớn cái chúng ta nói ra đều là sự thật chủ quan.»",
    "contrasts": [],
    "example_en": "Water boils at 100 degrees Celsius.\nYou don't visit me at all!\nNo, I don't have a girlfriend.",
    "example_vi": "Nước sôi ở 100 độ C.\nCon chẳng về thăm mẹ gì cả! (nói quá)\nKhông, anh chưa có bạn gái. (có thể là nói dối, câu vẫn đúng ngữ pháp)",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-8; cách giảng của khóa học",
    "exam_tip_vi": "Trong Writing Task 2, nhận định của bạn (`Online learning saves time`) dùng hiện tại đơn vì đó là điều bạn trình bày như sự thật."
+  },
+  {
+   "pattern": "Present simple · câu hỏi và lỗi thường gặp",
+   "meaning_vi": "Cách đặt câu hỏi và bảy lỗi người Việt hay mắc",
+   "usage_context_vi": "Hỏi Yes/No: Do / Does + chủ ngữ + động từ nguyên thể? (Do you work at the weekend?)\nHỏi bằng từ để hỏi: từ để hỏi + do / does + chủ ngữ + động từ nguyên thể? (Where does she work? How often do you go to the gym?)\nHỏi về chính chủ ngữ (Who, What): không mượn do / does, động từ thêm -s (Who lives next door?).\n`be`, `can`, `will` tự đảo lên đầu câu, không mượn do (Is he late? Can you swim?).\n| Sai | Đúng | Vì sao |\n| Does she works here? | Does she work here? | Đã có does thì động từ về nguyên thể |\n| Where you live? | Where do you live? | Thiếu do |\n| Do you can swim? | Can you swim? | can không mượn do |\n| Are you like jazz? | Do you like jazz? | like là động từ thường, không đi với are |\n| Who does live here? | Who lives here? | Hỏi về chủ ngữ thì không có do |\n| What means this word? | What does this word mean? | Phải mượn does và đảo thứ tự |\n| Yes, I like. | Yes, I do. | Trả lời ngắn dùng lại do / does |",
+   "contrasts": [],
+   "example_en": "Where does she work?\nWho lives next door?\nWhat does this word mean?",
+   "example_vi": "Cô ấy làm ở đâu?\nAi sống ở nhà bên?\nTừ này nghĩa là gì?",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-8; cách giảng của khóa học",
+   "note_vi": "Lỗi người Việt hay mắc: Chia hai lần hoặc quên mượn do: ~~Does she works~~, ~~Where you live~~ → Does she work, Where do you live.",
+   "exam_tip_vi": "Speaking Part 1, nghe kỹ từ để hỏi trước: How often, Where, What kind. Trả lời đủ ý rồi mới thêm chi tiết."
   },
   {
    "pattern": "Present simple · hỏi thì này, đáp thì khác",
@@ -122,42 +328,53 @@
   {
    "pattern": "Present simple · nhấn mạnh với do / does",
    "meaning_vi": "do / does + động từ nguyên thể: \"có ... thật mà\"",
-   "usage_context_vi": "Trong câu khẳng định, đặt `do` hoặc `does` trước động từ để nhấn mạnh hoặc cãi lại điều người kia vừa nói. Động từ sau đó ở dạng nguyên thể.",
+   "usage_context_vi": "Trong câu khẳng định, đặt `do` hoặc `does` trước động từ để nhấn mạnh hoặc cãi lại điều người kia vừa nói (Destination B2, tr. 6). Động từ sau đó ở dạng nguyên thể.",
    "contrasts": [],
-   "example_en": "The bus is slow, but it does stop near my office.\nI do like fish!",
-   "example_vi": "Xe buýt chậm, nhưng nó có dừng gần cơ quan tôi.\nTôi có thích cá mà!",
+   "example_en": "You don't like going by bus, do you? Actually, I do like going by bus for short distances.\nThe bus isn't quicker than the train, but it does stop right outside the factory.",
+   "example_vi": "Cậu không thích đi xe buýt nhỉ? Thực ra tôi có thích, ở những chặng ngắn.\nXe buýt không nhanh hơn tàu, nhưng nó có dừng ngay trước nhà máy.",
    "importance": "normal",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-8; cách giảng của khóa học",
    "note_vi": "Lỗi người Việt hay mắc: Chia hai lần: ~~He does works hard~~ → He does work hard."
+  },
+  {
+   "pattern": "Present simple và present continuous · so sánh nhanh",
+   "meaning_vi": "Đơn: lặp lại, trạng thái, sự thật. Tiếp diễn: đang xảy ra, tạm thời, đang đổi, phàn nàn",
+   "usage_context_vi": "Hiện tại tiếp diễn (am / is / are + V-ing) dùng khi người nói muốn nói việc đang xảy ra hoặc tạm thời (Destination B2, tr. 6; IELTS Grammar 6.5+, tr. 3):\n| Tiếp diễn dùng để | Ví dụ |\n| Việc đang xảy ra | I'm waiting for my friends. |\n| Tình huống tạm thời | My cousin is living in Thailand at the moment. |\n| Xu hướng đang thay đổi | The price of petrol is rising dramatically. |\n| Phàn nàn, thêm always | My mum's always saying I don't help enough! |\n| Ghen tị, thêm always | He's always visiting exciting places! |\nCùng một câu hỏi, hai cách đáp: `Where does your sister live now?` — `She lives in Thailand` (nói như điều ổn định) hay `She is living in Thailand` (tạm thời, rồi sẽ đổi). Chọn theo điều bạn muốn nói. Động từ trạng thái như know, want, believe thì không chia tiếp diễn (xem ngày 2).",
+   "contrasts": [],
+   "example_en": "My cousin lives in Thailand. My cousin is living in Thailand.\nMy sister is always playing her music so loudly!",
+   "example_vi": "Anh họ tôi sống ở Thái Lan. Anh họ tôi đang sống ở Thái Lan (tạm thời).\nChị tôi lúc nào cũng bật nhạc to ơi là to!",
+   "importance": "normal",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-8; cách giảng của khóa học",
+   "note_vi": "Lỗi người Việt hay mắc: Thêm always vào tiếp diễn khi không than phiền: ~~He is usually having lunch at twelve~~ → He usually has lunch at twelve."
   }
  ],
  "notes": [
   {
    "title": "Mục tiêu của ngày",
-   "body": "• Chọn hiện tại đơn theo điều mình muốn nói, không theo từ dấu hiệu; trả lời một câu hỏi hiện tại đơn bằng thì khác khi cần.",
+   "body": "• Lập đúng câu hiện tại đơn (khẳng định, phủ định, câu hỏi), chọn đúng cách dùng và trạng từ chỉ thời gian, tránh lỗi khi hỏi; và biết trả lời một câu hỏi hiện tại đơn bằng thì khác khi cần.",
    "kind": "goal"
   },
   {
    "title": "Bài của sách nằm trong app",
-   "body": "• Destination B2, trang 6–7: Đọc bảng lý thuyết Present simple và Present continuous (khoảng 15 phút)\n• Destination B2, trang 8: bài A (10 câu, khoảng 10 phút)\n• Destination B2, trang 8: bài B (8 câu, khoảng 10 phút)\n• Các bài này đã có sẵn trong app, ở các buổi \"Bài trong sách\" cuối ngày, kèm đáp án của sách và lời giải thích từng câu. Nếu có sách giấy, bạn có thể làm trên sách trước rồi chấm lại trong app. Sau khi học thẻ, với mỗi câu sai hãy tự nói lại câu đó theo ý muốn nói.",
+   "body": "• Destination B2, trang 6–7: Đọc bảng lý thuyết Present simple và Present continuous (khoảng 15 phút)\n• IELTS Grammar 6.5+, trang 2–3: Đọc mục Present simple và Present continuous (khoảng 10 phút)\n• Destination B2, trang 8: bài A (10 câu, khoảng 10 phút)\n• Destination B2, trang 8: bài B (8 câu, khoảng 10 phút)\n• IELTS Grammar 6.5+, trang 4: bài C1 (8 câu, khoảng 8 phút)\n• IELTS Grammar 6.5+, trang 4: bài C2 (12 câu, khoảng 12 phút)\n• Destination C1&C2, trang 8: bài A (16 câu, khoảng 15 phút)\n• Destination C1&C2, trang 8: bài B (15 câu, khoảng 12 phút)\n• Các bài này đã có sẵn trong app, ở các buổi \"Bài trong sách\" cuối ngày, kèm đáp án của sách và lời giải thích từng câu. Nếu có sách giấy, bạn có thể làm trên sách trước rồi chấm lại trong app. Sau khi học thẻ, với mỗi câu sai hãy tự nói lại câu đó theo ý muốn nói.",
    "kind": "language"
   },
   {
    "title": "Dùng ở đâu trong IELTS",
-   "body": "Speaking Part 1 hỏi gần như toàn bằng hiện tại đơn. Người trả lời tốt đổi thì theo điều mình muốn nói: thói quen, điều đã kéo dài, điều đã hết.",
+   "body": "Speaking Part 1 hỏi gần như toàn bằng hiện tại đơn (How often…? Do you…?). Writing Task 1 mô tả quy trình bằng hiện tại đơn. Người trả lời tốt đổi thì theo điều mình muốn nói: thói quen, điều đã kéo dài, điều đã hết.",
    "kind": "language"
   }
  ],
  "bank": "g1",
  "coach": {
   "focus_vi": [
-   "năm hộp của sách: Sách chia 5 cách dùng; một câu có thể nằm trong cả 5",
-   "trạng từ tần suất là phần phụ: Bỏ trạng từ đi, câu vẫn là hiện tại đơn",
-   "điều người nói coi là thật: Việc lặp lại, trạng thái, và sự thật theo người nói"
+   "công thức: Khẳng định, phủ định, câu hỏi; he / she / it thêm -s hoặc -es",
+   "cách dùng: Năm cách dùng của sách, ba cách dùng thêm, và vì sao ranh giới giữa chúng mờ",
+   "tần suất và cách nói thời gian: Trạng từ tần suất, vị trí trong câu, cụm chỉ thời gian"
   ],
   "watch_out_vi": [
-   "Học thuộc 5 gạch đầu dòng rồi mỗi lần nói lại dò xem câu của mình thuộc dòng nào. Việc đó làm chậm phản xạ.",
-   "Chờ thấy trạng từ mới dám chia hiện tại đơn. Câu `I wake up at six` không có trạng từ nào và vẫn là thói quen."
+   "Chia hai lần: ~~Does she works~~ → Does she work. Quên -s: ~~He have~~ → He has.",
+   "Học thuộc 5 gạch đầu dòng rồi mỗi lần nói lại dò xem câu của mình thuộc dòng nào. Việc đó làm chậm phản xạ."
   ]
  },
  "exercise_ids": [
@@ -167,9 +384,21 @@
   "G1D1I4",
   "G1D1I5",
   "G1D1I6",
+  "G1D1I7",
+  "G1D1I8",
   "G1D1Q1",
   "G1D1Q2",
   "G1D1Q3",
+  "G1D1Q4",
+  "G1D1Q5",
+  "G1D1Q6",
+  "G1D1Q7",
+  "G1D1Q8",
+  "G1D1Q9",
+  "G1D1Q10",
+  "G1D1Q11",
+  "G1D1Q12",
+  "G1D1Q13",
   "G1D1KA-1",
   "G1D1KA-2",
   "G1D1KA-3",
@@ -180,13 +409,26 @@
   "G1D1KA-8",
   "G1D1KA-9",
   "G1D1KA-10",
+  "G1D1KC1-1",
+  "G1D1KC1-2",
+  "G1D1KC1-3",
+  "G1D1KC1-4",
+  "G1D1KC1-5",
+  "G1D1KC1-6",
+  "G1D1KC1-7",
+  "G1D1KC1-8",
   "G1D1B1",
   "G1D1B2",
   "G1D1B3",
   "G1D1B4",
+  "G1D1B5",
+  "G1D1B6",
+  "G1D1B7",
   "G1D1F1",
   "G1D1F2",
   "G1D1F3",
+  "G1D1F4",
+  "G1D1F5",
   "G1D1KB-1",
   "G1D1KB-2",
   "G1D1KB-3",
@@ -195,30 +437,88 @@
   "G1D1KB-6",
   "G1D1KB-7",
   "G1D1KB-8",
+  "G1D1KC2-1",
+  "G1D1KC2-2",
+  "G1D1KC2-3",
+  "G1D1KC2-4",
+  "G1D1KC2-5",
+  "G1D1KC2-6",
+  "G1D1KC2-7",
+  "G1D1KC2-8",
+  "G1D1KC2-9",
+  "G1D1KC2-10",
+  "G1D1KC2-11",
+  "G1D1KC2-12",
+  "G1D1KCA-1",
+  "G1D1KCA-2",
+  "G1D1KCA-3",
+  "G1D1KCA-4",
+  "G1D1KCA-5",
+  "G1D1KCA-6",
+  "G1D1KCA-7",
+  "G1D1KCA-8",
+  "G1D1KCA-9",
+  "G1D1KCA-10",
+  "G1D1KCA-11",
+  "G1D1KCA-12",
+  "G1D1KCA-13",
+  "G1D1KCA-14",
+  "G1D1KCA-15",
+  "G1D1KCA-16",
+  "G1D1KCB-1",
+  "G1D1KCB-2",
+  "G1D1KCB-3",
+  "G1D1KCB-4",
+  "G1D1KCB-5",
+  "G1D1KCB-6",
+  "G1D1KCB-7",
+  "G1D1KCB-8",
+  "G1D1KCB-9",
+  "G1D1KCB-10",
+  "G1D1KCB-11",
+  "G1D1KCB-12",
+  "G1D1KCB-13",
+  "G1D1KCB-14",
+  "G1D1KCB-15",
   "G1D1D1",
   "G1D1M1",
-  "G1D1M2"
+  "G1D1M2",
+  "G1D1M3"
  ],
  "sessions": [
   {
-   "title_vi": "Buổi 1 · năm hộp của sách",
-   "can_do_vi": "Sau buổi này bạn nắm được: sách chia 5 cách dùng; một câu có thể nằm trong cả 5; bỏ trạng từ đi, câu vẫn là hiện tại đơn; việc lặp lại, trạng thái, và sự thật theo người nói.",
-   "use_vi": "Speaking Part 1 hỏi gần như toàn bằng hiện tại đơn. Người trả lời tốt đổi thì theo điều mình muốn nói: thói quen, điều đã kéo dài, điều đã hết.",
+   "title_vi": "Buổi 1 · công thức, cách dùng, tần suất và thời gian",
+   "can_do_vi": "Sau buổi này bạn nắm được: khẳng định, phủ định, câu hỏi; he / she / it thêm -s hoặc -es; năm cách dùng của sách, ba cách dùng thêm, và vì sao ranh giới giữa chúng mờ; trạng từ tần suất, vị trí trong câu, cụm chỉ thời gian.",
+   "use_vi": "Speaking Part 1 hỏi gần như toàn bằng hiện tại đơn (How often…? Do you…?). Writing Task 1 mô tả quy trình bằng hiện tại đơn. Người trả lời tốt đổi thì theo điều mình muốn nói: thói quen, điều đã kéo d",
    "vocab": [
     "habit",
+    "frequency",
     "permanent",
     "state",
     "fact",
-    "frequency"
+    "routine",
+    "regularly",
+    "frequently",
+    "occasionally",
+    "rarely"
    ],
    "grammar": [
-    "Present simple · năm hộp của sách",
-    "Present simple · trạng từ tần suất là phần phụ",
+    "Present simple · công thức",
+    "Present simple · cách dùng",
+    "Present simple · tần suất và cách nói thời gian",
     "Present simple · điều người nói coi là thật"
    ],
    "check": [
+    "G1D1Q10",
+    "G1D1Q11",
+    "G1D1Q12",
     "G1D1I1",
+    "G1D1I7",
+    "G1D1I8",
     "G1D1Q2",
+    "G1D1Q4",
+    "G1D1Q5",
+    "G1D1Q13",
     "G1D1I2",
     "G1D1I3",
     "G1D1Q1"
@@ -233,7 +533,7 @@
        "show": "hook"
       },
       {
-       "say": "Nhiều người điểm ngữ pháp rất cao vẫn bị như vậy. Buổi này mình tìm xem cái khựng đó từ đâu ra, bằng một thí nghiệm nhỏ với thì hiện tại đơn."
+       "say": "Buổi này mình học thì hiện tại đơn theo sách Destination B2, nhưng chọn lọc theo cách của một người thầy giỏi: học cái dùng được ngay, và hiểu vì sao nó dùng được."
       }
      ]
     },
@@ -329,6 +629,150 @@
     },
     {
      "kind": "scene",
+     "visual": "ref_table",
+     "eyebrow": "Destination B2 và IELTS Grammar 6.5+",
+     "title": "Các cách dùng, mỗi cách một ví dụ",
+     "data": {
+      "cols": [
+       "Cách dùng",
+       "Ví dụ"
+      ],
+      "rows": [
+       {
+        "key": "u1",
+        "head": "Thói quen hiện tại",
+        "en": "Toby walks to work.",
+        "vi": "Toby đi bộ đi làm."
+       },
+       {
+        "key": "u2",
+        "head": "Mức độ thường xuyên",
+        "en": "Angela doesn't visit us very often.",
+        "vi": "Angela không hay đến thăm chúng tôi."
+       },
+       {
+        "key": "u3",
+        "head": "Tình huống lâu dài",
+        "en": "Carlo works in a travel agent's.",
+        "vi": "Carlo làm ở một đại lý du lịch."
+       },
+       {
+        "key": "u4",
+        "head": "Trạng thái",
+        "en": "Do you have an up-to-date passport?",
+        "vi": "Hộ chiếu của bạn còn hạn không?"
+       },
+       {
+        "key": "u5",
+        "head": "Sự thật chung",
+        "en": "Poland is in the European Union.",
+        "vi": "Ba Lan nằm trong Liên minh châu Âu."
+       },
+       {
+        "key": "u6",
+        "head": "Chỉ đường, hướng dẫn",
+        "en": "You go down to the traffic lights, then you turn left.",
+        "vi": "Đi xuống đến đèn giao thông rồi rẽ trái."
+       },
+       {
+        "key": "u7",
+        "head": "Kể cốt truyện phim, sách",
+        "en": "In the film, the tea lady falls in love with the Prime Minister.",
+        "vi": "Trong phim, cô bán trà phải lòng ngài thủ tướng."
+       },
+       {
+        "key": "u8",
+        "head": "Điều thường được thừa nhận",
+        "en": "Students don't generally have much money.",
+        "vi": "Sinh viên nhìn chung không có nhiều tiền."
+       }
+      ],
+      "rule": "Năm cách dùng của B2 cộng ba cách dùng thêm của IELTS Grammar 6.5+."
+     },
+     "lines": [
+      {
+       "say": "Bây giờ là ví dụ của từng hộp. Hộp thứ nhất, thói quen hiện tại.",
+       "show": "u1"
+      },
+      {
+       "en": "Toby walks to work.",
+       "vi": "Toby đi bộ đi làm.",
+       "gap": true
+      },
+      {
+       "say": "Hộp thứ hai, mức độ thường xuyên.",
+       "show": "u2"
+      },
+      {
+       "en": "Angela doesn't visit us very often.",
+       "vi": "Angela không hay đến thăm chúng tôi.",
+       "gap": true
+      },
+      {
+       "say": "Hộp thứ ba, tình huống lâu dài.",
+       "show": "u3"
+      },
+      {
+       "en": "Carlo works in a travel agent's.",
+       "vi": "Carlo làm ở một đại lý du lịch.",
+       "gap": true
+      },
+      {
+       "say": "Hộp thứ tư, trạng thái.",
+       "show": "u4"
+      },
+      {
+       "en": "Do you have an up-to-date passport?",
+       "vi": "Hộ chiếu của bạn còn hạn không?",
+       "gap": true
+      },
+      {
+       "say": "Hộp thứ năm, sự thật chung.",
+       "show": "u5"
+      },
+      {
+       "en": "Poland is in the European Union.",
+       "vi": "Ba Lan nằm trong Liên minh châu Âu.",
+       "gap": true
+      },
+      {
+       "say": "Sách IELTS Grammar 6.5+ thêm ba cách dùng rất có ích cho thi. Một, chỉ đường và hướng dẫn thao tác.",
+       "show": "u6"
+      },
+      {
+       "en": "You go down to the traffic lights, then you turn left.",
+       "vi": "Đi xuống đến đèn giao thông rồi rẽ trái.",
+       "gap": true
+      },
+      {
+       "say": "Hai, kể lại cốt truyện phim hoặc sách. Bạn sẽ dùng nó trong Speaking Part 2.",
+       "show": "u7"
+      },
+      {
+       "en": "In the film, the tea lady falls in love with the Prime Minister.",
+       "vi": "Trong phim, cô bán trà phải lòng ngài thủ tướng.",
+       "gap": true
+      },
+      {
+       "say": "Ba, điều thường được thừa nhận.",
+       "show": "u8"
+      },
+      {
+       "en": "Students don't generally have much money.",
+       "vi": "Sinh viên nhìn chung không có nhiều tiền.",
+       "gap": true
+      },
+      {
+       "say": "Tám dòng. Nhưng một lưu ý: nói một việc đã kéo dài bao lâu, thì dùng hiện tại hoàn thành, không dùng hiện tại đơn. Ví dụ: I have worked there since I was fifteen."
+      },
+      {
+       "say": "Năm hộp, cộng ba cách dùng thêm: đó là toàn bộ bảng của sách.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
      "visual": "five_boxes",
      "eyebrow": "Thí nghiệm 1",
      "title": "Một câu, xếp vào hộp nào?",
@@ -415,162 +859,8 @@
     },
     {
      "kind": "scene",
-     "visual": "adverb_toggle",
-     "eyebrow": "Thí nghiệm 2",
-     "title": "Bỏ trạng từ đi thì sao?",
-     "data": {
-      "core": [
-       "I",
-       "visit",
-       "my parents"
-      ],
-      "verb": "visit",
-      "adverb": "twice a week",
-      "signals": [
-       "always",
-       "usually",
-       "very often",
-       "twice a week"
-      ],
-      "proof": "I wake up at six.",
-      "proof_vi": "Không có trạng từ nào, vẫn là thói quen.",
-      "rule": "Trạng từ tần suất là phần thêm vào. Bỏ nó đi, câu vẫn là hiện tại đơn."
-     },
-     "lines": [
-      {
-       "say": "Thí nghiệm thứ hai. Nhiều bạn chờ thấy always, usually, very often, twice a week rồi mới dám chia hiện tại đơn.",
-       "show": "signals"
-      },
-      {
-       "en": "I visit my parents twice a week.",
-       "vi": "Tôi về thăm bố mẹ hai lần một tuần.",
-       "gap": true,
-       "show": "full"
-      },
-      {
-       "say": "Bây giờ bỏ phần hai lần một tuần đi.",
-       "show": "drop"
-      },
-      {
-       "en": "I visit my parents.",
-       "vi": "Tôi về thăm bố mẹ.",
-       "gap": true
-      },
-      {
-       "say": "Việc về thăm bố mẹ vẫn là việc lặp lại. Đâu có ai cả đời chỉ thăm bố mẹ đúng một lần."
-      },
-      {
-       "say": "Thêm một câu không có trạng từ nào."
-      },
-      {
-       "en": "I wake up at six.",
-       "vi": "Tôi dậy lúc sáu giờ.",
-       "gap": true,
-       "show": "proof"
-      },
-      {
-       "say": "Vẫn là thói quen. Trạng từ tần suất chỉ là phần thêm vào: nói hay không là tùy bạn muốn cho người nghe thêm thông tin gì.",
-       "show": "rule"
-      }
-     ]
-    },
-    {
-     "kind": "scene",
-     "visual": "truth_cards",
-     "eyebrow": "Bản chất",
-     "title": "Điều người nói coi là thật",
-     "data": {
-      "groups": [
-       "Việc lặp lại",
-       "Trạng thái",
-       "Sự thật"
-      ],
-      "cards": [
-       {
-        "key": "c1",
-        "tag": "Sự thật khách quan",
-        "art": "kettle",
-        "en": "Water boils at 100 degrees Celsius.",
-        "vi": "Nước sôi ở 100 độ C."
-       },
-       {
-        "key": "c2",
-        "tag": "Nói quá",
-        "art": "mother",
-        "en": "You don't visit me at all!",
-        "vi": "Con chẳng về thăm mẹ gì cả!"
-       },
-       {
-        "key": "c3",
-        "tag": "Nói dối, ngữ pháp vẫn đúng",
-        "art": "mask",
-        "en": "No, I don't have a girlfriend.",
-        "vi": "Không, anh chưa có bạn gái."
-       }
-      ],
-      "quote": "Phần lớn thời gian cái các bạn nghĩ sẽ là cái các bạn nói, thế nên phần lớn cái chúng ta nói ra đều là sự thật chủ quan.",
-      "rule": "Hiện tại đơn: điều người nói coi là thật, hoặc muốn người nghe coi là thật, lúc nói.",
-      "ielts": "Writing Task 2: Online learning saves time."
-     },
-     "lines": [
-      {
-       "say": "Vậy gom năm hộp lại, hiện tại đơn dùng cho ba việc: việc lặp lại, trạng thái, và sự thật.",
-       "show": "groups"
-      },
-      {
-       "say": "Nhưng chữ sự thật ở đây rộng hơn bạn nghĩ. Câu đầu tiên."
-      },
-      {
-       "en": "Water boils at 100 degrees Celsius.",
-       "vi": "Nước sôi ở 100 độ C.",
-       "gap": true,
-       "show": "c1"
-      },
-      {
-       "say": "Đây là sự thật khách quan, ai cũng công nhận. Nhưng ngoài đời, mấy khi mình ngồi nói với nhau chuyện nước sôi ở bao nhiêu độ."
-      },
-      {
-       "say": "Tình huống thứ hai. Tuần nào bạn cũng về thăm mẹ hai lần. Tuần này bận thi, bạn chỉ về một lần. Mẹ trách ngay."
-      },
-      {
-       "en": "You don't visit me at all!",
-       "vi": "Con chẳng về thăm mẹ gì cả!",
-       "gap": true,
-       "show": "c2"
-      },
-      {
-       "say": "Con chẳng về thăm mẹ gì cả. Mẹ nói quá lên, và mẹ vẫn dùng hiện tại đơn, vì lúc đó mẹ trình bày điều ấy như một sự thật."
-      },
-      {
-       "say": "Tình huống thứ ba. Một anh đang có bạn gái, nhưng muốn người đối diện tin là chưa có."
-      },
-      {
-       "en": "No, I don't have a girlfriend.",
-       "vi": "Không, anh chưa có bạn gái.",
-       "gap": true,
-       "show": "c3"
-      },
-      {
-       "say": "Anh ta nói dối, và câu vẫn đúng ngữ pháp hoàn toàn. Ngữ pháp không kiểm tra thật giả."
-      },
-      {
-       "say": "Và một câu nữa, cũng đáng nhớ: phần lớn thời gian cái các bạn nghĩ sẽ là cái các bạn nói, thế nên phần lớn cái chúng ta nói ra đều là sự thật chủ quan.",
-       "show": "quote"
-      },
-      {
-       "say": "Vậy hiện tại đơn là điều người nói coi là thật, hoặc muốn người nghe coi là thật, vào lúc nói.",
-       "show": "rule"
-      },
-      {
-       "say": "Bạn sẽ dùng đúng điều này trong bài viết IELTS. Khi bạn nêu một nhận định trong Writing Task 2, bạn dùng hiện tại đơn, vì bạn trình bày nó như sự thật.",
-       "show": "ielts"
-      }
-     ]
-    },
-    {
-     "kind": "scene",
      "visual": "sentence_forms",
-     "eyebrow": "Cách lập câu",
+     "eyebrow": "Công thức · Destination B2 trang 6",
      "title": "Ba dạng câu của hiện tại đơn",
      "data": {
       "rows": [
@@ -635,6 +925,10 @@
         "watches"
        ],
        [
+        "go",
+        "goes"
+       ],
+       [
         "study",
         "studies"
        ],
@@ -647,11 +941,11 @@
        "Yes, he does.",
        "No, he doesn't."
       ],
-      "rule": "Khẳng định: he / she / it thêm s. Phủ định và câu hỏi: does / doesn't, động từ về nguyên thể."
+      "rule": "Khẳng định: he / she / it thêm s hoặc es. Phủ định và câu hỏi: does / doesn't, động từ về nguyên thể."
      },
      "lines": [
       {
-       "say": "Bây giờ là cách lập câu. Chỉ có ba dạng: khẳng định, phủ định và câu hỏi."
+       "say": "Bây giờ là công thức. Chỉ có ba dạng: khẳng định, phủ định và câu hỏi."
       },
       {
        "say": "Một. Câu khẳng định. Với I, you, we, they, động từ giữ nguyên. Với he, she, it, nghĩa là một người hoặc một vật, động từ thêm s.",
@@ -664,11 +958,11 @@
        "show": "aff"
       },
       {
-       "say": "Minh là he, nên cycle thành cycles. Không phải lúc nào cũng chỉ thêm s: watch thành watches, study thành studies, have thành has.",
+       "say": "Không phải lúc nào cũng chỉ thêm s. Động từ tận cùng là s, sh, ch, x hoặc o thì thêm es: watch thành watches, go thành goes. Phụ âm đứng trước y thì đổi y thành ies: study thành studies. Và have thành has.",
        "show": "spelling"
       },
       {
-       "say": "Hai. Câu phủ định. Đặt don't hoặc doesn't trước động từ. Với he, she, it dùng doesn't. Chú ý: đã có doesn't thì động từ không còn s nữa, nó về nguyên thể."
+       "say": "Hai. Câu phủ định. Đặt don't hoặc doesn't trước động từ. Với he, she, it dùng doesn't. Đã có doesn't thì động từ không còn s nữa, nó về nguyên thể."
       },
       {
        "en": "Minh doesn't cycle to school.",
@@ -690,8 +984,538 @@
        "show": "short"
       },
       {
-       "say": "Tóm lại. Câu khẳng định: với he, she, it, động từ thêm s. Câu phủ định và câu hỏi: dùng does hoặc doesn't, và động từ về nguyên thể.",
+       "say": "Riêng động từ be không mượn do hay does: she isn't a student, is he late?"
+      },
+      {
+       "say": "Tóm lại. Câu khẳng định: với he, she, it, động từ thêm s hoặc es. Câu phủ định và câu hỏi: dùng does hoặc doesn't, và động từ về nguyên thể.",
        "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "adverb_toggle",
+     "eyebrow": "Thí nghiệm 2",
+     "title": "Bỏ trạng từ đi thì sao?",
+     "data": {
+      "core": [
+       "I",
+       "visit",
+       "my parents"
+      ],
+      "verb": "visit",
+      "adverb": "twice a week",
+      "signals": [
+       "always",
+       "usually",
+       "very often",
+       "twice a week"
+      ],
+      "proof": "I wake up at six.",
+      "proof_vi": "Không có trạng từ nào, vẫn là thói quen.",
+      "rule": "Trạng từ tần suất là phần thêm vào. Bỏ nó đi, câu vẫn là hiện tại đơn."
+     },
+     "lines": [
+      {
+       "say": "Thí nghiệm thứ hai. Nhiều bạn chờ thấy always, usually, very often, twice a week rồi mới dám chia hiện tại đơn.",
+       "show": "signals"
+      },
+      {
+       "en": "I visit my parents twice a week.",
+       "vi": "Tôi về thăm bố mẹ hai lần một tuần.",
+       "gap": true,
+       "show": "full"
+      },
+      {
+       "say": "Bây giờ bỏ phần hai lần một tuần đi.",
+       "show": "drop"
+      },
+      {
+       "en": "I visit my parents.",
+       "vi": "Tôi về thăm bố mẹ.",
+       "gap": true
+      },
+      {
+       "say": "Việc về thăm bố mẹ vẫn là việc lặp lại. Đâu có ai cả đời chỉ thăm bố mẹ đúng một lần."
+      },
+      {
+       "say": "Thêm một câu không có trạng từ nào."
+      },
+      {
+       "en": "I wake up at six.",
+       "vi": "Tôi dậy lúc sáu giờ.",
+       "gap": true,
+       "show": "proof"
+      },
+      {
+       "say": "Vẫn là thói quen. Trạng từ tần suất chỉ là phần thêm vào: nói hay không là tùy bạn muốn cho người nghe thêm thông tin gì.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "routine",
+     "lines": [
+      {
+       "say": "Giờ là cách nói tần suất. Năm từ chỉ mức độ, bắt đầu từ chính chữ thói quen hằng ngày."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "regularly",
+     "lines": [
+      {
+       "say": "Một từ chỉ sự đều đặn."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "frequently",
+     "lines": [
+      {
+       "say": "Một từ nữa."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "occasionally",
+     "lines": [
+      {
+       "say": "Mức thấp hơn."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "rarely",
+     "lines": [
+      {
+       "say": "Và mức thấp nhất, trước chữ không bao giờ."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "ref_table",
+     "eyebrow": "Trạng từ tần suất",
+     "title": "Từ 100% xuống 0%",
+     "data": {
+      "cols": [
+       "Mức xấp xỉ · từ",
+       "Ví dụ"
+      ],
+      "rows": [
+       {
+        "key": "f1",
+        "head": "100% · always",
+        "en": "She is always late.",
+        "vi": "Cô ấy lúc nào cũng muộn."
+       },
+       {
+        "key": "f2",
+        "head": "~90% · usually, normally, generally",
+        "en": "I usually walk to school.",
+        "vi": "Tôi thường đi bộ đến trường."
+       },
+       {
+        "key": "f3",
+        "head": "~70% · often, frequently",
+        "en": "We often eat out.",
+        "vi": "Chúng tôi hay ăn ngoài."
+       },
+       {
+        "key": "f4",
+        "head": "~50% · sometimes",
+        "en": "Sometimes I cycle.",
+        "vi": "Thỉnh thoảng tôi đạp xe."
+       },
+       {
+        "key": "f5",
+        "head": "~20% · occasionally",
+        "en": "I occasionally go to the cinema.",
+        "vi": "Tôi thỉnh thoảng mới đi xem phim."
+       },
+       {
+        "key": "f6",
+        "head": "~10% · rarely, seldom, hardly ever",
+        "en": "I hardly ever get up before seven.",
+        "vi": "Tôi gần như không dậy trước bảy giờ."
+       },
+       {
+        "key": "f7",
+        "head": "0% · never",
+        "en": "He never eats meat.",
+        "vi": "Anh ấy không bao giờ ăn thịt."
+       }
+      ],
+      "rule": "Chỉ là mức xấp xỉ: người nói tự chọn từ hợp với điều muốn nói."
+     },
+     "lines": [
+      {
+       "say": "Xếp các trạng từ theo mức, từ cao xuống thấp. Mức cao nhất là always, một trăm phần trăm.",
+       "show": "f1"
+      },
+      {
+       "en": "She is always late.",
+       "vi": "Cô ấy lúc nào cũng muộn.",
+       "gap": true
+      },
+      {
+       "say": "Usually, normally và generally, khoảng chín mươi phần trăm.",
+       "show": "f2"
+      },
+      {
+       "en": "I usually walk to school.",
+       "vi": "Tôi thường đi bộ đến trường.",
+       "gap": true
+      },
+      {
+       "say": "Often và frequently, khoảng bảy mươi.",
+       "show": "f3"
+      },
+      {
+       "en": "We often eat out.",
+       "vi": "Chúng tôi hay ăn ngoài.",
+       "gap": true
+      },
+      {
+       "say": "Sometimes, khoảng một nửa.",
+       "show": "f4"
+      },
+      {
+       "en": "Sometimes I cycle.",
+       "vi": "Thỉnh thoảng tôi đạp xe.",
+       "gap": true
+      },
+      {
+       "say": "Occasionally, khoảng hai mươi.",
+       "show": "f5"
+      },
+      {
+       "say": "Rarely, seldom và hardly ever, khoảng mười, gần như không.",
+       "show": "f6"
+      },
+      {
+       "en": "I hardly ever get up before seven.",
+       "vi": "Tôi gần như không dậy trước bảy giờ.",
+       "gap": true
+      },
+      {
+       "say": "Và never, không bao giờ.",
+       "show": "f7"
+      },
+      {
+       "en": "He never eats meat.",
+       "vi": "Anh ấy không bao giờ ăn thịt.",
+       "gap": true
+      },
+      {
+       "say": "Đây chỉ là mức xấp xỉ. Người nói tự chọn từ hợp với điều mình muốn nói.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "ref_table",
+     "eyebrow": "Vị trí trong câu",
+     "title": "Trạng từ đứng ở đâu?",
+     "data": {
+      "cols": [
+       "Vị trí",
+       "Ví dụ"
+      ],
+      "rows": [
+       {
+        "key": "p1",
+        "head": "Sau be",
+        "en": "She is always late.",
+        "vi": "be đứng trước, trạng từ theo sau."
+       },
+       {
+        "key": "p2",
+        "head": "Trước động từ thường",
+        "en": "I usually walk to school.",
+        "vi": "Trạng từ nằm giữa chủ ngữ và động từ."
+       },
+       {
+        "key": "p3",
+        "head": "Sau don't / doesn't",
+        "en": "I don't often eat out.",
+        "vi": "Trạng từ nằm sau trợ từ."
+       },
+       {
+        "key": "p4",
+        "head": "Đầu câu (usually, often, sometimes)",
+        "en": "Sometimes I cycle to work.",
+        "vi": "Đứng đầu câu để nhấn."
+       },
+       {
+        "key": "p5",
+        "head": "never, hardly ever đã là phủ định",
+        "en": "I never go there.",
+        "vi": "Không nói: I don't never go."
+       }
+      ],
+      "rule": "Sau be, trước động từ thường, sau don't. Never và hardly ever đã mang nghĩa phủ định."
+     },
+     "lines": [
+      {
+       "say": "Trạng từ tần suất đứng ở đâu trong câu? Một. Sau động từ be.",
+       "show": "p1"
+      },
+      {
+       "en": "She is always late.",
+       "vi": "Cô ấy lúc nào cũng muộn.",
+       "gap": true
+      },
+      {
+       "say": "Hai. Trước động từ thường.",
+       "show": "p2"
+      },
+      {
+       "en": "I usually walk to school.",
+       "vi": "Tôi thường đi bộ đến trường.",
+       "gap": true
+      },
+      {
+       "say": "Ba. Trong câu phủ định hoặc câu hỏi, sau don't hoặc doesn't.",
+       "show": "p3"
+      },
+      {
+       "en": "I don't often eat out.",
+       "vi": "Tôi không hay ăn ngoài.",
+       "gap": true
+      },
+      {
+       "say": "Bốn. Usually, often và sometimes còn đứng được ở đầu câu.",
+       "show": "p4"
+      },
+      {
+       "en": "Sometimes I cycle to work.",
+       "vi": "Thỉnh thoảng tôi đạp xe đi làm.",
+       "gap": true
+      },
+      {
+       "say": "Năm. Never và hardly ever đã mang nghĩa phủ định rồi, nên không thêm don't. Người Việt hay nói thừa một lần phủ định.",
+       "show": "p5"
+      },
+      {
+       "en": "I never go there.",
+       "vi": "Tôi không bao giờ đến đó.",
+       "gap": true
+      },
+      {
+       "say": "Nhớ ba chỗ: sau be, trước động từ thường, sau don't.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "ref_table",
+     "eyebrow": "Cách nói thời gian",
+     "title": "Giờ, ngày, buổi và số lần",
+     "data": {
+      "cols": [
+       "Giới từ và cụm",
+       "Ví dụ"
+      ],
+      "rows": [
+       {
+        "key": "w1",
+        "head": "at + giờ",
+        "en": "I get up at half past six.",
+        "vi": "Tôi dậy lúc sáu giờ rưỡi."
+       },
+       {
+        "key": "w2",
+        "head": "on + thứ",
+        "en": "I play football on Mondays.",
+        "vi": "Thứ Hai nào tôi cũng đá bóng."
+       },
+       {
+        "key": "w3",
+        "head": "in + buổi trong ngày",
+        "en": "I study in the evenings.",
+        "vi": "Tôi học vào các buổi tối."
+       },
+       {
+        "key": "w4",
+        "head": "at the weekend, at night",
+        "en": "I stay up late at the weekend.",
+        "vi": "Cuối tuần tôi thức khuya."
+       },
+       {
+        "key": "w5",
+        "head": "số lần + khoảng thời gian",
+        "en": "I go to the gym three times a week.",
+        "vi": "Tôi đi tập ba lần một tuần."
+       },
+       {
+        "key": "w6",
+        "head": "thỉnh thoảng",
+        "en": "We go out every now and then.",
+        "vi": "Thỉnh thoảng chúng tôi đi chơi."
+       }
+      ],
+      "rule": "At cho giờ, on cho thứ, in cho buổi trong ngày."
+     },
+     "lines": [
+      {
+       "say": "Cuối cùng, cách nói thời gian. Giờ giấc dùng at: at six, at half past six, at a quarter to seven.",
+       "show": "w1"
+      },
+      {
+       "en": "I get up at half past six.",
+       "vi": "Tôi dậy lúc sáu giờ rưỡi.",
+       "gap": true
+      },
+      {
+       "say": "Thứ trong tuần dùng on. Thêm s sau thứ nghĩa là thứ nào cũng vậy.",
+       "show": "w2"
+      },
+      {
+       "en": "I play football on Mondays.",
+       "vi": "Thứ Hai nào tôi cũng đá bóng.",
+       "gap": true
+      },
+      {
+       "say": "Buổi trong ngày dùng in: in the morning, in the afternoon, in the evening.",
+       "show": "w3"
+      },
+      {
+       "en": "I study in the evenings.",
+       "vi": "Tôi học vào các buổi tối.",
+       "gap": true
+      },
+      {
+       "say": "Cuối tuần và ban đêm dùng at: at the weekend, at night.",
+       "show": "w4"
+      },
+      {
+       "en": "I stay up late at the weekend.",
+       "vi": "Cuối tuần tôi thức khuya.",
+       "gap": true
+      },
+      {
+       "say": "Số lần: once, twice, rồi three times, cộng một khoảng thời gian.",
+       "show": "w5"
+      },
+      {
+       "en": "I go to the gym three times a week.",
+       "vi": "Tôi đi tập ba lần một tuần.",
+       "gap": true
+      },
+      {
+       "say": "Và một cụm rất tự nhiên cho Speaking: every now and then, nghĩa là thỉnh thoảng.",
+       "show": "w6"
+      },
+      {
+       "en": "We go out every now and then.",
+       "vi": "Thỉnh thoảng chúng tôi đi chơi.",
+       "gap": true
+      },
+      {
+       "say": "Giờ dùng at, thứ dùng on, buổi trong ngày dùng in.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "truth_cards",
+     "eyebrow": "Bản chất",
+     "title": "Điều người nói coi là thật",
+     "data": {
+      "groups": [
+       "Việc lặp lại",
+       "Trạng thái",
+       "Sự thật"
+      ],
+      "cards": [
+       {
+        "key": "c1",
+        "tag": "Sự thật khách quan",
+        "art": "kettle",
+        "en": "Water boils at 100 degrees Celsius.",
+        "vi": "Nước sôi ở 100 độ C."
+       },
+       {
+        "key": "c2",
+        "tag": "Nói quá",
+        "art": "mother",
+        "en": "You don't visit me at all!",
+        "vi": "Con chẳng về thăm mẹ gì cả!"
+       },
+       {
+        "key": "c3",
+        "tag": "Nói dối, ngữ pháp vẫn đúng",
+        "art": "mask",
+        "en": "No, I don't have a girlfriend.",
+        "vi": "Không, anh chưa có bạn gái."
+       }
+      ],
+      "quote": "Phần lớn thời gian cái các bạn nghĩ sẽ là cái các bạn nói, thế nên phần lớn cái chúng ta nói ra đều là sự thật chủ quan.",
+      "rule": "Hiện tại đơn: điều người nói coi là thật, hoặc muốn người nghe coi là thật, lúc nói.",
+      "ielts": "Writing Task 2: Online learning saves time."
+     },
+     "lines": [
+      {
+       "say": "Vậy gom các hộp lại, hiện tại đơn dùng cho ba việc: việc lặp lại, trạng thái, và sự thật.",
+       "show": "groups"
+      },
+      {
+       "say": "Nhưng chữ sự thật ở đây rộng hơn bạn nghĩ. Câu đầu tiên."
+      },
+      {
+       "en": "Water boils at 100 degrees Celsius.",
+       "vi": "Nước sôi ở 100 độ C.",
+       "gap": true,
+       "show": "c1"
+      },
+      {
+       "say": "Đây là sự thật khách quan, ai cũng công nhận. Nhưng ngoài đời, mấy khi mình ngồi nói với nhau chuyện nước sôi ở bao nhiêu độ."
+      },
+      {
+       "say": "Tình huống thứ hai. Tuần nào bạn cũng về thăm mẹ hai lần. Tuần này bận thi, bạn chỉ về một lần. Mẹ trách ngay."
+      },
+      {
+       "en": "You don't visit me at all!",
+       "vi": "Con chẳng về thăm mẹ gì cả!",
+       "gap": true,
+       "show": "c2"
+      },
+      {
+       "say": "Con chẳng về thăm mẹ gì cả. Mẹ nói quá lên, và mẹ vẫn dùng hiện tại đơn, vì lúc đó mẹ trình bày điều ấy như một sự thật."
+      },
+      {
+       "say": "Tình huống thứ ba. Một anh đang có bạn gái, nhưng muốn người đối diện tin là chưa có."
+      },
+      {
+       "en": "No, I don't have a girlfriend.",
+       "vi": "Không, anh chưa có bạn gái.",
+       "gap": true,
+       "show": "c3"
+      },
+      {
+       "say": "Anh ta nói dối, và câu vẫn đúng ngữ pháp hoàn toàn. Ngữ pháp không kiểm tra thật giả."
+      },
+      {
+       "say": "Và một câu nữa, cũng đáng nhớ: phần lớn thời gian cái các bạn nghĩ sẽ là cái các bạn nói, thế nên phần lớn cái chúng ta nói ra đều là sự thật chủ quan.",
+       "show": "quote"
+      },
+      {
+       "say": "Vậy hiện tại đơn là điều người nói coi là thật, hoặc muốn người nghe coi là thật, vào lúc nói.",
+       "show": "rule"
+      },
+      {
+       "say": "Bạn sẽ dùng đúng điều này trong bài viết IELTS. Khi bạn nêu một nhận định trong Writing Task 2, bạn dùng hiện tại đơn, vì bạn trình bày nó như sự thật.",
+       "show": "ielts"
       }
      ]
     },
@@ -717,36 +1541,161 @@
    ]
   },
   {
-   "title_vi": "Buổi 2 · hỏi thì này, đáp thì khác",
-   "can_do_vi": "Sau buổi này bạn nắm được: thì của câu trả lời theo điều mình muốn nói; do / does + động từ nguyên thể: \"có ... thật mà\".",
-   "use_vi": "Speaking Part 1 hỏi gần như toàn bằng hiện tại đơn. Người trả lời tốt đổi thì theo điều mình muốn nói: thói quen, điều đã kéo dài, điều đã hết.",
+   "title_vi": "Buổi 2 · câu hỏi, hỏi thì này đáp thì khác, nhấn mạnh",
+   "can_do_vi": "Sau buổi này bạn nắm được: việc lặp lại, trạng thái, và sự thật theo người nói; cách đặt câu hỏi và bảy lỗi người việt hay mắc; thì của câu trả lời theo điều mình muốn nói.",
+   "use_vi": "Speaking Part 1 hỏi gần như toàn bằng hiện tại đơn (How often…? Do you…?). Writing Task 1 mô tả quy trình bằng hiện tại đơn. Người trả lời tốt đổi thì theo điều mình muốn nói: thói quen, điều đã kéo d",
    "vocab": [
     "emphasise"
    ],
    "grammar": [
+    "Present simple · câu hỏi và lỗi thường gặp",
     "Present simple · hỏi thì này, đáp thì khác",
-    "Present simple · nhấn mạnh với do / does"
+    "Present simple · nhấn mạnh với do / does",
+    "Present simple và present continuous · so sánh nhanh"
    ],
    "check": [
+    "G1D1Q6",
+    "G1D1Q7",
+    "G1D1Q8",
+    "G1D1Q9",
     "G1D1I4",
     "G1D1I5",
     "G1D1I6",
-    "G1D1Q3",
-    "G1D1B4",
-    "G1D1F2",
-    "G1D1F3"
+    "G1D1Q3"
    ],
    "lecture": [
     {
      "kind": "title",
-     "hook": "Hỏi thì nào, có phải đáp thì nấy?",
+     "hook": "Hỏi sai ở đâu, và hỏi thì nào có phải đáp thì nấy?",
      "lines": [
       {
-       "say": "Buổi hai: hỏi thì nào, có phải đáp thì nấy?",
+       "say": "Buổi hai: hỏi sai ở đâu, và hỏi thì nào có phải đáp thì nấy?",
        "show": "hook"
       },
       {
-       "say": "Buổi này có hai việc. Một là bỏ thói quen hỏi gì đáp nấy. Hai là học một cách nhấn mạnh rất hay dùng khi nói."
+       "say": "Buổi này có bốn việc. Một là sửa các lỗi hay gặp khi đặt câu hỏi. Hai là bỏ thói quen hỏi gì đáp nấy. Ba là một cách nhấn mạnh rất hay dùng khi nói. Bốn là so nhanh với hiện tại tiếp diễn."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "fix_pairs",
+     "eyebrow": "Lỗi thường gặp khi hỏi",
+     "title": "Bảy lỗi, bảy cách sửa",
+     "data": {
+      "rows": [
+       {
+        "key": "e1",
+        "wrong": "Does she works here?",
+        "right": "Does she work here?",
+        "why": "Đã có does thì động từ về nguyên thể."
+       },
+       {
+        "key": "e2",
+        "wrong": "Where you live?",
+        "right": "Where do you live?",
+        "why": "Thiếu do."
+       },
+       {
+        "key": "e3",
+        "wrong": "Do you can swim?",
+        "right": "Can you swim?",
+        "why": "can không mượn do."
+       },
+       {
+        "key": "e4",
+        "wrong": "Are you like jazz?",
+        "right": "Do you like jazz?",
+        "why": "like là động từ thường, không đi với are."
+       },
+       {
+        "key": "e5",
+        "wrong": "Who does live next door?",
+        "right": "Who lives next door?",
+        "why": "Hỏi về chủ ngữ thì không mượn do."
+       },
+       {
+        "key": "e6",
+        "wrong": "What means this word?",
+        "right": "What does this word mean?",
+        "why": "Phải mượn does và đảo thứ tự."
+       },
+       {
+        "key": "e7",
+        "wrong": "Yes, I like.",
+        "right": "Yes, I do.",
+        "why": "Trả lời ngắn dùng lại do hoặc does."
+       }
+      ],
+      "rule": "Đã có do hoặc does thì động từ về nguyên thể. Hỏi về chủ ngữ thì không mượn do."
+     },
+     "lines": [
+      {
+       "say": "Giám khảo Speaking Part 1 hỏi toàn câu hỏi, và người học hay sai ở đúng chỗ đó. Lỗi thứ nhất: chia hai lần.",
+       "show": "e1"
+      },
+      {
+       "en": "Does she work here?",
+       "vi": "Cô ấy có làm ở đây không?",
+       "gap": true
+      },
+      {
+       "say": "Lỗi thứ hai: quên mượn do khi có từ để hỏi.",
+       "show": "e2"
+      },
+      {
+       "en": "Where do you live?",
+       "vi": "Bạn sống ở đâu?",
+       "gap": true
+      },
+      {
+       "say": "Lỗi thứ ba: can không mượn do.",
+       "show": "e3"
+      },
+      {
+       "en": "Can you swim?",
+       "vi": "Bạn biết bơi không?",
+       "gap": true
+      },
+      {
+       "say": "Lỗi thứ tư: dùng are với động từ thường.",
+       "show": "e4"
+      },
+      {
+       "en": "Do you like jazz?",
+       "vi": "Bạn có thích nhạc jazz không?",
+       "gap": true
+      },
+      {
+       "say": "Lỗi thứ năm: khi từ để hỏi chính là chủ ngữ, thì không mượn do.",
+       "show": "e5"
+      },
+      {
+       "en": "Who lives next door?",
+       "vi": "Ai sống ở nhà bên?",
+       "gap": true
+      },
+      {
+       "say": "Lỗi thứ sáu: hỏi nghĩa của từ.",
+       "show": "e6"
+      },
+      {
+       "en": "What does this word mean?",
+       "vi": "Từ này nghĩa là gì?",
+       "gap": true
+      },
+      {
+       "say": "Lỗi thứ bảy: trả lời ngắn.",
+       "show": "e7"
+      },
+      {
+       "en": "Yes, I do.",
+       "vi": "Có.",
+       "gap": true
+      },
+      {
+       "say": "Gói lại: đã có do hoặc does thì động từ về nguyên thể. Hỏi về chủ ngữ thì không mượn do.",
+       "show": "rule"
       }
      ]
     },
@@ -1007,6 +1956,90 @@
      ]
     },
     {
+     "kind": "scene",
+     "visual": "ref_table",
+     "eyebrow": "So với hiện tại tiếp diễn",
+     "title": "Khi nào đổi sang tiếp diễn?",
+     "data": {
+      "cols": [
+       "Tiếp diễn dùng để",
+       "Ví dụ"
+      ],
+      "rows": [
+       {
+        "key": "k1",
+        "head": "Việc đang xảy ra",
+        "en": "I'm waiting for my friends.",
+        "vi": "Tôi đang đợi bạn."
+       },
+       {
+        "key": "k2",
+        "head": "Tình huống tạm thời",
+        "en": "My cousin is living in Thailand at the moment.",
+        "vi": "Anh họ tôi đang sống ở Thái Lan."
+       },
+       {
+        "key": "k3",
+        "head": "Xu hướng đang đổi",
+        "en": "The price of petrol is rising dramatically.",
+        "vi": "Giá xăng đang tăng mạnh."
+       },
+       {
+        "key": "k4",
+        "head": "Phàn nàn, thêm always",
+        "en": "My sister is always playing her music so loudly!",
+        "vi": "Chị tôi lúc nào cũng bật nhạc ầm ĩ."
+       }
+      ],
+      "rule": "Đơn: lặp lại, trạng thái, sự thật. Tiếp diễn: đang xảy ra, tạm thời, đang đổi, than phiền với always."
+     },
+     "lines": [
+      {
+       "say": "Cuối cùng, so nhanh với hiện tại tiếp diễn, là thì của ngày mai. Tiếp diễn dùng khi bạn muốn nói việc đang xảy ra."
+      },
+      {
+       "en": "I'm waiting for my friends.",
+       "vi": "Tôi đang đợi bạn.",
+       "gap": true,
+       "show": "k1"
+      },
+      {
+       "say": "Hoặc một tình huống tạm thời. Anh họ tôi bình thường không sống ở Thái Lan; chỉ lúc này thôi.",
+       "show": "k2"
+      },
+      {
+       "en": "My cousin is living in Thailand at the moment.",
+       "vi": "Anh họ tôi đang sống ở Thái Lan.",
+       "gap": true
+      },
+      {
+       "say": "Hoặc một xu hướng đang thay đổi.",
+       "show": "k3"
+      },
+      {
+       "en": "The price of petrol is rising dramatically.",
+       "vi": "Giá xăng đang tăng mạnh.",
+       "gap": true
+      },
+      {
+       "say": "Và một trường hợp đặc biệt: tiếp diễn đi với always khi người nói than phiền, vì việc lặp lại quá mức làm họ bực.",
+       "show": "k4"
+      },
+      {
+       "en": "My sister is always playing her music so loudly!",
+       "vi": "Chị tôi lúc nào cũng bật nhạc ầm ĩ.",
+       "gap": true
+      },
+      {
+       "say": "Cùng một câu hỏi, where does your sister live now, bạn có thể đáp she lives in Thailand, hoặc she is living in Thailand. Câu đầu nói như điều ổn định, câu sau nói tạm thời. Chọn theo điều bạn muốn nói."
+      },
+      {
+       "say": "Đơn cho việc lặp lại, trạng thái, sự thật. Tiếp diễn cho việc đang xảy ra, tạm thời, đang đổi, và than phiền với always.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
      "kind": "recap",
      "lines": [
       {
@@ -1020,7 +2053,7 @@
      "next": "Tiếp theo: học từ và mẫu ngữ pháp, làm bài tập, rồi buổi 3 để vận dụng.",
      "lines": [
       {
-       "say": "Hết phần giảng của ngày một. Bây giờ bạn học các từ và mẫu ngữ pháp trong app, rồi làm bài tập. Sau đó là buổi ba: nghe chép, nói có chấm điểm, và viết hai câu về chính bạn.",
+       "say": "Hết phần giảng của ngày một. Bây giờ bạn học các từ và mẫu ngữ pháp trong app, rồi làm bài tập. Sau đó là buổi ba: nghe chép, nói có chấm điểm, và viết câu về chính bạn.",
        "show": "title"
       }
      ]
@@ -1028,17 +2061,41 @@
    ]
   },
   {
-   "title_vi": "Buổi 3 · vận dụng: nghe chép, nói, viết câu của tôi",
-   "can_do_vi": "Sau buổi này bạn tự xếp và gõ được câu hiện tại đơn, nghe chép được ba câu, và viết được hai câu ở hai thì khác nhau về chính mình.",
-   "use_vi": "Speaking Part 1 hỏi gần như toàn bằng hiện tại đơn. Người trả lời tốt đổi thì theo điều mình muốn nói: thói quen, điều đã kéo dài, điều đã hết.",
+   "title_vi": "Buổi 3 · từ vựng và vận dụng: nghe chép, nói, viết",
+   "can_do_vi": "Sau buổi này bạn biết thêm các từ của sách (tần suất, học thuật, năng lượng), tự xếp và gõ được câu hiện tại đơn, nghe chép được ba câu và viết câu về chính mình.",
+   "use_vi": "Speaking Part 1 hỏi gần như toàn bằng hiện tại đơn (How often…? Do you…?). Writing Task 1 mô tả quy trình bằng hiện tại đơn. Người trả lời tốt đổi thì theo điều mình muốn nói: thói quen, điều đã kéo d",
+   "vocab": [
+    "subjective",
+    "objective",
+    "generally",
+    "traditionally",
+    "competitively",
+    "without fail",
+    "excuse",
+    "appointment",
+    "tutorial",
+    "consumption",
+    "demand",
+    "renewable",
+    "apart from"
+   ],
    "check": [
     "G1D1B1",
     "G1D1B2",
     "G1D1B3",
+    "G1D1B4",
+    "G1D1B5",
+    "G1D1B6",
+    "G1D1B7",
     "G1D1F1",
+    "G1D1F2",
+    "G1D1F3",
+    "G1D1F4",
+    "G1D1F5",
     "G1D1D1",
     "G1D1M1",
-    "G1D1M2"
+    "G1D1M2",
+    "G1D1M3"
    ]
   },
   {
@@ -1064,6 +2121,78 @@
     "G1D1KB-6",
     "G1D1KB-7",
     "G1D1KB-8"
+   ]
+  },
+  {
+   "title_vi": "Luyện theo sách · Grammar 6.5+ Unit 1 · Chọn vế sau đúng (+1)",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: chọn vế sau đúng; chia động từ trong ngoặc.",
+   "use_vi": "Làm sau khi học thẻ: mỗi câu sai có lời giải thích, hãy tự nói lại câu đó theo ý muốn nói rồi mới sang câu sau.",
+   "check": [
+    "G1D1KC1-1",
+    "G1D1KC1-2",
+    "G1D1KC1-3",
+    "G1D1KC1-4",
+    "G1D1KC1-5",
+    "G1D1KC1-6",
+    "G1D1KC1-7",
+    "G1D1KC1-8",
+    "G1D1KC2-1",
+    "G1D1KC2-2",
+    "G1D1KC2-3",
+    "G1D1KC2-4",
+    "G1D1KC2-5",
+    "G1D1KC2-6",
+    "G1D1KC2-7",
+    "G1D1KC2-8",
+    "G1D1KC2-9",
+    "G1D1KC2-10",
+    "G1D1KC2-11",
+    "G1D1KC2-12"
+   ]
+  },
+  {
+   "title_vi": "Luyện theo sách · C1&C2 Unit 1 · Chia động từ: đơn hay tiếp diễn",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: chia động từ: đơn hay tiếp diễn.",
+   "use_vi": "Làm sau khi học thẻ: mỗi câu sai có lời giải thích, hãy tự nói lại câu đó theo ý muốn nói rồi mới sang câu sau.",
+   "check": [
+    "G1D1KCA-1",
+    "G1D1KCA-2",
+    "G1D1KCA-3",
+    "G1D1KCA-4",
+    "G1D1KCA-5",
+    "G1D1KCA-6",
+    "G1D1KCA-7",
+    "G1D1KCA-8",
+    "G1D1KCA-9",
+    "G1D1KCA-10",
+    "G1D1KCA-11",
+    "G1D1KCA-12",
+    "G1D1KCA-13",
+    "G1D1KCA-14",
+    "G1D1KCA-15",
+    "G1D1KCA-16"
+   ]
+  },
+  {
+   "title_vi": "Luyện theo sách · C1&C2 Unit 1 · Mỗi chỗ trống một từ: cách nói thời…",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: mỗi chỗ trống một từ: cách nói thời gian.",
+   "use_vi": "Làm sau khi học thẻ: mỗi câu sai có lời giải thích, hãy tự nói lại câu đó theo ý muốn nói rồi mới sang câu sau.",
+   "check": [
+    "G1D1KCB-1",
+    "G1D1KCB-2",
+    "G1D1KCB-3",
+    "G1D1KCB-4",
+    "G1D1KCB-5",
+    "G1D1KCB-6",
+    "G1D1KCB-7",
+    "G1D1KCB-8",
+    "G1D1KCB-9",
+    "G1D1KCB-10",
+    "G1D1KCB-11",
+    "G1D1KCB-12",
+    "G1D1KCB-13",
+    "G1D1KCB-14",
+    "G1D1KCB-15"
    ]
   }
  ],

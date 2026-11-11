@@ -62,7 +62,7 @@ SECTIONS: list[tuple] = [
         "It ( ㉠ ) incredible, but a few people do believe it's possible. | seems | `seem` = vẻ ngoài, trạng thái. Chủ ngữ `It` nên có -s.",
         "It seems incredible, but a few people ( ㉠ ) believe it's possible. | do | Nhấn mạnh với `do`: trái với điều vừa nói («có vẻ khó tin, nhưng vài người vẫn tin»). Sau `do` là nguyên thể `believe`.",
     ]),
-    (2, "C1", G65 + " · bài C1 (trang 4)", "Chọn vế sau đúng", "Hai vế sau khác nhau ở ý: một vế nói thói quen hoặc sự thật, một vế nói việc tạm thời hoặc đang xảy ra. Chọn vế khớp với động từ.", "choice", [
+    (1, "C1", G65 + " · bài C1 (trang 4)", "Chọn vế sau đúng", "Hai vế sau khác nhau ở ý: một vế nói thói quen hoặc sự thật, một vế nói việc tạm thời hoặc đang xảy ra. Chọn vế khớp với động từ.", "choice", [
         "«Fiona is watching television ...» | because her favourite film star is on. | when she has time. | Tiếp diễn = đang xem lúc này, vì có lý do cụ thể. Vế `when she has time` đi với thói quen (đơn).",
         "«I'm having my lunch ...» | early today as I have an appointment. | at one o'clock every day. | Tiếp diễn = tạm thời, hôm nay khác thường. `every day` đi với đơn (`I have my lunch`).",
         "«I do the shopping ...» | at the same time every week. | today for a friend who's ill. | Đơn = thói quen cố định. Vế `today for a friend who's ill` cần `I'm doing`.",
@@ -72,7 +72,7 @@ SECTIONS: list[tuple] = [
         "«The company's financial situation is improving ...» | now that it has a new Chief Executive. | when there is greater demand for its products. | Tiếp diễn = xu hướng đang thay đổi, `now that…` chỉ lý do mới xuất hiện. `when…` đi với sự thật chung.",
         "«Serge is thinking of retiring early ...» | because he isn't happy at work any more. | every time something bad happens at work. | `is thinking of` = đang cân nhắc, tạm thời. `every time…` đi với thói quen.",
     ]),
-    (2, "C2", G65 + " · bài C2 (trang 4)", "Chia động từ trong ngoặc", "Gõ dạng đúng của động từ (có thể gồm cả trợ động từ). Với mỗi câu, hỏi: đây là thói quen/sự thật, hay việc tạm thời/đang làm?", "typed", [
+    (1, "C2", G65 + " · bài C2 (trang 4)", "Chia động từ trong ngoặc", "Gõ dạng đúng của động từ (có thể gồm cả trợ động từ). Với mỗi câu, hỏi: đây là thói quen/sự thật, hay việc tạm thời/đang làm?", "typed", [
         "My tutor ( ㉠ ) (see) me for a tutorial every Monday at two o'clock. | sees | `every Monday` = thói quen → đơn. Ngôi thứ ba nên có -s.",
         "John ( ㉠ ) (not/study) very hard at the moment. | isn't studying;is not studying | `at the moment` = tạm thời → tiếp diễn phủ định.",
         "John isn't studying very hard at the moment. I ( ㉠ ) (not/think) he'll pass his exams. | don't think;do not think | `think` ở nghĩa ý kiến là động từ trạng thái → đơn. Phủ định mượn `do`.",
@@ -359,3 +359,44 @@ SECTIONS += _S7
 from day89 import SECTIONS as _S89  # noqa: E402  (Days 8-9: Complete IELTS Unit 1, Cambridge 18 Test 1)
 
 SECTIONS += _S89
+
+
+# ---- Day 1: Destination C1&C2, Unit 1, exercises A and B (p. 8), key p. 281 -----------------------------------------
+C12 = "Destination C1&C2, Unit 1"
+SECTIONS += [
+    (1, "CA", C12 + " · bài A (trang 8)", "Chia động từ: đơn hay tiếp diễn", "Gõ dạng đúng của động từ trong ngoặc: hiện tại đơn hay hiện tại tiếp diễn. Hỏi trước: người nói muốn nói thói quen, sự thật, hay việc đang xảy ra, tạm thời?", "typed", [
+        "My brother ( ㉠ ) (do) a degree at university, so I don't see him very often, unfortunately. | is doing;'s doing | Việc đang diễn ra trong giai đoạn này, rồi sẽ kết thúc → tiếp diễn.",
+        "My brother is doing a degree at university, so I ( ㉠ ) (see) him very often, unfortunately. | don't see;do not see | Việc lặp lại, và `very often` đi với phủ định → hiện tại đơn phủ định.",
+        "Darren ( ㉠ ) usually get home until about eight o'clock. | doesn't;does not | Thói quen, phủ định ngôi thứ ba: `doesn't` + nguyên thể. `usually` đứng giữa `doesn't` và động từ.",
+        "I'm sorry to hear that your parents ( ㉠ ) (get) divorced. | are getting | Một thay đổi đang diễn ra → tiếp diễn.",
+        "You ( ㉠ ) (go) to the end of the street and turn right. | go | Chỉ đường → hiện tại đơn.",
+        "You go to the end of the street and ( ㉠ ) (turn) right. | turn | Chỉ đường → hiện tại đơn.",
+        "Why ( ㉠ ) ice float? | does | Sự thật khoa học → hiện tại đơn. Câu hỏi mượn `does` (ice là ngôi thứ ba số ít), động từ `float` về nguyên thể (đáp án của sách: does float).",
+        "It's lovely now the evenings ( ㉠ ) (get) longer, isn't it? | are getting | Thay đổi đang diễn ra dần → tiếp diễn.",
+        "My dad ( ㉠ ) (eat) meat at all – he's a vegetarian. | doesn't eat;does not eat | Thói quen cố định → đơn phủ định. `at all` nhấn mạnh phủ định.",
+        "Actually, we ( ㉠ ) (listen) to The Libertines at all – this is Pete Doherty's second band, Babyshambles. | aren't listening;are not listening | Việc đang diễn ra lúc nói (đang nghe nhạc) → tiếp diễn phủ định.",
+        "A man ( ㉠ ) (walk) into a bar. Ouch! Not a good idea to walk into an iron bar! | walks | Mở đầu một câu chuyện cười hoặc kể chuyện dùng hiện tại đơn.",
+        "( ㉠ ) (you / often / order) things online? | do you often order | Hỏi thói quen: `Do` + chủ ngữ + trạng từ + nguyên thể.",
+        "There's an Englishman, an Irishman and a Scotsman. They ( ㉠ ) (walk) across the desert when one of them spots a camel in the distance … | are walking | Kể chuyện: hành động đang diễn ra thì bị cắt ngang bởi `spots` → tiếp diễn.",
+        "Beckham ( ㉠ ) (have) control of the ball … It's Beckham … And he scores! | has | Bình luận trực tiếp trận đấu dùng hiện tại đơn. `have` ở đây là kiểm soát bóng.",
+        "My dad ( ㉠ ) (always / tell) jokes! They're usually rubbish, though. | is always telling;'s always telling | `always` + tiếp diễn để phàn nàn việc lặp lại quá mức.",
+        "'Phil doesn't wear ties, does he?' 'Actually, he ( ㉠ ) (wear) a tie to work most days.' | does wear;wears | Cãi lại: có thể nhấn mạnh bằng `does wear`, hoặc đơn giản `wears` (đáp án của sách: does wear/wears).",
+    ]),
+    (1, "CB", C12 + " · bài B (trang 8)", "Mỗi chỗ trống một từ: cách nói thời gian", "Gõ đúng một từ cho mỗi chỗ trống. Đây là bài về cách nói tần suất và thời điểm: always, present, moment, being, rarely, every, never, time, right, days…", "typed", [
+        "Why do you ( ㉠ ) leave the light on when you go out of the room? You wait till you start paying the electricity bill! | always | `always` + hiện tại đơn (hỏi vì khó chịu).",
+        "Fifteen teachers are teaching here full-time at ( ㉠ ). | present | `at present` = hiện nay, lúc này.",
+        "My sister's revising for her GCSEs at the ( ㉠ ). | moment | `at the moment` = lúc này; đi với tiếp diễn.",
+        "I'm quite happy living at home for the time ( ㉠ ), but I guess I'll have to get my own place eventually. | being | `for the time being` = trong lúc này, tạm thời.",
+        "It's true that Ralph calls us quite ( ㉠ ), but most students only call their parents when they need something, don't they? | rarely | `quite rarely` = khá hiếm khi; hợp với vế `only … when they need something`.",
+        "We go to the cinema ( ㉠ ) now and then, but only if there's something good on. | every | `every now and then` = thỉnh thoảng.",
+        "I'm alone in my study bedroom reading ( ㉠ ) of the time. | most;much;some | `most of the time` = phần lớn thời gian.",
+        "Tim ( ㉠ ) goes out to play until he's done all his homework. I just don't allow it! | never | `never` + hiện tại đơn: quy tắc của người nói.",
+        "I see Lucinda from ( ㉠ ) to time, but not on a regular basis. | time | `from time to time` = thỉnh thoảng.",
+        "I'm sitting in the garden ( ㉠ ) now talking to you on my mobile. | right | `right now` = ngay lúc này; đi với tiếp diễn.",
+        "That's the last ( ㉠ ) we're inviting Dave to one of our parties! | time | `That's the last time` + tiếp diễn: hàm ý bực mình, quyết định lúc này.",
+        "Do young people these ( ㉠ ) have more free time than they did in the past? | days | `these days` = dạo này, ngày nay.",
+        "My mum fills up with petrol ( ㉠ ) she goes to the supermarket. | whenever;when;if | `whenever` = mỗi khi; thói quen → đơn.",
+        "I'm staying in ( ㉠ ) now, but I might go out a bit later on. | for | `for now` = lúc này, tạm thời.",
+        "( ㉠ ) is the last time I ever order from that pizzeria. It was disgusting! | It;That | `That's/It's the last time I …` = lần cuối cùng.",
+    ]),
+]

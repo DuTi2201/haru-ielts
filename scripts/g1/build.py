@@ -209,7 +209,7 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
             "check": checks,
         })
     if n == 1:
-        sessions = L1.reshape(sessions, [e["id"] for k in bank for e in bank[k]])
+        sessions = L1.reshape(sessions, [e["id"] for k in bank for e in bank[k]], {x: c for c, xs in by_card.items() for x in xs})
     chunk: list[str] = []
     names: list[str] = []
     book_sittings: list[tuple[list[str], list[str]]] = []

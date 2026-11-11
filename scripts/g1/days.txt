@@ -14,29 +14,52 @@
 # D: en = vi        dictation sentence
 # M: prompt | hướng dẫn | model        the learner's own sentences (typed, 8–40 words)
 #D 1 | Present simple: what the speaker presents as true | Hiện tại đơn: điều người nói coi là thật | 6-8
-goal: Chọn hiện tại đơn theo điều mình muốn nói, không theo từ dấu hiệu; trả lời một câu hỏi hiện tại đơn bằng thì khác khi cần.
-ielts: Speaking Part 1 hỏi gần như toàn bằng hiện tại đơn. Người trả lời tốt đổi thì theo điều mình muốn nói: thói quen, điều đã kéo dài, điều đã hết.
+goal: Lập đúng câu hiện tại đơn (khẳng định, phủ định, câu hỏi), chọn đúng cách dùng và trạng từ chỉ thời gian, tránh lỗi khi hỏi; và biết trả lời một câu hỏi hiện tại đơn bằng thì khác khi cần.
+ielts: Speaking Part 1 hỏi gần như toàn bằng hiện tại đơn (How often…? Do you…?). Writing Task 1 mô tả quy trình bằng hiện tại đơn. Người trả lời tốt đổi thì theo điều mình muốn nói: thói quen, điều đã kéo dài, điều đã hết.
 book: Destination B2 | 6–7 | Đọc bảng lý thuyết Present simple và Present continuous | 0 | 15
+book: IELTS Grammar 6.5+ | 2–3 | Đọc mục Present simple và Present continuous | 0 | 10
 book: Destination B2 | 8 | A | 10 | 10
 book: Destination B2 | 8 | B | 8 | 10
-G: Present simple · năm hộp của sách | Sách chia 5 cách dùng; một câu có thể nằm trong cả 5 | must
- use: Destination B2 chia hiện tại đơn thành 5 cách dùng: thói quen, tần suất, tình huống lâu dài, trạng thái, sự thật chung.\nThử xếp câu `I enjoy eating oranges` vào từng hộp: hộp nào cũng nhận. Các hộp giúp ta đọc sách, nhưng chúng không tách bạch. Khi nói, không ai dừng lại để chọn hộp.
+book: IELTS Grammar 6.5+ | 4 | C1 | 8 | 8
+book: IELTS Grammar 6.5+ | 4 | C2 | 12 | 12
+book: Destination C1&C2 | 8 | A | 16 | 15
+book: Destination C1&C2 | 8 | B | 15 | 12
+G: Present simple · công thức | Khẳng định, phủ định, câu hỏi; he / she / it thêm -s hoặc -es | must
+ use: Công thức (Destination B2, tr. 6; IELTS Grammar 6.5+, tr. 2):\n| Chủ ngữ | Khẳng định | Phủ định | Câu hỏi |\n| I / you / we / they | work | don't work | Do I / you / we / they work? |\n| he / she / it | works | doesn't work | Does he / she / it work? |\nTrả lời ngắn dùng lại trợ từ: Yes, he does. / No, he doesn't.\nThêm -s hay -es cho he / she / it:\n| Động từ tận cùng | Cách thêm | Ví dụ |\n| phần lớn động từ | + s | work → works, play → plays |\n| -s, -ss, -sh, -ch, -x, -o | + es | miss → misses, watch → watches, go → goes |\n| phụ âm + y | y → ies | study → studies, try → tries |\n| bất quy tắc | | have → has |\nĐộng từ `be` không mượn do/does: She isn't a student. Is he late?
+ ex: Toby walks to work. = Toby đi bộ đi làm.
+ ex: Angela doesn't visit us very often. = Angela không hay đến thăm chúng tôi.
+ ex: Do you have an up-to-date passport? = Hộ chiếu của bạn còn hạn không?
+ trap: Chia hai lần: ~~Does she works~~ → Does she work. Quên -s: ~~He have~~ → He has.
+ tip: Chỉ câu khẳng định của he / she / it mới thêm -s. Phủ định và câu hỏi đã có does thì động từ về nguyên thể.
+G: Present simple · cách dùng | Năm cách dùng của sách, ba cách dùng thêm, và vì sao ranh giới giữa chúng mờ | must
+ use: Destination B2 liệt kê năm cách dùng; IELTS Grammar 6.5+ thêm ba cách:\n| Cách dùng | Ví dụ |\n| Thói quen hiện tại | Toby walks to work. |\n| Mức độ thường xuyên | Angela doesn't visit us very often. |\n| Tình huống lâu dài | Carlo works in a travel agent's. |\n| Trạng thái | Do you have an up-to-date passport? |\n| Sự thật chung | Poland is in the European Union. |\n| Chỉ đường, hướng dẫn thao tác | You go down to the traffic lights, then you turn left. |\n| Kể cốt truyện phim, sách | In the film, the tea lady falls in love with the Prime Minister. |\n| Điều thường được thừa nhận | Students don't generally have much money. |\nTheo cách học có chọn lọc: năm hộp đầu giúp bạn đọc sách, nhưng chúng không tách bạch. Câu `I enjoy eating oranges` xếp vào hộp nào cũng được. Nhớ gọn: hiện tại đơn dùng cho việc lặp lại, trạng thái và điều người nói coi là thật.\nLưu ý: nói một việc đã kéo dài bao lâu thì dùng hiện tại hoàn thành, không dùng hiện tại đơn: I have worked there since I was 15.
  ex: I enjoy eating oranges. = Tôi thích ăn cam.
- ex: Hannah works in a hospital. = Hannah làm ở một bệnh viện.
+ ex: I have worked there since I was 15. = Tôi làm ở đó từ năm 15 tuổi.
  quote: Ngữ pháp nó không rạch ròi như cái cách mà một quyển sách nó chia ra.
  trap: Học thuộc 5 gạch đầu dòng rồi mỗi lần nói lại dò xem câu của mình thuộc dòng nào. Việc đó làm chậm phản xạ.
-G: Present simple · trạng từ tần suất là phần phụ | Bỏ trạng từ đi, câu vẫn là hiện tại đơn | must
- use: `always`, `usually`, `very often`, `twice a week` chỉ thêm thông tin. Bỏ chúng đi, nòng cốt của câu và tính lặp lại của hành động vẫn nguyên.\nNói thêm tần suất hay không là tùy người nói cần gì.
- ex: Mark cycles to school. Mark always cycles to school. = Mark đạp xe đi học. Mark luôn đạp xe đi học.
- ex: I visit my parents. I visit my parents twice a week. = Tôi về thăm bố mẹ. Tôi về thăm bố mẹ hai lần một tuần.
- trap: Chờ thấy trạng từ mới dám chia hiện tại đơn. Câu `I wake up at six` không có trạng từ nào và vẫn là thói quen.
+ tip: Listening: chỉ đường dùng you go … then you turn …. Writing Task 1: mô tả quy trình bằng hiện tại đơn.
+G: Present simple · tần suất và cách nói thời gian | Trạng từ tần suất, vị trí trong câu, cụm chỉ thời gian | must
+ use: Trạng từ tần suất (mức xấp xỉ):\n| Mức | Từ |\n| 100% | always |\n| khoảng 90% | usually, normally, generally |\n| khoảng 70% | often, frequently |\n| khoảng 50% | sometimes |\n| khoảng 20% | occasionally |\n| khoảng 10% | rarely, seldom, hardly ever |\n| 0% | never |\nVị trí: sau `be` (She is always late); trước động từ thường (I usually walk); sau trợ động từ (I don't often eat out). Usually, often, sometimes, normally, generally còn đứng được ở đầu câu (Sometimes I cycle). Always và never không đứng cuối câu. Never, rarely, hardly ever đã mang nghĩa phủ định nên không thêm don't.\nCụm chỉ tần suất, thường đứng cuối câu: every day / week / month; once a week; twice a month; three times a year; most days; all the time; from time to time; now and then.\nNói thời điểm: at + giờ (at six, at half past six, at a quarter to seven), at night, at the weekend; on + thứ (on Mondays); in + buổi (in the morning, in the evening); in + tháng hoặc mùa.\nTheo cách giảng của thầy: trạng từ chỉ là phần phụ. Bỏ nó đi, câu vẫn là hiện tại đơn. Có thêm hay không là tùy bạn muốn nói gì.
+ ex: Mark always cycles to school. = Mark luôn đạp xe đi học.
+ ex: I visit my parents twice a week. = Tôi về thăm bố mẹ hai lần một tuần.
+ ex: She is never late for class. = Cô ấy không bao giờ đến lớp muộn.
+ ex: I don't often eat out. = Tôi không hay ăn ngoài.
+ trap: Đặt sai chỗ: ~~I go usually to school~~ → I usually go to school. Phủ định đôi: ~~I don't never go~~ → I never go.
+ tip: Speaking Part 1, câu hỏi `How often…?`: trả lời bằng about twice a week, most days, every now and then, hardly ever.
 G: Present simple · điều người nói coi là thật | Việc lặp lại, trạng thái, và sự thật theo người nói | must
- use: Gom 5 hộp lại còn ba nhóm: việc lặp lại; trạng thái (và câu hỏi về trạng thái); sự thật.\n"Sự thật" ở đây là điều người nói nghĩ, tin hoặc muốn người nghe tin lúc nói. Nó gồm sự thật khách quan, ý kiến riêng, lời nói quá và cả lời nói dối. Ngữ pháp không kiểm tra thật giả.
+ use: Gom các hộp lại còn ba nhóm: việc lặp lại; trạng thái; sự thật.\n"Sự thật" ở đây là điều người nói nghĩ, tin hoặc muốn người nghe tin lúc nói. Nó gồm sự thật khách quan, ý kiến riêng, lời nói quá và cả lời nói dối. Ngữ pháp không kiểm tra thật giả.
  ex: Water boils at 100 degrees Celsius. = Nước sôi ở 100 độ C.
  ex: You don't visit me at all! = Con chẳng về thăm mẹ gì cả! (nói quá)
  ex: No, I don't have a girlfriend. = Không, anh chưa có bạn gái. (có thể là nói dối, câu vẫn đúng ngữ pháp)
  quote: Phần lớn thời gian cái các bạn nghĩ sẽ là cái các bạn nói, thế nên phần lớn cái chúng ta nói ra đều là sự thật chủ quan.
  tip: Trong Writing Task 2, nhận định của bạn (`Online learning saves time`) dùng hiện tại đơn vì đó là điều bạn trình bày như sự thật.
+G: Present simple · câu hỏi và lỗi thường gặp | Cách đặt câu hỏi và bảy lỗi người Việt hay mắc | must
+ use: Hỏi Yes/No: Do / Does + chủ ngữ + động từ nguyên thể? (Do you work at the weekend?)\nHỏi bằng từ để hỏi: từ để hỏi + do / does + chủ ngữ + động từ nguyên thể? (Where does she work? How often do you go to the gym?)\nHỏi về chính chủ ngữ (Who, What): không mượn do / does, động từ thêm -s (Who lives next door?).\n`be`, `can`, `will` tự đảo lên đầu câu, không mượn do (Is he late? Can you swim?).\n| Sai | Đúng | Vì sao |\n| Does she works here? | Does she work here? | Đã có does thì động từ về nguyên thể |\n| Where you live? | Where do you live? | Thiếu do |\n| Do you can swim? | Can you swim? | can không mượn do |\n| Are you like jazz? | Do you like jazz? | like là động từ thường, không đi với are |\n| Who does live here? | Who lives here? | Hỏi về chủ ngữ thì không có do |\n| What means this word? | What does this word mean? | Phải mượn does và đảo thứ tự |\n| Yes, I like. | Yes, I do. | Trả lời ngắn dùng lại do / does |
+ ex: Where does she work? = Cô ấy làm ở đâu?
+ ex: Who lives next door? = Ai sống ở nhà bên?
+ ex: What does this word mean? = Từ này nghĩa là gì?
+ trap: Chia hai lần hoặc quên mượn do: ~~Does she works~~, ~~Where you live~~ → Does she work, Where do you live.
+ tip: Speaking Part 1, nghe kỹ từ để hỏi trước: How often, Where, What kind. Trả lời đủ ý rồi mới thêm chi tiết.
 G: Present simple · hỏi thì này, đáp thì khác | Thì của câu trả lời theo điều mình muốn nói | must
  use: Câu hỏi ở hiện tại đơn không buộc câu trả lời ở hiện tại đơn. Hãy hỏi mình: điều tôi muốn nói nằm ở đâu trên trục thời gian?\n`Do you believe in God?` có thể đáp bằng bốn thì.
  ex: Yes, I do. = Có, tôi tin. (bây giờ)
@@ -46,37 +69,78 @@ G: Present simple · hỏi thì này, đáp thì khác | Thì của câu trả l
  trap: "Hỏi thì nào, đáp thì nấy". Thói quen này đến từ bài tập ở trường, không đến từ cách người ta nói.
  tip: Ở Speaking Part 1, đổi thì đúng chỗ là cách tự nhiên nhất để cho thấy bạn dùng được nhiều cấu trúc.
 G: Present simple · nhấn mạnh với do / does | do / does + động từ nguyên thể: "có ... thật mà" | normal
- use: Trong câu khẳng định, đặt `do` hoặc `does` trước động từ để nhấn mạnh hoặc cãi lại điều người kia vừa nói. Động từ sau đó ở dạng nguyên thể.
- ex: The bus is slow, but it does stop near my office. = Xe buýt chậm, nhưng nó có dừng gần cơ quan tôi.
- ex: I do like fish! = Tôi có thích cá mà!
+ use: Trong câu khẳng định, đặt `do` hoặc `does` trước động từ để nhấn mạnh hoặc cãi lại điều người kia vừa nói (Destination B2, tr. 6). Động từ sau đó ở dạng nguyên thể.
+ ex: You don't like going by bus, do you? Actually, I do like going by bus for short distances. = Cậu không thích đi xe buýt nhỉ? Thực ra tôi có thích, ở những chặng ngắn.
+ ex: The bus isn't quicker than the train, but it does stop right outside the factory. = Xe buýt không nhanh hơn tàu, nhưng nó có dừng ngay trước nhà máy.
  trap: Chia hai lần: ~~He does works hard~~ → He does work hard.
+G: Present simple và present continuous · so sánh nhanh | Đơn: lặp lại, trạng thái, sự thật. Tiếp diễn: đang xảy ra, tạm thời, đang đổi, phàn nàn | normal
+ use: Hiện tại tiếp diễn (am / is / are + V-ing) dùng khi người nói muốn nói việc đang xảy ra hoặc tạm thời (Destination B2, tr. 6; IELTS Grammar 6.5+, tr. 3):\n| Tiếp diễn dùng để | Ví dụ |\n| Việc đang xảy ra | I'm waiting for my friends. |\n| Tình huống tạm thời | My cousin is living in Thailand at the moment. |\n| Xu hướng đang thay đổi | The price of petrol is rising dramatically. |\n| Phàn nàn, thêm always | My mum's always saying I don't help enough! |\n| Ghen tị, thêm always | He's always visiting exciting places! |\nCùng một câu hỏi, hai cách đáp: `Where does your sister live now?` — `She lives in Thailand` (nói như điều ổn định) hay `She is living in Thailand` (tạm thời, rồi sẽ đổi). Chọn theo điều bạn muốn nói. Động từ trạng thái như know, want, believe thì không chia tiếp diễn (xem ngày 2).
+ ex: My cousin lives in Thailand. My cousin is living in Thailand. = Anh họ tôi sống ở Thái Lan. Anh họ tôi đang sống ở Thái Lan (tạm thời).
+ ex: My sister is always playing her music so loudly! = Chị tôi lúc nào cũng bật nhạc to ơi là to!
+ trap: Thêm always vào tiếp diễn khi không than phiền: ~~He is usually having lunch at twelve~~ → He usually has lunch at twelve.
 W: habit | N | thói quen | Getting up early is a good habit. = Dậy sớm là một thói quen tốt.
+W: frequency | N | tần suất | The frequency of buses is low at night. = Ban đêm tần suất xe buýt thấp.
 W: permanent | A | lâu dài, cố định | She has a permanent job in Hanoi. = Cô ấy có một công việc cố định ở Hà Nội.
 W: state | N | trạng thái | Sleep is a state of rest. = Ngủ là một trạng thái nghỉ ngơi.
 W: fact | N | sự thật | It is a fact that the Earth is round. = Trái Đất tròn là một sự thật.
-W: frequency | N | tần suất | The frequency of buses is low at night. = Ban đêm tần suất xe buýt thấp.
+W: routine | N | thói quen hằng ngày, lịch sinh hoạt | My morning routine takes forty minutes. = Các việc buổi sáng của tôi mất bốn mươi phút.
+W: regularly | Adv | đều đặn | She exercises regularly. = Cô ấy tập thể dục đều đặn.
+W: frequently | Adv | thường xuyên | Buses run frequently in the city centre. = Xe buýt chạy thường xuyên ở trung tâm.
+W: occasionally | Adv | thỉnh thoảng | I occasionally eat out at the weekend. = Thỉnh thoảng cuối tuần tôi ăn ngoài.
+W: rarely | Adv | hiếm khi | Ralph rarely calls his parents. = Ralph hiếm khi gọi cho bố mẹ.
 W: emphasise | V | nhấn mạnh | The teacher emphasised the last point. = Giáo viên nhấn mạnh ý cuối cùng.
-I: Bạn về thăm bố mẹ đều đặn. Bạn chỉ muốn nêu việc đó, không nói bao lâu một lần. | I visit my parents. | I am visiting my parents. | I visited my parents. | Việc lặp lại ở hiện tại → hiện tại đơn, có hay không có trạng từ tần suất. Câu tiếp diễn chỉ nói về lúc này; câu quá khứ nói về một lần đã qua. | 2
-I: Mẹ trách bạn ít về nhà và nói quá lên. | You don't visit me at all! | You aren't visiting me at the moment. | You visited me once. | Người nói trình bày lời nói quá như một sự thật → hiện tại đơn. Hai câu kia chỉ kể một việc, không phải lời trách về thói quen. | 3
-I: Một người đang có bạn gái nhưng muốn người nghe tin là chưa có. | I don't have a girlfriend. | I am not having a girlfriend. | I don't having a girlfriend. | Lời nói dối vẫn là điều người nói trình bày như sự thật → hiện tại đơn. `have` nghĩa "có" là trạng thái nên không chia tiếp diễn; sau `don't` là động từ nguyên thể. | 3
-I: Giám khảo hỏi: "Do you like cooking?" Trước đây bạn thích, bây giờ thì không. | I did, but not anymore. | Yes, I like. | I am liking it before. | Điều bạn muốn nói nằm trong quá khứ và đã hết → quá khứ đơn. Không cần đáp bằng đúng thì của câu hỏi. | 4
-I: Giám khảo hỏi: "Do you play any sports?" Bạn chơi cầu lông từ năm ngoái đến giờ. | Yes, I have played badminton since last year. | Yes, I play badminton since last year. | Yes, I am play badminton since last year. | Việc bắt đầu trong quá khứ và kéo tới bây giờ, có `since` → hiện tại hoàn thành. `I play ... since` là lỗi người Việt rất hay mắc. | 4
-I: Bạn của bạn nói: "You don't like fish." Bạn muốn cãi lại. | I do like fish! | I do likes fish! | I am do like fish! | Nhấn mạnh trong câu khẳng định: `do` + động từ nguyên thể. | 5
-Q: Water ( ) at 100 degrees Celsius. | boils | is boiling | has boiled | boil | Sự thật chung → hiện tại đơn; chủ ngữ số ít nên thêm -s. | 3
-Q: Our uncle ( ) us very often. | doesn't visit | isn't visit | don't visits | not visits | Việc lặp lại (ở đây là ít khi) → hiện tại đơn; phủ định ngôi thứ ba dùng `doesn't` + nguyên thể. Bỏ `very often` đi, câu vẫn đúng. | 2
-Q: Actually, my brother ( ) work quite hard. | does | is | do | has | Nhấn mạnh: `does` + nguyên thể `work`. | 5
+W: subjective | A | chủ quan | This is a subjective opinion, not a fact. = Đây là ý kiến chủ quan, không phải sự thật.
+W: objective | A | khách quan | The report gives an objective view of the problem. = Bản báo cáo đưa ra cái nhìn khách quan về vấn đề.
+W: generally | Adv | nói chung, thường thì | Students generally have little money. = Sinh viên nhìn chung có ít tiền.
+W: traditionally | Adv | theo truyền thống | Traditionally, families eat together at Tet. = Theo truyền thống, các gia đình ăn cùng nhau dịp Tết.
+W: competitively | Adv | ở mức thi đấu | Do you play hockey competitively or just for fun? = Bạn chơi khúc côn cầu thi đấu hay chỉ cho vui?
+W: without fail | Phrase | không bao giờ sót, lần nào cũng vậy | My mum calls me every weekend without fail. = Tuần nào mẹ tôi cũng gọi cho tôi, không sót lần nào.
+W: excuse | N | lý do biện hộ, cớ | You always come up with excuses for not doing your homework. = Cậu lúc nào cũng viện cớ để không làm bài tập.
+W: appointment | N | cuộc hẹn | I have an appointment at the dentist's at two. = Hai giờ tôi có hẹn ở nha sĩ.
+W: tutorial | N | buổi học nhóm nhỏ với giảng viên | My tutor sees me for a tutorial every Monday. = Thứ Hai nào giảng viên cũng gặp tôi trong buổi tutorial.
+W: consumption | N | sự tiêu thụ | Energy consumption goes up year by year. = Mức tiêu thụ năng lượng tăng dần theo từng năm.
+W: demand | N | nhu cầu, lượng cầu | There is a growing demand for renewable energy. = Nhu cầu về năng lượng tái tạo đang tăng.
+W: renewable | A | có thể tái tạo | Solar and wind power are renewable sources of energy. = Điện mặt trời và điện gió là nguồn năng lượng tái tạo.
+W: apart from | Phrase | ngoài ra, trừ | Do you speak any other languages apart from English? = Ngoài tiếng Anh ra bạn còn nói ngôn ngữ nào khác không?
+I: Bạn về thăm bố mẹ đều đặn. Bạn chỉ muốn nêu việc đó, không nói bao lâu một lần. | I visit my parents. | I am visiting my parents. | I visited my parents. | Việc lặp lại ở hiện tại → hiện tại đơn, có hay không có trạng từ tần suất. Câu tiếp diễn chỉ nói về lúc này; câu quá khứ nói về một lần đã qua. | 3
+I: Mẹ trách bạn ít về nhà và nói quá lên. | You don't visit me at all! | You aren't visiting me at the moment. | You visited me once. | Người nói trình bày lời nói quá như một sự thật → hiện tại đơn. Hai câu kia chỉ kể một việc, không phải lời trách về thói quen. | 4
+I: Một người đang có bạn gái nhưng muốn người nghe tin là chưa có. | I don't have a girlfriend. | I am not having a girlfriend. | I don't having a girlfriend. | Lời nói dối vẫn là điều người nói trình bày như sự thật → hiện tại đơn. `have` nghĩa "có" là trạng thái nên không chia tiếp diễn; sau `don't` là động từ nguyên thể. | 4
+I: Giám khảo hỏi: "Do you like cooking?" Trước đây bạn thích, bây giờ thì không. | I did, but not anymore. | Yes, I like. | I am liking it before. | Điều bạn muốn nói nằm trong quá khứ và đã hết → quá khứ đơn. Không cần đáp bằng đúng thì của câu hỏi. | 6
+I: Giám khảo hỏi: "Do you play any sports?" Bạn chơi cầu lông từ năm ngoái đến giờ. | Yes, I have played badminton since last year. | Yes, I play badminton since last year. | Yes, I am play badminton since last year. | Việc bắt đầu trong quá khứ và kéo tới bây giờ, có `since` → hiện tại hoàn thành. `I play ... since` là lỗi người Việt rất hay mắc. | 6
+I: Bạn của bạn nói: "You don't like fish." Bạn muốn cãi lại. | I do like fish! | I do likes fish! | I am do like fish! | Nhấn mạnh trong câu khẳng định: `do` + động từ nguyên thể. | 7
+I: Giám khảo hỏi: "How often do you eat out?" Bạn ăn ngoài khoảng mỗi tháng một lần. | I eat out about once a month. | I am eating out about once a month. | I eating out once a month. | Thói quen lặp lại → hiện tại đơn; `about once a month` là cụm chỉ tần suất đứng cuối câu. Tiếp diễn dành cho việc tạm thời hoặc đang xảy ra. | 3
+I: Bạn muốn nói mình gần như không bao giờ dậy trước bảy giờ. | I hardly ever get up before seven. | I don't hardly ever get up before seven. | I get up hardly ever before seven. | `hardly ever` đã mang nghĩa phủ định nên không thêm `don't`, và đứng trước động từ thường. | 3
+Q: Water ( ) at 100 degrees Celsius. | boils | is boiling | has boiled | boil | Sự thật chung → hiện tại đơn; chủ ngữ số ít nên thêm -s. | 4
+Q: Our uncle ( ) us very often. | doesn't visit | isn't visit | don't visits | not visits | Việc lặp lại (ở đây là ít khi) → hiện tại đơn; phủ định ngôi thứ ba dùng `doesn't` + nguyên thể. Bỏ `very often` đi, câu vẫn đúng. | 3
+Q: Actually, my brother ( ) work quite hard. | does | is | do | has | Nhấn mạnh: `does` + nguyên thể `work`. | 7
+Q: My brother ( ) in the evenings. | usually studies | studies usually | is usually study | does usually studies | Trạng từ tần suất đứng trước động từ thường; chủ ngữ số ít nên động từ có -s. | 3
+Q: Sandra ( ) late for class. | is never | never is | doesn't never | is not never | Trạng từ tần suất đứng sau `be`. `never` đã mang nghĩa phủ định nên không đi với `not`. | 3
+Q: ( ) at the weekend? | Do you work | Are you work | Does you work | You do work | Hỏi Yes/No với động từ thường: `Do` + chủ ngữ + nguyên thể. | 5
+Q: ( ) next door? | Who lives | Who does live | Who do live | Who is live | Câu hỏi về chính chủ ngữ không mượn `do/does`; động từ thêm -s. | 5
+Q: What ( ) the word `habit` mean? | does | do | is | did | Phải mượn `does` rồi đảo thứ tự: What does the word mean? Không nói `What means`. | 5
+Q: ( ) a car? | Does your father have | Does your father has | Has your father have | Do your father have | Sau `does` là nguyên thể `have`; chủ ngữ số ít nên mượn `does`. | 5
+Q: The shop ( ) at half past nine on Sundays. | opens | is opening | open | does opens | Lịch cố định, `on Sundays` → hiện tại đơn; chủ ngữ số ít nên có -s. | 2
+Q: In the novel, the narrator ( ) in love with her teacher. | falls | fell | is falling | has fallen | Kể lại cốt truyện sách, phim thì dùng hiện tại đơn. | 2
+Q: To log in, first you ( ) on the icon. | click | are clicking | clicked | have click | Hướng dẫn thao tác dùng hiện tại đơn. | 2
+Q: Do you play hockey competitively? Yes, my team ( ) every Saturday. | trains | is training | train | does trains | `every Saturday` = thói quen lặp lại → hiện tại đơn; `team` số ít nên thêm -s. | 3
 B: Tôi thích ăn cam. | I enjoy eating oranges
 B: Chị tôi làm ở một ngân hàng. | My sister works in a bank
 B: Anh ấy không về thăm chúng tôi thường xuyên. | He doesn't visit us very often
 B: Tôi có thích công việc của mình mà. | I do like my job
+B: Cô ấy hiếm khi đến lớp muộn. | She is rarely late for class
+B: Anh trai tôi thường học vào buổi tối. | My brother usually studies in the evenings
+B: Bạn có làm việc vào cuối tuần không? | Do you work at the weekend
 F: My brother ( ㉠ ) (work) in a bank. | works | Ngôi thứ ba số ít: thêm -s.
 F: Actually, she does ( ㉠ ) (like) her new school. | like | Sau `does` là động từ nguyên thể, không thêm -s.
 F: ( ㉠ ) you believe in luck? | Do | Câu hỏi hiện tại đơn với `you`: mượn `Do`.
+F: She ( ㉠ ) (not / know) the answer. | doesn't know;does not know | Phủ định ngôi thứ ba: `doesn't` + nguyên thể.
+F: ( ㉠ ) your sister live near here? | Does | Chủ ngữ `your sister` là ngôi thứ ba số ít nên mượn `Does`.
 D: Mark cycles to school. = Mark đạp xe đi học.
 D: She doesn't visit us very often. = Cô ấy không đến thăm chúng tôi thường xuyên.
 D: I do like fish. = Tôi có thích cá mà.
 M: Answer in two different tenses: Do you like your hometown? | Trả lời câu hỏi bằng hai câu ở hai thì khác nhau, đúng với bạn. | Yes, I do. I have lived there all my life, so I know every street.
 M: Write one sentence that is true for you and one sentence that exaggerates. Use the present simple in both. | Viết một câu đúng sự thật và một câu nói quá, cả hai ở hiện tại đơn. | I study English every evening. I never have any free time!
+M: Describe your daily routine in three sentences. Use two adverbs of frequency and one time expression. | Viết ba câu về một ngày của bạn: hai trạng từ tần suất và một cụm chỉ thời gian. | I usually get up at six. I rarely have breakfast at home. I study English in the evenings.
 #D 2 | Present continuous and state verbs: what is temporary | Hiện tại tiếp diễn và động từ trạng thái: điều tạm thời | 6-7, 10
 goal: Dùng tiếp diễn khi muốn nói việc đó tạm thời; không để chữ "now" quyết định thay mình; phân biệt nghĩa trạng thái và nghĩa hành động của cùng một động từ.
 ielts: Writing Task 1 và Speaking Part 3 nói về xu hướng (`is rising`, `is becoming`). Lỗi `I am knowing`, `we are seeing that` làm mất điểm ngữ pháp.

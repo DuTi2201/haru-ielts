@@ -98,6 +98,49 @@
    ]
   },
   {
+   "id": "G1D1M3",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M3",
+   "title_vi": "Câu của tôi · Ngày 1",
+   "points": 5,
+   "instruction_vi": "Viết ba câu về một ngày của bạn: hai trạng từ tần suất và một cụm chỉ thời gian. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
+   "limits": {
+    "min": 8,
+    "max": 40
+   },
+   "prompt_en": "Describe your daily routine in three sentences. Use two adverbs of frequency and one time expression.",
+   "framework_vi": [
+    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
+    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
+    "Chọn thì theo câu trả lời đó rồi mới viết."
+   ],
+   "model_answer_en": "I usually get up at six. I rarely have breakfast at home. I study English in the evenings.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Thì khớp với điều bạn muốn nói.",
+    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+   ],
+   "rubric": [
+    {
+     "criterion_vi": "Trả lời đúng câu hỏi, nội dung là của chính bạn",
+     "max": 1,
+     "note_vi": "Task response"
+    },
+    {
+     "criterion_vi": "Chọn thì đúng với điều muốn nói (mỗi câu một ý trên trục thời gian)",
+     "max": 2,
+     "note_vi": "Grammatical range"
+    },
+    {
+     "criterion_vi": "Dạng động từ đúng: -s ngôi thứ ba, do/does + nguyên thể, have + V3",
+     "max": 2,
+     "note_vi": "Grammatical accuracy"
+    }
+   ]
+  },
+  {
    "id": "G1D2M1",
    "skill": "writing",
    "type": "write_essay",

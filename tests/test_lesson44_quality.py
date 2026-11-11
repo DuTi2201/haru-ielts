@@ -52,12 +52,13 @@ def test_the_seed_is_sound_and_day_one_has_three_teaching_sittings():
     titles = [s.title_vi for s in DAY1.sessions[:3]]
     assert titles[0].startswith("Buổi 1") and titles[1].startswith("Buổi 2") and titles[2].startswith("Buổi 3")
     assert DAY1.sessions[1].vocab == ["emphasise"]  # taught in the sitting that uses it
-    assert all(len(s.check) <= 18 for s in DAY1.sessions)
+    assert all(len(s.check) <= 24 for s in DAY1.sessions)
+    assert len(DAY1.vocab) >= 24  # a lesson of vocabulary for IELTS, not six words
 
 
 @pytest.mark.parametrize("n", [1, 2])
-def test_gate_length_four_to_seven_minutes(n):
-    assert 3.5 <= _minutes(_lecture(n).script) <= 7.0
+def test_gate_length_up_to_fifteen_minutes(n):
+    assert 3.5 <= _minutes(_lecture(n).script) <= 15.5
 
 
 @pytest.mark.parametrize("n", [1, 2])
