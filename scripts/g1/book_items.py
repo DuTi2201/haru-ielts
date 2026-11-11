@@ -31,14 +31,14 @@ SECTIONS: list[tuple] = [
         "My mum ( ) part in ice-skating competitions almost every weekend. | takes | is taking | `almost every weekend` = thói quen → đơn. `take part in` là cụm cố định.",
     ]),
     (1, "B", B2 + " · bài B (trang 8)", "Sửa cho đúng (gõ lại)", "Câu gốc đang sai ở phần in đậm. Gõ phần thay thế đúng. Cách làm: hỏi trước 'người nói muốn nói gì?', rồi mới chọn thì.", "typed", [
-        "My dad ( ㉠ ) late on Saturday mornings. | often gets up | Thói quen → đơn. `often` đứng trước động từ chính, nên không đi với `is getting up`.",
+        "My dad ( ㉠ ) late on Saturday mornings. | often gets up;usually gets up;frequently gets up | Thói quen → đơn. `often` đứng trước động từ chính, nên không đi với `is getting up`.",
         "( ㉠ ) any other languages apart from English? | Do you speak | Câu hỏi hiện tại đơn dùng `Do`. `speak` là động từ nguyên thể.",
         "( ㉠ ) all my Christmas presents and it's only October! | I've already bought;I have already bought | Việc xong, kết quả còn liên quan tới bây giờ, không nói mốc thời gian → hiện tại hoàn thành. `already` đứng giữa `have` và V3.",
-        "It's the first time ( ㉠ ) a party at home. | I've ever had;I have ever had | Mẫu `It's the first time + have/has + V3`: luôn dùng hiện tại hoàn thành, không dùng `I'm having`.",
+        "It's the first time ( ㉠ ) a party at home. | I've ever had;I have ever had;I've had;I have had | Mẫu `It's the first time + have/has + V3`: luôn dùng hiện tại hoàn thành, không dùng `I'm having`.",
         "Actually, I think Darren ( ㉠ ) quite hard sometimes. | works;does work | `Actually` là đính chính nên có thể dùng `does work` để nhấn mạnh. Sau `does` là nguyên thể, không thêm -s (`does works` sai).",
         "Carlo ( ㉠ ) Chinese food before. | has never eaten;has not eaten;hasn't eaten | `before` = từ trước tới giờ → hiện tại hoàn thành, `never` đứng giữa `has` và V3.",
         "Sean ( ㉠ ) a table for tonight. | has already booked;has booked already;'s already booked | Việc đã xong, kết quả liên quan tối nay → hiện tại hoàn thành. Dùng `already`, không dùng đơn `already books`.",
-        "( ㉠ ) any help painting her new flat? | Does Melanie need | `need` là động từ trạng thái, không dùng tiếp diễn. Câu hỏi mượn `Does`, chủ ngữ ở sau.",
+        "( ㉠ ) any help painting her new flat? | Does Melanie need;Does she need | `need` là động từ trạng thái, không dùng tiếp diễn. Câu hỏi mượn `Does`, chủ ngữ ở sau.",
     ]),
     # ---------------------------------------------------------------- day 2
     (2, "G", B2 + " · bài G (trang 9)", "Nối để thành câu", "Mỗi vế đầu có hai dạng gần nhau (think/thinking, look/looking, have/having, be/being). Chọn vế sau khớp với nghĩa của động từ.", "choice", [

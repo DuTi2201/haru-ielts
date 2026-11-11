@@ -25,7 +25,7 @@
    },
    "prompt_en": "Answer in two different tenses: Do you like your hometown?",
    "framework_vi": [
-    "Câu 1 = hiện tại đơn, nói điều bạn thấy bây giờ: Yes, I do. / Not really. Động từ chính chỉ là like/love/enjoy (động từ trạng thái, không thêm -ing, không thêm am/is).",
+    "Câu 1 = hiện tại đơn, nói điều bạn thấy bây giờ: Yes, I do. / Not really. Dùng like hoặc love (động từ trạng thái: không thêm -ing, không đi với am/is).",
     "Câu 2 = một thì KHÁC, chọn theo ý: hiện tại hoàn thành cho điều kéo dài tới nay (I have lived there for ___ years / since ___), hoặc quá khứ đơn/used to cho điều đã hết (I used to ___, but now ___).",
     "Nối hai ý bằng because / so / although để câu 2 giải thích câu 1; mỗi câu một mệnh đề đầy đủ có chủ ngữ + động từ.",
     "Mục tiêu 12-25 từ, đúng 2 câu; câu 2 phải có mốc thời gian (for/since/when I was a child) để thì lộ ra."
@@ -60,10 +60,10 @@
     "I like ___ because ___ ."
    ],
    "avoid_vi": [
-    "Không viết 'I am like my hometown' (am + like) và không viết 'I live here since 2010'."
+    "Không viết 'I am love my hometown' (am + love) và không viết 'I live here since 2010'."
    ],
    "common_errors_vi": [
-    "I am like → I like.",
+    "I am love my hometown → I love my hometown.",
     "I live here since 2010 → I have lived here since 2010 (since + mốc cần hoàn thành)."
    ]
   },
@@ -83,7 +83,7 @@
    "framework_vi": [
     "Cả hai câu đều hiện tại đơn nên không cần chọn thì; việc cần chọn là TRẠNG TỪ: câu thật dùng usually/often/sometimes, câu nói quá dùng always/never/every single/millions of.",
     "Vị trí trạng từ tần suất: SAU be (I am always late), TRƯỚC động từ thường (I never have time).",
-    "Câu nói quá nên có dấu ! và một con số hoặc cụm cường điệu: I have read a million books.",
+    "Câu nói quá nên có dấu ! và một con số hoặc cụm cường điệu, vẫn ở hiện tại đơn: I read a million books a year!",
     "Ngôi thứ ba: nếu kể về anh/chị/bạn thì động từ thêm -s (My brother never washes up)."
    ],
    "model_answer_en": "I study English every evening. I never have any free time!",
@@ -95,17 +95,17 @@
    ],
    "rubric": [
     {
-     "criterion_vi": "Trả lời đúng câu hỏi, nội dung là của chính bạn",
+     "criterion_vi": "Đúng đề: một câu thật, một câu nói quá, nội dung là của chính bạn",
      "max": 1,
      "note_vi": "Task response"
     },
     {
-     "criterion_vi": "Chọn thì đúng với điều muốn nói (mỗi câu một ý trên trục thời gian)",
+     "criterion_vi": "Chọn trạng từ tần suất hợp ý (thật: usually, often; nói quá: always, never) và đặt đúng vị trí",
      "max": 2,
      "note_vi": "Grammatical range"
     },
     {
-     "criterion_vi": "Dạng động từ đúng: -s ngôi thứ ba, do/does + nguyên thể, have + V3",
+     "criterion_vi": "Dạng động từ đúng: -s ngôi thứ ba, don't / doesn't + nguyên thể",
      "max": 2,
      "note_vi": "Grammatical accuracy"
     }
@@ -151,17 +151,17 @@
    ],
    "rubric": [
     {
-     "criterion_vi": "Trả lời đúng câu hỏi, nội dung là của chính bạn",
+     "criterion_vi": "Đúng đề: ba câu về một ngày của chính bạn",
      "max": 1,
      "note_vi": "Task response"
     },
     {
-     "criterion_vi": "Chọn thì đúng với điều muốn nói (mỗi câu một ý trên trục thời gian)",
+     "criterion_vi": "Có hai trạng từ tần suất và một cụm chỉ thời gian đúng giới từ (at / in / on)",
      "max": 2,
      "note_vi": "Grammatical range"
     },
     {
-     "criterion_vi": "Dạng động từ đúng: -s ngôi thứ ba, do/does + nguyên thể, have + V3",
+     "criterion_vi": "Dạng động từ đúng: -s ngôi thứ ba, don't / doesn't + nguyên thể",
      "max": 2,
      "note_vi": "Grammatical accuracy"
     }

@@ -182,7 +182,7 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
                 v["pron"] = L1.PRON[v["headword"]]
                 v["source"] += "; phiên âm: Oxford Advanced Learner's Dictionary (BrE)"
         for e in bank["writing"]:
-            e["rubric"] = L1.RUBRIC
+            e["rubric"] = L1.RUBRIC_BY.get(e["id"], L1.RUBRIC)
     grammar = []
     for c in d["cards"]:
         use = c["use"] + (f"\nTrích: «{c['quote']}»" if c["quote"] else "")

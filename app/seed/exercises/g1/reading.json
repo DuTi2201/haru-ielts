@@ -31,7 +31,7 @@
       }
      ],
      "answer": "3",
-     "explanation_vi": "Việc lặp lại ở hiện tại → hiện tại đơn, có hay không có trạng từ tần suất. Câu tiếp diễn chỉ nói về lúc này; câu quá khứ nói về một lần đã qua.",
+     "explanation_vi": "Việc lặp lại ở hiện tại → hiện tại đơn, có hay không có trạng từ tần suất. Câu tiếp diễn dành cho việc đang diễn ra hoặc tạm thời; câu quá khứ nói về một lần đã qua.",
      "tags": [],
      "prompt_vi": "Bạn về thăm bố mẹ đều đặn. Bạn chỉ muốn nêu việc đó, không nói bao lâu một lần."
     }
@@ -444,7 +444,7 @@
      "options": [
       {
        "id": "1",
-       "text": "You do work"
+       "text": "Do you works"
       },
       {
        "id": "2",
@@ -485,7 +485,7 @@
       },
       {
        "id": "2",
-       "text": "Who does live"
+       "text": "Who does lives"
       },
       {
        "id": "3",
@@ -629,7 +629,7 @@
      "options": [
       {
        "id": "1",
-       "text": "has fallen"
+       "text": "fall"
       },
       {
        "id": "2",
@@ -711,21 +711,21 @@
       },
       {
        "id": "3",
-       "text": "trains"
+       "text": "train"
       },
       {
        "id": "4",
-       "text": "train"
+       "text": "trains"
       }
      ],
      "answer": "3",
-     "explanation_vi": "`every Saturday` = thói quen lặp lại → hiện tại đơn; `team` số ít nên thêm -s.",
+     "explanation_vi": "`every Saturday` = thói quen lặp lại → hiện tại đơn; chủ ngữ `I` nên không thêm -s.",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "Do you play hockey competitively? Yes, my team ( ) every Saturday."
+    "text": "Do you play hockey competitively? Yes, I ( ) every Saturday."
    }
   },
   {

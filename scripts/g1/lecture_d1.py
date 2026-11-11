@@ -220,7 +220,7 @@ SITTING_1 = [
               ],
               "quote": "Ngôn ngữ tồn tại để phục vụ nhu cầu diễn đạt của người sử dụng, không phải để phục vụ công thức trong sách. Phần lớn thời gian cái các bạn nghĩ sẽ là cái các bạn nói, thế nên phần lớn cái chúng ta nói ra đều là sự thật chủ quan.",
               "rule": "Hiện tại đơn: điều người nói coi là thật, hoặc muốn người nghe coi là thật, lúc nói.",
-              "ielts": "Writing Task 2: Online learning saves time."}, "lines": [
+              "ielts": "Writing Task 2: Online learning can save time."}, "lines": [
         {"say": "Trong năm nhóm vừa rồi, ba nhóm lớn nhất là việc lặp lại, trạng thái, và sự thật.", "show": "groups"},
         {"say": "Chữ sự thật ở đây rộng lắm. Câu đầu tiên."},
         {"en": "Water boils at 100 degrees Celsius.", "vi": "Nước sôi ở 100 độ C.", "gap": True, "show": "c1"},
@@ -254,8 +254,8 @@ ERRORS = [
     {"key": "e1", "wrong": "Does she works here?", "right": "Does she work here?", "why": "Đã có does thì động từ về nguyên thể."},
     {"key": "e2", "wrong": "Where you live?", "right": "Where do you live?", "why": "Thiếu do."},
     {"key": "e3", "wrong": "Do you can swim?", "right": "Can you swim?", "why": "can không mượn do."},
-    {"key": "e4", "wrong": "Are you like jazz?", "right": "Do you like jazz?", "why": "like là động từ thường, không đi với are."},
-    {"key": "e5", "wrong": "Who does live next door?", "right": "Who lives next door?", "why": "Hỏi về chủ ngữ thì không mượn do."},
+    {"key": "e4", "wrong": "Are you like jazz?", "right": "Do you like jazz?", "why": "like (thích) là động từ thường, không đi với are."},
+    {"key": "e5", "wrong": "Who does live next door?", "right": "Who lives next door?", "why": "Hỏi về chủ ngữ thì thường không mượn do (chỉ mượn khi nhấn mạnh, rất hiếm)."},
     {"key": "e6", "wrong": "What means this word?", "right": "What does this word mean?", "why": "Phải mượn does và đảo thứ tự."},
     {"key": "e7", "wrong": "Yes, I like.", "right": "Yes, I do.", "why": "Trả lời ngắn dùng lại do hoặc does."},
 ]
@@ -274,7 +274,7 @@ SITTING_2 = [
     ]},
     {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Lỗi thường gặp khi hỏi", "title": "Bảy lỗi, bảy cách sửa",
      "data": {"rows": ERRORS,
-              "rule": "Đã có do hoặc does thì động từ về nguyên thể. Hỏi về chủ ngữ thì không mượn do."}, "lines": [
+              "rule": "Đã có do hoặc does thì động từ về nguyên thể. Hỏi về chủ ngữ thì thường không mượn do."}, "lines": [
         {"say": "Giám khảo Speaking Part 1 hỏi toàn câu hỏi, và người học hay sai ở đúng chỗ đó. Lỗi thứ nhất: chia hai lần.", "show": "e1"},
         {"en": "Does she work here?", "vi": "Cô ấy có làm ở đây không?", "gap": True},
         {"say": "Lỗi thứ hai: quên mượn do khi có từ để hỏi.", "show": "e2"},
@@ -283,13 +283,13 @@ SITTING_2 = [
         {"en": "Can you swim?", "vi": "Bạn biết bơi không?", "gap": True},
         {"say": "Lỗi thứ tư: dùng are với động từ thường.", "show": "e4"},
         {"en": "Do you like jazz?", "vi": "Bạn có thích nhạc jazz không?", "gap": True},
-        {"say": "Lỗi thứ năm: khi từ để hỏi chính là chủ ngữ, thì không mượn do.", "show": "e5"},
+        {"say": "Lỗi thứ năm: khi từ để hỏi chính là chủ ngữ, thì thường không mượn do.", "show": "e5"},
         {"en": "Who lives next door?", "vi": "Ai sống ở nhà bên?", "gap": True},
         {"say": "Lỗi thứ sáu: hỏi nghĩa của từ.", "show": "e6"},
         {"en": "What does this word mean?", "vi": "Từ này nghĩa là gì?", "gap": True},
         {"say": "Lỗi thứ bảy: trả lời ngắn.", "show": "e7"},
         {"en": "Yes, I do.", "vi": "Có.", "gap": True},
-        {"say": "Gói lại: đã có do hoặc does thì động từ về nguyên thể. Hỏi về chủ ngữ thì không mượn do.", "show": "rule"},
+        {"say": "Gói lại: đã có do hoặc does thì động từ về nguyên thể. Hỏi về chủ ngữ thì thường không mượn do.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "tense_timeline", "eyebrow": "Thí nghiệm 3", "title": "Một câu hỏi, bốn thì",
      "data": {"question": "Do you believe in God?", "question_vi": "Bạn có tin vào Chúa không?", "answers": ANSWERS,
@@ -361,6 +361,21 @@ RUBRIC = [
     {"criterion_vi": "Chọn thì đúng với điều muốn nói (mỗi câu một ý trên trục thời gian)", "max": 2, "note_vi": "Grammatical range"},
     {"criterion_vi": "Dạng động từ đúng: -s ngôi thứ ba, do/does + nguyên thể, have + V3", "max": 2, "note_vi": "Grammatical accuracy"},
 ]
+
+# M2 and M3 are present-simple only, so they are not graded on have + V3 or on a second tense
+RUBRIC_BY = {
+    "G1D1M1": RUBRIC,
+    "G1D1M2": [
+        {"criterion_vi": "Đúng đề: một câu thật, một câu nói quá, nội dung là của chính bạn", "max": 1, "note_vi": "Task response"},
+        {"criterion_vi": "Chọn trạng từ tần suất hợp ý (thật: usually, often; nói quá: always, never) và đặt đúng vị trí", "max": 2, "note_vi": "Grammatical range"},
+        {"criterion_vi": "Dạng động từ đúng: -s ngôi thứ ba, don't / doesn't + nguyên thể", "max": 2, "note_vi": "Grammatical accuracy"},
+    ],
+    "G1D1M3": [
+        {"criterion_vi": "Đúng đề: ba câu về một ngày của chính bạn", "max": 1, "note_vi": "Task response"},
+        {"criterion_vi": "Có hai trạng từ tần suất và một cụm chỉ thời gian đúng giới từ (at / in / on)", "max": 2, "note_vi": "Grammatical range"},
+        {"criterion_vi": "Dạng động từ đúng: -s ngôi thứ ba, don't / doesn't + nguyên thể", "max": 2, "note_vi": "Grammatical accuracy"},
+    ],
+}
 
 
 def reshape(sessions: list[dict], exercise_ids: list[str], card_of: dict[str, int]) -> list[dict]:

@@ -301,3 +301,7 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
 - Seed model (lesson_seed.py): WriteFill có task_vi/kind/situation_vi/original/bank; WriteEssay có frames/useful_vi/avoid_vi.
 - Giao diện: ExerciseHead (chip loại bài + tiến độ 3/8 + nhiệm vụ đậm 17px), WriteFill dùng ô gạch dưới nội tuyến và chip ngân hàng từ, WriteEssay có khung câu bấm để chèn, ô viết theo giới hạn, checklist ngay dưới ô viết, thanh đếm từ.
 - Chưa làm (xem A.md mục 4): 18 câu gốc sai thật từ sách (cần đối chiếu sách giấy), 14 câu còn thiếu của G1D7KXI, liên kết KLT/KTY với bài nghe/đọc, 22 bài Ôn lại trùng D6/D7, 14 bài "tích cực/tiêu cực" ở Reading.
+
+
+## Bài 44: rà soát kiến thức (2026-11-11)
+Báo cáo: `docs/review/lesson44-knowledge-audit.md`. 17 chỗ sửa trong `days.txt`, `lecture_d1.py`, `book_items.py`, `writing_scaffold.json`, `build.py` (rubric riêng cho M2/M3 qua `lecture_d1.RUBRIC_BY`). Sau khi sửa phải chạy lại `python3 scripts/g1/build.py`. Còn lại: đối chiếu đáp án với sách giấy (xem mục "Chưa kiểm chứng").
