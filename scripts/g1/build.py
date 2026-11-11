@@ -18,6 +18,7 @@ from b1 import build as B  # noqa: E402
 sys.path.insert(0, str(HERE))
 import book_items as BK  # noqa: E402
 import entry_test as ET  # noqa: E402
+import days56 as D56  # noqa: E402
 
 LESSONS = ROOT / "app" / "seed" / "lessons"
 BANK = ROOT / "app" / "seed" / "exercises" / "g1"
@@ -135,6 +136,8 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
                     ex = B.mcq(ex_id, ttl, stem, None, opts, why, instr)
                 else:
                     ex = B.mcq(ex_id, ttl, None, stem, opts, why, instr)
+                if code in BK.CHARTS:
+                    ex["stimulus"] = {"kind": "chart", "block": BK.CHARTS[code]}
                 bank["reading"].append(ex)
             else:
                 text, acc, tip = f[0], f[1].split(";"), f[2] + f" [{src}]"
@@ -269,6 +272,66 @@ def entry_lesson() -> tuple[dict, list[dict]]:
     return lesson, exs
 
 
+def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]]:
+    """Days 5 and 6: education vocabulary (B2 Unit 18 and nine C1 anchor words) plus the book exercises of the day."""
+    d = D56.DAYS[n]
+    pid = f"G1D{n}"
+    bank: dict[str, list[dict]] = {"reading": [], "build": [], "listening": [], "writing": []}
+    links: dict[str, list[str]] = {}
+    vocab, sessions = [], []
+    for title, words in d["sittings"]:
+        for h, pos, mv, ex, evi in words:
+            vocab.append({"headword": h, "pos": pos, "meaning_vi": mv, "example_en": ex, "example_vi": evi, "family": "Giáo dục", "priority": "core",
+                          "source": "Destination B2, Unit 18; từ C1 theo cách neo của thầy Minh"})
+        sessions.append({"title_vi": f"Từ vựng · {title}"[:70], "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: " + ", ".join(w[0] for w in words[:6]) + ", ...",
+                         "use_vi": d["ielts"][:200], "vocab": [w[0] for w in words]})
+    first_head = vocab[0]["headword"]
+    groups: dict[str, list[str]] = {}
+    src: dict[str, str] = {}
+    for day, code, srcname, title, instr, kind, lines in BK.SECTIONS:
+        if day != n:
+            continue
+        for i, ln in enumerate(lines, 1):
+            f = [x.strip() for x in ln.split(" | ")]
+            ex_id = f"{pid}K{code}-{i}"
+            ttl = f"Sách · {title} ({i}/{len(lines)})"
+            if kind == "choice":
+                stem, opts, why = f[0], f[1:-1], f[-1] + f" [{srcname}]"
+                ex = B.mcq(ex_id, ttl, stem if "( )" in stem else None, None if "( )" in stem else stem, opts, why, instr)
+                bank["reading"].append(ex)
+            else:
+                ex = B.write_fill(ex_id, ttl, f[0], f[1].split(";"), f[2] + f" [{srcname}]")
+                ex["instruction_vi"] = instr
+                bank["build"].append(ex)
+            groups.setdefault(code, []).append(ex_id)
+            src[code] = title
+    chunk, names, packs = [], [], []
+    for code, ids in groups.items():
+        if chunk and len(chunk) + len(ids) > 24:
+            packs.append((names, chunk)); chunk, names = [], []
+        chunk += ids; names.append(code)
+    if chunk:
+        packs.append((names, chunk))
+    for names, ids in packs:
+        sessions.append({"title_vi": ("Bài trong sách · " + ", ".join(c.replace("18", "") for c in names))[:70],
+                         "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: " + "; ".join(src[c].lower() for c in names) + ".",
+                         "use_vi": "Làm sau khi học từ: mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.", "check": ids})
+    book_body = "\n".join(f"• 📖 {b[0]}, trang {b[1]}: bài {b[2]} ({b[3]} câu, khoảng {b[4]} phút)" for b in d["book"])
+    lesson = {
+        "slug": f"g1-d{n}-{B.slugify(d['title'])}"[:60].rstrip("-"),
+        "title": f"G1 · Ngày {n} · {d['title_vi']}"[:120], "title_en": d["title"], "topic": TOPIC, "track": "beginner", "level": 4, "sort_order": 100 + n,
+        "summary": d["goal"], "vocab": vocab, "grammar": [],
+        "notes": [
+            {"title": "Mục tiêu của ngày", "body": f"• 🎯 {d['goal']}", "kind": "goal"},
+            {"title": "Bài của sách nằm trong app", "body": book_body + "\n• Các bài này có sẵn trong app kèm đáp án của sách và lời giải thích từng câu.", "kind": "language"},
+            {"title": "Cách học từ của thầy", "body": "• Học từ C1 bằng một từ B2 đồng nghĩa, không học nghĩa tiếng Việt dài.\n• Chọn 5 đến 10 từ bạn thích nhất rồi gõ câu về chính mình bằng bàn phím tiếng Anh.", "kind": "language"},
+        ],
+        "bank": "g1", "exercise_ids": [e["id"] for k in ("reading", "build") for e in bank[k]], "sessions": sessions,
+        "editor_notes": [{"title": "Nguồn", "body": "Từ vựng và bài tập theo Destination B2 Unit 18 (trang 112–115, đáp án trang 244); chín từ C1 và cách neo theo bài giảng của thầy Minh."}],
+    }
+    return lesson, bank, links
+
+
 def main() -> None:
     days = parse()
     BANK.mkdir(parents=True, exist_ok=True)
@@ -278,6 +341,12 @@ def main() -> None:
     links: dict[str, list[str]] = {}
     for d in days:
         lesson, bank, ln = lesson_of(d)
+        (LESSONS / f"{lesson['slug']}.json").write_text(json.dumps(lesson, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        for k, v in bank.items():
+            merged.setdefault(k, []).extend(v)
+        links.update(ln)
+    for n in D56.DAYS:
+        lesson, bank, ln = vocab_day(n)
         (LESSONS / f"{lesson['slug']}.json").write_text(json.dumps(lesson, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
         for k, v in bank.items():
             merged.setdefault(k, []).extend(v)

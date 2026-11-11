@@ -169,3 +169,10 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
 - `scripts/g1/entry_test.py`: the book's 50-item entry test (lesson `g1-entry-test`, sort_order 100) with the unit to study for each wrong answer.
 - Seed now: 47 lessons, 0 problems. Five tests still fail only in the sandbox (no sqlalchemy/email_validator).
 - Not yet typed in: Grammar 6.5+ Unit 1 listening (needs audio), Unit 3 exercises, B2 Unit 18 and C1&C2 Unit 2 exercises, IELTS Vocabulary 6.5+ units 1/5/21/22, Cambridge 18 Test 1.
+
+## 2026-11-11 (later) — days 5–6, Grammar Unit 3, charts
+- Added `scripts/g1/days56.py` + `vocab_day()` in `scripts/g1/build.py`: Day 5 (school, exams, 7 study phrasal verbs) and Day 6 (collocations, word families, 9 C1 anchor words: assess, baffle, plausible, speculate, presume, grasp, notion, dilemma, query) with Destination B2 Unit 18 exercises A–I and the book's key (key p. 244). Day 7 (reading/listening on Cambridge 18) is not written yet.
+- Added IELTS Grammar 6.5+ Unit 3 exercises C1 (wrong verbs only), C2 (chart), C3, C4 to Day 3.
+- Chart exercises use the seed's native `chart` stimulus (`CHARTS` in `scripts/g1/book_items.py`); the bar values were read from the printed charts and rounded (noted in each chart). Unit 3 C2 item 6: the key was unclear in OCR, so the reason says `caught up with` and the chart shows women still slightly below men.
+- Seed: 49 lessons, 388 G1 exercises, 0 problems. Five tests still fail only in the sandbox (no sqlalchemy/email_validator).
+- Still not typed: Grammar Unit 1 listening (audio), C1&C2 Unit 2 exercises, IELTS Vocabulary 6.5+ units, Cambridge 18.

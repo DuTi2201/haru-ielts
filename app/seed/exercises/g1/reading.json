@@ -1762,6 +1762,986 @@
    }
   },
   {
+   "id": "G1D3KU3C3-1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn dạng đúng: email gửi thầy (1/12)",
+   "instruction_vi": "Email của sinh viên Sunita gửi thầy Paul. Với mỗi câu hỏi: có mốc thời gian đã qua không? Có kết quả liên quan bây giờ không? Có nhấn vào quá trình không?",
+   "questions": [
+    {
+     "id": "G1D3KU3C3-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "I've just received"
+      },
+      {
+       "id": "2",
+       "text": "I've just been receiving"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`just` + việc vừa nhận xong, chỉ cần kết quả → hoàn thành đơn. Nhận một lần nên không dùng tiếp diễn. [IELTS Grammar 6.5+, Unit 3 · bài C3 (trang 24)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) your message to us all about the seminar on Friday."
+   }
+  },
+  {
+   "id": "G1D3KU3C3-2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn dạng đúng: email gửi thầy (2/12)",
+   "instruction_vi": "Email của sinh viên Sunita gửi thầy Paul. Với mỗi câu hỏi: có mốc thời gian đã qua không? Có kết quả liên quan bây giờ không? Có nhấn vào quá trình không?",
+   "questions": [
+    {
+     "id": "G1D3KU3C3-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "I've been working"
+      },
+      {
+       "id": "2",
+       "text": "I've worked"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`for the last week` nhấn vào quá trình kéo dài → hoàn thành tiếp diễn. [IELTS Grammar 6.5+, Unit 3 · bài C3 (trang 24)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) on my presentation for the last week."
+   }
+  },
+  {
+   "id": "G1D3KU3C3-3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn dạng đúng: email gửi thầy (3/12)",
+   "instruction_vi": "Email của sinh viên Sunita gửi thầy Paul. Với mỗi câu hỏi: có mốc thời gian đã qua không? Có kết quả liên quan bây giờ không? Có nhấn vào quá trình không?",
+   "questions": [
+    {
+     "id": "G1D3KU3C3-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "have now finished"
+      },
+      {
+       "id": "2",
+       "text": "now finished"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`now` + kết quả bây giờ (đã xong nên có thể trình bày) → hoàn thành đơn. [IELTS Grammar 6.5+, Unit 3 · bài C3 (trang 24)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "...and ( ) it, so I am happy to be one of the first to present."
+   }
+  },
+  {
+   "id": "G1D3KU3C3-4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn dạng đúng: email gửi thầy (4/12)",
+   "instruction_vi": "Email của sinh viên Sunita gửi thầy Paul. Với mỗi câu hỏi: có mốc thời gian đã qua không? Có kết quả liên quan bây giờ không? Có nhấn vào quá trình không?",
+   "questions": [
+    {
+     "id": "G1D3KU3C3-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "I made"
+      },
+      {
+       "id": "2",
+       "text": "I've made"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Quan tâm kết quả bây giờ: cuộc hẹn đang có và ảnh hưởng đến lịch → hoàn thành đơn. [IELTS Grammar 6.5+, Unit 3 · bài C3 (trang 24)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "However, ( ) an appointment to see the university careers advisor immediately after the seminar."
+   }
+  },
+  {
+   "id": "G1D3KU3C3-5",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn dạng đúng: email gửi thầy (5/12)",
+   "instruction_vi": "Email của sinh viên Sunita gửi thầy Paul. Với mỗi câu hỏi: có mốc thời gian đã qua không? Có kết quả liên quan bây giờ không? Có nhấn vào quá trình không?",
+   "questions": [
+    {
+     "id": "G1D3KU3C3-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "you said"
+      },
+      {
+       "id": "2",
+       "text": "you've said"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`at last week's lecture` là mốc quá khứ → quá khứ đơn, không dùng hoàn thành. [IELTS Grammar 6.5+, Unit 3 · bài C3 (trang 24)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "At last week's lecture ( ) that we should use slides."
+   }
+  },
+  {
+   "id": "G1D3KU3C3-6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn dạng đúng: email gửi thầy (6/12)",
+   "instruction_vi": "Email của sinh viên Sunita gửi thầy Paul. Với mỗi câu hỏi: có mốc thời gian đã qua không? Có kết quả liên quan bây giờ không? Có nhấn vào quá trình không?",
+   "questions": [
+    {
+     "id": "G1D3KU3C3-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "I have prepared"
+      },
+      {
+       "id": "2",
+       "text": "I prepared"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Kết quả liên quan bây giờ: slide đã có và người nói đang băn khoăn về số lượng → hoàn thành đơn. [IELTS Grammar 6.5+, Unit 3 · bài C3 (trang 24)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) my slides but I think I may have too many."
+   }
+  },
+  {
+   "id": "G1D3KU3C3-7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn dạng đúng: email gửi thầy (7/12)",
+   "instruction_vi": "Email của sinh viên Sunita gửi thầy Paul. Với mỗi câu hỏi: có mốc thời gian đã qua không? Có kết quả liên quan bây giờ không? Có nhấn vào quá trình không?",
+   "questions": [
+    {
+     "id": "G1D3KU3C3-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "I've done"
+      },
+      {
+       "id": "2",
+       "text": "I did"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Kinh nghiệm cho đến bây giờ (`before` không nêu mốc cụ thể) → hoàn thành đơn. [IELTS Grammar 6.5+, Unit 3 · bài C3 (trang 24)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) lots of presentations before, and I feel OK about this one."
+   }
+  },
+  {
+   "id": "G1D3KU3C3-8",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn dạng đúng: email gửi thầy (8/12)",
+   "instruction_vi": "Email của sinh viên Sunita gửi thầy Paul. Với mỗi câu hỏi: có mốc thời gian đã qua không? Có kết quả liên quan bây giờ không? Có nhấn vào quá trình không?",
+   "questions": [
+    {
+     "id": "G1D3KU3C3-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "I used"
+      },
+      {
+       "id": "2",
+       "text": "I have been using"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`my last presentation` là một lần đã xong trong quá khứ → quá khứ đơn. [IELTS Grammar 6.5+, Unit 3 · bài C3 (trang 24)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "In my last presentation ( ) about forty slides."
+   }
+  },
+  {
+   "id": "G1D3KU3C3-9",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn dạng đúng: email gửi thầy (9/12)",
+   "instruction_vi": "Email của sinh viên Sunita gửi thầy Paul. Với mỗi câu hỏi: có mốc thời gian đã qua không? Có kết quả liên quan bây giờ không? Có nhấn vào quá trình không?",
+   "questions": [
+    {
+     "id": "G1D3KU3C3-9",
+     "options": [
+      {
+       "id": "1",
+       "text": "I went"
+      },
+      {
+       "id": "2",
+       "text": "I've been"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`yesterday` là mốc quá khứ xác định → quá khứ đơn, không dùng hoàn thành. [IELTS Grammar 6.5+, Unit 3 · bài C3 (trang 24)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) to Professor Russell's lecture yesterday."
+   }
+  },
+  {
+   "id": "G1D3KU3C3-10",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn dạng đúng: email gửi thầy (10/12)",
+   "instruction_vi": "Email của sinh viên Sunita gửi thầy Paul. Với mỗi câu hỏi: có mốc thời gian đã qua không? Có kết quả liên quan bây giờ không? Có nhấn vào quá trình không?",
+   "questions": [
+    {
+     "id": "G1D3KU3C3-10",
+     "options": [
+      {
+       "id": "1",
+       "text": "have been learning"
+      },
+      {
+       "id": "2",
+       "text": "learnt"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Một việc đã xong cùng mốc `yesterday` → quá khứ đơn. [IELTS Grammar 6.5+, Unit 3 · bài C3 (trang 24)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "...and ( ) quite a lot that is relevant to this course."
+   }
+  },
+  {
+   "id": "G1D3KU3C3-11",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn dạng đúng: email gửi thầy (11/12)",
+   "instruction_vi": "Email của sinh viên Sunita gửi thầy Paul. Với mỗi câu hỏi: có mốc thời gian đã qua không? Có kết quả liên quan bây giờ không? Có nhấn vào quá trình không?",
+   "questions": [
+    {
+     "id": "G1D3KU3C3-11",
+     "options": [
+      {
+       "id": "1",
+       "text": "I wondered"
+      },
+      {
+       "id": "2",
+       "text": "I've been wondering"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Cân nhắc kéo dài đến bây giờ, nhấn vào hoạt động → hoàn thành tiếp diễn. [IELTS Grammar 6.5+, Unit 3 · bài C3 (trang 24)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) about this - maybe it is better to stick to the materials."
+   }
+  },
+  {
+   "id": "G1D3KU3C3-12",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn dạng đúng: email gửi thầy (12/12)",
+   "instruction_vi": "Email của sinh viên Sunita gửi thầy Paul. Với mỗi câu hỏi: có mốc thời gian đã qua không? Có kết quả liên quan bây giờ không? Có nhấn vào quá trình không?",
+   "questions": [
+    {
+     "id": "G1D3KU3C3-12",
+     "options": [
+      {
+       "id": "1",
+       "text": "you've given"
+      },
+      {
+       "id": "2",
+       "text": "you've been giving"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Nhấn vào kết quả (tài liệu đã được đưa), không nhấn vào quá trình → hoàn thành đơn. [IELTS Grammar 6.5+, Unit 3 · bài C3 (trang 24)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "...to stick to the materials and references ( ) us."
+   }
+  },
+  {
+   "id": "G1D3KU3C2-1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn thì theo biểu đồ: mua sắm trực tuyến (1/8)",
+   "instruction_vi": "Nhìn biểu đồ rồi chọn thì đúng. Hỏi: mốc thời gian đã kết thúc (quá khứ đơn) hay kéo dài tới bây giờ (hiện tại hoàn thành)?",
+   "questions": [
+    {
+     "id": "G1D3KU3C2-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "have used"
+      },
+      {
+       "id": "2",
+       "text": "are using"
+      },
+      {
+       "id": "3",
+       "text": "used"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`since 2005` = từ mốc đó đến bây giờ → hiện tại hoàn thành. [IELTS Grammar 6.5+, Unit 3 · bài C2 (trang 22)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "chart",
+    "block": {
+     "title_vi": "Phần trăm người lớn ở Anh từng mua sắm trực tuyến",
+     "note_vi": "Số liệu đọc từ biểu đồ cột của sách, làm tròn.",
+     "chart": {
+      "type": "bar",
+      "unit": "%",
+      "categories": [
+       "Nam",
+       "Nữ",
+       "Tất cả"
+      ],
+      "series": [
+       {
+        "name": "2005",
+        "values": [
+         20,
+         10,
+         15
+        ]
+       },
+       {
+        "name": "2010",
+        "values": [
+         50,
+         40,
+         45
+        ]
+       },
+       {
+        "name": "2015",
+        "values": [
+         60,
+         55,
+         57
+        ]
+       },
+       {
+        "name": "Hiện nay",
+        "values": [
+         70,
+         67,
+         66
+        ]
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "G1D3KU3C2-2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn thì theo biểu đồ: mua sắm trực tuyến (2/8)",
+   "instruction_vi": "Nhìn biểu đồ rồi chọn thì đúng. Hỏi: mốc thời gian đã kết thúc (quá khứ đơn) hay kéo dài tới bây giờ (hiện tại hoàn thành)?",
+   "questions": [
+    {
+     "id": "G1D3KU3C2-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "has increased"
+      },
+      {
+       "id": "2",
+       "text": "is increasing"
+      },
+      {
+       "id": "3",
+       "text": "increased"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`since 2005` → hoàn thành đơn: nhấn vào kết quả (đã tăng được bao nhiêu). [IELTS Grammar 6.5+, Unit 3 · bài C2 (trang 22)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "chart",
+    "block": {
+     "title_vi": "Phần trăm người lớn ở Anh từng mua sắm trực tuyến",
+     "note_vi": "Số liệu đọc từ biểu đồ cột của sách, làm tròn.",
+     "chart": {
+      "type": "bar",
+      "unit": "%",
+      "categories": [
+       "Nam",
+       "Nữ",
+       "Tất cả"
+      ],
+      "series": [
+       {
+        "name": "2005",
+        "values": [
+         20,
+         10,
+         15
+        ]
+       },
+       {
+        "name": "2010",
+        "values": [
+         50,
+         40,
+         45
+        ]
+       },
+       {
+        "name": "2015",
+        "values": [
+         60,
+         55,
+         57
+        ]
+       },
+       {
+        "name": "Hiện nay",
+        "values": [
+         70,
+         67,
+         66
+        ]
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "G1D3KU3C2-3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn thì theo biểu đồ: mua sắm trực tuyến (3/8)",
+   "instruction_vi": "Nhìn biểu đồ rồi chọn thì đúng. Hỏi: mốc thời gian đã kết thúc (quá khứ đơn) hay kéo dài tới bây giờ (hiện tại hoàn thành)?",
+   "questions": [
+    {
+     "id": "G1D3KU3C2-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "has risen"
+      },
+      {
+       "id": "2",
+       "text": "rose"
+      },
+      {
+       "id": "3",
+       "text": "was rising"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`in 2015` là mốc thời gian đã qua → quá khứ đơn. [IELTS Grammar 6.5+, Unit 3 · bài C2 (trang 22)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "chart",
+    "block": {
+     "title_vi": "Phần trăm người lớn ở Anh từng mua sắm trực tuyến",
+     "note_vi": "Số liệu đọc từ biểu đồ cột của sách, làm tròn.",
+     "chart": {
+      "type": "bar",
+      "unit": "%",
+      "categories": [
+       "Nam",
+       "Nữ",
+       "Tất cả"
+      ],
+      "series": [
+       {
+        "name": "2005",
+        "values": [
+         20,
+         10,
+         15
+        ]
+       },
+       {
+        "name": "2010",
+        "values": [
+         50,
+         40,
+         45
+        ]
+       },
+       {
+        "name": "2015",
+        "values": [
+         60,
+         55,
+         57
+        ]
+       },
+       {
+        "name": "Hiện nay",
+        "values": [
+         70,
+         67,
+         66
+        ]
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "G1D3KU3C2-4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn thì theo biểu đồ: mua sắm trực tuyến (4/8)",
+   "instruction_vi": "Nhìn biểu đồ rồi chọn thì đúng. Hỏi: mốc thời gian đã kết thúc (quá khứ đơn) hay kéo dài tới bây giờ (hiện tại hoàn thành)?",
+   "questions": [
+    {
+     "id": "G1D3KU3C2-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "has risen"
+      },
+      {
+       "id": "2",
+       "text": "rose"
+      },
+      {
+       "id": "3",
+       "text": "rises"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`each year` kéo dài đến bây giờ, biểu đồ có cả cột `present` → hoàn thành đơn. [IELTS Grammar 6.5+, Unit 3 · bài C2 (trang 22)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "chart",
+    "block": {
+     "title_vi": "Phần trăm người lớn ở Anh từng mua sắm trực tuyến",
+     "note_vi": "Số liệu đọc từ biểu đồ cột của sách, làm tròn.",
+     "chart": {
+      "type": "bar",
+      "unit": "%",
+      "categories": [
+       "Nam",
+       "Nữ",
+       "Tất cả"
+      ],
+      "series": [
+       {
+        "name": "2005",
+        "values": [
+         20,
+         10,
+         15
+        ]
+       },
+       {
+        "name": "2010",
+        "values": [
+         50,
+         40,
+         45
+        ]
+       },
+       {
+        "name": "2015",
+        "values": [
+         60,
+         55,
+         57
+        ]
+       },
+       {
+        "name": "Hiện nay",
+        "values": [
+         70,
+         67,
+         66
+        ]
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "G1D3KU3C2-5",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn thì theo biểu đồ: mua sắm trực tuyến (5/8)",
+   "instruction_vi": "Nhìn biểu đồ rồi chọn thì đúng. Hỏi: mốc thời gian đã kết thúc (quá khứ đơn) hay kéo dài tới bây giờ (hiện tại hoàn thành)?",
+   "questions": [
+    {
+     "id": "G1D3KU3C2-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "was"
+      },
+      {
+       "id": "2",
+       "text": "has been"
+      },
+      {
+       "id": "3",
+       "text": "is"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`from 2005 to 2015` là giai đoạn đã kết thúc → quá khứ đơn. [IELTS Grammar 6.5+, Unit 3 · bài C2 (trang 22)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "chart",
+    "block": {
+     "title_vi": "Phần trăm người lớn ở Anh từng mua sắm trực tuyến",
+     "note_vi": "Số liệu đọc từ biểu đồ cột của sách, làm tròn.",
+     "chart": {
+      "type": "bar",
+      "unit": "%",
+      "categories": [
+       "Nam",
+       "Nữ",
+       "Tất cả"
+      ],
+      "series": [
+       {
+        "name": "2005",
+        "values": [
+         20,
+         10,
+         15
+        ]
+       },
+       {
+        "name": "2010",
+        "values": [
+         50,
+         40,
+         45
+        ]
+       },
+       {
+        "name": "2015",
+        "values": [
+         60,
+         55,
+         57
+        ]
+       },
+       {
+        "name": "Hiện nay",
+        "values": [
+         70,
+         67,
+         66
+        ]
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "G1D3KU3C2-6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn thì theo biểu đồ: mua sắm trực tuyến (6/8)",
+   "instruction_vi": "Nhìn biểu đồ rồi chọn thì đúng. Hỏi: mốc thời gian đã kết thúc (quá khứ đơn) hay kéo dài tới bây giờ (hiện tại hoàn thành)?",
+   "questions": [
+    {
+     "id": "G1D3KU3C2-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "have caught up with"
+      },
+      {
+       "id": "2",
+       "text": "caught up with"
+      },
+      {
+       "id": "3",
+       "text": "catch up with"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`since 2015` → hoàn thành đơn. (Số liệu biểu đồ: nữ vẫn thấp hơn nam một chút, nên là `caught up with`, không phải vượt qua.) [IELTS Grammar 6.5+, Unit 3 · bài C2 (trang 22)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "chart",
+    "block": {
+     "title_vi": "Phần trăm người lớn ở Anh từng mua sắm trực tuyến",
+     "note_vi": "Số liệu đọc từ biểu đồ cột của sách, làm tròn.",
+     "chart": {
+      "type": "bar",
+      "unit": "%",
+      "categories": [
+       "Nam",
+       "Nữ",
+       "Tất cả"
+      ],
+      "series": [
+       {
+        "name": "2005",
+        "values": [
+         20,
+         10,
+         15
+        ]
+       },
+       {
+        "name": "2010",
+        "values": [
+         50,
+         40,
+         45
+        ]
+       },
+       {
+        "name": "2015",
+        "values": [
+         60,
+         55,
+         57
+        ]
+       },
+       {
+        "name": "Hiện nay",
+        "values": [
+         70,
+         67,
+         66
+        ]
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "G1D3KU3C2-7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn thì theo biểu đồ: mua sắm trực tuyến (7/8)",
+   "instruction_vi": "Nhìn biểu đồ rồi chọn thì đúng. Hỏi: mốc thời gian đã kết thúc (quá khứ đơn) hay kéo dài tới bây giờ (hiện tại hoàn thành)?",
+   "questions": [
+    {
+     "id": "G1D3KU3C2-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "has grown"
+      },
+      {
+       "id": "2",
+       "text": "is growing"
+      },
+      {
+       "id": "3",
+       "text": "grew"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`each year` tới nay → hoàn thành đơn. [IELTS Grammar 6.5+, Unit 3 · bài C2 (trang 22)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "chart",
+    "block": {
+     "title_vi": "Phần trăm người lớn ở Anh từng mua sắm trực tuyến",
+     "note_vi": "Số liệu đọc từ biểu đồ cột của sách, làm tròn.",
+     "chart": {
+      "type": "bar",
+      "unit": "%",
+      "categories": [
+       "Nam",
+       "Nữ",
+       "Tất cả"
+      ],
+      "series": [
+       {
+        "name": "2005",
+        "values": [
+         20,
+         10,
+         15
+        ]
+       },
+       {
+        "name": "2010",
+        "values": [
+         50,
+         40,
+         45
+        ]
+       },
+       {
+        "name": "2015",
+        "values": [
+         60,
+         55,
+         57
+        ]
+       },
+       {
+        "name": "Hiện nay",
+        "values": [
+         70,
+         67,
+         66
+        ]
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "G1D3KU3C2-8",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn thì theo biểu đồ: mua sắm trực tuyến (8/8)",
+   "instruction_vi": "Nhìn biểu đồ rồi chọn thì đúng. Hỏi: mốc thời gian đã kết thúc (quá khứ đơn) hay kéo dài tới bây giờ (hiện tại hoàn thành)?",
+   "questions": [
+    {
+     "id": "G1D3KU3C2-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "occurs"
+      },
+      {
+       "id": "2",
+       "text": "has occurred"
+      },
+      {
+       "id": "3",
+       "text": "occurred"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "`between 2005 and 2010` là giai đoạn đã kết thúc → quá khứ đơn. [IELTS Grammar 6.5+, Unit 3 · bài C2 (trang 22)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "chart",
+    "block": {
+     "title_vi": "Phần trăm người lớn ở Anh từng mua sắm trực tuyến",
+     "note_vi": "Số liệu đọc từ biểu đồ cột của sách, làm tròn.",
+     "chart": {
+      "type": "bar",
+      "unit": "%",
+      "categories": [
+       "Nam",
+       "Nữ",
+       "Tất cả"
+      ],
+      "series": [
+       {
+        "name": "2005",
+        "values": [
+         20,
+         10,
+         15
+        ]
+       },
+       {
+        "name": "2010",
+        "values": [
+         50,
+         40,
+         45
+        ]
+       },
+       {
+        "name": "2015",
+        "values": [
+         60,
+         55,
+         57
+        ]
+       },
+       {
+        "name": "Hiện nay",
+        "values": [
+         70,
+         67,
+         66
+        ]
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
    "id": "G1D4I1",
    "skill": "reading",
    "type": "read_match",
@@ -2798,6 +3778,940 @@
      "prompt_vi": "Dòng 10: «Travelling certainly broadens the mind but it also is broadens your circle of»"
     }
    ]
+  },
+  {
+   "id": "G1D4KU1C4a-1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Đọc biểu đồ: số nhân viên (1/1)",
+   "instruction_vi": "Nhìn biểu đồ rồi chọn dạng động từ đúng cho câu mô tả. Biểu đồ cho thấy một xu hướng thay đổi theo từng năm.",
+   "questions": [
+    {
+     "id": "G1D4KU1C4a-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "has increased"
+      },
+      {
+       "id": "2",
+       "text": "is increased"
+      },
+      {
+       "id": "3",
+       "text": "is increasing"
+      },
+      {
+       "id": "4",
+       "text": "increases"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Số nhân viên tăng đều qua năm 1–5: xu hướng đang thay đổi → tiếp diễn. [IELTS Grammar 6.5+, Unit 1 · bài C4 (trang 5), biểu đồ trên]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "chart",
+    "block": {
+     "title_vi": "Số nhân viên của công ty (năm 1 đến năm 5)",
+     "note_vi": "Số liệu đọc từ biểu đồ cột của sách, làm tròn.",
+     "chart": {
+      "type": "bar",
+      "unit": "người",
+      "categories": [
+       "Năm 1",
+       "Năm 2",
+       "Năm 3",
+       "Năm 4",
+       "Năm 5"
+      ],
+      "series": [
+       {
+        "name": "Số nhân viên",
+        "values": [
+         50,
+         65,
+         68,
+         88,
+         115
+        ]
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "G1D4KU1C4b-1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Đọc biểu đồ: số nhân viên nghỉ việc (1/1)",
+   "instruction_vi": "Nhìn biểu đồ rồi chọn dạng động từ đúng cho câu mô tả.",
+   "questions": [
+    {
+     "id": "G1D4KU1C4b-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "is decreasing"
+      },
+      {
+       "id": "2",
+       "text": "is decreased"
+      },
+      {
+       "id": "3",
+       "text": "has decreased"
+      },
+      {
+       "id": "4",
+       "text": "decreases"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Số người nghỉ việc giảm đều qua năm 1–5: xu hướng đang thay đổi → tiếp diễn. [IELTS Grammar 6.5+, Unit 1 · bài C4 (trang 5), biểu đồ dưới]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "chart",
+    "block": {
+     "title_vi": "Số nhân viên nghỉ việc trong vòng 5 năm (năm 1 đến năm 5)",
+     "note_vi": "Số liệu đọc từ biểu đồ cột của sách, làm tròn.",
+     "chart": {
+      "type": "bar",
+      "unit": "người",
+      "categories": [
+       "Năm 1",
+       "Năm 2",
+       "Năm 3",
+       "Năm 4",
+       "Năm 5"
+      ],
+      "series": [
+       {
+        "name": "Nghỉ việc",
+        "values": [
+         38,
+         30,
+         22,
+         18,
+         14
+        ]
+       }
+      ]
+     }
+    }
+   }
+  },
+  {
+   "id": "G1D5KB18-1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng: các cặp dễ nhầm (1/10)",
+   "instruction_vi": "Mỗi câu có hai từ gần nghĩa. Chọn từ đúng với ngữ cảnh. Ghi lại lý do để nhớ cặp này.",
+   "questions": [
+    {
+     "id": "G1D5KB18-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "passed"
+      },
+      {
+       "id": "2",
+       "text": "took"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`pass` = đỗ; `take` = đi thi (chưa biết kết quả). Ở đây nói về kết quả nên chọn `passed`. [Destination B2, Unit 18 · bài B (trang 113)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I made a few mistakes in the exam and I don't think I ( ) it."
+   }
+  },
+  {
+   "id": "G1D5KB18-2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng: các cặp dễ nhầm (2/10)",
+   "instruction_vi": "Mỗi câu có hai từ gần nghĩa. Chọn từ đúng với ngữ cảnh. Ghi lại lý do để nhớ cặp này.",
+   "questions": [
+    {
+     "id": "G1D5KB18-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "count"
+      },
+      {
+       "id": "2",
+       "text": "measure"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`measure` dùng cho thứ đo bằng mức độ (trí thông minh); `count` là đếm từng cái. [Destination B2, Unit 18 · bài B (trang 113)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "It's not always easy to ( ) how intelligent someone is."
+   }
+  },
+  {
+   "id": "G1D5KB18-3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng: các cặp dễ nhầm (3/10)",
+   "instruction_vi": "Mỗi câu có hai từ gần nghĩa. Chọn từ đúng với ngữ cảnh. Ghi lại lý do để nhớ cặp này.",
+   "questions": [
+    {
+     "id": "G1D5KB18-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "talk"
+      },
+      {
+       "id": "2",
+       "text": "speak"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`speak a language`; `talk` không đi trực tiếp với tên ngôn ngữ. [Destination B2, Unit 18 · bài B (trang 113)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Did you know that our French teacher can ( ) four languages?"
+   }
+  },
+  {
+   "id": "G1D5KB18-4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng: các cặp dễ nhầm (4/10)",
+   "instruction_vi": "Mỗi câu có hai từ gần nghĩa. Chọn từ đúng với ngữ cảnh. Ghi lại lý do để nhớ cặp này.",
+   "questions": [
+    {
+     "id": "G1D5KB18-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "qualities"
+      },
+      {
+       "id": "2",
+       "text": "qualifications"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`qualifications` = bằng cấp; `qualities` = phẩm chất. [Destination B2, Unit 18 · bài B (trang 113)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "My ( ) include a degree and an MA in chemistry."
+   }
+  },
+  {
+   "id": "G1D5KB18-5",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng: các cặp dễ nhầm (5/10)",
+   "instruction_vi": "Mỗi câu có hai từ gần nghĩa. Chọn từ đúng với ngữ cảnh. Ghi lại lý do để nhớ cặp này.",
+   "questions": [
+    {
+     "id": "G1D5KB18-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "know"
+      },
+      {
+       "id": "2",
+       "text": "recognise"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`recognise` = nhận ra ai/cái gì; `know` = biết (đã quen). [Destination B2, Unit 18 · bài B (trang 113)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Our headteacher had had her hair cut and I didn't ( ) her at first."
+   }
+  },
+  {
+   "id": "G1D5KB18-6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng: các cặp dễ nhầm (6/10)",
+   "instruction_vi": "Mỗi câu có hai từ gần nghĩa. Chọn từ đúng với ngữ cảnh. Ghi lại lý do để nhớ cặp này.",
+   "questions": [
+    {
+     "id": "G1D5KB18-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "task"
+      },
+      {
+       "id": "2",
+       "text": "effort"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`task` = nhiệm vụ được giao; `effort` = sự cố gắng. [Destination B2, Unit 18 · bài B (trang 113)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "In design and technology, we were given the ( ) of designing a stadium."
+   }
+  },
+  {
+   "id": "G1D5KB18-7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng: các cặp dễ nhầm (7/10)",
+   "instruction_vi": "Mỗi câu có hai từ gần nghĩa. Chọn từ đúng với ngữ cảnh. Ghi lại lý do để nhớ cặp này.",
+   "questions": [
+    {
+     "id": "G1D5KB18-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "subject"
+      },
+      {
+       "id": "2",
+       "text": "lesson"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`subject` = môn/chủ đề; `lesson` = buổi học. [Destination B2, Unit 18 · bài B (trang 113)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "You'll find plenty of books on the ( ) of business studies in the library."
+   }
+  },
+  {
+   "id": "G1D5KB18-8",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng: các cặp dễ nhầm (8/10)",
+   "instruction_vi": "Mỗi câu có hai từ gần nghĩa. Chọn từ đúng với ngữ cảnh. Ghi lại lý do để nhớ cặp này.",
+   "questions": [
+    {
+     "id": "G1D5KB18-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "read"
+      },
+      {
+       "id": "2",
+       "text": "study"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`study hard` = học chăm. `read hard` không có nghĩa này. [Destination B2, Unit 18 · bài B (trang 113)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "You have to ( ) hard in order to do well at university."
+   }
+  },
+  {
+   "id": "G1D5KB18-9",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng: các cặp dễ nhầm (9/10)",
+   "instruction_vi": "Mỗi câu có hai từ gần nghĩa. Chọn từ đúng với ngữ cảnh. Ghi lại lý do để nhớ cặp này.",
+   "questions": [
+    {
+     "id": "G1D5KB18-9",
+     "options": [
+      {
+       "id": "1",
+       "text": "exam"
+      },
+      {
+       "id": "2",
+       "text": "test"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`test` = bài kiểm tra ngắn; `exam` = kỳ thi lớn, thường trang trọng và dài hơn. [Destination B2, Unit 18 · bài B (trang 113)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Look at what we did in today's lesson and we'll have a quick ( ) tomorrow morning."
+   }
+  },
+  {
+   "id": "G1D5KB18-10",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng: các cặp dễ nhầm (10/10)",
+   "instruction_vi": "Mỗi câu có hai từ gần nghĩa. Chọn từ đúng với ngữ cảnh. Ghi lại lý do để nhớ cặp này.",
+   "questions": [
+    {
+     "id": "G1D5KB18-10",
+     "options": [
+      {
+       "id": "1",
+       "text": "classmates"
+      },
+      {
+       "id": "2",
+       "text": "colleagues"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`classmates` = bạn cùng lớp; `colleagues` = đồng nghiệp. [Destination B2, Unit 18 · bài B (trang 113)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Our teacher asked us to choose one of our ( ) to be our partner for the next exercise."
+   }
+  },
+  {
+   "id": "G1D6KE18-1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng: cụm và kết hợp từ (1/14)",
+   "instruction_vi": "Chọn từ đi đúng với danh từ/cụm trong câu. Đây là các kết hợp từ (collocation): phải học cả cụm, không dịch từng chữ.",
+   "questions": [
+    {
+     "id": "G1D6KE18-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "capture"
+      },
+      {
+       "id": "2",
+       "text": "draw"
+      },
+      {
+       "id": "3",
+       "text": "attract"
+      },
+      {
+       "id": "4",
+       "text": "pull"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Theo đáp án của sách chọn `attract`. Nhớ cả hai cụm `attract attention` và `draw attention to`, không dùng `pull attention`. [Destination B2, Unit 18 · bài E (trang 114)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "If you need to ( ) the teacher's attention, just put your hand up."
+   }
+  },
+  {
+   "id": "G1D6KE18-2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng: cụm và kết hợp từ (2/14)",
+   "instruction_vi": "Chọn từ đi đúng với danh từ/cụm trong câu. Đây là các kết hợp từ (collocation): phải học cả cụm, không dịch từng chữ.",
+   "questions": [
+    {
+     "id": "G1D6KE18-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "write"
+      },
+      {
+       "id": "2",
+       "text": "do"
+      },
+      {
+       "id": "3",
+       "text": "make"
+      },
+      {
+       "id": "4",
+       "text": "solve"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`do your homework`. [Destination B2, Unit 18 · bài E (trang 114)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Make sure you ( ) your homework before you go out."
+   }
+  },
+  {
+   "id": "G1D6KE18-3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng: cụm và kết hợp từ (3/14)",
+   "instruction_vi": "Chọn từ đi đúng với danh từ/cụm trong câu. Đây là các kết hợp từ (collocation): phải học cả cụm, không dịch từng chữ.",
+   "questions": [
+    {
+     "id": "G1D6KE18-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "have"
+      },
+      {
+       "id": "2",
+       "text": "put"
+      },
+      {
+       "id": "3",
+       "text": "do"
+      },
+      {
+       "id": "4",
+       "text": "make"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`make a suggestion`. [Destination B2, Unit 18 · bài E (trang 114)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Could I ( ) a suggestion? Why not have piano lessons?"
+   }
+  },
+  {
+   "id": "G1D6KE18-4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng: cụm và kết hợp từ (4/14)",
+   "instruction_vi": "Chọn từ đi đúng với danh từ/cụm trong câu. Đây là các kết hợp từ (collocation): phải học cả cụm, không dịch từng chữ.",
+   "questions": [
+    {
+     "id": "G1D6KE18-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "mind"
+      },
+      {
+       "id": "2",
+       "text": "take"
+      },
+      {
+       "id": "3",
+       "text": "see"
+      },
+      {
+       "id": "4",
+       "text": "have"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "`see the point of …`. [Destination B2, Unit 18 · bài E (trang 114)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I really don't ( ) the point of taking the exam when you're not ready for it."
+   }
+  },
+  {
+   "id": "G1D6KE18-5",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng: cụm và kết hợp từ (5/14)",
+   "instruction_vi": "Chọn từ đi đúng với danh từ/cụm trong câu. Đây là các kết hợp từ (collocation): phải học cả cụm, không dịch từng chữ.",
+   "questions": [
+    {
+     "id": "G1D6KE18-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "gap"
+      },
+      {
+       "id": "2",
+       "text": "pause"
+      },
+      {
+       "id": "3",
+       "text": "interval"
+      },
+      {
+       "id": "4",
+       "text": "break"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`lunch break`. [Destination B2, Unit 18 · bài E (trang 114)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I'll meet you at the school gates during the lunch ( )."
+   }
+  },
+  {
+   "id": "G1D6KE18-6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng: cụm và kết hợp từ (6/14)",
+   "instruction_vi": "Chọn từ đi đúng với danh từ/cụm trong câu. Đây là các kết hợp từ (collocation): phải học cả cụm, không dịch từng chữ.",
+   "questions": [
+    {
+     "id": "G1D6KE18-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "under"
+      },
+      {
+       "id": "2",
+       "text": "in"
+      },
+      {
+       "id": "3",
+       "text": "through"
+      },
+      {
+       "id": "4",
+       "text": "over"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`pass something over to somebody`. [Destination B2, Unit 18 · bài E (trang 114)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Do you think you could pass that book ( ) to me, please?"
+   }
+  },
+  {
+   "id": "G1D6KE18-7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng: cụm và kết hợp từ (7/14)",
+   "instruction_vi": "Chọn từ đi đúng với danh từ/cụm trong câu. Đây là các kết hợp từ (collocation): phải học cả cụm, không dịch từng chữ.",
+   "questions": [
+    {
+     "id": "G1D6KE18-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "reading"
+      },
+      {
+       "id": "2",
+       "text": "making"
+      },
+      {
+       "id": "3",
+       "text": "having"
+      },
+      {
+       "id": "4",
+       "text": "going"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "`have a lesson` (tiếp diễn cho kế hoạch đã xếp lịch). [Destination B2, Unit 18 · bài E (trang 114)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Mrs Dawson said that we are ( ) our lesson in the library next Monday."
+   }
+  },
+  {
+   "id": "G1D6KE18-8",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng: cụm và kết hợp từ (8/14)",
+   "instruction_vi": "Chọn từ đi đúng với danh từ/cụm trong câu. Đây là các kết hợp từ (collocation): phải học cả cụm, không dịch từng chữ.",
+   "questions": [
+    {
+     "id": "G1D6KE18-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "about"
+      },
+      {
+       "id": "2",
+       "text": "for"
+      },
+      {
+       "id": "3",
+       "text": "from"
+      },
+      {
+       "id": "4",
+       "text": "around"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`have a discussion about …`. [Destination B2, Unit 18 · bài E (trang 114)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "In English yesterday, we had a discussion ( ) different cultures."
+   }
+  },
+  {
+   "id": "G1D6KE18-9",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng: cụm và kết hợp từ (9/14)",
+   "instruction_vi": "Chọn từ đi đúng với danh từ/cụm trong câu. Đây là các kết hợp từ (collocation): phải học cả cụm, không dịch từng chữ.",
+   "questions": [
+    {
+     "id": "G1D6KE18-9",
+     "options": [
+      {
+       "id": "1",
+       "text": "To"
+      },
+      {
+       "id": "2",
+       "text": "From"
+      },
+      {
+       "id": "3",
+       "text": "In"
+      },
+      {
+       "id": "4",
+       "text": "At"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "`in my opinion`. [Destination B2, Unit 18 · bài E (trang 114)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) my opinion, maths shouldn't be a compulsory subject."
+   }
+  },
+  {
+   "id": "G1D6KE18-10",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng: cụm và kết hợp từ (10/14)",
+   "instruction_vi": "Chọn từ đi đúng với danh từ/cụm trong câu. Đây là các kết hợp từ (collocation): phải học cả cụm, không dịch từng chữ.",
+   "questions": [
+    {
+     "id": "G1D6KE18-10",
+     "options": [
+      {
+       "id": "1",
+       "text": "take"
+      },
+      {
+       "id": "2",
+       "text": "write"
+      },
+      {
+       "id": "3",
+       "text": "make"
+      },
+      {
+       "id": "4",
+       "text": "answer"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`take an exam` = đi thi. [Destination B2, Unit 18 · bài E (trang 114)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "When you ( ) the exam tomorrow, try to stay calm and relaxed."
+   }
+  },
+  {
+   "id": "G1D6KE18-11",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng: cụm và kết hợp từ (11/14)",
+   "instruction_vi": "Chọn từ đi đúng với danh từ/cụm trong câu. Đây là các kết hợp từ (collocation): phải học cả cụm, không dịch từng chữ.",
+   "questions": [
+    {
+     "id": "G1D6KE18-11",
+     "options": [
+      {
+       "id": "1",
+       "text": "different"
+      },
+      {
+       "id": "2",
+       "text": "my"
+      },
+      {
+       "id": "3",
+       "text": "some"
+      },
+      {
+       "id": "4",
+       "text": "two"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`be in two minds about …` = còn phân vân. [Destination B2, Unit 18 · bài E (trang 114)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "My dad wants me to go to university, but I'm in ( ) minds about it."
+   }
+  },
+  {
+   "id": "G1D6KE18-12",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng: cụm và kết hợp từ (12/14)",
+   "instruction_vi": "Chọn từ đi đúng với danh từ/cụm trong câu. Đây là các kết hợp từ (collocation): phải học cả cụm, không dịch từng chữ.",
+   "questions": [
+    {
+     "id": "G1D6KE18-12",
+     "options": [
+      {
+       "id": "1",
+       "text": "to learn"
+      },
+      {
+       "id": "2",
+       "text": "learning"
+      },
+      {
+       "id": "3",
+       "text": "for learning"
+      },
+      {
+       "id": "4",
+       "text": "of learning"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`have a lot to learn about …`. [Destination B2, Unit 18 · bài E (trang 114)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I still have a lot ( ) about the English language."
+   }
+  },
+  {
+   "id": "G1D6KE18-13",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng: cụm và kết hợp từ (13/14)",
+   "instruction_vi": "Chọn từ đi đúng với danh từ/cụm trong câu. Đây là các kết hợp từ (collocation): phải học cả cụm, không dịch từng chữ.",
+   "questions": [
+    {
+     "id": "G1D6KE18-13",
+     "options": [
+      {
+       "id": "1",
+       "text": "take"
+      },
+      {
+       "id": "2",
+       "text": "bring"
+      },
+      {
+       "id": "3",
+       "text": "understand"
+      },
+      {
+       "id": "4",
+       "text": "make"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`make sense of …` = hiểu được. [Destination B2, Unit 18 · bài E (trang 114)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "If the examiner can't ( ) sense of your writing, you'll get a low mark."
+   }
+  },
+  {
+   "id": "G1D6KE18-14",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn đáp án đúng: cụm và kết hợp từ (14/14)",
+   "instruction_vi": "Chọn từ đi đúng với danh từ/cụm trong câu. Đây là các kết hợp từ (collocation): phải học cả cụm, không dịch từng chữ.",
+   "questions": [
+    {
+     "id": "G1D6KE18-14",
+     "options": [
+      {
+       "id": "1",
+       "text": "none"
+      },
+      {
+       "id": "2",
+       "text": "no"
+      },
+      {
+       "id": "3",
+       "text": "even"
+      },
+      {
+       "id": "4",
+       "text": "not"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`have no idea` = không biết gì. [Destination B2, Unit 18 · bài E (trang 114)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I hadn't studied, so when the teacher asked me I had ( ) idea."
+   }
   },
   {
    "id": "G1E1",

@@ -188,6 +188,8 @@
   "G1D4KH-8",
   "G1D4KH-9",
   "G1D4KH-10",
+  "G1D4KU1C4a-1",
+  "G1D4KU1C4b-1",
   "G1D4B1",
   "G1D4B2",
   "G1D4B3",
@@ -222,8 +224,6 @@
   "G1D4KC4-1",
   "G1D4KC4-2",
   "G1D4KC4-3",
-  "G1D4KC4-4",
-  "G1D4KC4-5",
   "G1D4D1",
   "G1D4M1"
  ],
@@ -301,8 +301,8 @@
    ]
   },
   {
-   "title_vi": "Bài trong sách · I, J",
-   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: mỗi chỗ trống một từ: holiday blues; viết lại câu với từ cho sẵn.",
+   "title_vi": "Bài trong sách · I, J, U1C4a, U1C4b",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: mỗi chỗ trống một từ: holiday blues; viết lại câu với từ cho sẵn; đọc biểu đồ: số nhân viên; đọc biểu đồ: số nhân viên nghỉ việc.",
    "use_vi": "Làm sau khi học thẻ: mỗi câu sai có lời giải thích, hãy tự nói lại câu đó theo ý muốn nói rồi mới sang câu sau.",
    "check": [
     "G1D4KI-1",
@@ -325,7 +325,9 @@
     "G1D4KJ-6",
     "G1D4KJ-7",
     "G1D4KJ-8",
-    "G1D4KJ-9"
+    "G1D4KJ-9",
+    "G1D4KU1C4a-1",
+    "G1D4KU1C4b-1"
    ]
   },
   {
@@ -335,9 +337,7 @@
    "check": [
     "G1D4KC4-1",
     "G1D4KC4-2",
-    "G1D4KC4-3",
-    "G1D4KC4-4",
-    "G1D4KC4-5"
+    "G1D4KC4-3"
    ]
   }
  ],
