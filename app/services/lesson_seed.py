@@ -693,6 +693,8 @@ class GrammarSeed(_M):
     # One question the learner answers on the card before marking it understood: the stem, the
     # options with the right one FIRST (the screen shuffles them), and why.
     check: "GrammarCheck | None" = None
+    # the step of the lesson this card belongs to ("Cấu tạo", "Khi nào dùng"): names the card tabs
+    step_vi: str | None = None
 
     @model_validator(mode="after")
     def _level_agrees_with_the_marker(self) -> "GrammarSeed":
@@ -1724,6 +1726,7 @@ def sync_lessons(db: Any, bundle: SeedBundle | None = None) -> dict[str, str]:
             row.meaning_vi = item.meaning_vi
             row.level = seed.level
             row.position = pos
+            row.step_vi = item.step_vi
             row.check_item = item.check.model_dump(mode="json") if item.check else None
             row.usage_context_vi = item.usage_context_vi
             row.note_vi = item.note_vi

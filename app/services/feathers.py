@@ -72,6 +72,7 @@ def partition(
     vocab_ids: Sequence[int],
     grammar_ids: Sequence[int],
     practice: Mapping[str, Any] | None,
+    grammar_steps: Mapping[int, str] | None = None,
 ) -> list[Feather]:
     """The feathers of one lesson, in the order the lesson shows them."""
     practice = practice or {}
@@ -91,9 +92,11 @@ def partition(
         )
     for n, i in enumerate(range(0, len(grammar_ids), PATTERNS_PER_FEATHER), start=1):
         chunk = grammar_ids[i : i + PATTERNS_PER_FEATHER]
-        out.append(
-            Feather(id=f"g{n}", kind="grammar", label=_span("Mẫu", i + 1, i + len(chunk)), items=tuple(("grammar_point", g) for g in chunk))
-        )
+        span = _span("Mẫu", i + 1, i + len(chunk))
+        steps = {(grammar_steps or {}).get(g) for g in chunk}
+        # a chunk whose cards all name the same step is called by it: "Cấu tạo · Mẫu 1–2"
+        label = f"{steps.pop()} · {span}" if len(steps) == 1 and None not in steps else span
+        out.append(Feather(id=f"g{n}", kind="grammar", label=label, items=tuple(("grammar_point", g) for g in chunk)))
     items = practice.get("items") or []
     for name, skills in SKILL_GROUPS:
         exercises = [ex for ex in items if ex.get("skill") in skills]
@@ -223,9 +226,14 @@ async def course(db: AsyncSession) -> list[CourseLesson]:
         if lid is not None:
             vocab[lid].append(vid)
     grammar: dict[int, list[int]] = defaultdict(list)
-    for lid, gid in (await db.execute(select(GrammarPoint.lesson_id, GrammarPoint.id).order_by(GrammarPoint.position, GrammarPoint.id))).all():
+    steps: dict[int, str] = {}
+    for lid, gid, step in (
+        await db.execute(select(GrammarPoint.lesson_id, GrammarPoint.id, GrammarPoint.step_vi).order_by(GrammarPoint.position, GrammarPoint.id))
+    ).all():
         if lid is not None:
             grammar[lid].append(gid)
+            if step:
+                steps[gid] = step
     out: list[CourseLesson] = []
     for lid, slug, sort_order, title, level, practice in rows:
         topic = topics.get(lid, "")
@@ -239,7 +247,7 @@ async def course(db: AsyncSession) -> list[CourseLesson]:
                 topic=topic,
                 chapter=None if support else chapter_of(slug, level or 1),
                 support=support,
-                feathers=tuple(partition(vocab.get(lid, []), grammar.get(lid, []), practice)),
+                feathers=tuple(partition(vocab.get(lid, []), grammar.get(lid, []), practice, steps)),
             )
         )
     out.sort(key=lambda c: (c.sort_order, c.id))

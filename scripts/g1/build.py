@@ -54,12 +54,14 @@ def parse() -> list[dict]:
             cur["book"].append({"book": book, "pages": pages, "task": task, "items": int(items), "minutes": int(minutes)})
         elif ln.startswith("G: "):
             pattern, meaning, importance = [x.strip() for x in ln[3:].rsplit(" | ", 2)]
-            card = {"pattern": pattern, "meaning": meaning, "importance": importance, "use": "", "ex": [], "quote": None, "trap": None, "tip": None, "vs": []}
+            card = {"pattern": pattern, "meaning": meaning, "importance": importance, "step": None, "use": "", "ex": [], "quote": None, "trap": None, "tip": None, "vs": []}
             cur["cards"].append(card)
         elif ln.startswith(" use: "):
             card["use"] = B.nl(ln[6:])
         elif ln.startswith(" ex: "):
             card["ex"].append(B.pair(ln[5:]))
+        elif ln.startswith(" step: "):
+            card["step"] = ln[7:].strip()
         elif ln.startswith(" quote: "):
             card["quote"] = ln[8:]
         elif ln.startswith(" trap: "):
@@ -187,6 +189,8 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
         mine.sort(key=lambda it: it["kind"] != "Q")  # a short fill-in-the-blank first
         if mine:
             g["check"] = {"stem": mine[0]["stem"], "options": mine[0]["options"][:4], "why": mine[0]["why"]}
+        if c["step"]:
+            g["step_vi"] = c["step"]
         if c["trap"]:
             g["note_vi"] = "Lỗi người Việt hay mắc: " + c["trap"]
         if c["tip"]:

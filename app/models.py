@@ -581,6 +581,7 @@ class GrammarPoint(Base):
     position: Mapped[int] = mapped_column(SmallInteger, nullable=False, server_default="0", default=0)
     # One question to answer on the card before marking it understood: {stem, options (right first), why}
     check_item: Mapped[dict | None] = mapped_column(JSONB, nullable=True)
+    step_vi: Mapped[str | None] = mapped_column(String(40), nullable=True)
     import_item_id: Mapped[uuid.UUID | None] = mapped_column(UUID(as_uuid=True), nullable=True)
 
 
