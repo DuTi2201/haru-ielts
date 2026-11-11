@@ -197,5 +197,6 @@ def test_day1_has_seven_cards_in_four_steps_each_with_one_check():
     assert pats[0].endswith("công thức") and "-s / -es" in pats[1] and pats[2].endswith("cách dùng")
     for c in DAY1.grammar:
         assert c.check and len(c.check.options) >= 3, c.pattern  # the right option first, at least two wrong ones
-    # the formula must be on the card itself (a table), not only in the lecture
-    assert "| he / she / it |" in DAY1.grammar[0].usage_context_vi
+    # the formula must be on the card itself (formula tiles), not only in the lecture
+    f = DAY1.grammar[0].usage_context_vi
+    assert "he / she / it + doesn't + work" in f and "Does + he / she / it + work" in f
