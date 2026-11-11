@@ -4714,6 +4714,1398 @@
    }
   },
   {
+   "id": "G1D7KXA-1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng: nhóm từ về suy nghĩ (1/10)",
+   "instruction_vi": "Chọn từ đúng nghĩa. Với mỗi từ, nối nó với một từ B2 quen thuộc để nhớ (ví dụ plausible = reasonable).",
+   "questions": [
+    {
+     "id": "G1D7KXA-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "optimistic"
+      },
+      {
+       "id": "2",
+       "text": "pessimistic"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Câu khuyên đừng bi quan nên cần `optimistic` (lạc quan). [Destination C1&C2, Unit 2 · bài A (trang 14)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Don't be so ( ). Everything's going to be fine, you'll see!"
+   }
+  },
+  {
+   "id": "G1D7KXA-2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng: nhóm từ về suy nghĩ (2/10)",
+   "instruction_vi": "Chọn từ đúng nghĩa. Với mỗi từ, nối nó với một từ B2 quen thuộc để nhớ (ví dụ plausible = reasonable).",
+   "questions": [
+    {
+     "id": "G1D7KXA-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "biased"
+      },
+      {
+       "id": "2",
+       "text": "prejudiced"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`biased` = thiên vị về một phía; `prejudiced` = có thành kiến với người hoặc nhóm. [Destination C1&C2, Unit 2 · bài A (trang 14)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Most newspapers are usually ( ) towards a certain political outlook."
+   }
+  },
+  {
+   "id": "G1D7KXA-3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng: nhóm từ về suy nghĩ (3/10)",
+   "instruction_vi": "Chọn từ đúng nghĩa. Với mỗi từ, nối nó với một từ B2 quen thuộc để nhớ (ví dụ plausible = reasonable).",
+   "questions": [
+    {
+     "id": "G1D7KXA-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "dubious"
+      },
+      {
+       "id": "2",
+       "text": "cynical"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`dubious` = nghi ngờ về một việc cụ thể; `cynical` = hoài nghi mọi thứ. [Destination C1&C2, Unit 2 · bài A (trang 14)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I'm slightly ( ) about whether Sean's idea is going to work."
+   }
+  },
+  {
+   "id": "G1D7KXA-4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng: nhóm từ về suy nghĩ (4/10)",
+   "instruction_vi": "Chọn từ đúng nghĩa. Với mỗi từ, nối nó với một từ B2 quen thuộc để nhớ (ví dụ plausible = reasonable).",
+   "questions": [
+    {
+     "id": "G1D7KXA-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "sceptical"
+      },
+      {
+       "id": "2",
+       "text": "naive"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`naive` = ngây thơ. `sceptical` mô tả người hoài nghi chứ không mô tả ý tưởng. [Destination C1&C2, Unit 2 · bài A (trang 14)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "To suggest that it's possible to create a society without crime is a little ( ), isn't it?"
+   }
+  },
+  {
+   "id": "G1D7KXA-5",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng: nhóm từ về suy nghĩ (5/10)",
+   "instruction_vi": "Chọn từ đúng nghĩa. Với mỗi từ, nối nó với một từ B2 quen thuộc để nhớ (ví dụ plausible = reasonable).",
+   "questions": [
+    {
+     "id": "G1D7KXA-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "ingenious"
+      },
+      {
+       "id": "2",
+       "text": "plausible"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`plausible` = có vẻ hợp lý (neo vào reasonable). `ingenious` = khéo léo. [Destination C1&C2, Unit 2 · bài A (trang 14)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "The only ( ) explanation I can think of is that Jenna got the dates wrong."
+   }
+  },
+  {
+   "id": "G1D7KXA-6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng: nhóm từ về suy nghĩ (6/10)",
+   "instruction_vi": "Chọn từ đúng nghĩa. Với mỗi từ, nối nó với một từ B2 quen thuộc để nhớ (ví dụ plausible = reasonable).",
+   "questions": [
+    {
+     "id": "G1D7KXA-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "discriminate"
+      },
+      {
+       "id": "2",
+       "text": "baffle"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`baffle` = làm bối rối (neo vào confuse). [Destination C1&C2, Unit 2 · bài A (trang 14)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Please don't ( ) me with loads of technical terminology. Use plain, simple English!"
+   }
+  },
+  {
+   "id": "G1D7KXA-7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng: nhóm từ về suy nghĩ (7/10)",
+   "instruction_vi": "Chọn từ đúng nghĩa. Với mỗi từ, nối nó với một từ B2 quen thuộc để nhớ (ví dụ plausible = reasonable).",
+   "questions": [
+    {
+     "id": "G1D7KXA-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "assume"
+      },
+      {
+       "id": "2",
+       "text": "assess"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`assess` = đánh giá (neo vào evaluate). `assume` = cho rằng. [Destination C1&C2, Unit 2 · bài A (trang 14)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "It's not always easy to ( ) someone's suitability for a job just by talking to them in a short interview."
+   }
+  },
+  {
+   "id": "G1D7KXA-8",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng: nhóm từ về suy nghĩ (8/10)",
+   "instruction_vi": "Chọn từ đúng nghĩa. Với mỗi từ, nối nó với một từ B2 quen thuộc để nhớ (ví dụ plausible = reasonable).",
+   "questions": [
+    {
+     "id": "G1D7KXA-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "speculate"
+      },
+      {
+       "id": "2",
+       "text": "justify"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`justify` = biện minh, chứng tỏ là hợp lý. [Destination C1&C2, Unit 2 · bài A (trang 14)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "How can the government ( ) spending so much on the armed forces?"
+   }
+  },
+  {
+   "id": "G1D7KXA-9",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng: nhóm từ về suy nghĩ (9/10)",
+   "instruction_vi": "Chọn từ đúng nghĩa. Với mỗi từ, nối nó với một từ B2 quen thuộc để nhớ (ví dụ plausible = reasonable).",
+   "questions": [
+    {
+     "id": "G1D7KXA-9",
+     "options": [
+      {
+       "id": "1",
+       "text": "estimate"
+      },
+      {
+       "id": "2",
+       "text": "deduce"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`estimate` = ước tính một con số. `deduce` = suy ra từ bằng chứng. [Destination C1&C2, Unit 2 · bài A (trang 14)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Looking at the damage, I would ( ) that the painting will cost at least €2,000 to restore properly."
+   }
+  },
+  {
+   "id": "G1D7KXA-10",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Khoanh từ đúng: nhóm từ về suy nghĩ (10/10)",
+   "instruction_vi": "Chọn từ đúng nghĩa. Với mỗi từ, nối nó với một từ B2 quen thuộc để nhớ (ví dụ plausible = reasonable).",
+   "questions": [
+    {
+     "id": "G1D7KXA-10",
+     "options": [
+      {
+       "id": "1",
+       "text": "reflect"
+      },
+      {
+       "id": "2",
+       "text": "presume"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`presume` = cho rằng (neo vào assume). [Destination C1&C2, Unit 2 · bài A (trang 14)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I don't think you should ( ) that lots of people are going to help you with this project."
+   }
+  },
+  {
+   "id": "G1D7KXD-1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: thư gửi tòa soạn về giáo dục (1/10)",
+   "instruction_vi": "Bức thư phê bình hệ thống giáo dục. Chọn từ đúng cho chỗ trống, chú ý nhóm từ về học tập. Đây cũng là chỗ nối với B2 Unit 18.",
+   "questions": [
+    {
+     "id": "G1D7KXD-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "desires"
+      },
+      {
+       "id": "2",
+       "text": "wants"
+      },
+      {
+       "id": "3",
+       "text": "needs"
+      },
+      {
+       "id": "4",
+       "text": "requests"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "`special needs` = nhu cầu giáo dục đặc biệt. [Destination C1&C2, Unit 2 · bài D (trang 15)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "...the system only views the weakest learners as having special ( )."
+   }
+  },
+  {
+   "id": "G1D7KXD-2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: thư gửi tòa soạn về giáo dục (2/10)",
+   "instruction_vi": "Bức thư phê bình hệ thống giáo dục. Chọn từ đúng cho chỗ trống, chú ý nhóm từ về học tập. Đây cũng là chỗ nối với B2 Unit 18.",
+   "questions": [
+    {
+     "id": "G1D7KXD-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "conscientious"
+      },
+      {
+       "id": "2",
+       "text": "intensive"
+      },
+      {
+       "id": "3",
+       "text": "ignorant"
+      },
+      {
+       "id": "4",
+       "text": "inattentive"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`conscientious` = chăm chỉ, tận tâm. [Destination C1&C2, Unit 2 · bài D (trang 15)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "The brightest and most ( ) students are not encouraged to develop to their full potential."
+   }
+  },
+  {
+   "id": "G1D7KXD-3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: thư gửi tòa soạn về giáo dục (3/10)",
+   "instruction_vi": "Bức thư phê bình hệ thống giáo dục. Chọn từ đúng cho chỗ trống, chú ý nhóm từ về học tập. Đây cũng là chỗ nối với B2 Unit 18.",
+   "questions": [
+    {
+     "id": "G1D7KXD-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "practising"
+      },
+      {
+       "id": "2",
+       "text": "cramming"
+      },
+      {
+       "id": "3",
+       "text": "reading"
+      },
+      {
+       "id": "4",
+       "text": "lecturing"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`cram` = học nhồi nhét. [Destination C1&C2, Unit 2 · bài D (trang 15)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "My fifteen-year-old daughter has just spent the last month or so ( ) for exams."
+   }
+  },
+  {
+   "id": "G1D7KXD-4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: thư gửi tòa soạn về giáo dục (4/10)",
+   "instruction_vi": "Bức thư phê bình hệ thống giáo dục. Chọn từ đúng cho chỗ trống, chú ý nhóm từ về học tập. Đây cũng là chỗ nối với B2 Unit 18.",
+   "questions": [
+    {
+     "id": "G1D7KXD-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "mock"
+      },
+      {
+       "id": "2",
+       "text": "false"
+      },
+      {
+       "id": "3",
+       "text": "artificial"
+      },
+      {
+       "id": "4",
+       "text": "fake"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`mock exam` = thi thử. [Destination C1&C2, Unit 2 · bài D (trang 15)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "These aren't real, important exams. They've just ( ) exams."
+   }
+  },
+  {
+   "id": "G1D7KXD-5",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: thư gửi tòa soạn về giáo dục (5/10)",
+   "instruction_vi": "Bức thư phê bình hệ thống giáo dục. Chọn từ đúng cho chỗ trống, chú ý nhóm từ về học tập. Đây cũng là chỗ nối với B2 Unit 18.",
+   "questions": [
+    {
+     "id": "G1D7KXD-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "knowledgeable"
+      },
+      {
+       "id": "2",
+       "text": "intellectual"
+      },
+      {
+       "id": "3",
+       "text": "academic"
+      },
+      {
+       "id": "4",
+       "text": "intelligent"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`knowledgeable about …` = hiểu biết nhiều về. [Destination C1&C2, Unit 2 · bài D (trang 15)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Is the work she's been doing really going to make her more ( ) about her subjects?"
+   }
+  },
+  {
+   "id": "G1D7KXD-6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: thư gửi tòa soạn về giáo dục (6/10)",
+   "instruction_vi": "Bức thư phê bình hệ thống giáo dục. Chọn từ đúng cho chỗ trống, chú ý nhóm từ về học tập. Đây cũng là chỗ nối với B2 Unit 18.",
+   "questions": [
+    {
+     "id": "G1D7KXD-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "timetable"
+      },
+      {
+       "id": "2",
+       "text": "seminar"
+      },
+      {
+       "id": "3",
+       "text": "lecture"
+      },
+      {
+       "id": "4",
+       "text": "curriculum"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`curriculum` = chương trình học. [Destination C1&C2, Unit 2 · bài D (trang 15)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Thirdly, the standard ( ) doesn't give students any ... in developing practical skills."
+   }
+  },
+  {
+   "id": "G1D7KXD-7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: thư gửi tòa soạn về giáo dục (7/10)",
+   "instruction_vi": "Bức thư phê bình hệ thống giáo dục. Chọn từ đúng cho chỗ trống, chú ý nhóm từ về học tập. Đây cũng là chỗ nối với B2 Unit 18.",
+   "questions": [
+    {
+     "id": "G1D7KXD-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "lesson"
+      },
+      {
+       "id": "2",
+       "text": "subject"
+      },
+      {
+       "id": "3",
+       "text": "tuition"
+      },
+      {
+       "id": "4",
+       "text": "tutorial"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "`tuition in …` = sự hướng dẫn về. [Destination C1&C2, Unit 2 · bài D (trang 15)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "...doesn't give students any ( ) in developing practical work-related, living and social skills."
+   }
+  },
+  {
+   "id": "G1D7KXD-8",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: thư gửi tòa soạn về giáo dục (8/10)",
+   "instruction_vi": "Bức thư phê bình hệ thống giáo dục. Chọn từ đúng cho chỗ trống, chú ý nhóm từ về học tập. Đây cũng là chỗ nối với B2 Unit 18.",
+   "questions": [
+    {
+     "id": "G1D7KXD-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "repeating"
+      },
+      {
+       "id": "2",
+       "text": "going over"
+      },
+      {
+       "id": "3",
+       "text": "writing"
+      },
+      {
+       "id": "4",
+       "text": "plagiarising"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`plagiarise` = đạo văn. [Destination C1&C2, Unit 2 · bài D (trang 15)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "...what the difference is between ( ) someone else's work and making good use of someone else's ideas?"
+   }
+  },
+  {
+   "id": "G1D7KXD-9",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: thư gửi tòa soạn về giáo dục (9/10)",
+   "instruction_vi": "Bức thư phê bình hệ thống giáo dục. Chọn từ đúng cho chỗ trống, chú ý nhóm từ về học tập. Đây cũng là chỗ nối với B2 Unit 18.",
+   "questions": [
+    {
+     "id": "G1D7KXD-9",
+     "options": [
+      {
+       "id": "1",
+       "text": "revision"
+      },
+      {
+       "id": "2",
+       "text": "reviewing"
+      },
+      {
+       "id": "3",
+       "text": "distance learning"
+      },
+      {
+       "id": "4",
+       "text": "self-study"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`self-study` = tự học. [Destination C1&C2, Unit 2 · bài D (trang 15)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "How many of them are really able to go about ( ) — a skill that's essential at university?"
+   }
+  },
+  {
+   "id": "G1D7KXD-10",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: thư gửi tòa soạn về giáo dục (10/10)",
+   "instruction_vi": "Bức thư phê bình hệ thống giáo dục. Chọn từ đúng cho chỗ trống, chú ý nhóm từ về học tập. Đây cũng là chỗ nối với B2 Unit 18.",
+   "questions": [
+    {
+     "id": "G1D7KXD-10",
+     "options": [
+      {
+       "id": "1",
+       "text": "graduate"
+      },
+      {
+       "id": "2",
+       "text": "exit"
+      },
+      {
+       "id": "3",
+       "text": "depart"
+      },
+      {
+       "id": "4",
+       "text": "qualify"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`graduate from …` = tốt nghiệp. [Destination C1&C2, Unit 2 · bài D (trang 15)]",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "How many students ( ) from university totally unable to spell even simple English words correctly?"
+   }
+  },
+  {
+   "id": "G1D7KXE-1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Nối câu: cụm động từ về suy nghĩ (mở rộng) (1/7)",
+   "instruction_vi": "Theo bộ lọc của thầy, cụm động từ của sách C1&C2 chỉ cần nhận ra khi nghe và đọc. Nối vế đầu với phần sau đúng.",
+   "questions": [
+    {
+     "id": "G1D7KXE-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "together exactly what happened that evening."
+      },
+      {
+       "id": "2",
+       "text": "over for a while before I make a final decision."
+      },
+      {
+       "id": "3",
+       "text": "up a brilliant excuse to tell Rachel."
+      },
+      {
+       "id": "4",
+       "text": "this through properly yet."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`mull over` = nghĩ kỹ một thời gian (≈ think over). [Destination C1&C2, Unit 2 · bài E (trang 15) · mở rộng]",
+     "tags": [],
+     "prompt_vi": "«I'm going to have to mull this ...»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXE-2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Nối câu: cụm động từ về suy nghĩ (mở rộng) (2/7)",
+   "instruction_vi": "Theo bộ lọc của thầy, cụm động từ của sách C1&C2 chỉ cần nhận ra khi nghe và đọc. Nối vế đầu với phần sau đúng.",
+   "questions": [
+    {
+     "id": "G1D7KXE-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "together exactly what happened that evening."
+      },
+      {
+       "id": "2",
+       "text": "over for a while before I make a final decision."
+      },
+      {
+       "id": "3",
+       "text": "upon such a great idea for a website."
+      },
+      {
+       "id": "4",
+       "text": "in the fact that he'd never see her again."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`piece together` = ghép các mảnh thông tin để biết sự thật. [Destination C1&C2, Unit 2 · bài E (trang 15) · mở rộng]",
+     "tags": [],
+     "prompt_vi": "«Detectives are still trying to piece ...»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXE-3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Nối câu: cụm động từ về suy nghĩ (mở rộng) (3/7)",
+   "instruction_vi": "Theo bộ lọc của thầy, cụm động từ của sách C1&C2 chỉ cần nhận ra khi nghe và đọc. Nối vế đầu với phần sau đúng.",
+   "questions": [
+    {
+     "id": "G1D7KXE-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "together exactly what happened that evening."
+      },
+      {
+       "id": "2",
+       "text": "upon such a great idea for a website."
+      },
+      {
+       "id": "3",
+       "text": "up a brilliant excuse to tell Rachel."
+      },
+      {
+       "id": "4",
+       "text": "in the fact that he'd never see her again."
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`take in` = hiểu và chấp nhận một điều. [Destination C1&C2, Unit 2 · bài E (trang 15) · mở rộng]",
+     "tags": [],
+     "prompt_vi": "«It took him a very long time to take ...»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXE-4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Nối câu: cụm động từ về suy nghĩ (mở rộng) (4/7)",
+   "instruction_vi": "Theo bộ lọc của thầy, cụm động từ của sách C1&C2 chỉ cần nhận ra khi nghe và đọc. Nối vế đầu với phần sau đúng.",
+   "questions": [
+    {
+     "id": "G1D7KXE-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "over for a while before I make a final decision."
+      },
+      {
+       "id": "2",
+       "text": "upon such a great idea for a website."
+      },
+      {
+       "id": "3",
+       "text": "out how to get everyone to the sports centre without Phil knowing."
+      },
+      {
+       "id": "4",
+       "text": "in the fact that he'd never see her again."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`hit upon` = chợt nghĩ ra hoặc tình cờ tìm ra. [Destination C1&C2, Unit 2 · bài E (trang 15) · mở rộng]",
+     "tags": [],
+     "prompt_vi": "«Tell us how you hit ...»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXE-5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Nối câu: cụm động từ về suy nghĩ (mở rộng) (5/7)",
+   "instruction_vi": "Theo bộ lọc của thầy, cụm động từ của sách C1&C2 chỉ cần nhận ra khi nghe và đọc. Nối vế đầu với phần sau đúng.",
+   "questions": [
+    {
+     "id": "G1D7KXE-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "out how to get everyone to the sports centre without Phil knowing."
+      },
+      {
+       "id": "2",
+       "text": "up a brilliant excuse to tell Rachel."
+      },
+      {
+       "id": "3",
+       "text": "upon such a great idea for a website."
+      },
+      {
+       "id": "4",
+       "text": "through this properly yet."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`figure out` = tìm ra cách, hiểu ra. [Destination C1&C2, Unit 2 · bài E (trang 15) · mở rộng]",
+     "tags": [],
+     "prompt_vi": "«It took us ages to figure ...»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXE-6",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Nối câu: cụm động từ về suy nghĩ (mở rộng) (6/7)",
+   "instruction_vi": "Theo bộ lọc của thầy, cụm động từ của sách C1&C2 chỉ cần nhận ra khi nghe và đọc. Nối vế đầu với phần sau đúng.",
+   "questions": [
+    {
+     "id": "G1D7KXE-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "out how to get everyone to the sports centre without Phil knowing."
+      },
+      {
+       "id": "2",
+       "text": "through this properly yet."
+      },
+      {
+       "id": "3",
+       "text": "over for a while before I make a final decision."
+      },
+      {
+       "id": "4",
+       "text": "up a brilliant excuse to tell Rachel."
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`think up` = nghĩ ra, bịa ra (một lý do). [Destination C1&C2, Unit 2 · bài E (trang 15) · mở rộng]",
+     "tags": [],
+     "prompt_vi": "«I've just thought ...»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXE-7",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Nối câu: cụm động từ về suy nghĩ (mở rộng) (7/7)",
+   "instruction_vi": "Theo bộ lọc của thầy, cụm động từ của sách C1&C2 chỉ cần nhận ra khi nghe và đọc. Nối vế đầu với phần sau đúng.",
+   "questions": [
+    {
+     "id": "G1D7KXE-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "through this properly yet."
+      },
+      {
+       "id": "2",
+       "text": "over for a while before I make a final decision."
+      },
+      {
+       "id": "3",
+       "text": "out how to get everyone to the sports centre without Phil knowing."
+      },
+      {
+       "id": "4",
+       "text": "up a brilliant excuse to tell Rachel."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`think through` = cân nhắc kỹ từng bước. [Destination C1&C2, Unit 2 · bài E (trang 15) · mở rộng]",
+     "tags": [],
+     "prompt_vi": "«I'm not sure we've thought ...»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXG-1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Cụm động từ với out: có nghĩa 'tìm thông tin' không? (mở rộng) (1/10)",
+   "instruction_vi": "Cụm với `out` như `puzzle out` thường nói về việc tìm ra thông tin. Với mỗi câu, chọn xem cụm in đậm có liên quan tới việc tìm thông tin hay không.",
+   "questions": [
+    {
+     "id": "G1D7KXG-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "Không"
+      },
+      {
+       "id": "2",
+       "text": "Có, tìm thông tin"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`find out` = tìm ra thông tin. [Destination C1&C2, Unit 2 · bài G (trang 16) · mở rộng]",
+     "tags": [],
+     "prompt_vi": "«Did you find out what time the parents' meeting is?»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXG-2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Cụm động từ với out: có nghĩa 'tìm thông tin' không? (mở rộng) (2/10)",
+   "instruction_vi": "Cụm với `out` như `puzzle out` thường nói về việc tìm ra thông tin. Với mỗi câu, chọn xem cụm in đậm có liên quan tới việc tìm thông tin hay không.",
+   "questions": [
+    {
+     "id": "G1D7KXG-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "Có, tìm thông tin"
+      },
+      {
+       "id": "2",
+       "text": "Không"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`check out` = kiểm tra, tìm hiểu. [Destination C1&C2, Unit 2 · bài G (trang 16) · mở rộng]",
+     "tags": [],
+     "prompt_vi": "«I've been checking out whether it's better to go by ferry or plane.»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXG-3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Cụm động từ với out: có nghĩa 'tìm thông tin' không? (mở rộng) (3/10)",
+   "instruction_vi": "Cụm với `out` như `puzzle out` thường nói về việc tìm ra thông tin. Với mỗi câu, chọn xem cụm in đậm có liên quan tới việc tìm thông tin hay không.",
+   "questions": [
+    {
+     "id": "G1D7KXG-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "Không"
+      },
+      {
+       "id": "2",
+       "text": "Có, tìm thông tin"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`suss out` = tìm ra, hiểu ra (thân mật). [Destination C1&C2, Unit 2 · bài G (trang 16) · mở rộng]",
+     "tags": [],
+     "prompt_vi": "«Susie reckons she's sussed out a great way to get into the club for free.»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXG-4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Cụm động từ với out: có nghĩa 'tìm thông tin' không? (mở rộng) (4/10)",
+   "instruction_vi": "Cụm với `out` như `puzzle out` thường nói về việc tìm ra thông tin. Với mỗi câu, chọn xem cụm in đậm có liên quan tới việc tìm thông tin hay không.",
+   "questions": [
+    {
+     "id": "G1D7KXG-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "Không"
+      },
+      {
+       "id": "2",
+       "text": "Có, tìm thông tin"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`pile out` = ùa ra ngoài, không liên quan tới thông tin. [Destination C1&C2, Unit 2 · bài G (trang 16) · mở rộng]",
+     "tags": [],
+     "prompt_vi": "«We all piled out into the playground.»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXG-5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Cụm động từ với out: có nghĩa 'tìm thông tin' không? (mở rộng) (5/10)",
+   "instruction_vi": "Cụm với `out` như `puzzle out` thường nói về việc tìm ra thông tin. Với mỗi câu, chọn xem cụm in đậm có liên quan tới việc tìm thông tin hay không.",
+   "questions": [
+    {
+     "id": "G1D7KXG-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "Không"
+      },
+      {
+       "id": "2",
+       "text": "Có, tìm thông tin"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`figure out` = tìm ra cách. [Destination C1&C2, Unit 2 · bài G (trang 16) · mở rộng]",
+     "tags": [],
+     "prompt_vi": "«I can't figure out how to change my password.»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXG-6",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Cụm động từ với out: có nghĩa 'tìm thông tin' không? (mở rộng) (6/10)",
+   "instruction_vi": "Cụm với `out` như `puzzle out` thường nói về việc tìm ra thông tin. Với mỗi câu, chọn xem cụm in đậm có liên quan tới việc tìm thông tin hay không.",
+   "questions": [
+    {
+     "id": "G1D7KXG-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "Có, tìm thông tin"
+      },
+      {
+       "id": "2",
+       "text": "Không"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`drown out` = át tiếng, không liên quan. [Destination C1&C2, Unit 2 · bài G (trang 16) · mở rộng]",
+     "tags": [],
+     "prompt_vi": "«The band were completely drowned out by all the screaming fans.»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXG-7",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Cụm động từ với out: có nghĩa 'tìm thông tin' không? (mở rộng) (7/10)",
+   "instruction_vi": "Cụm với `out` như `puzzle out` thường nói về việc tìm ra thông tin. Với mỗi câu, chọn xem cụm in đậm có liên quan tới việc tìm thông tin hay không.",
+   "questions": [
+    {
+     "id": "G1D7KXG-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "Không"
+      },
+      {
+       "id": "2",
+       "text": "Có, tìm thông tin"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`sound somebody out` = dò xem ý kiến của ai. [Destination C1&C2, Unit 2 · bài G (trang 16) · mở rộng]",
+     "tags": [],
+     "prompt_vi": "«I'm going to sound Bob out about his investing in the company.»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXG-8",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Cụm động từ với out: có nghĩa 'tìm thông tin' không? (mở rộng) (8/10)",
+   "instruction_vi": "Cụm với `out` như `puzzle out` thường nói về việc tìm ra thông tin. Với mỗi câu, chọn xem cụm in đậm có liên quan tới việc tìm thông tin hay không.",
+   "questions": [
+    {
+     "id": "G1D7KXG-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "Không"
+      },
+      {
+       "id": "2",
+       "text": "Có, tìm thông tin"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`stand out` = nổi bật, không liên quan. [Destination C1&C2, Unit 2 · bài G (trang 16) · mở rộng]",
+     "tags": [],
+     "prompt_vi": "«Two essays really do stand out from the rest.»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXG-9",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Cụm động từ với out: có nghĩa 'tìm thông tin' không? (mở rộng) (9/10)",
+   "instruction_vi": "Cụm với `out` như `puzzle out` thường nói về việc tìm ra thông tin. Với mỗi câu, chọn xem cụm in đậm có liên quan tới việc tìm thông tin hay không.",
+   "questions": [
+    {
+     "id": "G1D7KXG-9",
+     "options": [
+      {
+       "id": "1",
+       "text": "Có, tìm thông tin"
+      },
+      {
+       "id": "2",
+       "text": "Không"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`worm out` = khéo moi thông tin. [Destination C1&C2, Unit 2 · bài G (trang 16) · mở rộng]",
+     "tags": [],
+     "prompt_vi": "«Jan's good at keeping secrets, so you'll have to worm it out of her!»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXG-10",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Cụm động từ với out: có nghĩa 'tìm thông tin' không? (mở rộng) (10/10)",
+   "instruction_vi": "Cụm với `out` như `puzzle out` thường nói về việc tìm ra thông tin. Với mỗi câu, chọn xem cụm in đậm có liên quan tới việc tìm thông tin hay không.",
+   "questions": [
+    {
+     "id": "G1D7KXG-10",
+     "options": [
+      {
+       "id": "1",
+       "text": "Có, tìm thông tin"
+      },
+      {
+       "id": "2",
+       "text": "Không"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`fathom out` = hiểu ra, tìm ra lý do. [Destination C1&C2, Unit 2 · bài G (trang 16) · mở rộng]",
+     "tags": [],
+     "prompt_vi": "«None of us could fathom out why the experiment wasn't working.»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXN-1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tiền tố il-: có phải dạng phủ định không? (1/9)",
+   "instruction_vi": "Với mỗi từ in đậm, chọn xem có phải dạng phủ định của một từ tích cực (như illogical) hay không.",
+   "questions": [
+    {
+     "id": "G1D7KXN-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "Có, phủ định của legible"
+      },
+      {
+       "id": "2",
+       "text": "Không"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`illegible` = không đọc được, từ `legible`. [Destination C1&C2, Unit 2 · bài N (trang 19)]",
+     "tags": [],
+     "prompt_vi": "«Doctors' handwriting is usually illegible.»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXN-2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tiền tố il-: có phải dạng phủ định không? (2/9)",
+   "instruction_vi": "Với mỗi từ in đậm, chọn xem có phải dạng phủ định của một từ tích cực (như illogical) hay không.",
+   "questions": [
+    {
+     "id": "G1D7KXN-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "Có, phủ định"
+      },
+      {
+       "id": "2",
+       "text": "Không"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`illustration` = hình minh hoạ, `il-` ở đây không mang nghĩa phủ định. [Destination C1&C2, Unit 2 · bài N (trang 19)]",
+     "tags": [],
+     "prompt_vi": "«There's a beautiful illustration on page six.»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXN-3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tiền tố il-: có phải dạng phủ định không? (3/9)",
+   "instruction_vi": "Với mỗi từ in đậm, chọn xem có phải dạng phủ định của một từ tích cực (như illogical) hay không.",
+   "questions": [
+    {
+     "id": "G1D7KXN-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "Có, phủ định của literate"
+      },
+      {
+       "id": "2",
+       "text": "Không"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`illiterate` = mù chữ, từ `literate`. [Destination C1&C2, Unit 2 · bài N (trang 19)]",
+     "tags": [],
+     "prompt_vi": "«People who are illiterate may need some help filling in forms.»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXN-4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tiền tố il-: có phải dạng phủ định không? (4/9)",
+   "instruction_vi": "Với mỗi từ in đậm, chọn xem có phải dạng phủ định của một từ tích cực (như illogical) hay không.",
+   "questions": [
+    {
+     "id": "G1D7KXN-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "Không"
+      },
+      {
+       "id": "2",
+       "text": "Có, phủ định"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`illustrious` = lừng lẫy, nghĩa tích cực. [Destination C1&C2, Unit 2 · bài N (trang 19)]",
+     "tags": [],
+     "prompt_vi": "«She had an illustrious career as a local politician.»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXN-5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tiền tố il-: có phải dạng phủ định không? (5/9)",
+   "instruction_vi": "Với mỗi từ in đậm, chọn xem có phải dạng phủ định của một từ tích cực (như illogical) hay không.",
+   "questions": [
+    {
+     "id": "G1D7KXN-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "Có, phủ định của liberal"
+      },
+      {
+       "id": "2",
+       "text": "Không"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`illiberal` = hạn chế tự do, từ `liberal`. [Destination C1&C2, Unit 2 · bài N (trang 19)]",
+     "tags": [],
+     "prompt_vi": "«It's a totally illiberal law that's just going to restrict our freedoms further.»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXN-6",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tiền tố il-: có phải dạng phủ định không? (6/9)",
+   "instruction_vi": "Với mỗi từ in đậm, chọn xem có phải dạng phủ định của một từ tích cực (như illogical) hay không.",
+   "questions": [
+    {
+     "id": "G1D7KXN-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "Không"
+      },
+      {
+       "id": "2",
+       "text": "Có, phủ định của legality"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`illegality` = tính bất hợp pháp, từ `legality`. [Destination C1&C2, Unit 2 · bài N (trang 19)]",
+     "tags": [],
+     "prompt_vi": "«Several senior politicians have resigned over the illegality of the war.»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXN-7",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tiền tố il-: có phải dạng phủ định không? (7/9)",
+   "instruction_vi": "Với mỗi từ in đậm, chọn xem có phải dạng phủ định của một từ tích cực (như illogical) hay không.",
+   "questions": [
+    {
+     "id": "G1D7KXN-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "Không"
+      },
+      {
+       "id": "2",
+       "text": "Có, phủ định của legitimate"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`illegitimate` = ngoài giá thú, từ `legitimate`. [Destination C1&C2, Unit 2 · bài N (trang 19)]",
+     "tags": [],
+     "prompt_vi": "«Illegitimate children were given very little social recognition in the past.»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXN-8",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tiền tố il-: có phải dạng phủ định không? (8/9)",
+   "instruction_vi": "Với mỗi từ in đậm, chọn xem có phải dạng phủ định của một từ tích cực (như illogical) hay không.",
+   "questions": [
+    {
+     "id": "G1D7KXN-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "Không"
+      },
+      {
+       "id": "2",
+       "text": "Có, phủ định"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`illusion` = ảo ảnh, không phải dạng phủ định. [Destination C1&C2, Unit 2 · bài N (trang 19)]",
+     "tags": [],
+     "prompt_vi": "«The magician didn't really cut his assistant in two — it was only an illusion.»"
+    }
+   ]
+  },
+  {
+   "id": "G1D7KXN-9",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Tiền tố il-: có phải dạng phủ định không? (9/9)",
+   "instruction_vi": "Với mỗi từ in đậm, chọn xem có phải dạng phủ định của một từ tích cực (như illogical) hay không.",
+   "questions": [
+    {
+     "id": "G1D7KXN-9",
+     "options": [
+      {
+       "id": "1",
+       "text": "Không"
+      },
+      {
+       "id": "2",
+       "text": "Có, phủ định"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`illuminate` = chiếu sáng, không phải dạng phủ định. [Destination C1&C2, Unit 2 · bài N (trang 19)]",
+     "tags": [],
+     "prompt_vi": "«The lights illuminated the building beautifully at night.»"
+    }
+   ]
+  },
+  {
    "id": "G1E1",
    "skill": "reading",
    "type": "read_cloze",

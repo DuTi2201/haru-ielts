@@ -68,3 +68,8 @@ DAYS = {
         ],
     },
 }
+
+
+from day7 import DAY as _DAY7  # noqa: E402
+
+DAYS[7] = _DAY7

@@ -350,3 +350,8 @@ CHARTS = {
     "U1C4b": {"title_vi": "Số nhân viên nghỉ việc trong vòng 5 năm (năm 1 đến năm 5)", "note_vi": "Số liệu đọc từ biểu đồ cột của sách, làm tròn.",
               "chart": {"type": "bar", "unit": "người", "categories": ["Năm 1", "Năm 2", "Năm 3", "Năm 4", "Năm 5"], "series": [{"name": "Nghỉ việc", "values": [38, 30, 22, 18, 14]}]}},
 }
+
+
+from day7 import SECTIONS as _S7  # noqa: E402  (Day 7: Destination C1&C2 Unit 2)
+
+SECTIONS += _S7

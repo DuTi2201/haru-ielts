@@ -176,3 +176,9 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
 - Chart exercises use the seed's native `chart` stimulus (`CHARTS` in `scripts/g1/book_items.py`); the bar values were read from the printed charts and rounded (noted in each chart). Unit 3 C2 item 6: the key was unclear in OCR, so the reason says `caught up with` and the chart shows women still slightly below men.
 - Seed: 49 lessons, 388 G1 exercises, 0 problems. Five tests still fail only in the sandbox (no sqlalchemy/email_validator).
 - Still not typed: Grammar Unit 1 listening (audio), C1&C2 Unit 2 exercises, IELTS Vocabulary 6.5+ units, Cambridge 18.
+
+## G1 Ngày 7: Destination C1&C2 Unit 2 (Thinking and learning), lớp nâng cấp của B2 Unit 18
+- Bài A–O của sách (có đáp án trang 282) nằm trong app, bài `G1D7K…`. Lõi: từ chủ đề, kết hợp từ, biến đổi từ. Cụm động từ và thành ngữ (E, F, G, L) nằm ở buổi riêng "Mở rộng không bắt buộc" theo bộ lọc của thầy (ẩn mặc định được).
+- Từ C1 được neo vào từ B2 đồng nghĩa (plausible→reasonable, baffle→confuse, assess→evaluate...).
+- Cho agent màn hình: cuối bài từ vựng gộp B2+C1&C2, cho học viên tick 5 đến 10 từ thích nhất và gõ 1 đến 2 câu của riêng mình (thầy nhấn mạnh bước này); buổi "Mở rộng không bắt buộc" cho phép ẩn.
+- Nguồn: `scripts/g1/day7.py`; chạy lại `python3 scripts/g1/build.py`. Lesson sort_order 107.
