@@ -296,6 +296,32 @@
     "Có dùng từ của bài hôm nay, đúng từ loại.",
     "Câu nói về chính bạn, không chép câu mẫu."
    ]
+  },
+  {
+   "id": "G1D11M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Ngày 11",
+   "points": 5,
+   "instruction_vi": "Viết hai câu về cách bạn đi lại hằng ngày (đi học, đi làm) và một điều bạn phàn nàn hoặc hài lòng, dùng ít nhất hai từ của bài (convenient, timetable, satisfied, parking...). Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn và dùng từ bạn chọn.",
+   "limits": {
+    "min": 8,
+    "max": 50
+   },
+   "prompt_en": "Write two sentences about how you travel every day and one thing you like or dislike.",
+   "framework_vi": [
+    "Chọn 5 đến 10 từ bạn thích nhất trong bài hôm nay.",
+    "Nghĩ điều bạn muốn nói về chính mình, bằng tiếng Việt cũng được.",
+    "Gõ hai câu có dùng ít nhất hai từ đã chọn; từ C1 thì thêm một từ B2 đồng nghĩa ở câu kia."
+   ],
+   "model_answer_en": "I go to school by bus because it is more convenient than parking a motorbike. I am not satisfied with the timetable, because the buses are rare in the evening.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Có dùng từ của bài hôm nay, đúng từ loại.",
+    "Câu nói về chính bạn, không chép câu mẫu."
+   ]
   }
  ]
 }

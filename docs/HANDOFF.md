@@ -199,3 +199,8 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
 - Chín từ C1 chuyển từ Ngày 6 sang đầu Ngày 7. Ngày 7: Làm quen C1 (28 thẻ, neo vào từ B2) → Tiếp nhận → Vận dụng → Rèn luyện → Ôn tập (từ Ngày 5–6) → Mở rộng không bắt buộc (cụm động từ, thành ngữ).
 - Bài ôn tập tự sinh từ câu ví dụ của từ (bỏ từ ra, gõ lại), id `G1D{n}O{ngày}-{k}`. Việc nhắc ôn cách quãng theo lịch vẫn do hệ thống thẻ ôn chung của app; chưa kiểm tra trong repo này.
 - Hai file mp3 Cambridge 18 Section 1 (Part 1, Part 2) đã nhận nhưng chưa dùng: app chỉ có audio kiểu `turns` (lời thoại đọc bằng giọng tổng hợp), và môi trường này không có công cụ nhận dạng giọng nói để lấy script.
+
+## G1 Ngày 11: Cambridge IELTS 18 Test 1, Listening Part 1 (Transport survey)
+- 10 câu nghe (`G1D11L1`, loại `listen_interview`, lời thoại 41 lượt có nghĩa tiếng Việt) lấy từ script in trong sách (trang 99–100); đáp án khớp bảng đáp án sách (DW30 7YZ, 24th April, dentist, parking, Claxby, late, evening, supermarket, pollution, storage). Gõ lại 10 câu ở bài `G1D11KLT-*`.
+- Âm thanh: app đọc lại script bằng giọng tổng hợp. Hai file mp3 Part 1 và Part 2 đã nhận nhưng app chưa phát được file riêng; muốn dùng mp3 gốc cần thêm trường âm thanh cho bài nghe (việc của agent giao diện/backend).
+- File phân tích audio của AI khác (mốc thời gian, JSON riêng) chưa dùng: mốc thời gian chưa kiểm chứng; chỉ đối chiếu được độ dài file Part 1 (431,29 giây). Part 2 (câu 11–20) chưa đưa vào; script của sách có sẵn, làm tiếp khi cần.

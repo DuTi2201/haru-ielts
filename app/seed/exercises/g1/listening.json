@@ -215,6 +215,475 @@
    "tips_vi": [
     "Nghe âm cuối: -s của ngôi thứ ba, 's và n't, -ing. Sau khi kiểm tra, nghe lại và nhại theo đúng nhịp."
    ]
+  },
+  {
+   "id": "G1D11L1",
+   "skill": "listening",
+   "type": "listen_interview",
+   "title_vi": "Nghe kỹ · Transport survey (Part 1, câu 1–10)",
+   "instruction_vi": "Nghe cuộc phỏng vấn (nghe lại bao nhiêu lần cũng được; đọc câu hỏi trước khi nghe). Trong đề thật bạn tự điền một từ và/hoặc một số; ở đây chọn đáp án đúng trước, bài sau gõ lại. Âm thanh do app đọc lại script của sách.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "M",
+      "text": "Excuse me. Would you mind if I asked you some questions? We're doing a survey on transport.",
+      "vi": "Xin lỗi, tôi hỏi chị vài câu được không? Chúng tôi đang khảo sát về giao thông."
+     },
+     {
+      "speaker": "F",
+      "text": "Yes, that's OK.",
+      "vi": "Vâng, được."
+     },
+     {
+      "speaker": "M",
+      "text": "First of all, can I take your name?",
+      "vi": "Trước hết, cho tôi biết tên chị?"
+     },
+     {
+      "speaker": "F",
+      "text": "Yes. It's Sadie Jones.",
+      "vi": "Vâng. Tôi là Sadie Jones."
+     },
+     {
+      "speaker": "M",
+      "text": "Thanks very much. And could I have your date of birth — just the year will do, actually. Is that all right?",
+      "vi": "Cảm ơn chị. Cho tôi năm sinh thôi cũng được. Có được không?"
+     },
+     {
+      "speaker": "F",
+      "text": "Yes, that's fine. It's 1991.",
+      "vi": "Được ạ. Năm 1991."
+     },
+     {
+      "speaker": "M",
+      "text": "So next your postcode, please.",
+      "vi": "Tiếp theo là mã bưu chính của chị."
+     },
+     {
+      "speaker": "F",
+      "text": "It's DW30 7YZ.",
+      "vi": "DW30 7YZ."
+     },
+     {
+      "speaker": "M",
+      "text": "Great. Thanks. Is that in Wells?",
+      "vi": "Tốt, cảm ơn. Có phải ở Wells không?"
+     },
+     {
+      "speaker": "F",
+      "text": "No, it's actually in Harborne — Wells isn't far from there, though.",
+      "vi": "Không, thật ra ở Harborne, nhưng Wells cũng không xa đó."
+     },
+     {
+      "speaker": "M",
+      "text": "I really like that area. My grandmother lived there when I was a kid.",
+      "vi": "Tôi rất thích khu đó. Bà tôi từng sống ở đó khi tôi còn nhỏ."
+     },
+     {
+      "speaker": "F",
+      "text": "Yes, it is nice.",
+      "vi": "Vâng, khu đó đẹp."
+     },
+     {
+      "speaker": "M",
+      "text": "Right, so now I want to ask you some questions about how you travelled here today. Did you use public transport?",
+      "vi": "Giờ tôi hỏi về chuyện hôm nay chị đến đây bằng gì. Chị có đi phương tiện công cộng không?"
+     },
+     {
+      "speaker": "F",
+      "text": "Yes. I came by bus.",
+      "vi": "Có. Tôi đi xe buýt."
+     },
+     {
+      "speaker": "M",
+      "text": "OK. And that was today. It's the 24th of April, isn't it?",
+      "vi": "Vâng. Và là hôm nay. Hôm nay là ngày 24 tháng Tư, đúng không?"
+     },
+     {
+      "speaker": "F",
+      "text": "Isn't it the 25th? No, actually, you're right.",
+      "vi": "Không phải ngày 25 sao? À không, anh nói đúng."
+     },
+     {
+      "speaker": "M",
+      "text": "Ha ha. And what was the reason for your trip today? I can see you've got some shopping with you.",
+      "vi": "Ha ha. Lý do chuyến đi hôm nay của chị là gì? Tôi thấy chị có mang đồ mua sắm."
+     },
+     {
+      "speaker": "F",
+      "text": "Yes. I did some shopping but the main reason I came here was to go to the dentist.",
+      "vi": "Vâng. Tôi có mua sắm nhưng lý do chính tôi đến đây là đi khám nha sĩ."
+     },
+     {
+      "speaker": "M",
+      "text": "That's not much fun. Hope it was nothing serious.",
+      "vi": "Không vui lắm. Hy vọng không có gì nghiêm trọng."
+     },
+     {
+      "speaker": "F",
+      "text": "No, it was just a check-up. It's fine.",
+      "vi": "Không, chỉ là khám định kỳ. Ổn cả."
+     },
+     {
+      "speaker": "M",
+      "text": "Good. Do you normally travel by bus into the city centre?",
+      "vi": "Tốt. Chị thường đi xe buýt vào trung tâm thành phố à?"
+     },
+     {
+      "speaker": "F",
+      "text": "Yes. I stopped driving in ages ago because parking was so difficult to find and it costs so much.",
+      "vi": "Vâng. Tôi bỏ lái xe từ lâu vì khó tìm chỗ đỗ và đỗ xe tốn quá nhiều tiền."
+     },
+     {
+      "speaker": "M",
+      "text": "I see.",
+      "vi": "Tôi hiểu."
+     },
+     {
+      "speaker": "F",
+      "text": "The bus is much more convenient too. It only takes about 30 minutes.",
+      "vi": "Xe buýt cũng tiện hơn nhiều. Chỉ mất khoảng 30 phút."
+     },
+     {
+      "speaker": "M",
+      "text": "That's good. So where did you start your journey?",
+      "vi": "Tốt. Vậy chị bắt đầu chuyến đi ở đâu?"
+     },
+     {
+      "speaker": "F",
+      "text": "At the bus stop on Claxby Street.",
+      "vi": "Ở trạm xe buýt trên phố Claxby."
+     },
+     {
+      "speaker": "M",
+      "text": "Is that C-L-A-X-B-Y?",
+      "vi": "Có phải đánh vần C-L-A-X-B-Y không?"
+     },
+     {
+      "speaker": "F",
+      "text": "That's right.",
+      "vi": "Đúng rồi."
+     },
+     {
+      "speaker": "M",
+      "text": "And how satisfied with the service are you? Do you have any complaints?",
+      "vi": "Chị hài lòng với dịch vụ thế nào? Chị có phàn nàn gì không?"
+     },
+     {
+      "speaker": "F",
+      "text": "Well, as I said, it's very convenient and quick when it's on time, but this morning it was late. Only about 10 minutes, but still.",
+      "vi": "Như tôi nói, xe rất tiện và nhanh khi đúng giờ, nhưng sáng nay nó đến trễ. Chỉ khoảng 10 phút, nhưng vẫn là trễ."
+     },
+     {
+      "speaker": "M",
+      "text": "Yes, I understand that's annoying. And what about the timetable? Do you have any comments about that?",
+      "vi": "Vâng, tôi hiểu như vậy là khó chịu. Còn về lịch chạy xe thì sao? Chị có góp ý gì không?"
+     },
+     {
+      "speaker": "F",
+      "text": "Mmm. I suppose I mainly use the bus during the day, but any time I've been in town in the evening — for dinner or at the cinema — I've noticed you have to wait a long time for a bus — there aren't that many.",
+      "vi": "Tôi chủ yếu đi xe buýt ban ngày, nhưng mỗi lần ở trong thành phố buổi tối, đi ăn tối hay xem phim, tôi thấy phải chờ xe rất lâu vì không có nhiều chuyến."
+     },
+     {
+      "speaker": "M",
+      "text": "OK, thanks. So now I'd like to ask you about your car use.",
+      "vi": "Cảm ơn chị. Giờ tôi hỏi về việc chị dùng ô tô."
+     },
+     {
+      "speaker": "F",
+      "text": "Well, I have got a car but I don't use it that often. Mainly just to go to the supermarket. But that's about it really. My husband uses it at the weekends to go to the golf club.",
+      "vi": "Tôi có xe nhưng không dùng thường xuyên, chủ yếu đi siêu thị. Chồng tôi dùng vào cuối tuần để đi câu lạc bộ golf."
+     },
+     {
+      "speaker": "M",
+      "text": "And what about a bicycle?",
+      "vi": "Còn xe đạp thì sao?"
+     },
+     {
+      "speaker": "F",
+      "text": "I don't actually have one at the moment.",
+      "vi": "Hiện giờ tôi không có xe đạp."
+     },
+     {
+      "speaker": "M",
+      "text": "What about the city bikes you can rent? Do you ever use those?",
+      "vi": "Còn xe đạp thành phố có thể thuê thì sao? Chị có dùng không?"
+     },
+     {
+      "speaker": "F",
+      "text": "No — I'm not keen on cycling there because of all the pollution. But I would like to get a bike — it would be good to use it to get to work.",
+      "vi": "Không, tôi không thích đạp xe ở đó vì ô nhiễm. Nhưng tôi muốn mua một chiếc để đi làm."
+     },
+     {
+      "speaker": "M",
+      "text": "So why haven't you got one now?",
+      "vi": "Vậy sao hiện giờ chị chưa có?"
+     },
+     {
+      "speaker": "F",
+      "text": "Well, I live in a flat — on the second floor and it doesn't have any storage — so we'd have to leave it in the hall outside the flat.",
+      "vi": "Tôi sống trong căn hộ ở tầng hai và không có chỗ chứa đồ, nên phải để xe ngoài hành lang."
+     },
+     {
+      "speaker": "M",
+      "text": "I see.",
+      "vi": "Tôi hiểu."
+     }
+    ]
+   },
+   "questions": [
+    {
+     "id": "G1D11L1Q1",
+     "prompt_en": "Q1 · Postcode",
+     "options": [
+      {
+       "id": "1",
+       "text": "DW30 7YS"
+      },
+      {
+       "id": "2",
+       "text": "DV30 7YZ"
+      },
+      {
+       "id": "3",
+       "text": "DW30 7YZ"
+      },
+      {
+       "id": "4",
+       "text": "DW13 7YZ"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "`It's DW30 7YZ`. Bẫy: chữ cái đọc gần giống (Z và S, V và W) và thứ tự số. [Cambridge IELTS 18, Test 1, Listening Part 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D11L1Q2",
+     "prompt_en": "Q2 · Ngày đi xe buýt",
+     "options": [
+      {
+       "id": "1",
+       "text": "24th May"
+      },
+      {
+       "id": "2",
+       "text": "14th April"
+      },
+      {
+       "id": "3",
+       "text": "25th April"
+      },
+      {
+       "id": "4",
+       "text": "24th April"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Người phỏng vấn nói 24th; Sadie ngờ là 25th rồi xác nhận `you're right`. Nghe đến cuối lượt thoại mới chốt đáp án. [Cambridge IELTS 18, Test 1, Listening Part 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D11L1Q3",
+     "prompt_en": "Q3 · Lý do chuyến đi: mua sắm và đi ...",
+     "options": [
+      {
+       "id": "1",
+       "text": "the doctor"
+      },
+      {
+       "id": "2",
+       "text": "the hairdresser"
+      },
+      {
+       "id": "3",
+       "text": "the supermarket"
+      },
+      {
+       "id": "4",
+       "text": "the dentist"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`the main reason I came here was to go to the dentist`. Mua sắm là lý do phụ. [Cambridge IELTS 18, Test 1, Listening Part 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D11L1Q4",
+     "prompt_en": "Q4 · Đi xe buýt vì chi phí ... quá cao",
+     "options": [
+      {
+       "id": "1",
+       "text": "insurance"
+      },
+      {
+       "id": "2",
+       "text": "fares"
+      },
+      {
+       "id": "3",
+       "text": "petrol"
+      },
+      {
+       "id": "4",
+       "text": "parking"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`parking was so difficult to find and it costs so much`. [Cambridge IELTS 18, Test 1, Listening Part 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D11L1Q5",
+     "prompt_en": "Q5 · Lên xe ở phố ...",
+     "options": [
+      {
+       "id": "1",
+       "text": "Wells"
+      },
+      {
+       "id": "2",
+       "text": "Harborne"
+      },
+      {
+       "id": "3",
+       "text": "Claxby"
+      },
+      {
+       "id": "4",
+       "text": "Claxton"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "`At the bus stop on Claxby Street`, rồi đánh vần C-L-A-X-B-Y. Wells và Harborne là địa danh của postcode. [Cambridge IELTS 18, Test 1, Listening Part 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D11L1Q6",
+     "prompt_en": "Q6 · Phàn nàn: xe buýt hôm nay ...",
+     "options": [
+      {
+       "id": "1",
+       "text": "dirty"
+      },
+      {
+       "id": "2",
+       "text": "full"
+      },
+      {
+       "id": "3",
+       "text": "slow"
+      },
+      {
+       "id": "4",
+       "text": "late"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`this morning it was late`. `convenient and quick when it's on time` là lời khen. [Cambridge IELTS 18, Test 1, Listening Part 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D11L1Q7",
+     "prompt_en": "Q7 · Phàn nàn: tần suất xe buýt vào ...",
+     "options": [
+      {
+       "id": "1",
+       "text": "the weekend"
+      },
+      {
+       "id": "2",
+       "text": "the afternoon"
+      },
+      {
+       "id": "3",
+       "text": "the evening"
+      },
+      {
+       "id": "4",
+       "text": "the morning"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "`any time I've been in town in the evening … you have to wait a long time`. Ban ngày cô không phàn nàn. [Cambridge IELTS 18, Test 1, Listening Part 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D11L1Q8",
+     "prompt_en": "Q8 · Cô dùng ô tô chủ yếu để đi ...",
+     "options": [
+      {
+       "id": "1",
+       "text": "the supermarket"
+      },
+      {
+       "id": "2",
+       "text": "the city centre"
+      },
+      {
+       "id": "3",
+       "text": "work"
+      },
+      {
+       "id": "4",
+       "text": "the golf club"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`Mainly just to go to the supermarket`. Golf club là chỗ chồng cô đi vào cuối tuần. [Cambridge IELTS 18, Test 1, Listening Part 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D11L1Q9",
+     "prompt_en": "Q9 · Không thích đạp xe ở trung tâm vì ...",
+     "options": [
+      {
+       "id": "1",
+       "text": "traffic"
+      },
+      {
+       "id": "2",
+       "text": "pollution"
+      },
+      {
+       "id": "3",
+       "text": "hills"
+      },
+      {
+       "id": "4",
+       "text": "weather"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`I'm not keen on cycling there because of all the pollution`. [Cambridge IELTS 18, Test 1, Listening Part 1]",
+     "tags": []
+    },
+    {
+     "id": "G1D11L1Q10",
+     "prompt_en": "Q10 · Không có xe đạp vì thiếu ...",
+     "options": [
+      {
+       "id": "1",
+       "text": "time"
+      },
+      {
+       "id": "2",
+       "text": "money"
+      },
+      {
+       "id": "3",
+       "text": "storage"
+      },
+      {
+       "id": "4",
+       "text": "safety"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "`it doesn't have any storage`. Căn hộ tầng hai, phải để xe ngoài hành lang. [Cambridge IELTS 18, Test 1, Listening Part 1]",
+     "tags": []
+    }
+   ]
   }
  ]
 }

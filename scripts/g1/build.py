@@ -337,6 +337,19 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
         bank["reading"].append(pex)
         sessions.append({"title_vi": f"Đọc chậm · {ps['title']}"[:70], "can_do_vi": "Sau buổi này bạn đọc đúng đoạn có đáp án và giải thích được vì sao mỗi câu đúng, sai hoặc không có thông tin.",
                          "use_vi": d["ielts"][:200], "check": [pex["id"]]})
+    for ls in d.get("listening", []):
+        qs = []
+        for i, (prompt, right, wrong, why) in enumerate(ls["qs"], 1):
+            qid = f"{pid}{ls['id']}Q{i}"
+            order = [right] + wrong
+            order = sorted(order, key=lambda t: B.rng(qid + t).random())
+            qs.append({"id": qid, "prompt_en": prompt, "options": [{"id": str(j + 1), "text": t} for j, t in enumerate(order)],
+                       "answer": str(order.index(right) + 1), "explanation_vi": why + f" [{d['source'].split(';')[0]}]", "tags": []})
+        lex = {"id": f"{pid}{ls['id']}", "skill": "listening", "type": "listen_interview", "title_vi": f"Nghe kỹ · {ls['title']}"[:70], "instruction_vi": ls["instr"],
+               "stimulus": {"kind": "audio", "turns": [{"speaker": sp, "text": tx, "vi": vi} for sp, tx, vi in ls["turns"]]}, "questions": qs}
+        bank["listening"].append(lex)
+        sessions.append({"title_vi": f"Nghe kỹ · {ls['title']}"[:70], "can_do_vi": "Sau buổi này bạn nghe đúng đáp án trong hội thoại, nhận ra chỗ người nói sửa lại thông tin và giải thích được vì sao các lựa chọn khác sai.",
+                         "use_vi": d["ielts"][:200], "check": [lex["id"]]})
     first_head = vocab[0]["headword"]
     groups: dict[str, list[str]] = {}
     src: dict[str, str] = {}
@@ -413,7 +426,7 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
             {"title": "Bài của sách nằm trong app", "body": book_body + "\n• Các bài này có sẵn trong app kèm đáp án của sách và lời giải thích từng câu.", "kind": "language"},
             {"title": "Cách học từ của thầy", "body": "• Học từ C1 bằng một từ B2 đồng nghĩa, không học nghĩa tiếng Việt dài.\n• Chọn 5 đến 10 từ bạn thích nhất rồi gõ câu về chính mình bằng bàn phím tiếng Anh.", "kind": "language"},
         ],
-        "bank": "g1", "exercise_ids": [e["id"] for k in ("reading", "build", "writing") for e in bank[k]], "sessions": sessions,
+        "bank": "g1", "exercise_ids": [e["id"] for k in ("reading", "build", "listening", "writing") for e in bank[k]], "sessions": sessions,
         "editor_notes": [{"title": "Nguồn", "body": d.get("editor", "Từ vựng và bài tập theo Destination B2 Unit 18 (trang 112–115, đáp án trang 244); chín từ C1 và cách neo theo bài giảng của thầy Minh.")}],
     }
     return lesson, bank, links

@@ -7887,6 +7887,228 @@
     }
    ],
    "tips_vi": []
+  },
+  {
+   "id": "G1D11KLT-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Gõ đáp án: ghi chú khảo sát giao thông (một từ và/hoặc một số) (1/10)",
+   "points": 3,
+   "instruction_vi": "Sau khi nghe và chọn đáp án ở bài nghe, gõ lại từ đúng như trong đề thật: một từ và/hoặc một số, đúng chính tả. Postcode viết liền, ngày ghi như sách (24th April).",
+   "text": "Sadie's postcode: ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "DW30 7YZ",
+      "DW307YZ"
+     ],
+     "common_errors_vi": "Sadie đọc to mã bưu chính: `It's DW30 7YZ`. Đáp án sách: DW30 7YZ. [Cambridge IELTS 18, Test 1 · Listening Part 1, Questions 1–10 (gõ lại)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D11KLT-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Gõ đáp án: ghi chú khảo sát giao thông (một từ và/hoặc một số) (2/10)",
+   "points": 3,
+   "instruction_vi": "Sau khi nghe và chọn đáp án ở bài nghe, gõ lại từ đúng như trong đề thật: một từ và/hoặc một số, đúng chính tả. Postcode viết liền, ngày ghi như sách (24th April).",
+   "text": "Date of bus journey: ( ㉠ ) April.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "24th",
+      "24"
+     ],
+     "common_errors_vi": "Người phỏng vấn nói `It's the 24th of April, isn't it?` Sadie nhầm là 25th rồi xác nhận: `you're right`. Đáp án sách: 24(th) April. [Cambridge IELTS 18, Test 1 · Listening Part 1, Questions 1–10 (gõ lại)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D11KLT-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Gõ đáp án: ghi chú khảo sát giao thông (một từ và/hoặc một số) (3/10)",
+   "points": 3,
+   "instruction_vi": "Sau khi nghe và chọn đáp án ở bài nghe, gõ lại từ đúng như trong đề thật: một từ và/hoặc một số, đúng chính tả. Postcode viết liền, ngày ghi như sách (24th April).",
+   "text": "Reason for trip: shopping and a visit to the ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "dentist"
+     ],
+     "common_errors_vi": "`the main reason I came here was to go to the dentist`. Mua sắm chỉ là lý do phụ. [Cambridge IELTS 18, Test 1 · Listening Part 1, Questions 1–10 (gõ lại)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D11KLT-4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Gõ đáp án: ghi chú khảo sát giao thông (một từ và/hoặc một số) (4/10)",
+   "points": 3,
+   "instruction_vi": "Sau khi nghe và chọn đáp án ở bài nghe, gõ lại từ đúng như trong đề thật: một từ và/hoặc một số, đúng chính tả. Postcode viết liền, ngày ghi như sách (24th April).",
+   "text": "She travelled by bus because the cost of ( ㉠ ) was too high.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "parking"
+     ],
+     "common_errors_vi": "`I stopped driving in ages ago because parking was so difficult to find and it costs so much`. [Cambridge IELTS 18, Test 1 · Listening Part 1, Questions 1–10 (gõ lại)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D11KLT-5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Gõ đáp án: ghi chú khảo sát giao thông (một từ và/hoặc một số) (5/10)",
+   "points": 3,
+   "instruction_vi": "Sau khi nghe và chọn đáp án ở bài nghe, gõ lại từ đúng như trong đề thật: một từ và/hoặc một số, đúng chính tả. Postcode viết liền, ngày ghi như sách (24th April).",
+   "text": "She got on the bus at ( ㉠ ) Street.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "Claxby"
+     ],
+     "common_errors_vi": "Người phỏng vấn hỏi lại chính tả: `C-L-A-X-B-Y?` Đáp án: Claxby. [Cambridge IELTS 18, Test 1 · Listening Part 1, Questions 1–10 (gõ lại)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D11KLT-6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Gõ đáp án: ghi chú khảo sát giao thông (một từ và/hoặc một số) (6/10)",
+   "points": 3,
+   "instruction_vi": "Sau khi nghe và chọn đáp án ở bài nghe, gõ lại từ đúng như trong đề thật: một từ và/hoặc một số, đúng chính tả. Postcode viết liền, ngày ghi như sách (24th April).",
+   "text": "Complaint: the bus today was ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "late"
+     ],
+     "common_errors_vi": "`this morning it was late. Only about 10 minutes`. Từ `convenient and quick` là khen, không phải phàn nàn. [Cambridge IELTS 18, Test 1 · Listening Part 1, Questions 1–10 (gõ lại)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D11KLT-7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Gõ đáp án: ghi chú khảo sát giao thông (một từ và/hoặc một số) (7/10)",
+   "points": 3,
+   "instruction_vi": "Sau khi nghe và chọn đáp án ở bài nghe, gõ lại từ đúng như trong đề thật: một từ và/hoặc một số, đúng chính tả. Postcode viết liền, ngày ghi như sách (24th April).",
+   "text": "Complaint: the frequency of buses in the ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "evening"
+     ],
+     "common_errors_vi": "`any time I've been in town in the evening … you have to wait a long time for a bus`. Ban ngày cô ấy không phàn nàn. [Cambridge IELTS 18, Test 1 · Listening Part 1, Questions 1–10 (gõ lại)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D11KLT-8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Gõ đáp án: ghi chú khảo sát giao thông (một từ và/hoặc một số) (8/10)",
+   "points": 3,
+   "instruction_vi": "Sau khi nghe và chọn đáp án ở bài nghe, gõ lại từ đúng như trong đề thật: một từ và/hoặc một số, đúng chính tả. Postcode viết liền, ngày ghi như sách (24th April).",
+   "text": "She uses the car mainly to go to the ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "supermarket"
+     ],
+     "common_errors_vi": "`Mainly just to go to the supermarket`. Golf club là chỗ chồng cô dùng xe vào cuối tuần. [Cambridge IELTS 18, Test 1 · Listening Part 1, Questions 1–10 (gõ lại)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D11KLT-9",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Gõ đáp án: ghi chú khảo sát giao thông (một từ và/hoặc một số) (9/10)",
+   "points": 3,
+   "instruction_vi": "Sau khi nghe và chọn đáp án ở bài nghe, gõ lại từ đúng như trong đề thật: một từ và/hoặc một số, đúng chính tả. Postcode viết liền, ngày ghi như sách (24th April).",
+   "text": "She dislikes travelling by bike in the city centre because of the ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "pollution"
+     ],
+     "common_errors_vi": "`I'm not keen on cycling there because of all the pollution`. [Cambridge IELTS 18, Test 1 · Listening Part 1, Questions 1–10 (gõ lại)]"
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D11KLT-10",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Gõ đáp án: ghi chú khảo sát giao thông (một từ và/hoặc một số) (10/10)",
+   "points": 3,
+   "instruction_vi": "Sau khi nghe và chọn đáp án ở bài nghe, gõ lại từ đúng như trong đề thật: một từ và/hoặc một số, đúng chính tả. Postcode viết liền, ngày ghi như sách (24th April).",
+   "text": "She doesn't own a bike because of a lack of ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "storage"
+     ],
+     "common_errors_vi": "`it doesn't have any storage`. Nhà là căn hộ tầng hai, phải để xe ở hành lang. [Cambridge IELTS 18, Test 1 · Listening Part 1, Questions 1–10 (gõ lại)]"
+    }
+   ],
+   "tips_vi": []
   }
  ]
 }
