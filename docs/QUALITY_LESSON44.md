@@ -78,6 +78,6 @@ CHƯA thử bằng giọng người Việt. Ngưỡng 80/60 là do Haru đặt, 
    các con số này như nhật ký, không như thống kê.
 2. **Chất lượng âm thanh nghe bằng tai: chưa ai nghe.** Bản ghi đã tạo được và timeline đủ (79/79 và 61/61 đoạn), nhưng
    ngữ điệu giọng Việt, chỗ chuyển giọng ở "IELTS", "do", "does" cần người nghe.
-3. **Ba hình (ba sự thật, trục bốn thì, do/does) mới xem ở dạng mã**, hai hình đầu đã xem trên màn 375 px tại `/preview/lecture`.
+3. **Ba hình (ba sự thật, trục bốn thì, do/does) chưa được xem bằng mắt.** Cả năm hình đã dựng ra HTML đủ nội dung bằng `react-dom/server`; hai hình đầu đã xem trên màn 375 px tại `/preview/lecture`.
 4. **Ghi âm trên điện thoại thật** (Safari iOS, Chrome Android) chưa thử.
 5. **Phiên âm của `state`, `fact`** chưa tra được mục từ nên để trống.
