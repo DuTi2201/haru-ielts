@@ -17,7 +17,7 @@ class EnglishVietnameseSplitTests(unittest.TestCase):
     def test_a_word_line_is_the_english_word_then_the_vietnamese_meaning_with_a_gap(self):
         runs = split_runs("usually... thường thường.")
         self.assertEqual([(r.lang, r.text) for r in runs], [(KO, "usually..."), (VI, "thường thường.")])
-        self.assertEqual(runs[0].pause_after_ms, lecture_voice.GAP_AFTER_ELLIPSIS_KO_MS)
+        self.assertEqual(runs[0].pause_after_ms, lecture_voice.GAP_REPEAT_WORD_MS)  # an English word: 1.2 s to say it back
 
     def test_whole_english_and_whole_vietnamese_lines(self):
         self.assertEqual(pairs("I go to school every day."), [(KO, "I go to school every day.")])

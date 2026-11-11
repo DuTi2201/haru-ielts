@@ -204,3 +204,17 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
 - 10 câu nghe (`G1D11L1`, loại `listen_interview`, lời thoại 41 lượt có nghĩa tiếng Việt) lấy từ script in trong sách (trang 99–100); đáp án khớp bảng đáp án sách (DW30 7YZ, 24th April, dentist, parking, Claxby, late, evening, supermarket, pollution, storage). Gõ lại 10 câu ở bài `G1D11KLT-*`.
 - Âm thanh: app đọc lại script bằng giọng tổng hợp. Hai file mp3 Part 1 và Part 2 đã nhận nhưng app chưa phát được file riêng; muốn dùng mp3 gốc cần thêm trường âm thanh cho bài nghe (việc của agent giao diện/backend).
 - File phân tích audio của AI khác (mốc thời gian, JSON riêng) chưa dùng: mốc thời gian chưa kiểm chứng; chỉ đối chiếu được độ dài file Part 1 (431,29 giây). Part 2 (câu 11–20) chưa đưa vào; script của sách có sẵn, làm tiếp khi cần.
+
+* 2026-11-11 — **Lesson 44 (G1 day 1) as the quality reference.** Read `docs/QUALITY_LESSON44.md` first (what changed, on what
+  evidence, the automated gates, what is NOT proven). Backend: `SessionSeed.lecture` + `lesson_audio.build_authored_lecture`
+  (hand-written lectures in `scripts/g1/lecture_d1.py`), `shadow_runs` in `/lecture-slides`, one-voice English lines and
+  word-count repeat gaps in `lecture_voice`, template `tpl-v4` (every lecture is recorded again on first play), `azure_pron` +
+  `POST /me/speech/assess`, events `lecture_complete` / `lecture_replay` / `say_score`. Frontend (`haru-ielts-journey`, branch
+  `feat/lesson44-quality`, deployed, NOT merged to `main` because that branch syncs to Lovable): `LectureScenes.tsx`, scored
+  `SayStep`, `Ko` now tags English, `/preview/lecture`. Deploy notes: the VM shell exports the Korean stack's
+  `POSTGRES_PASSWORD`; run compose for this stack as `env -u POSTGRES_PASSWORD docker compose -f deploy/docker-compose.ielts.yml
+  --env-file /opt/haru-ielts/compose.env up -d --no-deps api worker` (without it the API cannot reach its database; this caused
+  about three minutes of failed requests on 2026-11-11). Frontend build: `/opt/build/journey` with `oven/bun:1`, copy
+  `.output/public` to `/opt/haru/mcp/ielts-site` (previous build kept in `ielts-site.prev44`). Six tests that count 42 B1
+  lessons fail on `main` since the G1 lessons were added and still need updating. To do the same for days 2-4: write
+  `lecture_dN.py`, add scenes as needed, keep the gates.
