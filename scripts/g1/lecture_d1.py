@@ -69,7 +69,6 @@ SITTING_1 = [
               "proof": "I wake up at six.", "proof_vi": "Không có trạng từ nào, vẫn là thói quen.",
               "rule": "Trạng từ tần suất là phần thêm vào. Bỏ nó đi, câu vẫn là hiện tại đơn."}, "lines": [
         {"say": "Thí nghiệm thứ hai. Nhiều bạn chờ thấy always, usually, very often, twice a week rồi mới dám chia hiện tại đơn.", "show": "signals"},
-        {"say": "Xem câu này."},
         {"en": "I visit my parents twice a week.", "vi": "Tôi về thăm bố mẹ hai lần một tuần.", "gap": True, "show": "full"},
         {"say": "Bây giờ bỏ phần hai lần một tuần đi.", "show": "drop"},
         {"en": "I visit my parents.", "vi": "Tôi về thăm bố mẹ.", "gap": True},
@@ -114,9 +113,8 @@ SITTING_1 = [
               "rule": "Khẳng định: he / she / it thêm s. Phủ định và câu hỏi: does / doesn't, động từ về nguyên thể."}, "lines": [
         {"say": "Bây giờ là cách lập câu. Chỉ có ba dạng: khẳng định, phủ định và câu hỏi."},
         {"say": "Một. Câu khẳng định. Với I, you, we, they, động từ giữ nguyên. Với he, she, it, nghĩa là một người hoặc một vật, động từ thêm s.", "show": "persons"},
-        {"say": "Ví dụ."},
         {"en": "Minh cycles to school.", "vi": "Minh đạp xe đi học.", "gap": True, "show": "aff"},
-        {"say": "Minh là một người, tức là he, nên cycle thành cycles. Không phải lúc nào cũng chỉ thêm s: watch thành watches, study thành studies, và have thành has.", "show": "spelling"},
+        {"say": "Minh là he, nên cycle thành cycles. Không phải lúc nào cũng chỉ thêm s: watch thành watches, study thành studies, have thành has.", "show": "spelling"},
         {"say": "Hai. Câu phủ định. Đặt don't hoặc doesn't trước động từ. Với he, she, it dùng doesn't. Chú ý: đã có doesn't thì động từ không còn s nữa, nó về nguyên thể."},
         {"en": "Minh doesn't cycle to school.", "vi": "Minh không đạp xe đi học.", "gap": True, "show": "neg"},
         {"say": "Ba. Câu hỏi. Đưa do hoặc does lên đầu câu, và động từ cũng về nguyên thể."},
