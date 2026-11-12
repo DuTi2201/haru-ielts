@@ -288,7 +288,7 @@ class SyncTests(unittest.TestCase):
         self.assertEqual(len(report), 56)
         db.add.assert_not_called()
         parts = sum(1 for r in bundle.lessons if r.seed.split_from)
-        self.assertEqual(db.execute.call_count, 54 + parts)
+        self.assertEqual(db.execute.call_count, 56 + parts)
 
 
 if __name__ == "__main__":
