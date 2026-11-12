@@ -361,3 +361,8 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
 - build.py: câu hỏi có thể mang thứ tự lựa chọn cố định (A–E, A–G) ở phần tử cuối của tuple.
 - Dữ liệu: scripts/g1/day1213.py (import vào day89.DAYS). Test: tổng 56 bài, Tuần 1 = 8, Bổ trợ = 6.
 - Chưa làm: Cam 17 Test 2 Part 4 (thiếu script và đáp án trong file đã gửi); Speaking Cam 21 Test 2 Part 2–3 (app chưa chấm Speaking, trang 53 mới có ảnh).
+
+## 2026-11-13 · Ngày 6: bài giảng đọc chủ động viết tay
+- scripts/g1/lecture_d12.py: bài giảng cho phiên đầu của Ngày 6 ("Đọc chủ động · tóm tắt từng đoạn"): hiểu trước làm câu hỏi sau; sáu bước; đọc tiêu đề; đoạn 1–3 của The growth mindset (gạch từ khóa, bỏ chi tiết, gom số liệu, chuỗi mũi tên, ý chính, giá trị); đảo ngược lời chê thành lời khen ở đoạn cuối. Phiên này đứng đầu và gắn với bài "câu của tôi" (tóm tắt chuỗi từ khóa); từ vựng rồi câu hỏi theo sau.
+- Frontend: scene mới `para_filter` trong LectureScenes.tsx (từ khóa sáng lên, chi tiết bị gạch, chuỗi mũi tên, ý chính, giá trị); dùng lại ref_table và fix_pairs.
+- Slide không nói tên thầy, sách hay trang.

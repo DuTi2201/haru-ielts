@@ -25,6 +25,7 @@ import lecture_d1 as L1  # noqa: E402
 import lecture_d2 as L2  # noqa: E402
 import lecture_d3 as L3  # noqa: E402
 import lecture_d7 as L7  # noqa: E402
+import lecture_d12 as L12  # noqa: E402
 from assoc import ASSOC  # noqa: E402
 import re  # noqa: E402
 import exercise_polish as EP  # noqa: E402
@@ -481,6 +482,13 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
             sessions.append({"title_vi": f"Ôn tập · từ bài Từ vựng giáo dục 1 ({k // 20 + 1})"[:70], "can_do_vi": "Sau buổi này bạn nhớ lại các từ đã học ở những ngày trước mà không nhìn đáp án.",
                              "use_vi": "Ôn cách quãng: gặp lại từ sau vài ngày giúp nhớ lâu hơn nhiều so với học dồn.", "check": [e["id"] for e in part]})
     add_packs(extra, "Mở rộng không bắt buộc", "Bài mở rộng, làm thêm nếu còn thời gian: ")
+    if n == 12:  # the reading method comes first: lecture, then the learner's own keyword chains; questions come last
+        mine = next(x for x in sessions if x["title_vi"].startswith("Vận dụng"))
+        sessions.remove(mine)
+        mine.update({"title_vi": "Đọc chủ động · tóm tắt từng đoạn", "lecture": L12.SESSION,
+                     "can_do_vi": "Sau buổi này bạn tóm tắt được một đoạn thành chuỗi từ khóa ngắn, bỏ chi tiết thừa và nói được ý chính của đoạn.",
+                     "use_vi": "Hiểu từng đoạn trước rồi mới làm câu hỏi: dò từ khóa khi chưa hiểu bài chỉ là đoán."})
+        sessions.insert(0, mine)
     book_body = "\n".join(f"• {b[0]}, trang {b[1]}: bài {b[2]} ({b[3]} câu, khoảng {b[4]} phút)" for b in d["book"])
     lesson = {
         "slug": f"g1-d{n}-{B.slugify(d.get('slug_title', d['title']))}"[:60].rstrip("-"),
