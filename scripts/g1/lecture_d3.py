@@ -62,7 +62,7 @@ EXCEPTION = [
 
 TRAPS_2 = [
     {"key": "g1", "wrong": "I have been knowing her for years.", "right": "I have known her for years.", "why": "know là động từ trạng thái, không chia tiếp diễn."},
-    {"key": "g2", "wrong": "Have you ever been visiting Hue?", "right": "Have you ever visited Hue?", "why": "Sách: tiếp diễn thường không dùng với ever và never."},
+    {"key": "g2", "wrong": "Have you ever been visiting Hue?", "right": "Have you ever visited Hue?", "why": "Tiếp diễn thường không dùng với ever và never."},
     {"key": "g3", "wrong": "I am living here since 2020.", "right": "I have been living here since 2020.", "why": "since cần thì hoàn thành."},
 ]
 
@@ -150,7 +150,7 @@ SITTING_1 = [
 SITTING_2 = [
     {"kind": "title", "hook": "Khi nào thì nên nói have been V-ing, và khi nào have V3 là đủ?", "lines": [
         {"say": "Khi nào thì nên nói have been V-ing, và khi nào chỉ cần have V3 là đủ?", "show": "hook"},
-        {"say": "Cách nhớ của thầy: đừng học thuộc lý thuyết, hãy nhớ hai câu mẫu rồi suy ra."},
+        {"say": "Cách nhớ: đừng học thuộc lý thuyết, hãy nhớ hai câu mẫu rồi suy ra."},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Hai câu mẫu", "title": "Nhớ hai câu, suy ra hai cách dùng",
      "data": {"cols": ["Cách dùng", "Câu mẫu"], "rows": TWO_SAMPLES,
@@ -162,12 +162,10 @@ SITTING_2 = [
         {"say": "Hai câu này đủ để suy ra hai cách dùng. Một: đã bắt đầu từ trước và còn đang làm. Hai: vừa dừng và còn dấu vết ở hiện tại.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "reach", "lines": [{"say": "Một từ cho phần tiếp theo."}]},
-    {"kind": "scene", "visual": "ref_table", "eyebrow": "Quy tắc của thầy", "title": "Thay bằng hiện tại hoàn thành",
+    {"kind": "scene", "visual": "ref_table", "eyebrow": "Quy tắc nhớ nhanh", "title": "Thay bằng hiện tại hoàn thành",
      "data": {"cols": ["Cụm chỉ độ dài", "Ví dụ"], "rows": REPLACE,
-              "quote": "Các bạn lưu ý cho mình là cứ chỗ nào mà các bạn sử dụng được Hiện tại hoàn thành tiếp diễn ấy, là các bạn có thể thay nó bằng Hiện tại hoàn thành được nhá!",
-              "rule": "Có for hours, all morning, for the last six years: hai thì đều đúng."}, "lines": [
-        {"say": "Có một quy tắc rất tiện, và thầy nói đúng nguyên văn: các bạn lưu ý cho mình là cứ chỗ nào mà các bạn sử dụng được Hiện tại hoàn thành tiếp diễn ấy, là các bạn có thể thay nó bằng Hiện tại hoàn thành được nhá!", "show": "quote"},
-        {"say": "Xem ba câu có khoảng thời gian kéo dài.", "show": "r1"},
+              "rule": "Chỗ nào dùng được hoàn thành tiếp diễn, thì thay bằng hiện tại hoàn thành cũng được."}, "lines": [
+        {"say": "Có một quy tắc nhớ nhanh. Xem ba câu có khoảng thời gian kéo dài.", "show": "r1"},
         {"en": "She has been writing that essay for hours.", "vi": "Cô ấy viết bài luận đó cả mấy tiếng rồi.", "gap": True},
         {"en": "She has written that essay for hours.", "vi": "Cô ấy viết bài luận đó cả mấy tiếng rồi.", "gap": True},
         {"say": "Câu thứ hai, về all morning.", "show": "r2"},
@@ -176,14 +174,14 @@ SITTING_2 = [
         {"say": "Câu thứ ba.", "show": "r3"},
         {"en": "We have been living here for the last six years.", "vi": "Chúng tôi sống ở đây sáu năm nay.", "gap": True},
         {"en": "We have lived here for the last six years.", "vi": "Chúng tôi sống ở đây sáu năm nay.", "gap": True},
-        {"say": "Có khoảng thời gian kéo dài, hai thì đều đúng.", "show": "rule"},
+        {"say": "Chỗ nào dùng được hiện tại hoàn thành tiếp diễn, thì thay bằng hiện tại hoàn thành cũng được.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Một lưu ý", "title": "Khi nào hai thì khác nghĩa",
      "data": {"cols": ["Nhấn vào", "Ví dụ"], "rows": EXCEPTION,
-              "rule": "Nhấn vào quá trình hoặc dấu vết: hai thì khác nghĩa. Sách Destination B2 trang 7 cũng nêu như vậy."}, "lines": [
-        {"say": "Quy tắc của thầy đúng khi câu có khoảng thời gian kéo dài. Nhưng khi người nói nhấn vào dấu vết còn lại ở hiện tại, hai thì khác nghĩa."},
+              "rule": "Nhấn vào quá trình hoặc dấu vết: hai thì khác nghĩa. Ví dụ read và been reading cho thấy rõ."}, "lines": [
+        {"say": "Quy tắc nhớ nhanh đúng khi câu có khoảng thời gian kéo dài. Nhưng khi người nói nhấn vào dấu vết còn lại ở hiện tại, hai thì khác nghĩa."},
         {"en": "I've been crying.", "vi": "Tôi vừa khóc.", "gap": True, "show": "x1"},
-        {"say": "Mắt bạn còn đỏ. Nói I've cried thì mất ý đó. Sách Destination B2 trang 7 có một cặp ví dụ rất rõ."},
+        {"say": "Mắt bạn còn đỏ. Nói I've cried thì mất ý đó. Còn một cặp ví dụ rất rõ nữa."},
         {"en": "I have read that book.", "vi": "Tôi đã đọc xong cuốn đó.", "gap": True, "show": "x2"},
         {"en": "I have been reading that book.", "vi": "Tôi đang đọc dở cuốn đó.", "gap": True, "show": "x3"},
         {"say": "Cuốn sách đã đọc xong, hay vẫn đang đọc dở? Hai thì cho hai ý khác nhau. Khi phân vân, hãy hỏi mình muốn nhấn vào kết quả hay vào quá trình.", "show": "rule"},
@@ -193,7 +191,7 @@ SITTING_2 = [
               "rule": "Động từ trạng thái không chia tiếp diễn. Với ever và never, thường dùng hoàn thành. Since cần thì hoàn thành."}, "lines": [
         {"say": "Ba lỗi hay gặp. Lỗi thứ nhất: động từ trạng thái.", "show": "g1"},
         {"en": "I have known her for years.", "vi": "Tôi biết cô ấy nhiều năm rồi.", "gap": True},
-        {"say": "Lỗi thứ hai: sách ghi rằng tiếp diễn thường không dùng với ever và never.", "show": "g2"},
+        {"say": "Lỗi thứ hai: tiếp diễn thường không dùng với ever và never.", "show": "g2"},
         {"en": "Have you ever visited Hue?", "vi": "Bạn đã từng đến Huế chưa?", "gap": True},
         {"say": "Lỗi thứ ba: since mà thiếu have been.", "show": "g3"},
         {"en": "I have been living here since 2020.", "vi": "Tôi sống ở đây từ năm 2020.", "gap": True},

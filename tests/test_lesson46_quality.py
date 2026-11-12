@@ -90,14 +90,24 @@ def test_gate_every_piece_of_a_picture_is_brought_in_by_a_line(n):
         assert pieces <= shown, (s["title"], pieces - shown)
 
 
-def test_gate_the_teachers_rule_is_verbatim_and_followed_by_the_exception():
+def test_gate_replacement_rule_is_taught_with_its_exception():
     card = next(g for g in DAY3.grammar if g.pattern.startswith("Present perfect continuous · thay bằng"))
-    found = re.findall(r"«([^»]+)»", card.usage_context_vi)
-    assert len(found) == 1
-    said = _lecture(2).script.lower()
-    assert found[0].rstrip("!.").lower() in said
+    assert "thay bằng hiện tại hoàn thành" in card.usage_context_vi
     assert "I've been crying" in card.usage_context_vi and "đã đọc xong" in card.usage_context_vi
-    assert "I've been crying" in _lecture(2).script
+    script = _lecture(2).script
+    assert "thay bằng hiện tại hoàn thành cũng được" in script and "I've been crying" in script
+
+
+BANNED = ("Sách", "Destination", "thầy", "Thầy", "Minh", "Trích", "trang 7")
+
+
+def test_gate_learner_facing_text_names_no_book_and_no_teacher():
+    for g in DAY3.grammar:
+        for field in (g.pattern, g.meaning_vi, g.usage_context_vi, g.note_vi or ""):
+            assert not [b for b in BANNED if b in field], (g.pattern, field[:80])
+    for n in (1, 2):
+        for b in BANNED:
+            assert b not in _lecture(n).script, (n, b)
 
 
 def test_gate_no_transcription_is_typed_from_memory():

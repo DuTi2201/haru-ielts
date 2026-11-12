@@ -201,7 +201,7 @@
   {
    "pattern": "Present perfect continuous · thay bằng hiện tại hoàn thành",
    "meaning_vi": "Chỗ nào dùng được hoàn thành tiếp diễn thì thay được bằng hiện tại hoàn thành",
-   "usage_context_vi": "Quy tắc của thầy: chỗ nào dùng được hiện tại hoàn thành tiếp diễn thì thay bằng hiện tại hoàn thành được. Đúng khi câu có khoảng thời gian kéo dài: `for hours`, `all morning`, `for the last six years`.\nLưu ý: khi người nói nhấn vào quá trình hoặc dấu vết còn lại ở hiện tại, hai thì khác nghĩa. `I've been crying` (mắt còn đỏ) khác `I've cried`. Sách Destination B2 trang 7 cũng nêu: `I have read that book` (đã đọc xong) khác `I have been reading that book` (chưa xong).\nChiều ngược lại không luôn đúng: việc đã xong hẳn hoặc trải nghiệm không rõ thời gian thì không dùng tiếp diễn (sách: thường không dùng với `ever`, `never`).\nTrích: «Các bạn lưu ý cho mình là cứ chỗ nào mà các bạn sử dụng được Hiện tại hoàn thành tiếp diễn ấy, là các bạn có thể thay nó bằng Hiện tại hoàn thành được nhá!»",
+   "usage_context_vi": "Quy tắc nhớ nhanh: chỗ nào dùng được hiện tại hoàn thành tiếp diễn thì thay bằng hiện tại hoàn thành được. Đúng khi câu có khoảng thời gian kéo dài: `for hours`, `all morning`, `for the last six years`.\nLưu ý: khi người nói nhấn vào quá trình hoặc dấu vết còn lại ở hiện tại, hai thì khác nghĩa. `I've been crying` (mắt còn đỏ) khác `I've cried`. Một cặp khác: `I have read that book` (đã đọc xong) khác `I have been reading that book` (chưa xong).\nChiều ngược lại không luôn đúng: việc đã xong hẳn hoặc trải nghiệm không rõ thời gian thì không dùng tiếp diễn (thường không dùng với `ever`, `never`).",
    "contrasts": [
     {
      "pattern": "Present perfect · đã xong, không nói lúc nào",
@@ -209,7 +209,7 @@
     }
    ],
    "example_en": "I have been trying / I have tried to get in touch with Jenny all morning.\nI have read that book. I have been reading that book.",
-   "example_vi": "Cả sáng nay tôi cố liên lạc với Jenny. (hai thì đều đúng)\nTôi đã đọc xong cuốn đó. Tôi đang đọc dở cuốn đó. (sách B2, trang 7: hai thì khác nghĩa)",
+   "example_vi": "Cả sáng nay tôi cố liên lạc với Jenny. (hai thì đều đúng)\nTôi đã đọc xong cuốn đó. Tôi đang đọc dở cuốn đó. (hai thì khác nghĩa)",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-9; cách giảng của khóa học",
    "check": {
@@ -819,7 +819,7 @@
        "show": "hook"
       },
       {
-       "say": "Cách nhớ của thầy: đừng học thuộc lý thuyết, hãy nhớ hai câu mẫu rồi suy ra."
+       "say": "Cách nhớ: đừng học thuộc lý thuyết, hãy nhớ hai câu mẫu rồi suy ra."
       }
      ]
     },
@@ -886,7 +886,7 @@
     {
      "kind": "scene",
      "visual": "ref_table",
-     "eyebrow": "Quy tắc của thầy",
+     "eyebrow": "Quy tắc nhớ nhanh",
      "title": "Thay bằng hiện tại hoàn thành",
      "data": {
       "cols": [
@@ -913,16 +913,11 @@
         "vi": "Thay được: We have lived here for the last six years."
        }
       ],
-      "quote": "Các bạn lưu ý cho mình là cứ chỗ nào mà các bạn sử dụng được Hiện tại hoàn thành tiếp diễn ấy, là các bạn có thể thay nó bằng Hiện tại hoàn thành được nhá!",
-      "rule": "Có for hours, all morning, for the last six years: hai thì đều đúng."
+      "rule": "Chỗ nào dùng được hoàn thành tiếp diễn, thì thay bằng hiện tại hoàn thành cũng được."
      },
      "lines": [
       {
-       "say": "Có một quy tắc rất tiện, và thầy nói đúng nguyên văn: các bạn lưu ý cho mình là cứ chỗ nào mà các bạn sử dụng được Hiện tại hoàn thành tiếp diễn ấy, là các bạn có thể thay nó bằng Hiện tại hoàn thành được nhá!",
-       "show": "quote"
-      },
-      {
-       "say": "Xem ba câu có khoảng thời gian kéo dài.",
+       "say": "Có một quy tắc nhớ nhanh. Xem ba câu có khoảng thời gian kéo dài.",
        "show": "r1"
       },
       {
@@ -964,7 +959,7 @@
        "gap": true
       },
       {
-       "say": "Có khoảng thời gian kéo dài, hai thì đều đúng.",
+       "say": "Chỗ nào dùng được hiện tại hoàn thành tiếp diễn, thì thay bằng hiện tại hoàn thành cũng được.",
        "show": "rule"
       }
      ]
@@ -999,11 +994,11 @@
         "vi": "Đang đọc dở cuốn đó."
        }
       ],
-      "rule": "Nhấn vào quá trình hoặc dấu vết: hai thì khác nghĩa. Sách Destination B2 trang 7 cũng nêu như vậy."
+      "rule": "Nhấn vào quá trình hoặc dấu vết: hai thì khác nghĩa. Ví dụ read và been reading cho thấy rõ."
      },
      "lines": [
       {
-       "say": "Quy tắc của thầy đúng khi câu có khoảng thời gian kéo dài. Nhưng khi người nói nhấn vào dấu vết còn lại ở hiện tại, hai thì khác nghĩa."
+       "say": "Quy tắc nhớ nhanh đúng khi câu có khoảng thời gian kéo dài. Nhưng khi người nói nhấn vào dấu vết còn lại ở hiện tại, hai thì khác nghĩa."
       },
       {
        "en": "I've been crying.",
@@ -1012,7 +1007,7 @@
        "show": "x1"
       },
       {
-       "say": "Mắt bạn còn đỏ. Nói I've cried thì mất ý đó. Sách Destination B2 trang 7 có một cặp ví dụ rất rõ."
+       "say": "Mắt bạn còn đỏ. Nói I've cried thì mất ý đó. Còn một cặp ví dụ rất rõ nữa."
       },
       {
        "en": "I have read that book.",
@@ -1049,7 +1044,7 @@
         "key": "g2",
         "wrong": "Have you ever been visiting Hue?",
         "right": "Have you ever visited Hue?",
-        "why": "Sách: tiếp diễn thường không dùng với ever và never."
+        "why": "Tiếp diễn thường không dùng với ever và never."
        },
        {
         "key": "g3",
@@ -1071,7 +1066,7 @@
        "gap": true
       },
       {
-       "say": "Lỗi thứ hai: sách ghi rằng tiếp diễn thường không dùng với ever và never.",
+       "say": "Lỗi thứ hai: tiếp diễn thường không dùng với ever và never.",
        "show": "g2"
       },
       {

@@ -95,10 +95,39 @@ def test_gate_state_verbs_follow_the_book_not_a_blanket_ban():
     text = card.usage_context_vi
     for group in ("thinking", "existence", "emotions", "the human senses", "appearance", "possession and relationships"):
         assert group in text
-    assert "thường không" in text and "không bao giờ" not in text.split("Sách thêm")[0]
+    assert "thường không" in text
     script = _lecture(2).script
-    assert "thường không dùng" in script
+    assert "thường không chia tiếp diễn" in script
 
 
 def test_gate_no_transcription_is_typed_from_memory():
     assert all(v.pron is None for v in DAY2.vocab)  # none checked against the dictionary yet
+
+
+BANNED = ("Sách", "sách", "Destination", "thầy", "Thầy", "Minh", "Trích", "trang 7", "tr. ")
+
+
+def test_gate_learner_facing_text_names_no_book_and_no_teacher():
+    for g in DAY2.grammar:
+        for field in (g.pattern, g.meaning_vi, g.usage_context_vi, g.note_vi or ""):
+            assert not [b for b in BANNED if b in field.replace("danh sách", "")], (g.pattern, field[:80])
+    for n in (1, 2):
+        for b in BANNED:
+            assert b not in _lecture(n).script.replace("danh sách", ""), (n, b)
+
+
+def test_gate_first_grammar_card_is_the_formula_with_a_table():
+    first = DAY2.grammar[0]
+    assert "công thức" in first.pattern
+    assert first.usage_context_vi.count("pat:") >= 3 and "prep:" in first.usage_context_vi
+
+
+def test_gate_no_wall_of_text_in_any_card():
+    for g in DAY2.grammar:
+        for chunk in g.usage_context_vi.split("\n"):
+            assert len(chunk) < 420, (g.pattern, chunk[:60])
+
+
+def test_gate_no_jargon_axes():
+    blob = " ".join(g.pattern + g.usage_context_vi for g in DAY2.grammar) + _lecture(1).script
+    assert "Trục 1" not in blob and "trục 1" not in blob and "Hai trục" not in blob

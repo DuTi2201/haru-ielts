@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 4,
  "sort_order": 102,
- "summary": "Dùng tiếp diễn khi muốn nói việc đó tạm thời; không để chữ \"now\" quyết định thay mình; phân biệt nghĩa trạng thái và nghĩa hành động của cùng một động từ. Thẻ: đúng ngữ pháp và hàm ý; tạm thời; chữ now và mốc đang diễn ra; xu hướng đang thay đổi; always + V-ing để than phiền; kế hoạch đã lên lịch; sáu nhóm và những động từ đổi nghĩa.",
+ "summary": "Dùng tiếp diễn khi muốn nói việc đó tạm thời; không để chữ \"now\" quyết định thay mình; phân biệt nghĩa trạng thái và nghĩa hành động của cùng một động từ. Thẻ: công thức; khi nào dùng; xu hướng đang thay đổi; always + V-ing để than phiền; kế hoạch đã lên lịch; sáu nhóm; một động từ, hai nghĩa.",
  "vocab": [
   {
    "headword": "temporary",
@@ -121,46 +121,30 @@
  ],
  "grammar": [
   {
-   "pattern": "Hai trục · đúng ngữ pháp và hàm ý",
-   "meaning_vi": "Hai câu cùng đúng ngữ pháp có thể nói hai điều khác nhau",
-   "usage_context_vi": "Trục 1, ngữ pháp: thứ tự từ và dạng từ. `Play I football` sai ở trục này.\nTrục 2, hàm ý: điều người nói muốn người nghe hiểu thêm qua cấu trúc mình chọn. Chọn thì là chọn có chủ đích.",
+   "pattern": "Present continuous · công thức",
+   "meaning_vi": "am / is / are + V-ing: khẳng định, phủ định, câu hỏi, trả lời ngắn và cách thêm -ing",
+   "usage_context_vi": "## am / is / are + V-ing\npat: Khẳng định | I am / he, she, it is / you, we, they are + V-ing | She is working now.\npat: Phủ định | am / is / are + not + V-ing | She isn't working now.\npat: Câu hỏi Yes / No | Am / Is / Are + chủ ngữ + V-ing ? | Is she working now?\npat: Có từ để hỏi | Từ để hỏi + am / is / are + chủ ngữ + V-ing ? | What is she doing?\n!Chỉ am / is / are đổi theo chủ ngữ, V-ing giữ nguyên. Thiếu be là lỗi hay gặp.\n## Trả lời ngắn\nchips: Yes, I am.; Yes, she is.; No, they aren't.\n## Thêm -ing\nprep: + ing | phần lớn động từ | work → working, play → playing | working, playing\nprep: bỏ e + ing | tận cùng là e | make → making, write → writing | making, writing\nprep: gấp đôi phụ âm + ing | một âm tiết, nguyên âm + phụ âm | run → running, sit → sitting, swim → swimming | running, sitting\nprep: ie → ying | tận cùng là ie | lie → lying, die → dying | lying, dying\n## Từ hay đi kèm\nchips: now; right now; at the moment; today; this week; this month; these days",
    "contrasts": [],
-   "example_en": "My sister lives in Thailand.\nMy sister is living in Thailand.",
-   "example_vi": "Chị tôi sống ở Thái Lan. (chỉ nêu sự thật)\nChị tôi đang sống ở Thái Lan. (tạm thời, rồi sẽ khác)",
+   "example_en": "Lan is talking to a customer.\nLan isn't talking to a customer.\nIs Lan talking to a customer?",
+   "example_vi": "Lan đang nói chuyện với khách.\nLan không đang nói chuyện với khách.\nLan đang nói chuyện với khách à?",
    "importance": "must",
-   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-7, 10; cách giảng của khóa học"
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-7, 10; cách giảng của khóa học",
+   "step_vi": "Cấu tạo",
+   "note_vi": "Lỗi người Việt hay mắc: Quên be: ~~She living in Hue~~ → She is living in Hue. Thêm -ing sai chính tả: ~~runing~~, ~~writeing~~ → running, writing.",
+   "exam_tip_vi": "Phủ định thường rút gọn: isn't, aren't. Với I chỉ có I'm not, không có ~~I amn't~~."
   },
   {
-   "pattern": "Present continuous · tạm thời",
-   "meaning_vi": "am / is / are + V-ing: đang diễn ra và sẽ kết thúc hoặc thay đổi",
-   "usage_context_vi": "Mọi cách dùng của tiếp diễn có chung một ý: việc đó tạm thời, không kéo dài mãi.\nĐang xem phim, đang ở khách sạn, đang ngủ tạm trên ghế sofa: tất cả sẽ hết.\nTrích: «Cái bọn tiếp diễn này luôn luôn phản ánh tính tạm thời của hành động, tức là hành động đó không xảy ra mãi mãi.»",
+   "pattern": "Present continuous · khi nào dùng",
+   "meaning_vi": "Việc đang diễn ra hoặc tạm thời, rồi sẽ kết thúc hay thay đổi",
+   "usage_context_vi": "!Tiếp diễn luôn nói một điều: việc này tạm thời. Nó đang diễn ra và sẽ kết thúc hoặc thay đổi, không kéo dài mãi.\n## Hiện tại đơn hay tiếp diễn?\npat: Hiện tại đơn | việc ổn định, lâu dài | My sister lives in Thailand.\npat: Tiếp diễn | việc tạm thời, rồi sẽ khác | My sister is living in Thailand.\n## Ba kiểu tạm thời\nprep: Đang xảy ra | right now, at the moment | Lan is talking to a customer right now.\nprep: Cả một giai đoạn | this week, this month, these days | I'm not drinking coffee this month.\nprep: Ở tạm, làm tạm | while, for now | Nam is sleeping on the sofa while his cousins are visiting.\n## Chữ now không quyết định thì\nask: Where does your sister live now?\ntl: Ổn định | Hiện tại đơn | She lives in Thailand.\ntl: Tạm thời | Tiếp diễn | She is living in Thailand.\n!Hỏi mình: muốn nói việc này ổn định hay tạm thời?",
    "contrasts": [
     {
      "pattern": "Present simple · cách dùng",
-     "diff_vi": "Hiện tại đơn chỉ nêu sự thật; tiếp diễn nói thêm rằng việc đó tạm thời."
+     "diff_vi": "Hiện tại đơn chỉ nêu sự thật; tiếp diễn thêm ý tạm thời."
     }
    ],
-   "example_en": "Nam is sleeping on the sofa while his cousins are visiting.\nI'm not drinking coffee this month.",
-   "example_vi": "Nam đang ngủ trên ghế sofa trong lúc các anh chị họ đến chơi.\nTháng này tôi không uống cà phê.",
-   "importance": "must",
-   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-7, 10; cách giảng của khóa học",
-   "check": {
-    "stem": "Chị bạn sang Thái Lan học trao đổi sáu tháng.",
-    "options": [
-     "My sister is living in Thailand.",
-     "My sister lives in Thailand."
-    ],
-    "why": "Bạn muốn người nghe hiểu việc đó tạm thời → tiếp diễn. Câu hiện tại đơn không sai ngữ pháp nhưng không nói được ý \"tạm thời\"."
-   },
-   "note_vi": "Lỗi người Việt hay mắc: Quên `be`: ~~She living in Hue~~ → She is living in Hue."
-  },
-  {
-   "pattern": "Present continuous · chữ now và mốc đang diễn ra",
-   "meaning_vi": "\"now\" không quyết định thì; hành động đang diễn ra tại một mốc thì dùng tiếp diễn",
-   "usage_context_vi": "`Where does your sister live now?` có thể đáp `She lives in Thailand` (đã ổn định ở đó) hoặc `She is living in Thailand` (tạm thời). `now` ở đây chỉ so với trước kia.\nNhưng khi nói một hành động đang diễn ra tại đúng một mốc (`right now`, `at the moment`, `at 3 o'clock`), dùng tiếp diễn.",
-   "contrasts": [],
-   "example_en": "Lan is talking to a customer right now.\nWhere does your sister live now?",
-   "example_vi": "Lan đang nói chuyện với khách ngay lúc này.\nBây giờ chị bạn sống ở đâu?",
+   "example_en": "Nam is sleeping on the sofa while his cousins are visiting.\nI'm not drinking coffee this month.\nLan is talking to a customer right now.",
+   "example_vi": "Nam đang ngủ trên ghế sofa trong lúc các anh chị họ đến chơi.\nTháng này tôi không uống cà phê.\nLan đang nói chuyện với khách ngay lúc này.",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-7, 10; cách giảng của khóa học",
    "check": {
@@ -171,12 +155,13 @@
     ],
     "why": "Bạn muốn nêu một sự thật ổn định → hiện tại đơn. `now` chỉ so với trước kia. Câu tiếp diễn sẽ gợi ý rằng chị ấy chỉ ở tạm."
    },
-   "note_vi": "Lỗi người Việt hay mắc: Thấy `now` là chia tiếp diễn ngay mà không hỏi mình muốn nói gì."
+   "step_vi": "Khi nào dùng",
+   "note_vi": "Lỗi người Việt hay mắc: Thấy now là chia tiếp diễn ngay mà không hỏi mình muốn nói gì."
   },
   {
    "pattern": "Present continuous · xu hướng đang thay đổi",
    "meaning_vi": "Việc đang đổi dần: is becoming, is rising, is getting",
-   "usage_context_vi": "Thay đổi cũng là tạm thời: nó đang trên đường đi tới một trạng thái khác. Thường có `increasingly`, `more and more`.\nDùng hiện tại đơn nếu bạn chỉ nêu một nhận định đứng yên.",
+   "usage_context_vi": "!Thay đổi cũng là tạm thời: sự việc đang trên đường tới một trạng thái khác.\n## Động từ hay gặp\nprep: Tăng, giảm | rise, grow, fall, increase | The price of rice is rising.\nprep: Trở nên | become, get | Online courses are becoming more popular.\n## Từ báo hiệu\nchips: more and more; increasingly; every year; these days\n!Chỉ nêu một nhận định đứng yên thì dùng hiện tại đơn: Online courses are popular.",
    "contrasts": [],
    "example_en": "Online courses are becoming more popular in Vietnam.\nThe price of rice is rising.",
    "example_vi": "Các khóa học trực tuyến đang ngày càng phổ biến ở Việt Nam.\nGiá gạo đang tăng.",
@@ -191,12 +176,13 @@
     ],
     "why": "Xu hướng đang thay đổi → tiếp diễn: `is becoming`."
    },
+   "step_vi": "Khi nào dùng",
    "exam_tip_vi": "Đây là thì chính để nói về xu hướng ở Speaking Part 3 và khi một biểu đồ Task 1 kéo tới hiện tại."
   },
   {
    "pattern": "Present continuous · always + V-ing để than phiền",
    "meaning_vi": "be + always + V-ing: thói quen làm người nói bực",
-   "usage_context_vi": "Tiếp diễn đi với `always`, `constantly` khi người nói có cảm xúc về việc lặp lại đó: bực mình, ngạc nhiên, hoặc nói thân mật. Không có cảm xúc, chỉ nêu thói quen thì dùng hiện tại đơn.\nTiếp diễn thường không đi với `usually`, `often`, vì tiếp diễn nói về tính tạm thời. Có `on Saturdays`, `every weekend` thì thường là việc lặp lại: dùng hiện tại đơn. Chỉ khi nói một giai đoạn tạm thời (tháng này tuần nào cũng...) mới dùng tiếp diễn.",
+   "usage_context_vi": "## Than phiền hoặc ngạc nhiên\npat: Công thức | be + always / constantly + V-ing | You're always leaving the lights on.\n!Người nói có cảm xúc: bực mình, ngạc nhiên, hoặc nói thân mật. Chỉ nêu thói quen, không cảm xúc: hiện tại đơn.\n## Thói quen bình thường\npat: Hiện tại đơn | usually, often, every weekend | He usually has lunch at twelve.\npat: Tiếp diễn | chỉ khi là một giai đoạn tạm thời | This month I'm going to the gym every morning.",
    "contrasts": [],
    "example_en": "My sister is always playing her music so loudly!\nYou're always leaving the lights on.",
    "example_vi": "Chị tôi lúc nào cũng bật nhạc to ơi là to!\nCậu lúc nào cũng để đèn sáng.",
@@ -212,12 +198,13 @@
     ],
     "why": "`usually` + việc lặp lại → hiện tại đơn. Tiếp diễn không đi với `usually`."
    },
+   "step_vi": "Khi nào dùng",
    "note_vi": "Lỗi người Việt hay mắc: ~~He is usually having lunch at twelve~~ → He usually has lunch at twelve."
   },
   {
    "pattern": "Present continuous · kế hoạch đã lên lịch",
    "meaning_vi": "Việc đã hẹn, đã sắp xếp cho tương lai gần",
-   "usage_context_vi": "Khi việc đã được hẹn hoặc sắp xếp xong, dùng tiếp diễn kèm thời điểm.",
+   "usage_context_vi": "## Việc đã hẹn, đã sắp xếp\npat: Công thức | am / is / are + V-ing + thời điểm sắp tới | I'm seeing my tutor tomorrow morning.\nchips: tomorrow; on Friday; next week; tonight; this weekend\n!Cần có thời điểm hoặc việc đã được sắp xếp. Chưa chắc chắn thì không dùng thì này.",
    "contrasts": [],
    "example_en": "I'm seeing my tutor tomorrow morning.\nWe are flying to Da Nang on Friday.",
    "example_vi": "Sáng mai tôi gặp giáo viên hướng dẫn.\nThứ Sáu chúng tôi bay vào Đà Nẵng.",
@@ -231,15 +218,16 @@
      "I have seen the dentist at four tomorrow."
     ],
     "why": "Việc đã hẹn sẵn cho tương lai gần → tiếp diễn. `see` ở đây nghĩa là \"gặp\", là hành động."
-   }
+   },
+   "step_vi": "Khi nào dùng"
   },
   {
-   "pattern": "State verbs · sáu nhóm và những động từ đổi nghĩa",
-   "meaning_vi": "Động từ chỉ trạng thái thường không chia tiếp diễn; một số động từ có thêm nghĩa hành động thì chia được",
-   "usage_context_vi": "Sách Destination B2 (trang 7) viết: động từ chỉ trạng thái thường không dùng ở thì tiếp diễn, vì chúng không mô tả hành động. Chữ \"thường\" quan trọng: đi theo nghĩa của câu, không theo danh sách.\n| Nhóm | Động từ trong sách |\n| thinking (suy nghĩ) | believe, imagine, know, mean, think, understand |\n| existence (tồn tại) | be, exist |\n| emotions (cảm xúc) | hate, like, love, need, prefer, satisfy, want |\n| the human senses (giác quan) | hear, see, smell, sound, taste |\n| appearance (vẻ ngoài) | appear, look, resemble, seem |\n| possession and relationships (sở hữu, quan hệ) | belong to, consist of, have, include, involve, own |\nSách thêm: be, have, imagine, look, see, smell, taste, think là trạng thái ở nghĩa này nhưng là hành động ở nghĩa khác.\n| Động từ | Nghĩa trạng thái (hiện tại đơn) | Nghĩa hành động (tiếp diễn) |\n| have | Do you have your ticket with you? (có) | Are you having lunch at the moment? (đang ăn) |\n| think | I think it is good. (cho rằng) | I'm thinking of buying it. (đang cân nhắc) |\n| look | He looks tired. (trông có vẻ) | He's looking for his keys. (đang tìm) |\n| see | I see what you mean. (hiểu) | I'm seeing the dentist at four. (hẹn gặp) |\n| be | He is rude. (tính vốn thế) | He's being rude. (đang cư xử thế) |",
+   "pattern": "State verbs · sáu nhóm",
+   "meaning_vi": "Động từ chỉ trạng thái thường không chia tiếp diễn",
+   "usage_context_vi": "!Động từ trạng thái nói về điều đang là, không phải một hành động. Vì vậy thường không chia tiếp diễn. Chữ quan trọng là thường: đi theo nghĩa của câu, không theo danh sách.\n| Nhóm | Động từ |\n| thinking (suy nghĩ) | believe, imagine, know, mean, think, understand |\n| existence (tồn tại) | be, exist |\n| emotions (cảm xúc) | hate, like, love, need, prefer, satisfy, want |\n| the human senses (giác quan) | hear, see, smell, sound, taste |\n| appearance (vẻ ngoài) | appear, look, resemble, seem |\n| possession and relationships (sở hữu, quan hệ) | belong to, consist of, have, include, involve, own |",
    "contrasts": [],
-   "example_en": "I think this plan is good. I'm thinking of changing my job.\nWait! I want to finish this page.",
-   "example_vi": "Tôi cho rằng kế hoạch này tốt. Tôi đang cân nhắc đổi việc.\nKhoan đã! Tôi muốn đọc xong trang này.",
+   "example_en": "Wait! I want to finish this page.\nHe looks tired today.",
+   "example_vi": "Khoan đã! Tôi muốn đọc xong trang này.\nHôm nay trông anh ấy mệt.",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-7, 10; cách giảng của khóa học",
    "check": {
@@ -252,7 +240,29 @@
     ],
     "why": "`want` là động từ trạng thái: không chia tiếp diễn dù việc đang xảy ra lúc nói."
    },
-   "note_vi": "Lỗi người Việt hay mắc: ~~I am knowing~~, ~~I am wanting~~, ~~From the chart we are seeing that~~ → I know, I want, we can see that. Sách nói \"thường không\", không phải \"không bao giờ\": trong đời sống người ta vẫn nói I'm feeling happy, nhưng trong bài thi chuẩn giữ hiện tại đơn cho nghĩa trạng thái."
+   "step_vi": "Khi nào dùng",
+   "note_vi": "Lỗi người Việt hay mắc: ~~I am knowing~~, ~~I am wanting~~, ~~From the chart we are seeing that~~ → I know, I want, we can see that. Đời thường vẫn nghe I'm feeling happy, nhưng trong bài thi hãy giữ hiện tại đơn cho nghĩa trạng thái."
+  },
+  {
+   "pattern": "State verbs · một động từ, hai nghĩa",
+   "meaning_vi": "Tám động từ có nghĩa trạng thái và nghĩa hành động",
+   "usage_context_vi": "!Nghĩa trạng thái: hiện tại đơn. Nghĩa hành động: chia tiếp diễn được. Tám động từ như vậy: be, have, imagine, look, see, smell, taste, think.\n| Động từ | Nghĩa trạng thái (hiện tại đơn) | Nghĩa hành động (tiếp diễn) |\n| have | Do you have your ticket with you? (có) | Are you having lunch at the moment? (đang ăn) |\n| think | I think it is good. (cho rằng) | I'm thinking of buying it. (đang cân nhắc) |\n| look | He looks tired. (trông có vẻ) | He's looking for his keys. (đang tìm) |\n| see | I see what you mean. (hiểu) | I'm seeing the dentist at four. (hẹn gặp) |\n| be | He is rude. (tính vốn thế) | He's being rude. (đang cư xử thế) |",
+   "contrasts": [],
+   "example_en": "I think this plan is good. I'm thinking of changing my job.\nHe is rude. He's being rude today.",
+   "example_vi": "Tôi cho rằng kế hoạch này tốt. Tôi đang cân nhắc đổi việc.\nAnh ấy vốn thô lỗ. Hôm nay anh ấy đang cư xử thô lỗ.",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-7, 10; cách giảng của khóa học",
+   "check": {
+    "stem": "Bình thường Khoa lịch sự, nhưng hôm nay cậu ấy cư xử rất thô lỗ.",
+    "options": [
+     "Khoa is being very rude today.",
+     "Khoa is very rude.",
+     "Khoa has very rude today."
+    ],
+    "why": "`is being` + tính từ: đang cư xử như vậy lúc này, không phải tính vốn thế."
+   },
+   "step_vi": "Khi nào dùng",
+   "note_vi": "Lỗi người Việt hay mắc: Chia tiếp diễn theo danh sách mà không nhìn nghĩa: ~~Are you having a ticket?~~ → Do you have a ticket?"
   }
  ],
  "notes": [
@@ -275,13 +285,13 @@
  "bank": "g1",
  "coach": {
   "focus_vi": [
-   "đúng ngữ pháp và hàm ý: Hai câu cùng đúng ngữ pháp có thể nói hai điều khác nhau",
-   "tạm thời: am / is / are + V-ing: đang diễn ra và sẽ kết thúc hoặc thay đổi",
-   "chữ now và mốc đang diễn ra: \"now\" không quyết định thì; hành động đang diễn ra tại một mốc thì dùng tiếp diễn"
+   "công thức: am / is / are + V-ing: khẳng định, phủ định, câu hỏi, trả lời ngắn và cách thêm -ing",
+   "khi nào dùng: Việc đang diễn ra hoặc tạm thời, rồi sẽ kết thúc hay thay đổi",
+   "xu hướng đang thay đổi: Việc đang đổi dần: is becoming, is rising, is getting"
   ],
   "watch_out_vi": [
-   "Quên `be`: ~~She living in Hue~~ → She is living in Hue.",
-   "Thấy `now` là chia tiếp diễn ngay mà không hỏi mình muốn nói gì."
+   "Quên be: ~~She living in Hue~~ → She is living in Hue. Thêm -ing sai chính tả: ~~runing~~, ~~writeing~~ → running, writing.",
+   "Thấy now là chia tiếp diễn ngay mà không hỏi mình muốn nói gì."
   ]
  },
  "exercise_ids": [
@@ -333,22 +343,21 @@
  ],
  "sessions": [
   {
-   "title_vi": "Buổi 1 · hai trục, tính tạm thời, bẫy chữ now, xu hướng",
-   "can_do_vi": "Sau buổi này bạn nắm được: hai câu cùng đúng ngữ pháp có thể nói hai điều khác nhau; am / is / are + v-ing: đang diễn ra và sẽ kết thúc hoặc thay đổi; \"now\" không quyết định thì; hành động đang diễn ra tại một mốc thì dùng tiếp diễn.",
+   "title_vi": "Buổi 1 · công thức, tính tạm thời, chữ now, xu hướng",
+   "can_do_vi": "Sau buổi này bạn nắm được: am / is / are + v-ing: khẳng định, phủ định, câu hỏi, trả lời ngắn và cách thêm -ing; việc đang diễn ra hoặc tạm thời, rồi sẽ kết thúc hay thay đổi; việc đang đổi dần: is becoming, is rising, is getting.",
    "use_vi": "Writing Task 1 và Speaking Part 3 nói về xu hướng (`is rising`, `is becoming`). Lỗi `I am knowing`, `we are seeing that` làm mất điểm ngữ pháp.",
    "vocab": [
     "temporary",
     "trend"
    ],
    "grammar": [
-    "Hai trục · đúng ngữ pháp và hàm ý",
-    "Present continuous · tạm thời",
-    "Present continuous · chữ now và mốc đang diễn ra",
+    "Present continuous · công thức",
+    "Present continuous · khi nào dùng",
     "Present continuous · xu hướng đang thay đổi"
    ],
    "check": [
-    "G1D2I2",
     "G1D2I1",
+    "G1D2I2",
     "G1D2I3",
     "G1D2I4"
    ],
@@ -369,42 +378,32 @@
     {
      "kind": "scene",
      "visual": "ref_table",
-     "eyebrow": "Hai trục của một câu",
-     "title": "Đúng ngữ pháp và hàm ý",
+     "eyebrow": "Hai câu, hai ý",
+     "title": "Cùng đúng ngữ pháp, khác ý",
      "data": {
       "cols": [
-       "Trục",
+       "Thì",
        "Ví dụ"
       ],
       "rows": [
        {
-        "key": "x1",
-        "head": "Trục 1 · ngữ pháp",
-        "en": "Play I football.",
-        "vi": "Sai thứ tự từ: lỗi ở trục này."
-       },
-       {
         "key": "x2",
-        "head": "Trục 2 · hàm ý",
+        "head": "Hiện tại đơn",
         "en": "My sister lives in Thailand.",
-        "vi": "Nêu một sự thật."
+        "vi": "Nêu một sự thật: chị ấy sống ở đó."
        },
        {
         "key": "x3",
-        "head": "Trục 2 · hàm ý",
+        "head": "Tiếp diễn",
         "en": "My sister is living in Thailand.",
-        "vi": "Cùng đúng ngữ pháp, nhưng nói thêm: chỉ tạm thời."
+        "vi": "Thêm một ý: chỉ tạm thời, rồi sẽ khác."
        }
       ],
-      "rule": "Trục 1: đúng hay sai ngữ pháp. Trục 2: người nói muốn người nghe hiểu thêm gì. Chọn thì là chọn theo trục 2."
+      "rule": "Hiện tại đơn nêu sự thật. Tiếp diễn thêm một ý: việc này tạm thời."
      },
      "lines": [
       {
-       "say": "Một câu có hai trục để xét. Trục thứ nhất là ngữ pháp: đúng hay sai. Play I football sai ở trục này, vì sai thứ tự từ.",
-       "show": "x1"
-      },
-      {
-       "say": "Trục thứ hai là hàm ý: điều người nói muốn người nghe hiểu thêm, ngoài nghĩa đen của câu. Hai câu sau đều đúng ngữ pháp.",
+       "say": "Câu đầu nêu một sự thật: chị bạn sống ở Thái Lan.",
        "show": "x2"
       },
       {
@@ -413,16 +412,16 @@
        "gap": true
       },
       {
-       "en": "My sister is living in Thailand.",
-       "vi": "Chị tôi đang sống ở Thái Lan.",
-       "gap": true,
+       "say": "Câu sau thêm một ý: chị ấy chỉ ở tạm, rồi sẽ khác.",
        "show": "x3"
       },
       {
-       "say": "Câu đầu nêu một sự thật. Câu sau nói thêm một điều: chị ấy chỉ ở tạm, rồi sẽ khác. Cùng đúng ngữ pháp, khác hàm ý."
+       "en": "My sister is living in Thailand.",
+       "vi": "Chị tôi đang sống ở Thái Lan.",
+       "gap": true
       },
       {
-       "say": "Vậy chọn thì không phải chọn cho đúng, mà chọn điều bạn muốn người nghe hiểu thêm.",
+       "say": "Cả hai đều đúng ngữ pháp. Chọn thì là chọn điều bạn muốn người nghe hiểu thêm.",
        "show": "rule"
       }
      ]
@@ -439,7 +438,7 @@
     {
      "kind": "scene",
      "visual": "sentence_forms",
-     "eyebrow": "Công thức · Destination B2 trang 6",
+     "eyebrow": "Công thức",
      "title": "Ba dạng câu của hiện tại tiếp diễn",
      "data": {
       "rows": [
@@ -599,8 +598,7 @@
         "vi": "Tháng này tôi không uống cà phê."
        }
       ],
-      "quote": "Cái bọn tiếp diễn này luôn luôn phản ánh tính tạm thời của hành động, tức là hành động đó không xảy ra mãi mãi.",
-      "rule": "Đang xem phim, đang ở khách sạn, đang bỏ cà phê: tất cả rồi sẽ hết."
+      "rule": "Tiếp diễn luôn gắn với tính tạm thời: việc đang diễn ra, rồi sẽ dừng hoặc đổi."
      },
      "lines": [
       {
@@ -631,11 +629,7 @@
        "show": "t3"
       },
       {
-       "say": "Có một câu đáng nhớ: cái bọn tiếp diễn này luôn luôn phản ánh tính tạm thời của hành động, tức là hành động đó không xảy ra mãi mãi.",
-       "show": "quote"
-      },
-      {
-       "say": "Đang xem phim, đang ở khách sạn, đang bỏ cà phê: tất cả rồi sẽ hết.",
+       "say": "Đang xem phim, đang ở khách sạn, đang bỏ cà phê: tất cả rồi sẽ hết. Vì vậy tiếp diễn luôn gắn với tính tạm thời.",
        "show": "rule"
       }
      ]
@@ -816,7 +810,7 @@
   },
   {
    "title_vi": "Buổi 2 · than phiền, kế hoạch, động từ trạng thái",
-   "can_do_vi": "Sau buổi này bạn nắm được: việc đang đổi dần: is becoming, is rising, is getting; be + always + v-ing: thói quen làm người nói bực.",
+   "can_do_vi": "Sau buổi này bạn nắm được: be + always + v-ing: thói quen làm người nói bực; việc đã hẹn, đã sắp xếp cho tương lai gần.",
    "use_vi": "Writing Task 1 và Speaking Part 3 nói về xu hướng (`is rising`, `is becoming`). Lỗi `I am knowing`, `we are seeing that` làm mất điểm ngữ pháp.",
    "vocab": [
     "annoying"
@@ -824,15 +818,16 @@
    "grammar": [
     "Present continuous · always + V-ing để than phiền",
     "Present continuous · kế hoạch đã lên lịch",
-    "State verbs · sáu nhóm và những động từ đổi nghĩa"
+    "State verbs · sáu nhóm",
+    "State verbs · một động từ, hai nghĩa"
    ],
    "check": [
     "G1D2I5",
     "G1D2Q1",
     "G1D2I6",
+    "G1D2Q2",
     "G1D2I7",
-    "G1D2I8",
-    "G1D2Q2"
+    "G1D2I8"
    ],
    "lecture": [
     {
@@ -974,12 +969,12 @@
     {
      "kind": "scene",
      "visual": "ref_table",
-     "eyebrow": "Destination B2 · trang 7",
-     "title": "Sáu nhóm động từ trạng thái",
+     "eyebrow": "Sáu nhóm",
+     "title": "Động từ trạng thái",
      "data": {
       "cols": [
        "Nhóm",
-       "Động từ trong sách"
+       "Động từ"
       ],
       "rows": [
        {
@@ -1019,12 +1014,11 @@
         "vi": "This book belongs to me."
        }
       ],
-      "quote": "Sách nó viết rất khéo: are not normally used in continuous tenses, tức là thông thường không dùng, chứ trong giao tiếp đời sống không phải là cấm tuyệt đối một trăm phần trăm.",
-      "rule": "Sách viết thường không dùng, không phải không bao giờ. Nhìn vào nghĩa của câu."
+      "rule": "Thường không chia tiếp diễn, không phải không bao giờ. Nhìn vào nghĩa của câu."
      },
      "lines": [
       {
-       "say": "Sách Destination B2 trang 7 viết: động từ trạng thái thường không dùng ở thì tiếp diễn, vì chúng không mô tả hành động. Sách chia thành sáu nhóm.",
+       "say": "Động từ trạng thái nói về điều đang là, không phải một hành động, nên thường không chia tiếp diễn. Có sáu nhóm.",
        "show": "title"
       },
       {
@@ -1067,11 +1061,7 @@
        "show": "s6"
       },
       {
-       "say": "Có một chi tiết quan trọng: sách viết thường không dùng, chứ không viết không bao giờ. Thầy nhấn mạnh đúng chỗ này.",
-       "show": "quote"
-      },
-      {
-       "say": "Vậy đừng học thuộc danh sách rồi cấm tuyệt đối. Hãy nhìn vào nghĩa của câu.",
+       "say": "Chữ quan trọng là thường, không phải không bao giờ. Đừng học thuộc danh sách rồi cấm tuyệt đối: hãy nhìn vào nghĩa của câu.",
        "show": "rule"
       }
      ]
@@ -1140,7 +1130,7 @@
      },
      "lines": [
       {
-       "say": "Một số động từ có cả nghĩa trạng thái lẫn nghĩa hành động. Sách nêu be, have, imagine, look, see, smell, taste, think. Bốn cặp tiêu biểu.",
+       "say": "Một số động từ có cả nghĩa trạng thái lẫn nghĩa hành động. Có tám động từ như vậy: be, have, imagine, look, see, smell, taste, think. Đây là các cặp tiêu biểu.",
        "show": "title"
       },
       {

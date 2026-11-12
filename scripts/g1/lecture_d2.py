@@ -13,9 +13,8 @@ entry has no transcription (PRON stays empty until the entries are read).
 PRON: dict[str, str] = {}
 
 TWO_AXES = [
-    {"key": "x1", "head": "Trục 1 · ngữ pháp", "en": "Play I football.", "vi": "Sai thứ tự từ: lỗi ở trục này."},
-    {"key": "x2", "head": "Trục 2 · hàm ý", "en": "My sister lives in Thailand.", "vi": "Nêu một sự thật."},
-    {"key": "x3", "head": "Trục 2 · hàm ý", "en": "My sister is living in Thailand.", "vi": "Cùng đúng ngữ pháp, nhưng nói thêm: chỉ tạm thời."},
+    {"key": "x2", "head": "Hiện tại đơn", "en": "My sister lives in Thailand.", "vi": "Nêu một sự thật: chị ấy sống ở đó."},
+    {"key": "x3", "head": "Tiếp diễn", "en": "My sister is living in Thailand.", "vi": "Thêm một ý: chỉ tạm thời, rồi sẽ khác."},
 ]
 
 TEMPORARY = [
@@ -80,18 +79,17 @@ SITTING_1 = [
         {"say": "Chị bạn sống ở Thái Lan. Hai cách nói đều đúng ngữ pháp, vậy vì sao người nghe lại hiểu hai chuyện khác nhau?", "show": "hook"},
         {"say": "Buổi này mình học hiện tại tiếp diễn theo đúng một ý: tính tạm thời. Hiểu ý đó, bạn sẽ không còn chọn thì theo chữ now."},
     ]},
-    {"kind": "scene", "visual": "ref_table", "eyebrow": "Hai trục của một câu", "title": "Đúng ngữ pháp và hàm ý",
-     "data": {"cols": ["Trục", "Ví dụ"], "rows": TWO_AXES,
-              "rule": "Trục 1: đúng hay sai ngữ pháp. Trục 2: người nói muốn người nghe hiểu thêm gì. Chọn thì là chọn theo trục 2."}, "lines": [
-        {"say": "Một câu có hai trục để xét. Trục thứ nhất là ngữ pháp: đúng hay sai. Play I football sai ở trục này, vì sai thứ tự từ.", "show": "x1"},
-        {"say": "Trục thứ hai là hàm ý: điều người nói muốn người nghe hiểu thêm, ngoài nghĩa đen của câu. Hai câu sau đều đúng ngữ pháp.", "show": "x2"},
+    {"kind": "scene", "visual": "ref_table", "eyebrow": "Hai câu, hai ý", "title": "Cùng đúng ngữ pháp, khác ý",
+     "data": {"cols": ["Thì", "Ví dụ"], "rows": TWO_AXES,
+              "rule": "Hiện tại đơn nêu sự thật. Tiếp diễn thêm một ý: việc này tạm thời."}, "lines": [
+        {"say": "Câu đầu nêu một sự thật: chị bạn sống ở Thái Lan.", "show": "x2"},
         {"en": "My sister lives in Thailand.", "vi": "Chị tôi sống ở Thái Lan.", "gap": True},
-        {"en": "My sister is living in Thailand.", "vi": "Chị tôi đang sống ở Thái Lan.", "gap": True, "show": "x3"},
-        {"say": "Câu đầu nêu một sự thật. Câu sau nói thêm một điều: chị ấy chỉ ở tạm, rồi sẽ khác. Cùng đúng ngữ pháp, khác hàm ý."},
-        {"say": "Vậy chọn thì không phải chọn cho đúng, mà chọn điều bạn muốn người nghe hiểu thêm.", "show": "rule"},
+        {"say": "Câu sau thêm một ý: chị ấy chỉ ở tạm, rồi sẽ khác.", "show": "x3"},
+        {"en": "My sister is living in Thailand.", "vi": "Chị tôi đang sống ở Thái Lan.", "gap": True},
+        {"say": "Cả hai đều đúng ngữ pháp. Chọn thì là chọn điều bạn muốn người nghe hiểu thêm.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "temporary", "lines": [{"say": "Từ chìa khóa của buổi này."}]},
-    {"kind": "scene", "visual": "sentence_forms", "eyebrow": "Công thức · Destination B2 trang 6", "title": "Ba dạng câu của hiện tại tiếp diễn",
+    {"kind": "scene", "visual": "sentence_forms", "eyebrow": "Công thức", "title": "Ba dạng câu của hiện tại tiếp diễn",
      "data": {"rows": [
                   {"key": "aff", "label": "Khẳng định", "parts": ["Lan", "is talking", "to a customer."], "hi": [1], "vi": "Lan đang nói chuyện với khách."},
                   {"key": "neg", "label": "Phủ định", "parts": ["Lan", "isn't talking", "to a customer."], "hi": [1], "vi": "Lan không đang nói chuyện với khách."},
@@ -113,16 +111,14 @@ SITTING_1 = [
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Một ý duy nhất", "title": "Mọi cách dùng đều là tạm thời",
      "data": {"cols": ["Cách dùng", "Ví dụ"], "rows": TEMPORARY,
-              "quote": "Cái bọn tiếp diễn này luôn luôn phản ánh tính tạm thời của hành động, tức là hành động đó không xảy ra mãi mãi.",
-              "rule": "Đang xem phim, đang ở khách sạn, đang bỏ cà phê: tất cả rồi sẽ hết."}, "lines": [
+              "rule": "Tiếp diễn luôn gắn với tính tạm thời: việc đang diễn ra, rồi sẽ dừng hoặc đổi."}, "lines": [
         {"say": "Các cách dùng của hiện tại tiếp diễn nhìn thì nhiều, nhưng chung một ý. Đó là tính tạm thời. Việc đang diễn ra thì rồi sẽ kết thúc.", "show": "t1"},
         {"en": "Lan is talking to a customer.", "vi": "Lan đang nói chuyện với khách.", "gap": True},
         {"say": "Tình huống tạm thời: tuần này tôi ở nhà dì, tuần sau tôi về nhà."},
         {"en": "I'm staying at my aunt's this week.", "vi": "Tuần này tôi ở nhà dì.", "gap": True, "show": "t2"},
         {"say": "Cả một thói quen cũng có thể tạm thời: chỉ trong tháng này."},
         {"en": "I'm not drinking coffee this month.", "vi": "Tháng này tôi không uống cà phê.", "gap": True, "show": "t3"},
-        {"say": "Có một câu đáng nhớ: cái bọn tiếp diễn này luôn luôn phản ánh tính tạm thời của hành động, tức là hành động đó không xảy ra mãi mãi.", "show": "quote"},
-        {"say": "Đang xem phim, đang ở khách sạn, đang bỏ cà phê: tất cả rồi sẽ hết.", "show": "rule"},
+        {"say": "Đang xem phim, đang ở khách sạn, đang bỏ cà phê: tất cả rồi sẽ hết. Vì vậy tiếp diễn luôn gắn với tính tạm thời.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Bẫy chữ now", "title": "Thấy now là chia tiếp diễn?",
      "data": {"cols": ["Tình huống", "Ví dụ"], "rows": NOW_TRAP,
@@ -181,11 +177,10 @@ SITTING_2 = [
         {"say": "Buổi về thì tương lai sẽ nói kỹ hơn. Hôm nay chỉ cần nhận ra: đã hẹn rồi thì dùng tiếp diễn.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "annoying", "lines": [{"say": "Một từ cho cảm xúc của phần trên."}]},
-    {"kind": "scene", "visual": "ref_table", "eyebrow": "Destination B2 · trang 7", "title": "Sáu nhóm động từ trạng thái",
-     "data": {"cols": ["Nhóm", "Động từ trong sách"], "rows": SIX_GROUPS,
-              "quote": "Sách nó viết rất khéo: are not normally used in continuous tenses, tức là thông thường không dùng, chứ trong giao tiếp đời sống không phải là cấm tuyệt đối một trăm phần trăm.",
-              "rule": "Sách viết thường không dùng, không phải không bao giờ. Nhìn vào nghĩa của câu."}, "lines": [
-        {"say": "Sách Destination B2 trang 7 viết: động từ trạng thái thường không dùng ở thì tiếp diễn, vì chúng không mô tả hành động. Sách chia thành sáu nhóm.", "show": "title"},
+    {"kind": "scene", "visual": "ref_table", "eyebrow": "Sáu nhóm", "title": "Động từ trạng thái",
+     "data": {"cols": ["Nhóm", "Động từ"], "rows": SIX_GROUPS,
+              "rule": "Thường không chia tiếp diễn, không phải không bao giờ. Nhìn vào nghĩa của câu."}, "lines": [
+        {"say": "Động từ trạng thái nói về điều đang là, không phải một hành động, nên thường không chia tiếp diễn. Có sáu nhóm.", "show": "title"},
         {"say": "Nhóm một, suy nghĩ.", "show": "s1"},
         {"en": "I know the answer.", "vi": "Tôi biết đáp án.", "gap": True},
         {"say": "Nhóm hai, tồn tại: be và exist.", "show": "s2"},
@@ -195,13 +190,12 @@ SITTING_2 = [
         {"say": "Nhóm năm, vẻ ngoài.", "show": "s5"},
         {"en": "He looks tired.", "vi": "Anh ấy trông mệt.", "gap": True},
         {"say": "Nhóm sáu, sở hữu và quan hệ.", "show": "s6"},
-        {"say": "Có một chi tiết quan trọng: sách viết thường không dùng, chứ không viết không bao giờ. Thầy nhấn mạnh đúng chỗ này.", "show": "quote"},
-        {"say": "Vậy đừng học thuộc danh sách rồi cấm tuyệt đối. Hãy nhìn vào nghĩa của câu.", "show": "rule"},
+        {"say": "Chữ quan trọng là thường, không phải không bao giờ. Đừng học thuộc danh sách rồi cấm tuyệt đối: hãy nhìn vào nghĩa của câu.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Một động từ, hai nghĩa", "title": "Trạng thái và hành động",
      "data": {"cols": ["Nghĩa", "Ví dụ"], "rows": TWO_MEANINGS,
               "rule": "Nghĩa trạng thái: hiện tại đơn. Nghĩa hành động: chia tiếp diễn được."}, "lines": [
-        {"say": "Một số động từ có cả nghĩa trạng thái lẫn nghĩa hành động. Sách nêu be, have, imagine, look, see, smell, taste, think. Bốn cặp tiêu biểu.", "show": "title"},
+        {"say": "Một số động từ có cả nghĩa trạng thái lẫn nghĩa hành động. Có tám động từ như vậy: be, have, imagine, look, see, smell, taste, think. Đây là các cặp tiêu biểu.", "show": "title"},
         {"say": "Have nghĩa là có thì là trạng thái. Have lunch nghĩa là ăn thì là hành động.", "show": "m1"},
         {"en": "Do you have your plane ticket with you?", "vi": "Bạn mang vé máy bay theo không?", "gap": True},
         {"en": "Are you having lunch at the moment?", "vi": "Bạn đang ăn trưa à?", "gap": True, "show": "m2"},
@@ -244,8 +238,8 @@ RUBRIC = [
 
 
 def reshape(sessions: list[dict], exercise_ids: list[str], card_of: dict[str, int]) -> list[dict]:
-    """Day 2's sittings around the two lectures. Sitting 1 teaches cards 1-4 (two axes, temporary, now, trend),
-    sitting 2 cards 5-7 (always, arranged, state verbs); the rest (words from the books, production work) is
+    """Day 2's sittings around the two lectures. Sitting 1 teaches cards 1-3 (formula, when to use, trend),
+    sitting 2 cards 4-7 (always, arranged, state verbs in two cards); the rest (words from the books, production work) is
     a third sitting without a lecture."""
     pats = [g for s in sessions[:3] for g in s["grammar"]]
     allcheck = [i for s in sessions[:3] for i in s["check"]]
@@ -256,13 +250,13 @@ def reshape(sessions: list[dict], exercise_ids: list[str], card_of: dict[str, in
     all_words = [w for s in sessions[:3] for w in s["vocab"]]
     left = [w for w in all_words if w not in S1_WORDS + S2_WORDS]
     s1["vocab"], s2["vocab"] = S1_WORDS, S2_WORDS
-    s1["grammar"], s2["grammar"] = pats[:4], pats[4:]
+    s1["grammar"], s2["grammar"] = pats[:3], pats[3:]
     quiz = [i for i in allcheck if i[4] in "IQ"]
-    s1["check"] = [i for i in quiz if card_of[i] < 4]
-    s2["check"] = [i for i in quiz if card_of[i] >= 4]
+    s1["check"] = [i for i in quiz if card_of[i] < 3]
+    s2["check"] = [i for i in quiz if card_of[i] >= 3]
     moved = [i for i in allcheck if i not in quiz]
     s1["lecture"], s2["lecture"] = SITTING_1, SITTING_2
-    s1["title_vi"] = "Buổi 1 · hai trục, tính tạm thời, bẫy chữ now, xu hướng"
+    s1["title_vi"] = "Buổi 1 · công thức, tính tạm thời, chữ now, xu hướng"
     s2["title_vi"] = "Buổi 2 · than phiền, kế hoạch, động từ trạng thái"
     s3 = {
         "title_vi": "Buổi 3 · từ vựng và vận dụng: nghe chép, nói, viết",
