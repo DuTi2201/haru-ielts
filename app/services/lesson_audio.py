@@ -620,6 +620,13 @@ def build_template_lecture(lesson: LessonSource) -> Lecture:
     return Lecture(script, _line_cues(script, out), slides)
 
 
+def _core_meaning(meaning: str) -> str:
+    """The meaning as a person would say it: no «Nhớ: …» tail, no "(= synonym)" gloss."""
+    core = re.split(r"\s*[·•]\s*Nhớ\b", meaning, maxsplit=1)[0]
+    core = re.sub(r"\s*\(=[^)]*\)", "", core).strip()
+    return core or meaning
+
+
 def build_authored_lecture(lesson: LessonSource) -> Lecture:
     """A sitting's lecture as an editor wrote it (SessionSeed.lecture): the slides in order, each
     with the lines said while it is up. A line is Vietnamese narration ({"say": …}) or an English
@@ -670,7 +677,8 @@ def build_authored_lecture(lesson: LessonSource) -> Lecture:
             word_i += 1
             at = len(slides) - 1
             say_lines(lines, at)  # the editor's lead-in: why this word, here
-            out.append((f"{_ko_line(v.headword, shadow=True)} {_sentence(spoken_vi(v.meaning_vi))}", at, "word"))
+            # the memory hook («Nhớ: …») and the "= synonym" gloss are for the eye; the lead-in already told the story
+            out.append((f"{_ko_line(v.headword, shadow=True)} {_sentence(spoken_vi(_core_meaning(v.meaning_vi)))}", at, "word"))
             for k, (ko, vi) in enumerate(ex):
                 out.append((_ko_line(ko, shadow=True), at, f"ex{k}"))
                 if vi:
