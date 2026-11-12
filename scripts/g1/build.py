@@ -22,6 +22,7 @@ import days56 as D56  # noqa: E402
 from day7 import OPTIONAL as OPT7  # noqa: E402
 import day89 as D89  # noqa: E402
 import lecture_d1 as L1  # noqa: E402
+import lecture_d2 as L2  # noqa: E402
 from assoc import ASSOC  # noqa: E402
 import re  # noqa: E402
 import exercise_polish as EP  # noqa: E402
@@ -183,6 +184,9 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
                 v["source"] += "; phiên âm: Oxford Advanced Learner's Dictionary (BrE)"
         for e in bank["writing"]:
             e["rubric"] = L1.RUBRIC_BY.get(e["id"], L1.RUBRIC)
+    if n == 2:
+        for e in bank["writing"]:
+            e["rubric"] = L2.RUBRIC
     grammar = []
     for c in d["cards"]:
         use = c["use"] + (f"\nTrích: «{c['quote']}»" if c["quote"] else "")
@@ -220,6 +224,8 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
             "grammar": [patterns[c] for c in g],
             "check": checks,
         })
+    if n == 2:
+        sessions = L2.reshape(sessions, [e["id"] for k in bank for e in bank[k]], {x: c for c, xs in by_card.items() for x in xs})
     if n == 1:
         sessions = L1.reshape(sessions, [e["id"] for k in bank for e in bank[k]], {x: c for c, xs in by_card.items() for x in xs})
     chunk: list[str] = []

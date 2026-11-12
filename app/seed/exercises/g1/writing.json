@@ -205,6 +205,23 @@
     "Câu 2 có mốc tạm thời: at the moment, this month, these days.",
     "Không dùng tiếp diễn với have (nghĩa là có), know, like."
    ],
+   "rubric": [
+    {
+     "criterion_vi": "Đúng đề, nội dung là của chính bạn",
+     "max": 1,
+     "note_vi": "Task response"
+    },
+    {
+     "criterion_vi": "Chọn thì hợp với điều muốn nói: sự thật hay tạm thời",
+     "max": 2,
+     "note_vi": "Grammatical range"
+    },
+    {
+     "criterion_vi": "Dạng động từ đúng: be + V-ing, động từ trạng thái không chia tiếp diễn",
+     "max": 2,
+     "note_vi": "Grammatical accuracy"
+    }
+   ],
    "frames": [
     "I live in ___ with ___ .",
     "At the moment/This month, I am staying/living ___ because ___ .",
@@ -216,23 +233,6 @@
    "common_errors_vi": [
     "I am having a small flat → I have a small flat.",
     "I am living here all my life → I have lived here all my life (việc lâu dài không dùng tiếp diễn)."
-   ],
-   "rubric": [
-    {
-     "criterion_vi": "Trả lời đúng đề, nội dung là của chính bạn",
-     "max": 1,
-     "note_vi": "Task response"
-    },
-    {
-     "criterion_vi": "Dùng đúng cấu trúc và thì mà đề yêu cầu",
-     "max": 2,
-     "note_vi": "Grammatical range"
-    },
-    {
-     "criterion_vi": "Dạng từ đúng: chia động từ, giới từ, -s ngôi thứ ba",
-     "max": 2,
-     "note_vi": "Grammatical accuracy"
-    }
    ]
   },
   {
