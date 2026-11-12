@@ -94,7 +94,7 @@ SITTING_1 = [
     {"kind": "title", "hook": "Chị bạn vừa sang Thái Lan: nên nói lives hay is living, khi cả hai câu đều đúng với chữ now?", "lines": [
         {"say": "Hãy tưởng tượng thế này. Bạn đang ngồi uống cà phê với một người bạn nước ngoài, và cô ấy hỏi thăm chị gái bạn. Chị bạn vừa chuyển sang Thái Lan.", "show": "hook"},
         {"say": "Bạn mở miệng định trả lời, rồi khựng lại. Nên nói she lives, hay she is living? Từ hồi đi học, bạn được dạy: thấy chữ now thì chia tiếp diễn. Nhưng hôm nay bạn sẽ thấy chuyện không đơn giản như vậy."},
-        {"say": "Cuối buổi, bạn sẽ không còn phải học thuộc năm gạch đầu dòng cách dùng nữa. Cả thì tiếp diễn chỉ xoay quanh một chữ duy nhất."},
+        {"say": "Cuối buổi, bạn sẽ không còn phải học thuộc năm gạch đầu dòng cách dùng nữa. Cả thì tiếp diễn chỉ xoay quanh một bản chất duy nhất: tính tạm thời, cùng với ý đồ của người nói, tức là điều bạn muốn người nghe hiểu."},
     ]},
     {"kind": "scene", "visual": "tense_timeline", "eyebrow": "Tình huống", "title": "Một câu hỏi, hai câu đáp",
      "data": {"question": "Where does your sister live now?", "question_vi": "Bây giờ chị bạn sống ở đâu?", "question_label": "Bạn của bạn hỏi",
