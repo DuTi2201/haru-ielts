@@ -356,7 +356,7 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
     vocab, sessions = [], []
     for title, words in d["sittings"]:
         for h, pos, mv, ex, evi in words:
-            vocab.append({"headword": h, "pos": pos, "meaning_vi": mv + (f" · Nhớ: {ASSOC[h]}" if h in ASSOC else ""), "example_en": ex, "example_vi": evi, "family": d.get("family", "Giáo dục"), "priority": "recognize" if h in d.get("recognize", ()) else "core",
+            vocab.append({"headword": h, "pos": pos, "meaning_vi": mv, **({"note_vi": ASSOC[h][0].upper() + ASSOC[h][1:]} if h in ASSOC else {}), "example_en": ex, "example_vi": evi, "family": d.get("family", "Giáo dục"), "priority": "recognize" if h in d.get("recognize", ()) else "core",
                           "source": d.get("source", "Destination B2, Unit 18; từ C1 theo cách neo của khóa học")})
         sessions.append({"title_vi": (STAGE_PREFIX.get(d.get("stage"), "Từ vựng") + f" · {title}")[:70], "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: " + ", ".join(w[0] for w in words[:6]) + ", ...",
                          "use_vi": d["ielts"][:200], "vocab": [w[0] for w in words]})
@@ -387,6 +387,12 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
                          "use_vi": d["ielts"][:200], "check": [lex["id"]]})
     if n == 7:  # the four hand-written lectures of the day (scripts/g1/lecture_d7.py)
         L7.reshape(sessions)
+    if n == 7:  # transcriptions from the CMU Pronouncing Dictionary (scripts/g1/pron_d7.py)
+        import pron_d7
+        for v in vocab:
+            if v["headword"] in pron_d7.PRON:
+                v["pron"] = pron_d7.PRON[v["headword"]]
+                v["source"] += "; phiên âm: CMU Pronouncing Dictionary (Mỹ)"
     first_head = vocab[0]["headword"]
     groups: dict[str, list[str]] = {}
     src: dict[str, str] = {}

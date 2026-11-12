@@ -27,13 +27,13 @@ ANCHORS = [
 ]
 
 SPELL = [
-    {"key": "s1", "head": "assess · đánh giá", "en": "assess", "vi": "Hai chữ s đều đọc là s. Nhấn âm thứ hai."},
-    {"key": "s2", "head": "access · tiếp cận", "en": "access", "vi": "Chữ c đầu đọc là k, chữ c sau đọc là s. Nhấn âm thứ nhất."},
+    {"key": "s1", "head": "assess · đánh giá", "en": "assess", "vi": "Nhấn âm thứ hai. Có hai âm xờ liền nhau."},
+    {"key": "s2", "head": "access · tiếp cận", "en": "access", "vi": "Nhấn âm thứ nhất. Âm đầu nghe như át."},
 ]
 
 BELIEVE = [
     _row("b1", "dotted_check", "assume · mặc định", "I assume the shop is open.", "Coi là đúng, chưa đi kiểm tra."),
-    _row("b2", "thought", "presume · cho là", "I presume you have finished.", "Cho là đúng vì có lý do nào đó."),
+    _row("b2", "thought", "presume · cho là", "I presume you have finished.", "Cho là đúng vì có căn cứ nào đó."),
     _row("b3", "crystal", "speculate · phỏng đoán", "We can only speculate about the reason.", "Chưa đủ bằng chứng, chỉ đoán."),
 ]
 
@@ -44,7 +44,7 @@ NUMBERS = [
 
 TRAPS_V = [
     {"key": "e1", "wrong": "It is hard to access someone's suitability in a short interview.", "right": "It is hard to assess someone's suitability in a short interview.", "why": "access là tiếp cận. Đánh giá là assess."},
-    {"key": "e2", "wrong": "The painting will cost two thousand euro.", "right": "The painting will cost two thousand euros.", "why": "Số lớn hơn một thì đơn vị tiền thêm s."},
+    {"key": "e2", "wrong": "The painting will cost two thousand euro.", "right": "The painting will cost two thousand euros.", "why": "Hơn một euro thì viết euros, có đuôi số nhiều."},
     {"key": "e3", "wrong": "I estimate that he is guilty from the evidence.", "right": "I deduce that he is guilty from the evidence.", "why": "Suy ra từ bằng chứng là deduce. Estimate dành cho một con số."},
 ]
 
@@ -68,10 +68,10 @@ SITTING_1 = [
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Dễ nhầm", "title": "assess và access",
      "data": {"cols": ["Từ", "Cách đọc"], "rows": SPELL,
-              "rule": "assess nhấn âm hai, hai chữ s. access nhấn âm một, chữ c đầu đọc là k."}, "lines": [
-        {"say": "Cẩn thận, assess rất dễ lẫn với access. Assess có hai chữ s, đọc là s, và nhấn âm thứ hai.", "show": "s1"},
+              "rule": "assess nhấn âm hai. access nhấn âm một. Nhấn sai là người nghe hiểu thành từ kia."}, "lines": [
+        {"say": "Cẩn thận, assess rất dễ lẫn với access. Assess nhấn âm thứ hai.", "show": "s1"},
         {"en": "assess", "vi": "đánh giá", "gap": True},
-        {"say": "Access thì chữ c đầu đọc là k, chữ c sau đọc là s, và nhấn âm thứ nhất. Nghĩa là tiếp cận.", "show": "s2"},
+        {"say": "Access nhấn âm thứ nhất, nghe như át xét. Nghĩa là tiếp cận.", "show": "s2"},
         {"en": "access", "vi": "tiếp cận", "gap": True},
         {"say": "Nói sai trọng âm, người nghe sẽ hiểu thành từ kia.", "show": "rule"},
     ]},
@@ -88,10 +88,10 @@ SITTING_1 = [
      "data": {"rows": BELIEVE, "rule": "Cùng là cho rằng, nhưng mức chắc chắn khác nhau. Speculate là yếu nhất."}, "lines": [
         {"say": "Ba từ này đều là cho rằng, nhưng khác sắc thái. Assume: coi là đúng, chưa đi kiểm tra.", "show": "b1"},
         {"en": "I assume the shop is open.", "vi": "Tôi cho là cửa hàng đang mở.", "gap": True},
-        {"say": "Presume: cho là đúng, vì có lý do nào đó.", "show": "b2"},
+        {"say": "Presume: cho là đúng, vì có căn cứ nào đó.", "show": "b2"},
         {"en": "I presume you have finished.", "vi": "Tôi cho là bạn đã xong.", "gap": True},
         {"say": "Speculate: chưa đủ bằng chứng, chỉ đoán.", "show": "b3"},
-        {"en": "We can only speculate about the reason.", "vi": "Chúng ta chỉ có thể phỏng đoán lý do.", "gap": True},
+        {"en": "We can only speculate about the reason.", "vi": "Chúng ta chỉ có thể phỏng đoán nguyên nhân.", "gap": True},
         {"say": "Chọn từ theo mức chắc chắn của bạn. Speculate là yếu nhất.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "estimate", "lines": [
@@ -101,7 +101,7 @@ SITTING_1 = [
         {"say": "Deduce thì khác. Không đoán con số. Từ những gì đang thấy, bạn suy ra điều chưa thấy. Như thám tử nhìn dấu chân, rồi kết luận ai đã đi qua."},
     ]},
     {"kind": "scene", "visual": "picture_cards", "eyebrow": "Con số hay bằng chứng", "title": "estimate và deduce",
-     "data": {"rows": NUMBERS, "rule": "Ước một con số: estimate. Suy ra từ bằng chứng: deduce. Số tiền lớn hơn một thì thêm s: euros."}, "lines": [
+     "data": {"rows": NUMBERS, "rule": "Ước một con số: estimate. Suy ra từ bằng chứng: deduce. Hơn một euro thì viết euros."}, "lines": [
         {"say": "Estimate ước một con số. Và để ý cách đọc tiền: hai nghìn euro phải đọc là euros, có s, vì lớn hơn một.", "show": "n1"},
         {"en": "I estimate the painting will cost at least two thousand euros.", "vi": "Tôi ước bức tranh sửa hết ít nhất hai nghìn euro.", "gap": True},
         {"say": "Deduce thì đi từ dấu vết đến kết luận.", "show": "n2"},
@@ -109,7 +109,7 @@ SITTING_1 = [
         {"say": "Con số: estimate. Bằng chứng: deduce.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "justify", "lines": [
-        {"say": "Chính phủ chi rất nhiều tiền cho quân đội, và bạn hỏi: làm sao biện minh được khoản này? Phải đưa ra lý do. Đó là justify. Chữ y ở cuối đọc là ai, không đọc là i."},
+        {"say": "Chính phủ chi rất nhiều tiền cho quân đội, và bạn hỏi: làm sao biện minh được khoản này? Phải đưa ra lý lẽ để bảo vệ. Đó là justify. Chữ y ở cuối đọc là ai, không đọc là i."},
     ]},
     {"kind": "word", "headword": "reflect", "lines": [
         {"say": "Reflect là quay lại nhìn điều đã xảy ra rồi suy ngẫm. Neo vào think carefully."},
@@ -121,14 +121,14 @@ SITTING_1 = [
         {"say": "Từ cuối cùng. Giám khảo hỏi một câu quá hóc búa, bạn đứng hình, rối như sợi chỉ. Đó là baffle. Neo vào confuse."},
     ]},
     {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Lỗi thường gặp", "title": "Ba lỗi, ba cách sửa",
-     "data": {"rows": TRAPS_V, "rule": "access không phải assess. Tiền thêm s. Bằng chứng thì deduce."}, "lines": [
+     "data": {"rows": TRAPS_V, "rule": "Đánh giá là assess, không phải access. Hơn một euro thì viết euros. Suy ra từ bằng chứng là deduce."}, "lines": [
         {"say": "Ba lỗi người học hay mắc. Lỗi thứ nhất: nhầm access với assess.", "show": "e1"},
         {"en": "It is hard to assess someone's suitability in a short interview.", "vi": "Khó đánh giá một người chỉ qua buổi phỏng vấn ngắn.", "gap": True},
         {"say": "Lỗi thứ hai: quên s sau số tiền.", "show": "e2"},
         {"en": "The painting will cost two thousand euros.", "vi": "Bức tranh sẽ tốn hai nghìn euro.", "gap": True},
         {"say": "Lỗi thứ ba: dùng estimate cho một suy luận.", "show": "e3"},
         {"en": "I deduce that he is guilty from the evidence.", "vi": "Từ bằng chứng, tôi suy ra anh ta có tội.", "gap": True},
-        {"say": "Nhớ ba điều: access không phải assess, tiền thêm s, bằng chứng thì deduce.", "show": "rule"},
+        {"say": "Nhớ ba điều. Đánh giá là assess, không phải access. Hơn một euro thì viết euros. Suy ra từ bằng chứng là deduce, không phải estimate.", "show": "rule"},
     ]},
     {"kind": "recap", "lines": [
         {"say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
@@ -233,8 +233,8 @@ NOEVIDENCE = [
 ]
 
 FAITH = [
-    _row("f1", "heart", "faith · niềm tin", "I have complete faith in my teacher.", "Kết thúc bằng âm th: đặt đầu lưỡi giữa hai hàm răng, thổi hơi."),
-    _row("f2", "star", "fate · số phận", "It was fate that we met.", "Kết thúc bằng âm t: đọc nhầm thì thành số phận."),
+    _row("f1", "heart", "faith · niềm tin", "I have complete faith in my teacher.", "Kết thúc bằng âm cắn lưỡi: đầu lưỡi giữa hai hàm răng, thổi hơi."),
+    _row("f2", "star", "fate · số phận", "It was fate that we met.", "Kết thúc bằng âm tờ: đọc nhầm là thành số phận."),
 ]
 
 PARADOX = [
@@ -293,11 +293,11 @@ SITTING_3 = [
     ]},
     {"kind": "scene", "visual": "picture_cards", "eyebrow": "Âm cuối đổi nghĩa", "title": "faith và fate",
      "data": {"rows": FAITH, "rule": "Âm cuối của danh từ thuộc về bản chất của từ. Đọc sai là thành từ khác."}, "lines": [
-        {"say": "Faith kết thúc bằng âm th. Đặt đầu lưỡi giữa hai hàm răng rồi thổi hơi.", "show": "f1"},
+        {"say": "Faith kết thúc bằng âm cắn lưỡi. Đặt đầu lưỡi giữa hai hàm răng rồi thổi hơi.", "show": "f1"},
         {"en": "faith", "vi": "niềm tin", "gap": True},
-        {"say": "Nếu bạn nuốt âm cuối, hoặc đọc thành t, người nghe sẽ hiểu thành fate, nghĩa là số phận.", "show": "f2"},
+        {"say": "Nếu bạn nuốt âm cuối, hoặc đọc thành âm tờ, người nghe sẽ hiểu thành fate, nghĩa là số phận.", "show": "f2"},
         {"en": "fate", "vi": "số phận", "gap": True},
-        {"say": "Những âm cuối ngữ pháp, như đuôi ed, nói nhanh đôi khi còn bỏ qua được. Nhưng âm cuối thuộc về chính từ, thì không được bỏ.", "show": "rule"},
+        {"say": "Những âm cuối ngữ pháp, như đuôi thì quá khứ, nói nhanh đôi khi còn bỏ qua được. Nhưng âm cuối thuộc về chính từ, thì không được bỏ.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "paradox", "lines": [
         {"say": "Từ cuối cùng và là từ nhiều người hiểu sai: paradox, nghịch lý. Nhiều bạn nghĩ nghịch lý là điều trái với thực tế. Không phải. Nghịch lý là một điều mà ngay bên trong nó đã có hai vế tự mâu thuẫn."},
