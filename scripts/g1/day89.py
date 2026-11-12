@@ -370,3 +370,6 @@ DAYS[11] = {
          "model": "I go to school by bus because it is more convenient than parking a motorbike. I am not satisfied with the timetable, because the buses are rare in the evening."},
     ],
 }
+
+from day1213 import DAYS as _D1213  # noqa: E402
+DAYS.update(_D1213)

@@ -35,11 +35,13 @@ TOPIC = "Tuần 1 · Giáo dục (Education)"
 TOPIC_EXTRA = "Bổ trợ · Từ vựng và bài đọc ngoài lịch tuần"
 # Week 1 of the Pre-IELTS syllabus: Present tenses (B2 Unit 1, A B C E), Thinking and learning (C1 Unit 2, A B C D),
 # Reading and Listening from Cambridge 18. Days outside it are kept as supplements, not deleted.
-DAYNO = {1: 1, 2: 2, 3: 3, 4: 4, 7: 5, 9: 6, 11: 7}  # the day number the learner sees
+DAYNO = {1: 1, 2: 2, 3: 3, 4: 4, 7: 5, 12: 6, 13: 7}  # the day number the learner sees
 SUPPLEMENT = {
     5: "Bổ trợ cho chủ đề Giáo dục khi cần học thêm từ nền; không nằm trong lịch Tuần 1.",
     6: "Bổ trợ cho chủ đề Giáo dục khi cần học thêm kết hợp từ; không nằm trong lịch Tuần 1.",
     8: "Bài đọc bậc dễ về văn hóa và cảm xúc; hợp với Tuần 10 (Văn hóa và nghệ thuật) hơn là Tuần 1.",
+    9: "Bài đọc Cambridge 18 về nông nghiệp đô thị; hợp với Tuần 11 (Đô thị và nông thôn) hơn là Tuần 1.",
+    11: "Bài nghe Cambridge 18 về khảo sát giao thông (Part 1); hợp với Tuần 4 (Giao thông) hơn là Tuần 1.",
     10: "Từ vựng về con người và tính cách; hợp với Tuần 9 và Tuần 11 (Xã hội, Quan hệ) hơn là Tuần 1.",
 }
 # exercises outside the syllabus' list for the week go to the optional sittings
@@ -280,6 +282,7 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
         "vocab": vocab, "grammar": grammar,
         "notes": [
             {"title": "Mục tiêu của ngày", "body": "\n".join(f"• {x}" for x in d.get("can") or [d["goal"]]), "kind": "goal"},
+            *([{"title": "Cách đọc từng đoạn", "body": d["method"], "kind": "language"}] if d.get("method") else []),
             {"title": "Bài của sách nằm trong app", "body": book_body + "\n• Các bài này đã có sẵn trong app, ở các buổi \"Bài trong sách\" cuối ngày, kèm đáp án của sách và lời giải thích từng câu. Nếu có sách giấy, bạn có thể làm trên sách trước rồi chấm lại trong app. Sau khi học thẻ, với mỗi câu sai hãy tự nói lại câu đó theo ý muốn nói.", "kind": "language"},
             {"title": "Dùng ở đâu trong IELTS", "body": d["ielts"], "kind": "language"},
         ],
@@ -382,9 +385,9 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
                          "use_vi": d["ielts"][:200], "vocab": [w[0] for w in words]})
     for ps in d.get("passages", []):
         qs = []
-        for i, (prompt, opts, why) in enumerate(ps["qs"], 1):
+        for i, (prompt, opts, why, *fixed) in enumerate(ps["qs"], 1):
             qid = f"{pid}R{ps['id']}{i}"
-            order = TFNG3 if set(opts) == set(TFNG3) else sorted(opts, key=lambda t: B.rng(qid + t).random())
+            order = fixed[0] if fixed else TFNG3 if set(opts) == set(TFNG3) else sorted(opts, key=lambda t: B.rng(qid + t).random())
             qs.append({"id": qid, "prompt_en": prompt, "options": [{"id": str(j + 1), "text": t} for j, t in enumerate(order)],
                        "answer": str(order.index(opts[0]) + 1), "explanation_vi": why + f" [{d['source'].split(';')[0]}]", "tags": []})
         pex = {"id": f"{pid}R{ps['id']}", "skill": "reading", "type": "read_passage", "title_vi": f"Đọc chậm · {ps['title']}"[:70], "instruction_vi": ps["instr"],
@@ -394,10 +397,9 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
                          "use_vi": d["ielts"][:200], "check": [pex["id"]]})
     for ls in d.get("listening", []):
         qs = []
-        for i, (prompt, right, wrong, why) in enumerate(ls["qs"], 1):
+        for i, (prompt, right, wrong, why, *fixed) in enumerate(ls["qs"], 1):
             qid = f"{pid}{ls['id']}Q{i}"
-            order = [right] + wrong
-            order = sorted(order, key=lambda t: B.rng(qid + t).random())
+            order = fixed[0] if fixed else sorted([right] + wrong, key=lambda t: B.rng(qid + t).random())
             qs.append({"id": qid, "prompt_en": prompt, "options": [{"id": str(j + 1), "text": t} for j, t in enumerate(order)],
                        "answer": str(order.index(right) + 1), "explanation_vi": why + f" [{d['source'].split(';')[0]}]", "tags": []})
         lex = {"id": f"{pid}{ls['id']}", "skill": "listening", "type": "listen_interview", "title_vi": f"Nghe kỹ · {ls['title']}"[:70], "instruction_vi": ls["instr"],
@@ -487,6 +489,7 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
         "summary": d["goal"] + ((" " + SUPPLEMENT[n]) if n in SUPPLEMENT else ""), "vocab": vocab, "grammar": [],
         "notes": [
             {"title": "Mục tiêu của ngày", "body": "\n".join(f"• {x}" for x in d.get("can") or [d["goal"]]), "kind": "goal"},
+            *([{"title": "Cách đọc từng đoạn", "body": d["method"], "kind": "language"}] if d.get("method") else []),
             {"title": "Bài của sách nằm trong app", "body": book_body + "\n• Các bài này có sẵn trong app kèm đáp án của sách và lời giải thích từng câu.", "kind": "language"},
             {"title": "Cách học từ C1", "body": "• Học từ C1 bằng một từ B2 đồng nghĩa, không học nghĩa tiếng Việt dài.\n• Chọn 5 đến 10 từ bạn thích nhất rồi gõ câu về chính mình bằng bàn phím tiếng Anh.", "kind": "language"},
         ],

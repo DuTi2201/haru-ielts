@@ -745,6 +745,32 @@
      "note_vi": "Grammatical accuracy"
     }
    ]
+  },
+  {
+   "id": "G1D12M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Ngày 12",
+   "points": 5,
+   "instruction_vi": "Làm bước 4 của phương pháp cho đoạn 1, 2 và 3: mỗi đoạn viết một chuỗi từ khóa nối bằng mũi tên, rồi nối ba chuỗi bằng một câu. Ví dụ mẫu của khóa học: fantasy -> creativity -> repercussions -> adult life. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn và dùng từ bạn chọn.",
+   "limits": {
+    "min": 8,
+    "max": 50
+   },
+   "prompt_en": "Write one keyword chain for each of paragraphs 1, 2 and 3, using arrows.",
+   "framework_vi": [
+    "Chọn 5 đến 10 từ bạn thích nhất trong bài hôm nay.",
+    "Nghĩ điều bạn muốn nói về chính mình, bằng tiếng Việt cũng được.",
+    "Gõ hai câu có dùng ít nhất hai từ đã chọn; từ C1 thì thêm một từ B2 đồng nghĩa ở câu kia."
+   ],
+   "model_answer_en": "Para 1: innate intelligence -> early 20th-century thinkers -> intelligence can be developed. Para 2: growth mindset -> failure as chance -> improve ability. Para 3: Dweck's experiment -> effort praised -> more effort.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Có dùng từ của bài hôm nay, đúng từ loại.",
+    "Câu nói về chính bạn, không chép câu mẫu."
+   ]
   }
  ]
 }

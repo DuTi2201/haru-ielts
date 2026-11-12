@@ -1,0 +1,387 @@
+{
+ "slug": "g1-d12-the-growth-mindset-cambridge-ielts-18-test-4-passage",
+ "title": "Tuần 1 · Ngày 6 · Đọc chậm: The growth mindset (Cambridge 18)",
+ "title_en": "The growth mindset: Cambridge IELTS 18, Test 4, Passage 2",
+ "topic": "Tuần 1 · Giáo dục (Education)",
+ "track": "beginner",
+ "level": 4,
+ "sort_order": 106,
+ "summary": "Đọc chậm một bài về niềm tin vào khả năng học và phát triển, dùng sáu bước tóm tắt từng đoạn, rồi làm 13 câu (chọn đáp án, ghép người với nhận định, đồng ý hay không) và nói rõ đáp án nằm ở đâu.",
+ "vocab": [
+  {
+   "headword": "ability",
+   "pos": "N",
+   "meaning_vi": "khả năng",
+   "example_en": "Praising ability made the students perform worse.",
+   "example_vi": "Khen khả năng làm học sinh làm bài tệ hơn.",
+   "family": "Tư duy và học tập",
+   "priority": "core",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "effort",
+   "pos": "N",
+   "meaning_vi": "sự nỗ lực",
+   "example_en": "The second group put more effort into the next task.",
+   "example_vi": "Nhóm thứ hai bỏ nhiều nỗ lực hơn vào bài tiếp theo.",
+   "family": "Tư duy và học tập",
+   "priority": "core",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "praise",
+   "pos": "V",
+   "meaning_vi": "khen",
+   "example_en": "The teacher praised them for their effort.",
+   "example_vi": "Giáo viên khen họ vì đã nỗ lực.",
+   "family": "Tư duy và học tập",
+   "priority": "core",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "failure",
+   "pos": "N",
+   "meaning_vi": "sự thất bại",
+   "example_en": "Some students see failure as a chance to improve.",
+   "example_vi": "Một số học sinh xem thất bại là cơ hội để tiến bộ.",
+   "family": "Tư duy và học tập",
+   "priority": "core",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "achievement",
+   "pos": "N",
+   "meaning_vi": "thành tích, điều đạt được",
+   "example_en": "A good speech is a real achievement.",
+   "example_vi": "Một bài nói hay là một thành tích thật sự.",
+   "family": "Tư duy và học tập",
+   "priority": "core",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "evidence",
+   "pos": "N",
+   "meaning_vi": "bằng chứng",
+   "example_en": "There is evidence that the method does not work.",
+   "example_vi": "Có bằng chứng cho thấy phương pháp này không hiệu quả.",
+   "family": "Tư duy và học tập",
+   "priority": "core",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "criticism",
+   "pos": "N",
+   "meaning_vi": "lời chỉ trích, phê bình",
+   "example_en": "The research has received harsh criticism.",
+   "example_vi": "Nghiên cứu này nhận nhiều chỉ trích gay gắt.",
+   "family": "Tư duy và học tập",
+   "priority": "core",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "experiment",
+   "pos": "N",
+   "meaning_vi": "thí nghiệm",
+   "example_en": "In one key experiment, children were divided into two groups.",
+   "example_vi": "Trong một thí nghiệm chính, trẻ được chia thành hai nhóm.",
+   "family": "Tư duy và học tập",
+   "priority": "core",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "notion",
+   "pos": "N",
+   "meaning_vi": "quan niệm, ý niệm",
+   "note_vi": "Một ý nghĩ thoáng qua, như idea.",
+   "example_en": "The notion that talent is fixed is out of date.",
+   "example_vi": "Quan niệm rằng tài năng là cố định đã lỗi thời.",
+   "family": "Tư duy và học tập",
+   "priority": "core",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "innate",
+   "pos": "A",
+   "meaning_vi": "bẩm sinh, vốn có từ khi sinh ra",
+   "example_en": "Some people believe intelligence is innate.",
+   "example_vi": "Một số người tin trí thông minh là bẩm sinh.",
+   "family": "Tư duy và học tập",
+   "priority": "core",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "destiny",
+   "pos": "N",
+   "meaning_vi": "số phận, điều đã định sẵn",
+   "example_en": "Ability is not destiny.",
+   "example_vi": "Khả năng không phải số phận.",
+   "family": "Tư duy và học tập",
+   "priority": "core",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "infer",
+   "pos": "V",
+   "meaning_vi": "suy ra",
+   "example_en": "The group inferred that success depends on ability.",
+   "example_vi": "Nhóm đó suy ra rằng thành công phụ thuộc vào khả năng.",
+   "family": "Tư duy và học tập",
+   "priority": "core",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "perceive",
+   "pos": "V",
+   "meaning_vi": "nhìn nhận, cảm nhận",
+   "example_en": "Students perceive a teacher's help as a sign of weakness.",
+   "example_vi": "Học sinh nhìn sự giúp đỡ của giáo viên như dấu hiệu của sự yếu kém.",
+   "family": "Tư duy và học tập",
+   "priority": "core",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "deluded",
+   "pos": "A",
+   "meaning_vi": "ảo tưởng, tin điều không đúng",
+   "example_en": "Posters can give students a deluded idea of success.",
+   "example_vi": "Áp phích có thể cho học sinh một ý niệm ảo tưởng về thành công.",
+   "family": "Tư duy và học tập",
+   "priority": "recognize",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "impediment",
+   "pos": "N",
+   "meaning_vi": "trở ngại",
+   "example_en": "The school system is an impediment to change.",
+   "example_vi": "Hệ thống trường học là trở ngại cho sự thay đổi.",
+   "family": "Tư duy và học tập",
+   "priority": "recognize",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "intervention",
+   "pos": "N",
+   "meaning_vi": "biện pháp can thiệp",
+   "example_en": "The intervention did not improve grades.",
+   "example_vi": "Biện pháp can thiệp không cải thiện điểm số.",
+   "family": "Tư duy và học tập",
+   "priority": "recognize",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "correlation",
+   "pos": "N",
+   "meaning_vi": "mối tương quan",
+   "example_en": "There is a strong correlation between the two.",
+   "example_vi": "Có mối tương quan chặt giữa hai điều này.",
+   "family": "Tư duy và học tập",
+   "priority": "recognize",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "dispute",
+   "pos": "V",
+   "meaning_vi": "tranh cãi, phản bác",
+   "example_en": "It is hard to dispute that faith in change helps.",
+   "example_vi": "Khó phản bác việc tin vào khả năng thay đổi là có ích.",
+   "family": "Tư duy và học tập",
+   "priority": "core",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "aspiration",
+   "pos": "N",
+   "meaning_vi": "khát vọng",
+   "example_en": "Her aspiration is to study abroad.",
+   "example_vi": "Khát vọng của cô ấy là đi du học.",
+   "family": "Tư duy và học tập",
+   "priority": "recognize",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "subtle",
+   "pos": "A",
+   "meaning_vi": "tinh tế, kín đáo",
+   "example_en": "The message should be delivered in a subtle way.",
+   "example_vi": "Thông điệp nên được truyền đạt một cách kín đáo.",
+   "family": "Tư duy và học tập",
+   "priority": "core",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "paradoxically",
+   "pos": "X",
+   "meaning_vi": "nghịch lý là (điều xảy ra trái với mong đợi)",
+   "example_en": "Paradoxically, direct teaching of the mindset does not work well.",
+   "example_vi": "Nghịch lý là việc dạy trực tiếp tư duy này lại không hiệu quả.",
+   "family": "Tư duy và học tập",
+   "priority": "core",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "concentrate on",
+   "pos": "X",
+   "meaning_vi": "tập trung vào",
+   "example_en": "Schools ask students to concentrate on their strengths.",
+   "example_vi": "Trường học yêu cầu học sinh tập trung vào điểm mạnh.",
+   "family": "Tư duy và học tập",
+   "priority": "core",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "intellectual",
+   "pos": "A",
+   "meaning_vi": "thuộc trí tuệ",
+   "example_en": "Intellectual ability can be developed.",
+   "example_vi": "Năng lực trí tuệ có thể được phát triển.",
+   "family": "Tư duy và học tập",
+   "priority": "core",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "deliberate",
+   "pos": "A",
+   "meaning_vi": "có chủ ý",
+   "note_vi": "Bàn bạc kỹ trước khi quyết, như bồi thẩm đoàn.",
+   "example_en": "A deliberate attempt to motivate students may backfire.",
+   "example_vi": "Nỗ lực có chủ ý để thúc đẩy học sinh có thể phản tác dụng.",
+   "family": "Tư duy và học tập",
+   "priority": "core",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  },
+  {
+   "headword": "have faith in",
+   "pos": "X",
+   "meaning_vi": "tin tưởng vào",
+   "example_en": "It helps to have faith in your capacity to change.",
+   "example_vi": "Tin vào khả năng thay đổi của mình là điều có ích.",
+   "family": "Tư duy và học tập",
+   "priority": "core",
+   "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học"
+  }
+ ],
+ "grammar": [],
+ "notes": [
+  {
+   "title": "Mục tiêu của ngày",
+   "body": "• Đọc chậm một bài về niềm tin vào khả năng học và phát triển, dùng sáu bước tóm tắt từng đoạn, rồi làm 13 câu (chọn đáp án, ghép người với nhận định, đồng ý hay không) và nói rõ đáp án nằm ở đâu.",
+   "kind": "goal"
+  },
+  {
+   "title": "Cách đọc từng đoạn",
+   "body": "Sáu bước đọc từng đoạn (làm cho đoạn 1 đến 3 ở phần Vận dụng):\n• Bước 1: gạch từ khóa của từng câu (danh từ trước, động từ sau).\n• Bước 2: bỏ phần quá chi tiết như tên riêng, địa điểm, thời gian.\n• Bước 3: nối các từ khóa với nhau.\n• Bước 4: viết một câu tóm tắt dạng chuỗi từ khóa, nối bằng mũi tên.\n• Bước 5: hỏi đoạn này nói về ý chính nào.\n• Bước 6: nêu giá trị của đoạn: đoạn này giúp người đọc hiểu điều gì.",
+   "kind": "language"
+  },
+  {
+   "title": "Bài của sách nằm trong app",
+   "body": "• Cambridge IELTS 18, trang 88–91: bài Test 4, Reading Passage 2 (13 câu, câu 14–26) (13 câu, khoảng 20 phút)\n• Các bài này có sẵn trong app kèm đáp án của sách và lời giải thích từng câu.",
+   "kind": "language"
+  },
+  {
+   "title": "Cách học từ C1",
+   "body": "• Học từ C1 bằng một từ B2 đồng nghĩa, không học nghĩa tiếng Việt dài.\n• Chọn 5 đến 10 từ bạn thích nhất rồi gõ câu về chính mình bằng bàn phím tiếng Anh.",
+   "kind": "language"
+  }
+ ],
+ "bank": "g1",
+ "exercise_ids": [
+  "G1D12RP1",
+  "G1D12RP2",
+  "G1D12RP3",
+  "G1D12M1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Từ vựng · Từ về học tập và kết quả",
+   "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: ability, effort, praise, failure, achievement, evidence, ...",
+   "use_vi": "Bài đọc nối hai chủ đề của tuần: Thinking (suy nghĩ, niềm tin) và Learning (học tập). Từ mới của tuần xuất hiện lại ngay trong bài và trong câu hỏi, nên bạn gặp chúng trong ngữ cảnh thật của đề thi.",
+   "vocab": [
+    "ability",
+    "effort",
+    "praise",
+    "failure",
+    "achievement",
+    "evidence",
+    "criticism",
+    "experiment"
+   ]
+  },
+  {
+   "title_vi": "Từ vựng · Từ về niềm tin và bản chất",
+   "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: notion, innate, destiny, infer, perceive, deluded, ...",
+   "use_vi": "Bài đọc nối hai chủ đề của tuần: Thinking (suy nghĩ, niềm tin) và Learning (học tập). Từ mới của tuần xuất hiện lại ngay trong bài và trong câu hỏi, nên bạn gặp chúng trong ngữ cảnh thật của đề thi.",
+   "vocab": [
+    "notion",
+    "innate",
+    "destiny",
+    "infer",
+    "perceive",
+    "deluded"
+   ]
+  },
+  {
+   "title_vi": "Từ vựng · Từ để phân tích và phản biện",
+   "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: impediment, intervention, correlation, dispute, aspiration, subtle, ...",
+   "use_vi": "Bài đọc nối hai chủ đề của tuần: Thinking (suy nghĩ, niềm tin) và Learning (học tập). Từ mới của tuần xuất hiện lại ngay trong bài và trong câu hỏi, nên bạn gặp chúng trong ngữ cảnh thật của đề thi.",
+   "vocab": [
+    "impediment",
+    "intervention",
+    "correlation",
+    "dispute",
+    "aspiration",
+    "subtle"
+   ]
+  },
+  {
+   "title_vi": "Từ vựng · Cụm và từ nối cần nhận ra",
+   "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: paradoxically, concentrate on, intellectual, deliberate, have faith in, ...",
+   "use_vi": "Bài đọc nối hai chủ đề của tuần: Thinking (suy nghĩ, niềm tin) và Learning (học tập). Từ mới của tuần xuất hiện lại ngay trong bài và trong câu hỏi, nên bạn gặp chúng trong ngữ cảnh thật của đề thi.",
+   "vocab": [
+    "paradoxically",
+    "concentrate on",
+    "intellectual",
+    "deliberate",
+    "have faith in"
+   ]
+  },
+  {
+   "title_vi": "Đọc chậm · The growth mindset: câu 14–16 (chọn đáp án)",
+   "can_do_vi": "Sau buổi này bạn đọc đúng đoạn có đáp án và giải thích được vì sao mỗi câu đúng, sai hoặc không có thông tin.",
+   "use_vi": "Bài đọc nối hai chủ đề của tuần: Thinking (suy nghĩ, niềm tin) và Learning (học tập). Từ mới của tuần xuất hiện lại ngay trong bài và trong câu hỏi, nên bạn gặp chúng trong ngữ cảnh thật của đề thi.",
+   "check": [
+    "G1D12RP1"
+   ]
+  },
+  {
+   "title_vi": "Đọc chậm · The growth mindset: câu 17–22 (ghép nhận định với người)",
+   "can_do_vi": "Sau buổi này bạn đọc đúng đoạn có đáp án và giải thích được vì sao mỗi câu đúng, sai hoặc không có thông tin.",
+   "use_vi": "Bài đọc nối hai chủ đề của tuần: Thinking (suy nghĩ, niềm tin) và Learning (học tập). Từ mới của tuần xuất hiện lại ngay trong bài và trong câu hỏi, nên bạn gặp chúng trong ngữ cảnh thật của đề thi.",
+   "check": [
+    "G1D12RP2"
+   ]
+  },
+  {
+   "title_vi": "Đọc chậm · The growth mindset: câu 23–26 (YES / NO / NOT GIVEN)",
+   "can_do_vi": "Sau buổi này bạn đọc đúng đoạn có đáp án và giải thích được vì sao mỗi câu đúng, sai hoặc không có thông tin.",
+   "use_vi": "Bài đọc nối hai chủ đề của tuần: Thinking (suy nghĩ, niềm tin) và Learning (học tập). Từ mới của tuần xuất hiện lại ngay trong bài và trong câu hỏi, nên bạn gặp chúng trong ngữ cảnh thật của đề thi.",
+   "check": [
+    "G1D12RP3"
+   ]
+  },
+  {
+   "title_vi": "Vận dụng · câu của tôi với từ vừa học",
+   "can_do_vi": "Sau buổi này bạn đã tự gõ câu của riêng mình với các từ vừa học, bước quan trọng nhất.",
+   "use_vi": "Từ vừa dùng cho chuyện của chính mình thì nhớ lâu hơn, và đây là cầu nối sang Writing và Speaking.",
+   "check": [
+    "G1D12M1"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Bài đọc và đáp án theo Cambridge IELTS 18, Test 4, Reading Passage 2 (trang 88–91, đáp án trang 125). Bài thay cho Urban farming, nay chuyển sang phần bổ trợ."
+  }
+ ]
+}
