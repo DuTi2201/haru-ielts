@@ -137,6 +137,8 @@ def polish_build(items: list[dict]) -> None:
                 b["accepted"] = widen_accepted(b["accepted"])
                 if e["text"].lstrip().startswith("( ㉠ )"):  # a sentence cannot open with 've / 's attached to nothing
                     b["accepted"] = [a for a in b["accepted"] if not a.startswith("'")]
+                if "(have)" in e["text"]:  # `has` as a main verb (has control) has no contracted form
+                    b["accepted"] = [a for a in b["accepted"] if a != "'s"]
             if bank:
                 e["kind"] = "bank"
                 e["bank"] = bank

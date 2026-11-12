@@ -49,3 +49,11 @@ Khớp 100% với đáp án in: Destination B2 Unit 1 bài A, B, C, D, E, F, G, 
 Đáp án in của bài B tr. 8: 1 often gets up, 2 Do you speak, 3 I've already bought, 4 I've ever had, 5 works/does work, 6 has never eaten, 7 Sean has/Sean's already booked, 8 Does Melanie need.
 Hai điều khác sách: (a) KB-1 app nhận thêm "usually gets up" và "frequently gets up" vì nghĩa tiếng Việt "hay" cho phép; (b) đã sửa lỗi sinh đáp án: các câu mở đầu bằng chỗ trống (G1D3KC-5, KC-8, U3C4-3) từng nhận "'ve you ever met", một dạng không tồn tại; đã bỏ.
 Chưa đối chiếu: Destination C1&C2 tr. 8 (KCA, KCB).
+
+## Đối chiếu Destination C1&C2 (2026-11-12, có ảnh đề và đáp án tr. 281-283)
+
+- Unit 1 bài A (KCA) và bài B (KCB), Day 1: mọi đáp án trong app khớp đáp án in. Bài B 15/15.
+- Bài A thiếu hai câu của sách: câu 10 (`Are you phoning me…?`) và câu 14 (tiêu đề báo `WOMAN GIVES €500 MILLION LOTTERY WIN TO CHARITY`). Đã thêm, KCA giờ 18 câu.
+- Lỗi cũ: bộ tự sinh dạng rút gọn tạo `'s` cho `has` (Beckham has control) → "Beckham 's control" sai. Đã loại trong exercise_polish.py.
+- Unit 2 (Day 7, XA–XO, đáp án tr. 282): khớp 100% (A 10, B 9, C 11, D 10, E 7, F 9, G, H 15, I 7, J 6, K 6, L 12, M 10, N, O 10).
+- Chưa có trong app: Unit 1 bài C–J (trang 9–11) của C1&C2. Chưa thêm vì chưa có yêu cầu.

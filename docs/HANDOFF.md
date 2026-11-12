@@ -307,3 +307,8 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
 Báo cáo: `docs/review/lesson44-knowledge-audit.md`. 17 chỗ sửa trong `days.txt`, `lecture_d1.py`, `book_items.py`, `writing_scaffold.json`, `build.py` (rubric riêng cho M2/M3 qua `lecture_d1.RUBRIC_BY`). Sau khi sửa phải chạy lại `python3 scripts/g1/build.py`. Còn lại: đối chiếu đáp án với sách giấy (xem mục "Chưa kiểm chứng").
 
 Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 tr. 8 bài B đã điền vào `original` (`exercise_polish.KB_ORIGINAL`). Còn thiếu câu gốc: G1D3KU3C1 và G1D4KC4 (cần trang tương ứng), đáp án in (Key tr. 220) chưa có.
+
+### 2026-11-12 · Đối chiếu Destination C1&C2 Unit 1 A/B và Unit 2
+- Đáp án in tr. 281-282 khớp với KCA/KCB (Day 1) và XA–XO (Day 7).
+- Thêm KCA câu 10 (are you phoning) và câu 14 (headline GIVES); bỏ `'s` sai cho `has` (main verb have).
+- Còn lại: C1&C2 Unit 1 bài C–J chưa đưa vào app; Unit 3 key (tr. 283) chưa có đề để đối chiếu.
