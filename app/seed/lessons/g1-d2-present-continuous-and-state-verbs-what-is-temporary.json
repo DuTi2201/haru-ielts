@@ -1189,7 +1189,7 @@
        "show": "title"
       },
       {
-       "say": "Have nghĩa là có thì là trạng thái. Have lunch nghĩa là ăn thì là hành động.",
+       "say": "Have, nghĩa là có: trạng thái.",
        "show": "m1"
       },
       {
@@ -1198,13 +1198,16 @@
        "gap": true
       },
       {
-       "en": "Are you having lunch at the moment?",
-       "vi": "Bạn đang ăn trưa à?",
-       "gap": true,
+       "say": "Have lunch, nghĩa là ăn trưa: hành động.",
        "show": "m2"
       },
       {
-       "say": "Think nghĩa là cho rằng là trạng thái. Think of nghĩa là cân nhắc thì là hành động.",
+       "en": "Are you having lunch at the moment?",
+       "vi": "Bạn đang ăn trưa à?",
+       "gap": true
+      },
+      {
+       "say": "Think, nghĩa là cho rằng: trạng thái.",
        "show": "m3"
       },
       {
@@ -1213,13 +1216,16 @@
        "gap": true
       },
       {
-       "en": "I'm thinking of changing my job.",
-       "vi": "Tôi đang cân nhắc đổi việc.",
-       "gap": true,
+       "say": "Think of, nghĩa là cân nhắc: hành động.",
        "show": "m4"
       },
       {
-       "say": "See nghĩa là hiểu là trạng thái. See nghĩa là hẹn gặp thì là hành động.",
+       "en": "I'm thinking of changing my job.",
+       "vi": "Tôi đang cân nhắc đổi việc.",
+       "gap": true
+      },
+      {
+       "say": "See, nghĩa là hiểu: trạng thái.",
        "show": "m5"
       },
       {
@@ -1228,20 +1234,26 @@
        "gap": true
       },
       {
-       "en": "I'm seeing the dentist at four.",
-       "vi": "Bốn giờ tôi hẹn gặp nha sĩ.",
-       "gap": true,
+       "say": "See, nghĩa là hẹn gặp: hành động.",
        "show": "m6"
       },
       {
-       "say": "Be rude nghĩa là tính vốn thô lỗ. Be being rude nghĩa là hôm nay đang cư xử thô lỗ.",
+       "en": "I'm seeing the dentist at four.",
+       "vi": "Bốn giờ tôi hẹn gặp nha sĩ.",
+       "gap": true
+      },
+      {
+       "say": "Be rude, nghĩa là vốn thô lỗ: trạng thái.",
        "show": "m7"
+      },
+      {
+       "say": "Be being rude, nghĩa là hôm nay đang cư xử thô lỗ: hành động.",
+       "show": "m8"
       },
       {
        "en": "He's being rude today.",
        "vi": "Hôm nay anh ấy cư xử thô lỗ.",
-       "gap": true,
-       "show": "m8"
+       "gap": true
       },
       {
        "say": "Cùng một động từ, nghĩa trạng thái dùng hiện tại đơn, nghĩa hành động chia tiếp diễn được.",
