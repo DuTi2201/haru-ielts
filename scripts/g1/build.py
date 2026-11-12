@@ -491,7 +491,7 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
             {"title": "Mục tiêu của ngày", "body": "\n".join(f"• {x}" for x in d.get("can") or [d["goal"]]), "kind": "goal"},
             *([{"title": "Cách đọc từng đoạn", "body": d["method"], "kind": "language"}] if d.get("method") else []),
             {"title": "Bài của sách nằm trong app", "body": book_body + "\n• Các bài này có sẵn trong app kèm đáp án của sách và lời giải thích từng câu.", "kind": "language"},
-            {"title": "Cách học từ C1", "body": "• Học từ C1 bằng một từ B2 đồng nghĩa, không học nghĩa tiếng Việt dài.\n• Chọn 5 đến 10 từ bạn thích nhất rồi gõ câu về chính mình bằng bàn phím tiếng Anh.", "kind": "language"},
+            {"title": "Cách học từ vựng", "body": "• Học từ mới bằng một từ đồng nghĩa dễ hơn, không học nghĩa tiếng Việt dài.\n• Chọn 5 đến 10 từ bạn thích nhất rồi gõ câu về chính mình bằng bàn phím tiếng Anh.", "kind": "language"},
         ],
         "bank": "g1", "exercise_ids": [e["id"] for k in ("reading", "build", "listening", "writing") for e in bank[k]], "sessions": sessions,
         "editor_notes": [{"title": "Nguồn", "body": d.get("editor", "Từ vựng và bài tập theo Destination B2 Unit 18 (trang 112–115, đáp án trang 244); chín từ C1 và cách neo theo giáo án của khóa học.")}],
