@@ -33,9 +33,20 @@ KB_SITUATION = {
     "G1D1KB-8": "Hỏi: Melanie có cần ai giúp sơn căn hộ mới của cô ấy không?",
 }
 KB_INSTRUCTION = (
-    "Chọn thì theo điều người nói muốn nói: đây là thói quen, việc đang diễn ra, hay việc đã xong "
-    "mà còn liên quan tới bây giờ?"
+    "Câu gốc ở trên sai ở phần in đậm. Gõ phần thay thế đúng, theo điều người nói muốn nói: "
+    "thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?"
 )
+# the book's own wrong sentences, copied from Destination B2 Unit 1, p. 8, exercise B (bold = the part to rewrite)
+KB_ORIGINAL = {
+    "G1D1KB-1": "My dad **is often getting up** late on Saturday mornings.",
+    "G1D1KB-2": "**Are you speaking** any other languages apart from English?",
+    "G1D1KB-3": "**I already buy** all my Christmas presents and it's only October!",
+    "G1D1KB-4": "It's the first time **I'm ever having** a party at home.",
+    "G1D1KB-5": "Actually, I think Darren **does works** quite hard sometimes.",
+    "G1D1KB-6": "Carlo **is never eating** Chinese food before.",
+    "G1D1KB-7": "Sean **already books** a table for tonight.",
+    "G1D1KB-8": "**Needs Melanie** any help painting her new flat?",
+}
 
 # the verb of a gap whose tense the book had made wrong: shown beside the gap
 VERB_HINT = {
@@ -132,9 +143,11 @@ def polish_build(items: list[dict]) -> None:
                 if len(cleaned) > 12:
                     e["instruction_vi"] = cleaned
             if e["id"] in KB_SITUATION:
-                e["kind"] = "word"
-                e["task_vi"] = "Gõ phần còn thiếu để câu đúng nghĩa"
+                e["kind"] = "fix" if e["id"] in KB_ORIGINAL else "word"
+                e["task_vi"] = "Sửa phần in đậm cho đúng" if e["id"] in KB_ORIGINAL else "Gõ phần còn thiếu để câu đúng nghĩa"
                 e["situation_vi"] = KB_SITUATION[e["id"]]
+                if e["id"] in KB_ORIGINAL:
+                    e["original"] = KB_ORIGINAL[e["id"]]
                 e["instruction_vi"] = KB_INSTRUCTION
             if e["id"] in VERB_HINT:
                 e["text"] = e["text"].replace("( ㉠ )", f"( ㉠ ) ({VERB_HINT[e['id']]})", 1)

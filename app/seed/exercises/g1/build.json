@@ -266,7 +266,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa cho đúng (gõ lại) (1/8)",
    "points": 3,
-   "instruction_vi": "Chọn thì theo điều người nói muốn nói: đây là thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
+   "instruction_vi": "Câu gốc ở trên sai ở phần in đậm. Gõ phần thay thế đúng, theo điều người nói muốn nói: thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
    "text": "My dad ( ㉠ ) late on Saturday mornings.",
    "blanks": [
     {
@@ -281,9 +281,10 @@
     }
    ],
    "tips_vi": [],
-   "kind": "word",
-   "task_vi": "Gõ phần còn thiếu để câu đúng nghĩa",
-   "situation_vi": "Bố tôi hay dậy muộn vào các sáng thứ Bảy."
+   "kind": "fix",
+   "task_vi": "Sửa phần in đậm cho đúng",
+   "situation_vi": "Bố tôi hay dậy muộn vào các sáng thứ Bảy.",
+   "original": "My dad **is often getting up** late on Saturday mornings."
   },
   {
    "id": "G1D1KB-2",
@@ -293,7 +294,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa cho đúng (gõ lại) (2/8)",
    "points": 3,
-   "instruction_vi": "Chọn thì theo điều người nói muốn nói: đây là thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
+   "instruction_vi": "Câu gốc ở trên sai ở phần in đậm. Gõ phần thay thế đúng, theo điều người nói muốn nói: thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
    "text": "( ㉠ ) any other languages apart from English?",
    "blanks": [
     {
@@ -306,9 +307,10 @@
     }
    ],
    "tips_vi": [],
-   "kind": "word",
-   "task_vi": "Gõ phần còn thiếu để câu đúng nghĩa",
-   "situation_vi": "Hỏi người kia: bạn có nói thứ tiếng nào khác ngoài tiếng Anh không?"
+   "kind": "fix",
+   "task_vi": "Sửa phần in đậm cho đúng",
+   "situation_vi": "Hỏi người kia: bạn có nói thứ tiếng nào khác ngoài tiếng Anh không?",
+   "original": "**Are you speaking** any other languages apart from English?"
   },
   {
    "id": "G1D1KB-3",
@@ -318,7 +320,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa cho đúng (gõ lại) (3/8)",
    "points": 3,
-   "instruction_vi": "Chọn thì theo điều người nói muốn nói: đây là thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
+   "instruction_vi": "Câu gốc ở trên sai ở phần in đậm. Gõ phần thay thế đúng, theo điều người nói muốn nói: thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
    "text": "( ㉠ ) all my Christmas presents and it's only October!",
    "blanks": [
     {
@@ -332,9 +334,10 @@
     }
    ],
    "tips_vi": [],
-   "kind": "word",
-   "task_vi": "Gõ phần còn thiếu để câu đúng nghĩa",
-   "situation_vi": "Tôi mua xong hết quà Giáng sinh rồi, mà mới tháng Mười!"
+   "kind": "fix",
+   "task_vi": "Sửa phần in đậm cho đúng",
+   "situation_vi": "Tôi mua xong hết quà Giáng sinh rồi, mà mới tháng Mười!",
+   "original": "**I already buy** all my Christmas presents and it's only October!"
   },
   {
    "id": "G1D1KB-4",
@@ -344,7 +347,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa cho đúng (gõ lại) (4/8)",
    "points": 3,
-   "instruction_vi": "Chọn thì theo điều người nói muốn nói: đây là thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
+   "instruction_vi": "Câu gốc ở trên sai ở phần in đậm. Gõ phần thay thế đúng, theo điều người nói muốn nói: thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
    "text": "It's the first time ( ㉠ ) a party at home.",
    "blanks": [
     {
@@ -360,9 +363,10 @@
     }
    ],
    "tips_vi": [],
-   "kind": "word",
-   "task_vi": "Gõ phần còn thiếu để câu đúng nghĩa",
-   "situation_vi": "Đây là lần đầu tiên tôi tổ chức tiệc ở nhà."
+   "kind": "fix",
+   "task_vi": "Sửa phần in đậm cho đúng",
+   "situation_vi": "Đây là lần đầu tiên tôi tổ chức tiệc ở nhà.",
+   "original": "It's the first time **I'm ever having** a party at home."
   },
   {
    "id": "G1D1KB-5",
@@ -372,7 +376,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa cho đúng (gõ lại) (5/8)",
    "points": 3,
-   "instruction_vi": "Chọn thì theo điều người nói muốn nói: đây là thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
+   "instruction_vi": "Câu gốc ở trên sai ở phần in đậm. Gõ phần thay thế đúng, theo điều người nói muốn nói: thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
    "text": "Actually, I think Darren ( ㉠ ) quite hard sometimes.",
    "blanks": [
     {
@@ -386,9 +390,10 @@
     }
    ],
    "tips_vi": [],
-   "kind": "word",
-   "task_vi": "Gõ phần còn thiếu để câu đúng nghĩa",
-   "situation_vi": "Thực ra, tôi nghĩ đôi khi Darren làm việc khá chăm chỉ. (Actually: đính chính lại)"
+   "kind": "fix",
+   "task_vi": "Sửa phần in đậm cho đúng",
+   "situation_vi": "Thực ra, tôi nghĩ đôi khi Darren làm việc khá chăm chỉ. (Actually: đính chính lại)",
+   "original": "Actually, I think Darren **does works** quite hard sometimes."
   },
   {
    "id": "G1D1KB-6",
@@ -398,7 +403,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa cho đúng (gõ lại) (6/8)",
    "points": 3,
-   "instruction_vi": "Chọn thì theo điều người nói muốn nói: đây là thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
+   "instruction_vi": "Câu gốc ở trên sai ở phần in đậm. Gõ phần thay thế đúng, theo điều người nói muốn nói: thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
    "text": "Carlo ( ㉠ ) Chinese food before.",
    "blanks": [
     {
@@ -414,9 +419,10 @@
     }
    ],
    "tips_vi": [],
-   "kind": "word",
-   "task_vi": "Gõ phần còn thiếu để câu đúng nghĩa",
-   "situation_vi": "Từ trước tới giờ Carlo chưa ăn đồ ăn Trung Quốc."
+   "kind": "fix",
+   "task_vi": "Sửa phần in đậm cho đúng",
+   "situation_vi": "Từ trước tới giờ Carlo chưa ăn đồ ăn Trung Quốc.",
+   "original": "Carlo **is never eating** Chinese food before."
   },
   {
    "id": "G1D1KB-7",
@@ -426,7 +432,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa cho đúng (gõ lại) (7/8)",
    "points": 3,
-   "instruction_vi": "Chọn thì theo điều người nói muốn nói: đây là thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
+   "instruction_vi": "Câu gốc ở trên sai ở phần in đậm. Gõ phần thay thế đúng, theo điều người nói muốn nói: thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
    "text": "Sean ( ㉠ ) a table for tonight.",
    "blanks": [
     {
@@ -442,9 +448,10 @@
     }
    ],
    "tips_vi": [],
-   "kind": "word",
-   "task_vi": "Gõ phần còn thiếu để câu đúng nghĩa",
-   "situation_vi": "Sean đã đặt bàn cho tối nay rồi."
+   "kind": "fix",
+   "task_vi": "Sửa phần in đậm cho đúng",
+   "situation_vi": "Sean đã đặt bàn cho tối nay rồi.",
+   "original": "Sean **already books** a table for tonight."
   },
   {
    "id": "G1D1KB-8",
@@ -454,7 +461,7 @@
    "number": "Bước 2",
    "title_vi": "Sách · Sửa cho đúng (gõ lại) (8/8)",
    "points": 3,
-   "instruction_vi": "Chọn thì theo điều người nói muốn nói: đây là thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
+   "instruction_vi": "Câu gốc ở trên sai ở phần in đậm. Gõ phần thay thế đúng, theo điều người nói muốn nói: thói quen, việc đang diễn ra, hay việc đã xong mà còn liên quan tới bây giờ?",
    "text": "( ㉠ ) any help painting her new flat?",
    "blanks": [
     {
@@ -468,9 +475,10 @@
     }
    ],
    "tips_vi": [],
-   "kind": "word",
-   "task_vi": "Gõ phần còn thiếu để câu đúng nghĩa",
-   "situation_vi": "Hỏi: Melanie có cần ai giúp sơn căn hộ mới của cô ấy không?"
+   "kind": "fix",
+   "task_vi": "Sửa phần in đậm cho đúng",
+   "situation_vi": "Hỏi: Melanie có cần ai giúp sơn căn hộ mới của cô ấy không?",
+   "original": "**Needs Melanie** any help painting her new flat?"
   },
   {
    "id": "G1D1KC2-1",

@@ -36,3 +36,9 @@ Công thức khẳng định/phủ định/câu hỏi, quy tắc -s/-es/-ies, ba
 3. 8 bài gõ lại "Sửa cho đúng" (KB) vẫn không có câu gốc sai của sách (xem HANDOFF).
 4. Ví dụ "Do you believe in God?" là của thầy; nội dung tôn giáo có thể không hợp với mọi người học. Đã giữ nguyên.
 5. Chất lượng giọng đọc và ngữ điệu chưa ai nghe (xem QUALITY_LESSON44.md mục 5).
+
+## Cập nhật sau khi có ảnh sách (2026-11-12)
+
+Đối chiếu với Destination B2 tr. 8–11 và IELTS Grammar 6.5+ tr. 1–7: các bài A (10 câu), B (8 câu) tr. 8, bài C1 (8 câu), C2 (10 mục, 12 chỗ trống) tr. 4 đúng số câu và đúng nội dung câu; phần lý thuyết tr. 2–3 khớp với thẻ (kể cả "kể chuyện, chỉ dẫn" mà bản rà soát đã thêm vào thẻ 3).
+Đã điền nguyên văn 8 câu gốc sai của bài B tr. 8 vào trường `original` (G1D1KB-1..8). Chưa so được đáp án in (Key tr. 220 không có trong ảnh) và Destination C1&C2 tr. 8 (KCA, KCB).
+Ghi chú: sách IELTS Grammar xếp *enjoy* vào động từ trạng thái (tr. 3). Ở mục 12 ở trên tôi nói enjoy dùng được tiếp diễn; điều đó đúng trong tiếng Anh thực tế (I'm enjoying it), nhưng sách xếp khác, nên khung bài viết chỉ dùng like/love để khỏi mâu thuẫn với sách.

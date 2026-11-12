@@ -305,3 +305,5 @@ The B1 book is a scan without a text layer: OCR it (tesseract, 200 dpi) before r
 
 ## Bài 44: rà soát kiến thức (2026-11-11)
 Báo cáo: `docs/review/lesson44-knowledge-audit.md`. 17 chỗ sửa trong `days.txt`, `lecture_d1.py`, `book_items.py`, `writing_scaffold.json`, `build.py` (rubric riêng cho M2/M3 qua `lecture_d1.RUBRIC_BY`). Sau khi sửa phải chạy lại `python3 scripts/g1/build.py`. Còn lại: đối chiếu đáp án với sách giấy (xem mục "Chưa kiểm chứng").
+
+Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 tr. 8 bài B đã điền vào `original` (`exercise_polish.KB_ORIGINAL`). Còn thiếu câu gốc: G1D3KU3C1 và G1D4KC4 (cần trang tương ứng), đáp án in (Key tr. 220) chưa có.
