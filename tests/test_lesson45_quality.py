@@ -35,7 +35,7 @@ def test_seed_is_sound_and_day_two_has_three_teaching_sittings():
     titles = [s.title_vi for s in DAY2.sessions[:3]]
     assert titles[0].startswith("Buổi 1") and titles[1].startswith("Buổi 2") and titles[2].startswith("Buổi 3")
     assert all(len(s.check) <= 24 for s in DAY2.sessions)
-    assert len(DAY2.grammar) == 7
+    assert len(DAY2.grammar) == 8
 
 
 @pytest.mark.parametrize("n", [1, 2])

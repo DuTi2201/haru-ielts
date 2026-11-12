@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 4,
  "sort_order": 102,
- "summary": "Dùng tiếp diễn khi muốn nói việc đó tạm thời; không để chữ \"now\" quyết định thay mình; phân biệt nghĩa trạng thái và nghĩa hành động của cùng một động từ. Thẻ: công thức; khi nào dùng; xu hướng đang thay đổi; always + V-ing để than phiền; kế hoạch đã lên lịch; sáu nhóm; một động từ, hai nghĩa.",
+ "summary": "Dùng tiếp diễn khi muốn nói việc đó tạm thời; không để chữ \"now\" quyết định thay mình; phân biệt nghĩa trạng thái và nghĩa hành động của cùng một động từ. Thẻ: công thức; khi nào dùng; xu hướng đang thay đổi; always + V-ing để than phiền; kế hoạch đã lên lịch; sáu nhóm; một động từ, hai nghĩa; lỗi thường gặp.",
  "vocab": [
   {
    "headword": "temporary",
@@ -263,6 +263,18 @@
    },
    "step_vi": "Khi nào dùng",
    "note_vi": "Lỗi người Việt hay mắc: Chia tiếp diễn theo danh sách mà không nhìn nghĩa: ~~Are you having a ticket?~~ → Do you have a ticket?"
+  },
+  {
+   "pattern": "Present continuous · lỗi thường gặp",
+   "meaning_vi": "Sáu lỗi người Việt hay mắc với thì tiếp diễn",
+   "usage_context_vi": "## Sai và đúng\n| Sai | Đúng | Vì sao |\n| She working now. | She is working now. | Thiếu am / is / are |\n| Where she is going? | Where is she going? | Câu hỏi: đưa be lên trước chủ ngữ |\n| He is play football. | He is playing football. | Sau be cần V-ing |\n| She is runing. | She is running. | Gấp đôi phụ âm trước -ing |\n| I am knowing the answer. | I know the answer. | know là động từ trạng thái |\n| He is usually having lunch. | He usually has lunch. | Thói quen thì dùng hiện tại đơn |",
+   "contrasts": [],
+   "example_en": "She is running in the park.",
+   "example_vi": "Cô ấy đang chạy trong công viên.",
+   "importance": "normal",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-7, 10; cách giảng của khóa học",
+   "step_vi": "Lỗi thường gặp",
+   "note_vi": "Lỗi người Việt hay mắc: Thấy now là chia tiếp diễn, hoặc bỏ be khi nói nhanh."
   }
  ],
  "notes": [
@@ -483,18 +495,20 @@
         "vi": "Lan đang nói chuyện với khách à?"
        }
       ],
+      "persons_plain": true,
+      "spelling_title": "Thêm -ing",
       "persons": [
        {
         "who": "I",
-        "verb": "am working"
+        "verb": "am + V-ing"
        },
        {
         "who": "he · she · it",
-        "verb": "is working"
+        "verb": "is + V-ing"
        },
        {
         "who": "you · we · they",
-        "verb": "are working"
+        "verb": "are + V-ing"
        }
       ],
       "spelling": [
@@ -810,7 +824,7 @@
   },
   {
    "title_vi": "Buổi 2 · than phiền, kế hoạch, động từ trạng thái",
-   "can_do_vi": "Sau buổi này bạn nắm được: be + always + v-ing: thói quen làm người nói bực; việc đã hẹn, đã sắp xếp cho tương lai gần.",
+   "can_do_vi": "Sau buổi này bạn nắm được: be + always + v-ing: thói quen làm người nói bực; việc đã hẹn, đã sắp xếp cho tương lai gần; động từ chỉ trạng thái thường không chia tiếp diễn.",
    "use_vi": "Writing Task 1 và Speaking Part 3 nói về xu hướng (`is rising`, `is becoming`). Lỗi `I am knowing`, `we are seeing that` làm mất điểm ngữ pháp.",
    "vocab": [
     "annoying"
@@ -819,7 +833,8 @@
     "Present continuous · always + V-ing để than phiền",
     "Present continuous · kế hoạch đã lên lịch",
     "State verbs · sáu nhóm",
-    "State verbs · một động từ, hai nghĩa"
+    "State verbs · một động từ, hai nghĩa",
+    "Present continuous · lỗi thường gặp"
    ],
    "check": [
     "G1D2I5",

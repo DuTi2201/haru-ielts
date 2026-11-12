@@ -95,7 +95,7 @@ SITTING_1 = [
                   {"key": "neg", "label": "Phủ định", "parts": ["Lan", "isn't talking", "to a customer."], "hi": [1], "vi": "Lan không đang nói chuyện với khách."},
                   {"key": "qst", "label": "Câu hỏi", "parts": ["Is", "Lan talking", "to a customer?"], "hi": [0, 1], "vi": "Lan đang nói chuyện với khách à?"},
               ],
-              "persons": [{"who": "I", "verb": "am working"}, {"who": "he · she · it", "verb": "is working"}, {"who": "you · we · they", "verb": "are working"}],
+              "persons_plain": True, "spelling_title": "Thêm -ing", "persons": [{"who": "I", "verb": "am + V-ing"}, {"who": "he · she · it", "verb": "is + V-ing"}, {"who": "you · we · they", "verb": "are + V-ing"}],
               "spelling": [["write", "writing"], ["run", "running"], ["lie", "lying"], ["study", "studying"], ["have", "having"]],
               "short": ["Yes, she is.", "No, she isn't."],
               "rule": "am / is / are + động từ thêm -ing. Câu hỏi: đưa am / is / are lên đầu."}, "lines": [
