@@ -455,7 +455,7 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
     add_packs(extra, "Mở rộng không bắt buộc", "Cụm động từ và thành ngữ, chỉ cần nhận ra khi đọc và nghe: ")
     book_body = "\n".join(f"• {b[0]}, trang {b[1]}: bài {b[2]} ({b[3]} câu, khoảng {b[4]} phút)" for b in d["book"])
     lesson = {
-        "slug": f"g1-d{n}-{B.slugify(d['title'])}"[:60].rstrip("-"),
+        "slug": f"g1-d{n}-{B.slugify(d.get('slug_title', d['title']))}"[:60].rstrip("-"),
         "title": f"G1 · Ngày {n} · {d['title_vi']}"[:120], "title_en": d["title"], "topic": TOPIC, "track": "beginner", "level": 4, "sort_order": 100 + n,
         "summary": d["goal"], "vocab": vocab, "grammar": [],
         "notes": [

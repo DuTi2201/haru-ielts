@@ -49,10 +49,9 @@ TRAPS_V = [
 ]
 
 SITTING_1 = [
-    {"kind": "title", "hook": "Nếu chỉ biết một động từ để nói về suy nghĩ, bài viết của bạn sẽ ra sao?", "lines": [
-        {"say": "Một câu tiếng Anh đứng được nhờ hai thứ: chủ ngữ là danh từ, và vị ngữ là động từ. Bây giờ hỏi bạn một câu: nếu chỉ biết một động từ để nói về suy nghĩ, là think, thì bài viết của bạn sẽ như thế nào?", "show": "hook"},
-        {"say": "Cả bài chỉ có một nhịp. Buổi này mình học mười động từ, mỗi từ mang một sắc thái riêng: đánh giá, giả định, ước tính, suy luận, biện minh, suy ngẫm. Mười từ này đáng học thuộc lòng, vì chúng là xương sống của IELTS Writing."},
-        {"say": "Và có một mẹo để không bao giờ học vẹt: gắn từ khó vào một từ quen mà bạn đã biết cách dùng."},
+    {"kind": "title", "hook": "Ngoài think, bạn còn động từ nào để nói về suy nghĩ?", "lines": [
+        {"say": "Ngoài think, bạn còn động từ nào để nói về suy nghĩ?", "show": "hook"},
+        {"say": "Nếu chỉ có think, bài viết sẽ đơn điệu. Hôm nay học mười động từ, mỗi từ một sắc thái. Mười từ này đáng học thuộc."},
     ]},
     {"kind": "scene", "visual": "picture_cards", "eyebrow": "Mẹo của buổi này", "title": "Gắn từ khó vào từ quen",
      "data": {"rows": ANCHORS, "rule": "Đừng học nghĩa tiếng Việt dài. Mỗi từ khó gắn vào một từ quen."}, "lines": [
@@ -157,9 +156,9 @@ TRAPS_W = [
 ]
 
 SITTING_2 = [
-    {"kind": "title", "hook": "Cùng dịch là suy nghĩ, cân nhắc, hiểu, vậy sao không thay bừa cho nhau được?", "lines": [
-        {"say": "Cùng dịch là suy nghĩ, cân nhắc, hiểu. Vậy tại sao không thể thay bừa từ này bằng từ kia?", "show": "hook"},
-        {"say": "Vì mỗi từ sống trong một ngữ cảnh riêng. Buổi này mình học cách soi ngữ cảnh, giống như mở từ điển Anh Anh và xem những câu ví dụ mẫu."},
+    {"kind": "title", "hook": "Cùng nghĩa suy nghĩ, nhưng không thay bừa được. Vì sao?", "lines": [
+        {"say": "Cùng nghĩa suy nghĩ, nhưng không thay bừa được. Vì sao?", "show": "hook"},
+        {"say": "Vì mỗi từ có ngữ cảnh riêng. Hôm nay học cách soi ngữ cảnh."},
     ]},
     {"kind": "word", "headword": "grasp", "lines": [
         {"say": "Mở đầu với từ dễ: bạn mất một lúc lâu mới hiểu luật chơi của trò chơi. Hiểu thấu, nắm được. Đó là grasp. Neo vào understand."},
@@ -244,9 +243,9 @@ PARADOX = [
 ]
 
 SITTING_3 = [
-    {"kind": "title", "hook": "Một tối thứ Bảy có hai lời mời dự tiệc trùng giờ. Chọn bên nào?", "lines": [
-        {"say": "Một tối thứ Bảy, bạn nhận được hai lời mời dự tiệc, cùng giờ, bạn thân ở cả hai nơi. Chọn bên nào? Cảm giác bí ấy có một cái tên trong tiếng Anh.", "show": "hook"},
-        {"say": "Buổi này là nhóm danh từ về suy nghĩ. Câu tiếng Anh đứng được nhờ danh từ làm chủ ngữ, nên nhóm này cũng quan trọng không kém động từ."},
+    {"kind": "title", "hook": "Hai lời mời tiệc cùng giờ. Bạn đi bên nào?", "lines": [
+        {"say": "Hai lời mời tiệc cùng giờ. Bạn đi bên nào? Cảm giác bí ấy có tên trong tiếng Anh.", "show": "hook"},
+        {"say": "Hôm nay học nhóm danh từ về suy nghĩ."},
     ]},
     {"kind": "word", "headword": "dilemma", "lines": [
         {"say": "Đó là dilemma: thế khó, phải chọn giữa hai điều đều khó xử. Neo vào difficult situation."},
@@ -334,9 +333,9 @@ SESSIONS = [
 ]
 
 SITTING_4 = [
-    {"kind": "title", "hook": "Giáo dục là chủ đề xuất hiện dày đặc nhất trong IELTS. Vậy nên học từ nào?", "lines": [
-        {"say": "Giáo dục là một trong hai chủ đề xuất hiện nhiều nhất ở Writing Task 2 và Speaking Part 3. Vậy nên học từ nào, bỏ từ nào?", "show": "hook"},
-        {"say": "Với các nhóm khác, bạn được chọn lọc. Nhưng riêng nhóm này, cứ học hết, vì từ nào ở đây cũng cần. Và có một điều đáng để ý: nhiều câu có cả bốn đáp án đúng ngữ pháp, mà vẫn chỉ một đáp án nghe tự nhiên. Đó là chuyện của kết hợp từ."},
+    {"kind": "title", "hook": "Chủ đề giáo dục: học từ nào, bỏ từ nào?", "lines": [
+        {"say": "Chủ đề giáo dục: học từ nào, bỏ từ nào?", "show": "hook"},
+        {"say": "Nhóm này học hết, không chọn lọc. Và chú ý kết hợp từ: đúng ngữ pháp chưa đủ."},
     ]},
     {"kind": "word", "headword": "special needs", "lines": [
         {"say": "Hệ thống giáo dục gọi học sinh yếu cần hỗ trợ thêm là học sinh có special needs. Cụm cố định."},

@@ -182,7 +182,7 @@ SECTIONS: list[tuple] = [
 ]
 
 DAY = {
-    "title": "Thinking and learning: C1 and C2 Unit 2", "title_vi": "Suy nghĩ và học tập: C1&C2 Unit 2",
+    "title": "Thinking and learning", "slug_title": "Thinking and learning: C1 and C2 Unit 2", "title_vi": "Suy nghĩ và học tập",
     "goal": "Làm quen 9 từ C1 neo vào từ B2 rồi nâng cấp lớp từ B2 Unit 18 bằng từ C1 của Unit 2: học mỗi từ C1 qua một từ B2 đồng nghĩa, và dùng đúng các cụm cố định (take into consideration, strike a balance, make up your mind).",
     "ielts": "Từ của Unit này là lõi của Reading và Listening về giáo dục và tâm lý; kết hợp từ chính xác tăng điểm Lexical Resource khi nói và viết.",
     "book": [("Destination C1&C2", "14", "A–D", 40, 35), ("Destination C1&C2", "15–18", "H–K, M–O (phần lõi)", 70, 60),
