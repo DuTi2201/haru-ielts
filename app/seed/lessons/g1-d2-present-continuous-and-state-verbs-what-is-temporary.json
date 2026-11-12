@@ -402,6 +402,7 @@
       "answers": [
        {
         "key": "a1",
+        "icon": "house",
         "at": "always",
         "tense": "Hiện tại đơn",
         "en": "She lives in Thailand now.",
@@ -409,6 +410,7 @@
        },
        {
         "key": "a2",
+        "icon": "suitcase",
         "at": "window",
         "tense": "Tiếp diễn",
         "en": "She is living in Thailand now.",

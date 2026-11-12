@@ -99,8 +99,8 @@ SITTING_1 = [
     {"kind": "scene", "visual": "tense_timeline", "eyebrow": "Tình huống", "title": "Một câu hỏi, hai câu đáp",
      "data": {"question": "Where does your sister live now?", "question_vi": "Bây giờ chị bạn sống ở đâu?", "question_label": "Bạn của bạn hỏi",
               "answers": [
-                  {"key": "a1", "at": "always", "tense": "Hiện tại đơn", "en": "She lives in Thailand now.", "vi": "Chị ấy định cư ở đó. Now chỉ so với trước kia."},
-                  {"key": "a2", "at": "window", "tense": "Tiếp diễn", "en": "She is living in Thailand now.", "vi": "Chị ấy chỉ ở tạm, rồi sẽ đổi."},
+                  {"key": "a1", "icon": "house", "at": "always", "tense": "Hiện tại đơn", "en": "She lives in Thailand now.", "vi": "Chị ấy định cư ở đó. Now chỉ so với trước kia."},
+                  {"key": "a2", "icon": "suitcase", "at": "window", "tense": "Tiếp diễn", "en": "She is living in Thailand now.", "vi": "Chị ấy chỉ ở tạm, rồi sẽ đổi."},
               ],
               "rule": "Cùng chữ now, cả hai câu đều đúng. Khác nhau ở điều bạn muốn người nghe hiểu: ổn định hay tạm thời."}, "lines": [
         {"say": "Bạn bè hỏi bạn một câu ở hiện tại đơn."},
