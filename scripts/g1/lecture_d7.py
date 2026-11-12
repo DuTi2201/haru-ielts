@@ -406,13 +406,65 @@ SITTING_4 = [
     ]},
 ]
 
+# ------------------------------------------------------------------ sitting 5: fixed phrases
+PHRASES = [
+    _row("c1", "scales", "take into consideration", "We must take the cost into consideration.", "Cân nhắc, tính đến một yếu tố."),
+    _row("c2", "scales", "strike a balance", "Schools must strike a balance between study and play.", "Tìm điểm cân bằng giữa hai điều."),
+    _row("c3", "thought", "cross your mind", "It never crossed my mind to ask.", "Chợt nảy ra trong đầu."),
+    _row("c4", "magnifier", "figure out", "I finally figured out the answer.", "Tìm ra lời giải. Chỉ cần nhận ra."),
+    _row("c5", "bulb", "come up with", "She came up with a clever plan.", "Nghĩ ra một ý tưởng. Chỉ cần nhận ra."),
+]
+
+SITTING_5 = [
+    {"kind": "title", "hook": "Một số cụm từ nên học nguyên khối", "lines": [
+        {"say": "Một số cụm từ nên học nguyên khối, không tách rời từng chữ.", "show": "hook"},
+        {"say": "Ba cụm đầu cần dùng được. Hai cụm động từ cuối chỉ cần nhận ra khi đọc và nghe."},
+    ]},
+    {"kind": "word", "headword": "take into consideration", "lines": [
+        {"say": "Cụm thứ nhất: khi quyết định, bạn phải tính đến chi phí, thời gian và sức khỏe. Tính đến, cân nhắc một yếu tố. Đó là take into consideration."},
+    ]},
+    {"kind": "word", "headword": "strike a balance", "lines": [
+        {"say": "Cụm thứ hai: một trường học vừa muốn học sinh học giỏi, vừa muốn các em được vui chơi. Tìm điểm cân bằng giữa hai điều. Đó là strike a balance."},
+    ]},
+    {"kind": "word", "headword": "cross your mind", "lines": [
+        {"say": "Cụm thứ ba: một ý nghĩ chợt đến trong đầu, mà trước đó bạn chưa hề nghĩ tới. Đó là cross your mind."},
+    ]},
+    {"kind": "word", "headword": "figure out", "lines": [
+        {"say": "Hai cụm cuối là cụm động từ, chỉ cần nhận ra khi đọc và nghe. Figure out nghĩa là tìm ra lời giải."},
+    ]},
+    {"kind": "word", "headword": "come up with", "lines": [
+        {"say": "Come up with nghĩa là nghĩ ra một ý tưởng hay một kế hoạch."},
+    ]},
+    {"kind": "scene", "visual": "picture_cards", "eyebrow": "Cụm cố định", "title": "Ba cụm dùng được, hai cụm nhận ra",
+     "data": {"rows": PHRASES, "rule": "Học nguyên cụm. Ba cụm đầu cần dùng được; hai cụm cuối chỉ cần nhận ra."}, "lines": [
+        {"say": "Take into consideration: tính đến một yếu tố.", "show": "c1"},
+        {"en": "We must take the cost into consideration.", "vi": "Chúng ta phải tính đến chi phí.", "gap": True},
+        {"say": "Strike a balance: tìm điểm cân bằng.", "show": "c2"},
+        {"en": "Schools must strike a balance between study and play.", "vi": "Trường học phải cân bằng giữa học và chơi.", "gap": True},
+        {"say": "Cross your mind: chợt nảy ra trong đầu.", "show": "c3"},
+        {"en": "It never crossed my mind to ask.", "vi": "Tôi chưa từng nghĩ đến chuyện hỏi.", "gap": True},
+        {"say": "Figure out: tìm ra lời giải.", "show": "c4"},
+        {"en": "I finally figured out the answer.", "vi": "Cuối cùng tôi đã tìm ra đáp án.", "gap": True},
+        {"say": "Come up with: nghĩ ra một ý tưởng.", "show": "c5"},
+        {"en": "She came up with a clever plan.", "vi": "Cô ấy nghĩ ra một kế hoạch thông minh.", "gap": True},
+        {"say": "Học nguyên cụm. Ba cụm đầu cần dùng được, hai cụm cuối chỉ cần nhận ra.", "show": "rule"},
+    ]},
+    {"kind": "recap", "lines": [
+        {"say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
+    ]},
+    {"kind": "end", "next": "Tiếp theo: làm bài tập, rồi chọn 5 đến 10 từ yêu thích.", "lines": [
+        {"say": "Hết phần giảng. Bây giờ bạn làm bài tập trong app.", "show": "title"},
+    ]},
+]
+
 TITLES = [
     "Buổi 1 · mười động từ tư duy, cách neo vào từ quen",
     "Buổi 2 · hiểu, tin, cân nhắc: chọn từ theo ngữ cảnh",
     "Buổi 3 · danh từ tư duy: thế khó, linh cảm, nghịch lý",
-    "Buổi 4 · từ giáo dục: học hết, không chọn lọc",
+    "Buổi 4 · từ giáo dục: học đầy đủ",
+    "Buổi 5 · cụm cố định; cụm động từ chỉ cần nhận ra",
 ]
-LECTURES = [SITTING_1, SITTING_2, SITTING_3, SITTING_4]
+LECTURES = [SITTING_1, SITTING_2, SITTING_3, SITTING_4, SITTING_5]
 
 
 def reshape(sessions: list[dict]) -> list[dict]:

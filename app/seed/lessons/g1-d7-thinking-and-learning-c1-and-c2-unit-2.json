@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 4,
  "sort_order": 107,
- "summary": "Làm quen 9 từ C1 neo vào từ B2 rồi nâng cấp lớp từ B2 Unit 18 bằng từ C1 của Unit 2: học mỗi từ C1 qua một từ B2 đồng nghĩa, và dùng đúng các cụm cố định (take into consideration, strike a balance, make up your mind).",
+ "summary": "Nắm các động từ, danh từ và từ giáo dục về chủ đề suy nghĩ và học tập: học mỗi từ qua một từ quen đồng nghĩa, và dùng đúng các cụm cố định (take into consideration, strike a balance, cross your mind).",
  "vocab": [
   {
    "headword": "assess",
@@ -547,7 +547,7 @@
  "notes": [
   {
    "title": "Mục tiêu của ngày",
-   "body": "• Làm quen 9 từ C1 neo vào từ B2 rồi nâng cấp lớp từ B2 Unit 18 bằng từ C1 của Unit 2: học mỗi từ C1 qua một từ B2 đồng nghĩa, và dùng đúng các cụm cố định (take into consideration, strike a balance, make up your mind).",
+   "body": "• Nắm các động từ, danh từ và từ giáo dục về chủ đề suy nghĩ và học tập: học mỗi từ qua một từ quen đồng nghĩa, và dùng đúng các cụm cố định (take into consideration, strike a balance, cross your mind).",
    "kind": "goal"
   },
   {
@@ -1807,7 +1807,7 @@
    ]
   },
   {
-   "title_vi": "Buổi 4 · từ giáo dục: học hết, không chọn lọc",
+   "title_vi": "Buổi 4 · từ giáo dục: học đầy đủ",
    "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: special needs, conscientious, cram, mock exam, knowledgeable, curriculum, ...",
    "use_vi": "Từ của Unit này là lõi của Reading và Listening về giáo dục và tâm lý; kết hợp từ chính xác tăng điểm Lexical Resource khi nói và viết.",
    "vocab": [
@@ -2121,7 +2121,7 @@
    ]
   },
   {
-   "title_vi": "Làm quen C1 · neo vào từ B2 · Cụm cố định; cụm động từ chỉ cần nhận ra",
+   "title_vi": "Buổi 5 · cụm cố định; cụm động từ chỉ cần nhận ra",
    "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: take into consideration, strike a balance, cross your mind, figure out, come up with, ...",
    "use_vi": "Từ của Unit này là lõi của Reading và Listening về giáo dục và tâm lý; kết hợp từ chính xác tăng điểm Lexical Resource khi nói và viết.",
    "vocab": [
@@ -2130,10 +2130,186 @@
     "cross your mind",
     "figure out",
     "come up with"
+   ],
+   "lecture": [
+    {
+     "kind": "title",
+     "hook": "Một số cụm từ nên học nguyên khối",
+     "lines": [
+      {
+       "say": "Một số cụm từ nên học nguyên khối, không tách rời từng chữ.",
+       "show": "hook"
+      },
+      {
+       "say": "Ba cụm đầu cần dùng được. Hai cụm động từ cuối chỉ cần nhận ra khi đọc và nghe."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "take into consideration",
+     "lines": [
+      {
+       "say": "Cụm thứ nhất: khi quyết định, bạn phải tính đến chi phí, thời gian và sức khỏe. Tính đến, cân nhắc một yếu tố. Đó là take into consideration."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "strike a balance",
+     "lines": [
+      {
+       "say": "Cụm thứ hai: một trường học vừa muốn học sinh học giỏi, vừa muốn các em được vui chơi. Tìm điểm cân bằng giữa hai điều. Đó là strike a balance."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "cross your mind",
+     "lines": [
+      {
+       "say": "Cụm thứ ba: một ý nghĩ chợt đến trong đầu, mà trước đó bạn chưa hề nghĩ tới. Đó là cross your mind."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "figure out",
+     "lines": [
+      {
+       "say": "Hai cụm cuối là cụm động từ, chỉ cần nhận ra khi đọc và nghe. Figure out nghĩa là tìm ra lời giải."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "come up with",
+     "lines": [
+      {
+       "say": "Come up with nghĩa là nghĩ ra một ý tưởng hay một kế hoạch."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "picture_cards",
+     "eyebrow": "Cụm cố định",
+     "title": "Ba cụm dùng được, hai cụm nhận ra",
+     "data": {
+      "rows": [
+       {
+        "key": "c1",
+        "icon": "scales",
+        "head": "take into consideration",
+        "en": "We must take the cost into consideration.",
+        "vi": "Cân nhắc, tính đến một yếu tố."
+       },
+       {
+        "key": "c2",
+        "icon": "scales",
+        "head": "strike a balance",
+        "en": "Schools must strike a balance between study and play.",
+        "vi": "Tìm điểm cân bằng giữa hai điều."
+       },
+       {
+        "key": "c3",
+        "icon": "thought",
+        "head": "cross your mind",
+        "en": "It never crossed my mind to ask.",
+        "vi": "Chợt nảy ra trong đầu."
+       },
+       {
+        "key": "c4",
+        "icon": "magnifier",
+        "head": "figure out",
+        "en": "I finally figured out the answer.",
+        "vi": "Tìm ra lời giải. Chỉ cần nhận ra."
+       },
+       {
+        "key": "c5",
+        "icon": "bulb",
+        "head": "come up with",
+        "en": "She came up with a clever plan.",
+        "vi": "Nghĩ ra một ý tưởng. Chỉ cần nhận ra."
+       }
+      ],
+      "rule": "Học nguyên cụm. Ba cụm đầu cần dùng được; hai cụm cuối chỉ cần nhận ra."
+     },
+     "lines": [
+      {
+       "say": "Take into consideration: tính đến một yếu tố.",
+       "show": "c1"
+      },
+      {
+       "en": "We must take the cost into consideration.",
+       "vi": "Chúng ta phải tính đến chi phí.",
+       "gap": true
+      },
+      {
+       "say": "Strike a balance: tìm điểm cân bằng.",
+       "show": "c2"
+      },
+      {
+       "en": "Schools must strike a balance between study and play.",
+       "vi": "Trường học phải cân bằng giữa học và chơi.",
+       "gap": true
+      },
+      {
+       "say": "Cross your mind: chợt nảy ra trong đầu.",
+       "show": "c3"
+      },
+      {
+       "en": "It never crossed my mind to ask.",
+       "vi": "Tôi chưa từng nghĩ đến chuyện hỏi.",
+       "gap": true
+      },
+      {
+       "say": "Figure out: tìm ra lời giải.",
+       "show": "c4"
+      },
+      {
+       "en": "I finally figured out the answer.",
+       "vi": "Cuối cùng tôi đã tìm ra đáp án.",
+       "gap": true
+      },
+      {
+       "say": "Come up with: nghĩ ra một ý tưởng.",
+       "show": "c5"
+      },
+      {
+       "en": "She came up with a clever plan.",
+       "vi": "Cô ấy nghĩ ra một kế hoạch thông minh.",
+       "gap": true
+      },
+      {
+       "say": "Học nguyên cụm. Ba cụm đầu cần dùng được, hai cụm cuối chỉ cần nhận ra.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "recap",
+     "lines": [
+      {
+       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "show": "title"
+      }
+     ]
+    },
+    {
+     "kind": "end",
+     "next": "Tiếp theo: làm bài tập, rồi chọn 5 đến 10 từ yêu thích.",
+     "lines": [
+      {
+       "say": "Hết phần giảng. Bây giờ bạn làm bài tập trong app.",
+       "show": "title"
+      }
+     ]
+    }
    ]
   },
   {
-   "title_vi": "Tiếp nhận · C1&C2 Unit 2 · Khoanh từ đúng: nhóm từ về suy nghĩ (+1)",
+   "title_vi": "Tiếp nhận · Khoanh từ đúng: nhóm từ về suy nghĩ (+1)",
    "can_do_vi": "Sau buổi này bạn nhận ra đáp án đúng trong các bài của sách: khoanh từ đúng: nhóm từ về suy nghĩ; chọn từ đúng: thư gửi tòa soạn về giáo dục.",
    "use_vi": "Mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.",
    "check": [
@@ -2160,7 +2336,7 @@
    ]
   },
   {
-   "title_vi": "Tiếp nhận · C1&C2 Unit 2 · Tiền tố il-: có phải dạng phủ định không?",
+   "title_vi": "Tiếp nhận · Tiền tố il-: có phải dạng phủ định không?",
    "can_do_vi": "Sau buổi này bạn nhận ra đáp án đúng trong các bài của sách: tiền tố il-: có phải dạng phủ định không?.",
    "use_vi": "Mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.",
    "check": [
@@ -2184,7 +2360,7 @@
    ]
   },
   {
-   "title_vi": "Rèn luyện · C1&C2 Unit 2 · Điền động từ trong khung: các cách… (+1)",
+   "title_vi": "Rèn luyện · Điền động từ trong khung: các cách 'nghĩ' (+1)",
    "can_do_vi": "Sau buổi này bạn tự gõ được đáp án của sách: điền động từ trong khung: các cách 'nghĩ'; danh từ về suy nghĩ: điền từ đúng cho câu.",
    "use_vi": "Mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.",
    "check": [
@@ -2211,7 +2387,7 @@
    ]
   },
   {
-   "title_vi": "Rèn luyện · C1&C2 Unit 2 · Giới từ trong cụm và kết hợp từ (+1)",
+   "title_vi": "Rèn luyện · Giới từ trong cụm và kết hợp từ (+1)",
    "can_do_vi": "Sau buổi này bạn tự gõ được đáp án của sách: giới từ trong cụm và kết hợp từ; một từ dùng cho cả ba câu.",
    "use_vi": "Mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.",
    "check": [
@@ -2240,7 +2416,7 @@
    ]
   },
   {
-   "title_vi": "Rèn luyện · C1&C2 Unit 2 · Điền một từ: tổ chức Don't Trust… (+2)",
+   "title_vi": "Rèn luyện · Điền một từ: tổ chức Don't Trust Online… (+2)",
    "can_do_vi": "Sau buổi này bạn tự gõ được đáp án của sách: điền một từ: tổ chức don't trust online information; viết lại câu với từ cho sẵn (3 đến 8 từ); biến đổi từ (câu rời).",
    "use_vi": "Mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.",
    "check": [
@@ -2269,7 +2445,7 @@
    ]
   },
   {
-   "title_vi": "Rèn luyện · C1&C2 Unit 2 · Biến đổi từ trong đoạn văn: Rhetoric",
+   "title_vi": "Rèn luyện · Biến đổi từ trong đoạn văn: Rhetoric",
    "can_do_vi": "Sau buổi này bạn tự gõ được đáp án của sách: biến đổi từ trong đoạn văn: rhetoric.",
    "use_vi": "Mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.",
    "check": [
@@ -2313,7 +2489,7 @@
    ]
   },
   {
-   "title_vi": "Mở rộng không bắt buộc · C1&C2 Unit 2 · Nối câu: cụm động từ về… (+1)",
+   "title_vi": "Mở rộng không bắt buộc · Nối câu: cụm động từ về suy nghĩ (mở… (+1)",
    "can_do_vi": "Cụm động từ và thành ngữ, chỉ cần nhận ra khi đọc và nghe: nối câu: cụm động từ về suy nghĩ (mở rộng); viết lại câu bằng cụm động từ (mở rộng).",
    "use_vi": "Mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.",
    "check": [
@@ -2336,7 +2512,7 @@
    ]
   },
   {
-   "title_vi": "Mở rộng không bắt buộc · C1&C2 Unit 2 · Cụm động từ với out: có… (+1)",
+   "title_vi": "Mở rộng không bắt buộc · Cụm động từ với out: có nghĩa 'tìm… (+1)",
    "can_do_vi": "Cụm động từ và thành ngữ, chỉ cần nhận ra khi đọc và nghe: cụm động từ với out: có nghĩa 'tìm thông tin' không? (mở rộng); thành ngữ: điền từ trong khung (mở rộng, chỉ để nhận ra).",
    "use_vi": "Mỗi câu sai có lời giải thích; gõ lại cụm đúng vào sổ từ của bạn.",
    "check": [

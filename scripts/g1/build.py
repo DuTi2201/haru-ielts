@@ -311,7 +311,7 @@ def entry_lesson() -> tuple[dict, list[dict]]:
 
 
 TFNG3 = ["True", "False", "Not Given"]
-STAGE_PREFIX = {"b2": "Đọc trước B2 · giải nghĩa và liên tưởng", "c1": "Làm quen C1 · neo vào từ B2"}
+STAGE_PREFIX = {"b2": "Đọc trước · giải nghĩa và liên tưởng", "c1": "Từ vựng nâng cao"}
 
 
 def pack_title(prefix: str, items: list[tuple[str, str]]) -> str:
@@ -319,11 +319,13 @@ def pack_title(prefix: str, items: list[tuple[str, str]]) -> str:
     srcname, title = items[0]
     short = srcname.split(" · ")[0].replace("Destination ", "").replace("IELTS Grammar 6.5+, ", "Grammar 6.5+ ").replace(",", "")
     more = f" (+{len(items) - 1})" if len(items) > 1 else ""
+    if short in ("B2 Unit 18", "C1&C2 Unit 2"):  # vocabulary days: the learner is not told which book level a pack comes from
+        short = ""
     room = 70 - len(prefix) - len(short) - len(more) - 6
     room = max(room, 12)
     if len(title) > room:
         title = title[:room].rsplit(" ", 1)[0].rstrip(":,;") + "…"
-    return f"{prefix} · {short} · {title}{more}"
+    return (f"{prefix} · {short} · " if short else f"{prefix} · ") + f"{title}{more}"
 
 
 def words_of(day: int) -> list[tuple]:

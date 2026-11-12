@@ -183,7 +183,7 @@ SECTIONS: list[tuple] = [
 
 DAY = {
     "title": "Thinking and learning", "slug_title": "Thinking and learning: C1 and C2 Unit 2", "title_vi": "Suy nghĩ và học tập",
-    "goal": "Làm quen 9 từ C1 neo vào từ B2 rồi nâng cấp lớp từ B2 Unit 18 bằng từ C1 của Unit 2: học mỗi từ C1 qua một từ B2 đồng nghĩa, và dùng đúng các cụm cố định (take into consideration, strike a balance, make up your mind).",
+    "goal": "Nắm các động từ, danh từ và từ giáo dục về chủ đề suy nghĩ và học tập: học mỗi từ qua một từ quen đồng nghĩa, và dùng đúng các cụm cố định (take into consideration, strike a balance, cross your mind).",
     "ielts": "Từ của Unit này là lõi của Reading và Listening về giáo dục và tâm lý; kết hợp từ chính xác tăng điểm Lexical Resource khi nói và viết.",
     "book": [("Destination C1&C2", "14", "A–D", 40, 35), ("Destination C1&C2", "15–18", "H–K, M–O (phần lõi)", 70, 60),
              ("Destination C1&C2", "15–18", "E–G, L (cụm động từ và thành ngữ, mở rộng không bắt buộc)", 38, 20)],
@@ -249,6 +249,6 @@ DAY = {
         ]),
     ],
     "my": [{"vi": "Chọn 5 đến 10 từ của Unit 2 mà bạn thích nhất và nhẩm cho mỗi từ một câu của riêng bạn. Rồi gõ hai câu bạn ưng nhất, nói về một quyết định học tập của chính bạn. Trong một câu dùng từ C1, câu kia dùng từ B2 đồng nghĩa (ví dụ assess và evaluate).",
-            "en": "Write two sentences about a study decision of your own, using two C1 words from today.",
+            "en": "Write two sentences about a study decision of your own, using two words from today.",
             "model": "I need to assess which course is best for me, so I am pondering my options. I have a hunch that I should evaluate each school before I decide."}],
 }
