@@ -340,3 +340,12 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
   YouTube playback inside the page; the owner should try one sound on the phone.
 * **Not done / ideas**: store attempts per learner for a progress screen; the sound-level (phoneme) feedback is only shown as weak words;
   video order in playlist 1 does not follow any textbook order, so the grid groups by sound type instead.
+
+## 2026-11-12 — Lessons 45 and 46 (G1 D2, D3) rebuilt on the lesson-44 pattern
+- Pipeline unchanged: `scripts/g1/days.txt` → `scripts/g1/build.py` → seeds. Hand-written lectures: `scripts/g1/lecture_d2.py` (45) and `lecture_d3.py` (46), wired in `build.py` (`n == 2` / `n == 3` reshape + writing rubric). Tests: `tests/test_lesson45_quality.py`, `tests/test_lesson46_quality.py` (pure, no network; the 44 test needs httpx, so run on the VM). No frontend change: scenes reused (ref_table, tense_timeline, sentence_forms, fix_pairs).
+- Lesson 45: state verbs follow Destination B2 U1 p.7 (6 groups, "not normally used in continuous tenses", dual-meaning verbs have/think/look/see/be). `always + V-ing` = speaker's emotion; with usually/often "thường không".
+- Lesson 46: the teacher's rule "chỗ nào dùng được hiện tại hoàn thành tiếp diễn thì thay bằng hiện tại hoàn thành được" is taught verbatim (quoted in lecture and card) plus a separate exception note (I've been crying vs I've cried; B2 p.7 read vs been reading; ever/never). `since` always perfect; `for` is only a preposition; specific time → past simple.
+- Session titles are limited to 70 characters (schema); a longer title silently drops the whole lesson from `load_all` (shows only in `problems`).
+- Decisions: follow the teacher's focus only; Cambridge Unit 5 and C1&C2 keys pp.282-285 are for later vocab/past-tense days.
+- Pending: IPA from OALD (PRON dicts empty, none typed from memory); reviewer fixes in `docs/review/lesson45-46/` (G1D3KU3C1 lost adverbs needs book p.24 / key p.221, G1D3KG double answers, G1D2KF-2 accepted forms, G1D2KC-2 "see" explanation, page-label sweep); cloze Q and writing M for 45; B2 U1 pp.8-11 exercises (answers "chờ đối chiếu trang 229"); balance session sizes.
+- Tests on VM: see the 2026-11-11 note (pip install pytest inside the api container, mount tests/scripts/app/docs).
