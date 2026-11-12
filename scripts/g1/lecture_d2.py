@@ -259,6 +259,25 @@ SITTING_2 = [
     ]},
 ]
 
+# Each row of these scenes gets one drawn picture (frontend StoryArt.tsx); the scene type becomes picture_cards.
+ICON = {
+    "k1": "tv", "k2": "bed", "k3": "coffee_off",
+    "d1": "steak", "d2": "salad",
+    "r1": "trend", "r2": "trend", "r3": "thought",
+    "a1": "speaker", "a2": "angry", "a3": "bulb",
+    "g1": "calendar", "g2": "plane",
+    "s1": "thought", "s2": "house", "s3": "heart", "s4": "eye", "s5": "face", "s6": "key",
+}
+for _rows in (COMMON, DIET, TREND, ALWAYS, ARRANGED, SIX_GROUPS):
+    for _r in _rows:
+        _r["icon"] = ICON[_r["key"]]
+for _sitting in (SITTING_1, SITTING_2):
+    for _slide in _sitting:
+        _rows = (_slide.get("data") or {}).get("rows") or []
+        if _slide.get("visual") == "ref_table" and _rows and _rows[0].get("key") in ICON:
+            _slide["visual"] = "picture_cards"
+            _slide["data"].pop("cols", None)
+
 RUBRIC = [
     {"criterion_vi": "Đúng đề, nội dung là của chính bạn", "max": 1, "note_vi": "Task response"},
     {"criterion_vi": "Chọn thì hợp với điều muốn nói: sự thật hay tạm thời", "max": 2, "note_vi": "Grammatical range"},

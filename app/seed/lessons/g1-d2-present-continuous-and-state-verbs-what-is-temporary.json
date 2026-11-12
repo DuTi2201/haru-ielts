@@ -454,32 +454,31 @@
     },
     {
      "kind": "scene",
-     "visual": "ref_table",
+     "visual": "picture_cards",
      "eyebrow": "Một chữ cho mọi cách dùng",
      "title": "Điểm chung của ba câu",
      "data": {
-      "cols": [
-       "Cách dùng",
-       "Ví dụ"
-      ],
       "rows": [
        {
         "key": "k1",
         "head": "Đang xảy ra",
         "en": "Jan is watching a DVD upstairs.",
-        "vi": "Phim rồi sẽ hết."
+        "vi": "Phim rồi sẽ hết.",
+        "icon": "tv"
        },
        {
         "key": "k2",
         "head": "Ở tạm",
         "en": "We're staying in a hotel this week.",
-        "vi": "Kỳ nghỉ rồi sẽ hết."
+        "vi": "Kỳ nghỉ rồi sẽ hết.",
+        "icon": "bed"
        },
        {
         "key": "k3",
         "head": "Cả một giai đoạn",
         "en": "I'm not drinking coffee this month.",
-        "vi": "Tháng này qua là uống lại."
+        "vi": "Tháng này qua là uống lại.",
+        "icon": "coffee_off"
        }
       ],
       "rule": "Mọi cách dùng của tiếp diễn đều có chung một ý: tạm thời, không kéo dài mãi mãi."
@@ -658,26 +657,24 @@
     },
     {
      "kind": "scene",
-     "visual": "ref_table",
+     "visual": "picture_cards",
      "eyebrow": "Cùng một động từ",
      "title": "Ăn thịt hay ăn kiêng?",
      "data": {
-      "cols": [
-       "Tình huống",
-       "Ví dụ"
-      ],
       "rows": [
        {
         "key": "d1",
         "head": "Bình thường: thói quen",
         "en": "We eat meat every day.",
-        "vi": "Nhà tôi ngày nào cũng ăn thịt."
+        "vi": "Nhà tôi ngày nào cũng ăn thịt.",
+        "icon": "steak"
        },
        {
         "key": "d2",
         "head": "Đang ăn kiêng: tạm thời",
         "en": "We aren't eating any meat at the moment, as we're both on a diet.",
-        "vi": "Lúc này chúng tôi không ăn thịt, vì cả hai đang ăn kiêng."
+        "vi": "Lúc này chúng tôi không ăn thịt, vì cả hai đang ăn kiêng.",
+        "icon": "salad"
        }
       ],
       "rule": "Cùng động từ eat: thói quen thì hiện tại đơn, nhưng có lý do tạm thời thì tiếp diễn."
@@ -718,32 +715,31 @@
     },
     {
      "kind": "scene",
-     "visual": "ref_table",
+     "visual": "picture_cards",
      "eyebrow": "Dùng trong IELTS",
      "title": "Xu hướng đang thay đổi",
      "data": {
-      "cols": [
-       "Dùng khi",
-       "Ví dụ"
-      ],
       "rows": [
        {
         "key": "r1",
         "head": "Đổi dần, đang trên đường",
         "en": "Online courses are becoming more popular.",
-        "vi": "Các khóa học trực tuyến đang ngày càng phổ biến."
+        "vi": "Các khóa học trực tuyến đang ngày càng phổ biến.",
+        "icon": "trend"
        },
        {
         "key": "r2",
         "head": "Số liệu đang chuyển động",
         "en": "The price of rice is rising.",
-        "vi": "Giá gạo đang tăng."
+        "vi": "Giá gạo đang tăng.",
+        "icon": "trend"
        },
        {
         "key": "r3",
         "head": "Nhận định đứng yên: hiện tại đơn",
         "en": "Online learning saves time.",
-        "vi": "Học trực tuyến tiết kiệm thời gian."
+        "vi": "Học trực tuyến tiết kiệm thời gian.",
+        "icon": "thought"
        }
       ],
       "rule": "Việc đang đổi dần: tiếp diễn. Một nhận định đứng yên: hiện tại đơn."
@@ -841,32 +837,31 @@
     },
     {
      "kind": "scene",
-     "visual": "ref_table",
+     "visual": "picture_cards",
      "eyebrow": "Than phiền",
      "title": "Câu thiếu mất một chữ",
      "data": {
-      "cols": [
-       "Câu nói",
-       "Ví dụ"
-      ],
       "rows": [
        {
         "key": "a1",
         "head": "Thiếu trạng từ",
         "en": "My sister is turning the music loudly.",
-        "vi": "Người nghe chỉ hiểu: ngay lúc này chị ấy đang vặn nhạc to."
+        "vi": "Người nghe chỉ hiểu: ngay lúc này chị ấy đang vặn nhạc to.",
+        "icon": "speaker"
        },
        {
         "key": "a2",
         "head": "Có always: than phiền",
         "en": "My sister is always turning the music so loudly!",
-        "vi": "Lặp đi lặp lại, và bạn bực."
+        "vi": "Lặp đi lặp lại, và bạn bực.",
+        "icon": "angry"
        },
        {
         "key": "a3",
         "head": "Thân mật, hơi ngạc nhiên",
         "en": "You're always leaving the lights on.",
-        "vi": "Cậu lúc nào cũng để đèn sáng."
+        "vi": "Cậu lúc nào cũng để đèn sáng.",
+        "icon": "bulb"
        }
       ],
       "rule": "Muốn than phiền bằng tiếp diễn, chèn always hoặc constantly vào giữa be và V-ing."
@@ -969,26 +964,24 @@
     },
     {
      "kind": "scene",
-     "visual": "ref_table",
+     "visual": "picture_cards",
      "eyebrow": "Tương lai gần",
      "title": "Việc đã hẹn, đã sắp xếp",
      "data": {
-      "cols": [
-       "Dùng khi",
-       "Ví dụ"
-      ],
       "rows": [
        {
         "key": "g1",
         "head": "Đã hẹn, đã sắp xếp",
         "en": "I'm seeing my tutor tomorrow morning.",
-        "vi": "Sáng mai tôi gặp giáo viên hướng dẫn."
+        "vi": "Sáng mai tôi gặp giáo viên hướng dẫn.",
+        "icon": "calendar"
        },
        {
         "key": "g2",
         "head": "Có thời điểm cụ thể",
         "en": "We are flying to Da Nang on Friday.",
-        "vi": "Thứ Sáu chúng tôi bay vào Đà Nẵng."
+        "vi": "Thứ Sáu chúng tôi bay vào Đà Nẵng.",
+        "icon": "plane"
        }
       ],
       "rule": "Đã hẹn xong, có thời điểm cụ thể: dùng tiếp diễn."
@@ -1017,50 +1010,52 @@
     },
     {
      "kind": "scene",
-     "visual": "ref_table",
+     "visual": "picture_cards",
      "eyebrow": "Sáu nhóm",
      "title": "Động từ trạng thái",
      "data": {
-      "cols": [
-       "Nhóm",
-       "Động từ"
-      ],
       "rows": [
        {
         "key": "s1",
         "head": "thinking · suy nghĩ",
         "en": "believe, imagine, know, mean, think, understand",
-        "vi": "I know the answer."
+        "vi": "I know the answer.",
+        "icon": "thought"
        },
        {
         "key": "s2",
         "head": "existence · tồn tại",
         "en": "be, exist",
-        "vi": "Dragons don't exist."
+        "vi": "Dragons don't exist.",
+        "icon": "house"
        },
        {
         "key": "s3",
         "head": "emotions · cảm xúc",
         "en": "hate, like, love, need, prefer, satisfy, want",
-        "vi": "I want to finish this page."
+        "vi": "I want to finish this page.",
+        "icon": "heart"
        },
        {
         "key": "s4",
         "head": "the human senses · giác quan",
         "en": "hear, see, smell, sound, taste",
-        "vi": "This soup smells good."
+        "vi": "This soup smells good.",
+        "icon": "eye"
        },
        {
         "key": "s5",
         "head": "appearance · vẻ ngoài",
         "en": "appear, look, resemble, seem",
-        "vi": "He looks tired."
+        "vi": "He looks tired.",
+        "icon": "face"
        },
        {
         "key": "s6",
         "head": "possession and relationships · sở hữu, quan hệ",
         "en": "belong to, consist of, have, include, involve, own",
-        "vi": "This book belongs to me."
+        "vi": "This book belongs to me.",
+        "icon": "key"
        }
       ],
       "rule": "Thường không chia tiếp diễn, không phải không bao giờ. Nhìn vào nghĩa của câu."
