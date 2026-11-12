@@ -312,3 +312,9 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
 - Đáp án in tr. 281-282 khớp với KCA/KCB (Day 1) và XA–XO (Day 7).
 - Thêm KCA câu 10 (are you phoning) và câu 14 (headline GIVES); bỏ `'s` sai cho `has` (main verb have).
 - Còn lại: C1&C2 Unit 1 bài C–J chưa đưa vào app; Unit 3 key (tr. 283) chưa có đề để đối chiếu.
+
+### 2026-11-12 · Sự cố: IELTS lẫn vào Haru tiếng Hàn (đã sửa)
+- Nguyên nhân: ngày 11/11 05:31 mã IELTS bị chép đè vào `/opt/haru/src` (stack Haru Hàn) và hai migration IELTS (e8f1a3c5d7b9, f9a2b4c6d8e0) chạy trên DB `haru`. Haru Hàn vì thế hiện 54 bài B1/G1.
+- Đã khôi phục: DB về b7d2f9a4c1e6, xóa 54 bài IELTS (+1220 từ, 106 điểm ngữ pháp) khỏi DB Haru, dựng lại image Haru từ `/opt/haru/src.prev` (mã Hàn). Sao lưu trước khi sửa: `/opt/haru/backup/haru_before_restore_20261112_0144.dump`.
+- Mất không khôi phục được: các hàng `content.question_type` của Hàn, `billing.setting`/`product_setting` do admin đặt. Đã nạp lại 3 `editorial_source` từ migration.
+- QUY TẮC: không chép/rsync code IELTS vào `/opt/haru/*`. Caddy của stack Haru gắn Caddyfile từ `/opt/haru/src.prev/deploy/Caddyfile` (có khối ielts), nên không đổi tên hay xóa `src.prev`. IELTS chỉ triển khai ở `/opt/haru-ielts` (project `haru-ielts`, DB `haru_ielts`).
