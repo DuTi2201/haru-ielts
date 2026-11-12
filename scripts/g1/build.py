@@ -482,6 +482,8 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
             sessions.append({"title_vi": f"Ôn tập · từ bài Từ vựng giáo dục 1 ({k // 20 + 1})"[:70], "can_do_vi": "Sau buổi này bạn nhớ lại các từ đã học ở những ngày trước mà không nhìn đáp án.",
                              "use_vi": "Ôn cách quãng: gặp lại từ sau vài ngày giúp nhớ lâu hơn nhiều so với học dồn.", "check": [e["id"] for e in part]})
     add_packs(extra, "Mở rộng không bắt buộc", "Bài mở rộng, làm thêm nếu còn thời gian: ")
+    if n == 12:
+        L12.reshape_vocab(sessions)
     if n == 12:  # the reading method comes first: lecture, then the learner's own keyword chains; questions come last
         mine = next(x for x in sessions if x["title_vi"].startswith("Vận dụng"))
         sessions.remove(mine)

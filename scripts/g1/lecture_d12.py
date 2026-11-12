@@ -145,3 +145,223 @@ SESSION = [
         {"say": "Hết phần giảng. Bây giờ bạn tự viết chuỗi từ khóa cho ba đoạn đầu. Từ vựng và câu hỏi để sau.", "show": "title"},
     ]},
 ]
+
+
+# ============================================================ the four vocabulary sittings of the day
+def _row(key, icon, head, en, vi):
+    return {"key": key, "icon": icon, "head": head, "en": en, "vi": vi}
+
+
+def _w(head, say):
+    return {"kind": "word", "headword": head, "lines": [{"say": say}]}
+
+
+def _end(next_):
+    return {"kind": "end", "next": next_, "lines": [{"say": "Hết phần giảng. Bây giờ bạn làm bài tập trong app.", "show": "title"}]}
+
+
+# ---- sitting 1: results of praise
+PRAISE = [
+    {"key": "p1", "head": "Khen khả năng", "en": "You are so smart!", "vi": "Em sợ sai, làm bài tệ đi."},
+    {"key": "p2", "head": "Khen nỗ lực", "en": "You worked really hard!", "vi": "Em dám thử việc khó hơn."},
+]
+ACH = [
+    {"key": "h1", "head": "achieve", "en": "achieve a goal", "vi": "Động từ: đạt được."},
+    {"key": "h2", "head": "achievement", "en": "a great achievement", "vi": "Danh từ: thành tích."},
+]
+EVID = [{"key": "f1", "wrong": "There are many evidences.", "right": "There is a lot of evidence.", "why": "Evidence không đếm được, không thêm s."}]
+EXP = [
+    {"key": "e1", "head": "experiment", "en": "an experiment", "vi": "Thí nghiệm."},
+    {"key": "e2", "head": "experience", "en": "work experience", "vi": "Kinh nghiệm."},
+    {"key": "e3", "head": "expert", "en": "an expert", "vi": "Chuyên gia."},
+]
+S1 = [
+    {"kind": "title", "hook": "Khen em thông minh hay khen em chăm chỉ?", "lines": [
+        {"say": "Khen em thông minh, hay khen em chăm chỉ? Lời khen nào làm em học tốt hơn?", "show": "hook"},
+        {"say": "Bài đọc hôm nay xoay quanh đúng câu hỏi này. Tám từ của buổi này là những từ bạn sẽ gặp lại liên tục."},
+    ]},
+    {"kind": "scene", "visual": "ref_table", "eyebrow": "Câu hỏi của bài", "title": "Hai lời khen, hai kết quả",
+     "data": {"cols": ["Lời khen", "Kết quả"], "rows": PRAISE, "rule": "Khen nỗ lực tốt hơn khen khả năng."}, "lines": [
+        {"say": "Một em được khen: em thật thông minh.", "show": "p1"},
+        {"say": "Em đó sợ sai, vì sai nghĩa là mình không thông minh nữa. Kết quả là em làm tệ đi."},
+        {"say": "Một em khác được khen: em đã làm việc rất chăm.", "show": "p2"},
+        {"say": "Em này dám thử việc khó hơn. Đó chính là điều bài đọc nói.", "show": "rule"},
+    ]},
+    _w("ability", "Khả năng, thứ người ta cho là trời cho. Khen ability là khen cái em vốn có."),
+    _w("effort", "Còn effort là thứ ta tự bỏ ra: nỗ lực. Hai từ này đối nhau suốt cả bài."),
+    _w("praise", "Praise là khen, nhất là khen vì điều ai đó vừa làm. Ví dụ, giáo viên khen học sinh vì đã cố gắng."),
+    _w("failure", "Failure là mặt kia của thành công. Học sinh có tư duy phát triển xem failure là cơ hội để tiến bộ."),
+    {"kind": "scene", "visual": "ref_table", "eyebrow": "Họ từ", "title": "achieve và achievement",
+     "data": {"cols": ["Từ", "Cách dùng"], "rows": ACH, "rule": "Đạt được là động từ. Thành tích là danh từ."}, "lines": [
+        {"say": "Đạt được một mục tiêu là achieve.", "show": "h1"},
+        {"say": "Còn thành tích, điều đã đạt được, là danh từ achievement.", "show": "h2"},
+        {"say": "Nhớ cặp này, vì cả hai đều hay xuất hiện trong Writing.", "show": "rule"},
+    ]},
+    _w("achievement", "Một bài phát biểu hay trước lớp cũng là một achievement thật sự."),
+    {"kind": "word", "headword": "evidence", "lines": [{"say": "Bằng chứng. Tác giả nói có evidence cho thấy phương pháp này không hiệu quả."}]},
+    {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Lỗi hay gặp", "title": "evidence không có s",
+     "data": {"rows": EVID, "rule": "Evidence không đếm được: a lot of evidence."}, "lines": [
+        {"say": "Người Việt hay thêm s cho evidence. Câu sai, rồi câu đúng.", "show": "f1"},
+        {"say": "Evidence không đếm được. Nói a lot of evidence, hoặc some evidence.", "show": "rule"},
+    ]},
+    _w("criticism", "Criticism là lời chỉ trích. Cụm hay gặp là harsh criticism: lời chỉ trích gay gắt."),
+    {"kind": "scene", "visual": "ref_table", "eyebrow": "Dễ nhầm", "title": "Ba từ bắt đầu bằng exp",
+     "data": {"cols": ["Từ", "Nghĩa"], "rows": EXP, "rule": "Thí nghiệm, kinh nghiệm, chuyên gia: ba từ khác nhau."}, "lines": [
+        {"say": "Ba từ này nhìn giống nhau. Experiment là thí nghiệm.", "show": "e1"},
+        {"say": "Experience là kinh nghiệm.", "show": "e2"},
+        {"say": "Expert là chuyên gia.", "show": "e3"},
+        {"say": "Bài đọc nói về thí nghiệm, nên từ cần nhớ là experiment.", "show": "rule"},
+    ]},
+    _w("experiment", "Trong một experiment quan trọng, trẻ em được chia thành hai nhóm."),
+    _end("Tiếp theo: làm bài tập của buổi này."),
+]
+
+# ---- sitting 2: beliefs and the nature of ability
+A1 = [
+    _row("a1", "bulb", "notion = idea", "The notion that talent is fixed is old.", "Một ý niệm, một quan niệm."),
+    _row("a2", "key", "innate = born with", "Some believe intelligence is innate.", "Có từ khi sinh ra."),
+    _row("a3", "roadmap", "destiny = fate", "Ability is not destiny.", "Con đường đã định sẵn."),
+]
+A2 = [
+    _row("a4", "magnifier", "infer = work out", "She inferred it from the clues.", "Suy ra từ manh mối."),
+    _row("a5", "eye", "perceive = see", "He perceives help as weakness.", "Nhìn nhận, cảm nhận."),
+    _row("a6", "crystal", "deluded = wrongly sure", "A deluded idea of success.", "Tin điều sai mà không biết."),
+]
+TRAP2 = [
+    {"key": "t1", "wrong": "He believes in his destination.", "right": "He believes in his destiny.", "why": "Destination là điểm đến. Destiny là số phận."},
+    {"key": "t2", "wrong": "The writer infers that tests are unfair.", "right": "The writer implies that tests are unfair.", "why": "Tác giả implies. Người đọc infers."},
+]
+S2 = [
+    {"kind": "title", "hook": "Tài năng là trời cho, hay luyện mà có?", "lines": [
+        {"say": "Tài năng là trời cho, hay luyện mà có? Câu hỏi đó chia người ta thành hai phe, và sáu từ hôm nay là ngôn ngữ của cuộc tranh luận này.", "show": "hook"},
+    ]},
+    {"kind": "scene", "visual": "picture_cards", "eyebrow": "Mẹo của buổi này", "title": "Gắn từ khó vào từ quen",
+     "data": {"rows": A1, "rule": "Mỗi từ khó gắn vào một từ quen."}, "lines": [
+        {"say": "Notion gắn vào idea: một ý niệm.", "show": "a1"},
+        {"say": "Innate gắn vào born with: có từ khi sinh ra.", "show": "a2"},
+        {"say": "Destiny gắn vào fate: điều đã định sẵn.", "show": "a3"},
+        {"say": "Ba từ này đều nói về niềm tin.", "show": "rule"},
+    ]},
+    _w("notion", "Notion là một quan niệm. Tác giả nhắc tới notion rằng khả năng là cố định, rồi bác bỏ nó."),
+    _w("innate", "Innate là bẩm sinh. Một số người tin trí thông minh là innate, tức là sinh ra đã có."),
+    _w("destiny", "Destiny là số phận. Câu quen thuộc của bài: khả năng không phải là destiny."),
+    {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Dễ nhầm", "title": "destiny hay destination",
+     "data": {"rows": TRAP2[:1], "rule": "Số phận là destiny. Điểm đến là destination."}, "lines": [
+        {"say": "Hai từ này nhìn giống nhau. Câu sai, rồi câu đúng.", "show": "t1"},
+        {"say": "Số phận là destiny. Điểm đến là destination.", "show": "rule"},
+    ]},
+    {"kind": "scene", "visual": "picture_cards", "eyebrow": "Mẹo của buổi này", "title": "Ba từ nữa",
+     "data": {"rows": A2, "rule": "Suy ra, nhìn nhận, tin sai."}, "lines": [
+        {"say": "Infer gắn vào work out: từ manh mối mà suy ra.", "show": "a4"},
+        {"say": "Perceive gắn vào see: nhìn nhận, cảm nhận.", "show": "a5"},
+        {"say": "Deluded gắn vào wrongly sure: tin chắc điều sai.", "show": "a6"},
+        {"say": "Ba từ này nói về cách người ta nhìn sự việc.", "show": "rule"},
+    ]},
+    _w("infer", "Nhóm được khen khả năng suy ra rằng thành công phụ thuộc vào năng khiếu. Đó là infer."),
+    {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Dễ nhầm", "title": "infer hay imply",
+     "data": {"rows": TRAP2[1:], "rule": "Tác giả nói ngầm là implies. Người đọc suy ra là infers."}, "lines": [
+        {"say": "Người viết ngầm nói ra một ý là imply. Người đọc suy ra ý đó là infer.", "show": "t2"},
+        {"say": "Nhớ: tác giả implies, người đọc infers.", "show": "rule"},
+    ]},
+    _w("perceive", "Perceive là nhìn nhận. Học sinh có thể perceive sự giúp đỡ của giáo viên như dấu hiệu mình kém."),
+    _w("deluded", "Deluded là tin chắc điều không đúng. Áp phích có thể cho học sinh một ý niệm deluded về thành công."),
+    _end("Tiếp theo: làm bài tập của buổi này."),
+]
+
+# ---- sitting 3: words for analysing a study
+COR = [
+    {"key": "c1", "head": "Cùng tăng", "en": "ice cream sales and sunburn", "vi": "Có tương quan với nhau."},
+    {"key": "c2", "head": "Nhưng không phải nguyên nhân", "en": "hot weather causes both", "vi": "Nguyên nhân thật là trời nóng."},
+]
+ANC3 = [
+    {"key": "n1", "head": "impediment", "en": "= obstacle", "vi": "Trở ngại."},
+    {"key": "n2", "head": "intervention", "en": "= action to change things", "vi": "Biện pháp can thiệp."},
+    {"key": "n3", "head": "dispute", "en": "= argue it is wrong", "vi": "Phản bác."},
+    {"key": "n4", "head": "aspiration", "en": "= ambition", "vi": "Khát vọng."},
+    {"key": "n5", "head": "subtle", "en": "= not obvious", "vi": "Kín đáo, tinh tế."},
+]
+TRAP3 = [{"key": "x1", "wrong": "a correlation of height and weight", "right": "a correlation between height and weight", "why": "Tương quan đi với between … and …."}]
+S3 = [
+    {"kind": "title", "hook": "Hai thứ đi cùng nhau có phải thứ này gây ra thứ kia?", "lines": [
+        {"say": "Hai thứ cùng tăng, có phải thứ này gây ra thứ kia không? Đây là câu hỏi mà mọi bài nghiên cứu phải trả lời, và sáu từ hôm nay giúp bạn nói về nó.", "show": "hook"},
+    ]},
+    {"kind": "scene", "visual": "ref_table", "eyebrow": "Tình huống", "title": "Tương quan không phải nguyên nhân",
+     "data": {"cols": ["Quan sát", "Ý nghĩa"], "rows": COR, "rule": "Có tương quan chưa chắc có quan hệ nhân quả."}, "lines": [
+        {"say": "Mùa nóng, kem bán chạy và người ta cũng bị cháy nắng nhiều.", "show": "c1"},
+        {"say": "Kem không làm ai cháy nắng. Nguyên nhân thật là trời nóng.", "show": "c2"},
+        {"say": "Hai thứ cùng tăng như vậy gọi là có tương quan.", "show": "rule"},
+    ]},
+    _w("correlation", "Correlation là mối tương quan. Bài đọc nói: có một correlation mạnh giữa cách học sinh nhìn mình và thành tích."),
+    {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Lỗi hay gặp", "title": "correlation đi với between",
+     "data": {"rows": TRAP3, "rule": "a correlation between A and B."}, "lines": [
+        {"say": "Câu sai, rồi câu đúng.", "show": "x1"},
+        {"say": "Tương quan đi với between và and.", "show": "rule"},
+    ]},
+    {"kind": "scene", "visual": "ref_table", "eyebrow": "Mẹo của buổi này", "title": "Gắn từ khó vào từ quen",
+     "data": {"cols": ["Từ", "Gắn vào"], "rows": ANC3, "rule": "Năm từ còn lại, mỗi từ một chỗ bám."}, "lines": [
+        {"say": "Impediment gắn vào obstacle: một trở ngại.", "show": "n1"},
+        {"say": "Intervention gắn vào action to change things: một biện pháp can thiệp.", "show": "n2"},
+        {"say": "Dispute gắn vào argue it is wrong: phản bác.", "show": "n3"},
+        {"say": "Aspiration gắn vào ambition: khát vọng.", "show": "n4"},
+        {"say": "Subtle gắn vào not obvious: kín đáo, không lộ liễu.", "show": "n5"},
+        {"say": "Giờ đi từng từ.", "show": "rule"},
+    ]},
+    _w("impediment", "Tác giả nói hệ thống trường học chính là một impediment lớn: trở ngại cho việc đổi cách dạy."),
+    _w("intervention", "Intervention là biện pháp can thiệp. Bài nói can thiệp trực tiếp trong lớp học dường như không hiệu quả."),
+    _w("dispute", "Khó mà dispute rằng tin vào khả năng thay đổi là điều tốt. Nghĩa là khó phản bác."),
+    _w("aspiration", "Aspiration là khát vọng. Học sinh nào cũng có aspiration, nhưng lời hô hào không nuôi được nó."),
+    _w("subtle", "Subtle là kín đáo. Hai tác giả nói can thiệp nên được đưa ra một cách subtle, để học sinh không thấy mình cần được giúp."),
+    _end("Tiếp theo: làm bài tập của buổi này."),
+]
+
+# ---- sitting 4: connectives and collocations
+COL4 = [
+    {"key": "k1", "head": "concentrate on", "en": "concentrate on your strengths", "vi": "Tập trung vào."},
+    {"key": "k2", "head": "have faith in", "en": "have faith in yourself", "vi": "Tin vào."},
+    {"key": "k3", "head": "intellectual ability", "en": "an intellectual challenge", "vi": "Thuộc về trí tuệ."},
+]
+TRAP4 = [
+    {"key": "y1", "wrong": "concentrate in your work", "right": "concentrate on your work", "why": "Tập trung vào dùng on."},
+    {"key": "y2", "wrong": "faith on teachers", "right": "faith in teachers", "why": "Tin vào dùng in."},
+]
+S4 = [
+    {"kind": "title", "hook": "Học thêm càng nhiều, điểm càng thấp: vì sao?", "lines": [
+        {"say": "Học thêm càng nhiều, điểm càng thấp. Nghe ngược đời, và đó đúng là tinh thần của từ đầu tiên hôm nay.", "show": "hook"},
+    ]},
+    _w("paradoxically", "Paradoxically là nghịch lý ở chỗ: điều xảy ra ngược với mong đợi. Tác giả viết: paradoxically, dạy trực tiếp tư duy này lại không hiệu quả. Từ này đứng đầu câu, rồi có dấu phẩy."),
+    {"kind": "scene", "visual": "ref_table", "eyebrow": "Cụm cố định", "title": "Ba cụm nên học nguyên khối",
+     "data": {"cols": ["Cụm", "Ví dụ"], "rows": COL4, "rule": "Học cả cụm, đừng học từng chữ."}, "lines": [
+        {"say": "Concentrate đi với on: tập trung vào một việc.", "show": "k1"},
+        {"say": "Faith đi với in: tin vào ai đó hay điều gì.", "show": "k2"},
+        {"say": "Intellectual ability: năng lực trí tuệ.", "show": "k3"},
+        {"say": "Học cả cụm thì không bao giờ chọn nhầm giới từ.", "show": "rule"},
+    ]},
+    _w("concentrate on", "Trường học yêu cầu học sinh concentrate on điểm mạnh của mình."),
+    _w("have faith in", "Có faith in khả năng thay đổi của bản thân là điều tốt cho người học."),
+    {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Lỗi hay gặp", "title": "Chọn đúng giới từ",
+     "data": {"rows": TRAP4, "rule": "concentrate on. faith in."}, "lines": [
+        {"say": "Câu sai, rồi câu đúng.", "show": "y1"},
+        {"say": "Câu thứ hai.", "show": "y2"},
+        {"say": "Nhớ: concentrate on, faith in.", "show": "rule"},
+    ]},
+    _w("intellectual", "Intellectual là thuộc về trí tuệ. Bài nói về năng lực trí tuệ có thể được phát triển."),
+    _w("deliberate", "Deliberate nghĩa là có chủ ý, làm đúng ý định. Ví dụ, một nỗ lực deliberate để thúc đẩy học sinh. Nếu muốn dùng từ an toàn hơn, nói on purpose."),
+    _end("Tiếp theo: làm bài tập của buổi này."),
+]
+
+VOCAB_LECTURES = [S1, S2, S3, S4]
+VOCAB_TITLES = [
+    "Khen khả năng hay khen nỗ lực",
+    "Niềm tin về tài năng",
+    "Từ để phân tích một nghiên cứu",
+    "Cụm cố định và từ nối",
+]
+
+
+def reshape_vocab(sessions: list[dict]) -> None:
+    for i, lecture in enumerate(VOCAB_LECTURES):
+        ses = sessions[i]
+        words = [s["headword"] for s in lecture if s.get("kind") == "word"]
+        assert sorted(words) == sorted(ses["vocab"]), (i, set(words) ^ set(ses["vocab"]))
+        ses["lecture"] = lecture
+        ses["title_vi"] = VOCAB_TITLES[i]

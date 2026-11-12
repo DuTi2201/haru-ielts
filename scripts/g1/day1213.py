@@ -10,13 +10,13 @@ GROWTH = 'The growth mindset\nOver the past century, a powerful idea has taken r
 def q(prompt, right, wrong, why, order=None):
     return (prompt, [right] + wrong, why, order) if order else (prompt, [right] + wrong, why)
 
-PEOPLE = ["A Alfred Binet", "B Carol Dweck", "C Andrew Gelman", "D Timothy Bates", "E David Yeager and Gregory Walton"]
+PEOPLE = ["Alfred Binet", "Carol Dweck", "Andrew Gelman", "Timothy Bates", "David Yeager and Gregory Walton"]
 def who(prompt, letter, why):
-    right = next(p for p in PEOPLE if p[0] == letter)
+    right = PEOPLE[ord(letter) - 65]
     return q(prompt, right, [p for p in PEOPLE if p != right], why, PEOPLE)
 
 def abcd(prompt, letter, opts, why):
-    items = [f"{chr(65 + i)} {t}" for i, t in enumerate(opts)]
+    items = list(opts)
     right = items[ord(letter) - 65]
     return q(prompt, right, [t for t in items if t != right], why, items)
 
@@ -29,7 +29,7 @@ LABC30 = ["to correct a particular misunderstanding", "to set a challenge", "to 
 def lq(prompt, letter, wrong_letters, texts, why):
     """Listening question: lettered options, shown in book order; the shown set is `letter` plus `wrong_letters`."""
     letters = sorted(letter + wrong_letters)
-    items = {l: f"{l} {texts[ord(l) - 65]}" for l in letters}
+    items = {l: texts[ord(l) - 65] for l in letters}
     return (prompt, items[letter], [items[l] for l in letters if l != letter], why, [items[l] for l in letters])
 
 def yn(prompt, answer, why):
@@ -89,7 +89,7 @@ DAYS[12] = {
         ]),
     ],
     "passages": [
-        {"id": "P1", "title": "The growth mindset: câu 14–16 (chọn đáp án)", "instr": "Làm theo sáu bước ở ghi chú: gạch từ khóa, nối thành chuỗi, rồi mới đọc các lựa chọn. Mỗi câu hỏi về một đoạn cụ thể (đoạn 1, 2, 3).", "text": GROWTH, "qs": [
+        {"id": "P1", "title": "Câu 14–16 · chọn đáp án", "instr": "Đọc câu hỏi, rồi chọn câu trả lời đúng. Mỗi câu hỏi về một đoạn nhất định: đoạn 1, 2 hoặc 3.", "text": GROWTH, "qs": [
             abcd("Câu 14. What can we learn from the first paragraph?", "B", ["where the notion of innate intelligence first began", "when ideas about the nature of intelligence began to shift", "how scientists have responded to changing views of intelligence", "why thinkers turned away from the idea of intelligence being fixed"],
                  "Đoạn 1 mô tả mốc chuyển: quan niệm trí thông minh là bẩm sinh bị thay bằng quan niệm không cố định; `Then, in the early 20th century … revolted`. Đó là lúc ý tưởng bắt đầu đổi. Phương án A sai vì bài không nói quan niệm bẩm sinh bắt đầu ở đâu; D sai vì bài nói ai phản đối, không giải thích vì sao."),
             abcd("Câu 15. The second paragraph describes how schools encourage students to", "C", ["identify their personal ambitions.", "help each other to realise their goals.", "have confidence in their potential to succeed.", "concentrate on where their particular strengths lie."],
@@ -97,7 +97,7 @@ DAYS[12] = {
             abcd("Câu 16. In the third paragraph, the writer suggests that students with a fixed mindset", "D", ["tend to be less competitive.", "generally have a low sense of self-esteem.", "will only work hard if they are given constant encouragement.", "are afraid to push themselves beyond what they see as their limitations."],
                  "Đoạn 3: nhóm tư duy cố định chỉ nhận việc không đe dọa giá trị bản thân (`took on only those tasks that would not risk their sense of worth`) và có `fear of failure`. Tức là sợ vượt qua giới hạn mà mình nghĩ là có."),
         ]},
-        {"id": "P2", "title": "The growth mindset: câu 17–22 (ghép nhận định với người)", "instr": "Danh sách người: A Binet, B Dweck, C Gelman, D Bates, E Yeager và Walton. Mỗi nhận định ứng với một người; một người có thể được chọn nhiều lần. Tìm tên người trong bài trước, rồi đọc câu có tên đó.", "text": GROWTH, "qs": [
+        {"id": "P2", "title": "Câu 17–22 · ai nói ý này", "instr": "Ai là người nói ý này? Tìm tên người đó trong bài, rồi đọc câu có tên. Một người có thể đúng cho nhiều câu.", "text": GROWTH, "qs": [
             who("Câu 17. The methodology behind the growth mindset studies was not strict enough.", "C", "Đoạn 5: Gelman nói thiết kế nghiên cứu có `enough degrees of freedom` để dữ liệu ủng hộ bất kỳ lý thuyết nào. Nghĩa là phương pháp chưa đủ chặt."),
             who("Câu 18. The idea of the growth mindset has been incorrectly interpreted.", "B", "Đoạn 6: Dweck cho rằng công trình của bà `has been misunderstood and misapplied`. `Incorrectly interpreted` là cách đổi từ của `misunderstood`."),
             who("Câu 19. Intellectual ability is an unchangeable feature of each individual.", "A", "Đoạn 1: Binet thuộc những nhà khoa học thế kỷ 19 tin vào quan niệm trí thông minh bẩm sinh, nên coi năng lực trí tuệ là cố định."),
@@ -105,7 +105,7 @@ DAYS[12] = {
             who("Câu 21. The growth mindset is not simply about boosting students' morale.", "B", "Đoạn 6: Dweck nói tư duy phát triển `not just a vehicle for making children feel good`. `Boosting morale` = làm trẻ thấy vui."),
             who("Câu 22. Research shows that the growth mindset has no effect on academic achievement.", "D", "Đoạn 5: Bates tìm thấy kết quả `repeatedly null` và `aren't getting better grades`. Không có tác động lên điểm số."),
         ]},
-        {"id": "P3", "title": "The growth mindset: câu 23–26 (YES / NO / NOT GIVEN)", "instr": "YES khi bài đồng ý với quan điểm của tác giả; NO khi bài trái với quan điểm đó; NOT GIVEN khi bài không cho biết. Đây là quan điểm của tác giả, không phải của người được nhắc tên.", "text": GROWTH, "qs": [
+        {"id": "P3", "title": "Câu 23–26 · tác giả nghĩ gì", "instr": "Tác giả đồng ý (YES), nghĩ ngược lại (NO), hay không nói tới (NOT GIVEN)? Hãy xét quan điểm của tác giả, không phải của người được nhắc tên.", "text": GROWTH, "qs": [
             yn("Câu 23. Dweck has handled criticisms of her work in an admirable way.", "YES", "Đoạn 6: tác giả viết rằng bà `deserves great credit for responding to it and adapting her work`. `Admirable` ≈ đáng khen."),
             yn("Câu 24. Students' self-perception is a more effective driver of self-confidence than actual achievement is.", "NO", "Đoạn 8: tác động của thành tích lên cách tự nhìn mình mạnh hơn chiều ngược lại (`the actual effect of achievement on self-perception is stronger`). Câu hỏi nói ngược."),
             yn("Câu 25. Recent evidence about growth mindset interventions has attracted unfair coverage in the media.", "NOT GIVEN", "Bài bàn về bằng chứng gần đây nhưng không nhắc truyền thông đưa tin thế nào, càng không nói là không công bằng."),
