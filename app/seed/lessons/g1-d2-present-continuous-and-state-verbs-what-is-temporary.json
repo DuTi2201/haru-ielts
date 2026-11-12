@@ -1072,39 +1072,48 @@
        "show": "s1"
       },
       {
-       "en": "I know the answer.",
-       "vi": "Tôi biết đáp án.",
-       "gap": true
+       "en": "believe, imagine, know, mean, think, understand",
+       "vi": "suy nghĩ"
       },
       {
-       "say": "Nhóm hai, tồn tại: be và exist.",
+       "say": "Nhóm hai, tồn tại.",
        "show": "s2"
+      },
+      {
+       "en": "be, exist",
+       "vi": "tồn tại"
       },
       {
        "say": "Nhóm ba, cảm xúc.",
        "show": "s3"
       },
       {
-       "en": "I want to finish this page.",
-       "vi": "Tôi muốn đọc xong trang này.",
-       "gap": true
+       "en": "hate, like, love, need, prefer, satisfy, want",
+       "vi": "cảm xúc"
       },
       {
-       "say": "Nhóm bốn, giác quan: hear, see, smell, sound, taste.",
+       "say": "Nhóm bốn, giác quan.",
        "show": "s4"
+      },
+      {
+       "en": "hear, see, smell, sound, taste",
+       "vi": "giác quan"
       },
       {
        "say": "Nhóm năm, vẻ ngoài.",
        "show": "s5"
       },
       {
-       "en": "He looks tired.",
-       "vi": "Anh ấy trông mệt.",
-       "gap": true
+       "en": "appear, look, resemble, seem",
+       "vi": "vẻ ngoài"
       },
       {
        "say": "Nhóm sáu, sở hữu và quan hệ.",
        "show": "s6"
+      },
+      {
+       "en": "belong to, consist of, have, include, involve, own",
+       "vi": "sở hữu, quan hệ"
       },
       {
        "say": "Chữ quan trọng là thường, không phải không bao giờ. Đừng học thuộc danh sách rồi cấm tuyệt đối: hãy nhìn vào nghĩa của câu.",
