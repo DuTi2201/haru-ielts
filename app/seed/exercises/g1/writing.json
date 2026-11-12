@@ -261,6 +261,23 @@
     "for + khoảng thời gian, since + mốc; already đứng giữa have và V3.",
     "Động từ trạng thái (know, have) không dùng been V-ing."
    ],
+   "rubric": [
+    {
+     "criterion_vi": "Đúng đề, nội dung là của chính bạn",
+     "max": 1,
+     "note_vi": "Task response"
+    },
+    {
+     "criterion_vi": "Chọn thì hợp với điều muốn nói: kéo tới bây giờ, đã xong, hay có mốc",
+     "max": 2,
+     "note_vi": "Grammatical range"
+    },
+    {
+     "criterion_vi": "Dạng động từ đúng: have / has + V3, since và for, quá khứ đơn khi có mốc",
+     "max": 2,
+     "note_vi": "Grammatical accuracy"
+    }
+   ],
    "frames": [
     "I have ___ (V3) for ___ years / since ___ .",
     "I have already ___ (V3) today.",
@@ -273,23 +290,6 @@
     "I have studied English since two years → for two years.",
     "I already have done → I have already done.",
     "I have been read → I have been reading."
-   ],
-   "rubric": [
-    {
-     "criterion_vi": "Trả lời đúng đề, nội dung là của chính bạn",
-     "max": 1,
-     "note_vi": "Task response"
-    },
-    {
-     "criterion_vi": "Dùng đúng cấu trúc và thì mà đề yêu cầu",
-     "max": 2,
-     "note_vi": "Grammatical range"
-    },
-    {
-     "criterion_vi": "Dạng từ đúng: chia động từ, giới từ, -s ngôi thứ ba",
-     "max": 2,
-     "note_vi": "Grammatical accuracy"
-    }
    ]
   },
   {

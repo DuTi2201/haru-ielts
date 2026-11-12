@@ -23,6 +23,7 @@ from day7 import OPTIONAL as OPT7  # noqa: E402
 import day89 as D89  # noqa: E402
 import lecture_d1 as L1  # noqa: E402
 import lecture_d2 as L2  # noqa: E402
+import lecture_d3 as L3  # noqa: E402
 from assoc import ASSOC  # noqa: E402
 import re  # noqa: E402
 import exercise_polish as EP  # noqa: E402
@@ -187,6 +188,9 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
     if n == 2:
         for e in bank["writing"]:
             e["rubric"] = L2.RUBRIC
+    if n == 3:
+        for e in bank["writing"]:
+            e["rubric"] = L3.RUBRIC
     grammar = []
     for c in d["cards"]:
         use = c["use"] + (f"\nTrích: «{c['quote']}»" if c["quote"] else "")
@@ -224,6 +228,8 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
             "grammar": [patterns[c] for c in g],
             "check": checks,
         })
+    if n == 3:
+        sessions = L3.reshape(sessions, [e["id"] for k in bank for e in bank[k]], {x: c for c, xs in by_card.items() for x in xs})
     if n == 2:
         sessions = L2.reshape(sessions, [e["id"] for k in bank for e in bank[k]], {x: c for c, xs in by_card.items() for x in xs})
     if n == 1:

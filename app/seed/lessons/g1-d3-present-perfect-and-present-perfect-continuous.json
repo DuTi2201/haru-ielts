@@ -6,7 +6,7 @@
  "track": "beginner",
  "level": 4,
  "sort_order": 103,
- "summary": "Dùng hiện tại hoàn thành cho việc kéo tới bây giờ và cho việc đã xong mà không nói lúc nào; dùng hai câu hỏi để quyết định có dùng hoàn thành tiếp diễn hay không. Thẻ: vẽ ra để nhớ; kéo tới bây giờ; đã xong, không nói lúc nào; hai mẫu cần thuộc; hai câu hỏi; thay thế một chiều; breath, breathe, breadth.",
+ "summary": "Dùng hiện tại hoàn thành cho việc kéo tới bây giờ và cho việc đã xong mà không nói lúc nào; dùng hai câu hỏi để quyết định có dùng hoàn thành tiếp diễn hay không. Thẻ: vẽ ra để nhớ; kéo tới bây giờ; đã xong, không nói lúc nào; hai mẫu cần thuộc; hai câu hỏi; thay bằng hiện tại hoàn thành; breath, breathe, breadth.",
  "vocab": [
   {
    "headword": "achieve",
@@ -134,7 +134,7 @@
   {
    "pattern": "Present perfect · đã xong, không nói lúc nào",
    "meaning_vi": "have / has + V3: việc đã làm; thời điểm không quan trọng hoặc không muốn nói",
-   "usage_context_vi": "Dùng khi chỉ muốn báo việc đã làm rồi hay chưa. Thường có `already`, `yet`, `ever`, `never`, `before`.\nKhi bạn nêu thời điểm cụ thể, đó là quá khứ đơn.",
+   "usage_context_vi": "Dùng khi chỉ muốn báo việc đã làm rồi hay chưa. Thường có `already`, `yet`, `ever`, `never`, `before`.\nKhi bạn nêu thời điểm cụ thể (`last summer`, `in 2003`, `two years ago`, hoặc câu hỏi `When did you go?`), đó là quá khứ đơn.\n`since` luôn đi với thì hoàn thành. `for` chỉ là giới từ chỉ độ dài: `I have studied the piano for two years` (còn học) khác `I studied the piano for two years` (đã nghỉ).",
    "contrasts": [
     {
      "pattern": "Present perfect · kéo tới bây giờ",
@@ -199,17 +199,17 @@
    "note_vi": "Lỗi người Việt hay mắc: Dùng với động từ trạng thái: ~~I have been knowing her for years~~ → I have known her for years."
   },
   {
-   "pattern": "Present perfect continuous · thay thế một chiều",
-   "meaning_vi": "Hoàn thành thay được cho hoàn thành tiếp diễn; chiều ngược lại thì không",
-   "usage_context_vi": "`I have been waiting for hours`: chắc chắn vẫn đang chờ. `I have waited for hours`: đã chờ; còn chờ hay không thì tùy ngữ cảnh.\nHiện tại hoàn thành dùng được trong gần như mọi chỗ của hoàn thành tiếp diễn. Ngược lại thì không: việc đã xong hẳn, hoặc trải nghiệm không rõ thời gian, không dùng tiếp diễn.\nKhi phân vân, chọn hiện tại hoàn thành.",
+   "pattern": "Present perfect continuous · thay bằng hiện tại hoàn thành",
+   "meaning_vi": "Chỗ nào dùng được hoàn thành tiếp diễn thì thay được bằng hiện tại hoàn thành",
+   "usage_context_vi": "Quy tắc của thầy: chỗ nào dùng được hiện tại hoàn thành tiếp diễn thì thay bằng hiện tại hoàn thành được. Đúng khi câu có khoảng thời gian kéo dài: `for hours`, `all morning`, `for the last six years`.\nLưu ý: khi người nói nhấn vào quá trình hoặc dấu vết còn lại ở hiện tại, hai thì khác nghĩa. `I've been crying` (mắt còn đỏ) khác `I've cried`. Sách Destination B2 trang 7 cũng nêu: `I have read that book` (đã đọc xong) khác `I have been reading that book` (chưa xong).\nChiều ngược lại không luôn đúng: việc đã xong hẳn hoặc trải nghiệm không rõ thời gian thì không dùng tiếp diễn (sách: thường không dùng với `ever`, `never`).\nTrích: «Các bạn lưu ý cho mình là cứ chỗ nào mà các bạn sử dụng được Hiện tại hoàn thành tiếp diễn ấy, là các bạn có thể thay nó bằng Hiện tại hoàn thành được nhá!»",
    "contrasts": [
     {
      "pattern": "Present perfect · đã xong, không nói lúc nào",
      "diff_vi": "Hoàn thành nhấn vào việc và kết quả; hoàn thành tiếp diễn nhấn vào quá trình và độ dài."
     }
    ],
-   "example_en": "I have read three chapters.\nI have been reading all morning.",
-   "example_vi": "Tôi đọc xong ba chương rồi. (kết quả, số lượng)\nTôi đọc suốt cả sáng. (quá trình, độ dài)",
+   "example_en": "I have been trying / I have tried to get in touch with Jenny all morning.\nI have read that book. I have been reading that book.",
+   "example_vi": "Cả sáng nay tôi cố liên lạc với Jenny. (hai thì đều đúng)\nTôi đã đọc xong cuốn đó. Tôi đang đọc dở cuốn đó. (sách B2, trang 7: hai thì khác nghĩa)",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-9; cách giảng của khóa học",
    "check": {
@@ -351,12 +351,826 @@
  ],
  "sessions": [
   {
-   "title_vi": "Buổi 1 · vẽ ra để nhớ",
+   "title_vi": "Buổi 1 · hiện tại hoàn thành, since và for, first time",
    "can_do_vi": "Sau buổi này bạn nắm được: mỗi thì một trục: quá khứ, bây giờ, tương lai, và một câu mẫu bên dưới; have / has + v3: bắt đầu trong quá khứ, bây giờ vẫn còn; have / has + v3: việc đã làm; thời điểm không quan trọng hoặc không muốn nói.",
    "use_vi": "Speaking Part 1 và 2: nói mình đã làm gì, làm được bao lâu. Lỗi `I work here since 2020` và `I have been knowing` rất hay gặp ở người Việt.",
    "vocab": [
-    "achieve",
-    "reach",
+    "achieve"
+   ],
+   "grammar": [
+    "Trục thời gian · vẽ ra để nhớ",
+    "Present perfect · kéo tới bây giờ",
+    "Present perfect · đã xong, không nói lúc nào",
+    "Present perfect · hai mẫu cần thuộc"
+   ],
+   "check": [
+    "G1D3Q2",
+    "G1D3Q1"
+   ],
+   "lecture": [
+    {
+     "kind": "title",
+     "hook": "Hỏi Have you ever been to Hanoi rồi, vì sao câu sau lại phải đổi sang quá khứ đơn?",
+     "lines": [
+      {
+       "say": "Có người hỏi bạn đã từng đến Hà Nội chưa. Bạn đáp bằng hiện tại hoàn thành. Nhưng khi kể đi lúc nào, vì sao phải đổi sang quá khứ đơn?",
+       "show": "hook"
+      },
+      {
+       "say": "Buổi này mình học hiện tại hoàn thành: hai nhánh của nó, và lúc nào thì phải bỏ nó."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "tense_timeline",
+     "eyebrow": "Thí nghiệm",
+     "title": "Một câu hỏi, ba câu đáp",
+     "data": {
+      "question": "Have you ever been to Hanoi?",
+      "question_vi": "Bạn đã từng đến Hà Nội chưa?",
+      "answers": [
+       {
+        "key": "a1",
+        "at": "past",
+        "tense": "Hiện tại hoàn thành",
+        "en": "Yes, I have been to Hanoi.",
+        "vi": "Tôi từng đến Hà Nội rồi."
+       },
+       {
+        "key": "a2",
+        "at": "past",
+        "tense": "Quá khứ đơn",
+        "en": "I went there last summer.",
+        "vi": "Có mốc thời gian: chuyển sang quá khứ đơn."
+       },
+       {
+        "key": "a3",
+        "at": "span",
+        "tense": "Hiện tại hoàn thành",
+        "en": "I have lived in Hanoi since 2023.",
+        "vi": "Bắt đầu từ trước và kéo tới bây giờ."
+       }
+      ],
+      "rule": "Hỏi trải nghiệm: hiện tại hoàn thành. Nói được lúc nào thì quá khứ đơn."
+     },
+     "lines": [
+      {
+       "say": "Giám khảo hỏi một câu ở hiện tại hoàn thành."
+      },
+      {
+       "en": "Have you ever been to Hanoi?",
+       "vi": "Bạn đã từng đến Hà Nội chưa?",
+       "gap": true,
+       "show": "q"
+      },
+      {
+       "say": "Bạn muốn nói là đã từng, không cần nói lúc nào. Hiện tại hoàn thành."
+      },
+      {
+       "en": "Yes, I have been to Hanoi.",
+       "vi": "Có, tôi từng đến Hà Nội.",
+       "gap": true,
+       "show": "a1"
+      },
+      {
+       "say": "Người ta hỏi tiếp: when did you go there? Hỏi lúc nào thì không dùng hiện tại hoàn thành nữa. Bạn nói được lúc nào, thì dùng quá khứ đơn."
+      },
+      {
+       "en": "I went there last summer.",
+       "vi": "Tôi đến đó mùa hè năm ngoái.",
+       "gap": true,
+       "show": "a2"
+      },
+      {
+       "say": "Nếu thay vì nói đã đến, bạn muốn nói việc sống ở đó vẫn tiếp tục, bạn lại dùng hiện tại hoàn thành."
+      },
+      {
+       "en": "I have lived in Hanoi since 2023.",
+       "vi": "Tôi sống ở Hà Nội từ năm 2023.",
+       "gap": true,
+       "show": "a3"
+      },
+      {
+       "say": "Hiện tại hoàn thành là thì của việc không nói lúc nào, hoặc của việc kéo tới bây giờ. Có mốc thời gian đã qua, chuyển sang quá khứ đơn.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "achieve",
+     "lines": [
+      {
+       "say": "Một từ cho kết quả đã đạt được, rất hợp với thì này."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "ref_table",
+     "eyebrow": "Hai nhánh",
+     "title": "Kéo tới bây giờ, hoặc đã xong không nói lúc nào",
+     "data": {
+      "cols": [
+       "Nhánh",
+       "Ví dụ"
+      ],
+      "rows": [
+       {
+        "key": "b1",
+        "head": "Kéo tới bây giờ",
+        "en": "I have studied the piano since 2023.",
+        "vi": "Bắt đầu năm 2023, bây giờ vẫn học."
+       },
+       {
+        "key": "b2",
+        "head": "Kéo tới bây giờ",
+        "en": "I have studied the piano for two years.",
+        "vi": "Hai năm nay, bây giờ vẫn học."
+       },
+       {
+        "key": "b3",
+        "head": "Đã xong, không nói lúc nào",
+        "en": "I have already eaten pizza.",
+        "vi": "Tôi ăn rồi, đừng hỏi lúc nào."
+       },
+       {
+        "key": "b4",
+        "head": "Có mốc thời gian: quá khứ đơn",
+        "en": "I ate pizza last night.",
+        "vi": "Nói được lúc nào thì quá khứ đơn."
+       }
+      ],
+      "rule": "Công thức: have hoặc has cộng dạng quá khứ phân từ. Nhánh nào cũng không có mốc thời gian đã qua."
+     },
+     "lines": [
+      {
+       "say": "Nhánh thứ nhất: việc bắt đầu trong quá khứ và kéo tới bây giờ. Đi với since cộng mốc, hoặc for cộng độ dài.",
+       "show": "b1"
+      },
+      {
+       "en": "I have studied the piano since 2023.",
+       "vi": "Tôi học piano từ năm 2023.",
+       "gap": true
+      },
+      {
+       "en": "I have studied the piano for two years.",
+       "vi": "Tôi học piano hai năm nay.",
+       "gap": true,
+       "show": "b2"
+      },
+      {
+       "say": "Nhánh thứ hai: việc đã xong, và người nói không quan tâm lúc nào. Thường đi với already, yet, ever, never, before.",
+       "show": "b3"
+      },
+      {
+       "en": "I have already eaten pizza.",
+       "vi": "Tôi ăn pizza rồi.",
+       "gap": true
+      },
+      {
+       "say": "Nếu nói được lúc nào thì là quá khứ đơn."
+      },
+      {
+       "en": "I ate pizza last night.",
+       "vi": "Tối qua tôi ăn pizza.",
+       "gap": true,
+       "show": "b4"
+      },
+      {
+       "say": "Công thức: have hoặc has, cộng quá khứ phân từ. Và không có mốc thời gian đã qua.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "ref_table",
+     "eyebrow": "Bẫy since, for, in",
+     "title": "For chỉ là một giới từ",
+     "data": {
+      "cols": [
+       "Cách nói",
+       "Ví dụ"
+      ],
+      "rows": [
+       {
+        "key": "f1",
+        "head": "since + mốc: luôn là hoàn thành",
+        "en": "I have studied the piano since 2003.",
+        "vi": "Từ năm 2003 tới giờ."
+       },
+       {
+        "key": "f2",
+        "head": "in + năm: quá khứ đơn",
+        "en": "I studied the piano in 2003.",
+        "vi": "Học năm 2003, đã xong."
+       },
+       {
+        "key": "f3",
+        "head": "for + độ dài, còn làm",
+        "en": "I have studied the piano for two years.",
+        "vi": "Hai năm nay, vẫn học."
+       },
+       {
+        "key": "f4",
+        "head": "for + độ dài, đã nghỉ",
+        "en": "I studied the piano for two years.",
+        "vi": "Từng học hai năm, giờ đã nghỉ."
+       }
+      ],
+      "rule": "since luôn đi với thì hoàn thành. for chỉ nói độ dài: còn làm thì hoàn thành, đã nghỉ thì quá khứ đơn."
+     },
+     "lines": [
+      {
+       "say": "Nhiều người học vẹt: thấy for là chia hiện tại hoàn thành. Hãy xem since trước, vì since luôn đi với thì hoàn thành.",
+       "show": "f1"
+      },
+      {
+       "en": "I have studied the piano since 2003.",
+       "vi": "Tôi học piano từ năm 2003.",
+       "gap": true
+      },
+      {
+       "say": "Còn in cộng một năm là mốc đã qua, nên quá khứ đơn."
+      },
+      {
+       "en": "I studied the piano in 2003.",
+       "vi": "Tôi học piano vào năm 2003.",
+       "gap": true,
+       "show": "f2"
+      },
+      {
+       "say": "For thì khác. For two years chỉ nói độ dài. Nếu bây giờ vẫn còn học, dùng hiện tại hoàn thành."
+      },
+      {
+       "en": "I have studied the piano for two years.",
+       "vi": "Tôi học piano hai năm nay.",
+       "gap": true,
+       "show": "f3"
+      },
+      {
+       "say": "Nếu đã nghỉ rồi thì quá khứ đơn, cùng cụm for two years."
+      },
+      {
+       "en": "I studied the piano for two years.",
+       "vi": "Tôi từng học piano hai năm.",
+       "gap": true,
+       "show": "f4"
+      },
+      {
+       "say": "Đừng nhìn dấu hiệu. Hãy hỏi: việc đó còn kéo tới bây giờ không?",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "ref_table",
+     "eyebrow": "Ba mẫu cần thuộc",
+     "title": "It's the first time, gone to, been to",
+     "data": {
+      "cols": [
+       "Mẫu",
+       "Ví dụ"
+      ],
+      "rows": [
+       {
+        "key": "p1",
+        "head": "It's the first time + hoàn thành",
+        "en": "It's the first time I have ever eaten octopus.",
+        "vi": "Lần đầu tiên tôi ăn bạch tuộc."
+       },
+       {
+        "key": "p2",
+        "head": "have gone to: đi và chưa về",
+        "en": "They have gone to Spain.",
+        "vi": "Họ đi Tây Ban Nha rồi, chưa về."
+       },
+       {
+        "key": "p3",
+        "head": "have been to: đã từng đến và về rồi",
+        "en": "I have been to Spain twice.",
+        "vi": "Tôi đã đến Tây Ban Nha hai lần."
+       }
+      ],
+      "rule": "Sau It's the first time dùng hoàn thành. Gone to là chưa về, been to là đã về."
+     },
+     "lines": [
+      {
+       "say": "Mẫu thứ nhất: sau It's the first time, dùng hiện tại hoàn thành.",
+       "show": "p1"
+      },
+      {
+       "en": "It's the first time I have ever eaten octopus.",
+       "vi": "Lần đầu tiên tôi ăn bạch tuộc.",
+       "gap": true
+      },
+      {
+       "say": "Mẫu thứ hai: have gone to nghĩa là đã đi và chưa về."
+      },
+      {
+       "en": "They have gone to Spain.",
+       "vi": "Họ đi Tây Ban Nha rồi, chưa về.",
+       "gap": true,
+       "show": "p2"
+      },
+      {
+       "say": "Mẫu thứ ba: have been to nghĩa là đã từng đến và đã về rồi."
+      },
+      {
+       "en": "I have been to Spain twice.",
+       "vi": "Tôi đã đến Tây Ban Nha hai lần.",
+       "gap": true,
+       "show": "p3"
+      },
+      {
+       "say": "Gone là chưa về. Been là đã về rồi.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "fix_pairs",
+     "eyebrow": "Lỗi thường gặp",
+     "title": "Bốn lỗi, bốn cách sửa",
+     "data": {
+      "rows": [
+       {
+        "key": "e1",
+        "wrong": "I work there since 2020.",
+        "right": "I have worked there since 2020.",
+        "why": "since cần thì hoàn thành."
+       },
+       {
+        "key": "e2",
+        "wrong": "I have been there two years ago.",
+        "right": "I went there two years ago.",
+        "why": "Có mốc thời gian đã qua: quá khứ đơn."
+       },
+       {
+        "key": "e3",
+        "wrong": "When have you been there?",
+        "right": "When did you go there?",
+        "why": "Hỏi lúc nào: quá khứ đơn."
+       },
+       {
+        "key": "e4",
+        "wrong": "It's the first time I am speaking English on the phone.",
+        "right": "It's the first time I have spoken English on the phone.",
+        "why": "Sau It's the first time dùng hoàn thành."
+       }
+      ],
+      "rule": "Có mốc thời gian đã qua thì quá khứ đơn. Since và It's the first time thì hoàn thành."
+     },
+     "lines": [
+      {
+       "say": "Bốn lỗi người Việt hay mắc. Lỗi thứ nhất: since đi với hiện tại đơn.",
+       "show": "e1"
+      },
+      {
+       "en": "I have worked there since 2020.",
+       "vi": "Tôi làm ở đó từ năm 2020.",
+       "gap": true
+      },
+      {
+       "say": "Lỗi thứ hai: hiện tại hoàn thành cùng mốc thời gian đã qua.",
+       "show": "e2"
+      },
+      {
+       "en": "I went there two years ago.",
+       "vi": "Hai năm trước tôi đến đó.",
+       "gap": true
+      },
+      {
+       "say": "Lỗi thứ ba: hỏi lúc nào bằng hiện tại hoàn thành.",
+       "show": "e3"
+      },
+      {
+       "en": "When did you go there?",
+       "vi": "Bạn đến đó lúc nào?",
+       "gap": true
+      },
+      {
+       "say": "Lỗi thứ tư: sau It's the first time.",
+       "show": "e4"
+      },
+      {
+       "en": "It's the first time I have spoken English on the phone.",
+       "vi": "Lần đầu tiên tôi nói tiếng Anh qua điện thoại.",
+       "gap": true
+      },
+      {
+       "say": "Có mốc thời gian đã qua thì quá khứ đơn. Since và It's the first time thì hoàn thành.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "recap",
+     "lines": [
+      {
+       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "show": "title"
+      }
+     ]
+    },
+    {
+     "kind": "end",
+     "next": "Tiếp theo: học các từ và mẫu ngữ pháp của buổi này, rồi làm bài tập.",
+     "lines": [
+      {
+       "say": "Hết buổi một. Việc tiếp theo là học các từ và mẫu ngữ pháp trong app, rồi làm bài tập. Buổi hai nói về hiện tại hoàn thành tiếp diễn.",
+       "show": "title"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title_vi": "Buổi 2 · hoàn thành tiếp diễn, quy tắc thay thế, lưu ý",
+   "can_do_vi": "Sau buổi này bạn nắm được: it's the first time + have (ever) v3; have gone to / have been to; have / has been + v-ing: đã bắt đầu, và lúc nói còn đang làm hoặc vừa dừng.",
+   "use_vi": "Speaking Part 1 và 2: nói mình đã làm gì, làm được bao lâu. Lỗi `I work here since 2020` và `I have been knowing` rất hay gặp ở người Việt.",
+   "vocab": [
+    "reach"
+   ],
+   "grammar": [
+    "Present perfect continuous · hai câu hỏi",
+    "Present perfect continuous · thay bằng hiện tại hoàn thành",
+    "Chính tả · breath, breathe, breadth"
+   ],
+   "check": [
+    "G1D3I1",
+    "G1D3I3",
+    "G1D3I5",
+    "G1D3I2",
+    "G1D3I4",
+    "G1D3I6"
+   ],
+   "lecture": [
+    {
+     "kind": "title",
+     "hook": "Khi nào thì nên nói have been V-ing, và khi nào have V3 là đủ?",
+     "lines": [
+      {
+       "say": "Khi nào thì nên nói have been V-ing, và khi nào chỉ cần have V3 là đủ?",
+       "show": "hook"
+      },
+      {
+       "say": "Cách nhớ của thầy: đừng học thuộc lý thuyết, hãy nhớ hai câu mẫu rồi suy ra."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "ref_table",
+     "eyebrow": "Hai câu mẫu",
+     "title": "Nhớ hai câu, suy ra hai cách dùng",
+     "data": {
+      "cols": [
+       "Cách dùng",
+       "Câu mẫu"
+      ],
+      "rows": [
+       {
+        "key": "q1",
+        "head": "Vẫn đang làm",
+        "en": "I have been playing football for three hours.",
+        "vi": "Bắt đầu từ ba tiếng trước, bây giờ vẫn đang chơi."
+       },
+       {
+        "key": "q2",
+        "head": "Vừa dừng, còn dấu vết",
+        "en": "I'm out of breath because I have been running.",
+        "vi": "Tôi hết hơi vì vừa chạy."
+       }
+      ],
+      "rule": "Công thức: have hoặc has, been, rồi động từ thêm ing. Cả hai cách dùng đều đã bắt đầu từ trước."
+     },
+     "lines": [
+      {
+       "say": "Câu mẫu thứ nhất. Bạn bắt đầu chơi bóng từ ba tiếng trước, và ngay lúc nói vẫn đang chơi.",
+       "show": "q1"
+      },
+      {
+       "en": "I have been playing football for three hours.",
+       "vi": "Tôi chơi bóng ba tiếng nay rồi.",
+       "gap": true
+      },
+      {
+       "say": "Câu mẫu thứ hai. Bạn chạy một lúc lâu, vừa dừng lại, và hơi thở còn dồn dập."
+      },
+      {
+       "en": "I'm out of breath because I have been running.",
+       "vi": "Tôi hết hơi vì vừa chạy.",
+       "gap": true,
+       "show": "q2"
+      },
+      {
+       "say": "Hai câu này đủ để suy ra hai cách dùng. Một: đã bắt đầu từ trước và còn đang làm. Hai: vừa dừng và còn dấu vết ở hiện tại.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "reach",
+     "lines": [
+      {
+       "say": "Một từ cho phần tiếp theo."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "ref_table",
+     "eyebrow": "Quy tắc của thầy",
+     "title": "Thay bằng hiện tại hoàn thành",
+     "data": {
+      "cols": [
+       "Cụm chỉ độ dài",
+       "Ví dụ"
+      ],
+      "rows": [
+       {
+        "key": "r1",
+        "head": "for hours",
+        "en": "She has been writing that essay for hours.",
+        "vi": "Thay được: She has written that essay for hours."
+       },
+       {
+        "key": "r2",
+        "head": "all morning",
+        "en": "I have been trying to get in touch with Jenny all morning.",
+        "vi": "Thay được: I have tried to get in touch with Jenny all morning."
+       },
+       {
+        "key": "r3",
+        "head": "for the last six years",
+        "en": "We have been living here for the last six years.",
+        "vi": "Thay được: We have lived here for the last six years."
+       }
+      ],
+      "quote": "Các bạn lưu ý cho mình là cứ chỗ nào mà các bạn sử dụng được Hiện tại hoàn thành tiếp diễn ấy, là các bạn có thể thay nó bằng Hiện tại hoàn thành được nhá!",
+      "rule": "Có for hours, all morning, for the last six years: hai thì đều đúng."
+     },
+     "lines": [
+      {
+       "say": "Có một quy tắc rất tiện, và thầy nói đúng nguyên văn: các bạn lưu ý cho mình là cứ chỗ nào mà các bạn sử dụng được Hiện tại hoàn thành tiếp diễn ấy, là các bạn có thể thay nó bằng Hiện tại hoàn thành được nhá!",
+       "show": "quote"
+      },
+      {
+       "say": "Xem ba câu có khoảng thời gian kéo dài.",
+       "show": "r1"
+      },
+      {
+       "en": "She has been writing that essay for hours.",
+       "vi": "Cô ấy viết bài luận đó cả mấy tiếng rồi.",
+       "gap": true
+      },
+      {
+       "en": "She has written that essay for hours.",
+       "vi": "Cô ấy viết bài luận đó cả mấy tiếng rồi.",
+       "gap": true
+      },
+      {
+       "say": "Câu thứ hai, về all morning.",
+       "show": "r2"
+      },
+      {
+       "en": "I have been trying to get in touch with Jenny all morning.",
+       "vi": "Cả sáng nay tôi cố liên lạc với Jenny.",
+       "gap": true
+      },
+      {
+       "en": "I have tried to get in touch with Jenny all morning.",
+       "vi": "Cả sáng nay tôi cố liên lạc với Jenny.",
+       "gap": true
+      },
+      {
+       "say": "Câu thứ ba.",
+       "show": "r3"
+      },
+      {
+       "en": "We have been living here for the last six years.",
+       "vi": "Chúng tôi sống ở đây sáu năm nay.",
+       "gap": true
+      },
+      {
+       "en": "We have lived here for the last six years.",
+       "vi": "Chúng tôi sống ở đây sáu năm nay.",
+       "gap": true
+      },
+      {
+       "say": "Có khoảng thời gian kéo dài, hai thì đều đúng.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "ref_table",
+     "eyebrow": "Một lưu ý",
+     "title": "Khi nào hai thì khác nghĩa",
+     "data": {
+      "cols": [
+       "Nhấn vào",
+       "Ví dụ"
+      ],
+      "rows": [
+       {
+        "key": "x1",
+        "head": "Nhấn vào dấu vết",
+        "en": "I've been crying.",
+        "vi": "Mắt còn đỏ. Không đổi được thành I've cried."
+       },
+       {
+        "key": "x2",
+        "head": "Hoàn thành: đã xong",
+        "en": "I have read that book.",
+        "vi": "Đã đọc xong cuốn đó."
+       },
+       {
+        "key": "x3",
+        "head": "Tiếp diễn: chưa xong",
+        "en": "I have been reading that book.",
+        "vi": "Đang đọc dở cuốn đó."
+       }
+      ],
+      "rule": "Nhấn vào quá trình hoặc dấu vết: hai thì khác nghĩa. Sách Destination B2 trang 7 cũng nêu như vậy."
+     },
+     "lines": [
+      {
+       "say": "Quy tắc của thầy đúng khi câu có khoảng thời gian kéo dài. Nhưng khi người nói nhấn vào dấu vết còn lại ở hiện tại, hai thì khác nghĩa."
+      },
+      {
+       "en": "I've been crying.",
+       "vi": "Tôi vừa khóc.",
+       "gap": true,
+       "show": "x1"
+      },
+      {
+       "say": "Mắt bạn còn đỏ. Nói I've cried thì mất ý đó. Sách Destination B2 trang 7 có một cặp ví dụ rất rõ."
+      },
+      {
+       "en": "I have read that book.",
+       "vi": "Tôi đã đọc xong cuốn đó.",
+       "gap": true,
+       "show": "x2"
+      },
+      {
+       "en": "I have been reading that book.",
+       "vi": "Tôi đang đọc dở cuốn đó.",
+       "gap": true,
+       "show": "x3"
+      },
+      {
+       "say": "Cuốn sách đã đọc xong, hay vẫn đang đọc dở? Hai thì cho hai ý khác nhau. Khi phân vân, hãy hỏi mình muốn nhấn vào kết quả hay vào quá trình.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "fix_pairs",
+     "eyebrow": "Lỗi thường gặp",
+     "title": "Ba lỗi, ba cách sửa",
+     "data": {
+      "rows": [
+       {
+        "key": "g1",
+        "wrong": "I have been knowing her for years.",
+        "right": "I have known her for years.",
+        "why": "know là động từ trạng thái, không chia tiếp diễn."
+       },
+       {
+        "key": "g2",
+        "wrong": "Have you ever been visiting Hue?",
+        "right": "Have you ever visited Hue?",
+        "why": "Sách: tiếp diễn thường không dùng với ever và never."
+       },
+       {
+        "key": "g3",
+        "wrong": "I am living here since 2020.",
+        "right": "I have been living here since 2020.",
+        "why": "since cần thì hoàn thành."
+       }
+      ],
+      "rule": "Động từ trạng thái không chia tiếp diễn. Với ever và never, thường dùng hoàn thành. Since cần thì hoàn thành."
+     },
+     "lines": [
+      {
+       "say": "Ba lỗi hay gặp. Lỗi thứ nhất: động từ trạng thái.",
+       "show": "g1"
+      },
+      {
+       "en": "I have known her for years.",
+       "vi": "Tôi biết cô ấy nhiều năm rồi.",
+       "gap": true
+      },
+      {
+       "say": "Lỗi thứ hai: sách ghi rằng tiếp diễn thường không dùng với ever và never.",
+       "show": "g2"
+      },
+      {
+       "en": "Have you ever visited Hue?",
+       "vi": "Bạn đã từng đến Huế chưa?",
+       "gap": true
+      },
+      {
+       "say": "Lỗi thứ ba: since mà thiếu have been.",
+       "show": "g3"
+      },
+      {
+       "en": "I have been living here since 2020.",
+       "vi": "Tôi sống ở đây từ năm 2020.",
+       "gap": true
+      },
+      {
+       "say": "Động từ trạng thái không chia tiếp diễn, và since cần thì hoàn thành.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "ref_table",
+     "eyebrow": "Phát âm",
+     "title": "breath và breathe",
+     "data": {
+      "cols": [
+       "Từ loại",
+       "Ví dụ"
+      ],
+      "rows": [
+       {
+        "key": "w1",
+        "head": "breath · danh từ",
+        "en": "I am out of breath.",
+        "vi": "Hơi thở: tôi hết hơi."
+       },
+       {
+        "key": "w2",
+        "head": "breathe · động từ",
+        "en": "Breathe slowly.",
+        "vi": "Thở: hãy thở chậm."
+       }
+      ],
+      "rule": "breath là danh từ, đọc ngắn. breathe là động từ, có e ở cuối."
+     },
+     "lines": [
+      {
+       "say": "Câu mẫu của buổi này có từ breath. Đừng đọc nhầm nó với breathe. Breath không có e, là danh từ.",
+       "show": "w1"
+      },
+      {
+       "en": "I am out of breath.",
+       "vi": "Tôi hết hơi.",
+       "gap": true
+      },
+      {
+       "say": "Breathe có e ở cuối, là động từ."
+      },
+      {
+       "en": "Breathe slowly.",
+       "vi": "Hãy thở chậm.",
+       "gap": true,
+       "show": "w2"
+      },
+      {
+       "say": "Danh từ không có e, động từ có e.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "recap",
+     "lines": [
+      {
+       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "show": "title"
+      }
+     ]
+    },
+    {
+     "kind": "end",
+     "next": "Tiếp theo: học từ và mẫu ngữ pháp, làm bài tập, rồi buổi 3 để vận dụng.",
+     "lines": [
+      {
+       "say": "Hết phần giảng của ngày ba. Bây giờ bạn học các từ và mẫu ngữ pháp trong app, làm bài tập, rồi sang buổi ba để nghe, nói và viết.",
+       "show": "title"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title_vi": "Buổi 3 · từ vựng và vận dụng: nghe chép, nói, viết",
+   "can_do_vi": "Sau buổi này bạn biết thêm các từ về kết quả học tập, tự xếp và gõ được câu hoàn thành, nghe chép được câu và viết câu về chính mình.",
+   "use_vi": "Speaking Part 1 và 2: nói mình đã làm gì, làm được bao lâu. Lỗi `I work here since 2020` và `I have been knowing` rất hay gặp ở người Việt.",
+   "vocab": [
     "primary school",
     "secondary school",
     "results",
@@ -366,48 +1180,11 @@
     "count",
     "recognise"
    ],
-   "grammar": [
-    "Trục thời gian · vẽ ra để nhớ",
-    "Present perfect · kéo tới bây giờ",
-    "Present perfect · đã xong, không nói lúc nào"
-   ],
    "check": [
     "G1D3T3",
     "G1D3T4",
     "G1D3T1",
     "G1D3T2",
-    "G1D3Q2"
-   ]
-  },
-  {
-   "title_vi": "Buổi 2 · hai mẫu cần thuộc",
-   "can_do_vi": "Sau buổi này bạn nắm được: it's the first time + have (ever) v3; have gone to / have been to; have / has been + v-ing: đã bắt đầu, và lúc nói còn đang làm hoặc vừa dừng.",
-   "use_vi": "Speaking Part 1 và 2: nói mình đã làm gì, làm được bao lâu. Lỗi `I work here since 2020` và `I have been knowing` rất hay gặp ở người Việt.",
-   "vocab": [],
-   "grammar": [
-    "Present perfect · hai mẫu cần thuộc",
-    "Present perfect continuous · hai câu hỏi"
-   ],
-   "check": [
-    "G1D3Q1",
-    "G1D3I1",
-    "G1D3I3",
-    "G1D3I5"
-   ]
-  },
-  {
-   "title_vi": "Buổi 3 · thay thế một chiều",
-   "can_do_vi": "Sau buổi này bạn nắm được: hoàn thành thay được cho hoàn thành tiếp diễn; chiều ngược lại thì không; ba từ dễ lẫn khi viết và khi đọc.",
-   "use_vi": "Speaking Part 1 và 2: nói mình đã làm gì, làm được bao lâu. Lỗi `I work here since 2020` và `I have been knowing` rất hay gặp ở người Việt.",
-   "vocab": [],
-   "grammar": [
-    "Present perfect continuous · thay thế một chiều",
-    "Chính tả · breath, breathe, breadth"
-   ],
-   "check": [
-    "G1D3I2",
-    "G1D3I4",
-    "G1D3I6",
     "G1D3B1",
     "G1D3B2",
     "G1D3B3",
