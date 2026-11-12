@@ -42,3 +42,10 @@ Công thức khẳng định/phủ định/câu hỏi, quy tắc -s/-es/-ies, ba
 Đối chiếu với Destination B2 tr. 8–11 và IELTS Grammar 6.5+ tr. 1–7: các bài A (10 câu), B (8 câu) tr. 8, bài C1 (8 câu), C2 (10 mục, 12 chỗ trống) tr. 4 đúng số câu và đúng nội dung câu; phần lý thuyết tr. 2–3 khớp với thẻ (kể cả "kể chuyện, chỉ dẫn" mà bản rà soát đã thêm vào thẻ 3).
 Đã điền nguyên văn 8 câu gốc sai của bài B tr. 8 vào trường `original` (G1D1KB-1..8). Chưa so được đáp án in (Key tr. 220 không có trong ảnh) và Destination C1&C2 tr. 8 (KCA, KCB).
 Ghi chú: sách IELTS Grammar xếp *enjoy* vào động từ trạng thái (tr. 3). Ở mục 12 ở trên tôi nói enjoy dùng được tiếp diễn; điều đó đúng trong tiếng Anh thực tế (I'm enjoying it), nhưng sách xếp khác, nên khung bài viết chỉ dùng like/love để khỏi mâu thuẫn với sách.
+
+## Đối chiếu đáp án in (Destination B2 Answer Key tr. 229; IELTS Grammar Key tr. 220), 2026-11-12
+
+Khớp 100% với đáp án in: Destination B2 Unit 1 bài A, B, C, D, E, F, G, H, I, J (toàn bộ, gồm cả Ngày 2–4) và IELTS Grammar Unit 1 bài C1, C2, C3, C4.
+Đáp án in của bài B tr. 8: 1 often gets up, 2 Do you speak, 3 I've already bought, 4 I've ever had, 5 works/does work, 6 has never eaten, 7 Sean has/Sean's already booked, 8 Does Melanie need.
+Hai điều khác sách: (a) KB-1 app nhận thêm "usually gets up" và "frequently gets up" vì nghĩa tiếng Việt "hay" cho phép; (b) đã sửa lỗi sinh đáp án: các câu mở đầu bằng chỗ trống (G1D3KC-5, KC-8, U3C4-3) từng nhận "'ve you ever met", một dạng không tồn tại; đã bỏ.
+Chưa đối chiếu: Destination C1&C2 tr. 8 (KCA, KCB).

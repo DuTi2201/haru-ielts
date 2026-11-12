@@ -135,6 +135,8 @@ def polish_build(items: list[dict]) -> None:
             blank = e["blanks"][0]
             for b in e["blanks"]:
                 b["accepted"] = widen_accepted(b["accepted"])
+                if e["text"].lstrip().startswith("( ㉠ )"):  # a sentence cannot open with 've / 's attached to nothing
+                    b["accepted"] = [a for a in b["accepted"] if not a.startswith("'")]
             if bank:
                 e["kind"] = "bank"
                 e["bank"] = bank
