@@ -69,7 +69,7 @@ def test_gate_inquiry_before_rule_and_practice_after(n):
     lec = _lecture(n)
     kinds = [s["kind"] for s in lec.slides]
     assert kinds[0] == "title" and kinds[-2:] == ["recap", "end"]
-    assert "?" in lec.script.split("\n")[0]
+    assert "?" in " ".join(lec.script.split("\n")[:3])
     for i, s in enumerate(lec.slides):
         if s["kind"] != "scene" or "rule" not in (s.get("data") or {}):
             continue

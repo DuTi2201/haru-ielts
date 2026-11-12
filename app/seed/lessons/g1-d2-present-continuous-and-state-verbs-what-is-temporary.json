@@ -376,64 +376,138 @@
    "lecture": [
     {
      "kind": "title",
-     "hook": "Hai câu cùng đúng ngữ pháp, vì sao vẫn nói hai điều khác nhau?",
+     "hook": "Chị bạn vừa sang Thái Lan: nên nói lives hay is living, khi cả hai câu đều đúng với chữ now?",
      "lines": [
       {
-       "say": "Chị bạn sống ở Thái Lan. Hai cách nói đều đúng ngữ pháp, vậy vì sao người nghe lại hiểu hai chuyện khác nhau?",
+       "say": "Hãy tưởng tượng thế này. Bạn đang ngồi uống cà phê với một người bạn nước ngoài, và cô ấy hỏi thăm chị gái bạn. Chị bạn vừa chuyển sang Thái Lan.",
        "show": "hook"
       },
       {
-       "say": "Buổi này mình học hiện tại tiếp diễn theo đúng một ý: tính tạm thời. Hiểu ý đó, bạn sẽ không còn chọn thì theo chữ now."
+       "say": "Bạn mở miệng định trả lời, rồi khựng lại. Nên nói she lives, hay she is living? Từ hồi đi học, bạn được dạy: thấy chữ now thì chia tiếp diễn. Nhưng hôm nay bạn sẽ thấy chuyện không đơn giản như vậy."
+      },
+      {
+       "say": "Cuối buổi, bạn sẽ không còn phải học thuộc năm gạch đầu dòng cách dùng nữa. Cả thì tiếp diễn chỉ xoay quanh một chữ duy nhất."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "tense_timeline",
+     "eyebrow": "Tình huống",
+     "title": "Một câu hỏi, hai câu đáp",
+     "data": {
+      "question": "Where does your sister live now?",
+      "question_vi": "Bây giờ chị bạn sống ở đâu?",
+      "question_label": "Bạn của bạn hỏi",
+      "answers": [
+       {
+        "key": "a1",
+        "at": "always",
+        "tense": "Hiện tại đơn",
+        "en": "She lives in Thailand now.",
+        "vi": "Chị ấy định cư ở đó. Now chỉ so với trước kia."
+       },
+       {
+        "key": "a2",
+        "at": "window",
+        "tense": "Tiếp diễn",
+        "en": "She is living in Thailand now.",
+        "vi": "Chị ấy chỉ ở tạm, rồi sẽ đổi."
+       }
+      ],
+      "rule": "Cùng chữ now, cả hai câu đều đúng. Khác nhau ở điều bạn muốn người nghe hiểu: ổn định hay tạm thời."
+     },
+     "lines": [
+      {
+       "say": "Bạn bè hỏi bạn một câu ở hiện tại đơn."
+      },
+      {
+       "en": "Where does your sister live now?",
+       "vi": "Bây giờ chị bạn sống ở đâu?",
+       "gap": true,
+       "show": "q"
+      },
+      {
+       "say": "Giả sử chị bạn đã chuyển hẳn sang đó: mua nhà, định cư lâu dài. Trước kia chị sống ở Việt Nam, bây giờ thì khác rồi. Chữ now ở đây chỉ để đối lại với trước kia. Bạn trả lời bằng hiện tại đơn.",
+       "show": "axis"
+      },
+      {
+       "en": "She lives in Thailand now.",
+       "vi": "Chị ấy sống ở Thái Lan bây giờ.",
+       "gap": true,
+       "show": "a1"
+      },
+      {
+       "say": "Bây giờ giả sử khác đi. Chị bạn chỉ sang học trao đổi sáu tháng, hết sáu tháng là về. Bạn muốn người nghe hiểu đúng điều đó, nên bạn đổi sang tiếp diễn."
+      },
+      {
+       "en": "She is living in Thailand now.",
+       "vi": "Chị ấy đang sống ở Thái Lan.",
+       "gap": true,
+       "show": "a2"
+      },
+      {
+       "say": "Hai câu đều đúng một trăm phần trăm, và cả hai đều có chữ now. Vậy chữ now không quyết định thì. Điều quyết định là bạn muốn nói gì: việc này ổn định, hay chỉ tạm thời.",
+       "show": "rule"
       }
      ]
     },
     {
      "kind": "scene",
      "visual": "ref_table",
-     "eyebrow": "Hai câu, hai ý",
-     "title": "Cùng đúng ngữ pháp, khác ý",
+     "eyebrow": "Một chữ cho mọi cách dùng",
+     "title": "Điểm chung của ba câu",
      "data": {
       "cols": [
-       "Thì",
+       "Cách dùng",
        "Ví dụ"
       ],
       "rows": [
        {
-        "key": "x2",
-        "head": "Hiện tại đơn",
-        "en": "My sister lives in Thailand.",
-        "vi": "Nêu một sự thật: chị ấy sống ở đó."
+        "key": "k1",
+        "head": "Đang xảy ra",
+        "en": "Jan is watching a DVD upstairs.",
+        "vi": "Phim rồi sẽ hết."
        },
        {
-        "key": "x3",
-        "head": "Tiếp diễn",
-        "en": "My sister is living in Thailand.",
-        "vi": "Thêm một ý: chỉ tạm thời, rồi sẽ khác."
+        "key": "k2",
+        "head": "Ở tạm",
+        "en": "We're staying in a hotel this week.",
+        "vi": "Kỳ nghỉ rồi sẽ hết."
+       },
+       {
+        "key": "k3",
+        "head": "Cả một giai đoạn",
+        "en": "I'm not drinking coffee this month.",
+        "vi": "Tháng này qua là uống lại."
        }
       ],
-      "rule": "Hiện tại đơn nêu sự thật. Tiếp diễn thêm một ý: việc này tạm thời."
+      "rule": "Mọi cách dùng của tiếp diễn đều có chung một ý: tạm thời, không kéo dài mãi mãi."
      },
      "lines": [
       {
-       "say": "Câu đầu nêu một sự thật: chị bạn sống ở Thái Lan.",
-       "show": "x2"
+       "say": "Ở trường, người ta dạy thì tiếp diễn có năm cách dùng, và bắt học thuộc từng gạch đầu dòng. Thử làm khác đi. Hãy nhìn ba câu sau, rồi tự tìm điểm chung."
       },
       {
-       "en": "My sister lives in Thailand.",
-       "vi": "Chị tôi sống ở Thái Lan.",
-       "gap": true
+       "en": "Jan is watching a DVD upstairs.",
+       "vi": "Jan đang xem đĩa ở tầng trên.",
+       "gap": true,
+       "show": "k1"
       },
       {
-       "say": "Câu sau thêm một ý: chị ấy chỉ ở tạm, rồi sẽ khác.",
-       "show": "x3"
+       "en": "We're staying in a hotel this week.",
+       "vi": "Tuần này chúng tôi ở khách sạn.",
+       "gap": true,
+       "show": "k2"
       },
       {
-       "en": "My sister is living in Thailand.",
-       "vi": "Chị tôi đang sống ở Thái Lan.",
-       "gap": true
+       "en": "I'm not drinking coffee this month.",
+       "vi": "Tháng này tôi không uống cà phê.",
+       "gap": true,
+       "show": "k3"
       },
       {
-       "say": "Cả hai đều đúng ngữ pháp. Chọn thì là chọn điều bạn muốn người nghe hiểu thêm.",
+       "say": "Tìm ra điểm chung chưa? Cả ba việc rồi sẽ kết thúc. Phim sẽ hết, kỳ nghỉ ở khách sạn sẽ hết, qua tháng này bạn lại uống cà phê. Mọi cách dùng của tiếp diễn đều phản ánh tính tạm thời: việc đó không xảy ra mãi mãi.",
        "show": "rule"
       }
      ]
@@ -443,7 +517,7 @@
      "headword": "temporary",
      "lines": [
       {
-       "say": "Từ chìa khóa của buổi này."
+       "say": "Đây là từ chìa khóa của cả buổi."
       }
      ]
     },
@@ -541,7 +615,7 @@
      },
      "lines": [
       {
-       "say": "Công thức chỉ có một: am, is hoặc are, cộng động từ thêm ing. Với I dùng am, với he, she, it dùng is, với you, we, they dùng are.",
+       "say": "Biết khi nào dùng rồi, giờ mình học cách đặt câu. Công thức chỉ có một: am, is hoặc are, cộng động từ thêm ing. Với I dùng am, với he, she, it dùng is, với you, we, they dùng are.",
        "show": "persons"
       },
       {
@@ -585,74 +659,8 @@
     {
      "kind": "scene",
      "visual": "ref_table",
-     "eyebrow": "Một ý duy nhất",
-     "title": "Mọi cách dùng đều là tạm thời",
-     "data": {
-      "cols": [
-       "Cách dùng",
-       "Ví dụ"
-      ],
-      "rows": [
-       {
-        "key": "t1",
-        "head": "Việc đang diễn ra",
-        "en": "Lan is talking to a customer.",
-        "vi": "Lan đang nói chuyện với khách."
-       },
-       {
-        "key": "t2",
-        "head": "Tình huống tạm thời",
-        "en": "I'm staying at my aunt's this week.",
-        "vi": "Tuần này tôi ở nhà dì."
-       },
-       {
-        "key": "t3",
-        "head": "Thói quen tạm thời",
-        "en": "I'm not drinking coffee this month.",
-        "vi": "Tháng này tôi không uống cà phê."
-       }
-      ],
-      "rule": "Tiếp diễn luôn gắn với tính tạm thời: việc đang diễn ra, rồi sẽ dừng hoặc đổi."
-     },
-     "lines": [
-      {
-       "say": "Các cách dùng của hiện tại tiếp diễn nhìn thì nhiều, nhưng chung một ý. Đó là tính tạm thời. Việc đang diễn ra thì rồi sẽ kết thúc.",
-       "show": "t1"
-      },
-      {
-       "en": "Lan is talking to a customer.",
-       "vi": "Lan đang nói chuyện với khách.",
-       "gap": true
-      },
-      {
-       "say": "Tình huống tạm thời: tuần này tôi ở nhà dì, tuần sau tôi về nhà."
-      },
-      {
-       "en": "I'm staying at my aunt's this week.",
-       "vi": "Tuần này tôi ở nhà dì.",
-       "gap": true,
-       "show": "t2"
-      },
-      {
-       "say": "Cả một thói quen cũng có thể tạm thời: chỉ trong tháng này."
-      },
-      {
-       "en": "I'm not drinking coffee this month.",
-       "vi": "Tháng này tôi không uống cà phê.",
-       "gap": true,
-       "show": "t3"
-      },
-      {
-       "say": "Đang xem phim, đang ở khách sạn, đang bỏ cà phê: tất cả rồi sẽ hết. Vì vậy tiếp diễn luôn gắn với tính tạm thời.",
-       "show": "rule"
-      }
-     ]
-    },
-    {
-     "kind": "scene",
-     "visual": "ref_table",
-     "eyebrow": "Bẫy chữ now",
-     "title": "Thấy now là chia tiếp diễn?",
+     "eyebrow": "Cùng một động từ",
+     "title": "Ăn thịt hay ăn kiêng?",
      "data": {
       "cols": [
        "Tình huống",
@@ -660,71 +668,41 @@
       ],
       "rows": [
        {
-        "key": "n1",
-        "head": "now so với trước kia",
-        "en": "Where does your sister live now?",
-        "vi": "Bây giờ chị bạn sống ở đâu?"
+        "key": "d1",
+        "head": "Bình thường: thói quen",
+        "en": "We eat meat every day.",
+        "vi": "Nhà tôi ngày nào cũng ăn thịt."
        },
        {
-        "key": "n2",
-        "head": "Đáp: sự thật ổn định",
-        "en": "She lives in Hanoi now.",
-        "vi": "Chị ấy sống ở Hà Nội."
-       },
-       {
-        "key": "n3",
-        "head": "Đáp: tạm thời",
-        "en": "She is living in Hanoi now.",
-        "vi": "Chị ấy đang sống ở Hà Nội (rồi sẽ đổi)."
-       },
-       {
-        "key": "n4",
-        "head": "Đúng một mốc",
-        "en": "Lan is talking to a customer right now.",
-        "vi": "Lan đang tiếp khách ngay lúc này."
+        "key": "d2",
+        "head": "Đang ăn kiêng: tạm thời",
+        "en": "We aren't eating any meat at the moment, as we're both on a diet.",
+        "vi": "Lúc này chúng tôi không ăn thịt, vì cả hai đang ăn kiêng."
        }
       ],
-      "rule": "Now chỉ so với trước kia. Hỏi mình: muốn nói sự thật ổn định, hay tạm thời, hay đúng một mốc?"
+      "rule": "Cùng động từ eat: thói quen thì hiện tại đơn, nhưng có lý do tạm thời thì tiếp diễn."
      },
      "lines": [
       {
-       "say": "Bẫy lớn nhất của người học: thấy chữ now là chia tiếp diễn. Xem câu hỏi này."
+       "say": "Thử một ví dụ nữa. Eat là động từ bình thường, thường nói về thói quen. Nhà bạn ăn thịt mỗi ngày."
       },
       {
-       "en": "Where does your sister live now?",
-       "vi": "Bây giờ chị bạn sống ở đâu?",
+       "en": "We eat meat every day.",
+       "vi": "Nhà tôi ngày nào cũng ăn thịt.",
        "gap": true,
-       "show": "n1"
+       "show": "d1"
       },
       {
-       "say": "Chị ấy chuyển hẳn đến Hà Nội, bạn đáp bằng hiện tại đơn. Now chỉ nói bây giờ khác trước kia."
+       "say": "Nhưng dạo này hai vợ chồng đang ăn kiêng. Ăn kiêng là một giai đoạn tạm thời: hết ăn kiêng, bạn lại ăn thịt như thường. Vì lý do tạm thời đó, dù eat thường chỉ thói quen, ở đây bạn dùng tiếp diễn."
       },
       {
-       "en": "She lives in Hanoi now.",
-       "vi": "Chị ấy sống ở Hà Nội.",
+       "en": "We aren't eating any meat at the moment, as we're both on a diet.",
+       "vi": "Lúc này chúng tôi không ăn thịt, vì cả hai đang ăn kiêng.",
        "gap": true,
-       "show": "n2"
+       "show": "d2"
       },
       {
-       "say": "Nếu chị ấy chỉ ở tạm, bạn đáp bằng tiếp diễn. Cùng chữ now, hai câu khác nhau."
-      },
-      {
-       "en": "She is living in Hanoi now.",
-       "vi": "Chị ấy đang sống ở Hà Nội.",
-       "gap": true,
-       "show": "n3"
-      },
-      {
-       "say": "Còn khi nói một hành động đang diễn ra đúng lúc nói, như right now hoặc at the moment, dùng tiếp diễn."
-      },
-      {
-       "en": "Lan is talking to a customer right now.",
-       "vi": "Lan đang tiếp khách ngay lúc này.",
-       "gap": true,
-       "show": "n4"
-      },
-      {
-       "say": "Chữ now không quyết định thì. Điều bạn muốn nói mới quyết định.",
+       "say": "Động từ giống nhau, thì khác nhau, chỉ vì bạn muốn nói điều khác nhau.",
        "show": "rule"
       }
      ]
@@ -772,7 +750,7 @@
      },
      "lines": [
       {
-       "say": "Thay đổi cũng là tạm thời, vì nó đang trên đường tới một trạng thái khác. Thường có increasingly hoặc more and more.",
+       "say": "Từ chữ tạm thời, mình suy ra ngay một cách dùng nữa. Thế giới không đứng yên. Cái gì đang đổi dần thì chưa dừng lại: nó đang trên đường đi tới một trạng thái khác. Thường có increasingly hoặc more and more.",
        "show": "r1"
       },
       {
@@ -847,80 +825,145 @@
    "lecture": [
     {
      "kind": "title",
-     "hook": "Vì sao I am knowing là sai, mà He is being rude lại đúng?",
+     "hook": "Em gái bật nhạc ầm ĩ làm bạn phát bực, vì sao câu bạn nói ra lại nghe hoàn toàn bình thường, chẳng có chút bực nào?",
      "lines": [
       {
-       "say": "Vì sao nói I am knowing là sai, mà He is being rude lại đúng? Có những động từ thường không chia tiếp diễn, và có những động từ chia được khi đổi nghĩa.",
+       "say": "Bạn có một cô em gái rất thích bật nhạc thật to. Hôm nay bạn bực quá, bạn kể với bạn bè về chuyện đó.",
        "show": "hook"
       },
       {
-       "say": "Buổi hai có ba việc: than phiền với always, kế hoạch đã hẹn, và động từ trạng thái."
+       "say": "Bạn nói một câu hoàn toàn đúng ngữ pháp. Nhưng bạn bè nghe xong chỉ gật gù, chẳng thấy cơn bực của bạn đâu cả. Vì sao vậy? Hôm nay mình đi tìm xem câu đó thiếu thứ gì."
+      },
+      {
+       "say": "Sau đó bạn sẽ học thêm hai việc: kế hoạch đã hẹn, và những động từ không chia tiếp diễn."
       }
      ]
     },
     {
      "kind": "scene",
      "visual": "ref_table",
-     "eyebrow": "Cảm xúc của người nói",
-     "title": "always + V-ing",
+     "eyebrow": "Than phiền",
+     "title": "Câu thiếu mất một chữ",
      "data": {
       "cols": [
-       "Sắc thái",
+       "Câu nói",
        "Ví dụ"
       ],
       "rows": [
        {
         "key": "a1",
-        "head": "Than phiền",
-        "en": "My sister is always playing her music so loudly!",
-        "vi": "Chị tôi lúc nào cũng bật nhạc to ơi là to!"
+        "head": "Thiếu trạng từ",
+        "en": "My sister is turning the music loudly.",
+        "vi": "Người nghe chỉ hiểu: ngay lúc này chị ấy đang vặn nhạc to."
        },
        {
         "key": "a2",
-        "head": "Thân mật, hơi ngạc nhiên",
-        "en": "You're always leaving the lights on.",
-        "vi": "Cậu lúc nào cũng để đèn sáng."
+        "head": "Có always: than phiền",
+        "en": "My sister is always turning the music so loudly!",
+        "vi": "Lặp đi lặp lại, và bạn bực."
        },
        {
         "key": "a3",
-        "head": "Chỉ nêu thói quen: hiện tại đơn",
-        "en": "He usually has lunch at twelve.",
-        "vi": "Anh ấy thường ăn trưa lúc mười hai giờ."
+        "head": "Thân mật, hơi ngạc nhiên",
+        "en": "You're always leaving the lights on.",
+        "vi": "Cậu lúc nào cũng để đèn sáng."
        }
       ],
-      "rule": "Có cảm xúc về việc lặp lại: always + V-ing. Chỉ nêu thói quen: hiện tại đơn."
+      "rule": "Muốn than phiền bằng tiếp diễn, chèn always hoặc constantly vào giữa be và V-ing."
      },
      "lines": [
       {
-       "say": "Hiện tại tiếp diễn đi với always khi người nói có cảm xúc về việc lặp lại đó. Phổ biến nhất là bực mình.",
+       "say": "Đây là câu bạn đã nói với bạn bè."
+      },
+      {
+       "en": "My sister is turning the music loudly.",
+       "vi": "Chị tôi đang vặn nhạc to.",
+       "gap": true,
        "show": "a1"
       },
       {
-       "en": "My sister is always playing her music so loudly!",
-       "vi": "Chị tôi lúc nào cũng bật nhạc to ơi là to!",
+       "say": "Bạn bè hiểu gì? Chỉ hiểu rằng ngay lúc này chị ấy đang vặn nhạc to. Không có chuyện lặp đi lặp lại, và cũng chẳng có chút bực mình nào."
+      },
+      {
+       "say": "Muốn than phiền hay chỉ trích, bạn phải chèn một trạng từ tần suất rất cao vào giữa be và V-ing: always, constantly, continually, forever.",
+       "show": "a2"
+      },
+      {
+       "en": "My sister is always turning the music so loudly!",
+       "vi": "Chị tôi lúc nào cũng vặn nhạc to ơi là to!",
        "gap": true
       },
       {
-       "say": "Cũng có thể là thân mật, hơi ngạc nhiên."
+       "say": "Cũng có khi không bực mà chỉ thân mật, hơi ngạc nhiên."
       },
       {
        "en": "You're always leaving the lights on.",
        "vi": "Cậu lúc nào cũng để đèn sáng.",
        "gap": true,
-       "show": "a2"
-      },
-      {
-       "say": "Nếu không có cảm xúc, chỉ nêu thói quen, thì dùng hiện tại đơn. Tiếp diễn thường không đi với usually hay often."
-      },
-      {
-       "en": "He usually has lunch at twelve.",
-       "vi": "Anh ấy thường ăn trưa lúc mười hai giờ.",
-       "gap": true,
        "show": "a3"
       },
       {
-       "say": "Tóm lại: có cảm xúc thì always cộng V-ing, không có thì hiện tại đơn.",
+       "say": "Tóm lại: muốn than phiền bằng tiếp diễn, chèn always hoặc constantly vào giữa be và V-ing.",
        "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "fix_pairs",
+     "eyebrow": "Xung đột bản chất",
+     "title": "Vì sao usually không đi với tiếp diễn",
+     "data": {
+      "rows": [
+       {
+        "key": "u1",
+        "wrong": "Are you usually playing hockey?",
+        "right": "Do you usually play hockey?",
+        "why": "usually nói việc lặp lại; tiếp diễn nói việc tạm thời. Hai ý xung đột."
+       },
+       {
+        "key": "u2",
+        "wrong": "He is often having lunch at twelve.",
+        "right": "He often has lunch at twelve.",
+        "why": "often cũng là lặp lại có quy luật: hiện tại đơn."
+       }
+      ],
+      "rule": "Lặp lại có quy luật thì hiện tại đơn. Tiếp diễn chỉ nói việc tạm thời."
+     },
+     "lines": [
+      {
+       "say": "Có một câu hỏi rất hay. Vì sao không ai nói are you usually playing? Không cần học thuộc luật. Chỉ cần nhìn bản chất."
+      },
+      {
+       "say": "Usually và often nói về việc lặp lại có quy luật, năm này qua năm khác. Tiếp diễn nói về việc tạm thời. Hai ý đó đánh nhau, nên không đi cùng nhau.",
+       "show": "u1"
+      },
+      {
+       "en": "Do you usually play hockey?",
+       "vi": "Bạn có hay chơi khúc côn cầu không?",
+       "gap": true
+      },
+      {
+       "say": "Often cũng vậy.",
+       "show": "u2"
+      },
+      {
+       "en": "He often has lunch at twelve.",
+       "vi": "Anh ấy thường ăn trưa lúc mười hai giờ.",
+       "gap": true
+      },
+      {
+       "say": "Lặp lại có quy luật thì hiện tại đơn. Tiếp diễn chỉ dành cho việc tạm thời.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "annoying",
+     "lines": [
+      {
+       "say": "Một từ cho cảm xúc của phần trên."
       }
      ]
     },
@@ -969,15 +1012,6 @@
       {
        "say": "Buổi về thì tương lai sẽ nói kỹ hơn. Hôm nay chỉ cần nhận ra: đã hẹn rồi thì dùng tiếp diễn.",
        "show": "rule"
-      }
-     ]
-    },
-    {
-     "kind": "word",
-     "headword": "annoying",
-     "lines": [
-      {
-       "say": "Một từ cho cảm xúc của phần trên."
       }
      ]
     },
@@ -1033,7 +1067,7 @@
      },
      "lines": [
       {
-       "say": "Động từ trạng thái nói về điều đang là, không phải một hành động, nên thường không chia tiếp diễn. Có sáu nhóm.",
+       "say": "Nếu tiếp diễn là sự vận động tạm thời, thì những động từ nào chắc chắn không hợp? Là những động từ nói về điều đứng yên và bền vững: bạn biết, bạn yêu, bạn sở hữu. Chúng nói về trạng thái, không phải hành động, nên thường không chia tiếp diễn. Có sáu nhóm.",
        "show": "title"
       },
       {
