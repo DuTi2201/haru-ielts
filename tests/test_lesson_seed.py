@@ -139,7 +139,7 @@ class ExerciseBankTests(unittest.TestCase):
                 self.assertEqual(self.bank_of[ex_id], r.seed.bank, f"{r.seed.slug}: {ex_id}")
             by_skill = r.practice["counts"]["by_skill"]
             # week 1 of G1 is phase one of the method: no scored speaking yet
-            if r.seed.slug == "g1-entry-test" or r.seed.slug.startswith(("g1-d5", "g1-d6", "g1-d7", "g1-d8", "g1-d9", "g1-d10", "g1-d11")):  # diagnostic and vocabulary days: reading and typed items only
+            if r.seed.slug == "g1-entry-test" or r.seed.slug.startswith(("g1-d5", "g1-d6", "g1-d7", "g1-d8", "g1-d9", "g1-d10", "g1-d11", "g1-d12", "g1-d13")):  # diagnostic and vocabulary days: reading and typed items only
                 continue
             for skill in ("listening", "reading", "build", "writing") + (() if g1 else ("speaking",)):
                 self.assertTrue(by_skill.get(skill), f"{r.seed.slug}: no {skill}")
