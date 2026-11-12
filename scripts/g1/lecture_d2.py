@@ -53,7 +53,7 @@ TREND = [
 ]
 
 ALWAYS = [
-    {"key": "a1", "head": "Thiếu trạng từ", "en": "My sister is turning the music loudly.", "vi": "Người nghe chỉ hiểu: ngay lúc này chị ấy đang vặn nhạc to."},
+    {"key": "a1", "head": "Thiếu trạng từ", "en": "My sister is turning the music loudly.", "vi": "Người nghe chỉ hiểu: ngay lúc này chị ấy đang vặn nhạc rất lớn."},
     {"key": "a2", "head": "Có always: than phiền", "en": "My sister is always turning the music so loudly!", "vi": "Lặp đi lặp lại, và bạn bực."},
     {"key": "a3", "head": "Thân mật, hơi ngạc nhiên", "en": "You're always leaving the lights on.", "vi": "Cậu lúc nào cũng để đèn sáng."},
 ]
@@ -137,7 +137,7 @@ SITTING_1 = [
         {"en": "Lan isn't talking to a customer.", "vi": "Lan không đang nói chuyện với khách.", "gap": True, "show": "neg"},
         {"en": "Is Lan talking to a customer?", "vi": "Lan đang nói chuyện với khách à?", "gap": True, "show": "qst"},
         {"say": "Trả lời ngắn thì dùng lại be: yes, she is, hoặc no, she isn't.", "show": "short"},
-        {"say": "Chú ý chính tả: write bỏ e thành writing, run gấp đôi n thành running, lie đổi thành lying.", "show": "spelling"},
+        {"say": "Chú ý chính tả: write bỏ e thành writing, run gấp đôi phụ âm cuối thành running, lie đổi thành lying.", "show": "spelling"},
         {"say": "Một lỗi người Việt hay mắc là quên be: She living in Hue. Luôn có am, is hoặc are."},
         {"say": "Tóm lại: be cộng ing, và câu hỏi đưa be lên đầu.", "show": "rule"},
     ]},
@@ -171,7 +171,7 @@ SITTING_1 = [
 
 SITTING_2 = [
     {"kind": "title", "hook": "Em gái bật nhạc ầm ĩ làm bạn phát bực, vì sao câu bạn nói ra lại nghe hoàn toàn bình thường, chẳng có chút bực nào?", "lines": [
-        {"say": "Bạn có một cô em gái rất thích bật nhạc thật to. Hôm nay bạn bực quá, bạn kể với bạn bè về chuyện đó.", "show": "hook"},
+        {"say": "Bạn có một cô em gái rất thích bật nhạc thật lớn. Hôm nay bạn bực quá, bạn kể với bạn bè về chuyện đó.", "show": "hook"},
         {"say": "Bạn nói một câu hoàn toàn đúng ngữ pháp. Nhưng bạn bè nghe xong chỉ gật gù, chẳng thấy cơn bực của bạn đâu cả. Vì sao vậy? Hôm nay mình đi tìm xem câu đó thiếu thứ gì."},
         {"say": "Sau đó bạn sẽ học thêm hai việc: kế hoạch đã hẹn, và những động từ không chia tiếp diễn."},
     ]},
@@ -179,8 +179,8 @@ SITTING_2 = [
      "data": {"cols": ["Câu nói", "Ví dụ"], "rows": ALWAYS,
               "rule": "Muốn than phiền bằng tiếp diễn, chèn always hoặc constantly vào giữa be và V-ing."}, "lines": [
         {"say": "Đây là câu bạn đã nói với bạn bè."},
-        {"en": "My sister is turning the music loudly.", "vi": "Chị tôi đang vặn nhạc to.", "gap": True, "show": "a1"},
-        {"say": "Bạn bè hiểu gì? Chỉ hiểu rằng ngay lúc này chị ấy đang vặn nhạc to. Không có chuyện lặp đi lặp lại, và cũng chẳng có chút bực mình nào."},
+        {"en": "My sister is turning the music loudly.", "vi": "Chị tôi đang vặn nhạc rất lớn.", "gap": True, "show": "a1"},
+        {"say": "Bạn bè hiểu gì? Chỉ hiểu rằng ngay lúc này chị ấy đang vặn nhạc rất lớn. Không có chuyện lặp đi lặp lại, và cũng chẳng có chút bực mình nào."},
         {"say": "Muốn than phiền hay chỉ trích, bạn phải chèn một trạng từ tần suất rất cao vào giữa be và V-ing: always, constantly, continually, forever.", "show": "a2"},
         {"en": "My sister is always turning the music so loudly!", "vi": "Chị tôi lúc nào cũng vặn nhạc to ơi là to!", "gap": True},
         {"say": "Cũng có khi không bực mà chỉ thân mật, hơi ngạc nhiên."},

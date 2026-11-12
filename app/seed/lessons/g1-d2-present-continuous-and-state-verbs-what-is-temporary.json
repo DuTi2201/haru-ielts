@@ -645,7 +645,7 @@
        "show": "short"
       },
       {
-       "say": "Chú ý chính tả: write bỏ e thành writing, run gấp đôi n thành running, lie đổi thành lying.",
+       "say": "Chú ý chính tả: write bỏ e thành writing, run gấp đôi phụ âm cuối thành running, lie đổi thành lying.",
        "show": "spelling"
       },
       {
@@ -826,7 +826,7 @@
      "hook": "Em gái bật nhạc ầm ĩ làm bạn phát bực, vì sao câu bạn nói ra lại nghe hoàn toàn bình thường, chẳng có chút bực nào?",
      "lines": [
       {
-       "say": "Bạn có một cô em gái rất thích bật nhạc thật to. Hôm nay bạn bực quá, bạn kể với bạn bè về chuyện đó.",
+       "say": "Bạn có một cô em gái rất thích bật nhạc thật lớn. Hôm nay bạn bực quá, bạn kể với bạn bè về chuyện đó.",
        "show": "hook"
       },
       {
@@ -848,7 +848,7 @@
         "key": "a1",
         "head": "Thiếu trạng từ",
         "en": "My sister is turning the music loudly.",
-        "vi": "Người nghe chỉ hiểu: ngay lúc này chị ấy đang vặn nhạc to.",
+        "vi": "Người nghe chỉ hiểu: ngay lúc này chị ấy đang vặn nhạc rất lớn.",
         "icon": "speaker"
        },
        {
@@ -874,12 +874,12 @@
       },
       {
        "en": "My sister is turning the music loudly.",
-       "vi": "Chị tôi đang vặn nhạc to.",
+       "vi": "Chị tôi đang vặn nhạc rất lớn.",
        "gap": true,
        "show": "a1"
       },
       {
-       "say": "Bạn bè hiểu gì? Chỉ hiểu rằng ngay lúc này chị ấy đang vặn nhạc to. Không có chuyện lặp đi lặp lại, và cũng chẳng có chút bực mình nào."
+       "say": "Bạn bè hiểu gì? Chỉ hiểu rằng ngay lúc này chị ấy đang vặn nhạc rất lớn. Không có chuyện lặp đi lặp lại, và cũng chẳng có chút bực mình nào."
       },
       {
        "say": "Muốn than phiền hay chỉ trích, bạn phải chèn một trạng từ tần suất rất cao vào giữa be và V-ing: always, constantly, continually, forever.",
