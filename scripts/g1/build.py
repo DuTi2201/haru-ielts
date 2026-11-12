@@ -31,7 +31,21 @@ import exercise_polish as EP  # noqa: E402
 
 LESSONS = ROOT / "app" / "seed" / "lessons"
 BANK = ROOT / "app" / "seed" / "exercises" / "g1"
-TOPIC = "G1 · Các thì hiện tại (Tuần 1)"
+TOPIC = "Tuần 1 · Giáo dục (Education)"
+TOPIC_EXTRA = "Bổ trợ · Từ vựng và bài đọc ngoài lịch tuần"
+# Week 1 of the Pre-IELTS syllabus: Present tenses (B2 Unit 1, A B C E), Thinking and learning (C1 Unit 2, A B C D),
+# Reading and Listening from Cambridge 18. Days outside it are kept as supplements, not deleted.
+DAYNO = {1: 1, 2: 2, 3: 3, 4: 4, 7: 5, 9: 6, 11: 7}  # the day number the learner sees
+SUPPLEMENT = {
+    5: "Bổ trợ cho chủ đề Giáo dục khi cần học thêm từ nền; không nằm trong lịch Tuần 1.",
+    6: "Bổ trợ cho chủ đề Giáo dục khi cần học thêm kết hợp từ; không nằm trong lịch Tuần 1.",
+    8: "Bài đọc bậc dễ về văn hóa và cảm xúc; hợp với Tuần 10 (Văn hóa và nghệ thuật) hơn là Tuần 1.",
+    10: "Từ vựng về con người và tính cách; hợp với Tuần 9 và Tuần 11 (Xã hội, Quan hệ) hơn là Tuần 1.",
+}
+# exercises outside the syllabus' list for the week go to the optional sittings
+GRAMMAR_OPT = {3: {"D", "U3C1", "U3C2", "U3C3", "U3C4"}, 4: {"H", "I", "J", "U1C4a", "U1C4b", "C4"}}
+def day_label(n: int) -> str:
+    return f"Ngày {DAYNO[n]}" if n in DAYNO else "Bổ trợ"
 BOOK = "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1"
 SOURCE = "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
 
@@ -169,7 +183,7 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
         bank["listening"].append(dic)
     for i, m in enumerate(d["m"], 1):
         bank["writing"].append({
-            "id": f"{pid}M{i}", "skill": "writing", "type": "write_essay", "number": f"M{i}", "title_vi": f"Câu của tôi · Ngày {n}", "points": 5,
+            "id": f"{pid}M{i}", "skill": "writing", "type": "write_essay", "number": f"M{i}", "title_vi": f"Câu của tôi · {day_label(n)}", "points": 5,
             "instruction_vi": m["vi"] + " Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
             "limits": {"min": 8, "max": 40}, "prompt_en": m["en"],
             "framework_vi": ["Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.", "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?", "Chọn thì theo câu trả lời đó rồi mới viết."],
@@ -235,29 +249,33 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
         sessions = L2.reshape(sessions, [e["id"] for k in bank for e in bank[k]], {x: c for c, xs in by_card.items() for x in xs})
     if n == 1:
         sessions = L1.reshape(sessions, [e["id"] for k in bank for e in bank[k]], {x: c for c, xs in by_card.items() for x in xs})
-    chunk: list[str] = []
-    names: list[str] = []
-    book_sittings: list[tuple[list[str], list[str]]] = []
-    for code, ids in book_groups.items():
-        if chunk and len(chunk) + len(ids) > 24:
-            book_sittings.append((names, chunk)); chunk, names = [], []
-        chunk += ids; names.append(code)
-    if chunk:
-        book_sittings.append((names, chunk))
-    for names, ids in book_sittings:
-        sessions.append({
-            "title_vi": pack_title("Luyện theo sách", [(book_src[c][1], book_src[c][0]) for c in names]),
-            "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: " + "; ".join(book_src[c][0].lower() for c in names) + ".",
-            "use_vi": "Làm sau khi học thẻ: mỗi câu sai có lời giải thích, hãy tự nói lại câu đó theo ý muốn nói rồi mới sang câu sau.",
-            "check": ids,
-        })
+    opt_codes = GRAMMAR_OPT.get(n, set())
+    for optional in (False, True):
+        chunk: list[str] = []
+        names: list[str] = []
+        book_sittings: list[tuple[list[str], list[str]]] = []
+        for code, ids in book_groups.items():
+            if (code in opt_codes) != optional:
+                continue
+            if chunk and len(chunk) + len(ids) > 24:
+                book_sittings.append((names, chunk)); chunk, names = [], []
+            chunk += ids; names.append(code)
+        if chunk:
+            book_sittings.append((names, chunk))
+        for names, ids in book_sittings:
+            sessions.append({
+                "title_vi": pack_title("Mở rộng không bắt buộc" if optional else "Luyện theo sách", [(book_src[c][1], book_src[c][0]) for c in names]),
+                "can_do_vi": ("Bài mở rộng, làm thêm nếu còn thời gian: " if optional else "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: ") + "; ".join(book_src[c][0].lower() for c in names) + ".",
+                "use_vi": "Làm sau khi học thẻ: mỗi câu sai có lời giải thích, hãy tự nói lại câu đó theo ý muốn nói rồi mới sang câu sau.",
+                "check": ids,
+            })
     book_body = "\n".join(
         f"• {b['book']}, trang {b['pages']}: " + (f"bài {b['task']} ({b['items']} câu, khoảng {b['minutes']} phút)" if b["items"] else f"{b['task']} (khoảng {b['minutes']} phút)")
         for b in d["book"])
     traps = [c["trap"] for c in d["cards"] if c["trap"] and len(c["trap"]) <= 230 and c["trap"].count("`") % 2 == 0]
     lesson = {
         "slug": f"g1-d{n}-{B.slugify(d['title'])}"[:60].rstrip("-"),
-        "title": f"G1 · Ngày {n} · {d['title_vi']}", "title_en": d["title"], "topic": TOPIC, "track": "beginner", "level": 4, "sort_order": 100 + n,
+        "title": f"Tuần 1 · Ngày {DAYNO[n]} · {d['title_vi']}", "title_en": d["title"], "topic": TOPIC, "track": "beginner", "level": 4, "sort_order": 100 + n,
         "summary": f"{d['goal']} Thẻ: {'; '.join(p.split(' · ')[-1] for p in patterns)}.",
         "vocab": vocab, "grammar": grammar,
         "notes": [
@@ -299,7 +317,7 @@ def entry_lesson() -> tuple[dict, list[dict]]:
             "check": [e["id"] for e in chunk],
         })
     lesson = {
-        "slug": "g1-entry-test", "title": "G1 · Bài kiểm tra đầu vào (50 câu)", "title_en": "Grammar entry test (50 items)", "topic": TOPIC,
+        "slug": "g1-entry-test", "title": "Tuần 1 · Kiểm tra đầu vào (50 câu)", "title_en": "Grammar entry test (50 items)", "topic": TOPIC,
         "track": "beginner", "level": 4, "sort_order": 100,
         "summary": "Bài đo trình độ ngữ pháp của sách IELTS Grammar for Bands 6.5+: 50 câu, mỗi câu chỉ ra Unit cần học nếu sai.",
         "vocab": [{"headword": "diagnostic", "pos": "A", "meaning_vi": "dùng để chẩn đoán, tìm ra chỗ yếu", "example_en": "This diagnostic test shows which grammar units you need to study.", "example_vi": "Bài kiểm tra chẩn đoán này cho biết bạn cần học những Unit ngữ pháp nào.", "family": "Từ của ngày", "priority": "core", "source": SOURCE}], "grammar": [],
@@ -343,7 +361,7 @@ def review_items(pid: str, from_days: list[int]) -> list[dict]:
                 continue
             text = pat.sub("( ㉠ )", ex, count=1)
             gloss = mv.split(" (")[0]
-            e = B.write_fill(f"{pid}O{fd}-{len(out) + 1}", f"Ôn lại · từ Ngày {fd}", text, [h, h.capitalize()], f"{h} = {gloss}. Nghĩa của câu: {evi}")
+            e = B.write_fill(f"{pid}O{fd}-{len(out) + 1}", "Ôn lại · từ vựng giáo dục 1", text, [h, h.capitalize()], f"{h} = {gloss}. Nghĩa của câu: {evi}")
             e["instruction_vi"] = "Ôn lại từ đã học: gõ từ còn thiếu trong câu. Nếu quên, nhìn nghĩa tiếng Việt gợi ý rồi thử lại."
             out.append(e)
     return out
@@ -452,20 +470,21 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
         sessions.append({"title_vi": "Vận dụng · câu của tôi với từ vừa học", "can_do_vi": "Sau buổi này bạn đã tự gõ câu của riêng mình với các từ vừa học, bước quan trọng nhất.",
                          "use_vi": "Từ vừa dùng cho chuyện của chính mình thì nhớ lâu hơn, và đây là cầu nối sang Writing và Speaking.", "check": my_ids})
     add_packs(practise, "Rèn luyện", "Sau buổi này bạn tự gõ được đáp án của sách: ")
-    prev = [dd for dd in (5, 6, 7) if dd < n] if n in (6, 7) else []
+    prev = [5] if n == 6 else []  # Day 7 no longer reviews the supplements
     if prev:
         rv = review_items(pid, prev)
         bank["build"].extend(rv)
         for k in range(0, len(rv), 20):
             part = rv[k:k + 20]
-            sessions.append({"title_vi": f"Ôn tập · từ Ngày {', '.join(str(x) for x in prev)} ({k // 20 + 1})"[:70], "can_do_vi": "Sau buổi này bạn nhớ lại các từ đã học ở những ngày trước mà không nhìn đáp án.",
+            sessions.append({"title_vi": f"Ôn tập · từ bài Từ vựng giáo dục 1 ({k // 20 + 1})"[:70], "can_do_vi": "Sau buổi này bạn nhớ lại các từ đã học ở những ngày trước mà không nhìn đáp án.",
                              "use_vi": "Ôn cách quãng: gặp lại từ sau vài ngày giúp nhớ lâu hơn nhiều so với học dồn.", "check": [e["id"] for e in part]})
-    add_packs(extra, "Mở rộng không bắt buộc", "Cụm động từ và thành ngữ, chỉ cần nhận ra khi đọc và nghe: ")
+    add_packs(extra, "Mở rộng không bắt buộc", "Bài mở rộng, làm thêm nếu còn thời gian: ")
     book_body = "\n".join(f"• {b[0]}, trang {b[1]}: bài {b[2]} ({b[3]} câu, khoảng {b[4]} phút)" for b in d["book"])
     lesson = {
         "slug": f"g1-d{n}-{B.slugify(d.get('slug_title', d['title']))}"[:60].rstrip("-"),
-        "title": f"G1 · Ngày {n} · {d['title_vi']}"[:120], "title_en": d["title"], "topic": TOPIC, "track": "beginner", "level": 4, "sort_order": 100 + n,
-        "summary": d["goal"], "vocab": vocab, "grammar": [],
+        "title": (f"Tuần 1 · Ngày {DAYNO[n]} · {d['title_vi']}" if n in DAYNO else f"Bổ trợ · {d['title_vi']}")[:120], "title_en": d["title"],
+        "topic": TOPIC if n in DAYNO else TOPIC_EXTRA, "track": "beginner", "level": 4, "sort_order": 100 + DAYNO[n] if n in DAYNO else 200 + n,
+        "summary": d["goal"] + ((" " + SUPPLEMENT[n]) if n in SUPPLEMENT else ""), "vocab": vocab, "grammar": [],
         "notes": [
             {"title": "Mục tiêu của ngày", "body": "\n".join(f"• {x}" for x in d.get("can") or [d["goal"]]), "kind": "goal"},
             {"title": "Bài của sách nằm trong app", "body": book_body + "\n• Các bài này có sẵn trong app kèm đáp án của sách và lời giải thích từng câu.", "kind": "language"},

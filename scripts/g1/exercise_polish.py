@@ -176,7 +176,7 @@ def polish_build(items: list[dict]) -> None:
 INSTRUCTION = {
     "G1D5M1": "Viết hai câu về việc học của bạn, dùng ít nhất hai từ của bài hôm nay.",
     "G1D6M1": "Viết hai câu về cách bạn học, dùng ít nhất hai kết hợp từ của bài hôm nay.",
-    "G1D7M1": "Viết hai câu về một quyết định học tập của bạn, dùng hai từ C1 của Ngày 7 (ví dụ assess, ponder, hunch).",
+    "G1D7M1": "Viết hai câu về một quyết định học tập của bạn, dùng hai từ của Ngày 5 (ví dụ assess, ponder, hunch).",
     "G1D8M1": "Kể bằng hai câu về một lần bạn thấy lạ hoặc khó chịu ở nơi mới, dùng ít nhất hai từ của bài hôm nay.",
     "G1D9M1": "Tóm tắt bài đọc bằng một hoặc hai câu của chính bạn, không chép nguyên câu trong bài.",
     "G1D10M1": "Viết ba câu mô tả chính bạn, dùng ít nhất ba tính từ của bài hôm nay (một từ có self- hoặc well-).",
@@ -191,7 +191,7 @@ CHECKLIST = {
     "G1D4M1": ["Bốn câu, mỗi câu một thì: đơn, tiếp diễn, hoàn thành, hoàn thành tiếp diễn.", "Mỗi câu có một dấu hiệu thời gian riêng: every / this month / since / for.", "Không dùng tiếp diễn với know, like, have (sở hữu)."],
     "G1D5M1": ["Có ít nhất hai từ của bài hôm nay, đúng từ loại.", "Kết hợp từ đúng: take an exam, attend classes.", "Câu nói về chính bạn, không chép câu mẫu."],
     "G1D6M1": ["Có ít nhất hai kết hợp từ của bài hôm nay.", "Giới từ đúng; sau giới từ là V-ing.", "Câu nói về cách bạn học, không chép câu mẫu."],
-    "G1D7M1": ["Có hai từ C1 của Ngày 7, đúng từ loại.", "Câu nói về một quyết định học tập của chính bạn.", "Trạng thái không dùng tiếp diễn: I have a hunch, không viết I am having a hunch."],
+    "G1D7M1": ["Có hai từ của Ngày 5, đúng từ loại.", "Câu nói về một quyết định học tập của chính bạn.", "Trạng thái không dùng tiếp diễn: I have a hunch, không viết I am having a hunch."],
     "G1D8M1": ["Kể chuyện đã qua bằng quá khứ đơn.", "Có ít nhất hai từ của bài hôm nay.", "Giới từ đi đúng với từ: adjust to, homesick for."],
     "G1D9M1": ["Là tóm tắt: nói điều bài viết nói, ở hiện tại đơn, không thêm ý kiến cá nhân.", "Diễn đạt bằng từ của bạn, không chép quá 3 từ liên tiếp.", "Một hoặc hai câu, 20–40 từ."],
     "G1D10M1": ["Có ít nhất ba tính từ của bài, một từ có self- hoặc well-.", "Tính từ ghép có gạch nối (self-confident).", "Mỗi câu có chủ ngữ và động từ (I am / I can be); không dùng danh từ thay tính từ."],

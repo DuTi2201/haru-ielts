@@ -402,7 +402,7 @@ SITTING_4 = [
         {"say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
     ]},
     {"kind": "end", "next": "Tiếp theo: học các cụm cố định, làm bài tập, rồi chọn 5 đến 10 từ yêu thích.", "lines": [
-        {"say": "Hết phần giảng của ngày bảy. Bây giờ bạn làm bài tập trong app. Cuối cùng hãy chọn năm đến mười từ bạn thích nhất trong cả unit, và gõ một hai câu của riêng bạn. Từ nào gắn với chuyện của chính bạn thì nhớ rất lâu.", "show": "title"},
+        {"say": "Hết phần giảng. Bây giờ bạn làm bài tập trong app. Cuối cùng hãy chọn năm đến mười từ bạn thích nhất trong cả unit, và gõ một hai câu của riêng bạn. Từ nào gắn với chuyện của chính bạn thì nhớ rất lâu.", "show": "title"},
     ]},
 ]
 

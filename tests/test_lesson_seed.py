@@ -27,7 +27,8 @@ class SeedFilesTests(unittest.TestCase):
             by_topic,
             {
                 "Destination B1 · Lấy gốc": 42,
-                "G1 · Các thì hiện tại (Tuần 1)": 12,
+                "Tuần 1 · Giáo dục (Education)": 8,
+                "Bổ trợ · Từ vựng và bài đọc ngoài lịch tuần": 4,
             },
         )
 

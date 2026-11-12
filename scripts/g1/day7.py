@@ -5,7 +5,8 @@ Phrasal verbs and idioms (OPTIONAL codes) go into a separate sitting marked as a
 Same line format as book_items.SECTIONS.
 """
 C12 = "Destination C1&C2, Unit 2"
-OPTIONAL = {"XE", "XF", "XG", "XL"}
+# the syllabus gives A to D for the week; the rest of the unit is extra practice
+OPTIONAL = {"XE", "XF", "XG", "XH", "XI", "XJ", "XK", "XL", "XM", "XN", "XO"}
 
 SECTIONS: list[tuple] = [
     (7, "XA", C12 + " · bài A (trang 14)", "Khoanh từ đúng: nhóm từ về suy nghĩ", "Chọn từ đúng nghĩa. Với mỗi từ, nối nó với một từ B2 quen thuộc để nhớ (ví dụ plausible = reasonable).", "choice", [

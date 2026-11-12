@@ -234,7 +234,7 @@ DAYS: dict[int, dict] = {
         ],
     },
     9: {
-        "title": "Urban farming: Cambridge IELTS 18, Test 1, Passage 1", "title_vi": "Urban farming: đọc chậm đề thật Cambridge 18",
+        "title": "Urban farming: Cambridge IELTS 18, Test 1, Passage 1", "title_vi": "Đọc chậm Cambridge 18: Urban farming",
         "goal": "Đọc chậm bài Passage 1 của đề Cambridge 18, hiểu từng đoạn, làm 13 câu (hoàn thành câu, bảng, đúng/sai/không có thông tin) và chỉ ra mỗi đáp án nằm ở đâu và vì sao.",
         "ielts": "Đây là cấp độ đề thật. Giai đoạn 1 không bấm giờ: mục tiêu là hiểu đúng và biết đáp án nằm ở chỗ nào, tốc độ để giai đoạn 2.",
         "source": "Cambridge IELTS 18, Test 1, Passage 1; từ neo B2 theo cách neo của khóa học", "family": "Nông nghiệp đô thị",
@@ -343,7 +343,7 @@ DAYS[10] = {
 }
 
 DAYS[11] = {
-    "title": "Transport survey: Cambridge IELTS 18 Test 1 Listening Part 1", "title_vi": "Nghe kỹ Part 1: khảo sát giao thông (Cambridge 18)",
+    "title": "Transport survey: Cambridge IELTS 18 Test 1 Listening Part 1", "title_vi": "Nghe kỹ Cambridge 18: khảo sát giao thông (Part 1)",
     "goal": "Nghe kỹ một hội thoại Part 1 (điền ghi chú), nhận ra các bẫy thường gặp: sửa lại thông tin giữa chừng (24th hay 25th), đánh vần tên (Claxby), lý do chính và lý do phụ.",
     "ielts": "Part 1 là phần dễ nhất của Listening, nên mỗi câu sai ở đây là điểm mất oan. Quy tắc: nghe đến hết lượt thoại rồi mới chốt đáp án.",
     "source": "Cambridge IELTS 18, Test 1, Listening Part 1; từ neo B2 theo cách neo của khóa học", "family": "Giao thông",

@@ -469,7 +469,7 @@
    "number": "M1",
    "title_vi": "Câu của tôi · Ngày 7",
    "points": 5,
-   "instruction_vi": "Viết hai câu về một quyết định học tập của bạn, dùng hai từ C1 của Ngày 7 (ví dụ assess, ponder, hunch).",
+   "instruction_vi": "Viết hai câu về một quyết định học tập của bạn, dùng hai từ của Ngày 5 (ví dụ assess, ponder, hunch).",
    "limits": {
     "min": 18,
     "max": 50
@@ -484,7 +484,7 @@
    "model_answer_en": "I need to assess which course is best for me, so I am pondering my options. I have a hunch that I should evaluate each school before I decide.",
    "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
    "checklist_vi": [
-    "Có hai từ C1 của Ngày 7, đúng từ loại.",
+    "Có hai từ của Ngày 5, đúng từ loại.",
     "Câu nói về một quyết định học tập của chính bạn.",
     "Trạng thái không dùng tiếp diễn: I have a hunch, không viết I am having a hunch."
    ],
