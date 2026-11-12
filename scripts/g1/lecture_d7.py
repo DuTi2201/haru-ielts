@@ -118,7 +118,7 @@ SITTING_1 = [
         {"say": "Discriminate là đối xử khác nhau với người ta, vì tuổi tác, giới tính hay nơi sinh. Từ này hay gặp khi viết về xã hội."},
     ]},
     {"kind": "word", "headword": "baffle", "lines": [
-        {"say": "Từ cuối cùng. Giám khảo hỏi một câu quá hóc búa, bạn đứng hình, rối như sợi chỉ. Đó là baffle. Neo vào confuse."},
+        {"say": "Từ cuối cùng. Giám khảo đặt một câu hỏi quá khó, bạn lúng túng, không biết đáp thế nào. Đó là baffle. Neo vào confuse."},
     ]},
     {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Lỗi thường gặp", "title": "Ba lỗi, ba cách sửa",
      "data": {"rows": TRAPS_V, "rule": "Đánh giá là assess, không phải access. Hơn một euro thì viết euros. Suy ra từ bằng chứng là deduce."}, "lines": [
@@ -156,8 +156,8 @@ TRAPS_W = [
 ]
 
 SITTING_2 = [
-    {"kind": "title", "hook": "Cùng nghĩa suy nghĩ, nhưng không thay bừa được. Vì sao?", "lines": [
-        {"say": "Cùng nghĩa suy nghĩ, nhưng không thay bừa được. Vì sao?", "show": "hook"},
+    {"kind": "title", "hook": "Cùng nghĩa suy nghĩ, nhưng không thể thay thế tùy ý. Vì sao?", "lines": [
+        {"say": "Cùng nghĩa suy nghĩ, nhưng không thể thay thế tùy ý. Vì sao?", "show": "hook"},
         {"say": "Vì mỗi từ có ngữ cảnh riêng. Hôm nay học cách soi ngữ cảnh."},
     ]},
     {"kind": "word", "headword": "grasp", "lines": [
@@ -238,13 +238,13 @@ FAITH = [
 ]
 
 PARADOX = [
-    _row("p1", "book", "Học thêm", "The more extra classes I took, the worse my marks became.", "Đi học thêm càng nhiều, càng dốt."),
+    _row("p1", "book", "Học thêm", "The more extra classes I took, the worse my marks became.", "Học thêm càng nhiều, kết quả càng kém."),
     _row("p2", "roadmap", "Giao thông Hà Nội", "The wider the road, the worse the traffic.", "Đường càng mở rộng, càng tắc."),
 ]
 
 SITTING_3 = [
     {"kind": "title", "hook": "Hai lời mời tiệc cùng giờ. Bạn đi bên nào?", "lines": [
-        {"say": "Hai lời mời tiệc cùng giờ. Bạn đi bên nào? Cảm giác bí ấy có tên trong tiếng Anh.", "show": "hook"},
+        {"say": "Hai lời mời tiệc cùng giờ. Bạn đi bên nào? Trạng thái khó chọn ấy có tên trong tiếng Anh.", "show": "hook"},
         {"say": "Hôm nay học nhóm danh từ về suy nghĩ."},
     ]},
     {"kind": "word", "headword": "dilemma", "lines": [
@@ -273,7 +273,7 @@ SITTING_3 = [
         {"say": "Thứ hai, intuition: trực giác. Thám tử không có bằng chứng nào, nhưng trực giác mách bảo ông ta rằng nghi phạm có liên quan."},
     ]},
     {"kind": "word", "headword": "guesswork", "lines": [
-        {"say": "Thứ ba, guesswork: sự phỏng đoán. Có một cụm rất hay: educated guesswork, đoán có cơ sở, dựa trên kiến thức và kinh nghiệm. Giải ô chữ khó thường cần một chút như vậy. Đừng thay bằng educated intuition, nghe sẽ ngô nghê."},
+        {"say": "Thứ ba, guesswork: sự phỏng đoán. Có một cụm rất hay: educated guesswork, đoán có cơ sở, dựa trên kiến thức và kinh nghiệm. Giải ô chữ khó thường cần một chút như vậy. Đừng thay bằng educated intuition, nghe thiếu tự nhiên."},
     ]},
     {"kind": "scene", "visual": "picture_cards", "eyebrow": "Biết mà chưa có bằng chứng", "title": "hunch, intuition, guesswork",
      "data": {"rows": NOEVIDENCE, "rule": "Linh cảm: hunch. Trực giác: intuition. Phỏng đoán có cơ sở: educated guesswork."}, "lines": [
@@ -286,7 +286,7 @@ SITTING_3 = [
         {"say": "Ba cách biết khi chưa có bằng chứng.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "genius", "lines": [
-        {"say": "Genius là thiên tài. Một người có thể là thiên tài về thiên văn, mà vẫn ngớ ngẩn trong những việc đời thường."},
+        {"say": "Genius là thiên tài. Một người có thể là thiên tài về thiên văn, mà vẫn lúng túng trong những việc đời thường."},
     ]},
     {"kind": "word", "headword": "faith", "lines": [
         {"say": "Faith là niềm tin tuyệt đối vào ai đó. Và đây là chỗ phải rất cẩn thận về âm cuối."},
@@ -297,14 +297,14 @@ SITTING_3 = [
         {"en": "faith", "vi": "niềm tin", "gap": True},
         {"say": "Nếu bạn nuốt âm cuối, hoặc đọc thành âm tờ, người nghe sẽ hiểu thành fate, nghĩa là số phận.", "show": "f2"},
         {"en": "fate", "vi": "số phận", "gap": True},
-        {"say": "Những âm cuối ngữ pháp, như đuôi thì quá khứ, nói nhanh đôi khi còn bỏ qua được. Nhưng âm cuối thuộc về chính từ, thì không được bỏ.", "show": "rule"},
+        {"say": "Những âm cuối ngữ pháp, như đuôi thì quá khứ, nói nhanh đôi khi còn lướt qua được. Nhưng âm cuối thuộc về chính từ, thì không được lược đi.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "paradox", "lines": [
         {"say": "Từ cuối cùng và là từ nhiều người hiểu sai: paradox, nghịch lý. Nhiều bạn nghĩ nghịch lý là điều trái với thực tế. Không phải. Nghịch lý là một điều mà ngay bên trong nó đã có hai vế tự mâu thuẫn."},
     ]},
     {"kind": "scene", "visual": "picture_cards", "eyebrow": "Nghịch lý đời thường", "title": "Hai nghịch lý quen thuộc",
      "data": {"rows": PARADOX, "rule": "Hai vế tự mâu thuẫn ngay trong một sự việc: đó là paradox."}, "lines": [
-        {"say": "Ví dụ thứ nhất. Thời cấp hai, có bạn đi học thêm càng nhiều thì lại càng học dốt, vì ỷ lại vào lớp thêm, lên lớp chính thì ngồi chơi.", "show": "p1"},
+        {"say": "Ví dụ thứ nhất. Thời cấp hai, có bạn đi học thêm càng nhiều thì lại càng học kém, vì phụ thuộc vào lớp thêm và lơ là ở lớp chính.", "show": "p1"},
         {"en": "The more extra classes I took, the worse my marks became.", "vi": "Học thêm càng nhiều, điểm tôi càng tệ.", "gap": True},
         {"say": "Ví dụ thứ hai, ở Hà Nội. Đáng lẽ mở rộng đường thì thông thoáng hơn. Nhưng nhiều khi đường càng rộng thì lại càng tắc.", "show": "p2"},
         {"en": "The wider the road, the worse the traffic.", "vi": "Đường càng rộng, giao thông càng tệ.", "gap": True},
@@ -320,7 +320,7 @@ SITTING_3 = [
 
 # ------------------------------------------------------------------ sitting 4: education
 COLLOC = [
-    {"key": "e1", "wrong": "students with special wants", "right": "students with special needs", "why": "Cụm cố định. Dùng từ khác, câu đúng ngữ pháp mà vẫn ngô nghê."},
+    {"key": "e1", "wrong": "students with special wants", "right": "students with special needs", "why": "Cụm cố định. Dùng từ khác, câu đúng ngữ pháp nhưng thiếu tự nhiên."},
     {"key": "e2", "wrong": "make her more academic about her subjects", "right": "make her more knowledgeable about her subjects", "why": "Ôn một môn chỉ giúp biết nhiều hơn về môn đó."},
     {"key": "e3", "wrong": "give students any subject in social skills", "right": "give students any lesson in social skills", "why": "Sau give, dùng lesson."},
 ]
@@ -333,9 +333,9 @@ SESSIONS = [
 ]
 
 SITTING_4 = [
-    {"kind": "title", "hook": "Chủ đề giáo dục: học từ nào, bỏ từ nào?", "lines": [
-        {"say": "Chủ đề giáo dục: học từ nào, bỏ từ nào?", "show": "hook"},
-        {"say": "Nhóm này học hết, không chọn lọc. Và chú ý kết hợp từ: đúng ngữ pháp chưa đủ."},
+    {"kind": "title", "hook": "Từ vựng giáo dục: nhóm từ cần nắm trọn", "lines": [
+        {"say": "Từ vựng giáo dục: nhóm từ cần nắm trọn", "show": "hook"},
+        {"say": "Chủ đề giáo dục xuất hiện rất thường xuyên trong IELTS, nên nhóm từ này cần học đầy đủ. Hãy chú ý kết hợp từ: đúng ngữ pháp chưa đủ."},
     ]},
     {"kind": "word", "headword": "special needs", "lines": [
         {"say": "Hệ thống giáo dục gọi học sinh yếu cần hỗ trợ thêm là học sinh có special needs. Cụm cố định."},
@@ -353,7 +353,7 @@ SITTING_4 = [
         {"say": "Ôn xong liệu cô bé có hiểu biết hơn về môn học không? Hiểu biết nhiều về một lĩnh vực là knowledgeable."},
     ]},
     {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Vì sao câu đúng ngữ pháp vẫn bị trừ điểm", "title": "Loại trừ để chọn từ tự nhiên",
-     "data": {"rows": COLLOC, "rule": "Đúng ngữ pháp chưa đủ. Kết hợp từ sai khiến câu ngô nghê và bị trừ điểm từ vựng."}, "lines": [
+     "data": {"rows": COLLOC, "rule": "Đúng ngữ pháp chưa đủ. Kết hợp từ sai khiến câu thiếu tự nhiên và bị trừ điểm từ vựng."}, "lines": [
         {"say": "Hãy học cách loại trừ như thế này. Vì sao không nói special wants? Vì cụm cố định là special needs.", "show": "e1"},
         {"en": "students with special needs", "vi": "học sinh có nhu cầu giáo dục đặc biệt", "gap": True},
         {"say": "Vì sao không nói academic? Vì ôn một môn chỉ giúp cô bé biết nhiều hơn về môn đó. Chưa thể thành người mang tính học thuật.", "show": "e2"},

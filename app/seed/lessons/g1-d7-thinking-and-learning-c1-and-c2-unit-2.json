@@ -1073,7 +1073,7 @@
      "headword": "baffle",
      "lines": [
       {
-       "say": "Từ cuối cùng. Giám khảo hỏi một câu quá hóc búa, bạn đứng hình, rối như sợi chỉ. Đó là baffle. Neo vào confuse."
+       "say": "Từ cuối cùng. Giám khảo đặt một câu hỏi quá khó, bạn lúng túng, không biết đáp thế nào. Đó là baffle. Neo vào confuse."
       }
      ]
     },
@@ -1177,10 +1177,10 @@
    "lecture": [
     {
      "kind": "title",
-     "hook": "Cùng nghĩa suy nghĩ, nhưng không thay bừa được. Vì sao?",
+     "hook": "Cùng nghĩa suy nghĩ, nhưng không thể thay thế tùy ý. Vì sao?",
      "lines": [
       {
-       "say": "Cùng nghĩa suy nghĩ, nhưng không thay bừa được. Vì sao?",
+       "say": "Cùng nghĩa suy nghĩ, nhưng không thể thay thế tùy ý. Vì sao?",
        "show": "hook"
       },
       {
@@ -1468,7 +1468,7 @@
      "hook": "Hai lời mời tiệc cùng giờ. Bạn đi bên nào?",
      "lines": [
       {
-       "say": "Hai lời mời tiệc cùng giờ. Bạn đi bên nào? Cảm giác bí ấy có tên trong tiếng Anh.",
+       "say": "Hai lời mời tiệc cùng giờ. Bạn đi bên nào? Trạng thái khó chọn ấy có tên trong tiếng Anh.",
        "show": "hook"
       },
       {
@@ -1591,7 +1591,7 @@
      "headword": "guesswork",
      "lines": [
       {
-       "say": "Thứ ba, guesswork: sự phỏng đoán. Có một cụm rất hay: educated guesswork, đoán có cơ sở, dựa trên kiến thức và kinh nghiệm. Giải ô chữ khó thường cần một chút như vậy. Đừng thay bằng educated intuition, nghe sẽ ngô nghê."
+       "say": "Thứ ba, guesswork: sự phỏng đoán. Có một cụm rất hay: educated guesswork, đoán có cơ sở, dựa trên kiến thức và kinh nghiệm. Giải ô chữ khó thường cần một chút như vậy. Đừng thay bằng educated intuition, nghe thiếu tự nhiên."
       }
      ]
     },
@@ -1665,7 +1665,7 @@
      "headword": "genius",
      "lines": [
       {
-       "say": "Genius là thiên tài. Một người có thể là thiên tài về thiên văn, mà vẫn ngớ ngẩn trong những việc đời thường."
+       "say": "Genius là thiên tài. Một người có thể là thiên tài về thiên văn, mà vẫn lúng túng trong những việc đời thường."
       }
      ]
     },
@@ -1722,7 +1722,7 @@
        "gap": true
       },
       {
-       "say": "Những âm cuối ngữ pháp, như đuôi thì quá khứ, nói nhanh đôi khi còn bỏ qua được. Nhưng âm cuối thuộc về chính từ, thì không được bỏ.",
+       "say": "Những âm cuối ngữ pháp, như đuôi thì quá khứ, nói nhanh đôi khi còn lướt qua được. Nhưng âm cuối thuộc về chính từ, thì không được lược đi.",
        "show": "rule"
       }
      ]
@@ -1748,7 +1748,7 @@
         "icon": "book",
         "head": "Học thêm",
         "en": "The more extra classes I took, the worse my marks became.",
-        "vi": "Đi học thêm càng nhiều, càng dốt."
+        "vi": "Học thêm càng nhiều, kết quả càng kém."
        },
        {
         "key": "p2",
@@ -1762,7 +1762,7 @@
      },
      "lines": [
       {
-       "say": "Ví dụ thứ nhất. Thời cấp hai, có bạn đi học thêm càng nhiều thì lại càng học dốt, vì ỷ lại vào lớp thêm, lên lớp chính thì ngồi chơi.",
+       "say": "Ví dụ thứ nhất. Thời cấp hai, có bạn đi học thêm càng nhiều thì lại càng học kém, vì phụ thuộc vào lớp thêm và lơ là ở lớp chính.",
        "show": "p1"
       },
       {
@@ -1828,14 +1828,14 @@
    "lecture": [
     {
      "kind": "title",
-     "hook": "Chủ đề giáo dục: học từ nào, bỏ từ nào?",
+     "hook": "Từ vựng giáo dục: nhóm từ cần nắm trọn",
      "lines": [
       {
-       "say": "Chủ đề giáo dục: học từ nào, bỏ từ nào?",
+       "say": "Từ vựng giáo dục: nhóm từ cần nắm trọn",
        "show": "hook"
       },
       {
-       "say": "Nhóm này học hết, không chọn lọc. Và chú ý kết hợp từ: đúng ngữ pháp chưa đủ."
+       "say": "Chủ đề giáo dục xuất hiện rất thường xuyên trong IELTS, nên nhóm từ này cần học đầy đủ. Hãy chú ý kết hợp từ: đúng ngữ pháp chưa đủ."
       }
      ]
     },
@@ -1895,7 +1895,7 @@
         "key": "e1",
         "wrong": "students with special wants",
         "right": "students with special needs",
-        "why": "Cụm cố định. Dùng từ khác, câu đúng ngữ pháp mà vẫn ngô nghê."
+        "why": "Cụm cố định. Dùng từ khác, câu đúng ngữ pháp nhưng thiếu tự nhiên."
        },
        {
         "key": "e2",
@@ -1910,7 +1910,7 @@
         "why": "Sau give, dùng lesson."
        }
       ],
-      "rule": "Đúng ngữ pháp chưa đủ. Kết hợp từ sai khiến câu ngô nghê và bị trừ điểm từ vựng."
+      "rule": "Đúng ngữ pháp chưa đủ. Kết hợp từ sai khiến câu thiếu tự nhiên và bị trừ điểm từ vựng."
      },
      "lines": [
       {
