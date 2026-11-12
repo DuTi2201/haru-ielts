@@ -148,7 +148,7 @@ def sitting_source(lesson: Any, vocab_rows: Sequence[Any], grammar_rows: Sequenc
     by_card = {g.pattern: g for g in grammar_rows}
     vr = [by_word[w] for w in ses.get("vocab", []) if w in by_word]
     gr = [by_card[p] for p in ses.get("grammar", []) if p in by_card]
-    if not vr and not gr:
+    if not vr and not gr and not ses.get("lecture"):  # a method lecture has no words of its own
         return None
     src = source_from_rows(lesson, vr, gr)
     # the sitting's own title usually opens with "Buổi n ·": say "buổi n" once
