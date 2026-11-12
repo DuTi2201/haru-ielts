@@ -409,7 +409,7 @@
      },
      "lines": [
       {
-       "say": "Mỗi đoạn, bạn làm sáu bước. Bước một: gạch từ khóa của từng câu, danh từ trước, động từ sau.",
+       "say": "Mỗi đoạn, bạn làm sáu bước. Bước một: tô từ khóa của từng câu, danh từ trước, động từ sau.",
        "show": "s1"
       },
       {
@@ -580,11 +580,11 @@
      },
      "lines": [
       {
-       "say": "Đoạn một. Đọc cả đoạn, rồi gạch từ khóa. Những chữ sáng lên là chữ cần giữ.",
+       "say": "Đoạn một. Đọc cả đoạn, rồi tô vàng từ khóa. Chữ tô vàng là chữ cần giữ, phần còn lại mờ đi.",
        "show": "keep"
       },
       {
-       "say": "Bước hai: bỏ chi tiết. Tên nhà tâm lý học, tên nhà giáo dục, mốc thế kỷ mười chín và đầu thế kỷ hai mươi đều là chi tiết. Khi đề hỏi tới thì quay lại tìm. Lúc tóm tắt thì bỏ.",
+       "say": "Bước hai: bỏ chi tiết. Phần bị gạch ngang là phần bỏ đi. Tên nhà tâm lý học, tên nhà giáo dục, mốc thế kỷ mười chín và đầu thế kỷ hai mươi đều là chi tiết. Khi đề hỏi tới thì quay lại tìm. Lúc tóm tắt thì bỏ.",
        "show": "drop"
       },
       {
@@ -654,11 +654,11 @@
      },
      "lines": [
       {
-       "say": "Đoạn hai. Gạch từ khóa trước.",
+       "say": "Đoạn hai. Tô vàng từ khóa trước.",
        "show": "keep"
       },
       {
-       "say": "Phần dài nhất là áp phích, bài phát biểu, tấm gương vận động viên. Gom hết lại thành một chữ: khẩu hiệu. Câu trích cuối đoạn chỉ nhắc lại ý đó, nên cũng bỏ.",
+       "say": "Phần bị gạch là phần dài nhất: áp phích, bài phát biểu, tấm gương vận động viên. Gom hết lại thành một chữ: khẩu hiệu. Câu trích cuối đoạn chỉ nhắc lại ý đó, nên cũng bỏ.",
        "show": "drop"
       },
       {
@@ -825,11 +825,11 @@
      },
      "lines": [
       {
-       "say": "Đoạn ba. Gạch từ khóa: thí nghiệm, khen trí thông minh, khen nỗ lực, sợ thất bại.",
+       "say": "Đoạn ba. Tô vàng từ khóa: thí nghiệm, khen trí thông minh, khen nỗ lực, sợ thất bại.",
        "show": "keep"
       },
       {
-       "say": "Bỏ tên nhà nghiên cứu, nơi làm nghiên cứu, độ tuổi, số nhóm. Câu giải thích lặp lại cũng bỏ.",
+       "say": "Phần bị gạch là tên nhà nghiên cứu, nơi làm nghiên cứu, độ tuổi, số nhóm. Câu giải thích lặp lại cũng bỏ.",
        "show": "drop"
       },
       {

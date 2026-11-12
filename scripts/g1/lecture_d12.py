@@ -82,7 +82,7 @@ SESSION = [
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Sáu bước", "title": "Cách đọc một đoạn",
      "data": {"cols": ["Bước", "Việc cần làm"], "rows": SIX, "rule": "Đoạn nào cũng làm lần lượt sáu bước này."}, "lines": [
-        {"say": "Mỗi đoạn, bạn làm sáu bước. Bước một: gạch từ khóa của từng câu, danh từ trước, động từ sau.", "show": "s1"},
+        {"say": "Mỗi đoạn, bạn làm sáu bước. Bước một: tô từ khóa của từng câu, danh từ trước, động từ sau.", "show": "s1"},
         {"say": "Bước hai: bỏ chi tiết thừa, như tên người, nơi chốn và mốc thời gian.", "show": "s2"},
         {"say": "Bước ba: nối các từ khóa còn lại với nhau.", "show": "s3"},
         {"say": "Bước bốn: viết thành một chuỗi ngắn, nối bằng mũi tên.", "show": "s4"},
@@ -101,8 +101,8 @@ SESSION = [
      "data": {"segs": segs(P1), "chain": ["intelligence = innate", "thinkers revolt", "can be developed"],
               "main": "Quan niệm về trí thông minh đã chuyển từ bẩm sinh sang phát triển được.",
               "value": "Cho biết ý tưởng này đến từ đâu."}, "lines": [
-        {"say": "Đoạn một. Đọc cả đoạn, rồi gạch từ khóa. Những chữ sáng lên là chữ cần giữ.", "show": "keep"},
-        {"say": "Bước hai: bỏ chi tiết. Tên nhà tâm lý học, tên nhà giáo dục, mốc thế kỷ mười chín và đầu thế kỷ hai mươi đều là chi tiết. Khi đề hỏi tới thì quay lại tìm. Lúc tóm tắt thì bỏ.", "show": "drop"},
+        {"say": "Đoạn một. Đọc cả đoạn, rồi tô vàng từ khóa. Chữ tô vàng là chữ cần giữ, phần còn lại mờ đi.", "show": "keep"},
+        {"say": "Bước hai: bỏ chi tiết. Phần bị gạch ngang là phần bỏ đi. Tên nhà tâm lý học, tên nhà giáo dục, mốc thế kỷ mười chín và đầu thế kỷ hai mươi đều là chi tiết. Khi đề hỏi tới thì quay lại tìm. Lúc tóm tắt thì bỏ.", "show": "drop"},
         {"say": "Bước ba và bốn: nối những chữ còn lại. Trí thông minh từng bị coi là bẩm sinh. Các nhà tư tưởng phản đối. Cuối cùng, ai cũng có thể phát triển.", "show": "sum"},
         {"say": "Bước năm: ý chính của đoạn là quan niệm đã đổi, từ cố định sang phát triển được.", "show": "main"},
         {"say": "Bước sáu: đoạn này cho biết ý tưởng của bài đến từ đâu.", "show": "value"},
@@ -111,8 +111,8 @@ SESSION = [
      "data": {"segs": segs(P2), "chain": ["popular idea", "slogans in schools", "failure = a chance to improve"],
               "main": "Nhà trường dạy học sinh xem thất bại là cơ hội để giỏi lên.",
               "value": "Cho thấy ý tưởng được dùng ngoài đời ra sao."}, "lines": [
-        {"say": "Đoạn hai. Gạch từ khóa trước.", "show": "keep"},
-        {"say": "Phần dài nhất là áp phích, bài phát biểu, tấm gương vận động viên. Gom hết lại thành một chữ: khẩu hiệu. Câu trích cuối đoạn chỉ nhắc lại ý đó, nên cũng bỏ.", "show": "drop"},
+        {"say": "Đoạn hai. Tô vàng từ khóa trước.", "show": "keep"},
+        {"say": "Phần bị gạch là phần dài nhất: áp phích, bài phát biểu, tấm gương vận động viên. Gom hết lại thành một chữ: khẩu hiệu. Câu trích cuối đoạn chỉ nhắc lại ý đó, nên cũng bỏ.", "show": "drop"},
         {"say": "Chuỗi còn lại: ý tưởng đang rất phổ biến, trường dùng khẩu hiệu, và mục tiêu là xem thất bại như cơ hội.", "show": "sum"},
         {"say": "Ý chính: nhà trường dạy học sinh coi thất bại là cơ hội để giỏi lên.", "show": "main"},
         {"say": "Giá trị: đoạn này cho thấy ý tưởng được dùng ngoài đời như thế nào.", "show": "value"},
@@ -127,8 +127,8 @@ SESSION = [
      "data": {"segs": segs(P3), "chain": ["praise ability", "fear of failure", "worse performance"],
               "main": "Khen nỗ lực tốt hơn khen khả năng.",
               "value": "Đây là bằng chứng nền của cả ý tưởng."}, "lines": [
-        {"say": "Đoạn ba. Gạch từ khóa: thí nghiệm, khen trí thông minh, khen nỗ lực, sợ thất bại.", "show": "keep"},
-        {"say": "Bỏ tên nhà nghiên cứu, nơi làm nghiên cứu, độ tuổi, số nhóm. Câu giải thích lặp lại cũng bỏ.", "show": "drop"},
+        {"say": "Đoạn ba. Tô vàng từ khóa: thí nghiệm, khen trí thông minh, khen nỗ lực, sợ thất bại.", "show": "keep"},
+        {"say": "Phần bị gạch là tên nhà nghiên cứu, nơi làm nghiên cứu, độ tuổi, số nhóm. Câu giải thích lặp lại cũng bỏ.", "show": "drop"},
         {"say": "Chuỗi: khen khả năng thì học sinh sợ thất bại, rồi làm bài tệ hơn. Nhóm được khen nỗ lực thì ngược lại.", "show": "sum"},
         {"say": "Ý chính: khen nỗ lực tốt hơn khen khả năng.", "show": "main"},
         {"say": "Giá trị: đây là bằng chứng nền của cả ý tưởng.", "show": "value"},
