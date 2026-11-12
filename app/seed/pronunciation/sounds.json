@@ -1,0 +1,883 @@
+{
+ "source": "BBC Learning English (YouTube). Video được nhúng bằng trình phát chính thức của YouTube; nội dung luyện tập do Haru tự soạn.",
+ "intro": {
+  "id": "fdRmGvmeY1U",
+  "title": "Giới thiệu: cách dùng loạt video phát âm của BBC"
+ },
+ "sounds": [
+  {
+   "slug": "s01",
+   "order": 1,
+   "ipa": "ɪ",
+   "kind": "Nguyên âm ngắn",
+   "video_id": "TNFKG0yvDx4",
+   "words": [
+    "bid",
+    "tip",
+    "minute",
+    "ship"
+   ],
+   "pair": [
+    "ship",
+    "sheep"
+   ],
+   "sentence": "Six big fish sit in the little bin.",
+   "tip_vi": "Âm ngắn, lưỡi thả lỏng, miệng chỉ hé. Đừng kéo dài như /iː/: ship khác sheep."
+  },
+  {
+   "slug": "s02",
+   "order": 2,
+   "ipa": "ʊ",
+   "kind": "Nguyên âm ngắn",
+   "video_id": "eJ7dM_LU9t4",
+   "words": [
+    "foot",
+    "put",
+    "good",
+    "book"
+   ],
+   "pair": [
+    "full",
+    "fool"
+   ],
+   "sentence": "The good cook put the book on the wood.",
+   "tip_vi": "Âm ngắn, môi tròn nhẹ và thả lỏng. Đừng đọc thành /uː/: full khác fool."
+  },
+  {
+   "slug": "s03",
+   "order": 3,
+   "ipa": "ʌ",
+   "kind": "Nguyên âm ngắn",
+   "video_id": "PZwKFFp7V50",
+   "words": [
+    "strut",
+    "mud",
+    "love",
+    "cup"
+   ],
+   "pair": [
+    "cup",
+    "cap"
+   ],
+   "sentence": "My brother loves ugly mud under the sun.",
+   "tip_vi": "Miệng mở vừa, âm ngắn và dứt khoát, hơi giống â/ă. Không đọc thành /ɒ/ hay /æ/."
+  },
+  {
+   "slug": "s04",
+   "order": 4,
+   "ipa": "ə",
+   "kind": "Nguyên âm yếu (schwa)",
+   "video_id": "wg0P0oYkniE",
+   "words": [
+    "the",
+    "of",
+    "butter",
+    "about"
+   ],
+   "pair": null,
+   "sentence": "The teacher spoke about a lot of different things.",
+   "tip_vi": "Âm yếu nhất tiếng Anh, thả lỏng cả miệng, rất ngắn. Chỉ nằm ở âm tiết không nhấn: đọc nhanh, đừng đọc rõ như chữ viết."
+  },
+  {
+   "slug": "s05",
+   "order": 5,
+   "ipa": "æ",
+   "kind": "Nguyên âm ngắn",
+   "video_id": "qVhaIHk88a8",
+   "words": [
+    "trap",
+    "stamp",
+    "back",
+    "bad"
+   ],
+   "pair": [
+    "bad",
+    "bed"
+   ],
+   "sentence": "The black cat sat on a flat mat.",
+   "tip_vi": "Hạ hàm, mở miệng rộng, nằm giữa a và e. Nếu đọc thành /e/ thì bad thành bed."
+  },
+  {
+   "slug": "s06",
+   "order": 6,
+   "ipa": "ɒ",
+   "kind": "Nguyên âm ngắn",
+   "video_id": "MAk-XtHsyzM",
+   "words": [
+    "lot",
+    "odd",
+    "wash",
+    "hot"
+   ],
+   "pair": [
+    "cot",
+    "caught"
+   ],
+   "sentence": "The doctor got a long, hot watch.",
+   "tip_vi": "Âm Anh-Anh: môi tròn nhẹ, miệng mở, ngắn, gần với o tiếng Việt. Khác /ɔː/ ở độ dài."
+  },
+  {
+   "slug": "s07",
+   "order": 7,
+   "ipa": "iː",
+   "kind": "Nguyên âm dài",
+   "video_id": "RZmGzSb-6OM",
+   "words": [
+    "fleece",
+    "sea",
+    "machine",
+    "seat"
+   ],
+   "pair": [
+    "seat",
+    "sit"
+   ],
+   "sentence": "We need to eat green beans each week.",
+   "tip_vi": "Âm dài, môi dẹt như đang cười, lưỡi cao. Giữ hơi: seat dài hơn sit."
+  },
+  {
+   "slug": "s08",
+   "order": 8,
+   "ipa": "e",
+   "kind": "Nguyên âm ngắn",
+   "video_id": "hLN1cdSTDo8",
+   "words": [
+    "dress",
+    "head",
+    "bed",
+    "pen"
+   ],
+   "pair": [
+    "pen",
+    "pan"
+   ],
+   "sentence": "Ten men went to the next red bed.",
+   "tip_vi": "Gần với e tiếng Việt, ngắn và miệng mở vừa. Đừng mở to thành /æ/."
+  },
+  {
+   "slug": "s09",
+   "order": 9,
+   "ipa": "θ",
+   "kind": "Phụ âm vô thanh",
+   "video_id": "b4Aj3k65HSo",
+   "words": [
+    "thin",
+    "think",
+    "path",
+    "three"
+   ],
+   "pair": [
+    "think",
+    "sink"
+   ],
+   "sentence": "Three thin thieves thought about the path.",
+   "tip_vi": "Đặt đầu lưỡi giữa hai hàm răng rồi thổi hơi, không rung cổ họng. Người Việt hay đọc thành /t/ hoặc /s/."
+  },
+  {
+   "slug": "s10",
+   "order": 10,
+   "ipa": "ɑː",
+   "kind": "Nguyên âm dài",
+   "video_id": "uDHMuMQdBNw",
+   "words": [
+    "father",
+    "start",
+    "hard",
+    "car"
+   ],
+   "pair": [
+    "heart",
+    "hat"
+   ],
+   "sentence": "My father parked the car far from the farm.",
+   "tip_vi": "Âm dài, miệng mở to, lưỡi thấp ở phía sau. Giọng Anh không đọc r ở cuối âm tiết."
+  },
+  {
+   "slug": "s11",
+   "order": 11,
+   "ipa": "ɜː",
+   "kind": "Nguyên âm dài",
+   "video_id": "zSJJWHymEPw",
+   "words": [
+    "nurse",
+    "stir",
+    "learn",
+    "bird"
+   ],
+   "pair": [
+    "bird",
+    "bud"
+   ],
+   "sentence": "The girl heard her first word at work.",
+   "tip_vi": "Âm dài, môi thả lỏng (không tròn), không đọc r. Giữ nguyên miệng suốt âm."
+  },
+  {
+   "slug": "s12",
+   "order": 12,
+   "ipa": "d",
+   "kind": "Phụ âm hữu thanh",
+   "video_id": "qA5ZYC89oso",
+   "words": [
+    "did",
+    "dame",
+    "odd",
+    "ladder"
+   ],
+   "pair": [
+    "day",
+    "they"
+   ],
+   "sentence": "Dad did a good deed on Monday.",
+   "tip_vi": "Đầu lưỡi chạm lợi trên, có rung cổ họng. Ở cuối từ vẫn phải bật nhẹ âm /d/."
+  },
+  {
+   "slug": "s13",
+   "order": 13,
+   "ipa": "n",
+   "kind": "Phụ âm mũi",
+   "video_id": "qkgucMjv4T0",
+   "words": [
+    "nice",
+    "funny",
+    "son",
+    "noon"
+   ],
+   "pair": [
+    "no",
+    "low"
+   ],
+   "sentence": "Nine new nurses ran in the rain.",
+   "tip_vi": "Đầu lưỡi chạm lợi trên, hơi thoát ra mũi. Ở cuối từ đừng nuốt thành /ŋ/: son khác song."
+  },
+  {
+   "slug": "s14",
+   "order": 14,
+   "ipa": "uː",
+   "kind": "Nguyên âm dài",
+   "video_id": "mnKEGLuEzV4",
+   "words": [
+    "blue",
+    "two",
+    "goose",
+    "food"
+   ],
+   "pair": [
+    "pool",
+    "pull"
+   ],
+   "sentence": "The blue moon rose soon after noon.",
+   "tip_vi": "Âm dài, môi tròn và đẩy ra trước. Giữ hơi lâu hơn /ʊ/."
+  },
+  {
+   "slug": "s15",
+   "order": 15,
+   "ipa": "ɔː",
+   "kind": "Nguyên âm dài",
+   "video_id": "KHllC40_u1Q",
+   "words": [
+    "law",
+    "north",
+    "war",
+    "door"
+   ],
+   "pair": [
+    "caught",
+    "coat"
+   ],
+   "sentence": "The tall girl saw a horse in the north.",
+   "tip_vi": "Âm dài, môi tròn, miệng mở vừa. Khác /ɒ/ ở độ dài và không đọc r ở cuối."
+  },
+  {
+   "slug": "s16",
+   "order": 16,
+   "ipa": "ð",
+   "kind": "Phụ âm hữu thanh",
+   "video_id": "tu1t3Fn5Lw8",
+   "words": [
+    "this",
+    "other",
+    "smooth",
+    "mother"
+   ],
+   "pair": [
+    "then",
+    "den"
+   ],
+   "sentence": "My brother and mother bathe this weather.",
+   "tip_vi": "Giống /θ/ (lưỡi giữa hai hàm răng) nhưng có rung cổ họng. Đừng đọc thành /d/ hoặc /z/."
+  },
+  {
+   "slug": "s17",
+   "order": 17,
+   "ipa": "ʃ",
+   "kind": "Phụ âm vô thanh",
+   "video_id": "NF92RdZC6wE",
+   "words": [
+    "ship",
+    "sure",
+    "national",
+    "fish"
+   ],
+   "pair": [
+    "ship",
+    "sip"
+   ],
+   "sentence": "She wishes to wash the fresh fish.",
+   "tip_vi": "Môi chu ra, lưỡi lùi lại, thổi hơi dài, không rung. Gần với x/s nặng của tiếng Việt, nhưng dài hơn."
+  },
+  {
+   "slug": "s18",
+   "order": 18,
+   "ipa": "m",
+   "kind": "Phụ âm mũi",
+   "video_id": "0Te4Us8Tsv8",
+   "words": [
+    "hammer",
+    "mime",
+    "more",
+    "team"
+   ],
+   "pair": [
+    "might",
+    "night"
+   ],
+   "sentence": "Mum made more jam for my mother.",
+   "tip_vi": "Hai môi khép, hơi thoát ra mũi, có rung. Ở cuối từ giữ môi khép, đừng mở ra thành âm khác."
+  },
+  {
+   "slug": "s19",
+   "order": 19,
+   "ipa": "eɪ",
+   "kind": "Nguyên âm đôi",
+   "video_id": "5FMPlqlFt9g",
+   "words": [
+    "face",
+    "day",
+    "break",
+    "late"
+   ],
+   "pair": [
+    "late",
+    "let"
+   ],
+   "sentence": "Eight late trains came on Saturday.",
+   "tip_vi": "Bắt đầu từ /e/ rồi trượt lên /ɪ/. Trượt rõ và đủ dài, đừng đọc thành một âm /e/ cụt."
+  },
+  {
+   "slug": "s20",
+   "order": 20,
+   "ipa": "p",
+   "kind": "Phụ âm vô thanh",
+   "video_id": "AZRREr7DqqM",
+   "words": [
+    "pack",
+    "pan",
+    "pop",
+    "pen"
+   ],
+   "pair": [
+    "pay",
+    "bay"
+   ],
+   "sentence": "Peter picked a pair of purple pens.",
+   "tip_vi": "Hai môi bật hơi mạnh ở đầu từ, không rung. Đặt tay trước miệng: phải thấy hơi bật ra."
+  },
+  {
+   "slug": "s21",
+   "order": 21,
+   "ipa": "ɪə",
+   "kind": "Nguyên âm đôi",
+   "video_id": "vC0h4S0YPJc",
+   "words": [
+    "near",
+    "hear",
+    "weary",
+    "beer"
+   ],
+   "pair": [
+    "beer",
+    "bear"
+   ],
+   "sentence": "We hear the clear voice here every year.",
+   "tip_vi": "Bắt đầu từ /ɪ/ rồi trượt về /ə/ ở cuối. Âm sau yếu và ngắn."
+  },
+  {
+   "slug": "s22",
+   "order": 22,
+   "ipa": "aʊ",
+   "kind": "Nguyên âm đôi",
+   "video_id": "9WDnVMQIaTs",
+   "words": [
+    "mouth",
+    "now",
+    "fowl",
+    "house"
+   ],
+   "pair": [
+    "now",
+    "no"
+   ],
+   "sentence": "How now, brown cow, out of the house?",
+   "tip_vi": "Bắt đầu từ /a/ mở rộng rồi trượt về /ʊ/ với môi tròn dần."
+  },
+  {
+   "slug": "s23",
+   "order": 23,
+   "ipa": "dʒ",
+   "kind": "Phụ âm hữu thanh",
+   "video_id": "0IeQmGdo7gQ",
+   "words": [
+    "judge",
+    "age",
+    "soldier",
+    "jam"
+   ],
+   "pair": [
+    "jeep",
+    "cheap"
+   ],
+   "sentence": "The giant judge enjoyed orange jelly.",
+   "tip_vi": "Bật rồi xì, có rung cổ họng, gần với gi tiếng Việt nhưng bật rõ hơn. Khác /tʃ/ ở chỗ có rung."
+  },
+  {
+   "slug": "s24",
+   "order": 24,
+   "ipa": "əʊ",
+   "kind": "Nguyên âm đôi",
+   "video_id": "r1BRCG0P9C8",
+   "words": [
+    "boat",
+    "show",
+    "know",
+    "go"
+   ],
+   "pair": [
+    "low",
+    "law"
+   ],
+   "sentence": "Joe won't show the old road home.",
+   "tip_vi": "Bắt đầu từ /ə/ rồi trượt về /ʊ/ với môi tròn dần. Đừng đọc thành o đơn như /ɔː/."
+  },
+  {
+   "slug": "s25",
+   "order": 25,
+   "ipa": "eə",
+   "kind": "Nguyên âm đôi",
+   "video_id": "0J7-5maJJIk",
+   "words": [
+    "square",
+    "fair",
+    "pair",
+    "care"
+   ],
+   "pair": [
+    "care",
+    "car"
+   ],
+   "sentence": "Take care of the rare pair of chairs there.",
+   "tip_vi": "Bắt đầu từ /e/ rồi trượt về /ə/. Không đọc r ở cuối từ."
+  },
+  {
+   "slug": "s26",
+   "order": 26,
+   "ipa": "ʊə",
+   "kind": "Nguyên âm đôi",
+   "video_id": "nHSqluHrD-U",
+   "words": [
+    "tour",
+    "pure",
+    "cure",
+    "sure"
+   ],
+   "pair": [
+    "tour",
+    "tore"
+   ],
+   "sentence": "The tourist was sure the cure was pure.",
+   "tip_vi": "Bắt đầu từ /ʊ/ rồi trượt về /ə/. Nhiều người Anh hiện nay đọc một số từ (như sure) gần /ɔː/, nghe vẫn đúng."
+  },
+  {
+   "slug": "s27",
+   "order": 27,
+   "ipa": "aɪ",
+   "kind": "Nguyên âm đôi",
+   "video_id": "Hb8COxAtl14",
+   "words": [
+    "price",
+    "high",
+    "try",
+    "time"
+   ],
+   "pair": [
+    "right",
+    "rate"
+   ],
+   "sentence": "I might try to buy five nice kites.",
+   "tip_vi": "Bắt đầu từ /a/ mở rồi trượt lên /ɪ/. Trượt đủ, đừng cắt ngang thành a."
+  },
+  {
+   "slug": "s28",
+   "order": 28,
+   "ipa": "tʃ",
+   "kind": "Phụ âm vô thanh",
+   "video_id": "PykxZ5kkrjs",
+   "words": [
+    "teacher",
+    "match",
+    "church",
+    "chair"
+   ],
+   "pair": [
+    "chair",
+    "share"
+   ],
+   "sentence": "The teacher chose cheap cheese for lunch.",
+   "tip_vi": "Bật rồi xì, không rung, gần với ch tiếng Việt nhưng bật hơi mạnh hơn. Khác /dʒ/ ở chỗ không rung."
+  },
+  {
+   "slug": "s29",
+   "order": 29,
+   "ipa": "t",
+   "kind": "Phụ âm vô thanh",
+   "video_id": "0T1QYByMxrs",
+   "words": [
+    "tin",
+    "button",
+    "get",
+    "ten"
+   ],
+   "pair": [
+    "tie",
+    "die"
+   ],
+   "sentence": "Tom took ten tickets to the town.",
+   "tip_vi": "Đầu lưỡi chạm lợi trên, bật hơi ở đầu từ (t tiếng Việt không bật hơi). Ở cuối từ vẫn phải có âm /t/."
+  },
+  {
+   "slug": "s30",
+   "order": 30,
+   "ipa": "ʒ",
+   "kind": "Phụ âm hữu thanh",
+   "video_id": "bTxeAiBF61I",
+   "words": [
+    "pleasure",
+    "leisure",
+    "vision",
+    "measure"
+   ],
+   "pair": null,
+   "sentence": "It is a pleasure to measure the television vision.",
+   "tip_vi": "Giống /ʃ/ nhưng có rung cổ họng. Âm này ít khi đứng đầu từ, thường nằm giữa từ."
+  },
+  {
+   "slug": "s31",
+   "order": 31,
+   "ipa": "s",
+   "kind": "Phụ âm vô thanh",
+   "video_id": "QtH3vRXmvvo",
+   "words": [
+    "soon",
+    "mister",
+    "hiss",
+    "bus"
+   ],
+   "pair": [
+    "sip",
+    "ship"
+   ],
+   "sentence": "Sam sees six sad snakes in the sun.",
+   "tip_vi": "Luồng hơi gió mảnh, đầu lưỡi gần lợi, không rung. Cuối từ phải đọc rõ (số nhiều, ngôi thứ ba -s)."
+  },
+  {
+   "slug": "s32",
+   "order": 32,
+   "ipa": "f",
+   "kind": "Phụ âm vô thanh",
+   "video_id": "vE12RFyH-hY",
+   "words": [
+    "fat",
+    "coffee",
+    "fluff",
+    "fish"
+   ],
+   "pair": [
+    "fan",
+    "van"
+   ],
+   "sentence": "Four friends found fifty fresh fish.",
+   "tip_vi": "Răng trên chạm nhẹ môi dưới rồi thổi hơi, không rung. Đừng đọc thành /p/."
+  },
+  {
+   "slug": "s33",
+   "order": 33,
+   "ipa": "b",
+   "kind": "Phụ âm hữu thanh",
+   "video_id": "yP7aCKO6bTE",
+   "words": [
+    "back",
+    "habit",
+    "job",
+    "big"
+   ],
+   "pair": [
+    "ban",
+    "pan"
+   ],
+   "sentence": "Bob bought a big blue bag.",
+   "tip_vi": "Hai môi bật, có rung cổ họng. Cuối từ vẫn phải khép môi cho /b/."
+  },
+  {
+   "slug": "s34",
+   "order": 34,
+   "ipa": "ɔɪ",
+   "kind": "Nguyên âm đôi",
+   "video_id": "lFRrEI85IcM",
+   "words": [
+    "choice",
+    "noise",
+    "boy",
+    "coin"
+   ],
+   "pair": [
+    "boy",
+    "buy"
+   ],
+   "sentence": "The boy enjoys the noisy toy.",
+   "tip_vi": "Bắt đầu từ /ɔ/ môi tròn rồi trượt lên /ɪ/."
+  },
+  {
+   "slug": "s35",
+   "order": 35,
+   "ipa": "ŋ",
+   "kind": "Phụ âm mũi",
+   "video_id": "rgWse3tloTw",
+   "words": [
+    "rung",
+    "anger",
+    "thanks",
+    "sing"
+   ],
+   "pair": [
+    "sing",
+    "sin"
+   ],
+   "sentence": "The king is singing a long song.",
+   "tip_vi": "Cuống lưỡi chạm ngạc mềm, hơi thoát ra mũi. Không thêm âm /g/ ở cuối: sing, song."
+  },
+  {
+   "slug": "s36",
+   "order": 36,
+   "ipa": "k",
+   "kind": "Phụ âm vô thanh",
+   "video_id": "d1jyIpAmLe8",
+   "words": [
+    "came",
+    "lucky",
+    "sick",
+    "cake"
+   ],
+   "pair": [
+    "cold",
+    "gold"
+   ],
+   "sentence": "Kate can cook a quick, cold cake.",
+   "tip_vi": "Cuống lưỡi bật chạm ngạc mềm, bật hơi ở đầu từ, không rung. Cuối từ vẫn phải bật /k/."
+  },
+  {
+   "slug": "s37",
+   "order": 37,
+   "ipa": "r",
+   "kind": "Phụ âm",
+   "video_id": "Lxuo14hjP_8",
+   "words": [
+    "right",
+    "wrong",
+    "sorry",
+    "red"
+   ],
+   "pair": [
+    "right",
+    "light"
+   ],
+   "sentence": "Rita ran around the red road.",
+   "tip_vi": "Cong nhẹ đầu lưỡi lên nhưng không chạm vòm miệng, môi hơi tròn. Không rung lưỡi như r tiếng Việt vùng miền."
+  },
+  {
+   "slug": "s38",
+   "order": 38,
+   "ipa": "v",
+   "kind": "Phụ âm hữu thanh",
+   "video_id": "mO04G0v5a_c",
+   "words": [
+    "view",
+    "heavy",
+    "move",
+    "very"
+   ],
+   "pair": [
+    "very",
+    "berry"
+   ],
+   "sentence": "Victor never leaves the village in winter.",
+   "tip_vi": "Răng trên chạm môi dưới và có rung cổ họng. Không đọc thành /w/ hay /b/."
+  },
+  {
+   "slug": "s39",
+   "order": 39,
+   "ipa": "j",
+   "kind": "Phụ âm bán nguyên âm",
+   "video_id": "_Fi9E6Yw-qg",
+   "words": [
+    "yet",
+    "use",
+    "beauty",
+    "yes"
+   ],
+   "pair": [
+    "yes",
+    "less"
+   ],
+   "sentence": "Yesterday the young student used a yellow yo-yo.",
+   "tip_vi": "Lưỡi trượt nhanh từ vị trí /ɪ/ sang âm sau, giống i lướt trong yêu. Không đọc thành /dʒ/."
+  },
+  {
+   "slug": "s40",
+   "order": 40,
+   "ipa": "w",
+   "kind": "Phụ âm bán nguyên âm",
+   "video_id": "HzhPB1hXG-o",
+   "words": [
+    "wet",
+    "one",
+    "when",
+    "week"
+   ],
+   "pair": [
+    "wet",
+    "vet"
+   ],
+   "sentence": "We went west for one wet week.",
+   "tip_vi": "Môi tròn rồi mở ra nhanh, giống u lướt trong uể. Không để răng chạm môi như /v/."
+  },
+  {
+   "slug": "s41",
+   "order": 41,
+   "ipa": "g",
+   "kind": "Phụ âm hữu thanh",
+   "video_id": "9eAqj9EfeK0",
+   "words": [
+    "get",
+    "giggle",
+    "ghost",
+    "bag"
+   ],
+   "pair": [
+    "gold",
+    "cold"
+   ],
+   "sentence": "Greg got a good green bag.",
+   "tip_vi": "Cuống lưỡi bật chạm ngạc mềm, có rung cổ họng. Cuối từ vẫn phải bật /g/."
+  },
+  {
+   "slug": "s42",
+   "order": 42,
+   "ipa": "l",
+   "kind": "Phụ âm",
+   "video_id": "CwWLgmMk0Z0",
+   "words": [
+    "light",
+    "valley",
+    "feel",
+    "milk"
+   ],
+   "pair": [
+    "light",
+    "right"
+   ],
+   "sentence": "Lily left the little lamp on the hill.",
+   "tip_vi": "Đầu lưỡi chạm lợi trên và giữ ở đó. Cuối từ (feel, milk) lưỡi vẫn chạm lợi, đừng thả thành u."
+  },
+  {
+   "slug": "s43",
+   "order": 43,
+   "ipa": "z",
+   "kind": "Phụ âm hữu thanh",
+   "video_id": "o1ZvmX80t7Q",
+   "words": [
+    "zero",
+    "music",
+    "roses",
+    "buzz"
+   ],
+   "pair": [
+    "zoo",
+    "sue"
+   ],
+   "sentence": "The zebras at the zoo eat leaves and roses.",
+   "tip_vi": "Giống /s/ nhưng có rung cổ họng (đặt tay lên cổ phải thấy rung). Quan trọng cho số nhiều: roses, dogs."
+  },
+  {
+   "slug": "s44",
+   "order": 44,
+   "ipa": "h",
+   "kind": "Phụ âm vô thanh",
+   "video_id": "DM_gN6imoC8",
+   "words": [
+    "hot",
+    "whole",
+    "ahead",
+    "hand"
+   ],
+   "pair": [
+    "hat",
+    "at"
+   ],
+   "sentence": "Harry hates hot hamburgers at home.",
+   "tip_vi": "Chỉ là hơi thở từ cổ họng, không có tiếng xát mạnh. Đừng bỏ âm /h/ đầu từ."
+  }
+ ],
+ "shadowing": [
+  {
+   "slug": "sh1",
+   "order": 1,
+   "video_id": "tjaLn7URdlA",
+   "title_vi": "Shadowing là gì?",
+   "note_vi": "Cách làm: nghe một cụm, nói theo gần như cùng lúc, bắt chước nhịp và ngữ điệu."
+  },
+  {
+   "slug": "sh2",
+   "order": 2,
+   "video_id": "ywGo1GI9c2I",
+   "title_vi": "Hội thoại ở quán cà phê",
+   "note_vi": ""
+  },
+  {
+   "slug": "sh3",
+   "order": 3,
+   "video_id": "Z5sjzG4ZF_w",
+   "title_vi": "Những điểm du lịch của George",
+   "note_vi": ""
+  },
+  {
+   "slug": "sh4",
+   "order": 4,
+   "video_id": "RI4cxw5xecs",
+   "title_vi": "Ai lấy mất túi khoai chiên của tôi?",
+   "note_vi": ""
+  },
+  {
+   "slug": "sh5",
+   "order": 5,
+   "video_id": "sAumTZ1lkZE",
+   "title_vi": "Hội thoại ở văn phòng",
+   "note_vi": ""
+  },
+  {
+   "slug": "sh6",
+   "order": 6,
+   "video_id": "DR-aseNKM4A",
+   "title_vi": "Phát âm đuôi -ed",
+   "note_vi": ""
+  }
+ ]
+}

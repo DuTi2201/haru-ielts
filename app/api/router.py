@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from app.api.routers import admin, admin_accounts, audio, auth, competency, content, essay_checks, ingest, jobs, learning_events, lesson_images, practice, speech
+from app.api.routers import admin, admin_accounts, audio, auth, competency, content, essay_checks, ingest, jobs, learning_events, lesson_images, practice, pronunciation, speech
 
 api_router = APIRouter(prefix="/api/v1")
 api_router.include_router(auth.router)
@@ -17,5 +17,6 @@ api_router.include_router(practice.router)
 api_router.include_router(essay_checks.router)
 api_router.include_router(learning_events.router)
 api_router.include_router(speech.router)
+api_router.include_router(pronunciation.router)
 api_router.include_router(competency.router)
 
