@@ -5229,15 +5229,15 @@
      "options": [
       {
        "id": "1",
-       "text": "optimistic"
+       "text": "pessimistic"
       },
       {
        "id": "2",
-       "text": "pessimistic"
+       "text": "optimistic"
       }
      ],
      "answer": "1",
-     "explanation_vi": "Câu khuyên đừng bi quan nên cần `optimistic` (lạc quan). [Destination C1&C2, Unit 2 · bài A (trang 14)]",
+     "explanation_vi": "Vế sau trấn an «mọi chuyện sẽ ổn», nên vế đầu khuyên đừng bi quan: `pessimistic` (bi quan). `optimistic` là lạc quan, câu sẽ vô nghĩa. [Destination C1&C2, Unit 2 · bài A (trang 14)]",
      "tags": []
     }
    ],
@@ -5741,15 +5741,15 @@
      "options": [
       {
        "id": "1",
-       "text": "lesson"
-      },
-      {
-       "id": "2",
        "text": "subject"
       },
       {
-       "id": "3",
+       "id": "2",
        "text": "tuition"
+      },
+      {
+       "id": "3",
+       "text": "lesson"
       },
       {
        "id": "4",
@@ -5757,7 +5757,7 @@
       }
      ],
      "answer": "3",
-     "explanation_vi": "`tuition in …` = sự hướng dẫn về. [Destination C1&C2, Unit 2 · bài D (trang 15)]",
+     "explanation_vi": "Có động từ `give` đứng trước nên cần `give … any lesson in …` (dạy cho ai bài học về kỹ năng gì). Không có cụm `give subject`. [Destination C1&C2, Unit 2 · bài D (trang 15)]",
      "tags": []
     }
    ],

@@ -24,6 +24,7 @@ import day89 as D89  # noqa: E402
 import lecture_d1 as L1  # noqa: E402
 import lecture_d2 as L2  # noqa: E402
 import lecture_d3 as L3  # noqa: E402
+import lecture_d7 as L7  # noqa: E402
 from assoc import ASSOC  # noqa: E402
 import re  # noqa: E402
 import exercise_polish as EP  # noqa: E402
@@ -384,6 +385,8 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
         bank["listening"].append(lex)
         sessions.append({"title_vi": f"Nghe kỹ · {ls['title']}"[:70], "can_do_vi": "Sau buổi này bạn nghe đúng đáp án trong hội thoại, nhận ra chỗ người nói sửa lại thông tin và giải thích được vì sao các lựa chọn khác sai.",
                          "use_vi": d["ielts"][:200], "check": [lex["id"]]})
+    if n == 7:  # the four hand-written lectures of the day (scripts/g1/lecture_d7.py)
+        L7.reshape(sessions)
     first_head = vocab[0]["headword"]
     groups: dict[str, list[str]] = {}
     src: dict[str, str] = {}

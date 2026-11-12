@@ -19,21 +19,21 @@
    "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
   },
   {
-   "headword": "baffle",
+   "headword": "assume",
    "pos": "V",
-   "meaning_vi": "làm bối rối (= confuse) · Nhớ: làm bạn rối như sợi chỉ: baffle = confuse.",
-   "example_en": "The question baffled me.",
-   "example_vi": "Câu hỏi làm tôi bối rối.",
+   "meaning_vi": "cho rằng, mặc định (= suppose) · Nhớ: đèn nhà hàng xóm tắt, bạn cho là họ đi vắng mà chưa kiểm tra.",
+   "example_en": "Do not assume that everyone agrees with you.",
+   "example_vi": "Đừng mặc định rằng ai cũng đồng ý với bạn.",
    "family": "Giáo dục",
    "priority": "core",
    "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
   },
   {
-   "headword": "plausible",
-   "pos": "A",
-   "meaning_vi": "có vẻ hợp lý (= reasonable) · Nhớ: nghe có lý, đáng để tin: plausible = reasonable.",
-   "example_en": "That is a plausible explanation.",
-   "example_vi": "Đó là một lời giải thích có vẻ hợp lý.",
+   "headword": "presume",
+   "pos": "V",
+   "meaning_vi": "cho rằng (= assume / suppose) · Nhớ: cho là đúng khi chưa kiểm tra: presume = assume.",
+   "example_en": "I presume you have finished the homework.",
+   "example_vi": "Tôi cho rằng em đã làm xong bài tập.",
    "family": "Giáo dục",
    "priority": "core",
    "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
@@ -49,11 +49,61 @@
    "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
   },
   {
-   "headword": "presume",
+   "headword": "estimate",
    "pos": "V",
-   "meaning_vi": "cho rằng (= assume) · Nhớ: cho là đúng khi chưa kiểm tra: presume = assume.",
-   "example_en": "I presume you have finished the homework.",
-   "example_vi": "Tôi cho rằng em đã làm xong bài tập.",
+   "meaning_vi": "ước tính (một con số) · Nhớ: nhìn bức tranh hỏng, ước chừng sửa hết hai nghìn euro.",
+   "example_en": "I estimate that the trip will take two hours.",
+   "example_vi": "Tôi ước tính chuyến đi mất hai tiếng.",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "deduce",
+   "pos": "V",
+   "meaning_vi": "suy ra từ bằng chứng · Nhớ: thám tử nhìn dấu chân rồi suy ra ai đã đi qua.",
+   "example_en": "From the empty plate, I deduced that he had eaten.",
+   "example_vi": "Nhìn cái đĩa trống, tôi suy ra anh ấy đã ăn rồi.",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "justify",
+   "pos": "V",
+   "meaning_vi": "biện minh, chứng tỏ là hợp lý · Nhớ: justice = công bằng; justify = đưa lý do cho thấy điều đó là hợp lý. Chữ y cuối đọc là ai.",
+   "example_en": "How can you justify such a high price?",
+   "example_vi": "Bạn biện minh thế nào cho mức giá cao như vậy?",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "reflect",
+   "pos": "V",
+   "meaning_vi": "suy ngẫm kỹ (= think carefully) · Nhớ: soi gương rồi nhìn lại mình: nghĩ kỹ về điều đã xảy ra.",
+   "example_en": "Take a moment to reflect on what you have learned.",
+   "example_vi": "Hãy dành một lúc suy ngẫm về điều bạn đã học.",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "discriminate",
+   "pos": "V",
+   "meaning_vi": "phân biệt đối xử · Nhớ: đối xử khác nhau với người ta vì tuổi, giới tính hay nơi sinh.",
+   "example_en": "It is illegal to discriminate against people because of their age.",
+   "example_vi": "Phân biệt đối xử với người khác vì tuổi tác là trái luật.",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "baffle",
+   "pos": "V",
+   "meaning_vi": "làm bối rối (= confuse) · Nhớ: làm bạn rối như sợi chỉ: baffle = confuse.",
+   "example_en": "The question baffled me.",
+   "example_vi": "Câu hỏi làm tôi bối rối.",
    "family": "Giáo dục",
    "priority": "core",
    "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
@@ -69,21 +119,81 @@
    "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
   },
   {
-   "headword": "notion",
-   "pos": "N",
-   "meaning_vi": "quan niệm (= idea) · Nhớ: một ý nghĩ thoáng qua: notion = idea.",
-   "example_en": "I do not like the notion of learning by heart.",
-   "example_vi": "Tôi không thích quan niệm học thuộc lòng.",
+   "headword": "plausible",
+   "pos": "A",
+   "meaning_vi": "có vẻ hợp lý (= reasonable) · Nhớ: nghe có lý, đáng để tin: plausible = reasonable.",
+   "example_en": "That is a plausible explanation.",
+   "example_vi": "Đó là một lời giải thích có vẻ hợp lý.",
    "family": "Giáo dục",
    "priority": "core",
    "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
   },
   {
-   "headword": "dilemma",
+   "headword": "gather",
+   "pos": "V",
+   "meaning_vi": "nghe nói, được biết rằng · Nhớ: tụ lại, và còn là nghe được tin từ ai đó: I gather that...",
+   "example_en": "I gather that the class starts at nine.",
+   "example_vi": "Tôi được biết lớp bắt đầu lúc chín giờ.",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "reckon",
+   "pos": "V",
+   "meaning_vi": "nghĩ rằng, đoán rằng (thân mật) · Nhớ: nghĩ rằng, thân mật hơn suppose.",
+   "example_en": "I reckon the exam will be difficult.",
+   "example_vi": "Tôi đoán bài thi sẽ khó.",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "suppose",
+   "pos": "V",
+   "meaning_vi": "nghĩ rằng, đoán rằng · Nhớ: nghĩ rằng; I don't suppose... là cách nhờ vả lịch sự.",
+   "example_en": "I suppose you are tired after the trip.",
+   "example_vi": "Tôi đoán bạn mệt sau chuyến đi.",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "ponder",
+   "pos": "V",
+   "meaning_vi": "suy ngẫm lâu (neo vào think about) · Nhớ: suy ngẫm lâu, như cân nhắc từng chữ khi chọn đáp án.",
+   "example_en": "I pondered the question for a long time.",
+   "example_vi": "Tôi suy ngẫm câu hỏi đó rất lâu.",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "contemplate",
+   "pos": "V",
+   "meaning_vi": "nghĩ tới, cân nhắc (neo vào consider) · Nhớ: ngắm kỹ rồi nghĩ: contemplate a change = nghĩ tới chuyện thay đổi.",
+   "example_en": "She is contemplating a change of job.",
+   "example_vi": "Cô ấy đang cân nhắc đổi việc.",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "deliberate",
+   "pos": "V",
+   "meaning_vi": "cân nhắc, bàn bạc kỹ (nghị án) · Nhớ: bàn bạc kỹ trước khi quyết, như bồi thẩm đoàn.",
+   "example_en": "The jury deliberated for two days.",
+   "example_vi": "Bồi thẩm đoàn bàn bạc trong hai ngày.",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "notion",
    "pos": "N",
-   "meaning_vi": "tình thế khó chọn · Nhớ: hai lựa chọn đều khó: hai cái sừng của một con bò.",
-   "example_en": "She faced a dilemma between work and study.",
-   "example_vi": "Cô ấy rơi vào thế khó chọn giữa việc làm và việc học.",
+   "meaning_vi": "quan niệm (= idea) · Nhớ: một ý nghĩ thoáng qua: notion = idea.",
+   "example_en": "I do not like the notion of learning by heart.",
+   "example_vi": "Tôi không thích quan niệm học thuộc lòng.",
    "family": "Giáo dục",
    "priority": "core",
    "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
@@ -99,41 +209,91 @@
    "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
   },
   {
-   "headword": "curriculum",
+   "headword": "dilemma",
    "pos": "N",
-   "meaning_vi": "chương trình học · Nhớ: toàn bộ nội dung chương trình học của một trường.",
-   "example_en": "The school changed its curriculum last year.",
-   "example_vi": "Trường đã đổi chương trình học năm ngoái.",
+   "meaning_vi": "tình thế khó chọn · Nhớ: hai lựa chọn đều khó: hai cái sừng của một con bò.",
+   "example_en": "She faced a dilemma between work and study.",
+   "example_vi": "Cô ấy rơi vào thế khó chọn giữa việc làm và việc học.",
    "family": "Giáo dục",
    "priority": "core",
    "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
   },
   {
-   "headword": "tuition",
+   "headword": "hunch",
    "pos": "N",
-   "meaning_vi": "sự dạy kèm, học phí · Nhớ: tiền và buổi dạy kèm: tuition fees = học phí.",
-   "example_en": "She gets extra tuition in maths.",
-   "example_vi": "Cô ấy học thêm toán.",
+   "meaning_vi": "linh cảm · Nhớ: linh cảm: bạn 'có cảm giác' mà chưa có bằng chứng.",
+   "example_en": "I have a hunch that he will win.",
+   "example_vi": "Tôi có linh cảm anh ấy sẽ thắng.",
    "family": "Giáo dục",
    "priority": "core",
    "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
   },
   {
-   "headword": "tutorial",
+   "headword": "intuition",
    "pos": "N",
-   "meaning_vi": "buổi học nhóm nhỏ với giảng viên · Nhớ: tutor = người hướng dẫn; tutorial = buổi hướng dẫn nhóm nhỏ.",
-   "example_en": "We have a tutorial every Monday.",
-   "example_vi": "Chúng tôi có buổi tutorial mỗi thứ Hai.",
+   "meaning_vi": "trực giác · Nhớ: trực giác mách bảo mà chưa cần bằng chứng.",
+   "example_en": "Her intuition told her that something was wrong.",
+   "example_vi": "Trực giác mách cô ấy rằng có chuyện không ổn.",
    "family": "Giáo dục",
    "priority": "core",
    "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
   },
   {
-   "headword": "plagiarise",
-   "pos": "V",
-   "meaning_vi": "đạo văn · Nhớ: chép ý của người khác như của mình: đạo văn, điều cấm ở đại học.",
-   "example_en": "Never plagiarise someone else's essay.",
-   "example_vi": "Đừng bao giờ đạo văn bài của người khác.",
+   "headword": "guesswork",
+   "pos": "N",
+   "meaning_vi": "sự phỏng đoán · Nhớ: guess + work: phỏng đoán; educated guesswork là đoán có cơ sở.",
+   "example_en": "Without data, the result is mostly guesswork.",
+   "example_vi": "Không có dữ liệu thì kết quả chủ yếu là phỏng đoán.",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "genius",
+   "pos": "N",
+   "meaning_vi": "thiên tài · Nhớ: thiên tài, có thể giỏi thiên văn mà ngớ ngẩn chuyện đời thường.",
+   "example_en": "She is a genius at mathematics.",
+   "example_vi": "Cô ấy là thiên tài toán học.",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "faith",
+   "pos": "N",
+   "meaning_vi": "niềm tin · Nhớ: niềm tin; âm cuối th, đừng đọc thành t kẻo thành fate (số phận).",
+   "example_en": "I have complete faith in my teacher.",
+   "example_vi": "Tôi hoàn toàn tin tưởng giáo viên của mình.",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "paradox",
+   "pos": "N",
+   "meaning_vi": "nghịch lý · Nhớ: chuyện nghe mâu thuẫn nhưng có thật: càng nhiều lựa chọn càng khó chọn.",
+   "example_en": "It is a paradox that more choice can make us unhappy.",
+   "example_vi": "Thật nghịch lý là nhiều lựa chọn hơn có thể làm ta kém vui.",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "special needs",
+   "pos": "X",
+   "meaning_vi": "nhu cầu giáo dục đặc biệt · Nhớ: học sinh cần hỗ trợ thêm; cụm cố định, đừng nói special wants.",
+   "example_en": "The school has teachers for students with special needs.",
+   "example_vi": "Trường có giáo viên cho học sinh có nhu cầu giáo dục đặc biệt.",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "conscientious",
+   "pos": "A",
+   "meaning_vi": "tận tâm, chăm chỉ (= hard-working) · Nhớ: con + science: làm việc có lương tâm, cẩn thận từng chi tiết.",
+   "example_en": "She is a conscientious student.",
+   "example_vi": "Cô ấy là một sinh viên tận tâm.",
    "family": "Giáo dục",
    "priority": "core",
    "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
@@ -159,11 +319,71 @@
    "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
   },
   {
-   "headword": "conscientious",
+   "headword": "knowledgeable",
    "pos": "A",
-   "meaning_vi": "tận tâm, chăm chỉ · Nhớ: con + science: làm việc có lương tâm, cẩn thận từng chi tiết.",
-   "example_en": "She is a conscientious student.",
-   "example_vi": "Cô ấy là một sinh viên tận tâm.",
+   "meaning_vi": "hiểu biết nhiều về một lĩnh vực · Nhớ: knowledge + able: biết nhiều về một lĩnh vực.",
+   "example_en": "He is very knowledgeable about history.",
+   "example_vi": "Anh ấy rất hiểu biết về lịch sử.",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "curriculum",
+   "pos": "N",
+   "meaning_vi": "chương trình học (số nhiều: curricula) · Nhớ: toàn bộ nội dung chương trình học của một trường.",
+   "example_en": "The school changed its curriculum last year.",
+   "example_vi": "Trường đã đổi chương trình học năm ngoái.",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "give lessons in",
+   "pos": "X",
+   "meaning_vi": "dạy cho bài học về một kỹ năng · Nhớ: dạy bài học về một kỹ năng; sau give dùng lesson, không dùng subject.",
+   "example_en": "The course gives students lessons in public speaking.",
+   "example_vi": "Khoá học dạy sinh viên các bài học về nói trước đám đông.",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "tuition",
+   "pos": "N",
+   "meaning_vi": "học phí; sự dạy kèm · Nhớ: tiền và buổi dạy kèm: tuition fees = học phí.",
+   "example_en": "She gets extra tuition in maths.",
+   "example_vi": "Cô ấy học thêm toán.",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "seminar",
+   "pos": "N",
+   "meaning_vi": "buổi thảo luận chuyên đề · Nhớ: đọc trước ở nhà, lên lớp thảo luận.",
+   "example_en": "Read the article before the seminar so you can join the discussion.",
+   "example_vi": "Hãy đọc bài báo trước buổi seminar để tham gia thảo luận.",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "tutorial",
+   "pos": "N",
+   "meaning_vi": "buổi hướng dẫn nhóm nhỏ, giải bài tập · Nhớ: tutor = người hướng dẫn; tutorial = buổi hướng dẫn nhóm nhỏ.",
+   "example_en": "We have a tutorial every Monday.",
+   "example_vi": "Chúng tôi có buổi tutorial mỗi thứ Hai.",
+   "family": "Giáo dục",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "plagiarise",
+   "pos": "V",
+   "meaning_vi": "đạo văn · Nhớ: chép ý của người khác như của mình: đạo văn, điều cấm ở đại học.",
+   "example_en": "Never plagiarise someone else's essay.",
+   "example_vi": "Đừng bao giờ đạo văn bài của người khác.",
    "family": "Giáo dục",
    "priority": "core",
    "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
@@ -179,81 +399,11 @@
    "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
   },
   {
-   "headword": "knowledgeable",
-   "pos": "A",
-   "meaning_vi": "hiểu biết nhiều · Nhớ: knowledge + able: biết nhiều về một lĩnh vực.",
-   "example_en": "He is very knowledgeable about history.",
-   "example_vi": "Anh ấy rất hiểu biết về lịch sử.",
-   "family": "Giáo dục",
-   "priority": "core",
-   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
-  },
-  {
-   "headword": "ponder",
+   "headword": "graduate",
    "pos": "V",
-   "meaning_vi": "suy ngẫm (neo vào think about) · Nhớ: suy ngẫm lâu, như cân nhắc từng chữ khi chọn đáp án.",
-   "example_en": "I pondered the question for a long time.",
-   "example_vi": "Tôi suy ngẫm câu hỏi đó rất lâu.",
-   "family": "Giáo dục",
-   "priority": "core",
-   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
-  },
-  {
-   "headword": "contemplate",
-   "pos": "V",
-   "meaning_vi": "nghĩ tới, cân nhắc (neo vào consider) · Nhớ: ngắm kỹ rồi nghĩ: contemplate a change = nghĩ tới chuyện thay đổi.",
-   "example_en": "She is contemplating a change of job.",
-   "example_vi": "Cô ấy đang cân nhắc đổi việc.",
-   "family": "Giáo dục",
-   "priority": "core",
-   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
-  },
-  {
-   "headword": "deliberate",
-   "pos": "V",
-   "meaning_vi": "cân nhắc kỹ · Nhớ: bàn bạc kỹ trước khi quyết, như bồi thẩm đoàn.",
-   "example_en": "The jury deliberated for two days.",
-   "example_vi": "Bồi thẩm đoàn cân nhắc trong hai ngày.",
-   "family": "Giáo dục",
-   "priority": "core",
-   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
-  },
-  {
-   "headword": "hunch",
-   "pos": "N",
-   "meaning_vi": "linh cảm · Nhớ: linh cảm: bạn 'có cảm giác' mà chưa có bằng chứng.",
-   "example_en": "I have a hunch that he will win.",
-   "example_vi": "Tôi có linh cảm anh ấy sẽ thắng.",
-   "family": "Giáo dục",
-   "priority": "core",
-   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
-  },
-  {
-   "headword": "paradox",
-   "pos": "N",
-   "meaning_vi": "nghịch lý · Nhớ: chuyện nghe mâu thuẫn nhưng có thật: càng nhiều lựa chọn càng khó chọn.",
-   "example_en": "It is a paradox that more choice can make us unhappy.",
-   "example_vi": "Thật nghịch lý là nhiều lựa chọn hơn có thể làm ta kém vui.",
-   "family": "Giáo dục",
-   "priority": "core",
-   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
-  },
-  {
-   "headword": "figure out",
-   "pos": "X",
-   "meaning_vi": "tìm ra, hiểu ra · Nhớ: tính ra đáp số: figure out how to do it.",
-   "example_en": "I cannot figure out how this works.",
-   "example_vi": "Tôi không hiểu cái này chạy thế nào.",
-   "family": "Giáo dục",
-   "priority": "core",
-   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
-  },
-  {
-   "headword": "come up with",
-   "pos": "X",
-   "meaning_vi": "nghĩ ra · Nhớ: đi lên mang theo một ý: nghĩ ra.",
-   "example_en": "She came up with a clever plan.",
-   "example_vi": "Cô ấy nghĩ ra một kế hoạch thông minh.",
+   "meaning_vi": "tốt nghiệp đại học · Nhớ: tốt nghiệp; động từ đuôi dài như eight, danh từ (cử nhân) đuôi nhẹ.",
+   "example_en": "She will graduate from university next summer.",
+   "example_vi": "Cô ấy sẽ tốt nghiệp đại học vào mùa hè tới.",
    "family": "Giáo dục",
    "priority": "core",
    "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
@@ -286,6 +436,26 @@
    "example_vi": "Tôi chưa từng nghĩ tới việc hỏi anh ấy.",
    "family": "Giáo dục",
    "priority": "core",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "figure out",
+   "pos": "X",
+   "meaning_vi": "tìm ra, hiểu ra · Nhớ: tính ra đáp số: figure out how to do it.",
+   "example_en": "I cannot figure out how this works.",
+   "example_vi": "Tôi không hiểu cái này chạy thế nào.",
+   "family": "Giáo dục",
+   "priority": "recognize",
+   "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
+  },
+  {
+   "headword": "come up with",
+   "pos": "X",
+   "meaning_vi": "nghĩ ra · Nhớ: đi lên mang theo một ý: nghĩ ra.",
+   "example_en": "She came up with a clever plan.",
+   "example_vi": "Cô ấy nghĩ ra một kế hoạch thông minh.",
+   "family": "Giáo dục",
+   "priority": "recognize",
    "source": "Destination C1&C2, Unit 2 (lớp nâng cấp của B2 Unit 18); cách neo từ của khóa học"
   }
  ],
@@ -474,52 +644,1411 @@
  ],
  "sessions": [
   {
-   "title_vi": "Làm quen C1 · neo vào từ B2 · Chín từ C1 đầu tiên, đã neo vào từ B2",
-   "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: assess, baffle, plausible, speculate, presume, grasp, ...",
+   "title_vi": "Buổi 1 · mười động từ tư duy, cách neo vào từ quen",
+   "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: assess, assume, presume, speculate, estimate, deduce, ...",
    "use_vi": "Từ của Unit này là lõi của Reading và Listening về giáo dục và tâm lý; kết hợp từ chính xác tăng điểm Lexical Resource khi nói và viết.",
    "vocab": [
     "assess",
-    "baffle",
-    "plausible",
-    "speculate",
+    "assume",
     "presume",
+    "speculate",
+    "estimate",
+    "deduce",
+    "justify",
+    "reflect",
+    "discriminate",
+    "baffle"
+   ],
+   "lecture": [
+    {
+     "kind": "title",
+     "hook": "Nếu chỉ biết một động từ để nói về suy nghĩ, bài viết của bạn sẽ ra sao?",
+     "lines": [
+      {
+       "say": "Một câu tiếng Anh đứng được nhờ hai thứ: chủ ngữ là danh từ, và vị ngữ là động từ. Bây giờ hỏi bạn một câu: nếu chỉ biết một động từ để nói về suy nghĩ, là think, thì bài viết của bạn sẽ như thế nào?",
+       "show": "hook"
+      },
+      {
+       "say": "Cả bài chỉ có một nhịp. Buổi này mình học mười động từ, mỗi từ mang một sắc thái riêng: đánh giá, giả định, ước tính, suy luận, biện minh, suy ngẫm. Mười từ này đáng học thuộc lòng, vì chúng là xương sống của IELTS Writing."
+      },
+      {
+       "say": "Và có một mẹo để không bao giờ học vẹt: gắn từ khó vào một từ quen mà bạn đã biết cách dùng."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "picture_cards",
+     "eyebrow": "Mẹo của buổi này",
+     "title": "Gắn từ khó vào từ quen",
+     "data": {
+      "rows": [
+       {
+        "key": "a1",
+        "icon": "scales",
+        "head": "assess = evaluate",
+        "en": "She assessed the risk.",
+        "vi": "Đánh giá: cân hai phía rồi kết luận."
+       },
+       {
+        "key": "a2",
+        "icon": "crystal",
+        "head": "speculate = guess",
+        "en": "We can only speculate.",
+        "vi": "Phỏng đoán khi chưa có bằng chứng."
+       },
+       {
+        "key": "a3",
+        "icon": "dotted_check",
+        "head": "presume = assume",
+        "en": "I presume you have finished.",
+        "vi": "Cho là đúng, chưa kiểm tra."
+       }
+      ],
+      "rule": "Đừng học nghĩa tiếng Việt dài. Mỗi từ khó gắn vào một từ quen."
+     },
+     "lines": [
+      {
+       "say": "Thay vì học thuộc lời giải thích dài trong từ điển, hãy làm thế này. Assess, gắn vào evaluate: đánh giá.",
+       "show": "a1"
+      },
+      {
+       "en": "She assessed the risk.",
+       "vi": "Cô ấy đánh giá rủi ro.",
+       "gap": true
+      },
+      {
+       "say": "Speculate, gắn vào guess: đoán.",
+       "show": "a2"
+      },
+      {
+       "en": "We can only speculate.",
+       "vi": "Chúng ta chỉ có thể phỏng đoán.",
+       "gap": true
+      },
+      {
+       "say": "Presume, gắn vào assume hoặc suppose: cho rằng.",
+       "show": "a3"
+      },
+      {
+       "en": "I presume you have finished.",
+       "vi": "Tôi cho rằng bạn đã xong.",
+       "gap": true
+      },
+      {
+       "say": "Từ lạ trở thành từ quen đội một cái mũ mới. Giờ mình đi từng từ.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "assess",
+     "lines": [
+      {
+       "say": "Từ đầu tiên. Người ta đánh giá một ứng viên chỉ qua mười phút phỏng vấn. Đánh giá, tức là cân ưu nhược rồi kết luận. Neo nó vào evaluate."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "ref_table",
+     "eyebrow": "Dễ nhầm",
+     "title": "assess và access",
+     "data": {
+      "cols": [
+       "Từ",
+       "Cách đọc"
+      ],
+      "rows": [
+       {
+        "key": "s1",
+        "head": "assess · đánh giá",
+        "en": "assess",
+        "vi": "Hai chữ s đều đọc là s. Nhấn âm thứ hai."
+       },
+       {
+        "key": "s2",
+        "head": "access · tiếp cận",
+        "en": "access",
+        "vi": "Chữ c đầu đọc là k, chữ c sau đọc là s. Nhấn âm thứ nhất."
+       }
+      ],
+      "rule": "assess nhấn âm hai, hai chữ s. access nhấn âm một, chữ c đầu đọc là k."
+     },
+     "lines": [
+      {
+       "say": "Cẩn thận, assess rất dễ lẫn với access. Assess có hai chữ s, đọc là s, và nhấn âm thứ hai.",
+       "show": "s1"
+      },
+      {
+       "en": "assess",
+       "vi": "đánh giá",
+       "gap": true
+      },
+      {
+       "say": "Access thì chữ c đầu đọc là k, chữ c sau đọc là s, và nhấn âm thứ nhất. Nghĩa là tiếp cận.",
+       "show": "s2"
+      },
+      {
+       "en": "access",
+       "vi": "tiếp cận",
+       "gap": true
+      },
+      {
+       "say": "Nói sai trọng âm, người nghe sẽ hiểu thành từ kia.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "assume",
+     "lines": [
+      {
+       "say": "Bạn thấy đèn nhà hàng xóm tắt, và nghĩ ngay họ đi vắng. Chưa kiểm tra mà đã coi là thật. Đó là assume."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "presume",
+     "lines": [
+      {
+       "say": "Presume cũng là cho rằng, và neo vào assume. Bạn nhờ bạn mình làm bài, và nghĩ chắc là xong rồi."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "speculate",
+     "lines": [
+      {
+       "say": "Còn khi chưa có bằng chứng nào, mà mọi người vẫn bàn tán? Ví dụ, vì sao một công ty đóng cửa. Đó là speculate. Neo vào guess."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "picture_cards",
+     "eyebrow": "Ba cách cho rằng",
+     "title": "Mặc định, cho là, phỏng đoán",
+     "data": {
+      "rows": [
+       {
+        "key": "b1",
+        "icon": "dotted_check",
+        "head": "assume · mặc định",
+        "en": "I assume the shop is open.",
+        "vi": "Coi là đúng, chưa đi kiểm tra."
+       },
+       {
+        "key": "b2",
+        "icon": "thought",
+        "head": "presume · cho là",
+        "en": "I presume you have finished.",
+        "vi": "Cho là đúng vì có lý do nào đó."
+       },
+       {
+        "key": "b3",
+        "icon": "crystal",
+        "head": "speculate · phỏng đoán",
+        "en": "We can only speculate about the reason.",
+        "vi": "Chưa đủ bằng chứng, chỉ đoán."
+       }
+      ],
+      "rule": "Cùng là cho rằng, nhưng mức chắc chắn khác nhau. Speculate là yếu nhất."
+     },
+     "lines": [
+      {
+       "say": "Ba từ này đều là cho rằng, nhưng khác sắc thái. Assume: coi là đúng, chưa đi kiểm tra.",
+       "show": "b1"
+      },
+      {
+       "en": "I assume the shop is open.",
+       "vi": "Tôi cho là cửa hàng đang mở.",
+       "gap": true
+      },
+      {
+       "say": "Presume: cho là đúng, vì có lý do nào đó.",
+       "show": "b2"
+      },
+      {
+       "en": "I presume you have finished.",
+       "vi": "Tôi cho là bạn đã xong.",
+       "gap": true
+      },
+      {
+       "say": "Speculate: chưa đủ bằng chứng, chỉ đoán.",
+       "show": "b3"
+      },
+      {
+       "en": "We can only speculate about the reason.",
+       "vi": "Chúng ta chỉ có thể phỏng đoán lý do.",
+       "gap": true
+      },
+      {
+       "say": "Chọn từ theo mức chắc chắn của bạn. Speculate là yếu nhất.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "estimate",
+     "lines": [
+      {
+       "say": "Bạn nhìn một bức tranh bị hỏng và nói: sửa chắc hết khoảng hai nghìn. Ước lượng một con số. Đó là estimate."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "deduce",
+     "lines": [
+      {
+       "say": "Deduce thì khác. Không đoán con số. Từ những gì đang thấy, bạn suy ra điều chưa thấy. Như thám tử nhìn dấu chân, rồi kết luận ai đã đi qua."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "picture_cards",
+     "eyebrow": "Con số hay bằng chứng",
+     "title": "estimate và deduce",
+     "data": {
+      "rows": [
+       {
+        "key": "n1",
+        "icon": "ruler",
+        "head": "estimate · ước tính",
+        "en": "I estimate the painting will cost at least two thousand euros.",
+        "vi": "Ước lượng một con số."
+       },
+       {
+        "key": "n2",
+        "icon": "magnifier",
+        "head": "deduce · suy ra",
+        "en": "From the damage, I deduce that the car hit a wall.",
+        "vi": "Từ dấu vết có sẵn, suy ra điều chưa thấy."
+       }
+      ],
+      "rule": "Ước một con số: estimate. Suy ra từ bằng chứng: deduce. Số tiền lớn hơn một thì thêm s: euros."
+     },
+     "lines": [
+      {
+       "say": "Estimate ước một con số. Và để ý cách đọc tiền: hai nghìn euro phải đọc là euros, có s, vì lớn hơn một.",
+       "show": "n1"
+      },
+      {
+       "en": "I estimate the painting will cost at least two thousand euros.",
+       "vi": "Tôi ước bức tranh sửa hết ít nhất hai nghìn euro.",
+       "gap": true
+      },
+      {
+       "say": "Deduce thì đi từ dấu vết đến kết luận.",
+       "show": "n2"
+      },
+      {
+       "en": "From the damage, I deduce that the car hit a wall.",
+       "vi": "Nhìn chỗ hư hại, tôi suy ra xe đã đâm vào tường.",
+       "gap": true
+      },
+      {
+       "say": "Con số: estimate. Bằng chứng: deduce.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "justify",
+     "lines": [
+      {
+       "say": "Chính phủ chi rất nhiều tiền cho quân đội, và bạn hỏi: làm sao biện minh được khoản này? Phải đưa ra lý do. Đó là justify. Chữ y ở cuối đọc là ai, không đọc là i."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "reflect",
+     "lines": [
+      {
+       "say": "Reflect là quay lại nhìn điều đã xảy ra rồi suy ngẫm. Neo vào think carefully."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "discriminate",
+     "lines": [
+      {
+       "say": "Discriminate là đối xử khác nhau với người ta, vì tuổi tác, giới tính hay nơi sinh. Từ này hay gặp khi viết về xã hội."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "baffle",
+     "lines": [
+      {
+       "say": "Từ cuối cùng. Giám khảo hỏi một câu quá hóc búa, bạn đứng hình, rối như sợi chỉ. Đó là baffle. Neo vào confuse."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "fix_pairs",
+     "eyebrow": "Lỗi thường gặp",
+     "title": "Ba lỗi, ba cách sửa",
+     "data": {
+      "rows": [
+       {
+        "key": "e1",
+        "wrong": "It is hard to access someone's suitability in a short interview.",
+        "right": "It is hard to assess someone's suitability in a short interview.",
+        "why": "access là tiếp cận. Đánh giá là assess."
+       },
+       {
+        "key": "e2",
+        "wrong": "The painting will cost two thousand euro.",
+        "right": "The painting will cost two thousand euros.",
+        "why": "Số lớn hơn một thì đơn vị tiền thêm s."
+       },
+       {
+        "key": "e3",
+        "wrong": "I estimate that he is guilty from the evidence.",
+        "right": "I deduce that he is guilty from the evidence.",
+        "why": "Suy ra từ bằng chứng là deduce. Estimate dành cho một con số."
+       }
+      ],
+      "rule": "access không phải assess. Tiền thêm s. Bằng chứng thì deduce."
+     },
+     "lines": [
+      {
+       "say": "Ba lỗi người học hay mắc. Lỗi thứ nhất: nhầm access với assess.",
+       "show": "e1"
+      },
+      {
+       "en": "It is hard to assess someone's suitability in a short interview.",
+       "vi": "Khó đánh giá một người chỉ qua buổi phỏng vấn ngắn.",
+       "gap": true
+      },
+      {
+       "say": "Lỗi thứ hai: quên s sau số tiền.",
+       "show": "e2"
+      },
+      {
+       "en": "The painting will cost two thousand euros.",
+       "vi": "Bức tranh sẽ tốn hai nghìn euro.",
+       "gap": true
+      },
+      {
+       "say": "Lỗi thứ ba: dùng estimate cho một suy luận.",
+       "show": "e3"
+      },
+      {
+       "en": "I deduce that he is guilty from the evidence.",
+       "vi": "Từ bằng chứng, tôi suy ra anh ta có tội.",
+       "gap": true
+      },
+      {
+       "say": "Nhớ ba điều: access không phải assess, tiền thêm s, bằng chứng thì deduce.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "recap",
+     "lines": [
+      {
+       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "show": "title"
+      }
+     ]
+    },
+    {
+     "kind": "end",
+     "next": "Tiếp theo: chọn từ theo ngữ cảnh. Rồi chọn 5 đến 10 từ bạn thích nhất.",
+     "lines": [
+      {
+       "say": "Hết buổi một. Đừng ép mình thuộc hết ngay. Hãy chọn năm đến mười từ bạn thích nhất, rồi tự nhẩm một hai câu về cuộc sống của chính bạn. Từ nào có quan hệ cá nhân với bạn thì nhớ lâu. Buổi hai nói về cách chọn từ đúng ngữ cảnh.",
+       "show": "title"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title_vi": "Buổi 2 · hiểu, tin, cân nhắc: chọn từ theo ngữ cảnh",
+   "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: grasp, plausible, gather, reckon, suppose, ponder, ...",
+   "use_vi": "Từ của Unit này là lõi của Reading và Listening về giáo dục và tâm lý; kết hợp từ chính xác tăng điểm Lexical Resource khi nói và viết.",
+   "vocab": [
     "grasp",
-    "notion",
-    "dilemma",
-    "query"
-   ]
-  },
-  {
-   "title_vi": "Làm quen C1 · neo vào từ B2 · Từ về học tập và thi cử",
-   "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: curriculum, tuition, tutorial, plagiarise, cram, mock exam, ...",
-   "use_vi": "Từ của Unit này là lõi của Reading và Listening về giáo dục và tâm lý; kết hợp từ chính xác tăng điểm Lexical Resource khi nói và viết.",
-   "vocab": [
-    "curriculum",
-    "tuition",
-    "tutorial",
-    "plagiarise",
-    "cram",
-    "mock exam",
-    "conscientious",
-    "self-study",
-    "knowledgeable"
-   ]
-  },
-  {
-   "title_vi": "Làm quen C1 · neo vào từ B2 · Suy nghĩ và cụm cố định",
-   "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: ponder, contemplate, deliberate, hunch, paradox, figure out, ...",
-   "use_vi": "Từ của Unit này là lõi của Reading và Listening về giáo dục và tâm lý; kết hợp từ chính xác tăng điểm Lexical Resource khi nói và viết.",
-   "vocab": [
+    "plausible",
+    "gather",
+    "reckon",
+    "suppose",
     "ponder",
     "contemplate",
-    "deliberate",
+    "deliberate"
+   ],
+   "lecture": [
+    {
+     "kind": "title",
+     "hook": "Cùng dịch là suy nghĩ, cân nhắc, hiểu, vậy sao không thay bừa cho nhau được?",
+     "lines": [
+      {
+       "say": "Cùng dịch là suy nghĩ, cân nhắc, hiểu. Vậy tại sao không thể thay bừa từ này bằng từ kia?",
+       "show": "hook"
+      },
+      {
+       "say": "Vì mỗi từ sống trong một ngữ cảnh riêng. Buổi này mình học cách soi ngữ cảnh, giống như mở từ điển Anh Anh và xem những câu ví dụ mẫu."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "grasp",
+     "lines": [
+      {
+       "say": "Mở đầu với từ dễ: bạn mất một lúc lâu mới hiểu luật chơi của trò chơi. Hiểu thấu, nắm được. Đó là grasp. Neo vào understand."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "plausible",
+     "lines": [
+      {
+       "say": "Plausible là nghe có lý. Hãy neo vào reasonable. A plausible explanation, chính là a reasonable explanation. Lời giải thích nghe có lý."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "gather",
+     "lines": [
+      {
+       "say": "Gather ngoài nghĩa tụ họp, còn một nghĩa rất hay: nghe được thông tin từ ai đó. I gather from your tutor, nghĩa là: tôi nghe thầy hướng dẫn của bạn nói rằng."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "picture_cards",
+     "eyebrow": "Độ trang trọng",
+     "title": "gather hay perceive",
+     "data": {
+      "rows": [
+       {
+        "key": "g1",
+        "icon": "ear",
+        "head": "gather · nghe được",
+        "en": "I gather from your tutor that you are changing course.",
+        "vi": "Đời thường: nghe từ người khác."
+       },
+       {
+        "key": "g2",
+        "icon": "eye",
+        "head": "perceive · nhận ra",
+        "en": "Scientists perceive a pattern in the data.",
+        "vi": "Rất trang trọng, hợp văn học thuật."
+       }
+      ],
+      "rule": "Chuyện đời thường thì gather. Perceive quá trang trọng cho chuyện đổi khóa học."
+     },
+     "lines": [
+      {
+       "say": "Có thể thay gather bằng perceive không? Không. Gather là cách nói đời thường.",
+       "show": "g1"
+      },
+      {
+       "en": "I gather from your tutor that you are changing course.",
+       "vi": "Tôi nghe giáo viên nói bạn định đổi khóa học.",
+       "gap": true
+      },
+      {
+       "say": "Perceive là nhận ra, lĩnh hội. Quá trang trọng, hợp với văn học thuật chứ không hợp chuyện đổi môn học.",
+       "show": "g2"
+      },
+      {
+       "en": "Scientists perceive a pattern in the data.",
+       "vi": "Các nhà khoa học nhận ra một quy luật trong dữ liệu.",
+       "gap": true
+      },
+      {
+       "say": "Chọn từ phải hợp cả nghĩa lẫn độ trang trọng.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "reckon",
+     "lines": [
+      {
+       "say": "Reckon và suppose đều là nghĩ rằng, đoán rằng. Hai từ này thay được cho nhau. Reckon nghe thân mật hơn."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "suppose",
+     "lines": [
+      {
+       "say": "Suppose cũng vậy. Một mẫu rất hay dùng để nhờ vả lịch sự: I don't suppose, rồi câu hỏi."
+      },
+      {
+       "en": "I don't suppose I could borrow your notes, could I?",
+       "vi": "Chắc tôi không mượn được vở ghi của bạn nhỉ?",
+       "gap": true
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "ponder",
+     "lines": [
+      {
+       "say": "Bây giờ đến ba từ dễ dùng sai nhất. Từ thứ nhất: ponder. Bạn ngồi bên biển và tự hỏi vì sao vũ trụ lại tồn tại. Đó là suy ngẫm lâu, câu hỏi lớn. Neo vào think about."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "contemplate",
+     "lines": [
+      {
+       "say": "Từ thứ hai: contemplate. Bạn đang cân nhắc nghiêm túc việc xin tăng lương. Quyết định thực tế, có thể xảy ra. Neo vào consider."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "deliberate",
+     "lines": [
+      {
+       "say": "Từ thứ ba: deliberate. Mở từ điển ra, bạn sẽ thấy gần như mọi câu ví dụ đều nói về bồi thẩm đoàn hoặc ủy ban đang bàn bạc để ra phán quyết. Bối cảnh rất hẹp."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "picture_cards",
+     "eyebrow": "Ba bậc cân nhắc",
+     "title": "contemplate, ponder, deliberate",
+     "data": {
+      "rows": [
+       {
+        "key": "w1",
+        "icon": "scales",
+        "head": "contemplate · cân nhắc",
+        "en": "I am seriously contemplating asking for a pay rise.",
+        "vi": "Một quyết định thực tế. Hợp với consider."
+       },
+       {
+        "key": "w2",
+        "icon": "ripples",
+        "head": "ponder · suy ngẫm",
+        "en": "She sat by the sea and pondered why the universe exists.",
+        "vi": "Câu hỏi lớn, sâu, triết lý."
+       },
+       {
+        "key": "w3",
+        "icon": "gavel",
+        "head": "deliberate · nghị án",
+        "en": "The jury are still deliberating.",
+        "vi": "Bối cảnh hẹp: bồi thẩm đoàn, hội đồng."
+       }
+      ],
+      "rule": "Không chắc 100% về ngữ cảnh thì đừng dùng. Chọn từ an toàn: think carefully, contemplate, ponder."
+     },
+     "lines": [
+      {
+       "say": "Xếp ba từ lên một hàng. Contemplate: cân nhắc một quyết định thực tế.",
+       "show": "w1"
+      },
+      {
+       "en": "I am seriously contemplating asking for a pay rise.",
+       "vi": "Tôi đang nghiêm túc cân nhắc xin tăng lương.",
+       "gap": true
+      },
+      {
+       "say": "Ponder: suy ngẫm một câu hỏi lớn, sâu, mang tính triết lý.",
+       "show": "w2"
+      },
+      {
+       "en": "She sat by the sea and pondered why the universe exists.",
+       "vi": "Cô ngồi bên biển và suy ngẫm vì sao vũ trụ tồn tại.",
+       "gap": true
+      },
+      {
+       "say": "Deliberate: nghị án, bàn bạc để đưa ra phán quyết.",
+       "show": "w3"
+      },
+      {
+       "en": "The jury are still deliberating.",
+       "vi": "Bồi thẩm đoàn vẫn đang nghị án.",
+       "gap": true
+      },
+      {
+       "say": "Và đây là lời khuyên quan trọng. Đi thi, nếu bạn không chắc chắn hoàn toàn từ đó dùng được trong câu của mình, thì đừng dùng. Hãy chọn từ an toàn hơn: think carefully, contemplate hoặc ponder.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "fix_pairs",
+     "eyebrow": "Lỗi thường gặp",
+     "title": "Hai lỗi, hai cách sửa",
+     "data": {
+      "rows": [
+       {
+        "key": "e1",
+        "wrong": "I grasp from your tutor that you are leaving.",
+        "right": "I gather from your tutor that you are leaving.",
+        "why": "grasp là hiểu. Nghe được thông tin thì dùng gather."
+       },
+       {
+        "key": "e2",
+        "wrong": "I am pondering asking for a pay rise tomorrow.",
+        "right": "I am contemplating asking for a pay rise tomorrow.",
+        "why": "ponder dành cho câu hỏi lớn, sâu. Quyết định thực tế dùng contemplate."
+       }
+      ],
+      "rule": "Nghe được thông tin: gather. Quyết định thực tế: contemplate."
+     },
+     "lines": [
+      {
+       "say": "Hai lỗi hay gặp. Lỗi thứ nhất: nhầm grasp với gather.",
+       "show": "e1"
+      },
+      {
+       "en": "I gather from your tutor that you are leaving.",
+       "vi": "Tôi nghe giáo viên nói bạn sắp đi.",
+       "gap": true
+      },
+      {
+       "say": "Lỗi thứ hai: dùng ponder cho một chuyện đời thường.",
+       "show": "e2"
+      },
+      {
+       "en": "I am contemplating asking for a pay rise tomorrow.",
+       "vi": "Ngày mai tôi đang cân nhắc xin tăng lương.",
+       "gap": true
+      },
+      {
+       "say": "Nghe được thông tin: gather. Quyết định thực tế: contemplate.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "recap",
+     "lines": [
+      {
+       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "show": "title"
+      }
+     ]
+    },
+    {
+     "kind": "end",
+     "next": "Tiếp theo: danh từ về suy nghĩ, từ thế khó đến nghịch lý.",
+     "lines": [
+      {
+       "say": "Hết buổi hai. Buổi ba là nhóm danh từ: thế khó, linh cảm, nghịch lý.",
+       "show": "title"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title_vi": "Buổi 3 · danh từ tư duy: thế khó, linh cảm, nghịch lý",
+   "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: notion, query, dilemma, hunch, intuition, guesswork, ...",
+   "use_vi": "Từ của Unit này là lõi của Reading và Listening về giáo dục và tâm lý; kết hợp từ chính xác tăng điểm Lexical Resource khi nói và viết.",
+   "vocab": [
+    "notion",
+    "query",
+    "dilemma",
     "hunch",
-    "paradox",
-    "figure out",
-    "come up with",
+    "intuition",
+    "guesswork",
+    "genius",
+    "faith",
+    "paradox"
+   ],
+   "lecture": [
+    {
+     "kind": "title",
+     "hook": "Một tối thứ Bảy có hai lời mời dự tiệc trùng giờ. Chọn bên nào?",
+     "lines": [
+      {
+       "say": "Một tối thứ Bảy, bạn nhận được hai lời mời dự tiệc, cùng giờ, bạn thân ở cả hai nơi. Chọn bên nào? Cảm giác bí ấy có một cái tên trong tiếng Anh.",
+       "show": "hook"
+      },
+      {
+       "say": "Buổi này là nhóm danh từ về suy nghĩ. Câu tiếng Anh đứng được nhờ danh từ làm chủ ngữ, nên nhóm này cũng quan trọng không kém động từ."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "dilemma",
+     "lines": [
+      {
+       "say": "Đó là dilemma: thế khó, phải chọn giữa hai điều đều khó xử. Neo vào difficult situation."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "notion",
+     "lines": [
+      {
+       "say": "Notion neo vào idea: một ý tưởng, một quan niệm."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "query",
+     "lines": [
+      {
+       "say": "Query neo vào question, nhưng trang trọng hơn. Bạn có một thắc mắc nhỏ về đề cương thi, và muốn hỏi cô giáo."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "picture_cards",
+     "eyebrow": "Ba từ, ba từ quen",
+     "title": "notion, query, dilemma",
+     "data": {
+      "rows": [
+       {
+        "key": "i1",
+        "icon": "bulb",
+        "head": "notion = idea",
+        "en": "Paying mothers a salary is an interesting notion.",
+        "vi": "Quan niệm, ý tưởng."
+       },
+       {
+        "key": "i2",
+        "icon": "qmark",
+        "head": "query = question",
+        "en": "I have a small query about the syllabus.",
+        "vi": "Thắc mắc, trang trọng hơn question."
+       },
+       {
+        "key": "i3",
+        "icon": "crossroads",
+        "head": "dilemma = difficult situation",
+        "en": "I am in a real dilemma.",
+        "vi": "Thế khó: hai lựa chọn đều khó."
+       }
+      ],
+      "rule": "Notion là idea. Query là question. Dilemma là difficult situation."
+     },
+     "lines": [
+      {
+       "say": "Ba từ này đều neo vào từ quen. Notion là idea.",
+       "show": "i1"
+      },
+      {
+       "en": "Paying mothers a salary is an interesting notion.",
+       "vi": "Trả lương cho các bà mẹ là một ý tưởng thú vị.",
+       "gap": true
+      },
+      {
+       "say": "Query là question.",
+       "show": "i2"
+      },
+      {
+       "en": "I have a small query about the syllabus.",
+       "vi": "Tôi có một thắc mắc nhỏ về đề cương.",
+       "gap": true
+      },
+      {
+       "say": "Dilemma là difficult situation.",
+       "show": "i3"
+      },
+      {
+       "en": "I am in a real dilemma.",
+       "vi": "Tôi đang ở thế khó thật sự.",
+       "gap": true
+      },
+      {
+       "say": "Nhớ cặp từ quen và từ mới.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "hunch",
+     "lines": [
+      {
+       "say": "Giờ đến ba cách biết một điều khi chưa có bằng chứng. Thứ nhất, hunch: một linh cảm bất chợt, kiểu bạn đoán văn phòng sắp có người được thăng chức."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "intuition",
+     "lines": [
+      {
+       "say": "Thứ hai, intuition: trực giác. Thám tử không có bằng chứng nào, nhưng trực giác mách bảo ông ta rằng nghi phạm có liên quan."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "guesswork",
+     "lines": [
+      {
+       "say": "Thứ ba, guesswork: sự phỏng đoán. Có một cụm rất hay: educated guesswork, đoán có cơ sở, dựa trên kiến thức và kinh nghiệm. Giải ô chữ khó thường cần một chút như vậy. Đừng thay bằng educated intuition, nghe sẽ ngô nghê."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "picture_cards",
+     "eyebrow": "Biết mà chưa có bằng chứng",
+     "title": "hunch, intuition, guesswork",
+     "data": {
+      "rows": [
+       {
+        "key": "h1",
+        "icon": "bolt",
+        "head": "hunch · linh cảm",
+        "en": "I have a hunch that someone will be promoted.",
+        "vi": "Một cảm giác chợt đến."
+       },
+       {
+        "key": "h2",
+        "icon": "eye",
+        "head": "intuition · trực giác",
+        "en": "Her intuition told her something was wrong.",
+        "vi": "Cảm nhận sâu, không cần bằng chứng."
+       },
+       {
+        "key": "h3",
+        "icon": "dice",
+        "head": "guesswork · phỏng đoán",
+        "en": "It is educated guesswork, not a fact.",
+        "vi": "Đoán, và educated nghĩa là có cơ sở."
+       }
+      ],
+      "rule": "Linh cảm: hunch. Trực giác: intuition. Phỏng đoán có cơ sở: educated guesswork."
+     },
+     "lines": [
+      {
+       "say": "Hunch là cảm giác chợt đến.",
+       "show": "h1"
+      },
+      {
+       "en": "I have a hunch that someone will be promoted.",
+       "vi": "Tôi có linh cảm sắp có người được thăng chức.",
+       "gap": true
+      },
+      {
+       "say": "Intuition là cảm nhận sâu, không cần bằng chứng.",
+       "show": "h2"
+      },
+      {
+       "en": "Her intuition told her something was wrong.",
+       "vi": "Trực giác mách cô ấy có chuyện không ổn.",
+       "gap": true
+      },
+      {
+       "say": "Guesswork là đoán, và nếu có cơ sở thì gọi là educated guesswork.",
+       "show": "h3"
+      },
+      {
+       "en": "It is educated guesswork, not a fact.",
+       "vi": "Đó là phỏng đoán có cơ sở, không phải sự thật.",
+       "gap": true
+      },
+      {
+       "say": "Ba cách biết khi chưa có bằng chứng.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "genius",
+     "lines": [
+      {
+       "say": "Genius là thiên tài. Một người có thể là thiên tài về thiên văn, mà vẫn ngớ ngẩn trong những việc đời thường."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "faith",
+     "lines": [
+      {
+       "say": "Faith là niềm tin tuyệt đối vào ai đó. Và đây là chỗ phải rất cẩn thận về âm cuối."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "picture_cards",
+     "eyebrow": "Âm cuối đổi nghĩa",
+     "title": "faith và fate",
+     "data": {
+      "rows": [
+       {
+        "key": "f1",
+        "icon": "heart",
+        "head": "faith · niềm tin",
+        "en": "I have complete faith in my teacher.",
+        "vi": "Kết thúc bằng âm th: đặt đầu lưỡi giữa hai hàm răng, thổi hơi."
+       },
+       {
+        "key": "f2",
+        "icon": "star",
+        "head": "fate · số phận",
+        "en": "It was fate that we met.",
+        "vi": "Kết thúc bằng âm t: đọc nhầm thì thành số phận."
+       }
+      ],
+      "rule": "Âm cuối của danh từ thuộc về bản chất của từ. Đọc sai là thành từ khác."
+     },
+     "lines": [
+      {
+       "say": "Faith kết thúc bằng âm th. Đặt đầu lưỡi giữa hai hàm răng rồi thổi hơi.",
+       "show": "f1"
+      },
+      {
+       "en": "faith",
+       "vi": "niềm tin",
+       "gap": true
+      },
+      {
+       "say": "Nếu bạn nuốt âm cuối, hoặc đọc thành t, người nghe sẽ hiểu thành fate, nghĩa là số phận.",
+       "show": "f2"
+      },
+      {
+       "en": "fate",
+       "vi": "số phận",
+       "gap": true
+      },
+      {
+       "say": "Những âm cuối ngữ pháp, như đuôi ed, nói nhanh đôi khi còn bỏ qua được. Nhưng âm cuối thuộc về chính từ, thì không được bỏ.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "paradox",
+     "lines": [
+      {
+       "say": "Từ cuối cùng và là từ nhiều người hiểu sai: paradox, nghịch lý. Nhiều bạn nghĩ nghịch lý là điều trái với thực tế. Không phải. Nghịch lý là một điều mà ngay bên trong nó đã có hai vế tự mâu thuẫn."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "picture_cards",
+     "eyebrow": "Nghịch lý đời thường",
+     "title": "Hai nghịch lý quen thuộc",
+     "data": {
+      "rows": [
+       {
+        "key": "p1",
+        "icon": "book",
+        "head": "Học thêm",
+        "en": "The more extra classes I took, the worse my marks became.",
+        "vi": "Đi học thêm càng nhiều, càng dốt."
+       },
+       {
+        "key": "p2",
+        "icon": "roadmap",
+        "head": "Giao thông Hà Nội",
+        "en": "The wider the road, the worse the traffic.",
+        "vi": "Đường càng mở rộng, càng tắc."
+       }
+      ],
+      "rule": "Hai vế tự mâu thuẫn ngay trong một sự việc: đó là paradox."
+     },
+     "lines": [
+      {
+       "say": "Ví dụ thứ nhất. Thời cấp hai, có bạn đi học thêm càng nhiều thì lại càng học dốt, vì ỷ lại vào lớp thêm, lên lớp chính thì ngồi chơi.",
+       "show": "p1"
+      },
+      {
+       "en": "The more extra classes I took, the worse my marks became.",
+       "vi": "Học thêm càng nhiều, điểm tôi càng tệ.",
+       "gap": true
+      },
+      {
+       "say": "Ví dụ thứ hai, ở Hà Nội. Đáng lẽ mở rộng đường thì thông thoáng hơn. Nhưng nhiều khi đường càng rộng thì lại càng tắc.",
+       "show": "p2"
+      },
+      {
+       "en": "The wider the road, the worse the traffic.",
+       "vi": "Đường càng rộng, giao thông càng tệ.",
+       "gap": true
+      },
+      {
+       "say": "Hai vế đối nghịch nằm ngay trong cùng một sự việc. Đó là paradox.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "recap",
+     "lines": [
+      {
+       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "show": "title"
+      }
+     ]
+    },
+    {
+     "kind": "end",
+     "next": "Tiếp theo: nhóm từ giáo dục, học trọn không chọn lọc.",
+     "lines": [
+      {
+       "say": "Hết buổi ba. Buổi bốn là từ giáo dục. Riêng nhóm này, bạn nên học hết.",
+       "show": "title"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title_vi": "Buổi 4 · từ giáo dục: học hết, không chọn lọc",
+   "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: special needs, conscientious, cram, mock exam, knowledgeable, curriculum, ...",
+   "use_vi": "Từ của Unit này là lõi của Reading và Listening về giáo dục và tâm lý; kết hợp từ chính xác tăng điểm Lexical Resource khi nói và viết.",
+   "vocab": [
+    "special needs",
+    "conscientious",
+    "cram",
+    "mock exam",
+    "knowledgeable",
+    "curriculum",
+    "give lessons in",
+    "tuition",
+    "seminar",
+    "tutorial",
+    "plagiarise",
+    "self-study",
+    "graduate"
+   ],
+   "lecture": [
+    {
+     "kind": "title",
+     "hook": "Giáo dục là chủ đề xuất hiện dày đặc nhất trong IELTS. Vậy nên học từ nào?",
+     "lines": [
+      {
+       "say": "Giáo dục là một trong hai chủ đề xuất hiện nhiều nhất ở Writing Task 2 và Speaking Part 3. Vậy nên học từ nào, bỏ từ nào?",
+       "show": "hook"
+      },
+      {
+       "say": "Với các nhóm khác, bạn được chọn lọc. Nhưng riêng nhóm này, cứ học hết, vì từ nào ở đây cũng cần. Và có một điều đáng để ý: nhiều câu có cả bốn đáp án đúng ngữ pháp, mà vẫn chỉ một đáp án nghe tự nhiên. Đó là chuyện của kết hợp từ."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "special needs",
+     "lines": [
+      {
+       "say": "Hệ thống giáo dục gọi học sinh yếu cần hỗ trợ thêm là học sinh có special needs. Cụm cố định."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "conscientious",
+     "lines": [
+      {
+       "say": "Học sinh giỏi nhất, tận tâm nhất, mà vẫn không được khuyến khích phát triển. Tận tâm là conscientious. Neo vào hard-working. Từ này khá dài, nên đọc chậm theo từng khúc, rồi nhanh dần."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "cram",
+     "lines": [
+      {
+       "say": "Con gái của tác giả lá thư học nhồi suốt một tháng cho kỳ thi. Học nhồi nhét là cram."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "mock exam",
+     "lines": [
+      {
+       "say": "Mà đó chỉ là kỳ thi thử, không phải thi thật. Thi thử là mock exam. Lưu ý, mock còn có nghĩa chế giễu, nhưng đứng trước exam thì là thi thử."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "knowledgeable",
+     "lines": [
+      {
+       "say": "Ôn xong liệu cô bé có hiểu biết hơn về môn học không? Hiểu biết nhiều về một lĩnh vực là knowledgeable."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "fix_pairs",
+     "eyebrow": "Vì sao câu đúng ngữ pháp vẫn bị trừ điểm",
+     "title": "Loại trừ để chọn từ tự nhiên",
+     "data": {
+      "rows": [
+       {
+        "key": "e1",
+        "wrong": "students with special wants",
+        "right": "students with special needs",
+        "why": "Cụm cố định. Dùng từ khác, câu đúng ngữ pháp mà vẫn ngô nghê."
+       },
+       {
+        "key": "e2",
+        "wrong": "make her more academic about her subjects",
+        "right": "make her more knowledgeable about her subjects",
+        "why": "Ôn một môn chỉ giúp biết nhiều hơn về môn đó."
+       },
+       {
+        "key": "e3",
+        "wrong": "give students any subject in social skills",
+        "right": "give students any lesson in social skills",
+        "why": "Sau give, dùng lesson."
+       }
+      ],
+      "rule": "Đúng ngữ pháp chưa đủ. Kết hợp từ sai khiến câu ngô nghê và bị trừ điểm từ vựng."
+     },
+     "lines": [
+      {
+       "say": "Hãy học cách loại trừ như thế này. Vì sao không nói special wants? Vì cụm cố định là special needs.",
+       "show": "e1"
+      },
+      {
+       "en": "students with special needs",
+       "vi": "học sinh có nhu cầu giáo dục đặc biệt",
+       "gap": true
+      },
+      {
+       "say": "Vì sao không nói academic? Vì ôn một môn chỉ giúp cô bé biết nhiều hơn về môn đó. Chưa thể thành người mang tính học thuật.",
+       "show": "e2"
+      },
+      {
+       "en": "more knowledgeable about her subjects",
+       "vi": "hiểu biết nhiều hơn về các môn học",
+       "gap": true
+      },
+      {
+       "say": "Và vì sao không nói give subject? Vì sau động từ give, ta dùng lesson.",
+       "show": "e3"
+      },
+      {
+       "en": "give students any lesson in social skills",
+       "vi": "dạy cho học sinh bài học về kỹ năng xã hội",
+       "gap": true
+      },
+      {
+       "say": "Đúng ngữ pháp chưa đủ. Phải đúng kết hợp từ.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "curriculum",
+     "lines": [
+      {
+       "say": "Chương trình học là curriculum. Số nhiều của nó bất quy tắc: curricula, đuôi um đổi thành a. Nhấn âm thứ hai."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "give lessons in",
+     "lines": [
+      {
+       "say": "Và đây là cụm vừa thấy: chương trình chuẩn không dạy học sinh bài học nào về kỹ năng sống. Give lessons in."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "tuition",
+     "lines": [
+      {
+       "say": "Giờ đến ba cái tên dễ lẫn ở đại học phương Tây. Trước hết tuition: tiền học phí, hoặc việc được dạy kèm."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "seminar",
+     "lines": [
+      {
+       "say": "Seminar là buổi thảo luận chuyên đề. Giảng viên chỉ dẫn dắt ngắn. Học viên phải đọc tài liệu trước ở nhà rồi lên lớp phân tích, tranh luận."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "tutorial",
+     "lines": [
+      {
+       "say": "Tutorial là buổi hướng dẫn nhóm nhỏ, thường để cùng giải bài tập khó, nhất là các môn Toán, Lý, Hóa, Sinh."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "picture_cards",
+     "eyebrow": "Các kiểu buổi học",
+     "title": "lecture, seminar, tutorial, tuition",
+     "data": {
+      "rows": [
+       {
+        "key": "u1",
+        "icon": "speaker",
+        "head": "lecture · bài giảng",
+        "en": "The lecture is in the big hall.",
+        "vi": "Giảng lý thuyết trên giảng đường lớn."
+       },
+       {
+        "key": "u2",
+        "icon": "discuss",
+        "head": "seminar · thảo luận",
+        "en": "Read the article before the seminar.",
+        "vi": "Đọc trước ở nhà, lên lớp tranh luận."
+       },
+       {
+        "key": "u3",
+        "icon": "pencil_sheet",
+        "head": "tutorial · hướng dẫn",
+        "en": "We work through the problems in the tutorial.",
+        "vi": "Nhóm nhỏ, cùng giải bài tập."
+       },
+       {
+        "key": "u4",
+        "icon": "coin",
+        "head": "tuition · học phí",
+        "en": "Tuition is paid every term.",
+        "vi": "Tiền học phí."
+       }
+      ],
+      "rule": "Lecture: nghe giảng. Seminar: thảo luận. Tutorial: giải bài tập. Tuition: học phí."
+     },
+     "lines": [
+      {
+       "say": "Xếp lại cho gọn. Lecture là bài giảng lý thuyết trên giảng đường lớn.",
+       "show": "u1"
+      },
+      {
+       "en": "The lecture is in the big hall.",
+       "vi": "Bài giảng ở giảng đường lớn.",
+       "gap": true
+      },
+      {
+       "say": "Seminar: đọc trước, lên lớp thảo luận.",
+       "show": "u2"
+      },
+      {
+       "en": "Read the article before the seminar.",
+       "vi": "Hãy đọc bài báo trước buổi seminar.",
+       "gap": true
+      },
+      {
+       "say": "Tutorial: nhóm nhỏ, cùng giải bài tập.",
+       "show": "u3"
+      },
+      {
+       "en": "We work through the problems in the tutorial.",
+       "vi": "Chúng tôi cùng giải các bài trong buổi tutorial.",
+       "gap": true
+      },
+      {
+       "say": "Tuition là tiền học phí.",
+       "show": "u4"
+      },
+      {
+       "en": "Tuition is paid every term.",
+       "vi": "Học phí được đóng mỗi học kỳ.",
+       "gap": true
+      },
+      {
+       "say": "Bốn thứ khác nhau, đừng lẫn.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "plagiarise",
+     "lines": [
+      {
+       "say": "Plagiarise là đạo văn. Và nó không chỉ là chép chữ. Chuyện đạo nhái tranh vẽ trên mạng xã hội cho thấy lấy cắp ý tưởng và hình ảnh cũng là đạo nhái. Danh từ là plagiarism."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "self-study",
+     "lines": [
+      {
+       "say": "Self-study là tự học. Ở đại học không ai bảo bạn phải làm gì, nên đây là kỹ năng sống còn."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "graduate",
+     "lines": [
+      {
+       "say": "Từ cuối cùng: graduate, tốt nghiệp. Chú ý âm cuối theo từ loại. Động từ graduate, đuôi kéo dài như trong chữ eight. Còn danh từ graduate, nghĩa là cử nhân, đuôi đọc ngắn và nhẹ."
+      }
+     ]
+    },
+    {
+     "kind": "recap",
+     "lines": [
+      {
+       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "show": "title"
+      }
+     ]
+    },
+    {
+     "kind": "end",
+     "next": "Tiếp theo: học các cụm cố định, làm bài tập, rồi chọn 5 đến 10 từ yêu thích.",
+     "lines": [
+      {
+       "say": "Hết phần giảng của ngày bảy. Bây giờ bạn làm bài tập trong app. Cuối cùng hãy chọn năm đến mười từ bạn thích nhất trong cả unit, và gõ một hai câu của riêng bạn. Từ nào gắn với chuyện của chính bạn thì nhớ rất lâu.",
+       "show": "title"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title_vi": "Làm quen C1 · neo vào từ B2 · Cụm cố định; cụm động từ chỉ cần nhận ra",
+   "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: take into consideration, strike a balance, cross your mind, figure out, come up with, ...",
+   "use_vi": "Từ của Unit này là lõi của Reading và Listening về giáo dục và tâm lý; kết hợp từ chính xác tăng điểm Lexical Resource khi nói và viết.",
+   "vocab": [
     "take into consideration",
     "strike a balance",
-    "cross your mind"
+    "cross your mind",
+    "figure out",
+    "come up with"
    ]
   },
   {
