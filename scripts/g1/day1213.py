@@ -45,7 +45,7 @@ METHOD = ("Sáu bước đọc từng đoạn (làm cho đoạn 1 đến 3 ở p
 
 DAYS = {}
 DAYS[12] = {
-    "title": "The growth mindset: Cambridge IELTS 18, Test 4, Passage 2", "title_vi": "Đọc chậm: The growth mindset (Cambridge 18)",
+    "title": "The growth mindset", "slug_title": "The growth mindset: Cambridge IELTS 18, Test 4, Passage 2", "title_vi": "Đọc chậm: The growth mindset",
     "goal": "Đọc chậm một bài về niềm tin vào khả năng học và phát triển, dùng sáu bước tóm tắt từng đoạn, rồi làm 13 câu (chọn đáp án, ghép người với nhận định, đồng ý hay không) và nói rõ đáp án nằm ở đâu.",
     "ielts": "Bài đọc nối hai chủ đề của tuần: Thinking (suy nghĩ, niềm tin) và Learning (học tập). Từ mới của tuần xuất hiện lại ngay trong bài và trong câu hỏi, nên bạn gặp chúng trong ngữ cảnh thật của đề thi.",
     "source": "Cambridge IELTS 18, Test 4, Passage 2; từ vựng theo giáo án của khóa học", "family": "Tư duy và học tập",
@@ -120,7 +120,7 @@ DAYS[12] = {
 }
 
 DAYS[13] = {
-    "title": "Origami as an educational tool: Cambridge IELTS 18, Test 4, Listening Part 3", "title_vi": "Nghe kỹ: origami trong lớp học (Cambridge 18)",
+    "title": "Origami in the classroom", "slug_title": "Origami as an educational tool: Cambridge IELTS 18, Test 4, Listening Part 3", "title_vi": "Nghe kỹ: origami trong lớp học",
     "goal": "Nghe kỹ một cuộc thảo luận của hai sinh viên sư phạm (Part 3): nghe được ý kiến của từng người, phân biệt điều thấy trên video với điều suy đoán, và chọn đúng đáp án khi các lựa chọn đều được nhắc tới.",
     "ielts": "Part 3 có hai người nói và nhiều lựa chọn gần nghĩa nhau. Quy tắc: đọc trước câu hỏi, nghe ai đang nói và nghe đến lúc chốt ý, vì người nói thường đổi ý giữa chừng.",
     "source": "Cambridge IELTS 18, Test 4, Listening Part 3; từ vựng theo giáo án của khóa học", "family": "Lớp học",
