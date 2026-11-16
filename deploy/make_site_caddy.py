@@ -29,11 +29,12 @@ def csp(html: str) -> str:
     return "; ".join(
         [
             "default-src 'self'",
-            "script-src 'self' " + " ".join(inline_script_hashes(html)),
+            # youtube.com: the pronunciation course loads YouTube's iframe API (components/pron/YouTubePlayer)
+            "script-src 'self' https://www.youtube.com " + " ".join(inline_script_hashes(html)),
             # <style> tags are added at run time by the toast and chart components
             "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
             "font-src 'self' data: https://fonts.gstatic.com",
-            "img-src 'self' data: blob:",
+            "img-src 'self' data: blob: https://i.ytimg.com",
             # long recordings are played straight from the private bucket through a signed link
             "media-src 'self' blob: https://storage.googleapis.com",
             "connect-src 'self'",
