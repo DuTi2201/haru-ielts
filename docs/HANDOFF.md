@@ -372,7 +372,7 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
 - Đăng nhập có giới hạn (Redis): 5 lần sai mỗi tài khoản, 20 mỗi địa chỉ trong 15 phút (`ratelimit.login_check/login_failed`). Redis lỗi thì từ chối đăng nhập (503).
 - Chỉ access token gọi được API (`security.decode_access_token`). Refresh token có `jti`, dùng một lần (`ratelimit.refresh_token_unused`); token cũ không có `jti` bị từ chối, nên mọi phiên cũ phải đăng nhập lại một lần.
 - Refresh token nằm trong cookie HttpOnly `haru_rt` (SameSite=Strict, Path=/api/v1/auth); ở production không trả trong body. Thêm `POST /auth/logout`. Frontend giữ access token trong bộ nhớ, localStorage chỉ còn cờ `haru.session`.
-- JWT dùng PyJWT (bỏ python-jose); nâng python-multipart 0.0.31, Pillow 12.3.0; thêm `cryptography` (trước đi kèm jose, google-auth cần).
+- JWT dùng PyJWT (bỏ python-jose); nâng python-multipart 0.0.31 (Pillow giữ 11.3.0 vì google-genai 0.3.0 yêu cầu pillow<12); thêm `cryptography` (trước đi kèm jose, google-auth cần).
 - Production tắt `/docs` và `/openapi.json`; `CORS_ORIGIN_REGEX` mặc định rỗng.
 - Triển khai site: LUÔN dùng `sh deploy/site-deploy.sh <thư mục build>` trên VM. Script sinh khối Caddy của site (`deploy/make_site_caddy.py`) với CSP liệt kê hash các script inline của bản build đó; chép site bằng tay mà không chạy script thì trang trắng. Khối site nằm ở `/opt/haru/mcp/caddy/ielts.caddy`, được `import` từ Caddyfile chính của máy chủ.
 - Test: `tests/test_auth_hardening.py` (không cần DB).
