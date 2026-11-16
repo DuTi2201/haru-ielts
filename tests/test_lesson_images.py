@@ -328,7 +328,7 @@ class LessonEndpointTests(unittest.IsolatedAsyncioTestCase):
         with mock.patch.object(lesson_image.settings, "LESSON_IMAGE_GEN_ENABLED", True), mock.patch.object(
             lesson_image.settings, "GEMINI_MODEL_IMAGE", "m"
         ):
-            out = await content.get_lesson_practice(7, SimpleNamespace(headers={}), db)
+            out = await content.get_lesson_practice(7, SimpleNamespace(headers={}), db, SimpleNamespace(id="p", role="learner"))
         self.assertEqual(list(out.scene_images), [prompt])
         self.assertTrue(out.scene_images[prompt].startswith("/api/v1/lessons/scene-image/"))
 

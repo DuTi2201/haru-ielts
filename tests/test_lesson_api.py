@@ -82,7 +82,7 @@ class PracticeEndpointTests(unittest.IsolatedAsyncioTestCase):
         no_pictures.all.return_value = []
         db.execute = mock.AsyncMock(return_value=no_pictures)
         response = SimpleNamespace(headers={})
-        out = await content.get_lesson_practice(7, response, db)
+        out = await content.get_lesson_practice(7, response, db, SimpleNamespace(id="p", role="learner"))
         self.assertEqual(len(out.items), len(LESSON.seed.exercise_ids))
         self.assertIn("answer", out.items[0]["questions"][0])
         self.assertIn("listening", out.guides)
@@ -93,7 +93,7 @@ class PracticeEndpointTests(unittest.IsolatedAsyncioTestCase):
         db = mock.MagicMock()
         db.get = mock.AsyncMock(return_value=SimpleNamespace(id=1, practice=None))
         with self.assertRaises(HTTPException) as caught:
-            await content.get_lesson_practice(1, SimpleNamespace(headers={}), db)
+            await content.get_lesson_practice(1, SimpleNamespace(headers={}), db, SimpleNamespace(id="p", role="learner"))
         self.assertEqual(caught.exception.status_code, 404)
 
 
@@ -331,7 +331,7 @@ class LinkedGrammarTests(unittest.IsolatedAsyncioTestCase):
 
         db.execute = mock.AsyncMock(side_effect=execute)
         with mock.patch.object(content.lesson_image_db, "visible_urls", mock.AsyncMock(return_value={})):
-            out = await content.get_lesson_practice(7, SimpleNamespace(headers={}), db)
+            out = await content.get_lesson_practice(7, SimpleNamespace(headers={}), db, SimpleNamespace(id="p", role="learner"))
         card = out.grammar["Present simple: S + V(s/es)"]
         self.assertEqual((card["lesson_id"], card["tier"], card["use_level"]), (66, "core", "produce"))
         self.assertNotIn("lesson_order", card)
@@ -433,7 +433,7 @@ class ExerciseAudioRequestTests(unittest.IsolatedAsyncioTestCase):
         with mock.patch.object(tts, "chirp_enabled", return_value=True), mock.patch.object(
             audio.generate_exercise_audio, "delay"
         ) as delay:
-            out = await audio.request_exercise_audio(7, exercise_id, SimpleNamespace(headers={}), self.db(lesson, **kw))
+            out = await audio.request_exercise_audio(7, exercise_id, SimpleNamespace(headers={}), self.db(lesson, **kw), SimpleNamespace(id="p", role="learner"))
         return out, delay
 
     async def test_a_listening_exercise_is_recorded_with_its_turns(self):
