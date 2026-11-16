@@ -268,7 +268,7 @@ class TokenTests(SecurityCase):
         await self.post(f"/admin/learners/{learner.id}/reset-password", admin)
         # a token made after the reset is fine; one made before it (here: signed by hand with no `ts`) is not
         self.assertEqual((await self.get("/me/entitlements", learner)).status_code, 200)
-        from jose import jwt
+        import jwt
 
         from app.core.config import settings
 

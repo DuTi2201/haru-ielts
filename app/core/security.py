@@ -5,10 +5,11 @@ Scaffold-level auth: enough to exercise role-gated endpoints
 provider later if needed — nothing else in the app depends on how the
 token was minted, only on the `sub` (profile id) and `role` claims.
 """
+import secrets
 from datetime import datetime, timedelta, timezone
 from typing import Literal
 
-from jose import JWTError, jwt
+import jwt
 from passlib.context import CryptContext
 
 from app.core.config import settings
@@ -36,15 +37,27 @@ def create_access_token(subject: str, role: Role) -> str:
 def create_refresh_token(subject: str, role: Role) -> str:
     now = datetime.now(timezone.utc)
     expire = now + timedelta(days=settings.JWT_REFRESH_TTL_DAYS)
-    payload = {"sub": subject, "role": role, "type": "refresh", "iat": now, "ts": now.timestamp(), "exp": expire}
+    # jti: a refresh token is redeemed once (auth.refresh keeps the ones already used)
+    payload = {"sub": subject, "role": role, "type": "refresh", "iat": now, "ts": now.timestamp(), "exp": expire,
+               "jti": secrets.token_urlsafe(16)}
     return jwt.encode(payload, settings.JWT_SECRET, algorithm=settings.JWT_ALGORITHM)
 
 
 def decode_token(token: str) -> dict:
     try:
-        return jwt.decode(token, settings.JWT_SECRET, algorithms=[settings.JWT_ALGORITHM])
-    except JWTError as exc:
+        return jwt.decode(
+            token, settings.JWT_SECRET, algorithms=[settings.JWT_ALGORITHM], options={"require": ["exp", "sub", "type"]}
+        )
+    except jwt.PyJWTError as exc:
         raise ValueError("invalid_token") from exc
+
+
+def decode_access_token(token: str) -> dict:
+    """A token that may call the API: an ACCESS token. A refresh token is only good at /auth/refresh."""
+    claims = decode_token(token)
+    if claims.get("type") != "access":
+        raise ValueError("invalid_token")
+    return claims
 
 
 def issued_before(claims: dict, cutoff: datetime | None) -> bool:
@@ -65,6 +78,4 @@ TEMP_PASSWORD_ALPHABET = "abcdefghjkmnpqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ2345678
 
 def make_temporary_password(length: int = 12) -> str:
     """A random password an admin can read out or paste: no look-alike characters, ~69 bits."""
-    import secrets
-
     return "".join(secrets.choice(TEMP_PASSWORD_ALPHABET) for _ in range(length))

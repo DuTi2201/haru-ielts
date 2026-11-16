@@ -34,6 +34,10 @@ app = FastAPI(
     version="0.1.0",
     description="Backend for the Haru Korean-learning app (FastAPI + Celery + Redis + Postgres/pgvector).",
     lifespan=lifespan,
+    # the route list (admin routes included) is not published in production
+    docs_url=None if settings.ENVIRONMENT == "production" else "/docs",
+    redoc_url=None,
+    openapi_url=None if settings.ENVIRONMENT == "production" else "/openapi.json",
 )
 
 # CORS: the Lovable frontend is a separate origin; no cookies, Bearer-JWT
@@ -60,7 +64,7 @@ async def unhandled_to_problem_json(request: Request, call_next):
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.cors_origin_list,
-    allow_origin_regex=settings.CORS_ORIGIN_REGEX,
+    allow_origin_regex=settings.CORS_ORIGIN_REGEX or None,
     allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -85,7 +89,7 @@ async def problem_json_handler(request: Request, exc: StarletteHTTPException):
 
 @app.get("/healthz", tags=["ops"])
 async def healthz():
-    return {"status": "ok", "environment": settings.ENVIRONMENT}
+    return {"status": "ok"}
 
 
 app.include_router(api_router)

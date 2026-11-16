@@ -75,3 +75,76 @@ async def spend(request: Request, scope: str, *, per_client: int, overall: int) 
         raise
     except Exception as exc:  # noqa: BLE001 - Redis down: allow
         log.warning("rate limit unavailable (%s): allowing", exc)
+
+
+# ------------------------------------------------------------------ sign-in guard
+LOGIN_WINDOW_SECONDS = 900
+LOGIN_PER_IP = 20
+LOGIN_PER_EMAIL = 5
+
+
+def _login_keys(request: Request, email: str) -> tuple[tuple[str, int], tuple[str, int]]:
+    return (f"rl:login:ip:{client_ip(request)}", LOGIN_PER_IP), (f"rl:login:email:{email.strip().lower()}", LOGIN_PER_EMAIL)
+
+
+def _too_many_logins(ttl: int) -> HTTPException:
+    return HTTPException(
+        status_code=status.HTTP_429_TOO_MANY_REQUESTS,
+        detail={
+            "type": "about:blank",
+            "title": "Thử đăng nhập quá nhiều lần",
+            "status": 429,
+            "code": "login_rate_limited",
+            "detail": "Vui lòng đợi khoảng 15 phút rồi thử lại.",
+        },
+        headers={"Retry-After": str(max(ttl, 1))},
+    )
+
+
+async def login_check(request: Request, email: str) -> None:
+    """Before a password is checked: refuse when this address or this account has already failed
+    too often in the last 15 minutes. Unlike `spend`, this guard fails CLOSED: with Redis down
+    nobody signs in, because an unguarded sign-in is the one door to the whole app."""
+    try:
+        for key, limit in _login_keys(request, email):
+            used = await async_redis.get(key)
+            if used is not None and int(used) >= limit:
+                ttl = await async_redis.ttl(key)
+                log.warning("sign-in refused: %s at its limit", key.split(":")[2])
+                raise _too_many_logins(int(ttl or LOGIN_WINDOW_SECONDS))
+    except HTTPException:
+        raise
+    except Exception as exc:  # noqa: BLE001
+        log.error("sign-in guard unavailable (%s): refusing", exc)
+        raise HTTPException(
+            status_code=status.HTTP_503_SERVICE_UNAVAILABLE,
+            detail={"type": "about:blank", "title": "Tạm thời chưa đăng nhập được", "status": 503, "code": "guard_unavailable"},
+        ) from None
+
+
+async def login_failed(request: Request, email: str) -> None:
+    """Count one wrong password against the address and against the account."""
+    try:
+        for key, _ in _login_keys(request, email):
+            if await async_redis.incr(key) == 1:
+                await async_redis.expire(key, LOGIN_WINDOW_SECONDS)
+    except Exception as exc:  # noqa: BLE001 - the next login_check refuses if Redis is still down
+        log.error("sign-in guard could not count a failure (%s)", exc)
+
+
+async def login_succeeded(request: Request, email: str) -> None:
+    """The right password clears the account's count (the address keeps its own)."""
+    try:
+        await async_redis.delete(f"rl:login:email:{email.strip().lower()}")
+    except Exception:  # noqa: BLE001
+        pass
+
+
+async def refresh_token_unused(jti: str, ttl_seconds: int) -> bool:
+    """True the first time a refresh token's id is seen, False when it was already redeemed.
+    With Redis down the token is accepted (it is still signed, unexpired and tied to the account)."""
+    try:
+        return bool(await async_redis.set(f"rt:used:{jti}", "1", nx=True, ex=max(int(ttl_seconds), 1)))
+    except Exception as exc:  # noqa: BLE001
+        log.warning("refresh-token registry unavailable (%s): accepting", exc)
+        return True

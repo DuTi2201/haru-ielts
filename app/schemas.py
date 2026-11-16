@@ -18,17 +18,17 @@ Role = Literal["learner", "editor", "admin"]
 # --------------------------------------------------------------------- auth --
 class SignupRequest(BaseModel):
     email: EmailStr
-    password: str = Field(min_length=8)
+    password: str = Field(min_length=8, max_length=72)
     display_name: str | None = None
 
 
 class LoginRequest(BaseModel):
     email: EmailStr
-    password: str
+    password: str = Field(max_length=200)
 
 
 class RefreshRequest(BaseModel):
-    refresh_token: str
+    refresh_token: str | None = None  # browsers send the cookie instead
 
 
 class ChangePasswordRequest(BaseModel):
@@ -46,7 +46,9 @@ class ChangePasswordRequest(BaseModel):
 
 class TokenPair(BaseModel):
     access_token: str
-    refresh_token: str
+    # In production the refresh token travels only in an HttpOnly cookie (auth._issue), never in
+    # the body, so a script on the page cannot read it.
+    refresh_token: str | None = None
     token_type: Literal["bearer"] = "bearer"
 
 

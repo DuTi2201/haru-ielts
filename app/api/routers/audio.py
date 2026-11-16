@@ -32,6 +32,7 @@ from starlette.concurrency import run_in_threadpool
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.api.deps import _problem, ensure_lesson_open, get_current_profile, get_optional_profile
+from app.core.security import decode_access_token
 from app.core import ratelimit
 from app.core.config import settings
 from app.db import get_db
@@ -101,8 +102,22 @@ def _audio_response(request: Request, data: bytes, media_type: str) -> Response:
     return Response(content=data, media_type=media_type, headers=headers)
 
 
+def _signed_in_or_401(request: Request) -> None:
+    """A NEW recording costs money, so only a signed-in caller starts one (playing a recording
+    that exists stays open). The token is checked by signature and expiry here; the routes that
+    hand out lesson content also load the account."""
+    scheme, _, raw = (request.headers.get("authorization") or "").partition(" ")
+    if scheme.lower() != "bearer" or not raw.strip():
+        raise _problem(status.HTTP_401_UNAUTHORIZED, "Cần đăng nhập để tạo bản ghi âm mới", "unauthenticated")
+    try:
+        decode_access_token(raw.strip())
+    except ValueError:
+        raise _problem(status.HTTP_401_UNAUTHORIZED, "Invalid or expired token", "invalid_token") from None
+
+
 async def _spend_word(request: Request) -> None:
     """A new word or sentence recording is about to be made: spend from the allowance."""
+    _signed_in_or_401(request)
     await ratelimit.spend(
         request,
         "word",
@@ -113,6 +128,7 @@ async def _spend_word(request: Request) -> None:
 
 async def _spend_lecture(request: Request) -> None:
     """A new lecture or dialogue recording is about to be made (Gemini + several TTS calls)."""
+    _signed_in_or_401(request)
     await ratelimit.spend(
         request,
         "lecture",

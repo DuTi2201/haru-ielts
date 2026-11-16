@@ -693,18 +693,14 @@ async def get_lesson_practice(
 ):
     """The lesson's whole practice set (listening, reading, writing, speaking), with
     the answers and explanations: the browser grades each question the moment it is
-    answered. Public — it is the same material the repository holds."""
+    answered. Signed-in accounts only (401 otherwise)."""
     lesson = await db.get(Lesson, lesson_id)
     if lesson is None or not lesson.practice or not lesson.practice.get("items"):
         raise _problem(status.HTTP_404_NOT_FOUND, "This lesson has no practice set", "not_found")
     practice = lesson.practice
-    held = await billing_access.load_access(db, profile)
-    if held.enforced and not billing_catalog.is_free(lesson.sort_order):
-        # the answers ship with the questions: a paid lesson's set goes only to someone who holds it
-        await _require_open(db, profile, lesson)  # 401 not signed in, 402 not unlocked
-        response.headers["Cache-Control"] = "private, no-store"
-    else:
-        response.headers["Cache-Control"] = "public, max-age=60"
+    # the answers ship with the questions: the set goes only to a signed-in account
+    await _require_open(db, profile, lesson)
+    response.headers["Cache-Control"] = "private, no-store"
     return LessonPracticeOut(
         lesson_id=lesson.id,
         items=await _support_links(db, practice["items"]),

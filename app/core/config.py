@@ -40,7 +40,9 @@ class Settings(BaseSettings):
     # CORS — the Lovable frontend is a separate origin (no Supabase, no
     # same-origin cookies), so this must be explicit and not "*".
     CORS_ORIGINS: str = ""
-    CORS_ORIGIN_REGEX: str = r"^https://.*\.lovable\.app$"
+    # Empty = no pattern: only the exact origins above. The site and the API share one origin, so
+    # production needs neither.
+    CORS_ORIGIN_REGEX: str = ""
 
     @property
     def cors_origin_list(self) -> list[str]:

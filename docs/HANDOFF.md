@@ -366,3 +366,13 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
 - scripts/g1/lecture_d12.py: bài giảng cho phiên đầu của Ngày 6 ("Đọc chủ động · tóm tắt từng đoạn"): hiểu trước làm câu hỏi sau; sáu bước; đọc tiêu đề; đoạn 1–3 của The growth mindset (gạch từ khóa, bỏ chi tiết, gom số liệu, chuỗi mũi tên, ý chính, giá trị); đảo ngược lời chê thành lời khen ở đoạn cuối. Phiên này đứng đầu và gắn với bài "câu của tôi" (tóm tắt chuỗi từ khóa); từ vựng rồi câu hỏi theo sau.
 - Frontend: scene mới `para_filter` trong LectureScenes.tsx (từ khóa sáng lên, chi tiết bị gạch, chuỗi mũi tên, ý chính, giá trị); dùng lại ref_table và fix_pairs.
 - Slide không nói tên thầy, sách hay trang.
+
+## 2026-11-16 · Gia cố bảo mật (xác thực, phân quyền, header)
+- Nội dung bài học (bài luyện, đáp án, slide, trạng thái bài giảng) chỉ trả cho tài khoản đã đăng nhập: `deps.ensure_lesson_open` trả 401 cho khách. Danh sách bài và phần xem trước vẫn công khai. Tạo bản ghi âm MỚI cũng cần access token (`audio._signed_in_or_401`); nghe bản đã có vẫn mở.
+- Đăng nhập có giới hạn (Redis): 5 lần sai mỗi tài khoản, 20 mỗi địa chỉ trong 15 phút (`ratelimit.login_check/login_failed`). Redis lỗi thì từ chối đăng nhập (503).
+- Chỉ access token gọi được API (`security.decode_access_token`). Refresh token có `jti`, dùng một lần (`ratelimit.refresh_token_unused`); token cũ không có `jti` bị từ chối, nên mọi phiên cũ phải đăng nhập lại một lần.
+- Refresh token nằm trong cookie HttpOnly `haru_rt` (SameSite=Strict, Path=/api/v1/auth); ở production không trả trong body. Thêm `POST /auth/logout`. Frontend giữ access token trong bộ nhớ, localStorage chỉ còn cờ `haru.session`.
+- JWT dùng PyJWT (bỏ python-jose); nâng python-multipart 0.0.31, Pillow 12.3.0; thêm `cryptography` (trước đi kèm jose, google-auth cần).
+- Production tắt `/docs` và `/openapi.json`; `CORS_ORIGIN_REGEX` mặc định rỗng.
+- Triển khai site: LUÔN dùng `sh deploy/site-deploy.sh <thư mục build>` trên VM. Script sinh khối Caddy của site (`deploy/make_site_caddy.py`) với CSP liệt kê hash các script inline của bản build đó; chép site bằng tay mà không chạy script thì trang trắng. Khối site nằm ở `/opt/haru/mcp/caddy/ielts.caddy`, được `import` từ Caddyfile chính của máy chủ.
+- Test: `tests/test_auth_hardening.py` (không cần DB).

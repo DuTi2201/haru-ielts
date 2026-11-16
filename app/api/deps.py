@@ -8,7 +8,7 @@ from sqlalchemy import func, select
 from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.core.config import settings
-from app.core.security import decode_token, issued_before
+from app.core.security import decode_access_token, issued_before
 from app.db import get_db
 from app.models import ConversationSession, Entitlement, Job, PresentationSession, Profile
 from app.services import abuse
@@ -33,7 +33,7 @@ async def get_current_claims(
     if creds is None:
         raise _problem(status.HTTP_401_UNAUTHORIZED, "Missing bearer token", "unauthenticated")
     try:
-        return decode_token(creds.credentials)
+        return decode_access_token(creds.credentials)
     except ValueError as exc:
         raise _problem(status.HTTP_401_UNAUTHORIZED, "Invalid or expired token", "invalid_token") from exc
 
@@ -74,7 +74,7 @@ async def get_optional_profile(
     if creds is None:
         return None
     try:
-        claims = decode_token(creds.credentials)
+        claims = decode_access_token(creds.credentials)
         return await profile_for_claims(db, claims)
     except (ValueError, KeyError, HTTPException):  # a locked account or a stale token is anonymous here
         return None
@@ -95,7 +95,7 @@ async def get_current_profile_sse(
     if not raw:
         raise _problem(status.HTTP_401_UNAUTHORIZED, "Missing bearer token", "unauthenticated")
     try:
-        claims = decode_token(raw)
+        claims = decode_access_token(raw)
     except ValueError as exc:
         raise _problem(status.HTTP_401_UNAUTHORIZED, "Invalid or expired token", "invalid_token") from exc
     return await profile_for_claims(db, claims)
@@ -265,8 +265,10 @@ async def require_private_source(
 
 
 async def ensure_lesson_open(db: AsyncSession, profile: Profile | None, lesson) -> None:
-    """Single-user private app: all lessons are open."""
-    return
+    """Private app: every lesson is open to a signed-in account, and to nobody else. The lesson
+    list and a lesson's preview stay public; its content, answers and lecture do not."""
+    if profile is None:
+        raise _problem(status.HTTP_401_UNAUTHORIZED, "Cần đăng nhập để xem phần này", "unauthenticated")
 
 
 async def ensure_daily_cap(db: AsyncSession, profile_id: uuid.UUID, job_type: str, cap: int, what_vi: str) -> None:
