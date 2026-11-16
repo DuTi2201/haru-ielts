@@ -87,7 +87,7 @@ class PracticeEndpointTests(unittest.IsolatedAsyncioTestCase):
         self.assertIn("answer", out.items[0]["questions"][0])
         self.assertIn("listening", out.guides)
         self.assertEqual(out.scene_images, {})  # none drawn yet: the browser keeps its icons
-        self.assertIn("max-age", response.headers["Cache-Control"])
+        self.assertEqual(response.headers["Cache-Control"], "private, no-store")  # answers: signed-in only, never cached
 
     async def test_a_lesson_without_practice_is_a_404(self):
         db = mock.MagicMock()

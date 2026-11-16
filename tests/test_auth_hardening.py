@@ -166,7 +166,7 @@ class PublishedSurfaceTests(unittest.TestCase):
             prod = importlib.reload(main).app
             self.assertIsNone(prod.docs_url)
             self.assertIsNone(prod.openapi_url)
-            self.assertNotIn("/openapi.json", {r.path for r in prod.routes})
+            self.assertIsNone(prod.redoc_url)
         importlib.reload(main)
 
     def test_the_refresh_cookie_is_httponly_strict_and_scoped_to_the_auth_routes(self):
