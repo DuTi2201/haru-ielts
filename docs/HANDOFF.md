@@ -392,3 +392,14 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
 - **Ảnh theo kích thước**: bản 960 và 1280 px cho 11 ảnh lâu đài và ảnh hero (`srcSetOf` trong `assets.ts`); `vines-front` giữ nguyên vì bản nhỏ không nhẹ hơn.
 - **Tiếng sự kiện**: `src/lib/journey-sound.ts`, tổng hợp bằng Web Audio, không có tệp âm thanh; bật sẵn, có công tắc trong Cài đặt; im khi bài học đang phát tiếng hoặc tab ẩn.
 - Chưa làm: các animation một lần (`jr-last-petal`, `jr-petal-up`, `jr-before`, `jr-after`) vẫn dùng left/top/filter.
+
+## 2026-11-17 · Bài 47 (G1 · Ngày 4): Hệ thống bốn thì hiện tại
+
+- Nguồn: buổi 3, chặng 4 (01:06–01:19) của khóa học, cộng các ý cùng buổi: bài thi có một đáp án còn ngoài đời theo ý muốn nói; lặp lại thì không còn tạm thời; `own` cho tài sản lâu dài; câu hỏi dùng thì đơn giản nhất.
+- Tiêu đề mới "Hệ thống bốn thì hiện tại"; slug giữ nguyên qua `KEEP_SLUG` trong `scripts/g1/build.py`.
+- 5 thẻ: bản đồ hai câu hỏi (4 ô) · đơn hay tiếp diễn · hoàn thành hay hoàn thành tiếp diễn · làm bài và dùng thật · một câu Speaking bốn thì.
+- `scripts/g1/lecture_d4.py`: hai bài giảng viết tay, 10 từ theo cặp kèm câu gợi nhớ (`NOTES`), `reshape` chia 3 buổi.
+- Bài tập: giữ nguyên I1–I6, Q1–Q4, B1–B4, F1–F6 (cùng id), thêm T1–T4, I7–I9, Q5–Q8, B5–B6, F7, một câu nghe chép, đổi đề M1.
+- Frontend: cảnh `tense_grid`, làn `repeat`; thẻ ngữ pháp có hình `TenseMap`; hình `kettle`, `red_sea`; hình cho 10 từ; làn cho các câu ví dụ mới; phương án trục thời gian "vừa dừng, còn dấu vết".
+- `tests/test_lesson47_quality.py`. Còn hỏng: `test_a_sitting_is_not_too_heavy` (Ngày 1 có 4 thẻ một buổi, chờ chủ dự án quyết).
+- Audio bài giảng tự tạo lại ở lần mở đầu tiên.
