@@ -42,8 +42,8 @@ SUPPLEMENT = {
     5: "Bổ trợ cho chủ đề Giáo dục khi cần học thêm từ nền; không nằm trong lịch Tuần 1.",
     6: "Bổ trợ cho chủ đề Giáo dục khi cần học thêm kết hợp từ; không nằm trong lịch Tuần 1.",
     8: "Bài đọc bậc dễ về văn hóa và cảm xúc; hợp với Tuần 10 (Văn hóa và nghệ thuật) hơn là Tuần 1.",
-    9: "Bài đọc Cambridge 18 về nông nghiệp đô thị; hợp với Tuần 11 (Đô thị và nông thôn) hơn là Tuần 1.",
-    11: "Bài nghe Cambridge 18 về khảo sát giao thông (Part 1); hợp với Tuần 4 (Giao thông) hơn là Tuần 1.",
+    9: "Bài đọc về nông nghiệp đô thị; hợp với Tuần 11 (Đô thị và nông thôn) hơn là Tuần 1.",
+    11: "Bài nghe về khảo sát giao thông (Part 1); hợp với Tuần 4 (Giao thông) hơn là Tuần 1.",
     10: "Từ vựng về con người và tính cách; hợp với Tuần 9 và Tuần 11 (Xã hội, Quan hệ) hơn là Tuần 1.",
 }
 # exercises outside the syllabus' list for the week go to the optional sittings
@@ -167,7 +167,7 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
             ex_id = f"{pid}K{code}-{i}"
             ttl = f"Sách · {title} ({i}/{len(lines)})"
             if kind == "choice":
-                stem, opts, why = f[0], f[1:-1], f[-1] + f" [{src}]"
+                stem, opts, why = f[0], f[1:-1], f[-1]
                 if "( )" in stem:
                     ex = B.mcq(ex_id, ttl, stem, None, opts, why, instr)
                 else:
@@ -176,7 +176,7 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
                     ex["stimulus"] = {"kind": "chart", "block": BK.CHARTS[code]}
                 bank["reading"].append(ex)
             else:
-                text, acc, tip = f[0], f[1].split(";"), f[2] + f" [{src}]"
+                text, acc, tip = f[0], f[1].split(";"), f[2]
                 ex = B.write_fill(ex_id, ttl, text, acc, tip)
                 ex["instruction_vi"] = instr
                 bank["build"].append(ex)
@@ -286,7 +286,7 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
                 "check": ids,
             })
     book_body = "\n".join(
-        f"• {b['book']}, trang {b['pages']}: " + (f"bài {b['task']} ({b['items']} câu, khoảng {b['minutes']} phút)" if b["items"] else f"{b['task']} (khoảng {b['minutes']} phút)")
+        "• " + (f"Bài {b['task']} ({b['items']} câu, khoảng {b['minutes']} phút)" if b["items"] else f"{b['task']} (khoảng {b['minutes']} phút)")
         for b in d["book"])
     traps = [c["trap"] for c in d["cards"] if c["trap"] and len(c["trap"]) <= 230 and c["trap"].count("`") % 2 == 0]
     lesson = {
@@ -316,7 +316,7 @@ def entry_lesson() -> tuple[dict, list[dict]]:
         opts = {"A": a, "B": b, "C": c}
         right = opts[key]
         order = [right] + [v for k, v in opts.items() if k != key]
-        why = f"Đáp án: {right}. {point} Nếu sai: học Unit {unit} của IELTS Grammar for Bands 6.5+ (khóa của sách)."
+        why = f"Đáp án: {right}. {point} Nếu sai: đây là phần ngữ pháp bạn cần ôn."
         title = f"Kiểm tra đầu vào · câu {i}/50"
         ins = "Chọn đáp án đúng. Đây là bài đo trình độ: đừng đoán mò, hãy ghi lại những câu bạn không chắc."
         if "( )" in stem:
@@ -336,9 +336,9 @@ def entry_lesson() -> tuple[dict, list[dict]]:
     lesson = {
         "slug": "g1-entry-test", "title": "Tuần 1 · Kiểm tra đầu vào (50 câu)", "title_en": "Grammar entry test (50 items)", "topic": TOPIC,
         "track": "beginner", "level": 4, "sort_order": 100,
-        "summary": "Bài đo trình độ ngữ pháp của sách IELTS Grammar for Bands 6.5+: 50 câu, mỗi câu chỉ ra Unit cần học nếu sai.",
+        "summary": "Bài đo trình độ ngữ pháp: 50 câu, mỗi câu chỉ ra phần ngữ pháp cần ôn nếu sai.",
         "vocab": [{"headword": "diagnostic", "pos": "A", "meaning_vi": "dùng để chẩn đoán, tìm ra chỗ yếu", "example_en": "This diagnostic test shows which grammar units you need to study.", "example_vi": "Bài kiểm tra chẩn đoán này cho biết bạn cần học những Unit ngữ pháp nào.", "family": "Từ của ngày", "priority": "core", "source": SOURCE}], "grammar": [],
-        "notes": [{"title": "Cách làm và cách đọc kết quả", "body": "• Làm một mạch, không tra sách. Câu không chắc thì ghi lại.\n• Mỗi lời giải thích cho biết Unit của sách cần học nếu sai. Gom các Unit hay sai nhất để biết phải ôn gì trước.\n• Bài này đo trình độ, không phải chương trình học: tuần 1 vẫn đi theo Ngày 1–4.", "kind": "goal"}],
+        "notes": [{"title": "Cách làm và cách đọc kết quả", "body": "• Làm một mạch, không tra sách. Câu không chắc thì ghi lại.\n• Mỗi lời giải thích cho biết phần ngữ pháp cần ôn nếu sai. Gom các phần hay sai nhất để biết phải ôn gì trước.\n• Bài này đo trình độ, không phải chương trình học: tuần 1 vẫn đi theo Ngày 1–4.", "kind": "goal"}],
         "bank": "g1", "exercise_ids": [e["id"] for e in exs], "sessions": sessions,
         "editor_notes": [{"title": "Nguồn", "body": "IELTS Grammar for Bands 6.5 and above (Hopkins & Cullen, Cambridge), Entry test trang x–xii; đáp án và Unit theo khóa trang 221."}],
     }
@@ -352,7 +352,7 @@ STAGE_PREFIX = {"b2": "Đọc trước · giải nghĩa và liên tưởng", "c1
 def pack_title(prefix: str, items: list[tuple[str, str]]) -> str:
     """Name a sitting after what it practises: «Luyện · B2 Unit 1 · Khoanh từ đúng (+1)»."""
     srcname, title = items[0]
-    short = srcname.split(" · ")[0].replace("Destination ", "").replace("IELTS Grammar 6.5+, ", "Grammar 6.5+ ").replace(",", "")
+    short = ""  # the learner is never told which book or unit a pack comes from
     more = f" (+{len(items) - 1})" if len(items) > 1 else ""
     if short in ("B2 Unit 18", "C1&C2 Unit 2"):  # vocabulary days: the learner is not told which book level a pack comes from
         short = ""
@@ -403,7 +403,7 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
             qid = f"{pid}R{ps['id']}{i}"
             order = fixed[0] if fixed else TFNG3 if set(opts) == set(TFNG3) else sorted(opts, key=lambda t: B.rng(qid + t).random())
             qs.append({"id": qid, "prompt_en": prompt, "options": [{"id": str(j + 1), "text": t} for j, t in enumerate(order)],
-                       "answer": str(order.index(opts[0]) + 1), "explanation_vi": why + f" [{d['source'].split(';')[0]}]", "tags": []})
+                       "answer": str(order.index(opts[0]) + 1), "explanation_vi": why, "tags": []})
         pex = {"id": f"{pid}R{ps['id']}", "skill": "reading", "type": "read_passage", "title_vi": f"Đọc chậm · {ps['title']}"[:70], "instruction_vi": ps["instr"],
                "stimulus": {"kind": "passage", "text": ps["text"]}, "questions": qs}
         bank["reading"].append(pex)
@@ -415,7 +415,7 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
             qid = f"{pid}{ls['id']}Q{i}"
             order = fixed[0] if fixed else sorted([right] + wrong, key=lambda t: B.rng(qid + t).random())
             qs.append({"id": qid, "prompt_en": prompt, "options": [{"id": str(j + 1), "text": t} for j, t in enumerate(order)],
-                       "answer": str(order.index(right) + 1), "explanation_vi": why + f" [{d['source'].split(';')[0]}]", "tags": []})
+                       "answer": str(order.index(right) + 1), "explanation_vi": why, "tags": []})
         lex = {"id": f"{pid}{ls['id']}", "skill": "listening", "type": "listen_interview", "title_vi": f"Nghe kỹ · {ls['title']}"[:70], "instruction_vi": ls["instr"],
                "stimulus": {"kind": "audio", "turns": [{"speaker": sp, "text": tx, "vi": vi} for sp, tx, vi in ls["turns"]]}, "questions": qs}
         bank["listening"].append(lex)
@@ -442,11 +442,11 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
             ex_id = f"{pid}K{code}-{i}"
             ttl = f"Sách · {title} ({i}/{len(lines)})"
             if kind == "choice":
-                stem, opts, why = f[0], f[1:-1], f[-1] + f" [{srcname}]"
+                stem, opts, why = f[0], f[1:-1], f[-1]
                 ex = B.mcq(ex_id, ttl, stem if "( )" in stem else None, None if "( )" in stem else stem, opts, why, instr)
                 bank["reading"].append(ex)
             else:
-                ex = B.write_fill(ex_id, ttl, f[0], f[1].split(";"), f[2] + f" [{srcname}]")
+                ex = B.write_fill(ex_id, ttl, f[0], f[1].split(";"), f[2])
                 ex["instruction_vi"] = instr
                 bank["build"].append(ex)
             groups.setdefault(code, []).append(ex_id)
@@ -504,7 +504,7 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
                      "can_do_vi": "Sau buổi này bạn tóm tắt được một đoạn thành chuỗi từ khóa ngắn, bỏ chi tiết thừa và nói được ý chính của đoạn.",
                      "use_vi": "Hiểu từng đoạn trước rồi mới làm câu hỏi: dò từ khóa khi chưa hiểu bài chỉ là đoán."})
         sessions.insert(0, mine)
-    book_body = "\n".join(f"• {b[0]}, trang {b[1]}: bài {b[2]} ({b[3]} câu, khoảng {b[4]} phút)" for b in d["book"])
+    book_body = "\n".join(f"• {b[2]} ({b[3]} câu, khoảng {b[4]} phút)" for b in d["book"])
     lesson = {
         "slug": f"g1-d{n}-{B.slugify(d.get('slug_title', d['title']))}"[:60].rstrip("-"),
         "title": (f"Tuần 1 · Ngày {DAYNO[n]} · {d['title_vi']}" if n in DAYNO else f"Bổ trợ · {d['title_vi']}")[:120], "title_en": d["title"],

@@ -38,8 +38,8 @@ USES = [
     {"key": "u3", "head": "3. Tình huống lâu dài", "en": "Carlo works in a travel agent's.", "vi": "Lâu dài chỉ là tương đối."},
     {"key": "u4", "head": "4. Trạng thái, ý kiến", "en": "Do you believe in God?", "vi": "Hỏi thì này, đáp không buộc thì này."},
     {"key": "u5", "head": "5. Sự thật theo người nói", "en": "Poland is in the European Union.", "vi": "Kể cả khi người nói nói dối."},
-    {"key": "u6", "head": "Thêm: chỉ đường, hướng dẫn", "en": "You go down to the traffic lights, then you turn left.", "vi": "IELTS Grammar 6.5+."},
-    {"key": "u7", "head": "Thêm: kể cốt truyện", "en": "In the film, the tea lady falls in love with the Prime Minister.", "vi": "IELTS Grammar 6.5+."},
+    {"key": "u6", "head": "Thêm: chỉ đường, hướng dẫn", "en": "You go down to the traffic lights, then you turn left.", "vi": "Hay gặp trong Speaking."},
+    {"key": "u7", "head": "Thêm: kể cốt truyện", "en": "In the film, the tea lady falls in love with the Prime Minister.", "vi": "Speaking Part 2."},
 ]
 
 FREQ = [
@@ -72,11 +72,11 @@ WHEN = [
 SITTING_1 = [
     {"kind": "title", "hook": "Vì sao biết ngữ pháp rồi mà lúc nói vẫn khựng lại?", "lines": [
         {"say": "Bạn đã bao giờ định nói một câu tiếng Anh rồi khựng lại vài giây, vì còn mải nhớ xem câu đó thuộc quy tắc nào chưa?", "show": "hook"},
-        {"say": "Buổi này mình học thì hiện tại đơn theo sách Destination B2, nhưng chọn lọc theo cách của một người thầy giỏi: học cái dùng được ngay, và hiểu vì sao nó dùng được."},
+        {"say": "Buổi này mình học thì hiện tại đơn một cách chọn lọc: học cái dùng được ngay, và hiểu vì sao nó dùng được."},
     ]},
-    {"kind": "scene", "visual": "five_boxes", "eyebrow": "Destination B2 · trang 6", "title": "Năm cái hộp của sách",
+    {"kind": "scene", "visual": "five_boxes", "eyebrow": "Cách dùng", "title": "Năm cái hộp của sách",
      "data": {"boxes": BOXES, "sentence": None}, "lines": [
-        {"say": "Mở sách Destination B2, trang 6. Sách chia hiện tại đơn thành năm cách dùng. Gọi đó là năm cái hộp.", "show": "boxes"},
+        {"say": "Sách ngữ pháp thường chia hiện tại đơn thành năm cách dùng. Gọi đó là năm cái hộp.", "show": "boxes"},
         {"say": "Trên nắp mỗi hộp có một chữ. Trước hết, học năm chữ đó. Mỗi chữ đọc một lần, bạn nhắc lại trong quãng nghỉ."},
     ]},
     {"kind": "word", "headword": "habit", "lines": [{"say": "Hộp thứ nhất."}]},
@@ -113,14 +113,14 @@ SITTING_1 = [
         {"en": "Do you believe in God?", "vi": "Bạn có tin vào Chúa không?", "gap": True},
         {"say": "Nhóm năm: sự thật theo người nói, kể cả khi người nói nói dối. Chỗ này mình cũng làm kỹ ngay sau đây.", "show": "u5"},
         {"en": "Poland is in the European Union.", "vi": "Ba Lan nằm trong Liên minh châu Âu.", "gap": True},
-        {"say": "Sách IELTS Grammar 6.5+ thêm hai cách dùng rất có ích cho thi. Chỉ đường và hướng dẫn thao tác.", "show": "u6"},
+        {"say": "Thêm hai cách dùng rất có ích cho thi. Chỉ đường và hướng dẫn thao tác.", "show": "u6"},
         {"en": "You go down to the traffic lights, then you turn left.", "vi": "Đi xuống đến đèn giao thông rồi rẽ trái.", "gap": True},
         {"say": "Và kể lại cốt truyện phim hoặc sách, dùng nhiều trong Speaking Part 2.", "show": "u7"},
         {"en": "In the film, the tea lady falls in love with the Prime Minister.", "vi": "Trong phim, cô bán trà phải lòng ngài thủ tướng.", "gap": True},
         {"say": "Một lưu ý: nói một việc đã kéo dài bao lâu thì dùng hiện tại hoàn thành, không dùng hiện tại đơn. Ví dụ: I have worked there since I was fifteen."},
         {"say": "Năm nhóm, và hai cách dùng thêm: đó là toàn bộ bảng cách dùng bạn cần.", "show": "rule"},
     ]},
-    {"kind": "scene", "visual": "sentence_forms", "eyebrow": "Công thức · Destination B2 trang 6", "title": "Ba dạng câu của hiện tại đơn",
+    {"kind": "scene", "visual": "sentence_forms", "eyebrow": "Công thức", "title": "Ba dạng câu của hiện tại đơn",
      "data": {"rows": [
                   {"key": "aff", "label": "Khẳng định", "parts": ["Minh", "cycles", "to school."], "hi": [1], "vi": "Minh đạp xe đi học."},
                   {"key": "neg", "label": "Phủ định", "parts": ["Minh", "doesn't cycle", "to school."], "hi": [1], "vi": "Minh không đạp xe đi học."},

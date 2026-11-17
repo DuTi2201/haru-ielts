@@ -173,9 +173,9 @@ SECTIONS += [
 
 DAYS: dict[int, dict] = {
     8: {
-        "title": "Culture shock: a graded reading from Complete IELTS", "title_vi": "Culture shock: bài đọc bậc dễ và ba lỗi hay mắc",
+        "title": "Culture shock: a graded reading", "slug_title": "Culture shock: a graded reading from Complete IELTS", "title_vi": "Culture shock: bài đọc bậc dễ và ba lỗi hay mắc",
         "goal": "Đọc chậm một bài Reading Section 1 ở bậc 5–6.5, làm đúng dạng đúng/sai/không có thông tin và điền bảng, rồi sửa ba cặp lỗi thí sinh hay mắc: problem/trouble, affect/effect, percent/percentage.",
-        "ielts": "Bài này là bậc thang trước Cambridge 18: cùng dạng câu hỏi nhưng văn bản ngắn và từ dễ hơn. Ba cặp lỗi xuất hiện liên tục ở Writing Task 1 và 2.",
+        "ielts": "Bài này là bậc thang trước các bài đọc của đề thi thật: cùng dạng câu hỏi nhưng văn bản ngắn và từ dễ hơn. Ba cặp lỗi xuất hiện liên tục ở Writing Task 1 và 2.",
         "source": "Complete IELTS 5-6.5, Unit 1; từ neo B2 theo cách neo của khóa học", "family": "Văn hoá",
         "recognize": {"resent", "disorientation", "inevitable", "accustomed to"},
         "editor": "Bài đọc và bài tập theo Complete IELTS Bands 5-6.5 Unit 1 (trang 8–16, đáp án trang 149–150). Chỉ lấy phần đọc chậm, từ vựng-lỗi hay mắc và câu mở đầu Writing; phần nghe cần file âm thanh (chưa có), phần nói và so sánh tính từ để dành cho các tuần sau.",
@@ -234,8 +234,8 @@ DAYS: dict[int, dict] = {
         ],
     },
     9: {
-        "title": "Urban farming: Cambridge IELTS 18, Test 1, Passage 1", "title_vi": "Đọc chậm Cambridge 18: Urban farming",
-        "goal": "Đọc chậm bài Passage 1 của đề Cambridge 18, hiểu từng đoạn, làm 13 câu (hoàn thành câu, bảng, đúng/sai/không có thông tin) và chỉ ra mỗi đáp án nằm ở đâu và vì sao.",
+        "title": "Urban farming", "slug_title": "Urban farming: Cambridge IELTS 18, Test 1, Passage 1", "title_vi": "Đọc chậm: Urban farming",
+        "goal": "Đọc chậm một bài Passage 1 của đề thi thật, hiểu từng đoạn, làm 13 câu (hoàn thành câu, bảng, đúng/sai/không có thông tin) và chỉ ra mỗi đáp án nằm ở đâu và vì sao.",
         "ielts": "Đây là cấp độ đề thật. Giai đoạn 1 không bấm giờ: mục tiêu là hiểu đúng và biết đáp án nằm ở chỗ nào, tốc độ để giai đoạn 2.",
         "source": "Cambridge IELTS 18, Test 1, Passage 1; từ neo B2 theo cách neo của khóa học", "family": "Nông nghiệp đô thị",
         "recognize": {"withstand", "exhaust", "wholesaler", "flourishing", "phenomenon", "constraint"},
@@ -343,7 +343,7 @@ DAYS[10] = {
 }
 
 DAYS[11] = {
-    "title": "Transport survey: Cambridge IELTS 18 Test 1 Listening Part 1", "title_vi": "Nghe kỹ Cambridge 18: khảo sát giao thông (Part 1)",
+    "title": "Transport survey: Listening Part 1", "slug_title": "Transport survey: Cambridge IELTS 18 Test 1 Listening Part 1", "title_vi": "Nghe kỹ: khảo sát giao thông (Part 1)",
     "goal": "Nghe kỹ một hội thoại Part 1 (điền ghi chú), nhận ra các bẫy thường gặp: sửa lại thông tin giữa chừng (24th hay 25th), đánh vần tên (Claxby), lý do chính và lý do phụ.",
     "ielts": "Part 1 là phần dễ nhất của Listening, nên mỗi câu sai ở đây là điểm mất oan. Quy tắc: nghe đến hết lượt thoại rồi mới chốt đáp án.",
     "source": "Cambridge IELTS 18, Test 1, Listening Part 1; từ neo B2 theo cách neo của khóa học", "family": "Giao thông",
