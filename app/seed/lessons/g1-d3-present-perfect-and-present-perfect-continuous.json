@@ -112,11 +112,11 @@
  "grammar": [
   {
    "pattern": "Trục thời gian · vẽ ra để nhớ",
-   "meaning_vi": "Mỗi thì một trục: quá khứ, bây giờ, tương lai, và một câu mẫu bên dưới",
-   "usage_context_vi": "Trước khi chọn thì, hãy đặt việc mình muốn nói lên trục thời gian: nó lặp lại quanh bây giờ? chỉ diễn ra lúc này? bắt đầu từ trước và kéo tới bây giờ? đã xong từ trước?\nVẽ trục kèm một câu mẫu của chính bạn giúp nhớ lâu hơn chép chữ.",
+   "meaning_vi": "Năm điều có thể muốn nói, trên cùng một trục thời gian",
+   "usage_context_vi": "Trước khi chọn thì, hãy đặt việc mình muốn nói lên trục thời gian và tự hỏi năm câu dưới đây. Mỗi câu hỏi ứng với một hình trên trục và một thì.",
    "contrasts": [],
-   "example_en": "I have played the piano since 2003.",
-   "example_vi": "Tôi chơi piano từ năm 2003. (bắt đầu năm 2003, kéo tới bây giờ)",
+   "example_en": "He calls his mother every Sunday.\nShe is staying with her aunt this week.\nI have played the piano since 2003.\nI have already eaten.\nI ate at seven o'clock.",
+   "example_vi": "Chủ nhật nào anh ấy cũng gọi cho mẹ. (lặp lại)\nTuần này cô ấy ở nhờ nhà dì. (tạm thời, rồi hết)\nTôi chơi piano từ năm 2003. (bắt đầu năm 2003, bây giờ vẫn chơi)\nTôi ăn rồi. (đã xong, không nêu lúc nào)\nTôi ăn lúc bảy giờ. (đã xong, nêu được lúc nào)",
    "importance": "normal",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-9; cách giảng của khóa học"
   },
@@ -264,7 +264,7 @@
  "bank": "g1",
  "coach": {
   "focus_vi": [
-   "vẽ ra để nhớ: Mỗi thì một trục: quá khứ, bây giờ, tương lai, và một câu mẫu bên dưới",
+   "vẽ ra để nhớ: Năm điều có thể muốn nói, trên cùng một trục thời gian",
    "kéo tới bây giờ: have / has + V3: bắt đầu trong quá khứ, bây giờ vẫn còn",
    "đã xong, không nói lúc nào: have / has + V3: việc đã làm; thời điểm không quan trọng hoặc không muốn nói"
   ],
@@ -367,7 +367,7 @@
  "sessions": [
   {
    "title_vi": "Buổi 1 · hiện tại hoàn thành: hai nhánh, since và for",
-   "can_do_vi": "Sau buổi này bạn nắm được: mỗi thì một trục: quá khứ, bây giờ, tương lai, và một câu mẫu bên dưới; have / has + v3: bắt đầu trong quá khứ, bây giờ vẫn còn; have / has + v3: việc đã làm; thời điểm không quan trọng hoặc không muốn nói.",
+   "can_do_vi": "Sau buổi này bạn nắm được: năm điều có thể muốn nói, trên cùng một trục thời gian; have / has + v3: bắt đầu trong quá khứ, bây giờ vẫn còn; have / has + v3: việc đã làm; thời điểm không quan trọng hoặc không muốn nói.",
    "use_vi": "Speaking Part 1 và 2: nói mình đã làm gì, làm được bao lâu. Lỗi `I work here since 2020` và `I have been knowing` rất hay gặp ở người Việt.",
    "vocab": [
     "achieve"

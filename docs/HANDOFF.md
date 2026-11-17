@@ -382,3 +382,4 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
 - `days.txt` Ngày 3: thẻ ngữ pháp thêm các ý trên; thêm 5 câu luyện (mua rau, Da Lat, piano đã nghỉ, often + hoàn thành, xem tivi bốn tiếng).
 - Frontend: trục thời gian có ba kiểu mới (`done` = đã xong không rõ lúc nào, `point` = một thời điểm nêu được, `trace` = vừa dừng còn dấu vết); bốn hình động mới (`basket`, `piano`, `runner`, `ball`).
 - Triển khai site bằng `deploy/site-deploy.sh` (CSP theo hash).
+- Thẻ "Trục thời gian" của Ngày 3 giờ là hình vẽ: năm câu hỏi trên một trục (frontend `TimeAxis.tsx`), mỗi dòng ứng với một câu ví dụ của thẻ theo đúng thứ tự (lặp lại, tạm thời, kéo tới bây giờ, đã xong không nêu lúc nào, đã xong nêu được lúc nào). Đổi thứ tự hay số câu ví dụ của thẻ này trong `days.txt` thì hình không hiện nữa (thẻ trở về danh sách ví dụ thường).
