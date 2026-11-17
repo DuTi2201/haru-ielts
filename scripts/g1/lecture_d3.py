@@ -195,7 +195,7 @@ SITTING_1 = [
         {"en": "My parents went to Hue.", "vi": "Bố mẹ tôi đã đi Huế.", "gap": True, "recap": False},
         {"say": "Còn nếu chuyến đi chưa bắt đầu và đã có kế hoạch: hiện tại tiếp diễn.", "show": "h3"},
         {"en": "My parents are going to Hue.", "vi": "Bố mẹ tôi sắp đi Huế.", "gap": True, "recap": False},
-        {"say": "Sách bài tập thường chỉ in một đáp án. Ngoài đời, bạn chọn thì theo điều mình muốn nói.", "show": "rule"},
+        {"say": "Bài tập thường chỉ in một đáp án. Ngoài đời, bạn chọn thì theo điều mình muốn nói.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Ba mẫu cần thuộc", "title": "first time, never, been to",
      "data": {"cols": ["Mẫu", "Ví dụ"], "rows": PATTERNS,

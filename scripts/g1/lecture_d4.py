@@ -215,7 +215,7 @@ SITTING_2 = [
         {"en": "I have studied it since 2023.", "vi": "Tôi học từ năm 2023.", "gap": True, "show": "c3"},
         {"say": "Muốn nói vừa học cả sáng, giờ còn mệt: hoàn thành tiếp diễn."},
         {"en": "I have been studying all morning, so I'm tired.", "vi": "Tôi học cả sáng nay, nên giờ mệt.", "gap": True, "show": "c4"},
-        {"say": "Vậy câu hỏi đầu buổi có lời đáp. Đáp án của sách đúng cho bài thi. Ngoài đời, bạn muốn nhấn điều gì thì chọn thì đó. Còn khi phân vân mà không thấy gì tạm thời, cũng không nối với quá khứ, hãy chọn hiện tại đơn.", "show": "rule"},
+        {"say": "Vậy câu hỏi đầu buổi có lời đáp. Đáp án của bài tập đúng cho bài thi. Ngoài đời, bạn muốn nhấn điều gì thì chọn thì đó. Còn khi phân vân mà không thấy gì tạm thời, cũng không nối với quá khứ, hãy chọn hiện tại đơn.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Lỗi thường gặp", "title": "Bốn lỗi, bốn cách sửa",
      "data": {"rows": TRAPS,

@@ -211,7 +211,7 @@
   {
    "pattern": "Present perfect continuous · thay bằng hiện tại hoàn thành",
    "meaning_vi": "Chỗ nào dùng được hoàn thành tiếp diễn thì thay được bằng hiện tại hoàn thành",
-   "usage_context_vi": "Câu có độ dài (`all morning`, `for six years`): hai thì thay cho nhau được. Khi phân vân, chọn hiện tại hoàn thành.\nHai thì khác nghĩa khi bạn nhấn vào kết quả (đã xong, đếm được) hay vào quá trình (còn dở, còn dấu vết).",
+   "usage_context_vi": "Câu có độ dài (`all morning`, `for six years`): chỗ nào dùng được hoàn thành tiếp diễn thì thay bằng hiện tại hoàn thành cũng được. Khi phân vân, chọn hiện tại hoàn thành.\nHai thì khác nghĩa khi bạn nhấn vào dấu vết (`I've been crying`: mắt còn đỏ) hay kết quả (`I have read that book`: đã đọc xong).",
    "contrasts": [
     {
      "pattern": "Present perfect · đã xong, không nói lúc nào",
@@ -906,7 +906,7 @@
        "recap": false
       },
       {
-       "say": "Sách bài tập thường chỉ in một đáp án. Ngoài đời, bạn chọn thì theo điều mình muốn nói.",
+       "say": "Bài tập thường chỉ in một đáp án. Ngoài đời, bạn chọn thì theo điều mình muốn nói.",
        "show": "rule"
       }
      ]
