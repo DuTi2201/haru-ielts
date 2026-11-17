@@ -123,10 +123,10 @@
   {
    "pattern": "Present perfect · kéo tới bây giờ",
    "meaning_vi": "have / has + V3: bắt đầu trong quá khứ, bây giờ vẫn còn",
-   "usage_context_vi": "Việc bắt đầu trong quá khứ và kéo tới bây giờ, có thể còn tiếp. `since` + mốc bắt đầu; `for` + khoảng thời gian. Nhánh này đi kèm được mốc và độ dài; nhánh \"đã xong\" thì không nêu lúc nào.\nTrạng từ tần suất (`often`, `usually`) không đi với hiện tại tiếp diễn, nhưng đi được với hiện tại hoàn thành khi bạn gộp cả trước kia lẫn bây giờ: `Have you usually studied alone or in a group?`",
+   "usage_context_vi": "Việc bắt đầu từ trước và bây giờ vẫn còn. `since` + mốc bắt đầu, `for` + độ dài.\n`for` chỉ là giới từ: còn làm thì hoàn thành, đã nghỉ thì quá khứ đơn.",
    "contrasts": [],
-   "example_en": "I have lived here for six years.\nShe has known him since she was a child.\nI have often seen him at the library.",
-   "example_vi": "Tôi sống ở đây được sáu năm rồi.\nCô ấy biết anh ta từ khi còn nhỏ.\nTừ trước tới nay tôi thường thấy anh ấy ở thư viện. (trạng từ tần suất đi được với hoàn thành)",
+   "example_en": "I have lived here for six years.\nShe has known him since she was a child.\nI studied the piano for two years.\nI have often seen him at the library.",
+   "example_vi": "Tôi sống ở đây được sáu năm rồi. (bây giờ vẫn sống ở đây)\nCô ấy biết anh ta từ khi còn nhỏ.\nTôi từng học piano hai năm. (đã nghỉ: quá khứ đơn)\nTừ trước tới nay tôi thường thấy anh ấy ở thư viện. (often, usually đi được với hoàn thành)",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-9; cách giảng của khóa học",
    "check": {
@@ -144,15 +144,15 @@
   {
    "pattern": "Present perfect · đã xong, không nói lúc nào",
    "meaning_vi": "have / has + V3: việc đã làm; thời điểm không quan trọng hoặc không muốn nói",
-   "usage_context_vi": "Dùng khi chỉ muốn báo việc đã làm rồi hay chưa. Thường có `already`, `yet`, `ever`, `never`, `before`.\nKhi bạn nêu thời điểm cụ thể (`last summer`, `in 2003`, `two years ago`, hoặc câu hỏi `When did you go?`), đó là quá khứ đơn.\n`since` luôn đi với thì hoàn thành. `for` chỉ là giới từ chỉ độ dài: `I have studied the piano for two years` (còn học) khác `I studied the piano for two years` (đã nghỉ).",
+   "usage_context_vi": "Chỉ báo việc đã làm rồi hay chưa. Thường có `already`, `yet`, `ever`, `never`, `before`.\nNêu được lúc nào (`last summer`, `two years ago`, `When did you…?`) thì đổi sang quá khứ đơn.",
    "contrasts": [
     {
      "pattern": "Present perfect · kéo tới bây giờ",
      "diff_vi": "Cùng một dạng, hai ý: việc còn kéo dài (thường có since, for) và việc đã xong (thường có already, ever, never)."
     }
    ],
-   "example_en": "Did you buy any vegetables? Yes, I have bought some.\nHave you ever been to Italy? I went there two years ago.",
-   "example_vi": "Mua rau chưa? Rồi, tôi mua rồi. (đã xong, không nêu lúc nào; không phải \"vẫn đang mua\")\nBạn từng đến Ý chưa? Hai năm trước tôi có đến. (hỏi hoàn thành, kể bằng quá khứ đơn vì có mốc)",
+   "example_en": "Yes, I have bought some vegetables.\nHave you ever been to Italy?\nI went there two years ago.",
+   "example_vi": "Tôi mua rau rồi. (đã xong; không phải \"vẫn đang mua\")\nBạn đã từng đến Ý chưa? (hỏi trải nghiệm)\nHai năm trước tôi có đến. (có mốc: quá khứ đơn)",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-9; cách giảng của khóa học",
    "check": {
@@ -170,10 +170,10 @@
   {
    "pattern": "Present perfect · hai mẫu cần thuộc",
    "meaning_vi": "It's the first time + have (ever) V3; have gone to / have been to",
-   "usage_context_vi": "Sau `It's / This is / That's the first (second, best, worst) time`, dùng hiện tại hoàn thành.\n`have gone to`: đã đi và chưa về. `have been to`: đã từng đến và đã về.",
+   "usage_context_vi": "Sau `It's the first time` dùng hiện tại hoàn thành.\n`have gone to`: đi và chưa về. `have been to`: đã đến và đã về.",
    "contrasts": [],
-   "example_en": "It's the first time I have ever spoken English on the phone.\nMy parents have gone to Hue. I have been to Hue twice.",
-   "example_vi": "Đây là lần đầu tiên tôi nói tiếng Anh qua điện thoại.\nBố mẹ tôi đi Huế rồi (chưa về). Tôi đã đến Huế hai lần.",
+   "example_en": "It's the first time I have ever spoken English on the phone.\nMy parents have gone to Hue.\nI have been to Hue twice.",
+   "example_vi": "Đây là lần đầu tiên tôi nói tiếng Anh qua điện thoại.\nBố mẹ tôi đi Huế rồi. (chưa về)\nTôi đã đến Huế hai lần. (đã về)",
    "importance": "normal",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-9; cách giảng của khóa học",
    "check": {
@@ -191,10 +191,10 @@
   {
    "pattern": "Present perfect continuous · hai câu hỏi",
    "meaning_vi": "have / has been + V-ing: đã bắt đầu, và lúc nói còn đang làm hoặc vừa dừng",
-   "usage_context_vi": "Tên thì ghép hai ý: hoàn thành (bắt đầu từ trước, kéo tới bây giờ) và tiếp diễn (đang diễn ra, tạm thời).\nCách kiểm tra trong câu: tìm cụm chỉ độ dài (`all morning`, `for hours now`, `for the last four hours`), rồi xem vế ở hiện tại cho biết việc còn tiếp diễn không (`she still hasn't finished`, `Turn it off!`).\nTự hỏi hai câu: (1) Đã bắt đầu làm chưa? (2) Lúc nói còn đang làm, hoặc vừa dừng và còn thấy dấu vết? Cả hai là \"có\" và bạn muốn nhấn vào quá trình hay độ dài: dùng `have been V-ing`.",
+   "usage_context_vi": "Ba bước: tìm cụm chỉ độ dài (`all morning`, `for hours`); xem vế hiện tại cho thấy việc còn tiếp diễn không; rồi chọn `have been V-ing`.\nHai cách dùng: bây giờ còn đang làm, hoặc vừa dừng và còn dấu vết.",
    "contrasts": [],
    "example_en": "I have been playing football for the last three hours.\nI'm out of breath because I have been running.\nHave you been watching TV for the last four hours? Turn it off!",
-   "example_vi": "Tôi chơi bóng suốt ba tiếng nay. (đã chơi; vẫn đang chơi)\nTôi hết hơi vì vừa chạy. (vừa dừng, còn dấu vết)\nEm xem tivi bốn tiếng nay rồi à? Tắt đi! (vẫn đang xem)",
+   "example_vi": "Tôi chơi bóng suốt ba tiếng nay. (vẫn đang chơi)\nTôi hết hơi vì vừa chạy. (vừa dừng, còn dấu vết)\nEm xem tivi bốn tiếng nay rồi à? Tắt đi! (vẫn đang xem)",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-9; cách giảng của khóa học",
    "check": {
@@ -211,15 +211,15 @@
   {
    "pattern": "Present perfect continuous · thay bằng hiện tại hoàn thành",
    "meaning_vi": "Chỗ nào dùng được hoàn thành tiếp diễn thì thay được bằng hiện tại hoàn thành",
-   "usage_context_vi": "Quy tắc nhớ nhanh: chỗ nào dùng được hiện tại hoàn thành tiếp diễn thì thay bằng hiện tại hoàn thành được. Đúng khi câu có khoảng thời gian kéo dài: `for hours`, `all morning`, `for the last six years`.\nLưu ý: khi người nói nhấn vào quá trình hoặc dấu vết còn lại ở hiện tại, hai thì khác nghĩa. `I've been crying` (mắt còn đỏ) khác `I've cried`. Một cặp khác: `I have read that book` (đã đọc xong) khác `I have been reading that book` (chưa xong).\nChiều ngược lại không luôn đúng: việc đã xong hẳn hoặc trải nghiệm không rõ thời gian thì không dùng tiếp diễn (thường không dùng với `ever`, `never`).",
+   "usage_context_vi": "Câu có độ dài (`all morning`, `for six years`): hai thì thay cho nhau được. Khi phân vân, chọn hiện tại hoàn thành.\nHai thì khác nghĩa khi bạn nhấn vào kết quả (đã xong, đếm được) hay vào quá trình (còn dở, còn dấu vết).",
    "contrasts": [
     {
      "pattern": "Present perfect · đã xong, không nói lúc nào",
      "diff_vi": "Hoàn thành nhấn vào việc và kết quả; hoàn thành tiếp diễn nhấn vào quá trình và độ dài."
     }
    ],
-   "example_en": "I have been trying / I have tried to get in touch with Jenny all morning.\nI have read that book. I have been reading that book.",
-   "example_vi": "Cả sáng nay tôi cố liên lạc với Jenny. (hai thì đều đúng)\nTôi đã đọc xong cuốn đó. Tôi đang đọc dở cuốn đó. (hai thì khác nghĩa)",
+   "example_en": "I have been trying to call Lan all morning.\nI have read that book.\nI have been reading that book.\nI have written three essays this week.",
+   "example_vi": "Cả sáng nay tôi cố gọi cho Lan. (thay được: I have tried to call Lan all morning)\nTôi đã đọc xong cuốn đó. (kết quả)\nTôi đang đọc dở cuốn đó. (quá trình)\nTuần này tôi viết xong ba bài luận. (đếm việc đã xong: hoàn thành)",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 6-9; cách giảng của khóa học",
    "check": {
