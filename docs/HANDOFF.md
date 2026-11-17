@@ -403,3 +403,11 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
 - Frontend: cảnh `tense_grid`, làn `repeat`; thẻ ngữ pháp có hình `TenseMap`; hình `kettle`, `red_sea`; hình cho 10 từ; làn cho các câu ví dụ mới; phương án trục thời gian "vừa dừng, còn dấu vết".
 - `tests/test_lesson47_quality.py`. Còn hỏng: `test_a_sitting_is_not_too_heavy` (Ngày 1 có 4 thẻ một buổi, chờ chủ dự án quyết).
 - Audio bài giảng tự tạo lại ở lần mở đầu tiên.
+
+## 2026-11-17 · Thẻ ngữ pháp: khối hình thay đoạn chữ
+
+- `Rich.tsx` (frontend) có thêm ba khối, viết ngay trong `use:` của thẻ:
+  - `fork: câu hỏi | Không | kết quả | Có | kết quả`: ngã rẽ, chạm một nhánh để làm nổi nhánh đó.
+  - `step: bước | chi tiết`: các dòng liền nhau thành các bước đánh số; chi tiết là tiếng Anh thì chạm để nghe.
+  - `side: nhãn | câu | chú thích | shape`: các dòng liền nhau xếp cạnh nhau để so sánh. `shape` vẽ trục thời gian nhỏ (`span`, `done`, `point`, `trace`, `window`, `repeat`, `always`, `ended`); câu tiếng Anh chạm để nghe. Hai nhóm `side` liền nhau phải tách bằng một dòng `!` hoặc `##`.
+- Đã viết lại 10 thẻ của Ngày 3–4 bằng các khối này cùng `pat:`, `prep:`, `tl:`, `chips:`.
