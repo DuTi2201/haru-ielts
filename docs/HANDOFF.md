@@ -391,4 +391,4 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
 - **Hiệu năng** (frontend): quạ bay bằng transform (`--sw` = bề rộng cảnh, đo bằng ResizeObserver); cảnh tạm dừng mọi animation khi ra khỏi màn hình hoặc tab ẩn (`data-paused`); thiên nga không đổi khung hình khi tab ẩn; bỏ blur trong `jr-rise`.
 - **Ảnh theo kích thước**: bản 960 và 1280 px cho 11 ảnh lâu đài và ảnh hero (`srcSetOf` trong `assets.ts`); `vines-front` giữ nguyên vì bản nhỏ không nhẹ hơn.
 - **Tiếng sự kiện**: `src/lib/journey-sound.ts`, tổng hợp bằng Web Audio, không có tệp âm thanh; bật sẵn, có công tắc trong Cài đặt; im khi bài học đang phát tiếng hoặc tab ẩn.
-- Chưa làm: các animation một lần (`jr-last-petal`, `jr-petal-up`, `jr-before`, `jr-after`) vẫn dùng left/top/filter; ảnh hero ở `JourneyShowcase` chưa gắn srcset.
+- Chưa làm: các animation một lần (`jr-last-petal`, `jr-petal-up`, `jr-before`, `jr-after`) vẫn dùng left/top/filter.
