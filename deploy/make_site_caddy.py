@@ -19,6 +19,9 @@ def inline_script_hashes(html: str) -> list[str]:
     out = []
     for attrs, body in re.findall(r"<script([^>]*)>(.*?)</script>", html, re.S):
         if body and "src=" not in attrs:
+            # the browser hashes the script as its HTML parser read it: a NUL byte has become U+FFFD
+            # and every line break a line feed (the router's stream script carries a NUL)
+            body = body.replace("\r\n", "\n").replace("\r", "\n").replace("\x00", "\ufffd")
             digest = base64.b64encode(hashlib.sha256(body.encode("utf8")).digest()).decode()
             if f"'sha256-{digest}'" not in out:
                 out.append(f"'sha256-{digest}'")
