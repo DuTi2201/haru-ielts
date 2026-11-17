@@ -411,3 +411,10 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
   - `step: bước | chi tiết`: các dòng liền nhau thành các bước đánh số; chi tiết là tiếng Anh thì chạm để nghe.
   - `side: nhãn | câu | chú thích | shape`: các dòng liền nhau xếp cạnh nhau để so sánh. `shape` vẽ trục thời gian nhỏ (`span`, `done`, `point`, `trace`, `window`, `repeat`, `always`, `ended`); câu tiếng Anh chạm để nghe. Hai nhóm `side` liền nhau phải tách bằng một dòng `!` hoặc `##`.
 - Đã viết lại 10 thẻ của Ngày 3–4 bằng các khối này cùng `pat:`, `prep:`, `tl:`, `chips:`.
+
+## 2026-11-17 · Bỏ trích nguồn khỏi nội dung người học thấy
+
+- Quy tắc: tên sách, số trang, dòng "Nguồn" chỉ để trong `source` và `editor_notes` (không hiển thị). Mọi trường người học thấy (tiêu đề, tóm tắt, thẻ, bài giảng, lời giải thích) không nêu sách hay trang.
+- `scripts/g1/build.py` không còn gắn `[sách · bài (trang)]` sau lời giải thích; `pack_title` không ghi tên sách. Các bài đổi tiêu đề giữ slug cũ qua `slug_title`.
+- Còn lại, chờ chủ dự án quyết: lộ trình B1 (dòng "📖 Trong sách: Unit …, trang …" trong ghi chú của 42 bài, chủ đề "Destination B1 · Lấy gốc", trang tổng quan, trang giới thiệu).
+- Kiểm thử cũ đếm "42 bài" (test_dictation, test_feathers, test_mistake_book, test_progress) đã lỗi thời từ khi có G1, cần cập nhật.
