@@ -87,6 +87,7 @@ from app.schemas import (
     ReviewQueueItem,
     ReviewQueueOut,
     JourneyOut,
+    JourneySeen,
     TodayPlanOut,
     TodayPlanTask,
     TopicOut,
@@ -1994,9 +1995,33 @@ async def get_my_plan(
             card=trip.card,
             shield_ready=trip.shield_ready,
             shield_day=trip.shield_day,
+            seen=_seen_or_none(trip.seen),
             **_feather_fields(feather_tally, trip.relics, trip.sparkle),
         ),
     )
+
+
+def _seen_or_none(raw: dict | None) -> JourneySeen | None:
+    """The kept snapshot, or None when there is none or it no longer fits the schema."""
+    if not raw:
+        return None
+    try:
+        return JourneySeen.model_validate(raw)
+    except ValueError:
+        return None
+
+
+@router.put("/me/journey/seen", status_code=status.HTTP_204_NO_CONTENT)
+async def keep_journey_seen(
+    body: JourneySeen,
+    db: Annotated[AsyncSession, Depends(get_db)],
+    profile: Annotated[Profile, Depends(get_current_profile)],
+) -> Response:
+    """The journey moments this learner has now been shown, so that a moment plays once per
+    account whichever device they open next."""
+    await journey.keep_seen(db, profile.id, body.model_dump(mode="json"))
+    await db.commit()
+    return Response(status_code=status.HTTP_204_NO_CONTENT)
 
 
 def _sources_closed_to(profile: Profile) -> bool:

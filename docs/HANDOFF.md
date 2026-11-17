@@ -384,3 +384,11 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
 - Triển khai site bằng `deploy/site-deploy.sh` (CSP theo hash).
 - Thẻ "Trục thời gian" của Ngày 3 giờ là hình vẽ: năm câu hỏi trên một trục (frontend `TimeAxis.tsx`), mỗi dòng ứng với một câu ví dụ của thẻ theo đúng thứ tự (lặp lại, tạm thời, kéo tới bây giờ, đã xong không nêu lúc nào, đã xong nêu được lúc nào). Đổi thứ tự hay số câu ví dụ của thẻ này trong `days.txt` thì hình không hiện nữa (thẻ trở về danh sách ví dụ thường).
 - Ngày 3, soát phần thẻ, từ và bài tập (2026-11-17): rút gọn phần chữ của 5 thẻ ngữ pháp, tách ví dụ thành từng câu; mỗi câu ví dụ có trục thời gian nhỏ (frontend `TimeAxis.tsx`, bảng `EXAMPLE_LANES` khớp theo đúng câu tiếng Anh, đổi câu trong `days.txt` thì phải đổi ở đó). Bài "chọn trục thời gian": bốn lựa chọn được vẽ thành trục (`OPTION_LANES`, khớp theo chuỗi lựa chọn trong ngân hàng bài tập). Thẻ từ vựng có hình cho 9 từ của Ngày 3 (`WORD_PICTURE`).
+
+## 2026-11-17 · Hành trình Thiên Nga, Đợt 1
+
+- **Khoảnh khắc theo tài khoản**: cột `journey.seen` (JSONB, migration `d1f6b3a8c2e4`; migration KHÔNG tự chạy, phải `alembic upgrade head` trong container api). `GET /me/plan` trả `journey.seen`; `PUT /api/v1/me/journey/seen` ghi lại (bản có `at` cũ hơn bị bỏ qua). Frontend lấy bản mới hơn giữa tài khoản và localStorage `haru.journey.v1`, chỉ ghi khi có thay đổi.
+- **Hiệu năng** (frontend): quạ bay bằng transform (`--sw` = bề rộng cảnh, đo bằng ResizeObserver); cảnh tạm dừng mọi animation khi ra khỏi màn hình hoặc tab ẩn (`data-paused`); thiên nga không đổi khung hình khi tab ẩn; bỏ blur trong `jr-rise`.
+- **Ảnh theo kích thước**: bản 960 và 1280 px cho 11 ảnh lâu đài và ảnh hero (`srcSetOf` trong `assets.ts`); `vines-front` giữ nguyên vì bản nhỏ không nhẹ hơn.
+- **Tiếng sự kiện**: `src/lib/journey-sound.ts`, tổng hợp bằng Web Audio, không có tệp âm thanh; bật sẵn, có công tắc trong Cài đặt; im khi bài học đang phát tiếng hoặc tab ẩn.
+- Chưa làm: các animation một lần (`jr-last-petal`, `jr-petal-up`, `jr-before`, `jr-after`) vẫn dùng left/top/filter; ảnh hero ở `JourneyShowcase` chưa gắn srcset.

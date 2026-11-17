@@ -4,9 +4,9 @@ types đồng bộ chính xác với Pydantic schemas của backend FastAPI").
 """
 import uuid
 from datetime import date, datetime
-from typing import Any, Literal
+from typing import Annotated, Any, Literal
 
-from pydantic import BaseModel, EmailStr, Field, computed_field, field_serializer, field_validator
+from pydantic import BaseModel, ConfigDict, EmailStr, Field, computed_field, field_serializer, field_validator
 
 from app.services.grammar_text import split_source_note, usage_sections
 from app.services.grammar_tier import effective_use_level, grammar_tier
@@ -1232,6 +1232,22 @@ class ConstellationOut(BaseModel):
     stars: list[StarOut] = []
 
 
+class JourneySeen(BaseModel):
+    """What the learner was last shown of the journey (frontend JourneyMoments): a moment plays
+    when the journey has moved past this snapshot. `at`: the device's clock in milliseconds."""
+
+    model_config = ConfigDict(extra="forbid")
+
+    stage: int = Field(ge=1, le=5)
+    missed: int = Field(ge=0, le=10_000)
+    cursed: bool = False
+    shield: date | None = None
+    station: bool = False
+    sparkle: int = Field(default=0, ge=0, le=3)
+    relics: list[Annotated[str, Field(max_length=40)]] = Field(default_factory=list, max_length=60)
+    at: int = Field(default=0, ge=0, le=9_999_999_999_999)
+
+
 class JourneyOut(BaseModel):
     """Hành trình Thiên Nga (app/services/journey.py)."""
 
@@ -1256,6 +1272,7 @@ class JourneyOut(BaseModel):
     next_sparkle_at: int | None = None  # starlight feathers for the next sparkle; None at 3
     relics: list[str] = []  # codes of the relics earned, kept for good
     constellations: list[ConstellationOut] = []
+    seen: JourneySeen | None = None  # the moments already shown to this account (None: none yet)
 
 
 class TodayPlanOut(BaseModel):

@@ -144,6 +144,7 @@ class JourneyState:
     relics: list[str] = field(default_factory=list)  # the support topics' relics, kept for good
     sparkle: int = 0  # 0..3, the highest reached
     changed: bool = False  # something new was kept (to commit)
+    seen: dict | None = None  # the moments already shown (Journey.seen)
     shield_ready: bool = True  # this week's shield is still unused
     shield_day: date | None = None  # the last day the shield covered, within the past week
 
@@ -215,4 +216,18 @@ async def compute(
         changed=raised or bool(new_relics) or sparkle > kept_sparkle,
         shield_ready=week_of(today) not in {week_of(d) for d in shields},
         shield_day=max((d for d in shields if d >= today - timedelta(days=7)), default=None),
+        seen=dict(row.seen) if row is not None and isinstance(row.seen, dict) else None,
     )
+
+
+async def keep_seen(db: AsyncSession, learner_id: uuid.UUID, seen: dict) -> None:
+    """Remember what the learner was last shown (not committed here). A snapshot older than the
+    one kept is ignored: two devices may write, and the newer view wins."""
+    row = await db.get(Journey, learner_id)
+    if row is None:
+        row = Journey(learner_id=learner_id, stage=1, relics=[], sparkle=0)
+        db.add(row)
+    kept = row.seen if isinstance(row.seen, dict) else {}
+    if int(kept.get("at") or 0) > int(seen.get("at") or 0):
+        return
+    row.seen = seen

@@ -1588,3 +1588,6 @@ class Journey(Base):
     # finished, and the highest sparkle reached; adding lessons later never takes them back
     relics: Mapped[list] = mapped_column(JSONB, default=list, server_default=text("'[]'::jsonb"))
     sparkle: Mapped[int] = mapped_column(SmallInteger, default=0, server_default="0")
+    # what the learner was last shown of the journey (the moments already played), so that a moment
+    # plays once per account and not once per device; written by PUT /me/journey/seen
+    seen: Mapped[dict | None] = mapped_column(JSONB, nullable=True)

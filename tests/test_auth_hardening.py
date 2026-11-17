@@ -188,3 +188,36 @@ class PublishedSurfaceTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class JourneySeenTests(unittest.TestCase):
+    """What a learner was last shown of the journey is kept per account; the newer snapshot wins."""
+
+    def test_a_snapshot_is_checked_and_an_older_one_does_not_replace_a_newer_one(self):
+        from pydantic import ValidationError
+
+        from app.models import Journey
+        from app.schemas import JourneySeen
+        from app.services import journey
+
+        ok = JourneySeen(stage=2, missed=0, relics=["compass"], at=2000)
+        self.assertEqual(ok.model_dump(mode="json")["stage"], 2)
+        for bad in ({"stage": 9, "missed": 0}, {"stage": 1, "missed": 0, "note": "x"}, {"stage": 1, "missed": -1}):
+            with self.assertRaises(ValidationError):
+                JourneySeen(**bad)
+
+        row = Journey(learner_id="11111111-1111-1111-1111-111111111111", stage=1, relics=[], sparkle=0)
+
+        class Db:
+            async def get(self, model, key):
+                return row
+
+            def add(self, obj):
+                raise AssertionError("the row exists")
+
+        run(journey.keep_seen(Db(), row.learner_id, {"stage": 2, "missed": 0, "at": 2000}))
+        self.assertEqual(row.seen["stage"], 2)
+        run(journey.keep_seen(Db(), row.learner_id, {"stage": 1, "missed": 3, "at": 1000}))  # an older device
+        self.assertEqual(row.seen["stage"], 2)
+        run(journey.keep_seen(Db(), row.learner_id, {"stage": 3, "missed": 0, "at": 3000}))
+        self.assertEqual(row.seen["stage"], 3)
