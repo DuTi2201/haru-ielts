@@ -376,3 +376,9 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
 - Production tắt `/docs` và `/openapi.json`; `CORS_ORIGIN_REGEX` mặc định rỗng.
 - Triển khai site: LUÔN dùng `sh deploy/site-deploy.sh <thư mục build>` trên VM. Script sinh khối Caddy của site (`deploy/make_site_caddy.py`) với CSP liệt kê hash các script inline của bản build đó; chép site bằng tay mà không chạy script thì trang trắng. Khối site nằm ở `/opt/haru/mcp/caddy/ielts.caddy`, được `import` từ Caddyfile chính của máy chủ.
 - Test: `tests/test_auth_hardening.py` (không cần DB).
+
+## 2026-11-17 · Ngày 3 (bài 46): viết lại hai bài giảng theo chuẩn bài 44
+- `scripts/g1/lecture_d3.py` viết lại theo buổi 2 và buổi 3 của thầy. Buổi 1 (13 slide): câu hỏi mua rau (việc đã xong, không nêu lúc nào; không phải "vẫn đang mua"), hai nhánh tách biệt, thắc mắc "không nói thời gian sao có since 2003", `Have you ever been to Italy?` rồi kể bằng quá khứ đơn, since / in / for (for chỉ là giới từ), trạng từ tần suất đi được với hoàn thành, một chỗ trống ba cách chia (have gone / went / are going), ba mẫu, bốn lỗi. Buổi 2 (11 slide): tình huống gọi cả buổi sáng, ba bước kiểm tra, hai câu mẫu trên trục thời gian, quy tắc thay thế, khi hai thì khác nghĩa, lỗi, breath / breathe.
+- `days.txt` Ngày 3: thẻ ngữ pháp thêm các ý trên; thêm 5 câu luyện (mua rau, Da Lat, piano đã nghỉ, often + hoàn thành, xem tivi bốn tiếng).
+- Frontend: trục thời gian có ba kiểu mới (`done` = đã xong không rõ lúc nào, `point` = một thời điểm nêu được, `trace` = vừa dừng còn dấu vết); bốn hình động mới (`basket`, `piano`, `runner`, `ball`).
+- Triển khai site bằng `deploy/site-deploy.sh` (CSP theo hash).

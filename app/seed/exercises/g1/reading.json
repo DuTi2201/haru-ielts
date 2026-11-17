@@ -2266,6 +2266,163 @@
    }
   },
   {
+   "id": "G1D3I7",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 3",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D3I7",
+     "options": [
+      {
+       "id": "1",
+       "text": "Yes, I am buying some vegetables."
+      },
+      {
+       "id": "2",
+       "text": "Yes, I have bought some vegetables."
+      },
+      {
+       "id": "3",
+       "text": "Yes, I have bought some vegetables at seven o'clock."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Việc đã xong, không nêu lúc nào → hiện tại hoàn thành. Đã nêu giờ (`at seven o'clock`) thì phải là quá khứ đơn.",
+     "tags": [],
+     "prompt_vi": "Người nhà hỏi bạn mua rau chưa. Bạn mua rồi và không muốn nêu lúc nào."
+    }
+   ]
+  },
+  {
+   "id": "G1D3I8",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 3",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D3I8",
+     "options": [
+      {
+       "id": "1",
+       "text": "I have been there two years ago."
+      },
+      {
+       "id": "2",
+       "text": "I have gone there two years ago."
+      },
+      {
+       "id": "3",
+       "text": "I went there two years ago."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Có mốc đã qua (`two years ago`) → quá khứ đơn, dù câu hỏi ở hiện tại hoàn thành.",
+     "tags": [],
+     "prompt_vi": "Giám khảo hỏi `Have you ever been to Da Lat?`. Bạn muốn kể mình đi hai năm trước."
+    }
+   ]
+  },
+  {
+   "id": "G1D3I9",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 3",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D3I9",
+     "options": [
+      {
+       "id": "1",
+       "text": "I have studied the piano for two years."
+      },
+      {
+       "id": "2",
+       "text": "I study the piano for two years."
+      },
+      {
+       "id": "3",
+       "text": "I studied the piano for two years."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "`for` chỉ nói độ dài. Đã nghỉ → quá khứ đơn; còn học mới dùng hiện tại hoàn thành.",
+     "tags": [],
+     "prompt_vi": "Bạn từng học piano hai năm, bây giờ đã nghỉ."
+    }
+   ]
+  },
+  {
+   "id": "G1D3Q3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Ngày 3",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D3Q3",
+     "options": [
+      {
+       "id": "1",
+       "text": "am"
+      },
+      {
+       "id": "2",
+       "text": "do"
+      },
+      {
+       "id": "3",
+       "text": "was"
+      },
+      {
+       "id": "4",
+       "text": "have"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Trạng từ tần suất đi được với hiện tại hoàn thành (gộp cả trước và nay); không đi với tiếp diễn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I ( ) often seen him at the library."
+   }
+  },
+  {
+   "id": "G1D3I10",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 3",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D3I10",
+     "options": [
+      {
+       "id": "1",
+       "text": "Have you been watching TV for the last four hours?"
+      },
+      {
+       "id": "2",
+       "text": "Do you watch TV for the last four hours?"
+      },
+      {
+       "id": "3",
+       "text": "Are you watching TV since four hours?"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Có độ dài, bây giờ vẫn đang xem → hoàn thành tiếp diễn.",
+     "tags": [],
+     "prompt_vi": "Em bạn bật tivi từ bốn tiếng trước và vẫn đang xem. Bạn hỏi em."
+    }
+   ]
+  },
+  {
    "id": "G1D3KU3C3-1",
    "skill": "reading",
    "type": "read_cloze",
