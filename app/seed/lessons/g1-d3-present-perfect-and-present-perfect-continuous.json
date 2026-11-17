@@ -123,7 +123,7 @@
   {
    "pattern": "Present perfect · kéo tới bây giờ",
    "meaning_vi": "have / has + V3: bắt đầu trong quá khứ, bây giờ vẫn còn",
-   "usage_context_vi": "Việc bắt đầu từ trước và bây giờ vẫn còn. `since` + mốc bắt đầu, `for` + độ dài.\n`for` chỉ là giới từ: còn làm thì hoàn thành, đã nghỉ thì quá khứ đơn.",
+   "usage_context_vi": "pat: Công thức | have / has + V3 + since / for | I have lived here for six years.\nside: since + mốc | since 2003 | từ lúc nào\nside: for + độ dài | for six years | bao lâu\n!`for` chỉ là giới từ. Việc còn tiếp: hoàn thành. Việc đã dừng: quá khứ đơn.\nside: Vẫn còn học | I have studied the piano for two years. | còn tiếp | span\nside: Đã nghỉ | I studied the piano for two years. | đã dừng | ended",
    "contrasts": [],
    "example_en": "I have lived here for six years.\nShe has known him since she was a child.\nI studied the piano for two years.\nI have often seen him at the library.",
    "example_vi": "Tôi sống ở đây được sáu năm rồi. (bây giờ vẫn sống ở đây)\nCô ấy biết anh ta từ khi còn nhỏ.\nTôi từng học piano hai năm. (đã nghỉ: quá khứ đơn)\nTừ trước tới nay tôi thường thấy anh ấy ở thư viện. (often, usually đi được với hoàn thành)",
@@ -144,7 +144,7 @@
   {
    "pattern": "Present perfect · đã xong, không nói lúc nào",
    "meaning_vi": "have / has + V3: việc đã làm; thời điểm không quan trọng hoặc không muốn nói",
-   "usage_context_vi": "Chỉ báo việc đã làm rồi hay chưa. Thường có `already`, `yet`, `ever`, `never`, `before`.\nNêu được lúc nào (`last summer`, `two years ago`, `When did you…?`) thì đổi sang quá khứ đơn.",
+   "usage_context_vi": "side: Không nói lúc nào | I have been to Italy. | hiện tại hoàn thành | done\nside: Nêu lúc nào | I went to Italy last summer. | quá khứ đơn | point\nchips: already; yet; ever; never; before\n!Có `last summer`, `two years ago`, `When did you…?` thì đổi sang quá khứ đơn.",
    "contrasts": [
     {
      "pattern": "Present perfect · kéo tới bây giờ",
@@ -170,7 +170,7 @@
   {
    "pattern": "Present perfect · hai mẫu cần thuộc",
    "meaning_vi": "It's the first time + have (ever) V3; have gone to / have been to",
-   "usage_context_vi": "Sau `It's the first time` dùng hiện tại hoàn thành.\n`have gone to`: đi và chưa về. `have been to`: đã đến và đã về.",
+   "usage_context_vi": "pat: Lần đầu làm gì | It's the first time + chủ ngữ + have / has + V3 | It's the first time I have eaten octopus.\nside: have gone to | My parents have gone to Hue. | đi rồi, chưa về | span\nside: have been to | I have been to Hue twice. | đến rồi, đã về | done",
    "contrasts": [],
    "example_en": "It's the first time I have ever spoken English on the phone.\nMy parents have gone to Hue.\nI have been to Hue twice.",
    "example_vi": "Đây là lần đầu tiên tôi nói tiếng Anh qua điện thoại.\nBố mẹ tôi đi Huế rồi. (chưa về)\nTôi đã đến Huế hai lần. (đã về)",
@@ -191,7 +191,7 @@
   {
    "pattern": "Present perfect continuous · hai câu hỏi",
    "meaning_vi": "have / has been + V-ing: đã bắt đầu, và lúc nói còn đang làm hoặc vừa dừng",
-   "usage_context_vi": "Ba bước: tìm cụm chỉ độ dài (`all morning`, `for hours`); xem vế hiện tại cho thấy việc còn tiếp diễn không; rồi chọn `have been V-ing`.\nHai cách dùng: bây giờ còn đang làm, hoặc vừa dừng và còn dấu vết.",
+   "usage_context_vi": "step: Tìm cụm chỉ độ dài | `all morning`, `for hours`, `for the last three hours`\nstep: Nhìn vế hiện tại | việc còn tiếp, hay vừa dừng và để lại dấu vết?\nstep: Chọn have / has been + V-ing | I have been trying to call Lan all morning.\nside: Còn đang làm | I have been playing football for the last three hours. | vẫn chơi | span\nside: Vừa dừng, còn dấu vết | I'm out of breath because I have been running. | còn thở dốc | trace",
    "contrasts": [],
    "example_en": "I have been playing football for the last three hours.\nI'm out of breath because I have been running.\nHave you been watching TV for the last four hours? Turn it off!",
    "example_vi": "Tôi chơi bóng suốt ba tiếng nay. (vẫn đang chơi)\nTôi hết hơi vì vừa chạy. (vừa dừng, còn dấu vết)\nEm xem tivi bốn tiếng nay rồi à? Tắt đi! (vẫn đang xem)",
@@ -211,7 +211,7 @@
   {
    "pattern": "Present perfect continuous · thay bằng hiện tại hoàn thành",
    "meaning_vi": "Chỗ nào dùng được hoàn thành tiếp diễn thì thay được bằng hiện tại hoàn thành",
-   "usage_context_vi": "Câu có độ dài (`all morning`, `for six years`): chỗ nào dùng được hoàn thành tiếp diễn thì thay bằng hiện tại hoàn thành cũng được. Khi phân vân, chọn hiện tại hoàn thành.\nHai thì khác nghĩa khi bạn nhấn vào dấu vết (`I've been crying`: mắt còn đỏ) hay kết quả (`I have read that book`: đã đọc xong).",
+   "usage_context_vi": "!Câu có độ dài (`all morning`, `for six years`): chỗ nào dùng được hoàn thành tiếp diễn thì thay bằng hiện tại hoàn thành cũng được. Phân vân: chọn hiện tại hoàn thành.\nside: Nhấn dấu vết | I've been crying. | mắt còn đỏ | trace\nside: Nhấn kết quả | I have read that book. | đã đọc xong | done",
    "contrasts": [
     {
      "pattern": "Present perfect · đã xong, không nói lúc nào",
@@ -236,7 +236,7 @@
   {
    "pattern": "Chính tả · breath, breathe, breadth",
    "meaning_vi": "Ba từ dễ lẫn khi viết và khi đọc",
-   "usage_context_vi": "`breath` /breθ/ là danh từ: hơi thở. `breathe` /briːð/ là động từ: thở. `breadth` /bredθ/ là danh từ: bề rộng.",
+   "usage_context_vi": "prep: breath | danh từ · hơi thở · /breθ/ | Take a deep breath. | breath\nprep: breathe | động từ · thở · /briːð/ | Breathe in slowly. | breathe\nprep: breadth | danh từ · bề rộng · /bredθ/ | the length and breadth of the room | breadth",
    "contrasts": [],
    "example_en": "I am out of breath.\nBreathe slowly.",
    "example_vi": "Tôi hết hơi.\nHãy thở chậm.",

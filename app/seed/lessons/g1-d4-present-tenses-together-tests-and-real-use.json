@@ -123,7 +123,7 @@
   {
    "pattern": "Bốn thì hiện tại · bản đồ hai câu hỏi",
    "meaning_vi": "Hai câu hỏi chia ra bốn thì: có nối từ quá khứ tới bây giờ không, và có nhấn tạm thời, quá trình không",
-   "usage_context_vi": "Câu hỏi 1, có nối từ quá khứ tới bây giờ không? Không: hiện tại đơn hoặc tiếp diễn. Có: thêm `have / has` + V3, thành hoàn thành.\nCâu hỏi 2, có nhấn tạm thời hay quá trình đang diễn ra không? Không: thì đơn. Có: thêm `be` + V-ing, thành tiếp diễn.\nMỗi ô nhớ bằng một câu mẫu. Quên cách dùng thì nhớ lại câu mẫu, từ câu mẫu suy ra cách dùng.",
+   "usage_context_vi": "fork: Có nối từ quá khứ tới bây giờ không? | Không | hiện tại đơn hoặc tiếp diễn | Có | thêm `have / has` + V3\nfork: Có nhấn tạm thời, quá trình không? | Không | thì đơn | Có | thêm `be` + V-ing\n!Mỗi ô nhớ bằng một câu mẫu. Quên cách dùng: nhớ lại câu mẫu, từ câu mẫu suy ra cách dùng.",
    "contrasts": [],
    "example_en": "She lives in Hanoi.\nShe is living in Hanoi now.\nI have studied the piano since 2003.\nI have been playing football for three hours.",
    "example_vi": "Chị ấy sống ở Hà Nội. (hiện tại đơn: lâu dài, coi là thật)\nBây giờ chị ấy đang ở Hà Nội. (hiện tại tiếp diễn: tạm thời)\nTôi học piano từ năm 2003. (hiện tại hoàn thành: kéo tới bây giờ)\nTôi chơi bóng ba tiếng nay rồi. (hoàn thành tiếp diễn: vẫn đang chơi)",
@@ -134,7 +134,7 @@
   {
    "pattern": "Đơn hay tiếp diễn · lâu dài hay tạm thời",
    "meaning_vi": "Hiện tại đơn: lặp lại, điều người nói coi là thật. Hiện tại tiếp diễn: tạm thời, than phiền với always, kế hoạch đã hẹn",
-   "usage_context_vi": "Hiện tại đơn: việc lặp lại, và sự thật, cả khách quan lẫn chủ quan. Điều người nói coi là thật lúc nói, kể cả khi họ nhìn sai hay nói dối, vẫn chia hiện tại đơn.\nHiện tại tiếp diễn có ba việc: tạm thời quanh lúc này; than phiền với `always` + V-ing; kế hoạch đã hẹn.",
+   "usage_context_vi": "side: Hiện tại đơn | She lives in Hanoi. | lâu dài, coi là thật | always\nside: Tiếp diễn | She is living in Hanoi now. | ở tạm | window\nprep: V-s | hiện tại đơn: hai việc | lặp lại · sự thật, khách quan lẫn chủ quan, kể cả nhìn sai hay nói dối\nprep: -ing | tiếp diễn: ba việc | tạm thời quanh lúc này · than phiền với `always` + V-ing · kế hoạch đã hẹn",
    "contrasts": [
     {
      "pattern": "Bốn thì hiện tại · bản đồ hai câu hỏi",
@@ -159,7 +159,7 @@
   {
    "pattern": "Hoàn thành hay hoàn thành tiếp diễn · hai nhánh, hai câu mẫu",
    "meaning_vi": "Hoàn thành: kéo tới bây giờ, hoặc đã xong mà không nói lúc nào. Hoàn thành tiếp diễn: vẫn đang làm, hoặc vừa dừng và còn dấu vết",
-   "usage_context_vi": "Hiện tại hoàn thành có hai nhánh tách biệt. Nhánh 1: bắt đầu từ trước, bây giờ vẫn còn, đi được với `since`, `for`. Nhánh 2: đã xong, không nêu lúc nào. Nêu lúc nào thì đổi sang quá khứ đơn.\nHoàn thành tiếp diễn: nhớ hai câu mẫu. Câu 1: vẫn đang làm. Câu 2: vừa dừng, còn dấu vết ở hiện tại.",
+   "usage_context_vi": "## Hiện tại hoàn thành · hai nhánh\nside: Nhánh 1 · kéo tới bây giờ | I have studied the piano since 2003. | vẫn học | span\nside: Nhánh 2 · đã xong | Yes, I have bought some vegetables. | không nói lúc nào | done\n!Nêu lúc nào (`in 2003`, `yesterday`) thì đổi sang quá khứ đơn.\n## Hoàn thành tiếp diễn · hai câu mẫu\nside: Vẫn đang làm | I have been playing football for three hours. | vẫn chơi | span\nside: Vừa dừng, còn dấu vết | I am very tired. I have been running for three hours. | còn mệt | trace",
    "contrasts": [],
    "example_en": "I have studied the piano since 2003.\nYes, I have bought some vegetables.\nI have been playing football for three hours.\nI am very tired. I have been running for three hours.",
    "example_vi": "Tôi học piano từ năm 2003. (nhánh 1: vẫn học)\nTôi mua rau rồi. (nhánh 2: đã xong, không nói lúc nào)\nTôi chơi bóng ba tiếng nay rồi. (vẫn đang chơi)\nTôi mệt lắm. Tôi vừa chạy suốt ba tiếng. (vừa dừng, còn dấu vết)",
@@ -180,7 +180,7 @@
   {
    "pattern": "Làm bài và dùng thật · dấu hiệu và ý muốn nói",
    "meaning_vi": "Bài thi có một đáp án nên dựa vào dấu hiệu; khi nói và viết, điều bạn muốn nhấn quyết định thì",
-   "usage_context_vi": "Khi làm bài: cụm tần suất (`every day`, `almost every weekend`) xóa tính tạm thời, nên chọn thì đơn; động từ trạng thái (`own`, `know`) không chia tiếp diễn; `since` đi với thì hoàn thành.\nKhi nói và viết: một câu hỏi có thể đáp bằng nhiều thì, mỗi thì một ý. Câu hỏi thường dùng thì đơn giản nhất; người trả lời chọn thì của mình.\nPhân vân mà không thấy gì tạm thời, cũng không nối với quá khứ: chọn hiện tại đơn.",
+   "usage_context_vi": "## Khi làm bài · dấu hiệu quyết định\nprep: lặp lại | `every day`, `almost every weekend` | xóa tính tạm thời → thì đơn\nprep: own | động từ trạng thái: `own`, `know` | không chia tiếp diễn\nprep: since | `since` + mốc | → thì hoàn thành\n## Khi nói, viết · ý muốn nói quyết định\nask: How is your English going?\ntl: Thói quen | Hiện tại đơn | I study every evening.\ntl: Riêng tháng này | Tiếp diễn | I'm studying harder this month.\ntl: Từ bao giờ | Hoàn thành | I have studied it since 2023.\n!Phân vân mà không thấy gì tạm thời, cũng không nối với quá khứ: chọn hiện tại đơn.",
    "contrasts": [],
    "example_en": "My brother plays football almost every weekend.\nMr Connors owns two houses and a villa.\nI'm studying harder this month.",
    "example_vi": "Gần như cuối tuần nào anh tôi cũng đá bóng. (bài thi: có almost every weekend)\nÔng Connors có hai căn nhà và một biệt thự. (tài sản lâu dài: không nói is owning)\nTháng này tôi học chăm hơn. (ngoài đời: người nói muốn nhấn tạm thời)",
@@ -201,7 +201,7 @@
   {
    "pattern": "Một câu trả lời, bốn thì · Speaking Part 1",
    "meaning_vi": "Trả lời Do you work or study? bằng bốn câu nối nhau, mỗi câu một thì",
-   "usage_context_vi": "Câu 1 trả lời thẳng (hiện tại đơn). Câu 2 thêm việc tạm thời (tiếp diễn). Câu 3 thêm từ bao giờ (hoàn thành). Câu 4 thêm quá trình gần đây và dấu vết của nó (hoàn thành tiếp diễn).",
+   "usage_context_vi": "step: Trả lời thẳng | hiện tại đơn\nstep: Thêm việc tạm thời | tiếp diễn\nstep: Thêm từ bao giờ | hiện tại hoàn thành\nstep: Thêm việc gần đây, còn dấu vết | hoàn thành tiếp diễn",
    "contrasts": [],
    "example_en": "I work as an accountant in a small company.\nThis month I'm also studying for an IELTS test.\nI have worked there since 2022, and my colleagues are very friendly.\nRecently I have been doing a lot of extra tasks, so I'm quite tired.",
    "example_vi": "Tôi làm kế toán ở một công ty nhỏ.\nTháng này tôi còn đang học để thi IELTS.\nTôi làm ở đó từ năm 2022, đồng nghiệp rất thân thiện.\nGần đây tôi làm nhiều việc thêm, nên khá mệt.",
