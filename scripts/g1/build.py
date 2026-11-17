@@ -24,6 +24,7 @@ import day89 as D89  # noqa: E402
 import lecture_d1 as L1  # noqa: E402
 import lecture_d2 as L2  # noqa: E402
 import lecture_d3 as L3  # noqa: E402
+import lecture_d4 as L4  # noqa: E402
 import lecture_d7 as L7  # noqa: E402
 import lecture_d12 as L12  # noqa: E402
 from assoc import ASSOC  # noqa: E402
@@ -124,6 +125,10 @@ KIND = {
 }
 
 
+# a day whose title changed keeps the slug it was first published under (learners' progress hangs on it)
+KEEP_SLUG = {4: "Present tenses together: tests and real use"}
+
+
 def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]]:
     n = d["n"]
     pid = f"G1D{n}"
@@ -175,7 +180,7 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
                 ex = B.write_fill(ex_id, ttl, text, acc, tip)
                 ex["instruction_vi"] = instr
                 bank["build"].append(ex)
-            links[ex_id] = [patterns[0] if n in (1, 3) else patterns[min(1, len(patterns) - 1)]]
+            links[ex_id] = [patterns[3] if n == 4 else patterns[0] if n in (1, 3) else patterns[min(1, len(patterns) - 1)]]
             book_ids.append(ex_id)
             book_groups.setdefault(code, []).append(ex_id)
             book_src[code] = (title, src)
@@ -209,6 +214,12 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
     if n == 3:
         for e in bank["writing"]:
             e["rubric"] = L3.RUBRIC
+    if n == 4:  # the review day: a memory hook under each word, the rubric of the four-tense answer
+        for v in vocab:
+            if v["headword"] in L4.NOTES:
+                v["note_vi"] = L4.NOTES[v["headword"]]
+        for e in bank["writing"]:
+            e["rubric"] = L4.RUBRIC
     grammar = []
     for c in d["cards"]:
         use = c["use"] + (f"\nTrích: «{c['quote']}»" if c["quote"] else "")
@@ -246,6 +257,8 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
             "grammar": [patterns[c] for c in g],
             "check": checks,
         })
+    if n == 4:
+        sessions = L4.reshape(sessions, [e["id"] for k in bank for e in bank[k]], {x: c for c, xs in by_card.items() for x in xs})
     if n == 3:
         sessions = L3.reshape(sessions, [e["id"] for k in bank for e in bank[k]], {x: c for c, xs in by_card.items() for x in xs})
     if n == 2:
@@ -277,7 +290,7 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
         for b in d["book"])
     traps = [c["trap"] for c in d["cards"] if c["trap"] and len(c["trap"]) <= 230 and c["trap"].count("`") % 2 == 0]
     lesson = {
-        "slug": f"g1-d{n}-{B.slugify(d['title'])}"[:60].rstrip("-"),
+        "slug": f"g1-d{n}-{B.slugify(KEEP_SLUG.get(n, d['title']))}"[:60].rstrip("-"),
         "title": f"Tuần 1 · Ngày {DAYNO[n]} · {d['title_vi']}", "title_en": d["title"], "topic": TOPIC, "track": "beginner", "level": 4, "sort_order": 100 + n,
         "summary": f"{d['goal']} Thẻ: {'; '.join(p.split(' · ')[-1] for p in patterns)}.",
         "vocab": vocab, "grammar": grammar,

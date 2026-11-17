@@ -3731,6 +3731,380 @@
    }
   },
   {
+   "id": "G1D4T1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Ngày 4",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D4T1",
+     "options": [
+      {
+       "id": "1",
+       "text": "quá khứ ━━━━● vừa dừng, còn dấu vết"
+      },
+      {
+       "id": "2",
+       "text": "● ● ● ● lặp lại quanh bây giờ"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ●━━━━━━▶ bây giờ (còn tiếp)"
+      },
+      {
+       "id": "4",
+       "text": "├─ bây giờ ─┤ (tạm thời, rồi hết)"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Việc lặp lại → hiện tại đơn.",
+     "tags": [],
+     "prompt_vi": "«I go to the gym three times a week.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D4T2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Ngày 4",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D4T2",
+     "options": [
+      {
+       "id": "1",
+       "text": "├─ bây giờ ─┤ (tạm thời, rồi hết)"
+      },
+      {
+       "id": "2",
+       "text": "● ● ● ● lặp lại quanh bây giờ"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ● (xong, không rõ lúc nào) ┄┄ bây giờ"
+      },
+      {
+       "id": "4",
+       "text": "quá khứ ●━━━━━━▶ bây giờ (còn tiếp)"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Tiếp diễn: chỗ ở tạm, rồi sẽ đổi. `She lives in Hanoi` mới là lâu dài.",
+     "tags": [],
+     "prompt_vi": "«She is living in Hanoi now.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D4T3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Ngày 4",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D4T3",
+     "options": [
+      {
+       "id": "1",
+       "text": "├─ bây giờ ─┤ (tạm thời, rồi hết)"
+      },
+      {
+       "id": "2",
+       "text": "quá khứ ●━━━━━━▶ bây giờ (còn tiếp)"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ● (xong, không rõ lúc nào) ┄┄ bây giờ"
+      },
+      {
+       "id": "4",
+       "text": "quá khứ ━━━━● vừa dừng, còn dấu vết"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`since 2003`: bắt đầu năm 2003, bây giờ vẫn học.",
+     "tags": [],
+     "prompt_vi": "«I have studied the piano since 2003.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D4T4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Ngày 4",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D4T4",
+     "options": [
+      {
+       "id": "1",
+       "text": "quá khứ ●━━━━━━▶ bây giờ (còn tiếp)"
+      },
+      {
+       "id": "2",
+       "text": "● ● ● ● lặp lại quanh bây giờ"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ━━━━● vừa dừng, còn dấu vết"
+      },
+      {
+       "id": "4",
+       "text": "├─ bây giờ ─┤ (tạm thời, rồi hết)"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "`I'm very tired` là dấu vết: việc chạy vừa dừng.",
+     "tags": [],
+     "prompt_vi": "«I'm very tired. I have been running for three hours.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D4I7",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 4",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D4I7",
+     "options": [
+      {
+       "id": "1",
+       "text": "She has lived in Hanoi now."
+      },
+      {
+       "id": "2",
+       "text": "She is living in Hanoi now."
+      },
+      {
+       "id": "3",
+       "text": "She lives in Hanoi now."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Chỗ ở tạm, rồi sẽ đổi → tiếp diễn. `She lives in Hanoi` chỉ báo sự thật, không có ý tạm.",
+     "tags": [],
+     "prompt_vi": "Có người hỏi Where is your sister? Chị bạn ở Hà Nội vài tháng vì công việc, rồi sẽ chuyển đi."
+    }
+   ]
+  },
+  {
+   "id": "G1D4I8",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 4",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D4I8",
+     "options": [
+      {
+       "id": "1",
+       "text": "He has always left his clothes on the floor."
+      },
+      {
+       "id": "2",
+       "text": "He always leaves his clothes on the floor."
+      },
+      {
+       "id": "3",
+       "text": "He is always leaving his clothes on the floor!"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Than phiền về thói quen làm mình bực → `always` + V-ing. Câu hiện tại đơn đúng ngữ pháp nhưng chỉ kể lại, không than.",
+     "tags": [],
+     "prompt_vi": "Bạn bực vì em trai cứ vứt quần áo dưới sàn, và muốn than phiền."
+    }
+   ]
+  },
+  {
+   "id": "G1D4I9",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Ngày 4",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D4I9",
+     "options": [
+      {
+       "id": "1",
+       "text": "I am getting up at six every morning."
+      },
+      {
+       "id": "2",
+       "text": "I get up at six every morning."
+      },
+      {
+       "id": "3",
+       "text": "I have got up at six every morning."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Điều người nói trình bày là thật, kể cả khi nói dối → hiện tại đơn.",
+     "tags": [],
+     "prompt_vi": "Bạn nói với mẹ là ngày nào bạn cũng dậy lúc sáu giờ, dù thật ra bạn dậy lúc chín giờ."
+    }
+   ]
+  },
+  {
+   "id": "G1D4Q5",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D4Q5",
+     "options": [
+      {
+       "id": "1",
+       "text": "have been run"
+      },
+      {
+       "id": "2",
+       "text": "am running"
+      },
+      {
+       "id": "3",
+       "text": "have been running"
+      },
+      {
+       "id": "4",
+       "text": "run"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "`I'm very tired` là dấu vết của việc kéo dài vừa dừng, có `for three hours` → hoàn thành tiếp diễn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I'm very tired. I ( ) for three hours."
+   }
+  },
+  {
+   "id": "G1D4Q6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D4Q6",
+     "options": [
+      {
+       "id": "1",
+       "text": "owns"
+      },
+      {
+       "id": "2",
+       "text": "is owning"
+      },
+      {
+       "id": "3",
+       "text": "own"
+      },
+      {
+       "id": "4",
+       "text": "are owning"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Tài sản lâu dài, `own` là động từ trạng thái → hiện tại đơn. `is owning` nghe như chỉ giữ được ít hôm.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Mr Connors ( ) two houses and a villa in the south of France."
+   }
+  },
+  {
+   "id": "G1D4Q7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D4Q7",
+     "options": [
+      {
+       "id": "1",
+       "text": "is playing"
+      },
+      {
+       "id": "2",
+       "text": "plays"
+      },
+      {
+       "id": "3",
+       "text": "play"
+      },
+      {
+       "id": "4",
+       "text": "has been playing"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Bài thi: `almost every weekend` là lặp lại, xóa tính tạm thời → hiện tại đơn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "My brother ( ) football almost every weekend."
+   }
+  },
+  {
+   "id": "G1D4Q8",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D4Q8",
+     "options": [
+      {
+       "id": "1",
+       "text": "Have you been working"
+      },
+      {
+       "id": "2",
+       "text": "Have you work"
+      },
+      {
+       "id": "3",
+       "text": "Are you work"
+      },
+      {
+       "id": "4",
+       "text": "Do you work"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Tay còn dính đất là dấu vết của việc vừa làm → hoàn thành tiếp diễn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Look at your hands! ( ) in the garden?"
+   }
+  },
+  {
    "id": "G1D4KE-1",
    "skill": "reading",
    "type": "read_cloze",

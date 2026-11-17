@@ -3662,6 +3662,47 @@
    ]
   },
   {
+   "id": "G1D4B5",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Ngày 4",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bây giờ chị ấy đang ở Hà Nội.",
+   "tiles": [
+    "is",
+    "Hanoi",
+    "in",
+    "living",
+    "now",
+    "She"
+   ],
+   "answers": [
+    "She is living in Hanoi now"
+   ]
+  },
+  {
+   "id": "G1D4B6",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Ngày 4",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi vừa chạy suốt ba tiếng.",
+   "tiles": [
+    "been",
+    "hours",
+    "three",
+    "I",
+    "for",
+    "have",
+    "running"
+   ],
+   "answers": [
+    "I have been running for three hours"
+   ]
+  },
+  {
    "id": "G1D4F1",
    "skill": "build",
    "type": "write_fill",
@@ -3795,6 +3836,29 @@
       "thinks"
      ],
      "common_errors_vi": "`think` nghĩa \"cho rằng\" là trạng thái; `everyone` chia số ít."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D4F7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Ngày 4",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Look! Your shirt is wet. ( ㉠ ) (you / run)?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "Have you been running",
+      "'ve you been running"
+     ],
+     "common_errors_vi": "Áo ướt là dấu vết của việc vừa làm → hoàn thành tiếp diễn."
     }
    ],
    "tips_vi": []

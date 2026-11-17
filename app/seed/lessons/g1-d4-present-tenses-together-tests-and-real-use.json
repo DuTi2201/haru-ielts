@@ -1,82 +1,67 @@
 {
  "slug": "g1-d4-present-tenses-together-tests-and-real-use",
- "title": "Tuần 1 · Ngày 4 · Ôn tập bốn thì hiện tại: làm bài và dùng thật",
- "title_en": "Present tenses together: tests and real use",
+ "title": "Tuần 1 · Ngày 4 · Hệ thống bốn thì hiện tại",
+ "title_en": "The four present tenses: one system",
  "topic": "Tuần 1 · Giáo dục (Education)",
  "track": "beginner",
  "level": 4,
  "sort_order": 104,
- "summary": "Chọn đúng giữa bốn thì hiện tại trong câu trộn lẫn; biết khi nào dựa vào từ dấu hiệu (làm bài) và khi nào dựa vào ý muốn nói (nói, viết). Thẻ: Bài ở trường và dùng thật; bốn câu tự hỏi.",
+ "summary": "Nhìn bốn thì hiện tại như một hệ thống: hai câu hỏi chia ra bốn ô; nhớ mỗi thì bằng câu mẫu; chọn thì theo dấu hiệu khi làm bài và theo ý muốn nói khi nói, viết. Thẻ: bản đồ hai câu hỏi; lâu dài hay tạm thời; hai nhánh, hai câu mẫu; dấu hiệu và ý muốn nói; Speaking Part 1.",
  "vocab": [
   {
-   "headword": "qualifications",
-   "pos": "N",
-   "meaning_vi": "bằng cấp, trình độ chuyên môn",
-   "example_en": "What qualifications do you need for this job?",
-   "example_vi": "Công việc này cần bằng cấp gì?",
+   "headword": "study",
+   "pos": "V",
+   "meaning_vi": "học (điều mới)",
+   "example_en": "I study English every evening.",
+   "example_vi": "Tối nào tôi cũng học tiếng Anh.",
    "family": "Từ của ngày",
    "priority": "core",
-   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1",
+   "note_vi": "Học điều mới. Đi cặp với revise: ôn lại điều đã học."
   },
   {
-   "headword": "qualities",
-   "pos": "N",
-   "meaning_vi": "phẩm chất",
-   "example_en": "Patience is one of her best qualities.",
-   "example_vi": "Kiên nhẫn là một trong những phẩm chất tốt nhất của cô ấy.",
+   "headword": "revise",
+   "pos": "V",
+   "meaning_vi": "ôn lại (điều đã học)",
+   "example_en": "I am revising for my exam this week.",
+   "example_vi": "Tuần này tôi đang ôn thi.",
    "family": "Từ của ngày",
    "priority": "core",
-   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
-  },
-  {
-   "headword": "effort",
-   "pos": "N",
-   "meaning_vi": "sự cố gắng",
-   "example_en": "Learning a language takes a lot of effort.",
-   "example_vi": "Học một ngôn ngữ cần rất nhiều cố gắng.",
-   "family": "Từ của ngày",
-   "priority": "core",
-   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
-  },
-  {
-   "headword": "task",
-   "pos": "N",
-   "meaning_vi": "nhiệm vụ, bài được giao",
-   "example_en": "Our task was to design a poster.",
-   "example_vi": "Nhiệm vụ của chúng tôi là thiết kế một tấm áp phích.",
-   "family": "Từ của ngày",
-   "priority": "core",
-   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1",
+   "note_vi": "Ôn lại điều đã học, nhất là trước kỳ thi. Đi cặp với study."
   },
   {
    "headword": "test",
    "pos": "N",
-   "meaning_vi": "bài kiểm tra",
+   "meaning_vi": "bài kiểm tra (ngắn, trên lớp)",
    "example_en": "We have a short test every Friday.",
    "example_vi": "Thứ Sáu nào chúng tôi cũng có bài kiểm tra ngắn.",
    "family": "Từ của ngày",
    "priority": "core",
-   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1",
+   "note_vi": "Bài ngắn, trên lớp, như bài kiểm tra mười lăm phút. Đi cặp với exam."
   },
   {
    "headword": "exam",
    "pos": "N",
-   "meaning_vi": "kỳ thi",
-   "example_en": "The final exam is in June.",
-   "example_vi": "Kỳ thi cuối kỳ vào tháng Sáu.",
+   "meaning_vi": "kỳ thi (lớn, chính thức)",
+   "example_en": "I have been revising for this exam since June.",
+   "example_vi": "Tôi ôn cho kỳ thi này từ tháng Sáu.",
    "family": "Từ của ngày",
    "priority": "core",
-   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1",
+   "note_vi": "Kỳ thi lớn, chính thức, như thi cuối kỳ hay IELTS. Đi cặp với test."
   },
   {
    "headword": "classmate",
    "pos": "N",
    "meaning_vi": "bạn cùng lớp",
-   "example_en": "I still meet my old classmates.",
-   "example_vi": "Tôi vẫn gặp các bạn cùng lớp cũ.",
+   "example_en": "I have known most of my classmates for two years.",
+   "example_vi": "Tôi quen phần lớn bạn cùng lớp đã hai năm.",
    "family": "Từ của ngày",
    "priority": "core",
-   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1",
+   "note_vi": "Người học cùng lớp. Ở chỗ làm thì là colleague."
   },
   {
    "headword": "colleague",
@@ -86,57 +71,98 @@
    "example_vi": "Đồng nghiệp của tôi rất thân thiện.",
    "family": "Từ của ngày",
    "priority": "core",
-   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1",
+   "note_vi": "Người làm cùng chỗ. Ở trường thì là classmate."
   },
   {
-   "headword": "study",
-   "pos": "V",
-   "meaning_vi": "học (bài, môn học)",
-   "example_en": "You have to study hard at university.",
-   "example_vi": "Ở đại học bạn phải học chăm.",
+   "headword": "task",
+   "pos": "N",
+   "meaning_vi": "việc được giao",
+   "example_en": "I have finished half of my tasks today.",
+   "example_vi": "Hôm nay tôi làm xong một nửa số việc được giao.",
    "family": "Từ của ngày",
    "priority": "core",
-   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1",
+   "note_vi": "Một việc được giao, như Writing Task 1 và Task 2. Đi cặp với effort."
   },
   {
-   "headword": "revise",
-   "pos": "V",
-   "meaning_vi": "ôn bài",
-   "example_en": "I am revising for my exam this week.",
-   "example_vi": "Tuần này tôi đang ôn thi.",
+   "headword": "effort",
+   "pos": "N",
+   "meaning_vi": "sự cố gắng, công sức",
+   "example_en": "Learning a language takes a lot of effort.",
+   "example_vi": "Học một ngôn ngữ cần rất nhiều công sức.",
    "family": "Từ của ngày",
    "priority": "core",
-   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1",
+   "note_vi": "Công sức bạn bỏ ra để làm việc đó. make an effort: cố gắng."
+  },
+  {
+   "headword": "qualifications",
+   "pos": "N",
+   "meaning_vi": "bằng cấp, chứng chỉ",
+   "example_en": "What qualifications do you need for this job?",
+   "example_vi": "Công việc này cần bằng cấp gì?",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1",
+   "note_vi": "Bằng cấp, chứng chỉ: thứ ghi được lên giấy. Đi cặp với qualities."
+  },
+  {
+   "headword": "qualities",
+   "pos": "N",
+   "meaning_vi": "phẩm chất",
+   "example_en": "Patience is one of her best qualities.",
+   "example_vi": "Kiên nhẫn là một trong những phẩm chất tốt nhất của cô ấy.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1",
+   "note_vi": "Phẩm chất: con người bạn, như kiên nhẫn, trung thực. Đi cặp với qualifications."
   }
  ],
  "grammar": [
   {
-   "pattern": "Bài ở trường và dùng thật",
-   "meaning_vi": "Làm bài: nhìn từ dấu hiệu. Nói và viết: theo ý muốn nói",
-   "usage_context_vi": "Bài trắc nghiệm được soạn để có một đáp án, nên từ dấu hiệu (`every weekend`, `already`, `usually`, `right now`) cho ta đáp án. Cần biết chúng để làm đúng bài trong sách.\nKhi nói và viết, không có từ dấu hiệu nào cho sẵn: ý muốn nói quyết định. Ví dụ `almost every weekend`: bài trong sách chọn hiện tại đơn; ngoài đời, người muốn nhấn tính tạm thời vẫn dùng tiếp diễn.",
+   "pattern": "Bốn thì hiện tại · bản đồ hai câu hỏi",
+   "meaning_vi": "Hai câu hỏi chia ra bốn thì: có nối từ quá khứ tới bây giờ không, và có nhấn tạm thời, quá trình không",
+   "usage_context_vi": "Câu hỏi 1, có nối từ quá khứ tới bây giờ không? Không: hiện tại đơn hoặc tiếp diễn. Có: thêm `have / has` + V3, thành hoàn thành.\nCâu hỏi 2, có nhấn tạm thời hay quá trình đang diễn ra không? Không: thì đơn. Có: thêm `be` + V-ing, thành tiếp diễn.\nMỗi ô nhớ bằng một câu mẫu. Quên cách dùng thì nhớ lại câu mẫu, từ câu mẫu suy ra cách dùng.",
    "contrasts": [],
-   "example_en": "My brother plays football almost every weekend.\nI usually cycle to work, but this week I'm taking the bus.",
-   "example_vi": "Gần như cuối tuần nào anh tôi cũng đá bóng.\nTôi thường đạp xe đi làm, nhưng tuần này tôi đi xe buýt.",
+   "example_en": "She lives in Hanoi.\nShe is living in Hanoi now.\nI have studied the piano since 2003.\nI have been playing football for three hours.",
+   "example_vi": "Chị ấy sống ở Hà Nội. (hiện tại đơn: lâu dài, coi là thật)\nBây giờ chị ấy đang ở Hà Nội. (hiện tại tiếp diễn: tạm thời)\nTôi học piano từ năm 2003. (hiện tại hoàn thành: kéo tới bây giờ)\nTôi chơi bóng ba tiếng nay rồi. (hoàn thành tiếp diễn: vẫn đang chơi)",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 8-11; cách giảng của khóa học",
+   "exam_tip_vi": "Thay bốn câu mẫu bằng bốn câu về chính bạn và học thuộc bốn câu đó."
+  },
+  {
+   "pattern": "Đơn hay tiếp diễn · lâu dài hay tạm thời",
+   "meaning_vi": "Hiện tại đơn: lặp lại, điều người nói coi là thật. Hiện tại tiếp diễn: tạm thời, than phiền với always, kế hoạch đã hẹn",
+   "usage_context_vi": "Hiện tại đơn: việc lặp lại, và sự thật, cả khách quan lẫn chủ quan. Điều người nói coi là thật lúc nói, kể cả khi họ nhìn sai hay nói dối, vẫn chia hiện tại đơn.\nHiện tại tiếp diễn có ba việc: tạm thời quanh lúc này; than phiền với `always` + V-ing; kế hoạch đã hẹn.",
+   "contrasts": [
+    {
+     "pattern": "Bốn thì hiện tại · bản đồ hai câu hỏi",
+     "diff_vi": "`She lives in Hanoi` chỉ báo sự thật; `She is living in Hanoi now` nói đây là chỗ ở tạm."
+    }
+   ],
+   "example_en": "I get up at six every morning.\nWater boils at 100 degrees.\nHe is always leaving his clothes on the floor!\nI'm meeting Lan tomorrow.",
+   "example_vi": "Con dậy lúc sáu giờ mỗi sáng. (nói với mẹ, dù thật ra dậy lúc chín giờ: vẫn là hiện tại đơn)\nNước sôi ở 100 độ. (sự thật khách quan)\nNó cứ vứt quần áo dưới sàn! (than phiền)\nMai tôi gặp Lan. (đã hẹn)",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 8-11; cách giảng của khóa học",
    "check": {
-    "stem": "How much ( ) nurses generally earn?",
+    "stem": "Bạn nói về xu hướng: ngày càng nhiều người học tiếng Anh trên điện thoại.",
     "options": [
-     "do",
-     "are",
-     "have",
-     "does"
+     "More and more people are learning English on their phones.",
+     "More and more people learn English on their phones since now.",
+     "More and more people have learn English on their phones."
     ],
-    "why": "Hỏi một sự thật chung, có `generally` → hiện tại đơn; chủ ngữ số nhiều nên dùng `do`."
-   }
+    "why": "Xu hướng đang thay đổi → tiếp diễn."
+   },
+   "note_vi": "Lỗi người Việt hay mắc: Chia tiếp diễn với động từ trạng thái: ~~I am knowing the answer~~ → I know the answer."
   },
   {
-   "pattern": "Bốn thì hiện tại · bốn câu tự hỏi",
-   "meaning_vi": "Lặp lại hay coi là thật? Tạm thời? Kéo tới bây giờ hoặc đã xong không rõ lúc nào? Đang dở và nhấn độ dài?",
-   "usage_context_vi": "| Tự hỏi | Thì | Câu mẫu |\n| Việc lặp lại, trạng thái, điều tôi coi là thật? | Hiện tại đơn | I work in a bank. |\n| Việc tạm thời, đang đổi, đã hẹn? | Hiện tại tiếp diễn | I'm working from home this week. |\n| Kéo từ trước tới giờ, hoặc đã xong mà không nói lúc nào? | Hiện tại hoàn thành | I have worked here since 2020. |\n| Đã bắt đầu, còn đang làm, muốn nhấn độ dài? | Hoàn thành tiếp diễn | I have been working all day. |",
+   "pattern": "Hoàn thành hay hoàn thành tiếp diễn · hai nhánh, hai câu mẫu",
+   "meaning_vi": "Hoàn thành: kéo tới bây giờ, hoặc đã xong mà không nói lúc nào. Hoàn thành tiếp diễn: vẫn đang làm, hoặc vừa dừng và còn dấu vết",
+   "usage_context_vi": "Hiện tại hoàn thành có hai nhánh tách biệt. Nhánh 1: bắt đầu từ trước, bây giờ vẫn còn, đi được với `since`, `for`. Nhánh 2: đã xong, không nêu lúc nào. Nêu lúc nào thì đổi sang quá khứ đơn.\nHoàn thành tiếp diễn: nhớ hai câu mẫu. Câu 1: vẫn đang làm. Câu 2: vừa dừng, còn dấu vết ở hiện tại.",
    "contrasts": [],
-   "example_en": "I work in a bank. I'm working from home this week.\nI have worked here since 2020. I have been working all day.",
-   "example_vi": "Tôi làm ở ngân hàng. Tuần này tôi làm ở nhà.\nTôi làm ở đây từ năm 2020. Tôi làm việc suốt cả ngày nay.",
+   "example_en": "I have studied the piano since 2003.\nYes, I have bought some vegetables.\nI have been playing football for three hours.\nI am very tired. I have been running for three hours.",
+   "example_vi": "Tôi học piano từ năm 2003. (nhánh 1: vẫn học)\nTôi mua rau rồi. (nhánh 2: đã xong, không nói lúc nào)\nTôi chơi bóng ba tiếng nay rồi. (vẫn đang chơi)\nTôi mệt lắm. Tôi vừa chạy suốt ba tiếng. (vừa dừng, còn dấu vết)",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 8-11; cách giảng của khóa học",
    "check": {
@@ -149,13 +175,45 @@
     ],
     "why": "`all morning` và việc vẫn đang dở → hoàn thành tiếp diễn."
    },
-   "exam_tip_vi": "Thay bốn câu mẫu bằng bốn câu về chính bạn và học thuộc bốn câu đó."
+   "note_vi": "Lỗi người Việt hay mắc: Việc đã xong mà nêu năm: ~~I have studied the piano in 2003~~ → I studied the piano in 2003."
+  },
+  {
+   "pattern": "Làm bài và dùng thật · dấu hiệu và ý muốn nói",
+   "meaning_vi": "Bài thi có một đáp án nên dựa vào dấu hiệu; khi nói và viết, điều bạn muốn nhấn quyết định thì",
+   "usage_context_vi": "Khi làm bài: cụm tần suất (`every day`, `almost every weekend`) xóa tính tạm thời, nên chọn thì đơn; động từ trạng thái (`own`, `know`) không chia tiếp diễn; `since` đi với thì hoàn thành.\nKhi nói và viết: một câu hỏi có thể đáp bằng nhiều thì, mỗi thì một ý. Câu hỏi thường dùng thì đơn giản nhất; người trả lời chọn thì của mình.\nPhân vân mà không thấy gì tạm thời, cũng không nối với quá khứ: chọn hiện tại đơn.",
+   "contrasts": [],
+   "example_en": "My brother plays football almost every weekend.\nMr Connors owns two houses and a villa.\nI'm studying harder this month.",
+   "example_vi": "Gần như cuối tuần nào anh tôi cũng đá bóng. (bài thi: có almost every weekend)\nÔng Connors có hai căn nhà và một biệt thự. (tài sản lâu dài: không nói is owning)\nTháng này tôi học chăm hơn. (ngoài đời: người nói muốn nhấn tạm thời)",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 8-11; cách giảng của khóa học",
+   "check": {
+    "stem": "How much ( ) nurses generally earn?",
+    "options": [
+     "do",
+     "are",
+     "have",
+     "does"
+    ],
+    "why": "Hỏi một sự thật chung, có `generally` → hiện tại đơn; chủ ngữ số nhiều nên dùng `do`."
+   },
+   "note_vi": "Lỗi người Việt hay mắc: Nghĩ rằng hỏi thì nào phải đáp đúng thì đó. Câu trả lời chọn thì theo điều mình muốn nói: hỏi `Have you ever been to Hue?`, kể lúc nào thì `I went there last summer`."
+  },
+  {
+   "pattern": "Một câu trả lời, bốn thì · Speaking Part 1",
+   "meaning_vi": "Trả lời Do you work or study? bằng bốn câu nối nhau, mỗi câu một thì",
+   "usage_context_vi": "Câu 1 trả lời thẳng (hiện tại đơn). Câu 2 thêm việc tạm thời (tiếp diễn). Câu 3 thêm từ bao giờ (hoàn thành). Câu 4 thêm quá trình gần đây và dấu vết của nó (hoàn thành tiếp diễn).",
+   "contrasts": [],
+   "example_en": "I work as an accountant in a small company.\nThis month I'm also studying for an IELTS test.\nI have worked there since 2022, and my colleagues are very friendly.\nRecently I have been doing a lot of extra tasks, so I'm quite tired.",
+   "example_vi": "Tôi làm kế toán ở một công ty nhỏ.\nTháng này tôi còn đang học để thi IELTS.\nTôi làm ở đó từ năm 2022, đồng nghiệp rất thân thiện.\nGần đây tôi làm nhiều việc thêm, nên khá mệt.",
+   "importance": "normal",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1, pp. 8-11; cách giảng của khóa học",
+   "exam_tip_vi": "Viết lại bốn câu này cho đúng với bạn rồi nói to cho trôi chảy."
   }
  ],
  "notes": [
   {
    "title": "Mục tiêu của ngày",
-   "body": "• Chọn đúng giữa bốn thì hiện tại trong câu trộn lẫn\n• Làm bài: dựa vào từ dấu hiệu\n• Nói và viết: dựa vào ý muốn nói",
+   "body": "• Đặt một câu bất kỳ vào đúng ô của bốn thì hiện tại\n• Nhớ mỗi thì bằng một câu mẫu và suy ra cách dùng\n• Làm bài: nhận ra dấu hiệu quyết định đáp án\n• Nói: trả lời một câu Speaking Part 1 bằng bốn thì",
    "kind": "goal"
   },
   {
@@ -165,17 +223,21 @@
   },
   {
    "title": "Dùng ở đâu trong IELTS",
-   "body": "Bài thi không hỏi tên thì; nó chấm việc bạn dùng đúng và đủ đa dạng khi nói và viết. Phần này luyện chuyển qua lại giữa bốn thì trong cùng một đoạn.",
+   "body": "Speaking Part 1 hỏi về công việc, việc học, thói quen: một câu trả lời tốt thường chuyển qua hai, ba thì. Band 7 cần dùng nhiều cấu trúc một cách linh hoạt, không chỉ đúng.",
    "kind": "language"
   }
  ],
  "bank": "g1",
  "coach": {
   "focus_vi": [
-   "Bài ở trường và dùng thật: Làm bài: nhìn từ dấu hiệu. Nói và viết: theo ý muốn nói",
-   "bốn câu tự hỏi: Lặp lại hay coi là thật? Tạm thời? Kéo tới bây giờ hoặc đã xong không rõ lúc nào? Đang dở và nhấn độ dài?"
+   "bản đồ hai câu hỏi: Hai câu hỏi chia ra bốn thì: có nối từ quá khứ tới bây giờ không, và có nhấn tạm thời, quá trình không",
+   "lâu dài hay tạm thời: Hiện tại đơn: lặp lại, điều người nói coi là thật. Hiện tại tiếp diễn: tạm thời, than phiền với always, kế hoạch đã hẹn",
+   "hai nhánh, hai câu mẫu: Hoàn thành: kéo tới bây giờ, hoặc đã xong mà không nói lúc nào. Hoàn thành tiếp diễn: vẫn đang làm, hoặc vừa dừng và còn dấu vết"
   ],
-  "watch_out_vi": []
+  "watch_out_vi": [
+   "Chia tiếp diễn với động từ trạng thái: ~~I am knowing the answer~~ → I know the answer.",
+   "Việc đã xong mà nêu năm: ~~I have studied the piano in 2003~~ → I studied the piano in 2003."
+  ]
  },
  "exercise_ids": [
   "G1D4I1",
@@ -188,6 +250,17 @@
   "G1D4Q2",
   "G1D4Q3",
   "G1D4Q4",
+  "G1D4T1",
+  "G1D4T2",
+  "G1D4T3",
+  "G1D4T4",
+  "G1D4I7",
+  "G1D4I8",
+  "G1D4I9",
+  "G1D4Q5",
+  "G1D4Q6",
+  "G1D4Q7",
+  "G1D4Q8",
   "G1D4KE-1",
   "G1D4KE-2",
   "G1D4KE-3",
@@ -214,12 +287,15 @@
   "G1D4B2",
   "G1D4B3",
   "G1D4B4",
+  "G1D4B5",
+  "G1D4B6",
   "G1D4F1",
   "G1D4F2",
   "G1D4F3",
   "G1D4F4",
   "G1D4F5",
   "G1D4F6",
+  "G1D4F7",
   "G1D4KI-1",
   "G1D4KI-2",
   "G1D4KI-3",
@@ -249,46 +325,1026 @@
  ],
  "sessions": [
   {
-   "title_vi": "Buổi 1 · Bài ở trường và dùng thật",
-   "can_do_vi": "Sau buổi này bạn nắm được: làm bài: nhìn từ dấu hiệu. nói và viết: theo ý muốn nói; lặp lại hay coi là thật? tạm thời? kéo tới bây giờ hoặc đã xong không rõ lúc nào? đang dở và nhấn độ dài?.",
-   "use_vi": "Bài thi không hỏi tên thì; nó chấm việc bạn dùng đúng và đủ đa dạng khi nói và viết. Phần này luyện chuyển qua lại giữa bốn thì trong cùng một đoạn.",
+   "title_vi": "Buổi 1 · bản đồ bốn thì: hai câu hỏi, bốn câu mẫu",
+   "can_do_vi": "Sau buổi này bạn đặt được một câu bất kỳ vào đúng ô của bốn thì hiện tại, và nhớ mỗi ô bằng một câu mẫu.",
+   "use_vi": "Speaking Part 1 hỏi về công việc, việc học, thói quen: một câu trả lời tốt thường chuyển qua hai, ba thì. Band 7 cần dùng nhiều cấu trúc một cách linh hoạt, không chỉ đúng.",
    "vocab": [
-    "qualifications",
-    "qualities",
-    "effort",
-    "task",
+    "study",
+    "revise",
     "test",
     "exam",
-    "classmate",
-    "colleague",
-    "study",
-    "revise"
+    "classmate"
    ],
    "grammar": [
-    "Bài ở trường và dùng thật",
-    "Bốn thì hiện tại · bốn câu tự hỏi"
+    "Bốn thì hiện tại · bản đồ hai câu hỏi",
+    "Đơn hay tiếp diễn · lâu dài hay tạm thời",
+    "Hoàn thành hay hoàn thành tiếp diễn · hai nhánh, hai câu mẫu"
    ],
    "check": [
-    "G1D4Q2",
-    "G1D4Q3",
-    "G1D4I1",
+    "G1D4T1",
+    "G1D4T2",
+    "G1D4T3",
+    "G1D4T4",
+    "G1D4I5",
+    "G1D4I7",
+    "G1D4I8",
+    "G1D4I9",
     "G1D4I2",
     "G1D4I3",
-    "G1D4I4",
-    "G1D4I5",
     "G1D4I6",
     "G1D4Q1",
+    "G1D4Q5",
+    "G1D4Q8"
+   ],
+   "lecture": [
+    {
+     "kind": "title",
+     "hook": "Bốn thì hiện tại, nhưng chỉ cần hai câu hỏi. Đó là hai câu nào?",
+     "lines": [
+      {
+       "say": "Bạn đã học bốn thì hiện tại trong ba ngày. Hôm nay ghép chúng lại thành một hệ thống. Chỉ cần hai câu hỏi là chia được cả bốn. Đó là hai câu nào?",
+       "show": "hook"
+      },
+      {
+       "say": "Buổi này dựng bản đồ bốn ô, rồi đi qua từng ô, mỗi ô một câu mẫu để nhớ."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "tense_grid",
+     "eyebrow": "Bản đồ",
+     "title": "Hai câu hỏi, bốn ô",
+     "data": {
+      "row_heads": [
+       "Chưa nối với quá khứ",
+       "Nối từ quá khứ tới bây giờ"
+      ],
+      "col_heads": [
+       "Không nhấn tạm thời",
+       "Nhấn tạm thời, quá trình"
+      ],
+      "cells": [
+       {
+        "key": "c1",
+        "tense": "Hiện tại đơn",
+        "form": "V / V-s",
+        "at": "always",
+        "en": "She lives in Hanoi.",
+        "vi": "Lâu dài, coi là thật."
+       },
+       {
+        "key": "c2",
+        "tense": "Hiện tại tiếp diễn",
+        "form": "am / is / are + V-ing",
+        "at": "window",
+        "en": "She is living in Hanoi now.",
+        "vi": "Chỗ ở tạm, rồi đổi."
+       },
+       {
+        "key": "c3",
+        "tense": "Hiện tại hoàn thành",
+        "form": "have / has + V3",
+        "at": "span",
+        "en": "I have studied the piano since 2003.",
+        "vi": "Từ 2003 tới giờ, vẫn học."
+       },
+       {
+        "key": "c4",
+        "tense": "Hoàn thành tiếp diễn",
+        "form": "have / has been + V-ing",
+        "at": "span",
+        "en": "I have been playing football for three hours.",
+        "vi": "Ba tiếng nay, vẫn đang chơi."
+       }
+      ],
+      "rule": "Nối với quá khứ: thêm have. Nhấn tạm thời, quá trình: thêm be và ing."
+     },
+     "lines": [
+      {
+       "say": "Câu hỏi thứ nhất: việc này có nối từ quá khứ tới bây giờ không? Không nối thì nằm ở hàng trên. Có nối thì nằm ở hàng dưới, và động từ thêm have.",
+       "show": "rows"
+      },
+      {
+       "say": "Câu hỏi thứ hai: người nói có nhấn tính tạm thời, hay quá trình đang diễn ra, không? Không nhấn thì ở cột trái. Có nhấn thì ở cột phải, và động từ thêm be cùng đuôi ing.",
+       "show": "cols"
+      },
+      {
+       "say": "Ô thứ nhất: không nối, không nhấn tạm thời. Đó là hiện tại đơn. Chị ấy sống ở Hà Nội, một sự thật."
+      },
+      {
+       "en": "She lives in Hanoi.",
+       "vi": "Chị ấy sống ở Hà Nội.",
+       "gap": true,
+       "show": "c1"
+      },
+      {
+       "say": "Ô thứ hai: cùng hàng trên, nhưng nhấn tạm thời. Hiện tại tiếp diễn. Bây giờ chị ấy đang ở Hà Nội, sau này có thể chuyển."
+      },
+      {
+       "en": "She is living in Hanoi now.",
+       "vi": "Bây giờ chị ấy đang ở Hà Nội.",
+       "gap": true,
+       "show": "c2"
+      },
+      {
+       "say": "Xuống hàng dưới. Ô thứ ba: nối từ quá khứ tới bây giờ. Hiện tại hoàn thành."
+      },
+      {
+       "en": "I have studied the piano since 2003.",
+       "vi": "Tôi học piano từ năm 2003.",
+       "gap": true,
+       "show": "c3"
+      },
+      {
+       "say": "Ô thứ tư: nối từ quá khứ, và nhấn quá trình đang diễn ra. Hiện tại hoàn thành tiếp diễn."
+      },
+      {
+       "en": "I have been playing football for three hours.",
+       "vi": "Tôi chơi bóng ba tiếng nay rồi.",
+       "gap": true,
+       "show": "c4"
+      },
+      {
+       "say": "Hai câu hỏi, bốn ô. Có nối với quá khứ thì thêm have. Có nhấn tạm thời hay quá trình thì thêm be và ing.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "picture_cards",
+     "eyebrow": "Ô 1 · hiện tại đơn",
+     "title": "Lặp lại, và điều người nói coi là thật",
+     "data": {
+      "rows": [
+       {
+        "key": "r1",
+        "icon": "repeat",
+        "head": "Lặp lại",
+        "en": "I go to the gym three times a week.",
+        "vi": "Mỗi tuần ba lần."
+       },
+       {
+        "key": "r2",
+        "icon": "kettle",
+        "head": "Sự thật khách quan",
+        "en": "Water boils at 100 degrees.",
+        "vi": "Ai đo cũng ra như vậy."
+       },
+       {
+        "key": "r3",
+        "icon": "red_sea",
+        "head": "Sự thật chủ quan",
+        "en": "The sea is red.",
+        "vi": "Người mù màu thấy vậy: với họ, đó là thật."
+       },
+       {
+        "key": "r4",
+        "icon": "bed",
+        "head": "Kể cả khi nói dối",
+        "en": "I get up at six every morning.",
+        "vi": "Nói với mẹ, dù thật ra dậy lúc chín giờ."
+       }
+      ],
+      "rule": "Điều đi qua mắt và đầu óc người nói, được coi là thật lúc nói: hiện tại đơn."
+     },
+     "lines": [
+      {
+       "say": "Ô thứ nhất có hai việc. Việc một: hành động lặp lại.",
+       "show": "r1"
+      },
+      {
+       "en": "I go to the gym three times a week.",
+       "vi": "Mỗi tuần tôi đến phòng tập ba lần.",
+       "gap": true
+      },
+      {
+       "say": "Việc hai, quan trọng hơn: sự thật. Có sự thật khách quan, ai đo cũng ra như vậy.",
+       "show": "r2"
+      },
+      {
+       "en": "Water boils at 100 degrees.",
+       "vi": "Nước sôi ở 100 độ.",
+       "gap": true
+      },
+      {
+       "say": "Và có sự thật chủ quan. Một người mù màu nhìn biển xanh thành màu đỏ. Với người đó, biển màu đỏ là thật, nên họ vẫn dùng hiện tại đơn.",
+       "show": "r3"
+      },
+      {
+       "en": "The sea is red.",
+       "vi": "Biển màu đỏ.",
+       "gap": true,
+       "recap": false
+      },
+      {
+       "say": "Kể cả khi nói dối. Bạn dậy lúc chín giờ, nhưng nói với mẹ là ngày nào cũng dậy lúc sáu giờ. Bạn trình bày điều đó như sự thật, nên vẫn là hiện tại đơn.",
+       "show": "r4"
+      },
+      {
+       "en": "I get up at six every morning.",
+       "vi": "Con dậy lúc sáu giờ mỗi sáng.",
+       "gap": true
+      },
+      {
+       "say": "Mọi điều đi qua mắt và đầu óc người nói, được coi là thật vào lúc nói, đều dùng hiện tại đơn.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "tense_timeline",
+     "eyebrow": "Ô 2 · hiện tại tiếp diễn",
+     "title": "Tạm thời, than phiền, kế hoạch",
+     "data": {
+      "question": "Where is your sister?",
+      "question_vi": "Chị bạn đâu rồi?",
+      "question_label": "Có người hỏi",
+      "answers": [
+       {
+        "key": "a1",
+        "icon": "house",
+        "at": "always",
+        "tense": "Hiện tại đơn",
+        "en": "She lives in Hanoi now.",
+        "vi": "Chỉ báo chị ấy sống ở đó."
+       },
+       {
+        "key": "a2",
+        "icon": "suitcase",
+        "at": "window",
+        "tense": "Tiếp diễn · tạm thời",
+        "en": "She is living in Hanoi now.",
+        "vi": "Ở tạm, sau này có thể chuyển."
+       },
+       {
+        "key": "a3",
+        "icon": "angry",
+        "at": "repeat",
+        "tense": "Tiếp diễn · than phiền",
+        "en": "He is always leaving his clothes on the floor!",
+        "vi": "Thói quen làm người nói bực."
+       },
+       {
+        "key": "a4",
+        "icon": "calendar",
+        "at": "future",
+        "tense": "Tiếp diễn · đã hẹn",
+        "en": "I'm meeting Lan tomorrow.",
+        "vi": "Kế hoạch đã sắp xếp."
+       }
+      ],
+      "rule": "Tiếp diễn có ba việc: tạm thời, than phiền với always, kế hoạch đã hẹn."
+     },
+     "lines": [
+      {
+       "say": "Có người hỏi chị bạn đang ở đâu."
+      },
+      {
+       "en": "Where is your sister?",
+       "vi": "Chị bạn đâu rồi?",
+       "gap": true,
+       "show": "q",
+       "recap": false
+      },
+      {
+       "say": "Trên trục này, bên trái là quá khứ, vạch giữa là bây giờ, bên phải là tương lai.",
+       "show": "axis"
+      },
+      {
+       "say": "Đáp bằng hiện tại đơn: chỉ báo một sự thật, chị ấy sống ở Hà Nội. Không có ý tạm.",
+       "show": "a1"
+      },
+      {
+       "en": "She lives in Hanoi now.",
+       "vi": "Bây giờ chị ấy sống ở Hà Nội.",
+       "gap": true
+      },
+      {
+       "say": "Đáp bằng tiếp diễn: chỗ ở đó chỉ là tạm, sau này có thể chuyển đi. Đây là việc thứ nhất của tiếp diễn.",
+       "show": "a2"
+      },
+      {
+       "en": "She is living in Hanoi now.",
+       "vi": "Bây giờ chị ấy đang ở tạm Hà Nội.",
+       "gap": true,
+       "recap": false
+      },
+      {
+       "say": "Việc thứ hai: than phiền. Always cộng động từ thêm ing, cho một thói quen làm bạn bực.",
+       "show": "a3"
+      },
+      {
+       "en": "He is always leaving his clothes on the floor!",
+       "vi": "Nó cứ vứt quần áo dưới sàn!",
+       "gap": true
+      },
+      {
+       "say": "Việc thứ ba: kế hoạch đã hẹn. Câu ở hiện tại, nhưng việc nằm ở tương lai.",
+       "show": "a4"
+      },
+      {
+       "en": "I'm meeting Lan tomorrow.",
+       "vi": "Mai tôi gặp Lan.",
+       "gap": true
+      },
+      {
+       "say": "Tiếp diễn có ba việc: tạm thời, than phiền với always, và kế hoạch đã hẹn.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "tense_timeline",
+     "eyebrow": "Ô 3 · hiện tại hoàn thành",
+     "title": "Hai nhánh tách biệt",
+     "data": {
+      "question": "have / has + V3",
+      "question_vi": "hai nhánh",
+      "question_label": "Công thức",
+      "answers": [
+       {
+        "key": "b1",
+        "icon": "piano",
+        "at": "span",
+        "tense": "Nhánh 1 · kéo tới bây giờ",
+        "en": "I have studied the piano since 2003.",
+        "vi": "Bắt đầu năm 2003, bây giờ vẫn học."
+       },
+       {
+        "key": "b2",
+        "icon": "basket",
+        "at": "done",
+        "tense": "Nhánh 2 · đã xong",
+        "en": "Yes, I have bought some vegetables.",
+        "vi": "Mua rồi. Lúc nào thì không nói."
+       },
+       {
+        "key": "b3",
+        "icon": "calendar",
+        "at": "point",
+        "tense": "Nêu lúc nào · quá khứ đơn",
+        "en": "I studied the piano in 2003.",
+        "vi": "Có mốc đã qua thì đổi thì."
+       }
+      ],
+      "rule": "Nhánh 1 kéo tới bây giờ. Nhánh 2 đã xong, không nói lúc nào. Nêu lúc nào: quá khứ đơn."
+     },
+     "lines": [
+      {
+       "say": "Ô thứ ba có hai nhánh, đừng trộn chúng với nhau.",
+       "show": "q"
+      },
+      {
+       "say": "Nhánh một: bắt đầu từ trước, bây giờ vẫn còn. Thanh kéo tới tận vạch bây giờ.",
+       "show": "axis"
+      },
+      {
+       "en": "I have studied the piano since 2003.",
+       "vi": "Tôi học piano từ năm 2003.",
+       "gap": true,
+       "show": "b1",
+       "recap": false
+      },
+      {
+       "say": "Nhánh hai: việc đã xong, người nói không nêu lúc nào. Rau đã nằm trong bếp, không ai còn đứng ở chợ mua tiếp.",
+       "show": "b2"
+      },
+      {
+       "en": "Yes, I have bought some vegetables.",
+       "vi": "Có, tôi mua rau rồi.",
+       "gap": true
+      },
+      {
+       "say": "Còn khi nêu được lúc nào, như năm 2003 đã qua, thì đổi sang quá khứ đơn.",
+       "show": "b3"
+      },
+      {
+       "en": "I studied the piano in 2003.",
+       "vi": "Tôi học piano vào năm 2003.",
+       "gap": true
+      },
+      {
+       "say": "Nhánh một kéo tới bây giờ. Nhánh hai đã xong và không nói lúc nào. Nêu lúc nào thì dùng quá khứ đơn.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "tense_timeline",
+     "eyebrow": "Ô 4 · hoàn thành tiếp diễn",
+     "title": "Nhớ hai câu, suy ra hai cách dùng",
+     "data": {
+      "question": "have / has been + V-ing",
+      "question_vi": "hai câu mẫu",
+      "question_label": "Công thức",
+      "answers": [
+       {
+        "key": "s1",
+        "icon": "ball",
+        "at": "span",
+        "tense": "Câu mẫu 1 · vẫn đang làm",
+        "en": "I have been playing football for three hours.",
+        "vi": "Bắt đầu ba tiếng trước, bây giờ vẫn chơi."
+       },
+       {
+        "key": "s2",
+        "icon": "runner",
+        "at": "trace",
+        "tense": "Câu mẫu 2 · vừa dừng",
+        "en": "I am very tired. I have been running for three hours.",
+        "vi": "Đã dừng chạy, cái mệt vẫn còn."
+       }
+      ],
+      "rule": "Câu 1: vẫn đang làm. Câu 2: vừa dừng, dấu vết còn ở bây giờ."
+     },
+     "lines": [
+      {
+       "say": "Ô cuối cùng, đừng học thuộc lý thuyết. Hãy thuộc hai câu mẫu, quên thì nhớ lại câu, từ câu suy ra cách dùng.",
+       "show": "q"
+      },
+      {
+       "say": "Câu mẫu thứ nhất. Bạn bắt đầu chơi bóng ba tiếng trước, và ngay lúc nói vẫn đang chơi.",
+       "show": "axis"
+      },
+      {
+       "en": "I have been playing football for three hours.",
+       "vi": "Tôi chơi bóng ba tiếng nay rồi.",
+       "gap": true,
+       "show": "s1",
+       "recap": false
+      },
+      {
+       "say": "Câu mẫu thứ hai. Bạn đã chạy suốt ba tiếng, vừa dừng lại đứng thở. Việc chạy đã dừng, nhưng cái mệt vẫn còn.",
+       "show": "s2"
+      },
+      {
+       "en": "I am very tired. I have been running for three hours.",
+       "vi": "Tôi mệt lắm. Tôi vừa chạy suốt ba tiếng.",
+       "gap": true
+      },
+      {
+       "say": "Hai câu, hai cách dùng. Một: vẫn đang làm. Hai: vừa dừng, và dấu vết còn ở bây giờ.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "study",
+     "lines": [
+      {
+       "say": "Năm từ của buổi này đi theo cặp. Cặp thứ nhất: học và ôn."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "revise",
+     "lines": [
+      {
+       "say": "Study là học điều mới. Revise là ôn lại điều đã học. Câu ví dụ là hiện tại tiếp diễn: việc của riêng tuần này."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "test",
+     "lines": [
+      {
+       "say": "Cặp thứ hai: bài kiểm tra và kỳ thi."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "exam",
+     "lines": [
+      {
+       "say": "Test là bài ngắn trên lớp. Exam là kỳ thi lớn, chính thức. Câu ví dụ là hoàn thành tiếp diễn: ôn từ tháng Sáu tới giờ."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "classmate",
+     "lines": [
+      {
+       "say": "Từ cuối, và để ý động từ know trong câu ví dụ: động từ trạng thái, nên dùng hoàn thành, không dùng tiếp diễn."
+      }
+     ]
+    },
+    {
+     "kind": "recap",
+     "lines": [
+      {
+       "say": "Giờ nói lại các câu mẫu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "show": "title"
+      }
+     ]
+    },
+    {
+     "kind": "end",
+     "next": "Tiếp theo: học thẻ và từ của buổi này, rồi làm bài.",
+     "lines": [
+      {
+       "say": "Hết buổi một. Bạn học các thẻ và từ trong app, rồi làm bài. Buổi hai nói về cách chọn thì khi làm bài, và khi nói thật.",
+       "show": "title"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title_vi": "Buổi 2 · chọn thì khi làm bài và khi nói thật",
+   "can_do_vi": "Sau buổi này bạn biết khi nào dấu hiệu quyết định đáp án, khi nào ý muốn nói quyết định thì, và trả lời được một câu Speaking bằng bốn thì.",
+   "use_vi": "Speaking Part 1 hỏi về công việc, việc học, thói quen: một câu trả lời tốt thường chuyển qua hai, ba thì. Band 7 cần dùng nhiều cấu trúc một cách linh hoạt, không chỉ đúng.",
+   "vocab": [
+    "colleague",
+    "task",
+    "effort",
+    "qualifications",
+    "qualities"
+   ],
+   "grammar": [
+    "Làm bài và dùng thật · dấu hiệu và ý muốn nói",
+    "Một câu trả lời, bốn thì · Speaking Part 1"
+   ],
+   "check": [
+    "G1D4I1",
+    "G1D4I4",
+    "G1D4Q2",
+    "G1D4Q3",
     "G1D4Q4",
+    "G1D4Q6",
+    "G1D4Q7"
+   ],
+   "lecture": [
+    {
+     "kind": "title",
+     "hook": "Đáp án ghi plays, bạn lại muốn nói is playing. Ai đúng?",
+     "lines": [
+      {
+       "say": "Bài tập ghi đáp án plays, nhưng ngoài đời bạn muốn nói is playing. Bạn sai, hay đáp án sai?",
+       "show": "hook"
+      },
+      {
+       "say": "Buổi này phân biệt hai việc: chọn thì khi làm bài, và chọn thì khi nói, viết thật. Cuối buổi, bạn trả lời một câu Speaking bằng cả bốn thì."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "ref_table",
+     "eyebrow": "Khi làm bài",
+     "title": "Dấu hiệu chọn đáp án",
+     "data": {
+      "cols": [
+       "Dấu hiệu",
+       "Đáp án"
+      ],
+      "rows": [
+       {
+        "key": "k1",
+        "head": "almost every weekend · lặp lại",
+        "en": "My brother plays football almost every weekend.",
+        "vi": "Lặp lại thì không còn tạm thời: thì đơn."
+       },
+       {
+        "key": "k2",
+        "head": "own · tài sản lâu dài",
+        "en": "Mr Connors owns two houses and a villa.",
+        "vi": "Không nói is owning."
+       },
+       {
+        "key": "k3",
+        "head": "since + mốc",
+        "en": "Our teacher has taught here since 2019.",
+        "vi": "since luôn đi với thì hoàn thành."
+       },
+       {
+        "key": "k4",
+        "head": "dấu vết + độ dài",
+        "en": "I'm out of breath. I have been running for an hour.",
+        "vi": "Vừa dừng, còn dấu vết: hoàn thành tiếp diễn."
+       }
+      ],
+      "rule": "Bài thi chỉ có một đáp án, nên dấu hiệu quyết định."
+     },
+     "lines": [
+      {
+       "say": "Bài trắc nghiệm được soạn để chỉ có một đáp án. Vì vậy, khi làm bài, hãy tìm dấu hiệu. Dấu hiệu thứ nhất: cụm chỉ sự lặp lại. Đã lặp lại thì không còn tạm thời, nên chọn thì đơn.",
+       "show": "k1"
+      },
+      {
+       "en": "My brother plays football almost every weekend.",
+       "vi": "Gần như cuối tuần nào anh tôi cũng đá bóng.",
+       "gap": true
+      },
+      {
+       "say": "Dấu hiệu thứ hai: động từ sở hữu, như own. Nhà cửa là tài sản lâu dài. Nói is owning, nghe như chỉ giữ được vài hôm rồi mất.",
+       "show": "k2"
+      },
+      {
+       "en": "Mr Connors owns two houses and a villa.",
+       "vi": "Ông Connors có hai căn nhà và một biệt thự.",
+       "gap": true
+      },
+      {
+       "say": "Dấu hiệu thứ ba: since cộng một mốc. Since luôn đi với thì hoàn thành.",
+       "show": "k3"
+      },
+      {
+       "en": "Our teacher has taught here since 2019.",
+       "vi": "Cô giáo của chúng tôi dạy ở đây từ năm 2019.",
+       "gap": true
+      },
+      {
+       "say": "Dấu hiệu thứ tư: một dấu vết ở hiện tại, cộng một khoảng thời gian. Đó là hoàn thành tiếp diễn.",
+       "show": "k4"
+      },
+      {
+       "en": "I'm out of breath. I have been running for an hour.",
+       "vi": "Tôi hết hơi. Tôi vừa chạy suốt một tiếng.",
+       "gap": true
+      },
+      {
+       "say": "Khi làm bài, dấu hiệu quyết định, vì bài thi chỉ có một đáp án.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "tense_grid",
+     "eyebrow": "Khi nói thật",
+     "title": "Một câu hỏi, bốn câu đáp đều đúng",
+     "data": {
+      "question": "How is your English going?",
+      "question_vi": "Việc học tiếng Anh của bạn thế nào?",
+      "row_heads": [
+       "Chưa nối với quá khứ",
+       "Nối từ quá khứ tới bây giờ"
+      ],
+      "col_heads": [
+       "Không nhấn tạm thời",
+       "Nhấn tạm thời, quá trình"
+      ],
+      "cells": [
+       {
+        "key": "c1",
+        "tense": "Hiện tại đơn",
+        "form": "thói quen",
+        "at": "repeat",
+        "en": "I study every evening.",
+        "vi": "Tối nào cũng học."
+       },
+       {
+        "key": "c2",
+        "tense": "Hiện tại tiếp diễn",
+        "form": "tạm thời",
+        "at": "window",
+        "en": "I'm studying harder this month.",
+        "vi": "Riêng tháng này."
+       },
+       {
+        "key": "c3",
+        "tense": "Hiện tại hoàn thành",
+        "form": "từ bao giờ",
+        "at": "span",
+        "en": "I have studied it since 2023.",
+        "vi": "Từ 2023 tới giờ."
+       },
+       {
+        "key": "c4",
+        "tense": "Hoàn thành tiếp diễn",
+        "form": "vừa xong, còn mệt",
+        "at": "trace",
+        "en": "I have been studying all morning, so I'm tired.",
+        "vi": "Cả sáng, giờ mệt."
+       }
+      ],
+      "rule": "Ngoài đời, bạn muốn nhấn điều gì thì chọn thì đó."
+     },
+     "lines": [
+      {
+       "say": "Khi nói thật, không có dấu hiệu nào cho sẵn. Người hỏi thường dùng thì đơn giản nhất, còn người đáp tự chọn thì của mình."
+      },
+      {
+       "en": "How is your English going?",
+       "vi": "Việc học tiếng Anh của bạn thế nào?",
+       "gap": true,
+       "show": "q",
+       "recap": false
+      },
+      {
+       "say": "Bốn câu đáp dưới đây đều đúng. Mỗi câu nằm ở một ô của bản đồ, và nói một ý khác.",
+       "show": "rows"
+      },
+      {
+       "say": "Muốn nói thói quen: hiện tại đơn.",
+       "show": "cols"
+      },
+      {
+       "en": "I study every evening.",
+       "vi": "Tối nào tôi cũng học.",
+       "gap": true,
+       "show": "c1"
+      },
+      {
+       "say": "Muốn nhấn việc của riêng tháng này: tiếp diễn."
+      },
+      {
+       "en": "I'm studying harder this month.",
+       "vi": "Tháng này tôi học chăm hơn.",
+       "gap": true,
+       "show": "c2"
+      },
+      {
+       "say": "Muốn nói từ bao giờ: hoàn thành."
+      },
+      {
+       "en": "I have studied it since 2023.",
+       "vi": "Tôi học từ năm 2023.",
+       "gap": true,
+       "show": "c3"
+      },
+      {
+       "say": "Muốn nói vừa học cả sáng, giờ còn mệt: hoàn thành tiếp diễn."
+      },
+      {
+       "en": "I have been studying all morning, so I'm tired.",
+       "vi": "Tôi học cả sáng nay, nên giờ mệt.",
+       "gap": true,
+       "show": "c4"
+      },
+      {
+       "say": "Vậy câu hỏi đầu buổi có lời đáp. Đáp án của sách đúng cho bài thi. Ngoài đời, bạn muốn nhấn điều gì thì chọn thì đó. Còn khi phân vân mà không thấy gì tạm thời, cũng không nối với quá khứ, hãy chọn hiện tại đơn.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "fix_pairs",
+     "eyebrow": "Lỗi thường gặp",
+     "title": "Bốn lỗi, bốn cách sửa",
+     "data": {
+      "rows": [
+       {
+        "key": "e1",
+        "wrong": "I am knowing the answer.",
+        "right": "I know the answer.",
+        "why": "know là động từ trạng thái: không chia tiếp diễn."
+       },
+       {
+        "key": "e2",
+        "wrong": "She is owning two houses.",
+        "right": "She owns two houses.",
+        "why": "Tài sản lâu dài: hiện tại đơn."
+       },
+       {
+        "key": "e3",
+        "wrong": "I work here since 2022.",
+        "right": "I have worked here since 2022.",
+        "why": "since cần thì hoàn thành."
+       },
+       {
+        "key": "e4",
+        "wrong": "I have seen her yesterday.",
+        "right": "I saw her yesterday.",
+        "why": "Có mốc đã qua: quá khứ đơn."
+       }
+      ],
+      "rule": "Trạng thái và sở hữu: thì đơn. since: hoàn thành. Có mốc đã qua: quá khứ đơn."
+     },
+     "lines": [
+      {
+       "say": "Bốn lỗi hay gặp nhất khi trộn bốn thì. Lỗi thứ nhất: chia tiếp diễn với know.",
+       "show": "e1"
+      },
+      {
+       "en": "I know the answer.",
+       "vi": "Tôi biết câu trả lời.",
+       "gap": true
+      },
+      {
+       "say": "Lỗi thứ hai: is owning cho tài sản lâu dài.",
+       "show": "e2"
+      },
+      {
+       "en": "She owns two houses.",
+       "vi": "Cô ấy có hai căn nhà.",
+       "gap": true
+      },
+      {
+       "say": "Lỗi thứ ba: since đi với hiện tại đơn.",
+       "show": "e3"
+      },
+      {
+       "en": "I have worked here since 2022.",
+       "vi": "Tôi làm ở đây từ năm 2022.",
+       "gap": true
+      },
+      {
+       "say": "Lỗi thứ tư: hiện tại hoàn thành đi với một mốc đã qua.",
+       "show": "e4"
+      },
+      {
+       "en": "I saw her yesterday.",
+       "vi": "Hôm qua tôi gặp cô ấy.",
+       "gap": true
+      },
+      {
+       "say": "Trạng thái và sở hữu: thì đơn. Since: hoàn thành. Có mốc đã qua: quá khứ đơn.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "colleague",
+     "lines": [
+      {
+       "say": "Trước khi trả lời câu Speaking, học năm từ về công việc. Từ thứ nhất là cặp của classmate ở buổi trước."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "task",
+     "lines": [
+      {
+       "say": "Cặp tiếp theo: việc được giao, và công sức bỏ ra."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "effort",
+     "lines": [
+      {
+       "say": "Task là việc. Effort là công sức để làm việc đó."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "qualifications",
+     "lines": [
+      {
+       "say": "Cặp cuối rất dễ nhầm, vì cùng bắt đầu bằng quali."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "qualities",
+     "lines": [
+      {
+       "say": "Qualifications là bằng cấp, ghi được lên giấy. Qualities là phẩm chất, là con người bạn."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "speaking_answer",
+     "eyebrow": "IELTS Speaking Part 1",
+     "title": "Một câu trả lời, bốn thì",
+     "data": {
+      "question": "Do you work or study?",
+      "question_vi": "Bạn đi làm hay đi học?",
+      "short": "I work.",
+      "parts": [
+       {
+        "key": "p1",
+        "role": "Trả lời thẳng",
+        "tense": "Hiện tại đơn",
+        "en": "I work as an accountant in a small company.",
+        "vi": "Tôi làm kế toán ở một công ty nhỏ."
+       },
+       {
+        "key": "p2",
+        "role": "Việc tạm thời",
+        "tense": "Hiện tại tiếp diễn",
+        "en": "This month I'm also studying for an IELTS test.",
+        "vi": "Tháng này tôi còn đang học để thi IELTS."
+       },
+       {
+        "key": "p3",
+        "role": "Từ bao giờ",
+        "tense": "Hiện tại hoàn thành",
+        "en": "I have worked there since 2022, and my colleagues are very friendly.",
+        "vi": "Tôi làm ở đó từ năm 2022, đồng nghiệp rất thân thiện."
+       },
+       {
+        "key": "p4",
+        "role": "Gần đây, còn dấu vết",
+        "tense": "Hoàn thành tiếp diễn",
+        "en": "Recently I have been doing a lot of extra tasks, so I'm quite tired.",
+        "vi": "Gần đây tôi làm nhiều việc thêm, nên khá mệt."
+       }
+      ],
+      "rule": "Trả lời thẳng, rồi thêm việc tạm thời, từ bao giờ, việc gần đây. Mỗi câu một thì."
+     },
+     "lines": [
+      {
+       "say": "Giờ đưa cả bản đồ vào phòng thi. Giám khảo hỏi bạn đi làm hay đi học."
+      },
+      {
+       "en": "Do you work or study?",
+       "show": "q"
+      },
+      {
+       "say": "Đáp đúng một câu thì quá cụt, và giám khảo chưa nghe được bạn dùng thì linh hoạt.",
+       "show": "short"
+      },
+      {
+       "say": "Câu một: trả lời thẳng, bằng hiện tại đơn."
+      },
+      {
+       "en": "I work as an accountant in a small company.",
+       "vi": "Tôi làm kế toán ở một công ty nhỏ.",
+       "gap": true,
+       "show": "p1"
+      },
+      {
+       "say": "Câu hai: thêm một việc tạm thời, bằng tiếp diễn."
+      },
+      {
+       "en": "This month I'm also studying for an IELTS test.",
+       "vi": "Tháng này tôi còn đang học để thi IELTS.",
+       "gap": true,
+       "show": "p2"
+      },
+      {
+       "say": "Câu ba: thêm từ bao giờ, bằng hoàn thành. Câu này có từ colleagues vừa học."
+      },
+      {
+       "en": "I have worked there since 2022, and my colleagues are very friendly.",
+       "vi": "Tôi làm ở đó từ năm 2022, đồng nghiệp rất thân thiện.",
+       "gap": true,
+       "show": "p3"
+      },
+      {
+       "say": "Câu bốn: thêm việc gần đây và dấu vết của nó, bằng hoàn thành tiếp diễn."
+      },
+      {
+       "en": "Recently I have been doing a lot of extra tasks, so I'm quite tired.",
+       "vi": "Gần đây tôi làm nhiều việc thêm, nên khá mệt.",
+       "gap": true,
+       "show": "p4"
+      },
+      {
+       "say": "Bốn câu, bốn ô của bản đồ, mỗi câu một ý. Hãy viết lại bốn câu này cho đúng với chính bạn.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "recap",
+     "lines": [
+      {
+       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "show": "title"
+      }
+     ]
+    },
+    {
+     "kind": "end",
+     "next": "Tiếp theo: học thẻ và từ, làm bài, rồi buổi 3 để nghe chép và viết câu của bạn.",
+     "lines": [
+      {
+       "say": "Hết phần giảng của ngày bốn. Bạn học các thẻ và từ trong app, làm bài, rồi sang buổi ba để nghe chép và viết bốn câu của chính mình.",
+       "show": "title"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title_vi": "Buổi 3 · vận dụng: xếp câu, gõ, nghe chép, viết",
+   "can_do_vi": "Sau buổi này bạn tự xếp và gõ đúng câu ở cả bốn thì, nghe chép được câu, và viết bốn câu về chính mình.",
+   "use_vi": "Speaking Part 1 hỏi về công việc, việc học, thói quen: một câu trả lời tốt thường chuyển qua hai, ba thì. Band 7 cần dùng nhiều cấu trúc một cách linh hoạt, không chỉ đúng.",
+   "vocab": [],
+   "check": [
     "G1D4B1",
     "G1D4B2",
     "G1D4B3",
     "G1D4B4",
+    "G1D4B5",
+    "G1D4B6",
     "G1D4F1",
     "G1D4F2",
     "G1D4F3",
     "G1D4F4",
     "G1D4F5",
     "G1D4F6",
+    "G1D4F7",
     "G1D4D1",
     "G1D4M1"
    ]
