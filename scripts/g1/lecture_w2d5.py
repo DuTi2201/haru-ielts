@@ -56,7 +56,7 @@ PRON = {
 }
 
 NOTES = {
-    "endure": "Đứng một mình, không cần tân ngữ. Danh từ: endurance (sức bền).",
+    "endure": "Nghĩa tồn tại lâu bền: đứng một mình. endure + tân ngữ là nghĩa khác: chịu đựng (endure pain). Danh từ: endurance.",
     "last": "last + khoảng thời gian: last two hours. Không cần tân ngữ.",
     "maintain": "maintain + tân ngữ: maintain a balance, maintain a car (bảo dưỡng). Danh từ: maintenance.",
     "remain": "remain + tính từ: remain calm, remain open. Về trạng thái của một người, remain calm là cách nói tự nhiên.",
@@ -118,7 +118,7 @@ KEEP = [
 
 TRAPS_1 = [
     {"key": "e1", "wrong": "He persisted to ask the same question.", "right": "He persisted in asking the same question.", "why": "persist đi với in, rồi động từ thêm -ing."},
-    {"key": "e2", "wrong": "It is hard to remain a balance between work and study.", "right": "It is hard to maintain a balance between work and study.", "why": "remain không có tân ngữ. Duy trì một thứ: maintain."},
+    {"key": "e2", "wrong": "It is hard to remain a balance between work and study.", "right": "It is hard to maintain a balance between work and study.", "why": "remain không đi với tân ngữ như a balance. Duy trì một thứ: maintain."},
 ]
 
 SITTING_1 = [
@@ -140,12 +140,12 @@ SITTING_1 = [
         {"say": "Last ở đây là động từ, nghĩa là kéo dài. Theo sau thường là một khoảng thời gian."},
     ]},
     {"kind": "scene", "visual": "picture_cards", "eyebrow": "Hai từ đứng một mình", "title": "last và endure",
-     "data": {"rows": LAST, "rule": "Cả hai đứng một mình, không cần tân ngữ. Đo thời gian: last. Bền lâu, vượt thời gian: endure."}, "lines": [
+     "data": {"rows": LAST, "rule": "Với nghĩa này, cả hai đứng một mình. Đo thời gian: last. Bền lâu, vượt thời gian: endure."}, "lines": [
         {"say": "Last đo một khoảng thời gian: cuộc họp kéo dài hai tiếng.", "show": "l1"},
         {"en": "The meeting lasted two hours.", "vi": "Cuộc họp kéo dài hai tiếng.", "gap": True},
         {"say": "Endure nói về điều bền lâu, vượt qua thời gian, thường là điều có giá trị.", "show": "l2"},
         {"en": "Some traditions endure for centuries.", "vi": "Có những truyền thống tồn tại hàng thế kỷ.", "gap": True},
-        {"say": "Cả hai đứng một mình, không cần tân ngữ. Vì vậy khi chỗ trống không có tân ngữ theo sau, hãy nghĩ tới last hoặc endure.", "show": "rule"},
+        {"say": "Với nghĩa này, cả hai đứng một mình, không cần tân ngữ. Vì vậy khi chỗ trống không có tân ngữ theo sau, hãy nghĩ tới last hoặc endure.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "maintain", "lines": [
         {"say": "Maintain là duy trì một thứ gì đó. Sau maintain luôn có tân ngữ: duy trì cái gì. Ví dụ, một sự cân bằng."},
@@ -158,7 +158,7 @@ SITTING_1 = [
     ]},
     {"kind": "scene", "visual": "picture_cards", "eyebrow": "Nhìn từ đứng sau", "title": "maintain, remain, sustain",
      "data": {"rows": KEEP, "rule": "Có tân ngữ: maintain hoặc sustain. Có tính từ: remain. Trạng thái của một người: remain calm."}, "lines": [
-        {"say": "Ba từ đều là giữ, nhưng nhìn từ đứng sau để chọn. Maintain cộng một tân ngữ.", "show": "k1"},
+        {"say": "Ba từ đều là giữ. Thử hỏi: có nói remain một sự cân bằng được không? Không. Hãy nhìn từ đứng sau để chọn. Maintain cộng một tân ngữ.", "show": "k1"},
         {"en": "We try to maintain a balance between work and rest.", "vi": "Chúng tôi cố duy trì cân bằng giữa làm việc và nghỉ ngơi.", "gap": True},
         {"say": "Remain cộng một tính từ.", "show": "k2"},
         {"en": "Please remain calm and wait for the next train.", "vi": "Xin hãy giữ bình tĩnh và chờ chuyến tàu sau.", "gap": True},
@@ -170,12 +170,12 @@ SITTING_1 = [
         {"say": "Từ cuối của buổi này. Bạn đã nhắc một người ba lần, nhưng người đó vẫn cứ làm. Cứ khăng khăng tiếp tục, dù bị phản đối: đó là persist. Sau persist là giới từ in, rồi động từ thêm đuôi ing."},
     ]},
     {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Lỗi thường gặp", "title": "Hai lỗi, hai cách sửa",
-     "data": {"rows": TRAPS_1, "rule": "persist đi với in và động từ thêm -ing. remain không có tân ngữ."}, "lines": [
+     "data": {"rows": TRAPS_1, "rule": "persist đi với in và động từ thêm -ing. Duy trì một thứ: maintain, không phải remain."}, "lines": [
         {"say": "Lỗi thứ nhất: dùng to sau persist.", "show": "e1"},
         {"en": "He persisted in asking the same question.", "vi": "Anh ấy cứ khăng khăng hỏi mãi một câu.", "gap": True},
         {"say": "Lỗi thứ hai: dùng remain với một tân ngữ.", "show": "e2"},
         {"en": "It is hard to maintain a balance between work and study.", "vi": "Thật khó duy trì cân bằng giữa việc làm và việc học.", "gap": True},
-        {"say": "Persist đi với in và động từ thêm đuôi ing. Remain không có tân ngữ.", "show": "rule"},
+        {"say": "Persist đi với in và động từ thêm đuôi ing. Remain không dùng để duy trì một thứ: duy trì là maintain.", "show": "rule"},
     ]},
     {"kind": "recap", "lines": [
         {"say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
@@ -276,7 +276,7 @@ SITTING_2 = [
 # ------------------------------------------------------------------ sitting 3: up, down and replacing
 UP = [
     {"key": "e1", "wrong": "Mobile phones have progressed into small computers.", "right": "Mobile phones have evolved into small computers.", "why": "Dần phát triển thành một thứ mới: evolve into. progress into là tiến vào một giai đoạn, như vòng chung kết."},
-    {"key": "e2", "wrong": "We have made a lot of progresses.", "right": "We have made a lot of progress.", "why": "progress là danh từ không đếm được: không có a, không thêm -s."},
+    {"key": "e2", "wrong": "We have made a lot of progresses.", "right": "We have made a lot of progress.", "why": "progress không đếm được: không nói a progress, không thêm -s."},
 ]
 
 DOWN = [
@@ -307,6 +307,7 @@ SITTING_3 = [
         {"say": "Lỗi thứ nhất: dùng progress khi một thứ dần thành thứ khác.", "show": "e1"},
         {"en": "Mobile phones have evolved into small computers.", "vi": "Điện thoại di động đã dần trở thành những chiếc máy tính nhỏ.", "gap": True},
         {"say": "Progress into vẫn có, nhưng là tiến vào một giai đoạn, như một đội bóng vào vòng chung kết. Lỗi thứ hai: thêm đuôi số nhiều cho progress.", "show": "e2"},
+        {"en": "We have made a lot of progress.", "vi": "Chúng tôi đã tiến bộ rất nhiều.", "gap": True, "recap": False},
         {"say": "Thành một thứ mới thì evolve into. Tiến bộ thì make progress, không có đuôi số nhiều.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "mature", "lines": [
@@ -373,11 +374,11 @@ TIME = [
 SITTING_4 = [
     {"kind": "title", "hook": "Một xã hội đang yên ổn, rồi đổi khác hẳn. Tả sự đổi khác đó bằng từ nào?", "lines": [
         {"say": "Một xã hội đang yên ổn, rồi đổi khác hẳn. Tả sự đổi khác đó bằng từ nào?", "show": "hook"},
-        {"say": "Buổi bốn bắt đầu bằng một câu chuyện có thật: nước Anh trước và sau Chiến tranh thế giới thứ hai."},
+        {"say": "Buổi bốn bắt đầu bằng câu chuyện về nước Anh trước và sau Chiến tranh thế giới thứ hai."},
     ]},
     {"kind": "scene", "visual": "story_strip", "eyebrow": "Một câu chuyện", "title": "Nước Anh đổi thay",
      "data": {"frame": "strip", "panels": BRITAIN, "rule": "Bốn khung, sáu từ: uniform, conservative, radical, dynamic, novel, influence."}, "lines": [
-        {"say": "Trước chiến tranh, người Anh tin rằng lối sống của họ sẽ kéo dài mãi. Mọi người chung niềm tin, chung giá trị: xã hội đồng nhất và bảo thủ.", "show": "p1"},
+        {"say": "Trước chiến tranh, người Anh tin rằng lối sống của họ sẽ kéo dài thêm nhiều năm nữa. Mọi người chung niềm tin, chung giá trị: xã hội đồng nhất và bảo thủ.", "show": "p1"},
         {"en": "Society was fairly uniform and conservative.", "vi": "Xã hội khá đồng nhất và bảo thủ.", "gap": True},
         {"say": "Rồi chiến tranh đến, và mọi thứ thay đổi tận gốc.", "show": "p2"},
         {"en": "The war brought radical changes.", "vi": "Chiến tranh mang lại thay đổi triệt để.", "gap": True},
@@ -416,7 +417,7 @@ SITTING_4 = [
         {"en": "Online banking was a real innovation.", "vi": "Ngân hàng trực tuyến là một sự đổi mới thực sự.", "gap": True},
         {"say": "Tính từ: innovative, đứng trước danh từ.", "show": "i3"},
         {"en": "New and innovative music appeared.", "vi": "Âm nhạc mới và sáng tạo xuất hiện.", "gap": True},
-        {"say": "Nhìn vị trí để chọn từ loại. Sau a real cần danh từ. Trước danh từ cần tính từ.", "show": "rule"},
+        {"say": "Nhìn vị trí để chọn từ loại. Đứng sau mạo từ và một tính từ thì cần danh từ. Đứng trước danh từ thì cần tính từ.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "potential", "lines": [
         {"say": "Từ cuối, cũng là chìa khóa để loại đáp án. Potential là tiềm năng: điều có thể xảy ra, nhưng chưa xảy ra."},

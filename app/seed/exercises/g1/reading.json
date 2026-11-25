@@ -10771,13 +10771,13 @@
       }
      ],
      "answer": "3",
-     "explanation_vi": "Thay đổi lớn, làm đảo lộn cả lối sống: `revolution` (cuộc cách mạng). `revision` là sự sửa lại một văn bản; `rotation` là sự xoay vòng.",
+     "explanation_vi": "Thay đổi lớn, làm đảo lộn cả lối sống: `revolution` (cuộc cách mạng). `revision` là sự sửa lại một văn bản; `rotation` là sự xoay vòng; `rejection` là sự từ chối.",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "However, the war caused a ( ) in British life that completely changed the status quo."
+    "text": "However, the war caused a ( ) in British life…"
    }
   },
   {
@@ -10808,7 +10808,7 @@
       }
      ],
      "answer": "4",
-     "explanation_vi": "`change the status quo` = thay đổi hiện trạng. `social status` là địa vị của một người, `status symbol` là món đồ thể hiện địa vị.",
+     "explanation_vi": "`change the status quo` = thay đổi hiện trạng. `social status` và `high status` nói về địa vị của một người, `status symbol` là món đồ thể hiện địa vị.",
      "tags": []
     }
    ],
@@ -10882,7 +10882,7 @@
       }
      ],
      "answer": "2",
-     "explanation_vi": "`underwent` cho thấy thay đổi đã xảy ra, nên loại `potential` (chỉ điều chưa xảy ra). Thay đổi triệt để, tận gốc: `radical`.",
+     "explanation_vi": "`underwent` cho thấy thay đổi đã xảy ra, nên loại `potential` (chỉ điều chưa xảy ra). Thay đổi triệt để, tận gốc: `radical`. `refined` là được tinh chỉnh; `alternative changes` không nói rõ thay thế cho cái gì.",
      "tags": []
     }
    ],
@@ -10919,13 +10919,13 @@
       }
      ],
      "answer": "2",
-     "explanation_vi": "`away from … towards …` mô tả một hướng chuyển động: `trend` (xu hướng). `reform` là cải cách do người ta chủ động làm; `decay` là xuống cấp.",
+     "explanation_vi": "`away from … towards …` mô tả một hướng chuyển động: `trend` (xu hướng). `reform` là cải cách do người ta chủ động làm; `fashion` là mốt quần áo, kiểu dáng; `decay` là xuống cấp.",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "The ( ) was away from fixed social roles and towards a more dynamic society."
+    "text": "The ( ) was away from fixed social roles…"
    }
   },
   {
@@ -11030,7 +11030,7 @@
       }
      ],
      "answer": "1",
-     "explanation_vi": "`at the time` và `exciting` cho thấy ý tưởng khi đó còn mới lạ: `novel`. `alternate` (tính từ) nghĩa là cách một lần; `steady` là đều đặn.",
+     "explanation_vi": "`at the time` và `exciting` cho thấy ý tưởng khi đó còn mới lạ: `novel`. `mature` là chín chắn, nói về người; `alternate` (tính từ) nghĩa là cách một lần; `steady` là đều đặn.",
      "tags": []
     }
    ],
@@ -11067,7 +11067,7 @@
       }
      ],
      "answer": "2",
-     "explanation_vi": "Đi cùng `new` là `innovative` (sáng tạo, đổi mới). `innate` là bẩm sinh; `incoherent` là rời rạc, khó hiểu.",
+     "explanation_vi": "Đi cùng `new` là `innovative` (sáng tạo, đổi mới). `internal` là bên trong; `innate` là bẩm sinh; `incoherent` là rời rạc, khó hiểu.",
      "tags": []
     }
    ],
@@ -11104,7 +11104,7 @@
       }
      ],
      "answer": "2",
-     "explanation_vi": "Giới từ `on` quyết định: `have an influence on` (có ảnh hưởng tới). Các danh từ còn lại không đi với `on` theo nghĩa này.",
+     "explanation_vi": "Giới từ `on` quyết định: `have an influence on` (có ảnh hưởng tới). `progress` không đếm được nên không đi với `a great`; `substitute` và `innovation` không đi với `on` theo nghĩa này.",
      "tags": []
     }
    ],
@@ -11141,7 +11141,7 @@
       }
      ],
      "answer": "2",
-     "explanation_vi": "Cả đoạn kể xã hội cởi mở dần, nên nước Anh bớt bảo thủ: `conservative`. `concerned` và `convinced` cần thêm phần sau (about, that …).",
+     "explanation_vi": "Cả đoạn kể xã hội cởi mở dần, nên nước Anh bớt bảo thủ: `conservative`. `concerned` (lo lắng), `convinced` (tin chắc), `contained` (kiềm chế được) không nói về mức cởi mở của một xã hội.",
      "tags": []
     }
    ],
@@ -11155,7 +11155,7 @@
    "skill": "reading",
    "type": "read_match",
    "title_vi": "Sách · Từ in đậm đúng hay sai? Chọn từ thay thế (1/10)",
-   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ in đậm của những câu khác trong bài.",
+   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ trong ngoặc vuông của những câu khác trong bài.",
    "questions": [
     {
      "id": "G1D25KW5D-1",
@@ -11189,7 +11189,7 @@
    "skill": "reading",
    "type": "read_match",
    "title_vi": "Sách · Từ in đậm đúng hay sai? Chọn từ thay thế (2/10)",
-   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ in đậm của những câu khác trong bài.",
+   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ trong ngoặc vuông của những câu khác trong bài.",
    "questions": [
     {
      "id": "G1D25KW5D-2",
@@ -11223,7 +11223,7 @@
    "skill": "reading",
    "type": "read_match",
    "title_vi": "Sách · Từ in đậm đúng hay sai? Chọn từ thay thế (3/10)",
-   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ in đậm của những câu khác trong bài.",
+   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ trong ngoặc vuông của những câu khác trong bài.",
    "questions": [
     {
      "id": "G1D25KW5D-3",
@@ -11257,7 +11257,7 @@
    "skill": "reading",
    "type": "read_match",
    "title_vi": "Sách · Từ in đậm đúng hay sai? Chọn từ thay thế (4/10)",
-   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ in đậm của những câu khác trong bài.",
+   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ trong ngoặc vuông của những câu khác trong bài.",
    "questions": [
     {
      "id": "G1D25KW5D-4",
@@ -11280,7 +11280,7 @@
       }
      ],
      "answer": "3",
-     "explanation_vi": "So với dầu mỏ là một nguồn năng lượng: `nuclear power` (điện hạt nhân).",
+     "explanation_vi": "So với dầu mỏ là một nguồn năng lượng: `nuclear power` (điện hạt nhân). `primitive` là thô sơ, không phải một loại năng lượng.",
      "tags": [],
      "prompt_vi": "It seems to me that [primitive] power is far cleaner than oil."
     }
@@ -11291,7 +11291,7 @@
    "skill": "reading",
    "type": "read_match",
    "title_vi": "Sách · Từ in đậm đúng hay sai? Chọn từ thay thế (5/10)",
-   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ in đậm của những câu khác trong bài.",
+   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ trong ngoặc vuông của những câu khác trong bài.",
    "questions": [
     {
      "id": "G1D25KW5D-5",
@@ -11321,7 +11321,7 @@
    "skill": "reading",
    "type": "read_match",
    "title_vi": "Sách · Từ in đậm đúng hay sai? Chọn từ thay thế (6/10)",
-   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ in đậm của những câu khác trong bài.",
+   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ trong ngoặc vuông của những câu khác trong bài.",
    "questions": [
     {
      "id": "G1D25KW5D-6",
@@ -11355,7 +11355,7 @@
    "skill": "reading",
    "type": "read_match",
    "title_vi": "Sách · Từ in đậm đúng hay sai? Chọn từ thay thế (7/10)",
-   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ in đậm của những câu khác trong bài.",
+   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ trong ngoặc vuông của những câu khác trong bài.",
    "questions": [
     {
      "id": "G1D25KW5D-7",
@@ -11378,7 +11378,7 @@
       }
      ],
      "answer": "1",
-     "explanation_vi": "`beta testing` là một phương pháp kiểm thử: `technique`.",
+     "explanation_vi": "`beta testing` là một phương pháp kiểm thử: `technique`. `network` là mạng lưới, không phải một cách làm.",
      "tags": [],
      "prompt_vi": "There's a [network] in computing called 'beta testing', which means you test something to see if it works properly before it becomes official."
     }
@@ -11389,7 +11389,7 @@
    "skill": "reading",
    "type": "read_match",
    "title_vi": "Sách · Từ in đậm đúng hay sai? Chọn từ thay thế (8/10)",
-   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ in đậm của những câu khác trong bài.",
+   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ trong ngoặc vuông của những câu khác trong bài.",
    "questions": [
     {
      "id": "G1D25KW5D-8",
@@ -11419,7 +11419,7 @@
    "skill": "reading",
    "type": "read_match",
    "title_vi": "Sách · Từ in đậm đúng hay sai? Chọn từ thay thế (9/10)",
-   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ in đậm của những câu khác trong bài.",
+   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ trong ngoặc vuông của những câu khác trong bài.",
    "questions": [
     {
      "id": "G1D25KW5D-9",
@@ -11453,7 +11453,7 @@
    "skill": "reading",
    "type": "read_match",
    "title_vi": "Sách · Từ in đậm đúng hay sai? Chọn từ thay thế (10/10)",
-   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ in đậm của những câu khác trong bài.",
+   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ trong ngoặc vuông của những câu khác trong bài.",
    "questions": [
     {
      "id": "G1D25KW5D-10",

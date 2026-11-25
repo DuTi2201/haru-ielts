@@ -1,5 +1,5 @@
 {
- "slug": "g1-d25-change-and-technology-c1-and-c2-unit-4",
+ "slug": "g1-d25-change-and-technology",
  "title": "Tuần 2 · Ngày 5 · Thay đổi và công nghệ",
  "title_en": "Change and technology",
  "topic": "Tuần 2 · Công nghệ (Technology)",
@@ -12,7 +12,7 @@
    "headword": "endure",
    "pos": "V",
    "meaning_vi": "tồn tại lâu bền (= last)",
-   "note_vi": "Đứng một mình, không cần tân ngữ. Danh từ: endurance (sức bền).",
+   "note_vi": "Nghĩa tồn tại lâu bền: đứng một mình. endure + tân ngữ là nghĩa khác: chịu đựng (endure pain). Danh từ: endurance.",
    "example_en": "Some traditions endure for centuries.",
    "example_vi": "Có những truyền thống tồn tại hàng thế kỷ.",
    "family": "Thay đổi và công nghệ",
@@ -170,7 +170,7 @@
    "meaning_vi": "sự tiến bộ",
    "note_vi": "Danh từ không đếm được: make progress, a lot of progress (không thêm -s). Động từ nhấn âm hai: /prəˈɡres/.",
    "example_en": "We are making good progress with the project.",
-   "example_vi": "Chúng tôi đang tiến triển tốt với dự án.",
+   "example_vi": "Dự án của chúng tôi đang tiến triển tốt.",
    "family": "Thay đổi và công nghệ",
    "priority": "core",
    "source": "Destination C1&C2, Unit 4 (trang 28–31); cách nhóm từ theo Buổi 4 của khóa học; phiên âm: Oxford Learner's Dictionaries (BrE)",
@@ -227,7 +227,7 @@
   {
    "headword": "switch",
    "pos": "V",
-   "meaning_vi": "tráo đổi cho nhau",
+   "meaning_vi": "tráo đổi cho nhau; chuyển sang (switch to)",
    "note_vi": "Hai thứ cùng còn, chỉ đổi chỗ: switch bags, switch seats.",
    "example_en": "Someone switched our bags at the airport.",
    "example_vi": "Ai đó đã tráo túi của chúng tôi ở sân bay.",
@@ -615,7 +615,7 @@
         "vi": "Vượt qua thời gian, thường là điều có giá trị."
        }
       ],
-      "rule": "Cả hai đứng một mình, không cần tân ngữ. Đo thời gian: last. Bền lâu, vượt thời gian: endure."
+      "rule": "Với nghĩa này, cả hai đứng một mình. Đo thời gian: last. Bền lâu, vượt thời gian: endure."
      },
      "lines": [
       {
@@ -637,7 +637,7 @@
        "gap": true
       },
       {
-       "say": "Cả hai đứng một mình, không cần tân ngữ. Vì vậy khi chỗ trống không có tân ngữ theo sau, hãy nghĩ tới last hoặc endure.",
+       "say": "Với nghĩa này, cả hai đứng một mình, không cần tân ngữ. Vì vậy khi chỗ trống không có tân ngữ theo sau, hãy nghĩ tới last hoặc endure.",
        "show": "rule"
       }
      ]
@@ -702,7 +702,7 @@
      },
      "lines": [
       {
-       "say": "Ba từ đều là giữ, nhưng nhìn từ đứng sau để chọn. Maintain cộng một tân ngữ.",
+       "say": "Ba từ đều là giữ. Thử hỏi: có nói remain một sự cân bằng được không? Không. Hãy nhìn từ đứng sau để chọn. Maintain cộng một tân ngữ.",
        "show": "k1"
       },
       {
@@ -760,10 +760,10 @@
         "key": "e2",
         "wrong": "It is hard to remain a balance between work and study.",
         "right": "It is hard to maintain a balance between work and study.",
-        "why": "remain không có tân ngữ. Duy trì một thứ: maintain."
+        "why": "remain không đi với tân ngữ như a balance. Duy trì một thứ: maintain."
        }
       ],
-      "rule": "persist đi với in và động từ thêm -ing. remain không có tân ngữ."
+      "rule": "persist đi với in và động từ thêm -ing. Duy trì một thứ: maintain, không phải remain."
      },
      "lines": [
       {
@@ -785,7 +785,7 @@
        "gap": true
       },
       {
-       "say": "Persist đi với in và động từ thêm đuôi ing. Remain không có tân ngữ.",
+       "say": "Persist đi với in và động từ thêm đuôi ing. Remain không dùng để duy trì một thứ: duy trì là maintain.",
        "show": "rule"
       }
      ]
@@ -1194,7 +1194,7 @@
         "key": "e2",
         "wrong": "We have made a lot of progresses.",
         "right": "We have made a lot of progress.",
-        "why": "progress là danh từ không đếm được: không có a, không thêm -s."
+        "why": "progress không đếm được: không nói a progress, không thêm -s."
        }
       ],
       "rule": "Thành một thứ mới: evolve into. Tiến bộ: make progress, không thêm -s."
@@ -1212,6 +1212,12 @@
       {
        "say": "Progress into vẫn có, nhưng là tiến vào một giai đoạn, như một đội bóng vào vòng chung kết. Lỗi thứ hai: thêm đuôi số nhiều cho progress.",
        "show": "e2"
+      },
+      {
+       "en": "We have made a lot of progress.",
+       "vi": "Chúng tôi đã tiến bộ rất nhiều.",
+       "gap": true,
+       "recap": false
       },
       {
        "say": "Thành một thứ mới thì evolve into. Tiến bộ thì make progress, không có đuôi số nhiều.",
@@ -1428,7 +1434,7 @@
        "show": "hook"
       },
       {
-       "say": "Buổi bốn bắt đầu bằng một câu chuyện có thật: nước Anh trước và sau Chiến tranh thế giới thứ hai."
+       "say": "Buổi bốn bắt đầu bằng câu chuyện về nước Anh trước và sau Chiến tranh thế giới thứ hai."
       }
      ]
     },
@@ -1477,7 +1483,7 @@
      },
      "lines": [
       {
-       "say": "Trước chiến tranh, người Anh tin rằng lối sống của họ sẽ kéo dài mãi. Mọi người chung niềm tin, chung giá trị: xã hội đồng nhất và bảo thủ.",
+       "say": "Trước chiến tranh, người Anh tin rằng lối sống của họ sẽ kéo dài thêm nhiều năm nữa. Mọi người chung niềm tin, chung giá trị: xã hội đồng nhất và bảo thủ.",
        "show": "p1"
       },
       {
@@ -1642,7 +1648,7 @@
        "gap": true
       },
       {
-       "say": "Nhìn vị trí để chọn từ loại. Sau a real cần danh từ. Trước danh từ cần tính từ.",
+       "say": "Nhìn vị trí để chọn từ loại. Đứng sau mạo từ và một tính từ thì cần danh từ. Đứng trước danh từ thì cần tính từ.",
        "show": "rule"
       }
      ]
