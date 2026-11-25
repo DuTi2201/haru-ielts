@@ -705,7 +705,7 @@
        "gap": true
       },
       {
-       "say": "Phần bị gạch: tên của động cơ mới, tên công ty, năm, và chuyện tay quay làm gãy tay. Đó là chi tiết; khi đề hỏi thì quay lại tìm.",
+       "say": "Phần bị gạch: tên của động cơ mới, tên công ty, năm và chuyện tay quay làm gãy tay. Đó là chi tiết; khi đề hỏi thì quay lại tìm.",
        "show": "drop"
       },
       {
@@ -715,7 +715,7 @@
        "en": "these noisy gasoline cars"
       },
       {
-       "say": "Đó chính là công nghệ mới vừa nhắc ở câu trước. Người viết đổi cách gọi, và người đọc phải tự nối lại."
+       "say": "Đó chính là công nghệ mới vừa nhắc ở câu trước. Người viết đổi cách gọi; người đọc phải tự nối lại."
       },
       {
        "say": "Chuỗi: thời hoàng kim ngắn, động cơ mới xuất hiện, có bộ khởi động điện, xe hơi nước bị loại dần.",
@@ -1539,7 +1539,7 @@
        "show": "b3"
       },
       {
-       "say": "Ở đoạn cuối: dựa trên bằng chứng, ông có thể đã đúng. Bằng chứng là cả câu chuyện, và các câu ngay sau: xe còn chạy tốt và đủ sạch.",
+       "say": "Ở đoạn cuối: dựa trên bằng chứng, ông có thể đã đúng. Bằng chứng là cả câu chuyện và các câu ngay sau: xe còn chạy tốt và đủ sạch.",
        "show": "b4"
       },
       {
@@ -1834,7 +1834,7 @@
   },
   {
    "title_vi": "Đọc chậm · Câu 14–20 · tiêu đề của đoạn",
-   "can_do_vi": "Sau buổi này bạn trả lời được câu hỏi bằng việc hiểu bài, và giải thích được vì sao mỗi đáp án đúng.",
+   "can_do_vi": "Sau buổi này bạn trả lời được câu hỏi bằng việc hiểu bài và giải thích được vì sao mỗi đáp án đúng.",
    "use_vi": "Bài đọc dài khoảng 950 từ với ba dạng câu hỏi hay gặp: chọn tiêu đề đoạn, trắc nghiệm, điền tóm tắt; cả ba đều cần hiểu ý chính của từng đoạn.",
    "check": [
     "G1D26RP1"
@@ -1842,7 +1842,7 @@
   },
   {
    "title_vi": "Đọc chậm · Câu 21–23 · chọn đáp án",
-   "can_do_vi": "Sau buổi này bạn trả lời được câu hỏi bằng việc hiểu bài, và giải thích được vì sao mỗi đáp án đúng.",
+   "can_do_vi": "Sau buổi này bạn trả lời được câu hỏi bằng việc hiểu bài và giải thích được vì sao mỗi đáp án đúng.",
    "use_vi": "Bài đọc dài khoảng 950 từ với ba dạng câu hỏi hay gặp: chọn tiêu đề đoạn, trắc nghiệm, điền tóm tắt; cả ba đều cần hiểu ý chính của từng đoạn.",
    "check": [
     "G1D26RP2"

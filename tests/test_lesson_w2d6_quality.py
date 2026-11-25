@@ -110,6 +110,13 @@ def test_gate_narration_holds_no_long_english_phrase_and_no_bare_letter(n):
 
 
 @pytest.mark.parametrize("n", SITTINGS)
+def test_gate_no_comma_before_va_in_spoken_vietnamese(n):
+    # the Vietnamese Chirp voice garbles a multi-sentence run with ", và" (measured 2026-11-25: 7 of 8 takes nonsense,
+    # 0 of 8 without the comma); keep it out of everything the voice reads
+    assert ", và " not in _lecture(n).script
+
+
+@pytest.mark.parametrize("n", SITTINGS)
 def test_gate_inquiry_before_rule(n):
     lec = _lecture(n)
     kinds = [s["kind"] for s in lec.slides]

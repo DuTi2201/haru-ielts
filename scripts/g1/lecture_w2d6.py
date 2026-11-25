@@ -180,10 +180,10 @@ READ_1 = [
               "value": "Nút thắt của câu chuyện: xe hơi nước mất thị trường."}, "lines": [
         {"say": "Đoạn thứ hai. Câu đầu là một hình ảnh: glory days, thời hoàng kim. Thời hoàng kim của xe hơi nước chỉ có vài năm.", "show": "keep"},
         {"en": "But the glory days of steam cars were few.", "vi": "Nhưng thời hoàng kim của xe hơi nước chẳng được bao lâu.", "gap": True},
-        {"say": "Phần bị gạch: tên của động cơ mới, tên công ty, năm, và chuyện tay quay làm gãy tay. Đó là chi tiết; khi đề hỏi thì quay lại tìm.", "show": "drop"},
+        {"say": "Phần bị gạch: tên của động cơ mới, tên công ty, năm và chuyện tay quay làm gãy tay. Đó là chi tiết; khi đề hỏi thì quay lại tìm.", "show": "drop"},
         {"say": "Để ý mạch ý. Cụm sau đây nghĩa là những chiếc xe chạy xăng ồn ào này."},
         {"en": "these noisy gasoline cars"},
-        {"say": "Đó chính là công nghệ mới vừa nhắc ở câu trước. Người viết đổi cách gọi, và người đọc phải tự nối lại."},
+        {"say": "Đó chính là công nghệ mới vừa nhắc ở câu trước. Người viết đổi cách gọi; người đọc phải tự nối lại."},
         {"say": "Chuỗi: thời hoàng kim ngắn, động cơ mới xuất hiện, có bộ khởi động điện, xe hơi nước bị loại dần.", "show": "sum"},
         {"say": "Ý chính: một công nghệ tốt hơn xuất hiện và dần thay thế xe hơi nước.", "show": "main"},
         {"say": "Giá trị: đây là nút thắt. Từ đoạn sau, câu chuyện là anh em nhà Doble cố cứu một công nghệ đang mất thị trường.", "show": "value"},
@@ -404,7 +404,7 @@ READ_2 = [
         {"say": "Nhiều bạn tra hết từ mà vẫn không hiểu bài. Lý do là không nối được câu này với câu trước. Ở đoạn thứ nhất: những điểm yếu như vậy là những điểm yếu nào? Là ba điểm vừa kể.", "show": "b1"},
         {"say": "Ở đoạn thứ hai: những chiếc xe chạy xăng ồn ào này chính là công nghệ mới vừa nhắc.", "show": "b2"},
         {"say": "Ở đoạn thứ tư: với những cải tiến này, là khóa đánh lửa và các tính năng vừa thêm.", "show": "b3"},
-        {"say": "Ở đoạn cuối: dựa trên bằng chứng, ông có thể đã đúng. Bằng chứng là cả câu chuyện, và các câu ngay sau: xe còn chạy tốt và đủ sạch.", "show": "b4"},
+        {"say": "Ở đoạn cuối: dựa trên bằng chứng, ông có thể đã đúng. Bằng chứng là cả câu chuyện và các câu ngay sau: xe còn chạy tốt và đủ sạch.", "show": "b4"},
         {"say": "Đọc hiểu là có một mạch thông tin chạy từ đầu tới cuối bài, không phải từng câu, từng từ rời rạc.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "picture_cards", "eyebrow": "Hình ảnh trong bài", "title": "Nghĩa bóng, không dịch từng chữ",
@@ -490,7 +490,7 @@ def finish(sessions: list[dict], bank: dict[str, list[dict]]) -> list[dict]:
     rest = [s for s in sessions if s is not mine and s not in vocab]
     for s in rest:
         if s["title_vi"].startswith("Đọc chậm"):
-            s["can_do_vi"] = "Sau buổi này bạn trả lời được câu hỏi bằng việc hiểu bài, và giải thích được vì sao mỗi đáp án đúng."
+            s["can_do_vi"] = "Sau buổi này bạn trả lời được câu hỏi bằng việc hiểu bài và giải thích được vì sao mỗi đáp án đúng."
     sessions[:] = [read1, *vocab, read2, *rest]
     for s in sessions:
         assert len(s["title_vi"]) <= 70, s["title_vi"]
