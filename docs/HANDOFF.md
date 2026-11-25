@@ -461,3 +461,21 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
 - Quy tắc rút ra: câu xếp chỉ nhận một thứ tự, nên câu tiếng Việt phải đi theo thứ tự câu tiếng Anh; tối đa 10 từ.
 - Chưa làm: xem trực quan trên tài khoản đăng nhập.
 - Tiếp theo: Ngày 5 — từ vựng C1 Unit 4 (30 từ cốt lõi, Buổi 4 chặng 1–3).
+
+## Rà soát bài giảng Tuần 2 (25/11)
+
+- Đã rà soát cả 8 buổi của Ngày 1–4 (`scripts/g1/lecture_w2d{1..4}.py`) theo cách dạy của thầy: mở bằng câu chuyện, hỏi trước khi nêu quy tắc, công thức đặt trước, slide ít chữ.
+  - Tách các câu narration dài.
+  - Mỗi recap mở đầu bằng quy tắc một dòng của ngày đó.
+  - Sửa các quy tắc bị nói quá: had + V3 vẫn dùng được với mốc giờ; had không bắt buộc đi kèm before/after.
+  - Thêm ví dụ còn thiếu: chuyến xe buýt (QKTD), "By 2010…", lá thư, hai câu Anna (had run / had been running), bẫy "đang".
+- Thêm ba cảnh mới trong `LectureScenes.tsx`:
+  - `chat_dialogue`: hội thoại có đánh dấu anchor, before và wrong.
+  - `story_strip`: khung truyện tranh hoặc lá thư.
+  - `decision_flow`: ba bước chọn thì, có ví dụ chạy thử.
+  - TenseTimeline và SpeakingAnswer chỉ hiện nghĩa tiếng Việt của dòng đang đọc.
+- Đo ở khổ 390 px: không có slide nào tràn ngang. Hầu hết slide cao 640 px; slide Speaking của buổi 3-2 và 4-2 cao khoảng 710–740 px.
+- Test an toàn: 289 passed. Còn 1 lỗi có từ trước: `test_a_sitting_is_not_too_heavy` (Tuần 1 Ngày 1, buổi có 4 thẻ), đang chờ người dùng quyết định.
+- Đã triển khai: api và worker (seed g1-d21..24 = updated), site (CSP khớp, cả IELTS và Korean đều trả 200).
+- Audio: chỉ được thu khi học viên bấm phát lần đầu (mỗi buổi một bản). Tuần 2 chưa có bản nào nên chưa nghe kiểm tra được. Thu trước sẽ tốn TTS.
+- Tiếp theo: Tuần 2 Ngày 5 (từ vựng C1 Unit 4).
