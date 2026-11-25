@@ -160,7 +160,7 @@ def test_gate_the_reading_method_is_taught():
         assert phrase in says, phrase
     script = "\n".join(_lecture(n).script for n in SITTINGS)
     for sentence in ("A book, which was given to me, is Harry Potter", "A book, given to me, is Harry Potter",
-                     "It comprised parts taken from a wrecked early steam car but reconfigured to drive an engine of their own design",
+                     "It comprised parts taken from a wrecked early steam car but reconfigured",
                      "The new engine design, though innovative, was still plagued with serious glitches",
                      "But these early cars inherited steam's weaknesses along with its strengths"):
         assert sentence in script, sentence

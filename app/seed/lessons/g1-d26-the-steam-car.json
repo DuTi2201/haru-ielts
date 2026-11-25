@@ -48,7 +48,7 @@
    "headword": "rekindle",
    "pos": "V",
    "meaning_vi": "khơi lại, nhóm lại (= revive)",
-   "note_vi": "kindle là nhóm lửa; re- là lại. Nghĩa bóng: khơi lại niềm yêu thích, một công nghệ.",
+   "note_vi": "kindle là nhóm lửa; re- là lại. Nghĩa bóng: khơi lại niềm yêu thích; hồi sinh một công nghệ.",
    "example_en": "The film rekindled my interest in history.",
    "example_vi": "Bộ phim khơi lại niềm yêu thích lịch sử của tôi.",
    "family": "Công nghệ: chiếc xe hơi nước",
@@ -59,8 +59,8 @@
   {
    "headword": "prototype",
    "pos": "N",
-   "meaning_vi": "mẫu thử đầu tiên",
-   "note_vi": "Mẫu thử đầu tiên, làm trước khi sản xuất hàng loạt. Tra bằng hình ảnh để thấy ngay.",
+   "meaning_vi": "mẫu thử (làm trước khi sản xuất hàng loạt)",
+   "note_vi": "Mẫu thử, làm trước khi sản xuất hàng loạt. Tra bằng hình ảnh để thấy ngay.",
    "example_en": "The team built a second prototype.",
    "example_vi": "Nhóm đã chế tạo mẫu thử thứ hai.",
    "family": "Công nghệ: chiếc xe hơi nước",
@@ -85,8 +85,8 @@
    "pos": "N",
    "meaning_vi": "kỳ công, thành tích khó",
    "note_vi": "Một việc khó làm được, đáng khen: an amazing feat.",
-   "example_en": "Winning the race alone was an amazing feat.",
-   "example_vi": "Một mình thắng cuộc đua là một kỳ công.",
+   "example_en": "Climbing Everest without oxygen is an amazing feat.",
+   "example_vi": "Leo Everest mà không cần bình dưỡng khí là một kỳ công.",
    "family": "Công nghệ: chiếc xe hơi nước",
    "priority": "recognize",
    "source": "Cambridge IELTS 18, Test 3, Reading Passage 2; từ vựng chọn từ bài đọc theo phương pháp của khóa học; phiên âm: Oxford Learner's Dictionaries (BrE)",
@@ -446,9 +446,9 @@
       ],
       "chain": [
        "railway steam",
-       "car",
+       "steam car",
        "weak + strong",
-       "fast"
+       "still fast"
       ],
       "main": "Xe hơi nước thừa hưởng cả mạnh lẫn yếu của hơi nước.",
       "value": "Mở đầu: công nghệ đến từ đâu, mạnh yếu ra sao."
@@ -503,7 +503,7 @@
         "key": "j1",
         "head": "boilers",
         "en": "had to be lit by hand",
-        "vi": "Nồi hơi: câu sau đã giải thích."
+        "vi": "Nồi hơi: ngay trong câu có gợi ý."
        },
        {
         "key": "j2",
@@ -524,15 +524,15 @@
         "vi": "Dầu hỏa: một loại nhiên liệu."
        }
       ],
-      "rule": "Gặp từ chuyên ngành, đọc tiếp câu sau; người viết thường giải thích. Không có thì hiểu nó thuộc loại gì rồi đi tiếp."
+      "rule": "Gặp từ chuyên ngành, đọc tiếp phần ngay sau; người viết thường giải thích. Không có thì hiểu nó thuộc loại gì rồi đi tiếp."
      },
      "lines": [
       {
-       "say": "Nhiều bạn sẽ ghi vào danh sách từ mới những chữ như boilers. Đây là từ chuyên ngành; người bản xứ không làm nghề cơ khí cũng có thể không rõ. Câu ngay sau đã giải thích: phải nhóm lửa bằng tay và chờ lên áp suất. Hiểu là nồi hơi là đủ.",
+       "say": "Nhiều bạn sẽ ghi vào danh sách từ mới những chữ như boilers. Đây là từ chuyên ngành; người bản xứ không làm nghề cơ khí cũng có thể không rõ. Ngay trong câu đó có gợi ý: phải nhóm lửa bằng tay và chờ lên áp suất. Hiểu là nồi hơi là đủ.",
        "show": "j1"
       },
       {
-       "say": "Tay quay khởi động ở đoạn thứ hai: câu sau nói nó từng làm gãy tay người dùng. Vậy là đủ hiểu: khởi động rất khó.",
+       "say": "Tay quay khởi động ở đoạn thứ hai: phần ngay sau nói nó từng làm gãy tay người dùng. Vậy là đủ hiểu: khởi động rất khó.",
        "show": "j2"
       },
       {
@@ -544,7 +544,7 @@
        "show": "j4"
       },
       {
-       "say": "Gặp từ chuyên ngành, đọc tiếp câu sau. Không có lời giải thích thì chỉ cần biết nó thuộc loại gì, rồi đi tiếp.",
+       "say": "Gặp từ chuyên ngành, đọc tiếp phần ngay sau; người viết thường giải thích. Không có lời giải thích thì chỉ cần biết nó thuộc loại gì, rồi đi tiếp.",
        "show": "rule"
       }
      ]
@@ -576,8 +576,8 @@
        {
         "key": "a3",
         "head": "Trạng từ lạ",
-        "en": "manually ignite the boiler",
-        "vi": "Giữ động từ: châm lửa cho nồi hơi."
+        "en": "Astonishingly, an unmodified Doble Model E runs clean",
+        "vi": "Giữ khung: chiếc xe chưa sửa đổi vẫn chạy sạch."
        }
       ],
       "rule": "Đọc lấy ý: tính từ và trạng từ lạ thì lướt qua; danh từ và động từ mới là khung của câu."
@@ -592,7 +592,7 @@
        "show": "a2"
       },
       {
-       "say": "Manually có đuôi của trạng từ. Bỏ qua, giữ động từ: châm lửa cho nồi hơi.",
+       "say": "Astonishingly có đuôi của trạng từ. Bỏ qua, ý chính vẫn còn: xe vẫn chạy sạch.",
        "show": "a3"
       },
       {
@@ -830,7 +830,7 @@
        "show": "hook"
       },
       {
-       "say": "Tám từ của buổi này kể lại nửa đầu câu chuyện. Ưu tiên động từ và danh từ; ba từ chỉ cần nhận ra khi đọc."
+       "say": "Tám từ của buổi này kể lại nửa đầu câu chuyện. Ưu tiên động từ và danh từ; hai từ chỉ cần nhận ra khi đọc."
       }
      ]
     },
@@ -839,7 +839,7 @@
      "headword": "inherit",
      "lines": [
       {
-       "say": "Con cái thừa hưởng nét mặt của bố mẹ. Xe hơi nước đời đầu thừa hưởng cả điểm mạnh lẫn điểm yếu của tàu hỏa chạy hơi nước: đó là inherit."
+       "say": "Con cái thừa hưởng nét mặt của bố mẹ. Xe hơi nước đời đầu thừa hưởng cả điểm mạnh lẫn điểm yếu của công nghệ hơi nước: đó là inherit."
       }
      ]
     },
@@ -852,7 +852,7 @@
       },
       {
        "en": "Despite such shortcomings, the cars offered quick transportation.",
-       "vi": "Dù có những điểm yếu như vậy, xe vẫn đi lại nhanh.",
+       "vi": "Dù có những điểm yếu như vậy, xe vẫn là phương tiện đi lại nhanh.",
        "gap": true
       }
      ]
@@ -866,7 +866,7 @@
       },
       {
        "en": "Steam power was gradually phased out.",
-       "vi": "Xe chạy hơi nước dần bị loại bỏ.",
+       "vi": "Năng lượng hơi nước dần bị loại bỏ.",
        "gap": true
       }
      ]
@@ -885,7 +885,7 @@
      "headword": "prototype",
      "lines": [
       {
-       "say": "Mẫu thử đầu tiên, làm trước khi sản xuất hàng loạt. Chiếc đầu chạy không tốt, nên anh em nhà Doble làm tiếp mẫu thứ hai, mẫu thứ ba. Từ này nên tra bằng hình ảnh."
+       "say": "Mẫu thử, làm trước khi sản xuất hàng loạt. Chiếc đầu chạy không tốt, nên anh em nhà Doble làm tiếp mẫu thứ hai, mẫu thứ ba. Từ này nên tra bằng hình ảnh."
       }
      ]
     },
@@ -968,7 +968,7 @@
      },
      "lines": [
       {
-       "say": "Bài đọc này có nhiều từ của ngày năm. Ô tô đời đầu là sơ khai.",
+       "say": "Bài đọc này có nhiều từ của ngày năm. Primitive automobiles là những chiếc ô tô sơ khai, đời đầu.",
        "show": "d1"
       },
       {
@@ -1047,7 +1047,7 @@
      "headword": "investment",
      "lines": [
       {
-       "say": "Muốn mở công ty thì cần vốn. Anh cả lái xe tới Detroit để tìm vốn đầu tư."
+       "say": "Muốn mở công ty thì cần vốn. Abner lái xe tới Detroit để tìm vốn đầu tư."
       },
       {
        "en": "He drove to Detroit to seek investment.",
@@ -1102,7 +1102,7 @@
      "headword": "emission",
      "lines": [
       {
-       "say": "Khí thải. Chiếc xe cuối cùng thải ra lượng khí không đáng kể. Cụm hay gặp trong bài về môi trường: giảm khí thải."
+       "say": "Khí thải. Chiếc xe cuối cùng có lượng khí thải không đáng kể. Cụm hay gặp trong bài về môi trường: giảm khí thải."
       },
       {
        "en": "We need to reduce emissions.",
@@ -1182,7 +1182,7 @@
        "show": "f3"
       },
       {
-       "say": "Maintain là bảo dưỡng, thành sự bảo dưỡng. Để ý chữ viết: giữa từ không còn chữ ai nữa.",
+       "say": "Maintain là bảo dưỡng, thành sự bảo dưỡng. Để ý chữ viết: maintenance không giữ nguyên phần tain của maintain.",
        "show": "f4"
       },
       {
@@ -1255,11 +1255,11 @@
        {
         "key": "r3",
         "head": "Trong bài",
-        "en": "It comprised parts taken from a wrecked early steam car but reconfigured to drive an engine of their own design.",
+        "en": "parts taken from a wrecked early steam car but reconfigured…",
         "vi": "parts (which were) taken … but (which were) reconfigured …"
        }
       ],
-      "rule": "Thấy V3 hay V-ing đứng ngay sau danh từ: thêm which và be vào để hiểu, rồi nối chủ ngữ với động từ chính."
+      "rule": "V3 ngay sau danh từ: thêm which + be. V-ing: thêm which + động từ chia thì. Rồi nối chủ ngữ với động từ chính."
      },
      "lines": [
       {
@@ -1288,13 +1288,13 @@
        "show": "r3"
       },
       {
-       "en": "It comprised parts taken from a wrecked early steam car but reconfigured to drive an engine of their own design."
+       "en": "It comprised parts taken from a wrecked early steam car but reconfigured…"
       },
       {
        "say": "Khung câu chỉ là: nó gồm những phụ tùng. Phụ tùng nào? Phụ tùng được lấy từ một chiếc xe cũ bị hỏng, nhưng được lắp lại để chạy một động cơ do chính họ thiết kế. Taken và reconfigured đều là phần rút gọn: thêm which were vào trước là thấy rõ."
       },
       {
-       "say": "Thấy động từ dạng thứ ba hay dạng thêm ing đứng ngay sau một danh từ, hãy thêm which và be vào để hiểu, rồi nối chủ ngữ với động từ chính.",
+       "say": "Thấy động từ dạng thứ ba đứng ngay sau một danh từ, hãy thêm which và be vào để hiểu; với dạng thêm ing, thêm which và động từ chia thì. Rồi nối chủ ngữ với động từ chính.",
        "show": "rule"
       }
      ]
@@ -1315,7 +1315,7 @@
         "key": "i1",
         "head": "Tên gọi chèn giữa",
         "en": "the Doble boys' third prototype, nicknamed the Model B,",
-        "vi": "Chỉ là tên của mẫu thứ ba."
+        "vi": "= which was nicknamed: chỉ là tên của mẫu thứ ba."
        },
        {
         "key": "i2",
@@ -1327,7 +1327,7 @@
         "key": "i3",
         "head": "Cụm giải thích",
         "en": "a feat described as 'remarkable acceleration'",
-        "vi": "= which was described as …"
+        "vi": "a feat: danh từ tóm lại cả ý trước; described = which was described."
        }
       ],
       "rule": "Bỏ tạm phần giữa hai dấu phẩy, nối chủ ngữ chính với động từ chính; hiểu khung rồi mới đọc phần chèn."
@@ -1424,7 +1424,7 @@
         "icon": "kettle",
         "label": "Trước đó",
         "kind": "bg",
-        "en": "Steam had already enjoyed a long career in the railways.",
+        "en": "Steam had already enjoyed a long and successful career in the railways.",
         "vi": "Xảy ra trước mốc: quá khứ hoàn thành."
        },
        {
@@ -1440,7 +1440,7 @@
         "icon": "fail_x",
         "label": "1931",
         "kind": "event",
-        "en": "Fewer than fifty cars had been produced.",
+        "en": "Fewer than fifty of the Model E steam cars had been produced.",
         "vi": "Tính tới một mốc, bị động."
        },
        {
@@ -1448,7 +1448,7 @@
         "icon": "car",
         "label": "Hôm nay",
         "kind": "chain",
-        "en": "Many of the cars which have survived still run well.",
+        "en": "Many of the Model E Dobles which have survived are still in good working condition.",
         "vi": "Về tới bây giờ."
        }
       ],
@@ -1460,11 +1460,11 @@
        "show": "p1"
       },
       {
-       "say": "Thị trường đang đi xuống thì bốn anh em ra tay: quá khứ tiếp diễn cho bối cảnh đang diễn ra, quá khứ đơn cho việc chính.",
+       "say": "Thị trường đang đi xuống thì bốn anh em ra tay: quá khứ tiếp diễn cho bối cảnh đang diễn ra, quá khứ đơn cho việc chính. Để ý: đoạn thứ hai đã kể tới năm 1912, rồi đoạn thứ ba quay ngược về 1906; lúc đó thị trường đã đang đi xuống.",
        "show": "p2"
       },
       {
-       "say": "Tới lúc công ty đóng cửa năm 1931, chưa tới năm mươi chiếc đã được sản xuất: quá khứ hoàn thành, tính tới một mốc đã qua, ở dạng bị động. Khoản đặt cọc ở đoạn thứ tư cũng vậy: tính tới tháng Tư năm đó, công ty đã nhận hơn năm nghìn khoản.",
+       "say": "Tới lúc công ty đóng cửa năm 1931, chưa tới năm mươi chiếc đã được sản xuất: quá khứ hoàn thành, tính tới một mốc đã qua, ở dạng bị động. Khoản đặt cọc ở đoạn thứ tư cũng là quá khứ hoàn thành tính tới một mốc, nhưng ở dạng chủ động: tính tới tháng Tư năm sau, công ty đã nhận hơn năm nghìn khoản.",
        "show": "p3"
       },
       {
@@ -1572,7 +1572,7 @@
         "icon": "fail",
         "head": "folded",
         "en": "the company folded",
-        "vi": "gập lại: đóng cửa"
+        "vi": "gấp lại: đóng cửa"
        },
        {
         "key": "m5",
@@ -1594,11 +1594,11 @@
        "show": "m2"
       },
       {
-       "say": "Plagued: lỗi bám dai như bệnh dịch, sửa chỗ này lại hỏng chỗ khác.",
+       "say": "Plagued: lỗi bám dai như bệnh dịch.",
        "show": "m3"
       },
       {
-       "say": "Folded: công ty gập lại, tức là đóng cửa.",
+       "say": "Folded: công ty gấp lại, tức là đóng cửa.",
        "show": "m4"
       },
       {
@@ -1734,11 +1734,11 @@
        "good handling, fast, clean"
       ],
       "main": "Mẫu xe cuối cùng qua được bài thử trong giá lạnh và chạy tốt hơn hẳn.",
-      "value": "Cho thấy công nghệ đã hoàn thiện, ngay trước đoạn kết."
+      "value": "Cho thấy công nghệ gần như hoàn thiện, ngay trước đoạn kết."
      },
      "lines": [
       {
-       "say": "Đoạn thứ sáu. Tô vàng từ khóa: lần thử cuối, một chiếc xe khả thi, được chạy thử, trong giá lạnh.",
+       "say": "Đoạn thứ sáu. Tô vàng từ khóa: lần thử cuối, một chiếc xe hơi nước dùng được thật sự, được chạy thử, trong giá lạnh.",
        "show": "keep"
       },
       {
@@ -1754,7 +1754,7 @@
        "show": "main"
       },
       {
-       "say": "Giá trị: công nghệ đã hoàn thiện. Vậy tại sao vẫn thất bại? Đó là câu hỏi của đoạn cuối.",
+       "say": "Giá trị: công nghệ gần như hoàn thiện. Vậy tại sao vẫn thất bại? Đó là câu hỏi của đoạn cuối.",
        "show": "value"
       }
      ]
@@ -1774,13 +1774,13 @@
        {
         "key": "e1",
         "head": "Bài đọc",
-        "en": "parts taken from a wrecked early steam car but reconfigured to drive an engine of their own design",
-        "vi": "Nhiều phần chèn: để thử người đọc."
+        "en": "the Doble boys' third prototype, nicknamed the Model B, still lacked the convenience…",
+        "vi": "Chủ ngữ và động từ bị tách xa."
        },
        {
         "key": "e2",
         "head": "Khi bạn viết",
-        "en": "They used parts from an old steam car. They changed the parts to fit their own engine.",
+        "en": "The third prototype was called the Model B. It was still less convenient than a gasoline car.",
         "vi": "Tách thành hai câu rõ ràng."
        }
       ],
@@ -1788,7 +1788,7 @@
      },
      "lines": [
       {
-       "say": "Câu dài nhiều phần chèn có trong bài đọc là để thử xem người đọc có thật sự hiểu ngữ pháp không.",
+       "say": "Bài đọc dùng câu dài, nhiều phần chèn để thử xem người đọc có thật sự hiểu ngữ pháp không.",
        "show": "e1"
       },
       {
@@ -1796,8 +1796,8 @@
        "show": "e2"
       },
       {
-       "en": "They used parts from an old steam car. They changed the parts to fit their own engine.",
-       "vi": "Họ dùng phụ tùng của một chiếc xe hơi nước cũ. Họ sửa lại để hợp với động cơ của mình.",
+       "en": "The third prototype was called the Model B. It was still less convenient than a gasoline car.",
+       "vi": "Mẫu thử thứ ba được gọi là Model B. Nó vẫn kém tiện lợi hơn xe chạy xăng.",
        "gap": true
       },
       {

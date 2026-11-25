@@ -760,7 +760,7 @@
     "Tô từ khóa của từng câu, bỏ tên riêng, năm và số liệu.",
     "Nối những chữ còn lại bằng mũi tên, rồi nói ý chính của đoạn trong một câu."
    ],
-   "model_answer_en": "E: buyers unhappy -> slow, erratic -> glitches. G: no profit -> company closed -> cars still run, clean -> may return. The Doble brothers built excellent steam cars, but the business failed; today the idea may return.",
+   "model_answer_en": "E: buyers unhappy -> slow, erratic -> engine glitches. G: no profit -> company closed -> cars still run, clean -> may return. The Doble brothers built excellent steam cars, but the business failed; today the idea may return.",
    "model_note_vi": "Chuỗi mẫu chỉ là một cách tóm; chuỗi của bạn khác chữ vẫn đúng nếu giữ được việc chính.",
    "checklist_vi": [
     "Mỗi đoạn có một chuỗi, mỗi mắt xích chỉ hai đến bốn chữ.",

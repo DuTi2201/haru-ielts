@@ -111,7 +111,7 @@ HEAD_QS = [
          "silence`), sạch (không như máy xăng thải mùi khói), nhanh (`remarkable acceleration`). Sau mấy lần thử mới được khen, nên "
          "tiêu đề là vi (`at last`, `quiet, clean, fast`). v sai: đơn đặt hàng chỉ có ở đoạn D; iii và viii nói về đoạn A, B."),
     head(17, "D", "v", ["ii", "iv", "vi", "vii"],
-         "Tóm tắt đoạn D: tìm vốn → mở công ty → mẫu xe mới mở rộng các cải tiến (khóa điện trong cabin) → 5.390 khoản đặt cọc. Cải tiến "
+         "Tóm tắt đoạn D: tìm vốn → mở công ty → mẫu xe mới mở rộng các cải tiến (khóa đánh lửa trong cabin) → 5.390 khoản đặt cọc. Cải tiến "
          "thêm dẫn tới đơn đặt hàng: v (`further improvements` = `enhancements`, `commercial orders` = `deposits`). vi sai vì đoạn D "
          "không nhắc báo chí; vii là chuyện xảy ra sau đó, ở đoạn E."),
     head(18, "E", "vii", ["ii", "iii", "v", "viii"],
@@ -119,8 +119,9 @@ HEAD_QS = [
          "khách hàng thất vọng: vii. ii sai vì vấn đề nằm ở động cơ (`glitches`), không phải ở việc tiếp thị; v là đoạn D, ngay trước đó."),
     head(19, "F", "i", ["iv", "v", "vi", "vii"],
          "Tóm tắt đoạn F: mẫu xe cuối được thử ở New York → để qua đêm trong giá lạnh, rồi thêm một giờ ngoài trời → vặn khóa, nồi hơi "
-         "đủ áp suất trong bốn mươi giây → lái dễ, nhanh, khí thải không đáng kể. Phần dài nhất và đặc biệt nhất là quãng chờ trong "
-         "giá lạnh trước khi xe được thử: i (`assessed` = `road-tested`). vi hấp dẫn vì kết quả tốt, nhưng đoạn F không nhắc báo chí "
+         "đủ áp suất trong bốn mươi giây → lái dễ, nhanh, khí thải không đáng kể. Điểm nhấn của đoạn là bài thử khắc nghiệt: xe bị để qua "
+         "đêm trong giá lạnh, thêm hơn một giờ ngoài trời, rồi mới được thử: i (`a period in cold conditions` = `sitting overnight in freezing temperatures`, "
+         "`assessed` = `road-tested`). v sai: đoạn F có cải tiến nhưng không có đơn đặt hàng. vi hấp dẫn vì kết quả tốt, nhưng đoạn F không nhắc báo chí "
          "hay công chúng, và tiêu đề có `at last` hợp với đoạn C."),
     head(20, "G", "iv", ["i", "iii", "vii", "viii"],
          "Tóm tắt đoạn G: thất bại về tài chính → công ty đóng cửa năm 1931 → xe còn lại vẫn chạy tốt, đủ sạch cho luật khí thải ngày "
@@ -138,11 +139,11 @@ MC_QS = [
     abcd(MC[1], "C", ["constructed all the parts themselves.", "made written notes at each stage of the construction.",
                       "needed several attempts to achieve a competitive model.", "sought the advice of experienced people in the car industry."],
          "Đoạn C: chiếc đầu tiên chạy không tốt, rồi làm tiếp mẫu thứ hai và thứ ba; đến mẫu thứ ba mới được chú ý nhờ nhiều cải tiến. "
-         "Phải thử nhiều lần mới có một mẫu đáng kể. A sai vì chiếc đầu dùng phụ tùng lấy từ một chiếc xe hơi nước cũ bị hỏng (`parts taken "
+         "Phải thử nhiều lần mới có một mẫu đủ sức cạnh tranh. A sai vì chiếc đầu dùng phụ tùng lấy từ một chiếc xe hơi nước cũ bị hỏng (`parts taken "
          "from a wrecked early steam car`). B và D không có trong bài."),
     abcd(MC[2], "B", ["moved production to a different city.", "raised financial capital.", "employed an additional worker.", "abandoned their earlier designs."],
-         "Đoạn D: lái xe tới Detroit để tìm vốn (`seek investment`), dùng vốn đó mở công ty, rồi bắt tay làm mẫu xe mới: B. A không có "
-         "trong bài: đi Detroit là để tìm vốn, bài không nói chuyển nơi sản xuất (đáp án bài thi là B). C không có trong bài. D sai vì mẫu "
+         "Đoạn D: lái xe tới Detroit để tìm vốn (`seek investment`), dùng vốn đó mở công ty, rồi bắt tay làm mẫu xe mới: B. A sai: bài chỉ nói ông lái xe tới Detroit để tìm vốn; "
+         "không câu nào nói việc sản xuất được chuyển sang nơi khác. C không có trong bài. D sai vì mẫu "
          "mới mở rộng chính các cải tiến của mẫu cũ (`expand upon the innovations`), không bỏ thiết kế cũ."),
 ]
 
@@ -150,8 +151,8 @@ SECTIONS: list[tuple] = [
     (26, "W6S", C18 + " · câu 24–26", "Tóm tắt: The Model E",
      "Điền MỘT từ và/hoặc một số lấy từ bài đọc. Trước khi gõ, tìm đoạn kể về chiếc xe được nhắc trong câu, rồi đọc kỹ câu chứa từ cần điền.", "typed", [
         "A later version of the Model E raised its ( ㉠ ), while keeping its emissions extremely low. | speed;Speed | Đoạn F: `its maximum speed "
-        "was pushed to over a hundred miles per hour … with negligible emissions`. `pushed to` = `raised`, `negligible` = `extremely low`. "
-        "Đề cho phép một từ: `speed`.",
+        "was pushed to over a hundred miles per hour`, khí thải `negligible`. `pushed to` = `raised`, `negligible` = `extremely low`. "
+        "Đề chỉ cho một từ, nên không gõ `maximum speed`.",
         "Under ( ㉠ ) cars were produced before the company went out of business. | fifty;50;Fifty | Đoạn G: `By the time the company folded "
         "in 1931, fewer than fifty … had been produced`. `fewer than` = `under`, `folded` = `went out of business`. Gõ bằng chữ hay bằng số đều đúng.",
         "Even today, Model Es on the road satisfy California's ( ㉠ ) emissions laws. | strict;Strict | Đoạn G: xe vẫn đủ sạch để qua luật "
@@ -186,9 +187,9 @@ DAY = {
             ("shortcoming", "N", "điểm yếu, thiếu sót (= weakness)", "Despite its shortcomings, the car was quick.", "Dù có những điểm yếu, chiếc xe vẫn chạy nhanh."),
             ("phase out", "X", "loại bỏ dần, từng bước", "Old diesel buses are being phased out.", "Xe buýt chạy dầu cũ đang dần bị loại bỏ."),
             ("rekindle", "V", "khơi lại, nhóm lại (= revive)", "The film rekindled my interest in history.", "Bộ phim khơi lại niềm yêu thích lịch sử của tôi."),
-            ("prototype", "N", "mẫu thử đầu tiên", "The team built a second prototype.", "Nhóm đã chế tạo mẫu thử thứ hai."),
+            ("prototype", "N", "mẫu thử (làm trước khi sản xuất hàng loạt)", "The team built a second prototype.", "Nhóm đã chế tạo mẫu thử thứ hai."),
             ("comprise", "V", "gồm có (= consist of)", "The team comprises four brothers.", "Nhóm gồm bốn anh em."),
-            ("feat", "N", "kỳ công, thành tích khó", "Winning the race alone was an amazing feat.", "Một mình thắng cuộc đua là một kỳ công."),
+            ("feat", "N", "kỳ công, thành tích khó", "Climbing Everest without oxygen is an amazing feat.", "Leo Everest mà không cần bình dưỡng khí là một kỳ công."),
             ("accelerate", "V", "tăng tốc (= speed up)", "The car can accelerate quickly.", "Chiếc xe có thể tăng tốc rất nhanh."),
         ]),
         ("Từ của bài · đoạn D đến G", [
@@ -218,6 +219,6 @@ DAY = {
          "model": "C: last effort -> first car ran badly -> more prototypes -> magazines noticed -> quiet, clean, fast. D: seek investment -> open company -> new features -> thousands of deposits."},
         {"vi": "Viết chuỗi từ khóa cho đoạn E và G, rồi một câu tóm tắt cả bài (không quá 25 từ).",
          "en": "Write keyword chains for paragraphs E and G, then one sentence that sums up the whole passage.",
-         "model": "E: buyers unhappy -> slow, erratic -> glitches. G: no profit -> company closed -> cars still run, clean -> may return. The Doble brothers built excellent steam cars, but the business failed; today the idea may return."},
+         "model": "E: buyers unhappy -> slow, erratic -> engine glitches. G: no profit -> company closed -> cars still run, clean -> may return. The Doble brothers built excellent steam cars, but the business failed; today the idea may return."},
     ],
 }
