@@ -173,7 +173,7 @@
     "why": "Đang học quanh mốc chín giờ tối qua → quá khứ tiếp diễn: was + V-ing."
    },
    "step_vi": "Bản chất",
-   "note_vi": "Lỗi người Việt hay mắc: Thấy chữ \"đang\" trong câu tiếng Việt là chọn quá khứ tiếp diễn. Một sự kiện đã khép lại, như một trận đấu hay một kỳ thi, kể bằng quá khứ đơn.",
+   "note_vi": "Lỗi người Việt hay mắc: Thấy chữ \"đang\" trong câu tiếng Việt là chọn quá khứ tiếp diễn. Một sự kiện được kể trọn vẹn, như kết quả trận đấu (We won the match.) hay một kỳ thi đã xong (I passed the exam.), kể bằng quá khứ đơn.",
    "exam_tip_vi": "Writing: bài viết học thuật hiếm khi cần quá khứ tiếp diễn. Sự kiện và số liệu của những năm đã qua dùng quá khứ đơn."
   },
   {
@@ -242,7 +242,7 @@
     "why": "know là động từ trạng thái → quá khứ đơn, không dùng tiếp diễn."
    },
    "step_vi": "Khi nào không dùng",
-   "note_vi": "Lỗi người Việt hay mắc: Thấy every day vẫn chọn tiếp diễn: ~~I was getting up at six every morning last week~~ → I got up at six every morning last week. Động từ trạng thái: ~~I wasn't knowing~~ → I didn't know.",
+   "note_vi": "Lỗi người Việt hay mắc: Thấy every day vẫn chọn tiếp diễn: kể thói quen lặp lại thì dùng I got up at six every morning last week. Động từ trạng thái: ~~I wasn't knowing~~ → I didn't know.",
    "exam_tip_vi": "Khi phân vân giữa các thì quá khứ, nếu không thấy tính tạm thời và không cần nhấn việc nào xảy ra trước, hãy chọn quá khứ đơn."
   },
   {
@@ -262,10 +262,10 @@
      "Have you enjoyed",
      "Do you enjoy"
     ],
-    "why": "Hỏi cảm nhận về một việc đã qua: dùng thì đơn giản nhất, quá khứ đơn."
+    "why": "Hỏi cảm nhận về một việc đã qua: dùng thì đơn giản nhất, quá khứ đơn. Were you enjoying chỉ hỏi về lúc bữa tiệc đang diễn ra."
    },
    "step_vi": "Phối hợp hai thì",
-   "note_vi": "Lỗi người Việt hay mắc: Mở đầu câu hỏi bằng thì tiếp diễn khi chỉ hỏi cảm nhận: ~~Were you enjoying the film?~~ → Did you enjoy the film?",
+   "note_vi": "Lỗi người Việt hay mắc: Hỏi cảm nhận về cả bộ phim mà dùng thì tiếp diễn. Hỏi gọn: Did you enjoy the film? (Were you enjoying the film? chỉ hỏi về lúc phim đang chiếu.)",
    "exam_tip_vi": "Speaking: câu hỏi What were you doing when…? đã có sẵn khung trả lời: thì tiếp diễn cho việc đang làm, quá khứ đơn cho việc xảy ra."
   }
  ],
@@ -295,7 +295,7 @@
   ],
   "watch_out_vi": [
    "Thiếu was, were: ~~I watching TV~~ → I was watching TV. Sai ngôi: ~~We was playing~~ → We were playing.",
-   "Thấy chữ \"đang\" trong câu tiếng Việt là chọn quá khứ tiếp diễn. Một sự kiện đã khép lại, như một trận đấu hay một kỳ thi, kể bằng quá khứ đơn."
+   "Thấy chữ \"đang\" trong câu tiếng Việt là chọn quá khứ tiếp diễn. Một sự kiện được kể trọn vẹn, như kết quả trận đấu (We won the match.) hay một kỳ thi đã xong (I passed the exam.), kể bằng quá khứ đơn."
   ]
  },
  "exercise_ids": [
@@ -388,7 +388,7 @@
        "show": "hook"
       },
       {
-       "say": "Buổi này học công thức của thì quá khứ tiếp diễn, sự khác nhau giữa một điểm và một khoảng, rồi hai việc xảy ra cùng lúc."
+       "say": "Hôm qua, quá khứ đơn là một điểm trên trục thời gian. Hôm nay ta phóng to vào bên trong điểm đó. Buổi này học công thức của thì quá khứ tiếp diễn, sự khác nhau giữa một điểm và một khoảng, rồi hai việc xảy ra cùng lúc."
       }
      ]
     },
@@ -509,11 +509,17 @@
        "show": "short"
       },
       {
-       "say": "Cách viết đuôi ing: phần lớn động từ chỉ cần thêm vào, như downloading. Động từ có chữ e ở cuối thì bỏ e: charge thành charging. Từ một âm tiết như stop thì gấp đôi phụ âm cuối: stopping. Lie thành lying.",
+       "say": "Cách viết đuôi ing: phần lớn động từ chỉ cần thêm vào, như downloading. Động từ có chữ e ở cuối thì bỏ e: charge thành charging. Từ một âm tiết tận cùng bằng một nguyên âm và một phụ âm, như stop, thì gấp đôi phụ âm cuối: stopping. Work hay rain thì không. Lie thành lying.",
        "show": "spelling"
       },
       {
-       "say": "Lỗi hay gặp nhất là bỏ mất was. Câu I watching TV thiếu động từ chính. Mọi câu đều có was hoặc were, theo sau là động từ thêm đuôi ing.",
+       "say": "Lỗi hay gặp nhất là bỏ mất was. Câu sau thiếu động từ chính."
+      },
+      {
+       "en": "I watching TV at eight."
+      },
+      {
+       "say": "Mọi câu đều có was hoặc were, theo sau là động từ thêm đuôi ing.",
        "show": "rule"
       }
      ]
@@ -566,7 +572,7 @@
        "gap": true
       },
       {
-       "say": "Cách hai: quá khứ tiếp diễn. Bạn phóng to vào bên trong khoảng thời gian đó: lúc bảy giờ, trận bóng đang diễn ra, trước đó đã bắt đầu, sau đó mới kết thúc.",
+       "say": "Cách hai: quá khứ tiếp diễn. Bạn phóng to vào bên trong khoảng thời gian đó: lúc bảy giờ, trận bóng đang diễn ra, đã bắt đầu từ trước.",
        "show": "a2"
       },
       {
@@ -575,7 +581,16 @@
        "gap": true
       },
       {
-       "say": "Mốc không cần chính xác tới từng phút. Nói at around seven, khoảng bảy giờ, vẫn là một mốc. Quá khứ đơn là một điểm, việc đã xảy ra. Quá khứ tiếp diễn là một khoảng tạm thời đang diễn ra quanh mốc đó.",
+       "say": "Mốc không cần chính xác tới từng phút. Khoảng bảy giờ vẫn là một mốc."
+      },
+      {
+       "en": "at around seven",
+       "vi": "khoảng bảy giờ",
+       "gap": true,
+       "recap": false
+      },
+      {
+       "say": "Kể cả khi người nói nhớ nhầm hay nói dối về giờ giấc, câu vẫn chia như vậy, vì ngữ pháp theo điều người nói trình bày. Quá khứ đơn là một điểm, việc đã xảy ra. Quá khứ tiếp diễn là một khoảng tạm thời đang diễn ra quanh mốc đó.",
        "show": "rule"
       }
      ]
@@ -609,7 +624,7 @@
         "vi": "Kéo dài cả buổi sáng."
        }
       ],
-      "rule": "Quá khứ tiếp diễn luôn nhìn vào một khoảng có đầu có cuối, không phải một việc kéo dài mãi."
+      "rule": "Quá khứ tiếp diễn nhìn từ bên trong một khoảng tạm thời."
      },
      "lines": [
       {
@@ -640,7 +655,7 @@
        "gap": true
       },
       {
-       "say": "Một lưu ý cho người Việt: đừng thấy chữ đang trong câu tiếng Việt là chọn thì tiếp diễn. Một sự kiện đã khép lại, như một trận đấu hay một kỳ thi, vẫn kể bằng quá khứ đơn. Quá khứ tiếp diễn luôn nhìn vào một khoảng có đầu có cuối.",
+       "say": "Một lưu ý cho người Việt: đừng thấy chữ đang trong câu tiếng Việt là chọn thì tiếp diễn. Một sự kiện được kể trọn vẹn, như kết quả một trận đấu hay một kỳ thi đã xong, vẫn kể bằng quá khứ đơn. Quá khứ tiếp diễn nhìn từ bên trong một khoảng tạm thời.",
        "show": "rule"
       }
      ]
@@ -682,7 +697,7 @@
        {
         "key": "c4",
         "icon": "ball",
-        "at": "point",
+        "at": "two",
         "tense": "hai câu quá khứ đơn",
         "en": "I played football when my friends played badminton.",
         "vi": "Chỉ kể hai việc; không rõ có cùng lúc không."
@@ -838,79 +853,14 @@
      "hook": "I was getting up at six every morning last week: câu này sai ở đâu?",
      "lines": [
       {
-       "say": "Tuần trước sáng nào bạn cũng dậy lúc sáu giờ. Bạn nói: I was getting up at six every morning last week. Câu này sai ở đâu?",
+       "say": "Tuần trước sáng nào bạn cũng dậy lúc sáu giờ, và bạn kể lại bằng câu dưới đây. Trong bài thi, câu này sai ở đâu?",
        "show": "hook"
       },
       {
-       "say": "Buổi này học hai cách dùng nữa của thì tiếp diễn, những lúc không dùng nó, và cách kể một câu chuyện bằng hai thì."
-      }
-     ]
-    },
-    {
-     "kind": "scene",
-     "visual": "picture_cards",
-     "eyebrow": "Hai cách dùng nữa",
-     "title": "Than phiền và dựng cảnh",
-     "data": {
-      "rows": [
-       {
-        "key": "h1",
-        "icon": "angry",
-        "head": "Than phiền · was always + V-ing",
-        "en": "When we shared a room, Zoe was always taking my things.",
-        "vi": "Một thói quen gây bực mình trong quá khứ."
-       },
-       {
-        "key": "h2",
-        "icon": "rain",
-        "head": "Cảnh nền · quá khứ tiếp diễn",
-        "en": "It was raining and everyone was hurrying home.",
-        "vi": "Bức tranh đang diễn ra khi câu chuyện bắt đầu."
-       },
-       {
-        "key": "h3",
-        "icon": "bulb",
-        "head": "Việc chính · quá khứ đơn",
-        "en": "Then the lights went out.",
-        "vi": "Việc xảy ra, đẩy câu chuyện đi tiếp."
-       }
-      ],
-      "rule": "was always + V-ing: than phiền. Thì tiếp diễn dựng cảnh nền; quá khứ đơn kể việc chính."
-     },
-     "lines": [
-      {
-       "say": "Cách dùng thứ nhất: than phiền về một thói quen gây bực mình trong quá khứ. Công thức là was hoặc were, rồi always, rồi động từ thêm đuôi ing.",
-       "show": "h1"
+       "en": "I was getting up at six every morning last week."
       },
       {
-       "en": "When we shared a room, Zoe was always taking my things. It was so annoying!",
-       "vi": "Hồi ở chung phòng, Zoe cứ lấy đồ của tôi. Bực lắm!",
-       "gap": true
-      },
-      {
-       "say": "Để ý: always đứng sau was. Và câu thường đi kèm một lời bình, như it was so annoying."
-      },
-      {
-       "say": "Cách dùng thứ hai: dựng cảnh nền ở đầu một câu chuyện, như mở đầu một bộ phim.",
-       "show": "h2"
-      },
-      {
-       "en": "It was raining and everyone was hurrying home.",
-       "vi": "Trời đang mưa, mọi người đang vội về nhà.",
-       "gap": true
-      },
-      {
-       "say": "Rồi việc chính xảy ra, đẩy câu chuyện đi tiếp. Việc chính chia quá khứ đơn.",
-       "show": "h3"
-      },
-      {
-       "en": "Then the lights went out.",
-       "vi": "Rồi đèn tắt phụt.",
-       "gap": true
-      },
-      {
-       "say": "Was always cộng động từ thêm đuôi ing để than phiền. Thì tiếp diễn dựng cảnh nền, còn quá khứ đơn kể việc chính.",
-       "show": "rule"
+       "say": "Buổi này học những lúc không dùng thì tiếp diễn, hai cách dùng nữa của nó, và cách kể một câu chuyện bằng hai thì."
       }
      ]
     },
@@ -950,8 +900,13 @@
      },
      "lines": [
       {
-       "say": "Trường hợp một trả lời câu hỏi đầu buổi: việc lặp lại. Sáng nào cũng dậy lúc sáu giờ là lặp lại nhiều lần, không còn là một khoảng tạm thời quanh một mốc. Câu đúng là I got up at six every morning last week.",
+       "say": "Trường hợp một trả lời câu hỏi đầu buổi: việc lặp lại. Sáng nào cũng dậy lúc sáu giờ là lặp lại nhiều lần, không còn là một khoảng tạm thời quanh một mốc. Bài thi chọn quá khứ đơn.",
        "show": "n1"
+      },
+      {
+       "en": "I got up at six every morning last week.",
+       "vi": "Tuần trước sáng nào tôi cũng dậy lúc sáu giờ.",
+       "gap": true
       },
       {
        "en": "Last summer I went swimming almost every day.",
@@ -987,6 +942,74 @@
       },
       {
        "say": "Lặp lại, trạng thái, chớp nhoáng, nối tiếp: dùng quá khứ đơn. Và khi phân vân mà không thấy tính tạm thời, hãy chọn quá khứ đơn.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "picture_cards",
+     "eyebrow": "Hai cách dùng nữa",
+     "title": "Than phiền và dựng cảnh",
+     "data": {
+      "rows": [
+       {
+        "key": "h1",
+        "icon": "angry",
+        "head": "Than phiền · was always + V-ing",
+        "en": "When we shared a room, Zoe was always taking my things.",
+        "vi": "Một thói quen gây bực mình trong quá khứ."
+       },
+       {
+        "key": "h2",
+        "icon": "rain",
+        "head": "Cảnh nền · quá khứ tiếp diễn",
+        "en": "It was raining and everyone was hurrying home.",
+        "vi": "Bức tranh đang diễn ra khi câu chuyện bắt đầu."
+       },
+       {
+        "key": "h3",
+        "icon": "bulb_off",
+        "head": "Việc chính · quá khứ đơn",
+        "en": "Then the lights went out.",
+        "vi": "Việc xảy ra, đẩy câu chuyện đi tiếp."
+       }
+      ],
+      "rule": "was always + V-ing: than phiền. Thì tiếp diễn dựng cảnh nền; quá khứ đơn kể việc chính."
+     },
+     "lines": [
+      {
+       "say": "Cách dùng thứ nhất: than phiền về một thói quen gây bực mình trong quá khứ. Công thức là was hoặc were, rồi always, rồi động từ thêm đuôi ing.",
+       "show": "h1"
+      },
+      {
+       "en": "When we shared a room, Zoe was always taking my things. It was so annoying!",
+       "vi": "Hồi ở chung phòng, Zoe cứ lấy đồ của tôi. Bực lắm!",
+       "gap": true
+      },
+      {
+       "say": "Để ý: always đứng sau was. Và câu thường đi kèm một lời bình, nói rằng việc đó thật phiền."
+      },
+      {
+       "say": "Cách dùng thứ hai: dựng cảnh nền ở đầu một câu chuyện, như mở đầu một bộ phim.",
+       "show": "h2"
+      },
+      {
+       "en": "It was raining and everyone was hurrying home.",
+       "vi": "Trời đang mưa, mọi người đang vội về nhà.",
+       "gap": true
+      },
+      {
+       "say": "Rồi việc chính xảy ra, đẩy câu chuyện đi tiếp. Việc chính chia quá khứ đơn.",
+       "show": "h3"
+      },
+      {
+       "en": "Then the lights went out.",
+       "vi": "Rồi đèn tắt phụt.",
+       "gap": true
+      },
+      {
+       "say": "Was always cộng động từ thêm đuôi ing để than phiền. Thì tiếp diễn dựng cảnh nền, còn quá khứ đơn kể việc chính.",
        "show": "rule"
       }
      ]
@@ -1054,7 +1077,15 @@
        "gap": true
       },
       {
-       "say": "Vì vậy khi chỉ hỏi cảm nhận, hãy hỏi did you enjoy the film, đừng hỏi bằng thì tiếp diễn. Câu hỏi về quá khứ thường mở đầu bằng quá khứ đơn; người trả lời chọn thì theo điều mình muốn nhấn.",
+       "say": "Vì vậy khi hỏi cảm nhận về cả bộ phim, hãy hỏi gọn bằng quá khứ đơn."
+      },
+      {
+       "en": "Did you enjoy the film?",
+       "vi": "Bạn có thích bộ phim không?",
+       "gap": true
+      },
+      {
+       "say": "Câu hỏi về quá khứ thường mở đầu bằng quá khứ đơn; người trả lời chọn thì theo điều mình muốn nhấn.",
        "show": "rule"
       }
      ]
@@ -1074,9 +1105,9 @@
        },
        {
         "key": "e2",
-        "wrong": "I was getting up at six every morning last week.",
-        "right": "I got up at six every morning last week.",
-        "why": "Việc lặp lại: quá khứ đơn."
+        "wrong": "We was playing football at seven.",
+        "right": "We were playing football at seven.",
+        "why": "We đi với were."
        },
        {
         "key": "e3",
@@ -1091,7 +1122,7 @@
         "why": "Số liệu một năm đã qua: quá khứ đơn."
        }
       ],
-      "rule": "Có was hoặc were. Lặp lại, trạng thái, số liệu đã qua: quá khứ đơn."
+      "rule": "Có was hoặc were, đúng ngôi. Trạng thái, số liệu đã qua: quá khứ đơn."
      },
      "lines": [
       {
@@ -1105,12 +1136,12 @@
        "recap": false
       },
       {
-       "say": "Lỗi hai: dùng tiếp diễn cho việc lặp lại.",
+       "say": "Lỗi hai: sai ngôi. We, you, they đi với were.",
        "show": "e2"
       },
       {
-       "en": "I got up at six every morning last week.",
-       "vi": "Tuần trước sáng nào tôi cũng dậy lúc sáu giờ.",
+       "en": "We were playing football at seven.",
+       "vi": "Lúc bảy giờ chúng tôi đang đá bóng.",
        "gap": true
       },
       {
@@ -1124,7 +1155,7 @@
        "recap": false
       },
       {
-       "say": "Lỗi bốn hay gặp trong Writing Task 1: dịch chữ đang thành thì tiếp diễn. Số liệu của một năm đã qua dùng quá khứ đơn.",
+       "say": "Lỗi bốn hay gặp trong bài viết mô tả số liệu: dịch chữ đang thành thì tiếp diễn. Số liệu của một năm đã qua dùng quá khứ đơn.",
        "show": "e4"
       },
       {
@@ -1133,7 +1164,7 @@
        "gap": true
       },
       {
-       "say": "Thì tiếp diễn luôn có was hoặc were. Việc lặp lại, động từ trạng thái và số liệu đã qua dùng quá khứ đơn.",
+       "say": "Thì tiếp diễn luôn có was hoặc were, đúng ngôi. Động từ trạng thái và số liệu đã qua dùng quá khứ đơn.",
        "show": "rule"
       }
      ]
@@ -1143,7 +1174,7 @@
      "headword": "battery",
      "lines": [
       {
-       "say": "Trước khi kể một câu chuyện, học năm danh từ về thiết bị. Từ thứ nhất. Hết pin, tiếng Anh nói là the battery died."
+       "say": "Trước khi kể một câu chuyện, học năm danh từ về thiết bị. Từ thứ nhất. Câu ví dụ có cách nói hết pin: pin chết."
       }
      ]
     },
@@ -1161,7 +1192,7 @@
      "headword": "signal",
      "lines": [
       {
-       "say": "Từ thứ ba. Không có sóng là no signal."
+       "say": "Từ thứ ba: sóng điện thoại."
       }
      ]
     },
@@ -1170,7 +1201,7 @@
      "headword": "software",
      "lines": [
       {
-       "say": "Từ thứ tư. Đây là danh từ không đếm được: không nói a software."
+       "say": "Từ thứ tư. Đây là danh từ không đếm được, nên không đi với a."
       }
      ]
     },

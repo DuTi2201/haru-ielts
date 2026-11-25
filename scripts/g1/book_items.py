@@ -340,7 +340,7 @@ SECTIONS: list[tuple] = [
     # ---------------------------------------------------------------- week 2, day 2 (build day 22): Destination B2 Unit 3, A and B
     # Answers: the book's key; reasons and the "outside the exam" notes follow the course's session 3 (stage 4: A, stage 5: B).
     (22, "W2A", B3 + " · bài A (trang 20)", "Quá khứ đơn hay quá khứ tiếp diễn", "Chọn đáp án của bài thi. Hỏi: người nói kể một việc đã xảy ra (một điểm), hay nhìn vào một khoảng tạm thời đang diễn ra?", "choice", [
-        "I ( ) Maria for the first time at Ray's birthday party. | saw | was seeing | Kể một sự kiện: lần đầu gặp Maria. Bài thi chọn `saw`. Ngoài đời, `was seeing` chỉ dùng khi cố ý nhấn khoảnh khắc đang nhìn thấy cô ấy ở bữa tiệc.",
+        "I ( ) Maria for the first time at Ray's birthday party. | saw | was seeing | Kể một sự kiện: lần đầu gặp Maria → `saw`. `see` (nhìn thấy) là việc tức thì; còn `was seeing someone` thường được hiểu là đang hẹn hò với ai đó.",
         "Richard ( ) TV when the phone rang. | was watching | watched | Chuông reo là việc ngắn cắt ngang; lúc đó việc xem TV đang diễn ra → `was watching`. Chia cả hai vế quá khứ đơn thì câu không cho biết hai việc diễn ra cùng lúc.",
         "When we were on holiday, we ( ) to the café almost every day. | went | were going | Nếu câu dừng ở `to the café`, cả hai đều được. Nhưng có `almost every day`: việc lặp lại, không còn tính tạm thời → `went`.",
         "Denise ( ) the song every day until she could sing it perfectly. | practised | was practising | `every day`: luyện lặp lại hằng ngày cho tới khi hát được → quá khứ đơn.",

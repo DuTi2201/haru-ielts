@@ -5572,7 +5572,7 @@
       },
       {
        "id": "2",
-       "text": "quá khứ ━━✕━━ (đang diễn ra thì bị cắt ngang) ┄┄ bây giờ"
+       "text": "quá khứ ━━ϟ┄┄ (đang diễn ra thì bị cắt ngang) ┄┄ bây giờ"
       },
       {
        "id": "3",
@@ -5606,7 +5606,7 @@
       },
       {
        "id": "2",
-       "text": "quá khứ ━━✕━━ (đang diễn ra thì bị cắt ngang) ┄┄ bây giờ"
+       "text": "quá khứ ━━ϟ┄┄ (đang diễn ra thì bị cắt ngang) ┄┄ bây giờ"
       },
       {
        "id": "3",
@@ -5640,7 +5640,7 @@
       },
       {
        "id": "2",
-       "text": "quá khứ ━━✕━━ (đang diễn ra thì bị cắt ngang) ┄┄ bây giờ"
+       "text": "quá khứ ━━ϟ┄┄ (đang diễn ra thì bị cắt ngang) ┄┄ bây giờ"
       },
       {
        "id": "3",
@@ -5670,7 +5670,7 @@
      "options": [
       {
        "id": "1",
-       "text": "quá khứ ━━✕━━ (đang diễn ra thì bị cắt ngang) ┄┄ bây giờ"
+       "text": "quá khứ ━━ϟ┄┄ (đang diễn ra thì bị cắt ngang) ┄┄ bây giờ"
       },
       {
        "id": "2",
@@ -5708,17 +5708,17 @@
       },
       {
        "id": "2",
-       "text": "I installing some new software."
+       "text": "I were installing some new software."
       },
       {
        "id": "3",
-       "text": "I were installing some new software."
+       "text": "I installed some new software."
       }
      ],
      "answer": "1",
-     "explanation_vi": "Ngôi I đi với was, và không được bỏ was: was + V-ing.",
+     "explanation_vi": "Việc đang diễn ra lúc tám giờ, chưa xong → was + V-ing. I installed chỉ kể việc đã cài xong. Ngôi I đi với was.",
      "tags": [],
-     "prompt_vi": "Bạn của bạn hỏi tám giờ tối qua bạn làm gì. Lúc đó bạn đang cài một phần mềm mới."
+     "prompt_vi": "Bạn của bạn hỏi tám giờ tối qua bạn làm gì. Lúc đó bạn đang cài một phần mềm mới, chưa xong."
     }
    ]
   },
@@ -6003,11 +6003,11 @@
       },
       {
        "id": "2",
-       "text": "since"
+       "text": "because of"
       },
       {
        "id": "3",
-       "text": "for"
+       "text": "despite"
       },
       {
        "id": "4",
@@ -6015,7 +6015,7 @@
       }
      ],
      "answer": "1",
-     "explanation_vi": "Nối hai việc diễn ra cùng lúc: while. during đi với danh từ, không đi với một vế câu.",
+     "explanation_vi": "Nối hai việc diễn ra cùng lúc: while. during, despite, because of đi với danh từ, không đi với một vế câu.",
      "tags": []
     }
    ],
@@ -6163,7 +6163,7 @@
       }
      ],
      "answer": "2",
-     "explanation_vi": "Hỏi cảm nhận về một việc đã qua: dùng thì đơn giản nhất, quá khứ đơn.",
+     "explanation_vi": "Hỏi cảm nhận về một việc đã qua: dùng thì đơn giản nhất, quá khứ đơn. Were you enjoying chỉ hỏi về lúc bữa tiệc đang diễn ra.",
      "tags": []
     }
    ],
@@ -6192,7 +6192,7 @@
       }
      ],
      "answer": "1",
-     "explanation_vi": "Kể một sự kiện: lần đầu gặp Maria. Bài thi chọn `saw`. Ngoài đời, `was seeing` chỉ dùng khi cố ý nhấn khoảnh khắc đang nhìn thấy cô ấy ở bữa tiệc.",
+     "explanation_vi": "Kể một sự kiện: lần đầu gặp Maria → `saw`. `see` (nhìn thấy) là việc tức thì; còn `was seeing someone` thường được hiểu là đang hẹn hò với ai đó.",
      "tags": []
     }
    ],

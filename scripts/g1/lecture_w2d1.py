@@ -133,7 +133,7 @@ SITTING_1 = [
               "rule": "Khẳng định: V-ed hoặc dạng bất quy tắc, mọi ngôi như nhau. Phủ định và câu hỏi: didn't, did, động từ về nguyên thể."}, "lines": [
         {"say": "Bây giờ là công thức. Trước hết, ở quá khứ đơn mọi ngôi dùng cùng một dạng. Ngôi thứ ba số ít không thêm gì riêng.", "show": "persons"},
         {"en": "We watched the match.", "vi": "Chúng tôi xem trận đấu.", "gap": True, "show": "aff"},
-        {"say": "Cách viết: phần lớn động từ thêm đuôi ed, như work thành worked. Động từ đã có sẵn chữ e ở cuối, như replace, chỉ thêm phần còn thiếu: replaced. Study thành studied. Từ một âm tiết như stop thì gấp đôi phụ âm cuối: stopped. Và có một nhóm động từ bất quy tắc phải học thuộc: go thành went, buy thành bought.", "show": "spelling"},
+        {"say": "Cách viết: phần lớn động từ thêm đuôi ed, như work thành worked. Động từ đã có sẵn chữ e ở cuối, như replace, chỉ thêm phần còn thiếu: replaced. Study thành studied. Từ một âm tiết tận cùng bằng một nguyên âm và một phụ âm, như stop, thì gấp đôi phụ âm cuối: stopped. Work hay rain thì không. Và có một nhóm động từ bất quy tắc phải học thuộc: go thành went, buy thành bought.", "show": "spelling"},
         {"say": "Câu phủ định: đặt didn't trước động từ, và động từ về nguyên thể."},
         {"en": "We didn't watch the news.", "vi": "Chúng tôi không xem thời sự.", "gap": True, "show": "neg"},
         {"say": "Câu hỏi: đưa did lên đầu câu, động từ cũng về nguyên thể. Trả lời ngắn thì dùng lại did.", "show": "short"},
