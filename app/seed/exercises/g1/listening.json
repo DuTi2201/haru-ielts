@@ -380,6 +380,57 @@
    ]
   },
   {
+   "id": "G1D24D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Tuần 2 · Ngày 4",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "When I got home, my brother had eaten all the pizza.",
+      "vi": "Khi tôi về đến nhà, em tôi đã ăn hết chỗ pizza."
+     },
+     {
+      "speaker": "M",
+      "text": "I was reading when the power went off.",
+      "vi": "Tôi đang đọc sách thì mất điện."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "share",
+     "vi": "chia sẻ"
+    },
+    {
+     "ko": "store",
+     "vi": "lưu trữ"
+    },
+    {
+     "ko": "access",
+     "vi": "truy cập"
+    },
+    {
+     "ko": "upload",
+     "vi": "tải lên"
+    },
+    {
+     "ko": "browse",
+     "vi": "lướt xem (trang web, cửa hàng)"
+    },
+    {
+     "ko": "account",
+     "vi": "tài khoản"
+    }
+   ],
+   "tips_vi": [
+    "Nghe âm cuối: -s của ngôi thứ ba, 's và n't, -ing. Sau khi kiểm tra, nghe lại và nhại theo đúng nhịp."
+   ]
+  },
+  {
    "id": "G1D11L1",
    "skill": "listening",
    "type": "listen_interview",

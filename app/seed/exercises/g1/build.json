@@ -5530,6 +5530,239 @@
    "tips_vi": []
   },
   {
+   "id": "G1D24B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 2 · Ngày 4",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Khi tôi về đến nhà, em tôi đã ăn hết pizza.",
+   "tiles": [
+    "had",
+    "my",
+    "pizza",
+    "I",
+    "got",
+    "brother",
+    "When",
+    "home,",
+    "eaten",
+    "the"
+   ],
+   "answers": [
+    "When I got home, my brother had eaten the pizza"
+   ]
+  },
+  {
+   "id": "G1D24B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 2 · Ngày 4",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi mệt vì đã làm việc suốt cả ngày.",
+   "tiles": [
+    "because",
+    "day",
+    "I",
+    "working",
+    "been",
+    "tired",
+    "I",
+    "was",
+    "had",
+    "all"
+   ],
+   "answers": [
+    "I was tired because I had been working all day"
+   ]
+  },
+  {
+   "id": "G1D24B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 2 · Ngày 4",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi đang đọc sách thì mất điện.",
+   "tiles": [
+    "was",
+    "off",
+    "I",
+    "reading",
+    "the",
+    "power",
+    "went",
+    "when"
+   ],
+   "answers": [
+    "I was reading when the power went off"
+   ]
+  },
+  {
+   "id": "G1D24B4",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 2 · Ngày 4",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Hè năm ngoái ngày nào tôi cũng đi bơi.",
+   "tiles": [
+    "summer",
+    "day",
+    "last",
+    "went",
+    "I",
+    "every",
+    "swimming"
+   ],
+   "answers": [
+    "I went swimming every day last summer"
+   ]
+  },
+  {
+   "id": "G1D24B5",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 2 · Ngày 4",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Đó là lần đầu tôi dùng ứng dụng này.",
+   "tiles": [
+    "the",
+    "used",
+    "first",
+    "had",
+    "time",
+    "was",
+    "this",
+    "I",
+    "It",
+    "app"
+   ],
+   "answers": [
+    "It was the first time I had used this app"
+   ]
+  },
+  {
+   "id": "G1D24F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 2 · Ngày 4",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "When I arrived, the meeting ( ㉠ ) (already / start).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "had already started",
+      "'d already started"
+     ],
+     "common_errors_vi": "Cuộc họp bắt đầu trước lúc tôi tới → had already + V3."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D24F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 2 · Ngày 4",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "At eight o'clock last night, I ( ㉠ ) (chat) with my friends online.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "was chatting"
+     ],
+     "common_errors_vi": "Đang diễn ra quanh mốc tám giờ tối qua → was + V-ing. chat gấp đôi phụ âm cuối: chatting."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D24F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 2 · Ngày 4",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "She ( ㉠ ) (live) in Hue for five years before she moved to Hanoi.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "had lived",
+      "had been living",
+      "'d lived",
+      "'d been living"
+     ],
+     "common_errors_vi": "Kéo dài tới mốc chuyển nhà. Cả had lived và had been living đều đúng."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D24F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 2 · Ngày 4",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "My phone ( ㉠ ) (die) because I had forgotten to charge it.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "died"
+     ],
+     "common_errors_vi": "Việc chính được kể → quá khứ đơn. Việc quên sạc xảy ra trước đã chia had + V3."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D24F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 2 · Ngày 4",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "I ( ㉠ ) (not / see) the film before, so I didn't know the ending.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "hadn't seen",
+      "had not seen",
+      "had never seen",
+      "'d not seen",
+      "'d never seen"
+     ],
+     "common_errors_vi": "Trải nghiệm trước đó, có before → hadn't + V3."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
    "id": "G1D5KA18-1",
    "skill": "build",
    "type": "write_fill",

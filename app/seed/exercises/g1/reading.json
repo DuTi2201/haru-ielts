@@ -7601,6 +7601,912 @@
    }
   },
   {
+   "id": "G1D24T1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Tuần 2 · Ngày 4",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D24T1",
+     "options": [
+      {
+       "id": "1",
+       "text": "├─ bây giờ ─┤ (tạm thời, rồi hết)"
+      },
+      {
+       "id": "2",
+       "text": "quá khứ ━━▲ (kéo dài tới một mốc quá khứ) ┄┄ bây giờ"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ├●┤ (đang diễn ra quanh một mốc) ┄┄ bây giờ"
+      },
+      {
+       "id": "4",
+       "text": "quá khứ ●━━━━━━▶ bây giờ (còn tiếp)"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Nhìn từ bây giờ, ở tạm → hiện tại tiếp diễn.",
+     "tags": [],
+     "prompt_vi": "«She is living in Hanoi now.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D24T2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Tuần 2 · Ngày 4",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D24T2",
+     "options": [
+      {
+       "id": "1",
+       "text": "├─ bây giờ ─┤ (tạm thời, rồi hết)"
+      },
+      {
+       "id": "2",
+       "text": "quá khứ ━━▲ (kéo dài tới một mốc quá khứ) ┄┄ bây giờ"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ●━━━━━━▶ bây giờ (còn tiếp)"
+      },
+      {
+       "id": "4",
+       "text": "quá khứ ├●┤ (đang diễn ra quanh một mốc) ┄┄ bây giờ"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Cùng ý ở tạm, nhưng nhìn từ một mốc đã qua (2019) → quá khứ tiếp diễn.",
+     "tags": [],
+     "prompt_vi": "«In 2019, my brother was living in Da Nang.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D24T3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Tuần 2 · Ngày 4",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D24T3",
+     "options": [
+      {
+       "id": "1",
+       "text": "quá khứ ━━◯ (vừa dừng trước mốc, còn dấu vết) ┄┄ bây giờ"
+      },
+      {
+       "id": "2",
+       "text": "quá khứ ━━━━● vừa dừng, còn dấu vết"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ━━▲ (kéo dài tới một mốc quá khứ) ┄┄ bây giờ"
+      },
+      {
+       "id": "4",
+       "text": "quá khứ ●━━━━━━▶ bây giờ (còn tiếp)"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Vừa dừng, dấu vết ở bây giờ → hiện tại hoàn thành tiếp diễn.",
+     "tags": [],
+     "prompt_vi": "«I'm tired because I have been running.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D24T4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Tuần 2 · Ngày 4",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D24T4",
+     "options": [
+      {
+       "id": "1",
+       "text": "quá khứ ━━━━● vừa dừng, còn dấu vết"
+      },
+      {
+       "id": "2",
+       "text": "quá khứ ├●┤ (đang diễn ra quanh một mốc) ┄┄ bây giờ"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ━━◯ (vừa dừng trước mốc, còn dấu vết) ┄┄ bây giờ"
+      },
+      {
+       "id": "4",
+       "text": "quá khứ ━━▲ (kéo dài tới một mốc quá khứ) ┄┄ bây giờ"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Cùng ý dấu vết, nhưng nhìn từ một mốc đã qua → quá khứ hoàn thành tiếp diễn.",
+     "tags": [],
+     "prompt_vi": "«I was tired because I had been running.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D24I1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 2 · Ngày 4",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D24I1",
+     "options": [
+      {
+       "id": "1",
+       "text": "When my brother met his wife, he had been live in Da Nang."
+      },
+      {
+       "id": "2",
+       "text": "When my brother met his wife, he was living in Da Nang."
+      },
+      {
+       "id": "3",
+       "text": "When my brother met his wife, he is living in Da Nang."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Ở tạm, nhìn từ một mốc đã qua (lúc gặp vợ) → quá khứ tiếp diễn.",
+     "tags": [],
+     "prompt_vi": "Khi anh trai bạn gặp vợ, anh ấy đang sống tạm ở Đà Nẵng. Bạn kể."
+    }
+   ]
+  },
+  {
+   "id": "G1D24I2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 2 · Ngày 4",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D24I2",
+     "options": [
+      {
+       "id": "1",
+       "text": "I was exhausted because I have been working for ten hours."
+      },
+      {
+       "id": "2",
+       "text": "I was exhausted because I had been working for ten hours."
+      },
+      {
+       "id": "3",
+       "text": "I am exhausted because I had been working for ten hours."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Mốc là tối qua: lùi cả hai vế. Thời lượng trước mốc → had been + V-ing.",
+     "tags": [],
+     "prompt_vi": "Tối qua bạn về nhà mệt lử vì đã làm việc suốt mười tiếng. Bạn kể."
+    }
+   ]
+  },
+  {
+   "id": "G1D24I3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 2 · Ngày 4",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D24I3",
+     "options": [
+      {
+       "id": "1",
+       "text": "I was reading when the power went off."
+      },
+      {
+       "id": "2",
+       "text": "I read when the power was going off."
+      },
+      {
+       "id": "3",
+       "text": "I had read when the power went off."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Bước 2: một khoảng tạm thời bị cắt ngang → việc dài tiếp diễn, việc ngắn quá khứ đơn.",
+     "tags": [],
+     "prompt_vi": "Bạn đang đọc sách thì mất điện. Bạn kể."
+    }
+   ]
+  },
+  {
+   "id": "G1D24I4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 2 · Ngày 4",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D24I4",
+     "options": [
+      {
+       "id": "1",
+       "text": "Last summer I had played badminton every day."
+      },
+      {
+       "id": "2",
+       "text": "Last summer I have played badminton every day."
+      },
+      {
+       "id": "3",
+       "text": "Last summer I played badminton every day."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bước 1: việc lặp lại, có mốc đã qua → quá khứ đơn.",
+     "tags": [],
+     "prompt_vi": "Hè năm ngoái, ngày nào bạn cũng chơi cầu lông. Bạn kể."
+    }
+   ]
+  },
+  {
+   "id": "G1D24I5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 2 · Ngày 4",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D24I5",
+     "options": [
+      {
+       "id": "1",
+       "text": "I had been watching the film for ten minutes when the screen froze."
+      },
+      {
+       "id": "2",
+       "text": "I have been watching the film for ten minutes when the screen froze."
+      },
+      {
+       "id": "3",
+       "text": "I had been watched the film for ten minutes when the screen froze."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Nhấn quá trình kéo dài tới mốc màn hình treo → had been + V-ing.",
+     "tags": [],
+     "prompt_vi": "Bạn muốn nhấn rằng bạn đã xem phim được mười phút thì màn hình bị treo."
+    }
+   ]
+  },
+  {
+   "id": "G1D24Q1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Chọn đáp án · Tuần 2 · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng.",
+   "questions": [
+    {
+     "id": "G1D24Q1",
+     "options": [
+      {
+       "id": "1",
+       "text": "I had playing football for three hours."
+      },
+      {
+       "id": "2",
+       "text": "I was been playing football for three hours."
+      },
+      {
+       "id": "3",
+       "text": "I has been playing football for three hours."
+      },
+      {
+       "id": "4",
+       "text": "I had been playing football for three hours."
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Lùi trợ động từ đầu tiên: have → had; phần còn lại giữ nguyên.",
+     "tags": [],
+     "prompt_vi": "Câu nào là cặp quá khứ của: I have been playing football for three hours?"
+    }
+   ]
+  },
+  {
+   "id": "G1D24Q2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D24Q2",
+     "options": [
+      {
+       "id": "1",
+       "text": "eats"
+      },
+      {
+       "id": "2",
+       "text": "had eaten"
+      },
+      {
+       "id": "3",
+       "text": "has eaten"
+      },
+      {
+       "id": "4",
+       "text": "was eat"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Ăn hết trước lúc tôi về, mốc là quá khứ → had + V3.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "When I got home, my brother ( ) all the pizza."
+   }
+  },
+  {
+   "id": "G1D24Q3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D24Q3",
+     "options": [
+      {
+       "id": "1",
+       "text": "fly"
+      },
+      {
+       "id": "2",
+       "text": "have flown"
+      },
+      {
+       "id": "3",
+       "text": "was fly"
+      },
+      {
+       "id": "4",
+       "text": "had flown"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "It was the first time + had + V3. fly, flew, flown.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "It was the first time I ( ) a drone."
+   }
+  },
+  {
+   "id": "G1D24Q4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D24Q4",
+     "options": [
+      {
+       "id": "1",
+       "text": "is always borrowing"
+      },
+      {
+       "id": "2",
+       "text": "had always borrow"
+      },
+      {
+       "id": "3",
+       "text": "was always borrowing"
+      },
+      {
+       "id": "4",
+       "text": "always was borrowing"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Than phiền, nhìn từ quá khứ → was always + V-ing.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "When we were children, my sister ( ) my clothes. It was so annoying!"
+   }
+  },
+  {
+   "id": "G1D24Q5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Chọn đáp án · Tuần 2 · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng.",
+   "questions": [
+    {
+     "id": "G1D24Q5",
+     "options": [
+      {
+       "id": "1",
+       "text": "Bước 1: chuỗi việc nối tiếp"
+      },
+      {
+       "id": "2",
+       "text": "Không khớp bước nào"
+      },
+      {
+       "id": "3",
+       "text": "Bước 2: một khoảng tạm thời bị cắt ngang"
+      },
+      {
+       "id": "4",
+       "text": "Bước 3: xảy ra trước một mốc quá khứ"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Việc nấu ăn đang diễn ra thì chuông reo cắt ngang: bước 2.",
+     "tags": [],
+     "prompt_vi": "Câu I was cooking when the doorbell rang khớp với bước nào?"
+    }
+   ]
+  },
+  {
+   "id": "G1D24Q6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D24Q6",
+     "options": [
+      {
+       "id": "1",
+       "text": "have lost"
+      },
+      {
+       "id": "2",
+       "text": "was losing"
+      },
+      {
+       "id": "3",
+       "text": "had lost"
+      },
+      {
+       "id": "4",
+       "text": "lose"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bước 3: mất chìa khóa xảy ra trước lúc không mở được cửa → had + V3.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I couldn't open the door because I ( ) my keys."
+   }
+  },
+  {
+   "id": "G1D24Q7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D24Q7",
+     "options": [
+      {
+       "id": "1",
+       "text": "had gone"
+      },
+      {
+       "id": "2",
+       "text": "go"
+      },
+      {
+       "id": "3",
+       "text": "have gone"
+      },
+      {
+       "id": "4",
+       "text": "went"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Bước 1: việc lặp lại, mốc đã qua → quá khứ đơn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "We ( ) to the beach almost every weekend last summer."
+   }
+  },
+  {
+   "id": "G1D24Q8",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Chọn đáp án · Tuần 2 · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng.",
+   "questions": [
+    {
+     "id": "G1D24Q8",
+     "options": [
+      {
+       "id": "1",
+       "text": "I had watched ten minutes of the film when the screen froze."
+      },
+      {
+       "id": "2",
+       "text": "I was watching the film when the screen froze."
+      },
+      {
+       "id": "3",
+       "text": "I watch the film when the screen froze."
+      },
+      {
+       "id": "4",
+       "text": "I had been watching the film for ten minutes when the screen froze."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Khoảng tạm thời ngay lúc đó → quá khứ tiếp diễn. Hai câu had nhấn việc xảy ra trước hoặc quá trình trước mốc.",
+     "tags": [],
+     "prompt_vi": "Câu nào nhấn khoảng tạm thời đang diễn ra lúc màn hình bị treo?"
+    }
+   ]
+  },
+  {
+   "id": "G1D24Q9",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D24Q9",
+     "options": [
+      {
+       "id": "1",
+       "text": "have left"
+      },
+      {
+       "id": "2",
+       "text": "had left"
+      },
+      {
+       "id": "3",
+       "text": "leave"
+      },
+      {
+       "id": "4",
+       "text": "were leaving"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Để quên ví xảy ra trước lúc tới nhà hàng và nhận ra → had + V3.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "When we arrived at the restaurant, we realised we ( ) our wallets at the hotel."
+   }
+  },
+  {
+   "id": "G1D24KW4E-1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn một trong bốn thì quá khứ (1/8)",
+   "instruction_vi": "Chọn đáp án đúng. Dùng ba bước: (1) chuỗi việc, lặp lại, trạng thái → quá khứ đơn; (2) khoảng tạm thời bị cắt ngang → tiếp diễn; (3) xảy ra trước một mốc → had + V3 hoặc had been + V-ing.",
+   "questions": [
+    {
+     "id": "G1D24KW4E-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "were going"
+      },
+      {
+       "id": "2",
+       "text": "went"
+      },
+      {
+       "id": "3",
+       "text": "had gone"
+      },
+      {
+       "id": "4",
+       "text": "had been going"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Bước 1: `almost every day` là việc lặp lại → quá khứ đơn (đáp án bài thi).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "My brother and I ( ) swimming almost every day last summer."
+   }
+  },
+  {
+   "id": "G1D24KW4E-2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn một trong bốn thì quá khứ (2/8)",
+   "instruction_vi": "Chọn đáp án đúng. Dùng ba bước: (1) chuỗi việc, lặp lại, trạng thái → quá khứ đơn; (2) khoảng tạm thời bị cắt ngang → tiếp diễn; (3) xảy ra trước một mốc → had + V3 hoặc had been + V-ing.",
+   "questions": [
+    {
+     "id": "G1D24KW4E-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "talked"
+      },
+      {
+       "id": "2",
+       "text": "were talking"
+      },
+      {
+       "id": "3",
+       "text": "were talked"
+      },
+      {
+       "id": "4",
+       "text": "had talked"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Bước 2: đang nói chuyện thì có tiếng gõ cửa cắt ngang → quá khứ tiếp diễn. were talked sai vì không có dạng bị động ở đây.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "We ( ) when someone knocked at the door."
+   }
+  },
+  {
+   "id": "G1D24KW4E-3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn một trong bốn thì quá khứ (3/8)",
+   "instruction_vi": "Chọn đáp án đúng. Dùng ba bước: (1) chuỗi việc, lặp lại, trạng thái → quá khứ đơn; (2) khoảng tạm thời bị cắt ngang → tiếp diễn; (3) xảy ra trước một mốc → had + V3 hoặc had been + V-ing.",
+   "questions": [
+    {
+     "id": "G1D24KW4E-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "was sleeping"
+      },
+      {
+       "id": "2",
+       "text": "slept"
+      },
+      {
+       "id": "3",
+       "text": "was slept"
+      },
+      {
+       "id": "4",
+       "text": "had slept"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Bước 2: vụ trộm xảy ra giữa lúc người bảo vệ đang ngủ → quá khứ tiếp diễn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "When the robbery happened, the security guard ( )!"
+   }
+  },
+  {
+   "id": "G1D24KW4E-4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn một trong bốn thì quá khứ (4/8)",
+   "instruction_vi": "Chọn đáp án đúng. Dùng ba bước: (1) chuỗi việc, lặp lại, trạng thái → quá khứ đơn; (2) khoảng tạm thời bị cắt ngang → tiếp diễn; (3) xảy ra trước một mốc → had + V3 hoặc had been + V-ing.",
+   "questions": [
+    {
+     "id": "G1D24KW4E-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "didn't play"
+      },
+      {
+       "id": "2",
+       "text": "hadn't been playing"
+      },
+      {
+       "id": "3",
+       "text": "wasn't playing"
+      },
+      {
+       "id": "4",
+       "text": "hadn't played"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Bước 3: chưa từng có trải nghiệm này trước lúc tôi chỉ, có `before` → hadn't + V3.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Jack ( ) chess before so I showed him what to do."
+   }
+  },
+  {
+   "id": "G1D24KW4E-5",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn một trong bốn thì quá khứ (5/8)",
+   "instruction_vi": "Chọn đáp án đúng. Dùng ba bước: (1) chuỗi việc, lặp lại, trạng thái → quá khứ đơn; (2) khoảng tạm thời bị cắt ngang → tiếp diễn; (3) xảy ra trước một mốc → had + V3 hoặc had been + V-ing.",
+   "questions": [
+    {
+     "id": "G1D24KW4E-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "hadn't been knowing"
+      },
+      {
+       "id": "2",
+       "text": "wasn't knowing"
+      },
+      {
+       "id": "3",
+       "text": "hadn't known"
+      },
+      {
+       "id": "4",
+       "text": "didn't know"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bước 3: quen chưa lâu tính tới mốc đó; know là động từ trạng thái → hadn't + V3, không dùng tiếp diễn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I wasn't sure how Belinda would react because I ( ) her long."
+   }
+  },
+  {
+   "id": "G1D24KW4E-6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn một trong bốn thì quá khứ (6/8)",
+   "instruction_vi": "Chọn đáp án đúng. Dùng ba bước: (1) chuỗi việc, lặp lại, trạng thái → quá khứ đơn; (2) khoảng tạm thời bị cắt ngang → tiếp diễn; (3) xảy ra trước một mốc → had + V3 hoặc had been + V-ing.",
+   "questions": [
+    {
+     "id": "G1D24KW4E-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "wasn't working"
+      },
+      {
+       "id": "2",
+       "text": "didn't work"
+      },
+      {
+       "id": "3",
+       "text": "hadn't been working"
+      },
+      {
+       "id": "4",
+       "text": "wasn't worked"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bước 3: thời lượng làm việc chưa lâu tới lúc được lên quản lý → hadn't been + V-ing.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Ian ( ) at the factory long when he was made a manager."
+   }
+  },
+  {
+   "id": "G1D24KW4E-7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn một trong bốn thì quá khứ (7/8)",
+   "instruction_vi": "Chọn đáp án đúng. Dùng ba bước: (1) chuỗi việc, lặp lại, trạng thái → quá khứ đơn; (2) khoảng tạm thời bị cắt ngang → tiếp diễn; (3) xảy ra trước một mốc → had + V3 hoặc had been + V-ing.",
+   "questions": [
+    {
+     "id": "G1D24KW4E-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "already left"
+      },
+      {
+       "id": "2",
+       "text": "had already been leaving"
+      },
+      {
+       "id": "3",
+       "text": "was already left"
+      },
+      {
+       "id": "4",
+       "text": "had already left"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Bước 3: Jerry rời đi trước lúc tôi muốn chào → had already + V3. was already left và had already been leaving không đúng ngữ pháp ở đây.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I wanted to say goodbye to Jerry, but he ( )."
+   }
+  },
+  {
+   "id": "G1D24KW4E-8",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn một trong bốn thì quá khứ (8/8)",
+   "instruction_vi": "Chọn đáp án đúng. Dùng ba bước: (1) chuỗi việc, lặp lại, trạng thái → quá khứ đơn; (2) khoảng tạm thời bị cắt ngang → tiếp diễn; (3) xảy ra trước một mốc → had + V3 hoặc had been + V-ing.",
+   "questions": [
+    {
+     "id": "G1D24KW4E-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "had left"
+      },
+      {
+       "id": "2",
+       "text": "had been leaving"
+      },
+      {
+       "id": "3",
+       "text": "left"
+      },
+      {
+       "id": "4",
+       "text": "was left"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Bước 3: để quên hộ chiếu xảy ra trước lúc tới sân bay → đáp án bài thi `had left`. Văn nói đôi khi dùng left.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "When we got to the airport, I realised I ( ) my passport at home!"
+   }
+  },
+  {
    "id": "G1D5KB18-1",
    "skill": "reading",
    "type": "read_cloze",

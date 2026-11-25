@@ -397,6 +397,18 @@ SECTIONS: list[tuple] = [
         "Holly ( ㉠ ) (eat) oysters before, so she wasn't sure what to do with them. | hadn't eaten;had not eaten;had never eaten | Chưa từng có trải nghiệm này trước đó, có `before` → hadn't + V3.",
         "I ( ㉠ ) (listen) to my new CD for a few minutes when the CD player started making a funny noise. | had been listening | Thời lượng `for a few minutes` tới lúc đầu đĩa kêu → had been + V-ing.",
     ]),
+    # ---------------------------------------------------------------- week 2, day 4 (build day 24): Destination B2 Unit 3, E
+    # Answers: the book's key. Not worked in class: the reasons are the course's own, written as the three steps of session 3.
+    (24, "W4E", B3 + " · bài E (trang 21)", "Chọn một trong bốn thì quá khứ", "Chọn đáp án đúng. Dùng ba bước: (1) chuỗi việc, lặp lại, trạng thái → quá khứ đơn; (2) khoảng tạm thời bị cắt ngang → tiếp diễn; (3) xảy ra trước một mốc → had + V3 hoặc had been + V-ing.", "choice", [
+        "My brother and I ( ) swimming almost every day last summer. | went | had been going | were going | had gone | Bước 1: `almost every day` là việc lặp lại → quá khứ đơn (đáp án bài thi).",
+        "We ( ) when someone knocked at the door. | were talking | talked | had talked | were talked | Bước 2: đang nói chuyện thì có tiếng gõ cửa cắt ngang → quá khứ tiếp diễn. were talked sai vì không có dạng bị động ở đây.",
+        "When the robbery happened, the security guard ( )! | was sleeping | slept | had slept | was slept | Bước 2: vụ trộm xảy ra giữa lúc người bảo vệ đang ngủ → quá khứ tiếp diễn.",
+        "Jack ( ) chess before so I showed him what to do. | hadn't played | hadn't been playing | didn't play | wasn't playing | Bước 3: chưa từng có trải nghiệm này trước lúc tôi chỉ, có `before` → hadn't + V3.",
+        "I wasn't sure how Belinda would react because I ( ) her long. | hadn't known | didn't know | wasn't knowing | hadn't been knowing | Bước 3: quen chưa lâu tính tới mốc đó; know là động từ trạng thái → hadn't + V3, không dùng tiếp diễn.",
+        "Ian ( ) at the factory long when he was made a manager. | hadn't been working | wasn't working | didn't work | wasn't worked | Bước 3: thời lượng làm việc chưa lâu tới lúc được lên quản lý → hadn't been + V-ing.",
+        "I wanted to say goodbye to Jerry, but he ( ). | had already left | was already left | already left | had already been leaving | Bước 3: Jerry rời đi trước lúc tôi muốn chào → had already + V3. was already left và had already been leaving không đúng ngữ pháp ở đây.",
+        "When we got to the airport, I realised I ( ) my passport at home! | had left | was left | left | had been leaving | Bước 3: để quên hộ chiếu xảy ra trước lúc tới sân bay → đáp án bài thi `had left`. Văn nói đôi khi dùng left.",
+    ]),
 ]
 
 

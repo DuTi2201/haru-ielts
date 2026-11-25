@@ -479,6 +479,49 @@
    ]
   },
   {
+   "id": "G1D24M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Tuần 2 · Ngày 4",
+   "points": 5,
+   "instruction_vi": "Kể về một lần một thiết bị công nghệ giúp bạn: lúc đó bạn đang làm gì, chuyện gì xảy ra, trước đó đã có chuyện gì, kết thúc ra sao. Dùng đủ bốn thì quá khứ. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
+   "limits": {
+    "min": 8,
+    "max": 40
+   },
+   "prompt_en": "Describe a time when a piece of technology helped you. Say what was happening and what had happened before.",
+   "framework_vi": [
+    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
+    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
+    "Chọn thì theo câu trả lời đó rồi mới viết."
+   ],
+   "model_answer_en": "Last summer I was travelling around Da Nang with two friends. One evening we got lost because our phone battery had died. We had been walking for two hours, so we were very tired. Luckily, a shop owner let us charge the phone, and we found our way back with the map app.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Thì khớp với điều bạn muốn nói.",
+    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+   ],
+   "rubric": [
+    {
+     "criterion_vi": "Đúng đề: có cảnh, việc chính, việc xảy ra trước và kết thúc",
+     "max": 1,
+     "note_vi": "Task response"
+    },
+    {
+     "criterion_vi": "Dùng được bốn thì quá khứ, mỗi thì đúng vai trong câu chuyện",
+     "max": 2,
+     "note_vi": "Grammatical range"
+    },
+    {
+     "criterion_vi": "Dạng động từ đúng; cả câu nhìn từ cùng một mốc",
+     "max": 2,
+     "note_vi": "Grammatical accuracy"
+    }
+   ]
+  },
+  {
    "id": "G1D5M1",
    "skill": "writing",
    "type": "write_essay",
