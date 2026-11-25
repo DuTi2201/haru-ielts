@@ -614,3 +614,23 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
   - CSP: make_site_caddy băm script stream sau khi đổi NUL thành U+FFFD, nên một script băm thẳng sẽ ra khác. Điều đó là đúng.
 - Audio chưa thu.
 - Tiếp theo: Tuần 2 Ngày 7 — nghe The Luddites (Cam 18 Test 3 Part 3, câu 21–30).
+
+### Ngày 6: soát lại audio và slide (25/11, đêm)
+
+- Cách soát: tải bản ghi của 4 buổi về. Gemini chép lại audio theo từng đoạn 76 giây (gemini-3.8-flash, script `/tmp/aud/trchunk.py` trên VM), rồi đối chiếu từng câu với kịch bản. Chỗ nghi vấn được chép lại hai lần cho chắc, kèm đo khoảng lặng bằng ffmpeg silencedetect. Slide được soát bằng bản xem trước 390 px: đọc chữ hiển thị của từng slide, kiểm tra chữ bị cắt, chồng chữ và icon.
+- **Lỗi hệ thống của giọng tiếng Việt (Chirp HD):** câu nhiều mệnh đề có dấu phẩy ngay trước "và" thì giọng đọc thường nói ra một tràng âm vô nghĩa. Đo lại trực tiếp:
+  - Hai câu có ", và": 7/8 lần bị lỗi, mỗi lần dài 14–23 giây thay vì 6 giây.
+  - Cùng hai câu, bỏ dấu phẩy: 0/4 lần lỗi.
+  - Vị trí lỗi trong Ngày 6: buổi 1 lúc 1:27 ("phát triển thành, và"); buổi 1 khi ghi lại ("đổi cách gọi, và"); cuối buổi 3; buổi 4 ("tên câu lạc bộ, và" bị chèn thêm chữ "York").
+  - Đã bỏ hết ", và" trong lời giảng Ngày 6 và thêm test gate `test_gate_no_comma_before_va_in_spoken_vietnamese`.
+  - Lời giảng các ngày khác còn khoảng 120 chỗ ", và" (lecture_d1…w2d5). Script dò `/tmp/aud/detect.py` quét 54 bản ghi đã có (đoạn tiếng Việt dài bất thường so với số chữ). Không thấy lỗi lớn ở các bài tpl-v4 khác. Bài 1 bản tpl-v2 cũ có vài đoạn dài bất thường.
+  - Đề xuất, chưa làm: sửa ở engine, bỏ dấu phẩy trước "và" khi gửi câu tiếng Việt cho Chirp, và đọc lại nếu một câu dài bất thường.
+- **Lỗi khác đã sửa:**
+  - "ga-lông" bị tách thành "ga-l" (giọng Anh đọc) + "ông". Đổi thành "đơn vị nhiên liệu".
+  - Bớt các từ tiếng Anh lẻ chen giữa câu: which, was, ing, tain, consist of, comprise.
+  - "nên là tính từ" bị đọc thành "tin là". Đổi câu.
+  - Câu dẫn của inherit lặp từ hai lần.
+  - Tiêu đề hai buổi từ đổi thành "Từ của bài · nửa đầu / nửa sau câu chuyện" (trước là "buổi 2: Buổi từ 1").
+  - Thứ tự câu dẫn của glitch.
+- Đã ghi lại cả 4 buổi qua `request_lesson_podcast` chạy trong container api (`/tmp/regen.py`, bỏ qua bước đăng nhập), rồi chép lại toàn bộ để kiểm: không còn đoạn vô nghĩa. Các chỗ "cut-off" còn lại đều nằm ở ranh giới giữa hai đoạn chép.
+- Slide: 43 slide, không chữ bị cắt, không chồng chữ (các cảnh báo ở para_filter là do khung của chữ trên nhiều dòng), đủ icon. Nhãn chữ hoa 10 px theo thiết kế chung.
