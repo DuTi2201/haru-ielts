@@ -69,6 +69,8 @@ DAYS[7] = _DAY7
 from day25 import DAY as _DAY25  # noqa: E402  (Week 2 · Day 5: change and technology)
 
 DAYS[25] = _DAY25
+from day26 import DAY as _DAY26  # noqa: E402  (Week 2 · Day 6: slow reading, The steam car)
+DAYS[26] = _DAY26
 
 
 DAYS[5]["my"] = [{"vi": "Chọn 5 đến 10 từ hôm nay bạn thích nhất rồi viết về cuộc sống học tập của chính bạn. Dùng ít nhất hai từ, ví dụ pupil/student, pass/take an exam, attend, revise.",

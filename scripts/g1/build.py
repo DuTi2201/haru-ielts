@@ -30,6 +30,7 @@ import lecture_w2d2 as W2D2  # noqa: E402
 import lecture_w2d3 as W2D3  # noqa: E402
 import lecture_w2d4 as W2D4  # noqa: E402
 import lecture_w2d5 as W2D5  # noqa: E402
+import lecture_w2d6 as W2D6  # noqa: E402
 import lecture_d7 as L7  # noqa: E402
 import lecture_d12 as L12  # noqa: E402
 from assoc import ASSOC  # noqa: E402
@@ -42,9 +43,9 @@ TOPIC = "Tuần 1 · Giáo dục (Education)"
 TOPIC_EXTRA = "Bổ trợ · Từ vựng và bài đọc ngoài lịch tuần"
 # Week 1 of the Pre-IELTS syllabus: Present tenses (B2 Unit 1, A B C E), Thinking and learning (C1 Unit 2, A B C D),
 # Reading and Listening from Cambridge 18. Days outside it are kept as supplements, not deleted.
-DAYNO = {1: 1, 2: 2, 3: 3, 4: 4, 7: 5, 12: 6, 13: 7, 21: 1, 22: 2, 23: 3, 24: 4, 25: 5}  # the day number the learner sees
+DAYNO = {1: 1, 2: 2, 3: 3, 4: 4, 7: 5, 12: 6, 13: 7, 21: 1, 22: 2, 23: 3, 24: 4, 25: 5, 26: 6}  # the day number the learner sees
 # Week 2 (Technology) uses build days 21-27; every day not listed here is Week 1
-WEEK = {21: 2, 22: 2, 23: 2, 24: 2, 25: 2}
+WEEK = {21: 2, 22: 2, 23: 2, 24: 2, 25: 2, 26: 2}
 TOPIC_BY_WEEK = {1: "Tuần 1 · Giáo dục (Education)", 2: "Tuần 2 · Công nghệ (Technology)"}
 BOOK_BY_WEEK = {1: "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1", 2: "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3"}
 EDITOR_BY_WEEK = {
@@ -54,7 +55,7 @@ EDITOR_BY_WEEK = {
 # day-specific modules (lecture, sittings, pronunciations, rubric) of Week 2
 WEEK2 = {21: W2D1, 22: W2D2, 23: W2D3, 24: W2D4}
 # the vocabulary days of Week 2 (built by vocab_day): lectures, transcriptions and a memory hook per word
-VOCAB_W2 = {25: W2D5}
+VOCAB_W2 = {25: W2D5, 26: W2D6}
 
 
 def week_of(n: int) -> int:
@@ -553,6 +554,8 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
                      "can_do_vi": "Sau buổi này bạn tóm tắt được một đoạn thành chuỗi từ khóa ngắn, bỏ chi tiết thừa và nói được ý chính của đoạn.",
                      "use_vi": "Hiểu từng đoạn trước rồi mới làm câu hỏi: dò từ khóa khi chưa hiểu bài chỉ là đoán."})
         sessions.insert(0, mine)
+    if n == 26:  # Week 2 reading day: read actively, the words, long sentences; the questions last (lecture_w2d6.finish)
+        W2D6.finish(sessions, bank)
     book_body = "\n".join(f"• {b[2]} ({b[3]} câu, khoảng {b[4]} phút)" for b in d["book"])
     lesson = {
         "slug": f"g1-d{n}-{B.slugify(d.get('slug_title', d['title']))}"[:60].rstrip("-"),

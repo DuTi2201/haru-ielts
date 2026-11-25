@@ -11483,6 +11483,310 @@
    ]
   },
   {
+   "id": "G1D26RP1",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc chậm · Câu 14–20 · tiêu đề của đoạn",
+   "instruction_vi": "Chọn tiêu đề đúng cho mỗi đoạn. Danh sách có tám tiêu đề (i–viii), mỗi câu cho năm tiêu đề; mỗi tiêu đề dùng nhiều nhất một lần, và có một tiêu đề không dùng. Trước khi chọn, nói lại chuỗi từ khóa của đoạn: tiêu đề đúng tóm được cả đoạn, không chỉ một câu trong đoạn.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "The steam car\nThe successes and failures of the Doble brothers and their steam cars\nA  When primitive automobiles first began to appear in the 1800s, their engines were based on steam power. Steam had already enjoyed a long and successful career in the railways, so it was only natural that the technology evolved into a miniaturized version which was separate from the trains. But these early cars inherited steam's weaknesses along with its strengths. The boilers had to be lit by hand, and they required about twenty minutes to build up pressure before they could be driven. Furthermore, their water reservoirs only lasted for about thirty miles before needing replenishment. Despite such shortcomings, these newly designed self-propelled carriages offered quick transportation, and by the early 1900s it was not uncommon to see such machines shuttling wealthy citizens around town.\nB  But the glory days of steam cars were few. A new technology called the Internal Combustion Engine soon appeared, which offered the ability to drive down the road just moments after starting up. At first, these noisy gasoline cars were unpopular because they were more complicated to operate and they had difficult hand-crank starters, which were known to break arms when the engines backfired. But in 1912 General Motors introduced the electric starter, and over the following few years steam power was gradually phased out.\nC  Even as the market was declining, four brothers made one last effort to rekindle the technology. Between 1906 and 1909, while still attending high school, Abner Doble and his three brothers built their first steam car in their parents' basement. It comprised parts taken from a wrecked early steam car but reconfigured to drive an engine of their own design. Though it did not run well, the Doble brothers went on to build a second and third prototype in the following years. Though the Doble boys' third prototype, nicknamed the Model B, still lacked the convenience of an internal combustion engine, it drew the attention of automobile trade magazines due to its numerous improvements over previous steam cars. The Model B proved to be superior to gasoline automobiles in many ways. Its high-pressure steam drove the engine pistons in virtual silence, in contrast to clattering gas engines which emitted the aroma of burned hydrocarbons. Perhaps most impressively, the Model B was amazingly swift. It could accelerate from zero to sixty miles per hour in just fifteen seconds, a feat described as 'remarkable acceleration' by Automobile magazine in 1914.\nD  The following year Abner Doble drove the Model B from Massachusetts to Detroit in order to seek investment in his automobile design, which he used to open the General Engineering Company. He and his brothers immediately began working on the Model C, which was intended to expand upon the innovations of the Model B. The brothers added features such as a key-based ignition in the cabin, eliminating the need for the operator to manually ignite the boiler. With these enhancements, the Dobles' new car company promised a steam vehicle which would provide all of the convenience of a gasoline car, but with much greater speed, much simpler driving controls, and a virtually silent powerplant. By the following April, the General Engineering Company had received 5,390 deposits for Doble Detroits, which were scheduled for delivery in early 1918.\nE  Later that year Abner Doble delivered unhappy news to those eagerly awaiting the delivery of their modern new cars. Those buyers who received the handful of completed cars complained that the vehicles were sluggish and erratic, sometimes going in reverse when they should go forward. The new engine design, though innovative, was still plagued with serious glitches.\nF  The brothers made one final attempt to produce a viable steam automobile. In early 1924, the Doble brothers shipped a Model E to New York City to be road-tested by the Automobile Club of America. After sitting overnight in freezing temperatures, the car was pushed out into the road and left to sit for over an hour in the frosty morning air. At the turn of the key, the boiler lit and reached its operating pressure inside of forty seconds. As they drove the test vehicle further, they found that its evenly distributed weight lent it surprisingly good handling, even though it was so heavy. As the new Doble steamer was further developed and tested, its maximum speed was pushed to over a hundred miles per hour, and it achieved about fifteen miles per gallon of kerosene with negligible emissions.\nG  Sadly, the Dobles' brilliant steam car never was a financial success. Priced at around $18,000 in 1924, it was popular only among the very wealthy. Plus, it is said that no two Model Es were quite the same, because Abner Doble tinkered endlessly with the design. By the time the company folded in 1931, fewer than fifty of the amazing Model E steam cars had been produced. For his whole career, until his death in 1961, Abner Doble remained adamant that steam-powered automobiles were at least equal to gasoline cars, if not superior. Given the evidence, he may have been right. Many of the Model E Dobles which have survived are still in good working condition, some having been driven over half a million miles with only normal maintenance. Astonishingly, an unmodified Doble Model E runs clean enough to pass the emissions laws in California today, and they are pretty strict. It is true that the technology poses some difficult problems, but you cannot help but wonder how efficient a steam car might be with the benefit of modern materials and computers. Under the current pressure to improve automotive performance and reduce emissions, it is not unthinkable that the steam car may rise again."
+   },
+   "questions": [
+    {
+     "id": "G1D26RP11",
+     "prompt_en": "Câu 14. Paragraph A",
+     "options": [
+      {
+       "id": "1",
+       "text": "ii. Marketing issues lead to failure"
+      },
+      {
+       "id": "2",
+       "text": "iii. Good and bad aspects of steam technology are passed on"
+      },
+      {
+       "id": "3",
+       "text": "v. Further improvements lead to commercial orders"
+      },
+      {
+       "id": "4",
+       "text": "vi. Positive publicity at last for this quiet, clean, fast vehicle"
+      },
+      {
+       "id": "5",
+       "text": "viii. A better option than the steam car arises"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Tóm tắt đoạn A: hơi nước đã thành công ở đường sắt → được thu nhỏ thành ô tô → xe thừa hưởng cả điểm yếu lẫn điểm mạnh (`inherited steam's weaknesses along with its strengths`). Phần còn lại kể ra từng mặt: nhóm lửa bằng tay, chờ hai mươi phút, nước chỉ đủ ba mươi dặm; nhưng đi nhanh. Tiêu đề tóm được cả đoạn là iii (`passed on` = `inherited`). viii nói về đoạn B, v về đoạn D, vi về đoạn C; ii không khớp đoạn nào.",
+     "tags": []
+    },
+    {
+     "id": "G1D26RP12",
+     "prompt_en": "Câu 15. Paragraph B",
+     "options": [
+      {
+       "id": "1",
+       "text": "i. A period in cold conditions before the technology is assessed"
+      },
+      {
+       "id": "2",
+       "text": "ii. Marketing issues lead to failure"
+      },
+      {
+       "id": "3",
+       "text": "iii. Good and bad aspects of steam technology are passed on"
+      },
+      {
+       "id": "4",
+       "text": "vii. A disappointing outcome for customers"
+      },
+      {
+       "id": "5",
+       "text": "viii. A better option than the steam car arises"
+      }
+     ],
+     "answer": "5",
+     "explanation_vi": "Tóm tắt đoạn B: thời hoàng kim ngắn → động cơ đốt trong xuất hiện → lúc đầu bị chê → có bộ khởi động điện (1912) → xe hơi nước dần bị loại bỏ (`phased out`). Ý chính là một công nghệ tốt hơn xuất hiện: viii. iii sai vì đoạn không nói hơi nước truyền lại điều gì; vii nói về khách mua xe ở đoạn E; i và ii không có trong đoạn.",
+     "tags": []
+    },
+    {
+     "id": "G1D26RP13",
+     "prompt_en": "Câu 16. Paragraph C",
+     "options": [
+      {
+       "id": "1",
+       "text": "iii. Good and bad aspects of steam technology are passed on"
+      },
+      {
+       "id": "2",
+       "text": "v. Further improvements lead to commercial orders"
+      },
+      {
+       "id": "3",
+       "text": "vi. Positive publicity at last for this quiet, clean, fast vehicle"
+      },
+      {
+       "id": "4",
+       "text": "vii. A disappointing outcome for customers"
+      },
+      {
+       "id": "5",
+       "text": "viii. A better option than the steam car arises"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Tóm tắt đoạn C: bốn anh em muốn hồi sinh công nghệ → mẫu đầu chạy không tốt → mẫu thứ ba được tạp chí chú ý → êm (`virtual silence`), sạch (không như máy xăng thải mùi khói), nhanh (`remarkable acceleration`). Sau mấy lần thử mới được khen, nên tiêu đề là vi (`at last`, `quiet, clean, fast`). v sai: đơn đặt hàng chỉ có ở đoạn D; iii và viii nói về đoạn A, B.",
+     "tags": []
+    },
+    {
+     "id": "G1D26RP14",
+     "prompt_en": "Câu 17. Paragraph D",
+     "options": [
+      {
+       "id": "1",
+       "text": "ii. Marketing issues lead to failure"
+      },
+      {
+       "id": "2",
+       "text": "iv. A possible solution to the issues of today"
+      },
+      {
+       "id": "3",
+       "text": "v. Further improvements lead to commercial orders"
+      },
+      {
+       "id": "4",
+       "text": "vi. Positive publicity at last for this quiet, clean, fast vehicle"
+      },
+      {
+       "id": "5",
+       "text": "vii. A disappointing outcome for customers"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Tóm tắt đoạn D: tìm vốn → mở công ty → mẫu xe mới mở rộng các cải tiến (khóa điện trong cabin) → 5.390 khoản đặt cọc. Cải tiến thêm dẫn tới đơn đặt hàng: v (`further improvements` = `enhancements`, `commercial orders` = `deposits`). vi sai vì đoạn D không nhắc báo chí; vii là chuyện xảy ra sau đó, ở đoạn E.",
+     "tags": []
+    },
+    {
+     "id": "G1D26RP15",
+     "prompt_en": "Câu 18. Paragraph E",
+     "options": [
+      {
+       "id": "1",
+       "text": "ii. Marketing issues lead to failure"
+      },
+      {
+       "id": "2",
+       "text": "iii. Good and bad aspects of steam technology are passed on"
+      },
+      {
+       "id": "3",
+       "text": "v. Further improvements lead to commercial orders"
+      },
+      {
+       "id": "4",
+       "text": "vii. A disappointing outcome for customers"
+      },
+      {
+       "id": "5",
+       "text": "viii. A better option than the steam car arises"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Tóm tắt đoạn E: tin không vui → người mua phàn nàn xe ì, thất thường, có lúc chạy lùi → động cơ còn nhiều lỗi. Kết cục làm khách hàng thất vọng: vii. ii sai vì vấn đề nằm ở động cơ (`glitches`), không phải ở việc tiếp thị; v là đoạn D, ngay trước đó.",
+     "tags": []
+    },
+    {
+     "id": "G1D26RP16",
+     "prompt_en": "Câu 19. Paragraph F",
+     "options": [
+      {
+       "id": "1",
+       "text": "i. A period in cold conditions before the technology is assessed"
+      },
+      {
+       "id": "2",
+       "text": "iv. A possible solution to the issues of today"
+      },
+      {
+       "id": "3",
+       "text": "v. Further improvements lead to commercial orders"
+      },
+      {
+       "id": "4",
+       "text": "vi. Positive publicity at last for this quiet, clean, fast vehicle"
+      },
+      {
+       "id": "5",
+       "text": "vii. A disappointing outcome for customers"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Tóm tắt đoạn F: mẫu xe cuối được thử ở New York → để qua đêm trong giá lạnh, rồi thêm một giờ ngoài trời → vặn khóa, nồi hơi đủ áp suất trong bốn mươi giây → lái dễ, nhanh, khí thải không đáng kể. Phần dài nhất và đặc biệt nhất là quãng chờ trong giá lạnh trước khi xe được thử: i (`assessed` = `road-tested`). vi hấp dẫn vì kết quả tốt, nhưng đoạn F không nhắc báo chí hay công chúng, và tiêu đề có `at last` hợp với đoạn C.",
+     "tags": []
+    },
+    {
+     "id": "G1D26RP17",
+     "prompt_en": "Câu 20. Paragraph G",
+     "options": [
+      {
+       "id": "1",
+       "text": "i. A period in cold conditions before the technology is assessed"
+      },
+      {
+       "id": "2",
+       "text": "iii. Good and bad aspects of steam technology are passed on"
+      },
+      {
+       "id": "3",
+       "text": "iv. A possible solution to the issues of today"
+      },
+      {
+       "id": "4",
+       "text": "vii. A disappointing outcome for customers"
+      },
+      {
+       "id": "5",
+       "text": "viii. A better option than the steam car arises"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Tóm tắt đoạn G: thất bại về tài chính → công ty đóng cửa năm 1931 → xe còn lại vẫn chạy tốt, đủ sạch cho luật khí thải ngày nay → xe hơi nước có thể trở lại. Câu kết hướng về hôm nay: áp lực giảm khí thải, và xe hơi nước có thể là một lời giải: iv. Tiêu đề tóm cả đoạn, không chỉ câu đầu; các tiêu đề còn lại nói về những đoạn khác.",
+     "tags": []
+    }
+   ]
+  },
+  {
+   "id": "G1D26RP2",
+   "skill": "reading",
+   "type": "read_passage",
+   "title_vi": "Đọc chậm · Câu 21–23 · chọn đáp án",
+   "instruction_vi": "Chọn đáp án đúng. Mỗi câu hỏi chỉ về một đoạn: tìm đoạn đó, đọc lại chuỗi từ khóa của nó, rồi mới đọc các phương án.",
+   "stimulus": {
+    "kind": "passage",
+    "text": "The steam car\nThe successes and failures of the Doble brothers and their steam cars\nA  When primitive automobiles first began to appear in the 1800s, their engines were based on steam power. Steam had already enjoyed a long and successful career in the railways, so it was only natural that the technology evolved into a miniaturized version which was separate from the trains. But these early cars inherited steam's weaknesses along with its strengths. The boilers had to be lit by hand, and they required about twenty minutes to build up pressure before they could be driven. Furthermore, their water reservoirs only lasted for about thirty miles before needing replenishment. Despite such shortcomings, these newly designed self-propelled carriages offered quick transportation, and by the early 1900s it was not uncommon to see such machines shuttling wealthy citizens around town.\nB  But the glory days of steam cars were few. A new technology called the Internal Combustion Engine soon appeared, which offered the ability to drive down the road just moments after starting up. At first, these noisy gasoline cars were unpopular because they were more complicated to operate and they had difficult hand-crank starters, which were known to break arms when the engines backfired. But in 1912 General Motors introduced the electric starter, and over the following few years steam power was gradually phased out.\nC  Even as the market was declining, four brothers made one last effort to rekindle the technology. Between 1906 and 1909, while still attending high school, Abner Doble and his three brothers built their first steam car in their parents' basement. It comprised parts taken from a wrecked early steam car but reconfigured to drive an engine of their own design. Though it did not run well, the Doble brothers went on to build a second and third prototype in the following years. Though the Doble boys' third prototype, nicknamed the Model B, still lacked the convenience of an internal combustion engine, it drew the attention of automobile trade magazines due to its numerous improvements over previous steam cars. The Model B proved to be superior to gasoline automobiles in many ways. Its high-pressure steam drove the engine pistons in virtual silence, in contrast to clattering gas engines which emitted the aroma of burned hydrocarbons. Perhaps most impressively, the Model B was amazingly swift. It could accelerate from zero to sixty miles per hour in just fifteen seconds, a feat described as 'remarkable acceleration' by Automobile magazine in 1914.\nD  The following year Abner Doble drove the Model B from Massachusetts to Detroit in order to seek investment in his automobile design, which he used to open the General Engineering Company. He and his brothers immediately began working on the Model C, which was intended to expand upon the innovations of the Model B. The brothers added features such as a key-based ignition in the cabin, eliminating the need for the operator to manually ignite the boiler. With these enhancements, the Dobles' new car company promised a steam vehicle which would provide all of the convenience of a gasoline car, but with much greater speed, much simpler driving controls, and a virtually silent powerplant. By the following April, the General Engineering Company had received 5,390 deposits for Doble Detroits, which were scheduled for delivery in early 1918.\nE  Later that year Abner Doble delivered unhappy news to those eagerly awaiting the delivery of their modern new cars. Those buyers who received the handful of completed cars complained that the vehicles were sluggish and erratic, sometimes going in reverse when they should go forward. The new engine design, though innovative, was still plagued with serious glitches.\nF  The brothers made one final attempt to produce a viable steam automobile. In early 1924, the Doble brothers shipped a Model E to New York City to be road-tested by the Automobile Club of America. After sitting overnight in freezing temperatures, the car was pushed out into the road and left to sit for over an hour in the frosty morning air. At the turn of the key, the boiler lit and reached its operating pressure inside of forty seconds. As they drove the test vehicle further, they found that its evenly distributed weight lent it surprisingly good handling, even though it was so heavy. As the new Doble steamer was further developed and tested, its maximum speed was pushed to over a hundred miles per hour, and it achieved about fifteen miles per gallon of kerosene with negligible emissions.\nG  Sadly, the Dobles' brilliant steam car never was a financial success. Priced at around $18,000 in 1924, it was popular only among the very wealthy. Plus, it is said that no two Model Es were quite the same, because Abner Doble tinkered endlessly with the design. By the time the company folded in 1931, fewer than fifty of the amazing Model E steam cars had been produced. For his whole career, until his death in 1961, Abner Doble remained adamant that steam-powered automobiles were at least equal to gasoline cars, if not superior. Given the evidence, he may have been right. Many of the Model E Dobles which have survived are still in good working condition, some having been driven over half a million miles with only normal maintenance. Astonishingly, an unmodified Doble Model E runs clean enough to pass the emissions laws in California today, and they are pretty strict. It is true that the technology poses some difficult problems, but you cannot help but wonder how efficient a steam car might be with the benefit of modern materials and computers. Under the current pressure to improve automotive performance and reduce emissions, it is not unthinkable that the steam car may rise again."
+   },
+   "questions": [
+    {
+     "id": "G1D26RP21",
+     "prompt_en": "Câu 21. What point does the writer make about the steam car in Paragraph B?",
+     "options": [
+      {
+       "id": "1",
+       "text": "Its success was short-lived."
+      },
+      {
+       "id": "2",
+       "text": "Not enough cars were made."
+      },
+      {
+       "id": "3",
+       "text": "Car companies found them hard to sell."
+      },
+      {
+       "id": "4",
+       "text": "People found them hard to drive."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Câu đầu đoạn B: `the glory days of steam cars were few`, thời hoàng kim chỉ có vài năm, tức thành công ngắn ngủi. Đoạn B không nói xe làm ra ít hay khó bán. Xe khó vận hành là xe chạy xăng (`more complicated to operate`), không phải xe hơi nước.",
+     "tags": []
+    },
+    {
+     "id": "G1D26RP22",
+     "prompt_en": "Câu 22. When building their first steam car, the Doble brothers",
+     "options": [
+      {
+       "id": "1",
+       "text": "constructed all the parts themselves."
+      },
+      {
+       "id": "2",
+       "text": "made written notes at each stage of the construction."
+      },
+      {
+       "id": "3",
+       "text": "needed several attempts to achieve a competitive model."
+      },
+      {
+       "id": "4",
+       "text": "sought the advice of experienced people in the car industry."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đoạn C: chiếc đầu tiên chạy không tốt, rồi làm tiếp mẫu thứ hai và thứ ba; đến mẫu thứ ba mới được chú ý nhờ nhiều cải tiến. Phải thử nhiều lần mới có một mẫu đáng kể. A sai vì chiếc đầu dùng phụ tùng lấy từ một chiếc xe hơi nước cũ bị hỏng (`parts taken from a wrecked early steam car`). B và D không có trong bài.",
+     "tags": []
+    },
+    {
+     "id": "G1D26RP23",
+     "prompt_en": "Câu 23. In order to produce the Model C, the Doble brothers",
+     "options": [
+      {
+       "id": "1",
+       "text": "moved production to a different city."
+      },
+      {
+       "id": "2",
+       "text": "raised financial capital."
+      },
+      {
+       "id": "3",
+       "text": "employed an additional worker."
+      },
+      {
+       "id": "4",
+       "text": "abandoned their earlier designs."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đoạn D: lái xe tới Detroit để tìm vốn (`seek investment`), dùng vốn đó mở công ty, rồi bắt tay làm mẫu xe mới: B. A không có trong bài: đi Detroit là để tìm vốn, bài không nói chuyển nơi sản xuất (đáp án bài thi là B). C không có trong bài. D sai vì mẫu mới mở rộng chính các cải tiến của mẫu cũ (`expand upon the innovations`), không bỏ thiết kế cũ.",
+     "tags": []
+    }
+   ]
+  },
+  {
    "id": "G1D8RP1",
    "skill": "reading",
    "type": "read_passage",

@@ -479,3 +479,5 @@ SECTIONS += [
 from day25 import SECTIONS as _S25  # noqa: E402  (Week 2 · Day 5: Destination C1&C2 Unit 4, exercises A-D)
 
 SECTIONS += _S25
+from day26 import SECTIONS as _S26  # noqa: E402  (Week 2 · Day 6: The steam car, questions 24-26)
+SECTIONS += _S26

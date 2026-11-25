@@ -717,6 +717,58 @@
    ]
   },
   {
+   "id": "G1D26M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Chuỗi từ khóa · Ngày 6",
+   "points": 5,
+   "instruction_vi": "Đọc lại đoạn C và D. Với mỗi đoạn, viết một chuỗi từ khóa nối bằng mũi tên: bỏ tên riêng, năm và số liệu, chỉ giữ việc chính. Gõ bằng bàn phím tiếng Anh. Viết theo ý hiểu của bạn; bài mẫu chỉ để so sau khi viết.",
+   "limits": {
+    "min": 10,
+    "max": 70
+   },
+   "prompt_en": "Write one keyword chain for paragraph C and one for paragraph D, using arrows.",
+   "framework_vi": [
+    "Đọc lại đoạn trong bài đọc (mở ở phần câu hỏi, chưa cần làm câu hỏi).",
+    "Tô từ khóa của từng câu, bỏ tên riêng, năm và số liệu.",
+    "Nối những chữ còn lại bằng mũi tên, rồi nói ý chính của đoạn trong một câu."
+   ],
+   "model_answer_en": "C: last effort -> first car ran badly -> more prototypes -> magazines noticed -> quiet, clean, fast. D: seek investment -> open company -> new features -> thousands of deposits.",
+   "model_note_vi": "Chuỗi mẫu chỉ là một cách tóm; chuỗi của bạn khác chữ vẫn đúng nếu giữ được việc chính.",
+   "checklist_vi": [
+    "Mỗi đoạn có một chuỗi, mỗi mắt xích chỉ hai đến bốn chữ.",
+    "Không còn tên riêng, năm, con số trong chuỗi.",
+    "Chuỗi đọc lên vẫn kể được câu chuyện của đoạn."
+   ]
+  },
+  {
+   "id": "G1D26M2",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M2",
+   "title_vi": "Chuỗi từ khóa · Ngày 6",
+   "points": 5,
+   "instruction_vi": "Viết chuỗi từ khóa cho đoạn E và G, rồi một câu tóm tắt cả bài (không quá 25 từ). Gõ bằng bàn phím tiếng Anh. Viết theo ý hiểu của bạn; bài mẫu chỉ để so sau khi viết.",
+   "limits": {
+    "min": 10,
+    "max": 70
+   },
+   "prompt_en": "Write keyword chains for paragraphs E and G, then one sentence that sums up the whole passage.",
+   "framework_vi": [
+    "Đọc lại đoạn trong bài đọc (mở ở phần câu hỏi, chưa cần làm câu hỏi).",
+    "Tô từ khóa của từng câu, bỏ tên riêng, năm và số liệu.",
+    "Nối những chữ còn lại bằng mũi tên, rồi nói ý chính của đoạn trong một câu."
+   ],
+   "model_answer_en": "E: buyers unhappy -> slow, erratic -> glitches. G: no profit -> company closed -> cars still run, clean -> may return. The Doble brothers built excellent steam cars, but the business failed; today the idea may return.",
+   "model_note_vi": "Chuỗi mẫu chỉ là một cách tóm; chuỗi của bạn khác chữ vẫn đúng nếu giữ được việc chính.",
+   "checklist_vi": [
+    "Mỗi đoạn có một chuỗi, mỗi mắt xích chỉ hai đến bốn chữ.",
+    "Không còn tên riêng, năm, con số trong chuỗi.",
+    "Chuỗi đọc lên vẫn kể được câu chuyện của đoạn."
+   ]
+  },
+  {
    "id": "G1D8M1",
    "skill": "writing",
    "type": "write_essay",

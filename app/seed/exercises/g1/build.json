@@ -10378,6 +10378,76 @@
    "tips_vi": []
   },
   {
+   "id": "G1D26KW6S-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Tóm tắt: The Model E (1/3)",
+   "points": 3,
+   "instruction_vi": "Điền MỘT từ và/hoặc một số lấy từ bài đọc. Trước khi gõ, tìm đoạn kể về chiếc xe được nhắc trong câu, rồi đọc kỹ câu chứa từ cần điền.",
+   "text": "A later version of the Model E raised its ( ㉠ ), while keeping its emissions extremely low.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "speed",
+      "Speed"
+     ],
+     "common_errors_vi": "Đoạn F: `its maximum speed was pushed to over a hundred miles per hour … with negligible emissions`. `pushed to` = `raised`, `negligible` = `extremely low`. Đề cho phép một từ: `speed`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D26KW6S-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Tóm tắt: The Model E (2/3)",
+   "points": 3,
+   "instruction_vi": "Điền MỘT từ và/hoặc một số lấy từ bài đọc. Trước khi gõ, tìm đoạn kể về chiếc xe được nhắc trong câu, rồi đọc kỹ câu chứa từ cần điền.",
+   "text": "Under ( ㉠ ) cars were produced before the company went out of business.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "fifty",
+      "50",
+      "Fifty"
+     ],
+     "common_errors_vi": "Đoạn G: `By the time the company folded in 1931, fewer than fifty … had been produced`. `fewer than` = `under`, `folded` = `went out of business`. Gõ bằng chữ hay bằng số đều đúng."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D26KW6S-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Tóm tắt: The Model E (3/3)",
+   "points": 3,
+   "instruction_vi": "Điền MỘT từ và/hoặc một số lấy từ bài đọc. Trước khi gõ, tìm đoạn kể về chiếc xe được nhắc trong câu, rồi đọc kỹ câu chứa từ cần điền.",
+   "text": "Even today, Model Es on the road satisfy California's ( ㉠ ) emissions laws.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "strict",
+      "Strict"
+     ],
+     "common_errors_vi": "Đoạn G: xe vẫn đủ sạch để qua luật khí thải của California, `and they are pretty strict`. Chỗ trống đứng trước danh từ `emissions laws`, nên cần tính từ: `strict`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
    "id": "G1D8KV2-1",
    "skill": "build",
    "type": "write_fill",
