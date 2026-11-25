@@ -132,8 +132,8 @@ TONE = [
 ]
 
 TRAPS_1 = [
-    {"key": "e1", "wrong": "Few of these changes will really innovation.", "right": "Few of these changes will really endure.", "why": "Sau will cần động từ nguyên thể; innovation là danh từ."},
-    {"key": "e2", "wrong": "It is hard to remain a balance between work and study.", "right": "It is hard to maintain a balance between work and study.", "why": "remain không có tân ngữ. Duy trì một thứ: maintain."},
+    {"key": "e1", "wrong": "Few of these changes will really innovation.", "right": "Few of these changes will really endure.", "why": "Sau will là động từ; innovation là danh từ."},
+    {"key": "e2", "wrong": "It is hard to remain a balance between work and study.", "right": "It is hard to maintain a balance between work and study.", "why": "remain không có tân ngữ: dùng maintain."},
     {"key": "e3", "wrong": "He persisted to ask the same question.", "right": "He persisted in asking the same question.", "why": "persist đi với in, rồi động từ thêm -ing."},
 ]
 
@@ -204,7 +204,7 @@ SITTING_1 = [
         {"say": "Dịch theo việc đi kèm. Việc xấu thì cố chấp, mục tiêu tốt thì kiên trì.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Lỗi thường gặp", "title": "Ba lỗi, ba cách sửa",
-     "data": {"rows": TRAPS_1, "rule": "Nhìn từ loại và từ đứng sau: sau will là động từ; remain không có tân ngữ; persist đi với in."}, "lines": [
+     "data": {"rows": TRAPS_1, "rule": "Nhìn từ loại và từ đứng sau."}, "lines": [
         {"say": "Lỗi thứ nhất: đặt danh từ vào chỗ cần động từ. Sau will phải là một động từ nguyên thể.", "show": "e1"},
         {"en": "Few of these changes will really endure.", "vi": "Ít thay đổi trong số này sẽ thật sự bền lâu.", "gap": True},
         {"say": "Lỗi thứ hai: dùng remain với một tân ngữ.", "show": "e2"},
@@ -335,8 +335,8 @@ SITTING_2 = [
 
 # ------------------------------------------------------------------ sitting 3: up, down and replacing
 UP = [
-    {"key": "e1", "wrong": "Britain began to progress into its present form.", "right": "Britain began to evolve into its present form.", "why": "Dần phát triển thành một hình thái mới: evolve into. progress into chỉ là tiến vào một giai đoạn, như vòng chung kết."},
-    {"key": "e2", "wrong": "We've made a lot of modification with the plans, but we still have a long way to go.", "right": "We've made a lot of progress with the plans, but we still have a long way to go.", "why": "Vế sau nói còn một chặng đường dài: vế trước nói về tiến độ, make progress."},
+    {"key": "e1", "wrong": "Britain began to progress into its present form.", "right": "Britain began to evolve into its present form.", "why": "Thành hình thái mới: evolve into. progress into là vào một giai đoạn."},
+    {"key": "e2", "wrong": "We've made a lot of modification with the plans.", "right": "We've made a lot of progress with the plans.", "why": "Vế sau còn chặng đường dài: nói về tiến độ."},
 ]
 
 DOWN = [
@@ -415,10 +415,10 @@ SITTING_3 = [
 
 # ------------------------------------------------------------------ sitting 4: a society that changes
 BRITAIN = [
-    {"key": "p1", "icon": "same_houses", "label": "Trước chiến tranh", "kind": "bg", "en": "Society was fairly uniform and conservative.", "vi": "Xã hội khá đồng nhất và bảo thủ."},
-    {"key": "p2", "icon": "bolt", "label": "Chiến tranh", "kind": "event", "en": "The war caused a revolution and changed the status quo.", "vi": "Chiến tranh gây ra một cuộc cách mạng, thay đổi hiện trạng."},
-    {"key": "p3", "icon": "trend", "label": "Xu hướng", "kind": "chain", "en": "The trend was away from fixed roles and towards a more dynamic society.", "vi": "Rời xa vai trò cố định, hướng tới xã hội năng động."},
-    {"key": "p4", "icon": "sparkle", "label": "Giới trẻ", "kind": "chain", "en": "New and innovative music had a great influence on young people.", "vi": "Âm nhạc mới mẻ, sáng tạo ảnh hưởng lớn tới giới trẻ."},
+    {"key": "p1", "icon": "same_houses", "label": "Trước chiến tranh", "kind": "bg", "en": "Society was fairly uniform and conservative.", "vi": "Đồng nhất, bảo thủ."},
+    {"key": "p2", "icon": "bolt", "label": "Chiến tranh", "kind": "event", "en": "The war caused a revolution and changed the status quo.", "vi": "Cách mạng, đổi hiện trạng."},
+    {"key": "p3", "icon": "trend", "label": "Xu hướng", "kind": "chain", "en": "The trend was away from fixed roles and towards a more dynamic society.", "vi": "Rời cố định, tới năng động."},
+    {"key": "p4", "icon": "sparkle", "label": "Giới trẻ", "kind": "chain", "en": "New and innovative music had a great influence on young people.", "vi": "Ảnh hưởng tới giới trẻ."},
 ]
 
 FAMILY = [
@@ -428,9 +428,9 @@ FAMILY = [
 ]
 
 ELIM = [
-    {"key": "e1", "wrong": "Britain underwent potential changes after the war.", "right": "Britain underwent radical changes after the war.", "why": "Theo thời gian: thay đổi đã xảy ra, không dùng potential."},
-    {"key": "e2", "wrong": "Music had a great innovation on young people.", "right": "Music had a great influence on young people.", "why": "Theo giới từ: chỉ influence đi với on."},
-    {"key": "e3", "wrong": "Britain became a more amended society.", "right": "Britain became a more dynamic society.", "why": "Theo phạm vi kết hợp: amend chỉ cho văn bản. fixed ở vế trước gợi từ đối lập: dynamic."},
+    {"key": "e1", "wrong": "Britain underwent potential changes after the war.", "right": "Britain underwent radical changes after the war.", "why": "Thời gian: việc đã xảy ra, không dùng potential."},
+    {"key": "e2", "wrong": "Music had a great innovation on young people.", "right": "Music had a great influence on young people.", "why": "Giới từ: chỉ influence đi với on."},
+    {"key": "e3", "wrong": "Britain became a more amended society.", "right": "Britain became a more dynamic society.", "why": "Phạm vi kết hợp: amend chỉ cho văn bản; fixed gợi từ đối lập."},
 ]
 
 SITTING_4 = [
@@ -487,7 +487,7 @@ SITTING_4 = [
         {"en": "This young player has a lot of potential.", "vi": "Cầu thủ trẻ này có nhiều tiềm năng.", "gap": True, "recap": False},
     ]},
     {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Ba cách loại đáp án", "title": "Thời gian, giới từ, phạm vi kết hợp",
-     "data": {"rows": ELIM, "rule": "Loại đáp án theo thời gian, theo giới từ đi kèm, theo phạm vi kết hợp; tìm manh mối đối lập hay song hành trong câu."}, "lines": [
+     "data": {"rows": ELIM, "rule": "Loại theo thời gian, giới từ, phạm vi kết hợp; tìm manh mối trong câu."}, "lines": [
         {"say": "Cách loại thứ nhất: theo thời gian. Thay đổi đã xảy ra sau chiến tranh, làm sao còn là tiềm năng được nữa.", "show": "e1"},
         {"en": "Britain underwent radical changes after the war.", "vi": "Nước Anh trải qua những thay đổi triệt để sau chiến tranh.", "gap": True},
         {"say": "Cách loại thứ hai: theo giới từ đi kèm. Có on thì chọn influence.", "show": "e2"},

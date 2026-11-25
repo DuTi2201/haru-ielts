@@ -821,13 +821,13 @@
         "key": "e1",
         "wrong": "Few of these changes will really innovation.",
         "right": "Few of these changes will really endure.",
-        "why": "Sau will cần động từ nguyên thể; innovation là danh từ."
+        "why": "Sau will là động từ; innovation là danh từ."
        },
        {
         "key": "e2",
         "wrong": "It is hard to remain a balance between work and study.",
         "right": "It is hard to maintain a balance between work and study.",
-        "why": "remain không có tân ngữ. Duy trì một thứ: maintain."
+        "why": "remain không có tân ngữ: dùng maintain."
        },
        {
         "key": "e3",
@@ -836,7 +836,7 @@
         "why": "persist đi với in, rồi động từ thêm -ing."
        }
       ],
-      "rule": "Nhìn từ loại và từ đứng sau: sau will là động từ; remain không có tân ngữ; persist đi với in."
+      "rule": "Nhìn từ loại và từ đứng sau."
      },
      "lines": [
       {
@@ -1379,13 +1379,13 @@
         "key": "e1",
         "wrong": "Britain began to progress into its present form.",
         "right": "Britain began to evolve into its present form.",
-        "why": "Dần phát triển thành một hình thái mới: evolve into. progress into chỉ là tiến vào một giai đoạn, như vòng chung kết."
+        "why": "Thành hình thái mới: evolve into. progress into là vào một giai đoạn."
        },
        {
         "key": "e2",
-        "wrong": "We've made a lot of modification with the plans, but we still have a long way to go.",
-        "right": "We've made a lot of progress with the plans, but we still have a long way to go.",
-        "why": "Vế sau nói còn một chặng đường dài: vế trước nói về tiến độ, make progress."
+        "wrong": "We've made a lot of modification with the plans.",
+        "right": "We've made a lot of progress with the plans.",
+        "why": "Vế sau còn chặng đường dài: nói về tiến độ."
        }
       ],
       "rule": "Thành một hình thái mới: evolve into. Có tiến độ: make progress."
@@ -1647,7 +1647,7 @@
         "label": "Trước chiến tranh",
         "kind": "bg",
         "en": "Society was fairly uniform and conservative.",
-        "vi": "Xã hội khá đồng nhất và bảo thủ."
+        "vi": "Đồng nhất, bảo thủ."
        },
        {
         "key": "p2",
@@ -1655,7 +1655,7 @@
         "label": "Chiến tranh",
         "kind": "event",
         "en": "The war caused a revolution and changed the status quo.",
-        "vi": "Chiến tranh gây ra một cuộc cách mạng, thay đổi hiện trạng."
+        "vi": "Cách mạng, đổi hiện trạng."
        },
        {
         "key": "p3",
@@ -1663,7 +1663,7 @@
         "label": "Xu hướng",
         "kind": "chain",
         "en": "The trend was away from fixed roles and towards a more dynamic society.",
-        "vi": "Rời xa vai trò cố định, hướng tới xã hội năng động."
+        "vi": "Rời cố định, tới năng động."
        },
        {
         "key": "p4",
@@ -1671,7 +1671,7 @@
         "label": "Giới trẻ",
         "kind": "chain",
         "en": "New and innovative music had a great influence on young people.",
-        "vi": "Âm nhạc mới mẻ, sáng tạo ảnh hưởng lớn tới giới trẻ."
+        "vi": "Ảnh hưởng tới giới trẻ."
        }
       ],
       "rule": "Bốn khung tranh: đồng nhất, bảo thủ, cách mạng, xu hướng, năng động, ảnh hưởng."
@@ -1879,22 +1879,22 @@
         "key": "e1",
         "wrong": "Britain underwent potential changes after the war.",
         "right": "Britain underwent radical changes after the war.",
-        "why": "Theo thời gian: thay đổi đã xảy ra, không dùng potential."
+        "why": "Thời gian: việc đã xảy ra, không dùng potential."
        },
        {
         "key": "e2",
         "wrong": "Music had a great innovation on young people.",
         "right": "Music had a great influence on young people.",
-        "why": "Theo giới từ: chỉ influence đi với on."
+        "why": "Giới từ: chỉ influence đi với on."
        },
        {
         "key": "e3",
         "wrong": "Britain became a more amended society.",
         "right": "Britain became a more dynamic society.",
-        "why": "Theo phạm vi kết hợp: amend chỉ cho văn bản. fixed ở vế trước gợi từ đối lập: dynamic."
+        "why": "Phạm vi kết hợp: amend chỉ cho văn bản; fixed gợi từ đối lập."
        }
       ],
-      "rule": "Loại đáp án theo thời gian, theo giới từ đi kèm, theo phạm vi kết hợp; tìm manh mối đối lập hay song hành trong câu."
+      "rule": "Loại theo thời gian, giới từ, phạm vi kết hợp; tìm manh mối trong câu."
      },
      "lines": [
       {
