@@ -108,7 +108,7 @@ def test_gate_the_class_examples_are_taught_in_their_corrected_form():
         (s2, "Yes, I bought some on the way home"),
         (s2, "Yes, I have bought some"),
         (s2, "When did you go there"),
-        (s2, "I went there last summer"),
+        (s2, "I went there two years ago"),
         (s2, "I studied the piano for two years, then I stopped"),
     ):
         assert sentence in text, sentence

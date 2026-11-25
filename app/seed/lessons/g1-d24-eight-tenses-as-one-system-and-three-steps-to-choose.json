@@ -345,7 +345,7 @@
      "hook": "Tám thì: cần mấy câu hỏi để chọn đúng một thì?",
      "lines": [
       {
-       "say": "Đến hôm nay bạn đã học đủ tám thì. Nếu chỉ được đặt vài câu hỏi để chọn đúng một thì, bạn cần mấy câu hỏi?",
+       "say": "Sách chia thì quá khứ thành rất nhiều mục nhỏ. Nhưng đến hôm nay, bạn đã học đủ tám thì. Nếu chỉ được đặt vài câu hỏi để chọn đúng một thì, bạn cần mấy câu hỏi?",
        "show": "hook"
       },
       {
@@ -518,7 +518,7 @@
        "show": "c1"
       },
       {
-       "say": "Ô thứ hai: nhấn khoảng tạm thời. Quá khứ tiếp diễn."
+       "say": "Ô thứ hai: nhấn khoảng tạm thời. Quá khứ tiếp diễn. Ô này còn dùng cho hai việc song song, thường đi với while."
       },
       {
        "en": "Yesterday I was playing football at seven.",
@@ -552,7 +552,10 @@
        "recap": false
       },
       {
-       "say": "Riêng quá khứ đơn còn là thì mặc định cho mọi việc đã xảy ra. Ba ô còn lại mới là cặp đúng nghĩa của ba ô hiện tại.",
+       "say": "Riêng quá khứ đơn còn là thì mặc định cho mọi việc đã xảy ra. Ba ô còn lại mới là cặp đúng nghĩa của ba ô hiện tại."
+      },
+      {
+       "say": "Cách ôn: thuộc tám câu mẫu. Quên cách dùng thì nhìn lại câu mẫu là suy ra được.",
        "show": "rule"
       }
      ]
@@ -583,7 +586,7 @@
         "vi": "Cặp của: It's the first time I have used this app."
        }
       ],
-      "rule": "Cách dùng giữ nguyên; chỉ mốc nhìn đổi từ bây giờ sang một lúc đã qua."
+      "rule": "Phần lớn cách dùng đi theo cặp. Khác một điểm: had + V3 đi được với giờ cụ thể, have + V3 thì không."
      },
      "lines": [
       {
@@ -614,7 +617,16 @@
        "gap": true
       },
       {
-       "say": "Cách dùng giữ nguyên; chỉ mốc nhìn đổi từ bây giờ sang một lúc đã qua. Nói được ở hiện tại là kể được ở quá khứ.",
+       "say": "Phần lớn cách dùng đi theo cặp: nói được ở hiện tại là kể được ở quá khứ. Chỉ khác một điểm: had cộng quá khứ phân từ đi được với giờ cụ thể, còn hiện tại hoàn thành thì không."
+      },
+      {
+       "en": "When I arrived, she had left at six.",
+       "vi": "Khi tôi tới, cô ấy đã đi từ lúc sáu giờ.",
+       "gap": true,
+       "recap": false
+      },
+      {
+       "say": "Phần lớn cách dùng đi theo cặp. Khác một điểm: had cộng quá khứ phân từ đi được với giờ cụ thể.",
        "show": "rule"
       }
      ]
@@ -668,7 +680,7 @@
      "kind": "recap",
      "lines": [
       {
-       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "say": "Ba câu hỏi, tám thì. Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
        "show": "title"
       }
      ]
@@ -713,10 +725,10 @@
    "lecture": [
     {
      "kind": "title",
-     "hook": "Đang xem phim thì màn hình bị treo: có mấy cách nói đúng?",
+     "hook": "Đang xem phim thì màn hình bị treo: một cách nói đúng, hay nhiều cách?",
      "lines": [
       {
-       "say": "Bạn đang xem phim thì màn hình bị treo. Khi làm bài, chọn thì thế nào; khi nói thật, có bao nhiêu cách kể lại câu này cho đúng?",
+       "say": "Bạn đang xem phim thì màn hình bị treo. Kể lại bằng tiếng Anh: chỉ có một cách đúng, hay nhiều cách?",
        "show": "hook"
       },
       {
@@ -726,30 +738,45 @@
     },
     {
      "kind": "scene",
-     "visual": "ref_table",
+     "visual": "decision_flow",
      "eyebrow": "Khi làm bài",
      "title": "Ba bước chọn thì quá khứ",
      "data": {
-      "rows": [
+      "steps": [
        {
         "key": "s1",
-        "head": "Bước 1 · quá khứ đơn",
-        "en": "I got up at six every morning last week.",
-        "vi": "Chuỗi việc, việc đã khép lại, lặp lại, trạng thái."
+        "q": "Chuỗi việc, lặp lại, trạng thái, việc đã khép lại?",
+        "yes": "Quá khứ đơn",
+        "form": "V2 / V-ed"
        },
        {
         "key": "s2",
-        "head": "Bước 2 · tiếp diễn",
-        "en": "My cousin and I were playing on the computer when there was a power cut.",
-        "vi": "Một khoảng tạm thời bị cắt ngang, hoặc hai việc song song."
+        "q": "Khoảng tạm thời bị cắt ngang, hay hai việc song song?",
+        "yes": "Tiếp diễn",
+        "form": "was / were + V-ing"
        },
        {
         "key": "s3",
-        "head": "Bước 3 · hoàn thành",
-        "en": "When I got there, I realised I had left my judo suit at home.",
-        "vi": "Xảy ra trước một mốc quá khứ đơn."
+        "q": "Xảy ra trước một mốc quá khứ đơn?",
+        "yes": "Hoàn thành",
+        "form": "had (been) + …"
        }
       ],
+      "fallback": {
+       "key": "fb",
+       "label": "Quá khứ đơn"
+      },
+      "walk": {
+       "key": "walk",
+       "en": "When I got home, my brother ( ) all the pizza.",
+       "vi": "Thử với câu này",
+       "path": [
+        "no",
+        "no",
+        "yes"
+       ],
+       "answer": "had eaten"
+      },
       "rule": "Không khớp bước 2 hay bước 3: chọn quá khứ đơn."
      },
      "lines": [
@@ -772,13 +799,29 @@
        "gap": true
       },
       {
-       "say": "Bước ba: đã có một mốc quá khứ đơn chưa, và việc đang xét có xảy ra trước mốc đó không? Có thì chọn quá khứ hoàn thành. Rồi chọn tiếp: kết quả, trải nghiệm, trạng thái thì dùng dạng đơn; thời lượng, dấu vết thì dùng dạng tiếp diễn.",
+       "say": "Bước ba: đã có một mốc quá khứ đơn chưa, và việc đang xét có xảy ra trước mốc đó không? Có thì chọn quá khứ hoàn thành.",
        "show": "s3"
       },
       {
        "en": "When I got there, I realised I had left my judo suit at home.",
        "vi": "Khi tới nơi, tôi nhận ra mình đã để quên bộ đồ judo ở nhà.",
        "gap": true
+      },
+      {
+       "say": "Không khớp bước nào thì về quá khứ đơn.",
+       "show": "fb"
+      },
+      {
+       "say": "Thử một chỗ trống. Bước một: không lặp lại, không phải chuỗi việc. Bước hai: không có khoảng bị cắt ngang. Bước ba: có mốc về nhà, việc ăn xảy ra trước mốc. Vậy là had eaten.",
+       "show": "walk"
+      },
+      {
+       "en": "When I got home, my brother had eaten all the pizza.",
+       "vi": "Khi tôi về đến nhà, em tôi đã ăn hết chỗ pizza.",
+       "gap": true
+      },
+      {
+       "say": "Ở bước ba, chọn tiếp: kết quả, trải nghiệm, trạng thái thì dùng dạng đơn; thời lượng, dấu vết thì dùng dạng tiếp diễn."
       },
       {
        "say": "Và trước khi chọn, hãy đọc trọn cả câu, cả câu trước và câu sau. Không khớp bước hai hay bước ba thì chọn quá khứ đơn: xác suất đúng cao nhất.",
@@ -860,7 +903,13 @@
        "gap": true
       },
       {
-       "say": "Cả ba đều đúng, mỗi câu nhấn một ý. Ngữ pháp là công cụ cho điều bạn muốn nói, không phải những chiếc hộp tách rời. Còn bài thi chỉ có một đáp án: đi qua ba bước với cả câu, không dựa vào một chữ đơn lẻ.",
+       "say": "Cả ba đều đúng, mỗi câu nhấn một ý."
+      },
+      {
+       "say": "Nếu là bài thi, câu có sẵn cụm mười phút, thì đáp án chỉ có một: dạng hoàn thành tiếp diễn, vì câu nhấn thời lượng."
+      },
+      {
+       "say": "Ngữ pháp là công cụ cho điều bạn muốn nói, không phải những chiếc hộp tách rời. Tuần đầu, bạn đã thấy một câu vừa khít với nhiều chiếc hộp của sách.",
        "show": "rule"
       }
      ]
@@ -880,15 +929,15 @@
        },
        {
         "key": "e2",
-        "wrong": "I was tired because I have been running.",
-        "right": "I was tired because I had been running.",
-        "why": "Hai vế cùng nhìn từ một mốc đã qua."
+        "wrong": "In 2000, the company was opening its first factory.",
+        "right": "In 2000, the company opened its first factory.",
+        "why": "Sự kiện đã khép lại; chữ đang không quyết định thì."
        },
        {
         "key": "e3",
-        "wrong": "Yesterday I have seen her.",
-        "right": "Yesterday I saw her.",
-        "why": "Có mốc đã qua: quá khứ đơn."
+        "wrong": "The last time I had seen Tom, he had looked tired.",
+        "right": "The last time I saw Tom, he looked tired.",
+        "why": "Vế The last time: quá khứ đơn."
        },
        {
         "key": "e4",
@@ -897,7 +946,7 @@
         "why": "know là động từ trạng thái."
        }
       ],
-      "rule": "Một câu kể, một mốc nhìn. Có mốc đã qua: quá khứ đơn. know: dạng đơn."
+      "rule": "Một câu kể, một mốc nhìn. Sự kiện đã khép lại và vế The last time: quá khứ đơn. know: dạng đơn."
      },
      "lines": [
       {
@@ -910,22 +959,21 @@
        "gap": true
       },
       {
-       "say": "Lỗi hai: vế đầu đã lùi về quá khứ, vế sau thì chưa.",
+       "say": "Lỗi hai: dịch chữ đang thành thì tiếp diễn, dù đó là một sự kiện đã khép lại.",
        "show": "e2"
       },
       {
-       "en": "I was tired because I had been running.",
-       "vi": "Lúc đó tôi mệt vì vừa chạy.",
-       "gap": true,
-       "recap": false
+       "en": "In 2000, the company opened its first factory.",
+       "vi": "Năm 2000, công ty mở nhà máy đầu tiên.",
+       "gap": true
       },
       {
-       "say": "Lỗi ba: hiện tại hoàn thành đi với một mốc đã qua.",
+       "say": "Lỗi ba: thêm had vào câu the last time.",
        "show": "e3"
       },
       {
-       "en": "Yesterday I saw her.",
-       "vi": "Hôm qua tôi gặp cô ấy.",
+       "en": "The last time I saw Tom, he looked tired.",
+       "vi": "Lần cuối tôi gặp Tom, trông anh ấy mệt.",
        "gap": true
       },
       {
@@ -939,7 +987,7 @@
        "recap": false
       },
       {
-       "say": "Một câu kể, một mốc nhìn. Có mốc đã qua thì dùng quá khứ đơn. Động từ trạng thái như know giữ dạng đơn.",
+       "say": "Một câu kể, một mốc nhìn. Sự kiện đã khép lại và vế the last time dùng quá khứ đơn. Động từ trạng thái như know giữ dạng đơn.",
        "show": "rule"
       }
      ]
@@ -1088,7 +1136,7 @@
      "kind": "recap",
      "lines": [
       {
-       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "say": "Phân vân mà không thấy tạm thời, không thấy trước sau: chọn quá khứ đơn. Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
        "show": "title"
       }
      ]

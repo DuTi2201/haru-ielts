@@ -367,29 +367,33 @@
     },
     {
      "kind": "scene",
-     "visual": "picture_cards",
+     "visual": "story_strip",
      "eyebrow": "Thí nghiệm",
      "title": "Ba việc, một thì",
      "data": {
-      "rows": [
+      "frame": "strip",
+      "panels": [
        {
         "key": "r1",
         "icon": "cup",
-        "head": "Việc 1",
+        "label": "Việc 1",
+        "kind": "chain",
         "en": "I went for a drink,",
         "vi": "Tôi đi uống nước,"
        },
        {
         "key": "r2",
         "icon": "house",
-        "head": "Việc 2",
+        "label": "Việc 2",
+        "kind": "chain",
         "en": "then I came home,",
         "vi": "rồi về nhà,"
        },
        {
         "key": "r3",
         "icon": "bed",
-        "head": "Việc 3",
+        "label": "Việc 3",
+        "kind": "chain",
         "en": "and after that I went to bed.",
         "vi": "sau đó đi ngủ."
        }
@@ -436,7 +440,7 @@
        "gap": true
       },
       {
-       "say": "Vậy chỉ cần một thì. Đây là cách dùng thứ nhất của quá khứ đơn: kể lần lượt các việc đã xảy ra. Bạn chia tất cả ở quá khứ đơn là đúng, không cần cân nhắc việc nào trước, việc nào sau, vì thứ tự câu đã nói điều đó.",
+       "say": "Vậy chỉ cần một thì. Đây là một cách dùng của quá khứ đơn: kể lần lượt các việc đã xảy ra. Bạn chia tất cả ở quá khứ đơn là đúng, không cần cân nhắc việc nào trước, việc nào sau, vì thứ tự câu đã nói điều đó.",
        "show": "rule"
       }
      ]
@@ -545,8 +549,14 @@
        "show": "aff"
       },
       {
-       "say": "Cách viết: phần lớn động từ thêm đuôi ed, như work thành worked. Động từ đã có sẵn chữ e ở cuối, như replace, chỉ thêm phần còn thiếu: replaced. Study thành studied. Từ một âm tiết tận cùng bằng một nguyên âm và một phụ âm, như stop, thì gấp đôi phụ âm cuối: stopped. Work hay rain thì không. Và có một nhóm động từ bất quy tắc phải học thuộc: go thành went, buy thành bought.",
+       "say": "Cách viết: phần lớn động từ thêm đuôi ed, như work thành worked. Replace đã có sẵn nửa đuôi, chỉ thêm phần còn thiếu: replaced.",
        "show": "spelling"
+      },
+      {
+       "say": "Study thành studied. Từ một âm tiết tận cùng bằng một nguyên âm và một phụ âm, như stop, thì gấp đôi phụ âm cuối: stopped. Work hay rain thì không."
+      },
+      {
+       "say": "Và có một nhóm động từ bất quy tắc phải học thuộc: go thành went, buy thành bought."
       },
       {
        "say": "Câu phủ định: đặt didn't trước động từ, và động từ về nguyên thể."
@@ -568,7 +578,10 @@
        "show": "qst"
       },
       {
-       "say": "Riêng động từ be không mượn did. Ngôi I, he, she, it dùng was; ngôi you, we, they dùng were. Nói I was, không nói I were. Câu hỏi về chủ ngữ cũng không mượn did."
+       "say": "Riêng động từ be không mượn did. Ngôi I, he, she, it dùng was; ngôi you, we, they dùng were."
+      },
+      {
+       "say": "Câu hỏi về chủ ngữ cũng không mượn did: người hỏi chưa biết ai làm việc đó."
       },
       {
        "en": "Who invented the telephone?",
@@ -700,7 +713,7 @@
        "recap": false
       },
       {
-       "say": "Nhóm ba: động từ đã tận cùng bằng một âm giống đuôi ed, như invent, want, end. Lúc này đuôi ed thành một âm tiết riêng, giống cuối từ wanted.",
+       "say": "Nhóm ba: động từ tận cùng bằng âm tờ hoặc đờ, như invent, want, end. Lúc này đuôi ed thành một âm tiết riêng, giống cuối từ wanted.",
        "show": "e3"
       },
       {
@@ -755,7 +768,7 @@
      },
      "lines": [
       {
-       "say": "Cách dùng thứ hai của quá khứ đơn, cũng là cách dùng thường gặp nhất: kể một việc đã xảy ra và đã khép lại.",
+       "say": "Cách dùng cốt lõi, thường gặp nhất của quá khứ đơn: kể một việc đã xảy ra và đã khép lại.",
        "show": "u1"
       },
       {
@@ -782,7 +795,7 @@
        "gap": true
       },
       {
-       "say": "Quá khứ đơn kể một việc người nói coi là đã khép lại, dù có nói lúc nào hay không. Và một quy tắc để dùng mỗi khi phân vân: nếu không thấy tính tạm thời, cũng không cần nhấn việc nào xảy ra trước, hãy chọn quá khứ đơn.",
+       "say": "Quá khứ đơn kể một việc người nói coi là đã khép lại, dù có nói lúc nào hay không.",
        "show": "rule"
       }
      ]
@@ -836,7 +849,7 @@
      "kind": "recap",
      "lines": [
       {
-       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "say": "Ba việc tối qua, một thì. Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
        "show": "title"
       }
      ]
@@ -884,8 +897,11 @@
      "hook": "I have been there two years ago: câu này sai ở đâu?",
      "lines": [
       {
-       "say": "Có người hỏi bạn đã đến Ý bao giờ chưa. Bạn trả lời: I have been there two years ago. Câu này sai ở đâu?",
+       "say": "Có người hỏi bạn đã đến Ý bao giờ chưa. Bạn trả lời như sau. Câu này sai ở đâu?",
        "show": "hook"
+      },
+      {
+       "en": "I have been there two years ago."
       },
       {
        "say": "Buổi này vạch ranh giới giữa quá khứ đơn và hiện tại hoàn thành: khi nào phải đổi thì, và ba chữ since, in, for."
@@ -916,7 +932,7 @@
         "at": "done",
         "tense": "Hiện tại hoàn thành · chỉ báo đã làm",
         "en": "Yes, I have bought some.",
-        "vi": "Đã mua rồi; lúc nào không quan trọng."
+        "vi": "Mua rồi, đừng hỏi mấy giờ."
        }
       ],
       "rule": "Quá khứ đơn: người nói biết lúc nào. Hiện tại hoàn thành: chỉ báo đã làm, lúc nào không quan trọng."
@@ -946,8 +962,11 @@
        "gap": true
       },
       {
-       "say": "Câu đáp thứ hai dùng hiện tại hoàn thành, cũng đúng. Việc mua rau đã xong, không ai vẫn còn đang mua rau từ chợ về tới bếp. Đây là nhánh thứ hai của hiện tại hoàn thành: đã xong, và người nói không cần nói lúc nào.",
+       "say": "Câu đáp thứ hai dùng hiện tại hoàn thành, cũng đúng.",
        "show": "a2"
+      },
+      {
+       "say": "Có bạn giải thích: đáp bằng hiện tại hoàn thành nghĩa là bây giờ vẫn đang mua. Bạn đang đứng trong bếp, dùng phép thuật gì mà vẫn đang mua rau ở chợ? Việc mua đã xong. Đây là nhánh thứ hai của hiện tại hoàn thành: đã xong, và người nói không cần nói lúc nào."
       },
       {
        "en": "Yes, I have bought some.",
@@ -962,38 +981,43 @@
     },
     {
      "kind": "scene",
-     "visual": "ref_table",
+     "visual": "chat_dialogue",
      "eyebrow": "Quy tắc đổi thì",
      "title": "Có mốc thời gian: quá khứ đơn",
      "data": {
-      "cols": [
-       "Bước",
-       "Câu"
-      ],
-      "rows": [
+      "names": {
+       "A": "Bạn",
+       "B": "Tôi"
+      },
+      "turns": [
        {
         "key": "k1",
-        "head": "Hỏi trải nghiệm",
-        "en": "Have you ever been to Hanoi?",
-        "vi": "Hỏi đã từng hay chưa: hiện tại hoàn thành."
+        "who": "A",
+        "tag": "Hiện tại hoàn thành",
+        "en": "Have you ever been to Italy?",
+        "vi": "Bạn đã đến Ý bao giờ chưa?"
        },
        {
         "key": "k2",
-        "head": "Đáp có hay chưa",
+        "who": "B",
+        "tag": "Chưa nói lúc nào",
         "en": "Yes, I have.",
-        "vi": "Chưa nói lúc nào."
+        "vi": "Rồi."
        },
        {
         "key": "k3",
-        "head": "Hỏi lúc nào",
+        "who": "A",
+        "tag": "Hỏi lúc nào · quá khứ đơn",
         "en": "When did you go there?",
-        "vi": "Có When: quá khứ đơn."
+        "vi": "Bạn đi khi nào?"
        },
        {
         "key": "k4",
-        "head": "Kể chi tiết",
-        "en": "I went there last summer.",
-        "vi": "Có mốc thời gian: quá khứ đơn."
+        "who": "B",
+        "tag": "Có mốc · quá khứ đơn",
+        "mark": "anchor",
+        "en": "I went there two years ago.",
+        "vi": "Tôi đi hai năm trước."
        }
       ],
       "rule": "Câu hỏi hay câu trả lời nêu một mốc thời gian đã qua: đổi sang quá khứ đơn."
@@ -1004,8 +1028,8 @@
        "show": "k1"
       },
       {
-       "en": "Have you ever been to Hanoi?",
-       "vi": "Bạn đã đến Hà Nội bao giờ chưa?",
+       "en": "Have you ever been to Italy?",
+       "vi": "Bạn đã đến Ý bao giờ chưa?",
        "gap": true
       },
       {
@@ -1019,7 +1043,7 @@
        "recap": false
       },
       {
-       "say": "Bước ba: người kia hỏi lúc nào. Câu hỏi có when, nên dùng quá khứ đơn. Không hỏi when have you been there.",
+       "say": "Bước ba: người kia hỏi lúc nào. Câu hỏi có when, nên dùng quá khứ đơn.",
        "show": "k3"
       },
       {
@@ -1028,16 +1052,16 @@
        "gap": true
       },
       {
-       "say": "Bước bốn: bạn kể chi tiết, có mốc thời gian, nên cũng dùng quá khứ đơn.",
+       "say": "Bước bốn: bạn kể chi tiết, có mốc thời gian. Đây cũng là câu trả lời cho câu hỏi đầu buổi: hai năm trước là một mốc đã qua, nên dùng quá khứ đơn.",
        "show": "k4"
       },
       {
-       "en": "I went there last summer.",
-       "vi": "Tôi đi hồi hè năm ngoái.",
+       "en": "I went there two years ago.",
+       "vi": "Tôi đi hai năm trước.",
        "gap": true
       },
       {
-       "say": "Quay lại câu hỏi đầu buổi. Hai năm trước là một mốc thời gian đã qua, nên câu đúng là I went there two years ago. Câu hỏi hay câu trả lời nêu một mốc thời gian đã qua thì đổi sang quá khứ đơn. Trong Speaking, câu đầu có thể xác nhận bằng hiện tại hoàn thành, còn phần kể chi tiết thì dùng quá khứ đơn.",
+       "say": "Câu hỏi hay câu trả lời nêu một mốc thời gian đã qua thì đổi sang quá khứ đơn. Trong Speaking, câu đầu có thể xác nhận bằng hiện tại hoàn thành; phần kể chi tiết dùng quá khứ đơn.",
        "show": "rule"
       }
      ]
@@ -1103,6 +1127,9 @@
        "show": "b1"
       },
       {
+       "say": "Có bạn sẽ hỏi: hiện tại hoàn thành không nói lúc nào, sao câu một lại có since? Vì thì này có hai nhánh. Nhánh còn tiếp tới bây giờ đi được với since và for. Nhánh đã xong, như câu mua rau, thì không nêu lúc nào. Nêu một năm đã qua là phải đổi sang quá khứ đơn."
+      },
+      {
        "say": "Câu hai có in cộng một năm đã qua. Đó là một mốc, nên dùng quá khứ đơn.",
        "show": "b2"
       },
@@ -1130,36 +1157,60 @@
        "gap": true
       },
       {
-       "say": "Since: vế chính thường chia thì hoàn thành. In cộng một năm đã qua: quá khứ đơn. For: việc còn tiếp hay đã dừng mới quyết định. Riêng cụm for the last two years nghĩa là hai năm tính tới bây giờ, nên thường đi với hiện tại hoàn thành.",
+       "say": "Riêng cụm sau nghĩa là hai năm tính tới bây giờ, nên thường đi với hiện tại hoàn thành."
+      },
+      {
+       "en": "for the last two years",
+       "vi": "trong hai năm qua",
+       "gap": true,
+       "recap": false
+      },
+      {
+       "say": "Since: vế chính thường chia thì hoàn thành. In cộng một năm đã qua: quá khứ đơn. For: việc còn tiếp hay đã dừng mới quyết định.",
        "show": "rule"
       }
      ]
     },
     {
      "kind": "scene",
-     "visual": "ref_table",
+     "visual": "tense_timeline",
      "eyebrow": "Hai mẫu cần thuộc",
      "title": "The last time và It's the first time",
      "data": {
-      "rows": [
+      "question": "lần cuối · lần đầu",
+      "question_vi": "hai mẫu hay bị nhầm",
+      "question_label": "Hai mẫu",
+      "answers": [
        {
         "key": "l1",
-        "head": "The last time",
+        "icon": "calendar",
+        "at": "point",
+        "tense": "The last time · quá khứ đơn",
         "en": "The last time I saw Lan, she talked about changing jobs.",
-        "vi": "Quá khứ đơn: một mốc đã qua."
+        "vi": "Một mốc đã qua."
        },
        {
         "key": "l2",
-        "head": "It's the first time",
+        "icon": "phone",
+        "at": "span",
+        "tense": "It's the first time · hiện tại hoàn thành",
         "en": "It's the first time I have used this app.",
-        "vi": "Hiện tại hoàn thành: tính tới bây giờ."
+        "vi": "Tính từ trước tới bây giờ."
        }
       ],
       "rule": "Vế The last time chia quá khứ đơn. It's the first time đi với hiện tại hoàn thành."
      },
      "lines": [
       {
-       "say": "Hai mẫu câu rất hay bị nhầm với nhau. Mẫu một: the last time, lần cuối. Vế này là một mốc đã qua nên chia quá khứ đơn; vế sau kể việc lúc đó, thường cũng là quá khứ đơn.",
+       "say": "Hai mẫu câu rất hay bị nhầm với nhau.",
+       "show": "q"
+      },
+      {
+       "say": "Trên trục, quá khứ bên trái, bây giờ ở vạch giữa.",
+       "show": "axis"
+      },
+      {
+       "say": "Mẫu một: the last time, lần cuối. Vế này là một mốc đã qua nên chia quá khứ đơn; vế sau kể việc lúc đó, thường cũng là quá khứ đơn.",
        "show": "l1"
       },
       {
@@ -1292,7 +1343,7 @@
      "headword": "vehicle",
      "lines": [
       {
-       "say": "Từ thứ tư: từ chung cho mọi loại xe. Chữ h ở giữa thường không đọc."
+       "say": "Từ thứ tư: từ chung cho mọi loại xe. Âm ở giữa từ này thường không đọc."
       }
      ]
     },
@@ -1404,7 +1455,7 @@
      "kind": "recap",
      "lines": [
       {
-       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "say": "Hỏi có hay chưa: hiện tại hoàn thành; nêu lúc nào: quá khứ đơn. Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
        "show": "title"
       }
      ]

@@ -53,16 +53,20 @@ STATION = [
 ]
 
 JIM = [
-    {"key": "d1", "head": "Hỏi", "en": "What did you do when you were home?", "vi": "Hỏi về một quãng đã qua."},
-    {"key": "d2", "head": "Tạo mốc · quá khứ đơn", "en": "I met Jim.", "vi": "Mốc để dựa vào."},
-    {"key": "d3", "head": "Hỏi thêm", "en": "Did you do anything else?", "vi": "Còn gì nữa không?"},
-    {"key": "d4", "head": "Trước mốc · had + V3", "en": "Oh, I had bought a new phone earlier.", "vi": "Việc này xảy ra trước lúc gặp Jim."},
+    {"key": "d0", "who": "B", "mark": "wrong", "tag": "Đứng một mình", "en": "I had bought a new phone.", "vi": "Trước cái gì? Người nghe không biết."},
+    {"key": "d1", "who": "A", "tag": "Hỏi về một quãng đã qua", "en": "What did you do when you were home?", "vi": "Hồi ở nhà bạn đã làm gì?"},
+    {"key": "d2", "who": "B", "mark": "anchor", "tag": "Quá khứ đơn", "en": "I met Jim.", "vi": "Tôi gặp Jim."},
+    {"key": "d3", "who": "A", "tag": "Hỏi thêm", "en": "Did you do anything else?", "vi": "Bạn còn làm gì nữa không?"},
+    {"key": "d4", "who": "B", "mark": "before", "tag": "had + V3", "en": "Oh, I had bought a new phone earlier.", "vi": "À, trước đó tôi đã mua một chiếc điện thoại mới."},
 ]
 
 LETTER = [
-    {"key": "s1", "icon": "clock", "head": "Kết quả · quá khứ đơn", "en": "I was late for the lesson", "vi": "Việc được kể lại."},
-    {"key": "s2", "icon": "suitcase", "head": "Lùi về trước · had + V3", "en": "because when I got there, I realised I had left my judo suit at home.", "vi": "Để quên đồ xảy ra trước lúc đến nơi."},
-    {"key": "s3", "icon": "house", "head": "Kể tiếp · quá khứ đơn", "en": "So I went all the way home.", "vi": "Câu chuyện đi tiếp."},
+    {"key": "s0", "label": "Mở đầu · quá khứ đơn", "kind": "chain", "wrong": "I had had my first judo lesson yesterday.", "en": "I had my first judo lesson yesterday.", "vi": "Không xảy ra trước việc nào."},
+    {"key": "s1", "label": "Kết quả · quá khứ đơn", "kind": "chain", "wrong": "I had been late for the lesson", "en": "I was late for the lesson", "vi": "Việc được kể lại."},
+    {"key": "s2", "label": "Lùi về trước · had + V3", "kind": "before", "en": "because when I got there, I realised I had left my judo suit at home.", "vi": "Để quên đồ xảy ra trước lúc đến nơi."},
+    {"key": "s3", "label": "Kể tiếp · quá khứ đơn", "kind": "chain", "en": "So I went all the way home.", "vi": "Câu chuyện đi tiếp."},
+    {"key": "s4", "label": "Kể tiếp · quá khứ đơn", "kind": "chain", "wrong": "I had learned how to do some basic throws.", "en": "I learned how to do some basic throws.", "vi": "Không lùi về trước."},
+    {"key": "s5", "label": "The last time · quá khứ đơn", "kind": "event", "en": "The last time I spoke to you, you talked about giving it up.", "vi": "Một mốc đã qua."},
 ]
 
 TWO_USES = [
@@ -71,15 +75,15 @@ TWO_USES = [
 ]
 
 NGA = [
-    {"key": "n1", "icon": "runner", "at": "before", "tense": "had + V3 · bản thân việc", "en": "Before I met Anna, I had run five kilometres.", "vi": "Nhấn việc đã làm và kết quả."},
+    {"key": "n1", "icon": "runner", "at": "before", "tense": "had + V3 · bản thân việc", "en": "Before I met Anna, I had run for two hours.", "vi": "Nhấn việc chạy; bỏ phần thời lượng câu vẫn đủ nghĩa."},
     {"key": "n2", "icon": "runner", "at": "upto", "tense": "had been + V-ing · quá trình", "en": "Before I met Anna, I had been running for two hours.", "vi": "Nhấn thời lượng kéo dài."},
 ]
 
 CHOOSE = [
     {"key": "c1", "head": "Kết quả, số lượng · đơn", "en": "By 2020, the company had sold a million phones.", "vi": "Con số đã đạt được."},
-    {"key": "c2", "head": "Trải nghiệm · đơn", "en": "I had never used a smartphone before I went to university.", "vi": "Đã từng hay chưa từng, thường có before."},
+    {"key": "c2", "head": "Trải nghiệm · đơn", "en": "I had read the book before, so I knew how it ended.", "vi": "Đã từng hay chưa từng, thường có before."},
     {"key": "c3", "head": "Động từ trạng thái · đơn", "en": "I had known Lan for ten years when we started the company.", "vi": "know, own, believe: thường không dùng tiếp diễn."},
-    {"key": "c4", "head": "Thời lượng · tiếp diễn", "en": "She had been working there for ten years when she retired.", "vi": "Nhấn quãng thời gian kéo dài."},
+    {"key": "c4", "head": "Thời lượng · tiếp diễn", "en": "He had been getting ready for the race for six months.", "vi": "Nhấn quãng thời gian kéo dài."},
     {"key": "c5", "head": "Dấu vết · tiếp diễn", "en": "The road was wet because it had been raining.", "vi": "Việc vừa dừng, còn dấu vết lúc đó."},
 ]
 
@@ -94,17 +98,6 @@ SITTING_1 = [
     {"kind": "title", "hook": "Bạn tới ga thì tàu đã chạy mất: việc nào xảy ra trước?", "lines": [
         {"say": "Bạn tới ga, nhưng tàu đã chạy mất. Hai việc trong quá khứ. Làm sao để người nghe biết việc nào xảy ra trước?", "show": "hook"},
         {"say": "Hai hôm trước ta kể lần lượt bằng quá khứ đơn; hôm qua ta phóng to vào bên trong một khoảng. Hôm nay ta lùi về trước một mốc quá khứ: thì quá khứ hoàn thành."},
-    ]},
-    {"kind": "scene", "visual": "tense_timeline", "eyebrow": "Thí nghiệm", "title": "Cùng lúc hay xảy ra trước",
-     "data": {"question": "When I got to the station, ...", "question_vi": "Khi tôi tới ga, ...", "question_label": "Cùng một mốc",
-              "answers": STATION, "rule": "Việc xảy ra trước chia had + V3; việc làm mốc chia quá khứ đơn."}, "lines": [
-        {"say": "Hai câu chỉ khác nhau một chữ had.", "show": "q"},
-        {"say": "Quá khứ bên trái, bây giờ ở vạch giữa.", "show": "axis"},
-        {"say": "Câu một: hai vế đều là quá khứ đơn. Tàu chạy đúng lúc tôi tới, như thể tôi kịp nhìn thấy nó lăn bánh.", "show": "t1"},
-        {"en": "When I got to the station, the train left.", "vi": "Khi tôi tới ga, tàu chạy.", "gap": True},
-        {"say": "Câu hai: vế sau có had. Tàu chạy trước lúc tôi tới. Tôi tới nơi thì sân ga đã trống.", "show": "t2"},
-        {"en": "When I got to the station, the train had left.", "vi": "Khi tôi tới ga thì tàu đã chạy mất.", "gap": True},
-        {"say": "Thì quá khứ hoàn thành chỉ làm một việc: nhấn việc nào xảy ra trước một việc quá khứ khác. Việc xảy ra trước chia had cộng quá khứ phân từ; việc làm mốc chia quá khứ đơn.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "sentence_forms", "eyebrow": "Công thức", "title": "Ba dạng câu của quá khứ hoàn thành",
      "data": {"rows": [
@@ -127,9 +120,22 @@ SITTING_1 = [
         {"say": "Điểm khó là quá khứ phân từ của động từ bất quy tắc. Write thành written, đọc với âm i ngắn, không đọc như write. Go thành gone, see thành seen, fly thành flown.", "show": "spelling"},
         {"say": "Khi nói, had thường rút gọn thành một âm rất nhẹ sau chủ ngữ. Nghe kỹ âm này trong bài nghe. Công thức: had cộng quá khứ phân từ, mọi ngôi như nhau.", "show": "rule"},
     ]},
-    {"kind": "scene", "visual": "ref_table", "eyebrow": "Quy tắc bối cảnh", "title": "Luôn có một mốc quá khứ đơn",
-     "data": {"cols": ["Bước", "Câu"], "rows": JIM, "rule": "Không viết một câu had + V3 đứng một mình: phải có một mốc quá khứ đơn làm điểm tựa."}, "lines": [
-        {"say": "Thì này cần một điểm tựa. Một đoạn hội thoại bốn bước. Bước một: hỏi về một quãng đã qua.", "show": "d1"},
+    {"kind": "scene", "visual": "tense_timeline", "eyebrow": "Thí nghiệm", "title": "Cùng lúc hay xảy ra trước",
+     "data": {"question": "When I got to the station, ...", "question_vi": "Khi tôi tới ga, ...", "question_label": "Cùng một mốc",
+              "answers": STATION, "rule": "Việc xảy ra trước chia had + V3; việc làm mốc chia quá khứ đơn."}, "lines": [
+        {"say": "Giờ quay lại câu hỏi đầu buổi. Hai câu chỉ khác nhau một chữ had.", "show": "q"},
+        {"say": "Quá khứ bên trái, bây giờ ở vạch giữa.", "show": "axis"},
+        {"say": "Câu một: hai vế đều là quá khứ đơn. Tàu chạy đúng lúc tôi tới, như thể tôi kịp nhìn thấy nó lăn bánh.", "show": "t1"},
+        {"en": "When I got to the station, the train left.", "vi": "Khi tôi tới ga, tàu chạy.", "gap": True},
+        {"say": "Câu hai: vế sau có had. Tàu chạy trước lúc tôi tới. Tôi tới nơi thì sân ga đã trống.", "show": "t2"},
+        {"en": "When I got to the station, the train had left.", "vi": "Khi tôi tới ga thì tàu đã chạy mất.", "gap": True},
+        {"say": "Thì quá khứ hoàn thành chỉ làm một việc: nhấn việc nào xảy ra trước một việc quá khứ khác. Việc xảy ra trước chia had cộng quá khứ phân từ; việc làm mốc chia quá khứ đơn.", "show": "rule"},
+    ]},
+    {"kind": "scene", "visual": "chat_dialogue", "eyebrow": "Quy tắc bối cảnh", "title": "Luôn có một mốc quá khứ đơn",
+     "data": {"names": {"A": "Bạn", "B": "Tôi"}, "turns": JIM, "rule": "Không viết một câu had + V3 đứng một mình: phải có một mốc quá khứ đơn làm điểm tựa."}, "lines": [
+        {"say": "Thì này cần một điểm tựa. Nếu mở đầu câu chuyện bằng một câu had đứng một mình, người nghe sẽ hỏi: trước cái gì?", "show": "d0"},
+        {"en": "I had bought a new phone.", "recap": False},
+        {"say": "Giờ là một đoạn hội thoại bốn bước. Bước một: hỏi về một quãng đã qua.", "show": "d1"},
         {"en": "What did you do when you were home?", "vi": "Hồi ở nhà bạn đã làm gì?", "gap": True, "recap": False},
         {"say": "Bước hai: trả lời bằng quá khứ đơn. Câu này tạo ra một mốc.", "show": "d2"},
         {"en": "I met Jim.", "vi": "Tôi gặp Jim.", "gap": True},
@@ -137,18 +143,25 @@ SITTING_1 = [
         {"en": "Did you do anything else?", "vi": "Bạn còn làm gì nữa không?", "gap": True, "recap": False},
         {"say": "Bước bốn: kể một việc xảy ra trước lúc gặp Jim. Không cần nói thêm là trước khi gặp Jim, vì mốc đã có ở câu trước.", "show": "d4"},
         {"en": "Oh, I had bought a new phone earlier.", "vi": "À, trước đó tôi đã mua một chiếc điện thoại mới.", "gap": True},
-        {"say": "Ngược lại, khi câu đã có before hay after, thứ tự đã rõ, nên quá khứ đơn thường cũng đủ. Không viết một câu had cộng quá khứ phân từ đứng một mình: phải có một mốc quá khứ đơn làm điểm tựa.", "show": "rule"},
+        {"say": "Để ý: câu bốn không có before hay after, mà người nghe vẫn hiểu việc mua điện thoại xảy ra trước. Had không cần before hay after; nó chỉ cần một mốc quá khứ đơn."},
+        {"say": "Cách này rất ăn điểm trong bài viết mô tả bản đồ có hai mốc năm đã qua: had cộng quá khứ phân từ kể thay đổi đã xảy ra trước mốc sau."},
+        {"en": "By 2010, the old factory had disappeared.", "vi": "Đến năm 2010, nhà máy cũ đã biến mất.", "gap": True},
+        {"say": "Không viết một câu had cộng quá khứ phân từ đứng một mình: phải có một mốc quá khứ đơn làm điểm tựa.", "show": "rule"},
     ]},
-    {"kind": "scene", "visual": "picture_cards", "eyebrow": "Không lạm dụng", "title": "Chỉ một việc lùi về trước",
-     "data": {"rows": LETTER, "rule": "Chỉ việc xảy ra trước một mốc mới chia had + V3; kể tiếp thì trở lại quá khứ đơn."}, "lines": [
-        {"say": "Một bạn kể về buổi học judo đầu tiên. Câu một: bị muộn. Đây là việc được kể lại, nên dùng quá khứ đơn.", "show": "s1"},
+    {"kind": "scene", "visual": "story_strip", "eyebrow": "Không lạm dụng", "title": "Chỉ một việc lùi về trước",
+     "data": {"frame": "letter", "heading": "Dear Mum,", "panels": LETTER, "rule": "Chỉ việc xảy ra trước một mốc mới chia had + V3; kể tiếp thì trở lại quá khứ đơn."}, "lines": [
+        {"say": "Một bạn viết thư kể về buổi học judo đầu tiên. Câu mở đầu chỉ có chữ hôm qua và một vế ở hiện tại. Nhiều người chọn had had. Hãy hỏi: việc này xảy ra trước việc quá khứ nào? Không có mốc nào, nên dùng quá khứ đơn.", "show": "s0"},
+        {"en": "I had my first judo lesson yesterday.", "vi": "Hôm qua tôi học buổi judo đầu tiên.", "gap": True},
+        {"say": "Câu tiếp theo, nhiều người lại chọn had been late. Hỏi lại câu hỏi đó: bị muộn xảy ra trước việc quá khứ nào? Không trước việc nào cả. Đó là kết quả được kể lại, nên dùng quá khứ đơn.", "show": "s1"},
         {"en": "I was late for the lesson", "vi": "Tôi đến buổi học muộn", "gap": True, "recap": False},
         {"say": "Câu hai: nguyên nhân xảy ra trước, là để quên bộ đồ ở nhà. Chỉ việc này mới lùi về trước, nên chỉ nó chia had cộng quá khứ phân từ.", "show": "s2"},
         {"en": "because when I got there, I realised I had left my judo suit at home.", "vi": "vì khi tới nơi, tôi nhận ra mình đã để quên bộ đồ judo ở nhà.", "gap": True},
         {"say": "Câu ba: câu chuyện đi tiếp, trở lại quá khứ đơn.", "show": "s3"},
         {"en": "So I went all the way home.", "vi": "Thế là tôi đi về tận nhà.", "gap": True},
-        {"say": "Lỗi hay gặp là thấy chuyện quá khứ thì dùng had ở mọi nơi. Buổi học hôm qua không xảy ra trước việc nào, nên câu đúng là quá khứ đơn."},
-        {"en": "I had my first judo lesson yesterday.", "vi": "Hôm qua tôi học buổi judo đầu tiên.", "gap": True},
+        {"say": "Cuối thư cũng vậy: học được vài đòn cơ bản là việc kể tiếp, không lùi về trước.", "show": "s4"},
+        {"en": "I learned how to do some basic throws.", "vi": "Tôi học được vài đòn quật cơ bản.", "gap": True},
+        {"say": "Và câu cuối có the last time: một mốc đã qua, hai vế đều chia quá khứ đơn.", "show": "s5"},
+        {"en": "The last time I spoke to you, you talked about giving it up.", "vi": "Lần cuối con nói chuyện với mẹ, mẹ bảo định bỏ việc đó.", "gap": True},
         {"say": "Còn một mẫu cần thuộc. Hai hôm trước bạn học mẫu lần đầu, đi với hiện tại hoàn thành. Khi lùi cả câu về quá khứ, mẫu này đi với had cộng quá khứ phân từ."},
         {"en": "It was the first time I had used a smartwatch.", "vi": "Đó là lần đầu tôi dùng đồng hồ thông minh.", "gap": True},
         {"say": "Chỉ việc xảy ra trước một mốc mới chia had cộng quá khứ phân từ; kể tiếp thì trở lại quá khứ đơn.", "show": "rule"},
@@ -159,17 +172,17 @@ SITTING_1 = [
     {"kind": "word", "headword": "fix", "lines": [{"say": "Từ thứ tư. Quá khứ là fixed, đuôi ed giống worked."}]},
     {"kind": "word", "headword": "delete", "lines": [{"say": "Từ cuối. Quá khứ là deleted, thêm một âm tiết."}]},
     {"kind": "recap", "lines": [
-        {"say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
+        {"say": "Had chỉ dùng khi cần nhấn việc xảy ra trước. Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
     ]},
     {"kind": "end", "next": "Tiếp theo: học thẻ và từ của buổi này, rồi làm bài.", "lines": [
-        {"say": "Hết buổi một. Bạn học các thẻ và từ trong app, rồi làm bài. Buổi hai học dạng tiếp diễn của thì này, và cách chọn giữa hai dạng.", "show": "title"},
+        {"say": "Hết buổi một. Mang theo một câu hỏi: bỏ chữ had đi, câu còn cho biết việc nào xảy ra trước không? Học thẻ và từ trong app, rồi làm bài.", "show": "title"},
     ]},
 ]
 
 SITTING_2 = [
     {"kind": "title", "hook": "had run hay had been running: hai câu khác nhau ở đâu?", "lines": [
         {"say": "Có hai câu kể về việc trước khi gặp Anna. Nghe rồi đoán: hai câu khác nhau ở đâu?", "show": "hook"},
-        {"en": "Before I met Anna, I had run five kilometres."},
+        {"en": "Before I met Anna, I had run for two hours."},
         {"en": "Before I met Anna, I had been running for two hours."},
         {"say": "Buổi này học công thức và hai cách dùng của thì quá khứ hoàn thành tiếp diễn, rồi cách chọn giữa dạng đơn và dạng tiếp diễn."},
     ]},
@@ -183,6 +196,7 @@ SITTING_2 = [
               "persons_plain": True,
               "short": ["Yes, I had.", "No, I hadn't."],
               "rule": "had been cộng động từ thêm đuôi ing, mọi ngôi như nhau."}, "lines": [
+        {"say": "Tên thì đã nói hết: had là phần hoàn thành, xảy ra trước mốc; been cộng đuôi ing là phần tiếp diễn, nhấn quá trình."},
         {"say": "Công thức có ba phần: had, been, rồi động từ thêm đuôi ing. Mọi ngôi như nhau.", "show": "persons"},
         {"en": "We had been waiting for an hour.", "vi": "Chúng tôi đã chờ được một tiếng.", "gap": True, "show": "aff"},
         {"say": "Phủ định: hadn't been."},
@@ -201,30 +215,35 @@ SITTING_2 = [
         {"say": "Cách dùng thứ hai: việc vừa dừng ngay trước mốc, và để lại dấu vết lúc đó. Câu này không cần nói bao lâu.", "show": "w2"},
         {"en": "Her eyes were red because she had been crying.", "vi": "Mắt cô ấy đỏ vì cô ấy vừa khóc.", "gap": True},
         {"say": "Một câu tương tự với chữ hay đọc sai: hết hơi. Hơi thở ở đây là danh từ breath, đọc ngắn, kết thúc bằng âm đầu lưỡi giữa hai hàm răng; khác động từ breathe."},
+        {"en": "breath. breathe.", "recap": False},
         {"en": "I was out of breath because I had been running.", "vi": "Tôi hết hơi vì vừa chạy.", "gap": True},
         {"say": "Kéo dài tới một mốc quá khứ, hoặc vừa dừng trước mốc và còn dấu vết.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "tense_timeline", "eyebrow": "So sánh", "title": "Bản thân việc hay quá trình",
      "data": {"question": "Before I met Anna, ...", "question_vi": "Trước khi gặp Anna, ...", "question_label": "Câu hỏi đầu buổi",
-              "answers": NGA, "rule": "had + V3 nhấn bản thân việc và kết quả. had been + V-ing nhấn quá trình kéo dài."}, "lines": [
+              "answers": NGA, "rule": "had + V3 nhấn bản thân việc. had been + V-ing nhấn quá trình, thời lượng."}, "lines": [
         {"say": "Quay lại hai câu đầu buổi.", "show": "q"},
         {"say": "Mốc là lúc gặp Anna.", "show": "axis"},
-        {"say": "Câu một: had cộng quá khứ phân từ. Nhấn bản thân việc chạy và kết quả: năm cây số.", "show": "n1"},
-        {"en": "Before I met Anna, I had run five kilometres.", "vi": "Trước khi gặp Anna, tôi đã chạy năm cây số.", "gap": True},
-        {"say": "Câu hai: had been cộng đuôi ing. Nhấn quá trình kéo dài: suốt hai tiếng.", "show": "n2"},
+        {"say": "Câu một: trọng tâm là việc chạy. Bỏ phần hai tiếng đi, câu vẫn đủ nghĩa.", "show": "n1"},
+        {"en": "Before I met Anna, I had run for two hours.", "vi": "Trước khi gặp Anna, tôi đã chạy hai tiếng.", "gap": True},
+        {"say": "Câu hai: trọng tâm chính là hai tiếng ấy. Vì thế dạng này thường đi kèm một khoảng thời gian.", "show": "n2"},
         {"en": "Before I met Anna, I had been running for two hours.", "vi": "Trước khi gặp Anna, tôi đã chạy suốt hai tiếng.", "gap": True},
-        {"say": "Dạng đơn nhấn bản thân việc và kết quả. Dạng tiếp diễn nhấn quá trình kéo dài.", "show": "rule"},
+        {"say": "Dạng đơn nhấn bản thân việc. Dạng tiếp diễn nhấn quá trình và thời lượng.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Cách chọn", "title": "Năm trường hợp",
      "data": {"rows": CHOOSE, "rule": "Kết quả, trải nghiệm, trạng thái: had + V3. Thời lượng, dấu vết: had been + V-ing."}, "lines": [
         {"say": "Khi làm bài, có năm trường hợp. Ba trường hợp đầu chọn dạng đơn. Một: có kết quả hay con số.", "show": "c1"},
         {"en": "By 2020, the company had sold a million phones.", "vi": "Đến năm 2020, công ty đã bán được một triệu chiếc điện thoại.", "gap": True},
         {"say": "Hai: kể trải nghiệm, đã từng hay chưa từng, thường có before.", "show": "c2"},
-        {"en": "I had never used a smartphone before I went to university.", "vi": "Trước khi vào đại học, tôi chưa từng dùng điện thoại thông minh.", "gap": True},
+        {"en": "I had read the book before, so I knew how it ended.", "vi": "Tôi đã đọc cuốn sách từ trước, nên biết nó kết thúc ra sao.", "gap": True},
+        {"say": "Read ở đây đọc như red. Ended có thêm một âm tiết."},
         {"say": "Ba: động từ trạng thái như know. Động từ trạng thái thường không dùng ở thì tiếp diễn. Đó là xu hướng, không phải lệnh cấm tuyệt đối, nhưng bài thi chọn dạng đơn.", "show": "c3"},
         {"en": "I had known Lan for ten years when we started the company.", "vi": "Lúc chúng tôi mở công ty, tôi đã quen Lan được mười năm.", "gap": True},
+        {"say": "Vì sao chỉ là xu hướng? Ngoài đời, người bản xứ vẫn nói câu sau với một động từ trạng thái."},
+        {"en": "I'm feeling much better today.", "vi": "Hôm nay tôi thấy khỏe hơn nhiều.", "gap": True, "recap": False},
         {"say": "Hai trường hợp cuối chọn dạng tiếp diễn. Bốn: nhấn thời lượng kéo dài.", "show": "c4"},
-        {"en": "She had been working there for ten years when she retired.", "vi": "Bà ấy đã làm ở đó mười năm thì nghỉ hưu.", "gap": True},
+        {"en": "He had been getting ready for the race for six months.", "vi": "Anh ấy đã chuẩn bị cho cuộc đua suốt sáu tháng.", "gap": True},
+        {"say": "Để ý cụm chuẩn bị: người bản xứ nói get ready. Học cả cụm, đừng ghép từng chữ."},
         {"say": "Năm: dấu vết lúc đó.", "show": "c5"},
         {"en": "The road was wet because it had been raining.", "vi": "Mặt đường ướt vì trời vừa mưa.", "gap": True},
         {"say": "Kết quả, trải nghiệm, trạng thái: had cộng quá khứ phân từ. Thời lượng, dấu vết: had been cộng đuôi ing.", "show": "rule"},
@@ -252,10 +271,10 @@ SITTING_2 = [
         {"say": "Việc chính dùng quá khứ đơn, cảnh dùng thì tiếp diễn, việc xảy ra trước dùng had cộng quá khứ phân từ hoặc had been cộng đuôi ing. Hãy viết lại bốn câu này cho đúng với chuyện của chính bạn.", "show": "rule"},
     ]},
     {"kind": "recap", "lines": [
-        {"say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
+        {"say": "Bản thân việc hay quá trình. Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
     ]},
     {"kind": "end", "next": "Tiếp theo: học thẻ và từ, làm bài, rồi buổi 3 và hai bài luyện theo sách.", "lines": [
-        {"say": "Hết phần giảng của ngày ba. Bạn học các thẻ và từ trong app, làm bài, rồi sang buổi ba để xếp câu, nghe chép và kể chuyện của chính bạn. Cuối ngày có hai bài luyện theo sách: một lá thư mười sáu chỗ trống, và mười câu chọn giữa hai dạng của thì này.", "show": "title"},
+        {"say": "Hết phần giảng của ngày ba. Bạn học các thẻ và từ trong app, làm bài, rồi sang buổi ba và hai bài luyện theo sách.", "show": "title"},
     ]},
 ]
 

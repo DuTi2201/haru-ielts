@@ -68,10 +68,12 @@ PAIRS = [
 ]
 
 STEPS = [
-    {"key": "s1", "head": "Bước 1 · quá khứ đơn", "en": "I got up at six every morning last week.", "vi": "Chuỗi việc, việc đã khép lại, lặp lại, trạng thái."},
-    {"key": "s2", "head": "Bước 2 · tiếp diễn", "en": "My cousin and I were playing on the computer when there was a power cut.", "vi": "Một khoảng tạm thời bị cắt ngang, hoặc hai việc song song."},
-    {"key": "s3", "head": "Bước 3 · hoàn thành", "en": "When I got there, I realised I had left my judo suit at home.", "vi": "Xảy ra trước một mốc quá khứ đơn."},
+    {"key": "s1", "q": "Chuỗi việc, lặp lại, trạng thái, việc đã khép lại?", "yes": "Quá khứ đơn", "form": "V2 / V-ed"},
+    {"key": "s2", "q": "Khoảng tạm thời bị cắt ngang, hay hai việc song song?", "yes": "Tiếp diễn", "form": "was / were + V-ing"},
+    {"key": "s3", "q": "Xảy ra trước một mốc quá khứ đơn?", "yes": "Hoàn thành", "form": "had (been) + …"},
 ]
+FALLBACK = {"key": "fb", "label": "Quá khứ đơn"}
+WALK = {"key": "walk", "en": "When I got home, my brother ( ) all the pizza.", "vi": "Thử với câu này", "path": ["no", "no", "yes"], "answer": "had eaten"}
 
 FROZE = [
     {"key": "m1", "icon": "frozen", "at": "upto", "tense": "had been + V-ing · quá trình trước mốc", "en": "I had been watching the film for ten minutes when the screen froze.", "vi": "Nhấn quãng mười phút đã trôi qua."},
@@ -81,8 +83,8 @@ FROZE = [
 
 TRAPS = [
     {"key": "e1", "wrong": "When I got home, my brother has eaten all the pizza.", "right": "When I got home, my brother had eaten all the pizza.", "why": "Mốc là quá khứ: lùi have thành had."},
-    {"key": "e2", "wrong": "I was tired because I have been running.", "right": "I was tired because I had been running.", "why": "Hai vế cùng nhìn từ một mốc đã qua."},
-    {"key": "e3", "wrong": "Yesterday I have seen her.", "right": "Yesterday I saw her.", "why": "Có mốc đã qua: quá khứ đơn."},
+    {"key": "e2", "wrong": "In 2000, the company was opening its first factory.", "right": "In 2000, the company opened its first factory.", "why": "Sự kiện đã khép lại; chữ đang không quyết định thì."},
+    {"key": "e3", "wrong": "The last time I had seen Tom, he had looked tired.", "right": "The last time I saw Tom, he looked tired.", "why": "Vế The last time: quá khứ đơn."},
     {"key": "e4", "wrong": "I had been knowing Lan for ten years when we started the company.", "right": "I had known Lan for ten years when we started the company.", "why": "know là động từ trạng thái."},
 ]
 
@@ -95,7 +97,7 @@ ANSWER = [
 
 SITTING_1 = [
     {"kind": "title", "hook": "Tám thì: cần mấy câu hỏi để chọn đúng một thì?", "lines": [
-        {"say": "Đến hôm nay bạn đã học đủ tám thì. Nếu chỉ được đặt vài câu hỏi để chọn đúng một thì, bạn cần mấy câu hỏi?", "show": "hook"},
+        {"say": "Sách chia thì quá khứ thành rất nhiều mục nhỏ. Nhưng đến hôm nay, bạn đã học đủ tám thì. Nếu chỉ được đặt vài câu hỏi để chọn đúng một thì, bạn cần mấy câu hỏi?", "show": "hook"},
         {"say": "Câu trả lời là ba. Buổi này dựng bản đồ tám thì từ ba câu hỏi đó, rồi ghép từng cặp hiện tại và quá khứ."},
     ]},
     {"kind": "scene", "visual": "tense_grid", "eyebrow": "Nhắc lại Tuần 1", "title": "Bốn ô nhìn từ bây giờ",
@@ -117,7 +119,7 @@ SITTING_1 = [
         {"say": "Cột phải vẫn là be cộng đuôi ing, nhưng be lùi thành was hoặc were.", "show": "cols"},
         {"say": "Ô thứ nhất: không nối, không nhấn tạm thời. Quá khứ đơn, một điểm trên trục."},
         {"en": "Yesterday I played football at seven.", "vi": "Hôm qua lúc bảy giờ tôi đá bóng.", "gap": True, "show": "c1"},
-        {"say": "Ô thứ hai: nhấn khoảng tạm thời. Quá khứ tiếp diễn."},
+        {"say": "Ô thứ hai: nhấn khoảng tạm thời. Quá khứ tiếp diễn. Ô này còn dùng cho hai việc song song, thường đi với while."},
         {"en": "Yesterday I was playing football at seven.", "vi": "Hôm qua lúc bảy giờ tôi đang đá bóng.", "gap": True, "show": "c2"},
         {"say": "Ô thứ ba: xảy ra trước một mốc quá khứ. Quá khứ hoàn thành."},
         {"en": "When I got to the station, the train had left.", "vi": "Khi tôi tới ga thì tàu đã chạy mất.", "gap": True, "show": "c3"},
@@ -125,17 +127,20 @@ SITTING_1 = [
         {"en": "We had been waiting for an hour when the bus came.", "vi": "Chúng tôi đã chờ một tiếng thì xe buýt tới.", "gap": True, "show": "c4"},
         {"say": "Nhìn từ một mốc quá khứ: giữ hai câu hỏi cũ, và lùi động từ chia đầu tiên về quá khứ, như ba cặp sau."},
         {"en": "lives, lived. am, was. have, had.", "recap": False},
-        {"say": "Riêng quá khứ đơn còn là thì mặc định cho mọi việc đã xảy ra. Ba ô còn lại mới là cặp đúng nghĩa của ba ô hiện tại.", "show": "rule"},
+        {"say": "Riêng quá khứ đơn còn là thì mặc định cho mọi việc đã xảy ra. Ba ô còn lại mới là cặp đúng nghĩa của ba ô hiện tại."},
+        {"say": "Cách ôn: thuộc tám câu mẫu. Quên cách dùng thì nhìn lại câu mẫu là suy ra được.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Từng cặp", "title": "Cùng nghĩa, khác mốc",
-     "data": {"rows": PAIRS, "rule": "Cách dùng giữ nguyên; chỉ mốc nhìn đổi từ bây giờ sang một lúc đã qua."}, "lines": [
+     "data": {"rows": PAIRS, "rule": "Phần lớn cách dùng đi theo cặp. Khác một điểm: had + V3 đi được với giờ cụ thể, have + V3 thì không."}, "lines": [
         {"say": "Mỗi thì quá khứ là cặp của một thì hiện tại. Cặp một: dấu vết. Hiện tại là tôi mệt vì vừa chạy. Lùi về một mốc đã qua, cả hai vế cùng lùi.", "show": "k1"},
         {"en": "I was tired because I had been running.", "vi": "Lúc đó tôi mệt vì vừa chạy.", "gap": True},
         {"say": "Cặp hai: than phiền với always, nhìn từ quá khứ.", "show": "k2"},
         {"en": "He was always leaving his clothes on the floor!", "vi": "Hồi đó nó cứ vứt quần áo dưới sàn!", "gap": True},
         {"say": "Cặp ba: mẫu lần đầu. Tuần này bạn đã gặp cả hai phiên bản.", "show": "k3"},
         {"en": "It was the first time I had used this app.", "vi": "Đó là lần đầu tôi dùng ứng dụng này.", "gap": True},
-        {"say": "Cách dùng giữ nguyên; chỉ mốc nhìn đổi từ bây giờ sang một lúc đã qua. Nói được ở hiện tại là kể được ở quá khứ.", "show": "rule"},
+        {"say": "Phần lớn cách dùng đi theo cặp: nói được ở hiện tại là kể được ở quá khứ. Chỉ khác một điểm: had cộng quá khứ phân từ đi được với giờ cụ thể, còn hiện tại hoàn thành thì không."},
+        {"en": "When I arrived, she had left at six.", "vi": "Khi tôi tới, cô ấy đã đi từ lúc sáu giờ.", "gap": True, "recap": False},
+        {"say": "Phần lớn cách dùng đi theo cặp. Khác một điểm: had cộng quá khứ phân từ đi được với giờ cụ thể.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "share", "lines": [{"say": "Năm động từ của buổi này là những việc bạn làm mỗi ngày trên mạng. Từ thứ nhất. Quá khứ là shared, đuôi ed giống played."}]},
     {"kind": "word", "headword": "store", "lines": [{"say": "Từ thứ hai: lưu trữ. Danh từ cùng chữ còn có nghĩa là cửa hàng."}]},
@@ -143,7 +148,7 @@ SITTING_1 = [
     {"kind": "word", "headword": "upload", "lines": [{"say": "Từ thứ tư, trái nghĩa với download ở ngày hai. Câu ví dụ có while và thì tiếp diễn."}]},
     {"kind": "word", "headword": "browse", "lines": [{"say": "Từ cuối: lướt xem. Câu ví dụ là một việc đang diễn ra bị cắt ngang."}]},
     {"kind": "recap", "lines": [
-        {"say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
+        {"say": "Ba câu hỏi, tám thì. Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
     ]},
     {"kind": "end", "next": "Tiếp theo: học thẻ và từ của buổi này, rồi làm bài.", "lines": [
         {"say": "Hết buổi một. Bạn học các thẻ và từ trong app, rồi làm bài. Buổi hai học ba bước chọn thì quá khứ khi làm bài, khác biệt giữa đáp án bài thi và điều bạn muốn nói, rồi kể một câu chuyện bằng bốn thì quá khứ.", "show": "title"},
@@ -151,18 +156,22 @@ SITTING_1 = [
 ]
 
 SITTING_2 = [
-    {"kind": "title", "hook": "Đang xem phim thì màn hình bị treo: có mấy cách nói đúng?", "lines": [
-        {"say": "Bạn đang xem phim thì màn hình bị treo. Khi làm bài, chọn thì thế nào; khi nói thật, có bao nhiêu cách kể lại câu này cho đúng?", "show": "hook"},
+    {"kind": "title", "hook": "Đang xem phim thì màn hình bị treo: một cách nói đúng, hay nhiều cách?", "lines": [
+        {"say": "Bạn đang xem phim thì màn hình bị treo. Kể lại bằng tiếng Anh: chỉ có một cách đúng, hay nhiều cách?", "show": "hook"},
         {"say": "Buổi này học ba bước chọn thì quá khứ khi làm bài, rồi ba cách nói khi dùng thật, sửa bốn lỗi hay gặp, và kể một câu chuyện Part 2 bằng bốn thì quá khứ."},
     ]},
-    {"kind": "scene", "visual": "ref_table", "eyebrow": "Khi làm bài", "title": "Ba bước chọn thì quá khứ",
-     "data": {"rows": STEPS, "rule": "Không khớp bước 2 hay bước 3: chọn quá khứ đơn."}, "lines": [
+    {"kind": "scene", "visual": "decision_flow", "eyebrow": "Khi làm bài", "title": "Ba bước chọn thì quá khứ",
+     "data": {"steps": STEPS, "fallback": FALLBACK, "walk": WALK, "rule": "Không khớp bước 2 hay bước 3: chọn quá khứ đơn."}, "lines": [
         {"say": "Khi làm bài với một câu ở quá khứ, đi qua ba bước. Bước một: có chuỗi việc, việc đã khép lại, việc lặp lại, hay động từ trạng thái không? Có thì chọn quá khứ đơn.", "show": "s1"},
         {"en": "I got up at six every morning last week.", "vi": "Tuần trước sáng nào tôi cũng dậy lúc sáu giờ.", "gap": True},
         {"say": "Bước hai: có một khoảng tạm thời bị cắt ngang, hay hai việc song song không? Có thì chọn quá khứ tiếp diễn.", "show": "s2"},
         {"en": "My cousin and I were playing on the computer when there was a power cut.", "vi": "Tôi và em họ đang chơi máy tính thì mất điện.", "gap": True},
-        {"say": "Bước ba: đã có một mốc quá khứ đơn chưa, và việc đang xét có xảy ra trước mốc đó không? Có thì chọn quá khứ hoàn thành. Rồi chọn tiếp: kết quả, trải nghiệm, trạng thái thì dùng dạng đơn; thời lượng, dấu vết thì dùng dạng tiếp diễn.", "show": "s3"},
+        {"say": "Bước ba: đã có một mốc quá khứ đơn chưa, và việc đang xét có xảy ra trước mốc đó không? Có thì chọn quá khứ hoàn thành.", "show": "s3"},
         {"en": "When I got there, I realised I had left my judo suit at home.", "vi": "Khi tới nơi, tôi nhận ra mình đã để quên bộ đồ judo ở nhà.", "gap": True},
+        {"say": "Không khớp bước nào thì về quá khứ đơn.", "show": "fb"},
+        {"say": "Thử một chỗ trống. Bước một: không lặp lại, không phải chuỗi việc. Bước hai: không có khoảng bị cắt ngang. Bước ba: có mốc về nhà, việc ăn xảy ra trước mốc. Vậy là had eaten.", "show": "walk"},
+        {"en": "When I got home, my brother had eaten all the pizza.", "vi": "Khi tôi về đến nhà, em tôi đã ăn hết chỗ pizza.", "gap": True},
+        {"say": "Ở bước ba, chọn tiếp: kết quả, trải nghiệm, trạng thái thì dùng dạng đơn; thời lượng, dấu vết thì dùng dạng tiếp diễn."},
         {"say": "Và trước khi chọn, hãy đọc trọn cả câu, cả câu trước và câu sau. Không khớp bước hai hay bước ba thì chọn quá khứ đơn: xác suất đúng cao nhất.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "tense_timeline", "eyebrow": "Dùng thật", "title": "Một câu, ba cách nói",
@@ -176,19 +185,21 @@ SITTING_2 = [
         {"en": "I had watched ten minutes of the film when the screen froze.", "vi": "Tôi đã xem xong mười phút đầu của phim thì màn hình bị treo.", "gap": True},
         {"say": "Cách ba: nhấn việc đang diễn ra ngay lúc đó.", "show": "m3"},
         {"en": "I was watching the film when the screen froze.", "vi": "Tôi đang xem phim thì màn hình bị treo.", "gap": True},
-        {"say": "Cả ba đều đúng, mỗi câu nhấn một ý. Ngữ pháp là công cụ cho điều bạn muốn nói, không phải những chiếc hộp tách rời. Còn bài thi chỉ có một đáp án: đi qua ba bước với cả câu, không dựa vào một chữ đơn lẻ.", "show": "rule"},
+        {"say": "Cả ba đều đúng, mỗi câu nhấn một ý."},
+        {"say": "Nếu là bài thi, câu có sẵn cụm mười phút, thì đáp án chỉ có một: dạng hoàn thành tiếp diễn, vì câu nhấn thời lượng."},
+        {"say": "Ngữ pháp là công cụ cho điều bạn muốn nói, không phải những chiếc hộp tách rời. Tuần đầu, bạn đã thấy một câu vừa khít với nhiều chiếc hộp của sách.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Lỗi thường gặp", "title": "Bốn lỗi khi trộn tám thì",
-     "data": {"rows": TRAPS, "rule": "Một câu kể, một mốc nhìn. Có mốc đã qua: quá khứ đơn. know: dạng đơn."}, "lines": [
+     "data": {"rows": TRAPS, "rule": "Một câu kể, một mốc nhìn. Sự kiện đã khép lại và vế The last time: quá khứ đơn. know: dạng đơn."}, "lines": [
         {"say": "Bốn lỗi hay gặp khi trộn tám thì. Lỗi một: mốc là quá khứ nhưng vế sau vẫn dùng have.", "show": "e1"},
         {"en": "When I got home, my brother had eaten all the pizza.", "vi": "Khi tôi về đến nhà, em tôi đã ăn hết chỗ pizza.", "gap": True},
-        {"say": "Lỗi hai: vế đầu đã lùi về quá khứ, vế sau thì chưa.", "show": "e2"},
-        {"en": "I was tired because I had been running.", "vi": "Lúc đó tôi mệt vì vừa chạy.", "gap": True, "recap": False},
-        {"say": "Lỗi ba: hiện tại hoàn thành đi với một mốc đã qua.", "show": "e3"},
-        {"en": "Yesterday I saw her.", "vi": "Hôm qua tôi gặp cô ấy.", "gap": True},
+        {"say": "Lỗi hai: dịch chữ đang thành thì tiếp diễn, dù đó là một sự kiện đã khép lại.", "show": "e2"},
+        {"en": "In 2000, the company opened its first factory.", "vi": "Năm 2000, công ty mở nhà máy đầu tiên.", "gap": True},
+        {"say": "Lỗi ba: thêm had vào câu the last time.", "show": "e3"},
+        {"en": "The last time I saw Tom, he looked tired.", "vi": "Lần cuối tôi gặp Tom, trông anh ấy mệt.", "gap": True},
         {"say": "Lỗi bốn: động từ trạng thái ở dạng tiếp diễn.", "show": "e4"},
         {"en": "I had known Lan for ten years when we started the company.", "vi": "Lúc chúng tôi mở công ty, tôi đã quen Lan được mười năm.", "gap": True, "recap": False},
-        {"say": "Một câu kể, một mốc nhìn. Có mốc đã qua thì dùng quá khứ đơn. Động từ trạng thái như know giữ dạng đơn.", "show": "rule"},
+        {"say": "Một câu kể, một mốc nhìn. Sự kiện đã khép lại và vế the last time dùng quá khứ đơn. Động từ trạng thái như know giữ dạng đơn.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "account", "lines": [{"say": "Trước khi kể chuyện, học năm danh từ của đời sống số. Từ thứ nhất: tài khoản."}]},
     {"kind": "word", "headword": "password", "lines": [{"say": "Từ thứ hai: mật khẩu. Chữ vê kép ở giữa không đọc."}]},
@@ -213,7 +224,7 @@ SITTING_2 = [
         {"say": "Bốn câu, bốn thì quá khứ, mỗi thì một vai. Hãy viết lại câu chuyện này bằng một chuyện của chính bạn.", "show": "rule"},
     ]},
     {"kind": "recap", "lines": [
-        {"say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
+        {"say": "Phân vân mà không thấy tạm thời, không thấy trước sau: chọn quá khứ đơn. Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
     ]},
     {"kind": "end", "next": "Tiếp theo: học thẻ và từ, làm bài, rồi buổi 3 và bài luyện theo sách.", "lines": [
         {"say": "Hết phần giảng của ngày bốn, cũng là hết phần ngữ pháp của tuần. Bạn học các thẻ và từ trong app, làm bài, rồi sang buổi ba. Cuối ngày có tám câu luyện theo sách, mỗi câu chọn một trong bốn dạng quá khứ.", "show": "title"},

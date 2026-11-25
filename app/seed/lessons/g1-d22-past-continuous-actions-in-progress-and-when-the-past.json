@@ -381,11 +381,17 @@
    "lecture": [
     {
      "kind": "title",
-     "hook": "Tám giờ tối qua bạn đang làm gì?",
+     "hook": "Hai câu cùng đúng: khác nhau ở đâu?",
      "lines": [
       {
-       "say": "Một người bạn hỏi: tám giờ tối qua bạn đang làm gì? Bạn trả lời bằng thì nào, và câu đó khác gì một câu quá khứ đơn?",
+       "say": "Hôm qua lúc bảy giờ bạn đi đá bóng. Có hai câu kể, cả hai đều đúng. Chúng khác nhau ở đâu?",
        "show": "hook"
+      },
+      {
+       "en": "Yesterday I played football at seven."
+      },
+      {
+       "en": "Yesterday I was playing football at seven."
       },
       {
        "say": "Hôm qua, quá khứ đơn là một điểm trên trục thời gian. Hôm nay ta phóng to vào bên trong điểm đó. Buổi này học công thức của thì quá khứ tiếp diễn, sự khác nhau giữa một điểm và một khoảng, rồi hai việc xảy ra cùng lúc."
@@ -509,8 +515,11 @@
        "show": "short"
       },
       {
-       "say": "Cách viết đuôi ing: phần lớn động từ chỉ cần thêm vào, như downloading. Động từ có chữ e ở cuối thì bỏ e: charge thành charging. Từ một âm tiết tận cùng bằng một nguyên âm và một phụ âm, như stop, thì gấp đôi phụ âm cuối: stopping. Work hay rain thì không. Lie thành lying.",
+       "say": "Cách viết đuôi ing: phần lớn động từ chỉ cần thêm vào, như downloading. Charge bỏ nguyên âm câm ở cuối: charging.",
        "show": "spelling"
+      },
+      {
+       "say": "Từ một âm tiết tận cùng bằng một nguyên âm và một phụ âm, như stop, thì gấp đôi phụ âm cuối: stopping. Work hay rain thì không. Lie thành lying."
       },
       {
        "say": "Lỗi hay gặp nhất là bỏ mất was. Câu sau thiếu động từ chính."
@@ -555,7 +564,7 @@
      },
      "lines": [
       {
-       "say": "Hôm qua lúc bảy giờ, bạn đi đá bóng. Có hai cách kể, và cả hai đều đúng.",
+       "say": "Quay lại hai câu đầu buổi.",
        "show": "q"
       },
       {
@@ -590,7 +599,10 @@
        "recap": false
       },
       {
-       "say": "Kể cả khi người nói nhớ nhầm hay nói dối về giờ giấc, câu vẫn chia như vậy, vì ngữ pháp theo điều người nói trình bày. Quá khứ đơn là một điểm, việc đã xảy ra. Quá khứ tiếp diễn là một khoảng tạm thời đang diễn ra quanh mốc đó.",
+       "say": "Kể cả khi người nói nhớ nhầm hay nói dối về giờ giấc, câu vẫn chia như vậy, vì ngữ pháp theo điều người nói trình bày."
+      },
+      {
+       "say": "Quá khứ đơn là một điểm, việc đã xảy ra. Quá khứ tiếp diễn là một khoảng tạm thời đang diễn ra quanh mốc đó.",
        "show": "rule"
       }
      ]
@@ -646,6 +658,14 @@
        "gap": true
       },
       {
+       "say": "So sánh với việc chuyển nhà: chuyển là một điểm, nên dùng quá khứ đơn."
+      },
+      {
+       "en": "He moved to Hanoi in 2020.",
+       "vi": "Năm 2020 anh ấy chuyển ra Hà Nội.",
+       "gap": true
+      },
+      {
        "say": "Kiểu ba: kéo dài suốt một quãng, như cả buổi sáng.",
        "show": "p3"
       },
@@ -655,7 +675,15 @@
        "gap": true
       },
       {
-       "say": "Một lưu ý cho người Việt: đừng thấy chữ đang trong câu tiếng Việt là chọn thì tiếp diễn. Một sự kiện được kể trọn vẹn, như kết quả một trận đấu hay một kỳ thi đã xong, vẫn kể bằng quá khứ đơn. Quá khứ tiếp diễn nhìn từ bên trong một khoảng tạm thời.",
+       "say": "Bẫy của người Việt: thấy chữ đang trong câu tiếng Việt là chọn thì tiếp diễn, dù việc được kể trọn vẹn. Kết quả trận đấu vẫn kể bằng quá khứ đơn."
+      },
+      {
+       "en": "We won the match.",
+       "vi": "Đội tôi đã thắng trận.",
+       "gap": true
+      },
+      {
+       "say": "Quá khứ tiếp diễn nhìn từ bên trong một khoảng tạm thời.",
        "show": "rule"
       }
      ]
@@ -679,14 +707,6 @@
         "vi": "Việc dài đang diễn ra, việc ngắn chen vào."
        },
        {
-        "key": "c2",
-        "icon": "crash",
-        "at": "cut",
-        "tense": "when · bị cắt ngang",
-        "en": "I was downloading a file when my laptop crashed.",
-        "vi": "Đang tải tệp thì máy sập."
-       },
-       {
         "key": "c3",
         "icon": "ball",
         "at": "pair",
@@ -703,7 +723,7 @@
         "vi": "Chỉ kể hai việc; không rõ có cùng lúc không."
        }
       ],
-      "rule": "Việc ngắn cắt ngang: when + quá khứ đơn. Hai việc song song: while + quá khứ tiếp diễn."
+      "rule": "Việc ngắn chen vào: việc dài tiếp diễn, việc ngắn quá khứ đơn. Hai việc cùng lúc: cả hai tiếp diễn."
      },
      "lines": [
       {
@@ -724,13 +744,23 @@
        "gap": true
       },
       {
-       "say": "Cùng khuôn đó với chuyện công nghệ: đang tải tệp thì máy sập.",
-       "show": "c2"
+       "say": "Cùng khuôn đó với chuyện công nghệ: đang tải tệp thì máy sập."
       },
       {
        "en": "I was downloading a file when my laptop crashed.",
        "vi": "Tôi đang tải một tệp thì laptop bị sập.",
        "gap": true
+      },
+      {
+       "say": "Giờ hãy nhắm mắt lại. Bạn đứng trên vỉa hè, một chiếc xe buýt vụt qua trong vài giây, và bạn thấy bạn mình ngồi bên cửa sổ. Hôm sau bạn hỏi:"
+      },
+      {
+       "en": "Where were you going when I saw you on the bus last night?",
+       "vi": "Tối qua lúc tôi thấy bạn trên xe buýt, bạn đang đi đâu vậy?",
+       "gap": true
+      },
+      {
+       "say": "Chuyến đi đang diễn ra; cái nhìn của bạn chỉ là một khoảnh khắc chen vào."
       },
       {
        "say": "Trường hợp hai: hai việc diễn ra cùng một lúc. Cả hai vế chia tiếp diễn, nối bằng while.",
@@ -752,7 +782,10 @@
        "recap": false
       },
       {
-       "say": "While thường đi với thì tiếp diễn; when đi được với cả hai thì. Việc ngắn cắt ngang: when cộng quá khứ đơn. Hai việc song song: while cộng quá khứ tiếp diễn.",
+       "say": "While đứng trước việc đang diễn ra; when đi được với cả hai thì."
+      },
+      {
+       "say": "Việc ngắn chen vào: việc dài tiếp diễn, việc ngắn quá khứ đơn. Hai việc cùng lúc: cả hai tiếp diễn.",
        "show": "rule"
       }
      ]
@@ -806,7 +839,7 @@
      "kind": "recap",
      "lines": [
       {
-       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "say": "Một điểm hay một khoảng. Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
        "show": "title"
       }
      ]
@@ -866,31 +899,35 @@
     },
     {
      "kind": "scene",
-     "visual": "ref_table",
+     "visual": "picture_cards",
      "eyebrow": "Khi nào không dùng",
      "title": "Bốn trường hợp dùng quá khứ đơn",
      "data": {
       "rows": [
        {
         "key": "n1",
+        "icon": "calendar",
         "head": "Việc lặp lại",
         "en": "Last summer I went swimming almost every day.",
-        "vi": "Lặp lại nhiều lần: không còn là một khoảng tạm thời."
+        "vi": "Kể việc lặp lại: quá khứ đơn; trừ lời than phiền có always."
        },
        {
         "key": "n2",
+        "icon": "key",
         "head": "Động từ trạng thái",
         "en": "I didn't know the password.",
         "vi": "know, own, need, believe: hầu như không dùng tiếp diễn."
        },
        {
         "key": "n3",
+        "icon": "car",
         "head": "Việc chớp nhoáng",
         "en": "A car came round the corner and I jumped out of the way.",
         "vi": "Xảy ra trong tích tắc."
        },
        {
         "key": "n4",
+        "icon": "battery",
         "head": "Việc nối tiếp",
         "en": "I charged my phone as soon as I got home.",
         "vi": "Việc này xong mới tới việc kia."
@@ -923,7 +960,7 @@
        "gap": true
       },
       {
-       "say": "Trường hợp ba: việc chớp nhoáng. Không ai nhấn khoảng nửa giây đang nhảy.",
+       "say": "Trường hợp ba: việc chớp nhoáng. Có bạn từng chọn thì tiếp diễn vì muốn tả nửa giây lơ lửng khi né xe. Nhưng không ai nhấn khoảng nửa giây ấy.",
        "show": "n3"
       },
       {
@@ -941,45 +978,55 @@
        "gap": true
       },
       {
-       "say": "Lặp lại, trạng thái, chớp nhoáng, nối tiếp: dùng quá khứ đơn. Và khi phân vân mà không thấy tính tạm thời, hãy chọn quá khứ đơn.",
+       "say": "Và một quy tắc để dùng mỗi khi phân vân: không thấy tính tạm thời, không cần nhấn việc nào xảy ra trước, thì cứ chọn quá khứ đơn, khả năng đúng cao nhất."
+      },
+      {
+       "say": "Lặp lại, trạng thái, chớp nhoáng, nối tiếp: dùng quá khứ đơn.",
        "show": "rule"
       }
      ]
     },
     {
      "kind": "scene",
-     "visual": "picture_cards",
+     "visual": "story_strip",
      "eyebrow": "Hai cách dùng nữa",
      "title": "Than phiền và dựng cảnh",
      "data": {
-      "rows": [
+      "frame": "strip",
+      "panels": [
        {
         "key": "h1",
         "icon": "angry",
-        "head": "Than phiền · was always + V-ing",
+        "label": "Than phiền",
+        "kind": "before",
         "en": "When we shared a room, Zoe was always taking my things.",
-        "vi": "Một thói quen gây bực mình trong quá khứ."
+        "vi": "was always + V-ing"
        },
        {
         "key": "h2",
         "icon": "rain",
-        "head": "Cảnh nền · quá khứ tiếp diễn",
+        "label": "Cảnh nền",
+        "kind": "bg",
         "en": "It was raining and everyone was hurrying home.",
-        "vi": "Bức tranh đang diễn ra khi câu chuyện bắt đầu."
+        "vi": "quá khứ tiếp diễn"
        },
        {
         "key": "h3",
         "icon": "bulb_off",
-        "head": "Việc chính · quá khứ đơn",
+        "label": "Việc chính",
+        "kind": "event",
         "en": "Then the lights went out.",
-        "vi": "Việc xảy ra, đẩy câu chuyện đi tiếp."
+        "vi": "quá khứ đơn"
        }
       ],
       "rule": "was always + V-ing: than phiền. Thì tiếp diễn dựng cảnh nền; quá khứ đơn kể việc chính."
      },
      "lines": [
       {
-       "say": "Cách dùng thứ nhất: than phiền về một thói quen gây bực mình trong quá khứ. Công thức là was hoặc were, rồi always, rồi động từ thêm đuôi ing.",
+       "say": "Khoan đã: vừa nói việc lặp lại dùng quá khứ đơn, vậy sao có lúc việc lặp lại lại chia tiếp diễn? Vì đó là lời than phiền, có always và có sự bực mình."
+      },
+      {
+       "say": "Cách dùng thứ nhất: than phiền về một thói quen gây bực mình trong quá khứ. Giống lời than phiền ở hiện tại tiếp diễn, chỉ đổi is, are thành was, were.",
        "show": "h1"
       },
       {
@@ -1074,6 +1121,14 @@
       {
        "en": "Yes, we were hanging out at a convenience store at around 7 p.m.",
        "vi": "Có, khoảng bảy giờ tối chúng tôi đang ở một cửa hàng tiện lợi.",
+       "gap": true
+      },
+      {
+       "say": "Người kể còn trộn hai thì trong một đoạn. Đá bóng chỉ một lúc: tiếp diễn. Các việc nối tiếp: quá khứ đơn."
+      },
+      {
+       "en": "I was playing football for a while, then I got bored, so I stopped and watched TV instead.",
+       "vi": "Tôi đá bóng một lúc, rồi chán, nên dừng lại và xem TV.",
        "gap": true
       },
       {
@@ -1201,7 +1256,11 @@
      "headword": "software",
      "lines": [
       {
-       "say": "Từ thứ tư. Đây là danh từ không đếm được, nên không đi với a."
+       "say": "Từ thứ tư, một danh từ không đếm được. Muốn đếm thì nói thế này."
+      },
+      {
+       "en": "a piece of software",
+       "recap": false
       }
      ]
     },
@@ -1228,8 +1287,8 @@
         "key": "q1",
         "role": "Dựng cảnh",
         "tense": "Quá khứ tiếp diễn",
-        "en": "Last month I was writing an important essay on my laptop.",
-        "vi": "Tháng trước tôi đang viết một bài luận quan trọng trên laptop."
+        "en": "One evening last month, I was writing an important essay on my laptop.",
+        "vi": "Một tối tháng trước, tôi đang viết một bài luận quan trọng trên laptop."
        },
        {
         "key": "q2",
@@ -1271,8 +1330,8 @@
        "say": "Câu một: dựng cảnh bằng thì tiếp diễn. Lúc đó bạn đang làm gì?"
       },
       {
-       "en": "Last month I was writing an important essay on my laptop.",
-       "vi": "Tháng trước tôi đang viết một bài luận quan trọng trên laptop.",
+       "en": "One evening last month, I was writing an important essay on my laptop.",
+       "vi": "Một tối tháng trước, tôi đang viết một bài luận quan trọng trên laptop.",
        "gap": true,
        "show": "q1"
       },
@@ -1313,7 +1372,7 @@
      "kind": "recap",
      "lines": [
       {
-       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "say": "Phân vân thì chọn quá khứ đơn. Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
        "show": "title"
       }
      ]
