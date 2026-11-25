@@ -479,3 +479,29 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
 - Đã triển khai: api và worker (seed g1-d21..24 = updated), site (CSP khớp, cả IELTS và Korean đều trả 200).
 - Audio: chỉ được thu khi học viên bấm phát lần đầu (mỗi buổi một bản). Tuần 2 chưa có bản nào nên chưa nghe kiểm tra được. Thu trước sẽ tốn TTS.
 - Tiếp theo: Tuần 2 Ngày 5 (từ vựng C1 Unit 4).
+
+## Tuần 2 · Ngày 5 — Thay đổi và công nghệ (g1-d25), đã soát và deploy
+
+- Nguồn: `scripts/g1/day25.py` (danh sách từ, 5 buổi; bài A–D kèm đáp án sách, trang 284), bài giảng `scripts/g1/lecture_w2d5.py` (5 bài giảng viết tay, PRON Oxford BrE, NOTES), kiểm thử `tests/test_lesson_w2d5_quality.py`. Dựng bằng `vocab_day()`: build day 25, `VOCAB_W2 = {25: W2D5}` trong `build.py`, `DAYS[25]` trong `days56.py`, SECTIONS nối vào `book_items.py`. sort_order 125.
+- 30 từ cốt lõi theo bộ lọc Buổi 4, chia 5 buổi:
+  - kéo dài, giữ: endure, last, maintain, remain, sustain, persist;
+  - thay đổi: shift, modify, transform, reform, adjust, distort;
+  - đi lên, đi xuống, thay thế: evolve, progress, mature, deteriorate, decay, substitute, switch;
+  - xã hội: uniform, conservative, radical, dynamic, novel, influence, innovation, potential;
+  - công nghệ: primitive, technique, resource.
+  - Thêm 5 từ chỉ cần nhận ra (priority recognize): breakthrough, network, data, console, craft.
+- Sau 5 buổi giảng là các buổi: Tiếp nhận (B + D, 22 câu chọn), Vận dụng (Câu của tôi), Rèn luyện (A 10 câu gõ, C 15 câu gõ). Sách in bài C 15 câu, đáp án liệt kê 16 từ.
+- Cảnh trong bài giảng: picture_cards, fix_pairs, ref_table, story_strip (nước Anh sau chiến tranh). 19 hình từ mới trong `StoryArtWords.tsx` (oak, calm_face, shift_arrow, butterfly, slider, warp_mirror, evolve_steps, sprout_tree, cloud_down, leaf_decay, sub_board, same_houses, anchor, root, seed, stone_tool, drop, gamepad, chisel).
+- Soát cấp cao, đã sửa:
+  - Câu B2 và B6 lộ đáp án của câu 3 và 7.
+  - Lời giải B12, C1 (It's time + V-ed học ở Tuần 10), C9 (đọc cả hai cách), C10 (tiếng Anh Mỹ có an alternate route), A2, A7, B11, C5, C7.
+  - endure + tân ngữ là nghĩa "chịu đựng".
+  - Câu "Sau a real" trong lời giảng.
+  - slug bỏ "C1 and C2".
+- Sửa kèm: tiêu đề bài "Câu của tôi" của các ngày từ vựng dùng số ngày người học thấy (trước ghi "Ngày 7" cho Tuần 1 Ngày 5; các bài Bổ trợ ghi "Bổ trợ").
+- Kiểm tra:
+  - Bản xem trước 390 px: 55 slide, đều cao 640 px, không slide nào tràn.
+  - Bộ test đầy đủ có 31 lỗi, giống hệt bản trước thay đổi (test_dictation, test_progress, test_feathers, test_mistake_book, test_lesson_sessions…), không có lỗi mới.
+  - Test của ngày: 80 passed.
+- Audio chưa thu (thu khi học viên bấm phát lần đầu).
+- Tiếp theo: Tuần 2 Ngày 6 — đọc chậm The steam car (Cam 18 Test 3 Passage 2).
