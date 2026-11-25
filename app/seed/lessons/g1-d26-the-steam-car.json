@@ -445,13 +445,13 @@
        }
       ],
       "chain": [
-       "steam in railways",
-       "steam car",
-       "weaknesses + strengths",
-       "quick transport"
+       "railway steam",
+       "car",
+       "weak + strong",
+       "fast"
       ],
-      "main": "Xe hơi nước đời đầu thừa hưởng cả điểm mạnh lẫn điểm yếu của công nghệ hơi nước.",
-      "value": "Mở đầu câu chuyện: công nghệ đến từ đâu, mạnh yếu ra sao."
+      "main": "Xe hơi nước thừa hưởng cả mạnh lẫn yếu của hơi nước.",
+      "value": "Mở đầu: công nghệ đến từ đâu, mạnh yếu ra sao."
      },
      "lines": [
       {
@@ -503,25 +503,25 @@
         "key": "j1",
         "head": "boilers",
         "en": "had to be lit by hand",
-        "vi": "Nồi hơi: câu sau đã giải thích, phải nhóm lửa và chờ lên áp suất."
+        "vi": "Nồi hơi: câu sau đã giải thích."
        },
        {
         "key": "j2",
         "head": "hand-crank starters",
         "en": "known to break arms",
-        "vi": "Tay quay khởi động: đủ hiểu là khởi động rất khó, có khi gãy tay."
+        "vi": "Tay quay khởi động: rất khó dùng."
        },
        {
         "key": "j3",
         "head": "pistons",
         "en": "steam drove the engine pistons",
-        "vi": "Pít-tông: bỏ qua vẫn hiểu là hơi nước làm máy chạy."
+        "vi": "Pít-tông: bỏ qua vẫn hiểu câu."
        },
        {
         "key": "j4",
         "head": "kerosene",
         "en": "fifteen miles per gallon of kerosene",
-        "vi": "Dầu hỏa: biết là một loại nhiên liệu là đủ."
+        "vi": "Dầu hỏa: một loại nhiên liệu."
        }
       ],
       "rule": "Gặp từ chuyên ngành, đọc tiếp câu sau; người viết thường giải thích. Không có thì hiểu nó thuộc loại gì rồi đi tiếp."
@@ -942,19 +942,19 @@
        {
         "key": "d2",
         "head": "evolve into",
-        "en": "the technology evolved into a miniaturized version",
+        "en": "evolved into a miniaturized version",
         "vi": "công nghệ phát triển thành một phiên bản thu nhỏ"
        },
        {
         "key": "d3",
         "head": "last",
-        "en": "their water reservoirs only lasted for about thirty miles",
+        "en": "only lasted for about thirty miles",
         "vi": "bình nước chỉ đủ cho khoảng ba mươi dặm"
        },
        {
         "key": "d4",
         "head": "innovation",
-        "en": "expand upon the innovations of the Model B",
+        "en": "expand upon the innovations",
         "vi": "mở rộng các cải tiến của mẫu trước"
        },
        {
@@ -1315,19 +1315,19 @@
         "key": "i1",
         "head": "Tên gọi chèn giữa",
         "en": "the Doble boys' third prototype, nicknamed the Model B,",
-        "vi": "Đầy đủ: which was nicknamed. Phần giữa hai dấu phẩy chỉ là tên của mẫu thứ ba."
+        "vi": "Chỉ là tên của mẫu thứ ba."
        },
        {
         "key": "i2",
         "head": "Chèn giữa câu",
         "en": "The new engine design, though innovative, was still plagued with serious glitches.",
-        "vi": "Bỏ tạm phần chèn: thiết kế mới vẫn đầy lỗi."
+        "vi": "Khung câu: thiết kế mới vẫn đầy lỗi."
        },
        {
         "key": "i3",
         "head": "Cụm giải thích",
         "en": "a feat described as 'remarkable acceleration'",
-        "vi": "Đầy đủ: which was described as. Một kỳ công được gọi là khả năng tăng tốc đáng nể."
+        "vi": "= which was described as …"
        }
       ],
       "rule": "Bỏ tạm phần giữa hai dấu phẩy, nối chủ ngữ chính với động từ chính; hiểu khung rồi mới đọc phần chèn."
@@ -1422,10 +1422,10 @@
        {
         "key": "p1",
         "icon": "kettle",
-        "label": "Trước những năm 1800",
+        "label": "Trước đó",
         "kind": "bg",
-        "en": "Steam had already enjoyed a long and successful career in the railways.",
-        "vi": "Quá khứ hoàn thành: xảy ra trước mốc của câu chuyện."
+        "en": "Steam had already enjoyed a long career in the railways.",
+        "vi": "Xảy ra trước mốc: quá khứ hoàn thành."
        },
        {
         "key": "p2",
@@ -1433,31 +1433,23 @@
         "label": "1906–1914",
         "kind": "chain",
         "en": "Even as the market was declining, four brothers made one last effort.",
-        "vi": "Quá khứ tiếp diễn: bối cảnh đang diễn ra."
+        "vi": "Bối cảnh: quá khứ tiếp diễn."
        },
        {
         "key": "p3",
-        "icon": "coin",
-        "label": "Trước năm 1918",
-        "kind": "event",
-        "en": "The company had received 5,390 deposits.",
-        "vi": "Quá khứ hoàn thành: tính tới một mốc đã qua."
-       },
-       {
-        "key": "p4",
         "icon": "fail_x",
         "label": "1931",
         "kind": "event",
         "en": "Fewer than fifty cars had been produced.",
-        "vi": "Bị động: tổng số tới lúc công ty đóng cửa."
+        "vi": "Tính tới một mốc, bị động."
        },
        {
-        "key": "p5",
+        "key": "p4",
         "icon": "car",
         "label": "Hôm nay",
         "kind": "chain",
-        "en": "Many of the cars which have survived are still in good working condition.",
-        "vi": "Hiện tại hoàn thành, hiện tại đơn: về tới bây giờ."
+        "en": "Many of the cars which have survived still run well.",
+        "vi": "Về tới bây giờ."
        }
       ],
       "rule": "Việc xảy ra trước mốc kể chuyện: quá khứ hoàn thành. Đoạn cuối về tới hôm nay: hiện tại hoàn thành và hiện tại đơn."
@@ -1472,16 +1464,12 @@
        "show": "p2"
       },
       {
-       "say": "Tính tới tháng Tư năm đó, công ty đã nhận được hơn năm nghìn khoản đặt cọc: quá khứ hoàn thành, tính tới một mốc đã qua.",
+       "say": "Tới lúc công ty đóng cửa năm 1931, chưa tới năm mươi chiếc đã được sản xuất: quá khứ hoàn thành, tính tới một mốc đã qua, ở dạng bị động. Khoản đặt cọc ở đoạn thứ tư cũng vậy: tính tới tháng Tư năm đó, công ty đã nhận hơn năm nghìn khoản.",
        "show": "p3"
       },
       {
-       "say": "Tới lúc công ty đóng cửa năm 1931, chưa tới năm mươi chiếc đã được sản xuất: quá khứ hoàn thành ở dạng bị động.",
-       "show": "p4"
-      },
-      {
        "say": "Đoạn cuối về tới hôm nay: nhiều chiếc còn tồn tại và vẫn chạy tốt.",
-       "show": "p5"
+       "show": "p4"
       },
       {
        "say": "Việc xảy ra trước mốc kể chuyện dùng quá khứ hoàn thành. Khi câu chuyện về tới bây giờ, người viết chuyển sang hiện tại hoàn thành và hiện tại đơn.",

@@ -105,10 +105,10 @@ TITLE_ROWS = [
     {"key": "t2", "head": "Phụ đề", "en": "successes and failures · the Doble brothers", "vi": "Bài kể cả thành công lẫn thất bại của bốn anh em."},
 ]
 JARGON = [
-    {"key": "j1", "head": "boilers", "en": "had to be lit by hand", "vi": "Nồi hơi: câu sau đã giải thích, phải nhóm lửa và chờ lên áp suất."},
-    {"key": "j2", "head": "hand-crank starters", "en": "known to break arms", "vi": "Tay quay khởi động: đủ hiểu là khởi động rất khó, có khi gãy tay."},
-    {"key": "j3", "head": "pistons", "en": "steam drove the engine pistons", "vi": "Pít-tông: bỏ qua vẫn hiểu là hơi nước làm máy chạy."},
-    {"key": "j4", "head": "kerosene", "en": "fifteen miles per gallon of kerosene", "vi": "Dầu hỏa: biết là một loại nhiên liệu là đủ."},
+    {"key": "j1", "head": "boilers", "en": "had to be lit by hand", "vi": "Nồi hơi: câu sau đã giải thích."},
+    {"key": "j2", "head": "hand-crank starters", "en": "known to break arms", "vi": "Tay quay khởi động: rất khó dùng."},
+    {"key": "j3", "head": "pistons", "en": "steam drove the engine pistons", "vi": "Pít-tông: bỏ qua vẫn hiểu câu."},
+    {"key": "j4", "head": "kerosene", "en": "fifteen miles per gallon of kerosene", "vi": "Dầu hỏa: một loại nhiên liệu."},
 ]
 SKIP = [
     {"key": "a1", "head": "Tính từ lạ", "en": "self-propelled carriages", "vi": "Giữ danh từ: những cỗ xe."},
@@ -144,9 +144,9 @@ READ_1 = [
         {"say": "Phụ đề cho biết bài kể cả thành công lẫn thất bại của bốn anh em nhà Doble. Vậy khi đọc, bạn đánh dấu chỗ nào là thành công, chỗ nào là thất bại.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "para_filter", "eyebrow": "Đoạn A · đoạn thứ nhất", "title": "Hơi nước đi từ tàu hỏa sang ô tô",
-     "data": {"segs": segs(MARK["A"]), "chain": ["steam in railways", "steam car", "weaknesses + strengths", "quick transport"],
-              "main": "Xe hơi nước đời đầu thừa hưởng cả điểm mạnh lẫn điểm yếu của công nghệ hơi nước.",
-              "value": "Mở đầu câu chuyện: công nghệ đến từ đâu, mạnh yếu ra sao."}, "lines": [
+     "data": {"segs": segs(MARK["A"]), "chain": ["railway steam", "car", "weak + strong", "fast"],
+              "main": "Xe hơi nước thừa hưởng cả mạnh lẫn yếu của hơi nước.",
+              "value": "Mở đầu: công nghệ đến từ đâu, mạnh yếu ra sao."}, "lines": [
         {"say": "Đoạn thứ nhất. Tô vàng từ khóa: xe đời đầu, chạy bằng hơi nước, vốn thành công ở đường sắt, rồi được thu nhỏ thành ô tô.", "show": "keep"},
         {"say": "Để ý ba từ của ngày năm: primitive là sơ khai, evolve into là phát triển thành, và lasted là kéo dài, đủ dùng."},
         {"say": "Câu quan trọng nhất của đoạn là câu này."},
@@ -204,9 +204,9 @@ READ_1 = [
 
 FROM_DAY5 = [
     {"key": "d1", "head": "primitive", "en": "primitive automobiles", "vi": "ô tô sơ khai, đời đầu"},
-    {"key": "d2", "head": "evolve into", "en": "the technology evolved into a miniaturized version", "vi": "công nghệ phát triển thành một phiên bản thu nhỏ"},
-    {"key": "d3", "head": "last", "en": "their water reservoirs only lasted for about thirty miles", "vi": "bình nước chỉ đủ cho khoảng ba mươi dặm"},
-    {"key": "d4", "head": "innovation", "en": "expand upon the innovations of the Model B", "vi": "mở rộng các cải tiến của mẫu trước"},
+    {"key": "d2", "head": "evolve into", "en": "evolved into a miniaturized version", "vi": "công nghệ phát triển thành một phiên bản thu nhỏ"},
+    {"key": "d3", "head": "last", "en": "only lasted for about thirty miles", "vi": "bình nước chỉ đủ cho khoảng ba mươi dặm"},
+    {"key": "d4", "head": "innovation", "en": "expand upon the innovations", "vi": "mở rộng các cải tiến của mẫu trước"},
     {"key": "d5", "head": "remain", "en": "Abner Doble remained adamant", "vi": "ông vẫn một mực tin như vậy"},
 ]
 FAMILY = [
@@ -322,9 +322,9 @@ BOOK_MODEL = [
      "vi": "parts (which were) taken … but (which were) reconfigured …"},
 ]
 INSERTS = [
-    {"key": "i1", "head": "Tên gọi chèn giữa", "en": "the Doble boys' third prototype, nicknamed the Model B,", "vi": "Đầy đủ: which was nicknamed. Phần giữa hai dấu phẩy chỉ là tên của mẫu thứ ba."},
-    {"key": "i2", "head": "Chèn giữa câu", "en": "The new engine design, though innovative, was still plagued with serious glitches.", "vi": "Bỏ tạm phần chèn: thiết kế mới vẫn đầy lỗi."},
-    {"key": "i3", "head": "Cụm giải thích", "en": "a feat described as 'remarkable acceleration'", "vi": "Đầy đủ: which was described as. Một kỳ công được gọi là khả năng tăng tốc đáng nể."},
+    {"key": "i1", "head": "Tên gọi chèn giữa", "en": "the Doble boys' third prototype, nicknamed the Model B,", "vi": "Chỉ là tên của mẫu thứ ba."},
+    {"key": "i2", "head": "Chèn giữa câu", "en": "The new engine design, though innovative, was still plagued with serious glitches.", "vi": "Khung câu: thiết kế mới vẫn đầy lỗi."},
+    {"key": "i3", "head": "Cụm giải thích", "en": "a feat described as 'remarkable acceleration'", "vi": "= which was described as …"},
 ]
 NOUNS = [
     {"key": "n1", "head": "ignition", "en": "a key-based ignition in the cabin", "vi": "bộ đánh lửa → khởi động bằng chìa khóa → đặt trong cabin"},
@@ -332,11 +332,10 @@ NOUNS = [
     {"key": "n3", "head": "powerplant", "en": "a virtually silent powerplant", "vi": "cụm động cơ → gần như không có tiếng động"},
 ]
 TIMELINE = [
-    {"key": "p1", "icon": "kettle", "label": "Trước những năm 1800", "kind": "bg", "en": "Steam had already enjoyed a long and successful career in the railways.", "vi": "Quá khứ hoàn thành: xảy ra trước mốc của câu chuyện."},
-    {"key": "p2", "icon": "prototype", "label": "1906–1914", "kind": "chain", "en": "Even as the market was declining, four brothers made one last effort.", "vi": "Quá khứ tiếp diễn: bối cảnh đang diễn ra."},
-    {"key": "p3", "icon": "coin", "label": "Trước năm 1918", "kind": "event", "en": "The company had received 5,390 deposits.", "vi": "Quá khứ hoàn thành: tính tới một mốc đã qua."},
-    {"key": "p4", "icon": "fail_x", "label": "1931", "kind": "event", "en": "Fewer than fifty cars had been produced.", "vi": "Bị động: tổng số tới lúc công ty đóng cửa."},
-    {"key": "p5", "icon": "car", "label": "Hôm nay", "kind": "chain", "en": "Many of the cars which have survived are still in good working condition.", "vi": "Hiện tại hoàn thành, hiện tại đơn: về tới bây giờ."},
+    {"key": "p1", "icon": "kettle", "label": "Trước đó", "kind": "bg", "en": "Steam had already enjoyed a long career in the railways.", "vi": "Xảy ra trước mốc: quá khứ hoàn thành."},
+    {"key": "p2", "icon": "prototype", "label": "1906–1914", "kind": "chain", "en": "Even as the market was declining, four brothers made one last effort.", "vi": "Bối cảnh: quá khứ tiếp diễn."},
+    {"key": "p3", "icon": "fail_x", "label": "1931", "kind": "event", "en": "Fewer than fifty cars had been produced.", "vi": "Tính tới một mốc, bị động."},
+    {"key": "p4", "icon": "car", "label": "Hôm nay", "kind": "chain", "en": "Many of the cars which have survived still run well.", "vi": "Về tới bây giờ."},
 ]
 POINT_BACK = [
     {"key": "b1", "head": "Đoạn A", "en": "Despite such shortcomings", "vi": "= những điểm yếu vừa kể ở các câu trước"},
@@ -393,9 +392,8 @@ READ_2 = [
      "data": {"frame": "strip", "panels": TIMELINE, "rule": "Việc xảy ra trước mốc kể chuyện: quá khứ hoàn thành. Đoạn cuối về tới hôm nay: hiện tại hoàn thành và hiện tại đơn."}, "lines": [
         {"say": "Bài này là một câu chuyện theo thời gian, nên các thì quá khứ của tuần này xuất hiện liền một mạch. Mốc đầu: những năm 1800, khi ô tô đời đầu xuất hiện. Việc hơi nước thành công ở đường sắt xảy ra trước mốc đó, nên dùng quá khứ hoàn thành.", "show": "p1"},
         {"say": "Thị trường đang đi xuống thì bốn anh em ra tay: quá khứ tiếp diễn cho bối cảnh đang diễn ra, quá khứ đơn cho việc chính.", "show": "p2"},
-        {"say": "Tính tới tháng Tư năm đó, công ty đã nhận được hơn năm nghìn khoản đặt cọc: quá khứ hoàn thành, tính tới một mốc đã qua.", "show": "p3"},
-        {"say": "Tới lúc công ty đóng cửa năm 1931, chưa tới năm mươi chiếc đã được sản xuất: quá khứ hoàn thành ở dạng bị động.", "show": "p4"},
-        {"say": "Đoạn cuối về tới hôm nay: nhiều chiếc còn tồn tại và vẫn chạy tốt.", "show": "p5"},
+        {"say": "Tới lúc công ty đóng cửa năm 1931, chưa tới năm mươi chiếc đã được sản xuất: quá khứ hoàn thành, tính tới một mốc đã qua, ở dạng bị động. Khoản đặt cọc ở đoạn thứ tư cũng vậy: tính tới tháng Tư năm đó, công ty đã nhận hơn năm nghìn khoản.", "show": "p3"},
+        {"say": "Đoạn cuối về tới hôm nay: nhiều chiếc còn tồn tại và vẫn chạy tốt.", "show": "p4"},
         {"say": "Việc xảy ra trước mốc kể chuyện dùng quá khứ hoàn thành. Khi câu chuyện về tới bây giờ, người viết chuyển sang hiện tại hoàn thành và hiện tại đơn.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Mạch thông tin", "title": "Những cụm chỉ ngược về trước",
