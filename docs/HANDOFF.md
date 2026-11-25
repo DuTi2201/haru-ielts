@@ -557,3 +557,60 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
   - Bộ test đầy đủ vẫn đúng 31 lỗi cũ; test của Tuần 2 đều đạt.
   - Bản xem trước 85 slide không tràn. Hai slide Speaking (3-2, 4-2) vẫn hơi cao như trước.
   - Đã cập nhật api/worker: g1-d21..24 = updated.
+
+## Tuần 2 · Ngày 6 — Đọc chậm The steam car (g1-d26), đã soát và deploy
+
+- Nguồn:
+  - `scripts/g1/day26.py`: bài đọc (PARAS A–G, lấy từ OCR trang 66–67 và đã đối chiếu ảnh), câu 14–23, tóm tắt 24–26 (SECTIONS W6S, gõ), từ vựng, hai bài "chuỗi từ khóa".
+  - `scripts/g1/lecture_w2d6.py`: bốn bài giảng viết tay, PRON Oxford BrE, NOTES, `reshape()` cho hai buổi từ, `finish()` sắp thứ tự buổi.
+  - `tests/test_lesson_w2d6_quality.py`: 31 test.
+- Cách dựng:
+  - Dựng bằng `vocab_day()`: build day 26, `VOCAB_W2[26] = W2D6`, `DAYS[26]` trong `days56.py`, SECTIONS nối vào `book_items.py`.
+  - `build.py` gọi `W2D6.finish(sessions, bank)`. Hàm này đổi khung và checklist của hai bài viết sang việc viết chuỗi từ khóa.
+  - sort_order 126; test seed lên 62 bài, Tuần 2 = 6.
+- Thứ tự buổi (hiểu trọn bài trước, câu hỏi để cuối):
+  1. Đọc chủ động: rà bài và tóm tắt đoạn A, B. Cuối buổi người học tự viết chuỗi cho C, D.
+  2. Buổi từ 1: inherit, shortcoming, phase out, rekindle, prototype, comprise, feat, accelerate. Có cảnh gặp lại từ Ngày 5 trong bài.
+  3. Buổi từ 2: investment, enhancement, deposit, glitch, viable, emission, fold, maintenance. Có cảnh họ từ động từ → danh từ.
+  4. Đọc chủ động: câu dài và mạch thông tin. Cuối buổi người học tự viết chuỗi cho E, G và một câu tóm cả bài.
+  5. Câu 14–20 (tiêu đề đoạn).
+  6. Câu 21–23 (trắc nghiệm).
+  7. Rèn luyện: câu 24–26 (gõ).
+- Phương pháp theo Buổi 4, chặng 4–6, dạy trên bài này:
+  - Tự rà bài 4 bước, đọc lại trong 7 phút.
+  - Tiêu đề và phụ đề.
+  - para_filter cho đoạn A, B, F: tô từ khóa, gạch chi tiết, chuỗi, ý chính, giá trị.
+  - Từ chuyên ngành (boilers, hand-crank starters, pistons, kerosene): gợi ý ngay trong câu hoặc phần ngay sau, kèm lời khuyên tra bằng hình ảnh.
+  - Lướt qua tính từ và trạng từ lạ.
+  - "Tiêu đề là bản tóm tắt tốt nhất của cả đoạn".
+  - Mệnh đề rút gọn, giải thích bằng câu Harry Potter.
+  - Gạt phần chèn sang một bên.
+  - Cụm danh từ đọc từ danh từ chính.
+  - Trục thời gian và các thì (story_strip, nối với Ngày 1–4; có bước quay ngược 1906 sau 1912).
+  - Những cụm chỉ ngược về trước.
+  - Nghĩa bóng.
+  - Ngữ pháp khó hay ngữ pháp hiệu quả.
+  - Làm câu hỏi bằng việc hiểu bài, chưa cần mẹo.
+- Câu hỏi:
+  - Đáp án theo sách (trang 124): 14 iii, 15 viii, 16 vi, 17 v, 18 vii, 19 i, 20 iv, 21 A, 22 C, 23 B, 24 speed, 25 fifty/50, 26 strict.
+  - Schema chỉ cho tối đa 5 lựa chọn, nên mỗi đoạn cho 5 trong 8 tiêu đề, giữ số La Mã của sách. Đoạn G không cho tiêu đề ii, vì câu "never a financial success" dễ đọc thành ii.
+  - Mọi lời giải đều tóm tắt đoạn trước rồi mới so tiêu đề.
+- Không thêm hình mới. Mười lăm từ dùng hình có sẵn qua WORD_PICTURE (prototype đã có hình "model").
+- Soát cấp cao: không có đáp án sai. Đã sửa:
+  - Lời giải câu 19, 22, 23, 24.
+  - Trên trục thời gian: "tháng Tư năm sau"; had received là chủ động.
+  - Gợi ý cho từ chuyên ngành nằm ngay trong câu, không phải câu sau.
+  - Ví dụ trạng từ đổi sang Astonishingly (manually mang ý chính).
+  - Ví dụ "ngữ pháp khó": dùng câu có chủ ngữ và động từ bị tách xa.
+  - prototype không phải "mẫu thử đầu tiên".
+  - Trích dẫn rút ngắn, và trích đúng nguyên văn.
+  - Quy tắc which + be chỉ dùng cho V3; với V-ing là which + động từ chia thì.
+  - Một số câu chữ khác.
+- Kiểm tra:
+  - Bản xem trước 390 px: 43 slide, không slide nào cao quá 700 px hay tràn ngang. Ba slide para_filter nhiều chữ vì chứa nguyên đoạn văn.
+  - Bộ test đầy đủ vẫn đúng 31 lỗi cũ.
+  - api/worker: g1-d26-the-steam-car=created.
+  - Đã deploy frontend; hai site đều trả về 200.
+  - CSP: make_site_caddy băm script stream sau khi đổi NUL thành U+FFFD, nên một script băm thẳng sẽ ra khác. Điều đó là đúng.
+- Audio chưa thu.
+- Tiếp theo: Tuần 2 Ngày 7 — nghe The Luddites (Cam 18 Test 3 Part 3, câu 21–30).
