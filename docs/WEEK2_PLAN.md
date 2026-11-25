@@ -105,7 +105,7 @@ Chính: 30 từ được lọc trên lớp, nhóm theo khái niệm
 - Cặp dễ nhầm và lỗi trên lớp: *experience / experiment*, *innovation (n) / innovate (v)*, *technique / technical*, *mature* /məˈtʃʊər/.
 Phụ (nhận ra khi đọc, có trong bài tập): *adapt, spoil, convert to, amend, revise, alternate / alternative, trend, revolution,
 status quo, refine, innovative, network, broadband, nuclear, craft, console, breakthrough, data*.
-Bài: A (10), B (12), C (15; sách in 15 câu dù đáp án liệt kê 16 từ), D (10), mỗi câu có lời giải theo cách loại trừ: giới từ đi kèm (*evolve into*, *influence on*),
+Bài: A (10), B (12), C (16), D (10), mỗi câu có lời giải theo cách loại trừ: giới từ đi kèm (*evolve into*, *influence on*),
 thời gian (*potential* không dùng cho việc đã xảy ra), phạm vi kết hợp (*amend* cho văn bản, không cho xã hội).
 Không làm: cụm động từ và thành ngữ (bài E trở đi).
 

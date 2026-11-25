@@ -51,10 +51,13 @@ def test_seed_is_sound_and_the_day_sits_in_week_two():
     assert DAY.grammar == []
 
 
-def test_thirty_core_words_and_five_to_recognise():
-    core = [v.headword for v in DAY.vocab if v.priority == "core"]
-    rec = {v.headword for v in DAY.vocab if v.priority == "recognize"}
-    assert len(core) == 30 and rec == {"breakthrough", "network", "data", "console", "craft"}
+def test_the_teachers_thirty_and_nothing_else():
+    # the list the teacher sent after exercises A-D; broadband and the other narrow words stay in the exercises only
+    teacher = {"endure", "shift", "innovation", "potential", "mature", "switch", "make progress", "substitute", "decay", "modify",
+               "last", "uniform", "radical", "dynamic", "evolve", "novel", "have an influence on", "conservative", "reform",
+               "distort", "maintain", "remain", "adjust", "persist", "sustain", "transform", "deteriorate", "primitive",
+               "technique", "natural resource"}
+    assert {v.headword for v in DAY.vocab} == teacher and all(v.priority == "core" for v in DAY.vocab)
     assert [v.headword for v in DAY.vocab] == [w for ws in L.S_WORDS for w in ws]
     # verbs and nouns first, as in class
     pos = [v.pos for v in DAY.vocab if v.priority == "core"]
@@ -133,19 +136,23 @@ def test_gate_each_sitting_teaches_its_own_words(n):
 def test_gate_the_class_contrasts_are_taught():
     script = "\n".join(_lecture(n).script for n in SITTINGS)
     for sentence in (
-        "We try to maintain a balance between work and rest",
-        "Please remain calm and wait for the next train",
-        "He persisted in asking the same question",
-        "He modified his motorbike with new lights",
-        "The Internet has transformed the way we study",
-        "They amended the contract",
-        "Mobile phones have evolved into small computers",
-        "We have made a lot of progress",
-        "Someone switched our bags at the airport",
-        "There's no substitute for experience",
-        "Music has a great influence on young people",
-        "After the war, Britain underwent radical changes",
-        "Water is a precious natural resource",
+        "B takes the place of A, and A is gone",
+        "I try to maintain a balance between work and rest",
+        "The important thing is to remain calm",
+        "You'll regret it if you persist in annoying people",
+        "I've made modifications to my car",
+        "It's time we reformed the whole prison system",
+        "I've amended the contract",
+        "I have to adjust to my new job",
+        "Britain began to evolve into its present form",
+        "We've made a lot of progress with the plans, but we still have a long way to go",
+        "Someone must have switched my bag and theirs",
+        "There's no substitute for practical experience",
+        "The trend was away from fixed roles and towards a more dynamic society",
+        "Music had a great influence on young people",
+        "Britain underwent radical changes after the war",
+        "The sea is a great natural resource",
+        "Beta testing is a technique in computing",
     ):
         assert sentence in script, sentence
     # not taught in class: phrasal verbs and idioms of the unit
@@ -155,12 +162,15 @@ def test_gate_the_class_contrasts_are_taught():
 
 def test_gate_dictionary_corrections_are_kept():
     says = " ".join(" ".join(_says(lec)) for lec in L.LECTURES)
-    assert "nghĩa rộng là xuống cấp dần" in says.lower()  # decay is not only for organic matter
+    assert "một nghĩa rộng" in says  # decay is not only for organic matter
     assert "cũng dùng cho kế hoạch" in says  # amend is not only for laws and contracts
     assert "Progress into vẫn có" in says  # progress into the final exists
     assert "không cách đọc nào bị coi là sai" in says  # data: other readings are not wrong
     rows = {r["key"]: r for s in L.SITTING_1 if s["kind"] == "scene" for r in s["data"].get("rows", [])}
     assert "maintain calm" not in " ".join(r.get("wrong", "") for r in rows.values())
+    # the teacher's method and images
+    for phrase in ("rehearsal", "trí nhớ ngắn hạn", "mười lăm", "khái niệm bằng tiếng Anh", "độ xe", "cố chấp", "Tết", "tra bằng hình ảnh"):
+        assert phrase in says, phrase
 
 
 def test_gate_the_book_exercises_carry_the_book_key():
@@ -171,7 +181,7 @@ def test_gate_the_book_exercises_carry_the_book_key():
     assert key["W5A"] == ["endure", "shift", "innovation", "potential", "mature", "switched", "progress", "substitute", "decay", "modified"]
     assert key["W5B"] == ["last", "revolution", "status quo", "uniform", "radical", "trend", "dynamic", "evolve", "novel", "innovative", "influence", "conservative"]
     assert key["W5C"] == ["reformed", "revise", "distorted", "amended", "maintain", "remain", "adjust", "adapt", "alternate", "alternative",
-                          "persist", "sustain", "converted", "transformed", "spoil"]
+                          "persist", "sustain", "converted", "transformed", "spoil", "deteriorated"]
     assert key["W5D"] == ["network", "broadband", "primitive", "nuclear", "Giữ nguyên", "console", "technique", "Giữ nguyên", "data", "resource"]
     for lines in sec.values():  # a reason for every item, and every choice item has one answer among at least three options
         for ln in lines:
