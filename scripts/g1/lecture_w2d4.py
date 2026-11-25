@@ -36,7 +36,7 @@ NOTES = {
     "account": "create an account, log in to your account.",
     "password": "Chữ w không đọc: /ˈpɑːswɜːd/. change your password.",
     "storage": "run out of storage: hết dung lượng. Động từ gốc: store.",
-    "user": "Người dùng một sản phẩm, một dịch vụ. Động từ gốc: use.",
+    "user": "Người dùng một sản phẩm, một dịch vụ. Động từ gốc: use. Câu ví dụ: had gained + mốc by the end of its first year.",
     "privacy": "Tính từ: private /ˈpraɪvət/. Danh từ privacy đọc /ˈprɪvəsi/ theo Anh Anh.",
 }
 
@@ -58,13 +58,13 @@ PAST = [
     {"key": "c1", "tense": "Quá khứ đơn", "form": "V2 / V-ed", "at": "point", "en": "Yesterday I played football at seven.", "vi": "Hôm qua lúc bảy giờ tôi đá bóng."},
     {"key": "c2", "tense": "Quá khứ tiếp diễn", "form": "was / were + V-ing", "at": "pwin", "en": "Yesterday I was playing football at seven.", "vi": "Hôm qua lúc bảy giờ tôi đang đá bóng."},
     {"key": "c3", "tense": "Quá khứ hoàn thành", "form": "had + V3", "at": "before", "en": "When I got to the station, the train had left.", "vi": "Khi tôi tới ga thì tàu đã chạy mất."},
-    {"key": "c4", "tense": "QK hoàn thành tiếp diễn", "form": "had been + V-ing", "at": "upto", "en": "We had been waiting for over an hour when the bus came.", "vi": "Chúng tôi đã chờ hơn một tiếng thì xe buýt tới."},
+    {"key": "c4", "tense": "Hoàn thành tiếp diễn", "form": "had been + V-ing", "at": "upto", "en": "We had been waiting for an hour when the bus came.", "vi": "Chúng tôi đã chờ một tiếng thì xe buýt tới."},
 ]
 
 PAIRS = [
     {"key": "k1", "head": "Dấu vết", "en": "I was tired because I had been running.", "vi": "Cặp của: I'm tired because I have been running."},
     {"key": "k2", "head": "Than phiền", "en": "He was always leaving his clothes on the floor!", "vi": "Cặp của: He is always leaving his clothes on the floor!"},
-    {"key": "k3", "head": "Lần đầu", "en": "It was the first time I had used a smartwatch.", "vi": "Cặp của: It's the first time I have used this app."},
+    {"key": "k3", "head": "Lần đầu", "en": "It was the first time I had used this app.", "vi": "Cặp của: It's the first time I have used this app."},
 ]
 
 STEPS = [
@@ -74,7 +74,7 @@ STEPS = [
 ]
 
 FROZE = [
-    {"key": "m1", "icon": "frozen", "at": "upto", "tense": "had been + V-ing · quá trình trước mốc", "en": "I had been watching the film for ten minutes when the screen froze.", "vi": "Nhấn mười phút đã trôi qua."},
+    {"key": "m1", "icon": "frozen", "at": "upto", "tense": "had been + V-ing · quá trình trước mốc", "en": "I had been watching the film for ten minutes when the screen froze.", "vi": "Nhấn quãng mười phút đã trôi qua."},
     {"key": "m2", "icon": "frozen", "at": "before", "tense": "had + V3 · việc xảy ra trước", "en": "I had watched ten minutes of the film when the screen froze.", "vi": "Nhấn phần phim đã xem xong."},
     {"key": "m3", "icon": "frozen", "at": "cut", "tense": "Tiếp diễn · khoảng lúc đó", "en": "I was watching the film when the screen froze.", "vi": "Nhấn việc đang diễn ra lúc màn hình treo."},
 ]
@@ -83,20 +83,20 @@ TRAPS = [
     {"key": "e1", "wrong": "When I got home, my brother has eaten all the pizza.", "right": "When I got home, my brother had eaten all the pizza.", "why": "Mốc là quá khứ: lùi have thành had."},
     {"key": "e2", "wrong": "I was tired because I have been running.", "right": "I was tired because I had been running.", "why": "Hai vế cùng nhìn từ một mốc đã qua."},
     {"key": "e3", "wrong": "Yesterday I have seen her.", "right": "Yesterday I saw her.", "why": "Có mốc đã qua: quá khứ đơn."},
-    {"key": "e4", "wrong": "I had been knowing Lan for ten years.", "right": "I had known Lan for ten years.", "why": "know là động từ trạng thái."},
+    {"key": "e4", "wrong": "I had been knowing Lan for ten years when we started the company.", "right": "I had known Lan for ten years when we started the company.", "why": "know là động từ trạng thái."},
 ]
 
 ANSWER = [
     {"key": "q1", "role": "Dựng cảnh", "tense": "Quá khứ tiếp diễn", "en": "Last summer I was travelling around Da Nang with two friends.", "vi": "Hè năm ngoái tôi đang đi du lịch quanh Đà Nẵng với hai người bạn."},
     {"key": "q2", "role": "Việc chính, lùi về trước", "tense": "Quá khứ đơn + had + V3", "en": "One evening we got lost because our phone battery had died.", "vi": "Một buổi tối chúng tôi bị lạc vì điện thoại đã hết pin."},
     {"key": "q3", "role": "Quá trình trước đó", "tense": "had been + V-ing", "en": "We had been walking for two hours, so we were very tired.", "vi": "Chúng tôi đã đi bộ suốt hai tiếng nên rất mệt."},
-    {"key": "q4", "role": "Kết thúc", "tense": "Quá khứ đơn", "en": "Luckily, a shop owner let us charge the phone, and we found our way back.", "vi": "May mà một chủ cửa hàng cho chúng tôi sạc điện thoại, và chúng tôi tìm được đường về."},
+    {"key": "q4", "role": "Kết thúc", "tense": "Quá khứ đơn", "en": "Luckily, a shop owner let us charge the phone, and the map app showed us the way back.", "vi": "May mà một chủ cửa hàng cho chúng tôi sạc điện thoại, và ứng dụng bản đồ chỉ đường cho chúng tôi về."},
 ]
 
 SITTING_1 = [
     {"kind": "title", "hook": "Tám thì: cần mấy câu hỏi để chọn đúng một thì?", "lines": [
         {"say": "Đến hôm nay bạn đã học đủ tám thì. Nếu chỉ được đặt vài câu hỏi để chọn đúng một thì, bạn cần mấy câu hỏi?", "show": "hook"},
-        {"say": "Câu trả lời là ba. Buổi này dựng bản đồ tám thì từ ba câu hỏi đó, rồi học ba bước chọn thì quá khứ khi làm bài."},
+        {"say": "Câu trả lời là ba. Buổi này dựng bản đồ tám thì từ ba câu hỏi đó, rồi ghép từng cặp hiện tại và quá khứ."},
     ]},
     {"kind": "scene", "visual": "tense_grid", "eyebrow": "Nhắc lại Tuần 1", "title": "Bốn ô nhìn từ bây giờ",
      "data": {"row_heads": ROW_HEADS, "col_heads": COL_HEADS, "cells": PRESENT,
@@ -112,7 +112,7 @@ SITTING_1 = [
     ]},
     {"kind": "scene", "visual": "tense_grid", "eyebrow": "Câu hỏi thứ ba", "title": "Bốn ô nhìn từ một mốc quá khứ",
      "data": {"row_heads": ROW_HEADS_PAST, "col_heads": COL_HEADS, "cells": PAST,
-              "rule": "Nhìn từ một mốc quá khứ: giữ hai câu hỏi cũ, lùi trợ động từ đầu tiên về quá khứ."}, "lines": [
+              "rule": "Nhìn từ một mốc quá khứ: giữ hai câu hỏi cũ, lùi động từ chia đầu tiên về quá khứ."}, "lines": [
         {"say": "Câu hỏi thứ ba: nhìn từ bây giờ, hay từ một mốc trong quá khứ? Nếu từ một mốc quá khứ, bản đồ giữ nguyên hai câu hỏi cũ. Hàng dưới giờ thêm had.", "show": "rows"},
         {"say": "Cột phải vẫn là be cộng đuôi ing, nhưng be lùi thành was hoặc were.", "show": "cols"},
         {"say": "Ô thứ nhất: không nối, không nhấn tạm thời. Quá khứ đơn, một điểm trên trục."},
@@ -122,8 +122,10 @@ SITTING_1 = [
         {"say": "Ô thứ ba: xảy ra trước một mốc quá khứ. Quá khứ hoàn thành."},
         {"en": "When I got to the station, the train had left.", "vi": "Khi tôi tới ga thì tàu đã chạy mất.", "gap": True, "show": "c3"},
         {"say": "Ô thứ tư: kéo dài tới một mốc quá khứ. Quá khứ hoàn thành tiếp diễn."},
-        {"en": "We had been waiting for over an hour when the bus came.", "vi": "Chúng tôi đã chờ hơn một tiếng thì xe buýt tới.", "gap": True, "show": "c4"},
-        {"say": "Nhìn từ một mốc quá khứ: giữ hai câu hỏi cũ, và lùi trợ động từ đầu tiên về quá khứ. Do thành did, am, is, are thành was, were, have thành had.", "show": "rule"},
+        {"en": "We had been waiting for an hour when the bus came.", "vi": "Chúng tôi đã chờ một tiếng thì xe buýt tới.", "gap": True, "show": "c4"},
+        {"say": "Nhìn từ một mốc quá khứ: giữ hai câu hỏi cũ, và lùi động từ chia đầu tiên về quá khứ, như ba cặp sau."},
+        {"en": "lives, lived. am, was. have, had.", "recap": False},
+        {"say": "Riêng quá khứ đơn còn là thì mặc định cho mọi việc đã xảy ra. Ba ô còn lại mới là cặp đúng nghĩa của ba ô hiện tại.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Từng cặp", "title": "Cùng nghĩa, khác mốc",
      "data": {"rows": PAIRS, "rule": "Cách dùng giữ nguyên; chỉ mốc nhìn đổi từ bây giờ sang một lúc đã qua."}, "lines": [
@@ -132,8 +134,26 @@ SITTING_1 = [
         {"say": "Cặp hai: than phiền với always, nhìn từ quá khứ.", "show": "k2"},
         {"en": "He was always leaving his clothes on the floor!", "vi": "Hồi đó nó cứ vứt quần áo dưới sàn!", "gap": True},
         {"say": "Cặp ba: mẫu lần đầu. Tuần này bạn đã gặp cả hai phiên bản.", "show": "k3"},
-        {"en": "It was the first time I had used a smartwatch.", "vi": "Đó là lần đầu tôi dùng đồng hồ thông minh.", "gap": True},
+        {"en": "It was the first time I had used this app.", "vi": "Đó là lần đầu tôi dùng ứng dụng này.", "gap": True},
         {"say": "Cách dùng giữ nguyên; chỉ mốc nhìn đổi từ bây giờ sang một lúc đã qua. Nói được ở hiện tại là kể được ở quá khứ.", "show": "rule"},
+    ]},
+    {"kind": "word", "headword": "share", "lines": [{"say": "Năm động từ của buổi này là những việc bạn làm mỗi ngày trên mạng. Từ thứ nhất. Quá khứ là shared, đuôi ed giống played."}]},
+    {"kind": "word", "headword": "store", "lines": [{"say": "Từ thứ hai: lưu trữ. Danh từ cùng chữ còn có nghĩa là cửa hàng."}]},
+    {"kind": "word", "headword": "access", "lines": [{"say": "Từ thứ ba. Câu ví dụ có hai thì: không truy cập được, vì đã quên mật khẩu từ trước."}]},
+    {"kind": "word", "headword": "upload", "lines": [{"say": "Từ thứ tư, trái nghĩa với download ở ngày hai. Câu ví dụ có while và thì tiếp diễn."}]},
+    {"kind": "word", "headword": "browse", "lines": [{"say": "Từ cuối: lướt xem. Câu ví dụ là một việc đang diễn ra bị cắt ngang."}]},
+    {"kind": "recap", "lines": [
+        {"say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
+    ]},
+    {"kind": "end", "next": "Tiếp theo: học thẻ và từ của buổi này, rồi làm bài.", "lines": [
+        {"say": "Hết buổi một. Bạn học các thẻ và từ trong app, rồi làm bài. Buổi hai học ba bước chọn thì quá khứ khi làm bài, khác biệt giữa đáp án bài thi và điều bạn muốn nói, rồi kể một câu chuyện bằng bốn thì quá khứ.", "show": "title"},
+    ]},
+]
+
+SITTING_2 = [
+    {"kind": "title", "hook": "Đang xem phim thì màn hình bị treo: có mấy cách nói đúng?", "lines": [
+        {"say": "Bạn đang xem phim thì màn hình bị treo. Khi làm bài, chọn thì thế nào; khi nói thật, có bao nhiêu cách kể lại câu này cho đúng?", "show": "hook"},
+        {"say": "Buổi này học ba bước chọn thì quá khứ khi làm bài, rồi ba cách nói khi dùng thật, sửa bốn lỗi hay gặp, và kể một câu chuyện Part 2 bằng bốn thì quá khứ."},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Khi làm bài", "title": "Ba bước chọn thì quá khứ",
      "data": {"rows": STEPS, "rule": "Không khớp bước 2 hay bước 3: chọn quá khứ đơn."}, "lines": [
@@ -145,36 +165,18 @@ SITTING_1 = [
         {"en": "When I got there, I realised I had left my judo suit at home.", "vi": "Khi tới nơi, tôi nhận ra mình đã để quên bộ đồ judo ở nhà.", "gap": True},
         {"say": "Và trước khi chọn, hãy đọc trọn cả câu, cả câu trước và câu sau. Không khớp bước hai hay bước ba thì chọn quá khứ đơn: xác suất đúng cao nhất.", "show": "rule"},
     ]},
-    {"kind": "word", "headword": "share", "lines": [{"say": "Năm động từ của buổi này là những việc bạn làm mỗi ngày trên mạng. Từ thứ nhất. Quá khứ là shared, đuôi ed giống played."}]},
-    {"kind": "word", "headword": "store", "lines": [{"say": "Từ thứ hai: lưu trữ. Danh từ cùng chữ còn có nghĩa là cửa hàng."}]},
-    {"kind": "word", "headword": "access", "lines": [{"say": "Từ thứ ba. Câu ví dụ có hai thì: không truy cập được, vì đã quên mật khẩu từ trước."}]},
-    {"kind": "word", "headword": "upload", "lines": [{"say": "Từ thứ tư, trái nghĩa với download ở ngày hai. Câu ví dụ có while và thì tiếp diễn."}]},
-    {"kind": "word", "headword": "browse", "lines": [{"say": "Từ cuối: lướt xem. Câu ví dụ là một việc đang diễn ra bị cắt ngang."}]},
-    {"kind": "recap", "lines": [
-        {"say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
-    ]},
-    {"kind": "end", "next": "Tiếp theo: học thẻ và từ của buổi này, rồi làm bài.", "lines": [
-        {"say": "Hết buổi một. Bạn học các thẻ và từ trong app, rồi làm bài. Buổi hai nói về khác biệt giữa đáp án bài thi và điều bạn muốn nói, rồi kể một câu chuyện bằng bốn thì quá khứ.", "show": "title"},
-    ]},
-]
-
-SITTING_2 = [
-    {"kind": "title", "hook": "Đang xem phim thì màn hình bị treo: có mấy cách nói đúng?", "lines": [
-        {"say": "Bạn đang xem phim thì màn hình bị treo. Có bao nhiêu cách kể lại câu này cho đúng?", "show": "hook"},
-        {"say": "Buổi này trả lời câu hỏi đó, sửa bốn lỗi hay gặp khi trộn tám thì, rồi kể một câu chuyện Part 2 bằng bốn thì quá khứ."},
-    ]},
     {"kind": "scene", "visual": "tense_timeline", "eyebrow": "Dùng thật", "title": "Một câu, ba cách nói",
      "data": {"question": "... when the screen froze.", "question_vi": "... thì màn hình bị treo.", "question_label": "Cùng một mốc",
-              "answers": FROZE, "rule": "Ngoài đời, bạn muốn nhấn điều gì thì chọn thì đó. Bài thi chọn theo dấu hiệu trong câu."}, "lines": [
+              "answers": FROZE, "rule": "Ngoài đời, bạn muốn nhấn điều gì thì chọn thì đó. Bài thi: đi qua ba bước với cả câu."}, "lines": [
         {"say": "Mốc chung là lúc màn hình bị treo, chia quá khứ đơn.", "show": "q"},
         {"say": "Quá khứ bên trái, bây giờ ở vạch giữa.", "show": "axis"},
         {"say": "Cách một: nhấn quá trình đã kéo dài tới mốc đó, mười phút.", "show": "m1"},
-        {"en": "I had been watching the film for ten minutes when the screen froze.", "vi": "Tôi đã xem phim được mười phút thì màn hình bị treo.", "gap": True},
+        {"en": "I had been watching the film for ten minutes when the screen froze.", "vi": "Tôi đã xem suốt mười phút thì màn hình bị treo.", "gap": True},
         {"say": "Cách hai: nhấn phần việc đã xảy ra trước mốc.", "show": "m2"},
-        {"en": "I had watched ten minutes of the film when the screen froze.", "vi": "Tôi đã xem được mười phút phim thì màn hình bị treo.", "gap": True},
+        {"en": "I had watched ten minutes of the film when the screen froze.", "vi": "Tôi đã xem xong mười phút đầu của phim thì màn hình bị treo.", "gap": True},
         {"say": "Cách ba: nhấn việc đang diễn ra ngay lúc đó.", "show": "m3"},
         {"en": "I was watching the film when the screen froze.", "vi": "Tôi đang xem phim thì màn hình bị treo.", "gap": True},
-        {"say": "Cả ba đều đúng, mỗi câu nhấn một ý. Ngữ pháp là công cụ cho điều bạn muốn nói, không phải những chiếc hộp tách rời. Còn bài thi chỉ có một đáp án: chọn theo dấu hiệu trong câu, như for cộng thời lượng, when, every day hay before.", "show": "rule"},
+        {"say": "Cả ba đều đúng, mỗi câu nhấn một ý. Ngữ pháp là công cụ cho điều bạn muốn nói, không phải những chiếc hộp tách rời. Còn bài thi chỉ có một đáp án: đi qua ba bước với cả câu, không dựa vào một chữ đơn lẻ.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Lỗi thường gặp", "title": "Bốn lỗi khi trộn tám thì",
      "data": {"rows": TRAPS, "rule": "Một câu kể, một mốc nhìn. Có mốc đã qua: quá khứ đơn. know: dạng đơn."}, "lines": [
@@ -185,13 +187,13 @@ SITTING_2 = [
         {"say": "Lỗi ba: hiện tại hoàn thành đi với một mốc đã qua.", "show": "e3"},
         {"en": "Yesterday I saw her.", "vi": "Hôm qua tôi gặp cô ấy.", "gap": True},
         {"say": "Lỗi bốn: động từ trạng thái ở dạng tiếp diễn.", "show": "e4"},
-        {"en": "I had known Lan for ten years.", "vi": "Tôi đã quen Lan được mười năm.", "gap": True, "recap": False},
+        {"en": "I had known Lan for ten years when we started the company.", "vi": "Lúc chúng tôi mở công ty, tôi đã quen Lan được mười năm.", "gap": True, "recap": False},
         {"say": "Một câu kể, một mốc nhìn. Có mốc đã qua thì dùng quá khứ đơn. Động từ trạng thái như know giữ dạng đơn.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "account", "lines": [{"say": "Trước khi kể chuyện, học năm danh từ của đời sống số. Từ thứ nhất: tài khoản."}]},
-    {"kind": "word", "headword": "password", "lines": [{"say": "Từ thứ hai: mật khẩu. Chữ w ở giữa không đọc."}]},
+    {"kind": "word", "headword": "password", "lines": [{"say": "Từ thứ hai: mật khẩu. Chữ vê kép ở giữa không đọc."}]},
     {"kind": "word", "headword": "storage", "lines": [{"say": "Từ thứ ba, danh từ của store ở buổi trước: dung lượng lưu trữ."}]},
-    {"kind": "word", "headword": "user", "lines": [{"say": "Từ thứ tư: người dùng. Câu ví dụ có had cộng quá khứ phân từ, với mốc là cuối năm đầu tiên."}]},
+    {"kind": "word", "headword": "user", "lines": [{"say": "Từ thứ tư: người dùng. Câu ví dụ có had cộng quá khứ phân từ, với mốc là cuối năm đầu tiên của ứng dụng."}]},
     {"kind": "word", "headword": "privacy", "lines": [{"say": "Từ cuối: quyền riêng tư, một chủ đề rất hay gặp trong Writing Task 2 về công nghệ."}]},
     {"kind": "scene", "visual": "speaking_answer", "eyebrow": "IELTS Speaking Part 2", "title": "Một câu chuyện, bốn thì quá khứ",
      "data": {"question": "Describe a time when a piece of technology helped you.", "question_vi": "Kể về một lần một thiết bị công nghệ giúp bạn.",
@@ -207,19 +209,19 @@ SITTING_2 = [
         {"say": "Câu ba: quá trình kéo dài trước đó, had been cộng đuôi ing."},
         {"en": "We had been walking for two hours, so we were very tired.", "vi": "Chúng tôi đã đi bộ suốt hai tiếng nên rất mệt.", "gap": True, "show": "q3"},
         {"say": "Câu bốn: kết thúc bằng quá khứ đơn."},
-        {"en": "Luckily, a shop owner let us charge the phone, and we found our way back.", "vi": "May mà một chủ cửa hàng cho chúng tôi sạc điện thoại, và chúng tôi tìm được đường về.", "gap": True, "show": "q4"},
+        {"en": "Luckily, a shop owner let us charge the phone, and the map app showed us the way back.", "vi": "May mà một chủ cửa hàng cho chúng tôi sạc điện thoại, và ứng dụng bản đồ chỉ đường cho chúng tôi về.", "gap": True, "show": "q4"},
         {"say": "Bốn câu, bốn thì quá khứ, mỗi thì một vai. Hãy viết lại câu chuyện này bằng một chuyện của chính bạn.", "show": "rule"},
     ]},
     {"kind": "recap", "lines": [
         {"say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
     ]},
     {"kind": "end", "next": "Tiếp theo: học thẻ và từ, làm bài, rồi buổi 3 và bài luyện theo sách.", "lines": [
-        {"say": "Hết phần giảng của ngày bốn, cũng là hết phần ngữ pháp của tuần. Bạn học các thẻ và từ trong app, làm bài, rồi sang buổi ba. Cuối ngày có tám câu luyện theo sách, mỗi câu trộn cả bốn thì quá khứ.", "show": "title"},
+        {"say": "Hết phần giảng của ngày bốn, cũng là hết phần ngữ pháp của tuần. Bạn học các thẻ và từ trong app, làm bài, rồi sang buổi ba. Cuối ngày có tám câu luyện theo sách, mỗi câu chọn một trong bốn dạng quá khứ.", "show": "title"},
     ]},
 ]
 
 RUBRIC = [
-    {"criterion_vi": "Đúng đề: có cảnh, việc chính, việc xảy ra trước và kết thúc", "max": 1, "note_vi": "Task response"},
+    {"criterion_vi": "Đúng đề: có cảnh, việc chính, việc xảy ra trước và kết thúc", "max": 1, "note_vi": "Fluency and coherence"},
     {"criterion_vi": "Dùng được bốn thì quá khứ, mỗi thì đúng vai trong câu chuyện", "max": 2, "note_vi": "Grammatical range"},
     {"criterion_vi": "Dạng động từ đúng; cả câu nhìn từ cùng một mốc", "max": 2, "note_vi": "Grammatical accuracy"},
 ]
@@ -228,8 +230,8 @@ CAP = 7  # a lecture sitting holds at most seven questions; the rest open sittin
 
 
 def reshape(sessions: list[dict], exercise_ids: list[str], card_of: dict[str, int]) -> list[dict]:
-    """Sitting 1 teaches cards 1-3 (the eight-tense map, present-past pairs, the three steps) with five verbs;
-    sitting 2 cards 4-5 (exam answer and intended meaning, a story in four past tenses) with five nouns; the
+    """Sitting 1 teaches cards 1-2 (the eight-tense map, present-past pairs) with five verbs; sitting 2 cards 3-5
+    (the three steps, exam answer and intended meaning, a story in four past tenses) with five nouns; the
     production work is a third sitting without a lecture. The book's exercise follows as its own sitting."""
     pats = [g for s in sessions[:2] for g in s["grammar"]]
     allcheck = [i for s in sessions[:2] for i in s["check"]]
@@ -238,7 +240,7 @@ def reshape(sessions: list[dict], exercise_ids: list[str], card_of: dict[str, in
     all_words = [w for s in sessions[:2] for w in s["vocab"]]
     assert sorted(all_words) == sorted(S1_WORDS + S2_WORDS), all_words
     s1["vocab"], s2["vocab"] = S1_WORDS, S2_WORDS
-    s1["grammar"], s2["grammar"] = pats[:3], pats[3:]
+    s1["grammar"], s2["grammar"] = pats[:2], pats[2:]
     quiz = [i for i in allcheck if i[5] in "IQT"]
 
     def pick(cards: range) -> tuple[list[str], list[str]]:
@@ -257,14 +259,14 @@ def reshape(sessions: list[dict], exercise_ids: list[str], card_of: dict[str, in
         rank = {x: k for k, x in enumerate(chosen)}
         chosen.sort(key=lambda i: (card_of[i], rank[i]))
         return chosen, [i for q in queues for i in q]
-    s1["check"], spill1 = pick(range(0, 3))
-    s2["check"], spill2 = pick(range(3, len(pats)))
+    s1["check"], spill1 = pick(range(0, 2))
+    s2["check"], spill2 = pick(range(2, len(pats)))
     moved = spill1 + spill2 + [i for i in allcheck if i not in quiz]
     s1["lecture"], s2["lecture"] = SITTING_1, SITTING_2
-    s1["title_vi"] = "Buổi 1 · bản đồ tám thì, cặp hiện tại và quá khứ, ba bước"
-    s2["title_vi"] = "Buổi 2 · đáp án bài thi và ý muốn nói, kể chuyện bằng bốn thì quá khứ"
-    s1["can_do_vi"] = "Sau buổi này bạn đặt được một câu vào đúng ô của tám thì, chuyển một câu hiện tại sang cặp quá khứ của nó, và chọn thì quá khứ theo ba bước."
-    s2["can_do_vi"] = "Sau buổi này bạn phân biệt được đáp án bài thi với điều mình muốn nhấn, tránh bốn lỗi khi trộn tám thì, và kể được một câu chuyện Speaking bằng bốn thì quá khứ."
+    s1["title_vi"] = "Buổi 1 · bản đồ tám thì, cặp hiện tại và quá khứ"
+    s2["title_vi"] = "Buổi 2 · ba bước chọn thì, đáp án bài thi và ý muốn nói, kể chuyện"
+    s1["can_do_vi"] = "Sau buổi này bạn đặt được một câu vào đúng ô của tám thì và chuyển một câu hiện tại sang cặp quá khứ của nó."
+    s2["can_do_vi"] = "Sau buổi này bạn chọn được thì quá khứ theo ba bước, phân biệt được đáp án bài thi với điều mình muốn nhấn, tránh bốn lỗi khi trộn tám thì, và kể được một câu chuyện Speaking bằng bốn thì quá khứ."
     s3 = {
         "title_vi": "Buổi 3 · vận dụng: xếp câu, gõ, nghe chép, kể chuyện",
         "can_do_vi": "Sau buổi này bạn chọn đúng thì quá khứ theo ba bước, tự xếp và gõ đúng câu, nghe chép được câu trộn nhiều thì, và kể một chuyện của chính mình.",

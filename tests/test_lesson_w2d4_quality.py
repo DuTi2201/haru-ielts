@@ -106,7 +106,7 @@ def test_gate_the_class_examples_are_taught_in_their_corrected_form():
         (s1, "Yesterday I was playing football at seven"),
         (s1, "When I got to the station, the train had left"),
         (s1, "I was tired because I had been running"),
-        (s1, "I got up at six every morning last week"),
+        (s2, "I got up at six every morning last week"),
         (s2, "I had been watching the film for ten minutes when the screen froze"),
         (s2, "I was watching the film when the screen froze"),
     ):
@@ -119,7 +119,7 @@ def test_gate_the_eight_tense_map_card_holds_eight_examples_in_order():
     card = DAY3.grammar[0]
     assert card.pattern.startswith("Tám thì · bản đồ")
     assert len(card.example_en.split("\n")) == 8
-    assert [c["tense"] for c in L.PAST] == ["Quá khứ đơn", "Quá khứ tiếp diễn", "Quá khứ hoàn thành", "QK hoàn thành tiếp diễn"]
+    assert [c["tense"] for c in L.PAST] == ["Quá khứ đơn", "Quá khứ tiếp diễn", "Quá khứ hoàn thành", "Hoàn thành tiếp diễn"]
 
 
 def test_gate_each_sitting_teaches_its_own_words():

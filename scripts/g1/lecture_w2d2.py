@@ -264,7 +264,7 @@ SITTING_2 = [
 ]
 
 RUBRIC = [
-    {"criterion_vi": "Đúng đề: có cảnh lúc đó, việc xảy ra và kết quả", "max": 1, "note_vi": "Task response"},
+    {"criterion_vi": "Đúng đề: có cảnh lúc đó, việc xảy ra và kết quả", "max": 1, "note_vi": "Fluency and coherence"},
     {"criterion_vi": "Dựng cảnh bằng quá khứ tiếp diễn, kể việc chính bằng quá khứ đơn", "max": 2, "note_vi": "Grammatical range"},
     {"criterion_vi": "Dạng động từ đúng: was / were + V-ing, V-ed và dạng bất quy tắc", "max": 2, "note_vi": "Grammatical accuracy"},
 ]

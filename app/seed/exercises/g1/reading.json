@@ -7898,25 +7898,25 @@
      "options": [
       {
        "id": "1",
-       "text": "I had playing football for three hours."
+       "text": "I had playing football for three hours when it started to rain."
       },
       {
        "id": "2",
-       "text": "I was been playing football for three hours."
+       "text": "I was been playing football for three hours when it started to rain."
       },
       {
        "id": "3",
-       "text": "I has been playing football for three hours."
+       "text": "I has been playing football for three hours when it started to rain."
       },
       {
        "id": "4",
-       "text": "I had been playing football for three hours."
+       "text": "I had been playing football for three hours when it started to rain."
       }
      ],
      "answer": "4",
-     "explanation_vi": "Lùi trợ động từ đầu tiên: have → had; phần còn lại giữ nguyên.",
+     "explanation_vi": "Lùi động từ chia đầu tiên: have → had; phần còn lại giữ nguyên.",
      "tags": [],
-     "prompt_vi": "Câu nào là cặp quá khứ của: I have been playing football for three hours?"
+     "prompt_vi": "Lùi câu I have been playing football for three hours về mốc trời bắt đầu mưa. Câu nào đúng?"
     }
    ]
   },
@@ -8349,7 +8349,7 @@
       }
      ],
      "answer": "4",
-     "explanation_vi": "Bước 3: chưa từng có trải nghiệm này trước lúc tôi chỉ, có `before` → hadn't + V3.",
+     "explanation_vi": "Bước 3: chưa từng có trải nghiệm này trước lúc tôi chỉ, có `before` → hadn't + V3 (đáp án bài thi).",
      "tags": []
     }
    ],
@@ -8386,7 +8386,7 @@
       }
      ],
      "answer": "3",
-     "explanation_vi": "Bước 3: quen chưa lâu tính tới mốc đó; know là động từ trạng thái → hadn't + V3, không dùng tiếp diễn.",
+     "explanation_vi": "Bước 3: quen chưa lâu tính tới mốc đó; know là động từ trạng thái → hadn't + V3, không dùng tiếp diễn (đáp án bài thi).",
      "tags": []
     }
    ],
@@ -8460,7 +8460,7 @@
       }
      ],
      "answer": "4",
-     "explanation_vi": "Bước 3: Jerry rời đi trước lúc tôi muốn chào → had already + V3. was already left và had already been leaving không đúng ngữ pháp ở đây.",
+     "explanation_vi": "Bước 3: Jerry rời đi trước lúc tôi muốn chào → đáp án bài thi `had already left`. Tiếng Anh Mỹ thân mật có nói already left; was already left sai, had already been leaving không hợp nghĩa.",
      "tags": []
     }
    ],

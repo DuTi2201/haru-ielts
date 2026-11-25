@@ -5536,21 +5536,20 @@
    "rung": 1,
    "title_vi": "Xếp câu · Tuần 2 · Ngày 4",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Khi tôi về đến nhà, em tôi đã ăn hết pizza.",
+   "meaning_vi": "Tôi nhận ra em trai tôi đã ăn hết pizza.",
    "tiles": [
-    "had",
-    "my",
-    "pizza",
-    "I",
-    "got",
-    "brother",
-    "When",
-    "home,",
     "eaten",
-    "the"
+    "had",
+    "brother",
+    "all",
+    "my",
+    "I",
+    "realised",
+    "the",
+    "pizza"
    ],
    "answers": [
-    "When I got home, my brother had eaten the pizza"
+    "I realised my brother had eaten all the pizza"
    ]
   },
   {
@@ -5560,21 +5559,19 @@
    "rung": 1,
    "title_vi": "Xếp câu · Tuần 2 · Ngày 4",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Tôi mệt vì đã làm việc suốt cả ngày.",
+   "meaning_vi": "Lúc đó tôi mệt vì vừa chạy bộ.",
    "tiles": [
     "because",
-    "day",
-    "I",
-    "working",
+    "running",
     "been",
+    "was",
     "tired",
     "I",
-    "was",
-    "had",
-    "all"
+    "I",
+    "had"
    ],
    "answers": [
-    "I was tired because I had been working all day"
+    "I was tired because I had been running"
    ]
   },
   {
@@ -5606,7 +5603,7 @@
    "rung": 1,
    "title_vi": "Xếp câu · Tuần 2 · Ngày 4",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Hè năm ngoái ngày nào tôi cũng đi bơi.",
+   "meaning_vi": "Tôi đi bơi mỗi ngày vào hè năm ngoái.",
    "tiles": [
     "summer",
     "day",
@@ -5706,10 +5703,11 @@
      "accepted": [
       "had lived",
       "had been living",
+      "lived",
       "'d lived",
       "'d been living"
      ],
-     "common_errors_vi": "Kéo dài tới mốc chuyển nhà. Cả had lived và had been living đều đúng."
+     "common_errors_vi": "Kéo dài tới mốc chuyển nhà: had lived hoặc had been living. Có before nên thứ tự đã rõ, lived cũng đúng."
     }
    ],
    "tips_vi": []

@@ -378,7 +378,7 @@
     {
      "criterion_vi": "Đúng đề, nội dung là của chính bạn",
      "max": 1,
-     "note_vi": "Task response"
+     "note_vi": "Fluency and coherence"
     },
     {
      "criterion_vi": "Kể việc đã qua bằng quá khứ đơn; chỉ câu nối tới bây giờ dùng hiện tại hoàn thành",
@@ -421,7 +421,7 @@
     {
      "criterion_vi": "Đúng đề: có cảnh lúc đó, việc xảy ra và kết quả",
      "max": 1,
-     "note_vi": "Task response"
+     "note_vi": "Fluency and coherence"
     },
     {
      "criterion_vi": "Dựng cảnh bằng quá khứ tiếp diễn, kể việc chính bằng quá khứ đơn",
@@ -464,7 +464,7 @@
     {
      "criterion_vi": "Đúng đề: có việc chính, việc xảy ra trước đó và kết quả",
      "max": 1,
-     "note_vi": "Task response"
+     "note_vi": "Fluency and coherence"
     },
     {
      "criterion_vi": "Việc xảy ra trước dùng had + V3 hoặc had been + V-ing, dựa vào một mốc quá khứ đơn",
@@ -496,7 +496,7 @@
     "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
     "Chọn thì theo câu trả lời đó rồi mới viết."
    ],
-   "model_answer_en": "Last summer I was travelling around Da Nang with two friends. One evening we got lost because our phone battery had died. We had been walking for two hours, so we were very tired. Luckily, a shop owner let us charge the phone, and we found our way back with the map app.",
+   "model_answer_en": "Last summer I was travelling around Da Nang with two friends. One evening we got lost because our phone battery had died. We had been walking for two hours, so we were very tired. Luckily, a shop owner let us charge the phone, and the map app showed us the way back.",
    "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
    "checklist_vi": [
     "Mỗi câu có chủ ngữ và động từ đã chia.",
@@ -507,7 +507,7 @@
     {
      "criterion_vi": "Đúng đề: có cảnh, việc chính, việc xảy ra trước và kết thúc",
      "max": 1,
-     "note_vi": "Task response"
+     "note_vi": "Fluency and coherence"
     },
     {
      "criterion_vi": "Dùng được bốn thì quá khứ, mỗi thì đúng vai trong câu chuyện",

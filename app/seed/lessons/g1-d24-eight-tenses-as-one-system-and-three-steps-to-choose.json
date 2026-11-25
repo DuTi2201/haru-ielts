@@ -114,7 +114,7 @@
    "priority": "core",
    "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3; phiên âm: Oxford Learner's Dictionaries (BrE)",
    "pron": "/ˈjuːzə(r)/",
-   "note_vi": "Người dùng một sản phẩm, một dịch vụ. Động từ gốc: use."
+   "note_vi": "Người dùng một sản phẩm, một dịch vụ. Động từ gốc: use. Câu ví dụ: had gained + mốc by the end of its first year."
   },
   {
    "headword": "privacy",
@@ -133,21 +133,21 @@
   {
    "pattern": "Tám thì · bản đồ ba câu hỏi",
    "meaning_vi": "Hai câu hỏi của Tuần 1 chia bốn ô; câu hỏi thứ ba, nhìn từ bây giờ hay từ một mốc quá khứ, cho mỗi ô một cặp",
-   "usage_context_vi": "fork: Có nối với một việc trước đó không? | Không | thì đơn hoặc tiếp diễn | Có | thêm have / had + V3\nfork: Có nhấn tạm thời, quá trình không? | Không | thì đơn | Có | thêm be + V-ing\nfork: Nhìn từ bây giờ hay từ một mốc quá khứ? | Bây giờ | bốn thì hiện tại | Mốc quá khứ | lùi trợ động từ đầu tiên\n!Lùi trợ động từ đầu tiên: do / does → did, am / is / are → was / were, have / has → had.\n!Chạm vào bản đồ, đổi giữa Hiện tại và Quá khứ để thấy từng cặp.",
+   "usage_context_vi": "fork: Có nối với một việc trước đó không? | Không | thì đơn hoặc tiếp diễn | Có | thêm have / had + V3\nfork: Có nhấn tạm thời, quá trình không? | Không | thì đơn | Có | thêm be + V-ing\nfork: Nhìn từ bây giờ hay từ một mốc quá khứ? | Bây giờ | bốn thì hiện tại | Mốc quá khứ | lùi động từ chia đầu tiên\n!Lùi động từ chia đầu tiên về quá khứ: lives → lived, am / is / are → was / were, have / has → had.\n!Quá khứ đơn còn là thì mặc định cho mọi việc đã xảy ra (bước 1); ba ô còn lại là cặp đúng nghĩa của ba ô hiện tại.\n!Chạm Từ một mốc quá khứ để thấy bốn ô quá khứ.",
    "contrasts": [],
-   "example_en": "She lives in Hanoi.\nShe is living in Hanoi now.\nI have studied the piano since 2003.\nI have been playing football for three hours.\nYesterday I played football at seven.\nYesterday I was playing football at seven.\nWhen I got to the station, the train had left.\nWe had been waiting for over an hour when the bus finally came.",
-   "example_vi": "Chị ấy sống ở Hà Nội. (hiện tại đơn)\nBây giờ chị ấy đang ở Hà Nội. (hiện tại tiếp diễn)\nTôi học piano từ năm 2003. (hiện tại hoàn thành)\nTôi chơi bóng ba tiếng nay rồi. (hoàn thành tiếp diễn)\nHôm qua lúc bảy giờ tôi đá bóng. (quá khứ đơn)\nHôm qua lúc bảy giờ tôi đang đá bóng. (quá khứ tiếp diễn)\nKhi tôi tới ga thì tàu đã chạy mất. (quá khứ hoàn thành)\nChúng tôi đã chờ hơn một tiếng thì xe buýt mới tới. (quá khứ hoàn thành tiếp diễn)",
+   "example_en": "She lives in Hanoi.\nShe is living in Hanoi now.\nI have studied the piano since 2003.\nI have been playing football for three hours.\nYesterday I played football at seven.\nYesterday I was playing football at seven.\nWhen I got to the station, the train had left.\nWe had been waiting for an hour when the bus came.",
+   "example_vi": "Chị ấy sống ở Hà Nội. (hiện tại đơn)\nBây giờ chị ấy đang ở Hà Nội. (hiện tại tiếp diễn)\nTôi học piano từ năm 2003. (hiện tại hoàn thành)\nTôi chơi bóng ba tiếng nay rồi. (hoàn thành tiếp diễn)\nHôm qua lúc bảy giờ tôi đá bóng. (quá khứ đơn)\nHôm qua lúc bảy giờ tôi đang đá bóng. (quá khứ tiếp diễn)\nKhi tôi tới ga thì tàu đã chạy mất. (quá khứ hoàn thành)\nChúng tôi đã chờ một tiếng thì xe buýt mới tới. (quá khứ hoàn thành tiếp diễn)",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 18-21; cách giảng của khóa học",
    "check": {
-    "stem": "Câu nào là cặp quá khứ của: I have been playing football for three hours?",
+    "stem": "Lùi câu I have been playing football for three hours về mốc trời bắt đầu mưa. Câu nào đúng?",
     "options": [
-     "I had been playing football for three hours.",
-     "I has been playing football for three hours.",
-     "I had playing football for three hours.",
-     "I was been playing football for three hours."
+     "I had been playing football for three hours when it started to rain.",
+     "I has been playing football for three hours when it started to rain.",
+     "I had playing football for three hours when it started to rain.",
+     "I was been playing football for three hours when it started to rain."
     ],
-    "why": "Lùi trợ động từ đầu tiên: have → had; phần còn lại giữ nguyên."
+    "why": "Lùi động từ chia đầu tiên: have → had; phần còn lại giữ nguyên."
    },
    "step_vi": "Bản đồ",
    "note_vi": "Lỗi người Việt hay mắc: Trộn hai mốc trong một câu kể: ~~When I got home, my brother has eaten all the pizza~~ → When I got home, my brother had eaten all the pizza.",
@@ -155,11 +155,11 @@
   },
   {
    "pattern": "Cặp hiện tại · quá khứ · cùng nghĩa, khác mốc",
-   "meaning_vi": "Mỗi thì quá khứ là thì hiện tại tương ứng, đặt về một mốc đã qua",
-   "usage_context_vi": "side: Dấu vết lúc này | I'm tired because I have been running. | nhìn từ bây giờ | trace\nside: Dấu vết lúc đó | I was tired because I had been running. | nhìn từ một mốc quá khứ | ptrace\n## Ba cặp khác\nstep: Than phiền | He is always leaving his clothes on the floor! → He was always leaving his clothes on the floor!\nstep: Lần đầu | It's the first time I have used this app. → It was the first time I had used a smartwatch.\nstep: Kéo tới mốc | I have known Lan for ten years. → I had known Lan for ten years when we started the company.\n!Cách dùng giữ nguyên; chỉ mốc nhìn đổi từ bây giờ sang một lúc đã qua.",
+   "meaning_vi": "Tiếp diễn, hoàn thành, hoàn thành tiếp diễn ở quá khứ là cặp của thì hiện tại tương ứng, đặt về một mốc đã qua",
+   "usage_context_vi": "side: Dấu vết lúc này | I'm tired because I have been running. | nhìn từ bây giờ | trace\nside: Dấu vết lúc đó | I was tired because I had been running. | nhìn từ một mốc quá khứ | ptrace\n## Ba cặp khác\nstep: Than phiền | He is always leaving his clothes on the floor! → He was always leaving his clothes on the floor!\nstep: Lần đầu | It's the first time I have used this app. → It was the first time I had used this app.\nstep: Kéo tới mốc | I have known Lan for ten years. → I had known Lan for ten years when we started the company.\n!Cách dùng giữ nguyên; chỉ mốc nhìn đổi từ bây giờ sang một lúc đã qua.",
    "contrasts": [],
-   "example_en": "I'm tired because I have been running.\nI was tired because I had been running.\nIt was the first time I had used a smartwatch.",
-   "example_vi": "Tôi mệt vì vừa chạy.\nLúc đó tôi mệt vì vừa chạy.\nĐó là lần đầu tôi dùng đồng hồ thông minh.",
+   "example_en": "I'm tired because I have been running.\nI was tired because I had been running.\nIt was the first time I had used this app.",
+   "example_vi": "Tôi mệt vì vừa chạy.\nLúc đó tôi mệt vì vừa chạy.\nĐó là lần đầu tôi dùng ứng dụng này.",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 18-21; cách giảng của khóa học",
    "check": {
@@ -174,7 +174,7 @@
    },
    "step_vi": "Từng cặp",
    "note_vi": "Lỗi người Việt hay mắc: Đổi mốc nhưng quên lùi trợ động từ: ~~I was tired because I have been running~~ → I was tired because I had been running.",
-   "exam_tip_vi": "Speaking Part 2 kể chuyện quá khứ: điều bạn nói được ở hiện tại đều có cặp ở quá khứ; chỉ cần lùi trợ động từ đầu tiên."
+   "exam_tip_vi": "Speaking Part 2 kể chuyện quá khứ: điều bạn nói được ở hiện tại đều có cặp ở quá khứ; chỉ cần lùi động từ chia đầu tiên."
   },
   {
    "pattern": "Ba bước chọn thì quá khứ · khi làm bài",
@@ -196,16 +196,16 @@
     "why": "Việc nấu ăn đang diễn ra thì chuông reo cắt ngang: bước 2."
    },
    "step_vi": "Ba bước",
-   "note_vi": "Lỗi người Việt hay mắc: Bỏ qua bước 1: thấy chữ \"đang\" là chọn tiếp diễn, thấy chuyện quá khứ là thêm had.",
+   "note_vi": "Lỗi người Việt hay mắc: Bỏ qua bước 1: thấy chữ \"đang\" là chọn tiếp diễn, thấy chuyện quá khứ là thêm had, thấy for là chọn thì hoàn thành (for chỉ cho biết độ dài).",
    "exam_tip_vi": "Khi phân vân mà không thấy tính tạm thời, cũng không cần nhấn việc nào xảy ra trước, hãy chọn quá khứ đơn."
   },
   {
    "pattern": "Làm bài và dùng thật · đáp án bài thi và ý muốn nói",
    "meaning_vi": "Bài thi có một đáp án theo dấu hiệu trong câu; khi nói và viết, điều bạn muốn nhấn quyết định thì",
-   "usage_context_vi": "## Ngoài đời · một câu, ba cách nói\nstep: Nhấn quá trình trước mốc | I had been watching the film for ten minutes when the screen froze.\nstep: Nhấn việc đã xảy ra trước | I had watched ten minutes of the film when the screen froze.\nstep: Nhấn khoảng tạm thời lúc đó | I was watching the film when the screen froze.\n!Ngữ pháp là công cụ cho điều bạn muốn nói, không phải những chiếc hộp tách rời.\n## Khi làm bài\n!Chọn đáp án mà dấu hiệu trong câu đòi hỏi: every day, when, for + thời lượng, before. Không có dấu hiệu nào thì chọn quá khứ đơn.",
+   "usage_context_vi": "## Ngoài đời · một câu, ba cách nói\nstep: Nhấn quá trình trước mốc | I had been watching the film for ten minutes when the screen froze.\nstep: Nhấn việc đã xảy ra trước | I had watched ten minutes of the film when the screen froze.\nstep: Nhấn khoảng tạm thời lúc đó | I was watching the film when the screen froze.\n!Ngữ pháp là công cụ cho điều bạn muốn nói, không phải những chiếc hộp tách rời.\n## Khi làm bài\n!Đi qua ba bước với cả câu, không dựa vào một chữ đơn lẻ. Không khớp bước 2 hay bước 3 thì chọn quá khứ đơn.",
    "contrasts": [],
    "example_en": "I had been watching the film for ten minutes when the screen froze.\nI had watched ten minutes of the film when the screen froze.\nI was watching the film when the screen froze.",
-   "example_vi": "Tôi đã xem phim được mười phút thì màn hình bị treo.\nTôi đã xem được mười phút phim thì màn hình bị treo.\nTôi đang xem phim thì màn hình bị treo.",
+   "example_vi": "Tôi đã xem suốt mười phút thì màn hình bị treo.\nTôi đã xem xong mười phút đầu của phim thì màn hình bị treo.\nTôi đang xem phim thì màn hình bị treo.",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 18-21; cách giảng của khóa học",
    "check": {
@@ -220,15 +220,15 @@
    },
    "step_vi": "Hai tình huống",
    "note_vi": "Lỗi người Việt hay mắc: Nghĩ rằng khi nói chỉ có một câu đúng. Bài thi chọn theo dấu hiệu; ngoài đời, mỗi thì nói một ý khác.",
-   "exam_tip_vi": "Speaking: giám khảo đánh giá cao việc chọn thì theo ý muốn nhấn, không phải việc dùng thì khó."
+   "exam_tip_vi": "Speaking: chọn thì theo điều bạn muốn nhấn và dùng cho đúng; band cao cần cả đa dạng lẫn chính xác."
   },
   {
    "pattern": "Một câu chuyện, bốn thì quá khứ · Speaking Part 2",
    "meaning_vi": "Dựng cảnh bằng tiếp diễn, kể việc chính bằng quá khứ đơn, lùi về trước bằng had + V3 và had been + V-ing",
-   "usage_context_vi": "step: Dựng cảnh · quá khứ tiếp diễn | Last summer I was travelling around Da Nang with two friends.\nstep: Việc chính · quá khứ đơn, lùi về trước · had + V3 | One evening we got lost because our phone battery had died.\nstep: Quá trình trước đó · had been + V-ing | We had been walking for two hours, so we were very tired.\nstep: Kết thúc · quá khứ đơn | Luckily, a shop owner let us charge the phone, and we found our way back.",
+   "usage_context_vi": "step: Dựng cảnh · quá khứ tiếp diễn | Last summer I was travelling around Da Nang with two friends.\nstep: Việc chính · quá khứ đơn, lùi về trước · had + V3 | One evening we got lost because our phone battery had died.\nstep: Quá trình trước đó · had been + V-ing | We had been walking for two hours, so we were very tired.\nstep: Kết thúc · quá khứ đơn | Luckily, a shop owner let us charge the phone, and the map app showed us the way back.",
    "contrasts": [],
-   "example_en": "Last summer I was travelling around Da Nang with two friends.\nOne evening we got lost because our phone battery had died.\nWe had been walking for two hours, so we were very tired.\nLuckily, a shop owner let us charge the phone, and we found our way back.",
-   "example_vi": "Hè năm ngoái tôi đang đi du lịch quanh Đà Nẵng với hai người bạn.\nMột buổi tối chúng tôi bị lạc vì điện thoại đã hết pin.\nChúng tôi đã đi bộ suốt hai tiếng nên rất mệt.\nMay mà một chủ cửa hàng cho chúng tôi sạc điện thoại, và chúng tôi tìm được đường về.",
+   "example_en": "Last summer I was travelling around Da Nang with two friends.\nOne evening we got lost because our phone battery had died.\nWe had been walking for two hours, so we were very tired.\nLuckily, a shop owner let us charge the phone, and the map app showed us the way back.",
+   "example_vi": "Hè năm ngoái tôi đang đi du lịch quanh Đà Nẵng với hai người bạn.\nMột buổi tối chúng tôi bị lạc vì điện thoại đã hết pin.\nChúng tôi đã đi bộ suốt hai tiếng nên rất mệt.\nMay mà một chủ cửa hàng cho chúng tôi sạc điện thoại, và ứng dụng bản đồ chỉ đường cho chúng tôi về.",
    "importance": "normal",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 18-21; cách giảng của khóa học",
    "check": {
@@ -248,7 +248,7 @@
  "notes": [
   {
    "title": "Mục tiêu của ngày",
-   "body": "• Đặt một câu bất kỳ vào đúng ô của tám thì\n• Chuyển một câu hiện tại sang cặp quá khứ của nó bằng cách lùi trợ động từ đầu tiên\n• Chọn thì quá khứ theo ba bước\n• Phân biệt đáp án bài thi với điều mình muốn nhấn\n• Kể một câu chuyện Speaking Part 2 bằng bốn thì quá khứ",
+   "body": "• Đặt một câu bất kỳ vào đúng ô của tám thì\n• Chuyển một câu hiện tại sang cặp quá khứ của nó bằng cách lùi động từ chia đầu tiên\n• Chọn thì quá khứ theo ba bước\n• Phân biệt đáp án bài thi với điều mình muốn nhấn\n• Kể một câu chuyện Speaking Part 2 bằng bốn thì quá khứ",
    "kind": "goal"
   },
   {
@@ -258,7 +258,7 @@
   },
   {
    "title": "Dùng ở đâu trong IELTS",
-   "body": "Speaking Part 2 cần kể chuyện bằng nhiều thì quá khứ một cách linh hoạt: dựng cảnh, kể việc chính, lùi về trước. Band 7 trở lên đến từ việc chọn thì theo ý muốn nhấn, không phải từ việc dùng thì khó.",
+   "body": "Speaking Part 2 cần kể chuyện bằng nhiều thì quá khứ một cách linh hoạt: dựng cảnh, kể việc chính, lùi về trước. Band 7 cần cấu trúc đa dạng, dùng linh hoạt và phần lớn câu không lỗi: dùng had đúng chỗ có lợi hơn dùng nhiều mà sai.",
    "kind": "language"
   }
  ],
@@ -266,7 +266,7 @@
  "coach": {
   "focus_vi": [
    "bản đồ ba câu hỏi: Hai câu hỏi của Tuần 1 chia bốn ô; câu hỏi thứ ba, nhìn từ bây giờ hay từ một mốc quá khứ, cho mỗi ô một cặp",
-   "cùng nghĩa, khác mốc: Mỗi thì quá khứ là thì hiện tại tương ứng, đặt về một mốc đã qua",
+   "cùng nghĩa, khác mốc: Tiếp diễn, hoàn thành, hoàn thành tiếp diễn ở quá khứ là cặp của thì hiện tại tương ứng, đặt về một mốc đã qua",
    "khi làm bài: Bước 1 quá khứ đơn, bước 2 quá khứ tiếp diễn, bước 3 quá khứ hoàn thành, rồi chọn dạng đơn hay tiếp diễn"
   ],
   "watch_out_vi": [
@@ -316,9 +316,9 @@
  ],
  "sessions": [
   {
-   "title_vi": "Buổi 1 · bản đồ tám thì, cặp hiện tại và quá khứ, ba bước",
-   "can_do_vi": "Sau buổi này bạn đặt được một câu vào đúng ô của tám thì, chuyển một câu hiện tại sang cặp quá khứ của nó, và chọn thì quá khứ theo ba bước.",
-   "use_vi": "Speaking Part 2 cần kể chuyện bằng nhiều thì quá khứ một cách linh hoạt: dựng cảnh, kể việc chính, lùi về trước. Band 7 trở lên đến từ việc chọn thì theo ý muốn nhấn, không phải từ việc dùng thì khó.",
+   "title_vi": "Buổi 1 · bản đồ tám thì, cặp hiện tại và quá khứ",
+   "can_do_vi": "Sau buổi này bạn đặt được một câu vào đúng ô của tám thì và chuyển một câu hiện tại sang cặp quá khứ của nó.",
+   "use_vi": "Speaking Part 2 cần kể chuyện bằng nhiều thì quá khứ một cách linh hoạt: dựng cảnh, kể việc chính, lùi về trước. Band 7 cần cấu trúc đa dạng, dùng linh hoạt và phần lớn câu không lỗi: dùng had đúng ch",
    "vocab": [
     "share",
     "store",
@@ -328,17 +328,16 @@
    ],
    "grammar": [
     "Tám thì · bản đồ ba câu hỏi",
-    "Cặp hiện tại · quá khứ · cùng nghĩa, khác mốc",
-    "Ba bước chọn thì quá khứ · khi làm bài"
+    "Cặp hiện tại · quá khứ · cùng nghĩa, khác mốc"
    ],
    "check": [
     "G1D24T1",
     "G1D24I1",
     "G1D24Q1",
+    "G1D24Q2",
     "G1D24T3",
     "G1D24I2",
-    "G1D24I3",
-    "G1D24I4"
+    "G1D24Q3"
    ],
    "lecture": [
     {
@@ -350,7 +349,7 @@
        "show": "hook"
       },
       {
-       "say": "Câu trả lời là ba. Buổi này dựng bản đồ tám thì từ ba câu hỏi đó, rồi học ba bước chọn thì quá khứ khi làm bài."
+       "say": "Câu trả lời là ba. Buổi này dựng bản đồ tám thì từ ba câu hỏi đó, rồi ghép từng cặp hiện tại và quá khứ."
       }
      ]
     },
@@ -491,14 +490,14 @@
        },
        {
         "key": "c4",
-        "tense": "QK hoàn thành tiếp diễn",
+        "tense": "Hoàn thành tiếp diễn",
         "form": "had been + V-ing",
         "at": "upto",
-        "en": "We had been waiting for over an hour when the bus came.",
-        "vi": "Chúng tôi đã chờ hơn một tiếng thì xe buýt tới."
+        "en": "We had been waiting for an hour when the bus came.",
+        "vi": "Chúng tôi đã chờ một tiếng thì xe buýt tới."
        }
       ],
-      "rule": "Nhìn từ một mốc quá khứ: giữ hai câu hỏi cũ, lùi trợ động từ đầu tiên về quá khứ."
+      "rule": "Nhìn từ một mốc quá khứ: giữ hai câu hỏi cũ, lùi động từ chia đầu tiên về quá khứ."
      },
      "lines": [
       {
@@ -540,13 +539,20 @@
        "say": "Ô thứ tư: kéo dài tới một mốc quá khứ. Quá khứ hoàn thành tiếp diễn."
       },
       {
-       "en": "We had been waiting for over an hour when the bus came.",
-       "vi": "Chúng tôi đã chờ hơn một tiếng thì xe buýt tới.",
+       "en": "We had been waiting for an hour when the bus came.",
+       "vi": "Chúng tôi đã chờ một tiếng thì xe buýt tới.",
        "gap": true,
        "show": "c4"
       },
       {
-       "say": "Nhìn từ một mốc quá khứ: giữ hai câu hỏi cũ, và lùi trợ động từ đầu tiên về quá khứ. Do thành did, am, is, are thành was, were, have thành had.",
+       "say": "Nhìn từ một mốc quá khứ: giữ hai câu hỏi cũ, và lùi động từ chia đầu tiên về quá khứ, như ba cặp sau."
+      },
+      {
+       "en": "lives, lived. am, was. have, had.",
+       "recap": false
+      },
+      {
+       "say": "Riêng quá khứ đơn còn là thì mặc định cho mọi việc đã xảy ra. Ba ô còn lại mới là cặp đúng nghĩa của ba ô hiện tại.",
        "show": "rule"
       }
      ]
@@ -573,7 +579,7 @@
        {
         "key": "k3",
         "head": "Lần đầu",
-        "en": "It was the first time I had used a smartwatch.",
+        "en": "It was the first time I had used this app.",
         "vi": "Cặp của: It's the first time I have used this app."
        }
       ],
@@ -603,13 +609,118 @@
        "show": "k3"
       },
       {
-       "en": "It was the first time I had used a smartwatch.",
-       "vi": "Đó là lần đầu tôi dùng đồng hồ thông minh.",
+       "en": "It was the first time I had used this app.",
+       "vi": "Đó là lần đầu tôi dùng ứng dụng này.",
        "gap": true
       },
       {
        "say": "Cách dùng giữ nguyên; chỉ mốc nhìn đổi từ bây giờ sang một lúc đã qua. Nói được ở hiện tại là kể được ở quá khứ.",
        "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "share",
+     "lines": [
+      {
+       "say": "Năm động từ của buổi này là những việc bạn làm mỗi ngày trên mạng. Từ thứ nhất. Quá khứ là shared, đuôi ed giống played."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "store",
+     "lines": [
+      {
+       "say": "Từ thứ hai: lưu trữ. Danh từ cùng chữ còn có nghĩa là cửa hàng."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "access",
+     "lines": [
+      {
+       "say": "Từ thứ ba. Câu ví dụ có hai thì: không truy cập được, vì đã quên mật khẩu từ trước."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "upload",
+     "lines": [
+      {
+       "say": "Từ thứ tư, trái nghĩa với download ở ngày hai. Câu ví dụ có while và thì tiếp diễn."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "browse",
+     "lines": [
+      {
+       "say": "Từ cuối: lướt xem. Câu ví dụ là một việc đang diễn ra bị cắt ngang."
+      }
+     ]
+    },
+    {
+     "kind": "recap",
+     "lines": [
+      {
+       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "show": "title"
+      }
+     ]
+    },
+    {
+     "kind": "end",
+     "next": "Tiếp theo: học thẻ và từ của buổi này, rồi làm bài.",
+     "lines": [
+      {
+       "say": "Hết buổi một. Bạn học các thẻ và từ trong app, rồi làm bài. Buổi hai học ba bước chọn thì quá khứ khi làm bài, khác biệt giữa đáp án bài thi và điều bạn muốn nói, rồi kể một câu chuyện bằng bốn thì quá khứ.",
+       "show": "title"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title_vi": "Buổi 2 · ba bước chọn thì, đáp án bài thi và ý muốn nói, kể chuyện",
+   "can_do_vi": "Sau buổi này bạn chọn được thì quá khứ theo ba bước, phân biệt được đáp án bài thi với điều mình muốn nhấn, tránh bốn lỗi khi trộn tám thì, và kể được một câu chuyện Speaking bằng bốn thì quá khứ.",
+   "use_vi": "Speaking Part 2 cần kể chuyện bằng nhiều thì quá khứ một cách linh hoạt: dựng cảnh, kể việc chính, lùi về trước. Band 7 cần cấu trúc đa dạng, dùng linh hoạt và phần lớn câu không lỗi: dùng had đúng ch",
+   "vocab": [
+    "account",
+    "password",
+    "storage",
+    "user",
+    "privacy"
+   ],
+   "grammar": [
+    "Ba bước chọn thì quá khứ · khi làm bài",
+    "Làm bài và dùng thật · đáp án bài thi và ý muốn nói",
+    "Một câu chuyện, bốn thì quá khứ · Speaking Part 2"
+   ],
+   "check": [
+    "G1D24I3",
+    "G1D24I4",
+    "G1D24Q5",
+    "G1D24Q6",
+    "G1D24I5",
+    "G1D24Q8",
+    "G1D24Q9"
+   ],
+   "lecture": [
+    {
+     "kind": "title",
+     "hook": "Đang xem phim thì màn hình bị treo: có mấy cách nói đúng?",
+     "lines": [
+      {
+       "say": "Bạn đang xem phim thì màn hình bị treo. Khi làm bài, chọn thì thế nào; khi nói thật, có bao nhiêu cách kể lại câu này cho đúng?",
+       "show": "hook"
+      },
+      {
+       "say": "Buổi này học ba bước chọn thì quá khứ khi làm bài, rồi ba cách nói khi dùng thật, sửa bốn lỗi hay gặp, và kể một câu chuyện Part 2 bằng bốn thì quá khứ."
       }
      ]
     },
@@ -676,106 +787,6 @@
      ]
     },
     {
-     "kind": "word",
-     "headword": "share",
-     "lines": [
-      {
-       "say": "Năm động từ của buổi này là những việc bạn làm mỗi ngày trên mạng. Từ thứ nhất. Quá khứ là shared, đuôi ed giống played."
-      }
-     ]
-    },
-    {
-     "kind": "word",
-     "headword": "store",
-     "lines": [
-      {
-       "say": "Từ thứ hai: lưu trữ. Danh từ cùng chữ còn có nghĩa là cửa hàng."
-      }
-     ]
-    },
-    {
-     "kind": "word",
-     "headword": "access",
-     "lines": [
-      {
-       "say": "Từ thứ ba. Câu ví dụ có hai thì: không truy cập được, vì đã quên mật khẩu từ trước."
-      }
-     ]
-    },
-    {
-     "kind": "word",
-     "headword": "upload",
-     "lines": [
-      {
-       "say": "Từ thứ tư, trái nghĩa với download ở ngày hai. Câu ví dụ có while và thì tiếp diễn."
-      }
-     ]
-    },
-    {
-     "kind": "word",
-     "headword": "browse",
-     "lines": [
-      {
-       "say": "Từ cuối: lướt xem. Câu ví dụ là một việc đang diễn ra bị cắt ngang."
-      }
-     ]
-    },
-    {
-     "kind": "recap",
-     "lines": [
-      {
-       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
-       "show": "title"
-      }
-     ]
-    },
-    {
-     "kind": "end",
-     "next": "Tiếp theo: học thẻ và từ của buổi này, rồi làm bài.",
-     "lines": [
-      {
-       "say": "Hết buổi một. Bạn học các thẻ và từ trong app, rồi làm bài. Buổi hai nói về khác biệt giữa đáp án bài thi và điều bạn muốn nói, rồi kể một câu chuyện bằng bốn thì quá khứ.",
-       "show": "title"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "title_vi": "Buổi 2 · đáp án bài thi và ý muốn nói, kể chuyện bằng bốn thì quá khứ",
-   "can_do_vi": "Sau buổi này bạn phân biệt được đáp án bài thi với điều mình muốn nhấn, tránh bốn lỗi khi trộn tám thì, và kể được một câu chuyện Speaking bằng bốn thì quá khứ.",
-   "use_vi": "Speaking Part 2 cần kể chuyện bằng nhiều thì quá khứ một cách linh hoạt: dựng cảnh, kể việc chính, lùi về trước. Band 7 trở lên đến từ việc chọn thì theo ý muốn nhấn, không phải từ việc dùng thì khó.",
-   "vocab": [
-    "account",
-    "password",
-    "storage",
-    "user",
-    "privacy"
-   ],
-   "grammar": [
-    "Làm bài và dùng thật · đáp án bài thi và ý muốn nói",
-    "Một câu chuyện, bốn thì quá khứ · Speaking Part 2"
-   ],
-   "check": [
-    "G1D24I5",
-    "G1D24Q8",
-    "G1D24Q9"
-   ],
-   "lecture": [
-    {
-     "kind": "title",
-     "hook": "Đang xem phim thì màn hình bị treo: có mấy cách nói đúng?",
-     "lines": [
-      {
-       "say": "Bạn đang xem phim thì màn hình bị treo. Có bao nhiêu cách kể lại câu này cho đúng?",
-       "show": "hook"
-      },
-      {
-       "say": "Buổi này trả lời câu hỏi đó, sửa bốn lỗi hay gặp khi trộn tám thì, rồi kể một câu chuyện Part 2 bằng bốn thì quá khứ."
-      }
-     ]
-    },
-    {
      "kind": "scene",
      "visual": "tense_timeline",
      "eyebrow": "Dùng thật",
@@ -791,7 +802,7 @@
         "at": "upto",
         "tense": "had been + V-ing · quá trình trước mốc",
         "en": "I had been watching the film for ten minutes when the screen froze.",
-        "vi": "Nhấn mười phút đã trôi qua."
+        "vi": "Nhấn quãng mười phút đã trôi qua."
        },
        {
         "key": "m2",
@@ -810,7 +821,7 @@
         "vi": "Nhấn việc đang diễn ra lúc màn hình treo."
        }
       ],
-      "rule": "Ngoài đời, bạn muốn nhấn điều gì thì chọn thì đó. Bài thi chọn theo dấu hiệu trong câu."
+      "rule": "Ngoài đời, bạn muốn nhấn điều gì thì chọn thì đó. Bài thi: đi qua ba bước với cả câu."
      },
      "lines": [
       {
@@ -827,7 +838,7 @@
       },
       {
        "en": "I had been watching the film for ten minutes when the screen froze.",
-       "vi": "Tôi đã xem phim được mười phút thì màn hình bị treo.",
+       "vi": "Tôi đã xem suốt mười phút thì màn hình bị treo.",
        "gap": true
       },
       {
@@ -836,7 +847,7 @@
       },
       {
        "en": "I had watched ten minutes of the film when the screen froze.",
-       "vi": "Tôi đã xem được mười phút phim thì màn hình bị treo.",
+       "vi": "Tôi đã xem xong mười phút đầu của phim thì màn hình bị treo.",
        "gap": true
       },
       {
@@ -849,7 +860,7 @@
        "gap": true
       },
       {
-       "say": "Cả ba đều đúng, mỗi câu nhấn một ý. Ngữ pháp là công cụ cho điều bạn muốn nói, không phải những chiếc hộp tách rời. Còn bài thi chỉ có một đáp án: chọn theo dấu hiệu trong câu, như for cộng thời lượng, when, every day hay before.",
+       "say": "Cả ba đều đúng, mỗi câu nhấn một ý. Ngữ pháp là công cụ cho điều bạn muốn nói, không phải những chiếc hộp tách rời. Còn bài thi chỉ có một đáp án: đi qua ba bước với cả câu, không dựa vào một chữ đơn lẻ.",
        "show": "rule"
       }
      ]
@@ -881,8 +892,8 @@
        },
        {
         "key": "e4",
-        "wrong": "I had been knowing Lan for ten years.",
-        "right": "I had known Lan for ten years.",
+        "wrong": "I had been knowing Lan for ten years when we started the company.",
+        "right": "I had known Lan for ten years when we started the company.",
         "why": "know là động từ trạng thái."
        }
       ],
@@ -922,8 +933,8 @@
        "show": "e4"
       },
       {
-       "en": "I had known Lan for ten years.",
-       "vi": "Tôi đã quen Lan được mười năm.",
+       "en": "I had known Lan for ten years when we started the company.",
+       "vi": "Lúc chúng tôi mở công ty, tôi đã quen Lan được mười năm.",
        "gap": true,
        "recap": false
       },
@@ -947,7 +958,7 @@
      "headword": "password",
      "lines": [
       {
-       "say": "Từ thứ hai: mật khẩu. Chữ w ở giữa không đọc."
+       "say": "Từ thứ hai: mật khẩu. Chữ vê kép ở giữa không đọc."
       }
      ]
     },
@@ -965,7 +976,7 @@
      "headword": "user",
      "lines": [
       {
-       "say": "Từ thứ tư: người dùng. Câu ví dụ có had cộng quá khứ phân từ, với mốc là cuối năm đầu tiên."
+       "say": "Từ thứ tư: người dùng. Câu ví dụ có had cộng quá khứ phân từ, với mốc là cuối năm đầu tiên của ứng dụng."
       }
      ]
     },
@@ -1013,8 +1024,8 @@
         "key": "q4",
         "role": "Kết thúc",
         "tense": "Quá khứ đơn",
-        "en": "Luckily, a shop owner let us charge the phone, and we found our way back.",
-        "vi": "May mà một chủ cửa hàng cho chúng tôi sạc điện thoại, và chúng tôi tìm được đường về."
+        "en": "Luckily, a shop owner let us charge the phone, and the map app showed us the way back.",
+        "vi": "May mà một chủ cửa hàng cho chúng tôi sạc điện thoại, và ứng dụng bản đồ chỉ đường cho chúng tôi về."
        }
       ],
       "rule": "Cảnh: tiếp diễn. Việc chính: quá khứ đơn. Việc trước đó: had + V3. Quá trình trước đó: had been + V-ing."
@@ -1062,8 +1073,8 @@
        "say": "Câu bốn: kết thúc bằng quá khứ đơn."
       },
       {
-       "en": "Luckily, a shop owner let us charge the phone, and we found our way back.",
-       "vi": "May mà một chủ cửa hàng cho chúng tôi sạc điện thoại, và chúng tôi tìm được đường về.",
+       "en": "Luckily, a shop owner let us charge the phone, and the map app showed us the way back.",
+       "vi": "May mà một chủ cửa hàng cho chúng tôi sạc điện thoại, và ứng dụng bản đồ chỉ đường cho chúng tôi về.",
        "gap": true,
        "show": "q4"
       },
@@ -1087,7 +1098,7 @@
      "next": "Tiếp theo: học thẻ và từ, làm bài, rồi buổi 3 và bài luyện theo sách.",
      "lines": [
       {
-       "say": "Hết phần giảng của ngày bốn, cũng là hết phần ngữ pháp của tuần. Bạn học các thẻ và từ trong app, làm bài, rồi sang buổi ba. Cuối ngày có tám câu luyện theo sách, mỗi câu trộn cả bốn thì quá khứ.",
+       "say": "Hết phần giảng của ngày bốn, cũng là hết phần ngữ pháp của tuần. Bạn học các thẻ và từ trong app, làm bài, rồi sang buổi ba. Cuối ngày có tám câu luyện theo sách, mỗi câu chọn một trong bốn dạng quá khứ.",
        "show": "title"
       }
      ]
@@ -1097,16 +1108,12 @@
   {
    "title_vi": "Buổi 3 · vận dụng: xếp câu, gõ, nghe chép, kể chuyện",
    "can_do_vi": "Sau buổi này bạn chọn đúng thì quá khứ theo ba bước, tự xếp và gõ đúng câu, nghe chép được câu trộn nhiều thì, và kể một chuyện của chính mình.",
-   "use_vi": "Speaking Part 2 cần kể chuyện bằng nhiều thì quá khứ một cách linh hoạt: dựng cảnh, kể việc chính, lùi về trước. Band 7 trở lên đến từ việc chọn thì theo ý muốn nhấn, không phải từ việc dùng thì khó.",
+   "use_vi": "Speaking Part 2 cần kể chuyện bằng nhiều thì quá khứ một cách linh hoạt: dựng cảnh, kể việc chính, lùi về trước. Band 7 cần cấu trúc đa dạng, dùng linh hoạt và phần lớn câu không lỗi: dùng had đúng ch",
    "vocab": [],
    "check": [
-    "G1D24Q2",
     "G1D24T2",
-    "G1D24Q3",
     "G1D24Q4",
     "G1D24T4",
-    "G1D24Q5",
-    "G1D24Q6",
     "G1D24Q7",
     "G1D24B1",
     "G1D24B2",

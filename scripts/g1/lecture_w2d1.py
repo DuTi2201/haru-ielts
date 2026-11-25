@@ -288,7 +288,7 @@ SITTING_2 = [
 ]
 
 RUBRIC = [
-    {"criterion_vi": "Đúng đề, nội dung là của chính bạn", "max": 1, "note_vi": "Task response"},
+    {"criterion_vi": "Đúng đề, nội dung là của chính bạn", "max": 1, "note_vi": "Fluency and coherence"},
     {"criterion_vi": "Kể việc đã qua bằng quá khứ đơn; chỉ câu nối tới bây giờ dùng hiện tại hoàn thành", "max": 2, "note_vi": "Grammatical range"},
     {"criterion_vi": "Dạng động từ đúng: V-ed và dạng bất quy tắc, didn't / did + nguyên thể, was / were", "max": 2, "note_vi": "Grammatical accuracy"},
 ]

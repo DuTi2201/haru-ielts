@@ -260,7 +260,7 @@ SITTING_2 = [
 ]
 
 RUBRIC = [
-    {"criterion_vi": "Đúng đề: có việc chính, việc xảy ra trước đó và kết quả", "max": 1, "note_vi": "Task response"},
+    {"criterion_vi": "Đúng đề: có việc chính, việc xảy ra trước đó và kết quả", "max": 1, "note_vi": "Fluency and coherence"},
     {"criterion_vi": "Việc xảy ra trước dùng had + V3 hoặc had been + V-ing, dựa vào một mốc quá khứ đơn", "max": 2, "note_vi": "Grammatical range"},
     {"criterion_vi": "Dạng động từ đúng: had + V3, had been + V-ing, V2 và V3 bất quy tắc", "max": 2, "note_vi": "Grammatical accuracy"},
 ]
