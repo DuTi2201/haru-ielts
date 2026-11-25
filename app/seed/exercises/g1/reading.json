@@ -6758,21 +6758,21 @@
      "options": [
       {
        "id": "1",
-       "text": "Before I met Nga, I had been running for two hours."
+       "text": "Before I met Anna, I had been running for two hours."
       },
       {
        "id": "2",
-       "text": "Before I met Nga, I had been run for two hours."
+       "text": "Before I met Anna, I had been run for two hours."
       },
       {
        "id": "3",
-       "text": "Before I met Nga, I have been running for two hours."
+       "text": "Before I met Anna, I have been running for two hours."
       }
      ],
      "answer": "1",
-     "explanation_vi": "Thời lượng kéo dài tới mốc gặp Nga → had been + V-ing.",
+     "explanation_vi": "Thời lượng kéo dài tới mốc gặp Anna → had been + V-ing.",
      "tags": [],
-     "prompt_vi": "Bạn đã chạy suốt hai tiếng rồi mới gặp Nga. Bạn kể."
+     "prompt_vi": "Bạn đã chạy suốt hai tiếng rồi mới gặp Anna. Bạn kể."
     }
    ]
   },
@@ -7156,13 +7156,13 @@
       }
      ],
      "answer": "2",
-     "explanation_vi": "Rời nhà đi học xảy ra trước lúc nhìn thấy bác đưa thư (`saw`) → `had just left`.",
+     "explanation_vi": "Rời nhà đi học xảy ra trước lúc nhìn thấy bác đưa thư (`saw`) → đáp án bài thi `had just left`. Văn nói đôi khi dùng just left.",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "I ( ) for school when I saw the postman and he gave it to me."
+    "text": "I ( ) for school when I saw the postman and he (gave / had given) it to me."
    }
   },
   {
@@ -7220,7 +7220,7 @@
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "It was really funny! I ( ) it during maths."
+    "text": "It was really funny! I ( ) it during maths and it (made / had made) me laugh."
    }
   },
   {
@@ -7330,13 +7330,13 @@
       }
      ],
      "answer": "2",
-     "explanation_vi": "Bị muộn là kết quả được kể lại → `was`. Nguyên nhân xảy ra trước, là việc để quên đồ ở nhà, mới chia had + V3.",
+     "explanation_vi": "Bị muộn là kết quả được kể lại → `was`. Đọc trọn câu: nguyên nhân xảy ra trước mới chia had + V3.",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "I ( ) late for the lesson because when I got there, I suddenly realised I had left my judo suit at home!"
+    "text": "I ( ) late for the lesson because when I (got / had got) there, I suddenly realised I (left / had left) my judo suit at home!"
    }
   },
   {
@@ -7365,7 +7365,7 @@
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "I was late for the lesson because when I ( ) there, I suddenly realised I had left my judo suit at home!"
+    "text": "I was late for the lesson because when I ( ) there, I suddenly realised I (left / had left) my judo suit at home!"
    }
   },
   {
@@ -7388,7 +7388,7 @@
       }
      ],
      "answer": "1",
-     "explanation_vi": "Để quên bộ đồ xảy ra trước lúc đến nơi và nhận ra → `had left`.",
+     "explanation_vi": "Để quên bộ đồ xảy ra trước lúc đến nơi và nhận ra → đáp án bài thi `had left`. Văn nói đôi khi dùng left.",
      "tags": []
     }
    ],
@@ -7423,7 +7423,7 @@
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "So I ( ) all the way home and when I got back, the lesson had already begun."
+    "text": "So I ( ) all the way home and when I (got / had got) back, the lesson (already began / had already begun)."
    }
   },
   {
@@ -7452,7 +7452,7 @@
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "So I went all the way home and when I ( ) back, the lesson had already begun."
+    "text": "So I went all the way home and when I ( ) back, the lesson (already began / had already begun)."
    }
   },
   {
@@ -7539,7 +7539,7 @@
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "The last time I ( ) to you, you talked about giving it up."
+    "text": "The last time I ( ) to you, you (talked / had talked) about giving it up."
    }
   },
   {

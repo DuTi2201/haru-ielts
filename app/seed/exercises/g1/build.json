@@ -5114,18 +5114,19 @@
    "rung": 1,
    "title_vi": "Xếp câu · Tuần 2 · Ngày 3",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "Chúng tôi đã chờ suốt một tiếng.",
+   "meaning_vi": "Tôi mệt vì vừa chạy bộ.",
    "tiles": [
-    "waiting",
+    "running",
+    "tired",
     "been",
-    "We",
+    "I",
     "had",
-    "hour",
-    "for",
-    "an"
+    "I",
+    "was",
+    "because"
    ],
    "answers": [
-    "We had been waiting for an hour"
+    "I was tired because I had been running"
    ]
   },
   {
@@ -5156,20 +5157,20 @@
    "rung": 1,
    "title_vi": "Xếp câu · Tuần 2 · Ngày 3",
    "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
-   "meaning_vi": "May mà tôi đã sao lưu các tệp.",
+   "meaning_vi": "Tôi không mất gì vì đã có bản sao lưu.",
    "tiles": [
-    "a",
-    "of",
-    "Luckily,",
-    "made",
-    "I",
-    "backup",
+    "because",
     "had",
-    "files",
-    "my"
+    "I",
+    "anything",
+    "didn't",
+    "I",
+    "lose",
+    "backup",
+    "a"
    ],
    "answers": [
-    "Luckily, I had made a backup of my files"
+    "I didn't lose anything because I had a backup"
    ]
   },
   {
@@ -5204,17 +5205,17 @@
    "title_vi": "Gõ dạng đúng · Tuần 2 · Ngày 3",
    "points": 3,
    "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
-   "text": "The app crashed because the developers ( ㉠ ) (not / test) it properly.",
+   "text": "By the time the app launched, the developers ( ㉠ ) (not / fix) the bug.",
    "blanks": [
     {
      "id": "㉠",
      "points": 3,
      "accepted": [
-      "hadn't tested",
-      "had not tested",
-      "'d not tested"
+      "hadn't fixed",
+      "had not fixed",
+      "'d not fixed"
      ],
-     "common_errors_vi": "Việc không thử nghiệm xảy ra trước khi ứng dụng sập → hadn't + V3."
+     "common_errors_vi": "By the time + mốc quá khứ: việc chưa xong trước mốc đó → hadn't + V3."
     }
    ],
    "tips_vi": []
@@ -5260,9 +5261,11 @@
      "points": 3,
      "accepted": [
       "had been raining",
-      "'d been raining"
+      "had rained",
+      "'d been raining",
+      "'d rained"
      ],
-     "common_errors_vi": "Mưa vừa dừng, để lại dấu vết là mặt đường ướt → had been + V-ing."
+     "common_errors_vi": "Mưa vừa dừng, để lại dấu vết là mặt đường ướt → đáp án bài thi: had been raining. had rained cũng đúng ngữ pháp."
     }
    ],
    "tips_vi": []
@@ -5354,7 +5357,7 @@
       "had been waiting",
       "'d been waiting"
      ],
-     "common_errors_vi": "Thời lượng kéo dài `for over an hour` tới lúc tàu đến → had been + V-ing. Ngoài đời, had waited vẫn được hiểu."
+     "common_errors_vi": "Thời lượng kéo dài `for over an hour` tới lúc tàu đến → đáp án bài thi: had been waiting. had waited cũng đúng ngữ pháp."
     }
    ],
    "tips_vi": []

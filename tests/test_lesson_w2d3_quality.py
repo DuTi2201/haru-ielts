@@ -108,7 +108,7 @@ def test_gate_the_class_examples_are_taught_in_their_corrected_form():
         (s1, "Oh, I had bought a new phone earlier"),  # the last line of the class dialogue says when
         (s1, "I had my first judo lesson yesterday"),
         (s1, "It was the first time I had used a smartwatch"),
-        (s2, "Before I met Nga, I had been running for two hours"),
+        (s2, "Before I met Anna, I had been running for two hours"),
         (s2, "Her eyes were red because she had been crying"),  # a trace, with no stated duration
         (s2, "I had known Lan for ten years when we started the company"),
     ):
