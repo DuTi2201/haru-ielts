@@ -429,3 +429,14 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
 - Kiểm thử còn lỗi đã biết: `test_a_sitting_is_not_too_heavy` (Tuần 1 Ngày 1 có 4 thẻ), chờ chủ dự án quyết.
 - Tiếp theo: Ngày 2 — quá khứ tiếp diễn (bài A, B của Unit 3).
 - Sự cố 25/11: `site-deploy.sh` chép Caddyfile của Haru Korean (không có dòng import) làm cấu hình chính, nên lần reload làm mất site IELTS khoảng 1 phút (lỗi TLS). Đã khôi phục; script nay tự thêm `import /run/haru-mcp/caddy/ielts.caddy` và dừng nếu thiếu. Kiểm tra sau deploy từ VM: `curl https://ielts.34-9-216-231.sslip.io/` phải trả 200.
+
+## Tuần 2 · Ngày 2 — Quá khứ tiếp diễn (g1-d22), đã soát và deploy
+
+- Nguồn: `scripts/g1/days.txt` (`#D 22`), bài giảng `scripts/g1/lecture_w2d2.py`, bài sách A và B trong `scripts/g1/book_items.py` (mã `W2A`, `W2B`, ngày 22; đáp án của sách, lời giải theo Buổi 3 chặng 4–5, có phân biệt "đáp án bài thi" và "ngoài đời"), kiểm thử `tests/test_lesson_w2d2_quality.py`.
+- Sáu thẻ: công thức và đuôi -ing; một điểm hay một khoảng; when và while; than phiền và dựng cảnh; khi nào không dùng tiếp diễn; hỏi và kể. Mười từ: crash, freeze, install, download, connect, battery, screen, signal, software, update (Oxford BrE).
+- `reshape` chọn câu hỏi xoay vòng theo thẻ (mỗi thẻ được dạy có ít nhất một câu), tối đa 7 câu một buổi; phần dư mở đầu buổi 3. Hai buổi "Luyện theo sách" (22 câu) xếp cuối ngày.
+- Giao diện: ba hình trục mới `pwin` (khoảng quanh một mốc), `cut` (bị cắt ngang, chuỗi lựa chọn `━━ϟ┄┄`), `pair` (song song) trong TimeAxis, Rich (`side:`) và LectureScenes; LectureScenes có thêm `two` (hai việc rời nhau). Hình mới: crash, frozen, install, download, plug, battery, monitor, signal, code_window, refresh, rain, bulb_off.
+- Soát hai vòng bởi agent cấp cao: đã sửa Q5 và F4 (từng có hai đáp án), trap thẻ 2 tự mâu thuẫn, quy tắc gấp đôi phụ âm khi đọc (cả Ngày 1), tách câu tiếng Anh khỏi lời tiếng Việt, bỏ gạch những câu vẫn đúng trong ngữ cảnh khác.
+- Quy tắc rút ra: phương án nhiễu và câu bị gạch phải sai trong mọi ngữ cảnh, hoặc lời giải phải nói rõ "đáp án bài thi".
+- Chưa làm: xem trực quan trên tài khoản đăng nhập.
+- Tiếp theo: Ngày 3 — quá khứ hoàn thành và quá khứ hoàn thành tiếp diễn (bài C, D của Unit 3).
