@@ -490,7 +490,7 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
   - xã hội: uniform, conservative, radical, dynamic, novel, influence, innovation, potential;
   - công nghệ: primitive, technique, resource.
   - Thêm 5 từ chỉ cần nhận ra (priority recognize): breakthrough, network, data, console, craft.
-- Sau 5 buổi giảng là các buổi: Tiếp nhận (B + D, 22 câu chọn), Vận dụng (Câu của tôi), Rèn luyện (A 10 câu gõ, C 15 câu gõ). Sách in bài C 15 câu, đáp án liệt kê 16 từ.
+- Sau 5 buổi giảng là các buổi: Tiếp nhận (B + D, 22 câu chọn), Vận dụng (Câu của tôi), Rèn luyện (A 10 câu gõ, C 16 câu gõ).
 - Cảnh trong bài giảng: picture_cards, fix_pairs, ref_table, story_strip (nước Anh sau chiến tranh). 19 hình từ mới trong `StoryArtWords.tsx` (oak, calm_face, shift_arrow, butterfly, slider, warp_mirror, evolve_steps, sprout_tree, cloud_down, leaf_decay, sub_board, same_houses, anchor, root, seed, stone_tool, drop, gamepad, chisel).
 - Soát cấp cao, đã sửa:
   - Câu B2 và B6 lộ đáp án của câu 3 và 7.
@@ -505,3 +505,28 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
   - Test của ngày: 80 passed.
 - Audio chưa thu (thu khi học viên bấm phát lần đầu).
 - Tiếp theo: Tuần 2 Ngày 6 — đọc chậm The steam car (Cam 18 Test 3 Passage 2).
+
+### Đối chiếu lại với ghi chú chi tiết Buổi 4 (25/11, tối)
+
+- Nguồn đối chiếu: bản ghi chú chi tiết Buổi 4 người dùng đã tải lên (`ghi_chu_chi_tiet_buoi_4_vocab_c1_reading_cam18_thay_minh.md`, chặng 1–3 và phần tổng kết).
+- Danh sách từ: đúng 30 mục thầy lọc trên lớp.
+  - Ba mục học nguyên cụm: make progress, have an influence on, natural resource.
+  - Bỏ 5 từ "nhận ra" tự thêm trước đó (breakthrough, network, data, console, craft). Các từ này chỉ còn trong bài D; console và data có ở cảnh luyện phát âm.
+- Thêm cách giảng của thầy:
+  - Ba bước học từ: lọc động từ và danh từ; mười từ mỗi ngày, nhẩm (rehearsal) cho trí nhớ ngắn hạn; hiểu khái niệm, từ loại, giới từ, cụm và gặp lại 10–15 lần cho trí nhớ dài hạn. Kèm hai lời khuyên: không có đường tắt, và lên trình độ cao thì chuyển sang từ điển giải nghĩa bằng tiếng Anh.
+  - Cảnh "một chữ tiếng Việt, năm từ tiếng Anh" (change, shift, modify, substitute, switch). substitute giảng theo mô hình "cái mới đè vào chỗ cái cũ".
+  - modify bằng hình ảnh độ xe ô tô.
+  - uniform society bằng ví dụ xã hội Việt Nam.
+  - evolve: từ sinh vật sang xã hội.
+  - maintain là ngoại động từ (a balance, my grades, a car); remain là nội động từ, động từ nối.
+  - persist dịch theo sắc thái: cố chấp hay kiên trì.
+  - Manh mối trong câu: fixed → dynamic, New and → innovative.
+  - Ba cách loại đáp án: thời gian, giới từ, phạm vi kết hợp.
+  - Lỗi từ loại: danh từ sau will; technical sau a.
+  - Phát âm: console, data, technique/technical, experience, substitute, mature.
+  - Lời khuyên tra hình ảnh cho đồ vật và công nghệ.
+  - Câu chuyện nước Anh có thêm revolution, status quo và mẫu away from … towards ….
+- Bài C bổ sung câu 16 (The political situation … has deteriorated rapidly), theo đáp án sách và lời chữa trên lớp. Bản OCR trước đó thiếu câu này.
+- Lời giải sửa theo lời thầy: A1, A2, A5, A7, B12, C11, D6, D7.
+- Soát cấp cao lần hai dựa trên ghi chú; đã sửa hết các mục bắt buộc.
+- Bộ test đầy đủ vẫn có đúng 31 lỗi cũ như trước thay đổi; các test của ngày đều đạt.
