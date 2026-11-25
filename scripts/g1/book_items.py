@@ -340,14 +340,14 @@ SECTIONS: list[tuple] = [
     # ---------------------------------------------------------------- week 2, day 2 (build day 22): Destination B2 Unit 3, A and B
     # Answers: the book's key; reasons and the "outside the exam" notes follow the course's session 3 (stage 4: A, stage 5: B).
     (22, "W2A", B3 + " · bài A (trang 20)", "Quá khứ đơn hay quá khứ tiếp diễn", "Chọn đáp án của bài thi. Hỏi: người nói kể một việc đã xảy ra (một điểm), hay nhìn vào một khoảng tạm thời đang diễn ra?", "choice", [
-        "I ( ) Maria for the first time at Ray's birthday party. | saw | was seeing | Kể một sự kiện: lần đầu gặp Maria → `saw`. `see` (nhìn thấy) là việc tức thì; còn `was seeing someone` thường được hiểu là đang hẹn hò với ai đó.",
+        "I ( ) Maria for the first time at Ray's birthday party. | saw | was seeing | Kể một sự kiện đã xảy ra lần đầu → đáp án bài thi `saw`. Ngoài đời chỉ nói was seeing khi cố ý nhấn khoảnh khắc đang nhìn thấy; và `was seeing someone` còn hay được hiểu là đang hẹn hò.",
         "Richard ( ) TV when the phone rang. | was watching | watched | Chuông reo là việc ngắn cắt ngang; lúc đó việc xem TV đang diễn ra → `was watching`. Chia cả hai vế quá khứ đơn thì câu không cho biết hai việc diễn ra cùng lúc.",
         "When we were on holiday, we ( ) to the café almost every day. | went | were going | Nếu câu dừng ở `to the café`, cả hai đều được. Nhưng có `almost every day`: việc lặp lại, không còn tính tạm thời → `went`.",
         "Denise ( ) the song every day until she could sing it perfectly. | practised | was practising | `every day`: luyện lặp lại hằng ngày cho tới khi hát được → quá khứ đơn.",
-        "The phone was engaged when I called. Who ( ) to? | were you talking | did you talk | Máy bận đúng lúc tôi gọi: việc đang nói chuyện là một khoảng tạm thời quanh mốc `when I called` → `were you talking`. Ngoài đời, hỏi gọn `Who did you talk to?` vẫn được hiểu.",
-        "Mr Connors ( ) two houses and a villa in the south of France. | owned | was owning | `own` là động từ trạng thái: sở hữu nhà cửa là trạng thái ổn định, không phải việc tạm thời → `owned`.",
-        "I ( ) my homework as soon as I got home from school. | did | was doing | `as soon as I got home`: các việc nối tiếp nhau → `did`. Ngoài đời, `was doing` chỉ dùng khi muốn nhấn khoảng thời gian đang ngồi làm bài.",
-        "A car came round the corner and I ( ) out of the way. | jumped | was jumping | Nhảy tránh xe là việc chớp nhoáng, nối tiếp `came` → `jumped`. Không ai nhấn khoảng nửa giây đang nhảy.",
+        "The phone was engaged when I called. Who ( ) to? | were you talking | did you talk | Máy bận đúng lúc tôi gọi: việc đang nói chuyện là một khoảng tạm thời quanh mốc `when I called` → `were you talking`. Đây là đáp án bài thi; ngoài đời, hỏi gọn `Who did you talk to?` vẫn được hiểu.",
+        "Mr Connors ( ) two houses and a villa in the south of France. | owned | was owning | `own` là động từ trạng thái: sở hữu nhà cửa là trạng thái ổn định, không ai sở hữu tạm thời vài hôm → `owned`. Nói was owning nghe như sắp mất nhà: câu đùa này giúp nhớ.",
+        "I ( ) my homework as soon as I got home from school. | did | was doing | `as soon as I got home`: các việc nối tiếp nhau → đáp án bài thi `did`. Ngoài đời, `was doing` chỉ dùng khi muốn nhấn khoảng thời gian đang ngồi làm bài.",
+        "A car came round the corner and I ( ) out of the way. | jumped | was jumping | Nhảy tránh xe là việc chớp nhoáng, nối tiếp `came` → `jumped`. Từng có người chọn was jumping để tả nửa giây lơ lửng trên không, nhưng không ai nhấn khoảng nửa giây ấy.",
         "When my dad met my mum, he ( ) as a bus driver. | was working | worked | Lúc bố gặp mẹ, công việc lái xe buýt là một giai đoạn tạm thời → đáp án `was working`. Ngoài đời, `worked` để nêu nghề của bố lúc đó cũng đúng.",
         "I ( ) up at six o'clock every morning last week! | got | was getting | `every morning last week`: việc lặp lại → quá khứ đơn.",
         "My cousin and I ( ) on the computer when there was a power cut. | were playing | played | Mất điện bất ngờ cắt ngang lúc hai người đang chơi máy tính → `were playing`.",
@@ -358,12 +358,12 @@ SECTIONS: list[tuple] = [
         "( ㉠ ) (you / enjoy) the film? | Did you enjoy | Hỏi cảm nhận về bộ phim đã xem xong: người hỏi dùng thì đơn giản nhất, quá khứ đơn.",
         "When we shared a room, Zoe ( ㉠ ) (always / take) my things. It was so annoying! | was always taking | Than phiền về một thói quen trong quá khứ, có lời bình `It was so annoying!` → `was always taking`.",
         "When I went to get the tickets, I realised I ( ㉠ ) (not / have) any money. | didn't have;did not have | `have` (có tiền) là động từ trạng thái → quá khứ đơn, phủ định `didn't have`.",
-        "When I was young, we ( ㉠ ) (go) to France every year on holiday. | went | `every year`: việc lặp lại hằng năm → bài thi chọn `went`.",
+        "When I was young, we ( ㉠ ) (go) to France every year on holiday. | went | `every year on holiday`: việc lặp lại hằng năm → đáp án bài thi `went`. Ngoài đời, người nói coi tuổi thơ là một giai đoạn tạm thời thì vẫn có thể nói were going, nhưng bài thi chọn went.",
         "Elvis ( ㉠ ) (become) famous for the song Blue Suede Shoes. | became | Một sự kiện trong đời một người đã khép lại → quá khứ đơn. become → became.",
-        "When you rang last night, I ( ㉠ ) (work) in the garden so I didn't hear the phone. | was working | Chuông reo chỉ trong ít giây; trong lúc đó tôi đang làm vườn → `was working`. Ngôi I đi với was; sau didn't đọc hear, không đọc heard.",
+        "When you rang last night, I ( ㉠ ) (work) in the garden so I didn't hear the phone. | was working | Chuông chỉ reo khoảng nửa phút; trong khoảng tạm thời đó tôi đang làm vườn nên không nghe thấy → `was working`. Ngôi I đi với was; sau didn't đọc hear, không đọc heard.",
         "I ( ㉠ ) (hear) from Davina last night. She says hello. | heard | Kể lại việc tối qua nhận được tin của Davina → quá khứ đơn. hear → heard.",
         "The old man ( ㉠ ) (appear) to be very tired and he slowly sat down. | appeared | `appear` (trông có vẻ) là trạng thái, nối với việc tiếp theo `sat down` → quá khứ đơn.",
-        "We ( ㉠ ) (throw) a surprise party for my brother last Saturday. | threw | Bữa tiệc thứ Bảy tuần trước được kể như một sự kiện đã xong → `threw`. throw là động từ bất quy tắc.",
+        "We ( ㉠ ) (throw) a surprise party for my brother last Saturday. | threw | Bữa tiệc thứ Bảy tuần trước được kể như một sự kiện đã xong → đáp án bài thi `threw`. Chỉ khi muốn nhấn khoảng thời gian bữa tiệc đang diễn ra mới nói were throwing. throw là động từ bất quy tắc.",
     ]),
     # ---------------------------------------------------------------- week 2, day 3 (build day 23): Destination B2 Unit 3, C and D
     # Answers: the book's key; reasons follow the course's session 3 (stage 5: C, stage 6: D).
@@ -393,9 +393,9 @@ SECTIONS: list[tuple] = [
         "I ( ㉠ ) (see) the film before, so I knew how it ended. | had seen | Trải nghiệm trước đó, có `before` → had + V3. ended đọc /ˈendɪd/.",
         "When he got married, I ( ㉠ ) (know) Chris for about two years. | had known | Quen nhau trước mốc anh ấy cưới; know là động từ trạng thái → had + V3, không dùng tiếp diễn.",
         "Johnson ( ㉠ ) (get) ready for the race for six months and finally the big moment came. | had been getting | Cụm cố định get ready, thời lượng `for six months` → had been + V-ing.",
-        "Vivian ( ㉠ ) (have) computer lessons for very long, so she wasn't sure how to use the Internet. | hadn't been having;had not been having | Phủ định, nhấn thời lượng `for very long` → hadn't been + V-ing. have lessons là cụm cố định.",
+        "Vivian ( ㉠ ) (have) computer lessons for very long, so she wasn't sure how to use the Internet. | hadn't been having;had not been having;hadn't had;had not had | Phủ định, nhấn thời lượng `for very long` → đáp án bài thi hadn't been having. hadn't had cũng đúng. Cụm cố định: have lessons hoặc get lessons.",
         "Holly ( ㉠ ) (eat) oysters before, so she wasn't sure what to do with them. | hadn't eaten;had not eaten;had never eaten | Chưa từng có trải nghiệm này trước đó, có `before` → hadn't + V3.",
-        "I ( ㉠ ) (listen) to my new CD for a few minutes when the CD player started making a funny noise. | had been listening | Thời lượng `for a few minutes` tới lúc đầu đĩa kêu → had been + V-ing.",
+        "I ( ㉠ ) (listen) to my new CD for a few minutes when the CD player started making a funny noise. | had been listening;'d been listening;had listened;was listening | Thời lượng `for a few minutes` tới lúc đầu đĩa kêu → đáp án bài thi had been listening (nhấn quá trình trước mốc). Ngoài đời, had listened (nhấn việc xảy ra trước) hay was listening (nhấn lúc đầu đĩa kêu) cũng dùng được, tùy điều người nói muốn nhấn.",
     ]),
     # ---------------------------------------------------------------- week 2, day 4 (build day 24): Destination B2 Unit 3, E
     # Answers: the book's key. Not worked in class: the reasons are the course's own, written as the three steps of session 3.

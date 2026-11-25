@@ -683,6 +683,22 @@
        "gap": true
       },
       {
+       "say": "Sự kiện lịch sử cũng vậy. Nhìn cả sự kiện như một vạch trên trục thời gian, đã khép lại: quá khứ đơn."
+      },
+      {
+       "en": "The war ended in 1975.",
+       "vi": "Chiến tranh kết thúc năm 1975.",
+       "gap": true
+      },
+      {
+       "say": "Chỉ khi muốn phóng vào bên trong một giai đoạn, như từ đầu đến cuối một năm, mới dùng thì tiếp diễn."
+      },
+      {
+       "en": "In 1974, the two sides were still fighting.",
+       "vi": "Năm 1974, hai bên vẫn đang giao tranh.",
+       "gap": true
+      },
+      {
        "say": "Quá khứ tiếp diễn nhìn từ bên trong một khoảng tạm thời.",
        "show": "rule"
       }
@@ -957,6 +973,14 @@
       {
        "en": "I didn't know the password.",
        "vi": "Tôi không biết mật khẩu.",
+       "gap": true
+      },
+      {
+       "say": "Sở hữu nhà cửa cũng là một trạng thái ổn định: không ai sở hữu tạm thời một căn nhà vài hôm. Nói was owning, nghe như sắp mất nhà đến nơi."
+      },
+      {
+       "en": "Mr Connors owned two houses and a villa.",
+       "vi": "Ông Connors sở hữu hai căn nhà và một biệt thự.",
        "gap": true
       },
       {

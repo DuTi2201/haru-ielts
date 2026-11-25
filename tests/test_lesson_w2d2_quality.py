@@ -111,10 +111,12 @@ def test_gate_the_class_examples_are_taught_in_their_corrected_form():
         (s2, "Yes, we were hanging out at a convenience store at around 7 p.m"),
         (s2, "I got up at six every morning last week"),
         (s2, "I didn't know the password"),
+        (s1, "The war ended in 1975"),
+        (s2, "Mr Connors owned two houses and a villa"),
     ):
         assert sentence in text, sentence
     for text in (s1, s2):
-        assert "warring" not in text and "1974" not in text  # the war example is replaced (docs/WEEK2_PLAN.md, point 3)
+        assert "warring" not in text and "America" not in text  # the war example keeps its point and period, in neutral words (docs/WEEK2_PLAN.md, point 3)
 
 
 def test_gate_each_sitting_teaches_its_own_words():

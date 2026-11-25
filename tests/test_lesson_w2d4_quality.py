@@ -109,6 +109,8 @@ def test_gate_the_class_examples_are_taught_in_their_corrected_form():
         (s2, "I got up at six every morning last week"),
         (s2, "I had been watching the film for ten minutes when the screen froze"),
         (s2, "I was watching the film when the screen froze"),
+        (s1, "I have been running for three hours"),
+        (s1, "I get up at ten every day"),
     ):
         assert sentence in text, sentence
     for text in (s1, s2):
