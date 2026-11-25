@@ -156,7 +156,7 @@ SITTING_1 = [
         {"say": "Modify chỉ đổi một vài phần, không đổi toàn bộ.", "show": "c3"},
         {"say": "Substitute: có cái cũ và cái mới; cái mới đè vào chỗ cái cũ, và cái cũ không còn nữa.", "show": "c4"},
         {"en": "B takes the place of A, and A is gone.", "vi": "B thế chỗ A, và A không còn nữa.", "gap": True, "recap": False},
-        {"say": "Switch: A và B đổi chỗ cho nhau, cả hai vẫn còn đó.", "show": "c5"},
+        {"say": "Switch: hai thứ đổi chỗ cho nhau, cả hai vẫn còn đó.", "show": "c5"},
         {"say": "Dịch sang tiếng Việt, sắc thái mất đi rất nhiều. Lúc đầu có thể học nghĩa tiếng Việt, nhưng muốn phân biệt được thì phải hiểu khái niệm bằng tiếng Anh.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "endure", "lines": [
