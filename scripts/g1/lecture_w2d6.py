@@ -365,7 +365,7 @@ READ_2 = [
      "data": {"cols": ["Bước", "Câu", "Khung câu"], "rows": BOOK_MODEL, "rule": "Thấy V3 hay V-ing đứng ngay sau danh từ: thêm which và be vào để hiểu, rồi nối chủ ngữ với động từ chính."}, "lines": [
         {"say": "Bắt đầu bằng một câu thật dễ.", "show": "r1"},
         {"en": "A book, which was given to me, is Harry Potter.", "vi": "Một cuốn sách, cuốn được tặng cho tôi, là Harry Potter.", "gap": True},
-        {"say": "Chủ ngữ chính là a book, động từ chính là is. Phần giữa hai dấu phẩy là phần phụ."},
+        {"say": "Chủ ngữ chính là cuốn sách, động từ chính là is. Phần giữa hai dấu phẩy là phần phụ."},
         {"say": "Bỏ which và was đi, câu vẫn đúng. Phần phụ chỉ còn động từ ở dạng thứ ba.", "show": "r2"},
         {"en": "A book, given to me, is Harry Potter.", "vi": "Một cuốn sách được tặng cho tôi là Harry Potter.", "gap": True},
         {"say": "Giờ đến câu trong đoạn thứ ba.", "show": "r3"},

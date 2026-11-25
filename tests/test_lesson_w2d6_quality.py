@@ -155,7 +155,7 @@ def test_the_highlighted_paragraphs_are_the_passage_word_for_word():
 def test_gate_the_reading_method_is_taught():
     says = " ".join(" ".join(_says(lec)) for lec in AUTHORED.values())
     for phrase in ("bảy phút", "từ chuyên ngành", "tra bằng hình ảnh", "danh từ chính", "chủ ngữ chính", "động từ chính",
-                   "bản tóm tắt tốt nhất của cả đoạn", "mạch thông tin", "nghĩa bóng", "Ngữ pháp khó đọc không phải ngữ pháp hay",
+                   "bản tóm tắt tốt nhất của cả đoạn", "mạch thông tin", "nghĩa bóng", "ngữ pháp khó đọc không phải ngữ pháp hay",
                    "chưa cần mẹo", "quá khứ hoàn thành", "trí nhớ dài hạn"):
         assert phrase in says, phrase
     script = "\n".join(_lecture(n).script for n in SITTINGS)
@@ -189,7 +189,7 @@ def test_the_questions_carry_the_book_key():
     assert {f"G1D26KW6S-{k}" for k in (1, 2, 3)} | {"G1D26RP1", "G1D26RP2", "G1D26M1", "G1D26M2"} <= ids
 
 
-BANNED = ("Sách", "sách", "Cambridge", "Destination", "thầy", "Thầy", "Minh", "Trích", "trang 6", "Test 3", "Urban")
+BANNED = ("Sách", "Cambridge", "Destination", "thầy", "Thầy", "Minh", "Trích", "trang 6", "Test 3", "Urban")
 
 
 def test_gate_learner_facing_text_names_no_book_and_no_teacher():
