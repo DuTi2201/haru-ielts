@@ -574,7 +574,7 @@
        "show": "c3"
       },
       {
-       "say": "Substitute: có A và B, B đè vào chỗ của A, và A không còn nữa.",
+       "say": "Substitute: có cái cũ và cái mới; cái mới đè vào chỗ cái cũ, và cái cũ không còn nữa.",
        "show": "c4"
       },
       {
@@ -1065,7 +1065,7 @@
      },
      "lines": [
       {
-       "say": "Ba từ đều là sửa đổi, và cách chọn là nhìn thứ được sửa. Reform: một hệ thống. Để ý mẫu câu: sau It's time, động từ chia quá khứ dù ý nói về bây giờ. Mẫu này học kỹ ở tuần mười.",
+       "say": "Ba từ đều là sửa đổi, và cách chọn là nhìn thứ được sửa. Reform: một hệ thống. Để ý mẫu câu trong ví dụ: đã đến lúc làm gì, động từ chia quá khứ dù ý nói về bây giờ. Mẫu này học kỹ ở tuần mười.",
        "show": "f1"
       },
       {
@@ -1337,7 +1337,7 @@
      "hook": "Cầm nhầm túi của người khác ở sân bay: đó là substitute hay switch?",
      "lines": [
       {
-       "say": "Cầm nhầm túi của người khác ở sân bay: đó là substitute hay switch?",
+       "say": "Cầm nhầm túi của người khác ở sân bay: đó là substitute, hay là switch?",
        "show": "hook"
       },
       {
@@ -1522,7 +1522,7 @@
      "headword": "substitute",
      "lines": [
       {
-       "say": "Quay lại khái niệm ở buổi một. Có A và B. Khi B đè vào chỗ của A thì A không còn tồn tại nữa: đó là substitute. Cụm rất hay dùng: không gì thay thế được."
+       "say": "Quay lại khái niệm ở buổi một. Có cái cũ và cái mới. Khi cái mới đè vào chỗ cái cũ thì cái cũ không còn tồn tại nữa: đó là substitute. Cụm rất hay dùng: không gì thay thế được."
       }
      ]
     },

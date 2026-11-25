@@ -154,7 +154,7 @@ SITTING_1 = [
         {"say": "Quay lại câu hỏi đầu buổi. Change là thay đổi nói chung, một phần hay toàn bộ đều được.", "show": "c1"},
         {"say": "Shift là một thay đổi lớn, một bước ngoặt, thường trong cách người ta nghĩ.", "show": "c2"},
         {"say": "Modify chỉ đổi một vài phần, không đổi toàn bộ.", "show": "c3"},
-        {"say": "Substitute: có A và B, B đè vào chỗ của A, và A không còn nữa.", "show": "c4"},
+        {"say": "Substitute: có cái cũ và cái mới; cái mới đè vào chỗ cái cũ, và cái cũ không còn nữa.", "show": "c4"},
         {"en": "B takes the place of A, and A is gone.", "vi": "B thế chỗ A, và A không còn nữa.", "gap": True, "recap": False},
         {"say": "Switch: A và B đổi chỗ cho nhau, cả hai vẫn còn đó.", "show": "c5"},
         {"say": "Dịch sang tiếng Việt, sắc thái mất đi rất nhiều. Lúc đầu có thể học nghĩa tiếng Việt, nhưng muốn phân biệt được thì phải hiểu khái niệm bằng tiếng Anh.", "show": "rule"},
@@ -285,7 +285,7 @@ SITTING_2 = [
     ]},
     {"kind": "scene", "visual": "picture_cards", "eyebrow": "Sửa cái gì", "title": "reform, revise, amend",
      "data": {"rows": TEXTS, "rule": "Hệ thống: reform. Bài viết: revise. Điều khoản: amend. Không ai amend một xã hội."}, "lines": [
-        {"say": "Ba từ đều là sửa đổi, và cách chọn là nhìn thứ được sửa. Reform: một hệ thống. Để ý mẫu câu: sau It's time, động từ chia quá khứ dù ý nói về bây giờ. Mẫu này học kỹ ở tuần mười.", "show": "f1"},
+        {"say": "Ba từ đều là sửa đổi, và cách chọn là nhìn thứ được sửa. Reform: một hệ thống. Để ý mẫu câu trong ví dụ: đã đến lúc làm gì, động từ chia quá khứ dù ý nói về bây giờ. Mẫu này học kỹ ở tuần mười.", "show": "f1"},
         {"en": "It's time we reformed the whole prison system.", "vi": "Đã đến lúc cải cách toàn bộ hệ thống nhà tù.", "gap": True},
         {"say": "Revise: xem và sửa lại một bản báo cáo. Revise còn có nghĩa là ôn bài.", "show": "f2"},
         {"en": "Please revise your report before Friday.", "vi": "Hãy sửa lại bản báo cáo trước thứ Sáu.", "gap": True},
@@ -352,7 +352,7 @@ SWAP = [
 
 SITTING_3 = [
     {"kind": "title", "hook": "Cầm nhầm túi của người khác ở sân bay: đó là substitute hay switch?", "lines": [
-        {"say": "Cầm nhầm túi của người khác ở sân bay: đó là substitute hay switch?", "show": "hook"},
+        {"say": "Cầm nhầm túi của người khác ở sân bay: đó là substitute, hay là switch?", "show": "hook"},
         {"say": "Buổi ba có bảy từ: đi lên, đi xuống, và thay chỗ. Câu trả lời cho câu hỏi này nằm ở cuối buổi."},
     ]},
     {"kind": "word", "headword": "evolve", "lines": [
@@ -392,7 +392,7 @@ SITTING_3 = [
         {"say": "Tự xấu đi thì deteriorate. Mục rữa thì decay. Làm hỏng một thứ thì spoil, có tân ngữ.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "substitute", "lines": [
-        {"say": "Quay lại khái niệm ở buổi một. Có A và B. Khi B đè vào chỗ của A thì A không còn tồn tại nữa: đó là substitute. Cụm rất hay dùng: không gì thay thế được."},
+        {"say": "Quay lại khái niệm ở buổi một. Có cái cũ và cái mới. Khi cái mới đè vào chỗ cái cũ thì cái cũ không còn tồn tại nữa: đó là substitute. Cụm rất hay dùng: không gì thay thế được."},
     ]},
     {"kind": "word", "headword": "switch", "lines": [
         {"say": "Còn switch là tráo đổi. Hai thứ vẫn còn đó, chỉ đổi chỗ cho nhau."},
