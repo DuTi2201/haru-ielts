@@ -237,30 +237,6 @@
    "pron": "/swɪtʃ/"
   },
   {
-   "headword": "radical",
-   "pos": "A",
-   "meaning_vi": "triệt để, tận gốc",
-   "note_vi": "radical changes: thay đổi triệt để, tận gốc.",
-   "example_en": "The war brought radical changes to society.",
-   "example_vi": "Chiến tranh mang lại những thay đổi triệt để cho xã hội.",
-   "family": "Thay đổi và công nghệ",
-   "priority": "core",
-   "source": "Destination C1&C2, Unit 4 (trang 28–31); cách nhóm từ theo Buổi 4 của khóa học; phiên âm: Oxford Learner's Dictionaries (BrE)",
-   "pron": "/ˈrædɪkl/"
-  },
-  {
-   "headword": "dynamic",
-   "pos": "A",
-   "meaning_vi": "năng động, luôn vận động",
-   "note_vi": "Đối lập với fixed (cố định).",
-   "example_en": "Ho Chi Minh City is a dynamic city.",
-   "example_vi": "Thành phố Hồ Chí Minh là một thành phố năng động.",
-   "family": "Thay đổi và công nghệ",
-   "priority": "core",
-   "source": "Destination C1&C2, Unit 4 (trang 28–31); cách nhóm từ theo Buổi 4 của khóa học; phiên âm: Oxford Learner's Dictionaries (BrE)",
-   "pron": "/daɪˈnæmɪk/"
-  },
-  {
    "headword": "uniform",
    "pos": "A",
    "meaning_vi": "đồng nhất (= the same)",
@@ -283,6 +259,30 @@
    "priority": "core",
    "source": "Destination C1&C2, Unit 4 (trang 28–31); cách nhóm từ theo Buổi 4 của khóa học; phiên âm: Oxford Learner's Dictionaries (BrE)",
    "pron": "/kənˈsɜːvətɪv/"
+  },
+  {
+   "headword": "radical",
+   "pos": "A",
+   "meaning_vi": "triệt để, tận gốc",
+   "note_vi": "radical changes: thay đổi triệt để, tận gốc.",
+   "example_en": "The war brought radical changes to society.",
+   "example_vi": "Chiến tranh mang lại những thay đổi triệt để cho xã hội.",
+   "family": "Thay đổi và công nghệ",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 4 (trang 28–31); cách nhóm từ theo Buổi 4 của khóa học; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/ˈrædɪkl/"
+  },
+  {
+   "headword": "dynamic",
+   "pos": "A",
+   "meaning_vi": "năng động, luôn vận động",
+   "note_vi": "Đối lập với fixed (cố định).",
+   "example_en": "Da Nang is a young and dynamic city.",
+   "example_vi": "Đà Nẵng là một thành phố trẻ và năng động.",
+   "family": "Thay đổi và công nghệ",
+   "priority": "core",
+   "source": "Destination C1&C2, Unit 4 (trang 28–31); cách nhóm từ theo Buổi 4 của khóa học; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/daɪˈnæmɪk/"
   },
   {
    "headword": "novel",
@@ -1406,13 +1406,13 @@
   },
   {
    "title_vi": "Buổi 4 · một xã hội đổi thay",
-   "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: radical, dynamic, uniform, conservative, novel, influence, ...",
+   "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: uniform, conservative, radical, dynamic, novel, influence, ...",
    "use_vi": "Từ về thay đổi là lõi của Writing Task 1 (mô tả xu hướng, bản đồ thay đổi) và Task 2 về công nghệ, xã hội; chọn đúng từ và từ đi kèm được tính ở tiêu chí Lexical Resource.",
    "vocab": [
-    "radical",
-    "dynamic",
     "uniform",
     "conservative",
+    "radical",
+    "dynamic",
     "novel",
     "influence",
     "innovation",

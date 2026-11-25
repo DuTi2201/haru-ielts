@@ -493,7 +493,7 @@ S_WORDS = [
     ["endure", "last", "maintain", "remain", "sustain", "persist"],
     ["shift", "modify", "transform", "reform", "adjust", "distort"],
     ["evolve", "progress", "mature", "deteriorate", "decay", "substitute", "switch"],
-    ["radical", "dynamic", "uniform", "conservative", "novel", "influence", "innovation", "potential"],
+    ["uniform", "conservative", "radical", "dynamic", "novel", "influence", "innovation", "potential"],
     ["primitive", "technique", "resource", "breakthrough", "network", "data", "console", "craft"],
 ]
 

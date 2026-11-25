@@ -114,10 +114,10 @@ DAY = {
             ("switch", "V", "tráo đổi cho nhau", "Someone switched our bags at the airport.", "Ai đó đã tráo túi của chúng tôi ở sân bay."),
         ]),
         ("Xã hội đổi thay", [
-            ("radical", "A", "triệt để, tận gốc", "The war brought radical changes to society.", "Chiến tranh mang lại những thay đổi triệt để cho xã hội."),
-            ("dynamic", "A", "năng động, luôn vận động", "Ho Chi Minh City is a dynamic city.", "Thành phố Hồ Chí Minh là một thành phố năng động."),
             ("uniform", "A", "đồng nhất (= the same)", "The houses on this street are uniform in size.", "Những ngôi nhà trên phố này có kích thước đồng nhất."),
             ("conservative", "A", "bảo thủ, ngại thay đổi", "My grandparents are quite conservative.", "Ông bà tôi khá bảo thủ."),
+            ("radical", "A", "triệt để, tận gốc", "The war brought radical changes to society.", "Chiến tranh mang lại những thay đổi triệt để cho xã hội."),
+            ("dynamic", "A", "năng động, luôn vận động", "Da Nang is a young and dynamic city.", "Đà Nẵng là một thành phố trẻ và năng động."),
             ("novel", "A", "mới lạ (= new)", "At that time, the idea was novel and exciting.", "Vào thời đó, ý tưởng này mới lạ và hấp dẫn."),
             ("influence", "N", "ảnh hưởng", "Music has a great influence on young people.", "Âm nhạc có ảnh hưởng lớn tới giới trẻ."),
             ("innovation", "N", "sự đổi mới; cái mới", "Online banking was a real innovation.", "Ngân hàng trực tuyến là một sự đổi mới thực sự."),
