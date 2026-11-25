@@ -28,6 +28,7 @@ class SeedFilesTests(unittest.TestCase):
             {
                 "Destination B1 · Lấy gốc": 42,
                 "Tuần 1 · Giáo dục (Education)": 8,
+                "Tuần 2 · Công nghệ (Technology)": 1,
                 "Bổ trợ · Từ vựng và bài đọc ngoài lịch tuần": 6,
             },
         )
