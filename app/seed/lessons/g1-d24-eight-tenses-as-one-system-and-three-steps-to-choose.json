@@ -1051,7 +1051,7 @@
        "gap": true
       },
       {
-       "say": "Lỗi ba: thêm had vào câu the last time.",
+       "say": "Lỗi ba: thêm had vào câu bắt đầu bằng cụm lần cuối.",
        "show": "e3"
       },
       {
@@ -1070,7 +1070,7 @@
        "recap": false
       },
       {
-       "say": "Một câu kể, một mốc nhìn. Sự kiện đã khép lại và vế the last time dùng quá khứ đơn. Động từ trạng thái như know giữ dạng đơn.",
+       "say": "Một câu kể, một mốc nhìn. Sự kiện đã khép lại và vế lần cuối dùng quá khứ đơn. Động từ trạng thái như know giữ dạng đơn.",
        "show": "rule"
       }
      ]

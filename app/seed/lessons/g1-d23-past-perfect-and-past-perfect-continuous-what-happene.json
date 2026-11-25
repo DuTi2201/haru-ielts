@@ -495,7 +495,7 @@
        "show": "qst"
       },
       {
-       "say": "Điểm khó là quá khứ phân từ của động từ bất quy tắc. Write thành written, đọc với âm i ngắn, không đọc như write. Go thành gone, see thành seen, fly thành flown.",
+       "say": "Điểm khó là quá khứ phân từ của động từ bất quy tắc. Write thành written, âm đầu đọc ngắn, như trong từ sit, không đọc như write. Go thành gone, see thành seen, fly thành flown.",
        "show": "spelling"
       },
       {
@@ -689,7 +689,7 @@
      "title": "Chỉ một việc lùi về trước",
      "data": {
       "frame": "letter",
-      "heading": "Dear Mum,",
+      "heading": "Dear Lisa,",
       "panels": [
        {
         "key": "s0",
@@ -750,7 +750,7 @@
        "gap": true
       },
       {
-       "say": "Câu tiếp theo, nhiều người lại chọn had been late. Hỏi lại câu hỏi đó: bị muộn xảy ra trước việc quá khứ nào? Không trước việc nào cả. Đó là kết quả được kể lại, nên dùng quá khứ đơn.",
+       "say": "Câu tiếp theo, nhiều người lại chọn dạng had cho việc bị muộn. Hỏi lại câu hỏi đó: bị muộn xảy ra trước việc quá khứ nào? Không trước việc nào cả. Đó là kết quả được kể lại, nên dùng quá khứ đơn.",
        "show": "s1"
       },
       {
@@ -787,12 +787,12 @@
        "gap": true
       },
       {
-       "say": "Và câu cuối có the last time: một mốc đã qua, hai vế đều chia quá khứ đơn.",
+       "say": "Và câu cuối bắt đầu bằng cụm lần cuối: một mốc đã qua, hai vế đều chia quá khứ đơn.",
        "show": "s5"
       },
       {
        "en": "The last time I spoke to you, you talked about giving it up.",
-       "vi": "Lần cuối con nói chuyện với mẹ, mẹ bảo định bỏ việc đó.",
+       "vi": "Lần cuối mình nói chuyện với cậu, cậu bảo định bỏ môn đó.",
        "gap": true
       },
       {
@@ -1247,7 +1247,7 @@
        "gap": true
       },
       {
-       "say": "Để ý cụm chuẩn bị: người bản xứ nói get ready. Học cả cụm, đừng ghép từng chữ."
+       "say": "Để ý cụm chuẩn bị: người bản xứ nói get ready, không ai nói have ready. Đó là kết hợp từ: học cả cụm, đừng ghép từng chữ."
       },
       {
        "say": "Năm: dấu vết lúc đó.",

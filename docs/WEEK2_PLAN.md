@@ -178,4 +178,5 @@ Urban farming (mục riêng ở trên); Living with artificial intelligence (Tes
 12. *không có progress into*: có (*progress into the final*); điểm đúng là không dùng thay *evolve into* trong câu về sự phát triển của xã hội.
 13. *data* /ˈdɑːtə/ bị coi là sai: Oxford Learner's ghi cả /ˈdeɪtə/, /ˈdɑːtə/, /ˈdætə/. Dạy /ˈdeɪtə/ là cách phổ biến, không gọi cách khác là sai.
 14. *broadband là từ cũ*: vẫn dùng phổ biến; chỉ là ít giá trị cho bài thi, nên xếp vào phần phụ.
+16. Đoạn kể phối hợp của lớp (*… I found myself meeting friends while my mother was coming home from the UK*) rút gọn thành *I was playing football for a while, then I got bored, so I stopped and watched TV instead*: giữ đúng ý (tiếp diễn cho khoảng ngắn, quá khứ đơn cho chuỗi việc), bỏ nửa sau vì khó theo.
 15. *alternate*: tính từ /ɔːlˈtɜː.nət/, động từ /ˈɔːl.tə.neɪt/; nên ghi cả hai.

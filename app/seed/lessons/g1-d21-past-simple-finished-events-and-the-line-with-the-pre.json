@@ -578,7 +578,7 @@
        "show": "qst"
       },
       {
-       "say": "Riêng động từ be không mượn did. Ngôi I, he, she, it dùng was; ngôi you, we, they dùng were."
+       "say": "Riêng động từ be không mượn did. Chủ ngữ tôi, anh ấy, cô ấy, nó dùng was; bạn, chúng tôi, họ dùng were."
       },
       {
        "say": "Câu hỏi về chủ ngữ cũng không mượn did: người hỏi chưa biết ai làm việc đó."
@@ -626,7 +626,7 @@
        "show": "plain"
       },
       {
-       "say": "Nhưng khi ai đó nói bạn trượt, và bạn muốn cãi lại, bạn đặt did trước động từ: không đúng đâu, tôi có đỗ mà, tôi được điểm B."
+       "say": "Nhưng khi ai đó nói bạn trượt, và bạn muốn cãi lại, bạn đặt did trước động từ: không đúng đâu, tôi có đỗ mà, còn được điểm khá."
       },
       {
        "en": "No, that's not right. I did pass the test. I got a B.",
@@ -1210,7 +1210,7 @@
        "show": "axis"
       },
       {
-       "say": "Mẫu một: the last time, lần cuối. Vế này là một mốc đã qua nên chia quá khứ đơn; vế sau kể việc lúc đó, thường cũng là quá khứ đơn.",
+       "say": "Mẫu một: lần cuối. Vế này là một mốc đã qua nên chia quá khứ đơn; vế sau kể việc lúc đó, thường cũng là quá khứ đơn.",
        "show": "l1"
       },
       {
@@ -1219,7 +1219,7 @@
        "gap": true
       },
       {
-       "say": "Mẫu hai: it's the first time, lần đầu. Tính từ trước tới bây giờ, nên dùng hiện tại hoàn thành.",
+       "say": "Mẫu hai: lần đầu. Tính từ trước tới bây giờ, nên dùng hiện tại hoàn thành.",
        "show": "l2"
       },
       {
@@ -1228,7 +1228,7 @@
        "gap": true
       },
       {
-       "say": "Vế the last time chia quá khứ đơn. It's the first time đi với hiện tại hoàn thành.",
+       "say": "Vế lần cuối chia quá khứ đơn. Mẫu lần đầu đi với hiện tại hoàn thành.",
        "show": "rule"
       }
      ]
@@ -1297,7 +1297,7 @@
        "recap": false
       },
       {
-       "say": "Lỗi bốn: nhầm the last time với it's the first time.",
+       "say": "Lỗi bốn: nhầm mẫu lần cuối với mẫu lần đầu.",
        "show": "e4"
       },
       {
@@ -1306,7 +1306,7 @@
        "gap": true
       },
       {
-       "say": "Sau did và didn't là động từ nguyên thể. Có mốc thời gian đã qua: quá khứ đơn. Vế the last time: quá khứ đơn.",
+       "say": "Sau did và didn't là động từ nguyên thể. Có mốc thời gian đã qua: quá khứ đơn. Vế lần cuối: quá khứ đơn.",
        "show": "rule"
       }
      ]
