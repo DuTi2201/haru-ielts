@@ -76,7 +76,7 @@ FALLBACK = {"key": "fb", "label": "Quá khứ đơn"}
 WALK = {"key": "walk", "en": "When I got home, my brother ( ) all the pizza.", "vi": "Thử với câu này", "path": ["no", "no", "yes"], "answer": "had eaten"}
 
 FROZE = [
-    {"key": "m1", "icon": "frozen", "at": "upto", "tense": "had been + V-ing · quá trình trước mốc", "en": "I had been watching the film for ten minutes when the screen froze.", "vi": "Nhấn quãng mười phút đã trôi qua."},
+    {"key": "m1", "icon": "frozen", "at": "upto", "tense": "had been + V-ing · quá trình", "en": "I had been watching the film for ten minutes when the screen froze.", "vi": "Nhấn quãng mười phút đã trôi qua."},
     {"key": "m2", "icon": "frozen", "at": "before", "tense": "had + V3 · việc xảy ra trước", "en": "I had watched ten minutes of the film when the screen froze.", "vi": "Nhấn phần phim đã xem xong."},
     {"key": "m3", "icon": "frozen", "at": "cut", "tense": "Tiếp diễn · khoảng lúc đó", "en": "I was watching the film when the screen froze.", "vi": "Nhấn việc đang diễn ra lúc màn hình treo."},
 ]

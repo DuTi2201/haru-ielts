@@ -66,7 +66,7 @@ USES = [
 
 VEG = [
     {"key": "a1", "icon": "basket", "at": "point", "tense": "Quá khứ đơn · biết lúc nào", "en": "Yes, I bought some on the way home.", "vi": "Người nói biết đã mua lúc nào."},
-    {"key": "a2", "icon": "basket", "at": "done", "tense": "Hiện tại hoàn thành · chỉ báo đã làm", "en": "Yes, I have bought some.", "vi": "Mua rồi, đừng hỏi mấy giờ."},
+    {"key": "a2", "icon": "basket", "at": "done", "tense": "Hiện tại hoàn thành · đã làm", "en": "Yes, I have bought some.", "vi": "Mua rồi, đừng hỏi mấy giờ."},
 ]
 
 DIALOGUE = [
