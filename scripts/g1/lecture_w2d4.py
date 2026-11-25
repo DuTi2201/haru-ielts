@@ -36,7 +36,7 @@ NOTES = {
     "account": "create an account, log in to your account.",
     "password": "Chữ w không đọc: /ˈpɑːswɜːd/. change your password.",
     "storage": "run out of storage: hết dung lượng. Động từ gốc: store.",
-    "user": "Người dùng một sản phẩm, một dịch vụ. Động từ gốc: use. Câu ví dụ: had gained + mốc by the end of its first year.",
+    "user": "Người dùng một sản phẩm, một dịch vụ. Động từ gốc: use.",
     "privacy": "Tính từ: private /ˈpraɪvət/. Danh từ privacy đọc /ˈprɪvəsi/ theo Anh Anh.",
 }
 
