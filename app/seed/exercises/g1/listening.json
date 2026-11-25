@@ -273,6 +273,62 @@
    ]
   },
   {
+   "id": "G1D22D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Tuần 2 · Ngày 2",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "I was watching TV when the phone rang.",
+      "vi": "Tôi đang xem TV thì điện thoại reo."
+     },
+     {
+      "speaker": "M",
+      "text": "What were you doing at eight last night?",
+      "vi": "Tám giờ tối qua bạn đang làm gì?"
+     },
+     {
+      "speaker": "F",
+      "text": "The screen froze while I was playing a game.",
+      "vi": "Màn hình bị treo khi tôi đang chơi game."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "crash",
+     "vi": "(máy tính, phần mềm) đột ngột ngừng chạy, bị sập"
+    },
+    {
+     "ko": "freeze",
+     "vi": "(màn hình, máy) bị treo, đứng hình"
+    },
+    {
+     "ko": "install",
+     "vi": "cài đặt"
+    },
+    {
+     "ko": "download",
+     "vi": "tải xuống"
+    },
+    {
+     "ko": "connect",
+     "vi": "kết nối"
+    },
+    {
+     "ko": "battery",
+     "vi": "pin"
+    }
+   ],
+   "tips_vi": [
+    "Nghe âm cuối: -s của ngôi thứ ba, 's và n't, -ing. Sau khi kiểm tra, nghe lại và nhại theo đúng nhịp."
+   ]
+  },
+  {
    "id": "G1D11L1",
    "skill": "listening",
    "type": "listen_interview",

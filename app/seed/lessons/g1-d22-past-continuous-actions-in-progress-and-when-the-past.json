@@ -1,0 +1,1363 @@
+{
+ "slug": "g1-d22-past-continuous-actions-in-progress-and-when-the-past",
+ "title": "Tuần 2 · Ngày 2 · Quá khứ tiếp diễn: việc đang diễn ra trong quá khứ",
+ "title_en": "Past continuous: actions in progress, and when the past simple is enough",
+ "topic": "Tuần 2 · Công nghệ (Technology)",
+ "track": "beginner",
+ "level": 4,
+ "sort_order": 122,
+ "summary": "Lập đúng câu quá khứ tiếp diễn; phân biệt một điểm (quá khứ đơn) với một khoảng tạm thời (quá khứ tiếp diễn); kể việc bị cắt ngang và hai việc song song; biết khi nào không dùng thì tiếp diễn. Thẻ: công thức; quá khứ đơn và quá khứ tiếp diễn; when và while; always, cảnh nền; lặp lại, trạng thái, chớp nhoáng; phối hợp hai thì.",
+ "vocab": [
+  {
+   "headword": "crash",
+   "pos": "V",
+   "meaning_vi": "(máy tính, phần mềm) đột ngột ngừng chạy, bị sập",
+   "example_en": "I was writing an email when my laptop crashed.",
+   "example_vi": "Tôi đang viết email thì laptop bị sập.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/kræʃ/",
+   "note_vi": "Quá khứ: crashed, đuôi -ed đọc /t/. My laptop crashed: máy bị sập."
+  },
+  {
+   "headword": "freeze",
+   "pos": "V",
+   "meaning_vi": "(màn hình, máy) bị treo, đứng hình",
+   "example_en": "The screen froze while I was watching the video.",
+   "example_vi": "Màn hình bị treo khi tôi đang xem video.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/friːz/",
+   "note_vi": "Động từ bất quy tắc: freeze, froze, frozen. The screen froze: màn hình bị treo."
+  },
+  {
+   "headword": "install",
+   "pos": "V",
+   "meaning_vi": "cài đặt",
+   "example_en": "I was installing an update, so I couldn't use my phone.",
+   "example_vi": "Tôi đang cài bản cập nhật nên không dùng được điện thoại.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/ɪnˈstɔːl/",
+   "note_vi": "Quá khứ: installed, đuôi -ed đọc /d/. install an app, install an update."
+  },
+  {
+   "headword": "download",
+   "pos": "V",
+   "meaning_vi": "tải xuống",
+   "example_en": "She downloaded the app last night.",
+   "example_vi": "Tối qua cô ấy tải ứng dụng về máy.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/ˌdaʊnˈləʊd/",
+   "note_vi": "Quá khứ: downloaded, đuôi -ed thêm một âm tiết /ɪd/. Trái nghĩa: upload."
+  },
+  {
+   "headword": "connect",
+   "pos": "V",
+   "meaning_vi": "kết nối",
+   "example_en": "We couldn't connect to the Internet at the hotel.",
+   "example_vi": "Ở khách sạn, chúng tôi không kết nối được Internet.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/kəˈnekt/",
+   "note_vi": "Quá khứ: connected, đuôi -ed thêm một âm tiết /ɪd/. connect to the Internet."
+  },
+  {
+   "headword": "battery",
+   "pos": "N",
+   "meaning_vi": "pin",
+   "example_en": "My phone battery died while I was talking to my mum.",
+   "example_vi": "Điện thoại hết pin khi tôi đang nói chuyện với mẹ.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/ˈbætri/",
+   "note_vi": "The battery died: hết pin. charge the battery: sạc pin."
+  },
+  {
+   "headword": "screen",
+   "pos": "N",
+   "meaning_vi": "màn hình",
+   "example_en": "The screen on my old phone was cracked.",
+   "example_vi": "Màn hình điện thoại cũ của tôi bị nứt.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/skriːn/",
+   "note_vi": "Màn hình của điện thoại, máy tính, TV. a cracked screen: màn hình bị nứt."
+  },
+  {
+   "headword": "signal",
+   "pos": "N",
+   "meaning_vi": "sóng điện thoại, tín hiệu",
+   "example_en": "There was no signal in the mountains.",
+   "example_vi": "Trên núi không có sóng.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/ˈsɪɡnəl/",
+   "note_vi": "no signal: không có sóng. a weak signal: sóng yếu."
+  },
+  {
+   "headword": "software",
+   "pos": "N",
+   "meaning_vi": "phần mềm",
+   "example_en": "The company was developing new software at the time.",
+   "example_vi": "Lúc đó công ty đang phát triển một phần mềm mới.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/ˈsɒftweə(r)/",
+   "note_vi": "Danh từ không đếm được: some software, a piece of software; không nói a software."
+  },
+  {
+   "headword": "update",
+   "pos": "N",
+   "meaning_vi": "bản cập nhật",
+   "example_en": "I was waiting for the update to finish.",
+   "example_vi": "Tôi đang chờ bản cập nhật chạy xong.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/ˈʌpdeɪt/",
+   "note_vi": "Danh từ nhấn âm đầu: UP-date. Động từ update nhấn âm sau."
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "Past continuous · công thức",
+   "meaning_vi": "Khẳng định, phủ định, câu hỏi; was hay were; cách thêm đuôi -ing",
+   "usage_context_vi": "## Mọi câu đều có was hoặc were\npat: Khẳng định | chủ ngữ + was / were + V-ing | I was watching TV at eight.\npat: Phủ định | chủ ngữ + wasn't / weren't + V-ing | They weren't listening.\npat: Câu hỏi | Was / Were + chủ ngữ + V-ing ? | Were you sleeping?\npat: Có từ để hỏi | Từ để hỏi + was / were + chủ ngữ + V-ing ? | What were you doing at eight last night?\n!I, he, she, it đi với was; you, we, they đi với were. Trả lời ngắn: Yes, I was. / No, I wasn't.\n## Thêm đuôi -ing\nprep: + ing | phần lớn động từ | work → working, download → downloading | working, downloading\nprep: bỏ e | tận cùng là e | charge → charging, make → making | charging, making\nprep: gấp đôi | từ một âm tiết, tận cùng một nguyên âm + một phụ âm | stop → stopping, chat → chatting | stopping, chatting\nprep: ie → y | tận cùng là ie | lie → lying, die → dying | lying, dying",
+   "contrasts": [],
+   "example_en": "I was watching TV at eight o'clock.\nThey weren't listening to the teacher.\nWhat were you doing at eight last night?",
+   "example_vi": "Lúc tám giờ tôi đang xem TV.\nHọ không nghe giáo viên giảng.\nTám giờ tối qua bạn đang làm gì?",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 18-20; cách giảng của khóa học",
+   "check": {
+    "stem": "We ( ) TV when you called.",
+    "options": [
+     "were watching",
+     "was watching",
+     "were watch",
+     "are watching"
+    ],
+    "why": "We đi với were; việc đang diễn ra lúc bạn gọi → were + V-ing."
+   },
+   "step_vi": "Cấu tạo",
+   "note_vi": "Lỗi người Việt hay mắc: Thiếu was, were: ~~I watching TV~~ → I was watching TV. Sai ngôi: ~~We was playing~~ → We were playing.",
+   "exam_tip_vi": "Speaking: trong câu khẳng định, was thường đọc nhẹ /wəz/; ở câu trả lời ngắn Yes, I was, đọc rõ /wɒz/."
+  },
+  {
+   "pattern": "Một điểm hay một khoảng · quá khứ đơn và quá khứ tiếp diễn",
+   "meaning_vi": "Quá khứ đơn nhìn việc như một điểm đã xảy ra; quá khứ tiếp diễn nhìn vào bên trong một khoảng tạm thời",
+   "usage_context_vi": "side: Một điểm | Yesterday I played football at seven. | việc đã xảy ra | point\nside: Một khoảng | Yesterday I was playing football at seven. | đang diễn ra lúc bảy giờ | pwin\n!Cả hai câu đều đúng. Câu thứ hai nhấn vào khoảng tạm thời quanh mốc bảy giờ.\n## Ba kiểu khoảng tạm thời\nstep: Quanh một mốc | At five o'clock, I was reading a book.\nstep: Một giai đoạn tạm thời | In 2019, my brother was living in Da Nang.\nstep: Kéo dài suốt một quãng | I was playing video games all morning.\n!Mốc có thể là ước chừng: at around 7 p.m. vẫn là một mốc.",
+   "contrasts": [],
+   "example_en": "Yesterday I was playing football at seven.\nAt five o'clock, I was reading a book.\nIn 2019, my brother was living in Da Nang.",
+   "example_vi": "Hôm qua lúc bảy giờ tôi đang đá bóng.\nLúc năm giờ tôi đang đọc sách.\nNăm 2019, anh tôi đang sống ở Đà Nẵng.",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 18-20; cách giảng của khóa học",
+   "check": {
+    "stem": "At nine o'clock last night, I ( ) for my exam.",
+    "options": [
+     "was studying",
+     "am studying",
+     "have studied",
+     "was study"
+    ],
+    "why": "Đang học quanh mốc chín giờ tối qua → quá khứ tiếp diễn: was + V-ing."
+   },
+   "step_vi": "Bản chất",
+   "note_vi": "Lỗi người Việt hay mắc: Thấy chữ \"đang\" trong câu tiếng Việt là chọn quá khứ tiếp diễn. Một sự kiện đã khép lại, như một trận đấu hay một kỳ thi, kể bằng quá khứ đơn.",
+   "exam_tip_vi": "Writing: bài viết học thuật hiếm khi cần quá khứ tiếp diễn. Sự kiện và số liệu của những năm đã qua dùng quá khứ đơn."
+  },
+  {
+   "pattern": "Cắt ngang và song song · when và while",
+   "meaning_vi": "Một việc ngắn cắt ngang việc đang diễn ra; hai việc cùng diễn ra một lúc",
+   "usage_context_vi": "pat: Cắt ngang | chủ ngữ + was / were + V-ing + when + chủ ngữ + V2 | Richard was watching TV when the phone rang.\npat: Song song | chủ ngữ + was / were + V-ing + while + chủ ngữ + was / were + V-ing | I was playing football while my friends were playing badminton.\nside: Cắt ngang | I was downloading a file when my laptop crashed. | một khoảng, một điểm | cut\nside: Song song | I was cooking while my sister was doing her homework. | hai khoảng trùng nhau | pair\n!while thường đi với thì tiếp diễn; when đi được với cả quá khứ đơn và quá khứ tiếp diễn.",
+   "contrasts": [],
+   "example_en": "Richard was watching TV when the phone rang.\nMy cousin and I were playing on the computer when there was a power cut.\nI was playing football while my friends were playing badminton.",
+   "example_vi": "Richard đang xem TV thì điện thoại reo.\nTôi và em họ đang chơi máy tính thì mất điện.\nTôi đá bóng trong lúc các bạn tôi chơi cầu lông.",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 18-20; cách giảng của khóa học",
+   "check": {
+    "stem": "I ( ) a file when the Internet stopped working.",
+    "options": [
+     "was downloading",
+     "was download",
+     "have downloaded",
+     "am downloading"
+    ],
+    "why": "Việc tải tệp đang diễn ra thì mạng ngừng → quá khứ tiếp diễn."
+   },
+   "step_vi": "Hai việc cùng lúc",
+   "note_vi": "Lỗi người Việt hay mắc: Chia cả hai vế quá khứ đơn: I played football when my friends played badminton chỉ kể hai việc, không cho biết hai việc diễn ra cùng lúc.",
+   "exam_tip_vi": "Speaking Part 2: mở câu chuyện bằng một việc đang diễn ra, rồi kể việc bất ngờ xảy ra: I was walking home when it started to rain."
+  },
+  {
+   "pattern": "Than phiền và dựng cảnh · always, cảnh nền",
+   "meaning_vi": "was / were always + V-ing để than phiền; thì tiếp diễn dựng cảnh, quá khứ đơn kể việc chính",
+   "usage_context_vi": "## Than phiền về một thói quen trong quá khứ\npat: Than phiền | chủ ngữ + was / were + always + V-ing | When we shared a room, Zoe was always taking my things.\n!Câu thường đi kèm một lời bình: It was so annoying!\n## Dựng cảnh cho câu chuyện\nstep: Cảnh nền · quá khứ tiếp diễn | It was raining and everyone was hurrying home.\nstep: Việc chính · quá khứ đơn | Then the lights went out.",
+   "contrasts": [],
+   "example_en": "When we shared a room, Zoe was always taking my things. It was so annoying!\nMy old laptop was always freezing.\nIt was raining and everyone was hurrying home. Then the lights went out.",
+   "example_vi": "Hồi ở chung phòng, Zoe cứ lấy đồ của tôi. Bực lắm!\nCái laptop cũ của tôi cứ bị treo suốt.\nTrời đang mưa, mọi người đang vội về nhà. Rồi đèn tắt phụt.",
+   "importance": "normal",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 18-20; cách giảng của khóa học",
+   "check": {
+    "stem": "My old laptop ( ). It was so annoying!",
+    "options": [
+     "was always freezing",
+     "always was freezing",
+     "was always freeze",
+     "is always freezing"
+    ],
+    "why": "Than phiền về quá khứ: was always + V-ing."
+   },
+   "step_vi": "Hai cách dùng nữa",
+   "note_vi": "Lỗi người Việt hay mắc: Đặt always sai chỗ: ~~Zoe always was taking my things~~ → Zoe was always taking my things.",
+   "exam_tip_vi": "Speaking Part 2: một, hai câu tiếp diễn dựng cảnh ở đầu giúp câu chuyện sinh động; các việc chính vẫn kể bằng quá khứ đơn."
+  },
+  {
+   "pattern": "Khi nào không dùng thì tiếp diễn · lặp lại, trạng thái, chớp nhoáng",
+   "meaning_vi": "Việc lặp lại, động từ trạng thái, việc chớp nhoáng hoặc nối tiếp: dùng quá khứ đơn",
+   "usage_context_vi": "step: Việc lặp lại | Last summer I went swimming almost every day.\nstep: Động từ trạng thái | I didn't know the password.\nstep: Việc chớp nhoáng | The glass fell and broke.\nstep: Việc nối tiếp | I charged my phone as soon as I got home.\n!Việc lặp lại nhiều lần không còn là một khoảng tạm thời quanh một mốc, nên dùng quá khứ đơn.\n!Động từ trạng thái (know, own, need, believe) hầu như không dùng ở thì tiếp diễn.",
+   "contrasts": [],
+   "example_en": "Last summer I went swimming almost every day.\nI didn't know the password.\nI charged my phone as soon as I got home.",
+   "example_vi": "Hè năm ngoái hầu như ngày nào tôi cũng đi bơi.\nTôi không biết mật khẩu.\nVừa về đến nhà là tôi sạc điện thoại.",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 18-20; cách giảng của khóa học",
+   "check": {
+    "stem": "I ( ) the password, so I couldn't log in.",
+    "options": [
+     "didn't know",
+     "wasn't knowing",
+     "don't know",
+     "haven't known"
+    ],
+    "why": "know là động từ trạng thái → quá khứ đơn, không dùng tiếp diễn."
+   },
+   "step_vi": "Khi nào không dùng",
+   "note_vi": "Lỗi người Việt hay mắc: Thấy every day vẫn chọn tiếp diễn: ~~I was getting up at six every morning last week~~ → I got up at six every morning last week. Động từ trạng thái: ~~I wasn't knowing~~ → I didn't know.",
+   "exam_tip_vi": "Khi phân vân giữa các thì quá khứ, nếu không thấy tính tạm thời và không cần nhấn việc nào xảy ra trước, hãy chọn quá khứ đơn."
+  },
+  {
+   "pattern": "Hỏi và kể về một quãng quá khứ · phối hợp hai thì",
+   "meaning_vi": "Người hỏi thường dùng quá khứ đơn; người kể chọn thì theo điều muốn nhấn",
+   "usage_context_vi": "ask: Did you hang out with John yesterday?\nside: Kể việc | Yes, I hung out with him at a convenience store. | quá khứ đơn | point\nside: Nhấn khoảng tạm thời | Yes, we were hanging out at a convenience store at around 7 p.m. | quá khứ tiếp diễn | pwin\n## Một đoạn kể phối hợp\nstep: Một khoảng ngắn · tiếp diễn | I was playing football for a while,\nstep: Chuỗi việc · quá khứ đơn | then I got bored, so I stopped and watched TV instead.\n!Tiếp diễn cho cảnh và khoảng tạm thời; quá khứ đơn cho các việc nối tiếp nhau.",
+   "contrasts": [],
+   "example_en": "Where were you going when I saw you on the bus last night?\nDid you enjoy the film?\nI was playing football for a while, then I got bored, so I stopped and watched TV instead.",
+   "example_vi": "Tối qua lúc tôi thấy bạn trên xe buýt, bạn đang đi đâu vậy?\nBạn có thích bộ phim không?\nTôi đá bóng một lúc, rồi chán, nên dừng lại và xem TV.",
+   "importance": "normal",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 18-20; cách giảng của khóa học",
+   "check": {
+    "stem": "A: ( ) the party last night? B: Yes, it was great.",
+    "options": [
+     "Did you enjoy",
+     "Were you enjoying",
+     "Have you enjoyed",
+     "Do you enjoy"
+    ],
+    "why": "Hỏi cảm nhận về một việc đã qua: dùng thì đơn giản nhất, quá khứ đơn."
+   },
+   "step_vi": "Phối hợp hai thì",
+   "note_vi": "Lỗi người Việt hay mắc: Mở đầu câu hỏi bằng thì tiếp diễn khi chỉ hỏi cảm nhận: ~~Were you enjoying the film?~~ → Did you enjoy the film?",
+   "exam_tip_vi": "Speaking: câu hỏi What were you doing when…? đã có sẵn khung trả lời: thì tiếp diễn cho việc đang làm, quá khứ đơn cho việc xảy ra."
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của ngày",
+   "body": "• Lập câu quá khứ tiếp diễn: khẳng định, phủ định, câu hỏi, và thêm đuôi -ing đúng\n• Phân biệt một điểm với một khoảng tạm thời quanh một mốc\n• Kể việc bị cắt ngang (when) và hai việc song song (while)\n• Không dùng tiếp diễn cho việc lặp lại, động từ trạng thái, việc chớp nhoáng",
+   "kind": "goal"
+  },
+  {
+   "title": "Bài của sách nằm trong app",
+   "body": "• Đọc bảng lý thuyết Past simple và Past continuous (khoảng 10 phút)\n• Bài A · quá khứ đơn hay quá khứ tiếp diễn (12 câu, khoảng 12 phút)\n• Bài B · chia động từ trong ngoặc (10 câu, khoảng 12 phút)\n• Các bài này đã có sẵn trong app, ở các buổi \"Bài trong sách\" cuối ngày, kèm đáp án của sách và lời giải thích từng câu. Nếu có sách giấy, bạn có thể làm trên sách trước rồi chấm lại trong app. Sau khi học thẻ, với mỗi câu sai hãy tự nói lại câu đó theo ý muốn nói.",
+   "kind": "language"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Speaking Part 2 (Describe a time when…) cần dựng cảnh bằng quá khứ tiếp diễn rồi kể việc chính bằng quá khứ đơn: I was walking home when it started to rain. Writing hầu như không cần quá khứ tiếp diễn: số liệu và sự kiện đã qua dùng quá khứ đơn.",
+   "kind": "language"
+  }
+ ],
+ "bank": "g1",
+ "coach": {
+  "focus_vi": [
+   "công thức: Khẳng định, phủ định, câu hỏi; was hay were; cách thêm đuôi -ing",
+   "quá khứ đơn và quá khứ tiếp diễn: Quá khứ đơn nhìn việc như một điểm đã xảy ra; quá khứ tiếp diễn nhìn vào bên trong một khoảng tạm thời",
+   "when và while: Một việc ngắn cắt ngang việc đang diễn ra; hai việc cùng diễn ra một lúc"
+  ],
+  "watch_out_vi": [
+   "Thiếu was, were: ~~I watching TV~~ → I was watching TV. Sai ngôi: ~~We was playing~~ → We were playing.",
+   "Thấy chữ \"đang\" trong câu tiếng Việt là chọn quá khứ tiếp diễn. Một sự kiện đã khép lại, như một trận đấu hay một kỳ thi, kể bằng quá khứ đơn."
+  ]
+ },
+ "exercise_ids": [
+  "G1D22T1",
+  "G1D22T2",
+  "G1D22T3",
+  "G1D22T4",
+  "G1D22I1",
+  "G1D22I2",
+  "G1D22I3",
+  "G1D22I4",
+  "G1D22I5",
+  "G1D22Q1",
+  "G1D22Q2",
+  "G1D22Q3",
+  "G1D22Q4",
+  "G1D22Q5",
+  "G1D22Q6",
+  "G1D22Q7",
+  "G1D22Q8",
+  "G1D22Q9",
+  "G1D22KW2A-1",
+  "G1D22KW2A-2",
+  "G1D22KW2A-3",
+  "G1D22KW2A-4",
+  "G1D22KW2A-5",
+  "G1D22KW2A-6",
+  "G1D22KW2A-7",
+  "G1D22KW2A-8",
+  "G1D22KW2A-9",
+  "G1D22KW2A-10",
+  "G1D22KW2A-11",
+  "G1D22KW2A-12",
+  "G1D22B1",
+  "G1D22B2",
+  "G1D22B3",
+  "G1D22B4",
+  "G1D22B5",
+  "G1D22F1",
+  "G1D22F2",
+  "G1D22F3",
+  "G1D22F4",
+  "G1D22F5",
+  "G1D22KW2B-1",
+  "G1D22KW2B-2",
+  "G1D22KW2B-3",
+  "G1D22KW2B-4",
+  "G1D22KW2B-5",
+  "G1D22KW2B-6",
+  "G1D22KW2B-7",
+  "G1D22KW2B-8",
+  "G1D22KW2B-9",
+  "G1D22KW2B-10",
+  "G1D22D1",
+  "G1D22M1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · công thức, một điểm hay một khoảng, when và while",
+   "can_do_vi": "Sau buổi này bạn lập được câu quá khứ tiếp diễn, phân biệt một điểm với một khoảng tạm thời, và kể được việc bị cắt ngang hoặc hai việc song song.",
+   "use_vi": "Speaking Part 2 (Describe a time when…) cần dựng cảnh bằng quá khứ tiếp diễn rồi kể việc chính bằng quá khứ đơn: I was walking home when it started to rain. Writing hầu như không cần quá khứ tiếp diễn",
+   "vocab": [
+    "crash",
+    "freeze",
+    "install",
+    "download",
+    "connect"
+   ],
+   "grammar": [
+    "Past continuous · công thức",
+    "Một điểm hay một khoảng · quá khứ đơn và quá khứ tiếp diễn",
+    "Cắt ngang và song song · when và while"
+   ],
+   "check": [
+    "G1D22I1",
+    "G1D22Q1",
+    "G1D22Q2",
+    "G1D22T1",
+    "G1D22I2",
+    "G1D22T3",
+    "G1D22I3"
+   ],
+   "lecture": [
+    {
+     "kind": "title",
+     "hook": "Tám giờ tối qua bạn đang làm gì?",
+     "lines": [
+      {
+       "say": "Một người bạn hỏi: tám giờ tối qua bạn đang làm gì? Bạn trả lời bằng thì nào, và câu đó khác gì một câu quá khứ đơn?",
+       "show": "hook"
+      },
+      {
+       "say": "Buổi này học công thức của thì quá khứ tiếp diễn, sự khác nhau giữa một điểm và một khoảng, rồi hai việc xảy ra cùng lúc."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "sentence_forms",
+     "eyebrow": "Công thức",
+     "title": "Ba dạng câu của quá khứ tiếp diễn",
+     "data": {
+      "rows": [
+       {
+        "key": "aff",
+        "label": "Khẳng định",
+        "parts": [
+         "I",
+         "was watching",
+         "TV at eight."
+        ],
+        "hi": [
+         1
+        ],
+        "vi": "Lúc tám giờ tôi đang xem TV."
+       },
+       {
+        "key": "neg",
+        "label": "Phủ định",
+        "parts": [
+         "They",
+         "weren't listening",
+         "to the teacher."
+        ],
+        "hi": [
+         1
+        ],
+        "vi": "Họ không nghe giáo viên giảng."
+       },
+       {
+        "key": "qst",
+        "label": "Câu hỏi",
+        "parts": [
+         "What",
+         "were you doing",
+         "at eight?"
+        ],
+        "hi": [
+         1
+        ],
+        "vi": "Lúc tám giờ bạn đang làm gì?"
+       }
+      ],
+      "persons": [
+       {
+        "who": "I · he · she · it",
+        "verb": "was watching"
+       },
+       {
+        "who": "you · we · they",
+        "verb": "were watching"
+       }
+      ],
+      "persons_plain": true,
+      "spelling_title": "Thêm đuôi ing",
+      "spelling": [
+       [
+        "download",
+        "downloading"
+       ],
+       [
+        "charge",
+        "charging"
+       ],
+       [
+        "stop",
+        "stopping"
+       ],
+       [
+        "lie",
+        "lying"
+       ]
+      ],
+      "short": [
+       "Yes, I was.",
+       "No, I wasn't."
+      ],
+      "rule": "Mọi câu đều có was hoặc were, theo sau là động từ thêm đuôi ing."
+     },
+     "lines": [
+      {
+       "say": "Công thức có hai phần: was hoặc were, rồi động từ thêm đuôi ing. Ngôi I, he, she, it dùng was; ngôi you, we, they dùng were.",
+       "show": "persons"
+      },
+      {
+       "en": "I was watching TV at eight.",
+       "vi": "Lúc tám giờ tôi đang xem TV.",
+       "gap": true,
+       "show": "aff"
+      },
+      {
+       "say": "Câu phủ định: wasn't hoặc weren't."
+      },
+      {
+       "en": "They weren't listening to the teacher.",
+       "vi": "Họ không nghe giáo viên giảng.",
+       "gap": true,
+       "show": "neg"
+      },
+      {
+       "say": "Câu hỏi: đưa was hoặc were lên trước chủ ngữ. Đây cũng là câu hỏi ở đầu buổi."
+      },
+      {
+       "en": "What were you doing at eight last night?",
+       "vi": "Tám giờ tối qua bạn đang làm gì?",
+       "gap": true,
+       "show": "qst"
+      },
+      {
+       "say": "Trả lời ngắn thì dùng lại was hoặc were, và đọc rõ chữ was.",
+       "show": "short"
+      },
+      {
+       "say": "Cách viết đuôi ing: phần lớn động từ chỉ cần thêm vào, như downloading. Động từ có chữ e ở cuối thì bỏ e: charge thành charging. Từ một âm tiết như stop thì gấp đôi phụ âm cuối: stopping. Lie thành lying.",
+       "show": "spelling"
+      },
+      {
+       "say": "Lỗi hay gặp nhất là bỏ mất was. Câu I watching TV thiếu động từ chính. Mọi câu đều có was hoặc were, theo sau là động từ thêm đuôi ing.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "tense_timeline",
+     "eyebrow": "Bản chất",
+     "title": "Một điểm hay một khoảng",
+     "data": {
+      "question": "What did you do yesterday at seven?",
+      "question_vi": "Hôm qua lúc bảy giờ bạn làm gì?",
+      "question_label": "Có người hỏi",
+      "answers": [
+       {
+        "key": "a1",
+        "icon": "ball",
+        "at": "point",
+        "tense": "Quá khứ đơn · một điểm",
+        "en": "Yesterday I played football at seven.",
+        "vi": "Kể việc đã xảy ra lúc bảy giờ."
+       },
+       {
+        "key": "a2",
+        "icon": "ball",
+        "at": "pwin",
+        "tense": "Quá khứ tiếp diễn · một khoảng",
+        "en": "Yesterday I was playing football at seven.",
+        "vi": "Lúc bảy giờ, việc đá bóng đang diễn ra."
+       }
+      ],
+      "rule": "Quá khứ đơn: một điểm, việc đã xảy ra. Quá khứ tiếp diễn: một khoảng tạm thời đang diễn ra quanh mốc đó."
+     },
+     "lines": [
+      {
+       "say": "Hôm qua lúc bảy giờ, bạn đi đá bóng. Có hai cách kể, và cả hai đều đúng.",
+       "show": "q"
+      },
+      {
+       "say": "Trên trục này, bên trái là quá khứ, vạch giữa là bây giờ.",
+       "show": "axis"
+      },
+      {
+       "say": "Cách một: quá khứ đơn. Bạn nhìn việc đá bóng như một điểm trên trục: nó đã xảy ra, vậy thôi.",
+       "show": "a1"
+      },
+      {
+       "en": "Yesterday I played football at seven.",
+       "vi": "Hôm qua lúc bảy giờ tôi đá bóng.",
+       "gap": true
+      },
+      {
+       "say": "Cách hai: quá khứ tiếp diễn. Bạn phóng to vào bên trong khoảng thời gian đó: lúc bảy giờ, trận bóng đang diễn ra, trước đó đã bắt đầu, sau đó mới kết thúc.",
+       "show": "a2"
+      },
+      {
+       "en": "Yesterday I was playing football at seven.",
+       "vi": "Hôm qua lúc bảy giờ tôi đang đá bóng.",
+       "gap": true
+      },
+      {
+       "say": "Mốc không cần chính xác tới từng phút. Nói at around seven, khoảng bảy giờ, vẫn là một mốc. Quá khứ đơn là một điểm, việc đã xảy ra. Quá khứ tiếp diễn là một khoảng tạm thời đang diễn ra quanh mốc đó.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "picture_cards",
+     "eyebrow": "Mở rộng",
+     "title": "Ba kiểu khoảng tạm thời",
+     "data": {
+      "rows": [
+       {
+        "key": "p1",
+        "icon": "clock",
+        "head": "Quanh một mốc",
+        "en": "At five o'clock, I was reading a book.",
+        "vi": "Lúc năm giờ, việc đọc sách đang diễn ra."
+       },
+       {
+        "key": "p2",
+        "icon": "house",
+        "head": "Một giai đoạn tạm thời",
+        "en": "In 2019, my brother was living in Da Nang.",
+        "vi": "Sống ở đó một thời gian, rồi chuyển đi."
+       },
+       {
+        "key": "p3",
+        "icon": "tv",
+        "head": "Suốt một quãng",
+        "en": "I was playing video games all morning.",
+        "vi": "Kéo dài cả buổi sáng."
+       }
+      ],
+      "rule": "Quá khứ tiếp diễn luôn nhìn vào một khoảng có đầu có cuối, không phải một việc kéo dài mãi."
+     },
+     "lines": [
+      {
+       "say": "Khoảng tạm thời có ba kiểu. Kiểu một: quanh một mốc giờ cụ thể.",
+       "show": "p1"
+      },
+      {
+       "en": "At five o'clock, I was reading a book.",
+       "vi": "Lúc năm giờ tôi đang đọc sách.",
+       "gap": true
+      },
+      {
+       "say": "Kiểu hai: một giai đoạn tạm thời trong đời. Anh tôi sống ở Đà Nẵng một thời gian, rồi chuyển đi.",
+       "show": "p2"
+      },
+      {
+       "en": "In 2019, my brother was living in Da Nang.",
+       "vi": "Năm 2019, anh tôi đang sống ở Đà Nẵng.",
+       "gap": true
+      },
+      {
+       "say": "Kiểu ba: kéo dài suốt một quãng, như cả buổi sáng.",
+       "show": "p3"
+      },
+      {
+       "en": "I was playing video games all morning.",
+       "vi": "Tôi chơi điện tử suốt buổi sáng.",
+       "gap": true
+      },
+      {
+       "say": "Một lưu ý cho người Việt: đừng thấy chữ đang trong câu tiếng Việt là chọn thì tiếp diễn. Một sự kiện đã khép lại, như một trận đấu hay một kỳ thi, vẫn kể bằng quá khứ đơn. Quá khứ tiếp diễn luôn nhìn vào một khoảng có đầu có cuối.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "tense_timeline",
+     "eyebrow": "Hai việc cùng lúc",
+     "title": "Cắt ngang và song song",
+     "data": {
+      "question": "when · while",
+      "question_vi": "hai việc trong cùng một câu",
+      "question_label": "Hai liên từ",
+      "answers": [
+       {
+        "key": "c1",
+        "icon": "phone",
+        "at": "cut",
+        "tense": "when · bị cắt ngang",
+        "en": "Richard was watching TV when the phone rang.",
+        "vi": "Việc dài đang diễn ra, việc ngắn chen vào."
+       },
+       {
+        "key": "c2",
+        "icon": "crash",
+        "at": "cut",
+        "tense": "when · bị cắt ngang",
+        "en": "I was downloading a file when my laptop crashed.",
+        "vi": "Đang tải tệp thì máy sập."
+       },
+       {
+        "key": "c3",
+        "icon": "ball",
+        "at": "pair",
+        "tense": "while · song song",
+        "en": "I was playing football while my friends were playing badminton.",
+        "vi": "Hai việc diễn ra cùng lúc."
+       },
+       {
+        "key": "c4",
+        "icon": "ball",
+        "at": "point",
+        "tense": "hai câu quá khứ đơn",
+        "en": "I played football when my friends played badminton.",
+        "vi": "Chỉ kể hai việc; không rõ có cùng lúc không."
+       }
+      ],
+      "rule": "Việc ngắn cắt ngang: when + quá khứ đơn. Hai việc song song: while + quá khứ tiếp diễn."
+     },
+     "lines": [
+      {
+       "say": "Giờ là hai việc trong cùng một câu.",
+       "show": "q"
+      },
+      {
+       "say": "Vẫn là trục thời gian, quá khứ bên trái.",
+       "show": "axis"
+      },
+      {
+       "say": "Trường hợp một: một việc dài đang diễn ra, thì một việc ngắn chen vào. Việc dài chia tiếp diễn, việc ngắn chia quá khứ đơn, nối bằng when.",
+       "show": "c1"
+      },
+      {
+       "en": "Richard was watching TV when the phone rang.",
+       "vi": "Richard đang xem TV thì điện thoại reo.",
+       "gap": true
+      },
+      {
+       "say": "Cùng khuôn đó với chuyện công nghệ: đang tải tệp thì máy sập.",
+       "show": "c2"
+      },
+      {
+       "en": "I was downloading a file when my laptop crashed.",
+       "vi": "Tôi đang tải một tệp thì laptop bị sập.",
+       "gap": true
+      },
+      {
+       "say": "Trường hợp hai: hai việc diễn ra cùng một lúc. Cả hai vế chia tiếp diễn, nối bằng while.",
+       "show": "c3"
+      },
+      {
+       "en": "I was playing football while my friends were playing badminton.",
+       "vi": "Tôi đá bóng trong lúc các bạn tôi chơi cầu lông.",
+       "gap": true
+      },
+      {
+       "say": "Nếu đổi cả hai vế sang quá khứ đơn, câu chỉ còn kể hai việc. Có thể tôi đá bóng lúc bảy giờ sáng, còn các bạn chơi cầu lông lúc chín giờ.",
+       "show": "c4"
+      },
+      {
+       "en": "I played football when my friends played badminton.",
+       "vi": "Tôi đá bóng, các bạn tôi chơi cầu lông.",
+       "gap": true,
+       "recap": false
+      },
+      {
+       "say": "While thường đi với thì tiếp diễn; when đi được với cả hai thì. Việc ngắn cắt ngang: when cộng quá khứ đơn. Hai việc song song: while cộng quá khứ tiếp diễn.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "crash",
+     "lines": [
+      {
+       "say": "Năm động từ của buổi này đều là chuyện công nghệ gặp sự cố, rất hợp để kể bằng thì tiếp diễn. Từ thứ nhất. Quá khứ là crashed, đuôi ed giống worked."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "freeze",
+     "lines": [
+      {
+       "say": "Từ thứ hai, một động từ bất quy tắc: quá khứ là froze."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "install",
+     "lines": [
+      {
+       "say": "Từ thứ ba. Quá khứ là installed, đuôi ed giống played."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "download",
+     "lines": [
+      {
+       "say": "Từ thứ tư. Quá khứ là downloaded, đuôi ed thêm một âm tiết, giống wanted."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "connect",
+     "lines": [
+      {
+       "say": "Từ cuối. Quá khứ là connected, cũng thêm một âm tiết."
+      }
+     ]
+    },
+    {
+     "kind": "recap",
+     "lines": [
+      {
+       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "show": "title"
+      }
+     ]
+    },
+    {
+     "kind": "end",
+     "next": "Tiếp theo: học thẻ và từ của buổi này, rồi làm bài.",
+     "lines": [
+      {
+       "say": "Hết buổi một. Bạn học các thẻ và từ trong app, rồi làm bài. Buổi hai nói về những lúc không dùng thì tiếp diễn, và cách kể một câu chuyện bằng hai thì.",
+       "show": "title"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title_vi": "Buổi 2 · khi nào không dùng tiếp diễn, kể chuyện bằng hai thì",
+   "can_do_vi": "Sau buổi này bạn biết khi nào chỉ cần quá khứ đơn, than phiền và dựng cảnh bằng thì tiếp diễn, và kể được một câu chuyện Speaking bằng hai thì.",
+   "use_vi": "Speaking Part 2 (Describe a time when…) cần dựng cảnh bằng quá khứ tiếp diễn rồi kể việc chính bằng quá khứ đơn: I was walking home when it started to rain. Writing hầu như không cần quá khứ tiếp diễn",
+   "vocab": [
+    "battery",
+    "screen",
+    "signal",
+    "software",
+    "update"
+   ],
+   "grammar": [
+    "Than phiền và dựng cảnh · always, cảnh nền",
+    "Khi nào không dùng thì tiếp diễn · lặp lại, trạng thái, chớp nhoáng",
+    "Hỏi và kể về một quãng quá khứ · phối hợp hai thì"
+   ],
+   "check": [
+    "G1D22I4",
+    "G1D22Q6",
+    "G1D22I5",
+    "G1D22Q7",
+    "G1D22Q8",
+    "G1D22Q9"
+   ],
+   "lecture": [
+    {
+     "kind": "title",
+     "hook": "I was getting up at six every morning last week: câu này sai ở đâu?",
+     "lines": [
+      {
+       "say": "Tuần trước sáng nào bạn cũng dậy lúc sáu giờ. Bạn nói: I was getting up at six every morning last week. Câu này sai ở đâu?",
+       "show": "hook"
+      },
+      {
+       "say": "Buổi này học hai cách dùng nữa của thì tiếp diễn, những lúc không dùng nó, và cách kể một câu chuyện bằng hai thì."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "picture_cards",
+     "eyebrow": "Hai cách dùng nữa",
+     "title": "Than phiền và dựng cảnh",
+     "data": {
+      "rows": [
+       {
+        "key": "h1",
+        "icon": "angry",
+        "head": "Than phiền · was always + V-ing",
+        "en": "When we shared a room, Zoe was always taking my things.",
+        "vi": "Một thói quen gây bực mình trong quá khứ."
+       },
+       {
+        "key": "h2",
+        "icon": "rain",
+        "head": "Cảnh nền · quá khứ tiếp diễn",
+        "en": "It was raining and everyone was hurrying home.",
+        "vi": "Bức tranh đang diễn ra khi câu chuyện bắt đầu."
+       },
+       {
+        "key": "h3",
+        "icon": "bulb",
+        "head": "Việc chính · quá khứ đơn",
+        "en": "Then the lights went out.",
+        "vi": "Việc xảy ra, đẩy câu chuyện đi tiếp."
+       }
+      ],
+      "rule": "was always + V-ing: than phiền. Thì tiếp diễn dựng cảnh nền; quá khứ đơn kể việc chính."
+     },
+     "lines": [
+      {
+       "say": "Cách dùng thứ nhất: than phiền về một thói quen gây bực mình trong quá khứ. Công thức là was hoặc were, rồi always, rồi động từ thêm đuôi ing.",
+       "show": "h1"
+      },
+      {
+       "en": "When we shared a room, Zoe was always taking my things. It was so annoying!",
+       "vi": "Hồi ở chung phòng, Zoe cứ lấy đồ của tôi. Bực lắm!",
+       "gap": true
+      },
+      {
+       "say": "Để ý: always đứng sau was. Và câu thường đi kèm một lời bình, như it was so annoying."
+      },
+      {
+       "say": "Cách dùng thứ hai: dựng cảnh nền ở đầu một câu chuyện, như mở đầu một bộ phim.",
+       "show": "h2"
+      },
+      {
+       "en": "It was raining and everyone was hurrying home.",
+       "vi": "Trời đang mưa, mọi người đang vội về nhà.",
+       "gap": true
+      },
+      {
+       "say": "Rồi việc chính xảy ra, đẩy câu chuyện đi tiếp. Việc chính chia quá khứ đơn.",
+       "show": "h3"
+      },
+      {
+       "en": "Then the lights went out.",
+       "vi": "Rồi đèn tắt phụt.",
+       "gap": true
+      },
+      {
+       "say": "Was always cộng động từ thêm đuôi ing để than phiền. Thì tiếp diễn dựng cảnh nền, còn quá khứ đơn kể việc chính.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "ref_table",
+     "eyebrow": "Khi nào không dùng",
+     "title": "Bốn trường hợp dùng quá khứ đơn",
+     "data": {
+      "rows": [
+       {
+        "key": "n1",
+        "head": "Việc lặp lại",
+        "en": "Last summer I went swimming almost every day.",
+        "vi": "Lặp lại nhiều lần: không còn là một khoảng tạm thời."
+       },
+       {
+        "key": "n2",
+        "head": "Động từ trạng thái",
+        "en": "I didn't know the password.",
+        "vi": "know, own, need, believe: hầu như không dùng tiếp diễn."
+       },
+       {
+        "key": "n3",
+        "head": "Việc chớp nhoáng",
+        "en": "A car came round the corner and I jumped out of the way.",
+        "vi": "Xảy ra trong tích tắc."
+       },
+       {
+        "key": "n4",
+        "head": "Việc nối tiếp",
+        "en": "I charged my phone as soon as I got home.",
+        "vi": "Việc này xong mới tới việc kia."
+       }
+      ],
+      "rule": "Lặp lại, trạng thái, chớp nhoáng, nối tiếp: dùng quá khứ đơn."
+     },
+     "lines": [
+      {
+       "say": "Trường hợp một trả lời câu hỏi đầu buổi: việc lặp lại. Sáng nào cũng dậy lúc sáu giờ là lặp lại nhiều lần, không còn là một khoảng tạm thời quanh một mốc. Câu đúng là I got up at six every morning last week.",
+       "show": "n1"
+      },
+      {
+       "en": "Last summer I went swimming almost every day.",
+       "vi": "Hè năm ngoái hầu như ngày nào tôi cũng đi bơi.",
+       "gap": true
+      },
+      {
+       "say": "Trường hợp hai: động từ trạng thái, như know, own, need, believe. Biết hay không biết là một trạng thái, không phải một việc đang làm.",
+       "show": "n2"
+      },
+      {
+       "en": "I didn't know the password.",
+       "vi": "Tôi không biết mật khẩu.",
+       "gap": true
+      },
+      {
+       "say": "Trường hợp ba: việc chớp nhoáng. Không ai nhấn khoảng nửa giây đang nhảy.",
+       "show": "n3"
+      },
+      {
+       "en": "A car came round the corner and I jumped out of the way.",
+       "vi": "Một chiếc xe rẽ qua góc phố và tôi nhảy tránh sang bên.",
+       "gap": true
+      },
+      {
+       "say": "Trường hợp bốn: các việc nối tiếp nhau, việc này xong mới tới việc kia.",
+       "show": "n4"
+      },
+      {
+       "en": "I charged my phone as soon as I got home.",
+       "vi": "Vừa về đến nhà là tôi sạc điện thoại.",
+       "gap": true
+      },
+      {
+       "say": "Lặp lại, trạng thái, chớp nhoáng, nối tiếp: dùng quá khứ đơn. Và khi phân vân mà không thấy tính tạm thời, hãy chọn quá khứ đơn.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "tense_timeline",
+     "eyebrow": "Hỏi và kể",
+     "title": "Người hỏi dùng thì đơn giản nhất",
+     "data": {
+      "question": "Did you hang out with John yesterday?",
+      "question_vi": "Hôm qua bạn có đi chơi với John không?",
+      "question_label": "Có người hỏi",
+      "answers": [
+       {
+        "key": "j1",
+        "icon": "cup",
+        "at": "point",
+        "tense": "Quá khứ đơn · kể việc",
+        "en": "Yes, I hung out with him at a convenience store.",
+        "vi": "Có, tôi đi chơi với cậu ấy ở một cửa hàng tiện lợi."
+       },
+       {
+        "key": "j2",
+        "icon": "cup",
+        "at": "pwin",
+        "tense": "Quá khứ tiếp diễn · nhấn khoảng",
+        "en": "Yes, we were hanging out at a convenience store at around 7 p.m.",
+        "vi": "Khoảng bảy giờ tối, hai người đang ở đó."
+       }
+      ],
+      "rule": "Câu hỏi về quá khứ thường mở đầu bằng quá khứ đơn; người trả lời chọn thì theo điều muốn nhấn."
+     },
+     "lines": [
+      {
+       "say": "Khi hỏi về quá khứ, người bản xứ thường dùng thì đơn giản nhất: quá khứ đơn.",
+       "show": "q"
+      },
+      {
+       "en": "Did you hang out with John yesterday?",
+       "vi": "Hôm qua bạn có đi chơi với John không?",
+       "gap": true,
+       "recap": false
+      },
+      {
+       "say": "Quá khứ bên trái, bây giờ ở vạch giữa.",
+       "show": "axis"
+      },
+      {
+       "say": "Người trả lời có thể chỉ kể việc, bằng quá khứ đơn.",
+       "show": "j1"
+      },
+      {
+       "en": "Yes, I hung out with him at a convenience store.",
+       "vi": "Có, tôi đi chơi với cậu ấy ở một cửa hàng tiện lợi.",
+       "gap": true
+      },
+      {
+       "say": "Hoặc nhấn vào khoảng tạm thời quanh một mốc, bằng thì tiếp diễn.",
+       "show": "j2"
+      },
+      {
+       "en": "Yes, we were hanging out at a convenience store at around 7 p.m.",
+       "vi": "Có, khoảng bảy giờ tối chúng tôi đang ở một cửa hàng tiện lợi.",
+       "gap": true
+      },
+      {
+       "say": "Vì vậy khi chỉ hỏi cảm nhận, hãy hỏi did you enjoy the film, đừng hỏi bằng thì tiếp diễn. Câu hỏi về quá khứ thường mở đầu bằng quá khứ đơn; người trả lời chọn thì theo điều mình muốn nhấn.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "fix_pairs",
+     "eyebrow": "Lỗi thường gặp",
+     "title": "Bốn lỗi, bốn cách sửa",
+     "data": {
+      "rows": [
+       {
+        "key": "e1",
+        "wrong": "I watching TV at eight.",
+        "right": "I was watching TV at eight.",
+        "why": "Thì tiếp diễn luôn có was hoặc were."
+       },
+       {
+        "key": "e2",
+        "wrong": "I was getting up at six every morning last week.",
+        "right": "I got up at six every morning last week.",
+        "why": "Việc lặp lại: quá khứ đơn."
+       },
+       {
+        "key": "e3",
+        "wrong": "I wasn't knowing the password.",
+        "right": "I didn't know the password.",
+        "why": "know là động từ trạng thái."
+       },
+       {
+        "key": "e4",
+        "wrong": "In 2015, the population was reaching ten million.",
+        "right": "In 2015, the population reached ten million.",
+        "why": "Số liệu một năm đã qua: quá khứ đơn."
+       }
+      ],
+      "rule": "Có was hoặc were. Lặp lại, trạng thái, số liệu đã qua: quá khứ đơn."
+     },
+     "lines": [
+      {
+       "say": "Bốn lỗi hay gặp nhất. Lỗi một: bỏ mất was.",
+       "show": "e1"
+      },
+      {
+       "en": "I was watching TV at eight.",
+       "vi": "Lúc tám giờ tôi đang xem TV.",
+       "gap": true,
+       "recap": false
+      },
+      {
+       "say": "Lỗi hai: dùng tiếp diễn cho việc lặp lại.",
+       "show": "e2"
+      },
+      {
+       "en": "I got up at six every morning last week.",
+       "vi": "Tuần trước sáng nào tôi cũng dậy lúc sáu giờ.",
+       "gap": true
+      },
+      {
+       "say": "Lỗi ba: dùng tiếp diễn cho động từ trạng thái.",
+       "show": "e3"
+      },
+      {
+       "en": "I didn't know the password.",
+       "vi": "Tôi không biết mật khẩu.",
+       "gap": true,
+       "recap": false
+      },
+      {
+       "say": "Lỗi bốn hay gặp trong Writing Task 1: dịch chữ đang thành thì tiếp diễn. Số liệu của một năm đã qua dùng quá khứ đơn.",
+       "show": "e4"
+      },
+      {
+       "en": "In 2015, the population reached ten million.",
+       "vi": "Năm 2015, dân số đạt mười triệu.",
+       "gap": true
+      },
+      {
+       "say": "Thì tiếp diễn luôn có was hoặc were. Việc lặp lại, động từ trạng thái và số liệu đã qua dùng quá khứ đơn.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "battery",
+     "lines": [
+      {
+       "say": "Trước khi kể một câu chuyện, học năm danh từ về thiết bị. Từ thứ nhất. Hết pin, tiếng Anh nói là the battery died."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "screen",
+     "lines": [
+      {
+       "say": "Từ thứ hai: màn hình."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "signal",
+     "lines": [
+      {
+       "say": "Từ thứ ba. Không có sóng là no signal."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "software",
+     "lines": [
+      {
+       "say": "Từ thứ tư. Đây là danh từ không đếm được: không nói a software."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "update",
+     "lines": [
+      {
+       "say": "Từ cuối. Khi là danh từ, trọng âm rơi vào âm đầu."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "speaking_answer",
+     "eyebrow": "IELTS Speaking Part 2",
+     "title": "Dựng cảnh, rồi kể việc chính",
+     "data": {
+      "question": "Describe a time when a piece of technology stopped working.",
+      "question_vi": "Kể về một lần một thiết bị công nghệ ngừng hoạt động.",
+      "short": "My laptop froze.",
+      "parts": [
+       {
+        "key": "q1",
+        "role": "Dựng cảnh",
+        "tense": "Quá khứ tiếp diễn",
+        "en": "Last month I was writing an important essay on my laptop.",
+        "vi": "Tháng trước tôi đang viết một bài luận quan trọng trên laptop."
+       },
+       {
+        "key": "q2",
+        "role": "Việc bất ngờ",
+        "tense": "Tiếp diễn + quá khứ đơn",
+        "en": "I was working on the last paragraph when the screen suddenly froze.",
+        "vi": "Tôi đang viết đoạn cuối thì màn hình bỗng bị treo."
+       },
+       {
+        "key": "q3",
+        "role": "Kết quả",
+        "tense": "Quá khứ đơn",
+        "en": "I restarted it, but I lost about an hour of work.",
+        "vi": "Tôi khởi động lại, nhưng mất khoảng một giờ làm việc."
+       },
+       {
+        "key": "q4",
+        "role": "Bây giờ",
+        "tense": "Hiện tại đơn",
+        "en": "Now I save my files every few minutes.",
+        "vi": "Bây giờ cứ vài phút tôi lại lưu tệp."
+       }
+      ],
+      "rule": "Dựng cảnh bằng quá khứ tiếp diễn, kể việc chính bằng quá khứ đơn, nói tới bây giờ bằng thì hiện tại."
+     },
+     "lines": [
+      {
+       "say": "Đề Part 2: kể về một lần một thiết bị công nghệ ngừng hoạt động."
+      },
+      {
+       "en": "Describe a time when a piece of technology stopped working.",
+       "show": "q"
+      },
+      {
+       "say": "Chỉ nói máy bị treo thì câu chuyện chưa bắt đầu.",
+       "show": "short"
+      },
+      {
+       "say": "Câu một: dựng cảnh bằng thì tiếp diễn. Lúc đó bạn đang làm gì?"
+      },
+      {
+       "en": "Last month I was writing an important essay on my laptop.",
+       "vi": "Tháng trước tôi đang viết một bài luận quan trọng trên laptop.",
+       "gap": true,
+       "show": "q1"
+      },
+      {
+       "say": "Câu hai: việc bất ngờ cắt ngang. Việc dài chia tiếp diễn, việc ngắn chia quá khứ đơn."
+      },
+      {
+       "en": "I was working on the last paragraph when the screen suddenly froze.",
+       "vi": "Tôi đang viết đoạn cuối thì màn hình bỗng bị treo.",
+       "gap": true,
+       "show": "q2"
+      },
+      {
+       "say": "Câu ba: kết quả, các việc nối tiếp, nên dùng quá khứ đơn."
+      },
+      {
+       "en": "I restarted it, but I lost about an hour of work.",
+       "vi": "Tôi khởi động lại, nhưng mất khoảng một giờ làm việc.",
+       "gap": true,
+       "show": "q3"
+      },
+      {
+       "say": "Câu bốn: thói quen của bạn bây giờ, nên dùng hiện tại đơn."
+      },
+      {
+       "en": "Now I save my files every few minutes.",
+       "vi": "Bây giờ cứ vài phút tôi lại lưu tệp.",
+       "gap": true,
+       "show": "q4"
+      },
+      {
+       "say": "Dựng cảnh bằng quá khứ tiếp diễn, kể việc chính bằng quá khứ đơn, nói tới bây giờ bằng thì hiện tại. Hãy viết lại bốn câu này cho đúng với chuyện của chính bạn.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "recap",
+     "lines": [
+      {
+       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "show": "title"
+      }
+     ]
+    },
+    {
+     "kind": "end",
+     "next": "Tiếp theo: học thẻ và từ, làm bài, rồi buổi 3 và hai bài luyện theo sách.",
+     "lines": [
+      {
+       "say": "Hết phần giảng của ngày hai. Bạn học các thẻ và từ trong app, làm bài, rồi sang buổi ba để xếp câu, nghe chép và kể chuyện của chính bạn. Cuối ngày có hai bài luyện theo sách, mỗi câu kèm lời giải thích.",
+       "show": "title"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title_vi": "Buổi 3 · vận dụng: xếp câu, gõ, nghe chép, kể chuyện",
+   "can_do_vi": "Sau buổi này bạn chọn đúng giữa quá khứ đơn và tiếp diễn, tự xếp và gõ đúng câu, nghe chép được câu có was, were và đuôi ing, và kể một chuyện của chính mình.",
+   "use_vi": "Speaking Part 2 (Describe a time when…) cần dựng cảnh bằng quá khứ tiếp diễn rồi kể việc chính bằng quá khứ đơn: I was walking home when it started to rain. Writing hầu như không cần quá khứ tiếp diễn",
+   "vocab": [],
+   "check": [
+    "G1D22Q3",
+    "G1D22T2",
+    "G1D22Q4",
+    "G1D22Q5",
+    "G1D22T4",
+    "G1D22B1",
+    "G1D22B2",
+    "G1D22B3",
+    "G1D22B4",
+    "G1D22B5",
+    "G1D22F1",
+    "G1D22F2",
+    "G1D22F3",
+    "G1D22F4",
+    "G1D22F5",
+    "G1D22D1",
+    "G1D22M1"
+   ]
+  },
+  {
+   "title_vi": "Luyện theo sách · Quá khứ đơn hay quá khứ tiếp diễn (+1)",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: quá khứ đơn hay quá khứ tiếp diễn; chia động từ trong ngoặc.",
+   "use_vi": "Làm sau khi học thẻ: mỗi câu sai có lời giải thích, hãy tự nói lại câu đó theo ý muốn nói rồi mới sang câu sau.",
+   "check": [
+    "G1D22KW2A-1",
+    "G1D22KW2A-2",
+    "G1D22KW2A-3",
+    "G1D22KW2A-4",
+    "G1D22KW2A-5",
+    "G1D22KW2A-6",
+    "G1D22KW2A-7",
+    "G1D22KW2A-8",
+    "G1D22KW2A-9",
+    "G1D22KW2A-10",
+    "G1D22KW2A-11",
+    "G1D22KW2A-12",
+    "G1D22KW2B-1",
+    "G1D22KW2B-2",
+    "G1D22KW2B-3",
+    "G1D22KW2B-4",
+    "G1D22KW2B-5",
+    "G1D22KW2B-6",
+    "G1D22KW2B-7",
+    "G1D22KW2B-8",
+    "G1D22KW2B-9",
+    "G1D22KW2B-10"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Ý và thứ tự giảng theo Buổi 3 của khóa học (các thì quá khứ); khung và số trang theo Destination B2, Unit 3. Ví dụ, câu hỏi và lời giải thích do khóa học tự soạn, đã đối chiếu (docs/WEEK2_PLAN.md)."
+  }
+ ]
+}

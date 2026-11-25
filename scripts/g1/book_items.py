@@ -15,6 +15,7 @@ B2 = "Destination B2, Unit 1"
 G65 = "IELTS Grammar 6.5+, Unit 1"
 G3 = "IELTS Grammar 6.5+, Unit 3"
 B18 = "Destination B2, Unit 18"
+B3 = "Destination B2, Unit 3"
 
 SECTIONS: list[tuple] = [
     # ---------------------------------------------------------------- day 1
@@ -335,6 +336,34 @@ SECTIONS: list[tuple] = [
         "The problem can seem ( ㉠ ) (SOLVE). | unsolvable | Tính từ phủ định sau `seem`.",
         "...and a ( ㉠ ) (REASON) amount of time, anyone can learn. | reasonable | Trước danh từ `amount` cần tính từ.",
         "Being able to read can lead to an ( ㉠ ) (IMPROVE) quality of life. | improved | Tính từ V3 trước danh từ `quality`.",
+    ]),
+    # ---------------------------------------------------------------- week 2, day 2 (build day 22): Destination B2 Unit 3, A and B
+    # Answers: the book's key; reasons and the "outside the exam" notes follow the course's session 3 (stage 4: A, stage 5: B).
+    (22, "W2A", B3 + " · bài A (trang 20)", "Quá khứ đơn hay quá khứ tiếp diễn", "Chọn đáp án của bài thi. Hỏi: người nói kể một việc đã xảy ra (một điểm), hay nhìn vào một khoảng tạm thời đang diễn ra?", "choice", [
+        "I ( ) Maria for the first time at Ray's birthday party. | saw | was seeing | Kể một sự kiện: lần đầu gặp Maria. Bài thi chọn `saw`. Ngoài đời, `was seeing` chỉ dùng khi cố ý nhấn khoảnh khắc đang nhìn thấy cô ấy ở bữa tiệc.",
+        "Richard ( ) TV when the phone rang. | was watching | watched | Chuông reo là việc ngắn cắt ngang; lúc đó việc xem TV đang diễn ra → `was watching`. Chia cả hai vế quá khứ đơn thì câu không cho biết hai việc diễn ra cùng lúc.",
+        "When we were on holiday, we ( ) to the café almost every day. | went | were going | Nếu câu dừng ở `to the café`, cả hai đều được. Nhưng có `almost every day`: việc lặp lại, không còn tính tạm thời → `went`.",
+        "Denise ( ) the song every day until she could sing it perfectly. | practised | was practising | `every day`: luyện lặp lại hằng ngày cho tới khi hát được → quá khứ đơn.",
+        "The phone was engaged when I called. Who ( ) to? | were you talking | did you talk | Máy bận đúng lúc tôi gọi: việc đang nói chuyện là một khoảng tạm thời quanh mốc `when I called` → `were you talking`. Ngoài đời, hỏi gọn `Who did you talk to?` vẫn được hiểu.",
+        "Mr Connors ( ) two houses and a villa in the south of France. | owned | was owning | `own` là động từ trạng thái: sở hữu nhà cửa là trạng thái ổn định, không phải việc tạm thời → `owned`.",
+        "I ( ) my homework as soon as I got home from school. | did | was doing | `as soon as I got home`: các việc nối tiếp nhau → `did`. Ngoài đời, `was doing` chỉ dùng khi muốn nhấn khoảng thời gian đang ngồi làm bài.",
+        "A car came round the corner and I ( ) out of the way. | jumped | was jumping | Nhảy tránh xe là việc chớp nhoáng, nối tiếp `came` → `jumped`. Không ai nhấn khoảng nửa giây đang nhảy.",
+        "When my dad met my mum, he ( ) as a bus driver. | was working | worked | Lúc bố gặp mẹ, công việc lái xe buýt là một giai đoạn tạm thời → đáp án `was working`. Ngoài đời, `worked` để nêu nghề của bố lúc đó cũng đúng.",
+        "I ( ) up at six o'clock every morning last week! | got | was getting | `every morning last week`: việc lặp lại → quá khứ đơn.",
+        "My cousin and I ( ) on the computer when there was a power cut. | were playing | played | Mất điện bất ngờ cắt ngang lúc hai người đang chơi máy tính → `were playing`.",
+        "No, that's not right. I ( ) the test. I got a B. | did pass | was passing | Cãi lại, nhấn mạnh: `did` + động từ nguyên thể. `was passing` không có nghĩa ở đây.",
+    ]),
+    (22, "W2B", B3 + " · bài B (trang 20)", "Chia động từ trong ngoặc", "Gõ dạng đúng của động từ trong ngoặc. Hỏi trước: một điểm hay một khoảng tạm thời? Có lặp lại không? Không thấy tính tạm thời thì chọn quá khứ đơn.", "typed", [
+        "Where ( ㉠ ) (you / go) when I saw you on the bus last night? | were you going | Hình dung chiếc xe buýt chạy vụt qua: lúc tôi nhìn thấy, bạn đang trên đường đi đâu đó → `were you going`.",
+        "( ㉠ ) (you / enjoy) the film? | Did you enjoy | Hỏi cảm nhận về bộ phim đã xem xong: người hỏi dùng thì đơn giản nhất, quá khứ đơn.",
+        "When we shared a room, Zoe ( ㉠ ) (always / take) my things. It was so annoying! | was always taking | Than phiền về một thói quen trong quá khứ, có lời bình `It was so annoying!` → `was always taking`.",
+        "When I went to get the tickets, I realised I ( ㉠ ) (not / have) any money. | didn't have;did not have | `have` (có tiền) là động từ trạng thái → quá khứ đơn, phủ định `didn't have`.",
+        "When I was young, we ( ㉠ ) (go) to France every year on holiday. | went | `every year`: việc lặp lại hằng năm → bài thi chọn `went`.",
+        "Elvis ( ㉠ ) (become) famous for the song Blue Suede Shoes. | became | Một sự kiện trong đời một người đã khép lại → quá khứ đơn. become → became.",
+        "When you rang last night, I ( ㉠ ) (work) in the garden so I didn't hear the phone. | was working | Chuông reo chỉ trong ít giây; trong lúc đó tôi đang làm vườn → `was working`. Ngôi I đi với was; sau didn't đọc hear, không đọc heard.",
+        "I ( ㉠ ) (hear) from Davina last night. She says hello. | heard | Kể lại việc tối qua nhận được tin của Davina → quá khứ đơn. hear → heard.",
+        "The old man ( ㉠ ) (appear) to be very tired and he slowly sat down. | appeared | `appear` (trông có vẻ) là trạng thái, nối với việc tiếp theo `sat down` → quá khứ đơn.",
+        "We ( ㉠ ) (throw) a surprise party for my brother last Saturday. | threw | Bữa tiệc thứ Bảy tuần trước được kể như một sự kiện đã xong → `threw`. throw là động từ bất quy tắc.",
     ]),
 ]
 

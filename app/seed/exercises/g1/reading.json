@@ -5557,6 +5557,970 @@
    }
   },
   {
+   "id": "G1D22T1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Tuần 2 · Ngày 2",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D22T1",
+     "options": [
+      {
+       "id": "1",
+       "text": "quá khứ ● (một mốc nói được) ┄┄ bây giờ"
+      },
+      {
+       "id": "2",
+       "text": "quá khứ ━━✕━━ (đang diễn ra thì bị cắt ngang) ┄┄ bây giờ"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ══ (hai việc cùng diễn ra) ┄┄ bây giờ"
+      },
+      {
+       "id": "4",
+       "text": "quá khứ ├●┤ (đang diễn ra quanh một mốc) ┄┄ bây giờ"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Đang đá bóng quanh mốc bảy giờ: một khoảng tạm thời → quá khứ tiếp diễn.",
+     "tags": [],
+     "prompt_vi": "«Yesterday I was playing football at seven.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D22T2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Tuần 2 · Ngày 2",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D22T2",
+     "options": [
+      {
+       "id": "1",
+       "text": "quá khứ ├●┤ (đang diễn ra quanh một mốc) ┄┄ bây giờ"
+      },
+      {
+       "id": "2",
+       "text": "quá khứ ━━✕━━ (đang diễn ra thì bị cắt ngang) ┄┄ bây giờ"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ● (một mốc nói được) ┄┄ bây giờ"
+      },
+      {
+       "id": "4",
+       "text": "quá khứ ══ (hai việc cùng diễn ra) ┄┄ bây giờ"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Chỉ kể việc đã xảy ra lúc bảy giờ: một điểm → quá khứ đơn.",
+     "tags": [],
+     "prompt_vi": "«Yesterday I played football at seven.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D22T3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Tuần 2 · Ngày 2",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D22T3",
+     "options": [
+      {
+       "id": "1",
+       "text": "quá khứ ├●┤ (đang diễn ra quanh một mốc) ┄┄ bây giờ"
+      },
+      {
+       "id": "2",
+       "text": "quá khứ ━━✕━━ (đang diễn ra thì bị cắt ngang) ┄┄ bây giờ"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ══ (hai việc cùng diễn ra) ┄┄ bây giờ"
+      },
+      {
+       "id": "4",
+       "text": "quá khứ ● (một mốc nói được) ┄┄ bây giờ"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Việc tải tệp đang diễn ra thì máy sập: một khoảng bị một điểm cắt ngang.",
+     "tags": [],
+     "prompt_vi": "«I was downloading a file when my laptop crashed.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D22T4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Tuần 2 · Ngày 2",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D22T4",
+     "options": [
+      {
+       "id": "1",
+       "text": "quá khứ ━━✕━━ (đang diễn ra thì bị cắt ngang) ┄┄ bây giờ"
+      },
+      {
+       "id": "2",
+       "text": "quá khứ ● (một mốc nói được) ┄┄ bây giờ"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ══ (hai việc cùng diễn ra) ┄┄ bây giờ"
+      },
+      {
+       "id": "4",
+       "text": "quá khứ ├●┤ (đang diễn ra quanh một mốc) ┄┄ bây giờ"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "while và hai vế tiếp diễn: hai khoảng diễn ra cùng lúc.",
+     "tags": [],
+     "prompt_vi": "«I was cooking while my sister was doing her homework.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D22I1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 2 · Ngày 2",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D22I1",
+     "options": [
+      {
+       "id": "1",
+       "text": "I was installing some new software."
+      },
+      {
+       "id": "2",
+       "text": "I installing some new software."
+      },
+      {
+       "id": "3",
+       "text": "I were installing some new software."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Ngôi I đi với was, và không được bỏ was: was + V-ing.",
+     "tags": [],
+     "prompt_vi": "Bạn của bạn hỏi tám giờ tối qua bạn làm gì. Lúc đó bạn đang cài một phần mềm mới."
+    }
+   ]
+  },
+  {
+   "id": "G1D22I2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 2 · Ngày 2",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D22I2",
+     "options": [
+      {
+       "id": "1",
+       "text": "Yes, we were hanging out at a convenience store at around 7 p.m."
+      },
+      {
+       "id": "2",
+       "text": "Yes, we have been hanging out at a convenience store at around 7 p.m."
+      },
+      {
+       "id": "3",
+       "text": "Yes, we are hanging out at a convenience store at around 7 p.m."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Nhấn khoảng tạm thời quanh một mốc đã qua → quá khứ tiếp diễn. Có mốc đã qua nên không dùng thì hiện tại.",
+     "tags": [],
+     "prompt_vi": "Có người hỏi Did you hang out with John yesterday? Bạn muốn nhấn rằng khoảng bảy giờ tối hai người đang ở một cửa hàng tiện lợi."
+    }
+   ]
+  },
+  {
+   "id": "G1D22I3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 2 · Ngày 2",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D22I3",
+     "options": [
+      {
+       "id": "1",
+       "text": "I downloaded a big file when my laptop was freezing."
+      },
+      {
+       "id": "2",
+       "text": "I was downloading a big file when my laptop was froze."
+      },
+      {
+       "id": "3",
+       "text": "I was downloading a big file when my laptop froze."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Việc dài đang diễn ra: tiếp diễn. Việc ngắn cắt ngang: quá khứ đơn, freeze → froze.",
+     "tags": [],
+     "prompt_vi": "Bạn đang tải một tệp lớn thì laptop bị treo. Bạn kể lại."
+    }
+   ]
+  },
+  {
+   "id": "G1D22I4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 2 · Ngày 2",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D22I4",
+     "options": [
+      {
+       "id": "1",
+       "text": "My brother always was using my phone without asking."
+      },
+      {
+       "id": "2",
+       "text": "My brother was always using my phone without asking."
+      },
+      {
+       "id": "3",
+       "text": "My brother was always use my phone without asking."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Than phiền: was / were + always + V-ing; always đứng sau was.",
+     "tags": [],
+     "prompt_vi": "Hồi ở chung phòng, em trai bạn cứ dùng điện thoại của bạn mà không hỏi. Bạn than phiền."
+    }
+   ]
+  },
+  {
+   "id": "G1D22I5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 2 · Ngày 2",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D22I5",
+     "options": [
+      {
+       "id": "1",
+       "text": "I was got up at six every morning last week."
+      },
+      {
+       "id": "2",
+       "text": "I was getting up at six every morning last week."
+      },
+      {
+       "id": "3",
+       "text": "I got up at six every morning last week."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "every morning last week là việc lặp lại → quá khứ đơn, không dùng tiếp diễn.",
+     "tags": [],
+     "prompt_vi": "Tuần trước sáng nào bạn cũng dậy lúc sáu giờ. Bạn kể lại."
+    }
+   ]
+  },
+  {
+   "id": "G1D22Q1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 2",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D22Q1",
+     "options": [
+      {
+       "id": "1",
+       "text": "were watch"
+      },
+      {
+       "id": "2",
+       "text": "was watching"
+      },
+      {
+       "id": "3",
+       "text": "were watching"
+      },
+      {
+       "id": "4",
+       "text": "are watching"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "We đi với were; việc đang diễn ra lúc bạn gọi → were + V-ing.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "We ( ) TV when you called."
+   }
+  },
+  {
+   "id": "G1D22Q2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Chọn đáp án · Tuần 2 · Ngày 2",
+   "instruction_vi": "Chọn phương án đúng.",
+   "questions": [
+    {
+     "id": "G1D22Q2",
+     "options": [
+      {
+       "id": "1",
+       "text": "chargeing"
+      },
+      {
+       "id": "2",
+       "text": "charging"
+      },
+      {
+       "id": "3",
+       "text": "chargging"
+      },
+      {
+       "id": "4",
+       "text": "charing"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "charge tận cùng là e: bỏ e rồi thêm -ing.",
+     "tags": [],
+     "prompt_vi": "Dạng -ing nào viết đúng?"
+    }
+   ]
+  },
+  {
+   "id": "G1D22Q3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 2",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D22Q3",
+     "options": [
+      {
+       "id": "1",
+       "text": "was studying"
+      },
+      {
+       "id": "2",
+       "text": "am studying"
+      },
+      {
+       "id": "3",
+       "text": "was study"
+      },
+      {
+       "id": "4",
+       "text": "have studied"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đang học quanh mốc chín giờ tối qua → quá khứ tiếp diễn: was + V-ing.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "At nine o'clock last night, I ( ) for my exam."
+   }
+  },
+  {
+   "id": "G1D22Q4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 2",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D22Q4",
+     "options": [
+      {
+       "id": "1",
+       "text": "am downloading"
+      },
+      {
+       "id": "2",
+       "text": "have downloaded"
+      },
+      {
+       "id": "3",
+       "text": "was download"
+      },
+      {
+       "id": "4",
+       "text": "was downloading"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Việc tải tệp đang diễn ra thì mạng ngừng → quá khứ tiếp diễn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I ( ) a file when the Internet stopped working."
+   }
+  },
+  {
+   "id": "G1D22Q5",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 2",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D22Q5",
+     "options": [
+      {
+       "id": "1",
+       "text": "while"
+      },
+      {
+       "id": "2",
+       "text": "since"
+      },
+      {
+       "id": "3",
+       "text": "for"
+      },
+      {
+       "id": "4",
+       "text": "during"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Nối hai việc diễn ra cùng lúc: while. during đi với danh từ, không đi với một vế câu.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "My sister was cooking ( ) I was doing my homework."
+   }
+  },
+  {
+   "id": "G1D22Q6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 2",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D22Q6",
+     "options": [
+      {
+       "id": "1",
+       "text": "was always freeze"
+      },
+      {
+       "id": "2",
+       "text": "always was freezing"
+      },
+      {
+       "id": "3",
+       "text": "was always freezing"
+      },
+      {
+       "id": "4",
+       "text": "is always freezing"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Than phiền về quá khứ: was always + V-ing.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "My old laptop ( ). It was so annoying!"
+   }
+  },
+  {
+   "id": "G1D22Q7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 2",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D22Q7",
+     "options": [
+      {
+       "id": "1",
+       "text": "didn't know"
+      },
+      {
+       "id": "2",
+       "text": "don't know"
+      },
+      {
+       "id": "3",
+       "text": "haven't known"
+      },
+      {
+       "id": "4",
+       "text": "wasn't knowing"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "know là động từ trạng thái → quá khứ đơn, không dùng tiếp diễn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I ( ) the password, so I couldn't log in."
+   }
+  },
+  {
+   "id": "G1D22Q8",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 2",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D22Q8",
+     "options": [
+      {
+       "id": "1",
+       "text": "went"
+      },
+      {
+       "id": "2",
+       "text": "go"
+      },
+      {
+       "id": "3",
+       "text": "have gone"
+      },
+      {
+       "id": "4",
+       "text": "was going"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "almost every day là việc lặp lại → quá khứ đơn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Last month I ( ) to the gym almost every day."
+   }
+  },
+  {
+   "id": "G1D22Q9",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 2",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D22Q9",
+     "options": [
+      {
+       "id": "1",
+       "text": "Were you enjoying"
+      },
+      {
+       "id": "2",
+       "text": "Did you enjoy"
+      },
+      {
+       "id": "3",
+       "text": "Have you enjoyed"
+      },
+      {
+       "id": "4",
+       "text": "Do you enjoy"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Hỏi cảm nhận về một việc đã qua: dùng thì đơn giản nhất, quá khứ đơn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "A: ( ) the party last night? B: Yes, it was great."
+   }
+  },
+  {
+   "id": "G1D22KW2A-1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Quá khứ đơn hay quá khứ tiếp diễn (1/12)",
+   "instruction_vi": "Chọn đáp án của bài thi. Hỏi: người nói kể một việc đã xảy ra (một điểm), hay nhìn vào một khoảng tạm thời đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D22KW2A-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "saw"
+      },
+      {
+       "id": "2",
+       "text": "was seeing"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Kể một sự kiện: lần đầu gặp Maria. Bài thi chọn `saw`. Ngoài đời, `was seeing` chỉ dùng khi cố ý nhấn khoảnh khắc đang nhìn thấy cô ấy ở bữa tiệc.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I ( ) Maria for the first time at Ray's birthday party."
+   }
+  },
+  {
+   "id": "G1D22KW2A-2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Quá khứ đơn hay quá khứ tiếp diễn (2/12)",
+   "instruction_vi": "Chọn đáp án của bài thi. Hỏi: người nói kể một việc đã xảy ra (một điểm), hay nhìn vào một khoảng tạm thời đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D22KW2A-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "watched"
+      },
+      {
+       "id": "2",
+       "text": "was watching"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Chuông reo là việc ngắn cắt ngang; lúc đó việc xem TV đang diễn ra → `was watching`. Chia cả hai vế quá khứ đơn thì câu không cho biết hai việc diễn ra cùng lúc.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Richard ( ) TV when the phone rang."
+   }
+  },
+  {
+   "id": "G1D22KW2A-3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Quá khứ đơn hay quá khứ tiếp diễn (3/12)",
+   "instruction_vi": "Chọn đáp án của bài thi. Hỏi: người nói kể một việc đã xảy ra (một điểm), hay nhìn vào một khoảng tạm thời đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D22KW2A-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "were going"
+      },
+      {
+       "id": "2",
+       "text": "went"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Nếu câu dừng ở `to the café`, cả hai đều được. Nhưng có `almost every day`: việc lặp lại, không còn tính tạm thời → `went`.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "When we were on holiday, we ( ) to the café almost every day."
+   }
+  },
+  {
+   "id": "G1D22KW2A-4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Quá khứ đơn hay quá khứ tiếp diễn (4/12)",
+   "instruction_vi": "Chọn đáp án của bài thi. Hỏi: người nói kể một việc đã xảy ra (một điểm), hay nhìn vào một khoảng tạm thời đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D22KW2A-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "was practising"
+      },
+      {
+       "id": "2",
+       "text": "practised"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`every day`: luyện lặp lại hằng ngày cho tới khi hát được → quá khứ đơn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Denise ( ) the song every day until she could sing it perfectly."
+   }
+  },
+  {
+   "id": "G1D22KW2A-5",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Quá khứ đơn hay quá khứ tiếp diễn (5/12)",
+   "instruction_vi": "Chọn đáp án của bài thi. Hỏi: người nói kể một việc đã xảy ra (một điểm), hay nhìn vào một khoảng tạm thời đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D22KW2A-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "were you talking"
+      },
+      {
+       "id": "2",
+       "text": "did you talk"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Máy bận đúng lúc tôi gọi: việc đang nói chuyện là một khoảng tạm thời quanh mốc `when I called` → `were you talking`. Ngoài đời, hỏi gọn `Who did you talk to?` vẫn được hiểu.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "The phone was engaged when I called. Who ( ) to?"
+   }
+  },
+  {
+   "id": "G1D22KW2A-6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Quá khứ đơn hay quá khứ tiếp diễn (6/12)",
+   "instruction_vi": "Chọn đáp án của bài thi. Hỏi: người nói kể một việc đã xảy ra (một điểm), hay nhìn vào một khoảng tạm thời đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D22KW2A-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "owned"
+      },
+      {
+       "id": "2",
+       "text": "was owning"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`own` là động từ trạng thái: sở hữu nhà cửa là trạng thái ổn định, không phải việc tạm thời → `owned`.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Mr Connors ( ) two houses and a villa in the south of France."
+   }
+  },
+  {
+   "id": "G1D22KW2A-7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Quá khứ đơn hay quá khứ tiếp diễn (7/12)",
+   "instruction_vi": "Chọn đáp án của bài thi. Hỏi: người nói kể một việc đã xảy ra (một điểm), hay nhìn vào một khoảng tạm thời đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D22KW2A-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "did"
+      },
+      {
+       "id": "2",
+       "text": "was doing"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`as soon as I got home`: các việc nối tiếp nhau → `did`. Ngoài đời, `was doing` chỉ dùng khi muốn nhấn khoảng thời gian đang ngồi làm bài.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I ( ) my homework as soon as I got home from school."
+   }
+  },
+  {
+   "id": "G1D22KW2A-8",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Quá khứ đơn hay quá khứ tiếp diễn (8/12)",
+   "instruction_vi": "Chọn đáp án của bài thi. Hỏi: người nói kể một việc đã xảy ra (một điểm), hay nhìn vào một khoảng tạm thời đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D22KW2A-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "was jumping"
+      },
+      {
+       "id": "2",
+       "text": "jumped"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Nhảy tránh xe là việc chớp nhoáng, nối tiếp `came` → `jumped`. Không ai nhấn khoảng nửa giây đang nhảy.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "A car came round the corner and I ( ) out of the way."
+   }
+  },
+  {
+   "id": "G1D22KW2A-9",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Quá khứ đơn hay quá khứ tiếp diễn (9/12)",
+   "instruction_vi": "Chọn đáp án của bài thi. Hỏi: người nói kể một việc đã xảy ra (một điểm), hay nhìn vào một khoảng tạm thời đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D22KW2A-9",
+     "options": [
+      {
+       "id": "1",
+       "text": "worked"
+      },
+      {
+       "id": "2",
+       "text": "was working"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Lúc bố gặp mẹ, công việc lái xe buýt là một giai đoạn tạm thời → đáp án `was working`. Ngoài đời, `worked` để nêu nghề của bố lúc đó cũng đúng.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "When my dad met my mum, he ( ) as a bus driver."
+   }
+  },
+  {
+   "id": "G1D22KW2A-10",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Quá khứ đơn hay quá khứ tiếp diễn (10/12)",
+   "instruction_vi": "Chọn đáp án của bài thi. Hỏi: người nói kể một việc đã xảy ra (một điểm), hay nhìn vào một khoảng tạm thời đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D22KW2A-10",
+     "options": [
+      {
+       "id": "1",
+       "text": "was getting"
+      },
+      {
+       "id": "2",
+       "text": "got"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`every morning last week`: việc lặp lại → quá khứ đơn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I ( ) up at six o'clock every morning last week!"
+   }
+  },
+  {
+   "id": "G1D22KW2A-11",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Quá khứ đơn hay quá khứ tiếp diễn (11/12)",
+   "instruction_vi": "Chọn đáp án của bài thi. Hỏi: người nói kể một việc đã xảy ra (một điểm), hay nhìn vào một khoảng tạm thời đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D22KW2A-11",
+     "options": [
+      {
+       "id": "1",
+       "text": "played"
+      },
+      {
+       "id": "2",
+       "text": "were playing"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Mất điện bất ngờ cắt ngang lúc hai người đang chơi máy tính → `were playing`.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "My cousin and I ( ) on the computer when there was a power cut."
+   }
+  },
+  {
+   "id": "G1D22KW2A-12",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Quá khứ đơn hay quá khứ tiếp diễn (12/12)",
+   "instruction_vi": "Chọn đáp án của bài thi. Hỏi: người nói kể một việc đã xảy ra (một điểm), hay nhìn vào một khoảng tạm thời đang diễn ra?",
+   "questions": [
+    {
+     "id": "G1D22KW2A-12",
+     "options": [
+      {
+       "id": "1",
+       "text": "did pass"
+      },
+      {
+       "id": "2",
+       "text": "was passing"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Cãi lại, nhấn mạnh: `did` + động từ nguyên thể. `was passing` không có nghĩa ở đây.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "No, that's not right. I ( ) the test. I got a B."
+   }
+  },
+  {
    "id": "G1D5KB18-1",
    "skill": "reading",
    "type": "read_cloze",

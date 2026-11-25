@@ -4621,6 +4621,447 @@
    "tips_vi": []
   },
   {
+   "id": "G1D22B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 2 · Ngày 2",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Lúc tám giờ tôi đang xem TV.",
+   "tiles": [
+    "at",
+    "TV",
+    "eight",
+    "watching",
+    "I",
+    "was"
+   ],
+   "answers": [
+    "I was watching TV at eight"
+   ]
+  },
+  {
+   "id": "G1D22B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 2 · Ngày 2",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tám giờ tối qua bạn đang làm gì?",
+   "tiles": [
+    "eight",
+    "night",
+    "you",
+    "last",
+    "doing",
+    "were",
+    "What",
+    "at"
+   ],
+   "answers": [
+    "What were you doing at eight last night"
+   ]
+  },
+  {
+   "id": "G1D22B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 2 · Ngày 2",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi đang tải một tệp thì laptop bị sập.",
+   "tiles": [
+    "crashed",
+    "my",
+    "laptop",
+    "I",
+    "was",
+    "file",
+    "downloading",
+    "a",
+    "when"
+   ],
+   "answers": [
+    "I was downloading a file when my laptop crashed"
+   ]
+  },
+  {
+   "id": "G1D22B4",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 2 · Ngày 2",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi nấu ăn trong lúc em gái làm bài tập.",
+   "tiles": [
+    "her",
+    "my",
+    "sister",
+    "I",
+    "cooking",
+    "while",
+    "was",
+    "was",
+    "homework",
+    "doing"
+   ],
+   "answers": [
+    "I was cooking while my sister was doing her homework"
+   ]
+  },
+  {
+   "id": "G1D22B5",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 2 · Ngày 2",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi không biết mật khẩu.",
+   "tiles": [
+    "password",
+    "know",
+    "didn't",
+    "the",
+    "I"
+   ],
+   "answers": [
+    "I didn't know the password"
+   ]
+  },
+  {
+   "id": "G1D22F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 2 · Ngày 2",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "At ten o'clock last night, we ( ㉠ ) (watch) a film.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "were watching"
+     ],
+     "common_errors_vi": "Đang diễn ra quanh mốc mười giờ tối qua; we đi với were."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D22F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 2 · Ngày 2",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "The screen ( ㉠ ) (freeze) while I was playing a game.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "froze"
+     ],
+     "common_errors_vi": "Việc ngắn xảy ra giữa lúc đang chơi → quá khứ đơn. freeze là động từ bất quy tắc: froze."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D22F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 2 · Ngày 2",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "While I ( ㉠ ) (install) the update, my phone restarted twice.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "was installing"
+     ],
+     "common_errors_vi": "Sau while là việc đang diễn ra → was + V-ing."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D22F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 2 · Ngày 2",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "I ( ㉠ ) (not / listen) when the teacher explained the rule.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "wasn't listening",
+      "was not listening"
+     ],
+     "common_errors_vi": "Phủ định của quá khứ tiếp diễn: wasn't + V-ing."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D22F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 2 · Ngày 2",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "My roommate ( ㉠ ) (always / play) loud music. It drove me crazy!",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "was always playing",
+      "always played"
+     ],
+     "common_errors_vi": "Có lời bình It drove me crazy!: than phiền nên dùng was always playing. always played cũng đúng ngữ pháp nhưng chỉ kể thói quen."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D22KW2B-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (1/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc. Hỏi trước: một điểm hay một khoảng tạm thời? Có lặp lại không? Không thấy tính tạm thời thì chọn quá khứ đơn.",
+   "text": "Where ( ㉠ ) (you / go) when I saw you on the bus last night?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "were you going"
+     ],
+     "common_errors_vi": "Hình dung chiếc xe buýt chạy vụt qua: lúc tôi nhìn thấy, bạn đang trên đường đi đâu đó → `were you going`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D22KW2B-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (2/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc. Hỏi trước: một điểm hay một khoảng tạm thời? Có lặp lại không? Không thấy tính tạm thời thì chọn quá khứ đơn.",
+   "text": "( ㉠ ) (you / enjoy) the film?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "Did you enjoy"
+     ],
+     "common_errors_vi": "Hỏi cảm nhận về bộ phim đã xem xong: người hỏi dùng thì đơn giản nhất, quá khứ đơn."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D22KW2B-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (3/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc. Hỏi trước: một điểm hay một khoảng tạm thời? Có lặp lại không? Không thấy tính tạm thời thì chọn quá khứ đơn.",
+   "text": "When we shared a room, Zoe ( ㉠ ) (always / take) my things. It was so annoying!",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "was always taking"
+     ],
+     "common_errors_vi": "Than phiền về một thói quen trong quá khứ, có lời bình `It was so annoying!` → `was always taking`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D22KW2B-4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (4/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc. Hỏi trước: một điểm hay một khoảng tạm thời? Có lặp lại không? Không thấy tính tạm thời thì chọn quá khứ đơn.",
+   "text": "When I went to get the tickets, I realised I ( ㉠ ) (not / have) any money.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "didn't have",
+      "did not have"
+     ],
+     "common_errors_vi": "`have` (có tiền) là động từ trạng thái → quá khứ đơn, phủ định `didn't have`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D22KW2B-5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (5/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc. Hỏi trước: một điểm hay một khoảng tạm thời? Có lặp lại không? Không thấy tính tạm thời thì chọn quá khứ đơn.",
+   "text": "When I was young, we ( ㉠ ) (go) to France every year on holiday.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "went"
+     ],
+     "common_errors_vi": "`every year`: việc lặp lại hằng năm → bài thi chọn `went`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D22KW2B-6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (6/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc. Hỏi trước: một điểm hay một khoảng tạm thời? Có lặp lại không? Không thấy tính tạm thời thì chọn quá khứ đơn.",
+   "text": "Elvis ( ㉠ ) (become) famous for the song Blue Suede Shoes.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "became"
+     ],
+     "common_errors_vi": "Một sự kiện trong đời một người đã khép lại → quá khứ đơn. become → became."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D22KW2B-7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (7/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc. Hỏi trước: một điểm hay một khoảng tạm thời? Có lặp lại không? Không thấy tính tạm thời thì chọn quá khứ đơn.",
+   "text": "When you rang last night, I ( ㉠ ) (work) in the garden so I didn't hear the phone.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "was working"
+     ],
+     "common_errors_vi": "Chuông reo chỉ trong ít giây; trong lúc đó tôi đang làm vườn → `was working`. Ngôi I đi với was; sau didn't đọc hear, không đọc heard."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D22KW2B-8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (8/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc. Hỏi trước: một điểm hay một khoảng tạm thời? Có lặp lại không? Không thấy tính tạm thời thì chọn quá khứ đơn.",
+   "text": "I ( ㉠ ) (hear) from Davina last night. She says hello.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "heard"
+     ],
+     "common_errors_vi": "Kể lại việc tối qua nhận được tin của Davina → quá khứ đơn. hear → heard."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D22KW2B-9",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (9/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc. Hỏi trước: một điểm hay một khoảng tạm thời? Có lặp lại không? Không thấy tính tạm thời thì chọn quá khứ đơn.",
+   "text": "The old man ( ㉠ ) (appear) to be very tired and he slowly sat down.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "appeared"
+     ],
+     "common_errors_vi": "`appear` (trông có vẻ) là trạng thái, nối với việc tiếp theo `sat down` → quá khứ đơn."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D22KW2B-10",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chia động từ trong ngoặc (10/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc. Hỏi trước: một điểm hay một khoảng tạm thời? Có lặp lại không? Không thấy tính tạm thời thì chọn quá khứ đơn.",
+   "text": "We ( ㉠ ) (throw) a surprise party for my brother last Saturday.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "threw"
+     ],
+     "common_errors_vi": "Bữa tiệc thứ Bảy tuần trước được kể như một sự kiện đã xong → `threw`. throw là động từ bất quy tắc."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
    "id": "G1D5KA18-1",
    "skill": "build",
    "type": "write_fill",
