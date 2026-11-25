@@ -97,7 +97,7 @@ ANSWER = [
 
 SITTING_1 = [
     {"kind": "title", "hook": "Tám thì: cần mấy câu hỏi để chọn đúng một thì?", "lines": [
-        {"say": "Sách chia thì quá khứ thành rất nhiều mục nhỏ. Nhưng đến hôm nay, bạn đã học đủ tám thì. Nếu chỉ được đặt vài câu hỏi để chọn đúng một thì, bạn cần mấy câu hỏi?", "show": "hook"},
+        {"say": "Lý thuyết thường chia thì quá khứ thành rất nhiều mục nhỏ. Nhưng đến hôm nay, bạn đã học đủ tám thì. Nếu chỉ được đặt vài câu hỏi để chọn đúng một thì, bạn cần mấy câu hỏi?", "show": "hook"},
         {"say": "Câu trả lời là ba. Buổi này dựng bản đồ tám thì từ ba câu hỏi đó, rồi ghép từng cặp hiện tại và quá khứ."},
     ]},
     {"kind": "scene", "visual": "tense_grid", "eyebrow": "Nhắc lại Tuần 1", "title": "Bốn ô nhìn từ bây giờ",
@@ -187,7 +187,7 @@ SITTING_2 = [
         {"en": "I was watching the film when the screen froze.", "vi": "Tôi đang xem phim thì màn hình bị treo.", "gap": True},
         {"say": "Cả ba đều đúng, mỗi câu nhấn một ý."},
         {"say": "Nếu là bài thi, câu có sẵn cụm mười phút, thì đáp án chỉ có một: dạng hoàn thành tiếp diễn, vì câu nhấn thời lượng."},
-        {"say": "Ngữ pháp là công cụ cho điều bạn muốn nói, không phải những chiếc hộp tách rời. Tuần đầu, bạn đã thấy một câu vừa khít với nhiều chiếc hộp của sách.", "show": "rule"},
+        {"say": "Ngữ pháp là công cụ cho điều bạn muốn nói, không phải những chiếc hộp tách rời. Tuần đầu, bạn đã thấy một câu vừa khít với nhiều chiếc hộp lý thuyết.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Lỗi thường gặp", "title": "Bốn lỗi khi trộn tám thì",
      "data": {"rows": TRAPS, "rule": "Một câu kể, một mốc nhìn. Sự kiện đã khép lại và vế The last time: quá khứ đơn. know: dạng đơn."}, "lines": [
