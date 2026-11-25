@@ -388,7 +388,7 @@ SECTIONS: list[tuple] = [
     (23, "W3D", B3 + " · bài D (trang 21)", "had + V3 hay had been + V-ing", "Gõ dạng đúng của động từ trong ngoặc: had + V3 hoặc had been + V-ing, có thể ở dạng phủ định. Kết quả, số lượng, trải nghiệm, động từ trạng thái: dạng đơn. Thời lượng kéo dài, dấu vết: dạng tiếp diễn.", "typed", [
         "By the time he died, Beethoven ( ㉠ ) (write) nine symphonies. | had written | Kết quả có số lượng (chín bản giao hưởng) xong trước mốc ông qua đời → had + V3. written đọc /ˈrɪtn/.",
         "We chose the Hotel Rio because we ( ㉠ ) (stay) there before. | had stayed | Trải nghiệm trước lúc chọn khách sạn, có `before` → had + V3. chose đọc /tʃəʊz/.",
-        "We ( ㉠ ) (wait) for over an hour when the train finally arrived. | had been waiting | Thời lượng kéo dài `for over an hour` tới lúc tàu đến → đáp án bài thi: had been waiting. had waited cũng đúng ngữ pháp.",
+        "We ( ㉠ ) (wait) for over an hour when the train finally arrived. | had been waiting;'d been waiting;had waited | Thời lượng kéo dài `for over an hour` tới lúc tàu đến → đáp án bài thi: had been waiting. had waited cũng đúng ngữ pháp.",
         "I was completely out of breath because I ( ㉠ ) (run). | had been running | Việc chạy vừa dừng, để lại dấu vết là hết hơi → had been + V-ing. breath đọc /breθ/.",
         "I ( ㉠ ) (see) the film before, so I knew how it ended. | had seen | Trải nghiệm trước đó, có `before` → had + V3. ended đọc /ˈendɪd/.",
         "When he got married, I ( ㉠ ) (know) Chris for about two years. | had known | Quen nhau trước mốc anh ấy cưới; know là động từ trạng thái → had + V3, không dùng tiếp diễn.",
