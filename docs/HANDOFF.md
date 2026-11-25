@@ -450,3 +450,14 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
 - Quy tắc rút ra: câu ví dụ và câu xếp có had + V3 cũng phải có mốc quá khứ đơn; khi lời giải nói một dạng khác "cũng đúng" thì ô đáp án phải nhận dạng đó.
 - Chưa làm: xem trực quan trên tài khoản đăng nhập. Ghi chú cho Ngày 4: hình `upto` và `ended` gần giống nhau, cần xem lại khi đặt tám thì cạnh nhau.
 - Tiếp theo: Ngày 4 — hệ thống tám thì và quy trình ba bước chọn thì quá khứ.
+
+## Tuần 2 · Ngày 4 — Hệ thống tám thì và ba bước chọn thì quá khứ (g1-d24), đã soát và deploy
+
+- Nguồn: `scripts/g1/days.txt` (`#D 24`), bài giảng `scripts/g1/lecture_w2d4.py`, bài sách E trong `scripts/g1/book_items.py` (`W4E`, 8 câu, đáp án sách; trên lớp không chữa nên lời giải do khóa học viết theo ba bước), kiểm thử `tests/test_lesson_w2d4_quality.py`.
+- Năm thẻ: bản đồ tám thì từ ba câu hỏi (thêm "nhìn từ bây giờ hay từ một mốc quá khứ"; lùi động từ chia đầu tiên; quá khứ đơn là thì mặc định cho việc đã xảy ra); cặp hiện tại và quá khứ; ba bước; đáp án bài thi và ý muốn nói; câu chuyện Part 2 bằng bốn thì quá khứ. Mười từ: share, store, access, upload, browse, account, password, storage, user, privacy. Không dạy used to, would (trên lớp không giảng).
+- Buổi 1 dạy thẻ 1–2, buổi 2 dạy thẻ 3–5 (ba bước mở đầu buổi 2), mỗi buổi 7 câu hỏi.
+- Giao diện: `EightMap` trong `TimeAxis.tsx` (bản đồ bốn ô của Tuần 1 có nút "Nhìn từ bây giờ / Từ một mốc quá khứ"), gọi từ `GrammarCards.tsx` khi thẻ bắt đầu bằng "Tám thì · bản đồ" và có đúng 8 ví dụ. Bài giảng dùng hai cảnh `tense_grid` (hiện tại rồi quá khứ). Mười hình từ mới.
+- Soát hai vòng: sửa cách nói "lùi trợ động từ đầu tiên" (sai với quá khứ đơn và với was là động từ chính), ví dụ của user (had gained), câu had thiếu mốc, F3 nhận lived, bỏ danh sách "dấu hiệu nhận biết" để giữ đúng lời thầy (đi qua ba bước với cả câu), RUBRIC Speaking ghi Fluency and coherence (cả Ngày 1–4).
+- Quy tắc rút ra: câu xếp chỉ nhận một thứ tự, nên câu tiếng Việt phải đi theo thứ tự câu tiếng Anh; tối đa 10 từ.
+- Chưa làm: xem trực quan trên tài khoản đăng nhập.
+- Tiếp theo: Ngày 5 — từ vựng C1 Unit 4 (30 từ cốt lõi, Buổi 4 chặng 1–3).
