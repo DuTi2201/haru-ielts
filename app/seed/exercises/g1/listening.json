@@ -217,6 +217,62 @@
    ]
   },
   {
+   "id": "G1D21D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Tuần 2 · Ngày 1",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "I didn't hear the phone.",
+      "vi": "Tôi không nghe thấy điện thoại."
+     },
+     {
+      "speaker": "M",
+      "text": "When did you go there?",
+      "vi": "Bạn đi đến đó khi nào?"
+     },
+     {
+      "speaker": "F",
+      "text": "They developed a new device last year.",
+      "vi": "Năm ngoái họ phát triển một thiết bị mới."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "invent",
+     "vi": "phát minh, sáng chế"
+    },
+    {
+     "ko": "invention",
+     "vi": "phát minh, sáng chế"
+    },
+    {
+     "ko": "design",
+     "vi": "thiết kế"
+    },
+    {
+     "ko": "develop",
+     "vi": "phát triển"
+    },
+    {
+     "ko": "improve",
+     "vi": "cải tiến, làm tốt hơn"
+    },
+    {
+     "ko": "replace",
+     "vi": "thay thế"
+    }
+   ],
+   "tips_vi": [
+    "Nghe âm cuối: -s của ngôi thứ ba, 's và n't, -ing. Sau khi kiểm tra, nghe lại và nhại theo đúng nhịp."
+   ]
+  },
+  {
    "id": "G1D11L1",
    "skill": "listening",
    "type": "listen_interview",

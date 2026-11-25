@@ -25,6 +25,7 @@ import lecture_d1 as L1  # noqa: E402
 import lecture_d2 as L2  # noqa: E402
 import lecture_d3 as L3  # noqa: E402
 import lecture_d4 as L4  # noqa: E402
+import lecture_w2d1 as W2D1  # noqa: E402
 import lecture_d7 as L7  # noqa: E402
 import lecture_d12 as L12  # noqa: E402
 from assoc import ASSOC  # noqa: E402
@@ -37,7 +38,27 @@ TOPIC = "Tuần 1 · Giáo dục (Education)"
 TOPIC_EXTRA = "Bổ trợ · Từ vựng và bài đọc ngoài lịch tuần"
 # Week 1 of the Pre-IELTS syllabus: Present tenses (B2 Unit 1, A B C E), Thinking and learning (C1 Unit 2, A B C D),
 # Reading and Listening from Cambridge 18. Days outside it are kept as supplements, not deleted.
-DAYNO = {1: 1, 2: 2, 3: 3, 4: 4, 7: 5, 12: 6, 13: 7}  # the day number the learner sees
+DAYNO = {1: 1, 2: 2, 3: 3, 4: 4, 7: 5, 12: 6, 13: 7, 21: 1}  # the day number the learner sees
+# Week 2 (Technology) uses build days 21-27; every day not listed here is Week 1
+WEEK = {21: 2}
+TOPIC_BY_WEEK = {1: "Tuần 1 · Giáo dục (Education)", 2: "Tuần 2 · Công nghệ (Technology)"}
+BOOK_BY_WEEK = {1: "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1", 2: "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3"}
+EDITOR_BY_WEEK = {
+    1: "Ý và thứ tự giảng theo giáo án của khóa học; khung và số trang theo Destination B2, Unit 1. Lời giải thích, ví dụ và câu hỏi do khóa học tự soạn; bài tập của sách làm trong sách.",
+    2: "Ý và thứ tự giảng theo Buổi 3 của khóa học (các thì quá khứ); khung và số trang theo Destination B2, Unit 3. Ví dụ, câu hỏi và lời giải thích do khóa học tự soạn, đã đối chiếu (docs/WEEK2_PLAN.md).",
+}
+# day-specific modules (lecture, sittings, pronunciations, rubric) of Week 2
+WEEK2 = {21: W2D1}
+
+
+def week_of(n: int) -> int:
+    return WEEK.get(n, 1)
+
+
+def dlab(n: int) -> str:
+    """The day as named in exercise titles: Week 1 keeps «Ngày N»; later weeks say which week."""
+    w = week_of(n)
+    return f"Ngày {DAYNO.get(n, n)}" if w == 1 else f"Tuần {w} · Ngày {DAYNO[n]}"
 SUPPLEMENT = {
     5: "Bổ trợ cho chủ đề Giáo dục khi cần học thêm từ nền; không nằm trong lịch Tuần 1.",
     6: "Bổ trợ cho chủ đề Giáo dục khi cần học thêm kết hợp từ; không nằm trong lịch Tuần 1.",
@@ -49,7 +70,7 @@ SUPPLEMENT = {
 # exercises outside the syllabus' list for the week go to the optional sittings
 GRAMMAR_OPT = {3: {"D", "U3C1", "U3C2", "U3C3", "U3C4"}, 4: {"H", "I", "J", "U1C4a", "U1C4b", "C4"}}
 def day_label(n: int) -> str:
-    return f"Ngày {DAYNO[n]}" if n in DAYNO else "Bổ trợ"
+    return (dlab(n) if n in DAYNO else "Bổ trợ")
 BOOK = "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1"
 SOURCE = "Haru English · G1, theo giáo án của khóa học và khung Destination B2 Unit 1"
 
@@ -142,20 +163,20 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
         ex_id = f"{pid}{it['kind']}{count[it['kind']]}"
         title, instruction = KIND[it["kind"]]
         if it["kind"] == "Q":
-            ex = B.mcq(ex_id, f"{title} · Ngày {n}", it["stem"], None, it["options"], it["why"], instruction)
+            ex = B.mcq(ex_id, f"{title} · {dlab(n)}", it["stem"], None, it["options"], it["why"], instruction)
         elif it["kind"] == "T":
-            ex = B.mcq(ex_id, f"{title} · Ngày {n}", None, f"«{it['stem']}» Trục nào đúng với câu này?", it["options"], it["why"], instruction)
+            ex = B.mcq(ex_id, f"{title} · {dlab(n)}", None, f"«{it['stem']}» Trục nào đúng với câu này?", it["options"], it["why"], instruction)
         else:
-            ex = B.mcq(ex_id, f"{title} · Ngày {n}", None, it["stem"], it["options"], it["why"], instruction)
+            ex = B.mcq(ex_id, f"{title} · {dlab(n)}", None, it["stem"], it["options"], it["why"], instruction)
         bank["reading"].append(ex)
         links[ex_id] = [patterns[it["card"]]]
         by_card.setdefault(it["card"], []).append(ex_id)
     for i, (vi, en) in enumerate(d["b"], 1):
         if not B.fits_tiles(en):
             raise SystemExit(f"Day {n}: build sentence must have 3-10 words: {en!r}")
-        bank["build"].append(B.build_order(f"{pid}B{i}", f"Xếp câu · Ngày {n}", vi, en))
+        bank["build"].append(B.build_order(f"{pid}B{i}", f"Xếp câu · {dlab(n)}", vi, en))
     for i, f in enumerate(d["f"], 1):
-        bank["build"].append(B.write_fill(f"{pid}F{i}", f"Gõ dạng đúng · Ngày {n}", f["text"], f["accepted"], f["tip"]))
+        bank["build"].append(B.write_fill(f"{pid}F{i}", f"Gõ dạng đúng · {dlab(n)}", f["text"], f["accepted"], f["tip"]))
     book_ids: list[str] = []
     book_groups: dict[str, list[str]] = {}
     book_src: dict[str, tuple[str, str]] = {}
@@ -185,7 +206,7 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
             book_groups.setdefault(code, []).append(ex_id)
             book_src[code] = (title, src)
 
-    dic = B.dictation(f"{pid}D1", f"Nghe chép · Ngày {n}", d["d"], [(w["head"], w["meaning"]) for w in d["words"]])
+    dic = B.dictation(f"{pid}D1", f"Nghe chép · {dlab(n)}", d["d"], [(w["head"], w["meaning"]) for w in d["words"]])
     if dic:
         dic["tips_vi"] = ["Nghe âm cuối: -s của ngôi thứ ba, 's và n't, -ing. Sau khi kiểm tra, nghe lại và nhại theo đúng nhịp."]
         bank["listening"].append(dic)
@@ -220,12 +241,22 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
                 v["note_vi"] = L4.NOTES[v["headword"]]
         for e in bank["writing"]:
             e["rubric"] = L4.RUBRIC
+    if n in WEEK2:  # Week 2: checked transcriptions, a memory hook per word, the day's rubric
+        mod = WEEK2[n]
+        for v in vocab:
+            if v["headword"] in mod.PRON:
+                v["pron"] = mod.PRON[v["headword"]]
+                v["source"] += "; phiên âm: Oxford Learner's Dictionaries (BrE)"
+            if v["headword"] in mod.NOTES:
+                v["note_vi"] = mod.NOTES[v["headword"]]
+        for e in bank["writing"]:
+            e["rubric"] = mod.RUBRIC
     grammar = []
     for c in d["cards"]:
         use = c["use"] + (f"\nTrích: «{c['quote']}»" if c["quote"] else "")
         g = {"pattern": c["pattern"], "meaning_vi": c["meaning"], "usage_context_vi": use, "contrasts": c["vs"],
              "example_en": "\n".join(e for e, _ in c["ex"]), "example_vi": "\n".join(v for _, v in c["ex"]),
-             "importance": c["importance"], "source": f"{BOOK}, pp. {d['pages']}; cách giảng của khóa học"}
+             "importance": c["importance"], "source": f"{BOOK_BY_WEEK[week_of(n)]}, pp. {d['pages']}; cách giảng của khóa học"}
         mine = [it for it in d["items"] if it["card"] == len(grammar) and it["kind"] in "QI"]
         mine.sort(key=lambda it: it["kind"] != "Q")  # a short fill-in-the-blank first
         if mine:
@@ -257,6 +288,8 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
             "grammar": [patterns[c] for c in g],
             "check": checks,
         })
+    if n in WEEK2:
+        sessions = WEEK2[n].reshape(sessions, [e["id"] for k in bank for e in bank[k]], {x: c for c, xs in by_card.items() for x in xs})
     if n == 4:
         sessions = L4.reshape(sessions, [e["id"] for k in bank for e in bank[k]], {x: c for c, xs in by_card.items() for x in xs})
     if n == 3:
@@ -291,20 +324,20 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
     traps = [c["trap"] for c in d["cards"] if c["trap"] and len(c["trap"]) <= 230 and c["trap"].count("`") % 2 == 0]
     lesson = {
         "slug": f"g1-d{n}-{B.slugify(KEEP_SLUG.get(n, d['title']))}"[:60].rstrip("-"),
-        "title": f"Tuần 1 · Ngày {DAYNO[n]} · {d['title_vi']}", "title_en": d["title"], "topic": TOPIC, "track": "beginner", "level": 4, "sort_order": 100 + n,
+        "title": f"Tuần {week_of(n)} · Ngày {DAYNO[n]} · {d['title_vi']}", "title_en": d["title"], "topic": TOPIC_BY_WEEK[week_of(n)], "track": "beginner", "level": 4, "sort_order": 100 + n,
         "summary": f"{d['goal']} Thẻ: {'; '.join(p.split(' · ')[-1] for p in patterns)}.",
         "vocab": vocab, "grammar": grammar,
         "notes": [
             {"title": "Mục tiêu của ngày", "body": "\n".join(f"• {x}" for x in d.get("can") or [d["goal"]]), "kind": "goal"},
             *([{"title": "Cách đọc từng đoạn", "body": d["method"], "kind": "language"}] if d.get("method") else []),
-            {"title": "Bài của sách nằm trong app", "body": book_body + "\n• Các bài này đã có sẵn trong app, ở các buổi \"Bài trong sách\" cuối ngày, kèm đáp án của sách và lời giải thích từng câu. Nếu có sách giấy, bạn có thể làm trên sách trước rồi chấm lại trong app. Sau khi học thẻ, với mỗi câu sai hãy tự nói lại câu đó theo ý muốn nói.", "kind": "language"},
+            *([] if not any(b["items"] for b in d["book"]) else [{"title": "Bài của sách nằm trong app", "body": book_body + "\n• Các bài này đã có sẵn trong app, ở các buổi \"Bài trong sách\" cuối ngày, kèm đáp án của sách và lời giải thích từng câu. Nếu có sách giấy, bạn có thể làm trên sách trước rồi chấm lại trong app. Sau khi học thẻ, với mỗi câu sai hãy tự nói lại câu đó theo ý muốn nói.", "kind": "language"}]),
             {"title": "Dùng ở đâu trong IELTS", "body": d["ielts"], "kind": "language"},
         ],
         "bank": "g1",
         "coach": {"focus_vi": [f"{c['pattern'].split(' · ')[-1]}: {c['meaning']}"[:230] for c in d["cards"][:3]], "watch_out_vi": traps[:2]},
         "exercise_ids": [e["id"] for k in ("reading", "build", "listening", "writing") for e in bank[k]],
         "sessions": sessions,
-        "editor_notes": [{"title": "Nguồn", "body": "Ý và thứ tự giảng theo giáo án của khóa học; khung và số trang theo Destination B2, Unit 1. Lời giải thích, ví dụ và câu hỏi do khóa học tự soạn; bài tập của sách làm trong sách."}],
+        "editor_notes": [{"title": "Nguồn", "body": EDITOR_BY_WEEK[week_of(n)]}],
     }
     return lesson, bank, links
 

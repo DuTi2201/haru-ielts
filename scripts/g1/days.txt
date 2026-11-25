@@ -417,3 +417,100 @@ D: I usually cycle to work, but this week I'm taking the bus. = Tôi thường �
 D: She has worked here since last year. = Cô ấy làm ở đây từ năm ngoái.
 D: I am very tired. I have been running for three hours. = Tôi mệt lắm. Tôi vừa chạy suốt ba tiếng.
 M: Do you work or study? Answer in four sentences, one for each present tense. | Bạn đi làm hay đi học? Trả lời bằng bốn câu, mỗi câu một thì hiện tại: trả lời thẳng, việc tạm thời, từ bao giờ, việc gần đây. | I work as an accountant in a small company. This month I'm also studying for an IELTS test. I have worked there since 2022. Recently I have been doing a lot of extra tasks, so I'm quite tired.
+
+# ======================================================================================== WEEK 2 · Technology
+# Build days 21-27 are Week 2, Days 1-7 (see WEEK / DAYNO in build.py). Plan: docs/WEEK2_PLAN.md.
+#D 21 | Past simple: finished events, and the line with the present perfect | Quá khứ đơn: việc đã khép lại | 18-19
+goal: Lập đúng câu quá khứ đơn và đọc đúng đuôi -ed; dùng quá khứ đơn cho việc đã khép lại và chuỗi việc nối tiếp; nhận ra lúc phải chuyển từ hiện tại hoàn thành sang quá khứ đơn.
+can: Lập câu quá khứ đơn: khẳng định, phủ định, câu hỏi, nhấn mạnh với did; Viết và đọc đúng đuôi -ed: /t/, /d/, /ɪd/; Dùng quá khứ đơn cho việc đã khép lại và chuỗi việc; Chuyển sang quá khứ đơn khi câu có mốc thời gian; phân biệt since, in, for
+ielts: Speaking Part 1 và Part 2 hỏi nhiều về quá khứ (When did you…? Describe a time when…): câu đầu có thể xác nhận bằng hiện tại hoàn thành, phần kể chi tiết dùng quá khứ đơn. Writing Task 1 mô tả số liệu của những năm đã qua bằng quá khứ đơn.
+G: Past simple · công thức | Khẳng định, phủ định, câu hỏi, động từ be và did nhấn mạnh | must
+ step: Cấu tạo
+ use: ## Động từ thường: mọi ngôi cùng một dạng\npat: Khẳng định | chủ ngữ + V-ed / V2 | We watched the match last night.\npat: Phủ định | chủ ngữ + didn't + V nguyên thể | We didn't watch the news.\npat: Câu hỏi | Did + chủ ngữ + V nguyên thể ? | Did you watch the match?\n!Đã có did hoặc didn't thì động từ về nguyên thể.\n## Động từ be\nprep: was | I / he / she / it | I was at home all evening. | I was at home all evening.\nprep: were | you / we / they | They were late again. | They were late again.\n## Nhấn mạnh, cãi lại\npat: did + V nguyên thể | chủ ngữ + did + V nguyên thể | No, that's not right. I did pass the test.
+ ex: We watched the match last night. = Tối qua chúng tôi xem trận đấu.
+ ex: I didn't hear the phone. = Tôi không nghe thấy điện thoại.
+ ex: Did you enjoy the film? = Bạn có thích bộ phim không?
+ ex: No, that's not right. I did pass the test. I got a B. = Không đúng đâu. Tôi có đỗ mà. Tôi được điểm B.
+ trap: Chia hai lần: ~~I didn't heard~~ → I didn't hear; ~~Did you went~~ → Did you go. Sai động từ be: ~~I were late~~ → I was late.
+ tip: Speaking: sau didn't, đọc động từ ở dạng nguyên thể (didn't hear, didn't go); đừng thêm âm -ed.
+G: Past simple · -ed và động từ bất quy tắc | Cách viết -ed, ba cách đọc /t/, /d/, /ɪd/, và các động từ phải học thuộc | must
+ step: Cấu tạo
+ use: ## Viết đuôi -ed\nprep: + ed | phần lớn động từ | work → worked, invent → invented | worked, invented\nprep: + d | tận cùng là e | replace → replaced, improve → improved | replaced, improved\nprep: y → ied | phụ âm + y | study → studied, carry → carried | studied, carried\nprep: gấp đôi | một nguyên âm + một phụ âm cuối | stop → stopped, plan → planned | stopped, planned\n## Ba cách đọc -ed\nprep: /t/ | sau âm vô thanh /p/, /k/, /s/, /ʃ/, /tʃ/, /f/ | developed, worked, replaced, watched | developed, worked, replaced, watched\nprep: /d/ | sau âm hữu thanh và nguyên âm | designed, improved, played | designed, improved, played\nprep: /ɪd/ | sau /t/ và /d/ | invented, wanted, ended | invented, wanted, ended\n## Bất quy tắc: học thuộc\nchips: go → went; buy → bought; build → built; choose → chose /tʃəʊz/; read → read /red/; write → wrote
+ ex: They developed the app in six months. = Họ phát triển ứng dụng trong sáu tháng.
+ ex: She invented a new game when she was ten. = Cô ấy nghĩ ra một trò chơi mới năm mười tuổi.
+ ex: I read the whole book last night. = Tối qua tôi đọc hết cả cuốn sách.
+ trap: Nuốt âm /ɪd/: invented đọc thành invent. Đọc read ở quá khứ thành /riːd/ thay vì /red/.
+ tip: Listening: đuôi -ed rất nhẹ, dễ lẫn với hiện tại. Nghe cả câu và mốc thời gian (last night, in 2010) để biết đó là quá khứ.
+G: Past simple · cách dùng | Việc đã khép lại trong quá khứ, và chuỗi việc nối tiếp nhau | must
+ step: Khi nào dùng
+ use: step: Việc đã khép lại | Người nói coi việc đó thuộc về quá khứ. Câu không cần có trạng từ thời gian.\nstep: Chuỗi việc nối tiếp | Kể lần lượt từng việc: tất cả đều chia quá khứ đơn.\nside: Một việc đã khép lại | My grandfather bought his first phone in 1998. | một mốc | point\nside: Chuỗi việc | I went for a drink, then I came home and went to bed. | lần lượt\n!Nhớ nhầm hay nói dối về quá khứ vẫn chia quá khứ đơn: ngữ pháp theo điều người nói trình bày.
+ ex: My grandfather bought his first phone in 1998. = Ông tôi mua chiếc điện thoại đầu tiên năm 1998.
+ ex: I went for a drink, then I came home, and after that I went to bed. = Tôi đi uống nước, rồi về nhà, sau đó đi ngủ.
+ ex: The first mobile phones appeared in the 1980s. = Những chiếc điện thoại di động đầu tiên xuất hiện vào thập niên 1980.
+ trap: Dựa vào chữ "đã" hay "đang" của tiếng Việt để chọn thì. Điều quyết định là việc đã khép lại hay chưa.
+ tip: Khi phân vân giữa các thì quá khứ, nếu không thấy tính tạm thời và không cần nhấn việc nào xảy ra trước, hãy chọn quá khứ đơn.
+G: Quá khứ đơn hay hiện tại hoàn thành · có mốc thời gian không | Biết hoặc nêu được lúc nào thì dùng quá khứ đơn; chỉ báo đã làm hay chưa thì dùng hiện tại hoàn thành | must
+ step: Ranh giới
+ use: ask: Did you buy any vegetables for tonight?\nside: Biết lúc nào | Yes, I bought some on the way home. | quá khứ đơn | point\nside: Chỉ báo đã làm | Yes, I have bought some. | hiện tại hoàn thành | done\n## Vừa có mốc thời gian: đổi sang quá khứ đơn\nstep: Hỏi trải nghiệm | Have you ever been to Hanoi?\nstep: Đáp có hay chưa | Yes, I have.\nstep: Hỏi lúc nào | When did you go there?\nstep: Kể chi tiết | I went there last summer.\n!Không nói ~~When have you been there?~~, cũng không nói ~~I have been there two years ago~~.
+ ex: Did you buy any vegetables for tonight? = Bạn đã mua rau cho tối nay chưa?
+ ex: Yes, I have bought some. = Rồi, tôi mua rồi.
+ ex: Have you ever been to Italy? = Bạn đã đến Ý bao giờ chưa?
+ ex: Yes, I went there with my family two years ago. = Rồi, tôi đi cùng gia đình hai năm trước.
+ trap: Hỏi thì nào đáp thì đó: ~~I have been there two years ago~~ → I went there two years ago.
+ tip: Speaking: người hỏi thường dùng thì đơn giản nhất (Did you enjoy the film?), người trả lời tự chọn thì. Câu đầu có thể xác nhận bằng hiện tại hoàn thành, phần kể chi tiết dùng quá khứ đơn.
+G: since, in, for · bẫy dấu hiệu | since đi với thì hoàn thành, in + năm đã qua đi với quá khứ đơn, for đi được với cả hai | must
+ step: Ranh giới
+ use: side: since 2003 | I have studied the piano since 2003. | vẫn học | span\nside: in 2003 | I studied the piano in 2003. | một năm đã qua | point\n!`for` chỉ cho biết độ dài. Việc còn tiếp: hoàn thành. Việc đã dừng: quá khứ đơn.\nside: for · vẫn học | I have studied the piano for two years. | còn tiếp | span\nside: for · đã nghỉ | I studied the piano for two years, then I stopped. | đã dừng | ended\n!Sau since là một mốc, hoặc một vế quá khứ đơn: I have lived here since I moved in 2019.
+ ex: I have studied the piano since 2003. = Tôi học piano từ năm 2003.
+ ex: I studied the piano in 2003. = Tôi học piano vào năm 2003.
+ ex: I have studied the piano for two years. = Tôi học piano được hai năm rồi.
+ ex: I studied the piano for two years, then I stopped. = Tôi học piano hai năm, rồi nghỉ.
+ trap: Thấy for là chọn hiện tại hoàn thành. Việc còn tiếp hay đã dừng mới quyết định thì.
+ tip: `for the last two years` là khoảng thời gian kéo tới bây giờ, nên đi với hiện tại hoàn thành.
+G: The last time và It's the first time · hai mẫu cần thuộc | The last time đi với quá khứ đơn; It's the first time đi với hiện tại hoàn thành | normal
+ step: Hai mẫu cần thuộc
+ use: pat: Lần cuối | The last time + chủ ngữ + V2, chủ ngữ + V2 | The last time I saw Lan, she talked about changing jobs.\npat: Lần đầu | It's the first time + chủ ngữ + have / has + V3 | It's the first time I have used this app.\n!The last time chỉ là một mốc đã qua, không có việc nào xảy ra trước nó, nên cả hai vế đều chia quá khứ đơn.
+ ex: The last time I saw Lan, she talked about changing jobs. = Lần cuối tôi gặp Lan, cô ấy nói về chuyện đổi việc.
+ ex: It's the first time I have used this app. = Đây là lần đầu tôi dùng ứng dụng này.
+ ex: The last time I went to the cinema was in March. = Lần cuối tôi đi xem phim là vào tháng Ba.
+ trap: Nhầm hai mẫu: ~~The last time I had seen her~~ → The last time I saw her.
+ tip: Speaking Part 1 hay hỏi When was the last time you…? Trả lời bằng quá khứ đơn: The last time I went to the cinema was last month.
+W: invent | V | phát minh, sáng chế | Who invented the telephone? = Ai phát minh ra điện thoại?
+W: invention | N | phát minh, sáng chế | The printing press was an important invention. = Máy in là một phát minh quan trọng.
+W: design | V | thiết kế | She designed her own website last year. = Năm ngoái cô ấy tự thiết kế trang web của mình.
+W: develop | V | phát triển | They developed the app in six months. = Họ phát triển ứng dụng trong sáu tháng.
+W: improve | V | cải tiến, làm tốt hơn | They improved the design after the first test. = Họ cải tiến thiết kế sau lần thử đầu tiên.
+W: replace | V | thay thế | Smartphones replaced many older devices. = Điện thoại thông minh thay thế nhiều thiết bị cũ.
+W: device | N | thiết bị | A smartphone is a small but powerful device. = Điện thoại thông minh là một thiết bị nhỏ nhưng mạnh.
+W: engine | N | động cơ | The engine didn't start this morning. = Sáng nay động cơ không nổ.
+W: vehicle | N | phương tiện, xe cộ | The first vehicles were slow and noisy. = Những chiếc xe đầu tiên chạy chậm và ồn.
+W: prototype | N | nguyên mẫu, bản thử đầu tiên | They built a prototype before they made the final model. = Họ làm một nguyên mẫu trước khi làm mẫu cuối cùng.
+T: I bought some vegetables on the way home. | quá khứ ● (một mốc nói được) ┄┄ bây giờ | quá khứ ● (xong, không rõ lúc nào) ┄┄ bây giờ | quá khứ ●━━━━━━▶ bây giờ (còn tiếp) | quá khứ ●━━━● (đã dừng) ┄┄ bây giờ | `on the way home` là một lúc người nói nói được → quá khứ đơn. | 4
+T: Yes, I have bought some vegetables. | quá khứ ● (xong, không rõ lúc nào) ┄┄ bây giờ | quá khứ ● (một mốc nói được) ┄┄ bây giờ | quá khứ ●━━━━━━▶ bây giờ (còn tiếp) | quá khứ ●━━━● (đã dừng) ┄┄ bây giờ | Hiện tại hoàn thành, nhánh đã xong: chỉ báo đã mua, không nói lúc nào. | 4
+T: I studied the piano for two years, then I stopped. | quá khứ ●━━━● (đã dừng) ┄┄ bây giờ | quá khứ ●━━━━━━▶ bây giờ (còn tiếp) | quá khứ ● (xong, không rõ lúc nào) ┄┄ bây giờ | quá khứ ● (một mốc nói được) ┄┄ bây giờ | Học hai năm rồi nghỉ: đoạn đã dừng → quá khứ đơn, dù có `for`. | 5
+T: I have studied the piano since 2003. | quá khứ ●━━━━━━▶ bây giờ (còn tiếp) | quá khứ ●━━━● (đã dừng) ┄┄ bây giờ | quá khứ ● (một mốc nói được) ┄┄ bây giờ | quá khứ ● (xong, không rõ lúc nào) ┄┄ bây giờ | `since 2003`: bắt đầu năm 2003, bây giờ vẫn học → hiện tại hoàn thành. | 5
+I: Bạn của bạn nói bạn trượt bài kiểm tra. Thật ra bạn đỗ, và bạn muốn cãi lại. | No, that's not right. I did pass it. I got a B. | No, that's not right. I did passed it. I got a B. | No, that's not right. I was passing it. I got a B. | Cãi lại, nhấn mạnh → did + động từ nguyên thể. Sau did không thêm -ed. | 1
+I: Bạn kể ba việc tối qua theo đúng thứ tự: đi uống nước, về nhà, đi ngủ. | I went for a drink, then I came home and went to bed. | I had gone for a drink, then I had come home and went to bed. | I was going for a drink, then I was coming home and went to bed. | Chuỗi việc nối tiếp → tất cả chia quá khứ đơn. | 3
+I: Có người hỏi Have you ever been to Italy? Bạn đã đi Ý hai năm trước và muốn kể lúc nào. | Yes, I went there two years ago. | Yes, I have been there two years ago. | Yes, I have gone there two years ago. | Có mốc `two years ago` → phải đổi sang quá khứ đơn. | 4
+I: Bạn học piano hai năm hồi cấp hai, giờ không học nữa. | I studied the piano for two years. | I have studied the piano for two years. | I have been studying the piano for two years. | Đã dừng → quá khứ đơn. Câu hoàn thành có nghĩa là bây giờ vẫn học. | 5
+I: Tháng trước bạn gặp Lan; lúc đó cô ấy nói muốn đổi việc. Bạn kể lại. | The last time I saw Lan, she talked about changing jobs. | The last time I had seen Lan, she talked about changing jobs. | The last time I have seen Lan, she talked about changing jobs. | The last time chỉ là một mốc đã qua → cả hai vế quá khứ đơn. | 6
+Q: I ( ) the phone because I was in the garden. | didn't hear | didn't heard | don't hear | wasn't hear | Phủ định quá khứ: didn't + động từ nguyên thể. | 1
+Q: Last year we ( ) a small robot for a school competition. | designed | design | were design | have design | Việc đã khép lại, có `last year` → quá khứ đơn: designed. | 2
+Q: I ( ) the whole book last night. It was great. | read | readed | have read | was read | read là động từ bất quy tắc: quá khứ viết như cũ, đọc /red/. | 2
+Q: The first mobile phones ( ) in the 1980s. | appeared | have appeared | were appearing | appear | Một giai đoạn đã qua (`in the 1980s`) → quá khứ đơn. | 3
+Q: A: I've been to Hue. B: Really? When ( ) there? | did you go | have you been | have you gone | do you go | Câu hỏi When về một lúc đã qua → quá khứ đơn. | 4
+Q: My family ( ) in this house since 2015. | has lived | lived | lives | is living | `since 2015`: bắt đầu năm 2015, bây giờ vẫn sống → hiện tại hoàn thành. | 5
+Q: I ( ) the piano in 2003. | studied | have studied | have been studying | study | `in 2003` là một năm đã qua → quá khứ đơn. | 5
+Q: It's the first time I ( ) sushi. | have eaten | ate | eat | had eaten | It's the first time + hiện tại hoàn thành. | 6
+B: Tôi đã mua rau trên đường về. | I bought some vegetables on the way home
+B: Bạn đi đến đó khi nào? | When did you go there
+B: Tôi không nghe thấy điện thoại. | I didn't hear the phone
+B: Họ phát triển ứng dụng trong sáu tháng. | They developed the app in six months
+F: Yesterday I ( ㉠ ) (not / watch) the news. | didn't watch;did not watch | Phủ định quá khứ: didn't + động từ nguyên thể.
+F: ( ㉠ ) (you / enjoy) the film last night? | Did you enjoy | Câu hỏi: Did + chủ ngữ + động từ nguyên thể.
+F: Last summer we ( ㉠ ) (go) to Da Nang. | went | go là động từ bất quy tắc: go → went.
+F: She ( ㉠ ) (invent) a new game when she was ten. | invented | invent tận cùng là /t/, nên -ed đọc /ɪd/: invented.
+D: I didn't hear the phone. = Tôi không nghe thấy điện thoại.
+D: When did you go there? = Bạn đi đến đó khi nào?
+D: They developed a new device last year. = Năm ngoái họ phát triển một thiết bị mới.
+M: When did you get your first mobile phone? Tell me about it in three or four sentences. | Bạn có chiếc điện thoại đầu tiên khi nào? Kể trong ba, bốn câu: lúc nào, ai mua, bạn dùng nó thế nào. Kể bằng quá khứ đơn; câu nói tới bây giờ thì dùng hiện tại hoàn thành. | I got my first mobile phone in 2012, when I was fourteen. My parents bought it for my birthday. It was a cheap phone, but I used it every day. I have changed phones three times since then.

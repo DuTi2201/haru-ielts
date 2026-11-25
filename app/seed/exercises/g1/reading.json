@@ -4941,6 +4941,588 @@
    }
   },
   {
+   "id": "G1D21T1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Tuần 2 · Ngày 1",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D21T1",
+     "options": [
+      {
+       "id": "1",
+       "text": "quá khứ ●━━━━━━▶ bây giờ (còn tiếp)"
+      },
+      {
+       "id": "2",
+       "text": "quá khứ ●━━━● (đã dừng) ┄┄ bây giờ"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ● (xong, không rõ lúc nào) ┄┄ bây giờ"
+      },
+      {
+       "id": "4",
+       "text": "quá khứ ● (một mốc nói được) ┄┄ bây giờ"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`on the way home` là một lúc người nói nói được → quá khứ đơn.",
+     "tags": [],
+     "prompt_vi": "«I bought some vegetables on the way home.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D21T2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Tuần 2 · Ngày 1",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D21T2",
+     "options": [
+      {
+       "id": "1",
+       "text": "quá khứ ●━━━━━━▶ bây giờ (còn tiếp)"
+      },
+      {
+       "id": "2",
+       "text": "quá khứ ● (một mốc nói được) ┄┄ bây giờ"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ●━━━● (đã dừng) ┄┄ bây giờ"
+      },
+      {
+       "id": "4",
+       "text": "quá khứ ● (xong, không rõ lúc nào) ┄┄ bây giờ"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Hiện tại hoàn thành, nhánh đã xong: chỉ báo đã mua, không nói lúc nào.",
+     "tags": [],
+     "prompt_vi": "«Yes, I have bought some vegetables.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D21T3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Tuần 2 · Ngày 1",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D21T3",
+     "options": [
+      {
+       "id": "1",
+       "text": "quá khứ ●━━━● (đã dừng) ┄┄ bây giờ"
+      },
+      {
+       "id": "2",
+       "text": "quá khứ ● (một mốc nói được) ┄┄ bây giờ"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ●━━━━━━▶ bây giờ (còn tiếp)"
+      },
+      {
+       "id": "4",
+       "text": "quá khứ ● (xong, không rõ lúc nào) ┄┄ bây giờ"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Học hai năm rồi nghỉ: đoạn đã dừng → quá khứ đơn, dù có `for`.",
+     "tags": [],
+     "prompt_vi": "«I studied the piano for two years, then I stopped.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D21T4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Tuần 2 · Ngày 1",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D21T4",
+     "options": [
+      {
+       "id": "1",
+       "text": "quá khứ ●━━━● (đã dừng) ┄┄ bây giờ"
+      },
+      {
+       "id": "2",
+       "text": "quá khứ ● (xong, không rõ lúc nào) ┄┄ bây giờ"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ● (một mốc nói được) ┄┄ bây giờ"
+      },
+      {
+       "id": "4",
+       "text": "quá khứ ●━━━━━━▶ bây giờ (còn tiếp)"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`since 2003`: bắt đầu năm 2003, bây giờ vẫn học → hiện tại hoàn thành.",
+     "tags": [],
+     "prompt_vi": "«I have studied the piano since 2003.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D21I1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 2 · Ngày 1",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D21I1",
+     "options": [
+      {
+       "id": "1",
+       "text": "No, that's not right. I did passed it. I got a B."
+      },
+      {
+       "id": "2",
+       "text": "No, that's not right. I did pass it. I got a B."
+      },
+      {
+       "id": "3",
+       "text": "No, that's not right. I was passing it. I got a B."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Cãi lại, nhấn mạnh → did + động từ nguyên thể. Sau did không thêm -ed.",
+     "tags": [],
+     "prompt_vi": "Bạn của bạn nói bạn trượt bài kiểm tra. Thật ra bạn đỗ, và bạn muốn cãi lại."
+    }
+   ]
+  },
+  {
+   "id": "G1D21I2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 2 · Ngày 1",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D21I2",
+     "options": [
+      {
+       "id": "1",
+       "text": "I had gone for a drink, then I had come home and went to bed."
+      },
+      {
+       "id": "2",
+       "text": "I was going for a drink, then I was coming home and went to bed."
+      },
+      {
+       "id": "3",
+       "text": "I went for a drink, then I came home and went to bed."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Chuỗi việc nối tiếp → tất cả chia quá khứ đơn.",
+     "tags": [],
+     "prompt_vi": "Bạn kể ba việc tối qua theo đúng thứ tự: đi uống nước, về nhà, đi ngủ."
+    }
+   ]
+  },
+  {
+   "id": "G1D21I3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 2 · Ngày 1",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D21I3",
+     "options": [
+      {
+       "id": "1",
+       "text": "Yes, I have been there two years ago."
+      },
+      {
+       "id": "2",
+       "text": "Yes, I have gone there two years ago."
+      },
+      {
+       "id": "3",
+       "text": "Yes, I went there two years ago."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Có mốc `two years ago` → phải đổi sang quá khứ đơn.",
+     "tags": [],
+     "prompt_vi": "Có người hỏi Have you ever been to Italy? Bạn đã đi Ý hai năm trước và muốn kể lúc nào."
+    }
+   ]
+  },
+  {
+   "id": "G1D21I4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 2 · Ngày 1",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D21I4",
+     "options": [
+      {
+       "id": "1",
+       "text": "I studied the piano for two years."
+      },
+      {
+       "id": "2",
+       "text": "I have been studying the piano for two years."
+      },
+      {
+       "id": "3",
+       "text": "I have studied the piano for two years."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đã dừng → quá khứ đơn. Câu hoàn thành có nghĩa là bây giờ vẫn học.",
+     "tags": [],
+     "prompt_vi": "Bạn học piano hai năm hồi cấp hai, giờ không học nữa."
+    }
+   ]
+  },
+  {
+   "id": "G1D21I5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 2 · Ngày 1",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D21I5",
+     "options": [
+      {
+       "id": "1",
+       "text": "The last time I saw Lan, she talked about changing jobs."
+      },
+      {
+       "id": "2",
+       "text": "The last time I have seen Lan, she talked about changing jobs."
+      },
+      {
+       "id": "3",
+       "text": "The last time I had seen Lan, she talked about changing jobs."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "The last time chỉ là một mốc đã qua → cả hai vế quá khứ đơn.",
+     "tags": [],
+     "prompt_vi": "Tháng trước bạn gặp Lan; lúc đó cô ấy nói muốn đổi việc. Bạn kể lại."
+    }
+   ]
+  },
+  {
+   "id": "G1D21Q1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D21Q1",
+     "options": [
+      {
+       "id": "1",
+       "text": "wasn't hear"
+      },
+      {
+       "id": "2",
+       "text": "don't hear"
+      },
+      {
+       "id": "3",
+       "text": "didn't heard"
+      },
+      {
+       "id": "4",
+       "text": "didn't hear"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Phủ định quá khứ: didn't + động từ nguyên thể.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I ( ) the phone because I was in the garden."
+   }
+  },
+  {
+   "id": "G1D21Q2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D21Q2",
+     "options": [
+      {
+       "id": "1",
+       "text": "have design"
+      },
+      {
+       "id": "2",
+       "text": "were design"
+      },
+      {
+       "id": "3",
+       "text": "designed"
+      },
+      {
+       "id": "4",
+       "text": "design"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Việc đã khép lại, có `last year` → quá khứ đơn: designed.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Last year we ( ) a small robot for a school competition."
+   }
+  },
+  {
+   "id": "G1D21Q3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D21Q3",
+     "options": [
+      {
+       "id": "1",
+       "text": "read"
+      },
+      {
+       "id": "2",
+       "text": "readed"
+      },
+      {
+       "id": "3",
+       "text": "have read"
+      },
+      {
+       "id": "4",
+       "text": "was read"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "read là động từ bất quy tắc: quá khứ viết như cũ, đọc /red/.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I ( ) the whole book last night. It was great."
+   }
+  },
+  {
+   "id": "G1D21Q4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D21Q4",
+     "options": [
+      {
+       "id": "1",
+       "text": "have appeared"
+      },
+      {
+       "id": "2",
+       "text": "were appearing"
+      },
+      {
+       "id": "3",
+       "text": "appeared"
+      },
+      {
+       "id": "4",
+       "text": "appear"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Một giai đoạn đã qua (`in the 1980s`) → quá khứ đơn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "The first mobile phones ( ) in the 1980s."
+   }
+  },
+  {
+   "id": "G1D21Q5",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D21Q5",
+     "options": [
+      {
+       "id": "1",
+       "text": "have you gone"
+      },
+      {
+       "id": "2",
+       "text": "did you go"
+      },
+      {
+       "id": "3",
+       "text": "have you been"
+      },
+      {
+       "id": "4",
+       "text": "do you go"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Câu hỏi When về một lúc đã qua → quá khứ đơn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "A: I've been to Hue. B: Really? When ( ) there?"
+   }
+  },
+  {
+   "id": "G1D21Q6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D21Q6",
+     "options": [
+      {
+       "id": "1",
+       "text": "has lived"
+      },
+      {
+       "id": "2",
+       "text": "lived"
+      },
+      {
+       "id": "3",
+       "text": "is living"
+      },
+      {
+       "id": "4",
+       "text": "lives"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`since 2015`: bắt đầu năm 2015, bây giờ vẫn sống → hiện tại hoàn thành.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "My family ( ) in this house since 2015."
+   }
+  },
+  {
+   "id": "G1D21Q7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D21Q7",
+     "options": [
+      {
+       "id": "1",
+       "text": "studied"
+      },
+      {
+       "id": "2",
+       "text": "have studied"
+      },
+      {
+       "id": "3",
+       "text": "have been studying"
+      },
+      {
+       "id": "4",
+       "text": "study"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`in 2003` là một năm đã qua → quá khứ đơn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I ( ) the piano in 2003."
+   }
+  },
+  {
+   "id": "G1D21Q8",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D21Q8",
+     "options": [
+      {
+       "id": "1",
+       "text": "had eaten"
+      },
+      {
+       "id": "2",
+       "text": "ate"
+      },
+      {
+       "id": "3",
+       "text": "have eaten"
+      },
+      {
+       "id": "4",
+       "text": "eat"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "It's the first time + hiện tại hoàn thành.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "It's the first time I ( ) sushi."
+   }
+  },
+  {
    "id": "G1D5KB18-1",
    "skill": "reading",
    "type": "read_cloze",

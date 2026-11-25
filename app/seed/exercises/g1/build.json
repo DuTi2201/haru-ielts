@@ -4409,6 +4409,176 @@
    "kind": "inflect"
   },
   {
+   "id": "G1D21B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 2 · Ngày 1",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi đã mua rau trên đường về.",
+   "tiles": [
+    "vegetables",
+    "the",
+    "bought",
+    "on",
+    "way",
+    "I",
+    "some",
+    "home"
+   ],
+   "answers": [
+    "I bought some vegetables on the way home"
+   ]
+  },
+  {
+   "id": "G1D21B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 2 · Ngày 1",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bạn đi đến đó khi nào?",
+   "tiles": [
+    "did",
+    "go",
+    "When",
+    "there",
+    "you"
+   ],
+   "answers": [
+    "When did you go there"
+   ]
+  },
+  {
+   "id": "G1D21B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 2 · Ngày 1",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi không nghe thấy điện thoại.",
+   "tiles": [
+    "I",
+    "the",
+    "phone",
+    "hear",
+    "didn't"
+   ],
+   "answers": [
+    "I didn't hear the phone"
+   ]
+  },
+  {
+   "id": "G1D21B4",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 2 · Ngày 1",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Họ phát triển ứng dụng trong sáu tháng.",
+   "tiles": [
+    "developed",
+    "in",
+    "app",
+    "They",
+    "the",
+    "six",
+    "months"
+   ],
+   "answers": [
+    "They developed the app in six months"
+   ]
+  },
+  {
+   "id": "G1D21F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 2 · Ngày 1",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Yesterday I ( ㉠ ) (not / watch) the news.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "didn't watch",
+      "did not watch"
+     ],
+     "common_errors_vi": "Phủ định quá khứ: didn't + động từ nguyên thể."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D21F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 2 · Ngày 1",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "( ㉠ ) (you / enjoy) the film last night?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "Did you enjoy"
+     ],
+     "common_errors_vi": "Câu hỏi: Did + chủ ngữ + động từ nguyên thể."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D21F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 2 · Ngày 1",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Last summer we ( ㉠ ) (go) to Da Nang.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "went"
+     ],
+     "common_errors_vi": "go là động từ bất quy tắc: go → went."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D21F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 2 · Ngày 1",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "She ( ㉠ ) (invent) a new game when she was ten.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "invented"
+     ],
+     "common_errors_vi": "invent tận cùng là /t/, nên -ed đọc /ɪd/: invented."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
    "id": "G1D5KA18-1",
    "skill": "build",
    "type": "write_fill",
