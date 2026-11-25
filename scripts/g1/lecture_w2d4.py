@@ -96,11 +96,11 @@ ANSWER = [
 ]
 
 PRESENT_USES = [
-    {"key": "u1", "head": "Hiện tại đơn · lặp lại, sự thật người nói tin", "en": "I get up at ten every day.", "vi": "Kể cả khi thật ra dậy lúc bảy giờ: người nói trình bày như sự thật."},
-    {"key": "u2", "head": "Hiện tại tiếp diễn · tạm thời", "en": "She is living in Hanoi now.", "vi": "Chỉ ở tạm; còn dùng để than phiền và nói kế hoạch."},
-    {"key": "u3", "head": "Hiện tại hoàn thành · hai nhánh", "en": "Yes, I have bought some.", "vi": "Còn tiếp tới bây giờ; hoặc đã xong, không nói lúc nào."},
-    {"key": "u4", "head": "Hoàn thành tiếp diễn · vẫn đang làm", "en": "I have been playing football for three hours.", "vi": "Đang chơi, chưa dừng."},
-    {"key": "u5", "head": "Hoàn thành tiếp diễn · vừa dừng", "en": "I'm very tired. I have been running for three hours.", "vi": "Đã dừng, đứng thở: còn dấu vết."},
+    {"key": "u1", "head": "Hiện tại đơn · sự thật chủ quan", "en": "I get up at ten every day.", "vi": "Người nói coi là thật."},
+    {"key": "u2", "head": "Hiện tại tiếp diễn · tạm thời", "en": "She is living in Hanoi now.", "vi": "Ở tạm; còn than phiền, kế hoạch."},
+    {"key": "u3", "head": "Hiện tại hoàn thành · đã xong", "en": "Yes, I have bought some.", "vi": "Không nói lúc nào; hoặc còn tiếp."},
+    {"key": "u4", "head": "Hoàn thành tiếp diễn · đang làm", "en": "I have been playing football for three hours.", "vi": "Chưa dừng."},
+    {"key": "u5", "head": "Hoàn thành tiếp diễn · vừa dừng", "en": "I have been running for three hours.", "vi": "Mệt, đứng thở: dấu vết."},
 ]
 
 SITTING_1 = [
@@ -109,7 +109,7 @@ SITTING_1 = [
         {"say": "Câu trả lời là ba. Buổi này dựng bản đồ tám thì từ ba câu hỏi đó, rồi ghép từng cặp hiện tại và quá khứ."},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Nhớ câu mẫu, suy ra cách dùng", "title": "Bốn thì hiện tại qua năm câu mẫu",
-     "data": {"cols": ["Thì", "Câu mẫu"], "rows": PRESENT_USES, "rule": "Đừng học thuộc lý thuyết khô: nhớ một câu mẫu, từ đó suy ra cách dùng."}, "lines": [
+     "data": {"cols": ["Thì", "Câu mẫu"], "rows": PRESENT_USES, "rule": "Nhớ một câu mẫu, suy ra cách dùng."}, "lines": [
         {"say": "Trước khi sang quá khứ, ôn lại cách dùng của bốn thì hiện tại, mỗi cách dùng gắn với một câu mẫu. Hiện tại đơn: việc lặp lại, và điều người nói coi là thật. Kể cả khi bạn dậy lúc bảy giờ mà cãi mẹ là ngày nào cũng dậy lúc mười giờ, bạn vẫn trình bày nó như một sự thật.", "show": "u1"},
         {"en": "I get up at ten every day.", "vi": "Ngày nào con cũng dậy lúc mười giờ.", "gap": True, "recap": False},
         {"say": "Hiện tại tiếp diễn: nhấn tính tạm thời. Chị ấy chỉ đang ở Hà Nội một thời gian. Thì này còn dùng để than phiền với always, và để nói một kế hoạch sắp tới.", "show": "u2"},
