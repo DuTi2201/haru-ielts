@@ -18,6 +18,10 @@ mv "$MCP/caddy/ielts.caddy.new" "$MCP/caddy/ielts.caddy"
 # Caddy reads the main file from a copy next to the site blocks: the container's own
 # /etc/caddy/Caddyfile is a bind mount of a single file, which goes stale when that file is replaced.
 cp /opt/haru/src/deploy/Caddyfile "$MCP/caddy/Caddyfile.main"
+# The Haru Korean Caddyfile does not import this site; add the import here, or a reload drops the site.
+grep -q 'import /run/haru-mcp/caddy/ielts.caddy' "$MCP/caddy/Caddyfile.main" || \
+  printf '\n# Haru English (IELTS) site block, written by haru-ielts/deploy/site-deploy.sh\nimport /run/haru-mcp/caddy/ielts.caddy\n' >> "$MCP/caddy/Caddyfile.main"
+if ! grep -q 'import /run/haru-mcp/caddy/ielts.caddy' "$MCP/caddy/Caddyfile.main"; then echo "no import line for the site" >&2; exit 1; fi
 if ! docker exec haru-caddy-1 caddy validate --config /run/haru-mcp/caddy/Caddyfile.main --adapter caddyfile >/dev/null 2>&1; then
   echo "Caddy refused the new configuration; keeping the previous one" >&2
   [ -f "$MCP/caddy/ielts.caddy.prev" ] && cp "$MCP/caddy/ielts.caddy.prev" "$MCP/caddy/ielts.caddy"
