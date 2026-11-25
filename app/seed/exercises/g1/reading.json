@@ -5148,21 +5148,21 @@
      "options": [
       {
        "id": "1",
-       "text": "Yes, I have been there two years ago."
+       "text": "Yes, I have tried one at a fair last year."
       },
       {
        "id": "2",
-       "text": "Yes, I have gone there two years ago."
+       "text": "Yes, I have been trying one at a fair last year."
       },
       {
        "id": "3",
-       "text": "Yes, I went there two years ago."
+       "text": "Yes, I tried one at a fair last year."
       }
      ],
      "answer": "3",
-     "explanation_vi": "Có mốc `two years ago` → phải đổi sang quá khứ đơn.",
+     "explanation_vi": "Có mốc `last year` → phải đổi sang quá khứ đơn.",
      "tags": [],
-     "prompt_vi": "Có người hỏi Have you ever been to Italy? Bạn đã đi Ý hai năm trước và muốn kể lúc nào."
+     "prompt_vi": "Có người hỏi Have you ever used a VR headset? Bạn đã thử một chiếc ở hội chợ năm ngoái và muốn kể lúc nào."
     }
    ]
   },
@@ -5178,21 +5178,21 @@
      "options": [
       {
        "id": "1",
-       "text": "I studied the piano for two years."
+       "text": "She worked for a software company for three years."
       },
       {
        "id": "2",
-       "text": "I have been studying the piano for two years."
+       "text": "She has been working for a software company for three years."
       },
       {
        "id": "3",
-       "text": "I have studied the piano for two years."
+       "text": "She has worked for a software company for three years."
       }
      ],
      "answer": "1",
-     "explanation_vi": "Đã dừng → quá khứ đơn. Câu hoàn thành có nghĩa là bây giờ vẫn học.",
+     "explanation_vi": "Đã nghỉ → quá khứ đơn, dù có `for`. Câu hoàn thành có nghĩa là bây giờ vẫn làm ở đó.",
      "tags": [],
-     "prompt_vi": "Bạn học piano hai năm hồi cấp hai, giờ không học nữa."
+     "prompt_vi": "Chị bạn làm cho một công ty phần mềm ba năm, rồi nghỉ việc. Bạn kể lại."
     }
    ]
   },
@@ -5220,7 +5220,7 @@
       }
      ],
      "answer": "1",
-     "explanation_vi": "The last time chỉ là một mốc đã qua → cả hai vế quá khứ đơn.",
+     "explanation_vi": "Vế The last time là một mốc đã qua → quá khứ đơn; vế sau kể việc lúc đó → cũng quá khứ đơn.",
      "tags": [],
      "prompt_vi": "Tháng trước bạn gặp Lan; lúc đó cô ấy nói muốn đổi việc. Bạn kể lại."
     }
@@ -5349,29 +5349,29 @@
      "options": [
       {
        "id": "1",
-       "text": "have appeared"
+       "text": "has sold"
       },
       {
        "id": "2",
-       "text": "were appearing"
+       "text": "sells"
       },
       {
        "id": "3",
-       "text": "appeared"
+       "text": "sold"
       },
       {
        "id": "4",
-       "text": "appear"
+       "text": "have sold"
       }
      ],
      "answer": "3",
-     "explanation_vi": "Một giai đoạn đã qua (`in the 1980s`) → quá khứ đơn.",
+     "explanation_vi": "Writing Task 1: số liệu của một năm đã qua → quá khứ đơn.",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "The first mobile phones ( ) in the 1980s."
+    "text": "In 2010, the company ( ) 2,000 phones."
    }
   },
   {
@@ -5423,29 +5423,29 @@
      "options": [
       {
        "id": "1",
-       "text": "has lived"
+       "text": "have known"
       },
       {
        "id": "2",
-       "text": "lived"
+       "text": "knew"
       },
       {
        "id": "3",
-       "text": "is living"
+       "text": "are knowing"
       },
       {
        "id": "4",
-       "text": "lives"
+       "text": "know"
       }
      ],
      "answer": "1",
-     "explanation_vi": "`since 2015`: bắt đầu năm 2015, bây giờ vẫn sống → hiện tại hoàn thành.",
+     "explanation_vi": "`since 2019` và `know` là động từ trạng thái → hiện tại hoàn thành.",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "My family ( ) in this house since 2015."
+    "text": "We ( ) each other since 2019."
    }
   },
   {
@@ -5460,35 +5460,35 @@
      "options": [
       {
        "id": "1",
-       "text": "studied"
+       "text": "launched"
       },
       {
        "id": "2",
-       "text": "have studied"
+       "text": "has launched"
       },
       {
        "id": "3",
-       "text": "have been studying"
+       "text": "has been launching"
       },
       {
        "id": "4",
-       "text": "study"
+       "text": "launches"
       }
      ],
      "answer": "1",
-     "explanation_vi": "`in 2003` là một năm đã qua → quá khứ đơn.",
+     "explanation_vi": "`in 2007` là một năm đã qua → quá khứ đơn.",
      "tags": []
     }
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "I ( ) the piano in 2003."
+    "text": "The company ( ) its first smartphone in 2007."
    }
   },
   {
    "id": "G1D21Q8",
    "skill": "reading",
-   "type": "read_cloze",
+   "type": "read_match",
    "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 1",
    "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
    "questions": [
@@ -5497,11 +5497,45 @@
      "options": [
       {
        "id": "1",
-       "text": "had eaten"
+       "text": "replaced"
       },
       {
        "id": "2",
-       "text": "ate"
+       "text": "developed"
+      },
+      {
+       "id": "3",
+       "text": "invented"
+      },
+      {
+       "id": "4",
+       "text": "improved"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "invent tận cùng bằng âm /t/, nên -ed đọc /ɪd/ và thêm một âm tiết. Ba từ kia đọc /t/ hoặc /d/, không thêm âm tiết.",
+     "tags": [],
+     "prompt_vi": "Đuôi -ed của từ nào thêm một âm tiết khi đọc, giống wanted?"
+    }
+   ]
+  },
+  {
+   "id": "G1D21Q9",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D21Q9",
+     "options": [
+      {
+       "id": "1",
+       "text": "eat"
+      },
+      {
+       "id": "2",
+       "text": "had eaten"
       },
       {
        "id": "3",
@@ -5509,7 +5543,7 @@
       },
       {
        "id": "4",
-       "text": "eat"
+       "text": "ate"
       }
      ],
      "answer": "3",

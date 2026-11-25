@@ -4490,6 +4490,26 @@
    ]
   },
   {
+   "id": "G1D21B5",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 2 · Ngày 1",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Chẳng bao lâu, xe chạy xăng thay thế xe hơi nước.",
+   "tiles": [
+    "soon",
+    "Petrol",
+    "steam",
+    "replaced",
+    "cars",
+    "cars"
+   ],
+   "answers": [
+    "Petrol cars soon replaced steam cars"
+   ]
+  },
+  {
    "id": "G1D21F1",
    "skill": "build",
    "type": "write_fill",
@@ -4574,6 +4594,28 @@
       "invented"
      ],
      "common_errors_vi": "invent tận cùng là /t/, nên -ed đọc /ɪd/: invented."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D21F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 2 · Ngày 1",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "In the early 1800s, some workers ( ㉠ ) (destroy) the new machines.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "destroyed"
+     ],
+     "common_errors_vi": "Việc đã khép lại → quá khứ đơn. destroy tận cùng là nguyên âm, nên -ed đọc /d/."
     }
    ],
    "tips_vi": []

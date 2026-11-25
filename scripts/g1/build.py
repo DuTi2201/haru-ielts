@@ -162,7 +162,9 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
         count[it["kind"]] += 1
         ex_id = f"{pid}{it['kind']}{count[it['kind']]}"
         title, instruction = KIND[it["kind"]]
-        if it["kind"] == "Q":
+        if it["kind"] == "Q" and "( )" not in it["stem"]:  # a question about the language itself, not a sentence with a gap
+            ex = B.mcq(ex_id, f"{title} · {dlab(n)}", None, it["stem"], it["options"], it["why"], instruction)
+        elif it["kind"] == "Q":
             ex = B.mcq(ex_id, f"{title} · {dlab(n)}", it["stem"], None, it["options"], it["why"], instruction)
         elif it["kind"] == "T":
             ex = B.mcq(ex_id, f"{title} · {dlab(n)}", None, f"«{it['stem']}» Trục nào đúng với câu này?", it["options"], it["why"], instruction)
@@ -221,7 +223,7 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
         })
 
     vocab = [{"headword": w["head"], "pos": w["pos"], "meaning_vi": w["meaning"], "example_en": w["ex"][0], "example_vi": w["ex"][1],
-              "family": "Từ của ngày", "priority": "core", "source": SOURCE} for w in d["words"]]
+              "family": "Từ của ngày", "priority": "core", "source": SOURCE if week_of(n) == 1 else f"Haru English · G1, theo giáo án của khóa học và khung {BOOK_BY_WEEK[week_of(n)]}"} for w in d["words"]]
     if n == 1:  # transcriptions checked against the dictionary entry (lecture_d1.PRON); none is typed from memory
         for v in vocab:
             if v["headword"] in L1.PRON:
