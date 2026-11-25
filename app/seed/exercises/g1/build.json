@@ -9800,6 +9800,556 @@
    "tips_vi": []
   },
   {
+   "id": "G1D25KW5A-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: các kiểu thay đổi (1/10)",
+   "points": 3,
+   "instruction_vi": "Khung có mười từ: decay, endure, innovation, mature, modify, potential, progress, shift, substitute, switch. Mỗi từ dùng một lần; chia dạng đúng nếu cần.",
+   "text": "Sometimes I wonder how many of the changes we see around us will really ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "endure"
+     ],
+     "common_errors_vi": "Sau `will really` cần một động từ nguyên thể đứng một mình, không có tân ngữ, mang nghĩa tồn tại lâu bền: `endure`. `last` cũng hợp nghĩa nhưng không có trong khung."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5A-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: các kiểu thay đổi (2/10)",
+   "points": 3,
+   "instruction_vi": "Khung có mười từ: decay, endure, innovation, mature, modify, potential, progress, shift, substitute, switch. Mỗi từ dùng một lần; chia dạng đúng nếu cần.",
+   "text": "There has been a real ( ㉠ ) in attitudes towards this lately.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "shift"
+     ],
+     "common_errors_vi": "Sau `a real` cần một danh từ, và cụm cố định là `a shift in attitudes` (sự chuyển dịch trong thái độ). `progress` không đi với `a` và không đi với `in attitudes`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5A-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: các kiểu thay đổi (3/10)",
+   "points": 3,
+   "instruction_vi": "Khung có mười từ: decay, endure, innovation, mature, modify, potential, progress, shift, substitute, switch. Mỗi từ dùng một lần; chia dạng đúng nếu cần.",
+   "text": "Mobile phones that receive TV programmes are a real ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "innovation"
+     ],
+     "common_errors_vi": "Sau `a real` cần danh từ đếm được chỉ một cái mới được tạo ra: `innovation`. Động từ là innovate, tính từ là innovative."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5A-4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: các kiểu thay đổi (4/10)",
+   "points": 3,
+   "instruction_vi": "Khung có mười từ: decay, endure, innovation, mature, modify, potential, progress, shift, substitute, switch. Mỗi từ dùng một lần; chia dạng đúng nếu cần.",
+   "text": "Iris has a lot of ( ㉠ ) and should do well in her future career.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "potential"
+     ],
+     "common_errors_vi": "`should do well in her future career` nói về điều chưa xảy ra, nên dùng `potential` (tiềm năng). `progress` là tiến bộ đã đạt được."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5A-5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: các kiểu thay đổi (5/10)",
+   "points": 3,
+   "instruction_vi": "Khung có mười từ: decay, endure, innovation, mature, modify, potential, progress, shift, substitute, switch. Mỗi từ dùng một lần; chia dạng đúng nếu cần.",
+   "text": "You have to try to be ( ㉠ ) about the situation and use your experience to find a solution.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "mature"
+     ],
+     "common_errors_vi": "Sau `be` cần một tính từ chỉ người: `mature` (chín chắn). `use your experience` cho thấy đây là cách cư xử của người trưởng thành."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5A-6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: các kiểu thay đổi (6/10)",
+   "points": 3,
+   "instruction_vi": "Khung có mười từ: decay, endure, innovation, mature, modify, potential, progress, shift, substitute, switch. Mỗi từ dùng một lần; chia dạng đúng nếu cần.",
+   "text": "This isn't my laptop! Someone must have ( ㉠ ) my bag and theirs.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "switched"
+     ],
+     "common_errors_vi": "Hai chiếc túi cùng tồn tại và bị tráo cho nhau: `switch`. Sau `must have` dùng quá khứ phân từ: `switched`. `substitute` là B thế chỗ A và A mất đi."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5A-7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: các kiểu thay đổi (7/10)",
+   "points": 3,
+   "instruction_vi": "Khung có mười từ: decay, endure, innovation, mature, modify, potential, progress, shift, substitute, switch. Mỗi từ dùng một lần; chia dạng đúng nếu cần.",
+   "text": "We've made a lot of ( ㉠ ) with the plans, but we still have a long way to go.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "progress"
+     ],
+     "common_errors_vi": "Cụm cố định `make progress` (tiến bộ). `progress` là danh từ không đếm được, nên đi với `a lot of` và không có -s."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5A-8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: các kiểu thay đổi (8/10)",
+   "points": 3,
+   "instruction_vi": "Khung có mười từ: decay, endure, innovation, mature, modify, potential, progress, shift, substitute, switch. Mỗi từ dùng một lần; chia dạng đúng nếu cần.",
+   "text": "You might have learnt the theory, but there's no ( ㉠ ) for practical experience.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "substitute"
+     ],
+     "common_errors_vi": "Cụm cố định `there's no substitute for …`: không gì thay thế được."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5A-9",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: các kiểu thay đổi (9/10)",
+   "points": 3,
+   "instruction_vi": "Khung có mười từ: decay, endure, innovation, mature, modify, potential, progress, shift, substitute, switch. Mỗi từ dùng một lần; chia dạng đúng nếu cần.",
+   "text": "When trees fall and start to ( ㉠ ), they provide a home for many insects.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "decay"
+     ],
+     "common_errors_vi": "Cây đổ rồi mục rữa: `decay` (phân hủy chất hữu cơ). Sau `start to` dùng nguyên thể."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5A-10",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: các kiểu thay đổi (10/10)",
+   "points": 3,
+   "instruction_vi": "Khung có mười từ: decay, endure, innovation, mature, modify, potential, progress, shift, substitute, switch. Mỗi từ dùng một lần; chia dạng đúng nếu cần.",
+   "text": "I've ( ㉠ ) the design by giving the car six wheels instead of four.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "modified"
+     ],
+     "common_errors_vi": "Chỉ đổi một phần (số bánh xe), chiếc xe vẫn là chiếc xe: `modify`. Sau `I've` dùng quá khứ phân từ: `modified`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5C-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chọn một trong hai từ rồi chia đúng dạng (1/15)",
+   "points": 3,
+   "instruction_vi": "Mỗi câu có hai từ trong ngoặc. Chọn từ hợp nghĩa và chia đúng dạng. Trong mỗi cặp, mỗi từ dùng một lần.",
+   "text": "It's time we completely ( ㉠ ) the whole prison system. (reform / revise)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "reformed"
+     ],
+     "common_errors_vi": "Thay đổi cả một hệ thống: `reform` (cải cách). `revise` là sửa lại một văn bản. Sau `It's time we` động từ chia quá khứ dù ý nói về hiện tại: `reformed`. Mẫu này sẽ học kỹ ở tuần sau."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5C-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chọn một trong hai từ rồi chia đúng dạng (2/15)",
+   "points": 3,
+   "instruction_vi": "Mỗi câu có hai từ trong ngoặc. Chọn từ hợp nghĩa và chia đúng dạng. Trong mỗi cặp, mỗi từ dùng một lần.",
+   "text": "I'd like you to ( ㉠ ) your report to include more information about costs. (reform / revise)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "revise"
+     ],
+     "common_errors_vi": "Sửa lại một bản báo cáo: `revise`. Sau `I'd like you to` dùng nguyên thể."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5C-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chọn một trong hai từ rồi chia đúng dạng (3/15)",
+   "points": 3,
+   "instruction_vi": "Mỗi câu có hai từ trong ngoặc. Chọn từ hợp nghĩa và chia đúng dạng. Trong mỗi cặp, mỗi từ dùng một lần.",
+   "text": "I thought the report in the paper completely ( ㉠ ) the truth. (amend / distort)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "distorted"
+     ],
+     "common_errors_vi": "Cụm cố định `distort the truth` (bóp méo sự thật). Câu kể việc đã qua nên chia quá khứ: `distorted`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5C-4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chọn một trong hai từ rồi chia đúng dạng (4/15)",
+   "points": 3,
+   "instruction_vi": "Mỗi câu có hai từ trong ngoặc. Chọn từ hợp nghĩa và chia đúng dạng. Trong mỗi cặp, mỗi từ dùng một lần.",
+   "text": "I've ( ㉠ ) the contract and it now says that you will receive 15%. (amend / distort)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "amended"
+     ],
+     "common_errors_vi": "Sửa một điều khoản trong văn bản (hợp đồng, luật, kế hoạch): `amend`. Sau `I've` dùng quá khứ phân từ: `amended`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5C-5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chọn một trong hai từ rồi chia đúng dạng (5/15)",
+   "points": 3,
+   "instruction_vi": "Mỗi câu có hai từ trong ngoặc. Chọn từ hợp nghĩa và chia đúng dạng. Trong mỗi cặp, mỗi từ dùng một lần.",
+   "text": "I sometimes find it hard to ( ㉠ ) a balance between work and my home life. (maintain / remain)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "maintain"
+     ],
+     "common_errors_vi": "Có tân ngữ `a balance` theo sau, nên dùng `maintain` (duy trì cái gì). `remain` không có tân ngữ."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5C-6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chọn một trong hai từ rồi chia đúng dạng (6/15)",
+   "points": 3,
+   "instruction_vi": "Mỗi câu có hai từ trong ngoặc. Chọn từ hợp nghĩa và chia đúng dạng. Trong mỗi cặp, mỗi từ dùng một lần.",
+   "text": "The important thing is to ( ㉠ ) calm and try to think logically. (maintain / remain)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "remain"
+     ],
+     "common_errors_vi": "Theo sau là tính từ `calm`, nên dùng `remain` (vẫn giữ trạng thái): `remain calm`. Đó là cách nói tự nhiên về trạng thái của một người."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5C-7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chọn một trong hai từ rồi chia đúng dạng (7/15)",
+   "points": 3,
+   "instruction_vi": "Mỗi câu có hai từ trong ngoặc. Chọn từ hợp nghĩa và chia đúng dạng. Trong mỗi cặp, mỗi từ dùng một lần.",
+   "text": "You can ( ㉠ ) the chair to make it comfortable by pressing this button. (adapt / adjust)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "adjust"
+     ],
+     "common_errors_vi": "Chỉnh một chi tiết nhỏ cho vừa (độ cao, vị trí): `adjust`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5C-8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chọn một trong hai từ rồi chia đúng dạng (8/15)",
+   "points": 3,
+   "instruction_vi": "Mỗi câu có hai từ trong ngoặc. Chọn từ hợp nghĩa và chia đúng dạng. Trong mỗi cặp, mỗi từ dùng một lần.",
+   "text": "This company needs to ( ㉠ ) or we're not going to survive. (adapt / adjust)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "adapt"
+     ],
+     "common_errors_vi": "Thay đổi để tồn tại trong hoàn cảnh mới: `adapt`. Trong cặp này mỗi từ dùng một lần, và `adjust` đã thuộc câu chỉnh ghế."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5C-9",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chọn một trong hai từ rồi chia đúng dạng (9/15)",
+   "points": 3,
+   "instruction_vi": "Mỗi câu có hai từ trong ngoặc. Chọn từ hợp nghĩa và chia đúng dạng. Trong mỗi cặp, mỗi từ dùng một lần.",
+   "text": "Mike and I meet for coffee on ( ㉠ ) Saturdays. (alternate / alternative)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "alternate"
+     ],
+     "common_errors_vi": "`on alternate Saturdays` = cách một thứ Bảy một lần. Tính từ `alternate` đọc /ɔːlˈtɜːnət/."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5C-10",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chọn một trong hai từ rồi chia đúng dạng (10/15)",
+   "points": 3,
+   "instruction_vi": "Mỗi câu có hai từ trong ngoặc. Chọn từ hợp nghĩa và chia đúng dạng. Trong mỗi cặp, mỗi từ dùng một lần.",
+   "text": "There's a lot of traffic, so I'm trying to find an ( ㉠ ) route. (alternate / alternative)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "alternative"
+     ],
+     "common_errors_vi": "`an alternative route` = một con đường khác để thay thế. `alternative` là một lựa chọn khác."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5C-11",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chọn một trong hai từ rồi chia đúng dạng (11/15)",
+   "points": 3,
+   "instruction_vi": "Mỗi câu có hai từ trong ngoặc. Chọn từ hợp nghĩa và chia đúng dạng. Trong mỗi cặp, mỗi từ dùng một lần.",
+   "text": "You'll regret it if you ( ㉠ ) in annoying people like that. (persist / sustain)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "persist"
+     ],
+     "common_errors_vi": "Giới từ `in` + V-ing quyết định: `persist in doing something` (cứ khăng khăng làm gì). `sustain` không đi với `in`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5C-12",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chọn một trong hai từ rồi chia đúng dạng (12/15)",
+   "points": 3,
+   "instruction_vi": "Mỗi câu có hai từ trong ngoặc. Chọn từ hợp nghĩa và chia đúng dạng. Trong mỗi cặp, mỗi từ dùng một lần.",
+   "text": "Can the company ( ㉠ ) the kind of growth we've had recently? (persist / sustain)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "sustain"
+     ],
+     "common_errors_vi": "Có tân ngữ `growth` theo sau: `sustain growth` (duy trì sự tăng trưởng lâu dài)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5C-13",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chọn một trong hai từ rồi chia đúng dạng (13/15)",
+   "points": 3,
+   "instruction_vi": "Mỗi câu có hai từ trong ngoặc. Chọn từ hợp nghĩa và chia đúng dạng. Trong mỗi cặp, mỗi từ dùng một lần.",
+   "text": "Many people in Britain ( ㉠ ) to Christianity during the Roman period. (convert / transform)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "converted"
+     ],
+     "common_errors_vi": "Giới từ `to` quyết định: `convert to` (cải sang, chuyển sang một tôn giáo hay hệ thống). Việc trong quá khứ: `converted`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5C-14",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chọn một trong hai từ rồi chia đúng dạng (14/15)",
+   "points": 3,
+   "instruction_vi": "Mỗi câu có hai từ trong ngoặc. Chọn từ hợp nghĩa và chia đúng dạng. Trong mỗi cặp, mỗi từ dùng một lần.",
+   "text": "Learning to use the Internet has really ( ㉠ ) my life. (convert / transform)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "transformed"
+     ],
+     "common_errors_vi": "Biến đổi hoàn toàn một thứ: `transform`. Sau `has really` dùng quá khứ phân từ: `transformed`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D25KW5C-15",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Chọn một trong hai từ rồi chia đúng dạng (15/15)",
+   "points": 3,
+   "instruction_vi": "Mỗi câu có hai từ trong ngoặc. Chọn từ hợp nghĩa và chia đúng dạng. Trong mỗi cặp, mỗi từ dùng một lần.",
+   "text": "I hope the bad weather didn't ( ㉠ ) your holiday. (deteriorate / spoil)",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "spoil"
+     ],
+     "common_errors_vi": "Có tân ngữ `your holiday`: `spoil` (làm hỏng). `deteriorate` (xấu đi) không có tân ngữ: the weather deteriorated."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
    "id": "G1D8KV2-1",
    "skill": "build",
    "type": "write_fill",

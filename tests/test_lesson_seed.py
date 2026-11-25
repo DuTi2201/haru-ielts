@@ -19,7 +19,7 @@ class SeedFilesTests(unittest.TestCase):
 
     def test_the_files_load_without_problems(self):
         self.assertEqual(self.bundle.problems, [])
-        self.assertEqual(len(self.bundle.lessons), 60)
+        self.assertEqual(len(self.bundle.lessons), 61)
         by_topic: dict[str, int] = {}
         for r in self.bundle.lessons:
             by_topic[r.seed.topic] = by_topic.get(r.seed.topic, 0) + 1
@@ -28,7 +28,7 @@ class SeedFilesTests(unittest.TestCase):
             {
                 "Destination B1 · Lấy gốc": 42,
                 "Tuần 1 · Giáo dục (Education)": 8,
-                "Tuần 2 · Công nghệ (Technology)": 4,
+                "Tuần 2 · Công nghệ (Technology)": 5,
                 "Bổ trợ · Từ vựng và bài đọc ngoài lịch tuần": 6,
             },
         )
@@ -36,7 +36,7 @@ class SeedFilesTests(unittest.TestCase):
     def test_lessons_come_out_in_curriculum_order(self):
         order = [(r.seed.track, r.seed.sort_order) for r in self.bundle.lessons]
         self.assertEqual(order, sorted(order, key=lambda t: (seed.TRACKS.index(t[0]), t[1])))
-        self.assertEqual(len({r.seed.slug for r in self.bundle.lessons}), 60)
+        self.assertEqual(len({r.seed.slug for r in self.bundle.lessons}), 61)
 
     def test_every_exercise_belongs_to_a_lesson_and_every_question_id_is_unique(self):
         used = {i for r in self.bundle.lessons for i in r.seed.exercise_ids}
@@ -140,7 +140,7 @@ class ExerciseBankTests(unittest.TestCase):
                 self.assertEqual(self.bank_of[ex_id], r.seed.bank, f"{r.seed.slug}: {ex_id}")
             by_skill = r.practice["counts"]["by_skill"]
             # week 1 of G1 is phase one of the method: no scored speaking yet
-            if r.seed.slug == "g1-entry-test" or r.seed.slug.startswith(("g1-d5", "g1-d6", "g1-d7", "g1-d8", "g1-d9", "g1-d10", "g1-d11", "g1-d12", "g1-d13")):  # diagnostic and vocabulary days: reading and typed items only
+            if r.seed.slug == "g1-entry-test" or r.seed.slug.startswith(("g1-d5", "g1-d6", "g1-d7", "g1-d8", "g1-d9", "g1-d10", "g1-d11", "g1-d12", "g1-d13", "g1-d25")):  # diagnostic and vocabulary days: reading and typed items only
                 continue
             for skill in ("listening", "reading", "build", "writing") + (() if g1 else ("speaking",)):
                 self.assertTrue(by_skill.get(skill), f"{r.seed.slug}: no {skill}")
@@ -286,10 +286,10 @@ class SyncTests(unittest.TestCase):
         db.execute.side_effect = execute
         report = seed.sync_lessons(db, bundle)
         self.assertEqual(set(report.values()), {"unchanged"})
-        self.assertEqual(len(report), 60)
+        self.assertEqual(len(report), 61)
         db.add.assert_not_called()
         parts = sum(1 for r in bundle.lessons if r.seed.split_from)
-        self.assertEqual(db.execute.call_count, 60 + parts)
+        self.assertEqual(db.execute.call_count, 61 + parts)
 
 
 if __name__ == "__main__":

@@ -475,3 +475,7 @@ SECTIONS += [
         "( ㉠ ) is the last time I ever order from that pizzeria. It was disgusting! | It;That | `That's/It's the last time I …` = lần cuối cùng.",
     ]),
 ]
+
+from day25 import SECTIONS as _S25  # noqa: E402  (Week 2 · Day 5: Destination C1&C2 Unit 4, exercises A-D)
+
+SECTIONS += _S25

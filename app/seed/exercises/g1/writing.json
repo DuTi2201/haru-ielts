@@ -526,7 +526,7 @@
    "skill": "writing",
    "type": "write_essay",
    "number": "M1",
-   "title_vi": "Câu của tôi · Ngày 5",
+   "title_vi": "Câu của tôi · Bổ trợ",
    "points": 5,
    "instruction_vi": "Viết hai câu về việc học của bạn, dùng ít nhất hai từ của bài hôm nay.",
    "limits": {
@@ -582,7 +582,7 @@
    "skill": "writing",
    "type": "write_essay",
    "number": "M1",
-   "title_vi": "Câu của tôi · Ngày 6",
+   "title_vi": "Câu của tôi · Bổ trợ",
    "points": 5,
    "instruction_vi": "Viết hai câu về cách bạn học, dùng ít nhất hai kết hợp từ của bài hôm nay.",
    "limits": {
@@ -639,7 +639,7 @@
    "skill": "writing",
    "type": "write_essay",
    "number": "M1",
-   "title_vi": "Câu của tôi · Ngày 7",
+   "title_vi": "Câu của tôi · Ngày 5",
    "points": 5,
    "instruction_vi": "Viết hai câu về một quyết định học tập của bạn, dùng hai từ của Ngày 5 (ví dụ assess, ponder, hunch).",
    "limits": {
@@ -691,11 +691,37 @@
    ]
   },
   {
+   "id": "G1D25M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Tuần 2 · Ngày 5",
+   "points": 5,
+   "instruction_vi": "Chọn 5 đến 10 từ hôm nay bạn thích nhất và nhẩm cho mỗi từ một câu của riêng bạn. Rồi gõ hai câu bạn ưng nhất về một thay đổi trong cuộc sống của chính bạn (học tập, công việc, thành phố, cách dùng điện thoại). Dùng ít nhất hai từ, ví dụ transform, adjust, make progress, have an influence on. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn và dùng từ bạn chọn.",
+   "limits": {
+    "min": 8,
+    "max": 50
+   },
+   "prompt_en": "Write two sentences about a change in your own life, using two words from today.",
+   "framework_vi": [
+    "Chọn 5 đến 10 từ bạn thích nhất trong bài hôm nay.",
+    "Nghĩ điều bạn muốn nói về chính mình, bằng tiếng Việt cũng được.",
+    "Gõ hai câu có dùng ít nhất hai từ đã chọn; từ C1 thì thêm một từ B2 đồng nghĩa ở câu kia."
+   ],
+   "model_answer_en": "Learning English online has transformed the way I study. I am making good progress, but I still need to adjust my timetable.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Có dùng từ của bài hôm nay, đúng từ loại.",
+    "Câu nói về chính bạn, không chép câu mẫu."
+   ]
+  },
+  {
    "id": "G1D8M1",
    "skill": "writing",
    "type": "write_essay",
    "number": "M1",
-   "title_vi": "Câu của tôi · Ngày 8",
+   "title_vi": "Câu của tôi · Bổ trợ",
    "points": 5,
    "instruction_vi": "Kể bằng hai câu về một lần bạn thấy lạ hoặc khó chịu ở nơi mới, dùng ít nhất hai từ của bài hôm nay.",
    "limits": {
@@ -752,7 +778,7 @@
    "skill": "writing",
    "type": "write_essay",
    "number": "M1",
-   "title_vi": "Câu của tôi · Ngày 9",
+   "title_vi": "Câu của tôi · Bổ trợ",
    "points": 5,
    "instruction_vi": "Tóm tắt bài đọc bằng một hoặc hai câu của chính bạn, không chép nguyên câu trong bài.",
    "limits": {
@@ -808,7 +834,7 @@
    "skill": "writing",
    "type": "write_essay",
    "number": "M1",
-   "title_vi": "Câu của tôi · Ngày 10",
+   "title_vi": "Câu của tôi · Bổ trợ",
    "points": 5,
    "instruction_vi": "Viết ba câu mô tả chính bạn, dùng ít nhất ba tính từ của bài hôm nay (một từ có self- hoặc well-).",
    "limits": {
@@ -865,7 +891,7 @@
    "skill": "writing",
    "type": "write_essay",
    "number": "M1",
-   "title_vi": "Câu của tôi · Ngày 11",
+   "title_vi": "Câu của tôi · Bổ trợ",
    "points": 5,
    "instruction_vi": "Viết hai câu: một câu về cách bạn đi lại hằng ngày, một câu về điều bạn hài lòng hoặc phàn nàn. Dùng ít nhất hai từ của bài hôm nay.",
    "limits": {
@@ -923,7 +949,7 @@
    "skill": "writing",
    "type": "write_essay",
    "number": "M1",
-   "title_vi": "Câu của tôi · Ngày 12",
+   "title_vi": "Câu của tôi · Ngày 6",
    "points": 5,
    "instruction_vi": "Làm bước 4 của phương pháp cho đoạn 1, 2 và 3: mỗi đoạn viết một chuỗi từ khóa nối bằng mũi tên, rồi nối ba chuỗi bằng một câu. Ví dụ mẫu của khóa học: fantasy -> creativity -> repercussions -> adult life. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn và dùng từ bạn chọn.",
    "limits": {

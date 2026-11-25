@@ -1,0 +1,140 @@
+"""Week 2 · Day 5 (build day 25): change and technology, the topic vocabulary of Destination C1&C2 Unit 4.
+
+Following the class filter (session 4 of the course, stages 1-3; docs/WEEK2_PLAN.md, day 5): thirty words learned in
+full, grouped by idea (lasting, changing, moving up or down and swapping, society, early technology); the rest of
+exercises A-D only recognised. Phrasal verbs and idioms (exercise E onwards) are not taught.
+Exercises A-D with the book's key (key p. 284); every reason works by elimination, as in class: the word that goes
+with the preposition (evolve into, influence on), time (potential is for what has not happened), the range a word
+combines with (amend a document, not a society).
+Same line format as book_items.SECTIONS.
+"""
+C4 = "Destination C1&C2, Unit 4"
+
+SECTIONS: list[tuple] = [
+    (25, "W5A", C4 + " · bài A (trang 30)", "Điền từ trong khung: các kiểu thay đổi",
+     "Khung có mười từ: decay, endure, innovation, mature, modify, potential, progress, shift, substitute, switch. Mỗi từ dùng một lần; chia dạng đúng nếu cần.", "typed", [
+        "Sometimes I wonder how many of the changes we see around us will really ( ㉠ ). | endure | Sau `will really` cần một động từ nguyên thể đứng một mình, không có tân ngữ, mang nghĩa tồn tại lâu bền: `endure`. `last` cũng hợp nghĩa nhưng không có trong khung.",
+        "There has been a real ( ㉠ ) in attitudes towards this lately. | shift | Sau `a real` cần một danh từ, và cụm cố định là `a shift in attitudes` (sự chuyển dịch trong thái độ). `progress` không đi với `a` và không đi với `in attitudes`.",
+        "Mobile phones that receive TV programmes are a real ( ㉠ ). | innovation | Sau `a real` cần danh từ đếm được chỉ một cái mới được tạo ra: `innovation`. Động từ là innovate, tính từ là innovative.",
+        "Iris has a lot of ( ㉠ ) and should do well in her future career. | potential | `should do well in her future career` nói về điều chưa xảy ra, nên dùng `potential` (tiềm năng). `progress` là tiến bộ đã đạt được.",
+        "You have to try to be ( ㉠ ) about the situation and use your experience to find a solution. | mature | Sau `be` cần một tính từ chỉ người: `mature` (chín chắn). `use your experience` cho thấy đây là cách cư xử của người trưởng thành.",
+        "This isn't my laptop! Someone must have ( ㉠ ) my bag and theirs. | switched | Hai chiếc túi cùng tồn tại và bị tráo cho nhau: `switch`. Sau `must have` dùng quá khứ phân từ: `switched`. `substitute` là B thế chỗ A và A mất đi.",
+        "We've made a lot of ( ㉠ ) with the plans, but we still have a long way to go. | progress | Cụm cố định `make progress` (tiến bộ). `progress` là danh từ không đếm được, nên đi với `a lot of` và không có -s.",
+        "You might have learnt the theory, but there's no ( ㉠ ) for practical experience. | substitute | Cụm cố định `there's no substitute for …`: không gì thay thế được.",
+        "When trees fall and start to ( ㉠ ), they provide a home for many insects. | decay | Cây đổ rồi mục rữa: `decay` (phân hủy chất hữu cơ). Sau `start to` dùng nguyên thể.",
+        "I've ( ㉠ ) the design by giving the car six wheels instead of four. | modified | Chỉ đổi một phần (số bánh xe), chiếc xe vẫn là chiếc xe: `modify`. Sau `I've` dùng quá khứ phân từ: `modified`.",
+    ]),
+    (25, "W5B", C4 + " · bài B (trang 30)", "Chọn từ đúng: nước Anh đổi thay sau chiến tranh",
+     "Đoạn văn kể nước Anh thay đổi sau Chiến tranh thế giới thứ hai. Chọn từ đúng cho từng chỗ trống; loại phương án sai bằng giới từ đi kèm, bằng thời gian và bằng phạm vi kết hợp của từ.", "choice", [
+        "It seemed to the generation of Britons alive before the Second World War that their way of life would ( ) for many years to come. | last | sustain | maintain | be | Chỗ trống không có tân ngữ theo sau, nên cần động từ đứng một mình: `last` (kéo dài). `sustain` và `maintain` luôn cần tân ngữ; `be` không có nghĩa khi đứng một mình ở đây.",
+        "However, the war caused a ( ) in British life that completely changed the status quo. | revolution | revision | rotation | rejection | Thay đổi lớn, làm đảo lộn cả lối sống: `revolution` (cuộc cách mạng). `revision` là sự sửa lại một văn bản; `rotation` là sự xoay vòng.",
+        "…a revolution in British life that completely changed the ( ). | status quo | social status | status symbol | high status | `change the status quo` = thay đổi hiện trạng. `social status` là địa vị của một người, `status symbol` là món đồ thể hiện địa vị.",
+        "What had been a fairly ( ) society up to that point, with people sharing many basic beliefs and values, … | uniform | same | similar | identical | Vế sau nói mọi người có chung niềm tin, nên xã hội đồng nhất: `uniform`. `same` phải có `the`; `similar` và `identical` cần một vật để so sánh.",
+        "…underwent ( ) changes after the war. | radical | refined | potential | alternative | `underwent` cho thấy thay đổi đã xảy ra, nên loại `potential` (chỉ điều chưa xảy ra). Thay đổi triệt để, tận gốc: `radical`.",
+        "The ( ) was away from fixed social roles and towards a more dynamic society. | trend | reform | fashion | decay | `away from … towards …` mô tả một hướng chuyển động: `trend` (xu hướng). `reform` là cải cách do người ta chủ động làm; `decay` là xuống cấp.",
+        "…away from fixed social roles and towards a more ( ) society. | dynamic | revised | amended | different | Đối lập với `fixed` (cố định) là `dynamic` (luôn vận động). `revised` và `amended` dùng cho văn bản, không dùng cho xã hội; `a more different society` không nói rõ khác cái gì.",
+        "Britain began to ( ) into its present form… | evolve | refine | progress | substitute | Giới từ `into` quyết định: `evolve into` (dần phát triển thành). `refine` và `substitute` không đi với `into` theo nghĩa này; `progress into` chỉ dùng khi tiến vào một giai đoạn, như vòng chung kết.",
+        "…many ideas that are accepted today, such as a large amount of freedom for teenagers, were at the time ( ) and exciting. | novel | mature | alternate | steady | `at the time` và `exciting` cho thấy ý tưởng khi đó còn mới lạ: `novel`. `alternate` (tính từ) nghĩa là cách một lần; `steady` là đều đặn.",
+        "New and ( ) music and fashion… | innovative | internal | incoherent | innate | Đi cùng `new` là `innovative` (sáng tạo, đổi mới). `innate` là bẩm sinh; `incoherent` là rời rạc, khó hiểu.",
+        "…had a great ( ) on young people… | influence | substitute | progress | innovation | Giới từ `on` quyết định: `have an influence on` (có ảnh hưởng tới). Các danh từ còn lại không đi với `on` theo nghĩa này.",
+        "…and the whole of Britain became less ( ). | conservative | concerned | convinced | contained | Cả đoạn kể xã hội cởi mở dần, nên nước Anh bớt bảo thủ: `conservative`. `concerned` và `convinced` cần thêm phần sau (about, that …).",
+    ]),
+    (25, "W5C", C4 + " · bài C (trang 30–31)", "Chọn một trong hai từ rồi chia đúng dạng",
+     "Mỗi câu có hai từ trong ngoặc. Chọn từ hợp nghĩa và chia đúng dạng. Trong mỗi cặp, mỗi từ dùng một lần.", "typed", [
+        "It's time we completely ( ㉠ ) the whole prison system. (reform / revise) | reformed | Thay đổi cả một hệ thống: `reform` (cải cách). `revise` là sửa lại một văn bản. Sau `It's time we` động từ chia quá khứ dù ý nói về hiện tại: `reformed`. Mẫu này sẽ học kỹ ở tuần sau.",
+        "I'd like you to ( ㉠ ) your report to include more information about costs. (reform / revise) | revise | Sửa lại một bản báo cáo: `revise`. Sau `I'd like you to` dùng nguyên thể.",
+        "I thought the report in the paper completely ( ㉠ ) the truth. (amend / distort) | distorted | Cụm cố định `distort the truth` (bóp méo sự thật). Câu kể việc đã qua nên chia quá khứ: `distorted`.",
+        "I've ( ㉠ ) the contract and it now says that you will receive 15%. (amend / distort) | amended | Sửa một điều khoản trong văn bản (hợp đồng, luật, kế hoạch): `amend`. Sau `I've` dùng quá khứ phân từ: `amended`.",
+        "I sometimes find it hard to ( ㉠ ) a balance between work and my home life. (maintain / remain) | maintain | Có tân ngữ `a balance` theo sau, nên dùng `maintain` (duy trì cái gì). `remain` không có tân ngữ.",
+        "The important thing is to ( ㉠ ) calm and try to think logically. (maintain / remain) | remain | Theo sau là tính từ `calm`, nên dùng `remain` (vẫn giữ trạng thái): `remain calm`. Đó là cách nói tự nhiên về trạng thái của một người.",
+        "You can ( ㉠ ) the chair to make it comfortable by pressing this button. (adapt / adjust) | adjust | Chỉnh một chi tiết nhỏ cho vừa (độ cao, vị trí): `adjust`.",
+        "This company needs to ( ㉠ ) or we're not going to survive. (adapt / adjust) | adapt | Thay đổi để tồn tại trong hoàn cảnh mới: `adapt`. Trong cặp này mỗi từ dùng một lần, và `adjust` đã thuộc câu chỉnh ghế.",
+        "Mike and I meet for coffee on ( ㉠ ) Saturdays. (alternate / alternative) | alternate | `on alternate Saturdays` = cách một thứ Bảy một lần. Tính từ `alternate` đọc /ɔːlˈtɜːnət/.",
+        "There's a lot of traffic, so I'm trying to find an ( ㉠ ) route. (alternate / alternative) | alternative | `an alternative route` = một con đường khác để thay thế. `alternative` là một lựa chọn khác.",
+        "You'll regret it if you ( ㉠ ) in annoying people like that. (persist / sustain) | persist | Giới từ `in` + V-ing quyết định: `persist in doing something` (cứ khăng khăng làm gì). `sustain` không đi với `in`.",
+        "Can the company ( ㉠ ) the kind of growth we've had recently? (persist / sustain) | sustain | Có tân ngữ `growth` theo sau: `sustain growth` (duy trì sự tăng trưởng lâu dài).",
+        "Many people in Britain ( ㉠ ) to Christianity during the Roman period. (convert / transform) | converted | Giới từ `to` quyết định: `convert to` (cải sang, chuyển sang một tôn giáo hay hệ thống). Việc trong quá khứ: `converted`.",
+        "Learning to use the Internet has really ( ㉠ ) my life. (convert / transform) | transformed | Biến đổi hoàn toàn một thứ: `transform`. Sau `has really` dùng quá khứ phân từ: `transformed`.",
+        "I hope the bad weather didn't ( ㉠ ) your holiday. (deteriorate / spoil) | spoil | Có tân ngữ `your holiday`: `spoil` (làm hỏng). `deteriorate` (xấu đi) không có tân ngữ: the weather deteriorated.",
+    ]),
+    (25, "W5D", C4 + " · bài D (trang 31)", "Từ in đậm đúng hay sai? Chọn từ thay thế",
+     "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ in đậm của những câu khác trong bài.", "choice", [
+        "The Internet is really a vast [console] of computers, all connected together. | network | broadband | data | Giữ nguyên | Nhiều máy tính nối với nhau tạo thành một mạng lưới: `network`. `console` là máy chơi trò chơi điện tử.",
+        "Since we got [resource], we've been watching music videos online. | broadband | console | nuclear | Giữ nguyên | Lắp mạng tốc độ cao thì xem được video trên mạng: `broadband`. `resource` là tài nguyên, không lắp đặt được.",
+        "Early computer games seem quite [nuclear] compared to today's games. | primitive | network | technique | Giữ nguyên | So với trò chơi bây giờ, trò chơi đời đầu trông thô sơ: `primitive`. `nuclear` nói về hạt nhân.",
+        "It seems to me that [primitive] power is far cleaner than oil. | nuclear | network | data | Giữ nguyên | So với dầu mỏ là một nguồn năng lượng: `nuclear power` (điện hạt nhân).",
+        "These ancient tools have been [crafted] with an enormous amount of skill. | Giữ nguyên | networked | consoled | Đúng rồi: `craft` = làm thủ công khéo léo, hợp với `an enormous amount of skill`.",
+        "The next generation of games [technique] will have better graphics. | console | data | resource | Giữ nguyên | Thế hệ máy chơi game mới có đồ họa đẹp hơn: `games console`. `technique` là kỹ thuật, phương pháp.",
+        "There's a [network] in computing called 'beta testing', which means you test something to see if it works properly before it becomes official. | technique | console | data | Giữ nguyên | `beta testing` là một phương pháp kiểm thử: `technique`.",
+        "This latest [breakthrough] will mean cheaper, faster internet access for all. | Giữ nguyên | primitive | nuclear | Đúng rồi: `breakthrough` = bước đột phá. Sau `this latest` cần một danh từ; hai tính từ còn lại không đứng một mình được.",
+        "The computer has finished analysing all the [broadband]. | data | console | technique | Giữ nguyên | Máy tính phân tích thông tin: `data` (dữ liệu). Cách đọc phổ biến /ˈdeɪtə/; người ta cũng đọc /ˈdɑːtə/.",
+        "The sea is a great natural [data] but we need the right technology to use it. | resource | network | console | Giữ nguyên | Cụm cố định `natural resource` (tài nguyên thiên nhiên).",
+    ]),
+]
+
+DAY = {
+    "title": "Change and technology", "slug_title": "Change and technology: C1 and C2 Unit 4", "title_vi": "Thay đổi và công nghệ",
+    "week": 2, "dayno": 5,
+    "goal": "Nắm 30 từ về thay đổi và công nghệ theo năm nhóm ý (kéo dài, thay đổi, đi lên hay đi xuống và thay thế, xã hội, công nghệ), dùng đúng giới từ và từ đi kèm (evolve into, have an influence on, persist in, make progress).",
+    "can": ["Phân biệt được các cặp dễ nhầm: maintain và remain, modify và transform, substitute và switch, deteriorate và spoil.",
+            "Loại phương án sai bằng giới từ đi kèm, bằng thời gian và bằng phạm vi kết hợp của từ.",
+            "Dùng 5 đến 10 từ yêu thích trong hai câu về chính mình."],
+    "ielts": "Từ về thay đổi là lõi của Writing Task 1 (mô tả xu hướng, bản đồ thay đổi) và Task 2 về công nghệ, xã hội; chọn đúng từ và từ đi kèm được tính ở tiêu chí Lexical Resource.",
+    "book": [("Destination C1&C2", "30", "Bài A", 10, 8), ("Destination C1&C2", "30", "Bài B", 12, 10),
+             ("Destination C1&C2", "30–31", "Bài C", 15, 12), ("Destination C1&C2", "31", "Bài D", 10, 8)],
+    "source": "Destination C1&C2, Unit 4 (trang 28–31); cách nhóm từ theo Buổi 4 của khóa học",
+    "editor": "Từ vựng và bài tập A–D theo Destination C1&C2 Unit 4 (trang 28–31, đáp án trang 284); 30 từ cốt lõi và cách nhóm theo Buổi 4 (chặng 1–3) của khóa học, đã đối chiếu từ điển (docs/WEEK2_PLAN.md, mục 9–15). Không dạy cụm động từ và thành ngữ (bài E trở đi).",
+    "stage": "c1",
+    "family": "Thay đổi và công nghệ",
+    "recognize": {"breakthrough", "network", "data", "console", "craft"},
+    "sittings": [
+        ("Kéo dài và giữ nguyên", [
+            ("endure", "V", "tồn tại lâu bền (= last)", "Some traditions endure for centuries.", "Có những truyền thống tồn tại hàng thế kỷ."),
+            ("last", "V", "kéo dài", "The meeting lasted two hours.", "Cuộc họp kéo dài hai tiếng."),
+            ("maintain", "V", "duy trì (= keep)", "It is hard to maintain a balance between work and study.", "Thật khó duy trì sự cân bằng giữa việc làm và việc học."),
+            ("remain", "V", "vẫn giữ nguyên (= stay)", "Try to remain calm in the exam.", "Hãy cố giữ bình tĩnh trong phòng thi."),
+            ("sustain", "V", "duy trì lâu dài", "Can the company sustain this growth?", "Công ty có duy trì được mức tăng trưởng này không?"),
+            ("persist", "V", "cứ khăng khăng tiếp tục", "He persisted in asking the same question.", "Anh ấy cứ khăng khăng hỏi mãi một câu."),
+        ]),
+        ("Thay đổi một phần hay toàn bộ", [
+            ("shift", "N", "sự chuyển dịch (= change)", "There has been a shift in attitudes towards online learning.", "Thái độ đối với việc học trực tuyến đã chuyển dịch."),
+            ("modify", "V", "sửa đổi một phần", "He modified his motorbike with new lights.", "Anh ấy độ lại xe máy bằng bộ đèn mới."),
+            ("transform", "V", "biến đổi hoàn toàn", "The Internet has transformed the way we study.", "Internet đã thay đổi hoàn toàn cách chúng ta học."),
+            ("reform", "V", "cải cách", "The government plans to reform the school system.", "Chính phủ dự định cải cách hệ thống trường học."),
+            ("adjust", "V", "điều chỉnh", "You can adjust the seat by pressing this button.", "Bạn có thể chỉnh ghế bằng cách nhấn nút này."),
+            ("distort", "V", "bóp méo", "Some newspapers distort the truth.", "Một số tờ báo bóp méo sự thật."),
+        ]),
+        ("Đi lên, đi xuống và thay thế", [
+            ("evolve", "V", "dần phát triển thành", "Mobile phones have evolved into small computers.", "Điện thoại di động đã dần trở thành những chiếc máy tính nhỏ."),
+            ("progress", "N", "sự tiến bộ", "We are making good progress with the project.", "Chúng tôi đang tiến triển tốt với dự án."),
+            ("mature", "A", "chín chắn, trưởng thành", "She is very mature for her age.", "Cô ấy rất chín chắn so với tuổi."),
+            ("deteriorate", "V", "xấu đi, kém đi", "The weather deteriorated in the afternoon.", "Buổi chiều thời tiết xấu đi."),
+            ("decay", "V", "mục rữa; xuống cấp dần", "Fallen leaves decay quickly in wet weather.", "Lá rụng mục rất nhanh khi trời ẩm."),
+            ("substitute", "N", "thứ thay thế", "There is no substitute for hard work.", "Không gì thay thế được sự chăm chỉ."),
+            ("switch", "V", "tráo đổi cho nhau", "Someone switched our bags at the airport.", "Ai đó đã tráo túi của chúng tôi ở sân bay."),
+        ]),
+        ("Xã hội đổi thay", [
+            ("radical", "A", "triệt để, tận gốc", "The war brought radical changes to society.", "Chiến tranh mang lại những thay đổi triệt để cho xã hội."),
+            ("dynamic", "A", "năng động, luôn vận động", "Ho Chi Minh City is a dynamic city.", "Thành phố Hồ Chí Minh là một thành phố năng động."),
+            ("uniform", "A", "đồng nhất (= the same)", "The houses on this street are uniform in size.", "Những ngôi nhà trên phố này có kích thước đồng nhất."),
+            ("conservative", "A", "bảo thủ, ngại thay đổi", "My grandparents are quite conservative.", "Ông bà tôi khá bảo thủ."),
+            ("novel", "A", "mới lạ (= new)", "At that time, the idea was novel and exciting.", "Vào thời đó, ý tưởng này mới lạ và hấp dẫn."),
+            ("influence", "N", "ảnh hưởng", "Music has a great influence on young people.", "Âm nhạc có ảnh hưởng lớn tới giới trẻ."),
+            ("innovation", "N", "sự đổi mới; cái mới", "Online banking was a real innovation.", "Ngân hàng trực tuyến là một sự đổi mới thực sự."),
+            ("potential", "N", "tiềm năng", "This young player has a lot of potential.", "Cầu thủ trẻ này có nhiều tiềm năng."),
+        ]),
+        ("Công nghệ: thô sơ, kỹ thuật, tài nguyên", [
+            ("primitive", "A", "thô sơ", "Early computer games look primitive today.", "Ngày nay các trò chơi máy tính đời đầu trông thật thô sơ."),
+            ("technique", "N", "kỹ thuật, phương pháp", "Beta testing is a common technique in computing.", "Thử nghiệm beta là một phương pháp phổ biến trong tin học."),
+            ("resource", "N", "tài nguyên, nguồn lực", "Water is a precious natural resource.", "Nước là một tài nguyên thiên nhiên quý giá."),
+            ("breakthrough", "N", "bước đột phá", "This breakthrough will make internet access cheaper.", "Bước đột phá này sẽ làm truy cập Internet rẻ hơn."),
+            ("network", "N", "mạng lưới", "The Internet is a huge network of computers.", "Internet là một mạng lưới máy tính khổng lồ."),
+            ("data", "N", "dữ liệu", "The computer is analysing the data.", "Máy tính đang phân tích dữ liệu."),
+            ("console", "N", "máy chơi trò chơi điện tử", "He bought a new games console.", "Anh ấy mua một máy chơi game mới."),
+            ("craft", "V", "chế tác thủ công", "These tools were crafted by hand.", "Những dụng cụ này được chế tác bằng tay."),
+        ]),
+    ],
+    "my": [{"vi": "Chọn 5 đến 10 từ hôm nay bạn thích nhất và nhẩm cho mỗi từ một câu của riêng bạn. Rồi gõ hai câu bạn ưng nhất về một thay đổi trong cuộc sống của chính bạn (học tập, công việc, thành phố, cách dùng điện thoại). Dùng ít nhất hai từ, ví dụ transform, adjust, make progress, have an influence on.",
+            "en": "Write two sentences about a change in your own life, using two words from today.",
+            "model": "Learning English online has transformed the way I study. I am making good progress, but I still need to adjust my timetable."}],
+}

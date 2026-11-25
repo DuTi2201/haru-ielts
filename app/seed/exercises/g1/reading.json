@@ -10707,6 +10707,782 @@
    ]
   },
   {
+   "id": "G1D25KW5B-1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: nước Anh đổi thay sau chiến tranh (1/12)",
+   "instruction_vi": "Đoạn văn kể nước Anh thay đổi sau Chiến tranh thế giới thứ hai. Chọn từ đúng cho từng chỗ trống; loại phương án sai bằng giới từ đi kèm, bằng thời gian và bằng phạm vi kết hợp của từ.",
+   "questions": [
+    {
+     "id": "G1D25KW5B-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "sustain"
+      },
+      {
+       "id": "2",
+       "text": "be"
+      },
+      {
+       "id": "3",
+       "text": "last"
+      },
+      {
+       "id": "4",
+       "text": "maintain"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Chỗ trống không có tân ngữ theo sau, nên cần động từ đứng một mình: `last` (kéo dài). `sustain` và `maintain` luôn cần tân ngữ; `be` không có nghĩa khi đứng một mình ở đây.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "It seemed to the generation of Britons alive before the Second World War that their way of life would ( ) for many years to come."
+   }
+  },
+  {
+   "id": "G1D25KW5B-2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: nước Anh đổi thay sau chiến tranh (2/12)",
+   "instruction_vi": "Đoạn văn kể nước Anh thay đổi sau Chiến tranh thế giới thứ hai. Chọn từ đúng cho từng chỗ trống; loại phương án sai bằng giới từ đi kèm, bằng thời gian và bằng phạm vi kết hợp của từ.",
+   "questions": [
+    {
+     "id": "G1D25KW5B-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "rejection"
+      },
+      {
+       "id": "2",
+       "text": "revision"
+      },
+      {
+       "id": "3",
+       "text": "revolution"
+      },
+      {
+       "id": "4",
+       "text": "rotation"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Thay đổi lớn, làm đảo lộn cả lối sống: `revolution` (cuộc cách mạng). `revision` là sự sửa lại một văn bản; `rotation` là sự xoay vòng.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "However, the war caused a ( ) in British life that completely changed the status quo."
+   }
+  },
+  {
+   "id": "G1D25KW5B-3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: nước Anh đổi thay sau chiến tranh (3/12)",
+   "instruction_vi": "Đoạn văn kể nước Anh thay đổi sau Chiến tranh thế giới thứ hai. Chọn từ đúng cho từng chỗ trống; loại phương án sai bằng giới từ đi kèm, bằng thời gian và bằng phạm vi kết hợp của từ.",
+   "questions": [
+    {
+     "id": "G1D25KW5B-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "social status"
+      },
+      {
+       "id": "2",
+       "text": "high status"
+      },
+      {
+       "id": "3",
+       "text": "status symbol"
+      },
+      {
+       "id": "4",
+       "text": "status quo"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "`change the status quo` = thay đổi hiện trạng. `social status` là địa vị của một người, `status symbol` là món đồ thể hiện địa vị.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "…a revolution in British life that completely changed the ( )."
+   }
+  },
+  {
+   "id": "G1D25KW5B-4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: nước Anh đổi thay sau chiến tranh (4/12)",
+   "instruction_vi": "Đoạn văn kể nước Anh thay đổi sau Chiến tranh thế giới thứ hai. Chọn từ đúng cho từng chỗ trống; loại phương án sai bằng giới từ đi kèm, bằng thời gian và bằng phạm vi kết hợp của từ.",
+   "questions": [
+    {
+     "id": "G1D25KW5B-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "same"
+      },
+      {
+       "id": "2",
+       "text": "identical"
+      },
+      {
+       "id": "3",
+       "text": "similar"
+      },
+      {
+       "id": "4",
+       "text": "uniform"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Vế sau nói mọi người có chung niềm tin, nên xã hội đồng nhất: `uniform`. `same` phải có `the`; `similar` và `identical` cần một vật để so sánh.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "What had been a fairly ( ) society up to that point, with people sharing many basic beliefs and values, …"
+   }
+  },
+  {
+   "id": "G1D25KW5B-5",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: nước Anh đổi thay sau chiến tranh (5/12)",
+   "instruction_vi": "Đoạn văn kể nước Anh thay đổi sau Chiến tranh thế giới thứ hai. Chọn từ đúng cho từng chỗ trống; loại phương án sai bằng giới từ đi kèm, bằng thời gian và bằng phạm vi kết hợp của từ.",
+   "questions": [
+    {
+     "id": "G1D25KW5B-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "potential"
+      },
+      {
+       "id": "2",
+       "text": "radical"
+      },
+      {
+       "id": "3",
+       "text": "refined"
+      },
+      {
+       "id": "4",
+       "text": "alternative"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`underwent` cho thấy thay đổi đã xảy ra, nên loại `potential` (chỉ điều chưa xảy ra). Thay đổi triệt để, tận gốc: `radical`.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "…underwent ( ) changes after the war."
+   }
+  },
+  {
+   "id": "G1D25KW5B-6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: nước Anh đổi thay sau chiến tranh (6/12)",
+   "instruction_vi": "Đoạn văn kể nước Anh thay đổi sau Chiến tranh thế giới thứ hai. Chọn từ đúng cho từng chỗ trống; loại phương án sai bằng giới từ đi kèm, bằng thời gian và bằng phạm vi kết hợp của từ.",
+   "questions": [
+    {
+     "id": "G1D25KW5B-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "reform"
+      },
+      {
+       "id": "2",
+       "text": "trend"
+      },
+      {
+       "id": "3",
+       "text": "decay"
+      },
+      {
+       "id": "4",
+       "text": "fashion"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`away from … towards …` mô tả một hướng chuyển động: `trend` (xu hướng). `reform` là cải cách do người ta chủ động làm; `decay` là xuống cấp.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "The ( ) was away from fixed social roles and towards a more dynamic society."
+   }
+  },
+  {
+   "id": "G1D25KW5B-7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: nước Anh đổi thay sau chiến tranh (7/12)",
+   "instruction_vi": "Đoạn văn kể nước Anh thay đổi sau Chiến tranh thế giới thứ hai. Chọn từ đúng cho từng chỗ trống; loại phương án sai bằng giới từ đi kèm, bằng thời gian và bằng phạm vi kết hợp của từ.",
+   "questions": [
+    {
+     "id": "G1D25KW5B-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "amended"
+      },
+      {
+       "id": "2",
+       "text": "dynamic"
+      },
+      {
+       "id": "3",
+       "text": "different"
+      },
+      {
+       "id": "4",
+       "text": "revised"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đối lập với `fixed` (cố định) là `dynamic` (luôn vận động). `revised` và `amended` dùng cho văn bản, không dùng cho xã hội; `a more different society` không nói rõ khác cái gì.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "…away from fixed social roles and towards a more ( ) society."
+   }
+  },
+  {
+   "id": "G1D25KW5B-8",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: nước Anh đổi thay sau chiến tranh (8/12)",
+   "instruction_vi": "Đoạn văn kể nước Anh thay đổi sau Chiến tranh thế giới thứ hai. Chọn từ đúng cho từng chỗ trống; loại phương án sai bằng giới từ đi kèm, bằng thời gian và bằng phạm vi kết hợp của từ.",
+   "questions": [
+    {
+     "id": "G1D25KW5B-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "refine"
+      },
+      {
+       "id": "2",
+       "text": "substitute"
+      },
+      {
+       "id": "3",
+       "text": "progress"
+      },
+      {
+       "id": "4",
+       "text": "evolve"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Giới từ `into` quyết định: `evolve into` (dần phát triển thành). `refine` và `substitute` không đi với `into` theo nghĩa này; `progress into` chỉ dùng khi tiến vào một giai đoạn, như vòng chung kết.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Britain began to ( ) into its present form…"
+   }
+  },
+  {
+   "id": "G1D25KW5B-9",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: nước Anh đổi thay sau chiến tranh (9/12)",
+   "instruction_vi": "Đoạn văn kể nước Anh thay đổi sau Chiến tranh thế giới thứ hai. Chọn từ đúng cho từng chỗ trống; loại phương án sai bằng giới từ đi kèm, bằng thời gian và bằng phạm vi kết hợp của từ.",
+   "questions": [
+    {
+     "id": "G1D25KW5B-9",
+     "options": [
+      {
+       "id": "1",
+       "text": "novel"
+      },
+      {
+       "id": "2",
+       "text": "steady"
+      },
+      {
+       "id": "3",
+       "text": "alternate"
+      },
+      {
+       "id": "4",
+       "text": "mature"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`at the time` và `exciting` cho thấy ý tưởng khi đó còn mới lạ: `novel`. `alternate` (tính từ) nghĩa là cách một lần; `steady` là đều đặn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "…many ideas that are accepted today, such as a large amount of freedom for teenagers, were at the time ( ) and exciting."
+   }
+  },
+  {
+   "id": "G1D25KW5B-10",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: nước Anh đổi thay sau chiến tranh (10/12)",
+   "instruction_vi": "Đoạn văn kể nước Anh thay đổi sau Chiến tranh thế giới thứ hai. Chọn từ đúng cho từng chỗ trống; loại phương án sai bằng giới từ đi kèm, bằng thời gian và bằng phạm vi kết hợp của từ.",
+   "questions": [
+    {
+     "id": "G1D25KW5B-10",
+     "options": [
+      {
+       "id": "1",
+       "text": "incoherent"
+      },
+      {
+       "id": "2",
+       "text": "innovative"
+      },
+      {
+       "id": "3",
+       "text": "internal"
+      },
+      {
+       "id": "4",
+       "text": "innate"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đi cùng `new` là `innovative` (sáng tạo, đổi mới). `innate` là bẩm sinh; `incoherent` là rời rạc, khó hiểu.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "New and ( ) music and fashion…"
+   }
+  },
+  {
+   "id": "G1D25KW5B-11",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: nước Anh đổi thay sau chiến tranh (11/12)",
+   "instruction_vi": "Đoạn văn kể nước Anh thay đổi sau Chiến tranh thế giới thứ hai. Chọn từ đúng cho từng chỗ trống; loại phương án sai bằng giới từ đi kèm, bằng thời gian và bằng phạm vi kết hợp của từ.",
+   "questions": [
+    {
+     "id": "G1D25KW5B-11",
+     "options": [
+      {
+       "id": "1",
+       "text": "innovation"
+      },
+      {
+       "id": "2",
+       "text": "influence"
+      },
+      {
+       "id": "3",
+       "text": "progress"
+      },
+      {
+       "id": "4",
+       "text": "substitute"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Giới từ `on` quyết định: `have an influence on` (có ảnh hưởng tới). Các danh từ còn lại không đi với `on` theo nghĩa này.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "…had a great ( ) on young people…"
+   }
+  },
+  {
+   "id": "G1D25KW5B-12",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: nước Anh đổi thay sau chiến tranh (12/12)",
+   "instruction_vi": "Đoạn văn kể nước Anh thay đổi sau Chiến tranh thế giới thứ hai. Chọn từ đúng cho từng chỗ trống; loại phương án sai bằng giới từ đi kèm, bằng thời gian và bằng phạm vi kết hợp của từ.",
+   "questions": [
+    {
+     "id": "G1D25KW5B-12",
+     "options": [
+      {
+       "id": "1",
+       "text": "concerned"
+      },
+      {
+       "id": "2",
+       "text": "conservative"
+      },
+      {
+       "id": "3",
+       "text": "convinced"
+      },
+      {
+       "id": "4",
+       "text": "contained"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Cả đoạn kể xã hội cởi mở dần, nên nước Anh bớt bảo thủ: `conservative`. `concerned` và `convinced` cần thêm phần sau (about, that …).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "…and the whole of Britain became less ( )."
+   }
+  },
+  {
+   "id": "G1D25KW5D-1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Từ in đậm đúng hay sai? Chọn từ thay thế (1/10)",
+   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ in đậm của những câu khác trong bài.",
+   "questions": [
+    {
+     "id": "G1D25KW5D-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "Giữ nguyên"
+      },
+      {
+       "id": "2",
+       "text": "network"
+      },
+      {
+       "id": "3",
+       "text": "broadband"
+      },
+      {
+       "id": "4",
+       "text": "data"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Nhiều máy tính nối với nhau tạo thành một mạng lưới: `network`. `console` là máy chơi trò chơi điện tử.",
+     "tags": [],
+     "prompt_vi": "The Internet is really a vast [console] of computers, all connected together."
+    }
+   ]
+  },
+  {
+   "id": "G1D25KW5D-2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Từ in đậm đúng hay sai? Chọn từ thay thế (2/10)",
+   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ in đậm của những câu khác trong bài.",
+   "questions": [
+    {
+     "id": "G1D25KW5D-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "nuclear"
+      },
+      {
+       "id": "2",
+       "text": "broadband"
+      },
+      {
+       "id": "3",
+       "text": "console"
+      },
+      {
+       "id": "4",
+       "text": "Giữ nguyên"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Lắp mạng tốc độ cao thì xem được video trên mạng: `broadband`. `resource` là tài nguyên, không lắp đặt được.",
+     "tags": [],
+     "prompt_vi": "Since we got [resource], we've been watching music videos online."
+    }
+   ]
+  },
+  {
+   "id": "G1D25KW5D-3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Từ in đậm đúng hay sai? Chọn từ thay thế (3/10)",
+   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ in đậm của những câu khác trong bài.",
+   "questions": [
+    {
+     "id": "G1D25KW5D-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "technique"
+      },
+      {
+       "id": "2",
+       "text": "Giữ nguyên"
+      },
+      {
+       "id": "3",
+       "text": "primitive"
+      },
+      {
+       "id": "4",
+       "text": "network"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "So với trò chơi bây giờ, trò chơi đời đầu trông thô sơ: `primitive`. `nuclear` nói về hạt nhân.",
+     "tags": [],
+     "prompt_vi": "Early computer games seem quite [nuclear] compared to today's games."
+    }
+   ]
+  },
+  {
+   "id": "G1D25KW5D-4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Từ in đậm đúng hay sai? Chọn từ thay thế (4/10)",
+   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ in đậm của những câu khác trong bài.",
+   "questions": [
+    {
+     "id": "G1D25KW5D-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "data"
+      },
+      {
+       "id": "2",
+       "text": "network"
+      },
+      {
+       "id": "3",
+       "text": "nuclear"
+      },
+      {
+       "id": "4",
+       "text": "Giữ nguyên"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "So với dầu mỏ là một nguồn năng lượng: `nuclear power` (điện hạt nhân).",
+     "tags": [],
+     "prompt_vi": "It seems to me that [primitive] power is far cleaner than oil."
+    }
+   ]
+  },
+  {
+   "id": "G1D25KW5D-5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Từ in đậm đúng hay sai? Chọn từ thay thế (5/10)",
+   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ in đậm của những câu khác trong bài.",
+   "questions": [
+    {
+     "id": "G1D25KW5D-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "Giữ nguyên"
+      },
+      {
+       "id": "2",
+       "text": "networked"
+      },
+      {
+       "id": "3",
+       "text": "consoled"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đúng rồi: `craft` = làm thủ công khéo léo, hợp với `an enormous amount of skill`.",
+     "tags": [],
+     "prompt_vi": "These ancient tools have been [crafted] with an enormous amount of skill."
+    }
+   ]
+  },
+  {
+   "id": "G1D25KW5D-6",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Từ in đậm đúng hay sai? Chọn từ thay thế (6/10)",
+   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ in đậm của những câu khác trong bài.",
+   "questions": [
+    {
+     "id": "G1D25KW5D-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "resource"
+      },
+      {
+       "id": "2",
+       "text": "data"
+      },
+      {
+       "id": "3",
+       "text": "Giữ nguyên"
+      },
+      {
+       "id": "4",
+       "text": "console"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Thế hệ máy chơi game mới có đồ họa đẹp hơn: `games console`. `technique` là kỹ thuật, phương pháp.",
+     "tags": [],
+     "prompt_vi": "The next generation of games [technique] will have better graphics."
+    }
+   ]
+  },
+  {
+   "id": "G1D25KW5D-7",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Từ in đậm đúng hay sai? Chọn từ thay thế (7/10)",
+   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ in đậm của những câu khác trong bài.",
+   "questions": [
+    {
+     "id": "G1D25KW5D-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "technique"
+      },
+      {
+       "id": "2",
+       "text": "data"
+      },
+      {
+       "id": "3",
+       "text": "console"
+      },
+      {
+       "id": "4",
+       "text": "Giữ nguyên"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "`beta testing` là một phương pháp kiểm thử: `technique`.",
+     "tags": [],
+     "prompt_vi": "There's a [network] in computing called 'beta testing', which means you test something to see if it works properly before it becomes official."
+    }
+   ]
+  },
+  {
+   "id": "G1D25KW5D-8",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Từ in đậm đúng hay sai? Chọn từ thay thế (8/10)",
+   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ in đậm của những câu khác trong bài.",
+   "questions": [
+    {
+     "id": "G1D25KW5D-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "primitive"
+      },
+      {
+       "id": "2",
+       "text": "nuclear"
+      },
+      {
+       "id": "3",
+       "text": "Giữ nguyên"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đúng rồi: `breakthrough` = bước đột phá. Sau `this latest` cần một danh từ; hai tính từ còn lại không đứng một mình được.",
+     "tags": [],
+     "prompt_vi": "This latest [breakthrough] will mean cheaper, faster internet access for all."
+    }
+   ]
+  },
+  {
+   "id": "G1D25KW5D-9",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Từ in đậm đúng hay sai? Chọn từ thay thế (9/10)",
+   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ in đậm của những câu khác trong bài.",
+   "questions": [
+    {
+     "id": "G1D25KW5D-9",
+     "options": [
+      {
+       "id": "1",
+       "text": "technique"
+      },
+      {
+       "id": "2",
+       "text": "data"
+      },
+      {
+       "id": "3",
+       "text": "Giữ nguyên"
+      },
+      {
+       "id": "4",
+       "text": "console"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Máy tính phân tích thông tin: `data` (dữ liệu). Cách đọc phổ biến /ˈdeɪtə/; người ta cũng đọc /ˈdɑːtə/.",
+     "tags": [],
+     "prompt_vi": "The computer has finished analysing all the [broadband]."
+    }
+   ]
+  },
+  {
+   "id": "G1D25KW5D-10",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Từ in đậm đúng hay sai? Chọn từ thay thế (10/10)",
+   "instruction_vi": "Từ trong ngoặc vuông đúng thì chọn «Giữ nguyên». Nếu sai, chọn từ đúng: các từ thay thế đều là từ in đậm của những câu khác trong bài.",
+   "questions": [
+    {
+     "id": "G1D25KW5D-10",
+     "options": [
+      {
+       "id": "1",
+       "text": "network"
+      },
+      {
+       "id": "2",
+       "text": "resource"
+      },
+      {
+       "id": "3",
+       "text": "Giữ nguyên"
+      },
+      {
+       "id": "4",
+       "text": "console"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Cụm cố định `natural resource` (tài nguyên thiên nhiên).",
+     "tags": [],
+     "prompt_vi": "The sea is a great natural [data] but we need the right technology to use it."
+    }
+   ]
+  },
+  {
    "id": "G1D8RP1",
    "skill": "reading",
    "type": "read_passage",

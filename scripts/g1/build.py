@@ -29,6 +29,7 @@ import lecture_w2d1 as W2D1  # noqa: E402
 import lecture_w2d2 as W2D2  # noqa: E402
 import lecture_w2d3 as W2D3  # noqa: E402
 import lecture_w2d4 as W2D4  # noqa: E402
+import lecture_w2d5 as W2D5  # noqa: E402
 import lecture_d7 as L7  # noqa: E402
 import lecture_d12 as L12  # noqa: E402
 from assoc import ASSOC  # noqa: E402
@@ -41,9 +42,9 @@ TOPIC = "Tuần 1 · Giáo dục (Education)"
 TOPIC_EXTRA = "Bổ trợ · Từ vựng và bài đọc ngoài lịch tuần"
 # Week 1 of the Pre-IELTS syllabus: Present tenses (B2 Unit 1, A B C E), Thinking and learning (C1 Unit 2, A B C D),
 # Reading and Listening from Cambridge 18. Days outside it are kept as supplements, not deleted.
-DAYNO = {1: 1, 2: 2, 3: 3, 4: 4, 7: 5, 12: 6, 13: 7, 21: 1, 22: 2, 23: 3, 24: 4}  # the day number the learner sees
+DAYNO = {1: 1, 2: 2, 3: 3, 4: 4, 7: 5, 12: 6, 13: 7, 21: 1, 22: 2, 23: 3, 24: 4, 25: 5}  # the day number the learner sees
 # Week 2 (Technology) uses build days 21-27; every day not listed here is Week 1
-WEEK = {21: 2, 22: 2, 23: 2, 24: 2}
+WEEK = {21: 2, 22: 2, 23: 2, 24: 2, 25: 2}
 TOPIC_BY_WEEK = {1: "Tuần 1 · Giáo dục (Education)", 2: "Tuần 2 · Công nghệ (Technology)"}
 BOOK_BY_WEEK = {1: "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1", 2: "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3"}
 EDITOR_BY_WEEK = {
@@ -52,6 +53,8 @@ EDITOR_BY_WEEK = {
 }
 # day-specific modules (lecture, sittings, pronunciations, rubric) of Week 2
 WEEK2 = {21: W2D1, 22: W2D2, 23: W2D3, 24: W2D4}
+# the vocabulary days of Week 2 (built by vocab_day): lectures, transcriptions and a memory hook per word
+VOCAB_W2 = {25: W2D5}
 
 
 def week_of(n: int) -> int:
@@ -431,7 +434,8 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
     vocab, sessions = [], []
     for title, words in d["sittings"]:
         for h, pos, mv, ex, evi in words:
-            vocab.append({"headword": h, "pos": pos, "meaning_vi": mv, **({"note_vi": ASSOC[h][0].upper() + ASSOC[h][1:]} if h in ASSOC else {}), "example_en": ex, "example_vi": evi, "family": d.get("family", "Giáo dục"), "priority": "recognize" if h in d.get("recognize", ()) else "core",
+            hook = VOCAB_W2[n].NOTES.get(h) if n in VOCAB_W2 else (ASSOC[h][0].upper() + ASSOC[h][1:] if h in ASSOC else None)
+            vocab.append({"headword": h, "pos": pos, "meaning_vi": mv, **({"note_vi": hook} if hook else {}), "example_en": ex, "example_vi": evi, "family": d.get("family", "Giáo dục"), "priority": "recognize" if h in d.get("recognize", ()) else "core",
                           "source": d.get("source", "Destination B2, Unit 18; từ C1 theo cách neo của khóa học")})
         sessions.append({"title_vi": (STAGE_PREFIX.get(d.get("stage"), "Từ vựng") + f" · {title}")[:70], "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: " + ", ".join(w[0] for w in words[:6]) + ", ...",
                          "use_vi": d["ielts"][:200], "vocab": [w[0] for w in words]})
@@ -461,6 +465,13 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
                          "use_vi": d["ielts"][:200], "check": [lex["id"]]})
     if n == 7:  # the four hand-written lectures of the day (scripts/g1/lecture_d7.py)
         L7.reshape(sessions)
+    if n in VOCAB_W2:  # Week 2 vocabulary day: one hand-written lecture per word group, Oxford (BrE) transcriptions
+        mod = VOCAB_W2[n]
+        mod.reshape(sessions)
+        for v in vocab:
+            if v["headword"] in mod.PRON:
+                v["pron"] = mod.PRON[v["headword"]]
+                v["source"] += "; phiên âm: Oxford Learner's Dictionaries (BrE)"
     if n == 7:  # transcriptions from the CMU Pronouncing Dictionary (scripts/g1/pron_d7.py)
         import pron_d7
         for v in vocab:
@@ -513,7 +524,7 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
     for i, m in enumerate(d.get("my", []), 1):
         wid = f"{pid}M{i}"
         bank["writing"].append({
-            "id": wid, "skill": "writing", "type": "write_essay", "number": f"M{i}", "title_vi": f"Câu của tôi · Ngày {n}", "points": 5,
+            "id": wid, "skill": "writing", "type": "write_essay", "number": f"M{i}", "title_vi": f"Câu của tôi · {day_label(n)}", "points": 5,
             "instruction_vi": m["vi"] + " Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn và dùng từ bạn chọn.",
             "limits": {"min": 8, "max": 50}, "prompt_en": m["en"],
             "framework_vi": ["Chọn 5 đến 10 từ bạn thích nhất trong bài hôm nay.", "Nghĩ điều bạn muốn nói về chính mình, bằng tiếng Việt cũng được.", "Gõ hai câu có dùng ít nhất hai từ đã chọn; từ C1 thì thêm một từ B2 đồng nghĩa ở câu kia."],
@@ -545,8 +556,9 @@ def vocab_day(n: int) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]]
     book_body = "\n".join(f"• {b[2]} ({b[3]} câu, khoảng {b[4]} phút)" for b in d["book"])
     lesson = {
         "slug": f"g1-d{n}-{B.slugify(d.get('slug_title', d['title']))}"[:60].rstrip("-"),
-        "title": (f"Tuần 1 · Ngày {DAYNO[n]} · {d['title_vi']}" if n in DAYNO else f"Bổ trợ · {d['title_vi']}")[:120], "title_en": d["title"],
-        "topic": TOPIC if n in DAYNO else TOPIC_EXTRA, "track": "beginner", "level": 4, "sort_order": 100 + DAYNO[n] if n in DAYNO else 200 + n,
+        "title": (f"Tuần {week_of(n)} · Ngày {DAYNO[n]} · {d['title_vi']}" if n in DAYNO else f"Bổ trợ · {d['title_vi']}")[:120], "title_en": d["title"],
+        "topic": TOPIC_BY_WEEK[week_of(n)] if n in DAYNO else TOPIC_EXTRA, "track": "beginner", "level": 4,
+        "sort_order": (100 + n if week_of(n) > 1 else 100 + DAYNO[n]) if n in DAYNO else 200 + n,
         "summary": d["goal"] + ((" " + SUPPLEMENT[n]) if n in SUPPLEMENT else ""), "vocab": vocab, "grammar": [],
         "notes": [
             {"title": "Mục tiêu của ngày", "body": "\n".join(f"• {x}" for x in d.get("can") or [d["goal"]]), "kind": "goal"},
