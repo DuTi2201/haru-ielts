@@ -148,7 +148,8 @@ READ_1 = [
               "main": "Xe hơi nước thừa hưởng cả mạnh lẫn yếu của hơi nước.",
               "value": "Mở đầu: công nghệ đến từ đâu, mạnh yếu ra sao."}, "lines": [
         {"say": "Đoạn thứ nhất. Tô vàng từ khóa: xe đời đầu, chạy bằng hơi nước, vốn thành công ở đường sắt, rồi được thu nhỏ thành ô tô.", "show": "keep"},
-        {"say": "Để ý ba từ của ngày năm: primitive là sơ khai, evolve into là phát triển thành, và lasted là kéo dài, đủ dùng."},
+        {"say": "Để ý ba từ của ngày năm. Ô tô đời đầu được gọi là sơ khai; công nghệ phát triển thành một phiên bản nhỏ hơn; bình nước chỉ đủ dùng cho ba mươi dặm."},
+        {"en": "primitive, evolve into, last"},
         {"say": "Câu quan trọng nhất của đoạn là câu này."},
         {"en": "But these early cars inherited steam's weaknesses along with its strengths.", "vi": "Nhưng những chiếc xe đời đầu này thừa hưởng cả điểm yếu lẫn điểm mạnh của hơi nước.", "gap": True},
         {"say": "Phần bị gạch là chi tiết: nhóm lửa bằng tay, chờ hai mươi phút, nước chỉ đủ ba mươi dặm. Ba chi tiết này gom lại thành một chữ: điểm yếu. Người viết tự gom giúp bạn: such shortcomings, những điểm yếu như vậy, chỉ ngược về danh sách vừa kể.", "show": "drop"},
@@ -222,7 +223,7 @@ SITTING_1 = [
         {"say": "Tám từ của buổi này kể lại nửa đầu câu chuyện. Ưu tiên động từ và danh từ; hai từ chỉ cần nhận ra khi đọc."},
     ]},
     {"kind": "word", "headword": "inherit", "lines": [
-        {"say": "Con cái thừa hưởng nét mặt của bố mẹ. Xe hơi nước đời đầu thừa hưởng cả điểm mạnh lẫn điểm yếu của công nghệ hơi nước: đó là inherit."},
+        {"say": "Con cái thừa hưởng nét mặt của bố mẹ. Xe hơi nước đời đầu thừa hưởng cả điểm mạnh lẫn điểm yếu của công nghệ hơi nước."},
     ]},
     {"kind": "word", "headword": "shortcoming", "lines": [
         {"say": "Điểm yếu, thiếu sót. Từ này thường ở số nhiều. Trong bài, người viết dùng nó để gom ba điểm yếu vừa kể."},
@@ -239,7 +240,7 @@ SITTING_1 = [
         {"say": "Mẫu thử, làm trước khi sản xuất hàng loạt. Chiếc đầu chạy không tốt, nên anh em nhà Doble làm tiếp mẫu thứ hai, mẫu thứ ba. Từ này nên tra bằng hình ảnh."},
     ]},
     {"kind": "word", "headword": "comprise", "lines": [
-        {"say": "Gồm có, như consist of. Khác ở chỗ comprise không cần giới từ đi sau. Chiếc xe đầu tiên gồm những phụ tùng lấy từ một chiếc xe cũ bị hỏng."},
+        {"say": "Gồm có, nghĩa như cụm consist of. Điểm khác: sau từ này không cần giới từ. Chiếc xe đầu tiên gồm những phụ tùng lấy từ một chiếc xe cũ bị hỏng."},
     ]},
     {"kind": "word", "headword": "feat", "lines": [
         {"say": "Một việc khó làm được, đáng khen. Từ số không lên sáu mươi dặm một giờ trong mười lăm giây là một kỳ công thời đó. Từ này chỉ cần nhận ra."},
@@ -302,14 +303,14 @@ SITTING_2 = [
         {"say": "Bốn danh từ của buổi này đều sinh ra từ một động từ. Invest là đầu tư, thành vốn đầu tư.", "show": "f1"},
         {"say": "Enhance là nâng lên, thành sự cải tiến.", "show": "f2"},
         {"say": "Emit là thải ra, thành khí thải.", "show": "f3"},
-        {"say": "Maintain là bảo dưỡng, thành sự bảo dưỡng. Để ý chữ viết: maintenance không giữ nguyên phần tain của maintain.", "show": "f4"},
+        {"say": "Maintain là bảo dưỡng, thành sự bảo dưỡng. Để ý chữ viết của danh từ này: phần giữa đổi khác, không giữ nguyên như động từ.", "show": "f4"},
         {"say": "Học từ thì học cả từ loại. Biết động từ, bạn nhận ra ngay danh từ của nó trong bài đọc.", "show": "rule"},
     ]},
     {"kind": "recap", "lines": [
         {"say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
     ]},
     {"kind": "end", "next": "Tiếp theo: câu dài và mạch thông tin của đoạn C đến G.", "lines": [
-        {"say": "Hết buổi từ thứ hai. Tiếp theo là cách đọc những câu dài nhất của bài, và cách theo mạch thông tin từ đoạn này sang đoạn khác.", "show": "title"},
+        {"say": "Hết buổi từ thứ hai. Buổi sau học cách đọc những câu dài nhất của bài. Mình cũng sẽ theo mạch thông tin từ đoạn này sang đoạn khác.", "show": "title"},
     ]},
 ]
 
@@ -365,12 +366,13 @@ READ_2 = [
         {"say": "Bắt đầu bằng một câu thật dễ.", "show": "r1"},
         {"en": "A book, which was given to me, is Harry Potter.", "vi": "Một cuốn sách, cuốn được tặng cho tôi, là Harry Potter.", "gap": True},
         {"say": "Chủ ngữ chính là cuốn sách, động từ chính là is. Phần giữa hai dấu phẩy là phần phụ."},
-        {"say": "Bỏ which và was đi, câu vẫn đúng. Phần phụ chỉ còn động từ ở dạng thứ ba.", "show": "r2"},
+        {"say": "Bỏ hai chữ đầu của phần phụ đi, câu vẫn đúng. Phần phụ chỉ còn động từ ở dạng thứ ba.", "show": "r2"},
         {"en": "A book, given to me, is Harry Potter.", "vi": "Một cuốn sách được tặng cho tôi là Harry Potter.", "gap": True},
         {"say": "Giờ đến câu trong đoạn thứ ba.", "show": "r3"},
         {"en": "It comprised parts taken from a wrecked early steam car but reconfigured…"},
-        {"say": "Khung câu chỉ là: nó gồm những phụ tùng. Phụ tùng nào? Phụ tùng được lấy từ một chiếc xe cũ bị hỏng, nhưng được lắp lại để chạy một động cơ do chính họ thiết kế. Taken và reconfigured đều là phần rút gọn: thêm which were vào trước là thấy rõ."},
-        {"say": "Thấy động từ dạng thứ ba đứng ngay sau một danh từ, hãy thêm which và be vào để hiểu; với dạng thêm ing, thêm which và động từ chia thì. Rồi nối chủ ngữ với động từ chính.", "show": "rule"},
+        {"say": "Khung câu chỉ là: nó gồm những phụ tùng. Phụ tùng nào? Phụ tùng được lấy từ một chiếc xe cũ bị hỏng, nhưng được lắp lại để chạy một động cơ do chính họ thiết kế. Hai động từ dạng thứ ba này đều là phần rút gọn; thêm hai chữ sau vào trước là thấy rõ."},
+        {"en": "which were taken, which were reconfigured"},
+        {"say": "Thấy động từ dạng thứ ba đứng ngay sau một danh từ, hãy hình dung phần bị lược, như hai chữ vừa thêm. Với dạng hiện tại phân từ, phần bị lược là đại từ quan hệ cùng động từ chia thì. Rồi nối chủ ngữ với động từ chính.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Phần chèn", "title": "Gạt phần chèn sang một bên",
      "data": {"cols": ["Kiểu", "Trong bài", "Đọc thế nào"], "rows": INSERTS, "rule": "Bỏ tạm phần giữa hai dấu phẩy, nối chủ ngữ chính với động từ chính; hiểu khung rồi mới đọc phần chèn."}, "lines": [
@@ -418,7 +420,7 @@ READ_2 = [
               "main": "Mẫu xe cuối cùng qua được bài thử trong giá lạnh và chạy tốt hơn hẳn.",
               "value": "Cho thấy công nghệ gần như hoàn thiện, ngay trước đoạn kết."}, "lines": [
         {"say": "Đoạn thứ sáu. Tô vàng từ khóa: lần thử cuối, một chiếc xe hơi nước dùng được thật sự, được chạy thử, trong giá lạnh.", "show": "keep"},
-        {"say": "Phần bị gạch: năm, tên thành phố, tên câu lạc bộ, và các con số. Bốn mươi giây, hơn một trăm dặm một giờ, mười lăm dặm cho mỗi ga-lông: gom lại thành một chữ, rất tốt.", "show": "drop"},
+        {"say": "Phần bị gạch là năm, tên thành phố, tên câu lạc bộ và các con số. Bốn mươi giây, hơn một trăm dặm một giờ, mười lăm dặm cho mỗi đơn vị nhiên liệu: tất cả gom lại thành một chữ, rất tốt.", "show": "drop"},
         {"say": "Chuỗi: lần thử cuối, để qua đêm trong giá lạnh, khởi động rất nhanh, lái dễ, chạy nhanh và sạch.", "show": "sum"},
         {"say": "Ý chính: mẫu xe cuối cùng qua được bài thử trong giá lạnh và chạy tốt hơn hẳn.", "show": "main"},
         {"say": "Giá trị: công nghệ gần như hoàn thiện. Vậy tại sao vẫn thất bại? Đó là câu hỏi của đoạn cuối.", "show": "value"},

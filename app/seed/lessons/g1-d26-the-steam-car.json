@@ -459,7 +459,10 @@
        "show": "keep"
       },
       {
-       "say": "Để ý ba từ của ngày năm: primitive là sơ khai, evolve into là phát triển thành, và lasted là kéo dài, đủ dùng."
+       "say": "Để ý ba từ của ngày năm. Ô tô đời đầu được gọi là sơ khai; công nghệ phát triển thành một phiên bản nhỏ hơn; bình nước chỉ đủ dùng cho ba mươi dặm."
+      },
+      {
+       "en": "primitive, evolve into, last"
       },
       {
        "say": "Câu quan trọng nhất của đoạn là câu này."
@@ -839,7 +842,7 @@
      "headword": "inherit",
      "lines": [
       {
-       "say": "Con cái thừa hưởng nét mặt của bố mẹ. Xe hơi nước đời đầu thừa hưởng cả điểm mạnh lẫn điểm yếu của công nghệ hơi nước: đó là inherit."
+       "say": "Con cái thừa hưởng nét mặt của bố mẹ. Xe hơi nước đời đầu thừa hưởng cả điểm mạnh lẫn điểm yếu của công nghệ hơi nước."
       }
      ]
     },
@@ -894,7 +897,7 @@
      "headword": "comprise",
      "lines": [
       {
-       "say": "Gồm có, như consist of. Khác ở chỗ comprise không cần giới từ đi sau. Chiếc xe đầu tiên gồm những phụ tùng lấy từ một chiếc xe cũ bị hỏng."
+       "say": "Gồm có, nghĩa như cụm consist of. Điểm khác: sau từ này không cần giới từ. Chiếc xe đầu tiên gồm những phụ tùng lấy từ một chiếc xe cũ bị hỏng."
       }
      ]
     },
@@ -1182,7 +1185,7 @@
        "show": "f3"
       },
       {
-       "say": "Maintain là bảo dưỡng, thành sự bảo dưỡng. Để ý chữ viết: maintenance không giữ nguyên phần tain của maintain.",
+       "say": "Maintain là bảo dưỡng, thành sự bảo dưỡng. Để ý chữ viết của danh từ này: phần giữa đổi khác, không giữ nguyên như động từ.",
        "show": "f4"
       },
       {
@@ -1205,7 +1208,7 @@
      "next": "Tiếp theo: câu dài và mạch thông tin của đoạn C đến G.",
      "lines": [
       {
-       "say": "Hết buổi từ thứ hai. Tiếp theo là cách đọc những câu dài nhất của bài, và cách theo mạch thông tin từ đoạn này sang đoạn khác.",
+       "say": "Hết buổi từ thứ hai. Buổi sau học cách đọc những câu dài nhất của bài. Mình cũng sẽ theo mạch thông tin từ đoạn này sang đoạn khác.",
        "show": "title"
       }
      ]
@@ -1275,7 +1278,7 @@
        "say": "Chủ ngữ chính là cuốn sách, động từ chính là is. Phần giữa hai dấu phẩy là phần phụ."
       },
       {
-       "say": "Bỏ which và was đi, câu vẫn đúng. Phần phụ chỉ còn động từ ở dạng thứ ba.",
+       "say": "Bỏ hai chữ đầu của phần phụ đi, câu vẫn đúng. Phần phụ chỉ còn động từ ở dạng thứ ba.",
        "show": "r2"
       },
       {
@@ -1291,10 +1294,13 @@
        "en": "It comprised parts taken from a wrecked early steam car but reconfigured…"
       },
       {
-       "say": "Khung câu chỉ là: nó gồm những phụ tùng. Phụ tùng nào? Phụ tùng được lấy từ một chiếc xe cũ bị hỏng, nhưng được lắp lại để chạy một động cơ do chính họ thiết kế. Taken và reconfigured đều là phần rút gọn: thêm which were vào trước là thấy rõ."
+       "say": "Khung câu chỉ là: nó gồm những phụ tùng. Phụ tùng nào? Phụ tùng được lấy từ một chiếc xe cũ bị hỏng, nhưng được lắp lại để chạy một động cơ do chính họ thiết kế. Hai động từ dạng thứ ba này đều là phần rút gọn; thêm hai chữ sau vào trước là thấy rõ."
       },
       {
-       "say": "Thấy động từ dạng thứ ba đứng ngay sau một danh từ, hãy thêm which và be vào để hiểu; với dạng thêm ing, thêm which và động từ chia thì. Rồi nối chủ ngữ với động từ chính.",
+       "en": "which were taken, which were reconfigured"
+      },
+      {
+       "say": "Thấy động từ dạng thứ ba đứng ngay sau một danh từ, hãy hình dung phần bị lược, như hai chữ vừa thêm. Với dạng hiện tại phân từ, phần bị lược là đại từ quan hệ cùng động từ chia thì. Rồi nối chủ ngữ với động từ chính.",
        "show": "rule"
       }
      ]
@@ -1742,7 +1748,7 @@
        "show": "keep"
       },
       {
-       "say": "Phần bị gạch: năm, tên thành phố, tên câu lạc bộ, và các con số. Bốn mươi giây, hơn một trăm dặm một giờ, mười lăm dặm cho mỗi ga-lông: gom lại thành một chữ, rất tốt.",
+       "say": "Phần bị gạch là năm, tên thành phố, tên câu lạc bộ và các con số. Bốn mươi giây, hơn một trăm dặm một giờ, mười lăm dặm cho mỗi đơn vị nhiên liệu: tất cả gom lại thành một chữ, rất tốt.",
        "show": "drop"
       },
       {
