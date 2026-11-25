@@ -169,7 +169,7 @@ READ_1 = [
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Đọc lấy ý", "title": "Tính từ lạ: lướt qua, giữ danh từ",
      "data": {"cols": ["Loại", "Trong bài", "Giữ lại"], "rows": SKIP,
               "rule": "Đọc lấy ý: tính từ và trạng từ lạ thì lướt qua; danh từ và động từ mới là khung của câu."}, "lines": [
-        {"say": "Self-propelled đứng trước danh từ, nên là tính từ. Không biết nghĩa cũng không sao: giữ danh từ, những cỗ xe.", "show": "a1"},
+        {"say": "Self-propelled đứng ngay trước danh từ, vì vậy đây là tính từ. Không biết nghĩa cũng không sao: giữ danh từ, những cỗ xe.", "show": "a1"},
         {"say": "Clattering cũng đứng trước danh từ. Giữ lại: động cơ xăng.", "show": "a2"},
         {"say": "Astonishingly có đuôi của trạng từ. Bỏ qua, ý chính vẫn còn: xe vẫn chạy sạch.", "show": "a3"},
         {"say": "Nhìn vị trí và đuôi từ là đoán được từ loại, như đuôi tính từ trong chữ practical, đuôi trạng từ trong chữ clearly. Khi đọc lấy ý, danh từ và động từ là khung của câu; tính từ và trạng từ lạ thì lướt qua.", "show": "rule"},
@@ -282,8 +282,9 @@ SITTING_2 = [
         {"say": "Đặt mua một chiếc xe chưa sản xuất xong, bạn trả trước một khoản tiền đặt cọc. Công ty nhận hơn năm nghìn khoản đặt cọc như vậy."},
     ]},
     {"kind": "word", "headword": "glitch", "lines": [
-        {"say": "Lỗi, trục trặc của máy móc hay phần mềm. Xe giao cho khách chạy ì, có lúc chạy lùi: động cơ còn đầy lỗi. Từ này chỉ cần nhận ra."},
+        {"say": "Lỗi, trục trặc của máy móc hay phần mềm. Xe giao cho khách chạy ì, có lúc chạy lùi: động cơ còn đầy lỗi."},
         {"en": "The new engine was still plagued with serious glitches.", "vi": "Động cơ mới vẫn liên tục gặp những lỗi nghiêm trọng.", "gap": True},
+        {"say": "Từ này chỉ cần nhận ra khi đọc."},
     ]},
     {"kind": "word", "headword": "viable", "lines": [
         {"say": "Khả thi, dùng được trên thực tế. Lần cuối, bốn anh em cố làm ra một chiếc xe hơi nước thật sự dùng được. Từ này rất hay gặp trong Writing: một lựa chọn khả thi."},
@@ -441,7 +442,7 @@ S_WORDS = [
     ["inherit", "shortcoming", "phase out", "rekindle", "prototype", "comprise", "feat", "accelerate"],
     ["investment", "enhancement", "deposit", "glitch", "viable", "emission", "fold", "maintenance"],
 ]
-TITLES = ["Buổi từ 1 · nửa đầu câu chuyện", "Buổi từ 2 · nửa sau câu chuyện"]
+TITLES = ["Từ của bài · nửa đầu câu chuyện", "Từ của bài · nửa sau câu chuyện"]
 LECTURES = [SITTING_1, SITTING_2]
 READ_TITLES = ["Đọc chủ động · rà bài, tóm tắt đoạn A và B", "Đọc chủ động · câu dài và mạch thông tin"]
 RUBRIC = None

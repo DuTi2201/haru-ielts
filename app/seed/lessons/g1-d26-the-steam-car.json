@@ -587,7 +587,7 @@
      },
      "lines": [
       {
-       "say": "Self-propelled đứng trước danh từ, nên là tính từ. Không biết nghĩa cũng không sao: giữ danh từ, những cỗ xe.",
+       "say": "Self-propelled đứng ngay trước danh từ, vì vậy đây là tính từ. Không biết nghĩa cũng không sao: giữ danh từ, những cỗ xe.",
        "show": "a1"
       },
       {
@@ -810,7 +810,7 @@
    "use_vi": "Hiểu từng đoạn trước rồi mới làm câu hỏi: dò từ khóa khi chưa hiểu bài chỉ là đoán."
   },
   {
-   "title_vi": "Buổi từ 1 · nửa đầu câu chuyện",
+   "title_vi": "Từ của bài · nửa đầu câu chuyện",
    "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: inherit, shortcoming, phase out, rekindle, prototype, comprise, ...",
    "use_vi": "Bài đọc dài khoảng 950 từ với ba dạng câu hỏi hay gặp: chọn tiêu đề đoạn, trắc nghiệm, điền tóm tắt; cả ba đều cần hiểu ý chính của từng đoạn.",
    "vocab": [
@@ -1018,7 +1018,7 @@
    ]
   },
   {
-   "title_vi": "Buổi từ 2 · nửa sau câu chuyện",
+   "title_vi": "Từ của bài · nửa sau câu chuyện",
    "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: investment, enhancement, deposit, glitch, viable, emission, ...",
    "use_vi": "Bài đọc dài khoảng 950 từ với ba dạng câu hỏi hay gặp: chọn tiêu đề đoạn, trắc nghiệm, điền tóm tắt; cả ba đều cần hiểu ý chính của từng đoạn.",
    "vocab": [
@@ -1082,12 +1082,15 @@
      "headword": "glitch",
      "lines": [
       {
-       "say": "Lỗi, trục trặc của máy móc hay phần mềm. Xe giao cho khách chạy ì, có lúc chạy lùi: động cơ còn đầy lỗi. Từ này chỉ cần nhận ra."
+       "say": "Lỗi, trục trặc của máy móc hay phần mềm. Xe giao cho khách chạy ì, có lúc chạy lùi: động cơ còn đầy lỗi."
       },
       {
        "en": "The new engine was still plagued with serious glitches.",
        "vi": "Động cơ mới vẫn liên tục gặp những lỗi nghiêm trọng.",
        "gap": true
+      },
+      {
+       "say": "Từ này chỉ cần nhận ra khi đọc."
       }
      ]
     },
