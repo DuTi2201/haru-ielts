@@ -530,3 +530,30 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
 - Lời giải sửa theo lời thầy: A1, A2, A5, A7, B12, C11, D6, D7.
 - Soát cấp cao lần hai dựa trên ghi chú; đã sửa hết các mục bắt buộc.
 - Bộ test đầy đủ vẫn có đúng 31 lỗi cũ như trước thay đổi; các test của ngày đều đạt.
+
+## Tuần 2 · Ngày 1–4: đối chiếu lại với ghi chú chi tiết Buổi 3 (25/11, tối)
+
+- Nguồn: `ghi_chu_chi_tiet_buoi_3_past_tenses_thay_minh.md` (bản người dùng tải lên), cả 6 chặng và phần tổng kết. Soát từng thẻ, từng lời giảng, từng lời giải bài A–D/E. Sau đó một tác tử cấp cao đối chiếu độc lập; đã sửa hết các mục bắt buộc.
+- Kết quả chung: nội dung, ví dụ và đáp án bám sát lớp. Đáp án A (12), B (10), C (16), D (10) đều khớp với đáp án thầy chốt.
+- Đã bổ sung:
+  - **Ngày 4:** phần ôn bốn thì hiện tại bằng câu mẫu, như thầy làm ở chặng 4.
+    - Hiện tại đơn: sự thật chủ quan, kể cả khi nói dối giờ thức dậy.
+    - Hiện tại tiếp diễn: tạm thời, than phiền, kế hoạch.
+    - Hiện tại hoàn thành: hai nhánh.
+    - Hiện tại hoàn thành tiếp diễn: hai nhánh, với hai câu mẫu của thầy.
+    - Kèm lời khuyên "nhớ câu mẫu, suy ra cách dùng".
+  - **Ngày 2:**
+    - Hình ảnh điểm/khoảng bằng sự kiện lịch sử, viết trung tính theo mục 3 của kế hoạch: The war ended in 1975 / In 1974, the two sides were still fighting.
+    - Câu Mr Connors owned two houses kèm câu đùa, ghi rõ là để dễ nhớ.
+  - **Ngày 3:**
+    - get ready / không có have ready.
+    - Cụm have/get lessons (trước ghi take lessons).
+    - Lá thư đổi thành Dear Lisa, đúng như sách.
+  - **Lời giải bài tập** ghi rõ "đáp án bài thi" ở những câu thầy nói ngoài đời vẫn dùng dạng kia: A1, A3, A4, A5, A7, A9, A10, B5, B10, D4, cùng các câu I/Q tương tự.
+  - **Đáp án gõ mở rộng** theo lời thầy: D8 nhận hadn't had; D10 nhận had listened và was listening.
+- Lời giảng không còn cụm tiếng Anh từ 3 từ (the last time, it's the first time, had been late) và không còn chữ cái Latin đứng riêng (điểm B, âm i, ngôi I…).
+- Ghi thêm mục 16 vào WEEK2_PLAN: đoạn kể phối hợp được rút gọn.
+- Kiểm tra:
+  - Bộ test đầy đủ vẫn đúng 31 lỗi cũ; test của Tuần 2 đều đạt.
+  - Bản xem trước 85 slide không tràn. Hai slide Speaking (3-2, 4-2) vẫn hơi cao như trước.
+  - Đã cập nhật api/worker: g1-d21..24 = updated.
