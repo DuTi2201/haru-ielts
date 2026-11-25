@@ -440,3 +440,13 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
 - Quy tắc rút ra: phương án nhiễu và câu bị gạch phải sai trong mọi ngữ cảnh, hoặc lời giải phải nói rõ "đáp án bài thi".
 - Chưa làm: xem trực quan trên tài khoản đăng nhập.
 - Tiếp theo: Ngày 3 — quá khứ hoàn thành và quá khứ hoàn thành tiếp diễn (bài C, D của Unit 3).
+
+## Tuần 2 · Ngày 3 — Quá khứ hoàn thành và quá khứ hoàn thành tiếp diễn (g1-d23), đã soát và deploy
+
+- Nguồn: `scripts/g1/days.txt` (`#D 23`), bài giảng `scripts/g1/lecture_w2d3.py`, bài sách trong `scripts/g1/book_items.py` (`W3C` lá thư 16 chỗ, mỗi câu hiện các chỗ chưa làm dưới dạng "(a / b)"; `W3D` 10 câu), kiểm thử `tests/test_lesson_w2d3_quality.py`. Đáp án đối chiếu bảng đáp án của sách (OCR trang khóa) và Buổi 3 chặng 5–6.
+- Năm thẻ: công thức và nghĩa "xảy ra trước"; quy tắc bối cảnh (hội thoại Jim, câu cuối có earlier); không lạm dụng had và mẫu It was the first time; dạng tiếp diễn (thời lượng, dấu vết); chọn dạng đơn hay tiếp diễn. Mười từ: launch, save, fail, fix, delete, bug, version, backup, feature, file. (save thay test vì test đã là từ Tuần 1, khóa WORD_PICTURE theo headword.)
+- Giao diện: hình trục `before`, `upto`, `ptrace` (cùng ký hiệu ghim mốc quá khứ) trong TimeAxis, Rich, LectureScenes; LectureScenes thêm `pointat` (việc xảy ra đúng mốc). Mười hình từ mới.
+- Soát hai vòng: sửa tip collocation (have ready vẫn có), F2 từng có hai đáp án, ghi "đáp án bài thi" cho C1, C9, D3, F3, F4 và nhận cả dạng còn lại; không đọc "V3" trong lời giảng (nói "quá khứ phân từ"); tên Nga đổi thành Anna cho giọng Anh.
+- Quy tắc rút ra: câu ví dụ và câu xếp có had + V3 cũng phải có mốc quá khứ đơn; khi lời giải nói một dạng khác "cũng đúng" thì ô đáp án phải nhận dạng đó.
+- Chưa làm: xem trực quan trên tài khoản đăng nhập. Ghi chú cho Ngày 4: hình `upto` và `ended` gần giống nhau, cần xem lại khi đặt tám thì cạnh nhau.
+- Tiếp theo: Ngày 4 — hệ thống tám thì và quy trình ba bước chọn thì quá khứ.
