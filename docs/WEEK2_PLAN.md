@@ -5,14 +5,27 @@ Reading và Listening Cam 18), ghi chú Buổi 3 (thì quá khứ, 02:07) và Bu
 Urban farming, 01:48), sách Destination B2 Unit 3 (trang 18–21), C1&C2 Unit 4 (trang 28–31), Cambridge IELTS 18.
 Tên sách, trang, tên người dạy chỉ ghi ở đây và trong `source` / `editor_notes`, không đưa vào nội dung người học thấy.
 
-## Thay đổi so với đề xuất ngày 25/11 (sau khi đọc Buổi 4)
+## Quyết định (25/11)
 
-- Bài đọc của Tuần 2 là **Urban farming** (Cam 18 Test 1 Passage 1): lớp học dùng bài này ở Buổi 4. Bài đã có trong
-  app (bài 52, "Bổ trợ · Đọc chậm: Urban farming", slug `g1-d9-urban-farming-cambridge-ielts-18-test-1-passage-1`),
-  cần đưa về Tuần 2 và viết lại theo cách phân tích câu của Buổi 4. *The steam car* (Test 3 Passage 2) chuyển sang bổ trợ.
-- Từ vựng Ngày 5 theo bộ lọc trên lớp: khoảng 30 từ ưu tiên (động từ, danh từ, một số tính từ có giá trị cao),
-  phần còn lại của bài A–D chỉ cần nhận ra khi đọc.
-- Bài nghe Tuần 2: chưa có ghi chú buổi học. Đề xuất tạm *The Luddites* (Test 3 Part 3), chờ ghi chú Buổi 5–6.
+- **Bài đọc Ngày 6: The steam car** (Cam 18 Test 3 Passage 2, câu 14–26), chọn theo tính liên kết với tuần (đánh giá bên dưới).
+  Phương pháp đọc của Buổi 4 (rà bài 4 bước, cụm danh từ, đồng vị ngữ, mệnh đề rút gọn, từ chuyên ngành, mạch thông tin)
+  dạy trên chính bài này. Urban farming giữ ở Bổ trợ kèm toàn bộ phần phân tích của Buổi 4; đặt lại vào Tuần 11
+  (Urban and Rural Life) khi dựng tuần đó.
+- **Bài nghe Ngày 7: The Luddites** (Cam 18 Test 3 Part 3, câu 21–30).
+- **used to / would: bỏ.** Buổi 3 và 4 không dạy (chỉ gặp *would last* ở bài B từ vựng, là tương lai trong quá khứ, không phải thói quen).
+- Từ vựng Ngày 5 theo bộ lọc trên lớp: 30 từ ưu tiên; phần còn lại của bài A–D chỉ cần nhận ra.
+
+### Đánh giá bài đọc (đếm trên văn bản đã nhận dạng)
+
+| Tiêu chí | The steam car | Urban farming |
+|---|---|---|
+| Độ dài | 948 từ, 45 câu | 771 từ, 32 câu |
+| Thì chủ đạo | quá khứ kể chuyện: ~23 *was/were*, 4 quá khứ hoàn thành (*had already enjoyed*, *had received*, *had been produced*), quá khứ tiếp diễn (*was declining*), đoạn cuối chuyển sang hiện tại hoàn thành (*have survived*) | hiện tại kiểu báo chí: ~30 *is/are*, 0 quá khứ hoàn thành, 0 quá khứ tiếp diễn |
+| Họ từ của Unit 4 xuất hiện | 8: *primitive, evolve into, last, innovation/innovative, remain, maintenance, unmodified, manual* | 4: *remain, sustainable, resources, techniques* |
+| Chủ đề | lịch sử một công nghệ, thay đổi và bị thay thế | nông nghiệp đô thị (hợp Tuần 11) |
+| Dạng câu hỏi | chọn tiêu đề đoạn (7), trắc nghiệm (3), tóm tắt (3) | hoàn thành câu, bảng, True/False/Not Given |
+| Nối với phương pháp tóm tắt đoạn | trực tiếp: tóm tắt đoạn rồi so với danh sách tiêu đề | gián tiếp |
+| Cấu trúc để dạy phân tích câu | *parts taken from a wrecked early steam car but reconfigured…*, *the third prototype, nicknamed the Model B,*, *a feat described as 'remarkable acceleration'* | *Produce grown … is produced up here*, *, Agripolis,* (phân tích có sẵn từ lớp) |
 
 ## Ngày 1 · Quá khứ đơn và ranh giới với hiện tại hoàn thành (Buổi 3, chặng 1–2, 5)
 
@@ -75,7 +88,7 @@ Chính
 - Ba bước: (1) chuỗi việc, việc đã khép, tần suất, trạng thái → quá khứ đơn; (2) khoảng tạm thời bị cắt ngang
   hoặc hai việc song song → quá khứ tiếp diễn; (3) xảy ra trước một mốc quá khứ → quá khứ hoàn thành, rồi chọn đơn/tiếp diễn.
 - Ngữ pháp là công cụ cho ý muốn nói, không phải những chiếc hộp tách rời.
-Phụ (không thuộc bài A–D, trên lớp chưa giảng): `used to / would / be, get used to` (bài E–G của sách).
+Không dạy: `used to / would / be, get used to` (bài E–G của sách; trên lớp không giảng).
 
 ## Ngày 5 · Thay đổi và công nghệ (Buổi 4, chặng 1–3)
 
@@ -96,7 +109,24 @@ Bài: A (10), B (12), C (16), D (10), mỗi câu có lời giải theo cách lo�
 thời gian (*potential* không dùng cho việc đã xảy ra), phạm vi kết hợp (*amend* cho văn bản, không cho xã hội).
 Không làm: cụm động từ và thành ngữ (bài E trở đi).
 
-## Ngày 6 · Đọc chậm: Urban farming (Buổi 4, chặng 4–6)
+## Ngày 6 · Đọc chậm: The steam car (Cam 18 Test 3 Passage 2, câu 14–26)
+
+Chính
+- Tóm tắt từng đoạn bằng một câu, rồi đối chiếu với danh sách tiêu đề (câu 14–20): tiêu đề đúng là bản tóm tắt tốt nhất
+  của cả đoạn, không phải của một câu trong đoạn.
+- Đọc theo trục thời gian: các mốc 1800s, 1912, 1906–1909, 1914, 1918, 1924, 1931, 1961, hôm nay; nhận ra vì sao người viết
+  dùng *had already enjoyed*, *had received*, *was declining*, và vì sao đoạn cuối chuyển sang *have survived*, *runs*.
+- Áp dụng phương pháp đọc của Buổi 4 trên bài này: rà bài 4 bước; từ chuyên ngành tự giải thích hoặc bỏ qua được
+  (*boilers, hand-crank starters, pistons, kerosene*); cụm danh từ dài (*a key-based ignition in the cabin*);
+  mệnh đề rút gọn và đồng vị ngữ (*parts taken from … but reconfigured to …*, *the Doble boys' third prototype, nicknamed the Model B,*,
+  *a feat described as 'remarkable acceleration'*); mạch thông tin giữa các đoạn.
+- Từ của Ngày 5 gặp lại trong ngữ cảnh: *primitive, evolve into, last, innovation, innovative, remain, maintenance, unmodified*.
+- Hiểu trọn bài rồi mới làm câu hỏi, chưa dùng mẹo.
+Phụ
+- Viết: ngữ pháp hiệu quả mới tốt; không tách chủ ngữ và vị ngữ ba, bốn dòng.
+
+## Bổ trợ · Urban farming (Cam 18 Test 1 Passage 1, câu 1–13), theo Buổi 4
+
 
 Chính
 - Quy trình tự rà bài: đọc lại 7 phút; ghi từ mới; ghi câu biết từ mà không hiểu; ghi đoạn không hiểu.
@@ -115,13 +145,14 @@ Chính
 Phụ
 - Viết: ngữ pháp hiệu quả mới tốt; không bắt chước câu tách chủ ngữ và vị ngữ ba, bốn dòng.
 
-## Ngày 7 · Nghe kỹ (đề xuất tạm): The Luddites (Cam 18 Test 3 Part 3, câu 21–30)
+## Ngày 7 · Nghe kỹ: The Luddites (Cam 18 Test 3 Part 3, câu 21–30)
 
-Chờ ghi chú buổi nghe của Tuần 2.
+Hai sinh viên bàn về phong trào phá máy và tương lai việc làm: chọn hai đáp án (21–24), nối nghề với nhận xét (25–30).
+Nối với tuần: công nghệ thay đổi việc làm; nhiều câu quá khứ khi kể về phong trào.
 
 ## Bổ trợ
 
-The steam car (Test 3 Passage 2); Living with artificial intelligence (Test 2 Passage 2); cặp rác vũ trụ
+Urban farming (mục riêng ở trên); Living with artificial intelligence (Test 2 Passage 2); cặp rác vũ trụ
 (Listening Test 3 Part 4, Reading Test 1 Passage 3).
 
 ## Điểm cần chỉnh khi đưa vào app (đối chiếu từ điển và ngữ pháp chuẩn)
