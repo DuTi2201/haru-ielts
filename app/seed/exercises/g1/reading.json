@@ -11344,7 +11344,7 @@
       }
      ],
      "answer": "4",
-     "explanation_vi": "Thế hệ máy chơi game mới có đồ họa đẹp hơn: `games console`. `technique` là kỹ thuật, phương pháp.",
+     "explanation_vi": "Thế hệ máy chơi game mới có đồ họa đẹp hơn: `games console`, đọc /ˈkɒnsəʊl/, chữ e cuối câm. `technique` là kỹ thuật, phương pháp.",
      "tags": [],
      "prompt_vi": "The next generation of games [technique] will have better graphics."
     }
@@ -11378,7 +11378,7 @@
       }
      ],
      "answer": "1",
-     "explanation_vi": "`beta testing` là một phương pháp kiểm thử: `technique`. `network` là mạng lưới, không phải một cách làm.",
+     "explanation_vi": "`beta testing` là một phương pháp kiểm thử: `technique` (danh từ). Đừng dùng `technical`: đó là tính từ, mà sau `a` cần danh từ. `network` là mạng lưới, không phải một cách làm.",
      "tags": [],
      "prompt_vi": "There's a [network] in computing called 'beta testing', which means you test something to see if it works properly before it becomes official."
     }

@@ -239,7 +239,7 @@
   {
    "headword": "uniform",
    "pos": "A",
-   "meaning_vi": "đồng nhất (= the same)",
+   "meaning_vi": "đồng nhất (chung đặc điểm, giá trị)",
    "note_vi": "Danh từ là đồng phục; tính từ là đồng nhất: a uniform society, chung đặc điểm và giá trị.",
    "example_en": "It was a fairly uniform society.",
    "example_vi": "Đó là một xã hội khá đồng nhất.",
@@ -511,7 +511,7 @@
        "show": "m3"
       },
       {
-       "say": "Không có đường tắt. Tra mười lần chưa nhớ, thì tra đến lần thứ mười lăm.",
+       "say": "Không có đường tắt. Ngại học thuộc danh sách thì đọc thật nhiều, gặp từ quên lại tra. Tra mười lần chưa nhớ, thì tra đến lần thứ mười lăm.",
        "show": "rule"
       }
      ]
@@ -588,7 +588,7 @@
        "show": "c5"
       },
       {
-       "say": "Dịch sang tiếng Việt, sắc thái mất đi rất nhiều. Lúc đầu có thể học nghĩa tiếng Việt, nhưng muốn phân biệt được thì phải hiểu khái niệm bằng tiếng Anh.",
+       "say": "Dịch sang tiếng Việt, sắc thái mất đi rất nhiều. Lúc đầu có thể học nghĩa tiếng Việt, nhưng muốn phân biệt được thì phải hiểu khái niệm bằng tiếng Anh. Lên trình độ cao hơn, hãy chuyển sang từ điển giải nghĩa bằng tiếng Anh.",
        "show": "rule"
       }
      ]
@@ -665,7 +665,7 @@
      "headword": "maintain",
      "lines": [
       {
-       "say": "Maintain là duy trì một thứ. Sau maintain luôn có tân ngữ, và người làm phải bỏ công từ bên ngoài để giữ nó: giữ cân bằng, giữ điểm số, bảo dưỡng chiếc xe."
+       "say": "Maintain là ngoại động từ: sau nó luôn có tân ngữ, và người làm phải bỏ công từ bên ngoài để giữ thứ đó: giữ cân bằng, giữ điểm số, bảo dưỡng chiếc xe."
       }
      ]
     },
@@ -674,7 +674,7 @@
      "headword": "remain",
      "lines": [
       {
-       "say": "Còn remain là tự giữ nguyên trạng thái cũ. Remain không nhận tân ngữ, mà thường đi thẳng với một tính từ, như calm, bình tĩnh."
+       "say": "Còn remain là nội động từ, một động từ nối: tự giữ nguyên trạng thái cũ. Remain không nhận tân ngữ, mà đi thẳng với một tính từ, như calm, bình tĩnh."
       }
      ]
     },
@@ -961,7 +961,7 @@
        {
         "key": "t1",
         "icon": "car",
-        "head": "modify · đổi một phần",
+        "head": "modify · danh từ modification",
         "en": "I've made modifications to my car.",
         "vi": "Thay lốp, sơn lại; khung và máy vẫn giữ nguyên."
        },
@@ -2032,7 +2032,7 @@
      },
      "lines": [
       {
-       "say": "Cặp thứ nhất: sau mạo từ a phải là danh từ, nên là technique. Technical là tính từ, đứng trước một danh từ.",
+       "say": "Cặp thứ nhất: sau mạo từ không xác định phải là danh từ, nên là technique. Technical là tính từ, đứng trước một danh từ.",
        "show": "c1"
       },
       {
@@ -2050,7 +2050,7 @@
        "gap": true
       },
       {
-       "say": "Sau a là danh từ technique. Kinh nghiệm là experience, thí nghiệm là experiment.",
+       "say": "Sau mạo từ là danh từ technique. Kinh nghiệm là experience, thí nghiệm là experiment.",
        "show": "rule"
       }
      ]
@@ -2059,7 +2059,7 @@
      "kind": "scene",
      "visual": "ref_table",
      "eyebrow": "Đọc cho đúng",
-     "title": "Bốn từ hay đọc sai",
+     "title": "Những từ hay đọc sai",
      "data": {
       "cols": [
        "Từ",
@@ -2070,7 +2070,7 @@
         "key": "o1",
         "head": "console",
         "en": "/ˈkɒnsəʊl/",
-        "vi": "âm cuối không đọc thành tiếng"
+        "vi": "chữ e cuối câm; nhấn âm đầu"
        },
        {
         "key": "o2",
@@ -2086,16 +2086,16 @@
        },
        {
         "key": "o4",
-        "head": "experience",
-        "en": "/ɪkˈspɪəriəns/",
-        "vi": "giữ âm xờ ở cuối"
+        "head": "experience · substitute",
+        "en": "/ɪkˈspɪəriəns/ · /ˈsʌbstɪtjuːt/",
+        "vi": "giữ âm xờ cuối; substitute nhấn âm đầu"
        }
       ],
       "rule": "Tra cách đọc trong từ điển trước khi nhẩm, để không nhẩm sai nhiều lần."
      },
      "lines": [
       {
-       "say": "Bốn từ trong bài tập hay bị đọc sai. Console, chiếc máy chơi trò chơi điện tử: âm cuối không đọc thành tiếng.",
+       "say": "Bốn từ trong bài tập hay bị đọc sai. Console, chiếc máy chơi trò chơi điện tử nối với màn hình, khác với máy tính: chữ cái cuối là chữ câm, không đọc; nhấn âm đầu.",
        "show": "o1"
       },
       {
@@ -2119,7 +2119,7 @@
        "show": "o3"
       },
       {
-       "say": "Experience: đừng bỏ âm xờ ở cuối.",
+       "say": "Experience: đừng bỏ âm xờ ở cuối. Substitute cũng hay đọc sai: nhấn âm đầu.",
        "show": "o4"
       },
       {
@@ -2236,7 +2236,7 @@
  "editor_notes": [
   {
    "title": "Nguồn",
-   "body": "Từ vựng và bài tập A–D theo Destination C1&C2 Unit 4 (trang 28–31, đáp án trang 284); 30 từ và cụm cốt lõi theo danh sách thầy lọc trong Buổi 4 (chặng 1–3), đã đối chiếu từ điển (docs/WEEK2_PLAN.md, mục 9–15). Không dạy cụm động từ và thành ngữ (bài E trở đi)."
+   "body": "Từ vựng và bài tập A–D theo Destination C1&C2 Unit 4 (trang 28–31, đáp án trang 284); 30 từ và cụm cốt lõi theo danh sách lọc trong Buổi 4 (chặng 1–3) của khóa học, đã đối chiếu từ điển. Không dạy cụm động từ và thành ngữ (bài E trở đi)."
   }
  ]
 }

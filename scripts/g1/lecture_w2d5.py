@@ -147,7 +147,7 @@ SITTING_1 = [
         {"say": "Một tuần có ba mươi đến bốn mươi từ mới. Đừng học tràn lan như nhau. Bước một là lọc: ưu tiên động từ và danh từ, vì đó là xương sống của câu. Tính từ, trạng từ học sau.", "show": "m1"},
         {"say": "Không thông tin nào đi thẳng vào trí nhớ dài hạn. Bước hai: mỗi ngày viết ra khoảng mười từ, thỉnh thoảng rút ra nhìn mặt chữ và đọc nhẩm. Tiếng Anh gọi việc lặp lại này là rehearsal. Nó giữ từ trong trí nhớ ngắn hạn.", "show": "m2"},
         {"say": "Bước ba: từ chỉ ở lại lâu khi bạn hiểu khái niệm của nó, biết từ loại, giới từ và cụm đi kèm, rồi gặp lại nó nhiều lần trong bài đọc và tự đặt câu.", "show": "m3"},
-        {"say": "Không có đường tắt. Tra mười lần chưa nhớ, thì tra đến lần thứ mười lăm.", "show": "rule"},
+        {"say": "Không có đường tắt. Ngại học thuộc danh sách thì đọc thật nhiều, gặp từ quên lại tra. Tra mười lần chưa nhớ, thì tra đến lần thứ mười lăm.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Học bằng khái niệm", "title": "Một chữ tiếng Việt, năm từ tiếng Anh",
      "data": {"cols": ["Từ", "Khái niệm tiếng Anh"], "rows": CONCEPT, "rule": "Nghĩa tiếng Việt chỉ là bước đầu. Phân biệt từ bằng khái niệm tiếng Anh."}, "lines": [
@@ -157,7 +157,7 @@ SITTING_1 = [
         {"say": "Substitute: có cái cũ và cái mới; cái mới đè vào chỗ cái cũ, và cái cũ không còn nữa.", "show": "c4"},
         {"en": "B takes the place of A, and A is gone.", "vi": "B thế chỗ A, và A không còn nữa.", "gap": True, "recap": False},
         {"say": "Switch: hai thứ đổi chỗ cho nhau, cả hai vẫn còn đó.", "show": "c5"},
-        {"say": "Dịch sang tiếng Việt, sắc thái mất đi rất nhiều. Lúc đầu có thể học nghĩa tiếng Việt, nhưng muốn phân biệt được thì phải hiểu khái niệm bằng tiếng Anh.", "show": "rule"},
+        {"say": "Dịch sang tiếng Việt, sắc thái mất đi rất nhiều. Lúc đầu có thể học nghĩa tiếng Việt, nhưng muốn phân biệt được thì phải hiểu khái niệm bằng tiếng Anh. Lên trình độ cao hơn, hãy chuyển sang từ điển giải nghĩa bằng tiếng Anh.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "endure", "lines": [
         {"say": "Vào nhóm thứ nhất: kéo dài và giữ nguyên. Một trào lưu trên mạng đến rồi đi trong một tuần. Nhưng có những truyền thống ở lại hàng trăm năm. Ở lại lâu bền, vượt qua thời gian: đó là endure."},
@@ -174,10 +174,10 @@ SITTING_1 = [
         {"say": "Với nghĩa này, cả hai đứng một mình, không cần tân ngữ. Vì vậy khi chỗ trống không có tân ngữ theo sau, hãy nghĩ tới last hoặc endure.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "maintain", "lines": [
-        {"say": "Maintain là duy trì một thứ. Sau maintain luôn có tân ngữ, và người làm phải bỏ công từ bên ngoài để giữ nó: giữ cân bằng, giữ điểm số, bảo dưỡng chiếc xe."},
+        {"say": "Maintain là ngoại động từ: sau nó luôn có tân ngữ, và người làm phải bỏ công từ bên ngoài để giữ thứ đó: giữ cân bằng, giữ điểm số, bảo dưỡng chiếc xe."},
     ]},
     {"kind": "word", "headword": "remain", "lines": [
-        {"say": "Còn remain là tự giữ nguyên trạng thái cũ. Remain không nhận tân ngữ, mà thường đi thẳng với một tính từ, như calm, bình tĩnh."},
+        {"say": "Còn remain là nội động từ, một động từ nối: tự giữ nguyên trạng thái cũ. Remain không nhận tân ngữ, mà đi thẳng với một tính từ, như calm, bình tĩnh."},
     ]},
     {"kind": "word", "headword": "sustain", "lines": [
         {"say": "Sustain cũng là duy trì: giữ được lâu một mức độ, như tốc độ tăng trưởng. Một công ty tăng trưởng rất nhanh trong một năm. Câu hỏi là: giữ được tốc độ đó bao lâu?"},
@@ -223,7 +223,7 @@ SITTING_1 = [
 
 # ------------------------------------------------------------------ sitting 2: changing a part or the whole
 PART = [
-    _row("t1", "car", "modify · đổi một phần", "I've made modifications to my car.", "Thay lốp, sơn lại; khung và máy vẫn giữ nguyên."),
+    _row("t1", "car", "modify · danh từ modification", "I've made modifications to my car.", "Thay lốp, sơn lại; khung và máy vẫn giữ nguyên."),
     _row("t2", "butterfly", "transform · đổi toàn bộ", "Learning to use the Internet has transformed my life.", "Đổi đến mức thành một thứ khác hẳn."),
 ]
 
@@ -511,10 +511,10 @@ PAIRS = [
 ]
 
 SOUND = [
-    {"key": "o1", "head": "console", "en": "/ˈkɒnsəʊl/", "vi": "âm cuối không đọc thành tiếng"},
+    {"key": "o1", "head": "console", "en": "/ˈkɒnsəʊl/", "vi": "chữ e cuối câm; nhấn âm đầu"},
     {"key": "o2", "head": "data", "en": "/ˈdeɪtə/", "vi": "nguyên âm đầu đọc như ây"},
     {"key": "o3", "head": "technique · technical", "en": "/tekˈniːk/ · /ˈteknɪkl/", "vi": "danh từ nhấn âm hai, tính từ nhấn âm đầu"},
-    {"key": "o4", "head": "experience", "en": "/ɪkˈspɪəriəns/", "vi": "giữ âm xờ ở cuối"},
+    {"key": "o4", "head": "experience · substitute", "en": "/ɪkˈspɪəriəns/ · /ˈsʌbstɪtjuːt/", "vi": "giữ âm xờ cuối; substitute nhấn âm đầu"},
 ]
 
 SITTING_5 = [
@@ -534,20 +534,20 @@ SITTING_5 = [
     ]},
     {"kind": "scene", "visual": "picture_cards", "eyebrow": "Cặp dễ nhầm", "title": "Một chữ khác, nghĩa khác",
      "data": {"rows": PAIRS, "rule": "Sau a cần danh từ: technique, không phải technical. Kinh nghiệm là experience, thí nghiệm là experiment."}, "lines": [
-        {"say": "Cặp thứ nhất: sau mạo từ a phải là danh từ, nên là technique. Technical là tính từ, đứng trước một danh từ.", "show": "c1"},
+        {"say": "Cặp thứ nhất: sau mạo từ không xác định phải là danh từ, nên là technique. Technical là tính từ, đứng trước một danh từ.", "show": "c1"},
         {"en": "Beta testing is a technique in computing.", "vi": "Thử nghiệm beta là một phương pháp trong tin học.", "gap": True},
         {"say": "Cặp thứ hai người học hay đọc nhầm: experience là kinh nghiệm, experiment là cuộc thí nghiệm.", "show": "c2"},
         {"en": "Use your experience to find a solution.", "vi": "Hãy dùng kinh nghiệm của bạn để tìm cách giải quyết.", "gap": True},
-        {"say": "Sau a là danh từ technique. Kinh nghiệm là experience, thí nghiệm là experiment.", "show": "rule"},
+        {"say": "Sau mạo từ là danh từ technique. Kinh nghiệm là experience, thí nghiệm là experiment.", "show": "rule"},
     ]},
-    {"kind": "scene", "visual": "ref_table", "eyebrow": "Đọc cho đúng", "title": "Bốn từ hay đọc sai",
+    {"kind": "scene", "visual": "ref_table", "eyebrow": "Đọc cho đúng", "title": "Những từ hay đọc sai",
      "data": {"cols": ["Từ", "Cách đọc"], "rows": SOUND, "rule": "Tra cách đọc trong từ điển trước khi nhẩm, để không nhẩm sai nhiều lần."}, "lines": [
-        {"say": "Bốn từ trong bài tập hay bị đọc sai. Console, chiếc máy chơi trò chơi điện tử: âm cuối không đọc thành tiếng.", "show": "o1"},
+        {"say": "Bốn từ trong bài tập hay bị đọc sai. Console, chiếc máy chơi trò chơi điện tử nối với màn hình, khác với máy tính: chữ cái cuối là chữ câm, không đọc; nhấn âm đầu.", "show": "o1"},
         {"en": "console", "vi": "máy chơi trò chơi điện tử", "gap": True, "recap": False},
         {"say": "Data, dữ liệu: nguyên âm đầu đọc như ây. Đây là cách đọc phổ biến nhất; người ta cũng đọc khác, và không cách đọc nào bị coi là sai.", "show": "o2"},
         {"en": "data", "vi": "dữ liệu", "gap": True, "recap": False},
         {"say": "Technique nhấn âm thứ hai. Technical nhấn âm đầu.", "show": "o3"},
-        {"say": "Experience: đừng bỏ âm xờ ở cuối.", "show": "o4"},
+        {"say": "Experience: đừng bỏ âm xờ ở cuối. Substitute cũng hay đọc sai: nhấn âm đầu.", "show": "o4"},
         {"en": "experience", "vi": "kinh nghiệm", "gap": True, "recap": False},
         {"say": "Tra cách đọc trước khi nhẩm. Nhẩm sai mười lần thì sửa rất khó.", "show": "rule"},
     ]},
