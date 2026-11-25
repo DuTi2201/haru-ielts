@@ -329,6 +329,57 @@
    ]
   },
   {
+   "id": "G1D23D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Tuần 2 · Ngày 3",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "When I got to the station, the train had left.",
+      "vi": "Khi tôi tới ga thì tàu đã chạy mất."
+     },
+     {
+      "speaker": "M",
+      "text": "I realised I had deleted the wrong file.",
+      "vi": "Tôi nhận ra mình đã xóa nhầm tệp."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "launch",
+     "vi": "ra mắt (sản phẩm, dịch vụ)"
+    },
+    {
+     "ko": "save",
+     "vi": "lưu (tệp, dữ liệu)"
+    },
+    {
+     "ko": "fail",
+     "vi": "thất bại; (máy móc) không chạy"
+    },
+    {
+     "ko": "fix",
+     "vi": "sửa"
+    },
+    {
+     "ko": "delete",
+     "vi": "xóa"
+    },
+    {
+     "ko": "bug",
+     "vi": "lỗi phần mềm"
+    }
+   ],
+   "tips_vi": [
+    "Nghe âm cuối: -s của ngôi thứ ba, 's và n't, -ing. Sau khi kiểm tra, nghe lại và nhại theo đúng nhịp."
+   ]
+  },
+  {
    "id": "G1D11L1",
    "skill": "listening",
    "type": "listen_interview",

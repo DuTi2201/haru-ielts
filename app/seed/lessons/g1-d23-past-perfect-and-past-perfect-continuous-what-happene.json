@@ -1,0 +1,1399 @@
+{
+ "slug": "g1-d23-past-perfect-and-past-perfect-continuous-what-happene",
+ "title": "Tuần 2 · Ngày 3 · Quá khứ hoàn thành: việc xảy ra trước một mốc quá khứ",
+ "title_en": "Past perfect and past perfect continuous: what happened before",
+ "topic": "Tuần 2 · Công nghệ (Technology)",
+ "track": "beginner",
+ "level": 4,
+ "sort_order": 123,
+ "summary": "Dùng had + V3 để nhấn việc nào xảy ra trước một việc quá khứ khác, luôn có một mốc quá khứ đơn làm điểm tựa; dùng had been + V-ing cho thời lượng và dấu vết; chọn đúng giữa dạng đơn và dạng tiếp diễn. Thẻ: công thức và bản chất; luôn có một mốc quá khứ đơn; và mẫu It was the first time; công thức và hai cách dùng; kết quả hay quá trình.",
+ "vocab": [
+  {
+   "headword": "launch",
+   "pos": "V",
+   "meaning_vi": "ra mắt (sản phẩm, dịch vụ)",
+   "example_en": "By the time I bought the phone, the company had launched a newer model.",
+   "example_vi": "Lúc tôi mua chiếc điện thoại, công ty đã ra mắt mẫu mới hơn.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/lɔːntʃ/",
+   "note_vi": "Quá khứ: launched, đuôi -ed đọc /t/. launch a product, launch an app."
+  },
+  {
+   "headword": "save",
+   "pos": "V",
+   "meaning_vi": "lưu (tệp, dữ liệu)",
+   "example_en": "I hadn't saved the file, so I lost everything.",
+   "example_vi": "Tôi chưa lưu tệp nên mất hết.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/seɪv/",
+   "note_vi": "Quá khứ: saved, đuôi -ed đọc /d/. save a file: lưu một tệp. Trái nghĩa trong buổi này: delete."
+  },
+  {
+   "headword": "fail",
+   "pos": "V",
+   "meaning_vi": "thất bại; (máy móc) không chạy",
+   "example_en": "The first attempt failed, so they tried again.",
+   "example_vi": "Lần thử đầu thất bại, nên họ thử lại.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/feɪl/",
+   "note_vi": "Quá khứ: failed, đuôi -ed đọc /d/. Danh từ: failure."
+  },
+  {
+   "headword": "fix",
+   "pos": "V",
+   "meaning_vi": "sửa",
+   "example_en": "By the time I got back, he had fixed my laptop.",
+   "example_vi": "Lúc tôi quay lại, anh ấy đã sửa xong laptop.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/fɪks/",
+   "note_vi": "Quá khứ: fixed, đuôi -ed đọc /t/. fix a bug: sửa một lỗi phần mềm."
+  },
+  {
+   "headword": "delete",
+   "pos": "V",
+   "meaning_vi": "xóa",
+   "example_en": "I realised I had deleted the wrong file.",
+   "example_vi": "Tôi nhận ra mình đã xóa nhầm tệp.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/dɪˈliːt/",
+   "note_vi": "Quá khứ: deleted, đuôi -ed thêm một âm tiết /ɪd/. delete a file."
+  },
+  {
+   "headword": "bug",
+   "pos": "N",
+   "meaning_vi": "lỗi phần mềm",
+   "example_en": "The app crashed because of a bug.",
+   "example_vi": "Ứng dụng bị sập vì một lỗi phần mềm.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/bʌɡ/",
+   "note_vi": "Nghĩa gốc là con bọ; trong phần mềm là một lỗi làm chương trình chạy sai."
+  },
+  {
+   "headword": "version",
+   "pos": "N",
+   "meaning_vi": "phiên bản",
+   "example_en": "The new version has more features.",
+   "example_vi": "Phiên bản mới có nhiều tính năng hơn.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/ˈvɜːʃn/",
+   "note_vi": "the latest version: phiên bản mới nhất. Oxford ghi thêm cách đọc /ˈvɜːʒn/."
+  },
+  {
+   "headword": "backup",
+   "pos": "N",
+   "meaning_vi": "bản sao lưu",
+   "example_en": "Luckily, I had made a backup of my files.",
+   "example_vi": "May mà tôi đã sao lưu các tệp.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/ˈbækʌp/",
+   "note_vi": "make a backup: sao lưu. Động từ viết tách: back up your files."
+  },
+  {
+   "headword": "feature",
+   "pos": "N",
+   "meaning_vi": "tính năng",
+   "example_en": "The camera is the phone's best feature.",
+   "example_vi": "Camera là tính năng tốt nhất của chiếc điện thoại.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/ˈfiːtʃə(r)/",
+   "note_vi": "a new feature: một tính năng mới. Cũng là động từ: có, làm nổi bật."
+  },
+  {
+   "headword": "file",
+   "pos": "N",
+   "meaning_vi": "tệp",
+   "example_en": "I couldn't open the file.",
+   "example_vi": "Tôi không mở được tệp.",
+   "family": "Từ của ngày",
+   "priority": "core",
+   "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3; phiên âm: Oxford Learner's Dictionaries (BrE)",
+   "pron": "/faɪl/",
+   "note_vi": "open, save, delete a file: mở, lưu, xóa một tệp."
+  }
+ ],
+ "grammar": [
+  {
+   "pattern": "Past perfect · công thức và bản chất",
+   "meaning_vi": "had + V3 nhấn việc nào xảy ra trước một việc quá khứ khác",
+   "usage_context_vi": "## Một công thức cho mọi ngôi\npat: Khẳng định | chủ ngữ + had + V3 | The train had left.\npat: Phủ định | chủ ngữ + hadn't + V3 | I hadn't seen the film.\npat: Câu hỏi | Had + chủ ngữ + V3 ? | Had you met him before the party?\n!had thường rút gọn thành 'd: I'd, we'd, she'd.\n## Cùng lúc hay xảy ra trước\nside: Cùng lúc | When I got to the station, the train left. | tàu chạy đúng lúc tôi tới | point\nside: Xảy ra trước | When I got to the station, the train had left. | tôi tới thì tàu đã chạy | before\n!Việc xảy ra trước chia had + V3; việc làm mốc chia quá khứ đơn.",
+   "contrasts": [],
+   "example_en": "When I got to the station, the train had left.\nI had already bought the phone when I saw it was cheaper online.\nHad you met him before the party?",
+   "example_vi": "Khi tôi tới ga thì tàu đã chạy mất.\nTôi đã mua điện thoại rồi mới thấy trên mạng bán rẻ hơn.\nTrước bữa tiệc bạn đã gặp anh ấy chưa?",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 18-19; cách giảng của khóa học",
+   "check": {
+    "stem": "By the time we arrived, the party ( ).",
+    "options": [
+     "had finished",
+     "has finished",
+     "had finish",
+     "finishes"
+    ],
+    "why": "Bữa tiệc kết thúc trước lúc chúng tôi tới → had + V3."
+   },
+   "step_vi": "Cấu tạo",
+   "note_vi": "Lỗi người Việt hay mắc: Dùng V2 thay cho V3: ~~had went~~ → had gone; ~~had wrote~~ → had written.",
+   "exam_tip_vi": "Listening: had thường rút gọn thành 'd và đọc rất nhẹ (I'd already left). Nghe kỹ âm này để biết việc nào xảy ra trước."
+  },
+  {
+   "pattern": "Quy tắc bối cảnh · luôn có một mốc quá khứ đơn",
+   "meaning_vi": "Câu had + V3 dựa vào một mốc quá khứ đơn, trong cùng câu hoặc ở câu trước",
+   "usage_context_vi": "!Không viết một câu had + V3 đứng một mình: phải có một mốc quá khứ đơn làm điểm tựa.\nstep: Hỏi | What did you do when you were home?\nstep: Tạo mốc · quá khứ đơn | I met Jim.\nstep: Hỏi thêm | Did you do anything else?\nstep: Việc trước mốc · had + V3 | Oh, I had bought a new phone earlier.\n!Không cần before hay after: mốc đã ở câu trước. Khi câu đã có before hay after, thứ tự đã rõ nên quá khứ đơn thường cũng đủ: I left before he arrived.",
+   "contrasts": [],
+   "example_en": "When I got home, my brother had eaten all the pizza.\nOh, I had bought a new phone earlier.\nI left before he arrived.",
+   "example_vi": "Khi tôi về đến nhà, em tôi đã ăn hết chỗ pizza.\nÀ, trước đó tôi đã mua một chiếc điện thoại mới.\nTôi rời đi trước khi anh ấy đến.",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 18-19; cách giảng của khóa học",
+   "check": {
+    "stem": "When I got home, I realised I ( ) my keys at the office.",
+    "options": [
+     "had left",
+     "have left",
+     "leave",
+     "had leaving"
+    ],
+    "why": "Để quên chìa khóa xảy ra trước lúc nhận ra → had + V3."
+   },
+   "step_vi": "Quy tắc bối cảnh",
+   "note_vi": "Lỗi người Việt hay mắc: Câu had + V3 không có mốc: kể chuyện đã qua mà viết ~~I had visited Hue last year~~ → I visited Hue last year.",
+   "exam_tip_vi": "Writing Task 1 dạng bản đồ có hai mốc năm đã qua: dùng had + V3 cho thay đổi đã xảy ra trước mốc sau: By 2010, the old factory had disappeared."
+  },
+  {
+   "pattern": "Khi nào không cần had · và mẫu It was the first time",
+   "meaning_vi": "Chỉ việc lùi về trước một mốc mới chia had + V3; kể tiếp thì trở lại quá khứ đơn",
+   "usage_context_vi": "## Chỉ một việc lùi về trước\nstep: Việc làm mốc · quá khứ đơn | I was late because when I got there, I realised\nstep: Việc xảy ra trước · had + V3 | I had left my judo suit at home.\nstep: Kể tiếp · quá khứ đơn | So I went all the way home.\n!Việc chỉ được kể, không xảy ra trước việc nào: quá khứ đơn. I had my first judo lesson yesterday, không phải had had.\n## It was the first time\npat: Lần đầu, nhìn từ quá khứ | It was the first time + chủ ngữ + had + V3 | It was the first time I had used a smartwatch.\n!So sánh với mẫu đã học: It's the first time I have used this app (tính tới bây giờ).",
+   "contrasts": [],
+   "example_en": "I was late because I had left my judo suit at home.\nI had my first judo lesson yesterday.\nIt was the first time I had used a smartwatch.",
+   "example_vi": "Tôi đến muộn vì đã để quên bộ đồ judo ở nhà.\nHôm qua tôi học buổi judo đầu tiên.\nĐó là lần đầu tôi dùng đồng hồ thông minh.",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 18-19; cách giảng của khóa học",
+   "check": {
+    "stem": "Yesterday I ( ) a great idea for my project.",
+    "options": [
+     "had",
+     "had had",
+     "have had",
+     "have"
+    ],
+    "why": "Chỉ kể một việc hôm qua, không xảy ra trước việc nào → quá khứ đơn."
+   },
+   "step_vi": "Không lạm dụng",
+   "note_vi": "Lỗi người Việt hay mắc: Thấy chuyện quá khứ là dùng had: ~~I had had my first judo lesson yesterday~~ → I had my first judo lesson yesterday.",
+   "exam_tip_vi": "Khi phân vân giữa các thì quá khứ, nếu không cần nhấn việc nào xảy ra trước, hãy chọn quá khứ đơn."
+  },
+  {
+   "pattern": "Past perfect continuous · công thức và hai cách dùng",
+   "meaning_vi": "had been + V-ing: kéo dài tới một mốc quá khứ, hoặc vừa dừng trước mốc và còn dấu vết",
+   "usage_context_vi": "pat: Khẳng định | chủ ngữ + had been + V-ing | We had been waiting for an hour.\npat: Phủ định | chủ ngữ + hadn't been + V-ing | She hadn't been sleeping well.\npat: Câu hỏi | Had + chủ ngữ + been + V-ing ? | How long had you been waiting?\nside: Kéo dài tới mốc | We had been waiting for over an hour when the bus finally came. | thời lượng trước mốc | upto\nside: Vừa dừng, còn dấu vết | Her eyes were red because she had been crying. | dấu vết lúc đó | ptrace\n!Cách dùng thứ nhất thường có for + thời lượng; cách dùng thứ hai thường không cần.",
+   "contrasts": [],
+   "example_en": "We had been waiting for over an hour when the bus finally came.\nHer eyes were red because she had been crying.\nThe engineers had been testing the app for six months before they launched it.",
+   "example_vi": "Chúng tôi đã chờ hơn một tiếng thì xe buýt mới tới.\nMắt cô ấy đỏ vì cô ấy vừa khóc.\nCác kỹ sư đã thử nghiệm ứng dụng suốt sáu tháng trước khi ra mắt.",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 18-19; cách giảng của khóa học",
+   "check": {
+    "stem": "We ( ) for over an hour when the bus finally came.",
+    "options": [
+     "had been waiting",
+     "have been waiting",
+     "had been wait",
+     "are waiting"
+    ],
+    "why": "Thời lượng kéo dài tới một mốc quá khứ → had been + V-ing."
+   },
+   "step_vi": "Cấu tạo",
+   "note_vi": "Lỗi người Việt hay mắc: Đọc nhầm breath và breathe: out of breath (hết hơi) dùng danh từ breath /breθ/, không đọc như động từ breathe /briːð/.",
+   "exam_tip_vi": "Speaking Part 2: had been + V-ing cho biết bạn đã làm việc gì bao lâu trước khi chuyện chính xảy ra: I had been working on the essay for three hours when my laptop crashed."
+  },
+  {
+   "pattern": "Đơn hay tiếp diễn · kết quả hay quá trình",
+   "meaning_vi": "had + V3: kết quả, số lượng, trải nghiệm, động từ trạng thái; had been + V-ing: thời lượng, dấu vết",
+   "usage_context_vi": "side: Bản thân việc | Before I met Nga, I had run five kilometres. | kết quả, số lượng | before\nside: Quá trình kéo dài | Before I met Nga, I had been running for two hours. | thời lượng | upto\n## Chọn had + V3 khi\nstep: Có kết quả, số lượng | By 2020, the company had sold a million phones.\nstep: Kể trải nghiệm, thường có before | I had never used a smartphone before I went to university.\nstep: Động từ trạng thái | I had known Lan for ten years when we started the company.\n## Chọn had been + V-ing khi\nstep: Nhấn thời lượng | She had been working there for ten years when she retired.\nstep: Dấu vết lúc đó | The road was wet because it had been raining.\n!Động từ trạng thái thường không dùng ở thì tiếp diễn: đây là xu hướng, không phải lệnh cấm tuyệt đối, nhưng bài thi chọn dạng đơn.",
+   "contrasts": [],
+   "example_en": "Before I met Nga, I had been running for two hours.\nBy 2020, the company had sold a million phones.\nI had known Lan for ten years when we started the company.",
+   "example_vi": "Trước khi gặp Nga, tôi đã chạy suốt hai tiếng.\nĐến năm 2020, công ty đã bán được một triệu chiếc điện thoại.\nLúc chúng tôi mở công ty, tôi đã quen Lan được mười năm.",
+   "importance": "must",
+   "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3, pp. 18-19; cách giảng của khóa học",
+   "check": {
+    "stem": "By 2020, the company ( ) a million phones.",
+    "options": [
+     "had sold",
+     "had been selling",
+     "has sold",
+     "was selling"
+    ],
+    "why": "Nhấn kết quả, số lượng → had + V3. had been selling nhấn quá trình, không hợp với con số đã đạt."
+   },
+   "step_vi": "Chọn dạng",
+   "note_vi": "Lỗi người Việt hay mắc: Dùng tiếp diễn với động từ trạng thái: ~~I had been knowing Lan for ten years~~ → I had known Lan for ten years.",
+   "exam_tip_vi": "Học cả cụm từ đi liền nhau: get ready (không nói have ready), have lessons hoặc get lessons: He had been getting ready for the race for six months."
+  }
+ ],
+ "notes": [
+  {
+   "title": "Mục tiêu của ngày",
+   "body": "• Lập câu quá khứ hoàn thành và nhấn được việc xảy ra trước\n• Giữ quy tắc bối cảnh: câu had + V3 luôn có một mốc quá khứ đơn\n• Không lạm dụng had khi chỉ kể lần lượt\n• Lập câu quá khứ hoàn thành tiếp diễn cho thời lượng và dấu vết\n• Chọn đúng giữa had + V3 và had been + V-ing",
+   "kind": "goal"
+  },
+  {
+   "title": "Bài của sách nằm trong app",
+   "body": "• Đọc bảng lý thuyết Past perfect simple và Past perfect continuous (khoảng 10 phút)\n• Bài C · lá thư của Charlotte: chọn thì cho 16 chỗ trống (16 câu, khoảng 15 phút)\n• Bài D · had + V3 hay had been + V-ing (10 câu, khoảng 12 phút)\n• Các bài này đã có sẵn trong app, ở các buổi \"Bài trong sách\" cuối ngày, kèm đáp án của sách và lời giải thích từng câu. Nếu có sách giấy, bạn có thể làm trên sách trước rồi chấm lại trong app. Sau khi học thẻ, với mỗi câu sai hãy tự nói lại câu đó theo ý muốn nói.",
+   "kind": "language"
+  },
+  {
+   "title": "Dùng ở đâu trong IELTS",
+   "body": "Speaking Part 2 dùng had + V3 và had been + V-ing để kể việc đã xảy ra trước chuyện chính: I had been working for three hours when my laptop crashed. Writing Task 1 dạng bản đồ có hai mốc năm đã qua dùng had + V3 cho thay đổi xảy ra trước mốc sau.",
+   "kind": "language"
+  }
+ ],
+ "bank": "g1",
+ "coach": {
+  "focus_vi": [
+   "công thức và bản chất: had + V3 nhấn việc nào xảy ra trước một việc quá khứ khác",
+   "luôn có một mốc quá khứ đơn: Câu had + V3 dựa vào một mốc quá khứ đơn, trong cùng câu hoặc ở câu trước",
+   "và mẫu It was the first time: Chỉ việc lùi về trước một mốc mới chia had + V3; kể tiếp thì trở lại quá khứ đơn"
+  ],
+  "watch_out_vi": [
+   "Dùng V2 thay cho V3: ~~had went~~ → had gone; ~~had wrote~~ → had written.",
+   "Câu had + V3 không có mốc: kể chuyện đã qua mà viết ~~I had visited Hue last year~~ → I visited Hue last year."
+  ]
+ },
+ "exercise_ids": [
+  "G1D23T1",
+  "G1D23T2",
+  "G1D23T3",
+  "G1D23T4",
+  "G1D23I1",
+  "G1D23I2",
+  "G1D23I3",
+  "G1D23I4",
+  "G1D23I5",
+  "G1D23Q1",
+  "G1D23Q2",
+  "G1D23Q3",
+  "G1D23Q4",
+  "G1D23Q5",
+  "G1D23Q6",
+  "G1D23Q7",
+  "G1D23Q8",
+  "G1D23Q9",
+  "G1D23KW3C-1",
+  "G1D23KW3C-2",
+  "G1D23KW3C-3",
+  "G1D23KW3C-4",
+  "G1D23KW3C-5",
+  "G1D23KW3C-6",
+  "G1D23KW3C-7",
+  "G1D23KW3C-8",
+  "G1D23KW3C-9",
+  "G1D23KW3C-10",
+  "G1D23KW3C-11",
+  "G1D23KW3C-12",
+  "G1D23KW3C-13",
+  "G1D23KW3C-14",
+  "G1D23KW3C-15",
+  "G1D23KW3C-16",
+  "G1D23B1",
+  "G1D23B2",
+  "G1D23B3",
+  "G1D23B4",
+  "G1D23B5",
+  "G1D23F1",
+  "G1D23F2",
+  "G1D23F3",
+  "G1D23F4",
+  "G1D23F5",
+  "G1D23KW3D-1",
+  "G1D23KW3D-2",
+  "G1D23KW3D-3",
+  "G1D23KW3D-4",
+  "G1D23KW3D-5",
+  "G1D23KW3D-6",
+  "G1D23KW3D-7",
+  "G1D23KW3D-8",
+  "G1D23KW3D-9",
+  "G1D23KW3D-10",
+  "G1D23D1",
+  "G1D23M1"
+ ],
+ "sessions": [
+  {
+   "title_vi": "Buổi 1 · quá khứ hoàn thành: việc xảy ra trước, quy tắc bối cảnh",
+   "can_do_vi": "Sau buổi này bạn lập được câu quá khứ hoàn thành, nhấn được việc xảy ra trước, luôn dựa vào một mốc quá khứ đơn và không lạm dụng had.",
+   "use_vi": "Speaking Part 2 dùng had + V3 và had been + V-ing để kể việc đã xảy ra trước chuyện chính: I had been working for three hours when my laptop crashed. Writing Task 1 dạng bản đồ có hai mốc năm đã qua d",
+   "vocab": [
+    "launch",
+    "save",
+    "fail",
+    "fix",
+    "delete"
+   ],
+   "grammar": [
+    "Past perfect · công thức và bản chất",
+    "Quy tắc bối cảnh · luôn có một mốc quá khứ đơn",
+    "Khi nào không cần had · và mẫu It was the first time"
+   ],
+   "check": [
+    "G1D23T1",
+    "G1D23I1",
+    "G1D23Q1",
+    "G1D23I2",
+    "G1D23Q3",
+    "G1D23I3",
+    "G1D23Q4"
+   ],
+   "lecture": [
+    {
+     "kind": "title",
+     "hook": "Bạn tới ga thì tàu đã chạy mất: việc nào xảy ra trước?",
+     "lines": [
+      {
+       "say": "Bạn tới ga, nhưng tàu đã chạy mất. Hai việc trong quá khứ. Làm sao để người nghe biết việc nào xảy ra trước?",
+       "show": "hook"
+      },
+      {
+       "say": "Hai hôm trước ta kể lần lượt bằng quá khứ đơn; hôm qua ta phóng to vào bên trong một khoảng. Hôm nay ta lùi về trước một mốc quá khứ: thì quá khứ hoàn thành."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "tense_timeline",
+     "eyebrow": "Thí nghiệm",
+     "title": "Cùng lúc hay xảy ra trước",
+     "data": {
+      "question": "When I got to the station, ...",
+      "question_vi": "Khi tôi tới ga, ...",
+      "question_label": "Cùng một mốc",
+      "answers": [
+       {
+        "key": "t1",
+        "icon": "clock",
+        "at": "point",
+        "tense": "Hai vế quá khứ đơn · cùng lúc",
+        "en": "When I got to the station, the train left.",
+        "vi": "Tàu chạy đúng lúc tôi tới."
+       },
+       {
+        "key": "t2",
+        "icon": "clock",
+        "at": "before",
+        "tense": "had + V3 · xảy ra trước",
+        "en": "When I got to the station, the train had left.",
+        "vi": "Tôi tới thì tàu đã chạy mất."
+       }
+      ],
+      "rule": "Việc xảy ra trước chia had + V3; việc làm mốc chia quá khứ đơn."
+     },
+     "lines": [
+      {
+       "say": "Hai câu chỉ khác nhau một chữ had.",
+       "show": "q"
+      },
+      {
+       "say": "Quá khứ bên trái, bây giờ ở vạch giữa.",
+       "show": "axis"
+      },
+      {
+       "say": "Câu một: hai vế đều là quá khứ đơn. Tàu chạy đúng lúc tôi tới, như thể tôi kịp nhìn thấy nó lăn bánh.",
+       "show": "t1"
+      },
+      {
+       "en": "When I got to the station, the train left.",
+       "vi": "Khi tôi tới ga, tàu chạy.",
+       "gap": true
+      },
+      {
+       "say": "Câu hai: vế sau có had. Tàu chạy trước lúc tôi tới. Tôi tới nơi thì sân ga đã trống.",
+       "show": "t2"
+      },
+      {
+       "en": "When I got to the station, the train had left.",
+       "vi": "Khi tôi tới ga thì tàu đã chạy mất.",
+       "gap": true
+      },
+      {
+       "say": "Thì quá khứ hoàn thành chỉ làm một việc: nhấn việc nào xảy ra trước một việc quá khứ khác. Việc xảy ra trước chia had cộng V3; việc làm mốc chia quá khứ đơn.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "sentence_forms",
+     "eyebrow": "Công thức",
+     "title": "Ba dạng câu của quá khứ hoàn thành",
+     "data": {
+      "rows": [
+       {
+        "key": "aff",
+        "label": "Khẳng định",
+        "parts": [
+         "The train",
+         "had left."
+        ],
+        "hi": [
+         1
+        ],
+        "vi": "Tàu đã chạy mất."
+       },
+       {
+        "key": "neg",
+        "label": "Phủ định",
+        "parts": [
+         "I",
+         "hadn't seen",
+         "the film."
+        ],
+        "hi": [
+         1
+        ],
+        "vi": "Tôi chưa xem bộ phim đó."
+       },
+       {
+        "key": "qst",
+        "label": "Câu hỏi",
+        "parts": [
+         "Had",
+         "you met",
+         "him before the party?"
+        ],
+        "hi": [
+         0,
+         1
+        ],
+        "vi": "Trước bữa tiệc bạn đã gặp anh ấy chưa?"
+       }
+      ],
+      "persons": [
+       {
+        "who": "I · you · we · they",
+        "verb": "had left"
+       },
+       {
+        "who": "he · she · it",
+        "verb": "had left"
+       }
+      ],
+      "persons_plain": true,
+      "spelling_title": "V3 bất quy tắc hay gặp",
+      "spelling": [
+       [
+        "write",
+        "written"
+       ],
+       [
+        "go",
+        "gone"
+       ],
+       [
+        "see",
+        "seen"
+       ],
+       [
+        "eat",
+        "eaten"
+       ],
+       [
+        "leave",
+        "left"
+       ],
+       [
+        "fly",
+        "flown"
+       ]
+      ],
+      "short": [
+       "Yes, I had.",
+       "No, I hadn't."
+      ],
+      "rule": "had cộng V3, mọi ngôi như nhau."
+     },
+     "lines": [
+      {
+       "say": "Công thức dễ nhất trong các thì quá khứ: had cộng V3, và mọi ngôi dùng cùng một dạng.",
+       "show": "persons"
+      },
+      {
+       "en": "The train had left.",
+       "vi": "Tàu đã chạy mất.",
+       "gap": true,
+       "show": "aff"
+      },
+      {
+       "say": "Phủ định: hadn't cộng V3."
+      },
+      {
+       "en": "I hadn't seen the film.",
+       "vi": "Tôi chưa xem bộ phim đó.",
+       "gap": true,
+       "show": "neg"
+      },
+      {
+       "say": "Câu hỏi: đưa had lên trước chủ ngữ. Trả lời ngắn thì dùng lại had.",
+       "show": "short"
+      },
+      {
+       "en": "Had you met him before the party?",
+       "vi": "Trước bữa tiệc bạn đã gặp anh ấy chưa?",
+       "gap": true,
+       "show": "qst"
+      },
+      {
+       "say": "Điểm khó là V3 của động từ bất quy tắc. Write thành written, đọc với âm i ngắn, không đọc như write. Go thành gone, see thành seen, fly thành flown.",
+       "show": "spelling"
+      },
+      {
+       "say": "Khi nói, had thường rút gọn thành một âm rất nhẹ sau chủ ngữ. Nghe kỹ âm này trong bài nghe. Công thức: had cộng V3, mọi ngôi như nhau.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "ref_table",
+     "eyebrow": "Quy tắc bối cảnh",
+     "title": "Luôn có một mốc quá khứ đơn",
+     "data": {
+      "cols": [
+       "Bước",
+       "Câu"
+      ],
+      "rows": [
+       {
+        "key": "d1",
+        "head": "Hỏi",
+        "en": "What did you do when you were home?",
+        "vi": "Hỏi về một quãng đã qua."
+       },
+       {
+        "key": "d2",
+        "head": "Tạo mốc · quá khứ đơn",
+        "en": "I met Jim.",
+        "vi": "Mốc để dựa vào."
+       },
+       {
+        "key": "d3",
+        "head": "Hỏi thêm",
+        "en": "Did you do anything else?",
+        "vi": "Còn gì nữa không?"
+       },
+       {
+        "key": "d4",
+        "head": "Trước mốc · had + V3",
+        "en": "Oh, I had bought a new phone earlier.",
+        "vi": "Việc này xảy ra trước lúc gặp Jim."
+       }
+      ],
+      "rule": "Không viết một câu had + V3 đứng một mình: phải có một mốc quá khứ đơn làm điểm tựa."
+     },
+     "lines": [
+      {
+       "say": "Thì này cần một điểm tựa. Một đoạn hội thoại bốn bước. Bước một: hỏi về một quãng đã qua.",
+       "show": "d1"
+      },
+      {
+       "en": "What did you do when you were home?",
+       "vi": "Hồi ở nhà bạn đã làm gì?",
+       "gap": true,
+       "recap": false
+      },
+      {
+       "say": "Bước hai: trả lời bằng quá khứ đơn. Câu này tạo ra một mốc.",
+       "show": "d2"
+      },
+      {
+       "en": "I met Jim.",
+       "vi": "Tôi gặp Jim.",
+       "gap": true
+      },
+      {
+       "say": "Bước ba: người kia hỏi thêm.",
+       "show": "d3"
+      },
+      {
+       "en": "Did you do anything else?",
+       "vi": "Bạn còn làm gì nữa không?",
+       "gap": true,
+       "recap": false
+      },
+      {
+       "say": "Bước bốn: kể một việc xảy ra trước lúc gặp Jim. Không cần nói thêm là trước khi gặp Jim, vì mốc đã có ở câu trước.",
+       "show": "d4"
+      },
+      {
+       "en": "Oh, I had bought a new phone earlier.",
+       "vi": "À, trước đó tôi đã mua một chiếc điện thoại mới.",
+       "gap": true
+      },
+      {
+       "say": "Ngược lại, khi câu đã có before hay after, thứ tự đã rõ, nên quá khứ đơn thường cũng đủ. Không viết một câu had cộng V3 đứng một mình: phải có một mốc quá khứ đơn làm điểm tựa.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "picture_cards",
+     "eyebrow": "Không lạm dụng",
+     "title": "Chỉ một việc lùi về trước",
+     "data": {
+      "rows": [
+       {
+        "key": "s1",
+        "icon": "clock",
+        "head": "Kết quả · quá khứ đơn",
+        "en": "I was late for the lesson",
+        "vi": "Việc được kể lại."
+       },
+       {
+        "key": "s2",
+        "icon": "suitcase",
+        "head": "Lùi về trước · had + V3",
+        "en": "because when I got there, I realised I had left my judo suit at home.",
+        "vi": "Để quên đồ xảy ra trước lúc đến nơi."
+       },
+       {
+        "key": "s3",
+        "icon": "house",
+        "head": "Kể tiếp · quá khứ đơn",
+        "en": "So I went all the way home.",
+        "vi": "Câu chuyện đi tiếp."
+       }
+      ],
+      "rule": "Chỉ việc xảy ra trước một mốc mới chia had + V3; kể tiếp thì trở lại quá khứ đơn."
+     },
+     "lines": [
+      {
+       "say": "Một bạn kể về buổi học judo đầu tiên. Câu một: bị muộn. Đây là việc được kể lại, nên dùng quá khứ đơn.",
+       "show": "s1"
+      },
+      {
+       "en": "I was late for the lesson",
+       "vi": "Tôi đến buổi học muộn",
+       "gap": true,
+       "recap": false
+      },
+      {
+       "say": "Câu hai: nguyên nhân xảy ra trước, là để quên bộ đồ ở nhà. Chỉ việc này mới lùi về trước, nên chỉ nó chia had cộng V3.",
+       "show": "s2"
+      },
+      {
+       "en": "because when I got there, I realised I had left my judo suit at home.",
+       "vi": "vì khi tới nơi, tôi nhận ra mình đã để quên bộ đồ judo ở nhà.",
+       "gap": true
+      },
+      {
+       "say": "Câu ba: câu chuyện đi tiếp, trở lại quá khứ đơn.",
+       "show": "s3"
+      },
+      {
+       "en": "So I went all the way home.",
+       "vi": "Thế là tôi đi về tận nhà.",
+       "gap": true
+      },
+      {
+       "say": "Lỗi hay gặp là thấy chuyện quá khứ thì dùng had ở mọi nơi. Buổi học hôm qua không xảy ra trước việc nào, nên câu đúng là quá khứ đơn."
+      },
+      {
+       "en": "I had my first judo lesson yesterday.",
+       "vi": "Hôm qua tôi học buổi judo đầu tiên.",
+       "gap": true
+      },
+      {
+       "say": "Còn một mẫu cần thuộc. Hai hôm trước bạn học mẫu lần đầu, đi với hiện tại hoàn thành. Khi lùi cả câu về quá khứ, mẫu này đi với had cộng V3."
+      },
+      {
+       "en": "It was the first time I had used a smartwatch.",
+       "vi": "Đó là lần đầu tôi dùng đồng hồ thông minh.",
+       "gap": true
+      },
+      {
+       "say": "Chỉ việc xảy ra trước một mốc mới chia had cộng V3; kể tiếp thì trở lại quá khứ đơn.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "launch",
+     "lines": [
+      {
+       "say": "Năm động từ của buổi này kể đời của một sản phẩm công nghệ và dữ liệu của bạn: ra mắt, lưu, thất bại, sửa, xóa. Từ thứ nhất. Quá khứ là launched, đuôi ed giống worked."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "save",
+     "lines": [
+      {
+       "say": "Từ thứ hai. Quá khứ là saved, đuôi ed giống played. Câu ví dụ có hadn't cộng V3."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "fail",
+     "lines": [
+      {
+       "say": "Từ thứ ba. Quá khứ là failed, đuôi ed giống played."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "fix",
+     "lines": [
+      {
+       "say": "Từ thứ tư. Quá khứ là fixed, đuôi ed giống worked."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "delete",
+     "lines": [
+      {
+       "say": "Từ cuối. Quá khứ là deleted, thêm một âm tiết."
+      }
+     ]
+    },
+    {
+     "kind": "recap",
+     "lines": [
+      {
+       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "show": "title"
+      }
+     ]
+    },
+    {
+     "kind": "end",
+     "next": "Tiếp theo: học thẻ và từ của buổi này, rồi làm bài.",
+     "lines": [
+      {
+       "say": "Hết buổi một. Bạn học các thẻ và từ trong app, rồi làm bài. Buổi hai học dạng tiếp diễn của thì này, và cách chọn giữa hai dạng.",
+       "show": "title"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title_vi": "Buổi 2 · quá khứ hoàn thành tiếp diễn, chọn dạng đơn hay tiếp diễn",
+   "can_do_vi": "Sau buổi này bạn lập được câu quá khứ hoàn thành tiếp diễn, chọn đúng giữa dạng đơn và dạng tiếp diễn, và kể được một câu chuyện Speaking bằng bốn thì quá khứ.",
+   "use_vi": "Speaking Part 2 dùng had + V3 và had been + V-ing để kể việc đã xảy ra trước chuyện chính: I had been working for three hours when my laptop crashed. Writing Task 1 dạng bản đồ có hai mốc năm đã qua d",
+   "vocab": [
+    "bug",
+    "version",
+    "backup",
+    "feature",
+    "file"
+   ],
+   "grammar": [
+    "Past perfect continuous · công thức và hai cách dùng",
+    "Đơn hay tiếp diễn · kết quả hay quá trình"
+   ],
+   "check": [
+    "G1D23T3",
+    "G1D23I4",
+    "G1D23Q6",
+    "G1D23Q7",
+    "G1D23I5",
+    "G1D23Q8",
+    "G1D23Q9"
+   ],
+   "lecture": [
+    {
+     "kind": "title",
+     "hook": "had run hay had been running: hai câu khác nhau ở đâu?",
+     "lines": [
+      {
+       "say": "Có hai câu kể về việc trước khi gặp Nga. Nghe rồi đoán: hai câu khác nhau ở đâu?",
+       "show": "hook"
+      },
+      {
+       "en": "Before I met Nga, I had run five kilometres."
+      },
+      {
+       "en": "Before I met Nga, I had been running for two hours."
+      },
+      {
+       "say": "Buổi này học công thức và hai cách dùng của thì quá khứ hoàn thành tiếp diễn, rồi cách chọn giữa dạng đơn và dạng tiếp diễn."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "sentence_forms",
+     "eyebrow": "Công thức",
+     "title": "Ba dạng câu của quá khứ hoàn thành tiếp diễn",
+     "data": {
+      "rows": [
+       {
+        "key": "aff",
+        "label": "Khẳng định",
+        "parts": [
+         "We",
+         "had been waiting",
+         "for an hour."
+        ],
+        "hi": [
+         1
+        ],
+        "vi": "Chúng tôi đã chờ được một tiếng."
+       },
+       {
+        "key": "neg",
+        "label": "Phủ định",
+        "parts": [
+         "She",
+         "hadn't been sleeping",
+         "well."
+        ],
+        "hi": [
+         1
+        ],
+        "vi": "Dạo đó cô ấy ngủ không ngon."
+       },
+       {
+        "key": "qst",
+        "label": "Câu hỏi",
+        "parts": [
+         "How long",
+         "had you been waiting?"
+        ],
+        "hi": [
+         1
+        ],
+        "vi": "Bạn đã chờ bao lâu rồi?"
+       }
+      ],
+      "persons": [
+       {
+        "who": "I · you · we · they",
+        "verb": "had been waiting"
+       },
+       {
+        "who": "he · she · it",
+        "verb": "had been waiting"
+       }
+      ],
+      "persons_plain": true,
+      "short": [
+       "Yes, I had.",
+       "No, I hadn't."
+      ],
+      "rule": "had been cộng động từ thêm đuôi ing, mọi ngôi như nhau."
+     },
+     "lines": [
+      {
+       "say": "Công thức có ba phần: had, been, rồi động từ thêm đuôi ing. Mọi ngôi như nhau.",
+       "show": "persons"
+      },
+      {
+       "en": "We had been waiting for an hour.",
+       "vi": "Chúng tôi đã chờ được một tiếng.",
+       "gap": true,
+       "show": "aff"
+      },
+      {
+       "say": "Phủ định: hadn't been."
+      },
+      {
+       "en": "She hadn't been sleeping well.",
+       "vi": "Dạo đó cô ấy ngủ không ngon.",
+       "gap": true,
+       "show": "neg"
+      },
+      {
+       "say": "Câu hỏi thường gặp nhất bắt đầu bằng how long. Trả lời ngắn vẫn dùng had.",
+       "show": "short"
+      },
+      {
+       "en": "How long had you been waiting?",
+       "vi": "Bạn đã chờ bao lâu rồi?",
+       "gap": true,
+       "show": "qst"
+      },
+      {
+       "say": "Đây là thì có nhiều chữ nhất, nhưng khi nói, had been đọc lướt rất nhanh. Công thức: had been cộng động từ thêm đuôi ing, mọi ngôi như nhau.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "tense_timeline",
+     "eyebrow": "Bản chất",
+     "title": "Hai cách dùng",
+     "data": {
+      "question": "had been + V-ing",
+      "question_vi": "trước một mốc quá khứ",
+      "question_label": "Một công thức",
+      "answers": [
+       {
+        "key": "w1",
+        "icon": "clock",
+        "at": "upto",
+        "tense": "Kéo dài tới mốc",
+        "en": "We had been waiting for over an hour when the bus finally came.",
+        "vi": "Thời lượng chờ, tới lúc xe tới."
+       },
+       {
+        "key": "w2",
+        "icon": "face",
+        "at": "ptrace",
+        "tense": "Vừa dừng, còn dấu vết",
+        "en": "Her eyes were red because she had been crying.",
+        "vi": "Việc vừa dừng; đôi mắt đỏ là dấu vết."
+       }
+      ],
+      "rule": "Kéo dài tới một mốc quá khứ, hoặc vừa dừng trước mốc và còn dấu vết."
+     },
+     "lines": [
+      {
+       "say": "Thì này có hai cách dùng, cả hai đều nhìn về một mốc trong quá khứ.",
+       "show": "q"
+      },
+      {
+       "say": "Mốc nằm bên trái vạch bây giờ.",
+       "show": "axis"
+      },
+      {
+       "say": "Cách dùng thứ nhất: một việc kéo dài tới mốc đó. Câu thường có for cộng một khoảng thời gian.",
+       "show": "w1"
+      },
+      {
+       "en": "We had been waiting for over an hour when the bus finally came.",
+       "vi": "Chúng tôi đã chờ hơn một tiếng thì xe buýt mới tới.",
+       "gap": true
+      },
+      {
+       "say": "Cách dùng thứ hai: việc vừa dừng ngay trước mốc, và để lại dấu vết lúc đó. Câu này không cần nói bao lâu.",
+       "show": "w2"
+      },
+      {
+       "en": "Her eyes were red because she had been crying.",
+       "vi": "Mắt cô ấy đỏ vì cô ấy vừa khóc.",
+       "gap": true
+      },
+      {
+       "say": "Một câu tương tự với chữ hay đọc sai: hết hơi. Hơi thở ở đây là danh từ breath, đọc ngắn, kết thúc bằng âm đầu lưỡi giữa hai hàm răng; khác động từ breathe."
+      },
+      {
+       "en": "I was out of breath because I had been running.",
+       "vi": "Tôi hết hơi vì vừa chạy.",
+       "gap": true
+      },
+      {
+       "say": "Kéo dài tới một mốc quá khứ, hoặc vừa dừng trước mốc và còn dấu vết.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "tense_timeline",
+     "eyebrow": "So sánh",
+     "title": "Bản thân việc hay quá trình",
+     "data": {
+      "question": "Before I met Nga, ...",
+      "question_vi": "Trước khi gặp Nga, ...",
+      "question_label": "Câu hỏi đầu buổi",
+      "answers": [
+       {
+        "key": "n1",
+        "icon": "runner",
+        "at": "before",
+        "tense": "had + V3 · bản thân việc",
+        "en": "Before I met Nga, I had run five kilometres.",
+        "vi": "Nhấn việc đã làm và kết quả."
+       },
+       {
+        "key": "n2",
+        "icon": "runner",
+        "at": "upto",
+        "tense": "had been + V-ing · quá trình",
+        "en": "Before I met Nga, I had been running for two hours.",
+        "vi": "Nhấn thời lượng kéo dài."
+       }
+      ],
+      "rule": "had + V3 nhấn bản thân việc và kết quả. had been + V-ing nhấn quá trình kéo dài."
+     },
+     "lines": [
+      {
+       "say": "Quay lại hai câu đầu buổi.",
+       "show": "q"
+      },
+      {
+       "say": "Mốc là lúc gặp Nga.",
+       "show": "axis"
+      },
+      {
+       "say": "Câu một: had cộng V3. Nhấn bản thân việc chạy và kết quả: năm cây số.",
+       "show": "n1"
+      },
+      {
+       "en": "Before I met Nga, I had run five kilometres.",
+       "vi": "Trước khi gặp Nga, tôi đã chạy năm cây số.",
+       "gap": true
+      },
+      {
+       "say": "Câu hai: had been cộng đuôi ing. Nhấn quá trình kéo dài: suốt hai tiếng.",
+       "show": "n2"
+      },
+      {
+       "en": "Before I met Nga, I had been running for two hours.",
+       "vi": "Trước khi gặp Nga, tôi đã chạy suốt hai tiếng.",
+       "gap": true
+      },
+      {
+       "say": "Dạng đơn nhấn bản thân việc và kết quả. Dạng tiếp diễn nhấn quá trình kéo dài.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "ref_table",
+     "eyebrow": "Cách chọn",
+     "title": "Năm trường hợp",
+     "data": {
+      "rows": [
+       {
+        "key": "c1",
+        "head": "Kết quả, số lượng · đơn",
+        "en": "By 2020, the company had sold a million phones.",
+        "vi": "Con số đã đạt được."
+       },
+       {
+        "key": "c2",
+        "head": "Trải nghiệm · đơn",
+        "en": "I had never used a smartphone before I went to university.",
+        "vi": "Đã từng hay chưa từng, thường có before."
+       },
+       {
+        "key": "c3",
+        "head": "Động từ trạng thái · đơn",
+        "en": "I had known Lan for ten years when we started the company.",
+        "vi": "know, own, believe: thường không dùng tiếp diễn."
+       },
+       {
+        "key": "c4",
+        "head": "Thời lượng · tiếp diễn",
+        "en": "She had been working there for ten years when she retired.",
+        "vi": "Nhấn quãng thời gian kéo dài."
+       },
+       {
+        "key": "c5",
+        "head": "Dấu vết · tiếp diễn",
+        "en": "The road was wet because it had been raining.",
+        "vi": "Việc vừa dừng, còn dấu vết lúc đó."
+       }
+      ],
+      "rule": "Kết quả, trải nghiệm, trạng thái: had + V3. Thời lượng, dấu vết: had been + V-ing."
+     },
+     "lines": [
+      {
+       "say": "Khi làm bài, có năm trường hợp. Ba trường hợp đầu chọn dạng đơn. Một: có kết quả hay con số.",
+       "show": "c1"
+      },
+      {
+       "en": "By 2020, the company had sold a million phones.",
+       "vi": "Đến năm 2020, công ty đã bán được một triệu chiếc điện thoại.",
+       "gap": true
+      },
+      {
+       "say": "Hai: kể trải nghiệm, đã từng hay chưa từng, thường có before.",
+       "show": "c2"
+      },
+      {
+       "en": "I had never used a smartphone before I went to university.",
+       "vi": "Trước khi vào đại học, tôi chưa từng dùng điện thoại thông minh.",
+       "gap": true
+      },
+      {
+       "say": "Ba: động từ trạng thái như know. Động từ trạng thái thường không dùng ở thì tiếp diễn. Đó là xu hướng, không phải lệnh cấm tuyệt đối, nhưng bài thi chọn dạng đơn.",
+       "show": "c3"
+      },
+      {
+       "en": "I had known Lan for ten years when we started the company.",
+       "vi": "Lúc chúng tôi mở công ty, tôi đã quen Lan được mười năm.",
+       "gap": true
+      },
+      {
+       "say": "Hai trường hợp cuối chọn dạng tiếp diễn. Bốn: nhấn thời lượng kéo dài.",
+       "show": "c4"
+      },
+      {
+       "en": "She had been working there for ten years when she retired.",
+       "vi": "Bà ấy đã làm ở đó mười năm thì nghỉ hưu.",
+       "gap": true
+      },
+      {
+       "say": "Năm: dấu vết lúc đó.",
+       "show": "c5"
+      },
+      {
+       "en": "The road was wet because it had been raining.",
+       "vi": "Mặt đường ướt vì trời vừa mưa.",
+       "gap": true
+      },
+      {
+       "say": "Kết quả, trải nghiệm, trạng thái: had cộng V3. Thời lượng, dấu vết: had been cộng đuôi ing.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "bug",
+     "lines": [
+      {
+       "say": "Trước khi kể một câu chuyện, học năm danh từ của đời sống số. Từ thứ nhất: nghĩa gốc là con bọ, trong phần mềm là một lỗi."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "version",
+     "lines": [
+      {
+       "say": "Từ thứ hai: phiên bản."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "backup",
+     "lines": [
+      {
+       "say": "Từ thứ ba: bản sao lưu. Câu ví dụ có had cộng V3."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "feature",
+     "lines": [
+      {
+       "say": "Từ thứ tư: tính năng."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "file",
+     "lines": [
+      {
+       "say": "Từ cuối: tệp."
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "speaking_answer",
+     "eyebrow": "IELTS Speaking Part 2",
+     "title": "Kể chuyện bằng bốn thì quá khứ",
+     "data": {
+      "question": "Describe a time when you lost some work on a computer or phone.",
+      "question_vi": "Kể về một lần bạn mất dữ liệu trên máy tính hoặc điện thoại.",
+      "short": "My laptop crashed.",
+      "parts": [
+       {
+        "key": "q1",
+        "role": "Dựng cảnh",
+        "tense": "Tiếp diễn + quá khứ đơn",
+        "en": "Last year I was working on a group project when my laptop suddenly crashed.",
+        "vi": "Năm ngoái tôi đang làm dự án nhóm thì laptop bỗng bị sập."
+       },
+       {
+        "key": "q2",
+        "role": "Việc trước đó",
+        "tense": "had been + V-ing, had + V3",
+        "en": "I had been writing the report for three hours, and I hadn't saved it.",
+        "vi": "Tôi đã viết báo cáo suốt ba tiếng, và chưa lưu lại."
+       },
+       {
+        "key": "q3",
+        "role": "May mắn",
+        "tense": "had + V3",
+        "en": "Luckily, my friend had made a backup the day before, so we didn't lose everything.",
+        "vi": "May mà hôm trước bạn tôi đã sao lưu, nên chúng tôi không mất hết."
+       },
+       {
+        "key": "q4",
+        "role": "Tới bây giờ",
+        "tense": "Hiện tại hoàn thành",
+        "en": "Since then, I have saved my work every few minutes.",
+        "vi": "Từ đó tới giờ, cứ vài phút tôi lại lưu bài."
+       }
+      ],
+      "rule": "Việc chính: quá khứ đơn. Cảnh: tiếp diễn. Việc trước đó: had + V3 hoặc had been + V-ing."
+     },
+     "lines": [
+      {
+       "say": "Đề Part 2: kể về một lần bạn mất dữ liệu trên máy tính hoặc điện thoại."
+      },
+      {
+       "en": "Describe a time when you lost some work on a computer or phone.",
+       "show": "q"
+      },
+      {
+       "say": "Chỉ nói máy bị sập thì câu chuyện chưa có gì.",
+       "show": "short"
+      },
+      {
+       "say": "Câu một: dựng cảnh bằng thì tiếp diễn, rồi việc bất ngờ bằng quá khứ đơn."
+      },
+      {
+       "en": "Last year I was working on a group project when my laptop suddenly crashed.",
+       "vi": "Năm ngoái tôi đang làm dự án nhóm thì laptop bỗng bị sập.",
+       "gap": true,
+       "show": "q1"
+      },
+      {
+       "say": "Câu hai: lùi về trước mốc đó. Đã viết bao lâu: had been cộng đuôi ing. Chưa lưu: hadn't cộng V3."
+      },
+      {
+       "en": "I had been writing the report for three hours, and I hadn't saved it.",
+       "vi": "Tôi đã viết báo cáo suốt ba tiếng, và chưa lưu lại.",
+       "gap": true,
+       "show": "q2"
+      },
+      {
+       "say": "Câu ba: một việc may mắn đã xảy ra từ hôm trước: had cộng V3."
+      },
+      {
+       "en": "Luckily, my friend had made a backup the day before, so we didn't lose everything.",
+       "vi": "May mà hôm trước bạn tôi đã sao lưu, nên chúng tôi không mất hết.",
+       "gap": true,
+       "show": "q3"
+      },
+      {
+       "say": "Câu bốn: nối tới bây giờ bằng hiện tại hoàn thành."
+      },
+      {
+       "en": "Since then, I have saved my work every few minutes.",
+       "vi": "Từ đó tới giờ, cứ vài phút tôi lại lưu bài.",
+       "gap": true,
+       "show": "q4"
+      },
+      {
+       "say": "Việc chính dùng quá khứ đơn, cảnh dùng thì tiếp diễn, việc xảy ra trước dùng had cộng V3 hoặc had been cộng đuôi ing. Hãy viết lại bốn câu này cho đúng với chuyện của chính bạn.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "recap",
+     "lines": [
+      {
+       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "show": "title"
+      }
+     ]
+    },
+    {
+     "kind": "end",
+     "next": "Tiếp theo: học thẻ và từ, làm bài, rồi buổi 3 và hai bài luyện theo sách.",
+     "lines": [
+      {
+       "say": "Hết phần giảng của ngày ba. Bạn học các thẻ và từ trong app, làm bài, rồi sang buổi ba để xếp câu, nghe chép và kể chuyện của chính bạn. Cuối ngày có hai bài luyện theo sách: một lá thư mười sáu chỗ trống, và mười câu chọn giữa hai dạng của thì này.",
+       "show": "title"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title_vi": "Buổi 3 · vận dụng: xếp câu, gõ, nghe chép, kể chuyện",
+   "can_do_vi": "Sau buổi này bạn chọn đúng giữa had + V3 và had been + V-ing, tự xếp và gõ đúng câu, nghe chép được câu có had và had been, và kể một chuyện của chính mình.",
+   "use_vi": "Speaking Part 2 dùng had + V3 và had been + V-ing để kể việc đã xảy ra trước chuyện chính: I had been working for three hours when my laptop crashed. Writing Task 1 dạng bản đồ có hai mốc năm đã qua d",
+   "vocab": [],
+   "check": [
+    "G1D23Q2",
+    "G1D23T2",
+    "G1D23Q5",
+    "G1D23T4",
+    "G1D23B1",
+    "G1D23B2",
+    "G1D23B3",
+    "G1D23B4",
+    "G1D23B5",
+    "G1D23F1",
+    "G1D23F2",
+    "G1D23F3",
+    "G1D23F4",
+    "G1D23F5",
+    "G1D23D1",
+    "G1D23M1"
+   ]
+  },
+  {
+   "title_vi": "Luyện theo sách · Lá thư của Charlotte",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: lá thư của charlotte.",
+   "use_vi": "Làm sau khi học thẻ: mỗi câu sai có lời giải thích, hãy tự nói lại câu đó theo ý muốn nói rồi mới sang câu sau.",
+   "check": [
+    "G1D23KW3C-1",
+    "G1D23KW3C-2",
+    "G1D23KW3C-3",
+    "G1D23KW3C-4",
+    "G1D23KW3C-5",
+    "G1D23KW3C-6",
+    "G1D23KW3C-7",
+    "G1D23KW3C-8",
+    "G1D23KW3C-9",
+    "G1D23KW3C-10",
+    "G1D23KW3C-11",
+    "G1D23KW3C-12",
+    "G1D23KW3C-13",
+    "G1D23KW3C-14",
+    "G1D23KW3C-15",
+    "G1D23KW3C-16"
+   ]
+  },
+  {
+   "title_vi": "Luyện theo sách · had + V3 hay had been + V-ing",
+   "can_do_vi": "Sau buổi này bạn đã làm xong các bài của sách ngay trong app: had + v3 hay had been + v-ing.",
+   "use_vi": "Làm sau khi học thẻ: mỗi câu sai có lời giải thích, hãy tự nói lại câu đó theo ý muốn nói rồi mới sang câu sau.",
+   "check": [
+    "G1D23KW3D-1",
+    "G1D23KW3D-2",
+    "G1D23KW3D-3",
+    "G1D23KW3D-4",
+    "G1D23KW3D-5",
+    "G1D23KW3D-6",
+    "G1D23KW3D-7",
+    "G1D23KW3D-8",
+    "G1D23KW3D-9",
+    "G1D23KW3D-10"
+   ]
+  }
+ ],
+ "editor_notes": [
+  {
+   "title": "Nguồn",
+   "body": "Ý và thứ tự giảng theo Buổi 3 của khóa học (các thì quá khứ); khung và số trang theo Destination B2, Unit 3. Ví dụ, câu hỏi và lời giải thích do khóa học tự soạn, đã đối chiếu (docs/WEEK2_PLAN.md)."
+  }
+ ]
+}

@@ -5062,6 +5062,469 @@
    "tips_vi": []
   },
   {
+   "id": "G1D23B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 2 · Ngày 3",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Khi tôi tới ga thì tàu đã chạy mất.",
+   "tiles": [
+    "got",
+    "to",
+    "the",
+    "the",
+    "left",
+    "I",
+    "had",
+    "train",
+    "When",
+    "station,"
+   ],
+   "answers": [
+    "When I got to the station, the train had left"
+   ]
+  },
+  {
+   "id": "G1D23B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 2 · Ngày 3",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi nhận ra mình đã xóa nhầm tệp.",
+   "tiles": [
+    "realised",
+    "file",
+    "I",
+    "wrong",
+    "I",
+    "the",
+    "deleted",
+    "had"
+   ],
+   "answers": [
+    "I realised I had deleted the wrong file"
+   ]
+  },
+  {
+   "id": "G1D23B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 2 · Ngày 3",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Chúng tôi đã chờ suốt một tiếng.",
+   "tiles": [
+    "waiting",
+    "been",
+    "We",
+    "had",
+    "hour",
+    "for",
+    "an"
+   ],
+   "answers": [
+    "We had been waiting for an hour"
+   ]
+  },
+  {
+   "id": "G1D23B4",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 2 · Ngày 3",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Trước đó tôi chưa từng dùng ứng dụng này.",
+   "tiles": [
+    "had",
+    "I",
+    "before",
+    "this",
+    "used",
+    "never",
+    "app"
+   ],
+   "answers": [
+    "I had never used this app before"
+   ]
+  },
+  {
+   "id": "G1D23B5",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 2 · Ngày 3",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "May mà tôi đã sao lưu các tệp.",
+   "tiles": [
+    "a",
+    "of",
+    "Luckily,",
+    "made",
+    "I",
+    "backup",
+    "had",
+    "files",
+    "my"
+   ],
+   "answers": [
+    "Luckily, I had made a backup of my files"
+   ]
+  },
+  {
+   "id": "G1D23F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 2 · Ngày 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "By the time I got back, he ( ㉠ ) (fix) my laptop.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "had fixed",
+      "'d fixed"
+     ],
+     "common_errors_vi": "Sửa xong trước lúc tôi quay lại → had + V3."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D23F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 2 · Ngày 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "The app crashed because the developers ( ㉠ ) (not / test) it properly.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "hadn't tested",
+      "had not tested",
+      "'d not tested"
+     ],
+     "common_errors_vi": "Việc không thử nghiệm xảy ra trước khi ứng dụng sập → hadn't + V3."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D23F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 2 · Ngày 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "She ( ㉠ ) (work) there for ten years when she retired.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "had been working",
+      "had worked",
+      "'d been working",
+      "'d worked"
+     ],
+     "common_errors_vi": "Nhấn thời lượng mười năm trước mốc nghỉ hưu → had been working. had worked cũng được chấp nhận."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D23F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 2 · Ngày 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "The road was wet because it ( ㉠ ) (rain).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "had been raining",
+      "'d been raining"
+     ],
+     "common_errors_vi": "Mưa vừa dừng, để lại dấu vết là mặt đường ướt → had been + V-ing."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D23F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 2 · Ngày 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "It was the first time I ( ㉠ ) (fly).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "had flown",
+      "'d flown"
+     ],
+     "common_errors_vi": "It was the first time + had + V3. fly, flew, flown."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D23KW3D-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · had + V3 hay had been + V-ing (1/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc: had + V3 hoặc had been + V-ing, có thể ở dạng phủ định. Kết quả, số lượng, trải nghiệm, động từ trạng thái: dạng đơn. Thời lượng kéo dài, dấu vết: dạng tiếp diễn.",
+   "text": "By the time he died, Beethoven ( ㉠ ) (write) nine symphonies.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "had written",
+      "'d written"
+     ],
+     "common_errors_vi": "Kết quả có số lượng (chín bản giao hưởng) xong trước mốc ông qua đời → had + V3. written đọc /ˈrɪtn/."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D23KW3D-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · had + V3 hay had been + V-ing (2/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc: had + V3 hoặc had been + V-ing, có thể ở dạng phủ định. Kết quả, số lượng, trải nghiệm, động từ trạng thái: dạng đơn. Thời lượng kéo dài, dấu vết: dạng tiếp diễn.",
+   "text": "We chose the Hotel Rio because we ( ㉠ ) (stay) there before.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "had stayed",
+      "'d stayed"
+     ],
+     "common_errors_vi": "Trải nghiệm trước lúc chọn khách sạn, có `before` → had + V3. chose đọc /tʃəʊz/."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D23KW3D-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · had + V3 hay had been + V-ing (3/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc: had + V3 hoặc had been + V-ing, có thể ở dạng phủ định. Kết quả, số lượng, trải nghiệm, động từ trạng thái: dạng đơn. Thời lượng kéo dài, dấu vết: dạng tiếp diễn.",
+   "text": "We ( ㉠ ) (wait) for over an hour when the train finally arrived.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "had been waiting",
+      "'d been waiting"
+     ],
+     "common_errors_vi": "Thời lượng kéo dài `for over an hour` tới lúc tàu đến → had been + V-ing. Ngoài đời, had waited vẫn được hiểu."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D23KW3D-4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · had + V3 hay had been + V-ing (4/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc: had + V3 hoặc had been + V-ing, có thể ở dạng phủ định. Kết quả, số lượng, trải nghiệm, động từ trạng thái: dạng đơn. Thời lượng kéo dài, dấu vết: dạng tiếp diễn.",
+   "text": "I was completely out of breath because I ( ㉠ ) (run).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "had been running",
+      "'d been running"
+     ],
+     "common_errors_vi": "Việc chạy vừa dừng, để lại dấu vết là hết hơi → had been + V-ing. breath đọc /breθ/."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D23KW3D-5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · had + V3 hay had been + V-ing (5/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc: had + V3 hoặc had been + V-ing, có thể ở dạng phủ định. Kết quả, số lượng, trải nghiệm, động từ trạng thái: dạng đơn. Thời lượng kéo dài, dấu vết: dạng tiếp diễn.",
+   "text": "I ( ㉠ ) (see) the film before, so I knew how it ended.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "had seen",
+      "'d seen"
+     ],
+     "common_errors_vi": "Trải nghiệm trước đó, có `before` → had + V3. ended đọc /ˈendɪd/."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D23KW3D-6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · had + V3 hay had been + V-ing (6/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc: had + V3 hoặc had been + V-ing, có thể ở dạng phủ định. Kết quả, số lượng, trải nghiệm, động từ trạng thái: dạng đơn. Thời lượng kéo dài, dấu vết: dạng tiếp diễn.",
+   "text": "When he got married, I ( ㉠ ) (know) Chris for about two years.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "had known",
+      "'d known"
+     ],
+     "common_errors_vi": "Quen nhau trước mốc anh ấy cưới; know là động từ trạng thái → had + V3, không dùng tiếp diễn."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D23KW3D-7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · had + V3 hay had been + V-ing (7/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc: had + V3 hoặc had been + V-ing, có thể ở dạng phủ định. Kết quả, số lượng, trải nghiệm, động từ trạng thái: dạng đơn. Thời lượng kéo dài, dấu vết: dạng tiếp diễn.",
+   "text": "Johnson ( ㉠ ) (get) ready for the race for six months and finally the big moment came.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "had been getting",
+      "'d been getting"
+     ],
+     "common_errors_vi": "Cụm cố định get ready, thời lượng `for six months` → had been + V-ing."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D23KW3D-8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · had + V3 hay had been + V-ing (8/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc: had + V3 hoặc had been + V-ing, có thể ở dạng phủ định. Kết quả, số lượng, trải nghiệm, động từ trạng thái: dạng đơn. Thời lượng kéo dài, dấu vết: dạng tiếp diễn.",
+   "text": "Vivian ( ㉠ ) (have) computer lessons for very long, so she wasn't sure how to use the Internet.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "hadn't been having",
+      "had not been having",
+      "'d not been having"
+     ],
+     "common_errors_vi": "Phủ định, nhấn thời lượng `for very long` → hadn't been + V-ing. have lessons là cụm cố định."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D23KW3D-9",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · had + V3 hay had been + V-ing (9/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc: had + V3 hoặc had been + V-ing, có thể ở dạng phủ định. Kết quả, số lượng, trải nghiệm, động từ trạng thái: dạng đơn. Thời lượng kéo dài, dấu vết: dạng tiếp diễn.",
+   "text": "Holly ( ㉠ ) (eat) oysters before, so she wasn't sure what to do with them.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "hadn't eaten",
+      "had not eaten",
+      "had never eaten",
+      "'d not eaten",
+      "'d never eaten"
+     ],
+     "common_errors_vi": "Chưa từng có trải nghiệm này trước đó, có `before` → hadn't + V3."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D23KW3D-10",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · had + V3 hay had been + V-ing (10/10)",
+   "points": 3,
+   "instruction_vi": "Gõ dạng đúng của động từ trong ngoặc: had + V3 hoặc had been + V-ing, có thể ở dạng phủ định. Kết quả, số lượng, trải nghiệm, động từ trạng thái: dạng đơn. Thời lượng kéo dài, dấu vết: dạng tiếp diễn.",
+   "text": "I ( ㉠ ) (listen) to my new CD for a few minutes when the CD player started making a funny noise.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "had been listening",
+      "'d been listening"
+     ],
+     "common_errors_vi": "Thời lượng `for a few minutes` tới lúc đầu đĩa kêu → had been + V-ing."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
    "id": "G1D5KA18-1",
    "skill": "build",
    "type": "write_fill",

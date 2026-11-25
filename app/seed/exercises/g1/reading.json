@@ -6521,6 +6521,1086 @@
    }
   },
   {
+   "id": "G1D23T1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Tuần 2 · Ngày 3",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D23T1",
+     "options": [
+      {
+       "id": "1",
+       "text": "quá khứ ━━▲ (kéo dài tới một mốc quá khứ) ┄┄ bây giờ"
+      },
+      {
+       "id": "2",
+       "text": "quá khứ ● (một mốc nói được) ┄┄ bây giờ"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ━━◯ (vừa dừng trước mốc, còn dấu vết) ┄┄ bây giờ"
+      },
+      {
+       "id": "4",
+       "text": "quá khứ ●┄▲ (xong trước một mốc quá khứ) ┄┄ bây giờ"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Tàu chạy trước lúc tôi tới: một việc xong trước mốc → had + V3.",
+     "tags": [],
+     "prompt_vi": "«When I got to the station, the train had left.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D23T2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Tuần 2 · Ngày 3",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D23T2",
+     "options": [
+      {
+       "id": "1",
+       "text": "quá khứ ●┄▲ (xong trước một mốc quá khứ) ┄┄ bây giờ"
+      },
+      {
+       "id": "2",
+       "text": "quá khứ ━━▲ (kéo dài tới một mốc quá khứ) ┄┄ bây giờ"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ━━◯ (vừa dừng trước mốc, còn dấu vết) ┄┄ bây giờ"
+      },
+      {
+       "id": "4",
+       "text": "quá khứ ● (một mốc nói được) ┄┄ bây giờ"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Hai vế quá khứ đơn: tàu chạy đúng lúc tôi tới, một mốc.",
+     "tags": [],
+     "prompt_vi": "«When I got to the station, the train left.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D23T3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Tuần 2 · Ngày 3",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D23T3",
+     "options": [
+      {
+       "id": "1",
+       "text": "quá khứ ● (một mốc nói được) ┄┄ bây giờ"
+      },
+      {
+       "id": "2",
+       "text": "quá khứ ━━▲ (kéo dài tới một mốc quá khứ) ┄┄ bây giờ"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ●┄▲ (xong trước một mốc quá khứ) ┄┄ bây giờ"
+      },
+      {
+       "id": "4",
+       "text": "quá khứ ━━◯ (vừa dừng trước mốc, còn dấu vết) ┄┄ bây giờ"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Việc chờ kéo dài hơn một tiếng, tới lúc xe buýt đến → had been + V-ing.",
+     "tags": [],
+     "prompt_vi": "«We had been waiting for over an hour when the bus finally came.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D23T4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Tuần 2 · Ngày 3",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D23T4",
+     "options": [
+      {
+       "id": "1",
+       "text": "quá khứ ━━▲ (kéo dài tới một mốc quá khứ) ┄┄ bây giờ"
+      },
+      {
+       "id": "2",
+       "text": "quá khứ ━━◯ (vừa dừng trước mốc, còn dấu vết) ┄┄ bây giờ"
+      },
+      {
+       "id": "3",
+       "text": "quá khứ ● (một mốc nói được) ┄┄ bây giờ"
+      },
+      {
+       "id": "4",
+       "text": "quá khứ ●┄▲ (xong trước một mốc quá khứ) ┄┄ bây giờ"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Việc khóc vừa dừng, để lại dấu vết lúc đó là đôi mắt đỏ.",
+     "tags": [],
+     "prompt_vi": "«Her eyes were red because she had been crying.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D23I1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 2 · Ngày 3",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D23I1",
+     "options": [
+      {
+       "id": "1",
+       "text": "When I arrived at the cinema, the film started."
+      },
+      {
+       "id": "2",
+       "text": "When I arrived at the cinema, the film had already started."
+      },
+      {
+       "id": "3",
+       "text": "When I arrived at the cinema, the film has already started."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Phim bắt đầu trước lúc bạn tới → had + V3. The film started nghĩa là phim bắt đầu đúng lúc bạn tới.",
+     "tags": [],
+     "prompt_vi": "Bạn tới rạp lúc bảy giờ mười; phim bắt đầu lúc bảy giờ. Bạn kể lại."
+    }
+   ]
+  },
+  {
+   "id": "G1D23I2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 2 · Ngày 3",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D23I2",
+     "options": [
+      {
+       "id": "1",
+       "text": "I had met Jim yesterday. I bought a new phone earlier that day."
+      },
+      {
+       "id": "2",
+       "text": "I met Jim yesterday. I have bought a new phone earlier that day."
+      },
+      {
+       "id": "3",
+       "text": "I met Jim yesterday. I had bought a new phone earlier that day."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Gặp Jim là mốc: quá khứ đơn. Mua điện thoại xảy ra trước mốc đó: had + V3.",
+     "tags": [],
+     "prompt_vi": "Hôm qua bạn gặp Jim; trước đó trong ngày, bạn đã mua một chiếc điện thoại mới. Bạn kể."
+    }
+   ]
+  },
+  {
+   "id": "G1D23I3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 2 · Ngày 3",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D23I3",
+     "options": [
+      {
+       "id": "1",
+       "text": "I had my first judo lesson yesterday."
+      },
+      {
+       "id": "2",
+       "text": "I have had my first judo lesson yesterday."
+      },
+      {
+       "id": "3",
+       "text": "I had had my first judo lesson yesterday."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Việc không xảy ra trước việc nào khác → quá khứ đơn. Có yesterday nên không dùng hiện tại hoàn thành.",
+     "tags": [],
+     "prompt_vi": "Hôm qua bạn học buổi judo đầu tiên. Bạn kể."
+    }
+   ]
+  },
+  {
+   "id": "G1D23I4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 2 · Ngày 3",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D23I4",
+     "options": [
+      {
+       "id": "1",
+       "text": "Before I met Nga, I had been running for two hours."
+      },
+      {
+       "id": "2",
+       "text": "Before I met Nga, I had been run for two hours."
+      },
+      {
+       "id": "3",
+       "text": "Before I met Nga, I have been running for two hours."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Thời lượng kéo dài tới mốc gặp Nga → had been + V-ing.",
+     "tags": [],
+     "prompt_vi": "Bạn đã chạy suốt hai tiếng rồi mới gặp Nga. Bạn kể."
+    }
+   ]
+  },
+  {
+   "id": "G1D23I5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 2 · Ngày 3",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D23I5",
+     "options": [
+      {
+       "id": "1",
+       "text": "I have known Lan for ten years when we started the company."
+      },
+      {
+       "id": "2",
+       "text": "I had known Lan for ten years when we started the company."
+      },
+      {
+       "id": "3",
+       "text": "I had been knowing Lan for ten years when we started the company."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "know là động từ trạng thái → had + V3, không dùng tiếp diễn.",
+     "tags": [],
+     "prompt_vi": "Lúc hai người mở công ty, bạn đã quen Lan được mười năm. Bạn kể."
+    }
+   ]
+  },
+  {
+   "id": "G1D23Q1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 3",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D23Q1",
+     "options": [
+      {
+       "id": "1",
+       "text": "had finished"
+      },
+      {
+       "id": "2",
+       "text": "had finish"
+      },
+      {
+       "id": "3",
+       "text": "finishes"
+      },
+      {
+       "id": "4",
+       "text": "has finished"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Bữa tiệc kết thúc trước lúc chúng tôi tới → had + V3.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "By the time we arrived, the party ( )."
+   }
+  },
+  {
+   "id": "G1D23Q2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Chọn đáp án · Tuần 2 · Ngày 3",
+   "instruction_vi": "Chọn phương án đúng.",
+   "questions": [
+    {
+     "id": "G1D23Q2",
+     "options": [
+      {
+       "id": "1",
+       "text": "She had written three emails before lunch."
+      },
+      {
+       "id": "2",
+       "text": "She had write three emails before lunch."
+      },
+      {
+       "id": "3",
+       "text": "She had writing three emails before lunch."
+      },
+      {
+       "id": "4",
+       "text": "She had wrote three emails before lunch."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Sau had là V3: write, wrote, written. written đọc /ˈrɪtn/.",
+     "tags": [],
+     "prompt_vi": "Câu nào đúng?"
+    }
+   ]
+  },
+  {
+   "id": "G1D23Q3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 3",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D23Q3",
+     "options": [
+      {
+       "id": "1",
+       "text": "leave"
+      },
+      {
+       "id": "2",
+       "text": "have left"
+      },
+      {
+       "id": "3",
+       "text": "had leaving"
+      },
+      {
+       "id": "4",
+       "text": "had left"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Để quên chìa khóa xảy ra trước lúc nhận ra → had + V3.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "When I got home, I realised I ( ) my keys at the office."
+   }
+  },
+  {
+   "id": "G1D23Q4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 3",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D23Q4",
+     "options": [
+      {
+       "id": "1",
+       "text": "have had"
+      },
+      {
+       "id": "2",
+       "text": "had"
+      },
+      {
+       "id": "3",
+       "text": "have"
+      },
+      {
+       "id": "4",
+       "text": "had had"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Chỉ kể một việc hôm qua, không xảy ra trước việc nào → quá khứ đơn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Yesterday I ( ) a great idea for my project."
+   }
+  },
+  {
+   "id": "G1D23Q5",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 3",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D23Q5",
+     "options": [
+      {
+       "id": "1",
+       "text": "was using"
+      },
+      {
+       "id": "2",
+       "text": "have used"
+      },
+      {
+       "id": "3",
+       "text": "use"
+      },
+      {
+       "id": "4",
+       "text": "had used"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "It was the first time + had + V3.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "It was the first time I ( ) a smartwatch."
+   }
+  },
+  {
+   "id": "G1D23Q6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 3",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D23Q6",
+     "options": [
+      {
+       "id": "1",
+       "text": "have been waiting"
+      },
+      {
+       "id": "2",
+       "text": "had been wait"
+      },
+      {
+       "id": "3",
+       "text": "had been waiting"
+      },
+      {
+       "id": "4",
+       "text": "are waiting"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Thời lượng kéo dài tới một mốc quá khứ → had been + V-ing.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "We ( ) for over an hour when the bus finally came."
+   }
+  },
+  {
+   "id": "G1D23Q7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 3",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D23Q7",
+     "options": [
+      {
+       "id": "1",
+       "text": "is crying"
+      },
+      {
+       "id": "2",
+       "text": "had been cry"
+      },
+      {
+       "id": "3",
+       "text": "has been crying"
+      },
+      {
+       "id": "4",
+       "text": "had been crying"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Việc vừa dừng, còn dấu vết lúc đó → had been + V-ing.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Her eyes were red because she ( )."
+   }
+  },
+  {
+   "id": "G1D23Q8",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 3",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D23Q8",
+     "options": [
+      {
+       "id": "1",
+       "text": "had been selling"
+      },
+      {
+       "id": "2",
+       "text": "had sold"
+      },
+      {
+       "id": "3",
+       "text": "was selling"
+      },
+      {
+       "id": "4",
+       "text": "has sold"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Nhấn kết quả, số lượng → had + V3. had been selling nhấn quá trình, không hợp với con số đã đạt.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "By 2020, the company ( ) a million phones."
+   }
+  },
+  {
+   "id": "G1D23Q9",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 2 · Ngày 3",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D23Q9",
+     "options": [
+      {
+       "id": "1",
+       "text": "have known"
+      },
+      {
+       "id": "2",
+       "text": "had been knowing"
+      },
+      {
+       "id": "3",
+       "text": "had known"
+      },
+      {
+       "id": "4",
+       "text": "know"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "know là động từ trạng thái → had + V3.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I ( ) Lan for ten years when we started the company."
+   }
+  },
+  {
+   "id": "G1D23KW3C-1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Lá thư của Charlotte (1/16)",
+   "instruction_vi": "Chọn đáp án đúng cho từng chỗ trống. Đọc trọn cả câu, cả câu trước và câu sau, rồi hỏi: việc này có xảy ra trước một việc quá khứ khác không? Không thì dùng quá khứ đơn.",
+   "questions": [
+    {
+     "id": "G1D23KW3C-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "just left"
+      },
+      {
+       "id": "2",
+       "text": "had just left"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Rời nhà đi học xảy ra trước lúc nhìn thấy bác đưa thư (`saw`) → `had just left`.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I ( ) for school when I saw the postman and he gave it to me."
+   }
+  },
+  {
+   "id": "G1D23KW3C-2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Lá thư của Charlotte (2/16)",
+   "instruction_vi": "Chọn đáp án đúng cho từng chỗ trống. Đọc trọn cả câu, cả câu trước và câu sau, rồi hỏi: việc này có xảy ra trước một việc quá khứ khác không? Không thì dùng quá khứ đơn.",
+   "questions": [
+    {
+     "id": "G1D23KW3C-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "gave"
+      },
+      {
+       "id": "2",
+       "text": "had given"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Bác đưa thư trao thư ngay lúc gặp: việc nối tiếp → quá khứ đơn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I had just left for school when I saw the postman and he ( ) it to me."
+   }
+  },
+  {
+   "id": "G1D23KW3C-3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Lá thư của Charlotte (3/16)",
+   "instruction_vi": "Chọn đáp án đúng cho từng chỗ trống. Đọc trọn cả câu, cả câu trước và câu sau, rồi hỏi: việc này có xảy ra trước một việc quá khứ khác không? Không thì dùng quá khứ đơn.",
+   "questions": [
+    {
+     "id": "G1D23KW3C-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "read"
+      },
+      {
+       "id": "2",
+       "text": "had read"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Kể tiếp: đọc thư trong giờ Toán → quá khứ đơn. read ở quá khứ đọc /red/.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "It was really funny! I ( ) it during maths."
+   }
+  },
+  {
+   "id": "G1D23KW3C-4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Lá thư của Charlotte (4/16)",
+   "instruction_vi": "Chọn đáp án đúng cho từng chỗ trống. Đọc trọn cả câu, cả câu trước và câu sau, rồi hỏi: việc này có xảy ra trước một việc quá khứ khác không? Không thì dùng quá khứ đơn.",
+   "questions": [
+    {
+     "id": "G1D23KW3C-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "had made"
+      },
+      {
+       "id": "2",
+       "text": "made"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Chuỗi việc nối tiếp → quá khứ đơn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I read it during maths and it ( ) me laugh."
+   }
+  },
+  {
+   "id": "G1D23KW3C-5",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Lá thư của Charlotte (5/16)",
+   "instruction_vi": "Chọn đáp án đúng cho từng chỗ trống. Đọc trọn cả câu, cả câu trước và câu sau, rồi hỏi: việc này có xảy ra trước một việc quá khứ khác không? Không thì dùng quá khứ đơn.",
+   "questions": [
+    {
+     "id": "G1D23KW3C-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "got"
+      },
+      {
+       "id": "2",
+       "text": "had got"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Kể tiếp một việc → quá khứ đơn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I almost ( ) in trouble!"
+   }
+  },
+  {
+   "id": "G1D23KW3C-6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Lá thư của Charlotte (6/16)",
+   "instruction_vi": "Chọn đáp án đúng cho từng chỗ trống. Đọc trọn cả câu, cả câu trước và câu sau, rồi hỏi: việc này có xảy ra trước một việc quá khứ khác không? Không thì dùng quá khứ đơn.",
+   "questions": [
+    {
+     "id": "G1D23KW3C-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "had had"
+      },
+      {
+       "id": "2",
+       "text": "had"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Việc này xảy ra trước việc quá khứ nào? Không có: chỉ có `yesterday` và vế hiện tại `I'm excited` → quá khứ đơn `had`.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Anyway, I'm excited because I ( ) my first judo lesson yesterday."
+   }
+  },
+  {
+   "id": "G1D23KW3C-7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Lá thư của Charlotte (7/16)",
+   "instruction_vi": "Chọn đáp án đúng cho từng chỗ trống. Đọc trọn cả câu, cả câu trước và câu sau, rồi hỏi: việc này có xảy ra trước một việc quá khứ khác không? Không thì dùng quá khứ đơn.",
+   "questions": [
+    {
+     "id": "G1D23KW3C-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "had been"
+      },
+      {
+       "id": "2",
+       "text": "was"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Bị muộn là kết quả được kể lại → `was`. Nguyên nhân xảy ra trước, là việc để quên đồ ở nhà, mới chia had + V3.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I ( ) late for the lesson because when I got there, I suddenly realised I had left my judo suit at home!"
+   }
+  },
+  {
+   "id": "G1D23KW3C-8",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Lá thư của Charlotte (8/16)",
+   "instruction_vi": "Chọn đáp án đúng cho từng chỗ trống. Đọc trọn cả câu, cả câu trước và câu sau, rồi hỏi: việc này có xảy ra trước một việc quá khứ khác không? Không thì dùng quá khứ đơn.",
+   "questions": [
+    {
+     "id": "G1D23KW3C-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "had got"
+      },
+      {
+       "id": "2",
+       "text": "got"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Lúc đến nơi là mốc → quá khứ đơn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I was late for the lesson because when I ( ) there, I suddenly realised I had left my judo suit at home!"
+   }
+  },
+  {
+   "id": "G1D23KW3C-9",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Lá thư của Charlotte (9/16)",
+   "instruction_vi": "Chọn đáp án đúng cho từng chỗ trống. Đọc trọn cả câu, cả câu trước và câu sau, rồi hỏi: việc này có xảy ra trước một việc quá khứ khác không? Không thì dùng quá khứ đơn.",
+   "questions": [
+    {
+     "id": "G1D23KW3C-9",
+     "options": [
+      {
+       "id": "1",
+       "text": "had left"
+      },
+      {
+       "id": "2",
+       "text": "left"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Để quên bộ đồ xảy ra trước lúc đến nơi và nhận ra → `had left`.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I was late for the lesson because when I got there, I suddenly realised I ( ) my judo suit at home!"
+   }
+  },
+  {
+   "id": "G1D23KW3C-10",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Lá thư của Charlotte (10/16)",
+   "instruction_vi": "Chọn đáp án đúng cho từng chỗ trống. Đọc trọn cả câu, cả câu trước và câu sau, rồi hỏi: việc này có xảy ra trước một việc quá khứ khác không? Không thì dùng quá khứ đơn.",
+   "questions": [
+    {
+     "id": "G1D23KW3C-10",
+     "options": [
+      {
+       "id": "1",
+       "text": "went"
+      },
+      {
+       "id": "2",
+       "text": "had gone"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Phát hiện quên đồ rồi mới về nhà lấy: việc tiếp theo → quá khứ đơn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "So I ( ) all the way home and when I got back, the lesson had already begun."
+   }
+  },
+  {
+   "id": "G1D23KW3C-11",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Lá thư của Charlotte (11/16)",
+   "instruction_vi": "Chọn đáp án đúng cho từng chỗ trống. Đọc trọn cả câu, cả câu trước và câu sau, rồi hỏi: việc này có xảy ra trước một việc quá khứ khác không? Không thì dùng quá khứ đơn.",
+   "questions": [
+    {
+     "id": "G1D23KW3C-11",
+     "options": [
+      {
+       "id": "1",
+       "text": "got"
+      },
+      {
+       "id": "2",
+       "text": "had got"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Lúc quay lại là mốc → quá khứ đơn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "So I went all the way home and when I ( ) back, the lesson had already begun."
+   }
+  },
+  {
+   "id": "G1D23KW3C-12",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Lá thư của Charlotte (12/16)",
+   "instruction_vi": "Chọn đáp án đúng cho từng chỗ trống. Đọc trọn cả câu, cả câu trước và câu sau, rồi hỏi: việc này có xảy ra trước một việc quá khứ khác không? Không thì dùng quá khứ đơn.",
+   "questions": [
+    {
+     "id": "G1D23KW3C-12",
+     "options": [
+      {
+       "id": "1",
+       "text": "already began"
+      },
+      {
+       "id": "2",
+       "text": "had already begun"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Buổi học bắt đầu trước lúc tôi quay lại → `had already begun`. Đọc rõ had, không đọc thành has.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "So I went all the way home and when I got back, the lesson ( )."
+   }
+  },
+  {
+   "id": "G1D23KW3C-13",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Lá thư của Charlotte (13/16)",
+   "instruction_vi": "Chọn đáp án đúng cho từng chỗ trống. Đọc trọn cả câu, cả câu trước và câu sau, rồi hỏi: việc này có xảy ra trước một việc quá khứ khác không? Không thì dùng quá khứ đơn.",
+   "questions": [
+    {
+     "id": "G1D23KW3C-13",
+     "options": [
+      {
+       "id": "1",
+       "text": "learned"
+      },
+      {
+       "id": "2",
+       "text": "had learned"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Kể tiếp việc trong buổi học, không xảy ra trước việc nào → quá khứ đơn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "The instructor was really nice, though, and I ( ) how to do some basic throws."
+   }
+  },
+  {
+   "id": "G1D23KW3C-14",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Lá thư của Charlotte (14/16)",
+   "instruction_vi": "Chọn đáp án đúng cho từng chỗ trống. Đọc trọn cả câu, cả câu trước và câu sau, rồi hỏi: việc này có xảy ra trước một việc quá khứ khác không? Không thì dùng quá khứ đơn.",
+   "questions": [
+    {
+     "id": "G1D23KW3C-14",
+     "options": [
+      {
+       "id": "1",
+       "text": "spoke"
+      },
+      {
+       "id": "2",
+       "text": "had spoken"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Vế The last time là một mốc đã qua → quá khứ đơn. Đừng nhầm với mẫu It was the first time.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "The last time I ( ) to you, you talked about giving it up."
+   }
+  },
+  {
+   "id": "G1D23KW3C-15",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Lá thư của Charlotte (15/16)",
+   "instruction_vi": "Chọn đáp án đúng cho từng chỗ trống. Đọc trọn cả câu, cả câu trước và câu sau, rồi hỏi: việc này có xảy ra trước một việc quá khứ khác không? Không thì dùng quá khứ đơn.",
+   "questions": [
+    {
+     "id": "G1D23KW3C-15",
+     "options": [
+      {
+       "id": "1",
+       "text": "had talked"
+      },
+      {
+       "id": "2",
+       "text": "talked"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Kể việc ở đúng lần nói chuyện đó, không có tính trước sau → quá khứ đơn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "The last time I spoke to you, you ( ) about giving it up."
+   }
+  },
+  {
+   "id": "G1D23KW3C-16",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Lá thư của Charlotte (16/16)",
+   "instruction_vi": "Chọn đáp án đúng cho từng chỗ trống. Đọc trọn cả câu, cả câu trước và câu sau, rồi hỏi: việc này có xảy ra trước một việc quá khứ khác không? Không thì dùng quá khứ đơn.",
+   "questions": [
+    {
+     "id": "G1D23KW3C-16",
+     "options": [
+      {
+       "id": "1",
+       "text": "had you decided"
+      },
+      {
+       "id": "2",
+       "text": "did you decide"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Hỏi về một việc đã qua: dùng thì đơn giản nhất → `did you decide`.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "The last time I spoke to you, you talked about giving it up. What ( )?"
+   }
+  },
+  {
    "id": "G1D5KB18-1",
    "skill": "reading",
    "type": "read_cloze",
