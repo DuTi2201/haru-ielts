@@ -163,7 +163,7 @@ def lesson_of(d: dict) -> tuple[dict, dict[str, list[dict]], dict[str, list[str]
         ex_id = f"{pid}{it['kind']}{count[it['kind']]}"
         title, instruction = KIND[it["kind"]]
         if it["kind"] == "Q" and "( )" not in it["stem"]:  # a question about the language itself, not a sentence with a gap
-            ex = B.mcq(ex_id, f"{title} · {dlab(n)}", None, it["stem"], it["options"], it["why"], instruction)
+            ex = B.mcq(ex_id, f"Chọn đáp án · {dlab(n)}", None, it["stem"], it["options"], it["why"], "Chọn phương án đúng.")
         elif it["kind"] == "Q":
             ex = B.mcq(ex_id, f"{title} · {dlab(n)}", it["stem"], None, it["options"], it["why"], instruction)
         elif it["kind"] == "T":

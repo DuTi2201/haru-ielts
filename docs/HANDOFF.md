@@ -418,3 +418,13 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
 - `scripts/g1/build.py` không còn gắn `[sách · bài (trang)]` sau lời giải thích; `pack_title` không ghi tên sách. Các bài đổi tiêu đề giữ slug cũ qua `slug_title`.
 - Còn lại, chờ chủ dự án quyết: lộ trình B1 (dòng "📖 Trong sách: Unit …, trang …" trong ghi chú của 42 bài, chủ đề "Destination B1 · Lấy gốc", trang tổng quan, trang giới thiệu).
 - Kiểm thử cũ đếm "42 bài" (test_dictation, test_feathers, test_mistake_book, test_progress) đã lỗi thời từ khi có G1, cần cập nhật.
+
+## Tuần 2 · Ngày 1 — Quá khứ đơn (g1-d21), đã soát và deploy
+
+- Nguồn: `scripts/g1/days.txt` (`#D 21`), bài giảng `scripts/g1/lecture_w2d1.py`, kiểm thử `tests/test_lesson_w2d1_quality.py`. Kế hoạch tuần: `docs/WEEK2_PLAN.md`.
+- `build.py` hỗ trợ tuần: `WEEK`, `DAYNO`, `TOPIC_BY_WEEK`, `BOOK_BY_WEEK`, `EDITOR_BY_WEEK`; nhãn bài tập "Tuần 2 · Ngày 1". Câu Q không có "( )" là câu hỏi về ngôn ngữ: tiêu đề "Chọn đáp án", hướng dẫn "Chọn phương án đúng."
+- Agent cấp cao đã soát hai vòng (22 điểm, rồi kiểm lại). Đã sửa: quy tắc gấp đôi phụ âm; The last time và since không còn nói tuyệt đối; lời giảng gọi âm đuôi -ed bằng từ ví dụ (worked, played, wanted) để giọng đọc không đánh vần chữ cái; câu tiếng Anh luôn tách dòng riêng khỏi lời tiếng Việt; buổi 2 tối đa 7 câu, phần dư mở đầu buổi 3; nhãn bảng ngắn cho màn 375 px; hình improve/prototype/engine/design thay mới.
+- Quy tắc viết lời giảng rút ra: không để chữ cái Latin đứng lẻ (t, d, e d, id) trong câu tiếng Việt; câu tiếng Anh trong lời giảng là dòng `en` riêng.
+- Chưa làm: xem trực quan trên tài khoản đăng nhập; hình improve (cột tăng) cần so cạnh develop (biểu đồ đi lên) trên màn hẹp.
+- Kiểm thử còn lỗi đã biết: `test_a_sitting_is_not_too_heavy` (Tuần 1 Ngày 1 có 4 thẻ), chờ chủ dự án quyết.
+- Tiếp theo: Ngày 2 — quá khứ tiếp diễn (bài A, B của Unit 3).

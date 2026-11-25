@@ -225,7 +225,7 @@
   {
    "pattern": "since, in, for · bẫy dấu hiệu",
    "meaning_vi": "since đi với thì hoàn thành, in + năm đã qua đi với quá khứ đơn, for đi được với cả hai",
-   "usage_context_vi": "side: since 2003 | I have studied the piano since 2003. | vẫn học | span\nside: in 2003 | I studied the piano in 2003. | một năm đã qua | point\n!`for` chỉ cho biết độ dài. Việc còn tiếp: hoàn thành. Việc đã dừng: quá khứ đơn.\nside: for · vẫn học | I have studied the piano for two years. | còn tiếp | span\nside: for · đã nghỉ | I studied the piano for two years, then I stopped. | đã dừng | ended\n!Sau since là một mốc, hoặc một vế quá khứ đơn: I have lived here since I moved here in 2019.",
+   "usage_context_vi": "side: since 2003 | I have studied the piano since 2003. | vẫn học | span\nside: in 2003 | I studied the piano in 2003. | một năm đã qua | point\n!`for` chỉ cho biết độ dài. Việc còn tiếp: hoàn thành. Việc đã dừng: quá khứ đơn.\nside: for · vẫn học | I have studied the piano for two years. | còn tiếp | span\nside: for · đã nghỉ | I studied the piano for two years, then I stopped. | đã dừng | ended\n!Sau since là một mốc, hoặc một vế quá khứ đơn: I have lived in Hanoi since I moved here in 2019.",
    "contrasts": [],
    "example_en": "I have studied the piano since 2003.\nI studied the piano in 2003.\nI have studied the piano for two years.\nI studied the piano for two years, then I stopped.",
    "example_vi": "Tôi học piano từ năm 2003.\nTôi học piano vào năm 2003.\nTôi học piano được hai năm rồi.\nTôi học piano hai năm, rồi nghỉ.",
@@ -568,7 +568,12 @@
        "show": "qst"
       },
       {
-       "say": "Riêng động từ be không mượn did. Ngôi I, he, she, it dùng was; ngôi you, we, they dùng were. Nói I was, không nói I were. Câu hỏi về chủ ngữ cũng không mượn did: Who invented the telephone?"
+       "say": "Riêng động từ be không mượn did. Ngôi I, he, she, it dùng was; ngôi you, we, they dùng were. Nói I was, không nói I were. Câu hỏi về chủ ngữ cũng không mượn did."
+      },
+      {
+       "en": "Who invented the telephone?",
+       "vi": "Ai phát minh ra điện thoại?",
+       "gap": true
       },
       {
        "say": "Tóm lại. Câu khẳng định: động từ thêm đuôi ed, hoặc đổi sang dạng bất quy tắc, mọi ngôi như nhau. Câu phủ định và câu hỏi: dùng didn't hoặc did, và động từ về nguyên thể.",
