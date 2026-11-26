@@ -115,7 +115,7 @@ SITTING_1 = [
         {"en": "I'm going to start a new job next month.", "vi": "Tháng sau tôi bắt đầu công việc mới.", "gap": True},
         {"say": "Cách thứ ba dùng am, is hoặc are cộng động từ đuôi ing.", "show": "w3"},
         {"en": "I'm starting a new job next month.", "vi": "Tháng sau tôi bắt đầu công việc mới.", "gap": True},
-        {"say": "Ba câu đều nói về tháng sau. Sách ngữ pháp thường chỉ gọi dạng will là tương lai đơn; ở đây gọi chung cả ba cách. Nhiều chỗ chúng thay nhau được, nhưng mỗi cách có sắc thái riêng: will hay là dự đoán hoặc quyết định ngay lúc nói, going to là dự định đã có từ trước, đuôi ing là việc đã sắp xếp.", "show": "rule"},
+        {"say": "Ba câu đều nói về tháng sau. Nhiều tài liệu ngữ pháp chỉ gọi dạng will là tương lai đơn; ở đây gọi chung cả ba cách. Nhiều chỗ chúng thay nhau được, nhưng mỗi cách có sắc thái riêng: will hay là dự đoán hoặc quyết định ngay lúc nói, going to là dự định đã có từ trước, đuôi ing là việc đã sắp xếp.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "sentence_forms", "eyebrow": "Công thức", "title": "Ba dạng câu với will",
      "data": {"rows": [
@@ -254,7 +254,7 @@ SITTING_2 = [
         {"en": "No, I don't think I will.", "vi": "Không, tôi nghĩ là không.", "gap": True, "show": "p1"},
         {"say": "Câu hai: một việc đã lên lịch, nên dùng đuôi ing."},
         {"en": "I'm starting a new job at a bank next month.", "vi": "Tháng sau tôi bắt đầu làm ở một ngân hàng.", "gap": True, "show": "p2"},
-        {"say": "Câu ba: đoán về chính mình vài năm nữa, nên dùng will, mở đầu bằng I think."},
+        {"say": "Câu ba: đoán về chính mình vài năm nữa, nên dùng will, mở đầu bằng cụm tôi nghĩ là."},
         {"en": "In a few years, I think I'll apply for a job abroad.", "vi": "Vài năm nữa, chắc tôi sẽ xin việc ở nước ngoài.", "gap": True, "show": "p3"},
         {"say": "Câu bốn: một dự đoán chung, dùng will."},
         {"en": "Most people will have several employers in their career.", "vi": "Phần lớn mọi người sẽ làm cho vài chỗ trong sự nghiệp.", "gap": True, "show": "p4"},
