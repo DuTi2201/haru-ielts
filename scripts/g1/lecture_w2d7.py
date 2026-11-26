@@ -234,8 +234,8 @@ WHY_WRONG = [
 ]
 
 POST = [
-    {"kind": "title", "hook": "Làm đúng mà không biết vì sao đúng thì lần sau vẫn có thể sai.", "lines": [
-        {"say": "Làm đúng mà không biết vì sao đúng thì lần sau vẫn có thể sai.", "show": "hook"},
+    {"kind": "title", "hook": "Bạn chọn đúng, nhưng có chỉ ra được câu nào trong bài cho đáp án đó không?", "lines": [
+        {"say": "Bạn chọn đúng, nhưng có chỉ ra được câu nào trong bài nghe cho đáp án đó không? Làm đúng mà không biết vì sao thì lần sau vẫn có thể sai.", "show": "hook"},
         {"say": "Buổi này mình đối chiếu từng câu hỏi với đúng câu trong bài nghe. Chỉ xem câu đúng, không đọc đi đọc lại đáp án sai, để đầu óc không bị nhiễu."},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Câu 21–24", "title": "Câu hỏi và cách bài nghe nói lại",

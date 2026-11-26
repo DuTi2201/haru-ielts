@@ -781,10 +781,10 @@
    "lecture": [
     {
      "kind": "title",
-     "hook": "Làm đúng mà không biết vì sao đúng thì lần sau vẫn có thể sai.",
+     "hook": "Bạn chọn đúng, nhưng có chỉ ra được câu nào trong bài cho đáp án đó không?",
      "lines": [
       {
-       "say": "Làm đúng mà không biết vì sao đúng thì lần sau vẫn có thể sai.",
+       "say": "Bạn chọn đúng, nhưng có chỉ ra được câu nào trong bài nghe cho đáp án đó không? Làm đúng mà không biết vì sao thì lần sau vẫn có thể sai.",
        "show": "hook"
       },
       {
