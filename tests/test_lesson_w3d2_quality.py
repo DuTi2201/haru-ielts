@@ -194,7 +194,7 @@ def test_typed_keys_accept_every_form_their_reason_calls_correct():
     bank = json.loads((G1.parents[1] / "app" / "seed" / "exercises" / "g1" / "build.json").read_text(encoding="utf-8"))
     items = {e["id"]: e["blanks"][0]["accepted"] for e in bank["items"] if e["id"].startswith("G1D32F")}
     assert len(items) == 5
-    assert set(items["G1D32F1"]) == {"Shall", "Can"}
+    assert set(items["G1D32F1"]) == {"Shall", "Can", "May"}
     assert set(items["G1D32F2"]) == {"Will", "Would", "Could", "Can"}
     assert set(items["G1D32F4"]) == {"Shall", "Should", "Can"}
 
