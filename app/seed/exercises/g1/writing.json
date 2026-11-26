@@ -522,6 +522,49 @@
    ]
   },
   {
+   "id": "G1D31M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Tuần 3 · Ngày 1",
+   "points": 5,
+   "instruction_vi": "Bạn nghĩ mình sẽ làm một công việc suốt cả sự nghiệp không? Trả lời trong ba, bốn câu: trả lời thẳng, một kế hoạch đã có, một dự đoán. Dự đoán dùng will; việc đã lên lịch dùng be + V-ing. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
+   "limits": {
+    "min": 8,
+    "max": 40
+   },
+   "prompt_en": "Do you think you will stay in the same job for your whole career? Answer in three or four sentences.",
+   "framework_vi": [
+    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
+    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
+    "Chọn thì theo câu trả lời đó rồi mới viết."
+   ],
+   "model_answer_en": "No, I don't think I will. I'm starting a new job at a bank next month, but I want to try other things later. I think I'll apply for a job abroad in a few years. Most people will have several employers in their career.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Thì khớp với điều bạn muốn nói.",
+    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+   ],
+   "rubric": [
+    {
+     "criterion_vi": "Đúng đề, nội dung là của chính bạn",
+     "max": 1,
+     "note_vi": "Fluency and coherence"
+    },
+    {
+     "criterion_vi": "Dự đoán, dự định bằng will; việc đã lên lịch bằng be + V-ing hoặc be going to",
+     "max": 2,
+     "note_vi": "Grammatical range"
+    },
+    {
+     "criterion_vi": "Dạng động từ đúng: will / won't + nguyên thể, am / is / are going to + nguyên thể, am / is / are + V-ing",
+     "max": 2,
+     "note_vi": "Grammatical accuracy"
+    }
+   ]
+  },
+  {
    "id": "G1D5M1",
    "skill": "writing",
    "type": "write_essay",

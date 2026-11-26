@@ -481,3 +481,18 @@ from day25 import SECTIONS as _S25  # noqa: E402  (Week 2 · Day 5: Destination 
 SECTIONS += _S25
 from day26 import SECTIONS as _S26  # noqa: E402  (Week 2 · Day 6: The steam car, questions 24-26)
 SECTIONS += _S26
+
+# ---------------------------------------------------------------- week 3, day 1 (build day 31): Destination B2 Unit 5, A (items 1, 4, 6, 8, 9)
+# Answers: the book's key (p. 232): all five are ticks; item 8 also accepts we're going to try / we're trying / to try.
+# Reasons follow the course's session 5 (stage 1: every future is a prediction; stage 5: items 1, 4, 6, 8) and
+# docs/WEEK3_PLAN.md, correction 1 (will is the natural form for a decision made while speaking).
+B5 = "Destination B2, Unit 5"
+SECTIONS += [
+    (31, "F1A", B5 + " · bài A (trang 32)", "Phần in đậm đúng hay sai", "Phần trong ngoặc «» đúng thì chọn giữ nguyên; sai thì chọn cách sửa. Hỏi trước: câu này là một dự đoán, hay một quyết định? Quyết định lúc nói, hay đã có từ trước?", "choice", [
+        "The universe «is going to continue» to expand for billions of years. | Đúng, giữ nguyên | Sai: tương lai rất xa phải dùng «will continue» | Sai: phải dùng hiện tại đơn «continues» | Đây là một dự đoán. Dự đoán thì will và be going to đều đúng, việc ở gần hay xa không quyết định thì, nên giữ nguyên. Đổi thành will continue cũng đúng, nhưng không bắt buộc.",
+        "Do you think that, in the future, people «will live» to be hundreds of years old? | Đúng, giữ nguyên | Sai: phải dùng «are living» | Sai: phải dùng hiện tại đơn «live» | Dự đoán chung về tương lai → will đúng; are going to live cũng đúng. be + V-ing dùng cho việc đã hẹn, đã lên lịch, không dùng cho dự đoán chung. Khi đọc, bật đủ hai âm s trong hundreds of years.",
+        "I know! «I'm going to have» a barbecue on my birthday! | Đúng, giữ nguyên | Sai: có «I know!» nên chỉ được dùng «I'll have» | Sai: phải dùng hiện tại đơn «I have» | Đáp án bài thi: giữ nguyên. Nếu I know! là ý vừa nảy ra lúc nói, I'll have là cách tự nhiên nhất; nếu là kế hoạch đã tính sẵn cho sinh nhật, I'm going to have hợp hơn. Cả hai đều đúng nên không có lỗi phải sửa.",
+        "We've decided «we will try» that new restaurant after the play tomorrow night. | Đúng, giữ nguyên | Sai: sau «We've decided» chỉ được dùng «we're going to try» | Sai: phải dùng hiện tại đơn «we try» | Đáp án bài thi: giữ nguyên; we're going to try, we're trying và We've decided to try cũng đúng. Đã bàn từ trước, có thể đã đặt bàn: we're going to try hợp nhất. Vừa quyết định xong ngay lúc nói: we will try vẫn được. restaurant đọc hai âm tiết kiểu Anh: /ˈrestrɒnt/.",
+        "«We're going to fly» to Jamaica in the summer. | Đúng, giữ nguyên | Sai: kế hoạch cho mùa hè phải dùng «We'll fly» | Sai: phải dùng hiện tại đơn «We fly» | Kế hoạch đã có, có thể đã đặt vé → be going to đúng; We're flying cũng đúng. Hiện tại đơn chỉ dùng cho lịch trình cố định mà người nói không đổi được, như giờ tàu chạy.",
+    ]),
+]

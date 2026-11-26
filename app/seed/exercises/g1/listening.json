@@ -431,6 +431,62 @@
    ]
   },
   {
+   "id": "G1D31D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Tuần 3 · Ngày 1",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "I think you'll get the job.",
+      "vi": "Tôi nghĩ bạn sẽ được nhận việc."
+     },
+     {
+      "speaker": "M",
+      "text": "I'm starting a new job next month.",
+      "vi": "Tháng sau tôi bắt đầu công việc mới."
+     },
+     {
+      "speaker": "F",
+      "text": "Governments will need to create more jobs.",
+      "vi": "Các chính phủ sẽ phải tạo thêm việc làm."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "apply",
+     "vi": "nộp đơn, xin (việc)"
+    },
+    {
+     "ko": "hire",
+     "vi": "thuê, tuyển (người)"
+    },
+    {
+     "ko": "earn",
+     "vi": "kiếm (tiền), được trả"
+    },
+    {
+     "ko": "promote",
+     "vi": "thăng chức"
+    },
+    {
+     "ko": "resign",
+     "vi": "xin nghỉ việc, từ chức"
+    },
+    {
+     "ko": "career",
+     "vi": "sự nghiệp"
+    }
+   ],
+   "tips_vi": [
+    "Nghe âm cuối: -s của ngôi thứ ba, 's và n't, -ing. Sau khi kiểm tra, nghe lại và nhại theo đúng nhịp."
+   ]
+  },
+  {
    "id": "G1D27L1",
    "skill": "listening",
    "type": "listen_interview",

@@ -8507,6 +8507,641 @@
    }
   },
   {
+   "id": "G1D31T1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Tuần 3 · Ngày 1",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D31T1",
+     "options": [
+      {
+       "id": "1",
+       "text": "bây giờ ┄┄ ● ngày mai (đã hẹn)"
+      },
+      {
+       "id": "2",
+       "text": "● bây giờ (đang diễn ra)"
+      },
+      {
+       "id": "3",
+       "text": "●━━━ bây giờ (đã xong)"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Có mốc `tomorrow` → be + V-ing nói về một cuộc hẹn ở tương lai.",
+     "tags": [],
+     "prompt_vi": "«I'm meeting a client tomorrow.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D31T2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Trục thời gian · Tuần 3 · Ngày 1",
+   "instruction_vi": "Đọc câu tiếng Anh. Chọn trục thời gian vẽ đúng điều câu đó nói.",
+   "questions": [
+    {
+     "id": "G1D31T2",
+     "options": [
+      {
+       "id": "1",
+       "text": "●━━━ bây giờ (đã xong)"
+      },
+      {
+       "id": "2",
+       "text": "● bây giờ (đang diễn ra)"
+      },
+      {
+       "id": "3",
+       "text": "bây giờ ┄┄ ● ngày mai (đã hẹn)"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Có `now` → be + V-ing là việc đang diễn ra lúc nói.",
+     "tags": [],
+     "prompt_vi": "«I'm meeting a client now, so I can't talk.» Trục nào đúng với câu này?"
+    }
+   ]
+  },
+  {
+   "id": "G1D31I1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 1",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D31I1",
+     "options": [
+      {
+       "id": "1",
+       "text": "Don't worry, I think you get the job."
+      },
+      {
+       "id": "2",
+       "text": "Don't worry, I think you'll get the job."
+      },
+      {
+       "id": "3",
+       "text": "Don't worry, I think you got the job."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Dự đoán về tương lai → will. Hiện tại đơn và quá khứ đơn không nói về việc sắp tới.",
+     "tags": [],
+     "prompt_vi": "Bạn của bạn sắp đi phỏng vấn và đang lo. Bạn đoán cô ấy sẽ được nhận."
+    }
+   ]
+  },
+  {
+   "id": "G1D31I2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 1",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D31I2",
+     "options": [
+      {
+       "id": "1",
+       "text": "Yes, I have seen him again next week."
+      },
+      {
+       "id": "2",
+       "text": "Yes, I saw him again next week."
+      },
+      {
+       "id": "3",
+       "text": "Yes, I'm seeing him again next week."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Việc đã hẹn ở tương lai → be + V-ing (hoặc will). `next week` không đi với thì quá khứ hay hoàn thành.",
+     "tags": [],
+     "prompt_vi": "Hẹn hò xong, bạn thân hỏi bạn có gặp lại anh ấy không. Hai người đã hẹn tuần sau."
+    }
+   ]
+  },
+  {
+   "id": "G1D31I3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 1",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D31I3",
+     "options": [
+      {
+       "id": "1",
+       "text": "OK Mom, I turn it off now."
+      },
+      {
+       "id": "2",
+       "text": "OK Mom, I'll turn it off now."
+      },
+      {
+       "id": "3",
+       "text": "OK Mom, I turned it off now."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Quyết định ngay lúc nói → will. Hiện tại đơn không dùng cho lời hứa hay quyết định.",
+     "tags": [],
+     "prompt_vi": "Mẹ bảo bạn tắt máy tính đi học bài. Bạn đồng ý và tắt ngay."
+    }
+   ]
+  },
+  {
+   "id": "G1D31I4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 1",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D31I4",
+     "options": [
+      {
+       "id": "1",
+       "text": "We're going to try that new restaurant tomorrow night."
+      },
+      {
+       "id": "2",
+       "text": "We tried that new restaurant tomorrow night."
+      },
+      {
+       "id": "3",
+       "text": "We've tried that new restaurant tomorrow night."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đã quyết, đã đặt bàn → be going to. `tomorrow night` không đi với quá khứ.",
+     "tags": [],
+     "prompt_vi": "Hai vợ chồng đã đặt bàn ở nhà hàng mới cho tối mai. Bạn kể với bạn bè."
+    }
+   ]
+  },
+  {
+   "id": "G1D31I5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 1",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D31I5",
+     "options": [
+      {
+       "id": "1",
+       "text": "Sorry, I'll meet a client right now."
+      },
+      {
+       "id": "2",
+       "text": "Sorry, I'm meeting a client right now."
+      },
+      {
+       "id": "3",
+       "text": "Sorry, I met a client right now."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Việc đang diễn ra lúc nói → hiện tại tiếp diễn, có `right now`. will meet là một quyết định hay dự đoán, không phải việc đang làm.",
+     "tags": [],
+     "prompt_vi": "Đồng nghiệp hỏi bạn có rảnh không. Bạn đang ngồi với khách hàng ngay lúc đó."
+    }
+   ]
+  },
+  {
+   "id": "G1D31Q1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D31Q1",
+     "options": [
+      {
+       "id": "1",
+       "text": "have done"
+      },
+      {
+       "id": "2",
+       "text": "do"
+      },
+      {
+       "id": "3",
+       "text": "did"
+      },
+      {
+       "id": "4",
+       "text": "will do"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Dự đoán về tương lai → will + V nguyên thể.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "In the future, robots ( ) many factory jobs."
+   }
+  },
+  {
+   "id": "G1D31Q2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D31Q2",
+     "options": [
+      {
+       "id": "1",
+       "text": "applied"
+      },
+      {
+       "id": "2",
+       "text": "am going to apply"
+      },
+      {
+       "id": "3",
+       "text": "apply"
+      },
+      {
+       "id": "4",
+       "text": "am apply"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Kế hoạch tháng sau → am going to + V nguyên thể. Thiếu going to thì câu sai.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I ( ) for a new job next month."
+   }
+  },
+  {
+   "id": "G1D31Q3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D31Q3",
+     "options": [
+      {
+       "id": "1",
+       "text": "doesn't be"
+      },
+      {
+       "id": "2",
+       "text": "won't is"
+      },
+      {
+       "id": "3",
+       "text": "won't be"
+      },
+      {
+       "id": "4",
+       "text": "not will be"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Phủ định của will: won't + V nguyên thể.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Don't worry. He ( ) late tomorrow."
+   }
+  },
+  {
+   "id": "G1D31Q4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D31Q4",
+     "options": [
+      {
+       "id": "1",
+       "text": "Will"
+      },
+      {
+       "id": "2",
+       "text": "Do"
+      },
+      {
+       "id": "3",
+       "text": "Are"
+      },
+      {
+       "id": "4",
+       "text": "Did"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Câu hỏi với will: Will + chủ ngữ + V nguyên thể. Sau Are không dùng be nguyên thể.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) you be at the meeting tomorrow?"
+   }
+  },
+  {
+   "id": "G1D31Q5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Chọn đáp án · Tuần 3 · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng.",
+   "questions": [
+    {
+     "id": "G1D31Q5",
+     "options": [
+      {
+       "id": "1",
+       "text": "Governments will need to create more jobs."
+      },
+      {
+       "id": "2",
+       "text": "Governments are needing to create more jobs."
+      },
+      {
+       "id": "3",
+       "text": "Governments need to create more jobs tomorrow."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "will trang trọng, dùng cho dự đoán trong văn viết học thuật. be + V-ing không dùng cho dự đoán chung.",
+     "tags": [],
+     "prompt_vi": "Viết bài IELTS Task 2, bạn muốn nói: các chính phủ sẽ phải tạo thêm việc làm. Câu nào hợp nhất?"
+    }
+   ]
+  },
+  {
+   "id": "G1D31Q6",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Chọn đáp án · Tuần 3 · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng.",
+   "questions": [
+    {
+     "id": "G1D31Q6",
+     "options": [
+      {
+       "id": "1",
+       "text": "Cần: tương lai xa phải dùng will"
+      },
+      {
+       "id": "2",
+       "text": "Cần: chỉ việc chắc chắn mới dùng be going to"
+      },
+      {
+       "id": "3",
+       "text": "Không cần: dự đoán thì will và be going to đều đúng"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Mọi điều ở tương lai đều là dự đoán; gần hay xa, chắc hay không chắc không quyết định thì. Viết học thuật thì chọn will vì trang trọng hơn.",
+     "tags": [],
+     "prompt_vi": "Lan nói: Robots are going to do most jobs in 200 years. Câu này có cần đổi sang will không?"
+    }
+   ]
+  },
+  {
+   "id": "G1D31Q7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D31Q7",
+     "options": [
+      {
+       "id": "1",
+       "text": "started"
+      },
+      {
+       "id": "2",
+       "text": "to start"
+      },
+      {
+       "id": "3",
+       "text": "start"
+      },
+      {
+       "id": "4",
+       "text": "starting"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "be + V-ing với mốc tương lai `on Monday`: việc đã lên lịch.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "She's ( ) a new job on Monday."
+   }
+  },
+  {
+   "id": "G1D31Q8",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Chọn đáp án · Tuần 3 · Ngày 1",
+   "instruction_vi": "Chọn phương án đúng.",
+   "questions": [
+    {
+     "id": "G1D31Q8",
+     "options": [
+      {
+       "id": "1",
+       "text": "I met my boss at ten."
+      },
+      {
+       "id": "2",
+       "text": "I'm meeting my boss right now."
+      },
+      {
+       "id": "3",
+       "text": "I'm meeting my boss at ten tomorrow."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Mốc `tomorrow` cho biết be + V-ing nói về tương lai.",
+     "tags": [],
+     "prompt_vi": "Câu nào nói về tương lai?"
+    }
+   ]
+  },
+  {
+   "id": "G1D31KF1A-1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phần in đậm đúng hay sai (1/5)",
+   "instruction_vi": "Phần trong ngoặc «» đúng thì chọn giữ nguyên; sai thì chọn cách sửa. Hỏi trước: câu này là một dự đoán, hay một quyết định? Quyết định lúc nói, hay đã có từ trước?",
+   "questions": [
+    {
+     "id": "G1D31KF1A-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "Sai: tương lai rất xa phải dùng «will continue»"
+      },
+      {
+       "id": "2",
+       "text": "Đúng, giữ nguyên"
+      },
+      {
+       "id": "3",
+       "text": "Sai: phải dùng hiện tại đơn «continues»"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đây là một dự đoán. Dự đoán thì will và be going to đều đúng, việc ở gần hay xa không quyết định thì, nên giữ nguyên. Đổi thành will continue cũng đúng, nhưng không bắt buộc.",
+     "tags": [],
+     "prompt_vi": "The universe «is going to continue» to expand for billions of years."
+    }
+   ]
+  },
+  {
+   "id": "G1D31KF1A-2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phần in đậm đúng hay sai (2/5)",
+   "instruction_vi": "Phần trong ngoặc «» đúng thì chọn giữ nguyên; sai thì chọn cách sửa. Hỏi trước: câu này là một dự đoán, hay một quyết định? Quyết định lúc nói, hay đã có từ trước?",
+   "questions": [
+    {
+     "id": "G1D31KF1A-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "Đúng, giữ nguyên"
+      },
+      {
+       "id": "2",
+       "text": "Sai: phải dùng hiện tại đơn «live»"
+      },
+      {
+       "id": "3",
+       "text": "Sai: phải dùng «are living»"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Dự đoán chung về tương lai → will đúng; are going to live cũng đúng. be + V-ing dùng cho việc đã hẹn, đã lên lịch, không dùng cho dự đoán chung. Khi đọc, bật đủ hai âm s trong hundreds of years.",
+     "tags": [],
+     "prompt_vi": "Do you think that, in the future, people «will live» to be hundreds of years old?"
+    }
+   ]
+  },
+  {
+   "id": "G1D31KF1A-3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phần in đậm đúng hay sai (3/5)",
+   "instruction_vi": "Phần trong ngoặc «» đúng thì chọn giữ nguyên; sai thì chọn cách sửa. Hỏi trước: câu này là một dự đoán, hay một quyết định? Quyết định lúc nói, hay đã có từ trước?",
+   "questions": [
+    {
+     "id": "G1D31KF1A-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "Sai: phải dùng hiện tại đơn «I have»"
+      },
+      {
+       "id": "2",
+       "text": "Sai: có «I know!» nên chỉ được dùng «I'll have»"
+      },
+      {
+       "id": "3",
+       "text": "Đúng, giữ nguyên"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đáp án bài thi: giữ nguyên. Nếu I know! là ý vừa nảy ra lúc nói, I'll have là cách tự nhiên nhất; nếu là kế hoạch đã tính sẵn cho sinh nhật, I'm going to have hợp hơn. Cả hai đều đúng nên không có lỗi phải sửa.",
+     "tags": [],
+     "prompt_vi": "I know! «I'm going to have» a barbecue on my birthday!"
+    }
+   ]
+  },
+  {
+   "id": "G1D31KF1A-4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phần in đậm đúng hay sai (4/5)",
+   "instruction_vi": "Phần trong ngoặc «» đúng thì chọn giữ nguyên; sai thì chọn cách sửa. Hỏi trước: câu này là một dự đoán, hay một quyết định? Quyết định lúc nói, hay đã có từ trước?",
+   "questions": [
+    {
+     "id": "G1D31KF1A-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "Đúng, giữ nguyên"
+      },
+      {
+       "id": "2",
+       "text": "Sai: phải dùng hiện tại đơn «we try»"
+      },
+      {
+       "id": "3",
+       "text": "Sai: sau «We've decided» chỉ được dùng «we're going to try»"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án bài thi: giữ nguyên; we're going to try, we're trying và We've decided to try cũng đúng. Đã bàn từ trước, có thể đã đặt bàn: we're going to try hợp nhất. Vừa quyết định xong ngay lúc nói: we will try vẫn được. restaurant đọc hai âm tiết kiểu Anh: /ˈrestrɒnt/.",
+     "tags": [],
+     "prompt_vi": "We've decided «we will try» that new restaurant after the play tomorrow night."
+    }
+   ]
+  },
+  {
+   "id": "G1D31KF1A-5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phần in đậm đúng hay sai (5/5)",
+   "instruction_vi": "Phần trong ngoặc «» đúng thì chọn giữ nguyên; sai thì chọn cách sửa. Hỏi trước: câu này là một dự đoán, hay một quyết định? Quyết định lúc nói, hay đã có từ trước?",
+   "questions": [
+    {
+     "id": "G1D31KF1A-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "Sai: kế hoạch cho mùa hè phải dùng «We'll fly»"
+      },
+      {
+       "id": "2",
+       "text": "Sai: phải dùng hiện tại đơn «We fly»"
+      },
+      {
+       "id": "3",
+       "text": "Đúng, giữ nguyên"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Kế hoạch đã có, có thể đã đặt vé → be going to đúng; We're flying cũng đúng. Hiện tại đơn chỉ dùng cho lịch trình cố định mà người nói không đổi được, như giờ tàu chạy.",
+     "tags": [],
+     "prompt_vi": "«We're going to fly» to Jamaica in the summer."
+    }
+   ]
+  },
+  {
    "id": "G1D5KB18-1",
    "skill": "reading",
    "type": "read_cloze",

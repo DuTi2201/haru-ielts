@@ -5767,6 +5767,233 @@
    "tips_vi": []
   },
   {
+   "id": "G1D31B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 3 · Ngày 1",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi nghĩ bạn sẽ được nhận việc.",
+   "tiles": [
+    "think",
+    "the",
+    "I",
+    "job",
+    "you'll",
+    "get"
+   ],
+   "answers": [
+    "I think you'll get the job"
+   ]
+  },
+  {
+   "id": "G1D31B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 3 · Ngày 1",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tháng sau tôi bắt đầu công việc mới.",
+   "tiles": [
+    "month",
+    "job",
+    "starting",
+    "I'm",
+    "new",
+    "a",
+    "next"
+   ],
+   "answers": [
+    "I'm starting a new job next month"
+   ]
+  },
+  {
+   "id": "G1D31B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 3 · Ngày 1",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Chúng ta sẽ không kịp hạn chót.",
+   "tiles": [
+    "deadline",
+    "the",
+    "We",
+    "meet",
+    "won't"
+   ],
+   "answers": [
+    "We won't meet the deadline"
+   ]
+  },
+  {
+   "id": "G1D31B4",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 3 · Ngày 1",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Năm sau công ty sẽ tuyển thêm người.",
+   "tiles": [
+    "company",
+    "next",
+    "more",
+    "staff",
+    "The",
+    "will",
+    "hire",
+    "year"
+   ],
+   "answers": [
+    "The company will hire more staff next year"
+   ]
+  },
+  {
+   "id": "G1D31B5",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 3 · Ngày 1",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bạn sẽ có mặt ở buổi phỏng vấn chứ?",
+   "tiles": [
+    "at",
+    "you",
+    "be",
+    "interview",
+    "Will",
+    "the"
+   ],
+   "answers": [
+    "Will you be at the interview"
+   ]
+  },
+  {
+   "id": "G1D31F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 3 · Ngày 1",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "I think it ( ㉠ ) (be) a difficult interview.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "will be",
+      "'ll be",
+      "is going to be",
+      "'s going to be"
+     ],
+     "common_errors_vi": "Dự đoán: will be hoặc is going to be đều đúng."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D31F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 3 · Ngày 1",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Don't worry. I ( ㉠ ) (not / be) late tomorrow.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "won't be",
+      "will not be",
+      "am not going to be",
+      "'m not going to be"
+     ],
+     "common_errors_vi": "Phủ định của will: won't + V nguyên thể. I'm not going to be cũng đúng."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D31F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 3 · Ngày 1",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "In the future, most people ( ㉠ ) (change) jobs several times.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "will change",
+      "are going to change",
+      "'ll change",
+      "'re going to change"
+     ],
+     "common_errors_vi": "Dự đoán: will change, hoặc are going to change. Khi viết, chọn will."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D31F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 3 · Ngày 1",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "OK Mom, I ( ㉠ ) (turn) it off now.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "will turn",
+      "'ll turn",
+      "am turning",
+      "'m turning",
+      "am going to turn",
+      "'m going to turn"
+     ],
+     "common_errors_vi": "Quyết định ngay lúc nói: will turn tự nhiên nhất; am turning cũng được; am going to turn đúng nhưng dài."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D31F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 3 · Ngày 1",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "( ㉠ ) (you / apply) for the job?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "Are you going to apply",
+      "Will you apply"
+     ],
+     "common_errors_vi": "Hỏi dự định: Are you going to apply hoặc Will you apply đều đúng."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
    "id": "G1D5KA18-1",
    "skill": "build",
    "type": "write_fill",
