@@ -660,7 +660,6 @@
         "key": "k3",
         "who": "B",
         "tag": "đuôi ing · đã hẹn",
-        "mark": "anchor",
         "en": "Yes, I'm seeing him again next week.",
         "vi": "Có, tuần sau mình gặp lại."
        }
@@ -731,7 +730,6 @@
         "key": "m3",
         "who": "B",
         "tag": "Cuối tuần",
-        "mark": "anchor",
         "en": "I went to the cinema with my friends.",
         "vi": "Con đi xem phim với bạn."
        }
@@ -901,14 +899,13 @@
         "key": "j2",
         "who": "B",
         "tag": "will · tự nhiên nhất",
-        "mark": "anchor",
         "en": "OK Mom, I'll turn it off now.",
         "vi": "Vâng, con tắt ngay đây."
        },
        {
         "key": "j3",
         "who": "B",
-        "tag": "đuôi ing · cũng được",
+        "tag": "đuôi ing · đang làm",
         "en": "OK Mom, I'm turning it off now.",
         "vi": "Vâng, con đang tắt đây."
        }

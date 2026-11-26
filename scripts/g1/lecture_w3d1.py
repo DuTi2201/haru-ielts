@@ -61,19 +61,19 @@ PREDICT = [
 DATE = [
     {"key": "k1", "who": "A", "tag": "Hỏi về tương lai", "en": "Will you ever see him again?", "vi": "Bạn có gặp lại anh ấy nữa không?"},
     {"key": "k2", "who": "B", "tag": "will · dự đoán", "en": "Yes, I will.", "vi": "Có chứ."},
-    {"key": "k3", "who": "B", "tag": "đuôi ing · đã hẹn", "mark": "anchor", "en": "Yes, I'm seeing him again next week.", "vi": "Có, tuần sau mình gặp lại."},
+    {"key": "k3", "who": "B", "tag": "đuôi ing · đã hẹn", "en": "Yes, I'm seeing him again next week.", "vi": "Có, tuần sau mình gặp lại."},
 ]
 
 CLASS = [
     {"key": "m1", "who": "A", "tag": "Mẹ hỏi", "en": "Are you going to your extra class this weekend?", "vi": "Cuối tuần con có đi học thêm không?"},
     {"key": "m2", "who": "B", "tag": "Con đáp chắc nịch", "en": "Yes, I am.", "vi": "Có ạ."},
-    {"key": "m3", "who": "B", "tag": "Cuối tuần", "mark": "anchor", "en": "I went to the cinema with my friends.", "vi": "Con đi xem phim với bạn."},
+    {"key": "m3", "who": "B", "tag": "Cuối tuần", "en": "I went to the cinema with my friends.", "vi": "Con đi xem phim với bạn."},
 ]
 
 MOM = [
     {"key": "j1", "who": "A", "tag": "Mẹ nhắc", "en": "John, please turn off the computer and do your homework.", "vi": "John, tắt máy tính rồi làm bài đi con."},
-    {"key": "j2", "who": "B", "tag": "will · tự nhiên nhất", "mark": "anchor", "en": "OK Mom, I'll turn it off now.", "vi": "Vâng, con tắt ngay đây."},
-    {"key": "j3", "who": "B", "tag": "đuôi ing · cũng được", "en": "OK Mom, I'm turning it off now.", "vi": "Vâng, con đang tắt đây."},
+    {"key": "j2", "who": "B", "tag": "will · tự nhiên nhất", "en": "OK Mom, I'll turn it off now.", "vi": "Vâng, con tắt ngay đây."},
+    {"key": "j3", "who": "B", "tag": "đuôi ing · đang làm", "en": "OK Mom, I'm turning it off now.", "vi": "Vâng, con đang tắt đây."},
 ]
 
 TWO_CONTEXTS = [
