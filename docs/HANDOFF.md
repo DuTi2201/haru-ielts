@@ -648,3 +648,36 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
   - Gemini nghe lại 34 chỗ có ", và" hoặc dài bất thường, so với câu đúng (`/tmp/aud/verify.py` trên VM).
   - Kết quả: 34/34 đúng, không cần ghi lại buổi nào.
   - Để chắc bộ kiểm hoạt động, đã cho nó nghe lại một bản lỗi cũ của Ngày 6: nó báo MISMATCH đúng chỗ.
+
+## Tuần 2 · Ngày 7 — Nghe kỹ The Luddites (g1-d27), đã soát và deploy
+
+- Nguồn:
+  - `scripts/g1/day27.py`: lời thoại 26 lượt, đúng script sách trang 111–112, kèm bản dịch; 10 câu hỏi; từ vựng; bài viết.
+  - `scripts/g1/lecture_w2d7.py`: bốn bài giảng viết tay, PRON Oxford BrE, NOTES, `reshape()`, `finish()`.
+  - `tests/test_lesson_w2d7_quality.py`: 38 test. Có thêm gate chặn một âm tiết tiếng Việt không dấu bị giọng Anh đọc: "lý do," từng bị đọc thành tiếng Anh "do".
+- Cách dựng:
+  - Dựng bằng `vocab_day()` (build day 27, `VOCAB_W2[27]`, `DAYS[27]` trong days56), sort_order 127.
+  - Test seed: 63 bài, Tuần 2 = 7.
+  - Một buổi học phải có câu hỏi riêng, nên bài giảng chuẩn bị đi kèm luôn bài nghe.
+- Thứ tự buổi:
+  1. Từ để nghe trước (1): automation, textile, threaten, repetitive, leisure, unemployment, retire.
+  2. Từ để nghe trước (2): productivity, qualification, census (chỉ cần nhận ra), lifespan, redundant; cảnh họ từ.
+  3. "Nghe chủ động · chuẩn bị rồi nghe bài": chuyện người Luddite (1811–1816; máy móc thay thợ thủ công từ cuối thế kỷ 18); đọc câu hỏi trước và đoán cách nói lại; nghe thái độ (đồng ý, nghi ngờ, thông cảm); mốc thời gian của nhận xét (hiện tại hoàn thành hay dự đoán); bẫy "You'd expect … but actually" và "I thought … In fact". Rồi làm bài nghe `G1D27L1`.
+  4. "Nghe lại · đối chiếu đáp án": đọc to câu đúng, lựa chọn dễ nhầm chỉ nhắc ngắn bằng tiếng Việt (để không nhiễu); bảng diễn đạt tương đương cho câu 21–24 và 25–30; ba lựa chọn dễ nhầm. Rồi bài viết `G1D27M1`.
+- Câu hỏi:
+  - Đáp án sách (trang 123): 21&22 A, E; 23&24 B, D; 25 G, 26 E, 27 B, 28 C, 29 F, 30 A.
+  - Câu 21/22 và 23/24 tách như Tuần 1 Ngày 7.
+  - Câu 25–30: mỗi nghề cho năm trong bảy nhận xét, giữ chữ cái sách. Bỏ C ở câu 30 và G ở câu 26 vì có thể tranh luận.
+- Soát cấp cao: không có đáp án sai. Đã sửa:
+  - Bài giảng trước khi nghe không còn lộ đáp án: ví dụ từ vựng, dự đoán cách nói lại, câu thái độ, ví dụ bẫy và dải tranh đều dùng câu khác với bài.
+  - Mốc lịch sử.
+  - Lời giải câu 23, 24, 26, 30.
+  - Sáu bản dịch lượt thoại.
+  - Bài mẫu.
+- Hình từ: 12 mục WORD_PICTURE (frontend), dùng icon có sẵn.
+- Kiểm tra:
+  - Bộ test đầy đủ vẫn đúng 31 lỗi cũ.
+  - Xem trước: 31 slide, không tràn, không cắt chữ, đủ icon.
+  - Đã ghi audio cả 4 buổi và chép lại toàn bộ bằng Gemini: không có đoạn vô nghĩa. Một chữ "do" bị giọng Anh đọc đã sửa và ghi lại buổi 4.
+  - api/worker: g1-d27=created; frontend đã deploy; hai site trả về 200.
+- Audio của bài nghe (26 lượt, hai giọng) sẽ ghi khi học viên mở bài; chưa kiểm.
