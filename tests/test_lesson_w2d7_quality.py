@@ -112,6 +112,15 @@ def test_gate_no_comma_before_va_in_spoken_vietnamese(n):
 
 
 @pytest.mark.parametrize("n", SITTINGS)
+def test_gate_no_vietnamese_word_is_read_by_the_english_voice(n):
+    # a Vietnamese syllable written without marks can be taken for English ("lý do," was read as English "do")
+    risky = {"do", "to", "an", "con", "ban", "me", "no", "ca", "la", "mai", "sao", "hay"}
+    for r in lecture_voice.split_runs(_lecture(n).script):
+        if r.lang == lecture_voice.KO:
+            assert r.text.strip(" .,;:!?…").lower() not in risky, r.text
+
+
+@pytest.mark.parametrize("n", SITTINGS)
 def test_gate_inquiry_before_rule(n):
     lec = _lecture(n)
     kinds = [s["kind"] for s in lec.slides]

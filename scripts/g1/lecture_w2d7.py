@@ -259,11 +259,11 @@ POST = [
         {"say": "Ghép nghề với nhận xét bằng cả nội dung lẫn mốc thời gian.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Vì sao sai", "title": "Ba lựa chọn dễ chọn nhầm",
-     "data": {"rows": WHY_WRONG, "rule": "Nghe được chữ quen chưa đủ: phải khớp cả ý, cả lý do, cả mốc thời gian."}, "lines": [
+     "data": {"rows": WHY_WRONG, "rule": "Nghe được chữ quen chưa đủ: phải khớp cả ý, cả nguyên nhân, cả mốc thời gian."}, "lines": [
         {"say": "Lựa chọn dễ nhầm thứ nhất: nghe thấy người tốt nghiệp đại học, nhiều bạn chọn nhận xét về bằng cấp. Nhưng câu đó chỉ nói ai chọn nghề này.", "show": "w1"},
         {"say": "Thứ hai: nghề chăm sóc có tăng mạnh, nhưng là sẽ tăng, vì người ta sống lâu hơn. Nhận xét về thu nhập nói một việc đã xảy ra, vì một lý do khác.", "show": "w2"},
         {"say": "Thứ ba: cả hai bạn đều tin người ta sẽ làm việc tới khi già hơn, nên đây không phải điều họ nghi ngờ. Vả lại, đó là bị buộc, không phải muốn.", "show": "w3"},
-        {"say": "Nghe được chữ quen chưa đủ. Đáp án đúng phải khớp cả ý, cả lý do, cả mốc thời gian.", "show": "rule"},
+        {"say": "Nghe được chữ quen chưa đủ. Đáp án đúng phải khớp cả ý, cả nguyên nhân, cả mốc thời gian.", "show": "rule"},
     ]},
     {"kind": "end", "next": "Tiếp theo: viết vài câu về một nghề đang giảm và một nghề đang tăng ở Việt Nam.", "lines": [
         {"say": "Hết phần giảng. Bạn nghe lại bài một lần nữa, lần này vừa nghe vừa nhìn lời thoại. Rồi viết vài câu về một nghề đang giảm và một nghề đang tăng ở Việt Nam.", "show": "title"},

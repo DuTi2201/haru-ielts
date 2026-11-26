@@ -970,7 +970,7 @@
         "why": "Cả hai bạn tin điều này, không nghi ngờ; vả lại đây là bị buộc, không phải muốn."
        }
       ],
-      "rule": "Nghe được chữ quen chưa đủ: phải khớp cả ý, cả lý do, cả mốc thời gian."
+      "rule": "Nghe được chữ quen chưa đủ: phải khớp cả ý, cả nguyên nhân, cả mốc thời gian."
      },
      "lines": [
       {
@@ -986,7 +986,7 @@
        "show": "w3"
       },
       {
-       "say": "Nghe được chữ quen chưa đủ. Đáp án đúng phải khớp cả ý, cả lý do, cả mốc thời gian.",
+       "say": "Nghe được chữ quen chưa đủ. Đáp án đúng phải khớp cả ý, cả nguyên nhân, cả mốc thời gian.",
        "show": "rule"
       }
      ]
