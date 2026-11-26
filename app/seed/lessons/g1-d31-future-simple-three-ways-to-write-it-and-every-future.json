@@ -344,7 +344,7 @@
        "show": "hook"
       },
       {
-       "say": "Buổi này học ba cách viết thì tương lai đơn, cách dùng cả ba để dự đoán, và hai quy tắc học thuộc mà bạn nên bỏ."
+       "say": "Buổi này học ba cách viết thì tương lai đơn, cách dùng cả ba để dự đoán, rồi hai quy tắc học thuộc mà bạn nên bỏ."
       }
      ]
     },
@@ -509,7 +509,7 @@
        "show": "aff"
       },
       {
-       "say": "Khi nói, will thường được rút gọn, như trên bảng. Phủ định là won't.",
+       "say": "Khi nói, will thường được rút gọn, như trên bảng. Phủ định là will not, khi nói thì gộp thành một từ.",
        "show": "spelling"
       },
       {
@@ -519,7 +519,7 @@
        "show": "neg"
       },
       {
-       "say": "Câu hỏi: đưa will lên đầu câu. Trả lời ngắn cũng dùng lại will hoặc won't.",
+       "say": "Câu hỏi: đưa will lên đầu câu. Trả lời ngắn cũng dùng lại will.",
        "show": "qst"
       },
       {
@@ -535,7 +535,7 @@
        "recap": false
       },
       {
-       "say": "Với going to thì am, is, are phải đổi theo ngôi: tôi dùng am, anh ấy dùng is, họ dùng are. Won't và want đọc khác nhau; nghe kỹ câu sau."
+       "say": "Với going to thì am, is, are phải đổi theo ngôi: tôi dùng am, anh ấy dùng is, họ dùng are. Dạng phủ định rút gọn đọc khác hẳn từ want; nghe kỹ câu sau."
       },
       {
        "en": "I won't stay. I want to go home.",
@@ -544,7 +544,7 @@
        "recap": false
       },
       {
-       "say": "Tóm lại: will cộng động từ nguyên thể, mọi ngôi như nhau. Phủ định: won't. Câu hỏi: đưa will lên đầu câu.",
+       "say": "Tóm lại: will cộng động từ nguyên thể, mọi ngôi như nhau. Phủ định: thêm not. Câu hỏi: đưa will lên đầu câu.",
        "show": "rule"
       }
      ]
@@ -596,7 +596,7 @@
        "show": "axis"
       },
       {
-       "say": "Dự đoán thứ nhất, cho việc tuần sau: bạn của bạn đi phỏng vấn, và bạn đoán cô ấy sẽ được nhận.",
+       "say": "Dự đoán thứ nhất, cho việc tuần sau: bạn của bạn đi phỏng vấn. Bạn đoán cô ấy sẽ được nhận.",
        "show": "f1"
       },
       {
@@ -666,7 +666,7 @@
      },
      "lines": [
       {
-       "say": "Ở trường, nhiều bạn được dạy: tương lai gần dùng cách này, tương lai xa dùng cách kia. Thử một tình huống. Bạn vừa đi hẹn hò về, và bạn thân hỏi.",
+       "say": "Ở trường, nhiều bạn được dạy: tương lai gần dùng cách này, tương lai xa dùng cách kia. Thử một tình huống. Bạn vừa đi hẹn hò về. Bạn thân hỏi.",
        "show": "k1"
       },
       {
@@ -767,7 +767,7 @@
        "recap": false
       },
       {
-       "say": "Lúc nói, người nghe làm sao biết trong đầu bạn chắc đến đâu? Không ai nhìn được vào đầu người khác. Vì vậy, mọi điều ở tương lai đều là dự đoán. Nếu thầy cô trên lớp vẫn chấm theo quy tắc cũ, khi thi trên trường bạn cứ làm theo; còn khi nói thật và khi thi IELTS, hãy chọn theo nghĩa.",
+       "say": "Lúc nói, người nghe làm sao biết trong đầu bạn chắc đến đâu? Không ai nhìn được vào đầu người khác. Vì vậy, mọi điều ở tương lai đều là dự đoán. Nếu giáo viên trên lớp vẫn chấm theo quy tắc cũ, khi thi trên trường bạn cứ làm theo; còn khi nói thật và khi thi IELTS, hãy chọn theo nghĩa.",
        "show": "rule"
       }
      ]
@@ -777,7 +777,7 @@
      "headword": "apply",
      "lines": [
       {
-       "say": "Năm động từ của buổi này đều về chuyện đi làm, và câu ví dụ nào cũng ở tương lai. Từ thứ nhất: nộp đơn xin việc."
+       "say": "Năm động từ của buổi này đều về chuyện đi làm. Câu ví dụ nào cũng ở tương lai. Từ thứ nhất: nộp đơn xin việc."
       }
      ]
     },
@@ -821,7 +821,7 @@
      "kind": "recap",
      "lines": [
       {
-       "say": "Năm năm nữa bạn làm nghề gì: will hay going to đều được, vì đó là một dự đoán. Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "say": "Năm năm nữa bạn làm nghề gì: will hoặc going to đều được, vì đó là một dự đoán. Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
        "show": "title"
       }
      ]
@@ -831,7 +831,7 @@
      "next": "Tiếp theo: học thẻ và từ của buổi này, rồi làm bài.",
      "lines": [
       {
-       "say": "Hết buổi một. Bạn học các thẻ và từ trong app, rồi làm bài. Buổi hai nói về quyết định ngay lúc nói, và khi nào đuôi ing chỉ tương lai.",
+       "say": "Hết buổi một. Bạn học các thẻ và từ trong app, rồi làm bài. Buổi hai nói về quyết định ngay lúc nói, rồi khi nào đuôi ing chỉ tương lai.",
        "show": "title"
       }
      ]
@@ -868,11 +868,11 @@
      "hook": "Mẹ bảo tắt máy tính đi học bài. Bạn đáp «OK Mom, …» thế nào?",
      "lines": [
       {
-       "say": "Mẹ bảo bạn tắt máy tính đi học bài. Bạn đồng ý, và tắt ngay. Bạn sẽ nói câu đó bằng tiếng Anh thế nào?",
+       "say": "Mẹ bảo bạn tắt máy tính đi học bài. Bạn đồng ý rồi tắt ngay. Bạn sẽ nói câu đó bằng tiếng Anh thế nào?",
        "show": "hook"
       },
       {
-       "say": "Buổi này học quyết định ngay lúc nói, quyết định đã có từ trước, và cách nhận ra đuôi ing đang nói về bây giờ hay tương lai."
+       "say": "Buổi này học quyết định ngay lúc nói, quyết định đã có từ trước, rồi cách nhận ra đuôi ing đang nói về bây giờ hay tương lai."
       }
      ]
     },
@@ -924,7 +924,7 @@
        "recap": false
       },
       {
-       "say": "John quyết định ngay lúc đó, và đáp bằng will. Đây là cách tự nhiên nhất.",
+       "say": "John quyết định ngay lúc đó rồi đáp bằng will. Đây là cách tự nhiên nhất.",
        "show": "j2"
       },
       {
@@ -1129,7 +1129,7 @@
      },
      "lines": [
       {
-       "say": "Bốn lỗi hay gặp nhất. Lỗi một: thêm to sau will.",
+       "say": "Bốn lỗi hay gặp nhất. Lỗi một: chen thêm một từ giữa will và động từ.",
        "show": "e1"
       },
       {
@@ -1138,7 +1138,7 @@
        "gap": true
       },
       {
-       "say": "Lỗi hai: thêm đuôi s cho will.",
+       "say": "Lỗi hai: thêm đuôi ét cho will.",
        "show": "e2"
       },
       {
@@ -1212,7 +1212,7 @@
      "headword": "deadline",
      "lines": [
       {
-       "say": "Từ cuối: hạn chót. Câu ví dụ là phủ định với won't."
+       "say": "Từ cuối: hạn chót. Câu ví dụ là một câu phủ định."
       }
      ]
     },
