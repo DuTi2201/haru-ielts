@@ -634,3 +634,17 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
   - Thứ tự câu dẫn của glitch.
 - Đã ghi lại cả 4 buổi qua `request_lesson_podcast` chạy trong container api (`/tmp/regen.py`, bỏ qua bước đăng nhập), rồi chép lại toàn bộ để kiểm: không còn đoạn vô nghĩa. Các chỗ "cut-off" còn lại đều nằm ở ranh giới giữa hai đoạn chép.
 - Slide: 43 slide, không chữ bị cắt, không chồng chữ (các cảnh báo ở para_filter là do khung của chữ trên nhiều dòng), đủ icon. Nhãn chữ hoa 10 px theo thiết kế chung.
+
+## Giọng đọc bài giảng: chặn lỗi ", và" và đọc lại câu dài bất thường (26/11)
+
+- `app/services/tts.py`, trong `_lecture_request` (chỉ áp dụng cho giọng tiếng Việt Chirp):
+  - `vi_speakable()` bỏ dấu phẩy ngay trước "và" trong câu gửi cho giọng đọc. Kịch bản và slide giữ nguyên.
+  - `vi_take_too_long()`: lần đọc nào dài hơn (1 s + số ký tự / 10) / tốc độ đọc thì đọc lại, tối đa 3 lần, rồi giữ lần ngắn nhất. Câu dưới 15 ký tự không kiểm, vì Chirp tự chèn khoảng lặng vào câu ngắn.
+  - Giọng tiếng Anh (Azure) không đổi.
+  - Cache key và spec không đổi: bản đã ghi giữ nguyên, bản ghi mới tự dùng engine đã sửa.
+- Test: `tests/test_tts_vi_guard.py`. Bộ test đầy đủ vẫn đúng 31 lỗi cũ.
+- Thử trực tiếp trên worker với hai câu từng lỗi, mỗi câu đọc 3 lần: 6,1–8,6 giây, đều bình thường (trước khi sửa là 13–23 giây, đọc ra âm vô nghĩa).
+- Kiểm tra bản ghi đã có của Tuần 1–2 (21 buổi: entry test, Ngày 1, 2, 7, 12 của Tuần 1 và Ngày 6 của Tuần 2; Tuần 2 Ngày 1–5 chưa ghi):
+  - Gemini nghe lại 34 chỗ có ", và" hoặc dài bất thường, so với câu đúng (`/tmp/aud/verify.py` trên VM).
+  - Kết quả: 34/34 đúng, không cần ghi lại buổi nào.
+  - Để chắc bộ kiểm hoạt động, đã cho nó nghe lại một bản lỗi cũ của Ngày 6: nó báo MISMATCH đúng chỗ.
