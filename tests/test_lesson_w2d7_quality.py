@@ -20,8 +20,8 @@ import day27 as D  # noqa: E402
 
 BUNDLE = lesson_seed.load_all()
 DAY = next(x.seed for x in BUNDLE.lessons if x.seed.slug.startswith("g1-d27-"))
-SITTINGS = [1, 2, 3, 5]  # prepare, words 1, words 2, (listening), go over the answers
-AUTHORED = {1: L.PRE, 2: L.SITTING_1, 3: L.SITTING_2, 5: L.POST}
+SITTINGS = [1, 2, 3, 4]  # words 1, words 2, prepare and listen, go over the answers
+AUTHORED = {1: L.SITTING_1, 2: L.SITTING_2, 3: L.PRE, 4: L.POST}
 
 
 def _lecture(n: int) -> lesson_audio.Lecture:
@@ -49,9 +49,9 @@ def test_seed_is_sound_and_the_day_sits_in_week_two():
     assert DAY.title == "Tuần 2 · Ngày 7 · Nghe kỹ: The Luddites" and DAY.topic == "Tuần 2 · Công nghệ (Technology)"
     assert DAY.sort_order == 127
     titles = [s.title_vi for s in DAY.sessions]
-    # prepare, the words, listen, then go over the answers
-    assert titles == [L.LISTEN_TITLES[0], *L.TITLES, "Nghe kỹ · The Luddites (Part 3, câu 21–30)", L.LISTEN_TITLES[1]]
-    assert DAY.sessions[3].check == ["G1D27L1"] and DAY.sessions[4].check == ["G1D27M1"]
+    # the words, prepare and listen, then go over the answers
+    assert titles == [*L.TITLES, *L.LISTEN_TITLES]
+    assert DAY.sessions[2].check == ["G1D27L1"] and DAY.sessions[3].check == ["G1D27M1"]
     assert DAY.grammar == []
 
 
@@ -116,7 +116,7 @@ def test_gate_inquiry_before_rule(n):
     lec = _lecture(n)
     kinds = [s["kind"] for s in lec.slides]
     assert kinds[0] == "title" and kinds[-1] == "end"
-    if n in (2, 3):
+    if n in (1, 2):
         assert kinds[-2] == "recap"
     assert "?" in " ".join(lec.script.split("\n")[:3])
     for i, s in enumerate(lec.slides):
@@ -142,9 +142,9 @@ def test_gate_every_piece_of_a_picture_is_brought_in_by_a_line(n):
 
 
 def test_gate_each_vocabulary_sitting_teaches_its_own_words():
-    for n, words in ((2, L.S_WORDS[0]), (3, L.S_WORDS[1])):
+    for n, words in ((1, L.S_WORDS[0]), (2, L.S_WORDS[1])):
         assert [s["headword"] for s in _lecture(n).slides if s["kind"] == "word"] == words
-    for n in (1, 5):
+    for n in (3, 4):
         assert not [s for s in _lecture(n).slides if s["kind"] == "word"]
 
 

@@ -178,7 +178,296 @@
  ],
  "sessions": [
   {
-   "title_vi": "Nghe chủ động · chuẩn bị trước khi nghe",
+   "title_vi": "Từ để nghe trước · Luddite và tương lai việc làm",
+   "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: automation, textile, threaten, repetitive, leisure, unemployment, ...",
+   "use_vi": "Part 3 có hai người nói và các lựa chọn gần nghĩa nhau. Quy tắc: đọc trước câu hỏi, nghe ai đang nói và nghe đến lúc chốt ý, vì người nói thường đổi ý giữa chừng.",
+   "vocab": [
+    "automation",
+    "textile",
+    "threaten",
+    "repetitive",
+    "leisure",
+    "unemployment",
+    "retire"
+   ],
+   "lecture": [
+    {
+     "kind": "title",
+     "hook": "Robot làm hết việc nhàm chán: tin vui hay tin buồn?",
+     "lines": [
+      {
+       "say": "Robot làm hết những việc nhàm chán: đó là tin vui hay tin buồn?",
+       "show": "hook"
+      },
+      {
+       "say": "Bảy từ của buổi này là bảy từ bạn sẽ nghe trong nửa đầu bài: câu chuyện người Luddite và những dự đoán về tương lai việc làm."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "automation",
+     "lines": [
+      {
+       "say": "Automatic là tự động. Khi máy tự làm thay người, ta có tự động hóa. Bài nghe mở đầu bằng một buổi seminar về chủ đề này."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "textile",
+     "lines": [
+      {
+       "say": "Hàng dệt, ngành dệt. Cuộc cách mạng công nghiệp ở Anh bắt đầu từ ngành dệt. Những người Luddite là công nhân dệt."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "threaten",
+     "lines": [
+      {
+       "say": "Đe dọa. Trong bài, chàng trai nói anh hiểu vì sao những người Luddite cảm thấy bị đe dọa."
+      },
+      {
+       "en": "I can see why the Luddites felt so threatened.",
+       "vi": "Tôi hiểu vì sao những người Luddite cảm thấy bị đe dọa đến thế.",
+       "gap": true
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "repetitive",
+     "lines": [
+      {
+       "say": "Repeat là lặp lại. Những việc lặp đi lặp lại, nhàm chán, là việc robot được kỳ vọng sẽ làm thay con người."
+      },
+      {
+       "en": "Work won't involve doing boring, repetitive tasks.",
+       "vi": "Công việc sẽ không còn những việc nhàm chán, lặp đi lặp lại.",
+       "gap": true
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "leisure",
+     "lines": [
+      {
+       "say": "Thời gian rảnh, thời gian nghỉ ngơi. Để ý cách đọc kiểu Anh. Nghe thấy có thêm thời gian rảnh, bạn nghĩ ngay tới giờ làm việc ngắn lại."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "unemployment",
+     "lines": [
+      {
+       "say": "Employ là thuê người làm; thêm tiền tố un là không có việc. Thất nghiệp giảm, trong bài được nói thành thất nghiệp thấp hơn."
+      },
+      {
+       "en": "What about lower unemployment?",
+       "vi": "Còn chuyện thất nghiệp giảm thì sao?",
+       "gap": true
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "retire",
+     "lines": [
+      {
+       "say": "Nghỉ hưu. Một lựa chọn trong đề nói người ta sẽ muốn hoãn nghỉ hưu. Trong bài, người ta sẽ phải làm việc tới khi già hơn: bị buộc, không phải muốn."
+      }
+     ]
+    },
+    {
+     "kind": "recap",
+     "lines": [
+      {
+       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "show": "title"
+      }
+     ]
+    },
+    {
+     "kind": "end",
+     "next": "Tiếp theo: năm từ về các nghề xưa và nay.",
+     "lines": [
+      {
+       "say": "Hết buổi từ thứ nhất. Buổi sau là năm từ của nửa sau bài nghe: các nghề thay đổi ra sao từ thế kỷ mười chín tới nay.",
+       "show": "title"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title_vi": "Từ để nghe trước · các nghề xưa và nay",
+   "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: productivity, qualification, census, lifespan, redundant, ...",
+   "use_vi": "Part 3 có hai người nói và các lựa chọn gần nghĩa nhau. Quy tắc: đọc trước câu hỏi, nghe ai đang nói và nghe đến lúc chốt ý, vì người nói thường đổi ý giữa chừng.",
+   "vocab": [
+    "productivity",
+    "qualification",
+    "census",
+    "lifespan",
+    "redundant"
+   ],
+   "lecture": [
+    {
+     "kind": "title",
+     "hook": "Thế kỷ 19 có bao nhiêu người làm nông?",
+     "lines": [
+      {
+       "say": "Bạn đoán thử: vào thế kỷ mười chín, bao nhiêu phần trăm dân số nước Anh làm nông?",
+       "show": "hook"
+      },
+      {
+       "say": "Câu trả lời có trong bài nghe. Trước đó là năm từ để nghe được phần các nghề xưa và nay."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "productivity",
+     "lines": [
+      {
+       "say": "Năng suất: làm ra bao nhiêu trong một khoảng thời gian. Kế toán bây giờ làm việc hiệu quả hơn nhiều, tức là năng suất tăng."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "qualification",
+     "lines": [
+      {
+       "say": "Bằng cấp, chứng chỉ. Trong bài có nói nhiều người tốt nghiệp đại học chọn làm hành chính, nhưng không ai nói nghề này sẽ đòi hỏi thêm bằng cấp."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "census",
+     "lines": [
+      {
+       "say": "Cuộc điều tra dân số. Cuộc điều tra năm 1871 cho thấy khoảng một phần tư dân số làm nông. Từ này chỉ cần nhận ra khi nghe."
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "lifespan",
+     "lines": [
+      {
+       "say": "Life là đời sống, span là một khoảng: tuổi thọ. Ở thế kỷ mười chín, tuổi thọ ngắn nên hầu như không có nghề chăm sóc người già."
+      },
+      {
+       "en": "People's lifespan was so much shorter.",
+       "vi": "Tuổi thọ của con người ngắn hơn nhiều.",
+       "gap": true
+      }
+     ]
+    },
+    {
+     "kind": "word",
+     "headword": "redundant",
+     "lines": [
+      {
+       "say": "Thừa, không còn cần đến. Người Anh còn nói một người bị cho thôi việc vì công việc không còn nữa. Trong bài, công nghệ sẽ làm phần lớn công việc của nhân viên ngân hàng trở nên thừa."
+      },
+      {
+       "en": "Technology will make most of the jobs they do now redundant.",
+       "vi": "Công nghệ sẽ làm phần lớn công việc họ đang làm trở nên thừa.",
+       "gap": true
+      }
+     ]
+    },
+    {
+     "kind": "scene",
+     "visual": "ref_table",
+     "eyebrow": "Một họ từ",
+     "title": "Biết từ gốc, nghe ra danh từ",
+     "data": {
+      "cols": [
+       "Từ gốc",
+       "Danh từ",
+       "Nghĩa"
+      ],
+      "rows": [
+       {
+        "key": "f1",
+        "head": "automatic",
+        "en": "automation",
+        "vi": "tự động → sự tự động hóa"
+       },
+       {
+        "key": "f2",
+        "head": "employ",
+        "en": "unemployment",
+        "vi": "thuê người làm → tình trạng thất nghiệp"
+       },
+       {
+        "key": "f3",
+        "head": "produce",
+        "en": "productivity",
+        "vi": "sản xuất → năng suất"
+       },
+       {
+        "key": "f4",
+        "head": "qualify",
+        "en": "qualification",
+        "vi": "đủ điều kiện → bằng cấp"
+       }
+      ],
+      "rule": "Nghe được từ gốc trong một danh từ dài là hiểu được nó, dù chưa gặp bao giờ."
+     },
+     "lines": [
+      {
+       "say": "Bốn danh từ dài của hai buổi này đều sinh ra từ một từ gốc ngắn. Automatic là tự động, thành sự tự động hóa.",
+       "show": "f1"
+      },
+      {
+       "say": "Employ là thuê người làm, thành tình trạng thất nghiệp.",
+       "show": "f2"
+      },
+      {
+       "say": "Produce là sản xuất, thành năng suất.",
+       "show": "f3"
+      },
+      {
+       "say": "Qualify là đủ điều kiện, thành bằng cấp.",
+       "show": "f4"
+      },
+      {
+       "say": "Khi nghe, danh từ dài trôi qua rất nhanh. Bắt được từ gốc ở giữa là hiểu được nó, dù bạn chưa gặp bao giờ.",
+       "show": "rule"
+      }
+     ]
+    },
+    {
+     "kind": "recap",
+     "lines": [
+      {
+       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "show": "title"
+      }
+     ]
+    },
+    {
+     "kind": "end",
+     "next": "Tiếp theo: chuẩn bị trước khi nghe, rồi nghe bài.",
+     "lines": [
+      {
+       "say": "Hết buổi từ thứ hai. Buổi sau là ba việc cần chuẩn bị trước khi nghe, rồi bạn nghe bài.",
+       "show": "title"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title_vi": "Nghe chủ động · chuẩn bị rồi nghe bài",
    "lecture": [
     {
      "kind": "title",
@@ -189,7 +478,7 @@
        "show": "hook"
       },
       {
-       "say": "Bài nghe hôm nay là cuộc trò chuyện của hai sinh viên sau một buổi seminar về tự động hóa và tương lai của việc làm. Trước khi nghe, mình chuẩn bị ba việc."
+       "say": "Bài nghe hôm nay là cuộc trò chuyện của hai sinh viên sau một buổi seminar về tự động hóa và tương lai của việc làm. Bạn đã có từ để nghe; giờ mình chuẩn bị thêm ba việc."
       }
      ]
     },
@@ -472,314 +761,20 @@
     },
     {
      "kind": "end",
-     "next": "Tiếp theo: từ để nghe trước, rồi nghe bài và chọn đáp án.",
-     "lines": [
-      {
-       "say": "Hết phần chuẩn bị. Tiếp theo là những từ nên biết trước khi nghe. Sau đó bạn nghe bài, đọc câu hỏi trước, nghe lại bao nhiêu lần cũng được.",
-       "show": "title"
-      }
-     ]
-    }
-   ],
-   "can_do_vi": "Sau buổi này bạn biết đọc câu hỏi trước, đoán cách nói lại, nghe thái độ của người nói và nhận ra bẫy về mốc thời gian.",
-   "use_vi": "Part 3 có hai người nói; chuẩn bị trước giúp bạn biết phải nghe gì ở từng câu hỏi."
-  },
-  {
-   "title_vi": "Từ để nghe trước · Luddite và tương lai việc làm",
-   "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: automation, textile, threaten, repetitive, leisure, unemployment, ...",
-   "use_vi": "Part 3 có hai người nói và các lựa chọn gần nghĩa nhau. Quy tắc: đọc trước câu hỏi, nghe ai đang nói và nghe đến lúc chốt ý, vì người nói thường đổi ý giữa chừng.",
-   "vocab": [
-    "automation",
-    "textile",
-    "threaten",
-    "repetitive",
-    "leisure",
-    "unemployment",
-    "retire"
-   ],
-   "lecture": [
-    {
-     "kind": "title",
-     "hook": "Robot làm hết việc nhàm chán: tin vui hay tin buồn?",
-     "lines": [
-      {
-       "say": "Robot làm hết những việc nhàm chán: đó là tin vui hay tin buồn?",
-       "show": "hook"
-      },
-      {
-       "say": "Bảy từ của buổi này là bảy từ bạn sẽ nghe trong nửa đầu bài: câu chuyện người Luddite và những dự đoán về tương lai việc làm."
-      }
-     ]
-    },
-    {
-     "kind": "word",
-     "headword": "automation",
-     "lines": [
-      {
-       "say": "Automatic là tự động. Khi máy tự làm thay người, ta có tự động hóa. Bài nghe mở đầu bằng một buổi seminar về chủ đề này."
-      }
-     ]
-    },
-    {
-     "kind": "word",
-     "headword": "textile",
-     "lines": [
-      {
-       "say": "Hàng dệt, ngành dệt. Cuộc cách mạng công nghiệp ở Anh bắt đầu từ ngành dệt. Những người Luddite là công nhân dệt."
-      }
-     ]
-    },
-    {
-     "kind": "word",
-     "headword": "threaten",
-     "lines": [
-      {
-       "say": "Đe dọa. Trong bài, chàng trai nói anh hiểu vì sao những người Luddite cảm thấy bị đe dọa."
-      },
-      {
-       "en": "I can see why the Luddites felt so threatened.",
-       "vi": "Tôi hiểu vì sao những người Luddite cảm thấy bị đe dọa đến thế.",
-       "gap": true
-      }
-     ]
-    },
-    {
-     "kind": "word",
-     "headword": "repetitive",
-     "lines": [
-      {
-       "say": "Repeat là lặp lại. Những việc lặp đi lặp lại, nhàm chán, là việc robot được kỳ vọng sẽ làm thay con người."
-      },
-      {
-       "en": "Work won't involve doing boring, repetitive tasks.",
-       "vi": "Công việc sẽ không còn những việc nhàm chán, lặp đi lặp lại.",
-       "gap": true
-      }
-     ]
-    },
-    {
-     "kind": "word",
-     "headword": "leisure",
-     "lines": [
-      {
-       "say": "Thời gian rảnh, thời gian nghỉ ngơi. Để ý cách đọc kiểu Anh. Nghe thấy có thêm thời gian rảnh, bạn nghĩ ngay tới giờ làm việc ngắn lại."
-      }
-     ]
-    },
-    {
-     "kind": "word",
-     "headword": "unemployment",
-     "lines": [
-      {
-       "say": "Employ là thuê người làm; thêm tiền tố un là không có việc. Thất nghiệp giảm, trong bài được nói thành thất nghiệp thấp hơn."
-      },
-      {
-       "en": "What about lower unemployment?",
-       "vi": "Còn chuyện thất nghiệp giảm thì sao?",
-       "gap": true
-      }
-     ]
-    },
-    {
-     "kind": "word",
-     "headword": "retire",
-     "lines": [
-      {
-       "say": "Nghỉ hưu. Một lựa chọn trong đề nói người ta sẽ muốn hoãn nghỉ hưu. Trong bài, người ta sẽ phải làm việc tới khi già hơn: bị buộc, không phải muốn."
-      }
-     ]
-    },
-    {
-     "kind": "recap",
-     "lines": [
-      {
-       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
-       "show": "title"
-      }
-     ]
-    },
-    {
-     "kind": "end",
-     "next": "Tiếp theo: năm từ về các nghề xưa và nay.",
-     "lines": [
-      {
-       "say": "Hết buổi từ thứ nhất. Buổi sau là năm từ của nửa sau bài nghe: các nghề thay đổi ra sao từ thế kỷ mười chín tới nay.",
-       "show": "title"
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "title_vi": "Từ để nghe trước · các nghề xưa và nay",
-   "can_do_vi": "Sau buổi này bạn hiểu và dùng được các từ: productivity, qualification, census, lifespan, redundant, ...",
-   "use_vi": "Part 3 có hai người nói và các lựa chọn gần nghĩa nhau. Quy tắc: đọc trước câu hỏi, nghe ai đang nói và nghe đến lúc chốt ý, vì người nói thường đổi ý giữa chừng.",
-   "vocab": [
-    "productivity",
-    "qualification",
-    "census",
-    "lifespan",
-    "redundant"
-   ],
-   "lecture": [
-    {
-     "kind": "title",
-     "hook": "Thế kỷ 19 có bao nhiêu người làm nông?",
-     "lines": [
-      {
-       "say": "Bạn đoán thử: vào thế kỷ mười chín, bao nhiêu phần trăm dân số nước Anh làm nông?",
-       "show": "hook"
-      },
-      {
-       "say": "Câu trả lời có trong bài nghe. Trước đó là năm từ để nghe được phần các nghề xưa và nay."
-      }
-     ]
-    },
-    {
-     "kind": "word",
-     "headword": "productivity",
-     "lines": [
-      {
-       "say": "Năng suất: làm ra bao nhiêu trong một khoảng thời gian. Kế toán bây giờ làm việc hiệu quả hơn nhiều, tức là năng suất tăng."
-      }
-     ]
-    },
-    {
-     "kind": "word",
-     "headword": "qualification",
-     "lines": [
-      {
-       "say": "Bằng cấp, chứng chỉ. Trong bài có nói nhiều người tốt nghiệp đại học chọn làm hành chính, nhưng không ai nói nghề này sẽ đòi hỏi thêm bằng cấp."
-      }
-     ]
-    },
-    {
-     "kind": "word",
-     "headword": "census",
-     "lines": [
-      {
-       "say": "Cuộc điều tra dân số. Cuộc điều tra năm 1871 cho thấy khoảng một phần tư dân số làm nông. Từ này chỉ cần nhận ra khi nghe."
-      }
-     ]
-    },
-    {
-     "kind": "word",
-     "headword": "lifespan",
-     "lines": [
-      {
-       "say": "Life là đời sống, span là một khoảng: tuổi thọ. Ở thế kỷ mười chín, tuổi thọ ngắn nên hầu như không có nghề chăm sóc người già."
-      },
-      {
-       "en": "People's lifespan was so much shorter.",
-       "vi": "Tuổi thọ của con người ngắn hơn nhiều.",
-       "gap": true
-      }
-     ]
-    },
-    {
-     "kind": "word",
-     "headword": "redundant",
-     "lines": [
-      {
-       "say": "Thừa, không còn cần đến. Người Anh còn nói một người bị cho thôi việc vì công việc không còn nữa. Trong bài, công nghệ sẽ làm phần lớn công việc của nhân viên ngân hàng trở nên thừa."
-      },
-      {
-       "en": "Technology will make most of the jobs they do now redundant.",
-       "vi": "Công nghệ sẽ làm phần lớn công việc họ đang làm trở nên thừa.",
-       "gap": true
-      }
-     ]
-    },
-    {
-     "kind": "scene",
-     "visual": "ref_table",
-     "eyebrow": "Một họ từ",
-     "title": "Biết từ gốc, nghe ra danh từ",
-     "data": {
-      "cols": [
-       "Từ gốc",
-       "Danh từ",
-       "Nghĩa"
-      ],
-      "rows": [
-       {
-        "key": "f1",
-        "head": "automatic",
-        "en": "automation",
-        "vi": "tự động → sự tự động hóa"
-       },
-       {
-        "key": "f2",
-        "head": "employ",
-        "en": "unemployment",
-        "vi": "thuê người làm → tình trạng thất nghiệp"
-       },
-       {
-        "key": "f3",
-        "head": "produce",
-        "en": "productivity",
-        "vi": "sản xuất → năng suất"
-       },
-       {
-        "key": "f4",
-        "head": "qualify",
-        "en": "qualification",
-        "vi": "đủ điều kiện → bằng cấp"
-       }
-      ],
-      "rule": "Nghe được từ gốc trong một danh từ dài là hiểu được nó, dù chưa gặp bao giờ."
-     },
-     "lines": [
-      {
-       "say": "Bốn danh từ dài của hai buổi này đều sinh ra từ một từ gốc ngắn. Automatic là tự động, thành sự tự động hóa.",
-       "show": "f1"
-      },
-      {
-       "say": "Employ là thuê người làm, thành tình trạng thất nghiệp.",
-       "show": "f2"
-      },
-      {
-       "say": "Produce là sản xuất, thành năng suất.",
-       "show": "f3"
-      },
-      {
-       "say": "Qualify là đủ điều kiện, thành bằng cấp.",
-       "show": "f4"
-      },
-      {
-       "say": "Khi nghe, danh từ dài trôi qua rất nhanh. Bắt được từ gốc ở giữa là hiểu được nó, dù bạn chưa gặp bao giờ.",
-       "show": "rule"
-      }
-     ]
-    },
-    {
-     "kind": "recap",
-     "lines": [
-      {
-       "say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
-       "show": "title"
-      }
-     ]
-    },
-    {
-     "kind": "end",
      "next": "Tiếp theo: nghe bài The Luddites và chọn đáp án.",
      "lines": [
       {
-       "say": "Hết buổi từ thứ hai. Giờ bạn nghe bài. Đọc câu hỏi trước, nghe lại bao nhiêu lần cũng được, rồi mới xem lời giải.",
+       "say": "Hết phần chuẩn bị. Bây giờ bạn nghe bài: đọc câu hỏi trước, nghe lại bao nhiêu lần cũng được, rồi mới xem lời giải.",
        "show": "title"
       }
      ]
     }
-   ]
-  },
-  {
-   "title_vi": "Nghe kỹ · The Luddites (Part 3, câu 21–30)",
-   "can_do_vi": "Sau buổi này bạn nghe đúng đáp án trong hội thoại, nhận ra chỗ người nói sửa lại thông tin và giải thích được vì sao các lựa chọn khác sai.",
-   "use_vi": "Part 3 có hai người nói và các lựa chọn gần nghĩa nhau. Quy tắc: đọc trước câu hỏi, nghe ai đang nói và nghe đến lúc chốt ý, vì người nói thường đổi ý giữa chừng.",
+   ],
    "check": [
     "G1D27L1"
-   ]
+   ],
+   "can_do_vi": "Sau buổi này bạn biết đọc câu hỏi trước, đoán cách nói lại, nghe thái độ của người nói, nhận ra bẫy về mốc thời gian, rồi làm 10 câu của bài nghe.",
+   "use_vi": "Part 3 có hai người nói; chuẩn bị trước giúp bạn biết phải nghe gì ở từng câu hỏi."
   },
   {
    "title_vi": "Nghe lại · đối chiếu đáp án và cách nói lại",

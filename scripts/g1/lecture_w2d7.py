@@ -76,7 +76,7 @@ TRAPS = [
 PRE = [
     {"kind": "title", "hook": "Đập máy để giữ việc làm: chuyện xưa hay chuyện của chúng ta?", "lines": [
         {"say": "Đập máy để giữ việc làm: đó là chuyện của hai trăm năm trước, hay cũng là chuyện của chúng ta hôm nay?", "show": "hook"},
-        {"say": "Bài nghe hôm nay là cuộc trò chuyện của hai sinh viên sau một buổi seminar về tự động hóa và tương lai của việc làm. Trước khi nghe, mình chuẩn bị ba việc."},
+        {"say": "Bài nghe hôm nay là cuộc trò chuyện của hai sinh viên sau một buổi seminar về tự động hóa và tương lai của việc làm. Bạn đã có từ để nghe; giờ mình chuẩn bị thêm ba việc."},
     ]},
     {"kind": "scene", "visual": "story_strip", "eyebrow": "Câu chuyện", "title": "Những người đập máy",
      "data": {"frame": "strip", "panels": STORY, "rule": "Biết trước câu chuyện thì nghe dễ hơn: tai chỉ còn phải bắt chi tiết."}, "lines": [
@@ -122,8 +122,8 @@ PRE = [
         {"en": "I'd have assumed it would be more than fifty per cent. Now it's less than nought point two per cent."},
         {"say": "Nghe tới lúc người nói chốt ý: ý chính thường đứng sau chữ but, hay sau chữ now.", "show": "rule"},
     ]},
-    {"kind": "end", "next": "Tiếp theo: từ để nghe trước, rồi nghe bài và chọn đáp án.", "lines": [
-        {"say": "Hết phần chuẩn bị. Tiếp theo là những từ nên biết trước khi nghe. Sau đó bạn nghe bài, đọc câu hỏi trước, nghe lại bao nhiêu lần cũng được.", "show": "title"},
+    {"kind": "end", "next": "Tiếp theo: nghe bài The Luddites và chọn đáp án.", "lines": [
+        {"say": "Hết phần chuẩn bị. Bây giờ bạn nghe bài: đọc câu hỏi trước, nghe lại bao nhiêu lần cũng được, rồi mới xem lời giải.", "show": "title"},
     ]},
 ]
 
@@ -206,8 +206,8 @@ SITTING_2 = [
     {"kind": "recap", "lines": [
         {"say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
     ]},
-    {"kind": "end", "next": "Tiếp theo: nghe bài The Luddites và chọn đáp án.", "lines": [
-        {"say": "Hết buổi từ thứ hai. Giờ bạn nghe bài. Đọc câu hỏi trước, nghe lại bao nhiêu lần cũng được, rồi mới xem lời giải.", "show": "title"},
+    {"kind": "end", "next": "Tiếp theo: chuẩn bị trước khi nghe, rồi nghe bài.", "lines": [
+        {"say": "Hết buổi từ thứ hai. Buổi sau là ba việc cần chuẩn bị trước khi nghe, rồi bạn nghe bài.", "show": "title"},
     ]},
 ]
 
@@ -276,7 +276,7 @@ S_WORDS = [
 ]
 TITLES = ["Từ để nghe trước · Luddite và tương lai việc làm", "Từ để nghe trước · các nghề xưa và nay"]
 LECTURES = [SITTING_1, SITTING_2]
-LISTEN_TITLES = ["Nghe chủ động · chuẩn bị trước khi nghe", "Nghe lại · đối chiếu đáp án và cách nói lại"]
+LISTEN_TITLES = ["Nghe chủ động · chuẩn bị rồi nghe bài", "Nghe lại · đối chiếu đáp án và cách nói lại"]
 
 
 def reshape(sessions: list[dict]) -> list[dict]:
@@ -292,17 +292,19 @@ def reshape(sessions: list[dict]) -> list[dict]:
 
 
 def finish(sessions: list[dict], bank: dict[str, list[dict]]) -> list[dict]:
-    """The order of the day: prepare (lecture), the words, listen, go over the answers (lecture + writing)."""
+    """The order of the day: the words, prepare and listen (lecture + the recording), go over the answers (lecture +
+    writing). A sitting needs questions of its own, so the preparing lecture carries the recording."""
     mine = next(s for s in sessions if s["title_vi"].startswith("Vận dụng"))
-    pre = {"title_vi": LISTEN_TITLES[0], "lecture": PRE,
-           "can_do_vi": "Sau buổi này bạn biết đọc câu hỏi trước, đoán cách nói lại, nghe thái độ của người nói và nhận ra bẫy về mốc thời gian.",
+    listen = next(s for s in sessions if s["title_vi"].startswith("Nghe kỹ"))
+    pre = {"title_vi": LISTEN_TITLES[0], "lecture": PRE, "check": list(listen["check"]),
+           "can_do_vi": "Sau buổi này bạn biết đọc câu hỏi trước, đoán cách nói lại, nghe thái độ của người nói, nhận ra bẫy về mốc thời gian, rồi làm 10 câu của bài nghe.",
            "use_vi": "Part 3 có hai người nói; chuẩn bị trước giúp bạn biết phải nghe gì ở từng câu hỏi."}
     post = {"title_vi": LISTEN_TITLES[1], "lecture": POST, "check": list(mine["check"]),
             "can_do_vi": "Sau buổi này bạn giải thích được mỗi đáp án bằng đúng câu trong bài nghe và hiểu vì sao các lựa chọn gần nghĩa vẫn sai.",
             "use_vi": "Đối chiếu đáp án với lời thoại là cách nhanh nhất để lần sau nghe ra cách nói lại."}
     vocab = [s for s in sessions if s.get("lecture") in LECTURES]
-    rest = [s for s in sessions if s is not mine and s not in vocab]
-    sessions[:] = [pre, *vocab, *rest, post]
+    rest = [s for s in sessions if s is not mine and s is not listen and s not in vocab]
+    sessions[:] = [*vocab, pre, *rest, post]
     for s in sessions:
         assert len(s["title_vi"]) <= 70, s["title_vi"]
     return sessions
