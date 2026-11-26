@@ -177,7 +177,7 @@ def test_book_items_follow_the_key_and_mend_its_misprint():
     sec = {s[1]: (s[5], s[6]) for s in BK.SECTIONS if s[0] == 34}
     assert list(sec) == ["F4C", "F4D"] and all(kind == "typed" for kind, _ in sec.values())
     c = [[x.strip() for x in ln.split(" | ")] for ln in sec["F4C"][1]]
-    assert [f[1] for f in c] == ["have been", "be", "won't be;will not be", "be", "have been"]  # C5: the key prints "studying"
+    assert [f[1] for f in c] == ["have been", "be", "won't be;will not be;am not;'m not", "be", "have been"]  # C5: the key prints "studying"
     d = [[x.strip() for x in ln.split(" | ")] for ln in sec["F4D"][1]]
     assert len(d) == 10
     keys = [f[1].split(";") for f in d]

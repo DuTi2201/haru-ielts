@@ -64,7 +64,7 @@ Chính
 - Tương lai hoàn thành tiếp diễn "sẽ đã đang": làm được bao lâu và còn làm tiếp (hai câu hỏi: đã xong một quãng chưa? còn tiếp không?);
   đối xứng với hiện tại hoàn thành tiếp diễn của Tuần 1.
 - Mức dùng: tương lai đơn nhiều nhất, tương lai hoàn thành thứ hai, hai thì tiếp diễn ít.
-- Vị trí `probably`: đặt trước cả cụm động từ khi viết (*We probably won't have left…*), không chen vào giữa cụm.
+- Vị trí `probably`: câu khẳng định đứng sau `will` (*you'll probably have passed*), câu phủ định đứng trước `won't` (*We probably won't have left…*); xem điểm cần chỉnh 14.
 Bài: C câu 1–5; D câu 1–10.
 
 ## Ngày 5 · Từ vựng Thời gian và Công việc (Buổi 6, chặng 2–4; C1&C2 Unit 6 bài A–D)
@@ -123,6 +123,8 @@ Quy tắc điền ghi chú theo Buổi 6: chép đúng từ trong bài (cả s�
 12. *We're not nhấn mạnh phủ định*: đúng ở mức "khi nói, nhấn được vào not"; không phải quy tắc ngữ pháp.
 13. Đáp án bài B câu 7, 8, 10 và bài A câu 6, 8, 12: lớp ưu tiên một cách, sách có thể nhận cả hai. Theo nguyên tắc chung:
     đáp án theo sách; lời giải nói rõ "đáp án bài thi" khi lớp ưu tiên khác.
+14. *Vị trí probably: đặt trước cả cụm động từ (probably will have passed)*: chuẩn (Swan, đáp án sách) là sau `will` trong câu
+    khẳng định, trước `won't` trong câu phủ định. Dạy chuẩn, ghi chú *probably will* có gặp khi nhấn mạnh; bài D câu 7 nhận cả hai.
 
 ## Cần chuẩn bị
 

@@ -132,7 +132,7 @@
  "grammar": [
   {
    "pattern": "Tương lai hoàn thành · \"sẽ đã\"",
-   "meaning_vi": "will have + V3: tại một mốc ở tương lai, việc đã xong; đi với by, không dùng in",
+   "meaning_vi": "will have + V3: tại một mốc ở tương lai, việc đã xong; mốc là một thời điểm thì dùng by (by ten, by 2030), không dùng in; in + khoảng thời gian (in five years: năm năm nữa) vẫn dùng được",
    "usage_context_vi": "pat: Mẫu | will have + V3 + by + mốc | I'll have cooked dinner by the time you get home.\n## Nhấn vào lúc đã xong\nside: Bình thường | I'll finish this book by ten. | chỉ báo sẽ đọc xong | future\nside: Nhấn đã xong | I'll have finished this book by ten. | mười giờ là đã xong rồi | future\n!Mốc đi với by: by ten o'clock, by 2030, by the time + hiện tại đơn. Không nói ~~In 2030, I'll have finished my degree~~.",
    "contrasts": [],
    "example_en": "I'll have cooked dinner by the time you get home.\nI'll have finished this book by ten.\nBy 2030, I'll have finished my master's degree.",
@@ -151,12 +151,12 @@
    },
    "step_vi": "Cấu tạo",
    "note_vi": "Lỗi người Việt hay mắc: Quên dạng V3: ~~I'll have finish~~ → I'll have finished. Dùng in cho mốc: ~~in 2030~~ → by 2030.",
-   "exam_tip_vi": "Writing Task 1 có số liệu dự báo: By 2030, the number of users will have doubled. Đây là thì tương lai hay dùng thứ hai, sau tương lai đơn."
+   "exam_tip_vi": "Writing Task 1 có số liệu dự báo: By 2030, the number of users will have doubled."
   },
   {
    "pattern": "Tương lai tiếp diễn · \"sẽ đang\"",
    "meaning_vi": "will be + V-ing: tại một lúc ở tương lai, việc đang diễn ra; cũng dùng để hỏi lịch sự về kế hoạch",
-   "usage_context_vi": "pat: Mẫu | will be + V-ing + một lúc ở tương lai | This time next year, I'll be working on my dissertation.\nstep: Đang diễn ra | This time next summer, I'll be lying on a beach in Spain.\nstep: Hỏi lịch sự | Will you be using the car tonight?\n!Thì này ít gặp hơn tương lai hoàn thành, nhưng câu hỏi lịch sự về kế hoạch thì rất hay nghe.",
+   "usage_context_vi": "pat: Mẫu | will be + V-ing + một lúc ở tương lai | This time next year, I'll be working on my dissertation.\nstep: Đang diễn ra | This time next summer, I'll be lying on a beach in Spain.\nstep: Hỏi lịch sự | Will you be using the car tonight?\n!Thì này ít gặp hơn tương lai đơn, nhưng câu hỏi lịch sự về kế hoạch thì rất hay nghe.",
    "contrasts": [],
    "example_en": "This time next year, I'll be working on my dissertation.\nThis time tomorrow, I'll be flying to Singapore.\nWill you be using the car tonight?",
    "example_vi": "Giờ này năm sau tôi đang làm luận văn.\nGiờ này ngày mai tôi đang bay đi Singapore.\nTối nay bạn có dùng xe không?",
@@ -173,13 +173,13 @@
     "why": "Đang diễn ra tại một lúc ở tương lai → will be + V-ing."
    },
    "step_vi": "Khi nào dùng",
-   "note_vi": "Lỗi người Việt hay mắc: Dùng will have + V3 cho việc đang diễn ra: ~~At three tomorrow, I'll have met a client~~ (nghĩa là đã gặp xong) → At three tomorrow, I'll be meeting a client.",
+   "note_vi": "Lỗi người Việt hay mắc: Dùng will have + V3 cho việc đang diễn ra: At three tomorrow, I'll have met a client nghĩa là đã gặp xong, sai ý → At three tomorrow, I'll be meeting a client.",
    "exam_tip_vi": "Speaking: hỏi kế hoạch của người khác một cách nhẹ nhàng: Will you be coming to the party?"
   },
   {
    "pattern": "Tương lai hoàn thành tiếp diễn · \"sẽ đã đang\"",
-   "meaning_vi": "will have been + V-ing + for: tính đến một mốc ở tương lai, đã làm được bao lâu và vẫn còn làm tiếp",
-   "usage_context_vi": "pat: Mẫu | will have been + V-ing + for + khoảng thời gian | At three tomorrow, I'll have been doing homework for two hours.\n## Hai câu hỏi\nstep: Đã làm được một quãng chưa? | Rồi: hai tiếng.\nstep: Còn làm tiếp không? | Còn.\n!Giống hiện tại hoàn thành tiếp diễn, chỉ dời mốc từ bây giờ sang một lúc ở tương lai: I've been doing homework for two hours.",
+   "meaning_vi": "will have been + V-ing + for: tính đến một mốc ở tương lai, việc đã kéo dài được bao lâu (thường vẫn còn tiếp)",
+   "usage_context_vi": "pat: Mẫu | will have been + V-ing + for + khoảng thời gian | At three tomorrow, I'll have been doing homework for two hours.\n## Hai câu hỏi\nstep: Đã làm được một quãng chưa? | Rồi: hai tiếng.\nstep: Còn làm tiếp không? | Thường là còn.\n!Giống hiện tại hoàn thành tiếp diễn, chỉ dời mốc từ bây giờ sang một lúc ở tương lai: I've been doing homework for two hours.",
    "contrasts": [],
    "example_en": "At three tomorrow, I'll have been doing homework for two hours.\nIn a few minutes, I'll have been waiting here for over two hours.\nBy June, she'll have been working here for ten years.",
    "example_vi": "Ba giờ chiều mai là tôi đã làm bài được hai tiếng.\nVài phút nữa là tôi đã đợi ở đây hơn hai tiếng.\nĐến tháng Sáu, cô ấy đã làm ở đây được mười năm.",
@@ -201,21 +201,21 @@
   },
   {
    "pattern": "Chọn thì nào · bốn thì tương lai",
-   "meaning_vi": "Tương lai đơn dùng nhiều nhất; tương lai hoàn thành thứ hai; hai thì tiếp diễn ít gặp",
-   "usage_context_vi": "prep: will + V | sẽ | I'll go to Spain next summer. | I'll go to Spain next summer.\nprep: will be + V-ing | sẽ đang | This time next summer, I'll be on holiday in Spain. | This time next summer, I'll be on holiday in Spain.\nprep: will have + V3 | sẽ đã | By next summer, I'll have been to Spain. | By next summer, I'll have been to Spain.\nprep: will have been + V-ing | sẽ đã đang | By next summer, I'll have been learning Spanish for a year. | By next summer, I'll have been learning Spanish for a year.\n!Đoán về tương lai, người ta hay quan tâm lúc nào việc xong: vì vậy tương lai hoàn thành gặp nhiều hơn hai thì tiếp diễn.",
+   "meaning_vi": "Tương lai đơn dùng nhiều nhất; ba thì còn lại ít gặp hơn nhiều, hiếm nhất là tương lai hoàn thành tiếp diễn",
+   "usage_context_vi": "prep: will + V | sẽ | I'll go to Spain next summer. | I'll go to Spain next summer.\nprep: will be + V-ing | sẽ đang | This time next summer, I'll be travelling around Spain. | This time next summer, I'll be travelling around Spain.\nprep: will have + V3 | sẽ đã | By next summer, I'll have been to Spain. | By next summer, I'll have been to Spain.\nprep: will have been + V-ing | sẽ đã đang | By next summer, I'll have been learning Spanish for a year. | By next summer, I'll have been learning Spanish for a year.\n!Phần lớn câu nói về tương lai chỉ cần will + V. Ba thì còn lại dùng khi cần nói rõ: đã xong, đang diễn ra, hay đã kéo dài bao lâu.",
    "contrasts": [],
-   "example_en": "I'll go to Spain next summer.\nThis time next summer, I'll be on holiday in Spain.\nBy next summer, I'll have been to Spain.",
-   "example_vi": "Hè năm sau tôi sẽ đi Tây Ban Nha.\nGiờ này hè năm sau tôi đang nghỉ ở Tây Ban Nha.\nĐến hè năm sau tôi đã đi Tây Ban Nha rồi.",
+   "example_en": "I'll go to Spain next summer.\nThis time next summer, I'll be travelling around Spain.\nBy next summer, I'll have been to Spain.",
+   "example_vi": "Hè năm sau tôi sẽ đi Tây Ban Nha.\nGiờ này hè năm sau tôi đang đi du lịch khắp Tây Ban Nha.\nĐến hè năm sau tôi đã đi Tây Ban Nha rồi.",
    "importance": "normal",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 5, pp. 30-33; cách giảng của khóa học",
    "check": {
     "stem": "Trong bốn thì tương lai, thì nào được dùng nhiều nhất?",
     "options": [
-     "Tương lai đơn (will + V)",
+     "Tương lai đơn",
      "Tương lai hoàn thành tiếp diễn",
      "Tương lai tiếp diễn"
     ],
-    "why": "Tương lai đơn dùng nhiều nhất, sau đó là tương lai hoàn thành; hai thì tiếp diễn ít gặp."
+    "why": "Tương lai đơn dùng nhiều nhất; ba thì còn lại ít gặp hơn nhiều."
    },
    "step_vi": "Bốn thì",
    "note_vi": "Lỗi người Việt hay mắc: Cố dùng thì phức tạp cho đẹp câu: phần lớn câu tương lai chỉ cần will + V.",
@@ -264,13 +264,13 @@
  "bank": "g1",
  "coach": {
   "focus_vi": [
-   "\"sẽ đã\": will have + V3: tại một mốc ở tương lai, việc đã xong; đi với by, không dùng in",
+   "\"sẽ đã\": will have + V3: tại một mốc ở tương lai, việc đã xong; mốc là một thời điểm thì dùng by (by ten, by 2030), không dùng in; in + khoảng thời gian (in five years: năm năm nữa) vẫn dùng được",
    "\"sẽ đang\": will be + V-ing: tại một lúc ở tương lai, việc đang diễn ra; cũng dùng để hỏi lịch sự về kế hoạch",
-   "\"sẽ đã đang\": will have been + V-ing + for: tính đến một mốc ở tương lai, đã làm được bao lâu và vẫn còn làm tiếp"
+   "\"sẽ đã đang\": will have been + V-ing + for: tính đến một mốc ở tương lai, việc đã kéo dài được bao lâu (thường vẫn còn tiếp)"
   ],
   "watch_out_vi": [
    "Quên dạng V3: ~~I'll have finish~~ → I'll have finished. Dùng in cho mốc: ~~in 2030~~ → by 2030.",
-   "Dùng will have + V3 cho việc đang diễn ra: ~~At three tomorrow, I'll have met a client~~ (nghĩa là đã gặp xong) → At three tomorrow, I'll be meeting a client."
+   "Dùng will have + V3 cho việc đang diễn ra: At three tomorrow, I'll have met a client nghĩa là đã gặp xong, sai ý → At three tomorrow, I'll be meeting a client."
   ]
  },
  "exercise_ids": [
@@ -395,7 +395,7 @@
         "vi": "Không dùng in cho mốc này."
        }
       ],
-      "rule": "Sẽ đã: will have + động từ dạng ba. Tại một mốc ở tương lai, việc đã xong. Mốc đi với by, không dùng in."
+      "rule": "Sẽ đã: will have + động từ dạng ba. Tại một mốc ở tương lai, việc đã xong. Mốc là một thời điểm thì đi với by, không dùng in."
      },
      "lines": [
       {
@@ -426,7 +426,7 @@
        "gap": true
       },
       {
-       "say": "Mốc thời gian của thì này đi với by. Đừng dùng in: câu đó nghe rất lạ.",
+       "say": "Mốc là một thời điểm, như một năm cụ thể, thì đi với by. Đừng dùng in với thời điểm đó. Còn in cộng một khoảng thời gian, như năm năm nữa, thì vẫn dùng được.",
        "show": "a4"
       },
       {
@@ -435,7 +435,7 @@
        "gap": true
       },
       {
-       "say": "Sẽ đã: will have cộng động từ dạng ba. Tại một mốc ở tương lai, việc đã xong. Mốc đi với by, không dùng in.",
+       "say": "Sẽ đã: will have cộng động từ dạng ba. Tại một mốc ở tương lai, việc đã xong. Mốc là một thời điểm thì đi với by, không dùng in.",
        "show": "rule"
       }
      ]
@@ -525,7 +525,7 @@
         "key": "c3",
         "head": "Còn làm tiếp không?",
         "en": "I'll have been doing homework for two hours.",
-        "vi": "Còn: sẽ đã đang."
+        "vi": "Thường là còn: sẽ đã đang."
        },
        {
         "key": "c4",
@@ -534,7 +534,7 @@
         "vi": "Mốc là bây giờ."
        }
       ],
-      "rule": "Sẽ đã đang: will have been + V-ing + for. Tính đến một mốc ở tương lai, đã làm được bao lâu và vẫn còn làm tiếp."
+      "rule": "Sẽ đã đang: will have been + V-ing + for. Tính đến một mốc ở tương lai, việc đã kéo dài được bao lâu, thường vẫn còn tiếp."
      },
      "lines": [
       {
@@ -546,7 +546,7 @@
        "show": "c2"
       },
       {
-       "say": "Câu hỏi thứ hai: còn làm tiếp không? Còn. Hai câu trả lời đều là có, thì dùng sẽ đã đang.",
+       "say": "Câu hỏi thứ hai: còn làm tiếp không? Thường là còn. Đã kéo dài được một quãng, thì dùng sẽ đã đang.",
        "show": "c3"
       },
       {
@@ -565,7 +565,7 @@
        "recap": false
       },
       {
-       "say": "Sẽ đã đang: tính đến một mốc ở tương lai, đã làm được bao lâu, mà vẫn còn làm tiếp. Dấu hiệu là for cộng một khoảng thời gian.",
+       "say": "Sẽ đã đang: tính đến một mốc ở tương lai, đã làm được bao lâu, thường vẫn còn làm tiếp. Dấu hiệu là for cộng một khoảng thời gian.",
        "show": "rule"
       }
      ]
@@ -689,15 +689,15 @@
         "key": "s2",
         "icon": "suitcase",
         "head": "Sẽ đang · tiếp diễn",
-        "en": "This time next summer, I'll be on holiday in Spain.",
-        "vi": "Đang nghỉ vào lúc đó."
+        "en": "This time next summer, I'll be travelling around Spain.",
+        "vi": "Đang đi du lịch vào lúc đó."
        },
        {
         "key": "s3",
         "icon": "check_bubble",
         "head": "Sẽ đã · hoàn thành",
         "en": "By next summer, I'll have been to Spain.",
-        "vi": "Đã đi xong; dùng nhiều thứ hai."
+        "vi": "Đã đi rồi."
        },
        {
         "key": "s4",
@@ -707,7 +707,7 @@
         "vi": "Học được một năm, còn học tiếp."
        }
       ],
-      "rule": "Tương lai đơn dùng nhiều nhất; tương lai hoàn thành thứ hai; hai thì tiếp diễn ít gặp."
+      "rule": "Tương lai đơn dùng nhiều nhất; ba thì còn lại ít gặp hơn nhiều, hiếm nhất là sẽ đã đang."
      },
      "lines": [
       {
@@ -720,12 +720,12 @@
        "gap": true
       },
       {
-       "say": "Sẽ đang: giờ này hè năm sau, bạn đang nghỉ ở đó.",
+       "say": "Sẽ đang: giờ này hè năm sau, bạn đang đi du lịch khắp nước đó.",
        "show": "s2"
       },
       {
-       "en": "This time next summer, I'll be on holiday in Spain.",
-       "vi": "Giờ này hè năm sau tôi đang nghỉ ở Tây Ban Nha.",
+       "en": "This time next summer, I'll be travelling around Spain.",
+       "vi": "Giờ này hè năm sau tôi đang đi du lịch khắp Tây Ban Nha.",
        "gap": true
       },
       {
@@ -747,7 +747,7 @@
        "gap": true
       },
       {
-       "say": "Câu trả lời cho câu hỏi đầu buổi: tương lai đơn dùng nhiều nhất. Đoán về tương lai, người ta hay quan tâm lúc nào việc xong, nên tương lai hoàn thành đứng thứ hai. Hai thì tiếp diễn ít gặp.",
+       "say": "Câu trả lời cho câu hỏi đầu buổi: tương lai đơn dùng nhiều nhất. Ba thì còn lại ít gặp hơn nhiều, hiếm nhất là sẽ đã đang. Phần lớn câu nói về tương lai chỉ cần will.",
        "show": "rule"
       }
      ]
@@ -782,7 +782,10 @@
      },
      "lines": [
       {
-       "say": "Thêm từ probably, nghĩa là có lẽ, vào một câu sẽ đã. Câu khẳng định: probably đứng ngay sau will.",
+       "say": "Thêm từ probably, nghĩa là có lẽ, vào một câu sẽ đã. Bạn đặt nó ở chỗ nào? Thử đoán trước khi nghe."
+      },
+      {
+       "say": "Câu khẳng định: probably đứng ngay sau will.",
        "show": "p1"
       },
       {
@@ -805,7 +808,7 @@
       },
       {
        "en": "You probably will have passed by then.",
-       "vi": "Đến lúc đó chắc chắn là bạn đã đỗ rồi.",
+       "vi": "Đến lúc đó chắc là bạn đã đỗ rồi.",
        "gap": true,
        "recap": false
       },
@@ -952,7 +955,7 @@
         "key": "q1",
         "role": "Sẽ đã",
         "tense": "will have + V3",
-        "en": "In five years, I'll have finished my master's degree.",
+        "en": "Five years from now, I'll have finished my master's degree.",
         "vi": "Năm năm nữa, tôi đã học xong thạc sĩ."
        },
        {
@@ -995,7 +998,7 @@
        "say": "Câu một: một việc sẽ xong trước lúc đó."
       },
       {
-       "en": "In five years, I'll have finished my master's degree.",
+       "en": "Five years from now, I'll have finished my master's degree.",
        "vi": "Năm năm nữa, tôi đã học xong thạc sĩ.",
        "gap": true,
        "show": "q1"
@@ -1037,7 +1040,7 @@
      "kind": "recap",
      "lines": [
       {
-       "say": "Thì dùng nhiều nhất vẫn là tương lai đơn, rồi đến sẽ đã. Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
+       "say": "Thì dùng nhiều nhất vẫn là tương lai đơn; hiếm nhất là sẽ đã đang. Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.",
        "show": "title"
       }
      ]

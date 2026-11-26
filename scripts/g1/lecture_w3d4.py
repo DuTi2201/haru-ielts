@@ -62,14 +62,14 @@ WILL_BE = [
 TWO_QUESTIONS = [
     {"key": "c1", "head": "Mốc ở tương lai", "en": "At three tomorrow", "vi": "Ba giờ chiều mai."},
     {"key": "c2", "head": "Đã làm được một quãng chưa?", "en": "for two hours", "vi": "Rồi: hai tiếng."},
-    {"key": "c3", "head": "Còn làm tiếp không?", "en": "I'll have been doing homework for two hours.", "vi": "Còn: sẽ đã đang."},
+    {"key": "c3", "head": "Còn làm tiếp không?", "en": "I'll have been doing homework for two hours.", "vi": "Thường là còn: sẽ đã đang."},
     {"key": "c4", "head": "Giống hiện tại hoàn thành tiếp diễn", "en": "I've been doing homework for two hours.", "vi": "Mốc là bây giờ."},
 ]
 
 SPAIN = [
     {"key": "s1", "icon": "plane", "head": "Sẽ · tương lai đơn", "en": "I'll go to Spain next summer.", "vi": "Dùng nhiều nhất."},
-    {"key": "s2", "icon": "suitcase", "head": "Sẽ đang · tiếp diễn", "en": "This time next summer, I'll be on holiday in Spain.", "vi": "Đang nghỉ vào lúc đó."},
-    {"key": "s3", "icon": "check_bubble", "head": "Sẽ đã · hoàn thành", "en": "By next summer, I'll have been to Spain.", "vi": "Đã đi xong; dùng nhiều thứ hai."},
+    {"key": "s2", "icon": "suitcase", "head": "Sẽ đang · tiếp diễn", "en": "This time next summer, I'll be travelling around Spain.", "vi": "Đang đi du lịch vào lúc đó."},
+    {"key": "s3", "icon": "check_bubble", "head": "Sẽ đã · hoàn thành", "en": "By next summer, I'll have been to Spain.", "vi": "Đã đi rồi."},
     {"key": "s4", "icon": "clock", "head": "Sẽ đã đang", "en": "By next summer, I'll have been learning Spanish for a year.", "vi": "Học được một năm, còn học tiếp."},
 ]
 
@@ -87,7 +87,7 @@ TRAPS = [
 ]
 
 ANSWER = [
-    {"key": "q1", "role": "Sẽ đã", "tense": "will have + V3", "en": "In five years, I'll have finished my master's degree.", "vi": "Năm năm nữa, tôi đã học xong thạc sĩ."},
+    {"key": "q1", "role": "Sẽ đã", "tense": "will have + V3", "en": "Five years from now, I'll have finished my master's degree.", "vi": "Năm năm nữa, tôi đã học xong thạc sĩ."},
     {"key": "q2", "role": "Sẽ đang", "tense": "will be + V-ing", "en": "I'll probably be working for an international company.", "vi": "Chắc tôi đang làm cho một công ty quốc tế."},
     {"key": "q3", "role": "Sẽ đã đang", "tense": "will have been + V-ing", "en": "By then, I'll have been learning English for over ten years.", "vi": "Đến lúc đó, tôi đã học tiếng Anh hơn mười năm."},
     {"key": "q4", "role": "Dự đoán", "tense": "will", "en": "I think I'll be much more confident at work.", "vi": "Tôi nghĩ mình sẽ tự tin hơn nhiều trong công việc."},
@@ -99,16 +99,16 @@ SITTING_1 = [
         {"say": "Buổi này học ba thì tương lai, dịch gọn bằng tiếng Việt: sẽ đã, sẽ đang, rồi sẽ đã đang."},
     ]},
     {"kind": "scene", "visual": "picture_cards", "eyebrow": "Sẽ đã", "title": "Tương lai hoàn thành: xong trước một mốc",
-     "data": {"rows": WILL_HAVE, "rule": "Sẽ đã: will have + động từ dạng ba. Tại một mốc ở tương lai, việc đã xong. Mốc đi với by, không dùng in."}, "lines": [
+     "data": {"rows": WILL_HAVE, "rule": "Sẽ đã: will have + động từ dạng ba. Tại một mốc ở tương lai, việc đã xong. Mốc là một thời điểm thì đi với by, không dùng in."}, "lines": [
         {"say": "Nếu lúc bạn về bữa tối đã nấu xong, câu đó là sẽ đã. Công thức: will have cộng động từ dạng ba.", "show": "a1"},
         {"en": "I'll have cooked dinner by the time you get home.", "vi": "Lúc bạn về đến nhà, tôi đã nấu xong bữa tối.", "gap": True},
         {"say": "So sánh hai câu. Câu thứ nhất chỉ báo là sẽ đọc xong cuốn sách trước mười giờ.", "show": "a2"},
         {"en": "I'll finish this book by ten.", "vi": "Tôi sẽ đọc xong cuốn sách này trước mười giờ.", "gap": True},
         {"say": "Câu thứ hai nhấn vào lúc đã xong: đúng mười giờ, cuốn sách đã đọc xong rồi.", "show": "a3"},
         {"en": "I'll have finished this book by ten.", "vi": "Đến mười giờ tôi đã đọc xong cuốn sách này.", "gap": True},
-        {"say": "Mốc thời gian của thì này đi với by. Đừng dùng in: câu đó nghe rất lạ.", "show": "a4"},
+        {"say": "Mốc là một thời điểm, như một năm cụ thể, thì đi với by. Đừng dùng in với thời điểm đó. Còn in cộng một khoảng thời gian, như năm năm nữa, thì vẫn dùng được.", "show": "a4"},
         {"en": "By 2030, I'll have finished my master's degree.", "vi": "Đến năm 2030 tôi đã học xong thạc sĩ.", "gap": True},
-        {"say": "Sẽ đã: will have cộng động từ dạng ba. Tại một mốc ở tương lai, việc đã xong. Mốc đi với by, không dùng in.", "show": "rule"},
+        {"say": "Sẽ đã: will have cộng động từ dạng ba. Tại một mốc ở tương lai, việc đã xong. Mốc là một thời điểm thì đi với by, không dùng in.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Sẽ đang", "title": "Tương lai tiếp diễn: đang diễn ra lúc đó",
      "data": {"rows": WILL_BE, "rule": "Sẽ đang: will be + V-ing. Tại một lúc ở tương lai, việc đang diễn ra. Cũng dùng để hỏi lịch sự về kế hoạch."}, "lines": [
@@ -121,14 +121,14 @@ SITTING_1 = [
         {"say": "Sẽ đang: will be cộng đuôi ing. Tại một lúc ở tương lai, việc đang diễn ra. Thì này cũng dùng để hỏi lịch sự về kế hoạch.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Sẽ đã đang", "title": "Hai câu hỏi: đã được bao lâu, còn tiếp không?",
-     "data": {"rows": TWO_QUESTIONS, "rule": "Sẽ đã đang: will have been + V-ing + for. Tính đến một mốc ở tương lai, đã làm được bao lâu và vẫn còn làm tiếp."}, "lines": [
+     "data": {"rows": TWO_QUESTIONS, "rule": "Sẽ đã đang: will have been + V-ing + for. Tính đến một mốc ở tương lai, việc đã kéo dài được bao lâu, thường vẫn còn tiếp."}, "lines": [
         {"say": "Thì cuối dài nhất. Đặt một mốc ở tương lai: ba giờ chiều mai.", "show": "c1"},
         {"say": "Câu hỏi thứ nhất: đến mốc đó, đã làm được một quãng chưa? Rồi: hai tiếng.", "show": "c2"},
-        {"say": "Câu hỏi thứ hai: còn làm tiếp không? Còn. Hai câu trả lời đều là có, thì dùng sẽ đã đang.", "show": "c3"},
+        {"say": "Câu hỏi thứ hai: còn làm tiếp không? Thường là còn. Đã kéo dài được một quãng, thì dùng sẽ đã đang.", "show": "c3"},
         {"en": "I'll have been doing homework for two hours.", "vi": "Đến lúc đó tôi đã làm bài được hai tiếng.", "gap": True},
         {"say": "Thì này giống hệt hiện tại hoàn thành tiếp diễn đã học ở tuần một. Chỉ khác là mốc dời từ bây giờ sang một lúc ở tương lai.", "show": "c4"},
         {"en": "I've been doing homework for two hours.", "vi": "Tôi làm bài được hai tiếng rồi.", "gap": True, "recap": False},
-        {"say": "Sẽ đã đang: tính đến một mốc ở tương lai, đã làm được bao lâu, mà vẫn còn làm tiếp. Dấu hiệu là for cộng một khoảng thời gian.", "show": "rule"},
+        {"say": "Sẽ đã đang: tính đến một mốc ở tương lai, đã làm được bao lâu, thường vẫn còn làm tiếp. Dấu hiệu là for cộng một khoảng thời gian.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "complete", "lines": [{"say": "Năm động từ của buổi này là việc của một dự án. Từ thứ nhất: hoàn thành. Câu ví dụ là sẽ đã."}]},
     {"kind": "word", "headword": "submit", "lines": [{"say": "Từ thứ hai: nộp bài, nộp hồ sơ."}]},
@@ -149,25 +149,26 @@ SITTING_2 = [
         {"say": "Buổi này so sánh cả bốn thì qua một chuyến đi, học vị trí của probably, rồi một câu Speaking về năm năm tới."},
     ]},
     {"kind": "scene", "visual": "picture_cards", "eyebrow": "So sánh", "title": "Một chuyến đi, bốn thì",
-     "data": {"rows": SPAIN, "rule": "Tương lai đơn dùng nhiều nhất; tương lai hoàn thành thứ hai; hai thì tiếp diễn ít gặp."}, "lines": [
+     "data": {"rows": SPAIN, "rule": "Tương lai đơn dùng nhiều nhất; ba thì còn lại ít gặp hơn nhiều, hiếm nhất là sẽ đã đang."}, "lines": [
         {"say": "Thì thứ nhất, đơn giản nhất: hè năm sau bạn sẽ đi Spain.", "show": "s1"},
         {"en": "I'll go to Spain next summer.", "vi": "Hè năm sau tôi sẽ đi Tây Ban Nha.", "gap": True},
-        {"say": "Sẽ đang: giờ này hè năm sau, bạn đang nghỉ ở đó.", "show": "s2"},
-        {"en": "This time next summer, I'll be on holiday in Spain.", "vi": "Giờ này hè năm sau tôi đang nghỉ ở Tây Ban Nha.", "gap": True},
+        {"say": "Sẽ đang: giờ này hè năm sau, bạn đang đi du lịch khắp nước đó.", "show": "s2"},
+        {"en": "This time next summer, I'll be travelling around Spain.", "vi": "Giờ này hè năm sau tôi đang đi du lịch khắp Tây Ban Nha.", "gap": True},
         {"say": "Sẽ đã: đến hè năm sau, bạn đã đi Spain rồi.", "show": "s3"},
         {"en": "By next summer, I'll have been to Spain.", "vi": "Đến hè năm sau tôi đã đi Tây Ban Nha rồi.", "gap": True},
         {"say": "Sẽ đã đang: đến hè năm sau, bạn đã học tiếng của nước đó được một năm, mà vẫn còn học tiếp.", "show": "s4"},
         {"en": "By next summer, I'll have been learning Spanish for a year.", "vi": "Đến hè năm sau tôi đã học tiếng Tây Ban Nha được một năm.", "gap": True},
-        {"say": "Câu trả lời cho câu hỏi đầu buổi: tương lai đơn dùng nhiều nhất. Đoán về tương lai, người ta hay quan tâm lúc nào việc xong, nên tương lai hoàn thành đứng thứ hai. Hai thì tiếp diễn ít gặp.", "show": "rule"},
+        {"say": "Câu trả lời cho câu hỏi đầu buổi: tương lai đơn dùng nhiều nhất. Ba thì còn lại ít gặp hơn nhiều, hiếm nhất là sẽ đã đang. Phần lớn câu nói về tương lai chỉ cần will.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Vị trí", "title": "Probably đứng ở đâu?",
      "data": {"rows": PROBABLY, "rule": "Câu khẳng định: probably sau will. Câu phủ định: probably trước won't."}, "lines": [
-        {"say": "Thêm từ probably, nghĩa là có lẽ, vào một câu sẽ đã. Câu khẳng định: probably đứng ngay sau will.", "show": "p1"},
+        {"say": "Thêm từ probably, nghĩa là có lẽ, vào một câu sẽ đã. Bạn đặt nó ở chỗ nào? Thử đoán trước khi nghe."},
+        {"say": "Câu khẳng định: probably đứng ngay sau will.", "show": "p1"},
         {"en": "You'll probably have passed your driving test.", "vi": "Chắc bạn đã thi đỗ bằng lái rồi.", "gap": True},
         {"say": "Câu phủ định: probably đứng trước dạng phủ định của will, không chen vào sau.", "show": "p2"},
         {"en": "We probably won't have left by then.", "vi": "Đến lúc đó có lẽ chúng tôi vẫn chưa đi.", "gap": True},
         {"say": "Khi nói, đôi khi bạn nghe probably đứng trước will để nhấn mạnh. Khi viết, dùng hai vị trí chuẩn ở trên.", "show": "p3"},
-        {"en": "You probably will have passed by then.", "vi": "Đến lúc đó chắc chắn là bạn đã đỗ rồi.", "gap": True, "recap": False},
+        {"en": "You probably will have passed by then.", "vi": "Đến lúc đó chắc là bạn đã đỗ rồi.", "gap": True, "recap": False},
         {"say": "Câu khẳng định: probably đứng sau will. Câu phủ định: probably đứng trước will not, viết gọn như trên bảng.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Lỗi thường gặp", "title": "Bốn lỗi, bốn cách sửa",
@@ -195,7 +196,7 @@ SITTING_2 = [
         {"en": "Where do you see yourself in five years?", "show": "q"},
         {"say": "Đáp một chữ thì quá ngắn.", "show": "short"},
         {"say": "Câu một: một việc sẽ xong trước lúc đó."},
-        {"en": "In five years, I'll have finished my master's degree.", "vi": "Năm năm nữa, tôi đã học xong thạc sĩ.", "gap": True, "show": "q1"},
+        {"en": "Five years from now, I'll have finished my master's degree.", "vi": "Năm năm nữa, tôi đã học xong thạc sĩ.", "gap": True, "show": "q1"},
         {"say": "Câu hai: một việc sẽ đang làm lúc đó, có probably đứng sau will."},
         {"en": "I'll probably be working for an international company.", "vi": "Chắc tôi đang làm cho một công ty quốc tế.", "gap": True, "show": "q2"},
         {"say": "Câu ba: đã học tiếng Anh được bao lâu."},
@@ -205,7 +206,7 @@ SITTING_2 = [
         {"say": "Việc xong trước mốc: sẽ đã. Việc đang làm lúc đó: sẽ đang. Đã làm được bao lâu: sẽ đã đang. Còn lại, cứ dùng will. Hãy viết lại bốn câu này cho đúng với chính bạn.", "show": "rule"},
     ]},
     {"kind": "recap", "lines": [
-        {"say": "Thì dùng nhiều nhất vẫn là tương lai đơn, rồi đến sẽ đã. Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
+        {"say": "Thì dùng nhiều nhất vẫn là tương lai đơn; hiếm nhất là sẽ đã đang. Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
     ]},
     {"kind": "end", "next": "Tiếp theo: học thẻ và từ, làm bài, rồi buổi 3 để xếp câu, nghe chép và viết.", "lines": [
         {"say": "Hết phần giảng của ngày bốn. Bạn học các thẻ và từ trong app, làm bài, rồi sang buổi ba để xếp câu, nghe chép và viết về cuộc sống của bạn năm năm nữa.", "show": "title"},

@@ -543,10 +543,10 @@ SECTIONS += [
 # Reasons follow session 5 (stage 4: will have done, will be doing, will have been doing; by, not in) and session 6
 # (stages 1-2: C, D; the position of probably, corrected to the standard rule: after will, before won't).
 SECTIONS += [
-    (34, "F4C", B5 + " · bài C (trang 32)", "Điền một từ hoặc cụm ngắn", "Gõ một từ hoặc một cụm ngắn vào chỗ trống. Hỏi: tại mốc đó việc đang diễn ra, hay đã làm được bao lâu và còn làm tiếp?", "typed", [
+    (34, "F4C", B5 + " · bài C (trang 32)", "Điền một từ hoặc cụm ngắn", "Gõ một từ hoặc một cụm ngắn vào chỗ trống. Hỏi: tại mốc đó việc đang diễn ra, hay việc đã kéo dài được bao lâu tính đến mốc đó?", "typed", [
         "At the end of this month, I'll ( ㉠ ) working on my physics project for about six weeks. | have been | Tính đến cuối tháng đã làm được sáu tuần và vẫn làm tiếp → tương lai hoàn thành tiếp diễn: I'll have been working.",
         "I'll ( ㉠ ) spending the whole day in the physics lab next Saturday doing experiments. | be | Cả ngày thứ Bảy tới việc đang diễn ra → tương lai tiếp diễn: I'll be spending.",
-        "In fact, I ( ㉠ ) playing football the weekend after either, because I've got to go back to the lab then, too. | won't be;will not be | Phủ định của tương lai tiếp diễn: won't be + V-ing.",
+        "In fact, I ( ㉠ ) playing football the weekend after either, because I've got to go back to the lab then, too. | won't be;will not be;am not;'m not | Đáp án bài thi: won't be (phủ định của tương lai tiếp diễn); am not (việc đã sắp xếp) cũng đúng.",
         "I guess I'll ( ㉠ ) doing lots of similar projects when I'm at university. | be | Việc sẽ đang làm trong thời gian học đại học → I'll be doing.",
         "When I leave university in about four years, I will ( ㉠ ) studying physics for over thirteen years. | have been | Tính đến lúc ra trường đã học được hơn mười ba năm → will have been studying. Sau when vẫn chia hiện tại đơn (leave).",
     ]),
@@ -557,9 +557,9 @@ SECTIONS += [
         "They ( ㉠ ) (not / finish) painting the house by the time we get back from holiday. | won't have finished;will not have finished | Đến lúc về vẫn chưa xong → phủ định của tương lai hoàn thành: won't have finished.",
         "If she's still on the phone at eight o'clock, ( ㉠ ) (Jan / talk) to Melissa for over two hours. | Jan will have been talking;Jan'll have been talking | Vẫn đang nói và đã được hơn hai tiếng → Jan will have been talking.",
         "At six o'clock this evening, we ( ㉠ ) (not / climb) for five hours but for seven hours! | won't have been climbing;will not have been climbing | Nói về khoảng thời gian đã leo, việc vẫn đang tiếp diễn → won't have been climbing.",
-        "This time next month, you ( ㉠ ) (probably / pass) your driving test! | 'll probably have passed;will probably have passed;probably will have passed | Câu khẳng định: probably đứng sau will: you'll probably have passed. Khi nói, probably will have passed cũng gặp.",
+        "This time next month, you ( ㉠ ) (probably / pass) your driving test! | 'll probably have passed;will probably have passed;probably will have passed | Đáp án bài thi: you'll probably have passed (câu khẳng định: probably đứng sau will). probably will have passed cũng được chấp nhận; cách này nhấn vào will.",
         "( ㉠ ) (you / do) all your homework by bedtime? | Will you have done | Hỏi việc đã xong trước giờ đi ngủ chưa → Will you have done.",
-        "Tomorrow, ( ㉠ ) (Elaine / work) on the project for ten days. | Elaine will have been working;Elaine'll have been working | Tính đến ngày mai đã làm được mười ngày và còn làm tiếp → Elaine will have been working.",
+        "Tomorrow, ( ㉠ ) (Elaine / work) on the project for ten days. | Elaine will have been working;Elaine'll have been working;Elaine will have worked;Elaine'll have worked | Đáp án bài thi: Elaine will have been working (làm được mười ngày, còn làm tiếp). Elaine will have worked cũng đúng.",
         "We ( ㉠ ) (probably / not / leave) by the time you get home. | probably won't have left;probably will not have left;will probably not have left | Câu phủ định: probably đứng trước won't: we probably won't have left.",
     ]),
 ]
