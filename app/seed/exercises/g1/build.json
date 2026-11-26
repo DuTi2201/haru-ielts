@@ -5995,6 +5995,219 @@
    "tips_vi": []
   },
   {
+   "id": "G1D32B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 3 · Ngày 2",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Để tôi tiễn bạn ra cửa.",
+   "tiles": [
+    "see",
+    "you",
+    "out",
+    "I'll"
+   ],
+   "answers": [
+    "I'll see you out"
+   ]
+  },
+  {
+   "id": "G1D32B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 3 · Ngày 2",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bạn lấy giúp tôi ít cà phê được không?",
+   "tiles": [
+    "me",
+    "some",
+    "coffee",
+    "Will",
+    "get",
+    "you"
+   ],
+   "answers": [
+    "Will you get me some coffee"
+   ]
+  },
+  {
+   "id": "G1D32B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 3 · Ngày 2",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Chúng ta bắt đầu họp nhé?",
+   "tiles": [
+    "meeting",
+    "Shall",
+    "start",
+    "the",
+    "we"
+   ],
+   "answers": [
+    "Shall we start the meeting"
+   ]
+  },
+  {
+   "id": "G1D32B4",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 3 · Ngày 2",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Hôm nay tôi xin về sớm được không?",
+   "tiles": [
+    "today",
+    "leave",
+    "I",
+    "Can",
+    "early"
+   ],
+   "answers": [
+    "Can I leave early today"
+   ]
+  },
+  {
+   "id": "G1D32B5",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 3 · Ngày 2",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Để tôi gửi bạn bản hợp đồng.",
+   "tiles": [
+    "I'll",
+    "you",
+    "send",
+    "the",
+    "contract"
+   ],
+   "answers": [
+    "I'll send you the contract"
+   ]
+  },
+  {
+   "id": "G1D32F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 3 · Ngày 2",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Those boxes look heavy. ( ㉠ ) I help you?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "Shall",
+      "Can"
+     ],
+     "common_errors_vi": "Đề nghị giúp dạng câu hỏi: Shall I hoặc Can I. Không dùng Will I."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D32F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 3 · Ngày 2",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "( ㉠ ) you hold this door open for me, please?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "Will",
+      "Would",
+      "Could",
+      "Can"
+     ],
+     "common_errors_vi": "Nhờ vả: Will you, Would you, Could you, Can you đều được. Không dùng Are you going to."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D32F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 3 · Ngày 2",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Don't worry about the report. I ( ㉠ ) (do) it tonight.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "'ll do",
+      "will do"
+     ],
+     "common_errors_vi": "Đề nghị làm giúp → will + V."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D32F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 3 · Ngày 2",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "( ㉠ ) we start? Everyone is here.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "Shall",
+      "Should",
+      "Can"
+     ],
+     "common_errors_vi": "Rủ: Shall we; hỏi có nên: Should we; Can we cũng được."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D32F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 3 · Ngày 2",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Don't worry. I ( ㉠ ) (not / forget) to call the client.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "won't forget",
+      "will not forget"
+     ],
+     "common_errors_vi": "Lời hứa → won't + V nguyên thể."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
    "id": "G1D5KA18-1",
    "skill": "build",
    "type": "write_fill",

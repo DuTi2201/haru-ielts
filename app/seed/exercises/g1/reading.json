@@ -9142,6 +9142,641 @@
    ]
   },
   {
+   "id": "G1D32I1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 2",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D32I1",
+     "options": [
+      {
+       "id": "1",
+       "text": "I'll get the door for you."
+      },
+      {
+       "id": "2",
+       "text": "I'm going to get the door for you."
+      },
+      {
+       "id": "3",
+       "text": "I get the door for you."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đề nghị giúp ngay lúc đó → I'll + V. going to nghe như báo một kế hoạch, hiện tại đơn không dùng cho lời đề nghị.",
+     "tags": [],
+     "prompt_vi": "Đồng nghiệp ôm một chồng tài liệu, không mở được cửa. Bạn muốn giúp."
+    }
+   ]
+  },
+  {
+   "id": "G1D32I2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 2",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D32I2",
+     "options": [
+      {
+       "id": "1",
+       "text": "I'm going to see you out tomorrow."
+      },
+      {
+       "id": "2",
+       "text": "I'll see you out."
+      },
+      {
+       "id": "3",
+       "text": "I saw you out."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đề nghị làm ngay lúc đó → I'll see you out.",
+     "tags": [],
+     "prompt_vi": "Khách hàng ra về. Bạn muốn tiễn họ ra cửa."
+    }
+   ]
+  },
+  {
+   "id": "G1D32I3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 2",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D32I3",
+     "options": [
+      {
+       "id": "1",
+       "text": "Will you get me some coffee, please?"
+      },
+      {
+       "id": "2",
+       "text": "Are you going to get me some coffee?"
+      },
+      {
+       "id": "3",
+       "text": "Do you get me some coffee?"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Nhờ vả → Will you + V. Are you going to… nghe như hỏi kế hoạch hoặc ép; Do you… không dùng để nhờ.",
+     "tags": [],
+     "prompt_vi": "Bạn đang bận và muốn nhờ đồng nghiệp lấy giúp ít cà phê."
+    }
+   ]
+  },
+  {
+   "id": "G1D32I4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 2",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D32I4",
+     "options": [
+      {
+       "id": "1",
+       "text": "Are you helping me clean the house now?"
+      },
+      {
+       "id": "2",
+       "text": "Are you going to help me clean the house now?"
+      },
+      {
+       "id": "3",
+       "text": "Will you help me clean the house?"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Lời nhờ lịch sự → Will you. Dùng going to hay be + V-ing để nhờ thì nghe như ra lệnh ngầm.",
+     "tags": [],
+     "prompt_vi": "Bạn muốn nhờ em trai giúp dọn nhà một cách lịch sự."
+    }
+   ]
+  },
+  {
+   "id": "G1D32I5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 2",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D32I5",
+     "options": [
+      {
+       "id": "1",
+       "text": "Are you going to be at the party on Saturday?"
+      },
+      {
+       "id": "2",
+       "text": "Shall you be at the party on Saturday?"
+      },
+      {
+       "id": "3",
+       "text": "Do you be at the party on Saturday?"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Hỏi kế hoạch → Are you going to… là câu hỏi bình thường. Shall không đi với you; do không đi với be.",
+     "tags": [],
+     "prompt_vi": "Bạn chỉ muốn biết thứ Bảy bạn mình có đến bữa tiệc không; bữa tiệc đã mời từ trước."
+    }
+   ]
+  },
+  {
+   "id": "G1D32I6",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 2",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D32I6",
+     "options": [
+      {
+       "id": "1",
+       "text": "Will we start the meeting?"
+      },
+      {
+       "id": "2",
+       "text": "Are we starting the meeting?"
+      },
+      {
+       "id": "3",
+       "text": "Shall we start the meeting?"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Rủ cùng làm → Shall we. Will we và Are we starting là hỏi thông tin, không phải lời rủ.",
+     "tags": [],
+     "prompt_vi": "Mọi người đã đến đủ. Bạn muốn rủ cả nhóm bắt đầu họp."
+    }
+   ]
+  },
+  {
+   "id": "G1D32I7",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 2",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D32I7",
+     "options": [
+      {
+       "id": "1",
+       "text": "Will I leave early today?"
+      },
+      {
+       "id": "2",
+       "text": "Can I leave early today?"
+      },
+      {
+       "id": "3",
+       "text": "Shall I leave early today?"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Xin phép → Can I. Shall I leave early? nghe như hỏi sếp có muốn bạn về không.",
+     "tags": [],
+     "prompt_vi": "Bạn muốn xin sếp cho về sớm hôm nay."
+    }
+   ]
+  },
+  {
+   "id": "G1D32Q1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 2",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D32Q1",
+     "options": [
+      {
+       "id": "1",
+       "text": "Shall I"
+      },
+      {
+       "id": "2",
+       "text": "Am I going to"
+      },
+      {
+       "id": "3",
+       "text": "Do I"
+      },
+      {
+       "id": "4",
+       "text": "Will I"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đề nghị giúp dạng câu hỏi → Shall I (hoặc Can I). Không dùng Will I.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Those bags look heavy. ( ) carry one for you?"
+   }
+  },
+  {
+   "id": "G1D32Q2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 2",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D32Q2",
+     "options": [
+      {
+       "id": "1",
+       "text": "am get"
+      },
+      {
+       "id": "2",
+       "text": "get"
+      },
+      {
+       "id": "3",
+       "text": "'ll get"
+      },
+      {
+       "id": "4",
+       "text": "got"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Quyết định giúp ngay lúc nói → I'll get it.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "A: The phone's ringing. B: OK, I ( ) it."
+   }
+  },
+  {
+   "id": "G1D32Q3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 2",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D32Q3",
+     "options": [
+      {
+       "id": "1",
+       "text": "Shall"
+      },
+      {
+       "id": "2",
+       "text": "Are"
+      },
+      {
+       "id": "3",
+       "text": "Could"
+      },
+      {
+       "id": "4",
+       "text": "Did"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Nhờ vả → Could you (hoặc Will you, Would you). Shall không đi với you.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) you send me the contract by Friday, please?"
+   }
+  },
+  {
+   "id": "G1D32Q4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Chọn đáp án · Tuần 3 · Ngày 2",
+   "instruction_vi": "Chọn phương án đúng.",
+   "questions": [
+    {
+     "id": "G1D32Q4",
+     "options": [
+      {
+       "id": "1",
+       "text": "Are you helping me with this report now?"
+      },
+      {
+       "id": "2",
+       "text": "Are you going to help me with this report now?"
+      },
+      {
+       "id": "3",
+       "text": "Will you help me with this report?"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Nhờ thì dùng Will you. Hai câu kia dùng để nhờ sẽ nghe như ép.",
+     "tags": [],
+     "prompt_vi": "Câu nào là một lời nhờ lịch sự?"
+    }
+   ]
+  },
+  {
+   "id": "G1D32Q5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Chọn đáp án · Tuần 3 · Ngày 2",
+   "instruction_vi": "Chọn phương án đúng.",
+   "questions": [
+    {
+     "id": "G1D32Q5",
+     "options": [
+      {
+       "id": "1",
+       "text": "Are you going to be at the meeting tomorrow?"
+      },
+      {
+       "id": "2",
+       "text": "Are you going to be quiet now?"
+      },
+      {
+       "id": "3",
+       "text": "Are you going to help me or not?"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Hỏi lịch tuần sau, ngày mai là câu hỏi thật. Hai câu kia là câu hỏi tu từ, không chờ trả lời.",
+     "tags": [],
+     "prompt_vi": "Câu nào chỉ hỏi kế hoạch, không có ý ép?"
+    }
+   ]
+  },
+  {
+   "id": "G1D32Q6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 2",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D32Q6",
+     "options": [
+      {
+       "id": "1",
+       "text": "Should"
+      },
+      {
+       "id": "2",
+       "text": "Did"
+      },
+      {
+       "id": "3",
+       "text": "Are"
+      },
+      {
+       "id": "4",
+       "text": "Will"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Hỏi có nên làm không → Should we.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) we invite Tom? I think he'd enjoy it."
+   }
+  },
+  {
+   "id": "G1D32Q7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 2",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D32Q7",
+     "options": [
+      {
+       "id": "1",
+       "text": "am"
+      },
+      {
+       "id": "2",
+       "text": "can"
+      },
+      {
+       "id": "3",
+       "text": "will"
+      },
+      {
+       "id": "4",
+       "text": "shall"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Xin phép → Can I.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Mr Lee, ( ) I leave early today? I have a doctor's appointment."
+   }
+  },
+  {
+   "id": "G1D32Q8",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Chọn đáp án · Tuần 3 · Ngày 2",
+   "instruction_vi": "Chọn phương án đúng.",
+   "questions": [
+    {
+     "id": "G1D32Q8",
+     "options": [
+      {
+       "id": "1",
+       "text": "/wʌnt/, giống wonder"
+      },
+      {
+       "id": "2",
+       "text": "/wɒnt/, giống want"
+      },
+      {
+       "id": "3",
+       "text": "/wəʊnt/, khác want"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "won't có nguyên âm đôi /əʊ/; want có nguyên âm ngắn /ɒ/.",
+     "tags": [],
+     "prompt_vi": "Từ won't đọc thế nào?"
+    }
+   ]
+  },
+  {
+   "id": "G1D32KF2A-1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phần trong «» đúng hay sai (1/5)",
+   "instruction_vi": "Phần trong ngoặc «» đúng thì chọn giữ nguyên; sai thì chọn cách sửa. Hỏi trước: người nói đang đề nghị giúp, nhờ vả, rủ, hay hỏi một kế hoạch?",
+   "questions": [
+    {
+     "id": "G1D32KF2A-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "Sai: phải dùng hiện tại đơn «I do»"
+      },
+      {
+       "id": "2",
+       "text": "Sai: lời đề nghị giúp phải dùng «I'll do»"
+      },
+      {
+       "id": "3",
+       "text": "Đúng, giữ nguyên"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "`if you like` cho thấy đây là lời đề nghị giúp. Đề nghị giúp chỉ dùng will: I'll do the washing-up tonight, if you like. be going to nghe như báo một kế hoạch.",
+     "tags": [],
+     "prompt_vi": "«I'm going to do» the washing-up tonight, if you like."
+    }
+   ]
+  },
+  {
+   "id": "G1D32KF2A-2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phần trong «» đúng hay sai (2/5)",
+   "instruction_vi": "Phần trong ngoặc «» đúng thì chọn giữ nguyên; sai thì chọn cách sửa. Hỏi trước: người nói đang đề nghị giúp, nhờ vả, rủ, hay hỏi một kế hoạch?",
+   "questions": [
+    {
+     "id": "G1D32KF2A-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "Sai: phải dùng «Am I going to»"
+      },
+      {
+       "id": "2",
+       "text": "Đúng, giữ nguyên"
+      },
+      {
+       "id": "3",
+       "text": "Sai: phải dùng «Shall I» hoặc «Can I»"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Lời đề nghị giúp dạng câu hỏi với I: Shall I (kiểu Anh) hoặc Can I. Không dùng Will I.",
+     "tags": [],
+     "prompt_vi": "«Will I» carry some of those bags for you, or can you manage?"
+    }
+   ]
+  },
+  {
+   "id": "G1D32KF2A-3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phần trong «» đúng hay sai (3/5)",
+   "instruction_vi": "Phần trong ngoặc «» đúng thì chọn giữ nguyên; sai thì chọn cách sửa. Hỏi trước: người nói đang đề nghị giúp, nhờ vả, rủ, hay hỏi một kế hoạch?",
+   "questions": [
+    {
+     "id": "G1D32KF2A-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "Sai: lời nhờ phải dùng «Will you» (hoặc Would, Could, Can you)"
+      },
+      {
+       "id": "2",
+       "text": "Đúng, giữ nguyên"
+      },
+      {
+       "id": "3",
+       "text": "Sai: phải dùng «Are you»"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đây là lời nhờ: Will you, Would you, Could you, Can you đều đúng. Dùng Are you going to để nhờ thì câu thành câu hỏi tu từ, nghe như ép và bất lịch sự.",
+     "tags": [],
+     "prompt_vi": "«Are you going to» just hold this door open for me for a minute? Thanks a lot!"
+    }
+   ]
+  },
+  {
+   "id": "G1D32KF2A-4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phần trong «» đúng hay sai (4/5)",
+   "instruction_vi": "Phần trong ngoặc «» đúng thì chọn giữ nguyên; sai thì chọn cách sửa. Hỏi trước: người nói đang đề nghị giúp, nhờ vả, rủ, hay hỏi một kế hoạch?",
+   "questions": [
+    {
+     "id": "G1D32KF2A-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "Đúng, giữ nguyên"
+      },
+      {
+       "id": "2",
+       "text": "Sai: Shall chỉ đi với I, phải dùng «Will we»"
+      },
+      {
+       "id": "3",
+       "text": "Sai: phải dùng «Do we»"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Rủ cùng làm: Shall we đúng. Shall đi được với I và we.",
+     "tags": [],
+     "prompt_vi": "«Shall we» invite Tony and Tim round tonight?"
+    }
+   ]
+  },
+  {
+   "id": "G1D32KF2A-5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phần trong «» đúng hay sai (5/5)",
+   "instruction_vi": "Phần trong ngoặc «» đúng thì chọn giữ nguyên; sai thì chọn cách sửa. Hỏi trước: người nói đang đề nghị giúp, nhờ vả, rủ, hay hỏi một kế hoạch?",
+   "questions": [
+    {
+     "id": "G1D32KF2A-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "Sai: phải dùng «Will we»"
+      },
+      {
+       "id": "2",
+       "text": "Đúng, giữ nguyên"
+      },
+      {
+       "id": "3",
+       "text": "Sai: phải dùng «Do we»"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đáp án bài thi: giữ nguyên; đây là câu hỏi về kế hoạch chung tối nay. Nếu muốn rủ, Shall we invite… tự nhiên hơn; còn hỏi Are we going to… với giọng gắt khi người kia đang lưỡng lự thì nghe như ép.",
+     "tags": [],
+     "prompt_vi": "«Are we going to» invite Tony and Tim round tonight?"
+    }
+   ]
+  },
+  {
    "id": "G1D5KB18-1",
    "skill": "reading",
    "type": "read_cloze",

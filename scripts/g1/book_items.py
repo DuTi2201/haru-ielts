@@ -496,3 +496,18 @@ SECTIONS += [
         "«We're going to fly» to Jamaica in the summer. | Đúng, giữ nguyên | Sai: kế hoạch cho mùa hè phải dùng «We'll fly» | Sai: phải dùng hiện tại đơn «We fly» | Kế hoạch đã có, có thể đã đặt vé → be going to đúng; We're flying cũng đúng. Hiện tại đơn chỉ dùng cho lịch trình cố định mà người nói không đổi được, như giờ tàu chạy.",
     ]),
 ]
+
+# ---------------------------------------------------------------- week 3, day 2 (build day 32): Destination B2 Unit 5, A (items 3, 5, 7, 10, 11)
+# Answers: the book's key (p. 232): 3 I'll; 5 Shall/Can; 7 Will/Would/Could/Can you; 10 tick; 11 tick.
+# Reasons follow session 5 (stage 2: offers, requests, rhetorical questions; stage 5: items 3, 5, 7; stage 6: items 10, 11)
+# and docs/WEEK3_PLAN.md, corrections 2 to 4 (Are we going to…? asking about a plan is neutral; no Will I / Will we for
+# offers and suggestions). Item 11: the class changes it to Shall we; the key keeps it, so the reason names the exam answer.
+SECTIONS += [
+    (32, "F2A", B5 + " · bài A (trang 32)", "Phần trong «» đúng hay sai", "Phần trong ngoặc «» đúng thì chọn giữ nguyên; sai thì chọn cách sửa. Hỏi trước: người nói đang đề nghị giúp, nhờ vả, rủ, hay hỏi một kế hoạch?", "choice", [
+        "«I'm going to do» the washing-up tonight, if you like. | Sai: lời đề nghị giúp phải dùng «I'll do» | Đúng, giữ nguyên | Sai: phải dùng hiện tại đơn «I do» | `if you like` cho thấy đây là lời đề nghị giúp. Đề nghị giúp chỉ dùng will: I'll do the washing-up tonight, if you like. be going to nghe như báo một kế hoạch.",
+        "«Will I» carry some of those bags for you, or can you manage? | Sai: phải dùng «Shall I» hoặc «Can I» | Đúng, giữ nguyên | Sai: phải dùng «Am I going to» | Lời đề nghị giúp dạng câu hỏi với I: Shall I (kiểu Anh) hoặc Can I. Không dùng Will I.",
+        "«Are you going to» just hold this door open for me for a minute? Thanks a lot! | Sai: lời nhờ phải dùng «Will you» (hoặc Would, Could, Can you) | Đúng, giữ nguyên | Sai: phải dùng «Are you» | Đây là lời nhờ: Will you, Would you, Could you, Can you đều đúng. Dùng Are you going to để nhờ thì câu thành câu hỏi tu từ, nghe như ép và bất lịch sự.",
+        "«Shall we» invite Tony and Tim round tonight? | Đúng, giữ nguyên | Sai: Shall chỉ đi với I, phải dùng «Will we» | Sai: phải dùng «Do we» | Rủ cùng làm: Shall we đúng. Shall đi được với I và we.",
+        "«Are we going to» invite Tony and Tim round tonight? | Đúng, giữ nguyên | Sai: phải dùng «Do we» | Sai: phải dùng «Will we» | Đáp án bài thi: giữ nguyên; đây là câu hỏi về kế hoạch chung tối nay. Nếu muốn rủ, Shall we invite… tự nhiên hơn; còn hỏi Are we going to… với giọng gắt khi người kia đang lưỡng lự thì nghe như ép.",
+    ]),
+]

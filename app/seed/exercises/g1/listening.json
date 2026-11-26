@@ -487,6 +487,62 @@
    ]
   },
   {
+   "id": "G1D32D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Tuần 3 · Ngày 2",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "I'll see you out.",
+      "vi": "Để tôi tiễn bạn ra cửa."
+     },
+     {
+      "speaker": "M",
+      "text": "Will you get me some coffee?",
+      "vi": "Bạn lấy giúp tôi ít cà phê được không?"
+     },
+     {
+      "speaker": "F",
+      "text": "Shall we start the meeting?",
+      "vi": "Chúng ta bắt đầu họp nhé?"
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "arrange",
+     "vi": "sắp xếp, thu xếp"
+    },
+    {
+     "ko": "cancel",
+     "vi": "hủy"
+    },
+    {
+     "ko": "remind",
+     "vi": "nhắc"
+    },
+    {
+     "ko": "deliver",
+     "vi": "giao (hàng, thư)"
+    },
+    {
+     "ko": "sign",
+     "vi": "ký"
+    },
+    {
+     "ko": "schedule",
+     "vi": "lịch làm việc"
+    }
+   ],
+   "tips_vi": [
+    "Nghe âm cuối: -s của ngôi thứ ba, 's và n't, -ing. Sau khi kiểm tra, nghe lại và nhại theo đúng nhịp."
+   ]
+  },
+  {
    "id": "G1D27L1",
    "skill": "listening",
    "type": "listen_interview",

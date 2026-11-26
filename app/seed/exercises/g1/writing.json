@@ -565,6 +565,49 @@
    ]
   },
   {
+   "id": "G1D32M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Tuần 3 · Ngày 2",
+   "points": 5,
+   "instruction_vi": "Đồng nghiệp hôm nay rất bận. Viết ba, bốn câu ngắn: đề nghị giúp một việc, nhờ lại một việc, rủ gặp vào một giờ. Đề nghị dùng I'll; nhờ dùng Will you hoặc Could you; rủ dùng Shall we. Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
+   "limits": {
+    "min": 8,
+    "max": 40
+   },
+   "prompt_en": "Your colleague is very busy today. Write three or four short sentences: offer some help, ask for something you need, and suggest a time to meet.",
+   "framework_vi": [
+    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
+    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
+    "Chọn thì theo câu trả lời đó rồi mới viết."
+   ],
+   "model_answer_en": "You look busy today. I'll answer the emails for you this afternoon. Could you send me the contract when you have a minute? Shall we meet at four to check the schedule?",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Thì khớp với điều bạn muốn nói.",
+    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+   ],
+   "rubric": [
+    {
+     "criterion_vi": "Đúng đề: có một lời đề nghị, một lời nhờ, một lời rủ",
+     "max": 1,
+     "note_vi": "Task response"
+    },
+    {
+     "criterion_vi": "Đúng chức năng: đề nghị bằng I'll / Shall I; nhờ bằng Will you / Could you; rủ bằng Shall we / Let's",
+     "max": 2,
+     "note_vi": "Grammatical range"
+    },
+    {
+     "criterion_vi": "Dạng đúng: will / Shall / Could + động từ nguyên thể, không có to",
+     "max": 2,
+     "note_vi": "Grammatical accuracy"
+    }
+   ]
+  },
+  {
    "id": "G1D5M1",
    "skill": "writing",
    "type": "write_essay",
