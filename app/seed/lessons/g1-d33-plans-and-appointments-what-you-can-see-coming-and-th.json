@@ -163,7 +163,7 @@
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 5, pp. 30-33; cách giảng của khóa học",
    "check": {
-    "stem": "Look out! That van ( ) the car in front!",
+    "stem": "Look! That van ( ) the car in front!",
     "options": [
      "is going to hit",
      "hits",
@@ -173,8 +173,8 @@
     "why": "Dấu hiệu ngay trước mắt → be going to."
    },
    "step_vi": "Khi nào dùng",
-   "note_vi": "Lỗi người Việt hay mắc: Dùng will khi dấu hiệu ở ngay trước mắt: ~~Look out! You will fall!~~ → Look out! You're going to fall!",
-   "exam_tip_vi": "Writing Task 1: số liệu đang tăng mạnh và có dự báo thì viết is expected to hoặc is going to; tự dự đoán thì viết will."
+   "note_vi": "Lỗi người Việt hay mắc: Dùng will khi dấu hiệu ở ngay trước mắt: ~~Look out! You will hit the car in front!~~ → Look out! You're going to hit the car in front!",
+   "exam_tip_vi": "Writing Task 1: biểu đồ có số liệu dự báo thì viết is expected to, is projected to hoặc will; không tự thêm dự đoán ngoài số liệu."
   },
   {
    "pattern": "Hiện tại đơn chỉ tương lai · lịch trình và câu hỏi thông tin",
@@ -196,7 +196,7 @@
     "why": "Hỏi thông tin lịch chiếu đã cố định → hiện tại đơn: Does … start?"
    },
    "step_vi": "Khi nào dùng",
-   "note_vi": "Lỗi người Việt hay mắc: Dùng will cho lịch trình cố định: ~~The train will leave at 10.15, according to the timetable~~ → The train leaves at 10.15.",
+   "note_vi": "Lỗi người Việt hay mắc: Dùng đuôi ing khi đọc lịch: khi đọc lịch, người ta nói The train leaves at 10.15, không nói ~~The train is leaving at 10.15, according to the timetable~~.",
    "exam_tip_vi": "Listening Part 1: giờ mở cửa, giờ tàu, giờ bắt đầu khóa học thường nói bằng hiện tại đơn (The course starts on 3 May)."
   },
   {
@@ -209,7 +209,7 @@
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 5, pp. 30-33; cách giảng của khóa học",
    "check": {
-    "stem": "I'll call you when I ( ) at the office.",
+    "stem": "I'll call you when I ( ) to the office.",
     "options": [
      "get",
      "will get",
@@ -271,7 +271,7 @@
   ],
   "watch_out_vi": [
    "Dịch chữ \"sẽ\" thành will cho mọi việc tương lai: việc đã hẹn giờ thì dùng be + V-ing hoặc be going to.",
-   "Dùng will khi dấu hiệu ở ngay trước mắt: ~~Look out! You will fall!~~ → Look out! You're going to fall!"
+   "Dùng will khi dấu hiệu ở ngay trước mắt: ~~Look out! You will hit the car in front!~~ → Look out! You're going to hit the car in front!"
   ]
  },
  "exercise_ids": [
@@ -396,13 +396,16 @@
      },
      "lines": [
       {
-       "say": "Người thứ nhất đã gọi cho tiệm và hẹn giờ. Người đó dùng đuôi ing.",
+       "say": "Nghe câu của người thứ nhất.",
        "show": "a1"
       },
       {
        "en": "I'm getting my hair cut today.",
        "vi": "Hôm nay tôi đi cắt tóc.",
        "gap": true
+      },
+      {
+       "say": "Người này đã gọi cho tiệm và hẹn giờ, nên dùng đuôi ing."
       },
       {
        "say": "Người thứ hai mới nhìn gương sáng nay, thấy tóc dài quá, nên quyết định luôn. Người đó dùng will.",
@@ -516,7 +519,7 @@
        "gap": true
       },
       {
-       "say": "Dấu hiệu nằm ngay trước mắt người nói, việc gần như chắc chắn xảy ra: dùng going to. Lúc đó không ai hét lên bằng will.",
+       "say": "Dấu hiệu nằm ngay trước mắt người nói, việc gần như chắc chắn xảy ra: dùng going to. Lúc đó, going to là cách nói tự nhiên nhất.",
        "show": "rule"
       }
      ]

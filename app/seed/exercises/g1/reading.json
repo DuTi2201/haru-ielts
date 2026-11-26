@@ -9832,7 +9832,7 @@
      "answer": "2",
      "explanation_vi": "Dấu hiệu ở ngay trước mắt → be going to.",
      "tags": [],
-     "prompt_vi": "Bạn ngồi sau xe máy và thấy bạn lái sắp đâm vào đuôi ô tô phía trước."
+     "prompt_vi": "Bạn ngồi sau xe máy và thấy người bạn đang lái sắp đâm vào đuôi ô tô phía trước."
     }
    ]
   },
@@ -9882,7 +9882,7 @@
       },
       {
        "id": "2",
-       "text": "The train for Oxford is leaving at 10.15."
+       "text": "The train for Oxford leave at 10.15."
       },
       {
        "id": "3",
@@ -10019,7 +10019,7 @@
      "answer": "2",
      "explanation_vi": "be + V-ing với giờ cụ thể ở tương lai → việc đã hẹn. Câu với I think I'll là vừa quyết định, chưa hẹn.",
      "tags": [],
-     "prompt_vi": "Câu nào cho biết người nói đã có lịch hẹn?"
+     "prompt_vi": "Câu nào cho biết người nói đã có lịch hẹn sắp tới?"
     }
    ]
   },
@@ -10057,7 +10057,7 @@
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "Look out! That van ( ) the car in front!"
+    "text": "Look! That van ( ) the car in front!"
    }
   },
   {
@@ -10168,7 +10168,7 @@
    ],
    "stimulus": {
     "kind": "cloze",
-    "text": "I'll call you when I ( ) at the office."
+    "text": "I'll call you when I ( ) to the office."
    }
   },
   {
@@ -10292,7 +10292,7 @@
       }
      ],
      "answer": "3",
-     "explanation_vi": "Bữa tiệc thứ Bảy tới đã được mời từ trước, nên đây là câu hỏi về kế hoạch: Are you going to Jason's party? hoặc Are you going to go to Jason's party? Will you go…? nghe như một lời nhờ hay lời mời.",
+     "explanation_vi": "Hỏi người nghe đã định làm gì vào thứ Bảy tới → Are you going to Jason's party? hoặc Are you going to go to Jason's party? Will you go…? nghe như một lời nhờ (đi giúp tôi), hoặc như bắt người nghe quyết định ngay lúc này.",
      "tags": [],
      "prompt_vi": "«Will you go» to Jason's party next Saturday?"
     }
@@ -10532,7 +10532,7 @@
       }
      ],
      "answer": "2",
-     "explanation_vi": "Hỏi về việc đã sắp xếp cho tối mai → Are they broadcasting. Do they broadcast… hỏi một thói quen lặp lại (năm nào cũng phát trực tiếp không), không hợp với tomorrow night.",
+     "explanation_vi": "Phát sóng trực tiếp tối mai là việc nhà đài đã sắp xếp, không phải một lịch cố định như giờ tàu → Are they broadcasting. Hiện tại đơn dành cho lịch trình cố định.",
      "tags": [],
      "prompt_vi": "«Do they broadcast / Are they broadcasting» the music awards live tomorrow night?"
     }

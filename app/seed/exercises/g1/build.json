@@ -6400,9 +6400,11 @@
      "accepted": [
       "Does the shop open",
       "Is the shop open",
-      "Is the shop opening"
+      "Is the shop opening",
+      "Will the shop open",
+      "Will the shop be open"
      ],
-     "common_errors_vi": "Hỏi thông tin giờ mở cửa → Does the shop open; Is the shop open và Is the shop opening cũng đúng."
+     "common_errors_vi": "Hỏi thông tin giờ mở cửa → Does the shop open; Is the shop open, Is the shop opening, Will the shop (be) open cũng đúng."
     }
    ],
    "tips_vi": []
@@ -6425,9 +6427,11 @@
       "'re meeting",
       "are meeting",
       "'re going to meet",
-      "are going to meet"
+      "are going to meet",
+      "'ll be meeting",
+      "will be meeting"
      ],
-     "common_errors_vi": "Đã sắp xếp → be + V-ing hoặc be going to."
+     "common_errors_vi": "Đã sắp xếp → be + V-ing hoặc be going to; will be meeting cũng đúng."
     }
    ],
    "tips_vi": []

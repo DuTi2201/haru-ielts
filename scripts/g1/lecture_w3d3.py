@@ -98,8 +98,9 @@ SITTING_1 = [
     ]},
     {"kind": "scene", "visual": "picture_cards", "eyebrow": "Thí nghiệm", "title": "Đã hẹn hay mới định?",
      "data": {"rows": HAIRCUT, "rule": "Việc đã đặt lịch, đã hẹn: đuôi ing hoặc going to. Vừa quyết định: will."}, "lines": [
-        {"say": "Người thứ nhất đã gọi cho tiệm và hẹn giờ. Người đó dùng đuôi ing.", "show": "a1"},
+        {"say": "Nghe câu của người thứ nhất.", "show": "a1"},
         {"en": "I'm getting my hair cut today.", "vi": "Hôm nay tôi đi cắt tóc.", "gap": True},
+        {"say": "Người này đã gọi cho tiệm và hẹn giờ, nên dùng đuôi ing."},
         {"say": "Người thứ hai mới nhìn gương sáng nay, thấy tóc dài quá, nên quyết định luôn. Người đó dùng will.", "show": "a2"},
         {"en": "I'll have my hair cut today.", "vi": "Hôm nay tôi sẽ đi cắt tóc.", "gap": True},
         {"say": "Ở Việt Nam, muốn cắt tóc thì cứ ra tiệm. Nhưng ở nhiều nước, khám bác sĩ, cắt tóc, ăn nhà hàng đều phải đặt lịch trước. Vì vậy, người bản ngữ mặc định đó là việc đã hẹn.", "show": "a3"},
@@ -118,7 +119,7 @@ SITTING_1 = [
         {"en": "Stop! You're going to hit it!", "vi": "Dừng lại! Sắp đâm vào rồi!", "gap": True},
         {"say": "Cũng vậy khi bạn nhìn lên trời và thấy mây đen kéo đến.", "show": "r4"},
         {"en": "Look at those clouds. It's going to rain.", "vi": "Nhìn mây kìa. Sắp mưa rồi.", "gap": True},
-        {"say": "Dấu hiệu nằm ngay trước mắt người nói, việc gần như chắc chắn xảy ra: dùng going to. Lúc đó không ai hét lên bằng will.", "show": "rule"},
+        {"say": "Dấu hiệu nằm ngay trước mắt người nói, việc gần như chắc chắn xảy ra: dùng going to. Lúc đó, going to là cách nói tự nhiên nhất.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Hiện tại đơn chỉ tương lai", "title": "Không đoán, chỉ thông tin",
      "data": {"rows": TIMETABLE, "rule": "Lịch trình cố định và câu hỏi thông tin về một sự kiện: hiện tại đơn, dù việc ở tương lai."}, "lines": [

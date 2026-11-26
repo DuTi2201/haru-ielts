@@ -197,7 +197,7 @@ def test_typed_keys_accept_every_form_their_reason_calls_correct():
     assert len(items) == 5
     assert "have finished" in items["G1D33F2"]
     assert {"Does the shop open", "Is the shop open", "Is the shop opening"} <= set(items["G1D33F4"])
-    assert {"are meeting", "are going to meet"} <= set(items["G1D33F5"])
+    assert {"are meeting", "are going to meet", "will be meeting"} <= set(items["G1D33F5"])
 
 
 BANNED = ("Sách", "Destination", "thầy", "Thầy", "Minh", "Trích", "trang 3")
