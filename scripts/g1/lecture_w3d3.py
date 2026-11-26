@@ -159,7 +159,7 @@ SITTING_2 = [
         {"en": "We won't start until everyone is here.", "vi": "Chưa đủ mọi người thì chúng ta chưa bắt đầu.", "gap": True},
         {"say": "Muốn nhấn là việc kia phải xong trước, dùng hiện tại hoàn thành. Vẫn không dùng will.", "show": "w4"},
         {"en": "I'll send you the report as soon as I've finished it.", "vi": "Tôi làm xong báo cáo là gửi bạn ngay.", "gap": True},
-        {"say": "Nói về tương lai, vế bắt đầu bằng when, before, after, until, hay cụm ngay khi, chia hiện tại đơn, hoặc hiện tại hoàn thành. Chỉ vế chính mới dùng will.", "show": "rule"},
+        {"say": "Nói về tương lai, vế bắt đầu bằng when, before, after, until, hay cụm ngay khi, thì chia hiện tại đơn hoặc hiện tại hoàn thành. Chỉ vế chính mới dùng will.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Phủ định", "title": "We aren't hay We're not?",
      "data": {"rows": NOT, "rule": "We aren't và We're not đều đúng. Khi nói, tách riêng not ra thì dễ nhấn vào ý phủ định."}, "lines": [
