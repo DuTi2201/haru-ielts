@@ -681,3 +681,35 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
   - Đã ghi audio cả 4 buổi và chép lại toàn bộ bằng Gemini: không có đoạn vô nghĩa. Một chữ "do" bị giọng Anh đọc đã sửa và ghi lại buổi 4.
   - api/worker: g1-d27=created; frontend đã deploy; hai site trả về 200.
 - Audio của bài nghe (26 lượt, hai giọng) sẽ ghi khi học viên mở bài; chưa kiểm.
+
+## Tuần 3 · Ngày 1: Tương lai đơn (build day 31, lesson id 64)
+
+- Nguồn: Buổi 5, chặng 1 (ba cách viết; mọi điều ở tương lai đều là dự đoán; bỏ luật gần/xa và luật "chắc chắn trong đầu";
+  quyết định lúc nói) và chặng 5 (bài A câu 1, 4, 6, 8; phát âm restaurant, hundreds of years). Kế hoạch: `docs/WEEK3_PLAN.md`.
+- Tệp:
+  - `scripts/g1/days.txt` khối `#D 31`: 5 thẻ (ba cách viết; dự đoán will/going to, will trang trọng hơn; hai quy tắc cần bỏ;
+    quyết định lúc nói; be + V-ing bây giờ hay tương lai), 10 từ (động từ apply, hire, earn, promote, resign; danh từ career,
+    salary, interview, employer, deadline; IPA Oxford BrE), 2 T, 5 I, 8 Q, 5 B, 5 F, 3 D, 1 M.
+  - `scripts/g1/book_items.py` mục `F1A`: bài A câu 1, 4, 6, 8, 9, dạng "phần trong «» đúng hay sai". Đáp án sách (trang 232):
+    cả năm câu giữ nguyên; câu 8 sách nhận thêm we're going to try / we're trying / to try. Câu 6, 8 có "Đáp án bài thi".
+  - `scripts/g1/lecture_w3d1.py`: hai bài giảng viết tay, PRON, NOTES, RUBRIC, `reshape()` (buổi 1 thẻ 1–3 + 5 động từ;
+    buổi 2 thẻ 4–5 + 5 danh từ + câu Speaking; buổi 3 vận dụng).
+  - `build.py`: DAYNO/WEEK thêm 31 → Tuần 3 Ngày 1; TOPIC/BOOK/EDITOR cho tuần 3; `WEEK2[31] = W3D1` (dùng chung hook).
+  - `tests/test_lesson_w3d1_quality.py` (25 test); `tests/test_lesson_seed.py`: 64 bài, "Tuần 3 · Việc làm (Work)": 1.
+  - Frontend: WORD_PICTURE cho 10 từ.
+- Điểm đã chỉnh theo chuẩn ngữ pháp (soát cấp cao):
+  - Quyết định lúc nói: will là cách tự nhiên; going to "nghe như đã định từ trước" (không phải "dài"); I'm turning it off now
+    là hiện tại tiếp diễn (đang bắt tay làm). Typed key vẫn nhận cả ba.
+  - Dự định dùng going to; "I think I'll…" là đoán về bản thân. "What are your plans" → going to.
+  - Ba cách viết: nêu rõ sắc thái riêng; nói một câu rằng nhiều tài liệu chỉ gọi dạng will là tương lai đơn.
+  - Q "She's ( ) a new job": bỏ phương án "to start" (be to + V là đúng trong tiếng Anh Anh), thay bằng "going start".
+  - F "( ) (you / apply)": nhận thêm "Are you applying".
+- Gate giọng đọc mới phát hiện: chữ "hay" giữa hai từ tiếng Anh bị gom vào giọng Anh (dùng "hoặc"); "to" đứng riêng bị gom vào
+  giọng Việt; từ có dấu nháy (won't, I'll) trong lời giảng bị gate chữ cái đơn chặn.
+- Kiểm tra:
+  - Bộ test đầy đủ: đúng 31 lỗi cũ (so `/tmp/f_oldsrc.txt`, không khác).
+  - Xem trước 26 slide: không tràn, không chồng chữ; bỏ nhãn "MỐC" khỏi ba hội thoại.
+  - Audio: buổi 1 (10:29) và buổi 2 (10:53). Soát 141 đoạn tiếng Việt bằng Gemini: 140 khớp, một chỗ giọng đọc lặp "dùng dùng"
+    (buổi 2, 5:06). Đã đổi câu, ghi lại buổi 2, soát lại 71/71 đoạn khớp.
+  - api/worker: g1-d31=updated; frontend đã deploy; hai site trả về 200.
+- Tiếp theo: Ngày 2 (chỉ dùng will: đề nghị, nhờ vả, Shall/Should/Can; câu hỏi tu từ với going to; bài A câu 3, 5, 7, 10, 11).
