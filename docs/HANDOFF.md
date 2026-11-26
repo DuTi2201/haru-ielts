@@ -736,3 +736,25 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
 - Kiểm tra: bộ test đầy đủ vẫn đúng 31 lỗi cũ; xem trước 25 slide sạch; audio buổi 1 (8:06), buổi 2 (9:31), soát 109/109
   đoạn tiếng Việt khớp; g1-d32=created; frontend đã deploy.
 - Tiếp theo: Ngày 3 (kế hoạch và lịch hẹn, bằng chứng trước mắt, hiện tại đơn chỉ tương lai và mệnh đề thời gian; bài A câu 2, 12, bài B).
+
+## Tuần 3 · Ngày 3: Kế hoạch đã hẹn, dấu hiệu trước mắt, hiện tại đơn chỉ tương lai (build day 33, lesson id 66)
+
+- Nguồn: Buổi 5, chặng 3 (lịch hẹn và văn hoá đặt lịch: bác sĩ, cắt tóc, nhà hàng; dấu hiệu trước mắt: mây đen, hai bạn đi
+  xe máy sắp đâm; hiện tại đơn cho lịch trình và sau when) và Buổi 6, chặng 1 (bài B 1–10, We aren't / We're not).
+- Tệp: `days.txt` khối `#D 33` (5 thẻ: việc đã hẹn; dấu hiệu trước mắt; hiện tại đơn cho lịch trình và câu hỏi thông tin;
+  mệnh đề thời gian when/as soon as/until + hiện tại; We aren't / We're not), 10 từ (book, confirm, attend, commute,
+  negotiate; reservation, conference, overtime, branch, receptionist; IPA Oxford BrE), 6 I, 8 Q, 5 B, 5 F, 3 D, 1 M;
+  `book_items.py` mục `F3A` (bài A câu 2, 12) và `F3B` (bài B 1–10, có lựa chọn "Cả hai đều đúng"); `lecture_w3d3.py`;
+  `tests/test_lesson_w3d3_quality.py`; `build.py` thêm 33; test seed 66 bài, Tuần 3 = 3; frontend WORD_PICTURE 10 từ.
+- Đáp án sách (trang 232): A2 You're going to; A12 Are you going to (go to); B: 1 cả hai; 2 I'm going to do; 3 cả hai;
+  4 going to buy; 5 cả hai; 6 cả hai; 7 cả hai; 8 Are they broadcasting; 9 leaves; 10 cả hai. Câu B6, B7, B10 lớp ưu tiên
+  một cách (Does, going to, Does): lời giải ghi "Đáp án bài thi: cả hai" rồi nói cách lớp ưu tiên. Ghi chú buổi 6 nói câu
+  B2 "cả hai đều đúng", nhưng sách chỉ nhận I'm going to do (dự đoán); app theo sách.
+- Soát cấp cao: sửa 10 điểm: ô gõ hỏi giờ mở cửa nhận thêm Will the shop (be) open; ô gõ "đã sắp xếp" nhận will be meeting;
+  bỏ phương án nhiễu "The train is leaving at 10.15" khi câu không có according to the timetable; bẫy "You will fall" và
+  "will leave" bỏ (vẫn là tiếng Anh tự nhiên); mẹo Writing Task 1 không tự thêm dự đoán; "get to the office"; lời giải B8
+  và A12 viết lại.
+- Kiểm tra: test đầy đủ đúng 31 lỗi cũ; xem trước 23 slide sạch; audio buổi 1 (6:53), buổi 2 (9:22). Soát 98 đoạn: một chỗ
+  giọng đọc chèn âm lạ sau "chia hiện tại đơn," (buổi 2, 1:35); đã bỏ dấu phẩy, ghi lại buổi 2, soát lại 56/56 khớp.
+- Tiếp theo: Ngày 4 (sẽ đã, sẽ đang, sẽ đã đang: tương lai hoàn thành, tiếp diễn, hoàn thành tiếp diễn; by chứ không phải in;
+  vị trí probably; bài C, D).
