@@ -5965,7 +5965,7 @@
       "am going to turn",
       "'m going to turn"
      ],
-     "common_errors_vi": "Quyết định ngay lúc nói: will turn tự nhiên nhất; am turning cũng được; am going to turn đúng nhưng dài."
+     "common_errors_vi": "Quyết định ngay lúc nói: will turn tự nhiên nhất; am turning (đang làm ngay) và am going to turn cũng được chấp nhận."
     }
    ],
    "tips_vi": []
@@ -5986,9 +5986,10 @@
      "points": 3,
      "accepted": [
       "Are you going to apply",
+      "Are you applying",
       "Will you apply"
      ],
-     "common_errors_vi": "Hỏi dự định: Are you going to apply hoặc Will you apply đều đúng."
+     "common_errors_vi": "Hỏi dự định: Are you going to apply tự nhiên nhất; Are you applying, Will you apply cũng đúng."
     }
    ],
    "tips_vi": []

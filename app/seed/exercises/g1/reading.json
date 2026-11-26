@@ -8680,7 +8680,7 @@
       }
      ],
      "answer": "1",
-     "explanation_vi": "Đã quyết, đã đặt bàn → be going to. `tomorrow night` không đi với quá khứ.",
+     "explanation_vi": "Đã quyết, đã đặt bàn → be going to, hoặc be + V-ing (We're trying…). `tomorrow night` không đi với quá khứ.",
      "tags": [],
      "prompt_vi": "Hai vợ chồng đã đặt bàn ở nhà hàng mới cho tối mai. Bạn kể với bạn bè."
     }
@@ -8781,7 +8781,7 @@
       }
      ],
      "answer": "2",
-     "explanation_vi": "Kế hoạch tháng sau → am going to + V nguyên thể. Thiếu going to thì câu sai.",
+     "explanation_vi": "Kế hoạch tháng sau → am going to + V nguyên thể. apply, applied không chỉ tương lai; am apply sai cấu trúc.",
      "tags": []
     }
    ],
@@ -8940,7 +8940,7 @@
       },
       {
        "id": "2",
-       "text": "to start"
+       "text": "going start"
       },
       {
        "id": "3",
@@ -8995,7 +8995,7 @@
    "id": "G1D31KF1A-1",
    "skill": "reading",
    "type": "read_match",
-   "title_vi": "Sách · Phần in đậm đúng hay sai (1/5)",
+   "title_vi": "Sách · Phần trong «» đúng hay sai (1/5)",
    "instruction_vi": "Phần trong ngoặc «» đúng thì chọn giữ nguyên; sai thì chọn cách sửa. Hỏi trước: câu này là một dự đoán, hay một quyết định? Quyết định lúc nói, hay đã có từ trước?",
    "questions": [
     {
@@ -9025,7 +9025,7 @@
    "id": "G1D31KF1A-2",
    "skill": "reading",
    "type": "read_match",
-   "title_vi": "Sách · Phần in đậm đúng hay sai (2/5)",
+   "title_vi": "Sách · Phần trong «» đúng hay sai (2/5)",
    "instruction_vi": "Phần trong ngoặc «» đúng thì chọn giữ nguyên; sai thì chọn cách sửa. Hỏi trước: câu này là một dự đoán, hay một quyết định? Quyết định lúc nói, hay đã có từ trước?",
    "questions": [
     {
@@ -9055,7 +9055,7 @@
    "id": "G1D31KF1A-3",
    "skill": "reading",
    "type": "read_match",
-   "title_vi": "Sách · Phần in đậm đúng hay sai (3/5)",
+   "title_vi": "Sách · Phần trong «» đúng hay sai (3/5)",
    "instruction_vi": "Phần trong ngoặc «» đúng thì chọn giữ nguyên; sai thì chọn cách sửa. Hỏi trước: câu này là một dự đoán, hay một quyết định? Quyết định lúc nói, hay đã có từ trước?",
    "questions": [
     {
@@ -9085,7 +9085,7 @@
    "id": "G1D31KF1A-4",
    "skill": "reading",
    "type": "read_match",
-   "title_vi": "Sách · Phần in đậm đúng hay sai (4/5)",
+   "title_vi": "Sách · Phần trong «» đúng hay sai (4/5)",
    "instruction_vi": "Phần trong ngoặc «» đúng thì chọn giữ nguyên; sai thì chọn cách sửa. Hỏi trước: câu này là một dự đoán, hay một quyết định? Quyết định lúc nói, hay đã có từ trước?",
    "questions": [
     {
@@ -9115,7 +9115,7 @@
    "id": "G1D31KF1A-5",
    "skill": "reading",
    "type": "read_match",
-   "title_vi": "Sách · Phần in đậm đúng hay sai (5/5)",
+   "title_vi": "Sách · Phần trong «» đúng hay sai (5/5)",
    "instruction_vi": "Phần trong ngoặc «» đúng thì chọn giữ nguyên; sai thì chọn cách sửa. Hỏi trước: câu này là một dự đoán, hay một quyết định? Quyết định lúc nói, hay đã có từ trước?",
    "questions": [
     {

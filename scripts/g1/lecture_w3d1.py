@@ -47,14 +47,14 @@ S1_WORDS = ["apply", "hire", "earn", "promote", "resign"]
 S2_WORDS = ["career", "salary", "interview", "employer", "deadline"]
 
 THREE_WAYS = [
-    {"key": "w1", "icon": "phone", "head": "will + V", "en": "I'll start a new job next month.", "vi": "Ngắn, dùng được nhiều nhất."},
-    {"key": "w2", "icon": "calendar", "head": "be going to + V", "en": "I'm going to start a new job next month.", "vi": "Cùng nghĩa, dài hơn."},
-    {"key": "w3", "icon": "clock", "head": "be + V-ing", "en": "I'm starting a new job next month.", "vi": "Cùng nghĩa, cần mốc tương lai."},
+    {"key": "w1", "icon": "phone", "head": "will + V", "en": "I'll start a new job next month.", "vi": "Hay là dự đoán, hoặc quyết định ngay lúc nói."},
+    {"key": "w2", "icon": "calendar", "head": "be going to + V", "en": "I'm going to start a new job next month.", "vi": "Dự định đã có từ trước."},
+    {"key": "w3", "icon": "clock", "head": "be + V-ing", "en": "I'm starting a new job next month.", "vi": "Việc đã sắp xếp; cần mốc tương lai."},
 ]
 
 PREDICT = [
-    {"key": "f1", "icon": "check_bubble", "at": "future", "tense": "Gần · will", "en": "I think you'll get the job.", "vi": "Dự đoán việc tuần sau."},
-    {"key": "f2", "icon": "crystal", "at": "future", "tense": "Xa · going to", "en": "The universe is going to continue to expand for billions of years.", "vi": "Dự đoán việc hàng tỷ năm sau."},
+    {"key": "f1", "icon": "check_bubble", "at": "future", "tense": "Dự đoán · will", "en": "I think you'll get the job.", "vi": "Dự đoán về buổi phỏng vấn."},
+    {"key": "f2", "icon": "crystal", "at": "future", "tense": "Dự đoán · going to", "en": "The universe is going to continue to expand for billions of years.", "vi": "Dự đoán việc hàng tỷ năm sau."},
     {"key": "f3", "icon": "doc", "at": "future", "tense": "Bài viết · will", "en": "Governments will need to create more jobs.", "vi": "Văn viết học thuật dùng will."},
 ]
 
@@ -79,7 +79,7 @@ MOM = [
 TWO_CONTEXTS = [
     {"key": "d1", "icon": "bulb", "head": "Vừa nảy ra ý", "en": "I know! I'll have a barbecue on my birthday!", "vi": "Ý tưởng đến ngay lúc nói: will."},
     {"key": "d2", "icon": "calendar", "head": "Đã tính sẵn", "en": "I'm going to have a barbecue on my birthday.", "vi": "Kế hoạch có từ trước: going to."},
-    {"key": "d3", "icon": "checklist", "head": "Đã bàn, đã đặt bàn", "en": "We've decided we're going to try that new restaurant.", "vi": "Quyết từ trước: going to, hoặc đuôi ing."},
+    {"key": "d3", "icon": "checklist", "head": "Đã bàn, đã đặt bàn", "en": "We've decided we're going to try that new restaurant.", "vi": "Quyết từ trước, đã đặt chỗ: going to hoặc đuôi ing."},
     {"key": "d4", "icon": "discuss", "head": "Vừa bàn xong", "en": "OK, we'll try that new restaurant.", "vi": "Quyết ngay lúc nói: will."},
 ]
 
@@ -98,7 +98,7 @@ TRAPS = [
 ANSWER = [
     {"key": "p1", "role": "Trả lời thẳng", "tense": "will", "en": "No, I don't think I will.", "vi": "Không, tôi nghĩ là không."},
     {"key": "p2", "role": "Việc đã lên lịch", "tense": "be + V-ing", "en": "I'm starting a new job at a bank next month.", "vi": "Tháng sau tôi bắt đầu làm ở một ngân hàng."},
-    {"key": "p3", "role": "Dự định", "tense": "will", "en": "In a few years, I think I'll apply for a job abroad.", "vi": "Vài năm nữa, chắc tôi sẽ xin việc ở nước ngoài."},
+    {"key": "p3", "role": "Đoán về bản thân", "tense": "will", "en": "In a few years, I think I'll apply for a job abroad.", "vi": "Vài năm nữa, chắc tôi sẽ xin việc ở nước ngoài."},
     {"key": "p4", "role": "Dự đoán chung", "tense": "will", "en": "Most people will have several employers in their career.", "vi": "Phần lớn mọi người sẽ làm cho vài chỗ trong sự nghiệp."},
 ]
 
@@ -108,14 +108,14 @@ SITTING_1 = [
         {"say": "Buổi này học ba cách viết thì tương lai đơn, cách dùng cả ba để dự đoán, rồi hai quy tắc học thuộc mà bạn nên bỏ."},
     ]},
     {"kind": "scene", "visual": "picture_cards", "eyebrow": "Thí nghiệm", "title": "Một câu, ba cách viết",
-     "data": {"rows": THREE_WAYS, "rule": "Tương lai đơn có ba cách viết. Nhiều chỗ thay nhau được; vài chỗ chỉ một cách dùng được."}, "lines": [
+     "data": {"rows": THREE_WAYS, "rule": "Tương lai đơn có ba cách viết. Nhiều chỗ thay nhau được; mỗi cách có sắc thái riêng."}, "lines": [
         {"say": "Bạn kể với bạn bè: tháng sau mình bắt đầu một công việc mới. Cách thứ nhất dùng will.", "show": "w1"},
         {"en": "I'll start a new job next month.", "vi": "Tháng sau tôi bắt đầu công việc mới.", "gap": True},
         {"say": "Cách thứ hai dùng going to.", "show": "w2"},
         {"en": "I'm going to start a new job next month.", "vi": "Tháng sau tôi bắt đầu công việc mới.", "gap": True},
         {"say": "Cách thứ ba dùng am, is hoặc are cộng động từ đuôi ing.", "show": "w3"},
         {"en": "I'm starting a new job next month.", "vi": "Tháng sau tôi bắt đầu công việc mới.", "gap": True},
-        {"say": "Ba câu, cùng một nghĩa. Cả ba đều là thì tương lai đơn. Trong nhiều trường hợp chúng thay nhau được; chỉ có vài trường hợp một cách dùng được mà cách kia thì không. Những trường hợp đó sẽ học ở các ngày sau.", "show": "rule"},
+        {"say": "Ba câu đều nói về tháng sau. Sách ngữ pháp thường chỉ gọi dạng will là tương lai đơn; ở đây gọi chung cả ba cách. Nhiều chỗ chúng thay nhau được, nhưng mỗi cách có sắc thái riêng: will hay là dự đoán hoặc quyết định ngay lúc nói, going to là dự định đã có từ trước, đuôi ing là việc đã sắp xếp.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "sentence_forms", "eyebrow": "Công thức", "title": "Ba dạng câu với will",
      "data": {"rows": [
@@ -129,7 +129,8 @@ SITTING_1 = [
               "spelling": [["I will", "I'll"], ["you will", "you'll"], ["will not", "won't"], ["I am going to", "I'm going to"]],
               "short": ["Yes, I will.", "No, I won't."],
               "rule": "will + động từ nguyên thể, mọi ngôi như nhau. Phủ định: won't. Câu hỏi: đưa will lên đầu."}, "lines": [
-        {"say": "Bây giờ là công thức của will. Will không đổi theo ngôi: tôi, bạn, anh ấy, cô ấy đều là will. Sau will là động từ nguyên thể.", "show": "persons"},
+        {"say": "Anh ấy sẽ gọi cho bạn: will có thêm đuôi ét như động từ thường không?"},
+        {"say": "Không. Will không đổi theo ngôi: tôi, bạn, anh ấy, cô ấy đều là will. Sau will là động từ nguyên thể.", "show": "persons"},
         {"en": "I'll call you tomorrow.", "vi": "Mai tôi sẽ gọi cho bạn.", "gap": True, "show": "aff"},
         {"say": "Khi nói, will thường được rút gọn, như trên bảng. Phủ định là will not, khi nói thì gộp thành một từ.", "show": "spelling"},
         {"en": "I won't be late.", "vi": "Tôi sẽ không đến muộn.", "gap": True, "show": "neg"},
@@ -175,7 +176,7 @@ SITTING_1 = [
     ]},
     {"kind": "word", "headword": "apply", "lines": [{"say": "Năm động từ của buổi này đều về chuyện đi làm. Câu ví dụ nào cũng ở tương lai. Từ thứ nhất: nộp đơn xin việc."}]},
     {"kind": "word", "headword": "hire", "lines": [{"say": "Từ thứ hai: công ty tuyển người. Câu ví dụ dùng will."}]},
-    {"kind": "word", "headword": "earn", "lines": [{"say": "Từ thứ ba: kiếm tiền. Âm giữa kéo dài, giống trong từ bird."}]},
+    {"kind": "word", "headword": "earn", "lines": [{"say": "Từ thứ ba: kiếm tiền. Nguyên âm đầu từ kéo dài, giống trong từ bird."}]},
     {"kind": "word", "headword": "promote", "lines": [{"say": "Từ thứ tư: thăng chức. Câu ví dụ là một dự đoán với will."}]},
     {"kind": "word", "headword": "resign", "lines": [{"say": "Từ cuối: xin nghỉ việc. Chữ cái gờ trong từ này không đọc. Câu ví dụ dùng đuôi ing, vì việc đã định sẵn."}]},
     {"kind": "recap", "lines": [
@@ -192,15 +193,15 @@ SITTING_2 = [
         {"say": "Buổi này học quyết định ngay lúc nói, quyết định đã có từ trước, rồi cách nhận ra đuôi ing đang nói về bây giờ hay tương lai."},
     ]},
     {"kind": "scene", "visual": "chat_dialogue", "eyebrow": "Thí nghiệm", "title": "Quyết định ngay lúc nói",
-     "data": {"names": {"A": "Mẹ", "B": "John"}, "turns": MOM, "rule": "Quyết định ngay lúc nói: will tự nhiên nhất. Đuôi ing cũng được; going to đúng nhưng dài."}, "lines": [
+     "data": {"names": {"A": "Mẹ", "B": "John"}, "turns": MOM, "rule": "Quyết định ngay lúc nói: will. going to nghe như đã định từ trước; đuôi ing là việc đang bắt tay làm."}, "lines": [
         {"say": "Mẹ của John nhắc.", "show": "j1"},
         {"en": "John, please turn off the computer and do your homework.", "vi": "John, tắt máy tính rồi làm bài đi con.", "gap": True, "recap": False},
         {"say": "John quyết định ngay lúc đó rồi đáp bằng will. Đây là cách tự nhiên nhất.", "show": "j2"},
         {"en": "OK Mom, I'll turn it off now.", "vi": "Vâng, con tắt ngay đây.", "gap": True},
-        {"say": "Người bản ngữ cũng hay đáp bằng đuôi ing, vì việc tắt máy gần như đang diễn ra.", "show": "j3"},
+        {"say": "Cũng có người đáp bằng đuôi ing. Đây là hiện tại tiếp diễn: tay đang bắt đầu tắt máy rồi.", "show": "j3"},
         {"en": "OK Mom, I'm turning it off now.", "vi": "Vâng, con đang tắt đây.", "gap": True},
-        {"say": "Đáp bằng going to thì không sai ngữ pháp, chỉ dài nên ít ai nói. Còn hiện tại đơn thì sai: hiện tại đơn không dùng cho một lời hứa hay một quyết định."},
-        {"say": "Quyết định ngay lúc nói: will là tự nhiên nhất. Đuôi ing cũng được. Going to đúng, nhưng dài.", "show": "rule"},
+        {"say": "Đáp bằng going to thì không sai ngữ pháp, nhưng nghe như John đã định tắt máy từ trước, không hợp với một lời đáp vừa quyết. Còn hiện tại đơn thì sai: hiện tại đơn không dùng cho một lời hứa hay một quyết định."},
+        {"say": "Quyết định ngay lúc nói: will là tự nhiên nhất. Going to nghe như đã định từ trước. Đuôi ing là việc đang bắt tay làm ngay.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "picture_cards", "eyebrow": "Một câu, hai bối cảnh", "title": "Vừa nảy ra, hay đã tính từ trước?",
      "data": {"rows": TWO_CONTEXTS, "rule": "Vừa quyết ngay lúc nói: will. Đã quyết từ trước, đã đặt chỗ: going to hoặc đuôi ing. Hai cách đều đúng ngữ pháp."}, "lines": [
@@ -245,7 +246,7 @@ SITTING_2 = [
     {"kind": "scene", "visual": "speaking_answer", "eyebrow": "IELTS Speaking Part 1", "title": "Dự đoán bằng will, lịch hẹn bằng đuôi ing",
      "data": {"question": "Do you think you will stay in the same job for your whole career?", "question_vi": "Bạn nghĩ mình sẽ làm một công việc suốt cả sự nghiệp không?",
               "short": "No.", "parts": ANSWER,
-              "rule": "Dự đoán và dự định: will. Việc đã lên lịch: đuôi ing. Khi viết, dùng will."}, "lines": [
+              "rule": "Dự đoán: will. Dự định: going to. Việc đã lên lịch: đuôi ing. Khi viết, dùng will."}, "lines": [
         {"say": "Giám khảo hỏi bạn có nghĩ mình sẽ làm một công việc suốt cả sự nghiệp không."},
         {"en": "Do you think you will stay in the same job for your whole career?", "show": "q"},
         {"say": "Chỉ đáp một chữ thì quá ngắn.", "show": "short"},
@@ -253,11 +254,11 @@ SITTING_2 = [
         {"en": "No, I don't think I will.", "vi": "Không, tôi nghĩ là không.", "gap": True, "show": "p1"},
         {"say": "Câu hai: một việc đã lên lịch, nên dùng đuôi ing."},
         {"en": "I'm starting a new job at a bank next month.", "vi": "Tháng sau tôi bắt đầu làm ở một ngân hàng.", "gap": True, "show": "p2"},
-        {"say": "Câu ba: một dự định cho vài năm nữa, dùng will."},
+        {"say": "Câu ba: đoán về chính mình vài năm nữa, nên dùng will, mở đầu bằng I think."},
         {"en": "In a few years, I think I'll apply for a job abroad.", "vi": "Vài năm nữa, chắc tôi sẽ xin việc ở nước ngoài.", "gap": True, "show": "p3"},
         {"say": "Câu bốn: một dự đoán chung, dùng will."},
         {"en": "Most people will have several employers in their career.", "vi": "Phần lớn mọi người sẽ làm cho vài chỗ trong sự nghiệp.", "gap": True, "show": "p4"},
-        {"say": "Dự đoán và dự định: will. Việc đã lên lịch: đuôi ing. Khi viết thì dùng will. Hãy viết lại bốn câu này cho đúng với chính bạn.", "show": "rule"},
+        {"say": "Dự đoán: will. Dự định đã có: going to. Việc đã lên lịch: đuôi ing. Khi viết thì dùng will. Hãy viết lại bốn câu này cho đúng với chính bạn.", "show": "rule"},
     ]},
     {"kind": "recap", "lines": [
         {"say": "Mẹ nhắc, bạn tắt máy ngay: quyết định ngay lúc nói dùng will. Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
@@ -269,7 +270,7 @@ SITTING_2 = [
 
 RUBRIC = [
     {"criterion_vi": "Đúng đề, nội dung là của chính bạn", "max": 1, "note_vi": "Fluency and coherence"},
-    {"criterion_vi": "Dự đoán, dự định bằng will; việc đã lên lịch bằng be + V-ing hoặc be going to", "max": 2, "note_vi": "Grammatical range"},
+    {"criterion_vi": "Dự đoán bằng will; dự định bằng be going to; việc đã lên lịch bằng be + V-ing", "max": 2, "note_vi": "Grammatical range"},
     {"criterion_vi": "Dạng động từ đúng: will / won't + nguyên thể, am / is / are going to + nguyên thể, am / is / are + V-ing", "max": 2, "note_vi": "Grammatical accuracy"},
 ]
 
