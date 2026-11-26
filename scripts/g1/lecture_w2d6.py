@@ -311,7 +311,7 @@ SITTING_2 = [
         {"say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
     ]},
     {"kind": "end", "next": "Tiếp theo: câu dài và mạch thông tin của đoạn C đến G.", "lines": [
-        {"say": "Hết buổi từ thứ hai. Buổi sau học cách đọc những câu dài nhất của bài. Mình cũng sẽ theo mạch thông tin từ đoạn này sang đoạn khác.", "show": "title"},
+        {"say": "Hết buổi từ thứ hai. Buổi sau học cách đọc những câu dài nhất của bài. Buổi đó cũng theo mạch thông tin từ đoạn này sang đoạn khác.", "show": "title"},
     ]},
 ]
 
