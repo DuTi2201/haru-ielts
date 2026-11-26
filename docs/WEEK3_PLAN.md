@@ -9,12 +9,16 @@ Tên sách, trang, tên người dạy chỉ ghi ở đây và trong `source` / 
 
 ## Quyết định (26/11)
 
-- **Bài đọc Ngày 6: Urban farming** (Cam 18 Test 1 Passage 1, câu 1–13). Buổi 6 chữa đúng bài này (chặng 5–6), và Buổi 4
-  đã dạy cách tóm tắt từng đoạn trên chính bài này. Bài đang nằm ở Bổ trợ (bản cũ, chưa có bài giảng): dựng lại thành
-  Tuần 3 Ngày 6 theo chuẩn Tuần 2, rồi bỏ bản Bổ trợ để không trùng (chuyển, không xoá dữ liệu cũ khỏi git).
-- **Bài nghe Ngày 7: Talk on jobs in fashion design** (Cam 18 Test 1 Part 3, câu 21–30). Ghi chú Buổi 5–6 không có bài nghe;
-  chọn bài đúng chủ đề Việc làm, cùng dạng Part 3 như Tuần 1 và Tuần 2. Phương án khác: Test 2 Part 1 *Working at Milo's
-  Restaurants*, Test 4 Part 1 *Job details from employment agency* (Part 1, dễ hơn).
+- **Bài đọc Ngày 6: Living with artificial intelligence** (Cam 18 Test 2 Passage 2, câu 14–26). Đếm trên 10 bài đọc chưa dùng:
+  bài viết gần như toàn bộ về tương lai (23 lần `will/won't/'ll`, *By mid-century, we may have…*, `may/might/could`), có từ
+  của tuần (*temporary*, *efficiently*, *effective*, *lapses*, *senior*) và Tuần 2 (*feat*, *accelerate*, *shortcomings*),
+  chủ đề AI và việc làm. Urban farming chỉ có 3 lần `will`, gần như không có từ của tuần. Cách làm bài của Buổi 6 áp vào:
+  Yes/No/Not Given (câu 20–23) bằng cách chia cụm; câu hỏi theo đoạn (14–19) bằng tóm tắt đoạn của Buổi 4; điền tóm tắt
+  (24–26) bằng dấu hiệu quanh chỗ trống. Urban farming giữ ở Bổ trợ kèm phần chữa của Buổi 4 và 6, đặt vào Tuần 11.
+- **Bài nghe Ngày 7: Working at Milo's Restaurants** (Cam 18 Test 2 Part 1, câu 1–10). Đúng chủ đề (điều kiện làm việc),
+  có *temporary, annual, staff, salary, shift*, 5 lần `will`; dạng điền ghi chú áp thẳng quy tắc điền từ của Buổi 6
+  (chép đúng từ trong bài kể cả số nhiều, đoán loại từ từ chữ quanh chỗ trống). Phương án dự phòng: Test 1 Part 3
+  *Talk on jobs in fashion design* (Part 3, khó hơn).
 - Bài tập về nhà của Buổi 6 là Cam 18 Test 1 Passage 2 (Forest management) cho buổi sau: thuộc Tuần 4, không làm ở đây.
 
 ## Ngày 1 · Tương lai đơn: ba cách viết, và "mọi thứ ở tương lai đều là dự đoán" (Buổi 5, chặng 1; bài A)
@@ -79,19 +83,19 @@ Bộ lọc của lớp ("vàng" và "cám"): học kỹ để viết, còn lại
   chưa cần chọn giọng Anh hay Mỹ; *punctual* /ˈpʌŋktʃuəl/.
 Bài: A, B, C (14), D (10).
 
-## Ngày 6 · Đọc: Urban farming (Buổi 6, chặng 5–6; Buổi 4 cho bước tóm tắt)
+## Ngày 6 · Đọc: Living with artificial intelligence (cách làm bài của Buổi 6; tóm tắt đoạn của Buổi 4)
 
-- Dùng lại bản tóm tắt từng đoạn để tìm đúng đoạn trong vài giây.
-- Câu 1–7 (điền từ): chép đúng từ của bài, cả số nhiều (*producers*, *journeys*, *pesticides*); bẫy đáp án đứng trước từ khoá
-  (câu 4: *17 different pesticides* đứng trước *intensive farming*); câu 3 (*consumption*, chữ *food* tuỳ chọn) kiểm tra mạch.
-- Câu 8–13 (True/False/Not Given): chia câu thành cụm, đối chiếu từng cụm; False phải có thông tin ngược, Not Given là thiếu
-  một cụm; câu 8 gián tiếp (*shipping containers* / *underground car parks*), câu 11 so sánh ba vế.
-- Bước đầu buổi của lớp: thống kê câu sai để chữa đúng chỗ khó (trong app: phần tự rà sau khi làm).
+- Tóm tắt từng đoạn trước, rồi mới làm câu hỏi; câu 14–19 hỏi ý của từng đoạn.
+- Câu 20–23 (Yes/No/Not Given, theo ý người viết): chia câu thành cụm, đối chiếu từng cụm; No phải có ý ngược,
+  Not Given là thiếu một cụm; cẩn thận câu có từ khoá của bài nhưng thêm một ý bài không có.
+- Câu 24–26 (điền tóm tắt bằng danh sách cụm): nhìn chữ quanh chỗ trống để biết cần loại từ gì.
+- Ngữ pháp trong bài: dự đoán bằng `will` (văn viết trang trọng), `by mid-century`, mức chắc chắn `may / might / could`.
+- Đếm câu sai rồi chữa đúng chỗ khó (trong app: phần tự rà sau khi làm).
 
-## Ngày 7 · Nghe: Talk on jobs in fashion design (Cam 18 Test 1 Part 3)
+## Ngày 7 · Nghe: Working at Milo's Restaurants (Cam 18 Test 2 Part 1)
 
-Làm như Tuần 2 Ngày 7: hai buổi từ để nghe trước, một bài giảng chuẩn bị rồi nghe, một bài giảng đối chiếu đáp án và cách nói lại.
-Nối với tuần: nghề nghiệp, câu nói về kế hoạch và dự đoán.
+Làm như Tuần 2 Ngày 7: buổi từ để nghe trước, bài giảng chuẩn bị rồi nghe, bài giảng đối chiếu đáp án và cách nói lại.
+Quy tắc điền ghi chú theo Buổi 6: chép đúng từ trong bài (cả số nhiều), đoán loại từ từ chữ quanh chỗ trống.
 
 ## Điểm cần chỉnh khi đưa vào app (đối chiếu từ điển và ngữ pháp chuẩn)
 
@@ -124,5 +128,5 @@ Nối với tuần: nghề nghiệp, câu nói về kế hoạch và dự đoán
 
 - Gõ lại bài A–D của B2 Unit 5 và C1&C2 Unit 6 từ bản quét, kèm đáp án sách (B2: phần Key cuối sách, cần tìm trang;
   C1&C2: Key cuối sách, như Unit 4 trang 284).
-- Cam 18 Test 1 Part 3: đề trang 15–16, script và đáp án (tìm trong phần Audioscripts và Key).
-- Urban farming: dữ liệu cũ ở `scripts/g1/day89.py` (Bổ trợ); dựng lại theo chuẩn Tuần 2.
+- Cam 18 Test 2 Passage 2: đề trang 43–47 (file PDF trang = trang sách + 2), đáp án trang 120–121.
+- Cam 18 Test 2 Part 1: đề trang 32–33, script trang 104–105, đáp án trang 120 (kiểm lại khi lấy).
