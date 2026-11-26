@@ -758,3 +758,25 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
   giọng đọc chèn âm lạ sau "chia hiện tại đơn," (buổi 2, 1:35); đã bỏ dấu phẩy, ghi lại buổi 2, soát lại 56/56 khớp.
 - Tiếp theo: Ngày 4 (sẽ đã, sẽ đang, sẽ đã đang: tương lai hoàn thành, tiếp diễn, hoàn thành tiếp diễn; by chứ không phải in;
   vị trí probably; bài C, D).
+
+## Tuần 3 · Ngày 4: Sẽ đã, sẽ đang, sẽ đã đang (build day 34, lesson id 67)
+
+- Nguồn: Buổi 5, chặng 3–4 (tương lai hoàn thành "sẽ đã" với by; tương lai tiếp diễn "sẽ đang"; tương lai hoàn thành tiếp
+  diễn "sẽ đã đang" với hai câu hỏi; ví dụ chuyến đi Tây Ban Nha) và Buổi 6, chặng 1–2 (bài C, D; vị trí probably).
+- Tệp: `days.txt` khối `#D 34` (5 thẻ: sẽ đã; sẽ đang, kể cả câu hỏi lịch sự Will you be using…?; sẽ đã đang; chọn thì nào;
+  vị trí probably), 10 từ (complete, submit, expand, manage, train; project, target, quarter, milestone, trainee; IPA
+  Oxford BrE), 6 I, 8 Q, 5 B, 5 F, 3 D, 1 M; `book_items.py` mục `F4C` (bài C, gõ) và `F4D` (bài D 1–10, gõ);
+  `lecture_w3d4.py`; `tests/test_lesson_w3d4_quality.py`; `build.py` thêm 34; test seed 67 bài, Tuần 3 = 4; frontend
+  WORD_PICTURE 10 từ.
+- Đáp án sách: C 1 have been, 2 be, 3 won't be, 4 be, 5 sách in "studying" là lỗi in (chỗ trống đứng trước studying):
+  app nhận "have been". D theo sách; D7 nhận thêm probably will have passed, D9 nhận thêm will have worked, C3 nhận thêm
+  am not (các lời giải ghi "Đáp án bài thi").
+- Chỉnh so với lớp (thêm điểm 14 vào `docs/WEEK3_PLAN.md`): probably đứng sau will trong câu khẳng định, trước won't trong
+  câu phủ định (chuẩn Swan và đáp án sách); "probably will" ghi chú là có gặp khi nhấn mạnh.
+- Soát cấp cao: sửa 11 điểm: "by, không dùng in" chỉ áp cho mốc là một thời điểm (in + khoảng thời gian vẫn đúng); câu
+  "I'll be on holiday" không phải tương lai tiếp diễn, đổi thành "I'll be travelling around Spain"; bỏ thứ hạng "tương lai
+  hoàn thành dùng nhiều thứ hai" (không có dữ liệu), chỉ nói tương lai đơn dùng nhiều nhất, hiếm nhất là sẽ đã đang;
+  "sẽ đã đang" thường (không bắt buộc) còn tiếp; dịch "probably" là "chắc là".
+- Kiểm tra: test đầy đủ đúng 31 lỗi cũ; xem trước 23 slide sạch; audio buổi 1 (6:59), buổi 2 (9:36). Soát 87 đoạn: một
+  chỗ giọng đọc chèn âm lạ (buổi 1, 2:55); đã đổi câu, ghi lại buổi 1, soát lại 35/35 khớp.
+- Tiếp theo: Ngày 5 (từ vựng Thời gian và Công việc, C1&C2 Unit 6 bài A–D).
