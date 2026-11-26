@@ -713,3 +713,26 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
     (buổi 2, 5:06). Đã đổi câu, ghi lại buổi 2, soát lại 71/71 đoạn khớp.
   - api/worker: g1-d31=updated; frontend đã deploy; hai site trả về 200.
 - Tiếp theo: Ngày 2 (chỉ dùng will: đề nghị, nhờ vả, Shall/Should/Can; câu hỏi tu từ với going to; bài A câu 3, 5, 7, 10, 11).
+
+## Tuần 3 · Ngày 2: Chỉ dùng will (build day 32, lesson id 65)
+
+- Nguồn: Buổi 5, chặng 2 (đề nghị giúp, nhờ vả, câu hỏi tu từ với going to; mẹ và con dọn nhà; giáo viên hỏi lớp có trật
+  tự không), chặng 5 (bài A câu 3, 5, 7) và chặng 6 (câu 10, 11; bốn câu hỏi Shall, Should, Can, Will). Kế hoạch: `docs/WEEK3_PLAN.md`.
+- Tệp:
+  - `days.txt` khối `#D 32`: 5 thẻ (đề nghị giúp: I'll, Shall I, Can I; nhờ: Will you, Could you, Can you; câu hỏi tu từ
+    Are you going to…? khi nhờ, bình thường khi hỏi kế hoạch; rủ, gợi ý, xin phép: Shall we, Should we, Can I, Will you;
+    cách đọc I'll, won't, want), 10 từ (arrange, cancel, remind, deliver, sign; schedule, document, request, contract,
+    agenda; IPA Oxford BrE), 7 I, 8 Q, 5 B, 5 F, 3 D, 1 M.
+  - `book_items.py` mục `F2A`: bài A câu 3, 5, 7, 10, 11. Đáp án sách: 3 I'll; 5 Shall/Can; 7 Will/Would/Could/Can you;
+    10 và 11 giữ nguyên. Câu 11 lớp đổi sang Shall we; lời giải ghi "Đáp án bài thi" và nói hai cách hiểu.
+  - `lecture_w3d2.py`, `tests/test_lesson_w3d2_quality.py`; `build.py` thêm 32 (Tuần 3 Ngày 2, `WEEK2[32] = W3D2`);
+    test seed: 65 bài, Tuần 3 = 2. Frontend: WORD_PICTURE 10 từ.
+- Theo các điểm cần chỉnh 2–6: không dạy Will I, Will we để rủ; Are you going to…? hỏi kế hoạch là bình thường; bỏ câu
+  "I would certainly see that play" và cặp "Will you leave me now?". Ghi chú: câu 12 trong sách là *Will you go to Jason's
+  party next Saturday?* (đã sửa lại trong kế hoạch).
+- Soát cấp cao: đã sửa 13 điểm, chủ yếu: F "I ( ) (do) it tonight" thêm `if you like` để chắc là lời đề nghị; F "not forget"
+  nhận thêm I'm not going to forget; F "( ) I help you?" nhận May; nghĩa của request là "yêu cầu, lời nhờ" (không dùng
+  "đề nghị"); phương án nhiễu "Are we starting the meeting?" thay bằng "Let's we start…"; thẻ nhờ vả thêm Can you.
+- Kiểm tra: bộ test đầy đủ vẫn đúng 31 lỗi cũ; xem trước 25 slide sạch; audio buổi 1 (8:06), buổi 2 (9:31), soát 109/109
+  đoạn tiếng Việt khớp; g1-d32=created; frontend đã deploy.
+- Tiếp theo: Ngày 3 (kế hoạch và lịch hẹn, bằng chứng trước mắt, hiện tại đơn chỉ tương lai và mệnh đề thời gian; bài A câu 2, 12, bài B).
