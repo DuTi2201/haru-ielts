@@ -236,7 +236,7 @@ SITTING_2 = [
         {"en": "I'm going to apply for the job.", "vi": "Tôi sẽ nộp đơn xin việc đó.", "gap": True, "recap": False},
         {"say": "Lỗi bốn: dùng đuôi ing cho một dự đoán chung.", "show": "e4"},
         {"en": "In the future, people will live longer.", "vi": "Trong tương lai, con người sẽ sống lâu hơn.", "gap": True},
-        {"say": "Sau will là động từ nguyên thể, mọi ngôi như nhau. Going to cần am, is, are đứng trước. Dự đoán chung thì dùng will.", "show": "rule"},
+        {"say": "Sau will là động từ nguyên thể, mọi ngôi như nhau. Going to cần am, is, are đứng trước. Với dự đoán chung, chọn will.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "career", "lines": [{"say": "Trước câu Speaking, học năm danh từ về công việc. Từ thứ nhất: sự nghiệp. Trọng âm rơi vào âm tiết thứ hai."}]},
     {"kind": "word", "headword": "salary", "lines": [{"say": "Từ thứ hai: lương trả theo tháng hoặc theo năm."}]},
