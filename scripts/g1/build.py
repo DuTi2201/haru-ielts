@@ -35,6 +35,7 @@ import lecture_w2d7 as W2D7  # noqa: E402
 import lecture_w3d1 as W3D1  # noqa: E402
 import lecture_w3d2 as W3D2  # noqa: E402
 import lecture_w3d3 as W3D3  # noqa: E402
+import lecture_w3d4 as W3D4  # noqa: E402
 import lecture_d7 as L7  # noqa: E402
 import lecture_d12 as L12  # noqa: E402
 from assoc import ASSOC  # noqa: E402
@@ -47,9 +48,9 @@ TOPIC = "Tuần 1 · Giáo dục (Education)"
 TOPIC_EXTRA = "Bổ trợ · Từ vựng và bài đọc ngoài lịch tuần"
 # Week 1 of the Pre-IELTS syllabus: Present tenses (B2 Unit 1, A B C E), Thinking and learning (C1 Unit 2, A B C D),
 # Reading and Listening from Cambridge 18. Days outside it are kept as supplements, not deleted.
-DAYNO = {1: 1, 2: 2, 3: 3, 4: 4, 7: 5, 12: 6, 13: 7, 21: 1, 22: 2, 23: 3, 24: 4, 25: 5, 26: 6, 27: 7, 31: 1, 32: 2, 33: 3}  # the day number the learner sees
+DAYNO = {1: 1, 2: 2, 3: 3, 4: 4, 7: 5, 12: 6, 13: 7, 21: 1, 22: 2, 23: 3, 24: 4, 25: 5, 26: 6, 27: 7, 31: 1, 32: 2, 33: 3, 34: 4}  # the day number the learner sees
 # Week 2 (Technology) uses build days 21-27; every day not listed here is Week 1
-WEEK = {21: 2, 22: 2, 23: 2, 24: 2, 25: 2, 26: 2, 27: 2, 31: 3, 32: 3, 33: 3}  # Week 3 (Work) uses build days 31-37
+WEEK = {21: 2, 22: 2, 23: 2, 24: 2, 25: 2, 26: 2, 27: 2, 31: 3, 32: 3, 33: 3, 34: 3}  # Week 3 (Work) uses build days 31-37
 TOPIC_BY_WEEK = {1: "Tuần 1 · Giáo dục (Education)", 2: "Tuần 2 · Công nghệ (Technology)", 3: "Tuần 3 · Việc làm (Work)"}
 BOOK_BY_WEEK = {1: "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 1", 2: "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 3", 3: "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 5"}
 EDITOR_BY_WEEK = {
@@ -58,7 +59,7 @@ EDITOR_BY_WEEK = {
     2: "Ý và thứ tự giảng theo Buổi 3 của khóa học (các thì quá khứ); khung và số trang theo Destination B2, Unit 3. Ví dụ, câu hỏi và lời giải thích do khóa học tự soạn, đã đối chiếu (docs/WEEK2_PLAN.md).",
 }
 # day-specific modules (lecture, sittings, pronunciations, rubric) of Week 2
-WEEK2 = {21: W2D1, 22: W2D2, 23: W2D3, 24: W2D4, 31: W3D1, 32: W3D2, 33: W3D3}  # Week 3's grammar days use the same hooks
+WEEK2 = {21: W2D1, 22: W2D2, 23: W2D3, 24: W2D4, 31: W3D1, 32: W3D2, 33: W3D3, 34: W3D4}  # Week 3's grammar days use the same hooks
 # the vocabulary days of Week 2 (built by vocab_day): lectures, transcriptions and a memory hook per word
 VOCAB_W2 = {25: W2D5, 26: W2D6, 27: W2D7}
 

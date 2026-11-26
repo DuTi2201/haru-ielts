@@ -6437,6 +6437,572 @@
    "tips_vi": []
   },
   {
+   "id": "G1D34B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 3 · Ngày 4",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Đến mười giờ tôi đã làm xong.",
+   "tiles": [
+    "have",
+    "finished",
+    "ten",
+    "I'll",
+    "by",
+    "o'clock"
+   ],
+   "answers": [
+    "I'll have finished by ten o'clock"
+   ]
+  },
+  {
+   "id": "G1D34B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 3 · Ngày 4",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Giờ này ngày mai tôi đang bay.",
+   "tiles": [
+    "tomorrow",
+    "be",
+    "time",
+    "This",
+    "flying",
+    "I'll"
+   ],
+   "answers": [
+    "This time tomorrow I'll be flying"
+   ]
+  },
+  {
+   "id": "G1D34B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 3 · Ngày 4",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Chúng tôi sẽ đợi được hai tiếng rồi.",
+   "tiles": [
+    "waiting",
+    "have",
+    "two",
+    "for",
+    "We'll",
+    "been",
+    "hours"
+   ],
+   "answers": [
+    "We'll have been waiting for two hours"
+   ]
+  },
+  {
+   "id": "G1D34B4",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 3 · Ngày 4",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Chắc cô ấy đã thi đỗ rồi.",
+   "tiles": [
+    "She'll",
+    "test",
+    "the",
+    "passed",
+    "probably",
+    "have"
+   ],
+   "answers": [
+    "She'll probably have passed the test"
+   ]
+  },
+  {
+   "id": "G1D34B5",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 3 · Ngày 4",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Có lẽ chúng tôi vẫn chưa đi.",
+   "tiles": [
+    "probably",
+    "won't",
+    "We",
+    "left",
+    "have"
+   ],
+   "answers": [
+    "We probably won't have left"
+   ]
+  },
+  {
+   "id": "G1D34F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 3 · Ngày 4",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "By the end of this year, I ( ㉠ ) (save) enough money for a new laptop.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "will have saved",
+      "'ll have saved"
+     ],
+     "common_errors_vi": "Xong trước một mốc ở tương lai → will have + V3."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D34F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 3 · Ngày 4",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Don't call me at nine. I ( ㉠ ) (have) dinner with my boss then.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "will be having",
+      "'ll be having",
+      "am having",
+      "'m having"
+     ],
+     "common_errors_vi": "Lúc chín giờ việc đang diễn ra → will be having; am having (việc đã hẹn) cũng đúng."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D34F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 3 · Ngày 4",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "By June, she ( ㉠ ) (work) here for ten years.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "will have been working",
+      "'ll have been working",
+      "will have worked",
+      "'ll have worked"
+     ],
+     "common_errors_vi": "Mốc tương lai + for → will have been working; will have worked cũng đúng."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D34F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 3 · Ngày 4",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "( ㉠ ) (you / finish) the report by Friday?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "Will you have finished",
+      "Will you finish"
+     ],
+     "common_errors_vi": "Nhấn việc đã xong trước thứ Sáu → Will you have finished; Will you finish cũng đúng."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D34F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 3 · Ngày 4",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "They ( ㉠ ) (probably / not / arrive) by the time the meeting starts.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "probably won't have arrived",
+      "probably will not have arrived",
+      "will probably not have arrived",
+      "'ll probably not have arrived"
+     ],
+     "common_errors_vi": "Phủ định: probably đứng trước won't, rồi have + V3."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D34KF4C-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền một từ hoặc cụm ngắn (1/5)",
+   "points": 3,
+   "instruction_vi": "Gõ một từ hoặc một cụm ngắn vào chỗ trống. Hỏi: tại mốc đó việc đang diễn ra, hay đã làm được bao lâu và còn làm tiếp?",
+   "text": "At the end of this month, I'll ( ㉠ ) working on my physics project for about six weeks.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "have been",
+      "'ve been"
+     ],
+     "common_errors_vi": "Tính đến cuối tháng đã làm được sáu tuần và vẫn làm tiếp → tương lai hoàn thành tiếp diễn: I'll have been working."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D34KF4C-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền một từ hoặc cụm ngắn (2/5)",
+   "points": 3,
+   "instruction_vi": "Gõ một từ hoặc một cụm ngắn vào chỗ trống. Hỏi: tại mốc đó việc đang diễn ra, hay đã làm được bao lâu và còn làm tiếp?",
+   "text": "I'll ( ㉠ ) spending the whole day in the physics lab next Saturday doing experiments.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "be"
+     ],
+     "common_errors_vi": "Cả ngày thứ Bảy tới việc đang diễn ra → tương lai tiếp diễn: I'll be spending."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D34KF4C-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền một từ hoặc cụm ngắn (3/5)",
+   "points": 3,
+   "instruction_vi": "Gõ một từ hoặc một cụm ngắn vào chỗ trống. Hỏi: tại mốc đó việc đang diễn ra, hay đã làm được bao lâu và còn làm tiếp?",
+   "text": "In fact, I ( ㉠ ) playing football the weekend after either, because I've got to go back to the lab then, too.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "won't be",
+      "will not be"
+     ],
+     "common_errors_vi": "Phủ định của tương lai tiếp diễn: won't be + V-ing."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D34KF4C-4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền một từ hoặc cụm ngắn (4/5)",
+   "points": 3,
+   "instruction_vi": "Gõ một từ hoặc một cụm ngắn vào chỗ trống. Hỏi: tại mốc đó việc đang diễn ra, hay đã làm được bao lâu và còn làm tiếp?",
+   "text": "I guess I'll ( ㉠ ) doing lots of similar projects when I'm at university.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "be"
+     ],
+     "common_errors_vi": "Việc sẽ đang làm trong thời gian học đại học → I'll be doing."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D34KF4C-5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền một từ hoặc cụm ngắn (5/5)",
+   "points": 3,
+   "instruction_vi": "Gõ một từ hoặc một cụm ngắn vào chỗ trống. Hỏi: tại mốc đó việc đang diễn ra, hay đã làm được bao lâu và còn làm tiếp?",
+   "text": "When I leave university in about four years, I will ( ㉠ ) studying physics for over thirteen years.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "have been",
+      "'ve been"
+     ],
+     "common_errors_vi": "Tính đến lúc ra trường đã học được hơn mười ba năm → will have been studying. Sau when vẫn chia hiện tại đơn (leave)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D34KF4D-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Tương lai hoàn thành hay hoàn thành tiếp diễn (1/10)",
+   "points": 3,
+   "instruction_vi": "Chia động từ trong ngoặc ở tương lai hoàn thành (will have + V3) hoặc tương lai hoàn thành tiếp diễn (will have been + V-ing). Hỏi: việc đã xong, hay đã làm được bao lâu và còn tiếp?",
+   "text": "I ( ㉠ ) (cook) dinner by the time you get home.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "will have cooked",
+      "'ll have cooked"
+     ],
+     "common_errors_vi": "Bữa tối xong trước lúc bạn về → will have cooked. Sau by the time chia hiện tại đơn."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D34KF4D-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Tương lai hoàn thành hay hoàn thành tiếp diễn (2/10)",
+   "points": 3,
+   "instruction_vi": "Chia động từ trong ngoặc ở tương lai hoàn thành (will have + V3) hoặc tương lai hoàn thành tiếp diễn (will have been + V-ing). Hỏi: việc đã xong, hay đã làm được bao lâu và còn tiếp?",
+   "text": "In a few minutes, I ( ㉠ ) (wait) here for Craig for over two hours. Where can he be?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "will have been waiting",
+      "'ll have been waiting"
+     ],
+     "common_errors_vi": "Đã đợi được hơn hai tiếng và vẫn đang đợi → will have been waiting."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D34KF4D-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Tương lai hoàn thành hay hoàn thành tiếp diễn (3/10)",
+   "points": 3,
+   "instruction_vi": "Chia động từ trong ngoặc ở tương lai hoàn thành (will have + V3) hoặc tương lai hoàn thành tiếp diễn (will have been + V-ing). Hỏi: việc đã xong, hay đã làm được bao lâu và còn tiếp?",
+   "text": "We'll be halfway through the sponsored swim in one hour, so we ( ㉠ ) (swim) for forty-eight hours non-stop by then.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "will have been swimming",
+      "'ll have been swimming"
+     ],
+     "common_errors_vi": "Mới được nửa chặng, còn bơi tiếp → will have been swimming."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D34KF4D-4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Tương lai hoàn thành hay hoàn thành tiếp diễn (4/10)",
+   "points": 3,
+   "instruction_vi": "Chia động từ trong ngoặc ở tương lai hoàn thành (will have + V3) hoặc tương lai hoàn thành tiếp diễn (will have been + V-ing). Hỏi: việc đã xong, hay đã làm được bao lâu và còn tiếp?",
+   "text": "They ( ㉠ ) (not / finish) painting the house by the time we get back from holiday.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "won't have finished",
+      "will not have finished"
+     ],
+     "common_errors_vi": "Đến lúc về vẫn chưa xong → phủ định của tương lai hoàn thành: won't have finished."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D34KF4D-5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Tương lai hoàn thành hay hoàn thành tiếp diễn (5/10)",
+   "points": 3,
+   "instruction_vi": "Chia động từ trong ngoặc ở tương lai hoàn thành (will have + V3) hoặc tương lai hoàn thành tiếp diễn (will have been + V-ing). Hỏi: việc đã xong, hay đã làm được bao lâu và còn tiếp?",
+   "text": "If she's still on the phone at eight o'clock, ( ㉠ ) (Jan / talk) to Melissa for over two hours.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "Jan will have been talking",
+      "Jan'll have been talking"
+     ],
+     "common_errors_vi": "Vẫn đang nói và đã được hơn hai tiếng → Jan will have been talking."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D34KF4D-6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Tương lai hoàn thành hay hoàn thành tiếp diễn (6/10)",
+   "points": 3,
+   "instruction_vi": "Chia động từ trong ngoặc ở tương lai hoàn thành (will have + V3) hoặc tương lai hoàn thành tiếp diễn (will have been + V-ing). Hỏi: việc đã xong, hay đã làm được bao lâu và còn tiếp?",
+   "text": "At six o'clock this evening, we ( ㉠ ) (not / climb) for five hours but for seven hours!",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "won't have been climbing",
+      "will not have been climbing"
+     ],
+     "common_errors_vi": "Nói về khoảng thời gian đã leo, việc vẫn đang tiếp diễn → won't have been climbing."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D34KF4D-7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Tương lai hoàn thành hay hoàn thành tiếp diễn (7/10)",
+   "points": 3,
+   "instruction_vi": "Chia động từ trong ngoặc ở tương lai hoàn thành (will have + V3) hoặc tương lai hoàn thành tiếp diễn (will have been + V-ing). Hỏi: việc đã xong, hay đã làm được bao lâu và còn tiếp?",
+   "text": "This time next month, you ( ㉠ ) (probably / pass) your driving test!",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "'ll probably have passed",
+      "will probably have passed",
+      "probably will have passed"
+     ],
+     "common_errors_vi": "Câu khẳng định: probably đứng sau will: you'll probably have passed. Khi nói, probably will have passed cũng gặp."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D34KF4D-8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Tương lai hoàn thành hay hoàn thành tiếp diễn (8/10)",
+   "points": 3,
+   "instruction_vi": "Chia động từ trong ngoặc ở tương lai hoàn thành (will have + V3) hoặc tương lai hoàn thành tiếp diễn (will have been + V-ing). Hỏi: việc đã xong, hay đã làm được bao lâu và còn tiếp?",
+   "text": "( ㉠ ) (you / do) all your homework by bedtime?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "Will you have done"
+     ],
+     "common_errors_vi": "Hỏi việc đã xong trước giờ đi ngủ chưa → Will you have done."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D34KF4D-9",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Tương lai hoàn thành hay hoàn thành tiếp diễn (9/10)",
+   "points": 3,
+   "instruction_vi": "Chia động từ trong ngoặc ở tương lai hoàn thành (will have + V3) hoặc tương lai hoàn thành tiếp diễn (will have been + V-ing). Hỏi: việc đã xong, hay đã làm được bao lâu và còn tiếp?",
+   "text": "Tomorrow, ( ㉠ ) (Elaine / work) on the project for ten days.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "Elaine will have been working",
+      "Elaine'll have been working"
+     ],
+     "common_errors_vi": "Tính đến ngày mai đã làm được mười ngày và còn làm tiếp → Elaine will have been working."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D34KF4D-10",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Tương lai hoàn thành hay hoàn thành tiếp diễn (10/10)",
+   "points": 3,
+   "instruction_vi": "Chia động từ trong ngoặc ở tương lai hoàn thành (will have + V3) hoặc tương lai hoàn thành tiếp diễn (will have been + V-ing). Hỏi: việc đã xong, hay đã làm được bao lâu và còn tiếp?",
+   "text": "We ( ㉠ ) (probably / not / leave) by the time you get home.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "probably won't have left",
+      "probably will not have left",
+      "will probably not have left",
+      "'ll probably not have left"
+     ],
+     "common_errors_vi": "Câu phủ định: probably đứng trước won't: we probably won't have left."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
    "id": "G1D5KA18-1",
    "skill": "build",
    "type": "write_fill",

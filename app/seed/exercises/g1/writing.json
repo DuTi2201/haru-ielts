@@ -651,6 +651,49 @@
    ]
   },
   {
+   "id": "G1D34M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Tuần 3 · Ngày 4",
+   "points": 5,
+   "instruction_vi": "Tưởng tượng cuộc sống của bạn năm năm nữa. Viết ba, bốn câu: một việc sẽ xong trước lúc đó (will have + V3), một việc sẽ đang làm lúc đó (will be + V-ing), và bạn sẽ đã làm công việc hay việc học được bao lâu (will have been + V-ing). Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
+   "limits": {
+    "min": 8,
+    "max": 40
+   },
+   "prompt_en": "Imagine your life five years from now. Write three or four sentences: something you will have finished by then, something you will be doing at that time, and how long you will have been doing your job or studies.",
+   "framework_vi": [
+    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
+    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
+    "Chọn thì theo câu trả lời đó rồi mới viết."
+   ],
+   "model_answer_en": "Five years from now, I'll have finished my master's degree. I'll probably be working for an international company in Ho Chi Minh City. By then, I'll have been learning English for over ten years, so I hope I'll speak it well.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Thì khớp với điều bạn muốn nói.",
+    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+   ],
+   "rubric": [
+    {
+     "criterion_vi": "Đúng đề: có một việc sẽ xong, một việc sẽ đang làm, một khoảng thời gian đã làm",
+     "max": 1,
+     "note_vi": "Task response"
+    },
+    {
+     "criterion_vi": "Đúng thì: will have + V3 với by; will be + V-ing; will have been + V-ing với for",
+     "max": 2,
+     "note_vi": "Grammatical range"
+    },
+    {
+     "criterion_vi": "Dạng đúng: động từ dạng ba sau will have; probably sau will, trước won't",
+     "max": 2,
+     "note_vi": "Grammatical accuracy"
+    }
+   ]
+  },
+  {
    "id": "G1D5M1",
    "skill": "writing",
    "type": "write_essay",

@@ -10599,6 +10599,468 @@
    ]
   },
   {
+   "id": "G1D34I1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 4",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D34I1",
+     "options": [
+      {
+       "id": "1",
+       "text": "Don't worry. I'd finished the report by ten."
+      },
+      {
+       "id": "2",
+       "text": "Don't worry. I'll have finished the report by ten."
+      },
+      {
+       "id": "3",
+       "text": "Don't worry. I've finished the report by ten."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Việc sẽ xong trước một mốc ở tương lai → will have + V3 + by.",
+     "tags": [],
+     "prompt_vi": "Sếp hỏi mười giờ báo cáo xong chưa. Bạn chắc lúc đó đã làm xong."
+    }
+   ]
+  },
+  {
+   "id": "G1D34I2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 4",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D34I2",
+     "options": [
+      {
+       "id": "1",
+       "text": "By 2030, I've finished my master's degree."
+      },
+      {
+       "id": "2",
+       "text": "Since 2030, I'll have finished my master's degree."
+      },
+      {
+       "id": "3",
+       "text": "By 2030, I'll have finished my master's degree."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Mốc tương lai đi với by; việc xong trước mốc → will have + V3.",
+     "tags": [],
+     "prompt_vi": "Bạn đoán: tính đến năm 2030 bạn đã học xong thạc sĩ."
+    }
+   ]
+  },
+  {
+   "id": "G1D34I3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 4",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D34I3",
+     "options": [
+      {
+       "id": "1",
+       "text": "Sorry, at three I met a client."
+      },
+      {
+       "id": "2",
+       "text": "Sorry, at three I'll be meeting a client."
+      },
+      {
+       "id": "3",
+       "text": "Sorry, at three I'll have met a client."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Lúc ba giờ việc đang diễn ra → will be + V-ing. will have met nghĩa là đã gặp xong.",
+     "tags": [],
+     "prompt_vi": "Đồng nghiệp muốn gọi bạn lúc ba giờ chiều mai. Cuộc họp của bạn với khách kéo dài từ hai đến bốn giờ."
+    }
+   ]
+  },
+  {
+   "id": "G1D34I4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 4",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D34I4",
+     "options": [
+      {
+       "id": "1",
+       "text": "By the end of March, I'll be working on this project for a month."
+      },
+      {
+       "id": "2",
+       "text": "By the end of March, I've been working on this project for a month."
+      },
+      {
+       "id": "3",
+       "text": "By the end of March, I'll have been working on this project for a month."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Tính đến mốc tương lai đã làm được bao lâu và còn tiếp → will have been + V-ing + for.",
+     "tags": [],
+     "prompt_vi": "Bạn bắt đầu làm dự án từ đầu tháng Ba. Đến cuối tháng Ba bạn vẫn làm tiếp. Bạn nói về cuối tháng."
+    }
+   ]
+  },
+  {
+   "id": "G1D34I5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 4",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D34I5",
+     "options": [
+      {
+       "id": "1",
+       "text": "This time next summer, I lie on a beach in Spain."
+      },
+      {
+       "id": "2",
+       "text": "This time next summer, I'll have lain on a beach in Spain."
+      },
+      {
+       "id": "3",
+       "text": "This time next summer, I'll be lying on a beach in Spain."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Việc đang diễn ra tại một lúc ở tương lai → will be + V-ing.",
+     "tags": [],
+     "prompt_vi": "Bạn kể: giờ này hè năm sau bạn đang nằm trên một bãi biển ở Tây Ban Nha."
+    }
+   ]
+  },
+  {
+   "id": "G1D34I6",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 4",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D34I6",
+     "options": [
+      {
+       "id": "1",
+       "text": "This time next month, she'll have passed probably her driving test."
+      },
+      {
+       "id": "2",
+       "text": "This time next month, she'll probably have passed her driving test."
+      },
+      {
+       "id": "3",
+       "text": "This time next month, she probably'll have passed her driving test."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Câu khẳng định: probably đứng sau will (she'll probably have passed). Không gộp probably với 'll.",
+     "tags": [],
+     "prompt_vi": "Bạn đoán giờ này tháng sau em gái bạn đã thi đỗ bằng lái."
+    }
+   ]
+  },
+  {
+   "id": "G1D34Q1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D34Q1",
+     "options": [
+      {
+       "id": "1",
+       "text": "will have cooked"
+      },
+      {
+       "id": "2",
+       "text": "will have cook"
+      },
+      {
+       "id": "3",
+       "text": "will cooked"
+      },
+      {
+       "id": "4",
+       "text": "have cooked"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Xong trước một mốc ở tương lai → will have + V3.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I ( ) dinner by the time you get home."
+   }
+  },
+  {
+   "id": "G1D34Q2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D34Q2",
+     "options": [
+      {
+       "id": "1",
+       "text": "will have started"
+      },
+      {
+       "id": "2",
+       "text": "starts"
+      },
+      {
+       "id": "3",
+       "text": "will start"
+      },
+      {
+       "id": "4",
+       "text": "is starting"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Lúc mình đến, phim đã bắt đầu rồi → will have + V3.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "The film starts at eight. If we get there at half past, it ( ) already."
+   }
+  },
+  {
+   "id": "G1D34Q3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D34Q3",
+     "options": [
+      {
+       "id": "1",
+       "text": "flew"
+      },
+      {
+       "id": "2",
+       "text": "am fly"
+      },
+      {
+       "id": "3",
+       "text": "will be flying"
+      },
+      {
+       "id": "4",
+       "text": "fly"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Đang diễn ra tại một lúc ở tương lai → will be + V-ing.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "This time tomorrow, I ( ) to Singapore."
+   }
+  },
+  {
+   "id": "G1D34Q4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D34Q4",
+     "options": [
+      {
+       "id": "1",
+       "text": "Do you use"
+      },
+      {
+       "id": "2",
+       "text": "Did you use"
+      },
+      {
+       "id": "3",
+       "text": "Will you have used"
+      },
+      {
+       "id": "4",
+       "text": "Will you be using"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Hỏi lịch sự về kế hoạch của người khác → Will you be + V-ing?",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) the car tonight? I need it for work."
+   }
+  },
+  {
+   "id": "G1D34Q5",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D34Q5",
+     "options": [
+      {
+       "id": "1",
+       "text": "will be waiting"
+      },
+      {
+       "id": "2",
+       "text": "waited"
+      },
+      {
+       "id": "3",
+       "text": "have waited"
+      },
+      {
+       "id": "4",
+       "text": "will have been waiting"
+      }
+     ],
+     "answer": "4",
+     "explanation_vi": "Tính đến một mốc tương lai đã đợi được bao lâu và còn đợi → will have been + V-ing + for.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "In a few minutes, I ( ) here for over two hours."
+   }
+  },
+  {
+   "id": "G1D34Q6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D34Q6",
+     "options": [
+      {
+       "id": "1",
+       "text": "will be running"
+      },
+      {
+       "id": "2",
+       "text": "are running"
+      },
+      {
+       "id": "3",
+       "text": "will have been running"
+      },
+      {
+       "id": "4",
+       "text": "run"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Mốc tương lai + for một năm → will have been + V-ing.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "By June, they ( ) the new branch for a year."
+   }
+  },
+  {
+   "id": "G1D34Q7",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Chọn đáp án · Tuần 3 · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng.",
+   "questions": [
+    {
+     "id": "G1D34Q7",
+     "options": [
+      {
+       "id": "1",
+       "text": "We won't have left probably by then."
+      },
+      {
+       "id": "2",
+       "text": "We probably won't have left by then."
+      },
+      {
+       "id": "3",
+       "text": "We won't probably have left by then."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Câu phủ định: probably đứng trước won't.",
+     "tags": [],
+     "prompt_vi": "Câu nào đặt probably đúng chỗ?"
+    }
+   ]
+  },
+  {
+   "id": "G1D34Q8",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Chọn đáp án · Tuần 3 · Ngày 4",
+   "instruction_vi": "Chọn phương án đúng.",
+   "questions": [
+    {
+     "id": "G1D34Q8",
+     "options": [
+      {
+       "id": "1",
+       "text": "Tương lai tiếp diễn"
+      },
+      {
+       "id": "2",
+       "text": "Tương lai đơn (will + V)"
+      },
+      {
+       "id": "3",
+       "text": "Tương lai hoàn thành tiếp diễn"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Tương lai đơn dùng nhiều nhất, sau đó là tương lai hoàn thành; hai thì tiếp diễn ít gặp.",
+     "tags": [],
+     "prompt_vi": "Trong bốn thì tương lai, thì nào được dùng nhiều nhất?"
+    }
+   ]
+  },
+  {
    "id": "G1D5KB18-1",
    "skill": "reading",
    "type": "read_cloze",

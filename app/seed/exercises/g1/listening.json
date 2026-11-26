@@ -599,6 +599,62 @@
    ]
   },
   {
+   "id": "G1D34D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Tuần 3 · Ngày 4",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "I'll have finished the report by ten.",
+      "vi": "Đến mười giờ tôi đã làm xong báo cáo."
+     },
+     {
+      "speaker": "M",
+      "text": "This time tomorrow, I'll be flying to Singapore.",
+      "vi": "Giờ này ngày mai tôi đang bay đi Singapore."
+     },
+     {
+      "speaker": "F",
+      "text": "We probably won't have left by then.",
+      "vi": "Đến lúc đó có lẽ chúng tôi vẫn chưa đi."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "complete",
+     "vi": "hoàn thành"
+    },
+    {
+     "ko": "submit",
+     "vi": "nộp (bài, hồ sơ)"
+    },
+    {
+     "ko": "expand",
+     "vi": "mở rộng"
+    },
+    {
+     "ko": "manage",
+     "vi": "quản lý"
+    },
+    {
+     "ko": "train",
+     "vi": "đào tạo"
+    },
+    {
+     "ko": "project",
+     "vi": "dự án"
+    }
+   ],
+   "tips_vi": [
+    "Nghe âm cuối: -s của ngôi thứ ba, 's và n't, -ing. Sau khi kiểm tra, nghe lại và nhại theo đúng nhịp."
+   ]
+  },
+  {
    "id": "G1D27L1",
    "skill": "listening",
    "type": "listen_interview",

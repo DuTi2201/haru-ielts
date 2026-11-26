@@ -536,3 +536,30 @@ SECTIONS += [
         "«Does the restaurant open / Is the restaurant opening» next Sunday? | Cả hai đều đúng | Chỉ «Does the restaurant open» | Chỉ «Is the restaurant opening» | Đáp án bài thi: cả hai. Does the restaurant open… tự nhiên hơn khi hỏi nhà hàng có mở cửa hôm đó không; Is the restaurant opening… hợp khi hỏi về ngày khai trương.",
     ]),
 ]
+
+# ---------------------------------------------------------------- week 3, day 4 (build day 34): Destination B2 Unit 5, C (1-5) and D (1-10)
+# Answers: the book's key (p. 232): C 1 have been; 2 be; 3 will not / won't be; 4 be; 5 "studying" — a misprint: the gap
+# stands before "studying physics", so the answer is "have been" (future perfect continuous). D as keyed.
+# Reasons follow session 5 (stage 4: will have done, will be doing, will have been doing; by, not in) and session 6
+# (stages 1-2: C, D; the position of probably, corrected to the standard rule: after will, before won't).
+SECTIONS += [
+    (34, "F4C", B5 + " · bài C (trang 32)", "Điền một từ hoặc cụm ngắn", "Gõ một từ hoặc một cụm ngắn vào chỗ trống. Hỏi: tại mốc đó việc đang diễn ra, hay đã làm được bao lâu và còn làm tiếp?", "typed", [
+        "At the end of this month, I'll ( ㉠ ) working on my physics project for about six weeks. | have been | Tính đến cuối tháng đã làm được sáu tuần và vẫn làm tiếp → tương lai hoàn thành tiếp diễn: I'll have been working.",
+        "I'll ( ㉠ ) spending the whole day in the physics lab next Saturday doing experiments. | be | Cả ngày thứ Bảy tới việc đang diễn ra → tương lai tiếp diễn: I'll be spending.",
+        "In fact, I ( ㉠ ) playing football the weekend after either, because I've got to go back to the lab then, too. | won't be;will not be | Phủ định của tương lai tiếp diễn: won't be + V-ing.",
+        "I guess I'll ( ㉠ ) doing lots of similar projects when I'm at university. | be | Việc sẽ đang làm trong thời gian học đại học → I'll be doing.",
+        "When I leave university in about four years, I will ( ㉠ ) studying physics for over thirteen years. | have been | Tính đến lúc ra trường đã học được hơn mười ba năm → will have been studying. Sau when vẫn chia hiện tại đơn (leave).",
+    ]),
+    (34, "F4D", B5 + " · bài D (trang 33)", "Tương lai hoàn thành hay hoàn thành tiếp diễn", "Chia động từ trong ngoặc ở tương lai hoàn thành (will have + V3) hoặc tương lai hoàn thành tiếp diễn (will have been + V-ing). Hỏi: việc đã xong, hay đã làm được bao lâu và còn tiếp?", "typed", [
+        "I ( ㉠ ) (cook) dinner by the time you get home. | will have cooked;'ll have cooked | Bữa tối xong trước lúc bạn về → will have cooked. Sau by the time chia hiện tại đơn.",
+        "In a few minutes, I ( ㉠ ) (wait) here for Craig for over two hours. Where can he be? | will have been waiting;'ll have been waiting | Đã đợi được hơn hai tiếng và vẫn đang đợi → will have been waiting.",
+        "We'll be halfway through the sponsored swim in one hour, so we ( ㉠ ) (swim) for forty-eight hours non-stop by then. | will have been swimming;'ll have been swimming | Mới được nửa chặng, còn bơi tiếp → will have been swimming.",
+        "They ( ㉠ ) (not / finish) painting the house by the time we get back from holiday. | won't have finished;will not have finished | Đến lúc về vẫn chưa xong → phủ định của tương lai hoàn thành: won't have finished.",
+        "If she's still on the phone at eight o'clock, ( ㉠ ) (Jan / talk) to Melissa for over two hours. | Jan will have been talking;Jan'll have been talking | Vẫn đang nói và đã được hơn hai tiếng → Jan will have been talking.",
+        "At six o'clock this evening, we ( ㉠ ) (not / climb) for five hours but for seven hours! | won't have been climbing;will not have been climbing | Nói về khoảng thời gian đã leo, việc vẫn đang tiếp diễn → won't have been climbing.",
+        "This time next month, you ( ㉠ ) (probably / pass) your driving test! | 'll probably have passed;will probably have passed;probably will have passed | Câu khẳng định: probably đứng sau will: you'll probably have passed. Khi nói, probably will have passed cũng gặp.",
+        "( ㉠ ) (you / do) all your homework by bedtime? | Will you have done | Hỏi việc đã xong trước giờ đi ngủ chưa → Will you have done.",
+        "Tomorrow, ( ㉠ ) (Elaine / work) on the project for ten days. | Elaine will have been working;Elaine'll have been working | Tính đến ngày mai đã làm được mười ngày và còn làm tiếp → Elaine will have been working.",
+        "We ( ㉠ ) (probably / not / leave) by the time you get home. | probably won't have left;probably will not have left;will probably not have left | Câu phủ định: probably đứng trước won't: we probably won't have left.",
+    ]),
+]
