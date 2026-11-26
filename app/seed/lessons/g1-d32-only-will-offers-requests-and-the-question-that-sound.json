@@ -73,7 +73,7 @@
    "pos": "N",
    "meaning_vi": "lịch làm việc",
    "example_en": "Shall we check the schedule?",
-   "example_vi": "Mình xem lại lịch làm việc nhé?",
+   "example_vi": "Chúng ta xem lại lịch làm việc nhé?",
    "family": "Từ của ngày",
    "priority": "core",
    "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 5; phiên âm: Oxford Learner's Dictionaries (BrE)",
@@ -95,7 +95,7 @@
   {
    "headword": "request",
    "pos": "N",
-   "meaning_vi": "lời đề nghị, yêu cầu",
+   "meaning_vi": "yêu cầu, lời nhờ",
    "example_en": "We'll reply to your request soon.",
    "example_vi": "Chúng tôi sẽ sớm trả lời yêu cầu của bạn.",
    "family": "Từ của ngày",
@@ -121,7 +121,7 @@
    "pos": "N",
    "meaning_vi": "chương trình cuộc họp",
    "example_en": "Shall we look at the agenda?",
-   "example_vi": "Mình xem chương trình họp nhé?",
+   "example_vi": "Chúng ta xem chương trình họp nhé?",
    "family": "Từ của ngày",
    "priority": "core",
    "source": "Haru English · G1, theo giáo án của khóa học và khung Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 5; phiên âm: Oxford Learner's Dictionaries (BrE)",
@@ -156,7 +156,7 @@
   {
    "pattern": "Nhờ vả · Will you…?",
    "meaning_vi": "Nhờ người nghe làm gì: Will you + V?; lịch sự hơn: Would you, Could you",
-   "usage_context_vi": "pat: Nhờ | Will you + V? | Will you get me some coffee?\npat: Lịch sự hơn | Would you / Could you + V? | Could you send me the document?\n!Thêm please, hoặc for a minute, câu nhờ mềm hơn: Will you hold this door open for me for a minute?\n## Trả lời một lời nhờ\nchips: Sure.; Of course.; Yes, I will.; Sorry, I can't right now.",
+   "usage_context_vi": "pat: Nhờ | Will you + V? | Will you get me some coffee?\npat: Lịch sự hơn | Would you / Could you + V? | Could you send me the document?\npat: Rất phổ biến | Can you + V? | Can you help me with this?\n!Thêm please, hoặc for a minute, câu nhờ mềm hơn: Will you hold this door open for me for a minute?\n## Trả lời một lời nhờ\nchips: Sure.; Of course.; Yes, I will.; Sorry, I can't right now.",
    "contrasts": [],
    "example_en": "Will you get me some coffee, please?\nWill you hold this door open for me for a minute?\nCould you send me the document?",
    "example_vi": "Bạn lấy giúp tôi ít cà phê được không?\nBạn giữ cửa giúp tôi một chút được không?\nBạn gửi tôi tài liệu đó được không?",
@@ -204,7 +204,7 @@
    "usage_context_vi": "prep: Shall we…? | rủ cùng làm, như Let's | Shall we start the meeting? | Shall we start the meeting?\nprep: Should we…? | hỏi có nên không | Should we invite Tom? | Should we invite Tom?\nprep: Can I…? | xin phép người có quyền | Can I leave early today? | Can I leave early today?\nprep: Will you…? | nhờ người nghe | Will you close the window? | Will you close the window?\n!Không dùng Will we…? để rủ: Will we… hỏi một việc ở tương lai (Will we finish on time?).\n!Shall chỉ đi với I và we.",
    "contrasts": [],
    "example_en": "Shall we start the meeting?\nShould we invite Tom?\nCan I leave early today?\nLet's take a short break.",
-   "example_vi": "Chúng ta bắt đầu họp nhé?\nCó nên mời Tom không?\nHôm nay tôi xin về sớm được không?\nMình nghỉ một chút đi.",
+   "example_vi": "Chúng ta bắt đầu họp nhé?\nCó nên mời Tom không?\nHôm nay tôi xin về sớm được không?\nChúng ta nghỉ một chút đi.",
    "importance": "must",
    "source": "Destination B2 (Mann & Taylore-Knowles, Macmillan), Unit 5, pp. 30-32; cách giảng của khóa học",
    "check": {
@@ -346,7 +346,7 @@
        "show": "hook"
       },
       {
-       "say": "Buổi này học ba việc chỉ dùng will: đề nghị giúp, nhờ vả, rồi một câu hỏi trông như lời nhờ nhưng thật ra là ra lệnh."
+       "say": "Buổi này học hai việc chỉ dùng will: đề nghị giúp và nhờ vả. Rồi một câu hỏi với going to trông như lời nhờ nhưng thật ra là ra lệnh."
       }
      ]
     },
@@ -747,7 +747,7 @@
        "show": "hook"
       },
       {
-       "say": "Buổi này học bốn câu hỏi có bốn vai khác nhau, một câu hỏi của sách có hai cách hiểu, rồi cách đọc will cho rõ."
+       "say": "Buổi này học bốn câu hỏi có bốn vai khác nhau, một câu của bài tập có hai cách hiểu, rồi cách đọc will cho rõ."
       }
      ]
     },
@@ -929,7 +929,7 @@
      },
      "lines": [
       {
-       "say": "Dạng rút gọn của will đọc liền thành một âm tiết, giống từ isle.",
+       "say": "Dạng rút gọn của will đọc liền thành một âm tiết: ai, rồi lướt sang âm lờ cuối.",
        "show": "n1"
       },
       {
@@ -990,7 +990,7 @@
         "key": "e4",
         "wrong": "Are you going to send me the file?",
         "right": "Could you send me the file?",
-        "why": "Muốn nhờ: Will you, Could you."
+        "why": "Muốn nhờ: Will you, Can you, Could you."
        }
       ],
       "rule": "Đề nghị: I'll, Shall I, Can I. Nhờ: Will you, Could you. Rủ: Shall we."
@@ -1062,7 +1062,7 @@
      "headword": "request",
      "lines": [
       {
-       "say": "Từ thứ ba: lời đề nghị, yêu cầu."
+       "say": "Từ thứ ba: yêu cầu, lời nhờ."
       }
      ]
     },

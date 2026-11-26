@@ -104,7 +104,7 @@ Quy tắc điền ghi chú theo Buổi 6: chép đúng từ trong bài (cả s�
    groceries now* là hiện tại tiếp diễn cho việc đang làm, không phải tương lai. Giữ ý chính của lớp (không có luật gần/xa,
    tương lai là dự đoán); với quyết định lúc nói, dạy `will` là cách tự nhiên nhất và đáp án bài theo sách.
 2. *Are you going to…? là câu hỏi tu từ, gây hấn*: chỉ đúng khi câu hỏi là lời nhờ hay lời mời; hỏi kế hoạch thì trung tính
-   (chính bài A câu 12 *Are you going to be at the party on Saturday?*). Dạy: dùng trong lời nhờ thì nghe như ép.
+   (bài A câu 12 trong sách là *Will you go to Jason's party next Saturday?*, đáp án *Are you going to / Are you going to go to*). Dạy: dùng trong lời nhờ thì nghe như ép.
 3. *Will I carry some of those bags for you?* (lớp nói kiểu Mỹ dùng được): lời đề nghị không dùng `Will I`; dùng *Shall I*,
    *Can I*, *Do you want me to*.
 4. *Will we…?* như một cách rủ kiểu Mỹ: `Will we` hỏi một sự thật tương lai, không dùng để rủ; rủ dùng *Shall we / Should we*,

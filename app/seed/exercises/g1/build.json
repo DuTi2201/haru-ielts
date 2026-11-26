@@ -6105,9 +6105,10 @@
      "points": 3,
      "accepted": [
       "Shall",
-      "Can"
+      "Can",
+      "May"
      ],
-     "common_errors_vi": "Đề nghị giúp dạng câu hỏi: Shall I hoặc Can I. Không dùng Will I."
+     "common_errors_vi": "Đề nghị giúp dạng câu hỏi: Shall I, Can I (May I trang trọng hơn). Không dùng Will I."
     }
    ],
    "tips_vi": []
@@ -6146,7 +6147,7 @@
    "title_vi": "Gõ dạng đúng · Tuần 3 · Ngày 2",
    "points": 3,
    "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
-   "text": "Don't worry about the report. I ( ㉠ ) (do) it tonight.",
+   "text": "You look tired. I ( ㉠ ) (do) the report tonight, if you like.",
    "blanks": [
     {
      "id": "㉠",
@@ -6155,7 +6156,7 @@
       "'ll do",
       "will do"
      ],
-     "common_errors_vi": "Đề nghị làm giúp → will + V."
+     "common_errors_vi": "`if you like`: lời đề nghị làm giúp → will + V."
     }
    ],
    "tips_vi": []
@@ -6200,9 +6201,11 @@
      "points": 3,
      "accepted": [
       "won't forget",
-      "will not forget"
+      "will not forget",
+      "'m not going to forget",
+      "am not going to forget"
      ],
-     "common_errors_vi": "Lời hứa → won't + V nguyên thể."
+     "common_errors_vi": "Lời hứa: won't + V nguyên thể tự nhiên nhất; I'm not going to forget cũng đúng."
     }
    ],
    "tips_vi": []

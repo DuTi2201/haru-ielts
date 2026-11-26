@@ -9255,9 +9255,9 @@
       }
      ],
      "answer": "3",
-     "explanation_vi": "Lời nhờ lịch sự → Will you. Dùng going to hay be + V-ing để nhờ thì nghe như ra lệnh ngầm.",
+     "explanation_vi": "Lời nhờ → Will you. Dùng going to hay be + V-ing để nhờ thì nghe như ra lệnh ngầm.",
      "tags": [],
-     "prompt_vi": "Bạn muốn nhờ em trai giúp dọn nhà một cách lịch sự."
+     "prompt_vi": "Bạn muốn nhờ em trai giúp dọn nhà, nhờ thật chứ không ép."
     }
    ]
   },
@@ -9307,7 +9307,7 @@
       },
       {
        "id": "2",
-       "text": "Are we starting the meeting?"
+       "text": "Let's we start the meeting?"
       },
       {
        "id": "3",
@@ -9315,7 +9315,7 @@
       }
      ],
      "answer": "3",
-     "explanation_vi": "Rủ cùng làm → Shall we. Will we và Are we starting là hỏi thông tin, không phải lời rủ.",
+     "explanation_vi": "Rủ cùng làm → Shall we (hoặc Let's start…). Will we là hỏi thông tin; sau Let's không thêm we.",
      "tags": [],
      "prompt_vi": "Mọi người đã đến đủ. Bạn muốn rủ cả nhóm bắt đầu họp."
     }
@@ -9408,7 +9408,7 @@
       },
       {
        "id": "3",
-       "text": "'ll get"
+       "text": "will get"
       },
       {
        "id": "4",
@@ -9416,7 +9416,7 @@
       }
      ],
      "answer": "3",
-     "explanation_vi": "Quyết định giúp ngay lúc nói → I'll get it.",
+     "explanation_vi": "Quyết định giúp ngay lúc nói → I will get it (khi nói: I'll get it).",
      "tags": []
     }
    ],
@@ -9516,7 +9516,7 @@
       }
      ],
      "answer": "1",
-     "explanation_vi": "Hỏi lịch tuần sau, ngày mai là câu hỏi thật. Hai câu kia là câu hỏi tu từ, không chờ trả lời.",
+     "explanation_vi": "Hỏi lịch ngày mai là câu hỏi thật. Hai câu kia dùng going to để ép hay trách, không phải hỏi kế hoạch.",
      "tags": [],
      "prompt_vi": "Câu nào chỉ hỏi kế hoạch, không có ý ép?"
     }

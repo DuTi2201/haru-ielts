@@ -8,7 +8,7 @@ request with be going to or be + V-ing becomes a rhetorical question (mother and
 house?" / "Are you going to help me now?"; the teacher asking the class to be quiet); stage 5, exercise A items 3,
 5, 7; stage 6, items 10 and 11 and the four question words Shall, Should, Can, Will.
 Corrections made before use (docs/WEEK3_PLAN.md, last section): Are you going to…? is neutral when it asks about a
-plan (item 12: "Are you going to be at the party on Saturday?"); it sounds pushy only as a request or invitation.
+plan ("Are you going to be at the party on Saturday?"; the book's item 12 reads "Will you go to Jason's party next Saturday?"); it sounds pushy only as a request or invitation.
 Offers never take Will I (Shall I, Can I, Do you want me to). Will we does not make a suggestion (Shall we, Should
 we, Let's, Why don't we). "I would certainly see that play" is not used. The romantic "Will you leave me now?" pair is
 left out; the mother-and-son pair carries the same contrast.
@@ -95,7 +95,7 @@ TRAPS = [
     {"key": "e1", "wrong": "Will I carry your bags?", "right": "Shall I carry your bags?", "why": "Đề nghị giúp dạng câu hỏi: Shall I hoặc Can I."},
     {"key": "e2", "wrong": "I'm going to do the washing-up, if you like.", "right": "I'll do the washing-up, if you like.", "why": "Đề nghị giúp: will."},
     {"key": "e3", "wrong": "Will we start the meeting?", "right": "Shall we start the meeting?", "why": "Rủ cùng làm: Shall we, hoặc Let's."},
-    {"key": "e4", "wrong": "Are you going to send me the file?", "right": "Could you send me the file?", "why": "Muốn nhờ: Will you, Could you."},
+    {"key": "e4", "wrong": "Are you going to send me the file?", "right": "Could you send me the file?", "why": "Muốn nhờ: Will you, Can you, Could you."},
 ]
 
 ANSWER = [
@@ -108,7 +108,7 @@ ANSWER = [
 SITTING_1 = [
     {"kind": "title", "hook": "Đồng nghiệp ôm chồng tài liệu, không mở được cửa. Bạn nói gì?", "lines": [
         {"say": "Đồng nghiệp ôm một chồng tài liệu và không mở được cửa. Bạn muốn giúp. Bạn nói bằng will, hay bằng going to?", "show": "hook"},
-        {"say": "Buổi này học ba việc chỉ dùng will: đề nghị giúp, nhờ vả, rồi một câu hỏi trông như lời nhờ nhưng thật ra là ra lệnh."},
+        {"say": "Buổi này học hai việc chỉ dùng will: đề nghị giúp và nhờ vả. Rồi một câu hỏi với going to trông như lời nhờ nhưng thật ra là ra lệnh."},
     ]},
     {"kind": "scene", "visual": "picture_cards", "eyebrow": "Thí nghiệm", "title": "Đề nghị giúp: chỉ dùng will",
      "data": {"rows": OFFERS, "rule": "Tự nguyện làm giúp ai: I'll + động từ. Không dùng going to hay đuôi ing."}, "lines": [
@@ -171,7 +171,7 @@ SITTING_1 = [
 SITTING_2 = [
     {"kind": "title", "hook": "Cả nhóm đã đến đủ. Bạn rủ mọi người bắt đầu họp bằng câu nào?", "lines": [
         {"say": "Cả nhóm đã đến đủ. Bạn muốn rủ mọi người bắt đầu họp. Mở đầu bằng will we, hay bằng shall we?", "show": "hook"},
-        {"say": "Buổi này học bốn câu hỏi có bốn vai khác nhau, một câu hỏi của sách có hai cách hiểu, rồi cách đọc will cho rõ."},
+        {"say": "Buổi này học bốn câu hỏi có bốn vai khác nhau, một câu của bài tập có hai cách hiểu, rồi cách đọc will cho rõ."},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Thí nghiệm", "title": "Bốn câu hỏi, bốn vai",
      "data": {"rows": FOUR_ROLES, "rule": "Rủ: Shall we. Có nên không: Should we. Xin phép: Can I. Nhờ: Will you. Không dùng Will we để rủ."}, "lines": [
@@ -197,7 +197,7 @@ SITTING_2 = [
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Phát âm", "title": "I'll, won't, want",
      "data": {"rows": SOUNDS, "rule": "I'll đọc liền một âm tiết. won't có nguyên âm đôi; want có nguyên âm ngắn."}, "lines": [
-        {"say": "Dạng rút gọn của will đọc liền thành một âm tiết, giống từ isle.", "show": "n1"},
+        {"say": "Dạng rút gọn của will đọc liền thành một âm tiết: ai, rồi lướt sang âm lờ cuối.", "show": "n1"},
         {"en": "I'll call you back.", "vi": "Tôi sẽ gọi lại cho bạn.", "gap": True},
         {"say": "Dạng phủ định rút gọn có một nguyên âm đôi: miệng mở rồi tròn môi dần, giống trong từ go.", "show": "n2"},
         {"en": "I won't be late.", "vi": "Tôi sẽ không đến muộn.", "gap": True},
@@ -219,7 +219,7 @@ SITTING_2 = [
     ]},
     {"kind": "word", "headword": "schedule", "lines": [{"say": "Trước câu Speaking, học năm danh từ của một buổi họp. Từ thứ nhất: lịch làm việc. Kiểu Anh và kiểu Mỹ đọc khác nhau ở âm đầu."}]},
     {"kind": "word", "headword": "document", "lines": [{"say": "Từ thứ hai: tài liệu, văn bản. Trọng âm ở âm tiết đầu."}]},
-    {"kind": "word", "headword": "request", "lines": [{"say": "Từ thứ ba: lời đề nghị, yêu cầu."}]},
+    {"kind": "word", "headword": "request", "lines": [{"say": "Từ thứ ba: yêu cầu, lời nhờ."}]},
     {"kind": "word", "headword": "contract", "lines": [{"say": "Từ thứ tư: hợp đồng. Câu ví dụ là một lời xin phép bằng can."}]},
     {"kind": "word", "headword": "agenda", "lines": [{"say": "Từ cuối: chương trình cuộc họp. Câu ví dụ là một lời rủ bằng shall we."}]},
     {"kind": "scene", "visual": "speaking_answer", "eyebrow": "IELTS Speaking Part 1", "title": "Đề nghị bằng I'll, nhờ bằng Could you",
