@@ -23,15 +23,15 @@ TURNS = [
     ("F", "Yes. It was interesting to hear how people felt about automation then and what challenges they faced. I didn't know that first started with workers in the textile industry.",
      "Ừ. Thú vị khi nghe người thời đó cảm thấy thế nào về tự động hóa và họ gặp những khó khăn gì. Tôi không biết là chuyện đó bắt đầu từ công nhân ngành dệt."),
     ("M", "With those protesting workers called the Luddites destroying their knitting machines because they were so worried about losing their jobs.",
-     "Với những công nhân phản đối được gọi là Luddite, đập phá máy dệt kim vì quá lo mất việc."),
+     "Ừ, những công nhân phản đối, gọi là người Luddite, đã đập phá máy dệt kim vì quá sợ mất việc."),
     ("F", "Yes, and ultimately, they didn't achieve anything. And anyway, industrialisation created more jobs than it destroyed.",
      "Ừ, và rốt cuộc họ chẳng đạt được gì. Mà dù sao thì công nghiệp hóa tạo ra nhiều việc làm hơn số việc nó xóa đi."),
     ("M", "Yes, that's true – but it probably didn't seem a positive thing at the time. I can see why the Luddites felt so threatened.",
-     "Đúng vậy, nhưng có lẽ lúc đó chẳng ai thấy đó là điều tốt. Tôi hiểu vì sao những người Luddite cảm thấy bị đe dọa đến thế."),
+     "Đúng vậy, nhưng có lẽ vào lúc đó, điều ấy chẳng có vẻ gì là tốt đẹp. Tôi hiểu vì sao những người Luddite cảm thấy bị đe dọa đến thế."),
     ("F", "I know. I'm sure I would have felt the same. The discussion about the future of work was really optimistic for a change. I like the idea that work won't involve doing boring, repetitive tasks, as robots will do all that. Normally, you only hear negative stuff about the future.",
      "Phải. Chắc tôi cũng sẽ cảm thấy như vậy. Phần bàn về tương lai việc làm lần này lạc quan hẳn. Tôi thích ý tưởng là công việc sẽ không còn những việc nhàm chán, lặp đi lặp lại, vì robot sẽ làm hết. Bình thường toàn nghe chuyện tiêu cực về tương lai."),
     ("M", "Bit too optimistic, don't you think? For example, I can't see how people are about to have more leisure time, when all the evidence shows people are spending longer than ever at work.",
-     "Hơi lạc quan quá, bạn có thấy vậy không? Chẳng hạn, tôi không hiểu sao người ta sắp có nhiều thời gian rảnh hơn, khi mọi bằng chứng cho thấy người ta đang ở chỗ làm lâu hơn bao giờ hết."),
+     "Hơi lạc quan quá, bạn có thấy vậy không? Chẳng hạn, tôi không thấy làm sao người ta lại sắp có thêm thời gian rảnh được, khi mọi bằng chứng cho thấy người ta đang làm việc nhiều giờ hơn bao giờ hết."),
     ("F", "No – that's true. And what about lower unemployment? I'm not so sure about that.",
      "Ừ, đúng thế. Còn chuyện thất nghiệp giảm thì sao? Tôi không chắc lắm."),
     ("M", "Perhaps in the long term – but not in the foreseeable future.",
@@ -42,7 +42,7 @@ TURNS = [
     ("F", "I enjoyed all that stuff on how technology has changed some jobs and how they're likely to change in the near future.",
      "Tôi thích cả phần nói về chuyện công nghệ đã thay đổi một số nghề ra sao, và các nghề đó có thể sẽ thay đổi thế nào trong tương lai gần."),
     ("M", "Yeah, incredible. Like accountants. You might think all the technological innovations would have put them out of a job, but in fact there are more of them than ever. They're still really in demand and have become far more efficient.",
-     "Ừ, không ngờ luôn. Như kế toán chẳng hạn. Bạn có thể nghĩ bao nhiêu cải tiến công nghệ hẳn đã làm họ mất việc, nhưng thật ra số kế toán nhiều hơn bao giờ hết. Họ vẫn rất được cần đến và làm việc hiệu quả hơn nhiều."),
+     "Ừ, đáng kinh ngạc thật. Như kế toán chẳng hạn. Người ta cứ tưởng bao nhiêu cải tiến công nghệ đã khiến họ mất việc, nhưng thật ra số kế toán nhiều hơn bao giờ hết. Họ vẫn rất được cần đến và làm việc hiệu quả hơn nhiều."),
     ("F", "Right. That was amazing. Twenty times more accountants in this country compared to the 19th century.",
      "Đúng. Thật đáng kinh ngạc. Số kế toán ở nước này gấp hai mươi lần so với thế kỷ 19."),
     ("M", "I know. I'd never have thought that demand for hairdressing would have gone up so much in the last hundred years. One hairdresser for every 287 people now, compared to one for over 1,500.",
@@ -53,16 +53,16 @@ TURNS = [
     ("F", "No, they've got hairdryers, etc. but it's one job where you don't depend on a computer ... The kind of work that administrative staff do has changed enormously, thanks to technology. Even 20 years ago there were secretaries doing dictation and typing.",
      "Đúng, họ có máy sấy tóc các thứ, nhưng đó là một nghề không phụ thuộc vào máy tính... Còn công việc của nhân viên hành chính thì thay đổi rất nhiều nhờ công nghệ. Mới hai mươi năm trước vẫn còn thư ký ngồi ghi lời đọc và đánh máy."),
     ("M", "Yes. Really boring compared to these days, when they're given much more responsibility and higher status.",
-     "Ừ. Chán thật so với bây giờ, khi họ được giao nhiều trách nhiệm hơn hẳn và có vị trí cao hơn."),
+     "Ừ. Chán thật so với bây giờ, khi họ được giao nhiều trách nhiệm hơn hẳn và có địa vị cao hơn."),
     ("F", "Mmm. A lot of graduates go in for this kind of work now ... I'd expected there to be a much bigger change in the number of agricultural workers in the 19th century. But the 1871 census showed that roughly 25% of the population worked on the land.",
-     "Ừm. Bây giờ nhiều người tốt nghiệp đại học chọn làm công việc này... Tôi cứ tưởng số người làm nông ở thế kỷ 19 khác bây giờ nhiều hơn nữa. Nhưng cuộc điều tra dân số năm 1871 cho thấy khoảng 25% dân số làm nông."),
+     "Ừm. Bây giờ nhiều người tốt nghiệp đại học chọn làm công việc này... Tôi cứ tưởng hồi thế kỷ 19 số người làm nông còn đông hơn thế nhiều. Nhưng cuộc điều tra dân số năm 1871 cho thấy khoảng 25% dân số làm nông."),
     ("M", "Yeah, I'd have assumed it would be more than 50%. Now it's less than 0.2%.",
      "Ừ, tôi cứ đinh ninh phải hơn 50%. Bây giờ thì chưa tới 0,2%."),
     ("F", "What about care workers?", "Còn nhân viên chăm sóc thì sao?"),
     ("M", "They barely existed in the 19th century as people's lifespan was so much shorter. But now of course this sector will see huge growth.",
      "Ở thế kỷ 19 hầu như không có nghề này, vì tuổi thọ của con người ngắn hơn nhiều. Nhưng giờ thì tất nhiên ngành này sẽ tăng trưởng rất mạnh."),
     ("F", "Yeah – and it's hard enough to meet current demand. The future looks quite bleak for bank clerks. They've been in decline since ATMs were introduced in the eighties.",
-     "Ừ, và đáp ứng nhu cầu hiện nay đã đủ khó rồi. Tương lai của nhân viên giao dịch ngân hàng thì khá ảm đạm. Họ giảm dần từ khi máy ATM ra đời vào những năm tám mươi."),
+     "Ừ, và đáp ứng nhu cầu hiện nay đã đủ khó rồi. Tương lai của nhân viên giao dịch ngân hàng thì khá ảm đạm. Số nhân viên này giảm dần từ khi máy ATM xuất hiện vào thập niên 1980."),
     ("M", "And technology will certainly make most of the jobs they do now redundant, I think.",
      "Và tôi nghĩ công nghệ chắc chắn sẽ làm phần lớn công việc họ đang làm trở nên thừa."),
     ("F", "I agree, although the situation may change. It's very hard to predict what will happen.",
@@ -91,25 +91,26 @@ Q23 = "Which TWO predictions about the future of work are the students doubtful 
 Q25 = "What comment do the students make about these jobs?"
 
 QS = [
-    pick(OP, "A", "ABCD", f"Câu 21. {Q21} (câu 21 và 22 là hai đáp án khác nhau, thứ tự nào cũng được)",
+    pick(OP, "A", "ABCD", f"Câu 21. {Q21} (câu 21 và 22 là hai đáp án của cùng một câu hỏi; câu này tìm một đáp án)",
          "Cô gái: `ultimately, they didn't achieve anything` (rốt cuộc chẳng đạt được gì) = ineffective. B và C không ai nói. "
          "D ngược lại: công nghiệp hóa tạo ra nhiều việc làm hơn, nên nỗi lo của họ không đúng."),
     pick(OP, "E", "BCDE", f"Câu 22. {Q21} (đáp án còn lại)",
          "Chàng trai: `I can see why the Luddites felt so threatened` (tôi hiểu vì sao họ thấy bị đe dọa) = their attitude is understandable; "
          "cô gái đồng ý: `I'm sure I would have felt the same`. B, C, D không ai nói (D còn ngược với bài)."),
-    pick(PR, "B", "ABCE", f"Câu 23. {Q23} (câu 23 và 24 là hai đáp án khác nhau, thứ tự nào cũng được)",
+    pick(PR, "B", "ABCE", f"Câu 23. {Q23} (câu 23 và 24 là hai đáp án của cùng một câu hỏi; câu này tìm một đáp án)",
          "Cô gái: `And what about lower unemployment? I'm not so sure about that.` Chàng trai: `not in the foreseeable future`. "
-         "Nghi ngờ thất nghiệp giảm = B. A là điều cô gái thích, không nghi ngờ. C sai: người ta sẽ bị buộc làm lâu hơn (`will be expected to`), "
-         "không phải muốn làm lâu hơn, và chàng trai nói điều đó đang xảy ra. E không ai nói."),
+         "Nghi ngờ thất nghiệp giảm = B. A là điều cô gái thích, không nghi ngờ. C sai: hai bạn không nghi ngờ điều này (`That's already happening`); "
+         "vả lại bài nói bị buộc làm lâu hơn (`will be expected to`), không phải muốn. E không ai nói."),
     pick(PR, "D", "ACDE", f"Câu 24. {Q23} (đáp án còn lại)",
-         "Chàng trai: `I can't see how people are about to have more leisure time, when all the evidence shows people are spending longer than ever at work.` "
+         "Chàng trai: `I can't see how people are about to have more leisure time` (vì người ta đang làm việc lâu hơn bao giờ hết). "
          "Không tin sẽ có thêm thời gian rảnh = nghi ngờ giờ làm việc ngắn lại (D). A, C, E: xem lời giải câu 23."),
     pick(CM, "G", "ABCEG", f"Câu 25. {Q25} Accountants",
          "`there are more of them than ever` (số người tăng = employment) và `have become far more efficient` (hiệu quả hơn = productivity): G. "
          "A là bẫy: `You might think … would have put them out of a job, but in fact …`; ý chính nằm sau `but in fact`."),
     pick(CM, "E", "ABCEF", f"Câu 26. {Q25} Hairdressers",
          "`people's earning power has gone up so they can afford to spend more` (thu nhập tăng, có tiền chi) = higher disposable income; "
-         "từ 1 thợ cho hơn 1.500 người thành 1 thợ cho 287 người = a huge increase in jobs: E. B sai: `technology hasn't changed the actual job that much`."),
+         "từ 1 thợ cho hơn 1.500 người thành 1 thợ cho 287 người = a huge increase in jobs: E. B sai: `technology hasn't changed the actual job that much`. "
+         "F là bẫy thì: nhu cầu làm tóc đã tăng (`has gone up … in the last hundred years`), còn F nói điều sẽ xảy ra."),
     pick(CM, "B", "ABCDG", f"Câu 27. {Q25} Administrative staff",
          "Trước kia là ghi lời đọc và đánh máy, `really boring compared to these days`, nay `much more responsibility and higher status`: B. "
          "D là bẫy: `A lot of graduates go in for this kind of work now` chỉ nói ai chọn nghề này, không nói nghề sẽ đòi hỏi thêm bằng cấp."),
@@ -120,7 +121,7 @@ QS = [
          "`this sector will see huge growth` và `it's hard enough to meet current demand`: nhu cầu sẽ tăng mạnh, F (tương lai: `There is likely to be`). "
          "E là bẫy thì và lý do: E nói việc làm đã tăng (`has led to`) vì thu nhập; nghề chăm sóc sẽ tăng vì người ta sống lâu hơn."),
     pick(CM, "A", "ABDFG", f"Câu 30. {Q25} Bank clerks",
-         "`technology will certainly make most of the jobs they do now redundant` (công nghệ sẽ làm công việc của họ thành thừa) = at risk: A. "
+         "`technology will certainly make most of the jobs they do now redundant` (công nghệ sẽ làm công việc của họ thành thừa) = at risk: A; cô gái cũng nói `The future looks quite bleak for bank clerks`. "
          "Cô gái thêm `the situation may change`, nhưng vẫn đồng ý (`I agree`)."),
 ]
 
@@ -151,7 +152,7 @@ DAY = {
         ]),
         ("Từ để nghe trước · các nghề xưa và nay", [
             ("productivity", "N", "năng suất", "New software has raised productivity.", "Phần mềm mới đã nâng năng suất."),
-            ("qualification", "N", "bằng cấp, chứng chỉ", "This job requires a university qualification.", "Công việc này đòi hỏi bằng đại học."),
+            ("qualification", "N", "bằng cấp, chứng chỉ", "Nurses need professional qualifications.", "Y tá cần có bằng cấp chuyên môn."),
             ("census", "N", "cuộc điều tra dân số", "The census showed that the city had grown.", "Cuộc điều tra dân số cho thấy thành phố đã đông hơn."),
             ("lifespan", "N", "tuổi thọ", "People's lifespan is much longer now.", "Tuổi thọ của con người bây giờ dài hơn nhiều."),
             ("redundant", "A", "thừa, không còn cần đến", "Machines made many jobs redundant.", "Máy móc khiến nhiều công việc trở nên thừa."),
@@ -167,6 +168,6 @@ DAY = {
     "my": [
         {"vi": "Viết 3–5 câu về một nghề ở Việt Nam đang giảm và một nghề đang tăng. Dùng ít nhất ba từ của bài (automation, unemployment, redundant, productivity, qualification...).",
          "en": "Write 3–5 sentences about one job in Vietnam that is in decline and one that is growing.",
-         "model": "Automation has made many factory jobs redundant, so fewer people work on production lines. At the same time, care workers are in demand because people's lifespan is longer. This job will need more qualifications in the future."},
+         "model": "In Vietnam, automation has made many factory jobs redundant, so fewer people work on production lines. At the same time, care workers are in great demand because people are living longer. In future, this job will probably require more qualifications."},
     ],
 }

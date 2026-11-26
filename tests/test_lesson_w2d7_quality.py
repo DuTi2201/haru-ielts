@@ -172,7 +172,7 @@ def test_the_script_is_the_book_and_the_questions_carry_the_book_key():
 def test_gate_the_listening_method_is_taught():
     says = " ".join(" ".join(_says(lec)) for lec in AUTHORED.values())
     for phrase in ("đọc câu hỏi trước", "thái độ", "mốc thời gian", "hiện tại hoàn thành", "người ta tưởng", "chốt ý",
-                   "Chỉ xem câu đúng", "cách nói khác", "nghe lại bao nhiêu lần cũng được"):
+                   "đọc to câu đúng", "cách nói khác", "nghe lại bao nhiêu lần cũng được"):
         assert phrase.lower() in says.lower(), phrase
 
 

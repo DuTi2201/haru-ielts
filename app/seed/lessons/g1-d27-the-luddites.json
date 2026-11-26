@@ -109,8 +109,8 @@
    "pos": "N",
    "meaning_vi": "bằng cấp, chứng chỉ",
    "note_vi": "qualify là đủ điều kiện; qualification là bằng cấp, chứng chỉ.",
-   "example_en": "This job requires a university qualification.",
-   "example_vi": "Công việc này đòi hỏi bằng đại học.",
+   "example_en": "Nurses need professional qualifications.",
+   "example_vi": "Y tá cần có bằng cấp chuyên môn.",
    "family": "Việc làm và công nghệ",
    "priority": "core",
    "source": "Cambridge IELTS 18, Test 3, Listening Part 3; từ vựng chọn từ bài nghe theo phương pháp của khóa học; phiên âm: Oxford Learner's Dictionaries (BrE)",
@@ -200,7 +200,7 @@
        "show": "hook"
       },
       {
-       "say": "Bảy từ của buổi này là bảy từ bạn sẽ nghe trong nửa đầu bài: câu chuyện người Luddite và những dự đoán về tương lai việc làm."
+       "say": "Bảy từ của buổi này là bảy từ bạn sẽ gặp trong nửa đầu bài nghe và trong câu hỏi: câu chuyện người Luddite và những dự đoán về tương lai việc làm."
       }
      ]
     },
@@ -227,11 +227,11 @@
      "headword": "threaten",
      "lines": [
       {
-       "say": "Đe dọa. Trong bài, chàng trai nói anh hiểu vì sao những người Luddite cảm thấy bị đe dọa."
+       "say": "Đe dọa. Cụm hay gặp là cảm thấy bị đe dọa."
       },
       {
-       "en": "I can see why the Luddites felt so threatened.",
-       "vi": "Tôi hiểu vì sao những người Luddite cảm thấy bị đe dọa đến thế.",
+       "en": "Many workers felt threatened by the new machines.",
+       "vi": "Nhiều công nhân cảm thấy bị máy móc mới đe dọa.",
        "gap": true
       }
      ]
@@ -244,8 +244,8 @@
        "say": "Repeat là lặp lại. Những việc lặp đi lặp lại, nhàm chán, là việc robot được kỳ vọng sẽ làm thay con người."
       },
       {
-       "en": "Work won't involve doing boring, repetitive tasks.",
-       "vi": "Công việc sẽ không còn những việc nhàm chán, lặp đi lặp lại.",
+       "en": "Robots can do boring, repetitive tasks.",
+       "vi": "Robot có thể làm những việc nhàm chán, lặp đi lặp lại.",
        "gap": true
       }
      ]
@@ -255,7 +255,7 @@
      "headword": "leisure",
      "lines": [
       {
-       "say": "Thời gian rảnh, thời gian nghỉ ngơi. Để ý cách đọc kiểu Anh. Nghe thấy có thêm thời gian rảnh, bạn nghĩ ngay tới giờ làm việc ngắn lại."
+       "say": "Thời gian rảnh, thời gian nghỉ ngơi. Để ý cách đọc kiểu Anh. Cụm hay gặp là thời gian rảnh và các hoạt động giải trí."
       }
      ]
     },
@@ -264,11 +264,11 @@
      "headword": "unemployment",
      "lines": [
       {
-       "say": "Employ là thuê người làm; thêm tiền tố un là không có việc. Thất nghiệp giảm, trong bài được nói thành thất nghiệp thấp hơn."
+       "say": "Employ là thuê người làm; thêm tiền tố un là không có việc: tình trạng thất nghiệp."
       },
       {
-       "en": "What about lower unemployment?",
-       "vi": "Còn chuyện thất nghiệp giảm thì sao?",
+       "en": "Unemployment is expected to fall next year.",
+       "vi": "Tỷ lệ thất nghiệp được dự đoán sẽ giảm vào năm sau.",
        "gap": true
       }
      ]
@@ -278,7 +278,7 @@
      "headword": "retire",
      "lines": [
       {
-       "say": "Nghỉ hưu. Một lựa chọn trong đề nói người ta sẽ muốn hoãn nghỉ hưu. Trong bài, người ta sẽ phải làm việc tới khi già hơn: bị buộc, không phải muốn."
+       "say": "Nghỉ hưu. Từ này có trong một lựa chọn của đề: hoãn nghỉ hưu, tức là làm việc lâu hơn rồi mới nghỉ."
       }
      ]
     },
@@ -324,7 +324,7 @@
        "show": "hook"
       },
       {
-       "say": "Câu trả lời có trong bài nghe. Trước đó là năm từ để nghe được phần các nghề xưa và nay."
+       "say": "Câu trả lời có trong bài nghe. Trước đó là năm từ của phần các nghề xưa và nay, trong bài nghe và trong câu hỏi."
       }
      ]
     },
@@ -333,7 +333,7 @@
      "headword": "productivity",
      "lines": [
       {
-       "say": "Năng suất: làm ra bao nhiêu trong một khoảng thời gian. Kế toán bây giờ làm việc hiệu quả hơn nhiều, tức là năng suất tăng."
+       "say": "Năng suất: làm ra bao nhiêu trong một khoảng thời gian. Máy móc mới thường làm năng suất tăng."
       }
      ]
     },
@@ -342,7 +342,7 @@
      "headword": "qualification",
      "lines": [
       {
-       "say": "Bằng cấp, chứng chỉ. Trong bài có nói nhiều người tốt nghiệp đại học chọn làm hành chính, nhưng không ai nói nghề này sẽ đòi hỏi thêm bằng cấp."
+       "say": "Bằng cấp, chứng chỉ. Nhiều nghề bây giờ đòi hỏi bằng đại học hay chứng chỉ chuyên môn."
       }
      ]
     },
@@ -351,7 +351,7 @@
      "headword": "census",
      "lines": [
       {
-       "say": "Cuộc điều tra dân số. Cuộc điều tra năm 1871 cho thấy khoảng một phần tư dân số làm nông. Từ này chỉ cần nhận ra khi nghe."
+       "say": "Cuộc điều tra dân số, làm định kỳ trên cả nước. Từ này chỉ cần nhận ra khi nghe."
       }
      ]
     },
@@ -360,11 +360,11 @@
      "headword": "lifespan",
      "lines": [
       {
-       "say": "Life là đời sống, span là một khoảng: tuổi thọ. Ở thế kỷ mười chín, tuổi thọ ngắn nên hầu như không có nghề chăm sóc người già."
+       "say": "Life là đời sống, span là một khoảng: tuổi thọ. Ngày nay tuổi thọ dài hơn trước nhiều."
       },
       {
-       "en": "People's lifespan was so much shorter.",
-       "vi": "Tuổi thọ của con người ngắn hơn nhiều.",
+       "en": "People live much longer than they did a century ago.",
+       "vi": "Con người sống lâu hơn nhiều so với một thế kỷ trước.",
        "gap": true
       }
      ]
@@ -374,11 +374,11 @@
      "headword": "redundant",
      "lines": [
       {
-       "say": "Thừa, không còn cần đến. Người Anh còn nói một người bị cho thôi việc vì công việc không còn nữa. Trong bài, công nghệ sẽ làm phần lớn công việc của nhân viên ngân hàng trở nên thừa."
+       "say": "Thừa, không còn cần đến. Người Anh còn dùng từ này khi một người bị cho thôi việc vì công việc không còn nữa."
       },
       {
-       "en": "Technology will make most of the jobs they do now redundant.",
-       "vi": "Công nghệ sẽ làm phần lớn công việc họ đang làm trở nên thừa.",
+       "en": "Machines made many factory jobs redundant.",
+       "vi": "Máy móc khiến nhiều công việc trong nhà máy trở nên thừa.",
        "gap": true
       }
      ]
@@ -493,10 +493,10 @@
        {
         "key": "p1",
         "icon": "gear",
-        "label": "Đầu thế kỷ 19",
+        "label": "Cuối thế kỷ 18",
         "kind": "bg",
         "en": "New machines came into the textile industry.",
-        "vi": "Máy móc mới vào ngành dệt ở Anh."
+        "vi": "Máy móc dần thay thợ thủ công."
        },
        {
         "key": "p2",
@@ -511,12 +511,12 @@
         "icon": "trend",
         "label": "Về sau",
         "kind": "chain",
-        "en": "Industrialisation created more jobs than it destroyed.",
-        "vi": "Công nghiệp hóa tạo ra nhiều việc hơn."
+        "en": "In the long run, factories created new kinds of work.",
+        "vi": "Nhà máy dần tạo ra những nghề mới."
        },
        {
         "key": "p4",
-        "icon": "screen",
+        "icon": "monitor",
         "label": "Hôm nay",
         "kind": "chain",
         "en": "What will automation do to our jobs?",
@@ -527,15 +527,15 @@
      },
      "lines": [
       {
-       "say": "Đầu thế kỷ mười chín, máy móc mới được đưa vào ngành dệt ở nước Anh.",
+       "say": "Từ cuối thế kỷ mười tám, máy móc mới dần thay thế thợ thủ công trong ngành dệt ở nước Anh.",
        "show": "p1"
       },
       {
-       "say": "Từ năm 1811 tới năm 1816, nhiều công nhân dệt đập phá máy vì sợ mất việc. Họ được gọi là những người Luddite.",
+       "say": "Từ năm 1811 tới năm 1816, nhiều công nhân dệt đập phá máy vì sợ mất việc và bị hạ lương. Họ được gọi là những người Luddite.",
        "show": "p2"
       },
       {
-       "say": "Về sau, công nghiệp hóa lại tạo ra nhiều việc làm hơn số việc nó xóa đi.",
+       "say": "Về lâu dài, nhà máy dần tạo ra những kiểu việc làm mới.",
        "show": "p3"
       },
       {
@@ -563,7 +563,7 @@
        {
         "key": "r1",
         "head": "ineffective",
-        "en": "didn't achieve anything · had no effect",
+        "en": "failed · made no difference",
         "vi": "không có tác dụng"
        },
        {
@@ -575,13 +575,13 @@
        {
         "key": "r3",
         "head": "Unemployment will fall",
-        "en": "lower unemployment · fewer people out of work",
+        "en": "more people will find work",
         "vi": "ít người thất nghiệp hơn"
        },
        {
         "key": "r4",
         "head": "Working hours will be shorter",
-        "en": "more leisure time · work less",
+        "en": "a four-day week · work fewer hours",
         "vi": "nhiều thời gian rảnh hơn"
        }
       ],
@@ -589,7 +589,7 @@
      },
      "lines": [
       {
-       "say": "Đề hiếm khi dùng lại đúng chữ của bài nghe. Vì vậy, đọc mỗi lựa chọn, bạn đoán xem người nói có thể diễn đạt nó thế nào. Không có tác dụng có thể được nói là chẳng đạt được gì.",
+       "say": "Đề hiếm khi dùng lại đúng chữ của bài nghe. Vì vậy, đọc mỗi lựa chọn, bạn đoán xem người nói có thể diễn đạt nó thế nào. Không có tác dụng có thể được nói là thất bại, chẳng thay đổi được gì.",
        "show": "r1"
       },
       {
@@ -597,11 +597,11 @@
        "show": "r2"
       },
       {
-       "say": "Thất nghiệp giảm có thể thành ít người mất việc hơn.",
+       "say": "Thất nghiệp giảm có thể thành nhiều người tìm được việc hơn.",
        "show": "r3"
       },
       {
-       "say": "Giờ làm ngắn lại có thể thành có nhiều thời gian rảnh hơn.",
+       "say": "Giờ làm ngắn lại có thể thành tuần làm bốn ngày, làm ít giờ hơn.",
        "show": "r4"
       },
       {
@@ -631,13 +631,13 @@
        {
         "key": "s2",
         "head": "Nghi ngờ",
-        "en": "Bit too optimistic, don't you think? · I'm not so sure about that.",
+        "en": "I doubt it. · I'm not convinced.",
         "vi": "Người nói không tin điều được dự đoán."
        },
        {
         "key": "s3",
         "head": "Thông cảm",
-        "en": "I can see why … · I'm sure I would have felt the same.",
+        "en": "I understand why … · No wonder they …",
         "vi": "Hiểu được cảm xúc của người khác."
        }
       ],
@@ -656,14 +656,14 @@
        "show": "s2"
       },
       {
-       "en": "Bit too optimistic, don't you think? I'm not so sure about that."
+       "en": "I doubt it. I'm not convinced."
       },
       {
        "say": "Còn câu thông cảm, hiểu được cảm xúc của người khác, nghe như thế này.",
        "show": "s3"
       },
       {
-       "en": "I can see why they felt so threatened."
+       "en": "No wonder they were angry."
       },
       {
        "say": "Gặp câu hỏi về ý kiến hay sự nghi ngờ, hãy nghe thái độ của người nói, không chỉ nghe chủ đề.",
@@ -722,18 +722,18 @@
       "rows": [
        {
         "key": "x1",
-        "wrong": "You might think … would have put them out of a job",
-        "right": "but in fact there are more of them than ever",
-        "why": "Ý chính nằm sau `but in fact`; phần trước chỉ là điều người ta tưởng."
+        "wrong": "You'd expect fewer teachers …",
+        "right": "but actually there are more than ever.",
+        "why": "Ý chính nằm sau `but actually`; phần trước chỉ là điều người ta tưởng."
        },
        {
         "key": "x2",
-        "wrong": "I'd have assumed it would be more than 50%.",
-        "right": "Now it's less than 0.2%.",
-        "why": "`I'd have assumed` là điều người nói từng tưởng, không phải sự thật."
+        "wrong": "I thought it was about half.",
+        "right": "In fact it's only ten per cent.",
+        "why": "`I thought` là điều người nói từng tưởng, không phải sự thật."
        }
       ],
-      "rule": "Nghe tới lúc người nói chốt: ý chính thường đứng sau chữ but hay chữ now."
+      "rule": "Nghe tới lúc người nói chốt: ý chính thường đứng sau chữ but hay cụm in fact."
      },
      "lines": [
       {
@@ -741,20 +741,20 @@
        "show": "x1"
       },
       {
-       "en": "You might think they would be out of a job, but in fact there are more of them than ever."
+       "en": "You'd expect fewer teachers, but actually there are more than ever."
       },
       {
-       "say": "Phần trước chỉ là điều người ta tưởng. Ý chính nằm sau cụm nghĩa là nhưng thật ra."
+       "say": "Phần trước chỉ là điều người ta tưởng. Ý chính nằm sau cụm nghĩa là nhưng thật ra. Bài nghe hôm nay có kiểu câu này."
       },
       {
        "say": "Bẫy thứ hai: người nói kể điều mình từng nghĩ, rồi mới nói con số thật.",
        "show": "x2"
       },
       {
-       "en": "I'd have assumed it would be more than fifty per cent. Now it's less than nought point two per cent."
+       "en": "I thought it was about half. In fact it's only ten per cent."
       },
       {
-       "say": "Nghe tới lúc người nói chốt ý: ý chính thường đứng sau chữ but, hay sau chữ now.",
+       "say": "Nghe tới lúc người nói chốt ý: ý chính thường đứng sau chữ but, hay sau cụm in fact.",
        "show": "rule"
       }
      ]
@@ -788,7 +788,7 @@
        "show": "hook"
       },
       {
-       "say": "Buổi này mình đối chiếu từng câu hỏi với đúng câu trong bài nghe. Chỉ xem câu đúng, không đọc đi đọc lại đáp án sai, để đầu óc không bị nhiễu."
+       "say": "Buổi này mình đối chiếu từng câu hỏi với đúng câu trong bài nghe. Mỗi câu mình đọc to câu đúng; lựa chọn dễ nhầm chỉ nhắc ngắn bằng tiếng Việt để thấy nó lệch ở đâu, để đầu óc không bị nhiễu."
       }
      ]
     },
@@ -953,21 +953,21 @@
       "rows": [
        {
         "key": "w1",
-        "wrong": "Hành chính: This job will require more qualifications.",
+        "wrong": "Hành chính: cần thêm bằng cấp?",
         "right": "A lot of graduates go in for this kind of work now.",
         "why": "Câu chỉ nói ai chọn nghề này, không nói nghề sẽ đòi hỏi thêm bằng cấp."
        },
        {
         "key": "w2",
-        "wrong": "Chăm sóc: Higher disposable income has led to a huge increase in jobs.",
+        "wrong": "Chăm sóc: tăng vì thu nhập?",
         "right": "this sector will see huge growth",
         "why": "Bài nói tương lai và vì tuổi thọ; nhận xét kia nói việc đã xảy ra và vì thu nhập."
        },
        {
         "key": "w3",
-        "wrong": "Hưu trí: People will want to delay retiring.",
+        "wrong": "Hưu trí: muốn làm lâu hơn?",
         "right": "most people will be expected to work until they're much older",
-        "why": "Bị buộc làm lâu hơn, không phải muốn; và không ai nghi ngờ điều đó."
+        "why": "Cả hai bạn tin điều này, không nghi ngờ; vả lại đây là bị buộc, không phải muốn."
        }
       ],
       "rule": "Nghe được chữ quen chưa đủ: phải khớp cả ý, cả lý do, cả mốc thời gian."
@@ -982,7 +982,7 @@
        "show": "w2"
       },
       {
-       "say": "Thứ ba: người ta sẽ bị buộc làm việc tới khi già hơn. Bị buộc khác với muốn. Cả hai bạn đều không nghi ngờ điều đó.",
+       "say": "Thứ ba: cả hai bạn đều tin người ta sẽ làm việc tới khi già hơn, nên đây không phải điều họ nghi ngờ. Vả lại, đó là bị buộc, không phải muốn.",
        "show": "w3"
       },
       {

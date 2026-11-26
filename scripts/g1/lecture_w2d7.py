@@ -48,29 +48,29 @@ NOTES = {
 # ============================================================ lecture 1: before listening
 
 STORY = [
-    {"key": "p1", "icon": "gear", "label": "Đầu thế kỷ 19", "kind": "bg", "en": "New machines came into the textile industry.", "vi": "Máy móc mới vào ngành dệt ở Anh."},
+    {"key": "p1", "icon": "gear", "label": "Cuối thế kỷ 18", "kind": "bg", "en": "New machines came into the textile industry.", "vi": "Máy móc dần thay thợ thủ công."},
     {"key": "p2", "icon": "crash", "label": "1811–1816", "kind": "event", "en": "The Luddites destroyed their knitting machines.", "vi": "Công nhân đập máy vì sợ mất việc."},
-    {"key": "p3", "icon": "trend", "label": "Về sau", "kind": "chain", "en": "Industrialisation created more jobs than it destroyed.", "vi": "Công nghiệp hóa tạo ra nhiều việc hơn."},
-    {"key": "p4", "icon": "screen", "label": "Hôm nay", "kind": "chain", "en": "What will automation do to our jobs?", "vi": "Câu hỏi cũ, công nghệ mới."},
+    {"key": "p3", "icon": "trend", "label": "Về sau", "kind": "chain", "en": "In the long run, factories created new kinds of work.", "vi": "Nhà máy dần tạo ra những nghề mới."},
+    {"key": "p4", "icon": "monitor", "label": "Hôm nay", "kind": "chain", "en": "What will automation do to our jobs?", "vi": "Câu hỏi cũ, công nghệ mới."},
 ]
 PREDICT = [
-    {"key": "r1", "head": "ineffective", "en": "didn't achieve anything · had no effect", "vi": "không có tác dụng"},
+    {"key": "r1", "head": "ineffective", "en": "failed · made no difference", "vi": "không có tác dụng"},
     {"key": "r2", "head": "proved right", "en": "they were right after all", "vi": "hóa ra họ đúng"},
-    {"key": "r3", "head": "Unemployment will fall", "en": "lower unemployment · fewer people out of work", "vi": "ít người thất nghiệp hơn"},
-    {"key": "r4", "head": "Working hours will be shorter", "en": "more leisure time · work less", "vi": "nhiều thời gian rảnh hơn"},
+    {"key": "r3", "head": "Unemployment will fall", "en": "more people will find work", "vi": "ít người thất nghiệp hơn"},
+    {"key": "r4", "head": "Working hours will be shorter", "en": "a four-day week · work fewer hours", "vi": "nhiều thời gian rảnh hơn"},
 ]
 SIGNALS = [
     {"key": "s1", "head": "Đồng ý", "en": "That's true. · I agree.", "vi": "Người nói nhận ý của người kia."},
-    {"key": "s2", "head": "Nghi ngờ", "en": "Bit too optimistic, don't you think? · I'm not so sure about that.", "vi": "Người nói không tin điều được dự đoán."},
-    {"key": "s3", "head": "Thông cảm", "en": "I can see why … · I'm sure I would have felt the same.", "vi": "Hiểu được cảm xúc của người khác."},
+    {"key": "s2", "head": "Nghi ngờ", "en": "I doubt it. · I'm not convinced.", "vi": "Người nói không tin điều được dự đoán."},
+    {"key": "s3", "head": "Thông cảm", "en": "I understand why … · No wonder they …", "vi": "Hiểu được cảm xúc của người khác."},
 ]
 TIMES = [
     {"key": "t1", "head": "Đã xảy ra, tới nay", "en": "has become · has fallen · have risen · has led to", "vi": "Nhận xét về một thay đổi đã có."},
     {"key": "t2", "head": "Sẽ xảy ra", "en": "are likely to be · there is likely to be · will require", "vi": "Nhận xét về điều người nói dự đoán."},
 ]
 TRAPS = [
-    {"key": "x1", "wrong": "You might think … would have put them out of a job", "right": "but in fact there are more of them than ever", "why": "Ý chính nằm sau `but in fact`; phần trước chỉ là điều người ta tưởng."},
-    {"key": "x2", "wrong": "I'd have assumed it would be more than 50%.", "right": "Now it's less than 0.2%.", "why": "`I'd have assumed` là điều người nói từng tưởng, không phải sự thật."},
+    {"key": "x1", "wrong": "You'd expect fewer teachers …", "right": "but actually there are more than ever.", "why": "Ý chính nằm sau `but actually`; phần trước chỉ là điều người ta tưởng."},
+    {"key": "x2", "wrong": "I thought it was about half.", "right": "In fact it's only ten per cent.", "why": "`I thought` là điều người nói từng tưởng, không phải sự thật."},
 ]
 
 PRE = [
@@ -80,19 +80,19 @@ PRE = [
     ]},
     {"kind": "scene", "visual": "story_strip", "eyebrow": "Câu chuyện", "title": "Những người đập máy",
      "data": {"frame": "strip", "panels": STORY, "rule": "Biết trước câu chuyện thì nghe dễ hơn: tai chỉ còn phải bắt chi tiết."}, "lines": [
-        {"say": "Đầu thế kỷ mười chín, máy móc mới được đưa vào ngành dệt ở nước Anh.", "show": "p1"},
-        {"say": "Từ năm 1811 tới năm 1816, nhiều công nhân dệt đập phá máy vì sợ mất việc. Họ được gọi là những người Luddite.", "show": "p2"},
-        {"say": "Về sau, công nghiệp hóa lại tạo ra nhiều việc làm hơn số việc nó xóa đi.", "show": "p3"},
+        {"say": "Từ cuối thế kỷ mười tám, máy móc mới dần thay thế thợ thủ công trong ngành dệt ở nước Anh.", "show": "p1"},
+        {"say": "Từ năm 1811 tới năm 1816, nhiều công nhân dệt đập phá máy vì sợ mất việc và bị hạ lương. Họ được gọi là những người Luddite.", "show": "p2"},
+        {"say": "Về lâu dài, nhà máy dần tạo ra những kiểu việc làm mới.", "show": "p3"},
         {"say": "Ngày nay câu hỏi ấy quay lại với robot và trí tuệ nhân tạo: tự động hóa sẽ làm gì với việc làm của chúng ta?", "show": "p4"},
         {"say": "Biết trước câu chuyện thì nghe dễ hơn nhiều: tai không phải đoán bối cảnh, chỉ còn phải bắt chi tiết.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Việc thứ nhất", "title": "Đọc câu hỏi trước, đoán cách nói lại",
      "data": {"cols": ["Trong câu hỏi", "Bài nghe có thể nói", "Nghĩa"], "rows": PREDICT,
               "rule": "Bài nghe hiếm khi lặp đúng chữ của câu hỏi; nó nói cùng ý bằng chữ khác."}, "lines": [
-        {"say": "Đề hiếm khi dùng lại đúng chữ của bài nghe. Vì vậy, đọc mỗi lựa chọn, bạn đoán xem người nói có thể diễn đạt nó thế nào. Không có tác dụng có thể được nói là chẳng đạt được gì.", "show": "r1"},
+        {"say": "Đề hiếm khi dùng lại đúng chữ của bài nghe. Vì vậy, đọc mỗi lựa chọn, bạn đoán xem người nói có thể diễn đạt nó thế nào. Không có tác dụng có thể được nói là thất bại, chẳng thay đổi được gì.", "show": "r1"},
         {"say": "Được chứng minh là đúng có thể được nói là hóa ra họ đúng.", "show": "r2"},
-        {"say": "Thất nghiệp giảm có thể thành ít người mất việc hơn.", "show": "r3"},
-        {"say": "Giờ làm ngắn lại có thể thành có nhiều thời gian rảnh hơn.", "show": "r4"},
+        {"say": "Thất nghiệp giảm có thể thành nhiều người tìm được việc hơn.", "show": "r3"},
+        {"say": "Giờ làm ngắn lại có thể thành tuần làm bốn ngày, làm ít giờ hơn.", "show": "r4"},
         {"say": "Đoán trước không phải để đoán đáp án, mà để khi nghe thấy một cách nói khác, bạn nhận ra ngay nó đang nói về lựa chọn nào.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Việc thứ hai", "title": "Nghe thái độ của người nói",
@@ -101,9 +101,9 @@ PRE = [
         {"say": "Câu hỏi hai mươi ba hỏi những dự đoán mà hai bạn nghi ngờ. Cả năm dự đoán có thể đều được nhắc tới; điều phân biệt là thái độ. Câu đồng ý nghe như thế này.", "show": "s1"},
         {"en": "That's true. I agree."},
         {"say": "Câu nghi ngờ nghe như thế này.", "show": "s2"},
-        {"en": "Bit too optimistic, don't you think? I'm not so sure about that."},
+        {"en": "I doubt it. I'm not convinced."},
         {"say": "Còn câu thông cảm, hiểu được cảm xúc của người khác, nghe như thế này.", "show": "s3"},
-        {"en": "I can see why they felt so threatened."},
+        {"en": "No wonder they were angry."},
         {"say": "Gặp câu hỏi về ý kiến hay sự nghi ngờ, hãy nghe thái độ của người nói, không chỉ nghe chủ đề.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Việc thứ ba", "title": "Nhận xét nói về lúc nào?",
@@ -114,13 +114,13 @@ PRE = [
         {"say": "Nghe một nghề đang tăng hay sẽ tăng, đã thay đổi hay sẽ thay đổi, rồi mới chọn. Một nhận xét đúng nội dung mà sai mốc thời gian vẫn là đáp án sai.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Bẫy hay gặp", "title": "Điều người ta tưởng và điều có thật",
-     "data": {"rows": TRAPS, "rule": "Nghe tới lúc người nói chốt: ý chính thường đứng sau chữ but hay chữ now."}, "lines": [
+     "data": {"rows": TRAPS, "rule": "Nghe tới lúc người nói chốt: ý chính thường đứng sau chữ but hay cụm in fact."}, "lines": [
         {"say": "Bẫy thứ nhất: người nói nêu một điều bạn có thể tưởng, rồi đảo lại.", "show": "x1"},
-        {"en": "You might think they would be out of a job, but in fact there are more of them than ever."},
-        {"say": "Phần trước chỉ là điều người ta tưởng. Ý chính nằm sau cụm nghĩa là nhưng thật ra."},
+        {"en": "You'd expect fewer teachers, but actually there are more than ever."},
+        {"say": "Phần trước chỉ là điều người ta tưởng. Ý chính nằm sau cụm nghĩa là nhưng thật ra. Bài nghe hôm nay có kiểu câu này."},
         {"say": "Bẫy thứ hai: người nói kể điều mình từng nghĩ, rồi mới nói con số thật.", "show": "x2"},
-        {"en": "I'd have assumed it would be more than fifty per cent. Now it's less than nought point two per cent."},
-        {"say": "Nghe tới lúc người nói chốt ý: ý chính thường đứng sau chữ but, hay sau chữ now.", "show": "rule"},
+        {"en": "I thought it was about half. In fact it's only ten per cent."},
+        {"say": "Nghe tới lúc người nói chốt ý: ý chính thường đứng sau chữ but, hay sau cụm in fact.", "show": "rule"},
     ]},
     {"kind": "end", "next": "Tiếp theo: nghe bài The Luddites và chọn đáp án.", "lines": [
         {"say": "Hết phần chuẩn bị. Bây giờ bạn nghe bài: đọc câu hỏi trước, nghe lại bao nhiêu lần cũng được, rồi mới xem lời giải.", "show": "title"},
@@ -139,7 +139,7 @@ FAMILY = [
 SITTING_1 = [
     {"kind": "title", "hook": "Robot làm hết việc nhàm chán: tin vui hay tin buồn?", "lines": [
         {"say": "Robot làm hết những việc nhàm chán: đó là tin vui hay tin buồn?", "show": "hook"},
-        {"say": "Bảy từ của buổi này là bảy từ bạn sẽ nghe trong nửa đầu bài: câu chuyện người Luddite và những dự đoán về tương lai việc làm."},
+        {"say": "Bảy từ của buổi này là bảy từ bạn sẽ gặp trong nửa đầu bài nghe và trong câu hỏi: câu chuyện người Luddite và những dự đoán về tương lai việc làm."},
     ]},
     {"kind": "word", "headword": "automation", "lines": [
         {"say": "Automatic là tự động. Khi máy tự làm thay người, ta có tự động hóa. Bài nghe mở đầu bằng một buổi seminar về chủ đề này."},
@@ -148,22 +148,22 @@ SITTING_1 = [
         {"say": "Hàng dệt, ngành dệt. Cuộc cách mạng công nghiệp ở Anh bắt đầu từ ngành dệt. Những người Luddite là công nhân dệt."},
     ]},
     {"kind": "word", "headword": "threaten", "lines": [
-        {"say": "Đe dọa. Trong bài, chàng trai nói anh hiểu vì sao những người Luddite cảm thấy bị đe dọa."},
-        {"en": "I can see why the Luddites felt so threatened.", "vi": "Tôi hiểu vì sao những người Luddite cảm thấy bị đe dọa đến thế.", "gap": True},
+        {"say": "Đe dọa. Cụm hay gặp là cảm thấy bị đe dọa."},
+        {"en": "Many workers felt threatened by the new machines.", "vi": "Nhiều công nhân cảm thấy bị máy móc mới đe dọa.", "gap": True},
     ]},
     {"kind": "word", "headword": "repetitive", "lines": [
         {"say": "Repeat là lặp lại. Những việc lặp đi lặp lại, nhàm chán, là việc robot được kỳ vọng sẽ làm thay con người."},
-        {"en": "Work won't involve doing boring, repetitive tasks.", "vi": "Công việc sẽ không còn những việc nhàm chán, lặp đi lặp lại.", "gap": True},
+        {"en": "Robots can do boring, repetitive tasks.", "vi": "Robot có thể làm những việc nhàm chán, lặp đi lặp lại.", "gap": True},
     ]},
     {"kind": "word", "headword": "leisure", "lines": [
-        {"say": "Thời gian rảnh, thời gian nghỉ ngơi. Để ý cách đọc kiểu Anh. Nghe thấy có thêm thời gian rảnh, bạn nghĩ ngay tới giờ làm việc ngắn lại."},
+        {"say": "Thời gian rảnh, thời gian nghỉ ngơi. Để ý cách đọc kiểu Anh. Cụm hay gặp là thời gian rảnh và các hoạt động giải trí."},
     ]},
     {"kind": "word", "headword": "unemployment", "lines": [
-        {"say": "Employ là thuê người làm; thêm tiền tố un là không có việc. Thất nghiệp giảm, trong bài được nói thành thất nghiệp thấp hơn."},
-        {"en": "What about lower unemployment?", "vi": "Còn chuyện thất nghiệp giảm thì sao?", "gap": True},
+        {"say": "Employ là thuê người làm; thêm tiền tố un là không có việc: tình trạng thất nghiệp."},
+        {"en": "Unemployment is expected to fall next year.", "vi": "Tỷ lệ thất nghiệp được dự đoán sẽ giảm vào năm sau.", "gap": True},
     ]},
     {"kind": "word", "headword": "retire", "lines": [
-        {"say": "Nghỉ hưu. Một lựa chọn trong đề nói người ta sẽ muốn hoãn nghỉ hưu. Trong bài, người ta sẽ phải làm việc tới khi già hơn: bị buộc, không phải muốn."},
+        {"say": "Nghỉ hưu. Từ này có trong một lựa chọn của đề: hoãn nghỉ hưu, tức là làm việc lâu hơn rồi mới nghỉ."},
     ]},
     {"kind": "recap", "lines": [
         {"say": "Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
@@ -176,24 +176,24 @@ SITTING_1 = [
 SITTING_2 = [
     {"kind": "title", "hook": "Thế kỷ 19 có bao nhiêu người làm nông?", "lines": [
         {"say": "Bạn đoán thử: vào thế kỷ mười chín, bao nhiêu phần trăm dân số nước Anh làm nông?", "show": "hook"},
-        {"say": "Câu trả lời có trong bài nghe. Trước đó là năm từ để nghe được phần các nghề xưa và nay."},
+        {"say": "Câu trả lời có trong bài nghe. Trước đó là năm từ của phần các nghề xưa và nay, trong bài nghe và trong câu hỏi."},
     ]},
     {"kind": "word", "headword": "productivity", "lines": [
-        {"say": "Năng suất: làm ra bao nhiêu trong một khoảng thời gian. Kế toán bây giờ làm việc hiệu quả hơn nhiều, tức là năng suất tăng."},
+        {"say": "Năng suất: làm ra bao nhiêu trong một khoảng thời gian. Máy móc mới thường làm năng suất tăng."},
     ]},
     {"kind": "word", "headword": "qualification", "lines": [
-        {"say": "Bằng cấp, chứng chỉ. Trong bài có nói nhiều người tốt nghiệp đại học chọn làm hành chính, nhưng không ai nói nghề này sẽ đòi hỏi thêm bằng cấp."},
+        {"say": "Bằng cấp, chứng chỉ. Nhiều nghề bây giờ đòi hỏi bằng đại học hay chứng chỉ chuyên môn."},
     ]},
     {"kind": "word", "headword": "census", "lines": [
-        {"say": "Cuộc điều tra dân số. Cuộc điều tra năm 1871 cho thấy khoảng một phần tư dân số làm nông. Từ này chỉ cần nhận ra khi nghe."},
+        {"say": "Cuộc điều tra dân số, làm định kỳ trên cả nước. Từ này chỉ cần nhận ra khi nghe."},
     ]},
     {"kind": "word", "headword": "lifespan", "lines": [
-        {"say": "Life là đời sống, span là một khoảng: tuổi thọ. Ở thế kỷ mười chín, tuổi thọ ngắn nên hầu như không có nghề chăm sóc người già."},
-        {"en": "People's lifespan was so much shorter.", "vi": "Tuổi thọ của con người ngắn hơn nhiều.", "gap": True},
+        {"say": "Life là đời sống, span là một khoảng: tuổi thọ. Ngày nay tuổi thọ dài hơn trước nhiều."},
+        {"en": "People live much longer than they did a century ago.", "vi": "Con người sống lâu hơn nhiều so với một thế kỷ trước.", "gap": True},
     ]},
     {"kind": "word", "headword": "redundant", "lines": [
-        {"say": "Thừa, không còn cần đến. Người Anh còn nói một người bị cho thôi việc vì công việc không còn nữa. Trong bài, công nghệ sẽ làm phần lớn công việc của nhân viên ngân hàng trở nên thừa."},
-        {"en": "Technology will make most of the jobs they do now redundant.", "vi": "Công nghệ sẽ làm phần lớn công việc họ đang làm trở nên thừa.", "gap": True},
+        {"say": "Thừa, không còn cần đến. Người Anh còn dùng từ này khi một người bị cho thôi việc vì công việc không còn nữa."},
+        {"en": "Machines made many factory jobs redundant.", "vi": "Máy móc khiến nhiều công việc trong nhà máy trở nên thừa.", "gap": True},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Một họ từ", "title": "Biết từ gốc, nghe ra danh từ",
      "data": {"cols": ["Từ gốc", "Danh từ", "Nghĩa"], "rows": FAMILY, "rule": "Nghe được từ gốc trong một danh từ dài là hiểu được nó, dù chưa gặp bao giờ."}, "lines": [
@@ -228,15 +228,15 @@ KEY_2 = [
     {"key": "j6", "head": "Ngân hàng", "en": "technology will make most of the jobs redundant", "vi": "có nguy cơ mất việc"},
 ]
 WHY_WRONG = [
-    {"key": "w1", "wrong": "Hành chính: This job will require more qualifications.", "right": "A lot of graduates go in for this kind of work now.", "why": "Câu chỉ nói ai chọn nghề này, không nói nghề sẽ đòi hỏi thêm bằng cấp."},
-    {"key": "w2", "wrong": "Chăm sóc: Higher disposable income has led to a huge increase in jobs.", "right": "this sector will see huge growth", "why": "Bài nói tương lai và vì tuổi thọ; nhận xét kia nói việc đã xảy ra và vì thu nhập."},
-    {"key": "w3", "wrong": "Hưu trí: People will want to delay retiring.", "right": "most people will be expected to work until they're much older", "why": "Bị buộc làm lâu hơn, không phải muốn; và không ai nghi ngờ điều đó."},
+    {"key": "w1", "wrong": "Hành chính: cần thêm bằng cấp?", "right": "A lot of graduates go in for this kind of work now.", "why": "Câu chỉ nói ai chọn nghề này, không nói nghề sẽ đòi hỏi thêm bằng cấp."},
+    {"key": "w2", "wrong": "Chăm sóc: tăng vì thu nhập?", "right": "this sector will see huge growth", "why": "Bài nói tương lai và vì tuổi thọ; nhận xét kia nói việc đã xảy ra và vì thu nhập."},
+    {"key": "w3", "wrong": "Hưu trí: muốn làm lâu hơn?", "right": "most people will be expected to work until they're much older", "why": "Cả hai bạn tin điều này, không nghi ngờ; vả lại đây là bị buộc, không phải muốn."},
 ]
 
 POST = [
     {"kind": "title", "hook": "Bạn chọn đúng, nhưng có chỉ ra được câu nào trong bài cho đáp án đó không?", "lines": [
         {"say": "Bạn chọn đúng, nhưng có chỉ ra được câu nào trong bài nghe cho đáp án đó không? Làm đúng mà không biết vì sao thì lần sau vẫn có thể sai.", "show": "hook"},
-        {"say": "Buổi này mình đối chiếu từng câu hỏi với đúng câu trong bài nghe. Chỉ xem câu đúng, không đọc đi đọc lại đáp án sai, để đầu óc không bị nhiễu."},
+        {"say": "Buổi này mình đối chiếu từng câu hỏi với đúng câu trong bài nghe. Mỗi câu mình đọc to câu đúng; lựa chọn dễ nhầm chỉ nhắc ngắn bằng tiếng Việt để thấy nó lệch ở đâu, để đầu óc không bị nhiễu."},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Câu 21–24", "title": "Câu hỏi và cách bài nghe nói lại",
      "data": {"cols": ["Câu", "Bài nghe", "Ý"], "rows": KEY_1, "rule": "Đáp án là một cách nói khác của câu trong bài nghe, không phải chữ trùng."}, "lines": [
@@ -262,7 +262,7 @@ POST = [
      "data": {"rows": WHY_WRONG, "rule": "Nghe được chữ quen chưa đủ: phải khớp cả ý, cả lý do, cả mốc thời gian."}, "lines": [
         {"say": "Lựa chọn dễ nhầm thứ nhất: nghe thấy người tốt nghiệp đại học, nhiều bạn chọn nhận xét về bằng cấp. Nhưng câu đó chỉ nói ai chọn nghề này.", "show": "w1"},
         {"say": "Thứ hai: nghề chăm sóc có tăng mạnh, nhưng là sẽ tăng, vì người ta sống lâu hơn. Nhận xét về thu nhập nói một việc đã xảy ra, vì một lý do khác.", "show": "w2"},
-        {"say": "Thứ ba: người ta sẽ bị buộc làm việc tới khi già hơn. Bị buộc khác với muốn. Cả hai bạn đều không nghi ngờ điều đó.", "show": "w3"},
+        {"say": "Thứ ba: cả hai bạn đều tin người ta sẽ làm việc tới khi già hơn, nên đây không phải điều họ nghi ngờ. Vả lại, đó là bị buộc, không phải muốn.", "show": "w3"},
         {"say": "Nghe được chữ quen chưa đủ. Đáp án đúng phải khớp cả ý, cả lý do, cả mốc thời gian.", "show": "rule"},
     ]},
     {"kind": "end", "next": "Tiếp theo: viết vài câu về một nghề đang giảm và một nghề đang tăng ở Việt Nam.", "lines": [
