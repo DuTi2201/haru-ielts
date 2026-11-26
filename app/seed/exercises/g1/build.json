@@ -6211,6 +6211,228 @@
    "tips_vi": []
   },
   {
+   "id": "G1D33B1",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 3 · Ngày 3",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Chiều nay tôi đi cắt tóc.",
+   "tiles": [
+    "afternoon",
+    "cut",
+    "this",
+    "getting",
+    "hair",
+    "my",
+    "I'm"
+   ],
+   "answers": [
+    "I'm getting my hair cut this afternoon"
+   ]
+  },
+  {
+   "id": "G1D33B2",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 3 · Ngày 3",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Bạn sắp đâm vào xe phía trước!",
+   "tiles": [
+    "in",
+    "to",
+    "car",
+    "going",
+    "hit",
+    "You're",
+    "front",
+    "the"
+   ],
+   "answers": [
+    "You're going to hit the car in front"
+   ]
+  },
+  {
+   "id": "G1D33B3",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 3 · Ngày 3",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tàu chạy lúc tám giờ.",
+   "tiles": [
+    "at",
+    "train",
+    "leaves",
+    "o'clock",
+    "eight",
+    "The"
+   ],
+   "answers": [
+    "The train leaves at eight o'clock"
+   ]
+  },
+  {
+   "id": "G1D33B4",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 3 · Ngày 3",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Tôi sẽ gọi cho bạn khi tôi đến nơi.",
+   "tiles": [
+    "I'll",
+    "you",
+    "when",
+    "call",
+    "arrive",
+    "I"
+   ],
+   "answers": [
+    "I'll call you when I arrive"
+   ]
+  },
+  {
+   "id": "G1D33B5",
+   "skill": "build",
+   "type": "build_order",
+   "rung": 1,
+   "title_vi": "Xếp câu · Tuần 3 · Ngày 3",
+   "instruction_vi": "Chạm vào các mảnh theo đúng thứ tự để xếp thành một câu đúng.",
+   "meaning_vi": "Chúng ta sẽ không lỡ chuyến tàu đâu.",
+   "tiles": [
+    "not",
+    "to",
+    "We're",
+    "miss",
+    "train",
+    "going",
+    "the"
+   ],
+   "answers": [
+    "We're not going to miss the train"
+   ]
+  },
+  {
+   "id": "G1D33F1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 3 · Ngày 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "According to the timetable, the bus ( ㉠ ) (leave) at 7.30.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "leaves"
+     ],
+     "common_errors_vi": "Lịch trình cố định → hiện tại đơn: leaves."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D33F2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 3 · Ngày 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "I'll send you the report as soon as I ( ㉠ ) (finish) it.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "finish",
+      "have finished",
+      "'ve finished"
+     ],
+     "common_errors_vi": "Sau as soon as: hiện tại đơn finish; have finished cũng đúng."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D33F3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 3 · Ngày 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "Look at the sky. It ( ㉠ ) (rain).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "'s going to rain",
+      "is going to rain"
+     ],
+     "common_errors_vi": "Dấu hiệu trước mắt → be going to."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D33F4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 3 · Ngày 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "( ㉠ ) (the shop / open) on Sunday? I need some milk.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "Does the shop open",
+      "Is the shop open",
+      "Is the shop opening"
+     ],
+     "common_errors_vi": "Hỏi thông tin giờ mở cửa → Does the shop open; Is the shop open và Is the shop opening cũng đúng."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D33F5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Gõ dạng đúng · Tuần 3 · Ngày 3",
+   "points": 3,
+   "instruction_vi": "Gõ từ hoặc cụm từ còn thiếu.",
+   "text": "We ( ㉠ ) (meet) the new client at the conference tomorrow. It's all arranged.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "'re meeting",
+      "are meeting",
+      "'re going to meet",
+      "are going to meet"
+     ],
+     "common_errors_vi": "Đã sắp xếp → be + V-ing hoặc be going to."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
    "id": "G1D5KA18-1",
    "skill": "build",
    "type": "write_fill",

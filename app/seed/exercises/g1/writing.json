@@ -608,6 +608,49 @@
    ]
   },
   {
+   "id": "G1D33M1",
+   "skill": "writing",
+   "type": "write_essay",
+   "number": "M1",
+   "title_vi": "Câu của tôi · Tuần 3 · Ngày 3",
+   "points": 5,
+   "instruction_vi": "Tuần sau bạn có kế hoạch gì? Viết ba, bốn câu: một lịch hẹn (be + V-ing), một việc bắt đầu vào giờ cố định (hiện tại đơn), và bạn sẽ làm gì khi một việc kết thúc (when + hiện tại đơn, vế chính will). Gõ bằng bàn phím tiếng Anh. Đúng sai chưa quan trọng: quan trọng là câu nói về chính bạn.",
+   "limits": {
+    "min": 8,
+    "max": 40
+   },
+   "prompt_en": "What are your plans for next week? Write three or four sentences: one appointment you have, one thing that starts at a fixed time, and what you will do when something finishes.",
+   "framework_vi": [
+    "Nghĩ điều bạn muốn nói trước, bằng tiếng Việt cũng được.",
+    "Tự hỏi: việc đó nằm ở đâu trên trục thời gian?",
+    "Chọn thì theo câu trả lời đó rồi mới viết."
+   ],
+   "model_answer_en": "Next week is busy. I'm seeing my dentist on Tuesday afternoon. My English class starts at seven on Wednesday, so I'm going to leave work early. When the course finishes, I'll take a short holiday.",
+   "model_note_vi": "Bài mẫu chỉ là một ví dụ. Câu của bạn phải đúng với bạn.",
+   "checklist_vi": [
+    "Mỗi câu có chủ ngữ và động từ đã chia.",
+    "Thì khớp với điều bạn muốn nói.",
+    "Ngôi thứ ba số ít có -s; sau do/does là nguyên thể."
+   ],
+   "rubric": [
+    {
+     "criterion_vi": "Đúng đề: có một lịch hẹn, một việc có giờ cố định, một việc sau khi một việc khác kết thúc",
+     "max": 1,
+     "note_vi": "Task response"
+    },
+    {
+     "criterion_vi": "Đúng cách dùng: việc đã hẹn bằng be + V-ing / be going to; giờ cố định bằng hiện tại đơn; vế when bằng hiện tại đơn",
+     "max": 2,
+     "note_vi": "Grammatical range"
+    },
+    {
+     "criterion_vi": "Dạng đúng: am / is / are + V-ing, ngôi thứ ba thêm -s, không có will sau when",
+     "max": 2,
+     "note_vi": "Grammatical accuracy"
+    }
+   ]
+  },
+  {
    "id": "G1D5M1",
    "skill": "writing",
    "type": "write_essay",

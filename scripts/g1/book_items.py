@@ -511,3 +511,28 @@ SECTIONS += [
         "«Are we going to» invite Tony and Tim round tonight? | Đúng, giữ nguyên | Sai: phải dùng «Do we» | Sai: phải dùng «Will we» | Đáp án bài thi: giữ nguyên; đây là câu hỏi về kế hoạch chung tối nay. Nếu muốn rủ, Shall we invite… tự nhiên hơn; còn hỏi Are we going to… với giọng gắt khi người kia đang lưỡng lự thì nghe như ép.",
     ]),
 ]
+
+# ---------------------------------------------------------------- week 3, day 3 (build day 33): Destination B2 Unit 5, A (items 2, 12) and B (1-10)
+# Answers: the book's key (p. 232): A2 You're going to; A12 Are you going to / Are you going to go to;
+# B 1 both; 2 I'm going to do; 3 both; 4 going to buy; 5 both; 6 both; 7 both; 8 Are they broadcasting; 9 leaves; 10 both.
+# Reasons follow session 5 (stage 3: plans and appointments, present evidence, present simple for the future) and
+# session 6 (stage 1: B1-B10). Where the class prefers one of two keyed forms (B6 Does, B7 Are they going to, B10 Does),
+# the answer stays the book's "both" and the reason names the exam answer.
+SECTIONS += [
+    (33, "F3A", B5 + " · bài A (trang 32)", "Phần trong «» đúng hay sai", "Phần trong ngoặc «» đúng thì chọn giữ nguyên; sai thì chọn cách sửa. Hỏi trước: có dấu hiệu trước mắt không? Đây là câu nhờ, hay câu hỏi về kế hoạch đã có?", "choice", [
+        "Look out! «You will hit» the car in front! | Sai: dấu hiệu trước mắt phải dùng «You're going to hit» | Đúng, giữ nguyên | Sai: phải dùng hiện tại đơn «You hit» | Look out!: người nói thấy rõ chiếc xe sắp đâm ngay trước mắt → be going to: You're going to hit the car in front!",
+        "«Will you go» to Jason's party next Saturday? | Sai: hỏi kế hoạch đã có phải dùng «Are you going to (go)» | Đúng, giữ nguyên | Sai: phải dùng «Shall you go» | Bữa tiệc thứ Bảy tới đã được mời từ trước, nên đây là câu hỏi về kế hoạch: Are you going to Jason's party? hoặc Are you going to go to Jason's party? Will you go…? nghe như một lời nhờ hay lời mời.",
+    ]),
+    (33, "F3B", B5 + " · bài B (trang 32)", "Khoanh dạng đúng, có câu đúng cả hai", "Chọn dạng đúng; nếu cả hai dạng trong ngoặc «» đều đúng thì chọn Cả hai đều đúng. Hỏi: dự đoán, kế hoạch đã có, việc đã sắp xếp, hay lịch trình cố định?", "choice", [
+        "«We aren't / We're not» going to miss the train, are we? | Cả hai đều đúng | Chỉ «We aren't» | Chỉ «We're not» | Hai cách rút gọn của we are not đều đúng. Khi nói, We're not dễ nhấn vào chữ not hơn.",
+        "I think «I'm going to do / I'm doing» really badly in the English test tomorrow. | Chỉ «I'm going to do» | Chỉ «I'm doing» | Cả hai đều đúng | I think … làm bài rất tệ là một dự đoán, không phải việc đã sắp xếp → I'm going to do. be + V-ing không dùng cho dự đoán.",
+        "Josh «is going to sing / is singing» a song in the school talent contest next week. | Cả hai đều đúng | Chỉ «is going to sing» | Chỉ «is singing» | Tiết mục đã đăng ký cho cuộc thi tuần sau: kế hoạch (is going to sing) hay việc đã sắp xếp (is singing) đều đúng.",
+        "I'm «going to buy / buying» a big yacht if I can when I'm older. | Chỉ «going to buy» | Chỉ «buying» | Cả hai đều đúng | Đây là một ý định cho tương lai xa, chưa sắp xếp gì → going to buy. be + V-ing chỉ dùng cho việc đã sắp xếp.",
+        "Sports Day is «going to be / being» held on the last day of term. | Cả hai đều đúng | Chỉ «going to be» | Chỉ «being» | Ngày hội thể thao đã lên lịch vào ngày cuối kỳ: is going to be held hay is being held đều đúng.",
+        "«Does / Will» the concert on Thursday last more than two hours? | Cả hai đều đúng | Chỉ «Does» | Chỉ «Will» | Đáp án bài thi: cả hai. Does tự nhiên hơn khi người hỏi chỉ muốn biết thông tin đã cố định của buổi hòa nhạc, không đoán gì cả; Will dùng khi hỏi ý đoán của người nghe.",
+        "«Are they going to broadcast / Will they broadcast» the music awards live tomorrow night? | Cả hai đều đúng | Chỉ «Are they going to broadcast» | Chỉ «Will they broadcast» | Đáp án bài thi: cả hai. Lễ trao giải truyền hình trực tiếp chắc chắn đã có kế hoạch từ trước, nên Are they going to broadcast hợp hơn.",
+        "«Do they broadcast / Are they broadcasting» the music awards live tomorrow night? | Chỉ «Are they broadcasting» | Chỉ «Do they broadcast» | Cả hai đều đúng | Hỏi về việc đã sắp xếp cho tối mai → Are they broadcasting. Do they broadcast… hỏi một thói quen lặp lại (năm nào cũng phát trực tiếp không), không hợp với tomorrow night.",
+        "According to the timetable, the train for Oxford «leaves / is leaving» at 10.15. | Chỉ «leaves» | Chỉ «is leaving» | Cả hai đều đúng | According to the timetable: lịch trình cố định, người nói không đổi được → hiện tại đơn leaves.",
+        "«Does the restaurant open / Is the restaurant opening» next Sunday? | Cả hai đều đúng | Chỉ «Does the restaurant open» | Chỉ «Is the restaurant opening» | Đáp án bài thi: cả hai. Does the restaurant open… tự nhiên hơn khi hỏi nhà hàng có mở cửa hôm đó không; Is the restaurant opening… hợp khi hỏi về ngày khai trương.",
+    ]),
+]

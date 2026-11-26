@@ -543,6 +543,62 @@
    ]
   },
   {
+   "id": "G1D33D1",
+   "skill": "listening",
+   "type": "listen_dictation",
+   "title_vi": "Nghe chép · Tuần 3 · Ngày 3",
+   "instruction_vi": "Nghe rồi gõ lại từng câu. Nghe lại bao nhiêu lần cũng được. Sau khi kiểm tra, nghe lại và đọc theo.",
+   "stimulus": {
+    "kind": "audio",
+    "turns": [
+     {
+      "speaker": "F",
+      "text": "I'm getting my hair cut this afternoon.",
+      "vi": "Chiều nay tôi đi cắt tóc."
+     },
+     {
+      "speaker": "M",
+      "text": "The train leaves at eight o'clock.",
+      "vi": "Tàu chạy lúc tám giờ."
+     },
+     {
+      "speaker": "F",
+      "text": "I'll call you when I get there.",
+      "vi": "Tôi sẽ gọi bạn khi tôi đến nơi."
+     }
+    ]
+   },
+   "focus": [
+    {
+     "ko": "book",
+     "vi": "đặt (chỗ, vé, lịch hẹn)"
+    },
+    {
+     "ko": "confirm",
+     "vi": "xác nhận"
+    },
+    {
+     "ko": "attend",
+     "vi": "tham dự"
+    },
+    {
+     "ko": "commute",
+     "vi": "đi làm hằng ngày (đường xa)"
+    },
+    {
+     "ko": "negotiate",
+     "vi": "đàm phán, thương lượng"
+    },
+    {
+     "ko": "reservation",
+     "vi": "sự đặt chỗ trước"
+    }
+   ],
+   "tips_vi": [
+    "Nghe âm cuối: -s của ngôi thứ ba, 's và n't, -ing. Sau khi kiểm tra, nghe lại và nhại theo đúng nhịp."
+   ]
+  },
+  {
    "id": "G1D27L1",
    "skill": "listening",
    "type": "listen_interview",

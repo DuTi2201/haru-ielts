@@ -9777,6 +9777,828 @@
    ]
   },
   {
+   "id": "G1D33I1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 3",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D33I1",
+     "options": [
+      {
+       "id": "1",
+       "text": "I'm seeing the dentist at three this afternoon."
+      },
+      {
+       "id": "2",
+       "text": "I've seen the dentist at three this afternoon."
+      },
+      {
+       "id": "3",
+       "text": "I'm see the dentist at three this afternoon."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Việc đã hẹn giờ → be + V-ing. Hiện tại hoàn thành không đi với một giờ cụ thể; I'm see sai cấu trúc.",
+     "tags": [],
+     "prompt_vi": "Bạn đã đặt lịch với nha sĩ lúc ba giờ chiều nay. Bạn nói với đồng nghiệp."
+    }
+   ]
+  },
+  {
+   "id": "G1D33I2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 3",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D33I2",
+     "options": [
+      {
+       "id": "1",
+       "text": "Stop! You hit that car!"
+      },
+      {
+       "id": "2",
+       "text": "Stop! You're going to hit that car!"
+      },
+      {
+       "id": "3",
+       "text": "Stop! You will hit that car!"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Dấu hiệu ở ngay trước mắt → be going to.",
+     "tags": [],
+     "prompt_vi": "Bạn ngồi sau xe máy và thấy bạn lái sắp đâm vào đuôi ô tô phía trước."
+    }
+   ]
+  },
+  {
+   "id": "G1D33I3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 3",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D33I3",
+     "options": [
+      {
+       "id": "1",
+       "text": "Look at those clouds. It's going to rain."
+      },
+      {
+       "id": "2",
+       "text": "Look at those clouds. It rained."
+      },
+      {
+       "id": "3",
+       "text": "Look at those clouds. It rains."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Thấy mây đen ngay lúc nói → be going to.",
+     "tags": [],
+     "prompt_vi": "Trời đầy mây đen. Bạn nói với đồng nghiệp sắp ra về."
+    }
+   ]
+  },
+  {
+   "id": "G1D33I4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 3",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D33I4",
+     "options": [
+      {
+       "id": "1",
+       "text": "The train for Oxford will be leave at 10.15."
+      },
+      {
+       "id": "2",
+       "text": "The train for Oxford is leaving at 10.15."
+      },
+      {
+       "id": "3",
+       "text": "The train for Oxford leaves at 10.15."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Lịch trình cố định, người nói không đổi được → hiện tại đơn leaves.",
+     "tags": [],
+     "prompt_vi": "Bạn đọc lịch tàu và báo giờ tàu đi Oxford chạy."
+    }
+   ]
+  },
+  {
+   "id": "G1D33I5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 3",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D33I5",
+     "options": [
+      {
+       "id": "1",
+       "text": "We'll buy you a games console when we have the money."
+      },
+      {
+       "id": "2",
+       "text": "We buy you a games console when we'll have the money."
+      },
+      {
+       "id": "3",
+       "text": "We'll buy you a games console when we will have the money."
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Vế when nói về tương lai nhưng chia hiện tại đơn; vế chính dùng will.",
+     "tags": [],
+     "prompt_vi": "Bố mẹ hứa với con: khi nào có tiền sẽ mua máy chơi game."
+    }
+   ]
+  },
+  {
+   "id": "G1D33I6",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Nói đúng ý · Tuần 3 · Ngày 3",
+   "instruction_vi": "Đọc tình huống. Chọn câu nói đúng điều người nói muốn nói. Câu còn lại có thể đúng ngữ pháp nhưng nói một ý khác.",
+   "questions": [
+    {
+     "id": "G1D33I6",
+     "options": [
+      {
+       "id": "1",
+       "text": "Let me know as soon as you arrived."
+      },
+      {
+       "id": "2",
+       "text": "Let me know as soon as you will arrive."
+      },
+      {
+       "id": "3",
+       "text": "Let me know as soon as you arrive."
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Sau as soon as, nói về tương lai → hiện tại đơn.",
+     "tags": [],
+     "prompt_vi": "Bạn nhờ đồng nghiệp: đến nơi thì báo ngay."
+    }
+   ]
+  },
+  {
+   "id": "G1D33Q1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 3",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D33Q1",
+     "options": [
+      {
+       "id": "1",
+       "text": "am getting"
+      },
+      {
+       "id": "2",
+       "text": "get"
+      },
+      {
+       "id": "3",
+       "text": "got"
+      },
+      {
+       "id": "4",
+       "text": "have got"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Việc đã hẹn giờ → be + V-ing: I'm getting my hair cut.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I can't come to the meeting at four. I ( ) my hair cut."
+   }
+  },
+  {
+   "id": "G1D33Q2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Chọn đáp án · Tuần 3 · Ngày 3",
+   "instruction_vi": "Chọn phương án đúng.",
+   "questions": [
+    {
+     "id": "G1D33Q2",
+     "options": [
+      {
+       "id": "1",
+       "text": "I saw my doctor at ten."
+      },
+      {
+       "id": "2",
+       "text": "I'm seeing my doctor at ten tomorrow."
+      },
+      {
+       "id": "3",
+       "text": "I think I'll see a doctor about my back."
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "be + V-ing với giờ cụ thể ở tương lai → việc đã hẹn. Câu với I think I'll là vừa quyết định, chưa hẹn.",
+     "tags": [],
+     "prompt_vi": "Câu nào cho biết người nói đã có lịch hẹn?"
+    }
+   ]
+  },
+  {
+   "id": "G1D33Q3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 3",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D33Q3",
+     "options": [
+      {
+       "id": "1",
+       "text": "is going to hit"
+      },
+      {
+       "id": "2",
+       "text": "hits"
+      },
+      {
+       "id": "3",
+       "text": "hit"
+      },
+      {
+       "id": "4",
+       "text": "has hit"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Dấu hiệu ngay trước mắt → be going to.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "Look out! That van ( ) the car in front!"
+   }
+  },
+  {
+   "id": "G1D33Q4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 3",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D33Q4",
+     "options": [
+      {
+       "id": "1",
+       "text": "Does"
+      },
+      {
+       "id": "2",
+       "text": "Has"
+      },
+      {
+       "id": "3",
+       "text": "Did"
+      },
+      {
+       "id": "4",
+       "text": "Is"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Hỏi thông tin lịch chiếu đã cố định → hiện tại đơn: Does … start?",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "( ) the film on Friday start at eight?"
+   }
+  },
+  {
+   "id": "G1D33Q5",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 3",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D33Q5",
+     "options": [
+      {
+       "id": "1",
+       "text": "open"
+      },
+      {
+       "id": "2",
+       "text": "opened"
+      },
+      {
+       "id": "3",
+       "text": "opens"
+      },
+      {
+       "id": "4",
+       "text": "has opened"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Giờ mở cửa cố định → hiện tại đơn, ngôi thứ ba: opens.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "The museum ( ) at nine tomorrow, so we can't go in earlier."
+   }
+  },
+  {
+   "id": "G1D33Q6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 3",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D33Q6",
+     "options": [
+      {
+       "id": "1",
+       "text": "got"
+      },
+      {
+       "id": "2",
+       "text": "get"
+      },
+      {
+       "id": "3",
+       "text": "will get"
+      },
+      {
+       "id": "4",
+       "text": "am going to get"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Vế when nói về tương lai → hiện tại đơn.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I'll call you when I ( ) at the office."
+   }
+  },
+  {
+   "id": "G1D33Q7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Chọn dạng đúng · Tuần 3 · Ngày 3",
+   "instruction_vi": "Chọn phương án đúng cho chỗ trống.",
+   "questions": [
+    {
+     "id": "G1D33Q7",
+     "options": [
+      {
+       "id": "1",
+       "text": "are"
+      },
+      {
+       "id": "2",
+       "text": "is"
+      },
+      {
+       "id": "3",
+       "text": "was"
+      },
+      {
+       "id": "4",
+       "text": "will be"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Sau until, nói về tương lai → hiện tại đơn; everyone đi với is.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "We won't start until everyone ( ) here."
+   }
+  },
+  {
+   "id": "G1D33Q8",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Chọn đáp án · Tuần 3 · Ngày 3",
+   "instruction_vi": "Chọn phương án đúng.",
+   "questions": [
+    {
+     "id": "G1D33Q8",
+     "options": [
+      {
+       "id": "1",
+       "text": "Cả hai đều đúng"
+      },
+      {
+       "id": "2",
+       "text": "Chỉ We aren't đúng"
+      },
+      {
+       "id": "3",
+       "text": "Chỉ We're not đúng"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Hai cách rút gọn đều đúng: we are not → we aren't hoặc we're not.",
+     "tags": [],
+     "prompt_vi": "We aren't going to miss the train và We're not going to miss the train: câu nào đúng?"
+    }
+   ]
+  },
+  {
+   "id": "G1D33KF3A-1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phần trong «» đúng hay sai (1/2)",
+   "instruction_vi": "Phần trong ngoặc «» đúng thì chọn giữ nguyên; sai thì chọn cách sửa. Hỏi trước: có dấu hiệu trước mắt không? Đây là câu nhờ, hay câu hỏi về kế hoạch đã có?",
+   "questions": [
+    {
+     "id": "G1D33KF3A-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "Sai: phải dùng hiện tại đơn «You hit»"
+      },
+      {
+       "id": "2",
+       "text": "Đúng, giữ nguyên"
+      },
+      {
+       "id": "3",
+       "text": "Sai: dấu hiệu trước mắt phải dùng «You're going to hit»"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Look out!: người nói thấy rõ chiếc xe sắp đâm ngay trước mắt → be going to: You're going to hit the car in front!",
+     "tags": [],
+     "prompt_vi": "Look out! «You will hit» the car in front!"
+    }
+   ]
+  },
+  {
+   "id": "G1D33KF3A-2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Phần trong «» đúng hay sai (2/2)",
+   "instruction_vi": "Phần trong ngoặc «» đúng thì chọn giữ nguyên; sai thì chọn cách sửa. Hỏi trước: có dấu hiệu trước mắt không? Đây là câu nhờ, hay câu hỏi về kế hoạch đã có?",
+   "questions": [
+    {
+     "id": "G1D33KF3A-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "Đúng, giữ nguyên"
+      },
+      {
+       "id": "2",
+       "text": "Sai: phải dùng «Shall you go»"
+      },
+      {
+       "id": "3",
+       "text": "Sai: hỏi kế hoạch đã có phải dùng «Are you going to (go)»"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Bữa tiệc thứ Bảy tới đã được mời từ trước, nên đây là câu hỏi về kế hoạch: Are you going to Jason's party? hoặc Are you going to go to Jason's party? Will you go…? nghe như một lời nhờ hay lời mời.",
+     "tags": [],
+     "prompt_vi": "«Will you go» to Jason's party next Saturday?"
+    }
+   ]
+  },
+  {
+   "id": "G1D33KF3B-1",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Khoanh dạng đúng, có câu đúng cả hai (1/10)",
+   "instruction_vi": "Chọn dạng đúng; nếu cả hai dạng trong ngoặc «» đều đúng thì chọn Cả hai đều đúng. Hỏi: dự đoán, kế hoạch đã có, việc đã sắp xếp, hay lịch trình cố định?",
+   "questions": [
+    {
+     "id": "G1D33KF3B-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "Cả hai đều đúng"
+      },
+      {
+       "id": "2",
+       "text": "Chỉ «We aren't»"
+      },
+      {
+       "id": "3",
+       "text": "Chỉ «We're not»"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Hai cách rút gọn của we are not đều đúng. Khi nói, We're not dễ nhấn vào chữ not hơn.",
+     "tags": [],
+     "prompt_vi": "«We aren't / We're not» going to miss the train, are we?"
+    }
+   ]
+  },
+  {
+   "id": "G1D33KF3B-2",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Khoanh dạng đúng, có câu đúng cả hai (2/10)",
+   "instruction_vi": "Chọn dạng đúng; nếu cả hai dạng trong ngoặc «» đều đúng thì chọn Cả hai đều đúng. Hỏi: dự đoán, kế hoạch đã có, việc đã sắp xếp, hay lịch trình cố định?",
+   "questions": [
+    {
+     "id": "G1D33KF3B-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "Chỉ «I'm doing»"
+      },
+      {
+       "id": "2",
+       "text": "Chỉ «I'm going to do»"
+      },
+      {
+       "id": "3",
+       "text": "Cả hai đều đúng"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "I think … làm bài rất tệ là một dự đoán, không phải việc đã sắp xếp → I'm going to do. be + V-ing không dùng cho dự đoán.",
+     "tags": [],
+     "prompt_vi": "I think «I'm going to do / I'm doing» really badly in the English test tomorrow."
+    }
+   ]
+  },
+  {
+   "id": "G1D33KF3B-3",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Khoanh dạng đúng, có câu đúng cả hai (3/10)",
+   "instruction_vi": "Chọn dạng đúng; nếu cả hai dạng trong ngoặc «» đều đúng thì chọn Cả hai đều đúng. Hỏi: dự đoán, kế hoạch đã có, việc đã sắp xếp, hay lịch trình cố định?",
+   "questions": [
+    {
+     "id": "G1D33KF3B-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "Chỉ «is singing»"
+      },
+      {
+       "id": "2",
+       "text": "Cả hai đều đúng"
+      },
+      {
+       "id": "3",
+       "text": "Chỉ «is going to sing»"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Tiết mục đã đăng ký cho cuộc thi tuần sau: kế hoạch (is going to sing) hay việc đã sắp xếp (is singing) đều đúng.",
+     "tags": [],
+     "prompt_vi": "Josh «is going to sing / is singing» a song in the school talent contest next week."
+    }
+   ]
+  },
+  {
+   "id": "G1D33KF3B-4",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Khoanh dạng đúng, có câu đúng cả hai (4/10)",
+   "instruction_vi": "Chọn dạng đúng; nếu cả hai dạng trong ngoặc «» đều đúng thì chọn Cả hai đều đúng. Hỏi: dự đoán, kế hoạch đã có, việc đã sắp xếp, hay lịch trình cố định?",
+   "questions": [
+    {
+     "id": "G1D33KF3B-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "Cả hai đều đúng"
+      },
+      {
+       "id": "2",
+       "text": "Chỉ «going to buy»"
+      },
+      {
+       "id": "3",
+       "text": "Chỉ «buying»"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Đây là một ý định cho tương lai xa, chưa sắp xếp gì → going to buy. be + V-ing chỉ dùng cho việc đã sắp xếp.",
+     "tags": [],
+     "prompt_vi": "I'm «going to buy / buying» a big yacht if I can when I'm older."
+    }
+   ]
+  },
+  {
+   "id": "G1D33KF3B-5",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Khoanh dạng đúng, có câu đúng cả hai (5/10)",
+   "instruction_vi": "Chọn dạng đúng; nếu cả hai dạng trong ngoặc «» đều đúng thì chọn Cả hai đều đúng. Hỏi: dự đoán, kế hoạch đã có, việc đã sắp xếp, hay lịch trình cố định?",
+   "questions": [
+    {
+     "id": "G1D33KF3B-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "Chỉ «going to be»"
+      },
+      {
+       "id": "2",
+       "text": "Chỉ «being»"
+      },
+      {
+       "id": "3",
+       "text": "Cả hai đều đúng"
+      }
+     ],
+     "answer": "3",
+     "explanation_vi": "Ngày hội thể thao đã lên lịch vào ngày cuối kỳ: is going to be held hay is being held đều đúng.",
+     "tags": [],
+     "prompt_vi": "Sports Day is «going to be / being» held on the last day of term."
+    }
+   ]
+  },
+  {
+   "id": "G1D33KF3B-6",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Khoanh dạng đúng, có câu đúng cả hai (6/10)",
+   "instruction_vi": "Chọn dạng đúng; nếu cả hai dạng trong ngoặc «» đều đúng thì chọn Cả hai đều đúng. Hỏi: dự đoán, kế hoạch đã có, việc đã sắp xếp, hay lịch trình cố định?",
+   "questions": [
+    {
+     "id": "G1D33KF3B-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "Cả hai đều đúng"
+      },
+      {
+       "id": "2",
+       "text": "Chỉ «Does»"
+      },
+      {
+       "id": "3",
+       "text": "Chỉ «Will»"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án bài thi: cả hai. Does tự nhiên hơn khi người hỏi chỉ muốn biết thông tin đã cố định của buổi hòa nhạc, không đoán gì cả; Will dùng khi hỏi ý đoán của người nghe.",
+     "tags": [],
+     "prompt_vi": "«Does / Will» the concert on Thursday last more than two hours?"
+    }
+   ]
+  },
+  {
+   "id": "G1D33KF3B-7",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Khoanh dạng đúng, có câu đúng cả hai (7/10)",
+   "instruction_vi": "Chọn dạng đúng; nếu cả hai dạng trong ngoặc «» đều đúng thì chọn Cả hai đều đúng. Hỏi: dự đoán, kế hoạch đã có, việc đã sắp xếp, hay lịch trình cố định?",
+   "questions": [
+    {
+     "id": "G1D33KF3B-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "Cả hai đều đúng"
+      },
+      {
+       "id": "2",
+       "text": "Chỉ «Are they going to broadcast»"
+      },
+      {
+       "id": "3",
+       "text": "Chỉ «Will they broadcast»"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án bài thi: cả hai. Lễ trao giải truyền hình trực tiếp chắc chắn đã có kế hoạch từ trước, nên Are they going to broadcast hợp hơn.",
+     "tags": [],
+     "prompt_vi": "«Are they going to broadcast / Will they broadcast» the music awards live tomorrow night?"
+    }
+   ]
+  },
+  {
+   "id": "G1D33KF3B-8",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Khoanh dạng đúng, có câu đúng cả hai (8/10)",
+   "instruction_vi": "Chọn dạng đúng; nếu cả hai dạng trong ngoặc «» đều đúng thì chọn Cả hai đều đúng. Hỏi: dự đoán, kế hoạch đã có, việc đã sắp xếp, hay lịch trình cố định?",
+   "questions": [
+    {
+     "id": "G1D33KF3B-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "Chỉ «Do they broadcast»"
+      },
+      {
+       "id": "2",
+       "text": "Chỉ «Are they broadcasting»"
+      },
+      {
+       "id": "3",
+       "text": "Cả hai đều đúng"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Hỏi về việc đã sắp xếp cho tối mai → Are they broadcasting. Do they broadcast… hỏi một thói quen lặp lại (năm nào cũng phát trực tiếp không), không hợp với tomorrow night.",
+     "tags": [],
+     "prompt_vi": "«Do they broadcast / Are they broadcasting» the music awards live tomorrow night?"
+    }
+   ]
+  },
+  {
+   "id": "G1D33KF3B-9",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Khoanh dạng đúng, có câu đúng cả hai (9/10)",
+   "instruction_vi": "Chọn dạng đúng; nếu cả hai dạng trong ngoặc «» đều đúng thì chọn Cả hai đều đúng. Hỏi: dự đoán, kế hoạch đã có, việc đã sắp xếp, hay lịch trình cố định?",
+   "questions": [
+    {
+     "id": "G1D33KF3B-9",
+     "options": [
+      {
+       "id": "1",
+       "text": "Chỉ «leaves»"
+      },
+      {
+       "id": "2",
+       "text": "Cả hai đều đúng"
+      },
+      {
+       "id": "3",
+       "text": "Chỉ «is leaving»"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "According to the timetable: lịch trình cố định, người nói không đổi được → hiện tại đơn leaves.",
+     "tags": [],
+     "prompt_vi": "According to the timetable, the train for Oxford «leaves / is leaving» at 10.15."
+    }
+   ]
+  },
+  {
+   "id": "G1D33KF3B-10",
+   "skill": "reading",
+   "type": "read_match",
+   "title_vi": "Sách · Khoanh dạng đúng, có câu đúng cả hai (10/10)",
+   "instruction_vi": "Chọn dạng đúng; nếu cả hai dạng trong ngoặc «» đều đúng thì chọn Cả hai đều đúng. Hỏi: dự đoán, kế hoạch đã có, việc đã sắp xếp, hay lịch trình cố định?",
+   "questions": [
+    {
+     "id": "G1D33KF3B-10",
+     "options": [
+      {
+       "id": "1",
+       "text": "Cả hai đều đúng"
+      },
+      {
+       "id": "2",
+       "text": "Chỉ «Does the restaurant open»"
+      },
+      {
+       "id": "3",
+       "text": "Chỉ «Is the restaurant opening»"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Đáp án bài thi: cả hai. Does the restaurant open… tự nhiên hơn khi hỏi nhà hàng có mở cửa hôm đó không; Is the restaurant opening… hợp khi hỏi về ngày khai trương.",
+     "tags": [],
+     "prompt_vi": "«Does the restaurant open / Is the restaurant opening» next Sunday?"
+    }
+   ]
+  },
+  {
    "id": "G1D5KB18-1",
    "skill": "reading",
    "type": "read_cloze",
