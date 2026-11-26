@@ -816,6 +816,28 @@ class _Pacer:
             time.sleep(delay)
 
 
+# The Vietnamese Chirp HD voice garbles a run with a comma right before "và": it speaks a long stretch of
+# nonsense syllables (or slips in a stray word) instead of the rest of the sentence. Measured 2026-11-25 on two
+# sentences of a lecture: 7 of 8 takes garbled (14-23 s instead of ~6 s), 0 of 4 once the comma was dropped.
+# Vietnamese seldom needs that comma, so it is dropped from what the voice reads (the script itself is untouched).
+_VI_COMMA_VA = re.compile(r",\s*(?=[vV]à(?![\w]))")
+_VI_MAX_TAKES = 3  # a take that is still abnormally long after this many is kept (the shortest one)
+
+
+def vi_speakable(text: str) -> str:
+    """What the Vietnamese voice is given for a run of the script: no comma right before "và"."""
+    return _VI_COMMA_VA.sub(" ", text)
+
+
+def vi_take_too_long(text: str, seconds: float, rate: float) -> bool:
+    """True when a Vietnamese take is far longer than its text can be said: the voice has spoken nonsense.
+    The voice says ~16 characters a second at rate 0.95; a garbled take runs two to four times as long. The
+    allowance (1 s + 10 characters a second, slower rates allowed for) clears every sound take measured and
+    catches every garbled one."""
+    allowed = (1.0 + len(text) / 10.0) / max(rate, 0.25)
+    return seconds > allowed
+
+
 def _lecture_request(
     lang: str, voices: dict[str, str], client=None, pacer: _Pacer | None = None
 ) -> Callable[[str], tuple[bytes, int]]:
@@ -834,6 +856,21 @@ def _lecture_request(
         return google_tts.synthesize_pcm(text, client=client, voice=voice, rate=rate)
 
     def one(text: str) -> tuple[bytes, int]:
+        if lang != lecture_voice.VI:
+            return one_take(text)
+        spoken = vi_speakable(text)
+        best: tuple[bytes, int] | None = None
+        for take in range(1, _VI_MAX_TAKES + 1):
+            pcm, phrase_rate = one_take(spoken)
+            seconds = len(pcm) / 2 / phrase_rate if phrase_rate else 0.0  # 16-bit mono
+            if best is None or len(pcm) < len(best[0]):
+                best = (pcm, phrase_rate)
+            if not vi_take_too_long(spoken, seconds, rate):
+                return pcm, phrase_rate
+            print(f"[tts] vi take {take}/{_VI_MAX_TAKES} too long ({seconds:.1f}s for {len(spoken)} chars): {spoken[:60]!r}", flush=True)
+        return best
+
+    def one_take(text: str) -> tuple[bytes, int]:
         used = voices[lang]
         try:
             return send(text, used)
