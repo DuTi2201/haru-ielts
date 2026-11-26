@@ -821,6 +821,7 @@ class _Pacer:
 # sentences of a lecture: 7 of 8 takes garbled (14-23 s instead of ~6 s), 0 of 4 once the comma was dropped.
 # Vietnamese seldom needs that comma, so it is dropped from what the voice reads (the script itself is untouched).
 _VI_COMMA_VA = re.compile(r",\s*(?=[vV]à(?![\w]))")
+_VI_GUARD_MIN_CHARS = 15  # shorter runs are not checked (the shortest garbled run measured had 22)
 _VI_MAX_TAKES = 3  # a take that is still abnormally long after this many is kept (the shortest one)
 
 
@@ -834,6 +835,8 @@ def vi_take_too_long(text: str, seconds: float, rate: float) -> bool:
     The voice says ~16 characters a second at rate 0.95; a garbled take runs two to four times as long. The
     allowance (1 s + 10 characters a second, slower rates allowed for) clears every sound take measured and
     catches every garbled one."""
+    if len(text) < _VI_GUARD_MIN_CHARS:  # a word or two: Chirp's own lead-in and tail outweigh the text
+        return False
     allowed = (1.0 + len(text) / 10.0) / max(rate, 0.25)
     return seconds > allowed
 

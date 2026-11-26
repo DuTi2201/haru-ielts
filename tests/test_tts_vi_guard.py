@@ -24,6 +24,8 @@ def test_a_take_is_too_long_only_when_far_beyond_its_text():
         assert not tts.vi_take_too_long(text, sec, 0.95), text
     for text, sec in garbled:
         assert tts.vi_take_too_long(text, sec, 0.95), text
+    # a word or two is not checked: Chirp pads short takes (measured "là" at 1.5 s)
+    assert not tts.vi_take_too_long("là", 1.5, 0.95) and not tts.vi_take_too_long("thì chữ", 1.8, 0.95)
 
 
 def _pcm(seconds: float, rate: int = 24000) -> bytes:
