@@ -124,7 +124,7 @@ SITTING_1 = [
      "data": {"rows": TWO_QUESTIONS, "rule": "Sẽ đã đang: will have been + V-ing + for. Tính đến một mốc ở tương lai, việc đã kéo dài được bao lâu, thường vẫn còn tiếp."}, "lines": [
         {"say": "Thì cuối dài nhất. Đặt một mốc ở tương lai: ba giờ chiều mai.", "show": "c1"},
         {"say": "Câu hỏi thứ nhất: đến mốc đó, đã làm được một quãng chưa? Rồi: hai tiếng.", "show": "c2"},
-        {"say": "Câu hỏi thứ hai: còn làm tiếp không? Thường là còn. Đã kéo dài được một quãng, thì dùng sẽ đã đang.", "show": "c3"},
+        {"say": "Câu hỏi thứ hai: còn làm tiếp không? Thường là còn. Lúc đó, dùng sẽ đã đang.", "show": "c3"},
         {"en": "I'll have been doing homework for two hours.", "vi": "Đến lúc đó tôi đã làm bài được hai tiếng.", "gap": True},
         {"say": "Thì này giống hệt hiện tại hoàn thành tiếp diễn đã học ở tuần một. Chỉ khác là mốc dời từ bây giờ sang một lúc ở tương lai.", "show": "c4"},
         {"en": "I've been doing homework for two hours.", "vi": "Tôi làm bài được hai tiếng rồi.", "gap": True, "recap": False},
