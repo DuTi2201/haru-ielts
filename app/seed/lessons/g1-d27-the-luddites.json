@@ -525,7 +525,7 @@
      "headword": "textile",
      "lines": [
       {
-       "say": "Hàng dệt, ngành dệt. Cuộc cách mạng công nghiệp ở Anh bắt đầu từ ngành dệt, và những người Luddite là công nhân dệt."
+       "say": "Hàng dệt, ngành dệt. Cuộc cách mạng công nghiệp ở Anh bắt đầu từ ngành dệt. Những người Luddite là công nhân dệt."
       }
      ]
     },
@@ -920,7 +920,7 @@
      },
      "lines": [
       {
-       "say": "Kế toán: số người nhiều hơn bao giờ hết, và làm việc hiệu quả hơn nhiều. Việc làm tăng, năng suất cũng tăng.",
+       "say": "Kế toán: số người nhiều hơn bao giờ hết; họ cũng làm việc hiệu quả hơn nhiều. Việc làm tăng, năng suất cũng tăng.",
        "show": "j1"
       },
       {
@@ -983,11 +983,11 @@
        "show": "w1"
       },
       {
-       "say": "Thứ hai: nghề chăm sóc có tăng mạnh, nhưng là sẽ tăng, và vì người ta sống lâu hơn. Nhận xét về thu nhập nói một việc đã xảy ra, vì một lý do khác.",
+       "say": "Thứ hai: nghề chăm sóc có tăng mạnh, nhưng là sẽ tăng, vì người ta sống lâu hơn. Nhận xét về thu nhập nói một việc đã xảy ra, vì một lý do khác.",
        "show": "w2"
       },
       {
-       "say": "Thứ ba: người ta sẽ bị buộc làm việc tới khi già hơn. Bị buộc khác với muốn, và cả hai bạn đều không nghi ngờ điều đó.",
+       "say": "Thứ ba: người ta sẽ bị buộc làm việc tới khi già hơn. Bị buộc khác với muốn. Cả hai bạn đều không nghi ngờ điều đó.",
        "show": "w3"
       },
       {
@@ -1010,7 +1010,7 @@
    "check": [
     "G1D27M1"
    ],
-   "can_do_vi": "Sau buổi này bạn giải thích được mỗi đáp án bằng đúng câu trong bài nghe, và vì sao các lựa chọn gần nghĩa vẫn sai.",
+   "can_do_vi": "Sau buổi này bạn giải thích được mỗi đáp án bằng đúng câu trong bài nghe và hiểu vì sao các lựa chọn gần nghĩa vẫn sai.",
    "use_vi": "Đối chiếu đáp án với lời thoại là cách nhanh nhất để lần sau nghe ra cách nói lại."
   }
  ],

@@ -145,7 +145,7 @@ SITTING_1 = [
         {"say": "Automatic là tự động. Khi máy tự làm thay người, ta có tự động hóa. Bài nghe mở đầu bằng một buổi seminar về chủ đề này."},
     ]},
     {"kind": "word", "headword": "textile", "lines": [
-        {"say": "Hàng dệt, ngành dệt. Cuộc cách mạng công nghiệp ở Anh bắt đầu từ ngành dệt, và những người Luddite là công nhân dệt."},
+        {"say": "Hàng dệt, ngành dệt. Cuộc cách mạng công nghiệp ở Anh bắt đầu từ ngành dệt. Những người Luddite là công nhân dệt."},
     ]},
     {"kind": "word", "headword": "threaten", "lines": [
         {"say": "Đe dọa. Trong bài, chàng trai nói anh hiểu vì sao những người Luddite cảm thấy bị đe dọa."},
@@ -250,7 +250,7 @@ POST = [
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Câu 25–30", "title": "Sáu nghề, sáu nhận xét",
      "data": {"cols": ["Nghề", "Bài nghe", "Nhận xét"], "rows": KEY_2, "rule": "Ghép nghề với nhận xét bằng cả nội dung lẫn mốc thời gian."}, "lines": [
-        {"say": "Kế toán: số người nhiều hơn bao giờ hết, và làm việc hiệu quả hơn nhiều. Việc làm tăng, năng suất cũng tăng.", "show": "j1"},
+        {"say": "Kế toán: số người nhiều hơn bao giờ hết; họ cũng làm việc hiệu quả hơn nhiều. Việc làm tăng, năng suất cũng tăng.", "show": "j1"},
         {"say": "Thợ làm tóc: thu nhập của người ta tăng nên họ có tiền chi cho dịch vụ này. Số thợ tăng mạnh.", "show": "j2"},
         {"say": "Nhân viên hành chính: trước kia chỉ ghi lời đọc và đánh máy, bây giờ có nhiều trách nhiệm và vị trí cao hơn. Vai trò thú vị hơn.", "show": "j3"},
         {"say": "Người làm nông: năm 1871 khoảng một phần tư dân số, bây giờ chưa tới hai phần nghìn. Giảm rất mạnh.", "show": "j4"},
@@ -261,8 +261,8 @@ POST = [
     {"kind": "scene", "visual": "fix_pairs", "eyebrow": "Vì sao sai", "title": "Ba lựa chọn dễ chọn nhầm",
      "data": {"rows": WHY_WRONG, "rule": "Nghe được chữ quen chưa đủ: phải khớp cả ý, cả lý do, cả mốc thời gian."}, "lines": [
         {"say": "Lựa chọn dễ nhầm thứ nhất: nghe thấy người tốt nghiệp đại học, nhiều bạn chọn nhận xét về bằng cấp. Nhưng câu đó chỉ nói ai chọn nghề này.", "show": "w1"},
-        {"say": "Thứ hai: nghề chăm sóc có tăng mạnh, nhưng là sẽ tăng, và vì người ta sống lâu hơn. Nhận xét về thu nhập nói một việc đã xảy ra, vì một lý do khác.", "show": "w2"},
-        {"say": "Thứ ba: người ta sẽ bị buộc làm việc tới khi già hơn. Bị buộc khác với muốn, và cả hai bạn đều không nghi ngờ điều đó.", "show": "w3"},
+        {"say": "Thứ hai: nghề chăm sóc có tăng mạnh, nhưng là sẽ tăng, vì người ta sống lâu hơn. Nhận xét về thu nhập nói một việc đã xảy ra, vì một lý do khác.", "show": "w2"},
+        {"say": "Thứ ba: người ta sẽ bị buộc làm việc tới khi già hơn. Bị buộc khác với muốn. Cả hai bạn đều không nghi ngờ điều đó.", "show": "w3"},
         {"say": "Nghe được chữ quen chưa đủ. Đáp án đúng phải khớp cả ý, cả lý do, cả mốc thời gian.", "show": "rule"},
     ]},
     {"kind": "end", "next": "Tiếp theo: viết vài câu về một nghề đang giảm và một nghề đang tăng ở Việt Nam.", "lines": [
@@ -298,7 +298,7 @@ def finish(sessions: list[dict], bank: dict[str, list[dict]]) -> list[dict]:
            "can_do_vi": "Sau buổi này bạn biết đọc câu hỏi trước, đoán cách nói lại, nghe thái độ của người nói và nhận ra bẫy về mốc thời gian.",
            "use_vi": "Part 3 có hai người nói; chuẩn bị trước giúp bạn biết phải nghe gì ở từng câu hỏi."}
     post = {"title_vi": LISTEN_TITLES[1], "lecture": POST, "check": list(mine["check"]),
-            "can_do_vi": "Sau buổi này bạn giải thích được mỗi đáp án bằng đúng câu trong bài nghe, và vì sao các lựa chọn gần nghĩa vẫn sai.",
+            "can_do_vi": "Sau buổi này bạn giải thích được mỗi đáp án bằng đúng câu trong bài nghe và hiểu vì sao các lựa chọn gần nghĩa vẫn sai.",
             "use_vi": "Đối chiếu đáp án với lời thoại là cách nhanh nhất để lần sau nghe ra cách nói lại."}
     vocab = [s for s in sessions if s.get("lecture") in LECTURES]
     rest = [s for s in sessions if s is not mine and s not in vocab]
