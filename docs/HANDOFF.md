@@ -780,3 +780,29 @@ Cập nhật 2026-11-12: có ảnh sách. 8 câu gốc sai của Destination B2 
 - Kiểm tra: test đầy đủ đúng 31 lỗi cũ; xem trước 23 slide sạch; audio buổi 1 (6:59), buổi 2 (9:36). Soát 87 đoạn: một
   chỗ giọng đọc chèn âm lạ (buổi 1, 2:55); đã đổi câu, ghi lại buổi 1, soát lại 35/35 khớp.
 - Tiếp theo: Ngày 5 (từ vựng Thời gian và Công việc, C1&C2 Unit 6 bài A–D).
+
+## Tuần 3 · Ngày 5: Thời gian và công việc (build day 35, lesson id 68; ngày từ vựng)
+
+- Nguồn: Buổi 6, chặng 2–4 (bộ lọc "vàng và cám"; on time / in time; temporary / provisional; prompt / quick;
+  long-standing; span; mẹo "danh từ gốc + có tính"; effective / efficient; make someone redundant; be headhunted;
+  nâng cụm job opportunities; luyện phát âm: đọc rõ từng âm, nhại khẩu hình).
+- Cấu trúc như Tuần 2 Ngày 5 (`vocab_day`): `scripts/g1/day35.py` (SECTIONS bài A–D của C1&C2 Unit 6 + DAY với 33 từ
+  trong 5 buổi: 7, 8, 8, 6, 4), `scripts/g1/lecture_w3d5.py` (PRON Oxford BrE, NOTES, 5 bài giảng, TITLES, reshape);
+  `days56.py` thêm DAYS[35]; `book_items.py` thêm _S35; `build.py`: DAYNO/WEEK 35, `VOCAB_W2[35] = W3D5`;
+  `tests/test_lesson_w3d5_quality.py`; test seed 68 bài, Tuần 3 = 5, g1-d35 vào danh sách ngày từ vựng; frontend
+  WORD_PICTURE 33 từ.
+- Đáp án sách (trang 286): A temporary, timely, seasonal, punctual, simultaneous, obsolete, provisional, overdue;
+  B era, spell, century, millennium, frequency, stint/spell, span, phase; C 1B 2B 3A 4A 5B 6B 7B 8A 9B 10B 11A 12A 13B 14B;
+  D multinational, marketing, consultant, executive, effective, efficient, redundant, leave, strike, fire, headhunted,
+  sacked. Ghi chú buổi 6 ghi câu C7 là chronological; đáp án sách và câu văn là permanent; app theo sách.
+- Không dạy: cụm động từ, thành ngữ (bài F trở đi), bài E; các từ "cám" (spell, stint, millennium, century, vintage,
+  antique, lifetime, anachronism, interval, abrupt, contemporaries, lapse) chỉ gặp trong bài tập.
+- Soát cấp cao: sửa 15 điểm, chủ yếu chỉnh các nhận định của lớp cho đúng từ điển: make someone redundant là cắt giảm
+  vì không còn cần vị trí, không phải "fire nói trang trọng" (fire là đuổi vì lỗi; trang trọng là dismiss); bỏ ý "on time
+  ở phương Tây là đến sớm"; temporary là ngắn rồi hết (a temporary solution vẫn đúng), provisional là tạm cho đến bản
+  chính thức; vintage car là xe cổ (nhất là 1919–1930), antique dùng cho đồ gỗ, trang sức; prompt là không chậm trễ,
+  quick không sai; câu nâng cấp dùng "Highly skilled workers … headhunted".
+- Kiểm tra: test đầy đủ đúng 31 lỗi cũ; xem trước 62 slide sạch (thêm hình cho temporary, permanent, frequency);
+  audio 5 buổi: 6:16, 7:30, 7:12, 5:32, 4:50; soát 216/216 đoạn tiếng Việt khớp (`/tmp/aud/verify35.py` có thử lại khi
+  Gemini báo 503); g1-d35=created; frontend đã deploy.
+- Tiếp theo: Ngày 6 (đọc: Living with artificial intelligence, Cam 18 Test 2 Passage 2).
