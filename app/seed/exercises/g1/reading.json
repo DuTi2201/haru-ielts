@@ -14345,7 +14345,7 @@
    "skill": "reading",
    "type": "read_cloze",
    "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (1/14)",
-   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "instruction_vi": "Một hội viên viết thư cho câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
    "questions": [
     {
      "id": "G1D35KW6C-1",
@@ -14360,7 +14360,7 @@
       }
      ],
      "answer": "1",
-     "explanation_vi": "Dịch vụ nhanh và chu đáo: `prompt service`. `prior` nghĩa là trước đó (prior to), không khen một dịch vụ. Khi viết, `prompt` (a prompt reply) hay hơn `quick` vì không mang ý vội vàng.",
+     "explanation_vi": "Dịch vụ nhanh chóng, không chậm trễ: `prompt service`. `prior` nghĩa là trước đó (prior to), không khen một dịch vụ. Khi viết thư, `prompt` (a prompt reply) trang trọng hơn `quick`.",
      "tags": []
     }
    ],
@@ -14374,7 +14374,7 @@
    "skill": "reading",
    "type": "read_cloze",
    "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (2/14)",
-   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "instruction_vi": "Một hội viên viết thư cho câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
    "questions": [
     {
      "id": "G1D35KW6C-2",
@@ -14403,7 +14403,7 @@
    "skill": "reading",
    "type": "read_cloze",
    "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (3/14)",
-   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "instruction_vi": "Một hội viên viết thư cho câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
    "questions": [
     {
      "id": "G1D35KW6C-3",
@@ -14432,7 +14432,7 @@
    "skill": "reading",
    "type": "read_cloze",
    "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (4/14)",
-   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "instruction_vi": "Một hội viên viết thư cho câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
    "questions": [
     {
      "id": "G1D35KW6C-4",
@@ -14447,7 +14447,7 @@
       }
      ],
      "answer": "1",
-     "explanation_vi": "Câu lạc bộ xe cổ mà xe vẫn chạy được: `vintage car`. `antique` là đồ cổ để trưng bày, sưu tầm, như antique furniture.",
+     "explanation_vi": "`vintage car` (Anh-Anh): xe cổ, nhất là xe sản xuất khoảng 1919–1930, đúng với the decade following the First World War ở câu sau. `antique` dùng cho đồ cổ có giá trị như đồ gỗ, trang sức; không nói antique car club.",
      "tags": []
     }
    ],
@@ -14461,7 +14461,7 @@
    "skill": "reading",
    "type": "read_cloze",
    "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (5/14)",
-   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "instruction_vi": "Một hội viên viết thư cho câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
    "questions": [
     {
      "id": "G1D35KW6C-5",
@@ -14490,7 +14490,7 @@
    "skill": "reading",
    "type": "read_cloze",
    "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (6/14)",
-   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "instruction_vi": "Một hội viên viết thư cho câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
    "questions": [
     {
      "id": "G1D35KW6C-6",
@@ -14519,7 +14519,7 @@
    "skill": "reading",
    "type": "read_cloze",
    "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (7/14)",
-   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "instruction_vi": "Một hội viên viết thư cho câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
    "questions": [
     {
      "id": "G1D35KW6C-7",
@@ -14548,7 +14548,7 @@
    "skill": "reading",
    "type": "read_cloze",
    "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (8/14)",
-   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "instruction_vi": "Một hội viên viết thư cho câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
    "questions": [
     {
      "id": "G1D35KW6C-8",
@@ -14577,7 +14577,7 @@
    "skill": "reading",
    "type": "read_cloze",
    "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (9/14)",
-   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "instruction_vi": "Một hội viên viết thư cho câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
    "questions": [
     {
      "id": "G1D35KW6C-9",
@@ -14606,7 +14606,7 @@
    "skill": "reading",
    "type": "read_cloze",
    "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (10/14)",
-   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "instruction_vi": "Một hội viên viết thư cho câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
    "questions": [
     {
      "id": "G1D35KW6C-10",
@@ -14621,7 +14621,7 @@
       }
      ],
      "answer": "2",
-     "explanation_vi": "Thời gian trôi qua: `elapse`, chủ ngữ luôn là thời gian (three months had elapsed). `lapse` là để một thứ hết hiệu lực (my membership lapsed).",
+     "explanation_vi": "Thời gian trôi qua: `elapse`, chủ ngữ luôn là thời gian (three months had elapsed). `lapse`: (thẻ, hợp đồng) hết hiệu lực vì không gia hạn (my membership lapsed).",
      "tags": []
     }
    ],
@@ -14635,7 +14635,7 @@
    "skill": "reading",
    "type": "read_cloze",
    "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (11/14)",
-   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "instruction_vi": "Một hội viên viết thư cho câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
    "questions": [
     {
      "id": "G1D35KW6C-11",
@@ -14664,7 +14664,7 @@
    "skill": "reading",
    "type": "read_cloze",
    "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (12/14)",
-   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "instruction_vi": "Một hội viên viết thư cho câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
    "questions": [
     {
      "id": "G1D35KW6C-12",
@@ -14679,7 +14679,7 @@
       }
      ],
      "answer": "2",
-     "explanation_vi": "Email đến sau email trước: `subsequent` (theo sau). Mẹo nhớ: danh từ gốc chỉ sự theo sau, thêm «có tính» là ra nghĩa tính từ.",
+     "explanation_vi": "Email đến sau email trước: `subsequent` (theo sau). `temporary` (tạm thời) không hợp: email thứ hai không phải email tạm. Mẹo nhớ: «có tính theo sau».",
      "tags": []
     }
    ],
@@ -14693,7 +14693,7 @@
    "skill": "reading",
    "type": "read_cloze",
    "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (13/14)",
-   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "instruction_vi": "Một hội viên viết thư cho câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
    "questions": [
     {
      "id": "G1D35KW6C-13",
@@ -14722,7 +14722,7 @@
    "skill": "reading",
    "type": "read_cloze",
    "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (14/14)",
-   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "instruction_vi": "Một hội viên viết thư cho câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
    "questions": [
     {
      "id": "G1D35KW6C-14",
@@ -14737,7 +14737,7 @@
       }
      ],
      "answer": "2",
-     "explanation_vi": "Những người cùng thời với mình: `contemporaries`. `anachronism` là một thứ lạc thời, như một chiếc điện thoại rất cũ giữa thời nay, không phải người để gặp.",
+     "explanation_vi": "Những người cùng thời với mình: `contemporaries`. `anachronism` là một thứ lạc thời; some of my anachronisms không có nghĩa ở đây.",
      "tags": []
     }
    ],

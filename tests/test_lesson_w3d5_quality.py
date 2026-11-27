@@ -161,7 +161,7 @@ def test_gate_the_class_contrasts_are_taught():
         "The campaign was effective: sales rose by 50%",
         "Robots are more efficient than people",
         "The company had to make fifty staff redundant",
-        "Young people have more opportunities to be headhunted by multinational corporations",
+        "Highly skilled workers have more opportunities to be headhunted by multinational corporations",
     ):
         assert sentence in script, sentence
     says = " ".join(" ".join(_says(lec)) for lec in L.LECTURES)

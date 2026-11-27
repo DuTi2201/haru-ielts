@@ -49,7 +49,7 @@ PRON = {
     "multinational corporation": "/ˌmʌltiˈnæʃnəl ˌkɔːpəˈreɪʃn/",
     "marketing campaign": "/ˈmɑːkɪtɪŋ kæmˈpeɪn/",
     "consultant": "/kənˈsʌltənt/",
-    "senior executive": "/ˈsiːniər ɪɡˈzekjətɪv/",
+    "senior executive": "/ˈsiːniə(r) ɪɡˈzekjətɪv/",
     "effective": "/ɪˈfektɪv/",
     "efficient": "/ɪˈfɪʃnt/",
     "make someone redundant": "/meɪk ˈsʌmwʌn rɪˈdʌndənt/",
@@ -59,8 +59,8 @@ PRON = {
 }
 
 NOTES = {
-    "temporary": "Dùng cho người, công việc, tình huống: a temporary worker, a temporary job.",
-    "provisional": "Dùng cho văn bản, giải pháp, kết quả: a provisional draft, a provisional solution. Không nói a temporary draft.",
+    "temporary": "Chỉ kéo dài một thời gian ngắn rồi hết: a temporary worker, a temporary solution.",
+    "provisional": "Dùng tạm cho đến khi thành bản chính thức: a provisional draft, provisional results.",
     "permanent": "Trái nghĩa với temporary: a permanent job, a permanent member.",
     "long-standing": "Khen một thứ có từ lâu và vẫn vững: a long-standing institution, a long-standing tradition.",
     "obsolete": "Lỗi thời đến mức không dùng được nữa, như phần mềm hay máy móc cũ.",
@@ -70,13 +70,13 @@ NOTES = {
     "punctual": "Đọc /ˈpʌŋktʃuəl/: có âm /k/ nhẹ trước /tʃ/. Danh từ: punctuality.",
     "on time": "Đúng giờ theo lịch: the train left on time.",
     "in time": "Kịp, trước khi quá muộn: just in time to catch the train.",
-    "prompt": "a prompt reply, prompt action. Khi viết, hay hơn quick vì không mang ý vội vàng.",
+    "prompt": "Nhanh chóng, không chậm trễ: a prompt reply, prompt action. Trang trọng hơn quick.",
     "simultaneous": "Hai việc xảy ra cùng một lúc. Trạng từ: simultaneously.",
     "instantaneous": "Xảy ra ngay lập tức, không có độ trễ.",
     "subsequent": "Mẹo nhớ: danh từ gốc là sự theo sau; thêm «có tính» là ra nghĩa: có tính theo sau, tiếp theo.",
     "era": "an era of mass communication. Đọc /ˈɪərə/. Gần nghĩa: age.",
     "period": "Một khoảng thời gian liền mạch: over the period, the period I spent abroad.",
-    "span": "a span of ten years = a period of ten years; concentration span: khả năng tập trung.",
+    "span": "a span of ten years = a period of ten years; attention span: thời gian tập trung được.",
     "phase": "go through a phase: trải qua một giai đoạn rồi sẽ hết. Đọc /feɪz/.",
     "frequency": "Danh từ: tần suất. Tính từ frequent mới là thường xuyên.",
     "annual": "Mỗi năm một lần: an annual dinner, annual sales. Đọc /ˈænjuəl/.",
@@ -88,7 +88,7 @@ NOTES = {
     "senior executive": "Lãnh đạo cấp cao trong một công ty.",
     "effective": "Đạt được kết quả mong muốn, không bàn đến tốc độ.",
     "efficient": "Đạt kết quả nhanh, ít tốn thời gian và công sức.",
-    "make someone redundant": "Cắt giảm nhân sự vì không còn cần vị trí đó. Khi viết, dùng cụm này thay cho fire.",
+    "make someone redundant": "Cắt giảm nhân sự vì không còn cần vị trí đó, không phải lỗi của người lao động. Khác fire (đuổi vì lỗi).",
     "on leave": "Đang nghỉ phép: be on leave, go on leave.",
     "strike": "Động từ: đình công. Danh từ: go on strike, be on strike.",
     "headhunt": "Hay dùng ở bị động: be headhunted by a company.",
@@ -105,12 +105,12 @@ def _row(key, icon, head, en, vi):
 FILTER = [
     _row("f1", "star", "Vàng · học kỹ để viết", "a provisional draft · a prompt reply · a long-standing institution", "Đáng dùng trong bài viết IELTS."),
     _row("f2", "eye", "Cám · chỉ cần nhận ra", "spell · stint · millennium · anachronism", "Gặp thì hiểu, không cần dùng."),
-    _row("f3", "checklist", "Học cả cụm", "a provisional draft, not a temporary draft", "Không ghép từ theo chữ tiếng Việt."),
+    _row("f3", "checklist", "Học cả cụm", "a provisional draft", "Học cả cụm, không ghép từ theo chữ tiếng Việt."),
 ]
 TEMP = [
-    _row("t1", "user_icon", "temporary · người, việc", "I'm a temporary worker.", "Người làm tạm thời vài tuần."),
-    _row("t2", "doc", "provisional · văn bản", "It's only a provisional draft.", "Bản nháp còn sửa được."),
-    _row("t3", "bulb", "provisional · giải pháp", "We need a provisional solution.", "Giải pháp tạm trong lúc chờ."),
+    _row("t1", "user_icon", "temporary · ngắn rồi hết", "I'm a temporary worker.", "Người làm tạm thời vài tuần."),
+    _row("t2", "doc", "provisional · chờ bản chính thức", "It's only a provisional draft.", "Bản nháp sẽ còn được sửa."),
+    _row("t3", "bulb", "temporary · giải pháp", "We need a temporary solution.", "Dùng tạm một thời gian rồi thôi."),
     _row("t4", "house", "permanent · lâu dài", "She has a permanent contract.", "Trái nghĩa với temporary."),
 ]
 OLD = [
@@ -126,8 +126,8 @@ TRAIN = [
     _row("a4", "check_bubble", "timely · đúng lúc cần", "What a timely arrival!", "Đến đúng lúc đang cần."),
 ]
 PROMPT = [
-    _row("p1", None, "quick · văn nói", "Let's have a quick look.", "Đúng, nhưng giản dị, có khi mang ý vội."),
-    _row("p2", None, "prompt · khi viết", "Thank you for your prompt reply.", "Nhanh mà chu đáo."),
+    _row("p1", None, "quick · rất hay dùng khi nói", "Let's have a quick look.", "Trung tính, giản dị."),
+    _row("p2", None, "prompt · khi viết", "Thank you for your prompt reply.", "Không chậm trễ; trang trọng."),
     _row("p3", None, "prompt · Writing Task 2", "Governments should take prompt action.", "Cụm hay gặp trong bài mẫu."),
 ]
 TOGETHER = [
@@ -170,13 +170,13 @@ EFFECT = [
 JOBS = [
     _row("r1", None, "on leave · nghỉ phép", "Darren is home on leave.", "Nghỉ có phép, vẫn còn việc."),
     _row("r2", None, "strike · đình công", "The union is planning to strike.", "Cả nhóm cùng nghỉ để phản đối."),
-    _row("r3", None, "fire · văn nói", "They fired him for stealing.", "Đuổi việc vì lỗi của người đó."),
-    _row("r4", None, "make someone redundant · khi viết", "The company had to make fifty staff redundant.", "Cắt giảm vì không còn cần vị trí."),
+    _row("r3", None, "fire · đuổi vì lỗi", "They fired him for stealing.", "Lỗi của người bị đuổi."),
+    _row("r4", None, "make someone redundant · cắt giảm", "The company had to make fifty staff redundant.", "Không còn cần vị trí, không phải lỗi."),
 ]
 UPGRADE = [
-    _row("u1", None, "Câu thường", "Young people have more job opportunities.", "Cụm ai cũng viết."),
-    _row("u2", None, "Câu hay hơn", "Young people have more opportunities to be headhunted by multinational corporations.", "Ghép hai cụm vừa học."),
-    _row("u3", None, "Câu thường", "Many companies fire workers when sales fall.", "fire là từ của văn nói."),
+    _row("u1", None, "Câu thường", "Highly skilled workers have more job opportunities.", "Cụm ai cũng viết."),
+    _row("u2", None, "Câu hay hơn", "Highly skilled workers have more opportunities to be headhunted by multinational corporations.", "Ghép hai cụm vừa học."),
+    _row("u3", None, "Câu thường", "Many companies fire workers when sales fall.", "fire là đuổi vì lỗi; ở đây là cắt giảm."),
     _row("u4", None, "Câu hay hơn", "Many companies make staff redundant when sales fall.", "Cụm trang trọng cho bài viết."),
 ]
 
@@ -188,21 +188,21 @@ SITTING_1 = [
     {"kind": "scene", "visual": "picture_cards", "eyebrow": "Trước khi học", "title": "Vàng và cám",
      "data": {"rows": FILTER, "rule": "Từ đáng dùng khi viết thì học kỹ, cả cụm đi kèm. Từ chỉ cần nhận ra thì gặp trong bài tập là đủ."}, "lines": [
         {"say": "Bài từ vựng này có hơn bốn mươi từ về thời gian. Không phải từ nào cũng đáng học kỹ. Từ đáng dùng trong bài viết gọi là vàng: học kỹ, học cả cụm.", "show": "f1"},
-        {"say": "Có những từ người Anh dùng trong văn nói, rất ít khi gặp trong bài viết học thuật. Đó là cám: gặp thì hiểu, không cần nhớ để dùng.", "show": "f2"},
-        {"say": "Và luôn học cả cụm. Hai từ cùng dịch là tạm thời, nhưng người bản ngữ chỉ ghép một từ với bản nháp.", "show": "f3"},
+        {"say": "Có những từ ít khi cần dùng trong bài IELTS. Đó là cám: gặp thì hiểu, không cần nhớ để dùng.", "show": "f2"},
+        {"say": "Và luôn học cả cụm. Hai từ cùng dịch là tạm thời, nhưng với bản nháp, người bản ngữ thường dùng provisional.", "show": "f3"},
         {"say": "Từ đáng dùng khi viết thì học kỹ, cả cụm đi kèm. Từ chỉ cần nhận ra thì gặp trong bài tập là đủ.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "picture_cards", "eyebrow": "Một chữ tiếng Việt, hai từ tiếng Anh", "title": "temporary và provisional",
-     "data": {"rows": TEMP, "rule": "Người, công việc, tình huống: temporary. Văn bản, giải pháp, kết quả: provisional. Trái nghĩa: permanent."}, "lines": [
-        {"say": "Người làm vài tuần rồi nghỉ là người làm tạm thời. Với người và công việc, dùng temporary.", "show": "t1"},
+     "data": {"rows": TEMP, "rule": "temporary: chỉ kéo dài một thời gian ngắn rồi hết. provisional: dùng tạm cho đến khi thành bản chính thức. Trái nghĩa: permanent."}, "lines": [
+        {"say": "Người làm vài tuần rồi nghỉ là người làm tạm thời. Thứ chỉ kéo dài một thời gian ngắn rồi hết thì dùng temporary.", "show": "t1"},
         {"en": "I'm a temporary worker.", "vi": "Tôi là nhân viên tạm thời.", "gap": True},
-        {"say": "Còn bản nháp, thứ sẽ được sửa sau, thì dùng provisional. Câu trả lời cho câu hỏi đầu buổi.", "show": "t2"},
+        {"say": "Còn bản nháp, thứ dùng tạm cho đến khi sửa thành bản chính thức, thì dùng provisional. Câu trả lời cho câu hỏi đầu buổi.", "show": "t2"},
         {"en": "It's only a provisional draft.", "vi": "Đây chỉ là bản nháp tạm thời.", "gap": True},
-        {"say": "Một giải pháp tạm trong lúc chờ giải pháp chính thức cũng là provisional. Cụm này rất hợp với bài viết Task 2.", "show": "t3"},
-        {"en": "We need a provisional solution.", "vi": "Chúng ta cần một giải pháp tạm thời.", "gap": True},
+        {"say": "Một giải pháp dùng tạm một thời gian thì là temporary. Cụm này rất hay gặp trong bài viết Task 2.", "show": "t3"},
+        {"en": "We need a temporary solution.", "vi": "Chúng ta cần một giải pháp tạm thời.", "gap": True},
         {"say": "Trái nghĩa với tạm thời là lâu dài, vĩnh viễn: permanent.", "show": "t4"},
         {"en": "She has a permanent contract.", "vi": "Cô ấy có hợp đồng dài hạn.", "gap": True},
-        {"say": "Người, công việc, tình huống: temporary. Văn bản, giải pháp, kết quả: provisional. Trái nghĩa là permanent.", "show": "rule"},
+        {"say": "Chỉ kéo dài một thời gian ngắn rồi hết: temporary. Dùng tạm cho đến khi thành bản chính thức: provisional. Trái nghĩa là permanent.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Cũ và mới", "title": "Lâu đời, lỗi thời, quá hạn, hết hạn",
      "data": {"rows": OLD, "rule": "long-standing là lời khen; obsolete là lời chê; long overdue là lẽ ra phải có từ lâu; expire là hết hạn."}, "lines": [
@@ -232,15 +232,15 @@ SITTING_1 = [
 ]
 
 SITTING_2 = [
-    {"kind": "title", "hook": "Tàu chạy lúc mười giờ, bạn đến lúc chín giờ năm mươi chín. On time hay in time?", "lines": [
-        {"say": "Tàu chạy lúc mười giờ. Bạn chạy đến ga lúc chín giờ năm mươi chín, vừa kịp nhảy lên. Bạn đến on time, hay in time?", "show": "hook"},
+    {"kind": "title", "hook": "Tàu chạy đúng mười giờ, bạn đến lúc chín giờ năm mươi chín. Ai on time, ai in time?", "lines": [
+        {"say": "Tàu chạy đúng mười giờ như lịch. Bạn đến ga lúc chín giờ năm mươi chín, vừa kịp nhảy lên. Câu nào nói về con tàu, câu nào nói về bạn: on time, hay in time?", "show": "hook"},
         {"say": "Buổi này học tám từ và cụm về đúng giờ, kịp thời, cùng lúc và tiếp theo, rồi cách luyện đọc từ mới."},
     ]},
     {"kind": "scene", "visual": "picture_cards", "eyebrow": "Thí nghiệm", "title": "on time, in time, punctual, timely",
      "data": {"rows": TRAIN, "rule": "on time: đúng giờ theo lịch. in time: kịp, trước khi quá muộn. punctual nói về người; timely nói về việc đến đúng lúc cần."}, "lines": [
         {"say": "Chuyến tàu khởi hành đúng giờ ghi trên lịch: on time.", "show": "a1"},
         {"en": "The train left on time.", "vi": "Tàu chạy đúng giờ.", "gap": True},
-        {"say": "Còn bạn, đến trước lúc tàu chạy một phút: vừa kịp, in time. Ở các nước phương Tây, on time thường còn có nghĩa là đến sớm hơn giờ hẹn một chút.", "show": "a2"},
+        {"say": "Còn bạn, đến trước lúc tàu chạy một phút: vừa kịp, in time.", "show": "a2"},
         {"en": "We arrived just in time to catch the train.", "vi": "Chúng tôi đến vừa kịp bắt chuyến tàu.", "gap": True},
         {"say": "Một người luôn đúng giờ thì là người punctual.", "show": "a3"},
         {"en": "I try to be punctual.", "vi": "Tôi cố gắng đúng giờ.", "gap": True},
@@ -249,14 +249,14 @@ SITTING_2 = [
         {"say": "Đúng giờ theo lịch là on time. Kịp trước khi quá muộn là in time. Còn punctual nói về người, timely nói về việc đến đúng lúc cần.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Văn nói và văn viết", "title": "quick hay prompt?",
-     "data": {"rows": PROMPT, "rule": "quick đúng nhưng giản dị, có khi mang ý vội. Khi viết, chọn prompt: a prompt reply, prompt action."}, "lines": [
-        {"say": "Quick là nhanh, rất hay dùng khi nói. Nhưng đôi khi nó mang ý làm vội, làm qua loa.", "show": "p1"},
-        {"en": "Let's have a quick look.", "vi": "Mình xem qua một chút nhé.", "gap": True, "recap": False},
-        {"say": "Prompt cũng là nhanh, nhưng là nhanh mà chu đáo, đáp ứng đúng lúc. Lời cảm ơn trong thư.", "show": "p2"},
+     "data": {"rows": PROMPT, "rule": "quick trung tính, rất hay dùng khi nói. Khi viết thư hay bài luận, prompt trang trọng hơn: a prompt reply, prompt action."}, "lines": [
+        {"say": "Quick là nhanh, rất hay dùng khi nói. Khi viết thư hay bài luận, có một từ trang trọng hơn.", "show": "p1"},
+        {"en": "Let's have a quick look.", "vi": "Chúng ta xem qua một chút nhé.", "gap": True, "recap": False},
+        {"say": "Prompt là nhanh chóng, không chậm trễ, lại trang trọng hơn. Lời cảm ơn trong thư.", "show": "p2"},
         {"en": "Thank you for your prompt reply.", "vi": "Cảm ơn bạn đã trả lời nhanh chóng.", "gap": True},
-        {"say": "Trong bài viết Task 2, bài mẫu điểm cao hay viết prompt action, hiếm khi viết quick action.", "show": "p3"},
+        {"say": "Trong bài viết Task 2, prompt action là cụm trang trọng hay gặp.", "show": "p3"},
         {"en": "Governments should take prompt action.", "vi": "Các chính phủ nên hành động kịp thời.", "gap": True},
-        {"say": "Quick đúng nhưng giản dị, có khi mang ý vội. Khi viết, chọn prompt.", "show": "rule"},
+        {"say": "Quick trung tính, rất hay dùng khi nói. Khi viết thư hay bài luận, prompt trang trọng hơn.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Cùng lúc và tiếp theo", "title": "simultaneous, instantaneous, subsequent",
      "data": {"rows": TOGETHER, "rule": "Cùng lúc: simultaneous. Ngay lập tức: instantaneous. Theo sau: subsequent. Tính từ khó: nhớ danh từ gốc rồi thêm «có tính»."}, "lines": [
@@ -282,7 +282,7 @@ SITTING_2 = [
     {"kind": "word", "headword": "punctual", "lines": [{"say": "Từ thứ hai: đúng giờ, nói về một người."}]},
     {"kind": "word", "headword": "on time", "lines": [{"say": "Cụm thứ ba: đúng giờ theo lịch."}]},
     {"kind": "word", "headword": "in time", "lines": [{"say": "Cụm thứ tư: vừa kịp."}]},
-    {"kind": "word", "headword": "prompt", "lines": [{"say": "Từ thứ năm: nhanh mà chu đáo."}]},
+    {"kind": "word", "headword": "prompt", "lines": [{"say": "Từ thứ năm: nhanh chóng, không chậm trễ."}]},
     {"kind": "word", "headword": "simultaneous", "lines": [{"say": "Từ thứ sáu: cùng một lúc."}]},
     {"kind": "word", "headword": "instantaneous", "lines": [{"say": "Từ thứ bảy: ngay lập tức."}]},
     {"kind": "word", "headword": "subsequent", "lines": [{"say": "Từ cuối: có tính theo sau, tức là tiếp theo."}]},
@@ -358,8 +358,8 @@ SITTING_4 = [
         {"en": "She works for a multinational corporation.", "vi": "Cô ấy làm cho một tập đoàn đa quốc gia.", "gap": True},
         {"say": "Chiến dịch tiếp thị của tập đoàn đó.", "show": "m2"},
         {"en": "The marketing campaign starts next month.", "vi": "Chiến dịch tiếp thị bắt đầu vào tháng sau.", "gap": True},
-        {"say": "Người được thuê từ bên ngoài để tư vấn. Người làm độc lập, không thuộc công ty nào, gọi là freelance.", "show": "m3"},
-        {"en": "Charlene is a freelance business consultant.", "vi": "Charlene là chuyên gia tư vấn kinh doanh tự do.", "gap": True},
+        {"say": "Người được thuê từ bên ngoài để tư vấn. Làm tự chủ, không thuộc công ty nào, gọi là freelance; người làm như vậy là freelancer.", "show": "m3"},
+        {"en": "Charlene is a freelance business consultant.", "vi": "Charlene là chuyên gia tư vấn kinh doanh độc lập.", "gap": True},
         {"say": "Người lãnh đạo cấp cao trong công ty.", "show": "m4"},
         {"en": "My dad is a senior executive.", "vi": "Bố tôi là một lãnh đạo cấp cao.", "gap": True},
         {"say": "Học cả cụm, không học từng từ rời: tập đoàn đa quốc gia, chiến dịch tiếp thị, chuyên gia tư vấn, lãnh đạo cấp cao.", "show": "rule"},
@@ -389,33 +389,33 @@ SITTING_4 = [
 ]
 
 SITTING_5 = [
-    {"kind": "title", "hook": "Rất nhiều bài viết dùng cụm «job opportunities». Có cách nói nào hay hơn?", "lines": [
-        {"say": "Trong mười bài viết về việc làm, có đến tám bài dùng cụm job opportunities. Có cách nào nói hay hơn không?", "show": "hook"},
+    {"kind": "title", "hook": "Rất nhiều bài viết dùng cụm «job opportunities». Có cách nào nói hay hơn?", "lines": [
+        {"say": "Rất nhiều bài viết về việc làm dùng cụm job opportunities. Có cách nào nói hay hơn không?", "show": "hook"},
         {"say": "Buổi này học bốn cụm về nghỉ phép, đình công, mất việc và được săn đón, rồi ghép chúng thành câu viết hay hơn."},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Nghỉ việc và mất việc", "title": "on leave, strike, fire, make redundant",
-     "data": {"rows": JOBS, "rule": "on leave: nghỉ phép. strike: đình công. fire là từ văn nói; khi viết về cắt giảm nhân sự, dùng make redundant."}, "lines": [
+     "data": {"rows": JOBS, "rule": "on leave: nghỉ phép. strike: đình công. fire: đuổi vì lỗi. make redundant: cắt giảm vì không còn cần vị trí."}, "lines": [
         {"say": "Nghỉ có phép, vẫn còn việc để quay lại: on leave.", "show": "r1"},
         {"en": "Darren is home on leave.", "vi": "Darren đang về nhà nghỉ phép.", "gap": True},
         {"say": "Cả nhóm cùng nghỉ việc để phản đối: đình công.", "show": "r2"},
         {"en": "The union is planning to strike.", "vi": "Công đoàn đang dự định đình công.", "gap": True},
-        {"say": "Bị đuổi việc vì lỗi của chính mình: fire. Đây là từ của văn nói.", "show": "r3"},
+        {"say": "Bị đuổi việc vì lỗi của chính mình: fire. Khi viết trang trọng, có từ dismiss.", "show": "r3"},
         {"en": "They fired him for stealing.", "vi": "Họ đuổi việc anh ta vì ăn cắp.", "gap": True, "recap": False},
-        {"say": "Công ty cắt giảm nhân sự vì không còn cần vị trí đó: make redundant. Khi viết, dùng cụm này.", "show": "r4"},
+        {"say": "Công ty cắt giảm nhân sự vì không còn cần vị trí đó, không phải lỗi của ai: make redundant.", "show": "r4"},
         {"en": "The company had to make fifty staff redundant.", "vi": "Công ty đã phải cắt giảm năm mươi nhân viên.", "gap": True},
-        {"say": "On leave là nghỉ phép. Strike là đình công. Fire là từ văn nói; khi viết về cắt giảm nhân sự, dùng make redundant.", "show": "rule"},
+        {"say": "On leave là nghỉ phép. Strike là đình công. Fire là đuổi vì lỗi. Make redundant là cắt giảm vì không còn cần vị trí.", "show": "rule"},
     ]},
     {"kind": "scene", "visual": "ref_table", "eyebrow": "Nâng cấp câu viết", "title": "Từ câu thường đến câu hay hơn",
      "data": {"rows": UPGRADE, "rule": "Ghép những cụm vừa học để câu viết tự nhiên và mới hơn: be headhunted by multinational corporations, make staff redundant."}, "lines": [
         {"say": "Câu thường: đúng, nhưng ai cũng viết.", "show": "u1"},
-        {"en": "Young people have more job opportunities.", "vi": "Người trẻ có nhiều cơ hội việc làm hơn.", "gap": True, "recap": False},
+        {"en": "Highly skilled workers have more job opportunities.", "vi": "Người lao động giỏi có nhiều cơ hội việc làm hơn.", "gap": True, "recap": False},
         {"say": "Ghép hai cụm vừa học: được săn đón, cùng tập đoàn đa quốc gia. Câu nghe mới và cụ thể hơn hẳn.", "show": "u2"},
-        {"en": "Young people have more opportunities to be headhunted by multinational corporations.", "vi": "Người trẻ có nhiều cơ hội được các tập đoàn đa quốc gia săn đón hơn.", "gap": True},
-        {"say": "Câu thường thứ hai dùng fire, một từ của văn nói.", "show": "u3"},
+        {"en": "Highly skilled workers have more opportunities to be headhunted by multinational corporations.", "vi": "Người lao động giỏi có nhiều cơ hội được các tập đoàn đa quốc gia săn đón hơn.", "gap": True},
+        {"say": "Câu thường thứ hai dùng fire, nhưng ý câu là cắt giảm khi doanh số giảm, không phải đuổi vì lỗi.", "show": "u3"},
         {"en": "Many companies fire workers when sales fall.", "vi": "Nhiều công ty đuổi việc nhân viên khi doanh số giảm.", "gap": True, "recap": False},
-        {"say": "Đổi sang cụm trang trọng hơn.", "show": "u4"},
+        {"say": "Đổi sang cụm đúng ý và trang trọng hơn.", "show": "u4"},
         {"en": "Many companies make staff redundant when sales fall.", "vi": "Nhiều công ty cắt giảm nhân sự khi doanh số giảm.", "gap": True},
-        {"say": "Giám khảo chấm từ vựng có phần cảm nhận độ tự nhiên và thú vị. Ghép những cụm vừa học để câu viết mới hơn, thay vì lặp lại những cụm ai cũng dùng.", "show": "rule"},
+        {"say": "Tiêu chí từ vựng chấm độ chính xác, độ tự nhiên của cụm từ và việc dùng được từ ít phổ biến. Ghép những cụm vừa học để câu viết chính xác và mới hơn.", "show": "rule"},
     ]},
     {"kind": "word", "headword": "make someone redundant", "lines": [{"say": "Giờ học từng cụm. Cụm thứ nhất: cắt giảm nhân sự."}]},
     {"kind": "word", "headword": "on leave", "lines": [{"say": "Cụm thứ hai: đang nghỉ phép."}]},
@@ -424,8 +424,8 @@ SITTING_5 = [
     {"kind": "recap", "lines": [
         {"say": "Thay cụm cơ hội việc làm quen thuộc bằng cơ hội được các tập đoàn đa quốc gia săn đón. Giờ nói lại các câu của buổi này. Nghe một câu, rồi nói to trong quãng nghỉ.", "show": "title"},
     ]},
-    {"kind": "end", "next": "Tiếp theo: làm bài của sách, rồi gõ hai câu của bạn.", "lines": [
-        {"say": "Hết phần giảng của ngày năm. Bạn làm bài của sách, rồi chọn năm đến mười từ bạn thích nhất và gõ hai câu về công việc hay thời gian biểu của chính bạn.", "show": "title"},
+    {"kind": "end", "next": "Tiếp theo: làm bài tập, rồi gõ hai câu của bạn.", "lines": [
+        {"say": "Hết phần giảng của ngày năm. Bạn làm bài tập, rồi chọn năm đến mười từ bạn thích nhất và gõ hai câu về công việc hay thời gian biểu của chính bạn.", "show": "title"},
     ]},
 ]
 
