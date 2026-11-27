@@ -563,3 +563,7 @@ SECTIONS += [
         "We ( ㉠ ) (probably / not / leave) by the time you get home. | probably won't have left;probably will not have left;will probably not have left | Câu phủ định: probably đứng trước won't: we probably won't have left.",
     ]),
 ]
+
+from day35 import SECTIONS as _S35  # noqa: E402  (Week 3 · Day 5: Destination C1&C2 Unit 6, exercises A-D)
+
+SECTIONS += _S35

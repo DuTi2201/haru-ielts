@@ -14341,6 +14341,412 @@
    ]
   },
   {
+   "id": "G1D35KW6C-1",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (1/14)",
+   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "questions": [
+    {
+     "id": "G1D35KW6C-1",
+     "options": [
+      {
+       "id": "1",
+       "text": "prompt"
+      },
+      {
+       "id": "2",
+       "text": "prior"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Dịch vụ nhanh và chu đáo: `prompt service`. `prior` nghĩa là trước đó (prior to), không khen một dịch vụ. Khi viết, `prompt` (a prompt reply) hay hơn `quick` vì không mang ý vội vàng.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I am writing to thank the organisation for the ( ) service I received…"
+   }
+  },
+  {
+   "id": "G1D35KW6C-2",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (2/14)",
+   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "questions": [
+    {
+     "id": "G1D35KW6C-2",
+     "options": [
+      {
+       "id": "1",
+       "text": "expired"
+      },
+      {
+       "id": "2",
+       "text": "postponed"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Thẻ hội viên hết hạn: `expire`. `postpone` (hoãn) dùng cho một sự kiện, như cuộc họp hay chuyến đi.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "…the prompt service I received when my membership ( )."
+   }
+  },
+  {
+   "id": "G1D35KW6C-3",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (3/14)",
+   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "questions": [
+    {
+     "id": "G1D35KW6C-3",
+     "options": [
+      {
+       "id": "1",
+       "text": "timely"
+      },
+      {
+       "id": "2",
+       "text": "long-standing"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Hội viên lâu năm: `a long-standing member`. Khi viết còn gặp a long-standing institution, a long-standing tradition. `timely` (kịp thời) không mô tả một người.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "As you may know, I am a ( ) member of the Chaversham…"
+   }
+  },
+  {
+   "id": "G1D35KW6C-4",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (4/14)",
+   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "questions": [
+    {
+     "id": "G1D35KW6C-4",
+     "options": [
+      {
+       "id": "1",
+       "text": "Vintage"
+      },
+      {
+       "id": "2",
+       "text": "Antique"
+      }
+     ],
+     "answer": "1",
+     "explanation_vi": "Câu lạc bộ xe cổ mà xe vẫn chạy được: `vintage car`. `antique` là đồ cổ để trưng bày, sưu tầm, như antique furniture.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "…a long-standing member of the Chaversham ( ) Car Club…"
+   }
+  },
+  {
+   "id": "G1D35KW6C-5",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (5/14)",
+   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "questions": [
+    {
+     "id": "G1D35KW6C-5",
+     "options": [
+      {
+       "id": "1",
+       "text": "spell"
+      },
+      {
+       "id": "2",
+       "text": "lifetime"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Gần cả đời làm việc với xe: `most of my lifetime`. `spell` chỉ một quãng ngắn, không đi với most of my.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "…having spent most of my ( ) working with cars…"
+   }
+  },
+  {
+   "id": "G1D35KW6C-6",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (6/14)",
+   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "questions": [
+    {
+     "id": "G1D35KW6C-6",
+     "options": [
+      {
+       "id": "1",
+       "text": "duration"
+      },
+      {
+       "id": "2",
+       "text": "decade"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Những chiếc xe làm trong mười năm sau chiến tranh: `the decade following…`. `duration` là độ dài của một việc (the duration of the course), không chỉ một quãng trong lịch sử.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "…working with cars built in the ( ) following the First World War."
+   }
+  },
+  {
+   "id": "G1D35KW6C-7",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (7/14)",
+   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "questions": [
+    {
+     "id": "G1D35KW6C-7",
+     "options": [
+      {
+       "id": "1",
+       "text": "chronological"
+      },
+      {
+       "id": "2",
+       "text": "permanent"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Hội viên vĩnh viễn, không phải gia hạn mỗi năm: `permanent member`. `chronological` nghĩa là theo trình tự thời gian (in chronological order), không mô tả một hội viên.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "…I had been granted the status of '( ) member'…"
+   }
+  },
+  {
+   "id": "G1D35KW6C-8",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (8/14)",
+   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "questions": [
+    {
+     "id": "G1D35KW6C-8",
+     "options": [
+      {
+       "id": "1",
+       "text": "interval"
+      },
+      {
+       "id": "2",
+       "text": "period"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Một khoảng thời gian liền mạch làm chủ tịch: `period`. `interval` là quãng nghỉ xen giữa hai việc, như giờ giải lao của một vở kịch.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "…for the ( ) I spent as Chairperson of the organisation in the 1970s."
+   }
+  },
+  {
+   "id": "G1D35KW6C-9",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (9/14)",
+   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "questions": [
+    {
+     "id": "G1D35KW6C-9",
+     "options": [
+      {
+       "id": "1",
+       "text": "interim"
+      },
+      {
+       "id": "2",
+       "text": "abrupt"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Một email cộc lốc, đột ngột làm người viết ngạc nhiên: `abrupt`. `interim` là tạm thời trong lúc chờ (an interim report), không nói về giọng điệu.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I was therefore more than a little surprised to receive a rather ( ) e-mail…"
+   }
+  },
+  {
+   "id": "G1D35KW6C-10",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (10/14)",
+   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "questions": [
+    {
+     "id": "G1D35KW6C-10",
+     "options": [
+      {
+       "id": "1",
+       "text": "lapsed"
+      },
+      {
+       "id": "2",
+       "text": "elapsed"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Thời gian trôi qua: `elapse`, chủ ngữ luôn là thời gian (three months had elapsed). `lapse` là để một thứ hết hiệu lực (my membership lapsed).",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "…saying that as three months had ( ) since my membership ran out…"
+   }
+  },
+  {
+   "id": "G1D35KW6C-11",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (11/14)",
+   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "questions": [
+    {
+     "id": "G1D35KW6C-11",
+     "options": [
+      {
+       "id": "1",
+       "text": "eternal"
+      },
+      {
+       "id": "2",
+       "text": "annual"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Bữa tối tổ chức mỗi năm một lần: `annual dinner`. `eternal` là vĩnh cửu, không đi với một bữa tối.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "…I was no longer eligible to attend the ( ) dinner next month."
+   }
+  },
+  {
+   "id": "G1D35KW6C-12",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (12/14)",
+   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "questions": [
+    {
+     "id": "G1D35KW6C-12",
+     "options": [
+      {
+       "id": "1",
+       "text": "temporary"
+      },
+      {
+       "id": "2",
+       "text": "subsequent"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Email đến sau email trước: `subsequent` (theo sau). Mẹo nhớ: danh từ gốc chỉ sự theo sau, thêm «có tính» là ra nghĩa tính từ.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I received a ( ) e-mail from the same person, apologising for the confusion…"
+   }
+  },
+  {
+   "id": "G1D35KW6C-13",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (13/14)",
+   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "questions": [
+    {
+     "id": "G1D35KW6C-13",
+     "options": [
+      {
+       "id": "1",
+       "text": "simultaneous"
+      },
+      {
+       "id": "2",
+       "text": "instantaneous"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Thay đổi xảy ra ngay lập tức: `instantaneous`. `simultaneous` là hai việc cùng lúc, cần hai sự việc để so.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "…the change from my being a non-member to being a member again was literally ( )."
+   }
+  },
+  {
+   "id": "G1D35KW6C-14",
+   "skill": "reading",
+   "type": "read_cloze",
+   "title_vi": "Sách · Chọn từ đúng: lá thư gửi câu lạc bộ xe cổ (14/14)",
+   "instruction_vi": "Một hội viên lâu năm viết thư cảm ơn câu lạc bộ xe cổ. Chọn từ đúng cho từng chỗ trống. Loại phương án sai bằng nghĩa, bằng từ đi kèm và bằng từ loại.",
+   "questions": [
+    {
+     "id": "G1D35KW6C-14",
+     "options": [
+      {
+       "id": "1",
+       "text": "anachronisms"
+      },
+      {
+       "id": "2",
+       "text": "contemporaries"
+      }
+     ],
+     "answer": "2",
+     "explanation_vi": "Những người cùng thời với mình: `contemporaries`. `anachronism` là một thứ lạc thời, như một chiếc điện thoại rất cũ giữa thời nay, không phải người để gặp.",
+     "tags": []
+    }
+   ],
+   "stimulus": {
+    "kind": "cloze",
+    "text": "I am now looking forward to meeting up with some of my ( ) at the dinner next week."
+   }
+  },
+  {
    "id": "G1D8RP1",
    "skill": "reading",
    "type": "read_passage",

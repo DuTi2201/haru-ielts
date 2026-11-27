@@ -11688,6 +11688,623 @@
    "tips_vi": []
   },
   {
+   "id": "G1D35KW6A-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: tạm thời, kịp thời, lỗi thời (1/8)",
+   "points": 3,
+   "instruction_vi": "Khung có tám từ: obsolete, overdue, provisional, punctual, seasonal, simultaneous, temporary, timely. Mỗi từ dùng một lần.",
+   "text": "I'll only be working here for a couple of weeks. I'm a ( ㉠ ) worker.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "temporary"
+     ],
+     "common_errors_vi": "Chỉ làm vài tuần: người làm tạm thời. Với người, công việc, tình huống thì dùng `temporary`; `provisional` dùng cho bản nháp, giải pháp, kết quả."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6A-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: tạm thời, kịp thời, lỗi thời (2/8)",
+   "points": 3,
+   "instruction_vi": "Khung có tám từ: obsolete, overdue, provisional, punctual, seasonal, simultaneous, temporary, timely. Mỗi từ dùng một lần.",
+   "text": "It couldn't have happened at a better time! What a ( ㉠ ) arrival!",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "timely"
+     ],
+     "common_errors_vi": "`at a better time`: đến đúng lúc, kịp thời: `timely`. Đuôi -ly ở đây là tính từ, không phải trạng từ: a timely arrival, a timely solution."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6A-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: tạm thời, kịp thời, lỗi thời (3/8)",
+   "points": 3,
+   "instruction_vi": "Khung có tám từ: obsolete, overdue, provisional, punctual, seasonal, simultaneous, temporary, timely. Mỗi từ dùng một lần.",
+   "text": "It depends on the time of year. It's a ( ㉠ ) problem.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "seasonal"
+     ],
+     "common_errors_vi": "`the time of year`: theo mùa: `seasonal`, từ danh từ season."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6A-4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: tạm thời, kịp thời, lỗi thời (4/8)",
+   "points": 3,
+   "instruction_vi": "Khung có tám từ: obsolete, overdue, provisional, punctual, seasonal, simultaneous, temporary, timely. Mỗi từ dùng một lần.",
+   "text": "I get to work at nine o'clock on the dot every day. I try to be ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "punctual"
+     ],
+     "common_errors_vi": "`on the dot`: đúng giờ chính xác: `punctual`. Đọc /ˈpʌŋktʃuəl/: có âm /k/ nhẹ trước /tʃ/."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6A-5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: tạm thời, kịp thời, lỗi thời (5/8)",
+   "points": 3,
+   "instruction_vi": "Khung có tám từ: obsolete, overdue, provisional, punctual, seasonal, simultaneous, temporary, timely. Mỗi từ dùng một lần.",
+   "text": "We both said it at exactly the same time. Our answer was ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "simultaneous"
+     ],
+     "common_errors_vi": "`at exactly the same time`: cùng một lúc: `simultaneous`. Đọc /ˌsɪmlˈteɪniəs/."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6A-6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: tạm thời, kịp thời, lỗi thời (6/8)",
+   "points": 3,
+   "instruction_vi": "Khung có tám từ: obsolete, overdue, provisional, punctual, seasonal, simultaneous, temporary, timely. Mỗi từ dùng một lần.",
+   "text": "We can't use that software on our new computers. It's ( ㉠ )!",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "obsolete"
+     ],
+     "common_errors_vi": "Phần mềm cũ không dùng được nữa: lỗi thời: `obsolete`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6A-7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: tạm thời, kịp thời, lỗi thời (7/8)",
+   "points": 3,
+   "instruction_vi": "Khung có tám từ: obsolete, overdue, provisional, punctual, seasonal, simultaneous, temporary, timely. Mỗi từ dùng một lần.",
+   "text": "It's the first draft of the text. We can change it later if we want. It's only ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "provisional"
+     ],
+     "common_errors_vi": "Bản nháp đầu, có thể sửa sau: tạm thời: `provisional` (a provisional draft). Với văn bản, người bản ngữ không nói a temporary draft."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6A-8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: tạm thời, kịp thời, lỗi thời (8/8)",
+   "points": 3,
+   "instruction_vi": "Khung có tám từ: obsolete, overdue, provisional, punctual, seasonal, simultaneous, temporary, timely. Mỗi từ dùng một lần.",
+   "text": "They should have sent that to us ages ago. It's long ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "overdue"
+     ],
+     "common_errors_vi": "`should have sent ... ages ago`: lẽ ra phải gửi từ lâu: quá hạn: cụm cố định `long overdue`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6B-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: các quãng thời gian (1/8)",
+   "points": 3,
+   "instruction_vi": "Khung có tám từ: century, era, frequency, millennium, phase, span, spell, stint. Mỗi từ dùng một lần (câu 6 có thể nhận hai từ).",
+   "text": "We live in a/an ( ㉠ ) of mass communication.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "era"
+     ],
+     "common_errors_vi": "Một thời đại dài có đặc điểm riêng: `an era of mass communication` (an age of … cũng nói được). `an` đứng trước vì era bắt đầu bằng nguyên âm."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6B-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: các quãng thời gian (2/8)",
+   "points": 3,
+   "instruction_vi": "Khung có tám từ: century, era, frequency, millennium, phase, span, spell, stint. Mỗi từ dùng một lần (câu 6 có thể nhận hai từ).",
+   "text": "After a short ( ㉠ ) of being unemployed, I decided to set up my own business.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "spell"
+     ],
+     "common_errors_vi": "Một quãng ngắn của một trạng thái (thất nghiệp, thời tiết): `a spell`. `stint` là quãng làm một công việc, nên không hợp với being unemployed."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6B-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: các quãng thời gian (3/8)",
+   "points": 3,
+   "instruction_vi": "Khung có tám từ: century, era, frequency, millennium, phase, span, spell, stint. Mỗi từ dùng một lần (câu 6 có thể nhận hai từ).",
+   "text": "It was in the twentieth ( ㉠ ) that humans first developed nuclear weapons.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "century"
+     ],
+     "common_errors_vi": "`the twentieth century`: thế kỷ hai mươi."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6B-4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: các quãng thời gian (4/8)",
+   "points": 3,
+   "instruction_vi": "Khung có tám từ: century, era, frequency, millennium, phase, span, spell, stint. Mỗi từ dùng một lần (câu 6 có thể nhận hai từ).",
+   "text": "Despite advances in technology, no human being will ever live for a ( ㉠ ) in my opinion.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "millennium"
+     ],
+     "common_errors_vi": "Sống cả nghìn năm thì không ai làm được: `millennium` (thiên niên kỷ). century không hợp vì đã có người sống quá một trăm tuổi."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6B-5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: các quãng thời gian (5/8)",
+   "points": 3,
+   "instruction_vi": "Khung có tám từ: century, era, frequency, millennium, phase, span, spell, stint. Mỗi từ dùng một lần (câu 6 có thể nhận hai từ).",
+   "text": "The council is planning to increase the ( ㉠ ) of buses to the city centre.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "frequency"
+     ],
+     "common_errors_vi": "Tăng số chuyến xe: tần suất: `frequency` (danh từ), không phải `frequent` (tính từ, thường xuyên)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6B-6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: các quãng thời gian (6/8)",
+   "points": 3,
+   "instruction_vi": "Khung có tám từ: century, era, frequency, millennium, phase, span, spell, stint. Mỗi từ dùng một lần (câu 6 có thể nhận hai từ).",
+   "text": "I did a brief ( ㉠ ) in the navy, and then decided it wasn't for me.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "stint",
+      "spell"
+     ],
+     "common_errors_vi": "Một quãng ngắn làm việc ở đâu đó: `stint` (a brief stint in the navy); đáp án bài thi nhận cả `spell`. Cả hai là từ chỉ cần nhận ra, ít dùng khi viết."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6B-7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: các quãng thời gian (7/8)",
+   "points": 3,
+   "instruction_vi": "Khung có tám từ: century, era, frequency, millennium, phase, span, spell, stint. Mỗi từ dùng một lần (câu 6 có thể nhận hai từ).",
+   "text": "I've got a very short concentration ( ㉠ ).",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "span"
+     ],
+     "common_errors_vi": "Cụm cố định `concentration span` (khả năng tập trung trong bao lâu). Khi viết: a span of ten years = a period of ten years."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6B-8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong khung: các quãng thời gian (8/8)",
+   "points": 3,
+   "instruction_vi": "Khung có tám từ: century, era, frequency, millennium, phase, span, spell, stint. Mỗi từ dùng một lần (câu 6 có thể nhận hai từ).",
+   "text": "It's just a ( ㉠ ) that most teenagers go through. Don't worry!",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "phase"
+     ],
+     "common_errors_vi": "`go through a phase`: trải qua một giai đoạn rồi sẽ hết: `phase` (giai đoạn), không dịch là bước."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6D-1",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong từng cặp: công việc (1/12)",
+   "points": 3,
+   "instruction_vi": "Mỗi cặp câu có hai từ trong khung bên cạnh, mỗi từ dùng một lần: marketing / multinational; consultant / executive; effective / efficient; leave / redundant; fire / strike; headhunted / sacked.",
+   "text": "Would you like to work for a large ( ㉠ ) corporation?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "multinational"
+     ],
+     "common_errors_vi": "Tập đoàn có mặt ở nhiều nước: `multinational corporation`, cụm rất hay dùng khi viết."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6D-2",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong từng cặp: công việc (2/12)",
+   "points": 3,
+   "instruction_vi": "Mỗi cặp câu có hai từ trong khung bên cạnh, mỗi từ dùng một lần: marketing / multinational; consultant / executive; effective / efficient; leave / redundant; fire / strike; headhunted / sacked.",
+   "text": "How much budget is there for the ( ㉠ ) campaign?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "marketing"
+     ],
+     "common_errors_vi": "Chiến dịch tiếp thị: `marketing campaign`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6D-3",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong từng cặp: công việc (3/12)",
+   "points": 3,
+   "instruction_vi": "Mỗi cặp câu có hai từ trong khung bên cạnh, mỗi từ dùng một lần: marketing / multinational; consultant / executive; effective / efficient; leave / redundant; fire / strike; headhunted / sacked.",
+   "text": "Charlene is a freelance business ( ㉠ ); companies hire her to solve particular problems they are facing.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "consultant"
+     ],
+     "common_errors_vi": "Được thuê để tư vấn, giải quyết vấn đề: `consultant`. freelance là làm tự do, không thuộc một công ty."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6D-4",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong từng cặp: công việc (4/12)",
+   "points": 3,
+   "instruction_vi": "Mỗi cặp câu có hai từ trong khung bên cạnh, mỗi từ dùng một lần: marketing / multinational; consultant / executive; effective / efficient; leave / redundant; fire / strike; headhunted / sacked.",
+   "text": "My dad's a senior ( ㉠ ) in a huge American corporation.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "executive"
+     ],
+     "common_errors_vi": "Lãnh đạo cấp cao trong công ty: `senior executive`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6D-5",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong từng cặp: công việc (5/12)",
+   "points": 3,
+   "instruction_vi": "Mỗi cặp câu có hai từ trong khung bên cạnh, mỗi từ dùng một lần: marketing / multinational; consultant / executive; effective / efficient; leave / redundant; fire / strike; headhunted / sacked.",
+   "text": "The advertising campaign was ( ㉠ ) in that it increased sales by over 50%.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "effective"
+     ],
+     "common_errors_vi": "Đạt kết quả mong muốn (doanh số tăng): `effective` (hiệu quả). Câu không nói gì về thời gian hay chi phí."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6D-6",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong từng cặp: công việc (6/12)",
+   "points": 3,
+   "instruction_vi": "Mỗi cặp câu có hai từ trong khung bên cạnh, mỗi từ dùng một lần: marketing / multinational; consultant / executive; effective / efficient; leave / redundant; fire / strike; headhunted / sacked.",
+   "text": "Robots are often much more ( ㉠ ) than people because they can work 24 hours a day without getting tired, and they don't make mistakes!",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "efficient"
+     ],
+     "common_errors_vi": "Làm nhiều hơn với cùng thời gian và công sức: `efficient` (hiệu suất cao)."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6D-7",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong từng cặp: công việc (7/12)",
+   "points": 3,
+   "instruction_vi": "Mỗi cặp câu có hai từ trong khung bên cạnh, mỗi từ dùng một lần: marketing / multinational; consultant / executive; effective / efficient; leave / redundant; fire / strike; headhunted / sacked.",
+   "text": "The paper had to make several journalists ( ㉠ ) last week due to loss of sales.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "redundant"
+     ],
+     "common_errors_vi": "`make someone redundant`: cắt giảm nhân sự vì công ty không còn cần vị trí đó. Khi viết, dùng cụm này thay cho fire."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6D-8",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong từng cặp: công việc (8/12)",
+   "points": 3,
+   "instruction_vi": "Mỗi cặp câu có hai từ trong khung bên cạnh, mỗi từ dùng một lần: marketing / multinational; consultant / executive; effective / efficient; leave / redundant; fire / strike; headhunted / sacked.",
+   "text": "Darren's home on ( ㉠ ) from the army at the moment.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "leave"
+     ],
+     "common_errors_vi": "`on leave`: đang nghỉ phép."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6D-9",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong từng cặp: công việc (9/12)",
+   "points": 3,
+   "instruction_vi": "Mỗi cặp câu có hai từ trong khung bên cạnh, mỗi từ dùng một lần: marketing / multinational; consultant / executive; effective / efficient; leave / redundant; fire / strike; headhunted / sacked.",
+   "text": "How long is the union planning to ( ㉠ ) for?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "strike"
+     ],
+     "common_errors_vi": "Công đoàn định đình công bao lâu: `strike` (động từ). Danh từ: go on strike, be on strike."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6D-10",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong từng cặp: công việc (10/12)",
+   "points": 3,
+   "instruction_vi": "Mỗi cặp câu có hai từ trong khung bên cạnh, mỗi từ dùng một lần: marketing / multinational; consultant / executive; effective / efficient; leave / redundant; fire / strike; headhunted / sacked.",
+   "text": "They wouldn't ( ㉠ ) someone just for stealing a bit of stationery, would they?",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "fire"
+     ],
+     "common_errors_vi": "Đuổi việc vì lỗi của người đó: `fire`. Đây là từ của văn nói; khi viết về cắt giảm nhân sự, dùng make someone redundant."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6D-11",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong từng cặp: công việc (11/12)",
+   "points": 3,
+   "instruction_vi": "Mỗi cặp câu có hai từ trong khung bên cạnh, mỗi từ dùng một lần: marketing / multinational; consultant / executive; effective / efficient; leave / redundant; fire / strike; headhunted / sacked.",
+   "text": "Sue used to work here, but then she was ( ㉠ ) by a major law firm.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "headhunted"
+     ],
+     "common_errors_vi": "Được công ty khác săn đón, mời về: `be headhunted`. Khi viết: opportunities to be headhunted by multinational corporations."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
+   "id": "G1D35KW6D-12",
+   "skill": "build",
+   "type": "write_fill",
+   "rung": 2,
+   "number": "Bước 2",
+   "title_vi": "Sách · Điền từ trong từng cặp: công việc (12/12)",
+   "points": 3,
+   "instruction_vi": "Mỗi cặp câu có hai từ trong khung bên cạnh, mỗi từ dùng một lần: marketing / multinational; consultant / executive; effective / efficient; leave / redundant; fire / strike; headhunted / sacked.",
+   "text": "I can't believe they ( ㉠ ) Jack just for taking a few paperclips home with him.",
+   "blanks": [
+    {
+     "id": "㉠",
+     "points": 3,
+     "accepted": [
+      "sacked"
+     ],
+     "common_errors_vi": "Đuổi việc vì lỗi nhỏ: `sack` (văn nói, như fire). Việc đã xảy ra: `sacked`."
+    }
+   ],
+   "tips_vi": []
+  },
+  {
    "id": "G1D8KV2-1",
    "skill": "build",
    "type": "write_fill",
